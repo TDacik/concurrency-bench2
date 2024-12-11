@@ -1,102 +1,102 @@
-// tag-#anon#ST[*{SYM#tag-X509_sig_st#}$SYM#tag-X509_sig_st#$'dinfo'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'salt'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'iter'|]
+// tag-#anon#ST[*{SYM#tag-X509_sig_st#}_SYM#tag-X509_sig_st#_'dinfo'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'salt'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'iter'|]
 // file /usr/include/openssl/pkcs12.h line 102
 struct anonymous;
 
-// tag-#anon#ST[*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'version'||*{SYM#tag-#anon#ST[*{SYM#tag-X509_sig_st#}$SYM#tag-X509_sig_st#$'dinfo'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'salt'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'iter'|]#}$SYM#tag-#anon#ST[*{SYM#tag-X509_sig_st#}$SYM#tag-X509_sig_st#$'dinfo'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'salt'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'iter'|]#$'mac'||*{SYM#tag-pkcs7_st#}$SYM#tag-pkcs7_st#$'authsafes'|]
+// tag-#anon#ST[*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'version'||*{SYM#tag-#anon#ST[*{SYM#tag-X509_sig_st#}_SYM#tag-X509_sig_st#_'dinfo'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'salt'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'iter'|]#}_SYM#tag-#anon#ST[*{SYM#tag-X509_sig_st#}_SYM#tag-X509_sig_st#_'dinfo'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'salt'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'iter'|]#_'mac'||*{SYM#tag-pkcs7_st#}_SYM#tag-pkcs7_st#_'authsafes'|]
 // file /usr/include/openssl/pkcs12.h line 108
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[ARR128{U8}$U8$'cert_verify_md'||ARR128{U8}$U8$'finish_md'||S32'finish_md_len'||ARR128{U8}$U8$'peer_finish_md'||S32'peer_finish_md_len'||U64'message_size'||S32'message_type'||U32'$pad0'||*{cSYM#tag-ssl_cipher_st#}$cSYM#tag-ssl_cipher_st#$'new_cipher'||*{SYM#tag-dh_st#}$SYM#tag-dh_st#$'dh'||*{SYM#tag-ec_key_st#}$SYM#tag-ec_key_st#$'ecdh'||S32'next_state'||S32'reuse_message'||S32'cert_req'||S32'ctype_num'||ARR9{S8}$S8$'ctype'||U56'$pad1'||*{SYM#tag-stack_st_X509_NAME#}$SYM#tag-stack_st_X509_NAME#$'ca_names'||S32'use_rsa_tmp'||S32'key_block_length'||*{U8}$U8$'key_block'||*{cSYM#tag-evp_cipher_st#}$cSYM#tag-evp_cipher_st#$'new_sym_enc'||*{cSYM#tag-env_md_st#}$cSYM#tag-env_md_st#$'new_hash'||S32'new_mac_pkey_type'||S32'new_mac_secret_size'||*{cSYM#tag-ssl_comp_st#}$cSYM#tag-ssl_comp_st#$'new_compression'||S32'cert_request'||U32'$pad2'|]
+// tag-#anon#ST[ARR128{U8}_U8_'cert_verify_md'||ARR128{U8}_U8_'finish_md'||S32'finish_md_len'||ARR128{U8}_U8_'peer_finish_md'||S32'peer_finish_md_len'||U64'message_size'||S32'message_type'||U32'_pad0'||*{cSYM#tag-ssl_cipher_st#}_cSYM#tag-ssl_cipher_st#_'new_cipher'||*{SYM#tag-dh_st#}_SYM#tag-dh_st#_'dh'||*{SYM#tag-ec_key_st#}_SYM#tag-ec_key_st#_'ecdh'||S32'next_state'||S32'reuse_message'||S32'cert_req'||S32'ctype_num'||ARR9{S8}_S8_'ctype'||U56'_pad1'||*{SYM#tag-stack_st_X509_NAME#}_SYM#tag-stack_st_X509_NAME#_'ca_names'||S32'use_rsa_tmp'||S32'key_block_length'||*{U8}_U8_'key_block'||*{cSYM#tag-evp_cipher_st#}_cSYM#tag-evp_cipher_st#_'new_sym_enc'||*{cSYM#tag-env_md_st#}_cSYM#tag-env_md_st#_'new_hash'||S32'new_mac_pkey_type'||S32'new_mac_secret_size'||*{cSYM#tag-ssl_comp_st#}_cSYM#tag-ssl_comp_st#_'new_compression'||S32'cert_request'||U32'_pad2'|]
 // file /usr/include/openssl/ssl3.h line 553
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[BF{U32}$U32$'__w_stopval'||BF{U32}$U32$'__w_stopsig'||BF{U32}$U32$'$anon0'|]
+// tag-#anon#ST[BF{U32}_U32_'__w_stopval'||BF{U32}_U32_'__w_stopsig'||BF{U32}_U32_'_anon0'|]
 // file /usr/include/x86_64-linux-gnu/bits/waitstatus.h line 84
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[BF{U32}$U32$'__w_termsig'||BF{U32}$U32$'__w_coredump'||BF{U32}$U32$'__w_retcode'||BF{U32}$U32$'$anon0'|]
+// tag-#anon#ST[BF{U32}_U32_'__w_termsig'||BF{U32}_U32_'__w_coredump'||BF{U32}_U32_'__w_retcode'||BF{U32}_U32_'_anon0'|]
 // file /usr/include/x86_64-linux-gnu/bits/waitstatus.h line 69
-struct anonymous$13;
+struct anonymous_13;
 
 // tag-#anon#ST[S32'rm_so'||S32'rm_eo'|]
 // file /usr/include/regex.h line 452
-struct anonymous$19;
+struct anonymous_19;
 
 // tag-#anon#ST[S32'sess_connect'||S32'sess_connect_renegotiate'||S32'sess_connect_good'||S32'sess_accept'||S32'sess_accept_renegotiate'||S32'sess_accept_good'||S32'sess_miss'||S32'sess_timeout'||S32'sess_cache_full'||S32'sess_hit'||S32'sess_cb_hit'|]
 // file /usr/include/openssl/ssl.h line 964
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[S32'verbose'||S32'shutdown_mode'||S32'depth'||U32'$pad0'||S64'serial'||*{SYM#tag-ssl_ctx_st#}$SYM#tag-ssl_ctx_st#$'ctx'||ARR10{*{SYM#tag-re_pattern_buffer#}$SYM#tag-re_pattern_buffer#$}$*{SYM#tag-re_pattern_buffer#}$SYM#tag-re_pattern_buffer#$$'re'||*{S8}$S8$'name'||U8'lbmod'||U8'lbparm'||U8'sslparm'||U40'$pad1'|]
+// tag-#anon#ST[S32'verbose'||S32'shutdown_mode'||S32'depth'||U32'_pad0'||S64'serial'||*{SYM#tag-ssl_ctx_st#}_SYM#tag-ssl_ctx_st#_'ctx'||ARR10{*{SYM#tag-re_pattern_buffer#}_SYM#tag-re_pattern_buffer#_}_*{SYM#tag-re_pattern_buffer#}_SYM#tag-re_pattern_buffer#__'re'||*{S8}_S8_'name'||U8'lbmod'||U8'lbparm'||U8'sslparm'||U40'_pad1'|]
 // file stone.c line 327
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[S32'verbose'||S32'shutdown_mode'||S32'mode'||S32'depth'||S32'vflags'||U32'$pad0'||S64'off'||S64'serial'||*{SYM#tag-ssl_method_st#}$SYM#tag-ssl_method_st#$'meth'||*{S32(S32|*{SYM#tag-x509_store_ctx_st#}$SYM#tag-x509_store_ctx_st#$)->S32}$S32(S32|*{SYM#tag-x509_store_ctx_st#}$SYM#tag-x509_store_ctx_st#$)->S32$'callback'||*{U8}$U8$'sid_ctx'||S32'useSNI'||U32'$pad1'||*{S8}$S8$'keyFile'||*{S8}$S8$'certFile'||*{S8}$S8$'keyFilePat'||*{S8}$S8$'certFilePat'||*{S8}$S8$'caFile'||*{S8}$S8$'caPath'||*{S8}$S8$'pfxFile'||*{S8}$S8$'pfxFilePat'||*{S8}$S8$'passFile'||*{S8}$S8$'passFilePat'||*{S8}$S8$'passwd'||*{S8}$S8$'servername'||S32'certIgnore'||U32'$pad2'||*{S8}$S8$'cipherList'||ARR10{*{S8}$S8$}$*{S8}$S8$$'regexp'||U8'lbmod'||U8'lbparm'||U48'$pad3'|]
+// tag-#anon#ST[S32'verbose'||S32'shutdown_mode'||S32'mode'||S32'depth'||S32'vflags'||U32'_pad0'||S64'off'||S64'serial'||*{SYM#tag-ssl_method_st#}_SYM#tag-ssl_method_st#_'meth'||*{S32(S32|*{SYM#tag-x509_store_ctx_st#}_SYM#tag-x509_store_ctx_st#_)->S32}_S32(S32|*{SYM#tag-x509_store_ctx_st#}_SYM#tag-x509_store_ctx_st#_)->S32_'callback'||*{U8}_U8_'sid_ctx'||S32'useSNI'||U32'_pad1'||*{S8}_S8_'keyFile'||*{S8}_S8_'certFile'||*{S8}_S8_'keyFilePat'||*{S8}_S8_'certFilePat'||*{S8}_S8_'caFile'||*{S8}_S8_'caPath'||*{S8}_S8_'pfxFile'||*{S8}_S8_'pfxFilePat'||*{S8}_S8_'passFile'||*{S8}_S8_'passFilePat'||*{S8}_S8_'passwd'||*{S8}_S8_'servername'||S32'certIgnore'||U32'_pad2'||*{S8}_S8_'cipherList'||ARR10{*{S8}_S8_}_*{S8}_S8__'regexp'||U8'lbmod'||U8'lbparm'||U48'_pad3'|]
 // file stone.c line 344
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[U32'conn_id_length'||U32'cert_type'||U32'cert_length'||U32'csl'||U32'clear'||U32'enc'||ARR32{U8}$U8$'ccl'||U32'cipher_spec_length'||U32'session_id_length'||U32'clen'||U32'rlen'|]
+// tag-#anon#ST[U32'conn_id_length'||U32'cert_type'||U32'cert_length'||U32'csl'||U32'clear'||U32'enc'||ARR32{U8}_U8_'ccl'||U32'cipher_spec_length'||U32'session_id_length'||U32'clen'||U32'rlen'|]
 // file /usr/include/openssl/ssl2.h line 203
-struct anonymous$15;
+struct anonymous_15;
 
 // tag-#anon#ST[U32'len'||SYM#tag-sockaddr#'addr'|]
 // file stone.c line 422
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#UN[*{S32}$S32$'inherit'||*{SYM#tag-stack_st_ASIdOrRange#}$SYM#tag-stack_st_ASIdOrRange#$'asIdsOrRanges'|]
+// tag-#anon#UN[*{S32}_S32_'inherit'||*{SYM#tag-stack_st_ASIdOrRange#}_SYM#tag-stack_st_ASIdOrRange#_'asIdsOrRanges'|]
 // file /usr/include/openssl/x509v3.h line 783
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'data'||*{SYM#tag-pkcs7_signed_st#}$SYM#tag-pkcs7_signed_st#$'sign'||*{SYM#tag-pkcs7_enveloped_st#}$SYM#tag-pkcs7_enveloped_st#$'enveloped'||*{SYM#tag-pkcs7_signedandenveloped_st#}$SYM#tag-pkcs7_signedandenveloped_st#$'signed_and_enveloped'||*{SYM#tag-pkcs7_digest_st#}$SYM#tag-pkcs7_digest_st#$'digest'||*{SYM#tag-pkcs7_encrypted_st#}$SYM#tag-pkcs7_encrypted_st#$'encrypted'||*{SYM#tag-asn1_type_st#}$SYM#tag-asn1_type_st#$'other'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'data'||*{SYM#tag-pkcs7_signed_st#}_SYM#tag-pkcs7_signed_st#_'sign'||*{SYM#tag-pkcs7_enveloped_st#}_SYM#tag-pkcs7_enveloped_st#_'enveloped'||*{SYM#tag-pkcs7_signedandenveloped_st#}_SYM#tag-pkcs7_signedandenveloped_st#_'signed_and_enveloped'||*{SYM#tag-pkcs7_digest_st#}_SYM#tag-pkcs7_digest_st#_'digest'||*{SYM#tag-pkcs7_encrypted_st#}_SYM#tag-pkcs7_encrypted_st#_'encrypted'||*{SYM#tag-asn1_type_st#}_SYM#tag-asn1_type_st#_'other'|]
 // file /usr/include/openssl/pkcs7.h line 183
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||*{SYM#tag-otherName_st#}$SYM#tag-otherName_st#$'otherName'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'rfc822Name'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'dNSName'||*{SYM#tag-asn1_type_st#}$SYM#tag-asn1_type_st#$'x400Address'||*{SYM#tag-X509_name_st#}$SYM#tag-X509_name_st#$'directoryName'||*{SYM#tag-EDIPartyName_st#}$SYM#tag-EDIPartyName_st#$'ediPartyName'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'uniformResourceIdentifier'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'iPAddress'||*{SYM#tag-asn1_object_st#}$SYM#tag-asn1_object_st#$'registeredID'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'ip'||*{SYM#tag-X509_name_st#}$SYM#tag-X509_name_st#$'dirn'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'ia5'||*{SYM#tag-asn1_object_st#}$SYM#tag-asn1_object_st#$'rid'||*{SYM#tag-asn1_type_st#}$SYM#tag-asn1_type_st#$'other'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||*{SYM#tag-otherName_st#}_SYM#tag-otherName_st#_'otherName'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'rfc822Name'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'dNSName'||*{SYM#tag-asn1_type_st#}_SYM#tag-asn1_type_st#_'x400Address'||*{SYM#tag-X509_name_st#}_SYM#tag-X509_name_st#_'directoryName'||*{SYM#tag-EDIPartyName_st#}_SYM#tag-EDIPartyName_st#_'ediPartyName'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'uniformResourceIdentifier'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'iPAddress'||*{SYM#tag-asn1_object_st#}_SYM#tag-asn1_object_st#_'registeredID'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'ip'||*{SYM#tag-X509_name_st#}_SYM#tag-X509_name_st#_'dirn'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'ia5'||*{SYM#tag-asn1_object_st#}_SYM#tag-asn1_object_st#_'rid'||*{SYM#tag-asn1_type_st#}_SYM#tag-asn1_type_st#_'other'|]
 // file /usr/include/openssl/x509v3.h line 188
-union anonymous$20;
+union anonymous_20;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||*{SYM#tag-rsa_st#}$SYM#tag-rsa_st#$'rsa'||*{SYM#tag-dsa_st#}$SYM#tag-dsa_st#$'dsa'||*{SYM#tag-dh_st#}$SYM#tag-dh_st#$'dh'||*{SYM#tag-ec_key_st#}$SYM#tag-ec_key_st#$'ec'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||*{SYM#tag-rsa_st#}_SYM#tag-rsa_st#_'rsa'||*{SYM#tag-dsa_st#}_SYM#tag-dsa_st#_'dsa'||*{SYM#tag-dh_st#}_SYM#tag-dh_st#_'dh'||*{SYM#tag-ec_key_st#}_SYM#tag-ec_key_st#_'ec'|]
 // file /usr/include/openssl/evp.h line 135
-union anonymous$22;
+union anonymous_22;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'asn1_string'||*{SYM#tag-asn1_object_st#}$SYM#tag-asn1_object_st#$'object'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'integer'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'enumerated'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bit_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'octet_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'printablestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'t61string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'ia5string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bmpstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'universalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utctime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalizedtime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'visiblestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utf8string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'set'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'sequence'||*{SYM#tag-ASN1_VALUE_st#}$SYM#tag-ASN1_VALUE_st#$'asn1_value'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'asn1_string'||*{SYM#tag-asn1_object_st#}_SYM#tag-asn1_object_st#_'object'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'integer'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'enumerated'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bit_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'octet_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'printablestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'t61string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'ia5string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bmpstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'universalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utctime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalizedtime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'visiblestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utf8string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'set'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'sequence'||*{SYM#tag-ASN1_VALUE_st#}_SYM#tag-ASN1_VALUE_st#_'asn1_value'|]
 // file /usr/include/openssl/asn1.h line 526
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[*{SYM#tag-stack_st_GENERAL_NAME#}$SYM#tag-stack_st_GENERAL_NAME#$'fullname'||*{SYM#tag-stack_st_X509_NAME_ENTRY#}$SYM#tag-stack_st_X509_NAME_ENTRY#$'relativename'|]
+// tag-#anon#UN[*{SYM#tag-stack_st_GENERAL_NAME#}_SYM#tag-stack_st_GENERAL_NAME#_'fullname'||*{SYM#tag-stack_st_X509_NAME_ENTRY#}_SYM#tag-stack_st_X509_NAME_ENTRY#_'relativename'|]
 // file /usr/include/openssl/x509v3.h line 228
-union anonymous$25;
+union anonymous_25;
 
-// tag-#anon#UN[*{SYM#tag-wait#}$SYM#tag-wait#$'__uptr'||*{S32}$S32$'__iptr'|]
+// tag-#anon#UN[*{SYM#tag-wait#}_SYM#tag-wait#_'__uptr'||*{S32}_S32_'__iptr'|]
 // file /usr/include/stdlib.h line 67
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[*{SYM#tag-wait#}$SYM#tag-wait#$'__uptr'||*{S32}$S32$'__iptr'|]$transparent
+// tag-#anon#UN[*{SYM#tag-wait#}_SYM#tag-wait#_'__uptr'||*{S32}_S32_'__iptr'|]_transparent
 // file /usr/include/stdlib.h line 67
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[*{V(S32|S32|*{V}$V$)->V}$V(S32|S32|*{V}$V$)->V$'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32}$S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32$'cb_2'|]
+// tag-#anon#UN[*{V(S32|S32|*{V}_V_)->V}_V(S32|S32|*{V}_V_)->V_'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32}_S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32_'cb_2'|]
 // file /usr/include/openssl/bn.h line 351
-union anonymous$21;
+union anonymous_21;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$17;
+union anonymous_17;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$2;
+union anonymous_2;
 
 // tag-ASIdentifierChoice_st
 // file /usr/include/openssl/x509v3.h line 781
@@ -797,10 +797,10 @@ void GENERAL_NAME_free(struct GENERAL_NAME_st *);
 void OPENSSL_add_all_algorithms_noconf(void);
 // PKCS12_free
 // file /usr/include/openssl/pkcs12.h line 246
-void PKCS12_free(struct anonymous$24 *);
+void PKCS12_free(struct anonymous_24 *);
 // PKCS12_parse
 // file /usr/include/openssl/pkcs12.h line 255
-signed int PKCS12_parse(struct anonymous$24 *, const char *, struct evp_pkey_st **, struct x509_st **, struct stack_st_X509 **);
+signed int PKCS12_parse(struct anonymous_24 *, const char *, struct evp_pkey_st **, struct x509_st **, struct stack_st_X509 **);
 // RAND_poll
 // file /usr/include/openssl/rand.h line 112
 signed int RAND_poll(void);
@@ -1037,7 +1037,7 @@ extern void _exit(signed int);
 extern void abort(void);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous$2, unsigned int *);
+extern signed int accept(signed int, union anonymous_2, unsigned int *);
 // acceptCheck
 // file stone.c line 4279
 signed int acceptCheck(struct _Pair *pair1);
@@ -1085,7 +1085,7 @@ signed int baseEncode(unsigned char *buf, signed int len, signed int max);
 extern void bcopy(const void *, void *, unsigned long int);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$2, unsigned int);
+extern signed int bind(signed int, union anonymous_2, unsigned int);
 // bzero
 // file /usr/include/string.h line 458
 extern void bzero(void *, unsigned long int);
@@ -1115,13 +1115,13 @@ signed int commOutput(struct _Pair *pair, char *fmt, ...);
 static char * comm_match(char *buf, char *str);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous$2, unsigned int);
+extern signed int connect(signed int, union anonymous_2, unsigned int);
 // connected
 // file stone.c line 3699
 void connected(struct _Pair *pair);
 // d2i_PKCS12_fp
 // file /usr/include/openssl/pkcs12.h line 272
-struct anonymous$24 * d2i_PKCS12_fp(struct _IO_FILE *, struct anonymous$24 **);
+struct anonymous_24 * d2i_PKCS12_fp(struct _IO_FILE *, struct anonymous_24 **);
 // daemonize
 // file stone.c line 9898
 void daemonize(void);
@@ -1190,7 +1190,7 @@ extern signed int epoll_wait(signed int, struct epoll_event *, signed int, signe
 char * exPatFile(char *pat, char *name, char *src, char *dst);
 // exPatOpts
 // file stone.c line 7552
-void exPatOpts(struct anonymous$8 *opts, char *src, char *dst);
+void exPatOpts(struct anonymous_8 *opts, char *src, char *dst);
 // execv
 // file /usr/include/unistd.h line 563
 extern signed int execv(const char *, char * const *);
@@ -1304,7 +1304,7 @@ signed int getident(char *str, struct sockaddr *sa, unsigned int salen, signed i
 extern signed int getnameinfo(struct sockaddr *, unsigned int, char *, unsigned int, char *, unsigned int, signed int);
 // getpeername
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 141
-extern signed int getpeername(signed int, union anonymous$2, unsigned int *);
+extern signed int getpeername(signed int, union anonymous_2, unsigned int *);
 // getpid
 // file /usr/include/unistd.h line 628
 extern signed int getpid(void);
@@ -1316,7 +1316,7 @@ signed int getport(struct sockaddr *sa);
 extern signed int getpwuid_r(unsigned int, struct passwd *, char *, unsigned long int, struct passwd ** restrict );
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous$2, unsigned int *);
+extern signed int getsockname(signed int, union anonymous_2, unsigned int *);
 // getsockopt
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 219
 extern signed int getsockopt(signed int, signed int, signed int, void *, unsigned int *);
@@ -1493,7 +1493,7 @@ signed int mkChat(signed int argc, signed int i, char **argv);
 signed int mkPortXhosts(signed int argc, signed int i, char **argv);
 // mkStoneSSL
 // file stone.c line 7334
-struct anonymous$12 * mkStoneSSL(struct anonymous$8 *opts, signed int isserver);
+struct anonymous_12 * mkStoneSSL(struct anonymous_8 *opts, signed int isserver);
 // mkXhosts
 // file stone.c line 7869
 struct _XHosts * mkXhosts(signed int nhosts, char **hosts, unsigned short int family, char *mesg);
@@ -1583,13 +1583,13 @@ extern signed int pthread_attr_setdetachstate(union pthread_attr_t *, signed int
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$3 *, const union anonymous$17 *);
+extern signed int pthread_mutex_init(union anonymous_3 *, const union anonymous_17 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$3 *);
+extern signed int pthread_mutex_lock(union anonymous_3 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$3 *);
+extern signed int pthread_mutex_unlock(union anonymous_3 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -1610,13 +1610,13 @@ void recvStoneUDP(struct _Stone *stone);
 struct _PktBuf * recvUDP(struct _Stone *stone);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, union anonymous$2, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, union anonymous_2, unsigned int *);
 // regcomp
 // file /usr/include/regex.h line 562
 extern signed int regcomp(struct re_pattern_buffer *, const char *, signed int);
 // regexec
 // file /usr/include/regex.h line 566
-extern signed int regexec(const struct re_pattern_buffer *, const char *, unsigned long int, struct anonymous$19 *, signed int);
+extern signed int regexec(const struct re_pattern_buffer *, const char *, unsigned long int, struct anonymous_19 *, signed int);
 // regfree
 // file /usr/include/regex.h line 574
 extern void regfree(struct re_pattern_buffer *);
@@ -1634,7 +1634,7 @@ signed int reusestone(struct _Stone *stone);
 extern char * rindex(const char *, signed int);
 // rmStoneSSL
 // file stone.c line 7504
-void rmStoneSSL(struct anonymous$12 *ss);
+void rmStoneSSL(struct anonymous_12 *ss);
 // rmheader
 // file stone.c line 6011
 signed int rmheader(struct _Pair *pair);
@@ -1649,7 +1649,7 @@ void rmoldstone(void);
 signed int saComp(struct sockaddr *a, struct sockaddr *b);
 // saDup
 // file stone.c line 1557
-struct anonymous$0 * saDup(struct sockaddr *sa, unsigned int salen);
+struct anonymous_0 * saDup(struct sockaddr *sa, unsigned int salen);
 // saPort
 // file stone.c line 1395
 void saPort(struct sockaddr *sa, unsigned short int port);
@@ -1682,7 +1682,7 @@ static signed int sendPairUDPbuf(struct _Stone *stone, struct _Pair *pair, char 
 signed int sendUDP(struct _PktBuf *pb);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous$2, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous_2, unsigned int);
 // setbuf
 // file /usr/include/stdio.h line 332
 extern void setbuf(struct _IO_FILE *, char *);
@@ -1742,10 +1742,10 @@ extern signed int sscanf(const char *, const char *, ...);
 static signed int ssl_servername_callback(struct ssl_st *ssl, signed int *ad, void *arg);
 // sslopts
 // file stone.c line 8911
-signed int sslopts(signed int argc, signed int argi, char **argv, struct anonymous$8 *opts, signed int isserver);
+signed int sslopts(signed int argc, signed int argi, char **argv, struct anonymous_8 *opts, signed int isserver);
 // sslopts_default
 // file stone.c line 8857
-void sslopts_default(struct anonymous$8 *opts, signed int isserver);
+void sslopts_default(struct anonymous_8 *opts, signed int isserver);
 // sslthread_id_callback
 // file stone.c line 9067
 unsigned long int sslthread_id_callback(void);
@@ -1823,7 +1823,7 @@ static signed int verify_callback(signed int preverify_ok, struct x509_store_ctx
 extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 // wait
 // file /usr/include/x86_64-linux-gnu/sys/wait.h line 102
-extern signed int wait(union anonymous$1);
+extern signed int wait(union anonymous_1);
 // waitMutex
 // file stone.c line 1722
 void waitMutex(signed int h);
@@ -1838,7 +1838,7 @@ struct anonymous
   struct asn1_string_st *iter;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // version
   struct asn1_string_st *version;
@@ -1848,7 +1848,7 @@ struct anonymous$24
   struct pkcs7_st *authsafes;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // cert_verify_md
   unsigned char cert_verify_md[128l];
@@ -1902,17 +1902,17 @@ struct anonymous$16
   signed int cert_request;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // __w_stopval
   unsigned int __w_stopval : 8;
   // __w_stopsig
   unsigned int __w_stopsig : 8;
-  // $anon0
-  unsigned int $anon0 : 16;
+  // _anon0
+  unsigned int _anon0 : 16;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // __w_termsig
   unsigned int __w_termsig : 7;
@@ -1920,11 +1920,11 @@ struct anonymous$13
   unsigned int __w_coredump : 1;
   // __w_retcode
   unsigned int __w_retcode : 8;
-  // $anon0
-  unsigned int $anon0 : 16;
+  // _anon0
+  unsigned int _anon0 : 16;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // rm_so
   signed int rm_so;
@@ -1932,7 +1932,7 @@ struct anonymous$19
   signed int rm_eo;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // sess_connect
   signed int sess_connect;
@@ -1990,7 +1990,7 @@ struct re_pattern_buffer
   unsigned int newline_anchor : 1;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // verbose
   signed int verbose;
@@ -2014,7 +2014,7 @@ struct anonymous$12
   unsigned char sslparm;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // verbose
   signed int verbose;
@@ -2074,7 +2074,7 @@ struct anonymous$8
   unsigned char lbparm;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // conn_id_length
   unsigned int conn_id_length;
@@ -2108,7 +2108,7 @@ struct sockaddr
   char sa_data[14l];
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // len
   unsigned int len;
@@ -2116,7 +2116,7 @@ struct anonymous$0
   struct sockaddr addr;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // inherit
   signed int *inherit;
@@ -2124,7 +2124,7 @@ union anonymous$4
   struct stack_st_ASIdOrRange *asIdsOrRanges;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // ptr
   char *ptr;
@@ -2144,7 +2144,7 @@ union anonymous$11
   struct asn1_type_st *other;
 };
 
-union anonymous$20
+union anonymous_20
 {
   // ptr
   char *ptr;
@@ -2178,7 +2178,7 @@ union anonymous$20
   struct asn1_type_st *other;
 };
 
-union anonymous$22
+union anonymous_22
 {
   // ptr
   char *ptr;
@@ -2192,7 +2192,7 @@ union anonymous$22
   struct ec_key_st *ec;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // ptr
   char *ptr;
@@ -2238,7 +2238,7 @@ union anonymous$7
   struct ASN1_VALUE_st *asn1_value;
 };
 
-union anonymous$25
+union anonymous_25
 {
   // fullname
   struct stack_st_GENERAL_NAME *fullname;
@@ -2246,7 +2246,7 @@ union anonymous$25
   struct stack_st_X509_NAME_ENTRY *relativename;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // __uptr
   union wait *__uptr;
@@ -2254,7 +2254,7 @@ union anonymous$10
   signed int *__iptr;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __uptr
   union wait *__uptr;
@@ -2262,7 +2262,7 @@ union anonymous$1
   signed int *__iptr;
 } __attribute__ ((__transparent_union__));
 
-union anonymous$21
+union anonymous_21
 {
   // cb_1
   void (*cb_1)(signed int, signed int, void *);
@@ -2270,7 +2270,7 @@ union anonymous$21
   signed int (*cb_2)(signed int, signed int, struct bn_gencb_st *);
 };
 
-union anonymous$9
+union anonymous_9
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -2280,7 +2280,7 @@ union anonymous$9
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$17
+union anonymous_17
 {
   // __size
   char __size[4l];
@@ -2316,7 +2316,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2326,7 +2326,7 @@ union anonymous$3
   signed long int __align;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -2356,7 +2356,7 @@ union anonymous$5
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -2391,7 +2391,7 @@ struct ASIdentifierChoice_st
   // type
   signed int type;
   // u
-  union anonymous$4 u;
+  union anonymous_4 u;
 };
 
 struct ASIdentifiers_st
@@ -2427,7 +2427,7 @@ struct DIST_POINT_NAME_st
   // type
   signed int type;
   // name
-  union anonymous$25 name;
+  union anonymous_25 name;
   // dpname
   struct X509_name_st *dpname;
 };
@@ -2453,7 +2453,7 @@ struct GENERAL_NAME_st
   // type
   signed int type;
   // d
-  union anonymous$20 d;
+  union anonymous_20 d;
 };
 
 struct ISSUING_DIST_POINT_st
@@ -2619,11 +2619,11 @@ struct _Backup
   // next
   struct _Backup *next;
   // check
-  struct anonymous$0 *check;
+  struct anonymous_0 *check;
   // master
-  struct anonymous$0 *master;
+  struct anonymous_0 *master;
   // backup
-  struct anonymous$0 *backup;
+  struct anonymous_0 *backup;
   // proto
   signed int proto;
   // chat
@@ -2661,7 +2661,7 @@ struct _Comm
 struct _Conn
 {
   // dst
-  struct anonymous$0 *dst;
+  struct anonymous_0 *dst;
   // pair
   struct _Pair *pair;
   // lock
@@ -2765,7 +2765,7 @@ struct _LBSet
   // ndsts
   signed short int ndsts;
   // dsts
-  struct anonymous$0 *dsts[0l];
+  struct anonymous_0 *dsts[0l];
 };
 
 struct _Origin
@@ -2777,7 +2777,7 @@ struct _Origin
   // stone
   struct _Stone *stone;
   // from
-  struct anonymous$0 *from;
+  struct anonymous_0 *from;
   // lock
   signed int lock;
   // xhost
@@ -2871,13 +2871,13 @@ struct _Stone
   // port
   signed int port;
   // listen
-  struct anonymous$0 *listen;
+  struct anonymous_0 *listen;
   // ndsts
   signed short int ndsts;
   // dsts
-  struct anonymous$0 **dsts;
+  struct anonymous_0 **dsts;
   // from
-  struct anonymous$0 *from;
+  struct anonymous_0 *from;
   // proto
   signed int proto;
   // backups
@@ -2895,9 +2895,9 @@ struct _Stone
   // parent
   struct _Stone *parent;
   // ssl_server
-  struct anonymous$12 *ssl_server;
+  struct anonymous_12 *ssl_server;
   // ssl_client
-  struct anonymous$12 *ssl_client;
+  struct anonymous_12 *ssl_client;
   // nhosts
   signed int nhosts;
   // xhosts
@@ -2923,7 +2923,7 @@ struct _XHosts
   // mode
   signed short int mode;
   // xhost
-  struct anonymous$0 xhost;
+  struct anonymous_0 xhost;
 };
 
 struct _XPorts
@@ -2989,7 +2989,7 @@ struct asn1_type_st
   // type
   signed int type;
   // value
-  union anonymous$7 value;
+  union anonymous_7 value;
 };
 
 struct bignum_st
@@ -3079,7 +3079,7 @@ struct bn_gencb_st
   // arg
   void *arg;
   // cb
-  union anonymous$21 cb;
+  union anonymous_21 cb;
 };
 
 struct bn_mont_ctx_st
@@ -3549,7 +3549,7 @@ struct evp_pkey_st
   // engine
   struct engine_st *engine;
   // pkey
-  union anonymous$22 pkey;
+  union anonymous_22 pkey;
   // save_parameters
   signed int save_parameters;
   // attributes
@@ -3587,7 +3587,7 @@ struct hmac_ctx_st
 struct in6_addr
 {
   // __in6_u
-  union anonymous$9 __in6_u;
+  union anonymous_9 __in6_u;
 };
 
 struct in_addr
@@ -3717,7 +3717,7 @@ struct pkcs7_st
   // type
   struct asn1_object_st *type;
   // d
-  union anonymous$11 d;
+  union anonymous_11 d;
 };
 
 union pthread_attr_t
@@ -3963,7 +3963,7 @@ struct ssl2_state_st
   // write_sequence
   unsigned long int write_sequence;
   // tmp
-  struct anonymous$15 tmp;
+  struct anonymous_15 tmp;
 };
 
 struct ssl3_buffer_st
@@ -4083,7 +4083,7 @@ struct ssl3_state_st
   // server_opaque_prf_input_len
   unsigned long int server_opaque_prf_input_len;
   // tmp
-  struct anonymous$16 tmp;
+  struct anonymous_16 tmp;
   // previous_client_finished
   unsigned char previous_client_finished[64l];
   // previous_client_finished_len
@@ -4171,7 +4171,7 @@ struct ssl_ctx_st
   // get_session_cb
   struct ssl_session_st * (*get_session_cb)(struct ssl_st *, unsigned char *, signed int, signed int *);
   // stats
-  struct anonymous$23 stats;
+  struct anonymous_23 stats;
   // references
   signed int references;
   // app_verify_callback
@@ -4873,9 +4873,9 @@ union wait
   // w_status
   signed int w_status;
   // __wait_terminated
-  struct anonymous$13 __wait_terminated;
+  struct anonymous_13 __wait_terminated;
   // __wait_stopped
-  struct anonymous$14 __wait_stopped;
+  struct anonymous_14 __wait_stopped;
 };
 
 struct x509_cert_aux_st
@@ -5094,10 +5094,10 @@ signed int AsyncCount = 0;
 signed int BacklogMax = 50;
 // CVS_ID
 // file stone.c line 95
-static char *CVS_ID = "@(#) $Id: stone.c,v 2.3.2.7 2008/02/24 23:03:16 hiroaki_sengoku Exp $";
+static char *CVS_ID = "@(#) _Id: stone.c,v 2.3.2.7 2008/02/24 23:03:16 hiroaki_sengoku Exp _";
 // ClientOpts
 // file stone.c line 380
-struct anonymous$8 ClientOpts;
+struct anonymous_8 ClientOpts;
 // ConfigArgc
 // file stone.c line 713
 signed int ConfigArgc = 0;
@@ -5109,7 +5109,7 @@ char **ConfigArgv = (char **)(void *)0;
 char *ConfigFile = (char *)(void *)0;
 // ConnectFrom
 // file stone.c line 710
-struct anonymous$0 *ConnectFrom = (struct anonymous$0 *)(void *)0;
+struct anonymous_0 *ConnectFrom = (struct anonymous_0 *)(void *)0;
 // CoreDumpDir
 // file stone.c line 727
 char *CoreDumpDir = (char *)(void *)0;
@@ -5130,7 +5130,7 @@ signed int Debug = 0;
 signed int DryRun = 0;
 // FastMutex
 // file stone.c line 743
-union anonymous$3 FastMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_3 FastMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // FastMutexs
@@ -5201,10 +5201,10 @@ signed int ReuseAddr = 0;
 char *RootDir = (char *)(void *)0;
 // SSLMutex
 // file stone.c line 388
-union anonymous$3 *SSLMutex = (union anonymous$3 *)(void *)0;
+union anonymous_3 *SSLMutex = (union anonymous_3 *)(void *)0;
 // ServerOpts
 // file stone.c line 379
-struct anonymous$8 ServerOpts;
+struct anonymous_8 ServerOpts;
 // SetGID
 // file stone.c line 725
 unsigned int SetGID = (unsigned int)0;
@@ -5491,9 +5491,9 @@ struct _Pair trash;
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx)
 {
-  signed long int return_value___builtin_bswap32$1;
-  return_value___builtin_bswap32$1=__builtin_bswap32((signed long int)__bsx);
-  return (unsigned int)return_value___builtin_bswap32$1;
+  signed long int return_value___builtin_bswap32_1;
+  return_value___builtin_bswap32_1=__builtin_bswap32((signed long int)__bsx);
+  return (unsigned int)return_value___builtin_bswap32_1;
 }
 
 // acceptCheck
@@ -5519,48 +5519,48 @@ signed int acceptCheck(struct _Pair *pair1)
   else
   {
     message(3, "%d TCP %d: acceptCheck Can't happen fromlen=%d", stone->sd, pair1->sd, fromlen);
-    signed int return_value_getpeername$2;
-    return_value_getpeername$2=getpeername(pair1->sd, from, &fromlen);
-    if(!(return_value_getpeername$2 >= 0))
+    signed int return_value_getpeername_2;
+    return_value_getpeername_2=getpeername(pair1->sd, from, &fromlen);
+    if(!(return_value_getpeername_2 >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      message(3, "%d TCP %d: acceptCheck Can't get peer's name err=%d", stone->sd, pair1->sd, *return_value___errno_location$1);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      message(3, "%d TCP %d: acceptCheck Can't get peer's name err=%d", stone->sd, pair1->sd, *return_value___errno_location_1);
       return 0;
     }
 
   }
-  signed int tmp_post$4;
+  signed int tmp_post_4;
   if(!((stone->proto & proto_ident) == 0))
   {
-    signed int return_value_getident$5;
-    return_value_getident$5=getident(ident, from, fromlen, stone->port, &stone->listen->addr, stone->listen->len);
-    if(!(return_value_getident$5 == 0))
+    signed int return_value_getident_5;
+    return_value_getident_5=getident(ident, from, fromlen, stone->port, &stone->listen->addr, stone->listen->len);
+    if(!(return_value_getident_5 == 0))
     {
       struct _ExBuf *t;
       t=newExData(pair1, data_identuser);
       __builtin_strncpy(fromstr, ident, (unsigned long int)127);
       fromstr[(signed long int)127] = (char)0;
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(fromstr);
-      fslen = (signed int)return_value_strlen$3;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(fromstr);
+      fslen = (signed int)return_value_strlen_3;
       if(!(t == ((struct _ExBuf *)NULL)))
       {
         strcpy(t->buf + (signed long int)sizeof(signed int) /*4ul*/ , fromstr);
         t->len = (signed int)(sizeof(signed int) /*4ul*/  + (unsigned long int)fslen);
       }
 
-      tmp_post$4 = fslen;
+      tmp_post_4 = fslen;
       fslen = fslen + 1;
-      fromstr[(signed long int)tmp_post$4] = (char)64;
+      fromstr[(signed long int)tmp_post_4] = (char)64;
     }
 
   }
 
   fromstr[(signed long int)fslen] = (char)0;
   xhost=checkXhost(stone->xhosts, from, fromlen);
-  unsigned short int tmp_statement_expression$6;
-  unsigned short int tmp_statement_expression$7;
+  unsigned short int tmp_statement_expression_6;
+  unsigned short int tmp_statement_expression_7;
   if(xhost == ((struct _XHosts *)NULL))
   {
     addrport2strOnce(from, fromlen, stone->proto & (proto_udp_s | proto_command | proto_ohttp_s | proto_base_s | proto_v6_s | proto_ip_only_s | proto_ssl_s | proto_ident), fromstr + (signed long int)fslen, 127 * 2 - fslen, 0);
@@ -5582,19 +5582,19 @@ signed int acceptCheck(struct _Pair *pair1)
       {
         unsigned short int __v;
         unsigned short int __x = (unsigned short int)((struct sockaddr_in *)from)->sin_port;
-        asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-        tmp_statement_expression$6 = __v;
-        port = (signed short int)tmp_statement_expression$6;
+        asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+        tmp_statement_expression_6 = __v;
+        port = (signed short int)tmp_statement_expression_6;
       }
 
       else
         if((signed int)from->sa_family == 10)
         {
-          unsigned short int acceptCheck$$1$$5$$2$$1$$__v;
-          unsigned short int acceptCheck$$1$$5$$2$$1$$__x = (unsigned short int)((struct sockaddr_in6 *)from)->sin6_port;
-          asm("rorw $8, %w0" : "=r"(acceptCheck$$1$$5$$2$$1$$__v) : "0"(acceptCheck$$1$$5$$2$$1$$__x) : "cc");
-          tmp_statement_expression$7 = acceptCheck$$1$$5$$2$$1$$__v;
-          port = (signed short int)tmp_statement_expression$7;
+          unsigned short int acceptCheck__1__5__2__1____v;
+          unsigned short int acceptCheck__1__5__2__1____x = (unsigned short int)((struct sockaddr_in6 *)from)->sin6_port;
+          asm("rorw _8, %w0" : "=r"(acceptCheck__1__5__2__1____v) : "0"(acceptCheck__1__5__2__1____x) : "cc");
+          tmp_statement_expression_7 = acceptCheck__1__5__2__1____v;
+          port = (signed short int)tmp_statement_expression_7;
         }
 
       addr2str(from, fromlen, str, 127, 1);
@@ -5633,9 +5633,9 @@ signed int acceptCheck(struct _Pair *pair1)
 
       if(!((stone->proto & proto_ssl_s) == 0))
       {
-        signed int return_value_doSSL_accept$8;
-        return_value_doSSL_accept$8=doSSL_accept(pair1);
-        if(!(return_value_doSSL_accept$8 >= 0))
+        signed int return_value_doSSL_accept_8;
+        return_value_doSSL_accept_8=doSSL_accept(pair1);
+        if(!(return_value_doSSL_accept_8 >= 0))
           goto error;
 
       }
@@ -5668,11 +5668,11 @@ signed int acceptCheck(struct _Pair *pair1)
           pair2->sd=socket(2, satype, saproto);
       if(!(pair2->sd >= 0))
       {
-        signed int return_value_priority$9;
-        return_value_priority$9=priority(pair1);
-        signed int *return_value___errno_location$10;
-        return_value___errno_location$10=__errno_location();
-        message(return_value_priority$9, "%d TCP %d: can't create socket err=%d", stone->sd, pair1->sd, *return_value___errno_location$10);
+        signed int return_value_priority_9;
+        return_value_priority_9=priority(pair1);
+        signed int *return_value___errno_location_10;
+        return_value___errno_location_10=__errno_location();
+        message(return_value_priority_9, "%d TCP %d: can't create socket err=%d", stone->sd, pair1->sd, *return_value___errno_location_10);
 
       error:
         ;
@@ -5680,18 +5680,18 @@ signed int acceptCheck(struct _Pair *pair1)
         return 0;
       }
 
-      if(!(stone->from == ((struct anonymous$0 *)NULL)))
+      if(!(stone->from == ((struct anonymous_0 *)NULL)))
       {
-        signed int return_value_bind$12;
-        return_value_bind$12=bind(pair2->sd, &stone->from->addr, stone->from->len);
-        if(!(return_value_bind$12 >= 0))
+        signed int return_value_bind_12;
+        return_value_bind_12=bind(pair2->sd, &stone->from->addr, stone->from->len);
+        if(!(return_value_bind_12 >= 0))
         {
-          char acceptCheck$$1$$14$$1$$str[128l];
-          addrport2str(&stone->from->addr, stone->from->len, 0, acceptCheck$$1$$14$$1$$str, 127, 0);
-          acceptCheck$$1$$14$$1$$str[(signed long int)127] = (char)0;
-          signed int *return_value___errno_location$11;
-          return_value___errno_location$11=__errno_location();
-          message(3, "stone %d: can't bind %s err=%d", stone->sd, (const void *)acceptCheck$$1$$14$$1$$str, *return_value___errno_location$11);
+          char acceptCheck__1__14__1__str[128l];
+          addrport2str(&stone->from->addr, stone->from->len, 0, acceptCheck__1__14__1__str, 127, 0);
+          acceptCheck__1__14__1__str[(signed long int)127] = (char)0;
+          signed int *return_value___errno_location_11;
+          return_value___errno_location_11=__errno_location();
+          message(3, "stone %d: can't bind %s err=%d", stone->sd, (const void *)acceptCheck__1__14__1__str, *return_value___errno_location_11);
         }
 
       }
@@ -5714,13 +5714,13 @@ struct _Pair * acceptPair(struct _Stone *stone)
   struct epoll_event ev;
   signed int nsd;
   nsd=accept(stone->sd, from, &fromlen);
-  signed int *return_value___errno_location$2;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_2;
+  signed int *return_value___errno_location_1;
   if(!(nsd >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if(*return_value___errno_location$3 == 4)
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if(*return_value___errno_location_3 == 4)
     {
       if(Debug >= 5)
         message(7, "stone %d: accept interrupted", stone->sd);
@@ -5730,8 +5730,8 @@ struct _Pair * acceptPair(struct _Stone *stone)
 
     else
     {
-      return_value___errno_location$2=__errno_location();
-      if(*return_value___errno_location$2 == 11)
+      return_value___errno_location_2=__errno_location();
+      if(*return_value___errno_location_2 == 11)
       {
         if(Debug >= 5)
           message(7, "stone %d: accept no connection", stone->sd);
@@ -5741,8 +5741,8 @@ struct _Pair * acceptPair(struct _Stone *stone)
 
       else
       {
-        return_value___errno_location$1=__errno_location();
-        if(*return_value___errno_location$1 == 9)
+        return_value___errno_location_1=__errno_location();
+        if(*return_value___errno_location_1 == 9)
         {
           if(!(Debug >= 5))
             return (struct _Pair *)(void *)0;
@@ -5751,9 +5751,9 @@ struct _Pair * acceptPair(struct _Stone *stone)
 
       }
     }
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    message(3, "stone %d: accept error err=%d", stone->sd, *return_value___errno_location$4);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    message(3, "stone %d: accept error err=%d", stone->sd, *return_value___errno_location_4);
     return (struct _Pair *)(void *)0;
   }
 
@@ -5779,13 +5779,13 @@ struct _Pair * acceptPair(struct _Stone *stone)
     if(Debug >= 7)
       message(7, "%d TCP %d: acceptPair epoll_ctl %d ADD %x", stone->sd, pair->sd, ePollFd, (signed int)ev.data.ptr);
 
-    signed int return_value_epoll_ctl$6;
-    return_value_epoll_ctl$6=epoll_ctl(ePollFd, 1, pair->sd, &ev);
-    if(!(return_value_epoll_ctl$6 >= 0))
+    signed int return_value_epoll_ctl_6;
+    return_value_epoll_ctl_6=epoll_ctl(ePollFd, 1, pair->sd, &ev);
+    if(!(return_value_epoll_ctl_6 >= 0))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      message(3, "%d TCP %d: acceptPair epoll_ctl %d ADD err=%d", stone->sd, pair->sd, ePollFd, *return_value___errno_location$5);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      message(3, "%d TCP %d: acceptPair epoll_ctl %d ADD err=%d", stone->sd, pair->sd, ePollFd, *return_value___errno_location_5);
     }
 
     return pair;
@@ -5796,8 +5796,8 @@ struct _Pair * acceptPair(struct _Stone *stone)
 // file stone.c line 1062
 char * addr2ip(struct in_addr *addr, char *str, signed int len)
 {
-  /* tag-#anon#lUN[U64'l'||lARR4{U8}$U8$'c'|] */
-union anonymous$6
+  /* tag-#anon#lUN[U64'l'||lARR4{U8}_U8_'c'|] */
+union anonymous_6
 {
   // l
   unsigned long int l;
@@ -5807,7 +5807,7 @@ union anonymous$6
 
 /* */
   ;
-  union anonymous$6 u;
+  union anonymous_6 u;
   if(len >= 1)
   {
     u.l = (unsigned long int)addr->s_addr;
@@ -5823,50 +5823,50 @@ union anonymous$6
 char * addr2ip6(struct in6_addr *addr, char *str, signed int len)
 {
   unsigned short int *s;
-  unsigned short int tmp_statement_expression$1;
-  unsigned short int tmp_statement_expression$2;
-  unsigned short int tmp_statement_expression$3;
-  unsigned short int tmp_statement_expression$4;
-  unsigned short int tmp_statement_expression$5;
-  unsigned short int tmp_statement_expression$6;
-  unsigned short int tmp_statement_expression$7;
-  unsigned short int tmp_statement_expression$8;
+  unsigned short int tmp_statement_expression_1;
+  unsigned short int tmp_statement_expression_2;
+  unsigned short int tmp_statement_expression_3;
+  unsigned short int tmp_statement_expression_4;
+  unsigned short int tmp_statement_expression_5;
+  unsigned short int tmp_statement_expression_6;
+  unsigned short int tmp_statement_expression_7;
+  unsigned short int tmp_statement_expression_8;
   if(len >= 1)
   {
     s = (unsigned short int *)addr;
-    unsigned short int addr2ip6$$1$$1$$1$$__v;
-    unsigned short int addr2ip6$$1$$1$$1$$__x = (unsigned short int)s[(signed long int)0];
-    asm("rorw $8, %w0" : "=r"(addr2ip6$$1$$1$$1$$__v) : "0"(addr2ip6$$1$$1$$1$$__x) : "cc");
-    tmp_statement_expression$1 = addr2ip6$$1$$1$$1$$__v;
-    unsigned short int addr2ip6$$1$$1$$2$$__v;
-    unsigned short int addr2ip6$$1$$1$$2$$__x = (unsigned short int)s[(signed long int)1];
-    asm("rorw $8, %w0" : "=r"(addr2ip6$$1$$1$$2$$__v) : "0"(addr2ip6$$1$$1$$2$$__x) : "cc");
-    tmp_statement_expression$2 = addr2ip6$$1$$1$$2$$__v;
-    unsigned short int addr2ip6$$1$$1$$3$$__v;
-    unsigned short int addr2ip6$$1$$1$$3$$__x = (unsigned short int)s[(signed long int)2];
-    asm("rorw $8, %w0" : "=r"(addr2ip6$$1$$1$$3$$__v) : "0"(addr2ip6$$1$$1$$3$$__x) : "cc");
-    tmp_statement_expression$3 = addr2ip6$$1$$1$$3$$__v;
-    unsigned short int addr2ip6$$1$$1$$4$$__v;
+    unsigned short int addr2ip6__1__1__1____v;
+    unsigned short int addr2ip6__1__1__1____x = (unsigned short int)s[(signed long int)0];
+    asm("rorw _8, %w0" : "=r"(addr2ip6__1__1__1____v) : "0"(addr2ip6__1__1__1____x) : "cc");
+    tmp_statement_expression_1 = addr2ip6__1__1__1____v;
+    unsigned short int addr2ip6__1__1__2____v;
+    unsigned short int addr2ip6__1__1__2____x = (unsigned short int)s[(signed long int)1];
+    asm("rorw _8, %w0" : "=r"(addr2ip6__1__1__2____v) : "0"(addr2ip6__1__1__2____x) : "cc");
+    tmp_statement_expression_2 = addr2ip6__1__1__2____v;
+    unsigned short int addr2ip6__1__1__3____v;
+    unsigned short int addr2ip6__1__1__3____x = (unsigned short int)s[(signed long int)2];
+    asm("rorw _8, %w0" : "=r"(addr2ip6__1__1__3____v) : "0"(addr2ip6__1__1__3____x) : "cc");
+    tmp_statement_expression_3 = addr2ip6__1__1__3____v;
+    unsigned short int addr2ip6__1__1__4____v;
     unsigned short int __x = (unsigned short int)s[(signed long int)3];
-    asm("rorw $8, %w0" : "=r"(addr2ip6$$1$$1$$4$$__v) : "0"(__x) : "cc");
-    tmp_statement_expression$4 = addr2ip6$$1$$1$$4$$__v;
+    asm("rorw _8, %w0" : "=r"(addr2ip6__1__1__4____v) : "0"(__x) : "cc");
+    tmp_statement_expression_4 = addr2ip6__1__1__4____v;
     unsigned short int __v;
-    unsigned short int addr2ip6$$1$$1$$5$$__x = (unsigned short int)s[(signed long int)4];
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(addr2ip6$$1$$1$$5$$__x) : "cc");
-    tmp_statement_expression$5 = __v;
-    unsigned short int addr2ip6$$1$$1$$6$$__v;
-    unsigned short int addr2ip6$$1$$1$$6$$__x = (unsigned short int)s[(signed long int)5];
-    asm("rorw $8, %w0" : "=r"(addr2ip6$$1$$1$$6$$__v) : "0"(addr2ip6$$1$$1$$6$$__x) : "cc");
-    tmp_statement_expression$6 = addr2ip6$$1$$1$$6$$__v;
-    unsigned short int addr2ip6$$1$$1$$7$$__v;
-    unsigned short int addr2ip6$$1$$1$$7$$__x = (unsigned short int)s[(signed long int)6];
-    asm("rorw $8, %w0" : "=r"(addr2ip6$$1$$1$$7$$__v) : "0"(addr2ip6$$1$$1$$7$$__x) : "cc");
-    tmp_statement_expression$7 = addr2ip6$$1$$1$$7$$__v;
-    unsigned short int addr2ip6$$1$$1$$8$$__v;
-    unsigned short int addr2ip6$$1$$1$$8$$__x = (unsigned short int)s[(signed long int)7];
-    asm("rorw $8, %w0" : "=r"(addr2ip6$$1$$1$$8$$__v) : "0"(addr2ip6$$1$$1$$8$$__x) : "cc");
-    tmp_statement_expression$8 = addr2ip6$$1$$1$$8$$__v;
-    snprintf(str, (unsigned long int)(len - 1), "%x:%x:%x:%x:%x:%x:%x:%x", tmp_statement_expression$1, tmp_statement_expression$2, tmp_statement_expression$3, tmp_statement_expression$4, tmp_statement_expression$5, tmp_statement_expression$6, tmp_statement_expression$7, tmp_statement_expression$8);
+    unsigned short int addr2ip6__1__1__5____x = (unsigned short int)s[(signed long int)4];
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(addr2ip6__1__1__5____x) : "cc");
+    tmp_statement_expression_5 = __v;
+    unsigned short int addr2ip6__1__1__6____v;
+    unsigned short int addr2ip6__1__1__6____x = (unsigned short int)s[(signed long int)5];
+    asm("rorw _8, %w0" : "=r"(addr2ip6__1__1__6____v) : "0"(addr2ip6__1__1__6____x) : "cc");
+    tmp_statement_expression_6 = addr2ip6__1__1__6____v;
+    unsigned short int addr2ip6__1__1__7____v;
+    unsigned short int addr2ip6__1__1__7____x = (unsigned short int)s[(signed long int)6];
+    asm("rorw _8, %w0" : "=r"(addr2ip6__1__1__7____v) : "0"(addr2ip6__1__1__7____x) : "cc");
+    tmp_statement_expression_7 = addr2ip6__1__1__7____v;
+    unsigned short int addr2ip6__1__1__8____v;
+    unsigned short int addr2ip6__1__1__8____x = (unsigned short int)s[(signed long int)7];
+    asm("rorw _8, %w0" : "=r"(addr2ip6__1__1__8____v) : "0"(addr2ip6__1__1__8____x) : "cc");
+    tmp_statement_expression_8 = addr2ip6__1__1__8____v;
+    snprintf(str, (unsigned long int)(len - 1), "%x:%x:%x:%x:%x:%x:%x:%x", tmp_statement_expression_1, tmp_statement_expression_2, tmp_statement_expression_3, tmp_statement_expression_4, tmp_statement_expression_5, tmp_statement_expression_6, tmp_statement_expression_7, tmp_statement_expression_8);
     str[(signed long int)(len - 1)] = (char)0;
   }
 
@@ -5904,9 +5904,9 @@ char * addr2str(struct sockaddr *sa, unsigned int salen, char *str, signed int l
     if(len >= 1)
       str[(signed long int)(len - 1)] = (char)0;
 
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    message(3, "Unknown address: %s err=%d errno=%d", str, err, *return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    message(3, "Unknown address: %s err=%d errno=%d", str, err, *return_value___errno_location_1);
   }
 
   return str;
@@ -5919,9 +5919,9 @@ char * addrport2str(struct sockaddr *sa, unsigned int salen, signed int proto, c
   char serv[128l];
   signed int err;
   signed int i;
-  signed int return_value_islocalhost$1;
-  unsigned short int tmp_statement_expression$3;
-  unsigned short int tmp_statement_expression$5;
+  signed int return_value_islocalhost_1;
+  unsigned short int tmp_statement_expression_3;
+  unsigned short int tmp_statement_expression_5;
   if(str == ((char *)NULL) || !(len >= 2))
     return "";
 
@@ -5938,8 +5938,8 @@ char * addrport2str(struct sockaddr *sa, unsigned int salen, signed int proto, c
 
     if((1 & flags) == 0)
     {
-      return_value_islocalhost$1=islocalhost(sa);
-      if(!(return_value_islocalhost$1 == 0))
+      return_value_islocalhost_1=islocalhost(sa);
+      if(!(return_value_islocalhost_1 == 0))
         flags = flags | 1;
 
     }
@@ -5967,47 +5967,47 @@ char * addrport2str(struct sockaddr *sa, unsigned int salen, signed int proto, c
       if((signed int)sa->sa_family == 2)
       {
         addr2ip(&((struct sockaddr_in *)sa)->sin_addr, str, len);
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(str);
-        i = (signed int)return_value_strlen$2;
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(str);
+        i = (signed int)return_value_strlen_2;
         unsigned short int __v;
-        unsigned short int addrport2str$$1$$3$$1$$1$$__x = (unsigned short int)((struct sockaddr_in *)sa)->sin_port;
-        asm("rorw $8, %w0" : "=r"(__v) : "0"(addrport2str$$1$$3$$1$$1$$__x) : "cc");
-        tmp_statement_expression$3 = __v;
-        snprintf(str + (signed long int)i, (unsigned long int)((len - i) - 5), ":%d", tmp_statement_expression$3);
+        unsigned short int addrport2str__1__3__1__1____x = (unsigned short int)((struct sockaddr_in *)sa)->sin_port;
+        asm("rorw _8, %w0" : "=r"(__v) : "0"(addrport2str__1__3__1__1____x) : "cc");
+        tmp_statement_expression_3 = __v;
+        snprintf(str + (signed long int)i, (unsigned long int)((len - i) - 5), ":%d", tmp_statement_expression_3);
       }
 
       else
         if((signed int)sa->sa_family == 10)
         {
           addr2ip6(&((struct sockaddr_in6 *)sa)->sin6_addr, str, len);
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(str);
-          i = (signed int)return_value_strlen$4;
-          unsigned short int addrport2str$$1$$3$$2$$1$$__v;
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(str);
+          i = (signed int)return_value_strlen_4;
+          unsigned short int addrport2str__1__3__2__1____v;
           unsigned short int __x = (unsigned short int)((struct sockaddr_in6 *)sa)->sin6_port;
-          asm("rorw $8, %w0" : "=r"(addrport2str$$1$$3$$2$$1$$__v) : "0"(__x) : "cc");
-          tmp_statement_expression$5 = addrport2str$$1$$3$$2$$1$$__v;
-          snprintf(str + (signed long int)i, (unsigned long int)((len - i) - 5), ":%d", tmp_statement_expression$5);
+          asm("rorw _8, %w0" : "=r"(addrport2str__1__3__2__1____v) : "0"(__x) : "cc");
+          tmp_statement_expression_5 = addrport2str__1__3__2__1____v;
+          snprintf(str + (signed long int)i, (unsigned long int)((len - i) - 5), ":%d", tmp_statement_expression_5);
         }
 
         else
           snprintf(str, (unsigned long int)len, "%s:?", (const void *)"???");
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      message(3, "Unknown node:serv %s len=%d err=%d errno=%d", str, salen, err, *return_value___errno_location$6);
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      message(3, "Unknown node:serv %s len=%d err=%d errno=%d", str, salen, err, *return_value___errno_location_6);
     }
 
     else
     {
-      unsigned long int return_value_strlen$7;
-      return_value_strlen$7=strlen(str);
-      i = (signed int)return_value_strlen$7;
+      unsigned long int return_value_strlen_7;
+      return_value_strlen_7=strlen(str);
+      i = (signed int)return_value_strlen_7;
       snprintf(str + (signed long int)i, (unsigned long int)(len - i), ":%s", (const void *)serv);
     }
-    unsigned long int return_value_strlen$8;
-    return_value_strlen$8=strlen(str);
-    i = (signed int)return_value_strlen$8;
+    unsigned long int return_value_strlen_8;
+    return_value_strlen_8=strlen(str);
+    i = (signed int)return_value_strlen_8;
     ext2str(proto, str + (signed long int)i, len - i);
     return str;
   }
@@ -6116,18 +6116,18 @@ void asyncHealthCheck(struct _Backup *b)
     message(7, "asyncHealthCheck %s", (const void *)addrport);
   }
 
-  signed int return_value_healthCheck$3;
-  return_value_healthCheck$3=healthCheck(&b->check->addr, b->check->len, b->proto, (signed int)b->interval, b->chat);
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  if(!(return_value_healthCheck$3 == 0))
+  signed int return_value_healthCheck_3;
+  return_value_healthCheck_3=healthCheck(&b->check->addr, b->check->len, b->proto, (signed int)b->interval, b->chat);
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  if(!(return_value_healthCheck_3 == 0))
   {
     if(Debug >= 4)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (b->bn != 0 ? (Debug > 1 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (b->bn != 0 ? (Debug > 1 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       addrport2strOnce(&b->check->addr, b->check->len, b->proto & (proto_ohttp_d | proto_base_d | proto_command), addrport, 127, 0);
       message(7, "health check %s success", (const void *)addrport);
@@ -6141,11 +6141,11 @@ void asyncHealthCheck(struct _Backup *b)
   else
   {
     if(Debug >= 4)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = ((signed int)b->bn == 0 ? (Debug > 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = ((signed int)b->bn == 0 ? (Debug > 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       addrport2strOnce(&b->check->addr, b->check->len, b->proto & (proto_ohttp_d | proto_base_d | proto_command), addrport, 127, 0);
       message(7, "health check %s fail", (const void *)addrport);
@@ -6169,9 +6169,9 @@ void asyncHealthCheck(struct _Backup *b)
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // baseDecode
@@ -6184,10 +6184,10 @@ signed int baseDecode(unsigned char *buf, signed int len, char *rest)
   signed int i;
   signed int j = 0;
   i = 0;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
   for( ; !(i >= len); i = i + 1)
   {
     c[(signed long int)j] = index_64[(signed long int)buf[(signed long int)i]];
@@ -6200,25 +6200,25 @@ signed int baseDecode(unsigned char *buf, signed int len, char *rest)
 
       }
 
-      tmp_post$1 = j;
+      tmp_post_1 = j;
       j = j + 1;
-      o[(signed long int)tmp_post$1] = buf[(signed long int)i];
+      o[(signed long int)tmp_post_1] = buf[(signed long int)i];
       if(j == 4)
       {
         j = 0;
-        tmp_post$2 = blen;
+        tmp_post_2 = blen;
         blen = blen + 1;
-        buf[(signed long int)tmp_post$2] = (unsigned char)((signed int)c[(signed long int)0] << 2 | ((signed int)c[(signed long int)1] & 0x30) >> 4);
+        buf[(signed long int)tmp_post_2] = (unsigned char)((signed int)c[(signed long int)0] << 2 | ((signed int)c[(signed long int)1] & 0x30) >> 4);
         if(!((signed int)c[2l] == 254))
         {
-          tmp_post$3 = blen;
+          tmp_post_3 = blen;
           blen = blen + 1;
-          buf[(signed long int)tmp_post$3] = (unsigned char)(((signed int)c[(signed long int)1] & 0x0F) << 4 | ((signed int)c[(signed long int)2] & 0x3C) >> 2);
+          buf[(signed long int)tmp_post_3] = (unsigned char)(((signed int)c[(signed long int)1] & 0x0F) << 4 | ((signed int)c[(signed long int)2] & 0x3C) >> 2);
           if(!((signed int)c[3l] == 254))
           {
-            tmp_post$4 = blen;
+            tmp_post_4 = blen;
             blen = blen + 1;
-            buf[(signed long int)tmp_post$4] = (unsigned char)(((signed int)c[(signed long int)2] & 0x03) << 6 | (signed int)c[(signed long int)3]);
+            buf[(signed long int)tmp_post_4] = (unsigned char)(((signed int)c[(signed long int)2] & 0x03) << 6 | (signed int)c[(signed long int)3]);
           }
 
         }
@@ -6284,12 +6284,12 @@ signed int baseEncode(unsigned char *buf, signed int len, signed int max)
     buf[(signed long int)blen] = basis_64[(signed long int)((signed int)c1 >> 2)];
     blen = blen + 4;
   }
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(!((signed int)buf[(signed long int)(blen + -1)] == 61))
   {
-    tmp_post$1 = blen;
+    tmp_post_1 = blen;
     blen = blen + 1;
-    buf[(signed long int)tmp_post$1] = (unsigned char)61;
+    buf[(signed long int)tmp_post_1] = (unsigned char)61;
   }
 
   return blen;
@@ -6300,11 +6300,11 @@ signed int baseEncode(unsigned char *buf, signed int len, signed int max)
 struct _XHosts * checkXhost(struct _XHosts *xhosts, struct sockaddr *sa, unsigned int salen)
 {
   signed int match = 1;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$7;
-  unsigned int return_value___bswap_32$6;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_7;
+  unsigned int return_value___bswap_32_6;
   if(xhosts == ((struct _XHosts *)NULL))
     return XHostsTrue;
 
@@ -6318,24 +6318,24 @@ struct _XHosts * checkXhost(struct _XHosts *xhosts, struct sockaddr *sa, unsigne
       else
       {
         if((signed int)sa->sa_family == 2)
-          tmp_if_expr$11 = (signed int)xhosts->xhost.addr.sa_family == 2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_11 = (signed int)xhosts->xhost.addr.sa_family == 2 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$11 = (_Bool)0;
-        if(tmp_if_expr$11)
+          tmp_if_expr_11 = (_Bool)0;
+        if(tmp_if_expr_11)
         {
           if((signed int)xhosts->mbits >= 1)
           {
-            unsigned long int checkXhost$$1$$1$$1$$2$$1$$addr;
-            unsigned int return_value___bswap_32$1;
-            return_value___bswap_32$1=__bswap_32(((struct sockaddr_in *)sa)->sin_addr.s_addr);
-            checkXhost$$1$$1$$1$$2$$1$$addr = (unsigned long int)return_value___bswap_32$1;
-            unsigned long int checkXhost$$1$$1$$1$$2$$1$$xadr;
-            unsigned int return_value___bswap_32$2;
-            return_value___bswap_32$2=__bswap_32(((struct sockaddr_in *)&xhosts->xhost.addr)->sin_addr.s_addr);
-            checkXhost$$1$$1$$1$$2$$1$$xadr = (unsigned long int)return_value___bswap_32$2;
-            unsigned long int checkXhost$$1$$1$$1$$2$$1$$bits = (unsigned long int)~0 << 32 - (signed int)xhosts->mbits;
-            if(!((checkXhost$$1$$1$$1$$2$$1$$addr & checkXhost$$1$$1$$1$$2$$1$$bits) == (checkXhost$$1$$1$$1$$2$$1$$bits & checkXhost$$1$$1$$1$$2$$1$$xadr)))
+            unsigned long int checkXhost__1__1__1__2__1__addr;
+            unsigned int return_value___bswap_32_1;
+            return_value___bswap_32_1=__bswap_32(((struct sockaddr_in *)sa)->sin_addr.s_addr);
+            checkXhost__1__1__1__2__1__addr = (unsigned long int)return_value___bswap_32_1;
+            unsigned long int checkXhost__1__1__1__2__1__xadr;
+            unsigned int return_value___bswap_32_2;
+            return_value___bswap_32_2=__bswap_32(((struct sockaddr_in *)&xhosts->xhost.addr)->sin_addr.s_addr);
+            checkXhost__1__1__1__2__1__xadr = (unsigned long int)return_value___bswap_32_2;
+            unsigned long int checkXhost__1__1__1__2__1__bits = (unsigned long int)~0 << 32 - (signed int)xhosts->mbits;
+            if(!((checkXhost__1__1__1__2__1__addr & checkXhost__1__1__1__2__1__bits) == (checkXhost__1__1__1__2__1__bits & checkXhost__1__1__1__2__1__xadr)))
               goto __CPROVER_DUMP_L27;
 
           }
@@ -6349,13 +6349,13 @@ struct _XHosts * checkXhost(struct _XHosts *xhosts, struct sockaddr *sa, unsigne
         else
         {
           if((signed int)sa->sa_family == 10)
-            tmp_if_expr$10 = (signed int)xhosts->xhost.addr.sa_family == 10 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_10 = (signed int)xhosts->xhost.addr.sa_family == 10 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$10 = (_Bool)0;
-          if(tmp_if_expr$10)
+            tmp_if_expr_10 = (_Bool)0;
+          if(tmp_if_expr_10)
           {
-            struct in6_addr *checkXhost$$1$$1$$1$$3$$adrp = &((struct sockaddr_in6 *)sa)->sin6_addr;
+            struct in6_addr *checkXhost__1__1__1__3__adrp = &((struct sockaddr_in6 *)sa)->sin6_addr;
             struct in6_addr *xadp = &((struct sockaddr_in6 *)&xhosts->xhost.addr)->sin6_addr;
             signed int j;
             signed int k;
@@ -6364,23 +6364,23 @@ struct _XHosts * checkXhost(struct _XHosts *xhosts, struct sockaddr *sa, unsigne
             for( ; k >= 1; k = k - 32)
             {
               unsigned long int addr;
-              unsigned long int checkXhost$$1$$1$$1$$3$$1$$1$$xadr;
+              unsigned long int checkXhost__1__1__1__3__1__1__xadr;
               unsigned long int mask;
-              unsigned int return_value___bswap_32$3;
-              return_value___bswap_32$3=__bswap_32((unsigned int)*((unsigned long int *)&checkXhost$$1$$1$$1$$3$$adrp->__in6_u.__u6_addr8[(signed long int)j]));
-              addr = (unsigned long int)return_value___bswap_32$3;
-              unsigned int return_value___bswap_32$4;
-              return_value___bswap_32$4=__bswap_32((unsigned int)*((unsigned long int *)&xadp->__in6_u.__u6_addr8[(signed long int)j]));
-              checkXhost$$1$$1$$1$$3$$1$$1$$xadr = (unsigned long int)return_value___bswap_32$4;
+              unsigned int return_value___bswap_32_3;
+              return_value___bswap_32_3=__bswap_32((unsigned int)*((unsigned long int *)&checkXhost__1__1__1__3__adrp->__in6_u.__u6_addr8[(signed long int)j]));
+              addr = (unsigned long int)return_value___bswap_32_3;
+              unsigned int return_value___bswap_32_4;
+              return_value___bswap_32_4=__bswap_32((unsigned int)*((unsigned long int *)&xadp->__in6_u.__u6_addr8[(signed long int)j]));
+              checkXhost__1__1__1__3__1__1__xadr = (unsigned long int)return_value___bswap_32_4;
               if(k >= 32)
                 mask = (unsigned long int)~0;
 
               else
                 mask = (unsigned long int)~0 << 32 - k;
               if(Debug >= 13)
-                message(7, "compare addr=%lx x=%lx m=%lx", addr, checkXhost$$1$$1$$1$$3$$1$$1$$xadr, mask);
+                message(7, "compare addr=%lx x=%lx m=%lx", addr, checkXhost__1__1__1__3__1__1__xadr, mask);
 
-              if(!((addr & mask) == (mask & checkXhost$$1$$1$$1$$3$$1$$1$$xadr)))
+              if(!((addr & mask) == (mask & checkXhost__1__1__1__3__1__1__xadr)))
                 break;
 
               j = j + 4;
@@ -6402,32 +6402,32 @@ struct _XHosts * checkXhost(struct _XHosts *xhosts, struct sockaddr *sa, unsigne
               {
                 struct in6_addr *adrp = &((struct sockaddr_in6 *)sa)->sin6_addr;
                 if(!(*((unsigned long int *)adrp->__in6_u.__u6_addr8) == 0ul))
-                  tmp_if_expr$5 = (_Bool)1;
+                  tmp_if_expr_5 = (_Bool)1;
 
                 else
-                  tmp_if_expr$5 = *((unsigned long int *)&adrp->__in6_u.__u6_addr8[(signed long int)4]) != (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$5)
-                  tmp_if_expr$7 = (_Bool)1;
+                  tmp_if_expr_5 = *((unsigned long int *)&adrp->__in6_u.__u6_addr8[(signed long int)4]) != (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_5)
+                  tmp_if_expr_7 = (_Bool)1;
 
                 else
                 {
-                  return_value___bswap_32$6=__bswap_32((unsigned int)*((unsigned long int *)&adrp->__in6_u.__u6_addr8[(signed long int)8]));
-                  tmp_if_expr$7 = return_value___bswap_32$6 != (unsigned int)0xFFFF ? (_Bool)1 : (_Bool)0;
+                  return_value___bswap_32_6=__bswap_32((unsigned int)*((unsigned long int *)&adrp->__in6_u.__u6_addr8[(signed long int)8]));
+                  tmp_if_expr_7 = return_value___bswap_32_6 != (unsigned int)0xFFFF ? (_Bool)1 : (_Bool)0;
                 }
-                if(!tmp_if_expr$7)
+                if(!tmp_if_expr_7)
                 {
                   if((signed int)xhosts->mbits >= 1)
                   {
-                    unsigned long int checkXhost$$1$$1$$1$$4$$1$$addr;
-                    unsigned int return_value___bswap_32$8;
-                    return_value___bswap_32$8=__bswap_32((unsigned int)*((unsigned long int *)&adrp->__in6_u.__u6_addr8[(signed long int)12]));
-                    checkXhost$$1$$1$$1$$4$$1$$addr = (unsigned long int)return_value___bswap_32$8;
+                    unsigned long int checkXhost__1__1__1__4__1__addr;
+                    unsigned int return_value___bswap_32_8;
+                    return_value___bswap_32_8=__bswap_32((unsigned int)*((unsigned long int *)&adrp->__in6_u.__u6_addr8[(signed long int)12]));
+                    checkXhost__1__1__1__4__1__addr = (unsigned long int)return_value___bswap_32_8;
                     unsigned long int xadr;
-                    unsigned int return_value___bswap_32$9;
-                    return_value___bswap_32$9=__bswap_32(((struct sockaddr_in *)&xhosts->xhost.addr)->sin_addr.s_addr);
-                    xadr = (unsigned long int)return_value___bswap_32$9;
+                    unsigned int return_value___bswap_32_9;
+                    return_value___bswap_32_9=__bswap_32(((struct sockaddr_in *)&xhosts->xhost.addr)->sin_addr.s_addr);
+                    xadr = (unsigned long int)return_value___bswap_32_9;
                     unsigned long int bits = (unsigned long int)~0 << 32 - (signed int)xhosts->mbits;
-                    if(!((checkXhost$$1$$1$$1$$4$$1$$addr & bits) == (bits & xadr)))
+                    if(!((checkXhost__1__1__1__4__1__addr & bits) == (bits & xadr)))
                       goto __CPROVER_DUMP_L27;
 
                   }
@@ -6465,9 +6465,9 @@ signed int commOutput(struct _Pair *pair, char *fmt, ...)
   signed int psd;
   char *str;
   void **ap;
-  unsigned long int return_value_strlen$1;
-  signed int return_value_baseEncode$2;
-  unsigned long int return_value_strlen$3;
+  unsigned long int return_value_strlen_1;
+  signed int return_value_baseEncode_2;
+  unsigned long int return_value_strlen_3;
   if(p == ((struct _Pair *)NULL))
     return -1;
 
@@ -6504,15 +6504,15 @@ signed int commOutput(struct _Pair *pair, char *fmt, ...)
       ap = ((void **)NULL);
       if(!(((proto_base_d | proto_base_s) & p->proto) == 0))
       {
-        return_value_strlen$1=strlen(str);
-        return_value_baseEncode$2=baseEncode((unsigned char *)str, (signed int)return_value_strlen$1, (ex->bufmax - 1) - (ex->start + ex->len));
-        ex->len = ex->len + return_value_baseEncode$2;
+        return_value_strlen_1=strlen(str);
+        return_value_baseEncode_2=baseEncode((unsigned char *)str, (signed int)return_value_strlen_1, (ex->bufmax - 1) - (ex->start + ex->len));
+        ex->len = ex->len + return_value_baseEncode_2;
       }
 
       else
       {
-        return_value_strlen$3=strlen(str);
-        ex->len = ex->len + (signed int)return_value_strlen$3;
+        return_value_strlen_3=strlen(str);
+        ex->len = ex->len + (signed int)return_value_strlen_3;
       }
       p->proto = p->proto | proto_select_w | proto_dirty;
       return ex->len;
@@ -6524,33 +6524,33 @@ signed int commOutput(struct _Pair *pair, char *fmt, ...)
 // file stone.c line 5250
 static char * comm_match(char *buf, char *str)
 {
-  signed int tmp_statement_expression$1;
-  char *tmp_post$2;
-  signed int tmp_if_expr$4;
-  const signed int **return_value___ctype_toupper_loc$3;
-  char *tmp_post$5;
-  const signed int **return_value___ctype_toupper_loc$6;
-  char *tmp_post$7;
-  char *tmp_post$8;
+  signed int tmp_statement_expression_1;
+  char *tmp_post_2;
+  signed int tmp_if_expr_4;
+  const signed int **return_value___ctype_toupper_loc_3;
+  char *tmp_post_5;
+  const signed int **return_value___ctype_toupper_loc_6;
+  char *tmp_post_7;
+  char *tmp_post_8;
   while(!(*str == 0))
   {
     signed int __res;
-    return_value___ctype_toupper_loc$6=__ctype_toupper_loc();
-    tmp_post$7 = buf;
+    return_value___ctype_toupper_loc_6=__ctype_toupper_loc();
+    tmp_post_7 = buf;
     buf = buf + 1l;
-    __res = (*return_value___ctype_toupper_loc$6)[(signed long int)(signed int)*tmp_post$7];
-    tmp_statement_expression$1 = __res;
-    tmp_post$8 = str;
+    __res = (*return_value___ctype_toupper_loc_6)[(signed long int)(signed int)*tmp_post_7];
+    tmp_statement_expression_1 = __res;
+    tmp_post_8 = str;
     str = str + 1l;
-    if(!(tmp_statement_expression$1 == (signed int)*tmp_post$8))
+    if(!(tmp_statement_expression_1 == (signed int)*tmp_post_8))
       return (char *)(void *)0;
 
   }
   if(!(*buf == 0))
   {
-    const unsigned short int **return_value___ctype_b_loc$9;
-    return_value___ctype_b_loc$9=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$9)[(signed long int)(signed int)*buf]) == 0)
+    const unsigned short int **return_value___ctype_b_loc_9;
+    return_value___ctype_b_loc_9=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_9)[(signed long int)(signed int)*buf]) == 0)
       return (char *)(void *)0;
 
     if((signed int)*buf == 32)
@@ -6570,17 +6570,17 @@ void connected(struct _Pair *pair)
     message(7, "%d TCP %d: established to %d %08x %08x", pair->stone->sd, p->sd, pair->sd, p->proto, pair->proto);
 
   time(&lastEstablished);
-  signed int return_value_doshutdown$1;
+  signed int return_value_doshutdown_1;
   if(!((pair->stone->proto & proto_ssl_d) == 0))
   {
-    signed int return_value_doSSL_connect$2;
-    return_value_doSSL_connect$2=doSSL_connect(pair);
-    if(!(return_value_doSSL_connect$2 >= 0))
+    signed int return_value_doSSL_connect_2;
+    return_value_doSSL_connect_2=doSSL_connect(pair);
+    if(!(return_value_doSSL_connect_2 >= 0))
     {
       if((p->proto & proto_shutdown) == 0)
       {
-        return_value_doshutdown$1=doshutdown(p, 2);
-        if(return_value_doshutdown$1 >= 0)
+        return_value_doshutdown_1=doshutdown(p, 2);
+        if(return_value_doshutdown_1 >= 0)
           p->proto = p->proto | proto_shutdown | proto_dirty;
 
       }
@@ -6654,9 +6654,9 @@ void daemonize(void)
   pid=fork();
   if(!(pid >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    message(3, "Can't create daemon err=%d", *return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    message(3, "Can't create daemon err=%d", *return_value___errno_location_1);
     exit(1);
   }
 
@@ -6664,41 +6664,41 @@ void daemonize(void)
     _exit(0);
 
   MyPid=getpid();
-  signed int return_value_setsid$3;
-  return_value_setsid$3=setsid();
-  signed int *return_value___errno_location$2;
-  if(!(return_value_setsid$3 >= 0))
+  signed int return_value_setsid_3;
+  return_value_setsid_3=setsid();
+  signed int *return_value___errno_location_2;
+  if(!(return_value_setsid_3 >= 0))
   {
-    return_value___errno_location$2=__errno_location();
-    message(4, "Can't create new session err=%d", *return_value___errno_location$2);
+    return_value___errno_location_2=__errno_location();
+    message(4, "Can't create new session err=%d", *return_value___errno_location_2);
   }
 
-  signed int return_value_chdir$5;
-  return_value_chdir$5=chdir("/");
-  signed int *return_value___errno_location$4;
-  if(!(return_value_chdir$5 >= 0))
+  signed int return_value_chdir_5;
+  return_value_chdir_5=chdir("/");
+  signed int *return_value___errno_location_4;
+  if(!(return_value_chdir_5 >= 0))
   {
-    return_value___errno_location$4=__errno_location();
-    message(4, "Can't change directory to / err=%d", *return_value___errno_location$4);
+    return_value___errno_location_4=__errno_location();
+    message(4, "Can't change directory to / err=%d", *return_value___errno_location_4);
   }
 
   umask((unsigned int)0022);
-  signed int return_value_close$7;
-  return_value_close$7=close(0);
-  signed int *return_value___errno_location$6;
-  if(!(return_value_close$7 == 0))
+  signed int return_value_close_7;
+  return_value_close_7=close(0);
+  signed int *return_value___errno_location_6;
+  if(!(return_value_close_7 == 0))
   {
-    return_value___errno_location$6=__errno_location();
-    message(4, "Can't close stdin err=%d", *return_value___errno_location$6);
+    return_value___errno_location_6=__errno_location();
+    message(4, "Can't close stdin err=%d", *return_value___errno_location_6);
   }
 
-  signed int return_value_close$9;
-  return_value_close$9=close(1);
-  signed int *return_value___errno_location$8;
-  if(!(return_value_close$9 == 0))
+  signed int return_value_close_9;
+  return_value_close_9=close(1);
+  signed int *return_value___errno_location_8;
+  if(!(return_value_close_9 == 0))
   {
-    return_value___errno_location$8=__errno_location();
-    message(4, "Can't close stdout err=%d", *return_value___errno_location$8);
+    return_value___errno_location_8=__errno_location();
+    message(4, "Can't close stdout err=%d", *return_value___errno_location_8);
   }
 
   if(Syslog >= 2)
@@ -6707,13 +6707,13 @@ void daemonize(void)
   if(LogFileName == ((char *)NULL))
     LogFp = (struct _IO_FILE *)(void *)0;
 
-  signed int return_value_close$11;
-  return_value_close$11=close(2);
-  signed int *return_value___errno_location$10;
-  if(!(return_value_close$11 == 0))
+  signed int return_value_close_11;
+  return_value_close_11=close(2);
+  signed int *return_value___errno_location_10;
+  if(!(return_value_close_11 == 0))
   {
-    return_value___errno_location$10=__errno_location();
-    message(4, "Can't close stderr err=%d", *return_value___errno_location$10);
+    return_value___errno_location_10=__errno_location();
+    message(4, "Can't close stderr err=%d", *return_value___errno_location_10);
   }
 
 }
@@ -6729,7 +6729,7 @@ void dispatch(signed int epfd, struct epoll_event *evs, signed int nevs)
     signed int other;
     struct epoll_event ev = evs[(signed long int)i];
     /* tag-#anon#lUN[SYM#tag-_Stone#'stone'||SYM#tag-_Pair#'pair'||SYM#tag-_Origin#'origin'|] */
-union anonymous$18
+union anonymous_18
 {
   // stone
   struct _Stone stone;
@@ -6741,13 +6741,13 @@ union anonymous$18
 
 /* */
     ;
-    union anonymous$18 *p;
+    union anonymous_18 *p;
     if(Debug >= 9)
       message(7, "epoll %d: evs[%d].data=%x", epfd, i, (signed int)ev.data.ptr);
 
     common = *((signed int *)ev.data.ptr);
     other = (signed int)(ev.events & (unsigned int)~(1 | 2 | 4));
-    p = (union anonymous$18 *)ev.data.ptr;
+    p = (union anonymous_18 *)ev.data.ptr;
     switch(common & 0x000f)
     {
       case 0x0003:
@@ -6834,14 +6834,14 @@ signed int doAcceptConnect(struct _Pair *p1)
   if(Debug >= 9)
     message(7, "%d TCP %d: doAcceptConnect", stone->sd, p1->sd);
 
-  signed int return_value_acceptCheck$1;
-  return_value_acceptCheck$1=acceptCheck(p1);
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
-  _Bool tmp_if_expr$6;
-  if(return_value_acceptCheck$1 == 0)
+  signed int return_value_acceptCheck_1;
+  return_value_acceptCheck_1=acceptCheck(p1);
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
+  _Bool tmp_if_expr_6;
+  if(return_value_acceptCheck_1 == 0)
   {
     freePair(p1);
     return 0;
@@ -6856,28 +6856,28 @@ signed int doAcceptConnect(struct _Pair *p1)
       char *p = stone->p;
       struct _ExBuf *ex = p2->b;
       i=strnparse(ex->buf, ex->bufmax - 5, &p, p1, (char)0xFF);
-      tmp_post$2 = i;
+      tmp_post_2 = i;
       i = i + 1;
-      ex->buf[(signed long int)tmp_post$2] = (char)13;
-      tmp_post$3 = i;
+      ex->buf[(signed long int)tmp_post_2] = (char)13;
+      tmp_post_3 = i;
       i = i + 1;
-      ex->buf[(signed long int)tmp_post$3] = (char)10;
-      tmp_post$4 = i;
+      ex->buf[(signed long int)tmp_post_3] = (char)10;
+      tmp_post_4 = i;
       i = i + 1;
-      ex->buf[(signed long int)tmp_post$4] = (char)13;
-      tmp_post$5 = i;
+      ex->buf[(signed long int)tmp_post_4] = (char)13;
+      tmp_post_5 = i;
       i = i + 1;
-      ex->buf[(signed long int)tmp_post$5] = (char)10;
+      ex->buf[(signed long int)tmp_post_5] = (char)10;
       ex->len = i;
     }
 
     ret = -1;
     if(!((p1->proto & proto_connect) == 0))
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (p1->proto & proto_dgram) != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (p1->proto & proto_dgram) != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
     {
       ret=reqconn(p2, &stone->dsts[(signed long int)0]->addr, stone->dsts[(signed long int)0]->len);
       if(ret >= 0)
@@ -6925,32 +6925,32 @@ signed int doReadWritePair(struct _Pair *pair, struct _Pair *opposite, signed in
   signed int len;
   signed int ret = 1;
   sd = pair->sd;
-  _Bool tmp_if_expr$36;
-  _Bool tmp_if_expr$35;
-  signed int return_value_doshutdown$7;
-  _Bool tmp_if_expr$34;
-  _Bool tmp_if_expr$32;
-  _Bool tmp_if_expr$33;
-  _Bool tmp_if_expr$21;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$15;
-  signed int return_value_doshutdown$10;
-  signed int return_value_doshutdown$11;
-  signed int return_value_doshutdown$12;
-  signed int return_value_doshutdown$16;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$20;
-  _Bool tmp_if_expr$31;
-  _Bool tmp_if_expr$23;
-  _Bool tmp_if_expr$30;
-  signed int return_value_doshutdown$24;
-  signed int return_value_doshutdown$25;
-  _Bool tmp_if_expr$27;
-  _Bool tmp_if_expr$28;
-  _Bool tmp_if_expr$29;
-  signed int return_value_SSL_pending$26;
+  _Bool tmp_if_expr_36;
+  _Bool tmp_if_expr_35;
+  signed int return_value_doshutdown_7;
+  _Bool tmp_if_expr_34;
+  _Bool tmp_if_expr_32;
+  _Bool tmp_if_expr_33;
+  _Bool tmp_if_expr_21;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_15;
+  signed int return_value_doshutdown_10;
+  signed int return_value_doshutdown_11;
+  signed int return_value_doshutdown_12;
+  signed int return_value_doshutdown_16;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_20;
+  _Bool tmp_if_expr_31;
+  _Bool tmp_if_expr_23;
+  _Bool tmp_if_expr_30;
+  signed int return_value_doshutdown_24;
+  signed int return_value_doshutdown_25;
+  _Bool tmp_if_expr_27;
+  _Bool tmp_if_expr_28;
+  _Bool tmp_if_expr_29;
+  signed int return_value_SSL_pending_26;
   if(!(sd >= 0))
     return ret;
 
@@ -6972,13 +6972,13 @@ signed int doReadWritePair(struct _Pair *pair, struct _Pair *opposite, signed in
       unsigned int optlen = (unsigned int)sizeof(signed int) /*4ul*/ ;
       pair->proto = pair->proto & ~proto_conninprog;
       pair->proto = pair->proto | proto_dirty;
-      signed int return_value_getsockopt$2;
-      return_value_getsockopt$2=getsockopt(sd, 1, 4, (void *)(char *)&optval, &optlen);
-      if(!(return_value_getsockopt$2 >= 0))
+      signed int return_value_getsockopt_2;
+      return_value_getsockopt_2=getsockopt(sd, 1, 4, (void *)(char *)&optval, &optlen);
+      if(!(return_value_getsockopt_2 >= 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        message(3, "%d TCP %d: getsockopt err=%d", stsd, sd, *return_value___errno_location$1);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        message(3, "%d TCP %d: getsockopt err=%d", stsd, sd, *return_value___errno_location_1);
         pair->proto = pair->proto | proto_close | proto_dirty;
         if(!(opposite == ((struct _Pair *)NULL)))
           opposite->proto = opposite->proto | proto_close | proto_dirty;
@@ -7009,9 +7009,9 @@ signed int doReadWritePair(struct _Pair *pair, struct _Pair *opposite, signed in
     if(!(ready_e == 0))
     {
       char buf[1l];
-      signed long int return_value_recv$3;
-      return_value_recv$3=recv(sd, (void *)buf, (unsigned long int)1, 1);
-      len = (signed int)return_value_recv$3;
+      signed long int return_value_recv_3;
+      return_value_recv_3=recv(sd, (void *)buf, (unsigned long int)1, 1);
+      len = (signed int)return_value_recv_3;
       if(len == 1)
       {
         if(!(opposite == ((struct _Pair *)NULL)))
@@ -7024,14 +7024,14 @@ signed int doReadWritePair(struct _Pair *pair, struct _Pair *opposite, signed in
 
         if(wsd >= 0)
         {
-          signed long int return_value_send$4;
-          return_value_send$4=send(wsd, (const void *)buf, (unsigned long int)1, 1);
-          len = (signed int)return_value_send$4;
+          signed long int return_value_send_4;
+          return_value_send_4=send(wsd, (const void *)buf, (unsigned long int)1, 1);
+          len = (signed int)return_value_send_4;
           if(!(len == 1))
           {
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            message(3, "%d TCP %d: send MSG_OOB ret=%d, err=%d", stsd, sd, len, *return_value___errno_location$5);
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            message(3, "%d TCP %d: send MSG_OOB ret=%d, err=%d", stsd, sd, len, *return_value___errno_location_5);
           }
 
         }
@@ -7040,20 +7040,20 @@ signed int doReadWritePair(struct _Pair *pair, struct _Pair *opposite, signed in
 
       else
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        message(3, "%d TCP %d: recv MSG_OOB ret=%d, err=%d", stsd, sd, len, *return_value___errno_location$6);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        message(3, "%d TCP %d: recv MSG_OOB ret=%d, err=%d", stsd, sd, len, *return_value___errno_location_6);
       }
     }
 
     else
     {
       if(!((pair->ssl_flag & sf_sb_on_r) == 0) && !(ready_r == 0))
-        tmp_if_expr$36 = (_Bool)1;
+        tmp_if_expr_36 = (_Bool)1;
 
       else
-        tmp_if_expr$36 = ((pair->ssl_flag & sf_sb_on_w) != 0 ? (ready_w != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$36)
+        tmp_if_expr_36 = ((pair->ssl_flag & sf_sb_on_w) != 0 ? (ready_w != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_36)
       {
         pair->ssl_flag = pair->ssl_flag & ~(sf_sb_on_r | sf_sb_on_w);
         pair->proto = pair->proto | proto_dirty;
@@ -7063,24 +7063,24 @@ signed int doReadWritePair(struct _Pair *pair, struct _Pair *opposite, signed in
       else
       {
         if(!((pair->ssl_flag & sf_cb_on_r) == 0) && !(ready_r == 0))
-          tmp_if_expr$35 = (_Bool)1;
+          tmp_if_expr_35 = (_Bool)1;
 
         else
-          tmp_if_expr$35 = ((pair->ssl_flag & sf_cb_on_w) != 0 ? (ready_w != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$35)
+          tmp_if_expr_35 = ((pair->ssl_flag & sf_cb_on_w) != 0 ? (ready_w != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_35)
         {
           pair->ssl_flag = pair->ssl_flag & ~(sf_cb_on_r | sf_cb_on_w);
           pair->proto = pair->proto | proto_dirty;
-          signed int return_value_doSSL_connect$8;
-          return_value_doSSL_connect$8=doSSL_connect(pair);
-          if(!(return_value_doSSL_connect$8 >= 0))
+          signed int return_value_doSSL_connect_8;
+          return_value_doSSL_connect_8=doSSL_connect(pair);
+          if(!(return_value_doSSL_connect_8 >= 0))
           {
             if(!(opposite == ((struct _Pair *)NULL)))
             {
               if((opposite->proto & proto_shutdown) == 0)
               {
-                return_value_doshutdown$7=doshutdown(opposite, 2);
-                if(return_value_doshutdown$7 >= 0)
+                return_value_doshutdown_7=doshutdown(opposite, 2);
+                if(return_value_doshutdown_7 >= 0)
                   opposite->proto = opposite->proto | proto_shutdown | proto_dirty;
 
               }
@@ -7096,17 +7096,17 @@ signed int doReadWritePair(struct _Pair *pair, struct _Pair *opposite, signed in
         else
         {
           if(!((pair->ssl_flag & sf_ab_on_r) == 0) && !(ready_r == 0))
-            tmp_if_expr$34 = (_Bool)1;
+            tmp_if_expr_34 = (_Bool)1;
 
           else
-            tmp_if_expr$34 = ((pair->ssl_flag & sf_ab_on_w) != 0 ? (ready_w != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$34)
+            tmp_if_expr_34 = ((pair->ssl_flag & sf_ab_on_w) != 0 ? (ready_w != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_34)
           {
             pair->ssl_flag = pair->ssl_flag & ~(sf_ab_on_r | sf_ab_on_w);
             pair->proto = pair->proto | proto_dirty;
-            signed int return_value_doSSL_accept$9;
-            return_value_doSSL_accept$9=doSSL_accept(pair);
-            if(!(return_value_doSSL_accept$9 >= 0))
+            signed int return_value_doSSL_accept_9;
+            return_value_doSSL_accept_9=doSSL_accept(pair);
+            if(!(return_value_doSSL_accept_9 >= 0))
             {
               pair->proto = pair->proto | proto_close | proto_dirty;
               if(!(opposite == ((struct _Pair *)NULL)))
@@ -7127,16 +7127,16 @@ signed int doReadWritePair(struct _Pair *pair, struct _Pair *opposite, signed in
           else
           {
             if(!((pair->proto & proto_select_r) == 0) && !(ready_r == 0))
-              tmp_if_expr$32 = !((pair->ssl_flag & sf_wb_on_r) != 0) ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_32 = !((pair->ssl_flag & sf_wb_on_r) != 0) ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$32 = (_Bool)0;
-            if(tmp_if_expr$32)
-              tmp_if_expr$33 = (_Bool)1;
+              tmp_if_expr_32 = (_Bool)0;
+            if(tmp_if_expr_32)
+              tmp_if_expr_33 = (_Bool)1;
 
             else
-              tmp_if_expr$33 = ((pair->ssl_flag & sf_rb_on_w) != 0 ? (ready_w != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$33)
+              tmp_if_expr_33 = ((pair->ssl_flag & sf_rb_on_w) != 0 ? (ready_w != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_33)
             {
               pair->ssl_flag = pair->ssl_flag & ~sf_rb_on_w;
               pair->proto = pair->proto | proto_dirty;
@@ -7163,34 +7163,34 @@ signed int doReadWritePair(struct _Pair *pair, struct _Pair *opposite, signed in
                 rPair->count = rPair->count - 10;
               }
               if(!(len >= 0))
-                tmp_if_expr$21 = (_Bool)1;
+                tmp_if_expr_21 = (_Bool)1;
 
               else
-                tmp_if_expr$21 = (rPair->proto & proto_close) != 0 ? (_Bool)1 : (_Bool)0;
-              if(wPair == ((struct _Pair *)NULL) || tmp_if_expr$21)
+                tmp_if_expr_21 = (rPair->proto & proto_close) != 0 ? (_Bool)1 : (_Bool)0;
+              if(wPair == ((struct _Pair *)NULL) || tmp_if_expr_21)
               {
                 if(len == -2)
-                  tmp_if_expr$13 = !((rPair->proto & proto_shutdown) != 0) ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_13 = !((rPair->proto & proto_shutdown) != 0) ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$13 = (_Bool)0;
-                if(!(wPair == ((struct _Pair *)NULL)) && tmp_if_expr$13)
-                  tmp_if_expr$14 = !((wPair->proto & (proto_eof | proto_shutdown | proto_close)) != 0) ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_13 = (_Bool)0;
+                if(!(wPair == ((struct _Pair *)NULL)) && tmp_if_expr_13)
+                  tmp_if_expr_14 = !((wPair->proto & (proto_eof | proto_shutdown | proto_close)) != 0) ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$14 = (_Bool)0;
-                if(tmp_if_expr$14)
-                  tmp_if_expr$15 = (wPair->proto & proto_connect) != 0 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_14 = (_Bool)0;
+                if(tmp_if_expr_14)
+                  tmp_if_expr_15 = (wPair->proto & proto_connect) != 0 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$15 = (_Bool)0;
-                if(wsd >= 0 && tmp_if_expr$15)
+                  tmp_if_expr_15 = (_Bool)0;
+                if(wsd >= 0 && tmp_if_expr_15)
                 {
                   rPair->proto = rPair->proto | proto_eof | proto_dirty;
                   if((wPair->proto & proto_shutdown) == 0)
                   {
-                    return_value_doshutdown$10=doshutdown(wPair, 1);
-                    if(return_value_doshutdown$10 >= 0)
+                    return_value_doshutdown_10=doshutdown(wPair, 1);
+                    if(return_value_doshutdown_10 >= 0)
                       wPair->proto = wPair->proto | proto_shutdown | proto_dirty;
 
                   }
@@ -7204,8 +7204,8 @@ signed int doReadWritePair(struct _Pair *pair, struct _Pair *opposite, signed in
                   signed int flag = 0;
                   if((rPair->proto & proto_shutdown) == 0)
                   {
-                    return_value_doshutdown$11=doshutdown(rPair, 2);
-                    if(return_value_doshutdown$11 >= 0)
+                    return_value_doshutdown_11=doshutdown(rPair, 2);
+                    if(return_value_doshutdown_11 >= 0)
                       flag = proto_shutdown;
 
                   }
@@ -7218,8 +7218,8 @@ signed int doReadWritePair(struct _Pair *pair, struct _Pair *opposite, signed in
                   {
                     if((wPair->proto & proto_shutdown) == 0)
                     {
-                      return_value_doshutdown$12=doshutdown(wPair, 2);
-                      if(return_value_doshutdown$12 >= 0)
+                      return_value_doshutdown_12=doshutdown(wPair, 2);
+                      if(return_value_doshutdown_12 >= 0)
                         flag = proto_shutdown;
 
                     }
@@ -7242,22 +7242,22 @@ signed int doReadWritePair(struct _Pair *pair, struct _Pair *opposite, signed in
                   if(!((wPair->proto & proto_dgram) == 0))
                   {
                     rPair->proto = rPair->proto | proto_select_r | proto_dirty;
-                    signed int return_value_sendPairUDP$17;
-                    return_value_sendPairUDP$17=sendPairUDP(wPair);
-                    if(!(return_value_sendPairUDP$17 >= 0))
+                    signed int return_value_sendPairUDP_17;
+                    return_value_sendPairUDP_17=sendPairUDP(wPair);
+                    if(!(return_value_sendPairUDP_17 >= 0))
                     {
-                      signed int doReadWritePair$$1$$6$$4$$1$$1$$1$$flag = 0;
+                      signed int doReadWritePair__1__6__4__1__1__1__flag = 0;
                       if((rPair->proto & proto_shutdown) == 0)
                       {
-                        return_value_doshutdown$16=doshutdown(rPair, 2);
-                        if(return_value_doshutdown$16 >= 0)
-                          doReadWritePair$$1$$6$$4$$1$$1$$1$$flag = proto_shutdown;
+                        return_value_doshutdown_16=doshutdown(rPair, 2);
+                        if(return_value_doshutdown_16 >= 0)
+                          doReadWritePair__1__6__4__1__1__1__flag = proto_shutdown;
 
                       }
 
                       rPair->proto = rPair->proto & ~proto_select_w;
                       rPair->proto = rPair->proto | proto_dirty;
-                      setclose(rPair, proto_eof | doReadWritePair$$1$$6$$4$$1$$1$$1$$flag);
+                      setclose(rPair, proto_eof | doReadWritePair__1__6__4__1__1__1__flag);
                     }
 
                   }
@@ -7265,21 +7265,21 @@ signed int doReadWritePair(struct _Pair *pair, struct _Pair *opposite, signed in
                   else
                   {
                     if(len >= 1 && wsd >= 0)
-                      tmp_if_expr$18 = (wPair->proto & proto_connect) != 0 ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_18 = (wPair->proto & proto_connect) != 0 ? (_Bool)1 : (_Bool)0;
 
                     else
-                      tmp_if_expr$18 = (_Bool)0;
-                    if(tmp_if_expr$18)
-                      tmp_if_expr$19 = !((wPair->proto & (proto_shutdown | proto_close)) != 0) ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_18 = (_Bool)0;
+                    if(tmp_if_expr_18)
+                      tmp_if_expr_19 = !((wPair->proto & (proto_shutdown | proto_close)) != 0) ? (_Bool)1 : (_Bool)0;
 
                     else
-                      tmp_if_expr$19 = (_Bool)0;
-                    if(tmp_if_expr$19)
-                      tmp_if_expr$20 = !((rPair->proto & proto_close) != 0) ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_19 = (_Bool)0;
+                    if(tmp_if_expr_19)
+                      tmp_if_expr_20 = !((rPair->proto & proto_close) != 0) ? (_Bool)1 : (_Bool)0;
 
                     else
-                      tmp_if_expr$20 = (_Bool)0;
-                    if(tmp_if_expr$20)
+                      tmp_if_expr_20 = (_Bool)0;
+                    if(tmp_if_expr_20)
                       wPair->proto = wPair->proto | proto_select_w | proto_dirty;
 
                     else
@@ -7297,11 +7297,11 @@ signed int doReadWritePair(struct _Pair *pair, struct _Pair *opposite, signed in
             else
             {
               if(!((pair->proto & proto_select_w) == 0) && !(ready_w == 0))
-                tmp_if_expr$31 = (_Bool)1;
+                tmp_if_expr_31 = (_Bool)1;
 
               else
-                tmp_if_expr$31 = ((pair->ssl_flag & sf_wb_on_r) != 0 ? (ready_r != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$31)
+                tmp_if_expr_31 = ((pair->ssl_flag & sf_wb_on_r) != 0 ? (ready_r != 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_31)
               {
                 pair->ssl_flag = pair->ssl_flag & ~sf_wb_on_r;
                 pair->proto = pair->proto | proto_dirty;
@@ -7316,18 +7316,18 @@ signed int doReadWritePair(struct _Pair *pair, struct _Pair *opposite, signed in
                 wPair->proto = wPair->proto & ~proto_select_w;
                 wPair->proto = wPair->proto | proto_dirty;
                 if((wPair->proto & proto_command) == 0x0100)
-                  tmp_if_expr$23 = (_Bool)1;
+                  tmp_if_expr_23 = (_Bool)1;
 
                 else
-                  tmp_if_expr$23 = (wPair->proto & proto_command) == 0x0200 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$23)
+                  tmp_if_expr_23 = (wPair->proto & proto_command) == 0x0200 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_23)
                 {
                   signed int state = wPair->proto & state_mask;
                   if(state == 0)
                   {
-                    signed int return_value_insheader$22;
-                    return_value_insheader$22=insheader(wPair);
-                    if(return_value_insheader$22 >= 0)
+                    signed int return_value_insheader_22;
+                    return_value_insheader_22=insheader(wPair);
+                    if(return_value_insheader_22 >= 0)
                     {
                       state = state + 1;
                       wPair->proto = wPair->proto | state;
@@ -7341,22 +7341,22 @@ signed int doReadWritePair(struct _Pair *pair, struct _Pair *opposite, signed in
                 len=dowrite(wPair);
                 wPair->count = wPair->count - 10;
                 if(!(len >= 0))
-                  tmp_if_expr$30 = (_Bool)1;
+                  tmp_if_expr_30 = (_Bool)1;
 
                 else
-                  tmp_if_expr$30 = (wPair->proto & proto_close) != 0 ? (_Bool)1 : (_Bool)0;
-                if(rPair == ((struct _Pair *)NULL) || tmp_if_expr$30)
+                  tmp_if_expr_30 = (wPair->proto & proto_close) != 0 ? (_Bool)1 : (_Bool)0;
+                if(rPair == ((struct _Pair *)NULL) || tmp_if_expr_30)
                 {
-                  signed int doReadWritePair$$1$$7$$2$$flag = 0;
+                  signed int doReadWritePair__1__7__2__flag = 0;
                   if(!(rPair == ((struct _Pair *)NULL)))
                   {
                     if(rsd >= 0)
                     {
                       if((rPair->proto & proto_shutdown) == 0)
                       {
-                        return_value_doshutdown$24=doshutdown(rPair, 2);
-                        if(return_value_doshutdown$24 >= 0)
-                          doReadWritePair$$1$$7$$2$$flag = proto_shutdown;
+                        return_value_doshutdown_24=doshutdown(rPair, 2);
+                        if(return_value_doshutdown_24 >= 0)
+                          doReadWritePair__1__7__2__flag = proto_shutdown;
 
                       }
 
@@ -7364,19 +7364,19 @@ signed int doReadWritePair(struct _Pair *pair, struct _Pair *opposite, signed in
 
                     rPair->proto = rPair->proto & ~proto_select_w;
                     rPair->proto = rPair->proto | proto_dirty;
-                    setclose(rPair, doReadWritePair$$1$$7$$2$$flag);
+                    setclose(rPair, doReadWritePair__1__7__2__flag);
                   }
 
-                  doReadWritePair$$1$$7$$2$$flag = 0;
+                  doReadWritePair__1__7__2__flag = 0;
                   if((wPair->proto & proto_shutdown) == 0)
                   {
-                    return_value_doshutdown$25=doshutdown(wPair, 2);
-                    if(return_value_doshutdown$25 >= 0)
-                      doReadWritePair$$1$$7$$2$$flag = proto_shutdown;
+                    return_value_doshutdown_25=doshutdown(wPair, 2);
+                    if(return_value_doshutdown_25 >= 0)
+                      doReadWritePair__1__7__2__flag = proto_shutdown;
 
                   }
 
-                  setclose(wPair, doReadWritePair$$1$$7$$2$$flag);
+                  setclose(wPair, doReadWritePair__1__7__2__flag);
                 }
 
                 else
@@ -7420,26 +7420,26 @@ signed int doReadWritePair(struct _Pair *pair, struct _Pair *opposite, signed in
                     }
 
                     if(rsd >= 0 && !(rPair == ((struct _Pair *)NULL)))
-                      tmp_if_expr$27 = (rPair->proto & proto_connect) != 0 ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_27 = (rPair->proto & proto_connect) != 0 ? (_Bool)1 : (_Bool)0;
 
                     else
-                      tmp_if_expr$27 = (_Bool)0;
-                    if(tmp_if_expr$27)
-                      tmp_if_expr$28 = !((rPair->proto & (proto_eof | proto_close)) != 0) ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_27 = (_Bool)0;
+                    if(tmp_if_expr_27)
+                      tmp_if_expr_28 = !((rPair->proto & (proto_eof | proto_close)) != 0) ? (_Bool)1 : (_Bool)0;
 
                     else
-                      tmp_if_expr$28 = (_Bool)0;
-                    if(tmp_if_expr$28)
-                      tmp_if_expr$29 = !((wPair->proto & (proto_shutdown | proto_close)) != 0) ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_28 = (_Bool)0;
+                    if(tmp_if_expr_28)
+                      tmp_if_expr_29 = !((wPair->proto & (proto_shutdown | proto_close)) != 0) ? (_Bool)1 : (_Bool)0;
 
                     else
-                      tmp_if_expr$29 = (_Bool)0;
-                    if(tmp_if_expr$29)
+                      tmp_if_expr_29 = (_Bool)0;
+                    if(tmp_if_expr_29)
                     {
                       if(!(rPair->ssl == ((struct ssl_st *)NULL)))
                       {
-                        return_value_SSL_pending$26=SSL_pending(rPair->ssl);
-                        if(!(return_value_SSL_pending$26 == 0))
+                        return_value_SSL_pending_26=SSL_pending(rPair->ssl);
+                        if(!(return_value_SSL_pending_26 == 0))
                         {
                           if(Debug >= 5)
                             message(7, "%d TCP %d: SSL_pending, read again", stsd, rPair->sd);
@@ -7498,13 +7498,13 @@ signed int doSSL_accept(struct _Pair *pair)
   signed int ret;
   signed int sd;
   struct ssl_st *ssl;
-  signed int return_value_SSL_state$1;
-  signed int return_value_SSL_state$2;
-  signed int return_value_SSL_state$3;
-  signed int return_value_SSL_state$4;
-  _Bool tmp_if_expr$11;
-  signed int *return_value___errno_location$10;
-  signed int *return_value___errno_location$12;
+  signed int return_value_SSL_state_1;
+  signed int return_value_SSL_state_2;
+  signed int return_value_SSL_state_3;
+  signed int return_value_SSL_state_4;
+  _Bool tmp_if_expr_11;
+  signed int *return_value___errno_location_10;
+  signed int *return_value___errno_location_12;
   if(pair == ((struct _Pair *)NULL))
     return -1;
 
@@ -7536,18 +7536,18 @@ signed int doSSL_accept(struct _Pair *pair)
       ret=SSL_accept(ssl);
       if(Debug >= 8)
       {
-        return_value_SSL_state$1=SSL_state(ssl);
-        return_value_SSL_state$2=SSL_state(ssl);
-        return_value_SSL_state$3=SSL_state(ssl);
-        return_value_SSL_state$4=SSL_state(ssl);
-        message(7, "%d TCP %d: SSL_accept ret=%d, state=%x, finished=%x, in_init=%x/%x", pair->stone->sd, sd, ret, return_value_SSL_state$1, return_value_SSL_state$2 == 0x03, return_value_SSL_state$3 & (0x1000 | 0x2000), return_value_SSL_state$4 & 0x2000);
+        return_value_SSL_state_1=SSL_state(ssl);
+        return_value_SSL_state_2=SSL_state(ssl);
+        return_value_SSL_state_3=SSL_state(ssl);
+        return_value_SSL_state_4=SSL_state(ssl);
+        message(7, "%d TCP %d: SSL_accept ret=%d, state=%x, finished=%x, in_init=%x/%x", pair->stone->sd, sd, ret, return_value_SSL_state_1, return_value_SSL_state_2 == 0x03, return_value_SSL_state_3 & (0x1000 | 0x2000), return_value_SSL_state_4 & 0x2000);
       }
 
       if(ret >= 1)
       {
-        signed int return_value_SSL_state$5;
-        return_value_SSL_state$5=SSL_state(ssl);
-        if(!((0x2000 & return_value_SSL_state$5) == 0))
+        signed int return_value_SSL_state_5;
+        return_value_SSL_state_5=SSL_state(ssl);
+        if(!((0x2000 & return_value_SSL_state_5) == 0))
         {
           if(!(pair->stone->ssl_server->verbose == 0))
           {
@@ -7562,13 +7562,13 @@ signed int doSSL_accept(struct _Pair *pair)
         if(Debug >= 4)
         {
           struct ssl_ctx_st *ctx = pair->stone->ssl_server->ctx;
-          signed long int return_value_SSL_CTX_ctrl$6;
-          return_value_SSL_CTX_ctrl$6=SSL_CTX_ctrl(ctx, 20, (signed long int)0, (void *)0);
-          signed long int return_value_SSL_CTX_ctrl$7;
-          return_value_SSL_CTX_ctrl$7=SSL_CTX_ctrl(ctx, 24, (signed long int)0, (void *)0);
-          signed long int return_value_SSL_CTX_ctrl$8;
-          return_value_SSL_CTX_ctrl$8=SSL_CTX_ctrl(ctx, 27, (signed long int)0, (void *)0);
-          message(7, "%d TCP %d: SSL_accept succeeded sess=%ld accept=%ld hits=%ld", pair->stone->sd, sd, return_value_SSL_CTX_ctrl$6, return_value_SSL_CTX_ctrl$7, return_value_SSL_CTX_ctrl$8);
+          signed long int return_value_SSL_CTX_ctrl_6;
+          return_value_SSL_CTX_ctrl_6=SSL_CTX_ctrl(ctx, 20, (signed long int)0, (void *)0);
+          signed long int return_value_SSL_CTX_ctrl_7;
+          return_value_SSL_CTX_ctrl_7=SSL_CTX_ctrl(ctx, 24, (signed long int)0, (void *)0);
+          signed long int return_value_SSL_CTX_ctrl_8;
+          return_value_SSL_CTX_ctrl_8=SSL_CTX_ctrl(ctx, 27, (signed long int)0, (void *)0);
+          message(7, "%d TCP %d: SSL_accept succeeded sess=%ld accept=%ld hits=%ld", pair->stone->sd, sd, return_value_SSL_CTX_ctrl_6, return_value_SSL_CTX_ctrl_7, return_value_SSL_CTX_ctrl_8);
         }
 
         if(!(pair->stone->ssl_server->verbose == 0))
@@ -7594,21 +7594,21 @@ signed int doSSL_accept(struct _Pair *pair)
         else
           if(err == 5)
           {
-            unsigned long int doSSL_accept$$1$$5$$e;
-            doSSL_accept$$1$$5$$e=ERR_get_error();
-            if(doSSL_accept$$1$$5$$e == 0ul)
+            unsigned long int doSSL_accept__1__5__e;
+            doSSL_accept__1__5__e=ERR_get_error();
+            if(doSSL_accept__1__5__e == 0ul)
             {
-              signed int *return_value___errno_location$9;
-              return_value___errno_location$9=__errno_location();
-              if(*return_value___errno_location$9 == 4)
-                tmp_if_expr$11 = (_Bool)1;
+              signed int *return_value___errno_location_9;
+              return_value___errno_location_9=__errno_location();
+              if(*return_value___errno_location_9 == 4)
+                tmp_if_expr_11 = (_Bool)1;
 
               else
               {
-                return_value___errno_location$10=__errno_location();
-                tmp_if_expr$11 = *return_value___errno_location$10 == 11 ? (_Bool)1 : (_Bool)0;
+                return_value___errno_location_10=__errno_location();
+                tmp_if_expr_11 = *return_value___errno_location_10 == 11 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$11)
+              if(tmp_if_expr_11)
               {
                 pair->ssl_flag = pair->ssl_flag | sf_ab_on_r | sf_ab_on_r;
                 if(Debug >= 9)
@@ -7617,33 +7617,33 @@ signed int doSSL_accept(struct _Pair *pair)
                 return 0;
               }
 
-              signed int *return_value___errno_location$13;
-              return_value___errno_location$13=__errno_location();
-              if(*return_value___errno_location$13 == 0)
+              signed int *return_value___errno_location_13;
+              return_value___errno_location_13=__errno_location();
+              if(*return_value___errno_location_13 == 0)
               {
                 if(Debug >= 1)
                 {
-                  return_value___errno_location$12=__errno_location();
-                  message(7, "%d TCP %d: SSL_accept shutdowned by peer sf=%x errno=%d", pair->stone->sd, sd, pair->ssl_flag, *return_value___errno_location$12);
+                  return_value___errno_location_12=__errno_location();
+                  message(7, "%d TCP %d: SSL_accept shutdowned by peer sf=%x errno=%d", pair->stone->sd, sd, pair->ssl_flag, *return_value___errno_location_12);
                 }
 
                 return -1;
               }
 
-              signed int return_value_priority$14;
-              return_value_priority$14=priority(pair);
-              signed int *return_value___errno_location$15;
-              return_value___errno_location$15=__errno_location();
-              message(return_value_priority$14, "%d TCP %d: SSL_accept I/O error sf=%x errno=%d", pair->stone->sd, sd, pair->ssl_flag, *return_value___errno_location$15);
+              signed int return_value_priority_14;
+              return_value_priority_14=priority(pair);
+              signed int *return_value___errno_location_15;
+              return_value___errno_location_15=__errno_location();
+              message(return_value_priority_14, "%d TCP %d: SSL_accept I/O error sf=%x errno=%d", pair->stone->sd, sd, pair->ssl_flag, *return_value___errno_location_15);
             }
 
             else
             {
-              signed int return_value_priority$16;
-              return_value_priority$16=priority(pair);
-              char *return_value_ERR_error_string$17;
-              return_value_ERR_error_string$17=ERR_error_string(doSSL_accept$$1$$5$$e, (char *)(void *)0);
-              message(return_value_priority$16, "%d TCP %d: SSL_accept sf=%x %s", pair->stone->sd, sd, pair->ssl_flag, return_value_ERR_error_string$17);
+              signed int return_value_priority_16;
+              return_value_priority_16=priority(pair);
+              char *return_value_ERR_error_string_17;
+              return_value_ERR_error_string_17=ERR_error_string(doSSL_accept__1__5__e, (char *)(void *)0);
+              message(return_value_priority_16, "%d TCP %d: SSL_accept sf=%x %s", pair->stone->sd, sd, pair->ssl_flag, return_value_ERR_error_string_17);
             }
             return ret;
           }
@@ -7653,11 +7653,11 @@ signed int doSSL_accept(struct _Pair *pair)
             {
               unsigned long int e;
               e=ERR_get_error();
-              signed int return_value_priority$18;
-              return_value_priority$18=priority(pair);
-              char *return_value_ERR_error_string$19;
-              return_value_ERR_error_string$19=ERR_error_string(e, (char *)(void *)0);
-              message(return_value_priority$18, "%d TCP %d: SSL_accept lib %s", pair->stone->sd, sd, return_value_ERR_error_string$19);
+              signed int return_value_priority_18;
+              return_value_priority_18=priority(pair);
+              char *return_value_ERR_error_string_19;
+              return_value_ERR_error_string_19=ERR_error_string(e, (char *)(void *)0);
+              message(return_value_priority_18, "%d TCP %d: SSL_accept lib %s", pair->stone->sd, sd, return_value_ERR_error_string_19);
               return -1;
             }
 
@@ -7677,9 +7677,9 @@ signed int doSSL_connect(struct _Pair *pair)
   signed int err;
   signed int sd;
   struct ssl_st *ssl;
-  signed int *return_value___errno_location$5;
-  _Bool tmp_if_expr$7;
-  signed int *return_value___errno_location$6;
+  signed int *return_value___errno_location_5;
+  _Bool tmp_if_expr_7;
+  signed int *return_value___errno_location_6;
   if(pair == ((struct _Pair *)NULL))
     return -1;
 
@@ -7708,9 +7708,9 @@ signed int doSSL_connect(struct _Pair *pair)
 
       if(!((sslparm_sni & (signed int)pair->stone->ssl_client->sslparm) == 0))
       {
-        signed long int return_value_SSL_ctrl$1;
-        return_value_SSL_ctrl$1=SSL_ctrl(ssl, 55, (signed long int)0, (void *)(char *)pair->stone->ssl_client->name);
-        if(return_value_SSL_ctrl$1 == 0l)
+        signed long int return_value_SSL_ctrl_1;
+        return_value_SSL_ctrl_1=SSL_ctrl(ssl, 55, (signed long int)0, (void *)(char *)pair->stone->ssl_client->name);
+        if(return_value_SSL_ctrl_1 == 0l)
           message(3, "%d TCP %d: Can't set TLS servername: %s", pair->stone->sd, sd, pair->stone->ssl_client->name);
 
       }
@@ -7728,13 +7728,13 @@ signed int doSSL_connect(struct _Pair *pair)
         if(Debug >= 4)
         {
           struct ssl_ctx_st *ctx = pair->stone->ssl_client->ctx;
-          signed long int return_value_SSL_CTX_ctrl$2;
-          return_value_SSL_CTX_ctrl$2=SSL_CTX_ctrl(ctx, 20, (signed long int)0, (void *)0);
-          signed long int return_value_SSL_CTX_ctrl$3;
-          return_value_SSL_CTX_ctrl$3=SSL_CTX_ctrl(ctx, 21, (signed long int)0, (void *)0);
-          signed long int return_value_SSL_CTX_ctrl$4;
-          return_value_SSL_CTX_ctrl$4=SSL_CTX_ctrl(ctx, 27, (signed long int)0, (void *)0);
-          message(7, "%d TCP %d: SSL_connect succeeded sess=%ld connect=%ld hits=%ld", pair->stone->sd, sd, return_value_SSL_CTX_ctrl$2, return_value_SSL_CTX_ctrl$3, return_value_SSL_CTX_ctrl$4);
+          signed long int return_value_SSL_CTX_ctrl_2;
+          return_value_SSL_CTX_ctrl_2=SSL_CTX_ctrl(ctx, 20, (signed long int)0, (void *)0);
+          signed long int return_value_SSL_CTX_ctrl_3;
+          return_value_SSL_CTX_ctrl_3=SSL_CTX_ctrl(ctx, 21, (signed long int)0, (void *)0);
+          signed long int return_value_SSL_CTX_ctrl_4;
+          return_value_SSL_CTX_ctrl_4=SSL_CTX_ctrl(ctx, 27, (signed long int)0, (void *)0);
+          message(7, "%d TCP %d: SSL_connect succeeded sess=%ld connect=%ld hits=%ld", pair->stone->sd, sd, return_value_SSL_CTX_ctrl_2, return_value_SSL_CTX_ctrl_3, return_value_SSL_CTX_ctrl_4);
           message_pair(7, pair);
         }
 
@@ -7765,23 +7765,23 @@ signed int doSSL_connect(struct _Pair *pair)
             e=ERR_get_error();
             if(e == 0ul)
             {
-              signed int *return_value___errno_location$8;
-              return_value___errno_location$8=__errno_location();
-              if(*return_value___errno_location$8 == 0)
+              signed int *return_value___errno_location_8;
+              return_value___errno_location_8=__errno_location();
+              if(*return_value___errno_location_8 == 0)
                 return 1;
 
               else
               {
-                return_value___errno_location$5=__errno_location();
-                if(*return_value___errno_location$5 == 4)
-                  tmp_if_expr$7 = (_Bool)1;
+                return_value___errno_location_5=__errno_location();
+                if(*return_value___errno_location_5 == 4)
+                  tmp_if_expr_7 = (_Bool)1;
 
                 else
                 {
-                  return_value___errno_location$6=__errno_location();
-                  tmp_if_expr$7 = *return_value___errno_location$6 == 11 ? (_Bool)1 : (_Bool)0;
+                  return_value___errno_location_6=__errno_location();
+                  tmp_if_expr_7 = *return_value___errno_location_6 == 11 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$7)
+                if(tmp_if_expr_7)
                 {
                   pair->ssl_flag = pair->ssl_flag | sf_cb_on_r | sf_cb_on_r;
                   if(Debug >= 9)
@@ -7791,20 +7791,20 @@ signed int doSSL_connect(struct _Pair *pair)
                 }
 
               }
-              signed int return_value_priority$9;
-              return_value_priority$9=priority(pair);
-              signed int *return_value___errno_location$10;
-              return_value___errno_location$10=__errno_location();
-              message(return_value_priority$9, "%d TCP %d: SSL_connect I/O error sf=%x errno=%d", pair->stone->sd, sd, pair->ssl_flag, *return_value___errno_location$10);
+              signed int return_value_priority_9;
+              return_value_priority_9=priority(pair);
+              signed int *return_value___errno_location_10;
+              return_value___errno_location_10=__errno_location();
+              message(return_value_priority_9, "%d TCP %d: SSL_connect I/O error sf=%x errno=%d", pair->stone->sd, sd, pair->ssl_flag, *return_value___errno_location_10);
             }
 
             else
             {
-              signed int return_value_priority$11;
-              return_value_priority$11=priority(pair);
-              char *return_value_ERR_error_string$12;
-              return_value_ERR_error_string$12=ERR_error_string(e, (char *)(void *)0);
-              message(return_value_priority$11, "%d TCP %d: SSL_connect sf=%x %s", pair->stone->sd, sd, pair->ssl_flag, return_value_ERR_error_string$12);
+              signed int return_value_priority_11;
+              return_value_priority_11=priority(pair);
+              char *return_value_ERR_error_string_12;
+              return_value_ERR_error_string_12=ERR_error_string(e, (char *)(void *)0);
+              message(return_value_priority_11, "%d TCP %d: SSL_connect sf=%x %s", pair->stone->sd, sd, pair->ssl_flag, return_value_ERR_error_string_12);
             }
             return ret;
           }
@@ -7826,11 +7826,11 @@ signed int doSSL_shutdown(struct _Pair *pair, signed int how)
   signed int i;
   signed int sd;
   struct ssl_st *ssl;
-  struct anonymous$12 *ss;
-  signed int *return_value___errno_location$3;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
-  signed int return_value_priority$9;
+  struct anonymous_12 *ss;
+  signed int *return_value___errno_location_3;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
+  signed int return_value_priority_9;
   if(pair == ((struct _Pair *)NULL))
     return -1;
 
@@ -7906,23 +7906,23 @@ signed int doSSL_shutdown(struct _Pair *pair, signed int how)
                 e=ERR_get_error();
                 if(e == 0ul)
                 {
-                  signed int *return_value___errno_location$6;
-                  return_value___errno_location$6=__errno_location();
-                  if(*return_value___errno_location$6 == 0)
+                  signed int *return_value___errno_location_6;
+                  return_value___errno_location_6=__errno_location();
+                  if(*return_value___errno_location_6 == 0)
                     ret = 1;
 
                   else
                   {
-                    return_value___errno_location$3=__errno_location();
-                    if(*return_value___errno_location$3 == 4)
-                      tmp_if_expr$5 = (_Bool)1;
+                    return_value___errno_location_3=__errno_location();
+                    if(*return_value___errno_location_3 == 4)
+                      tmp_if_expr_5 = (_Bool)1;
 
                     else
                     {
-                      return_value___errno_location$4=__errno_location();
-                      tmp_if_expr$5 = *return_value___errno_location$4 == 11 ? (_Bool)1 : (_Bool)0;
+                      return_value___errno_location_4=__errno_location();
+                      tmp_if_expr_5 = *return_value___errno_location_4 == 11 ? (_Bool)1 : (_Bool)0;
                     }
-                    if(tmp_if_expr$5)
+                    if(tmp_if_expr_5)
                     {
                       pair->ssl_flag = pair->ssl_flag | sf_sb_on_r | sf_sb_on_r;
                       if(Debug >= 9)
@@ -7932,22 +7932,22 @@ signed int doSSL_shutdown(struct _Pair *pair, signed int how)
 
                     else
                     {
-                      signed int return_value_priority$1;
-                      return_value_priority$1=priority(pair);
-                      signed int *return_value___errno_location$2;
-                      return_value___errno_location$2=__errno_location();
-                      message(return_value_priority$1, "%d TCP %d: SSL_shutdown I/O error sf=%x errno=%d", pair->stone->sd, sd, pair->ssl_flag, *return_value___errno_location$2);
+                      signed int return_value_priority_1;
+                      return_value_priority_1=priority(pair);
+                      signed int *return_value___errno_location_2;
+                      return_value___errno_location_2=__errno_location();
+                      message(return_value_priority_1, "%d TCP %d: SSL_shutdown I/O error sf=%x errno=%d", pair->stone->sd, sd, pair->ssl_flag, *return_value___errno_location_2);
                     }
                   }
                 }
 
                 else
                 {
-                  signed int return_value_priority$7;
-                  return_value_priority$7=priority(pair);
-                  char *return_value_ERR_error_string$8;
-                  return_value_ERR_error_string$8=ERR_error_string(e, (char *)(void *)0);
-                  message(return_value_priority$7, "%d TCP %d: SSL_shutdown sf=%x %s", pair->stone->sd, sd, pair->ssl_flag, return_value_ERR_error_string$8);
+                  signed int return_value_priority_7;
+                  return_value_priority_7=priority(pair);
+                  char *return_value_ERR_error_string_8;
+                  return_value_ERR_error_string_8=ERR_error_string(e, (char *)(void *)0);
+                  message(return_value_priority_7, "%d TCP %d: SSL_shutdown sf=%x %s", pair->stone->sd, sd, pair->ssl_flag, return_value_ERR_error_string_8);
                 }
               }
 
@@ -7962,8 +7962,8 @@ signed int doSSL_shutdown(struct _Pair *pair, signed int how)
           {
             if(Debug >= 5)
             {
-              return_value_priority$9=priority(pair);
-              message(return_value_priority$9, "%d TCP %d: SSL_shutdown error ret=%d sf=%x, reset connection", pair->stone->sd, sd, ret, pair->ssl_flag);
+              return_value_priority_9=priority(pair);
+              message(return_value_priority_9, "%d TCP %d: SSL_shutdown error ret=%d sf=%x, reset connection", pair->stone->sd, sd, ret, pair->ssl_flag);
             }
 
             shutdown(sd, 2);
@@ -8010,8 +8010,8 @@ void doargs(signed int argc, signed int i, char **argv)
     exit(1);
   }
 
-  signed int tmp_statement_expression$3;
-  signed int tmp_post$5;
+  signed int tmp_statement_expression_3;
+  signed int tmp_post_5;
   for( ; !(i >= argc); i = i + 1)
   {
     p = argv[(signed long int)i];
@@ -8037,9 +8037,9 @@ void doargs(signed int argc, signed int i, char **argv)
 
     else
     {
-      char *return_value___strdup$1;
-      return_value___strdup$1=__strdup(argv[(signed long int)i]);
-      host = return_value___strdup$1;
+      char *return_value___strdup_1;
+      return_value___strdup_1=__strdup(argv[(signed long int)i]);
+      host = return_value___strdup_1;
       j=getdist(host, &dproto);
       if(j >= 1)
       {
@@ -8055,9 +8055,9 @@ void doargs(signed int argc, signed int i, char **argv)
           exit(1);
         }
 
-        char *return_value___strdup$2;
-        return_value___strdup$2=__strdup(argv[(signed long int)i]);
-        shost = return_value___strdup$2;
+        char *return_value___strdup_2;
+        return_value___strdup_2=__strdup(argv[(signed long int)i]);
+        shost = return_value___strdup_2;
         j=getdist(shost, &sproto);
         if(j >= 1)
         {
@@ -8094,10 +8094,10 @@ void doargs(signed int argc, signed int i, char **argv)
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$4;
-        return_value___builtin_strcmp$4=__builtin_strcmp(argv[(signed long int)i], "--");
-        tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-        if(tmp_statement_expression$3 == 0)
+        signed int return_value___builtin_strcmp_4;
+        return_value___builtin_strcmp_4=__builtin_strcmp(argv[(signed long int)i], "--");
+        tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+        if(tmp_statement_expression_3 == 0)
           break;
 
         i = i + 1;
@@ -8174,9 +8174,9 @@ void doargs(signed int argc, signed int i, char **argv)
 
             extra_arg:
               ;
-              tmp_post$5 = k;
+              tmp_post_5 = k;
               k = k + 1;
-              p = argv[(signed long int)tmp_post$5];
+              p = argv[(signed long int)tmp_post_5];
               j = j - 1;
               if(!(j >= 0) || !(argc >= k))
               {
@@ -8234,9 +8234,9 @@ void doargs(signed int argc, signed int i, char **argv)
       if(!((proto & proto_udp_d) == 0) && !((proto & proto_udp_s) == 0))
       {
         struct _Origin *origin;
-        void *return_value_malloc$6;
-        return_value_malloc$6=malloc(sizeof(struct _Origin) /*56ul*/ );
-        origin = (struct _Origin *)return_value_malloc$6;
+        void *return_value_malloc_6;
+        return_value_malloc_6=malloc(sizeof(struct _Origin) /*56ul*/ );
+        origin = (struct _Origin *)return_value_malloc_6;
         if(origin == ((struct _Origin *)NULL))
         {
 
@@ -8250,7 +8250,7 @@ void doargs(signed int argc, signed int i, char **argv)
         origin->stone = stone;
         origin->common = 0x0002;
         origin->sd = -1;
-        origin->from = (struct anonymous$0 *)(void *)0;
+        origin->from = (struct anonymous_0 *)(void *)0;
         origin->next = OriginTop;
         OriginTop = origin;
         stone->p = (char *)origin;
@@ -8259,17 +8259,17 @@ void doargs(signed int argc, signed int i, char **argv)
       else
         if(!((proto & proto_ohttp_d) == 0))
         {
-          char *return_value___strdup$7;
-          return_value___strdup$7=__strdup(p);
-          stone->p = return_value___strdup$7;
+          char *return_value___strdup_7;
+          return_value___strdup_7=__strdup(p);
+          stone->p = return_value___strdup_7;
         }
 
         else
           if((proto & proto_command) == 0x0100 || (proto & proto_command) == 0x0200)
           {
-            char *return_value___strdup$8;
-            return_value___strdup$8=__strdup(p);
-            stone->p = return_value___strdup$8;
+            char *return_value___strdup_8;
+            return_value___strdup_8=__strdup(p);
+            stone->p = return_value___strdup_8;
           }
 
       if((proto & proto_udp_d) == 0 || (proto & proto_udp_s) == 0)
@@ -8324,21 +8324,21 @@ signed int docomm(struct _Pair *pair, struct _Comm *comm)
   signed int start;
   signed int i;
   p = &ex->buf[(signed long int)ex->start];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(p >= q); p = p + 1l)
   {
     if((signed int)*p == 13)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)*p == 10 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)*p == 10 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       break;
 
   }
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  char *tmp_post$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  char *tmp_post_4;
   if(p >= q)
   {
     if(p >= ex->buf + (signed long int)ex->bufmax)
@@ -8358,11 +8358,11 @@ signed int docomm(struct _Pair *pair, struct _Comm *comm)
     for( ; start >= 0; start = start - 1)
     {
       if((signed int)ex->buf[(signed long int)start] == 13)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)ex->buf[(signed long int)start] == 10 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (signed int)ex->buf[(signed long int)start] == 10 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         break;
 
     }
@@ -8403,16 +8403,16 @@ signed int docomm(struct _Pair *pair, struct _Comm *comm)
     for( ; !(q >= p) && !(i >= 2048); i = i + 1)
     {
       if((signed int)*q == 13)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)*q == 10 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)*q == 10 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
         break;
 
-      tmp_post$4 = q;
+      tmp_post_4 = q;
       q = q + 1l;
-      buf[(signed long int)i] = *tmp_post$4;
+      buf[(signed long int)i] = *tmp_post_4;
     }
     buf[(signed long int)i] = (char)0;
     signed int return_value;
@@ -8433,15 +8433,15 @@ signed int doconnect(struct _Pair *p1, struct sockaddr *sa, unsigned int salen)
   signed long int clock;
   char addrport[128l];
   struct epoll_event ev;
-  signed int *return_value___errno_location$10;
-  signed int *return_value___errno_location$5;
-  _Bool tmp_if_expr$7;
-  signed int *return_value___errno_location$6;
-  _Bool tmp_if_expr$9;
-  signed int *return_value___errno_location$8;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$14;
-  signed int return_value_doshutdown$12;
+  signed int *return_value___errno_location_10;
+  signed int *return_value___errno_location_5;
+  _Bool tmp_if_expr_7;
+  signed int *return_value___errno_location_6;
+  _Bool tmp_if_expr_9;
+  signed int *return_value___errno_location_8;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_14;
+  signed int return_value_doshutdown_12;
   if(p1 == ((struct _Pair *)NULL))
     return -1;
 
@@ -8488,9 +8488,9 @@ signed int doconnect(struct _Pair *p1, struct sockaddr *sa, unsigned int salen)
           ret=connect(p1->sd, dst, dstlen);
         if(!(ret >= 0))
         {
-          signed int *return_value___errno_location$11;
-          return_value___errno_location$11=__errno_location();
-          if(*return_value___errno_location$11 == 115)
+          signed int *return_value___errno_location_11;
+          return_value___errno_location_11=__errno_location();
+          if(*return_value___errno_location_11 == 115)
           {
             p1->proto = p1->proto | proto_conninprog | proto_dirty;
             if(Debug >= 4)
@@ -8501,8 +8501,8 @@ signed int doconnect(struct _Pair *p1, struct sockaddr *sa, unsigned int salen)
 
           else
           {
-            return_value___errno_location$10=__errno_location();
-            if(*return_value___errno_location$10 == 4)
+            return_value___errno_location_10=__errno_location();
+            if(*return_value___errno_location_10 == 4)
             {
               if(Debug >= 5)
                 message(7, "%d TCP %d: connect interrupted", p1->stone->sd, p1->sd);
@@ -8511,37 +8511,37 @@ signed int doconnect(struct _Pair *p1, struct sockaddr *sa, unsigned int salen)
                 return 0;
 
               addrport2strOnce(dst, dstlen, p1->proto & (proto_ohttp_d | proto_base_d | proto_command), addrport, 127, 0);
-              signed int return_value_priority$1;
-              return_value_priority$1=priority(p2);
-              message(return_value_priority$1, "%d TCP %d: connect timeout to %s", p2->stone->sd, p2->sd, (const void *)addrport);
+              signed int return_value_priority_1;
+              return_value_priority_1=priority(p2);
+              message(return_value_priority_1, "%d TCP %d: connect timeout to %s", p2->stone->sd, p2->sd, (const void *)addrport);
             }
 
             else
             {
-              return_value___errno_location$5=__errno_location();
-              if(*return_value___errno_location$5 == 106)
-                tmp_if_expr$7 = (_Bool)1;
+              return_value___errno_location_5=__errno_location();
+              if(*return_value___errno_location_5 == 106)
+                tmp_if_expr_7 = (_Bool)1;
 
               else
               {
-                return_value___errno_location$6=__errno_location();
-                tmp_if_expr$7 = *return_value___errno_location$6 == 98 ? (_Bool)1 : (_Bool)0;
+                return_value___errno_location_6=__errno_location();
+                tmp_if_expr_7 = *return_value___errno_location_6 == 98 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$7)
-                tmp_if_expr$9 = (_Bool)1;
+              if(tmp_if_expr_7)
+                tmp_if_expr_9 = (_Bool)1;
 
               else
               {
-                return_value___errno_location$8=__errno_location();
-                tmp_if_expr$9 = *return_value___errno_location$8 == 114 ? (_Bool)1 : (_Bool)0;
+                return_value___errno_location_8=__errno_location();
+                tmp_if_expr_9 = *return_value___errno_location_8 == 114 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$9)
+              if(tmp_if_expr_9)
               {
                 if(Debug >= 5)
                 {
-                  signed int *return_value___errno_location$2;
-                  return_value___errno_location$2=__errno_location();
-                  message(7, "%d TCP %d: connect bug err=%d", p1->stone->sd, p1->sd, *return_value___errno_location$2);
+                  signed int *return_value___errno_location_2;
+                  return_value___errno_location_2=__errno_location();
+                  message(7, "%d TCP %d: connect bug err=%d", p1->stone->sd, p1->sd, *return_value___errno_location_2);
                   message_pair(7, p1);
                 }
 
@@ -8550,32 +8550,32 @@ signed int doconnect(struct _Pair *p1, struct sockaddr *sa, unsigned int salen)
               else
               {
                 addrport2strOnce(dst, dstlen, p1->proto & (proto_ohttp_d | proto_base_d | proto_command), addrport, 127, 0);
-                signed int return_value_priority$3;
-                return_value_priority$3=priority(p1);
-                signed int *return_value___errno_location$4;
-                return_value___errno_location$4=__errno_location();
-                message(return_value_priority$3, "%d TCP %d: can't connect err=%d: to %s", p1->stone->sd, p1->sd, *return_value___errno_location$4, (const void *)addrport);
+                signed int return_value_priority_3;
+                return_value_priority_3=priority(p1);
+                signed int *return_value___errno_location_4;
+                return_value___errno_location_4=__errno_location();
+                message(return_value_priority_3, "%d TCP %d: can't connect err=%d: to %s", p1->stone->sd, p1->sd, *return_value___errno_location_4, (const void *)addrport);
               }
             }
           }
         }
 
         if(!(ret >= 0))
-          tmp_if_expr$13 = (_Bool)1;
+          tmp_if_expr_13 = (_Bool)1;
 
         else
-          tmp_if_expr$13 = (p1->proto & proto_close) != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$13)
-          tmp_if_expr$14 = (_Bool)1;
+          tmp_if_expr_13 = (p1->proto & proto_close) != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_13)
+          tmp_if_expr_14 = (_Bool)1;
 
         else
-          tmp_if_expr$14 = (p2->proto & proto_close) != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$14)
+          tmp_if_expr_14 = (p2->proto & proto_close) != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_14)
         {
           if((p2->proto & proto_shutdown) == 0)
           {
-            return_value_doshutdown$12=doshutdown(p2, 2);
-            if(return_value_doshutdown$12 >= 0)
+            return_value_doshutdown_12=doshutdown(p2, 2);
+            if(return_value_doshutdown_12 >= 0)
               p2->proto = p2->proto | proto_shutdown | proto_dirty;
 
           }
@@ -8594,13 +8594,13 @@ signed int doconnect(struct _Pair *p1, struct sockaddr *sa, unsigned int salen)
         if(Debug >= 7)
           message(7, "%d TCP %d: doconnect epoll_ctl %d ADD %x", p1->stone->sd, p1->sd, ePollFd, (signed int)ev.data.ptr);
 
-        signed int return_value_epoll_ctl$16;
-        return_value_epoll_ctl$16=epoll_ctl(ePollFd, 1, p1->sd, &ev);
-        if(!(return_value_epoll_ctl$16 >= 0))
+        signed int return_value_epoll_ctl_16;
+        return_value_epoll_ctl_16=epoll_ctl(ePollFd, 1, p1->sd, &ev);
+        if(!(return_value_epoll_ctl_16 >= 0))
         {
-          signed int *return_value___errno_location$15;
-          return_value___errno_location$15=__errno_location();
-          message(3, "%d TCP %d: doconnect epoll_ctl %d ADD err=%d", p1->stone->sd, p1->sd, ePollFd, *return_value___errno_location$15);
+          signed int *return_value___errno_location_15;
+          return_value___errno_location_15=__errno_location();
+          message(3, "%d TCP %d: doconnect epoll_ctl %d ADD err=%d", p1->stone->sd, p1->sd, ePollFd, *return_value___errno_location_15);
         }
 
         return 1;
@@ -8612,17 +8612,17 @@ signed int doconnect(struct _Pair *p1, struct sockaddr *sa, unsigned int salen)
 // file stone.c line 9133
 signed int dohyphen(char opt, signed int argc, char **argv, signed int argi)
 {
-  signed int tmp_statement_expression$3;
-  signed int tmp_statement_expression$7;
-  char *return_value___strdup$9;
-  char *return_value___strdup$10;
-  signed int return_value_atoi$11;
-  signed int return_value_atoi$12;
-  char *return_value___strdup$13;
-  _Bool tmp_if_expr$18;
-  signed int tmp_statement_expression$15;
-  char *return_value___strdup$19;
-  char *return_value___strdup$20;
+  signed int tmp_statement_expression_3;
+  signed int tmp_statement_expression_7;
+  char *return_value___strdup_9;
+  char *return_value___strdup_10;
+  signed int return_value_atoi_11;
+  signed int return_value_atoi_12;
+  char *return_value___strdup_13;
+  _Bool tmp_if_expr_18;
+  signed int tmp_statement_expression_15;
+  char *return_value___strdup_19;
+  char *return_value___strdup_20;
   switch((signed int)opt)
   {
     case 100:
@@ -8652,12 +8652,12 @@ signed int dohyphen(char opt, signed int argc, char **argv, signed int argi)
       if(!(DryRun == 0))
         break;
 
-      unsigned long int dohyphen$$1$$1$$2$$__s1_len;
-      unsigned long int dohyphen$$1$$1$$2$$__s2_len;
-      signed int return_value___builtin_strcmp$4;
-      return_value___builtin_strcmp$4=__builtin_strcmp(argv[(signed long int)argi], "-");
-      tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-      if(tmp_statement_expression$3 == 0)
+      unsigned long int dohyphen__1__1__2____s1_len;
+      unsigned long int dohyphen__1__1__2____s2_len;
+      signed int return_value___builtin_strcmp_4;
+      return_value___builtin_strcmp_4=__builtin_strcmp(argv[(signed long int)argi], "-");
+      tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+      if(tmp_statement_expression_3 == 0)
         LogFp = stdout;
 
       else
@@ -8669,15 +8669,15 @@ signed int dohyphen(char opt, signed int argc, char **argv, signed int argi)
         if(LogFp == ((struct _IO_FILE *)NULL))
         {
           LogFp = stderr;
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          message(3, "Can't create log file: %s err=%d", argv[(signed long int)argi], *return_value___errno_location$1);
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          message(3, "Can't create log file: %s err=%d", argv[(signed long int)argi], *return_value___errno_location_1);
           exit(1);
         }
 
-        char *return_value___strdup$2;
-        return_value___strdup$2=__strdup(argv[(signed long int)argi]);
-        LogFileName = return_value___strdup$2;
+        char *return_value___strdup_2;
+        return_value___strdup_2=__strdup(argv[(signed long int)argi]);
+        LogFileName = return_value___strdup_2;
       }
       setbuf(LogFp, (char *)(void *)0);
       break;
@@ -8694,12 +8694,12 @@ signed int dohyphen(char opt, signed int argc, char **argv, signed int argi)
       if(!(DryRun == 0))
         break;
 
-      unsigned long int dohyphen$$1$$1$$6$$__s1_len;
-      unsigned long int dohyphen$$1$$1$$6$$__s2_len;
-      signed int return_value___builtin_strcmp$8;
-      return_value___builtin_strcmp$8=__builtin_strcmp(argv[(signed long int)argi], "-");
-      tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-      if(tmp_statement_expression$7 == 0)
+      unsigned long int dohyphen__1__1__6____s1_len;
+      unsigned long int dohyphen__1__1__6____s2_len;
+      signed int return_value___builtin_strcmp_8;
+      return_value___builtin_strcmp_8=__builtin_strcmp(argv[(signed long int)argi], "-");
+      tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+      if(tmp_statement_expression_7 == 0)
         AccFp = stdout;
 
       else
@@ -8710,15 +8710,15 @@ signed int dohyphen(char opt, signed int argc, char **argv, signed int argi)
         AccFp=fopen(argv[(signed long int)argi], "a");
         if(AccFp == ((struct _IO_FILE *)NULL))
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          message(3, "Can't create account log file: %s err=%d", argv[(signed long int)argi], *return_value___errno_location$5);
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          message(3, "Can't create account log file: %s err=%d", argv[(signed long int)argi], *return_value___errno_location_5);
           exit(1);
         }
 
-        char *return_value___strdup$6;
-        return_value___strdup$6=__strdup(argv[(signed long int)argi]);
-        AccFileName = return_value___strdup$6;
+        char *return_value___strdup_6;
+        return_value___strdup_6=__strdup(argv[(signed long int)argi]);
+        AccFileName = return_value___strdup_6;
       }
       setbuf(AccFp, (char *)(void *)0);
       break;
@@ -8732,8 +8732,8 @@ signed int dohyphen(char opt, signed int argc, char **argv, signed int argi)
         exit(1);
       }
 
-      return_value___strdup$9=__strdup(argv[(signed long int)argi]);
-      PidFile = return_value___strdup$9;
+      return_value___strdup_9=__strdup(argv[(signed long int)argi]);
+      PidFile = return_value___strdup_9;
       break;
     }
     case 116:
@@ -8745,8 +8745,8 @@ signed int dohyphen(char opt, signed int argc, char **argv, signed int argi)
         exit(1);
       }
 
-      return_value___strdup$10=__strdup(argv[(signed long int)argi]);
-      RootDir = return_value___strdup$10;
+      return_value___strdup_10=__strdup(argv[(signed long int)argi]);
+      RootDir = return_value___strdup_10;
       break;
     }
     case 110:
@@ -8811,8 +8811,8 @@ signed int dohyphen(char opt, signed int argc, char **argv, signed int argi)
         exit(1);
       }
 
-      return_value_atoi$11=atoi(argv[(signed long int)argi]);
-      SetUID = (unsigned int)return_value_atoi$11;
+      return_value_atoi_11=atoi(argv[(signed long int)argi]);
+      SetUID = (unsigned int)return_value_atoi_11;
       break;
     }
     case 103:
@@ -8824,8 +8824,8 @@ signed int dohyphen(char opt, signed int argc, char **argv, signed int argi)
         exit(1);
       }
 
-      return_value_atoi$12=atoi(argv[(signed long int)argi]);
-      SetGID = (unsigned int)return_value_atoi$12;
+      return_value_atoi_12=atoi(argv[(signed long int)argi]);
+      SetGID = (unsigned int)return_value_atoi_12;
       break;
     }
     case 99:
@@ -8837,8 +8837,8 @@ signed int dohyphen(char opt, signed int argc, char **argv, signed int argi)
         exit(1);
       }
 
-      return_value___strdup$13=__strdup(argv[(signed long int)argi]);
-      CoreDumpDir = return_value___strdup$13;
+      return_value___strdup_13=__strdup(argv[(signed long int)argi]);
+      CoreDumpDir = return_value___strdup_13;
       break;
     }
     case 102:
@@ -8893,12 +8893,12 @@ signed int dohyphen(char opt, signed int argc, char **argv, signed int argi)
       }
 
       if(argv[(signed long int)argi] == ((char *)NULL))
-        tmp_if_expr$18 = (_Bool)1;
+        tmp_if_expr_18 = (_Bool)1;
 
       else
-        tmp_if_expr$18 = (signed int)argv[(signed long int)argi][(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$18)
-        ConnectFrom = (struct anonymous$0 *)(void *)0;
+        tmp_if_expr_18 = (signed int)argv[(signed long int)argi][(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_18)
+        ConnectFrom = (struct anonymous_0 *)(void *)0;
 
       else
       {
@@ -8912,9 +8912,9 @@ signed int dohyphen(char opt, signed int argc, char **argv, signed int argi)
         if(!(pos >= 0))
         {
           sa->sa_family = (unsigned short int)0;
-          signed int return_value_host2sa$14;
-          return_value_host2sa$14=host2sa(argv[(signed long int)argi], (char *)(void *)0, sa, &salen, (signed int *)(void *)0, (signed int *)(void *)0, 0);
-          if(return_value_host2sa$14 == 0)
+          signed int return_value_host2sa_14;
+          return_value_host2sa_14=host2sa(argv[(signed long int)argi], (char *)(void *)0, sa, &salen, (signed int *)(void *)0, (signed int *)(void *)0, 0);
+          if(return_value_host2sa_14 == 0)
             return -1;
 
         }
@@ -8926,22 +8926,22 @@ signed int dohyphen(char opt, signed int argc, char **argv, signed int argi)
           {
             unsigned long int __s1_len;
             unsigned long int __s2_len;
-            signed int return_value___builtin_strcmp$16;
-            return_value___builtin_strcmp$16=__builtin_strcmp(argv[(signed long int)argi] + (signed long int)pos, "v6");
-            tmp_statement_expression$15 = return_value___builtin_strcmp$16;
-            if(tmp_statement_expression$15 == 0)
+            signed int return_value___builtin_strcmp_16;
+            return_value___builtin_strcmp_16=__builtin_strcmp(argv[(signed long int)argi] + (signed long int)pos, "v6");
+            tmp_statement_expression_15 = return_value___builtin_strcmp_16;
+            if(tmp_statement_expression_15 == 0)
               sa->sa_family = (unsigned short int)10;
 
           }
 
-          signed int return_value_host2sa$17;
-          return_value_host2sa$17=host2sa(host, port, sa, &salen, (signed int *)(void *)0, (signed int *)(void *)0, 0);
-          if(return_value_host2sa$17 == 0)
+          signed int return_value_host2sa_17;
+          return_value_host2sa_17=host2sa(host, port, sa, &salen, (signed int *)(void *)0, (signed int *)(void *)0, 0);
+          if(return_value_host2sa_17 == 0)
             return -1;
 
         }
         ConnectFrom=saDup(sa, salen);
-        if(ConnectFrom == ((struct anonymous$0 *)NULL))
+        if(ConnectFrom == ((struct anonymous_0 *)NULL))
         {
           message(2, "Out of memory");
           exit(1);
@@ -8983,8 +8983,8 @@ signed int dohyphen(char opt, signed int argc, char **argv, signed int argi)
         exit(1);
       }
 
-      return_value___strdup$19=__strdup(argv[(signed long int)argi]);
-      CppCommand = return_value___strdup$19;
+      return_value___strdup_19=__strdup(argv[(signed long int)argi]);
+      CppCommand = return_value___strdup_19;
       break;
     }
     case 81:
@@ -8996,8 +8996,8 @@ signed int dohyphen(char opt, signed int argc, char **argv, signed int argi)
         exit(1);
       }
 
-      return_value___strdup$20=__strdup(argv[(signed long int)argi]);
-      CppOptions = return_value___strdup$20;
+      return_value___strdup_20=__strdup(argv[(signed long int)argi]);
+      CppOptions = return_value___strdup_20;
       break;
     }
     default:
@@ -9013,8 +9013,8 @@ signed int doopts(signed int argc, char **argv)
   signed int i;
   char *p;
   i = 1;
-  unsigned long int return_value_strlen$1;
-  void *return_value_malloc$2;
+  unsigned long int return_value_strlen_1;
+  void *return_value_malloc_2;
   for( ; !(i >= argc); i = i + 1)
   {
     p = argv[(signed long int)i];
@@ -9050,9 +9050,9 @@ signed int doopts(signed int argc, char **argv)
                 goto __CPROVER_DUMP_L9;
 
               i = i + 1;
-              return_value_strlen$1=strlen(argv[(signed long int)i]);
-              return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)1);
-              ConfigFile = (char *)return_value_malloc$2;
+              return_value_strlen_1=strlen(argv[(signed long int)i]);
+              return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)1);
+              ConfigFile = (char *)return_value_malloc_2;
               if(ConfigFile == ((char *)NULL))
               {
                 message(2, "Out of memory");
@@ -9106,22 +9106,22 @@ signed int doproxy(struct _Pair *pair, char *host, char *serv)
 
   else
     sa->sa_family = (unsigned short int)0;
-  signed int return_value_host2sa$1;
-  return_value_host2sa$1=host2sa(host, serv, sa, &salen, (signed int *)(void *)0, (signed int *)(void *)0, 0);
-  signed int return_value_getpeername$5;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$9;
-  signed int tmp_if_expr$6;
-  if(return_value_host2sa$1 == 0)
+  signed int return_value_host2sa_1;
+  return_value_host2sa_1=host2sa(host, serv, sa, &salen, (signed int *)(void *)0, (signed int *)(void *)0, 0);
+  signed int return_value_getpeername_5;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_9;
+  signed int tmp_if_expr_6;
+  if(return_value_host2sa_1 == 0)
     return -1;
 
   else
   {
-    signed int return_value_islocalhost$2;
-    return_value_islocalhost$2=islocalhost(sa);
-    if(!(return_value_islocalhost$2 == 0))
+    signed int return_value_islocalhost_2;
+    return_value_islocalhost_2=islocalhost(sa);
+    if(!(return_value_islocalhost_2 == 0))
     {
       struct _TimeLog *log = pair->log;
       pair->log = (struct _TimeLog *)(void *)0;
@@ -9209,24 +9209,24 @@ signed int doproxy(struct _Pair *pair, char *host, char *serv)
       {
         if((pair->proto & proto_close) == 0)
         {
-          return_value_getpeername$5=getpeername(sd, name, &namelen);
-          if(return_value_getpeername$5 >= 0)
+          return_value_getpeername_5=getpeername(sd, name, &namelen);
+          if(return_value_getpeername_5 >= 0)
           {
-            struct _Pair *doproxy$$1$$6$$p = pair->pair;
+            struct _Pair *doproxy__1__6__p = pair->pair;
             if(Debug >= 8)
             {
               char str[128l];
-              char *return_value_addrport2str$3;
-              return_value_addrport2str$3=addrport2str(name, namelen, 0, str, 127, 0);
-              message(7, "%d TCP %d: old proxy connection: %s", pair->stone->sd, sd, return_value_addrport2str$3);
+              char *return_value_addrport2str_3;
+              return_value_addrport2str_3=addrport2str(name, namelen, 0, str, 127, 0);
+              message(7, "%d TCP %d: old proxy connection: %s", pair->stone->sd, sd, return_value_addrport2str_3);
             }
 
-            if(!(doproxy$$1$$6$$p == ((struct _Pair *)NULL)))
-              doproxy$$1$$6$$p->proto = doproxy$$1$$6$$p->proto | proto_first_w | proto_dirty;
+            if(!(doproxy__1__6__p == ((struct _Pair *)NULL)))
+              doproxy__1__6__p->proto = doproxy__1__6__p->proto | proto_first_w | proto_dirty;
 
-            signed int return_value_saComp$4;
-            return_value_saComp$4=saComp(sa, name);
-            if(!(return_value_saComp$4 == 0))
+            signed int return_value_saComp_4;
+            return_value_saComp_4=saComp(sa, name);
+            if(!(return_value_saComp_4 == 0))
               return 0;
 
             reconnect = 1;
@@ -9237,52 +9237,52 @@ signed int doproxy(struct _Pair *pair, char *host, char *serv)
       }
 
       if(!(reconnect == 0))
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_8 = (_Bool)1;
 
       else
       {
         if(!((pair->stone->proto & proto_v6_d) == 0))
-          tmp_if_expr$7 = (signed int)sa->sa_family == 2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = (signed int)sa->sa_family == 2 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = (_Bool)0;
+        tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$8)
-        tmp_if_expr$10 = (_Bool)1;
+      if(tmp_if_expr_8)
+        tmp_if_expr_10 = (_Bool)1;
 
       else
       {
         if((pair->stone->proto & proto_v6_d) == 0)
-          tmp_if_expr$9 = (signed int)sa->sa_family == 10 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_9 = (signed int)sa->sa_family == 10 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        tmp_if_expr$10 = tmp_if_expr$9 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_9 = (_Bool)0;
+        tmp_if_expr_10 = tmp_if_expr_9 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$10)
+      if(tmp_if_expr_10)
       {
         signed int nsd;
         nsd=socket((signed int)sa->sa_family, 1, 6);
         if(nsd >= 0)
         {
-          struct _Pair *doproxy$$1$$7$$1$$p = pair->pair;
+          struct _Pair *doproxy__1__7__1__p = pair->pair;
           pair->sd = nsd;
-          if(!(doproxy$$1$$7$$1$$p == ((struct _Pair *)NULL)))
-            tmp_if_expr$6 = doproxy$$1$$7$$1$$p->sd;
+          if(!(doproxy__1__7__1__p == ((struct _Pair *)NULL)))
+            tmp_if_expr_6 = doproxy__1__7__1__p->sd;
 
           else
-            tmp_if_expr$6 = -1;
-          message(6, "%d TCP %d: close %d %08x, reopen %d as family=%d", pair->stone->sd, tmp_if_expr$6, sd, pair->proto, nsd, sa->sa_family);
+            tmp_if_expr_6 = -1;
+          message(6, "%d TCP %d: close %d %08x, reopen %d as family=%d", pair->stone->sd, tmp_if_expr_6, sd, pair->proto, nsd, sa->sa_family);
           close(sd);
         }
 
       }
 
       pair->proto = pair->proto & ~(proto_connect | proto_command);
-      signed int return_value_reqconn$11;
-      return_value_reqconn$11=reqconn(pair, sa, salen);
-      if(!(return_value_reqconn$11 >= 0))
+      signed int return_value_reqconn_11;
+      return_value_reqconn_11=reqconn(pair, sa, salen);
+      if(!(return_value_reqconn_11 >= 0))
         return -1;
 
       else
@@ -9312,9 +9312,9 @@ signed int doread(struct _Pair *pair)
   struct _ExBuf *ex;
   signed int bufmax;
   signed int start;
-  signed long int return_value_recv$1;
-  signed int tmp_post$3;
-  _Bool tmp_if_expr$4;
+  signed long int return_value_recv_1;
+  signed int tmp_post_3;
+  _Bool tmp_if_expr_4;
   if(!(sd >= 0))
     return -1;
 
@@ -9332,8 +9332,8 @@ signed int doread(struct _Pair *pair)
 
       else
       {
-        return_value_recv$1=recv(sd, (void *)_buf, (unsigned long int)2048, 0);
-        len = (signed int)return_value_recv$1;
+        return_value_recv_1=recv(sd, (void *)_buf, (unsigned long int)2048, 0);
+        len = (signed int)return_value_recv_1;
       }
       if(!((pair->proto & proto_close) == 0))
         return -1;
@@ -9346,9 +9346,9 @@ signed int doread(struct _Pair *pair)
 
       if(len >= 1)
       {
-        signed int return_value_priority$2;
-        return_value_priority$2=priority(pair);
-        message(return_value_priority$2, "%d TCP %d: no pair, closing", pair->stone->sd, sd);
+        signed int return_value_priority_2;
+        return_value_priority_2=priority(pair);
+        message(return_value_priority_2, "%d TCP %d: no pair, closing", pair->stone->sd, sd);
         message_pair(3, pair);
         len = -1;
       }
@@ -9385,9 +9385,9 @@ signed int doread(struct _Pair *pair)
           i = 0;
           for( ; !(i >= len); i = i + 1)
           {
-            tmp_post$3 = start;
+            tmp_post_3 = start;
             start = start + 1;
-            ex->buf[(signed long int)tmp_post$3] = ex->buf[(signed long int)((ex->bufmax - 2) - i)];
+            ex->buf[(signed long int)tmp_post_3] = ex->buf[(signed long int)((ex->bufmax - 2) - i)];
           }
           bufmax = bufmax - len;
         }
@@ -9397,11 +9397,11 @@ signed int doread(struct _Pair *pair)
       }
 
     if((p->proto & proto_command) == 0x0100)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (p->proto & proto_command) == 0x0200 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (p->proto & proto_command) == 0x0200 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
       bufmax = bufmax / 2;
 
     if(!(pair->ssl == ((struct ssl_st *)NULL)))
@@ -9438,9 +9438,9 @@ signed int doread(struct _Pair *pair)
           e=ERR_get_error();
           if(e == 0ul)
           {
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            if(*return_value___errno_location$5 == 4)
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            if(*return_value___errno_location_5 == 4)
             {
               if(Debug >= 5)
                 message(7, "%d TCP %d: SSL_read I/O interrupted", pair->stone->sd, sd);
@@ -9448,21 +9448,21 @@ signed int doread(struct _Pair *pair)
               return 0;
             }
 
-            signed int return_value_priority$6;
-            return_value_priority$6=priority(pair);
-            signed int *return_value___errno_location$7;
-            return_value___errno_location$7=__errno_location();
-            message(return_value_priority$6, "%d TCP %d: SSL_read I/O error err=%d, closing", pair->stone->sd, sd, *return_value___errno_location$7);
+            signed int return_value_priority_6;
+            return_value_priority_6=priority(pair);
+            signed int *return_value___errno_location_7;
+            return_value___errno_location_7=__errno_location();
+            message(return_value_priority_6, "%d TCP %d: SSL_read I/O error err=%d, closing", pair->stone->sd, sd, *return_value___errno_location_7);
             message_pair(3, pair);
           }
 
           else
           {
-            signed int return_value_priority$8;
-            return_value_priority$8=priority(pair);
-            char *return_value_ERR_error_string$9;
-            return_value_ERR_error_string$9=ERR_error_string(e, (char *)(void *)0);
-            message(return_value_priority$8, "%d TCP %d: SSL_read I/O %s, closing", pair->stone->sd, sd, return_value_ERR_error_string$9);
+            signed int return_value_priority_8;
+            return_value_priority_8=priority(pair);
+            char *return_value_ERR_error_string_9;
+            return_value_ERR_error_string_9=ERR_error_string(e, (char *)(void *)0);
+            message(return_value_priority_8, "%d TCP %d: SSL_read I/O %s, closing", pair->stone->sd, sd, return_value_ERR_error_string_9);
             message_pair(3, pair);
           }
           return -1;
@@ -9471,13 +9471,13 @@ signed int doread(struct _Pair *pair)
         else
           if(!(err == 6))
           {
-            signed int return_value_priority$10;
-            return_value_priority$10=priority(pair);
-            unsigned long int return_value_ERR_get_error$11;
-            return_value_ERR_get_error$11=ERR_get_error();
-            char *return_value_ERR_error_string$12;
-            return_value_ERR_error_string$12=ERR_error_string(return_value_ERR_get_error$11, (char *)(void *)0);
-            message(return_value_priority$10, "%d TCP %d: SSL_read err=%d %s, closing", pair->stone->sd, sd, err, return_value_ERR_error_string$12);
+            signed int return_value_priority_10;
+            return_value_priority_10=priority(pair);
+            unsigned long int return_value_ERR_get_error_11;
+            return_value_ERR_get_error_11=ERR_get_error();
+            char *return_value_ERR_error_string_12;
+            return_value_ERR_error_string_12=ERR_error_string(return_value_ERR_get_error_11, (char *)(void *)0);
+            message(return_value_priority_10, "%d TCP %d: SSL_read err=%d %s, closing", pair->stone->sd, sd, err, return_value_ERR_error_string_12);
             message_pair(3, pair);
             return -1;
           }
@@ -9488,17 +9488,17 @@ signed int doread(struct _Pair *pair)
 
     else
     {
-      signed long int return_value_recv$13;
-      return_value_recv$13=recv(sd, (void *)&ex->buf[(signed long int)start], (unsigned long int)bufmax, 0);
-      len = (signed int)return_value_recv$13;
+      signed long int return_value_recv_13;
+      return_value_recv_13=recv(sd, (void *)&ex->buf[(signed long int)start], (unsigned long int)bufmax, 0);
+      len = (signed int)return_value_recv_13;
       if(!((pair->proto & proto_close) == 0))
         return -1;
 
       if(!(len >= 0))
       {
-        signed int *return_value___errno_location$14;
-        return_value___errno_location$14=__errno_location();
-        if(*return_value___errno_location$14 == 4)
+        signed int *return_value___errno_location_14;
+        return_value___errno_location_14=__errno_location();
+        if(*return_value___errno_location_14 == 4)
         {
           if(Debug >= 5)
             message(7, "%d TCP %d: read interrupted", pair->stone->sd, sd);
@@ -9506,9 +9506,9 @@ signed int doread(struct _Pair *pair)
           return 0;
         }
 
-        signed int *return_value___errno_location$15;
-        return_value___errno_location$15=__errno_location();
-        if(*return_value___errno_location$15 == 104)
+        signed int *return_value___errno_location_15;
+        return_value___errno_location_15=__errno_location();
+        if(*return_value___errno_location_15 == 104)
         {
           if(Debug >= 4)
             message(7, "%d TCP %d: read but reset by peer", pair->stone->sd, sd);
@@ -9516,11 +9516,11 @@ signed int doread(struct _Pair *pair)
           return -1;
         }
 
-        signed int return_value_priority$16;
-        return_value_priority$16=priority(pair);
-        signed int *return_value___errno_location$17;
-        return_value___errno_location$17=__errno_location();
-        message(return_value_priority$16, "%d TCP %d: read error err=%d, closing", pair->stone->sd, sd, *return_value___errno_location$17);
+        signed int return_value_priority_16;
+        return_value_priority_16=priority(pair);
+        signed int *return_value___errno_location_17;
+        return_value___errno_location_17=__errno_location();
+        message(return_value_priority_16, "%d TCP %d: read error err=%d, closing", pair->stone->sd, sd, *return_value___errno_location_17);
         message_pair(3, pair);
         return len;
       }
@@ -9586,7 +9586,7 @@ signed int doread(struct _Pair *pair)
 signed int doshutdown(struct _Pair *pair, signed int how)
 {
   struct ssl_st *ssl;
-  signed int return_value_doSSL_shutdown$1;
+  signed int return_value_doSSL_shutdown_1;
   if(pair == ((struct _Pair *)NULL))
     return -1;
 
@@ -9595,8 +9595,8 @@ signed int doshutdown(struct _Pair *pair, signed int how)
     ssl = pair->ssl;
     if(!(ssl == ((struct ssl_st *)NULL)))
     {
-      return_value_doSSL_shutdown$1=doSSL_shutdown(pair, how);
-      return return_value_doSSL_shutdown$1;
+      return_value_doSSL_shutdown_1=doSSL_shutdown(pair, how);
+      return return_value_doSSL_shutdown_1;
     }
 
     else
@@ -9604,9 +9604,9 @@ signed int doshutdown(struct _Pair *pair, signed int how)
       if(Debug >= 5)
         message(7, "%d TCP %d: shutdown how=%d", pair->stone->sd, pair->sd, how);
 
-      signed int return_value_shutdown$2;
-      return_value_shutdown$2=shutdown(pair->sd, how);
-      return return_value_shutdown$2;
+      signed int return_value_shutdown_2;
+      return_value_shutdown_2=shutdown(pair->sd, how);
+      return return_value_shutdown_2;
     }
   }
 }
@@ -9619,7 +9619,7 @@ signed int dowrite(struct _Pair *pair)
   struct _Pair *p;
   signed int len;
   struct _ExBuf *ex = pair->t;
-  _Bool tmp_if_expr$14;
+  _Bool tmp_if_expr_14;
   if(ex == ((struct _ExBuf *)NULL))
     return 0;
 
@@ -9685,9 +9685,9 @@ signed int dowrite(struct _Pair *pair)
               e=ERR_get_error();
               if(e == 0ul)
               {
-                signed int *return_value___errno_location$1;
-                return_value___errno_location$1=__errno_location();
-                if(*return_value___errno_location$1 == 4)
+                signed int *return_value___errno_location_1;
+                return_value___errno_location_1=__errno_location();
+                if(*return_value___errno_location_1 == 4)
                 {
                   if(Debug >= 5)
                     message(7, "%d TCP %d: SSL_write I/O interrupted", pair->stone->sd, sd);
@@ -9695,21 +9695,21 @@ signed int dowrite(struct _Pair *pair)
                   return 0;
                 }
 
-                signed int return_value_priority$2;
-                return_value_priority$2=priority(pair);
-                signed int *return_value___errno_location$3;
-                return_value___errno_location$3=__errno_location();
-                message(return_value_priority$2, "%d TCP %d: SSL_write I/O error err=%d, closing", pair->stone->sd, sd, *return_value___errno_location$3);
+                signed int return_value_priority_2;
+                return_value_priority_2=priority(pair);
+                signed int *return_value___errno_location_3;
+                return_value___errno_location_3=__errno_location();
+                message(return_value_priority_2, "%d TCP %d: SSL_write I/O error err=%d, closing", pair->stone->sd, sd, *return_value___errno_location_3);
                 message_pair(3, pair);
               }
 
               else
               {
-                signed int return_value_priority$4;
-                return_value_priority$4=priority(pair);
-                char *return_value_ERR_error_string$5;
-                return_value_ERR_error_string$5=ERR_error_string(e, (char *)(void *)0);
-                message(return_value_priority$4, "%d TCP %d: SSL_write I/O %s, closing", pair->stone->sd, sd, return_value_ERR_error_string$5);
+                signed int return_value_priority_4;
+                return_value_priority_4=priority(pair);
+                char *return_value_ERR_error_string_5;
+                return_value_ERR_error_string_5=ERR_error_string(e, (char *)(void *)0);
+                message(return_value_priority_4, "%d TCP %d: SSL_write I/O %s, closing", pair->stone->sd, sd, return_value_ERR_error_string_5);
                 message_pair(3, pair);
               }
               return -1;
@@ -9718,13 +9718,13 @@ signed int dowrite(struct _Pair *pair)
             else
               if(!(err == 6))
               {
-                signed int return_value_priority$6;
-                return_value_priority$6=priority(pair);
-                unsigned long int return_value_ERR_get_error$7;
-                return_value_ERR_get_error$7=ERR_get_error();
-                char *return_value_ERR_error_string$8;
-                return_value_ERR_error_string$8=ERR_error_string(return_value_ERR_get_error$7, (char *)(void *)0);
-                message(return_value_priority$6, "%d TCP %d: SSL_write err=%d %s, closing", pair->stone->sd, sd, err, return_value_ERR_error_string$8);
+                signed int return_value_priority_6;
+                return_value_priority_6=priority(pair);
+                unsigned long int return_value_ERR_get_error_7;
+                return_value_ERR_get_error_7=ERR_get_error();
+                char *return_value_ERR_error_string_8;
+                return_value_ERR_error_string_8=ERR_error_string(return_value_ERR_get_error_7, (char *)(void *)0);
+                message(return_value_priority_6, "%d TCP %d: SSL_write err=%d %s, closing", pair->stone->sd, sd, err, return_value_ERR_error_string_8);
                 message_pair(3, pair);
                 return len;
               }
@@ -9735,17 +9735,17 @@ signed int dowrite(struct _Pair *pair)
 
         else
         {
-          signed long int return_value_send$9;
-          return_value_send$9=send(sd, (const void *)&ex->buf[(signed long int)ex->start], (unsigned long int)ex->len, 0);
-          len = (signed int)return_value_send$9;
+          signed long int return_value_send_9;
+          return_value_send_9=send(sd, (const void *)&ex->buf[(signed long int)ex->start], (unsigned long int)ex->len, 0);
+          len = (signed int)return_value_send_9;
           if(!((pair->proto & proto_close) == 0))
             return -1;
 
           if(!(len >= 0))
           {
-            signed int *return_value___errno_location$10;
-            return_value___errno_location$10=__errno_location();
-            if(*return_value___errno_location$10 == 4)
+            signed int *return_value___errno_location_10;
+            return_value___errno_location_10=__errno_location();
+            if(*return_value___errno_location_10 == 4)
             {
               if(Debug >= 5)
                 message(7, "%d TCP %d: write interrupted", pair->stone->sd, sd);
@@ -9753,9 +9753,9 @@ signed int dowrite(struct _Pair *pair)
               return 0;
             }
 
-            signed int *return_value___errno_location$11;
-            return_value___errno_location$11=__errno_location();
-            if(*return_value___errno_location$11 == 103)
+            signed int *return_value___errno_location_11;
+            return_value___errno_location_11=__errno_location();
+            if(*return_value___errno_location_11 == 103)
             {
               if(Debug >= 4)
                 message(7, "%d TCP %d: write aborted", pair->stone->sd, sd);
@@ -9763,11 +9763,11 @@ signed int dowrite(struct _Pair *pair)
               return -1;
             }
 
-            signed int return_value_priority$12;
-            return_value_priority$12=priority(pair);
-            signed int *return_value___errno_location$13;
-            return_value___errno_location$13=__errno_location();
-            message(return_value_priority$12, "%d TCP %d: write error err=%d, closing", pair->stone->sd, sd, *return_value___errno_location$13);
+            signed int return_value_priority_12;
+            return_value_priority_12=priority(pair);
+            signed int *return_value___errno_location_13;
+            return_value___errno_location_13=__errno_location();
+            message(return_value_priority_12, "%d TCP %d: write error err=%d, closing", pair->stone->sd, sd, *return_value___errno_location_13);
             message_pair(3, pair);
             return len;
           }
@@ -9777,11 +9777,11 @@ signed int dowrite(struct _Pair *pair)
           message(7, "%d TCP %d: %d bytes written", pair->stone->sd, sd, len);
 
         if((0xF & (signed int)pair->xhost->mode) >= 1)
-          tmp_if_expr$14 = (_Bool)1;
+          tmp_if_expr_14 = (_Bool)1;
 
         else
-          tmp_if_expr$14 = ((pair->proto & proto_first_w) != 0 ? (Debug > 3 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$14)
+          tmp_if_expr_14 = ((pair->proto & proto_first_w) != 0 ? (Debug > 3 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_14)
           message_buf(pair, len, "");
 
         time(&pair->clock);
@@ -9845,18 +9845,18 @@ char * exPatFile(char *pat, char *name, char *src, char *dst)
   if(dst == ((char *)NULL))
     dst = "";
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  nlen = (signed int)return_value_strlen$1;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(src);
-  slen = (signed int)return_value_strlen$2;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(dst);
-  dlen = (signed int)return_value_strlen$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  nlen = (signed int)return_value_strlen_1;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(src);
+  slen = (signed int)return_value_strlen_2;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(dst);
+  dlen = (signed int)return_value_strlen_3;
   len = 0;
   pos = 0;
-  signed int tmp_post$4;
+  signed int tmp_post_4;
   for( ; !(pos >= 127); pos = pos + 1)
     if((signed int)pat[(signed long int)pos] == 0)
     {
@@ -9903,19 +9903,19 @@ char * exPatFile(char *pat, char *name, char *src, char *dst)
 
       else
       {
-        tmp_post$4 = len;
+        tmp_post_4 = len;
         len = len + 1;
-        str[(signed long int)tmp_post$4] = pat[(signed long int)pos];
+        str[(signed long int)tmp_post_4] = pat[(signed long int)pos];
       }
   str[(signed long int)127] = (char)0;
-  char *return_value___strdup$5;
-  return_value___strdup$5=__strdup(str);
-  return return_value___strdup$5;
+  char *return_value___strdup_5;
+  return_value___strdup_5=__strdup(str);
+  return return_value___strdup_5;
 }
 
 // exPatOpts
 // file stone.c line 7552
-void exPatOpts(struct anonymous$8 *opts, char *src, char *dst)
+void exPatOpts(struct anonymous_8 *opts, char *src, char *dst)
 {
   if(!(opts->pfxFilePat == ((char *)NULL)))
   {
@@ -9976,9 +9976,9 @@ void exPatOpts(struct anonymous$8 *opts, char *src, char *dst)
     }
     str[(signed long int)i] = (char)0;
     fclose(fp);
-    char *return_value___strdup$1;
-    return_value___strdup$1=__strdup(str);
-    opts->passwd = return_value___strdup$1;
+    char *return_value___strdup_1;
+    return_value___strdup_1=__strdup(str);
+    opts->passwd = return_value___strdup_1;
   }
 
 }
@@ -9989,17 +9989,17 @@ char * ext2str(signed int ext, char *str, signed int len)
 {
   char sep = (char)47;
   signed int i = 0;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
-  signed int tmp_post$6;
-  signed int tmp_post$7;
-  signed int tmp_post$8;
-  signed int tmp_post$9;
-  signed int tmp_post$10;
-  signed int tmp_post$11;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
+  signed int tmp_post_6;
+  signed int tmp_post_7;
+  signed int tmp_post_8;
+  signed int tmp_post_9;
+  signed int tmp_post_10;
+  signed int tmp_post_11;
   if(str == ((char *)NULL) || !(len >= 2))
     return "";
 
@@ -10009,9 +10009,9 @@ char * ext2str(signed int ext, char *str, signed int len)
     {
       if(!(i >= len))
       {
-        tmp_post$1 = i;
+        tmp_post_1 = i;
         i = i + 1;
-        str[(signed long int)tmp_post$1] = sep;
+        str[(signed long int)tmp_post_1] = sep;
       }
 
       sep = (char)44;
@@ -10023,9 +10023,9 @@ char * ext2str(signed int ext, char *str, signed int len)
     {
       if(!(i >= len))
       {
-        tmp_post$2 = i;
+        tmp_post_2 = i;
         i = i + 1;
-        str[(signed long int)tmp_post$2] = sep;
+        str[(signed long int)tmp_post_2] = sep;
       }
 
       sep = (char)44;
@@ -10037,9 +10037,9 @@ char * ext2str(signed int ext, char *str, signed int len)
     {
       if(!(i >= len))
       {
-        tmp_post$3 = i;
+        tmp_post_3 = i;
         i = i + 1;
-        str[(signed long int)tmp_post$3] = sep;
+        str[(signed long int)tmp_post_3] = sep;
       }
 
       sep = (char)44;
@@ -10051,9 +10051,9 @@ char * ext2str(signed int ext, char *str, signed int len)
     {
       if(!(i >= len))
       {
-        tmp_post$4 = i;
+        tmp_post_4 = i;
         i = i + 1;
-        str[(signed long int)tmp_post$4] = sep;
+        str[(signed long int)tmp_post_4] = sep;
       }
 
       sep = (char)44;
@@ -10082,9 +10082,9 @@ char * ext2str(signed int ext, char *str, signed int len)
     {
       if(!(i >= len))
       {
-        tmp_post$5 = i;
+        tmp_post_5 = i;
         i = i + 1;
-        str[(signed long int)tmp_post$5] = sep;
+        str[(signed long int)tmp_post_5] = sep;
       }
 
       sep = (char)44;
@@ -10096,9 +10096,9 @@ char * ext2str(signed int ext, char *str, signed int len)
     {
       if(!(i >= len))
       {
-        tmp_post$6 = i;
+        tmp_post_6 = i;
         i = i + 1;
-        str[(signed long int)tmp_post$6] = sep;
+        str[(signed long int)tmp_post_6] = sep;
       }
 
       sep = (char)44;
@@ -10110,9 +10110,9 @@ char * ext2str(signed int ext, char *str, signed int len)
     {
       if(!(i >= len))
       {
-        tmp_post$7 = i;
+        tmp_post_7 = i;
         i = i + 1;
-        str[(signed long int)tmp_post$7] = sep;
+        str[(signed long int)tmp_post_7] = sep;
       }
 
       sep = (char)44;
@@ -10124,9 +10124,9 @@ char * ext2str(signed int ext, char *str, signed int len)
     {
       if(!(i >= len))
       {
-        tmp_post$8 = i;
+        tmp_post_8 = i;
         i = i + 1;
-        str[(signed long int)tmp_post$8] = sep;
+        str[(signed long int)tmp_post_8] = sep;
       }
 
       sep = (char)44;
@@ -10140,9 +10140,9 @@ char * ext2str(signed int ext, char *str, signed int len)
       {
         if(!(i >= len))
         {
-          tmp_post$9 = i;
+          tmp_post_9 = i;
           i = i + 1;
-          str[(signed long int)tmp_post$9] = sep;
+          str[(signed long int)tmp_post_9] = sep;
         }
 
         sep = (char)44;
@@ -10154,9 +10154,9 @@ char * ext2str(signed int ext, char *str, signed int len)
       {
         if(!(i >= len))
         {
-          tmp_post$10 = i;
+          tmp_post_10 = i;
           i = i + 1;
-          str[(signed long int)tmp_post$10] = sep;
+          str[(signed long int)tmp_post_10] = sep;
         }
 
         sep = (char)44;
@@ -10168,9 +10168,9 @@ char * ext2str(signed int ext, char *str, signed int len)
       {
         if(!(i >= len))
         {
-          tmp_post$11 = i;
+          tmp_post_11 = i;
           i = i + 1;
-          str[(signed long int)tmp_post$11] = sep;
+          str[(signed long int)tmp_post_11] = sep;
         }
 
         sep = (char)44;
@@ -10189,9 +10189,9 @@ struct _Backup * findBackup(struct sockaddr *sa)
   struct _Backup *b = backups;
   for( ; !(b == ((struct _Backup *)NULL)); b = b->next)
   {
-    signed int return_value_saComp$1;
-    return_value_saComp$1=saComp(sa, &b->master->addr);
-    if(!(return_value_saComp$1 == 0))
+    signed int return_value_saComp_1;
+    return_value_saComp_1=saComp(sa, &b->master->addr);
+    if(!(return_value_saComp_1 == 0))
     {
       if(Debug >= 2)
       {
@@ -10216,12 +10216,12 @@ struct _Backup * findBackup(struct sockaddr *sa)
 struct _LBSet * findLBSet(struct sockaddr *sa)
 {
   struct _LBSet *s = lbsets;
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   for( ; !(s == ((struct _LBSet *)NULL)); s = s->next)
   {
-    signed int return_value_saComp$4;
-    return_value_saComp$4=saComp(&s->dsts[(signed long int)0]->addr, sa);
-    if(!(return_value_saComp$4 == 0))
+    signed int return_value_saComp_4;
+    return_value_saComp_4=saComp(&s->dsts[(signed long int)0]->addr, sa);
+    if(!(return_value_saComp_4 == 0))
     {
       if(Debug >= 2)
       {
@@ -10230,19 +10230,19 @@ struct _LBSet * findLBSet(struct sockaddr *sa)
         signed int i;
         buf[(signed long int)1024] = (char)0;
         strcpy(buf, "LB set:");
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(buf);
-        len = (signed int)return_value_strlen$1;
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(buf);
+        len = (signed int)return_value_strlen_1;
         i = 0;
         for( ; !(i >= (signed int)s->ndsts) && !(len >= 1024); i = i + 1)
         {
-          tmp_post$2 = len;
+          tmp_post_2 = len;
           len = len + 1;
-          buf[(signed long int)tmp_post$2] = (char)32;
+          buf[(signed long int)tmp_post_2] = (char)32;
           addrport2str(&s->dsts[(signed long int)i]->addr, s->dsts[(signed long int)i]->len, s->proto & (proto_ohttp_d | proto_base_d | proto_command), buf + (signed long int)len, (1024 - 1) - len, 0);
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(buf + (signed long int)len);
-          len = len + (signed int)return_value_strlen$3;
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(buf + (signed long int)len);
+          len = len + (signed int)return_value_strlen_3;
         }
         message(7, "%s", (const void *)buf);
       }
@@ -10264,16 +10264,16 @@ signed int first_read(struct _Pair *pair)
   struct _ExBuf *ex;
   struct _Stone *stone = pair->stone;
   signed int len;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(p == ((struct _Pair *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (p->proto & (proto_shutdown | proto_close)) != 0 ? (_Bool)1 : (_Bool)0;
-  signed int return_value_memCheck$2;
-  signed int return_value_doshutdown$3;
-  signed int return_value_doshutdown$4;
-  if(!(sd >= 0) || tmp_if_expr$1)
+    tmp_if_expr_1 = (p->proto & (proto_shutdown | proto_close)) != 0 ? (_Bool)1 : (_Bool)0;
+  signed int return_value_memCheck_2;
+  signed int return_value_doshutdown_3;
+  signed int return_value_doshutdown_4;
+  if(!(sd >= 0) || tmp_if_expr_1)
     return -1;
 
   else
@@ -10293,8 +10293,8 @@ signed int first_read(struct _Pair *pair)
         }
         case 0x0400:
         {
-          return_value_memCheck$2=memCheck();
-          if(return_value_memCheck$2 == 0)
+          return_value_memCheck_2=memCheck();
+          if(return_value_memCheck_2 == 0)
             len = -1;
 
           else
@@ -10322,8 +10322,8 @@ signed int first_read(struct _Pair *pair)
           signed int flag = 0;
           if((pair->proto & proto_shutdown) == 0)
           {
-            return_value_doshutdown$3=doshutdown(pair, 2);
-            if(return_value_doshutdown$3 >= 0)
+            return_value_doshutdown_3=doshutdown(pair, 2);
+            if(return_value_doshutdown_3 >= 0)
               flag = proto_shutdown;
 
           }
@@ -10334,8 +10334,8 @@ signed int first_read(struct _Pair *pair)
             flag = 0;
             if((p->proto & proto_shutdown) == 0)
             {
-              return_value_doshutdown$4=doshutdown(p, 2);
-              if(return_value_doshutdown$4 >= 0)
+              return_value_doshutdown_4=doshutdown(p, 2);
+              if(return_value_doshutdown_4 >= 0)
                 flag = proto_shutdown;
 
             }
@@ -10397,7 +10397,7 @@ signed int first_read(struct _Pair *pair)
 // file stone.c line 3892
 void freeConn(struct _Conn *conn)
 {
-  if(!(conn->dst == ((struct anonymous$0 *)NULL)))
+  if(!(conn->dst == ((struct anonymous_0 *)NULL)))
     free((void *)conn->dst);
 
   free((void *)conn);
@@ -10449,7 +10449,7 @@ void freeMutex(signed int h)
 // file stone.c line 2622
 void freeOrigin(struct _Origin *origin)
 {
-  if(!(origin->from == ((struct anonymous$0 *)NULL)))
+  if(!(origin->from == ((struct anonymous_0 *)NULL)))
     free((void *)origin->from);
 
   free((void *)origin);
@@ -10516,14 +10516,14 @@ void freePair(struct _Pair *pair)
     pair->t = (struct _ExBuf *)(void *)0;
     while(!(ex == ((struct _ExBuf *)NULL)))
     {
-      struct _ExBuf *freePair$$1$$4$$f = ex;
-      ex = freePair$$1$$4$$f->next;
-      freePair$$1$$4$$f->next = (struct _ExBuf *)(void *)0;
+      struct _ExBuf *freePair__1__4__f = ex;
+      ex = freePair__1__4__f->next;
+      freePair__1__4__f->next = (struct _ExBuf *)(void *)0;
       pair->nbuf = pair->nbuf - 1;
       if(Debug >= 5)
         message(7, "%d TCP %d: freePair unget ExBuf nbuf=%d nfex=%d", pair->stone->sd, sd, pair->nbuf, nFreeExBuf);
 
-      ungetExBuf(freePair$$1$$4$$f);
+      ungetExBuf(freePair__1__4__f);
     }
     if(sd >= 0)
     {
@@ -10564,9 +10564,9 @@ signed int gcd(signed int a, signed int b)
     if(m == 0)
       return b;
 
-    signed int return_value_gcd$1;
-    return_value_gcd$1=gcd(m, b);
-    return return_value_gcd$1;
+    signed int return_value_gcd_1;
+    return_value_gcd_1=gcd(m, b);
+    return return_value_gcd_1;
   }
 
   else
@@ -10575,9 +10575,9 @@ signed int gcd(signed int a, signed int b)
     if(m == 0)
       return a;
 
-    signed int return_value_gcd$2;
-    return_value_gcd$2=gcd(m, a);
-    return return_value_gcd$2;
+    signed int return_value_gcd_2;
+    return_value_gcd_2=gcd(m, a);
+    return return_value_gcd_2;
   }
 }
 
@@ -10604,25 +10604,25 @@ struct _ExBuf * getExBuf(void)
   }
 
   freeMutex(7);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(ret == ((struct _ExBuf *)NULL))
   {
     signed int size = XferBufMax;
     do
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((sizeof(struct _ExBuf) /*2072ul*/  + (unsigned long int)size) - (unsigned long int)2048);
-      ret = (struct _ExBuf *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((sizeof(struct _ExBuf) /*2072ul*/  + (unsigned long int)size) - (unsigned long int)2048);
+      ret = (struct _ExBuf *)return_value_malloc_2;
       if(ret == ((struct _ExBuf *)NULL) && XferBufMax >= 2049)
       {
         XferBufMax = XferBufMax / 2;
-        tmp_if_expr$1 = XferBufMax != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = XferBufMax != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$1 = (_Bool)0;
+        tmp_if_expr_1 = (_Bool)0;
     }
-    while(tmp_if_expr$1);
+    while(tmp_if_expr_1);
     if(ret == ((struct _ExBuf *)NULL))
     {
       message(2, "Out of memory, no ExBuf");
@@ -10676,22 +10676,22 @@ struct _Origin * getOrigins(struct sockaddr *from, unsigned int fromlen, struct 
   signed int sd;
   struct epoll_event ev;
   origin = origins->next;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(origin == ((struct _Origin *)NULL)))
-      tmp_if_expr$1 = origin->from != ((struct anonymous$0 *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = origin->from != ((struct anonymous_0 *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     if(origin->sd >= 0)
     {
-      signed int return_value_saComp$2;
-      return_value_saComp$2=saComp(&origin->from->addr, from);
-      if(!(return_value_saComp$2 == 0))
+      signed int return_value_saComp_2;
+      return_value_saComp_2=saComp(&origin->from->addr, from);
+      if(!(return_value_saComp_2 == 0))
       {
         origin->lock = 1;
         return origin;
@@ -10705,26 +10705,26 @@ struct _Origin * getOrigins(struct sockaddr *from, unsigned int fromlen, struct 
   sd=socket((signed int)from->sa_family, 2, 17);
   if(!(sd >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    message(3, "%d UDP: can't create datagram socket err=%d", stone->sd, *return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    message(3, "%d UDP: can't create datagram socket err=%d", stone->sd, *return_value___errno_location_3);
     return (struct _Origin *)(void *)0;
   }
 
   if(Debug >= 4)
   {
     char addrport[128l];
-    char *return_value_addrport2str$4;
-    return_value_addrport2str$4=addrport2str(from, fromlen, proto_udp_s | proto_udp_d, addrport, 127, 0);
-    message(7, "%d UDP %d: New origin %s", stone->sd, sd, return_value_addrport2str$4);
+    char *return_value_addrport2str_4;
+    return_value_addrport2str_4=addrport2str(from, fromlen, proto_udp_s | proto_udp_d, addrport, 127, 0);
+    message(7, "%d UDP %d: New origin %s", stone->sd, sd, return_value_addrport2str_4);
   }
 
   if((stone->proto & proto_block_d) == 0)
     fcntl(sd, 4, 04000);
 
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc(sizeof(struct _Origin) /*56ul*/ );
-  origin = (struct _Origin *)return_value_malloc$5;
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc(sizeof(struct _Origin) /*56ul*/ );
+  origin = (struct _Origin *)return_value_malloc_5;
   if(origin == ((struct _Origin *)NULL))
   {
 
@@ -10740,7 +10740,7 @@ struct _Origin * getOrigins(struct sockaddr *from, unsigned int fromlen, struct 
     origin->sd = sd;
     origin->stone = stone;
     origin->from=saDup(from, fromlen);
-    if(origin->from == ((struct anonymous$0 *)NULL))
+    if(origin->from == ((struct anonymous_0 *)NULL))
     {
       free((void *)origin);
       goto memerr;
@@ -10750,13 +10750,13 @@ struct _Origin * getOrigins(struct sockaddr *from, unsigned int fromlen, struct 
     origin->xhost = (struct _XHosts *)(void *)0;
     ev.events = (unsigned int)1;
     ev.data.ptr = (void *)origin;
-    signed int return_value_epoll_ctl$7;
-    return_value_epoll_ctl$7=epoll_ctl(ePollFd, 1, sd, &ev);
-    if(!(return_value_epoll_ctl$7 >= 0))
+    signed int return_value_epoll_ctl_7;
+    return_value_epoll_ctl_7=epoll_ctl(ePollFd, 1, sd, &ev);
+    if(!(return_value_epoll_ctl_7 >= 0))
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      message(3, "%d UDP %d: epoll_ctl ADD err=%d", stone->sd, sd, *return_value___errno_location$6);
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      message(3, "%d UDP %d: epoll_ctl ADD err=%d", stone->sd, sd, *return_value___errno_location_6);
       freeOrigin(origin);
       return (struct _Origin *)(void *)0;
     }
@@ -10774,18 +10774,18 @@ struct _Origin * getOrigins(struct sockaddr *from, unsigned int fromlen, struct 
 struct _Pair * getPairUDP(struct sockaddr *from, unsigned int fromlen, struct _Stone *stone)
 {
   struct _Pair *pair;
-  struct _ExBuf *getPairUDP$$1$$t;
-  struct anonymous$0 *peer;
+  struct _ExBuf *getPairUDP__1__t;
+  struct anonymous_0 *peer;
   pair = stone->pairs->next;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(pair == ((struct _Pair *)NULL)))
-      tmp_if_expr$1 = pair->clock != (signed long int)-1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = pair->clock != (signed long int)-1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     struct _Pair *p = pair->pair;
@@ -10797,10 +10797,10 @@ struct _Pair * getPairUDP(struct sockaddr *from, unsigned int fromlen, struct _S
         {
           struct _ExBuf *t;
           t=getExData(pair, data_peeraddr, 0);
-          struct anonymous$0 *dst = (struct anonymous$0 *)(t->buf + (signed long int)sizeof(signed int) /*4ul*/ );
-          signed int return_value_saComp$2;
-          return_value_saComp$2=saComp(&dst->addr, from);
-          if(!(return_value_saComp$2 == 0))
+          struct anonymous_0 *dst = (struct anonymous_0 *)(t->buf + (signed long int)sizeof(signed int) /*4ul*/ );
+          signed int return_value_saComp_2;
+          return_value_saComp_2=saComp(&dst->addr, from);
+          if(!(return_value_saComp_2 == 0))
           {
             time(&pair->clock);
             return pair;
@@ -10826,13 +10826,13 @@ struct _Pair * getPairUDP(struct sockaddr *from, unsigned int fromlen, struct _S
     pair->stone = stone;
     pair->proto = proto_dgram | 0x0f00;
     pair->timeout = stone->timeout;
-    getPairUDP$$1$$t=newExData(pair, data_peeraddr);
-    peer = (struct anonymous$0 *)(getPairUDP$$1$$t->buf + (signed long int)sizeof(signed int) /*4ul*/ );
+    getPairUDP__1__t=newExData(pair, data_peeraddr);
+    peer = (struct anonymous_0 *)(getPairUDP__1__t->buf + (signed long int)sizeof(signed int) /*4ul*/ );
     peer->len = fromlen;
     bcopy((const void *)from, (void *)&peer->addr, (unsigned long int)fromlen);
-    signed int return_value_doAcceptConnect$3;
-    return_value_doAcceptConnect$3=doAcceptConnect(pair);
-    if(!(return_value_doAcceptConnect$3 == 0))
+    signed int return_value_doAcceptConnect_3;
+    return_value_doAcceptConnect_3=doAcceptConnect(pair);
+    if(!(return_value_doAcceptConnect_3 == 0))
       return pair;
 
     else
@@ -10864,25 +10864,25 @@ struct _PktBuf * getPktBuf(void)
 
   }
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(ret == ((struct _PktBuf *)NULL))
   {
     signed int size = pkt_len_max;
     do
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((sizeof(struct _PktBuf) /*2088ul*/  + (unsigned long int)size) - (unsigned long int)2048);
-      ret = (struct _PktBuf *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((sizeof(struct _PktBuf) /*2088ul*/  + (unsigned long int)size) - (unsigned long int)2048);
+      ret = (struct _PktBuf *)return_value_malloc_2;
       if(ret == ((struct _PktBuf *)NULL) && pkt_len_max >= 2049)
       {
         pkt_len_max = pkt_len_max / 2;
-        tmp_if_expr$1 = pkt_len_max != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = pkt_len_max != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$1 = (_Bool)0;
+        tmp_if_expr_1 = (_Bool)0;
     }
-    while(tmp_if_expr$1);
+    while(tmp_if_expr_1);
     if(ret == ((struct _PktBuf *)NULL))
     {
       message(2, "Out of memory, no ExBuf");
@@ -10906,12 +10906,12 @@ struct _Stone * getStone(struct sockaddr *sa, unsigned int salen, signed int pro
   struct _Stone *stone;
   proto = proto & proto_udp_s;
   stone = stones;
-  signed int return_value_saComp$1;
+  signed int return_value_saComp_1;
   for( ; !(stone == ((struct _Stone *)NULL)); stone = stone->next)
     if((stone->proto & proto_udp_s) == proto)
     {
-      return_value_saComp$1=saComp(&stone->listen->addr, sa);
-      if(!(return_value_saComp$1 == 0))
+      return_value_saComp_1=saComp(&stone->listen->addr, sa);
+      if(!(return_value_saComp_1 == 0))
         return stone;
 
     }
@@ -10935,16 +10935,16 @@ void getconfig(void)
     fp=openconfig();
     if(fp == ((struct _IO_FILE *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      message(3, "Can't open config file: %s err=%d", ConfigFile, *return_value___errno_location$1);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      message(3, "Can't open config file: %s err=%d", ConfigFile, *return_value___errno_location_1);
       exit(1);
     }
 
     strcpy(buf, ConfigFile);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(buf);
-    len = (signed int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(buf);
+    len = (signed int)return_value_strlen_2;
     while((_Bool)1)
     {
       if(Debug >= 10)
@@ -10952,9 +10952,9 @@ void getconfig(void)
 
       if(ConfigArgc >= nptr)
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc((unsigned long int)(nptr + 2048) * sizeof(char *) /*8ul*/ );
-        new = (char **)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc((unsigned long int)(nptr + 2048) * sizeof(char *) /*8ul*/ );
+        new = (char **)return_value_malloc_3;
         if(new == ((char **)NULL))
         {
           message(2, "Out of memory");
@@ -10971,9 +10971,9 @@ void getconfig(void)
         nptr = nptr + 2048;
       }
 
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc((unsigned long int)(len + 1));
-      ConfigArgv[(signed long int)ConfigArgc] = (char *)return_value_malloc$4;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc((unsigned long int)(len + 1));
+      ConfigArgv[(signed long int)ConfigArgc] = (char *)return_value_malloc_4;
       bcopy((const void *)buf, (void *)ConfigArgv[(signed long int)ConfigArgc], (unsigned long int)(len + 1));
       ConfigArgc = ConfigArgc + 1;
       len=gettoken(fp, buf);
@@ -11003,13 +11003,13 @@ signed int getdist(char *p, signed int *protop)
   proto_str = (char *)(void *)0;
   port_str = proto_str;
   *protop = 0;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if((signed int)*p == 46)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)p[(signed long int)0] == 47 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)p[(signed long int)0] == 47 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
     struct stat st;
     p = p + 1l;
@@ -11025,9 +11025,9 @@ signed int getdist(char *p, signed int *protop)
     if(!(proto_str == ((char *)NULL)))
     {
       *(proto_str - (signed long int)1) = (char)0;
-      signed int return_value_stat$1;
-      return_value_stat$1=stat(top, &st);
-      if(return_value_stat$1 >= 0)
+      signed int return_value_stat_1;
+      return_value_stat_1=stat(top, &st);
+      if(return_value_stat_1 >= 0)
       {
         if((61440u & st.st_mode) == 16384u)
         {
@@ -11059,29 +11059,29 @@ signed int getdist(char *p, signed int *protop)
 
         else
           p = p + 1l;
-  signed int return_value_strncmp$17;
-  signed int return_value_strncmp$16;
-  signed int return_value_strncmp$15;
-  signed int return_value_strncmp$14;
-  signed int return_value_strncmp$13;
-  signed int return_value_strncmp$12;
-  signed int return_value_strncmp$11;
-  signed int return_value_strncmp$10;
-  signed int return_value_strncmp$9;
-  signed int return_value_strncmp$8;
-  signed int return_value_strncmp$7;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  char *tmp_post$4;
+  signed int return_value_strncmp_17;
+  signed int return_value_strncmp_16;
+  signed int return_value_strncmp_15;
+  signed int return_value_strncmp_14;
+  signed int return_value_strncmp_13;
+  signed int return_value_strncmp_12;
+  signed int return_value_strncmp_11;
+  signed int return_value_strncmp_10;
+  signed int return_value_strncmp_9;
+  signed int return_value_strncmp_8;
+  signed int return_value_strncmp_7;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  char *tmp_post_4;
   if(!(proto_str == ((char *)NULL)))
   {
     *(proto_str - (signed long int)1) = (char)0;
     p = proto_str;
     do
     {
-      signed int return_value_strncmp$18;
-      return_value_strncmp$18=strncmp(p, "tcp", (unsigned long int)3);
-      if(return_value_strncmp$18 == 0)
+      signed int return_value_strncmp_18;
+      return_value_strncmp_18=strncmp(p, "tcp", (unsigned long int)3);
+      if(return_value_strncmp_18 == 0)
       {
         p = p + (signed long int)3;
         *protop = *protop & ~(proto_udp_s | proto_udp_d);
@@ -11089,8 +11089,8 @@ signed int getdist(char *p, signed int *protop)
 
       else
       {
-        return_value_strncmp$17=strncmp(p, "udp", (unsigned long int)3);
-        if(return_value_strncmp$17 == 0)
+        return_value_strncmp_17=strncmp(p, "udp", (unsigned long int)3);
+        if(return_value_strncmp_17 == 0)
         {
           p = p + (signed long int)3;
           *protop = *protop | proto_udp_s | proto_udp_d;
@@ -11098,8 +11098,8 @@ signed int getdist(char *p, signed int *protop)
 
         else
         {
-          return_value_strncmp$16=strncmp(p, "http", (unsigned long int)4);
-          if(return_value_strncmp$16 == 0)
+          return_value_strncmp_16=strncmp(p, "http", (unsigned long int)4);
+          if(return_value_strncmp_16 == 0)
           {
             p = p + (signed long int)4;
             *protop = *protop | proto_ohttp_s | proto_ohttp_d;
@@ -11107,8 +11107,8 @@ signed int getdist(char *p, signed int *protop)
 
           else
           {
-            return_value_strncmp$15=strncmp(p, "base", (unsigned long int)4);
-            if(return_value_strncmp$15 == 0)
+            return_value_strncmp_15=strncmp(p, "base", (unsigned long int)4);
+            if(return_value_strncmp_15 == 0)
             {
               p = p + (signed long int)4;
               *protop = *protop | proto_base_s | proto_base_d;
@@ -11116,8 +11116,8 @@ signed int getdist(char *p, signed int *protop)
 
             else
             {
-              return_value_strncmp$14=strncmp(p, "ident", (unsigned long int)5);
-              if(return_value_strncmp$14 == 0)
+              return_value_strncmp_14=strncmp(p, "ident", (unsigned long int)5);
+              if(return_value_strncmp_14 == 0)
               {
                 p = p + (signed long int)5;
                 *protop = *protop | proto_ident;
@@ -11125,8 +11125,8 @@ signed int getdist(char *p, signed int *protop)
 
               else
               {
-                return_value_strncmp$13=strncmp(p, "proxy", (unsigned long int)5);
-                if(return_value_strncmp$13 == 0)
+                return_value_strncmp_13=strncmp(p, "proxy", (unsigned long int)5);
+                if(return_value_strncmp_13 == 0)
                 {
                   p = p + (signed long int)5;
                   *protop = *protop & ~proto_command;
@@ -11135,8 +11135,8 @@ signed int getdist(char *p, signed int *protop)
 
                 else
                 {
-                  return_value_strncmp$12=strncmp(p, "mproxy", (unsigned long int)6);
-                  if(return_value_strncmp$12 == 0)
+                  return_value_strncmp_12=strncmp(p, "mproxy", (unsigned long int)6);
+                  if(return_value_strncmp_12 == 0)
                   {
                     p = p + (signed long int)6;
                     *protop = *protop & ~proto_command;
@@ -11145,8 +11145,8 @@ signed int getdist(char *p, signed int *protop)
 
                   else
                   {
-                    return_value_strncmp$11=strncmp(p, "nobackup", (unsigned long int)8);
-                    if(return_value_strncmp$11 == 0)
+                    return_value_strncmp_11=strncmp(p, "nobackup", (unsigned long int)8);
+                    if(return_value_strncmp_11 == 0)
                     {
                       p = p + (signed long int)8;
                       *protop = *protop | proto_nobackup;
@@ -11154,8 +11154,8 @@ signed int getdist(char *p, signed int *protop)
 
                     else
                     {
-                      return_value_strncmp$10=strncmp(p, "ssl", (unsigned long int)3);
-                      if(return_value_strncmp$10 == 0)
+                      return_value_strncmp_10=strncmp(p, "ssl", (unsigned long int)3);
+                      if(return_value_strncmp_10 == 0)
                       {
                         p = p + (signed long int)3;
                         *protop = *protop | proto_ssl_s | proto_ssl_d;
@@ -11163,14 +11163,14 @@ signed int getdist(char *p, signed int *protop)
 
                       else
                       {
-                        return_value_strncmp$9=strncmp(p, "v6", (unsigned long int)2);
-                        if(return_value_strncmp$9 == 0)
+                        return_value_strncmp_9=strncmp(p, "v6", (unsigned long int)2);
+                        if(return_value_strncmp_9 == 0)
                         {
                           p = p + (signed long int)2;
                           *protop = *protop | proto_v6_s | proto_v6_d;
-                          signed int return_value_strncmp$6;
-                          return_value_strncmp$6=strncmp(p, "only", (unsigned long int)4);
-                          if(return_value_strncmp$6 == 0)
+                          signed int return_value_strncmp_6;
+                          return_value_strncmp_6=strncmp(p, "only", (unsigned long int)4);
+                          if(return_value_strncmp_6 == 0)
                           {
                             p = p + (signed long int)4;
                             *protop = *protop | proto_ip_only_s | proto_ip_only_d;
@@ -11180,8 +11180,8 @@ signed int getdist(char *p, signed int *protop)
 
                         else
                         {
-                          return_value_strncmp$8=strncmp(p, "v4only", (unsigned long int)6);
-                          if(return_value_strncmp$8 == 0)
+                          return_value_strncmp_8=strncmp(p, "v4only", (unsigned long int)6);
+                          if(return_value_strncmp_8 == 0)
                           {
                             p = p + (signed long int)6;
                             *protop = *protop | proto_ip_only_s | proto_ip_only_d;
@@ -11189,8 +11189,8 @@ signed int getdist(char *p, signed int *protop)
 
                           else
                           {
-                            return_value_strncmp$7=strncmp(p, "block", (unsigned long int)5);
-                            if(return_value_strncmp$7 == 0)
+                            return_value_strncmp_7=strncmp(p, "block", (unsigned long int)5);
+                            if(return_value_strncmp_7 == 0)
                             {
                               p = p + (signed long int)5;
                               *protop = *protop | proto_block_s | proto_block_d;
@@ -11210,26 +11210,26 @@ signed int getdist(char *p, signed int *protop)
         }
       }
       if((signed int)*p == 44)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)*p == 47 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)*p == 47 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
-        tmp_post$4 = p;
+        tmp_post_4 = p;
         p = p + 1l;
-        tmp_if_expr$5 = tmp_post$4 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = tmp_post_4 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$5 = (_Bool)0;
+        tmp_if_expr_5 = (_Bool)0;
     }
-    while(tmp_if_expr$5);
+    while(tmp_if_expr_5);
   }
 
-  signed int tmp_statement_expression$19;
-  signed int tmp_statement_expression$21;
-  signed int tmp_statement_expression$23;
+  signed int tmp_statement_expression_19;
+  signed int tmp_statement_expression_21;
+  signed int tmp_statement_expression_23;
   if(!(port_str == ((char *)NULL)))
   {
     *(port_str - (signed long int)1) = (char)0;
@@ -11241,12 +11241,12 @@ signed int getdist(char *p, signed int *protop)
     if(!(((proto_unix_d | proto_unix_s) & *protop) == 0))
       return 1;
 
-    unsigned long int getdist$$1$$5$$2$$__s1_len;
-    unsigned long int getdist$$1$$5$$2$$__s2_len;
-    signed int return_value___builtin_strcmp$20;
-    return_value___builtin_strcmp$20=__builtin_strcmp(top, "proxy");
-    tmp_statement_expression$19 = return_value___builtin_strcmp$20;
-    if(tmp_statement_expression$19 == 0)
+    unsigned long int getdist__1__5__2____s1_len;
+    unsigned long int getdist__1__5__2____s2_len;
+    signed int return_value___builtin_strcmp_20;
+    return_value___builtin_strcmp_20=__builtin_strcmp(top, "proxy");
+    tmp_statement_expression_19 = return_value___builtin_strcmp_20;
+    if(tmp_statement_expression_19 == 0)
     {
       *protop = *protop & ~proto_command;
       *protop = *protop | 0x0600;
@@ -11255,22 +11255,22 @@ signed int getdist(char *p, signed int *protop)
 
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$22;
-    return_value___builtin_strcmp$22=__builtin_strcmp(top, "health");
-    tmp_statement_expression$21 = return_value___builtin_strcmp$22;
-    if(tmp_statement_expression$21 == 0)
+    signed int return_value___builtin_strcmp_22;
+    return_value___builtin_strcmp_22=__builtin_strcmp(top, "health");
+    tmp_statement_expression_21 = return_value___builtin_strcmp_22;
+    if(tmp_statement_expression_21 == 0)
     {
       *protop = *protop & ~proto_command;
       *protop = *protop | 0x0400;
       return 1;
     }
 
-    unsigned long int getdist$$1$$5$$6$$__s1_len;
-    unsigned long int getdist$$1$$5$$6$$__s2_len;
-    signed int return_value___builtin_strcmp$24;
-    return_value___builtin_strcmp$24=__builtin_strcmp(top, "identd");
-    tmp_statement_expression$23 = return_value___builtin_strcmp$24;
-    if(tmp_statement_expression$23 == 0)
+    unsigned long int getdist__1__5__6____s1_len;
+    unsigned long int getdist__1__5__6____s2_len;
+    signed int return_value___builtin_strcmp_24;
+    return_value___builtin_strcmp_24=__builtin_strcmp(top, "identd");
+    tmp_statement_expression_23 = return_value___builtin_strcmp_24;
+    if(tmp_statement_expression_23 == 0)
     {
       *protop = *protop & ~proto_command;
       *protop = *protop | 0x0500;
@@ -11308,28 +11308,28 @@ signed int getident(char *str, struct sockaddr *sa, unsigned int salen, signed i
     str[(signed long int)0] = (char)0;
 
   sd=socket((signed int)peer->sa_family, 1, 6);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(!(sd >= 0))
   {
     if(Debug >= 1)
     {
-      return_value___errno_location$1=__errno_location();
-      message(7, "ident: can't create socket err=%d", *return_value___errno_location$1);
+      return_value___errno_location_1=__errno_location();
+      message(7, "ident: can't create socket err=%d", *return_value___errno_location_1);
     }
 
     return 0;
   }
 
   saPort(csa, (unsigned short int)0);
-  signed int return_value_bind$3;
-  return_value_bind$3=bind(sd, csa, csalen);
-  signed int *return_value___errno_location$2;
-  if(!(return_value_bind$3 >= 0))
+  signed int return_value_bind_3;
+  return_value_bind_3=bind(sd, csa, csalen);
+  signed int *return_value___errno_location_2;
+  if(!(return_value_bind_3 >= 0))
   {
     if(Debug >= 1)
     {
-      return_value___errno_location$2=__errno_location();
-      message(7, "ident: can't bind socket err=%d", *return_value___errno_location$2);
+      return_value___errno_location_2=__errno_location();
+      message(7, "ident: can't bind socket err=%d", *return_value___errno_location_2);
     }
 
   }
@@ -11341,32 +11341,32 @@ signed int getident(char *str, struct sockaddr *sa, unsigned int salen, signed i
   epfd=epoll_create(50);
   if(!(epfd >= 0))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    message(3, "ident: can't create epoll err=%d", *return_value___errno_location$4);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    message(3, "ident: can't create epoll err=%d", *return_value___errno_location_4);
     epfd = -1;
     goto noconnect;
   }
 
   ev.events = (unsigned int)(4 | 1073741824);
-  signed int return_value_epoll_ctl$6;
-  return_value_epoll_ctl$6=epoll_ctl(epfd, 1, sd, &ev);
-  if(!(return_value_epoll_ctl$6 >= 0))
+  signed int return_value_epoll_ctl_6;
+  return_value_epoll_ctl_6=epoll_ctl(epfd, 1, sd, &ev);
+  if(!(return_value_epoll_ctl_6 >= 0))
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    message(3, "ident: epoll_ctl ADD err=%d", *return_value___errno_location$5);
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    message(3, "ident: epoll_ctl ADD err=%d", *return_value___errno_location_5);
     goto noconnect;
   }
 
   ret=connect(sd, peer, peerlen);
-  signed int return_value_epoll_wait$7;
-  signed int *return_value___errno_location$8;
+  signed int return_value_epoll_wait_7;
+  signed int *return_value___errno_location_8;
   if(!(ret >= 0))
   {
-    signed int *return_value___errno_location$9;
-    return_value___errno_location$9=__errno_location();
-    if(*return_value___errno_location$9 == 115)
+    signed int *return_value___errno_location_9;
+    return_value___errno_location_9=__errno_location();
+    if(*return_value___errno_location_9 == 115)
       do
       {
         time(&now);
@@ -11378,16 +11378,16 @@ signed int getident(char *str, struct sockaddr *sa, unsigned int salen, signed i
           goto noconnect;
         }
 
-        return_value_epoll_wait$7=epoll_wait(epfd, evs, 1, 1000);
+        return_value_epoll_wait_7=epoll_wait(epfd, evs, 1, 1000);
       }
-      while(return_value_epoll_wait$7 == 0);
+      while(return_value_epoll_wait_7 == 0);
 
     else
     {
       if(Debug >= 1)
       {
-        return_value___errno_location$8=__errno_location();
-        message(7, "ident: can't connect to %s, err=%d", (const void *)addr, *return_value___errno_location$8);
+        return_value___errno_location_8=__errno_location();
+        message(7, "ident: can't connect to %s, err=%d", (const void *)addr, *return_value___errno_location_8);
       }
 
 
@@ -11402,31 +11402,31 @@ signed int getident(char *str, struct sockaddr *sa, unsigned int salen, signed i
   }
 
   ev.events = (unsigned int)(1 | 1073741824);
-  signed int return_value_epoll_ctl$11;
-  return_value_epoll_ctl$11=epoll_ctl(epfd, 3, sd, &ev);
-  if(!(return_value_epoll_ctl$11 >= 0))
+  signed int return_value_epoll_ctl_11;
+  return_value_epoll_ctl_11=epoll_ctl(epfd, 3, sd, &ev);
+  if(!(return_value_epoll_ctl_11 >= 0))
   {
-    signed int *return_value___errno_location$10;
-    return_value___errno_location$10=__errno_location();
-    message(3, "ident: epoll_ctl MOD err=%d", *return_value___errno_location$10);
+    signed int *return_value___errno_location_10;
+    return_value___errno_location_10=__errno_location();
+    message(3, "ident: epoll_ctl MOD err=%d", *return_value___errno_location_10);
     goto noconnect;
   }
 
   snprintf(buf, (unsigned long int)1024, "%d, %d%c%c", sport, cport, 13, 10);
-  unsigned long int return_value_strlen$12;
-  return_value_strlen$12=strlen(buf);
-  len = (signed int)return_value_strlen$12;
-  signed long int return_value_send$13;
-  return_value_send$13=send(sd, (const void *)buf, (unsigned long int)len, 0);
-  ret = (signed int)return_value_send$13;
-  signed int *return_value___errno_location$14;
-  signed int return_value_epoll_wait$15;
+  unsigned long int return_value_strlen_12;
+  return_value_strlen_12=strlen(buf);
+  len = (signed int)return_value_strlen_12;
+  signed long int return_value_send_13;
+  return_value_send_13=send(sd, (const void *)buf, (unsigned long int)len, 0);
+  ret = (signed int)return_value_send_13;
+  signed int *return_value___errno_location_14;
+  signed int return_value_epoll_wait_15;
   if(!(ret == len))
   {
     if(Debug >= 1)
     {
-      return_value___errno_location$14=__errno_location();
-      message(7, "ident: can't send  to %s ret=%d err=%d buf=%s", (const void *)addr, ret, *return_value___errno_location$14, (const void *)buf);
+      return_value___errno_location_14=__errno_location();
+      message(7, "ident: can't send  to %s ret=%d err=%d buf=%s", (const void *)addr, ret, *return_value___errno_location_14, (const void *)buf);
     }
 
 
@@ -11453,12 +11453,12 @@ signed int getident(char *str, struct sockaddr *sa, unsigned int salen, signed i
         goto error;
       }
 
-      return_value_epoll_wait$15=epoll_wait(epfd, evs, 1, 1000);
+      return_value_epoll_wait_15=epoll_wait(epfd, evs, 1, 1000);
     }
-    while(return_value_epoll_wait$15 == 0);
-    signed long int return_value_recv$16;
-    return_value_recv$16=recv(sd, (void *)buf, (unsigned long int)1024, 0);
-    ret = (signed int)return_value_recv$16;
+    while(return_value_epoll_wait_15 == 0);
+    signed long int return_value_recv_16;
+    return_value_recv_16=recv(sd, (void *)buf, (unsigned long int)1024, 0);
+    ret = (signed int)return_value_recv_16;
     if(!(ret >= 1))
     {
       if(Debug >= 1)
@@ -11484,8 +11484,8 @@ signed int getident(char *str, struct sockaddr *sa, unsigned int salen, signed i
   if(Debug >= 3)
     message(7, "ident: sent %s:%d, %d got %s", (const void *)addr, sport, cport, (const void *)buf);
 
-  _Bool tmp_if_expr$17;
-  char *tmp_post$18;
+  _Bool tmp_if_expr_17;
+  char *tmp_post_18;
   if(!(str == ((char *)NULL)))
   {
     char *p;
@@ -11500,16 +11500,16 @@ signed int getident(char *str, struct sockaddr *sa, unsigned int salen, signed i
       do
       {
         if(!(i >= 127))
-          tmp_if_expr$17 = *p != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_17 = *p != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$17 = (_Bool)0;
-        if(!tmp_if_expr$17)
+          tmp_if_expr_17 = (_Bool)0;
+        if(!tmp_if_expr_17)
           break;
 
-        tmp_post$18 = p;
+        tmp_post_18 = p;
         p = p + 1l;
-        str[(signed long int)i] = *tmp_post$18;
+        str[(signed long int)i] = *tmp_post_18;
         i = i + 1;
       }
       while((_Bool)1);
@@ -11525,15 +11525,15 @@ signed int getident(char *str, struct sockaddr *sa, unsigned int salen, signed i
 // file stone.c line 1410
 signed int getport(struct sockaddr *sa)
 {
-  unsigned short int tmp_statement_expression$1;
-  unsigned short int tmp_statement_expression$2;
+  unsigned short int tmp_statement_expression_1;
+  unsigned short int tmp_statement_expression_2;
   if((signed int)sa->sa_family == 2)
   {
-    unsigned short int getport$$1$$1$$1$$__v;
-    unsigned short int getport$$1$$1$$1$$__x = (unsigned short int)((struct sockaddr_in *)sa)->sin_port;
-    asm("rorw $8, %w0" : "=r"(getport$$1$$1$$1$$__v) : "0"(getport$$1$$1$$1$$__x) : "cc");
-    tmp_statement_expression$1 = getport$$1$$1$$1$$__v;
-    return (signed int)tmp_statement_expression$1;
+    unsigned short int getport__1__1__1____v;
+    unsigned short int getport__1__1__1____x = (unsigned short int)((struct sockaddr_in *)sa)->sin_port;
+    asm("rorw _8, %w0" : "=r"(getport__1__1__1____v) : "0"(getport__1__1__1____x) : "cc");
+    tmp_statement_expression_1 = getport__1__1__1____v;
+    return (signed int)tmp_statement_expression_1;
   }
 
   else
@@ -11541,9 +11541,9 @@ signed int getport(struct sockaddr *sa)
     {
       unsigned short int __v;
       unsigned short int __x = (unsigned short int)((struct sockaddr_in6 *)sa)->sin6_port;
-      asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-      tmp_statement_expression$2 = __v;
-      return (signed int)tmp_statement_expression$2;
+      asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+      tmp_statement_expression_2 = __v;
+      return (signed int)tmp_statement_expression_2;
     }
 
   return -1;
@@ -11567,9 +11567,9 @@ static signed int gettoken(struct _IO_FILE *fp, char *buf)
 
     else
     {
-      const unsigned short int **return_value___ctype_b_loc$1;
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)c]) == 0)
+      const unsigned short int **return_value___ctype_b_loc_1;
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)c]) == 0)
       {
         ungetc(c, fp);
         break;
@@ -11578,8 +11578,8 @@ static signed int gettoken(struct _IO_FILE *fp, char *buf)
     }
   }
   while((_Bool)1);
-  const unsigned short int **return_value___ctype_b_loc$3;
-  signed int tmp_post$4;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  signed int tmp_post_4;
   while(!(i >= 2048))
   {
     c=_IO_getc(fp);
@@ -11595,9 +11595,9 @@ static signed int gettoken(struct _IO_FILE *fp, char *buf)
     {
       if(c == 36)
       {
-        signed int return_value_getvar$2;
-        return_value_getvar$2=getvar(fp, &buf[(signed long int)i], (2048 - 1) - i);
-        i = i + return_value_getvar$2;
+        signed int return_value_getvar_2;
+        return_value_getvar_2=getvar(fp, &buf[(signed long int)i], (2048 - 1) - i);
+        i = i + return_value_getvar_2;
         continue;
       }
 
@@ -11645,8 +11645,8 @@ static signed int gettoken(struct _IO_FILE *fp, char *buf)
 
       else
       {
-        return_value___ctype_b_loc$3=__ctype_b_loc();
-        if(!((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)c]) == 0))
+        return_value___ctype_b_loc_3=__ctype_b_loc();
+        if(!((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)c]) == 0))
         {
           c=_IO_getc(fp);
           if(!(c == 58) && !(c == 61))
@@ -11665,9 +11665,9 @@ static signed int gettoken(struct _IO_FILE *fp, char *buf)
           }
 
       }
-    tmp_post$4 = i;
+    tmp_post_4 = i;
     i = i + 1;
-    buf[(signed long int)tmp_post$4] = (char)c;
+    buf[(signed long int)tmp_post_4] = (char)c;
   }
   buf[(signed long int)i] = (char)0;
   return i;
@@ -11692,8 +11692,8 @@ static signed int getvar(struct _IO_FILE *fp, char *buf, signed int bufmax)
 
     else
       ungetc(c, fp);
-  const unsigned short int **return_value___ctype_b_loc$2;
-  signed int tmp_post$1;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  signed int tmp_post_1;
   do
   {
     c=_IO_getc(fp);
@@ -11708,12 +11708,12 @@ static signed int getvar(struct _IO_FILE *fp, char *buf, signed int bufmax)
 
     else
     {
-      return_value___ctype_b_loc$2=__ctype_b_loc();
-      if(c == 95 || !((8 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)c]) == 0))
+      return_value___ctype_b_loc_2=__ctype_b_loc();
+      if(c == 95 || !((8 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)c]) == 0))
       {
-        tmp_post$1 = i;
+        tmp_post_1 = i;
         i = i + 1;
-        var[(signed long int)tmp_post$1] = (char)c;
+        var[(signed long int)tmp_post_1] = (char)c;
       }
 
       else
@@ -11736,9 +11736,9 @@ static signed int getvar(struct _IO_FILE *fp, char *buf, signed int bufmax)
 
     else
     {
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(val);
-      i = (signed int)return_value_strlen$3;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(val);
+      i = (signed int)return_value_strlen_3;
       if(!(bufmax >= i))
         i = bufmax;
 
@@ -11795,9 +11795,9 @@ static void handler(signed int sig)
         if(LogFp == ((struct _IO_FILE *)NULL))
         {
           LogFp = stderr;
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          message(3, "Can't re-create log file: %s err=%d", LogFileName, *return_value___errno_location$1);
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          message(3, "Can't re-create log file: %s err=%d", LogFileName, *return_value___errno_location_1);
           exit(1);
         }
 
@@ -11810,9 +11810,9 @@ static void handler(signed int sig)
         AccFp=fopen(AccFileName, "a");
         if(AccFp == ((struct _IO_FILE *)NULL))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          message(3, "Can't re-create account log file: %s err=%d", AccFileName, *return_value___errno_location$2);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          message(3, "Can't re-create account log file: %s err=%d", AccFileName, *return_value___errno_location_2);
           exit(1);
         }
 
@@ -11893,13 +11893,13 @@ static void handler(signed int sig)
       if(!(CoreDumpDir == ((char *)NULL)))
       {
         message(3, "Signal %d, core dumping to %s", sig, CoreDumpDir);
-        signed int return_value_chdir$4;
-        return_value_chdir$4=chdir(CoreDumpDir);
-        if(!(return_value_chdir$4 >= 0))
+        signed int return_value_chdir_4;
+        return_value_chdir_4=chdir(CoreDumpDir);
+        if(!(return_value_chdir_4 >= 0))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          message(3, "Can't chdir to %s err=%d", CoreDumpDir, *return_value___errno_location$3);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          message(3, "Can't chdir to %s err=%d", CoreDumpDir, *return_value___errno_location_3);
         }
 
         else
@@ -11966,29 +11966,29 @@ signed int healthCheck(struct sockaddr *sa, unsigned int salen, signed int proto
   sd=socket((signed int)sa->sa_family, 1, 6);
   if(!(sd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    message(3, "health check: can't create socket err=%d", *return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    message(3, "health check: can't create socket err=%d", *return_value___errno_location_1);
     return 1;
   }
 
   epfd=epoll_create(50);
   if(!(epfd >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    message(3, "health check: can't create epoll err=%d", *return_value___errno_location$2);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    message(3, "health check: can't create epoll err=%d", *return_value___errno_location_2);
     return 1;
   }
 
   ev.events = (unsigned int)(4 | 1073741824);
-  signed int return_value_epoll_ctl$4;
-  return_value_epoll_ctl$4=epoll_ctl(epfd, 1, sd, &ev);
-  if(!(return_value_epoll_ctl$4 >= 0))
+  signed int return_value_epoll_ctl_4;
+  return_value_epoll_ctl_4=epoll_ctl(epfd, 1, sd, &ev);
+  if(!(return_value_epoll_ctl_4 >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    message(3, "health check: epoll_ctl ADD err=%d", *return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    message(3, "health check: epoll_ctl ADD err=%d", *return_value___errno_location_3);
     close(epfd);
     return 1;
   }
@@ -11998,12 +11998,12 @@ signed int healthCheck(struct sockaddr *sa, unsigned int salen, signed int proto
     fcntl(sd, 4, 04000);
 
   ret=connect(sd, sa, salen);
-  signed int return_value_epoll_wait$5;
+  signed int return_value_epoll_wait_5;
   if(!(ret >= 0))
   {
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    if(*return_value___errno_location$7 == 115)
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    if(*return_value___errno_location_7 == 115)
     {
       signed int optval;
       unsigned int optlen = (unsigned int)sizeof(signed int) /*4ul*/ ;
@@ -12013,9 +12013,9 @@ signed int healthCheck(struct sockaddr *sa, unsigned int salen, signed int proto
         if(now + -start >= (signed long int)timeout)
           goto timeout;
 
-        return_value_epoll_wait$5=epoll_wait(epfd, evs, 1, 1000);
+        return_value_epoll_wait_5=epoll_wait(epfd, evs, 1, 1000);
       }
-      while(return_value_epoll_wait$5 == 0);
+      while(return_value_epoll_wait_5 == 0);
       getsockopt(sd, 1, 4, (void *)(char *)&optval, &optlen);
       if(!(optval == 0))
       {
@@ -12029,16 +12029,16 @@ signed int healthCheck(struct sockaddr *sa, unsigned int salen, signed int proto
     else
     {
       addrport2strOnce(sa, salen, proto & (proto_ohttp_d | proto_base_d | proto_command), addrport, 127, 0);
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      message(3, "health check: connect %s err=%d", (const void *)addrport, *return_value___errno_location$6);
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      message(3, "health check: connect %s err=%d", (const void *)addrport, *return_value___errno_location_6);
       goto fail;
     }
   }
 
   time(&now);
-  _Bool tmp_if_expr$10;
-  signed int return_value_epoll_wait$11;
+  _Bool tmp_if_expr_10;
+  signed int return_value_epoll_wait_11;
   if(!(now + -start >= (signed long int)timeout))
   {
     while(!(chat == ((struct _Chat *)NULL)))
@@ -12046,20 +12046,20 @@ signed int healthCheck(struct sockaddr *sa, unsigned int salen, signed int proto
       char buf[2048l];
       signed int len;
       signed int err;
-      signed long int return_value_send$8;
-      return_value_send$8=send(sd, (const void *)chat->send, (unsigned long int)chat->len, 0);
-      ret = (signed int)return_value_send$8;
+      signed long int return_value_send_8;
+      return_value_send_8=send(sd, (const void *)chat->send, (unsigned long int)chat->len, 0);
+      ret = (signed int)return_value_send_8;
       if(!(ret >= 0))
-        tmp_if_expr$10 = (_Bool)1;
+        tmp_if_expr_10 = (_Bool)1;
 
       else
-        tmp_if_expr$10 = ret != chat->len ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$10)
+        tmp_if_expr_10 = ret != chat->len ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_10)
       {
         addrport2strOnce(sa, salen, proto & (proto_ohttp_d | proto_base_d | proto_command), addrport, 127, 0);
-        signed int *return_value___errno_location$9;
-        return_value___errno_location$9=__errno_location();
-        message(3, "health check: send %s err=%d", (const void *)addrport, *return_value___errno_location$9);
+        signed int *return_value___errno_location_9;
+        return_value___errno_location_9=__errno_location();
+        message(3, "health check: send %s err=%d", (const void *)addrport, *return_value___errno_location_9);
         goto fail;
       }
 
@@ -12074,24 +12074,24 @@ signed int healthCheck(struct sockaddr *sa, unsigned int salen, signed int proto
           if(now + -start >= (signed long int)timeout)
             goto timeout;
 
-          return_value_epoll_wait$11=epoll_wait(epfd, evs, 1, 1000);
+          return_value_epoll_wait_11=epoll_wait(epfd, evs, 1, 1000);
         }
-        while(return_value_epoll_wait$11 == 0);
-        signed long int return_value_recv$12;
-        return_value_recv$12=recv(sd, (void *)(buf + (signed long int)len), (unsigned long int)((2048 - 1) - len), 0);
-        ret = (signed int)return_value_recv$12;
+        while(return_value_epoll_wait_11 == 0);
+        signed long int return_value_recv_12;
+        return_value_recv_12=recv(sd, (void *)(buf + (signed long int)len), (unsigned long int)((2048 - 1) - len), 0);
+        ret = (signed int)return_value_recv_12;
         if(!(ret >= 0))
         {
           addrport2strOnce(sa, salen, proto & (proto_ohttp_d | proto_base_d | proto_command), addrport, 127, 0);
-          signed int *return_value___errno_location$13;
-          return_value___errno_location$13=__errno_location();
-          message(3, "health check: recv from %s err=%d", (const void *)addrport, *return_value___errno_location$13);
+          signed int *return_value___errno_location_13;
+          return_value___errno_location_13=__errno_location();
+          message(3, "health check: recv from %s err=%d", (const void *)addrport, *return_value___errno_location_13);
           goto fail;
         }
 
         len = len + ret;
         buf[(signed long int)len] = (char)0;
-        err=regexec(&chat->expect, buf, (unsigned long int)0, (struct anonymous$19 *)(void *)0, 0);
+        err=regexec(&chat->expect, buf, (unsigned long int)0, (struct anonymous_19 *)(void *)0, 0);
         if(Debug >= 9)
         {
           addrport2strOnce(sa, salen, proto & (proto_ohttp_d | proto_base_d | proto_command), addrport, 127, 0);
@@ -12167,17 +12167,17 @@ signed int healthFREE(struct _Pair *pair, char *parm, signed int start)
 signed int healthHELO(struct _Pair *pair, char *parm, signed int start)
 {
   char str[1025l];
-  signed int return_value_nStones$1;
-  return_value_nStones$1=nStones();
-  signed int return_value_nPairs$2;
-  return_value_nPairs$2=nPairs(PairTop);
-  signed int return_value_nPairs$3;
-  return_value_nPairs$3=nPairs(trash.next);
-  signed int return_value_nConns$4;
-  return_value_nConns$4=nConns();
-  signed int return_value_nOrigins$5;
-  return_value_nOrigins$5=nOrigins();
-  snprintf(str, (unsigned long int)1024, "stone=%d pair=%d trash=%d conn=%d origin=%d", return_value_nStones$1, return_value_nPairs$2, return_value_nPairs$3, return_value_nConns$4, return_value_nOrigins$5);
+  signed int return_value_nStones_1;
+  return_value_nStones_1=nStones();
+  signed int return_value_nPairs_2;
+  return_value_nPairs_2=nPairs(PairTop);
+  signed int return_value_nPairs_3;
+  return_value_nPairs_3=nPairs(trash.next);
+  signed int return_value_nConns_4;
+  return_value_nConns_4=nConns();
+  signed int return_value_nOrigins_5;
+  return_value_nOrigins_5=nOrigins();
+  snprintf(str, (unsigned long int)1024, "stone=%d pair=%d trash=%d conn=%d origin=%d", return_value_nStones_1, return_value_nPairs_2, return_value_nPairs_3, return_value_nConns_4, return_value_nOrigins_5);
   str[(signed long int)1024] = (char)0;
   if(!(Debug == 0))
     message(7, ": HELO %s: %s", parm, (const void *)str);
@@ -12199,11 +12199,11 @@ signed int healthLIMIT(struct _Pair *pair, char *parm, signed int start)
       break;
 
   }
-  signed int return_value_limitErr$1;
+  signed int return_value_limitErr_1;
   if(q == ((char *)NULL))
   {
-    return_value_limitErr$1=limitErr(pair, parm, start);
-    return return_value_limitErr$1;
+    return_value_limitErr_1=limitErr(pair, parm, start);
+    return return_value_limitErr_1;
   }
 
   else
@@ -12247,18 +12247,18 @@ signed int healthSTONE(struct _Pair *pair, char *parm, signed int start)
   struct _Stone *stone;
   char str[128l];
   stone = stones;
-  char *return_value_stone2str$1;
+  char *return_value_stone2str_1;
   for( ; !(stone == ((struct _Stone *)NULL)); stone = stone->next)
   {
     struct _Stone *child = stone->children;
     for( ; !(child == ((struct _Stone *)NULL)); child = child->children)
     {
-      return_value_stone2str$1=stone2str(child, str, 127);
-      commOutput(pair, "200-%s\n", return_value_stone2str$1);
+      return_value_stone2str_1=stone2str(child, str, 127);
+      commOutput(pair, "200-%s\n", return_value_stone2str_1);
     }
-    char *return_value_stone2str$2;
-    return_value_stone2str$2=stone2str(stone, str, 127);
-    commOutput(pair, "200%c%s\n", stone->next != ((struct _Stone *)NULL) ? 45 : 32, return_value_stone2str$2);
+    char *return_value_stone2str_2;
+    return_value_stone2str_2=stone2str(stone, str, 127);
+    commOutput(pair, "200%c%s\n", stone->next != ((struct _Stone *)NULL) ? 45 : 32, return_value_stone2str_2);
   }
   return -2;
 }
@@ -12270,9 +12270,9 @@ void help(char *com, char *sub)
   message(6, "stone %s  http://www.gcd.org/sengoku/stone/", (const void *)"2.3e");
   message(6, "%s", (const void *)"Copyright(C)2007 by Hiroaki Sengoku <sengoku@gcd.org>");
   message(6, "%s", (const void *)"using OpenSSL 1.0.2e 3 Dec 2015  http://www.openssl.org/");
-  signed int tmp_statement_expression$5;
-  signed int tmp_statement_expression$3;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_5;
+  signed int tmp_statement_expression_3;
+  signed int tmp_statement_expression_1;
   if(sub == ((char *)NULL))
   {
 
@@ -12283,32 +12283,32 @@ void help(char *com, char *sub)
 
   else
   {
-    unsigned long int help$$1$$2$$__s1_len;
-    unsigned long int help$$1$$2$$__s2_len;
-    signed int return_value___builtin_strcmp$6;
-    return_value___builtin_strcmp$6=__builtin_strcmp(sub, "opt");
-    tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-    if(tmp_statement_expression$5 == 0)
+    unsigned long int help__1__2____s1_len;
+    unsigned long int help__1__2____s2_len;
+    signed int return_value___builtin_strcmp_6;
+    return_value___builtin_strcmp_6=__builtin_strcmp(sub, "opt");
+    tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+    if(tmp_statement_expression_5 == 0)
       fprintf(stderr, "Usage: %s <opt>... <stone> [-- <stone>]...\nopt:  -C <file>         ; configuration file\n      -P <command>      ; preprocessor for config. file\n      -Q <options>      ; options for preprocessor\n      -N                ; configuration check only\n      -d                ; increase debug level\n      -p                ; packet dump\n      -n                ; numerical address\n      -u <max>          ; # of UDP sessions\n      -f <n>            ; # of child processes\n      -l                ; use syslog\n      -ll               ; run under daemontools\n      -L <file>         ; write log to <file>\n      -a <file>         ; write accounting to <file>\n      -i <file>         ; write process ID to <file>\n      -X <n>            ; size [byte] of Xfer buffer\n      -T <n>            ; timeout [sec] of TCP sessions\n      -A <n>            ; length of backlog\n      -r                ; reuse socket\n      -x <port>[,<port>][-<port>]... <xhost> --\n                        ; permit connecting to <xhost>:<port>\n      -s <send> <expect>... --\n                        ; health check script\n      -b <n> <master>:<port> <backup>:<port>\n                        ; check <master>:<port> every <n> sec\n                        ; use <backup>:<port>, if check failed\n      -B <host>:<port>... --\n                        ; load balancing hosts\n      -I <host>         ; local end of its connections to\n      -o <n>            ; set uid to <n>\n      -g <n>            ; set gid to <n>\n      -t <dir>          ; chroot to <dir>\n      -D                ; become UNIX Daemon\n      -c <dir>          ; core dump to <dir>\n      -q <SSL>          ; SSL client option\n      -z <SSL>          ; SSL server option\n                        ; `-h ssl' for <SSL>\n", com);
 
     else
     {
-      unsigned long int help$$1$$4$$__s1_len;
-      unsigned long int help$$1$$4$$__s2_len;
-      signed int return_value___builtin_strcmp$4;
-      return_value___builtin_strcmp$4=__builtin_strcmp(sub, "stone");
-      tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-      if(tmp_statement_expression$3 == 0)
+      unsigned long int help__1__4____s1_len;
+      unsigned long int help__1__4____s2_len;
+      signed int return_value___builtin_strcmp_4;
+      return_value___builtin_strcmp_4=__builtin_strcmp(sub, "stone");
+      tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+      if(tmp_statement_expression_3 == 0)
         fprintf(stderr, "Usage: %s <opt>... <stone> [-- <stone>]...\nstone: <host>:<port> <sport> [<xhost>...]\n       proxy[/[v4only | v6only]] <sport> [<xhost>...]\n       health <sport> [<xhost>...]\n       identd <sport> [<xhost>...]\n       <host>:<port#>/http <sport> <Request-Line> [<xhost>...]\n       <host>:<port#>/proxy <sport> <header> [<xhost>...]\n       <host>:<port#>/mproxy <sport> <header> [<xhost>...]\nport:  <port#>[/<ext>[,<ext>]...]\next:   tcp | udp | ssl | v6 | base | block | nobackup\nsport: [<host>:]<port#>[/<exts>[,<exts>]...]\nexts:  tcp | udp | ssl | v6 | v6only | http | base | block | ident\nxhost: <host>[/<ex>[,<ex>]...]\nex:    <#bits> | p<mode#> | v6\n", com);
 
       else
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$2;
-        return_value___builtin_strcmp$2=__builtin_strcmp(sub, "ssl");
-        tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-        if(tmp_statement_expression$1 == 0)
+        signed int return_value___builtin_strcmp_2;
+        return_value___builtin_strcmp_2=__builtin_strcmp(sub, "ssl");
+        tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+        if(tmp_statement_expression_1 == 0)
           fprintf(stderr, "opt:  -q <SSL>            ; SSL client option\n      -z <SSL>            ; SSL server option\nSSL:   default            ; reset to default\n       verbose            ; verbose mode\n       verify             ; require peer's certificate\n       verify,once        ; verify client's certificate only once\n       verify,ifany       ; verify client's certificate if any\n       verify,none        ; don't require peer's certificate\n       crl_check          ; lookup CRLs\n       crl_check_all      ; lookup CRLs for whole chain\n       uniq               ; check serial # of peer's certificate\n       re<n>=<regex>      ; verify depth <n> with <regex>\n       depth=<n>          ; set verification depth to <n>\n       tls1               ; just use TLSv1\n       no_tls1            ; turn off TLSv1\n       no_ssl3            ; turn off SSLv3\n       no_ssl2            ; turn off SSLv2\n       sni                ; Server Name Indication\n       servername=<str>   ; Server Name\n       bugs               ; SSL implementation bug workarounds\n       serverpref         ; use server's cipher preferences (SSLv2)\n       shutdown=<mode>    ; accurate, nowait, unclean\n       sid_ctx=<str>      ; set session ID context\n       passfile=<file>    ; password file\n       passfilepat=<file> ; password file pattern\n       key=<file>         ; key file\n       keypat=<file>      ; key file pattern\n       cert=<file>        ; certificate file\n       certpat=<file>     ; certificate file pattern\n       certkey=<file>     ; certificate & key file\n       certkeypat=<file>  ; certificate & key file pattern\n       CAfile=<file>      ; certificate file of CA\n       CApath=<dir>       ; dir of CAs\n       pfx=<file>         ; PKCS#12 file\n       pfxpat=<file>      ; PKCS#12 file pattern\n       cipher=<ciphers>   ; list of ciphers\n       lb<n>=<m>          ; load balancing based on CN\n");
 
         else
@@ -12347,9 +12347,9 @@ signed int host2sa(char *name, char *serv, struct sockaddr *sa, unsigned int *sa
   err=getaddrinfo(name, serv, &hint, &ai);
   if(!(err == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    message(3, "getaddrinfo for %s:%s failed err=%d errno=%d", name != ((char *)NULL) ? name : "", serv != ((char *)NULL) ? serv : "", err, *return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    message(3, "getaddrinfo for %s:%s failed err=%d errno=%d", name != ((char *)NULL) ? name : "", serv != ((char *)NULL) ? serv : "", err, *return_value___errno_location_1);
 
   fail:
     ;
@@ -12385,7 +12385,7 @@ signed int hostPort2sa(char *str, struct sockaddr *sa, unsigned int *salenp, sig
   char port[128l];
   signed int pos;
   pos=hostPortExt(str, host, port);
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   if(!(pos >= 0))
     return 0;
 
@@ -12395,17 +12395,17 @@ signed int hostPort2sa(char *str, struct sockaddr *sa, unsigned int *salenp, sig
     {
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$2;
-      return_value___builtin_strcmp$2=__builtin_strcmp(str + (signed long int)pos, "v6");
-      tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-      if(tmp_statement_expression$1 == 0)
+      signed int return_value___builtin_strcmp_2;
+      return_value___builtin_strcmp_2=__builtin_strcmp(str + (signed long int)pos, "v6");
+      tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+      if(tmp_statement_expression_1 == 0)
         sa->sa_family = (unsigned short int)10;
 
     }
 
-    signed int return_value_host2sa$3;
-    return_value_host2sa$3=host2sa(host, port, sa, salenp, (signed int *)(void *)0, (signed int *)(void *)0, flags);
-    return return_value_host2sa$3;
+    signed int return_value_host2sa_3;
+    return_value_host2sa_3=host2sa(host, port, sa, salenp, (signed int *)(void *)0, (signed int *)(void *)0, flags);
+    return return_value_host2sa_3;
   }
 }
 
@@ -12416,15 +12416,15 @@ signed int hostPortExt(char *str, char *host, char *port)
   signed int port_pos = 0;
   signed int ext_pos = 0;
   signed int i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(i >= 127))
-      tmp_if_expr$1 = str[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = str[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     host[(signed long int)i] = str[(signed long int)i];
@@ -12462,16 +12462,16 @@ static signed int hostcheck(struct _Pair *pair, struct x509_st *cert, char *host
   char name[1025l];
   signed int i;
   i=X509_get_ext_by_NID(cert, 85, -1);
-  void *return_value_X509V3_EXT_d2i$5;
-  _Bool tmp_if_expr$2;
-  signed int return_value_sk_num$1;
+  void *return_value_X509V3_EXT_d2i_5;
+  _Bool tmp_if_expr_2;
+  signed int return_value_sk_num_1;
   if(i >= 0)
   {
     ext=X509_get_ext(cert, i);
     if(!(ext == ((struct X509_extension_st *)NULL)))
     {
-      return_value_X509V3_EXT_d2i$5=X509V3_EXT_d2i(ext);
-      ialt = (struct stack_st_GENERAL_NAME *)return_value_X509V3_EXT_d2i$5;
+      return_value_X509V3_EXT_d2i_5=X509V3_EXT_d2i(ext);
+      ialt = (struct stack_st_GENERAL_NAME *)return_value_X509V3_EXT_d2i_5;
       if(!(ialt == ((struct stack_st_GENERAL_NAME *)NULL)))
       {
         signed int done = 0;
@@ -12480,19 +12480,19 @@ static signed int hostcheck(struct _Pair *pair, struct x509_st *cert, char *host
         {
           if(done == 0)
           {
-            return_value_sk_num$1=sk_num((struct stack_st *)(1 != 0 ? ialt : (struct stack_st_GENERAL_NAME *)0));
-            tmp_if_expr$2 = i < return_value_sk_num$1 ? (_Bool)1 : (_Bool)0;
+            return_value_sk_num_1=sk_num((struct stack_st *)(1 != 0 ? ialt : (struct stack_st_GENERAL_NAME *)0));
+            tmp_if_expr_2 = i < return_value_sk_num_1 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          if(!tmp_if_expr$2)
+            tmp_if_expr_2 = (_Bool)0;
+          if(!tmp_if_expr_2)
             break;
 
           struct GENERAL_NAME_st *gen;
-          void *return_value_sk_value$3;
-          return_value_sk_value$3=sk_value((struct stack_st *)(1 != 0 ? ialt : (struct stack_st_GENERAL_NAME *)0), i);
-          gen = (struct GENERAL_NAME_st *)return_value_sk_value$3;
+          void *return_value_sk_value_3;
+          return_value_sk_value_3=sk_value((struct stack_st *)(1 != 0 ? ialt : (struct stack_st_GENERAL_NAME *)0), i);
+          gen = (struct GENERAL_NAME_st *)return_value_sk_value_3;
           if(gen->type == 2)
           {
             if(!(gen->d.ia5 == ((struct asn1_string_st *)NULL)))
@@ -12503,9 +12503,9 @@ static signed int hostcheck(struct _Pair *pair, struct x509_st *cert, char *host
 
               __builtin_strncpy(name, (char *)gen->d.ia5->data, (unsigned long int)len);
               name[(signed long int)len] = (char)0;
-              signed int return_value_hostcmp$4;
-              return_value_hostcmp$4=hostcmp(name, host);
-              if(return_value_hostcmp$4 == 0)
+              signed int return_value_hostcmp_4;
+              return_value_hostcmp_4=hostcmp(name, host);
+              if(return_value_hostcmp_4 == 0)
               {
                 if(Debug >= 5)
                   message(7, "match %s dNSName=%s", host, (const void *)name);
@@ -12535,15 +12535,15 @@ static signed int hostcheck(struct _Pair *pair, struct x509_st *cert, char *host
 
   }
 
-  struct X509_name_st *return_value_X509_get_subject_name$7;
-  return_value_X509_get_subject_name$7=X509_get_subject_name(cert);
-  signed int return_value_X509_NAME_get_text_by_NID$8;
-  return_value_X509_NAME_get_text_by_NID$8=X509_NAME_get_text_by_NID(return_value_X509_get_subject_name$7, 13, name, (signed int)sizeof(char [1025l]) /*1025ul*/ );
-  if(return_value_X509_NAME_get_text_by_NID$8 >= 0)
+  struct X509_name_st *return_value_X509_get_subject_name_7;
+  return_value_X509_get_subject_name_7=X509_get_subject_name(cert);
+  signed int return_value_X509_NAME_get_text_by_NID_8;
+  return_value_X509_NAME_get_text_by_NID_8=X509_NAME_get_text_by_NID(return_value_X509_get_subject_name_7, 13, name, (signed int)sizeof(char [1025l]) /*1025ul*/ );
+  if(return_value_X509_NAME_get_text_by_NID_8 >= 0)
   {
-    signed int return_value_hostcmp$6;
-    return_value_hostcmp$6=hostcmp(name, host);
-    if(return_value_hostcmp$6 == 0)
+    signed int return_value_hostcmp_6;
+    return_value_hostcmp_6=hostcmp(name, host);
+    if(return_value_hostcmp_6 == 0)
     {
       if(Debug >= 5)
         message(7, "match %s CN=%s", host, (const void *)name);
@@ -12565,14 +12565,14 @@ static signed int hostcmp(char *pat, char *host)
 {
   char a;
   char b;
-  signed int tmp_statement_expression$1;
-  signed int tmp_if_expr$3;
-  const signed int **return_value___ctype_toupper_loc$2;
-  const signed int **return_value___ctype_toupper_loc$4;
-  signed int tmp_statement_expression$5;
-  signed int tmp_if_expr$7;
-  const signed int **return_value___ctype_toupper_loc$6;
-  const signed int **return_value___ctype_toupper_loc$8;
+  signed int tmp_statement_expression_1;
+  signed int tmp_if_expr_3;
+  const signed int **return_value___ctype_toupper_loc_2;
+  const signed int **return_value___ctype_toupper_loc_4;
+  signed int tmp_statement_expression_5;
+  signed int tmp_if_expr_7;
+  const signed int **return_value___ctype_toupper_loc_6;
+  const signed int **return_value___ctype_toupper_loc_8;
   for( ; !(*pat == 0); host = host + 1l)
   {
     if((signed int)*pat == 42)
@@ -12585,15 +12585,15 @@ static signed int hostcmp(char *pat, char *host)
     }
 
     signed int __res;
-    return_value___ctype_toupper_loc$4=__ctype_toupper_loc();
-    __res = (*return_value___ctype_toupper_loc$4)[(signed long int)(signed int)*pat];
-    tmp_statement_expression$1 = __res;
-    a = (char)tmp_statement_expression$1;
-    signed int hostcmp$$1$$1$$3$$__res;
-    return_value___ctype_toupper_loc$8=__ctype_toupper_loc();
-    hostcmp$$1$$1$$3$$__res = (*return_value___ctype_toupper_loc$8)[(signed long int)(signed int)*host];
-    tmp_statement_expression$5 = hostcmp$$1$$1$$3$$__res;
-    b = (char)tmp_statement_expression$5;
+    return_value___ctype_toupper_loc_4=__ctype_toupper_loc();
+    __res = (*return_value___ctype_toupper_loc_4)[(signed long int)(signed int)*pat];
+    tmp_statement_expression_1 = __res;
+    a = (char)tmp_statement_expression_1;
+    signed int hostcmp__1__1__3____res;
+    return_value___ctype_toupper_loc_8=__ctype_toupper_loc();
+    hostcmp__1__1__3____res = (*return_value___ctype_toupper_loc_8)[(signed long int)(signed int)*host];
+    tmp_statement_expression_5 = hostcmp__1__1__3____res;
+    b = (char)tmp_statement_expression_5;
     if(!(a == b))
       return (signed int)a - (signed int)b;
 
@@ -12610,8 +12610,8 @@ struct _Pair * identd(signed int cport, struct sockaddr *ssa, unsigned int ssale
   struct sockaddr *sa = (struct sockaddr *)&ss;
   unsigned int salen;
   struct _Pair *pair = PairTop;
-  _Bool tmp_if_expr$2;
-  signed int return_value_getsockname$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_getsockname_1;
   for( ; !(pair == ((struct _Pair *)NULL)); pair = pair->next)
   {
     signed int sd;
@@ -12620,27 +12620,27 @@ struct _Pair * identd(signed int cport, struct sockaddr *ssa, unsigned int ssale
       sd = pair->sd;
       salen = (unsigned int)sizeof(struct sockaddr_storage) /*128ul*/ ;
       if(!(sd >= 0))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
       {
-        return_value_getsockname$1=getsockname(sd, sa, &salen);
-        tmp_if_expr$2 = return_value_getsockname$1 < 0 ? (_Bool)1 : (_Bool)0;
+        return_value_getsockname_1=getsockname(sd, sa, &salen);
+        tmp_if_expr_2 = return_value_getsockname_1 < 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$2)
+      if(!tmp_if_expr_2)
       {
-        signed int return_value_getport$3;
-        return_value_getport$3=getport(sa);
-        if(return_value_getport$3 == cport)
+        signed int return_value_getport_3;
+        return_value_getport_3=getport(sa);
+        if(return_value_getport_3 == cport)
         {
           salen = (unsigned int)sizeof(struct sockaddr_storage) /*128ul*/ ;
-          signed int return_value_getpeername$4;
-          return_value_getpeername$4=getpeername(sd, sa, &salen);
-          if(return_value_getpeername$4 >= 0)
+          signed int return_value_getpeername_4;
+          return_value_getpeername_4=getpeername(sd, sa, &salen);
+          if(return_value_getpeername_4 >= 0)
           {
-            signed int return_value_saComp$5;
-            return_value_saComp$5=saComp(sa, ssa);
-            if(!(return_value_saComp$5 == 0))
+            signed int return_value_saComp_5;
+            return_value_saComp_5=saComp(sa, ssa);
+            if(!(return_value_saComp_5 == 0))
               return pair;
 
           }
@@ -12667,28 +12667,28 @@ signed int identdQUERY(struct _Pair *pair, char *parm, signed int start)
   unsigned int salen = (unsigned int)sizeof(struct sockaddr_storage) /*128ul*/ ;
   struct _Pair *p = pair->pair;
   strcpy(mesg, "ERROR : NO-USER");
-  _Bool tmp_if_expr$3;
-  signed int return_value_getpeername$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_getpeername_2;
   if(!(p == ((struct _Pair *)NULL)))
   {
     signed int sd = p->sd;
-    signed int return_value_sscanf$1;
-    return_value_sscanf$1=sscanf(parm, "%d,%d", &cport, &sport);
-    if(return_value_sscanf$1 == 2 && sd >= 0)
+    signed int return_value_sscanf_1;
+    return_value_sscanf_1=sscanf(parm, "%d,%d", &cport, &sport);
+    if(return_value_sscanf_1 == 2 && sd >= 0)
     {
-      return_value_getpeername$2=getpeername(sd, sa, &salen);
-      tmp_if_expr$3 = return_value_getpeername$2 >= 0 ? (_Bool)1 : (_Bool)0;
+      return_value_getpeername_2=getpeername(sd, sa, &salen);
+      tmp_if_expr_3 = return_value_getpeername_2 >= 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
     {
       if(Debug >= 9)
       {
-        char identdQUERY$$1$$1$$1$$1$$addrport[128l];
-        addrport2str(sa, salen, 0, identdQUERY$$1$$1$$1$$1$$addrport, 127, 0);
-        message(7, "%d TCP %d: identd query %d,%d from %s", pair->stone->sd, sd, cport, sport, (const void *)identdQUERY$$1$$1$$1$$1$$addrport);
+        char identdQUERY__1__1__1__1__addrport[128l];
+        addrport2str(sa, salen, 0, identdQUERY__1__1__1__1__addrport, 127, 0);
+        message(7, "%d TCP %d: identd query %d,%d from %s", pair->stone->sd, sd, cport, sport, (const void *)identdQUERY__1__1__1__1__addrport);
       }
 
       saPort(sa, (unsigned short int)sport);
@@ -12745,32 +12745,32 @@ void initialize(signed int argc, char **argv)
   PairIndex=SSL_get_ex_new_index((signed long int)0, (void *)"Pair index", (signed int (*)(void *, void *, struct crypto_ex_data_st *, signed int, signed long int, void *))(void *)0, (signed int (*)(struct crypto_ex_data_st *, struct crypto_ex_data_st *, void *, signed int, signed long int, void *))(void *)0, (void (*)(void *, void *, struct crypto_ex_data_st *, signed int, signed long int, void *))(void *)0);
   MatchIndex=SSL_SESSION_get_ex_new_index((signed long int)0, (void *)"Match index", newMatch, (signed int (*)(struct crypto_ex_data_st *, struct crypto_ex_data_st *, void *, signed int, signed long int, void *))(void *)0, freeMatch);
   RAND_poll();
-  signed int return_value_RAND_status$4;
-  return_value_RAND_status$4=RAND_status();
-  signed int return_value_RAND_status$2;
-  if(return_value_RAND_status$4 == 0)
+  signed int return_value_RAND_status_4;
+  return_value_RAND_status_4=RAND_status();
+  signed int return_value_RAND_status_2;
+  if(return_value_RAND_status_4 == 0)
   {
     message(4, "Can't collect enough random seeds");
-    signed long int return_value_time$1;
-    return_value_time$1=time((signed long int *)(void *)0);
-    srand((unsigned int)return_value_time$1);
+    signed long int return_value_time_1;
+    return_value_time_1=time((signed long int *)(void *)0);
+    srand((unsigned int)return_value_time_1);
     do
     {
       unsigned short int rnd;
-      signed int return_value_rand$3;
-      return_value_rand$3=rand();
-      rnd = (unsigned short int)return_value_rand$3;
+      signed int return_value_rand_3;
+      return_value_rand_3=rand();
+      rnd = (unsigned short int)return_value_rand_3;
       RAND_seed((const void *)&rnd, (signed int)sizeof(unsigned short int) /*2ul*/ );
-      return_value_RAND_status$2=RAND_status();
+      return_value_RAND_status_2=RAND_status();
     }
-    while(return_value_RAND_status$2 == 0);
+    while(return_value_RAND_status_2 == 0);
   }
 
   sslopts_default(&ServerOpts, 1);
   sslopts_default(&ClientOpts, 0);
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc((sizeof(struct _XHosts) /*32ul*/  - sizeof(struct sockaddr) /*16ul*/ ) + sizeof(struct sockaddr_storage) /*128ul*/ );
-  XHostsTrue = (struct _XHosts *)return_value_malloc$5;
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc((sizeof(struct _XHosts) /*32ul*/  - sizeof(struct sockaddr) /*16ul*/ ) + sizeof(struct sockaddr_storage) /*128ul*/ );
+  XHostsTrue = (struct _XHosts *)return_value_malloc_5;
   if(XHostsTrue == ((struct _XHosts *)NULL))
   {
     message(2, "Out of memory");
@@ -12843,9 +12843,9 @@ void initialize(signed int argc, char **argv)
   signal(8, handler);
   if(DryRun == 0 && !(NForks == 0))
   {
-    void *return_value_malloc$6;
-    return_value_malloc$6=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)NForks);
-    Pid = (signed int *)return_value_malloc$6;
+    void *return_value_malloc_6;
+    return_value_malloc_6=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)NForks);
+    Pid = (signed int *)return_value_malloc_6;
     if(Pid == ((signed int *)NULL))
     {
       message(2, "Out of memory");
@@ -12910,27 +12910,27 @@ void initialize(signed int argc, char **argv)
 
   pthread_attr_init(&thread_attr);
   pthread_attr_setdetachstate(&thread_attr, 1);
-  signed int return_value_sslthread_initialize$7;
-  return_value_sslthread_initialize$7=sslthread_initialize();
-  if(!(return_value_sslthread_initialize$7 >= 0))
+  signed int return_value_sslthread_initialize_7;
+  return_value_sslthread_initialize_7=sslthread_initialize();
+  if(!(return_value_sslthread_initialize_7 >= 0))
     message(3, "Fail to initialize SSL callback");
 
   if(!(RootDir == ((char *)NULL)))
   {
     char cwd[2048l];
     signed int len;
-    unsigned long int return_value_strlen$8;
-    return_value_strlen$8=strlen(RootDir);
-    len = (signed int)return_value_strlen$8;
+    unsigned long int return_value_strlen_8;
+    return_value_strlen_8=strlen(RootDir);
+    len = (signed int)return_value_strlen_8;
     getcwd(cwd, (unsigned long int)(2048 - 1));
-    signed int return_value_strncmp$9;
-    return_value_strncmp$9=strncmp(cwd, RootDir, (unsigned long int)len);
-    if(!(return_value_strncmp$9 == 0))
+    signed int return_value_strncmp_9;
+    return_value_strncmp_9=strncmp(cwd, RootDir, (unsigned long int)len);
+    if(!(return_value_strncmp_9 == 0))
       len = -1;
 
-    signed int return_value_chroot$12;
-    return_value_chroot$12=chroot(RootDir);
-    if(!(return_value_chroot$12 >= 0))
+    signed int return_value_chroot_12;
+    return_value_chroot_12=chroot(RootDir);
+    if(!(return_value_chroot_12 >= 0))
       message(4, "Can't change root directory to %s", RootDir);
 
     else
@@ -12939,82 +12939,82 @@ void initialize(signed int argc, char **argv)
         if(Debug >= 1)
           message(7, "cwd=%s is outside chroot=%s, so chdir /", (const void *)cwd, RootDir);
 
-        signed int return_value_chdir$11;
-        return_value_chdir$11=chdir("/");
-        if(!(return_value_chdir$11 >= 0))
+        signed int return_value_chdir_11;
+        return_value_chdir_11=chdir("/");
+        if(!(return_value_chdir_11 >= 0))
         {
-          signed int *return_value___errno_location$10;
-          return_value___errno_location$10=__errno_location();
-          message(4, "Can't change directory to chroot / err=%d", *return_value___errno_location$10);
+          signed int *return_value___errno_location_10;
+          return_value___errno_location_10=__errno_location();
+          message(4, "Can't change directory to chroot / err=%d", *return_value___errno_location_10);
         }
 
       }
 
   }
 
-  signed int return_value_fileno$13;
-  signed int return_value_fileno$14;
+  signed int return_value_fileno_13;
+  signed int return_value_fileno_14;
   if(!(SetGID == 0u) || !(SetUID == 0u))
   {
     if(!(AccFileName == ((char *)NULL)))
     {
-      return_value_fileno$13=fileno(AccFp);
-      fchown(return_value_fileno$13, SetUID, SetGID);
+      return_value_fileno_13=fileno(AccFp);
+      fchown(return_value_fileno_13, SetUID, SetGID);
     }
 
     if(!(LogFileName == ((char *)NULL)))
     {
-      return_value_fileno$14=fileno(LogFp);
-      fchown(return_value_fileno$14, SetUID, SetGID);
+      return_value_fileno_14=fileno(LogFp);
+      fchown(return_value_fileno_14, SetUID, SetGID);
     }
 
   }
 
-  signed int return_value_setgid$16;
-  _Bool tmp_if_expr$18;
-  signed int return_value_setgroups$17;
+  signed int return_value_setgid_16;
+  _Bool tmp_if_expr_18;
+  signed int return_value_setgroups_17;
   if(!(SetGID == 0u))
   {
-    return_value_setgid$16=setgid(SetGID);
-    if(!(return_value_setgid$16 >= 0))
-      tmp_if_expr$18 = (_Bool)1;
+    return_value_setgid_16=setgid(SetGID);
+    if(!(return_value_setgid_16 >= 0))
+      tmp_if_expr_18 = (_Bool)1;
 
     else
     {
-      return_value_setgroups$17=setgroups((unsigned long int)1, &SetGID);
-      tmp_if_expr$18 = return_value_setgroups$17 < 0 ? (_Bool)1 : (_Bool)0;
+      return_value_setgroups_17=setgroups((unsigned long int)1, &SetGID);
+      tmp_if_expr_18 = return_value_setgroups_17 < 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$18)
+    if(tmp_if_expr_18)
     {
-      signed int *return_value___errno_location$15;
-      return_value___errno_location$15=__errno_location();
-      message(4, "Can't set gid err=%d", *return_value___errno_location$15);
+      signed int *return_value___errno_location_15;
+      return_value___errno_location_15=__errno_location();
+      message(4, "Can't set gid err=%d", *return_value___errno_location_15);
     }
 
   }
 
-  signed int return_value_setuid$20;
+  signed int return_value_setuid_20;
   if(!(SetUID == 0u))
   {
-    return_value_setuid$20=setuid(SetUID);
-    if(!(return_value_setuid$20 >= 0))
+    return_value_setuid_20=setuid(SetUID);
+    if(!(return_value_setuid_20 >= 0))
     {
-      signed int *return_value___errno_location$19;
-      return_value___errno_location$19=__errno_location();
-      message(4, "Can't set uid err=%d", *return_value___errno_location$19);
+      signed int *return_value___errno_location_19;
+      return_value___errno_location_19=__errno_location();
+      message(4, "Can't set uid err=%d", *return_value___errno_location_19);
     }
 
   }
 
   if(!(CoreDumpDir == ((char *)NULL)) && (!(SetGID == 0u) || !(SetUID == 0u)))
   {
-    signed int return_value_prctl$22;
-    return_value_prctl$22=prctl(4, 1);
-    if(!(return_value_prctl$22 >= 0))
+    signed int return_value_prctl_22;
+    return_value_prctl_22=prctl(4, 1);
+    if(!(return_value_prctl_22 >= 0))
     {
-      signed int *return_value___errno_location$21;
-      return_value___errno_location$21=__errno_location();
-      message(3, "prctl err=%d", *return_value___errno_location$21);
+      signed int *return_value___errno_location_21;
+      return_value___errno_location_21=__errno_location();
+      message(3, "prctl err=%d", *return_value___errno_location_21);
     }
 
   }
@@ -13031,9 +13031,9 @@ void initialize(signed int argc, char **argv)
   ePollFd=epoll_create(50);
   if(!(ePollFd >= 0))
   {
-    signed int *return_value___errno_location$23;
-    return_value___errno_location$23=__errno_location();
-    message(2, "Can't create epoll err=%d", *return_value___errno_location$23);
+    signed int *return_value___errno_location_23;
+    return_value___errno_location_23=__errno_location();
+    message(2, "Can't create epoll err=%d", *return_value___errno_location_23);
     exit(1);
   }
 
@@ -13048,13 +13048,13 @@ void initialize(signed int argc, char **argv)
       if(Debug >= 7)
         message(7, "stone %d: epoll_ctl %d ADD %x", stone->sd, ePollFd, (signed int)ev.data.ptr);
 
-      signed int return_value_epoll_ctl$25;
-      return_value_epoll_ctl$25=epoll_ctl(ePollFd, 1, stone->sd, &ev);
-      if(!(return_value_epoll_ctl$25 >= 0))
+      signed int return_value_epoll_ctl_25;
+      return_value_epoll_ctl_25=epoll_ctl(ePollFd, 1, stone->sd, &ev);
+      if(!(return_value_epoll_ctl_25 >= 0))
       {
-        signed int *return_value___errno_location$24;
-        return_value___errno_location$24=__errno_location();
-        message(2, "stone %d: epoll_ctl %d ADD err=%d", stone->sd, ePollFd, *return_value___errno_location$24);
+        signed int *return_value___errno_location_24;
+        return_value___errno_location_24=__errno_location();
+        message(2, "stone %d: epoll_ctl %d ADD err=%d", stone->sd, ePollFd, *return_value___errno_location_24);
         exit(1);
       }
 
@@ -13101,8 +13101,8 @@ signed int insheader(struct _Pair *pair)
     if((signed int)ex->buf[(signed long int)i] == 10)
       break;
 
-  signed int tmp_post$2;
-  signed int tmp_post$3;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
   if(i >= len)
   {
     if(Debug >= 4)
@@ -13122,15 +13122,15 @@ signed int insheader(struct _Pair *pair)
     }
 
     p = pair->stone->p;
-    signed int return_value_strnparse$1;
-    return_value_strnparse$1=strnparse(&ex->buf[(signed long int)i], bufmax - i, &p, pair->pair, (char)0xFF);
-    i = i + return_value_strnparse$1;
-    tmp_post$2 = i;
+    signed int return_value_strnparse_1;
+    return_value_strnparse_1=strnparse(&ex->buf[(signed long int)i], bufmax - i, &p, pair->pair, (char)0xFF);
+    i = i + return_value_strnparse_1;
+    tmp_post_2 = i;
     i = i + 1;
-    ex->buf[(signed long int)tmp_post$2] = (char)13;
-    tmp_post$3 = i;
+    ex->buf[(signed long int)tmp_post_2] = (char)13;
+    tmp_post_3 = i;
     i = i + 1;
-    ex->buf[(signed long int)tmp_post$3] = (char)10;
+    ex->buf[(signed long int)tmp_post_3] = (char)10;
     if(Debug >= 6)
       message(7, "%d TCP %d: insheader start=%d, ins=%d, rest=%d, max=%d", pair->stone->sd, pair->sd, ex->start, i - ex->start, len, ex->bufmax);
 
@@ -13148,7 +13148,7 @@ signed int isdigitaddr(char *name)
 {
   signed int ndigits = 0;
   signed int isdot = 1;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   while(!(*name == 0))
   {
     if((signed int)*name == 46)
@@ -13161,8 +13161,8 @@ signed int isdigitaddr(char *name)
 
     else
     {
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if(!((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*name]) == 0))
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if(!((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*name]) == 0))
       {
         if(!(isdot == 0))
           ndigits = ndigits + 1;
@@ -13182,16 +13182,16 @@ signed int isdigitaddr(char *name)
 // file stone.c line 1368
 signed int isdigitstr(char *str)
 {
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   while(!(*str == 0))
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if(!((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*str]) == 0))
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if(!((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*str]) == 0))
       break;
 
-    const unsigned short int **return_value___ctype_b_loc$2;
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*str]) == 0)
+    const unsigned short int **return_value___ctype_b_loc_2;
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*str]) == 0)
       return 0;
 
     str = str + 1l;
@@ -13205,14 +13205,14 @@ signed int islocalhost(struct sockaddr *sa)
 {
   if((signed int)sa->sa_family == 2)
   {
-    unsigned int return_value___bswap_32$1;
-    return_value___bswap_32$1=__bswap_32(((struct sockaddr_in *)sa)->sin_addr.s_addr);
-    if((signed long int)return_value___bswap_32$1 == 0x7F000001L)
+    unsigned int return_value___bswap_32_1;
+    return_value___bswap_32_1=__bswap_32(((struct sockaddr_in *)sa)->sin_addr.s_addr);
+    if((signed long int)return_value___bswap_32_1 == 0x7F000001L)
       return 1;
 
-    unsigned int return_value___bswap_32$2;
-    return_value___bswap_32$2=__bswap_32(((struct sockaddr_in *)sa)->sin_addr.s_addr);
-    if((signed long int)return_value___bswap_32$2 == 0L)
+    unsigned int return_value___bswap_32_2;
+    return_value___bswap_32_2=__bswap_32(((struct sockaddr_in *)sa)->sin_addr.s_addr);
+    if((signed long int)return_value___bswap_32_2 == 0L)
       return -1;
 
   }
@@ -13226,9 +13226,9 @@ signed int islocalhost(struct sockaddr *sa)
       if(!(*((unsigned long int *)(addrp->__in6_u.__u6_addr8 + (signed long int)i)) == 0ul))
         return 0;
 
-    unsigned int return_value___bswap_32$3;
-    return_value___bswap_32$3=__bswap_32((unsigned int)1);
-    if(*((unsigned long int *)(addrp->__in6_u.__u6_addr8 + (signed long int)i)) == (unsigned long int)return_value___bswap_32$3)
+    unsigned int return_value___bswap_32_3;
+    return_value___bswap_32_3=__bswap_32((unsigned int)1);
+    if(*((unsigned long int *)(addrp->__in6_u.__u6_addr8 + (signed long int)i)) == (unsigned long int)return_value___bswap_32_3)
       return 1;
 
     if(*((unsigned long int *)(addrp->__in6_u.__u6_addr8 + (signed long int)i)) == 0ul)
@@ -13243,7 +13243,7 @@ signed int islocalhost(struct sockaddr *sa)
 // file stone.c line 2272
 signed int lbsopts(signed int argc, signed int i, char **argv)
 {
-  struct anonymous$0 *dsts[100l];
+  struct anonymous_0 *dsts[100l];
   signed int ndsts = 0;
   struct _LBSet *lbs;
   struct sockaddr_storage ss;
@@ -13268,23 +13268,23 @@ signed int lbsopts(signed int argc, signed int i, char **argv)
 
     salen = (unsigned int)sizeof(struct sockaddr_storage) /*128ul*/ ;
     sa->sa_family = (unsigned short int)0;
-    signed int return_value_hostPort2sa$1;
-    return_value_hostPort2sa$1=hostPort2sa(argv[(signed long int)i], sa, &salen, 0);
-    if(return_value_hostPort2sa$1 == 0)
+    signed int return_value_hostPort2sa_1;
+    return_value_hostPort2sa_1=hostPort2sa(argv[(signed long int)i], sa, &salen, 0);
+    if(return_value_hostPort2sa_1 == 0)
     {
       message(3, "Illegal load balancing host: %s", argv[(signed long int)i]);
       exit(1);
     }
 
     dsts[(signed long int)ndsts]=saDup(sa, salen);
-    if(dsts[(signed long int)ndsts] == ((struct anonymous$0 *)NULL))
+    if(dsts[(signed long int)ndsts] == ((struct anonymous_0 *)NULL))
       goto memerr;
 
     ndsts = ndsts + 1;
   }
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct _LBSet) /*16ul*/  + sizeof(struct anonymous$0 *) /*8ul*/  * (unsigned long int)ndsts);
-  lbs = (struct _LBSet *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct _LBSet) /*16ul*/  + sizeof(struct anonymous_0 *) /*8ul*/  * (unsigned long int)ndsts);
+  lbs = (struct _LBSet *)return_value_malloc_2;
   if(!(lbs == ((struct _LBSet *)NULL)))
   {
     signed int j;
@@ -13312,11 +13312,11 @@ signed int lbsopts(signed int argc, signed int i, char **argv)
 // file stone.c line 5794
 signed int limitAsync(struct _Pair *pair, char *parm, signed int start)
 {
-  signed int return_value_atoi$1;
-  return_value_atoi$1=atoi(parm);
-  signed int return_value_limitCommon$2;
-  return_value_limitCommon$2=limitCommon(pair, AsyncCount, return_value_atoi$1, "async");
-  return return_value_limitCommon$2;
+  signed int return_value_atoi_1;
+  return_value_atoi_1=atoi(parm);
+  signed int return_value_limitCommon_2;
+  return_value_limitCommon_2=limitCommon(pair, AsyncCount, return_value_atoi_1, "async");
+  return return_value_limitCommon_2;
 }
 
 // limitCommon
@@ -13338,13 +13338,13 @@ signed int limitCommon(struct _Pair *pair, signed int var, signed int limit, cha
 // file stone.c line 5776
 signed int limitConn(struct _Pair *pair, char *parm, signed int start)
 {
-  signed int return_value_nConns$1;
-  return_value_nConns$1=nConns();
-  signed int return_value_atoi$2;
-  return_value_atoi$2=atoi(parm);
-  signed int return_value_limitCommon$3;
-  return_value_limitCommon$3=limitCommon(pair, return_value_nConns$1, return_value_atoi$2, "conn");
-  return return_value_limitCommon$3;
+  signed int return_value_nConns_1;
+  return_value_nConns_1=nConns();
+  signed int return_value_atoi_2;
+  return_value_atoi_2=atoi(parm);
+  signed int return_value_limitCommon_3;
+  return_value_limitCommon_3=limitCommon(pair, return_value_nConns_1, return_value_atoi_2, "conn");
+  return return_value_limitCommon_3;
 }
 
 // limitErr
@@ -13364,24 +13364,24 @@ signed int limitEstablished(struct _Pair *pair, char *parm, signed int start)
 {
   signed long int now;
   time(&now);
-  signed int return_value_atoi$1;
-  return_value_atoi$1=atoi(parm);
-  signed int return_value_limitCommon$2;
-  return_value_limitCommon$2=limitCommon(pair, (signed int)(now - lastEstablished), return_value_atoi$1, "established");
-  return return_value_limitCommon$2;
+  signed int return_value_atoi_1;
+  return_value_atoi_1=atoi(parm);
+  signed int return_value_limitCommon_2;
+  return_value_limitCommon_2=limitCommon(pair, (signed int)(now - lastEstablished), return_value_atoi_1, "established");
+  return return_value_limitCommon_2;
 }
 
 // limitPair
 // file stone.c line 5772
 signed int limitPair(struct _Pair *pair, char *parm, signed int start)
 {
-  signed int return_value_nPairs$1;
-  return_value_nPairs$1=nPairs(PairTop);
-  signed int return_value_atoi$2;
-  return_value_atoi$2=atoi(parm);
-  signed int return_value_limitCommon$3;
-  return_value_limitCommon$3=limitCommon(pair, return_value_nPairs$1, return_value_atoi$2, "pair");
-  return return_value_limitCommon$3;
+  signed int return_value_nPairs_1;
+  return_value_nPairs_1=nPairs(PairTop);
+  signed int return_value_atoi_2;
+  return_value_atoi_2=atoi(parm);
+  signed int return_value_limitCommon_3;
+  return_value_limitCommon_3=limitCommon(pair, return_value_nPairs_1, return_value_atoi_2, "pair");
+  return return_value_limitCommon_3;
 }
 
 // limitReadWrite
@@ -13390,11 +13390,11 @@ signed int limitReadWrite(struct _Pair *pair, char *parm, signed int start)
 {
   signed long int now;
   time(&now);
-  signed int return_value_atoi$1;
-  return_value_atoi$1=atoi(parm);
-  signed int return_value_limitCommon$2;
-  return_value_limitCommon$2=limitCommon(pair, (signed int)(now - lastReadWrite), return_value_atoi$1, "readwrite");
-  return return_value_limitCommon$2;
+  signed int return_value_atoi_1;
+  return_value_atoi_1=atoi(parm);
+  signed int return_value_limitCommon_2;
+  return_value_limitCommon_2=limitCommon(pair, (signed int)(now - lastReadWrite), return_value_atoi_1, "readwrite");
+  return return_value_limitCommon_2;
 }
 
 // main
@@ -13419,9 +13419,9 @@ signed int main(signed int argc, char **argv)
 signed int memCheck(void)
 {
   char *buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(2048 * 10));
-  buf = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(2048 * 10));
+  buf = (char *)return_value_malloc_1;
   if(!(buf == ((char *)NULL)))
   {
     free((void *)buf);
@@ -13446,26 +13446,26 @@ void message(signed int pri, char *fmt, ...)
   if(Syslog == 0)
   {
     struct timeval tv;
-    signed int return_value_gettimeofday$1;
-    return_value_gettimeofday$1=gettimeofday(&tv, (struct timezone *)(void *)0);
-    if(return_value_gettimeofday$1 >= 0)
+    signed int return_value_gettimeofday_1;
+    return_value_gettimeofday_1=gettimeofday(&tv, (struct timezone *)(void *)0);
+    if(return_value_gettimeofday_1 >= 0)
       strntime(str + (signed long int)pos, 1024 - pos, &tv.tv_sec, tv.tv_usec);
 
     str[(signed long int)1024] = (char)0;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(str);
-    pos = (signed int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(str);
+    pos = (signed int)return_value_strlen_2;
   }
 
-  unsigned long int return_value_pthread_self$3;
-  return_value_pthread_self$3=pthread_self();
-  thid = (unsigned long int)return_value_pthread_self$3;
+  unsigned long int return_value_pthread_self_3;
+  return_value_pthread_self_3=pthread_self();
+  thid = (unsigned long int)return_value_pthread_self_3;
   if(!(thid == 0ul))
   {
     snprintf(str + (signed long int)pos, (unsigned long int)(1024 - pos), "%lu ", thid);
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(str + (signed long int)pos);
-    pos = pos + (signed int)return_value_strlen$4;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(str + (signed long int)pos);
+    pos = pos + (signed int)return_value_strlen_4;
   }
 
   ap = (void **)&fmt;
@@ -13523,9 +13523,9 @@ void message_conn(signed int pri, struct _Conn *conn)
   {
     p2 = p1->pair;
     strntime(str, 1024, &p1->clock, (signed long int)-1);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(str);
-    i = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(str);
+    i = (signed int)return_value_strlen_1;
     proto = p1->proto;
     if(!(p2 == ((struct _Pair *)NULL)))
       sd = p2->sd;
@@ -13533,9 +13533,9 @@ void message_conn(signed int pri, struct _Conn *conn)
   }
 
   addrport2str(&conn->dst->addr, conn->dst->len, proto & (proto_ohttp_d | proto_base_d | proto_command), str + (signed long int)i, 1024 - i, 0);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(str);
-  i = (signed int)return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(str);
+  i = (signed int)return_value_strlen_2;
   if(i >= 1025)
     i = 1024;
 
@@ -13565,21 +13565,21 @@ void message_origin(signed int pri, struct _Origin *origin)
   char str[1025l];
   str[(signed long int)1024] = (char)0;
   strntime(str, 1024, &origin->clock, (signed long int)-1);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  i = (signed int)return_value_strlen$1;
-  signed int *return_value___errno_location$2;
-  signed int tmp_post$4;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  i = (signed int)return_value_strlen_1;
+  signed int *return_value___errno_location_2;
+  signed int tmp_post_4;
   if(origin->sd >= 0)
   {
-    signed int return_value_getsockname$5;
-    return_value_getsockname$5=getsockname(origin->sd, name, &namelen);
-    if(!(return_value_getsockname$5 >= 0))
+    signed int return_value_getsockname_5;
+    return_value_getsockname_5=getsockname(origin->sd, name, &namelen);
+    if(!(return_value_getsockname_5 >= 0))
     {
       if(Debug >= 4)
       {
-        return_value___errno_location$2=__errno_location();
-        message(7, "%d UDP %d: Can't get socket's name err=%d", origin->stone->sd, origin->sd, *return_value___errno_location$2);
+        return_value___errno_location_2=__errno_location();
+        message(7, "%d UDP %d: Can't get socket's name err=%d", origin->stone->sd, origin->sd, *return_value___errno_location_2);
       }
 
     }
@@ -13587,14 +13587,14 @@ void message_origin(signed int pri, struct _Origin *origin)
     else
     {
       addrport2str(name, namelen, proto_udp_s | proto_udp_d, str + (signed long int)i, 1024 - i, 0);
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(str);
-      i = (signed int)return_value_strlen$3;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(str);
+      i = (signed int)return_value_strlen_3;
       if(!(i >= 1024))
       {
-        tmp_post$4 = i;
+        tmp_post_4 = i;
         i = i + 1;
-        str[(signed long int)tmp_post$4] = (char)32;
+        str[(signed long int)tmp_post_4] = (char)32;
       }
 
     }
@@ -13621,7 +13621,7 @@ void message_origins(signed int pri)
 {
   struct _Origin *origin = OriginTop;
   for( ; !(origin == ((struct _Origin *)NULL)); origin = origin->next)
-    if(!(origin->from == ((struct anonymous$0 *)NULL)))
+    if(!(origin->from == ((struct anonymous_0 *)NULL)))
       message_origin(pri, origin);
 
     else
@@ -13644,23 +13644,23 @@ void message_pair(signed int pri, struct _Pair *pair)
   char str[1025l];
   str[(signed long int)1024] = (char)0;
   strntime(str, 1024, &pair->clock, (signed long int)-1);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  i = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  i = (signed int)return_value_strlen_1;
   sd = pair->sd;
-  signed int *return_value___errno_location$2;
-  signed int tmp_post$4;
-  signed int *return_value___errno_location$6;
+  signed int *return_value___errno_location_2;
+  signed int tmp_post_4;
+  signed int *return_value___errno_location_6;
   if(sd >= 0)
   {
-    signed int return_value_getsockname$5;
-    return_value_getsockname$5=getsockname(sd, name, &namelen);
-    if(!(return_value_getsockname$5 >= 0))
+    signed int return_value_getsockname_5;
+    return_value_getsockname_5=getsockname(sd, name, &namelen);
+    if(!(return_value_getsockname_5 >= 0))
     {
       if(Debug >= 4)
       {
-        return_value___errno_location$2=__errno_location();
-        message(7, "%d TCP %d: Can't get socket's name err=%d", pair->stone->sd, sd, *return_value___errno_location$2);
+        return_value___errno_location_2=__errno_location();
+        message(7, "%d TCP %d: Can't get socket's name err=%d", pair->stone->sd, sd, *return_value___errno_location_2);
       }
 
     }
@@ -13668,26 +13668,26 @@ void message_pair(signed int pri, struct _Pair *pair)
     else
     {
       addrport2str(name, namelen, 0, str + (signed long int)i, 1024 - i, 0);
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(str);
-      i = (signed int)return_value_strlen$3;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(str);
+      i = (signed int)return_value_strlen_3;
       if(!(i >= 1024))
       {
-        tmp_post$4 = i;
+        tmp_post_4 = i;
         i = i + 1;
-        str[(signed long int)tmp_post$4] = (char)32;
+        str[(signed long int)tmp_post_4] = (char)32;
       }
 
     }
     namelen = (unsigned int)sizeof(struct sockaddr_storage) /*128ul*/ ;
-    signed int return_value_getpeername$8;
-    return_value_getpeername$8=getpeername(sd, name, &namelen);
-    if(!(return_value_getpeername$8 >= 0))
+    signed int return_value_getpeername_8;
+    return_value_getpeername_8=getpeername(sd, name, &namelen);
+    if(!(return_value_getpeername_8 >= 0))
     {
       if(Debug >= 4)
       {
-        return_value___errno_location$6=__errno_location();
-        message(7, "%d TCP %d: Can't get peer's name err=%d", pair->stone->sd, sd, *return_value___errno_location$6);
+        return_value___errno_location_6=__errno_location();
+        message(7, "%d TCP %d: Can't get peer's name err=%d", pair->stone->sd, sd, *return_value___errno_location_6);
       }
 
     }
@@ -13695,9 +13695,9 @@ void message_pair(signed int pri, struct _Pair *pair)
     else
     {
       addrport2str(name, namelen, 0, str + (signed long int)i, 1024 - i, 0);
-      unsigned long int return_value_strlen$7;
-      return_value_strlen$7=strlen(str + (signed long int)i);
-      i = i + (signed int)return_value_strlen$7;
+      unsigned long int return_value_strlen_7;
+      return_value_strlen_7=strlen(str + (signed long int)i);
+      i = i + (signed int)return_value_strlen_7;
     }
   }
 
@@ -13746,11 +13746,11 @@ void message_time(struct _Pair *pair, signed int pri, char *fmt, ...)
   vsnprintf(str, (unsigned long int)1024, fmt, ap);
   ap = ((void **)NULL);
   str[(signed long int)1024] = (char)0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct _TimeLog) /*16ul*/  + return_value_strlen$1 + (unsigned long int)1);
-  log = (struct _TimeLog *)return_value_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct _TimeLog) /*16ul*/  + return_value_strlen_1 + (unsigned long int)1);
+  log = (struct _TimeLog *)return_value_malloc_2;
   if(!(log == ((struct _TimeLog *)NULL)))
   {
     time(&log->clock);
@@ -13800,29 +13800,29 @@ signed int mkBackup(signed int argc, signed int argi, char **argv)
   struct sockaddr *sa = (struct sockaddr *)&ss;
   unsigned int salen;
   struct _Backup *b;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _Backup) /*64ul*/ );
-  b = (struct _Backup *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _Backup) /*64ul*/ );
+  b = (struct _Backup *)return_value_malloc_1;
   argi = argi + 1;
-  signed int return_value_strncmp$3;
-  signed int return_value_strncmp$2;
+  signed int return_value_strncmp_3;
+  signed int return_value_strncmp_2;
   for( ; !(argi >= argc); argi = argi + 1)
   {
-    signed int return_value_strncmp$4;
-    return_value_strncmp$4=strncmp(argv[(signed long int)argi], "host=", (unsigned long int)5);
-    if(return_value_strncmp$4 == 0)
+    signed int return_value_strncmp_4;
+    return_value_strncmp_4=strncmp(argv[(signed long int)argi], "host=", (unsigned long int)5);
+    if(return_value_strncmp_4 == 0)
       check_host = argv[(signed long int)argi] + (signed long int)5;
 
     else
     {
-      return_value_strncmp$3=strncmp(argv[(signed long int)argi], "port=", (unsigned long int)5);
-      if(return_value_strncmp$3 == 0)
+      return_value_strncmp_3=strncmp(argv[(signed long int)argi], "port=", (unsigned long int)5);
+      if(return_value_strncmp_3 == 0)
         check_port = argv[(signed long int)argi] + (signed long int)5;
 
       else
       {
-        return_value_strncmp$2=strncmp(argv[(signed long int)argi], "ext=", (unsigned long int)4);
-        if(return_value_strncmp$2 == 0)
+        return_value_strncmp_2=strncmp(argv[(signed long int)argi], "ext=", (unsigned long int)4);
+        if(return_value_strncmp_2 == 0)
           check_ext = argv[(signed long int)argi] + (signed long int)4;
 
         else
@@ -13841,9 +13841,9 @@ signed int mkBackup(signed int argc, signed int argi, char **argv)
     b->last = (signed long int)0;
     b->bn = (signed short int)0;
     b->used = (signed short int)0;
-    signed int return_value_atoi$5;
-    return_value_atoi$5=atoi(argv[(signed long int)argi]);
-    b->interval = (signed short int)return_value_atoi$5;
+    signed int return_value_atoi_5;
+    return_value_atoi_5=atoi(argv[(signed long int)argi]);
+    b->interval = (signed short int)return_value_atoi_5;
   }
 
   else
@@ -13880,25 +13880,25 @@ signed int mkBackup(signed int argc, signed int argi, char **argv)
 
   salen = (unsigned int)sizeof(struct sockaddr_storage) /*128ul*/ ;
   sa->sa_family = (unsigned short int)0;
-  signed int tmp_statement_expression$6;
+  signed int tmp_statement_expression_6;
   if(!(master_ext == ((char *)NULL)))
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$7;
-    return_value___builtin_strcmp$7=__builtin_strcmp(master_ext, "v6");
-    tmp_statement_expression$6 = return_value___builtin_strcmp$7;
-    if(tmp_statement_expression$6 == 0)
+    signed int return_value___builtin_strcmp_7;
+    return_value___builtin_strcmp_7=__builtin_strcmp(master_ext, "v6");
+    tmp_statement_expression_6 = return_value___builtin_strcmp_7;
+    if(tmp_statement_expression_6 == 0)
       sa->sa_family = (unsigned short int)10;
 
   }
 
-  signed int return_value_host2sa$8;
-  return_value_host2sa$8=host2sa(master_host, master_port, sa, &salen, (signed int *)(void *)0, (signed int *)(void *)0, 0);
-  if(!(return_value_host2sa$8 == 0))
+  signed int return_value_host2sa_8;
+  return_value_host2sa_8=host2sa(master_host, master_port, sa, &salen, (signed int *)(void *)0, (signed int *)(void *)0, 0);
+  if(!(return_value_host2sa_8 == 0))
   {
     b->master=saDup(sa, salen);
-    if(b->master == ((struct anonymous$0 *)NULL))
+    if(b->master == ((struct anonymous_0 *)NULL))
     {
       free((void *)b);
       goto memerr;
@@ -13913,8 +13913,8 @@ signed int mkBackup(signed int argc, signed int argi, char **argv)
     return argi + 2;
   }
   pos=hostPortExt(argv[(signed long int)(argi + 2)], backup_host, backup_port);
-  signed int tmp_statement_expression$9;
-  signed int tmp_statement_expression$12;
+  signed int tmp_statement_expression_9;
+  signed int tmp_statement_expression_12;
   if(!(pos >= 0))
   {
     message(3, "Illegal backup: %s", argv[(signed long int)(argi + 2)]);
@@ -13928,22 +13928,22 @@ signed int mkBackup(signed int argc, signed int argi, char **argv)
     sa->sa_family = (unsigned short int)0;
     if(!(pos == 0))
     {
-      unsigned long int mkBackup$$1$$13$$__s1_len;
-      unsigned long int mkBackup$$1$$13$$__s2_len;
-      signed int return_value___builtin_strcmp$10;
-      return_value___builtin_strcmp$10=__builtin_strcmp(argv[(signed long int)(argi + 2)] + (signed long int)pos, "v6");
-      tmp_statement_expression$9 = return_value___builtin_strcmp$10;
-      if(tmp_statement_expression$9 == 0)
+      unsigned long int mkBackup__1__13____s1_len;
+      unsigned long int mkBackup__1__13____s2_len;
+      signed int return_value___builtin_strcmp_10;
+      return_value___builtin_strcmp_10=__builtin_strcmp(argv[(signed long int)(argi + 2)] + (signed long int)pos, "v6");
+      tmp_statement_expression_9 = return_value___builtin_strcmp_10;
+      if(tmp_statement_expression_9 == 0)
         sa->sa_family = (unsigned short int)10;
 
     }
 
-    signed int return_value_host2sa$11;
-    return_value_host2sa$11=host2sa(backup_host, backup_port, sa, &salen, (signed int *)(void *)0, (signed int *)(void *)0, 0);
-    if(!(return_value_host2sa$11 == 0))
+    signed int return_value_host2sa_11;
+    return_value_host2sa_11=host2sa(backup_host, backup_port, sa, &salen, (signed int *)(void *)0, (signed int *)(void *)0, 0);
+    if(!(return_value_host2sa_11 == 0))
     {
       b->backup=saDup(sa, salen);
-      if(b->backup == ((struct anonymous$0 *)NULL))
+      if(b->backup == ((struct anonymous_0 *)NULL))
       {
         free((void *)b->master);
         free((void *)b);
@@ -13973,22 +13973,22 @@ signed int mkBackup(signed int argc, signed int argi, char **argv)
       sa->sa_family = (unsigned short int)0;
       if(!(check_ext == ((char *)NULL)))
       {
-        unsigned long int mkBackup$$1$$16$$1$$__s1_len;
-        unsigned long int mkBackup$$1$$16$$1$$__s2_len;
-        signed int return_value___builtin_strcmp$13;
-        return_value___builtin_strcmp$13=__builtin_strcmp(check_ext, "v6");
-        tmp_statement_expression$12 = return_value___builtin_strcmp$13;
-        if(tmp_statement_expression$12 == 0)
+        unsigned long int mkBackup__1__16__1____s1_len;
+        unsigned long int mkBackup__1__16__1____s2_len;
+        signed int return_value___builtin_strcmp_13;
+        return_value___builtin_strcmp_13=__builtin_strcmp(check_ext, "v6");
+        tmp_statement_expression_12 = return_value___builtin_strcmp_13;
+        if(tmp_statement_expression_12 == 0)
           sa->sa_family = (unsigned short int)10;
 
       }
 
-      signed int return_value_host2sa$14;
-      return_value_host2sa$14=host2sa(check_host, check_port, sa, &salen, (signed int *)(void *)0, (signed int *)(void *)0, 0);
-      if(!(return_value_host2sa$14 == 0))
+      signed int return_value_host2sa_14;
+      return_value_host2sa_14=host2sa(check_host, check_port, sa, &salen, (signed int *)(void *)0, (signed int *)(void *)0, 0);
+      if(!(return_value_host2sa_14 == 0))
       {
         b->check=saDup(sa, salen);
-        if(b->check == ((struct anonymous$0 *)NULL))
+        if(b->check == ((struct anonymous_0 *)NULL))
         {
           free((void *)b->backup);
           free((void *)b->master);
@@ -14029,9 +14029,9 @@ signed int mkChat(signed int argc, signed int i, char **argv)
 
     }
 
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct _Chat) /*88ul*/ );
-    cur = (struct _Chat *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct _Chat) /*88ul*/ );
+    cur = (struct _Chat *)return_value_malloc_1;
     if(cur == ((struct _Chat *)NULL))
     {
 
@@ -14084,20 +14084,20 @@ signed int mkPortXhosts(signed int argc, signed int i, char **argv)
   signed int from;
   signed int j;
   i = i + 1;
-  signed int tmp_statement_expression$1;
-  unsigned long int mkPortXhosts$$1$$1$$__s1_len;
-  unsigned long int mkPortXhosts$$1$$1$$__s2_len;
-  signed int return_value___builtin_strcmp$2;
-  return_value___builtin_strcmp$2=__builtin_strcmp(argv[(signed long int)i], "--");
-  tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  const unsigned short int **return_value___ctype_b_loc$5;
-  char *tmp_post$8;
-  char *tmp_post$9;
-  signed int tmp_post$10;
-  signed int tmp_statement_expression$12;
-  if(tmp_statement_expression$1 == 0)
+  signed int tmp_statement_expression_1;
+  unsigned long int mkPortXhosts__1__1____s1_len;
+  unsigned long int mkPortXhosts__1__1____s2_len;
+  signed int return_value___builtin_strcmp_2;
+  return_value___builtin_strcmp_2=__builtin_strcmp(argv[(signed long int)i], "--");
+  tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  const unsigned short int **return_value___ctype_b_loc_5;
+  char *tmp_post_8;
+  char *tmp_post_9;
+  signed int tmp_post_10;
+  signed int tmp_statement_expression_12;
+  if(tmp_statement_expression_1 == 0)
   {
     portXHosts = (struct _PortXHosts *)(void *)0;
     return i;
@@ -14112,16 +14112,16 @@ signed int mkPortXhosts(signed int argc, signed int i, char **argv)
     do
     {
       if((signed int)*p == 44)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = (signed int)*p == 45 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$6)
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_6 = (signed int)*p == 45 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_6)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = (signed int)*p == 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = (signed int)*p == 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
       {
         signed int port;
         *q = (char)0;
@@ -14135,9 +14135,9 @@ signed int mkPortXhosts(signed int argc, signed int i, char **argv)
             struct sockaddr_storage ss;
             struct sockaddr *sa = (struct sockaddr *)&ss;
             unsigned int salen = (unsigned int)sizeof(struct sockaddr_storage) /*128ul*/ ;
-            signed int return_value_host2sa$3;
-            return_value_host2sa$3=host2sa((char *)(void *)0, str, sa, &salen, (signed int *)(void *)0, (signed int *)(void *)0, 0);
-            if(return_value_host2sa$3 == 0)
+            signed int return_value_host2sa_3;
+            return_value_host2sa_3=host2sa((char *)(void *)0, str, sa, &salen, (signed int *)(void *)0, (signed int *)(void *)0, 0);
+            if(return_value_host2sa_3 == 0)
               goto opterr;
 
             port=getport(sa);
@@ -14158,9 +14158,9 @@ signed int mkPortXhosts(signed int argc, signed int i, char **argv)
         else
         {
           struct _XPorts *new;
-          void *return_value_malloc$4;
-          return_value_malloc$4=malloc(sizeof(struct _XPorts) /*16ul*/ );
-          new = (struct _XPorts *)return_value_malloc$4;
+          void *return_value_malloc_4;
+          return_value_malloc_4=malloc(sizeof(struct _XPorts) /*16ul*/ );
+          new = (struct _XPorts *)return_value_malloc_4;
           if(new == ((struct _XPorts *)NULL))
             goto memerr;
 
@@ -14191,16 +14191,16 @@ signed int mkPortXhosts(signed int argc, signed int i, char **argv)
 
       else
       {
-        return_value___ctype_b_loc$5=__ctype_b_loc();
-        if((2048 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)*p]) == 0)
+        return_value___ctype_b_loc_5=__ctype_b_loc();
+        if((2048 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)*p]) == 0)
           isnum = 0;
 
       }
-      tmp_post$8 = q;
+      tmp_post_8 = q;
       q = q + 1l;
-      tmp_post$9 = p;
+      tmp_post_9 = p;
       p = p + 1l;
-      *tmp_post$8 = *tmp_post$9;
+      *tmp_post_8 = *tmp_post_9;
     }
     while((_Bool)1);
     if(Debug >= 6)
@@ -14213,15 +14213,15 @@ signed int mkPortXhosts(signed int argc, signed int i, char **argv)
       {
         if(j >= 1)
         {
-          tmp_post$10 = j;
+          tmp_post_10 = j;
           j = j + 1;
-          buf[(signed long int)tmp_post$10] = (char)44;
+          buf[(signed long int)tmp_post_10] = (char)44;
         }
 
         snprintf(buf + (signed long int)j, (unsigned long int)((2048 - 1) - j), "%d-%d", cur->from, cur->end);
-        unsigned long int return_value_strlen$11;
-        return_value_strlen$11=strlen(buf + (signed long int)j);
-        j = j + (signed int)return_value_strlen$11;
+        unsigned long int return_value_strlen_11;
+        return_value_strlen_11=strlen(buf + (signed long int)j);
+        j = j + (signed int)return_value_strlen_11;
       }
       buf[(signed long int)j] = (char)0;
       message(7, "XPorts: %s", (const void *)buf);
@@ -14234,17 +14234,17 @@ signed int mkPortXhosts(signed int argc, signed int i, char **argv)
     {
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$13;
-      return_value___builtin_strcmp$13=__builtin_strcmp(argv[(signed long int)i], "--");
-      tmp_statement_expression$12 = return_value___builtin_strcmp$13;
-      if(tmp_statement_expression$12 == 0)
+      signed int return_value___builtin_strcmp_13;
+      return_value___builtin_strcmp_13=__builtin_strcmp(argv[(signed long int)i], "--");
+      tmp_statement_expression_12 = return_value___builtin_strcmp_13;
+      if(tmp_statement_expression_12 == 0)
         break;
 
       i = i + 1;
     }
-    void *return_value_malloc$14;
-    return_value_malloc$14=malloc(sizeof(struct _PortXHosts) /*24ul*/ );
-    pxh = (struct _PortXHosts *)return_value_malloc$14;
+    void *return_value_malloc_14;
+    return_value_malloc_14=malloc(sizeof(struct _PortXHosts) /*24ul*/ );
+    pxh = (struct _PortXHosts *)return_value_malloc_14;
     if(!(pxh == ((struct _PortXHosts *)NULL)))
     {
       pxh->ports = top;
@@ -14272,15 +14272,15 @@ signed int mkPortXhosts(signed int argc, signed int i, char **argv)
 
 // mkStoneSSL
 // file stone.c line 7334
-struct anonymous$12 * mkStoneSSL(struct anonymous$8 *opts, signed int isserver)
+struct anonymous_12 * mkStoneSSL(struct anonymous_8 *opts, signed int isserver)
 {
-  struct anonymous$12 *ss;
+  struct anonymous_12 *ss;
   signed int err;
   signed int i;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$12) /*128ul*/ );
-  ss = (struct anonymous$12 *)return_value_malloc$1;
-  if(ss == ((struct anonymous$12 *)NULL))
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_12) /*128ul*/ );
+  ss = (struct anonymous_12 *)return_value_malloc_1;
+  if(ss == ((struct anonymous_12 *)NULL))
   {
 
   memerr:
@@ -14293,11 +14293,11 @@ struct anonymous$12 * mkStoneSSL(struct anonymous$8 *opts, signed int isserver)
   ss->shutdown_mode = opts->shutdown_mode;
   ss->name = opts->servername;
   ss->ctx=SSL_CTX_new(opts->meth);
-  _Bool tmp_if_expr$4;
-  struct x509_store_st *return_value_SSL_CTX_get_cert_store$3;
-  signed int return_value_SSL_CTX_use_PrivateKey_file$16;
-  signed int return_value_SSL_CTX_use_certificate_file$17;
-  signed int return_value_SSL_CTX_set_cipher_list$18;
+  _Bool tmp_if_expr_4;
+  struct x509_store_st *return_value_SSL_CTX_get_cert_store_3;
+  signed int return_value_SSL_CTX_use_PrivateKey_file_16;
+  signed int return_value_SSL_CTX_use_certificate_file_17;
+  signed int return_value_SSL_CTX_set_cipher_list_18;
   if(ss->ctx == ((struct ssl_ctx_st *)NULL))
     message(3, "SSL_CTX_new error");
 
@@ -14312,15 +14312,15 @@ struct anonymous$12 * mkStoneSSL(struct anonymous$8 *opts, signed int isserver)
     ss->lbmod = opts->lbmod;
     ss->lbparm = opts->lbparm;
     if(!(opts->caFile == ((char *)NULL)))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = opts->caPath != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = opts->caPath != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
-      signed int return_value_SSL_CTX_load_verify_locations$2;
-      return_value_SSL_CTX_load_verify_locations$2=SSL_CTX_load_verify_locations(ss->ctx, opts->caFile, opts->caPath);
-      if(return_value_SSL_CTX_load_verify_locations$2 == 0)
+      signed int return_value_SSL_CTX_load_verify_locations_2;
+      return_value_SSL_CTX_load_verify_locations_2=SSL_CTX_load_verify_locations(ss->ctx, opts->caFile, opts->caPath);
+      if(return_value_SSL_CTX_load_verify_locations_2 == 0)
       {
         message(3, "SSL_CTX_load_verify_locations(%s,%s) error", opts->caFile, opts->caPath);
         goto error;
@@ -14328,8 +14328,8 @@ struct anonymous$12 * mkStoneSSL(struct anonymous$8 *opts, signed int isserver)
 
       if(!(opts->vflags == 0))
       {
-        return_value_SSL_CTX_get_cert_store$3=SSL_CTX_get_cert_store(ss->ctx);
-        X509_STORE_set_flags(return_value_SSL_CTX_get_cert_store$3, (unsigned long int)opts->vflags);
+        return_value_SSL_CTX_get_cert_store_3=SSL_CTX_get_cert_store(ss->ctx);
+        X509_STORE_set_flags(return_value_SSL_CTX_get_cert_store_3, (unsigned long int)opts->vflags);
       }
 
     }
@@ -14338,7 +14338,7 @@ struct anonymous$12 * mkStoneSSL(struct anonymous$8 *opts, signed int isserver)
     {
       struct _IO_FILE *fp;
       fp=fopen(opts->pfxFile, "r");
-      struct anonymous$24 *p12;
+      struct anonymous_24 *p12;
       struct evp_pkey_st *key;
       struct x509_st *cert;
       if(fp == ((struct _IO_FILE *)NULL))
@@ -14347,8 +14347,8 @@ struct anonymous$12 * mkStoneSSL(struct anonymous$8 *opts, signed int isserver)
         goto error;
       }
 
-      p12=d2i_PKCS12_fp(fp, (struct anonymous$24 **)(void *)0);
-      if(p12 == ((struct anonymous$24 *)NULL))
+      p12=d2i_PKCS12_fp(fp, (struct anonymous_24 **)(void *)0);
+      if(p12 == ((struct anonymous_24 *)NULL))
       {
         message(3, "Can't read pfx file: %s", opts->pfxFile);
         fclose(fp);
@@ -14358,29 +14358,29 @@ struct anonymous$12 * mkStoneSSL(struct anonymous$8 *opts, signed int isserver)
       fclose(fp);
       key = (struct evp_pkey_st *)(void *)0;
       cert = (struct x509_st *)(void *)0;
-      signed int return_value_PKCS12_parse$7;
-      return_value_PKCS12_parse$7=PKCS12_parse(p12, opts->passwd, &key, &cert, (struct stack_st_X509 **)(void *)0);
-      if(return_value_PKCS12_parse$7 == 0)
+      signed int return_value_PKCS12_parse_7;
+      return_value_PKCS12_parse_7=PKCS12_parse(p12, opts->passwd, &key, &cert, (struct stack_st_X509 **)(void *)0);
+      if(return_value_PKCS12_parse_7 == 0)
       {
-        unsigned long int return_value_ERR_get_error$5;
-        return_value_ERR_get_error$5=ERR_get_error();
-        char *return_value_ERR_error_string$6;
-        return_value_ERR_error_string$6=ERR_error_string(return_value_ERR_get_error$5, (char *)(void *)0);
-        message(3, "Can't parse PKCS12(%s) %s", opts->pfxFile, return_value_ERR_error_string$6);
+        unsigned long int return_value_ERR_get_error_5;
+        return_value_ERR_get_error_5=ERR_get_error();
+        char *return_value_ERR_error_string_6;
+        return_value_ERR_error_string_6=ERR_error_string(return_value_ERR_get_error_5, (char *)(void *)0);
+        message(3, "Can't parse PKCS12(%s) %s", opts->pfxFile, return_value_ERR_error_string_6);
         goto error;
       }
 
       if(!(cert == ((struct x509_st *)NULL)))
       {
-        signed int return_value_SSL_CTX_use_certificate$10;
-        return_value_SSL_CTX_use_certificate$10=SSL_CTX_use_certificate(ss->ctx, cert);
-        if(return_value_SSL_CTX_use_certificate$10 == 0)
+        signed int return_value_SSL_CTX_use_certificate_10;
+        return_value_SSL_CTX_use_certificate_10=SSL_CTX_use_certificate(ss->ctx, cert);
+        if(return_value_SSL_CTX_use_certificate_10 == 0)
         {
-          unsigned long int return_value_ERR_get_error$8;
-          return_value_ERR_get_error$8=ERR_get_error();
-          char *return_value_ERR_error_string$9;
-          return_value_ERR_error_string$9=ERR_error_string(return_value_ERR_get_error$8, (char *)(void *)0);
-          message(3, "SSL_CTX_use_certificate(%s) %s", opts->pfxFile, return_value_ERR_error_string$9);
+          unsigned long int return_value_ERR_get_error_8;
+          return_value_ERR_get_error_8=ERR_get_error();
+          char *return_value_ERR_error_string_9;
+          return_value_ERR_error_string_9=ERR_error_string(return_value_ERR_get_error_8, (char *)(void *)0);
+          message(3, "SSL_CTX_use_certificate(%s) %s", opts->pfxFile, return_value_ERR_error_string_9);
           X509_free(cert);
           goto error;
         }
@@ -14390,15 +14390,15 @@ struct anonymous$12 * mkStoneSSL(struct anonymous$8 *opts, signed int isserver)
 
       if(!(key == ((struct evp_pkey_st *)NULL)))
       {
-        signed int return_value_SSL_CTX_use_PrivateKey$13;
-        return_value_SSL_CTX_use_PrivateKey$13=SSL_CTX_use_PrivateKey(ss->ctx, key);
-        if(return_value_SSL_CTX_use_PrivateKey$13 == 0)
+        signed int return_value_SSL_CTX_use_PrivateKey_13;
+        return_value_SSL_CTX_use_PrivateKey_13=SSL_CTX_use_PrivateKey(ss->ctx, key);
+        if(return_value_SSL_CTX_use_PrivateKey_13 == 0)
         {
-          unsigned long int return_value_ERR_get_error$11;
-          return_value_ERR_get_error$11=ERR_get_error();
-          char *return_value_ERR_error_string$12;
-          return_value_ERR_error_string$12=ERR_error_string(return_value_ERR_get_error$11, (char *)(void *)0);
-          message(3, "SSL_CTX_use_PrivateKey(%s) %s", opts->pfxFile, return_value_ERR_error_string$12);
+          unsigned long int return_value_ERR_get_error_11;
+          return_value_ERR_get_error_11=ERR_get_error();
+          char *return_value_ERR_error_string_12;
+          return_value_ERR_error_string_12=ERR_error_string(return_value_ERR_get_error_11, (char *)(void *)0);
+          message(3, "SSL_CTX_use_PrivateKey(%s) %s", opts->pfxFile, return_value_ERR_error_string_12);
           EVP_PKEY_free(key);
           goto error;
         }
@@ -14419,14 +14419,14 @@ struct anonymous$12 * mkStoneSSL(struct anonymous$8 *opts, signed int isserver)
 
       if(!(opts->keyFile == ((char *)NULL)))
       {
-        return_value_SSL_CTX_use_PrivateKey_file$16=SSL_CTX_use_PrivateKey_file(ss->ctx, opts->keyFile, 1);
-        if(return_value_SSL_CTX_use_PrivateKey_file$16 == 0)
+        return_value_SSL_CTX_use_PrivateKey_file_16=SSL_CTX_use_PrivateKey_file(ss->ctx, opts->keyFile, 1);
+        if(return_value_SSL_CTX_use_PrivateKey_file_16 == 0)
         {
-          unsigned long int return_value_ERR_get_error$14;
-          return_value_ERR_get_error$14=ERR_get_error();
-          char *return_value_ERR_error_string$15;
-          return_value_ERR_error_string$15=ERR_error_string(return_value_ERR_get_error$14, (char *)(void *)0);
-          message(3, "SSL_CTX_use_PrivateKey_file(%s) %s", opts->keyFile, return_value_ERR_error_string$15);
+          unsigned long int return_value_ERR_get_error_14;
+          return_value_ERR_get_error_14=ERR_get_error();
+          char *return_value_ERR_error_string_15;
+          return_value_ERR_error_string_15=ERR_error_string(return_value_ERR_get_error_14, (char *)(void *)0);
+          message(3, "SSL_CTX_use_PrivateKey_file(%s) %s", opts->keyFile, return_value_ERR_error_string_15);
           goto error;
         }
 
@@ -14434,8 +14434,8 @@ struct anonymous$12 * mkStoneSSL(struct anonymous$8 *opts, signed int isserver)
 
       if(!(opts->certFile == ((char *)NULL)))
       {
-        return_value_SSL_CTX_use_certificate_file$17=SSL_CTX_use_certificate_file(ss->ctx, opts->certFile, 1);
-        if(return_value_SSL_CTX_use_certificate_file$17 == 0)
+        return_value_SSL_CTX_use_certificate_file_17=SSL_CTX_use_certificate_file(ss->ctx, opts->certFile, 1);
+        if(return_value_SSL_CTX_use_certificate_file_17 == 0)
         {
           message(3, "SSL_CTX_use_certificate_file(%s) error", opts->certFile);
           goto error;
@@ -14453,8 +14453,8 @@ struct anonymous$12 * mkStoneSSL(struct anonymous$8 *opts, signed int isserver)
 
     if(!(opts->cipherList == ((char *)NULL)))
     {
-      return_value_SSL_CTX_set_cipher_list$18=SSL_CTX_set_cipher_list(ss->ctx, opts->cipherList);
-      if(!(return_value_SSL_CTX_set_cipher_list$18 == 0))
+      return_value_SSL_CTX_set_cipher_list_18=SSL_CTX_set_cipher_list(ss->ctx, opts->cipherList);
+      if(!(return_value_SSL_CTX_set_cipher_list_18 == 0))
         goto __CPROVER_DUMP_L23;
 
       message(3, "SSL_CTX_set_cipher_list(%s) error", opts->cipherList);
@@ -14469,9 +14469,9 @@ struct anonymous$12 * mkStoneSSL(struct anonymous$8 *opts, signed int isserver)
       for( ; !(i >= 10); i = i + 1)
         if(!(opts->regexp[(signed long int)i] == ((char *)NULL)))
         {
-          void *return_value_malloc$19;
-          return_value_malloc$19=malloc(sizeof(struct re_pattern_buffer) /*64ul*/ );
-          ss->re[(signed long int)i] = (struct re_pattern_buffer *)return_value_malloc$19;
+          void *return_value_malloc_19;
+          return_value_malloc_19=malloc(sizeof(struct re_pattern_buffer) /*64ul*/ );
+          ss->re[(signed long int)i] = (struct re_pattern_buffer *)return_value_malloc_19;
           err=regcomp(ss->re[(signed long int)i], opts->regexp[(signed long int)i], 1 | 1 << 1);
           if(!(err == 0))
           {
@@ -14495,9 +14495,9 @@ struct anonymous$12 * mkStoneSSL(struct anonymous$8 *opts, signed int isserver)
         {
           signed int ret;
           signed int len;
-          unsigned long int return_value_strlen$20;
-          return_value_strlen$20=strlen((char *)opts->sid_ctx);
-          len = (signed int)return_value_strlen$20;
+          unsigned long int return_value_strlen_20;
+          return_value_strlen_20=strlen((char *)opts->sid_ctx);
+          len = (signed int)return_value_strlen_20;
           ret=SSL_CTX_set_session_id_context(ss->ctx, opts->sid_ctx, (unsigned int)len);
           if(ret == 0)
           {
@@ -14521,13 +14521,13 @@ struct anonymous$12 * mkStoneSSL(struct anonymous$8 *opts, signed int isserver)
 
 error:
   ;
-  unsigned long int return_value_ERR_get_error$21;
-  char *return_value_ERR_error_string$22;
+  unsigned long int return_value_ERR_get_error_21;
+  char *return_value_ERR_error_string_22;
   if(!(opts->verbose == 0))
   {
-    return_value_ERR_get_error$21=ERR_get_error();
-    return_value_ERR_error_string$22=ERR_error_string(return_value_ERR_get_error$21, (char *)(void *)0);
-    message(6, "%s", return_value_ERR_error_string$22);
+    return_value_ERR_get_error_21=ERR_get_error();
+    return_value_ERR_error_string_22=ERR_error_string(return_value_ERR_get_error_21, (char *)(void *)0);
+    message(6, "%s", return_value_ERR_error_string_22);
   }
 
   exit(1);
@@ -14544,8 +14544,8 @@ struct _XHosts * mkXhosts(signed int nhosts, char **hosts, unsigned short int fa
   signed int i;
   char *p;
   i = 0;
-  signed int tmp_statement_expression$8;
-  char *tmp_post$3;
+  signed int tmp_statement_expression_8;
+  char *tmp_post_3;
   for( ; !(i >= nhosts); i = i + 1)
   {
     struct _XHosts *new;
@@ -14554,14 +14554,14 @@ struct _XHosts * mkXhosts(signed int nhosts, char **hosts, unsigned short int fa
 
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$9;
-    return_value___builtin_strcmp$9=__builtin_strcmp(hosts[(signed long int)i], "!");
-    tmp_statement_expression$8 = return_value___builtin_strcmp$9;
-    if(tmp_statement_expression$8 == 0)
+    signed int return_value___builtin_strcmp_9;
+    return_value___builtin_strcmp_9=__builtin_strcmp(hosts[(signed long int)i], "!");
+    tmp_statement_expression_8 = return_value___builtin_strcmp_9;
+    if(tmp_statement_expression_8 == 0)
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct _XHosts) /*32ul*/  - sizeof(struct sockaddr) /*16ul*/ );
-      new = (struct _XHosts *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct _XHosts) /*32ul*/  - sizeof(struct sockaddr) /*16ul*/ );
+      new = (struct _XHosts *)return_value_malloc_1;
       if(new == ((struct _XHosts *)NULL))
         goto memerr;
 
@@ -14577,15 +14577,15 @@ struct _XHosts * mkXhosts(signed int nhosts, char **hosts, unsigned short int fa
       struct sockaddr *sa = (struct sockaddr *)&ss;
       unsigned int salen = (unsigned int)sizeof(struct sockaddr_storage) /*128ul*/ ;
       strcpy(xhost, hosts[(signed long int)i]);
-      char *return_value___builtin_strchr$2;
-      return_value___builtin_strchr$2=__builtin_strchr(xhost, 47);
-      p = return_value___builtin_strchr$2;
+      char *return_value___builtin_strchr_2;
+      return_value___builtin_strchr_2=__builtin_strchr(xhost, 47);
+      p = return_value___builtin_strchr_2;
       if(!(p == ((char *)NULL)))
       {
         struct _XHosts ext;
-        tmp_post$3 = p;
+        tmp_post_3 = p;
         p = p + 1l;
-        *tmp_post$3 = (char)0;
+        *tmp_post_3 = (char)0;
         ext.mbits = mbits;
         ext.mode = mode;
         ext.xhost.addr.sa_family = family;
@@ -14596,14 +14596,14 @@ struct _XHosts * mkXhosts(signed int nhosts, char **hosts, unsigned short int fa
       }
 
       sa->sa_family = family;
-      signed int return_value_host2sa$4;
-      return_value_host2sa$4=host2sa(xhost, (char *)(void *)0, sa, &salen, (signed int *)(void *)0, (signed int *)(void *)0, 0);
-      if(return_value_host2sa$4 == 0)
+      signed int return_value_host2sa_4;
+      return_value_host2sa_4=host2sa(xhost, (char *)(void *)0, sa, &salen, (signed int *)(void *)0, (signed int *)(void *)0, 0);
+      if(return_value_host2sa_4 == 0)
         exit(1);
 
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc((sizeof(struct _XHosts) /*32ul*/  - sizeof(struct sockaddr) /*16ul*/ ) + (unsigned long int)salen);
-      new = (struct _XHosts *)return_value_malloc$5;
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc((sizeof(struct _XHosts) /*32ul*/  - sizeof(struct sockaddr) /*16ul*/ ) + (unsigned long int)salen);
+      new = (struct _XHosts *)return_value_malloc_5;
       if(new == ((struct _XHosts *)NULL))
         goto memerr;
 
@@ -14632,13 +14632,13 @@ struct _XHosts * mkXhosts(signed int nhosts, char **hosts, unsigned short int fa
         char str[128l];
         signed int pos = 0;
         addr2str(&new->xhost.addr, new->xhost.len, str, 127, 1);
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(str);
-        pos = (signed int)return_value_strlen$6;
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(str);
+        pos = (signed int)return_value_strlen_6;
         snprintf(str + (signed long int)pos, (unsigned long int)(127 - pos), "/%d", new->mbits);
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen(str + (signed long int)pos);
-        pos = pos + (signed int)return_value_strlen$7;
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen(str + (signed long int)pos);
+        pos = pos + (signed int)return_value_strlen_7;
         message(7, "%s%s is %s", mesg, (const void *)str, allow != 0 ? "permitted" : "denied");
       }
 
@@ -14668,12 +14668,12 @@ void mkXhostsExt(char *host, char *str, struct _XHosts *ext)
   char *top = (char *)(void *)0;
   unsigned long int num = (unsigned long int)0;
   signed int i = 0;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  _Bool tmp_if_expr$3;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  _Bool tmp_if_expr$7;
-  const unsigned short int **return_value___ctype_b_loc$8;
-  signed int tmp_post$1;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  _Bool tmp_if_expr_3;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  _Bool tmp_if_expr_7;
+  const unsigned short int **return_value___ctype_b_loc_8;
+  signed int tmp_post_1;
   while((_Bool)1)
   {
     if(!(kind == -3))
@@ -14706,19 +14706,19 @@ void mkXhostsExt(char *host, char *str, struct _XHosts *ext)
 
     __CPROVER_DUMP_L3:
       ;
-      return_value___ctype_b_loc$2=__ctype_b_loc();
-      if(!((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)str[(signed long int)i]]) == 0))
+      return_value___ctype_b_loc_2=__ctype_b_loc();
+      if(!((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)str[(signed long int)i]]) == 0))
         goto __CPROVER_DUMP_L28;
 
 
     __CPROVER_DUMP_L4:
       ;
       if((signed int)str[(signed long int)i] == 44)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)str[(signed long int)i] == 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)str[(signed long int)i] == 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
         kind = 0;
         goto __CPROVER_DUMP_L28;
@@ -14733,8 +14733,8 @@ void mkXhostsExt(char *host, char *str, struct _XHosts *ext)
     __CPROVER_DUMP_L8:
       ;
       top = &str[(signed long int)i];
-      return_value___ctype_b_loc$4=__ctype_b_loc();
-      if(!((2048 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)*top]) == 0))
+      return_value___ctype_b_loc_4=__ctype_b_loc();
+      if(!((2048 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)*top]) == 0))
       {
         num = (unsigned long int)((signed int)*top - 48);
         kind = 1;
@@ -14759,13 +14759,13 @@ void mkXhostsExt(char *host, char *str, struct _XHosts *ext)
 
       if((signed int)*top == 112)
       {
-        const unsigned short int **return_value___ctype_b_loc$6;
-        return_value___ctype_b_loc$6=__ctype_b_loc();
-        if(!((2048 & (signed int)(*return_value___ctype_b_loc$6)[(signed long int)(signed int)top[1l]]) == 0))
+        const unsigned short int **return_value___ctype_b_loc_6;
+        return_value___ctype_b_loc_6=__ctype_b_loc();
+        if(!((2048 & (signed int)(*return_value___ctype_b_loc_6)[(signed long int)(signed int)top[1l]]) == 0))
         {
-          signed int return_value_atoi$5;
-          return_value_atoi$5=atoi(top + (signed long int)1);
-          ext->mode = (signed short int)return_value_atoi$5;
+          signed int return_value_atoi_5;
+          return_value_atoi_5=atoi(top + (signed long int)1);
+          ext->mode = (signed short int)return_value_atoi_5;
         }
 
         else
@@ -14779,11 +14779,11 @@ void mkXhostsExt(char *host, char *str, struct _XHosts *ext)
     __CPROVER_DUMP_L17:
       ;
       if((signed int)str[(signed long int)i] == 44)
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = (signed int)str[(signed long int)i] == 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = (signed int)str[(signed long int)i] == 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
       {
         ext->mbits = (signed short int)num;
         if((signed int)ext->mbits >= 33)
@@ -14809,8 +14809,8 @@ void mkXhostsExt(char *host, char *str, struct _XHosts *ext)
 
     __CPROVER_DUMP_L22:
       ;
-      return_value___ctype_b_loc$8=__ctype_b_loc();
-      if(!((2048 & (signed int)(*return_value___ctype_b_loc$8)[(signed long int)(signed int)str[(signed long int)i]]) == 0))
+      return_value___ctype_b_loc_8=__ctype_b_loc();
+      if(!((2048 & (signed int)(*return_value___ctype_b_loc_8)[(signed long int)(signed int)str[(signed long int)i]]) == 0))
       {
         num = num & (unsigned long int)0xFFFFFF00 | (num & (unsigned long int)0xFF) * (unsigned long int)10 + (unsigned long int)((signed int)str[(signed long int)i] - 48);
         goto __CPROVER_DUMP_L28;
@@ -14837,9 +14837,9 @@ void mkXhostsExt(char *host, char *str, struct _XHosts *ext)
 
   __CPROVER_DUMP_L28:
     ;
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i + 1;
-    if(str[(signed long int)tmp_post$1] == 0)
+    if(str[(signed long int)tmp_post_1] == 0)
       break;
 
   }
@@ -14861,10 +14861,10 @@ struct _Stone * mkstone(char *dhost, char *dserv, char *host, char *serv, signed
   signed int saproto = 0;
   unsigned short int family;
   char *mesg;
-  char mkstone$$1$$str[128l];
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct _Stone) /*144ul*/ );
-  stone = (struct _Stone *)return_value_calloc$1;
+  char mkstone__1__str[128l];
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct _Stone) /*144ul*/ );
+  stone = (struct _Stone *)return_value_calloc_1;
   if(stone == ((struct _Stone *)NULL))
   {
     message(2, "Out of memory");
@@ -14888,15 +14888,15 @@ struct _Stone * mkstone(char *dhost, char *dserv, char *host, char *serv, signed
     satype = 1;
     saproto = 6;
   }
-  unsigned short int tmp_statement_expression$3;
-  unsigned short int tmp_statement_expression$5;
+  unsigned short int tmp_statement_expression_3;
+  unsigned short int tmp_statement_expression_5;
   if(!((proto & proto_unix_s) == 0))
   {
-    struct sockaddr_un *mkstone$$1$$4$$sun = (struct sockaddr_un *)sa;
+    struct sockaddr_un *mkstone__1__4__sun = (struct sockaddr_un *)sa;
     salen = (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ ;
     bzero((void *)sa, (unsigned long int)salen);
-    mkstone$$1$$4$$sun->sun_family = (unsigned short int)1;
-    snprintf(mkstone$$1$$4$$sun->sun_path, sizeof(char [108l]) /*108ul*/  - (unsigned long int)1, "%s", host);
+    mkstone__1__4__sun->sun_family = (unsigned short int)1;
+    snprintf(mkstone__1__4__sun->sun_path, sizeof(char [108l]) /*108ul*/  - (unsigned long int)1, "%s", host);
     saproto = 0;
   }
 
@@ -14905,53 +14905,53 @@ struct _Stone * mkstone(char *dhost, char *dserv, char *host, char *serv, signed
     {
       struct sockaddr_in6 *sin6p = (struct sockaddr_in6 *)sa;
       sa->sa_family = (unsigned short int)10;
-      signed int return_value_host2sa$2;
-      return_value_host2sa$2=host2sa(host, serv, sa, &salen, &satype, &saproto, 0x0001);
-      if(return_value_host2sa$2 == 0)
+      signed int return_value_host2sa_2;
+      return_value_host2sa_2=host2sa(host, serv, sa, &salen, &satype, &saproto, 0x0001);
+      if(return_value_host2sa_2 == 0)
         exit(1);
 
       unsigned short int __v;
-      unsigned short int mkstone$$1$$5$$1$$__x = (unsigned short int)sin6p->sin6_port;
-      asm("rorw $8, %w0" : "=r"(__v) : "0"(mkstone$$1$$5$$1$$__x) : "cc");
-      tmp_statement_expression$3 = __v;
-      stone->port = (signed int)tmp_statement_expression$3;
+      unsigned short int mkstone__1__5__1____x = (unsigned short int)sin6p->sin6_port;
+      asm("rorw _8, %w0" : "=r"(__v) : "0"(mkstone__1__5__1____x) : "cc");
+      tmp_statement_expression_3 = __v;
+      stone->port = (signed int)tmp_statement_expression_3;
     }
 
     else
     {
       struct sockaddr_in *sinp = (struct sockaddr_in *)sa;
       sa->sa_family = (unsigned short int)2;
-      signed int return_value_host2sa$4;
-      return_value_host2sa$4=host2sa(host, serv, sa, &salen, &satype, &saproto, 0x0001);
-      if(return_value_host2sa$4 == 0)
+      signed int return_value_host2sa_4;
+      return_value_host2sa_4=host2sa(host, serv, sa, &salen, &satype, &saproto, 0x0001);
+      if(return_value_host2sa_4 == 0)
         exit(1);
 
-      unsigned short int mkstone$$1$$6$$1$$__v;
+      unsigned short int mkstone__1__6__1____v;
       unsigned short int __x = (unsigned short int)sinp->sin_port;
-      asm("rorw $8, %w0" : "=r"(mkstone$$1$$6$$1$$__v) : "0"(__x) : "cc");
-      tmp_statement_expression$5 = mkstone$$1$$6$$1$$__v;
-      stone->port = (signed int)tmp_statement_expression$5;
+      asm("rorw _8, %w0" : "=r"(mkstone__1__6__1____v) : "0"(__x) : "cc");
+      tmp_statement_expression_5 = mkstone__1__6__1____v;
+      stone->port = (signed int)tmp_statement_expression_5;
     }
   if((proto & proto_command) == 0x0400 || (proto & proto_command) == 0x0500 || (proto & proto_command) == 0x0600)
   {
     stone->ndsts = (signed short int)1;
     if((proto & proto_command) == 0x0600)
     {
-      void *return_value_malloc$6;
-      return_value_malloc$6=malloc(sizeof(struct anonymous$0 *) /*8ul*/  + sizeof(struct _PortXHosts *) /*8ul*/ );
-      stone->dsts = (struct anonymous$0 **)return_value_malloc$6;
-      if(!(stone->dsts == ((struct anonymous$0 **)NULL)))
+      void *return_value_malloc_6;
+      return_value_malloc_6=malloc(sizeof(struct anonymous_0 *) /*8ul*/  + sizeof(struct _PortXHosts *) /*8ul*/ );
+      stone->dsts = (struct anonymous_0 **)return_value_malloc_6;
+      if(!(stone->dsts == ((struct anonymous_0 **)NULL)))
         ((struct _PortXHosts **)stone->dsts)[(signed long int)1] = portXHosts;
 
     }
 
     else
     {
-      void *return_value_malloc$7;
-      return_value_malloc$7=malloc(sizeof(struct anonymous$0 *) /*8ul*/ );
-      stone->dsts = (struct anonymous$0 **)return_value_malloc$7;
+      void *return_value_malloc_7;
+      return_value_malloc_7=malloc(sizeof(struct anonymous_0 *) /*8ul*/ );
+      stone->dsts = (struct anonymous_0 **)return_value_malloc_7;
     }
-    if(stone->dsts == ((struct anonymous$0 **)NULL))
+    if(stone->dsts == ((struct anonymous_0 **)NULL))
       goto memerr;
 
     stone->dsts[(signed long int)0]=saDup(sa, salen);
@@ -14963,25 +14963,25 @@ struct _Stone * mkstone(char *dhost, char *dserv, char *host, char *serv, signed
       struct sockaddr_storage dss;
       struct sockaddr_un *sun = (struct sockaddr_un *)&dss;
       stone->ndsts = (signed short int)1;
-      void *return_value_malloc$8;
-      return_value_malloc$8=malloc(sizeof(struct anonymous$0 *) /*8ul*/ );
-      stone->dsts = (struct anonymous$0 **)return_value_malloc$8;
-      if(stone->dsts == ((struct anonymous$0 **)NULL))
+      void *return_value_malloc_8;
+      return_value_malloc_8=malloc(sizeof(struct anonymous_0 *) /*8ul*/ );
+      stone->dsts = (struct anonymous_0 **)return_value_malloc_8;
+      if(stone->dsts == ((struct anonymous_0 **)NULL))
         goto memerr;
 
       bzero((void *)sun, sizeof(struct sockaddr_storage) /*128ul*/ );
       sun->sun_family = (unsigned short int)1;
       snprintf(sun->sun_path, sizeof(char [108l]) /*108ul*/  - (unsigned long int)1, "%s", dhost);
       stone->dsts[(signed long int)0]=saDup((struct sockaddr *)sun, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
-      if(*stone->dsts == ((struct anonymous$0 *)NULL))
+      if(*stone->dsts == ((struct anonymous_0 *)NULL))
         goto memerr;
 
     }
 
     else
     {
-      struct sockaddr_storage mkstone$$1$$9$$dss;
-      struct sockaddr *dsa = (struct sockaddr *)&mkstone$$1$$9$$dss;
+      struct sockaddr_storage mkstone__1__9__dss;
+      struct sockaddr *dsa = (struct sockaddr *)&mkstone__1__9__dss;
       unsigned int dsalen = (unsigned int)sizeof(struct sockaddr_storage) /*128ul*/ ;
       signed int dsatype;
       signed int dsaproto;
@@ -15002,9 +15002,9 @@ struct _Stone * mkstone(char *dhost, char *dserv, char *host, char *serv, signed
         dsatype = 1;
         dsaproto = 6;
       }
-      signed int return_value_host2sa$9;
-      return_value_host2sa$9=host2sa(dhost, dserv, dsa, &dsalen, &dsatype, &dsaproto, 0);
-      if(return_value_host2sa$9 == 0)
+      signed int return_value_host2sa_9;
+      return_value_host2sa_9=host2sa(dhost, dserv, dsa, &dsalen, &dsatype, &dsaproto, 0);
+      if(return_value_host2sa_9 == 0)
         exit(1);
 
       lbset=findLBSet(dsa);
@@ -15017,10 +15017,10 @@ struct _Stone * mkstone(char *dhost, char *dserv, char *host, char *serv, signed
       else
       {
         stone->ndsts = (signed short int)1;
-        void *return_value_malloc$10;
-        return_value_malloc$10=malloc(sizeof(struct anonymous$0 *) /*8ul*/ );
-        stone->dsts = (struct anonymous$0 **)return_value_malloc$10;
-        if(stone->dsts == ((struct anonymous$0 **)NULL))
+        void *return_value_malloc_10;
+        return_value_malloc_10=malloc(sizeof(struct anonymous_0 *) /*8ul*/ );
+        stone->dsts = (struct anonymous_0 **)return_value_malloc_10;
+        if(stone->dsts == ((struct anonymous_0 **)NULL))
         {
 
         memerr:
@@ -15030,30 +15030,30 @@ struct _Stone * mkstone(char *dhost, char *dserv, char *host, char *serv, signed
         }
 
         stone->dsts[(signed long int)0]=saDup(dsa, dsalen);
-        if(*stone->dsts == ((struct anonymous$0 *)NULL))
+        if(*stone->dsts == ((struct anonymous_0 *)NULL))
           goto memerr;
 
       }
     }
   stone->proto = proto;
   stone->from = ConnectFrom;
-  signed int return_value_reusestone$17;
-  return_value_reusestone$17=reusestone(stone);
-  if(return_value_reusestone$17 == 0)
+  signed int return_value_reusestone_17;
+  return_value_reusestone_17=reusestone(stone);
+  if(return_value_reusestone_17 == 0)
   {
     stone->sd=socket((signed int)sa->sa_family, satype, saproto);
     if(!(stone->sd >= 0))
     {
-      signed int *return_value___errno_location$11;
-      return_value___errno_location$11=__errno_location();
-      message(3, "stone %d: Can't get socket family=%d type=%d proto=%d err=%d", stone->sd, sa->sa_family, satype, saproto, *return_value___errno_location$11);
+      signed int *return_value___errno_location_11;
+      return_value___errno_location_11=__errno_location();
+      message(3, "stone %d: Can't get socket family=%d type=%d proto=%d err=%d", stone->sd, sa->sa_family, satype, saproto, *return_value___errno_location_11);
       exit(1);
     }
 
     if(!((proto & proto_ip_only_s) == 0) && !((proto & proto_v6_s) == 0))
     {
-      signed int mkstone$$1$$10$$2$$i = 1;
-      setsockopt(stone->sd, 41, 26, (const void *)(char *)&mkstone$$1$$10$$2$$i, (unsigned int)sizeof(signed int) /*4ul*/ );
+      signed int mkstone__1__10__2__i = 1;
+      setsockopt(stone->sd, 41, 26, (const void *)(char *)&mkstone__1__10__2__i, (unsigned int)sizeof(signed int) /*4ul*/ );
     }
 
     if((proto & proto_udp_s) == 0 && !(ReuseAddr == 0))
@@ -15075,16 +15075,16 @@ struct _Stone * mkstone(char *dhost, char *dserv, char *host, char *serv, signed
     else
       if(DryRun == 0)
       {
-        signed int return_value_bind$13;
-        return_value_bind$13=bind(stone->sd, sa, salen);
-        if(!(return_value_bind$13 >= 0))
+        signed int return_value_bind_13;
+        return_value_bind_13=bind(stone->sd, sa, salen);
+        if(!(return_value_bind_13 >= 0))
         {
           char str[128l];
           addrport2str(sa, salen, 0, str, 127, 0);
           str[(signed long int)127] = (char)0;
-          signed int *return_value___errno_location$12;
-          return_value___errno_location$12=__errno_location();
-          message(3, "stone %d: Can't bind %s err=%d", stone->sd, (const void *)str, *return_value___errno_location$12);
+          signed int *return_value___errno_location_12;
+          return_value___errno_location_12=__errno_location();
+          message(3, "stone %d: Can't bind %s err=%d", stone->sd, (const void *)str, *return_value___errno_location_12);
           exit(1);
         }
 
@@ -15094,22 +15094,22 @@ struct _Stone * mkstone(char *dhost, char *dserv, char *host, char *serv, signed
         if(stone->port == 0)
         {
           salen = (unsigned int)sizeof(struct sockaddr_storage) /*128ul*/ ;
-          signed int return_value_getsockname$14;
-          return_value_getsockname$14=getsockname(stone->sd, sa, &salen);
-          if(return_value_getsockname$14 >= 0)
+          signed int return_value_getsockname_14;
+          return_value_getsockname_14=getsockname(stone->sd, sa, &salen);
+          if(return_value_getsockname_14 >= 0)
             stone->port=getport(sa);
 
         }
 
         if((proto & proto_udp_s) == 0)
         {
-          signed int return_value_listen$16;
-          return_value_listen$16=listen(stone->sd, BacklogMax);
-          if(!(return_value_listen$16 >= 0))
+          signed int return_value_listen_16;
+          return_value_listen_16=listen(stone->sd, BacklogMax);
+          if(!(return_value_listen_16 >= 0))
           {
-            signed int *return_value___errno_location$15;
-            return_value___errno_location$15=__errno_location();
-            message(3, "stone %d: Can't listen err=%d", stone->sd, *return_value___errno_location$15);
+            signed int *return_value___errno_location_15;
+            return_value___errno_location_15=__errno_location();
+            message(3, "stone %d: Can't listen err=%d", stone->sd, *return_value___errno_location_15);
             exit(1);
           }
 
@@ -15137,28 +15137,28 @@ struct _Stone * mkstone(char *dhost, char *dserv, char *host, char *serv, signed
   }
 
   else
-    stone->ssl_server = (struct anonymous$12 *)(void *)0;
-  _Bool tmp_if_expr$18;
+    stone->ssl_server = (struct anonymous_12 *)(void *)0;
+  _Bool tmp_if_expr_18;
   if(!((proto & proto_ssl_d) == 0))
   {
     exPatOpts(&ClientOpts, host, dhost);
     stone->ssl_client=mkStoneSSL(&ClientOpts, 0);
     if(!(stone->ssl_client->name == ((char *)NULL)))
-      tmp_if_expr$18 = *stone->ssl_client->name != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_18 = *stone->ssl_client->name != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$18 = (_Bool)0;
-    if(!tmp_if_expr$18)
+      tmp_if_expr_18 = (_Bool)0;
+    if(!tmp_if_expr_18)
       stone->ssl_client->name = dhost;
 
   }
 
   else
-    stone->ssl_client = (struct anonymous$12 *)(void *)0;
+    stone->ssl_client = (struct anonymous_12 *)(void *)0;
   mesg = (char *)(void *)0;
   if(Debug >= 2)
   {
-    mesg = mkstone$$1$$str;
+    mesg = mkstone__1__str;
     if((proto & proto_command) == 0x0600)
       snprintf(mesg, (unsigned long int)127, "stone %d: using proxy by ", stone->sd);
 
@@ -15180,15 +15180,15 @@ struct _Stone * mkstone(char *dhost, char *dserv, char *host, char *serv, signed
   }
 
   family = (unsigned short int)2;
-  _Bool tmp_if_expr$19;
+  _Bool tmp_if_expr_19;
   if(!((stone->proto & proto_v6_s) == 0))
   {
     if(host == ((char *)NULL))
-      tmp_if_expr$19 = !((stone->proto & proto_ip_only_s) != 0) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_19 = !((stone->proto & proto_ip_only_s) != 0) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$19 = (_Bool)0;
-    if(tmp_if_expr$19)
+      tmp_if_expr_19 = (_Bool)0;
+    if(tmp_if_expr_19)
       family = (unsigned short int)0;
 
     else
@@ -15196,35 +15196,35 @@ struct _Stone * mkstone(char *dhost, char *dserv, char *host, char *serv, signed
   }
 
   stone->xhosts=mkXhosts(nhosts, hosts, family, mesg);
-  char *return_value_stone2str$20;
-  return_value_stone2str$20=stone2str(stone, mkstone$$1$$str, 127);
-  message(6, "%s", return_value_stone2str$20);
+  char *return_value_stone2str_20;
+  return_value_stone2str_20=stone2str(stone, mkstone__1__str, 127);
+  message(6, "%s", return_value_stone2str_20);
   stone->backups = (struct _Backup **)(void *)0;
   if((proto & proto_nobackup) == 0 && !((proto & proto_command) == 0x0400) && !((proto & proto_command) == 0x0500) && !((proto & proto_command) == 0x0600))
   {
     struct _Backup *bs[100l];
     signed int found = 0;
-    signed int mkstone$$1$$17$$i = 0;
-    for( ; !(mkstone$$1$$17$$i >= (signed int)stone->ndsts); mkstone$$1$$17$$i = mkstone$$1$$17$$i + 1)
+    signed int mkstone__1__17__i = 0;
+    for( ; !(mkstone__1__17__i >= (signed int)stone->ndsts); mkstone__1__17__i = mkstone__1__17__i + 1)
     {
-      bs[(signed long int)mkstone$$1$$17$$i]=findBackup(&stone->dsts[(signed long int)mkstone$$1$$17$$i]->addr);
-      if(!(bs[(signed long int)mkstone$$1$$17$$i] == ((struct _Backup *)NULL)))
+      bs[(signed long int)mkstone__1__17__i]=findBackup(&stone->dsts[(signed long int)mkstone__1__17__i]->addr);
+      if(!(bs[(signed long int)mkstone__1__17__i] == ((struct _Backup *)NULL)))
       {
         found = 1;
-        bs[(signed long int)mkstone$$1$$17$$i]->used = (signed short int)1;
+        bs[(signed long int)mkstone__1__17__i]->used = (signed short int)1;
       }
 
     }
     if(!(found == 0))
     {
-      void *return_value_malloc$21;
-      return_value_malloc$21=malloc(sizeof(struct _Backup *) /*8ul*/  * (unsigned long int)stone->ndsts);
-      stone->backups = (struct _Backup **)return_value_malloc$21;
+      void *return_value_malloc_21;
+      return_value_malloc_21=malloc(sizeof(struct _Backup *) /*8ul*/  * (unsigned long int)stone->ndsts);
+      stone->backups = (struct _Backup **)return_value_malloc_21;
       if(!(stone->backups == ((struct _Backup **)NULL)))
       {
-        mkstone$$1$$17$$i = 0;
-        for( ; !(mkstone$$1$$17$$i >= (signed int)stone->ndsts); mkstone$$1$$17$$i = mkstone$$1$$17$$i + 1)
-          stone->backups[(signed long int)mkstone$$1$$17$$i] = bs[(signed long int)mkstone$$1$$17$$i];
+        mkstone__1__17__i = 0;
+        for( ; !(mkstone__1__17__i >= (signed int)stone->ndsts); mkstone__1__17__i = mkstone__1__17__i + 1)
+          stone->backups[(signed long int)mkstone__1__17__i] = bs[(signed long int)mkstone__1__17__i];
       }
 
     }
@@ -15243,8 +15243,8 @@ signed int modPairDest(struct _Pair *p1, struct sockaddr *dst, unsigned int dstl
   signed int offset = -1;
   struct ssl_st *ssl;
   p2 = p1->pair;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if(p2 == ((struct _Pair *)NULL))
     return -1;
 
@@ -15262,23 +15262,23 @@ signed int modPairDest(struct _Pair *p1, struct sockaddr *dst, unsigned int dstl
         {
           char str[65l];
           signed int len = (signed int)sess->session_id_length;
-          signed int modPairDest$$1$$1$$1$$1$$i;
+          signed int modPairDest__1__1__1__1__i;
           if(len >= 33)
             len = 32;
 
-          modPairDest$$1$$1$$1$$1$$i = 0;
-          for( ; !(modPairDest$$1$$1$$1$$1$$i >= len); modPairDest$$1$$1$$1$$1$$i = modPairDest$$1$$1$$1$$1$$i + 1)
-            sprintf(&str[(signed long int)(modPairDest$$1$$1$$1$$1$$i * 2)], "%02x", sess->session_id[(signed long int)modPairDest$$1$$1$$1$$1$$i]);
-          str[(signed long int)(modPairDest$$1$$1$$1$$1$$i * 2)] = (char)0;
+          modPairDest__1__1__1__1__i = 0;
+          for( ; !(modPairDest__1__1__1__1__i >= len); modPairDest__1__1__1__1__i = modPairDest__1__1__1__1__i + 1)
+            sprintf(&str[(signed long int)(modPairDest__1__1__1__1__i * 2)], "%02x", sess->session_id[(signed long int)modPairDest__1__1__1__1__i]);
+          str[(signed long int)(modPairDest__1__1__1__1__i * 2)] = (char)0;
           message(7, "%d TCP %d: SSL session ID=%s len=%d", p2->stone->sd, p2->sd, (const void *)str, sess->session_id_length);
         }
 
-        void *return_value_SSL_SESSION_get_ex_data$1;
-        return_value_SSL_SESSION_get_ex_data$1=SSL_SESSION_get_ex_data(sess, MatchIndex);
-        match = (unsigned char **)return_value_SSL_SESSION_get_ex_data$1;
+        void *return_value_SSL_SESSION_get_ex_data_1;
+        return_value_SSL_SESSION_get_ex_data_1=SSL_SESSION_get_ex_data(sess, MatchIndex);
+        match = (unsigned char **)return_value_SSL_SESSION_get_ex_data_1;
         if(!(match == ((unsigned char **)NULL)))
         {
-          if(!(p2->stone->ssl_server == ((struct anonymous$12 *)NULL)))
+          if(!(p2->stone->ssl_server == ((struct anonymous_12 *)NULL)))
           {
             signed int lbparm = (signed int)p2->stone->ssl_server->lbparm;
             signed int lbmod = (signed int)p2->stone->ssl_server->lbmod;
@@ -15300,11 +15300,11 @@ signed int modPairDest(struct _Pair *p1, struct sockaddr *dst, unsigned int dstl
                 if(offset2 >= 0)
                 {
                   if((signed int)*s >= 48)
-                    tmp_if_expr$2 = (signed int)*s <= 57 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_2 = (signed int)*s <= 57 ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$2 = (_Bool)0;
-                  if(tmp_if_expr$2)
+                    tmp_if_expr_2 = (_Bool)0;
+                  if(tmp_if_expr_2)
                     offset2 = offset2 * 10 + ((signed int)*s - 48);
 
                   else
@@ -15345,11 +15345,11 @@ signed int modPairDest(struct _Pair *p1, struct sockaddr *dst, unsigned int dstl
           {
             struct _Backup *b = p1->stone->backups[(signed long int)((offset + i) % n)];
             if(b == ((struct _Backup *)NULL))
-              tmp_if_expr$3 = (_Bool)1;
+              tmp_if_expr_3 = (_Bool)1;
 
             else
-              tmp_if_expr$3 = (signed int)b->bn == 0 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$3)
+              tmp_if_expr_3 = (signed int)b->bn == 0 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_3)
             {
               offset = (offset + i) % n;
               break;
@@ -15419,7 +15419,7 @@ signed int nOrigins(void)
   signed int n = 0;
   struct _Origin *origin = OriginTop;
   for( ; !(origin == ((struct _Origin *)NULL)); origin = origin->next)
-    if(!(origin->from == ((struct anonymous$0 *)NULL)))
+    if(!(origin->from == ((struct anonymous_0 *)NULL)))
       n = n + 1;
 
   return n;
@@ -15472,10 +15472,10 @@ struct _ExBuf * newExData(struct _Pair *pair, signed int type)
 static signed int newMatch(void *parent, void *ptr, struct crypto_ex_data_st *ad, signed int idx, signed long int argl, void *argp)
 {
   char **match;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)(9 + 1));
-  match = (char **)return_value_malloc$1;
-  signed int tmp_post$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)(9 + 1));
+  match = (char **)return_value_malloc_1;
+  signed int tmp_post_2;
   if(!(match == ((char **)NULL)))
   {
     signed int i = 0;
@@ -15483,14 +15483,14 @@ static signed int newMatch(void *parent, void *ptr, struct crypto_ex_data_st *ad
       match[(signed long int)i] = (char *)(void *)0;
     if(Debug >= 5)
     {
-      tmp_post$2 = NewMatchCount;
+      tmp_post_2 = NewMatchCount;
       NewMatchCount = NewMatchCount + 1;
-      message(7, "newMatch %d: %x", tmp_post$2, (signed int)match);
+      message(7, "newMatch %d: %x", tmp_post_2, (signed int)match);
     }
 
-    signed int return_value_CRYPTO_set_ex_data$3;
-    return_value_CRYPTO_set_ex_data$3=CRYPTO_set_ex_data(ad, idx, (void *)match);
-    return return_value_CRYPTO_set_ex_data$3;
+    signed int return_value_CRYPTO_set_ex_data_3;
+    return_value_CRYPTO_set_ex_data_3=CRYPTO_set_ex_data(ad, idx, (void *)match);
+    return return_value_CRYPTO_set_ex_data_3;
   }
 
   return 0;
@@ -15510,11 +15510,11 @@ struct _Pair * newPair(void)
   }
 
   freeMutex(8);
-  void *return_value_malloc$1;
+  void *return_value_malloc_1;
   if(pair == ((struct _Pair *)NULL))
   {
-    return_value_malloc$1=malloc(sizeof(struct _Pair) /*136ul*/ );
-    pair = (struct _Pair *)return_value_malloc$1;
+    return_value_malloc_1=malloc(sizeof(struct _Pair) /*136ul*/ );
+    pair = (struct _Pair *)return_value_malloc_1;
   }
 
   if(!(pair == ((struct _Pair *)NULL)))
@@ -15557,40 +15557,40 @@ struct _IO_FILE * openconfig(void)
 {
   signed int pfd[2l];
   char host[64l];
-  _Bool tmp_if_expr$17;
+  _Bool tmp_if_expr_17;
   if(!(CppCommand == ((char *)NULL)))
-    tmp_if_expr$17 = (signed int)*CppCommand != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_17 = (signed int)*CppCommand != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$17 = (_Bool)0;
-  signed int tmp_post$5;
-  const unsigned short int **return_value___ctype_b_loc$6;
-  struct _IO_FILE *return_value_fopen$16;
-  if(tmp_if_expr$17)
+    tmp_if_expr_17 = (_Bool)0;
+  signed int tmp_post_5;
+  const unsigned short int **return_value___ctype_b_loc_6;
+  struct _IO_FILE *return_value_fopen_16;
+  if(tmp_if_expr_17)
   {
-    signed int return_value_gethostname$2;
-    return_value_gethostname$2=gethostname(host, (unsigned long int)(64 - 1));
-    if(!(return_value_gethostname$2 >= 0))
+    signed int return_value_gethostname_2;
+    return_value_gethostname_2=gethostname(host, (unsigned long int)(64 - 1));
+    if(!(return_value_gethostname_2 >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      message(3, "gethostname err=%d", *return_value___errno_location$1);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      message(3, "gethostname err=%d", *return_value___errno_location_1);
       exit(1);
     }
 
-    signed int return_value_pipe$4;
-    return_value_pipe$4=pipe(pfd);
-    if(!(return_value_pipe$4 >= 0))
+    signed int return_value_pipe_4;
+    return_value_pipe_4=pipe(pfd);
+    if(!(return_value_pipe_4 >= 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      message(3, "Can't get pipe err=%d", *return_value___errno_location$3);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      message(3, "Can't get pipe err=%d", *return_value___errno_location_3);
       exit(1);
     }
 
-    signed int return_value_fork$14;
-    return_value_fork$14=fork();
-    if(return_value_fork$14 == 0)
+    signed int return_value_fork_14;
+    return_value_fork_14=fork();
+    if(return_value_fork_14 == 0)
     {
       char *argv[1024l];
       signed int i = 0;
@@ -15605,17 +15605,17 @@ struct _IO_FILE * openconfig(void)
       argv[(signed long int)i] = "cpp";
       while(!(buf[(signed long int)len] == 0))
       {
-        const unsigned short int **return_value___ctype_b_loc$7;
-        return_value___ctype_b_loc$7=__ctype_b_loc();
-        if(!((8192 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)buf[(signed long int)len]]) == 0))
+        const unsigned short int **return_value___ctype_b_loc_7;
+        return_value___ctype_b_loc_7=__ctype_b_loc();
+        if(!((8192 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)buf[(signed long int)len]]) == 0))
         {
-          tmp_post$5 = len;
+          tmp_post_5 = len;
           len = len + 1;
-          buf[(signed long int)tmp_post$5] = (char)0;
+          buf[(signed long int)tmp_post_5] = (char)0;
           for( ; !(buf[(signed long int)len] == 0); len = len + 1)
           {
-            return_value___ctype_b_loc$6=__ctype_b_loc();
-            if((8192 & (signed int)(*return_value___ctype_b_loc$6)[(signed long int)(signed int)buf[(signed long int)len]]) == 0)
+            return_value___ctype_b_loc_6=__ctype_b_loc();
+            if((8192 & (signed int)(*return_value___ctype_b_loc_6)[(signed long int)(signed int)buf[(signed long int)len]]) == 0)
               break;
 
           }
@@ -15635,9 +15635,9 @@ struct _IO_FILE * openconfig(void)
       i = i + 1;
       argv[(signed long int)i] = buf + (signed long int)len;
       snprintf(argv[(signed long int)i], (unsigned long int)(2048 - len), "-DHOST=%s", (const void *)host);
-      unsigned long int return_value_strlen$8;
-      return_value_strlen$8=strlen(argv[(signed long int)i]);
-      len = len + (signed int)(return_value_strlen$8 + (unsigned long int)1);
+      unsigned long int return_value_strlen_8;
+      return_value_strlen_8=strlen(argv[(signed long int)i]);
+      len = len + (signed int)(return_value_strlen_8 + (unsigned long int)1);
       i = i + 1;
       argv[(signed long int)i] = buf + (signed long int)len;
       p = host;
@@ -15646,21 +15646,21 @@ struct _IO_FILE * openconfig(void)
           *p = (char)95;
 
       snprintf(argv[(signed long int)i], (unsigned long int)(2048 - len), "-DHOST_%s", (const void *)host);
-      unsigned long int return_value_strlen$9;
-      return_value_strlen$9=strlen(argv[(signed long int)i]);
-      len = len + (signed int)(return_value_strlen$9 + (unsigned long int)1);
-      char *return_value_getenv$12;
-      return_value_getenv$12=getenv("HOME");
-      if(!(return_value_getenv$12 == ((char *)NULL)))
+      unsigned long int return_value_strlen_9;
+      return_value_strlen_9=strlen(argv[(signed long int)i]);
+      len = len + (signed int)(return_value_strlen_9 + (unsigned long int)1);
+      char *return_value_getenv_12;
+      return_value_getenv_12=getenv("HOME");
+      if(!(return_value_getenv_12 == ((char *)NULL)))
       {
         i = i + 1;
         argv[(signed long int)i] = buf + (signed long int)len;
-        char *return_value_getenv$10;
-        return_value_getenv$10=getenv("HOME");
-        snprintf(argv[(signed long int)i], (unsigned long int)(2048 - len), "-DHOME=%s", return_value_getenv$10);
-        unsigned long int return_value_strlen$11;
-        return_value_strlen$11=strlen(argv[(signed long int)i]);
-        len = len + (signed int)(return_value_strlen$11 + (unsigned long int)1);
+        char *return_value_getenv_10;
+        return_value_getenv_10=getenv("HOME");
+        snprintf(argv[(signed long int)i], (unsigned long int)(2048 - len), "-DHOME=%s", return_value_getenv_10);
+        unsigned long int return_value_strlen_11;
+        return_value_strlen_11=strlen(argv[(signed long int)i]);
+        len = len + (signed int)(return_value_strlen_11 + (unsigned long int)1);
       }
 
       i = i + 1;
@@ -15678,9 +15678,9 @@ struct _IO_FILE * openconfig(void)
         i = 0;
         for( ; !(argv[(signed long int)i] == ((char *)NULL)); i = i + 1)
         {
-          unsigned long int return_value_strlen$13;
-          return_value_strlen$13=strlen(str);
-          len = (signed int)return_value_strlen$13;
+          unsigned long int return_value_strlen_13;
+          return_value_strlen_13=strlen(str);
+          len = (signed int)return_value_strlen_13;
           snprintf(&str[(signed long int)len], (unsigned long int)(2048 - len), " %s", argv[(signed long int)i]);
         }
         message(7, "%s", (const void *)str);
@@ -15690,15 +15690,15 @@ struct _IO_FILE * openconfig(void)
     }
 
     close(pfd[(signed long int)1]);
-    struct _IO_FILE *return_value_fdopen$15;
-    return_value_fdopen$15=fdopen(pfd[(signed long int)0], "r");
-    return return_value_fdopen$15;
+    struct _IO_FILE *return_value_fdopen_15;
+    return_value_fdopen_15=fdopen(pfd[(signed long int)0], "r");
+    return return_value_fdopen_15;
   }
 
   else
   {
-    return_value_fopen$16=fopen(ConfigFile, "r");
-    return return_value_fopen$16;
+    return_value_fopen_16=fopen(ConfigFile, "r");
+    return return_value_fopen_16;
   }
 }
 
@@ -15717,45 +15717,45 @@ void packet_dump(char *head, char *buf, signed int len, struct _XHosts *xhost)
   k = l;
   j = k;
   i = 0;
-  signed int tmp_post$1;
-  _Bool tmp_if_expr$4;
-  signed int tmp_post$2;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  signed int tmp_post$8;
-  _Bool tmp_if_expr$11;
-  signed int tmp_post$9;
-  signed int tmp_post$10;
+  signed int tmp_post_1;
+  _Bool tmp_if_expr_4;
+  signed int tmp_post_2;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  signed int tmp_post_8;
+  _Bool tmp_if_expr_11;
+  signed int tmp_post_9;
+  signed int tmp_post_10;
   for( ; !(i >= len); i = i + j)
   {
     if(!(mode >= 3))
     {
       nb = 16;
       l = 0;
-      tmp_post$1 = l;
+      tmp_post_1 = l;
       l = l + 1;
-      line[(signed long int)tmp_post$1] = (char)32;
+      line[(signed long int)tmp_post_1] = (char)32;
       j = 0;
       for( ; j / 10 >= k && !(i + j >= len) && !(l >= 1024); j = j + 1)
       {
         if((signed int)buf[(signed long int)(i + j)] >= 32)
-          tmp_if_expr$4 = (signed int)buf[(signed long int)(i + j)] <= 126 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (signed int)buf[(signed long int)(i + j)] <= 126 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
         {
-          tmp_post$2 = l;
+          tmp_post_2 = l;
           l = l + 1;
-          line[(signed long int)tmp_post$2] = buf[(signed long int)(i + j)];
+          line[(signed long int)tmp_post_2] = buf[(signed long int)(i + j)];
         }
 
         else
         {
           sprintf(&line[(signed long int)l], "<%02x>", buf[(signed long int)(i + j)]);
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(&line[(signed long int)l]);
-          l = l + (signed int)return_value_strlen$3;
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(&line[(signed long int)l]);
+          l = l + (signed int)return_value_strlen_3;
           if((signed int)buf[(signed long int)(i + j)] == 10)
           {
             k = 0;
@@ -15788,16 +15788,16 @@ void packet_dump(char *head, char *buf, signed int len, struct _XHosts *xhost)
         if(mode == 1)
         {
           if((signed int)buf[(signed long int)(i + j)] >= 32)
-            tmp_if_expr$5 = (signed int)buf[(signed long int)(i + j)] <= 126 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = (signed int)buf[(signed long int)(i + j)] <= 126 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = (_Bool)0;
+          tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
           sprintf(&line[(signed long int)l], " '%c", buf[(signed long int)(i + j)]);
 
         else
@@ -15809,37 +15809,37 @@ void packet_dump(char *head, char *buf, signed int len, struct _XHosts *xhost)
           else
             k = k + 1;
         }
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen(&line[(signed long int)l]);
-        l = l + (signed int)return_value_strlen$7;
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen(&line[(signed long int)l]);
+        l = l + (signed int)return_value_strlen_7;
       }
       if(!(nb >= 16))
       {
-        for( ; !(l >= 3 * nb + 2); line[(signed long int)tmp_post$8] = (char)32)
+        for( ; !(l >= 3 * nb + 2); line[(signed long int)tmp_post_8] = (char)32)
         {
-          tmp_post$8 = l;
+          tmp_post_8 = l;
           l = l + 1;
         }
         j = 0;
         for( ; !(i + j >= len) && !(j >= nb); j = j + 1)
         {
           if((signed int)buf[(signed long int)(i + j)] >= 32)
-            tmp_if_expr$11 = (signed int)buf[(signed long int)(i + j)] <= 126 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_11 = (signed int)buf[(signed long int)(i + j)] <= 126 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$11 = (_Bool)0;
-          if(tmp_if_expr$11)
+            tmp_if_expr_11 = (_Bool)0;
+          if(tmp_if_expr_11)
           {
-            tmp_post$9 = l;
+            tmp_post_9 = l;
             l = l + 1;
-            line[(signed long int)tmp_post$9] = buf[(signed long int)(i + j)];
+            line[(signed long int)tmp_post_9] = buf[(signed long int)(i + j)];
           }
 
           else
           {
-            tmp_post$10 = l;
+            tmp_post_10 = l;
             l = l + 1;
-            line[(signed long int)tmp_post$10] = (char)46;
+            line[(signed long int)tmp_post_10] = (char)46;
           }
         }
       }
@@ -15857,9 +15857,9 @@ static signed int passwd_callback(char *buf, signed int size, signed int rwflag,
 {
   __builtin_strncpy(buf, (char *)passwd, (unsigned long int)size);
   buf[(signed long int)(size - 1)] = (char)0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(buf);
-  return (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(buf);
+  return (signed int)return_value_strlen_1;
 }
 
 // printSSLinfo
@@ -15868,17 +15868,17 @@ static void printSSLinfo(signed int pri, struct ssl_st *ssl)
 {
   struct x509_st *peer;
   char *p;
-  const struct ssl_cipher_st *return_value_SSL_get_current_cipher$1;
-  return_value_SSL_get_current_cipher$1=SSL_get_current_cipher(ssl);
-  const char *return_value_SSL_CIPHER_get_name$2;
-  return_value_SSL_CIPHER_get_name$2=SSL_CIPHER_get_name(return_value_SSL_get_current_cipher$1);
-  p = (char *)return_value_SSL_CIPHER_get_name$2;
+  const struct ssl_cipher_st *return_value_SSL_get_current_cipher_1;
+  return_value_SSL_get_current_cipher_1=SSL_get_current_cipher(ssl);
+  const char *return_value_SSL_CIPHER_get_name_2;
+  return_value_SSL_CIPHER_get_name_2=SSL_CIPHER_get_name(return_value_SSL_get_current_cipher_1);
+  p = (char *)return_value_SSL_CIPHER_get_name_2;
   if(p == ((char *)NULL))
     p = "<NULL>";
 
   message(pri, "[SSL cipher=%s]", p);
   peer=SSL_get_peer_certificate(ssl);
-  signed long int return_value_ASN1_INTEGER_get$3;
+  signed long int return_value_ASN1_INTEGER_get_3;
   if(!(peer == ((struct x509_st *)NULL)))
   {
     char buf[1025l];
@@ -15886,23 +15886,23 @@ static void printSSLinfo(signed int pri, struct ssl_st *ssl)
     n=X509_get_serialNumber(peer);
     if(!(n == ((struct asn1_string_st *)NULL)))
     {
-      return_value_ASN1_INTEGER_get$3=ASN1_INTEGER_get(n);
-      message(pri, "[SSL serial=%lx]", return_value_ASN1_INTEGER_get$3);
+      return_value_ASN1_INTEGER_get_3=ASN1_INTEGER_get(n);
+      message(pri, "[SSL serial=%lx]", return_value_ASN1_INTEGER_get_3);
     }
 
     buf[(signed long int)1024] = (char)0;
-    struct X509_name_st *return_value_X509_get_subject_name$4;
-    return_value_X509_get_subject_name$4=X509_get_subject_name(peer);
-    char *return_value_X509_NAME_oneline$5;
-    return_value_X509_NAME_oneline$5=X509_NAME_oneline(return_value_X509_get_subject_name$4, buf, 1024);
-    if(!(return_value_X509_NAME_oneline$5 == ((char *)NULL)))
+    struct X509_name_st *return_value_X509_get_subject_name_4;
+    return_value_X509_get_subject_name_4=X509_get_subject_name(peer);
+    char *return_value_X509_NAME_oneline_5;
+    return_value_X509_NAME_oneline_5=X509_NAME_oneline(return_value_X509_get_subject_name_4, buf, 1024);
+    if(!(return_value_X509_NAME_oneline_5 == ((char *)NULL)))
       message(pri, "[SSL subject=%s]", (const void *)buf);
 
-    struct X509_name_st *return_value_X509_get_issuer_name$6;
-    return_value_X509_get_issuer_name$6=X509_get_issuer_name(peer);
-    char *return_value_X509_NAME_oneline$7;
-    return_value_X509_NAME_oneline$7=X509_NAME_oneline(return_value_X509_get_issuer_name$6, buf, 1024);
-    if(!(return_value_X509_NAME_oneline$7 == ((char *)NULL)))
+    struct X509_name_st *return_value_X509_get_issuer_name_6;
+    return_value_X509_get_issuer_name_6=X509_get_issuer_name(peer);
+    char *return_value_X509_NAME_oneline_7;
+    return_value_X509_NAME_oneline_7=X509_NAME_oneline(return_value_X509_get_issuer_name_6, buf, 1024);
+    if(!(return_value_X509_NAME_oneline_7 == ((char *)NULL)))
       message(pri, "[SSL issuer=%s]", (const void *)buf);
 
     X509_free(peer);
@@ -16079,9 +16079,9 @@ signed int proxyCONNECT(struct _Pair *pair, char *parm, signed int start)
   message_time(pair, 6, "CONNECT %s", parm);
   while(!(*r == 0))
   {
-    const unsigned short int **return_value___ctype_b_loc$1;
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if(!((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*r]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_1;
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if(!((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*r]) == 0))
     {
       *r = (char)0;
       break;
@@ -16104,9 +16104,9 @@ signed int proxyCONNECT(struct _Pair *pair, char *parm, signed int start)
   if(!(p == ((struct _Pair *)NULL)))
     p->proto = p->proto | proto_ohttp_s;
 
-  signed int return_value_doproxy$2;
-  return_value_doproxy$2=doproxy(pair, parm, port);
-  return return_value_doproxy$2;
+  signed int return_value_doproxy_2;
+  return_value_doproxy_2=doproxy(pair, parm, port);
+  return return_value_doproxy_2;
 }
 
 // proxyCommon
@@ -16127,26 +16127,26 @@ signed int proxyCommon(struct _Pair *pair, char *parm, signed int start)
     if((signed int)parm[(signed long int)i] == 58)
       break;
 
-  signed int return_value_strncmp$1;
-  return_value_strncmp$1=strncmp(parm, "http", (unsigned long int)i);
-  _Bool tmp_if_expr$2;
-  if(!(return_value_strncmp$1 == 0))
-    tmp_if_expr$2 = (_Bool)1;
+  signed int return_value_strncmp_1;
+  return_value_strncmp_1=strncmp(parm, "http", (unsigned long int)i);
+  _Bool tmp_if_expr_2;
+  if(!(return_value_strncmp_1 == 0))
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)parm[(signed long int)(i + 1)] != 47 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = (signed int)parm[(signed long int)(i + 1)] != 47 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = (signed int)parm[(signed long int)(i + 2)] != 47 ? (_Bool)1 : (_Bool)0;
-  char *tmp_post$4;
-  _Bool tmp_if_expr$6;
-  const unsigned short int **return_value___ctype_b_loc$7;
-  const unsigned short int **return_value___ctype_b_loc$8;
-  signed int tmp_if_expr$9;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (signed int)parm[(signed long int)(i + 2)] != 47 ? (_Bool)1 : (_Bool)0;
+  char *tmp_post_4;
+  _Bool tmp_if_expr_6;
+  const unsigned short int **return_value___ctype_b_loc_7;
+  const unsigned short int **return_value___ctype_b_loc_8;
+  signed int tmp_if_expr_9;
+  if(tmp_if_expr_3)
   {
     message(3, "Unknown URL format: %s", parm);
     return -1;
@@ -16160,21 +16160,21 @@ signed int proxyCommon(struct _Pair *pair, char *parm, signed int start)
       if((signed int)*p == 58)
       {
         port = p + (signed long int)1;
-        tmp_post$4 = p;
+        tmp_post_4 = p;
         p = p + 1l;
-        *tmp_post$4 = (char)0;
+        *tmp_post_4 = (char)0;
       }
 
       else
       {
-        const unsigned short int **return_value___ctype_b_loc$5;
-        return_value___ctype_b_loc$5=__ctype_b_loc();
-        if(!((8192 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)*p]) == 0))
-          tmp_if_expr$6 = (_Bool)1;
+        const unsigned short int **return_value___ctype_b_loc_5;
+        return_value___ctype_b_loc_5=__ctype_b_loc();
+        if(!((8192 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)*p]) == 0))
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = (signed int)*p == 47 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (signed int)*p == 47 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
         {
           *p = (char)0;
           break;
@@ -16186,8 +16186,8 @@ signed int proxyCommon(struct _Pair *pair, char *parm, signed int start)
     p = top;
     do
     {
-      return_value___ctype_b_loc$7=__ctype_b_loc();
-      if(!((8192 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)*p]) == 0))
+      return_value___ctype_b_loc_7=__ctype_b_loc();
+      if(!((8192 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)*p]) == 0))
         break;
 
       p = p + 1l;
@@ -16195,8 +16195,8 @@ signed int proxyCommon(struct _Pair *pair, char *parm, signed int start)
     while((_Bool)1);
     do
     {
-      return_value___ctype_b_loc$8=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$8)[(signed long int)(signed int)*p]) == 0)
+      return_value___ctype_b_loc_8=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_8)[(signed long int)(signed int)*p]) == 0)
         break;
 
       p = p + 1l;
@@ -16216,18 +16216,18 @@ signed int proxyCommon(struct _Pair *pair, char *parm, signed int start)
     {
       struct _Pair *r = pair->pair;
       if(!(r == ((struct _Pair *)NULL)))
-        tmp_if_expr$9 = r->sd;
+        tmp_if_expr_9 = r->sd;
 
       else
-        tmp_if_expr$9 = -1;
-      message(7, "proxy %d -> http://%s:%s", tmp_if_expr$9, host, port);
+        tmp_if_expr_9 = -1;
+      message(7, "proxy %d -> http://%s:%s", tmp_if_expr_9, host, port);
     }
 
     pair->proto = pair->proto & ~(proto_noconnect | state_mask);
     pair->proto = pair->proto | proto_dirty | 1;
-    signed int return_value_doproxy$10;
-    return_value_doproxy$10=doproxy(pair, host, port);
-    return return_value_doproxy$10;
+    signed int return_value_doproxy_10;
+    return_value_doproxy_10=doproxy(pair, host, port);
+    return return_value_doproxy_10;
   }
 }
 
@@ -16244,9 +16244,9 @@ signed int proxyErr(struct _Pair *pair, char *parm, signed int start)
 signed int proxyGET(struct _Pair *pair, char *parm, signed int start)
 {
   message_time(pair, 6, "GET %s", parm);
-  signed int return_value_proxyCommon$1;
-  return_value_proxyCommon$1=proxyCommon(pair, parm, start);
-  return return_value_proxyCommon$1;
+  signed int return_value_proxyCommon_1;
+  return_value_proxyCommon_1=proxyCommon(pair, parm, start);
+  return return_value_proxyCommon_1;
 }
 
 // proxyHEAD
@@ -16254,9 +16254,9 @@ signed int proxyGET(struct _Pair *pair, char *parm, signed int start)
 signed int proxyHEAD(struct _Pair *pair, char *parm, signed int start)
 {
   message_time(pair, 6, "HEAD %s", parm);
-  signed int return_value_proxyCommon$1;
-  return_value_proxyCommon$1=proxyCommon(pair, parm, start);
-  return return_value_proxyCommon$1;
+  signed int return_value_proxyCommon_1;
+  return_value_proxyCommon_1=proxyCommon(pair, parm, start);
+  return return_value_proxyCommon_1;
 }
 
 // proxyPOST
@@ -16264,9 +16264,9 @@ signed int proxyHEAD(struct _Pair *pair, char *parm, signed int start)
 signed int proxyPOST(struct _Pair *pair, char *parm, signed int start)
 {
   message_time(pair, 6, "POST %s", parm);
-  signed int return_value_proxyCommon$1;
-  return_value_proxyCommon$1=proxyCommon(pair, parm, start);
-  return return_value_proxyCommon$1;
+  signed int return_value_proxyCommon_1;
+  return_value_proxyCommon_1=proxyCommon(pair, parm, start);
+  return return_value_proxyCommon_1;
 }
 
 // recvPairUDP
@@ -16286,9 +16286,9 @@ signed int recvPairUDP(struct _Pair *pair)
   p = pair->pair;
   if(p == ((struct _Pair *)NULL))
   {
-    signed int return_value_priority$1;
-    return_value_priority$1=priority(pair);
-    message(return_value_priority$1, "%d UDP %d: no pair, closing", stone->sd, sd);
+    signed int return_value_priority_1;
+    return_value_priority_1=priority(pair);
+    message(return_value_priority_1, "%d UDP %d: no pair, closing", stone->sd, sd);
     return -1;
   }
 
@@ -16309,14 +16309,14 @@ signed int recvPairUDP(struct _Pair *pair)
     flags = 64;
 
   flags = flags | 32;
-  signed long int return_value_recvfrom$2;
-  return_value_recvfrom$2=recvfrom(sd, (void *)(ex->buf + (signed long int)2), (unsigned long int)(ex->bufmax - 2), flags, from, &fromlen);
-  len = (signed int)return_value_recvfrom$2;
+  signed long int return_value_recvfrom_2;
+  return_value_recvfrom_2=recvfrom(sd, (void *)(ex->buf + (signed long int)2), (unsigned long int)(ex->bufmax - 2), flags, from, &fromlen);
+  len = (signed int)return_value_recvfrom_2;
   if(!(len >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    message(3, "%d UDP %d: recvfrom err=%d", stone->sd, sd, *return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    message(3, "%d UDP %d: recvfrom err=%d", stone->sd, sd, *return_value___errno_location_3);
     if(!(ex == p->b))
       ungetExBuf(ex);
 
@@ -16332,10 +16332,10 @@ signed int recvPairUDP(struct _Pair *pair)
   t=getExData(pair, data_peeraddr, 0);
   if(!(t == ((struct _ExBuf *)NULL)))
   {
-    struct anonymous$0 *peer = (struct anonymous$0 *)(t->buf + (signed long int)sizeof(signed int) /*4ul*/ );
-    signed int return_value_saComp$4;
-    return_value_saComp$4=saComp(&peer->addr, from);
-    if(return_value_saComp$4 == 0)
+    struct anonymous_0 *peer = (struct anonymous_0 *)(t->buf + (signed long int)sizeof(signed int) /*4ul*/ );
+    signed int return_value_saComp_4;
+    return_value_saComp_4=saComp(&peer->addr, from);
+    if(return_value_saComp_4 == 0)
       goto unknown;
 
   }
@@ -16405,16 +16405,16 @@ void recvStoneUDP(struct _Stone *stone)
         flags = 64;
 
       flags = flags | 32;
-      signed long int return_value_recvfrom$1;
-      return_value_recvfrom$1=recvfrom(stone->sd, (void *)(ex->buf + (signed long int)2), (unsigned long int)(ex->bufmax - 2), flags, from, &fromlen);
-      len = (signed int)return_value_recvfrom$1;
+      signed long int return_value_recvfrom_1;
+      return_value_recvfrom_1=recvfrom(stone->sd, (void *)(ex->buf + (signed long int)2), (unsigned long int)(ex->bufmax - 2), flags, from, &fromlen);
+      len = (signed int)return_value_recvfrom_1;
       addrport[(signed long int)0] = (char)0;
       if(!(len >= 0))
       {
         addrport2strOnce(from, fromlen, proto_udp_s | proto_udp_d, addrport, 127, 0);
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        message(3, "%d UDP: recvfrom err=%d %s", stone->sd, *return_value___errno_location$2, (const void *)addrport);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        message(3, "%d UDP: recvfrom err=%d %s", stone->sd, *return_value___errno_location_2, (const void *)addrport);
         ungetExBuf(ex);
         goto __CPROVER_DUMP_L10;
       }
@@ -16497,14 +16497,14 @@ struct _PktBuf * recvUDP(struct _Stone *stone)
 
   }
   flags = flags | 32;
-  signed long int return_value_recvfrom$1;
-  return_value_recvfrom$1=recvfrom(sd, (void *)pb->buf, (unsigned long int)pb->bufmax, flags, from, &fromlen);
-  pb->len = (signed int)return_value_recvfrom$1;
+  signed long int return_value_recvfrom_1;
+  return_value_recvfrom_1=recvfrom(sd, (void *)pb->buf, (unsigned long int)pb->bufmax, flags, from, &fromlen);
+  pb->len = (signed int)return_value_recvfrom_1;
   if(!(pb->len >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if(*return_value___errno_location$3 == 90)
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if(*return_value___errno_location_3 == 90)
     {
       if(Debug >= 5)
         message(7, "%d UDP%s%d: recvfrom received larger msg", stone->sd, dirstr, sd);
@@ -16514,9 +16514,9 @@ struct _PktBuf * recvUDP(struct _Stone *stone)
 
     else
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      message(3, "%d UDP%s%d: recvfrom failed err=%d", stone->sd, dirstr, sd, *return_value___errno_location$2);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      message(3, "%d UDP%s%d: recvfrom failed err=%d", stone->sd, dirstr, sd, *return_value___errno_location_2);
 
     end:
       ;
@@ -16553,15 +16553,15 @@ struct _PktBuf * recvUDP(struct _Stone *stone)
   pb->origin = origin;
   if(Debug >= 5 || !(pb->bufmax >= pb->len))
   {
-    char recvUDP$$1$$5$$addrport[128l];
-    addrport2str(from, fromlen, proto_udp_s | proto_udp_d, recvUDP$$1$$5$$addrport, 127, 0);
-    recvUDP$$1$$5$$addrport[(signed long int)127] = (char)0;
+    char recvUDP__1__5__addrport[128l];
+    addrport2str(from, fromlen, proto_udp_s | proto_udp_d, recvUDP__1__5__addrport, 127, 0);
+    recvUDP__1__5__addrport[(signed long int)127] = (char)0;
     if(Debug >= 5)
-      message(7, "%d UDP%s%d: %d bytes received from %s", stone->sd, dirstr, origin->sd, pb->len, (const void *)recvUDP$$1$$5$$addrport);
+      message(7, "%d UDP%s%d: %d bytes received from %s", stone->sd, dirstr, origin->sd, pb->len, (const void *)recvUDP__1__5__addrport);
 
     if(!(pb->bufmax >= pb->len))
     {
-      message(5, "%d UDP%s%d: recvfrom failed: larger packet (%d bytes) arrived from %s", stone->sd, dirstr, origin->sd, pb->len, (const void *)recvUDP$$1$$5$$addrport);
+      message(5, "%d UDP%s%d: recvfrom failed: larger packet (%d bytes) arrived from %s", stone->sd, dirstr, origin->sd, pb->len, (const void *)recvUDP__1__5__addrport);
       for( ; !(pkt_len_max >= pb->len); pkt_len_max = pkt_len_max << 1)
         ;
       ungetPktBuf(pb);
@@ -16621,13 +16621,13 @@ void repeater(void)
   else
     if(!(ret >= 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      if(!(*return_value___errno_location$2 == 4))
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      if(!(*return_value___errno_location_2 == 4))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        message(3, "epoll %d error err=%d", ePollFd, *return_value___errno_location$1);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        message(3, "epoll %d error err=%d", ePollFd, *return_value___errno_location_1);
         nerrs = nerrs + 1;
         if(nerrs >= 10)
         {
@@ -16684,21 +16684,21 @@ signed int reqconn(struct _Pair *pair, struct sockaddr *dst, unsigned int dstlen
   signed int ret;
   struct _Conn *conn;
   struct _Pair *p = pair->pair;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((pair->proto & proto_command) == 0x0600)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (pair->proto & proto_command) == 0x0400 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (pair->proto & proto_command) == 0x0400 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (pair->proto & proto_command) == 0x0500 ? (_Bool)1 : (_Bool)0;
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$5;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (pair->proto & proto_command) == 0x0500 ? (_Bool)1 : (_Bool)0;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_5;
+  if(tmp_if_expr_2)
   {
     pair->proto = pair->proto | proto_noconnect;
     if(!(p == ((struct _Pair *)NULL)))
@@ -16731,25 +16731,25 @@ signed int reqconn(struct _Pair *pair, struct sockaddr *dst, unsigned int dstlen
 
       else
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct _Conn) /*32ul*/ );
-        conn = (struct _Conn *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct _Conn) /*32ul*/ );
+        conn = (struct _Conn *)return_value_malloc_3;
         if(conn == ((struct _Conn *)NULL))
         {
 
         memerr:
           ;
           if(!(p == ((struct _Pair *)NULL)))
-            tmp_if_expr$4 = p->stone->sd;
+            tmp_if_expr_4 = p->stone->sd;
 
           else
-            tmp_if_expr$4 = -1;
+            tmp_if_expr_4 = -1;
           if(!(p == ((struct _Pair *)NULL)))
-            tmp_if_expr$5 = p->sd;
+            tmp_if_expr_5 = p->sd;
 
           else
-            tmp_if_expr$5 = -1;
-          message(2, "%d TCP %d: out of memory", tmp_if_expr$4, tmp_if_expr$5);
+            tmp_if_expr_5 = -1;
+          message(2, "%d TCP %d: out of memory", tmp_if_expr_4, tmp_if_expr_5);
           return -1;
         }
 
@@ -16760,7 +16760,7 @@ signed int reqconn(struct _Pair *pair, struct sockaddr *dst, unsigned int dstlen
           pair->count = pair->count + 10;
           conn->pair = pair;
           conn->dst=saDup(dst, dstlen);
-          if(conn->dst == ((struct anonymous$0 *)NULL))
+          if(conn->dst == ((struct anonymous_0 *)NULL))
           {
             free((void *)conn);
             goto memerr;
@@ -16809,7 +16809,7 @@ signed int reusestone(struct _Stone *stone)
 
 // rmStoneSSL
 // file stone.c line 7504
-void rmStoneSSL(struct anonymous$12 *ss)
+void rmStoneSSL(struct anonymous_12 *ss)
 {
   signed int i;
   SSL_CTX_free(ss->ctx);
@@ -16900,10 +16900,10 @@ void rmoldstone(void)
       close(stone->sd);
     }
 
-    if(!(stone->ssl_server == ((struct anonymous$12 *)NULL)))
+    if(!(stone->ssl_server == ((struct anonymous_12 *)NULL)))
       rmStoneSSL(stone->ssl_server);
 
-    if(!(stone->ssl_client == ((struct anonymous$12 *)NULL)))
+    if(!(stone->ssl_client == ((struct anonymous_12 *)NULL)))
       rmStoneSSL(stone->ssl_client);
 
     free((void *)stone);
@@ -16914,8 +16914,8 @@ void rmoldstone(void)
 // file stone.c line 1566
 signed int saComp(struct sockaddr *a, struct sockaddr *b)
 {
-  unsigned short int tmp_statement_expression$2;
-  unsigned short int tmp_statement_expression$4;
+  unsigned short int tmp_statement_expression_2;
+  unsigned short int tmp_statement_expression_4;
   if(!(a->sa_family == b->sa_family))
   {
     if(Debug >= 11)
@@ -16928,43 +16928,43 @@ signed int saComp(struct sockaddr *a, struct sockaddr *b)
   {
     if((signed int)a->sa_family == 2)
     {
-      struct in_addr *saComp$$1$$2$$an;
+      struct in_addr *saComp__1__2__an;
       struct in_addr *bn;
-      signed short int saComp$$1$$2$$ap;
-      signed short int saComp$$1$$2$$bp;
-      saComp$$1$$2$$an = &((struct sockaddr_in *)a)->sin_addr;
+      signed short int saComp__1__2__ap;
+      signed short int saComp__1__2__bp;
+      saComp__1__2__an = &((struct sockaddr_in *)a)->sin_addr;
       bn = &((struct sockaddr_in *)b)->sin_addr;
-      saComp$$1$$2$$ap = (signed short int)((struct sockaddr_in *)a)->sin_port;
-      saComp$$1$$2$$bp = (signed short int)((struct sockaddr_in *)b)->sin_port;
+      saComp__1__2__ap = (signed short int)((struct sockaddr_in *)a)->sin_port;
+      saComp__1__2__bp = (signed short int)((struct sockaddr_in *)b)->sin_port;
       if(Debug >= 11)
       {
-        unsigned int return_value___bswap_32$1;
-        return_value___bswap_32$1=__bswap_32(saComp$$1$$2$$an->s_addr);
+        unsigned int return_value___bswap_32_1;
+        return_value___bswap_32_1=__bswap_32(saComp__1__2__an->s_addr);
         unsigned short int __v;
-        unsigned short int __x = (unsigned short int)saComp$$1$$2$$ap;
-        asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-        tmp_statement_expression$2 = __v;
-        unsigned int return_value___bswap_32$3;
-        return_value___bswap_32$3=__bswap_32(bn->s_addr);
-        unsigned short int saComp$$1$$2$$1$$2$$__v;
-        unsigned short int saComp$$1$$2$$1$$2$$__x = (unsigned short int)saComp$$1$$2$$bp;
-        asm("rorw $8, %w0" : "=r"(saComp$$1$$2$$1$$2$$__v) : "0"(saComp$$1$$2$$1$$2$$__x) : "cc");
-        tmp_statement_expression$4 = saComp$$1$$2$$1$$2$$__v;
-        message(7, "saComp: %lx:%d, %lx:%d", (unsigned long int)return_value___bswap_32$1, tmp_statement_expression$2, (unsigned long int)return_value___bswap_32$3, tmp_statement_expression$4);
+        unsigned short int __x = (unsigned short int)saComp__1__2__ap;
+        asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+        tmp_statement_expression_2 = __v;
+        unsigned int return_value___bswap_32_3;
+        return_value___bswap_32_3=__bswap_32(bn->s_addr);
+        unsigned short int saComp__1__2__1__2____v;
+        unsigned short int saComp__1__2__1__2____x = (unsigned short int)saComp__1__2__bp;
+        asm("rorw _8, %w0" : "=r"(saComp__1__2__1__2____v) : "0"(saComp__1__2__1__2____x) : "cc");
+        tmp_statement_expression_4 = saComp__1__2__1__2____v;
+        message(7, "saComp: %lx:%d, %lx:%d", (unsigned long int)return_value___bswap_32_1, tmp_statement_expression_2, (unsigned long int)return_value___bswap_32_3, tmp_statement_expression_4);
       }
 
-      return (signed int)(saComp$$1$$2$$an->s_addr == bn->s_addr ? (saComp$$1$$2$$ap == saComp$$1$$2$$bp ? (_Bool)1 : (_Bool)0) : (_Bool)0);
+      return (signed int)(saComp__1__2__an->s_addr == bn->s_addr ? (saComp__1__2__ap == saComp__1__2__bp ? (_Bool)1 : (_Bool)0) : (_Bool)0);
     }
 
     if((signed int)a->sa_family == 10)
     {
       struct in6_addr *an;
-      struct in6_addr *saComp$$1$$3$$bn;
+      struct in6_addr *saComp__1__3__bn;
       signed short int ap;
       signed short int bp;
       signed int i;
       an = &((struct sockaddr_in6 *)a)->sin6_addr;
-      saComp$$1$$3$$bn = &((struct sockaddr_in6 *)b)->sin6_addr;
+      saComp__1__3__bn = &((struct sockaddr_in6 *)b)->sin6_addr;
       ap = (signed short int)((struct sockaddr_in6 *)a)->sin6_port;
       bp = (signed short int)((struct sockaddr_in6 *)b)->sin6_port;
       if(!(ap == bp))
@@ -16972,7 +16972,7 @@ signed int saComp(struct sockaddr *a, struct sockaddr *b)
 
       i = 0;
       for( ; !(i >= 16); i = i + 4)
-        if(!(*((unsigned long int *)(an->__in6_u.__u6_addr8 + (signed long int)i)) == *((unsigned long int *)(saComp$$1$$3$$bn->__in6_u.__u6_addr8 + (signed long int)i))))
+        if(!(*((unsigned long int *)(an->__in6_u.__u6_addr8 + (signed long int)i)) == *((unsigned long int *)(saComp__1__3__bn->__in6_u.__u6_addr8 + (signed long int)i))))
           return 0;
 
       return 1;
@@ -16985,13 +16985,13 @@ signed int saComp(struct sockaddr *a, struct sockaddr *b)
 
 // saDup
 // file stone.c line 1557
-struct anonymous$0 * saDup(struct sockaddr *sa, unsigned int salen)
+struct anonymous_0 * saDup(struct sockaddr *sa, unsigned int salen)
 {
-  struct anonymous$0 *ret;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)((unsigned int)(signed int)&((struct anonymous$0 *)(void *)0)->addr + salen));
-  ret = (struct anonymous$0 *)return_value_malloc$1;
-  if(!(ret == ((struct anonymous$0 *)NULL)))
+  struct anonymous_0 *ret;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)((unsigned int)(signed int)&((struct anonymous_0 *)(void *)0)->addr + salen));
+  ret = (struct anonymous_0 *)return_value_malloc_1;
+  if(!(ret == ((struct anonymous_0 *)NULL)))
   {
     bcopy((const void *)sa, (void *)&ret->addr, (unsigned long int)salen);
     ret->len = salen;
@@ -17004,25 +17004,25 @@ struct anonymous$0 * saDup(struct sockaddr *sa, unsigned int salen)
 // file stone.c line 1395
 void saPort(struct sockaddr *sa, unsigned short int port)
 {
-  unsigned short int tmp_statement_expression$1;
-  unsigned short int tmp_statement_expression$2;
+  unsigned short int tmp_statement_expression_1;
+  unsigned short int tmp_statement_expression_2;
   if((signed int)sa->sa_family == 2)
   {
     unsigned short int __v;
     unsigned short int __x = (unsigned short int)port;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-    tmp_statement_expression$1 = __v;
-    ((struct sockaddr_in *)sa)->sin_port = tmp_statement_expression$1;
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+    tmp_statement_expression_1 = __v;
+    ((struct sockaddr_in *)sa)->sin_port = tmp_statement_expression_1;
   }
 
   else
     if((signed int)sa->sa_family == 10)
     {
-      unsigned short int saPort$$1$$2$$1$$__v;
-      unsigned short int saPort$$1$$2$$1$$__x = (unsigned short int)port;
-      asm("rorw $8, %w0" : "=r"(saPort$$1$$2$$1$$__v) : "0"(saPort$$1$$2$$1$$__x) : "cc");
-      tmp_statement_expression$2 = saPort$$1$$2$$1$$__v;
-      ((struct sockaddr_in6 *)sa)->sin6_port = tmp_statement_expression$2;
+      unsigned short int saPort__1__2__1____v;
+      unsigned short int saPort__1__2__1____x = (unsigned short int)port;
+      asm("rorw _8, %w0" : "=r"(saPort__1__2__1____v) : "0"(saPort__1__2__1____x) : "cc");
+      tmp_statement_expression_2 = saPort__1__2__1____v;
+      ((struct sockaddr_in6 *)sa)->sin6_port = tmp_statement_expression_2;
     }
 
     else
@@ -17037,16 +17037,16 @@ void scanBackups(void)
   signed long int now;
   time(&now);
   b = backups;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(b == ((struct _Backup *)NULL)); b = b->next)
     if((signed int)b->used >= 2)
     {
       if(!((signed int)b->interval >= 1))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = now - b->last < (signed long int)b->interval ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = now - b->last < (signed long int)b->interval ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_1)
       {
         unsigned long int thread;
         signed int err;
@@ -17199,8 +17199,8 @@ signed int scanConns(void)
 
   pconn = &conns;
   conn = conns.next;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   for( ; !(conn == ((struct _Conn *)NULL)); conn = conn->next)
   {
     p1 = conn->pair;
@@ -17208,16 +17208,16 @@ signed int scanConns(void)
       p2 = p1->pair;
 
     if(!(p1 == ((struct _Pair *)NULL)))
-      tmp_if_expr$1 = !((p1->proto & proto_close) != 0) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = !((p1->proto & proto_close) != 0) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!(p2 == ((struct _Pair *)NULL)) && tmp_if_expr$1)
-      tmp_if_expr$2 = !((p2->proto & proto_close) != 0) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    if(!(p2 == ((struct _Pair *)NULL)) && tmp_if_expr_1)
+      tmp_if_expr_2 = !((p2->proto & proto_close) != 0) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       if(!((p2->proto & proto_connect) == 0))
       {
@@ -17292,23 +17292,23 @@ signed int scanPairs(struct _Pair *pairs)
     all = 1;
   }
   pair = pairs->next;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(pair == ((struct _Pair *)NULL)))
     {
       if(!(all == 0))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = pair->clock != (signed long int)-1 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = pair->clock != (signed long int)-1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     signed int sd = pair->sd;
@@ -17385,30 +17385,30 @@ signed int scanUDP(struct _Origin *origins)
   }
   prev = origins;
   origin = origins->next;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   do
   {
     if(!(origin == ((struct _Origin *)NULL)))
     {
       if(!(all == 0))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = origin->from != (struct anonymous$0 *)(void *)0 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = origin->from != (struct anonymous_0 *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     if(!(all == 0))
     {
-      if(!(origin->from == ((struct anonymous$0 *)NULL)))
+      if(!(origin->from == ((struct anonymous_0 *)NULL)))
         goto __CPROVER_DUMP_L8;
 
       origins = origin;
@@ -17420,11 +17420,11 @@ signed int scanUDP(struct _Origin *origins)
     __CPROVER_DUMP_L8:
       ;
       if(!(origin->sd >= 0))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = origin->lock > 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = origin->lock > 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
         struct _Origin *old = origin;
         waitMutex(2);
@@ -17449,11 +17449,11 @@ signed int scanUDP(struct _Origin *origins)
 
       n = n + 1;
       if(n >= OriginMax)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = now - origin->clock > (signed long int)60 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = now - origin->clock > (signed long int)60 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
         docloseUDP(origin);
 
     }
@@ -17480,30 +17480,30 @@ signed int sendPairUDP(struct _Pair *pair)
   signed int len = 0;
   signed int err = 0;
   char prefix[128l];
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$2;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_2;
   if((pair->proto & proto_command) == 0x0f00)
   {
-    struct _Pair *sendPairUDP$$1$$1$$p = pair->pair;
-    if(!(sendPairUDP$$1$$1$$p == ((struct _Pair *)NULL)))
-      tmp_if_expr$1 = sendPairUDP$$1$$1$$p->sd;
+    struct _Pair *sendPairUDP__1__1__p = pair->pair;
+    if(!(sendPairUDP__1__1__p == ((struct _Pair *)NULL)))
+      tmp_if_expr_1 = sendPairUDP__1__1__p->sd;
 
     else
-      tmp_if_expr$1 = -1;
-    snprintf(prefix, (unsigned long int)127, "%d UDP<TCP%d:", stone->sd, tmp_if_expr$1);
+      tmp_if_expr_1 = -1;
+    snprintf(prefix, (unsigned long int)127, "%d UDP<TCP%d:", stone->sd, tmp_if_expr_1);
   }
 
   else
   {
     struct _Pair *p = pair->pair;
     if(!(p == ((struct _Pair *)NULL)))
-      tmp_if_expr$2 = p->sd;
+      tmp_if_expr_2 = p->sd;
 
     else
-      tmp_if_expr$2 = -1;
-    snprintf(prefix, (unsigned long int)127, "%d TCP%d>UDP%d:", stone->sd, tmp_if_expr$2, pair->sd);
+      tmp_if_expr_2 = -1;
+    snprintf(prefix, (unsigned long int)127, "%d TCP%d>UDP%d:", stone->sd, tmp_if_expr_2, pair->sd);
   }
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   while(!(next == ((struct _ExBuf *)NULL)))
   {
     ex = next;
@@ -17616,11 +17616,11 @@ signed int sendPairUDP(struct _Pair *pair)
             if(err == 0)
             {
               if((0xF & (signed int)pair->xhost->mode) >= 1)
-                tmp_if_expr$3 = (_Bool)1;
+                tmp_if_expr_3 = (_Bool)1;
 
               else
-                tmp_if_expr$3 = ((pair->proto & proto_first_w) != 0 ? (Debug > 3 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$3)
+                tmp_if_expr_3 = ((pair->proto & proto_first_w) != 0 ? (Debug > 3 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_3)
                 message_buf(pair, len, "tu");
 
             }
@@ -17635,7 +17635,7 @@ signed int sendPairUDP(struct _Pair *pair)
 
       }
   }
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(ex == pair->b)
   {
     if(ex->len == ex->bufmax)
@@ -17647,11 +17647,11 @@ signed int sendPairUDP(struct _Pair *pair)
   else
   {
     if(ex->len >= 1)
-      tmp_if_expr$4 = ex->len < ex->bufmax ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = ex->len < ex->bufmax ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
       pair->t = ex;
 
     else
@@ -17669,7 +17669,7 @@ static signed int sendPairUDPbuf(struct _Stone *stone, struct _Pair *pair, char 
 {
   signed int flags = 0;
   struct _ExBuf *t;
-  struct anonymous$0 *peer;
+  struct anonymous_0 *peer;
   signed int issrc = (signed int)((pair->proto & proto_command) == 0x0f00);
   signed int sd;
   struct _Pair *p = pair->pair;
@@ -17677,9 +17677,9 @@ static signed int sendPairUDPbuf(struct _Stone *stone, struct _Pair *pair, char 
     flags = 64;
 
   t=getExData(pair, data_peeraddr, 0);
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(t == ((struct _ExBuf *)NULL)))
-    peer = (struct anonymous$0 *)(t->buf + (signed long int)sizeof(signed int) /*4ul*/ );
+    peer = (struct anonymous_0 *)(t->buf + (signed long int)sizeof(signed int) /*4ul*/ );
 
   else
     if(issrc == 0)
@@ -17687,8 +17687,8 @@ static signed int sendPairUDPbuf(struct _Stone *stone, struct _Pair *pair, char 
       signed int lenmax;
       signed int dstlen;
       t=newExData(pair, data_peeraddr);
-      peer = (struct anonymous$0 *)(t->buf + (signed long int)sizeof(signed int) /*4ul*/ );
-      lenmax = (signed int)(((unsigned long int)t->bufmax - sizeof(signed int) /*4ul*/ ) - (unsigned long int)(signed int)&((struct anonymous$0 *)(void *)0)->addr);
+      peer = (struct anonymous_0 *)(t->buf + (signed long int)sizeof(signed int) /*4ul*/ );
+      lenmax = (signed int)(((unsigned long int)t->bufmax - sizeof(signed int) /*4ul*/ ) - (unsigned long int)(signed int)&((struct anonymous_0 *)(void *)0)->addr);
       peer->len = stone->dsts[(signed long int)0]->len;
       bcopy((const void *)&stone->dsts[(signed long int)0]->addr, (void *)&peer->addr, (unsigned long int)peer->len);
       dstlen=modPairDest(pair, &peer->addr, (unsigned int)lenmax);
@@ -17700,11 +17700,11 @@ static signed int sendPairUDPbuf(struct _Stone *stone, struct _Pair *pair, char 
     else
     {
       if(!(p == ((struct _Pair *)NULL)))
-        tmp_if_expr$1 = p->sd;
+        tmp_if_expr_1 = p->sd;
 
       else
-        tmp_if_expr$1 = -1;
-      message(3, "%d UDP<TCP%d: can't happen: no peer", stone->sd, tmp_if_expr$1);
+        tmp_if_expr_1 = -1;
+      message(3, "%d UDP<TCP%d: can't happen: no peer", stone->sd, tmp_if_expr_1);
       return -1;
     }
   if(!(issrc == 0))
@@ -17712,11 +17712,11 @@ static signed int sendPairUDPbuf(struct _Stone *stone, struct _Pair *pair, char 
 
   else
     sd = pair->sd;
-  signed long int return_value_sendto$6;
-  return_value_sendto$6=sendto(sd, (const void *)buf, (unsigned long int)len, flags, &peer->addr, peer->len);
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$4;
-  if(!(return_value_sendto$6 == (signed long int)len))
+  signed long int return_value_sendto_6;
+  return_value_sendto_6=sendto(sd, (const void *)buf, (unsigned long int)len, flags, &peer->addr, peer->len);
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_4;
+  if(!(return_value_sendto_6 == (signed long int)len))
   {
     char addrport[128l];
     addrport2str(&peer->addr, peer->len, proto_udp_s | proto_udp_d, addrport, 127, 0);
@@ -17724,25 +17724,25 @@ static signed int sendPairUDPbuf(struct _Stone *stone, struct _Pair *pair, char 
     if(!(issrc == 0))
     {
       if(!(p == ((struct _Pair *)NULL)))
-        tmp_if_expr$2 = p->sd;
+        tmp_if_expr_2 = p->sd;
 
       else
-        tmp_if_expr$2 = -1;
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      message(3, "%d UDP<TCP%d: sendto failed err=%d: to %s", stone->sd, tmp_if_expr$2, *return_value___errno_location$3, (const void *)addrport);
+        tmp_if_expr_2 = -1;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      message(3, "%d UDP<TCP%d: sendto failed err=%d: to %s", stone->sd, tmp_if_expr_2, *return_value___errno_location_3, (const void *)addrport);
     }
 
     else
     {
       if(!(p == ((struct _Pair *)NULL)))
-        tmp_if_expr$4 = p->sd;
+        tmp_if_expr_4 = p->sd;
 
       else
-        tmp_if_expr$4 = -1;
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      message(3, "%d TCP%d>UDP%d: sendto failed err=%d: to %s", stone->sd, tmp_if_expr$4, pair->sd, *return_value___errno_location$5, (const void *)addrport);
+        tmp_if_expr_4 = -1;
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      message(3, "%d TCP%d>UDP%d: sendto failed err=%d: to %s", stone->sd, tmp_if_expr_4, pair->sd, *return_value___errno_location_5, (const void *)addrport);
     }
     return -1;
   }
@@ -17787,25 +17787,25 @@ signed int sendUDP(struct _PktBuf *pb)
       flags = 64;
 
   }
-  signed long int return_value_sendto$2;
-  return_value_sendto$2=sendto(sd, (const void *)pb->buf, (unsigned long int)pb->len, flags, sa, salen);
-  if(!(return_value_sendto$2 == (signed long int)pb->len))
+  signed long int return_value_sendto_2;
+  return_value_sendto_2=sendto(sd, (const void *)pb->buf, (unsigned long int)pb->len, flags, sa, salen);
+  if(!(return_value_sendto_2 == (signed long int)pb->len))
   {
     char addrport[128l];
     addrport2str(sa, salen, proto_udp_s | proto_udp_d, addrport, 127, 0);
     addrport[(signed long int)127] = (char)0;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    message(3, "%d UDP%s%d: sendto failed err=%d: to %s", stone->sd, dirstr, origin->sd, *return_value___errno_location$1, (const void *)addrport);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    message(3, "%d UDP%s%d: sendto failed err=%d: to %s", stone->sd, dirstr, origin->sd, *return_value___errno_location_1, (const void *)addrport);
     return -1;
   }
 
   if(Debug >= 5)
   {
-    char sendUDP$$1$$4$$addrport[128l];
-    addrport2str(sa, salen, proto_udp_s | proto_udp_d, sendUDP$$1$$4$$addrport, 127, 0);
-    sendUDP$$1$$4$$addrport[(signed long int)127] = (char)0;
-    message(7, "%d UDP%s%d: %d bytes sent to %s", stone->sd, dirstr, origin->sd, pb->len, (const void *)sendUDP$$1$$4$$addrport);
+    char sendUDP__1__4__addrport[128l];
+    addrport2str(sa, salen, proto_udp_s | proto_udp_d, sendUDP__1__4__addrport, 127, 0);
+    sendUDP__1__4__addrport[(signed long int)127] = (char)0;
+    message(7, "%d UDP%s%d: %d bytes sent to %s", stone->sd, dirstr, origin->sd, pb->len, (const void *)sendUDP__1__4__addrport);
   }
 
   if((0xF & (signed int)origin->xhost->mode) >= 1)
@@ -17881,29 +17881,29 @@ static void skipcomment(struct _IO_FILE *fp)
 static signed int ssl_servername_callback(struct ssl_st *ssl, signed int *ad, void *arg)
 {
   struct _Pair *pair;
-  void *return_value_SSL_get_ex_data$1;
-  return_value_SSL_get_ex_data$1=SSL_get_ex_data(ssl, PairIndex);
-  pair = (struct _Pair *)return_value_SSL_get_ex_data$1;
-  struct anonymous$12 *ss = pair->stone->ssl_server;
+  void *return_value_SSL_get_ex_data_1;
+  return_value_SSL_get_ex_data_1=SSL_get_ex_data(ssl, PairIndex);
+  pair = (struct _Pair *)return_value_SSL_get_ex_data_1;
+  struct anonymous_12 *ss = pair->stone->ssl_server;
   struct _Stone *stone;
   const char *name;
   name=SSL_get_servername(ssl, 0);
-  _Bool tmp_if_expr$2;
-  if(ss == ((struct anonymous$12 *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+  _Bool tmp_if_expr_2;
+  if(ss == ((struct anonymous_12 *)NULL))
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(ss->name != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
-  signed int tmp_statement_expression$3;
-  _Bool tmp_if_expr$5;
-  signed int tmp_statement_expression$6;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = !(ss->name != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+  signed int tmp_statement_expression_3;
+  _Bool tmp_if_expr_5;
+  signed int tmp_statement_expression_6;
+  if(tmp_if_expr_2)
     return 3;
 
   else
     if(name == ((const char *)NULL))
     {
-      if(!(ss == ((struct anonymous$12 *)NULL)))
+      if(!(ss == ((struct anonymous_12 *)NULL)))
       {
         if(!(ss->verbose == 0))
           message(7, "%d TCP %d: No servername, expects: %s", pair->stone->sd, pair->sd, ss->name);
@@ -17917,10 +17917,10 @@ static signed int ssl_servername_callback(struct ssl_st *ssl, signed int *ad, vo
     {
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$4;
-      return_value___builtin_strcmp$4=__builtin_strcmp(name, ss->name);
-      tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-      if(tmp_statement_expression$3 == 0)
+      signed int return_value___builtin_strcmp_4;
+      return_value___builtin_strcmp_4=__builtin_strcmp(name, ss->name);
+      tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+      if(tmp_statement_expression_3 == 0)
         return 0;
 
       else
@@ -17928,21 +17928,21 @@ static signed int ssl_servername_callback(struct ssl_st *ssl, signed int *ad, vo
         stone = pair->stone->children;
         for( ; !(stone == ((struct _Stone *)NULL)); stone = stone->children)
         {
-          struct anonymous$12 *sn = stone->ssl_server;
-          if(sn == ((struct anonymous$12 *)NULL))
-            tmp_if_expr$5 = (_Bool)1;
+          struct anonymous_12 *sn = stone->ssl_server;
+          if(sn == ((struct anonymous_12 *)NULL))
+            tmp_if_expr_5 = (_Bool)1;
 
           else
-            tmp_if_expr$5 = !(sn->name != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$5)
+            tmp_if_expr_5 = !(sn->name != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_5)
             return 3;
 
-          unsigned long int ssl_servername_callback$$1$$3$$1$$1$$__s1_len;
-          unsigned long int ssl_servername_callback$$1$$3$$1$$1$$__s2_len;
-          signed int return_value___builtin_strcmp$7;
-          return_value___builtin_strcmp$7=__builtin_strcmp(name, sn->name);
-          tmp_statement_expression$6 = return_value___builtin_strcmp$7;
-          if(tmp_statement_expression$6 == 0)
+          unsigned long int ssl_servername_callback__1__3__1__1____s1_len;
+          unsigned long int ssl_servername_callback__1__3__1__1____s2_len;
+          signed int return_value___builtin_strcmp_7;
+          return_value___builtin_strcmp_7=__builtin_strcmp(name, sn->name);
+          tmp_statement_expression_6 = return_value___builtin_strcmp_7;
+          if(tmp_statement_expression_6 == 0)
           {
             if(!(sn->verbose == 0))
               message(7, "%d TCP %d: Switching server context: %s", stone->sd, pair->sd, sn->name);
@@ -17960,108 +17960,108 @@ static signed int ssl_servername_callback(struct ssl_st *ssl, signed int *ad, vo
 
 // sslopts
 // file stone.c line 8911
-signed int sslopts(signed int argc, signed int argi, char **argv, struct anonymous$8 *opts, signed int isserver)
+signed int sslopts(signed int argc, signed int argi, char **argv, struct anonymous_8 *opts, signed int isserver)
 {
-  signed int tmp_statement_expression$84;
-  unsigned long int sslopts$$1$$1$$__s1_len;
-  unsigned long int sslopts$$1$$1$$__s2_len;
-  signed int return_value___builtin_strcmp$85;
-  return_value___builtin_strcmp$85=__builtin_strcmp(argv[(signed long int)argi], "default");
-  tmp_statement_expression$84 = return_value___builtin_strcmp$85;
-  signed int tmp_statement_expression$82;
-  signed int return_value_strncmp$81;
-  signed int tmp_statement_expression$5;
-  signed int tmp_statement_expression$3;
-  signed int tmp_statement_expression$1;
-  signed int return_value_strncmp$78;
-  _Bool tmp_if_expr$80;
-  _Bool tmp_if_expr$79;
-  signed int tmp_statement_expression$11;
-  signed int tmp_statement_expression$9;
-  signed int tmp_statement_expression$7;
-  signed int return_value_strncmp$77;
-  signed int return_value_strncmp$76;
-  signed int return_value_strncmp$72;
-  _Bool tmp_if_expr$74;
-  const unsigned short int **return_value___ctype_b_loc$73;
-  _Bool tmp_if_expr$75;
-  signed int return_value_strncmp$68;
-  _Bool tmp_if_expr$70;
-  const unsigned short int **return_value___ctype_b_loc$69;
-  _Bool tmp_if_expr$71;
-  signed int return_value_strncmp$67;
-  signed int tmp_statement_expression$65;
-  signed int tmp_statement_expression$63;
-  signed int tmp_statement_expression$61;
-  signed int tmp_statement_expression$59;
-  signed int tmp_statement_expression$57;
-  signed int tmp_statement_expression$55;
-  signed int tmp_statement_expression$53;
-  signed int return_value_strncmp$52;
-  signed int tmp_statement_expression$50;
-  signed int return_value_strncmp$49;
-  signed int return_value_strncmp$48;
-  signed int return_value_strncmp$47;
-  signed int return_value_strncmp$46;
-  signed int return_value_strncmp$45;
-  signed int return_value_strncmp$44;
-  signed int return_value_strncmp$43;
-  signed int return_value_strncmp$42;
-  signed int return_value_strncmp$41;
-  signed int return_value_strncmp$40;
-  signed int return_value_strncmp$39;
-  signed int return_value_strncmp$38;
-  signed int return_value_strncmp$37;
-  signed int return_value_strncmp$36;
-  signed int return_value_strncmp$35;
-  signed int return_value_strncmp$31;
-  _Bool tmp_if_expr$33;
-  const unsigned short int **return_value___ctype_b_loc$32;
-  _Bool tmp_if_expr$34;
-  if(tmp_statement_expression$84 == 0)
+  signed int tmp_statement_expression_84;
+  unsigned long int sslopts__1__1____s1_len;
+  unsigned long int sslopts__1__1____s2_len;
+  signed int return_value___builtin_strcmp_85;
+  return_value___builtin_strcmp_85=__builtin_strcmp(argv[(signed long int)argi], "default");
+  tmp_statement_expression_84 = return_value___builtin_strcmp_85;
+  signed int tmp_statement_expression_82;
+  signed int return_value_strncmp_81;
+  signed int tmp_statement_expression_5;
+  signed int tmp_statement_expression_3;
+  signed int tmp_statement_expression_1;
+  signed int return_value_strncmp_78;
+  _Bool tmp_if_expr_80;
+  _Bool tmp_if_expr_79;
+  signed int tmp_statement_expression_11;
+  signed int tmp_statement_expression_9;
+  signed int tmp_statement_expression_7;
+  signed int return_value_strncmp_77;
+  signed int return_value_strncmp_76;
+  signed int return_value_strncmp_72;
+  _Bool tmp_if_expr_74;
+  const unsigned short int **return_value___ctype_b_loc_73;
+  _Bool tmp_if_expr_75;
+  signed int return_value_strncmp_68;
+  _Bool tmp_if_expr_70;
+  const unsigned short int **return_value___ctype_b_loc_69;
+  _Bool tmp_if_expr_71;
+  signed int return_value_strncmp_67;
+  signed int tmp_statement_expression_65;
+  signed int tmp_statement_expression_63;
+  signed int tmp_statement_expression_61;
+  signed int tmp_statement_expression_59;
+  signed int tmp_statement_expression_57;
+  signed int tmp_statement_expression_55;
+  signed int tmp_statement_expression_53;
+  signed int return_value_strncmp_52;
+  signed int tmp_statement_expression_50;
+  signed int return_value_strncmp_49;
+  signed int return_value_strncmp_48;
+  signed int return_value_strncmp_47;
+  signed int return_value_strncmp_46;
+  signed int return_value_strncmp_45;
+  signed int return_value_strncmp_44;
+  signed int return_value_strncmp_43;
+  signed int return_value_strncmp_42;
+  signed int return_value_strncmp_41;
+  signed int return_value_strncmp_40;
+  signed int return_value_strncmp_39;
+  signed int return_value_strncmp_38;
+  signed int return_value_strncmp_37;
+  signed int return_value_strncmp_36;
+  signed int return_value_strncmp_35;
+  signed int return_value_strncmp_31;
+  _Bool tmp_if_expr_33;
+  const unsigned short int **return_value___ctype_b_loc_32;
+  _Bool tmp_if_expr_34;
+  if(tmp_statement_expression_84 == 0)
     sslopts_default(opts, isserver);
 
   else
   {
-    unsigned long int sslopts$$1$$3$$__s1_len;
-    unsigned long int sslopts$$1$$3$$__s2_len;
-    signed int return_value___builtin_strcmp$83;
-    return_value___builtin_strcmp$83=__builtin_strcmp(argv[(signed long int)argi], "verbose");
-    tmp_statement_expression$82 = return_value___builtin_strcmp$83;
-    if(tmp_statement_expression$82 == 0)
+    unsigned long int sslopts__1__3____s1_len;
+    unsigned long int sslopts__1__3____s2_len;
+    signed int return_value___builtin_strcmp_83;
+    return_value___builtin_strcmp_83=__builtin_strcmp(argv[(signed long int)argi], "verbose");
+    tmp_statement_expression_82 = return_value___builtin_strcmp_83;
+    if(tmp_statement_expression_82 == 0)
       opts->verbose = opts->verbose + 1;
 
     else
     {
-      return_value_strncmp$81=strncmp(argv[(signed long int)argi], "shutdown=", (unsigned long int)9);
-      if(return_value_strncmp$81 == 0)
+      return_value_strncmp_81=strncmp(argv[(signed long int)argi], "shutdown=", (unsigned long int)9);
+      if(return_value_strncmp_81 == 0)
       {
-        unsigned long int sslopts$$1$$6$$1$$__s1_len;
-        unsigned long int sslopts$$1$$6$$1$$__s2_len;
-        signed int return_value___builtin_strcmp$6;
-        return_value___builtin_strcmp$6=__builtin_strcmp(argv[(signed long int)argi] + (signed long int)9, "nowait");
-        tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-        if(tmp_statement_expression$5 == 0)
+        unsigned long int sslopts__1__6__1____s1_len;
+        unsigned long int sslopts__1__6__1____s2_len;
+        signed int return_value___builtin_strcmp_6;
+        return_value___builtin_strcmp_6=__builtin_strcmp(argv[(signed long int)argi] + (signed long int)9, "nowait");
+        tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+        if(tmp_statement_expression_5 == 0)
           opts->shutdown_mode = 2;
 
         else
         {
-          unsigned long int sslopts$$1$$6$$3$$__s1_len;
+          unsigned long int sslopts__1__6__3____s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$4;
-          return_value___builtin_strcmp$4=__builtin_strcmp(argv[(signed long int)argi] + (signed long int)9, "accurate");
-          tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-          if(tmp_statement_expression$3 == 0)
+          signed int return_value___builtin_strcmp_4;
+          return_value___builtin_strcmp_4=__builtin_strcmp(argv[(signed long int)argi] + (signed long int)9, "accurate");
+          tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+          if(tmp_statement_expression_3 == 0)
             opts->shutdown_mode = 0;
 
           else
           {
-            unsigned long int sslopts$$1$$6$$5$$__s1_len;
-            unsigned long int sslopts$$1$$6$$5$$__s2_len;
-            signed int return_value___builtin_strcmp$2;
-            return_value___builtin_strcmp$2=__builtin_strcmp(argv[(signed long int)argi] + (signed long int)9, "unclean");
-            tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-            if(tmp_statement_expression$1 == 0)
+            unsigned long int sslopts__1__6__5____s1_len;
+            unsigned long int sslopts__1__6__5____s2_len;
+            signed int return_value___builtin_strcmp_2;
+            return_value___builtin_strcmp_2=__builtin_strcmp(argv[(signed long int)argi] + (signed long int)9, "unclean");
+            tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+            if(tmp_statement_expression_1 == 0)
               opts->shutdown_mode = 1 | 2;
 
           }
@@ -18070,27 +18070,27 @@ signed int sslopts(signed int argc, signed int argi, char **argv, struct anonymo
 
       else
       {
-        return_value_strncmp$78=strncmp(argv[(signed long int)argi], "verify", (unsigned long int)6);
-        if(return_value_strncmp$78 == 0)
+        return_value_strncmp_78=strncmp(argv[(signed long int)argi], "verify", (unsigned long int)6);
+        if(return_value_strncmp_78 == 0)
         {
           if((signed int)argv[(signed long int)argi][6l] == 0)
-            tmp_if_expr$79 = (_Bool)1;
+            tmp_if_expr_79 = (_Bool)1;
 
           else
-            tmp_if_expr$79 = (signed int)argv[(signed long int)argi][(signed long int)6] == 44 ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$80 = tmp_if_expr$79 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_79 = (signed int)argv[(signed long int)argi][(signed long int)6] == 44 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_80 = tmp_if_expr_79 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$80 = (_Bool)0;
-        if(tmp_if_expr$80)
+          tmp_if_expr_80 = (_Bool)0;
+        if(tmp_if_expr_80)
         {
-          unsigned long int sslopts$$1$$8$$1$$__s1_len;
-          unsigned long int sslopts$$1$$8$$1$$__s2_len;
-          signed int return_value___builtin_strcmp$12;
-          return_value___builtin_strcmp$12=__builtin_strcmp(argv[(signed long int)argi] + (signed long int)6, ",none");
-          tmp_statement_expression$11 = return_value___builtin_strcmp$12;
-          if(tmp_statement_expression$11 == 0)
+          unsigned long int sslopts__1__8__1____s1_len;
+          unsigned long int sslopts__1__8__1____s2_len;
+          signed int return_value___builtin_strcmp_12;
+          return_value___builtin_strcmp_12=__builtin_strcmp(argv[(signed long int)argi] + (signed long int)6, ",none");
+          tmp_statement_expression_11 = return_value___builtin_strcmp_12;
+          if(tmp_statement_expression_11 == 0)
             opts->mode = 0x00;
 
           else
@@ -18099,22 +18099,22 @@ signed int sslopts(signed int argc, signed int argi, char **argv, struct anonymo
               opts->mode = 0x01 | 0x02;
               if((signed int)argv[(signed long int)argi][6l] == 44)
               {
-                unsigned long int sslopts$$1$$8$$3$$1$$1$$__s1_len;
-                unsigned long int sslopts$$1$$8$$3$$1$$1$$__s2_len;
-                signed int return_value___builtin_strcmp$10;
-                return_value___builtin_strcmp$10=__builtin_strcmp(argv[(signed long int)argi] + (signed long int)7, "ifany");
-                tmp_statement_expression$9 = return_value___builtin_strcmp$10;
-                if(tmp_statement_expression$9 == 0)
+                unsigned long int sslopts__1__8__3__1__1____s1_len;
+                unsigned long int sslopts__1__8__3__1__1____s2_len;
+                signed int return_value___builtin_strcmp_10;
+                return_value___builtin_strcmp_10=__builtin_strcmp(argv[(signed long int)argi] + (signed long int)7, "ifany");
+                tmp_statement_expression_9 = return_value___builtin_strcmp_10;
+                if(tmp_statement_expression_9 == 0)
                   opts->mode = 0x01 | 0x04;
 
                 else
                 {
-                  unsigned long int sslopts$$1$$8$$3$$1$$3$$__s1_len;
-                  unsigned long int sslopts$$1$$8$$3$$1$$3$$__s2_len;
-                  signed int return_value___builtin_strcmp$8;
-                  return_value___builtin_strcmp$8=__builtin_strcmp(argv[(signed long int)argi] + (signed long int)7, "once");
-                  tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-                  if(tmp_statement_expression$7 == 0)
+                  unsigned long int sslopts__1__8__3__1__3____s1_len;
+                  unsigned long int sslopts__1__8__3__1__3____s2_len;
+                  signed int return_value___builtin_strcmp_8;
+                  return_value___builtin_strcmp_8=__builtin_strcmp(argv[(signed long int)argi] + (signed long int)7, "once");
+                  tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+                  if(tmp_statement_expression_7 == 0)
                     opts->mode = opts->mode | 0x04;
 
                 }
@@ -18132,41 +18132,41 @@ signed int sslopts(signed int argc, signed int argi, char **argv, struct anonymo
 
         else
         {
-          return_value_strncmp$77=strncmp(argv[(signed long int)argi], "crl_check", (unsigned long int)9);
-          if(return_value_strncmp$77 == 0)
+          return_value_strncmp_77=strncmp(argv[(signed long int)argi], "crl_check", (unsigned long int)9);
+          if(return_value_strncmp_77 == 0)
             opts->vflags = opts->vflags | 0x4;
 
           else
           {
-            return_value_strncmp$76=strncmp(argv[(signed long int)argi], "crl_check_all", (unsigned long int)13);
-            if(return_value_strncmp$76 == 0)
+            return_value_strncmp_76=strncmp(argv[(signed long int)argi], "crl_check_all", (unsigned long int)13);
+            if(return_value_strncmp_76 == 0)
               opts->vflags = opts->vflags | 0x4 | 0x8;
 
             else
             {
-              return_value_strncmp$72=strncmp(argv[(signed long int)argi], "re", (unsigned long int)2);
-              if(return_value_strncmp$72 == 0)
+              return_value_strncmp_72=strncmp(argv[(signed long int)argi], "re", (unsigned long int)2);
+              if(return_value_strncmp_72 == 0)
               {
-                return_value___ctype_b_loc$73=__ctype_b_loc();
-                tmp_if_expr$74 = ((signed int)(*return_value___ctype_b_loc$73)[(signed long int)(signed int)argv[(signed long int)argi][(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+                return_value___ctype_b_loc_73=__ctype_b_loc();
+                tmp_if_expr_74 = ((signed int)(*return_value___ctype_b_loc_73)[(signed long int)(signed int)argv[(signed long int)argi][(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$74 = (_Bool)0;
-              if(tmp_if_expr$74)
-                tmp_if_expr$75 = (signed int)argv[(signed long int)argi][(signed long int)3] == 61 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_74 = (_Bool)0;
+              if(tmp_if_expr_74)
+                tmp_if_expr_75 = (signed int)argv[(signed long int)argi][(signed long int)3] == 61 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$75 = (_Bool)0;
-              if(tmp_if_expr$75)
+                tmp_if_expr_75 = (_Bool)0;
+              if(tmp_if_expr_75)
               {
                 signed int depth;
                 depth=atoi(argv[(signed long int)argi] + (signed long int)2);
                 if(depth >= 0 && !(depth >= 10))
                 {
-                  char *return_value___strdup$13;
-                  return_value___strdup$13=__strdup(argv[(signed long int)argi] + (signed long int)4);
-                  opts->regexp[(signed long int)depth] = return_value___strdup$13;
+                  char *return_value___strdup_13;
+                  return_value___strdup_13=__strdup(argv[(signed long int)argi] + (signed long int)4);
+                  opts->regexp[(signed long int)depth] = return_value___strdup_13;
                 }
 
                 else
@@ -18175,29 +18175,29 @@ signed int sslopts(signed int argc, signed int argi, char **argv, struct anonymo
 
               else
               {
-                return_value_strncmp$68=strncmp(argv[(signed long int)argi], "re-", (unsigned long int)3);
-                if(return_value_strncmp$68 == 0)
+                return_value_strncmp_68=strncmp(argv[(signed long int)argi], "re-", (unsigned long int)3);
+                if(return_value_strncmp_68 == 0)
                 {
-                  return_value___ctype_b_loc$69=__ctype_b_loc();
-                  tmp_if_expr$70 = ((signed int)(*return_value___ctype_b_loc$69)[(signed long int)(signed int)argv[(signed long int)argi][(signed long int)3]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+                  return_value___ctype_b_loc_69=__ctype_b_loc();
+                  tmp_if_expr_70 = ((signed int)(*return_value___ctype_b_loc_69)[(signed long int)(signed int)argv[(signed long int)argi][(signed long int)3]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$70 = (_Bool)0;
-                if(tmp_if_expr$70)
-                  tmp_if_expr$71 = (signed int)argv[(signed long int)argi][(signed long int)4] == 61 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_70 = (_Bool)0;
+                if(tmp_if_expr_70)
+                  tmp_if_expr_71 = (signed int)argv[(signed long int)argi][(signed long int)4] == 61 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$71 = (_Bool)0;
-                if(tmp_if_expr$71)
+                  tmp_if_expr_71 = (_Bool)0;
+                if(tmp_if_expr_71)
                 {
-                  signed int sslopts$$1$$16$$depth;
-                  sslopts$$1$$16$$depth=atoi(argv[(signed long int)argi] + (signed long int)3);
-                  if(sslopts$$1$$16$$depth >= 1 && !(sslopts$$1$$16$$depth >= 11))
+                  signed int sslopts__1__16__depth;
+                  sslopts__1__16__depth=atoi(argv[(signed long int)argi] + (signed long int)3);
+                  if(sslopts__1__16__depth >= 1 && !(sslopts__1__16__depth >= 11))
                   {
-                    char *return_value___strdup$14;
-                    return_value___strdup$14=__strdup(argv[(signed long int)argi] + (signed long int)5);
-                    opts->regexp[(signed long int)(10 - sslopts$$1$$16$$depth)] = return_value___strdup$14;
+                    char *return_value___strdup_14;
+                    return_value___strdup_14=__strdup(argv[(signed long int)argi] + (signed long int)5);
+                    opts->regexp[(signed long int)(10 - sslopts__1__16__depth)] = return_value___strdup_14;
                   }
 
                   else
@@ -18206,8 +18206,8 @@ signed int sslopts(signed int argc, signed int argi, char **argv, struct anonymo
 
                 else
                 {
-                  return_value_strncmp$67=strncmp(argv[(signed long int)argi], "depth=", (unsigned long int)6);
-                  if(return_value_strncmp$67 == 0)
+                  return_value_strncmp_67=strncmp(argv[(signed long int)argi], "depth=", (unsigned long int)6);
+                  if(return_value_strncmp_67 == 0)
                   {
                     opts->depth=atoi(argv[(signed long int)argi] + (signed long int)6);
                     if(opts->depth >= 10)
@@ -18222,21 +18222,21 @@ signed int sslopts(signed int argc, signed int argi, char **argv, struct anonymo
                   else
                   {
                     unsigned long int __s1_len;
-                    unsigned long int sslopts$$1$$19$$__s2_len;
-                    signed int return_value___builtin_strcmp$66;
-                    return_value___builtin_strcmp$66=__builtin_strcmp(argv[(signed long int)argi], "bugs");
-                    tmp_statement_expression$65 = return_value___builtin_strcmp$66;
-                    if(tmp_statement_expression$65 == 0)
+                    unsigned long int sslopts__1__19____s2_len;
+                    signed int return_value___builtin_strcmp_66;
+                    return_value___builtin_strcmp_66=__builtin_strcmp(argv[(signed long int)argi], "bugs");
+                    tmp_statement_expression_65 = return_value___builtin_strcmp_66;
+                    if(tmp_statement_expression_65 == 0)
                       opts->off = opts->off | 0x80000BFFL;
 
                     else
                     {
-                      unsigned long int sslopts$$1$$21$$__s1_len;
-                      unsigned long int sslopts$$1$$21$$__s2_len;
-                      signed int return_value___builtin_strcmp$64;
-                      return_value___builtin_strcmp$64=__builtin_strcmp(argv[(signed long int)argi], "tls1");
-                      tmp_statement_expression$63 = return_value___builtin_strcmp$64;
-                      if(tmp_statement_expression$63 == 0)
+                      unsigned long int sslopts__1__21____s1_len;
+                      unsigned long int sslopts__1__21____s2_len;
+                      signed int return_value___builtin_strcmp_64;
+                      return_value___builtin_strcmp_64=__builtin_strcmp(argv[(signed long int)argi], "tls1");
+                      tmp_statement_expression_63 = return_value___builtin_strcmp_64;
+                      if(tmp_statement_expression_63 == 0)
                       {
                         if(!(isserver == 0))
                           opts->meth=TLSv1_server_method();
@@ -18247,138 +18247,138 @@ signed int sslopts(signed int argc, signed int argi, char **argv, struct anonymo
 
                       else
                       {
-                        unsigned long int sslopts$$1$$23$$__s1_len;
-                        unsigned long int sslopts$$1$$23$$__s2_len;
-                        signed int return_value___builtin_strcmp$62;
-                        return_value___builtin_strcmp$62=__builtin_strcmp(argv[(signed long int)argi], "no_tls1");
-                        tmp_statement_expression$61 = return_value___builtin_strcmp$62;
-                        if(tmp_statement_expression$61 == 0)
+                        unsigned long int sslopts__1__23____s1_len;
+                        unsigned long int sslopts__1__23____s2_len;
+                        signed int return_value___builtin_strcmp_62;
+                        return_value___builtin_strcmp_62=__builtin_strcmp(argv[(signed long int)argi], "no_tls1");
+                        tmp_statement_expression_61 = return_value___builtin_strcmp_62;
+                        if(tmp_statement_expression_61 == 0)
                           opts->off = opts->off | 0x04000000L;
 
                         else
                         {
-                          unsigned long int sslopts$$1$$25$$__s1_len;
-                          unsigned long int sslopts$$1$$25$$__s2_len;
-                          signed int return_value___builtin_strcmp$60;
-                          return_value___builtin_strcmp$60=__builtin_strcmp(argv[(signed long int)argi], "no_ssl3");
-                          tmp_statement_expression$59 = return_value___builtin_strcmp$60;
-                          if(tmp_statement_expression$59 == 0)
+                          unsigned long int sslopts__1__25____s1_len;
+                          unsigned long int sslopts__1__25____s2_len;
+                          signed int return_value___builtin_strcmp_60;
+                          return_value___builtin_strcmp_60=__builtin_strcmp(argv[(signed long int)argi], "no_ssl3");
+                          tmp_statement_expression_59 = return_value___builtin_strcmp_60;
+                          if(tmp_statement_expression_59 == 0)
                             opts->off = opts->off | 0x02000000L;
 
                           else
                           {
-                            unsigned long int sslopts$$1$$27$$__s1_len;
-                            unsigned long int sslopts$$1$$27$$__s2_len;
-                            signed int return_value___builtin_strcmp$58;
-                            return_value___builtin_strcmp$58=__builtin_strcmp(argv[(signed long int)argi], "no_ssl2");
-                            tmp_statement_expression$57 = return_value___builtin_strcmp$58;
-                            if(tmp_statement_expression$57 == 0)
+                            unsigned long int sslopts__1__27____s1_len;
+                            unsigned long int sslopts__1__27____s2_len;
+                            signed int return_value___builtin_strcmp_58;
+                            return_value___builtin_strcmp_58=__builtin_strcmp(argv[(signed long int)argi], "no_ssl2");
+                            tmp_statement_expression_57 = return_value___builtin_strcmp_58;
+                            if(tmp_statement_expression_57 == 0)
                               opts->off = opts->off | 0x01000000L;
 
                             else
                             {
-                              unsigned long int sslopts$$1$$29$$__s1_len;
-                              unsigned long int sslopts$$1$$29$$__s2_len;
-                              signed int return_value___builtin_strcmp$56;
-                              return_value___builtin_strcmp$56=__builtin_strcmp(argv[(signed long int)argi], "serverpref");
-                              tmp_statement_expression$55 = return_value___builtin_strcmp$56;
-                              if(tmp_statement_expression$55 == 0)
+                              unsigned long int sslopts__1__29____s1_len;
+                              unsigned long int sslopts__1__29____s2_len;
+                              signed int return_value___builtin_strcmp_56;
+                              return_value___builtin_strcmp_56=__builtin_strcmp(argv[(signed long int)argi], "serverpref");
+                              tmp_statement_expression_55 = return_value___builtin_strcmp_56;
+                              if(tmp_statement_expression_55 == 0)
                                 opts->off = opts->off | 0x00400000L;
 
                               else
                               {
-                                unsigned long int sslopts$$1$$31$$__s1_len;
-                                unsigned long int sslopts$$1$$31$$__s2_len;
-                                signed int return_value___builtin_strcmp$54;
-                                return_value___builtin_strcmp$54=__builtin_strcmp(argv[(signed long int)argi], "uniq");
-                                tmp_statement_expression$53 = return_value___builtin_strcmp$54;
-                                if(tmp_statement_expression$53 == 0)
+                                unsigned long int sslopts__1__31____s1_len;
+                                unsigned long int sslopts__1__31____s2_len;
+                                signed int return_value___builtin_strcmp_54;
+                                return_value___builtin_strcmp_54=__builtin_strcmp(argv[(signed long int)argi], "uniq");
+                                tmp_statement_expression_53 = return_value___builtin_strcmp_54;
+                                if(tmp_statement_expression_53 == 0)
                                   opts->serial = (signed long int)-1;
 
                                 else
                                 {
-                                  return_value_strncmp$52=strncmp(argv[(signed long int)argi], "sid_ctx=", (unsigned long int)8);
-                                  if(return_value_strncmp$52 == 0)
+                                  return_value_strncmp_52=strncmp(argv[(signed long int)argi], "sid_ctx=", (unsigned long int)8);
+                                  if(return_value_strncmp_52 == 0)
                                   {
-                                    char *return_value___strdup$15;
-                                    return_value___strdup$15=__strdup(argv[(signed long int)argi] + (signed long int)8);
-                                    opts->sid_ctx = (unsigned char *)return_value___strdup$15;
+                                    char *return_value___strdup_15;
+                                    return_value___strdup_15=__strdup(argv[(signed long int)argi] + (signed long int)8);
+                                    opts->sid_ctx = (unsigned char *)return_value___strdup_15;
                                   }
 
                                   else
                                   {
-                                    unsigned long int sslopts$$1$$35$$__s1_len;
-                                    unsigned long int sslopts$$1$$35$$__s2_len;
-                                    signed int return_value___builtin_strcmp$51;
-                                    return_value___builtin_strcmp$51=__builtin_strcmp(argv[(signed long int)argi], "sni");
-                                    tmp_statement_expression$50 = return_value___builtin_strcmp$51;
-                                    if(tmp_statement_expression$50 == 0)
+                                    unsigned long int sslopts__1__35____s1_len;
+                                    unsigned long int sslopts__1__35____s2_len;
+                                    signed int return_value___builtin_strcmp_51;
+                                    return_value___builtin_strcmp_51=__builtin_strcmp(argv[(signed long int)argi], "sni");
+                                    tmp_statement_expression_50 = return_value___builtin_strcmp_51;
+                                    if(tmp_statement_expression_50 == 0)
                                       opts->useSNI = 1;
 
                                     else
                                     {
-                                      return_value_strncmp$49=strncmp(argv[(signed long int)argi], "servername=", (unsigned long int)11);
-                                      if(return_value_strncmp$49 == 0)
+                                      return_value_strncmp_49=strncmp(argv[(signed long int)argi], "servername=", (unsigned long int)11);
+                                      if(return_value_strncmp_49 == 0)
                                       {
-                                        char *return_value___strdup$16;
-                                        return_value___strdup$16=__strdup(argv[(signed long int)argi] + (signed long int)11);
-                                        opts->servername = return_value___strdup$16;
+                                        char *return_value___strdup_16;
+                                        return_value___strdup_16=__strdup(argv[(signed long int)argi] + (signed long int)11);
+                                        opts->servername = return_value___strdup_16;
                                       }
 
                                       else
                                       {
-                                        return_value_strncmp$48=strncmp(argv[(signed long int)argi], "key=", (unsigned long int)4);
-                                        if(return_value_strncmp$48 == 0)
+                                        return_value_strncmp_48=strncmp(argv[(signed long int)argi], "key=", (unsigned long int)4);
+                                        if(return_value_strncmp_48 == 0)
                                         {
-                                          char *return_value___strdup$17;
-                                          return_value___strdup$17=__strdup(argv[(signed long int)argi] + (signed long int)4);
-                                          opts->keyFile = return_value___strdup$17;
+                                          char *return_value___strdup_17;
+                                          return_value___strdup_17=__strdup(argv[(signed long int)argi] + (signed long int)4);
+                                          opts->keyFile = return_value___strdup_17;
                                           opts->keyFilePat = (char *)(void *)0;
                                           opts->pfxFile = (char *)(void *)0;
                                         }
 
                                         else
                                         {
-                                          return_value_strncmp$47=strncmp(argv[(signed long int)argi], "keypat=", (unsigned long int)7);
-                                          if(return_value_strncmp$47 == 0)
+                                          return_value_strncmp_47=strncmp(argv[(signed long int)argi], "keypat=", (unsigned long int)7);
+                                          if(return_value_strncmp_47 == 0)
                                           {
-                                            char *return_value___strdup$18;
-                                            return_value___strdup$18=__strdup(argv[(signed long int)argi] + (signed long int)7);
-                                            opts->keyFilePat = return_value___strdup$18;
+                                            char *return_value___strdup_18;
+                                            return_value___strdup_18=__strdup(argv[(signed long int)argi] + (signed long int)7);
+                                            opts->keyFilePat = return_value___strdup_18;
                                             opts->pfxFile = (char *)(void *)0;
                                           }
 
                                           else
                                           {
-                                            return_value_strncmp$46=strncmp(argv[(signed long int)argi], "cert=", (unsigned long int)5);
-                                            if(return_value_strncmp$46 == 0)
+                                            return_value_strncmp_46=strncmp(argv[(signed long int)argi], "cert=", (unsigned long int)5);
+                                            if(return_value_strncmp_46 == 0)
                                             {
-                                              char *return_value___strdup$19;
-                                              return_value___strdup$19=__strdup(argv[(signed long int)argi] + (signed long int)5);
-                                              opts->certFile = return_value___strdup$19;
+                                              char *return_value___strdup_19;
+                                              return_value___strdup_19=__strdup(argv[(signed long int)argi] + (signed long int)5);
+                                              opts->certFile = return_value___strdup_19;
                                               opts->certFilePat = (char *)(void *)0;
                                               opts->pfxFile = (char *)(void *)0;
                                             }
 
                                             else
                                             {
-                                              return_value_strncmp$45=strncmp(argv[(signed long int)argi], "certpat=", (unsigned long int)8);
-                                              if(return_value_strncmp$45 == 0)
+                                              return_value_strncmp_45=strncmp(argv[(signed long int)argi], "certpat=", (unsigned long int)8);
+                                              if(return_value_strncmp_45 == 0)
                                               {
-                                                char *return_value___strdup$20;
-                                                return_value___strdup$20=__strdup(argv[(signed long int)argi] + (signed long int)8);
-                                                opts->certFilePat = return_value___strdup$20;
+                                                char *return_value___strdup_20;
+                                                return_value___strdup_20=__strdup(argv[(signed long int)argi] + (signed long int)8);
+                                                opts->certFilePat = return_value___strdup_20;
                                                 opts->pfxFile = (char *)(void *)0;
                                               }
 
                                               else
                                               {
-                                                return_value_strncmp$44=strncmp(argv[(signed long int)argi], "certkey=", (unsigned long int)8);
-                                                if(return_value_strncmp$44 == 0)
+                                                return_value_strncmp_44=strncmp(argv[(signed long int)argi], "certkey=", (unsigned long int)8);
+                                                if(return_value_strncmp_44 == 0)
                                                 {
-                                                  char *return_value___strdup$21;
-                                                  return_value___strdup$21=__strdup(argv[(signed long int)argi] + (signed long int)8);
-                                                  opts->certFile = return_value___strdup$21;
+                                                  char *return_value___strdup_21;
+                                                  return_value___strdup_21=__strdup(argv[(signed long int)argi] + (signed long int)8);
+                                                  opts->certFile = return_value___strdup_21;
                                                   opts->keyFile = opts->certFile;
                                                   opts->certFilePat = (char *)(void *)0;
                                                   opts->keyFilePat = opts->certFilePat;
@@ -18387,44 +18387,44 @@ signed int sslopts(signed int argc, signed int argi, char **argv, struct anonymo
 
                                                 else
                                                 {
-                                                  return_value_strncmp$43=strncmp(argv[(signed long int)argi], "certkeypat=", (unsigned long int)11);
-                                                  if(return_value_strncmp$43 == 0)
+                                                  return_value_strncmp_43=strncmp(argv[(signed long int)argi], "certkeypat=", (unsigned long int)11);
+                                                  if(return_value_strncmp_43 == 0)
                                                   {
-                                                    char *return_value___strdup$22;
-                                                    return_value___strdup$22=__strdup(argv[(signed long int)argi] + (signed long int)11);
-                                                    opts->certFilePat = return_value___strdup$22;
+                                                    char *return_value___strdup_22;
+                                                    return_value___strdup_22=__strdup(argv[(signed long int)argi] + (signed long int)11);
+                                                    opts->certFilePat = return_value___strdup_22;
                                                     opts->keyFilePat = opts->certFilePat;
                                                     opts->pfxFile = (char *)(void *)0;
                                                   }
 
                                                   else
                                                   {
-                                                    return_value_strncmp$42=strncmp(argv[(signed long int)argi], "CAfile=", (unsigned long int)7);
-                                                    if(return_value_strncmp$42 == 0)
+                                                    return_value_strncmp_42=strncmp(argv[(signed long int)argi], "CAfile=", (unsigned long int)7);
+                                                    if(return_value_strncmp_42 == 0)
                                                     {
-                                                      char *return_value___strdup$23;
-                                                      return_value___strdup$23=__strdup(argv[(signed long int)argi] + (signed long int)7);
-                                                      opts->caFile = return_value___strdup$23;
+                                                      char *return_value___strdup_23;
+                                                      return_value___strdup_23=__strdup(argv[(signed long int)argi] + (signed long int)7);
+                                                      opts->caFile = return_value___strdup_23;
                                                     }
 
                                                     else
                                                     {
-                                                      return_value_strncmp$41=strncmp(argv[(signed long int)argi], "CApath=", (unsigned long int)7);
-                                                      if(return_value_strncmp$41 == 0)
+                                                      return_value_strncmp_41=strncmp(argv[(signed long int)argi], "CApath=", (unsigned long int)7);
+                                                      if(return_value_strncmp_41 == 0)
                                                       {
-                                                        char *return_value___strdup$24;
-                                                        return_value___strdup$24=__strdup(argv[(signed long int)argi] + (signed long int)7);
-                                                        opts->caPath = return_value___strdup$24;
+                                                        char *return_value___strdup_24;
+                                                        return_value___strdup_24=__strdup(argv[(signed long int)argi] + (signed long int)7);
+                                                        opts->caPath = return_value___strdup_24;
                                                       }
 
                                                       else
                                                       {
-                                                        return_value_strncmp$40=strncmp(argv[(signed long int)argi], "pfx=", (unsigned long int)4);
-                                                        if(return_value_strncmp$40 == 0)
+                                                        return_value_strncmp_40=strncmp(argv[(signed long int)argi], "pfx=", (unsigned long int)4);
+                                                        if(return_value_strncmp_40 == 0)
                                                         {
-                                                          char *return_value___strdup$25;
-                                                          return_value___strdup$25=__strdup(argv[(signed long int)argi] + (signed long int)4);
-                                                          opts->pfxFile = return_value___strdup$25;
+                                                          char *return_value___strdup_25;
+                                                          return_value___strdup_25=__strdup(argv[(signed long int)argi] + (signed long int)4);
+                                                          opts->pfxFile = return_value___strdup_25;
                                                           opts->pfxFilePat = (char *)(void *)0;
                                                           opts->certFile = (char *)(void *)0;
                                                           opts->keyFile = opts->certFile;
@@ -18434,12 +18434,12 @@ signed int sslopts(signed int argc, signed int argi, char **argv, struct anonymo
 
                                                         else
                                                         {
-                                                          return_value_strncmp$39=strncmp(argv[(signed long int)argi], "pfxpat=", (unsigned long int)7);
-                                                          if(return_value_strncmp$39 == 0)
+                                                          return_value_strncmp_39=strncmp(argv[(signed long int)argi], "pfxpat=", (unsigned long int)7);
+                                                          if(return_value_strncmp_39 == 0)
                                                           {
-                                                            char *return_value___strdup$26;
-                                                            return_value___strdup$26=__strdup(argv[(signed long int)argi] + (signed long int)7);
-                                                            opts->pfxFilePat = return_value___strdup$26;
+                                                            char *return_value___strdup_26;
+                                                            return_value___strdup_26=__strdup(argv[(signed long int)argi] + (signed long int)7);
+                                                            opts->pfxFilePat = return_value___strdup_26;
                                                             opts->certFile = (char *)(void *)0;
                                                             opts->keyFile = opts->certFile;
                                                             opts->certFilePat = (char *)(void *)0;
@@ -18448,64 +18448,64 @@ signed int sslopts(signed int argc, signed int argi, char **argv, struct anonymo
 
                                                           else
                                                           {
-                                                            return_value_strncmp$38=strncmp(argv[(signed long int)argi], "passfile=", (unsigned long int)9);
-                                                            if(return_value_strncmp$38 == 0)
+                                                            return_value_strncmp_38=strncmp(argv[(signed long int)argi], "passfile=", (unsigned long int)9);
+                                                            if(return_value_strncmp_38 == 0)
                                                             {
-                                                              char *return_value___strdup$27;
-                                                              return_value___strdup$27=__strdup(argv[(signed long int)argi] + (signed long int)9);
-                                                              opts->passFile = return_value___strdup$27;
+                                                              char *return_value___strdup_27;
+                                                              return_value___strdup_27=__strdup(argv[(signed long int)argi] + (signed long int)9);
+                                                              opts->passFile = return_value___strdup_27;
                                                               opts->passFilePat = (char *)(void *)0;
                                                             }
 
                                                             else
                                                             {
-                                                              return_value_strncmp$37=strncmp(argv[(signed long int)argi], "passfilepat=", (unsigned long int)12);
-                                                              if(return_value_strncmp$37 == 0)
+                                                              return_value_strncmp_37=strncmp(argv[(signed long int)argi], "passfilepat=", (unsigned long int)12);
+                                                              if(return_value_strncmp_37 == 0)
                                                               {
-                                                                char *return_value___strdup$28;
-                                                                return_value___strdup$28=__strdup(argv[(signed long int)argi] + (signed long int)12);
-                                                                opts->passFilePat = return_value___strdup$28;
+                                                                char *return_value___strdup_28;
+                                                                return_value___strdup_28=__strdup(argv[(signed long int)argi] + (signed long int)12);
+                                                                opts->passFilePat = return_value___strdup_28;
                                                                 opts->passFile = (char *)(void *)0;
                                                               }
 
                                                               else
                                                               {
-                                                                return_value_strncmp$36=strncmp(argv[(signed long int)argi], "ignore", (unsigned long int)6);
-                                                                if(return_value_strncmp$36 == 0)
+                                                                return_value_strncmp_36=strncmp(argv[(signed long int)argi], "ignore", (unsigned long int)6);
+                                                                if(return_value_strncmp_36 == 0)
                                                                   opts->certIgnore = 1;
 
                                                                 else
                                                                 {
-                                                                  return_value_strncmp$35=strncmp(argv[(signed long int)argi], "cipher=", (unsigned long int)7);
-                                                                  if(return_value_strncmp$35 == 0)
+                                                                  return_value_strncmp_35=strncmp(argv[(signed long int)argi], "cipher=", (unsigned long int)7);
+                                                                  if(return_value_strncmp_35 == 0)
                                                                   {
-                                                                    char *return_value___strdup$29;
-                                                                    return_value___strdup$29=__strdup(argv[(signed long int)argi] + (signed long int)7);
-                                                                    opts->cipherList = return_value___strdup$29;
+                                                                    char *return_value___strdup_29;
+                                                                    return_value___strdup_29=__strdup(argv[(signed long int)argi] + (signed long int)7);
+                                                                    opts->cipherList = return_value___strdup_29;
                                                                   }
 
                                                                   else
                                                                   {
-                                                                    return_value_strncmp$31=strncmp(argv[(signed long int)argi], "lb", (unsigned long int)2);
-                                                                    if(return_value_strncmp$31 == 0)
+                                                                    return_value_strncmp_31=strncmp(argv[(signed long int)argi], "lb", (unsigned long int)2);
+                                                                    if(return_value_strncmp_31 == 0)
                                                                     {
-                                                                      return_value___ctype_b_loc$32=__ctype_b_loc();
-                                                                      tmp_if_expr$33 = ((signed int)(*return_value___ctype_b_loc$32)[(signed long int)(signed int)argv[(signed long int)argi][(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+                                                                      return_value___ctype_b_loc_32=__ctype_b_loc();
+                                                                      tmp_if_expr_33 = ((signed int)(*return_value___ctype_b_loc_32)[(signed long int)(signed int)argv[(signed long int)argi][(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
                                                                     }
 
                                                                     else
-                                                                      tmp_if_expr$33 = (_Bool)0;
-                                                                    if(tmp_if_expr$33)
-                                                                      tmp_if_expr$34 = (signed int)argv[(signed long int)argi][(signed long int)3] == 61 ? (_Bool)1 : (_Bool)0;
+                                                                      tmp_if_expr_33 = (_Bool)0;
+                                                                    if(tmp_if_expr_33)
+                                                                      tmp_if_expr_34 = (signed int)argv[(signed long int)argi][(signed long int)3] == 61 ? (_Bool)1 : (_Bool)0;
 
                                                                     else
-                                                                      tmp_if_expr$34 = (_Bool)0;
-                                                                    if(tmp_if_expr$34)
+                                                                      tmp_if_expr_34 = (_Bool)0;
+                                                                    if(tmp_if_expr_34)
                                                                     {
                                                                       opts->lbparm = (unsigned char)((signed int)argv[(signed long int)argi][(signed long int)2] - 48);
-                                                                      signed int return_value_atoi$30;
-                                                                      return_value_atoi$30=atoi(argv[(signed long int)argi] + (signed long int)4);
-                                                                      opts->lbmod = (unsigned char)return_value_atoi$30;
+                                                                      signed int return_value_atoi_30;
+                                                                      return_value_atoi_30=atoi(argv[(signed long int)argi] + (signed long int)4);
+                                                                      opts->lbmod = (unsigned char)return_value_atoi_30;
                                                                     }
 
                                                                     else
@@ -18555,7 +18555,7 @@ signed int sslopts(signed int argc, signed int argi, char **argv, struct anonymo
 
 // sslopts_default
 // file stone.c line 8857
-void sslopts_default(struct anonymous$8 *opts, signed int isserver)
+void sslopts_default(struct anonymous_8 *opts, signed int isserver)
 {
   signed int i;
   opts->verbose = 0;
@@ -18571,12 +18571,12 @@ void sslopts_default(struct anonymous$8 *opts, signed int isserver)
   if(!(isserver == 0))
   {
     char path[2048l];
-    const char *return_value_X509_get_default_cert_dir$1;
-    return_value_X509_get_default_cert_dir$1=X509_get_default_cert_dir();
-    snprintf(path, (unsigned long int)(2048 - 1), "%s/stone.pem", return_value_X509_get_default_cert_dir$1);
-    char *return_value___strdup$2;
-    return_value___strdup$2=__strdup(path);
-    opts->certFile = return_value___strdup$2;
+    const char *return_value_X509_get_default_cert_dir_1;
+    return_value_X509_get_default_cert_dir_1=X509_get_default_cert_dir();
+    snprintf(path, (unsigned long int)(2048 - 1), "%s/stone.pem", return_value_X509_get_default_cert_dir_1);
+    char *return_value___strdup_2;
+    return_value___strdup_2=__strdup(path);
+    opts->certFile = return_value___strdup_2;
     opts->keyFile = opts->certFile;
     opts->certFilePat = (char *)(void *)0;
     opts->keyFilePat = opts->certFilePat;
@@ -18612,9 +18612,9 @@ void sslopts_default(struct anonymous$8 *opts, signed int isserver)
 unsigned long int sslthread_id_callback(void)
 {
   unsigned long int ret;
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  ret = (unsigned long int)return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  ret = (unsigned long int)return_value_pthread_self_1;
   if(Debug >= 20)
     message(7, "SSL_thread id=%ld", ret);
 
@@ -18627,10 +18627,10 @@ signed int sslthread_initialize(void)
 {
   signed int i;
   NSSLMutexs=CRYPTO_num_locks();
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)NSSLMutexs * sizeof(union anonymous$3) /*40ul*/ );
-  SSLMutex = (union anonymous$3 *)return_value_malloc$1;
-  if(SSLMutex == ((union anonymous$3 *)NULL))
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)NSSLMutexs * sizeof(union anonymous_3) /*40ul*/ );
+  SSLMutex = (union anonymous_3 *)return_value_malloc_1;
+  if(SSLMutex == ((union anonymous_3 *)NULL))
     return -1;
 
   else
@@ -18640,7 +18640,7 @@ signed int sslthread_initialize(void)
 
     i = 0;
     for( ; !(i >= NSSLMutexs); i = i + 1)
-      pthread_mutex_init(&SSLMutex[(signed long int)i], (const union anonymous$17 *)(void *)0);
+      pthread_mutex_init(&SSLMutex[(signed long int)i], (const union anonymous_17 *)(void *)0);
     CRYPTO_set_id_callback(sslthread_id_callback);
     CRYPTO_set_locking_callback(sslthread_lock_callback);
     return 1;
@@ -18672,9 +18672,9 @@ void sslthread_lock_callback(signed int mode, signed int n, const char *file, si
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___xstat$1;
-  return_value___xstat$1=__xstat(1, __path, __statbuf);
-  return return_value___xstat$1;
+  signed int return_value___xstat_1;
+  return_value___xstat_1=__xstat(1, __path, __statbuf);
+  return return_value___xstat_1;
 }
 
 // stone2str
@@ -18715,16 +18715,16 @@ char * str2bin(char *p, signed int *lenp)
   char buf[2048l];
   char c;
   signed int i = 0;
-  char *tmp_post$1;
-  char *tmp_post$2;
-  signed int return_value_str2num$3;
-  signed int return_value_str2num$4;
-  signed int tmp_post$5;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  signed int return_value_str2num_3;
+  signed int return_value_str2num_4;
+  signed int tmp_post_5;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p + 1l;
-    c = *tmp_post$1;
+    c = *tmp_post_1;
     if(c == 0)
       break;
 
@@ -18733,9 +18733,9 @@ char * str2bin(char *p, signed int *lenp)
 
     if((signed int)c == 92)
     {
-      tmp_post$2 = p;
+      tmp_post_2 = p;
       p = p + 1l;
-      c = *tmp_post$2;
+      c = *tmp_post_2;
       switch((signed int)c)
       {
         case 110:
@@ -18755,14 +18755,14 @@ char * str2bin(char *p, signed int *lenp)
         }
         case 48:
         {
-          return_value_str2num$3=str2num(&p, 8);
-          c = (char)return_value_str2num$3;
+          return_value_str2num_3=str2num(&p, 8);
+          c = (char)return_value_str2num_3;
           break;
         }
         case 120:
         {
-          return_value_str2num$4=str2num(&p, 16);
-          c = (char)return_value_str2num$4;
+          return_value_str2num_4=str2num(&p, 16);
+          c = (char)return_value_str2num_4;
           break;
         }
         case 0:
@@ -18773,14 +18773,14 @@ char * str2bin(char *p, signed int *lenp)
       }
     }
 
-    tmp_post$5 = i;
+    tmp_post_5 = i;
     i = i + 1;
-    buf[(signed long int)tmp_post$5] = c;
+    buf[(signed long int)tmp_post_5] = c;
   }
   while((_Bool)1);
-  void *return_value_malloc$6;
-  return_value_malloc$6=malloc((unsigned long int)i);
-  p = (char *)return_value_malloc$6;
+  void *return_value_malloc_6;
+  return_value_malloc_6=malloc((unsigned long int)i);
+  p = (char *)return_value_malloc_6;
   if(p == ((char *)NULL))
   {
     message(2, "Out of memory, can't make str");
@@ -18802,10 +18802,10 @@ signed int str2num(char **pp, signed int rad)
   p = *pp;
   num = 0;
   i = 0;
-  signed int tmp_statement_expression$1;
-  signed int tmp_if_expr$3;
-  const signed int **return_value___ctype_toupper_loc$2;
-  const signed int **return_value___ctype_toupper_loc$4;
+  signed int tmp_statement_expression_1;
+  signed int tmp_if_expr_3;
+  const signed int **return_value___ctype_toupper_loc_2;
+  const signed int **return_value___ctype_toupper_loc_4;
   for( ; !(i >= 3); i = i + 1)
   {
     char c = p[(signed long int)i];
@@ -18815,10 +18815,10 @@ signed int str2num(char **pp, signed int rad)
     else
     {
       signed int __res;
-      return_value___ctype_toupper_loc$4=__ctype_toupper_loc();
-      __res = (*return_value___ctype_toupper_loc$4)[(signed long int)(signed int)c];
-      tmp_statement_expression$1 = __res;
-      c = (char)tmp_statement_expression$1;
+      return_value___ctype_toupper_loc_4=__ctype_toupper_loc();
+      __res = (*return_value___ctype_toupper_loc_4)[(signed long int)(signed int)c];
+      tmp_statement_expression_1 = __res;
+      c = (char)tmp_statement_expression_1;
       if(65 + rad + -11 >= (signed int)c && rad >= 11 && (signed int)c >= 65)
         num = num * rad + ((signed int)c - 65) + 10;
 
@@ -18868,9 +18868,9 @@ __CPROVER_DUMP_L3:
       addr2str(name, namelen, str, 127, 0);
     str[(signed long int)127] = (char)0;
   }
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  len = (signed int)return_value_strlen_1;
   if(!(limit >= len))
     len = limit;
 
@@ -18887,18 +18887,18 @@ signed int strnUser(char *buf, signed int limit, struct _Pair *pair, signed int 
   signed int len;
   char str[128l];
   str[(signed long int)0] = (char)0;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if(which == 2)
   {
     ex=getExData(pair, data_identuser, 0);
-    tmp_if_expr$5 = ex != ((struct _ExBuf *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_5 = ex != ((struct _ExBuf *)NULL) ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$5 = (_Bool)0;
-  unsigned int tmp_if_expr$3;
-  unsigned int tmp_if_expr$4;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = (_Bool)0;
+  unsigned int tmp_if_expr_3;
+  unsigned int tmp_if_expr_4;
+  if(tmp_if_expr_5)
   {
     len = (signed int)((unsigned long int)ex->len - sizeof(signed int) /*4ul*/ );
     __builtin_strncpy(str, ex->buf + (signed long int)sizeof(signed int) /*4ul*/ , (unsigned long int)len);
@@ -18920,13 +18920,13 @@ signed int strnUser(char *buf, signed int limit, struct _Pair *pair, signed int 
         if(!(ex == ((struct _ExBuf *)NULL)))
         {
           cred = (struct ucred *)(ex->buf + (signed long int)sizeof(signed int) /*4ul*/ );
-          signed int return_value_getsockopt$2;
-          return_value_getsockopt$2=getsockopt(pair->sd, 1, 17, (void *)cred, &optlen);
-          if(!(return_value_getsockopt$2 >= 0))
+          signed int return_value_getsockopt_2;
+          return_value_getsockopt_2=getsockopt(pair->sd, 1, 17, (void *)cred, &optlen);
+          if(!(return_value_getsockopt_2 >= 0))
           {
-            signed int *return_value___errno_location$1;
-            return_value___errno_location$1=__errno_location();
-            message(3, "%d TCP %d: Can't get PEERCRED err=%d", stone->sd, pair->sd, *return_value___errno_location$1);
+            signed int *return_value___errno_location_1;
+            return_value___errno_location_1=__errno_location();
+            message(3, "%d TCP %d: Can't get PEERCRED err=%d", stone->sd, pair->sd, *return_value___errno_location_1);
             ungetExBuf(ex);
             cred = (struct ucred *)(void *)0;
           }
@@ -18939,11 +18939,11 @@ signed int strnUser(char *buf, signed int limit, struct _Pair *pair, signed int 
         case 1:
         {
           if(!(cred == ((struct ucred *)NULL)))
-            tmp_if_expr$3 = cred->gid;
+            tmp_if_expr_3 = cred->gid;
 
           else
-            tmp_if_expr$3 = (unsigned int)-1;
-          snprintf(str, (unsigned long int)127, "%d", tmp_if_expr$3);
+            tmp_if_expr_3 = (unsigned int)-1;
+          snprintf(str, (unsigned long int)127, "%d", tmp_if_expr_3);
           break;
         }
         case 2:
@@ -18952,11 +18952,11 @@ signed int strnUser(char *buf, signed int limit, struct _Pair *pair, signed int 
           if(!(cred == ((struct ucred *)NULL)))
           {
             struct passwd pwbuf;
-            char strnUser$$1$$2$$3$$1$$sbuf[128l];
+            char strnUser__1__2__3__1__sbuf[128l];
             struct passwd *passwd;
-            signed int strnUser$$1$$2$$3$$1$$ret;
-            strnUser$$1$$2$$3$$1$$ret=getpwuid_r(cred->uid, &pwbuf, strnUser$$1$$2$$3$$1$$sbuf, (unsigned long int)127, &passwd);
-            if(strnUser$$1$$2$$3$$1$$ret == 0)
+            signed int strnUser__1__2__3__1__ret;
+            strnUser__1__2__3__1__ret=getpwuid_r(cred->uid, &pwbuf, strnUser__1__2__3__1__sbuf, (unsigned long int)127, &passwd);
+            if(strnUser__1__2__3__1__ret == 0)
               snprintf(str, (unsigned long int)127, "%s", passwd->pw_name);
 
           }
@@ -18983,18 +18983,18 @@ signed int strnUser(char *buf, signed int limit, struct _Pair *pair, signed int 
         default:
         {
           if(!(cred == ((struct ucred *)NULL)))
-            tmp_if_expr$4 = cred->uid;
+            tmp_if_expr_4 = cred->uid;
 
           else
-            tmp_if_expr$4 = (unsigned int)-1;
-          snprintf(str, (unsigned long int)127, "%d", tmp_if_expr$4);
+            tmp_if_expr_4 = (unsigned int)-1;
+          snprintf(str, (unsigned long int)127, "%d", tmp_if_expr_4);
         }
       }
     }
 
-  unsigned long int return_value_strlen$6;
-  return_value_strlen$6=strlen(str);
-  len = (signed int)return_value_strlen$6;
+  unsigned long int return_value_strlen_6;
+  return_value_strlen_6=strlen(str);
+  len = (signed int)return_value_strlen_6;
   if(!(limit >= len))
     len = limit;
 
@@ -19014,32 +19014,32 @@ signed int strnparse(char *buf, signed int limit, char **pp, struct _Pair *pair,
   struct ssl_session_st *sess = (struct ssl_session_st *)(void *)0;
   signed int cond;
   p = *pp;
-  char *tmp_post$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  void *return_value_SSL_SESSION_get_ex_data$4;
-  signed int return_value_strnAddr$8;
-  signed int return_value_strnAddr$9;
-  signed int return_value_strnAddr$10;
-  signed int return_value_strnAddr$11;
-  signed int return_value_strnUser$12;
-  signed int return_value_strnUser$13;
-  signed int return_value_strnUser$14;
-  signed int return_value_strnUser$15;
-  signed int tmp_post$16;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  void *return_value_SSL_SESSION_get_ex_data_4;
+  signed int return_value_strnAddr_8;
+  signed int return_value_strnAddr_9;
+  signed int return_value_strnAddr_10;
+  signed int return_value_strnAddr_11;
+  signed int return_value_strnUser_12;
+  signed int return_value_strnUser_13;
+  signed int return_value_strnUser_14;
+  signed int return_value_strnUser_15;
+  signed int tmp_post_16;
   while(!(i >= limit))
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p + 1l;
-    c = *tmp_post$1;
+    c = *tmp_post_1;
     if(c == 0)
       break;
 
     if((signed int)c == 92)
     {
-      tmp_post$2 = p;
+      tmp_post_2 = p;
       p = p + 1l;
-      c = *tmp_post$2;
+      c = *tmp_post_2;
       if(c == term)
         break;
 
@@ -19047,9 +19047,9 @@ signed int strnparse(char *buf, signed int limit, char **pp, struct _Pair *pair,
       if((signed int)c == 63)
       {
         cond = 0;
-        tmp_post$3 = p;
+        tmp_post_3 = p;
         p = p + 1l;
-        c = *tmp_post$3;
+        c = *tmp_post_3;
       }
 
       if((signed int)c >= 48 && !((signed int)c >= 58))
@@ -19059,8 +19059,8 @@ signed int strnparse(char *buf, signed int limit, char **pp, struct _Pair *pair,
           sess=SSL_get1_session(ssl);
           if(!(sess == ((struct ssl_session_st *)NULL)))
           {
-            return_value_SSL_SESSION_get_ex_data$4=SSL_SESSION_get_ex_data(sess, MatchIndex);
-            match = (char **)return_value_SSL_SESSION_get_ex_data$4;
+            return_value_SSL_SESSION_get_ex_data_4=SSL_SESSION_get_ex_data(sess, MatchIndex);
+            match = (char **)return_value_SSL_SESSION_get_ex_data_4;
           }
 
           if(match == ((char **)NULL))
@@ -19083,9 +19083,9 @@ signed int strnparse(char *buf, signed int limit, char **pp, struct _Pair *pair,
             else
             {
               signed int len;
-              unsigned long int return_value_strlen$5;
-              return_value_strlen$5=strlen(match[(signed long int)num]);
-              len = (signed int)return_value_strlen$5;
+              unsigned long int return_value_strlen_5;
+              return_value_strlen_5=strlen(match[(signed long int)num]);
+              len = (signed int)return_value_strlen_5;
               if(len >= limit + -i)
                 len = limit - i;
 
@@ -19104,9 +19104,9 @@ signed int strnparse(char *buf, signed int limit, char **pp, struct _Pair *pair,
         {
           if(!(buf == ((char *)NULL)))
           {
-            signed int return_value_strnparse$6;
-            return_value_strnparse$6=strnparse(buf + (signed long int)i, limit - i, &p, pair, (char)58);
-            i = i + return_value_strnparse$6;
+            signed int return_value_strnparse_6;
+            return_value_strnparse_6=strnparse(buf + (signed long int)i, limit - i, &p, pair, (char)58);
+            i = i + return_value_strnparse_6;
             strnparse((char *)(void *)0, limit - i, &p, pair, (char)47);
           }
 
@@ -19118,9 +19118,9 @@ signed int strnparse(char *buf, signed int limit, char **pp, struct _Pair *pair,
             if(!(buf == ((char *)NULL)))
             {
               strnparse((char *)(void *)0, limit - i, &p, pair, (char)58);
-              signed int return_value_strnparse$7;
-              return_value_strnparse$7=strnparse(buf + (signed long int)i, limit - i, &p, pair, (char)47);
-              i = i + return_value_strnparse$7;
+              signed int return_value_strnparse_7;
+              return_value_strnparse_7=strnparse(buf + (signed long int)i, limit - i, &p, pair, (char)47);
+              i = i + return_value_strnparse_7;
             }
 
           }
@@ -19149,8 +19149,8 @@ signed int strnparse(char *buf, signed int limit, char **pp, struct _Pair *pair,
         {
           if(!(buf == ((char *)NULL)))
           {
-            return_value_strnAddr$8=strnAddr(buf + (signed long int)i, limit - i, pair->sd, 0, 0);
-            i = i + return_value_strnAddr$8;
+            return_value_strnAddr_8=strnAddr(buf + (signed long int)i, limit - i, pair->sd, 0, 0);
+            i = i + return_value_strnAddr_8;
           }
 
           goto __CPROVER_DUMP_L37;
@@ -19159,8 +19159,8 @@ signed int strnparse(char *buf, signed int limit, char **pp, struct _Pair *pair,
         {
           if(!(buf == ((char *)NULL)))
           {
-            return_value_strnAddr$9=strnAddr(buf + (signed long int)i, limit - i, pair->sd, 0, 1);
-            i = i + return_value_strnAddr$9;
+            return_value_strnAddr_9=strnAddr(buf + (signed long int)i, limit - i, pair->sd, 0, 1);
+            i = i + return_value_strnAddr_9;
           }
 
           goto __CPROVER_DUMP_L37;
@@ -19169,8 +19169,8 @@ signed int strnparse(char *buf, signed int limit, char **pp, struct _Pair *pair,
         {
           if(!(buf == ((char *)NULL)))
           {
-            return_value_strnAddr$10=strnAddr(buf + (signed long int)i, limit - i, pair->sd, 1, 0);
-            i = i + return_value_strnAddr$10;
+            return_value_strnAddr_10=strnAddr(buf + (signed long int)i, limit - i, pair->sd, 1, 0);
+            i = i + return_value_strnAddr_10;
           }
 
           goto __CPROVER_DUMP_L37;
@@ -19179,8 +19179,8 @@ signed int strnparse(char *buf, signed int limit, char **pp, struct _Pair *pair,
         {
           if(!(buf == ((char *)NULL)))
           {
-            return_value_strnAddr$11=strnAddr(buf + (signed long int)i, limit - i, pair->sd, 1, 1);
-            i = i + return_value_strnAddr$11;
+            return_value_strnAddr_11=strnAddr(buf + (signed long int)i, limit - i, pair->sd, 1, 1);
+            i = i + return_value_strnAddr_11;
           }
 
           goto __CPROVER_DUMP_L37;
@@ -19189,8 +19189,8 @@ signed int strnparse(char *buf, signed int limit, char **pp, struct _Pair *pair,
         {
           if(!(buf == ((char *)NULL)))
           {
-            return_value_strnUser$12=strnUser(buf + (signed long int)i, limit - i, pair, 0);
-            i = i + return_value_strnUser$12;
+            return_value_strnUser_12=strnUser(buf + (signed long int)i, limit - i, pair, 0);
+            i = i + return_value_strnUser_12;
           }
 
           goto __CPROVER_DUMP_L37;
@@ -19199,8 +19199,8 @@ signed int strnparse(char *buf, signed int limit, char **pp, struct _Pair *pair,
         {
           if(!(buf == ((char *)NULL)))
           {
-            return_value_strnUser$13=strnUser(buf + (signed long int)i, limit - i, pair, 1);
-            i = i + return_value_strnUser$13;
+            return_value_strnUser_13=strnUser(buf + (signed long int)i, limit - i, pair, 1);
+            i = i + return_value_strnUser_13;
           }
 
           goto __CPROVER_DUMP_L37;
@@ -19209,8 +19209,8 @@ signed int strnparse(char *buf, signed int limit, char **pp, struct _Pair *pair,
         {
           if(!(buf == ((char *)NULL)))
           {
-            return_value_strnUser$14=strnUser(buf + (signed long int)i, limit - i, pair, 2);
-            i = i + return_value_strnUser$14;
+            return_value_strnUser_14=strnUser(buf + (signed long int)i, limit - i, pair, 2);
+            i = i + return_value_strnUser_14;
           }
 
           goto __CPROVER_DUMP_L37;
@@ -19219,8 +19219,8 @@ signed int strnparse(char *buf, signed int limit, char **pp, struct _Pair *pair,
         {
           if(!(buf == ((char *)NULL)))
           {
-            return_value_strnUser$15=strnUser(buf + (signed long int)i, limit - i, pair, 3);
-            i = i + return_value_strnUser$15;
+            return_value_strnUser_15=strnUser(buf + (signed long int)i, limit - i, pair, 3);
+            i = i + return_value_strnUser_15;
           }
 
           goto __CPROVER_DUMP_L37;
@@ -19237,9 +19237,9 @@ signed int strnparse(char *buf, signed int limit, char **pp, struct _Pair *pair,
 
     if(!(buf == ((char *)NULL)))
     {
-      tmp_post$16 = i;
+      tmp_post_16 = i;
       i = i + 1;
-      buf[(signed long int)tmp_post$16] = c;
+      buf[(signed long int)tmp_post_16] = c;
     }
 
 
@@ -19275,17 +19275,17 @@ char * strntime(char *str, signed int len, signed long int *clock, signed long i
 // file /usr/include/ctype.h line 221
 static inline signed int toupper(signed int __c)
 {
-  signed int tmp_if_expr$2;
-  const signed int **return_value___ctype_toupper_loc$1;
+  signed int tmp_if_expr_2;
+  const signed int **return_value___ctype_toupper_loc_1;
   if(__c >= -128 && !(__c >= 256))
   {
-    return_value___ctype_toupper_loc$1=__ctype_toupper_loc();
-    tmp_if_expr$2 = (*return_value___ctype_toupper_loc$1)[(signed long int)__c];
+    return_value___ctype_toupper_loc_1=__ctype_toupper_loc();
+    tmp_if_expr_2 = (*return_value___ctype_toupper_loc_1)[(signed long int)__c];
   }
 
   else
-    tmp_if_expr$2 = __c;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = __c;
+  return tmp_if_expr_2;
 }
 
 // ungetExBuf
@@ -19374,21 +19374,21 @@ static signed int verify_callback(signed int preverify_ok, struct x509_store_ctx
   signed long int serial = (signed long int)-1;
   struct ssl_st *ssl;
   struct _Pair *pair;
-  struct anonymous$12 *ss;
+  struct anonymous_12 *ss;
   char buf[2048l];
   char *p;
   err_cert=X509_STORE_CTX_get_current_cert(ctx);
   err=X509_STORE_CTX_get_error(ctx);
   depth=X509_STORE_CTX_get_error_depth(ctx);
-  signed int return_value_SSL_get_ex_data_X509_STORE_CTX_idx$1;
-  return_value_SSL_get_ex_data_X509_STORE_CTX_idx$1=SSL_get_ex_data_X509_STORE_CTX_idx();
-  void *return_value_X509_STORE_CTX_get_ex_data$2;
-  return_value_X509_STORE_CTX_get_ex_data$2=X509_STORE_CTX_get_ex_data(ctx, return_value_SSL_get_ex_data_X509_STORE_CTX_idx$1);
-  ssl = (struct ssl_st *)return_value_X509_STORE_CTX_get_ex_data$2;
-  signed int return_value_hostcheck$4;
-  const char *return_value_X509_verify_cert_error_string$6;
-  _Bool tmp_if_expr$11;
-  void *return_value_SSL_SESSION_get_ex_data$10;
+  signed int return_value_SSL_get_ex_data_X509_STORE_CTX_idx_1;
+  return_value_SSL_get_ex_data_X509_STORE_CTX_idx_1=SSL_get_ex_data_X509_STORE_CTX_idx();
+  void *return_value_X509_STORE_CTX_get_ex_data_2;
+  return_value_X509_STORE_CTX_get_ex_data_2=X509_STORE_CTX_get_ex_data(ctx, return_value_SSL_get_ex_data_X509_STORE_CTX_idx_1);
+  ssl = (struct ssl_st *)return_value_X509_STORE_CTX_get_ex_data_2;
+  signed int return_value_hostcheck_4;
+  const char *return_value_X509_verify_cert_error_string_6;
+  _Bool tmp_if_expr_11;
+  void *return_value_SSL_SESSION_get_ex_data_10;
   if(ssl == ((struct ssl_st *)NULL))
   {
     message(3, "SSL callback can't get SSL object");
@@ -19397,9 +19397,9 @@ static signed int verify_callback(signed int preverify_ok, struct x509_store_ctx
 
   else
   {
-    void *return_value_SSL_get_ex_data$3;
-    return_value_SSL_get_ex_data$3=SSL_get_ex_data(ssl, PairIndex);
-    pair = (struct _Pair *)return_value_SSL_get_ex_data$3;
+    void *return_value_SSL_get_ex_data_3;
+    return_value_SSL_get_ex_data_3=SSL_get_ex_data(ssl, PairIndex);
+    pair = (struct _Pair *)return_value_SSL_get_ex_data_3;
     if(pair == ((struct _Pair *)NULL))
     {
       message(3, "SSL callback don't have ex_data, verify fails");
@@ -19445,8 +19445,8 @@ static signed int verify_callback(signed int preverify_ok, struct x509_store_ctx
         {
           if(ss->re[(signed long int)depth] == ((struct re_pattern_buffer *)NULL))
           {
-            return_value_hostcheck$4=hostcheck(pair, err_cert, ss->name);
-            if(return_value_hostcheck$4 == 0)
+            return_value_hostcheck_4=hostcheck(pair, err_cert, ss->name);
+            if(return_value_hostcheck_4 == 0)
               return 0;
 
           }
@@ -19458,9 +19458,9 @@ static signed int verify_callback(signed int preverify_ok, struct x509_store_ctx
       if(Debug >= 4)
         message(7, "%d TCP %d: callback: err=%d, depth=%d/%d, preverify=%d", pair->stone->sd, pair->sd, err, depth, depth - depthmax, preverify_ok);
 
-      struct X509_name_st *return_value_X509_get_subject_name$5;
-      return_value_X509_get_subject_name$5=X509_get_subject_name(err_cert);
-      p=X509_NAME_oneline(return_value_X509_get_subject_name$5, buf, 2048 - 1);
+      struct X509_name_st *return_value_X509_get_subject_name_5;
+      return_value_X509_get_subject_name_5=X509_get_subject_name(err_cert);
+      p=X509_NAME_oneline(return_value_X509_get_subject_name_5, buf, 2048 - 1);
       if(p == ((char *)NULL))
         return 0;
 
@@ -19479,8 +19479,8 @@ static signed int verify_callback(signed int preverify_ok, struct x509_store_ctx
         {
           if(!(ss->verbose == 0))
           {
-            return_value_X509_verify_cert_error_string$6=X509_verify_cert_error_string((signed long int)err);
-            message(7, "%d TCP %d: verify error err=%d %s", pair->stone->sd, pair->sd, err, return_value_X509_verify_cert_error_string$6);
+            return_value_X509_verify_cert_error_string_6=X509_verify_cert_error_string((signed long int)err);
+            message(7, "%d TCP %d: verify error err=%d %s", pair->stone->sd, pair->sd, err, return_value_X509_verify_cert_error_string_6);
           }
 
           if((sslparm_ignore & (signed int)ss->sslparm) == 0)
@@ -19495,7 +19495,7 @@ static signed int verify_callback(signed int preverify_ok, struct x509_store_ctx
         if(!(re == ((struct re_pattern_buffer *)NULL)) && !(depth >= 10))
         {
           struct ssl_session_st *sess = (struct ssl_session_st *)(void *)0;
-          struct anonymous$19 pmatch[9l];
+          struct anonymous_19 pmatch[9l];
           char **match;
           err=regexec(re, p, (unsigned long int)9, pmatch, 0);
           if(Debug >= 4)
@@ -19507,14 +19507,14 @@ static signed int verify_callback(signed int preverify_ok, struct x509_store_ctx
           sess=SSL_get1_session(ssl);
           if(!(sess == ((struct ssl_session_st *)NULL)))
           {
-            return_value_SSL_SESSION_get_ex_data$10=SSL_SESSION_get_ex_data(sess, MatchIndex);
-            match = (char **)return_value_SSL_SESSION_get_ex_data$10;
-            tmp_if_expr$11 = match != ((char **)NULL) ? (_Bool)1 : (_Bool)0;
+            return_value_SSL_SESSION_get_ex_data_10=SSL_SESSION_get_ex_data(sess, MatchIndex);
+            match = (char **)return_value_SSL_SESSION_get_ex_data_10;
+            tmp_if_expr_11 = match != ((char **)NULL) ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$11 = (_Bool)0;
-          if(tmp_if_expr$11)
+            tmp_if_expr_11 = (_Bool)0;
+          if(tmp_if_expr_11)
           {
             signed int i;
             signed int j = 1;
@@ -19523,15 +19523,15 @@ static signed int verify_callback(signed int preverify_ok, struct x509_store_ctx
               char str[128l];
               signed int len;
               snprintf(str, (unsigned long int)127, "%lx", serial);
-              unsigned long int return_value_strlen$7;
-              return_value_strlen$7=strlen(str);
-              len = (signed int)return_value_strlen$7;
+              unsigned long int return_value_strlen_7;
+              return_value_strlen_7=strlen(str);
+              len = (signed int)return_value_strlen_7;
               if(!(*match == ((char *)NULL)))
                 free((void *)match[(signed long int)0]);
 
-              void *return_value_malloc$8;
-              return_value_malloc$8=malloc((unsigned long int)(len + 1));
-              match[(signed long int)0] = (char *)return_value_malloc$8;
+              void *return_value_malloc_8;
+              return_value_malloc_8=malloc((unsigned long int)(len + 1));
+              match[(signed long int)0] = (char *)return_value_malloc_8;
               if(!(*match == ((char *)NULL)))
               {
                 __builtin_strncpy(match[(signed long int)0], str, (unsigned long int)len);
@@ -19546,14 +19546,14 @@ static signed int verify_callback(signed int preverify_ok, struct x509_store_ctx
               {
                 if(pmatch[(signed long int)j].rm_so >= 0)
                 {
-                  signed int verify_callback$$1$$9$$1$$2$$1$$1$$len = pmatch[(signed long int)j].rm_eo - pmatch[(signed long int)j].rm_so;
-                  void *return_value_malloc$9;
-                  return_value_malloc$9=malloc((unsigned long int)(verify_callback$$1$$9$$1$$2$$1$$1$$len + 1));
-                  match[(signed long int)i] = (char *)return_value_malloc$9;
+                  signed int verify_callback__1__9__1__2__1__1__len = pmatch[(signed long int)j].rm_eo - pmatch[(signed long int)j].rm_so;
+                  void *return_value_malloc_9;
+                  return_value_malloc_9=malloc((unsigned long int)(verify_callback__1__9__1__2__1__1__len + 1));
+                  match[(signed long int)i] = (char *)return_value_malloc_9;
                   if(!(match[(signed long int)i] == ((char *)NULL)))
                   {
-                    __builtin_strncpy(match[(signed long int)i], p + (signed long int)pmatch[(signed long int)j].rm_so, (unsigned long int)verify_callback$$1$$9$$1$$2$$1$$1$$len);
-                    match[(signed long int)i][(signed long int)verify_callback$$1$$9$$1$$2$$1$$1$$len] = (char)0;
+                    __builtin_strncpy(match[(signed long int)i], p + (signed long int)pmatch[(signed long int)j].rm_so, (unsigned long int)verify_callback__1__9__1__2__1__1__len);
+                    match[(signed long int)i][(signed long int)verify_callback__1__9__1__2__1__1__len] = (char)0;
                     if(Debug >= 5)
                       message(7, "%d TCP %d: \\%d=%s", pair->stone->sd, pair->sd, i, match[(signed long int)i]);
 

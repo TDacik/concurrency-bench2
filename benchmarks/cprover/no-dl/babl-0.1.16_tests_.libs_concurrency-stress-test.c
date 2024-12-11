@@ -1,70 +1,70 @@
-// #anon_enum$BABL_CPU_ACCEL_NONE=0$BABL_CPU_ACCEL_X86_MMX=16777216$BABL_CPU_ACCEL_X86_3DNOW=1073741824$BABL_CPU_ACCEL_X86_MMXEXT=536870912$BABL_CPU_ACCEL_X86_SSE=268435456$BABL_CPU_ACCEL_X86_SSE2=134217728$BABL_CPU_ACCEL_X86_SSE3=33554432$BABL_CPU_ACCEL_X86_SSSE3=8388608$BABL_CPU_ACCEL_X86_SSE4_1=4194304$BABL_CPU_ACCEL_X86_F16C=262144$BABL_CPU_ACCEL_PPC_ALTIVEC=67108864$BABL_CPU_ACCEL_X86_64=1048576
+// #anon_enum_BABL_CPU_ACCEL_NONE=0_BABL_CPU_ACCEL_X86_MMX=16777216_BABL_CPU_ACCEL_X86_3DNOW=1073741824_BABL_CPU_ACCEL_X86_MMXEXT=536870912_BABL_CPU_ACCEL_X86_SSE=268435456_BABL_CPU_ACCEL_X86_SSE2=134217728_BABL_CPU_ACCEL_X86_SSE3=33554432_BABL_CPU_ACCEL_X86_SSSE3=8388608_BABL_CPU_ACCEL_X86_SSE4_1=4194304_BABL_CPU_ACCEL_X86_F16C=262144_BABL_CPU_ACCEL_PPC_ALTIVEC=67108864_BABL_CPU_ACCEL_X86_64=1048576
 // file babl-cpuaccel.h line 22
-enum anonymous$11 { BABL_CPU_ACCEL_NONE=0, BABL_CPU_ACCEL_X86_MMX=16777216, BABL_CPU_ACCEL_X86_3DNOW=1073741824, BABL_CPU_ACCEL_X86_MMXEXT=536870912, BABL_CPU_ACCEL_X86_SSE=268435456, BABL_CPU_ACCEL_X86_SSE2=134217728, BABL_CPU_ACCEL_X86_SSE3=33554432, BABL_CPU_ACCEL_X86_SSSE3=8388608, BABL_CPU_ACCEL_X86_SSE4_1=4194304, BABL_CPU_ACCEL_X86_F16C=262144, BABL_CPU_ACCEL_PPC_ALTIVEC=67108864, BABL_CPU_ACCEL_X86_64=1048576 };
+enum anonymous_11 { BABL_CPU_ACCEL_NONE=0, BABL_CPU_ACCEL_X86_MMX=16777216, BABL_CPU_ACCEL_X86_3DNOW=1073741824, BABL_CPU_ACCEL_X86_MMXEXT=536870912, BABL_CPU_ACCEL_X86_SSE=268435456, BABL_CPU_ACCEL_X86_SSE2=134217728, BABL_CPU_ACCEL_X86_SSE3=33554432, BABL_CPU_ACCEL_X86_SSSE3=8388608, BABL_CPU_ACCEL_X86_SSE4_1=4194304, BABL_CPU_ACCEL_X86_F16C=262144, BABL_CPU_ACCEL_PPC_ALTIVEC=67108864, BABL_CPU_ACCEL_X86_64=1048576 };
 
-// tag-#anon#ST[*{S8}$S8$'signature'||U64'size'||*{S32(*{V}$V$)->S32}$S32(*{V}$V$)->S32$'destructor'|]
+// tag-#anon#ST[*{S8}_S8_'signature'||U64'size'||*{S32(*{V}_V_)->S32}_S32(*{V}_V_)->S32_'destructor'|]
 // file babl-memory.c line 47
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]
+// tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]
 // file babl-class.h line 46
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'components'||U32'$pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$$'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$$'type'||*{V}$V$'model_data'||*{V}$V$'image_template'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}$S8$'name'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}$S8$'name'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}$S8$'name'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}$S8$'name'||U32'$pad0'|]#$$'sampling'||*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'components'||U32'$pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$$'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$$'type'||*{V}$V$'data'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'components'||U32'$pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$$'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$$'type'||*{V}$V$'data'|]#$'model'||S32'bytes_per_pixel'||S32'planar'||F64'loss'||S32'visited'||S32'format_n'||S32'palette'||U32'$pad1'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'components'||U32'$pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$$'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$$'type'||*{V}$V$'model_data'||*{V}$V$'image_template'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}$S8$'name'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}$S8$'name'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}$S8$'name'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}$S8$'name'||U32'$pad0'|]#$$'sampling'||*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'components'||U32'$pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$$'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$$'type'||*{V}$V$'data'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'components'||U32'$pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$$'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$$'type'||*{V}$V$'data'|]#$'model'||S32'bytes_per_pixel'||S32'planar'||F64'loss'||S32'visited'||S32'format_n'||S32'palette'||U32'$pad1'|]#$'format'||*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'components'||U32'$pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$$'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$$'type'||*{V}$V$'data'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'components'||U32'$pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$$'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$$'type'||*{V}$V$'data'|]#$'model'||S32'components'||U32'$pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$$'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$$'type'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}$S8$'name'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}$S8$'name'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}$S8$'name'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}$S8$'name'||U32'$pad0'|]#$$'sampling'||*{*{S8}$S8$}$*{S8}$S8$$'data'||*{S32}$S32$'pitch'||*{S32}$S32$'stride'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'components'||U32'_pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#__'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#__'type'||*{V}_V_'model_data'||*{V}_V_'image_template'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}_S8_'name'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}_S8_'name'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}_S8_'name'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}_S8_'name'||U32'_pad0'|]#__'sampling'||*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'components'||U32'_pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#__'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#__'type'||*{V}_V_'data'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'components'||U32'_pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#__'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#__'type'||*{V}_V_'data'|]#_'model'||S32'bytes_per_pixel'||S32'planar'||F64'loss'||S32'visited'||S32'format_n'||S32'palette'||U32'_pad1'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'components'||U32'_pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#__'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#__'type'||*{V}_V_'model_data'||*{V}_V_'image_template'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}_S8_'name'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}_S8_'name'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}_S8_'name'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}_S8_'name'||U32'_pad0'|]#__'sampling'||*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'components'||U32'_pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#__'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#__'type'||*{V}_V_'data'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'components'||U32'_pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#__'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#__'type'||*{V}_V_'data'|]#_'model'||S32'bytes_per_pixel'||S32'planar'||F64'loss'||S32'visited'||S32'format_n'||S32'palette'||U32'_pad1'|]#_'format'||*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'components'||U32'_pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#__'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#__'type'||*{V}_V_'data'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'components'||U32'_pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#__'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#__'type'||*{V}_V_'data'|]#_'model'||S32'components'||U32'_pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#__'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#__'type'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}_S8_'name'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}_S8_'name'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}_S8_'name'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}_S8_'name'||U32'_pad0'|]#__'sampling'||*{*{S8}_S8_}_*{S8}_S8__'data'||*{S32}_S32_'pitch'||*{S32}_S32_'stride'|]
 // file babl-image.h line 47
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]
 // file babl-type.h line 24
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'components'||U32'$pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$$'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$$'type'||*{V}$V$'data'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'components'||U32'_pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#__'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#__'type'||*{V}_V_'data'|]
 // file babl-model.h line 24
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'components'||U32'$pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$$'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$$'type'||*{V}$V$'model_data'||*{V}$V$'image_template'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}$S8$'name'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}$S8$'name'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}$S8$'name'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}$S8$'name'||U32'$pad0'|]#$$'sampling'||*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'components'||U32'$pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$$'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$$'type'||*{V}$V$'data'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'components'||U32'$pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]#$$'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$}$*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#}$SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'from_list'||S32'bits'||U32'$pad0'||F64'min_val'||F64'max_val'|]#$$'type'||*{V}$V$'data'|]#$'model'||S32'bytes_per_pixel'||S32'planar'||F64'loss'||S32'visited'||S32'format_n'||S32'palette'||U32'$pad1'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'components'||U32'_pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#__'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#__'type'||*{V}_V_'model_data'||*{V}_V_'image_template'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}_S8_'name'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}_S8_'name'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}_S8_'name'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}_S8_'name'||U32'_pad0'|]#__'sampling'||*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'components'||U32'_pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#__'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#__'type'||*{V}_V_'data'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'components'||U32'_pad0'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]#__'component'||*{*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#_}_*{SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#}_SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'from_list'||S32'bits'||U32'_pad0'||F64'min_val'||F64'max_val'|]#__'type'||*{V}_V_'data'|]#_'model'||S32'bytes_per_pixel'||S32'planar'||F64'loss'||S32'visited'||S32'format_n'||S32'palette'||U32'_pad1'|]
 // file babl-format.h line 24
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{V}$V$'dl_handle'||*{V()->V}$V()->V$'destroy'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{V}_V_'dl_handle'||*{V()->V}_V()->V_'destroy'|]
 // file babl-extension.h line 33
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{cSYM#tag-_Babl#}$cSYM#tag-_Babl#$'source'||*{cSYM#tag-_Babl#}$cSYM#tag-_Babl#$'destination'||F64'error'||S32'processings'||U32'$pad0'||S64'pixels'||S64'usecs'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{cSYM#tag-_Babl#}_cSYM#tag-_Babl#_'source'||*{cSYM#tag-_Babl#}_cSYM#tag-_Babl#_'destination'||F64'error'||S32'processings'||U32'_pad0'||S64'pixels'||S64'usecs'|]
 // file babl-fish.h line 29
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}$S8$'name'||U32'$pad0'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'horizontal'||S32'vertical'||ARR4{S8}_S8_'name'||U32'_pad0'|]
 // file babl-sampling.h line 24
 struct anonymous;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'$pad0'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||S32'luma'||S32'chroma'||S32'alpha'||U32'_pad0'|]
 // file babl-component.h line 28
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{cSYM#tag-_Babl#}$cSYM#tag-_Babl#$'source'||*{cSYM#tag-_Babl#}$cSYM#tag-_Babl#$'destination'||F64'error'||S32'processings'||U32'$pad0'||S64'pixels'||S64'usecs'|]#'fish'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{cSYM#tag-_Babl#}_cSYM#tag-_Babl#_'source'||*{cSYM#tag-_Babl#}_cSYM#tag-_Babl#_'destination'||F64'error'||S32'processings'||U32'_pad0'||S64'pixels'||S64'usecs'|]#'fish'|]
 // file babl-fish.h line 86
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{cSYM#tag-_Babl#}$cSYM#tag-_Babl#$'source'||*{cSYM#tag-_Babl#}$cSYM#tag-_Babl#$'destination'||F64'error'||S32'processings'||U32'$pad0'||S64'pixels'||S64'usecs'|]#'fish'||*{SYM#tag-BablConversion#}$SYM#tag-BablConversion#$'conversion'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{cSYM#tag-_Babl#}_cSYM#tag-_Babl#_'source'||*{cSYM#tag-_Babl#}_cSYM#tag-_Babl#_'destination'||F64'error'||S32'processings'||U32'_pad0'||S64'pixels'||S64'usecs'|]#'fish'||*{SYM#tag-BablConversion#}_SYM#tag-BablConversion#_'conversion'|]
 // file babl-fish.h line 49
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}$V$'creator'||*{S8}$S8$'name'|]#'instance'||*{cSYM#tag-_Babl#}$cSYM#tag-_Babl#$'source'||*{cSYM#tag-_Babl#}$cSYM#tag-_Babl#$'destination'||F64'error'||S32'processings'||U32'$pad0'||S64'pixels'||S64'usecs'|]#'fish'||F64'cost'||F64'loss'||*{SYM#tag-_BablList#}$SYM#tag-_BablList#$'conversion_list'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[SYM#tag-#anon#ST[S32'class_type'||S32'id'||*{V}_V_'creator'||*{S8}_S8_'name'|]#'instance'||*{cSYM#tag-_Babl#}_cSYM#tag-_Babl#_'source'||*{cSYM#tag-_Babl#}_cSYM#tag-_Babl#_'destination'||F64'error'||S32'processings'||U32'_pad0'||S64'pixels'||S64'usecs'|]#'fish'||F64'cost'||F64'loss'||*{SYM#tag-_BablList#}_SYM#tag-_BablList#_'conversion_list'|]
 // file babl-fish.h line 65
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#UN[*{S64(*{cS8}$cS8$|*{S8}$S8$|S64|*{V}$V$)->S64}$S64(*{cS8}$cS8$|*{S8}$S8$|S64|*{V}$V$)->S64$'linear'||*{S64(*{cS8}$cS8$|*{S8}$S8$|S32|S32|S64|*{V}$V$)->S64}$S64(*{cS8}$cS8$|*{S8}$S8$|S32|S32|S64|*{V}$V$)->S64$'plane'||*{S64(S32|*{*{cS8}$cS8$}$*{cS8}$cS8$$|*{S32}$S32$|S32|*{*{S8}$S8$}$*{S8}$S8$$|*{S32}$S32$|S64|*{V}$V$)->S64}$S64(S32|*{*{cS8}$cS8$}$*{cS8}$cS8$$|*{S32}$S32$|S32|*{*{S8}$S8$}$*{S8}$S8$$|*{S32}$S32$|S64|*{V}$V$)->S64$'planar'|]
+// tag-#anon#UN[*{S64(*{cS8}_cS8_|*{S8}_S8_|S64|*{V}_V_)->S64}_S64(*{cS8}_cS8_|*{S8}_S8_|S64|*{V}_V_)->S64_'linear'||*{S64(*{cS8}_cS8_|*{S8}_S8_|S32|S32|S64|*{V}_V_)->S64}_S64(*{cS8}_cS8_|*{S8}_S8_|S32|S32|S64|*{V}_V_)->S64_'plane'||*{S64(S32|*{*{cS8}_cS8_}_*{cS8}_cS8__|*{S32}_S32_|S32|*{*{S8}_S8_}_*{S8}_S8__|*{S32}_S32_|S64|*{V}_V_)->S64}_S64(S32|*{*{cS8}_cS8_}_*{cS8}_cS8__|*{S32}_S32_|S32|*{*{S8}_S8_}_*{S8}_S8__|*{S32}_S32_|S64|*{V}_V_)->S64_'planar'|]
 // file babl-conversion.h line 44
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$14;
+union anonymous_14;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$13;
+union anonymous_13;
 
 // tag-BablConversion
 // file babl-conversion.h line 37
@@ -212,9 +212,9 @@ const union _Babl * babl_component(const char *name);
 // babl_component_class_for_each
 // file babl-component.c line 145
 void babl_component_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data);
-// babl_component_class_for_each::each_fun$object
+// babl_component_class_for_each::each_fun_object
 //
-signed int each_fun$object(union _Babl *, void *);
+signed int each_fun_object(union _Babl *, void *);
 // babl_component_db
 // file babl-component.h line 25
 struct _BablDb * babl_component_db(void);
@@ -230,9 +230,9 @@ const union _Babl * babl_conversion(const char *name);
 // babl_conversion_class_for_each
 // file babl-conversion.c line 551
 void babl_conversion_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data);
-// babl_conversion_class_for_each::each_fun$object
+// babl_conversion_class_for_each::each_fun_object
 //
-signed int each_fun$object(union _Babl *, void *);
+signed int each_fun_object(union _Babl *, void *);
 // babl_conversion_cost
 // file babl-conversion.c line 434
 signed long int babl_conversion_cost(struct BablConversion *conversion);
@@ -257,18 +257,18 @@ static signed long int babl_conversion_linear_process(struct BablConversion *con
 // babl_conversion_new
 // file babl-conversion.c line 176
 const union _Babl * babl_conversion_new(const void *first_arg, ...);
-// babl_conversion_new::1::linear$object
+// babl_conversion_new::1::linear_object
 //
-signed long int linear$object(const char *, char *, signed long int, void *);
-// babl_conversion_new::1::planar$object
+signed long int linear_object(const char *, char *, signed long int, void *);
+// babl_conversion_new::1::planar_object
 //
-signed long int planar$object(signed int, const char **, signed int *, signed int, char **, signed int *, signed long int, void *);
-// babl_conversion_new::1::plane$object
+signed long int planar_object(signed int, const char **, signed int *, signed int, char **, signed int *, signed long int, void *);
+// babl_conversion_new::1::plane_object
 //
-signed long int plane$object(const char *, char *, signed int, signed int, signed long int, void *);
+signed long int plane_object(const char *, char *, signed int, signed int, signed long int, void *);
 // babl_conversion_planar_process
 // file babl-conversion.c line 321
-static signed long int babl_conversion_planar_process(struct BablConversion *conversion, struct anonymous$5 *source, struct anonymous$5 *destination, signed long int n);
+static signed long int babl_conversion_planar_process(struct BablConversion *conversion, struct anonymous_5 *source, struct anonymous_5 *destination, signed long int n);
 // babl_conversion_plane_process
 // file babl-conversion.c line 307
 static signed long int babl_conversion_plane_process(struct BablConversion *conversion, const void *source, void *destination, signed int src_pitch, signed int dst_pitch, signed long int n);
@@ -280,7 +280,7 @@ signed long int babl_conversion_process(const union _Babl *babl, const char *sou
 void babl_core_init(void);
 // babl_cpu_accel_get_support
 // file babl-cpuaccel.c line 59
-enum anonymous$11 babl_cpu_accel_get_support(void);
+enum anonymous_11 babl_cpu_accel_get_support(void);
 // babl_cpu_accel_set_use
 // file babl-cpuaccel.h line 46
 void babl_cpu_accel_set_use(unsigned int use);
@@ -293,9 +293,9 @@ static signed int babl_db_destroy(void *data);
 // babl_db_each
 // file babl-db.h line 49
 void babl_db_each(struct _BablDb *db, signed int (*each_fun)(union _Babl *, void *), void *user_data);
-// babl_db_each::each_fun$object
+// babl_db_each::each_fun_object
 //
-signed int each_fun$object(union _Babl *, void *);
+signed int each_fun_object(union _Babl *, void *);
 // babl_db_exist
 // file babl-db.h line 61
 union _Babl * babl_db_exist(struct _BablDb *db, signed int id, const char *name);
@@ -335,15 +335,15 @@ const union _Babl * babl_extension(const char *name);
 // babl_extension_base
 // file babl-internal.h line 71
 union _Babl * babl_extension_base(void);
-// babl_extension_base::1::destroy$object
+// babl_extension_base::1::destroy_object
 //
-void destroy$object(void);
+void destroy_object(void);
 // babl_extension_class_for_each
 // file babl-extension.c line 365
 void babl_extension_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data);
-// babl_extension_class_for_each::each_fun$object
+// babl_extension_class_for_each::each_fun_object
 //
-signed int each_fun$object(union _Babl *, void *);
+signed int each_fun_object(union _Babl *, void *);
 // babl_extension_db
 // file babl-extension.h line 25
 struct _BablDb * babl_extension_db(void);
@@ -359,12 +359,12 @@ const union _Babl * babl_extension_from_id(signed int id);
 // babl_extension_load
 // file babl-extension.c line 192
 static union _Babl * babl_extension_load(const char *path);
-// babl_extension_load::1::destroy$object
+// babl_extension_load::1::destroy_object
 //
-void destroy$object(void);
-// babl_extension_load::1::init$object
+void destroy_object(void);
+// babl_extension_load::1::init_object
 //
-signed int init$object(void);
+signed int init_object(void);
 // babl_extension_load_dir
 // file babl-extension.c line 241
 static void babl_extension_load_dir(const char *base_path);
@@ -380,9 +380,9 @@ const union _Babl * babl_fish(const void *source, const void *destination);
 // babl_fish_class_for_each
 // file babl-fish.c line 266
 void babl_fish_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data);
-// babl_fish_class_for_each::each_fun$object
+// babl_fish_class_for_each::each_fun_object
 //
-signed int each_fun$object(union _Babl *, void *);
+signed int each_fun_object(union _Babl *, void *);
 // babl_fish_db
 // file babl-fish.h line 25
 struct _BablDb * babl_fish_db(void);
@@ -422,9 +422,9 @@ const union _Babl * babl_format(const char *name);
 // babl_format_class_for_each
 // file babl-format.h line 22
 void babl_format_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data);
-// babl_format_class_for_each::each_fun$object
+// babl_format_class_for_each::each_fun_object
 //
-signed int each_fun$object(union _Babl *, void *);
+signed int each_fun_object(union _Babl *, void *);
 // babl_format_db
 // file babl-format.h line 22
 struct _BablDb * babl_format_db(void);
@@ -530,18 +530,18 @@ static signed int babl_hash_table_destroy(void *data);
 // babl_hash_table_find
 // file babl-hash-table.h line 63
 union _Babl * babl_hash_table_find(struct _BablHashTable *htab, signed int hash, signed int (*find_func)(union _Babl *, void *), void *data);
-// babl_hash_table_find::find_func$object
+// babl_hash_table_find::find_func_object
 //
-signed int find_func$object(union _Babl *, void *);
+signed int find_func_object(union _Babl *, void *);
 // babl_hash_table_init
 // file babl-hash-table.h line 44
 struct _BablHashTable * babl_hash_table_init(signed int (*hfunc)(struct _BablHashTable *, union _Babl *), signed int (*ffunc)(union _Babl *, void *));
-// babl_hash_table_init::ffunc$object
+// babl_hash_table_init::ffunc_object
 //
-signed int ffunc$object(union _Babl *, void *);
-// babl_hash_table_init::hfunc$object
+signed int ffunc_object(union _Babl *, void *);
+// babl_hash_table_init::hfunc_object
 //
-signed int hfunc$object(struct _BablHashTable *, union _Babl *);
+signed int hfunc_object(struct _BablHashTable *, union _Babl *);
 // babl_hash_table_insert
 // file babl-hash-table.h line 59
 signed int babl_hash_table_insert(struct _BablHashTable *htab, union _Babl *item);
@@ -578,9 +578,9 @@ static signed int babl_list_destroy(void *data);
 // babl_list_each
 // file babl-list.h line 59
 void babl_list_each(struct _BablList *list, signed int (*each_fun)(union _Babl *, void *), void *user_data);
-// babl_list_each::each_fun$object
+// babl_list_each::each_fun_object
 //
-signed int each_fun$object(union _Babl *, void *);
+signed int each_fun_object(union _Babl *, void *);
 // babl_list_init
 // file babl-list.c line 29
 struct _BablList * babl_list_init(void);
@@ -602,12 +602,12 @@ const union _Babl * babl_model(const char *name);
 // babl_model_class_for_each
 // file babl-model.h line 22
 void babl_model_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data);
-// babl_model_class_for_each::each_fun$object
+// babl_model_class_for_each::each_fun_object
 //
-signed int each_fun$object(union _Babl *, void *);
+signed int each_fun_object(union _Babl *, void *);
 // babl_model_create_name
 // file babl-model.c line 40
-static char * babl_model_create_name(signed int components, struct anonymous$1 **component);
+static char * babl_model_create_name(signed int components, struct anonymous_1 **component);
 // babl_model_db
 // file babl-model.h line 22
 struct _BablDb * babl_model_db(void);
@@ -625,16 +625,16 @@ double babl_model_is_symmetric(const union _Babl *cbabl);
 const union _Babl * babl_model_new(void *first_argument, ...);
 // babl_mutex_destroy
 // file babl-mutex.h line 36
-void babl_mutex_destroy(union anonymous$13 *mutex);
+void babl_mutex_destroy(union anonymous_13 *mutex);
 // babl_mutex_lock
 // file babl-mutex.h line 37
-void babl_mutex_lock(union anonymous$13 *mutex);
+void babl_mutex_lock(union anonymous_13 *mutex);
 // babl_mutex_new
 // file babl-mutex.h line 35
-union anonymous$13 * babl_mutex_new(void);
+union anonymous_13 * babl_mutex_new(void);
 // babl_mutex_unlock
 // file babl-mutex.h line 38
-void babl_mutex_unlock(union anonymous$13 *mutex);
+void babl_mutex_unlock(union anonymous_13 *mutex);
 // babl_new_palette
 // file babl-palette.c line 460
 const union _Babl * babl_new_palette(const char *name, const union _Babl **format_u8, const union _Babl **format_u8_with_alpha);
@@ -656,9 +656,9 @@ void babl_palette_set_palette(const union _Babl *babl, const union _Babl *format
 // babl_parse_double
 // file babl-internal.h line 298
 static inline double babl_parse_double(const char *str);
-// babl_parse_double$link1
+// babl_parse_double_link1
 // file babl-internal.h line 298
-static inline double babl_parse_double$link1(const char *str$link1);
+static inline double babl_parse_double_link1(const char *str_link1);
 // babl_pow_1_24
 // file pow-24.c line 62
 extern double babl_pow_1_24(double x);
@@ -683,9 +683,9 @@ const union _Babl * babl_sampling(signed int horizontal, signed int vertical);
 // babl_sampling_class_for_each
 // file babl-sampling.h line 22
 void babl_sampling_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data);
-// babl_sampling_class_for_each::each_fun$object
+// babl_sampling_class_for_each::each_fun_object
 //
-signed int each_fun$object(union _Babl *, void *);
+signed int each_fun_object(union _Babl *, void *);
 // babl_sampling_class_init
 // file babl-sampling.h line 33
 void babl_sampling_class_init(void);
@@ -695,24 +695,24 @@ signed int babl_sanity(void);
 // babl_set_destructor
 // file babl-memory.h line 32
 void babl_set_destructor(void *ptr, signed int (*destructor)(void *));
-// babl_set_destructor::destructor$object
+// babl_set_destructor::destructor_object
 //
-signed int destructor$object(void *);
+signed int destructor_object(void *);
 // babl_set_extender
 // file babl-extension.c line 48
 void babl_set_extender(union _Babl *new_extender);
 // babl_set_free
 // file babl-memory.h line 28
 void babl_set_free(void (*free_function)(void *));
-// babl_set_free::free_function$object
+// babl_set_free::free_function_object
 //
-void free_function$object(void *);
+void free_function_object(void *);
 // babl_set_malloc
 // file babl-memory.h line 27
 void babl_set_malloc(void * (*malloc_function)(unsigned long int));
-// babl_set_malloc::malloc_function$object
+// babl_set_malloc::malloc_function_object
 //
-void * malloc_function$object(unsigned long int);
+void * malloc_function_object(unsigned long int);
 // babl_set_user_data
 // file babl-format.c line 626
 void babl_set_user_data(const union _Babl *cbabl, void *data);
@@ -734,9 +734,9 @@ const union _Babl * babl_type(const char *name);
 // babl_type_class_for_each
 // file babl-type.h line 22
 void babl_type_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data);
-// babl_type_class_for_each::each_fun$object
+// babl_type_class_for_each::each_fun_object
 //
-signed int each_fun$object(union _Babl *, void *);
+signed int each_fun_object(union _Babl *, void *);
 // babl_type_db
 // file babl-type.h line 22
 struct _BablDb * babl_type_db(void);
@@ -761,12 +761,12 @@ static union _Babl * component_new(const char *name, signed int id, signed int l
 // components
 // file model-rgb.c line 44
 static void components(void);
-// components$link1
+// components_link1
 // file model-gray.c line 44
-static void components$link1(void);
-// components$link2
+static void components_link1(void);
+// components_link2
 // file model-ycbcr.c line 46
-static void components$link2(void);
+static void components_link2(void);
 // construct_double_format
 // file babl-model.c line 238
 static const union _Babl * construct_double_format(const union _Babl *model);
@@ -782,27 +782,27 @@ static void conversion_introspect(union _Babl *babl);
 // conversion_new
 // file babl-conversion.c line 30
 static union _Babl * conversion_new(const char *name, signed int id, union _Babl *source, union _Babl *destination, signed long int (*linear)(const char *, char *, signed long int, void *), signed long int (*plane)(const char *, char *, signed int, signed int, signed long int, void *), signed long int (*planar)(signed int, const char **, signed int *, signed int, char **, signed int *, signed long int, void *), void *user_data);
-// conversion_new::linear$object
+// conversion_new::linear_object
 //
-signed long int linear$object(const char *, char *, signed long int, void *);
-// conversion_new::planar$object
+signed long int linear_object(const char *, char *, signed long int, void *);
+// conversion_new::planar_object
 //
-signed long int planar$object(signed int, const char **, signed int *, signed int, char **, signed int *, signed long int, void *);
-// conversion_new::plane$object
+signed long int planar_object(signed int, const char **, signed int *, signed int, char **, signed int *, signed long int, void *);
+// conversion_new::plane_object
 //
-signed long int plane$object(const char *, char *, signed int, signed int, signed long int, void *);
+signed long int plane_object(const char *, char *, signed int, signed int, signed long int, void *);
 // conversions
 // file babl-fish-stats.c line 291
 static void conversions(void);
-// conversions$link1
+// conversions_link1
 // file model-rgb.c line 403
-static void conversions$link1(void);
-// conversions$link2
+static void conversions_link1(void);
+// conversions_link2
 // file model-gray.c line 489
-static void conversions$link2(void);
-// conversions$link3
+static void conversions_link2(void);
+// conversions_link3
 // file model-ycbcr.c line 212
-static void conversions$link3(void);
+static void conversions_link3(void);
 // convert_double_double
 // file babl-core.c line 25
 static signed long int convert_double_double(char *src, char *dst, signed int src_pitch, signed int dst_pitch, signed long int n);
@@ -847,13 +847,13 @@ static inline signed long int convert_double_u8_scaled(double min_val, double ma
 static signed long int convert_float_double(char *src, char *dst, signed int src_pitch, signed int dst_pitch, signed long int n);
 // convert_from_double
 // file babl-fish-reference.c line 151
-static void convert_from_double(struct anonymous$4 *destination_fmt, char *destination_double_buf, char *destination_buf, signed int n);
+static void convert_from_double(struct anonymous_4 *destination_fmt, char *destination_double_buf, char *destination_buf, signed int n);
 // convert_half_double
 // file type-half.c line 203
 static signed long int convert_half_double(char *src, char *dst, signed int src_pitch, signed int dst_pitch, signed long int n);
 // convert_to_double
 // file babl-fish-reference.c line 95
-static void convert_to_double(struct anonymous$4 *source_fmt, const char *source_buf, char *source_double_buf, signed int n);
+static void convert_to_double(struct anonymous_4 *source_fmt, const char *source_buf, char *source_double_buf, signed int n);
 // convert_u15_double
 // file type-u15.c line 111
 static signed long int convert_u15_double(void *src, void *dst, signed int src_pitch, signed int dst_pitch, signed long int n);
@@ -889,22 +889,22 @@ static signed long int convert_u8_luma_double(void *src, void *dst, signed int s
 static signed long int copy_strip_1(signed int src_bands, char **src, signed int *src_pitch, signed int dst_bands, char **dst, signed int *dst_pitch, signed long int samples);
 // cpu_accel
 // file babl-cpuaccel.c line 501
-static enum anonymous$11 cpu_accel(void);
+static enum anonymous_11 cpu_accel(void);
 // create_name
 // file babl-conversion.c line 148
 static char * create_name(union _Babl *source, union _Babl *destination, signed int type);
-// create_name$link1
+// create_name_link1
 // file babl-fish-path.c line 242
-static char * create_name$link1(char *buf, const union _Babl *source$link1, const union _Babl *destination$link1, signed int is_reference);
-// create_name$link2
+static char * create_name_link1(char *buf, const union _Babl *source_link1, const union _Babl *destination_link1, signed int is_reference);
+// create_name_link2
 // file babl-fish-reference.c line 34
-static char * create_name$link2(const union _Babl *source$link2, const union _Babl *destination$link2, signed int is_reference$link1);
-// create_name$link3
+static char * create_name_link2(const union _Babl *source_link2, const union _Babl *destination_link2, signed int is_reference_link1);
+// create_name_link3
 // file babl-fish-simple.c line 23
-static char * create_name$link3(struct BablConversion *conversion);
-// create_name$link4
+static char * create_name_link3(struct BablConversion *conversion);
+// create_name_link4
 // file babl-format.c line 126
-static char * create_name$link4(const struct anonymous$0 *model, signed int components, struct anonymous$1 **component, const struct anonymous$2 **type$link1);
+static char * create_name_link4(const struct anonymous_0 *model, signed int components, struct anonymous_1 **component, const struct anonymous_2 **type_link1);
 // db_find_by_id
 // file babl-db.c line 39
 static signed int db_find_by_id(union _Babl *item, void *data);
@@ -959,9 +959,9 @@ static char * expand_path(char *path);
 // extension_new
 // file babl-extension.c line 57
 static union _Babl * extension_new(const char *path, void *dl_handle, void (*destroy)(void));
-// extension_new::destroy$object
+// extension_new::destroy_object
 //
-void destroy$object(void);
+void destroy_object(void);
 // fabs
 // file /usr/include/x86_64-linux-gnu/bits/mathcalls.h line 181
 extern double fabs(double);
@@ -994,25 +994,25 @@ extern struct _IO_FILE * fopen(const char *, const char *);
 static void format_introspect(union _Babl *babl);
 // format_new
 // file babl-format.c line 45
-static union _Babl * format_new(const char *name, signed int id, signed int planar, signed int components, struct anonymous$0 *model, struct anonymous$1 **component, struct anonymous **sampling, const struct anonymous$2 **type);
+static union _Babl * format_new(const char *name, signed int id, signed int planar, signed int components, struct anonymous_0 *model, struct anonymous_1 **component, struct anonymous **sampling, const struct anonymous_2 **type);
 // formats
 // file model-rgb.c line 478
 static void formats(void);
-// formats$link1
+// formats_link1
 // file model-gray.c line 592
-static void formats$link1(void);
-// formats$link2
+static void formats_link1(void);
+// formats_link2
 // file model-ycbcr.c line 241
-static void formats$link2(void);
+static void formats_link2(void);
 // fprintf
 // file /usr/include/stdio.h line 356
 extern signed int fprintf(struct _IO_FILE *, const char *, ...);
 // free
 // file /usr/include/stdlib.h line 483
 extern void free(void *);
-// free_f$object
+// free_f_object
 //
-void free_f$object(void *);
+void free_f_object(void *);
 // frexp
 // file /usr/include/x86_64-linux-gnu/bits/mathcalls.h line 103
 extern double frexp(double, signed int *);
@@ -1028,18 +1028,18 @@ static signed long int g3_inv_gamma_2_2(signed int src_bands, char **src, signed
 // gamma_2_2_to_linear
 // file util.h line 68
 static inline double gamma_2_2_to_linear(double value);
-// gamma_2_2_to_linear$link1
+// gamma_2_2_to_linear_link1
 // file util.h line 68
-static inline double gamma_2_2_to_linear$link1(double value$link1);
-// gamma_2_2_to_linear$link2
+static inline double gamma_2_2_to_linear_link1(double value_link1);
+// gamma_2_2_to_linear_link2
 // file util.h line 68
-static inline double gamma_2_2_to_linear$link2(double value$link2);
+static inline double gamma_2_2_to_linear_link2(double value_link2);
 // get_conversion_path
 // file babl-fish-path.c line 154
 static void get_conversion_path(struct PathContext *pc, union _Babl *current_format, signed int current_length, signed int max_length);
 // get_mutex_attr
 // file babl-mutex.c line 27
-static const union anonymous$14 * get_mutex_attr(void);
+static const union anonymous_14 * get_mutex_attr(void);
 // get_path_instrumentation
 // file babl-fish-path.c line 616
 static void get_path_instrumentation(struct _FishPathInstrumentation *fpi, struct _BablList *path, double *path_cost, double *ref_cost, double *path_error);
@@ -1081,7 +1081,7 @@ static void hash_rehash(struct _BablHashTable *htab);
 static signed int id_sanity(union _Babl *babl, void *user_data);
 // image_new
 // file babl-image.c line 37
-static union _Babl * image_new(struct anonymous$4 *format, struct anonymous$0 *model, signed int components, struct anonymous$1 **component, struct anonymous **sampling, struct anonymous$2 **type, char **data, signed int *pitch, signed int *stride);
+static union _Babl * image_new(struct anonymous_4 *format, struct anonymous_0 *model, signed int components, struct anonymous_1 **component, struct anonymous **sampling, struct anonymous_2 **type, char **data, signed int *pitch, signed int *stride);
 // init_newton
 // file pow-24.c line 36
 static inline double init_newton(double x, double exponent, double c0, double c1, double c2);
@@ -1096,10 +1096,10 @@ static void init_ticks(void);
 static signed int is_component_duplicate(union _Babl *babl, signed int luma, signed int chroma, signed int alpha);
 // is_format_duplicate
 // file babl-format.c line 269
-static signed int is_format_duplicate(union _Babl *babl, signed int planar, signed int components, struct anonymous$0 *model, struct anonymous$1 **component, struct anonymous **sampling, const struct anonymous$2 **type);
+static signed int is_format_duplicate(union _Babl *babl, signed int planar, signed int components, struct anonymous_0 *model, struct anonymous_1 **component, struct anonymous **sampling, const struct anonymous_2 **type);
 // is_model_duplicate
 // file babl-model.c line 80
-static signed int is_model_duplicate(union _Babl *babl, signed int components, struct anonymous$1 **component);
+static signed int is_model_duplicate(union _Babl *babl, signed int components, struct anonymous_1 **component);
 // is_type_duplicate
 // file babl-type.c line 61
 static signed int is_type_duplicate(union _Babl *babl, signed int bits);
@@ -1109,18 +1109,18 @@ static void item_conversions_introspect(union _Babl *babl);
 // legal_error
 // file babl-fish-path.c line 102
 static double legal_error(void);
-// legal_error$link1
+// legal_error_link1
 // file babl-fish-stats.c line 246
-static double legal_error$link1(void);
+static double legal_error_link1(void);
 // linear_to_gamma_2_2
 // file util.h line 60
 static inline double linear_to_gamma_2_2(double value);
-// linear_to_gamma_2_2$link1
+// linear_to_gamma_2_2_link1
 // file util.h line 60
-static inline double linear_to_gamma_2_2$link1(double value$link1);
-// linear_to_gamma_2_2$link2
+static inline double linear_to_gamma_2_2_link1(double value_link1);
+// linear_to_gamma_2_2_link2
 // file util.h line 60
-static inline double linear_to_gamma_2_2$link2(double value$link2);
+static inline double linear_to_gamma_2_2_link2(double value_link2);
 // load_failed
 // file babl-extension.c line 181
 static union _Babl * load_failed(union _Babl *babl);
@@ -1130,9 +1130,9 @@ static struct BablPalette * make_pal(const union _Babl *format, const void *data
 // malloc
 // file /usr/include/stdlib.h line 466
 extern void * malloc(unsigned long int);
-// malloc_f$object
+// malloc_f_object
 //
-void * malloc_f$object(unsigned long int);
+void * malloc_f_object(unsigned long int);
 // match_conversion
 // file babl-fish.c line 102
 static signed int match_conversion(union _Babl *conversion, void *inout);
@@ -1150,37 +1150,37 @@ extern void * memset(void *, signed int, unsigned long int);
 static void model_introspect(union _Babl *babl);
 // model_new
 // file babl-model.c line 55
-static union _Babl * model_new(const char *name, signed int id, signed int components, struct anonymous$1 **component);
+static union _Babl * model_new(const char *name, signed int id, signed int components, struct anonymous_1 **component);
 // model_sanity
 // file babl-sanity.c line 68
 static signed int model_sanity(union _Babl *babl, void *user_data);
 // models
 // file babl-base.c line 67
 static void models(void);
-// models$link1
+// models_link1
 // file model-rgb.c line 112
-static void models$link1(void);
-// models$link2
+static void models_link1(void);
+// models_link2
 // file model-gray.c line 72
-static void models$link2(void);
-// models$link3
+static void models_link2(void);
+// models_link3
 // file model-ycbcr.c line 62
-static void models$link3(void);
+static void models_link3(void);
 // ncomponent_convert_from_double
 // file babl-fish-reference.c line 237
-static void ncomponent_convert_from_double(struct anonymous$4 *destination_fmt, char *destination_double_buf, char *destination_buf, signed int n);
+static void ncomponent_convert_from_double(struct anonymous_4 *destination_fmt, char *destination_double_buf, char *destination_buf, signed int n);
 // ncomponent_convert_to_double
 // file babl-fish-reference.c line 204
-static void ncomponent_convert_to_double(struct anonymous$4 *source_fmt, char *source_buf, char *source_double_buf, signed int n);
+static void ncomponent_convert_to_double(struct anonymous_4 *source_fmt, char *source_buf, char *source_double_buf, signed int n);
 // ncomponents_create_name
 // file babl-format.c line 195
 static char * ncomponents_create_name(const union _Babl *type, signed int components);
 // non_premultiplied_to_premultiplied
 // file model-rgb.c line 242
 static signed long int non_premultiplied_to_premultiplied(signed int src_bands, char **src, signed int *src_pitch, signed int dst_bands, char **dst, signed int *dst_pitch, signed long int samples);
-// non_premultiplied_to_premultiplied$link1
+// non_premultiplied_to_premultiplied_link1
 // file model-gray.c line 370
-static signed long int non_premultiplied_to_premultiplied$link1(signed int src_bands$link1, char **src$link1, signed int *src_pitch$link1, signed int dst_bands$link1, char **dst$link1, signed int *dst_pitch$link1, signed long int n);
+static signed long int non_premultiplied_to_premultiplied_link1(signed int src_bands_link1, char **src_link1, signed int *src_pitch_link1, signed int dst_bands_link1, char **dst_link1, signed int *dst_pitch_link1, signed long int n);
 // opendir
 // file /usr/include/dirent.h line 134
 extern struct __dirstream * opendir(const char *);
@@ -1202,9 +1202,9 @@ extern double pow(double, double);
 // premultiplied_to_non_premultiplied
 // file model-rgb.c line 271
 static signed long int premultiplied_to_non_premultiplied(signed int src_bands, char **src, signed int *src_pitch, signed int dst_bands, char **dst, signed int *dst_pitch, signed long int samples);
-// premultiplied_to_non_premultiplied$link1
+// premultiplied_to_non_premultiplied_link1
 // file model-gray.c line 398
-static signed long int premultiplied_to_non_premultiplied$link1(signed int src_bands$link1, char **src$link1, signed int *src_pitch$link1, signed int dst_bands$link1, char **dst$link1, signed int *dst_pitch$link1, signed long int n);
+static signed long int premultiplied_to_non_premultiplied_link1(signed int src_bands_link1, char **src_link1, signed int *src_pitch_link1, signed int dst_bands_link1, char **dst_link1, signed int *dst_pitch_link1, signed long int n);
 // process_conversion_path
 // file babl-fish-path.c line 467
 static signed long int process_conversion_path(struct _BablList *path, const void *source_buffer, signed int source_bpp, void *destination_buffer, signed int dest_bpp, signed long int n);
@@ -1222,145 +1222,145 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$13 *);
+extern signed int pthread_mutex_destroy(union anonymous_13 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$13 *, const union anonymous$14 *);
+extern signed int pthread_mutex_init(union anonymous_13 *, const union anonymous_14 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$13 *);
+extern signed int pthread_mutex_lock(union anonymous_13 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$13 *);
+extern signed int pthread_mutex_unlock(union anonymous_13 *);
 // pthread_mutexattr_init
 // file /usr/include/pthread.h line 808
-extern signed int pthread_mutexattr_init(union anonymous$14 *);
+extern signed int pthread_mutexattr_init(union anonymous_14 *);
 // pthread_mutexattr_settype
 // file /usr/include/pthread.h line 835
-extern signed int pthread_mutexattr_settype(union anonymous$14 *, signed int);
+extern signed int pthread_mutexattr_settype(union anonymous_14 *, signed int);
 // readdir
 // file /usr/include/dirent.h line 162
 extern struct dirent * readdir(struct __dirstream *);
 // real_babl_log
 // file babl-internal.h line 139
 static inline void real_babl_log(const char *file, signed int line, const char *function, const char *fmt, ...);
-// real_babl_log$link1
+// real_babl_log_link1
 // file babl-internal.h line 139
-static inline void real_babl_log$link1(const char *file$link1, signed int line$link1, const char *function$link1, const char *fmt$link1, ...);
-// real_babl_log$link10
+static inline void real_babl_log_link1(const char *file_link1, signed int line_link1, const char *function_link1, const char *fmt_link1, ...);
+// real_babl_log_link10
 // file babl-internal.h line 139
-static inline void real_babl_log$link10(const char *file$link10, signed int line$link10, const char *function$link10, const char *fmt$link10, ...);
-// real_babl_log$link11
+static inline void real_babl_log_link10(const char *file_link10, signed int line_link10, const char *function_link10, const char *fmt_link10, ...);
+// real_babl_log_link11
 // file babl-internal.h line 139
-static inline void real_babl_log$link11(const char *file$link11, signed int line$link11, const char *function$link11, const char *fmt$link11, ...);
-// real_babl_log$link12
+static inline void real_babl_log_link11(const char *file_link11, signed int line_link11, const char *function_link11, const char *fmt_link11, ...);
+// real_babl_log_link12
 // file babl-internal.h line 139
-static inline void real_babl_log$link12(const char *file$link12, signed int line$link12, const char *function$link12, const char *fmt$link12, ...);
-// real_babl_log$link13
+static inline void real_babl_log_link12(const char *file_link12, signed int line_link12, const char *function_link12, const char *fmt_link12, ...);
+// real_babl_log_link13
 // file babl-internal.h line 139
-static inline void real_babl_log$link13(const char *file$link13, signed int line$link13, const char *function$link13, const char *fmt$link13, ...);
-// real_babl_log$link14
+static inline void real_babl_log_link13(const char *file_link13, signed int line_link13, const char *function_link13, const char *fmt_link13, ...);
+// real_babl_log_link14
 // file babl-internal.h line 139
-static inline void real_babl_log$link14(const char *file$link14, signed int line$link14, const char *function$link14, const char *fmt$link14, ...);
-// real_babl_log$link15
+static inline void real_babl_log_link14(const char *file_link14, signed int line_link14, const char *function_link14, const char *fmt_link14, ...);
+// real_babl_log_link15
 // file babl-internal.h line 139
-static inline void real_babl_log$link15(const char *file$link15, signed int line$link15, const char *function$link15, const char *fmt$link15, ...);
-// real_babl_log$link16
+static inline void real_babl_log_link15(const char *file_link15, signed int line_link15, const char *function_link15, const char *fmt_link15, ...);
+// real_babl_log_link16
 // file babl-internal.h line 139
-static inline void real_babl_log$link16(const char *file$link16, signed int line$link16, const char *function$link16, const char *fmt$link16, ...);
-// real_babl_log$link17
+static inline void real_babl_log_link16(const char *file_link16, signed int line_link16, const char *function_link16, const char *fmt_link16, ...);
+// real_babl_log_link17
 // file babl-internal.h line 139
-static inline void real_babl_log$link17(const char *file$link17, signed int line$link17, const char *function$link17, const char *fmt$link17, ...);
-// real_babl_log$link18
+static inline void real_babl_log_link17(const char *file_link17, signed int line_link17, const char *function_link17, const char *fmt_link17, ...);
+// real_babl_log_link18
 // file babl-internal.h line 139
-static inline void real_babl_log$link18(const char *file$link18, signed int line$link18, const char *function$link18, const char *fmt$link18, ...);
-// real_babl_log$link19
+static inline void real_babl_log_link18(const char *file_link18, signed int line_link18, const char *function_link18, const char *fmt_link18, ...);
+// real_babl_log_link19
 // file babl-internal.h line 139
-static inline void real_babl_log$link19(const char *file$link19, signed int line$link19, const char *function$link19, const char *fmt$link19, ...);
-// real_babl_log$link2
+static inline void real_babl_log_link19(const char *file_link19, signed int line_link19, const char *function_link19, const char *fmt_link19, ...);
+// real_babl_log_link2
 // file babl-internal.h line 139
-static inline void real_babl_log$link2(const char *file$link2, signed int line$link2, const char *function$link2, const char *fmt$link2, ...);
-// real_babl_log$link3
+static inline void real_babl_log_link2(const char *file_link2, signed int line_link2, const char *function_link2, const char *fmt_link2, ...);
+// real_babl_log_link3
 // file babl-internal.h line 139
-static inline void real_babl_log$link3(const char *file$link3, signed int line$link3, const char *function$link3, const char *fmt$link3, ...);
-// real_babl_log$link4
+static inline void real_babl_log_link3(const char *file_link3, signed int line_link3, const char *function_link3, const char *fmt_link3, ...);
+// real_babl_log_link4
 // file babl-internal.h line 139
-static inline void real_babl_log$link4(const char *file$link4, signed int line$link4, const char *function$link4, const char *fmt$link4, ...);
-// real_babl_log$link5
+static inline void real_babl_log_link4(const char *file_link4, signed int line_link4, const char *function_link4, const char *fmt_link4, ...);
+// real_babl_log_link5
 // file babl-internal.h line 139
-static inline void real_babl_log$link5(const char *file$link5, signed int line$link5, const char *function$link5, const char *fmt$link5, ...);
-// real_babl_log$link6
+static inline void real_babl_log_link5(const char *file_link5, signed int line_link5, const char *function_link5, const char *fmt_link5, ...);
+// real_babl_log_link6
 // file babl-internal.h line 139
-static inline void real_babl_log$link6(const char *file$link6, signed int line$link6, const char *function$link6, const char *fmt$link6, ...);
-// real_babl_log$link7
+static inline void real_babl_log_link6(const char *file_link6, signed int line_link6, const char *function_link6, const char *fmt_link6, ...);
+// real_babl_log_link7
 // file babl-internal.h line 139
-static inline void real_babl_log$link7(const char *file$link7, signed int line$link7, const char *function$link7, const char *fmt$link7, ...);
-// real_babl_log$link8
+static inline void real_babl_log_link7(const char *file_link7, signed int line_link7, const char *function_link7, const char *fmt_link7, ...);
+// real_babl_log_link8
 // file babl-internal.h line 139
-static inline void real_babl_log$link8(const char *file$link8, signed int line$link8, const char *function$link8, const char *fmt$link8, ...);
-// real_babl_log$link9
+static inline void real_babl_log_link8(const char *file_link8, signed int line_link8, const char *function_link8, const char *fmt_link8, ...);
+// real_babl_log_link9
 // file babl-internal.h line 139
-static inline void real_babl_log$link9(const char *file$link9, signed int line$link9, const char *function$link9, const char *fmt$link9, ...);
+static inline void real_babl_log_link9(const char *file_link9, signed int line_link9, const char *function_link9, const char *fmt_link9, ...);
 // real_babl_log_va
 // file babl-internal.h line 115
 static inline void real_babl_log_va(const char *file, signed int line, const char *function, const char *fmt, void **varg);
-// real_babl_log_va$link1
+// real_babl_log_va_link1
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link1(const char *file$link1, signed int line$link1, const char *function$link1, const char *fmt$link1, void **varg$link1);
-// real_babl_log_va$link10
+static inline void real_babl_log_va_link1(const char *file_link1, signed int line_link1, const char *function_link1, const char *fmt_link1, void **varg_link1);
+// real_babl_log_va_link10
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link10(const char *file$link10, signed int line$link10, const char *function$link10, const char *fmt$link10, void **varg$link10);
-// real_babl_log_va$link11
+static inline void real_babl_log_va_link10(const char *file_link10, signed int line_link10, const char *function_link10, const char *fmt_link10, void **varg_link10);
+// real_babl_log_va_link11
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link11(const char *file$link11, signed int line$link11, const char *function$link11, const char *fmt$link11, void **varg$link11);
-// real_babl_log_va$link12
+static inline void real_babl_log_va_link11(const char *file_link11, signed int line_link11, const char *function_link11, const char *fmt_link11, void **varg_link11);
+// real_babl_log_va_link12
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link12(const char *file$link12, signed int line$link12, const char *function$link12, const char *fmt$link12, void **varg$link12);
-// real_babl_log_va$link13
+static inline void real_babl_log_va_link12(const char *file_link12, signed int line_link12, const char *function_link12, const char *fmt_link12, void **varg_link12);
+// real_babl_log_va_link13
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link13(const char *file$link13, signed int line$link13, const char *function$link13, const char *fmt$link13, void **varg$link13);
-// real_babl_log_va$link14
+static inline void real_babl_log_va_link13(const char *file_link13, signed int line_link13, const char *function_link13, const char *fmt_link13, void **varg_link13);
+// real_babl_log_va_link14
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link14(const char *file$link14, signed int line$link14, const char *function$link14, const char *fmt$link14, void **varg$link14);
-// real_babl_log_va$link15
+static inline void real_babl_log_va_link14(const char *file_link14, signed int line_link14, const char *function_link14, const char *fmt_link14, void **varg_link14);
+// real_babl_log_va_link15
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link15(const char *file$link15, signed int line$link15, const char *function$link15, const char *fmt$link15, void **varg$link15);
-// real_babl_log_va$link16
+static inline void real_babl_log_va_link15(const char *file_link15, signed int line_link15, const char *function_link15, const char *fmt_link15, void **varg_link15);
+// real_babl_log_va_link16
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link16(const char *file$link16, signed int line$link16, const char *function$link16, const char *fmt$link16, void **varg$link16);
-// real_babl_log_va$link17
+static inline void real_babl_log_va_link16(const char *file_link16, signed int line_link16, const char *function_link16, const char *fmt_link16, void **varg_link16);
+// real_babl_log_va_link17
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link17(const char *file$link17, signed int line$link17, const char *function$link17, const char *fmt$link17, void **varg$link17);
-// real_babl_log_va$link18
+static inline void real_babl_log_va_link17(const char *file_link17, signed int line_link17, const char *function_link17, const char *fmt_link17, void **varg_link17);
+// real_babl_log_va_link18
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link18(const char *file$link18, signed int line$link18, const char *function$link18, const char *fmt$link18, void **varg$link18);
-// real_babl_log_va$link19
+static inline void real_babl_log_va_link18(const char *file_link18, signed int line_link18, const char *function_link18, const char *fmt_link18, void **varg_link18);
+// real_babl_log_va_link19
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link19(const char *file$link19, signed int line$link19, const char *function$link19, const char *fmt$link19, void **varg$link19);
-// real_babl_log_va$link2
+static inline void real_babl_log_va_link19(const char *file_link19, signed int line_link19, const char *function_link19, const char *fmt_link19, void **varg_link19);
+// real_babl_log_va_link2
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link2(const char *file$link2, signed int line$link2, const char *function$link2, const char *fmt$link2, void **varg$link2);
-// real_babl_log_va$link3
+static inline void real_babl_log_va_link2(const char *file_link2, signed int line_link2, const char *function_link2, const char *fmt_link2, void **varg_link2);
+// real_babl_log_va_link3
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link3(const char *file$link3, signed int line$link3, const char *function$link3, const char *fmt$link3, void **varg$link3);
-// real_babl_log_va$link4
+static inline void real_babl_log_va_link3(const char *file_link3, signed int line_link3, const char *function_link3, const char *fmt_link3, void **varg_link3);
+// real_babl_log_va_link4
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link4(const char *file$link4, signed int line$link4, const char *function$link4, const char *fmt$link4, void **varg$link4);
-// real_babl_log_va$link5
+static inline void real_babl_log_va_link4(const char *file_link4, signed int line_link4, const char *function_link4, const char *fmt_link4, void **varg_link4);
+// real_babl_log_va_link5
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link5(const char *file$link5, signed int line$link5, const char *function$link5, const char *fmt$link5, void **varg$link5);
-// real_babl_log_va$link6
+static inline void real_babl_log_va_link5(const char *file_link5, signed int line_link5, const char *function_link5, const char *fmt_link5, void **varg_link5);
+// real_babl_log_va_link6
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link6(const char *file$link6, signed int line$link6, const char *function$link6, const char *fmt$link6, void **varg$link6);
-// real_babl_log_va$link7
+static inline void real_babl_log_va_link6(const char *file_link6, signed int line_link6, const char *function_link6, const char *fmt_link6, void **varg_link6);
+// real_babl_log_va_link7
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link7(const char *file$link7, signed int line$link7, const char *function$link7, const char *fmt$link7, void **varg$link7);
-// real_babl_log_va$link8
+static inline void real_babl_log_va_link7(const char *file_link7, signed int line_link7, const char *function_link7, const char *fmt_link7, void **varg_link7);
+// real_babl_log_va_link8
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link8(const char *file$link8, signed int line$link8, const char *function$link8, const char *fmt$link8, void **varg$link8);
-// real_babl_log_va$link9
+static inline void real_babl_log_va_link8(const char *file_link8, signed int line_link8, const char *function_link8, const char *fmt_link8, void **varg_link8);
+// real_babl_log_va_link9
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link9(const char *file$link9, signed int line$link9, const char *function$link9, const char *fmt$link9, void **varg$link9);
+static inline void real_babl_log_va_link9(const char *file_link9, signed int line_link9, const char *function_link9, const char *fmt_link9, void **varg_link9);
 // reference_format
 // file babl-model.c line 222
 static const union _Babl * reference_format(void);
@@ -1482,7 +1482,7 @@ static signed long int ycbcr_to_rgba(char *src, char *dst, signed long int n);
 // file model-ycbcr.c line 146
 static signed long int ycbcra_to_rgba(char *src, char *dst, signed long int n);
 
-struct anonymous$12
+struct anonymous_12
 {
   // signature
   char *signature;
@@ -1492,7 +1492,7 @@ struct anonymous$12
   signed int (*destructor)(void *);
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // class_type
   signed int class_type;
@@ -1504,20 +1504,20 @@ struct anonymous$3
   char *name;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // instance
-  struct anonymous$3 instance;
+  struct anonymous_3 instance;
   // format
-  struct anonymous$4 *format;
+  struct anonymous_4 *format;
   // model
-  struct anonymous$0 *model;
+  struct anonymous_0 *model;
   // components
   signed int components;
   // component
-  struct anonymous$1 **component;
+  struct anonymous_1 **component;
   // type
-  struct anonymous$2 **type;
+  struct anonymous_2 **type;
   // sampling
   struct anonymous **sampling;
   // data
@@ -1528,10 +1528,10 @@ struct anonymous$5
   signed int *stride;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // instance
-  struct anonymous$3 instance;
+  struct anonymous_3 instance;
   // from_list
   struct _BablList *from_list;
   // bits
@@ -1542,34 +1542,34 @@ struct anonymous$2
   double max_val;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // instance
-  struct anonymous$3 instance;
+  struct anonymous_3 instance;
   // from_list
   struct _BablList *from_list;
   // components
   signed int components;
   // component
-  struct anonymous$1 **component;
+  struct anonymous_1 **component;
   // type
-  struct anonymous$2 **type;
+  struct anonymous_2 **type;
   // data
   void *data;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // instance
-  struct anonymous$3 instance;
+  struct anonymous_3 instance;
   // from_list
   struct _BablList *from_list;
   // components
   signed int components;
   // component
-  struct anonymous$1 **component;
+  struct anonymous_1 **component;
   // type
-  struct anonymous$2 **type;
+  struct anonymous_2 **type;
   // model_data
   void *model_data;
   // image_template
@@ -1577,7 +1577,7 @@ struct anonymous$4
   // sampling
   struct anonymous **sampling;
   // model
-  struct anonymous$0 *model;
+  struct anonymous_0 *model;
   // bytes_per_pixel
   signed int bytes_per_pixel;
   // planar
@@ -1592,20 +1592,20 @@ struct anonymous$4
   signed int palette;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // instance
-  struct anonymous$3 instance;
+  struct anonymous_3 instance;
   // dl_handle
   void *dl_handle;
   // destroy
   void (*destroy)(void);
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // instance
-  struct anonymous$3 instance;
+  struct anonymous_3 instance;
   // source
   const union _Babl *source;
   // destination
@@ -1623,7 +1623,7 @@ struct anonymous$6
 struct anonymous
 {
   // instance
-  struct anonymous$3 instance;
+  struct anonymous_3 instance;
   // horizontal
   signed int horizontal;
   // vertical
@@ -1632,10 +1632,10 @@ struct anonymous
   char name[4l];
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // instance
-  struct anonymous$3 instance;
+  struct anonymous_3 instance;
   // luma
   signed int luma;
   // chroma
@@ -1644,24 +1644,24 @@ struct anonymous$1
   signed int alpha;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // fish
-  struct anonymous$6 fish;
+  struct anonymous_6 fish;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // fish
-  struct anonymous$6 fish;
+  struct anonymous_6 fish;
   // conversion
   struct BablConversion *conversion;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // fish
-  struct anonymous$6 fish;
+  struct anonymous_6 fish;
   // cost
   double cost;
   // loss
@@ -1670,7 +1670,7 @@ struct anonymous$9
   struct _BablList *conversion_list;
 };
 
-union anonymous$15
+union anonymous_15
 {
   // linear
   signed long int (*linear)(const char *, char *, signed long int, void *);
@@ -1680,7 +1680,7 @@ union anonymous$15
   signed long int (*planar)(signed int, const char **, signed int *, signed int, char **, signed int *, signed long int, void *);
 };
 
-union anonymous$14
+union anonymous_14
 {
   // __size
   char __size[4l];
@@ -1716,7 +1716,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1729,7 +1729,7 @@ union anonymous$13
 struct BablConversion
 {
   // instance
-  struct anonymous$3 instance;
+  struct anonymous_3 instance;
   // source
   const union _Babl *source;
   // destination
@@ -1739,7 +1739,7 @@ struct BablConversion
   // error
   double error;
   // function
-  union anonymous$15 function;
+  union anonymous_15 function;
   // data
   void *data;
   // processings
@@ -1781,31 +1781,31 @@ union _Babl
   // class_type
   signed int class_type;
   // instance
-  struct anonymous$3 instance;
+  struct anonymous_3 instance;
   // type
-  struct anonymous$2 type;
+  struct anonymous_2 type;
   // sampling
   struct anonymous sampling;
   // component
-  struct anonymous$1 component;
+  struct anonymous_1 component;
   // model
-  struct anonymous$0 model;
+  struct anonymous_0 model;
   // format
-  struct anonymous$4 format;
+  struct anonymous_4 format;
   // conversion
   struct BablConversion conversion;
   // image
-  struct anonymous$5 image;
+  struct anonymous_5 image;
   // fish
-  struct anonymous$6 fish;
+  struct anonymous_6 fish;
   // fish_reference
-  struct anonymous$7 fish_reference;
+  struct anonymous_7 fish_reference;
   // fish_simple
-  struct anonymous$8 fish_simple;
+  struct anonymous_8 fish_simple;
   // fish_path
-  struct anonymous$9 fish_path;
+  struct anonymous_9 fish_path;
   // extension
-  struct anonymous$10 extension;
+  struct anonymous_10 extension;
 };
 
 struct _BablDb
@@ -1817,7 +1817,7 @@ struct _BablDb
   // babl_list
   struct _BablList *babl_list;
   // mutex
-  union anonymous$13 *mutex;
+  union anonymous_13 *mutex;
 };
 
 struct _BablFindFish
@@ -2018,7 +2018,7 @@ static const double *babl_conversion_test_pixels = babl_path_test_pixels;
 static union _Babl *babl_extension_current_extender = (union _Babl *)(void *)0;
 // babl_format_mutex
 // file babl-internal.c line 79
-union anonymous$13 *babl_format_mutex;
+union anonymous_13 *babl_format_mutex;
 // babl_format_test_pixels
 // file babl-ref-pixels.inc line 3105
 static const double *babl_format_test_pixels;
@@ -2067,24 +2067,24 @@ static signed int collisions = 0;
 // db
 // file babl-db.h line 42
 static struct _BablDb *db = (struct _BablDb *)(void *)0;
-// db$link1
+// db_link1
 // file babl-db.h line 42
-static struct _BablDb *db$link1 = (struct _BablDb *)(void *)0;
-// db$link2
+static struct _BablDb *db_link1 = (struct _BablDb *)(void *)0;
+// db_link2
 // file babl-db.h line 42
-static struct _BablDb *db$link2 = (struct _BablDb *)(void *)0;
-// db$link3
+static struct _BablDb *db_link2 = (struct _BablDb *)(void *)0;
+// db_link3
 // file babl-db.h line 42
-static struct _BablDb *db$link3 = (struct _BablDb *)(void *)0;
-// db$link4
+static struct _BablDb *db_link3 = (struct _BablDb *)(void *)0;
+// db_link4
 // file babl-db.h line 42
-static struct _BablDb *db$link4 = (struct _BablDb *)(void *)0;
-// db$link5
+static struct _BablDb *db_link4 = (struct _BablDb *)(void *)0;
+// db_link5
 // file babl-db.h line 42
-static struct _BablDb *db$link5 = (struct _BablDb *)(void *)0;
-// db$link6
+static struct _BablDb *db_link5 = (struct _BablDb *)(void *)0;
+// db_link6
 // file babl-db.h line 42
-static struct _BablDb *db$link6 = (struct _BablDb *)(void *)0;
+static struct _BablDb *db_link6 = (struct _BablDb *)(void *)0;
 // defpal_data
 // file babl-palette.c line 34
 static unsigned char defpal_data[64l] = { (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)255, (unsigned char)127, (unsigned char)0, (unsigned char)0, (unsigned char)255, (unsigned char)0, (unsigned char)127, (unsigned char)0, (unsigned char)255, (unsigned char)127, (unsigned char)127, (unsigned char)0, (unsigned char)255, (unsigned char)0, (unsigned char)0, (unsigned char)127, (unsigned char)255, (unsigned char)127, (unsigned char)0, (unsigned char)127, (unsigned char)255, (unsigned char)0, (unsigned char)127, (unsigned char)127, (unsigned char)255, (unsigned char)127, (unsigned char)127, (unsigned char)127, (unsigned char)255, (unsigned char)63, (unsigned char)63, (unsigned char)63, (unsigned char)255, (unsigned char)255, (unsigned char)0, (unsigned char)0, (unsigned char)255, (unsigned char)0, (unsigned char)255, (unsigned char)0, (unsigned char)255, (unsigned char)255, (unsigned char)255, (unsigned char)0, (unsigned char)255, (unsigned char)0, (unsigned char)0, (unsigned char)255, (unsigned char)255, (unsigned char)255, (unsigned char)0, (unsigned char)255, (unsigned char)255, (unsigned char)0, (unsigned char)255, (unsigned char)255, (unsigned char)255, (unsigned char)255, (unsigned char)255, (unsigned char)255, (unsigned char)255 };
@@ -2170,7 +2170,7 @@ static union _Babl * assert_conversion_find(const void *source, const void *dest
   if(ret == ((union _Babl *)NULL))
     do
     {
-      real_babl_log$link5("babl-fish-reference.c", 29, (const char *)"assert_conversion_find", "failed, aborting");
+      real_babl_log_link5("babl-fish-reference.c", 29, (const char *)"assert_conversion_find", "failed, aborting");
       babl_die();
     }
     while((_Bool)0);
@@ -2182,13 +2182,13 @@ static union _Babl * assert_conversion_find(const void *source, const void *dest
 // file babl-internal.c line 62
 signed int babl_backtrack(void)
 {
-  char babl_backtrack$$1$$buf[512l];
-  signed int return_value_getpid$1;
-  return_value_getpid$1=getpid();
-  sprintf(babl_backtrack$$1$$buf, "echo bt>/tmp/babl.gdb;gdb -q --batch -x /tmp/babl.gdb --pid=%i | grep 'in ''babl_die' -A40", return_value_getpid$1);
-  signed int return_value_system$2;
-  return_value_system$2=system(babl_backtrack$$1$$buf);
-  return return_value_system$2;
+  char babl_backtrack__1__buf[512l];
+  signed int return_value_getpid_1;
+  return_value_getpid_1=getpid();
+  sprintf(babl_backtrack__1__buf, "echo bt>/tmp/babl.gdb;gdb -q --batch -x /tmp/babl.gdb --pid=%i | grep 'in ''babl_die' -A40", return_value_getpid_1);
+  signed int return_value_system_2;
+  return_value_system_2=system(babl_backtrack__1__buf);
+  return return_value_system_2;
 }
 
 // babl_base_destroy
@@ -2213,10 +2213,10 @@ void babl_base_init(void)
 // file babl-base.h line 35
 void babl_base_model_gray(void)
 {
-  components$link1();
-  models$link2();
-  conversions$link2();
-  formats$link1();
+  components_link1();
+  models_link2();
+  conversions_link2();
+  formats_link1();
 }
 
 // babl_base_model_rgb
@@ -2224,8 +2224,8 @@ void babl_base_model_gray(void)
 void babl_base_model_rgb(void)
 {
   components();
-  models$link1();
-  conversions$link1();
+  models_link1();
+  conversions_link1();
   formats();
 }
 
@@ -2233,10 +2233,10 @@ void babl_base_model_rgb(void)
 // file babl-base.h line 36
 void babl_base_model_ycbcr(void)
 {
-  components$link2();
-  models$link3();
-  conversions$link3();
-  formats$link2();
+  components_link2();
+  models_link3();
+  conversions_link3();
+  formats_link2();
 }
 
 // babl_base_type_float
@@ -2244,16 +2244,16 @@ void babl_base_model_ycbcr(void)
 void babl_base_type_float(void)
 {
   babl_type_new((void *)"float", (const void *)"id", 105, (const void *)"bits", 32, (void *)0);
-  const union _Babl *return_value_babl_type_from_id$1;
-  return_value_babl_type_from_id$1=babl_type_from_id(105);
-  const union _Babl *return_value_babl_type_from_id$2;
-  return_value_babl_type_from_id$2=babl_type_from_id(106);
-  babl_conversion_new((const void *)return_value_babl_type_from_id$1, return_value_babl_type_from_id$2, (const void *)"plane", convert_float_double, (void *)0);
-  const union _Babl *return_value_babl_type_from_id$3;
-  return_value_babl_type_from_id$3=babl_type_from_id(106);
-  const union _Babl *return_value_babl_type_from_id$4;
-  return_value_babl_type_from_id$4=babl_type_from_id(105);
-  babl_conversion_new((const void *)return_value_babl_type_from_id$3, return_value_babl_type_from_id$4, (const void *)"plane", convert_double_float, (void *)0);
+  const union _Babl *return_value_babl_type_from_id_1;
+  return_value_babl_type_from_id_1=babl_type_from_id(105);
+  const union _Babl *return_value_babl_type_from_id_2;
+  return_value_babl_type_from_id_2=babl_type_from_id(106);
+  babl_conversion_new((const void *)return_value_babl_type_from_id_1, return_value_babl_type_from_id_2, (const void *)"plane", convert_float_double, (void *)0);
+  const union _Babl *return_value_babl_type_from_id_3;
+  return_value_babl_type_from_id_3=babl_type_from_id(106);
+  const union _Babl *return_value_babl_type_from_id_4;
+  return_value_babl_type_from_id_4=babl_type_from_id(105);
+  babl_conversion_new((const void *)return_value_babl_type_from_id_3, return_value_babl_type_from_id_4, (const void *)"plane", convert_double_float, (void *)0);
 }
 
 // babl_base_type_half
@@ -2261,16 +2261,16 @@ void babl_base_type_float(void)
 void babl_base_type_half(void)
 {
   babl_type_new((void *)"half", (const void *)"id", 104, (const void *)"bits", 16, (void *)0);
-  const union _Babl *return_value_babl_type_from_id$1;
-  return_value_babl_type_from_id$1=babl_type_from_id(104);
-  const union _Babl *return_value_babl_type_from_id$2;
-  return_value_babl_type_from_id$2=babl_type_from_id(106);
-  babl_conversion_new((const void *)return_value_babl_type_from_id$1, return_value_babl_type_from_id$2, (const void *)"plane", convert_half_double, (void *)0);
-  const union _Babl *return_value_babl_type_from_id$3;
-  return_value_babl_type_from_id$3=babl_type_from_id(106);
-  const union _Babl *return_value_babl_type_from_id$4;
-  return_value_babl_type_from_id$4=babl_type_from_id(104);
-  babl_conversion_new((const void *)return_value_babl_type_from_id$3, return_value_babl_type_from_id$4, (const void *)"plane", convert_double_half, (void *)0);
+  const union _Babl *return_value_babl_type_from_id_1;
+  return_value_babl_type_from_id_1=babl_type_from_id(104);
+  const union _Babl *return_value_babl_type_from_id_2;
+  return_value_babl_type_from_id_2=babl_type_from_id(106);
+  babl_conversion_new((const void *)return_value_babl_type_from_id_1, return_value_babl_type_from_id_2, (const void *)"plane", convert_half_double, (void *)0);
+  const union _Babl *return_value_babl_type_from_id_3;
+  return_value_babl_type_from_id_3=babl_type_from_id(106);
+  const union _Babl *return_value_babl_type_from_id_4;
+  return_value_babl_type_from_id_4=babl_type_from_id(104);
+  babl_conversion_new((const void *)return_value_babl_type_from_id_3, return_value_babl_type_from_id_4, (const void *)"plane", convert_double_half, (void *)0);
 }
 
 // babl_base_type_u15
@@ -2279,16 +2279,16 @@ void babl_base_type_u15(void)
 {
   babl_hmpf_on_name_lookups = babl_hmpf_on_name_lookups - 1;
   babl_type_new((void *)"u15", (const void *)"bits", 16, (void *)0);
-  const union _Babl *return_value_babl_type$1;
-  return_value_babl_type$1=babl_type("u15");
-  const union _Babl *return_value_babl_type_from_id$2;
-  return_value_babl_type_from_id$2=babl_type_from_id(106);
-  babl_conversion_new((const void *)return_value_babl_type$1, return_value_babl_type_from_id$2, (const void *)"plane", convert_u15_double, (void *)0);
-  const union _Babl *return_value_babl_type_from_id$3;
-  return_value_babl_type_from_id$3=babl_type_from_id(106);
-  const union _Babl *return_value_babl_type$4;
-  return_value_babl_type$4=babl_type("u15");
-  babl_conversion_new((const void *)return_value_babl_type_from_id$3, return_value_babl_type$4, (const void *)"plane", convert_double_u15, (void *)0);
+  const union _Babl *return_value_babl_type_1;
+  return_value_babl_type_1=babl_type("u15");
+  const union _Babl *return_value_babl_type_from_id_2;
+  return_value_babl_type_from_id_2=babl_type_from_id(106);
+  babl_conversion_new((const void *)return_value_babl_type_1, return_value_babl_type_from_id_2, (const void *)"plane", convert_u15_double, (void *)0);
+  const union _Babl *return_value_babl_type_from_id_3;
+  return_value_babl_type_from_id_3=babl_type_from_id(106);
+  const union _Babl *return_value_babl_type_4;
+  return_value_babl_type_4=babl_type("u15");
+  babl_conversion_new((const void *)return_value_babl_type_from_id_3, return_value_babl_type_4, (const void *)"plane", convert_double_u15, (void *)0);
   babl_hmpf_on_name_lookups = babl_hmpf_on_name_lookups + 1;
 }
 
@@ -2297,16 +2297,16 @@ void babl_base_type_u15(void)
 void babl_base_type_u16(void)
 {
   babl_type_new((void *)"u16", (const void *)"id", 102, (const void *)"bits", 16, (void *)0);
-  const union _Babl *return_value_babl_type_from_id$1;
-  return_value_babl_type_from_id$1=babl_type_from_id(102);
-  const union _Babl *return_value_babl_type_from_id$2;
-  return_value_babl_type_from_id$2=babl_type_from_id(106);
-  babl_conversion_new((const void *)return_value_babl_type_from_id$1, return_value_babl_type_from_id$2, (const void *)"plane", convert_u16_double, (void *)0);
-  const union _Babl *return_value_babl_type_from_id$3;
-  return_value_babl_type_from_id$3=babl_type_from_id(106);
-  const union _Babl *return_value_babl_type_from_id$4;
-  return_value_babl_type_from_id$4=babl_type_from_id(102);
-  babl_conversion_new((const void *)return_value_babl_type_from_id$3, return_value_babl_type_from_id$4, (const void *)"plane", convert_double_u16, (void *)0);
+  const union _Babl *return_value_babl_type_from_id_1;
+  return_value_babl_type_from_id_1=babl_type_from_id(102);
+  const union _Babl *return_value_babl_type_from_id_2;
+  return_value_babl_type_from_id_2=babl_type_from_id(106);
+  babl_conversion_new((const void *)return_value_babl_type_from_id_1, return_value_babl_type_from_id_2, (const void *)"plane", convert_u16_double, (void *)0);
+  const union _Babl *return_value_babl_type_from_id_3;
+  return_value_babl_type_from_id_3=babl_type_from_id(106);
+  const union _Babl *return_value_babl_type_from_id_4;
+  return_value_babl_type_from_id_4=babl_type_from_id(102);
+  babl_conversion_new((const void *)return_value_babl_type_from_id_3, return_value_babl_type_from_id_4, (const void *)"plane", convert_double_u16, (void *)0);
 }
 
 // babl_base_type_u32
@@ -2314,16 +2314,16 @@ void babl_base_type_u16(void)
 void babl_base_type_u32(void)
 {
   babl_type_new((void *)"u32", (const void *)"id", 103, (const void *)"bits", 32, (void *)0);
-  const union _Babl *return_value_babl_type_from_id$1;
-  return_value_babl_type_from_id$1=babl_type_from_id(103);
-  const union _Babl *return_value_babl_type_from_id$2;
-  return_value_babl_type_from_id$2=babl_type_from_id(106);
-  babl_conversion_new((const void *)return_value_babl_type_from_id$1, return_value_babl_type_from_id$2, (const void *)"plane", convert_u32_double, (void *)0);
-  const union _Babl *return_value_babl_type_from_id$3;
-  return_value_babl_type_from_id$3=babl_type_from_id(106);
-  const union _Babl *return_value_babl_type_from_id$4;
-  return_value_babl_type_from_id$4=babl_type_from_id(103);
-  babl_conversion_new((const void *)return_value_babl_type_from_id$3, return_value_babl_type_from_id$4, (const void *)"plane", convert_double_u32, (void *)0);
+  const union _Babl *return_value_babl_type_from_id_1;
+  return_value_babl_type_from_id_1=babl_type_from_id(103);
+  const union _Babl *return_value_babl_type_from_id_2;
+  return_value_babl_type_from_id_2=babl_type_from_id(106);
+  babl_conversion_new((const void *)return_value_babl_type_from_id_1, return_value_babl_type_from_id_2, (const void *)"plane", convert_u32_double, (void *)0);
+  const union _Babl *return_value_babl_type_from_id_3;
+  return_value_babl_type_from_id_3=babl_type_from_id(106);
+  const union _Babl *return_value_babl_type_from_id_4;
+  return_value_babl_type_from_id_4=babl_type_from_id(103);
+  babl_conversion_new((const void *)return_value_babl_type_from_id_3, return_value_babl_type_from_id_4, (const void *)"plane", convert_double_u32, (void *)0);
 }
 
 // babl_base_type_u8
@@ -2333,36 +2333,36 @@ void babl_base_type_u8(void)
   babl_type_new((void *)"u8", (const void *)"id", 101, (const void *)"bits", 8, (void *)0);
   babl_type_new((void *)"u8-luma", (const void *)"id", 108, (const void *)"bits", 8, (void *)0);
   babl_type_new((void *)"u8-chroma", (const void *)"id", 109, (const void *)"integer", (const void *)"unsigned", (const void *)"bits", 8, (const void *)"min", (signed long int)16, (const void *)"max", (signed long int)240, (const void *)"min_val", -0.5, (const void *)"max_val", 0.5, (void *)0);
-  const union _Babl *return_value_babl_type_from_id$1;
-  return_value_babl_type_from_id$1=babl_type_from_id(101);
-  const union _Babl *return_value_babl_type_from_id$2;
-  return_value_babl_type_from_id$2=babl_type_from_id(106);
-  babl_conversion_new((const void *)return_value_babl_type_from_id$1, return_value_babl_type_from_id$2, (const void *)"plane", convert_u8_double, (void *)0);
-  const union _Babl *return_value_babl_type_from_id$3;
-  return_value_babl_type_from_id$3=babl_type_from_id(106);
-  const union _Babl *return_value_babl_type_from_id$4;
-  return_value_babl_type_from_id$4=babl_type_from_id(101);
-  babl_conversion_new((const void *)return_value_babl_type_from_id$3, return_value_babl_type_from_id$4, (const void *)"plane", convert_double_u8, (void *)0);
-  const union _Babl *return_value_babl_type_from_id$5;
-  return_value_babl_type_from_id$5=babl_type_from_id(108);
-  const union _Babl *return_value_babl_type_from_id$6;
-  return_value_babl_type_from_id$6=babl_type_from_id(106);
-  babl_conversion_new((const void *)return_value_babl_type_from_id$5, return_value_babl_type_from_id$6, (const void *)"plane", convert_u8_luma_double, (void *)0);
-  const union _Babl *return_value_babl_type_from_id$7;
-  return_value_babl_type_from_id$7=babl_type_from_id(106);
-  const union _Babl *return_value_babl_type_from_id$8;
-  return_value_babl_type_from_id$8=babl_type_from_id(108);
-  babl_conversion_new((const void *)return_value_babl_type_from_id$7, return_value_babl_type_from_id$8, (const void *)"plane", convert_double_u8_luma, (void *)0);
-  const union _Babl *return_value_babl_type_from_id$9;
-  return_value_babl_type_from_id$9=babl_type_from_id(109);
-  const union _Babl *return_value_babl_type_from_id$10;
-  return_value_babl_type_from_id$10=babl_type_from_id(106);
-  babl_conversion_new((const void *)return_value_babl_type_from_id$9, return_value_babl_type_from_id$10, (const void *)"plane", convert_u8_chroma_double, (void *)0);
-  const union _Babl *return_value_babl_type_from_id$11;
-  return_value_babl_type_from_id$11=babl_type_from_id(106);
-  const union _Babl *return_value_babl_type_from_id$12;
-  return_value_babl_type_from_id$12=babl_type_from_id(109);
-  babl_conversion_new((const void *)return_value_babl_type_from_id$11, return_value_babl_type_from_id$12, (const void *)"plane", convert_double_u8_chroma, (void *)0);
+  const union _Babl *return_value_babl_type_from_id_1;
+  return_value_babl_type_from_id_1=babl_type_from_id(101);
+  const union _Babl *return_value_babl_type_from_id_2;
+  return_value_babl_type_from_id_2=babl_type_from_id(106);
+  babl_conversion_new((const void *)return_value_babl_type_from_id_1, return_value_babl_type_from_id_2, (const void *)"plane", convert_u8_double, (void *)0);
+  const union _Babl *return_value_babl_type_from_id_3;
+  return_value_babl_type_from_id_3=babl_type_from_id(106);
+  const union _Babl *return_value_babl_type_from_id_4;
+  return_value_babl_type_from_id_4=babl_type_from_id(101);
+  babl_conversion_new((const void *)return_value_babl_type_from_id_3, return_value_babl_type_from_id_4, (const void *)"plane", convert_double_u8, (void *)0);
+  const union _Babl *return_value_babl_type_from_id_5;
+  return_value_babl_type_from_id_5=babl_type_from_id(108);
+  const union _Babl *return_value_babl_type_from_id_6;
+  return_value_babl_type_from_id_6=babl_type_from_id(106);
+  babl_conversion_new((const void *)return_value_babl_type_from_id_5, return_value_babl_type_from_id_6, (const void *)"plane", convert_u8_luma_double, (void *)0);
+  const union _Babl *return_value_babl_type_from_id_7;
+  return_value_babl_type_from_id_7=babl_type_from_id(106);
+  const union _Babl *return_value_babl_type_from_id_8;
+  return_value_babl_type_from_id_8=babl_type_from_id(108);
+  babl_conversion_new((const void *)return_value_babl_type_from_id_7, return_value_babl_type_from_id_8, (const void *)"plane", convert_double_u8_luma, (void *)0);
+  const union _Babl *return_value_babl_type_from_id_9;
+  return_value_babl_type_from_id_9=babl_type_from_id(109);
+  const union _Babl *return_value_babl_type_from_id_10;
+  return_value_babl_type_from_id_10=babl_type_from_id(106);
+  babl_conversion_new((const void *)return_value_babl_type_from_id_9, return_value_babl_type_from_id_10, (const void *)"plane", convert_u8_chroma_double, (void *)0);
+  const union _Babl *return_value_babl_type_from_id_11;
+  return_value_babl_type_from_id_11=babl_type_from_id(106);
+  const union _Babl *return_value_babl_type_from_id_12;
+  return_value_babl_type_from_id_12=babl_type_from_id(109);
+  babl_conversion_new((const void *)return_value_babl_type_from_id_11, return_value_babl_type_from_id_12, (const void *)"plane", convert_double_u8_chroma, (void *)0);
 }
 
 // babl_calloc
@@ -2374,7 +2374,7 @@ void * babl_calloc(unsigned long int nmemb, unsigned long int size)
   if(ret == NULL)
     do
     {
-      real_babl_log$link15("babl-memory.c", 265, (const char *)"babl_calloc", "args=(%i, %i): failed", nmemb, size);
+      real_babl_log_link15("babl-memory.c", 265, (const char *)"babl_calloc", "args=(%i, %i): failed", nmemb, size);
       babl_die();
     }
     while((_Bool)0);
@@ -2457,55 +2457,55 @@ const union _Babl * babl_component_new(void *first_arg, ...)
   const char *name = (const char *)first_arg;
   const char *arg;
   va_start(varg, first_arg);
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
-  signed int tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
+  signed int tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   while((_Bool)1)
   {
     arg=va_arg(varg, __typeof__(arg));
     if(arg == ((const char *)NULL))
       break;
 
-    signed int return_value_strcmp$6;
-    return_value_strcmp$6=strcmp(arg, "id");
-    if(return_value_strcmp$6 == 0)
+    signed int return_value_strcmp_6;
+    return_value_strcmp_6=strcmp(arg, "id");
+    if(return_value_strcmp_6 == 0)
       id=va_arg(varg, __typeof__(id));
 
     else
     {
-      return_value_strcmp$5=strcmp(arg, "luma");
-      if(return_value_strcmp$5 == 0)
+      return_value_strcmp_5=strcmp(arg, "luma");
+      if(return_value_strcmp_5 == 0)
         luma = 1;
 
       else
       {
-        return_value_strcmp$4=strcmp(arg, "chroma");
-        if(return_value_strcmp$4 == 0)
+        return_value_strcmp_4=strcmp(arg, "chroma");
+        if(return_value_strcmp_4 == 0)
           chroma = 1;
 
         else
         {
-          return_value_strcmp$3=strcmp(arg, "alpha");
-          if(return_value_strcmp$3 == 0)
+          return_value_strcmp_3=strcmp(arg, "alpha");
+          if(return_value_strcmp_3 == 0)
             alpha = 1;
 
           else
           {
             if(arg == ((const char *)NULL))
-              tmp_if_expr$2 = 0;
+              tmp_if_expr_2 = 0;
 
             else
             {
               if(((union _Babl *)arg)->class_type >= 12235008)
-                tmp_if_expr$1 = ((union _Babl *)arg)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_1 = ((union _Babl *)arg)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$1 = (_Bool)0;
-              tmp_if_expr$2 = tmp_if_expr$1 ? 1 : 0;
+                tmp_if_expr_1 = (_Bool)0;
+              tmp_if_expr_2 = tmp_if_expr_1 ? 1 : 0;
             }
-            if(tmp_if_expr$2 == 0)
+            if(tmp_if_expr_2 == 0)
               do
               {
                 real_babl_log("babl-component.c", 114, (const char *)"babl_component_new", "unhandled argument '%s' for component '%s'", arg, name);
@@ -2520,11 +2520,11 @@ const union _Babl * babl_component_new(void *first_arg, ...)
   }
   va_end(varg);
   babl=babl_db_exist(db, id, name);
-  union _Babl *return_value_babl_db_exist$7;
+  union _Babl *return_value_babl_db_exist_7;
   if(babl == ((union _Babl *)NULL) && !(id == 0))
   {
-    return_value_babl_db_exist$7=babl_db_exist(db, 0, name);
-    if(!(return_value_babl_db_exist$7 == ((union _Babl *)NULL)))
+    return_value_babl_db_exist_7=babl_db_exist(db, 0, name);
+    if(!(return_value_babl_db_exist_7 == ((union _Babl *)NULL)))
       do
       {
         real_babl_log("babl-component.c", 123, (const char *)"babl_component_new", "Trying to reregister BablComponent '%s' with different id!", name);
@@ -2536,9 +2536,9 @@ const union _Babl * babl_component_new(void *first_arg, ...)
 
   if(!(babl == ((union _Babl *)NULL)))
   {
-    signed int return_value_is_component_duplicate$8;
-    return_value_is_component_duplicate$8=is_component_duplicate(babl, luma, chroma, alpha);
-    if(return_value_is_component_duplicate$8 == 0)
+    signed int return_value_is_component_duplicate_8;
+    return_value_is_component_duplicate_8=is_component_duplicate(babl, luma, chroma, alpha);
+    if(return_value_is_component_duplicate_8 == 0)
       do
       {
         real_babl_log("babl-component.c", 132, (const char *)"babl_component_new", "BablComponent '%s' already registered with different attributes!", name);
@@ -2560,13 +2560,13 @@ const union _Babl * babl_conversion(const char *name)
 {
   union _Babl *babl;
   if(!(babl_hmpf_on_name_lookups == 0))
-    real_babl_log$link1("babl-conversion.c", 551, (const char *)"babl_conversion", "%s(\"%s\"): hmpf!", (const char *)"babl_conversion", name);
+    real_babl_log_link1("babl-conversion.c", 551, (const char *)"babl_conversion", "%s(\"%s\"): hmpf!", (const char *)"babl_conversion", name);
 
-  babl=babl_db_exist_by_name(db$link1, name);
+  babl=babl_db_exist_by_name(db_link1, name);
   if(babl == ((union _Babl *)NULL))
     do
     {
-      real_babl_log$link1("babl-conversion.c", 551, (const char *)"babl_conversion", "%s(\"%s\"): not found", (const char *)"babl_conversion", name);
+      real_babl_log_link1("babl-conversion.c", 551, (const char *)"babl_conversion", "%s(\"%s\"): not found", (const char *)"babl_conversion", name);
       babl_die();
     }
     while((_Bool)0);
@@ -2578,7 +2578,7 @@ const union _Babl * babl_conversion(const char *name)
 // file babl-conversion.c line 551
 void babl_conversion_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data)
 {
-  babl_db_each(db$link1, each_fun, user_data);
+  babl_db_each(db_link1, each_fun, user_data);
 }
 
 // babl_conversion_cost
@@ -2601,10 +2601,10 @@ signed long int babl_conversion_cost(struct BablConversion *conversion)
 // file babl-conversion.h line 22
 struct _BablDb * babl_conversion_db(void)
 {
-  if(db$link1 == ((struct _BablDb *)NULL))
-    db$link1=babl_db_init();
+  if(db_link1 == ((struct _BablDb *)NULL))
+    db_link1=babl_db_init();
 
-  return db$link1;
+  return db_link1;
 }
 
 // babl_conversion_destination
@@ -2621,19 +2621,19 @@ double babl_conversion_error(struct BablConversion *conversion)
   union _Babl *fmt_source;
   union _Babl *fmt_destination;
   const union _Babl *fmt_rgba_double;
-  const union _Babl *return_value_babl_model$1;
-  return_value_babl_model$1=babl_model("RGBA");
-  const union _Babl *return_value_babl_type$2;
-  return_value_babl_type$2=babl_type("double");
-  const union _Babl *return_value_babl_component$3;
-  return_value_babl_component$3=babl_component("R");
-  const union _Babl *return_value_babl_component$4;
-  return_value_babl_component$4=babl_component("G");
-  const union _Babl *return_value_babl_component$5;
-  return_value_babl_component$5=babl_component("B");
-  const union _Babl *return_value_babl_component$6;
-  return_value_babl_component$6=babl_component("A");
-  fmt_rgba_double=babl_format_new((const void *)return_value_babl_model$1, return_value_babl_type$2, return_value_babl_component$3, return_value_babl_component$4, return_value_babl_component$5, return_value_babl_component$6, (void *)0);
+  const union _Babl *return_value_babl_model_1;
+  return_value_babl_model_1=babl_model("RGBA");
+  const union _Babl *return_value_babl_type_2;
+  return_value_babl_type_2=babl_type("double");
+  const union _Babl *return_value_babl_component_3;
+  return_value_babl_component_3=babl_component("R");
+  const union _Babl *return_value_babl_component_4;
+  return_value_babl_component_4=babl_component("G");
+  const union _Babl *return_value_babl_component_5;
+  return_value_babl_component_5=babl_component("B");
+  const union _Babl *return_value_babl_component_6;
+  return_value_babl_component_6=babl_component("A");
+  fmt_rgba_double=babl_format_new((const void *)return_value_babl_model_1, return_value_babl_type_2, return_value_babl_component_3, return_value_babl_component_4, return_value_babl_component_5, return_value_babl_component_6, (void *)0);
   double error = 0.0;
   signed long int ticks_start = (signed long int)0;
   signed long int ticks_end = (signed long int)0;
@@ -2649,11 +2649,11 @@ double babl_conversion_error(struct BablConversion *conversion)
   union _Babl *fish_rgba_to_source;
   union _Babl *fish_reference;
   union _Babl *fish_destination_to_rgba;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
   if(conversion == ((struct BablConversion *)NULL))
     return 0.0;
 
@@ -2677,47 +2677,47 @@ double babl_conversion_error(struct BablConversion *conversion)
       else
       {
         if(!(fmt_source->instance.id == 1005))
-          tmp_if_expr$7 = fmt_destination->instance.id != 1005 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = fmt_destination->instance.id != 1005 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(tmp_if_expr$7)
-          tmp_if_expr$8 = fmt_source->instance.id != 106 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = (_Bool)0;
+        if(tmp_if_expr_7)
+          tmp_if_expr_8 = fmt_source->instance.id != 106 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        if(tmp_if_expr$8)
-          tmp_if_expr$9 = fmt_destination->instance.id != 106 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = (_Bool)0;
+        if(tmp_if_expr_8)
+          tmp_if_expr_9 = fmt_destination->instance.id != 106 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        if(tmp_if_expr$9)
-          tmp_if_expr$10 = fmt_source->class_type == 12235015 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_9 = (_Bool)0;
+        if(tmp_if_expr_9)
+          tmp_if_expr_10 = fmt_source->class_type == 12235015 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$10 = (_Bool)0;
-        if(tmp_if_expr$10)
-          tmp_if_expr$11 = fmt_destination->class_type == 12235015 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_10 = (_Bool)0;
+        if(tmp_if_expr_10)
+          tmp_if_expr_11 = fmt_destination->class_type == 12235015 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$11 = (_Bool)0;
-        if(!tmp_if_expr$11)
+          tmp_if_expr_11 = (_Bool)0;
+        if(!tmp_if_expr_11)
           conversion->error = 0.000042;
 
         source=babl_calloc((unsigned long int)test_pixels, (unsigned long int)fmt_source->format.bytes_per_pixel);
         destination=babl_calloc((unsigned long int)test_pixels, (unsigned long int)fmt_destination->format.bytes_per_pixel);
         ref_destination=babl_calloc((unsigned long int)test_pixels, (unsigned long int)fmt_destination->format.bytes_per_pixel);
-        void *return_value_babl_calloc$12;
-        return_value_babl_calloc$12=babl_calloc((unsigned long int)test_pixels, (unsigned long int)fmt_rgba_double->format.bytes_per_pixel);
-        destination_rgba_double = (double *)return_value_babl_calloc$12;
-        void *return_value_babl_calloc$13;
-        return_value_babl_calloc$13=babl_calloc((unsigned long int)test_pixels, (unsigned long int)fmt_rgba_double->format.bytes_per_pixel);
-        ref_destination_rgba_double = (double *)return_value_babl_calloc$13;
+        void *return_value_babl_calloc_12;
+        return_value_babl_calloc_12=babl_calloc((unsigned long int)test_pixels, (unsigned long int)fmt_rgba_double->format.bytes_per_pixel);
+        destination_rgba_double = (double *)return_value_babl_calloc_12;
+        void *return_value_babl_calloc_13;
+        return_value_babl_calloc_13=babl_calloc((unsigned long int)test_pixels, (unsigned long int)fmt_rgba_double->format.bytes_per_pixel);
+        ref_destination_rgba_double = (double *)return_value_babl_calloc_13;
         babl_process(fish_rgba_to_source, (const void *)test, source, (signed long int)test_pixels);
         ticks_start=babl_ticks();
-        union _Babl *return_value_babl_fish_simple$14;
-        return_value_babl_fish_simple$14=babl_fish_simple(conversion);
-        babl_process(return_value_babl_fish_simple$14, source, destination, (signed long int)test_pixels);
+        union _Babl *return_value_babl_fish_simple_14;
+        return_value_babl_fish_simple_14=babl_fish_simple(conversion);
+        babl_process(return_value_babl_fish_simple_14, source, destination, (signed long int)test_pixels);
         ticks_end=babl_ticks();
         babl_process(fish_reference, source, ref_destination, (signed long int)test_pixels);
         babl_process(fish_destination_to_rgba, ref_destination, (void *)ref_destination_rgba_double, (signed long int)test_pixels);
@@ -2759,11 +2759,11 @@ union _Babl * babl_conversion_find(const void *source, const void *destination)
 const union _Babl * babl_conversion_from_id(signed int id)
 {
   union _Babl *babl;
-  babl=babl_db_exist_by_id(db$link1, id);
+  babl=babl_db_exist_by_id(db_link1, id);
   if(babl == ((union _Babl *)NULL))
     do
     {
-      real_babl_log$link1("babl-conversion.c", 551, (const char *)"babl_conversion_from_id", "%s(%i): not found", (const char *)"babl_conversion_from_id", id);
+      real_babl_log_link1("babl-conversion.c", 551, (const char *)"babl_conversion_from_id", "%s(%i): not found", (const char *)"babl_conversion_from_id", id);
       babl_die();
     }
     while((_Bool)0);
@@ -2801,69 +2801,69 @@ const union _Babl * babl_conversion_new(const void *first_arg, ...)
   source = (union _Babl *)arg;
   destination=va_arg(varg, __typeof__(destination));
   arg=va_arg(varg, __typeof__(arg));
-  signed int tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  signed int tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(source == ((union _Babl *)NULL))
-    tmp_if_expr$2 = 0;
+    tmp_if_expr_2 = 0;
 
   else
   {
     if(source->class_type >= 12235008)
-      tmp_if_expr$1 = ((union _Babl *)source)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = ((union _Babl *)source)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    tmp_if_expr$2 = tmp_if_expr$1 ? 1 : 0;
+      tmp_if_expr_1 = (_Bool)0;
+    tmp_if_expr_2 = tmp_if_expr_1 ? 1 : 0;
   }
   /* assertion (((void *)0)==(source)?0 :( ((((Babl*)(source))->class_type)>=BABL_INSTANCE ) && ((((Babl*)(source))->class_type)<=BABL_SKY) ?1:0 ) ) */
-  assert(tmp_if_expr$2 != 0);
-  signed int tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
+  assert(tmp_if_expr_2 != 0);
+  signed int tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
   if(destination == ((union _Babl *)NULL))
-    tmp_if_expr$4 = 0;
+    tmp_if_expr_4 = 0;
 
   else
   {
     if(destination->class_type >= 12235008)
-      tmp_if_expr$3 = ((union _Babl *)destination)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = ((union _Babl *)destination)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    tmp_if_expr$4 = tmp_if_expr$3 ? 1 : 0;
+      tmp_if_expr_3 = (_Bool)0;
+    tmp_if_expr_4 = tmp_if_expr_3 ? 1 : 0;
   }
   /* assertion (((void *)0)==(destination)?0 :( ((((Babl*)(destination))->class_type)>=BABL_INSTANCE ) && ((((Babl*)(destination))->class_type)<=BABL_SKY) ?1:0 ) ) */
-  assert(tmp_if_expr$4 != 0);
-  signed int return_value_strcmp$11;
-  signed int return_value_strcmp$10;
-  signed int tmp_post$5;
-  signed int return_value_strcmp$9;
-  signed int tmp_post$6;
-  signed int return_value_strcmp$8;
-  signed int tmp_post$7;
+  assert(tmp_if_expr_4 != 0);
+  signed int return_value_strcmp_11;
+  signed int return_value_strcmp_10;
+  signed int tmp_post_5;
+  signed int return_value_strcmp_9;
+  signed int tmp_post_6;
+  signed int return_value_strcmp_8;
+  signed int tmp_post_7;
   while(!(arg == ((const char *)NULL)))
   {
-    signed int return_value_strcmp$12;
-    return_value_strcmp$12=strcmp(arg, "id");
-    if(return_value_strcmp$12 == 0)
+    signed int return_value_strcmp_12;
+    return_value_strcmp_12=strcmp(arg, "id");
+    if(return_value_strcmp_12 == 0)
       id=va_arg(varg, __typeof__(id));
 
     else
     {
-      return_value_strcmp$11=strcmp(arg, "data");
-      if(return_value_strcmp$11 == 0)
+      return_value_strcmp_11=strcmp(arg, "data");
+      if(return_value_strcmp_11 == 0)
         user_data=va_arg(varg, __typeof__(user_data));
 
       else
       {
-        return_value_strcmp$10=strcmp(arg, "linear");
-        if(return_value_strcmp$10 == 0)
+        return_value_strcmp_10=strcmp(arg, "linear");
+        if(return_value_strcmp_10 == 0)
         {
-          tmp_post$5 = got_func;
+          tmp_post_5 = got_func;
           got_func = got_func + 1;
-          if(!(tmp_post$5 == 0))
+          if(!(tmp_post_5 == 0))
             do
             {
-              real_babl_log$link1("babl-conversion.c", 221, (const char *)"babl_conversion_new", "already got a conversion func\n");
+              real_babl_log_link1("babl-conversion.c", 221, (const char *)"babl_conversion_new", "already got a conversion func\n");
               babl_die();
             }
             while((_Bool)0);
@@ -2873,15 +2873,15 @@ const union _Babl * babl_conversion_new(const void *first_arg, ...)
 
         else
         {
-          return_value_strcmp$9=strcmp(arg, "plane");
-          if(return_value_strcmp$9 == 0)
+          return_value_strcmp_9=strcmp(arg, "plane");
+          if(return_value_strcmp_9 == 0)
           {
-            tmp_post$6 = got_func;
+            tmp_post_6 = got_func;
             got_func = got_func + 1;
-            if(!(tmp_post$6 == 0))
+            if(!(tmp_post_6 == 0))
               do
               {
-                real_babl_log$link1("babl-conversion.c", 230, (const char *)"babl_conversion_new", "already got a conversion func\n");
+                real_babl_log_link1("babl-conversion.c", 230, (const char *)"babl_conversion_new", "already got a conversion func\n");
                 babl_die();
               }
               while((_Bool)0);
@@ -2891,15 +2891,15 @@ const union _Babl * babl_conversion_new(const void *first_arg, ...)
 
           else
           {
-            return_value_strcmp$8=strcmp(arg, "planar");
-            if(return_value_strcmp$8 == 0)
+            return_value_strcmp_8=strcmp(arg, "planar");
+            if(return_value_strcmp_8 == 0)
             {
-              tmp_post$7 = got_func;
+              tmp_post_7 = got_func;
               got_func = got_func + 1;
-              if(!(tmp_post$7 == 0))
+              if(!(tmp_post_7 == 0))
                 do
                 {
-                  real_babl_log$link1("babl-conversion.c", 239, (const char *)"babl_conversion_new", "already got a conversion func\n");
+                  real_babl_log_link1("babl-conversion.c", 239, (const char *)"babl_conversion_new", "already got a conversion func\n");
                   babl_die();
                 }
                 while((_Bool)0);
@@ -2910,7 +2910,7 @@ const union _Babl * babl_conversion_new(const void *first_arg, ...)
             else
               do
               {
-                real_babl_log$link1("babl-conversion.c", 246, (const char *)"babl_conversion_new", "unhandled argument '%s'", arg);
+                real_babl_log_link1("babl-conversion.c", 246, (const char *)"babl_conversion_new", "unhandled argument '%s'", arg);
                 babl_die();
               }
               while((_Bool)0);
@@ -2938,15 +2938,15 @@ const union _Babl * babl_conversion_new(const void *first_arg, ...)
 
   collisions = 0;
   name=create_name(source, destination, type);
-  babl=babl_db_exist(db$link1, id, name);
+  babl=babl_db_exist(db_link1, id, name);
   while(!(babl == ((union _Babl *)NULL)))
   {
     collisions = collisions + 1;
     name=create_name(source, destination, type);
-    babl=babl_db_exist(db$link1, id, name);
+    babl=babl_db_exist(db_link1, id, name);
   }
   babl=conversion_new(name, id, source, destination, linear, plane, planar, user_data);
-  babl_db_insert(db$link1, babl);
+  babl_db_insert(db_link1, babl);
   if(source->type.from_list == ((struct _BablList *)NULL))
     source->type.from_list=babl_list_init_with_size(5);
 
@@ -2956,7 +2956,7 @@ const union _Babl * babl_conversion_new(const void *first_arg, ...)
 
 // babl_conversion_planar_process
 // file babl-conversion.c line 321
-static signed long int babl_conversion_planar_process(struct BablConversion *conversion, struct anonymous$5 *source, struct anonymous$5 *destination, signed long int n)
+static signed long int babl_conversion_planar_process(struct BablConversion *conversion, struct anonymous_5 *source, struct anonymous_5 *destination, signed long int n)
 {
   const char *src_data[32l];
   char *dst_data[32l];
@@ -2981,58 +2981,58 @@ static signed long int babl_conversion_plane_process(struct BablConversion *conv
 signed long int babl_conversion_process(const union _Babl *babl, const char *source, char *destination, signed long int n)
 {
   struct BablConversion *conversion = (struct BablConversion *)babl;
-  signed int tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  signed int tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   do
   {
     if(conversion == ((struct BablConversion *)NULL))
-      tmp_if_expr$4 = 0;
+      tmp_if_expr_4 = 0;
 
     else
     {
       if(((union _Babl *)conversion)->class_type >= 12235008)
-        tmp_if_expr$3 = ((union _Babl *)conversion)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = ((union _Babl *)conversion)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? 1 : 0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? 1 : 0;
     }
-    if(tmp_if_expr$4 == 0)
+    if(tmp_if_expr_4 == 0)
     {
-      real_babl_log$link1("babl-conversion.c", 355, (const char *)"babl_conversion_process", "Eeeeek! Assertion failed: `BABL_IS_BABL (conversion)`");
+      real_babl_log_link1("babl-conversion.c", 355, (const char *)"babl_conversion_process", "Eeeeek! Assertion failed: `BABL_IS_BABL (conversion)`");
       if(conversion == ((struct BablConversion *)NULL))
-        tmp_if_expr$2 = 0;
+        tmp_if_expr_2 = 0;
 
       else
       {
         if(((union _Babl *)conversion)->class_type >= 12235008)
-          tmp_if_expr$1 = ((union _Babl *)conversion)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = ((union _Babl *)conversion)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        tmp_if_expr$2 = tmp_if_expr$1 ? 1 : 0;
+          tmp_if_expr_1 = (_Bool)0;
+        tmp_if_expr_2 = tmp_if_expr_1 ? 1 : 0;
       }
       /* assertion (((void *)0)==(conversion)?0 :( ((((Babl*)(conversion))->class_type)>=BABL_INSTANCE ) && ((((Babl*)(conversion))->class_type)<=BABL_SKY) ?1:0 ) ) */
-      assert(tmp_if_expr$2 != 0);
+      assert(tmp_if_expr_2 != 0);
     }
 
   }
   while((_Bool)0);
-  signed int tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  signed int tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  signed int tmp_if_expr$12;
-  _Bool tmp_if_expr$11;
-  signed int tmp_if_expr$10;
-  _Bool tmp_if_expr$9;
-  signed int tmp_if_expr$16;
-  _Bool tmp_if_expr$15;
-  signed int tmp_if_expr$14;
-  _Bool tmp_if_expr$13;
-  const char *return_value_babl_class_name$17;
+  signed int tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  signed int tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  signed int tmp_if_expr_12;
+  _Bool tmp_if_expr_11;
+  signed int tmp_if_expr_10;
+  _Bool tmp_if_expr_9;
+  signed int tmp_if_expr_16;
+  _Bool tmp_if_expr_15;
+  signed int tmp_if_expr_14;
+  _Bool tmp_if_expr_13;
+  const char *return_value_babl_class_name_17;
   switch(((union _Babl *)conversion)->class_type)
   {
     case 12235018:
@@ -3042,41 +3042,41 @@ signed long int babl_conversion_process(const union _Babl *babl, const char *sou
       signed int src_pitch = 0;
       signed int dst_pitch = 0;
       if(source == ((const char *)NULL))
-        tmp_if_expr$6 = 0;
+        tmp_if_expr_6 = 0;
 
       else
       {
         if(((union _Babl *)source)->class_type >= 12235008)
-          tmp_if_expr$5 = ((union _Babl *)source)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = ((union _Babl *)source)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        tmp_if_expr$6 = tmp_if_expr$5 ? 1 : 0;
+          tmp_if_expr_5 = (_Bool)0;
+        tmp_if_expr_6 = tmp_if_expr_5 ? 1 : 0;
       }
-      if(!(tmp_if_expr$6 == 0))
+      if(!(tmp_if_expr_6 == 0))
       {
-        struct anonymous$5 *img = (struct anonymous$5 *)source;
+        struct anonymous_5 *img = (struct anonymous_5 *)source;
         src_data = (const void *)img->data[(signed long int)0];
         src_pitch = img->pitch[(signed long int)0];
       }
 
       if(destination == ((char *)NULL))
-        tmp_if_expr$8 = 0;
+        tmp_if_expr_8 = 0;
 
       else
       {
         if(((union _Babl *)destination)->class_type >= 12235008)
-          tmp_if_expr$7 = ((union _Babl *)destination)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = ((union _Babl *)destination)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        tmp_if_expr$8 = tmp_if_expr$7 ? 1 : 0;
+          tmp_if_expr_7 = (_Bool)0;
+        tmp_if_expr_8 = tmp_if_expr_7 ? 1 : 0;
       }
-      if(!(tmp_if_expr$8 == 0))
+      if(!(tmp_if_expr_8 == 0))
       {
-        struct anonymous$5 *babl_conversion_process$$1$$2$$1$$2$$img = (struct anonymous$5 *)destination;
-        dst_data = (void *)babl_conversion_process$$1$$2$$1$$2$$img->data[(signed long int)0];
-        dst_pitch = babl_conversion_process$$1$$2$$1$$2$$img->pitch[(signed long int)0];
+        struct anonymous_5 *babl_conversion_process__1__2__1__2__img = (struct anonymous_5 *)destination;
+        dst_data = (void *)babl_conversion_process__1__2__1__2__img->data[(signed long int)0];
+        dst_pitch = babl_conversion_process__1__2__1__2__img->pitch[(signed long int)0];
       }
 
       if(src_data == NULL)
@@ -3099,34 +3099,34 @@ signed long int babl_conversion_process(const union _Babl *babl, const char *sou
       do
       {
         if(source == ((const char *)NULL))
-          tmp_if_expr$12 = 0;
+          tmp_if_expr_12 = 0;
 
         else
         {
           if(((union _Babl *)source)->class_type >= 12235008)
-            tmp_if_expr$11 = ((union _Babl *)source)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_11 = ((union _Babl *)source)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$11 = (_Bool)0;
-          tmp_if_expr$12 = tmp_if_expr$11 ? 1 : 0;
+            tmp_if_expr_11 = (_Bool)0;
+          tmp_if_expr_12 = tmp_if_expr_11 ? 1 : 0;
         }
-        if(tmp_if_expr$12 == 0)
+        if(tmp_if_expr_12 == 0)
         {
-          real_babl_log$link1("babl-conversion.c", 399, (const char *)"babl_conversion_process", "Eeeeek! Assertion failed: `BABL_IS_BABL (source)`");
+          real_babl_log_link1("babl-conversion.c", 399, (const char *)"babl_conversion_process", "Eeeeek! Assertion failed: `BABL_IS_BABL (source)`");
           if(source == ((const char *)NULL))
-            tmp_if_expr$10 = 0;
+            tmp_if_expr_10 = 0;
 
           else
           {
             if(((union _Babl *)source)->class_type >= 12235008)
-              tmp_if_expr$9 = ((union _Babl *)source)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_9 = ((union _Babl *)source)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$9 = (_Bool)0;
-            tmp_if_expr$10 = tmp_if_expr$9 ? 1 : 0;
+              tmp_if_expr_9 = (_Bool)0;
+            tmp_if_expr_10 = tmp_if_expr_9 ? 1 : 0;
           }
           /* assertion (((void *)0)==(source)?0 :( ((((Babl*)(source))->class_type)>=BABL_INSTANCE ) && ((((Babl*)(source))->class_type)<=BABL_SKY) ?1:0 ) ) */
-          assert(tmp_if_expr$10 != 0);
+          assert(tmp_if_expr_10 != 0);
         }
 
       }
@@ -3134,39 +3134,39 @@ signed long int babl_conversion_process(const union _Babl *babl, const char *sou
       do
       {
         if(destination == ((char *)NULL))
-          tmp_if_expr$16 = 0;
+          tmp_if_expr_16 = 0;
 
         else
         {
           if(((union _Babl *)destination)->class_type >= 12235008)
-            tmp_if_expr$15 = ((union _Babl *)destination)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_15 = ((union _Babl *)destination)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$15 = (_Bool)0;
-          tmp_if_expr$16 = tmp_if_expr$15 ? 1 : 0;
+            tmp_if_expr_15 = (_Bool)0;
+          tmp_if_expr_16 = tmp_if_expr_15 ? 1 : 0;
         }
-        if(tmp_if_expr$16 == 0)
+        if(tmp_if_expr_16 == 0)
         {
-          real_babl_log$link1("babl-conversion.c", 400, (const char *)"babl_conversion_process", "Eeeeek! Assertion failed: `BABL_IS_BABL (destination)`");
+          real_babl_log_link1("babl-conversion.c", 400, (const char *)"babl_conversion_process", "Eeeeek! Assertion failed: `BABL_IS_BABL (destination)`");
           if(destination == ((char *)NULL))
-            tmp_if_expr$14 = 0;
+            tmp_if_expr_14 = 0;
 
           else
           {
             if(((union _Babl *)destination)->class_type >= 12235008)
-              tmp_if_expr$13 = ((union _Babl *)destination)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_13 = ((union _Babl *)destination)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$13 = (_Bool)0;
-            tmp_if_expr$14 = tmp_if_expr$13 ? 1 : 0;
+              tmp_if_expr_13 = (_Bool)0;
+            tmp_if_expr_14 = tmp_if_expr_13 ? 1 : 0;
           }
           /* assertion (((void *)0)==(destination)?0 :( ((((Babl*)(destination))->class_type)>=BABL_INSTANCE ) && ((((Babl*)(destination))->class_type)<=BABL_SKY) ?1:0 ) ) */
-          assert(tmp_if_expr$14 != 0);
+          assert(tmp_if_expr_14 != 0);
         }
 
       }
       while((_Bool)0);
-      babl_conversion_planar_process(conversion, (struct anonymous$5 *)source, (struct anonymous$5 *)destination, n);
+      babl_conversion_planar_process(conversion, (struct anonymous_5 *)source, (struct anonymous_5 *)destination, n);
       break;
     }
     case 12235017:
@@ -3176,8 +3176,8 @@ signed long int babl_conversion_process(const union _Babl *babl, const char *sou
     }
     default:
     {
-      return_value_babl_class_name$17=babl_class_name(conversion->instance.class_type);
-      real_babl_log$link1("babl-conversion.c", 423, (const char *)"babl_conversion_process", "args=(%s, %p, %p, %li) unhandled conversion type: %s", conversion->instance.name, source, destination, n, return_value_babl_class_name$17);
+      return_value_babl_class_name_17=babl_class_name(conversion->instance.class_type);
+      real_babl_log_link1("babl-conversion.c", 423, (const char *)"babl_conversion_process", "args=(%s, %p, %p, %li) unhandled conversion type: %s", conversion->instance.name, source, destination, n, return_value_babl_class_name_17);
       return (signed long int)0;
     }
   }
@@ -3196,42 +3196,42 @@ void babl_core_init(void)
   babl_component_new((void *)"B", (const void *)"id", 10005, (const void *)"luma", (const void *)"chroma", (void *)0);
   babl_component_new((void *)"A", (const void *)"id", 10006, (const void *)"alpha", (void *)0);
   babl_component_new((void *)"PAD", (const void *)"id", 10026, (void *)0);
-  const union _Babl *return_value_babl_component_from_id$1;
-  return_value_babl_component_from_id$1=babl_component_from_id(10003);
-  const union _Babl *return_value_babl_component_from_id$2;
-  return_value_babl_component_from_id$2=babl_component_from_id(10004);
-  const union _Babl *return_value_babl_component_from_id$3;
-  return_value_babl_component_from_id$3=babl_component_from_id(10005);
-  const union _Babl *return_value_babl_component_from_id$4;
-  return_value_babl_component_from_id$4=babl_component_from_id(10006);
-  babl_model_new((void *)"id", 1005, return_value_babl_component_from_id$1, return_value_babl_component_from_id$2, return_value_babl_component_from_id$3, return_value_babl_component_from_id$4, (void *)0);
-  const union _Babl *return_value_babl_type_from_id$5;
-  return_value_babl_type_from_id$5=babl_type_from_id(106);
-  const union _Babl *return_value_babl_type_from_id$6;
-  return_value_babl_type_from_id$6=babl_type_from_id(106);
-  babl_conversion_new((const void *)return_value_babl_type_from_id$5, return_value_babl_type_from_id$6, (const void *)"plane", convert_double_double, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$7;
-  return_value_babl_model_from_id$7=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_model_from_id$8;
-  return_value_babl_model_from_id$8=babl_model_from_id(1005);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$7, return_value_babl_model_from_id$8, (const void *)"linear", rgba_to_rgba, (void *)0);
+  const union _Babl *return_value_babl_component_from_id_1;
+  return_value_babl_component_from_id_1=babl_component_from_id(10003);
+  const union _Babl *return_value_babl_component_from_id_2;
+  return_value_babl_component_from_id_2=babl_component_from_id(10004);
+  const union _Babl *return_value_babl_component_from_id_3;
+  return_value_babl_component_from_id_3=babl_component_from_id(10005);
+  const union _Babl *return_value_babl_component_from_id_4;
+  return_value_babl_component_from_id_4=babl_component_from_id(10006);
+  babl_model_new((void *)"id", 1005, return_value_babl_component_from_id_1, return_value_babl_component_from_id_2, return_value_babl_component_from_id_3, return_value_babl_component_from_id_4, (void *)0);
+  const union _Babl *return_value_babl_type_from_id_5;
+  return_value_babl_type_from_id_5=babl_type_from_id(106);
+  const union _Babl *return_value_babl_type_from_id_6;
+  return_value_babl_type_from_id_6=babl_type_from_id(106);
+  babl_conversion_new((const void *)return_value_babl_type_from_id_5, return_value_babl_type_from_id_6, (const void *)"plane", convert_double_double, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_7;
+  return_value_babl_model_from_id_7=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_model_from_id_8;
+  return_value_babl_model_from_id_8=babl_model_from_id(1005);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_7, return_value_babl_model_from_id_8, (const void *)"linear", rgba_to_rgba, (void *)0);
 }
 
 // babl_cpu_accel_get_support
 // file babl-cpuaccel.c line 59
-enum anonymous$11 babl_cpu_accel_get_support(void)
+enum anonymous_11 babl_cpu_accel_get_support(void)
 {
-  signed int tmp_if_expr$2;
-  enum anonymous$11 return_value_cpu_accel$1;
+  signed int tmp_if_expr_2;
+  enum anonymous_11 return_value_cpu_accel_1;
   if(!(use_cpu_accel == 0u))
   {
-    return_value_cpu_accel$1=cpu_accel();
-    tmp_if_expr$2 = (signed int)return_value_cpu_accel$1;
+    return_value_cpu_accel_1=cpu_accel();
+    tmp_if_expr_2 = (signed int)return_value_cpu_accel_1;
   }
 
   else
-    tmp_if_expr$2 = BABL_CPU_ACCEL_NONE;
-  return (enum anonymous$11)tmp_if_expr$2;
+    tmp_if_expr_2 = BABL_CPU_ACCEL_NONE;
+  return (enum anonymous_11)tmp_if_expr_2;
 }
 
 // babl_cpu_accel_set_use
@@ -3252,21 +3252,21 @@ signed int babl_db_count(struct _BablDb *db)
 // file babl-db.c line 67
 static signed int babl_db_destroy(void *data)
 {
-  struct _BablDb *babl_db_destroy$$1$$db = (struct _BablDb *)data;
+  struct _BablDb *babl_db_destroy__1__db = (struct _BablDb *)data;
   do
-    if(babl_db_destroy$$1$$db == ((struct _BablDb *)NULL))
+    if(babl_db_destroy__1__db == ((struct _BablDb *)NULL))
     {
-      real_babl_log$link2("babl-db.c", 70, (const char *)"babl_db_destroy", "Eeeeek! Assertion failed: `db`");
+      real_babl_log_link2("babl-db.c", 70, (const char *)"babl_db_destroy", "Eeeeek! Assertion failed: `db`");
       /* assertion db */
-      assert(babl_db_destroy$$1$$db != ((struct _BablDb *)NULL));
+      assert(babl_db_destroy__1__db != ((struct _BablDb *)NULL));
     }
 
   while((_Bool)0);
-  babl_db_each(babl_db_destroy$$1$$db, each_free, (void *)0);
-  babl_mutex_destroy(babl_db_destroy$$1$$db->mutex);
-  babl_free((void *)babl_db_destroy$$1$$db->name_hash);
-  babl_free((void *)babl_db_destroy$$1$$db->id_hash);
-  babl_free((void *)babl_db_destroy$$1$$db->babl_list);
+  babl_db_each(babl_db_destroy__1__db, each_free, (void *)0);
+  babl_mutex_destroy(babl_db_destroy__1__db->mutex);
+  babl_free((void *)babl_db_destroy__1__db->name_hash);
+  babl_free((void *)babl_db_destroy__1__db->id_hash);
+  babl_free((void *)babl_db_destroy__1__db->babl_list);
   return 0;
 }
 
@@ -3282,18 +3282,18 @@ void babl_db_each(struct _BablDb *db, signed int (*each_fun)(union _Babl *, void
 union _Babl * babl_db_exist(struct _BablDb *db, signed int id, const char *name)
 {
   union _Babl *ret;
-  signed int return_value_babl_hash_by_int$1;
-  signed int return_value_babl_hash_by_str$2;
+  signed int return_value_babl_hash_by_int_1;
+  signed int return_value_babl_hash_by_str_2;
   if(!(id == 0))
   {
-    return_value_babl_hash_by_int$1=babl_hash_by_int(db->id_hash, id);
-    ret=babl_hash_table_find(db->id_hash, return_value_babl_hash_by_int$1, (signed int (*)(union _Babl *, void *))(void *)0, (void *)&id);
+    return_value_babl_hash_by_int_1=babl_hash_by_int(db->id_hash, id);
+    ret=babl_hash_table_find(db->id_hash, return_value_babl_hash_by_int_1, (signed int (*)(union _Babl *, void *))(void *)0, (void *)&id);
   }
 
   else
   {
-    return_value_babl_hash_by_str$2=babl_hash_by_str(db->name_hash, name);
-    ret=babl_hash_table_find(db->name_hash, return_value_babl_hash_by_str$2, (signed int (*)(union _Babl *, void *))(void *)0, (void *)name);
+    return_value_babl_hash_by_str_2=babl_hash_by_str(db->name_hash, name);
+    ret=babl_hash_table_find(db->name_hash, return_value_babl_hash_by_str_2, (signed int (*)(union _Babl *, void *))(void *)0, (void *)name);
   }
   return ret;
 }
@@ -3303,9 +3303,9 @@ union _Babl * babl_db_exist(struct _BablDb *db, signed int id, const char *name)
 union _Babl * babl_db_exist_by_id(struct _BablDb *db, signed int id)
 {
   union _Babl *ret;
-  signed int return_value_babl_hash_by_int$1;
-  return_value_babl_hash_by_int$1=babl_hash_by_int(db->id_hash, id);
-  ret=babl_hash_table_find(db->id_hash, return_value_babl_hash_by_int$1, (signed int (*)(union _Babl *, void *))(void *)0, (void *)&id);
+  signed int return_value_babl_hash_by_int_1;
+  return_value_babl_hash_by_int_1=babl_hash_by_int(db->id_hash, id);
+  ret=babl_hash_table_find(db->id_hash, return_value_babl_hash_by_int_1, (signed int (*)(union _Babl *, void *))(void *)0, (void *)&id);
   return ret;
 }
 
@@ -3314,9 +3314,9 @@ union _Babl * babl_db_exist_by_id(struct _BablDb *db, signed int id)
 union _Babl * babl_db_exist_by_name(struct _BablDb *db, const char *name)
 {
   union _Babl *ret;
-  signed int return_value_babl_hash_by_str$1;
-  return_value_babl_hash_by_str$1=babl_hash_by_str(db->name_hash, name);
-  ret=babl_hash_table_find(db->name_hash, return_value_babl_hash_by_str$1, (signed int (*)(union _Babl *, void *))(void *)0, (void *)name);
+  signed int return_value_babl_hash_by_str_1;
+  return_value_babl_hash_by_str_1=babl_hash_by_str(db->name_hash, name);
+  ret=babl_hash_table_find(db->name_hash, return_value_babl_hash_by_str_1, (signed int (*)(union _Babl *, void *))(void *)0, (void *)name);
   return ret;
 }
 
@@ -3324,27 +3324,27 @@ union _Babl * babl_db_exist_by_name(struct _BablDb *db, const char *name)
 // file babl-db.c line 96
 union _Babl * babl_db_find(struct _BablDb *db, const char *name)
 {
-  signed int return_value_babl_hash_by_str$1;
-  return_value_babl_hash_by_str$1=babl_hash_by_str(db->name_hash, name);
-  union _Babl *return_value_babl_hash_table_find$2;
-  return_value_babl_hash_table_find$2=babl_hash_table_find(db->name_hash, return_value_babl_hash_by_str$1, (signed int (*)(union _Babl *, void *))(void *)0, (void *)name);
-  return return_value_babl_hash_table_find$2;
+  signed int return_value_babl_hash_by_str_1;
+  return_value_babl_hash_by_str_1=babl_hash_by_str(db->name_hash, name);
+  union _Babl *return_value_babl_hash_table_find_2;
+  return_value_babl_hash_table_find_2=babl_hash_table_find(db->name_hash, return_value_babl_hash_by_str_1, (signed int (*)(union _Babl *, void *))(void *)0, (void *)name);
+  return return_value_babl_hash_table_find_2;
 }
 
 // babl_db_init
 // file babl-db.h line 46
 struct _BablDb * babl_db_init(void)
 {
-  struct _BablDb *babl_db_init$$1$$db;
-  void *return_value_babl_calloc$1;
-  return_value_babl_calloc$1=babl_calloc(sizeof(struct _BablDb) /*32ul*/ , (unsigned long int)1);
-  babl_db_init$$1$$db = (struct _BablDb *)return_value_babl_calloc$1;
-  babl_set_destructor((void *)babl_db_init$$1$$db, babl_db_destroy);
-  babl_db_init$$1$$db->name_hash=babl_hash_table_init(db_hash_by_name, db_find_by_name);
-  babl_db_init$$1$$db->id_hash=babl_hash_table_init(db_hash_by_id, db_find_by_id);
-  babl_db_init$$1$$db->babl_list=babl_list_init_with_size(512);
-  babl_db_init$$1$$db->mutex=babl_mutex_new();
-  return babl_db_init$$1$$db;
+  struct _BablDb *babl_db_init__1__db;
+  void *return_value_babl_calloc_1;
+  return_value_babl_calloc_1=babl_calloc(sizeof(struct _BablDb) /*32ul*/ , (unsigned long int)1);
+  babl_db_init__1__db = (struct _BablDb *)return_value_babl_calloc_1;
+  babl_set_destructor((void *)babl_db_init__1__db, babl_db_destroy);
+  babl_db_init__1__db->name_hash=babl_hash_table_init(db_hash_by_name, db_find_by_name);
+  babl_db_init__1__db->id_hash=babl_hash_table_init(db_hash_by_id, db_find_by_id);
+  babl_db_init__1__db->babl_list=babl_list_init_with_size(512);
+  babl_db_init__1__db->mutex=babl_mutex_new();
+  return babl_db_init__1__db;
 }
 
 // babl_db_insert
@@ -3357,9 +3357,9 @@ union _Babl * babl_db_insert(struct _BablDb *db, union _Babl *item)
 
   babl_hash_table_insert(db->name_hash, item);
   babl_list_insert_last(db->babl_list, item);
-  union _Babl *return_value_babl_extender$1;
-  return_value_babl_extender$1=babl_extender();
-  item->instance.creator = (void *)return_value_babl_extender$1;
+  union _Babl *return_value_babl_extender_1;
+  return_value_babl_extender_1=babl_extender();
+  item->instance.creator = (void *)return_value_babl_extender_1;
   babl_mutex_unlock(db->mutex);
   return item;
 }
@@ -3380,22 +3380,22 @@ static char * babl_dir_list(void)
   ret=getenv("BABL_PATH");
   if(ret == ((char *)NULL))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen("/usr/lib/x86_64-linux-gnu/babl-0.1");
-    void *return_value_babl_malloc$2;
-    return_value_babl_malloc$2=babl_malloc(sizeof(char) /*1ul*/  * (return_value_strlen$1 + (unsigned long int)1));
-    ret = (char *)return_value_babl_malloc$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen("/usr/lib/x86_64-linux-gnu/babl-0.1");
+    void *return_value_babl_malloc_2;
+    return_value_babl_malloc_2=babl_malloc(sizeof(char) /*1ul*/  * (return_value_strlen_1 + (unsigned long int)1));
+    ret = (char *)return_value_babl_malloc_2;
     strcpy(ret, "/usr/lib/x86_64-linux-gnu/babl-0.1");
   }
 
   else
   {
     char *ret_tmp;
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(ret);
-    void *return_value_babl_malloc$4;
-    return_value_babl_malloc$4=babl_malloc(sizeof(char) /*1ul*/  * (return_value_strlen$3 + (unsigned long int)1));
-    ret_tmp = (char *)return_value_babl_malloc$4;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(ret);
+    void *return_value_babl_malloc_4;
+    return_value_babl_malloc_4=babl_malloc(sizeof(char) /*1ul*/  * (return_value_strlen_3 + (unsigned long int)1));
+    ret_tmp = (char *)return_value_babl_malloc_4;
     strcpy(ret_tmp, ret);
     ret = ret_tmp;
   }
@@ -3408,16 +3408,16 @@ void * babl_dup(void *ptr)
 {
   void *ret;
   do
-    if(!(((struct anonymous$12 *)((void **)ptr)[-1l])->signature == signature))
+    if(!(((struct anonymous_12 *)((void **)ptr)[-1l])->signature == signature))
     {
-      real_babl_log$link15("babl-memory.c", 155, (const char *)"babl_dup", "Eeeeek! Assertion failed: `IS_BAI (ptr)`");
+      real_babl_log_link15("babl-memory.c", 155, (const char *)"babl_dup", "Eeeeek! Assertion failed: `IS_BAI (ptr)`");
       /* assertion (((BablAllocInfo *) *((void **) ptr - 1))->signature == signature) */
-      assert(((struct anonymous$12 *)*((void **)ptr - (signed long int)1))->signature == signature);
+      assert(((struct anonymous_12 *)*((void **)ptr - (signed long int)1))->signature == signature);
     }
 
   while((_Bool)0);
-  ret=babl_malloc(((struct anonymous$12 *)*((void **)ptr - (signed long int)1))->size);
-  memcpy(ret, ptr, ((struct anonymous$12 *)*((void **)ptr - (signed long int)1))->size);
+  ret=babl_malloc(((struct anonymous_12 *)*((void **)ptr - (signed long int)1))->size);
+  memcpy(ret, ptr, ((struct anonymous_12 *)*((void **)ptr - (signed long int)1))->size);
   return (void *)0;
 }
 
@@ -3428,9 +3428,9 @@ void babl_exit(void)
   ref_count = ref_count - 1;
   if(ref_count == 0)
   {
-    char *return_value_getenv$1;
-    return_value_getenv$1=getenv("BABL_STATS");
-    if(!(return_value_getenv$1 == ((char *)NULL)))
+    char *return_value_getenv_1;
+    return_value_getenv_1=getenv("BABL_STATS");
+    if(!(return_value_getenv_1 == ((char *)NULL)))
     {
       char logfile_name[21l] = { '/', 't', 'm', 'p', '/', 'b', 'a', 'b', 'l', '-', 's', 't', 'a', 't', 's', '.', 'h', 't', 'm', 'l', 0 };
       struct _IO_FILE *logfile;
@@ -3444,27 +3444,27 @@ void babl_exit(void)
     }
 
     babl_extension_deinit();
-    struct _BablDb *return_value_babl_extension_db$2;
-    return_value_babl_extension_db$2=babl_extension_db();
-    babl_free((void *)return_value_babl_extension_db$2);
-    struct _BablDb *return_value_babl_fish_db$3;
-    return_value_babl_fish_db$3=babl_fish_db();
-    babl_free((void *)return_value_babl_fish_db$3);
-    struct _BablDb *return_value_babl_conversion_db$4;
-    return_value_babl_conversion_db$4=babl_conversion_db();
-    babl_free((void *)return_value_babl_conversion_db$4);
-    struct _BablDb *return_value_babl_format_db$5;
-    return_value_babl_format_db$5=babl_format_db();
-    babl_free((void *)return_value_babl_format_db$5);
-    struct _BablDb *return_value_babl_model_db$6;
-    return_value_babl_model_db$6=babl_model_db();
-    babl_free((void *)return_value_babl_model_db$6);
-    struct _BablDb *return_value_babl_component_db$7;
-    return_value_babl_component_db$7=babl_component_db();
-    babl_free((void *)return_value_babl_component_db$7);
-    struct _BablDb *return_value_babl_type_db$8;
-    return_value_babl_type_db$8=babl_type_db();
-    babl_free((void *)return_value_babl_type_db$8);
+    struct _BablDb *return_value_babl_extension_db_2;
+    return_value_babl_extension_db_2=babl_extension_db();
+    babl_free((void *)return_value_babl_extension_db_2);
+    struct _BablDb *return_value_babl_fish_db_3;
+    return_value_babl_fish_db_3=babl_fish_db();
+    babl_free((void *)return_value_babl_fish_db_3);
+    struct _BablDb *return_value_babl_conversion_db_4;
+    return_value_babl_conversion_db_4=babl_conversion_db();
+    babl_free((void *)return_value_babl_conversion_db_4);
+    struct _BablDb *return_value_babl_format_db_5;
+    return_value_babl_format_db_5=babl_format_db();
+    babl_free((void *)return_value_babl_format_db_5);
+    struct _BablDb *return_value_babl_model_db_6;
+    return_value_babl_model_db_6=babl_model_db();
+    babl_free((void *)return_value_babl_model_db_6);
+    struct _BablDb *return_value_babl_component_db_7;
+    return_value_babl_component_db_7=babl_component_db();
+    babl_free((void *)return_value_babl_component_db_7);
+    struct _BablDb *return_value_babl_type_db_8;
+    return_value_babl_type_db_8=babl_type_db();
+    babl_free((void *)return_value_babl_type_db_8);
     babl_internal_destroy();
   }
 
@@ -3487,13 +3487,13 @@ const union _Babl * babl_extension(const char *name)
 {
   union _Babl *babl;
   if(!(babl_hmpf_on_name_lookups == 0))
-    real_babl_log$link3("babl-extension.c", 365, (const char *)"babl_extension", "%s(\"%s\"): hmpf!", (const char *)"babl_extension", name);
+    real_babl_log_link3("babl-extension.c", 365, (const char *)"babl_extension", "%s(\"%s\"): hmpf!", (const char *)"babl_extension", name);
 
-  babl=babl_db_exist_by_name(db$link2, name);
+  babl=babl_db_exist_by_name(db_link2, name);
   if(babl == ((union _Babl *)NULL))
     do
     {
-      real_babl_log$link3("babl-extension.c", 365, (const char *)"babl_extension", "%s(\"%s\"): not found", (const char *)"babl_extension", name);
+      real_babl_log_link3("babl-extension.c", 365, (const char *)"babl_extension", "%s(\"%s\"): not found", (const char *)"babl_extension", name);
       babl_die();
     }
     while((_Bool)0);
@@ -3508,17 +3508,17 @@ union _Babl * babl_extension_base(void)
   union _Babl *babl;
   void *dl_handle = (void *)0;
   void (*destroy)(void) = (void (*)(void))(void *)0;
-  if(db$link2 == ((struct _BablDb *)NULL))
+  if(db_link2 == ((struct _BablDb *)NULL))
   {
     babl_extension_quiet_log();
     babl_set_extender((union _Babl *)(void *)0);
-    db$link2=babl_db_init();
+    db_link2=babl_db_init();
   }
 
   babl=extension_new("BablBase", dl_handle, destroy);
   babl_set_extender(babl);
   union _Babl *ret;
-  ret=babl_db_insert(db$link2, babl);
+  ret=babl_db_insert(db_link2, babl);
   if(!(ret == babl))
     babl_free((void *)babl);
 
@@ -3533,17 +3533,17 @@ union _Babl * babl_extension_base(void)
 // file babl-extension.c line 365
 void babl_extension_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data)
 {
-  babl_db_each(db$link2, each_fun, user_data);
+  babl_db_each(db_link2, each_fun, user_data);
 }
 
 // babl_extension_db
 // file babl-extension.h line 25
 struct _BablDb * babl_extension_db(void)
 {
-  if(db$link2 == ((struct _BablDb *)NULL))
-    db$link2=babl_db_init();
+  if(db_link2 == ((struct _BablDb *)NULL))
+    db_link2=babl_db_init();
 
-  return db$link2;
+  return db_link2;
 }
 
 // babl_extension_deinit
@@ -3573,11 +3573,11 @@ static signed int babl_extension_destroy(void *data)
 const union _Babl * babl_extension_from_id(signed int id)
 {
   union _Babl *babl;
-  babl=babl_db_exist_by_id(db$link2, id);
+  babl=babl_db_exist_by_id(db_link2, id);
   if(babl == ((union _Babl *)NULL))
     do
     {
-      real_babl_log$link3("babl-extension.c", 365, (const char *)"babl_extension_from_id", "%s(%i): not found", (const char *)"babl_extension_from_id", id);
+      real_babl_log_link3("babl-extension.c", 365, (const char *)"babl_extension_from_id", "%s(%i): not found", (const char *)"babl_extension_from_id", id);
       babl_die();
     }
     while((_Bool)0);
@@ -3596,46 +3596,46 @@ static union _Babl * babl_extension_load(const char *path)
   dl_handle=dlopen(path, 0x00002);
   if(dl_handle == NULL)
   {
-    char *return_value_dlerror$1;
-    return_value_dlerror$1=dlerror();
-    real_babl_log$link3("babl-extension.c", 204, (const char *)"babl_extension_load", "dlopen() failed:\n\t%s", return_value_dlerror$1);
-    union _Babl *return_value_load_failed$2;
-    return_value_load_failed$2=load_failed(babl);
-    return return_value_load_failed$2;
+    char *return_value_dlerror_1;
+    return_value_dlerror_1=dlerror();
+    real_babl_log_link3("babl-extension.c", 204, (const char *)"babl_extension_load", "dlopen() failed:\n\t%s", return_value_dlerror_1);
+    union _Babl *return_value_load_failed_2;
+    return_value_load_failed_2=load_failed(babl);
+    return return_value_load_failed_2;
   }
 
-  void *return_value_dlsym$3;
-  return_value_dlsym$3=dlsym(dl_handle, "init");
-  init = (signed int (*)(void))return_value_dlsym$3;
+  void *return_value_dlsym_3;
+  return_value_dlsym_3=dlsym(dl_handle, "init");
+  init = (signed int (*)(void))return_value_dlsym_3;
   if(init == ((signed int (*)(void))NULL))
   {
-    real_babl_log$link3("babl-extension.c", 210, (const char *)"babl_extension_load", "\n\tint babl_extension_init() function not found in extension '%s'", path);
+    real_babl_log_link3("babl-extension.c", 210, (const char *)"babl_extension_load", "\n\tint babl_extension_init() function not found in extension '%s'", path);
     dlclose(dl_handle);
-    union _Babl *return_value_load_failed$4;
-    return_value_load_failed$4=load_failed(babl);
-    return return_value_load_failed$4;
+    union _Babl *return_value_load_failed_4;
+    return_value_load_failed_4=load_failed(babl);
+    return return_value_load_failed_4;
   }
 
-  void *return_value_dlsym$5;
-  return_value_dlsym$5=dlsym(dl_handle, "destroy");
-  destroy = (void (*)(void))return_value_dlsym$5;
+  void *return_value_dlsym_5;
+  return_value_dlsym_5=dlsym(dl_handle, "destroy");
+  destroy = (void (*)(void))return_value_dlsym_5;
   babl=extension_new(path, dl_handle, destroy);
   babl_set_extender(babl);
   signed int return_value;
   return_value=init();
   if(!(return_value == 0))
   {
-    real_babl_log$link3("babl-extension.c", 223, (const char *)"babl_extension_load", "babl_extension_init() in extension '%s' failed (return!=0)", path);
+    real_babl_log_link3("babl-extension.c", 223, (const char *)"babl_extension_load", "babl_extension_init() in extension '%s' failed (return!=0)", path);
     dlclose(dl_handle);
-    union _Babl *return_value_load_failed$6;
-    return_value_load_failed$6=load_failed(babl);
-    return return_value_load_failed$6;
+    union _Babl *return_value_load_failed_6;
+    return_value_load_failed_6=load_failed(babl);
+    return return_value_load_failed_6;
   }
 
-  babl_db_insert(db$link2, babl);
-  union _Babl *return_value_babl_db_exist_by_name$8;
-  return_value_babl_db_exist_by_name$8=babl_db_exist_by_name(db$link2, path);
-  if(babl == return_value_babl_db_exist_by_name$8)
+  babl_db_insert(db_link2, babl);
+  union _Babl *return_value_babl_db_exist_by_name_8;
+  return_value_babl_db_exist_by_name_8=babl_db_exist_by_name(db_link2, path);
+  if(babl == return_value_babl_db_exist_by_name_8)
   {
     babl_set_extender((union _Babl *)(void *)0);
     return babl;
@@ -3643,9 +3643,9 @@ static union _Babl * babl_extension_load(const char *path)
 
   else
   {
-    union _Babl *return_value_load_failed$7;
-    return_value_load_failed$7=load_failed(babl);
-    return return_value_load_failed$7;
+    union _Babl *return_value_load_failed_7;
+    return_value_load_failed_7=load_failed(babl);
+    return return_value_load_failed_7;
   }
 }
 
@@ -3655,7 +3655,7 @@ static void babl_extension_load_dir(const char *base_path)
 {
   struct __dirstream *dir;
   dir=opendir(base_path);
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(!(dir == ((struct __dirstream *)NULL)))
   {
     struct dirent *dentry;
@@ -3675,8 +3675,8 @@ static void babl_extension_load_dir(const char *base_path)
         extension=strrchr(dentry->d_name, 46);
         if(!(extension == ((char *)NULL)))
         {
-          return_value_strcmp$1=strcmp(extension, ".so");
-          if(return_value_strcmp$1 == 0)
+          return_value_strcmp_1=strcmp(extension, ".so");
+          if(return_value_strcmp_1 == 0)
             babl_extension_load(path);
 
         }
@@ -3702,8 +3702,8 @@ void babl_extension_load_dir_list(const char *dir_list)
   path=babl_strdup(dir_list);
   src = dir_list;
   dst = path;
-  char *tmp_post$1;
-  const char *tmp_post$2;
+  char *tmp_post_1;
+  const char *tmp_post_2;
   while(eos == 0)
     switch((signed int)*src)
     {
@@ -3726,11 +3726,11 @@ void babl_extension_load_dir_list(const char *dir_list)
       }
       default:
       {
-        tmp_post$1 = dst;
+        tmp_post_1 = dst;
         dst = dst + 1l;
-        tmp_post$2 = src;
+        tmp_post_2 = src;
         src = src + 1l;
-        *tmp_post$1 = *tmp_post$2;
+        *tmp_post_1 = *tmp_post_2;
         *dst = (char)0;
       }
     }
@@ -3760,7 +3760,7 @@ const union _Babl * babl_fish(const void *source, const void *destination)
   do
     if(source == NULL)
     {
-      real_babl_log$link8("babl-fish.c", 148, (const char *)"babl_fish", "Eeeeek! Assertion failed: `source`");
+      real_babl_log_link8("babl-fish.c", 148, (const char *)"babl_fish", "Eeeeek! Assertion failed: `source`");
       /* assertion source */
       assert(source != NULL);
     }
@@ -3769,55 +3769,55 @@ const union _Babl * babl_fish(const void *source, const void *destination)
   do
     if(destination == NULL)
     {
-      real_babl_log$link8("babl-fish.c", 149, (const char *)"babl_fish", "Eeeeek! Assertion failed: `destination`");
+      real_babl_log_link8("babl-fish.c", 149, (const char *)"babl_fish", "Eeeeek! Assertion failed: `destination`");
       /* assertion destination */
       assert(destination != NULL);
     }
 
   while((_Bool)0);
-  signed int tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  signed int tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(source == NULL)
-    tmp_if_expr$2 = 0;
+    tmp_if_expr_2 = 0;
 
   else
   {
     if(((union _Babl *)source)->class_type >= 12235008)
-      tmp_if_expr$1 = ((union _Babl *)source)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = ((union _Babl *)source)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    tmp_if_expr$2 = tmp_if_expr$1 ? 1 : 0;
+      tmp_if_expr_1 = (_Bool)0;
+    tmp_if_expr_2 = tmp_if_expr_1 ? 1 : 0;
   }
-  if(!(tmp_if_expr$2 == 0))
+  if(!(tmp_if_expr_2 == 0))
     source_format = (const union _Babl *)source;
 
   if(source_format == ((const union _Babl *)NULL))
     source_format=babl_format((char *)source);
 
-  signed int tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
+  signed int tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
   if(source_format == ((const union _Babl *)NULL))
   {
-    real_babl_log$link8("babl-fish.c", 159, (const char *)"babl_fish", "args=(%p, %p) source format invalid", source, destination);
+    real_babl_log_link8("babl-fish.c", 159, (const char *)"babl_fish", "args=(%p, %p) source format invalid", source, destination);
     return (const union _Babl *)(void *)0;
   }
 
   else
   {
     if(destination == NULL)
-      tmp_if_expr$4 = 0;
+      tmp_if_expr_4 = 0;
 
     else
     {
       if(((union _Babl *)destination)->class_type >= 12235008)
-        tmp_if_expr$3 = ((union _Babl *)destination)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = ((union _Babl *)destination)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? 1 : 0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? 1 : 0;
     }
-    if(!(tmp_if_expr$4 == 0))
+    if(!(tmp_if_expr_4 == 0))
       destination_format = (const union _Babl *)destination;
 
     if(destination_format == ((const union _Babl *)NULL))
@@ -3825,7 +3825,7 @@ const union _Babl * babl_fish(const void *source, const void *destination)
 
     if(destination_format == ((const union _Babl *)NULL))
     {
-      real_babl_log$link8("babl-fish.c", 171, (const char *)"babl_fish", "args=(%p, %p) destination format invalid", source, destination);
+      real_babl_log_link8("babl-fish.c", 171, (const char *)"babl_fish", "args=(%p, %p) destination format invalid", source, destination);
       return (const union _Babl *)(void *)0;
     }
 
@@ -3838,12 +3838,12 @@ const union _Babl * babl_fish(const void *source, const void *destination)
     .source=(union _Babl *)(void *)0, .destination=(union _Babl *)(void *)0 };
       ffish.source = source_format;
       ffish.destination = destination_format;
-      struct _BablDb *return_value_babl_fish_db$5;
-      return_value_babl_fish_db$5=babl_fish_db();
-      id_htable = return_value_babl_fish_db$5->id_hash;
-      signed int return_value_babl_fish_get_id$6;
-      return_value_babl_fish_get_id$6=babl_fish_get_id(source_format, destination_format);
-      hashval=babl_hash_by_int(id_htable, return_value_babl_fish_get_id$6);
+      struct _BablDb *return_value_babl_fish_db_5;
+      return_value_babl_fish_db_5=babl_fish_db();
+      id_htable = return_value_babl_fish_db_5->id_hash;
+      signed int return_value_babl_fish_get_id_6;
+      return_value_babl_fish_get_id_6=babl_fish_get_id(source_format, destination_format);
+      hashval=babl_hash_by_int(id_htable, return_value_babl_fish_get_id_6);
       if(source_format == destination_format)
         babl_hash_table_find(id_htable, hashval, find_memcpy_fish, (void *)&ffish);
 
@@ -3864,20 +3864,20 @@ const union _Babl * babl_fish(const void *source, const void *destination)
           {
             char *name = "X";
             union _Babl *fish;
-            unsigned long int return_value_strlen$7;
-            return_value_strlen$7=strlen(name);
-            void *return_value_babl_calloc$8;
-            return_value_babl_calloc$8=babl_calloc((unsigned long int)1, sizeof(struct anonymous$6) /*72ul*/  + return_value_strlen$7 + (unsigned long int)1);
-            fish = (union _Babl *)return_value_babl_calloc$8;
+            unsigned long int return_value_strlen_7;
+            return_value_strlen_7=strlen(name);
+            void *return_value_babl_calloc_8;
+            return_value_babl_calloc_8=babl_calloc((unsigned long int)1, sizeof(struct anonymous_6) /*72ul*/  + return_value_strlen_7 + (unsigned long int)1);
+            fish = (union _Babl *)return_value_babl_calloc_8;
             fish->class_type = 12235020;
             fish->instance.id=babl_fish_get_id(source_format, destination_format);
-            fish->instance.name = (char *)fish + (signed long int)sizeof(struct anonymous$6) /*72ul*/ ;
+            fish->instance.name = (char *)fish + (signed long int)sizeof(struct anonymous_6) /*72ul*/ ;
             strcpy(fish->instance.name, name);
             fish->fish.source = source_format;
             fish->fish.destination = destination_format;
-            struct _BablDb *return_value_babl_fish_db$9;
-            return_value_babl_fish_db$9=babl_fish_db();
-            babl_db_insert(return_value_babl_fish_db$9, fish);
+            struct _BablDb *return_value_babl_fish_db_9;
+            return_value_babl_fish_db_9=babl_fish_db();
+            babl_db_insert(return_value_babl_fish_db_9, fish);
           }
         }
 
@@ -3887,9 +3887,9 @@ const union _Babl * babl_fish(const void *source, const void *destination)
 
       else
       {
-        union _Babl *return_value_babl_fish_reference$10;
-        return_value_babl_fish_reference$10=babl_fish_reference(source_format, destination_format);
-        return return_value_babl_fish_reference$10;
+        union _Babl *return_value_babl_fish_reference_10;
+        return_value_babl_fish_reference_10=babl_fish_reference(source_format, destination_format);
+        return return_value_babl_fish_reference_10;
       }
     }
   }
@@ -3899,17 +3899,17 @@ const union _Babl * babl_fish(const void *source, const void *destination)
 // file babl-fish.c line 266
 void babl_fish_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data)
 {
-  babl_db_each(db$link3, each_fun, user_data);
+  babl_db_each(db_link3, each_fun, user_data);
 }
 
 // babl_fish_db
 // file babl-fish.h line 25
 struct _BablDb * babl_fish_db(void)
 {
-  if(db$link3 == ((struct _BablDb *)NULL))
-    db$link3=babl_db_init();
+  if(db_link3 == ((struct _BablDb *)NULL))
+    db_link3=babl_db_init();
 
-  return db$link3;
+  return db_link3;
 }
 
 // babl_fish_get_id
@@ -3929,24 +3929,24 @@ union _Babl * babl_fish_path(const union _Babl *source, const union _Babl *desti
 {
   union _Babl *babl = (union _Babl *)(void *)0;
   char name[1024l];
-  create_name$link1(name, source, destination, 1);
-  struct _BablDb *return_value_babl_fish_db$1;
-  return_value_babl_fish_db$1=babl_fish_db();
-  babl=babl_db_exist_by_name(return_value_babl_fish_db$1, name);
+  create_name_link1(name, source, destination, 1);
+  struct _BablDb *return_value_babl_fish_db_1;
+  return_value_babl_fish_db_1=babl_fish_db();
+  babl=babl_db_exist_by_name(return_value_babl_fish_db_1, name);
   if(!(babl == ((union _Babl *)NULL)))
     return babl;
 
   else
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(name);
-    void *return_value_babl_calloc$3;
-    return_value_babl_calloc$3=babl_calloc((unsigned long int)1, sizeof(struct anonymous$9) /*96ul*/  + return_value_strlen$2 + (unsigned long int)1);
-    babl = (union _Babl *)return_value_babl_calloc$3;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(name);
+    void *return_value_babl_calloc_3;
+    return_value_babl_calloc_3=babl_calloc((unsigned long int)1, sizeof(struct anonymous_9) /*96ul*/  + return_value_strlen_2 + (unsigned long int)1);
+    babl = (union _Babl *)return_value_babl_calloc_3;
     babl_set_destructor((void *)babl, babl_fish_path_destroy);
     babl->class_type = 12235023;
     babl->instance.id=babl_fish_get_id(source, destination);
-    babl->instance.name = (char *)babl + (signed long int)sizeof(struct anonymous$9) /*96ul*/ ;
+    babl->instance.name = (char *)babl + (signed long int)sizeof(struct anonymous_9) /*96ul*/ ;
     strcpy(babl->instance.name, name);
     babl->fish.source = source;
     babl->fish.destination = destination;
@@ -3962,9 +3962,9 @@ union _Babl * babl_fish_path(const union _Babl *source, const union _Babl *desti
     pc.to_format = (union _Babl *)destination;
     babl_mutex_lock(babl_format_mutex);
     babl_in_fish_path = babl_in_fish_path + 1;
-    signed int return_value_max_path_length$4;
-    return_value_max_path_length$4=max_path_length();
-    get_conversion_path(&pc, (union _Babl *)source, 0, return_value_max_path_length$4);
+    signed int return_value_max_path_length_4;
+    return_value_max_path_length_4=max_path_length();
+    get_conversion_path(&pc, (union _Babl *)source, 0, return_value_max_path_length_4);
     babl_in_fish_path = babl_in_fish_path - 1;
     babl_mutex_unlock(babl_format_mutex);
     babl_free((void *)pc.current_path);
@@ -3976,9 +3976,9 @@ union _Babl * babl_fish_path(const union _Babl *source, const union _Babl *desti
 
     else
     {
-      struct _BablDb *return_value_babl_fish_db$5;
-      return_value_babl_fish_db$5=babl_fish_db();
-      babl_db_insert(return_value_babl_fish_db$5, babl);
+      struct _BablDb *return_value_babl_fish_db_5;
+      return_value_babl_fish_db_5=babl_fish_db();
+      babl_db_insert(return_value_babl_fish_db_5, babl);
       return babl;
     }
   }
@@ -4017,7 +4017,7 @@ static signed long int babl_fish_path_process(union _Babl *babl, const void *sou
       break;
     }
     default:
-      real_babl_log$link4("babl-fish-path.c", 351, (const char *)"babl_fish_path_process", "=eeek{%i}\n", babl_source->instance.class_type - 0xbab100);
+      real_babl_log_link4("babl-fish-path.c", 351, (const char *)"babl_fish_path_process", "=eeek{%i}\n", babl_source->instance.class_type - 0xbab100);
   }
   switch(babl_dest->instance.class_type)
   {
@@ -4032,11 +4032,11 @@ static signed long int babl_fish_path_process(union _Babl *babl, const void *sou
       break;
     }
     default:
-      real_babl_log$link4("babl-fish-path.c", 363, (const char *)"babl_fish_path_process", "-eeek{%i}\n", babl_dest->instance.class_type - 0xbab100);
+      real_babl_log_link4("babl-fish-path.c", 363, (const char *)"babl_fish_path_process", "-eeek{%i}\n", babl_dest->instance.class_type - 0xbab100);
   }
-  signed long int return_value_process_conversion_path$1;
-  return_value_process_conversion_path$1=process_conversion_path(babl->fish_path.conversion_list, source, source_bpp, destination, dest_bpp, n);
-  return return_value_process_conversion_path$1;
+  signed long int return_value_process_conversion_path_1;
+  return_value_process_conversion_path_1=process_conversion_path(babl->fish_path.conversion_list, source, source_bpp, destination, dest_bpp, n);
+  return return_value_process_conversion_path_1;
 }
 
 // babl_fish_path_stress_test_thread_func
@@ -4080,7 +4080,7 @@ static signed long int babl_fish_process(union _Babl *babl, const void *source, 
       else
         do
         {
-          real_babl_log$link4("babl-fish-path.c", 405, (const char *)"babl_fish_process", "Cannot use a simple fish to process without a linear conversion");
+          real_babl_log_link4("babl-fish-path.c", 405, (const char *)"babl_fish_process", "Cannot use a simple fish to process without a linear conversion");
           babl_die();
         }
         while((_Bool)0);
@@ -4093,7 +4093,7 @@ static signed long int babl_fish_process(union _Babl *babl, const void *source, 
     }
     default:
     {
-      real_babl_log$link4("babl-fish-path.c", 414, (const char *)"babl_fish_process", "NYI");
+      real_babl_log_link4("babl-fish-path.c", 414, (const char *)"babl_fish_process", "NYI");
       ret = (signed long int)-1;
     }
   }
@@ -4106,18 +4106,18 @@ union _Babl * babl_fish_reference(const union _Babl *source, const union _Babl *
 {
   union _Babl *babl = (union _Babl *)(void *)0;
   char *name;
-  name=create_name$link2(source, destination, 1);
-  struct _BablDb *return_value_babl_fish_db$1;
-  return_value_babl_fish_db$1=babl_fish_db();
-  babl=babl_db_exist_by_name(return_value_babl_fish_db$1, name);
-  signed int tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  signed int tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  signed int tmp_if_expr$9;
-  _Bool tmp_if_expr$8;
-  signed int tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
+  name=create_name_link2(source, destination, 1);
+  struct _BablDb *return_value_babl_fish_db_1;
+  return_value_babl_fish_db_1=babl_fish_db();
+  babl=babl_db_exist_by_name(return_value_babl_fish_db_1, name);
+  signed int tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  signed int tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  signed int tmp_if_expr_9;
+  _Bool tmp_if_expr_8;
+  signed int tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
   if(!(babl == ((union _Babl *)NULL)))
     return babl;
 
@@ -4126,34 +4126,34 @@ union _Babl * babl_fish_reference(const union _Babl *source, const union _Babl *
     do
     {
       if(source == ((const union _Babl *)NULL))
-        tmp_if_expr$5 = 0;
+        tmp_if_expr_5 = 0;
 
       else
       {
         if(source->class_type >= 12235008)
-          tmp_if_expr$4 = ((union _Babl *)source)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = ((union _Babl *)source)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        tmp_if_expr$5 = tmp_if_expr$4 ? 1 : 0;
+          tmp_if_expr_4 = (_Bool)0;
+        tmp_if_expr_5 = tmp_if_expr_4 ? 1 : 0;
       }
-      if(tmp_if_expr$5 == 0)
+      if(tmp_if_expr_5 == 0)
       {
-        real_babl_log$link5("babl-fish-reference.c", 65, (const char *)"babl_fish_reference", "Eeeeek! Assertion failed: `BABL_IS_BABL (source)`");
+        real_babl_log_link5("babl-fish-reference.c", 65, (const char *)"babl_fish_reference", "Eeeeek! Assertion failed: `BABL_IS_BABL (source)`");
         if(source == ((const union _Babl *)NULL))
-          tmp_if_expr$3 = 0;
+          tmp_if_expr_3 = 0;
 
         else
         {
           if(source->class_type >= 12235008)
-            tmp_if_expr$2 = ((union _Babl *)source)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = ((union _Babl *)source)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          tmp_if_expr$3 = tmp_if_expr$2 ? 1 : 0;
+            tmp_if_expr_2 = (_Bool)0;
+          tmp_if_expr_3 = tmp_if_expr_2 ? 1 : 0;
         }
         /* assertion (((void *)0)==(source)?0 :( ((((Babl*)(source))->class_type)>=BABL_INSTANCE ) && ((((Babl*)(source))->class_type)<=BABL_SKY) ?1:0 ) ) */
-        assert(tmp_if_expr$3 != 0);
+        assert(tmp_if_expr_3 != 0);
       }
 
     }
@@ -4161,34 +4161,34 @@ union _Babl * babl_fish_reference(const union _Babl *source, const union _Babl *
     do
     {
       if(destination == ((const union _Babl *)NULL))
-        tmp_if_expr$9 = 0;
+        tmp_if_expr_9 = 0;
 
       else
       {
         if(destination->class_type >= 12235008)
-          tmp_if_expr$8 = ((union _Babl *)destination)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = ((union _Babl *)destination)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        tmp_if_expr$9 = tmp_if_expr$8 ? 1 : 0;
+          tmp_if_expr_8 = (_Bool)0;
+        tmp_if_expr_9 = tmp_if_expr_8 ? 1 : 0;
       }
-      if(tmp_if_expr$9 == 0)
+      if(tmp_if_expr_9 == 0)
       {
-        real_babl_log$link5("babl-fish-reference.c", 66, (const char *)"babl_fish_reference", "Eeeeek! Assertion failed: `BABL_IS_BABL (destination)`");
+        real_babl_log_link5("babl-fish-reference.c", 66, (const char *)"babl_fish_reference", "Eeeeek! Assertion failed: `BABL_IS_BABL (destination)`");
         if(destination == ((const union _Babl *)NULL))
-          tmp_if_expr$7 = 0;
+          tmp_if_expr_7 = 0;
 
         else
         {
           if(destination->class_type >= 12235008)
-            tmp_if_expr$6 = ((union _Babl *)destination)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = ((union _Babl *)destination)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          tmp_if_expr$7 = tmp_if_expr$6 ? 1 : 0;
+            tmp_if_expr_6 = (_Bool)0;
+          tmp_if_expr_7 = tmp_if_expr_6 ? 1 : 0;
         }
         /* assertion (((void *)0)==(destination)?0 :( ((((Babl*)(destination))->class_type)>=BABL_INSTANCE ) && ((((Babl*)(destination))->class_type)<=BABL_SKY) ?1:0 ) ) */
-        assert(tmp_if_expr$7 != 0);
+        assert(tmp_if_expr_7 != 0);
       }
 
     }
@@ -4196,7 +4196,7 @@ union _Babl * babl_fish_reference(const union _Babl *source, const union _Babl *
     do
       if(!(source->class_type == 12235015))
       {
-        real_babl_log$link5("babl-fish-reference.c", 68, (const char *)"babl_fish_reference", "Eeeeek! Assertion failed: `source->class_type == BABL_FORMAT`");
+        real_babl_log_link5("babl-fish-reference.c", 68, (const char *)"babl_fish_reference", "Eeeeek! Assertion failed: `source->class_type == BABL_FORMAT`");
         /* assertion source->class_type == BABL_FORMAT */
         assert(source->class_type == 12235015);
       }
@@ -4205,29 +4205,29 @@ union _Babl * babl_fish_reference(const union _Babl *source, const union _Babl *
     do
       if(!(destination->class_type == 12235015))
       {
-        real_babl_log$link5("babl-fish-reference.c", 69, (const char *)"babl_fish_reference", "Eeeeek! Assertion failed: `destination->class_type == BABL_FORMAT`");
+        real_babl_log_link5("babl-fish-reference.c", 69, (const char *)"babl_fish_reference", "Eeeeek! Assertion failed: `destination->class_type == BABL_FORMAT`");
         /* assertion destination->class_type == BABL_FORMAT */
         assert(destination->class_type == 12235015);
       }
 
     while((_Bool)0);
-    unsigned long int return_value_strlen$10;
-    return_value_strlen$10=strlen(name);
-    void *return_value_babl_malloc$11;
-    return_value_babl_malloc$11=babl_malloc(sizeof(struct anonymous$7) /*72ul*/  + return_value_strlen$10 + (unsigned long int)1);
-    babl = (union _Babl *)return_value_babl_malloc$11;
+    unsigned long int return_value_strlen_10;
+    return_value_strlen_10=strlen(name);
+    void *return_value_babl_malloc_11;
+    return_value_babl_malloc_11=babl_malloc(sizeof(struct anonymous_7) /*72ul*/  + return_value_strlen_10 + (unsigned long int)1);
+    babl = (union _Babl *)return_value_babl_malloc_11;
     babl->class_type = 12235021;
     babl->instance.id=babl_fish_get_id(source, destination);
-    babl->instance.name = (char *)babl + (signed long int)sizeof(struct anonymous$7) /*72ul*/ ;
+    babl->instance.name = (char *)babl + (signed long int)sizeof(struct anonymous_7) /*72ul*/ ;
     strcpy(babl->instance.name, name);
     babl->fish.source = source;
     babl->fish.destination = destination;
     babl->fish.processings = 0;
     babl->fish.pixels = (signed long int)0;
     babl->fish.error = 0.0;
-    struct _BablDb *return_value_babl_fish_db$12;
-    return_value_babl_fish_db$12=babl_fish_db();
-    babl_db_insert(return_value_babl_fish_db$12, babl);
+    struct _BablDb *return_value_babl_fish_db_12;
+    return_value_babl_fish_db_12=babl_fish_db();
+    babl_db_insert(return_value_babl_fish_db_12, babl);
     return babl;
   }
 }
@@ -4242,37 +4242,37 @@ signed long int babl_fish_reference_process(const union _Babl *babl, const char 
   union _Babl *source_image;
   union _Babl *rgba_image;
   union _Babl *destination_image;
-  signed int return_value_process_same_model$1;
+  signed int return_value_process_same_model_1;
   if(babl->fish.source->format.model == babl->fish.destination->format.model)
   {
-    return_value_process_same_model$1=process_same_model(babl, source, destination, n);
-    return (signed long int)return_value_process_same_model$1;
+    return_value_process_same_model_1=process_same_model(babl, source, destination, n);
+    return (signed long int)return_value_process_same_model_1;
   }
 
   else
   {
-    signed int return_value_babl_format_is_format_n$3;
-    return_value_babl_format_is_format_n$3=babl_format_is_format_n((union _Babl *)babl->fish.destination);
-    if(!(return_value_babl_format_is_format_n$3 == 0))
+    signed int return_value_babl_format_is_format_n_3;
+    return_value_babl_format_is_format_n_3=babl_format_is_format_n((union _Babl *)babl->fish.destination);
+    if(!(return_value_babl_format_is_format_n_3 == 0))
     {
-      signed int return_value_process_to_n_component$2;
-      return_value_process_to_n_component$2=process_to_n_component(babl, source, destination, n);
-      return (signed long int)return_value_process_to_n_component$2;
+      signed int return_value_process_to_n_component_2;
+      return_value_process_to_n_component_2=process_to_n_component(babl, source, destination, n);
+      return (signed long int)return_value_process_to_n_component_2;
     }
 
     source_double_buf=babl_malloc(sizeof(double) /*8ul*/  * (unsigned long int)n * (unsigned long int)((union _Babl *)babl->fish.source)->format.model->components);
     rgba_double_buf=babl_malloc(sizeof(double) /*8ul*/  * (unsigned long int)n * (unsigned long int)4);
     destination_double_buf=babl_malloc(sizeof(double) /*8ul*/  * (unsigned long int)n * (unsigned long int)((union _Babl *)babl->fish.destination)->format.model->components);
     source_image=babl_image_from_linear((char *)source_double_buf, (union _Babl *)((union _Babl *)babl->fish.source)->format.model);
-    const union _Babl *return_value_babl_model_from_id$4;
-    return_value_babl_model_from_id$4=babl_model_from_id(1005);
-    rgba_image=babl_image_from_linear((char *)rgba_double_buf, return_value_babl_model_from_id$4);
+    const union _Babl *return_value_babl_model_from_id_4;
+    return_value_babl_model_from_id_4=babl_model_from_id(1005);
+    rgba_image=babl_image_from_linear((char *)rgba_double_buf, return_value_babl_model_from_id_4);
     destination_image=babl_image_from_linear((char *)destination_double_buf, (union _Babl *)((union _Babl *)babl->fish.destination)->format.model);
-    convert_to_double((struct anonymous$4 *)(union _Babl *)babl->fish.source, source, (char *)source_double_buf, (signed int)n);
+    convert_to_double((struct anonymous_4 *)(union _Babl *)babl->fish.source, source, (char *)source_double_buf, (signed int)n);
     union _Babl *conv;
-    const union _Babl *return_value_babl_model_from_id$5;
-    return_value_babl_model_from_id$5=babl_model_from_id(1005);
-    conv=assert_conversion_find((const void *)((union _Babl *)babl->fish.source)->format.model, (const void *)return_value_babl_model_from_id$5);
+    const union _Babl *return_value_babl_model_from_id_5;
+    return_value_babl_model_from_id_5=babl_model_from_id(1005);
+    conv=assert_conversion_find((const void *)((union _Babl *)babl->fish.source)->format.model, (const void *)return_value_babl_model_from_id_5);
     if(conv->class_type == 12235019)
       babl_process(conv, (const void *)source_image, (void *)rgba_image, n);
 
@@ -4283,29 +4283,29 @@ signed long int babl_fish_reference_process(const union _Babl *babl, const char 
       else
         do
         {
-          real_babl_log$link5("babl-fish-reference.c", 430, (const char *)"babl_fish_reference_process", "oops");
+          real_babl_log_link5("babl-fish-reference.c", 430, (const char *)"babl_fish_reference_process", "oops");
           babl_die();
         }
         while((_Bool)0);
-    union _Babl *babl_fish_reference_process$$1$$3$$conv;
-    const union _Babl *return_value_babl_model_from_id$6;
-    return_value_babl_model_from_id$6=babl_model_from_id(1005);
-    babl_fish_reference_process$$1$$3$$conv=assert_conversion_find((const void *)return_value_babl_model_from_id$6, (const void *)((union _Babl *)babl->fish.destination)->format.model);
-    if(babl_fish_reference_process$$1$$3$$conv->class_type == 12235019)
-      babl_process(babl_fish_reference_process$$1$$3$$conv, (const void *)rgba_image, (void *)destination_image, n);
+    union _Babl *babl_fish_reference_process__1__3__conv;
+    const union _Babl *return_value_babl_model_from_id_6;
+    return_value_babl_model_from_id_6=babl_model_from_id(1005);
+    babl_fish_reference_process__1__3__conv=assert_conversion_find((const void *)return_value_babl_model_from_id_6, (const void *)((union _Babl *)babl->fish.destination)->format.model);
+    if(babl_fish_reference_process__1__3__conv->class_type == 12235019)
+      babl_process(babl_fish_reference_process__1__3__conv, (const void *)rgba_image, (void *)destination_image, n);
 
     else
-      if(babl_fish_reference_process$$1$$3$$conv->class_type == 12235017)
-        babl_process(babl_fish_reference_process$$1$$3$$conv, rgba_double_buf, destination_double_buf, n);
+      if(babl_fish_reference_process__1__3__conv->class_type == 12235017)
+        babl_process(babl_fish_reference_process__1__3__conv, rgba_double_buf, destination_double_buf, n);
 
       else
         do
         {
-          real_babl_log$link5("babl-fish-reference.c", 452, (const char *)"babl_fish_reference_process", "oops");
+          real_babl_log_link5("babl-fish-reference.c", 452, (const char *)"babl_fish_reference_process", "oops");
           babl_die();
         }
         while((_Bool)0);
-    convert_from_double((struct anonymous$4 *)(union _Babl *)babl->fish.destination, (char *)destination_double_buf, destination, (signed int)n);
+    convert_from_double((struct anonymous_4 *)(union _Babl *)babl->fish.destination, (char *)destination_double_buf, destination, (signed int)n);
     babl_free((void *)source_image);
     babl_free((void *)rgba_image);
     babl_free((void *)destination_image);
@@ -4322,62 +4322,62 @@ union _Babl * babl_fish_simple(struct BablConversion *conversion)
 {
   union _Babl *babl = (union _Babl *)(void *)0;
   char *name;
-  signed int tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  signed int tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   do
   {
     if(conversion == ((struct BablConversion *)NULL))
-      tmp_if_expr$4 = 0;
+      tmp_if_expr_4 = 0;
 
     else
     {
       if(((union _Babl *)conversion)->class_type >= 12235008)
-        tmp_if_expr$3 = ((union _Babl *)conversion)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = ((union _Babl *)conversion)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? 1 : 0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? 1 : 0;
     }
-    if(tmp_if_expr$4 == 0)
+    if(tmp_if_expr_4 == 0)
     {
-      real_babl_log$link6("babl-fish-simple.c", 34, (const char *)"babl_fish_simple", "Eeeeek! Assertion failed: `BABL_IS_BABL (conversion)`");
+      real_babl_log_link6("babl-fish-simple.c", 34, (const char *)"babl_fish_simple", "Eeeeek! Assertion failed: `BABL_IS_BABL (conversion)`");
       if(conversion == ((struct BablConversion *)NULL))
-        tmp_if_expr$2 = 0;
+        tmp_if_expr_2 = 0;
 
       else
       {
         if(((union _Babl *)conversion)->class_type >= 12235008)
-          tmp_if_expr$1 = ((union _Babl *)conversion)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = ((union _Babl *)conversion)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        tmp_if_expr$2 = tmp_if_expr$1 ? 1 : 0;
+          tmp_if_expr_1 = (_Bool)0;
+        tmp_if_expr_2 = tmp_if_expr_1 ? 1 : 0;
       }
       /* assertion (((void *)0)==(conversion)?0 :( ((((Babl*)(conversion))->class_type)>=BABL_INSTANCE ) && ((((Babl*)(conversion))->class_type)<=BABL_SKY) ?1:0 ) ) */
-      assert(tmp_if_expr$2 != 0);
+      assert(tmp_if_expr_2 != 0);
     }
 
   }
   while((_Bool)0);
-  name=create_name$link3(conversion);
-  struct _BablDb *return_value_babl_fish_db$5;
-  return_value_babl_fish_db$5=babl_fish_db();
-  babl=babl_db_exist_by_name(return_value_babl_fish_db$5, name);
+  name=create_name_link3(conversion);
+  struct _BablDb *return_value_babl_fish_db_5;
+  return_value_babl_fish_db_5=babl_fish_db();
+  babl=babl_db_exist_by_name(return_value_babl_fish_db_5, name);
   if(!(babl == ((union _Babl *)NULL)))
     return babl;
 
   else
   {
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(name);
-    void *return_value_babl_malloc$7;
-    return_value_babl_malloc$7=babl_malloc(sizeof(struct anonymous$8) /*80ul*/  + return_value_strlen$6 + (unsigned long int)1);
-    babl = (union _Babl *)return_value_babl_malloc$7;
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(name);
+    void *return_value_babl_malloc_7;
+    return_value_babl_malloc_7=babl_malloc(sizeof(struct anonymous_8) /*80ul*/  + return_value_strlen_6 + (unsigned long int)1);
+    babl = (union _Babl *)return_value_babl_malloc_7;
     babl->class_type = 12235022;
     babl->instance.id=babl_fish_get_id(conversion->source, conversion->destination);
-    babl->instance.name = (char *)babl + (signed long int)sizeof(struct anonymous$8) /*80ul*/ ;
+    babl->instance.name = (char *)babl + (signed long int)sizeof(struct anonymous_8) /*80ul*/ ;
     strcpy(babl->instance.name, name);
     babl->fish.source = conversion->source;
     babl->fish.destination = conversion->destination;
@@ -4385,9 +4385,9 @@ union _Babl * babl_fish_simple(struct BablConversion *conversion)
     babl->fish.pixels = (signed long int)0;
     babl->fish_simple.conversion = conversion;
     babl->fish.error = 0.0;
-    struct _BablDb *return_value_babl_fish_db$8;
-    return_value_babl_fish_db$8=babl_fish_db();
-    babl_db_insert(return_value_babl_fish_db$8, babl);
+    struct _BablDb *return_value_babl_fish_db_8;
+    return_value_babl_fish_db_8=babl_fish_db();
+    babl_db_insert(return_value_babl_fish_db_8, babl);
     return babl;
   }
 }
@@ -4416,13 +4416,13 @@ const union _Babl * babl_format(const char *name)
 {
   union _Babl *babl;
   if(!(babl_hmpf_on_name_lookups == 0))
-    real_babl_log$link9("babl-format.c", 652, (const char *)"babl_format", "%s(\"%s\"): hmpf!", (const char *)"babl_format", name);
+    real_babl_log_link9("babl-format.c", 652, (const char *)"babl_format", "%s(\"%s\"): hmpf!", (const char *)"babl_format", name);
 
-  babl=babl_db_exist_by_name(db$link4, name);
+  babl=babl_db_exist_by_name(db_link4, name);
   if(babl == ((union _Babl *)NULL))
     do
     {
-      real_babl_log$link9("babl-format.c", 652, (const char *)"babl_format", "%s(\"%s\"): not found", (const char *)"babl_format", name);
+      real_babl_log_link9("babl-format.c", 652, (const char *)"babl_format", "%s(\"%s\"): not found", (const char *)"babl_format", name);
       babl_die();
     }
     while((_Bool)0);
@@ -4434,24 +4434,24 @@ const union _Babl * babl_format(const char *name)
 // file babl-format.h line 22
 void babl_format_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data)
 {
-  babl_db_each(db$link4, each_fun, user_data);
+  babl_db_each(db_link4, each_fun, user_data);
 }
 
 // babl_format_db
 // file babl-format.h line 22
 struct _BablDb * babl_format_db(void)
 {
-  if(db$link4 == ((struct _BablDb *)NULL))
-    db$link4=babl_db_init();
+  if(db_link4 == ((struct _BablDb *)NULL))
+    db_link4=babl_db_init();
 
-  return db$link4;
+  return db_link4;
 }
 
 // babl_format_destruct
 // file babl-format.c line 29
 static signed int babl_format_destruct(void *babl)
 {
-  struct anonymous$4 *format = (struct anonymous$4 *)babl;
+  struct anonymous_4 *format = (struct anonymous_4 *)babl;
   if(!(format->image_template == NULL))
   {
     babl_set_destructor(format->image_template, (signed int (*)(void *))(void *)0);
@@ -4470,11 +4470,11 @@ static signed int babl_format_destruct(void *babl)
 const union _Babl * babl_format_from_id(signed int id)
 {
   union _Babl *babl;
-  babl=babl_db_exist_by_id(db$link4, id);
+  babl=babl_db_exist_by_id(db_link4, id);
   if(babl == ((union _Babl *)NULL))
     do
     {
-      real_babl_log$link9("babl-format.c", 652, (const char *)"babl_format_from_id", "%s(%i): not found", (const char *)"babl_format_from_id", id);
+      real_babl_log_link9("babl-format.c", 652, (const char *)"babl_format_from_id", "%s(%i): not found", (const char *)"babl_format_from_id", id);
       babl_die();
     }
     while((_Bool)0);
@@ -4592,19 +4592,19 @@ double babl_format_loss(const union _Babl *babl)
   test=babl_get_format_test_pixels();
   signed int test_pixels;
   test_pixels=babl_get_num_format_test_pixels();
-  const union _Babl *return_value_babl_model$1;
-  return_value_babl_model$1=babl_model("RGBA");
-  const union _Babl *return_value_babl_type$2;
-  return_value_babl_type$2=babl_type("double");
-  const union _Babl *return_value_babl_component$3;
-  return_value_babl_component$3=babl_component("R");
-  const union _Babl *return_value_babl_component$4;
-  return_value_babl_component$4=babl_component("G");
-  const union _Babl *return_value_babl_component$5;
-  return_value_babl_component$5=babl_component("B");
-  const union _Babl *return_value_babl_component$6;
-  return_value_babl_component$6=babl_component("A");
-  ref_fmt=babl_format_new((const void *)return_value_babl_model$1, return_value_babl_type$2, return_value_babl_component$3, return_value_babl_component$4, return_value_babl_component$5, return_value_babl_component$6, (void *)0);
+  const union _Babl *return_value_babl_model_1;
+  return_value_babl_model_1=babl_model("RGBA");
+  const union _Babl *return_value_babl_type_2;
+  return_value_babl_type_2=babl_type("double");
+  const union _Babl *return_value_babl_component_3;
+  return_value_babl_component_3=babl_component("R");
+  const union _Babl *return_value_babl_component_4;
+  return_value_babl_component_4=babl_component("G");
+  const union _Babl *return_value_babl_component_5;
+  return_value_babl_component_5=babl_component("B");
+  const union _Babl *return_value_babl_component_6;
+  return_value_babl_component_6=babl_component("A");
+  ref_fmt=babl_format_new((const void *)return_value_babl_model_1, return_value_babl_type_2, return_value_babl_component_3, return_value_babl_component_4, return_value_babl_component_5, return_value_babl_component_6, (void *)0);
   if(IEEE_FLOAT_NOTEQUAL(babl->format.loss, -1.000000))
     return babl->format.loss;
 
@@ -4614,13 +4614,13 @@ double babl_format_loss(const union _Babl *babl)
     fish_to=babl_fish_reference(ref_fmt, fmt);
     fish_from=babl_fish_reference(fmt, ref_fmt);
     original=babl_calloc((unsigned long int)test_pixels, (unsigned long int)fmt->format.bytes_per_pixel);
-    void *return_value_babl_calloc$7;
-    return_value_babl_calloc$7=babl_calloc((unsigned long int)test_pixels, (unsigned long int)ref_fmt->format.bytes_per_pixel);
-    clipped = (double *)return_value_babl_calloc$7;
+    void *return_value_babl_calloc_7;
+    return_value_babl_calloc_7=babl_calloc((unsigned long int)test_pixels, (unsigned long int)ref_fmt->format.bytes_per_pixel);
+    clipped = (double *)return_value_babl_calloc_7;
     destination=babl_calloc((unsigned long int)test_pixels, (unsigned long int)fmt->format.bytes_per_pixel);
-    void *return_value_babl_calloc$8;
-    return_value_babl_calloc$8=babl_calloc((unsigned long int)test_pixels, (unsigned long int)ref_fmt->format.bytes_per_pixel);
-    transformed = (double *)return_value_babl_calloc$8;
+    void *return_value_babl_calloc_8;
+    return_value_babl_calloc_8=babl_calloc((unsigned long int)test_pixels, (unsigned long int)ref_fmt->format.bytes_per_pixel);
+    transformed = (double *)return_value_babl_calloc_8;
     babl_process(fish_to, (const void *)test, original, (signed long int)test_pixels);
     babl_process(fish_from, original, (void *)clipped, (signed long int)test_pixels);
     babl_process(fish_to, (const void *)clipped, destination, (signed long int)test_pixels);
@@ -4647,28 +4647,28 @@ const union _Babl * babl_format_n(const union _Babl *btype, signed int component
   union _Babl *babl;
   signed int id = 0;
   signed int planar = 0;
-  struct anonymous$0 *model;
-  const union _Babl *return_value_babl_model$1;
-  return_value_babl_model$1=babl_model("Y");
-  model = (struct anonymous$0 *)return_value_babl_model$1;
-  const signed long int model$array_size0 = (signed long int)components;
-  struct anonymous$1 *component[model$array_size0];
-  const signed long int component$array_size0 = (signed long int)components;
-  struct anonymous *sampling[component$array_size0];
-  const signed long int sampling$array_size0 = (signed long int)components;
-  const struct anonymous$2 *type[sampling$array_size0];
+  struct anonymous_0 *model;
+  const union _Babl *return_value_babl_model_1;
+  return_value_babl_model_1=babl_model("Y");
+  model = (struct anonymous_0 *)return_value_babl_model_1;
+  const signed long int model_array_size0 = (signed long int)components;
+  struct anonymous_1 *component[model_array_size0];
+  const signed long int component_array_size0 = (signed long int)components;
+  struct anonymous *sampling[component_array_size0];
+  const signed long int sampling_array_size0 = (signed long int)components;
+  const struct anonymous_2 *type[sampling_array_size0];
   char *name = (char *)(void *)0;
   i = 0;
   for( ; !(i >= components); i = i + 1)
   {
     component[(signed long int)i] = model->component[(signed long int)0];
     type[(signed long int)i] = &btype->type;
-    const union _Babl *return_value_babl_sampling$2;
-    return_value_babl_sampling$2=babl_sampling(1, 1);
-    sampling[(signed long int)i] = (struct anonymous *)return_value_babl_sampling$2;
+    const union _Babl *return_value_babl_sampling_2;
+    return_value_babl_sampling_2=babl_sampling(1, 1);
+    sampling[(signed long int)i] = (struct anonymous *)return_value_babl_sampling_2;
   }
   name=ncomponents_create_name(btype, components);
-  babl=babl_db_exist(db$link4, id, name);
+  babl=babl_db_exist(db_link4, id, name);
   if(!(babl == ((union _Babl *)NULL)))
   {
     babl_free((void *)name);
@@ -4679,7 +4679,7 @@ const union _Babl * babl_format_n(const union _Babl *btype, signed int component
   {
     babl=format_new(name, id, planar, components, model, component, sampling, type);
     babl_format_set_is_format_n(babl);
-    babl_db_insert(db$link4, babl);
+    babl_db_insert(db_link4, babl);
     babl_free((void *)name);
     return babl;
   }
@@ -4690,75 +4690,75 @@ const union _Babl * babl_format_n(const union _Babl *btype, signed int component
 const union _Babl * babl_format_new(const void *first_arg, ...)
 {
   __builtin_va_list varg;
-  union _Babl *babl_format_new$$1$$babl;
+  union _Babl *babl_format_new__1__babl;
   signed int id = 0;
   signed int planar = 0;
-  signed int babl_format_new$$1$$components = 0;
-  struct anonymous$0 *model = (struct anonymous$0 *)(void *)0;
-  struct anonymous$1 *component[32l];
+  signed int babl_format_new__1__components = 0;
+  struct anonymous_0 *model = (struct anonymous_0 *)(void *)0;
+  struct anonymous_1 *component[32l];
   struct anonymous *sampling[32l];
-  const struct anonymous$2 *type[32l];
+  const struct anonymous_2 *type[32l];
   struct anonymous *current_sampling;
-  const union _Babl *return_value_babl_sampling$1;
-  return_value_babl_sampling$1=babl_sampling(1, 1);
-  current_sampling = (struct anonymous *)return_value_babl_sampling$1;
-  struct anonymous$2 *current_type;
-  const union _Babl *return_value_babl_type_from_id$2;
-  return_value_babl_type_from_id$2=babl_type_from_id(106);
-  current_type = (struct anonymous$2 *)return_value_babl_type_from_id$2;
+  const union _Babl *return_value_babl_sampling_1;
+  return_value_babl_sampling_1=babl_sampling(1, 1);
+  current_sampling = (struct anonymous *)return_value_babl_sampling_1;
+  struct anonymous_2 *current_type;
+  const union _Babl *return_value_babl_type_from_id_2;
+  return_value_babl_type_from_id_2=babl_type_from_id(106);
+  current_type = (struct anonymous_2 *)return_value_babl_type_from_id_2;
   char *name = (char *)(void *)0;
   const void *arg = first_arg;
   va_start(varg, first_arg);
-  signed int return_value_strcmp$9;
-  signed int return_value_strcmp$8;
-  signed int return_value_strcmp$7;
-  signed int tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  const char *return_value_babl_class_name$4;
+  signed int return_value_strcmp_9;
+  signed int return_value_strcmp_8;
+  signed int return_value_strcmp_7;
+  signed int tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  const char *return_value_babl_class_name_4;
   while((_Bool)1)
   {
-    signed int return_value_strcmp$10;
-    return_value_strcmp$10=strcmp((const char *)arg, "id");
-    if(return_value_strcmp$10 == 0)
+    signed int return_value_strcmp_10;
+    return_value_strcmp_10=strcmp((const char *)arg, "id");
+    if(return_value_strcmp_10 == 0)
       id=va_arg(varg, __typeof__(id));
 
     else
     {
-      return_value_strcmp$9=strcmp((const char *)arg, "name");
-      if(return_value_strcmp$9 == 0)
+      return_value_strcmp_9=strcmp((const char *)arg, "name");
+      if(return_value_strcmp_9 == 0)
       {
-        char *return_value_gcc_builtin_va_arg$3;
-        return_value_gcc_builtin_va_arg$3=va_arg(varg, __typeof__(return_value_gcc_builtin_va_arg$3));
-        name=babl_strdup(return_value_gcc_builtin_va_arg$3);
+        char *return_value_gcc_builtin_va_arg_3;
+        return_value_gcc_builtin_va_arg_3=va_arg(varg, __typeof__(return_value_gcc_builtin_va_arg_3));
+        name=babl_strdup(return_value_gcc_builtin_va_arg_3);
       }
 
       else
       {
-        return_value_strcmp$8=strcmp((const char *)arg, "packed");
-        if(return_value_strcmp$8 == 0)
+        return_value_strcmp_8=strcmp((const char *)arg, "packed");
+        if(return_value_strcmp_8 == 0)
           planar = 0;
 
         else
         {
-          return_value_strcmp$7=strcmp((const char *)arg, "planar");
-          if(return_value_strcmp$7 == 0)
+          return_value_strcmp_7=strcmp((const char *)arg, "planar");
+          if(return_value_strcmp_7 == 0)
             planar = 1;
 
           else
           {
             if(arg == NULL)
-              tmp_if_expr$6 = 0;
+              tmp_if_expr_6 = 0;
 
             else
             {
               if(((union _Babl *)arg)->class_type >= 12235008)
-                tmp_if_expr$5 = ((union _Babl *)arg)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_5 = ((union _Babl *)arg)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$5 = (_Bool)0;
-              tmp_if_expr$6 = tmp_if_expr$5 ? 1 : 0;
+                tmp_if_expr_5 = (_Bool)0;
+              tmp_if_expr_6 = tmp_if_expr_5 ? 1 : 0;
             }
-            if(!(tmp_if_expr$6 == 0))
+            if(!(tmp_if_expr_6 == 0))
             {
               union _Babl *babl = (union _Babl *)arg;
               switch(babl->class_type)
@@ -4769,27 +4769,27 @@ const union _Babl * babl_format_new(const void *first_arg, ...)
 
                 case 12235010:
                 {
-                  current_type = (struct anonymous$2 *)babl;
+                  current_type = (struct anonymous_2 *)babl;
                   break;
                 }
                 case 12235013:
                 {
-                  if(model == ((struct anonymous$0 *)NULL))
+                  if(model == ((struct anonymous_0 *)NULL))
                     do
                     {
-                      real_babl_log$link9("babl-format.c", 355, (const char *)"babl_format_new", "no model specified before component %s", babl->instance.name);
+                      real_babl_log_link9("babl-format.c", 355, (const char *)"babl_format_new", "no model specified before component %s", babl->instance.name);
                       babl_die();
                     }
                     while((_Bool)0);
 
-                  component[(signed long int)babl_format_new$$1$$components] = (struct anonymous$1 *)babl;
-                  type[(signed long int)babl_format_new$$1$$components] = current_type;
-                  sampling[(signed long int)babl_format_new$$1$$components] = current_sampling;
-                  babl_format_new$$1$$components = babl_format_new$$1$$components + 1;
-                  if(babl_format_new$$1$$components >= 32)
+                  component[(signed long int)babl_format_new__1__components] = (struct anonymous_1 *)babl;
+                  type[(signed long int)babl_format_new__1__components] = current_type;
+                  sampling[(signed long int)babl_format_new__1__components] = current_sampling;
+                  babl_format_new__1__components = babl_format_new__1__components + 1;
+                  if(babl_format_new__1__components >= 32)
                     do
                     {
-                      real_babl_log$link9("babl-format.c", 365, (const char *)"babl_format_new", "maximum number of components (%i) exceeded for %s", 32, name);
+                      real_babl_log_link9("babl-format.c", 365, (const char *)"babl_format_new", "maximum number of components (%i) exceeded for %s", 32, name);
                       babl_die();
                     }
                     while((_Bool)0);
@@ -4803,10 +4803,10 @@ const union _Babl * babl_format_new(const void *first_arg, ...)
                 }
                 case 12235014:
                 {
-                  if(!(model == ((struct anonymous$0 *)NULL)))
-                    real_babl_log$link9("babl-format.c", 377, (const char *)"babl_format_new", "args=(%s): model %s already requested", babl->instance.name, model->instance.name);
+                  if(!(model == ((struct anonymous_0 *)NULL)))
+                    real_babl_log_link9("babl-format.c", 377, (const char *)"babl_format_new", "args=(%s): model %s already requested", babl->instance.name, model->instance.name);
 
-                  model = (struct anonymous$0 *)arg;
+                  model = (struct anonymous_0 *)arg;
                   break;
                 }
                 case 12235008:
@@ -4833,8 +4833,8 @@ const union _Babl * babl_format_new(const void *first_arg, ...)
 
                 case 12235025:
                 {
-                  return_value_babl_class_name$4=babl_class_name(babl->class_type);
-                  real_babl_log$link9("babl-format.c", 395, (const char *)"babl_format_new", "%s unexpected", return_value_babl_class_name$4);
+                  return_value_babl_class_name_4=babl_class_name(babl->class_type);
+                  real_babl_log_link9("babl-format.c", 395, (const char *)"babl_format_new", "%s unexpected", return_value_babl_class_name_4);
                   break;
                 }
                 case 12235026:
@@ -4845,7 +4845,7 @@ const union _Babl * babl_format_new(const void *first_arg, ...)
             else
               do
               {
-                real_babl_log$link9("babl-format.c", 405, (const char *)"babl_format_new", "unhandled argument '%s' for format '%s'", arg, name);
+                real_babl_log_link9("babl-format.c", 405, (const char *)"babl_format_new", "unhandled argument '%s' for format '%s'", arg, name);
                 babl_die();
               }
               while((_Bool)0);
@@ -4853,69 +4853,69 @@ const union _Babl * babl_format_new(const void *first_arg, ...)
         }
       }
     }
-    char *return_value_gcc_builtin_va_arg$11;
-    return_value_gcc_builtin_va_arg$11=va_arg(varg, __typeof__(return_value_gcc_builtin_va_arg$11));
-    arg = (const void *)return_value_gcc_builtin_va_arg$11;
+    char *return_value_gcc_builtin_va_arg_11;
+    return_value_gcc_builtin_va_arg_11=va_arg(varg, __typeof__(return_value_gcc_builtin_va_arg_11));
+    arg = (const void *)return_value_gcc_builtin_va_arg_11;
     if(arg == NULL)
       break;
 
   }
   va_end(varg);
   if(name == ((char *)NULL))
-    name=create_name$link4(model, babl_format_new$$1$$components, component, type);
+    name=create_name_link4(model, babl_format_new__1__components, component, type);
 
-  union _Babl *return_value_babl_db_exist$12;
-  if(model == ((struct anonymous$0 *)NULL))
+  union _Babl *return_value_babl_db_exist_12;
+  if(model == ((struct anonymous_0 *)NULL))
   {
-    real_babl_log$link9("babl-format.c", 420, (const char *)"babl_format_new", "no model specified for format '%s'", name);
+    real_babl_log_link9("babl-format.c", 420, (const char *)"babl_format_new", "no model specified for format '%s'", name);
     babl_free((void *)name);
     return (const union _Babl *)(void *)0;
   }
 
   else
-    if(babl_format_new$$1$$components == 0)
+    if(babl_format_new__1__components == 0)
     {
-      real_babl_log$link9("babl-format.c", 427, (const char *)"babl_format_new", "no components specified for format '%s'", name);
+      real_babl_log_link9("babl-format.c", 427, (const char *)"babl_format_new", "no components specified for format '%s'", name);
       babl_free((void *)name);
       return (const union _Babl *)(void *)0;
     }
 
     else
     {
-      babl_format_new$$1$$babl=babl_db_exist(db$link4, id, name);
-      if(babl_format_new$$1$$babl == ((union _Babl *)NULL) && !(id == 0))
+      babl_format_new__1__babl=babl_db_exist(db_link4, id, name);
+      if(babl_format_new__1__babl == ((union _Babl *)NULL) && !(id == 0))
       {
-        return_value_babl_db_exist$12=babl_db_exist(db$link4, 0, name);
-        if(!(return_value_babl_db_exist$12 == ((union _Babl *)NULL)))
+        return_value_babl_db_exist_12=babl_db_exist(db_link4, 0, name);
+        if(!(return_value_babl_db_exist_12 == ((union _Babl *)NULL)))
           do
           {
-            real_babl_log$link9("babl-format.c", 434, (const char *)"babl_format_new", "Trying to reregister BablFormat '%s' with different id!", name);
+            real_babl_log_link9("babl-format.c", 434, (const char *)"babl_format_new", "Trying to reregister BablFormat '%s' with different id!", name);
             babl_die();
           }
           while((_Bool)0);
 
       }
 
-      if(!(babl_format_new$$1$$babl == ((union _Babl *)NULL)))
+      if(!(babl_format_new__1__babl == ((union _Babl *)NULL)))
       {
-        signed int return_value_is_format_duplicate$13;
-        return_value_is_format_duplicate$13=is_format_duplicate(babl_format_new$$1$$babl, planar, babl_format_new$$1$$components, model, component, sampling, type);
-        if(return_value_is_format_duplicate$13 == 0)
+        signed int return_value_is_format_duplicate_13;
+        return_value_is_format_duplicate_13=is_format_duplicate(babl_format_new__1__babl, planar, babl_format_new__1__components, model, component, sampling, type);
+        if(return_value_is_format_duplicate_13 == 0)
           do
           {
-            real_babl_log$link9("babl-format.c", 444, (const char *)"babl_format_new", "BablFormat '%s' already registered with different content!", name);
+            real_babl_log_link9("babl-format.c", 444, (const char *)"babl_format_new", "BablFormat '%s' already registered with different content!", name);
             babl_die();
           }
           while((_Bool)0);
 
         babl_free((void *)name);
-        return babl_format_new$$1$$babl;
+        return babl_format_new__1__babl;
       }
 
-      babl_format_new$$1$$babl=format_new(name, id, planar, babl_format_new$$1$$components, model, component, sampling, type);
-      babl_db_insert(db$link4, babl_format_new$$1$$babl);
+      babl_format_new__1__babl=format_new(name, id, planar, babl_format_new__1__components, model, component, sampling, type);
+      babl_db_insert(db_link4, babl_format_new__1__babl);
       babl_free((void *)name);
-      return babl_format_new$$1$$babl;
+      return babl_format_new__1__babl;
     }
 }
 
@@ -4932,502 +4932,502 @@ static void babl_format_set_is_format_n(union _Babl *format)
 // file babl-internal.h line 104
 const union _Babl * babl_format_with_model_as_type(const union _Babl *model, const union _Babl *type)
 {
-  struct anonymous$1 *component[10l];
+  struct anonymous_1 *component[10l];
   signed int i = 0;
   for( ; !(i >= model->model.components); i = i + 1)
     component[(signed long int)i] = model->model.component[(signed long int)i];
-  component[(signed long int)i] = (struct anonymous$1 *)(void *)0;
-  const union _Babl *return_value_babl_format_new$1;
-  return_value_babl_format_new$1=babl_format_new((const void *)model, type, component[(signed long int)0], component[(signed long int)1], component[(signed long int)2], component[(signed long int)3], component[(signed long int)4], component[(signed long int)5], component[(signed long int)6], component[(signed long int)7], component[(signed long int)8], component[(signed long int)9], (void *)0);
-  return return_value_babl_format_new$1;
+  component[(signed long int)i] = (struct anonymous_1 *)(void *)0;
+  const union _Babl *return_value_babl_format_new_1;
+  return_value_babl_format_new_1=babl_format_new((const void *)model, type, component[(signed long int)0], component[(signed long int)1], component[(signed long int)2], component[(signed long int)3], component[(signed long int)4], component[(signed long int)5], component[(signed long int)6], component[(signed long int)7], component[(signed long int)8], component[(signed long int)9], (void *)0);
+  return return_value_babl_format_new_1;
 }
 
 // babl_formats_count
 // file babl-internal.h line 106
 signed int babl_formats_count(void)
 {
-  signed int return_value_babl_db_count$1;
-  return_value_babl_db_count$1=babl_db_count(db$link4);
-  return return_value_babl_db_count$1;
+  signed int return_value_babl_db_count_1;
+  return_value_babl_db_count_1=babl_db_count(db_link4);
+  return return_value_babl_db_count_1;
 }
 
 // babl_formats_init
 // file babl-base.h line 24
 void babl_formats_init(void)
 {
-  const union _Babl *return_value_babl_model_from_id$1;
-  return_value_babl_model_from_id$1=babl_model_from_id(1011);
-  const union _Babl *return_value_babl_type_from_id$2;
-  return_value_babl_type_from_id$2=babl_type_from_id(106);
-  const union _Babl *return_value_babl_component_from_id$3;
-  return_value_babl_component_from_id$3=babl_component_from_id(10012);
-  const union _Babl *return_value_babl_component_from_id$4;
-  return_value_babl_component_from_id$4=babl_component_from_id(10013);
-  const union _Babl *return_value_babl_component_from_id$5;
-  return_value_babl_component_from_id$5=babl_component_from_id(10014);
-  const union _Babl *return_value_babl_component_from_id$6;
-  return_value_babl_component_from_id$6=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$1, return_value_babl_type_from_id$2, return_value_babl_component_from_id$3, return_value_babl_component_from_id$4, return_value_babl_component_from_id$5, return_value_babl_component_from_id$6, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$7;
-  return_value_babl_model_from_id$7=babl_model_from_id(1011);
-  const union _Babl *return_value_babl_type_from_id$8;
-  return_value_babl_type_from_id$8=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$9;
-  return_value_babl_component_from_id$9=babl_component_from_id(10012);
-  const union _Babl *return_value_babl_component_from_id$10;
-  return_value_babl_component_from_id$10=babl_component_from_id(10013);
-  const union _Babl *return_value_babl_component_from_id$11;
-  return_value_babl_component_from_id$11=babl_component_from_id(10014);
-  const union _Babl *return_value_babl_component_from_id$12;
-  return_value_babl_component_from_id$12=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$7, return_value_babl_type_from_id$8, return_value_babl_component_from_id$9, return_value_babl_component_from_id$10, return_value_babl_component_from_id$11, return_value_babl_component_from_id$12, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$13;
-  return_value_babl_model_from_id$13=babl_model_from_id(1011);
-  const union _Babl *return_value_babl_type_from_id$14;
-  return_value_babl_type_from_id$14=babl_type_from_id(102);
-  const union _Babl *return_value_babl_component_from_id$15;
-  return_value_babl_component_from_id$15=babl_component_from_id(10012);
-  const union _Babl *return_value_babl_component_from_id$16;
-  return_value_babl_component_from_id$16=babl_component_from_id(10013);
-  const union _Babl *return_value_babl_component_from_id$17;
-  return_value_babl_component_from_id$17=babl_component_from_id(10014);
-  const union _Babl *return_value_babl_component_from_id$18;
-  return_value_babl_component_from_id$18=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$13, return_value_babl_type_from_id$14, return_value_babl_component_from_id$15, return_value_babl_component_from_id$16, return_value_babl_component_from_id$17, return_value_babl_component_from_id$18, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$19;
-  return_value_babl_model_from_id$19=babl_model_from_id(1011);
-  const union _Babl *return_value_babl_type_from_id$20;
-  return_value_babl_type_from_id$20=babl_type_from_id(101);
-  const union _Babl *return_value_babl_component_from_id$21;
-  return_value_babl_component_from_id$21=babl_component_from_id(10012);
-  const union _Babl *return_value_babl_component_from_id$22;
-  return_value_babl_component_from_id$22=babl_component_from_id(10013);
-  const union _Babl *return_value_babl_component_from_id$23;
-  return_value_babl_component_from_id$23=babl_component_from_id(10014);
-  const union _Babl *return_value_babl_component_from_id$24;
-  return_value_babl_component_from_id$24=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$19, return_value_babl_type_from_id$20, return_value_babl_component_from_id$21, return_value_babl_component_from_id$22, return_value_babl_component_from_id$23, return_value_babl_component_from_id$24, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$25;
-  return_value_babl_model_from_id$25=babl_model_from_id(1012);
-  const union _Babl *return_value_babl_type_from_id$26;
-  return_value_babl_type_from_id$26=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$27;
-  return_value_babl_component_from_id$27=babl_component_from_id(10015);
-  const union _Babl *return_value_babl_component_from_id$28;
-  return_value_babl_component_from_id$28=babl_component_from_id(10016);
-  const union _Babl *return_value_babl_component_from_id$29;
-  return_value_babl_component_from_id$29=babl_component_from_id(10017);
-  const union _Babl *return_value_babl_component_from_id$30;
-  return_value_babl_component_from_id$30=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$25, return_value_babl_type_from_id$26, return_value_babl_component_from_id$27, return_value_babl_component_from_id$28, return_value_babl_component_from_id$29, return_value_babl_component_from_id$30, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$31;
-  return_value_babl_model_from_id$31=babl_model_from_id(1012);
-  const union _Babl *return_value_babl_type_from_id$32;
-  return_value_babl_type_from_id$32=babl_type_from_id(102);
-  const union _Babl *return_value_babl_component_from_id$33;
-  return_value_babl_component_from_id$33=babl_component_from_id(10015);
-  const union _Babl *return_value_babl_component_from_id$34;
-  return_value_babl_component_from_id$34=babl_component_from_id(10016);
-  const union _Babl *return_value_babl_component_from_id$35;
-  return_value_babl_component_from_id$35=babl_component_from_id(10017);
-  const union _Babl *return_value_babl_component_from_id$36;
-  return_value_babl_component_from_id$36=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$31, return_value_babl_type_from_id$32, return_value_babl_component_from_id$33, return_value_babl_component_from_id$34, return_value_babl_component_from_id$35, return_value_babl_component_from_id$36, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$37;
-  return_value_babl_model_from_id$37=babl_model_from_id(1012);
-  const union _Babl *return_value_babl_type_from_id$38;
-  return_value_babl_type_from_id$38=babl_type_from_id(101);
-  const union _Babl *return_value_babl_component_from_id$39;
-  return_value_babl_component_from_id$39=babl_component_from_id(10015);
-  const union _Babl *return_value_babl_component_from_id$40;
-  return_value_babl_component_from_id$40=babl_component_from_id(10016);
-  const union _Babl *return_value_babl_component_from_id$41;
-  return_value_babl_component_from_id$41=babl_component_from_id(10017);
-  const union _Babl *return_value_babl_component_from_id$42;
-  return_value_babl_component_from_id$42=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$37, return_value_babl_type_from_id$38, return_value_babl_component_from_id$39, return_value_babl_component_from_id$40, return_value_babl_component_from_id$41, return_value_babl_component_from_id$42, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$43;
-  return_value_babl_model_from_id$43=babl_model_from_id(1010);
-  const union _Babl *return_value_babl_type_from_id$44;
-  return_value_babl_type_from_id$44=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$45;
-  return_value_babl_component_from_id$45=babl_component_from_id(10012);
-  const union _Babl *return_value_babl_component_from_id$46;
-  return_value_babl_component_from_id$46=babl_component_from_id(10013);
-  const union _Babl *return_value_babl_component_from_id$47;
-  return_value_babl_component_from_id$47=babl_component_from_id(10014);
-  babl_format_new((const void *)return_value_babl_model_from_id$43, return_value_babl_type_from_id$44, return_value_babl_component_from_id$45, return_value_babl_component_from_id$46, return_value_babl_component_from_id$47, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$48;
-  return_value_babl_model_from_id$48=babl_model_from_id(1010);
-  const union _Babl *return_value_babl_type_from_id$49;
-  return_value_babl_type_from_id$49=babl_type_from_id(102);
-  const union _Babl *return_value_babl_component_from_id$50;
-  return_value_babl_component_from_id$50=babl_component_from_id(10012);
-  const union _Babl *return_value_babl_component_from_id$51;
-  return_value_babl_component_from_id$51=babl_component_from_id(10013);
-  const union _Babl *return_value_babl_component_from_id$52;
-  return_value_babl_component_from_id$52=babl_component_from_id(10014);
-  babl_format_new((const void *)return_value_babl_model_from_id$48, return_value_babl_type_from_id$49, return_value_babl_component_from_id$50, return_value_babl_component_from_id$51, return_value_babl_component_from_id$52, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$53;
-  return_value_babl_model_from_id$53=babl_model_from_id(1010);
-  const union _Babl *return_value_babl_type_from_id$54;
-  return_value_babl_type_from_id$54=babl_type_from_id(101);
-  const union _Babl *return_value_babl_component_from_id$55;
-  return_value_babl_component_from_id$55=babl_component_from_id(10012);
-  const union _Babl *return_value_babl_component_from_id$56;
-  return_value_babl_component_from_id$56=babl_component_from_id(10013);
-  const union _Babl *return_value_babl_component_from_id$57;
-  return_value_babl_component_from_id$57=babl_component_from_id(10014);
-  babl_format_new((const void *)return_value_babl_model_from_id$53, return_value_babl_type_from_id$54, return_value_babl_component_from_id$55, return_value_babl_component_from_id$56, return_value_babl_component_from_id$57, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$58;
-  return_value_babl_model_from_id$58=babl_model_from_id(1008);
-  const union _Babl *return_value_babl_type_from_id$59;
-  return_value_babl_type_from_id$59=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$60;
-  return_value_babl_component_from_id$60=babl_component_from_id(10010);
-  const union _Babl *return_value_babl_component_from_id$61;
-  return_value_babl_component_from_id$61=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$58, return_value_babl_type_from_id$59, return_value_babl_component_from_id$60, return_value_babl_component_from_id$61, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$62;
-  return_value_babl_model_from_id$62=babl_model_from_id(1009);
-  const union _Babl *return_value_babl_type_from_id$63;
-  return_value_babl_type_from_id$63=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$64;
-  return_value_babl_component_from_id$64=babl_component_from_id(10011);
-  const union _Babl *return_value_babl_component_from_id$65;
-  return_value_babl_component_from_id$65=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$62, return_value_babl_type_from_id$63, return_value_babl_component_from_id$64, return_value_babl_component_from_id$65, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$66;
-  return_value_babl_model_from_id$66=babl_model_from_id(1007);
-  const union _Babl *return_value_babl_type_from_id$67;
-  return_value_babl_type_from_id$67=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$68;
-  return_value_babl_component_from_id$68=babl_component_from_id(10010);
-  babl_format_new((const void *)return_value_babl_model_from_id$66, return_value_babl_type_from_id$67, return_value_babl_component_from_id$68, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$69;
-  return_value_babl_model_from_id$69=babl_model_from_id(1008);
-  const union _Babl *return_value_babl_type_from_id$70;
-  return_value_babl_type_from_id$70=babl_type_from_id(102);
-  const union _Babl *return_value_babl_component_from_id$71;
-  return_value_babl_component_from_id$71=babl_component_from_id(10010);
-  const union _Babl *return_value_babl_component_from_id$72;
-  return_value_babl_component_from_id$72=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$69, return_value_babl_type_from_id$70, return_value_babl_component_from_id$71, return_value_babl_component_from_id$72, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$73;
-  return_value_babl_model_from_id$73=babl_model_from_id(1009);
-  const union _Babl *return_value_babl_type_from_id$74;
-  return_value_babl_type_from_id$74=babl_type_from_id(102);
-  const union _Babl *return_value_babl_component_from_id$75;
-  return_value_babl_component_from_id$75=babl_component_from_id(10011);
-  const union _Babl *return_value_babl_component_from_id$76;
-  return_value_babl_component_from_id$76=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$73, return_value_babl_type_from_id$74, return_value_babl_component_from_id$75, return_value_babl_component_from_id$76, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$77;
-  return_value_babl_model_from_id$77=babl_model_from_id(1007);
-  const union _Babl *return_value_babl_type_from_id$78;
-  return_value_babl_type_from_id$78=babl_type_from_id(102);
-  const union _Babl *return_value_babl_component_from_id$79;
-  return_value_babl_component_from_id$79=babl_component_from_id(10010);
-  babl_format_new((const void *)return_value_babl_model_from_id$77, return_value_babl_type_from_id$78, return_value_babl_component_from_id$79, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$80;
-  return_value_babl_model_from_id$80=babl_model_from_id(1008);
-  const union _Babl *return_value_babl_type_from_id$81;
-  return_value_babl_type_from_id$81=babl_type_from_id(101);
-  const union _Babl *return_value_babl_component_from_id$82;
-  return_value_babl_component_from_id$82=babl_component_from_id(10010);
-  const union _Babl *return_value_babl_component_from_id$83;
-  return_value_babl_component_from_id$83=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$80, return_value_babl_type_from_id$81, return_value_babl_component_from_id$82, return_value_babl_component_from_id$83, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$84;
-  return_value_babl_model_from_id$84=babl_model_from_id(1009);
-  const union _Babl *return_value_babl_type_from_id$85;
-  return_value_babl_type_from_id$85=babl_type_from_id(101);
-  const union _Babl *return_value_babl_component_from_id$86;
-  return_value_babl_component_from_id$86=babl_component_from_id(10011);
-  const union _Babl *return_value_babl_component_from_id$87;
-  return_value_babl_component_from_id$87=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$84, return_value_babl_type_from_id$85, return_value_babl_component_from_id$86, return_value_babl_component_from_id$87, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$88;
-  return_value_babl_model_from_id$88=babl_model_from_id(1007);
-  const union _Babl *return_value_babl_type_from_id$89;
-  return_value_babl_type_from_id$89=babl_type_from_id(101);
-  const union _Babl *return_value_babl_component_from_id$90;
-  return_value_babl_component_from_id$90=babl_component_from_id(10010);
-  babl_format_new((const void *)return_value_babl_model_from_id$88, return_value_babl_type_from_id$89, return_value_babl_component_from_id$90, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$91;
-  return_value_babl_model_from_id$91=babl_model_from_id(1013);
-  const union _Babl *return_value_babl_type_from_id$92;
-  return_value_babl_type_from_id$92=babl_type_from_id(108);
-  const union _Babl *return_value_babl_sampling$93;
-  return_value_babl_sampling$93=babl_sampling(1, 1);
-  const union _Babl *return_value_babl_component_from_id$94;
-  return_value_babl_component_from_id$94=babl_component_from_id(10010);
-  const union _Babl *return_value_babl_type_from_id$95;
-  return_value_babl_type_from_id$95=babl_type_from_id(109);
-  const union _Babl *return_value_babl_sampling$96;
-  return_value_babl_sampling$96=babl_sampling(2, 2);
-  const union _Babl *return_value_babl_component_from_id$97;
-  return_value_babl_component_from_id$97=babl_component_from_id(10024);
-  const union _Babl *return_value_babl_sampling$98;
-  return_value_babl_sampling$98=babl_sampling(2, 2);
-  const union _Babl *return_value_babl_component_from_id$99;
-  return_value_babl_component_from_id$99=babl_component_from_id(10025);
-  babl_format_new((const void *)"name", (const void *)"Y'CbCr u8", (const void *)"planar", return_value_babl_model_from_id$91, return_value_babl_type_from_id$92, return_value_babl_sampling$93, return_value_babl_component_from_id$94, return_value_babl_type_from_id$95, return_value_babl_sampling$96, return_value_babl_component_from_id$97, return_value_babl_sampling$98, return_value_babl_component_from_id$99, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$100;
-  return_value_babl_model_from_id$100=babl_model_from_id(1013);
-  const union _Babl *return_value_babl_type_from_id$101;
-  return_value_babl_type_from_id$101=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$102;
-  return_value_babl_component_from_id$102=babl_component_from_id(10010);
-  const union _Babl *return_value_babl_type_from_id$103;
-  return_value_babl_type_from_id$103=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$104;
-  return_value_babl_component_from_id$104=babl_component_from_id(10024);
-  const union _Babl *return_value_babl_component_from_id$105;
-  return_value_babl_component_from_id$105=babl_component_from_id(10025);
-  babl_format_new((const void *)return_value_babl_model_from_id$100, return_value_babl_type_from_id$101, return_value_babl_component_from_id$102, return_value_babl_type_from_id$103, return_value_babl_component_from_id$104, return_value_babl_component_from_id$105, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$106;
-  return_value_babl_model_from_id$106=babl_model_from_id(1014);
-  const union _Babl *return_value_babl_type_from_id$107;
-  return_value_babl_type_from_id$107=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$108;
-  return_value_babl_component_from_id$108=babl_component_from_id(10010);
-  const union _Babl *return_value_babl_type_from_id$109;
-  return_value_babl_type_from_id$109=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$110;
-  return_value_babl_component_from_id$110=babl_component_from_id(10024);
-  const union _Babl *return_value_babl_component_from_id$111;
-  return_value_babl_component_from_id$111=babl_component_from_id(10025);
-  const union _Babl *return_value_babl_component_from_id$112;
-  return_value_babl_component_from_id$112=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$106, return_value_babl_type_from_id$107, return_value_babl_component_from_id$108, return_value_babl_type_from_id$109, return_value_babl_component_from_id$110, return_value_babl_component_from_id$111, return_value_babl_component_from_id$112, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$113;
-  return_value_babl_model_from_id$113=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_type_from_id$114;
-  return_value_babl_type_from_id$114=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$115;
-  return_value_babl_component_from_id$115=babl_component_from_id(10003);
-  const union _Babl *return_value_babl_component_from_id$116;
-  return_value_babl_component_from_id$116=babl_component_from_id(10004);
-  const union _Babl *return_value_babl_component_from_id$117;
-  return_value_babl_component_from_id$117=babl_component_from_id(10005);
-  const union _Babl *return_value_babl_component_from_id$118;
-  return_value_babl_component_from_id$118=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$113, return_value_babl_type_from_id$114, return_value_babl_component_from_id$115, return_value_babl_component_from_id$116, return_value_babl_component_from_id$117, return_value_babl_component_from_id$118, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$119;
-  return_value_babl_model_from_id$119=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_type_from_id$120;
-  return_value_babl_type_from_id$120=babl_type_from_id(102);
-  const union _Babl *return_value_babl_component_from_id$121;
-  return_value_babl_component_from_id$121=babl_component_from_id(10003);
-  const union _Babl *return_value_babl_component_from_id$122;
-  return_value_babl_component_from_id$122=babl_component_from_id(10004);
-  const union _Babl *return_value_babl_component_from_id$123;
-  return_value_babl_component_from_id$123=babl_component_from_id(10005);
-  const union _Babl *return_value_babl_component_from_id$124;
-  return_value_babl_component_from_id$124=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$119, return_value_babl_type_from_id$120, return_value_babl_component_from_id$121, return_value_babl_component_from_id$122, return_value_babl_component_from_id$123, return_value_babl_component_from_id$124, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$125;
-  return_value_babl_model_from_id$125=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_type_from_id$126;
-  return_value_babl_type_from_id$126=babl_type_from_id(106);
-  const union _Babl *return_value_babl_component_from_id$127;
-  return_value_babl_component_from_id$127=babl_component_from_id(10003);
-  const union _Babl *return_value_babl_component_from_id$128;
-  return_value_babl_component_from_id$128=babl_component_from_id(10004);
-  const union _Babl *return_value_babl_component_from_id$129;
-  return_value_babl_component_from_id$129=babl_component_from_id(10005);
-  const union _Babl *return_value_babl_component_from_id$130;
-  return_value_babl_component_from_id$130=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$125, return_value_babl_type_from_id$126, return_value_babl_component_from_id$127, return_value_babl_component_from_id$128, return_value_babl_component_from_id$129, return_value_babl_component_from_id$130, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$131;
-  return_value_babl_model_from_id$131=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_type_from_id$132;
-  return_value_babl_type_from_id$132=babl_type_from_id(101);
-  const union _Babl *return_value_babl_component_from_id$133;
-  return_value_babl_component_from_id$133=babl_component_from_id(10003);
-  const union _Babl *return_value_babl_component_from_id$134;
-  return_value_babl_component_from_id$134=babl_component_from_id(10004);
-  const union _Babl *return_value_babl_component_from_id$135;
-  return_value_babl_component_from_id$135=babl_component_from_id(10005);
-  const union _Babl *return_value_babl_component_from_id$136;
-  return_value_babl_component_from_id$136=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$131, return_value_babl_type_from_id$132, return_value_babl_component_from_id$133, return_value_babl_component_from_id$134, return_value_babl_component_from_id$135, return_value_babl_component_from_id$136, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$137;
-  return_value_babl_model_from_id$137=babl_model_from_id(1006);
-  const union _Babl *return_value_babl_type_from_id$138;
-  return_value_babl_type_from_id$138=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$139;
-  return_value_babl_component_from_id$139=babl_component_from_id(10007);
-  const union _Babl *return_value_babl_component_from_id$140;
-  return_value_babl_component_from_id$140=babl_component_from_id(10008);
-  const union _Babl *return_value_babl_component_from_id$141;
-  return_value_babl_component_from_id$141=babl_component_from_id(10009);
-  const union _Babl *return_value_babl_component_from_id$142;
-  return_value_babl_component_from_id$142=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$137, return_value_babl_type_from_id$138, return_value_babl_component_from_id$139, return_value_babl_component_from_id$140, return_value_babl_component_from_id$141, return_value_babl_component_from_id$142, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$143;
-  return_value_babl_model_from_id$143=babl_model_from_id(1006);
-  const union _Babl *return_value_babl_type_from_id$144;
-  return_value_babl_type_from_id$144=babl_type_from_id(102);
-  const union _Babl *return_value_babl_component_from_id$145;
-  return_value_babl_component_from_id$145=babl_component_from_id(10007);
-  const union _Babl *return_value_babl_component_from_id$146;
-  return_value_babl_component_from_id$146=babl_component_from_id(10008);
-  const union _Babl *return_value_babl_component_from_id$147;
-  return_value_babl_component_from_id$147=babl_component_from_id(10009);
-  const union _Babl *return_value_babl_component_from_id$148;
-  return_value_babl_component_from_id$148=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$143, return_value_babl_type_from_id$144, return_value_babl_component_from_id$145, return_value_babl_component_from_id$146, return_value_babl_component_from_id$147, return_value_babl_component_from_id$148, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$149;
-  return_value_babl_model_from_id$149=babl_model_from_id(1006);
-  const union _Babl *return_value_babl_type_from_id$150;
-  return_value_babl_type_from_id$150=babl_type_from_id(101);
-  const union _Babl *return_value_babl_component_from_id$151;
-  return_value_babl_component_from_id$151=babl_component_from_id(10007);
-  const union _Babl *return_value_babl_component_from_id$152;
-  return_value_babl_component_from_id$152=babl_component_from_id(10008);
-  const union _Babl *return_value_babl_component_from_id$153;
-  return_value_babl_component_from_id$153=babl_component_from_id(10009);
-  const union _Babl *return_value_babl_component_from_id$154;
-  return_value_babl_component_from_id$154=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$149, return_value_babl_type_from_id$150, return_value_babl_component_from_id$151, return_value_babl_component_from_id$152, return_value_babl_component_from_id$153, return_value_babl_component_from_id$154, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$155;
-  return_value_babl_model_from_id$155=babl_model_from_id(1004);
-  const union _Babl *return_value_babl_type_from_id$156;
-  return_value_babl_type_from_id$156=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$157;
-  return_value_babl_component_from_id$157=babl_component_from_id(10003);
-  const union _Babl *return_value_babl_component_from_id$158;
-  return_value_babl_component_from_id$158=babl_component_from_id(10004);
-  const union _Babl *return_value_babl_component_from_id$159;
-  return_value_babl_component_from_id$159=babl_component_from_id(10005);
-  babl_format_new((const void *)return_value_babl_model_from_id$155, return_value_babl_type_from_id$156, return_value_babl_component_from_id$157, return_value_babl_component_from_id$158, return_value_babl_component_from_id$159, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$160;
-  return_value_babl_model_from_id$160=babl_model_from_id(1004);
-  const union _Babl *return_value_babl_type_from_id$161;
-  return_value_babl_type_from_id$161=babl_type_from_id(102);
-  const union _Babl *return_value_babl_component_from_id$162;
-  return_value_babl_component_from_id$162=babl_component_from_id(10003);
-  const union _Babl *return_value_babl_component_from_id$163;
-  return_value_babl_component_from_id$163=babl_component_from_id(10004);
-  const union _Babl *return_value_babl_component_from_id$164;
-  return_value_babl_component_from_id$164=babl_component_from_id(10005);
-  babl_format_new((const void *)return_value_babl_model_from_id$160, return_value_babl_type_from_id$161, return_value_babl_component_from_id$162, return_value_babl_component_from_id$163, return_value_babl_component_from_id$164, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$165;
-  return_value_babl_model_from_id$165=babl_model_from_id(1004);
-  const union _Babl *return_value_babl_type_from_id$166;
-  return_value_babl_type_from_id$166=babl_type_from_id(101);
-  const union _Babl *return_value_babl_component_from_id$167;
-  return_value_babl_component_from_id$167=babl_component_from_id(10003);
-  const union _Babl *return_value_babl_component_from_id$168;
-  return_value_babl_component_from_id$168=babl_component_from_id(10004);
-  const union _Babl *return_value_babl_component_from_id$169;
-  return_value_babl_component_from_id$169=babl_component_from_id(10005);
-  babl_format_new((const void *)return_value_babl_model_from_id$165, return_value_babl_type_from_id$166, return_value_babl_component_from_id$167, return_value_babl_component_from_id$168, return_value_babl_component_from_id$169, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$170;
-  return_value_babl_model_from_id$170=babl_model_from_id(1002);
-  const union _Babl *return_value_babl_type_from_id$171;
-  return_value_babl_type_from_id$171=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$172;
-  return_value_babl_component_from_id$172=babl_component_from_id(10001);
-  const union _Babl *return_value_babl_component_from_id$173;
-  return_value_babl_component_from_id$173=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$170, return_value_babl_type_from_id$171, return_value_babl_component_from_id$172, return_value_babl_component_from_id$173, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$174;
-  return_value_babl_model_from_id$174=babl_model_from_id(1003);
-  const union _Babl *return_value_babl_type_from_id$175;
-  return_value_babl_type_from_id$175=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$176;
-  return_value_babl_component_from_id$176=babl_component_from_id(10002);
-  const union _Babl *return_value_babl_component_from_id$177;
-  return_value_babl_component_from_id$177=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$174, return_value_babl_type_from_id$175, return_value_babl_component_from_id$176, return_value_babl_component_from_id$177, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$178;
-  return_value_babl_model_from_id$178=babl_model_from_id(1001);
-  const union _Babl *return_value_babl_type_from_id$179;
-  return_value_babl_type_from_id$179=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$180;
-  return_value_babl_component_from_id$180=babl_component_from_id(10001);
-  babl_format_new((const void *)return_value_babl_model_from_id$178, return_value_babl_type_from_id$179, return_value_babl_component_from_id$180, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$181;
-  return_value_babl_model_from_id$181=babl_model_from_id(1002);
-  const union _Babl *return_value_babl_type_from_id$182;
-  return_value_babl_type_from_id$182=babl_type_from_id(102);
-  const union _Babl *return_value_babl_component_from_id$183;
-  return_value_babl_component_from_id$183=babl_component_from_id(10001);
-  const union _Babl *return_value_babl_component_from_id$184;
-  return_value_babl_component_from_id$184=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$181, return_value_babl_type_from_id$182, return_value_babl_component_from_id$183, return_value_babl_component_from_id$184, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$185;
-  return_value_babl_model_from_id$185=babl_model_from_id(1003);
-  const union _Babl *return_value_babl_type_from_id$186;
-  return_value_babl_type_from_id$186=babl_type_from_id(102);
-  const union _Babl *return_value_babl_component_from_id$187;
-  return_value_babl_component_from_id$187=babl_component_from_id(10002);
-  const union _Babl *return_value_babl_component_from_id$188;
-  return_value_babl_component_from_id$188=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$185, return_value_babl_type_from_id$186, return_value_babl_component_from_id$187, return_value_babl_component_from_id$188, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$189;
-  return_value_babl_model_from_id$189=babl_model_from_id(1001);
-  const union _Babl *return_value_babl_type_from_id$190;
-  return_value_babl_type_from_id$190=babl_type_from_id(102);
-  const union _Babl *return_value_babl_component_from_id$191;
-  return_value_babl_component_from_id$191=babl_component_from_id(10001);
-  babl_format_new((const void *)return_value_babl_model_from_id$189, return_value_babl_type_from_id$190, return_value_babl_component_from_id$191, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$192;
-  return_value_babl_model_from_id$192=babl_model_from_id(1002);
-  const union _Babl *return_value_babl_type_from_id$193;
-  return_value_babl_type_from_id$193=babl_type_from_id(101);
-  const union _Babl *return_value_babl_component_from_id$194;
-  return_value_babl_component_from_id$194=babl_component_from_id(10001);
-  const union _Babl *return_value_babl_component_from_id$195;
-  return_value_babl_component_from_id$195=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$192, return_value_babl_type_from_id$193, return_value_babl_component_from_id$194, return_value_babl_component_from_id$195, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$196;
-  return_value_babl_model_from_id$196=babl_model_from_id(1003);
-  const union _Babl *return_value_babl_type_from_id$197;
-  return_value_babl_type_from_id$197=babl_type_from_id(101);
-  const union _Babl *return_value_babl_component_from_id$198;
-  return_value_babl_component_from_id$198=babl_component_from_id(10002);
-  const union _Babl *return_value_babl_component_from_id$199;
-  return_value_babl_component_from_id$199=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$196, return_value_babl_type_from_id$197, return_value_babl_component_from_id$198, return_value_babl_component_from_id$199, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$200;
-  return_value_babl_model_from_id$200=babl_model_from_id(1001);
-  const union _Babl *return_value_babl_type_from_id$201;
-  return_value_babl_type_from_id$201=babl_type_from_id(101);
-  const union _Babl *return_value_babl_component_from_id$202;
-  return_value_babl_component_from_id$202=babl_component_from_id(10001);
-  babl_format_new((const void *)return_value_babl_model_from_id$200, return_value_babl_type_from_id$201, return_value_babl_component_from_id$202, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$203;
-  return_value_babl_model_from_id$203=babl_model_from_id(1013);
-  const union _Babl *return_value_babl_type_from_id$204;
-  return_value_babl_type_from_id$204=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$205;
-  return_value_babl_component_from_id$205=babl_component_from_id(10010);
-  const union _Babl *return_value_babl_type_from_id$206;
-  return_value_babl_type_from_id$206=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$207;
-  return_value_babl_component_from_id$207=babl_component_from_id(10024);
-  const union _Babl *return_value_babl_component_from_id$208;
-  return_value_babl_component_from_id$208=babl_component_from_id(10025);
-  babl_format_new((const void *)return_value_babl_model_from_id$203, return_value_babl_type_from_id$204, return_value_babl_component_from_id$205, return_value_babl_type_from_id$206, return_value_babl_component_from_id$207, return_value_babl_component_from_id$208, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$209;
-  return_value_babl_model_from_id$209=babl_model_from_id(1014);
-  const union _Babl *return_value_babl_type_from_id$210;
-  return_value_babl_type_from_id$210=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$211;
-  return_value_babl_component_from_id$211=babl_component_from_id(10010);
-  const union _Babl *return_value_babl_type_from_id$212;
-  return_value_babl_type_from_id$212=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$213;
-  return_value_babl_component_from_id$213=babl_component_from_id(10024);
-  const union _Babl *return_value_babl_component_from_id$214;
-  return_value_babl_component_from_id$214=babl_component_from_id(10025);
-  const union _Babl *return_value_babl_component_from_id$215;
-  return_value_babl_component_from_id$215=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$209, return_value_babl_type_from_id$210, return_value_babl_component_from_id$211, return_value_babl_type_from_id$212, return_value_babl_component_from_id$213, return_value_babl_component_from_id$214, return_value_babl_component_from_id$215, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_1;
+  return_value_babl_model_from_id_1=babl_model_from_id(1011);
+  const union _Babl *return_value_babl_type_from_id_2;
+  return_value_babl_type_from_id_2=babl_type_from_id(106);
+  const union _Babl *return_value_babl_component_from_id_3;
+  return_value_babl_component_from_id_3=babl_component_from_id(10012);
+  const union _Babl *return_value_babl_component_from_id_4;
+  return_value_babl_component_from_id_4=babl_component_from_id(10013);
+  const union _Babl *return_value_babl_component_from_id_5;
+  return_value_babl_component_from_id_5=babl_component_from_id(10014);
+  const union _Babl *return_value_babl_component_from_id_6;
+  return_value_babl_component_from_id_6=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_1, return_value_babl_type_from_id_2, return_value_babl_component_from_id_3, return_value_babl_component_from_id_4, return_value_babl_component_from_id_5, return_value_babl_component_from_id_6, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_7;
+  return_value_babl_model_from_id_7=babl_model_from_id(1011);
+  const union _Babl *return_value_babl_type_from_id_8;
+  return_value_babl_type_from_id_8=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_9;
+  return_value_babl_component_from_id_9=babl_component_from_id(10012);
+  const union _Babl *return_value_babl_component_from_id_10;
+  return_value_babl_component_from_id_10=babl_component_from_id(10013);
+  const union _Babl *return_value_babl_component_from_id_11;
+  return_value_babl_component_from_id_11=babl_component_from_id(10014);
+  const union _Babl *return_value_babl_component_from_id_12;
+  return_value_babl_component_from_id_12=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_7, return_value_babl_type_from_id_8, return_value_babl_component_from_id_9, return_value_babl_component_from_id_10, return_value_babl_component_from_id_11, return_value_babl_component_from_id_12, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_13;
+  return_value_babl_model_from_id_13=babl_model_from_id(1011);
+  const union _Babl *return_value_babl_type_from_id_14;
+  return_value_babl_type_from_id_14=babl_type_from_id(102);
+  const union _Babl *return_value_babl_component_from_id_15;
+  return_value_babl_component_from_id_15=babl_component_from_id(10012);
+  const union _Babl *return_value_babl_component_from_id_16;
+  return_value_babl_component_from_id_16=babl_component_from_id(10013);
+  const union _Babl *return_value_babl_component_from_id_17;
+  return_value_babl_component_from_id_17=babl_component_from_id(10014);
+  const union _Babl *return_value_babl_component_from_id_18;
+  return_value_babl_component_from_id_18=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_13, return_value_babl_type_from_id_14, return_value_babl_component_from_id_15, return_value_babl_component_from_id_16, return_value_babl_component_from_id_17, return_value_babl_component_from_id_18, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_19;
+  return_value_babl_model_from_id_19=babl_model_from_id(1011);
+  const union _Babl *return_value_babl_type_from_id_20;
+  return_value_babl_type_from_id_20=babl_type_from_id(101);
+  const union _Babl *return_value_babl_component_from_id_21;
+  return_value_babl_component_from_id_21=babl_component_from_id(10012);
+  const union _Babl *return_value_babl_component_from_id_22;
+  return_value_babl_component_from_id_22=babl_component_from_id(10013);
+  const union _Babl *return_value_babl_component_from_id_23;
+  return_value_babl_component_from_id_23=babl_component_from_id(10014);
+  const union _Babl *return_value_babl_component_from_id_24;
+  return_value_babl_component_from_id_24=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_19, return_value_babl_type_from_id_20, return_value_babl_component_from_id_21, return_value_babl_component_from_id_22, return_value_babl_component_from_id_23, return_value_babl_component_from_id_24, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_25;
+  return_value_babl_model_from_id_25=babl_model_from_id(1012);
+  const union _Babl *return_value_babl_type_from_id_26;
+  return_value_babl_type_from_id_26=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_27;
+  return_value_babl_component_from_id_27=babl_component_from_id(10015);
+  const union _Babl *return_value_babl_component_from_id_28;
+  return_value_babl_component_from_id_28=babl_component_from_id(10016);
+  const union _Babl *return_value_babl_component_from_id_29;
+  return_value_babl_component_from_id_29=babl_component_from_id(10017);
+  const union _Babl *return_value_babl_component_from_id_30;
+  return_value_babl_component_from_id_30=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_25, return_value_babl_type_from_id_26, return_value_babl_component_from_id_27, return_value_babl_component_from_id_28, return_value_babl_component_from_id_29, return_value_babl_component_from_id_30, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_31;
+  return_value_babl_model_from_id_31=babl_model_from_id(1012);
+  const union _Babl *return_value_babl_type_from_id_32;
+  return_value_babl_type_from_id_32=babl_type_from_id(102);
+  const union _Babl *return_value_babl_component_from_id_33;
+  return_value_babl_component_from_id_33=babl_component_from_id(10015);
+  const union _Babl *return_value_babl_component_from_id_34;
+  return_value_babl_component_from_id_34=babl_component_from_id(10016);
+  const union _Babl *return_value_babl_component_from_id_35;
+  return_value_babl_component_from_id_35=babl_component_from_id(10017);
+  const union _Babl *return_value_babl_component_from_id_36;
+  return_value_babl_component_from_id_36=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_31, return_value_babl_type_from_id_32, return_value_babl_component_from_id_33, return_value_babl_component_from_id_34, return_value_babl_component_from_id_35, return_value_babl_component_from_id_36, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_37;
+  return_value_babl_model_from_id_37=babl_model_from_id(1012);
+  const union _Babl *return_value_babl_type_from_id_38;
+  return_value_babl_type_from_id_38=babl_type_from_id(101);
+  const union _Babl *return_value_babl_component_from_id_39;
+  return_value_babl_component_from_id_39=babl_component_from_id(10015);
+  const union _Babl *return_value_babl_component_from_id_40;
+  return_value_babl_component_from_id_40=babl_component_from_id(10016);
+  const union _Babl *return_value_babl_component_from_id_41;
+  return_value_babl_component_from_id_41=babl_component_from_id(10017);
+  const union _Babl *return_value_babl_component_from_id_42;
+  return_value_babl_component_from_id_42=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_37, return_value_babl_type_from_id_38, return_value_babl_component_from_id_39, return_value_babl_component_from_id_40, return_value_babl_component_from_id_41, return_value_babl_component_from_id_42, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_43;
+  return_value_babl_model_from_id_43=babl_model_from_id(1010);
+  const union _Babl *return_value_babl_type_from_id_44;
+  return_value_babl_type_from_id_44=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_45;
+  return_value_babl_component_from_id_45=babl_component_from_id(10012);
+  const union _Babl *return_value_babl_component_from_id_46;
+  return_value_babl_component_from_id_46=babl_component_from_id(10013);
+  const union _Babl *return_value_babl_component_from_id_47;
+  return_value_babl_component_from_id_47=babl_component_from_id(10014);
+  babl_format_new((const void *)return_value_babl_model_from_id_43, return_value_babl_type_from_id_44, return_value_babl_component_from_id_45, return_value_babl_component_from_id_46, return_value_babl_component_from_id_47, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_48;
+  return_value_babl_model_from_id_48=babl_model_from_id(1010);
+  const union _Babl *return_value_babl_type_from_id_49;
+  return_value_babl_type_from_id_49=babl_type_from_id(102);
+  const union _Babl *return_value_babl_component_from_id_50;
+  return_value_babl_component_from_id_50=babl_component_from_id(10012);
+  const union _Babl *return_value_babl_component_from_id_51;
+  return_value_babl_component_from_id_51=babl_component_from_id(10013);
+  const union _Babl *return_value_babl_component_from_id_52;
+  return_value_babl_component_from_id_52=babl_component_from_id(10014);
+  babl_format_new((const void *)return_value_babl_model_from_id_48, return_value_babl_type_from_id_49, return_value_babl_component_from_id_50, return_value_babl_component_from_id_51, return_value_babl_component_from_id_52, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_53;
+  return_value_babl_model_from_id_53=babl_model_from_id(1010);
+  const union _Babl *return_value_babl_type_from_id_54;
+  return_value_babl_type_from_id_54=babl_type_from_id(101);
+  const union _Babl *return_value_babl_component_from_id_55;
+  return_value_babl_component_from_id_55=babl_component_from_id(10012);
+  const union _Babl *return_value_babl_component_from_id_56;
+  return_value_babl_component_from_id_56=babl_component_from_id(10013);
+  const union _Babl *return_value_babl_component_from_id_57;
+  return_value_babl_component_from_id_57=babl_component_from_id(10014);
+  babl_format_new((const void *)return_value_babl_model_from_id_53, return_value_babl_type_from_id_54, return_value_babl_component_from_id_55, return_value_babl_component_from_id_56, return_value_babl_component_from_id_57, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_58;
+  return_value_babl_model_from_id_58=babl_model_from_id(1008);
+  const union _Babl *return_value_babl_type_from_id_59;
+  return_value_babl_type_from_id_59=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_60;
+  return_value_babl_component_from_id_60=babl_component_from_id(10010);
+  const union _Babl *return_value_babl_component_from_id_61;
+  return_value_babl_component_from_id_61=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_58, return_value_babl_type_from_id_59, return_value_babl_component_from_id_60, return_value_babl_component_from_id_61, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_62;
+  return_value_babl_model_from_id_62=babl_model_from_id(1009);
+  const union _Babl *return_value_babl_type_from_id_63;
+  return_value_babl_type_from_id_63=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_64;
+  return_value_babl_component_from_id_64=babl_component_from_id(10011);
+  const union _Babl *return_value_babl_component_from_id_65;
+  return_value_babl_component_from_id_65=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_62, return_value_babl_type_from_id_63, return_value_babl_component_from_id_64, return_value_babl_component_from_id_65, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_66;
+  return_value_babl_model_from_id_66=babl_model_from_id(1007);
+  const union _Babl *return_value_babl_type_from_id_67;
+  return_value_babl_type_from_id_67=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_68;
+  return_value_babl_component_from_id_68=babl_component_from_id(10010);
+  babl_format_new((const void *)return_value_babl_model_from_id_66, return_value_babl_type_from_id_67, return_value_babl_component_from_id_68, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_69;
+  return_value_babl_model_from_id_69=babl_model_from_id(1008);
+  const union _Babl *return_value_babl_type_from_id_70;
+  return_value_babl_type_from_id_70=babl_type_from_id(102);
+  const union _Babl *return_value_babl_component_from_id_71;
+  return_value_babl_component_from_id_71=babl_component_from_id(10010);
+  const union _Babl *return_value_babl_component_from_id_72;
+  return_value_babl_component_from_id_72=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_69, return_value_babl_type_from_id_70, return_value_babl_component_from_id_71, return_value_babl_component_from_id_72, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_73;
+  return_value_babl_model_from_id_73=babl_model_from_id(1009);
+  const union _Babl *return_value_babl_type_from_id_74;
+  return_value_babl_type_from_id_74=babl_type_from_id(102);
+  const union _Babl *return_value_babl_component_from_id_75;
+  return_value_babl_component_from_id_75=babl_component_from_id(10011);
+  const union _Babl *return_value_babl_component_from_id_76;
+  return_value_babl_component_from_id_76=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_73, return_value_babl_type_from_id_74, return_value_babl_component_from_id_75, return_value_babl_component_from_id_76, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_77;
+  return_value_babl_model_from_id_77=babl_model_from_id(1007);
+  const union _Babl *return_value_babl_type_from_id_78;
+  return_value_babl_type_from_id_78=babl_type_from_id(102);
+  const union _Babl *return_value_babl_component_from_id_79;
+  return_value_babl_component_from_id_79=babl_component_from_id(10010);
+  babl_format_new((const void *)return_value_babl_model_from_id_77, return_value_babl_type_from_id_78, return_value_babl_component_from_id_79, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_80;
+  return_value_babl_model_from_id_80=babl_model_from_id(1008);
+  const union _Babl *return_value_babl_type_from_id_81;
+  return_value_babl_type_from_id_81=babl_type_from_id(101);
+  const union _Babl *return_value_babl_component_from_id_82;
+  return_value_babl_component_from_id_82=babl_component_from_id(10010);
+  const union _Babl *return_value_babl_component_from_id_83;
+  return_value_babl_component_from_id_83=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_80, return_value_babl_type_from_id_81, return_value_babl_component_from_id_82, return_value_babl_component_from_id_83, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_84;
+  return_value_babl_model_from_id_84=babl_model_from_id(1009);
+  const union _Babl *return_value_babl_type_from_id_85;
+  return_value_babl_type_from_id_85=babl_type_from_id(101);
+  const union _Babl *return_value_babl_component_from_id_86;
+  return_value_babl_component_from_id_86=babl_component_from_id(10011);
+  const union _Babl *return_value_babl_component_from_id_87;
+  return_value_babl_component_from_id_87=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_84, return_value_babl_type_from_id_85, return_value_babl_component_from_id_86, return_value_babl_component_from_id_87, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_88;
+  return_value_babl_model_from_id_88=babl_model_from_id(1007);
+  const union _Babl *return_value_babl_type_from_id_89;
+  return_value_babl_type_from_id_89=babl_type_from_id(101);
+  const union _Babl *return_value_babl_component_from_id_90;
+  return_value_babl_component_from_id_90=babl_component_from_id(10010);
+  babl_format_new((const void *)return_value_babl_model_from_id_88, return_value_babl_type_from_id_89, return_value_babl_component_from_id_90, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_91;
+  return_value_babl_model_from_id_91=babl_model_from_id(1013);
+  const union _Babl *return_value_babl_type_from_id_92;
+  return_value_babl_type_from_id_92=babl_type_from_id(108);
+  const union _Babl *return_value_babl_sampling_93;
+  return_value_babl_sampling_93=babl_sampling(1, 1);
+  const union _Babl *return_value_babl_component_from_id_94;
+  return_value_babl_component_from_id_94=babl_component_from_id(10010);
+  const union _Babl *return_value_babl_type_from_id_95;
+  return_value_babl_type_from_id_95=babl_type_from_id(109);
+  const union _Babl *return_value_babl_sampling_96;
+  return_value_babl_sampling_96=babl_sampling(2, 2);
+  const union _Babl *return_value_babl_component_from_id_97;
+  return_value_babl_component_from_id_97=babl_component_from_id(10024);
+  const union _Babl *return_value_babl_sampling_98;
+  return_value_babl_sampling_98=babl_sampling(2, 2);
+  const union _Babl *return_value_babl_component_from_id_99;
+  return_value_babl_component_from_id_99=babl_component_from_id(10025);
+  babl_format_new((const void *)"name", (const void *)"Y'CbCr u8", (const void *)"planar", return_value_babl_model_from_id_91, return_value_babl_type_from_id_92, return_value_babl_sampling_93, return_value_babl_component_from_id_94, return_value_babl_type_from_id_95, return_value_babl_sampling_96, return_value_babl_component_from_id_97, return_value_babl_sampling_98, return_value_babl_component_from_id_99, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_100;
+  return_value_babl_model_from_id_100=babl_model_from_id(1013);
+  const union _Babl *return_value_babl_type_from_id_101;
+  return_value_babl_type_from_id_101=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_102;
+  return_value_babl_component_from_id_102=babl_component_from_id(10010);
+  const union _Babl *return_value_babl_type_from_id_103;
+  return_value_babl_type_from_id_103=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_104;
+  return_value_babl_component_from_id_104=babl_component_from_id(10024);
+  const union _Babl *return_value_babl_component_from_id_105;
+  return_value_babl_component_from_id_105=babl_component_from_id(10025);
+  babl_format_new((const void *)return_value_babl_model_from_id_100, return_value_babl_type_from_id_101, return_value_babl_component_from_id_102, return_value_babl_type_from_id_103, return_value_babl_component_from_id_104, return_value_babl_component_from_id_105, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_106;
+  return_value_babl_model_from_id_106=babl_model_from_id(1014);
+  const union _Babl *return_value_babl_type_from_id_107;
+  return_value_babl_type_from_id_107=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_108;
+  return_value_babl_component_from_id_108=babl_component_from_id(10010);
+  const union _Babl *return_value_babl_type_from_id_109;
+  return_value_babl_type_from_id_109=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_110;
+  return_value_babl_component_from_id_110=babl_component_from_id(10024);
+  const union _Babl *return_value_babl_component_from_id_111;
+  return_value_babl_component_from_id_111=babl_component_from_id(10025);
+  const union _Babl *return_value_babl_component_from_id_112;
+  return_value_babl_component_from_id_112=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_106, return_value_babl_type_from_id_107, return_value_babl_component_from_id_108, return_value_babl_type_from_id_109, return_value_babl_component_from_id_110, return_value_babl_component_from_id_111, return_value_babl_component_from_id_112, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_113;
+  return_value_babl_model_from_id_113=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_type_from_id_114;
+  return_value_babl_type_from_id_114=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_115;
+  return_value_babl_component_from_id_115=babl_component_from_id(10003);
+  const union _Babl *return_value_babl_component_from_id_116;
+  return_value_babl_component_from_id_116=babl_component_from_id(10004);
+  const union _Babl *return_value_babl_component_from_id_117;
+  return_value_babl_component_from_id_117=babl_component_from_id(10005);
+  const union _Babl *return_value_babl_component_from_id_118;
+  return_value_babl_component_from_id_118=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_113, return_value_babl_type_from_id_114, return_value_babl_component_from_id_115, return_value_babl_component_from_id_116, return_value_babl_component_from_id_117, return_value_babl_component_from_id_118, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_119;
+  return_value_babl_model_from_id_119=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_type_from_id_120;
+  return_value_babl_type_from_id_120=babl_type_from_id(102);
+  const union _Babl *return_value_babl_component_from_id_121;
+  return_value_babl_component_from_id_121=babl_component_from_id(10003);
+  const union _Babl *return_value_babl_component_from_id_122;
+  return_value_babl_component_from_id_122=babl_component_from_id(10004);
+  const union _Babl *return_value_babl_component_from_id_123;
+  return_value_babl_component_from_id_123=babl_component_from_id(10005);
+  const union _Babl *return_value_babl_component_from_id_124;
+  return_value_babl_component_from_id_124=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_119, return_value_babl_type_from_id_120, return_value_babl_component_from_id_121, return_value_babl_component_from_id_122, return_value_babl_component_from_id_123, return_value_babl_component_from_id_124, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_125;
+  return_value_babl_model_from_id_125=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_type_from_id_126;
+  return_value_babl_type_from_id_126=babl_type_from_id(106);
+  const union _Babl *return_value_babl_component_from_id_127;
+  return_value_babl_component_from_id_127=babl_component_from_id(10003);
+  const union _Babl *return_value_babl_component_from_id_128;
+  return_value_babl_component_from_id_128=babl_component_from_id(10004);
+  const union _Babl *return_value_babl_component_from_id_129;
+  return_value_babl_component_from_id_129=babl_component_from_id(10005);
+  const union _Babl *return_value_babl_component_from_id_130;
+  return_value_babl_component_from_id_130=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_125, return_value_babl_type_from_id_126, return_value_babl_component_from_id_127, return_value_babl_component_from_id_128, return_value_babl_component_from_id_129, return_value_babl_component_from_id_130, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_131;
+  return_value_babl_model_from_id_131=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_type_from_id_132;
+  return_value_babl_type_from_id_132=babl_type_from_id(101);
+  const union _Babl *return_value_babl_component_from_id_133;
+  return_value_babl_component_from_id_133=babl_component_from_id(10003);
+  const union _Babl *return_value_babl_component_from_id_134;
+  return_value_babl_component_from_id_134=babl_component_from_id(10004);
+  const union _Babl *return_value_babl_component_from_id_135;
+  return_value_babl_component_from_id_135=babl_component_from_id(10005);
+  const union _Babl *return_value_babl_component_from_id_136;
+  return_value_babl_component_from_id_136=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_131, return_value_babl_type_from_id_132, return_value_babl_component_from_id_133, return_value_babl_component_from_id_134, return_value_babl_component_from_id_135, return_value_babl_component_from_id_136, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_137;
+  return_value_babl_model_from_id_137=babl_model_from_id(1006);
+  const union _Babl *return_value_babl_type_from_id_138;
+  return_value_babl_type_from_id_138=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_139;
+  return_value_babl_component_from_id_139=babl_component_from_id(10007);
+  const union _Babl *return_value_babl_component_from_id_140;
+  return_value_babl_component_from_id_140=babl_component_from_id(10008);
+  const union _Babl *return_value_babl_component_from_id_141;
+  return_value_babl_component_from_id_141=babl_component_from_id(10009);
+  const union _Babl *return_value_babl_component_from_id_142;
+  return_value_babl_component_from_id_142=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_137, return_value_babl_type_from_id_138, return_value_babl_component_from_id_139, return_value_babl_component_from_id_140, return_value_babl_component_from_id_141, return_value_babl_component_from_id_142, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_143;
+  return_value_babl_model_from_id_143=babl_model_from_id(1006);
+  const union _Babl *return_value_babl_type_from_id_144;
+  return_value_babl_type_from_id_144=babl_type_from_id(102);
+  const union _Babl *return_value_babl_component_from_id_145;
+  return_value_babl_component_from_id_145=babl_component_from_id(10007);
+  const union _Babl *return_value_babl_component_from_id_146;
+  return_value_babl_component_from_id_146=babl_component_from_id(10008);
+  const union _Babl *return_value_babl_component_from_id_147;
+  return_value_babl_component_from_id_147=babl_component_from_id(10009);
+  const union _Babl *return_value_babl_component_from_id_148;
+  return_value_babl_component_from_id_148=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_143, return_value_babl_type_from_id_144, return_value_babl_component_from_id_145, return_value_babl_component_from_id_146, return_value_babl_component_from_id_147, return_value_babl_component_from_id_148, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_149;
+  return_value_babl_model_from_id_149=babl_model_from_id(1006);
+  const union _Babl *return_value_babl_type_from_id_150;
+  return_value_babl_type_from_id_150=babl_type_from_id(101);
+  const union _Babl *return_value_babl_component_from_id_151;
+  return_value_babl_component_from_id_151=babl_component_from_id(10007);
+  const union _Babl *return_value_babl_component_from_id_152;
+  return_value_babl_component_from_id_152=babl_component_from_id(10008);
+  const union _Babl *return_value_babl_component_from_id_153;
+  return_value_babl_component_from_id_153=babl_component_from_id(10009);
+  const union _Babl *return_value_babl_component_from_id_154;
+  return_value_babl_component_from_id_154=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_149, return_value_babl_type_from_id_150, return_value_babl_component_from_id_151, return_value_babl_component_from_id_152, return_value_babl_component_from_id_153, return_value_babl_component_from_id_154, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_155;
+  return_value_babl_model_from_id_155=babl_model_from_id(1004);
+  const union _Babl *return_value_babl_type_from_id_156;
+  return_value_babl_type_from_id_156=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_157;
+  return_value_babl_component_from_id_157=babl_component_from_id(10003);
+  const union _Babl *return_value_babl_component_from_id_158;
+  return_value_babl_component_from_id_158=babl_component_from_id(10004);
+  const union _Babl *return_value_babl_component_from_id_159;
+  return_value_babl_component_from_id_159=babl_component_from_id(10005);
+  babl_format_new((const void *)return_value_babl_model_from_id_155, return_value_babl_type_from_id_156, return_value_babl_component_from_id_157, return_value_babl_component_from_id_158, return_value_babl_component_from_id_159, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_160;
+  return_value_babl_model_from_id_160=babl_model_from_id(1004);
+  const union _Babl *return_value_babl_type_from_id_161;
+  return_value_babl_type_from_id_161=babl_type_from_id(102);
+  const union _Babl *return_value_babl_component_from_id_162;
+  return_value_babl_component_from_id_162=babl_component_from_id(10003);
+  const union _Babl *return_value_babl_component_from_id_163;
+  return_value_babl_component_from_id_163=babl_component_from_id(10004);
+  const union _Babl *return_value_babl_component_from_id_164;
+  return_value_babl_component_from_id_164=babl_component_from_id(10005);
+  babl_format_new((const void *)return_value_babl_model_from_id_160, return_value_babl_type_from_id_161, return_value_babl_component_from_id_162, return_value_babl_component_from_id_163, return_value_babl_component_from_id_164, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_165;
+  return_value_babl_model_from_id_165=babl_model_from_id(1004);
+  const union _Babl *return_value_babl_type_from_id_166;
+  return_value_babl_type_from_id_166=babl_type_from_id(101);
+  const union _Babl *return_value_babl_component_from_id_167;
+  return_value_babl_component_from_id_167=babl_component_from_id(10003);
+  const union _Babl *return_value_babl_component_from_id_168;
+  return_value_babl_component_from_id_168=babl_component_from_id(10004);
+  const union _Babl *return_value_babl_component_from_id_169;
+  return_value_babl_component_from_id_169=babl_component_from_id(10005);
+  babl_format_new((const void *)return_value_babl_model_from_id_165, return_value_babl_type_from_id_166, return_value_babl_component_from_id_167, return_value_babl_component_from_id_168, return_value_babl_component_from_id_169, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_170;
+  return_value_babl_model_from_id_170=babl_model_from_id(1002);
+  const union _Babl *return_value_babl_type_from_id_171;
+  return_value_babl_type_from_id_171=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_172;
+  return_value_babl_component_from_id_172=babl_component_from_id(10001);
+  const union _Babl *return_value_babl_component_from_id_173;
+  return_value_babl_component_from_id_173=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_170, return_value_babl_type_from_id_171, return_value_babl_component_from_id_172, return_value_babl_component_from_id_173, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_174;
+  return_value_babl_model_from_id_174=babl_model_from_id(1003);
+  const union _Babl *return_value_babl_type_from_id_175;
+  return_value_babl_type_from_id_175=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_176;
+  return_value_babl_component_from_id_176=babl_component_from_id(10002);
+  const union _Babl *return_value_babl_component_from_id_177;
+  return_value_babl_component_from_id_177=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_174, return_value_babl_type_from_id_175, return_value_babl_component_from_id_176, return_value_babl_component_from_id_177, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_178;
+  return_value_babl_model_from_id_178=babl_model_from_id(1001);
+  const union _Babl *return_value_babl_type_from_id_179;
+  return_value_babl_type_from_id_179=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_180;
+  return_value_babl_component_from_id_180=babl_component_from_id(10001);
+  babl_format_new((const void *)return_value_babl_model_from_id_178, return_value_babl_type_from_id_179, return_value_babl_component_from_id_180, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_181;
+  return_value_babl_model_from_id_181=babl_model_from_id(1002);
+  const union _Babl *return_value_babl_type_from_id_182;
+  return_value_babl_type_from_id_182=babl_type_from_id(102);
+  const union _Babl *return_value_babl_component_from_id_183;
+  return_value_babl_component_from_id_183=babl_component_from_id(10001);
+  const union _Babl *return_value_babl_component_from_id_184;
+  return_value_babl_component_from_id_184=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_181, return_value_babl_type_from_id_182, return_value_babl_component_from_id_183, return_value_babl_component_from_id_184, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_185;
+  return_value_babl_model_from_id_185=babl_model_from_id(1003);
+  const union _Babl *return_value_babl_type_from_id_186;
+  return_value_babl_type_from_id_186=babl_type_from_id(102);
+  const union _Babl *return_value_babl_component_from_id_187;
+  return_value_babl_component_from_id_187=babl_component_from_id(10002);
+  const union _Babl *return_value_babl_component_from_id_188;
+  return_value_babl_component_from_id_188=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_185, return_value_babl_type_from_id_186, return_value_babl_component_from_id_187, return_value_babl_component_from_id_188, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_189;
+  return_value_babl_model_from_id_189=babl_model_from_id(1001);
+  const union _Babl *return_value_babl_type_from_id_190;
+  return_value_babl_type_from_id_190=babl_type_from_id(102);
+  const union _Babl *return_value_babl_component_from_id_191;
+  return_value_babl_component_from_id_191=babl_component_from_id(10001);
+  babl_format_new((const void *)return_value_babl_model_from_id_189, return_value_babl_type_from_id_190, return_value_babl_component_from_id_191, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_192;
+  return_value_babl_model_from_id_192=babl_model_from_id(1002);
+  const union _Babl *return_value_babl_type_from_id_193;
+  return_value_babl_type_from_id_193=babl_type_from_id(101);
+  const union _Babl *return_value_babl_component_from_id_194;
+  return_value_babl_component_from_id_194=babl_component_from_id(10001);
+  const union _Babl *return_value_babl_component_from_id_195;
+  return_value_babl_component_from_id_195=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_192, return_value_babl_type_from_id_193, return_value_babl_component_from_id_194, return_value_babl_component_from_id_195, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_196;
+  return_value_babl_model_from_id_196=babl_model_from_id(1003);
+  const union _Babl *return_value_babl_type_from_id_197;
+  return_value_babl_type_from_id_197=babl_type_from_id(101);
+  const union _Babl *return_value_babl_component_from_id_198;
+  return_value_babl_component_from_id_198=babl_component_from_id(10002);
+  const union _Babl *return_value_babl_component_from_id_199;
+  return_value_babl_component_from_id_199=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_196, return_value_babl_type_from_id_197, return_value_babl_component_from_id_198, return_value_babl_component_from_id_199, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_200;
+  return_value_babl_model_from_id_200=babl_model_from_id(1001);
+  const union _Babl *return_value_babl_type_from_id_201;
+  return_value_babl_type_from_id_201=babl_type_from_id(101);
+  const union _Babl *return_value_babl_component_from_id_202;
+  return_value_babl_component_from_id_202=babl_component_from_id(10001);
+  babl_format_new((const void *)return_value_babl_model_from_id_200, return_value_babl_type_from_id_201, return_value_babl_component_from_id_202, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_203;
+  return_value_babl_model_from_id_203=babl_model_from_id(1013);
+  const union _Babl *return_value_babl_type_from_id_204;
+  return_value_babl_type_from_id_204=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_205;
+  return_value_babl_component_from_id_205=babl_component_from_id(10010);
+  const union _Babl *return_value_babl_type_from_id_206;
+  return_value_babl_type_from_id_206=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_207;
+  return_value_babl_component_from_id_207=babl_component_from_id(10024);
+  const union _Babl *return_value_babl_component_from_id_208;
+  return_value_babl_component_from_id_208=babl_component_from_id(10025);
+  babl_format_new((const void *)return_value_babl_model_from_id_203, return_value_babl_type_from_id_204, return_value_babl_component_from_id_205, return_value_babl_type_from_id_206, return_value_babl_component_from_id_207, return_value_babl_component_from_id_208, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_209;
+  return_value_babl_model_from_id_209=babl_model_from_id(1014);
+  const union _Babl *return_value_babl_type_from_id_210;
+  return_value_babl_type_from_id_210=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_211;
+  return_value_babl_component_from_id_211=babl_component_from_id(10010);
+  const union _Babl *return_value_babl_type_from_id_212;
+  return_value_babl_type_from_id_212=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_213;
+  return_value_babl_component_from_id_213=babl_component_from_id(10024);
+  const union _Babl *return_value_babl_component_from_id_214;
+  return_value_babl_component_from_id_214=babl_component_from_id(10025);
+  const union _Babl *return_value_babl_component_from_id_215;
+  return_value_babl_component_from_id_215=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_209, return_value_babl_type_from_id_210, return_value_babl_component_from_id_211, return_value_babl_type_from_id_212, return_value_babl_component_from_id_213, return_value_babl_component_from_id_214, return_value_babl_component_from_id_215, (void *)0);
 }
 
 // babl_free
@@ -5438,29 +5438,29 @@ void babl_free(void *ptr, ...)
   signed int return_value;
   if(!(ptr == NULL))
   {
-    if(!(((struct anonymous$12 *)((void **)ptr)[-1l])->signature == signature))
+    if(!(((struct anonymous_12 *)((void **)ptr)[-1l])->signature == signature))
     {
       if(!(freed == ((char *)NULL)))
         do
         {
-          real_babl_log$link15("babl-memory.c", 186, (const char *)"babl_free", "\nbabl:double free detected\n------------------------");
+          real_babl_log_link15("babl-memory.c", 186, (const char *)"babl_free", "\nbabl:double free detected\n------------------------");
           babl_die();
         }
         while((_Bool)0);
 
       do
       {
-        real_babl_log$link15("babl-memory.c", 187, (const char *)"babl_free", "memory not allocated by babl allocator");
+        real_babl_log_link15("babl-memory.c", 187, (const char *)"babl_free", "memory not allocated by babl allocator");
         babl_die();
       }
       while((_Bool)0);
     }
 
-    if(!(((struct anonymous$12 *)((void **)ptr)[-1l])->destructor == ((signed int (*)(void *))NULL)))
-      return_value=((struct anonymous$12 *)*((void **)ptr - (signed long int)1))->destructor(ptr);
+    if(!(((struct anonymous_12 *)((void **)ptr)[-1l])->destructor == ((signed int (*)(void *))NULL)))
+      return_value=((struct anonymous_12 *)*((void **)ptr - (signed long int)1))->destructor(ptr);
 
-    ((struct anonymous$12 *)*((void **)ptr - (signed long int)1))->signature = freed;
-    free_f((void *)(struct anonymous$12 *)*((void **)ptr - (signed long int)1));
+    ((struct anonymous_12 *)*((void **)ptr - (signed long int)1))->signature = freed;
+    free_f((void *)(struct anonymous_12 *)*((void **)ptr - (signed long int)1));
   }
 
 }
@@ -5490,41 +5490,41 @@ const double * babl_get_model_test_pixels(void)
 // file ../babl/babl.h line 117
 const char * babl_get_name(const union _Babl *babl)
 {
-  signed int tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  signed int tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   do
   {
     if(babl == ((const union _Babl *)NULL))
-      tmp_if_expr$4 = 0;
+      tmp_if_expr_4 = 0;
 
     else
     {
       if(babl->class_type >= 12235008)
-        tmp_if_expr$3 = ((union _Babl *)babl)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = ((union _Babl *)babl)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? 1 : 0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? 1 : 0;
     }
-    if(tmp_if_expr$4 == 0)
+    if(tmp_if_expr_4 == 0)
     {
-      real_babl_log$link12("babl-internal.c", 108, (const char *)"babl_get_name", "Eeeeek! Assertion failed: `BABL_IS_BABL (babl)`");
+      real_babl_log_link12("babl-internal.c", 108, (const char *)"babl_get_name", "Eeeeek! Assertion failed: `BABL_IS_BABL (babl)`");
       if(babl == ((const union _Babl *)NULL))
-        tmp_if_expr$2 = 0;
+        tmp_if_expr_2 = 0;
 
       else
       {
         if(babl->class_type >= 12235008)
-          tmp_if_expr$1 = ((union _Babl *)babl)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = ((union _Babl *)babl)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        tmp_if_expr$2 = tmp_if_expr$1 ? 1 : 0;
+          tmp_if_expr_1 = (_Bool)0;
+        tmp_if_expr_2 = tmp_if_expr_1 ? 1 : 0;
       }
       /* assertion (((void *)0)==(babl)?0 :( ((((Babl*)(babl))->class_type)>=BABL_INSTANCE ) && ((((Babl*)(babl))->class_type)<=BABL_SKY) ?1:0 ) ) */
-      assert(tmp_if_expr$2 != 0);
+      assert(tmp_if_expr_2 != 0);
     }
 
   }
@@ -5595,13 +5595,13 @@ void * babl_get_user_data(const union _Babl *babl)
     {
       do
       {
-        real_babl_log$link9("babl-format.c", 619, (const char *)"babl_get_user_data", "babl_get_user_data called on non-model/format");
+        real_babl_log_link9("babl-format.c", 619, (const char *)"babl_get_user_data", "babl_get_user_data called on non-model/format");
         babl_die();
       }
       while((_Bool)0);
       do
       {
-        real_babl_log$link9("babl-format.c", 621, (const char *)"babl_get_user_data", "eeeek");
+        real_babl_log_link9("babl-format.c", 621, (const char *)"babl_get_user_data", "eeeek");
         babl_die();
       }
       while((_Bool)0);
@@ -5649,12 +5649,12 @@ signed int babl_hash_by_int(struct _BablHashTable *htab, signed int id)
 signed int babl_hash_by_str(struct _BablHashTable *htab, const char *str)
 {
   signed int hash = 0;
-  const char *tmp_post$1;
+  const char *tmp_post_1;
   for( ; !(*str == 0); hash = hash ^ hash >> 6)
   {
-    tmp_post$1 = str;
+    tmp_post_1 = str;
     str = str + 1l;
-    hash = hash + (signed int)*tmp_post$1;
+    hash = hash + (signed int)*tmp_post_1;
     hash = hash + (hash << 10);
   }
   hash = hash + (hash << 3);
@@ -5682,7 +5682,7 @@ union _Babl * babl_hash_table_find(struct _BablHashTable *htab, signed int hash,
   do
     if(htab == ((struct _BablHashTable *)NULL))
     {
-      real_babl_log$link10("babl-hash-table.c", 206, (const char *)"babl_hash_table_find", "Eeeeek! Assertion failed: `htab`");
+      real_babl_log_link10("babl-hash-table.c", 206, (const char *)"babl_hash_table_find", "Eeeeek! Assertion failed: `htab`");
       /* assertion htab */
       assert(htab != ((struct _BablHashTable *)NULL));
     }
@@ -5728,7 +5728,7 @@ struct _BablHashTable * babl_hash_table_init(signed int (*hfunc)(struct _BablHas
   do
     if(hfunc == ((signed int (*)(struct _BablHashTable *, union _Babl *))NULL))
     {
-      real_babl_log$link10("babl-hash-table.c", 163, (const char *)"babl_hash_table_init", "Eeeeek! Assertion failed: `hfunc`");
+      real_babl_log_link10("babl-hash-table.c", 163, (const char *)"babl_hash_table_init", "Eeeeek! Assertion failed: `hfunc`");
       /* assertion hfunc */
       assert(hfunc != ((signed int (*)(struct _BablHashTable *, union _Babl *))NULL));
     }
@@ -5737,15 +5737,15 @@ struct _BablHashTable * babl_hash_table_init(signed int (*hfunc)(struct _BablHas
   do
     if(ffunc == ((signed int (*)(union _Babl *, void *))NULL))
     {
-      real_babl_log$link10("babl-hash-table.c", 164, (const char *)"babl_hash_table_init", "Eeeeek! Assertion failed: `ffunc`");
+      real_babl_log_link10("babl-hash-table.c", 164, (const char *)"babl_hash_table_init", "Eeeeek! Assertion failed: `ffunc`");
       /* assertion ffunc */
       assert(ffunc != ((signed int (*)(union _Babl *, void *))NULL));
     }
 
   while((_Bool)0);
-  void *return_value_babl_calloc$1;
-  return_value_babl_calloc$1=babl_calloc(sizeof(struct _BablHashTable) /*40ul*/ , (unsigned long int)1);
-  htab = (struct _BablHashTable *)return_value_babl_calloc$1;
+  void *return_value_babl_calloc_1;
+  return_value_babl_calloc_1=babl_calloc(sizeof(struct _BablHashTable) /*40ul*/ , (unsigned long int)1);
+  htab = (struct _BablHashTable *)return_value_babl_calloc_1;
   babl_set_destructor((void *)htab, babl_hash_table_destroy);
   htab->data_table = (union _Babl **)(void *)0;
   htab->chain_table = (signed int *)(void *)0;
@@ -5755,19 +5755,19 @@ struct _BablHashTable * babl_hash_table_init(signed int (*hfunc)(struct _BablHas
   htab->find_func = ffunc;
   if(!(htab->mask == 0))
   {
-    signed int return_value_babl_hash_table_size$2;
-    return_value_babl_hash_table_size$2=babl_hash_table_size(htab);
-    void *return_value_babl_calloc$3;
-    return_value_babl_calloc$3=babl_calloc(sizeof(struct anonymous$3 *) /*8ul*/ , (unsigned long int)return_value_babl_hash_table_size$2);
-    htab->data_table = (union _Babl **)return_value_babl_calloc$3;
-    signed int return_value_babl_hash_table_size$4;
-    return_value_babl_hash_table_size$4=babl_hash_table_size(htab);
-    void *return_value_babl_malloc$5;
-    return_value_babl_malloc$5=babl_malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)return_value_babl_hash_table_size$4);
-    htab->chain_table = (signed int *)return_value_babl_malloc$5;
-    signed int return_value_babl_hash_table_size$6;
-    return_value_babl_hash_table_size$6=babl_hash_table_size(htab);
-    memset((void *)htab->chain_table, -1, sizeof(signed int) /*4ul*/  * (unsigned long int)return_value_babl_hash_table_size$6);
+    signed int return_value_babl_hash_table_size_2;
+    return_value_babl_hash_table_size_2=babl_hash_table_size(htab);
+    void *return_value_babl_calloc_3;
+    return_value_babl_calloc_3=babl_calloc(sizeof(struct anonymous_3 *) /*8ul*/ , (unsigned long int)return_value_babl_hash_table_size_2);
+    htab->data_table = (union _Babl **)return_value_babl_calloc_3;
+    signed int return_value_babl_hash_table_size_4;
+    return_value_babl_hash_table_size_4=babl_hash_table_size(htab);
+    void *return_value_babl_malloc_5;
+    return_value_babl_malloc_5=babl_malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)return_value_babl_hash_table_size_4);
+    htab->chain_table = (signed int *)return_value_babl_malloc_5;
+    signed int return_value_babl_hash_table_size_6;
+    return_value_babl_hash_table_size_6=babl_hash_table_size(htab);
+    memset((void *)htab->chain_table, -1, sizeof(signed int) /*4ul*/  * (unsigned long int)return_value_babl_hash_table_size_6);
   }
 
   return htab;
@@ -5780,59 +5780,59 @@ signed int babl_hash_table_insert(struct _BablHashTable *htab, union _Babl *item
   do
     if(htab == ((struct _BablHashTable *)NULL))
     {
-      real_babl_log$link10("babl-hash-table.c", 189, (const char *)"babl_hash_table_insert", "Eeeeek! Assertion failed: `htab`");
+      real_babl_log_link10("babl-hash-table.c", 189, (const char *)"babl_hash_table_insert", "Eeeeek! Assertion failed: `htab`");
       /* assertion htab */
       assert(htab != ((struct _BablHashTable *)NULL));
     }
 
   while((_Bool)0);
-  signed int tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  signed int tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   do
   {
     if(item == ((union _Babl *)NULL))
-      tmp_if_expr$4 = 0;
+      tmp_if_expr_4 = 0;
 
     else
     {
       if(item->class_type >= 12235008)
-        tmp_if_expr$3 = ((union _Babl *)item)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = ((union _Babl *)item)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? 1 : 0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? 1 : 0;
     }
-    if(tmp_if_expr$4 == 0)
+    if(tmp_if_expr_4 == 0)
     {
-      real_babl_log$link10("babl-hash-table.c", 190, (const char *)"babl_hash_table_insert", "Eeeeek! Assertion failed: `BABL_IS_BABL(item)`");
+      real_babl_log_link10("babl-hash-table.c", 190, (const char *)"babl_hash_table_insert", "Eeeeek! Assertion failed: `BABL_IS_BABL(item)`");
       if(item == ((union _Babl *)NULL))
-        tmp_if_expr$2 = 0;
+        tmp_if_expr_2 = 0;
 
       else
       {
         if(item->class_type >= 12235008)
-          tmp_if_expr$1 = ((union _Babl *)item)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = ((union _Babl *)item)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        tmp_if_expr$2 = tmp_if_expr$1 ? 1 : 0;
+          tmp_if_expr_1 = (_Bool)0;
+        tmp_if_expr_2 = tmp_if_expr_1 ? 1 : 0;
       }
       /* assertion (((void *)0)==(item)?0 :( ((((Babl*)(item))->class_type)>=BABL_INSTANCE ) && ((((Babl*)(item))->class_type)<=BABL_SKY) ?1:0 ) ) */
-      assert(tmp_if_expr$2 != 0);
+      assert(tmp_if_expr_2 != 0);
     }
 
   }
   while((_Bool)0);
-  signed int return_value_babl_hash_table_size$5;
-  return_value_babl_hash_table_size$5=babl_hash_table_size(htab);
-  if(!(return_value_babl_hash_table_size$5 >= 1 + htab->count))
+  signed int return_value_babl_hash_table_size_5;
+  return_value_babl_hash_table_size_5=babl_hash_table_size(htab);
+  if(!(return_value_babl_hash_table_size_5 >= 1 + htab->count))
     hash_rehash(htab);
 
-  signed int return_value_hash_insert$6;
-  return_value_hash_insert$6=hash_insert(htab, item);
-  return return_value_hash_insert$6;
+  signed int return_value_hash_insert_6;
+  return_value_hash_insert_6=hash_insert(htab, item);
+  return return_value_hash_insert_6;
 }
 
 // babl_hash_table_size
@@ -5846,8 +5846,8 @@ signed int babl_hash_table_size(struct _BablHashTable *htab)
 // file babl-image.c line 25
 static signed int babl_image_destruct(void *babl)
 {
-  struct anonymous$4 *format = ((union _Babl *)babl)->image.format;
-  if(!(format == ((struct anonymous$4 *)NULL)))
+  struct anonymous_4 *format = ((union _Babl *)babl)->image.format;
+  if(!(format == ((struct anonymous_4 *)NULL)))
   {
     if(!(format->image_template == NULL))
       goto __CPROVER_DUMP_L1;
@@ -5871,12 +5871,12 @@ union _Babl * babl_image_from_linear(char *buffer, const union _Babl *cformat)
 {
   union _Babl *format = (union _Babl *)cformat;
   union _Babl *babl;
-  struct anonymous$0 *model = (struct anonymous$0 *)(void *)0;
-  signed int babl_image_from_linear$$1$$components = 0;
+  struct anonymous_0 *model = (struct anonymous_0 *)(void *)0;
+  signed int babl_image_from_linear__1__components = 0;
   signed int i;
-  struct anonymous$1 *component[32l];
+  struct anonymous_1 *component[32l];
   struct anonymous *sampling[32l];
-  struct anonymous$2 *type[32l];
+  struct anonymous_2 *type[32l];
   char *data[32l];
   signed int pitch[32l];
   signed int stride[32l];
@@ -5885,31 +5885,31 @@ union _Babl * babl_image_from_linear(char *buffer, const union _Babl *cformat)
   do
     if(format == ((union _Babl *)NULL))
     {
-      real_babl_log$link11("babl-image.c", 100, (const char *)"babl_image_from_linear", "Eeeeek! Assertion failed: `format`");
+      real_babl_log_link11("babl-image.c", 100, (const char *)"babl_image_from_linear", "Eeeeek! Assertion failed: `format`");
       /* assertion format */
       assert(format != ((union _Babl *)NULL));
     }
 
   while((_Bool)0);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   do
   {
     if(format->class_type == 12235015)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = format->class_type == 12235014 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = format->class_type == 12235014 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_2)
     {
-      real_babl_log$link11("babl-image.c", 102, (const char *)"babl_image_from_linear", "Eeeeek! Assertion failed: `format->class_type == BABL_FORMAT || format->class_type == BABL_MODEL`");
+      real_babl_log_link11("babl-image.c", 102, (const char *)"babl_image_from_linear", "Eeeeek! Assertion failed: `format->class_type == BABL_FORMAT || format->class_type == BABL_MODEL`");
       if(format->class_type == 12235015)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = format->class_type == 12235014 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = format->class_type == 12235014 ? (_Bool)1 : (_Bool)0;
       /* assertion format->class_type == BABL_FORMAT || format->class_type == BABL_MODEL */
-      assert(tmp_if_expr$1);
+      assert(tmp_if_expr_1);
     }
 
   }
@@ -5918,13 +5918,13 @@ union _Babl * babl_image_from_linear(char *buffer, const union _Babl *cformat)
   {
     case 12235015:
     {
-      babl_image_from_linear$$1$$components = format->format.components;
+      babl_image_from_linear__1__components = format->format.components;
       if(!(format->format.image_template == NULL))
       {
         babl = (union _Babl *)format->format.image_template;
         format->format.image_template = (void *)0;
         i = 0;
-        for( ; !(i >= babl_image_from_linear$$1$$components); i = i + 1)
+        for( ; !(i >= babl_image_from_linear__1__components); i = i + 1)
         {
           babl->image.data[(signed long int)i] = buffer + (signed long int)offset;
           offset = offset + format->format.type[(signed long int)i]->bits / 8;
@@ -5932,15 +5932,15 @@ union _Babl * babl_image_from_linear(char *buffer, const union _Babl *cformat)
         return babl;
       }
 
-      model = (struct anonymous$0 *)format->format.model;
-      memcpy((void *)component, (const void *)format->format.component, sizeof(union _Babl *) /*8ul*/  * (unsigned long int)babl_image_from_linear$$1$$components);
-      memcpy((void *)sampling, (const void *)format->format.sampling, sizeof(union _Babl *) /*8ul*/  * (unsigned long int)babl_image_from_linear$$1$$components);
-      memcpy((void *)type, (const void *)format->format.type, sizeof(union _Babl *) /*8ul*/  * (unsigned long int)babl_image_from_linear$$1$$components);
+      model = (struct anonymous_0 *)format->format.model;
+      memcpy((void *)component, (const void *)format->format.component, sizeof(union _Babl *) /*8ul*/  * (unsigned long int)babl_image_from_linear__1__components);
+      memcpy((void *)sampling, (const void *)format->format.sampling, sizeof(union _Babl *) /*8ul*/  * (unsigned long int)babl_image_from_linear__1__components);
+      memcpy((void *)type, (const void *)format->format.type, sizeof(union _Babl *) /*8ul*/  * (unsigned long int)babl_image_from_linear__1__components);
       i = 0;
-      for( ; !(i >= babl_image_from_linear$$1$$components); i = i + 1)
+      for( ; !(i >= babl_image_from_linear__1__components); i = i + 1)
         calc_pitch = calc_pitch + type[(signed long int)i]->bits / 8;
       i = 0;
-      for( ; !(i >= babl_image_from_linear$$1$$components); i = i + 1)
+      for( ; !(i >= babl_image_from_linear__1__components); i = i + 1)
       {
         pitch[(signed long int)i] = calc_pitch;
         stride[(signed long int)i] = 0;
@@ -5951,21 +5951,21 @@ union _Babl * babl_image_from_linear(char *buffer, const union _Babl *cformat)
     }
     case 12235014:
     {
-      model = (struct anonymous$0 *)format;
-      babl_image_from_linear$$1$$components = format->format.components;
+      model = (struct anonymous_0 *)format;
+      babl_image_from_linear__1__components = format->format.components;
       i = 0;
-      for( ; !(i >= babl_image_from_linear$$1$$components); i = i + 1)
+      for( ; !(i >= babl_image_from_linear__1__components); i = i + 1)
         calc_pitch = calc_pitch + 64 / 8;
-      memcpy((void *)component, (const void *)model->component, sizeof(union _Babl *) /*8ul*/  * (unsigned long int)babl_image_from_linear$$1$$components);
+      memcpy((void *)component, (const void *)model->component, sizeof(union _Babl *) /*8ul*/  * (unsigned long int)babl_image_from_linear__1__components);
       i = 0;
-      for( ; !(i >= babl_image_from_linear$$1$$components); i = i + 1)
+      for( ; !(i >= babl_image_from_linear__1__components); i = i + 1)
       {
-        const union _Babl *return_value_babl_sampling$3;
-        return_value_babl_sampling$3=babl_sampling(1, 1);
-        sampling[(signed long int)i] = (struct anonymous *)return_value_babl_sampling$3;
-        const union _Babl *return_value_babl_type_from_id$4;
-        return_value_babl_type_from_id$4=babl_type_from_id(106);
-        type[(signed long int)i] = (struct anonymous$2 *)return_value_babl_type_from_id$4;
+        const union _Babl *return_value_babl_sampling_3;
+        return_value_babl_sampling_3=babl_sampling(1, 1);
+        sampling[(signed long int)i] = (struct anonymous *)return_value_babl_sampling_3;
+        const union _Babl *return_value_babl_type_from_id_4;
+        return_value_babl_type_from_id_4=babl_type_from_id(106);
+        type[(signed long int)i] = (struct anonymous_2 *)return_value_babl_type_from_id_4;
         pitch[(signed long int)i] = calc_pitch;
         stride[(signed long int)i] = 0;
         data[(signed long int)i] = buffer + (signed long int)offset;
@@ -5974,9 +5974,9 @@ union _Babl * babl_image_from_linear(char *buffer, const union _Babl *cformat)
       break;
     }
     default:
-      real_babl_log$link11("babl-image.c", 161, (const char *)"babl_image_from_linear", "Eeeek!");
+      real_babl_log_link11("babl-image.c", 161, (const char *)"babl_image_from_linear", "Eeeek!");
   }
-  babl=image_new((void *)format != (void *)model ? (struct anonymous$4 *)format : (struct anonymous$4 *)(void *)0, model, babl_image_from_linear$$1$$components, component, sampling, type, data, pitch, stride);
+  babl=image_new((void *)format != (void *)model ? (struct anonymous_4 *)format : (struct anonymous_4 *)(void *)0, model, babl_image_from_linear__1__components, component, sampling, type, data, pitch, stride);
   return babl;
 }
 
@@ -5985,49 +5985,49 @@ union _Babl * babl_image_from_linear(char *buffer, const union _Babl *cformat)
 union _Babl * babl_image_new(const void *first, ...)
 {
   __builtin_va_list varg;
-  union _Babl *babl_image_new$$1$$babl;
-  signed int babl_image_new$$1$$components = 0;
-  struct anonymous$4 *format = (struct anonymous$4 *)(void *)0;
-  struct anonymous$0 *model = (struct anonymous$0 *)(void *)0;
-  struct anonymous$1 *component[32l];
+  union _Babl *babl_image_new__1__babl;
+  signed int babl_image_new__1__components = 0;
+  struct anonymous_4 *format = (struct anonymous_4 *)(void *)0;
+  struct anonymous_0 *model = (struct anonymous_0 *)(void *)0;
+  struct anonymous_1 *component[32l];
   struct anonymous *sampling[32l];
-  struct anonymous$2 *type[32l];
+  struct anonymous_2 *type[32l];
   char *data[32l];
   signed int pitch[32l];
   signed int stride[32l];
   const char *arg = (const char *)first;
   va_start(varg, first);
-  signed int tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
+  signed int tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
   while((_Bool)1)
   {
-    struct anonymous$1 *new_component = (struct anonymous$1 *)(void *)0;
+    struct anonymous_1 *new_component = (struct anonymous_1 *)(void *)0;
     if(arg == ((const char *)NULL))
       break;
 
     if(arg == ((const char *)NULL))
-      tmp_if_expr$4 = 0;
+      tmp_if_expr_4 = 0;
 
     else
     {
       if(((union _Babl *)arg)->class_type >= 12235008)
-        tmp_if_expr$3 = ((union _Babl *)arg)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = ((union _Babl *)arg)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? 1 : 0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? 1 : 0;
     }
-    if(!(tmp_if_expr$4 == 0))
+    if(!(tmp_if_expr_4 == 0))
     {
       union _Babl *babl = (union _Babl *)arg;
       if(babl->class_type == 12235013)
-        new_component = (struct anonymous$1 *)babl;
+        new_component = (struct anonymous_1 *)babl;
 
       else
       {
-        const char *return_value_babl_class_name$1;
-        return_value_babl_class_name$1=babl_class_name(babl->class_type);
-        real_babl_log$link11("babl-image.c", 208, (const char *)"babl_image_new", "%s unexpected", return_value_babl_class_name$1);
+        const char *return_value_babl_class_name_1;
+        return_value_babl_class_name_1=babl_class_name(babl->class_type);
+        real_babl_log_link11("babl-image.c", 208, (const char *)"babl_image_new", "%s unexpected", return_value_babl_class_name_1);
         va_end(varg);
         return (union _Babl *)(void *)0;
       }
@@ -6035,27 +6035,27 @@ union _Babl * babl_image_new(const void *first, ...)
 
     else
     {
-      const union _Babl *return_value_babl_component$2;
-      return_value_babl_component$2=babl_component(arg);
-      new_component = (struct anonymous$1 *)return_value_babl_component$2;
+      const union _Babl *return_value_babl_component_2;
+      return_value_babl_component_2=babl_component(arg);
+      new_component = (struct anonymous_1 *)return_value_babl_component_2;
     }
-    component[(signed long int)babl_image_new$$1$$components] = new_component;
-    sampling[(signed long int)babl_image_new$$1$$components] = (struct anonymous *)(void *)0;
-    type[(signed long int)babl_image_new$$1$$components] = (struct anonymous$2 *)(void *)0;
-    void *return_value_gcc_builtin_va_arg$5;
-    return_value_gcc_builtin_va_arg$5=va_arg(varg, __typeof__(return_value_gcc_builtin_va_arg$5));
-    data[(signed long int)babl_image_new$$1$$components] = (char *)return_value_gcc_builtin_va_arg$5;
-    pitch[(signed long int)babl_image_new$$1$$components]=va_arg(varg, __typeof__(pitch[(signed long int)babl_image_new$$1$$components]));
-    stride[(signed long int)babl_image_new$$1$$components]=va_arg(varg, __typeof__(stride[(signed long int)babl_image_new$$1$$components]));
-    babl_image_new$$1$$components = babl_image_new$$1$$components + 1;
-    if(babl_image_new$$1$$components >= 32)
-      real_babl_log$link11("babl-image.c", 229, (const char *)"babl_image_new", "maximum number of components (%i) exceeded", 32);
+    component[(signed long int)babl_image_new__1__components] = new_component;
+    sampling[(signed long int)babl_image_new__1__components] = (struct anonymous *)(void *)0;
+    type[(signed long int)babl_image_new__1__components] = (struct anonymous_2 *)(void *)0;
+    void *return_value_gcc_builtin_va_arg_5;
+    return_value_gcc_builtin_va_arg_5=va_arg(varg, __typeof__(return_value_gcc_builtin_va_arg_5));
+    data[(signed long int)babl_image_new__1__components] = (char *)return_value_gcc_builtin_va_arg_5;
+    pitch[(signed long int)babl_image_new__1__components]=va_arg(varg, __typeof__(pitch[(signed long int)babl_image_new__1__components]));
+    stride[(signed long int)babl_image_new__1__components]=va_arg(varg, __typeof__(stride[(signed long int)babl_image_new__1__components]));
+    babl_image_new__1__components = babl_image_new__1__components + 1;
+    if(babl_image_new__1__components >= 32)
+      real_babl_log_link11("babl-image.c", 229, (const char *)"babl_image_new", "maximum number of components (%i) exceeded", 32);
 
     arg=va_arg(varg, __typeof__(arg));
   }
   va_end(varg);
-  babl_image_new$$1$$babl=image_new(format, model, babl_image_new$$1$$components, component, sampling, type, data, pitch, stride);
-  return babl_image_new$$1$$babl;
+  babl_image_new__1__babl=image_new(format, model, babl_image_new__1__components, component, sampling, type, data, pitch, stride);
+  return babl_image_new__1__babl;
 }
 
 // babl_init
@@ -6063,9 +6063,9 @@ union _Babl * babl_image_new(const void *first, ...)
 void babl_init(void)
 {
   babl_cpu_accel_set_use((unsigned int)1);
-  signed int tmp_post$1 = ref_count;
+  signed int tmp_post_1 = ref_count;
   ref_count = ref_count + 1;
-  if(tmp_post$1 == 0)
+  if(tmp_post_1 == 0)
   {
     char *dir_list;
     babl_internal_init();
@@ -6110,41 +6110,41 @@ void babl_introspect(union _Babl *babl)
 {
   union _Babl *extender_backup;
   extender_backup=babl_extender();
-  union _Babl *return_value_babl_extension_quiet_log$1;
-  return_value_babl_extension_quiet_log$1=babl_extension_quiet_log();
-  babl_set_extender(return_value_babl_extension_quiet_log$1);
+  union _Babl *return_value_babl_extension_quiet_log_1;
+  return_value_babl_extension_quiet_log_1=babl_extension_quiet_log();
+  babl_set_extender(return_value_babl_extension_quiet_log_1);
   if(!(babl == ((union _Babl *)NULL)))
     each_introspect(babl, (void *)0);
 
   else
   {
-    real_babl_log$link13("babl-introspect.c", 48, (const char *)"babl_introspect", "Introspection report");
-    real_babl_log$link13("babl-introspect.c", 49, (const char *)"babl_introspect", "====================================================");
-    real_babl_log$link13("babl-introspect.c", 51, (const char *)"babl_introspect", "");
-    real_babl_log$link13("babl-introspect.c", 52, (const char *)"babl_introspect", "Data Types:");
+    real_babl_log_link13("babl-introspect.c", 48, (const char *)"babl_introspect", "Introspection report");
+    real_babl_log_link13("babl-introspect.c", 49, (const char *)"babl_introspect", "====================================================");
+    real_babl_log_link13("babl-introspect.c", 51, (const char *)"babl_introspect", "");
+    real_babl_log_link13("babl-introspect.c", 52, (const char *)"babl_introspect", "Data Types:");
     babl_type_class_for_each(each_introspect, (void *)0);
-    real_babl_log$link13("babl-introspect.c", 54, (const char *)"babl_introspect", "");
-    real_babl_log$link13("babl-introspect.c", 55, (const char *)"babl_introspect", "Sampling (chroma subsampling) factors:");
+    real_babl_log_link13("babl-introspect.c", 54, (const char *)"babl_introspect", "");
+    real_babl_log_link13("babl-introspect.c", 55, (const char *)"babl_introspect", "Sampling (chroma subsampling) factors:");
     babl_sampling_class_for_each(each_introspect, (void *)0);
-    real_babl_log$link13("babl-introspect.c", 57, (const char *)"babl_introspect", "");
-    real_babl_log$link13("babl-introspect.c", 58, (const char *)"babl_introspect", "Components:");
+    real_babl_log_link13("babl-introspect.c", 57, (const char *)"babl_introspect", "");
+    real_babl_log_link13("babl-introspect.c", 58, (const char *)"babl_introspect", "Components:");
     babl_component_class_for_each(each_introspect, (void *)0);
-    real_babl_log$link13("babl-introspect.c", 60, (const char *)"babl_introspect", "");
-    real_babl_log$link13("babl-introspect.c", 61, (const char *)"babl_introspect", "Models (of components):");
+    real_babl_log_link13("babl-introspect.c", 60, (const char *)"babl_introspect", "");
+    real_babl_log_link13("babl-introspect.c", 61, (const char *)"babl_introspect", "Models (of components):");
     babl_model_class_for_each(each_introspect, (void *)0);
-    real_babl_log$link13("babl-introspect.c", 63, (const char *)"babl_introspect", "");
-    real_babl_log$link13("babl-introspect.c", 64, (const char *)"babl_introspect", "Pixel formats:");
+    real_babl_log_link13("babl-introspect.c", 63, (const char *)"babl_introspect", "");
+    real_babl_log_link13("babl-introspect.c", 64, (const char *)"babl_introspect", "Pixel formats:");
     babl_format_class_for_each(each_introspect, (void *)0);
-    real_babl_log$link13("babl-introspect.c", 66, (const char *)"babl_introspect", "");
-    real_babl_log$link13("babl-introspect.c", 67, (const char *)"babl_introspect", "conversions:");
+    real_babl_log_link13("babl-introspect.c", 66, (const char *)"babl_introspect", "");
+    real_babl_log_link13("babl-introspect.c", 67, (const char *)"babl_introspect", "conversions:");
     babl_conversion_class_for_each(each_introspect, (void *)0);
-    real_babl_log$link13("babl-introspect.c", 69, (const char *)"babl_introspect", "");
-    real_babl_log$link13("babl-introspect.c", 70, (const char *)"babl_introspect", "extensions:");
+    real_babl_log_link13("babl-introspect.c", 69, (const char *)"babl_introspect", "");
+    real_babl_log_link13("babl-introspect.c", 70, (const char *)"babl_introspect", "extensions:");
     babl_extension_class_for_each(each_introspect, (void *)0);
-    real_babl_log$link13("babl-introspect.c", 72, (const char *)"babl_introspect", "");
-    real_babl_log$link13("babl-introspect.c", 73, (const char *)"babl_introspect", "fishes");
+    real_babl_log_link13("babl-introspect.c", 72, (const char *)"babl_introspect", "");
+    real_babl_log_link13("babl-introspect.c", 73, (const char *)"babl_introspect", "fishes");
     babl_fish_class_for_each(each_introspect, (void *)0);
-    real_babl_log$link13("babl-introspect.c", 75, (const char *)"babl_introspect", "");
+    real_babl_log_link13("babl-introspect.c", 75, (const char *)"babl_introspect", "");
     babl_set_extender(extender_backup);
   }
 }
@@ -6156,7 +6156,7 @@ void babl_list_copy(struct _BablList *from, struct _BablList *to)
   do
     if(from == ((struct _BablList *)NULL))
     {
-      real_babl_log$link14("babl-list.c", 95, (const char *)"babl_list_copy", "Eeeeek! Assertion failed: `from`");
+      real_babl_log_link14("babl-list.c", 95, (const char *)"babl_list_copy", "Eeeeek! Assertion failed: `from`");
       /* assertion from */
       assert(from != ((struct _BablList *)NULL));
     }
@@ -6165,7 +6165,7 @@ void babl_list_copy(struct _BablList *from, struct _BablList *to)
   do
     if(to == ((struct _BablList *)NULL))
     {
-      real_babl_log$link14("babl-list.c", 96, (const char *)"babl_list_copy", "Eeeeek! Assertion failed: `to`");
+      real_babl_log_link14("babl-list.c", 96, (const char *)"babl_list_copy", "Eeeeek! Assertion failed: `to`");
       /* assertion to */
       assert(to != ((struct _BablList *)NULL));
     }
@@ -6174,13 +6174,13 @@ void babl_list_copy(struct _BablList *from, struct _BablList *to)
   if(!(to->size >= from->count))
   {
     union _Babl **new_items;
-    void *return_value_babl_realloc$1;
-    return_value_babl_realloc$1=babl_realloc((void *)to->items, (unsigned long int)from->count * sizeof(struct anonymous$3 *) /*8ul*/ );
-    new_items = (union _Babl **)return_value_babl_realloc$1;
+    void *return_value_babl_realloc_1;
+    return_value_babl_realloc_1=babl_realloc((void *)to->items, (unsigned long int)from->count * sizeof(struct anonymous_3 *) /*8ul*/ );
+    new_items = (union _Babl **)return_value_babl_realloc_1;
     do
       if(new_items == ((union _Babl **)NULL))
       {
-        real_babl_log$link14("babl-list.c", 103, (const char *)"babl_list_copy", "Eeeeek! Assertion failed: `new_items`");
+        real_babl_log_link14("babl-list.c", 103, (const char *)"babl_list_copy", "Eeeeek! Assertion failed: `new_items`");
         /* assertion new_items */
         assert(new_items != ((union _Babl **)NULL));
       }
@@ -6190,7 +6190,7 @@ void babl_list_copy(struct _BablList *from, struct _BablList *to)
     to->size = from->count;
   }
 
-  memcpy((void *)to->items, (const void *)from->items, (unsigned long int)from->count * sizeof(struct anonymous$3 *) /*8ul*/ );
+  memcpy((void *)to->items, (const void *)from->items, (unsigned long int)from->count * sizeof(struct anonymous_3 *) /*8ul*/ );
   to->count = from->count;
 }
 
@@ -6211,7 +6211,7 @@ void babl_list_each(struct _BablList *list, signed int (*each_fun)(union _Babl *
   do
     if(list == ((struct _BablList *)NULL))
     {
-      real_babl_log$link14("babl-list.c", 119, (const char *)"babl_list_each", "Eeeeek! Assertion failed: `list`");
+      real_babl_log_link14("babl-list.c", 119, (const char *)"babl_list_each", "Eeeeek! Assertion failed: `list`");
       /* assertion list */
       assert(list != ((struct _BablList *)NULL));
     }
@@ -6220,7 +6220,7 @@ void babl_list_each(struct _BablList *list, signed int (*each_fun)(union _Babl *
   do
     if(each_fun == ((signed int (*)(union _Babl *, void *))NULL))
     {
-      real_babl_log$link14("babl-list.c", 120, (const char *)"babl_list_each", "Eeeeek! Assertion failed: `each_fun`");
+      real_babl_log_link14("babl-list.c", 120, (const char *)"babl_list_each", "Eeeeek! Assertion failed: `each_fun`");
       /* assertion each_fun */
       assert(each_fun != ((signed int (*)(union _Babl *, void *))NULL));
     }
@@ -6243,9 +6243,9 @@ void babl_list_each(struct _BablList *list, signed int (*each_fun)(union _Babl *
 // file babl-list.c line 29
 struct _BablList * babl_list_init(void)
 {
-  struct _BablList *return_value_babl_list_init_with_size$1;
-  return_value_babl_list_init_with_size$1=babl_list_init_with_size(0x7F);
-  return return_value_babl_list_init_with_size$1;
+  struct _BablList *return_value_babl_list_init_with_size_1;
+  return_value_babl_list_init_with_size_1=babl_list_init_with_size(0x7F);
+  return return_value_babl_list_init_with_size_1;
 }
 
 // babl_list_init_with_size
@@ -6253,9 +6253,9 @@ struct _BablList * babl_list_init(void)
 struct _BablList * babl_list_init_with_size(signed int initial_size)
 {
   struct _BablList *list;
-  void *return_value_babl_calloc$1;
-  return_value_babl_calloc$1=babl_calloc(sizeof(struct _BablList) /*16ul*/ , (unsigned long int)1);
-  list = (struct _BablList *)return_value_babl_calloc$1;
+  void *return_value_babl_calloc_1;
+  return_value_babl_calloc_1=babl_calloc(sizeof(struct _BablList) /*16ul*/ , (unsigned long int)1);
+  list = (struct _BablList *)return_value_babl_calloc_1;
   babl_set_destructor((void *)list, babl_list_destroy);
   if(initial_size == 0)
     initial_size = 1;
@@ -6265,9 +6265,9 @@ struct _BablList * babl_list_init_with_size(signed int initial_size)
   list->items = (union _Babl **)(void *)0;
   if(!(list->size == 0))
   {
-    void *return_value_babl_calloc$2;
-    return_value_babl_calloc$2=babl_calloc(sizeof(struct anonymous$3 *) /*8ul*/ , (unsigned long int)list->size);
-    list->items = (union _Babl **)return_value_babl_calloc$2;
+    void *return_value_babl_calloc_2;
+    return_value_babl_calloc_2=babl_calloc(sizeof(struct anonymous_3 *) /*8ul*/ , (unsigned long int)list->size);
+    list->items = (union _Babl **)return_value_babl_calloc_2;
   }
 
   return list;
@@ -6280,47 +6280,47 @@ void babl_list_insert_last(struct _BablList *list, union _Babl *item)
   do
     if(list == ((struct _BablList *)NULL))
     {
-      real_babl_log$link14("babl-list.c", 66, (const char *)"babl_list_insert_last", "Eeeeek! Assertion failed: `list`");
+      real_babl_log_link14("babl-list.c", 66, (const char *)"babl_list_insert_last", "Eeeeek! Assertion failed: `list`");
       /* assertion list */
       assert(list != ((struct _BablList *)NULL));
     }
 
   while((_Bool)0);
-  signed int tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  signed int tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   do
   {
     if(item == ((union _Babl *)NULL))
-      tmp_if_expr$4 = 0;
+      tmp_if_expr_4 = 0;
 
     else
     {
       if(item->class_type >= 12235008)
-        tmp_if_expr$3 = ((union _Babl *)item)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = ((union _Babl *)item)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? 1 : 0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? 1 : 0;
     }
-    if(tmp_if_expr$4 == 0)
+    if(tmp_if_expr_4 == 0)
     {
-      real_babl_log$link14("babl-list.c", 67, (const char *)"babl_list_insert_last", "Eeeeek! Assertion failed: `BABL_IS_BABL(item)`");
+      real_babl_log_link14("babl-list.c", 67, (const char *)"babl_list_insert_last", "Eeeeek! Assertion failed: `BABL_IS_BABL(item)`");
       if(item == ((union _Babl *)NULL))
-        tmp_if_expr$2 = 0;
+        tmp_if_expr_2 = 0;
 
       else
       {
         if(item->class_type >= 12235008)
-          tmp_if_expr$1 = ((union _Babl *)item)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = ((union _Babl *)item)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        tmp_if_expr$2 = tmp_if_expr$1 ? 1 : 0;
+          tmp_if_expr_1 = (_Bool)0;
+        tmp_if_expr_2 = tmp_if_expr_1 ? 1 : 0;
       }
       /* assertion (((void *)0)==(item)?0 :( ((((Babl*)(item))->class_type)>=BABL_INSTANCE ) && ((((Babl*)(item))->class_type)<=BABL_SKY) ?1:0 ) ) */
-      assert(tmp_if_expr$2 != 0);
+      assert(tmp_if_expr_2 != 0);
     }
 
   }
@@ -6328,26 +6328,26 @@ void babl_list_insert_last(struct _BablList *list, union _Babl *item)
   if(!(list->size >= 1 + list->count))
   {
     union _Babl **new_items;
-    void *return_value_babl_realloc$5;
-    return_value_babl_realloc$5=babl_realloc((void *)list->items, (unsigned long int)(list->size * 2) * sizeof(struct anonymous$3 *) /*8ul*/ );
-    new_items = (union _Babl **)return_value_babl_realloc$5;
+    void *return_value_babl_realloc_5;
+    return_value_babl_realloc_5=babl_realloc((void *)list->items, (unsigned long int)(list->size * 2) * sizeof(struct anonymous_3 *) /*8ul*/ );
+    new_items = (union _Babl **)return_value_babl_realloc_5;
     do
       if(new_items == ((union _Babl **)NULL))
       {
-        real_babl_log$link14("babl-list.c", 74, (const char *)"babl_list_insert_last", "Eeeeek! Assertion failed: `new_items`");
+        real_babl_log_link14("babl-list.c", 74, (const char *)"babl_list_insert_last", "Eeeeek! Assertion failed: `new_items`");
         /* assertion new_items */
         assert(new_items != ((union _Babl **)NULL));
       }
 
     while((_Bool)0);
     list->items = new_items;
-    memset((void *)(list->items + (signed long int)list->size), 0, (unsigned long int)list->size * sizeof(struct anonymous$3 *) /*8ul*/ );
+    memset((void *)(list->items + (signed long int)list->size), 0, (unsigned long int)list->size * sizeof(struct anonymous_3 *) /*8ul*/ );
     list->size = list->size * 2;
   }
 
-  signed int tmp_post$6 = list->count;
+  signed int tmp_post_6 = list->count;
   list->count = list->count + 1;
-  list->items[(signed long int)tmp_post$6] = item;
+  list->items[(signed long int)tmp_post_6] = item;
 }
 
 // babl_list_remove_last
@@ -6357,7 +6357,7 @@ void babl_list_remove_last(struct _BablList *list)
   do
     if(list == ((struct _BablList *)NULL))
     {
-      real_babl_log$link14("babl-list.c", 85, (const char *)"babl_list_remove_last", "Eeeeek! Assertion failed: `list`");
+      real_babl_log_link14("babl-list.c", 85, (const char *)"babl_list_remove_last", "Eeeeek! Assertion failed: `list`");
       /* assertion list */
       assert(list != ((struct _BablList *)NULL));
     }
@@ -6366,7 +6366,7 @@ void babl_list_remove_last(struct _BablList *list)
   do
     if(!(list->count >= 1))
     {
-      real_babl_log$link14("babl-list.c", 86, (const char *)"babl_list_remove_last", "Eeeeek! Assertion failed: `list->count > 0`");
+      real_babl_log_link14("babl-list.c", 86, (const char *)"babl_list_remove_last", "Eeeeek! Assertion failed: `list->count > 0`");
       /* assertion list->count > 0 */
       assert(list->count > 0);
     }
@@ -6384,7 +6384,7 @@ void * babl_malloc(unsigned long int size)
   do
     if(size == 0ul)
     {
-      real_babl_log$link15("babl-memory.c", 114, (const char *)"babl_malloc", "Eeeeek! Assertion failed: `size`");
+      real_babl_log_link15("babl-memory.c", 114, (const char *)"babl_malloc", "Eeeeek! Assertion failed: `size`");
       /* assertion size */
       assert(size != 0ul);
     }
@@ -6392,20 +6392,20 @@ void * babl_malloc(unsigned long int size)
   while((_Bool)0);
   functions_sanity();
   void *return_value;
-  return_value=malloc_f(sizeof(struct anonymous$12) /*24ul*/  + sizeof(void *) /*8ul*/  + (unsigned long int)16 + size);
+  return_value=malloc_f(sizeof(struct anonymous_12) /*24ul*/  + sizeof(void *) /*8ul*/  + (unsigned long int)16 + size);
   ret = (char *)return_value;
   if(ret == ((char *)NULL))
   {
-    real_babl_log$link15("babl-memory.c", 119, (const char *)"babl_malloc", "args=(%i): failed", size);
+    real_babl_log_link15("babl-memory.c", 119, (const char *)"babl_malloc", "args=(%i): failed", size);
     babl_die();
   }
 
-  offset = (signed int)((unsigned long int)16 - ((unsigned long int)ret + sizeof(struct anonymous$12) /*24ul*/  + sizeof(void *) /*8ul*/ ) % (unsigned long int)16);
-  ret = ret + (signed long int)(sizeof(struct anonymous$12) /*24ul*/  + sizeof(void *) /*8ul*/ ) + (signed long int)offset;
-  *((void **)ret - (signed long int)1) = (void *)((ret - (signed long int)(sizeof(struct anonymous$12) /*24ul*/  + sizeof(void *) /*8ul*/ )) - (signed long int)offset);
-  ((struct anonymous$12 *)*((void **)ret - (signed long int)1))->signature = signature;
-  ((struct anonymous$12 *)*((void **)ret - (signed long int)1))->size = size;
-  ((struct anonymous$12 *)*((void **)ret - (signed long int)1))->destructor = (signed int (*)(void *))(void *)0;
+  offset = (signed int)((unsigned long int)16 - ((unsigned long int)ret + sizeof(struct anonymous_12) /*24ul*/  + sizeof(void *) /*8ul*/ ) % (unsigned long int)16);
+  ret = ret + (signed long int)(sizeof(struct anonymous_12) /*24ul*/  + sizeof(void *) /*8ul*/ ) + (signed long int)offset;
+  *((void **)ret - (signed long int)1) = (void *)((ret - (signed long int)(sizeof(struct anonymous_12) /*24ul*/  + sizeof(void *) /*8ul*/ )) - (signed long int)offset);
+  ((struct anonymous_12 *)*((void **)ret - (signed long int)1))->signature = signature;
+  ((struct anonymous_12 *)*((void **)ret - (signed long int)1))->size = size;
+  ((struct anonymous_12 *)*((void **)ret - (signed long int)1))->destructor = (signed int (*)(void *))(void *)0;
   return (void *)ret;
 }
 
@@ -6415,13 +6415,13 @@ const union _Babl * babl_model(const char *name)
 {
   union _Babl *babl;
   if(!(babl_hmpf_on_name_lookups == 0))
-    real_babl_log$link16("babl-model.c", 352, (const char *)"babl_model", "%s(\"%s\"): hmpf!", (const char *)"babl_model", name);
+    real_babl_log_link16("babl-model.c", 352, (const char *)"babl_model", "%s(\"%s\"): hmpf!", (const char *)"babl_model", name);
 
-  babl=babl_db_exist_by_name(db$link5, name);
+  babl=babl_db_exist_by_name(db_link5, name);
   if(babl == ((union _Babl *)NULL))
     do
     {
-      real_babl_log$link16("babl-model.c", 352, (const char *)"babl_model", "%s(\"%s\"): not found", (const char *)"babl_model", name);
+      real_babl_log_link16("babl-model.c", 352, (const char *)"babl_model", "%s(\"%s\"): not found", (const char *)"babl_model", name);
       babl_die();
     }
     while((_Bool)0);
@@ -6433,20 +6433,20 @@ const union _Babl * babl_model(const char *name)
 // file babl-model.h line 22
 void babl_model_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data)
 {
-  babl_db_each(db$link5, each_fun, user_data);
+  babl_db_each(db_link5, each_fun, user_data);
 }
 
 // babl_model_create_name
 // file babl-model.c line 40
-static char * babl_model_create_name(signed int components, struct anonymous$1 **component)
+static char * babl_model_create_name(signed int components, struct anonymous_1 **component)
 {
   char *p = (char *)(void *)0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = components;
+    tmp_post_1 = components;
     components = components - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
     p=babl_strcat(p, (*component)->instance.name);
@@ -6460,10 +6460,10 @@ static char * babl_model_create_name(signed int components, struct anonymous$1 *
 // file babl-model.h line 22
 struct _BablDb * babl_model_db(void)
 {
-  if(db$link5 == ((struct _BablDb *)NULL))
-    db$link5=babl_db_init();
+  if(db_link5 == ((struct _BablDb *)NULL))
+    db_link5=babl_db_init();
 
-  return db$link5;
+  return db_link5;
 }
 
 // babl_model_destroy
@@ -6482,11 +6482,11 @@ static signed int babl_model_destroy(void *data)
 const union _Babl * babl_model_from_id(signed int id)
 {
   union _Babl *babl;
-  babl=babl_db_exist_by_id(db$link5, id);
+  babl=babl_db_exist_by_id(db_link5, id);
   if(babl == ((union _Babl *)NULL))
     do
     {
-      real_babl_log$link16("babl-model.c", 352, (const char *)"babl_model_from_id", "%s(%i): not found", (const char *)"babl_model_from_id", id);
+      real_babl_log_link16("babl-model.c", 352, (const char *)"babl_model_from_id", "%s(%i): not found", (const char *)"babl_model_from_id", id);
       babl_die();
     }
     while((_Bool)0);
@@ -6517,13 +6517,13 @@ double babl_model_is_symmetric(const union _Babl *cbabl)
   fish_to=babl_fish_reference(ref_fmt, fmt);
   fish_from=babl_fish_reference(fmt, ref_fmt);
   original=babl_calloc((unsigned long int)1, (unsigned long int)((64 / 8) * babl->model.components * test_pixels));
-  void *return_value_babl_calloc$1;
-  return_value_babl_calloc$1=babl_calloc((unsigned long int)1, (unsigned long int)((64 / 8) * 4 * test_pixels));
-  clipped = (double *)return_value_babl_calloc$1;
+  void *return_value_babl_calloc_1;
+  return_value_babl_calloc_1=babl_calloc((unsigned long int)1, (unsigned long int)((64 / 8) * 4 * test_pixels));
+  clipped = (double *)return_value_babl_calloc_1;
   destination=babl_calloc((unsigned long int)1, (unsigned long int)((64 / 8) * babl->model.components * test_pixels));
-  void *return_value_babl_calloc$2;
-  return_value_babl_calloc$2=babl_calloc((unsigned long int)1, (unsigned long int)((64 / 8) * 4 * test_pixels));
-  transformed = (double *)return_value_babl_calloc$2;
+  void *return_value_babl_calloc_2;
+  return_value_babl_calloc_2=babl_calloc((unsigned long int)1, (unsigned long int)((64 / 8) * 4 * test_pixels));
+  transformed = (double *)return_value_babl_calloc_2;
   babl_process(fish_to, (const void *)test, original, (signed long int)test_pixels);
   babl_process(fish_from, original, (void *)clipped, (signed long int)test_pixels);
   babl_process(fish_to, (const void *)clipped, destination, (signed long int)test_pixels);
@@ -6535,14 +6535,14 @@ double babl_model_is_symmetric(const union _Babl *cbabl)
   signed int i;
   signed int log = 0;
   i = 0;
-  double return_value_fabs$3;
+  double return_value_fabs_3;
   for( ; !(i >= test_pixels); i = i + 1)
   {
     signed int j = 0;
     for( ; !(j >= 4); j = j + 1)
     {
-      return_value_fabs$3=fabs(clipped[(signed long int)(i * 4 + j)] - transformed[(signed long int)(i * 4 + j)]);
-      if(return_value_fabs$3 > 0.001)
+      return_value_fabs_3=fabs(clipped[(signed long int)(i * 4 + j)] - transformed[(signed long int)(i * 4 + j)]);
+      if(return_value_fabs_3 > 0.001)
       {
         if(log == 0)
           log = 1;
@@ -6553,10 +6553,10 @@ double babl_model_is_symmetric(const union _Babl *cbabl)
     }
     if(!(log == 0) && !(log >= 5))
     {
-      real_babl_log$link16("babl-model.c", 327, (const char *)"babl_model_is_symmetric", "%s", babl->instance.name);
-      real_babl_log$link16("babl-model.c", 331, (const char *)"babl_model_is_symmetric", "\ttest:     %2.3f %2.3f %2.3f %2.3f", test[(signed long int)(i * 4 + 0)], test[(signed long int)(i * 4 + 1)], test[(signed long int)(i * 4 + 2)], test[(signed long int)(i * 4 + 3)]);
-      real_babl_log$link16("babl-model.c", 335, (const char *)"babl_model_is_symmetric", "\tclipped:  %2.3f %2.3f %2.3f %2.3f", clipped[(signed long int)(i * 4 + 0)], clipped[(signed long int)(i * 4 + 1)], clipped[(signed long int)(i * 4 + 2)], clipped[(signed long int)(i * 4 + 3)]);
-      real_babl_log$link16("babl-model.c", 339, (const char *)"babl_model_is_symmetric", "\ttrnsfrmd: %2.3f %2.3f %2.3f %2.3f", transformed[(signed long int)(i * 4 + 0)], transformed[(signed long int)(i * 4 + 1)], transformed[(signed long int)(i * 4 + 2)], transformed[(signed long int)(i * 4 + 3)]);
+      real_babl_log_link16("babl-model.c", 327, (const char *)"babl_model_is_symmetric", "%s", babl->instance.name);
+      real_babl_log_link16("babl-model.c", 331, (const char *)"babl_model_is_symmetric", "\ttest:     %2.3f %2.3f %2.3f %2.3f", test[(signed long int)(i * 4 + 0)], test[(signed long int)(i * 4 + 1)], test[(signed long int)(i * 4 + 2)], test[(signed long int)(i * 4 + 3)]);
+      real_babl_log_link16("babl-model.c", 335, (const char *)"babl_model_is_symmetric", "\tclipped:  %2.3f %2.3f %2.3f %2.3f", clipped[(signed long int)(i * 4 + 0)], clipped[(signed long int)(i * 4 + 1)], clipped[(signed long int)(i * 4 + 2)], clipped[(signed long int)(i * 4 + 3)]);
+      real_babl_log_link16("babl-model.c", 339, (const char *)"babl_model_is_symmetric", "\ttrnsfrmd: %2.3f %2.3f %2.3f %2.3f", transformed[(signed long int)(i * 4 + 0)], transformed[(signed long int)(i * 4 + 1)], transformed[(signed long int)(i * 4 + 2)], transformed[(signed long int)(i * 4 + 3)]);
       log = log + 1;
     }
 
@@ -6575,62 +6575,62 @@ const union _Babl * babl_model_new(void *first_argument, ...)
   __builtin_va_list varg;
   union _Babl *babl = (union _Babl *)(void *)0;
   signed int id = 0;
-  signed int babl_model_new$$1$$components = 0;
+  signed int babl_model_new__1__components = 0;
   const char *arg = (const char *)first_argument;
   const char *assigned_name = (const char *)(void *)0;
   char *name = (char *)(void *)0;
-  struct anonymous$1 *component[32l];
+  struct anonymous_1 *component[32l];
   va_start(varg, first_argument);
-  signed int return_value_strcmp$5;
-  signed int tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int tmp_post$1;
-  const char *return_value_babl_class_name$2;
+  signed int return_value_strcmp_5;
+  signed int tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int tmp_post_1;
+  const char *return_value_babl_class_name_2;
   while((_Bool)1)
   {
-    signed int return_value_strcmp$6;
-    return_value_strcmp$6=strcmp(arg, "id");
-    if(return_value_strcmp$6 == 0)
+    signed int return_value_strcmp_6;
+    return_value_strcmp_6=strcmp(arg, "id");
+    if(return_value_strcmp_6 == 0)
       id=va_arg(varg, __typeof__(id));
 
     else
     {
-      return_value_strcmp$5=strcmp(arg, "name");
-      if(return_value_strcmp$5 == 0)
+      return_value_strcmp_5=strcmp(arg, "name");
+      if(return_value_strcmp_5 == 0)
         assigned_name=va_arg(varg, __typeof__(assigned_name));
 
       else
       {
         if(arg == ((const char *)NULL))
-          tmp_if_expr$4 = 0;
+          tmp_if_expr_4 = 0;
 
         else
         {
           if(((union _Babl *)arg)->class_type >= 12235008)
-            tmp_if_expr$3 = ((union _Babl *)arg)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = ((union _Babl *)arg)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          tmp_if_expr$4 = tmp_if_expr$3 ? 1 : 0;
+            tmp_if_expr_3 = (_Bool)0;
+          tmp_if_expr_4 = tmp_if_expr_3 ? 1 : 0;
         }
-        if(!(tmp_if_expr$4 == 0))
+        if(!(tmp_if_expr_4 == 0))
         {
           union _Babl *bablc = (union _Babl *)arg;
           switch(bablc->class_type)
           {
             case 12235013:
             {
-              if(babl_model_new$$1$$components >= 32)
-                real_babl_log$link16("babl-model.c", 137, (const char *)"babl_model_new", "maximum number of components (%i) exceeded for %s", 32, assigned_name != ((const char *)NULL) ? assigned_name : "(unnamed)");
+              if(babl_model_new__1__components >= 32)
+                real_babl_log_link16("babl-model.c", 137, (const char *)"babl_model_new", "maximum number of components (%i) exceeded for %s", 32, assigned_name != ((const char *)NULL) ? assigned_name : "(unnamed)");
 
-              tmp_post$1 = babl_model_new$$1$$components;
-              babl_model_new$$1$$components = babl_model_new$$1$$components + 1;
-              component[(signed long int)tmp_post$1] = (struct anonymous$1 *)bablc;
+              tmp_post_1 = babl_model_new__1__components;
+              babl_model_new__1__components = babl_model_new__1__components + 1;
+              component[(signed long int)tmp_post_1] = (struct anonymous_1 *)bablc;
               break;
             }
             case 12235014:
             {
-              real_babl_log$link16("babl-model.c", 143, (const char *)"babl_model_new", "submodels not handled yet");
+              real_babl_log_link16("babl-model.c", 143, (const char *)"babl_model_new", "submodels not handled yet");
               break;
             }
             case 12235009:
@@ -6665,8 +6665,8 @@ const union _Babl * babl_model_new(void *first_argument, ...)
 
             case 12235025:
             {
-              return_value_babl_class_name$2=babl_class_name(bablc->class_type);
-              real_babl_log$link16("babl-model.c", 164, (const char *)"babl_model_new", "%s unexpected", return_value_babl_class_name$2);
+              return_value_babl_class_name_2=babl_class_name(bablc->class_type);
+              real_babl_log_link16("babl-model.c", 164, (const char *)"babl_model_new", "%s unexpected", return_value_babl_class_name_2);
               break;
             }
             case 12235026:
@@ -6677,7 +6677,7 @@ const union _Babl * babl_model_new(void *first_argument, ...)
         else
           do
           {
-            real_babl_log$link16("babl-model.c", 175, (const char *)"babl_model_new", "unhandled argument '%s' for babl_model '%s'", arg, assigned_name != ((const char *)NULL) ? assigned_name : "(unnamed)");
+            real_babl_log_link16("babl-model.c", 175, (const char *)"babl_model_new", "unhandled argument '%s' for babl_model '%s'", arg, assigned_name != ((const char *)NULL) ? assigned_name : "(unnamed)");
             babl_die();
           }
           while((_Bool)0);
@@ -6693,21 +6693,21 @@ const union _Babl * babl_model_new(void *first_argument, ...)
     name=babl_strdup(assigned_name);
 
   else
-    name=babl_model_create_name(babl_model_new$$1$$components, component);
-  union _Babl *return_value_babl_db_exist$7;
-  if(babl_model_new$$1$$components == 0)
-    real_babl_log$link16("babl-model.c", 192, (const char *)"babl_model_new", "no components specified for model '%s'", name);
+    name=babl_model_create_name(babl_model_new__1__components, component);
+  union _Babl *return_value_babl_db_exist_7;
+  if(babl_model_new__1__components == 0)
+    real_babl_log_link16("babl-model.c", 192, (const char *)"babl_model_new", "no components specified for model '%s'", name);
 
   else
   {
-    babl=babl_db_exist(db$link5, id, name);
+    babl=babl_db_exist(db_link5, id, name);
     if(babl == ((union _Babl *)NULL) && !(id == 0))
     {
-      return_value_babl_db_exist$7=babl_db_exist(db$link5, 0, name);
-      if(!(return_value_babl_db_exist$7 == ((union _Babl *)NULL)))
+      return_value_babl_db_exist_7=babl_db_exist(db_link5, 0, name);
+      if(!(return_value_babl_db_exist_7 == ((union _Babl *)NULL)))
         do
         {
-          real_babl_log$link16("babl-model.c", 198, (const char *)"babl_model_new", "Trying to reregister BablModel '%s' with different id!", name);
+          real_babl_log_link16("babl-model.c", 198, (const char *)"babl_model_new", "Trying to reregister BablModel '%s' with different id!", name);
           babl_die();
         }
         while((_Bool)0);
@@ -6716,19 +6716,19 @@ const union _Babl * babl_model_new(void *first_argument, ...)
 
     if(babl == ((union _Babl *)NULL))
     {
-      babl=model_new(name, id, babl_model_new$$1$$components, component);
-      babl_db_insert(db$link5, babl);
+      babl=model_new(name, id, babl_model_new__1__components, component);
+      babl_db_insert(db_link5, babl);
       construct_double_format(babl);
     }
 
     else
     {
-      signed int return_value_is_model_duplicate$8;
-      return_value_is_model_duplicate$8=is_model_duplicate(babl, babl_model_new$$1$$components, component);
-      if(return_value_is_model_duplicate$8 == 0)
+      signed int return_value_is_model_duplicate_8;
+      return_value_is_model_duplicate_8=is_model_duplicate(babl, babl_model_new__1__components, component);
+      if(return_value_is_model_duplicate_8 == 0)
         do
         {
-          real_babl_log$link16("babl-model.c", 210, (const char *)"babl_model_new", "BablModel '%s' already registered with different components!", name);
+          real_babl_log_link16("babl-model.c", 210, (const char *)"babl_model_new", "BablModel '%s' already registered with different components!", name);
           babl_die();
         }
         while((_Bool)0);
@@ -6744,7 +6744,7 @@ out:
 
 // babl_mutex_destroy
 // file babl-mutex.h line 36
-void babl_mutex_destroy(union anonymous$13 *mutex)
+void babl_mutex_destroy(union anonymous_13 *mutex)
 {
   pthread_mutex_destroy(mutex);
   free((void *)mutex);
@@ -6752,28 +6752,28 @@ void babl_mutex_destroy(union anonymous$13 *mutex)
 
 // babl_mutex_lock
 // file babl-mutex.h line 37
-void babl_mutex_lock(union anonymous$13 *mutex)
+void babl_mutex_lock(union anonymous_13 *mutex)
 {
   pthread_mutex_lock(mutex);
 }
 
 // babl_mutex_new
 // file babl-mutex.h line 35
-union anonymous$13 * babl_mutex_new(void)
+union anonymous_13 * babl_mutex_new(void)
 {
-  union anonymous$13 *mutex;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(union anonymous$13) /*40ul*/ );
-  mutex = (union anonymous$13 *)return_value_malloc$1;
-  const union anonymous$14 *return_value_get_mutex_attr$2;
-  return_value_get_mutex_attr$2=get_mutex_attr();
-  pthread_mutex_init(mutex, return_value_get_mutex_attr$2);
+  union anonymous_13 *mutex;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(union anonymous_13) /*40ul*/ );
+  mutex = (union anonymous_13 *)return_value_malloc_1;
+  const union anonymous_14 *return_value_get_mutex_attr_2;
+  return_value_get_mutex_attr_2=get_mutex_attr();
+  pthread_mutex_init(mutex, return_value_get_mutex_attr_2);
   return mutex;
 }
 
 // babl_mutex_unlock
 // file babl-mutex.h line 38
-void babl_mutex_unlock(union anonymous$13 *mutex)
+void babl_mutex_unlock(union anonymous_13 *mutex)
 {
   pthread_mutex_unlock(mutex);
 }
@@ -6790,15 +6790,15 @@ const union _Babl * babl_new_palette(const char *name, const union _Babl **forma
   const union _Babl *alpha;
   struct BablPalette **palptr;
   char cname[64l];
-  signed int tmp_post$1;
-  struct _BablDb *return_value_babl_format_db$2;
-  struct _BablDb *return_value_babl_format_db$3;
+  signed int tmp_post_1;
+  struct _BablDb *return_value_babl_format_db_2;
+  struct _BablDb *return_value_babl_format_db_3;
   if(name == ((const char *)NULL))
   {
     static signed int cnt = 0;
-    tmp_post$1 = cnt;
+    tmp_post_1 = cnt;
     cnt = cnt + 1;
-    sprintf(cname, "_babl-int-%i", tmp_post$1);
+    sprintf(cname, "_babl-int-%i", tmp_post_1);
     name = cname;
   }
 
@@ -6806,23 +6806,23 @@ const union _Babl * babl_new_palette(const char *name, const union _Babl **forma
   {
     strcpy(cname, name);
     name = cname;
-    struct _BablDb *return_value_babl_model_db$4;
-    return_value_babl_model_db$4=babl_model_db();
-    model=babl_db_exist_by_name(return_value_babl_model_db$4, name);
+    struct _BablDb *return_value_babl_model_db_4;
+    return_value_babl_model_db_4=babl_model_db();
+    model=babl_db_exist_by_name(return_value_babl_model_db_4, name);
     if(!(model == ((const union _Babl *)NULL)))
     {
       cname[(signed long int)0] = (char)41;
       if(!(format_u8 == ((const union _Babl **)NULL)))
       {
-        return_value_babl_format_db$2=babl_format_db();
-        *format_u8=babl_db_exist_by_name(return_value_babl_format_db$2, name);
+        return_value_babl_format_db_2=babl_format_db();
+        *format_u8=babl_db_exist_by_name(return_value_babl_format_db_2, name);
       }
 
       cname[(signed long int)0] = (char)92;
       if(!(format_u8_with_alpha == ((const union _Babl **)NULL)))
       {
-        return_value_babl_format_db$3=babl_format_db();
-        *format_u8_with_alpha=babl_db_exist_by_name(return_value_babl_format_db$3, name);
+        return_value_babl_format_db_3=babl_format_db();
+        *format_u8_with_alpha=babl_db_exist_by_name(return_value_babl_format_db_3, name);
       }
 
       return model;
@@ -6832,52 +6832,52 @@ const union _Babl * babl_new_palette(const char *name, const union _Babl **forma
   component=babl_component_new((void *)"I", (const void *)"luma", (const void *)"chroma", (void *)0);
   alpha=babl_component("A");
   model=babl_model_new((void *)"name", name, component, alpha, (void *)0);
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc(sizeof(void *) /*8ul*/ );
-  palptr = (struct BablPalette **)return_value_malloc$5;
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc(sizeof(void *) /*8ul*/ );
+  palptr = (struct BablPalette **)return_value_malloc_5;
   *palptr=default_palette();
   cname[(signed long int)0] = (char)118;
   model_no_alpha=babl_model_new((void *)"name", name, component, (void *)0);
   cname[(signed long int)0] = (char)92;
-  const union _Babl *return_value_babl_type$6;
-  return_value_babl_type$6=babl_type("u8");
-  const union _Babl *return_value_babl_format_new$7;
-  return_value_babl_format_new$7=babl_format_new((const void *)"name", name, model, return_value_babl_type$6, component, alpha, (void *)0);
-  f_pal_a_u8 = (union _Babl *)(void *)return_value_babl_format_new$7;
+  const union _Babl *return_value_babl_type_6;
+  return_value_babl_type_6=babl_type("u8");
+  const union _Babl *return_value_babl_format_new_7;
+  return_value_babl_format_new_7=babl_format_new((const void *)"name", name, model, return_value_babl_type_6, component, alpha, (void *)0);
+  f_pal_a_u8 = (union _Babl *)(void *)return_value_babl_format_new_7;
   cname[(signed long int)0] = (char)41;
-  const union _Babl *return_value_babl_type$8;
-  return_value_babl_type$8=babl_type("u8");
-  const union _Babl *return_value_babl_format_new$9;
-  return_value_babl_format_new$9=babl_format_new((const void *)"name", name, model_no_alpha, return_value_babl_type$8, component, (void *)0);
-  f_pal_u8 = (union _Babl *)(void *)return_value_babl_format_new$9;
+  const union _Babl *return_value_babl_type_8;
+  return_value_babl_type_8=babl_type("u8");
+  const union _Babl *return_value_babl_format_new_9;
+  return_value_babl_format_new_9=babl_format_new((const void *)"name", name, model_no_alpha, return_value_babl_type_8, component, (void *)0);
+  f_pal_u8 = (union _Babl *)(void *)return_value_babl_format_new_9;
   f_pal_a_u8->format.palette = 1;
   f_pal_u8->format.palette = 1;
-  const union _Babl *return_value_babl_model$10;
-  return_value_babl_model$10=babl_model("RGBA");
-  babl_conversion_new((const void *)model, return_value_babl_model$10, (const void *)"linear", pala_to_rgba, (const void *)"data", palptr, (void *)0);
-  const union _Babl *return_value_babl_model$11;
-  return_value_babl_model$11=babl_model("RGBA");
-  babl_conversion_new((const void *)return_value_babl_model$11, model, (const void *)"linear", rgba_to_pala, (const void *)"data", palptr, (void *)0);
-  const union _Babl *return_value_babl_model$12;
-  return_value_babl_model$12=babl_model("RGBA");
-  babl_conversion_new((const void *)model_no_alpha, return_value_babl_model$12, (const void *)"linear", pal_to_rgba, (const void *)"data", palptr, (void *)0);
-  const union _Babl *return_value_babl_model$13;
-  return_value_babl_model$13=babl_model("RGBA");
-  babl_conversion_new((const void *)return_value_babl_model$13, model_no_alpha, (const void *)"linear", rgba_to_pal, (const void *)"data", palptr, (void *)0);
+  const union _Babl *return_value_babl_model_10;
+  return_value_babl_model_10=babl_model("RGBA");
+  babl_conversion_new((const void *)model, return_value_babl_model_10, (const void *)"linear", pala_to_rgba, (const void *)"data", palptr, (void *)0);
+  const union _Babl *return_value_babl_model_11;
+  return_value_babl_model_11=babl_model("RGBA");
+  babl_conversion_new((const void *)return_value_babl_model_11, model, (const void *)"linear", rgba_to_pala, (const void *)"data", palptr, (void *)0);
+  const union _Babl *return_value_babl_model_12;
+  return_value_babl_model_12=babl_model("RGBA");
+  babl_conversion_new((const void *)model_no_alpha, return_value_babl_model_12, (const void *)"linear", pal_to_rgba, (const void *)"data", palptr, (void *)0);
+  const union _Babl *return_value_babl_model_13;
+  return_value_babl_model_13=babl_model("RGBA");
+  babl_conversion_new((const void *)return_value_babl_model_13, model_no_alpha, (const void *)"linear", rgba_to_pal, (const void *)"data", palptr, (void *)0);
   babl_conversion_new((const void *)f_pal_u8, f_pal_a_u8, (const void *)"linear", conv_pal8_pala8, (void *)0);
   babl_conversion_new((const void *)f_pal_a_u8, f_pal_u8, (const void *)"linear", conv_pala8_pal8, (void *)0);
-  const union _Babl *return_value_babl_format$14;
-  return_value_babl_format$14=babl_format("RGBA u8");
-  babl_conversion_new((const void *)f_pal_u8, return_value_babl_format$14, (const void *)"linear", pal_u8_to_rgba_u8, (const void *)"data", palptr, (void *)0);
-  const union _Babl *return_value_babl_format$15;
-  return_value_babl_format$15=babl_format("RGBA u8");
-  babl_conversion_new((const void *)f_pal_a_u8, return_value_babl_format$15, (const void *)"linear", pala_u8_to_rgba_u8, (const void *)"data", palptr, (void *)0);
-  const union _Babl *return_value_babl_format$16;
-  return_value_babl_format$16=babl_format("RGBA u8");
-  babl_conversion_new((const void *)return_value_babl_format$16, f_pal_a_u8, (const void *)"linear", rgba_u8_to_pal_a, (const void *)"data", palptr, (void *)0);
-  const union _Babl *return_value_babl_format$17;
-  return_value_babl_format$17=babl_format("RGBA u8");
-  babl_conversion_new((const void *)return_value_babl_format$17, f_pal_u8, (const void *)"linear", rgba_u8_to_pal, (const void *)"data", palptr, (void *)0);
+  const union _Babl *return_value_babl_format_14;
+  return_value_babl_format_14=babl_format("RGBA u8");
+  babl_conversion_new((const void *)f_pal_u8, return_value_babl_format_14, (const void *)"linear", pal_u8_to_rgba_u8, (const void *)"data", palptr, (void *)0);
+  const union _Babl *return_value_babl_format_15;
+  return_value_babl_format_15=babl_format("RGBA u8");
+  babl_conversion_new((const void *)f_pal_a_u8, return_value_babl_format_15, (const void *)"linear", pala_u8_to_rgba_u8, (const void *)"data", palptr, (void *)0);
+  const union _Babl *return_value_babl_format_16;
+  return_value_babl_format_16=babl_format("RGBA u8");
+  babl_conversion_new((const void *)return_value_babl_format_16, f_pal_a_u8, (const void *)"linear", rgba_u8_to_pal_a, (const void *)"data", palptr, (void *)0);
+  const union _Babl *return_value_babl_format_17;
+  return_value_babl_format_17=babl_format("RGBA u8");
+  babl_conversion_new((const void *)return_value_babl_format_17, f_pal_u8, (const void *)"linear", rgba_u8_to_pal, (const void *)"data", palptr, (void *)0);
   babl_set_user_data(model, (void *)palptr);
   babl_set_user_data(model_no_alpha, (void *)palptr);
   if(!(format_u8 == ((const union _Babl **)NULL)))
@@ -6907,13 +6907,13 @@ static signed int babl_palette_lookup(struct BablPalette *pal, signed int r, sig
   unsigned int pixel = (unsigned int)(r << 16 | g << 8 | b);
   signed int hash_index = (signed int)(pixel % (unsigned int)1111);
   signed int idx = pal->hash[(signed long int)hash_index];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(idx >= 0)
-    tmp_if_expr$1 = pal->hashpx[(signed long int)hash_index] == pixel ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = pal->hashpx[(signed long int)hash_index] == pixel ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     return idx;
 
   else
@@ -6947,12 +6947,12 @@ static signed int babl_palette_lookup(struct BablPalette *pal, signed int r, sig
 void babl_palette_reset(const union _Babl *babl)
 {
   struct BablPalette **palptr;
-  void *return_value_babl_get_user_data$1;
-  return_value_babl_get_user_data$1=babl_get_user_data(babl);
-  palptr = (struct BablPalette **)return_value_babl_get_user_data$1;
-  struct BablPalette *return_value_default_palette$2;
-  return_value_default_palette$2=default_palette();
-  if(!(*palptr == return_value_default_palette$2))
+  void *return_value_babl_get_user_data_1;
+  return_value_babl_get_user_data_1=babl_get_user_data(babl);
+  palptr = (struct BablPalette **)return_value_babl_get_user_data_1;
+  struct BablPalette *return_value_default_palette_2;
+  return_value_default_palette_2=default_palette();
+  if(!(*palptr == return_value_default_palette_2))
     babl_palette_free(*palptr);
 
   *palptr=default_palette();
@@ -6975,9 +6975,9 @@ static void babl_palette_reset_hash(struct BablPalette *pal)
 void babl_palette_set_palette(const union _Babl *babl, const union _Babl *format, void *data, signed int count)
 {
   struct BablPalette **palptr;
-  void *return_value_babl_get_user_data$1;
-  return_value_babl_get_user_data$1=babl_get_user_data(babl);
-  palptr = (struct BablPalette **)return_value_babl_get_user_data$1;
+  void *return_value_babl_get_user_data_1;
+  return_value_babl_get_user_data_1=babl_get_user_data(babl);
+  palptr = (struct BablPalette **)return_value_babl_get_user_data_1;
   babl_palette_reset(babl);
   *palptr=make_pal(format, data, count);
 }
@@ -6987,38 +6987,38 @@ void babl_palette_set_palette(const union _Babl *babl, const union _Babl *format
 static inline double babl_parse_double(const char *str)
 {
   double result = (double)0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   if(str == ((const char *)NULL))
     return 0.0;
 
   else
   {
-    signed int return_value_atoi$1;
-    return_value_atoi$1=atoi(str);
-    result = (double)return_value_atoi$1;
-    char *return_value_strchr$5;
-    return_value_strchr$5=strchr(str, 46);
-    if(!(return_value_strchr$5 == ((char *)NULL)))
+    signed int return_value_atoi_1;
+    return_value_atoi_1=atoi(str);
+    result = (double)return_value_atoi_1;
+    char *return_value_strchr_5;
+    return_value_strchr_5=strchr(str, 46);
+    if(!(return_value_strchr_5 == ((char *)NULL)))
     {
       char *p;
-      char *return_value_strchr$2;
-      return_value_strchr$2=strchr(str, 46);
-      p = return_value_strchr$2 + (signed long int)1;
+      char *return_value_strchr_2;
+      return_value_strchr_2=strchr(str, 46);
+      p = return_value_strchr_2 + (signed long int)1;
       double d = (double)10;
       do
       {
         if(!(*p == 0))
-          tmp_if_expr$3 = (signed int)*p >= 48 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (signed int)*p >= 48 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (signed int)*p <= 57 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (signed int)*p <= 57 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(!tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(!tmp_if_expr_4)
           break;
 
         if(result >= 0.000000)
@@ -7036,57 +7036,57 @@ static inline double babl_parse_double(const char *str)
   }
 }
 
-// babl_parse_double$link1
+// babl_parse_double_link1
 // file babl-internal.h line 298
-static inline double babl_parse_double$link1(const char *str$link1)
+static inline double babl_parse_double_link1(const char *str_link1)
 {
-  double result$link1 = (double)0;
-  _Bool tmp_if_expr$3$link1;
-  _Bool tmp_if_expr$4$link1;
-  if(str$link1 == ((const char *)NULL))
+  double result_link1 = (double)0;
+  _Bool tmp_if_expr_3_link1;
+  _Bool tmp_if_expr_4_link1;
+  if(str_link1 == ((const char *)NULL))
     return 0.0;
 
   else
   {
-    signed int return_value_atoi$1$link1;
-    return_value_atoi$1$link1=atoi(str$link1);
-    result$link1 = (double)return_value_atoi$1$link1;
-    char *return_value_strchr$5$link1;
-    return_value_strchr$5$link1=strchr(str$link1, 46);
-    if(!(return_value_strchr$5$link1 == ((char *)NULL)))
+    signed int return_value_atoi_1_link1;
+    return_value_atoi_1_link1=atoi(str_link1);
+    result_link1 = (double)return_value_atoi_1_link1;
+    char *return_value_strchr_5_link1;
+    return_value_strchr_5_link1=strchr(str_link1, 46);
+    if(!(return_value_strchr_5_link1 == ((char *)NULL)))
     {
-      char *p$link1;
-      char *return_value_strchr$2$link1;
-      return_value_strchr$2$link1=strchr(str$link1, 46);
-      p$link1 = return_value_strchr$2$link1 + (signed long int)1;
-      double d$link1 = (double)10;
+      char *p_link1;
+      char *return_value_strchr_2_link1;
+      return_value_strchr_2_link1=strchr(str_link1, 46);
+      p_link1 = return_value_strchr_2_link1 + (signed long int)1;
+      double d_link1 = (double)10;
       do
       {
-        if(!(*p$link1 == 0))
-          tmp_if_expr$3$link1 = (signed int)*p$link1 >= 48 ? (_Bool)1 : (_Bool)0;
+        if(!(*p_link1 == 0))
+          tmp_if_expr_3_link1 = (signed int)*p_link1 >= 48 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3$link1 = (_Bool)0;
-        if(tmp_if_expr$3$link1)
-          tmp_if_expr$4$link1 = (signed int)*p$link1 <= 57 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3_link1 = (_Bool)0;
+        if(tmp_if_expr_3_link1)
+          tmp_if_expr_4_link1 = (signed int)*p_link1 <= 57 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4$link1 = (_Bool)0;
-        if(!tmp_if_expr$4$link1)
+          tmp_if_expr_4_link1 = (_Bool)0;
+        if(!tmp_if_expr_4_link1)
           break;
 
-        if(result$link1 >= 0.000000)
-          result$link1 = result$link1 + (double)((signed int)*p$link1 - 48) / d$link1;
+        if(result_link1 >= 0.000000)
+          result_link1 = result_link1 + (double)((signed int)*p_link1 - 48) / d_link1;
 
         else
-          result$link1 = result$link1 - (double)((signed int)*p$link1 - 48) / d$link1;
-        p$link1 = p$link1 + 1l;
-        d$link1 = d$link1 * (double)10;
+          result_link1 = result_link1 - (double)((signed int)*p_link1 - 48) / d_link1;
+        p_link1 = p_link1 + 1l;
+        d_link1 = d_link1 * (double)10;
       }
       while((_Bool)1);
     }
 
-    return result$link1;
+    return result_link1;
   }
 }
 
@@ -7127,7 +7127,7 @@ signed long int babl_process(const union _Babl *cbabl, const void *source, void 
   do
     if(babl == ((union _Babl *)NULL))
     {
-      real_babl_log$link4("babl-fish-path.c", 429, (const char *)"babl_process", "Eeeeek! Assertion failed: `babl`");
+      real_babl_log_link4("babl-fish-path.c", 429, (const char *)"babl_process", "Eeeeek! Assertion failed: `babl`");
       /* assertion babl */
       assert(babl != ((union _Babl *)NULL));
     }
@@ -7136,7 +7136,7 @@ signed long int babl_process(const union _Babl *cbabl, const void *source, void 
   do
     if(source == NULL)
     {
-      real_babl_log$link4("babl-fish-path.c", 430, (const char *)"babl_process", "Eeeeek! Assertion failed: `source`");
+      real_babl_log_link4("babl-fish-path.c", 430, (const char *)"babl_process", "Eeeeek! Assertion failed: `source`");
       /* assertion source */
       assert(source != NULL);
     }
@@ -7145,52 +7145,52 @@ signed long int babl_process(const union _Babl *cbabl, const void *source, void 
   do
     if(destination == NULL)
     {
-      real_babl_log$link4("babl-fish-path.c", 431, (const char *)"babl_process", "Eeeeek! Assertion failed: `destination`");
+      real_babl_log_link4("babl-fish-path.c", 431, (const char *)"babl_process", "Eeeeek! Assertion failed: `destination`");
       /* assertion destination */
       assert(destination != NULL);
     }
 
   while((_Bool)0);
-  signed int tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  signed int tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   do
   {
     if(babl == ((union _Babl *)NULL))
-      tmp_if_expr$4 = 0;
+      tmp_if_expr_4 = 0;
 
     else
     {
       if(babl->class_type >= 12235008)
-        tmp_if_expr$3 = ((union _Babl *)babl)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = ((union _Babl *)babl)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? 1 : 0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? 1 : 0;
     }
-    if(tmp_if_expr$4 == 0)
+    if(tmp_if_expr_4 == 0)
     {
-      real_babl_log$link4("babl-fish-path.c", 432, (const char *)"babl_process", "Eeeeek! Assertion failed: `BABL_IS_BABL (babl)`");
+      real_babl_log_link4("babl-fish-path.c", 432, (const char *)"babl_process", "Eeeeek! Assertion failed: `BABL_IS_BABL (babl)`");
       if(babl == ((union _Babl *)NULL))
-        tmp_if_expr$2 = 0;
+        tmp_if_expr_2 = 0;
 
       else
       {
         if(babl->class_type >= 12235008)
-          tmp_if_expr$1 = ((union _Babl *)babl)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = ((union _Babl *)babl)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        tmp_if_expr$2 = tmp_if_expr$1 ? 1 : 0;
+          tmp_if_expr_1 = (_Bool)0;
+        tmp_if_expr_2 = tmp_if_expr_1 ? 1 : 0;
       }
       /* assertion (((void *)0)==(babl)?0 :( ((((Babl*)(babl))->class_type)>=BABL_INSTANCE ) && ((((Babl*)(babl))->class_type)<=BABL_SKY) ?1:0 ) ) */
-      assert(tmp_if_expr$2 != 0);
+      assert(tmp_if_expr_2 != 0);
     }
 
   }
   while((_Bool)0);
-  signed long int return_value_babl_conversion_process$6;
+  signed long int return_value_babl_conversion_process_6;
   if(n == 0l)
     return (signed long int)0;
 
@@ -7199,7 +7199,7 @@ signed long int babl_process(const union _Babl *cbabl, const void *source, void 
     do
       if(!(n >= 1l))
       {
-        real_babl_log$link4("babl-fish-path.c", 435, (const char *)"babl_process", "Eeeeek! Assertion failed: `n > 0`");
+        real_babl_log_link4("babl-fish-path.c", 435, (const char *)"babl_process", "Eeeeek! Assertion failed: `n > 0`");
         /* assertion n > 0 */
         assert(n > (signed long int)0);
       }
@@ -7210,9 +7210,9 @@ signed long int babl_process(const union _Babl *cbabl, const void *source, void 
       if(!(babl->class_type >= 12235024))
       {
         babl->fish.processings = babl->fish.processings + 1;
-        signed long int return_value_babl_fish_process$5;
-        return_value_babl_fish_process$5=babl_fish_process(babl, source, destination, n);
-        babl->fish.pixels = babl->fish.pixels + return_value_babl_fish_process$5;
+        signed long int return_value_babl_fish_process_5;
+        return_value_babl_fish_process_5=babl_fish_process(babl, source, destination, n);
+        babl->fish.pixels = babl->fish.pixels + return_value_babl_fish_process_5;
         return n;
       }
 
@@ -7223,8 +7223,8 @@ signed long int babl_process(const union _Babl *cbabl, const void *source, void 
       if(babl->class_type >= 12235020)
         goto __CPROVER_DUMP_L20;
 
-      return_value_babl_conversion_process$6=babl_conversion_process(babl, (const char *)source, (char *)destination, n);
-      return return_value_babl_conversion_process$6;
+      return_value_babl_conversion_process_6=babl_conversion_process(babl, (const char *)source, (char *)destination, n);
+      return return_value_babl_conversion_process_6;
     }
 
     else
@@ -7234,7 +7234,7 @@ signed long int babl_process(const union _Babl *cbabl, const void *source, void 
 
       __CPROVER_DUMP_L20:
         ;
-        real_babl_log$link4("babl-fish-path.c", 452, (const char *)"babl_process", "eek");
+        real_babl_log_link4("babl-fish-path.c", 452, (const char *)"babl_process", "eek");
         babl_die();
       }
       while((_Bool)0);
@@ -7257,21 +7257,21 @@ void * babl_realloc(void *ptr, unsigned long int size)
   void *ret = (void *)0;
   if(ptr == NULL)
   {
-    void *return_value_babl_malloc$1;
-    return_value_babl_malloc$1=babl_malloc(size);
-    return return_value_babl_malloc$1;
+    void *return_value_babl_malloc_1;
+    return_value_babl_malloc_1=babl_malloc(size);
+    return return_value_babl_malloc_1;
   }
 
   do
-    if(!(((struct anonymous$12 *)((void **)ptr)[-1l])->signature == signature))
+    if(!(((struct anonymous_12 *)((void **)ptr)[-1l])->signature == signature))
     {
-      real_babl_log$link15("babl-memory.c", 217, (const char *)"babl_realloc", "Eeeeek! Assertion failed: `IS_BAI (ptr)`");
+      real_babl_log_link15("babl-memory.c", 217, (const char *)"babl_realloc", "Eeeeek! Assertion failed: `IS_BAI (ptr)`");
       /* assertion (((BablAllocInfo *) *((void **) ptr - 1))->signature == signature) */
-      assert(((struct anonymous$12 *)*((void **)ptr - (signed long int)1))->signature == signature);
+      assert(((struct anonymous_12 *)*((void **)ptr - (signed long int)1))->signature == signature);
     }
 
   while((_Bool)0);
-  unsigned long int return_value_babl_sizeof$3;
+  unsigned long int return_value_babl_sizeof_3;
   if(size == 0ul)
   {
     babl_free(ptr);
@@ -7280,22 +7280,22 @@ void * babl_realloc(void *ptr, unsigned long int size)
 
   else
   {
-    unsigned long int return_value_babl_sizeof$4;
-    return_value_babl_sizeof$4=babl_sizeof(ptr);
-    if(return_value_babl_sizeof$4 >= size)
+    unsigned long int return_value_babl_sizeof_4;
+    return_value_babl_sizeof_4=babl_sizeof(ptr);
+    if(return_value_babl_sizeof_4 >= size)
       return ptr;
 
     else
     {
-      return_value_babl_sizeof$3=babl_sizeof(ptr);
-      if(!(return_value_babl_sizeof$3 >= size))
+      return_value_babl_sizeof_3=babl_sizeof(ptr);
+      if(!(return_value_babl_sizeof_3 >= size))
       {
         ret=babl_malloc(size);
-        unsigned long int return_value_babl_sizeof$2;
-        return_value_babl_sizeof$2=babl_sizeof(ptr);
-        memcpy(ret, ptr, return_value_babl_sizeof$2);
-        ((struct anonymous$12 *)*((void **)ret - (signed long int)1))->destructor = ((struct anonymous$12 *)*((void **)ptr - (signed long int)1))->destructor;
-        ((struct anonymous$12 *)*((void **)ptr - (signed long int)1))->destructor = (signed int (*)(void *))(void *)0;
+        unsigned long int return_value_babl_sizeof_2;
+        return_value_babl_sizeof_2=babl_sizeof(ptr);
+        memcpy(ret, ptr, return_value_babl_sizeof_2);
+        ((struct anonymous_12 *)*((void **)ret - (signed long int)1))->destructor = ((struct anonymous_12 *)*((void **)ptr - (signed long int)1))->destructor;
+        ((struct anonymous_12 *)*((void **)ptr - (signed long int)1))->destructor = (signed int (*)(void *))(void *)0;
         babl_free(ptr);
         return ret;
       }
@@ -7304,7 +7304,7 @@ void * babl_realloc(void *ptr, unsigned long int size)
     if(ret == NULL)
       do
       {
-        real_babl_log$link15("babl-memory.c", 252, (const char *)"babl_realloc", "args=(%p, %i): failed", ptr, size);
+        real_babl_log_link15("babl-memory.c", 252, (const char *)"babl_realloc", "args=(%p, %i): failed", ptr, size);
         babl_die();
       }
       while((_Bool)0);
@@ -7319,11 +7319,11 @@ double babl_rel_avg_error(const double *imgA, const double *imgB, signed long in
 {
   double error = 0.0;
   signed long int i = (signed long int)0;
-  double return_value_fabs$1;
+  double return_value_fabs_1;
   for( ; !(i >= samples); i = i + 1l)
   {
-    return_value_fabs$1=fabs(imgA[i] - imgB[i]);
-    error = error + return_value_fabs$1;
+    return_value_fabs_1=fabs(imgA[i] - imgB[i]);
+    error = error + return_value_fabs_1;
   }
   if(error >= 0.000001)
     error = error / (double)samples;
@@ -7341,7 +7341,7 @@ const union _Babl * babl_sampling(signed int horizontal, signed int vertical)
     return (union _Babl *)&sampling_db[(signed long int)((vertical - 1) * 4 + (horizontal - 1))];
 
   else
-    real_babl_log$link17("babl-sampling.c", 41, (const char *)"babl_sampling", "babl_samping(%i,%i): arguments out of bounds", horizontal, vertical);
+    real_babl_log_link17("babl-sampling.c", 41, (const char *)"babl_sampling", "babl_samping(%i,%i): arguments out of bounds", horizontal, vertical);
   return (const union _Babl *)(void *)0;
 }
 
@@ -7415,15 +7415,15 @@ signed int babl_sanity(void)
 void babl_set_destructor(void *ptr, signed int (*destructor)(void *))
 {
   do
-    if(!(((struct anonymous$12 *)((void **)ptr)[-1l])->signature == signature))
+    if(!(((struct anonymous_12 *)((void **)ptr)[-1l])->signature == signature))
     {
-      real_babl_log$link15("babl-memory.c", 142, (const char *)"babl_set_destructor", "Eeeeek! Assertion failed: `IS_BAI (ptr)`");
+      real_babl_log_link15("babl-memory.c", 142, (const char *)"babl_set_destructor", "Eeeeek! Assertion failed: `IS_BAI (ptr)`");
       /* assertion (((BablAllocInfo *) *((void **) ptr - 1))->signature == signature) */
-      assert(((struct anonymous$12 *)*((void **)ptr - (signed long int)1))->signature == signature);
+      assert(((struct anonymous_12 *)*((void **)ptr - (signed long int)1))->signature == signature);
     }
 
   while((_Bool)0);
-  ((struct anonymous$12 *)*((void **)ptr - (signed long int)1))->destructor = destructor;
+  ((struct anonymous_12 *)*((void **)ptr - (signed long int)1))->destructor = destructor;
 }
 
 // babl_set_extender
@@ -7467,7 +7467,7 @@ void babl_set_user_data(const union _Babl *cbabl, void *data)
     default:
       do
       {
-        real_babl_log$link9("babl-format.c", 638, (const char *)"babl_set_user_data", "babl_set_user_data called on non-model/format");
+        real_babl_log_link9("babl-format.c", 638, (const char *)"babl_set_user_data", "babl_set_user_data called on non-model/format");
         babl_die();
       }
       while((_Bool)0);
@@ -7479,15 +7479,15 @@ void babl_set_user_data(const union _Babl *cbabl, void *data)
 unsigned long int babl_sizeof(void *ptr)
 {
   do
-    if(!(((struct anonymous$12 *)((void **)ptr)[-1l])->signature == signature))
+    if(!(((struct anonymous_12 *)((void **)ptr)[-1l])->signature == signature))
     {
-      real_babl_log$link15("babl-memory.c", 283, (const char *)"babl_sizeof", "Eeeeek! Assertion failed: `IS_BAI (ptr)`");
+      real_babl_log_link15("babl-memory.c", 283, (const char *)"babl_sizeof", "Eeeeek! Assertion failed: `IS_BAI (ptr)`");
       /* assertion (((BablAllocInfo *) *((void **) ptr - 1))->signature == signature) */
-      assert(((struct anonymous$12 *)*((void **)ptr - (signed long int)1))->signature == signature);
+      assert(((struct anonymous_12 *)*((void **)ptr - (signed long int)1))->signature == signature);
     }
 
   while((_Bool)0);
-  return ((struct anonymous$12 *)*((void **)ptr - (signed long int)1))->size;
+  return ((struct anonymous_12 *)*((void **)ptr - (signed long int)1))->size;
 }
 
 // babl_strcat
@@ -7502,42 +7502,42 @@ char * babl_strcat(char *dest, const char *src)
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(src);
-    src_len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(src);
+    src_len = (signed int)return_value_strlen_1;
     if(dest == ((char *)NULL))
     {
-      void *return_value_babl_malloc$2;
-      return_value_babl_malloc$2=babl_malloc((unsigned long int)(src_len + 1));
-      ret = (char *)return_value_babl_malloc$2;
+      void *return_value_babl_malloc_2;
+      return_value_babl_malloc_2=babl_malloc((unsigned long int)(src_len + 1));
+      ret = (char *)return_value_babl_malloc_2;
       strcpy(ret, src);
       return ret;
     }
 
     do
-      if(!(((struct anonymous$12 *)((void **)dest)[-1l])->signature == signature))
+      if(!(((struct anonymous_12 *)((void **)dest)[-1l])->signature == signature))
       {
-        real_babl_log$link15("babl-memory.c", 333, (const char *)"babl_strcat", "Eeeeek! Assertion failed: `IS_BAI (dest)`");
+        real_babl_log_link15("babl-memory.c", 333, (const char *)"babl_strcat", "Eeeeek! Assertion failed: `IS_BAI (dest)`");
         /* assertion (((BablAllocInfo *) *((void **) dest - 1))->signature == signature) */
-        assert(((struct anonymous$12 *)*((void **)dest - (signed long int)1))->signature == signature);
+        assert(((struct anonymous_12 *)*((void **)dest - (signed long int)1))->signature == signature);
       }
 
     while((_Bool)0);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(dest);
-    dst_len = (signed int)return_value_strlen$3;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(dest);
+    dst_len = (signed int)return_value_strlen_3;
     ret = dest;
-    unsigned long int return_value_babl_sizeof$5;
-    return_value_babl_sizeof$5=babl_sizeof((void *)dest);
-    if(!(return_value_babl_sizeof$5 >= (unsigned long int)(1 + dst_len + src_len)))
+    unsigned long int return_value_babl_sizeof_5;
+    return_value_babl_sizeof_5=babl_sizeof((void *)dest);
+    if(!(return_value_babl_sizeof_5 >= (unsigned long int)(1 + dst_len + src_len)))
     {
       unsigned long int new_size;
       new_size=babl_sizeof((void *)dest);
       for( ; !(new_size >= (unsigned long int)(1 + dst_len + src_len)); new_size = new_size * (unsigned long int)2)
         ;
-      void *return_value_babl_realloc$4;
-      return_value_babl_realloc$4=babl_realloc((void *)dest, new_size);
-      ret = (char *)return_value_babl_realloc$4;
+      void *return_value_babl_realloc_4;
+      return_value_babl_realloc_4=babl_realloc((void *)dest, new_size);
+      ret = (char *)return_value_babl_realloc_4;
     }
 
     strcpy(&ret[(signed long int)dst_len], src);
@@ -7550,13 +7550,13 @@ char * babl_strcat(char *dest, const char *src)
 char * babl_strdup(const char *s)
 {
   char *ret;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s);
-  void *return_value_babl_malloc$2;
-  return_value_babl_malloc$2=babl_malloc(return_value_strlen$1 + (unsigned long int)1);
-  ret = (char *)return_value_babl_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s);
+  void *return_value_babl_malloc_2;
+  return_value_babl_malloc_2=babl_malloc(return_value_strlen_1 + (unsigned long int)1);
+  ret = (char *)return_value_babl_malloc_2;
   if(ret == ((char *)NULL))
-    real_babl_log$link15("babl-memory.c", 297, (const char *)"babl_strdup", "args=(%s): failed", s);
+    real_babl_log_link15("babl-memory.c", 297, (const char *)"babl_strdup", "args=(%s): failed", s);
 
   strcpy(ret, s);
   return ret;
@@ -7578,13 +7578,13 @@ const union _Babl * babl_type(const char *name)
 {
   union _Babl *babl;
   if(!(babl_hmpf_on_name_lookups == 0))
-    real_babl_log$link19("babl-type.c", 241, (const char *)"babl_type", "%s(\"%s\"): hmpf!", (const char *)"babl_type", name);
+    real_babl_log_link19("babl-type.c", 241, (const char *)"babl_type", "%s(\"%s\"): hmpf!", (const char *)"babl_type", name);
 
-  babl=babl_db_exist_by_name(db$link6, name);
+  babl=babl_db_exist_by_name(db_link6, name);
   if(babl == ((union _Babl *)NULL))
     do
     {
-      real_babl_log$link19("babl-type.c", 241, (const char *)"babl_type", "%s(\"%s\"): not found", (const char *)"babl_type", name);
+      real_babl_log_link19("babl-type.c", 241, (const char *)"babl_type", "%s(\"%s\"): not found", (const char *)"babl_type", name);
       babl_die();
     }
     while((_Bool)0);
@@ -7596,17 +7596,17 @@ const union _Babl * babl_type(const char *name)
 // file babl-type.h line 22
 void babl_type_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data)
 {
-  babl_db_each(db$link6, each_fun, user_data);
+  babl_db_each(db_link6, each_fun, user_data);
 }
 
 // babl_type_db
 // file babl-type.h line 22
 struct _BablDb * babl_type_db(void)
 {
-  if(db$link6 == ((struct _BablDb *)NULL))
-    db$link6=babl_db_init();
+  if(db_link6 == ((struct _BablDb *)NULL))
+    db_link6=babl_db_init();
 
-  return db$link6;
+  return db_link6;
 }
 
 // babl_type_destroy
@@ -7625,11 +7625,11 @@ static signed int babl_type_destroy(void *data)
 const union _Babl * babl_type_from_id(signed int id)
 {
   union _Babl *babl;
-  babl=babl_db_exist_by_id(db$link6, id);
+  babl=babl_db_exist_by_id(db_link6, id);
   if(babl == ((union _Babl *)NULL))
     do
     {
-      real_babl_log$link19("babl-type.c", 241, (const char *)"babl_type_from_id", "%s(%i): not found", (const char *)"babl_type_from_id", id);
+      real_babl_log_link19("babl-type.c", 241, (const char *)"babl_type_from_id", "%s(%i): not found", (const char *)"babl_type_from_id", id);
       babl_die();
     }
     while((_Bool)0);
@@ -7655,21 +7655,21 @@ signed int babl_type_is_symmetric(const union _Babl *babl)
   const double *test_pixels;
   test_pixels=babl_get_type_test_pixels();
   ref_fmt=double_vector_format();
-  const union _Babl *return_value_babl_model$1;
-  return_value_babl_model$1=babl_model("Y");
-  const union _Babl *return_value_babl_component$2;
-  return_value_babl_component$2=babl_component("Y");
-  fmt=babl_format_new((const void *)return_value_babl_model$1, babl, return_value_babl_component$2, (void *)0);
+  const union _Babl *return_value_babl_model_1;
+  return_value_babl_model_1=babl_model("Y");
+  const union _Babl *return_value_babl_component_2;
+  return_value_babl_component_2=babl_component("Y");
+  fmt=babl_format_new((const void *)return_value_babl_model_1, babl, return_value_babl_component_2, (void *)0);
   fish_to=babl_fish_reference(ref_fmt, fmt);
   fish_from=babl_fish_reference(fmt, ref_fmt);
   original=babl_calloc((unsigned long int)1, (unsigned long int)((babl->type.bits / 8) * samples));
-  void *return_value_babl_calloc$3;
-  return_value_babl_calloc$3=babl_calloc((unsigned long int)1, (unsigned long int)((64 / 8) * samples));
-  clipped = (double *)return_value_babl_calloc$3;
+  void *return_value_babl_calloc_3;
+  return_value_babl_calloc_3=babl_calloc((unsigned long int)1, (unsigned long int)((64 / 8) * samples));
+  clipped = (double *)return_value_babl_calloc_3;
   destination=babl_calloc((unsigned long int)1, (unsigned long int)((babl->type.bits / 8) * samples));
-  void *return_value_babl_calloc$4;
-  return_value_babl_calloc$4=babl_calloc((unsigned long int)1, (unsigned long int)((64 / 8) * samples));
-  transformed = (double *)return_value_babl_calloc$4;
+  void *return_value_babl_calloc_4;
+  return_value_babl_calloc_4=babl_calloc((unsigned long int)1, (unsigned long int)((64 / 8) * samples));
+  transformed = (double *)return_value_babl_calloc_4;
   babl_process(fish_to, (const void *)test_pixels, original, (signed long int)samples);
   babl_process(fish_from, original, (void *)clipped, (signed long int)samples);
   babl_process(fish_to, (const void *)clipped, destination, (signed long int)samples);
@@ -7680,17 +7680,17 @@ signed int babl_type_is_symmetric(const union _Babl *babl)
   fish_to->fish.pixels = fish_to->fish.pixels - (signed long int)(samples * 2);
   signed int cnt = 0;
   signed int i = 0;
-  signed int tmp_post$5;
+  signed int tmp_post_5;
   for( ; !(i >= samples); i = i + 1)
   {
-    double return_value_fabs$6;
-    return_value_fabs$6=fabs(clipped[(signed long int)i] - transformed[(signed long int)i]);
-    if(return_value_fabs$6 > 0.000000001)
+    double return_value_fabs_6;
+    return_value_fabs_6=fabs(clipped[(signed long int)i] - transformed[(signed long int)i]);
+    if(return_value_fabs_6 > 0.000000001)
     {
-      tmp_post$5 = cnt;
+      tmp_post_5 = cnt;
       cnt = cnt + 1;
-      if(!(tmp_post$5 >= 4))
-        real_babl_log$link19("babl-type.c", 227, (const char *)"babl_type_is_symmetric", "%s:  %f %f %f)", babl->instance.name, test_pixels[(signed long int)i], clipped[(signed long int)i], transformed[(signed long int)i]);
+      if(!(tmp_post_5 >= 4))
+        real_babl_log_link19("babl-type.c", 227, (const char *)"babl_type_is_symmetric", "%s:  %f %f %f)", babl->instance.name, test_pixels[(signed long int)i], clipped[(signed long int)i], transformed[(signed long int)i]);
 
       is_symmetrical = 0;
     }
@@ -7714,15 +7714,15 @@ const union _Babl * babl_type_new(void *first_arg, ...)
   const char *name = (const char *)first_arg;
   const char *arg;
   va_start(varg, first_arg);
-  signed int return_value_strcmp$9;
-  signed int return_value_strcmp$8;
-  signed int return_value_strcmp$7;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
-  signed int tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  signed int return_value_strcmp_9;
+  signed int return_value_strcmp_8;
+  signed int return_value_strcmp_7;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
+  signed int tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   while((_Bool)1)
   {
     arg=va_arg(varg, __typeof__(arg));
@@ -7731,64 +7731,64 @@ const union _Babl * babl_type_new(void *first_arg, ...)
 
     else
     {
-      return_value_strcmp$9=strcmp(arg, "id");
-      if(return_value_strcmp$9 == 0)
+      return_value_strcmp_9=strcmp(arg, "id");
+      if(return_value_strcmp_9 == 0)
         id=va_arg(varg, __typeof__(id));
 
       else
       {
-        return_value_strcmp$8=strcmp(arg, "bits");
-        if(return_value_strcmp$8 == 0)
+        return_value_strcmp_8=strcmp(arg, "bits");
+        if(return_value_strcmp_8 == 0)
           bits=va_arg(varg, __typeof__(bits));
 
         else
         {
-          return_value_strcmp$7=strcmp(arg, "integer");
-          if(return_value_strcmp$7 == 0)
+          return_value_strcmp_7=strcmp(arg, "integer");
+          if(return_value_strcmp_7 == 0)
             (void)va_arg(varg, __typeof__(*((signed int *)0)));
 
           else
           {
-            return_value_strcmp$6=strcmp(arg, "min");
-            if(return_value_strcmp$6 == 0)
+            return_value_strcmp_6=strcmp(arg, "min");
+            if(return_value_strcmp_6 == 0)
               (void)va_arg(varg, __typeof__(*((signed long int *)0)));
 
             else
             {
-              return_value_strcmp$5=strcmp(arg, "max");
-              if(return_value_strcmp$5 == 0)
+              return_value_strcmp_5=strcmp(arg, "max");
+              if(return_value_strcmp_5 == 0)
                 (void)va_arg(varg, __typeof__(*((signed long int *)0)));
 
               else
               {
-                return_value_strcmp$4=strcmp(arg, "min_val");
-                if(return_value_strcmp$4 == 0)
+                return_value_strcmp_4=strcmp(arg, "min_val");
+                if(return_value_strcmp_4 == 0)
                   (void)va_arg(varg, __typeof__(*((double *)0)));
 
                 else
                 {
-                  return_value_strcmp$3=strcmp(arg, "max_val");
-                  if(return_value_strcmp$3 == 0)
+                  return_value_strcmp_3=strcmp(arg, "max_val");
+                  if(return_value_strcmp_3 == 0)
                     (void)va_arg(varg, __typeof__(*((double *)0)));
 
                   else
                   {
                     if(arg == ((const char *)NULL))
-                      tmp_if_expr$2 = 0;
+                      tmp_if_expr_2 = 0;
 
                     else
                     {
                       if(((union _Babl *)arg)->class_type >= 12235008)
-                        tmp_if_expr$1 = ((union _Babl *)arg)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
+                        tmp_if_expr_1 = ((union _Babl *)arg)->class_type <= 12235026 ? (_Bool)1 : (_Bool)0;
 
                       else
-                        tmp_if_expr$1 = (_Bool)0;
-                      tmp_if_expr$2 = tmp_if_expr$1 ? 1 : 0;
+                        tmp_if_expr_1 = (_Bool)0;
+                      tmp_if_expr_2 = tmp_if_expr_1 ? 1 : 0;
                     }
-                    if(tmp_if_expr$2 == 0)
+                    if(tmp_if_expr_2 == 0)
                       do
                       {
-                        real_babl_log$link19("babl-type.c", 130, (const char *)"babl_type_new", "unhandled argument '%s' for format '%s'", arg, name);
+                        real_babl_log_link19("babl-type.c", 130, (const char *)"babl_type_new", "unhandled argument '%s' for format '%s'", arg, name);
                         babl_die();
                       }
                       while((_Bool)0);
@@ -7803,15 +7803,15 @@ const union _Babl * babl_type_new(void *first_arg, ...)
     }
   }
   va_end(varg);
-  babl=babl_db_exist(db$link6, id, name);
-  union _Babl *return_value_babl_db_exist$10;
+  babl=babl_db_exist(db_link6, id, name);
+  union _Babl *return_value_babl_db_exist_10;
   if(babl == ((union _Babl *)NULL) && !(id == 0))
   {
-    return_value_babl_db_exist$10=babl_db_exist(db$link6, 0, name);
-    if(!(return_value_babl_db_exist$10 == ((union _Babl *)NULL)))
+    return_value_babl_db_exist_10=babl_db_exist(db_link6, 0, name);
+    if(!(return_value_babl_db_exist_10 == ((union _Babl *)NULL)))
       do
       {
-        real_babl_log$link19("babl-type.c", 138, (const char *)"babl_type_new", "Trying to reregister BablType '%s' with different id!", name);
+        real_babl_log_link19("babl-type.c", 138, (const char *)"babl_type_new", "Trying to reregister BablType '%s' with different id!", name);
         babl_die();
       }
       while((_Bool)0);
@@ -7820,12 +7820,12 @@ const union _Babl * babl_type_new(void *first_arg, ...)
 
   if(!(babl == ((union _Babl *)NULL)))
   {
-    signed int return_value_is_type_duplicate$11;
-    return_value_is_type_duplicate$11=is_type_duplicate(babl, bits);
-    if(return_value_is_type_duplicate$11 == 0)
+    signed int return_value_is_type_duplicate_11;
+    return_value_is_type_duplicate_11=is_type_duplicate(babl, bits);
+    if(return_value_is_type_duplicate_11 == 0)
       do
       {
-        real_babl_log$link19("babl-type.c", 147, (const char *)"babl_type_new", "BablType '%s' already registered as different type!", name);
+        real_babl_log_link19("babl-type.c", 147, (const char *)"babl_type_new", "BablType '%s' already registered as different type!", name);
         babl_die();
       }
       while((_Bool)0);
@@ -7834,7 +7834,7 @@ const union _Babl * babl_type_new(void *first_arg, ...)
   }
 
   babl=type_new(name, id, bits);
-  babl_db_insert(db$link6, babl);
+  babl_db_insert(db_link6, babl);
   return babl;
 }
 
@@ -7843,12 +7843,12 @@ const union _Babl * babl_type_new(void *first_arg, ...)
 static union _Babl * component_new(const char *name, signed int id, signed int luma, signed int chroma, signed int alpha)
 {
   union _Babl *babl;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  void *return_value_babl_malloc$2;
-  return_value_babl_malloc$2=babl_malloc(sizeof(struct anonymous$1) /*40ul*/  + return_value_strlen$1 + (unsigned long int)1);
-  babl = (union _Babl *)return_value_babl_malloc$2;
-  babl->instance.name = (char *)babl + (signed long int)sizeof(struct anonymous$1) /*40ul*/ ;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  void *return_value_babl_malloc_2;
+  return_value_babl_malloc_2=babl_malloc(sizeof(struct anonymous_1) /*40ul*/  + return_value_strlen_1 + (unsigned long int)1);
+  babl = (union _Babl *)return_value_babl_malloc_2;
+  babl->instance.name = (char *)babl + (signed long int)sizeof(struct anonymous_1) /*40ul*/ ;
   strcpy(babl->instance.name, name);
   babl->class_type = 12235013;
   babl->instance.id = id;
@@ -7873,9 +7873,9 @@ static void components(void)
   babl_component_new((void *)"B'a", (const void *)"id", 10017, (const void *)"luma", (const void *)"chroma", (void *)0);
 }
 
-// components$link1
+// components_link1
 // file model-gray.c line 44
-static void components$link1(void)
+static void components_link1(void)
 {
   babl_component_new((void *)"Y", (const void *)"id", 10001, (const void *)"luma", (void *)0);
   babl_component_new((void *)"Ya", (const void *)"id", 10002, (const void *)"luma", (void *)0);
@@ -7883,9 +7883,9 @@ static void components$link1(void)
   babl_component_new((void *)"Y'a", (const void *)"id", 10011, (const void *)"luma", (void *)0);
 }
 
-// components$link2
+// components_link2
 // file model-ycbcr.c line 46
-static void components$link2(void)
+static void components_link2(void)
 {
   babl_component_new((void *)"Cb", (const void *)"id", 10024, (const void *)"chroma", (void *)0);
   babl_component_new((void *)"Cr", (const void *)"id", 10025, (const void *)"chroma", (void *)0);
@@ -7898,42 +7898,42 @@ static const union _Babl * construct_double_format(const union _Babl *model)
   const void *argument[45l];
   signed int args = 0;
   signed int i;
-  const union _Babl *return_value_babl_model_from_id$3;
-  return_value_babl_model_from_id$3=babl_model_from_id(1005);
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  if(model == return_value_babl_model_from_id$3)
+  const union _Babl *return_value_babl_model_from_id_3;
+  return_value_babl_model_from_id_3=babl_model_from_id(1005);
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  if(model == return_value_babl_model_from_id_3)
   {
-    tmp_post$1 = args;
+    tmp_post_1 = args;
     args = args + 1;
-    argument[(signed long int)tmp_post$1] = (const void *)"id";
-    tmp_post$2 = args;
+    argument[(signed long int)tmp_post_1] = (const void *)"id";
+    tmp_post_2 = args;
     args = args + 1;
-    argument[(signed long int)tmp_post$2] = (void *)100007;
+    argument[(signed long int)tmp_post_2] = (void *)100007;
   }
 
-  signed int tmp_post$4 = args;
+  signed int tmp_post_4 = args;
   args = args + 1;
-  argument[(signed long int)tmp_post$4] = (const void *)model;
-  signed int tmp_post$5 = args;
+  argument[(signed long int)tmp_post_4] = (const void *)model;
+  signed int tmp_post_5 = args;
   args = args + 1;
-  const union _Babl *return_value_babl_type_from_id$6;
-  return_value_babl_type_from_id$6=babl_type_from_id(106);
-  argument[(signed long int)tmp_post$5] = (const void *)return_value_babl_type_from_id$6;
+  const union _Babl *return_value_babl_type_from_id_6;
+  return_value_babl_type_from_id_6=babl_type_from_id(106);
+  argument[(signed long int)tmp_post_5] = (const void *)return_value_babl_type_from_id_6;
   i = 0;
-  signed int tmp_post$7;
+  signed int tmp_post_7;
   for( ; !(i >= model->model.components); i = i + 1)
   {
-    tmp_post$7 = args;
+    tmp_post_7 = args;
     args = args + 1;
-    argument[(signed long int)tmp_post$7] = (const void *)model->model.component[(signed long int)i];
+    argument[(signed long int)tmp_post_7] = (const void *)model->model.component[(signed long int)i];
   }
-  signed int tmp_post$8 = args;
+  signed int tmp_post_8 = args;
   args = args + 1;
-  argument[(signed long int)tmp_post$8] = (void *)0;
-  const union _Babl *return_value_babl_format_new$9;
-  return_value_babl_format_new$9=babl_format_new(argument[(signed long int)0], argument[(signed long int)1], argument[(signed long int)2], argument[(signed long int)3], argument[(signed long int)4], argument[(signed long int)5], argument[(signed long int)6], argument[(signed long int)7], argument[(signed long int)8], argument[(signed long int)9], argument[(signed long int)10], argument[(signed long int)11], argument[(signed long int)12], argument[(signed long int)13], argument[(signed long int)14], argument[(signed long int)15], argument[(signed long int)16], argument[(signed long int)17], argument[(signed long int)18], argument[(signed long int)19], argument[(signed long int)20], argument[(signed long int)21], argument[(signed long int)22], argument[(signed long int)23], argument[(signed long int)24], argument[(signed long int)25], argument[(signed long int)26], argument[(signed long int)27], argument[(signed long int)28], argument[(signed long int)29], argument[(signed long int)30], argument[(signed long int)31], argument[(signed long int)32], argument[(signed long int)33], argument[(signed long int)34], argument[(signed long int)35], argument[(signed long int)36], argument[(signed long int)37], argument[(signed long int)38], argument[(signed long int)39], argument[(signed long int)40], argument[(signed long int)41], argument[(signed long int)42], (void *)0);
-  return return_value_babl_format_new$9;
+  argument[(signed long int)tmp_post_8] = (void *)0;
+  const union _Babl *return_value_babl_format_new_9;
+  return_value_babl_format_new_9=babl_format_new(argument[(signed long int)0], argument[(signed long int)1], argument[(signed long int)2], argument[(signed long int)3], argument[(signed long int)4], argument[(signed long int)5], argument[(signed long int)6], argument[(signed long int)7], argument[(signed long int)8], argument[(signed long int)9], argument[(signed long int)10], argument[(signed long int)11], argument[(signed long int)12], argument[(signed long int)13], argument[(signed long int)14], argument[(signed long int)15], argument[(signed long int)16], argument[(signed long int)17], argument[(signed long int)18], argument[(signed long int)19], argument[(signed long int)20], argument[(signed long int)21], argument[(signed long int)22], argument[(signed long int)23], argument[(signed long int)24], argument[(signed long int)25], argument[(signed long int)26], argument[(signed long int)27], argument[(signed long int)28], argument[(signed long int)29], argument[(signed long int)30], argument[(signed long int)31], argument[(signed long int)32], argument[(signed long int)33], argument[(signed long int)34], argument[(signed long int)35], argument[(signed long int)36], argument[(signed long int)37], argument[(signed long int)38], argument[(signed long int)39], argument[(signed long int)40], argument[(signed long int)41], argument[(signed long int)42], (void *)0);
+  return return_value_babl_format_new_9;
 }
 
 // conv_pal8_pala8
@@ -7941,12 +7941,12 @@ static const union _Babl * construct_double_format(const union _Babl *model)
 static inline signed long int conv_pal8_pala8(unsigned char *src, unsigned char *dst, signed long int samples)
 {
   signed long int n = samples;
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     dst[(signed long int)0] = src[(signed long int)0];
@@ -7963,12 +7963,12 @@ static inline signed long int conv_pal8_pala8(unsigned char *src, unsigned char 
 static inline signed long int conv_pala8_pal8(unsigned char *src, unsigned char *dst, signed long int samples)
 {
   signed long int n = samples;
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     dst[(signed long int)0] = src[(signed long int)0];
@@ -7983,12 +7983,12 @@ static inline signed long int conv_pala8_pal8(unsigned char *src, unsigned char 
 // file babl-introspect.c line 150
 static void conversion_introspect(union _Babl *babl)
 {
-  real_babl_log$link13("babl-introspect.c", 153, (const char *)"conversion_introspect", "\t\tprocessings:%i pixels:%li", babl->conversion.processings, babl->conversion.pixels);
+  real_babl_log_link13("babl-introspect.c", 153, (const char *)"conversion_introspect", "\t\tprocessings:%i pixels:%li", babl->conversion.processings, babl->conversion.pixels);
   if(babl->conversion.source->class_type == 12235015)
   {
-    double return_value_babl_conversion_error$1;
-    return_value_babl_conversion_error$1=babl_conversion_error(&babl->conversion);
-    real_babl_log$link13("babl-introspect.c", 156, (const char *)"conversion_introspect", "\t\terror: %f", return_value_babl_conversion_error$1);
+    double return_value_babl_conversion_error_1;
+    return_value_babl_conversion_error_1=babl_conversion_error(&babl->conversion);
+    real_babl_log_link13("babl-introspect.c", 156, (const char *)"conversion_introspect", "\t\terror: %f", return_value_babl_conversion_error_1);
   }
 
 }
@@ -8001,17 +8001,17 @@ static union _Babl * conversion_new(const char *name, signed int id, union _Babl
   do
     if(!(source->class_type == destination->class_type))
     {
-      real_babl_log$link1("babl-conversion.c", 42, (const char *)"conversion_new", "Eeeeek! Assertion failed: `source->class_type == destination->class_type`");
+      real_babl_log_link1("babl-conversion.c", 42, (const char *)"conversion_new", "Eeeeek! Assertion failed: `source->class_type == destination->class_type`");
       /* assertion source->class_type == destination->class_type */
       assert(source->class_type == destination->class_type);
     }
 
   while((_Bool)0);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  void *return_value_babl_malloc$2;
-  return_value_babl_malloc$2=babl_malloc(sizeof(struct BablConversion) /*88ul*/  + return_value_strlen$1 + (unsigned long int)1);
-  babl = (union _Babl *)return_value_babl_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  void *return_value_babl_malloc_2;
+  return_value_babl_malloc_2=babl_malloc(sizeof(struct BablConversion) /*88ul*/  + return_value_strlen_1 + (unsigned long int)1);
+  babl = (union _Babl *)return_value_babl_malloc_2;
   babl->instance.name = (char *)babl + (signed long int)sizeof(struct BablConversion) /*88ul*/ ;
   strcpy(babl->instance.name, name);
   if(!(linear == ((signed long int (*)(const char *, char *, signed long int, void *))NULL)))
@@ -8041,9 +8041,9 @@ static union _Babl * conversion_new(const char *name, signed int id, union _Babl
       if(!(linear == ((signed long int (*)(const char *, char *, signed long int, void *))NULL)))
         do
         {
-          const char *return_value_babl_class_name$3;
-          return_value_babl_class_name$3=babl_class_name(source->class_type);
-          real_babl_log$link1("babl-conversion.c", 74, (const char *)"conversion_new", "linear conversions not supported for %s", return_value_babl_class_name$3);
+          const char *return_value_babl_class_name_3;
+          return_value_babl_class_name_3=babl_class_name(source->class_type);
+          real_babl_log_link1("babl-conversion.c", 74, (const char *)"conversion_new", "linear conversions not supported for %s", return_value_babl_class_name_3);
           babl_die();
         }
         while((_Bool)0);
@@ -8052,9 +8052,9 @@ static union _Babl * conversion_new(const char *name, signed int id, union _Babl
         if(!(planar == ((signed long int (*)(signed int, const char **, signed int *, signed int, char **, signed int *, signed long int, void *))NULL)))
           do
           {
-            const char *return_value_babl_class_name$4;
-            return_value_babl_class_name$4=babl_class_name(source->class_type);
-            real_babl_log$link1("babl-conversion.c", 79, (const char *)"conversion_new", "planar conversions not supported for %s", return_value_babl_class_name$4);
+            const char *return_value_babl_class_name_4;
+            return_value_babl_class_name_4=babl_class_name(source->class_type);
+            real_babl_log_link1("babl-conversion.c", 79, (const char *)"conversion_new", "planar conversions not supported for %s", return_value_babl_class_name_4);
             babl_die();
           }
           while((_Bool)0);
@@ -8066,9 +8066,9 @@ static union _Babl * conversion_new(const char *name, signed int id, union _Babl
       if(!(plane == ((signed long int (*)(const char *, char *, signed int, signed int, signed long int, void *))NULL)))
         do
         {
-          const char *return_value_babl_class_name$5;
-          return_value_babl_class_name$5=babl_class_name(source->class_type);
-          real_babl_log$link1("babl-conversion.c", 87, (const char *)"conversion_new", "plane conversions not supported for %s", return_value_babl_class_name$5);
+          const char *return_value_babl_class_name_5;
+          return_value_babl_class_name_5=babl_class_name(source->class_type);
+          real_babl_log_link1("babl-conversion.c", 87, (const char *)"conversion_new", "plane conversions not supported for %s", return_value_babl_class_name_5);
           babl_die();
         }
         while((_Bool)0);
@@ -8080,9 +8080,9 @@ static union _Babl * conversion_new(const char *name, signed int id, union _Babl
     default:
       do
       {
-        const char *return_value_babl_class_name$6;
-        return_value_babl_class_name$6=babl_class_name(babl->class_type);
-        real_babl_log$link1("babl-conversion.c", 95, (const char *)"conversion_new", "%s unexpected", return_value_babl_class_name$6);
+        const char *return_value_babl_class_name_6;
+        return_value_babl_class_name_6=babl_class_name(babl->class_type);
+        real_babl_log_link1("babl-conversion.c", 95, (const char *)"conversion_new", "%s unexpected", return_value_babl_class_name_6);
         babl_die();
       }
       while((_Bool)0);
@@ -8095,38 +8095,38 @@ static union _Babl * conversion_new(const char *name, signed int id, union _Babl
   babl->conversion.pixels = (signed long int)0;
   babl->conversion.processings = 0;
   babl->conversion.data = user_data;
-  const union _Babl *return_value_babl_model_from_id$9;
+  const union _Babl *return_value_babl_model_from_id_9;
   if(babl->class_type == 12235017)
   {
     if(babl->conversion.source->class_type == 12235014)
     {
       const union _Babl *src_format = (const union _Babl *)(void *)0;
       const union _Babl *dst_format = (const union _Babl *)(void *)0;
-      const union _Babl *return_value_babl_model_from_id$10;
-      return_value_babl_model_from_id$10=babl_model_from_id(1005);
-      if(babl->conversion.source == return_value_babl_model_from_id$10)
+      const union _Babl *return_value_babl_model_from_id_10;
+      return_value_babl_model_from_id_10=babl_model_from_id(1005);
+      if(babl->conversion.source == return_value_babl_model_from_id_10)
       {
         src_format=babl_format_from_id(100007);
-        const union _Babl *return_value_babl_type_from_id$7;
-        return_value_babl_type_from_id$7=babl_type_from_id(106);
-        dst_format=babl_format_with_model_as_type((union _Babl *)babl->conversion.destination, return_value_babl_type_from_id$7);
+        const union _Babl *return_value_babl_type_from_id_7;
+        return_value_babl_type_from_id_7=babl_type_from_id(106);
+        dst_format=babl_format_with_model_as_type((union _Babl *)babl->conversion.destination, return_value_babl_type_from_id_7);
       }
 
       else
       {
-        return_value_babl_model_from_id$9=babl_model_from_id(1005);
-        if(babl->conversion.destination == return_value_babl_model_from_id$9)
+        return_value_babl_model_from_id_9=babl_model_from_id(1005);
+        if(babl->conversion.destination == return_value_babl_model_from_id_9)
         {
-          const union _Babl *return_value_babl_type_from_id$8;
-          return_value_babl_type_from_id$8=babl_type_from_id(106);
-          src_format=babl_format_with_model_as_type((union _Babl *)babl->conversion.source, return_value_babl_type_from_id$8);
+          const union _Babl *return_value_babl_type_from_id_8;
+          return_value_babl_type_from_id_8=babl_type_from_id(106);
+          src_format=babl_format_with_model_as_type((union _Babl *)babl->conversion.source, return_value_babl_type_from_id_8);
           dst_format=babl_format_from_id(100007);
         }
 
         else
           do
           {
-            real_babl_log$link1("babl-conversion.c", 131, (const char *)"conversion_new", "neither source nor destination model is RGBA (requirement might be temporary)");
+            real_babl_log_link1("babl-conversion.c", 131, (const char *)"conversion_new", "neither source nor destination model is RGBA (requirement might be temporary)");
             babl_die();
           }
           while((_Bool)0);
@@ -8149,174 +8149,174 @@ static void conversions(void)
   fprintf(output_file, "</dl>\n");
 }
 
-// conversions$link1
+// conversions_link1
 // file model-rgb.c line 403
-static void conversions$link1(void)
+static void conversions_link1(void)
 {
-  const union _Babl *return_value_babl_model_from_id$1;
-  return_value_babl_model_from_id$1=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_model_from_id$2;
-  return_value_babl_model_from_id$2=babl_model_from_id(1005);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$1, return_value_babl_model_from_id$2, (const void *)"planar", copy_strip_1, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$3;
-  return_value_babl_model_from_id$3=babl_model_from_id(1004);
-  const union _Babl *return_value_babl_model_from_id$4;
-  return_value_babl_model_from_id$4=babl_model_from_id(1005);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$3, return_value_babl_model_from_id$4, (const void *)"planar", copy_strip_1, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$5;
-  return_value_babl_model_from_id$5=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_model_from_id$6;
-  return_value_babl_model_from_id$6=babl_model_from_id(1004);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$5, return_value_babl_model_from_id$6, (const void *)"planar", copy_strip_1, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$7;
-  return_value_babl_model_from_id$7=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_model_from_id$8;
-  return_value_babl_model_from_id$8=babl_model_from_id(1006);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$7, return_value_babl_model_from_id$8, (const void *)"planar", non_premultiplied_to_premultiplied, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$9;
-  return_value_babl_model_from_id$9=babl_model_from_id(1006);
-  const union _Babl *return_value_babl_model_from_id$10;
-  return_value_babl_model_from_id$10=babl_model_from_id(1005);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$9, return_value_babl_model_from_id$10, (const void *)"planar", premultiplied_to_non_premultiplied, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$11;
-  return_value_babl_model_from_id$11=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_model_from_id$12;
-  return_value_babl_model_from_id$12=babl_model_from_id(1010);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$11, return_value_babl_model_from_id$12, (const void *)"planar", g3_gamma_2_2, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$13;
-  return_value_babl_model_from_id$13=babl_model_from_id(1010);
-  const union _Babl *return_value_babl_model_from_id$14;
-  return_value_babl_model_from_id$14=babl_model_from_id(1005);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$13, return_value_babl_model_from_id$14, (const void *)"planar", g3_inv_gamma_2_2, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$15;
-  return_value_babl_model_from_id$15=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_model_from_id$16;
-  return_value_babl_model_from_id$16=babl_model_from_id(1011);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$15, return_value_babl_model_from_id$16, (const void *)"linear", rgba2rgba_gamma_2_2, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$17;
-  return_value_babl_model_from_id$17=babl_model_from_id(1011);
-  const union _Babl *return_value_babl_model_from_id$18;
-  return_value_babl_model_from_id$18=babl_model_from_id(1005);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$17, return_value_babl_model_from_id$18, (const void *)"linear", rgba_gamma_2_22rgba, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$19;
-  return_value_babl_model_from_id$19=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_model_from_id$20;
-  return_value_babl_model_from_id$20=babl_model_from_id(1012);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$19, return_value_babl_model_from_id$20, (const void *)"linear", rgba2rgba_gamma_2_2_premultiplied, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$21;
-  return_value_babl_model_from_id$21=babl_model_from_id(1012);
-  const union _Babl *return_value_babl_model_from_id$22;
-  return_value_babl_model_from_id$22=babl_model_from_id(1005);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$21, return_value_babl_model_from_id$22, (const void *)"linear", rgba_gamma_2_2_premultiplied2rgba, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_1;
+  return_value_babl_model_from_id_1=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_model_from_id_2;
+  return_value_babl_model_from_id_2=babl_model_from_id(1005);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_1, return_value_babl_model_from_id_2, (const void *)"planar", copy_strip_1, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_3;
+  return_value_babl_model_from_id_3=babl_model_from_id(1004);
+  const union _Babl *return_value_babl_model_from_id_4;
+  return_value_babl_model_from_id_4=babl_model_from_id(1005);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_3, return_value_babl_model_from_id_4, (const void *)"planar", copy_strip_1, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_5;
+  return_value_babl_model_from_id_5=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_model_from_id_6;
+  return_value_babl_model_from_id_6=babl_model_from_id(1004);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_5, return_value_babl_model_from_id_6, (const void *)"planar", copy_strip_1, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_7;
+  return_value_babl_model_from_id_7=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_model_from_id_8;
+  return_value_babl_model_from_id_8=babl_model_from_id(1006);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_7, return_value_babl_model_from_id_8, (const void *)"planar", non_premultiplied_to_premultiplied, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_9;
+  return_value_babl_model_from_id_9=babl_model_from_id(1006);
+  const union _Babl *return_value_babl_model_from_id_10;
+  return_value_babl_model_from_id_10=babl_model_from_id(1005);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_9, return_value_babl_model_from_id_10, (const void *)"planar", premultiplied_to_non_premultiplied, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_11;
+  return_value_babl_model_from_id_11=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_model_from_id_12;
+  return_value_babl_model_from_id_12=babl_model_from_id(1010);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_11, return_value_babl_model_from_id_12, (const void *)"planar", g3_gamma_2_2, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_13;
+  return_value_babl_model_from_id_13=babl_model_from_id(1010);
+  const union _Babl *return_value_babl_model_from_id_14;
+  return_value_babl_model_from_id_14=babl_model_from_id(1005);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_13, return_value_babl_model_from_id_14, (const void *)"planar", g3_inv_gamma_2_2, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_15;
+  return_value_babl_model_from_id_15=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_model_from_id_16;
+  return_value_babl_model_from_id_16=babl_model_from_id(1011);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_15, return_value_babl_model_from_id_16, (const void *)"linear", rgba2rgba_gamma_2_2, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_17;
+  return_value_babl_model_from_id_17=babl_model_from_id(1011);
+  const union _Babl *return_value_babl_model_from_id_18;
+  return_value_babl_model_from_id_18=babl_model_from_id(1005);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_17, return_value_babl_model_from_id_18, (const void *)"linear", rgba_gamma_2_22rgba, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_19;
+  return_value_babl_model_from_id_19=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_model_from_id_20;
+  return_value_babl_model_from_id_20=babl_model_from_id(1012);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_19, return_value_babl_model_from_id_20, (const void *)"linear", rgba2rgba_gamma_2_2_premultiplied, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_21;
+  return_value_babl_model_from_id_21=babl_model_from_id(1012);
+  const union _Babl *return_value_babl_model_from_id_22;
+  return_value_babl_model_from_id_22=babl_model_from_id(1005);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_21, return_value_babl_model_from_id_22, (const void *)"linear", rgba_gamma_2_2_premultiplied2rgba, (void *)0);
 }
 
-// conversions$link2
+// conversions_link2
 // file model-gray.c line 489
-static void conversions$link2(void)
+static void conversions_link2(void)
 {
-  const union _Babl *return_value_babl_model_from_id$1$link1;
-  return_value_babl_model_from_id$1$link1=babl_model_from_id(1007);
-  const union _Babl *return_value_babl_model_from_id$2$link1;
-  return_value_babl_model_from_id$2$link1=babl_model_from_id(1005);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$1$link1, return_value_babl_model_from_id$2$link1, (const void *)"planar", gray_2_2_to_rgb, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$3$link1;
-  return_value_babl_model_from_id$3$link1=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_model_from_id$4$link1;
-  return_value_babl_model_from_id$4$link1=babl_model_from_id(1007);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$3$link1, return_value_babl_model_from_id$4$link1, (const void *)"planar", rgb_to_gray_2_2, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$5$link1;
-  return_value_babl_model_from_id$5$link1=babl_model_from_id(1008);
-  const union _Babl *return_value_babl_model_from_id$6$link1;
-  return_value_babl_model_from_id$6$link1=babl_model_from_id(1005);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$5$link1, return_value_babl_model_from_id$6$link1, (const void *)"planar", gray_2_2_to_rgb, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$7$link1;
-  return_value_babl_model_from_id$7$link1=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_model_from_id$8$link1;
-  return_value_babl_model_from_id$8$link1=babl_model_from_id(1008);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$7$link1, return_value_babl_model_from_id$8$link1, (const void *)"planar", rgb_to_gray_2_2, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$9$link1;
-  return_value_babl_model_from_id$9$link1=babl_model_from_id(1009);
-  const union _Babl *return_value_babl_model_from_id$10$link1;
-  return_value_babl_model_from_id$10$link1=babl_model_from_id(1005);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$9$link1, return_value_babl_model_from_id$10$link1, (const void *)"linear", gray_gamma_2_2_premultiplied2rgba, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$11$link1;
-  return_value_babl_model_from_id$11$link1=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_model_from_id$12$link1;
-  return_value_babl_model_from_id$12$link1=babl_model_from_id(1009);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$11$link1, return_value_babl_model_from_id$12$link1, (const void *)"linear", rgba2gray_gamma_2_2_premultiplied, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$13$link1;
-  return_value_babl_model_from_id$13$link1=babl_model_from_id(1001);
-  const union _Babl *return_value_babl_model_from_id$14$link1;
-  return_value_babl_model_from_id$14$link1=babl_model_from_id(1005);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$13$link1, return_value_babl_model_from_id$14$link1, (const void *)"linear", gray_to_rgba, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$15$link1;
-  return_value_babl_model_from_id$15$link1=babl_model_from_id(1002);
-  const union _Babl *return_value_babl_model_from_id$16$link1;
-  return_value_babl_model_from_id$16$link1=babl_model_from_id(1005);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$15$link1, return_value_babl_model_from_id$16$link1, (const void *)"linear", graya_to_rgba, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$17$link1;
-  return_value_babl_model_from_id$17$link1=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_model_from_id$18$link1;
-  return_value_babl_model_from_id$18$link1=babl_model_from_id(1002);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$17$link1, return_value_babl_model_from_id$18$link1, (const void *)"linear", rgba_to_graya, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$19$link1;
-  return_value_babl_model_from_id$19$link1=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_model_from_id$20$link1;
-  return_value_babl_model_from_id$20$link1=babl_model_from_id(1001);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$19$link1, return_value_babl_model_from_id$20$link1, (const void *)"linear", rgba_to_gray, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$21$link1;
-  return_value_babl_model_from_id$21$link1=babl_model_from_id(1002);
-  const union _Babl *return_value_babl_model_from_id$22$link1;
-  return_value_babl_model_from_id$22$link1=babl_model_from_id(1003);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$21$link1, return_value_babl_model_from_id$22$link1, (const void *)"planar", non_premultiplied_to_premultiplied$link1, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$23;
-  return_value_babl_model_from_id$23=babl_model_from_id(1003);
-  const union _Babl *return_value_babl_model_from_id$24;
-  return_value_babl_model_from_id$24=babl_model_from_id(1002);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$23, return_value_babl_model_from_id$24, (const void *)"planar", premultiplied_to_non_premultiplied$link1, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$25;
-  return_value_babl_model_from_id$25=babl_model_from_id(1003);
-  const union _Babl *return_value_babl_model_from_id$26;
-  return_value_babl_model_from_id$26=babl_model_from_id(1005);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$25, return_value_babl_model_from_id$26, (const void *)"planar", gray_alpha_premultiplied_to_rgba, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$27;
-  return_value_babl_model_from_id$27=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_model_from_id$28;
-  return_value_babl_model_from_id$28=babl_model_from_id(1003);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$27, return_value_babl_model_from_id$28, (const void *)"planar", rgba_to_gray_alpha_premultiplied, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_1_link1;
+  return_value_babl_model_from_id_1_link1=babl_model_from_id(1007);
+  const union _Babl *return_value_babl_model_from_id_2_link1;
+  return_value_babl_model_from_id_2_link1=babl_model_from_id(1005);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_1_link1, return_value_babl_model_from_id_2_link1, (const void *)"planar", gray_2_2_to_rgb, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_3_link1;
+  return_value_babl_model_from_id_3_link1=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_model_from_id_4_link1;
+  return_value_babl_model_from_id_4_link1=babl_model_from_id(1007);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_3_link1, return_value_babl_model_from_id_4_link1, (const void *)"planar", rgb_to_gray_2_2, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_5_link1;
+  return_value_babl_model_from_id_5_link1=babl_model_from_id(1008);
+  const union _Babl *return_value_babl_model_from_id_6_link1;
+  return_value_babl_model_from_id_6_link1=babl_model_from_id(1005);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_5_link1, return_value_babl_model_from_id_6_link1, (const void *)"planar", gray_2_2_to_rgb, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_7_link1;
+  return_value_babl_model_from_id_7_link1=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_model_from_id_8_link1;
+  return_value_babl_model_from_id_8_link1=babl_model_from_id(1008);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_7_link1, return_value_babl_model_from_id_8_link1, (const void *)"planar", rgb_to_gray_2_2, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_9_link1;
+  return_value_babl_model_from_id_9_link1=babl_model_from_id(1009);
+  const union _Babl *return_value_babl_model_from_id_10_link1;
+  return_value_babl_model_from_id_10_link1=babl_model_from_id(1005);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_9_link1, return_value_babl_model_from_id_10_link1, (const void *)"linear", gray_gamma_2_2_premultiplied2rgba, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_11_link1;
+  return_value_babl_model_from_id_11_link1=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_model_from_id_12_link1;
+  return_value_babl_model_from_id_12_link1=babl_model_from_id(1009);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_11_link1, return_value_babl_model_from_id_12_link1, (const void *)"linear", rgba2gray_gamma_2_2_premultiplied, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_13_link1;
+  return_value_babl_model_from_id_13_link1=babl_model_from_id(1001);
+  const union _Babl *return_value_babl_model_from_id_14_link1;
+  return_value_babl_model_from_id_14_link1=babl_model_from_id(1005);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_13_link1, return_value_babl_model_from_id_14_link1, (const void *)"linear", gray_to_rgba, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_15_link1;
+  return_value_babl_model_from_id_15_link1=babl_model_from_id(1002);
+  const union _Babl *return_value_babl_model_from_id_16_link1;
+  return_value_babl_model_from_id_16_link1=babl_model_from_id(1005);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_15_link1, return_value_babl_model_from_id_16_link1, (const void *)"linear", graya_to_rgba, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_17_link1;
+  return_value_babl_model_from_id_17_link1=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_model_from_id_18_link1;
+  return_value_babl_model_from_id_18_link1=babl_model_from_id(1002);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_17_link1, return_value_babl_model_from_id_18_link1, (const void *)"linear", rgba_to_graya, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_19_link1;
+  return_value_babl_model_from_id_19_link1=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_model_from_id_20_link1;
+  return_value_babl_model_from_id_20_link1=babl_model_from_id(1001);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_19_link1, return_value_babl_model_from_id_20_link1, (const void *)"linear", rgba_to_gray, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_21_link1;
+  return_value_babl_model_from_id_21_link1=babl_model_from_id(1002);
+  const union _Babl *return_value_babl_model_from_id_22_link1;
+  return_value_babl_model_from_id_22_link1=babl_model_from_id(1003);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_21_link1, return_value_babl_model_from_id_22_link1, (const void *)"planar", non_premultiplied_to_premultiplied_link1, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_23;
+  return_value_babl_model_from_id_23=babl_model_from_id(1003);
+  const union _Babl *return_value_babl_model_from_id_24;
+  return_value_babl_model_from_id_24=babl_model_from_id(1002);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_23, return_value_babl_model_from_id_24, (const void *)"planar", premultiplied_to_non_premultiplied_link1, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_25;
+  return_value_babl_model_from_id_25=babl_model_from_id(1003);
+  const union _Babl *return_value_babl_model_from_id_26;
+  return_value_babl_model_from_id_26=babl_model_from_id(1005);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_25, return_value_babl_model_from_id_26, (const void *)"planar", gray_alpha_premultiplied_to_rgba, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_27;
+  return_value_babl_model_from_id_27=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_model_from_id_28;
+  return_value_babl_model_from_id_28=babl_model_from_id(1003);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_27, return_value_babl_model_from_id_28, (const void *)"planar", rgba_to_gray_alpha_premultiplied, (void *)0);
 }
 
-// conversions$link3
+// conversions_link3
 // file model-ycbcr.c line 212
-static void conversions$link3(void)
+static void conversions_link3(void)
 {
-  const union _Babl *return_value_babl_model_from_id$1$link2;
-  return_value_babl_model_from_id$1$link2=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_model_from_id$2$link2;
-  return_value_babl_model_from_id$2$link2=babl_model_from_id(1013);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$1$link2, return_value_babl_model_from_id$2$link2, (const void *)"linear", rgba_to_ycbcr, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$3$link2;
-  return_value_babl_model_from_id$3$link2=babl_model_from_id(1013);
-  const union _Babl *return_value_babl_model_from_id$4$link2;
-  return_value_babl_model_from_id$4$link2=babl_model_from_id(1005);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$3$link2, return_value_babl_model_from_id$4$link2, (const void *)"linear", ycbcr_to_rgba, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$5$link2;
-  return_value_babl_model_from_id$5$link2=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_model_from_id$6$link2;
-  return_value_babl_model_from_id$6$link2=babl_model_from_id(1014);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$5$link2, return_value_babl_model_from_id$6$link2, (const void *)"linear", rgba_to_ycbcra, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$7$link2;
-  return_value_babl_model_from_id$7$link2=babl_model_from_id(1014);
-  const union _Babl *return_value_babl_model_from_id$8$link2;
-  return_value_babl_model_from_id$8$link2=babl_model_from_id(1005);
-  babl_conversion_new((const void *)return_value_babl_model_from_id$7$link2, return_value_babl_model_from_id$8$link2, (const void *)"linear", ycbcra_to_rgba, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_1_link2;
+  return_value_babl_model_from_id_1_link2=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_model_from_id_2_link2;
+  return_value_babl_model_from_id_2_link2=babl_model_from_id(1013);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_1_link2, return_value_babl_model_from_id_2_link2, (const void *)"linear", rgba_to_ycbcr, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_3_link2;
+  return_value_babl_model_from_id_3_link2=babl_model_from_id(1013);
+  const union _Babl *return_value_babl_model_from_id_4_link2;
+  return_value_babl_model_from_id_4_link2=babl_model_from_id(1005);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_3_link2, return_value_babl_model_from_id_4_link2, (const void *)"linear", ycbcr_to_rgba, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_5_link2;
+  return_value_babl_model_from_id_5_link2=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_model_from_id_6_link2;
+  return_value_babl_model_from_id_6_link2=babl_model_from_id(1014);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_5_link2, return_value_babl_model_from_id_6_link2, (const void *)"linear", rgba_to_ycbcra, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_7_link2;
+  return_value_babl_model_from_id_7_link2=babl_model_from_id(1014);
+  const union _Babl *return_value_babl_model_from_id_8_link2;
+  return_value_babl_model_from_id_8_link2=babl_model_from_id(1005);
+  babl_conversion_new((const void *)return_value_babl_model_from_id_7_link2, return_value_babl_model_from_id_8_link2, (const void *)"linear", ycbcra_to_rgba, (void *)0);
 }
 
 // convert_double_double
 // file babl-core.c line 25
 static signed long int convert_double_double(char *src, char *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   if(dst_pitch == 64 && src_pitch == 64)
   {
     memcpy((void *)dst, (const void *)src, (unsigned long int)(n / (signed long int)8));
@@ -8327,9 +8327,9 @@ static signed long int convert_double_double(char *src, char *dst, signed int sr
   {
     do
     {
-      tmp_post$1 = n;
+      tmp_post_1 = n;
       n = n - 1l;
-      if(tmp_post$1 == 0l)
+      if(tmp_post_1 == 0l)
         break;
 
       *((double *)dst) = *((double *)src);
@@ -8345,12 +8345,12 @@ static signed long int convert_double_double(char *src, char *dst, signed int sr
 // file type-float.c line 29
 static signed long int convert_double_float(char *src, char *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     *((float *)dst) = (float)*((double *)src);
@@ -8365,12 +8365,12 @@ static signed long int convert_double_float(char *src, char *dst, signed int src
 // file type-half.c line 187
 static signed long int convert_double_half(char *src, char *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     doubles2halfp((void *)dst, (void *)src, (signed long int)1);
@@ -8385,22 +8385,22 @@ static signed long int convert_double_half(char *src, char *dst, signed int src_
 // file type-u15.c line 111
 static signed long int convert_double_u15(void *src, void *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int return_value_convert_double_u15_scaled$1;
-  return_value_convert_double_u15_scaled$1=convert_double_u15_scaled(0.0, 1.0, (unsigned short int)0, (unsigned short int)(1 << 15), (char *)src, (char *)dst, src_pitch, dst_pitch, n);
-  return return_value_convert_double_u15_scaled$1;
+  signed long int return_value_convert_double_u15_scaled_1;
+  return_value_convert_double_u15_scaled_1=convert_double_u15_scaled(0.0, 1.0, (unsigned short int)0, (unsigned short int)(1 << 15), (char *)src, (char *)dst, src_pitch, dst_pitch, n);
+  return return_value_convert_double_u15_scaled_1;
 }
 
 // convert_double_u15_scaled
 // file type-u15.c line 30
 static inline signed long int convert_double_u15_scaled(double min_val, double max_val, unsigned short int min, unsigned short int max, char *src, char *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int tmp_post$1;
-  double return_value_rint$2;
+  signed long int tmp_post_1;
+  double return_value_rint_2;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double dval = *((double *)src);
@@ -8414,8 +8414,8 @@ static inline signed long int convert_double_u15_scaled(double min_val, double m
 
       else
       {
-        return_value_rint$2=rint(((dval - min_val) / (max_val - min_val)) * (double)((signed int)max - (signed int)min) + (double)min);
-        u15val = (unsigned short int)return_value_rint$2;
+        return_value_rint_2=rint(((dval - min_val) / (max_val - min_val)) * (double)((signed int)max - (signed int)min) + (double)min);
+        u15val = (unsigned short int)return_value_rint_2;
       }
     *((unsigned short int *)dst) = u15val;
     dst = dst + (signed long int)dst_pitch;
@@ -8429,22 +8429,22 @@ static inline signed long int convert_double_u15_scaled(double min_val, double m
 // file type-u16.c line 111
 static signed long int convert_double_u16(void *src, void *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int return_value_convert_double_u16_scaled$1;
-  return_value_convert_double_u16_scaled$1=convert_double_u16_scaled(0.0, 1.0, (unsigned short int)0, (unsigned short int)65535, (char *)src, (char *)dst, src_pitch, dst_pitch, n);
-  return return_value_convert_double_u16_scaled$1;
+  signed long int return_value_convert_double_u16_scaled_1;
+  return_value_convert_double_u16_scaled_1=convert_double_u16_scaled(0.0, 1.0, (unsigned short int)0, (unsigned short int)65535, (char *)src, (char *)dst, src_pitch, dst_pitch, n);
+  return return_value_convert_double_u16_scaled_1;
 }
 
 // convert_double_u16_scaled
 // file type-u16.c line 30
 static inline signed long int convert_double_u16_scaled(double min_val, double max_val, unsigned short int min, unsigned short int max, char *src, char *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int tmp_post$1;
-  double return_value_rint$2;
+  signed long int tmp_post_1;
+  double return_value_rint_2;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double dval = *((double *)src);
@@ -8458,8 +8458,8 @@ static inline signed long int convert_double_u16_scaled(double min_val, double m
 
       else
       {
-        return_value_rint$2=rint(((dval - min_val) / (max_val - min_val)) * (double)((signed int)max - (signed int)min) + (double)min);
-        u16val = (unsigned short int)return_value_rint$2;
+        return_value_rint_2=rint(((dval - min_val) / (max_val - min_val)) * (double)((signed int)max - (signed int)min) + (double)min);
+        u16val = (unsigned short int)return_value_rint_2;
       }
     *((unsigned short int *)dst) = u16val;
     dst = dst + (signed long int)dst_pitch;
@@ -8473,22 +8473,22 @@ static inline signed long int convert_double_u16_scaled(double min_val, double m
 // file type-u32.c line 110
 static signed long int convert_double_u32(void *src, void *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int return_value_convert_double_u32_scaled$1;
-  return_value_convert_double_u32_scaled$1=convert_double_u32_scaled(0.0, 1.0, (unsigned int)0, 4294967295U, (char *)src, (char *)dst, src_pitch, dst_pitch, n);
-  return return_value_convert_double_u32_scaled$1;
+  signed long int return_value_convert_double_u32_scaled_1;
+  return_value_convert_double_u32_scaled_1=convert_double_u32_scaled(0.0, 1.0, (unsigned int)0, 4294967295U, (char *)src, (char *)dst, src_pitch, dst_pitch, n);
+  return return_value_convert_double_u32_scaled_1;
 }
 
 // convert_double_u32_scaled
 // file type-u32.c line 29
 static inline signed long int convert_double_u32_scaled(double min_val, double max_val, unsigned int min, unsigned int max, char *src, char *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int tmp_post$1;
-  double return_value_rint$2;
+  signed long int tmp_post_1;
+  double return_value_rint_2;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double dval = *((double *)src);
@@ -8502,8 +8502,8 @@ static inline signed long int convert_double_u32_scaled(double min_val, double m
 
       else
       {
-        return_value_rint$2=rint(((dval - min_val) / (max_val - min_val)) * (double)(max - min) + (double)min);
-        u32val = (unsigned int)return_value_rint$2;
+        return_value_rint_2=rint(((dval - min_val) / (max_val - min_val)) * (double)(max - min) + (double)min);
+        u32val = (unsigned int)return_value_rint_2;
       }
     *((unsigned int *)dst) = u32val;
     dst = dst + (signed long int)dst_pitch;
@@ -8517,40 +8517,40 @@ static inline signed long int convert_double_u32_scaled(double min_val, double m
 // file type-u8.c line 111
 static signed long int convert_double_u8(void *src, void *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int return_value_convert_double_u8_scaled$1;
-  return_value_convert_double_u8_scaled$1=convert_double_u8_scaled(0.0, 1.0, (unsigned char)0x00, (unsigned char)255, (char *)src, (char *)dst, src_pitch, dst_pitch, n);
-  return return_value_convert_double_u8_scaled$1;
+  signed long int return_value_convert_double_u8_scaled_1;
+  return_value_convert_double_u8_scaled_1=convert_double_u8_scaled(0.0, 1.0, (unsigned char)0x00, (unsigned char)255, (char *)src, (char *)dst, src_pitch, dst_pitch, n);
+  return return_value_convert_double_u8_scaled_1;
 }
 
 // convert_double_u8_chroma
 // file type-u8.c line 113
 static signed long int convert_double_u8_chroma(void *src, void *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int return_value_convert_double_u8_scaled$1;
-  return_value_convert_double_u8_scaled$1=convert_double_u8_scaled(0.0, 1.0, (unsigned char)16, (unsigned char)240, (char *)src, (char *)dst, src_pitch, dst_pitch, n);
-  return return_value_convert_double_u8_scaled$1;
+  signed long int return_value_convert_double_u8_scaled_1;
+  return_value_convert_double_u8_scaled_1=convert_double_u8_scaled(0.0, 1.0, (unsigned char)16, (unsigned char)240, (char *)src, (char *)dst, src_pitch, dst_pitch, n);
+  return return_value_convert_double_u8_scaled_1;
 }
 
 // convert_double_u8_luma
 // file type-u8.c line 112
 static signed long int convert_double_u8_luma(void *src, void *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int return_value_convert_double_u8_scaled$1;
-  return_value_convert_double_u8_scaled$1=convert_double_u8_scaled(0.0, 1.0, (unsigned char)16, (unsigned char)235, (char *)src, (char *)dst, src_pitch, dst_pitch, n);
-  return return_value_convert_double_u8_scaled$1;
+  signed long int return_value_convert_double_u8_scaled_1;
+  return_value_convert_double_u8_scaled_1=convert_double_u8_scaled(0.0, 1.0, (unsigned char)16, (unsigned char)235, (char *)src, (char *)dst, src_pitch, dst_pitch, n);
+  return return_value_convert_double_u8_scaled_1;
 }
 
 // convert_double_u8_scaled
 // file type-u8.c line 29
 static inline signed long int convert_double_u8_scaled(double min_val, double max_val, unsigned char min, unsigned char max, char *src, char *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int tmp_post$1;
-  double return_value_rint$2;
+  signed long int tmp_post_1;
+  double return_value_rint_2;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double dval = *((double *)src);
@@ -8564,8 +8564,8 @@ static inline signed long int convert_double_u8_scaled(double min_val, double ma
 
       else
       {
-        return_value_rint$2=rint(((dval - min_val) / (max_val - min_val)) * (double)((signed int)max - (signed int)min) + (double)min);
-        u8val = (unsigned char)return_value_rint$2;
+        return_value_rint_2=rint(((dval - min_val) / (max_val - min_val)) * (double)((signed int)max - (signed int)min) + (double)min);
+        u8val = (unsigned char)return_value_rint_2;
       }
     *((unsigned char *)dst) = u8val;
     src = src + (signed long int)src_pitch;
@@ -8579,12 +8579,12 @@ static inline signed long int convert_double_u8_scaled(double min_val, double ma
 // file type-float.c line 45
 static signed long int convert_float_double(char *src, char *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     *((double *)dst) = (double)*((float *)src);
@@ -8597,30 +8597,30 @@ static signed long int convert_float_double(char *src, char *dst, signed int src
 
 // convert_from_double
 // file babl-fish-reference.c line 151
-static void convert_from_double(struct anonymous$4 *destination_fmt, char *destination_double_buf, char *destination_buf, signed int n)
+static void convert_from_double(struct anonymous_4 *destination_fmt, char *destination_double_buf, char *destination_buf, signed int n)
 {
   signed int i;
-  struct anonymous$5 *src_img;
-  struct anonymous$5 *dst_img;
-  const union _Babl *return_value_babl_component_from_id$1;
-  return_value_babl_component_from_id$1=babl_component_from_id(10001);
-  union _Babl *return_value_babl_image_new$2;
-  return_value_babl_image_new$2=babl_image_new((const void *)return_value_babl_component_from_id$1, (void *)0, 1, 0, (void *)0);
-  src_img = (struct anonymous$5 *)return_value_babl_image_new$2;
-  const union _Babl *return_value_babl_component_from_id$3;
-  return_value_babl_component_from_id$3=babl_component_from_id(10001);
-  union _Babl *return_value_babl_image_new$4;
-  return_value_babl_image_new$4=babl_image_new((const void *)return_value_babl_component_from_id$3, (void *)0, 1, 0, (void *)0);
-  dst_img = (struct anonymous$5 *)return_value_babl_image_new$4;
-  const union _Babl *return_value_babl_type_from_id$5;
-  return_value_babl_type_from_id$5=babl_type_from_id(106);
-  src_img->type[(signed long int)0] = (struct anonymous$2 *)return_value_babl_type_from_id$5;
+  struct anonymous_5 *src_img;
+  struct anonymous_5 *dst_img;
+  const union _Babl *return_value_babl_component_from_id_1;
+  return_value_babl_component_from_id_1=babl_component_from_id(10001);
+  union _Babl *return_value_babl_image_new_2;
+  return_value_babl_image_new_2=babl_image_new((const void *)return_value_babl_component_from_id_1, (void *)0, 1, 0, (void *)0);
+  src_img = (struct anonymous_5 *)return_value_babl_image_new_2;
+  const union _Babl *return_value_babl_component_from_id_3;
+  return_value_babl_component_from_id_3=babl_component_from_id(10001);
+  union _Babl *return_value_babl_image_new_4;
+  return_value_babl_image_new_4=babl_image_new((const void *)return_value_babl_component_from_id_3, (void *)0, 1, 0, (void *)0);
+  dst_img = (struct anonymous_5 *)return_value_babl_image_new_4;
+  const union _Babl *return_value_babl_type_from_id_5;
+  return_value_babl_type_from_id_5=babl_type_from_id(106);
+  src_img->type[(signed long int)0] = (struct anonymous_2 *)return_value_babl_type_from_id_5;
   src_img->pitch[(signed long int)0] = (src_img->type[(signed long int)0]->bits / 8) * destination_fmt->model->components;
   src_img->stride[(signed long int)0] = 0;
   dst_img->data[(signed long int)0] = destination_buf;
-  const union _Babl *return_value_babl_type_from_id$6;
-  return_value_babl_type_from_id$6=babl_type_from_id(106);
-  dst_img->type[(signed long int)0] = (struct anonymous$2 *)return_value_babl_type_from_id$6;
+  const union _Babl *return_value_babl_type_from_id_6;
+  return_value_babl_type_from_id_6=babl_type_from_id(106);
+  dst_img->type[(signed long int)0] = (struct anonymous_2 *)return_value_babl_type_from_id_6;
   dst_img->pitch[(signed long int)0] = destination_fmt->bytes_per_pixel;
   dst_img->stride[(signed long int)0] = 0;
   i = 0;
@@ -8633,9 +8633,9 @@ static void convert_from_double(struct anonymous$4 *destination_fmt, char *desti
       if(destination_fmt->component[(signed long int)i] == destination_fmt->model->component[(signed long int)j])
       {
         src_img->data[(signed long int)0] = destination_double_buf + (signed long int)((src_img->type[(signed long int)0]->bits / 8) * j);
-        union _Babl *return_value_assert_conversion_find$7;
-        return_value_assert_conversion_find$7=assert_conversion_find((const void *)src_img->type[(signed long int)0], (const void *)dst_img->type[(signed long int)0]);
-        babl_process(return_value_assert_conversion_find$7, (const void *)src_img, (void *)dst_img, (signed long int)n);
+        union _Babl *return_value_assert_conversion_find_7;
+        return_value_assert_conversion_find_7=assert_conversion_find((const void *)src_img->type[(signed long int)0], (const void *)dst_img->type[(signed long int)0]);
+        babl_process(return_value_assert_conversion_find_7, (const void *)src_img, (void *)dst_img, (signed long int)n);
         break;
       }
 
@@ -8649,12 +8649,12 @@ static void convert_from_double(struct anonymous$4 *destination_fmt, char *desti
 // file type-half.c line 203
 static signed long int convert_half_double(char *src, char *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     halfp2doubles((void *)dst, (void *)src, (signed long int)1);
@@ -8667,30 +8667,30 @@ static signed long int convert_half_double(char *src, char *dst, signed int src_
 
 // convert_to_double
 // file babl-fish-reference.c line 95
-static void convert_to_double(struct anonymous$4 *source_fmt, const char *source_buf, char *source_double_buf, signed int n)
+static void convert_to_double(struct anonymous_4 *source_fmt, const char *source_buf, char *source_double_buf, signed int n)
 {
   signed int i;
-  struct anonymous$5 *src_img;
-  struct anonymous$5 *dst_img;
-  const union _Babl *return_value_babl_component_from_id$1;
-  return_value_babl_component_from_id$1=babl_component_from_id(10001);
-  union _Babl *return_value_babl_image_new$2;
-  return_value_babl_image_new$2=babl_image_new((const void *)return_value_babl_component_from_id$1, (void *)0, 1, 0, (void *)0);
-  src_img = (struct anonymous$5 *)return_value_babl_image_new$2;
-  const union _Babl *return_value_babl_component_from_id$3;
-  return_value_babl_component_from_id$3=babl_component_from_id(10001);
-  union _Babl *return_value_babl_image_new$4;
-  return_value_babl_image_new$4=babl_image_new((const void *)return_value_babl_component_from_id$3, (void *)0, 1, 0, (void *)0);
-  dst_img = (struct anonymous$5 *)return_value_babl_image_new$4;
-  const union _Babl *return_value_babl_type_from_id$5;
-  return_value_babl_type_from_id$5=babl_type_from_id(106);
-  dst_img->type[(signed long int)0] = (struct anonymous$2 *)return_value_babl_type_from_id$5;
+  struct anonymous_5 *src_img;
+  struct anonymous_5 *dst_img;
+  const union _Babl *return_value_babl_component_from_id_1;
+  return_value_babl_component_from_id_1=babl_component_from_id(10001);
+  union _Babl *return_value_babl_image_new_2;
+  return_value_babl_image_new_2=babl_image_new((const void *)return_value_babl_component_from_id_1, (void *)0, 1, 0, (void *)0);
+  src_img = (struct anonymous_5 *)return_value_babl_image_new_2;
+  const union _Babl *return_value_babl_component_from_id_3;
+  return_value_babl_component_from_id_3=babl_component_from_id(10001);
+  union _Babl *return_value_babl_image_new_4;
+  return_value_babl_image_new_4=babl_image_new((const void *)return_value_babl_component_from_id_3, (void *)0, 1, 0, (void *)0);
+  dst_img = (struct anonymous_5 *)return_value_babl_image_new_4;
+  const union _Babl *return_value_babl_type_from_id_5;
+  return_value_babl_type_from_id_5=babl_type_from_id(106);
+  dst_img->type[(signed long int)0] = (struct anonymous_2 *)return_value_babl_type_from_id_5;
   dst_img->pitch[(signed long int)0] = (dst_img->type[(signed long int)0]->bits / 8) * source_fmt->model->components;
   dst_img->stride[(signed long int)0] = 0;
   src_img->data[(signed long int)0] = (char *)source_buf;
-  const union _Babl *return_value_babl_type_from_id$6;
-  return_value_babl_type_from_id$6=babl_type_from_id(106);
-  src_img->type[(signed long int)0] = (struct anonymous$2 *)return_value_babl_type_from_id$6;
+  const union _Babl *return_value_babl_type_from_id_6;
+  return_value_babl_type_from_id_6=babl_type_from_id(106);
+  src_img->type[(signed long int)0] = (struct anonymous_2 *)return_value_babl_type_from_id_6;
   src_img->pitch[(signed long int)0] = source_fmt->bytes_per_pixel;
   src_img->stride[(signed long int)0] = 0;
   i = 0;
@@ -8703,9 +8703,9 @@ static void convert_to_double(struct anonymous$4 *source_fmt, const char *source
       if(source_fmt->component[(signed long int)i] == source_fmt->model->component[(signed long int)j])
       {
         dst_img->data[(signed long int)0] = source_double_buf + (signed long int)((dst_img->type[(signed long int)0]->bits / 8) * j);
-        union _Babl *return_value_assert_conversion_find$7;
-        return_value_assert_conversion_find$7=assert_conversion_find((const void *)src_img->type[(signed long int)0], (const void *)dst_img->type[(signed long int)0]);
-        babl_process(return_value_assert_conversion_find$7, (const void *)src_img, (void *)dst_img, (signed long int)n);
+        union _Babl *return_value_assert_conversion_find_7;
+        return_value_assert_conversion_find_7=assert_conversion_find((const void *)src_img->type[(signed long int)0], (const void *)dst_img->type[(signed long int)0]);
+        babl_process(return_value_assert_conversion_find_7, (const void *)src_img, (void *)dst_img, (signed long int)n);
         break;
       }
 
@@ -8719,21 +8719,21 @@ static void convert_to_double(struct anonymous$4 *source_fmt, const char *source
 // file type-u15.c line 111
 static signed long int convert_u15_double(void *src, void *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int return_value_convert_u15_double_scaled$1;
-  return_value_convert_u15_double_scaled$1=convert_u15_double_scaled(0.0, 1.0, (unsigned short int)0, (unsigned short int)(1 << 15), (char *)src, (char *)dst, src_pitch, dst_pitch, n);
-  return return_value_convert_u15_double_scaled$1;
+  signed long int return_value_convert_u15_double_scaled_1;
+  return_value_convert_u15_double_scaled_1=convert_u15_double_scaled(0.0, 1.0, (unsigned short int)0, (unsigned short int)(1 << 15), (char *)src, (char *)dst, src_pitch, dst_pitch, n);
+  return return_value_convert_u15_double_scaled_1;
 }
 
 // convert_u15_double_scaled
 // file type-u15.c line 60
 static inline signed long int convert_u15_double_scaled(double min_val, double max_val, unsigned short int min, unsigned short int max, char *src, char *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     signed int u15val = (signed int)*((unsigned short int *)src);
@@ -8759,21 +8759,21 @@ static inline signed long int convert_u15_double_scaled(double min_val, double m
 // file type-u16.c line 111
 static signed long int convert_u16_double(void *src, void *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int return_value_convert_u16_double_scaled$1;
-  return_value_convert_u16_double_scaled$1=convert_u16_double_scaled(0.0, 1.0, (unsigned short int)0, (unsigned short int)65535, (char *)src, (char *)dst, src_pitch, dst_pitch, n);
-  return return_value_convert_u16_double_scaled$1;
+  signed long int return_value_convert_u16_double_scaled_1;
+  return_value_convert_u16_double_scaled_1=convert_u16_double_scaled(0.0, 1.0, (unsigned short int)0, (unsigned short int)65535, (char *)src, (char *)dst, src_pitch, dst_pitch, n);
+  return return_value_convert_u16_double_scaled_1;
 }
 
 // convert_u16_double_scaled
 // file type-u16.c line 60
 static inline signed long int convert_u16_double_scaled(double min_val, double max_val, unsigned short int min, unsigned short int max, char *src, char *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     signed int u16val = (signed int)*((unsigned short int *)src);
@@ -8799,21 +8799,21 @@ static inline signed long int convert_u16_double_scaled(double min_val, double m
 // file type-u32.c line 110
 static signed long int convert_u32_double(void *src, void *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int return_value_convert_u32_double_scaled$1;
-  return_value_convert_u32_double_scaled$1=convert_u32_double_scaled(0.0, 1.0, (unsigned int)0, 4294967295U, (char *)src, (char *)dst, src_pitch, dst_pitch, n);
-  return return_value_convert_u32_double_scaled$1;
+  signed long int return_value_convert_u32_double_scaled_1;
+  return_value_convert_u32_double_scaled_1=convert_u32_double_scaled(0.0, 1.0, (unsigned int)0, 4294967295U, (char *)src, (char *)dst, src_pitch, dst_pitch, n);
+  return return_value_convert_u32_double_scaled_1;
 }
 
 // convert_u32_double_scaled
 // file type-u32.c line 59
 static inline signed long int convert_u32_double_scaled(double min_val, double max_val, unsigned int min, unsigned int max, char *src, char *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     signed int u32val = (signed int)*((unsigned int *)src);
@@ -8839,30 +8839,30 @@ static inline signed long int convert_u32_double_scaled(double min_val, double m
 // file type-u8.c line 113
 static signed long int convert_u8_chroma_double(void *src, void *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int return_value_convert_u8_double_scaled$1;
-  return_value_convert_u8_double_scaled$1=convert_u8_double_scaled(0.0, 1.0, (unsigned char)16, (unsigned char)240, (char *)src, (char *)dst, src_pitch, dst_pitch, n);
-  return return_value_convert_u8_double_scaled$1;
+  signed long int return_value_convert_u8_double_scaled_1;
+  return_value_convert_u8_double_scaled_1=convert_u8_double_scaled(0.0, 1.0, (unsigned char)16, (unsigned char)240, (char *)src, (char *)dst, src_pitch, dst_pitch, n);
+  return return_value_convert_u8_double_scaled_1;
 }
 
 // convert_u8_double
 // file type-u8.c line 111
 static signed long int convert_u8_double(void *src, void *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int return_value_convert_u8_double_scaled$1;
-  return_value_convert_u8_double_scaled$1=convert_u8_double_scaled(0.0, 1.0, (unsigned char)0x00, (unsigned char)255, (char *)src, (char *)dst, src_pitch, dst_pitch, n);
-  return return_value_convert_u8_double_scaled$1;
+  signed long int return_value_convert_u8_double_scaled_1;
+  return_value_convert_u8_double_scaled_1=convert_u8_double_scaled(0.0, 1.0, (unsigned char)0x00, (unsigned char)255, (char *)src, (char *)dst, src_pitch, dst_pitch, n);
+  return return_value_convert_u8_double_scaled_1;
 }
 
 // convert_u8_double_scaled
 // file type-u8.c line 59
 static inline signed long int convert_u8_double_scaled(double min_val, double max_val, unsigned char min, unsigned char max, char *src, char *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     signed int u8val = (signed int)*((unsigned char *)src);
@@ -8888,9 +8888,9 @@ static inline signed long int convert_u8_double_scaled(double min_val, double ma
 // file type-u8.c line 112
 static signed long int convert_u8_luma_double(void *src, void *dst, signed int src_pitch, signed int dst_pitch, signed long int n)
 {
-  signed long int return_value_convert_u8_double_scaled$1;
-  return_value_convert_u8_double_scaled$1=convert_u8_double_scaled(0.0, 1.0, (unsigned char)16, (unsigned char)235, (char *)src, (char *)dst, src_pitch, dst_pitch, n);
-  return return_value_convert_u8_double_scaled$1;
+  signed long int return_value_convert_u8_double_scaled_1;
+  return_value_convert_u8_double_scaled_1=convert_u8_double_scaled(0.0, 1.0, (unsigned char)16, (unsigned char)235, (char *)src, (char *)dst, src_pitch, dst_pitch, n);
+  return return_value_convert_u8_double_scaled_1;
 }
 
 // copy_strip_1
@@ -8914,31 +8914,31 @@ static signed long int copy_strip_1(signed int src_bands, char **src, signed int
   assert(n > (signed long int)0);
   /* assertion *src_pitch */
   assert(*src_pitch != 0);
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     signed int i = 0;
     for( ; !(i >= dst_bands); i = i + 1)
     {
-      double copy_strip_1$$1$$2$$1$$1$$foo;
+      double copy_strip_1__1__2__1__1__foo;
       if(!(i >= src_bands))
-        copy_strip_1$$1$$2$$1$$1$$foo = *((double *)src[(signed long int)i]);
+        copy_strip_1__1__2__1__1__foo = *((double *)src[(signed long int)i]);
 
       else
-        copy_strip_1$$1$$2$$1$$1$$foo = 1.0;
-      *((double *)dst[(signed long int)i]) = copy_strip_1$$1$$2$$1$$1$$foo;
+        copy_strip_1__1__2__1__1__foo = 1.0;
+      *((double *)dst[(signed long int)i]) = copy_strip_1__1__2__1__1__foo;
     }
-    signed int copy_strip_1$$1$$2$$2$$i = 0;
-    for( ; !(copy_strip_1$$1$$2$$2$$i >= src_bands); copy_strip_1$$1$$2$$2$$i = copy_strip_1$$1$$2$$2$$i + 1)
-      src[(signed long int)copy_strip_1$$1$$2$$2$$i] = src[(signed long int)copy_strip_1$$1$$2$$2$$i] + (signed long int)src_pitch[(signed long int)copy_strip_1$$1$$2$$2$$i];
-    copy_strip_1$$1$$2$$2$$i = 0;
-    for( ; !(copy_strip_1$$1$$2$$2$$i >= dst_bands); copy_strip_1$$1$$2$$2$$i = copy_strip_1$$1$$2$$2$$i + 1)
-      dst[(signed long int)copy_strip_1$$1$$2$$2$$i] = dst[(signed long int)copy_strip_1$$1$$2$$2$$i] + (signed long int)dst_pitch[(signed long int)copy_strip_1$$1$$2$$2$$i];
+    signed int copy_strip_1__1__2__2__i = 0;
+    for( ; !(copy_strip_1__1__2__2__i >= src_bands); copy_strip_1__1__2__2__i = copy_strip_1__1__2__2__i + 1)
+      src[(signed long int)copy_strip_1__1__2__2__i] = src[(signed long int)copy_strip_1__1__2__2__i] + (signed long int)src_pitch[(signed long int)copy_strip_1__1__2__2__i];
+    copy_strip_1__1__2__2__i = 0;
+    for( ; !(copy_strip_1__1__2__2__i >= dst_bands); copy_strip_1__1__2__2__i = copy_strip_1__1__2__2__i + 1)
+      dst[(signed long int)copy_strip_1__1__2__2__i] = dst[(signed long int)copy_strip_1__1__2__2__i] + (signed long int)dst_pitch[(signed long int)copy_strip_1__1__2__2__i];
   }
   while((_Bool)1);
   return samples;
@@ -8946,22 +8946,22 @@ static signed long int copy_strip_1(signed int src_bands, char **src, signed int
 
 // cpu_accel
 // file babl-cpuaccel.c line 501
-static enum anonymous$11 cpu_accel(void)
+static enum anonymous_11 cpu_accel(void)
 {
-  return (enum anonymous$11)BABL_CPU_ACCEL_NONE;
+  return (enum anonymous_11)BABL_CPU_ACCEL_NONE;
 }
 
 // create_name
 // file babl-conversion.c line 148
 static char * create_name(union _Babl *source, union _Babl *destination, signed int type)
 {
-  union _Babl *return_value_babl_extender$2;
-  return_value_babl_extender$2=babl_extender();
-  if(!(return_value_babl_extender$2 == ((union _Babl *)NULL)))
+  union _Babl *return_value_babl_extender_2;
+  return_value_babl_extender_2=babl_extender();
+  if(!(return_value_babl_extender_2 == ((union _Babl *)NULL)))
   {
-    union _Babl *return_value_babl_extender$1;
-    return_value_babl_extender$1=babl_extender();
-    snprintf(buf, (unsigned long int)(512 - 1), "%s %i: %s%s to %s", ((union _Babl *)return_value_babl_extender$1)->instance.name, collisions, type == 12235017 ? "" : (type == 12235018 ? "plane " : (type == 12235019 ? "planar " : "Eeeek! ")), source->instance.name, destination->instance.name);
+    union _Babl *return_value_babl_extender_1;
+    return_value_babl_extender_1=babl_extender();
+    snprintf(buf, (unsigned long int)(512 - 1), "%s %i: %s%s to %s", ((union _Babl *)return_value_babl_extender_1)->instance.name, collisions, type == 12235017 ? "" : (type == 12235018 ? "plane " : (type == 12235019 ? "planar " : "Eeeek! ")), source->instance.name, destination->instance.name);
     buf[(signed long int)511] = (char)0;
   }
 
@@ -8973,53 +8973,53 @@ static char * create_name(union _Babl *source, union _Babl *destination, signed 
   return buf;
 }
 
-// create_name$link1
+// create_name_link1
 // file babl-fish-path.c line 242
-static char * create_name$link1(char *buf, const union _Babl *source$link1, const union _Babl *destination$link1, signed int is_reference)
+static char * create_name_link1(char *buf, const union _Babl *source_link1, const union _Babl *destination_link1, signed int is_reference)
 {
-  snprintf(buf, (unsigned long int)1024, "%s %p %p", (const void *)"", source$link1, destination$link1);
+  snprintf(buf, (unsigned long int)1024, "%s %p %p", (const void *)"", source_link1, destination_link1);
   return buf;
 }
 
-// create_name$link2
+// create_name_link2
 // file babl-fish-reference.c line 34
-static char * create_name$link2(const union _Babl *source$link2, const union _Babl *destination$link2, signed int is_reference$link1)
+static char * create_name_link2(const union _Babl *source_link2, const union _Babl *destination_link2, signed int is_reference_link1)
 {
-  static char create_name$$1$$buf[1024l];
-  snprintf(create_name$$1$$buf, (unsigned long int)1024, "%s %p %p", is_reference$link1 != 0 ? "ref " : "", source$link2, destination$link2);
-  return create_name$$1$$buf;
+  static char create_name__1__buf[1024l];
+  snprintf(create_name__1__buf, (unsigned long int)1024, "%s %p %p", is_reference_link1 != 0 ? "ref " : "", source_link2, destination_link2);
+  return create_name__1__buf;
 }
 
-// create_name$link3
+// create_name_link3
 // file babl-fish-simple.c line 23
-static char * create_name$link3(struct BablConversion *conversion)
+static char * create_name_link3(struct BablConversion *conversion)
 {
   return conversion->instance.name;
 }
 
-// create_name$link4
+// create_name_link4
 // file babl-format.c line 126
-static char * create_name$link4(const struct anonymous$0 *model, signed int components, struct anonymous$1 **component, const struct anonymous$2 **type$link1)
+static char * create_name_link4(const struct anonymous_0 *model, signed int components, struct anonymous_1 **component, const struct anonymous_2 **type_link1)
 {
-  char buf$link1[512l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-  char *p = &buf$link1[(signed long int)0];
+  char buf_link1[512l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+  char *p = &buf_link1[(signed long int)0];
   signed int i;
   signed int same_types = 1;
-  const struct anonymous$2 **t = type$link1;
-  const struct anonymous$2 *first_type = *type$link1;
-  struct anonymous$1 **c1 = component;
-  struct anonymous$1 **c2 = model->component;
+  const struct anonymous_2 **t = type_link1;
+  const struct anonymous_2 *first_type = *type_link1;
+  struct anonymous_1 **c1 = component;
+  struct anonymous_1 **c2 = model->component;
   sprintf(p, "%s ", model->instance.name);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(model->instance.name);
-  p = p + (signed long int)(return_value_strlen$1 + (unsigned long int)1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(model->instance.name);
+  p = p + (signed long int)(return_value_strlen_1 + (unsigned long int)1);
   i = components;
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   do
   {
-    tmp_post$2 = i;
+    tmp_post_2 = i;
     i = i - 1;
-    if(tmp_post$2 == 0)
+    if(tmp_post_2 == 0)
       break;
 
     if(!(first_type == *t))
@@ -9039,12 +9039,12 @@ static char * create_name$link4(const struct anonymous$0 *model, signed int comp
   }
 
   i = components;
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   for( ; !(same_types == 0); c2 = c2 + 1l)
   {
-    tmp_post$3 = i;
+    tmp_post_3 = i;
     i = i - 1;
-    if(tmp_post$3 == 0)
+    if(tmp_post_3 == 0)
       break;
 
     if(!(*c1 == *c2))
@@ -9058,35 +9058,35 @@ static char * create_name$link4(const struct anonymous$0 *model, signed int comp
   if(!(same_types == 0))
   {
     sprintf(p, "%s", first_type->instance.name);
-    char *return_value_babl_strdup$4;
-    return_value_babl_strdup$4=babl_strdup(buf$link1);
-    return return_value_babl_strdup$4;
+    char *return_value_babl_strdup_4;
+    return_value_babl_strdup_4=babl_strdup(buf_link1);
+    return return_value_babl_strdup_4;
   }
 
   i = components;
-  signed int tmp_post$5;
+  signed int tmp_post_5;
   do
   {
-    tmp_post$5 = i;
+    tmp_post_5 = i;
     i = i - 1;
-    if(tmp_post$5 == 0)
+    if(tmp_post_5 == 0)
       break;
 
-    sprintf(p, "(%s as %s) ", (*component)->instance.name, (*type$link1)->instance.name);
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen((*component)->instance.name);
-    unsigned long int return_value_strlen$7;
-    return_value_strlen$7=strlen((*type$link1)->instance.name);
-    unsigned long int return_value_strlen$8;
-    return_value_strlen$8=strlen("( as ) ");
-    p = p + (signed long int)(return_value_strlen$6 + return_value_strlen$7 + return_value_strlen$8);
+    sprintf(p, "(%s as %s) ", (*component)->instance.name, (*type_link1)->instance.name);
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen((*component)->instance.name);
+    unsigned long int return_value_strlen_7;
+    return_value_strlen_7=strlen((*type_link1)->instance.name);
+    unsigned long int return_value_strlen_8;
+    return_value_strlen_8=strlen("( as ) ");
+    p = p + (signed long int)(return_value_strlen_6 + return_value_strlen_7 + return_value_strlen_8);
     component = component + 1l;
-    type$link1 = type$link1 + 1l;
+    type_link1 = type_link1 + 1l;
   }
   while((_Bool)1);
-  char *return_value_babl_strdup$9;
-  return_value_babl_strdup$9=babl_strdup(buf$link1);
-  return return_value_babl_strdup$9;
+  char *return_value_babl_strdup_9;
+  return_value_babl_strdup_9=babl_strdup(buf_link1);
+  return return_value_babl_strdup_9;
 }
 
 // db_find_by_id
@@ -9104,9 +9104,9 @@ static signed int db_find_by_id(union _Babl *item, void *data)
 // file babl-db.c line 31
 static signed int db_find_by_name(union _Babl *item, void *data)
 {
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(item->instance.name, (char *)data);
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(item->instance.name, (char *)data);
+  if(return_value_strcmp_1 == 0)
     return 1;
 
   else
@@ -9117,18 +9117,18 @@ static signed int db_find_by_name(union _Babl *item, void *data)
 // file babl-db.c line 53
 static signed int db_hash_by_id(struct _BablHashTable *htab, union _Babl *item)
 {
-  signed int return_value_babl_hash_by_int$1;
-  return_value_babl_hash_by_int$1=babl_hash_by_int(htab, item->instance.id);
-  return return_value_babl_hash_by_int$1;
+  signed int return_value_babl_hash_by_int_1;
+  return_value_babl_hash_by_int_1=babl_hash_by_int(htab, item->instance.id);
+  return return_value_babl_hash_by_int_1;
 }
 
 // db_hash_by_name
 // file babl-db.c line 47
 static signed int db_hash_by_name(struct _BablHashTable *htab, union _Babl *item)
 {
-  signed int return_value_babl_hash_by_str$1;
-  return_value_babl_hash_by_str$1=babl_hash_by_str(htab, item->instance.name);
-  return return_value_babl_hash_by_str$1;
+  signed int return_value_babl_hash_by_str_1;
+  return_value_babl_hash_by_str_1=babl_hash_by_str(htab, item->instance.name);
+  return return_value_babl_hash_by_str_1;
 }
 
 // default_palette
@@ -9149,11 +9149,11 @@ static struct BablPalette * default_palette(void)
     pal.data = defpal_data;
     pal.data_double = defpal_double;
     pal.data_u8 = defpal_data;
-    const union _Babl *return_value_babl_format$1;
-    return_value_babl_format$1=babl_format("RGBA double");
-    const union _Babl *return_value_babl_fish$2;
-    return_value_babl_fish$2=babl_fish((const void *)pal.format, (const void *)return_value_babl_format$1);
-    babl_process(return_value_babl_fish$2, (const void *)pal.data, (void *)pal.data_double, (signed long int)pal.count);
+    const union _Babl *return_value_babl_format_1;
+    return_value_babl_format_1=babl_format("RGBA double");
+    const union _Babl *return_value_babl_fish_2;
+    return_value_babl_fish_2=babl_fish((const void *)pal.format, (const void *)return_value_babl_format_1);
+    babl_process(return_value_babl_fish_2, (const void *)pal.data, (void *)pal.data_double, (signed long int)pal.count);
     babl_palette_reset_hash(&pal);
     return &pal;
   }
@@ -9179,16 +9179,16 @@ static void destroy_path_instrumentation(struct _FishPathInstrumentation *fpi)
 // file babl-type.c line 164
 static const union _Babl * double_vector_format(void)
 {
-  const union _Babl *return_value_babl_model$1;
-  const union _Babl *return_value_babl_type$2;
-  const union _Babl *return_value_babl_component$3;
+  const union _Babl *return_value_babl_model_1;
+  const union _Babl *return_value_babl_type_2;
+  const union _Babl *return_value_babl_component_3;
   static const union _Babl *self = (const union _Babl *)(void *)0;
   if(self == ((const union _Babl *)NULL))
   {
-    return_value_babl_model$1=babl_model("Y");
-    return_value_babl_type$2=babl_type("double");
-    return_value_babl_component$3=babl_component("Y");
-    self=babl_format_new((const void *)return_value_babl_model$1, return_value_babl_type$2, return_value_babl_component$3, (void *)0);
+    return_value_babl_model_1=babl_model("Y");
+    return_value_babl_type_2=babl_type("double");
+    return_value_babl_component_3=babl_component("Y");
+    self=babl_format_new((const void *)return_value_babl_model_1, return_value_babl_type_2, return_value_babl_component_3, (void *)0);
   }
 
   return self;
@@ -9209,33 +9209,33 @@ static void doubles2halfp(void *target, void *source, signed long int numel)
   unsigned int xm;
   signed int hes;
   xp = xp + (signed long int)next;
-  signed long int tmp_post$1;
-  unsigned int *tmp_post$2;
-  unsigned short int *tmp_post$3;
-  unsigned short int *tmp_post$4;
-  unsigned short int *tmp_post$5;
-  unsigned short int *tmp_post$6;
-  unsigned short int *tmp_post$7;
-  unsigned short int *tmp_post$8;
-  unsigned short int *tmp_post$9;
-  unsigned short int *tmp_post$10;
+  signed long int tmp_post_1;
+  unsigned int *tmp_post_2;
+  unsigned short int *tmp_post_3;
+  unsigned short int *tmp_post_4;
+  unsigned short int *tmp_post_5;
+  unsigned short int *tmp_post_6;
+  unsigned short int *tmp_post_7;
+  unsigned short int *tmp_post_8;
+  unsigned short int *tmp_post_9;
+  unsigned short int *tmp_post_10;
   if(!(source == NULL) && !(target == NULL))
     do
     {
-      tmp_post$1 = numel;
+      tmp_post_1 = numel;
       numel = numel - 1l;
-      if(tmp_post$1 == 0l)
+      if(tmp_post_1 == 0l)
         break;
 
-      tmp_post$2 = xp;
+      tmp_post_2 = xp;
       xp = xp + 1l;
-      x = *tmp_post$2;
+      x = *tmp_post_2;
       xp = xp + 1l;
       if((0x7FFFFFFFu & x) == 0u)
       {
-        tmp_post$3 = hp;
+        tmp_post_3 = hp;
         hp = hp + 1l;
-        *tmp_post$3 = (unsigned short int)(x >> 16);
+        *tmp_post_3 = (unsigned short int)(x >> 16);
       }
 
       else
@@ -9245,9 +9245,9 @@ static void doubles2halfp(void *target, void *source, signed long int numel)
         xm = x & 0x000FFFFFu;
         if(xe == 0u)
         {
-          tmp_post$4 = hp;
+          tmp_post_4 = hp;
           hp = hp + 1l;
-          *tmp_post$4 = (unsigned short int)(xs >> 16);
+          *tmp_post_4 = (unsigned short int)(xs >> 16);
         }
 
         else
@@ -9255,16 +9255,16 @@ static void doubles2halfp(void *target, void *source, signed long int numel)
           {
             if(xm == 0u)
             {
-              tmp_post$5 = hp;
+              tmp_post_5 = hp;
               hp = hp + 1l;
-              *tmp_post$5 = (unsigned short int)(xs >> 16 | 0x7C00u);
+              *tmp_post_5 = (unsigned short int)(xs >> 16 | 0x7C00u);
             }
 
             else
             {
-              tmp_post$6 = hp;
+              tmp_post_6 = hp;
               hp = hp + 1l;
-              *tmp_post$6 = (unsigned short int)0xFE00u;
+              *tmp_post_6 = (unsigned short int)0xFE00u;
             }
           }
 
@@ -9274,9 +9274,9 @@ static void doubles2halfp(void *target, void *source, signed long int numel)
             hes = ((signed int)(xe >> 20) - 1023) + 15;
             if(hes >= 0x1F)
             {
-              tmp_post$7 = hp;
+              tmp_post_7 = hp;
               hp = hp + 1l;
-              *tmp_post$7 = (unsigned short int)(xs >> 16 | 0x7C00u);
+              *tmp_post_7 = (unsigned short int)(xs >> 16 | 0x7C00u);
             }
 
             else
@@ -9293,9 +9293,9 @@ static void doubles2halfp(void *target, void *source, signed long int numel)
                     hm = hm + (unsigned short int)1u;
 
                 }
-                tmp_post$8 = hp;
+                tmp_post_8 = hp;
                 hp = hp + 1l;
-                *tmp_post$8 = (unsigned short int)((signed int)hs | (signed int)hm);
+                *tmp_post_8 = (unsigned short int)((signed int)hs | (signed int)hm);
               }
 
               else
@@ -9304,16 +9304,16 @@ static void doubles2halfp(void *target, void *source, signed long int numel)
                 hm = (unsigned short int)(xm >> 10);
                 if(!((0x00000200u & xm) == 0u))
                 {
-                  tmp_post$9 = hp;
+                  tmp_post_9 = hp;
                   hp = hp + 1l;
-                  *tmp_post$9 = (unsigned short int)(((signed int)hs | (signed int)he | (signed int)hm) + (signed int)(unsigned short int)1u);
+                  *tmp_post_9 = (unsigned short int)(((signed int)hs | (signed int)he | (signed int)hm) + (signed int)(unsigned short int)1u);
                 }
 
                 else
                 {
-                  tmp_post$10 = hp;
+                  tmp_post_10 = hp;
                   hp = hp + 1l;
-                  *tmp_post$10 = (unsigned short int)((signed int)hs | (signed int)he | (signed int)hm);
+                  *tmp_post_10 = (unsigned short int)((signed int)hs | (signed int)he | (signed int)hm);
                 }
               }
           }
@@ -9335,12 +9335,12 @@ static signed int each_conv(union _Babl *babl, void *data)
   else
   {
     error=babl_conversion_error(&babl->conversion);
-    signed long int return_value_babl_conversion_cost$1;
-    return_value_babl_conversion_cost$1=babl_conversion_cost(&babl->conversion);
-    cost = (double)return_value_babl_conversion_cost$1;
-    double return_value_legal_error$2;
-    return_value_legal_error$2=legal_error$link1();
-    if(error > return_value_legal_error$2)
+    signed long int return_value_babl_conversion_cost_1;
+    return_value_babl_conversion_cost_1=babl_conversion_cost(&babl->conversion);
+    cost = (double)return_value_babl_conversion_cost_1;
+    double return_value_legal_error_2;
+    return_value_legal_error_2=legal_error_link1();
+    if(error > return_value_legal_error_2)
     {
       fprintf(output_file, "<dt style='background-color: #fcc;'>%s</dt>", babl->instance.name);
       fprintf(output_file, "<dd style='background-color: #fcc;'>");
@@ -9366,9 +9366,9 @@ static signed int each_free(union _Babl *data, void *foo)
 // file babl-introspect.c line 177
 static signed int each_introspect(union _Babl *babl, void *user_data)
 {
-  const char *return_value_babl_class_name$1;
-  return_value_babl_class_name$1=babl_class_name(babl->class_type);
-  real_babl_log$link13("babl-introspect.c", 183, (const char *)"each_introspect", "\t\"%s\"\t%i\t%s", babl->instance.name, babl->instance.id, return_value_babl_class_name$1);
+  const char *return_value_babl_class_name_1;
+  return_value_babl_class_name_1=babl_class_name(babl->class_type);
+  real_babl_log_link13("babl-introspect.c", 183, (const char *)"each_introspect", "\t\"%s\"\t%i\t%s", babl->instance.name, babl->instance.id, return_value_babl_class_name_1);
   switch(babl->class_type)
   {
     case 12235009:
@@ -9458,13 +9458,13 @@ static char * expand_path(char *path)
 static union _Babl * extension_new(const char *path, void *dl_handle, void (*destroy)(void))
 {
   union _Babl *babl;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(path);
-  void *return_value_babl_malloc$2;
-  return_value_babl_malloc$2=babl_malloc(sizeof(struct anonymous$10) /*40ul*/  + return_value_strlen$1 + (unsigned long int)1);
-  babl = (union _Babl *)return_value_babl_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(path);
+  void *return_value_babl_malloc_2;
+  return_value_babl_malloc_2=babl_malloc(sizeof(struct anonymous_10) /*40ul*/  + return_value_strlen_1 + (unsigned long int)1);
+  babl = (union _Babl *)return_value_babl_malloc_2;
   babl_set_destructor((void *)babl, babl_extension_destroy);
-  babl->instance.name = (char *)babl + (signed long int)sizeof(struct anonymous$10) /*40ul*/ ;
+  babl->instance.name = (char *)babl + (signed long int)sizeof(struct anonymous_10) /*40ul*/ ;
   strcpy(babl->instance.name, path);
   babl->instance.id = 0;
   babl->class_type = 12235025;
@@ -9551,14 +9551,14 @@ static signed int find_memcpy_fish(union _Babl *item, void *data)
 // file babl-introspect.c line 161
 static void fish_introspect(union _Babl *babl)
 {
-  real_babl_log$link13("babl-introspect.c", 164, (const char *)"fish_introspect", "\t\tprocessings:%i pixels:%li", babl->fish.processings, babl->fish.pixels);
+  real_babl_log_link13("babl-introspect.c", 164, (const char *)"fish_introspect", "\t\tprocessings:%i pixels:%li", babl->fish.processings, babl->fish.pixels);
 }
 
 // fish_path_introspect
 // file babl-introspect.c line 168
 static void fish_path_introspect(union _Babl *babl)
 {
-  real_babl_log$link13("babl-introspect.c", 171, (const char *)"fish_path_introspect", "\t\tcost:%f error:%.12f", babl->fish_path.cost, babl->fish.error);
+  real_babl_log_link13("babl-introspect.c", 171, (const char *)"fish_path_introspect", "\t\tcost:%f error:%.12f", babl->fish_path.cost, babl->fish.error);
   babl_list_each(babl->fish_path.conversion_list, each_introspect, (void *)0);
 }
 
@@ -9574,28 +9574,28 @@ static signed int foo(union _Babl *babl, void *user_data)
 static void format_introspect(union _Babl *babl)
 {
   signed int i;
-  real_babl_log$link13("babl-introspect.c", 136, (const char *)"format_introspect", "\t\tmodel=\"%s\"", babl->format.model->instance.name);
-  real_babl_log$link13("babl-introspect.c", 137, (const char *)"format_introspect", "\t\tplanar=%i", babl->format.planar);
-  real_babl_log$link13("babl-introspect.c", 138, (const char *)"format_introspect", "\t\tcomponents=%i", babl->format.components);
+  real_babl_log_link13("babl-introspect.c", 136, (const char *)"format_introspect", "\t\tmodel=\"%s\"", babl->format.model->instance.name);
+  real_babl_log_link13("babl-introspect.c", 137, (const char *)"format_introspect", "\t\tplanar=%i", babl->format.planar);
+  real_babl_log_link13("babl-introspect.c", 138, (const char *)"format_introspect", "\t\tcomponents=%i", babl->format.components);
   i = 0;
   for( ; !(i >= babl->format.components); i = i + 1)
-    real_babl_log$link13("babl-introspect.c", 145, (const char *)"format_introspect", "\t\tband[%i] type=\"%s\" sampling=\"%s\" component=\"%s\"", i, babl->format.type[(signed long int)i]->instance.name, babl->format.sampling[(signed long int)i]->instance.name, babl->format.component[(signed long int)i]->instance.name);
+    real_babl_log_link13("babl-introspect.c", 145, (const char *)"format_introspect", "\t\tband[%i] type=\"%s\" sampling=\"%s\" component=\"%s\"", i, babl->format.type[(signed long int)i]->instance.name, babl->format.sampling[(signed long int)i]->instance.name, babl->format.component[(signed long int)i]->instance.name);
 }
 
 // format_new
 // file babl-format.c line 45
-static union _Babl * format_new(const char *name, signed int id, signed int planar, signed int components, struct anonymous$0 *model, struct anonymous$1 **component, struct anonymous **sampling, const struct anonymous$2 **type)
+static union _Babl * format_new(const char *name, signed int id, signed int planar, signed int components, struct anonymous_0 *model, struct anonymous_1 **component, struct anonymous **sampling, const struct anonymous_2 **type)
 {
   union _Babl *babl;
-  signed int format_new$$1$$i;
+  signed int format_new__1__i;
   signed int j;
   signed int component_found = 0;
-  format_new$$1$$i = 0;
-  for( ; !(format_new$$1$$i >= model->components); format_new$$1$$i = format_new$$1$$i + 1)
+  format_new__1__i = 0;
+  for( ; !(format_new__1__i >= model->components); format_new__1__i = format_new__1__i + 1)
   {
     j = 0;
     for( ; !(j >= components); j = j + 1)
-      if(component[(signed long int)j] == model->component[(signed long int)format_new$$1$$i])
+      if(component[(signed long int)j] == model->component[(signed long int)format_new__1__i])
       {
         component_found = 1;
         break;
@@ -9605,24 +9605,24 @@ static union _Babl * format_new(const char *name, signed int id, signed int plan
       component_found = 0;
 
   }
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  void *return_value_babl_malloc$2;
-  return_value_babl_malloc$2=babl_malloc(sizeof(struct anonymous$4) /*120ul*/  + return_value_strlen$1 + (unsigned long int)1 + sizeof(struct anonymous$1 *) /*8ul*/  * (unsigned long int)components + sizeof(struct anonymous *) /*8ul*/  * (unsigned long int)components + sizeof(struct anonymous$2 *) /*8ul*/  * (unsigned long int)components + sizeof(signed int) /*4ul*/  * (unsigned long int)components + sizeof(signed int) /*4ul*/  * (unsigned long int)components);
-  babl = (union _Babl *)return_value_babl_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  void *return_value_babl_malloc_2;
+  return_value_babl_malloc_2=babl_malloc(sizeof(struct anonymous_4) /*120ul*/  + return_value_strlen_1 + (unsigned long int)1 + sizeof(struct anonymous_1 *) /*8ul*/  * (unsigned long int)components + sizeof(struct anonymous *) /*8ul*/  * (unsigned long int)components + sizeof(struct anonymous_2 *) /*8ul*/  * (unsigned long int)components + sizeof(signed int) /*4ul*/  * (unsigned long int)components + sizeof(signed int) /*4ul*/  * (unsigned long int)components);
+  babl = (union _Babl *)return_value_babl_malloc_2;
   babl_set_destructor((void *)babl, babl_format_destruct);
   babl->format.from_list = (struct _BablList *)(void *)0;
-  babl->format.component = (struct anonymous$1 **)(void *)((char *)babl + (signed long int)sizeof(struct anonymous$4) /*120ul*/ );
-  babl->format.type = (struct anonymous$2 **)(void *)((char *)babl->format.component + (signed long int)(sizeof(struct anonymous$1 *) /*8ul*/  * (unsigned long int)components));
-  babl->format.sampling = (struct anonymous **)(void *)((char *)babl->format.type + (signed long int)(sizeof(struct anonymous$2 *) /*8ul*/  * (unsigned long int)components));
+  babl->format.component = (struct anonymous_1 **)(void *)((char *)babl + (signed long int)sizeof(struct anonymous_4) /*120ul*/ );
+  babl->format.type = (struct anonymous_2 **)(void *)((char *)babl->format.component + (signed long int)(sizeof(struct anonymous_1 *) /*8ul*/  * (unsigned long int)components));
+  babl->format.sampling = (struct anonymous **)(void *)((char *)babl->format.type + (signed long int)(sizeof(struct anonymous_2 *) /*8ul*/  * (unsigned long int)components));
   babl->instance.name = (char *)babl->format.sampling + (signed long int)(sizeof(struct anonymous *) /*8ul*/  * (unsigned long int)components);
   babl->class_type = 12235015;
   babl->instance.id = id;
   strcpy(babl->instance.name, name);
   babl->format.model = model;
   babl->format.components = components;
-  memcpy((void *)babl->format.component, (const void *)component, sizeof(struct anonymous$1 *) /*8ul*/  * (unsigned long int)components);
-  memcpy((void *)babl->format.type, (const void *)type, sizeof(struct anonymous$2 *) /*8ul*/  * (unsigned long int)components);
+  memcpy((void *)babl->format.component, (const void *)component, sizeof(struct anonymous_1 *) /*8ul*/  * (unsigned long int)components);
+  memcpy((void *)babl->format.type, (const void *)type, sizeof(struct anonymous_2 *) /*8ul*/  * (unsigned long int)components);
   memcpy((void *)babl->format.sampling, (const void *)sampling, sizeof(struct anonymous *) /*8ul*/  * (unsigned long int)components);
   babl->format.planar = planar;
   babl->format.bytes_per_pixel = 0;
@@ -9641,457 +9641,457 @@ static union _Babl * format_new(const char *name, signed int id, signed int plan
 // file model-rgb.c line 478
 static void formats(void)
 {
-  const union _Babl *return_value_babl_model_from_id$1;
-  return_value_babl_model_from_id$1=babl_model_from_id(1010);
-  const union _Babl *return_value_babl_type_from_id$2;
-  return_value_babl_type_from_id$2=babl_type_from_id(101);
-  const union _Babl *return_value_babl_component_from_id$3;
-  return_value_babl_component_from_id$3=babl_component_from_id(10012);
-  const union _Babl *return_value_babl_component_from_id$4;
-  return_value_babl_component_from_id$4=babl_component_from_id(10013);
-  const union _Babl *return_value_babl_component_from_id$5;
-  return_value_babl_component_from_id$5=babl_component_from_id(10014);
-  babl_format_new((const void *)"id", 100001, return_value_babl_model_from_id$1, return_value_babl_type_from_id$2, return_value_babl_component_from_id$3, return_value_babl_component_from_id$4, return_value_babl_component_from_id$5, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$6;
-  return_value_babl_model_from_id$6=babl_model_from_id(1011);
-  const union _Babl *return_value_babl_type_from_id$7;
-  return_value_babl_type_from_id$7=babl_type_from_id(101);
-  const union _Babl *return_value_babl_component_from_id$8;
-  return_value_babl_component_from_id$8=babl_component_from_id(10012);
-  const union _Babl *return_value_babl_component_from_id$9;
-  return_value_babl_component_from_id$9=babl_component_from_id(10013);
-  const union _Babl *return_value_babl_component_from_id$10;
-  return_value_babl_component_from_id$10=babl_component_from_id(10014);
-  const union _Babl *return_value_babl_component_from_id$11;
-  return_value_babl_component_from_id$11=babl_component_from_id(10006);
-  babl_format_new((const void *)"id", 100002, return_value_babl_model_from_id$6, return_value_babl_type_from_id$7, return_value_babl_component_from_id$8, return_value_babl_component_from_id$9, return_value_babl_component_from_id$10, return_value_babl_component_from_id$11, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$12;
-  return_value_babl_model_from_id$12=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_type_from_id$13;
-  return_value_babl_type_from_id$13=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$14;
-  return_value_babl_component_from_id$14=babl_component_from_id(10003);
-  const union _Babl *return_value_babl_component_from_id$15;
-  return_value_babl_component_from_id$15=babl_component_from_id(10004);
-  const union _Babl *return_value_babl_component_from_id$16;
-  return_value_babl_component_from_id$16=babl_component_from_id(10005);
-  const union _Babl *return_value_babl_component_from_id$17;
-  return_value_babl_component_from_id$17=babl_component_from_id(10006);
-  babl_format_new((const void *)"id", 100006, return_value_babl_model_from_id$12, return_value_babl_type_from_id$13, return_value_babl_component_from_id$14, return_value_babl_component_from_id$15, return_value_babl_component_from_id$16, return_value_babl_component_from_id$17, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$18;
-  return_value_babl_model_from_id$18=babl_model_from_id(1004);
-  const union _Babl *return_value_babl_type_from_id$19;
-  return_value_babl_type_from_id$19=babl_type_from_id(105);
-  const union _Babl *return_value_babl_component_from_id$20;
-  return_value_babl_component_from_id$20=babl_component_from_id(10003);
-  const union _Babl *return_value_babl_component_from_id$21;
-  return_value_babl_component_from_id$21=babl_component_from_id(10004);
-  const union _Babl *return_value_babl_component_from_id$22;
-  return_value_babl_component_from_id$22=babl_component_from_id(10005);
-  babl_format_new((const void *)"id", 100005, return_value_babl_model_from_id$18, return_value_babl_type_from_id$19, return_value_babl_component_from_id$20, return_value_babl_component_from_id$21, return_value_babl_component_from_id$22, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$23;
-  return_value_babl_model_from_id$23=babl_model_from_id(1004);
-  const union _Babl *return_value_babl_type_from_id$24;
-  return_value_babl_type_from_id$24=babl_type_from_id(104);
-  const union _Babl *return_value_babl_component_from_id$25;
-  return_value_babl_component_from_id$25=babl_component_from_id(10003);
-  const union _Babl *return_value_babl_component_from_id$26;
-  return_value_babl_component_from_id$26=babl_component_from_id(10004);
-  const union _Babl *return_value_babl_component_from_id$27;
-  return_value_babl_component_from_id$27=babl_component_from_id(10005);
-  babl_format_new((const void *)"id", 100003, return_value_babl_model_from_id$23, return_value_babl_type_from_id$24, return_value_babl_component_from_id$25, return_value_babl_component_from_id$26, return_value_babl_component_from_id$27, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$28;
-  return_value_babl_model_from_id$28=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_type_from_id$29;
-  return_value_babl_type_from_id$29=babl_type_from_id(104);
-  const union _Babl *return_value_babl_component_from_id$30;
-  return_value_babl_component_from_id$30=babl_component_from_id(10003);
-  const union _Babl *return_value_babl_component_from_id$31;
-  return_value_babl_component_from_id$31=babl_component_from_id(10004);
-  const union _Babl *return_value_babl_component_from_id$32;
-  return_value_babl_component_from_id$32=babl_component_from_id(10005);
-  const union _Babl *return_value_babl_component_from_id$33;
-  return_value_babl_component_from_id$33=babl_component_from_id(10006);
-  babl_format_new((const void *)"id", 100004, return_value_babl_model_from_id$28, return_value_babl_type_from_id$29, return_value_babl_component_from_id$30, return_value_babl_component_from_id$31, return_value_babl_component_from_id$32, return_value_babl_component_from_id$33, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$34;
-  return_value_babl_model_from_id$34=babl_model_from_id(1006);
-  const union _Babl *return_value_babl_type_from_id$35;
-  return_value_babl_type_from_id$35=babl_type_from_id(104);
-  const union _Babl *return_value_babl_component_from_id$36;
-  return_value_babl_component_from_id$36=babl_component_from_id(10007);
-  const union _Babl *return_value_babl_component_from_id$37;
-  return_value_babl_component_from_id$37=babl_component_from_id(10008);
-  const union _Babl *return_value_babl_component_from_id$38;
-  return_value_babl_component_from_id$38=babl_component_from_id(10009);
-  const union _Babl *return_value_babl_component_from_id$39;
-  return_value_babl_component_from_id$39=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$34, return_value_babl_type_from_id$35, return_value_babl_component_from_id$36, return_value_babl_component_from_id$37, return_value_babl_component_from_id$38, return_value_babl_component_from_id$39, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$40;
-  return_value_babl_model_from_id$40=babl_model_from_id(1010);
-  const union _Babl *return_value_babl_type_from_id$41;
-  return_value_babl_type_from_id$41=babl_type_from_id(104);
-  const union _Babl *return_value_babl_component_from_id$42;
-  return_value_babl_component_from_id$42=babl_component_from_id(10012);
-  const union _Babl *return_value_babl_component_from_id$43;
-  return_value_babl_component_from_id$43=babl_component_from_id(10013);
-  const union _Babl *return_value_babl_component_from_id$44;
-  return_value_babl_component_from_id$44=babl_component_from_id(10014);
-  babl_format_new((const void *)return_value_babl_model_from_id$40, return_value_babl_type_from_id$41, return_value_babl_component_from_id$42, return_value_babl_component_from_id$43, return_value_babl_component_from_id$44, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$45;
-  return_value_babl_model_from_id$45=babl_model_from_id(1011);
-  const union _Babl *return_value_babl_type_from_id$46;
-  return_value_babl_type_from_id$46=babl_type_from_id(104);
-  const union _Babl *return_value_babl_component_from_id$47;
-  return_value_babl_component_from_id$47=babl_component_from_id(10012);
-  const union _Babl *return_value_babl_component_from_id$48;
-  return_value_babl_component_from_id$48=babl_component_from_id(10013);
-  const union _Babl *return_value_babl_component_from_id$49;
-  return_value_babl_component_from_id$49=babl_component_from_id(10014);
-  const union _Babl *return_value_babl_component_from_id$50;
-  return_value_babl_component_from_id$50=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$45, return_value_babl_type_from_id$46, return_value_babl_component_from_id$47, return_value_babl_component_from_id$48, return_value_babl_component_from_id$49, return_value_babl_component_from_id$50, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$51;
-  return_value_babl_model_from_id$51=babl_model_from_id(1012);
-  const union _Babl *return_value_babl_type_from_id$52;
-  return_value_babl_type_from_id$52=babl_type_from_id(104);
-  const union _Babl *return_value_babl_component_from_id$53;
-  return_value_babl_component_from_id$53=babl_component_from_id(10015);
-  const union _Babl *return_value_babl_component_from_id$54;
-  return_value_babl_component_from_id$54=babl_component_from_id(10016);
-  const union _Babl *return_value_babl_component_from_id$55;
-  return_value_babl_component_from_id$55=babl_component_from_id(10017);
-  const union _Babl *return_value_babl_component_from_id$56;
-  return_value_babl_component_from_id$56=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$51, return_value_babl_type_from_id$52, return_value_babl_component_from_id$53, return_value_babl_component_from_id$54, return_value_babl_component_from_id$55, return_value_babl_component_from_id$56, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$57;
-  return_value_babl_model_from_id$57=babl_model_from_id(1004);
-  const union _Babl *return_value_babl_type$58;
-  return_value_babl_type$58=babl_type("u15");
-  const union _Babl *return_value_babl_component_from_id$59;
-  return_value_babl_component_from_id$59=babl_component_from_id(10003);
-  const union _Babl *return_value_babl_component_from_id$60;
-  return_value_babl_component_from_id$60=babl_component_from_id(10004);
-  const union _Babl *return_value_babl_component_from_id$61;
-  return_value_babl_component_from_id$61=babl_component_from_id(10005);
-  babl_format_new((const void *)return_value_babl_model_from_id$57, return_value_babl_type$58, return_value_babl_component_from_id$59, return_value_babl_component_from_id$60, return_value_babl_component_from_id$61, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$62;
-  return_value_babl_model_from_id$62=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_type$63;
-  return_value_babl_type$63=babl_type("u15");
-  const union _Babl *return_value_babl_component_from_id$64;
-  return_value_babl_component_from_id$64=babl_component_from_id(10003);
-  const union _Babl *return_value_babl_component_from_id$65;
-  return_value_babl_component_from_id$65=babl_component_from_id(10004);
-  const union _Babl *return_value_babl_component_from_id$66;
-  return_value_babl_component_from_id$66=babl_component_from_id(10005);
-  const union _Babl *return_value_babl_component_from_id$67;
-  return_value_babl_component_from_id$67=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$62, return_value_babl_type$63, return_value_babl_component_from_id$64, return_value_babl_component_from_id$65, return_value_babl_component_from_id$66, return_value_babl_component_from_id$67, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$68;
-  return_value_babl_model_from_id$68=babl_model_from_id(1006);
-  const union _Babl *return_value_babl_type$69;
-  return_value_babl_type$69=babl_type("u15");
-  const union _Babl *return_value_babl_component_from_id$70;
-  return_value_babl_component_from_id$70=babl_component_from_id(10007);
-  const union _Babl *return_value_babl_component_from_id$71;
-  return_value_babl_component_from_id$71=babl_component_from_id(10008);
-  const union _Babl *return_value_babl_component_from_id$72;
-  return_value_babl_component_from_id$72=babl_component_from_id(10009);
-  const union _Babl *return_value_babl_component_from_id$73;
-  return_value_babl_component_from_id$73=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$68, return_value_babl_type$69, return_value_babl_component_from_id$70, return_value_babl_component_from_id$71, return_value_babl_component_from_id$72, return_value_babl_component_from_id$73, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$74;
-  return_value_babl_model_from_id$74=babl_model_from_id(1010);
-  const union _Babl *return_value_babl_type$75;
-  return_value_babl_type$75=babl_type("u15");
-  const union _Babl *return_value_babl_component_from_id$76;
-  return_value_babl_component_from_id$76=babl_component_from_id(10012);
-  const union _Babl *return_value_babl_component_from_id$77;
-  return_value_babl_component_from_id$77=babl_component_from_id(10013);
-  const union _Babl *return_value_babl_component_from_id$78;
-  return_value_babl_component_from_id$78=babl_component_from_id(10014);
-  babl_format_new((const void *)return_value_babl_model_from_id$74, return_value_babl_type$75, return_value_babl_component_from_id$76, return_value_babl_component_from_id$77, return_value_babl_component_from_id$78, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$79;
-  return_value_babl_model_from_id$79=babl_model_from_id(1011);
-  const union _Babl *return_value_babl_type$80;
-  return_value_babl_type$80=babl_type("u15");
-  const union _Babl *return_value_babl_component_from_id$81;
-  return_value_babl_component_from_id$81=babl_component_from_id(10012);
-  const union _Babl *return_value_babl_component_from_id$82;
-  return_value_babl_component_from_id$82=babl_component_from_id(10013);
-  const union _Babl *return_value_babl_component_from_id$83;
-  return_value_babl_component_from_id$83=babl_component_from_id(10014);
-  const union _Babl *return_value_babl_component_from_id$84;
-  return_value_babl_component_from_id$84=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$79, return_value_babl_type$80, return_value_babl_component_from_id$81, return_value_babl_component_from_id$82, return_value_babl_component_from_id$83, return_value_babl_component_from_id$84, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$85;
-  return_value_babl_model_from_id$85=babl_model_from_id(1012);
-  const union _Babl *return_value_babl_type$86;
-  return_value_babl_type$86=babl_type("u15");
-  const union _Babl *return_value_babl_component_from_id$87;
-  return_value_babl_component_from_id$87=babl_component_from_id(10015);
-  const union _Babl *return_value_babl_component_from_id$88;
-  return_value_babl_component_from_id$88=babl_component_from_id(10016);
-  const union _Babl *return_value_babl_component_from_id$89;
-  return_value_babl_component_from_id$89=babl_component_from_id(10017);
-  const union _Babl *return_value_babl_component_from_id$90;
-  return_value_babl_component_from_id$90=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$85, return_value_babl_type$86, return_value_babl_component_from_id$87, return_value_babl_component_from_id$88, return_value_babl_component_from_id$89, return_value_babl_component_from_id$90, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$91;
-  return_value_babl_model_from_id$91=babl_model_from_id(1004);
-  const union _Babl *return_value_babl_type_from_id$92;
-  return_value_babl_type_from_id$92=babl_type_from_id(103);
-  const union _Babl *return_value_babl_component_from_id$93;
-  return_value_babl_component_from_id$93=babl_component_from_id(10003);
-  const union _Babl *return_value_babl_component_from_id$94;
-  return_value_babl_component_from_id$94=babl_component_from_id(10004);
-  const union _Babl *return_value_babl_component_from_id$95;
-  return_value_babl_component_from_id$95=babl_component_from_id(10005);
-  babl_format_new((const void *)return_value_babl_model_from_id$91, return_value_babl_type_from_id$92, return_value_babl_component_from_id$93, return_value_babl_component_from_id$94, return_value_babl_component_from_id$95, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$96;
-  return_value_babl_model_from_id$96=babl_model_from_id(1005);
-  const union _Babl *return_value_babl_type_from_id$97;
-  return_value_babl_type_from_id$97=babl_type_from_id(103);
-  const union _Babl *return_value_babl_component_from_id$98;
-  return_value_babl_component_from_id$98=babl_component_from_id(10003);
-  const union _Babl *return_value_babl_component_from_id$99;
-  return_value_babl_component_from_id$99=babl_component_from_id(10004);
-  const union _Babl *return_value_babl_component_from_id$100;
-  return_value_babl_component_from_id$100=babl_component_from_id(10005);
-  const union _Babl *return_value_babl_component_from_id$101;
-  return_value_babl_component_from_id$101=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$96, return_value_babl_type_from_id$97, return_value_babl_component_from_id$98, return_value_babl_component_from_id$99, return_value_babl_component_from_id$100, return_value_babl_component_from_id$101, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$102;
-  return_value_babl_model_from_id$102=babl_model_from_id(1006);
-  const union _Babl *return_value_babl_type_from_id$103;
-  return_value_babl_type_from_id$103=babl_type_from_id(103);
-  const union _Babl *return_value_babl_component_from_id$104;
-  return_value_babl_component_from_id$104=babl_component_from_id(10007);
-  const union _Babl *return_value_babl_component_from_id$105;
-  return_value_babl_component_from_id$105=babl_component_from_id(10008);
-  const union _Babl *return_value_babl_component_from_id$106;
-  return_value_babl_component_from_id$106=babl_component_from_id(10009);
-  const union _Babl *return_value_babl_component_from_id$107;
-  return_value_babl_component_from_id$107=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$102, return_value_babl_type_from_id$103, return_value_babl_component_from_id$104, return_value_babl_component_from_id$105, return_value_babl_component_from_id$106, return_value_babl_component_from_id$107, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$108;
-  return_value_babl_model_from_id$108=babl_model_from_id(1010);
-  const union _Babl *return_value_babl_type_from_id$109;
-  return_value_babl_type_from_id$109=babl_type_from_id(103);
-  const union _Babl *return_value_babl_component_from_id$110;
-  return_value_babl_component_from_id$110=babl_component_from_id(10012);
-  const union _Babl *return_value_babl_component_from_id$111;
-  return_value_babl_component_from_id$111=babl_component_from_id(10013);
-  const union _Babl *return_value_babl_component_from_id$112;
-  return_value_babl_component_from_id$112=babl_component_from_id(10014);
-  babl_format_new((const void *)return_value_babl_model_from_id$108, return_value_babl_type_from_id$109, return_value_babl_component_from_id$110, return_value_babl_component_from_id$111, return_value_babl_component_from_id$112, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$113;
-  return_value_babl_model_from_id$113=babl_model_from_id(1011);
-  const union _Babl *return_value_babl_type_from_id$114;
-  return_value_babl_type_from_id$114=babl_type_from_id(103);
-  const union _Babl *return_value_babl_component_from_id$115;
-  return_value_babl_component_from_id$115=babl_component_from_id(10012);
-  const union _Babl *return_value_babl_component_from_id$116;
-  return_value_babl_component_from_id$116=babl_component_from_id(10013);
-  const union _Babl *return_value_babl_component_from_id$117;
-  return_value_babl_component_from_id$117=babl_component_from_id(10014);
-  const union _Babl *return_value_babl_component_from_id$118;
-  return_value_babl_component_from_id$118=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$113, return_value_babl_type_from_id$114, return_value_babl_component_from_id$115, return_value_babl_component_from_id$116, return_value_babl_component_from_id$117, return_value_babl_component_from_id$118, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$119;
-  return_value_babl_model_from_id$119=babl_model_from_id(1012);
-  const union _Babl *return_value_babl_type_from_id$120;
-  return_value_babl_type_from_id$120=babl_type_from_id(103);
-  const union _Babl *return_value_babl_component_from_id$121;
-  return_value_babl_component_from_id$121=babl_component_from_id(10015);
-  const union _Babl *return_value_babl_component_from_id$122;
-  return_value_babl_component_from_id$122=babl_component_from_id(10016);
-  const union _Babl *return_value_babl_component_from_id$123;
-  return_value_babl_component_from_id$123=babl_component_from_id(10017);
-  const union _Babl *return_value_babl_component_from_id$124;
-  return_value_babl_component_from_id$124=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$119, return_value_babl_type_from_id$120, return_value_babl_component_from_id$121, return_value_babl_component_from_id$122, return_value_babl_component_from_id$123, return_value_babl_component_from_id$124, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_1;
+  return_value_babl_model_from_id_1=babl_model_from_id(1010);
+  const union _Babl *return_value_babl_type_from_id_2;
+  return_value_babl_type_from_id_2=babl_type_from_id(101);
+  const union _Babl *return_value_babl_component_from_id_3;
+  return_value_babl_component_from_id_3=babl_component_from_id(10012);
+  const union _Babl *return_value_babl_component_from_id_4;
+  return_value_babl_component_from_id_4=babl_component_from_id(10013);
+  const union _Babl *return_value_babl_component_from_id_5;
+  return_value_babl_component_from_id_5=babl_component_from_id(10014);
+  babl_format_new((const void *)"id", 100001, return_value_babl_model_from_id_1, return_value_babl_type_from_id_2, return_value_babl_component_from_id_3, return_value_babl_component_from_id_4, return_value_babl_component_from_id_5, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_6;
+  return_value_babl_model_from_id_6=babl_model_from_id(1011);
+  const union _Babl *return_value_babl_type_from_id_7;
+  return_value_babl_type_from_id_7=babl_type_from_id(101);
+  const union _Babl *return_value_babl_component_from_id_8;
+  return_value_babl_component_from_id_8=babl_component_from_id(10012);
+  const union _Babl *return_value_babl_component_from_id_9;
+  return_value_babl_component_from_id_9=babl_component_from_id(10013);
+  const union _Babl *return_value_babl_component_from_id_10;
+  return_value_babl_component_from_id_10=babl_component_from_id(10014);
+  const union _Babl *return_value_babl_component_from_id_11;
+  return_value_babl_component_from_id_11=babl_component_from_id(10006);
+  babl_format_new((const void *)"id", 100002, return_value_babl_model_from_id_6, return_value_babl_type_from_id_7, return_value_babl_component_from_id_8, return_value_babl_component_from_id_9, return_value_babl_component_from_id_10, return_value_babl_component_from_id_11, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_12;
+  return_value_babl_model_from_id_12=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_type_from_id_13;
+  return_value_babl_type_from_id_13=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_14;
+  return_value_babl_component_from_id_14=babl_component_from_id(10003);
+  const union _Babl *return_value_babl_component_from_id_15;
+  return_value_babl_component_from_id_15=babl_component_from_id(10004);
+  const union _Babl *return_value_babl_component_from_id_16;
+  return_value_babl_component_from_id_16=babl_component_from_id(10005);
+  const union _Babl *return_value_babl_component_from_id_17;
+  return_value_babl_component_from_id_17=babl_component_from_id(10006);
+  babl_format_new((const void *)"id", 100006, return_value_babl_model_from_id_12, return_value_babl_type_from_id_13, return_value_babl_component_from_id_14, return_value_babl_component_from_id_15, return_value_babl_component_from_id_16, return_value_babl_component_from_id_17, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_18;
+  return_value_babl_model_from_id_18=babl_model_from_id(1004);
+  const union _Babl *return_value_babl_type_from_id_19;
+  return_value_babl_type_from_id_19=babl_type_from_id(105);
+  const union _Babl *return_value_babl_component_from_id_20;
+  return_value_babl_component_from_id_20=babl_component_from_id(10003);
+  const union _Babl *return_value_babl_component_from_id_21;
+  return_value_babl_component_from_id_21=babl_component_from_id(10004);
+  const union _Babl *return_value_babl_component_from_id_22;
+  return_value_babl_component_from_id_22=babl_component_from_id(10005);
+  babl_format_new((const void *)"id", 100005, return_value_babl_model_from_id_18, return_value_babl_type_from_id_19, return_value_babl_component_from_id_20, return_value_babl_component_from_id_21, return_value_babl_component_from_id_22, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_23;
+  return_value_babl_model_from_id_23=babl_model_from_id(1004);
+  const union _Babl *return_value_babl_type_from_id_24;
+  return_value_babl_type_from_id_24=babl_type_from_id(104);
+  const union _Babl *return_value_babl_component_from_id_25;
+  return_value_babl_component_from_id_25=babl_component_from_id(10003);
+  const union _Babl *return_value_babl_component_from_id_26;
+  return_value_babl_component_from_id_26=babl_component_from_id(10004);
+  const union _Babl *return_value_babl_component_from_id_27;
+  return_value_babl_component_from_id_27=babl_component_from_id(10005);
+  babl_format_new((const void *)"id", 100003, return_value_babl_model_from_id_23, return_value_babl_type_from_id_24, return_value_babl_component_from_id_25, return_value_babl_component_from_id_26, return_value_babl_component_from_id_27, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_28;
+  return_value_babl_model_from_id_28=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_type_from_id_29;
+  return_value_babl_type_from_id_29=babl_type_from_id(104);
+  const union _Babl *return_value_babl_component_from_id_30;
+  return_value_babl_component_from_id_30=babl_component_from_id(10003);
+  const union _Babl *return_value_babl_component_from_id_31;
+  return_value_babl_component_from_id_31=babl_component_from_id(10004);
+  const union _Babl *return_value_babl_component_from_id_32;
+  return_value_babl_component_from_id_32=babl_component_from_id(10005);
+  const union _Babl *return_value_babl_component_from_id_33;
+  return_value_babl_component_from_id_33=babl_component_from_id(10006);
+  babl_format_new((const void *)"id", 100004, return_value_babl_model_from_id_28, return_value_babl_type_from_id_29, return_value_babl_component_from_id_30, return_value_babl_component_from_id_31, return_value_babl_component_from_id_32, return_value_babl_component_from_id_33, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_34;
+  return_value_babl_model_from_id_34=babl_model_from_id(1006);
+  const union _Babl *return_value_babl_type_from_id_35;
+  return_value_babl_type_from_id_35=babl_type_from_id(104);
+  const union _Babl *return_value_babl_component_from_id_36;
+  return_value_babl_component_from_id_36=babl_component_from_id(10007);
+  const union _Babl *return_value_babl_component_from_id_37;
+  return_value_babl_component_from_id_37=babl_component_from_id(10008);
+  const union _Babl *return_value_babl_component_from_id_38;
+  return_value_babl_component_from_id_38=babl_component_from_id(10009);
+  const union _Babl *return_value_babl_component_from_id_39;
+  return_value_babl_component_from_id_39=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_34, return_value_babl_type_from_id_35, return_value_babl_component_from_id_36, return_value_babl_component_from_id_37, return_value_babl_component_from_id_38, return_value_babl_component_from_id_39, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_40;
+  return_value_babl_model_from_id_40=babl_model_from_id(1010);
+  const union _Babl *return_value_babl_type_from_id_41;
+  return_value_babl_type_from_id_41=babl_type_from_id(104);
+  const union _Babl *return_value_babl_component_from_id_42;
+  return_value_babl_component_from_id_42=babl_component_from_id(10012);
+  const union _Babl *return_value_babl_component_from_id_43;
+  return_value_babl_component_from_id_43=babl_component_from_id(10013);
+  const union _Babl *return_value_babl_component_from_id_44;
+  return_value_babl_component_from_id_44=babl_component_from_id(10014);
+  babl_format_new((const void *)return_value_babl_model_from_id_40, return_value_babl_type_from_id_41, return_value_babl_component_from_id_42, return_value_babl_component_from_id_43, return_value_babl_component_from_id_44, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_45;
+  return_value_babl_model_from_id_45=babl_model_from_id(1011);
+  const union _Babl *return_value_babl_type_from_id_46;
+  return_value_babl_type_from_id_46=babl_type_from_id(104);
+  const union _Babl *return_value_babl_component_from_id_47;
+  return_value_babl_component_from_id_47=babl_component_from_id(10012);
+  const union _Babl *return_value_babl_component_from_id_48;
+  return_value_babl_component_from_id_48=babl_component_from_id(10013);
+  const union _Babl *return_value_babl_component_from_id_49;
+  return_value_babl_component_from_id_49=babl_component_from_id(10014);
+  const union _Babl *return_value_babl_component_from_id_50;
+  return_value_babl_component_from_id_50=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_45, return_value_babl_type_from_id_46, return_value_babl_component_from_id_47, return_value_babl_component_from_id_48, return_value_babl_component_from_id_49, return_value_babl_component_from_id_50, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_51;
+  return_value_babl_model_from_id_51=babl_model_from_id(1012);
+  const union _Babl *return_value_babl_type_from_id_52;
+  return_value_babl_type_from_id_52=babl_type_from_id(104);
+  const union _Babl *return_value_babl_component_from_id_53;
+  return_value_babl_component_from_id_53=babl_component_from_id(10015);
+  const union _Babl *return_value_babl_component_from_id_54;
+  return_value_babl_component_from_id_54=babl_component_from_id(10016);
+  const union _Babl *return_value_babl_component_from_id_55;
+  return_value_babl_component_from_id_55=babl_component_from_id(10017);
+  const union _Babl *return_value_babl_component_from_id_56;
+  return_value_babl_component_from_id_56=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_51, return_value_babl_type_from_id_52, return_value_babl_component_from_id_53, return_value_babl_component_from_id_54, return_value_babl_component_from_id_55, return_value_babl_component_from_id_56, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_57;
+  return_value_babl_model_from_id_57=babl_model_from_id(1004);
+  const union _Babl *return_value_babl_type_58;
+  return_value_babl_type_58=babl_type("u15");
+  const union _Babl *return_value_babl_component_from_id_59;
+  return_value_babl_component_from_id_59=babl_component_from_id(10003);
+  const union _Babl *return_value_babl_component_from_id_60;
+  return_value_babl_component_from_id_60=babl_component_from_id(10004);
+  const union _Babl *return_value_babl_component_from_id_61;
+  return_value_babl_component_from_id_61=babl_component_from_id(10005);
+  babl_format_new((const void *)return_value_babl_model_from_id_57, return_value_babl_type_58, return_value_babl_component_from_id_59, return_value_babl_component_from_id_60, return_value_babl_component_from_id_61, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_62;
+  return_value_babl_model_from_id_62=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_type_63;
+  return_value_babl_type_63=babl_type("u15");
+  const union _Babl *return_value_babl_component_from_id_64;
+  return_value_babl_component_from_id_64=babl_component_from_id(10003);
+  const union _Babl *return_value_babl_component_from_id_65;
+  return_value_babl_component_from_id_65=babl_component_from_id(10004);
+  const union _Babl *return_value_babl_component_from_id_66;
+  return_value_babl_component_from_id_66=babl_component_from_id(10005);
+  const union _Babl *return_value_babl_component_from_id_67;
+  return_value_babl_component_from_id_67=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_62, return_value_babl_type_63, return_value_babl_component_from_id_64, return_value_babl_component_from_id_65, return_value_babl_component_from_id_66, return_value_babl_component_from_id_67, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_68;
+  return_value_babl_model_from_id_68=babl_model_from_id(1006);
+  const union _Babl *return_value_babl_type_69;
+  return_value_babl_type_69=babl_type("u15");
+  const union _Babl *return_value_babl_component_from_id_70;
+  return_value_babl_component_from_id_70=babl_component_from_id(10007);
+  const union _Babl *return_value_babl_component_from_id_71;
+  return_value_babl_component_from_id_71=babl_component_from_id(10008);
+  const union _Babl *return_value_babl_component_from_id_72;
+  return_value_babl_component_from_id_72=babl_component_from_id(10009);
+  const union _Babl *return_value_babl_component_from_id_73;
+  return_value_babl_component_from_id_73=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_68, return_value_babl_type_69, return_value_babl_component_from_id_70, return_value_babl_component_from_id_71, return_value_babl_component_from_id_72, return_value_babl_component_from_id_73, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_74;
+  return_value_babl_model_from_id_74=babl_model_from_id(1010);
+  const union _Babl *return_value_babl_type_75;
+  return_value_babl_type_75=babl_type("u15");
+  const union _Babl *return_value_babl_component_from_id_76;
+  return_value_babl_component_from_id_76=babl_component_from_id(10012);
+  const union _Babl *return_value_babl_component_from_id_77;
+  return_value_babl_component_from_id_77=babl_component_from_id(10013);
+  const union _Babl *return_value_babl_component_from_id_78;
+  return_value_babl_component_from_id_78=babl_component_from_id(10014);
+  babl_format_new((const void *)return_value_babl_model_from_id_74, return_value_babl_type_75, return_value_babl_component_from_id_76, return_value_babl_component_from_id_77, return_value_babl_component_from_id_78, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_79;
+  return_value_babl_model_from_id_79=babl_model_from_id(1011);
+  const union _Babl *return_value_babl_type_80;
+  return_value_babl_type_80=babl_type("u15");
+  const union _Babl *return_value_babl_component_from_id_81;
+  return_value_babl_component_from_id_81=babl_component_from_id(10012);
+  const union _Babl *return_value_babl_component_from_id_82;
+  return_value_babl_component_from_id_82=babl_component_from_id(10013);
+  const union _Babl *return_value_babl_component_from_id_83;
+  return_value_babl_component_from_id_83=babl_component_from_id(10014);
+  const union _Babl *return_value_babl_component_from_id_84;
+  return_value_babl_component_from_id_84=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_79, return_value_babl_type_80, return_value_babl_component_from_id_81, return_value_babl_component_from_id_82, return_value_babl_component_from_id_83, return_value_babl_component_from_id_84, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_85;
+  return_value_babl_model_from_id_85=babl_model_from_id(1012);
+  const union _Babl *return_value_babl_type_86;
+  return_value_babl_type_86=babl_type("u15");
+  const union _Babl *return_value_babl_component_from_id_87;
+  return_value_babl_component_from_id_87=babl_component_from_id(10015);
+  const union _Babl *return_value_babl_component_from_id_88;
+  return_value_babl_component_from_id_88=babl_component_from_id(10016);
+  const union _Babl *return_value_babl_component_from_id_89;
+  return_value_babl_component_from_id_89=babl_component_from_id(10017);
+  const union _Babl *return_value_babl_component_from_id_90;
+  return_value_babl_component_from_id_90=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_85, return_value_babl_type_86, return_value_babl_component_from_id_87, return_value_babl_component_from_id_88, return_value_babl_component_from_id_89, return_value_babl_component_from_id_90, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_91;
+  return_value_babl_model_from_id_91=babl_model_from_id(1004);
+  const union _Babl *return_value_babl_type_from_id_92;
+  return_value_babl_type_from_id_92=babl_type_from_id(103);
+  const union _Babl *return_value_babl_component_from_id_93;
+  return_value_babl_component_from_id_93=babl_component_from_id(10003);
+  const union _Babl *return_value_babl_component_from_id_94;
+  return_value_babl_component_from_id_94=babl_component_from_id(10004);
+  const union _Babl *return_value_babl_component_from_id_95;
+  return_value_babl_component_from_id_95=babl_component_from_id(10005);
+  babl_format_new((const void *)return_value_babl_model_from_id_91, return_value_babl_type_from_id_92, return_value_babl_component_from_id_93, return_value_babl_component_from_id_94, return_value_babl_component_from_id_95, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_96;
+  return_value_babl_model_from_id_96=babl_model_from_id(1005);
+  const union _Babl *return_value_babl_type_from_id_97;
+  return_value_babl_type_from_id_97=babl_type_from_id(103);
+  const union _Babl *return_value_babl_component_from_id_98;
+  return_value_babl_component_from_id_98=babl_component_from_id(10003);
+  const union _Babl *return_value_babl_component_from_id_99;
+  return_value_babl_component_from_id_99=babl_component_from_id(10004);
+  const union _Babl *return_value_babl_component_from_id_100;
+  return_value_babl_component_from_id_100=babl_component_from_id(10005);
+  const union _Babl *return_value_babl_component_from_id_101;
+  return_value_babl_component_from_id_101=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_96, return_value_babl_type_from_id_97, return_value_babl_component_from_id_98, return_value_babl_component_from_id_99, return_value_babl_component_from_id_100, return_value_babl_component_from_id_101, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_102;
+  return_value_babl_model_from_id_102=babl_model_from_id(1006);
+  const union _Babl *return_value_babl_type_from_id_103;
+  return_value_babl_type_from_id_103=babl_type_from_id(103);
+  const union _Babl *return_value_babl_component_from_id_104;
+  return_value_babl_component_from_id_104=babl_component_from_id(10007);
+  const union _Babl *return_value_babl_component_from_id_105;
+  return_value_babl_component_from_id_105=babl_component_from_id(10008);
+  const union _Babl *return_value_babl_component_from_id_106;
+  return_value_babl_component_from_id_106=babl_component_from_id(10009);
+  const union _Babl *return_value_babl_component_from_id_107;
+  return_value_babl_component_from_id_107=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_102, return_value_babl_type_from_id_103, return_value_babl_component_from_id_104, return_value_babl_component_from_id_105, return_value_babl_component_from_id_106, return_value_babl_component_from_id_107, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_108;
+  return_value_babl_model_from_id_108=babl_model_from_id(1010);
+  const union _Babl *return_value_babl_type_from_id_109;
+  return_value_babl_type_from_id_109=babl_type_from_id(103);
+  const union _Babl *return_value_babl_component_from_id_110;
+  return_value_babl_component_from_id_110=babl_component_from_id(10012);
+  const union _Babl *return_value_babl_component_from_id_111;
+  return_value_babl_component_from_id_111=babl_component_from_id(10013);
+  const union _Babl *return_value_babl_component_from_id_112;
+  return_value_babl_component_from_id_112=babl_component_from_id(10014);
+  babl_format_new((const void *)return_value_babl_model_from_id_108, return_value_babl_type_from_id_109, return_value_babl_component_from_id_110, return_value_babl_component_from_id_111, return_value_babl_component_from_id_112, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_113;
+  return_value_babl_model_from_id_113=babl_model_from_id(1011);
+  const union _Babl *return_value_babl_type_from_id_114;
+  return_value_babl_type_from_id_114=babl_type_from_id(103);
+  const union _Babl *return_value_babl_component_from_id_115;
+  return_value_babl_component_from_id_115=babl_component_from_id(10012);
+  const union _Babl *return_value_babl_component_from_id_116;
+  return_value_babl_component_from_id_116=babl_component_from_id(10013);
+  const union _Babl *return_value_babl_component_from_id_117;
+  return_value_babl_component_from_id_117=babl_component_from_id(10014);
+  const union _Babl *return_value_babl_component_from_id_118;
+  return_value_babl_component_from_id_118=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_113, return_value_babl_type_from_id_114, return_value_babl_component_from_id_115, return_value_babl_component_from_id_116, return_value_babl_component_from_id_117, return_value_babl_component_from_id_118, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_119;
+  return_value_babl_model_from_id_119=babl_model_from_id(1012);
+  const union _Babl *return_value_babl_type_from_id_120;
+  return_value_babl_type_from_id_120=babl_type_from_id(103);
+  const union _Babl *return_value_babl_component_from_id_121;
+  return_value_babl_component_from_id_121=babl_component_from_id(10015);
+  const union _Babl *return_value_babl_component_from_id_122;
+  return_value_babl_component_from_id_122=babl_component_from_id(10016);
+  const union _Babl *return_value_babl_component_from_id_123;
+  return_value_babl_component_from_id_123=babl_component_from_id(10017);
+  const union _Babl *return_value_babl_component_from_id_124;
+  return_value_babl_component_from_id_124=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_119, return_value_babl_type_from_id_120, return_value_babl_component_from_id_121, return_value_babl_component_from_id_122, return_value_babl_component_from_id_123, return_value_babl_component_from_id_124, (void *)0);
 }
 
-// formats$link1
+// formats_link1
 // file model-gray.c line 592
-static void formats$link1(void)
+static void formats_link1(void)
 {
-  const union _Babl *return_value_babl_model_from_id$1$link1;
-  return_value_babl_model_from_id$1$link1=babl_model_from_id(1002);
-  const union _Babl *return_value_babl_type_from_id$2$link1;
-  return_value_babl_type_from_id$2$link1=babl_type_from_id(104);
-  const union _Babl *return_value_babl_component_from_id$3$link1;
-  return_value_babl_component_from_id$3$link1=babl_component_from_id(10001);
-  const union _Babl *return_value_babl_component_from_id$4$link1;
-  return_value_babl_component_from_id$4$link1=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$1$link1, return_value_babl_type_from_id$2$link1, return_value_babl_component_from_id$3$link1, return_value_babl_component_from_id$4$link1, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$5;
-  return_value_babl_model_from_id$5=babl_model_from_id(1003);
-  const union _Babl *return_value_babl_type_from_id$6;
-  return_value_babl_type_from_id$6=babl_type_from_id(104);
-  const union _Babl *return_value_babl_component_from_id$7;
-  return_value_babl_component_from_id$7=babl_component_from_id(10002);
-  const union _Babl *return_value_babl_component_from_id$8$link1;
-  return_value_babl_component_from_id$8$link1=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$5, return_value_babl_type_from_id$6, return_value_babl_component_from_id$7, return_value_babl_component_from_id$8$link1, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$9;
-  return_value_babl_model_from_id$9=babl_model_from_id(1001);
-  const union _Babl *return_value_babl_type_from_id$10;
-  return_value_babl_type_from_id$10=babl_type_from_id(104);
-  const union _Babl *return_value_babl_component_from_id$11$link1;
-  return_value_babl_component_from_id$11$link1=babl_component_from_id(10001);
-  babl_format_new((const void *)return_value_babl_model_from_id$9, return_value_babl_type_from_id$10, return_value_babl_component_from_id$11$link1, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$12$link1;
-  return_value_babl_model_from_id$12$link1=babl_model_from_id(1008);
-  const union _Babl *return_value_babl_type_from_id$13$link1;
-  return_value_babl_type_from_id$13$link1=babl_type_from_id(104);
-  const union _Babl *return_value_babl_component_from_id$14$link1;
-  return_value_babl_component_from_id$14$link1=babl_component_from_id(10010);
-  const union _Babl *return_value_babl_component_from_id$15$link1;
-  return_value_babl_component_from_id$15$link1=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$12$link1, return_value_babl_type_from_id$13$link1, return_value_babl_component_from_id$14$link1, return_value_babl_component_from_id$15$link1, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$16;
-  return_value_babl_model_from_id$16=babl_model_from_id(1009);
-  const union _Babl *return_value_babl_type_from_id$17;
-  return_value_babl_type_from_id$17=babl_type_from_id(104);
-  const union _Babl *return_value_babl_component_from_id$18;
-  return_value_babl_component_from_id$18=babl_component_from_id(10011);
-  const union _Babl *return_value_babl_component_from_id$19;
-  return_value_babl_component_from_id$19=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$16, return_value_babl_type_from_id$17, return_value_babl_component_from_id$18, return_value_babl_component_from_id$19, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$20;
-  return_value_babl_model_from_id$20=babl_model_from_id(1007);
-  const union _Babl *return_value_babl_type_from_id$21;
-  return_value_babl_type_from_id$21=babl_type_from_id(104);
-  const union _Babl *return_value_babl_component_from_id$22$link1;
-  return_value_babl_component_from_id$22$link1=babl_component_from_id(10010);
-  babl_format_new((const void *)return_value_babl_model_from_id$20, return_value_babl_type_from_id$21, return_value_babl_component_from_id$22$link1, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$23$link1;
-  return_value_babl_model_from_id$23$link1=babl_model_from_id(1002);
-  const union _Babl *return_value_babl_type$24;
-  return_value_babl_type$24=babl_type("u15");
-  const union _Babl *return_value_babl_component_from_id$25$link1;
-  return_value_babl_component_from_id$25$link1=babl_component_from_id(10001);
-  const union _Babl *return_value_babl_component_from_id$26$link1;
-  return_value_babl_component_from_id$26$link1=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$23$link1, return_value_babl_type$24, return_value_babl_component_from_id$25$link1, return_value_babl_component_from_id$26$link1, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$27;
-  return_value_babl_model_from_id$27=babl_model_from_id(1003);
-  const union _Babl *return_value_babl_type$28;
-  return_value_babl_type$28=babl_type("u15");
-  const union _Babl *return_value_babl_component_from_id$29;
-  return_value_babl_component_from_id$29=babl_component_from_id(10002);
-  const union _Babl *return_value_babl_component_from_id$30$link1;
-  return_value_babl_component_from_id$30$link1=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$27, return_value_babl_type$28, return_value_babl_component_from_id$29, return_value_babl_component_from_id$30$link1, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$31;
-  return_value_babl_model_from_id$31=babl_model_from_id(1001);
-  const union _Babl *return_value_babl_type$32;
-  return_value_babl_type$32=babl_type("u15");
-  const union _Babl *return_value_babl_component_from_id$33$link1;
-  return_value_babl_component_from_id$33$link1=babl_component_from_id(10001);
-  babl_format_new((const void *)return_value_babl_model_from_id$31, return_value_babl_type$32, return_value_babl_component_from_id$33$link1, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$34$link1;
-  return_value_babl_model_from_id$34$link1=babl_model_from_id(1008);
-  const union _Babl *return_value_babl_type$35;
-  return_value_babl_type$35=babl_type("u15");
-  const union _Babl *return_value_babl_component_from_id$36$link1;
-  return_value_babl_component_from_id$36$link1=babl_component_from_id(10010);
-  const union _Babl *return_value_babl_component_from_id$37$link1;
-  return_value_babl_component_from_id$37$link1=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$34$link1, return_value_babl_type$35, return_value_babl_component_from_id$36$link1, return_value_babl_component_from_id$37$link1, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$38;
-  return_value_babl_model_from_id$38=babl_model_from_id(1009);
-  const union _Babl *return_value_babl_type$39;
-  return_value_babl_type$39=babl_type("u15");
-  const union _Babl *return_value_babl_component_from_id$40;
-  return_value_babl_component_from_id$40=babl_component_from_id(10011);
-  const union _Babl *return_value_babl_component_from_id$41;
-  return_value_babl_component_from_id$41=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$38, return_value_babl_type$39, return_value_babl_component_from_id$40, return_value_babl_component_from_id$41, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$42;
-  return_value_babl_model_from_id$42=babl_model_from_id(1007);
-  const union _Babl *return_value_babl_type$43;
-  return_value_babl_type$43=babl_type("u15");
-  const union _Babl *return_value_babl_component_from_id$44$link1;
-  return_value_babl_component_from_id$44$link1=babl_component_from_id(10010);
-  babl_format_new((const void *)return_value_babl_model_from_id$42, return_value_babl_type$43, return_value_babl_component_from_id$44$link1, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$45$link1;
-  return_value_babl_model_from_id$45$link1=babl_model_from_id(1002);
-  const union _Babl *return_value_babl_type_from_id$46$link1;
-  return_value_babl_type_from_id$46$link1=babl_type_from_id(103);
-  const union _Babl *return_value_babl_component_from_id$47$link1;
-  return_value_babl_component_from_id$47$link1=babl_component_from_id(10001);
-  const union _Babl *return_value_babl_component_from_id$48$link1;
-  return_value_babl_component_from_id$48$link1=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$45$link1, return_value_babl_type_from_id$46$link1, return_value_babl_component_from_id$47$link1, return_value_babl_component_from_id$48$link1, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$49;
-  return_value_babl_model_from_id$49=babl_model_from_id(1003);
-  const union _Babl *return_value_babl_type_from_id$50;
-  return_value_babl_type_from_id$50=babl_type_from_id(103);
-  const union _Babl *return_value_babl_component_from_id$51;
-  return_value_babl_component_from_id$51=babl_component_from_id(10002);
-  const union _Babl *return_value_babl_component_from_id$52;
-  return_value_babl_component_from_id$52=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$49, return_value_babl_type_from_id$50, return_value_babl_component_from_id$51, return_value_babl_component_from_id$52, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$53;
-  return_value_babl_model_from_id$53=babl_model_from_id(1001);
-  const union _Babl *return_value_babl_type_from_id$54;
-  return_value_babl_type_from_id$54=babl_type_from_id(103);
-  const union _Babl *return_value_babl_component_from_id$55$link1;
-  return_value_babl_component_from_id$55$link1=babl_component_from_id(10001);
-  babl_format_new((const void *)return_value_babl_model_from_id$53, return_value_babl_type_from_id$54, return_value_babl_component_from_id$55$link1, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$56;
-  return_value_babl_model_from_id$56=babl_model_from_id(1008);
-  const union _Babl *return_value_babl_type_from_id$57;
-  return_value_babl_type_from_id$57=babl_type_from_id(103);
-  const union _Babl *return_value_babl_component_from_id$58;
-  return_value_babl_component_from_id$58=babl_component_from_id(10010);
-  const union _Babl *return_value_babl_component_from_id$59$link1;
-  return_value_babl_component_from_id$59$link1=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$56, return_value_babl_type_from_id$57, return_value_babl_component_from_id$58, return_value_babl_component_from_id$59$link1, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$60;
-  return_value_babl_model_from_id$60=babl_model_from_id(1009);
-  const union _Babl *return_value_babl_type_from_id$61;
-  return_value_babl_type_from_id$61=babl_type_from_id(103);
-  const union _Babl *return_value_babl_component_from_id$62;
-  return_value_babl_component_from_id$62=babl_component_from_id(10011);
-  const union _Babl *return_value_babl_component_from_id$63;
-  return_value_babl_component_from_id$63=babl_component_from_id(10006);
-  babl_format_new((const void *)return_value_babl_model_from_id$60, return_value_babl_type_from_id$61, return_value_babl_component_from_id$62, return_value_babl_component_from_id$63, (void *)0);
-  const union _Babl *return_value_babl_model_from_id$64;
-  return_value_babl_model_from_id$64=babl_model_from_id(1007);
-  const union _Babl *return_value_babl_type_from_id$65;
-  return_value_babl_type_from_id$65=babl_type_from_id(103);
-  const union _Babl *return_value_babl_component_from_id$66$link1;
-  return_value_babl_component_from_id$66$link1=babl_component_from_id(10010);
-  babl_format_new((const void *)return_value_babl_model_from_id$64, return_value_babl_type_from_id$65, return_value_babl_component_from_id$66$link1, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_1_link1;
+  return_value_babl_model_from_id_1_link1=babl_model_from_id(1002);
+  const union _Babl *return_value_babl_type_from_id_2_link1;
+  return_value_babl_type_from_id_2_link1=babl_type_from_id(104);
+  const union _Babl *return_value_babl_component_from_id_3_link1;
+  return_value_babl_component_from_id_3_link1=babl_component_from_id(10001);
+  const union _Babl *return_value_babl_component_from_id_4_link1;
+  return_value_babl_component_from_id_4_link1=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_1_link1, return_value_babl_type_from_id_2_link1, return_value_babl_component_from_id_3_link1, return_value_babl_component_from_id_4_link1, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_5;
+  return_value_babl_model_from_id_5=babl_model_from_id(1003);
+  const union _Babl *return_value_babl_type_from_id_6;
+  return_value_babl_type_from_id_6=babl_type_from_id(104);
+  const union _Babl *return_value_babl_component_from_id_7;
+  return_value_babl_component_from_id_7=babl_component_from_id(10002);
+  const union _Babl *return_value_babl_component_from_id_8_link1;
+  return_value_babl_component_from_id_8_link1=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_5, return_value_babl_type_from_id_6, return_value_babl_component_from_id_7, return_value_babl_component_from_id_8_link1, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_9;
+  return_value_babl_model_from_id_9=babl_model_from_id(1001);
+  const union _Babl *return_value_babl_type_from_id_10;
+  return_value_babl_type_from_id_10=babl_type_from_id(104);
+  const union _Babl *return_value_babl_component_from_id_11_link1;
+  return_value_babl_component_from_id_11_link1=babl_component_from_id(10001);
+  babl_format_new((const void *)return_value_babl_model_from_id_9, return_value_babl_type_from_id_10, return_value_babl_component_from_id_11_link1, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_12_link1;
+  return_value_babl_model_from_id_12_link1=babl_model_from_id(1008);
+  const union _Babl *return_value_babl_type_from_id_13_link1;
+  return_value_babl_type_from_id_13_link1=babl_type_from_id(104);
+  const union _Babl *return_value_babl_component_from_id_14_link1;
+  return_value_babl_component_from_id_14_link1=babl_component_from_id(10010);
+  const union _Babl *return_value_babl_component_from_id_15_link1;
+  return_value_babl_component_from_id_15_link1=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_12_link1, return_value_babl_type_from_id_13_link1, return_value_babl_component_from_id_14_link1, return_value_babl_component_from_id_15_link1, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_16;
+  return_value_babl_model_from_id_16=babl_model_from_id(1009);
+  const union _Babl *return_value_babl_type_from_id_17;
+  return_value_babl_type_from_id_17=babl_type_from_id(104);
+  const union _Babl *return_value_babl_component_from_id_18;
+  return_value_babl_component_from_id_18=babl_component_from_id(10011);
+  const union _Babl *return_value_babl_component_from_id_19;
+  return_value_babl_component_from_id_19=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_16, return_value_babl_type_from_id_17, return_value_babl_component_from_id_18, return_value_babl_component_from_id_19, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_20;
+  return_value_babl_model_from_id_20=babl_model_from_id(1007);
+  const union _Babl *return_value_babl_type_from_id_21;
+  return_value_babl_type_from_id_21=babl_type_from_id(104);
+  const union _Babl *return_value_babl_component_from_id_22_link1;
+  return_value_babl_component_from_id_22_link1=babl_component_from_id(10010);
+  babl_format_new((const void *)return_value_babl_model_from_id_20, return_value_babl_type_from_id_21, return_value_babl_component_from_id_22_link1, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_23_link1;
+  return_value_babl_model_from_id_23_link1=babl_model_from_id(1002);
+  const union _Babl *return_value_babl_type_24;
+  return_value_babl_type_24=babl_type("u15");
+  const union _Babl *return_value_babl_component_from_id_25_link1;
+  return_value_babl_component_from_id_25_link1=babl_component_from_id(10001);
+  const union _Babl *return_value_babl_component_from_id_26_link1;
+  return_value_babl_component_from_id_26_link1=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_23_link1, return_value_babl_type_24, return_value_babl_component_from_id_25_link1, return_value_babl_component_from_id_26_link1, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_27;
+  return_value_babl_model_from_id_27=babl_model_from_id(1003);
+  const union _Babl *return_value_babl_type_28;
+  return_value_babl_type_28=babl_type("u15");
+  const union _Babl *return_value_babl_component_from_id_29;
+  return_value_babl_component_from_id_29=babl_component_from_id(10002);
+  const union _Babl *return_value_babl_component_from_id_30_link1;
+  return_value_babl_component_from_id_30_link1=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_27, return_value_babl_type_28, return_value_babl_component_from_id_29, return_value_babl_component_from_id_30_link1, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_31;
+  return_value_babl_model_from_id_31=babl_model_from_id(1001);
+  const union _Babl *return_value_babl_type_32;
+  return_value_babl_type_32=babl_type("u15");
+  const union _Babl *return_value_babl_component_from_id_33_link1;
+  return_value_babl_component_from_id_33_link1=babl_component_from_id(10001);
+  babl_format_new((const void *)return_value_babl_model_from_id_31, return_value_babl_type_32, return_value_babl_component_from_id_33_link1, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_34_link1;
+  return_value_babl_model_from_id_34_link1=babl_model_from_id(1008);
+  const union _Babl *return_value_babl_type_35;
+  return_value_babl_type_35=babl_type("u15");
+  const union _Babl *return_value_babl_component_from_id_36_link1;
+  return_value_babl_component_from_id_36_link1=babl_component_from_id(10010);
+  const union _Babl *return_value_babl_component_from_id_37_link1;
+  return_value_babl_component_from_id_37_link1=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_34_link1, return_value_babl_type_35, return_value_babl_component_from_id_36_link1, return_value_babl_component_from_id_37_link1, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_38;
+  return_value_babl_model_from_id_38=babl_model_from_id(1009);
+  const union _Babl *return_value_babl_type_39;
+  return_value_babl_type_39=babl_type("u15");
+  const union _Babl *return_value_babl_component_from_id_40;
+  return_value_babl_component_from_id_40=babl_component_from_id(10011);
+  const union _Babl *return_value_babl_component_from_id_41;
+  return_value_babl_component_from_id_41=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_38, return_value_babl_type_39, return_value_babl_component_from_id_40, return_value_babl_component_from_id_41, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_42;
+  return_value_babl_model_from_id_42=babl_model_from_id(1007);
+  const union _Babl *return_value_babl_type_43;
+  return_value_babl_type_43=babl_type("u15");
+  const union _Babl *return_value_babl_component_from_id_44_link1;
+  return_value_babl_component_from_id_44_link1=babl_component_from_id(10010);
+  babl_format_new((const void *)return_value_babl_model_from_id_42, return_value_babl_type_43, return_value_babl_component_from_id_44_link1, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_45_link1;
+  return_value_babl_model_from_id_45_link1=babl_model_from_id(1002);
+  const union _Babl *return_value_babl_type_from_id_46_link1;
+  return_value_babl_type_from_id_46_link1=babl_type_from_id(103);
+  const union _Babl *return_value_babl_component_from_id_47_link1;
+  return_value_babl_component_from_id_47_link1=babl_component_from_id(10001);
+  const union _Babl *return_value_babl_component_from_id_48_link1;
+  return_value_babl_component_from_id_48_link1=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_45_link1, return_value_babl_type_from_id_46_link1, return_value_babl_component_from_id_47_link1, return_value_babl_component_from_id_48_link1, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_49;
+  return_value_babl_model_from_id_49=babl_model_from_id(1003);
+  const union _Babl *return_value_babl_type_from_id_50;
+  return_value_babl_type_from_id_50=babl_type_from_id(103);
+  const union _Babl *return_value_babl_component_from_id_51;
+  return_value_babl_component_from_id_51=babl_component_from_id(10002);
+  const union _Babl *return_value_babl_component_from_id_52;
+  return_value_babl_component_from_id_52=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_49, return_value_babl_type_from_id_50, return_value_babl_component_from_id_51, return_value_babl_component_from_id_52, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_53;
+  return_value_babl_model_from_id_53=babl_model_from_id(1001);
+  const union _Babl *return_value_babl_type_from_id_54;
+  return_value_babl_type_from_id_54=babl_type_from_id(103);
+  const union _Babl *return_value_babl_component_from_id_55_link1;
+  return_value_babl_component_from_id_55_link1=babl_component_from_id(10001);
+  babl_format_new((const void *)return_value_babl_model_from_id_53, return_value_babl_type_from_id_54, return_value_babl_component_from_id_55_link1, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_56;
+  return_value_babl_model_from_id_56=babl_model_from_id(1008);
+  const union _Babl *return_value_babl_type_from_id_57;
+  return_value_babl_type_from_id_57=babl_type_from_id(103);
+  const union _Babl *return_value_babl_component_from_id_58;
+  return_value_babl_component_from_id_58=babl_component_from_id(10010);
+  const union _Babl *return_value_babl_component_from_id_59_link1;
+  return_value_babl_component_from_id_59_link1=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_56, return_value_babl_type_from_id_57, return_value_babl_component_from_id_58, return_value_babl_component_from_id_59_link1, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_60;
+  return_value_babl_model_from_id_60=babl_model_from_id(1009);
+  const union _Babl *return_value_babl_type_from_id_61;
+  return_value_babl_type_from_id_61=babl_type_from_id(103);
+  const union _Babl *return_value_babl_component_from_id_62;
+  return_value_babl_component_from_id_62=babl_component_from_id(10011);
+  const union _Babl *return_value_babl_component_from_id_63;
+  return_value_babl_component_from_id_63=babl_component_from_id(10006);
+  babl_format_new((const void *)return_value_babl_model_from_id_60, return_value_babl_type_from_id_61, return_value_babl_component_from_id_62, return_value_babl_component_from_id_63, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_64;
+  return_value_babl_model_from_id_64=babl_model_from_id(1007);
+  const union _Babl *return_value_babl_type_from_id_65;
+  return_value_babl_type_from_id_65=babl_type_from_id(103);
+  const union _Babl *return_value_babl_component_from_id_66_link1;
+  return_value_babl_component_from_id_66_link1=babl_component_from_id(10010);
+  babl_format_new((const void *)return_value_babl_model_from_id_64, return_value_babl_type_from_id_65, return_value_babl_component_from_id_66_link1, (void *)0);
 }
 
-// formats$link2
+// formats_link2
 // file model-ycbcr.c line 241
-static void formats$link2(void)
+static void formats_link2(void)
 {
-  const union _Babl *return_value_babl_model_from_id$1$link2;
-  return_value_babl_model_from_id$1$link2=babl_model_from_id(1013);
-  const union _Babl *return_value_babl_type_from_id$2$link2;
-  return_value_babl_type_from_id$2$link2=babl_type_from_id(108);
-  const union _Babl *return_value_babl_sampling$3;
-  return_value_babl_sampling$3=babl_sampling(1, 1);
-  const union _Babl *return_value_babl_component_from_id$4$link2;
-  return_value_babl_component_from_id$4$link2=babl_component_from_id(10010);
-  const union _Babl *return_value_babl_type_from_id$5;
-  return_value_babl_type_from_id$5=babl_type_from_id(109);
-  const union _Babl *return_value_babl_sampling$6;
-  return_value_babl_sampling$6=babl_sampling(2, 2);
-  const union _Babl *return_value_babl_component_from_id$7$link1;
-  return_value_babl_component_from_id$7$link1=babl_component_from_id(10024);
-  const union _Babl *return_value_babl_sampling$8;
-  return_value_babl_sampling$8=babl_sampling(2, 2);
-  const union _Babl *return_value_babl_component_from_id$9$link1;
-  return_value_babl_component_from_id$9$link1=babl_component_from_id(10025);
-  babl_format_new((const void *)"name", (const void *)"Y'CbCr u8", (const void *)"planar", return_value_babl_model_from_id$1$link2, return_value_babl_type_from_id$2$link2, return_value_babl_sampling$3, return_value_babl_component_from_id$4$link2, return_value_babl_type_from_id$5, return_value_babl_sampling$6, return_value_babl_component_from_id$7$link1, return_value_babl_sampling$8, return_value_babl_component_from_id$9$link1, (void *)0);
+  const union _Babl *return_value_babl_model_from_id_1_link2;
+  return_value_babl_model_from_id_1_link2=babl_model_from_id(1013);
+  const union _Babl *return_value_babl_type_from_id_2_link2;
+  return_value_babl_type_from_id_2_link2=babl_type_from_id(108);
+  const union _Babl *return_value_babl_sampling_3;
+  return_value_babl_sampling_3=babl_sampling(1, 1);
+  const union _Babl *return_value_babl_component_from_id_4_link2;
+  return_value_babl_component_from_id_4_link2=babl_component_from_id(10010);
+  const union _Babl *return_value_babl_type_from_id_5;
+  return_value_babl_type_from_id_5=babl_type_from_id(109);
+  const union _Babl *return_value_babl_sampling_6;
+  return_value_babl_sampling_6=babl_sampling(2, 2);
+  const union _Babl *return_value_babl_component_from_id_7_link1;
+  return_value_babl_component_from_id_7_link1=babl_component_from_id(10024);
+  const union _Babl *return_value_babl_sampling_8;
+  return_value_babl_sampling_8=babl_sampling(2, 2);
+  const union _Babl *return_value_babl_component_from_id_9_link1;
+  return_value_babl_component_from_id_9_link1=babl_component_from_id(10025);
+  babl_format_new((const void *)"name", (const void *)"Y'CbCr u8", (const void *)"planar", return_value_babl_model_from_id_1_link2, return_value_babl_type_from_id_2_link2, return_value_babl_sampling_3, return_value_babl_component_from_id_4_link2, return_value_babl_type_from_id_5, return_value_babl_sampling_6, return_value_babl_component_from_id_7_link1, return_value_babl_sampling_8, return_value_babl_component_from_id_9_link1, (void *)0);
 }
 
 // functions_sanity
@@ -10139,12 +10139,12 @@ static signed long int g3_gamma_2_2(signed int src_bands, char **src, signed int
   assert(n > (signed long int)0);
   /* assertion *src_pitch */
   assert(*src_pitch != 0);
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     signed int band = 0;
@@ -10184,12 +10184,12 @@ static signed long int g3_inv_gamma_2_2(signed int src_bands, char **src, signed
   assert(n > (signed long int)0);
   /* assertion *src_pitch */
   assert(*src_pitch != 0);
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     signed int band = 0;
@@ -10216,64 +10216,64 @@ static signed long int g3_inv_gamma_2_2(signed int src_bands, char **src, signed
 // file util.h line 68
 static inline double gamma_2_2_to_linear(double value)
 {
-  double return_value_pow$1;
+  double return_value_pow_1;
   if(value > 0.04045)
   {
-    return_value_pow$1=pow((value + 0.055) / 1.055, 2.4);
-    return return_value_pow$1;
+    return_value_pow_1=pow((value + 0.055) / 1.055, 2.4);
+    return return_value_pow_1;
   }
 
   else
     return value / 12.92;
 }
 
-// gamma_2_2_to_linear$link1
+// gamma_2_2_to_linear_link1
 // file util.h line 68
-static inline double gamma_2_2_to_linear$link1(double value$link1)
+static inline double gamma_2_2_to_linear_link1(double value_link1)
 {
-  double return_value_pow$1$link1;
-  if(value$link1 > 0.04045)
+  double return_value_pow_1_link1;
+  if(value_link1 > 0.04045)
   {
-    return_value_pow$1$link1=pow((value$link1 + 0.055) / 1.055, 2.4);
-    return return_value_pow$1$link1;
+    return_value_pow_1_link1=pow((value_link1 + 0.055) / 1.055, 2.4);
+    return return_value_pow_1_link1;
   }
 
   else
-    return value$link1 / 12.92;
+    return value_link1 / 12.92;
 }
 
-// gamma_2_2_to_linear$link2
+// gamma_2_2_to_linear_link2
 // file util.h line 68
-static inline double gamma_2_2_to_linear$link2(double value$link2)
+static inline double gamma_2_2_to_linear_link2(double value_link2)
 {
-  double return_value_pow$1$link2;
-  if(value$link2 > 0.04045)
+  double return_value_pow_1_link2;
+  if(value_link2 > 0.04045)
   {
-    return_value_pow$1$link2=pow((value$link2 + 0.055) / 1.055, 2.4);
-    return return_value_pow$1$link2;
+    return_value_pow_1_link2=pow((value_link2 + 0.055) / 1.055, 2.4);
+    return return_value_pow_1_link2;
   }
 
   else
-    return value$link2 / 12.92;
+    return value_link2 / 12.92;
 }
 
 // get_conversion_path
 // file babl-fish-path.c line 154
 static void get_conversion_path(struct PathContext *pc, union _Babl *current_format, signed int current_length, signed int max_length)
 {
-  _Bool tmp_if_expr$4;
-  double return_value_legal_error$2;
+  _Bool tmp_if_expr_4;
+  double return_value_legal_error_2;
   if(!(max_length >= current_length))
     goto __CPROVER_DUMP_L13;
 
   else
   {
     if(current_length >= 1)
-      tmp_if_expr$4 = current_format == pc->to_format ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = current_format == pc->to_format ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
       double path_cost = 0.0;
       double ref_cost = 0.0;
@@ -10281,13 +10281,13 @@ static void get_conversion_path(struct PathContext *pc, union _Babl *current_for
       signed int i = 0;
       for( ; !(i >= pc->current_path->count); i = i + 1)
       {
-        double return_value_babl_conversion_error$1;
-        return_value_babl_conversion_error$1=babl_conversion_error((struct BablConversion *)pc->current_path->items[(signed long int)i]);
-        path_error = path_error * (1.0 + return_value_babl_conversion_error$1);
+        double return_value_babl_conversion_error_1;
+        return_value_babl_conversion_error_1=babl_conversion_error((struct BablConversion *)pc->current_path->items[(signed long int)i]);
+        path_error = path_error * (1.0 + return_value_babl_conversion_error_1);
       }
-      double return_value_legal_error$3;
-      return_value_legal_error$3=legal_error();
-      if(path_error + -1.000000 <= return_value_legal_error$3)
+      double return_value_legal_error_3;
+      return_value_legal_error_3=legal_error();
+      if(path_error + -1.000000 <= return_value_legal_error_3)
       {
         struct _FishPathInstrumentation fpi;
         memset((void *)&fpi, 0, sizeof(struct _FishPathInstrumentation) /*96ul*/ );
@@ -10298,8 +10298,8 @@ static void get_conversion_path(struct PathContext *pc, union _Babl *current_for
         {
           if(path_cost < pc->fish_path->fish_path.cost)
           {
-            return_value_legal_error$2=legal_error();
-            if(path_error <= return_value_legal_error$2)
+            return_value_legal_error_2=legal_error();
+            if(path_error <= return_value_legal_error_2)
             {
               pc->fish_path->fish_path.cost = path_cost;
               pc->fish_path->fish.error = path_error;
@@ -10318,15 +10318,15 @@ static void get_conversion_path(struct PathContext *pc, union _Babl *current_for
     else
     {
       struct _BablList *list;
-      signed int get_conversion_path$$1$$3$$i;
+      signed int get_conversion_path__1__3__i;
       list = current_format->format.from_list;
       if(!(list == ((struct _BablList *)NULL)))
       {
         current_format->format.visited = 1;
-        get_conversion_path$$1$$3$$i = 0;
-        for( ; !(get_conversion_path$$1$$3$$i >= list->count); get_conversion_path$$1$$3$$i = get_conversion_path$$1$$3$$i + 1)
+        get_conversion_path__1__3__i = 0;
+        for( ; !(get_conversion_path__1__3__i >= list->count); get_conversion_path__1__3__i = get_conversion_path__1__3__i + 1)
         {
-          union _Babl *next_conversion = (union _Babl *)list->items[(signed long int)get_conversion_path$$1$$3$$i];
+          union _Babl *next_conversion = (union _Babl *)list->items[(signed long int)get_conversion_path__1__3__i];
           union _Babl *next_format = (union _Babl *)next_conversion->conversion.destination;
           if(next_format->format.visited == 0)
           {
@@ -10348,9 +10348,9 @@ __CPROVER_DUMP_L13:
 
 // get_mutex_attr
 // file babl-mutex.c line 27
-static const union anonymous$14 * get_mutex_attr(void)
+static const union anonymous_14 * get_mutex_attr(void)
 {
-  static union anonymous$14 mutexattr;
+  static union anonymous_14 mutexattr;
   static signed int initialized = 0;
   if(initialized == 0)
   {
@@ -10385,7 +10385,7 @@ static void get_path_instrumentation(struct _FishPathInstrumentation *fpi, struc
       break;
     }
     default:
-      real_babl_log$link4("babl-fish-path.c", 640, (const char *)"get_path_instrumentation", "=eeek{%i}\n", babl_source->instance.class_type - 0xbab100);
+      real_babl_log_link4("babl-fish-path.c", 640, (const char *)"get_path_instrumentation", "=eeek{%i}\n", babl_source->instance.class_type - 0xbab100);
   }
   switch(babl_destination->instance.class_type)
   {
@@ -10400,7 +10400,7 @@ static void get_path_instrumentation(struct _FishPathInstrumentation *fpi, struc
       break;
     }
     default:
-      real_babl_log$link4("babl-fish-path.c", 652, (const char *)"get_path_instrumentation", "-eeek{%i}\n", babl_destination->instance.class_type - 0xbab100);
+      real_babl_log_link4("babl-fish-path.c", 652, (const char *)"get_path_instrumentation", "-eeek{%i}\n", babl_destination->instance.class_type - 0xbab100);
   }
   if(fpi->init_instrumentation_done == 0)
   {
@@ -10411,9 +10411,9 @@ static void get_path_instrumentation(struct _FishPathInstrumentation *fpi, struc
   ticks_start=babl_ticks();
   process_conversion_path(path, fpi->source, source_bpp, fpi->destination, dest_bpp, (signed long int)fpi->num_test_pixels);
   ticks_end=babl_ticks();
-  signed long int return_value_babl_process_cost$1;
-  return_value_babl_process_cost$1=babl_process_cost(ticks_start, ticks_end);
-  *path_cost = (double)return_value_babl_process_cost$1;
+  signed long int return_value_babl_process_cost_1;
+  return_value_babl_process_cost_1=babl_process_cost(ticks_start, ticks_end);
+  *path_cost = (double)return_value_babl_process_cost_1;
   babl_process(fpi->fish_destination_to_rgba, fpi->destination, (void *)fpi->destination_rgba_double, (signed long int)fpi->num_test_pixels);
   *path_error=babl_rel_avg_error(fpi->destination_rgba_double, fpi->ref_destination_rgba_double, (signed long int)(fpi->num_test_pixels * 4));
   *ref_cost = fpi->reference_cost;
@@ -10439,12 +10439,12 @@ static signed long int gray_2_2_to_rgb(signed int src_bands, char **src, signed 
   assert(n > (signed long int)0);
   /* assertion *src_pitch */
   assert(*src_pitch != 0);
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double luminance;
@@ -10452,7 +10452,7 @@ static signed long int gray_2_2_to_rgb(signed int src_bands, char **src, signed 
     double green;
     double blue;
     double alpha;
-    luminance=gamma_2_2_to_linear$link1(*((double *)src[(signed long int)0]));
+    luminance=gamma_2_2_to_linear_link1(*((double *)src[(signed long int)0]));
     red = luminance;
     green = luminance;
     blue = luminance;
@@ -10502,12 +10502,12 @@ static signed long int gray_alpha_premultiplied_to_rgba(signed int src_bands, ch
   assert(src_bands == 2);
   /* assertion dst_bands == 4 */
   assert(dst_bands == 4);
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double luminance = *((double *)src[(signed long int)0]);
@@ -10536,19 +10536,19 @@ static signed long int gray_alpha_premultiplied_to_rgba(signed int src_bands, ch
 // file model-gray.c line 463
 static signed long int gray_gamma_2_2_premultiplied2rgba(char *src, char *dst, signed long int n)
 {
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double luma = ((double *)src)[(signed long int)0];
     double alpha = ((double *)src)[(signed long int)1];
     double luminance;
     luma = luma / alpha;
-    luminance=gamma_2_2_to_linear$link1(luma);
+    luminance=gamma_2_2_to_linear_link1(luma);
     ((double *)dst)[(signed long int)0] = luminance;
     ((double *)dst)[(signed long int)1] = luminance;
     ((double *)dst)[(signed long int)2] = luminance;
@@ -10564,12 +10564,12 @@ static signed long int gray_gamma_2_2_premultiplied2rgba(char *src, char *dst, s
 // file model-gray.c line 273
 static signed long int gray_to_rgba(char *src, char *dst, signed long int n)
 {
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double luminance;
@@ -10595,12 +10595,12 @@ static signed long int gray_to_rgba(char *src, char *dst, signed long int n)
 // file model-gray.c line 244
 static signed long int graya_to_rgba(char *src, char *dst, signed long int n)
 {
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double luminance;
@@ -10639,20 +10639,20 @@ static void halfp2doubles(void *target, void *source, signed long int numel)
   unsigned int xm;
   signed int xes;
   signed int e;
-  signed long int tmp_post$1;
-  unsigned short int *tmp_post$2;
+  signed long int tmp_post_1;
+  unsigned short int *tmp_post_2;
   if(!(source == NULL) && !(target == NULL))
     do
     {
-      tmp_post$1 = numel;
+      tmp_post_1 = numel;
       numel = numel - 1l;
-      if(tmp_post$1 == 0l)
+      if(tmp_post_1 == 0l)
         break;
 
       unsigned int x;
-      tmp_post$2 = hp;
+      tmp_post_2 = hp;
       hp = hp + 1l;
-      h = *tmp_post$2;
+      h = *tmp_post_2;
       if((0x7FFFu & (unsigned int)h) == 0u)
         x = (unsigned int)h << 16;
 
@@ -10747,9 +10747,9 @@ static void hash_rehash(struct _BablHashTable *htab)
   union _Babl *item;
   signed int i;
   struct _BablHashTable *nhtab;
-  void *return_value_babl_calloc$1;
-  return_value_babl_calloc$1=babl_calloc(sizeof(struct _BablHashTable) /*40ul*/ , (unsigned long int)1);
-  nhtab = (struct _BablHashTable *)return_value_babl_calloc$1;
+  void *return_value_babl_calloc_1;
+  return_value_babl_calloc_1=babl_calloc(sizeof(struct _BablHashTable) /*40ul*/ , (unsigned long int)1);
+  nhtab = (struct _BablHashTable *)return_value_babl_calloc_1;
   nhtab->data_table = (union _Babl **)(void *)0;
   nhtab->chain_table = (signed int *)(void *)0;
   nhtab->mask = (htab->mask << 1) + 1;
@@ -10758,27 +10758,27 @@ static void hash_rehash(struct _BablHashTable *htab)
   nhtab->find_func = htab->find_func;
   if(!(nhtab->mask == 0))
   {
-    signed int return_value_babl_hash_table_size$2;
-    return_value_babl_hash_table_size$2=babl_hash_table_size(nhtab);
-    void *return_value_babl_calloc$3;
-    return_value_babl_calloc$3=babl_calloc(sizeof(struct anonymous$3 *) /*8ul*/ , (unsigned long int)return_value_babl_hash_table_size$2);
-    nhtab->data_table = (union _Babl **)return_value_babl_calloc$3;
-    signed int return_value_babl_hash_table_size$4;
-    return_value_babl_hash_table_size$4=babl_hash_table_size(nhtab);
-    void *return_value_babl_malloc$5;
-    return_value_babl_malloc$5=babl_malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)return_value_babl_hash_table_size$4);
-    nhtab->chain_table = (signed int *)return_value_babl_malloc$5;
-    signed int return_value_babl_hash_table_size$6;
-    return_value_babl_hash_table_size$6=babl_hash_table_size(nhtab);
-    memset((void *)nhtab->chain_table, -1, sizeof(signed int) /*4ul*/  * (unsigned long int)return_value_babl_hash_table_size$6);
+    signed int return_value_babl_hash_table_size_2;
+    return_value_babl_hash_table_size_2=babl_hash_table_size(nhtab);
+    void *return_value_babl_calloc_3;
+    return_value_babl_calloc_3=babl_calloc(sizeof(struct anonymous_3 *) /*8ul*/ , (unsigned long int)return_value_babl_hash_table_size_2);
+    nhtab->data_table = (union _Babl **)return_value_babl_calloc_3;
+    signed int return_value_babl_hash_table_size_4;
+    return_value_babl_hash_table_size_4=babl_hash_table_size(nhtab);
+    void *return_value_babl_malloc_5;
+    return_value_babl_malloc_5=babl_malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)return_value_babl_hash_table_size_4);
+    nhtab->chain_table = (signed int *)return_value_babl_malloc_5;
+    signed int return_value_babl_hash_table_size_6;
+    return_value_babl_hash_table_size_6=babl_hash_table_size(nhtab);
+    memset((void *)nhtab->chain_table, -1, sizeof(signed int) /*4ul*/  * (unsigned long int)return_value_babl_hash_table_size_6);
   }
 
   i = 0;
-  signed int return_value_babl_hash_table_size$7;
+  signed int return_value_babl_hash_table_size_7;
   do
   {
-    return_value_babl_hash_table_size$7=babl_hash_table_size(htab);
-    if(i >= return_value_babl_hash_table_size$7)
+    return_value_babl_hash_table_size_7=babl_hash_table_size(htab);
+    if(i >= return_value_babl_hash_table_size_7)
       break;
 
     item = htab->data_table[(signed long int)i];
@@ -10798,23 +10798,23 @@ static void hash_rehash(struct _BablHashTable *htab)
 // file babl-sanity.c line 100
 static signed int id_sanity(union _Babl *babl, void *user_data)
 {
-  signed int return_value_strcmp$2;
+  signed int return_value_strcmp_2;
   return 0;
 }
 
 // image_new
 // file babl-image.c line 37
-static union _Babl * image_new(struct anonymous$4 *format, struct anonymous$0 *model, signed int components, struct anonymous$1 **component, struct anonymous **sampling, struct anonymous$2 **type, char **data, signed int *pitch, signed int *stride)
+static union _Babl * image_new(struct anonymous_4 *format, struct anonymous_0 *model, signed int components, struct anonymous_1 **component, struct anonymous **sampling, struct anonymous_2 **type, char **data, signed int *pitch, signed int *stride)
 {
   union _Babl *babl;
-  void *return_value_babl_malloc$1;
-  return_value_babl_malloc$1=babl_malloc(sizeof(struct anonymous$5) /*96ul*/  + sizeof(struct anonymous$1 *) /*8ul*/  * (unsigned long int)components + sizeof(struct anonymous *) /*8ul*/  * (unsigned long int)components + sizeof(struct anonymous$2 *) /*8ul*/  * (unsigned long int)components + sizeof(void *) /*8ul*/  * (unsigned long int)components + sizeof(signed int) /*4ul*/  * (unsigned long int)components + sizeof(signed int) /*4ul*/  * (unsigned long int)components);
-  babl = (union _Babl *)return_value_babl_malloc$1;
+  void *return_value_babl_malloc_1;
+  return_value_babl_malloc_1=babl_malloc(sizeof(struct anonymous_5) /*96ul*/  + sizeof(struct anonymous_1 *) /*8ul*/  * (unsigned long int)components + sizeof(struct anonymous *) /*8ul*/  * (unsigned long int)components + sizeof(struct anonymous_2 *) /*8ul*/  * (unsigned long int)components + sizeof(void *) /*8ul*/  * (unsigned long int)components + sizeof(signed int) /*4ul*/  * (unsigned long int)components + sizeof(signed int) /*4ul*/  * (unsigned long int)components);
+  babl = (union _Babl *)return_value_babl_malloc_1;
   babl_set_destructor((void *)babl, babl_image_destruct);
-  babl->image.component = (struct anonymous$1 **)(void *)((char *)babl + (signed long int)sizeof(struct anonymous$5) /*96ul*/ );
-  babl->image.sampling = (struct anonymous **)(void *)((char *)babl->image.component + (signed long int)(sizeof(struct anonymous$1 *) /*8ul*/  * (unsigned long int)components));
-  babl->image.type = (struct anonymous$2 **)(void *)((char *)babl->image.sampling + (signed long int)(sizeof(struct anonymous *) /*8ul*/  * (unsigned long int)components));
-  babl->image.data = (char **)(void *)((char *)babl->image.type + (signed long int)(sizeof(struct anonymous$2 *) /*8ul*/  * (unsigned long int)components));
+  babl->image.component = (struct anonymous_1 **)(void *)((char *)babl + (signed long int)sizeof(struct anonymous_5) /*96ul*/ );
+  babl->image.sampling = (struct anonymous **)(void *)((char *)babl->image.component + (signed long int)(sizeof(struct anonymous_1 *) /*8ul*/  * (unsigned long int)components));
+  babl->image.type = (struct anonymous_2 **)(void *)((char *)babl->image.sampling + (signed long int)(sizeof(struct anonymous *) /*8ul*/  * (unsigned long int)components));
+  babl->image.data = (char **)(void *)((char *)babl->image.type + (signed long int)(sizeof(struct anonymous_2 *) /*8ul*/  * (unsigned long int)components));
   babl->image.pitch = (signed int *)(void *)((char *)babl->image.data + (signed long int)(sizeof(void *) /*8ul*/  * (unsigned long int)components));
   babl->image.stride = (signed int *)(void *)((char *)babl->image.pitch + (signed long int)(sizeof(signed int) /*4ul*/  * (unsigned long int)components));
   babl->class_type = 12235024;
@@ -10855,19 +10855,19 @@ static void init_path_instrumentation(struct _FishPathInstrumentation *fpi, unio
   test_pixels=babl_get_path_test_pixels();
   if(fpi->fmt_rgba_double == ((const union _Babl *)NULL))
   {
-    const union _Babl *return_value_babl_model$1;
-    return_value_babl_model$1=babl_model("RGBA");
-    const union _Babl *return_value_babl_type$2;
-    return_value_babl_type$2=babl_type("double");
-    const union _Babl *return_value_babl_component$3;
-    return_value_babl_component$3=babl_component("R");
-    const union _Babl *return_value_babl_component$4;
-    return_value_babl_component$4=babl_component("G");
-    const union _Babl *return_value_babl_component$5;
-    return_value_babl_component$5=babl_component("B");
-    const union _Babl *return_value_babl_component$6;
-    return_value_babl_component$6=babl_component("A");
-    fpi->fmt_rgba_double=babl_format_new((const void *)return_value_babl_model$1, return_value_babl_type$2, return_value_babl_component$3, return_value_babl_component$4, return_value_babl_component$5, return_value_babl_component$6, (void *)0);
+    const union _Babl *return_value_babl_model_1;
+    return_value_babl_model_1=babl_model("RGBA");
+    const union _Babl *return_value_babl_type_2;
+    return_value_babl_type_2=babl_type("double");
+    const union _Babl *return_value_babl_component_3;
+    return_value_babl_component_3=babl_component("R");
+    const union _Babl *return_value_babl_component_4;
+    return_value_babl_component_4=babl_component("G");
+    const union _Babl *return_value_babl_component_5;
+    return_value_babl_component_5=babl_component("B");
+    const union _Babl *return_value_babl_component_6;
+    return_value_babl_component_6=babl_component("A");
+    fpi->fmt_rgba_double=babl_format_new((const void *)return_value_babl_model_1, return_value_babl_type_2, return_value_babl_component_3, return_value_babl_component_4, return_value_babl_component_5, return_value_babl_component_6, (void *)0);
   }
 
   fpi->num_test_pixels=babl_get_num_path_test_pixels();
@@ -10877,19 +10877,19 @@ static void init_path_instrumentation(struct _FishPathInstrumentation *fpi, unio
   fpi->source=babl_calloc((unsigned long int)fpi->num_test_pixels, (unsigned long int)fmt_source->format.bytes_per_pixel);
   fpi->destination=babl_calloc((unsigned long int)fpi->num_test_pixels, (unsigned long int)fmt_destination->format.bytes_per_pixel);
   fpi->ref_destination=babl_calloc((unsigned long int)fpi->num_test_pixels, (unsigned long int)fmt_destination->format.bytes_per_pixel);
-  void *return_value_babl_calloc$7;
-  return_value_babl_calloc$7=babl_calloc((unsigned long int)fpi->num_test_pixels, (unsigned long int)fpi->fmt_rgba_double->format.bytes_per_pixel);
-  fpi->destination_rgba_double = (double *)return_value_babl_calloc$7;
-  void *return_value_babl_calloc$8;
-  return_value_babl_calloc$8=babl_calloc((unsigned long int)fpi->num_test_pixels, (unsigned long int)fpi->fmt_rgba_double->format.bytes_per_pixel);
-  fpi->ref_destination_rgba_double = (double *)return_value_babl_calloc$8;
+  void *return_value_babl_calloc_7;
+  return_value_babl_calloc_7=babl_calloc((unsigned long int)fpi->num_test_pixels, (unsigned long int)fpi->fmt_rgba_double->format.bytes_per_pixel);
+  fpi->destination_rgba_double = (double *)return_value_babl_calloc_7;
+  void *return_value_babl_calloc_8;
+  return_value_babl_calloc_8=babl_calloc((unsigned long int)fpi->num_test_pixels, (unsigned long int)fpi->fmt_rgba_double->format.bytes_per_pixel);
+  fpi->ref_destination_rgba_double = (double *)return_value_babl_calloc_8;
   babl_process(fpi->fish_rgba_to_source, (const void *)test_pixels, fpi->source, (signed long int)fpi->num_test_pixels);
   ticks_start=babl_ticks();
   babl_process(fpi->fish_reference, fpi->source, fpi->ref_destination, (signed long int)fpi->num_test_pixels);
   ticks_end=babl_ticks();
-  signed long int return_value_babl_process_cost$9;
-  return_value_babl_process_cost$9=babl_process_cost(ticks_start, ticks_end);
-  fpi->reference_cost = (double)return_value_babl_process_cost$9;
+  signed long int return_value_babl_process_cost_9;
+  return_value_babl_process_cost_9=babl_process_cost(ticks_start, ticks_end);
+  fpi->reference_cost = (double)return_value_babl_process_cost_9;
   babl_process(fpi->fish_destination_to_rgba, fpi->ref_destination, (void *)fpi->ref_destination_rgba_double, (signed long int)fpi->num_test_pixels);
 }
 
@@ -10910,19 +10910,19 @@ static void init_ticks(void)
 // file babl-component.c line 50
 static signed int is_component_duplicate(union _Babl *babl, signed int luma, signed int chroma, signed int alpha)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(babl->component.luma == luma))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = babl->component.chroma != chroma ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = babl->component.chroma != chroma ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = babl->component.alpha != alpha ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = babl->component.alpha != alpha ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return 0;
 
   else
@@ -10931,24 +10931,24 @@ static signed int is_component_duplicate(union _Babl *babl, signed int luma, sig
 
 // is_format_duplicate
 // file babl-format.c line 269
-static signed int is_format_duplicate(union _Babl *babl, signed int planar, signed int components, struct anonymous$0 *model, struct anonymous$1 **component, struct anonymous **sampling, const struct anonymous$2 **type)
+static signed int is_format_duplicate(union _Babl *babl, signed int planar, signed int components, struct anonymous_0 *model, struct anonymous_1 **component, struct anonymous **sampling, const struct anonymous_2 **type)
 {
   signed int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(babl->format.planar == planar))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = babl->format.components != components ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = babl->format.components != components ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = babl->format.model != model ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = babl->format.model != model ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_2)
     return 0;
 
   else
@@ -10957,16 +10957,16 @@ static signed int is_format_duplicate(union _Babl *babl, signed int planar, sign
     for( ; !(i >= components); i = i + 1)
     {
       if(!(babl->format.component[(signed long int)i] == component[(signed long int)i]))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = babl->format.sampling[(signed long int)i] != sampling[(signed long int)i] ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_3 = babl->format.sampling[(signed long int)i] != sampling[(signed long int)i] ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = babl->format.type[(signed long int)i] != type[(signed long int)i] ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = babl->format.type[(signed long int)i] != type[(signed long int)i] ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
         return 0;
 
     }
@@ -10976,7 +10976,7 @@ static signed int is_format_duplicate(union _Babl *babl, signed int planar, sign
 
 // is_model_duplicate
 // file babl-model.c line 80
-static signed int is_model_duplicate(union _Babl *babl, signed int components, struct anonymous$1 **component)
+static signed int is_model_duplicate(union _Babl *babl, signed int components, struct anonymous_1 **component)
 {
   signed int i;
   if(!(babl->model.components == components))
@@ -11012,10 +11012,10 @@ static void item_conversions_introspect(union _Babl *babl)
   struct _BablList *list = babl->type.from_list;
   if(!(list == ((struct _BablList *)NULL)))
   {
-    real_babl_log$link13("babl-introspect.c", 93, (const char *)"item_conversions_introspect", "\t\tconversions from %s: %i", babl->instance.name, list->count);
+    real_babl_log_link13("babl-introspect.c", 93, (const char *)"item_conversions_introspect", "\t\tconversions from %s: %i", babl->instance.name, list->count);
     i = 0;
     for( ; !(i >= list->count); i = i + 1)
-      real_babl_log$link13("babl-introspect.c", 96, (const char *)"item_conversions_introspect", "\t\t\t'%s'", ((union _Babl *)list->items[(signed long int)i])->instance.name);
+      real_babl_log_link13("babl-introspect.c", 96, (const char *)"item_conversions_introspect", "\t\t\t'%s'", ((union _Babl *)list->items[(signed long int)i])->instance.name);
   }
 
 }
@@ -11025,7 +11025,7 @@ static void item_conversions_introspect(union _Babl *babl)
 static double legal_error(void)
 {
   const char *env;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   static double error = 0.0;
   if(IEEE_FLOAT_NOTEQUAL(error, 0.0))
     return error;
@@ -11034,11 +11034,11 @@ static double legal_error(void)
   {
     env=getenv("BABL_TOLERANCE");
     if(!(env == ((const char *)NULL)))
-      tmp_if_expr$1 = (signed int)env[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)env[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       error=babl_parse_double(env);
 
     else
@@ -11047,30 +11047,30 @@ static double legal_error(void)
   }
 }
 
-// legal_error$link1
+// legal_error_link1
 // file babl-fish-stats.c line 246
-static double legal_error$link1(void)
+static double legal_error_link1(void)
 {
-  const char *env$link1;
-  _Bool tmp_if_expr$1$link1;
-  static double error$link1 = 0.0;
-  if(IEEE_FLOAT_NOTEQUAL(error$link1, 0.0))
-    return error$link1;
+  const char *env_link1;
+  _Bool tmp_if_expr_1_link1;
+  static double error_link1 = 0.0;
+  if(IEEE_FLOAT_NOTEQUAL(error_link1, 0.0))
+    return error_link1;
 
   else
   {
-    env$link1=getenv("BABL_TOLERANCE");
-    if(!(env$link1 == ((const char *)NULL)))
-      tmp_if_expr$1$link1 = (signed int)env$link1[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+    env_link1=getenv("BABL_TOLERANCE");
+    if(!(env_link1 == ((const char *)NULL)))
+      tmp_if_expr_1_link1 = (signed int)env_link1[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1$link1 = (_Bool)0;
-    if(tmp_if_expr$1$link1)
-      error$link1=babl_parse_double$link1(env$link1);
+      tmp_if_expr_1_link1 = (_Bool)0;
+    if(tmp_if_expr_1_link1)
+      error_link1=babl_parse_double_link1(env_link1);
 
     else
-      error$link1 = 0.000001;
-    return error$link1;
+      error_link1 = 0.000001;
+    return error_link1;
   }
 }
 
@@ -11078,45 +11078,45 @@ static double legal_error$link1(void)
 // file util.h line 60
 static inline double linear_to_gamma_2_2(double value)
 {
-  double return_value_pow$1;
+  double return_value_pow_1;
   if(value > 0.003130804954)
   {
-    return_value_pow$1=pow(value, 1.0 / 2.4);
-    return 1.055 * return_value_pow$1 - 0.055;
+    return_value_pow_1=pow(value, 1.0 / 2.4);
+    return 1.055 * return_value_pow_1 - 0.055;
   }
 
   else
     return 12.92 * value;
 }
 
-// linear_to_gamma_2_2$link1
+// linear_to_gamma_2_2_link1
 // file util.h line 60
-static inline double linear_to_gamma_2_2$link1(double value$link1)
+static inline double linear_to_gamma_2_2_link1(double value_link1)
 {
-  double return_value_pow$1$link1;
-  if(value$link1 > 0.003130804954)
+  double return_value_pow_1_link1;
+  if(value_link1 > 0.003130804954)
   {
-    return_value_pow$1$link1=pow(value$link1, 1.0 / 2.4);
-    return 1.055 * return_value_pow$1$link1 - 0.055;
+    return_value_pow_1_link1=pow(value_link1, 1.0 / 2.4);
+    return 1.055 * return_value_pow_1_link1 - 0.055;
   }
 
   else
-    return 12.92 * value$link1;
+    return 12.92 * value_link1;
 }
 
-// linear_to_gamma_2_2$link2
+// linear_to_gamma_2_2_link2
 // file util.h line 60
-static inline double linear_to_gamma_2_2$link2(double value$link2)
+static inline double linear_to_gamma_2_2_link2(double value_link2)
 {
-  double return_value_pow$1$link2;
-  if(value$link2 > 0.003130804954)
+  double return_value_pow_1_link2;
+  if(value_link2 > 0.003130804954)
   {
-    return_value_pow$1$link2=pow(value$link2, 1.0 / 2.4);
-    return 1.055 * return_value_pow$1$link2 - 0.055;
+    return_value_pow_1_link2=pow(value_link2, 1.0 / 2.4);
+    return 1.055 * return_value_pow_1_link2 - 0.055;
   }
 
   else
-    return 12.92 * value$link2;
+    return 12.92 * value_link2;
 }
 
 // load_failed
@@ -11154,31 +11154,31 @@ static struct BablPalette * make_pal(const union _Babl *format, const void *data
   struct BablPalette *pal = (struct BablPalette *)(void *)0;
   signed int bpp;
   bpp=babl_format_get_bytes_per_pixel(format);
-  void *return_value_babl_malloc$1;
-  return_value_babl_malloc$1=babl_malloc(sizeof(struct BablPalette) /*8928ul*/ );
-  pal = (struct BablPalette *)return_value_babl_malloc$1;
+  void *return_value_babl_malloc_1;
+  return_value_babl_malloc_1=babl_malloc(sizeof(struct BablPalette) /*8928ul*/ );
+  pal = (struct BablPalette *)return_value_babl_malloc_1;
   pal->count = count;
   pal->format = format;
-  void *return_value_babl_malloc$2;
-  return_value_babl_malloc$2=babl_malloc((unsigned long int)(bpp * count));
-  pal->data = (unsigned char *)return_value_babl_malloc$2;
-  void *return_value_babl_malloc$3;
-  return_value_babl_malloc$3=babl_malloc((unsigned long int)4 * sizeof(double) /*8ul*/  * (unsigned long int)count);
-  pal->data_double = (double *)return_value_babl_malloc$3;
-  void *return_value_babl_malloc$4;
-  return_value_babl_malloc$4=babl_malloc((unsigned long int)4 * sizeof(char) /*1ul*/  * (unsigned long int)count);
-  pal->data_u8 = (unsigned char *)return_value_babl_malloc$4;
+  void *return_value_babl_malloc_2;
+  return_value_babl_malloc_2=babl_malloc((unsigned long int)(bpp * count));
+  pal->data = (unsigned char *)return_value_babl_malloc_2;
+  void *return_value_babl_malloc_3;
+  return_value_babl_malloc_3=babl_malloc((unsigned long int)4 * sizeof(double) /*8ul*/  * (unsigned long int)count);
+  pal->data_double = (double *)return_value_babl_malloc_3;
+  void *return_value_babl_malloc_4;
+  return_value_babl_malloc_4=babl_malloc((unsigned long int)4 * sizeof(char) /*1ul*/  * (unsigned long int)count);
+  pal->data_u8 = (unsigned char *)return_value_babl_malloc_4;
   memcpy((void *)pal->data, data, (unsigned long int)(bpp * count));
-  const union _Babl *return_value_babl_format$5;
-  return_value_babl_format$5=babl_format("RGBA double");
-  const union _Babl *return_value_babl_fish$6;
-  return_value_babl_fish$6=babl_fish((const void *)format, (const void *)return_value_babl_format$5);
-  babl_process(return_value_babl_fish$6, data, (void *)pal->data_double, (signed long int)count);
-  const union _Babl *return_value_babl_format$7;
-  return_value_babl_format$7=babl_format("RGBA u8");
-  const union _Babl *return_value_babl_fish$8;
-  return_value_babl_fish$8=babl_fish((const void *)format, (const void *)return_value_babl_format$7);
-  babl_process(return_value_babl_fish$8, data, (void *)pal->data_u8, (signed long int)count);
+  const union _Babl *return_value_babl_format_5;
+  return_value_babl_format_5=babl_format("RGBA double");
+  const union _Babl *return_value_babl_fish_6;
+  return_value_babl_fish_6=babl_fish((const void *)format, (const void *)return_value_babl_format_5);
+  babl_process(return_value_babl_fish_6, data, (void *)pal->data_double, (signed long int)count);
+  const union _Babl *return_value_babl_format_7;
+  return_value_babl_format_7=babl_format("RGBA u8");
+  const union _Babl *return_value_babl_fish_8;
+  return_value_babl_fish_8=babl_fish((const void *)format, (const void *)return_value_babl_format_7);
+  babl_process(return_value_babl_fish_8, data, (void *)pal->data_u8, (signed long int)count);
   babl_palette_reset_hash(pal);
   return pal;
 }
@@ -11231,30 +11231,30 @@ static signed int max_path_length(void)
 static void model_introspect(union _Babl *babl)
 {
   signed int i;
-  real_babl_log$link13("babl-introspect.c", 105, (const char *)"model_introspect", "\t\tcomponents=%i", babl->model.components);
+  real_babl_log_link13("babl-introspect.c", 105, (const char *)"model_introspect", "\t\tcomponents=%i", babl->model.components);
   i = 0;
   for( ; !(i >= babl->model.components); i = i + 1)
-    real_babl_log$link13("babl-introspect.c", 110, (const char *)"model_introspect", "\t\tindex[%i] = \"%s\"", i, ((union _Babl *)babl->model.component[(signed long int)i])->instance.name);
+    real_babl_log_link13("babl-introspect.c", 110, (const char *)"model_introspect", "\t\tindex[%i] = \"%s\"", i, ((union _Babl *)babl->model.component[(signed long int)i])->instance.name);
 }
 
 // model_new
 // file babl-model.c line 55
-static union _Babl * model_new(const char *name, signed int id, signed int components, struct anonymous$1 **component)
+static union _Babl * model_new(const char *name, signed int id, signed int components, struct anonymous_1 **component)
 {
   union _Babl *babl;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  void *return_value_babl_malloc$2;
-  return_value_babl_malloc$2=babl_malloc(sizeof(struct anonymous$0) /*64ul*/  + sizeof(struct anonymous$1 *) /*8ul*/  * (unsigned long int)components + return_value_strlen$1 + (unsigned long int)1);
-  babl = (union _Babl *)return_value_babl_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  void *return_value_babl_malloc_2;
+  return_value_babl_malloc_2=babl_malloc(sizeof(struct anonymous_0) /*64ul*/  + sizeof(struct anonymous_1 *) /*8ul*/  * (unsigned long int)components + return_value_strlen_1 + (unsigned long int)1);
+  babl = (union _Babl *)return_value_babl_malloc_2;
   babl_set_destructor((void *)babl, babl_model_destroy);
-  babl->model.component = (struct anonymous$1 **)(void *)((char *)babl + (signed long int)sizeof(struct anonymous$0) /*64ul*/ );
-  babl->instance.name = (char *)(void *)((char *)babl->model.component + (signed long int)(sizeof(struct anonymous$1 *) /*8ul*/  * (unsigned long int)components));
+  babl->model.component = (struct anonymous_1 **)(void *)((char *)babl + (signed long int)sizeof(struct anonymous_0) /*64ul*/ );
+  babl->instance.name = (char *)(void *)((char *)babl->model.component + (signed long int)(sizeof(struct anonymous_1 *) /*8ul*/  * (unsigned long int)components));
   babl->class_type = 12235014;
   babl->instance.id = id;
   babl->model.components = components;
   strcpy(babl->instance.name, name);
-  memcpy((void *)babl->model.component, (const void *)component, sizeof(struct anonymous$1 *) /*8ul*/  * (unsigned long int)components);
+  memcpy((void *)babl->model.component, (const void *)component, sizeof(struct anonymous_1 *) /*8ul*/  * (unsigned long int)components);
   babl->model.from_list = (struct _BablList *)(void *)0;
   return babl;
 }
@@ -11273,11 +11273,11 @@ static signed int model_sanity(union _Babl *babl, void *user_data)
     i = 0;
     for( ; !(i >= list->count); i = i + 1)
     {
-      union _Babl *return_value_babl_conversion_destination$1;
-      return_value_babl_conversion_destination$1=babl_conversion_destination((union _Babl *)list->items[(signed long int)i]);
-      const union _Babl *return_value_babl_model_from_id$2;
-      return_value_babl_model_from_id$2=babl_model_from_id(1005);
-      if(return_value_babl_conversion_destination$1 == return_value_babl_model_from_id$2)
+      union _Babl *return_value_babl_conversion_destination_1;
+      return_value_babl_conversion_destination_1=babl_conversion_destination((union _Babl *)list->items[(signed long int)i]);
+      const union _Babl *return_value_babl_model_from_id_2;
+      return_value_babl_model_from_id_2=babl_model_from_id(1005);
+      if(return_value_babl_conversion_destination_1 == return_value_babl_model_from_id_2)
       {
         ok = 1;
         break;
@@ -11289,7 +11289,7 @@ static signed int model_sanity(union _Babl *babl, void *user_data)
   if(ok == 0)
   {
     OK = 0;
-    real_babl_log$link18("babl-sanity.c", 93, (const char *)"model_sanity", "lack of sanity! model '%s' has no conversion to 'rgba'", babl->instance.name);
+    real_babl_log_link18("babl-sanity.c", 93, (const char *)"model_sanity", "lack of sanity! model '%s' has no conversion to 'rgba'", babl->instance.name);
   }
 
   return 0;
@@ -11306,139 +11306,139 @@ static void models(void)
   babl_base_model_ycbcr();
 }
 
-// models$link1
+// models_link1
 // file model-rgb.c line 112
-static void models$link1(void)
+static void models_link1(void)
 {
-  const union _Babl *return_value_babl_component_from_id$1;
-  return_value_babl_component_from_id$1=babl_component_from_id(10003);
-  const union _Babl *return_value_babl_component_from_id$2;
-  return_value_babl_component_from_id$2=babl_component_from_id(10004);
-  const union _Babl *return_value_babl_component_from_id$3;
-  return_value_babl_component_from_id$3=babl_component_from_id(10005);
-  babl_model_new((void *)"id", 1004, return_value_babl_component_from_id$1, return_value_babl_component_from_id$2, return_value_babl_component_from_id$3, (void *)0);
-  const union _Babl *return_value_babl_component_from_id$4;
-  return_value_babl_component_from_id$4=babl_component_from_id(10007);
-  const union _Babl *return_value_babl_component_from_id$5;
-  return_value_babl_component_from_id$5=babl_component_from_id(10008);
-  const union _Babl *return_value_babl_component_from_id$6;
-  return_value_babl_component_from_id$6=babl_component_from_id(10009);
-  const union _Babl *return_value_babl_component_from_id$7;
-  return_value_babl_component_from_id$7=babl_component_from_id(10006);
-  babl_model_new((void *)"id", 1006, return_value_babl_component_from_id$4, return_value_babl_component_from_id$5, return_value_babl_component_from_id$6, return_value_babl_component_from_id$7, (void *)0);
-  const union _Babl *return_value_babl_component_from_id$8;
-  return_value_babl_component_from_id$8=babl_component_from_id(10012);
-  const union _Babl *return_value_babl_component_from_id$9;
-  return_value_babl_component_from_id$9=babl_component_from_id(10013);
-  const union _Babl *return_value_babl_component_from_id$10;
-  return_value_babl_component_from_id$10=babl_component_from_id(10014);
-  babl_model_new((void *)"id", 1010, return_value_babl_component_from_id$8, return_value_babl_component_from_id$9, return_value_babl_component_from_id$10, (void *)0);
-  const union _Babl *return_value_babl_component_from_id$11;
-  return_value_babl_component_from_id$11=babl_component_from_id(10012);
-  const union _Babl *return_value_babl_component_from_id$12;
-  return_value_babl_component_from_id$12=babl_component_from_id(10013);
-  const union _Babl *return_value_babl_component_from_id$13;
-  return_value_babl_component_from_id$13=babl_component_from_id(10014);
-  const union _Babl *return_value_babl_component_from_id$14;
-  return_value_babl_component_from_id$14=babl_component_from_id(10006);
-  babl_model_new((void *)"id", 1011, return_value_babl_component_from_id$11, return_value_babl_component_from_id$12, return_value_babl_component_from_id$13, return_value_babl_component_from_id$14, (void *)0);
-  const union _Babl *return_value_babl_component_from_id$15;
-  return_value_babl_component_from_id$15=babl_component_from_id(10015);
-  const union _Babl *return_value_babl_component_from_id$16;
-  return_value_babl_component_from_id$16=babl_component_from_id(10016);
-  const union _Babl *return_value_babl_component_from_id$17;
-  return_value_babl_component_from_id$17=babl_component_from_id(10017);
-  const union _Babl *return_value_babl_component_from_id$18;
-  return_value_babl_component_from_id$18=babl_component_from_id(10006);
-  babl_model_new((void *)"id", 1012, return_value_babl_component_from_id$15, return_value_babl_component_from_id$16, return_value_babl_component_from_id$17, return_value_babl_component_from_id$18, (void *)0);
+  const union _Babl *return_value_babl_component_from_id_1;
+  return_value_babl_component_from_id_1=babl_component_from_id(10003);
+  const union _Babl *return_value_babl_component_from_id_2;
+  return_value_babl_component_from_id_2=babl_component_from_id(10004);
+  const union _Babl *return_value_babl_component_from_id_3;
+  return_value_babl_component_from_id_3=babl_component_from_id(10005);
+  babl_model_new((void *)"id", 1004, return_value_babl_component_from_id_1, return_value_babl_component_from_id_2, return_value_babl_component_from_id_3, (void *)0);
+  const union _Babl *return_value_babl_component_from_id_4;
+  return_value_babl_component_from_id_4=babl_component_from_id(10007);
+  const union _Babl *return_value_babl_component_from_id_5;
+  return_value_babl_component_from_id_5=babl_component_from_id(10008);
+  const union _Babl *return_value_babl_component_from_id_6;
+  return_value_babl_component_from_id_6=babl_component_from_id(10009);
+  const union _Babl *return_value_babl_component_from_id_7;
+  return_value_babl_component_from_id_7=babl_component_from_id(10006);
+  babl_model_new((void *)"id", 1006, return_value_babl_component_from_id_4, return_value_babl_component_from_id_5, return_value_babl_component_from_id_6, return_value_babl_component_from_id_7, (void *)0);
+  const union _Babl *return_value_babl_component_from_id_8;
+  return_value_babl_component_from_id_8=babl_component_from_id(10012);
+  const union _Babl *return_value_babl_component_from_id_9;
+  return_value_babl_component_from_id_9=babl_component_from_id(10013);
+  const union _Babl *return_value_babl_component_from_id_10;
+  return_value_babl_component_from_id_10=babl_component_from_id(10014);
+  babl_model_new((void *)"id", 1010, return_value_babl_component_from_id_8, return_value_babl_component_from_id_9, return_value_babl_component_from_id_10, (void *)0);
+  const union _Babl *return_value_babl_component_from_id_11;
+  return_value_babl_component_from_id_11=babl_component_from_id(10012);
+  const union _Babl *return_value_babl_component_from_id_12;
+  return_value_babl_component_from_id_12=babl_component_from_id(10013);
+  const union _Babl *return_value_babl_component_from_id_13;
+  return_value_babl_component_from_id_13=babl_component_from_id(10014);
+  const union _Babl *return_value_babl_component_from_id_14;
+  return_value_babl_component_from_id_14=babl_component_from_id(10006);
+  babl_model_new((void *)"id", 1011, return_value_babl_component_from_id_11, return_value_babl_component_from_id_12, return_value_babl_component_from_id_13, return_value_babl_component_from_id_14, (void *)0);
+  const union _Babl *return_value_babl_component_from_id_15;
+  return_value_babl_component_from_id_15=babl_component_from_id(10015);
+  const union _Babl *return_value_babl_component_from_id_16;
+  return_value_babl_component_from_id_16=babl_component_from_id(10016);
+  const union _Babl *return_value_babl_component_from_id_17;
+  return_value_babl_component_from_id_17=babl_component_from_id(10017);
+  const union _Babl *return_value_babl_component_from_id_18;
+  return_value_babl_component_from_id_18=babl_component_from_id(10006);
+  babl_model_new((void *)"id", 1012, return_value_babl_component_from_id_15, return_value_babl_component_from_id_16, return_value_babl_component_from_id_17, return_value_babl_component_from_id_18, (void *)0);
 }
 
-// models$link2
+// models_link2
 // file model-gray.c line 72
-static void models$link2(void)
+static void models_link2(void)
 {
-  const union _Babl *return_value_babl_component_from_id$1$link1;
-  return_value_babl_component_from_id$1$link1=babl_component_from_id(10001);
-  babl_model_new((void *)"id", 1001, return_value_babl_component_from_id$1$link1, (void *)0);
-  const union _Babl *return_value_babl_component_from_id$2$link1;
-  return_value_babl_component_from_id$2$link1=babl_component_from_id(10001);
-  const union _Babl *return_value_babl_component_from_id$3$link1;
-  return_value_babl_component_from_id$3$link1=babl_component_from_id(10006);
-  babl_model_new((void *)"id", 1002, return_value_babl_component_from_id$2$link1, return_value_babl_component_from_id$3$link1, (void *)0);
-  const union _Babl *return_value_babl_component_from_id$4$link1;
-  return_value_babl_component_from_id$4$link1=babl_component_from_id(10002);
-  const union _Babl *return_value_babl_component_from_id$5$link1;
-  return_value_babl_component_from_id$5$link1=babl_component_from_id(10006);
-  babl_model_new((void *)"id", 1003, return_value_babl_component_from_id$4$link1, return_value_babl_component_from_id$5$link1, (void *)0);
-  const union _Babl *return_value_babl_component_from_id$6$link1;
-  return_value_babl_component_from_id$6$link1=babl_component_from_id(10010);
-  babl_model_new((void *)"id", 1007, return_value_babl_component_from_id$6$link1, (void *)0);
-  const union _Babl *return_value_babl_component_from_id$7$link1;
-  return_value_babl_component_from_id$7$link1=babl_component_from_id(10010);
-  const union _Babl *return_value_babl_component_from_id$8$link1;
-  return_value_babl_component_from_id$8$link1=babl_component_from_id(10006);
-  babl_model_new((void *)"id", 1008, return_value_babl_component_from_id$7$link1, return_value_babl_component_from_id$8$link1, (void *)0);
-  const union _Babl *return_value_babl_component_from_id$9$link1;
-  return_value_babl_component_from_id$9$link1=babl_component_from_id(10011);
-  const union _Babl *return_value_babl_component_from_id$10$link1;
-  return_value_babl_component_from_id$10$link1=babl_component_from_id(10006);
-  babl_model_new((void *)"id", 1009, return_value_babl_component_from_id$9$link1, return_value_babl_component_from_id$10$link1, (void *)0);
+  const union _Babl *return_value_babl_component_from_id_1_link1;
+  return_value_babl_component_from_id_1_link1=babl_component_from_id(10001);
+  babl_model_new((void *)"id", 1001, return_value_babl_component_from_id_1_link1, (void *)0);
+  const union _Babl *return_value_babl_component_from_id_2_link1;
+  return_value_babl_component_from_id_2_link1=babl_component_from_id(10001);
+  const union _Babl *return_value_babl_component_from_id_3_link1;
+  return_value_babl_component_from_id_3_link1=babl_component_from_id(10006);
+  babl_model_new((void *)"id", 1002, return_value_babl_component_from_id_2_link1, return_value_babl_component_from_id_3_link1, (void *)0);
+  const union _Babl *return_value_babl_component_from_id_4_link1;
+  return_value_babl_component_from_id_4_link1=babl_component_from_id(10002);
+  const union _Babl *return_value_babl_component_from_id_5_link1;
+  return_value_babl_component_from_id_5_link1=babl_component_from_id(10006);
+  babl_model_new((void *)"id", 1003, return_value_babl_component_from_id_4_link1, return_value_babl_component_from_id_5_link1, (void *)0);
+  const union _Babl *return_value_babl_component_from_id_6_link1;
+  return_value_babl_component_from_id_6_link1=babl_component_from_id(10010);
+  babl_model_new((void *)"id", 1007, return_value_babl_component_from_id_6_link1, (void *)0);
+  const union _Babl *return_value_babl_component_from_id_7_link1;
+  return_value_babl_component_from_id_7_link1=babl_component_from_id(10010);
+  const union _Babl *return_value_babl_component_from_id_8_link1;
+  return_value_babl_component_from_id_8_link1=babl_component_from_id(10006);
+  babl_model_new((void *)"id", 1008, return_value_babl_component_from_id_7_link1, return_value_babl_component_from_id_8_link1, (void *)0);
+  const union _Babl *return_value_babl_component_from_id_9_link1;
+  return_value_babl_component_from_id_9_link1=babl_component_from_id(10011);
+  const union _Babl *return_value_babl_component_from_id_10_link1;
+  return_value_babl_component_from_id_10_link1=babl_component_from_id(10006);
+  babl_model_new((void *)"id", 1009, return_value_babl_component_from_id_9_link1, return_value_babl_component_from_id_10_link1, (void *)0);
 }
 
-// models$link3
+// models_link3
 // file model-ycbcr.c line 62
-static void models$link3(void)
+static void models_link3(void)
 {
-  const union _Babl *return_value_babl_component_from_id$1$link2;
-  return_value_babl_component_from_id$1$link2=babl_component_from_id(10010);
-  const union _Babl *return_value_babl_component_from_id$2$link2;
-  return_value_babl_component_from_id$2$link2=babl_component_from_id(10024);
-  const union _Babl *return_value_babl_component_from_id$3$link2;
-  return_value_babl_component_from_id$3$link2=babl_component_from_id(10025);
-  babl_model_new((void *)"id", 1013, return_value_babl_component_from_id$1$link2, return_value_babl_component_from_id$2$link2, return_value_babl_component_from_id$3$link2, (void *)0);
-  const union _Babl *return_value_babl_component_from_id$4$link2;
-  return_value_babl_component_from_id$4$link2=babl_component_from_id(10010);
-  const union _Babl *return_value_babl_component_from_id$5$link2;
-  return_value_babl_component_from_id$5$link2=babl_component_from_id(10024);
-  const union _Babl *return_value_babl_component_from_id$6$link2;
-  return_value_babl_component_from_id$6$link2=babl_component_from_id(10025);
-  const union _Babl *return_value_babl_component_from_id$7$link2;
-  return_value_babl_component_from_id$7$link2=babl_component_from_id(10006);
-  babl_model_new((void *)"id", 1014, return_value_babl_component_from_id$4$link2, return_value_babl_component_from_id$5$link2, return_value_babl_component_from_id$6$link2, return_value_babl_component_from_id$7$link2, (void *)0);
+  const union _Babl *return_value_babl_component_from_id_1_link2;
+  return_value_babl_component_from_id_1_link2=babl_component_from_id(10010);
+  const union _Babl *return_value_babl_component_from_id_2_link2;
+  return_value_babl_component_from_id_2_link2=babl_component_from_id(10024);
+  const union _Babl *return_value_babl_component_from_id_3_link2;
+  return_value_babl_component_from_id_3_link2=babl_component_from_id(10025);
+  babl_model_new((void *)"id", 1013, return_value_babl_component_from_id_1_link2, return_value_babl_component_from_id_2_link2, return_value_babl_component_from_id_3_link2, (void *)0);
+  const union _Babl *return_value_babl_component_from_id_4_link2;
+  return_value_babl_component_from_id_4_link2=babl_component_from_id(10010);
+  const union _Babl *return_value_babl_component_from_id_5_link2;
+  return_value_babl_component_from_id_5_link2=babl_component_from_id(10024);
+  const union _Babl *return_value_babl_component_from_id_6_link2;
+  return_value_babl_component_from_id_6_link2=babl_component_from_id(10025);
+  const union _Babl *return_value_babl_component_from_id_7_link2;
+  return_value_babl_component_from_id_7_link2=babl_component_from_id(10006);
+  babl_model_new((void *)"id", 1014, return_value_babl_component_from_id_4_link2, return_value_babl_component_from_id_5_link2, return_value_babl_component_from_id_6_link2, return_value_babl_component_from_id_7_link2, (void *)0);
 }
 
 // ncomponent_convert_from_double
 // file babl-fish-reference.c line 237
-static void ncomponent_convert_from_double(struct anonymous$4 *destination_fmt, char *destination_double_buf, char *destination_buf, signed int n)
+static void ncomponent_convert_from_double(struct anonymous_4 *destination_fmt, char *destination_double_buf, char *destination_buf, signed int n)
 {
-  struct anonymous$5 *src_img;
-  struct anonymous$5 *dst_img;
-  const union _Babl *return_value_babl_component_from_id$1;
-  return_value_babl_component_from_id$1=babl_component_from_id(10001);
-  union _Babl *return_value_babl_image_new$2;
-  return_value_babl_image_new$2=babl_image_new((const void *)return_value_babl_component_from_id$1, (void *)0, 1, 0, (void *)0);
-  src_img = (struct anonymous$5 *)return_value_babl_image_new$2;
-  const union _Babl *return_value_babl_component_from_id$3;
-  return_value_babl_component_from_id$3=babl_component_from_id(10001);
-  union _Babl *return_value_babl_image_new$4;
-  return_value_babl_image_new$4=babl_image_new((const void *)return_value_babl_component_from_id$3, (void *)0, 1, 0, (void *)0);
-  dst_img = (struct anonymous$5 *)return_value_babl_image_new$4;
-  const union _Babl *return_value_babl_type_from_id$5;
-  return_value_babl_type_from_id$5=babl_type_from_id(106);
-  src_img->type[(signed long int)0] = (struct anonymous$2 *)return_value_babl_type_from_id$5;
+  struct anonymous_5 *src_img;
+  struct anonymous_5 *dst_img;
+  const union _Babl *return_value_babl_component_from_id_1;
+  return_value_babl_component_from_id_1=babl_component_from_id(10001);
+  union _Babl *return_value_babl_image_new_2;
+  return_value_babl_image_new_2=babl_image_new((const void *)return_value_babl_component_from_id_1, (void *)0, 1, 0, (void *)0);
+  src_img = (struct anonymous_5 *)return_value_babl_image_new_2;
+  const union _Babl *return_value_babl_component_from_id_3;
+  return_value_babl_component_from_id_3=babl_component_from_id(10001);
+  union _Babl *return_value_babl_image_new_4;
+  return_value_babl_image_new_4=babl_image_new((const void *)return_value_babl_component_from_id_3, (void *)0, 1, 0, (void *)0);
+  dst_img = (struct anonymous_5 *)return_value_babl_image_new_4;
+  const union _Babl *return_value_babl_type_from_id_5;
+  return_value_babl_type_from_id_5=babl_type_from_id(106);
+  src_img->type[(signed long int)0] = (struct anonymous_2 *)return_value_babl_type_from_id_5;
   src_img->pitch[(signed long int)0] = src_img->type[(signed long int)0]->bits / 8;
   src_img->stride[(signed long int)0] = 0;
   dst_img->data[(signed long int)0] = destination_buf;
-  const union _Babl *return_value_babl_type_from_id$6;
-  return_value_babl_type_from_id$6=babl_type_from_id(106);
-  dst_img->type[(signed long int)0] = (struct anonymous$2 *)return_value_babl_type_from_id$6;
+  const union _Babl *return_value_babl_type_from_id_6;
+  return_value_babl_type_from_id_6=babl_type_from_id(106);
+  dst_img->type[(signed long int)0] = (struct anonymous_2 *)return_value_babl_type_from_id_6;
   dst_img->pitch[(signed long int)0] = destination_fmt->type[(signed long int)0]->bits / 8;
   dst_img->stride[(signed long int)0] = 0;
   dst_img->type[(signed long int)0] = destination_fmt->type[(signed long int)0];
   src_img->data[(signed long int)0] = destination_double_buf;
-  union _Babl *return_value_assert_conversion_find$7;
-  return_value_assert_conversion_find$7=assert_conversion_find((const void *)src_img->type[(signed long int)0], (const void *)dst_img->type[(signed long int)0]);
-  babl_process(return_value_assert_conversion_find$7, (const void *)src_img, (void *)dst_img, (signed long int)(n * destination_fmt->components));
+  union _Babl *return_value_assert_conversion_find_7;
+  return_value_assert_conversion_find_7=assert_conversion_find((const void *)src_img->type[(signed long int)0], (const void *)dst_img->type[(signed long int)0]);
+  babl_process(return_value_assert_conversion_find_7, (const void *)src_img, (void *)dst_img, (signed long int)(n * destination_fmt->components));
   dst_img->data[(signed long int)0] = dst_img->data[(signed long int)0] + (signed long int)(dst_img->type[(signed long int)0]->bits / 8);
   babl_free((void *)src_img);
   babl_free((void *)dst_img);
@@ -11446,23 +11446,23 @@ static void ncomponent_convert_from_double(struct anonymous$4 *destination_fmt, 
 
 // ncomponent_convert_to_double
 // file babl-fish-reference.c line 204
-static void ncomponent_convert_to_double(struct anonymous$4 *source_fmt, char *source_buf, char *source_double_buf, signed int n)
+static void ncomponent_convert_to_double(struct anonymous_4 *source_fmt, char *source_buf, char *source_double_buf, signed int n)
 {
-  struct anonymous$5 *src_img;
-  struct anonymous$5 *dst_img;
-  const union _Babl *return_value_babl_component_from_id$1;
-  return_value_babl_component_from_id$1=babl_component_from_id(10001);
-  union _Babl *return_value_babl_image_new$2;
-  return_value_babl_image_new$2=babl_image_new((const void *)return_value_babl_component_from_id$1, (void *)0, 1, 0, (void *)0);
-  src_img = (struct anonymous$5 *)return_value_babl_image_new$2;
-  const union _Babl *return_value_babl_component_from_id$3;
-  return_value_babl_component_from_id$3=babl_component_from_id(10001);
-  union _Babl *return_value_babl_image_new$4;
-  return_value_babl_image_new$4=babl_image_new((const void *)return_value_babl_component_from_id$3, (void *)0, 1, 0, (void *)0);
-  dst_img = (struct anonymous$5 *)return_value_babl_image_new$4;
-  const union _Babl *return_value_babl_type_from_id$5;
-  return_value_babl_type_from_id$5=babl_type_from_id(106);
-  dst_img->type[(signed long int)0] = (struct anonymous$2 *)return_value_babl_type_from_id$5;
+  struct anonymous_5 *src_img;
+  struct anonymous_5 *dst_img;
+  const union _Babl *return_value_babl_component_from_id_1;
+  return_value_babl_component_from_id_1=babl_component_from_id(10001);
+  union _Babl *return_value_babl_image_new_2;
+  return_value_babl_image_new_2=babl_image_new((const void *)return_value_babl_component_from_id_1, (void *)0, 1, 0, (void *)0);
+  src_img = (struct anonymous_5 *)return_value_babl_image_new_2;
+  const union _Babl *return_value_babl_component_from_id_3;
+  return_value_babl_component_from_id_3=babl_component_from_id(10001);
+  union _Babl *return_value_babl_image_new_4;
+  return_value_babl_image_new_4=babl_image_new((const void *)return_value_babl_component_from_id_3, (void *)0, 1, 0, (void *)0);
+  dst_img = (struct anonymous_5 *)return_value_babl_image_new_4;
+  const union _Babl *return_value_babl_type_from_id_5;
+  return_value_babl_type_from_id_5=babl_type_from_id(106);
+  dst_img->type[(signed long int)0] = (struct anonymous_2 *)return_value_babl_type_from_id_5;
   dst_img->pitch[(signed long int)0] = dst_img->type[(signed long int)0]->bits / 8;
   dst_img->stride[(signed long int)0] = 0;
   src_img->data[(signed long int)0] = source_buf;
@@ -11470,9 +11470,9 @@ static void ncomponent_convert_to_double(struct anonymous$4 *source_fmt, char *s
   src_img->pitch[(signed long int)0] = source_fmt->type[(signed long int)0]->bits / 8;
   src_img->stride[(signed long int)0] = 0;
   dst_img->data[(signed long int)0] = source_double_buf;
-  union _Babl *return_value_assert_conversion_find$6;
-  return_value_assert_conversion_find$6=assert_conversion_find((const void *)src_img->type[(signed long int)0], (const void *)dst_img->type[(signed long int)0]);
-  babl_process(return_value_assert_conversion_find$6, (const void *)src_img, (void *)dst_img, (signed long int)(n * source_fmt->components));
+  union _Babl *return_value_assert_conversion_find_6;
+  return_value_assert_conversion_find_6=assert_conversion_find((const void *)src_img->type[(signed long int)0], (const void *)dst_img->type[(signed long int)0]);
+  babl_process(return_value_assert_conversion_find_6, (const void *)src_img, (void *)dst_img, (signed long int)(n * source_fmt->components));
   babl_free((void *)src_img);
   babl_free((void *)dst_img);
 }
@@ -11481,11 +11481,11 @@ static void ncomponent_convert_to_double(struct anonymous$4 *source_fmt, char *s
 // file babl-format.c line 195
 static char * ncomponents_create_name(const union _Babl *type, signed int components)
 {
-  char ncomponents_create_name$$1$$buf[512l];
-  sprintf(ncomponents_create_name$$1$$buf, "%s[%i] ", type->instance.name, components);
-  char *return_value_babl_strdup$1;
-  return_value_babl_strdup$1=babl_strdup(ncomponents_create_name$$1$$buf);
-  return return_value_babl_strdup$1;
+  char ncomponents_create_name__1__buf[512l];
+  sprintf(ncomponents_create_name__1__buf, "%s[%i] ", type->instance.name, components);
+  char *return_value_babl_strdup_1;
+  return_value_babl_strdup_1=babl_strdup(ncomponents_create_name__1__buf);
+  return return_value_babl_strdup_1;
 }
 
 // non_premultiplied_to_premultiplied
@@ -11509,12 +11509,12 @@ static signed long int non_premultiplied_to_premultiplied(signed int src_bands, 
   assert(n > (signed long int)0);
   /* assertion *src_pitch */
   assert(*src_pitch != 0);
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double alpha;
@@ -11535,47 +11535,47 @@ static signed long int non_premultiplied_to_premultiplied(signed int src_bands, 
   return samples;
 }
 
-// non_premultiplied_to_premultiplied$link1
+// non_premultiplied_to_premultiplied_link1
 // file model-gray.c line 370
-static signed long int non_premultiplied_to_premultiplied$link1(signed int src_bands$link1, char **src$link1, signed int *src_pitch$link1, signed int dst_bands$link1, char **dst$link1, signed int *dst_pitch$link1, signed long int n)
+static signed long int non_premultiplied_to_premultiplied_link1(signed int src_bands_link1, char **src_link1, signed int *src_pitch_link1, signed int dst_bands_link1, char **dst_link1, signed int *dst_pitch_link1, signed long int n)
 {
   /* assertion src_bands>0 */
-  assert(src_bands$link1 > 0);
+  assert(src_bands_link1 > 0);
   /* assertion dst_bands>0 */
-  assert(dst_bands$link1 > 0);
+  assert(dst_bands_link1 > 0);
   /* assertion src */
-  assert(src$link1 != ((char **)NULL));
+  assert(src_link1 != ((char **)NULL));
   /* assertion *src */
-  assert(*src$link1 != ((char *)NULL));
+  assert(*src_link1 != ((char *)NULL));
   /* assertion dst */
-  assert(dst$link1 != ((char **)NULL));
+  assert(dst_link1 != ((char **)NULL));
   /* assertion *dst */
-  assert(*dst$link1 != ((char *)NULL));
+  assert(*dst_link1 != ((char *)NULL));
   /* assertion n>0 */
   assert(n > (signed long int)0);
   /* assertion *src_pitch */
-  assert(*src_pitch$link1 != 0);
-  signed long int tmp_post$1$link1;
+  assert(*src_pitch_link1 != 0);
+  signed long int tmp_post_1_link1;
   do
   {
-    tmp_post$1$link1 = n;
+    tmp_post_1_link1 = n;
     n = n - 1l;
-    if(tmp_post$1$link1 == 0l)
+    if(tmp_post_1_link1 == 0l)
       break;
 
-    double alpha$link1;
-    signed int band$link1;
-    alpha$link1 = *((double *)src$link1[(signed long int)(src_bands$link1 - 1)]);
-    band$link1 = 0;
-    for( ; !(band$link1 >= src_bands$link1 + -1); band$link1 = band$link1 + 1)
-      *((double *)dst$link1[(signed long int)band$link1]) = *((double *)src$link1[(signed long int)band$link1]) * alpha$link1;
-    *((double *)dst$link1[(signed long int)(dst_bands$link1 - 1)]) = alpha$link1;
-    signed int i$link1 = 0;
-    for( ; !(i$link1 >= src_bands$link1); i$link1 = i$link1 + 1)
-      src$link1[(signed long int)i$link1] = src$link1[(signed long int)i$link1] + (signed long int)src_pitch$link1[(signed long int)i$link1];
-    i$link1 = 0;
-    for( ; !(i$link1 >= dst_bands$link1); i$link1 = i$link1 + 1)
-      dst$link1[(signed long int)i$link1] = dst$link1[(signed long int)i$link1] + (signed long int)dst_pitch$link1[(signed long int)i$link1];
+    double alpha_link1;
+    signed int band_link1;
+    alpha_link1 = *((double *)src_link1[(signed long int)(src_bands_link1 - 1)]);
+    band_link1 = 0;
+    for( ; !(band_link1 >= src_bands_link1 + -1); band_link1 = band_link1 + 1)
+      *((double *)dst_link1[(signed long int)band_link1]) = *((double *)src_link1[(signed long int)band_link1]) * alpha_link1;
+    *((double *)dst_link1[(signed long int)(dst_bands_link1 - 1)]) = alpha_link1;
+    signed int i_link1 = 0;
+    for( ; !(i_link1 >= src_bands_link1); i_link1 = i_link1 + 1)
+      src_link1[(signed long int)i_link1] = src_link1[(signed long int)i_link1] + (signed long int)src_pitch_link1[(signed long int)i_link1];
+    i_link1 = 0;
+    for( ; !(i_link1 >= dst_bands_link1); i_link1 = i_link1 + 1)
+      dst_link1[(signed long int)i_link1] = dst_link1[(signed long int)i_link1] + (signed long int)dst_pitch_link1[(signed long int)i_link1];
   }
   while((_Bool)1);
   return n;
@@ -11589,12 +11589,12 @@ static signed long int pal_to_rgba(char *src, char *dst, signed long int n, void
   struct BablPalette *pal = *palptr;
   /* assertion pal */
   assert(pal != ((struct BablPalette *)NULL));
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     signed int idx = (signed int)(((double *)src)[(signed long int)0] * 255.5);
@@ -11625,12 +11625,12 @@ static signed long int pal_u8_to_rgba_u8(char *src, char *dst, signed long int n
   pal = *palptr;
   /* assertion pal */
   assert(pal != ((struct BablPalette *)NULL));
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     signed int idx = (signed int)((unsigned char *)src)[(signed long int)0];
@@ -11658,12 +11658,12 @@ static signed long int pala_to_rgba(char *src, char *dst, signed long int n, voi
   struct BablPalette *pal = *palptr;
   /* assertion pal */
   assert(pal != ((struct BablPalette *)NULL));
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     signed int idx = (signed int)(((double *)src)[(signed long int)0] * 255.5);
@@ -11696,12 +11696,12 @@ static signed long int pala_u8_to_rgba_u8(char *src, char *dst, signed long int 
   pal = *palptr;
   /* assertion pal */
   assert(pal != ((struct BablPalette *)NULL));
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     signed int idx = (signed int)((unsigned char *)src)[(signed long int)0];
@@ -11743,12 +11743,12 @@ static signed long int premultiplied_to_non_premultiplied(signed int src_bands, 
   assert(n > (signed long int)0);
   /* assertion *src_pitch */
   assert(*src_pitch != 0);
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double alpha;
@@ -11780,51 +11780,51 @@ static signed long int premultiplied_to_non_premultiplied(signed int src_bands, 
   return samples;
 }
 
-// premultiplied_to_non_premultiplied$link1
+// premultiplied_to_non_premultiplied_link1
 // file model-gray.c line 398
-static signed long int premultiplied_to_non_premultiplied$link1(signed int src_bands$link1, char **src$link1, signed int *src_pitch$link1, signed int dst_bands$link1, char **dst$link1, signed int *dst_pitch$link1, signed long int n)
+static signed long int premultiplied_to_non_premultiplied_link1(signed int src_bands_link1, char **src_link1, signed int *src_pitch_link1, signed int dst_bands_link1, char **dst_link1, signed int *dst_pitch_link1, signed long int n)
 {
   /* assertion src_bands>0 */
-  assert(src_bands$link1 > 0);
+  assert(src_bands_link1 > 0);
   /* assertion dst_bands>0 */
-  assert(dst_bands$link1 > 0);
+  assert(dst_bands_link1 > 0);
   /* assertion src */
-  assert(src$link1 != ((char **)NULL));
+  assert(src_link1 != ((char **)NULL));
   /* assertion *src */
-  assert(*src$link1 != ((char *)NULL));
+  assert(*src_link1 != ((char *)NULL));
   /* assertion dst */
-  assert(dst$link1 != ((char **)NULL));
+  assert(dst_link1 != ((char **)NULL));
   /* assertion *dst */
-  assert(*dst$link1 != ((char *)NULL));
+  assert(*dst_link1 != ((char *)NULL));
   /* assertion n>0 */
   assert(n > (signed long int)0);
   /* assertion *src_pitch */
-  assert(*src_pitch$link1 != 0);
-  signed long int tmp_post$1$link1;
+  assert(*src_pitch_link1 != 0);
+  signed long int tmp_post_1_link1;
   do
   {
-    tmp_post$1$link1 = n;
+    tmp_post_1_link1 = n;
     n = n - 1l;
-    if(tmp_post$1$link1 == 0l)
+    if(tmp_post_1_link1 == 0l)
       break;
 
-    double alpha$link1;
-    signed int band$link1;
-    alpha$link1 = *((double *)src$link1[(signed long int)(src_bands$link1 - 1)]);
-    band$link1 = 0;
-    for( ; !(band$link1 >= src_bands$link1 + -1); band$link1 = band$link1 + 1)
-      if(alpha$link1 > 0.000000152590219)
-        *((double *)dst$link1[(signed long int)band$link1]) = *((double *)src$link1[(signed long int)band$link1]) / alpha$link1;
+    double alpha_link1;
+    signed int band_link1;
+    alpha_link1 = *((double *)src_link1[(signed long int)(src_bands_link1 - 1)]);
+    band_link1 = 0;
+    for( ; !(band_link1 >= src_bands_link1 + -1); band_link1 = band_link1 + 1)
+      if(alpha_link1 > 0.000000152590219)
+        *((double *)dst_link1[(signed long int)band_link1]) = *((double *)src_link1[(signed long int)band_link1]) / alpha_link1;
 
       else
-        *((double *)dst$link1[(signed long int)band$link1]) = 0.0;
-    *((double *)dst$link1[(signed long int)(dst_bands$link1 - 1)]) = alpha$link1;
+        *((double *)dst_link1[(signed long int)band_link1]) = 0.0;
+    *((double *)dst_link1[(signed long int)(dst_bands_link1 - 1)]) = alpha_link1;
     signed int i = 0;
-    for( ; !(i >= src_bands$link1); i = i + 1)
-      src$link1[(signed long int)i] = src$link1[(signed long int)i] + (signed long int)src_pitch$link1[(signed long int)i];
+    for( ; !(i >= src_bands_link1); i = i + 1)
+      src_link1[(signed long int)i] = src_link1[(signed long int)i] + (signed long int)src_pitch_link1[(signed long int)i];
     i = 0;
-    for( ; !(i >= dst_bands$link1); i = i + 1)
-      dst$link1[(signed long int)i] = dst$link1[(signed long int)i] + (signed long int)dst_pitch$link1[(signed long int)i];
+    for( ; !(i >= dst_bands_link1); i = i + 1)
+      dst_link1[(signed long int)i] = dst_link1[(signed long int)i] + (signed long int)dst_pitch_link1[(signed long int)i];
   }
   while((_Bool)1);
   return n;
@@ -11834,23 +11834,23 @@ static signed long int premultiplied_to_non_premultiplied$link1(signed int src_b
 // file babl-fish-path.c line 467
 static signed long int process_conversion_path(struct _BablList *path, const void *source_buffer, signed int source_bpp, void *destination_buffer, signed int dest_bpp, signed long int n)
 {
-  signed int process_conversion_path$$1$$conversions = path->count;
-  if(process_conversion_path$$1$$conversions == 1)
+  signed int process_conversion_path__1__conversions = path->count;
+  if(process_conversion_path__1__conversions == 1)
     babl_conversion_process((union _Babl *)path->items[(signed long int)0], (const char *)source_buffer, (char *)destination_buffer, n);
 
   else
   {
     signed long int j;
     void *temp_buffer;
-    void *return_value___builtin_alloca$1;
-    return_value___builtin_alloca$1=__builtin_alloca((unsigned long int)(n > (signed long int)1024 ? (signed long int)1024 : n) * sizeof(double) /*8ul*/  * (unsigned long int)5 + (unsigned long int)16);
-    temp_buffer=align_16((unsigned char *)return_value___builtin_alloca$1);
+    void *return_value___builtin_alloca_1;
+    return_value___builtin_alloca_1=__builtin_alloca((unsigned long int)(n > (signed long int)1024 ? (signed long int)1024 : n) * sizeof(double) /*8ul*/  * (unsigned long int)5 + (unsigned long int)16);
+    temp_buffer=align_16((unsigned char *)return_value___builtin_alloca_1);
     void *temp_buffer2 = (void *)0;
-    if(process_conversion_path$$1$$conversions >= 3)
+    if(process_conversion_path__1__conversions >= 3)
     {
-      void *return_value___builtin_alloca$2;
-      return_value___builtin_alloca$2=__builtin_alloca((unsigned long int)(n > (signed long int)1024 ? (signed long int)1024 : n) * sizeof(double) /*8ul*/  * (unsigned long int)5 + (unsigned long int)16);
-      temp_buffer2=align_16((unsigned char *)return_value___builtin_alloca$2);
+      void *return_value___builtin_alloca_2;
+      return_value___builtin_alloca_2=__builtin_alloca((unsigned long int)(n > (signed long int)1024 ? (signed long int)1024 : n) * sizeof(double) /*8ul*/  * (unsigned long int)5 + (unsigned long int)16);
+      temp_buffer2=align_16((unsigned char *)return_value___builtin_alloca_2);
     }
 
     j = (signed long int)0;
@@ -11864,7 +11864,7 @@ static signed long int process_conversion_path(struct _BablList *path, const voi
       aux2_buffer = temp_buffer2;
       babl_conversion_process(path->items[(signed long int)0], (const char *)(void *)((unsigned char *)source_buffer + j * (signed long int)source_bpp), (char *)aux1_buffer, c);
       i = 1;
-      for( ; !(i >= process_conversion_path$$1$$conversions + -1); i = i + 1)
+      for( ; !(i >= process_conversion_path__1__conversions + -1); i = i + 1)
       {
         babl_conversion_process(path->items[(signed long int)i], (const char *)aux1_buffer, (char *)aux2_buffer, c);
         swap_buffer = aux1_buffer;
@@ -11882,29 +11882,29 @@ static signed long int process_conversion_path(struct _BablList *path, const voi
 static signed int process_same_model(const union _Babl *babl, const char *source, char *destination, signed long int n)
 {
   void *double_buf;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(babl->fish.source->format.components >= babl->fish.source->format.model->components))
-    tmp_if_expr$1 = ((union _Babl *)babl->fish.source)->format.model->components;
+    tmp_if_expr_1 = ((union _Babl *)babl->fish.source)->format.model->components;
 
   else
-    tmp_if_expr$1 = ((union _Babl *)babl->fish.source)->format.components;
-  double_buf=babl_malloc(sizeof(double) /*8ul*/  * (unsigned long int)n * (unsigned long int)tmp_if_expr$1);
-  _Bool tmp_if_expr$2;
+    tmp_if_expr_1 = ((union _Babl *)babl->fish.source)->format.components;
+  double_buf=babl_malloc(sizeof(double) /*8ul*/  * (unsigned long int)n * (unsigned long int)tmp_if_expr_1);
+  _Bool tmp_if_expr_2;
   if(babl->fish.source->format.components == babl->fish.destination->format.components)
-    tmp_if_expr$2 = ((union _Babl *)babl->fish.source)->format.model->components != ((union _Babl *)babl->fish.source)->format.components ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = ((union _Babl *)babl->fish.source)->format.model->components != ((union _Babl *)babl->fish.source)->format.components ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
   {
-    ncomponent_convert_to_double((struct anonymous$4 *)(union _Babl *)babl->fish.source, (char *)source, (char *)double_buf, (signed int)n);
-    ncomponent_convert_from_double((struct anonymous$4 *)(union _Babl *)babl->fish.destination, (char *)double_buf, (char *)destination, (signed int)n);
+    ncomponent_convert_to_double((struct anonymous_4 *)(union _Babl *)babl->fish.source, (char *)source, (char *)double_buf, (signed int)n);
+    ncomponent_convert_from_double((struct anonymous_4 *)(union _Babl *)babl->fish.destination, (char *)double_buf, (char *)destination, (signed int)n);
   }
 
   else
   {
-    convert_to_double((struct anonymous$4 *)(union _Babl *)babl->fish.source, (char *)source, (char *)double_buf, (signed int)n);
-    convert_from_double((struct anonymous$4 *)(union _Babl *)babl->fish.destination, (char *)double_buf, (char *)destination, (signed int)n);
+    convert_to_double((struct anonymous_4 *)(union _Babl *)babl->fish.source, (char *)source, (char *)double_buf, (signed int)n);
+    convert_from_double((struct anonymous_4 *)(union _Babl *)babl->fish.destination, (char *)double_buf, (char *)destination, (signed int)n);
   }
   babl_free(double_buf);
   return 0;
@@ -11915,32 +11915,32 @@ static signed int process_same_model(const union _Babl *babl, const char *source
 static signed int process_to_n_component(const union _Babl *babl, const char *source, char *destination, signed long int n)
 {
   void *double_buf;
-  signed int process_to_n_component$$1$$components;
-  signed int tmp_if_expr$1;
+  signed int process_to_n_component__1__components;
+  signed int tmp_if_expr_1;
   if(!(babl->fish.source->format.components >= babl->fish.source->format.model->components))
-    tmp_if_expr$1 = ((union _Babl *)babl->fish.source)->format.model->components;
+    tmp_if_expr_1 = ((union _Babl *)babl->fish.source)->format.model->components;
 
   else
-    tmp_if_expr$1 = ((union _Babl *)babl->fish.source)->format.components;
-  process_to_n_component$$1$$components = tmp_if_expr$1;
-  signed int tmp_if_expr$2;
-  if(!(babl->fish.destination->format.components >= process_to_n_component$$1$$components))
-    tmp_if_expr$2 = process_to_n_component$$1$$components;
+    tmp_if_expr_1 = ((union _Babl *)babl->fish.source)->format.components;
+  process_to_n_component__1__components = tmp_if_expr_1;
+  signed int tmp_if_expr_2;
+  if(!(babl->fish.destination->format.components >= process_to_n_component__1__components))
+    tmp_if_expr_2 = process_to_n_component__1__components;
 
   else
-    tmp_if_expr$2 = ((union _Babl *)babl->fish.destination)->format.components;
-  process_to_n_component$$1$$components = tmp_if_expr$2;
-  signed int tmp_if_expr$3;
-  if(!(babl->fish.destination->model.components >= process_to_n_component$$1$$components))
-    tmp_if_expr$3 = process_to_n_component$$1$$components;
+    tmp_if_expr_2 = ((union _Babl *)babl->fish.destination)->format.components;
+  process_to_n_component__1__components = tmp_if_expr_2;
+  signed int tmp_if_expr_3;
+  if(!(babl->fish.destination->model.components >= process_to_n_component__1__components))
+    tmp_if_expr_3 = process_to_n_component__1__components;
 
   else
-    tmp_if_expr$3 = ((union _Babl *)babl->fish.destination)->model.components;
-  process_to_n_component$$1$$components = tmp_if_expr$3;
-  double_buf=babl_malloc(sizeof(double) /*8ul*/  * (unsigned long int)n * (unsigned long int)process_to_n_component$$1$$components);
-  memset(double_buf, 0, sizeof(double) /*8ul*/  * (unsigned long int)n * (unsigned long int)process_to_n_component$$1$$components);
-  ncomponent_convert_to_double((struct anonymous$4 *)(union _Babl *)babl->fish.source, (char *)source, (char *)double_buf, (signed int)n);
-  ncomponent_convert_from_double((struct anonymous$4 *)(union _Babl *)babl->fish.destination, (char *)double_buf, (char *)destination, (signed int)n);
+    tmp_if_expr_3 = ((union _Babl *)babl->fish.destination)->model.components;
+  process_to_n_component__1__components = tmp_if_expr_3;
+  double_buf=babl_malloc(sizeof(double) /*8ul*/  * (unsigned long int)n * (unsigned long int)process_to_n_component__1__components);
+  memset(double_buf, 0, sizeof(double) /*8ul*/  * (unsigned long int)n * (unsigned long int)process_to_n_component__1__components);
+  ncomponent_convert_to_double((struct anonymous_4 *)(union _Babl *)babl->fish.source, (char *)source, (char *)double_buf, (signed int)n);
+  ncomponent_convert_from_double((struct anonymous_4 *)(union _Babl *)babl->fish.destination, (char *)double_buf, (char *)destination, (signed int)n);
   babl_free(double_buf);
   return 0;
 }
@@ -11954,175 +11954,175 @@ static inline void real_babl_log(const char *file, signed int line, const char *
   varg = ((void **)NULL);
 }
 
-// real_babl_log$link1
+// real_babl_log_link1
 // file babl-internal.h line 139
-static inline void real_babl_log$link1(const char *file$link1, signed int line$link1, const char *function$link1, const char *fmt$link1, ...)
+static inline void real_babl_log_link1(const char *file_link1, signed int line_link1, const char *function_link1, const char *fmt_link1, ...)
 {
-  void **varg$link1 = (void **)&fmt$link1;
-  real_babl_log_va$link1(file$link1, line$link1, function$link1, fmt$link1, varg$link1);
-  varg$link1 = ((void **)NULL);
+  void **varg_link1 = (void **)&fmt_link1;
+  real_babl_log_va_link1(file_link1, line_link1, function_link1, fmt_link1, varg_link1);
+  varg_link1 = ((void **)NULL);
 }
 
-// real_babl_log$link10
+// real_babl_log_link10
 // file babl-internal.h line 139
-static inline void real_babl_log$link10(const char *file$link10, signed int line$link10, const char *function$link10, const char *fmt$link10, ...)
+static inline void real_babl_log_link10(const char *file_link10, signed int line_link10, const char *function_link10, const char *fmt_link10, ...)
 {
-  void **varg$link10 = (void **)&fmt$link10;
-  real_babl_log_va$link10(file$link10, line$link10, function$link10, fmt$link10, varg$link10);
-  varg$link10 = ((void **)NULL);
+  void **varg_link10 = (void **)&fmt_link10;
+  real_babl_log_va_link10(file_link10, line_link10, function_link10, fmt_link10, varg_link10);
+  varg_link10 = ((void **)NULL);
 }
 
-// real_babl_log$link11
+// real_babl_log_link11
 // file babl-internal.h line 139
-static inline void real_babl_log$link11(const char *file$link11, signed int line$link11, const char *function$link11, const char *fmt$link11, ...)
+static inline void real_babl_log_link11(const char *file_link11, signed int line_link11, const char *function_link11, const char *fmt_link11, ...)
 {
-  void **varg$link11 = (void **)&fmt$link11;
-  real_babl_log_va$link11(file$link11, line$link11, function$link11, fmt$link11, varg$link11);
-  varg$link11 = ((void **)NULL);
+  void **varg_link11 = (void **)&fmt_link11;
+  real_babl_log_va_link11(file_link11, line_link11, function_link11, fmt_link11, varg_link11);
+  varg_link11 = ((void **)NULL);
 }
 
-// real_babl_log$link12
+// real_babl_log_link12
 // file babl-internal.h line 139
-static inline void real_babl_log$link12(const char *file$link12, signed int line$link12, const char *function$link12, const char *fmt$link12, ...)
+static inline void real_babl_log_link12(const char *file_link12, signed int line_link12, const char *function_link12, const char *fmt_link12, ...)
 {
-  void **varg$link12 = (void **)&fmt$link12;
-  real_babl_log_va$link12(file$link12, line$link12, function$link12, fmt$link12, varg$link12);
-  varg$link12 = ((void **)NULL);
+  void **varg_link12 = (void **)&fmt_link12;
+  real_babl_log_va_link12(file_link12, line_link12, function_link12, fmt_link12, varg_link12);
+  varg_link12 = ((void **)NULL);
 }
 
-// real_babl_log$link13
+// real_babl_log_link13
 // file babl-internal.h line 139
-static inline void real_babl_log$link13(const char *file$link13, signed int line$link13, const char *function$link13, const char *fmt$link13, ...)
+static inline void real_babl_log_link13(const char *file_link13, signed int line_link13, const char *function_link13, const char *fmt_link13, ...)
 {
-  void **varg$link13 = (void **)&fmt$link13;
-  real_babl_log_va$link13(file$link13, line$link13, function$link13, fmt$link13, varg$link13);
-  varg$link13 = ((void **)NULL);
+  void **varg_link13 = (void **)&fmt_link13;
+  real_babl_log_va_link13(file_link13, line_link13, function_link13, fmt_link13, varg_link13);
+  varg_link13 = ((void **)NULL);
 }
 
-// real_babl_log$link14
+// real_babl_log_link14
 // file babl-internal.h line 139
-static inline void real_babl_log$link14(const char *file$link14, signed int line$link14, const char *function$link14, const char *fmt$link14, ...)
+static inline void real_babl_log_link14(const char *file_link14, signed int line_link14, const char *function_link14, const char *fmt_link14, ...)
 {
-  void **varg$link14 = (void **)&fmt$link14;
-  real_babl_log_va$link14(file$link14, line$link14, function$link14, fmt$link14, varg$link14);
-  varg$link14 = ((void **)NULL);
+  void **varg_link14 = (void **)&fmt_link14;
+  real_babl_log_va_link14(file_link14, line_link14, function_link14, fmt_link14, varg_link14);
+  varg_link14 = ((void **)NULL);
 }
 
-// real_babl_log$link15
+// real_babl_log_link15
 // file babl-internal.h line 139
-static inline void real_babl_log$link15(const char *file$link15, signed int line$link15, const char *function$link15, const char *fmt$link15, ...)
+static inline void real_babl_log_link15(const char *file_link15, signed int line_link15, const char *function_link15, const char *fmt_link15, ...)
 {
-  void **varg$link15 = (void **)&fmt$link15;
-  real_babl_log_va$link15(file$link15, line$link15, function$link15, fmt$link15, varg$link15);
-  varg$link15 = ((void **)NULL);
+  void **varg_link15 = (void **)&fmt_link15;
+  real_babl_log_va_link15(file_link15, line_link15, function_link15, fmt_link15, varg_link15);
+  varg_link15 = ((void **)NULL);
 }
 
-// real_babl_log$link16
+// real_babl_log_link16
 // file babl-internal.h line 139
-static inline void real_babl_log$link16(const char *file$link16, signed int line$link16, const char *function$link16, const char *fmt$link16, ...)
+static inline void real_babl_log_link16(const char *file_link16, signed int line_link16, const char *function_link16, const char *fmt_link16, ...)
 {
-  void **varg$link16 = (void **)&fmt$link16;
-  real_babl_log_va$link16(file$link16, line$link16, function$link16, fmt$link16, varg$link16);
-  varg$link16 = ((void **)NULL);
+  void **varg_link16 = (void **)&fmt_link16;
+  real_babl_log_va_link16(file_link16, line_link16, function_link16, fmt_link16, varg_link16);
+  varg_link16 = ((void **)NULL);
 }
 
-// real_babl_log$link17
+// real_babl_log_link17
 // file babl-internal.h line 139
-static inline void real_babl_log$link17(const char *file$link17, signed int line$link17, const char *function$link17, const char *fmt$link17, ...)
+static inline void real_babl_log_link17(const char *file_link17, signed int line_link17, const char *function_link17, const char *fmt_link17, ...)
 {
-  void **varg$link17 = (void **)&fmt$link17;
-  real_babl_log_va$link17(file$link17, line$link17, function$link17, fmt$link17, varg$link17);
-  varg$link17 = ((void **)NULL);
+  void **varg_link17 = (void **)&fmt_link17;
+  real_babl_log_va_link17(file_link17, line_link17, function_link17, fmt_link17, varg_link17);
+  varg_link17 = ((void **)NULL);
 }
 
-// real_babl_log$link18
+// real_babl_log_link18
 // file babl-internal.h line 139
-static inline void real_babl_log$link18(const char *file$link18, signed int line$link18, const char *function$link18, const char *fmt$link18, ...)
+static inline void real_babl_log_link18(const char *file_link18, signed int line_link18, const char *function_link18, const char *fmt_link18, ...)
 {
-  void **varg$link18 = (void **)&fmt$link18;
-  real_babl_log_va$link18(file$link18, line$link18, function$link18, fmt$link18, varg$link18);
-  varg$link18 = ((void **)NULL);
+  void **varg_link18 = (void **)&fmt_link18;
+  real_babl_log_va_link18(file_link18, line_link18, function_link18, fmt_link18, varg_link18);
+  varg_link18 = ((void **)NULL);
 }
 
-// real_babl_log$link19
+// real_babl_log_link19
 // file babl-internal.h line 139
-static inline void real_babl_log$link19(const char *file$link19, signed int line$link19, const char *function$link19, const char *fmt$link19, ...)
+static inline void real_babl_log_link19(const char *file_link19, signed int line_link19, const char *function_link19, const char *fmt_link19, ...)
 {
-  void **varg$link19 = (void **)&fmt$link19;
-  real_babl_log_va$link19(file$link19, line$link19, function$link19, fmt$link19, varg$link19);
-  varg$link19 = ((void **)NULL);
+  void **varg_link19 = (void **)&fmt_link19;
+  real_babl_log_va_link19(file_link19, line_link19, function_link19, fmt_link19, varg_link19);
+  varg_link19 = ((void **)NULL);
 }
 
-// real_babl_log$link2
+// real_babl_log_link2
 // file babl-internal.h line 139
-static inline void real_babl_log$link2(const char *file$link2, signed int line$link2, const char *function$link2, const char *fmt$link2, ...)
+static inline void real_babl_log_link2(const char *file_link2, signed int line_link2, const char *function_link2, const char *fmt_link2, ...)
 {
-  void **varg$link2 = (void **)&fmt$link2;
-  real_babl_log_va$link2(file$link2, line$link2, function$link2, fmt$link2, varg$link2);
-  varg$link2 = ((void **)NULL);
+  void **varg_link2 = (void **)&fmt_link2;
+  real_babl_log_va_link2(file_link2, line_link2, function_link2, fmt_link2, varg_link2);
+  varg_link2 = ((void **)NULL);
 }
 
-// real_babl_log$link3
+// real_babl_log_link3
 // file babl-internal.h line 139
-static inline void real_babl_log$link3(const char *file$link3, signed int line$link3, const char *function$link3, const char *fmt$link3, ...)
+static inline void real_babl_log_link3(const char *file_link3, signed int line_link3, const char *function_link3, const char *fmt_link3, ...)
 {
-  void **varg$link3 = (void **)&fmt$link3;
-  real_babl_log_va$link3(file$link3, line$link3, function$link3, fmt$link3, varg$link3);
-  varg$link3 = ((void **)NULL);
+  void **varg_link3 = (void **)&fmt_link3;
+  real_babl_log_va_link3(file_link3, line_link3, function_link3, fmt_link3, varg_link3);
+  varg_link3 = ((void **)NULL);
 }
 
-// real_babl_log$link4
+// real_babl_log_link4
 // file babl-internal.h line 139
-static inline void real_babl_log$link4(const char *file$link4, signed int line$link4, const char *function$link4, const char *fmt$link4, ...)
+static inline void real_babl_log_link4(const char *file_link4, signed int line_link4, const char *function_link4, const char *fmt_link4, ...)
 {
-  void **varg$link4 = (void **)&fmt$link4;
-  real_babl_log_va$link4(file$link4, line$link4, function$link4, fmt$link4, varg$link4);
-  varg$link4 = ((void **)NULL);
+  void **varg_link4 = (void **)&fmt_link4;
+  real_babl_log_va_link4(file_link4, line_link4, function_link4, fmt_link4, varg_link4);
+  varg_link4 = ((void **)NULL);
 }
 
-// real_babl_log$link5
+// real_babl_log_link5
 // file babl-internal.h line 139
-static inline void real_babl_log$link5(const char *file$link5, signed int line$link5, const char *function$link5, const char *fmt$link5, ...)
+static inline void real_babl_log_link5(const char *file_link5, signed int line_link5, const char *function_link5, const char *fmt_link5, ...)
 {
-  void **varg$link5 = (void **)&fmt$link5;
-  real_babl_log_va$link5(file$link5, line$link5, function$link5, fmt$link5, varg$link5);
-  varg$link5 = ((void **)NULL);
+  void **varg_link5 = (void **)&fmt_link5;
+  real_babl_log_va_link5(file_link5, line_link5, function_link5, fmt_link5, varg_link5);
+  varg_link5 = ((void **)NULL);
 }
 
-// real_babl_log$link6
+// real_babl_log_link6
 // file babl-internal.h line 139
-static inline void real_babl_log$link6(const char *file$link6, signed int line$link6, const char *function$link6, const char *fmt$link6, ...)
+static inline void real_babl_log_link6(const char *file_link6, signed int line_link6, const char *function_link6, const char *fmt_link6, ...)
 {
-  void **varg$link6 = (void **)&fmt$link6;
-  real_babl_log_va$link6(file$link6, line$link6, function$link6, fmt$link6, varg$link6);
-  varg$link6 = ((void **)NULL);
+  void **varg_link6 = (void **)&fmt_link6;
+  real_babl_log_va_link6(file_link6, line_link6, function_link6, fmt_link6, varg_link6);
+  varg_link6 = ((void **)NULL);
 }
 
-// real_babl_log$link7
+// real_babl_log_link7
 // file babl-internal.h line 139
-static inline void real_babl_log$link7(const char *file$link7, signed int line$link7, const char *function$link7, const char *fmt$link7, ...)
+static inline void real_babl_log_link7(const char *file_link7, signed int line_link7, const char *function_link7, const char *fmt_link7, ...)
 {
-  void **varg$link7 = (void **)&fmt$link7;
-  real_babl_log_va$link7(file$link7, line$link7, function$link7, fmt$link7, varg$link7);
-  varg$link7 = ((void **)NULL);
+  void **varg_link7 = (void **)&fmt_link7;
+  real_babl_log_va_link7(file_link7, line_link7, function_link7, fmt_link7, varg_link7);
+  varg_link7 = ((void **)NULL);
 }
 
-// real_babl_log$link8
+// real_babl_log_link8
 // file babl-internal.h line 139
-static inline void real_babl_log$link8(const char *file$link8, signed int line$link8, const char *function$link8, const char *fmt$link8, ...)
+static inline void real_babl_log_link8(const char *file_link8, signed int line_link8, const char *function_link8, const char *fmt_link8, ...)
 {
-  void **varg$link8 = (void **)&fmt$link8;
-  real_babl_log_va$link8(file$link8, line$link8, function$link8, fmt$link8, varg$link8);
-  varg$link8 = ((void **)NULL);
+  void **varg_link8 = (void **)&fmt_link8;
+  real_babl_log_va_link8(file_link8, line_link8, function_link8, fmt_link8, varg_link8);
+  varg_link8 = ((void **)NULL);
 }
 
-// real_babl_log$link9
+// real_babl_log_link9
 // file babl-internal.h line 139
-static inline void real_babl_log$link9(const char *file$link9, signed int line$link9, const char *function$link9, const char *fmt$link9, ...)
+static inline void real_babl_log_link9(const char *file_link9, signed int line_link9, const char *function_link9, const char *fmt_link9, ...)
 {
-  void **varg$link9 = (void **)&fmt$link9;
-  real_babl_log_va$link9(file$link9, line$link9, function$link9, fmt$link9, varg$link9);
-  varg$link9 = ((void **)NULL);
+  void **varg_link9 = (void **)&fmt_link9;
+  real_babl_log_va_link9(file_link9, line_link9, function_link9, fmt_link9, varg_link9);
+  varg_link9 = ((void **)NULL);
 }
 
 // real_babl_log_va
@@ -12131,17 +12131,17 @@ static inline void real_babl_log_va(const char *file, signed int line, const cha
 {
   union _Babl *extender;
   extender=babl_extender();
-  union _Babl *return_value_babl_extension_quiet_log$3;
-  return_value_babl_extension_quiet_log$3=babl_extension_quiet_log();
-  union _Babl *return_value_babl_extender$1;
-  if(!(extender == return_value_babl_extension_quiet_log$3))
+  union _Babl *return_value_babl_extension_quiet_log_3;
+  return_value_babl_extension_quiet_log_3=babl_extension_quiet_log();
+  union _Babl *return_value_babl_extender_1;
+  if(!(extender == return_value_babl_extension_quiet_log_3))
   {
-    union _Babl *return_value_babl_extender$2;
-    return_value_babl_extender$2=babl_extender();
-    if(!(return_value_babl_extender$2 == ((union _Babl *)NULL)))
+    union _Babl *return_value_babl_extender_2;
+    return_value_babl_extender_2=babl_extender();
+    if(!(return_value_babl_extender_2 == ((union _Babl *)NULL)))
     {
-      return_value_babl_extender$1=babl_extender();
-      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender$1->instance.name);
+      return_value_babl_extender_1=babl_extender();
+      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender_1->instance.name);
     }
 
     fprintf(stdout, "%s:%i %s()\n\t", file, line, function);
@@ -12156,29 +12156,29 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// real_babl_log_va$link1
+// real_babl_log_va_link1
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link1(const char *file$link1, signed int line$link1, const char *function$link1, const char *fmt$link1, void **varg$link1)
+static inline void real_babl_log_va_link1(const char *file_link1, signed int line_link1, const char *function_link1, const char *fmt_link1, void **varg_link1)
 {
-  union _Babl *extender$link1;
-  extender$link1=babl_extender();
-  union _Babl *return_value_babl_extension_quiet_log$3$link1;
-  return_value_babl_extension_quiet_log$3$link1=babl_extension_quiet_log();
-  union _Babl *return_value_babl_extender$1$link1;
-  if(!(extender$link1 == return_value_babl_extension_quiet_log$3$link1))
+  union _Babl *extender_link1;
+  extender_link1=babl_extender();
+  union _Babl *return_value_babl_extension_quiet_log_3_link1;
+  return_value_babl_extension_quiet_log_3_link1=babl_extension_quiet_log();
+  union _Babl *return_value_babl_extender_1_link1;
+  if(!(extender_link1 == return_value_babl_extension_quiet_log_3_link1))
   {
-    union _Babl *return_value_babl_extender$2$link1;
-    return_value_babl_extender$2$link1=babl_extender();
-    if(!(return_value_babl_extender$2$link1 == ((union _Babl *)NULL)))
+    union _Babl *return_value_babl_extender_2_link1;
+    return_value_babl_extender_2_link1=babl_extender();
+    if(!(return_value_babl_extender_2_link1 == ((union _Babl *)NULL)))
     {
-      return_value_babl_extender$1$link1=babl_extender();
-      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender$1$link1->instance.name);
+      return_value_babl_extender_1_link1=babl_extender();
+      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender_1_link1->instance.name);
     }
 
-    fprintf(stdout, "%s:%i %s()\n\t", file$link1, line$link1, function$link1);
+    fprintf(stdout, "%s:%i %s()\n\t", file_link1, line_link1, function_link1);
   }
 
-  vfprintf(stdout, fmt$link1, varg$link1);
+  vfprintf(stdout, fmt_link1, varg_link1);
   fprintf(stdout, "\n");
   fflush((struct _IO_FILE *)(void *)0);
   goto __CPROVER_DUMP_L3;
@@ -12187,29 +12187,29 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// real_babl_log_va$link10
+// real_babl_log_va_link10
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link10(const char *file$link10, signed int line$link10, const char *function$link10, const char *fmt$link10, void **varg$link10)
+static inline void real_babl_log_va_link10(const char *file_link10, signed int line_link10, const char *function_link10, const char *fmt_link10, void **varg_link10)
 {
-  union _Babl *extender$link10;
-  extender$link10=babl_extender();
-  union _Babl *return_value_babl_extension_quiet_log$3$link10;
-  return_value_babl_extension_quiet_log$3$link10=babl_extension_quiet_log();
-  union _Babl *return_value_babl_extender$1$link10;
-  if(!(extender$link10 == return_value_babl_extension_quiet_log$3$link10))
+  union _Babl *extender_link10;
+  extender_link10=babl_extender();
+  union _Babl *return_value_babl_extension_quiet_log_3_link10;
+  return_value_babl_extension_quiet_log_3_link10=babl_extension_quiet_log();
+  union _Babl *return_value_babl_extender_1_link10;
+  if(!(extender_link10 == return_value_babl_extension_quiet_log_3_link10))
   {
-    union _Babl *return_value_babl_extender$2$link10;
-    return_value_babl_extender$2$link10=babl_extender();
-    if(!(return_value_babl_extender$2$link10 == ((union _Babl *)NULL)))
+    union _Babl *return_value_babl_extender_2_link10;
+    return_value_babl_extender_2_link10=babl_extender();
+    if(!(return_value_babl_extender_2_link10 == ((union _Babl *)NULL)))
     {
-      return_value_babl_extender$1$link10=babl_extender();
-      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender$1$link10->instance.name);
+      return_value_babl_extender_1_link10=babl_extender();
+      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender_1_link10->instance.name);
     }
 
-    fprintf(stdout, "%s:%i %s()\n\t", file$link10, line$link10, function$link10);
+    fprintf(stdout, "%s:%i %s()\n\t", file_link10, line_link10, function_link10);
   }
 
-  vfprintf(stdout, fmt$link10, varg$link10);
+  vfprintf(stdout, fmt_link10, varg_link10);
   fprintf(stdout, "\n");
   fflush((struct _IO_FILE *)(void *)0);
   goto __CPROVER_DUMP_L3;
@@ -12218,29 +12218,29 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// real_babl_log_va$link11
+// real_babl_log_va_link11
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link11(const char *file$link11, signed int line$link11, const char *function$link11, const char *fmt$link11, void **varg$link11)
+static inline void real_babl_log_va_link11(const char *file_link11, signed int line_link11, const char *function_link11, const char *fmt_link11, void **varg_link11)
 {
-  union _Babl *extender$link11;
-  extender$link11=babl_extender();
-  union _Babl *return_value_babl_extension_quiet_log$3$link11;
-  return_value_babl_extension_quiet_log$3$link11=babl_extension_quiet_log();
-  union _Babl *return_value_babl_extender$1$link11;
-  if(!(extender$link11 == return_value_babl_extension_quiet_log$3$link11))
+  union _Babl *extender_link11;
+  extender_link11=babl_extender();
+  union _Babl *return_value_babl_extension_quiet_log_3_link11;
+  return_value_babl_extension_quiet_log_3_link11=babl_extension_quiet_log();
+  union _Babl *return_value_babl_extender_1_link11;
+  if(!(extender_link11 == return_value_babl_extension_quiet_log_3_link11))
   {
-    union _Babl *return_value_babl_extender$2$link11;
-    return_value_babl_extender$2$link11=babl_extender();
-    if(!(return_value_babl_extender$2$link11 == ((union _Babl *)NULL)))
+    union _Babl *return_value_babl_extender_2_link11;
+    return_value_babl_extender_2_link11=babl_extender();
+    if(!(return_value_babl_extender_2_link11 == ((union _Babl *)NULL)))
     {
-      return_value_babl_extender$1$link11=babl_extender();
-      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender$1$link11->instance.name);
+      return_value_babl_extender_1_link11=babl_extender();
+      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender_1_link11->instance.name);
     }
 
-    fprintf(stdout, "%s:%i %s()\n\t", file$link11, line$link11, function$link11);
+    fprintf(stdout, "%s:%i %s()\n\t", file_link11, line_link11, function_link11);
   }
 
-  vfprintf(stdout, fmt$link11, varg$link11);
+  vfprintf(stdout, fmt_link11, varg_link11);
   fprintf(stdout, "\n");
   fflush((struct _IO_FILE *)(void *)0);
   goto __CPROVER_DUMP_L3;
@@ -12249,29 +12249,29 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// real_babl_log_va$link12
+// real_babl_log_va_link12
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link12(const char *file$link12, signed int line$link12, const char *function$link12, const char *fmt$link12, void **varg$link12)
+static inline void real_babl_log_va_link12(const char *file_link12, signed int line_link12, const char *function_link12, const char *fmt_link12, void **varg_link12)
 {
-  union _Babl *extender$link12;
-  extender$link12=babl_extender();
-  union _Babl *return_value_babl_extension_quiet_log$3$link12;
-  return_value_babl_extension_quiet_log$3$link12=babl_extension_quiet_log();
-  union _Babl *return_value_babl_extender$1$link12;
-  if(!(extender$link12 == return_value_babl_extension_quiet_log$3$link12))
+  union _Babl *extender_link12;
+  extender_link12=babl_extender();
+  union _Babl *return_value_babl_extension_quiet_log_3_link12;
+  return_value_babl_extension_quiet_log_3_link12=babl_extension_quiet_log();
+  union _Babl *return_value_babl_extender_1_link12;
+  if(!(extender_link12 == return_value_babl_extension_quiet_log_3_link12))
   {
-    union _Babl *return_value_babl_extender$2$link12;
-    return_value_babl_extender$2$link12=babl_extender();
-    if(!(return_value_babl_extender$2$link12 == ((union _Babl *)NULL)))
+    union _Babl *return_value_babl_extender_2_link12;
+    return_value_babl_extender_2_link12=babl_extender();
+    if(!(return_value_babl_extender_2_link12 == ((union _Babl *)NULL)))
     {
-      return_value_babl_extender$1$link12=babl_extender();
-      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender$1$link12->instance.name);
+      return_value_babl_extender_1_link12=babl_extender();
+      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender_1_link12->instance.name);
     }
 
-    fprintf(stdout, "%s:%i %s()\n\t", file$link12, line$link12, function$link12);
+    fprintf(stdout, "%s:%i %s()\n\t", file_link12, line_link12, function_link12);
   }
 
-  vfprintf(stdout, fmt$link12, varg$link12);
+  vfprintf(stdout, fmt_link12, varg_link12);
   fprintf(stdout, "\n");
   fflush((struct _IO_FILE *)(void *)0);
   goto __CPROVER_DUMP_L3;
@@ -12280,29 +12280,29 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// real_babl_log_va$link13
+// real_babl_log_va_link13
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link13(const char *file$link13, signed int line$link13, const char *function$link13, const char *fmt$link13, void **varg$link13)
+static inline void real_babl_log_va_link13(const char *file_link13, signed int line_link13, const char *function_link13, const char *fmt_link13, void **varg_link13)
 {
-  union _Babl *extender$link13;
-  extender$link13=babl_extender();
-  union _Babl *return_value_babl_extension_quiet_log$3$link13;
-  return_value_babl_extension_quiet_log$3$link13=babl_extension_quiet_log();
-  union _Babl *return_value_babl_extender$1$link13;
-  if(!(extender$link13 == return_value_babl_extension_quiet_log$3$link13))
+  union _Babl *extender_link13;
+  extender_link13=babl_extender();
+  union _Babl *return_value_babl_extension_quiet_log_3_link13;
+  return_value_babl_extension_quiet_log_3_link13=babl_extension_quiet_log();
+  union _Babl *return_value_babl_extender_1_link13;
+  if(!(extender_link13 == return_value_babl_extension_quiet_log_3_link13))
   {
-    union _Babl *return_value_babl_extender$2$link13;
-    return_value_babl_extender$2$link13=babl_extender();
-    if(!(return_value_babl_extender$2$link13 == ((union _Babl *)NULL)))
+    union _Babl *return_value_babl_extender_2_link13;
+    return_value_babl_extender_2_link13=babl_extender();
+    if(!(return_value_babl_extender_2_link13 == ((union _Babl *)NULL)))
     {
-      return_value_babl_extender$1$link13=babl_extender();
-      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender$1$link13->instance.name);
+      return_value_babl_extender_1_link13=babl_extender();
+      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender_1_link13->instance.name);
     }
 
-    fprintf(stdout, "%s:%i %s()\n\t", file$link13, line$link13, function$link13);
+    fprintf(stdout, "%s:%i %s()\n\t", file_link13, line_link13, function_link13);
   }
 
-  vfprintf(stdout, fmt$link13, varg$link13);
+  vfprintf(stdout, fmt_link13, varg_link13);
   fprintf(stdout, "\n");
   fflush((struct _IO_FILE *)(void *)0);
   goto __CPROVER_DUMP_L3;
@@ -12311,29 +12311,29 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// real_babl_log_va$link14
+// real_babl_log_va_link14
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link14(const char *file$link14, signed int line$link14, const char *function$link14, const char *fmt$link14, void **varg$link14)
+static inline void real_babl_log_va_link14(const char *file_link14, signed int line_link14, const char *function_link14, const char *fmt_link14, void **varg_link14)
 {
-  union _Babl *extender$link14;
-  extender$link14=babl_extender();
-  union _Babl *return_value_babl_extension_quiet_log$3$link14;
-  return_value_babl_extension_quiet_log$3$link14=babl_extension_quiet_log();
-  union _Babl *return_value_babl_extender$1$link14;
-  if(!(extender$link14 == return_value_babl_extension_quiet_log$3$link14))
+  union _Babl *extender_link14;
+  extender_link14=babl_extender();
+  union _Babl *return_value_babl_extension_quiet_log_3_link14;
+  return_value_babl_extension_quiet_log_3_link14=babl_extension_quiet_log();
+  union _Babl *return_value_babl_extender_1_link14;
+  if(!(extender_link14 == return_value_babl_extension_quiet_log_3_link14))
   {
-    union _Babl *return_value_babl_extender$2$link14;
-    return_value_babl_extender$2$link14=babl_extender();
-    if(!(return_value_babl_extender$2$link14 == ((union _Babl *)NULL)))
+    union _Babl *return_value_babl_extender_2_link14;
+    return_value_babl_extender_2_link14=babl_extender();
+    if(!(return_value_babl_extender_2_link14 == ((union _Babl *)NULL)))
     {
-      return_value_babl_extender$1$link14=babl_extender();
-      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender$1$link14->instance.name);
+      return_value_babl_extender_1_link14=babl_extender();
+      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender_1_link14->instance.name);
     }
 
-    fprintf(stdout, "%s:%i %s()\n\t", file$link14, line$link14, function$link14);
+    fprintf(stdout, "%s:%i %s()\n\t", file_link14, line_link14, function_link14);
   }
 
-  vfprintf(stdout, fmt$link14, varg$link14);
+  vfprintf(stdout, fmt_link14, varg_link14);
   fprintf(stdout, "\n");
   fflush((struct _IO_FILE *)(void *)0);
   goto __CPROVER_DUMP_L3;
@@ -12342,29 +12342,29 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// real_babl_log_va$link15
+// real_babl_log_va_link15
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link15(const char *file$link15, signed int line$link15, const char *function$link15, const char *fmt$link15, void **varg$link15)
+static inline void real_babl_log_va_link15(const char *file_link15, signed int line_link15, const char *function_link15, const char *fmt_link15, void **varg_link15)
 {
-  union _Babl *extender$link15;
-  extender$link15=babl_extender();
-  union _Babl *return_value_babl_extension_quiet_log$3$link15;
-  return_value_babl_extension_quiet_log$3$link15=babl_extension_quiet_log();
-  union _Babl *return_value_babl_extender$1$link15;
-  if(!(extender$link15 == return_value_babl_extension_quiet_log$3$link15))
+  union _Babl *extender_link15;
+  extender_link15=babl_extender();
+  union _Babl *return_value_babl_extension_quiet_log_3_link15;
+  return_value_babl_extension_quiet_log_3_link15=babl_extension_quiet_log();
+  union _Babl *return_value_babl_extender_1_link15;
+  if(!(extender_link15 == return_value_babl_extension_quiet_log_3_link15))
   {
-    union _Babl *return_value_babl_extender$2$link15;
-    return_value_babl_extender$2$link15=babl_extender();
-    if(!(return_value_babl_extender$2$link15 == ((union _Babl *)NULL)))
+    union _Babl *return_value_babl_extender_2_link15;
+    return_value_babl_extender_2_link15=babl_extender();
+    if(!(return_value_babl_extender_2_link15 == ((union _Babl *)NULL)))
     {
-      return_value_babl_extender$1$link15=babl_extender();
-      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender$1$link15->instance.name);
+      return_value_babl_extender_1_link15=babl_extender();
+      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender_1_link15->instance.name);
     }
 
-    fprintf(stdout, "%s:%i %s()\n\t", file$link15, line$link15, function$link15);
+    fprintf(stdout, "%s:%i %s()\n\t", file_link15, line_link15, function_link15);
   }
 
-  vfprintf(stdout, fmt$link15, varg$link15);
+  vfprintf(stdout, fmt_link15, varg_link15);
   fprintf(stdout, "\n");
   fflush((struct _IO_FILE *)(void *)0);
   goto __CPROVER_DUMP_L3;
@@ -12373,29 +12373,29 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// real_babl_log_va$link16
+// real_babl_log_va_link16
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link16(const char *file$link16, signed int line$link16, const char *function$link16, const char *fmt$link16, void **varg$link16)
+static inline void real_babl_log_va_link16(const char *file_link16, signed int line_link16, const char *function_link16, const char *fmt_link16, void **varg_link16)
 {
-  union _Babl *extender$link16;
-  extender$link16=babl_extender();
-  union _Babl *return_value_babl_extension_quiet_log$3$link16;
-  return_value_babl_extension_quiet_log$3$link16=babl_extension_quiet_log();
-  union _Babl *return_value_babl_extender$1$link16;
-  if(!(extender$link16 == return_value_babl_extension_quiet_log$3$link16))
+  union _Babl *extender_link16;
+  extender_link16=babl_extender();
+  union _Babl *return_value_babl_extension_quiet_log_3_link16;
+  return_value_babl_extension_quiet_log_3_link16=babl_extension_quiet_log();
+  union _Babl *return_value_babl_extender_1_link16;
+  if(!(extender_link16 == return_value_babl_extension_quiet_log_3_link16))
   {
-    union _Babl *return_value_babl_extender$2$link16;
-    return_value_babl_extender$2$link16=babl_extender();
-    if(!(return_value_babl_extender$2$link16 == ((union _Babl *)NULL)))
+    union _Babl *return_value_babl_extender_2_link16;
+    return_value_babl_extender_2_link16=babl_extender();
+    if(!(return_value_babl_extender_2_link16 == ((union _Babl *)NULL)))
     {
-      return_value_babl_extender$1$link16=babl_extender();
-      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender$1$link16->instance.name);
+      return_value_babl_extender_1_link16=babl_extender();
+      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender_1_link16->instance.name);
     }
 
-    fprintf(stdout, "%s:%i %s()\n\t", file$link16, line$link16, function$link16);
+    fprintf(stdout, "%s:%i %s()\n\t", file_link16, line_link16, function_link16);
   }
 
-  vfprintf(stdout, fmt$link16, varg$link16);
+  vfprintf(stdout, fmt_link16, varg_link16);
   fprintf(stdout, "\n");
   fflush((struct _IO_FILE *)(void *)0);
   goto __CPROVER_DUMP_L3;
@@ -12404,29 +12404,29 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// real_babl_log_va$link17
+// real_babl_log_va_link17
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link17(const char *file$link17, signed int line$link17, const char *function$link17, const char *fmt$link17, void **varg$link17)
+static inline void real_babl_log_va_link17(const char *file_link17, signed int line_link17, const char *function_link17, const char *fmt_link17, void **varg_link17)
 {
-  union _Babl *extender$link17;
-  extender$link17=babl_extender();
-  union _Babl *return_value_babl_extension_quiet_log$3$link17;
-  return_value_babl_extension_quiet_log$3$link17=babl_extension_quiet_log();
-  union _Babl *return_value_babl_extender$1$link17;
-  if(!(extender$link17 == return_value_babl_extension_quiet_log$3$link17))
+  union _Babl *extender_link17;
+  extender_link17=babl_extender();
+  union _Babl *return_value_babl_extension_quiet_log_3_link17;
+  return_value_babl_extension_quiet_log_3_link17=babl_extension_quiet_log();
+  union _Babl *return_value_babl_extender_1_link17;
+  if(!(extender_link17 == return_value_babl_extension_quiet_log_3_link17))
   {
-    union _Babl *return_value_babl_extender$2$link17;
-    return_value_babl_extender$2$link17=babl_extender();
-    if(!(return_value_babl_extender$2$link17 == ((union _Babl *)NULL)))
+    union _Babl *return_value_babl_extender_2_link17;
+    return_value_babl_extender_2_link17=babl_extender();
+    if(!(return_value_babl_extender_2_link17 == ((union _Babl *)NULL)))
     {
-      return_value_babl_extender$1$link17=babl_extender();
-      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender$1$link17->instance.name);
+      return_value_babl_extender_1_link17=babl_extender();
+      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender_1_link17->instance.name);
     }
 
-    fprintf(stdout, "%s:%i %s()\n\t", file$link17, line$link17, function$link17);
+    fprintf(stdout, "%s:%i %s()\n\t", file_link17, line_link17, function_link17);
   }
 
-  vfprintf(stdout, fmt$link17, varg$link17);
+  vfprintf(stdout, fmt_link17, varg_link17);
   fprintf(stdout, "\n");
   fflush((struct _IO_FILE *)(void *)0);
   goto __CPROVER_DUMP_L3;
@@ -12435,29 +12435,29 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// real_babl_log_va$link18
+// real_babl_log_va_link18
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link18(const char *file$link18, signed int line$link18, const char *function$link18, const char *fmt$link18, void **varg$link18)
+static inline void real_babl_log_va_link18(const char *file_link18, signed int line_link18, const char *function_link18, const char *fmt_link18, void **varg_link18)
 {
-  union _Babl *extender$link18;
-  extender$link18=babl_extender();
-  union _Babl *return_value_babl_extension_quiet_log$3$link18;
-  return_value_babl_extension_quiet_log$3$link18=babl_extension_quiet_log();
-  union _Babl *return_value_babl_extender$1$link18;
-  if(!(extender$link18 == return_value_babl_extension_quiet_log$3$link18))
+  union _Babl *extender_link18;
+  extender_link18=babl_extender();
+  union _Babl *return_value_babl_extension_quiet_log_3_link18;
+  return_value_babl_extension_quiet_log_3_link18=babl_extension_quiet_log();
+  union _Babl *return_value_babl_extender_1_link18;
+  if(!(extender_link18 == return_value_babl_extension_quiet_log_3_link18))
   {
-    union _Babl *return_value_babl_extender$2$link18;
-    return_value_babl_extender$2$link18=babl_extender();
-    if(!(return_value_babl_extender$2$link18 == ((union _Babl *)NULL)))
+    union _Babl *return_value_babl_extender_2_link18;
+    return_value_babl_extender_2_link18=babl_extender();
+    if(!(return_value_babl_extender_2_link18 == ((union _Babl *)NULL)))
     {
-      return_value_babl_extender$1$link18=babl_extender();
-      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender$1$link18->instance.name);
+      return_value_babl_extender_1_link18=babl_extender();
+      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender_1_link18->instance.name);
     }
 
-    fprintf(stdout, "%s:%i %s()\n\t", file$link18, line$link18, function$link18);
+    fprintf(stdout, "%s:%i %s()\n\t", file_link18, line_link18, function_link18);
   }
 
-  vfprintf(stdout, fmt$link18, varg$link18);
+  vfprintf(stdout, fmt_link18, varg_link18);
   fprintf(stdout, "\n");
   fflush((struct _IO_FILE *)(void *)0);
   goto __CPROVER_DUMP_L3;
@@ -12466,29 +12466,29 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// real_babl_log_va$link19
+// real_babl_log_va_link19
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link19(const char *file$link19, signed int line$link19, const char *function$link19, const char *fmt$link19, void **varg$link19)
+static inline void real_babl_log_va_link19(const char *file_link19, signed int line_link19, const char *function_link19, const char *fmt_link19, void **varg_link19)
 {
-  union _Babl *extender$link19;
-  extender$link19=babl_extender();
-  union _Babl *return_value_babl_extension_quiet_log$3$link19;
-  return_value_babl_extension_quiet_log$3$link19=babl_extension_quiet_log();
-  union _Babl *return_value_babl_extender$1$link19;
-  if(!(extender$link19 == return_value_babl_extension_quiet_log$3$link19))
+  union _Babl *extender_link19;
+  extender_link19=babl_extender();
+  union _Babl *return_value_babl_extension_quiet_log_3_link19;
+  return_value_babl_extension_quiet_log_3_link19=babl_extension_quiet_log();
+  union _Babl *return_value_babl_extender_1_link19;
+  if(!(extender_link19 == return_value_babl_extension_quiet_log_3_link19))
   {
-    union _Babl *return_value_babl_extender$2$link19;
-    return_value_babl_extender$2$link19=babl_extender();
-    if(!(return_value_babl_extender$2$link19 == ((union _Babl *)NULL)))
+    union _Babl *return_value_babl_extender_2_link19;
+    return_value_babl_extender_2_link19=babl_extender();
+    if(!(return_value_babl_extender_2_link19 == ((union _Babl *)NULL)))
     {
-      return_value_babl_extender$1$link19=babl_extender();
-      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender$1$link19->instance.name);
+      return_value_babl_extender_1_link19=babl_extender();
+      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender_1_link19->instance.name);
     }
 
-    fprintf(stdout, "%s:%i %s()\n\t", file$link19, line$link19, function$link19);
+    fprintf(stdout, "%s:%i %s()\n\t", file_link19, line_link19, function_link19);
   }
 
-  vfprintf(stdout, fmt$link19, varg$link19);
+  vfprintf(stdout, fmt_link19, varg_link19);
   fprintf(stdout, "\n");
   fflush((struct _IO_FILE *)(void *)0);
   goto __CPROVER_DUMP_L3;
@@ -12497,29 +12497,29 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// real_babl_log_va$link2
+// real_babl_log_va_link2
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link2(const char *file$link2, signed int line$link2, const char *function$link2, const char *fmt$link2, void **varg$link2)
+static inline void real_babl_log_va_link2(const char *file_link2, signed int line_link2, const char *function_link2, const char *fmt_link2, void **varg_link2)
 {
-  union _Babl *extender$link2;
-  extender$link2=babl_extender();
-  union _Babl *return_value_babl_extension_quiet_log$3$link2;
-  return_value_babl_extension_quiet_log$3$link2=babl_extension_quiet_log();
-  union _Babl *return_value_babl_extender$1$link2;
-  if(!(extender$link2 == return_value_babl_extension_quiet_log$3$link2))
+  union _Babl *extender_link2;
+  extender_link2=babl_extender();
+  union _Babl *return_value_babl_extension_quiet_log_3_link2;
+  return_value_babl_extension_quiet_log_3_link2=babl_extension_quiet_log();
+  union _Babl *return_value_babl_extender_1_link2;
+  if(!(extender_link2 == return_value_babl_extension_quiet_log_3_link2))
   {
-    union _Babl *return_value_babl_extender$2$link2;
-    return_value_babl_extender$2$link2=babl_extender();
-    if(!(return_value_babl_extender$2$link2 == ((union _Babl *)NULL)))
+    union _Babl *return_value_babl_extender_2_link2;
+    return_value_babl_extender_2_link2=babl_extender();
+    if(!(return_value_babl_extender_2_link2 == ((union _Babl *)NULL)))
     {
-      return_value_babl_extender$1$link2=babl_extender();
-      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender$1$link2->instance.name);
+      return_value_babl_extender_1_link2=babl_extender();
+      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender_1_link2->instance.name);
     }
 
-    fprintf(stdout, "%s:%i %s()\n\t", file$link2, line$link2, function$link2);
+    fprintf(stdout, "%s:%i %s()\n\t", file_link2, line_link2, function_link2);
   }
 
-  vfprintf(stdout, fmt$link2, varg$link2);
+  vfprintf(stdout, fmt_link2, varg_link2);
   fprintf(stdout, "\n");
   fflush((struct _IO_FILE *)(void *)0);
   goto __CPROVER_DUMP_L3;
@@ -12528,29 +12528,29 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// real_babl_log_va$link3
+// real_babl_log_va_link3
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link3(const char *file$link3, signed int line$link3, const char *function$link3, const char *fmt$link3, void **varg$link3)
+static inline void real_babl_log_va_link3(const char *file_link3, signed int line_link3, const char *function_link3, const char *fmt_link3, void **varg_link3)
 {
-  union _Babl *extender$link3;
-  extender$link3=babl_extender();
-  union _Babl *return_value_babl_extension_quiet_log$3$link3;
-  return_value_babl_extension_quiet_log$3$link3=babl_extension_quiet_log();
-  union _Babl *return_value_babl_extender$1$link3;
-  if(!(extender$link3 == return_value_babl_extension_quiet_log$3$link3))
+  union _Babl *extender_link3;
+  extender_link3=babl_extender();
+  union _Babl *return_value_babl_extension_quiet_log_3_link3;
+  return_value_babl_extension_quiet_log_3_link3=babl_extension_quiet_log();
+  union _Babl *return_value_babl_extender_1_link3;
+  if(!(extender_link3 == return_value_babl_extension_quiet_log_3_link3))
   {
-    union _Babl *return_value_babl_extender$2$link3;
-    return_value_babl_extender$2$link3=babl_extender();
-    if(!(return_value_babl_extender$2$link3 == ((union _Babl *)NULL)))
+    union _Babl *return_value_babl_extender_2_link3;
+    return_value_babl_extender_2_link3=babl_extender();
+    if(!(return_value_babl_extender_2_link3 == ((union _Babl *)NULL)))
     {
-      return_value_babl_extender$1$link3=babl_extender();
-      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender$1$link3->instance.name);
+      return_value_babl_extender_1_link3=babl_extender();
+      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender_1_link3->instance.name);
     }
 
-    fprintf(stdout, "%s:%i %s()\n\t", file$link3, line$link3, function$link3);
+    fprintf(stdout, "%s:%i %s()\n\t", file_link3, line_link3, function_link3);
   }
 
-  vfprintf(stdout, fmt$link3, varg$link3);
+  vfprintf(stdout, fmt_link3, varg_link3);
   fprintf(stdout, "\n");
   fflush((struct _IO_FILE *)(void *)0);
   goto __CPROVER_DUMP_L3;
@@ -12559,29 +12559,29 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// real_babl_log_va$link4
+// real_babl_log_va_link4
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link4(const char *file$link4, signed int line$link4, const char *function$link4, const char *fmt$link4, void **varg$link4)
+static inline void real_babl_log_va_link4(const char *file_link4, signed int line_link4, const char *function_link4, const char *fmt_link4, void **varg_link4)
 {
-  union _Babl *extender$link4;
-  extender$link4=babl_extender();
-  union _Babl *return_value_babl_extension_quiet_log$3$link4;
-  return_value_babl_extension_quiet_log$3$link4=babl_extension_quiet_log();
-  union _Babl *return_value_babl_extender$1$link4;
-  if(!(extender$link4 == return_value_babl_extension_quiet_log$3$link4))
+  union _Babl *extender_link4;
+  extender_link4=babl_extender();
+  union _Babl *return_value_babl_extension_quiet_log_3_link4;
+  return_value_babl_extension_quiet_log_3_link4=babl_extension_quiet_log();
+  union _Babl *return_value_babl_extender_1_link4;
+  if(!(extender_link4 == return_value_babl_extension_quiet_log_3_link4))
   {
-    union _Babl *return_value_babl_extender$2$link4;
-    return_value_babl_extender$2$link4=babl_extender();
-    if(!(return_value_babl_extender$2$link4 == ((union _Babl *)NULL)))
+    union _Babl *return_value_babl_extender_2_link4;
+    return_value_babl_extender_2_link4=babl_extender();
+    if(!(return_value_babl_extender_2_link4 == ((union _Babl *)NULL)))
     {
-      return_value_babl_extender$1$link4=babl_extender();
-      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender$1$link4->instance.name);
+      return_value_babl_extender_1_link4=babl_extender();
+      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender_1_link4->instance.name);
     }
 
-    fprintf(stdout, "%s:%i %s()\n\t", file$link4, line$link4, function$link4);
+    fprintf(stdout, "%s:%i %s()\n\t", file_link4, line_link4, function_link4);
   }
 
-  vfprintf(stdout, fmt$link4, varg$link4);
+  vfprintf(stdout, fmt_link4, varg_link4);
   fprintf(stdout, "\n");
   fflush((struct _IO_FILE *)(void *)0);
   goto __CPROVER_DUMP_L3;
@@ -12590,29 +12590,29 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// real_babl_log_va$link5
+// real_babl_log_va_link5
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link5(const char *file$link5, signed int line$link5, const char *function$link5, const char *fmt$link5, void **varg$link5)
+static inline void real_babl_log_va_link5(const char *file_link5, signed int line_link5, const char *function_link5, const char *fmt_link5, void **varg_link5)
 {
-  union _Babl *extender$link5;
-  extender$link5=babl_extender();
-  union _Babl *return_value_babl_extension_quiet_log$3$link5;
-  return_value_babl_extension_quiet_log$3$link5=babl_extension_quiet_log();
-  union _Babl *return_value_babl_extender$1$link5;
-  if(!(extender$link5 == return_value_babl_extension_quiet_log$3$link5))
+  union _Babl *extender_link5;
+  extender_link5=babl_extender();
+  union _Babl *return_value_babl_extension_quiet_log_3_link5;
+  return_value_babl_extension_quiet_log_3_link5=babl_extension_quiet_log();
+  union _Babl *return_value_babl_extender_1_link5;
+  if(!(extender_link5 == return_value_babl_extension_quiet_log_3_link5))
   {
-    union _Babl *return_value_babl_extender$2$link5;
-    return_value_babl_extender$2$link5=babl_extender();
-    if(!(return_value_babl_extender$2$link5 == ((union _Babl *)NULL)))
+    union _Babl *return_value_babl_extender_2_link5;
+    return_value_babl_extender_2_link5=babl_extender();
+    if(!(return_value_babl_extender_2_link5 == ((union _Babl *)NULL)))
     {
-      return_value_babl_extender$1$link5=babl_extender();
-      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender$1$link5->instance.name);
+      return_value_babl_extender_1_link5=babl_extender();
+      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender_1_link5->instance.name);
     }
 
-    fprintf(stdout, "%s:%i %s()\n\t", file$link5, line$link5, function$link5);
+    fprintf(stdout, "%s:%i %s()\n\t", file_link5, line_link5, function_link5);
   }
 
-  vfprintf(stdout, fmt$link5, varg$link5);
+  vfprintf(stdout, fmt_link5, varg_link5);
   fprintf(stdout, "\n");
   fflush((struct _IO_FILE *)(void *)0);
   goto __CPROVER_DUMP_L3;
@@ -12621,29 +12621,29 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// real_babl_log_va$link6
+// real_babl_log_va_link6
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link6(const char *file$link6, signed int line$link6, const char *function$link6, const char *fmt$link6, void **varg$link6)
+static inline void real_babl_log_va_link6(const char *file_link6, signed int line_link6, const char *function_link6, const char *fmt_link6, void **varg_link6)
 {
-  union _Babl *extender$link6;
-  extender$link6=babl_extender();
-  union _Babl *return_value_babl_extension_quiet_log$3$link6;
-  return_value_babl_extension_quiet_log$3$link6=babl_extension_quiet_log();
-  union _Babl *return_value_babl_extender$1$link6;
-  if(!(extender$link6 == return_value_babl_extension_quiet_log$3$link6))
+  union _Babl *extender_link6;
+  extender_link6=babl_extender();
+  union _Babl *return_value_babl_extension_quiet_log_3_link6;
+  return_value_babl_extension_quiet_log_3_link6=babl_extension_quiet_log();
+  union _Babl *return_value_babl_extender_1_link6;
+  if(!(extender_link6 == return_value_babl_extension_quiet_log_3_link6))
   {
-    union _Babl *return_value_babl_extender$2$link6;
-    return_value_babl_extender$2$link6=babl_extender();
-    if(!(return_value_babl_extender$2$link6 == ((union _Babl *)NULL)))
+    union _Babl *return_value_babl_extender_2_link6;
+    return_value_babl_extender_2_link6=babl_extender();
+    if(!(return_value_babl_extender_2_link6 == ((union _Babl *)NULL)))
     {
-      return_value_babl_extender$1$link6=babl_extender();
-      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender$1$link6->instance.name);
+      return_value_babl_extender_1_link6=babl_extender();
+      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender_1_link6->instance.name);
     }
 
-    fprintf(stdout, "%s:%i %s()\n\t", file$link6, line$link6, function$link6);
+    fprintf(stdout, "%s:%i %s()\n\t", file_link6, line_link6, function_link6);
   }
 
-  vfprintf(stdout, fmt$link6, varg$link6);
+  vfprintf(stdout, fmt_link6, varg_link6);
   fprintf(stdout, "\n");
   fflush((struct _IO_FILE *)(void *)0);
   goto __CPROVER_DUMP_L3;
@@ -12652,29 +12652,29 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// real_babl_log_va$link7
+// real_babl_log_va_link7
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link7(const char *file$link7, signed int line$link7, const char *function$link7, const char *fmt$link7, void **varg$link7)
+static inline void real_babl_log_va_link7(const char *file_link7, signed int line_link7, const char *function_link7, const char *fmt_link7, void **varg_link7)
 {
-  union _Babl *extender$link7;
-  extender$link7=babl_extender();
-  union _Babl *return_value_babl_extension_quiet_log$3$link7;
-  return_value_babl_extension_quiet_log$3$link7=babl_extension_quiet_log();
-  union _Babl *return_value_babl_extender$1$link7;
-  if(!(extender$link7 == return_value_babl_extension_quiet_log$3$link7))
+  union _Babl *extender_link7;
+  extender_link7=babl_extender();
+  union _Babl *return_value_babl_extension_quiet_log_3_link7;
+  return_value_babl_extension_quiet_log_3_link7=babl_extension_quiet_log();
+  union _Babl *return_value_babl_extender_1_link7;
+  if(!(extender_link7 == return_value_babl_extension_quiet_log_3_link7))
   {
-    union _Babl *return_value_babl_extender$2$link7;
-    return_value_babl_extender$2$link7=babl_extender();
-    if(!(return_value_babl_extender$2$link7 == ((union _Babl *)NULL)))
+    union _Babl *return_value_babl_extender_2_link7;
+    return_value_babl_extender_2_link7=babl_extender();
+    if(!(return_value_babl_extender_2_link7 == ((union _Babl *)NULL)))
     {
-      return_value_babl_extender$1$link7=babl_extender();
-      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender$1$link7->instance.name);
+      return_value_babl_extender_1_link7=babl_extender();
+      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender_1_link7->instance.name);
     }
 
-    fprintf(stdout, "%s:%i %s()\n\t", file$link7, line$link7, function$link7);
+    fprintf(stdout, "%s:%i %s()\n\t", file_link7, line_link7, function_link7);
   }
 
-  vfprintf(stdout, fmt$link7, varg$link7);
+  vfprintf(stdout, fmt_link7, varg_link7);
   fprintf(stdout, "\n");
   fflush((struct _IO_FILE *)(void *)0);
   goto __CPROVER_DUMP_L3;
@@ -12683,29 +12683,29 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// real_babl_log_va$link8
+// real_babl_log_va_link8
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link8(const char *file$link8, signed int line$link8, const char *function$link8, const char *fmt$link8, void **varg$link8)
+static inline void real_babl_log_va_link8(const char *file_link8, signed int line_link8, const char *function_link8, const char *fmt_link8, void **varg_link8)
 {
-  union _Babl *extender$link8;
-  extender$link8=babl_extender();
-  union _Babl *return_value_babl_extension_quiet_log$3$link8;
-  return_value_babl_extension_quiet_log$3$link8=babl_extension_quiet_log();
-  union _Babl *return_value_babl_extender$1$link8;
-  if(!(extender$link8 == return_value_babl_extension_quiet_log$3$link8))
+  union _Babl *extender_link8;
+  extender_link8=babl_extender();
+  union _Babl *return_value_babl_extension_quiet_log_3_link8;
+  return_value_babl_extension_quiet_log_3_link8=babl_extension_quiet_log();
+  union _Babl *return_value_babl_extender_1_link8;
+  if(!(extender_link8 == return_value_babl_extension_quiet_log_3_link8))
   {
-    union _Babl *return_value_babl_extender$2$link8;
-    return_value_babl_extender$2$link8=babl_extender();
-    if(!(return_value_babl_extender$2$link8 == ((union _Babl *)NULL)))
+    union _Babl *return_value_babl_extender_2_link8;
+    return_value_babl_extender_2_link8=babl_extender();
+    if(!(return_value_babl_extender_2_link8 == ((union _Babl *)NULL)))
     {
-      return_value_babl_extender$1$link8=babl_extender();
-      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender$1$link8->instance.name);
+      return_value_babl_extender_1_link8=babl_extender();
+      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender_1_link8->instance.name);
     }
 
-    fprintf(stdout, "%s:%i %s()\n\t", file$link8, line$link8, function$link8);
+    fprintf(stdout, "%s:%i %s()\n\t", file_link8, line_link8, function_link8);
   }
 
-  vfprintf(stdout, fmt$link8, varg$link8);
+  vfprintf(stdout, fmt_link8, varg_link8);
   fprintf(stdout, "\n");
   fflush((struct _IO_FILE *)(void *)0);
   goto __CPROVER_DUMP_L3;
@@ -12714,29 +12714,29 @@ __CPROVER_DUMP_L3:
   ;
 }
 
-// real_babl_log_va$link9
+// real_babl_log_va_link9
 // file babl-internal.h line 115
-static inline void real_babl_log_va$link9(const char *file$link9, signed int line$link9, const char *function$link9, const char *fmt$link9, void **varg$link9)
+static inline void real_babl_log_va_link9(const char *file_link9, signed int line_link9, const char *function_link9, const char *fmt_link9, void **varg_link9)
 {
-  union _Babl *extender$link9;
-  extender$link9=babl_extender();
-  union _Babl *return_value_babl_extension_quiet_log$3$link9;
-  return_value_babl_extension_quiet_log$3$link9=babl_extension_quiet_log();
-  union _Babl *return_value_babl_extender$1$link9;
-  if(!(extender$link9 == return_value_babl_extension_quiet_log$3$link9))
+  union _Babl *extender_link9;
+  extender_link9=babl_extender();
+  union _Babl *return_value_babl_extension_quiet_log_3_link9;
+  return_value_babl_extension_quiet_log_3_link9=babl_extension_quiet_log();
+  union _Babl *return_value_babl_extender_1_link9;
+  if(!(extender_link9 == return_value_babl_extension_quiet_log_3_link9))
   {
-    union _Babl *return_value_babl_extender$2$link9;
-    return_value_babl_extender$2$link9=babl_extender();
-    if(!(return_value_babl_extender$2$link9 == ((union _Babl *)NULL)))
+    union _Babl *return_value_babl_extender_2_link9;
+    return_value_babl_extender_2_link9=babl_extender();
+    if(!(return_value_babl_extender_2_link9 == ((union _Babl *)NULL)))
     {
-      return_value_babl_extender$1$link9=babl_extender();
-      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender$1$link9->instance.name);
+      return_value_babl_extender_1_link9=babl_extender();
+      fprintf(stdout, "When loading %s:\n\t", return_value_babl_extender_1_link9->instance.name);
     }
 
-    fprintf(stdout, "%s:%i %s()\n\t", file$link9, line$link9, function$link9);
+    fprintf(stdout, "%s:%i %s()\n\t", file_link9, line_link9, function_link9);
   }
 
-  vfprintf(stdout, fmt$link9, varg$link9);
+  vfprintf(stdout, fmt_link9, varg_link9);
   fprintf(stdout, "\n");
   fflush((struct _IO_FILE *)(void *)0);
   goto __CPROVER_DUMP_L3;
@@ -12749,22 +12749,22 @@ __CPROVER_DUMP_L3:
 // file babl-model.c line 222
 static const union _Babl * reference_format(void)
 {
-  const union _Babl *return_value_babl_model$1;
-  const union _Babl *return_value_babl_type$2;
-  const union _Babl *return_value_babl_component$3;
-  const union _Babl *return_value_babl_component$4;
-  const union _Babl *return_value_babl_component$5;
-  const union _Babl *return_value_babl_component$6;
+  const union _Babl *return_value_babl_model_1;
+  const union _Babl *return_value_babl_type_2;
+  const union _Babl *return_value_babl_component_3;
+  const union _Babl *return_value_babl_component_4;
+  const union _Babl *return_value_babl_component_5;
+  const union _Babl *return_value_babl_component_6;
   static const union _Babl *self = (const union _Babl *)(void *)0;
   if(self == ((const union _Babl *)NULL))
   {
-    return_value_babl_model$1=babl_model("RGBA");
-    return_value_babl_type$2=babl_type("double");
-    return_value_babl_component$3=babl_component("R");
-    return_value_babl_component$4=babl_component("G");
-    return_value_babl_component$5=babl_component("B");
-    return_value_babl_component$6=babl_component("A");
-    self=babl_format_new((const void *)return_value_babl_model$1, return_value_babl_type$2, return_value_babl_component$3, return_value_babl_component$4, return_value_babl_component$5, return_value_babl_component$6, (void *)0);
+    return_value_babl_model_1=babl_model("RGBA");
+    return_value_babl_type_2=babl_type("double");
+    return_value_babl_component_3=babl_component("R");
+    return_value_babl_component_4=babl_component("G");
+    return_value_babl_component_5=babl_component("B");
+    return_value_babl_component_6=babl_component("A");
+    self=babl_format_new((const void *)return_value_babl_model_1, return_value_babl_type_2, return_value_babl_component_3, return_value_babl_component_4, return_value_babl_component_5, return_value_babl_component_6, (void *)0);
   }
 
   return self;
@@ -12790,12 +12790,12 @@ static signed long int rgb_to_gray_2_2(signed int src_bands, char **src, signed 
   assert(n > (signed long int)0);
   /* assertion *src_pitch */
   assert(*src_pitch != 0);
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double red;
@@ -12812,7 +12812,7 @@ static signed long int rgb_to_gray_2_2(signed int src_bands, char **src, signed 
     else
       alpha = 1.0;
     luminance = red * 0.22248840 + green * 0.71690369 + blue * 0.06060791;
-    *((double *)dst[(signed long int)0])=linear_to_gamma_2_2$link1(luminance);
+    *((double *)dst[(signed long int)0])=linear_to_gamma_2_2_link1(luminance);
     if(dst_bands == 2)
       *((double *)dst[(signed long int)1]) = alpha;
 
@@ -12831,12 +12831,12 @@ static signed long int rgb_to_gray_2_2(signed int src_bands, char **src, signed 
 // file model-gray.c line 433
 static signed long int rgba2gray_gamma_2_2_premultiplied(char *src, char *dst, signed long int n)
 {
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double red = ((double *)src)[(signed long int)0];
@@ -12846,7 +12846,7 @@ static signed long int rgba2gray_gamma_2_2_premultiplied(char *src, char *dst, s
     double luminance;
     double luma;
     luminance = red * 0.22248840 + green * 0.71690369 + blue * 0.06060791;
-    luma=linear_to_gamma_2_2$link1(luminance);
+    luma=linear_to_gamma_2_2_link1(luminance);
     ((double *)dst)[(signed long int)0] = luma * alpha;
     ((double *)dst)[(signed long int)1] = alpha;
     src = src + (signed long int)((unsigned long int)4 * sizeof(double) /*8ul*/ );
@@ -12861,12 +12861,12 @@ static signed long int rgba2gray_gamma_2_2_premultiplied(char *src, char *dst, s
 static signed long int rgba2rgba_gamma_2_2(char *src, char *dst, signed long int samples)
 {
   signed long int n = samples;
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double alpha = ((double *)src)[(signed long int)3];
@@ -12886,24 +12886,24 @@ static signed long int rgba2rgba_gamma_2_2(char *src, char *dst, signed long int
 static signed long int rgba2rgba_gamma_2_2_premultiplied(char *src, char *dst, signed long int samples)
 {
   signed long int n = samples;
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double alpha = ((double *)src)[(signed long int)3];
-    double return_value_linear_to_gamma_2_2$2;
-    return_value_linear_to_gamma_2_2$2=linear_to_gamma_2_2(((double *)src)[(signed long int)0]);
-    ((double *)dst)[(signed long int)0] = return_value_linear_to_gamma_2_2$2 * alpha;
-    double return_value_linear_to_gamma_2_2$3;
-    return_value_linear_to_gamma_2_2$3=linear_to_gamma_2_2(((double *)src)[(signed long int)1]);
-    ((double *)dst)[(signed long int)1] = return_value_linear_to_gamma_2_2$3 * alpha;
-    double return_value_linear_to_gamma_2_2$4;
-    return_value_linear_to_gamma_2_2$4=linear_to_gamma_2_2(((double *)src)[(signed long int)2]);
-    ((double *)dst)[(signed long int)2] = return_value_linear_to_gamma_2_2$4 * alpha;
+    double return_value_linear_to_gamma_2_2_2;
+    return_value_linear_to_gamma_2_2_2=linear_to_gamma_2_2(((double *)src)[(signed long int)0]);
+    ((double *)dst)[(signed long int)0] = return_value_linear_to_gamma_2_2_2 * alpha;
+    double return_value_linear_to_gamma_2_2_3;
+    return_value_linear_to_gamma_2_2_3=linear_to_gamma_2_2(((double *)src)[(signed long int)1]);
+    ((double *)dst)[(signed long int)1] = return_value_linear_to_gamma_2_2_3 * alpha;
+    double return_value_linear_to_gamma_2_2_4;
+    return_value_linear_to_gamma_2_2_4=linear_to_gamma_2_2(((double *)src)[(signed long int)2]);
+    ((double *)dst)[(signed long int)2] = return_value_linear_to_gamma_2_2_4 * alpha;
     ((double *)dst)[(signed long int)3] = alpha;
     src = src + (signed long int)((unsigned long int)4 * sizeof(double) /*8ul*/ );
     dst = dst + (signed long int)((unsigned long int)4 * sizeof(double) /*8ul*/ );
@@ -12917,12 +12917,12 @@ static signed long int rgba2rgba_gamma_2_2_premultiplied(char *src, char *dst, s
 static signed long int rgba_gamma_2_22rgba(char *src, char *dst, signed long int samples)
 {
   signed long int n = samples;
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double alpha = ((double *)src)[(signed long int)3];
@@ -12942,12 +12942,12 @@ static signed long int rgba_gamma_2_22rgba(char *src, char *dst, signed long int
 static signed long int rgba_gamma_2_2_premultiplied2rgba(char *src, char *dst, signed long int samples)
 {
   signed long int n = samples;
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double alpha = ((double *)src)[(signed long int)3];
@@ -12976,12 +12976,12 @@ static signed long int rgba_gamma_2_2_premultiplied2rgba(char *src, char *dst, s
 // file model-gray.c line 141
 static signed long int rgba_to_gray(char *src, char *dst, signed long int n)
 {
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double red;
@@ -13024,12 +13024,12 @@ static signed long int rgba_to_gray_alpha_premultiplied(signed int src_bands, ch
   assert(src_bands == 4);
   /* assertion dst_bands == 2 */
   assert(dst_bands == 2);
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double red = *((double *)src[(signed long int)0]);
@@ -13055,12 +13055,12 @@ static signed long int rgba_to_gray_alpha_premultiplied(signed int src_bands, ch
 // file model-gray.c line 113
 static signed long int rgba_to_graya(char *src, char *dst, signed long int n)
 {
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double red;
@@ -13088,12 +13088,12 @@ static signed long int rgba_to_pal(char *src, char *dst, signed long int n, void
 {
   struct BablPalette **palptr = (struct BablPalette **)dst_model_data;
   struct BablPalette *pal = *palptr;
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     signed int idx;
@@ -13129,12 +13129,12 @@ static signed long int rgba_to_pala(char *src, char *dst, signed long int n, voi
   struct BablPalette *pal = *palptr;
   /* assertion pal */
   assert(pal != ((struct BablPalette *)NULL));
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     signed int idx;
@@ -13178,12 +13178,12 @@ static signed long int rgba_to_rgba(char *src, char *dst, signed long int n)
 // file model-ycbcr.c line 115
 static signed long int rgba_to_ycbcr(char *src, char *dst, signed long int n)
 {
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double red = ((double *)src)[(signed long int)0];
@@ -13192,9 +13192,9 @@ static signed long int rgba_to_ycbcr(char *src, char *dst, signed long int n)
     double luminance;
     double cb;
     double cr;
-    red=linear_to_gamma_2_2$link2(red);
-    green=linear_to_gamma_2_2$link2(green);
-    blue=linear_to_gamma_2_2$link2(blue);
+    red=linear_to_gamma_2_2_link2(red);
+    green=linear_to_gamma_2_2_link2(green);
+    blue=linear_to_gamma_2_2_link2(blue);
     luminance = 0.299 * red + 0.587 * green + 0.114 * blue;
     cb = (-0.168736 * red - 0.331264 * green) + 0.5 * blue;
     cr = (0.5 * red - 0.418688 * green) - 0.081312 * blue;
@@ -13212,12 +13212,12 @@ static signed long int rgba_to_ycbcr(char *src, char *dst, signed long int n)
 // file model-ycbcr.c line 81
 static signed long int rgba_to_ycbcra(char *src, char *dst, signed long int n)
 {
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double red = ((double *)src)[(signed long int)0];
@@ -13227,9 +13227,9 @@ static signed long int rgba_to_ycbcra(char *src, char *dst, signed long int n)
     double luminance;
     double cb;
     double cr;
-    red=linear_to_gamma_2_2$link2(red);
-    green=linear_to_gamma_2_2$link2(green);
-    blue=linear_to_gamma_2_2$link2(blue);
+    red=linear_to_gamma_2_2_link2(red);
+    green=linear_to_gamma_2_2_link2(green);
+    blue=linear_to_gamma_2_2_link2(blue);
     luminance = 0.299 * red + 0.587 * green + 0.114 * blue;
     cb = (-0.168736 * red - 0.331264 * green) + 0.5 * blue;
     cr = (0.5 * red - 0.418688 * green) - 0.081312 * blue;
@@ -13255,17 +13255,17 @@ static signed long int rgba_u8_to_pal(unsigned char *src, unsigned char *dst, si
   pal = *palptr;
   /* assertion pal */
   assert(pal != ((struct BablPalette *)NULL));
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
-    signed int return_value_babl_palette_lookup$2;
-    return_value_babl_palette_lookup$2=babl_palette_lookup(pal, (signed int)src[(signed long int)0], (signed int)src[(signed long int)1], (signed int)src[(signed long int)2], (signed int)src[(signed long int)3]);
-    dst[(signed long int)0] = (unsigned char)return_value_babl_palette_lookup$2;
+    signed int return_value_babl_palette_lookup_2;
+    return_value_babl_palette_lookup_2=babl_palette_lookup(pal, (signed int)src[(signed long int)0], (signed int)src[(signed long int)1], (signed int)src[(signed long int)2], (signed int)src[(signed long int)3]);
+    dst[(signed long int)0] = (unsigned char)return_value_babl_palette_lookup_2;
     src = src + (signed long int)(sizeof(char) /*1ul*/  * (unsigned long int)4);
     dst = dst + (signed long int)(sizeof(char) /*1ul*/  * (unsigned long int)1);
   }
@@ -13284,17 +13284,17 @@ static signed long int rgba_u8_to_pal_a(char *src, char *dst, signed long int n,
   pal = *palptr;
   /* assertion pal */
   assert(pal != ((struct BablPalette *)NULL));
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
-    signed int return_value_babl_palette_lookup$2;
-    return_value_babl_palette_lookup$2=babl_palette_lookup(pal, (signed int)src[(signed long int)0], (signed int)src[(signed long int)1], (signed int)src[(signed long int)2], (signed int)src[(signed long int)3]);
-    dst[(signed long int)0] = (char)return_value_babl_palette_lookup$2;
+    signed int return_value_babl_palette_lookup_2;
+    return_value_babl_palette_lookup_2=babl_palette_lookup(pal, (signed int)src[(signed long int)0], (signed int)src[(signed long int)1], (signed int)src[(signed long int)2], (signed int)src[(signed long int)3]);
+    dst[(signed long int)0] = (char)return_value_babl_palette_lookup_2;
     dst[(signed long int)1] = src[(signed long int)3];
     src = src + (signed long int)(sizeof(char) /*1ul*/  * (unsigned long int)4);
     dst = dst + (signed long int)(sizeof(char) /*1ul*/  * (unsigned long int)2);
@@ -13307,8 +13307,8 @@ static signed long int rgba_u8_to_pal_a(char *src, char *dst, signed long int n,
 // file babl-introspect.c line 122
 static void sampling_introspect(union _Babl *babl)
 {
-  real_babl_log$link13("babl-introspect.c", 125, (const char *)"sampling_introspect", "\t\thorizontal = %i", babl->sampling.horizontal);
-  real_babl_log$link13("babl-introspect.c", 127, (const char *)"sampling_introspect", "\t\tvertical   = %i", babl->sampling.vertical);
+  real_babl_log_link13("babl-introspect.c", 125, (const char *)"sampling_introspect", "\t\thorizontal = %i", babl->sampling.horizontal);
+  real_babl_log_link13("babl-introspect.c", 127, (const char *)"sampling_introspect", "\t\tvertical   = %i", babl->sampling.vertical);
 }
 
 // table_destination_each
@@ -13318,13 +13318,13 @@ static signed int table_destination_each(union _Babl *babl, void *userdata)
   union _Babl *source = (union _Babl *)userdata;
   union _Babl *destination = babl;
   qux = qux + 1;
-  signed int return_value_babl_formats_count$5;
-  return_value_babl_formats_count$5=babl_formats_count();
-  signed int return_value_babl_formats_count$6;
-  return_value_babl_formats_count$6=babl_formats_count();
-  signed long int return_value_babl_conversion_cost$3;
-  double return_value_babl_conversion_error$4;
-  if(qux % return_value_babl_formats_count$5 == qux / return_value_babl_formats_count$6)
+  signed int return_value_babl_formats_count_5;
+  return_value_babl_formats_count_5=babl_formats_count();
+  signed int return_value_babl_formats_count_6;
+  return_value_babl_formats_count_6=babl_formats_count();
+  signed long int return_value_babl_conversion_cost_3;
+  double return_value_babl_conversion_error_4;
+  if(qux % return_value_babl_formats_count_5 == qux / return_value_babl_formats_count_6)
     fprintf(output_file, "<td class='cell'>&nbsp;</td>");
 
   else
@@ -13334,7 +13334,7 @@ static signed int table_destination_each(union _Babl *babl, void *userdata)
     do
       if(fish == ((const union _Babl *)NULL))
       {
-        real_babl_log$link7("babl-fish-stats.c", 81, (const char *)"table_destination_each", "Eeeeek! Assertion failed: `fish`");
+        real_babl_log_link7("babl-fish-stats.c", 81, (const char *)"table_destination_each", "Eeeeek! Assertion failed: `fish`");
         /* assertion fish */
         assert(fish != ((const union _Babl *)NULL));
       }
@@ -13365,12 +13365,12 @@ static signed int table_destination_each(union _Babl *babl, void *userdata)
         {
           fprintf(output_file, "<tr>");
           fprintf(output_file, "<td>%s</td>", ((union _Babl *)fish->fish_path.conversion_list->items[(signed long int)i])->instance.name);
-          signed long int return_value_babl_conversion_cost$1;
-          return_value_babl_conversion_cost$1=babl_conversion_cost(&((union _Babl *)fish->fish_path.conversion_list->items[(signed long int)i])->conversion);
-          fprintf(output_file, "<td class='r'>%li</td>", return_value_babl_conversion_cost$1);
-          double return_value_babl_conversion_error$2;
-          return_value_babl_conversion_error$2=babl_conversion_error(&((union _Babl *)fish->fish_path.conversion_list->items[(signed long int)i])->conversion);
-          fprintf(output_file, "<td class='r'>%e</td>", return_value_babl_conversion_error$2);
+          signed long int return_value_babl_conversion_cost_1;
+          return_value_babl_conversion_cost_1=babl_conversion_cost(&((union _Babl *)fish->fish_path.conversion_list->items[(signed long int)i])->conversion);
+          fprintf(output_file, "<td class='r'>%li</td>", return_value_babl_conversion_cost_1);
+          double return_value_babl_conversion_error_2;
+          return_value_babl_conversion_error_2=babl_conversion_error(&((union _Babl *)fish->fish_path.conversion_list->items[(signed long int)i])->conversion);
+          fprintf(output_file, "<td class='r'>%e</td>", return_value_babl_conversion_error_2);
           fprintf(output_file, "</tr>");
         }
         fprintf(output_file, "<tr>");
@@ -13404,10 +13404,10 @@ static signed int table_destination_each(union _Babl *babl, void *userdata)
         fprintf(output_file, "<div class='tooltip'>");
         fprintf(output_file, "<h3><span class='g'>Simple</span> %s <span class='g'>to</span> %s</h3>", source->instance.name, destination->instance.name);
         fprintf(output_file, "%s<br/>", ((union _Babl *)fish->fish_simple.conversion)->instance.name);
-        return_value_babl_conversion_cost$3=babl_conversion_cost(fish->fish_simple.conversion);
-        fprintf(output_file, "<span class='g'>cost:</span> %li<br/>", return_value_babl_conversion_cost$3);
-        return_value_babl_conversion_error$4=babl_conversion_error(fish->fish_simple.conversion);
-        fprintf(output_file, "<span class='g'>error:</span> %e<br/>", return_value_babl_conversion_error$4);
+        return_value_babl_conversion_cost_3=babl_conversion_cost(fish->fish_simple.conversion);
+        fprintf(output_file, "<span class='g'>cost:</span> %li<br/>", return_value_babl_conversion_cost_3);
+        return_value_babl_conversion_error_4=babl_conversion_error(fish->fish_simple.conversion);
+        fprintf(output_file, "<span class='g'>error:</span> %e<br/>", return_value_babl_conversion_error_4);
         if(fish->fish.processings >= 1)
         {
           fprintf(output_file, "<span class='g'>Processings:</span>%i<br/>", fish->fish.processings);
@@ -13421,7 +13421,7 @@ static signed int table_destination_each(union _Babl *babl, void *userdata)
       default:
         do
         {
-          real_babl_log$link7("babl-fish-stats.c", 167, (const char *)"table_destination_each", "Unknown fish type");
+          real_babl_log_link7("babl-fish-stats.c", 167, (const char *)"table_destination_each", "Unknown fish type");
           babl_die();
         }
         while((_Bool)0);
@@ -13443,7 +13443,7 @@ static signed int table_destination_sum_each(union _Babl *babl, void *userdata)
     do
       if(fish == ((const union _Babl *)NULL))
       {
-        real_babl_log$link7("babl-fish-stats.c", 44, (const char *)"table_destination_sum_each", "Eeeeek! Assertion failed: `fish`");
+        real_babl_log_link7("babl-fish-stats.c", 44, (const char *)"table_destination_sum_each", "Eeeeek! Assertion failed: `fish`");
         /* assertion fish */
         assert(fish != ((const union _Babl *)NULL));
       }
@@ -13464,46 +13464,46 @@ static signed int table_source_each(union _Babl *babl, void *userdata)
   char *d;
   s = babl->instance.name;
   d = &expanded_name[(signed long int)0];
-  char *tmp_post$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
-  char *tmp_post$5;
-  char *tmp_post$6;
-  char *tmp_post$7;
-  const char *tmp_post$8;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
+  char *tmp_post_5;
+  char *tmp_post_6;
+  char *tmp_post_7;
+  const char *tmp_post_8;
   while(!(*s == 0))
   {
     if((signed int)*s == 32)
     {
-      tmp_post$1 = d;
+      tmp_post_1 = d;
       d = d + 1l;
-      *tmp_post$1 = (char)38;
-      tmp_post$2 = d;
+      *tmp_post_1 = (char)38;
+      tmp_post_2 = d;
       d = d + 1l;
-      *tmp_post$2 = (char)110;
-      tmp_post$3 = d;
+      *tmp_post_2 = (char)110;
+      tmp_post_3 = d;
       d = d + 1l;
-      *tmp_post$3 = (char)98;
-      tmp_post$4 = d;
+      *tmp_post_3 = (char)98;
+      tmp_post_4 = d;
       d = d + 1l;
-      *tmp_post$4 = (char)115;
-      tmp_post$5 = d;
+      *tmp_post_4 = (char)115;
+      tmp_post_5 = d;
       d = d + 1l;
-      *tmp_post$5 = (char)112;
-      tmp_post$6 = d;
+      *tmp_post_5 = (char)112;
+      tmp_post_6 = d;
       d = d + 1l;
-      *tmp_post$6 = (char)59;
+      *tmp_post_6 = (char)59;
       *d = (char)0;
       s = s + 1l;
       continue;
     }
 
-    tmp_post$7 = d;
+    tmp_post_7 = d;
     d = d + 1l;
-    tmp_post$8 = s;
+    tmp_post_8 = s;
     s = s + 1l;
-    *tmp_post$7 = *tmp_post$8;
+    *tmp_post_7 = *tmp_post_8;
     *d = (char)0;
   }
   fprintf(output_file, "<tr>");
@@ -13514,9 +13514,9 @@ static signed int table_source_each(union _Babl *babl, void *userdata)
   fprintf(output_file, "<dl>");
   fprintf(output_file, "<dt>bytes/pixel</dt><dd>%i</dd>", babl->format.bytes_per_pixel);
   fprintf(output_file, "<dt>model</dt><dd>%s</dd>", ((union _Babl *)babl->format.model)->instance.name);
-  double return_value_babl_format_loss$9;
-  return_value_babl_format_loss$9=babl_format_loss(babl);
-  fprintf(output_file, "<dt>loss</dt><dd>%f</dd>", return_value_babl_format_loss$9);
+  double return_value_babl_format_loss_9;
+  return_value_babl_format_loss_9=babl_format_loss(babl);
+  fprintf(output_file, "<dt>loss</dt><dd>%f</dd>", return_value_babl_format_loss_9);
   fprintf(output_file, "<dt>planar</dt><dd>%d</dd>", babl->format.planar);
   fprintf(output_file, "<dt>components</dt><dd><table class='nopad'>");
   i = 0;
@@ -13551,7 +13551,7 @@ static void table_sum_processings_calc(void)
 // file babl-introspect.c line 115
 static void type_introspect(union _Babl *babl)
 {
-  real_babl_log$link13("babl-introspect.c", 117, (const char *)"type_introspect", "\t\tbits=%i", babl->type.bits);
+  real_babl_log_link13("babl-introspect.c", 117, (const char *)"type_introspect", "\t\tbits=%i", babl->type.bits);
 }
 
 // type_new
@@ -13562,7 +13562,7 @@ static union _Babl * type_new(const char *name, signed int id, signed int bits)
   do
     if(bits == 0)
     {
-      real_babl_log$link19("babl-type.c", 45, (const char *)"type_new", "Eeeeek! Assertion failed: `bits != 0`");
+      real_babl_log_link19("babl-type.c", 45, (const char *)"type_new", "Eeeeek! Assertion failed: `bits != 0`");
       /* assertion bits != 0 */
       assert(bits != 0);
     }
@@ -13571,19 +13571,19 @@ static union _Babl * type_new(const char *name, signed int id, signed int bits)
   do
     if(!(bits % 8 == 0))
     {
-      real_babl_log$link19("babl-type.c", 46, (const char *)"type_new", "Eeeeek! Assertion failed: `bits % 8 == 0`");
+      real_babl_log_link19("babl-type.c", 46, (const char *)"type_new", "Eeeeek! Assertion failed: `bits % 8 == 0`");
       /* assertion bits % 8 == 0 */
       assert(bits % 8 == 0);
     }
 
   while((_Bool)0);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  void *return_value_babl_malloc$2;
-  return_value_babl_malloc$2=babl_malloc(sizeof(struct anonymous$2) /*56ul*/  + return_value_strlen$1 + (unsigned long int)1);
-  babl = (union _Babl *)return_value_babl_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  void *return_value_babl_malloc_2;
+  return_value_babl_malloc_2=babl_malloc(sizeof(struct anonymous_2) /*56ul*/  + return_value_strlen_1 + (unsigned long int)1);
+  babl = (union _Babl *)return_value_babl_malloc_2;
   babl_set_destructor((void *)babl, babl_type_destroy);
-  babl->instance.name = (char *)(void *)((char *)babl + (signed long int)sizeof(struct anonymous$2) /*56ul*/ );
+  babl->instance.name = (char *)(void *)((char *)babl + (signed long int)sizeof(struct anonymous_2) /*56ul*/ );
   babl->class_type = 12235009;
   babl->instance.id = id;
   strcpy(babl->instance.name, name);
@@ -13606,11 +13606,11 @@ static signed int type_sanity(union _Babl *babl, void *user_data)
     i = 0;
     for( ; !(i >= list->count); i = i + 1)
     {
-      union _Babl *return_value_babl_conversion_destination$1;
-      return_value_babl_conversion_destination$1=babl_conversion_destination((union _Babl *)list->items[(signed long int)i]);
-      const union _Babl *return_value_babl_type_from_id$2;
-      return_value_babl_type_from_id$2=babl_type_from_id(106);
-      if(return_value_babl_conversion_destination$1 == return_value_babl_type_from_id$2)
+      union _Babl *return_value_babl_conversion_destination_1;
+      return_value_babl_conversion_destination_1=babl_conversion_destination((union _Babl *)list->items[(signed long int)i]);
+      const union _Babl *return_value_babl_type_from_id_2;
+      return_value_babl_type_from_id_2=babl_type_from_id(106);
+      if(return_value_babl_conversion_destination_1 == return_value_babl_type_from_id_2)
       {
         ok = 1;
         break;
@@ -13622,7 +13622,7 @@ static signed int type_sanity(union _Babl *babl, void *user_data)
   if(ok == 0)
   {
     OK = 0;
-    real_babl_log$link18("babl-sanity.c", 60, (const char *)"type_sanity", "lack of sanity! type '%s' has no conversion to double", babl->instance.name);
+    real_babl_log_link18("babl-sanity.c", 60, (const char *)"type_sanity", "lack of sanity! type '%s' has no conversion to double", babl->instance.name);
   }
 
   return 0;
@@ -13644,12 +13644,12 @@ static void types(void)
 // file model-ycbcr.c line 180
 static signed long int ycbcr_to_rgba(char *src, char *dst, signed long int n)
 {
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double luminance = ((double *)src)[(signed long int)0];
@@ -13661,9 +13661,9 @@ static signed long int ycbcr_to_rgba(char *src, char *dst, signed long int n)
     red = 1.0 * luminance + 0.0 * cb + 1.40200 * cr;
     green = (1.0 * luminance - 0.344136 * cb) - 0.71414136 * cr;
     blue = 1.0 * luminance + 1.772 * cb + 0.0 * cr;
-    red=gamma_2_2_to_linear$link2(red);
-    green=gamma_2_2_to_linear$link2(green);
-    blue=gamma_2_2_to_linear$link2(blue);
+    red=gamma_2_2_to_linear_link2(red);
+    green=gamma_2_2_to_linear_link2(green);
+    blue=gamma_2_2_to_linear_link2(blue);
     ((double *)dst)[(signed long int)0] = red;
     ((double *)dst)[(signed long int)1] = green;
     ((double *)dst)[(signed long int)2] = blue;
@@ -13679,12 +13679,12 @@ static signed long int ycbcr_to_rgba(char *src, char *dst, signed long int n)
 // file model-ycbcr.c line 146
 static signed long int ycbcra_to_rgba(char *src, char *dst, signed long int n)
 {
-  signed long int tmp_post$1;
+  signed long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1l;
-    if(tmp_post$1 == 0l)
+    if(tmp_post_1 == 0l)
       break;
 
     double luminance = ((double *)src)[(signed long int)0];
@@ -13697,9 +13697,9 @@ static signed long int ycbcra_to_rgba(char *src, char *dst, signed long int n)
     red = 1.0 * luminance + 0.0 * cb + 1.40200 * cr;
     green = (1.0 * luminance - 0.344136 * cb) - 0.71414136 * cr;
     blue = 1.0 * luminance + 1.772 * cb + 0.0 * cr;
-    red=gamma_2_2_to_linear$link2(red);
-    green=gamma_2_2_to_linear$link2(green);
-    blue=gamma_2_2_to_linear$link2(blue);
+    red=gamma_2_2_to_linear_link2(red);
+    green=gamma_2_2_to_linear_link2(green);
+    blue=gamma_2_2_to_linear_link2(blue);
     ((double *)dst)[(signed long int)0] = red;
     ((double *)dst)[(signed long int)1] = green;
     ((double *)dst)[(signed long int)2] = blue;

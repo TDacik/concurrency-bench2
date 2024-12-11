@@ -1,30 +1,30 @@
-// tag-#anon#ST[*{*{V}$V$}$*{V}$V$$'buf'||S32'bsize'||S32'occupied'||S32'nextin'||S32'nextout'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'mtx'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'more'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'less'|]
+// tag-#anon#ST[*{*{V}_V_}_*{V}_V__'buf'||S32'bsize'||S32'occupied'||S32'nextin'||S32'nextout'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'mtx'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'more'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'less'|]
 // file buffer.h line 18
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[S32'avail'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'mtx'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'cv'|]
+// tag-#anon#ST[S32'avail'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'mtx'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'cv'|]
 // file avail.h line 18
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[ARR8{U8}$U8$'cblock'||ARR2{U32}$U32$'deslong'|]
+// tag-#anon#UN[ARR8{U8}_U8_'cblock'||ARR2{U32}_U32_'deslong'|]
 // file /usr/include/openssl/des.h line 86
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$2;
+union anonymous_2;
 
 // tag-DES_ks
 // file /usr/include/openssl/des.h line 85
@@ -164,9 +164,9 @@ void DES_string_to_key(const char *, unsigned char (*)[8l]);
 // __bswap_32
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx);
-// __bswap_32$link1
+// __bswap_32_link1
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link1(unsigned int __bsx$link1);
+static inline unsigned int __bswap_32_link1(unsigned int __bsx_link1);
 // __ctype_b_loc
 // file /usr/include/ctype.h line 79
 extern const unsigned short int ** __ctype_b_loc(void);
@@ -208,13 +208,13 @@ static inline signed int atoi(const char *__nptr);
 static inline signed long int atol(const char *__nptr);
 // avail_init
 // file avail.h line 25
-extern signed int avail_init(struct anonymous$6 *ap);
+extern signed int avail_init(struct anonymous_6 *ap);
 // avail_signal
 // file avail.h line 27
-extern signed int avail_signal(struct anonymous$6 *ap);
+extern signed int avail_signal(struct anonymous_6 *ap);
 // avail_wait
 // file avail.h line 26
-extern signed int avail_wait(struct anonymous$6 *ap);
+extern signed int avail_wait(struct anonymous_6 *ap);
 // become_daemon
 // file daemon.h line 18
 extern void become_daemon(void);
@@ -223,16 +223,16 @@ extern void become_daemon(void);
 extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // buffer_destroy
 // file buffer.c line 83
-extern void buffer_destroy(struct anonymous$5 *bp);
+extern void buffer_destroy(struct anonymous_5 *bp);
 // buffer_get
 // file buffer.h line 35
-extern void * buffer_get(struct anonymous$5 *bp);
+extern void * buffer_get(struct anonymous_5 *bp);
 // buffer_init
 // file buffer.h line 31
-extern signed int buffer_init(struct anonymous$5 *bp, signed int bsize);
+extern signed int buffer_init(struct anonymous_5 *bp, signed int bsize);
 // buffer_put
 // file buffer.h line 34
-extern void buffer_put(struct anonymous$5 *bp, void *item);
+extern void buffer_put(struct anonymous_5 *bp, void *item);
 // chdir
 // file /usr/include/unistd.h line 497
 extern signed int chdir(const char *);
@@ -397,37 +397,37 @@ extern signed int pthread_attr_init(union pthread_attr_t *);
 extern signed int pthread_attr_setdetachstate(union pthread_attr_t *, signed int);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$0 *);
+extern signed int pthread_cond_broadcast(union anonymous_0 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$0 *);
+extern signed int pthread_cond_destroy(union anonymous_0 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$0 *, const union anonymous$1 *);
+extern signed int pthread_cond_init(union anonymous_0 *, const union anonymous_1 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$0 *);
+extern signed int pthread_cond_signal(union anonymous_0 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$0 *, union anonymous$2 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_0 *, union anonymous_2 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$0 *, union anonymous$2 *);
+extern signed int pthread_cond_wait(union anonymous_0 *, union anonymous_2 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$2 *);
+extern signed int pthread_mutex_destroy(union anonymous_2 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$2 *, const union anonymous$1 *);
+extern signed int pthread_mutex_init(union anonymous_2 *, const union anonymous_1 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$2 *);
+extern signed int pthread_mutex_lock(union anonymous_2 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$2 *);
+extern signed int pthread_mutex_unlock(union anonymous_2 *);
 // pthread_once
 // file /usr/include/pthread.h line 496
 extern signed int pthread_once(signed int *, void (*)(void));
@@ -626,9 +626,9 @@ extern signed int timeout_cancel(struct timeout *tp);
 // timeout_create
 // file timeout.h line 34
 extern struct timeout * timeout_create(signed int timeout, void (*fun)(void *), void *arg);
-// timeout_create::fun$object
+// timeout_create::fun_object
 //
-void fun$object(void *);
+void fun_object(void *);
 // timeout_handler
 // file request.c line 153
 static void timeout_handler(void *arg);
@@ -688,7 +688,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -698,7 +698,7 @@ union anonymous$2
   signed long int __align;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // __lock
   signed int __lock;
@@ -718,17 +718,17 @@ struct anonymous$7
   unsigned int __broadcast_seq;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
-  struct anonymous$7 __data;
+  struct anonymous_7 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // buf
   void **buf;
@@ -741,24 +741,24 @@ struct anonymous$5
   // nextout
   signed int nextout;
   // mtx
-  union anonymous$2 mtx;
+  union anonymous_2 mtx;
   // more
-  union anonymous$0 more;
+  union anonymous_0 more;
   // less
-  union anonymous$0 less;
+  union anonymous_0 less;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // avail
   signed int avail;
   // mtx
-  union anonymous$2 mtx;
+  union anonymous_2 mtx;
   // cv
-  union anonymous$0 cv;
+  union anonymous_0 cv;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __size
   char __size[4l];
@@ -995,7 +995,7 @@ struct kernel
   // remote
   struct sockaddr_in remote;
   // av
-  struct anonymous$6 av;
+  struct anonymous_6 av;
   // status
   signed int status;
   // euid
@@ -1133,9 +1133,9 @@ struct timeout
 struct timeout_cb
 {
   // mtx
-  union anonymous$2 mtx;
+  union anonymous_2 mtx;
   // cv
-  union anonymous$0 cv;
+  union anonymous_0 cv;
   // tid
   unsigned long int tid;
   // running
@@ -1195,10 +1195,10 @@ signed int extensions_enabled = 0;
 static struct logfacname facility[19l] = { { .name="kern", .code=0 << 3 }, { .name="user", .code=1 << 3 }, { .name="mail", .code=2 << 3 }, { .name="daemon", .code=3 << 3 }, { .name="auth", .code=4 << 3 }, { .name="syslog", .code=5 << 3 }, { .name="lpr", .code=6 << 3 }, { .name="news", .code=7 << 3 }, { .name="uucp", .code=8 << 3 }, { .name="cron", .code=9 << 3 }, { .name="local0", .code=16 << 3 }, { .name="local1", .code=17 << 3 }, { .name="local2", .code=18 << 3 }, { .name="local3", .code=19 << 3 }, { .name="local4", .code=20 << 3 }, { .name="local5", .code=21 << 3 }, { .name="local6", .code=22 << 3 }, { .name="local7", .code=23 << 3 }, { .name=(const char *)(void *)0, .code=-1 } };
 // kbuf_free
 // file kernel.c line 40
-static struct anonymous$5 kbuf_free;
+static struct anonymous_5 kbuf_free;
 // kbuf_request
 // file kernel.c line 39
-static struct anonymous$5 kbuf_request;
+static struct anonymous_5 kbuf_request;
 // kernel_attempts
 // file kernel.c line 36
 signed int kernel_attempts = 5;
@@ -1246,7 +1246,7 @@ char osinfo_build[21l] = { 'L', 'i', 'n', 'u', 'x', ' ', '3', '.', '1', '6', '.'
 char *pidfile_path = "/var/run/identd/identd.pid";
 // random_lock
 // file safeio.c line 229
-static union anonymous$2 random_lock;
+static union anonymous_2 random_lock;
 // random_once
 // file safeio.c line 230
 static signed int random_once = 0;
@@ -1258,13 +1258,13 @@ signed int request_timeout = 120;
 signed int requests_cur;
 // requests_cv
 // file request.c line 36
-union anonymous$0 requests_cv;
+union anonymous_0 requests_cv;
 // requests_max
 // file request.c line 33
 signed int requests_max = 0;
 // requests_mtx
 // file request.c line 35
-union anonymous$2 requests_mtx;
+union anonymous_2 requests_mtx;
 // result_syslog_level
 // file send.c line 33
 signed int result_syslog_level = -1;
@@ -1300,18 +1300,18 @@ signed int uidonly_flag = 0;
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx)
 {
-  signed long int return_value___builtin_bswap32$1;
-  return_value___builtin_bswap32$1=__builtin_bswap32((signed long int)__bsx);
-  return (unsigned int)return_value___builtin_bswap32$1;
+  signed long int return_value___builtin_bswap32_1;
+  return_value___builtin_bswap32_1=__builtin_bswap32((signed long int)__bsx);
+  return (unsigned int)return_value___builtin_bswap32_1;
 }
 
-// __bswap_32$link1
+// __bswap_32_link1
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link1(unsigned int __bsx$link1)
+static inline unsigned int __bswap_32_link1(unsigned int __bsx_link1)
 {
-  signed long int return_value___builtin_bswap32$1$link1;
-  return_value___builtin_bswap32$1$link1=__builtin_bswap32((signed long int)__bsx$link1);
-  return (unsigned int)return_value___builtin_bswap32$1$link1;
+  signed long int return_value___builtin_bswap32_1_link1;
+  return_value___builtin_bswap32_1_link1=__builtin_bswap32((signed long int)__bsx_link1);
+  return (unsigned int)return_value___builtin_bswap32_1_link1;
 }
 
 // __strpbrk_c2
@@ -1405,33 +1405,33 @@ __CPROVER_DUMP_L3:
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // atol
 // file /usr/include/stdlib.h line 283
 static inline signed long int atol(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return return_value_strtol_1;
 }
 
 // avail_init
 // file avail.h line 25
-extern signed int avail_init(struct anonymous$6 *ap)
+extern signed int avail_init(struct anonymous_6 *ap)
 {
-  pthread_mutex_init(&ap->mtx, (const union anonymous$1 *)(void *)0);
-  pthread_cond_init(&ap->cv, (const union anonymous$1 *)(void *)0);
+  pthread_mutex_init(&ap->mtx, (const union anonymous_1 *)(void *)0);
+  pthread_cond_init(&ap->cv, (const union anonymous_1 *)(void *)0);
   ap->avail = 0;
   return 0;
 }
 
 // avail_signal
 // file avail.h line 27
-extern signed int avail_signal(struct anonymous$6 *ap)
+extern signed int avail_signal(struct anonymous_6 *ap)
 {
   pthread_mutex_lock(&ap->mtx);
   if(!(ap->avail == 0))
@@ -1448,7 +1448,7 @@ extern signed int avail_signal(struct anonymous$6 *ap)
 
 // avail_wait
 // file avail.h line 26
-extern signed int avail_wait(struct anonymous$6 *ap)
+extern signed int avail_wait(struct anonymous_6 *ap)
 {
   pthread_mutex_lock(&ap->mtx);
   while(ap->avail == 0)
@@ -1496,7 +1496,7 @@ extern void become_daemon(void)
 
 // buffer_destroy
 // file buffer.c line 83
-extern void buffer_destroy(struct anonymous$5 *bp)
+extern void buffer_destroy(struct anonymous_5 *bp)
 {
   pthread_mutex_destroy(&bp->mtx);
   pthread_cond_destroy(&bp->more);
@@ -1506,15 +1506,15 @@ extern void buffer_destroy(struct anonymous$5 *bp)
 
 // buffer_get
 // file buffer.h line 35
-extern void * buffer_get(struct anonymous$5 *bp)
+extern void * buffer_get(struct anonymous_5 *bp)
 {
   void *item;
   pthread_mutex_lock(&bp->mtx);
   while(!(bp->occupied >= 1))
     pthread_cond_wait(&bp->more, &bp->mtx);
-  signed int tmp_post$1 = bp->nextout;
+  signed int tmp_post_1 = bp->nextout;
   bp->nextout = bp->nextout + 1;
-  item = bp->buf[(signed long int)tmp_post$1];
+  item = bp->buf[(signed long int)tmp_post_1];
   bp->nextout = bp->nextout % bp->bsize;
   bp->occupied = bp->occupied - 1;
   pthread_mutex_unlock(&bp->mtx);
@@ -1524,31 +1524,31 @@ extern void * buffer_get(struct anonymous$5 *bp)
 
 // buffer_init
 // file buffer.h line 31
-extern signed int buffer_init(struct anonymous$5 *bp, signed int bsize)
+extern signed int buffer_init(struct anonymous_5 *bp, signed int bsize)
 {
-  void *return_value_s_malloc$1;
-  return_value_s_malloc$1=s_malloc(sizeof(void *) /*8ul*/  * (unsigned long int)bsize);
-  bp->buf = (void **)return_value_s_malloc$1;
+  void *return_value_s_malloc_1;
+  return_value_s_malloc_1=s_malloc(sizeof(void *) /*8ul*/  * (unsigned long int)bsize);
+  bp->buf = (void **)return_value_s_malloc_1;
   bp->bsize = bsize;
   bp->occupied = 0;
   bp->nextin = 0;
   bp->nextout = 0;
-  pthread_mutex_init(&bp->mtx, (const union anonymous$1 *)(void *)0);
-  pthread_cond_init(&bp->more, (const union anonymous$1 *)(void *)0);
-  pthread_cond_init(&bp->less, (const union anonymous$1 *)(void *)0);
+  pthread_mutex_init(&bp->mtx, (const union anonymous_1 *)(void *)0);
+  pthread_cond_init(&bp->more, (const union anonymous_1 *)(void *)0);
+  pthread_cond_init(&bp->less, (const union anonymous_1 *)(void *)0);
   return 0;
 }
 
 // buffer_put
 // file buffer.h line 34
-extern void buffer_put(struct anonymous$5 *bp, void *item)
+extern void buffer_put(struct anonymous_5 *bp, void *item)
 {
   pthread_mutex_lock(&bp->mtx);
   while(bp->occupied >= bp->bsize)
     pthread_cond_wait(&bp->less, &bp->mtx);
-  signed int tmp_post$1 = bp->nextin;
+  signed int tmp_post_1 = bp->nextin;
   bp->nextin = bp->nextin + 1;
-  bp->buf[(signed long int)tmp_post$1] = item;
+  bp->buf[(signed long int)tmp_post_1] = item;
   bp->nextin = bp->nextin % bp->bsize;
   bp->occupied = bp->occupied + 1;
   pthread_mutex_unlock(&bp->mtx);
@@ -1561,18 +1561,18 @@ static signed int check_noident(char *dir)
 {
   char buf[2048l];
   unsigned long int len;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(dir == ((char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strlen$1=strlen(dir);
-    tmp_if_expr$2 = return_value_strlen$1 > (unsigned long int)1024 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_1=strlen(dir);
+    tmp_if_expr_2 = return_value_strlen_1 > (unsigned long int)1024 ? (_Bool)1 : (_Bool)0;
   }
-  unsigned long int tmp_post$3;
-  if(tmp_if_expr$2)
+  unsigned long int tmp_post_3;
+  if(tmp_if_expr_2)
     return -1;
 
   else
@@ -1583,17 +1583,17 @@ static signed int check_noident(char *dir)
     {
       if(!((signed int)buf[-1l + (signed long int)len] == 47))
       {
-        tmp_post$3 = len;
+        tmp_post_3 = len;
         len = len + 1ul;
-        buf[(signed long int)tmp_post$3] = (char)47;
+        buf[(signed long int)tmp_post_3] = (char)47;
       }
 
     }
 
     strcpy(buf + (signed long int)len, ".noident");
-    signed int return_value_access$4;
-    return_value_access$4=access(buf, 0);
-    if(return_value_access$4 == 0)
+    signed int return_value_access_4;
+    return_value_access_4=access(buf, 0);
+    if(return_value_access_4 == 0)
       return 1;
 
     else
@@ -1612,31 +1612,31 @@ extern signed int conf_parse(const char *path, signed int silent)
   char *arg;
   signed int line;
   fp=fopen(path, "r");
-  char *return_value_fgets$1;
-  _Bool tmp_if_expr$5;
-  signed int tmp_statement_expression$3;
-  signed int return_value_strcasecmp$45;
-  signed int return_value_strcasecmp$44;
-  signed int return_value_strcasecmp$43;
-  signed int return_value_strcasecmp$42;
-  signed int return_value_strcasecmp$41;
-  signed int return_value_strcasecmp$40;
-  signed int return_value_strcasecmp$39;
-  signed int return_value_strcasecmp$38;
-  signed int return_value_strcasecmp$37;
-  signed int return_value_strcasecmp$36;
-  signed int return_value_strcasecmp$35;
-  signed int return_value_strcasecmp$34;
-  signed int return_value_strcasecmp$33;
-  signed int return_value_strcasecmp$32;
-  signed int return_value_strcasecmp$31;
-  signed int return_value_strcasecmp$30;
-  _Bool tmp_if_expr$21;
-  signed int return_value_strcasecmp$20;
-  signed int return_value_strcasecmp$29;
-  signed int return_value_strcasecmp$28;
-  signed int return_value_strcasecmp$27;
-  signed int return_value_strcasecmp$26;
+  char *return_value_fgets_1;
+  _Bool tmp_if_expr_5;
+  signed int tmp_statement_expression_3;
+  signed int return_value_strcasecmp_45;
+  signed int return_value_strcasecmp_44;
+  signed int return_value_strcasecmp_43;
+  signed int return_value_strcasecmp_42;
+  signed int return_value_strcasecmp_41;
+  signed int return_value_strcasecmp_40;
+  signed int return_value_strcasecmp_39;
+  signed int return_value_strcasecmp_38;
+  signed int return_value_strcasecmp_37;
+  signed int return_value_strcasecmp_36;
+  signed int return_value_strcasecmp_35;
+  signed int return_value_strcasecmp_34;
+  signed int return_value_strcasecmp_33;
+  signed int return_value_strcasecmp_32;
+  signed int return_value_strcasecmp_31;
+  signed int return_value_strcasecmp_30;
+  _Bool tmp_if_expr_21;
+  signed int return_value_strcasecmp_20;
+  signed int return_value_strcasecmp_29;
+  signed int return_value_strcasecmp_28;
+  signed int return_value_strcasecmp_27;
+  signed int return_value_strcasecmp_26;
   if(fp == ((struct _IO_FILE *)NULL))
   {
     if(silent == 0)
@@ -1650,14 +1650,14 @@ extern signed int conf_parse(const char *path, signed int silent)
     line = 0;
     do
     {
-      return_value_fgets$1=fgets(buf, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(buf, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       line = line + 1;
-      char *return_value___builtin_strchr$2;
-      return_value___builtin_strchr$2=__builtin_strchr(buf, 35);
-      cp = return_value___builtin_strchr$2;
+      char *return_value___builtin_strchr_2;
+      return_value___builtin_strchr_2=__builtin_strchr(buf, 35);
+      cp = return_value___builtin_strchr_2;
       if(!(cp == ((char *)NULL)))
         *cp = (char)0;
 
@@ -1666,18 +1666,18 @@ extern signed int conf_parse(const char *path, signed int silent)
       {
         arg=s_strtok_r((char *)(void *)0, " \t\r\n", &sp);
         if(arg == ((char *)NULL))
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
         {
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$4;
-          return_value___builtin_strcmp$4=__builtin_strcmp(arg, "=");
-          tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-          tmp_if_expr$5 = tmp_statement_expression$3 != 0 ? (_Bool)1 : (_Bool)0;
+          signed int return_value___builtin_strcmp_4;
+          return_value___builtin_strcmp_4=__builtin_strcmp(arg, "=");
+          tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+          tmp_if_expr_5 = tmp_statement_expression_3 != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$5)
+        if(tmp_if_expr_5)
           syslog(3, "%s: %d: missing '='", path, line);
 
         else
@@ -1691,15 +1691,15 @@ extern signed int conf_parse(const char *path, signed int silent)
             if(!(debug == 0))
               fprintf(stderr, "conf_parse(\"%s\"), line #%d: %s = %s\n", path, line, cp, arg != ((char *)NULL) ? arg : "");
 
-            signed int return_value_strcasecmp$46;
-            return_value_strcasecmp$46=strcasecmp(cp, "include");
-            if(return_value_strcasecmp$46 == 0)
+            signed int return_value_strcasecmp_46;
+            return_value_strcasecmp_46=strcasecmp(cp, "include");
+            if(return_value_strcasecmp_46 == 0)
               conf_parse(arg, silent);
 
             else
             {
-              return_value_strcasecmp$45=strcasecmp(cp, "syslog:facility");
-              if(return_value_strcasecmp$45 == 0)
+              return_value_strcasecmp_45=strcasecmp(cp, "syslog:facility");
+              if(return_value_strcasecmp_45 == 0)
               {
                 signed int code;
                 code=syslog_str2fac(arg);
@@ -1715,244 +1715,244 @@ extern signed int conf_parse(const char *path, signed int silent)
 
               else
               {
-                return_value_strcasecmp$44=strcasecmp(cp, "server:port");
-                if(return_value_strcasecmp$44 == 0)
+                return_value_strcasecmp_44=strcasecmp(cp, "server:port");
+                if(return_value_strcasecmp_44 == 0)
                 {
-                  signed int return_value_str2port$6;
-                  return_value_str2port$6=str2port(arg, &listen_port);
-                  if(!(return_value_str2port$6 >= 0))
+                  signed int return_value_str2port_6;
+                  return_value_str2port_6=str2port(arg, &listen_port);
+                  if(!(return_value_str2port_6 >= 0))
                     syslog(3, "%s: %d: invalid port: %s", path, line, arg);
 
                 }
 
                 else
                 {
-                  return_value_strcasecmp$43=strcasecmp(cp, "server:backlog");
-                  if(return_value_strcasecmp$43 == 0)
+                  return_value_strcasecmp_43=strcasecmp(cp, "server:backlog");
+                  if(return_value_strcasecmp_43 == 0)
                   {
-                    signed int return_value_str2int$7;
-                    return_value_str2int$7=str2int(arg, &listen_backlog);
-                    if(!(return_value_str2int$7 >= 0))
+                    signed int return_value_str2int_7;
+                    return_value_str2int_7=str2int(arg, &listen_backlog);
+                    if(!(return_value_str2int_7 >= 0))
                       syslog(3, "%s: %d: invalid number: %s", path, line, arg);
 
                   }
 
                   else
                   {
-                    return_value_strcasecmp$42=strcasecmp(cp, "server:user");
-                    if(return_value_strcasecmp$42 == 0)
+                    return_value_strcasecmp_42=strcasecmp(cp, "server:user");
+                    if(return_value_strcasecmp_42 == 0)
                     {
-                      signed int return_value_str2uid$8;
-                      return_value_str2uid$8=str2uid(arg, &server_uid, &server_gid);
-                      if(!(return_value_str2uid$8 >= 0))
+                      signed int return_value_str2uid_8;
+                      return_value_str2uid_8=str2uid(arg, &server_uid, &server_gid);
+                      if(!(return_value_str2uid_8 >= 0))
                         syslog(3, "%s: %d: invalid user: %s", path, line, arg);
 
                     }
 
                     else
                     {
-                      return_value_strcasecmp$41=strcasecmp(cp, "server:group");
-                      if(return_value_strcasecmp$41 == 0)
+                      return_value_strcasecmp_41=strcasecmp(cp, "server:group");
+                      if(return_value_strcasecmp_41 == 0)
                       {
-                        signed int return_value_str2gid$9;
-                        return_value_str2gid$9=str2gid(arg, &server_gid);
-                        if(!(return_value_str2gid$9 >= 0))
+                        signed int return_value_str2gid_9;
+                        return_value_str2gid_9=str2gid(arg, &server_gid);
+                        if(!(return_value_str2gid_9 >= 0))
                           syslog(3, "%s: %d: invalid group: %s", path, line, arg);
 
                       }
 
                       else
                       {
-                        return_value_strcasecmp$40=strcasecmp(cp, "server:pid-file");
-                        if(return_value_strcasecmp$40 == 0)
+                        return_value_strcasecmp_40=strcasecmp(cp, "server:pid-file");
+                        if(return_value_strcasecmp_40 == 0)
                         {
-                          signed int return_value_str2str$10;
-                          return_value_str2str$10=str2str(arg, &pidfile_path);
-                          if(!(return_value_str2str$10 >= 0))
+                          signed int return_value_str2str_10;
+                          return_value_str2str_10=str2str(arg, &pidfile_path);
+                          if(!(return_value_str2str_10 >= 0))
                             syslog(3, "%s: %d: invalid string: %s", path, line, arg);
 
                         }
 
                         else
                         {
-                          return_value_strcasecmp$39=strcasecmp(cp, "server:max-requests");
-                          if(return_value_strcasecmp$39 == 0)
+                          return_value_strcasecmp_39=strcasecmp(cp, "server:max-requests");
+                          if(return_value_strcasecmp_39 == 0)
                           {
-                            signed int return_value_str2int$11;
-                            return_value_str2int$11=str2int(arg, &requests_max);
-                            if(!(return_value_str2int$11 >= 0))
+                            signed int return_value_str2int_11;
+                            return_value_str2int_11=str2int(arg, &requests_max);
+                            if(!(return_value_str2int_11 >= 0))
                               syslog(3, "%s: %d: invalid integer: %s", path, line, arg);
 
                           }
 
                           else
                           {
-                            return_value_strcasecmp$38=strcasecmp(cp, "protocol:extensions");
-                            if(return_value_strcasecmp$38 == 0)
+                            return_value_strcasecmp_38=strcasecmp(cp, "protocol:extensions");
+                            if(return_value_strcasecmp_38 == 0)
                             {
-                              signed int return_value_str2bool$12;
-                              return_value_str2bool$12=str2bool(arg, &extensions_enabled);
-                              if(!(return_value_str2bool$12 >= 0))
+                              signed int return_value_str2bool_12;
+                              return_value_str2bool_12=str2bool(arg, &extensions_enabled);
+                              if(!(return_value_str2bool_12 >= 0))
                                 syslog(3, "%s: %d: invalid bool: %s", path, line, arg);
 
                             }
 
                             else
                             {
-                              return_value_strcasecmp$37=strcasecmp(cp, "protocol:multiquery");
-                              if(return_value_strcasecmp$37 == 0)
+                              return_value_strcasecmp_37=strcasecmp(cp, "protocol:multiquery");
+                              if(return_value_strcasecmp_37 == 0)
                               {
-                                signed int return_value_str2bool$13;
-                                return_value_str2bool$13=str2bool(arg, &multiquery_enabled);
-                                if(!(return_value_str2bool$13 >= 0))
+                                signed int return_value_str2bool_13;
+                                return_value_str2bool_13=str2bool(arg, &multiquery_enabled);
+                                if(!(return_value_str2bool_13 >= 0))
                                   syslog(3, "%s: %d: invalid bool: %s", path, line, arg);
 
                               }
 
                               else
                               {
-                                return_value_strcasecmp$36=strcasecmp(cp, "protocol:timeout");
-                                if(return_value_strcasecmp$36 == 0)
+                                return_value_strcasecmp_36=strcasecmp(cp, "protocol:timeout");
+                                if(return_value_strcasecmp_36 == 0)
                                 {
-                                  signed int return_value_str2int$14;
-                                  return_value_str2int$14=str2int(arg, &request_timeout);
-                                  if(!(return_value_str2int$14 >= 0))
+                                  signed int return_value_str2int_14;
+                                  return_value_str2int_14=str2int(arg, &request_timeout);
+                                  if(!(return_value_str2int_14 >= 0))
                                     syslog(3, "%s: %d: invalid integer: %s", path, line, arg);
 
                                 }
 
                                 else
                                 {
-                                  return_value_strcasecmp$35=strcasecmp(cp, "result:noident");
-                                  if(return_value_strcasecmp$35 == 0)
+                                  return_value_strcasecmp_35=strcasecmp(cp, "result:noident");
+                                  if(return_value_strcasecmp_35 == 0)
                                   {
-                                    signed int return_value_str2bool$15;
-                                    return_value_str2bool$15=str2bool(arg, &noident_flag);
-                                    if(!(return_value_str2bool$15 >= 0))
+                                    signed int return_value_str2bool_15;
+                                    return_value_str2bool_15=str2bool(arg, &noident_flag);
+                                    if(!(return_value_str2bool_15 >= 0))
                                       syslog(3, "%s: %d: invalid bool: %s", path, line, arg);
 
                                   }
 
                                   else
                                   {
-                                    return_value_strcasecmp$34=strcasecmp(cp, "result:uid-only");
-                                    if(return_value_strcasecmp$34 == 0)
+                                    return_value_strcasecmp_34=strcasecmp(cp, "result:uid-only");
+                                    if(return_value_strcasecmp_34 == 0)
                                     {
-                                      signed int return_value_str2bool$16;
-                                      return_value_str2bool$16=str2bool(arg, &uidonly_flag);
-                                      if(!(return_value_str2bool$16 >= 0))
+                                      signed int return_value_str2bool_16;
+                                      return_value_str2bool_16=str2bool(arg, &uidonly_flag);
+                                      if(!(return_value_str2bool_16 >= 0))
                                         syslog(3, "%s: %d: invalid bool: %s", path, line, arg);
 
                                     }
 
                                     else
                                     {
-                                      return_value_strcasecmp$33=strcasecmp(cp, "result:encrypt");
-                                      if(return_value_strcasecmp$33 == 0)
+                                      return_value_strcasecmp_33=strcasecmp(cp, "result:encrypt");
+                                      if(return_value_strcasecmp_33 == 0)
                                       {
-                                        signed int return_value_str2bool$17;
-                                        return_value_str2bool$17=str2bool(arg, &encrypt_flag);
-                                        if(!(return_value_str2bool$17 >= 0))
+                                        signed int return_value_str2bool_17;
+                                        return_value_str2bool_17=str2bool(arg, &encrypt_flag);
+                                        if(!(return_value_str2bool_17 >= 0))
                                           syslog(3, "%s: %d: invalid bool: %s", path, line, arg);
 
                                       }
 
                                       else
                                       {
-                                        return_value_strcasecmp$32=strcasecmp(cp, "result:charset");
-                                        if(return_value_strcasecmp$32 == 0)
+                                        return_value_strcasecmp_32=strcasecmp(cp, "result:charset");
+                                        if(return_value_strcasecmp_32 == 0)
                                         {
-                                          signed int return_value_str2str$18;
-                                          return_value_str2str$18=str2str(arg, &charset);
-                                          if(!(return_value_str2str$18 >= 0))
+                                          signed int return_value_str2str_18;
+                                          return_value_str2str_18=str2str(arg, &charset);
+                                          if(!(return_value_str2str_18 >= 0))
                                             syslog(3, "%s: %d: invalid string: %s", path, line, arg);
 
                                         }
 
                                         else
                                         {
-                                          return_value_strcasecmp$31=strcasecmp(cp, "result:opsys");
-                                          if(return_value_strcasecmp$31 == 0)
+                                          return_value_strcasecmp_31=strcasecmp(cp, "result:opsys");
+                                          if(return_value_strcasecmp_31 == 0)
                                           {
-                                            signed int return_value_str2str$19;
-                                            return_value_str2str$19=str2str(arg, &opsys);
-                                            if(!(return_value_str2str$19 >= 0))
+                                            signed int return_value_str2str_19;
+                                            return_value_str2str_19=str2str(arg, &opsys);
+                                            if(!(return_value_str2str_19 >= 0))
                                               syslog(3, "%s: %d: invalid string: %s", path, line, arg);
 
                                           }
 
                                           else
                                           {
-                                            return_value_strcasecmp$30=strcasecmp(cp, "result:syslog-level");
-                                            if(return_value_strcasecmp$30 == 0)
+                                            return_value_strcasecmp_30=strcasecmp(cp, "result:syslog-level");
+                                            if(return_value_strcasecmp_30 == 0)
                                             {
                                               if(!(arg == ((char *)NULL)))
                                               {
-                                                return_value_strcasecmp$20=strcasecmp(arg, "none");
-                                                tmp_if_expr$21 = return_value_strcasecmp$20 == 0 ? (_Bool)1 : (_Bool)0;
+                                                return_value_strcasecmp_20=strcasecmp(arg, "none");
+                                                tmp_if_expr_21 = return_value_strcasecmp_20 == 0 ? (_Bool)1 : (_Bool)0;
                                               }
 
                                               else
-                                                tmp_if_expr$21 = (_Bool)0;
-                                              if(tmp_if_expr$21)
+                                                tmp_if_expr_21 = (_Bool)0;
+                                              if(tmp_if_expr_21)
                                                 result_syslog_level = -1;
 
                                               else
                                               {
-                                                signed int conf_parse$$1$$2$$20$$1$$code;
-                                                conf_parse$$1$$2$$20$$1$$code=syslog_str2lev(arg);
-                                                if(!(conf_parse$$1$$2$$20$$1$$code >= 0))
+                                                signed int conf_parse__1__2__20__1__code;
+                                                conf_parse__1__2__20__1__code=syslog_str2lev(arg);
+                                                if(!(conf_parse__1__2__20__1__code >= 0))
                                                   syslog(3, "%s: %d: invalid syslog level: %s", path, line, arg);
 
                                                 else
-                                                  result_syslog_level = conf_parse$$1$$2$$20$$1$$code;
+                                                  result_syslog_level = conf_parse__1__2__20__1__code;
                                               }
                                             }
 
                                             else
                                             {
-                                              return_value_strcasecmp$29=strcasecmp(cp, "kernel:threads");
-                                              if(return_value_strcasecmp$29 == 0)
+                                              return_value_strcasecmp_29=strcasecmp(cp, "kernel:threads");
+                                              if(return_value_strcasecmp_29 == 0)
                                               {
-                                                signed int return_value_str2int$22;
-                                                return_value_str2int$22=str2int(arg, &kernel_threads);
-                                                if(!(return_value_str2int$22 >= 0))
+                                                signed int return_value_str2int_22;
+                                                return_value_str2int_22=str2int(arg, &kernel_threads);
+                                                if(!(return_value_str2int_22 >= 0))
                                                   syslog(3, "%s: %d: invalid integer: %s", path, line, arg);
 
                                               }
 
                                               else
                                               {
-                                                return_value_strcasecmp$28=strcasecmp(cp, "kernel:attempts");
-                                                if(return_value_strcasecmp$28 == 0)
+                                                return_value_strcasecmp_28=strcasecmp(cp, "kernel:attempts");
+                                                if(return_value_strcasecmp_28 == 0)
                                                 {
-                                                  signed int return_value_str2int$23;
-                                                  return_value_str2int$23=str2int(arg, &kernel_attempts);
-                                                  if(!(return_value_str2int$23 >= 0))
+                                                  signed int return_value_str2int_23;
+                                                  return_value_str2int_23=str2int(arg, &kernel_attempts);
+                                                  if(!(return_value_str2int_23 >= 0))
                                                     syslog(3, "%s: %d: invalid integer: %s", path, line, arg);
 
                                                 }
 
                                                 else
                                                 {
-                                                  return_value_strcasecmp$27=strcasecmp(cp, "kernel:buffers");
-                                                  if(return_value_strcasecmp$27 == 0)
+                                                  return_value_strcasecmp_27=strcasecmp(cp, "kernel:buffers");
+                                                  if(return_value_strcasecmp_27 == 0)
                                                   {
-                                                    signed int return_value_str2int$24;
-                                                    return_value_str2int$24=str2int(arg, &kernel_buffers);
-                                                    if(!(return_value_str2int$24 >= 0))
+                                                    signed int return_value_str2int_24;
+                                                    return_value_str2int_24=str2int(arg, &kernel_buffers);
+                                                    if(!(return_value_str2int_24 >= 0))
                                                       syslog(3, "%s: %d: invalid integer: %s", path, line, arg);
 
                                                   }
 
                                                   else
                                                   {
-                                                    return_value_strcasecmp$26=strcasecmp(cp, "encrypt:key-file");
-                                                    if(return_value_strcasecmp$26 == 0)
+                                                    return_value_strcasecmp_26=strcasecmp(cp, "encrypt:key-file");
+                                                    if(return_value_strcasecmp_26 == 0)
                                                     {
-                                                      signed int return_value_str2str$25;
-                                                      return_value_str2str$25=str2str(arg, &encrypt_keyfile);
-                                                      if(!(return_value_str2str$25 >= 0))
+                                                      signed int return_value_str2str_25;
+                                                      return_value_str2str_25=str2str(arg, &encrypt_keyfile);
+                                                      if(!(return_value_str2str_25 >= 0))
                                                         syslog(3, "%s: %d: invalid string: %s", path, line, arg);
 
                                                     }
@@ -1994,37 +1994,37 @@ extern signed int conf_parse(const char *path, signed int silent)
 // file main.c line 94
 void drop_root_privs(void)
 {
-  unsigned int return_value_geteuid$1;
-  return_value_geteuid$1=geteuid();
-  signed int return_value_setgid$4;
-  signed int return_value_setuid$5;
-  if(return_value_geteuid$1 == 0u)
+  unsigned int return_value_geteuid_1;
+  return_value_geteuid_1=geteuid();
+  signed int return_value_setgid_4;
+  signed int return_value_setuid_5;
+  if(return_value_geteuid_1 == 0u)
   {
     if(server_uid == 4294967295u)
     {
-      signed int return_value_str2uid$2;
-      return_value_str2uid$2=str2uid("nobody", &server_uid, &server_gid);
-      if(!(return_value_str2uid$2 >= 0))
+      signed int return_value_str2uid_2;
+      return_value_str2uid_2=str2uid("nobody", &server_uid, &server_gid);
+      if(!(return_value_str2uid_2 >= 0))
         server_uid = (unsigned int)0;
 
     }
 
-    signed int return_value_setgroups$3;
-    return_value_setgroups$3=setgroups(1, &server_gid);
-    if(return_value_setgroups$3 >= 0)
+    signed int return_value_setgroups_3;
+    return_value_setgroups_3=setgroups(1, &server_gid);
+    if(return_value_setgroups_3 >= 0)
     {
       if(!(server_gid == 0u))
       {
-        return_value_setgid$4=setgid(server_gid);
-        if(!(return_value_setgid$4 >= 0))
+        return_value_setgid_4=setgid(server_gid);
+        if(!(return_value_setgid_4 >= 0))
           goto Error;
 
       }
 
       if(!(server_uid == 0u))
       {
-        return_value_setuid$5=setuid(server_uid);
-        if(!(return_value_setuid$5 >= 0))
+        return_value_setuid_5=setuid(server_uid);
+        if(!(return_value_setuid_5 >= 0))
           goto Error;
 
       }
@@ -2056,11 +2056,11 @@ static signed int handle_request(signed int fd, char *buf, struct sockaddr_in *r
   if(!(debug == 0))
     fprintf(stderr, "handle_request: fd#%d: '%s'\n", fd, buf);
 
-  signed int return_value_sscanf$4;
-  return_value_sscanf$4=sscanf(buf, " %d , %d", &local_port, &remote_port);
-  unsigned short int tmp_statement_expression$1;
-  unsigned short int tmp_statement_expression$3;
-  if(return_value_sscanf$4 == 2)
+  signed int return_value_sscanf_4;
+  return_value_sscanf_4=sscanf(buf, " %d , %d", &local_port, &remote_port);
+  unsigned short int tmp_statement_expression_1;
+  unsigned short int tmp_statement_expression_3;
+  if(return_value_sscanf_4 == 2)
   {
     if(local_port >= 65536 || remote_port >= 65536 || !(local_port >= 1) || !(remote_port >= 1))
     {
@@ -2072,24 +2072,24 @@ static signed int handle_request(signed int fd, char *buf, struct sockaddr_in *r
     kp->remote = *remote_addr;
     unsigned short int __v;
     unsigned short int __x = (unsigned short int)remote_port;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-    tmp_statement_expression$1 = __v;
-    kp->remote.sin_port = tmp_statement_expression$1;
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+    tmp_statement_expression_1 = __v;
+    kp->remote.sin_port = tmp_statement_expression_1;
     len = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
-    signed int return_value_s_getsockname$2;
-    return_value_s_getsockname$2=s_getsockname(fd, (struct sockaddr *)&kp->local, &len);
-    if(!(return_value_s_getsockname$2 >= 0))
+    signed int return_value_s_getsockname_2;
+    return_value_s_getsockname_2=s_getsockname(fd, (struct sockaddr *)&kp->local, &len);
+    if(!(return_value_s_getsockname_2 >= 0))
     {
       syslog(3, "s_getsockname(%d): %m", fd);
       kernel_free(kp);
       return -1;
     }
 
-    unsigned short int handle_request$$1$$1$$4$$__v;
-    unsigned short int handle_request$$1$$1$$4$$__x = (unsigned short int)local_port;
-    asm("rorw $8, %w0" : "=r"(handle_request$$1$$1$$4$$__v) : "0"(handle_request$$1$$1$$4$$__x) : "cc");
-    tmp_statement_expression$3 = handle_request$$1$$1$$4$$__v;
-    kp->local.sin_port = tmp_statement_expression$3;
+    unsigned short int handle_request__1__1__4____v;
+    unsigned short int handle_request__1__1__4____x = (unsigned short int)local_port;
+    asm("rorw _8, %w0" : "=r"(handle_request__1__1__4____v) : "0"(handle_request__1__1__4____x) : "cc");
+    tmp_statement_expression_3 = handle_request__1__1__4____v;
+    kp->local.sin_port = tmp_statement_expression_3;
     kernel_query(kp);
     if(!(debug == 0))
     {
@@ -2144,17 +2144,17 @@ static signed int handle_request(signed int fd, char *buf, struct sockaddr_in *r
     cmd=s_strtok_r(buf, " ", &bp);
     if(!(cmd == ((char *)NULL)))
     {
-      signed int return_value_strcasecmp$5;
-      return_value_strcasecmp$5=strcasecmp("version", cmd);
-      if(return_value_strcasecmp$5 == 0)
+      signed int return_value_strcasecmp_5;
+      return_value_strcasecmp_5=strcasecmp("version", cmd);
+      if(return_value_strcasecmp_5 == 0)
       {
         send_version(fd, remote_addr);
         return 0;
       }
 
-      signed int return_value_strcasecmp$6;
-      return_value_strcasecmp$6=strcasecmp("quit", cmd);
-      if(return_value_strcasecmp$6 == 0)
+      signed int return_value_strcasecmp_6;
+      return_value_strcasecmp_6=strcasecmp("quit", cmd);
+      if(return_value_strcasecmp_6 == 0)
         return -1;
 
     }
@@ -2172,11 +2172,11 @@ Fail:
 // file str2.c line 31
 extern signed int is_int(const char *p)
 {
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)(unsigned char)*p]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)(unsigned char)*p]) == 0)
       break;
 
     p = p + 1l;
@@ -2185,21 +2185,21 @@ extern signed int is_int(const char *p)
   if((signed int)*p == 45)
     p = p + 1l;
 
-  const unsigned short int **return_value___ctype_b_loc$2;
+  const unsigned short int **return_value___ctype_b_loc_2;
   do
   {
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)(unsigned char)*p]) == 0)
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)(unsigned char)*p]) == 0)
       break;
 
     p = p + 1l;
   }
   while((_Bool)1);
-  const unsigned short int **return_value___ctype_b_loc$3;
+  const unsigned short int **return_value___ctype_b_loc_3;
   do
   {
-    return_value___ctype_b_loc$3=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)(unsigned char)*p]) == 0)
+    return_value___ctype_b_loc_3=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)(unsigned char)*p]) == 0)
       break;
 
     p = p + 1l;
@@ -2236,35 +2236,35 @@ extern signed int ka_lookup(void *vp, struct kernel *kp)
   unsigned long int ino;
   struct kainfo *kip = (struct kainfo *)vp;
   kp->ruid = (unsigned int)-1;
-  signed int return_value_netlink_lookup$1;
-  unsigned short int tmp_statement_expression$2;
-  unsigned short int tmp_statement_expression$3;
-  char *return_value_fgets$5;
+  signed int return_value_netlink_lookup_1;
+  unsigned short int tmp_statement_expression_2;
+  unsigned short int tmp_statement_expression_3;
+  char *return_value_fgets_5;
   if(kip->nlfd >= 0)
   {
-    return_value_netlink_lookup$1=netlink_lookup(kip, kp);
-    return return_value_netlink_lookup$1;
+    return_value_netlink_lookup_1=netlink_lookup(kip, kp);
+    return return_value_netlink_lookup_1;
   }
 
   else
   {
     unsigned short int __v;
     unsigned short int __x = (unsigned short int)kp->remote.sin_port;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-    tmp_statement_expression$2 = __v;
-    r_rport = (signed int)tmp_statement_expression$2;
-    unsigned short int ka_lookup$$1$$2$$__v;
-    unsigned short int ka_lookup$$1$$2$$__x = (unsigned short int)kp->local.sin_port;
-    asm("rorw $8, %w0" : "=r"(ka_lookup$$1$$2$$__v) : "0"(ka_lookup$$1$$2$$__x) : "cc");
-    tmp_statement_expression$3 = ka_lookup$$1$$2$$__v;
-    r_lport = (signed int)tmp_statement_expression$3;
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+    tmp_statement_expression_2 = __v;
+    r_rport = (signed int)tmp_statement_expression_2;
+    unsigned short int ka_lookup__1__2____v;
+    unsigned short int ka_lookup__1__2____x = (unsigned short int)kp->local.sin_port;
+    asm("rorw _8, %w0" : "=r"(ka_lookup__1__2____v) : "0"(ka_lookup__1__2____x) : "cc");
+    tmp_statement_expression_3 = ka_lookup__1__2____v;
+    r_lport = (signed int)tmp_statement_expression_3;
     r_raddr = (signed long int)kp->remote.sin_addr.s_addr;
     r_laddr = (signed long int)kp->local.sin_addr.s_addr;
     fp = kip->proc_net_tcp;
     rewind(fp);
-    char *return_value_fgets$4;
-    return_value_fgets$4=fgets(buf, (signed int)(sizeof(char [512l]) /*512ul*/  - (unsigned long int)1), fp);
-    if(return_value_fgets$4 == ((char *)NULL))
+    char *return_value_fgets_4;
+    return_value_fgets_4=fgets(buf, (signed int)(sizeof(char [512l]) /*512ul*/  - (unsigned long int)1), fp);
+    if(return_value_fgets_4 == ((char *)NULL))
       return -1;
 
     else
@@ -2272,8 +2272,8 @@ extern signed int ka_lookup(void *vp, struct kernel *kp)
       status = 0;
       do
       {
-        return_value_fgets$5=fgets(buf, (signed int)(sizeof(char [512l]) /*512ul*/  - (unsigned long int)1), fp);
-        if(return_value_fgets$5 == ((char *)NULL))
+        return_value_fgets_5=fgets(buf, (signed int)(sizeof(char [512l]) /*512ul*/  - (unsigned long int)1), fp);
+        if(return_value_fgets_5 == ((char *)NULL))
           break;
 
         nra=sscanf(buf, "%d: %lX:%x %lX:%x %x %lX:%lX %x:%lX %lx %d %ld %lu", &dummy, &myladdr, &mylport, &myraddr, &myrport, &dummy, &dummy, &dummy, &dummy, &dummy, &dummy, &euid, &dummy, &ino);
@@ -2307,9 +2307,9 @@ extern signed int ka_lookup(void *vp, struct kernel *kp)
 extern signed int ka_open(void **misc)
 {
   struct kainfo *kp;
-  void *return_value_s_malloc$1;
-  return_value_s_malloc$1=s_malloc(sizeof(struct kainfo) /*16ul*/ );
-  kp = (struct kainfo *)return_value_s_malloc$1;
+  void *return_value_s_malloc_1;
+  return_value_s_malloc_1=s_malloc(sizeof(struct kainfo) /*16ul*/ );
+  kp = (struct kainfo *)return_value_s_malloc_1;
   kp->seq = (unsigned int)0;
   kp->nlfd=socket(16, 2, 4);
   if(!(kp->nlfd >= 0))
@@ -2338,9 +2338,9 @@ extern signed int ka_open(void **misc)
 extern struct kernel * kernel_alloc(void)
 {
   struct kernel *kp;
-  void *return_value_buffer_get$1;
-  return_value_buffer_get$1=buffer_get(&kbuf_free);
-  kp = (struct kernel *)return_value_buffer_get$1;
+  void *return_value_buffer_get_1;
+  return_value_buffer_get_1=buffer_get(&kbuf_free);
+  kp = (struct kernel *)return_value_buffer_get_1;
   avail_init(&kp->av);
   kp->status = -1;
   kp->euid = (unsigned int)-1;
@@ -2367,9 +2367,9 @@ extern signed int kernel_init(void)
   signed int i;
   unsigned long int tid;
   struct kernel *kp;
-  signed int return_value_buffer_init$1;
-  return_value_buffer_init$1=buffer_init(&kbuf_request, kernel_buffers);
-  if(!(return_value_buffer_init$1 >= 0))
+  signed int return_value_buffer_init_1;
+  return_value_buffer_init_1=buffer_init(&kbuf_request, kernel_buffers);
+  if(!(return_value_buffer_init_1 >= 0))
   {
     syslog(3, "buffer_create(%d) failed: %m", kernel_buffers);
     return -1;
@@ -2377,9 +2377,9 @@ extern signed int kernel_init(void)
 
   else
   {
-    signed int return_value_buffer_init$2;
-    return_value_buffer_init$2=buffer_init(&kbuf_free, kernel_buffers * 2);
-    if(!(return_value_buffer_init$2 >= 0))
+    signed int return_value_buffer_init_2;
+    return_value_buffer_init_2=buffer_init(&kbuf_free, kernel_buffers * 2);
+    if(!(return_value_buffer_init_2 >= 0))
     {
       syslog(3, "buffer_create(%d) failed: %m", kernel_buffers * 2);
       return -1;
@@ -2390,18 +2390,18 @@ extern signed int kernel_init(void)
       i = 0;
       for( ; !(i >= 2 * kernel_buffers); i = i + 1)
       {
-        void *return_value_s_malloc$3;
-        return_value_s_malloc$3=s_malloc(sizeof(struct kernel) /*160ul*/ );
-        kp = (struct kernel *)return_value_s_malloc$3;
+        void *return_value_s_malloc_3;
+        return_value_s_malloc_3=s_malloc(sizeof(struct kernel) /*160ul*/ );
+        kp = (struct kernel *)return_value_s_malloc_3;
         buffer_put(&kbuf_free, (void *)kp);
       }
       i = 0;
       for( ; !(i >= kernel_threads); i = i + 1)
       {
         void *key = (void *)0;
-        signed int return_value_ka_open$4;
-        return_value_ka_open$4=ka_open(&key);
-        if(!(return_value_ka_open$4 >= 0))
+        signed int return_value_ka_open_4;
+        return_value_ka_open_4=ka_open(&key);
+        if(!(return_value_ka_open_4 >= 0))
           return -1;
 
         pthread_create(&tid, (const union pthread_attr_t *)(void *)0, kernel_thread, key);
@@ -2429,41 +2429,41 @@ static void * kernel_thread(void *vp)
   if(!(debug == 0))
     fprintf(stderr, "kernel_thread() started\n");
 
-  void *return_value_buffer_get$1;
-  unsigned short int tmp_statement_expression$3;
-  unsigned short int tmp_statement_expression$5;
-  signed int tmp_post$6;
+  void *return_value_buffer_get_1;
+  unsigned short int tmp_statement_expression_3;
+  unsigned short int tmp_statement_expression_5;
+  signed int tmp_post_6;
   do
   {
-    return_value_buffer_get$1=buffer_get(&kbuf_request);
-    kp = (struct kernel *)return_value_buffer_get$1;
+    return_value_buffer_get_1=buffer_get(&kbuf_request);
+    kp = (struct kernel *)return_value_buffer_get_1;
     if(kp == ((struct kernel *)NULL))
       break;
 
     if(!(debug == 0))
     {
-      const char *return_value_s_inet_ntox$2;
-      return_value_s_inet_ntox$2=s_inet_ntox(&kp->remote, buf1, sizeof(char [32l]) /*32ul*/ );
+      const char *return_value_s_inet_ntox_2;
+      return_value_s_inet_ntox_2=s_inet_ntox(&kp->remote, buf1, sizeof(char [32l]) /*32ul*/ );
       unsigned short int __v;
       unsigned short int __x = (unsigned short int)kp->remote.sin_port;
-      asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-      tmp_statement_expression$3 = __v;
-      fprintf(stderr, "remote = %s:%d\n", return_value_s_inet_ntox$2, tmp_statement_expression$3);
-      const char *return_value_s_inet_ntox$4;
-      return_value_s_inet_ntox$4=s_inet_ntox(&kp->local, buf1, sizeof(char [32l]) /*32ul*/ );
-      unsigned short int kernel_thread$$1$$1$$1$$2$$__v;
-      unsigned short int kernel_thread$$1$$1$$1$$2$$__x = (unsigned short int)kp->local.sin_port;
-      asm("rorw $8, %w0" : "=r"(kernel_thread$$1$$1$$1$$2$$__v) : "0"(kernel_thread$$1$$1$$1$$2$$__x) : "cc");
-      tmp_statement_expression$5 = kernel_thread$$1$$1$$1$$2$$__v;
-      fprintf(stderr, "local = %s:%d\n", return_value_s_inet_ntox$4, tmp_statement_expression$5);
+      asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+      tmp_statement_expression_3 = __v;
+      fprintf(stderr, "remote = %s:%d\n", return_value_s_inet_ntox_2, tmp_statement_expression_3);
+      const char *return_value_s_inet_ntox_4;
+      return_value_s_inet_ntox_4=s_inet_ntox(&kp->local, buf1, sizeof(char [32l]) /*32ul*/ );
+      unsigned short int kernel_thread__1__1__1__2____v;
+      unsigned short int kernel_thread__1__1__1__2____x = (unsigned short int)kp->local.sin_port;
+      asm("rorw _8, %w0" : "=r"(kernel_thread__1__1__1__2____v) : "0"(kernel_thread__1__1__1__2____x) : "cc");
+      tmp_statement_expression_5 = kernel_thread__1__1__1__2____v;
+      fprintf(stderr, "local = %s:%d\n", return_value_s_inet_ntox_4, tmp_statement_expression_5);
     }
 
     attempt = 0;
     do
     {
-      tmp_post$6 = attempt;
+      tmp_post_6 = attempt;
       attempt = attempt + 1;
-      if(tmp_post$6 >= kernel_attempts)
+      if(tmp_post_6 >= kernel_attempts)
         break;
 
       kp->status=ka_lookup(vp, kp);
@@ -2525,12 +2525,12 @@ signed int main(signed int argc, char **argv)
     listen_sock = 0;
 
   conf_parse("/etc/identd.conf", 1);
-  signed int return_value_str2port$1;
-  signed int return_value_str2int$2;
-  signed int return_value_str2gid$3;
-  signed int return_value_str2uid$4;
-  signed int return_value_conf_parse$5;
-  signed int return_value_str2int$6;
+  signed int return_value_str2port_1;
+  signed int return_value_str2int_2;
+  signed int return_value_str2gid_3;
+  signed int return_value_str2uid_4;
+  signed int return_value_conf_parse_5;
+  signed int return_value_str2int_6;
   do
   {
     c=getopt(argc, argv, "lNVEdhbwiIemnop:u:g:t:C:P:K:L:");
@@ -2601,8 +2601,8 @@ signed int main(signed int argc, char **argv)
       }
       case 112:
       {
-        return_value_str2port$1=str2port(optarg, &listen_port);
-        if(!(return_value_str2port$1 >= 0))
+        return_value_str2port_1=str2port(optarg, &listen_port);
+        if(!(return_value_str2port_1 >= 0))
         {
           syslog(3, "invalid argument to '-p': %s", optarg);
           if(socket_type == 0 || socket_type == -1)
@@ -2615,8 +2615,8 @@ signed int main(signed int argc, char **argv)
       }
       case 116:
       {
-        return_value_str2int$2=str2int(optarg, &request_timeout);
-        if(!(return_value_str2int$2 >= 0))
+        return_value_str2int_2=str2int(optarg, &request_timeout);
+        if(!(return_value_str2int_2 >= 0))
         {
           syslog(3, "invalid argument to '-t': %s", optarg);
           if(socket_type == 0 || socket_type == -1)
@@ -2629,8 +2629,8 @@ signed int main(signed int argc, char **argv)
       }
       case 103:
       {
-        return_value_str2gid$3=str2gid(optarg, &server_gid);
-        if(!(return_value_str2gid$3 >= 0))
+        return_value_str2gid_3=str2gid(optarg, &server_gid);
+        if(!(return_value_str2gid_3 >= 0))
         {
           syslog(3, "invalid argument to '-g': %s", optarg);
           if(socket_type == 0 || socket_type == -1)
@@ -2643,8 +2643,8 @@ signed int main(signed int argc, char **argv)
       }
       case 117:
       {
-        return_value_str2uid$4=str2uid(optarg, &server_uid, &server_gid);
-        if(!(return_value_str2uid$4 >= 0))
+        return_value_str2uid_4=str2uid(optarg, &server_uid, &server_gid);
+        if(!(return_value_str2uid_4 >= 0))
         {
           syslog(3, "invalid argument to '-u': %s", optarg);
           if(socket_type == 0 || socket_type == -1)
@@ -2673,8 +2673,8 @@ signed int main(signed int argc, char **argv)
       }
       case 67:
       {
-        return_value_conf_parse$5=conf_parse(optarg, 0);
-        if(!(return_value_conf_parse$5 >= 0))
+        return_value_conf_parse_5=conf_parse(optarg, 0);
+        if(!(return_value_conf_parse_5 >= 0))
         {
           if(socket_type == 0 || socket_type == -1)
             fprintf(stderr, "%s: error parsing config file: %s\n", argv[(signed long int)0], optarg);
@@ -2691,8 +2691,8 @@ signed int main(signed int argc, char **argv)
       }
       case 75:
       {
-        return_value_str2int$6=str2int(optarg, &kernel_threads);
-        if(!(return_value_str2int$6 >= 0))
+        return_value_str2int_6=str2int(optarg, &kernel_threads);
+        if(!(return_value_str2int_6 >= 0))
         {
           syslog(3, "invalid argument to '-K': %s", optarg);
           if(socket_type == 0 || socket_type == -1)
@@ -2733,8 +2733,8 @@ signed int main(signed int argc, char **argv)
   if(!(debug == 0))
     program_header(stderr);
 
-  signed int return_value_getppid$8;
-  signed int return_value_request_run$12;
+  signed int return_value_getppid_8;
+  signed int return_value_request_run_12;
   if(socket_type == -1)
   {
     syslog(3, "unable to autodetect socket type");
@@ -2744,9 +2744,9 @@ signed int main(signed int argc, char **argv)
 
   else
   {
-    signed int return_value_ka_init$7;
-    return_value_ka_init$7=ka_init();
-    if(!(return_value_ka_init$7 == 0))
+    signed int return_value_ka_init_7;
+    return_value_ka_init_7=ka_init();
+    if(!(return_value_ka_init_7 == 0))
     {
       syslog(3, "OS version mismatch - compiled for %s", (const void *)osinfo_build);
       if(socket_type == 0)
@@ -2759,8 +2759,8 @@ signed int main(signed int argc, char **argv)
     {
       if(debug == 0)
       {
-        return_value_getppid$8=getppid();
-        if(!(return_value_getppid$8 == 1))
+        return_value_getppid_8=getppid();
+        if(!(return_value_getppid_8 == 1))
         {
           if(init_mode == 0)
           {
@@ -2792,9 +2792,9 @@ signed int main(signed int argc, char **argv)
         if(!(listen_sock >= 0))
           request_timeout = 0;
 
-        signed int return_value_server_init$9;
-        return_value_server_init$9=server_init();
-        if(!(return_value_server_init$9 >= 0))
+        signed int return_value_server_init_9;
+        return_value_server_init_9=server_init();
+        if(!(return_value_server_init_9 >= 0))
         {
           if(!(debug == 0))
             fprintf(stderr, "%s: failed binding to the TCP/IP socket\n", argv[(signed long int)0]);
@@ -2806,9 +2806,9 @@ signed int main(signed int argc, char **argv)
 
       if(!(encrypt_flag == 0))
       {
-        signed int return_value_pdes_init$10;
-        return_value_pdes_init$10=pdes_init(encrypt_keyfile);
-        if(!(return_value_pdes_init$10 >= 0))
+        signed int return_value_pdes_init_10;
+        return_value_pdes_init_10=pdes_init(encrypt_keyfile);
+        if(!(return_value_pdes_init_10 >= 0))
         {
           syslog(3, "encryption could not be initalized: %m");
           if(!(debug == 0))
@@ -2823,9 +2823,9 @@ signed int main(signed int argc, char **argv)
       }
 
       drop_root_privs();
-      signed int return_value_kernel_init$11;
-      return_value_kernel_init$11=kernel_init();
-      if(!(return_value_kernel_init$11 >= 0))
+      signed int return_value_kernel_init_11;
+      return_value_kernel_init_11=kernel_init();
+      if(!(return_value_kernel_init_11 >= 0))
       {
         if(!(debug == 0))
           fprintf(stderr, "%s: failed opening kernel devices\n", argv[(signed long int)0]);
@@ -2846,8 +2846,8 @@ signed int main(signed int argc, char **argv)
 
         else
         {
-          return_value_request_run$12=request_run(listen_sock, 1);
-          return return_value_request_run$12;
+          return_value_request_run_12=request_run(listen_sock, 1);
+          return return_value_request_run_12;
         }
       }
 
@@ -2865,7 +2865,7 @@ static signed int netlink_lookup(struct kainfo *kip, struct kernel *kp)
 {
   signed int status;
   /* tag-#anon#lUN[lSYM#tag-inet_diag_req#'req'||lSYM#tag-inet_diag_msg#'rsp'|] */
-union anonymous$3
+union anonymous_3
 {
   // req
   struct inet_diag_req req;
@@ -2876,19 +2876,19 @@ union anonymous$3
 /* */
   ;
   /* tag-#anon#lST[lSYM#tag-nlmsghdr#'nlh'||lSYM#tag-#anon#lUN[lSYM#tag-inet_diag_req#'req'||lSYM#tag-inet_diag_msg#'rsp'|]#'u'|] */
-struct anonymous$4
+struct anonymous_4
 {
   // nlh
   struct nlmsghdr nlh;
   // u
-  union anonymous$3 u;
+  union anonymous_3 u;
 };
 
 /* */
   ;
-  struct anonymous$4 buf;
+  struct anonymous_4 buf;
   struct sockaddr_nl addr;
-  memset(&buf, 0, sizeof(struct anonymous$4) /*88ul*/ );
+  memset(&buf, 0, sizeof(struct anonymous_4) /*88ul*/ );
   buf.nlh.nlmsg_len = (unsigned int)((sizeof(struct inet_diag_req) /*60ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1));
   buf.nlh.nlmsg_type = (unsigned short int)18;
   buf.nlh.nlmsg_flags = (unsigned short int)1;
@@ -2901,10 +2901,10 @@ struct anonymous$4
   buf.u.req.id.idiag_src[(signed long int)0] = kp->local.sin_addr.s_addr;
   buf.u.req.id.idiag_cookie[(signed long int)0] = ~0U;
   buf.u.req.id.idiag_cookie[(signed long int)1] = ~0U;
-  signed long int return_value_write$1;
-  return_value_write$1=write(kip->nlfd, (const void *)&buf, (unsigned long int)buf.nlh.nlmsg_len);
-  status = (signed int)return_value_write$1;
-  _Bool tmp_if_expr$2;
+  signed long int return_value_write_1;
+  return_value_write_1=write(kip->nlfd, (const void *)&buf, (unsigned long int)buf.nlh.nlmsg_len);
+  status = (signed int)return_value_write_1;
+  _Bool tmp_if_expr_2;
   if(!(status >= 0))
   {
     syslog(3, "netlink_lookup: write failed: %m");
@@ -2916,14 +2916,14 @@ struct anonymous$4
     do
     {
       unsigned int alen = (unsigned int)sizeof(struct sockaddr_nl) /*12ul*/ ;
-      signed long int return_value_recvfrom$3;
-      return_value_recvfrom$3=recvfrom(kip->nlfd, (void *)&buf, sizeof(struct anonymous$4) /*88ul*/ , 0, (struct sockaddr *)(void *)&addr, &alen);
-      status = (signed int)return_value_recvfrom$3;
+      signed long int return_value_recvfrom_3;
+      return_value_recvfrom_3=recvfrom(kip->nlfd, (void *)&buf, sizeof(struct anonymous_4) /*88ul*/ , 0, (struct sockaddr *)(void *)&addr, &alen);
+      status = (signed int)return_value_recvfrom_3;
       if(!(status >= 0))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        if(*return_value___errno_location$4 == 105)
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        if(*return_value___errno_location_4 == 105)
           return -1;
 
         syslog(3, "netlink_lookup: recvfrom failed: %m");
@@ -2931,12 +2931,12 @@ struct anonymous$4
       }
 
       if(!(addr.nl_pid == 0u))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = buf.nlh.nlmsg_seq != kip->seq ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = buf.nlh.nlmsg_seq != kip->seq ? (_Bool)1 : (_Bool)0;
     }
-    while(tmp_if_expr$2);
+    while(tmp_if_expr_2);
     if(!((signed int)buf.nlh.nlmsg_type == 18))
       return 0;
 
@@ -2957,9 +2957,9 @@ struct anonymous$4
 extern char * osinfo_get(char *buf)
 {
   struct utsname ub;
-  signed int return_value_uname$1;
-  return_value_uname$1=uname(&ub);
-  if(!(return_value_uname$1 >= 0))
+  signed int return_value_uname_1;
+  return_value_uname_1=uname(&ub);
+  if(!(return_value_uname_1 >= 0))
     return (char *)(void *)0;
 
   else
@@ -2977,30 +2977,30 @@ extern signed int pdes_encrypt(struct kernel *kp, char *result)
   signed int i;
   signed int j;
   signed long int bt;
-  signed long int return_value_s_random$1;
-  return_value_s_random$1=s_random();
-  r.fields.random = (unsigned short int)return_value_s_random$1;
-  unsigned short int tmp_statement_expression$2;
-  unsigned short int tmp_statement_expression$3;
+  signed long int return_value_s_random_1;
+  return_value_s_random_1=s_random();
+  r.fields.random = (unsigned short int)return_value_s_random_1;
+  unsigned short int tmp_statement_expression_2;
+  unsigned short int tmp_statement_expression_3;
   if(kp->ruid == 4294967295u)
   {
     unsigned short int __v;
     unsigned short int __x = (unsigned short int)kp->euid;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-    tmp_statement_expression$2 = __v;
-    r.fields.uid = tmp_statement_expression$2;
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+    tmp_statement_expression_2 = __v;
+    r.fields.uid = tmp_statement_expression_2;
   }
 
   else
   {
-    unsigned short int pdes_encrypt$$1$$2$$__v;
-    unsigned short int pdes_encrypt$$1$$2$$__x = (unsigned short int)kp->ruid;
-    asm("rorw $8, %w0" : "=r"(pdes_encrypt$$1$$2$$__v) : "0"(pdes_encrypt$$1$$2$$__x) : "cc");
-    tmp_statement_expression$3 = pdes_encrypt$$1$$2$$__v;
-    r.fields.uid = tmp_statement_expression$3;
+    unsigned short int pdes_encrypt__1__2____v;
+    unsigned short int pdes_encrypt__1__2____x = (unsigned short int)kp->ruid;
+    asm("rorw _8, %w0" : "=r"(pdes_encrypt__1__2____v) : "0"(pdes_encrypt__1__2____x) : "cc");
+    tmp_statement_expression_3 = pdes_encrypt__1__2____v;
+    r.fields.uid = tmp_statement_expression_3;
   }
   time(&bt);
-  r.fields.date=__bswap_32$link1((unsigned int)bt);
+  r.fields.date=__bswap_32_link1((unsigned int)bt);
   r.fields.ip_local = kp->local.sin_addr.s_addr;
   r.fields.ip_remote = kp->remote.sin_addr.s_addr;
   r.fields.port_local = kp->local.sin_port;
@@ -3040,38 +3040,38 @@ extern signed int pdes_init(char *keyfile)
   unsigned char key_bin[8l];
   if(keyfile == ((char *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
   fd=s_open(keyfile, 00);
-  signed long int return_value_s_read$4;
+  signed long int return_value_s_read_4;
   if(!(fd >= 0))
     return -1;
 
   else
   {
-    signed long int return_value_s_read$2;
-    return_value_s_read$2=s_read(fd, keybuf, sizeof(char [1025l]) /*1025ul*/  - (unsigned long int)1);
-    res = (signed int)return_value_s_read$2;
+    signed long int return_value_s_read_2;
+    return_value_s_read_2=s_read(fd, keybuf, sizeof(char [1025l]) /*1025ul*/  - (unsigned long int)1);
+    res = (signed int)return_value_s_read_2;
     if(!((unsigned long int)res == 1024ul))
     {
       if(!(debug == 0))
         fprintf(stderr, "pdes: First key was not complete (%d bytes)\n", res);
 
       s_close(fd);
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = 22;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = 22;
       return -1;
     }
 
     do
     {
-      return_value_s_read$4=s_read(fd, keybuf, sizeof(char [1025l]) /*1025ul*/  - (unsigned long int)1);
-      res = (signed int)return_value_s_read$4;
+      return_value_s_read_4=s_read(fd, keybuf, sizeof(char [1025l]) /*1025ul*/  - (unsigned long int)1);
+      res = (signed int)return_value_s_read_4;
       if(!((unsigned long int)res == 1024ul))
         break;
 
@@ -3083,9 +3083,9 @@ extern signed int pdes_init(char *keyfile)
       if(!(debug == 0))
         fprintf(stderr, "pdes: Last key was not complete (%d bytes)\n", res);
 
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      *return_value___errno_location$5 = 22;
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      *return_value___errno_location_5 = 22;
       return -1;
     }
 
@@ -3103,23 +3103,23 @@ extern void pidfile_create(const char *path)
   signed int fd;
   char buf[64l];
   fd=s_open(path, 01 | 0100 | 01000, 0644);
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
   if(!(fd >= 0))
     syslog(3, "s_open(\"%s\", O_WRONLY): %m", path);
 
   else
   {
-    signed int return_value_getpid$1;
-    return_value_getpid$1=getpid();
-    s_snprintf(buf, sizeof(char [64l]) /*64ul*/ , "%ld\n", (signed long int)return_value_getpid$1);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(buf);
-    signed long int return_value_s_write$4;
-    return_value_s_write$4=s_write(fd, buf, return_value_strlen$3);
-    if(!(return_value_s_write$4 >= 0l))
+    signed int return_value_getpid_1;
+    return_value_getpid_1=getpid();
+    s_snprintf(buf, sizeof(char [64l]) /*64ul*/ , "%ld\n", (signed long int)return_value_getpid_1);
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(buf);
+    signed long int return_value_s_write_4;
+    return_value_s_write_4=s_write(fd, buf, return_value_strlen_3);
+    if(!(return_value_s_write_4 >= 0l))
     {
-      return_value_strlen$2=strlen(buf);
-      syslog(3, "s_write(fd, ..., %d): %m", fd, return_value_strlen$2);
+      return_value_strlen_2=strlen(buf);
+      syslog(3, "s_write(fd, ..., %d): %m", fd, return_value_strlen_2);
     }
 
     s_close(fd);
@@ -3138,10 +3138,10 @@ static void program_header(struct _IO_FILE *fp)
 static void random_lock_init(void)
 {
   unsigned int seed;
-  pthread_mutex_init(&random_lock, (const union anonymous$1 *)(void *)0);
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
-  seed = (unsigned int)return_value_time$1;
+  pthread_mutex_init(&random_lock, (const union anonymous_1 *)(void *)0);
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
+  seed = (unsigned int)return_value_time_1;
   srandom(seed);
 }
 
@@ -3149,8 +3149,8 @@ static void random_lock_init(void)
 // file request.h line 34
 extern signed int request_init(void)
 {
-  pthread_mutex_init(&requests_mtx, (const union anonymous$1 *)(void *)0);
-  pthread_cond_init(&requests_cv, (const union anonymous$1 *)(void *)0);
+  pthread_mutex_init(&requests_mtx, (const union anonymous_1 *)(void *)0);
+  pthread_cond_init(&requests_cv, (const union anonymous_1 *)(void *)0);
   requests_cur = 0;
   return 0;
 }
@@ -3161,14 +3161,14 @@ extern signed int request_run(signed int fd, signed int nofork)
 {
   struct request *rip;
   unsigned long int tid;
-  void *return_value_s_malloc$1;
-  return_value_s_malloc$1=s_malloc(sizeof(struct request) /*24ul*/ );
-  rip = (struct request *)return_value_s_malloc$1;
+  void *return_value_s_malloc_1;
+  return_value_s_malloc_1=s_malloc(sizeof(struct request) /*24ul*/ );
+  rip = (struct request *)return_value_s_malloc_1;
   rip->fd = fd;
   rip->addr_len = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
-  signed int return_value_s_getpeername$2;
-  return_value_s_getpeername$2=s_getpeername(fd, (struct sockaddr *)&rip->addr, &rip->addr_len);
-  if(!(return_value_s_getpeername$2 >= 0))
+  signed int return_value_s_getpeername_2;
+  return_value_s_getpeername_2=s_getpeername(fd, (struct sockaddr *)&rip->addr, &rip->addr_len);
+  if(!(return_value_s_getpeername_2 >= 0))
   {
     syslog(3, "s_getpeername(%d): %m", fd);
     s_free((void *)rip);
@@ -3195,9 +3195,9 @@ extern signed int request_run(signed int fd, signed int nofork)
         pthread_mutex_unlock(&requests_mtx);
       }
 
-      signed int return_value_pthread_create$3;
-      return_value_pthread_create$3=pthread_create(&tid, &cattr_detached, request_thread, (void *)rip);
-      if(!(return_value_pthread_create$3 >= 0))
+      signed int return_value_pthread_create_3;
+      return_value_pthread_create_3=pthread_create(&tid, &cattr_detached, request_thread, (void *)rip);
+      if(!(return_value_pthread_create_3 >= 0))
       {
         syslog(3, "pthread_create(request_thread) failed: %m");
         return 1;
@@ -3226,9 +3226,9 @@ extern void * request_thread(void *vp)
   if(request_timeout >= 1)
     tp=timeout_create(request_timeout, timeout_handler, (void *)rp);
 
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  const unsigned short int **return_value___ctype_b_loc$4;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  const unsigned short int **return_value___ctype_b_loc_4;
   while((_Bool)1)
   {
     if(len >= 1023ul)
@@ -3242,9 +3242,9 @@ extern void * request_thread(void *vp)
     {
       if(!(debug == 0))
       {
-        return_value___errno_location$1=__errno_location();
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        fprintf(stderr, "request_thread: read(%d, ..., %d) failed: %s", rp->fd, (sizeof(char [1024l]) /*1024ul*/  - len) - (unsigned long int)1, return_value_strerror$2);
+        return_value___errno_location_1=__errno_location();
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        fprintf(stderr, "request_thread: read(%d, ..., %d) failed: %s", rp->fd, (sizeof(char [1024l]) /*1024ul*/  - len) - (unsigned long int)1, return_value_strerror_2);
       }
 
       break;
@@ -3273,9 +3273,9 @@ extern void * request_thread(void *vp)
       if(got >= 1l || pos >= 1l)
       {
         buf[pos] = (char)0;
-        signed int return_value_handle_request$3;
-        return_value_handle_request$3=handle_request(rp->fd, buf, &rp->addr);
-        if(!(return_value_handle_request$3 == 0))
+        signed int return_value_handle_request_3;
+        return_value_handle_request_3=handle_request(rp->fd, buf, &rp->addr);
+        if(!(return_value_handle_request_3 == 0))
           break;
 
         if(multiquery_enabled == 0)
@@ -3289,8 +3289,8 @@ extern void * request_thread(void *vp)
 
       for( ; !((unsigned long int)pos >= len); pos = pos + 1l)
       {
-        return_value___ctype_b_loc$4=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)(unsigned char)buf[pos]]) == 0)
+        return_value___ctype_b_loc_4=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)(unsigned char)buf[pos]]) == 0)
           break;
 
       }
@@ -3343,15 +3343,15 @@ extern void s_abort(void)
 extern signed int s_accept(signed int fd, struct sockaddr *sin, unsigned int *len)
 {
   signed int new_fd;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
     new_fd=accept(fd, sin, len);
     if(new_fd >= 0)
       break;
 
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 4))
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 4))
       break;
 
   }
@@ -3364,15 +3364,15 @@ extern signed int s_accept(signed int fd, struct sockaddr *sin, unsigned int *le
 extern signed int s_close(signed int fd)
 {
   signed int code;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
     code=close(fd);
     if(code >= 0)
       break;
 
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 4))
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 4))
       break;
 
   }
@@ -3394,15 +3394,15 @@ extern void s_free(void *p)
 extern signed int s_getpeername(signed int fd, struct sockaddr *sin, unsigned int *len)
 {
   signed int code;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
     code=getpeername(fd, sin, len);
     if(code >= 0)
       break;
 
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 4))
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 4))
       break;
 
   }
@@ -3451,15 +3451,15 @@ extern signed int s_getpwuid_r(unsigned int uid, struct passwd *pwd, char *buffe
 extern signed int s_getsockname(signed int fd, struct sockaddr *sin, unsigned int *len)
 {
   signed int code;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
     code=getsockname(fd, sin, len);
     if(code >= 0)
       break;
 
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 4))
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 4))
       break;
 
   }
@@ -3472,9 +3472,9 @@ extern signed int s_getsockname(signed int fd, struct sockaddr *sin, unsigned in
 extern const char * s_inet_ntox(struct sockaddr_in *ia, char *buf, unsigned long int bufsize)
 {
   unsigned char *bp = (unsigned char *)(char *)&ia->sin_addr;
-  signed int return_value_s_snprintf$1;
-  return_value_s_snprintf$1=s_snprintf(buf, bufsize, "%u.%u.%u.%u", bp[(signed long int)0], bp[(signed long int)1], bp[(signed long int)2], bp[(signed long int)3]);
-  if(!(return_value_s_snprintf$1 >= 0))
+  signed int return_value_s_snprintf_1;
+  return_value_s_snprintf_1=s_snprintf(buf, bufsize, "%u.%u.%u.%u", bp[(signed long int)0], bp[(signed long int)1], bp[(signed long int)2], bp[(signed long int)3]);
+  if(!(return_value_s_snprintf_1 >= 0))
     return (const char *)(void *)0;
 
   else
@@ -3486,9 +3486,9 @@ extern const char * s_inet_ntox(struct sockaddr_in *ia, char *buf, unsigned long
 extern void * s_malloc(unsigned long int size)
 {
   void *p;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(size);
-  p = (void *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(size);
+  p = (void *)return_value_malloc_1;
   if(p == NULL)
   {
     if(!(debug == 0))
@@ -3512,60 +3512,60 @@ extern signed int s_open(const char *path, signed int oflag, ...)
   {
     __builtin_va_list ap;
     va_start(ap, oflag);
-    signed int return_value_gcc_builtin_va_arg$1;
-    return_value_gcc_builtin_va_arg$1=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$1));
-    mode = (unsigned int)return_value_gcc_builtin_va_arg$1;
+    signed int return_value_gcc_builtin_va_arg_1;
+    return_value_gcc_builtin_va_arg_1=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_1));
+    mode = (unsigned int)return_value_gcc_builtin_va_arg_1;
     va_end(ap);
   }
 
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   do
   {
     s=open(path, oflag, mode);
     if(s >= 0)
       break;
 
-    return_value___errno_location$2=__errno_location();
-    if(!(*return_value___errno_location$2 == 4))
+    return_value___errno_location_2=__errno_location();
+    if(!(*return_value___errno_location_2 == 4))
       break;
 
   }
   while((_Bool)1);
-  signed int *return_value___errno_location$3;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
-  _Bool tmp_if_expr$7;
-  signed int *return_value___errno_location$6;
-  _Bool tmp_if_expr$9;
-  signed int *return_value___errno_location$8;
+  signed int *return_value___errno_location_3;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
+  _Bool tmp_if_expr_7;
+  signed int *return_value___errno_location_6;
+  _Bool tmp_if_expr_9;
+  signed int *return_value___errno_location_8;
   if(!(s >= 0))
   {
-    return_value___errno_location$3=__errno_location();
-    if(*return_value___errno_location$3 == 24)
-      tmp_if_expr$5 = (_Bool)1;
+    return_value___errno_location_3=__errno_location();
+    if(*return_value___errno_location_3 == 24)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$4=__errno_location();
-      tmp_if_expr$5 = *return_value___errno_location$4 == 23 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_4=__errno_location();
+      tmp_if_expr_5 = *return_value___errno_location_4 == 23 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
-      tmp_if_expr$7 = (_Bool)1;
+    if(tmp_if_expr_5)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$6=__errno_location();
-      tmp_if_expr$7 = *return_value___errno_location$6 == 12 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_6=__errno_location();
+      tmp_if_expr_7 = *return_value___errno_location_6 == 12 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
-      tmp_if_expr$9 = (_Bool)1;
+    if(tmp_if_expr_7)
+      tmp_if_expr_9 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$8=__errno_location();
-      tmp_if_expr$9 = *return_value___errno_location$8 == 63 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_8=__errno_location();
+      tmp_if_expr_9 = *return_value___errno_location_8 == 63 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$9)
+    if(tmp_if_expr_9)
       syslog(4, "s_open(\"%s\", 0%o): %m", path, oflag);
 
   }
@@ -3585,15 +3585,15 @@ extern void s_openlog(const char *ident, signed int logopt, signed int facility)
 extern signed int s_poll(struct pollfd *ufds, unsigned int nfds, signed int timeout)
 {
   signed int code;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
     code=poll(ufds, (unsigned long int)nfds, timeout);
     if(!(code == -1))
       break;
 
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 4))
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 4))
       break;
 
   }
@@ -3618,15 +3618,15 @@ extern signed long int s_random(void)
 extern signed long int s_read(signed int fd, char *buf, unsigned long int len)
 {
   signed long int code;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
     code=read(fd, (void *)buf, len);
     if(code >= 0l)
       break;
 
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 4))
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 4))
       break;
 
   }
@@ -3704,12 +3704,12 @@ extern char * s_strdup(const char *s)
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(s);
-    len = return_value_strlen$1 + (unsigned long int)1;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(len);
-    ns = (char *)return_value_malloc$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(s);
+    len = return_value_strlen_1 + (unsigned long int)1;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(len);
+    ns = (char *)return_value_malloc_2;
     if(ns == ((char *)NULL))
     {
       syslog(3, "strdup(): malloc(%lu): %m", (unsigned long int)len);
@@ -3726,10 +3726,10 @@ extern char * s_strdup(const char *s)
 extern char * s_strtok_r(char *s, const char *d, char **bp)
 {
   char *cp;
-  unsigned long int tmp_statement_expression$1;
-  char *tmp_statement_expression$3;
-  void *return_value___rawmemchr$5;
-  char *tmp_post$6;
+  unsigned long int tmp_statement_expression_1;
+  char *tmp_statement_expression_3;
+  void *return_value___rawmemchr_5;
+  char *tmp_post_6;
   if(bp == ((char **)NULL) || d == ((const char *)NULL))
     return (char *)(void *)0;
 
@@ -3744,36 +3744,36 @@ extern char * s_strtok_r(char *s, const char *d, char **bp)
     else
     {
       char __a0;
-      char s_strtok_r$$1$$1$$__a1;
-      char s_strtok_r$$1$$1$$__a2;
-      unsigned long int return_value___builtin_strspn$2;
-      return_value___builtin_strspn$2=__builtin_strspn(s, d);
-      tmp_statement_expression$1 = return_value___builtin_strspn$2;
-      s = s + (signed long int)tmp_statement_expression$1;
+      char s_strtok_r__1__1____a1;
+      char s_strtok_r__1__1____a2;
+      unsigned long int return_value___builtin_strspn_2;
+      return_value___builtin_strspn_2=__builtin_strspn(s, d);
+      tmp_statement_expression_1 = return_value___builtin_strspn_2;
+      s = s + (signed long int)tmp_statement_expression_1;
       if((signed int)*s == 0)
         return (char *)(void *)0;
 
       else
       {
         cp = s;
-        char s_strtok_r$$1$$2$$__a0;
+        char s_strtok_r__1__2____a0;
         char __a1;
         char __a2;
-        char *return_value___builtin_strpbrk$4;
-        return_value___builtin_strpbrk$4=__builtin_strpbrk(cp, d);
-        tmp_statement_expression$3 = return_value___builtin_strpbrk$4;
-        s = tmp_statement_expression$3;
+        char *return_value___builtin_strpbrk_4;
+        return_value___builtin_strpbrk_4=__builtin_strpbrk(cp, d);
+        tmp_statement_expression_3 = return_value___builtin_strpbrk_4;
+        s = tmp_statement_expression_3;
         if(s == ((char *)NULL))
         {
-          return_value___rawmemchr$5=__rawmemchr((const void *)cp, 0);
-          *bp = (char *)return_value___rawmemchr$5;
+          return_value___rawmemchr_5=__rawmemchr((const void *)cp, 0);
+          *bp = (char *)return_value___rawmemchr_5;
         }
 
         else
         {
-          tmp_post$6 = s;
+          tmp_post_6 = s;
           s = s + 1l;
-          *tmp_post$6 = (char)0;
+          *tmp_post_6 = (char)0;
           *bp = s;
         }
         return cp;
@@ -3787,15 +3787,15 @@ extern char * s_strtok_r(char *s, const char *d, char **bp)
 extern signed long int s_write(signed int fd, const char *buf, unsigned long int len)
 {
   signed long int code;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
     code=write(fd, (const void *)buf, len);
     if(code >= 0l)
       break;
 
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 4))
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 4))
       break;
 
   }
@@ -3810,14 +3810,14 @@ extern void send_error(signed int fd, signed int l_port, signed int r_port, cons
   char buf[1024l];
   char buf2[32l];
   s_snprintf(buf, sizeof(char [1024l]) /*1024ul*/ , "%d , %d : ERROR : %s\r\n", l_port, r_port, what);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(buf);
-  s_write(fd, buf, return_value_strlen$1);
-  const char *return_value_s_inet_ntox$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(buf);
+  s_write(fd, buf, return_value_strlen_1);
+  const char *return_value_s_inet_ntox_2;
   if(result_syslog_level >= 0)
   {
-    return_value_s_inet_ntox$2=s_inet_ntox(remote_addr, buf2, sizeof(char [32l]) /*32ul*/ );
-    syslog(result_syslog_level, "reply to %s: %d , %d : ERROR: %s", return_value_s_inet_ntox$2, l_port, r_port, what);
+    return_value_s_inet_ntox_2=s_inet_ntox(remote_addr, buf2, sizeof(char [32l]) /*32ul*/ );
+    syslog(result_syslog_level, "reply to %s: %d , %d : ERROR: %s", return_value_s_inet_ntox_2, l_port, r_port, what);
   }
 
 }
@@ -3843,35 +3843,35 @@ extern void send_result(signed int fd, struct kernel *kp)
   if(uidonly_flag == 0 || !(noident_flag == 0))
     s_getpwuid_r(uid, &pwb, pbuf, sizeof(char [2048l]) /*2048ul*/ , &pp);
 
-  signed int return_value_check_noident$3;
-  unsigned short int tmp_statement_expression$1;
-  unsigned short int tmp_statement_expression$2;
-  unsigned short int tmp_statement_expression$4;
-  unsigned short int tmp_statement_expression$5;
-  _Bool tmp_if_expr$11;
-  unsigned long int return_value_strlen$10;
-  unsigned short int tmp_statement_expression$6;
-  unsigned short int tmp_statement_expression$7;
-  unsigned short int tmp_statement_expression$8;
-  unsigned short int tmp_statement_expression$9;
-  const char *return_value_s_inet_ntox$13;
-  unsigned long int return_value_strlen$14;
+  signed int return_value_check_noident_3;
+  unsigned short int tmp_statement_expression_1;
+  unsigned short int tmp_statement_expression_2;
+  unsigned short int tmp_statement_expression_4;
+  unsigned short int tmp_statement_expression_5;
+  _Bool tmp_if_expr_11;
+  unsigned long int return_value_strlen_10;
+  unsigned short int tmp_statement_expression_6;
+  unsigned short int tmp_statement_expression_7;
+  unsigned short int tmp_statement_expression_8;
+  unsigned short int tmp_statement_expression_9;
+  const char *return_value_s_inet_ntox_13;
+  unsigned long int return_value_strlen_14;
   if(!(pp == ((struct passwd *)NULL)) && !(noident_flag == 0))
   {
-    return_value_check_noident$3=check_noident(pp->pw_dir);
-    if(!(return_value_check_noident$3 == 1))
+    return_value_check_noident_3=check_noident(pp->pw_dir);
+    if(!(return_value_check_noident_3 == 1))
       goto __CPROVER_DUMP_L9;
 
     syslog(6, "User %s elected to use .noident", pp->pw_name);
-    unsigned short int send_result$$1$$1$$1$$__v;
-    unsigned short int send_result$$1$$1$$1$$__x = (unsigned short int)kp->local.sin_port;
-    asm("rorw $8, %w0" : "=r"(send_result$$1$$1$$1$$__v) : "0"(send_result$$1$$1$$1$$__x) : "cc");
-    tmp_statement_expression$1 = send_result$$1$$1$$1$$__v;
-    unsigned short int send_result$$1$$1$$2$$__v;
-    unsigned short int send_result$$1$$1$$2$$__x = (unsigned short int)kp->remote.sin_port;
-    asm("rorw $8, %w0" : "=r"(send_result$$1$$1$$2$$__v) : "0"(send_result$$1$$1$$2$$__x) : "cc");
-    tmp_statement_expression$2 = send_result$$1$$1$$2$$__v;
-    send_error(fd, (signed int)tmp_statement_expression$1, (signed int)tmp_statement_expression$2, "HIDDEN-USER", &kp->remote);
+    unsigned short int send_result__1__1__1____v;
+    unsigned short int send_result__1__1__1____x = (unsigned short int)kp->local.sin_port;
+    asm("rorw _8, %w0" : "=r"(send_result__1__1__1____v) : "0"(send_result__1__1__1____x) : "cc");
+    tmp_statement_expression_1 = send_result__1__1__1____v;
+    unsigned short int send_result__1__1__2____v;
+    unsigned short int send_result__1__1__2____x = (unsigned short int)kp->remote.sin_port;
+    asm("rorw _8, %w0" : "=r"(send_result__1__1__2____v) : "0"(send_result__1__1__2____x) : "cc");
+    tmp_statement_expression_2 = send_result__1__1__2____v;
+    send_error(fd, (signed int)tmp_statement_expression_1, (signed int)tmp_statement_expression_2, "HIDDEN-USER", &kp->remote);
   }
 
   else
@@ -3883,61 +3883,61 @@ extern void send_result(signed int fd, struct kernel *kp)
     {
       char buffer[33l];
       pdes_encrypt(kp, buffer);
-      unsigned short int send_result$$1$$2$$1$$__v;
-      unsigned short int send_result$$1$$2$$1$$__x = (unsigned short int)kp->local.sin_port;
-      asm("rorw $8, %w0" : "=r"(send_result$$1$$2$$1$$__v) : "0"(send_result$$1$$2$$1$$__x) : "cc");
-      tmp_statement_expression$4 = send_result$$1$$2$$1$$__v;
-      unsigned short int send_result$$1$$2$$2$$__v;
-      unsigned short int send_result$$1$$2$$2$$__x = (unsigned short int)kp->remote.sin_port;
-      asm("rorw $8, %w0" : "=r"(send_result$$1$$2$$2$$__v) : "0"(send_result$$1$$2$$2$$__x) : "cc");
-      tmp_statement_expression$5 = send_result$$1$$2$$2$$__v;
-      s_snprintf(buf, sizeof(char [2048l]) /*2048ul*/ , "%d , %d : USERID : OTHER%s%s :[%s]\r\n", tmp_statement_expression$4, tmp_statement_expression$5, charset != (char *)(void *)0 ? " , " : "", charset != (char *)(void *)0 ? charset : "", (const void *)buffer);
+      unsigned short int send_result__1__2__1____v;
+      unsigned short int send_result__1__2__1____x = (unsigned short int)kp->local.sin_port;
+      asm("rorw _8, %w0" : "=r"(send_result__1__2__1____v) : "0"(send_result__1__2__1____x) : "cc");
+      tmp_statement_expression_4 = send_result__1__2__1____v;
+      unsigned short int send_result__1__2__2____v;
+      unsigned short int send_result__1__2__2____x = (unsigned short int)kp->remote.sin_port;
+      asm("rorw _8, %w0" : "=r"(send_result__1__2__2____v) : "0"(send_result__1__2__2____x) : "cc");
+      tmp_statement_expression_5 = send_result__1__2__2____v;
+      s_snprintf(buf, sizeof(char [2048l]) /*2048ul*/ , "%d , %d : USERID : OTHER%s%s :[%s]\r\n", tmp_statement_expression_4, tmp_statement_expression_5, charset != (char *)(void *)0 ? " , " : "", charset != (char *)(void *)0 ? charset : "", (const void *)buffer);
     }
 
     else
     {
       if(uidonly_flag == 0 && !(pp == ((struct passwd *)NULL)))
       {
-        return_value_strlen$10=strlen(pp->pw_name);
-        tmp_if_expr$11 = return_value_strlen$10 < sizeof(char [2048l]) /*2048ul*/  - (unsigned long int)128 ? (_Bool)1 : (_Bool)0;
+        return_value_strlen_10=strlen(pp->pw_name);
+        tmp_if_expr_11 = return_value_strlen_10 < sizeof(char [2048l]) /*2048ul*/  - (unsigned long int)128 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$11 = (_Bool)0;
-      if(tmp_if_expr$11)
+        tmp_if_expr_11 = (_Bool)0;
+      if(tmp_if_expr_11)
       {
-        unsigned short int send_result$$1$$3$$1$$__v;
-        unsigned short int send_result$$1$$3$$1$$__x = (unsigned short int)kp->local.sin_port;
-        asm("rorw $8, %w0" : "=r"(send_result$$1$$3$$1$$__v) : "0"(send_result$$1$$3$$1$$__x) : "cc");
-        tmp_statement_expression$6 = send_result$$1$$3$$1$$__v;
+        unsigned short int send_result__1__3__1____v;
+        unsigned short int send_result__1__3__1____x = (unsigned short int)kp->local.sin_port;
+        asm("rorw _8, %w0" : "=r"(send_result__1__3__1____v) : "0"(send_result__1__3__1____x) : "cc");
+        tmp_statement_expression_6 = send_result__1__3__1____v;
         unsigned short int __v;
         unsigned short int __x = (unsigned short int)kp->remote.sin_port;
-        asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-        tmp_statement_expression$7 = __v;
-        s_snprintf(buf, sizeof(char [2048l]) /*2048ul*/ , "%d , %d : USERID : %s%s%s :%s\r\n", tmp_statement_expression$6, tmp_statement_expression$7, opsys, charset != (char *)(void *)0 ? " , " : "", charset != (char *)(void *)0 ? charset : "", pp->pw_name);
+        asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+        tmp_statement_expression_7 = __v;
+        s_snprintf(buf, sizeof(char [2048l]) /*2048ul*/ , "%d , %d : USERID : %s%s%s :%s\r\n", tmp_statement_expression_6, tmp_statement_expression_7, opsys, charset != (char *)(void *)0 ? " , " : "", charset != (char *)(void *)0 ? charset : "", pp->pw_name);
       }
 
       else
       {
-        unsigned short int send_result$$1$$4$$1$$__v;
-        unsigned short int send_result$$1$$4$$1$$__x = (unsigned short int)kp->local.sin_port;
-        asm("rorw $8, %w0" : "=r"(send_result$$1$$4$$1$$__v) : "0"(send_result$$1$$4$$1$$__x) : "cc");
-        tmp_statement_expression$8 = send_result$$1$$4$$1$$__v;
-        unsigned short int send_result$$1$$4$$2$$__v;
-        unsigned short int send_result$$1$$4$$2$$__x = (unsigned short int)kp->remote.sin_port;
-        asm("rorw $8, %w0" : "=r"(send_result$$1$$4$$2$$__v) : "0"(send_result$$1$$4$$2$$__x) : "cc");
-        tmp_statement_expression$9 = send_result$$1$$4$$2$$__v;
-        s_snprintf(buf, sizeof(char [2048l]) /*2048ul*/ , "%d , %d : USERID : OTHER :%ld\r\n", tmp_statement_expression$8, tmp_statement_expression$9, (signed long int)uid);
+        unsigned short int send_result__1__4__1____v;
+        unsigned short int send_result__1__4__1____x = (unsigned short int)kp->local.sin_port;
+        asm("rorw _8, %w0" : "=r"(send_result__1__4__1____v) : "0"(send_result__1__4__1____x) : "cc");
+        tmp_statement_expression_8 = send_result__1__4__1____v;
+        unsigned short int send_result__1__4__2____v;
+        unsigned short int send_result__1__4__2____x = (unsigned short int)kp->remote.sin_port;
+        asm("rorw _8, %w0" : "=r"(send_result__1__4__2____v) : "0"(send_result__1__4__2____x) : "cc");
+        tmp_statement_expression_9 = send_result__1__4__2____v;
+        s_snprintf(buf, sizeof(char [2048l]) /*2048ul*/ , "%d , %d : USERID : OTHER :%ld\r\n", tmp_statement_expression_8, tmp_statement_expression_9, (signed long int)uid);
       }
     }
-    unsigned long int return_value_strlen$12;
-    return_value_strlen$12=strlen(buf);
-    s_write(fd, buf, return_value_strlen$12);
+    unsigned long int return_value_strlen_12;
+    return_value_strlen_12=strlen(buf);
+    s_write(fd, buf, return_value_strlen_12);
     if(result_syslog_level >= 0)
     {
-      return_value_s_inet_ntox$13=s_inet_ntox(&kp->remote, buf2, sizeof(char [32l]) /*32ul*/ );
-      return_value_strlen$14=strlen(buf);
-      syslog(result_syslog_level, "reply to %s: %.*s", return_value_s_inet_ntox$13, return_value_strlen$14 - (unsigned long int)2, (const void *)buf);
+      return_value_s_inet_ntox_13=s_inet_ntox(&kp->remote, buf2, sizeof(char [32l]) /*32ul*/ );
+      return_value_strlen_14=strlen(buf);
+      syslog(result_syslog_level, "reply to %s: %.*s", return_value_s_inet_ntox_13, return_value_strlen_14 - (unsigned long int)2, (const void *)buf);
     }
 
   }
@@ -3950,16 +3950,16 @@ extern void send_version(signed int fd, struct sockaddr_in *remote_addr)
   char buf[1024l];
   char buf2[32l];
   s_snprintf(buf, sizeof(char [1024l]) /*1024ul*/ , "0 , 0 : X-VERSION : pidentd %s for %s (%s %s)\r\n", (const void *)server_version, (const void *)osinfo_build, (const void *)"Jan 26 2016", (const void *)"02:19:47");
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(buf);
-  s_write(fd, buf, return_value_strlen$1);
-  const char *return_value_s_inet_ntox$2;
-  unsigned long int return_value_strlen$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(buf);
+  s_write(fd, buf, return_value_strlen_1);
+  const char *return_value_s_inet_ntox_2;
+  unsigned long int return_value_strlen_3;
   if(result_syslog_level >= 0)
   {
-    return_value_s_inet_ntox$2=s_inet_ntox(remote_addr, buf2, sizeof(char [32l]) /*32ul*/ );
-    return_value_strlen$3=strlen(buf);
-    syslog(result_syslog_level, "reply to %s: %.*s", return_value_s_inet_ntox$2, return_value_strlen$3 - (unsigned long int)2, (const void *)buf);
+    return_value_s_inet_ntox_2=s_inet_ntox(remote_addr, buf2, sizeof(char [32l]) /*32ul*/ );
+    return_value_strlen_3=strlen(buf);
+    syslog(result_syslog_level, "reply to %s: %.*s", return_value_s_inet_ntox_2, return_value_strlen_3 - (unsigned long int)2, (const void *)buf);
   }
 
 }
@@ -3971,7 +3971,7 @@ extern signed int server_init(void)
   signed int nofile;
   struct sockaddr_in sin;
   nofile=unlimit_nofile();
-  unsigned short int tmp_statement_expression$1;
+  unsigned short int tmp_statement_expression_1;
   if(!(nofile >= 0))
     return -1;
 
@@ -3993,12 +3993,12 @@ extern signed int server_init(void)
       sin.sin_addr.s_addr=__bswap_32((unsigned int)listen_addr);
       unsigned short int __v;
       unsigned short int __x = (unsigned short int)listen_port;
-      asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-      tmp_statement_expression$1 = __v;
-      sin.sin_port = tmp_statement_expression$1;
-      signed int return_value_bind$2;
-      return_value_bind$2=bind(listen_sock, (struct sockaddr *)&sin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(!(return_value_bind$2 >= 0))
+      asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+      tmp_statement_expression_1 = __v;
+      sin.sin_port = tmp_statement_expression_1;
+      signed int return_value_bind_2;
+      return_value_bind_2=bind(listen_sock, (struct sockaddr *)&sin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(!(return_value_bind_2 >= 0))
       {
         syslog(3, "bind(port=%d) failed: %m", listen_port);
         return -1;
@@ -4006,9 +4006,9 @@ extern signed int server_init(void)
 
     }
 
-    signed int return_value_listen$3;
-    return_value_listen$3=listen(listen_sock, listen_backlog);
-    if(!(return_value_listen$3 >= 0))
+    signed int return_value_listen_3;
+    return_value_listen_3=listen(listen_sock, listen_backlog);
+    if(!(return_value_listen_3 >= 0))
     {
       syslog(3, "listen(backlog=%d) failed: %m", listen_backlog);
       return -1;
@@ -4027,9 +4027,9 @@ extern signed int server_run(void)
   signed int fd;
   signed int timeout = request_timeout <= 0 ? -1 : request_timeout * 1000;
   signed int retval;
-  signed int return_value_fcntl$1;
-  return_value_fcntl$1=fcntl(listen_sock, 4, 04000);
-  if(return_value_fcntl$1 == -1)
+  signed int return_value_fcntl_1;
+  return_value_fcntl_1=fcntl(listen_sock, 4, 04000);
+  if(return_value_fcntl_1 == -1)
   {
     syslog(3, "fcntl() failed: %m");
     return -1;
@@ -4056,9 +4056,9 @@ extern signed int server_run(void)
       if(!(fd >= 0))
       {
         syslog(3, "accept() failed: %m");
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        if(*return_value___errno_location$2 == 9 || *return_value___errno_location$2 == 11 || *return_value___errno_location$2 == 12 || *return_value___errno_location$2 == 19 || *return_value___errno_location$2 == 24 || *return_value___errno_location$2 == 88 || *return_value___errno_location$2 == 95)
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        if(*return_value___errno_location_2 == 9 || *return_value___errno_location_2 == 11 || *return_value___errno_location_2 == 12 || *return_value___errno_location_2 == 19 || *return_value___errno_location_2 == 24 || *return_value___errno_location_2 == 88 || *return_value___errno_location_2 == 95)
           return -1;
 
       }
@@ -4082,21 +4082,21 @@ extern signed int socktype(signed int fd)
   signed int code;
   len = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
   code=getsockname(fd, (struct sockaddr *)&local_sin, &len);
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   if(!(code >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 88)
-      tmp_if_expr$3 = (_Bool)1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 88)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$2=__errno_location();
-      tmp_if_expr$3 = *return_value___errno_location$2 == 22 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_2=__errno_location();
+      tmp_if_expr_3 = *return_value___errno_location_2 == 22 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       return 0;
 
     else
@@ -4107,9 +4107,9 @@ extern signed int socktype(signed int fd)
   code=getpeername(fd, (struct sockaddr *)&remote_sin, &len);
   if(!(code >= 0))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    if(*return_value___errno_location$4 == 107)
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    if(*return_value___errno_location_4 == 107)
       return 1;
 
     else
@@ -4123,67 +4123,67 @@ extern signed int socktype(signed int fd)
 // file str2.h line 22
 extern signed int str2bool(const char *buf, signed int *out)
 {
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)(unsigned char)*buf]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)(unsigned char)*buf]) == 0)
       break;
 
     buf = buf + 1l;
   }
   while((_Bool)1);
-  signed int return_value_strcasecmp$2;
-  return_value_strcasecmp$2=strcasecmp(buf, "true");
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcasecmp$3;
-  if(return_value_strcasecmp$2 == 0)
-    tmp_if_expr$4 = (_Bool)1;
+  signed int return_value_strcasecmp_2;
+  return_value_strcasecmp_2=strcasecmp(buf, "true");
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcasecmp_3;
+  if(return_value_strcasecmp_2 == 0)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value_strcasecmp$3=strcasecmp(buf, "on");
-    tmp_if_expr$4 = return_value_strcasecmp$3 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcasecmp_3=strcasecmp(buf, "on");
+    tmp_if_expr_4 = return_value_strcasecmp_3 == 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$6;
-  signed int return_value_strcasecmp$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$6 = (_Bool)1;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strcasecmp_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
   {
-    return_value_strcasecmp$5=strcasecmp(buf, "enable");
-    tmp_if_expr$6 = return_value_strcasecmp$5 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcasecmp_5=strcasecmp(buf, "enable");
+    tmp_if_expr_6 = return_value_strcasecmp_5 == 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$8;
-  signed int return_value_strcasecmp$7;
-  if(tmp_if_expr$6)
-    tmp_if_expr$8 = (_Bool)1;
+  _Bool tmp_if_expr_8;
+  signed int return_value_strcasecmp_7;
+  if(tmp_if_expr_6)
+    tmp_if_expr_8 = (_Bool)1;
 
   else
   {
-    return_value_strcasecmp$7=strcasecmp(buf, "enabled");
-    tmp_if_expr$8 = return_value_strcasecmp$7 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcasecmp_7=strcasecmp(buf, "enabled");
+    tmp_if_expr_8 = return_value_strcasecmp_7 == 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$10;
-  signed int return_value_strcasecmp$9;
-  if(tmp_if_expr$8)
-    tmp_if_expr$10 = (_Bool)1;
+  _Bool tmp_if_expr_10;
+  signed int return_value_strcasecmp_9;
+  if(tmp_if_expr_8)
+    tmp_if_expr_10 = (_Bool)1;
 
   else
   {
-    return_value_strcasecmp$9=strcasecmp(buf, "yes");
-    tmp_if_expr$10 = return_value_strcasecmp$9 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcasecmp_9=strcasecmp(buf, "yes");
+    tmp_if_expr_10 = return_value_strcasecmp_9 == 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  signed int return_value_strcasecmp$12;
-  _Bool tmp_if_expr$15;
-  signed int return_value_strcasecmp$14;
-  _Bool tmp_if_expr$17;
-  signed int return_value_strcasecmp$16;
-  _Bool tmp_if_expr$19;
-  signed int return_value_strcasecmp$18;
-  if(tmp_if_expr$10)
+  _Bool tmp_if_expr_13;
+  signed int return_value_strcasecmp_12;
+  _Bool tmp_if_expr_15;
+  signed int return_value_strcasecmp_14;
+  _Bool tmp_if_expr_17;
+  signed int return_value_strcasecmp_16;
+  _Bool tmp_if_expr_19;
+  signed int return_value_strcasecmp_18;
+  if(tmp_if_expr_10)
   {
     *out = 1;
     return *out;
@@ -4191,41 +4191,41 @@ extern signed int str2bool(const char *buf, signed int *out)
 
   else
   {
-    signed int return_value_strcasecmp$11;
-    return_value_strcasecmp$11=strcasecmp(buf, "false");
-    if(return_value_strcasecmp$11 == 0)
-      tmp_if_expr$13 = (_Bool)1;
+    signed int return_value_strcasecmp_11;
+    return_value_strcasecmp_11=strcasecmp(buf, "false");
+    if(return_value_strcasecmp_11 == 0)
+      tmp_if_expr_13 = (_Bool)1;
 
     else
     {
-      return_value_strcasecmp$12=strcasecmp(buf, "off");
-      tmp_if_expr$13 = return_value_strcasecmp$12 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcasecmp_12=strcasecmp(buf, "off");
+      tmp_if_expr_13 = return_value_strcasecmp_12 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$13)
-      tmp_if_expr$15 = (_Bool)1;
+    if(tmp_if_expr_13)
+      tmp_if_expr_15 = (_Bool)1;
 
     else
     {
-      return_value_strcasecmp$14=strcasecmp(buf, "disable");
-      tmp_if_expr$15 = return_value_strcasecmp$14 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcasecmp_14=strcasecmp(buf, "disable");
+      tmp_if_expr_15 = return_value_strcasecmp_14 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$15)
-      tmp_if_expr$17 = (_Bool)1;
+    if(tmp_if_expr_15)
+      tmp_if_expr_17 = (_Bool)1;
 
     else
     {
-      return_value_strcasecmp$16=strcasecmp(buf, "disabled");
-      tmp_if_expr$17 = return_value_strcasecmp$16 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcasecmp_16=strcasecmp(buf, "disabled");
+      tmp_if_expr_17 = return_value_strcasecmp_16 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$17)
-      tmp_if_expr$19 = (_Bool)1;
+    if(tmp_if_expr_17)
+      tmp_if_expr_19 = (_Bool)1;
 
     else
     {
-      return_value_strcasecmp$18=strcasecmp(buf, "no");
-      tmp_if_expr$19 = return_value_strcasecmp$18 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcasecmp_18=strcasecmp(buf, "no");
+      tmp_if_expr_19 = return_value_strcasecmp_18 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$19)
+    if(tmp_if_expr_19)
     {
       *out = 0;
       return *out;
@@ -4241,13 +4241,13 @@ extern signed int str2bool(const char *buf, signed int *out)
 extern signed int str2gid(const char *str, unsigned int *out)
 {
   struct group *gp;
-  signed int return_value_is_int$2;
-  return_value_is_int$2=is_int(str);
-  if(!(return_value_is_int$2 == 0))
+  signed int return_value_is_int_2;
+  return_value_is_int_2=is_int(str);
+  if(!(return_value_is_int_2 == 0))
   {
-    signed int return_value_atoi$1;
-    return_value_atoi$1=atoi(str);
-    *out = (unsigned int)return_value_atoi$1;
+    signed int return_value_atoi_1;
+    return_value_atoi_1=atoi(str);
+    *out = (unsigned int)return_value_atoi_1;
     return 0;
   }
 
@@ -4266,16 +4266,16 @@ extern signed int str2gid(const char *str, unsigned int *out)
 // file str2.h line 20
 extern signed int str2int(const char *buf, signed int *out)
 {
-  signed int return_value_is_int$1;
-  return_value_is_int$1=is_int(buf);
-  if(return_value_is_int$1 == 0)
+  signed int return_value_is_int_1;
+  return_value_is_int_1=is_int(buf);
+  if(return_value_is_int_1 == 0)
     return -1;
 
   else
   {
-    signed int return_value_sscanf$2;
-    return_value_sscanf$2=sscanf(buf, " %d ", out);
-    if(!(return_value_sscanf$2 == 1))
+    signed int return_value_sscanf_2;
+    return_value_sscanf_2=sscanf(buf, " %d ", out);
+    if(!(return_value_sscanf_2 == 1))
       return -1;
 
     else
@@ -4288,10 +4288,10 @@ extern signed int str2int(const char *buf, signed int *out)
 extern signed int str2port(const char *str, signed int *out)
 {
   struct servent *sp;
-  signed int return_value_is_int$1;
-  return_value_is_int$1=is_int(str);
-  unsigned short int tmp_statement_expression$2;
-  if(!(return_value_is_int$1 == 0))
+  signed int return_value_is_int_1;
+  return_value_is_int_1=is_int(str);
+  unsigned short int tmp_statement_expression_2;
+  if(!(return_value_is_int_1 == 0))
   {
     *out=atoi(str);
     return 0;
@@ -4307,9 +4307,9 @@ extern signed int str2port(const char *str, signed int *out)
     {
       unsigned short int __v;
       unsigned short int __x = (unsigned short int)sp->s_port;
-      asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-      tmp_statement_expression$2 = __v;
-      *out = (signed int)tmp_statement_expression$2;
+      asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+      tmp_statement_expression_2 = __v;
+      *out = (signed int)tmp_statement_expression_2;
       return 0;
     }
   }
@@ -4322,17 +4322,17 @@ extern signed int str2str(char *buf, char **out)
   signed int sep;
   char *start;
   char *cp;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)(unsigned char)*buf]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)(unsigned char)*buf]) == 0)
       break;
 
     buf = buf + 1l;
   }
   while((_Bool)1);
-  const unsigned short int **return_value___ctype_b_loc$2;
+  const unsigned short int **return_value___ctype_b_loc_2;
   switch((signed int)*buf)
   {
     case 0:
@@ -4366,8 +4366,8 @@ extern signed int str2str(char *buf, char **out)
       cp = cp - 1l;
       for( ; !(buf >= cp); cp = cp - 1l)
       {
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)(unsigned char)*cp]) == 0)
           break;
 
       }
@@ -4386,13 +4386,13 @@ extern signed int str2uid(const char *str, unsigned int *uid, unsigned int *gid)
   struct passwd pb;
   struct passwd *pp;
   char buf[1024l];
-  signed int return_value_is_int$2;
-  return_value_is_int$2=is_int(str);
-  if(!(return_value_is_int$2 == 0))
+  signed int return_value_is_int_2;
+  return_value_is_int_2=is_int(str);
+  if(!(return_value_is_int_2 == 0))
   {
-    signed long int return_value_atol$1;
-    return_value_atol$1=atol(str);
-    *uid = (unsigned int)return_value_atol$1;
+    signed long int return_value_atol_1;
+    return_value_atol_1=atol(str);
+    *uid = (unsigned int)return_value_atol_1;
     pp = (struct passwd *)(void *)0;
     s_getpwuid_r(*uid, &pb, buf, sizeof(char [1024l]) /*1024ul*/ , &pp);
     if(!(pp == ((struct passwd *)NULL)))
@@ -4419,8 +4419,8 @@ extern signed int str2uid(const char *str, unsigned int *uid, unsigned int *gid)
 extern signed int syslog_str2fac(const char *name)
 {
   signed int i;
-  _Bool tmp_if_expr$2;
-  signed int return_value_s_strcasecmp$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_s_strcasecmp_1;
   if(name == ((const char *)NULL))
     return -1;
 
@@ -4431,13 +4431,13 @@ extern signed int syslog_str2fac(const char *name)
     {
       if(!(facility[(signed long int)i].name == ((const char *)NULL)))
       {
-        return_value_s_strcasecmp$1=s_strcasecmp(facility[(signed long int)i].name, name);
-        tmp_if_expr$2 = return_value_s_strcasecmp$1 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_s_strcasecmp_1=s_strcasecmp(facility[(signed long int)i].name, name);
+        tmp_if_expr_2 = return_value_s_strcasecmp_1 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         break;
 
       i = i + 1;
@@ -4452,8 +4452,8 @@ extern signed int syslog_str2fac(const char *name)
 extern signed int syslog_str2lev(const char *name)
 {
   signed int i;
-  _Bool tmp_if_expr$2;
-  signed int return_value_s_strcasecmp$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_s_strcasecmp_1;
   if(name == ((const char *)NULL))
     return -1;
 
@@ -4464,13 +4464,13 @@ extern signed int syslog_str2lev(const char *name)
     {
       if(!(level[(signed long int)i].name == ((const char *)NULL)))
       {
-        return_value_s_strcasecmp$1=s_strcasecmp(level[(signed long int)i].name, name);
-        tmp_if_expr$2 = return_value_s_strcasecmp$1 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_s_strcasecmp_1=s_strcasecmp(level[(signed long int)i].name, name);
+        tmp_if_expr_2 = return_value_s_strcasecmp_1 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         break;
 
       i = i + 1;
@@ -4514,16 +4514,16 @@ extern struct timeout * timeout_create(signed int timeout, void (*fun)(void *), 
   struct timeout *tp;
   struct timeout **prev;
   struct timeout *cur;
-  void *return_value_s_malloc$1;
-  return_value_s_malloc$1=s_malloc(sizeof(struct timeout) /*32ul*/ );
-  tp = (struct timeout *)return_value_s_malloc$1;
+  void *return_value_s_malloc_1;
+  return_value_s_malloc_1=s_malloc(sizeof(struct timeout) /*32ul*/ );
+  tp = (struct timeout *)return_value_s_malloc_1;
   if(!(debug == 0))
     fprintf(stderr, "timeout_create(%d, ...) -> %08lx\n", timeout, (signed long int)tp);
 
   tp->next = (struct timeout *)(void *)0;
-  signed long int return_value_time$2;
-  return_value_time$2=time((signed long int *)(void *)0);
-  tp->when = return_value_time$2 + (signed long int)timeout;
+  signed long int return_value_time_2;
+  return_value_time_2=time((signed long int *)(void *)0);
+  tp->when = return_value_time_2 + (signed long int)timeout;
   tp->fun = fun;
   tp->arg = arg;
   pthread_mutex_lock(&tcb.mtx);
@@ -4560,13 +4560,13 @@ static void timeout_handler(void *arg)
 // file timeout.h line 33
 extern signed int timeout_init(void)
 {
-  pthread_mutex_init(&tcb.mtx, (const union anonymous$1 *)(void *)0);
-  pthread_cond_init(&tcb.cv, (const union anonymous$1 *)(void *)0);
+  pthread_mutex_init(&tcb.mtx, (const union anonymous_1 *)(void *)0);
+  pthread_cond_init(&tcb.cv, (const union anonymous_1 *)(void *)0);
   tcb.top = (struct timeout *)(void *)0;
   tcb.running = 1;
-  signed int return_value_pthread_create$1;
-  return_value_pthread_create$1=pthread_create(&tcb.tid, (const union pthread_attr_t *)(void *)0, timeout_thread, (void *)&tcb);
-  if(!(return_value_pthread_create$1 == 0))
+  signed int return_value_pthread_create_1;
+  return_value_pthread_create_1=pthread_create(&tcb.tid, (const union pthread_attr_t *)(void *)0, timeout_thread, (void *)&tcb);
+  if(!(return_value_pthread_create_1 == 0))
   {
     syslog(3, "pthread_create(timeout_thread) failed: %m");
     tcb.running = 0;
@@ -4587,9 +4587,9 @@ extern signed int timeout_reset(struct timeout *tp, signed int timeout)
     fprintf(stderr, "timeout_reset(%08lx, %d)\n", (signed long int)tp, timeout);
 
   pthread_mutex_lock(&tcb.mtx);
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
-  tp->when = return_value_time$1 + (signed long int)timeout;
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
+  tp->when = return_value_time_1 + (signed long int)timeout;
   prev = &tcb.top;
   cur = tcb.top;
   for( ; !(cur == ((struct timeout *)NULL)) && !(cur == tp); cur = cur->next)
@@ -4617,38 +4617,38 @@ extern signed int timeout_reset(struct timeout *tp, signed int timeout)
 // file timeout.c line 40
 static void * timeout_thread(void *misc)
 {
-  struct timeout_cb *timeout_thread$$1$$tcb = (struct timeout_cb *)misc;
+  struct timeout_cb *timeout_thread__1__tcb = (struct timeout_cb *)misc;
   struct timeout *tp;
   signed long int now;
   if(!(debug == 0))
     fprintf(stderr, "timeout_thread() started\n");
 
-  pthread_mutex_lock(&timeout_thread$$1$$tcb->mtx);
-  while(!(timeout_thread$$1$$tcb->running == 0))
+  pthread_mutex_lock(&timeout_thread__1__tcb->mtx);
+  while(!(timeout_thread__1__tcb->running == 0))
   {
     time(&now);
-    tp = timeout_thread$$1$$tcb->top;
-    for( ; !(tp == ((struct timeout *)NULL)); tp = timeout_thread$$1$$tcb->top)
+    tp = timeout_thread__1__tcb->top;
+    for( ; !(tp == ((struct timeout *)NULL)); tp = timeout_thread__1__tcb->top)
     {
       if(!(now >= tp->when))
         break;
 
-      timeout_thread$$1$$tcb->top = tp->next;
-      pthread_mutex_unlock(&timeout_thread$$1$$tcb->mtx);
+      timeout_thread__1__tcb->top = tp->next;
+      pthread_mutex_unlock(&timeout_thread__1__tcb->mtx);
       if(!(tp->fun == ((void (*)(void *))NULL)))
         tp->fun(tp->arg);
 
-      pthread_mutex_lock(&timeout_thread$$1$$tcb->mtx);
+      pthread_mutex_lock(&timeout_thread__1__tcb->mtx);
     }
     if(tp == ((struct timeout *)NULL))
-      pthread_cond_wait(&timeout_thread$$1$$tcb->cv, &timeout_thread$$1$$tcb->mtx);
+      pthread_cond_wait(&timeout_thread__1__tcb->cv, &timeout_thread__1__tcb->mtx);
 
     else
     {
       struct timespec when;
       when.tv_sec = tp->when;
       when.tv_nsec = (signed long int)0;
-      pthread_cond_timedwait(&timeout_thread$$1$$tcb->cv, &timeout_thread$$1$$tcb->mtx, &when);
+      pthread_cond_timedwait(&timeout_thread__1__tcb->cv, &timeout_thread__1__tcb->mtx, &when);
     }
   }
   if(!(debug == 0))
@@ -4662,9 +4662,9 @@ static void * timeout_thread(void *misc)
 static signed int unlimit_nofile(void)
 {
   struct rlimit rlb;
-  signed int return_value_getrlimit$1;
-  return_value_getrlimit$1=getrlimit(7, &rlb);
-  if(!(return_value_getrlimit$1 >= 0))
+  signed int return_value_getrlimit_1;
+  return_value_getrlimit_1=getrlimit(7, &rlb);
+  if(!(return_value_getrlimit_1 >= 0))
   {
     syslog(3, "getrlimit() failed: %m");
     return -1;
@@ -4673,9 +4673,9 @@ static signed int unlimit_nofile(void)
   else
   {
     rlb.rlim_cur = rlb.rlim_max;
-    signed int return_value_setrlimit$2;
-    return_value_setrlimit$2=setrlimit(7, &rlb);
-    if(!(return_value_setrlimit$2 >= 0))
+    signed int return_value_setrlimit_2;
+    return_value_setrlimit_2=setrlimit(7, &rlb);
+    if(!(return_value_setrlimit_2 >= 0))
     {
       syslog(3, "getrlimit() failed: %m");
       return -1;

@@ -1,118 +1,118 @@
-// #anon_enum$RTP_PARSER_OK=0$RTP_PARSER_PTOOSHRT=-1$RTP_PARSER_IHDRVER=-2$RTP_PARSER_PTOOSHRTXS=-3$RTP_PARSER_PTOOSHRTXH=-4$RTP_PARSER_PTOOSHRTPS=-5$RTP_PARSER_PTOOSHRTP=-6$RTP_PARSER_IPS=-7
+// #anon_enum_RTP_PARSER_OK=0_RTP_PARSER_PTOOSHRT=-1_RTP_PARSER_IHDRVER=-2_RTP_PARSER_PTOOSHRTXS=-3_RTP_PARSER_PTOOSHRTXH=-4_RTP_PARSER_PTOOSHRTPS=-5_RTP_PARSER_PTOOSHRTP=-6_RTP_PARSER_IPS=-7
 // file rtp.h line 120
-enum anonymous$13 { RTP_PARSER_OK=0, RTP_PARSER_PTOOSHRT=-1, RTP_PARSER_IHDRVER=-2, RTP_PARSER_PTOOSHRTXS=-3, RTP_PARSER_PTOOSHRTXH=-4, RTP_PARSER_PTOOSHRTPS=-5, RTP_PARSER_PTOOSHRTP=-6, RTP_PARSER_IPS=-7 };
+enum anonymous_13 { RTP_PARSER_OK=0, RTP_PARSER_PTOOSHRT=-1, RTP_PARSER_IHDRVER=-2, RTP_PARSER_PTOOSHRTXS=-3, RTP_PARSER_PTOOSHRTXH=-4, RTP_PARSER_PTOOSHRTPS=-5, RTP_PARSER_PTOOSHRTP=-6, RTP_PARSER_IPS=-7 };
 
-// #anon_enum$RTP_PCMU=0$RTP_GSM=3$RTP_G723=4$RTP_PCMA=8$RTP_CN=13$RTP_G729=18$RTP_TSE=100$RTP_TSE_CISCO=101
+// #anon_enum_RTP_PCMU=0_RTP_GSM=3_RTP_G723=4_RTP_PCMA=8_RTP_CN=13_RTP_G729=18_RTP_TSE=100_RTP_TSE_CISCO=101
 // file rtp.h line 40
-enum anonymous$20 { RTP_PCMU=0, RTP_GSM=3, RTP_G723=4, RTP_PCMA=8, RTP_CN=13, RTP_G729=18, RTP_TSE=100, RTP_TSE_CISCO=101 };
+enum anonymous_20 { RTP_PCMU=0, RTP_GSM=3, RTP_G723=4, RTP_PCMA=8, RTP_CN=13, RTP_G729=18, RTP_TSE=100, RTP_TSE_CISCO=101 };
 
-// #anon_enum$SYSLOG_ITEM_ASYNC_WRITE=0$SYSLOG_ITEM_ASYNC_EXIT=1
+// #anon_enum_SYSLOG_ITEM_ASYNC_WRITE=0_SYSLOG_ITEM_ASYNC_EXIT=1
 // file rtpp_syslog_async.c line 40
-enum anonymous$23 { SYSLOG_ITEM_ASYNC_WRITE=0, SYSLOG_ITEM_ASYNC_EXIT=1 };
+enum anonymous_23 { SYSLOG_ITEM_ASYNC_WRITE=0, SYSLOG_ITEM_ASYNC_EXIT=1 };
 
-// #anon_enum$TTL_UNIFIED=0$TTL_INDEPENDENT=1
+// #anon_enum_TTL_UNIFIED=0_TTL_INDEPENDENT=1
 // file rtpp_defines.h line 73
-enum anonymous$30 { TTL_UNIFIED=0, TTL_INDEPENDENT=1 };
+enum anonymous_30 { TTL_UNIFIED=0, TTL_INDEPENDENT=1 };
 
-// tag-#anon#ST[*{SYM#tag-rtp_packet#}$SYM#tag-rtp_packet#$'first'|*{SYM#tag-rtp_packet#}$SYM#tag-rtp_packet#$'last']
+// tag-#anon#ST[*{SYM#tag-rtp_packet#}_SYM#tag-rtp_packet#_'first'|*{SYM#tag-rtp_packet#}_SYM#tag-rtp_packet#_'last']
 // file rtp_resizer.h line 47
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']
+// tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 126
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']
+// tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 111
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0'|SYM#tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']#'si_addr_bnd']
+// tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0'|SYM#tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']#'si_addr_bnd']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[*{cS8}$cS8$'str_fac'|S32'int_fac'|U32'$pad0']
+// tag-#anon#ST[*{cS8}_cS8_'str_fac'|S32'int_fac'|U32'_pad0']
 // file rtpp_log.c line 185
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val']
+// tag-#anon#ST[ARR16{U64}_U64_'__val']
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
 struct anonymous;
 
-// tag-#anon#ST[BF{U32}$U32$'cc'|BF{U32}$U32$'x'|BF{U32}$U32$'p'|BF{U32}$U32$'version'|BF{U32}$U32$'pt'|BF{U32}$U32$'m'|BF{U32}$U32$'seq'|U32'ts'|U32'ssrc'|ARR0{U32}$U32$'csrc']
+// tag-#anon#ST[BF{U32}_U32_'cc'|BF{U32}_U32_'x'|BF{U32}_U32_'p'|BF{U32}_U32_'version'|BF{U32}_U32_'pt'|BF{U32}_U32_'m'|BF{U32}_U32_'seq'|U32'ts'|U32'ssrc'|ARR0{U32}_U32_'csrc']
 // file rtp.h line 56
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
+// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$21;
+struct anonymous_21;
 
 // tag-#anon#ST[S32'si_pid'|U32'si_uid']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']
+// tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$7;
+struct anonymous_7;
 
 // tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0'|SYM#tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']
+// tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0'|SYM#tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$3;
+struct anonymous_3;
 
 // tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']
+// tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 119
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[U16'profile'|U16'length'|ARR0{U32}$U32$'extension']
+// tag-#anon#ST[U16'profile'|U16'length'|ARR0{U32}_U32_'extension']
 // file rtp.h line 78
-struct anonymous$14;
+struct anonymous_14;
 
 // tag-#anon#ST[U16'source'|U16'dest'|U16'len'|U16'check']
 // file /usr/include/netinet/udp.h line 67
-struct anonymous$17;
+struct anonymous_17;
 
 // tag-#anon#ST[U16'uh_sport'|U16'uh_dport'|U16'uh_ulen'|U16'uh_sum']
 // file /usr/include/netinet/udp.h line 60
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'|*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0'|SYM#tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#}$SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0'|SYM#tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0'|SYM#tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#}$SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'$pad0'|SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0'|SYM#tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#$|*{V}$V$)->V$'sa_sigaction']
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'|*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0'|SYM#tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#}_SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0'|SYM#tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0'|SYM#tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#}_SYM#tag-#anon#ST[S32'si_signo'|S32'si_errno'|S32'si_code'|U32'_pad0'|SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0'|SYM#tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']#'_sifields']#_|*{V}_V_)->V_'sa_sigaction']
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'|ARR8{U16}$U16$'__u6_addr16'|ARR4{U32}$U32$'__u6_addr32']
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'|ARR8{U16}_U16_'__u6_addr16'|ARR4{U32}_U32_'__u6_addr32']
 // file /usr/include/netinet/in.h line 211
-union anonymous$29;
+union anonymous_29;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'$pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}$V$'si_addr'|S16'si_addr_lsb'|U48'$pad0'|SYM#tag-#anon#ST[*{V}$V$'_lower'|*{V}$V$'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'$pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}$V$'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid']#'_kill'|SYM#tag-#anon#ST[S32'si_tid'|S32'si_overrun'|SYM#tag-sigval#'si_sigval']#'_timer'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|SYM#tag-sigval#'si_sigval']#'_rt'|SYM#tag-#anon#ST[S32'si_pid'|U32'si_uid'|S32'si_status'|U32'_pad0'|S64'si_utime'|S64'si_stime']#'_sigchld'|SYM#tag-#anon#ST[*{V}_V_'si_addr'|S16'si_addr_lsb'|U48'_pad0'|SYM#tag-#anon#ST[*{V}_V_'_lower'|*{V}_V_'_upper']#'si_addr_bnd']#'_sigfault'|SYM#tag-#anon#ST[S64'si_band'|S32'si_fd'|U32'_pad0']#'_sigpoll'|SYM#tag-#anon#ST[*{V}_V_'_call_addr'|S32'_syscall'|U32'_arch']#'_sigsys']
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'|S32'__align']
+// tag-#anon#UN[ARR4{S8}_S8_'__size'|S32'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$26;
+union anonymous_26;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[BF{U32}$U32$'cc'|BF{U32}$U32$'x'|BF{U32}$U32$'p'|BF{U32}$U32$'version'|BF{U32}$U32$'pt'|BF{U32}$U32$'m'|BF{U32}$U32$'seq'|U32'ts'|U32'ssrc'|ARR0{U32}$U32$'csrc']#'header'|ARR8192{U8}$U8$'buf']
+// tag-#anon#UN[SYM#tag-#anon#ST[BF{U32}_U32_'cc'|BF{U32}_U32_'x'|BF{U32}_U32_'p'|BF{U32}_U32_'version'|BF{U32}_U32_'pt'|BF{U32}_U32_'m'|BF{U32}_U32_'seq'|U32'ts'|U32'ssrc'|ARR0{U32}_U32_'csrc']#'header'|ARR8192{U8}_U8_'buf']
 // file rtp.h line 108
-union anonymous$27;
+union anonymous_27;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$22;
+union anonymous_22;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U16'uh_sport'|U16'uh_dport'|U16'uh_ulen'|U16'uh_sum']#'$anon0'|SYM#tag-#anon#ST[U16'source'|U16'dest'|U16'len'|U16'check']#'$anon1']
+// tag-#anon#UN[SYM#tag-#anon#ST[U16'uh_sport'|U16'uh_dport'|U16'uh_ulen'|U16'uh_sum']#'_anon0'|SYM#tag-#anon#ST[U16'source'|U16'dest'|U16'len'|U16'check']#'_anon1']
 // file /usr/include/netinet/udp.h line 58
-union anonymous$18;
+union anonymous_18;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$24;
+union anonymous_24;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -598,13 +598,13 @@ static void process_rtp(struct cfg *cf, double dtime, signed int alarm_tick);
 static void process_rtp_servers(struct cfg *cf, double dtime);
 // pthread_cond_init
 // file /usr/include/pthread.h line 968
-extern signed int pthread_cond_init(union anonymous$22 *, const union anonymous$26 *);
+extern signed int pthread_cond_init(union anonymous_22 *, const union anonymous_26 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 977
-extern signed int pthread_cond_signal(union anonymous$22 *);
+extern signed int pthread_cond_signal(union anonymous_22 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 989
-extern signed int pthread_cond_wait(union anonymous$22 *, union anonymous$24 *);
+extern signed int pthread_cond_wait(union anonymous_22 *, union anonymous_24 *);
 // pthread_create
 // file /usr/include/pthread.h line 233
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -613,13 +613,13 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 749
-extern signed int pthread_mutex_init(union anonymous$24 *, const union anonymous$26 *);
+extern signed int pthread_mutex_init(union anonymous_24 *, const union anonymous_26 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 762
-extern signed int pthread_mutex_lock(union anonymous$24 *);
+extern signed int pthread_mutex_lock(union anonymous_24 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 773
-extern signed int pthread_mutex_unlock(union anonymous$24 *);
+extern signed int pthread_mutex_unlock(union anonymous_24 *);
 // random
 // file /usr/include/stdlib.h line 321
 extern signed long int random(void);
@@ -688,10 +688,10 @@ void rtp_packet_first_chunk_find(struct rtp_packet *pkt, struct rtp_packet_chunk
 void rtp_packet_free(struct rtp_packet *pkt);
 // rtp_packet_parse
 // file rtp.c line 242
-enum anonymous$13 rtp_packet_parse(struct rtp_packet *pkt);
+enum anonymous_13 rtp_packet_parse(struct rtp_packet *pkt);
 // rtp_packet_parse_errstr
 // file rtp.c line 206
-const char * rtp_packet_parse_errstr(enum anonymous$13 ecode);
+const char * rtp_packet_parse_errstr(enum anonymous_13 ecode);
 // rtp_packet_set_seq
 // file rtp.c line 347
 void rtp_packet_set_seq(struct rtp_packet *p, unsigned short int seq);
@@ -718,7 +718,7 @@ void rtp_server_free(struct rtp_server *rp);
 signed int rtp_server_get(struct rtp_server *rp, double dtime);
 // rtp_server_new
 // file rtp_server.c line 48
-struct rtp_server * rtp_server_new(const char *name, enum anonymous$20 codec, signed int loop);
+struct rtp_server * rtp_server_new(const char *name, enum anonymous_20 codec, signed int loop);
 // rtpp_daemon
 // file rtpp_util.h line 69
 signed int rtpp_daemon(signed int nochdir, signed int noclose);
@@ -737,9 +737,9 @@ char * rtpp_strsep(char **stringp, const char *delim);
 // rwrite
 // file rtpp_record.h line 54
 void rwrite(struct rtpp_session *sp, void *rrc, struct rtp_packet *packet);
-// rwrite::1::prepare_pkt_hdr$object
+// rwrite::1::prepare_pkt_hdr_object
 //
-signed int prepare_pkt_hdr$object(struct rtpp_session *, struct rtp_packet *, void *);
+signed int prepare_pkt_hdr_object(struct rtpp_session *, struct rtp_packet *, void *);
 // rxmit_packets
 // file main.c line 508
 static void rxmit_packets(struct cfg *cf, struct rtpp_session *sp, signed int ridx, double dtime);
@@ -897,7 +897,7 @@ extern signed long int write(signed int, const void *, unsigned long int);
 // file /usr/include/x86_64-linux-gnu/sys/uio.h line 50
 extern signed long int writev(signed int, struct iovec *, signed int);
 
-struct anonymous$0
+struct anonymous_0
 {
   // first
   struct rtp_packet *first;
@@ -905,7 +905,7 @@ struct anonymous$0
   struct rtp_packet *last;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // _call_addr
   void *_call_addr;
@@ -915,7 +915,7 @@ struct anonymous$11
   unsigned int _arch;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // _lower
   void *_lower;
@@ -923,17 +923,17 @@ struct anonymous$8
   void *_upper;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // si_addr
   void *si_addr;
   // si_addr_lsb
   signed short int si_addr_lsb;
   // si_addr_bnd
-  struct anonymous$8 si_addr_bnd;
+  struct anonymous_8 si_addr_bnd;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // str_fac
   const char *str_fac;
@@ -947,7 +947,7 @@ struct anonymous
   unsigned long int __val[16l];
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // cc
   unsigned int cc : 4;
@@ -971,7 +971,7 @@ struct anonymous$28
   unsigned int csrc[0l];
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // __lock
   signed int __lock;
@@ -991,7 +991,7 @@ struct anonymous$21
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // si_pid
   signed int si_pid;
@@ -999,7 +999,7 @@ struct anonymous$4
   unsigned int si_uid;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // si_pid
   signed int si_pid;
@@ -1021,7 +1021,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // si_pid
   signed int si_pid;
@@ -1031,7 +1031,7 @@ struct anonymous$6
   union sigval si_sigval;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // si_tid
   signed int si_tid;
@@ -1041,7 +1041,7 @@ struct anonymous$5
   union sigval si_sigval;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // si_band
   signed long int si_band;
@@ -1049,27 +1049,27 @@ struct anonymous$10
   signed int si_fd;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$4 _kill;
+  struct anonymous_4 _kill;
   // _timer
-  struct anonymous$5 _timer;
+  struct anonymous_5 _timer;
   // _rt
-  struct anonymous$6 _rt;
+  struct anonymous_6 _rt;
   // _sigchld
-  struct anonymous$7 _sigchld;
+  struct anonymous_7 _sigchld;
   // _sigfault
-  struct anonymous$9 _sigfault;
+  struct anonymous_9 _sigfault;
   // _sigpoll
-  struct anonymous$10 _sigpoll;
+  struct anonymous_10 _sigpoll;
   // _sigsys
-  struct anonymous$11 _sigsys;
+  struct anonymous_11 _sigsys;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // si_signo
   signed int si_signo;
@@ -1078,10 +1078,10 @@ struct anonymous$3
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$12 _sifields;
+  union anonymous_12 _sifields;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // profile
   unsigned short int profile;
@@ -1091,7 +1091,7 @@ struct anonymous$14
   unsigned int extension[0l];
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // source
   unsigned short int source;
@@ -1103,7 +1103,7 @@ struct anonymous$17
   unsigned short int check;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // uh_sport
   unsigned short int uh_sport;
@@ -1115,15 +1115,15 @@ struct anonymous$16
   unsigned short int uh_sum;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$3 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_3 *, void *);
 };
 
-union anonymous$29
+union anonymous_29
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -1133,7 +1133,7 @@ union anonymous$29
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$26
+union anonymous_26
 {
   // __size
   char __size[4l];
@@ -1141,30 +1141,30 @@ union anonymous$26
   signed int __align;
 };
 
-union anonymous$27
+union anonymous_27
 {
   // header
-  struct anonymous$28 header;
+  struct anonymous_28 header;
   // buf
   unsigned char buf[8192l];
 };
 
-union anonymous$22
+union anonymous_22
 {
   // __data
-  struct anonymous$21 __data;
+  struct anonymous_21 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-union anonymous$18
+union anonymous_18
 {
-  // $anon0
-  struct anonymous$16 $anon0;
-  // $anon1
-  struct anonymous$17 $anon1;
+  // _anon0
+  struct anonymous_16 _anon0;
+  // _anon1
+  struct anonymous_17 _anon1;
 };
 
 struct __pthread_internal_list
@@ -1195,7 +1195,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$24
+union anonymous_24
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1320,7 +1320,7 @@ struct rtp_server
   // buf
   unsigned char buf[1024l];
   // rtp
-  struct anonymous$28 *rtp;
+  struct anonymous_28 *rtp;
   // pload
   unsigned char *pload;
   // fd
@@ -1348,7 +1348,7 @@ struct rtp_resizer
   // output_nsamples
   signed int output_nsamples;
   // queue
-  struct anonymous$0 queue;
+  struct anonymous_0 queue;
 };
 
 struct rtpp_timeout_data
@@ -1364,7 +1364,7 @@ struct rtpp_session
   // ttl
   signed int ttl[2l];
   // ttl_mode
-  enum anonymous$30 ttl_mode;
+  enum anonymous_30 ttl_mode;
   // pcount
   unsigned long int pcount[4l];
   // call_id
@@ -1494,7 +1494,7 @@ struct cfg
   // no_check
   signed int no_check;
   // ttl_mode
-  enum anonymous$30 ttl_mode;
+  enum anonymous_30 ttl_mode;
   // timeout_handler
   struct rtpp_timeout_handler timeout_handler;
   // run_uid
@@ -1528,7 +1528,7 @@ struct group
 struct in6_addr
 {
   // __in6_u
-  union anonymous$29 __in6_u;
+  union anonymous_29 __in6_u;
 };
 
 struct in_addr
@@ -1659,8 +1659,8 @@ struct pkt_hdr_adhoc
 
 struct udphdr
 {
-  // $anon0
-  union anonymous$18 $anon0;
+  // _anon0
+  union anonymous_18 _anon0;
 };
 
 struct pkt_hdr_pcap
@@ -1742,7 +1742,7 @@ struct rtp_packet
   // prev
   struct rtp_packet *prev;
   // data
-  union anonymous$27 data;
+  union anonymous_27 data;
 };
 
 struct rtp_packet_chunk
@@ -1776,7 +1776,7 @@ struct rtpp_record_channel
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$2 __sigaction_handler;
+  union anonymous_2 __sigaction_handler;
   // sa_mask
   struct anonymous sa_mask;
   // sa_flags
@@ -1822,7 +1822,7 @@ struct sockaddr_un
 struct syslog_wi
 {
   // item_type
-  enum anonymous$23 item_type;
+  enum anonymous_23 item_type;
   // data
   char data[2048l];
   // len
@@ -1890,7 +1890,7 @@ static struct rtp_packet *rtp_packet_pool = (struct rtp_packet *)(void *)0;
 extern struct _IO_FILE *stderr;
 // str2fac
 // file rtpp_log.c line 188
-static struct anonymous$19 str2fac[21l] = { { .str_fac="LOG_AUTH", .int_fac=4 << 3 },
+static struct anonymous_19 str2fac[21l] = { { .str_fac="LOG_AUTH", .int_fac=4 << 3 },
     { .str_fac="LOG_CRON", .int_fac=9 << 3 },
     { .str_fac="LOG_DAEMON", .int_fac=3 << 3 },
     { .str_fac="LOG_KERN", .int_fac=0 << 3 },
@@ -1919,7 +1919,7 @@ static signed int syslog_async_opened = 0;
 static signed int syslog_dropped_items;
 // syslog_init_mutex
 // file rtpp_syslog_async.c line 57
-static union anonymous$24 syslog_init_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_24 syslog_init_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // syslog_queue
@@ -1927,22 +1927,22 @@ static union anonymous$24 syslog_init_mutex = { .__data={ .__lock=0, .__count=(u
 static unsigned long int syslog_queue;
 // syslog_queue_cond
 // file rtpp_syslog_async.c line 60
-static union anonymous$22 syslog_queue_cond;
+static union anonymous_22 syslog_queue_cond;
 // syslog_queue_inited
 // file rtpp_syslog_async.c line 58
 static signed int syslog_queue_inited = 0;
 // syslog_queue_mutex
 // file rtpp_syslog_async.c line 61
-static union anonymous$24 syslog_queue_mutex;
+static union anonymous_24 syslog_queue_mutex;
 // syslog_wi_free
 // file rtpp_syslog_async.c line 68
 static struct syslog_wi *syslog_wi_free;
 // syslog_wi_free_cond
 // file rtpp_syslog_async.c line 62
-static union anonymous$22 syslog_wi_free_cond;
+static union anonymous_22 syslog_wi_free_cond;
 // syslog_wi_free_mutex
 // file rtpp_syslog_async.c line 63
-static union anonymous$24 syslog_wi_free_mutex;
+static union anonymous_24 syslog_wi_free_mutex;
 // syslog_wi_pool
 // file rtpp_syslog_async.c line 67
 static struct syslog_wi syslog_wi_pool[64l];
@@ -1967,9 +1967,9 @@ void _rtpp_log_ewrite(struct cfg *cf, signed int level, const char *function, co
   void **ap;
   char rtpp_log_buff[2048l];
   char *fmt;
-  signed int return_value_check_level$1;
-  return_value_check_level$1=check_level(cf, cf->log_level, level);
-  if(!(return_value_check_level$1 == 0))
+  signed int return_value_check_level_1;
+  return_value_check_level_1=check_level(cf, cf->log_level, level);
+  if(!(return_value_check_level_1 == 0))
   {
     ap = (void **)&format;
     if(!(cf->nodaemon == 0))
@@ -1977,13 +1977,13 @@ void _rtpp_log_ewrite(struct cfg *cf, signed int level, const char *function, co
 
     else
       fmt = "%s:%s: %s: %s";
-    const char *return_value_strlvl$2;
-    return_value_strlvl$2=strlvl(level);
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    snprintf(rtpp_log_buff, sizeof(char [2048l]) /*2048ul*/ , fmt, return_value_strlvl$2, function, format, return_value_strerror$4);
+    const char *return_value_strlvl_2;
+    return_value_strlvl_2=strlvl(level);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    snprintf(rtpp_log_buff, sizeof(char [2048l]) /*2048ul*/ , fmt, return_value_strlvl_2, function, format, return_value_strerror_4);
     if(!(cf->nodaemon == 0))
       vfprintf(stderr, rtpp_log_buff, ap);
 
@@ -2006,9 +2006,9 @@ struct cfg * _rtpp_log_open(struct cfg *cf, const char *app)
   {
     if(syslog_async_opened == 0)
     {
-      signed int return_value_syslog_async_init$1;
-      return_value_syslog_async_init$1=syslog_async_init(app, facility);
-      if(return_value_syslog_async_init$1 == 0)
+      signed int return_value_syslog_async_init_1;
+      return_value_syslog_async_init_1=syslog_async_init(app, facility);
+      if(return_value_syslog_async_init_1 == 0)
         syslog_async_opened = 1;
 
     }
@@ -2025,9 +2025,9 @@ void _rtpp_log_write(struct cfg *cf, signed int level, const char *function, con
   void **ap;
   char rtpp_log_buff[2048l];
   char *fmt;
-  signed int return_value_check_level$1;
-  return_value_check_level$1=check_level(cf, cf->log_level, level);
-  if(!(return_value_check_level$1 == 0))
+  signed int return_value_check_level_1;
+  return_value_check_level_1=check_level(cf, cf->log_level, level);
+  if(!(return_value_check_level_1 == 0))
   {
     ap = (void **)&format;
     if(!(cf->nodaemon == 0))
@@ -2035,9 +2035,9 @@ void _rtpp_log_write(struct cfg *cf, signed int level, const char *function, con
 
     else
       fmt = "%s:%s: %s";
-    const char *return_value_strlvl$2;
-    return_value_strlvl$2=strlvl(level);
-    snprintf(rtpp_log_buff, sizeof(char [2048l]) /*2048ul*/ , fmt, return_value_strlvl$2, function, format);
+    const char *return_value_strlvl_2;
+    return_value_strlvl_2=strlvl(level);
+    snprintf(rtpp_log_buff, sizeof(char [2048l]) /*2048ul*/ , fmt, return_value_strlvl_2, function, format);
     if(!(cf->nodaemon == 0))
       vfprintf(stderr, rtpp_log_buff, ap);
 
@@ -2052,10 +2052,10 @@ void _rtpp_log_write(struct cfg *cf, signed int level, const char *function, con
 // file rtpp_util.h line 60
 const char * addr2char(struct sockaddr *ia)
 {
-  char *return_value_addr2char_r$1;
+  char *return_value_addr2char_r_1;
   static char buf[256l];
-  return_value_addr2char_r$1=addr2char_r(ia, buf, (signed int)sizeof(char [256l]) /*256ul*/ );
-  return return_value_addr2char_r$1;
+  return_value_addr2char_r_1=addr2char_r(ia, buf, (signed int)sizeof(char [256l]) /*256ul*/ );
+  return return_value_addr2char_r_1;
 }
 
 // addr2char_r
@@ -2078,9 +2078,9 @@ char * addr2char_r(struct sockaddr *ia, char *buf, signed int size)
     default:
       abort();
   }
-  const char *return_value_inet_ntop$1;
-  return_value_inet_ntop$1=inet_ntop((signed int)ia->sa_family, addr, buf, (unsigned int)size);
-  return (char *)(void *)return_value_inet_ntop$1;
+  const char *return_value_inet_ntop_1;
+  return_value_inet_ntop_1=inet_ntop((signed int)ia->sa_family, addr, buf, (unsigned int)size);
+  return (char *)(void *)return_value_inet_ntop_1;
 }
 
 // append_chunk
@@ -2113,13 +2113,13 @@ static void append_packet(struct rtp_packet *dst, struct rtp_packet *src)
 // file rtp_server.c line 161
 void append_server(struct cfg *cf, struct rtpp_session *sp)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(sp->rtps[0l] == ((struct rtp_server *)NULL)))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = sp->rtps[(signed long int)1] != (struct rtp_server *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = sp->rtps[(signed long int)1] != (struct rtp_server *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(sp->sridx == -1)
     {
@@ -2168,17 +2168,17 @@ signed int compare_session_tags(char *tag1, char *tag0, unsigned int *medianum_p
 {
   unsigned long int len0;
   len0=strlen(tag0);
-  signed int return_value_strncmp$2;
-  return_value_strncmp$2=strncmp(tag1, tag0, len0);
-  unsigned long int return_value_strtoul$1;
-  if(return_value_strncmp$2 == 0)
+  signed int return_value_strncmp_2;
+  return_value_strncmp_2=strncmp(tag1, tag0, len0);
+  unsigned long int return_value_strtoul_1;
+  if(return_value_strncmp_2 == 0)
   {
     if((signed int)tag1[(signed long int)len0] == 59)
     {
       if(!(medianum_p == ((unsigned int *)NULL)))
       {
-        return_value_strtoul$1=strtoul(tag1 + (signed long int)len0 + (signed long int)1, (char ** restrict )(void *)0, 10);
-        *medianum_p = (unsigned int)return_value_strtoul$1;
+        return_value_strtoul_1=strtoul(tag1 + (signed long int)len0 + (signed long int)1, (char ** restrict )(void *)0, 10);
+        *medianum_p = (unsigned int)return_value_strtoul_1;
       }
 
       return 2;
@@ -2235,8 +2235,8 @@ static signed int create_twinlistener(struct cfg *cf, struct sockaddr *ia, signe
   fds[(signed long int)0] = fds[(signed long int)1];
   rval = -1;
   i = 0;
-  signed int *return_value___errno_location$2;
-  signed int return_value_setsockopt$5;
+  signed int *return_value___errno_location_2;
+  signed int return_value_setsockopt_5;
   for( ; !(i >= 2); i = i + 1)
   {
     fds[(signed long int)i]=socket((signed int)ia->sa_family, 2, 0);
@@ -2250,22 +2250,22 @@ static signed int create_twinlistener(struct cfg *cf, struct sockaddr *ia, signe
 
     memcpy((void *)&iac, (const void *)ia, (signed int)ia->sa_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ );
     ((struct sockaddr_in *)&iac)->sin_port=htons((unsigned short int)port);
-    signed int return_value_bind$4;
-    return_value_bind$4=bind(fds[(signed long int)i], (struct sockaddr *)&iac, (unsigned int)((signed int)ia->sa_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ ));
-    if(!(return_value_bind$4 == 0))
+    signed int return_value_bind_4;
+    return_value_bind_4=bind(fds[(signed long int)i], (struct sockaddr *)&iac, (unsigned int)((signed int)ia->sa_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ ));
+    if(!(return_value_bind_4 == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      _Bool tmp_if_expr$3;
-      if(!(*return_value___errno_location$1 == 98))
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      _Bool tmp_if_expr_3;
+      if(!(*return_value___errno_location_1 == 98))
       {
-        return_value___errno_location$2=__errno_location();
-        tmp_if_expr$3 = *return_value___errno_location$2 != 13 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_2=__errno_location();
+        tmp_if_expr_3 = *return_value___errno_location_2 != 13 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
       {
         if(cf->glog->log_level >= 3)
           _rtpp_log_ewrite(cf->glog, 3, "create_twinlistener", "can't bind to the %s port %d", (signed int)ia->sa_family == 2 ? "IPv4" : "IPv6", port);
@@ -2282,8 +2282,8 @@ static signed int create_twinlistener(struct cfg *cf, struct sockaddr *ia, signe
     {
       if(cf->tos >= 0)
       {
-        return_value_setsockopt$5=setsockopt(fds[(signed long int)i], 0, 1, (const void *)&cf->tos, (unsigned int)sizeof(signed int) /*4ul*/ );
-        if(return_value_setsockopt$5 == -1)
+        return_value_setsockopt_5=setsockopt(fds[(signed long int)i], 0, 1, (const void *)&cf->tos, (unsigned int)sizeof(signed int) /*4ul*/ );
+        if(return_value_setsockopt_5 == -1)
         {
           if(cf->glog->log_level >= 3)
             _rtpp_log_ewrite(cf->glog, 3, "create_twinlistener", "unable to set TOS to %d", cf->tos);
@@ -2331,8 +2331,8 @@ void do_timeout_notification(struct rtpp_session *sp, signed int retries)
   signed int result;
   signed int len;
   struct rtpp_timeout_handler *th = sp->timeout_data.handler;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   if(!(th == ((struct rtpp_timeout_handler *)NULL)))
   {
     if(th->connected == 0)
@@ -2360,19 +2360,19 @@ void do_timeout_notification(struct rtpp_session *sp, signed int retries)
       assert((unsigned long int)len < sizeof(char [64l]) /*64ul*/ );
       do
       {
-        signed long int return_value_send$3;
-        return_value_send$3=send(th->fd, (const void *)th->notify_buf, (unsigned long int)len, 0);
-        result = (signed int)return_value_send$3;
+        signed long int return_value_send_3;
+        return_value_send_3=send(th->fd, (const void *)th->notify_buf, (unsigned long int)len, 0);
+        result = (signed int)return_value_send_3;
         if(len == -1)
         {
-          return_value___errno_location$1=__errno_location();
-          tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_1=__errno_location();
+          tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$2 = (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
       }
-      while(tmp_if_expr$2);
+      while(tmp_if_expr_2);
       if(!(result >= 0))
       {
         th->connected = 0;
@@ -2397,20 +2397,20 @@ static void doreply(struct cfg *cf, signed int fd, char *buf, signed int len, st
   if(cf->glog->log_level >= 7)
     _rtpp_log_write(cf->glog, 7, "doreply", "sending reply \"%s\"", buf);
 
-  signed long int return_value_sendto$1;
-  signed int *return_value___errno_location$2;
+  signed long int return_value_sendto_1;
+  signed int *return_value___errno_location_2;
   if(cf->umode == 0)
     write(fd, (const void *)buf, (unsigned long int)len);
 
   else
     do
     {
-      return_value_sendto$1=sendto(fd, (const void *)buf, (unsigned long int)len, 0, (struct sockaddr *)raddr, rlen);
-      if(!(return_value_sendto$1 == -1l))
+      return_value_sendto_1=sendto(fd, (const void *)buf, (unsigned long int)len, 0, (struct sockaddr *)raddr, rlen);
+      if(!(return_value_sendto_1 == -1l))
         break;
 
-      return_value___errno_location$2=__errno_location();
-      if(!(*return_value___errno_location$2 == 105))
+      return_value___errno_location_2=__errno_location();
+      if(!(*return_value___errno_location_2 == 105))
         break;
 
     }
@@ -2423,9 +2423,9 @@ signed int drop_privileges(struct cfg *cf)
 {
   if(!(cf->run_gname == ((char *)NULL)))
   {
-    signed int return_value_setgid$1;
-    return_value_setgid$1=setgid(cf->run_gid);
-    if(!(return_value_setgid$1 == 0))
+    signed int return_value_setgid_1;
+    return_value_setgid_1=setgid(cf->run_gid);
+    if(!(return_value_setgid_1 == 0))
     {
       if(cf->glog->log_level >= 3)
         _rtpp_log_ewrite(cf->glog, 3, "drop_privileges", "can't set current group ID: %d", cf->run_gid);
@@ -2440,9 +2440,9 @@ signed int drop_privileges(struct cfg *cf)
 
   else
   {
-    signed int return_value_setuid$2;
-    return_value_setuid$2=setuid(cf->run_uid);
-    if(!(return_value_setuid$2 == 0))
+    signed int return_value_setuid_2;
+    return_value_setuid_2=setuid(cf->run_uid);
+    if(!(return_value_setuid_2 == 0))
     {
       if(cf->glog->log_level >= 3)
         _rtpp_log_ewrite(cf->glog, 3, "drop_privileges", "can't set current user ID: %d", cf->run_uid);
@@ -2459,12 +2459,12 @@ signed int drop_privileges(struct cfg *cf)
 // file rtpp_util.h line 62
 void dtime2ts(double dtime, unsigned int *ts_sec, unsigned int *ts_usec)
 {
-  double return_value_trunc$1;
-  return_value_trunc$1=trunc(dtime);
-  *ts_sec = (unsigned int)return_value_trunc$1;
-  double return_value_round$2;
-  return_value_round$2=round(1000000.0 * (dtime - (double)*ts_sec));
-  *ts_usec = (unsigned int)return_value_round$2;
+  double return_value_trunc_1;
+  return_value_trunc_1=trunc(dtime);
+  *ts_sec = (unsigned int)return_value_trunc_1;
+  double return_value_round_2;
+  return_value_round_2=round(1000000.0 * (dtime - (double)*ts_sec));
+  *ts_usec = (unsigned int)return_value_round_2;
 }
 
 // ehandler
@@ -2496,20 +2496,20 @@ signed int find_stream(struct cfg *cf, char *call_id, char *from_tag, char *to_t
   char *cp1;
   char *cp2;
   *spp=session_findfirst(cf, call_id);
-  signed int return_value_strcmp$2;
+  signed int return_value_strcmp_2;
   while(!(*spp == ((struct rtpp_session *)NULL)))
   {
-    signed int return_value_strcmp$3;
-    return_value_strcmp$3=strcmp((*spp)->tag, from_tag);
-    if(return_value_strcmp$3 == 0)
+    signed int return_value_strcmp_3;
+    return_value_strcmp_3=strcmp((*spp)->tag, from_tag);
+    if(return_value_strcmp_3 == 0)
       return 0;
 
     else
       if(!(to_tag == ((char *)NULL)))
       {
-        signed int return_value_compare_session_tags$1;
-        return_value_compare_session_tags$1=compare_session_tags((*spp)->tag, to_tag, (unsigned int *)(void *)0);
-        switch(return_value_compare_session_tags$1)
+        signed int return_value_compare_session_tags_1;
+        return_value_compare_session_tags_1=compare_session_tags((*spp)->tag, to_tag, (unsigned int *)(void *)0);
+        switch(return_value_compare_session_tags_1)
         {
           case 1:
             return 1;
@@ -2519,8 +2519,8 @@ signed int find_stream(struct cfg *cf, char *call_id, char *from_tag, char *to_t
             cp2=strrchr(from_tag, 59);
             if(!(cp2 == ((char *)NULL)))
             {
-              return_value_strcmp$2=strcmp(cp1, cp2);
-              if(return_value_strcmp$2 == 0)
+              return_value_strcmp_2=strcmp(cp1, cp2);
+              if(return_value_strcmp_2 == 0)
                 return 1;
 
             }
@@ -2542,9 +2542,9 @@ signed int find_stream(struct cfg *cf, char *call_id, char *from_tag, char *to_t
 static signed int flush_rbuf(struct rtpp_session *sp, void *rrc)
 {
   signed int rval;
-  signed long int return_value_write$1;
-  return_value_write$1=write(((struct rtpp_record_channel *)rrc)->fd, (const void *)((struct rtpp_record_channel *)rrc)->rbuf, (unsigned long int)((struct rtpp_record_channel *)rrc)->rbuf_len);
-  rval = (signed int)return_value_write$1;
+  signed long int return_value_write_1;
+  return_value_write_1=write(((struct rtpp_record_channel *)rrc)->fd, (const void *)((struct rtpp_record_channel *)rrc)->rbuf, (unsigned long int)((struct rtpp_record_channel *)rrc)->rbuf_len);
+  rval = (signed int)return_value_write_1;
   if(!(rval == -1))
   {
     ((struct rtpp_record_channel *)rrc)->rbuf_len = 0;
@@ -2603,27 +2603,27 @@ static signed int g723_samples(const unsigned char *buf, signed int maxlen)
 // file rtpp_session.h line 101
 signed int get_ttl(struct rtpp_session *sp)
 {
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$2;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_2;
   switch((signed int)sp->ttl_mode)
   {
     case TTL_UNIFIED:
     {
       if(!(sp->ttl[1l] >= sp->ttl[0l]))
-        tmp_if_expr$1 = sp->ttl[(signed long int)0];
+        tmp_if_expr_1 = sp->ttl[(signed long int)0];
 
       else
-        tmp_if_expr$1 = sp->ttl[(signed long int)1];
-      return tmp_if_expr$1;
+        tmp_if_expr_1 = sp->ttl[(signed long int)1];
+      return tmp_if_expr_1;
     }
     case TTL_INDEPENDENT:
     {
       if(!(sp->ttl[1l] >= sp->ttl[0l]))
-        tmp_if_expr$2 = sp->ttl[(signed long int)1];
+        tmp_if_expr_2 = sp->ttl[(signed long int)1];
 
       else
-        tmp_if_expr$2 = sp->ttl[(signed long int)0];
-      return tmp_if_expr$2;
+        tmp_if_expr_2 = sp->ttl[(signed long int)0];
+      return tmp_if_expr_2;
     }
     default:
     {
@@ -2638,9 +2638,9 @@ signed int get_ttl(struct rtpp_session *sp)
 double getdtime(void)
 {
   struct timeval timev;
-  signed int return_value_gettimeofday$1;
-  return_value_gettimeofday$1=gettimeofday(&timev, (struct timezone *)(void *)0);
-  if(return_value_gettimeofday$1 == -1)
+  signed int return_value_gettimeofday_1;
+  return_value_gettimeofday_1=gettimeofday(&timev, (struct timezone *)(void *)0);
+  if(return_value_gettimeofday_1 == -1)
     return (double)-1;
 
   else
@@ -2687,12 +2687,12 @@ signed int handle_command(struct cfg *cf, signed int controlfd, double dtime)
   struct sockaddr *lia[2l];
   struct sockaddr_storage raddr;
   signed int requested_nsamples;
-  /* #anon_enum$DELETE=0$RECORD=1$PLAY=2$NOPLAY=3$COPY=4$UPDATE=5$LOOKUP=6$QUERY=7 */
-enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOKUP=6, QUERY=7 };
+  /* #anon_enum_DELETE=0_RECORD=1_PLAY=2_NOPLAY=3_COPY=4_UPDATE=5_LOOKUP=6_QUERY=7 */
+enum anonymous_15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOKUP=6, QUERY=7 };
 
 /* */
   ;
-  enum anonymous$15 op;
+  enum anonymous_15 op;
   signed int max_argc;
   char *socket_name_u;
   char *notify_tag;
@@ -2709,33 +2709,33 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
   recording_name = (char *)(void *)0;
   notify_tag = (char *)(void *)0;
   socket_name_u = notify_tag;
-  signed int *return_value___errno_location$2;
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_2;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
   if(cf->umode == 0)
     do
     {
-      signed long int return_value_read$1;
-      return_value_read$1=read(controlfd, (void *)buf, sizeof(char [8192l]) /*8192ul*/  - (unsigned long int)1);
-      len = (signed int)return_value_read$1;
-      _Bool tmp_if_expr$5;
+      signed long int return_value_read_1;
+      return_value_read_1=read(controlfd, (void *)buf, sizeof(char [8192l]) /*8192ul*/  - (unsigned long int)1);
+      len = (signed int)return_value_read_1;
+      _Bool tmp_if_expr_5;
       if(!(len == -1))
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$2=__errno_location();
-        if(!(*return_value___errno_location$2 == 11))
+        return_value___errno_location_2=__errno_location();
+        if(!(*return_value___errno_location_2 == 11))
         {
-          return_value___errno_location$3=__errno_location();
-          tmp_if_expr$4 = *return_value___errno_location$3 != 4 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_3=__errno_location();
+          tmp_if_expr_4 = *return_value___errno_location_3 != 4 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (_Bool)0;
+        tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
+      if(tmp_if_expr_5)
         break;
 
       sched_yield();
@@ -2745,19 +2745,19 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
   else
   {
     rlen = (unsigned int)sizeof(struct sockaddr_storage) /*128ul*/ ;
-    signed long int return_value_recvfrom$6;
-    return_value_recvfrom$6=recvfrom(controlfd, (void *)buf, sizeof(char [8192l]) /*8192ul*/  - (unsigned long int)1, 0, (struct sockaddr *)&raddr, &rlen);
-    len = (signed int)return_value_recvfrom$6;
+    signed long int return_value_recvfrom_6;
+    return_value_recvfrom_6=recvfrom(controlfd, (void *)buf, sizeof(char [8192l]) /*8192ul*/  - (unsigned long int)1, 0, (struct sockaddr *)&raddr, &rlen);
+    len = (signed int)return_value_recvfrom_6;
   }
-  signed int *return_value___errno_location$7;
+  signed int *return_value___errno_location_7;
   if(len == -1)
   {
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    if(!(*return_value___errno_location$8 == 11))
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    if(!(*return_value___errno_location_8 == 11))
     {
-      return_value___errno_location$7=__errno_location();
-      if(!(*return_value___errno_location$7 == 4))
+      return_value___errno_location_7=__errno_location();
+      if(!(*return_value___errno_location_7 == 4))
       {
         if(cf->glog->log_level >= 3)
           _rtpp_log_ewrite(cf->glog, 3, "handle_command", "can't read from control socket");
@@ -2795,20 +2795,20 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
   }
   while((_Bool)1);
   cookie = (char *)(void *)0;
-  _Bool tmp_if_expr$9;
+  _Bool tmp_if_expr_9;
   if(!(argc >= 1))
-    tmp_if_expr$9 = (_Bool)1;
+    tmp_if_expr_9 = (_Bool)1;
 
   else
-    tmp_if_expr$9 = (cf->umode != 0 ? (argc < 2 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-  signed long int return_value_strtol$26;
-  void *return_value___builtin_alloca$28;
-  unsigned long int return_value_strlen$33;
-  signed int return_value_strcmp$34;
-  signed int return_value_handle_play$35;
-  signed int return_value_memcmp$44;
-  signed int return_value_memcmp$47;
-  if(tmp_if_expr$9)
+    tmp_if_expr_9 = (cf->umode != 0 ? (argc < 2 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+  signed long int return_value_strtol_26;
+  void *return_value___builtin_alloca_28;
+  unsigned long int return_value_strlen_33;
+  signed int return_value_strcmp_34;
+  signed int return_value_handle_play_35;
+  signed int return_value_memcmp_44;
+  signed int return_value_memcmp_47;
+  if(tmp_if_expr_9)
   {
     if(cf->glog->log_level >= 3)
       _rtpp_log_write(cf->glog, 3, "handle_command", "command syntax error");
@@ -2839,7 +2839,7 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
 
       case 85:
       {
-        op = (enum anonymous$15)UPDATE;
+        op = (enum anonymous_15)UPDATE;
         rname = "update/create";
         break;
       }
@@ -2847,7 +2847,7 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
 
       case 76:
       {
-        op = (enum anonymous$15)LOOKUP;
+        op = (enum anonymous_15)LOOKUP;
         rname = "lookup";
         break;
       }
@@ -2855,7 +2855,7 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
 
       case 68:
       {
-        op = (enum anonymous$15)DELETE;
+        op = (enum anonymous_15)DELETE;
         rname = "delete";
         break;
       }
@@ -2863,7 +2863,7 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
 
       case 80:
       {
-        op = (enum anonymous$15)PLAY;
+        op = (enum anonymous_15)PLAY;
         rname = "play";
         playcount = 1;
         pname = argv[(signed long int)2];
@@ -2874,7 +2874,7 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
 
       case 82:
       {
-        op = (enum anonymous$15)RECORD;
+        op = (enum anonymous_15)RECORD;
         rname = "record";
         break;
       }
@@ -2882,7 +2882,7 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
 
       case 67:
       {
-        op = (enum anonymous$15)COPY;
+        op = (enum anonymous_15)COPY;
         rname = "copy";
         break;
       }
@@ -2890,7 +2890,7 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
 
       case 83:
       {
-        op = (enum anonymous$15)NOPLAY;
+        op = (enum anonymous_15)NOPLAY;
         rname = "noplay";
         break;
       }
@@ -2898,15 +2898,15 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
 
       case 86:
       {
-        _Bool tmp_if_expr$12;
+        _Bool tmp_if_expr_12;
         if((signed int)argv[0l][1l] == 70)
-          tmp_if_expr$12 = (_Bool)1;
+          tmp_if_expr_12 = (_Bool)1;
 
         else
-          tmp_if_expr$12 = (signed int)argv[(signed long int)0][(signed long int)1] == 102 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$12)
+          tmp_if_expr_12 = (signed int)argv[(signed long int)0][(signed long int)1] == 102 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_12)
         {
-          signed int handle_command$$1$$9$$1$$i;
+          signed int handle_command__1__9__1__i;
           signed int known;
           if(!(argc == 2) && !(argc == 3))
           {
@@ -2917,9 +2917,9 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
             return 0;
           }
 
-          signed int return_value_strcmp$10;
-          return_value_strcmp$10=strcmp(argv[(signed long int)1], "20081224");
-          if(return_value_strcmp$10 == 0)
+          signed int return_value_strcmp_10;
+          return_value_strcmp_10=strcmp(argv[(signed long int)1], "20081224");
+          if(return_value_strcmp_10 == 0)
           {
             if(cf->timeout_handler.socket_name == ((char *)NULL))
             {
@@ -2929,13 +2929,13 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
 
           }
 
-          handle_command$$1$$9$$1$$i = 0;
-          known = handle_command$$1$$9$$1$$i;
-          for( ; !(proto_caps[(signed long int)handle_command$$1$$9$$1$$i].pc_id == ((const char *)NULL)); handle_command$$1$$9$$1$$i = handle_command$$1$$9$$1$$i + 1)
+          handle_command__1__9__1__i = 0;
+          known = handle_command__1__9__1__i;
+          for( ; !(proto_caps[(signed long int)handle_command__1__9__1__i].pc_id == ((const char *)NULL)); handle_command__1__9__1__i = handle_command__1__9__1__i + 1)
           {
-            signed int return_value_strcmp$11;
-            return_value_strcmp$11=strcmp(argv[(signed long int)1], proto_caps[(signed long int)handle_command$$1$$9$$1$$i].pc_id);
-            if(return_value_strcmp$11 == 0)
+            signed int return_value_strcmp_11;
+            return_value_strcmp_11=strcmp(argv[(signed long int)1], proto_caps[(signed long int)handle_command__1__9__1__i].pc_id);
+            if(return_value_strcmp_11 == 0)
             {
               known = 1;
               break;
@@ -2972,34 +2972,34 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
         {
           char addrs[4l][256l];
           spa = cf->sessions[(signed long int)i];
-          _Bool tmp_if_expr$13;
+          _Bool tmp_if_expr_13;
           if(spa == ((struct rtpp_session *)NULL))
-            tmp_if_expr$13 = (_Bool)1;
+            tmp_if_expr_13 = (_Bool)1;
 
           else
-            tmp_if_expr$13 = spa->sidx[(signed long int)0] != i ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$13)
+            tmp_if_expr_13 = spa->sidx[(signed long int)0] != i ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_13)
           {
             if(spa->rtcp == ((struct rtpp_session *)NULL))
             {
               spb = spa->rtp;
-              signed int tmp_post$14 = len;
+              signed int tmp_post_14 = len;
               len = len + 1;
-              buf[(signed long int)tmp_post$14] = (char)9;
+              buf[(signed long int)tmp_post_14] = (char)9;
             }
 
             else
             {
               spb = spa->rtcp;
-              signed int tmp_post$15 = len;
+              signed int tmp_post_15 = len;
               len = len + 1;
-              buf[(signed long int)tmp_post$15] = (char)9;
-              signed int tmp_post$16 = len;
+              buf[(signed long int)tmp_post_15] = (char)9;
+              signed int tmp_post_16 = len;
               len = len + 1;
-              buf[(signed long int)tmp_post$16] = (char)67;
-              signed int tmp_post$17 = len;
+              buf[(signed long int)tmp_post_16] = (char)67;
+              signed int tmp_post_17 = len;
               len = len + 1;
-              buf[(signed long int)tmp_post$17] = (char)32;
+              buf[(signed long int)tmp_post_17] = (char)32;
             }
             addr2char_r(spb->laddr[(signed long int)1], addrs[(signed long int)0], (signed int)sizeof(char [256l]) /*256ul*/ );
             if(spb->addr[1l] == ((struct sockaddr *)NULL))
@@ -3007,11 +3007,11 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
 
             else
             {
-              const char *return_value_addr2char$18;
-              return_value_addr2char$18=addr2char(spb->addr[(signed long int)1]);
-              unsigned short int return_value_ntohs$19;
-              return_value_ntohs$19=ntohs(((struct sockaddr_in *)spb->addr[(signed long int)1])->sin_port);
-              sprintf(addrs[(signed long int)1], "%s:%d", return_value_addr2char$18, return_value_ntohs$19);
+              const char *return_value_addr2char_18;
+              return_value_addr2char_18=addr2char(spb->addr[(signed long int)1]);
+              unsigned short int return_value_ntohs_19;
+              return_value_ntohs_19=ntohs(((struct sockaddr_in *)spb->addr[(signed long int)1])->sin_port);
+              sprintf(addrs[(signed long int)1], "%s:%d", return_value_addr2char_18, return_value_ntohs_19);
             }
             addr2char_r(spb->laddr[(signed long int)0], addrs[(signed long int)2], (signed int)sizeof(char [256l]) /*256ul*/ );
             if(spb->addr[0l] == ((struct sockaddr *)NULL))
@@ -3019,15 +3019,15 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
 
             else
             {
-              const char *return_value_addr2char$20;
-              return_value_addr2char$20=addr2char(spb->addr[(signed long int)0]);
-              unsigned short int return_value_ntohs$21;
-              return_value_ntohs$21=ntohs(((struct sockaddr_in *)spb->addr[(signed long int)0])->sin_port);
-              sprintf(addrs[(signed long int)3], "%s:%d", return_value_addr2char$20, return_value_ntohs$21);
+              const char *return_value_addr2char_20;
+              return_value_addr2char_20=addr2char(spb->addr[(signed long int)0]);
+              unsigned short int return_value_ntohs_21;
+              return_value_ntohs_21=ntohs(((struct sockaddr_in *)spb->addr[(signed long int)0])->sin_port);
+              sprintf(addrs[(signed long int)3], "%s:%d", return_value_addr2char_20, return_value_ntohs_21);
             }
-            signed int return_value_sprintf$22;
-            return_value_sprintf$22=sprintf(buf + (signed long int)len, "%s/%s: caller = %s:%d/%s, callee = %s:%d/%s, stats = %lu/%lu/%lu/%lu, ttl = %d/%d\n", spb->call_id, spb->tag, (const void *)addrs[(signed long int)0], spb->ports[(signed long int)1], (const void *)addrs[(signed long int)1], (const void *)addrs[(signed long int)2], spb->ports[(signed long int)0], (const void *)addrs[(signed long int)3], spa->pcount[(signed long int)0], spa->pcount[(signed long int)1], spa->pcount[(signed long int)2], spa->pcount[(signed long int)3], spb->ttl[(signed long int)0], spb->ttl[(signed long int)1]);
-            len = len + return_value_sprintf$22;
+            signed int return_value_sprintf_22;
+            return_value_sprintf_22=sprintf(buf + (signed long int)len, "%s/%s: caller = %s:%d/%s, callee = %s:%d/%s, stats = %lu/%lu/%lu/%lu, ttl = %d/%d\n", spb->call_id, spb->tag, (const void *)addrs[(signed long int)0], spb->ports[(signed long int)1], (const void *)addrs[(signed long int)1], (const void *)addrs[(signed long int)2], spb->ports[(signed long int)0], (const void *)addrs[(signed long int)3], spa->pcount[(signed long int)0], spa->pcount[(signed long int)1], spa->pcount[(signed long int)2], spa->pcount[(signed long int)3], spb->ttl[(signed long int)0], spb->ttl[(signed long int)1]);
+            len = len + return_value_sprintf_22;
             if((unsigned long int)(512 + len) >= 8193ul)
             {
               doreply(cf, controlfd, buf, len, &raddr, rlen);
@@ -3046,7 +3046,7 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
 
       case 81:
       {
-        op = (enum anonymous$15)QUERY;
+        op = (enum anonymous_15)QUERY;
         rname = "query";
         break;
       }
@@ -3061,13 +3061,13 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
         for( ; !(i >= cf->nsessions); i = i + 1)
         {
           spa = cf->sessions[(signed long int)i];
-          _Bool tmp_if_expr$23;
+          _Bool tmp_if_expr_23;
           if(spa == ((struct rtpp_session *)NULL))
-            tmp_if_expr$23 = (_Bool)1;
+            tmp_if_expr_23 = (_Bool)1;
 
           else
-            tmp_if_expr$23 = spa->sidx[(signed long int)0] != i ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$23)
+            tmp_if_expr_23 = spa->sidx[(signed long int)0] != i ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_23)
           {
             if(!(spa->rtcp == ((struct rtpp_session *)NULL)))
               remove_session(cf, spa);
@@ -3112,17 +3112,17 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
       if((signed int)op == UPDATE && argc >= 7)
       {
         socket_name_u = argv[(signed long int)6];
-        signed int return_value_strncmp$24;
-        return_value_strncmp$24=strncmp("unix:", socket_name_u, (unsigned long int)5);
-        if(return_value_strncmp$24 == 0)
+        signed int return_value_strncmp_24;
+        return_value_strncmp_24=strncmp("unix:", socket_name_u, (unsigned long int)5);
+        if(return_value_strncmp_24 == 0)
           socket_name_u = socket_name_u + (signed long int)5;
 
         if(argc == 8)
         {
           notify_tag = argv[(signed long int)7];
-          unsigned long int return_value_strlen$25;
-          return_value_strlen$25=strlen(notify_tag);
-          len=url_unquote((unsigned char *)notify_tag, (signed int)return_value_strlen$25);
+          unsigned long int return_value_strlen_25;
+          return_value_strlen_25=strlen(notify_tag);
+          len=url_unquote((unsigned char *)notify_tag, (signed int)return_value_strlen_25);
           if(len == -1)
           {
             if(cf->glog->log_level >= 3)
@@ -3263,8 +3263,8 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
 
             case 90:
             {
-              return_value_strtol$26=strtol(cp + (signed long int)1, &cp, 10);
-              requested_nsamples = (signed int)((return_value_strtol$26 / (signed long int)10) * (signed long int)80);
+              return_value_strtol_26=strtol(cp + (signed long int)1, &cp, 10);
+              requested_nsamples = (signed int)((return_value_strtol_26 / (signed long int)10) * (signed long int)80);
               if(!(requested_nsamples >= 1))
               {
                 if(cf->glog->log_level >= 3)
@@ -3285,9 +3285,9 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
               t = cp;
               for( ; !((signed int)*cp == 0); cp = cp + 1l)
               {
-                const unsigned short int **return_value___ctype_b_loc$27;
-                return_value___ctype_b_loc$27=__ctype_b_loc();
-                if((2048 & (signed int)(*return_value___ctype_b_loc$27)[(signed long int)(signed int)*cp]) == 0)
+                const unsigned short int **return_value___ctype_b_loc_27;
+                return_value___ctype_b_loc_27=__ctype_b_loc();
+                if((2048 & (signed int)(*return_value___ctype_b_loc_27)[(signed long int)(signed int)*cp]) == 0)
                 {
                   if(!((signed int)*cp == 44))
                     break;
@@ -3304,8 +3304,8 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
                 return 0;
               }
 
-              return_value___builtin_alloca$28=__builtin_alloca((unsigned long int)((cp - t) + (signed long int)1));
-              codecs = (char *)return_value___builtin_alloca$28;
+              return_value___builtin_alloca_28=__builtin_alloca((unsigned long int)((cp - t) + (signed long int)1));
+              codecs = (char *)return_value___builtin_alloca_28;
               memcpy((void *)codecs, (const void *)t, (unsigned long int)(cp - t));
               codecs[cp - t] = (char)0;
               cp = cp - 1l;
@@ -3318,23 +3318,23 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
           }
         if(!(addr == ((char *)NULL)) && !(port == ((char *)NULL)) && !((signed int)op == DELETE))
         {
-          return_value_strlen$33=strlen(addr);
-          if(return_value_strlen$33 >= 7ul)
+          return_value_strlen_33=strlen(addr);
+          if(return_value_strlen_33 >= 7ul)
           {
             struct sockaddr_storage tia;
             n=resolve((struct sockaddr *)&tia, pf, addr, port, 0x0004);
             if(n == 0)
             {
-              signed int return_value_ishostnull$31;
-              return_value_ishostnull$31=ishostnull((struct sockaddr *)&tia);
-              if(return_value_ishostnull$31 == 0)
+              signed int return_value_ishostnull_31;
+              return_value_ishostnull_31=ishostnull((struct sockaddr *)&tia);
+              if(return_value_ishostnull_31 == 0)
               {
                 i = 0;
                 for( ; !(i >= 2); i = i + 1)
                 {
-                  void *return_value_malloc$29;
-                  return_value_malloc$29=malloc((signed int)(&tia)->ss_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ );
-                  ia[(signed long int)i] = (struct sockaddr *)return_value_malloc$29;
+                  void *return_value_malloc_29;
+                  return_value_malloc_29=malloc((signed int)(&tia)->ss_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ );
+                  ia[(signed long int)i] = (struct sockaddr *)return_value_malloc_29;
                   if(ia[(signed long int)i] == ((struct sockaddr *)NULL))
                   {
                     handle_nomem(cf, controlfd, &raddr, rlen, cookie, 5, ia, fds, spa, spb);
@@ -3343,9 +3343,9 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
 
                   memcpy((void *)ia[(signed long int)i], (const void *)&tia, (signed int)(&tia)->ss_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ );
                 }
-                unsigned short int return_value_ntohs$30;
-                return_value_ntohs$30=ntohs(((struct sockaddr_in *)ia[(signed long int)1])->sin_port);
-                n = (signed int)return_value_ntohs$30;
+                unsigned short int return_value_ntohs_30;
+                return_value_ntohs_30=ntohs(((struct sockaddr_in *)ia[(signed long int)1])->sin_port);
+                n = (signed int)return_value_ntohs_30;
                 ((struct sockaddr_in *)ia[(signed long int)1])->sin_port=htons((unsigned short int)(n + 1));
               }
 
@@ -3354,9 +3354,9 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
             else
               if(cf->glog->log_level >= 3)
               {
-                const char *return_value_gai_strerror$32;
-                return_value_gai_strerror$32=gai_strerror(n);
-                _rtpp_log_write(cf->glog, 3, "handle_command", "getaddrinfo: %s", return_value_gai_strerror$32);
+                const char *return_value_gai_strerror_32;
+                return_value_gai_strerror_32=gai_strerror(n);
+                _rtpp_log_write(cf->glog, 3, "handle_command", "getaddrinfo: %s", return_value_gai_strerror_32);
               }
 
           }
@@ -3425,8 +3425,8 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
           case PLAY:
           {
             handle_noplay(cf, spa, i);
-            return_value_strcmp$34=strcmp(codecs, "session");
-            if(return_value_strcmp$34 == 0)
+            return_value_strcmp_34=strcmp(codecs, "session");
+            if(return_value_strcmp_34 == 0)
             {
               if(spa->codecs[(signed long int)i] == ((char *)NULL))
               {
@@ -3439,8 +3439,8 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
 
             if(!(playcount == 0))
             {
-              return_value_handle_play$35=handle_play(cf, spa, i, codecs, pname, playcount);
-              if(!(return_value_handle_play$35 == 0))
+              return_value_handle_play_35=handle_play(cf, spa, i, codecs, pname, playcount);
+              if(!(return_value_handle_play_35 == 0))
               {
                 reply_error(cf, controlfd, &raddr, rlen, cookie, 6);
                 return 0;
@@ -3477,12 +3477,12 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
           assert((signed int)op == UPDATE || (signed int)op == LOOKUP);
           if(spa->fds[(signed long int)i] == -1)
           {
-            signed int return_value_ishostseq$36;
-            return_value_ishostseq$36=ishostseq(cf->bindaddr[(signed long int)0], spa->laddr[(signed long int)i]);
-            j = return_value_ishostseq$36 != 0 ? 0 : 1;
-            signed int return_value_create_listener$37;
-            return_value_create_listener$37=create_listener(cf, spa->laddr[(signed long int)i], &lport, fds);
-            if(return_value_create_listener$37 == -1)
+            signed int return_value_ishostseq_36;
+            return_value_ishostseq_36=ishostseq(cf->bindaddr[(signed long int)0], spa->laddr[(signed long int)i]);
+            j = return_value_ishostseq_36 != 0 ? 0 : 1;
+            signed int return_value_create_listener_37;
+            return_value_create_listener_37=create_listener(cf, spa->laddr[(signed long int)i], &lport, fds);
+            if(return_value_create_listener_37 == -1)
             {
               if(spa->log->log_level >= 3)
                 _rtpp_log_write(spa->log, 3, "handle_command", "can't create listener");
@@ -3537,12 +3537,12 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
           if(cf->glog->log_level >= 6)
             _rtpp_log_write(cf->glog, 6, "handle_command", "new session %s, tag %s requested, type %s", call_id, from_tag, weak != 0 ? "weak" : "strong");
 
-          signed int return_value_ishostseq$38;
-          return_value_ishostseq$38=ishostseq(cf->bindaddr[(signed long int)0], lia[(signed long int)0]);
-          j = return_value_ishostseq$38 != 0 ? 0 : 1;
-          signed int return_value_create_listener$39;
-          return_value_create_listener$39=create_listener(cf, cf->bindaddr[(signed long int)j], &lport, fds);
-          if(return_value_create_listener$39 == -1)
+          signed int return_value_ishostseq_38;
+          return_value_ishostseq_38=ishostseq(cf->bindaddr[(signed long int)0], lia[(signed long int)0]);
+          j = return_value_ishostseq_38 != 0 ? 0 : 1;
+          signed int return_value_create_listener_39;
+          return_value_create_listener_39=create_listener(cf, cf->bindaddr[(signed long int)j], &lport, fds);
+          if(return_value_create_listener_39 == -1)
           {
             if(cf->glog->log_level >= 3)
               _rtpp_log_write(cf->glog, 3, "handle_command", "can't create listener");
@@ -3551,18 +3551,18 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
             return 0;
           }
 
-          void *return_value_malloc$40;
-          return_value_malloc$40=malloc(sizeof(struct rtpp_session) /*400ul*/ );
-          spa = (struct rtpp_session *)return_value_malloc$40;
+          void *return_value_malloc_40;
+          return_value_malloc_40=malloc(sizeof(struct rtpp_session) /*400ul*/ );
+          spa = (struct rtpp_session *)return_value_malloc_40;
           if(spa == ((struct rtpp_session *)NULL))
           {
             handle_nomem(cf, controlfd, &raddr, rlen, cookie, 11, ia, fds, spa, spb);
             return 0;
           }
 
-          void *return_value_malloc$41;
-          return_value_malloc$41=malloc(sizeof(struct rtpp_session) /*400ul*/ );
-          spb = (struct rtpp_session *)return_value_malloc$41;
+          void *return_value_malloc_41;
+          return_value_malloc_41=malloc(sizeof(struct rtpp_session) /*400ul*/ );
+          spb = (struct rtpp_session *)return_value_malloc_41;
           if(spb == ((struct rtpp_session *)NULL))
           {
             handle_nomem(cf, controlfd, &raddr, rlen, cookie, 12, ia, fds, spa, spb);
@@ -3681,9 +3681,9 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
 
           if(!(cf->timeout_handler.socket_name == ((char *)NULL)) && !(socket_name_u == ((char *)NULL)))
           {
-            signed int return_value_strcmp$42;
-            return_value_strcmp$42=strcmp(cf->timeout_handler.socket_name, socket_name_u);
-            if(!(return_value_strcmp$42 == 0))
+            signed int return_value_strcmp_42;
+            return_value_strcmp_42=strcmp(cf->timeout_handler.socket_name, socket_name_u);
+            if(!(return_value_strcmp_42 == 0))
             {
               if(spa->log->log_level >= 3)
                 _rtpp_log_write(spa->log, 3, "handle_command", "invalid socket name %s", socket_name_u);
@@ -3728,22 +3728,22 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
 
             if(spa->untrusted_addr[(signed long int)pidx] == 0)
             {
-              _Bool tmp_if_expr$43;
+              _Bool tmp_if_expr_43;
               if(!(spa->addr[(signed long int)pidx] == ((struct sockaddr *)NULL)))
-                tmp_if_expr$43 = ((signed int)ia[(signed long int)0]->sa_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ ) == ((signed int)spa->addr[(signed long int)pidx]->sa_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ ) ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_43 = ((signed int)ia[(signed long int)0]->sa_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ ) == ((signed int)spa->addr[(signed long int)pidx]->sa_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ ) ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$43 = (_Bool)0;
-              _Bool tmp_if_expr$45;
-              if(tmp_if_expr$43)
+                tmp_if_expr_43 = (_Bool)0;
+              _Bool tmp_if_expr_45;
+              if(tmp_if_expr_43)
               {
-                return_value_memcmp$44=memcmp((const void *)ia[(signed long int)0], (const void *)spa->addr[(signed long int)pidx], (signed int)ia[(signed long int)0]->sa_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ );
-                tmp_if_expr$45 = return_value_memcmp$44 == 0 ? (_Bool)1 : (_Bool)0;
+                return_value_memcmp_44=memcmp((const void *)ia[(signed long int)0], (const void *)spa->addr[(signed long int)pidx], (signed int)ia[(signed long int)0]->sa_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ );
+                tmp_if_expr_45 = return_value_memcmp_44 == 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$45 = (_Bool)0;
-              if(!tmp_if_expr$45)
+                tmp_if_expr_45 = (_Bool)0;
+              if(!tmp_if_expr_45)
               {
                 if(spa->log->log_level >= 6)
                   _rtpp_log_write(spa->log, 6, "handle_command", "pre-filling %s's address with %s:%s", pidx == 0 ? "callee" : "caller", addr, port);
@@ -3770,22 +3770,22 @@ enum anonymous$15 { DELETE=0, RECORD=1, PLAY=2, NOPLAY=3, COPY=4, UPDATE=5, LOOK
 
             if(spa->rtcp->untrusted_addr[(signed long int)pidx] == 0)
             {
-              _Bool tmp_if_expr$46;
+              _Bool tmp_if_expr_46;
               if(!(spa->rtcp->addr[(signed long int)pidx] == ((struct sockaddr *)NULL)))
-                tmp_if_expr$46 = ((signed int)ia[(signed long int)1]->sa_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ ) == ((signed int)spa->rtcp->addr[(signed long int)pidx]->sa_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ ) ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_46 = ((signed int)ia[(signed long int)1]->sa_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ ) == ((signed int)spa->rtcp->addr[(signed long int)pidx]->sa_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ ) ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$46 = (_Bool)0;
-              _Bool tmp_if_expr$48;
-              if(tmp_if_expr$46)
+                tmp_if_expr_46 = (_Bool)0;
+              _Bool tmp_if_expr_48;
+              if(tmp_if_expr_46)
               {
-                return_value_memcmp$47=memcmp((const void *)ia[(signed long int)1], (const void *)spa->rtcp->addr[(signed long int)pidx], (signed int)ia[(signed long int)1]->sa_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ );
-                tmp_if_expr$48 = return_value_memcmp$47 == 0 ? (_Bool)1 : (_Bool)0;
+                return_value_memcmp_47=memcmp((const void *)ia[(signed long int)1], (const void *)spa->rtcp->addr[(signed long int)pidx], (signed int)ia[(signed long int)1]->sa_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ );
+                tmp_if_expr_48 = return_value_memcmp_47 == 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$48 = (_Bool)0;
-              if(!tmp_if_expr$48)
+                tmp_if_expr_48 = (_Bool)0;
+              if(!tmp_if_expr_48)
               {
                 if(!(spa->rtcp->addr[(signed long int)pidx] == ((struct sockaddr *)NULL)))
                 {
@@ -3905,16 +3905,16 @@ static signed int handle_delete(struct cfg *cf, char *call_id, char *from_tag, c
 
     else
     {
-      _Bool tmp_if_expr$1;
+      _Bool tmp_if_expr_1;
       if(!(to_tag == ((char *)NULL)))
       {
         cmpr1=compare_session_tags(spa->tag, to_tag, &medianum);
-        tmp_if_expr$1 = cmpr1 != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = cmpr1 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
       {
         idx = 0;
         cmpr = cmpr1;
@@ -3931,19 +3931,19 @@ static signed int handle_delete(struct cfg *cf, char *call_id, char *from_tag, c
 
     else
       spa->strong = 0;
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if(!(spa->strong == 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = spa->weak[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$3;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = spa->weak[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_3;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = spa->weak[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = spa->weak[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       if(spa->log->log_level >= 6)
         _rtpp_log_write(spa->log, 6, "handle_delete", "delete: medianum=%u: removing %s flag, seeing flags to continue session (strong=%d, weak=%d/%d)", medianum, weak != 0 ? (idx != 0 ? "weak[1]" : "weak[0]") : "strong", spa->strong, spa->weak[(signed long int)0], spa->weak[(signed long int)1]);
@@ -4040,9 +4040,9 @@ static signed int handle_play(struct cfg *cf, struct rtpp_session *spa, signed i
   char *cp;
   while(!((signed int)*codecs == 0))
   {
-    signed long int return_value_strtol$1;
-    return_value_strtol$1=strtol(codecs, &cp, 10);
-    n = (signed int)return_value_strtol$1;
+    signed long int return_value_strtol_1;
+    return_value_strtol_1=strtol(codecs, &cp, 10);
+    n = (signed int)return_value_strtol_1;
     if(cp == codecs)
       break;
 
@@ -4050,7 +4050,7 @@ static signed int handle_play(struct cfg *cf, struct rtpp_session *spa, signed i
     if(!((signed int)*codecs == 0))
       codecs = codecs + 1l;
 
-    spa->rtps[(signed long int)idx]=rtp_server_new(pname, (enum anonymous$20)n, playcount);
+    spa->rtps[(signed long int)idx]=rtp_server_new(pname, (enum anonymous_20)n, playcount);
     if(!(spa->rtps[(signed long int)idx] == ((struct rtp_server *)NULL)))
     {
       if(spa->log->log_level >= 6)
@@ -4077,16 +4077,16 @@ static void handle_query(struct cfg *cf, signed int fd, struct sockaddr_storage 
   signed int len;
   if(!(cookie == ((char *)NULL)))
   {
-    signed int return_value_get_ttl$1;
-    return_value_get_ttl$1=get_ttl(spa);
-    len=sprintf(buf, "%s %d %lu %lu %lu %lu\n", cookie, return_value_get_ttl$1, spa->pcount[(signed long int)idx], spa->pcount[(signed long int)(idx == 0 ? 1 : 0)], spa->pcount[(signed long int)2], spa->pcount[(signed long int)3]);
+    signed int return_value_get_ttl_1;
+    return_value_get_ttl_1=get_ttl(spa);
+    len=sprintf(buf, "%s %d %lu %lu %lu %lu\n", cookie, return_value_get_ttl_1, spa->pcount[(signed long int)idx], spa->pcount[(signed long int)(idx == 0 ? 1 : 0)], spa->pcount[(signed long int)2], spa->pcount[(signed long int)3]);
   }
 
   else
   {
-    signed int return_value_get_ttl$2;
-    return_value_get_ttl$2=get_ttl(spa);
-    len=sprintf(buf, "%d %lu %lu %lu %lu\n", return_value_get_ttl$2, spa->pcount[(signed long int)idx], spa->pcount[(signed long int)(idx == 0 ? 1 : 0)], spa->pcount[(signed long int)2], spa->pcount[(signed long int)3]);
+    signed int return_value_get_ttl_2;
+    return_value_get_ttl_2=get_ttl(spa);
+    len=sprintf(buf, "%d %lu %lu %lu %lu\n", return_value_get_ttl_2, spa->pcount[(signed long int)idx], spa->pcount[(signed long int)(idx == 0 ? 1 : 0)], spa->pcount[(signed long int)2], spa->pcount[(signed long int)3]);
   }
   doreply(cf, fd, buf, len, raddr, rlen);
 }
@@ -4100,26 +4100,26 @@ static signed int handle_record(struct cfg *cf, char *call_id, char *from_tag, c
   struct rtpp_session *spa;
   nrecorded = 0;
   spa=session_findfirst(cf, call_id);
-  signed int return_value_compare_session_tags$1;
+  signed int return_value_compare_session_tags_1;
   while(!(spa == ((struct rtpp_session *)NULL)))
   {
-    signed int return_value_compare_session_tags$3;
-    return_value_compare_session_tags$3=compare_session_tags(spa->tag, from_tag, (unsigned int *)(void *)0);
-    if(!(return_value_compare_session_tags$3 == 0))
+    signed int return_value_compare_session_tags_3;
+    return_value_compare_session_tags_3=compare_session_tags(spa->tag, from_tag, (unsigned int *)(void *)0);
+    if(!(return_value_compare_session_tags_3 == 0))
       idx = 1;
 
     else
     {
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(!(to_tag == ((char *)NULL)))
       {
-        return_value_compare_session_tags$1=compare_session_tags(spa->tag, to_tag, (unsigned int *)(void *)0);
-        tmp_if_expr$2 = return_value_compare_session_tags$1 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_compare_session_tags_1=compare_session_tags(spa->tag, to_tag, (unsigned int *)(void *)0);
+        tmp_if_expr_2 = return_value_compare_session_tags_1 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
         idx = 0;
 
       else
@@ -4220,29 +4220,29 @@ static void init_config(struct cfg *cf, signed int argc, char **argv)
   cf->max_ttl = 60;
   cf->tos = 0xb8;
   cf->rrtcp = 1;
-  cf->ttl_mode = (enum anonymous$30)TTL_UNIFIED;
+  cf->ttl_mode = (enum anonymous_30)TTL_UNIFIED;
   cf->log_level = -1;
   cf->log_facility = -1;
   cf->timeout_handler.socket_name = (char *)(void *)0;
   cf->timeout_handler.fd = -1;
   cf->timeout_handler.connected = 0;
-  signed int return_value_getrlimit$1;
-  return_value_getrlimit$1=getrlimit(7, &cf->nofile_limit);
-  if(!(return_value_getrlimit$1 == 0))
+  signed int return_value_getrlimit_1;
+  return_value_getrlimit_1=getrlimit(7, &cf->nofile_limit);
+  if(!(return_value_getrlimit_1 == 0))
     err(1, "getrlimit");
 
-  signed int return_value_strncmp$4;
-  signed int return_value_strncmp$3;
-  signed int return_value_strncmp$2;
-  signed int return_value_atoi$5;
-  signed int return_value_setrlimit$6;
-  signed int return_value_getrlimit$7;
-  signed int return_value_atoi$9;
-  signed int return_value_atoi$8;
-  signed int return_value_strncmp$10;
-  unsigned long int return_value_strlen$11;
-  unsigned long int return_value_strlen$12;
-  void *return_value_malloc$13;
+  signed int return_value_strncmp_4;
+  signed int return_value_strncmp_3;
+  signed int return_value_strncmp_2;
+  signed int return_value_atoi_5;
+  signed int return_value_setrlimit_6;
+  signed int return_value_getrlimit_7;
+  signed int return_value_atoi_9;
+  signed int return_value_atoi_8;
+  signed int return_value_strncmp_10;
+  unsigned long int return_value_strlen_11;
+  unsigned long int return_value_strlen_12;
+  void *return_value_malloc_13;
   do
   {
     ch=getopt(argc, argv, "vf2Rl:6:s:S:t:r:p:T:L:m:M:u:Fin:Pad:");
@@ -4284,8 +4284,8 @@ static void init_config(struct cfg *cf, signed int argc, char **argv)
       }
       case 115:
       {
-        return_value_strncmp$4=strncmp("udp:", optarg, (unsigned long int)4);
-        if(return_value_strncmp$4 == 0)
+        return_value_strncmp_4=strncmp("udp:", optarg, (unsigned long int)4);
+        if(return_value_strncmp_4 == 0)
         {
           cf->umode = 1;
           optarg = optarg + (signed long int)4;
@@ -4293,8 +4293,8 @@ static void init_config(struct cfg *cf, signed int argc, char **argv)
 
         else
         {
-          return_value_strncmp$3=strncmp("udp6:", optarg, (unsigned long int)5);
-          if(return_value_strncmp$3 == 0)
+          return_value_strncmp_3=strncmp("udp6:", optarg, (unsigned long int)5);
+          if(return_value_strncmp_3 == 0)
           {
             cf->umode = 6;
             optarg = optarg + (signed long int)5;
@@ -4302,8 +4302,8 @@ static void init_config(struct cfg *cf, signed int argc, char **argv)
 
           else
           {
-            return_value_strncmp$2=strncmp("unix:", optarg, (unsigned long int)5);
-            if(return_value_strncmp$2 == 0)
+            return_value_strncmp_2=strncmp("unix:", optarg, (unsigned long int)5);
+            if(return_value_strncmp_2 == 0)
             {
               cf->umode = 0;
               optarg = optarg + (signed long int)5;
@@ -4363,22 +4363,22 @@ static void init_config(struct cfg *cf, signed int argc, char **argv)
       }
       case 76:
       {
-        return_value_atoi$5=atoi(optarg);
-        cf->nofile_limit.rlim_max = (unsigned long int)return_value_atoi$5;
+        return_value_atoi_5=atoi(optarg);
+        cf->nofile_limit.rlim_max = (unsigned long int)return_value_atoi_5;
         cf->nofile_limit.rlim_cur = cf->nofile_limit.rlim_max;
-        return_value_setrlimit$6=setrlimit(7, &cf->nofile_limit);
-        if(!(return_value_setrlimit$6 == 0))
+        return_value_setrlimit_6=setrlimit(7, &cf->nofile_limit);
+        if(!(return_value_setrlimit_6 == 0))
           err(1, "setrlimit");
 
-        return_value_getrlimit$7=getrlimit(7, &cf->nofile_limit);
-        if(!(return_value_getrlimit$7 == 0))
+        return_value_getrlimit_7=getrlimit(7, &cf->nofile_limit);
+        if(!(return_value_getrlimit_7 == 0))
           err(1, "getrlimit");
 
-        return_value_atoi$9=atoi(optarg);
-        if(!(cf->nofile_limit.rlim_max >= (unsigned long int)return_value_atoi$9))
+        return_value_atoi_9=atoi(optarg);
+        if(!(cf->nofile_limit.rlim_max >= (unsigned long int)return_value_atoi_9))
         {
-          return_value_atoi$8=atoi(optarg);
-          warnx("limit allocated by setrlimit (%d) is less than requested (%d)", (signed int)cf->nofile_limit.rlim_max, return_value_atoi$8);
+          return_value_atoi_8=atoi(optarg);
+          warnx("limit allocated by setrlimit (%d) is less than requested (%d)", (signed int)cf->nofile_limit.rlim_max, return_value_atoi_8);
         }
 
         break;
@@ -4439,22 +4439,22 @@ static void init_config(struct cfg *cf, signed int argc, char **argv)
       }
       case 105:
       {
-        cf->ttl_mode = (enum anonymous$30)TTL_INDEPENDENT;
+        cf->ttl_mode = (enum anonymous_30)TTL_INDEPENDENT;
         break;
       }
       case 110:
       {
-        return_value_strncmp$10=strncmp("unix:", optarg, (unsigned long int)5);
-        if(return_value_strncmp$10 == 0)
+        return_value_strncmp_10=strncmp("unix:", optarg, (unsigned long int)5);
+        if(return_value_strncmp_10 == 0)
           optarg = optarg + (signed long int)5;
 
-        return_value_strlen$11=strlen(optarg);
-        if(return_value_strlen$11 == 0ul)
+        return_value_strlen_11=strlen(optarg);
+        if(return_value_strlen_11 == 0ul)
           errx(1, "timeout notification socket name too short");
 
-        return_value_strlen$12=strlen(optarg);
-        return_value_malloc$13=malloc(return_value_strlen$12 + (unsigned long int)1);
-        cf->timeout_handler.socket_name = (char *)return_value_malloc$13;
+        return_value_strlen_12=strlen(optarg);
+        return_value_malloc_13=malloc(return_value_strlen_12 + (unsigned long int)1);
+        cf->timeout_handler.socket_name = (char *)return_value_malloc_13;
         if(cf->timeout_handler.socket_name == ((char *)NULL))
           err(1, "can't allocate memory");
 
@@ -4503,11 +4503,11 @@ static void init_config(struct cfg *cf, signed int argc, char **argv)
 
   }
 
-  unsigned int return_value_getuid$14;
+  unsigned int return_value_getuid_14;
   if(cf->no_check == 0)
   {
-    return_value_getuid$14=getuid();
-    if(return_value_getuid$14 == 0u)
+    return_value_getuid_14=getuid();
+    if(return_value_getuid_14 == 0u)
     {
       if(cf->run_uname == ((char *)NULL))
       {
@@ -4530,36 +4530,36 @@ static void init_config(struct cfg *cf, signed int argc, char **argv)
 
   else
     cf->port_max = cf->port_max - 2;
-  _Bool tmp_if_expr$15;
+  _Bool tmp_if_expr_15;
   if(!(cf->port_min >= 1))
-    tmp_if_expr$15 = (_Bool)1;
+    tmp_if_expr_15 = (_Bool)1;
 
   else
-    tmp_if_expr$15 = cf->port_min > 65535 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$15)
+    tmp_if_expr_15 = cf->port_min > 65535 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_15)
     errx(1, "invalid value of the port_min argument, not in the range 1-65535");
 
-  _Bool tmp_if_expr$16;
+  _Bool tmp_if_expr_16;
   if(!(cf->port_max >= 1))
-    tmp_if_expr$16 = (_Bool)1;
+    tmp_if_expr_16 = (_Bool)1;
 
   else
-    tmp_if_expr$16 = cf->port_max > 65535 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$16)
+    tmp_if_expr_16 = cf->port_max > 65535 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_16)
     errx(1, "invalid value of the port_max argument, not in the range 1-65535");
 
   if(!(cf->port_max >= cf->port_min))
     errx(1, "port_min should be less than port_max");
 
-  void *return_value_malloc$17;
-  return_value_malloc$17=malloc(sizeof(struct rtpp_session *) /*8ul*/  * (unsigned long int)(((cf->port_max - cf->port_min) + 1) * 2 + 1));
-  cf->sessions = (struct rtpp_session **)return_value_malloc$17;
-  void *return_value_malloc$18;
-  return_value_malloc$18=malloc(sizeof(struct rtpp_session *) /*8ul*/  * (unsigned long int)(((cf->port_max - cf->port_min) + 1) * 2 + 1));
-  cf->rtp_servers = (struct rtpp_session **)return_value_malloc$18;
-  void *return_value_malloc$19;
-  return_value_malloc$19=malloc(sizeof(struct pollfd) /*8ul*/  * (unsigned long int)(((cf->port_max - cf->port_min) + 1) * 2 + 1));
-  cf->pfds = (struct pollfd *)return_value_malloc$19;
+  void *return_value_malloc_17;
+  return_value_malloc_17=malloc(sizeof(struct rtpp_session *) /*8ul*/  * (unsigned long int)(((cf->port_max - cf->port_min) + 1) * 2 + 1));
+  cf->sessions = (struct rtpp_session **)return_value_malloc_17;
+  void *return_value_malloc_18;
+  return_value_malloc_18=malloc(sizeof(struct rtpp_session *) /*8ul*/  * (unsigned long int)(((cf->port_max - cf->port_min) + 1) * 2 + 1));
+  cf->rtp_servers = (struct rtpp_session **)return_value_malloc_18;
+  void *return_value_malloc_19;
+  return_value_malloc_19=malloc(sizeof(struct pollfd) /*8ul*/  * (unsigned long int)(((cf->port_max - cf->port_min) + 1) * 2 + 1));
+  cf->pfds = (struct pollfd *)return_value_malloc_19;
   if(bh[0l] == ((char *)NULL))
   {
     if(bh[1l] == ((char *)NULL))
@@ -4630,18 +4630,18 @@ static void init_config(struct cfg *cf, signed int argc, char **argv)
     cf->bindaddr[(signed long int)i] = (struct sockaddr *)(void *)0;
     if(!(bh[(signed long int)i] == ((char *)NULL)))
     {
-      void *return_value_malloc$20;
-      return_value_malloc$20=malloc(sizeof(struct sockaddr_storage) /*128ul*/ );
-      cf->bindaddr[(signed long int)i] = (struct sockaddr *)return_value_malloc$20;
+      void *return_value_malloc_20;
+      return_value_malloc_20=malloc(sizeof(struct sockaddr_storage) /*128ul*/ );
+      cf->bindaddr[(signed long int)i] = (struct sockaddr *)return_value_malloc_20;
       setbindhost(cf->bindaddr[(signed long int)i], 2, bh[(signed long int)i], "34999");
       goto __CPROVER_DUMP_L80;
     }
 
     if(!(bh6[(signed long int)i] == ((char *)NULL)))
     {
-      void *return_value_malloc$21;
-      return_value_malloc$21=malloc(sizeof(struct sockaddr_storage) /*128ul*/ );
-      cf->bindaddr[(signed long int)i] = (struct sockaddr *)return_value_malloc$21;
+      void *return_value_malloc_21;
+      return_value_malloc_21=malloc(sizeof(struct sockaddr_storage) /*128ul*/ );
+      cf->bindaddr[(signed long int)i] = (struct sockaddr *)return_value_malloc_21;
       setbindhost(cf->bindaddr[(signed long int)i], 10, bh6[(signed long int)i], "34999");
     }
 
@@ -4667,7 +4667,7 @@ static signed int init_controlfd(struct cfg *cf)
   signed int i;
   signed int controlfd;
   signed int flags;
-  signed int return_value_chown$2;
+  signed int return_value_chown_2;
   if(cf->umode == 0)
   {
     unlink(cmd_sock);
@@ -4679,28 +4679,28 @@ static signed int init_controlfd(struct cfg *cf)
       err(1, "can't create socket");
 
     setsockopt(controlfd, 1, 2, (const void *)&controlfd, (unsigned int)sizeof(signed int) /*4ul*/ );
-    signed int return_value_bind$1;
-    return_value_bind$1=bind(controlfd, (struct sockaddr *)&ifsun, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
-    if(!(return_value_bind$1 >= 0))
+    signed int return_value_bind_1;
+    return_value_bind_1=bind(controlfd, (struct sockaddr *)&ifsun, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
+    if(!(return_value_bind_1 >= 0))
       err(1, "can't bind to a socket");
 
-    _Bool tmp_if_expr$3;
+    _Bool tmp_if_expr_3;
     if(!(cf->run_uname == ((char *)NULL)))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = cf->run_gname != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = cf->run_gname != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
-      return_value_chown$2=chown(cmd_sock, cf->run_uid, cf->run_gid);
-      if(return_value_chown$2 == -1)
+      return_value_chown_2=chown(cmd_sock, cf->run_uid, cf->run_gid);
+      if(return_value_chown_2 == -1)
         err(1, "can't set owner of the socket");
 
     }
 
-    signed int return_value_listen$4;
-    return_value_listen$4=listen(controlfd, 32);
-    if(!(return_value_listen$4 == 0))
+    signed int return_value_listen_4;
+    return_value_listen_4=listen(controlfd, 32);
+    if(!(return_value_listen_4 == 0))
       err(1, "can't listen on a socket");
 
   }
@@ -4714,13 +4714,13 @@ static signed int init_controlfd(struct cfg *cf)
       cp = cp + 1l;
     }
 
-    _Bool tmp_if_expr$5;
+    _Bool tmp_if_expr_5;
     if(cp == ((char *)NULL))
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = (signed int)*cp == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (signed int)*cp == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
       cp = "22222";
 
     i = cf->umode == 6 ? 10 : 2;
@@ -4729,9 +4729,9 @@ static signed int init_controlfd(struct cfg *cf)
     if(controlfd == -1)
       err(1, "can't create socket");
 
-    signed int return_value_bind$6;
-    return_value_bind$6=bind(controlfd, (struct sockaddr *)&ifsin, (unsigned int)((signed int)(&ifsin)->ss_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ ));
-    if(!(return_value_bind$6 >= 0))
+    signed int return_value_bind_6;
+    return_value_bind_6=bind(controlfd, (struct sockaddr *)&ifsin, (unsigned int)((signed int)(&ifsin)->ss_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ ));
+    if(!(return_value_bind_6 >= 0))
       err(1, "can't bind to a socket");
 
   }
@@ -4747,9 +4747,9 @@ void init_hash_table(struct cfg *cf)
   signed int i = 0;
   for( ; !(i >= 256); i = i + 1)
   {
-    signed long int return_value_random$1;
-    return_value_random$1=random();
-    cf->rand_table[(signed long int)i] = (unsigned char)return_value_random$1;
+    signed long int return_value_random_1;
+    return_value_random_1=random();
+    cf->rand_table[(signed long int)i] = (unsigned char)return_value_random_1;
   }
 }
 
@@ -4771,9 +4771,9 @@ void init_port_table(struct cfg *cf)
   i = 0;
   for( ; !(i >= cf->port_table_len); i = i + 1)
   {
-    signed long int return_value_random$1;
-    return_value_random$1=random();
-    j = (signed int)(return_value_random$1 % (signed long int)cf->port_table_len);
+    signed long int return_value_random_1;
+    return_value_random_1=random();
+    j = (signed int)(return_value_random_1 % (signed long int)cf->port_table_len);
     portnum = cf->port_table[(signed long int)i];
     cf->port_table[(signed long int)i] = cf->port_table[(signed long int)j];
     cf->port_table[(signed long int)j] = portnum;
@@ -4786,9 +4786,9 @@ void init_port_table(struct cfg *cf)
 signed int ishostnull(struct sockaddr *ia)
 {
   struct in6_addr *ap;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   switch((signed int)ia->sa_family)
   {
     case 2:
@@ -4797,21 +4797,21 @@ signed int ishostnull(struct sockaddr *ia)
     {
       ap = &((struct sockaddr_in6 *)ia)->sin6_addr;
       if(*((const unsigned int *)ap->__in6_u.__u6_addr8) == 0u)
-        tmp_if_expr$1 = *((const unsigned int *)(const void *)&ap->__in6_u.__u6_addr8[(signed long int)4]) == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = *((const unsigned int *)(const void *)&ap->__in6_u.__u6_addr8[(signed long int)4]) == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$2 = *((const unsigned int *)(const void *)&ap->__in6_u.__u6_addr8[(signed long int)8]) == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_2 = *((const unsigned int *)(const void *)&ap->__in6_u.__u6_addr8[(signed long int)8]) == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = *((const unsigned int *)(const void *)&ap->__in6_u.__u6_addr8[(signed long int)12]) == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = *((const unsigned int *)(const void *)&ap->__in6_u.__u6_addr8[(signed long int)12]) == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      return (signed int)tmp_if_expr$3;
+        tmp_if_expr_3 = (_Bool)0;
+      return (signed int)tmp_if_expr_3;
     }
     default:
       abort();
@@ -4822,7 +4822,7 @@ signed int ishostnull(struct sockaddr *ia)
 // file rtpp_util.h line 57
 signed int ishostseq(struct sockaddr *ia1, struct sockaddr *ia2)
 {
-  signed int return_value_memcmp$1;
+  signed int return_value_memcmp_1;
   if(!(ia1->sa_family == ia2->sa_family))
     return 0;
 
@@ -4833,8 +4833,8 @@ signed int ishostseq(struct sockaddr *ia1, struct sockaddr *ia2)
         return (signed int)(((struct sockaddr_in *)ia1)->sin_addr.s_addr == ((struct sockaddr_in *)ia2)->sin_addr.s_addr);
       case 10:
       {
-        return_value_memcmp$1=memcmp((const void *)&((struct sockaddr_in6 *)ia1)->sin6_addr.__in6_u.__u6_addr8[(signed long int)0], (const void *)&((struct sockaddr_in6 *)ia2)->sin6_addr.__in6_u.__u6_addr8[(signed long int)0], sizeof(struct in6_addr) /*16ul*/ );
-        return (signed int)(return_value_memcmp$1 == 0);
+        return_value_memcmp_1=memcmp((const void *)&((struct sockaddr_in6 *)ia1)->sin6_addr.__in6_u.__u6_addr8[(signed long int)0], (const void *)&((struct sockaddr_in6 *)ia2)->sin6_addr.__in6_u.__u6_addr8[(signed long int)0], sizeof(struct in6_addr) /*16ul*/ );
+        return (signed int)(return_value_memcmp_1 == 0);
       }
       default:
         abort();
@@ -4864,9 +4864,9 @@ signed int main(signed int argc, char **argv)
   controlfd=init_controlfd(&cf);
   if(cf.nodaemon == 0)
   {
-    signed int return_value_rtpp_daemon$1;
-    return_value_rtpp_daemon$1=rtpp_daemon(0, 0);
-    if(return_value_rtpp_daemon$1 == -1)
+    signed int return_value_rtpp_daemon_1;
+    return_value_rtpp_daemon_1=rtpp_daemon(0, 0);
+    if(return_value_rtpp_daemon_1 == -1)
       err(1, "can't switch into daemon mode");
 
   }
@@ -4876,17 +4876,17 @@ signed int main(signed int argc, char **argv)
   atexit(ehandler);
   if(cf.glog->log_level >= 6)
   {
-    signed int return_value_getpid$2;
-    return_value_getpid$2=getpid();
-    _rtpp_log_write(cf.glog, 6, "main", "rtpproxy started, pid %d", return_value_getpid$2);
+    signed int return_value_getpid_2;
+    return_value_getpid_2=getpid();
+    _rtpp_log_write(cf.glog, 6, "main", "rtpproxy started, pid %d", return_value_getpid_2);
   }
 
   i=open(pid_file, 01 | 0100 | 01000, 0400 | 0200 | 0400 >> 3 | 0200 >> 3 | (0400 >> 3) >> 3 | (0200 >> 3) >> 3);
   if(i >= 0)
   {
-    signed int return_value_getpid$3;
-    return_value_getpid$3=getpid();
-    len=sprintf(buf, "%u\n", (unsigned int)return_value_getpid$3);
+    signed int return_value_getpid_3;
+    return_value_getpid_3=getpid();
+    len=sprintf(buf, "%u\n", (unsigned int)return_value_getpid_3);
     write(i, (const void *)buf, (unsigned long int)len);
     close(i);
   }
@@ -4908,9 +4908,9 @@ signed int main(signed int argc, char **argv)
   signal(12, fatsignal);
   if(!(cf.run_gname == ((char *)NULL)) || !(cf.run_uname == ((char *)NULL)))
   {
-    signed int return_value_drop_privileges$4;
-    return_value_drop_privileges$4=drop_privileges(&cf);
-    if(!(return_value_drop_privileges$4 == 0))
+    signed int return_value_drop_privileges_4;
+    return_value_drop_privileges_4=drop_privileges(&cf);
+    if(!(return_value_drop_privileges_4 == 0))
     {
       if(cf.glog->log_level >= 3)
         _rtpp_log_ewrite(cf.glog, 3, "main", "can't switch to requested user/group");
@@ -4928,7 +4928,7 @@ signed int main(signed int argc, char **argv)
   cf.rtp_nsessions = 0;
   sptime = (double)0;
   last_tick_time = (double)0;
-  signed int *return_value___errno_location$5;
+  signed int *return_value___errno_location_5;
   while((_Bool)1)
   {
     if(cf.nsessions >= 2 || cf.rtp_nsessions >= 1)
@@ -4949,8 +4949,8 @@ signed int main(signed int argc, char **argv)
     i=poll(cf.pfds, (unsigned long int)cf.nsessions, timeout);
     if(!(i >= 0))
     {
-      return_value___errno_location$5=__errno_location();
-      if(*return_value___errno_location$5 == 4)
+      return_value___errno_location_5=__errno_location();
+      if(*return_value___errno_location_5 == 4)
         continue;
 
     }
@@ -5074,14 +5074,14 @@ static signed int prepare_pkt_hdr_pcap(struct rtpp_session *sp, struct rtp_packe
       hdrp->iphdr.ip_src = ((struct sockaddr_in *)&packet->raddr)->sin_addr;
       hdrp->iphdr.ip_dst = ((struct sockaddr_in *)packet->laddr)->sin_addr;
       hdrp->iphdr.ip_p = (unsigned char)17;
-      unsigned short int tmp_post$1 = ip_id;
+      unsigned short int tmp_post_1 = ip_id;
       ip_id = ip_id + 1;
-      hdrp->iphdr.ip_id=htons(tmp_post$1);
+      hdrp->iphdr.ip_id=htons(tmp_post_1);
       hdrp->iphdr.ip_ttl = (unsigned char)127;
       hdrp->iphdr.ip_sum=rtpp_in_cksum((void *)&hdrp->iphdr, (signed int)sizeof(struct ip) /*20ul*/ );
-      hdrp->udphdr.$anon0.$anon0.uh_sport = ((struct sockaddr_in *)&packet->raddr)->sin_port;
-      hdrp->udphdr.$anon0.$anon0.uh_dport=htons((unsigned short int)packet->rport);
-      hdrp->udphdr.$anon0.$anon0.uh_ulen=htons((unsigned short int)(sizeof(struct udphdr) /*8ul*/  + packet->size));
+      hdrp->udphdr._anon0._anon0.uh_sport = ((struct sockaddr_in *)&packet->raddr)->sin_port;
+      hdrp->udphdr._anon0._anon0.uh_dport=htons((unsigned short int)packet->rport);
+      hdrp->udphdr._anon0._anon0.uh_ulen=htons((unsigned short int)(sizeof(struct udphdr) /*8ul*/  + packet->size));
       return 0;
     }
 }
@@ -5103,9 +5103,9 @@ static void process_commands(struct cfg *cf, double dtime)
         controlfd=accept((cf->pfds + (signed long int)0)->fd, (struct sockaddr *)&ifsun, &rlen);
         if(controlfd == -1)
         {
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          if(!(*return_value___errno_location$1 == 11))
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          if(!(*return_value___errno_location_1 == 11))
           {
             if(cf->glog->log_level >= 3)
               _rtpp_log_ewrite(cf->glog, 3, "process_commands", "can't accept connection on control socket");
@@ -5153,9 +5153,9 @@ static void process_rtp(struct cfg *cf, double dtime, signed int alarm_tick)
       {
         if(sp->sidx[0l] == readyfd)
         {
-          signed int return_value_get_ttl$1;
-          return_value_get_ttl$1=get_ttl(sp);
-          if(return_value_get_ttl$1 == 0)
+          signed int return_value_get_ttl_1;
+          return_value_get_ttl_1=get_ttl(sp);
+          if(return_value_get_ttl_1 == 0)
           {
             if(sp->log->log_level >= 6)
               _rtpp_log_write(sp->log, 6, "process_rtp", "session timeout");
@@ -5251,13 +5251,13 @@ static void process_rtp_servers(struct cfg *cf, double dtime)
       sidx = 0;
       for( ; !(sidx >= 2); sidx = sidx + 1)
       {
-        _Bool tmp_if_expr$1;
+        _Bool tmp_if_expr_1;
         if(sp->rtps[(signed long int)sidx] == ((struct rtp_server *)NULL))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = sp->addr[(signed long int)sidx] == (struct sockaddr *)(void *)0 ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$1)
+          tmp_if_expr_1 = sp->addr[(signed long int)sidx] == (struct sockaddr *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_1)
           do
           {
             len=rtp_server_get(sp->rtps[(signed long int)sidx], dtime);
@@ -5313,9 +5313,9 @@ void rclose(struct rtpp_session *sp, void *rrc, signed int keep)
   {
     if(keep == 0)
     {
-      signed int return_value_unlink$1;
-      return_value_unlink$1=unlink(((struct rtpp_record_channel *)rrc)->spath);
-      if(return_value_unlink$1 == -1)
+      signed int return_value_unlink_1;
+      return_value_unlink_1=unlink(((struct rtpp_record_channel *)rrc)->spath);
+      if(return_value_unlink_1 == -1)
       {
         if(sp->log->log_level >= 3)
           _rtpp_log_ewrite(sp->log, 3, "rclose", "can't remove session record %s", (const void *)((struct rtpp_record_channel *)rrc)->spath);
@@ -5327,9 +5327,9 @@ void rclose(struct rtpp_session *sp, void *rrc, signed int keep)
     else
       if(((struct rtpp_record_channel *)rrc)->needspool == 1)
       {
-        signed int return_value_rename$2;
-        return_value_rename$2=rename(((struct rtpp_record_channel *)rrc)->spath, ((struct rtpp_record_channel *)rrc)->rpath);
-        if(return_value_rename$2 == -1)
+        signed int return_value_rename_2;
+        return_value_rename_2=rename(((struct rtpp_record_channel *)rrc)->spath, ((struct rtpp_record_channel *)rrc)->rpath);
+        if(return_value_rename_2 == -1)
         {
           if(sp->log->log_level >= 3)
             _rtpp_log_ewrite(sp->log, 3, "rclose", "can't move session record from spool into permanent storage");
@@ -5348,14 +5348,14 @@ void rclose(struct rtpp_session *sp, void *rrc, signed int keep)
 static void reconnect_timeout_handler(struct rtpp_session *sp, struct rtpp_timeout_handler *th)
 {
   struct sockaddr_un remote;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(th->socket_name == ((char *)NULL)))
-    tmp_if_expr$1 = th->connected == 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = th->connected == 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
   /* assertion th->socket_name != ((void *)0) && th->connected == 0 */
-  assert(tmp_if_expr$1);
+  assert(tmp_if_expr_1);
   if(th->fd == -1)
   {
     if(sp->log->log_level >= 7)
@@ -5383,9 +5383,9 @@ static void reconnect_timeout_handler(struct rtpp_session *sp, struct rtpp_timeo
     memset((void *)&remote, 0, sizeof(struct sockaddr_un) /*110ul*/ );
     remote.sun_family = (unsigned short int)1;
     strncpy(remote.sun_path, th->socket_name, sizeof(char [108l]) /*108ul*/  - (unsigned long int)1);
-    signed int return_value_connect$2;
-    return_value_connect$2=connect(th->fd, (struct sockaddr *)&remote, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
-    if(return_value_connect$2 == -1)
+    signed int return_value_connect_2;
+    return_value_connect_2=connect(th->fd, (struct sockaddr *)&remote, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
+    if(return_value_connect_2 == -1)
     {
       if(sp->log->log_level >= 3)
         _rtpp_log_ewrite(sp->log, 3, "reconnect_timeout_handler", "can't connect to timeout socket");
@@ -5536,30 +5536,30 @@ static void reply_port(struct cfg *cf, signed int fd, struct sockaddr_storage *r
     cp = cp + (signed long int)len;
   }
 
-  _Bool tmp_if_expr$5;
-  signed int return_value_ishostnull$4;
+  _Bool tmp_if_expr_5;
+  signed int return_value_ishostnull_4;
   if(*lia == ((struct sockaddr *)NULL))
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_ishostnull$4=ishostnull(lia[(signed long int)0]);
-    tmp_if_expr$5 = return_value_ishostnull$4 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_ishostnull_4=ishostnull(lia[(signed long int)0]);
+    tmp_if_expr_5 = return_value_ishostnull_4 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_sprintf$1;
-  const char *return_value_addr2char$2;
-  signed int return_value_sprintf$3;
-  if(tmp_if_expr$5)
+  signed int return_value_sprintf_1;
+  const char *return_value_addr2char_2;
+  signed int return_value_sprintf_3;
+  if(tmp_if_expr_5)
   {
-    return_value_sprintf$1=sprintf(cp, "%d\n", lport);
-    len = len + return_value_sprintf$1;
+    return_value_sprintf_1=sprintf(cp, "%d\n", lport);
+    len = len + return_value_sprintf_1;
   }
 
   else
   {
-    return_value_addr2char$2=addr2char(lia[(signed long int)0]);
-    return_value_sprintf$3=sprintf(cp, "%d %s%s\n", lport, return_value_addr2char$2, (signed int)lia[(signed long int)0]->sa_family == 2 ? "" : " 6");
-    len = len + return_value_sprintf$3;
+    return_value_addr2char_2=addr2char(lia[(signed long int)0]);
+    return_value_sprintf_3=sprintf(cp, "%d %s%s\n", lport, return_value_addr2char_2, (signed int)lia[(signed long int)0]->sa_family == 2 ? "" : " 6");
+    len = len + return_value_sprintf_3;
   }
   doreply(cf, fd, buf, len, raddr, rlen);
 }
@@ -5598,10 +5598,10 @@ void * ropen(struct cfg *cf, struct rtpp_session *sp, char *rname, signed int or
   signed int rval;
   struct sockaddr_storage raddr;
   struct pcap_hdr_s pcap_hdr;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct rtpp_record_channel) /*12308ul*/ );
-  rrc = (struct rtpp_record_channel *)return_value_malloc$1;
-  signed int return_value_strncmp$5;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct rtpp_record_channel) /*12308ul*/ );
+  rrc = (struct rtpp_record_channel *)return_value_malloc_1;
+  signed int return_value_strncmp_5;
   if(rrc == ((struct rtpp_record_channel *)NULL))
   {
     if(sp->log->log_level >= 3)
@@ -5615,8 +5615,8 @@ void * ropen(struct cfg *cf, struct rtpp_session *sp, char *rname, signed int or
     memset((void *)rrc, 0, sizeof(struct rtpp_record_channel) /*12308ul*/ );
     if(!(rname == ((char *)NULL)))
     {
-      return_value_strncmp$5=strncmp("udp:", rname, (unsigned long int)4);
-      if(return_value_strncmp$5 == 0)
+      return_value_strncmp_5=strncmp("udp:", rname, (unsigned long int)4);
+      if(return_value_strncmp_5 == 0)
       {
         tmp=strdup(rname + (signed long int)4);
         if(tmp == ((char *)NULL))
@@ -5645,13 +5645,13 @@ void * ropen(struct cfg *cf, struct rtpp_session *sp, char *rname, signed int or
         if(sp->rtcp == ((struct rtpp_session *)NULL))
         {
           port=atoi(cp);
-          _Bool tmp_if_expr$2;
+          _Bool tmp_if_expr_2;
           if(!(port >= 1))
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = port > (sp->rtcp != (struct rtpp_session *)(void *)0 ? 65534 : 65535) ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$2)
+            tmp_if_expr_2 = port > (sp->rtcp != (struct rtpp_session *)(void *)0 ? 65534 : 65535) ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_2)
           {
             if(sp->log->log_level >= 3)
               _rtpp_log_write(sp->log, 3, "ropen", "invalid port in the remote recording target specification");
@@ -5669,9 +5669,9 @@ void * ropen(struct cfg *cf, struct rtpp_session *sp, char *rname, signed int or
         {
           if(sp->log->log_level >= 3)
           {
-            const char *return_value_gai_strerror$3;
-            return_value_gai_strerror$3=gai_strerror(n);
-            _rtpp_log_write(sp->log, 3, "ropen", "ropen: getaddrinfo: %s", return_value_gai_strerror$3);
+            const char *return_value_gai_strerror_3;
+            return_value_gai_strerror_3=gai_strerror(n);
+            _rtpp_log_write(sp->log, 3, "ropen", "ropen: getaddrinfo: %s", return_value_gai_strerror_3);
           }
 
           free((void *)rrc);
@@ -5690,9 +5690,9 @@ void * ropen(struct cfg *cf, struct rtpp_session *sp, char *rname, signed int or
           return (void *)0;
         }
 
-        signed int return_value_connect$4;
-        return_value_connect$4=connect(rrc->fd, (struct sockaddr *)&raddr, (unsigned int)((signed int)((struct sockaddr *)&raddr)->sa_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ ));
-        if(return_value_connect$4 == -1)
+        signed int return_value_connect_4;
+        return_value_connect_4=connect(rrc->fd, (struct sockaddr *)&raddr, (unsigned int)((signed int)((struct sockaddr *)&raddr)->sa_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ ));
+        if(return_value_connect_4 == -1)
         {
           if(sp->log->log_level >= 3)
             _rtpp_log_ewrite(sp->log, 3, "ropen", "ropen: can't connect socket");
@@ -5767,9 +5767,9 @@ void * ropen(struct cfg *cf, struct rtpp_session *sp, char *rname, signed int or
           pcap_hdr.sigfigs = (unsigned int)0;
           pcap_hdr.snaplen = (unsigned int)65535;
           pcap_hdr.network = (unsigned int)0;
-          signed long int return_value_write$6;
-          return_value_write$6=write(rrc->fd, (const void *)&pcap_hdr, sizeof(struct pcap_hdr_s) /*24ul*/ );
-          rval = (signed int)return_value_write$6;
+          signed long int return_value_write_6;
+          return_value_write_6=write(rrc->fd, (const void *)&pcap_hdr, sizeof(struct pcap_hdr_s) /*24ul*/ );
+          rval = (signed int)return_value_write_6;
           if(rval == -1)
           {
             close(rrc->fd);
@@ -5802,7 +5802,7 @@ void * ropen(struct cfg *cf, struct rtpp_session *sp, char *rname, signed int or
 // file rtp.c line 79
 static signed int rtp_calc_samples(signed int codec_id, unsigned long int nbytes, const unsigned char *data)
 {
-  signed int return_value_g723_samples$1;
+  signed int return_value_g723_samples_1;
   switch(codec_id)
   {
     case RTP_PCMU:
@@ -5815,8 +5815,8 @@ static signed int rtp_calc_samples(signed int codec_id, unsigned long int nbytes
       return (signed int)((unsigned long int)160 * (nbytes / (unsigned long int)33));
     case RTP_G723:
     {
-      return_value_g723_samples$1=g723_samples(data, (signed int)nbytes);
-      return return_value_g723_samples$1;
+      return_value_g723_samples_1=g723_samples(data, (signed int)nbytes);
+      return return_value_g723_samples_1;
     }
     default:
       return -1;
@@ -5828,14 +5828,14 @@ static signed int rtp_calc_samples(signed int codec_id, unsigned long int nbytes
 struct rtp_packet * rtp_packet_alloc()
 {
   struct rtp_packet *pkt = rtp_packet_pool;
-  void *return_value_malloc$1;
+  void *return_value_malloc_1;
   if(!(pkt == ((struct rtp_packet *)NULL)))
     rtp_packet_pool = pkt->next;
 
   else
   {
-    return_value_malloc$1=malloc(sizeof(struct rtp_packet) /*8408ul*/ );
-    pkt = (struct rtp_packet *)return_value_malloc$1;
+    return_value_malloc_1=malloc(sizeof(struct rtp_packet) /*8408ul*/ );
+    pkt = (struct rtp_packet *)return_value_malloc_1;
   }
   return pkt;
 }
@@ -5879,13 +5879,13 @@ static void rtp_packet_chunk_find_g723(struct rtp_packet *pkt, struct rtp_packet
       assert(n != -1);
     }
     ret->nsamples = found_samples;
-    unsigned long int tmp_if_expr$1;
+    unsigned long int tmp_if_expr_1;
     if(!((unsigned long int)pos >= pkt->data_size))
-      tmp_if_expr$1 = (unsigned long int)pos;
+      tmp_if_expr_1 = (unsigned long int)pos;
 
     else
-      tmp_if_expr$1 = pkt->data_size;
-    ret->bytes = (signed int)tmp_if_expr$1;
+      tmp_if_expr_1 = pkt->data_size;
+    ret->bytes = (signed int)tmp_if_expr_1;
   }
 }
 
@@ -5972,50 +5972,50 @@ void rtp_packet_free(struct rtp_packet *pkt)
 
 // rtp_packet_parse
 // file rtp.c line 242
-enum anonymous$13 rtp_packet_parse(struct rtp_packet *pkt)
+enum anonymous_13 rtp_packet_parse(struct rtp_packet *pkt)
 {
   signed int padding_size;
-  struct anonymous$14 *hdr_ext_ptr;
+  struct anonymous_14 *hdr_ext_ptr;
   padding_size = 0;
   pkt->data_size = (unsigned long int)0;
   pkt->data_offset = 0;
   pkt->appendable = 1;
   pkt->nsamples = -1;
-  if(!(pkt->size >= sizeof(struct anonymous$28) /*12ul*/ ))
-    return (enum anonymous$13)RTP_PARSER_PTOOSHRT;
+  if(!(pkt->size >= sizeof(struct anonymous_28) /*12ul*/ ))
+    return (enum anonymous_13)RTP_PARSER_PTOOSHRT;
 
   else
     if(!((signed int)pkt->data.header.version == 2))
-      return (enum anonymous$13)RTP_PARSER_IHDRVER;
+      return (enum anonymous_13)RTP_PARSER_IHDRVER;
 
     else
     {
-      pkt->data_offset = (signed int)(sizeof(struct anonymous$28) /*12ul*/  + (unsigned long int)(&pkt->data.header)->cc * sizeof(unsigned int) /*4ul*/ );
+      pkt->data_offset = (signed int)(sizeof(struct anonymous_28) /*12ul*/  + (unsigned long int)(&pkt->data.header)->cc * sizeof(unsigned int) /*4ul*/ );
       if(!((signed int)pkt->data.header.x == 0))
       {
-        if(!(pkt->size >= sizeof(struct anonymous$14) /*4ul*/  + (unsigned long int)pkt->data_offset))
-          return (enum anonymous$13)RTP_PARSER_PTOOSHRTXS;
+        if(!(pkt->size >= sizeof(struct anonymous_14) /*4ul*/  + (unsigned long int)pkt->data_offset))
+          return (enum anonymous_13)RTP_PARSER_PTOOSHRTXS;
 
-        hdr_ext_ptr = (struct anonymous$14 *)&pkt->data.buf[(signed long int)pkt->data_offset];
-        unsigned short int return_value_ntohs$1;
-        return_value_ntohs$1=ntohs(hdr_ext_ptr->length);
-        pkt->data_offset = pkt->data_offset + (signed int)(sizeof(struct anonymous$14) /*4ul*/  + (unsigned long int)return_value_ntohs$1 * sizeof(unsigned int) /*4ul*/ );
+        hdr_ext_ptr = (struct anonymous_14 *)&pkt->data.buf[(signed long int)pkt->data_offset];
+        unsigned short int return_value_ntohs_1;
+        return_value_ntohs_1=ntohs(hdr_ext_ptr->length);
+        pkt->data_offset = pkt->data_offset + (signed int)(sizeof(struct anonymous_14) /*4ul*/  + (unsigned long int)return_value_ntohs_1 * sizeof(unsigned int) /*4ul*/ );
       }
 
       if(!(pkt->size >= (unsigned long int)pkt->data_offset))
-        return (enum anonymous$13)RTP_PARSER_PTOOSHRTXH;
+        return (enum anonymous_13)RTP_PARSER_PTOOSHRTXH;
 
       else
         if(!((signed int)pkt->data.header.p == 0))
         {
           if((unsigned long int)pkt->data_offset == pkt->size)
-            return (enum anonymous$13)RTP_PARSER_PTOOSHRTPS;
+            return (enum anonymous_13)RTP_PARSER_PTOOSHRTPS;
 
           padding_size = (signed int)pkt->data.buf[(signed long int)(pkt->size - (unsigned long int)1)];
           if(!(padding_size == 0))
             goto __CPROVER_DUMP_L7;
 
-          return (enum anonymous$13)RTP_PARSER_IPS;
+          return (enum anonymous_13)RTP_PARSER_IPS;
         }
 
         else
@@ -6024,7 +6024,7 @@ enum anonymous$13 rtp_packet_parse(struct rtp_packet *pkt)
         __CPROVER_DUMP_L7:
           ;
           if(!(pkt->size >= (unsigned long int)(pkt->data_offset + padding_size)))
-            return (enum anonymous$13)RTP_PARSER_PTOOSHRTP;
+            return (enum anonymous_13)RTP_PARSER_PTOOSHRTP;
 
           else
           {
@@ -6032,7 +6032,7 @@ enum anonymous$13 rtp_packet_parse(struct rtp_packet *pkt)
             pkt->ts=ntohl(pkt->data.header.ts);
             pkt->seq=ntohs((unsigned short int)pkt->data.header.seq);
             if(pkt->data_size == 0ul)
-              return (enum anonymous$13)RTP_PARSER_OK;
+              return (enum anonymous_13)RTP_PARSER_OK;
 
             else
             {
@@ -6044,7 +6044,7 @@ enum anonymous$13 rtp_packet_parse(struct rtp_packet *pkt)
 
               }
 
-              return (enum anonymous$13)RTP_PARSER_OK;
+              return (enum anonymous_13)RTP_PARSER_OK;
             }
           }
         }
@@ -6053,7 +6053,7 @@ enum anonymous$13 rtp_packet_parse(struct rtp_packet *pkt)
 
 // rtp_packet_parse_errstr
 // file rtp.c line 206
-const char * rtp_packet_parse_errstr(enum anonymous$13 ecode)
+const char * rtp_packet_parse_errstr(enum anonymous_13 ecode)
 {
   switch((signed int)ecode)
   {
@@ -6086,9 +6086,9 @@ const char * rtp_packet_parse_errstr(enum anonymous$13 ecode)
 void rtp_packet_set_seq(struct rtp_packet *p, unsigned short int seq)
 {
   p->seq = seq;
-  unsigned short int return_value_htons$1;
-  return_value_htons$1=htons(seq);
-  p->data.header.seq = (unsigned int)return_value_htons$1;
+  unsigned short int return_value_htons_1;
+  return_value_htons_1=htons(seq);
+  p->data.header.seq = (unsigned int)return_value_htons_1;
 }
 
 // rtp_packet_set_ts
@@ -6111,9 +6111,9 @@ struct rtp_packet * rtp_recv(signed int fd)
   else
   {
     pkt->rlen = (unsigned int)sizeof(struct sockaddr_storage) /*128ul*/ ;
-    signed long int return_value_recvfrom$1;
-    return_value_recvfrom$1=recvfrom(fd, (void *)pkt->data.buf, sizeof(unsigned char [8192l]) /*8192ul*/ , 0, (struct sockaddr *)&pkt->raddr, &pkt->rlen);
-    pkt->size = (unsigned long int)return_value_recvfrom$1;
+    signed long int return_value_recvfrom_1;
+    return_value_recvfrom_1=recvfrom(fd, (void *)pkt->data.buf, sizeof(unsigned char [8192l]) /*8192ul*/ , 0, (struct sockaddr *)&pkt->raddr, &pkt->rlen);
+    pkt->size = (unsigned long int)return_value_recvfrom_1;
     if(pkt->size == 18446744073709551615ul)
     {
       rtp_packet_free(pkt);
@@ -6133,9 +6133,9 @@ void rtp_resizer_enqueue(struct rtp_resizer *this, struct rtp_packet **pkt)
   unsigned int ref_ts;
   unsigned int internal_ts;
   signed int delta;
-  enum anonymous$13 return_value_rtp_packet_parse$1;
-  return_value_rtp_packet_parse$1=rtp_packet_parse(*pkt);
-  if((signed int)return_value_rtp_packet_parse$1 == RTP_PARSER_OK)
+  enum anonymous_13 return_value_rtp_packet_parse_1;
+  return_value_rtp_packet_parse_1=rtp_packet_parse(*pkt);
+  if((signed int)return_value_rtp_packet_parse_1 == RTP_PARSER_OK)
   {
     if(!((*pkt)->nsamples == -1))
     {
@@ -6323,13 +6323,13 @@ struct rtp_packet * rtp_resizer_get(struct rtp_resizer *this, double dtime)
 
         else
         {
-          _Bool tmp_if_expr$1;
+          _Bool tmp_if_expr_1;
           if(!(ret->ts + (unsigned int)ret->nsamples == p->ts))
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = ret->data.header.pt != p->data.header.pt ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = ret->data.header.pt != p->data.header.pt ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
             break;
 
           nsamples_left = output_nsamples - ret->nsamples;
@@ -6431,9 +6431,9 @@ signed int rtp_server_get(struct rtp_server *rp, double dtime)
     rp->btime = dtime;
 
   ts=ntohl(rp->rtp->ts);
-  signed long int return_value_lseek$1;
-  signed long int return_value_read$3;
-  unsigned short int return_value_ntohs$6;
+  signed long int return_value_lseek_1;
+  signed long int return_value_read_3;
+  unsigned short int return_value_ntohs_6;
   if(rp->btime + (double)ts / 8000.000000 > dtime)
     return 0;
 
@@ -6476,29 +6476,29 @@ signed int rtp_server_get(struct rtp_server *rp, double dtime)
 
     rlen = bytes_per_frame * number_of_frames;
     rticks = ticks_per_frame * number_of_frames;
-    signed long int return_value_read$5;
-    return_value_read$5=read(rp->fd, (void *)rp->pload, (unsigned long int)rlen);
-    if(!(return_value_read$5 == (signed long int)rlen))
+    signed long int return_value_read_5;
+    return_value_read_5=read(rp->fd, (void *)rp->pload, (unsigned long int)rlen);
+    if(!(return_value_read_5 == (signed long int)rlen))
     {
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(rp->loop == 0)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
       {
-        return_value_lseek$1=lseek(rp->fd, (signed long int)0, 0);
-        tmp_if_expr$2 = return_value_lseek$1 == (signed long int)-1 ? (_Bool)1 : (_Bool)0;
+        return_value_lseek_1=lseek(rp->fd, (signed long int)0, 0);
+        tmp_if_expr_2 = return_value_lseek_1 == (signed long int)-1 ? (_Bool)1 : (_Bool)0;
       }
-      _Bool tmp_if_expr$4;
-      if(tmp_if_expr$2)
-        tmp_if_expr$4 = (_Bool)1;
+      _Bool tmp_if_expr_4;
+      if(tmp_if_expr_2)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
-        return_value_read$3=read(rp->fd, (void *)rp->pload, (unsigned long int)rlen);
-        tmp_if_expr$4 = return_value_read$3 != (signed long int)rlen ? (_Bool)1 : (_Bool)0;
+        return_value_read_3=read(rp->fd, (void *)rp->pload, (unsigned long int)rlen);
+        tmp_if_expr_4 = return_value_read_3 != (signed long int)rlen ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
+      if(tmp_if_expr_4)
         return -1;
 
       if(!(rp->loop == -1))
@@ -6508,25 +6508,25 @@ signed int rtp_server_get(struct rtp_server *rp, double dtime)
 
     if(!((signed int)rp->rtp->m == 0))
     {
-      return_value_ntohs$6=ntohs((unsigned short int)rp->rtp->seq);
-      if(!((signed int)return_value_ntohs$6 == 0))
+      return_value_ntohs_6=ntohs((unsigned short int)rp->rtp->seq);
+      if(!((signed int)return_value_ntohs_6 == 0))
         rp->rtp->m = (unsigned int)0;
 
     }
 
     rp->rtp->ts=htonl(ts + (unsigned int)((8000 * rticks) / 1000));
-    unsigned short int return_value_ntohs$7;
-    return_value_ntohs$7=ntohs((unsigned short int)rp->rtp->seq);
-    unsigned short int return_value_htons$8;
-    return_value_htons$8=htons((unsigned short int)((signed int)return_value_ntohs$7 + 1));
-    rp->rtp->seq = (unsigned int)return_value_htons$8;
+    unsigned short int return_value_ntohs_7;
+    return_value_ntohs_7=ntohs((unsigned short int)rp->rtp->seq);
+    unsigned short int return_value_htons_8;
+    return_value_htons_8=htons((unsigned short int)((signed int)return_value_ntohs_7 + 1));
+    rp->rtp->seq = (unsigned int)return_value_htons_8;
     return (signed int)((rp->pload - rp->buf) + (signed long int)rlen);
   }
 }
 
 // rtp_server_new
 // file rtp_server.c line 48
-struct rtp_server * rtp_server_new(const char *name, enum anonymous$20 codec, signed int loop)
+struct rtp_server * rtp_server_new(const char *name, enum anonymous_20 codec, signed int loop)
 {
   struct rtp_server *rp;
   signed int fd;
@@ -6538,9 +6538,9 @@ struct rtp_server * rtp_server_new(const char *name, enum anonymous$20 codec, si
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct rtp_server) /*1056ul*/ );
-    rp = (struct rtp_server *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct rtp_server) /*1056ul*/ );
+    rp = (struct rtp_server *)return_value_malloc_1;
     if(rp == ((struct rtp_server *)NULL))
       return (struct rtp_server *)(void *)0;
 
@@ -6550,7 +6550,7 @@ struct rtp_server * rtp_server_new(const char *name, enum anonymous$20 codec, si
       rp->btime = (double)-1;
       rp->fd = fd;
       rp->loop = loop > 0 ? loop - 1 : loop;
-      rp->rtp = (struct anonymous$28 *)rp->buf;
+      rp->rtp = (struct anonymous_28 *)rp->buf;
       rp->rtp->version = (unsigned int)2;
       rp->rtp->p = (unsigned int)0;
       rp->rtp->x = (unsigned int)0;
@@ -6559,10 +6559,10 @@ struct rtp_server * rtp_server_new(const char *name, enum anonymous$20 codec, si
       rp->rtp->pt = (unsigned int)codec;
       rp->rtp->ts = (unsigned int)0;
       rp->rtp->seq = (unsigned int)0;
-      signed long int return_value_random$2;
-      return_value_random$2=random();
-      rp->rtp->ssrc = (unsigned int)return_value_random$2;
-      rp->pload = rp->buf + (signed long int)(sizeof(struct anonymous$28) /*12ul*/  + (unsigned long int)rp->rtp->cc * sizeof(unsigned int) /*4ul*/ );
+      signed long int return_value_random_2;
+      return_value_random_2=random();
+      rp->rtp->ssrc = (unsigned int)return_value_random_2;
+      rp->pload = rp->buf + (signed long int)(sizeof(struct anonymous_28) /*12ul*/  + (unsigned long int)rp->rtp->cc * sizeof(unsigned int) /*4ul*/ );
       return rp;
     }
   }
@@ -6582,11 +6582,11 @@ signed int rtpp_daemon(signed int nochdir, signed int noclose)
   sa.__sigaction_handler.sa_handler = (void (*)(signed int))1;
   sa.sa_flags = 0;
   osa_ok=sigaction(1, &sa, &osa);
-  signed int return_value_fork$1;
-  return_value_fork$1=fork();
-  if(!(return_value_fork$1 == -1))
+  signed int return_value_fork_1;
+  return_value_fork_1=fork();
+  if(!(return_value_fork_1 == -1))
   {
-    if(return_value_fork$1 == 0)
+    if(return_value_fork_1 == 0)
       goto __CPROVER_DUMP_L2;
 
   }
@@ -6604,17 +6604,17 @@ signed int rtpp_daemon(signed int nochdir, signed int noclose)
 __CPROVER_DUMP_L4:
   ;
   newgrp=setsid();
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  oerrno = *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  oerrno = *return_value___errno_location_2;
   if(!(osa_ok == -1))
     sigaction(1, &osa, (struct sigaction *)(void *)0);
 
   if(newgrp == -1)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = oerrno;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = oerrno;
     return -1;
   }
 
@@ -6646,8 +6646,8 @@ unsigned short int rtpp_in_cksum(void *addr, signed int len)
   signed int nleft;
   signed int sum;
   unsigned short int *w;
-  /* tag-#anon#lUN[U16'us'|lARR2{U16}$U16$'uc'] */
-union anonymous$1
+  /* tag-#anon#lUN[U16'us'|lARR2{U16}_U16_'uc'] */
+union anonymous_1
 {
   // us
   unsigned short int us;
@@ -6657,16 +6657,16 @@ union anonymous$1
 
 /* */
   ;
-  union anonymous$1 last;
+  union anonymous_1 last;
   unsigned short int answer;
   nleft = len;
   sum = 0;
   w = (unsigned short int *)addr;
   for( ; nleft >= 2; nleft = nleft - 2)
   {
-    unsigned short int *tmp_post$1 = w;
+    unsigned short int *tmp_post_1 = w;
     w = w + 1l;
-    sum = sum + (signed int)*tmp_post$1;
+    sum = sum + (signed int)*tmp_post_1;
   }
   if(nleft == 1)
   {
@@ -6686,21 +6686,21 @@ union anonymous$1
 signed int rtpp_log_str2fac(const char *s)
 {
   signed int i = 0;
-  signed int return_value_strcasecmp$2;
+  signed int return_value_strcasecmp_2;
   for( ; !(str2fac[(signed long int)i].str_fac == ((const char *)NULL)); i = i + 1)
   {
-    signed int return_value_strcasecmp$1;
-    return_value_strcasecmp$1=strcasecmp(s, str2fac[(signed long int)i].str_fac);
-    _Bool tmp_if_expr$3;
-    if(return_value_strcasecmp$1 == 0)
-      tmp_if_expr$3 = (_Bool)1;
+    signed int return_value_strcasecmp_1;
+    return_value_strcasecmp_1=strcasecmp(s, str2fac[(signed long int)i].str_fac);
+    _Bool tmp_if_expr_3;
+    if(return_value_strcasecmp_1 == 0)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_strcasecmp$2=strcasecmp(s, str2fac[(signed long int)i].str_fac + (signed long int)4);
-      tmp_if_expr$3 = return_value_strcasecmp$2 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcasecmp_2=strcasecmp(s, str2fac[(signed long int)i].str_fac + (signed long int)4);
+      tmp_if_expr_3 = return_value_strcasecmp_2 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       return str2fac[(signed long int)i].int_fac;
 
   }
@@ -6711,37 +6711,37 @@ signed int rtpp_log_str2fac(const char *s)
 // file rtpp_log.h line 66
 signed int rtpp_log_str2lvl(const char *strl)
 {
-  signed int return_value_strcasecmp$1;
-  return_value_strcasecmp$1=strcasecmp(strl, "DBUG");
-  if(return_value_strcasecmp$1 == 0)
+  signed int return_value_strcasecmp_1;
+  return_value_strcasecmp_1=strcasecmp(strl, "DBUG");
+  if(return_value_strcasecmp_1 == 0)
     return 7;
 
   else
   {
-    signed int return_value_strcasecmp$2;
-    return_value_strcasecmp$2=strcasecmp(strl, "INFO");
-    if(return_value_strcasecmp$2 == 0)
+    signed int return_value_strcasecmp_2;
+    return_value_strcasecmp_2=strcasecmp(strl, "INFO");
+    if(return_value_strcasecmp_2 == 0)
       return 6;
 
     else
     {
-      signed int return_value_strcasecmp$3;
-      return_value_strcasecmp$3=strcasecmp(strl, "WARN");
-      if(return_value_strcasecmp$3 == 0)
+      signed int return_value_strcasecmp_3;
+      return_value_strcasecmp_3=strcasecmp(strl, "WARN");
+      if(return_value_strcasecmp_3 == 0)
         return 4;
 
       else
       {
-        signed int return_value_strcasecmp$4;
-        return_value_strcasecmp$4=strcasecmp(strl, "ERR");
-        if(return_value_strcasecmp$4 == 0)
+        signed int return_value_strcasecmp_4;
+        return_value_strcasecmp_4=strcasecmp(strl, "ERR");
+        if(return_value_strcasecmp_4 == 0)
           return 3;
 
         else
         {
-          signed int return_value_strcasecmp$5;
-          return_value_strcasecmp$5=strcasecmp(strl, "CRIT");
-          if(return_value_strcasecmp$5 == 0)
+          signed int return_value_strcasecmp_5;
+          return_value_strcasecmp_5=strcasecmp(strl, "CRIT");
+          if(return_value_strcasecmp_5 == 0)
             return 2;
 
           else
@@ -6770,15 +6770,15 @@ char * rtpp_strsep(char **stringp, const char *delim)
     tok = s;
     do
     {
-      char *tmp_post$1 = s;
+      char *tmp_post_1 = s;
       s = s + 1l;
-      c = (signed int)*tmp_post$1;
+      c = (signed int)*tmp_post_1;
       spanp = delim;
       do
       {
-        const char *tmp_post$2 = spanp;
+        const char *tmp_post_2 = spanp;
         spanp = spanp + 1l;
-        sc = (signed int)*tmp_post$2;
+        sc = (signed int)*tmp_post_2;
         if(sc == c)
         {
           if(c == 0)
@@ -6803,7 +6803,7 @@ void rwrite(struct rtpp_session *sp, void *rrc, struct rtp_packet *packet)
 {
   struct iovec v[2l];
   /* tag-#anon#lUN[lSYM#tag-pkt_hdr_pcap#'pcap'|lSYM#tag-pkt_hdr_adhoc#'adhoc'] */
-union anonymous$25
+union anonymous_25
 {
   // pcap
   struct pkt_hdr_pcap pcap;
@@ -6813,11 +6813,11 @@ union anonymous$25
 
 /* */
   ;
-  union anonymous$25 hdr;
+  union anonymous_25 hdr;
   signed int rval;
   signed int hdr_size;
   signed int (*prepare_pkt_hdr)(struct rtpp_session *, struct rtp_packet *, void *);
-  signed int return_value_flush_rbuf$1;
+  signed int return_value_flush_rbuf_1;
   signed int return_value_1;
   if(!(((struct rtpp_record_channel *)rrc)->fd == -1))
   {
@@ -6848,8 +6848,8 @@ union anonymous$25
         {
           if(((struct rtpp_record_channel *)rrc)->rbuf_len >= 1)
           {
-            return_value_flush_rbuf$1=flush_rbuf(sp, rrc);
-            if(!(return_value_flush_rbuf$1 == 0))
+            return_value_flush_rbuf_1=flush_rbuf(sp, rrc);
+            if(!(return_value_flush_rbuf_1 == 0))
               break;
 
           }
@@ -6867,9 +6867,9 @@ union anonymous$25
           v[(signed long int)0].iov_len = (unsigned long int)hdr_size;
           v[(signed long int)1].iov_base = (void *)packet->data.buf;
           v[(signed long int)1].iov_len = packet->size;
-          signed long int return_value_writev$2;
-          return_value_writev$2=writev(((struct rtpp_record_channel *)rrc)->fd, v, 2);
-          rval = (signed int)return_value_writev$2;
+          signed long int return_value_writev_2;
+          return_value_writev_2=writev(((struct rtpp_record_channel *)rrc)->fd, v, 2);
+          rval = (signed int)return_value_writev_2;
           if(!(rval == -1))
             break;
 
@@ -6904,8 +6904,8 @@ static void rxmit_packets(struct cfg *cf, struct rtpp_session *sp, signed int ri
   signed int port;
   struct rtp_packet *packet = (struct rtp_packet *)(void *)0;
   ndrain = 0;
-  signed int return_value_memcmp$5;
-  signed int return_value_ishostseq$10;
+  signed int return_value_memcmp_5;
+  signed int return_value_ishostseq_10;
   for( ; !(ndrain >= 5); ndrain = ndrain + 1)
   {
     if(!(packet == ((struct rtp_packet *)NULL)))
@@ -6923,9 +6923,9 @@ static void rxmit_packets(struct cfg *cf, struct rtpp_session *sp, signed int ri
     {
       if(sp->asymmetric[(signed long int)ridx] == 0)
       {
-        signed int return_value_memcmp$1;
-        return_value_memcmp$1=memcmp((const void *)sp->addr[(signed long int)ridx], (const void *)&packet->raddr, (unsigned long int)packet->rlen);
-        if(!(return_value_memcmp$1 == 0))
+        signed int return_value_memcmp_1;
+        return_value_memcmp_1=memcmp((const void *)sp->addr[(signed long int)ridx], (const void *)&packet->raddr, (unsigned long int)packet->rlen);
+        if(!(return_value_memcmp_1 == 0))
         {
           if(sp->canupdate[(signed long int)ridx] == 0)
             goto __CPROVER_DUMP_L26;
@@ -6949,9 +6949,9 @@ static void rxmit_packets(struct cfg *cf, struct rtpp_session *sp, signed int ri
 
       else
       {
-        signed int return_value_ishostseq$2;
-        return_value_ishostseq$2=ishostseq(sp->addr[(signed long int)ridx], (struct sockaddr *)&packet->raddr);
-        if(return_value_ishostseq$2 == 0)
+        signed int return_value_ishostseq_2;
+        return_value_ishostseq_2=ishostseq(sp->addr[(signed long int)ridx], (struct sockaddr *)&packet->raddr);
+        if(return_value_ishostseq_2 == 0)
           goto __CPROVER_DUMP_L26;
 
       }
@@ -6961,22 +6961,22 @@ static void rxmit_packets(struct cfg *cf, struct rtpp_session *sp, signed int ri
     else
     {
       sp->pcount[(signed long int)ridx] = sp->pcount[(signed long int)ridx] + 1ul;
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc((unsigned long int)packet->rlen);
-      sp->addr[(signed long int)ridx] = (struct sockaddr *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc((unsigned long int)packet->rlen);
+      sp->addr[(signed long int)ridx] = (struct sockaddr *)return_value_malloc_3;
       if(sp->addr[(signed long int)ridx] == ((struct sockaddr *)NULL))
       {
         sp->pcount[(signed long int)3] = sp->pcount[(signed long int)3] + 1ul;
         if(sp->log->log_level >= 3)
           _rtpp_log_write(sp->log, 3, "rxmit_packets", "can't allocate memory for remote address - removing session");
 
-        struct rtpp_session *tmp_if_expr$4;
+        struct rtpp_session *tmp_if_expr_4;
         if(!(sp->rtp == ((struct rtpp_session *)NULL)))
-          tmp_if_expr$4 = sp->rtp;
+          tmp_if_expr_4 = sp->rtp;
 
         else
-          tmp_if_expr$4 = sp;
-        remove_session(cf, tmp_if_expr$4);
+          tmp_if_expr_4 = sp;
+        remove_session(cf, tmp_if_expr_4);
         break;
       }
 
@@ -6986,46 +6986,46 @@ static void rxmit_packets(struct cfg *cf, struct rtpp_session *sp, signed int ri
     {
       sp->untrusted_addr[(signed long int)ridx] = 1;
       memcpy((void *)sp->addr[(signed long int)ridx], (const void *)&packet->raddr, (unsigned long int)packet->rlen);
-      _Bool tmp_if_expr$6;
+      _Bool tmp_if_expr_6;
       if(sp->prev_addr[(signed long int)ridx] == ((struct sockaddr *)NULL))
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_6 = (_Bool)1;
 
       else
       {
-        return_value_memcmp$5=memcmp((const void *)sp->prev_addr[(signed long int)ridx], (const void *)&packet->raddr, (unsigned long int)packet->rlen);
-        tmp_if_expr$6 = return_value_memcmp$5 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_memcmp_5=memcmp((const void *)sp->prev_addr[(signed long int)ridx], (const void *)&packet->raddr, (unsigned long int)packet->rlen);
+        tmp_if_expr_6 = return_value_memcmp_5 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$6)
+      if(tmp_if_expr_6)
         sp->canupdate[(signed long int)ridx] = 0;
 
-      unsigned short int return_value_ntohs$7;
-      return_value_ntohs$7=ntohs(((struct sockaddr_in *)&packet->raddr)->sin_port);
-      port = (signed int)return_value_ntohs$7;
+      unsigned short int return_value_ntohs_7;
+      return_value_ntohs_7=ntohs(((struct sockaddr_in *)&packet->raddr)->sin_port);
+      port = (signed int)return_value_ntohs_7;
       if(sp->log->log_level >= 6)
       {
-        const char *return_value_addr2char$8;
-        return_value_addr2char$8=addr2char((struct sockaddr *)&packet->raddr);
-        _rtpp_log_write(sp->log, 6, "rxmit_packets", "%s's address filled in: %s:%d (%s)", ridx == 0 ? "callee" : "caller", return_value_addr2char$8, port, sp->rtp == (struct rtpp_session *)(void *)0 ? "RTP" : "RTCP");
+        const char *return_value_addr2char_8;
+        return_value_addr2char_8=addr2char((struct sockaddr *)&packet->raddr);
+        _rtpp_log_write(sp->log, 6, "rxmit_packets", "%s's address filled in: %s:%d (%s)", ridx == 0 ? "callee" : "caller", return_value_addr2char_8, port, sp->rtp == (struct rtpp_session *)(void *)0 ? "RTP" : "RTCP");
       }
 
       if(!(sp->rtcp == ((struct rtpp_session *)NULL)))
       {
-        _Bool tmp_if_expr$11;
+        _Bool tmp_if_expr_11;
         if(sp->rtcp->addr[(signed long int)ridx] == ((struct sockaddr *)NULL))
-          tmp_if_expr$11 = (_Bool)1;
+          tmp_if_expr_11 = (_Bool)1;
 
         else
         {
-          return_value_ishostseq$10=ishostseq(sp->rtcp->addr[(signed long int)ridx], (struct sockaddr *)&packet->raddr);
-          tmp_if_expr$11 = !(return_value_ishostseq$10 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_ishostseq_10=ishostseq(sp->rtcp->addr[(signed long int)ridx], (struct sockaddr *)&packet->raddr);
+          tmp_if_expr_11 = !(return_value_ishostseq_10 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$11)
+        if(tmp_if_expr_11)
         {
           if(sp->rtcp->addr[(signed long int)ridx] == ((struct sockaddr *)NULL))
           {
-            void *return_value_malloc$9;
-            return_value_malloc$9=malloc((unsigned long int)packet->rlen);
-            sp->rtcp->addr[(signed long int)ridx] = (struct sockaddr *)return_value_malloc$9;
+            void *return_value_malloc_9;
+            return_value_malloc_9=malloc((unsigned long int)packet->rlen);
+            sp->rtcp->addr[(signed long int)ridx] = (struct sockaddr *)return_value_malloc_9;
             if(sp->rtcp->addr[(signed long int)ridx] == ((struct sockaddr *)NULL))
             {
               sp->pcount[(signed long int)3] = sp->pcount[(signed long int)3] + 1ul;
@@ -7080,9 +7080,9 @@ void seedrandom(void)
   }
 
   gettimeofday(&tv, (struct timezone *)(void *)0);
-  signed int return_value_getpid$1;
-  return_value_getpid$1=getpid();
-  srandom((unsigned int)((unsigned long int)((signed long int)(return_value_getpid$1 << 16) ^ tv.tv_sec ^ tv.tv_usec) ^ junk));
+  signed int return_value_getpid_1;
+  return_value_getpid_1=getpid();
+  srandom((unsigned int)((unsigned long int)((signed long int)(return_value_getpid_1 << 16) ^ tv.tv_sec ^ tv.tv_usec) ^ junk));
 }
 
 // send_packet
@@ -7091,53 +7091,53 @@ static void send_packet(struct cfg *cf, struct rtpp_session *sp, signed int ridx
 {
   signed int i;
   signed int sidx;
-  struct rtpp_session *tmp_if_expr$1;
+  struct rtpp_session *tmp_if_expr_1;
   if(!(sp->rtp == ((struct rtpp_session *)NULL)))
-    tmp_if_expr$1 = sp->rtp;
+    tmp_if_expr_1 = sp->rtp;
 
   else
-    tmp_if_expr$1 = sp;
-  tmp_if_expr$1->ttl[(signed long int)ridx] = cf->max_ttl;
+    tmp_if_expr_1 = sp;
+  tmp_if_expr_1->ttl[(signed long int)ridx] = cf->max_ttl;
   sidx = ridx == 0 ? 1 : 0;
-  _Bool tmp_if_expr$4;
-  struct rtpp_session *tmp_if_expr$3;
+  _Bool tmp_if_expr_4;
+  struct rtpp_session *tmp_if_expr_3;
   if(sp->addr[(signed long int)sidx] == ((struct sockaddr *)NULL))
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
     if(!(sp->rtp == ((struct rtpp_session *)NULL)))
-      tmp_if_expr$3 = sp->rtp;
+      tmp_if_expr_3 = sp->rtp;
 
     else
-      tmp_if_expr$3 = sp;
-    tmp_if_expr$4 = tmp_if_expr$3->rtps[(signed long int)sidx] != (struct rtp_server *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = sp;
+    tmp_if_expr_4 = tmp_if_expr_3->rtps[(signed long int)sidx] != (struct rtp_server *)(void *)0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$4)
+  if(tmp_if_expr_4)
     sp->pcount[(signed long int)3] = sp->pcount[(signed long int)3] + 1ul;
 
   else
   {
     sp->pcount[(signed long int)2] = sp->pcount[(signed long int)2] + 1ul;
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if(!(cf->dmode == 0))
-      tmp_if_expr$2 = packet->size < (unsigned long int)128 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = packet->size < (unsigned long int)128 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    i = tmp_if_expr$2 ? 2 : 1;
+      tmp_if_expr_2 = (_Bool)0;
+    i = tmp_if_expr_2 ? 2 : 1;
     for( ; i >= 1; i = i - 1)
       sendto(sp->fds[(signed long int)sidx], (const void *)packet->data.buf, packet->size, 0, sp->addr[(signed long int)sidx], (unsigned int)((signed int)sp->addr[(signed long int)sidx]->sa_family == 2 ? sizeof(struct sockaddr_in) /*16ul*/  : sizeof(struct sockaddr_in6) /*28ul*/ ));
   }
   if(!(sp->rrcs[(signed long int)ridx] == NULL))
   {
-    struct rtpp_session *tmp_if_expr$5;
+    struct rtpp_session *tmp_if_expr_5;
     if(!(sp->rtp == ((struct rtpp_session *)NULL)))
-      tmp_if_expr$5 = sp->rtp;
+      tmp_if_expr_5 = sp->rtp;
 
     else
-      tmp_if_expr$5 = sp;
-    if(tmp_if_expr$5->rtps[(signed long int)ridx] == ((struct rtp_server *)NULL))
+      tmp_if_expr_5 = sp;
+    if(tmp_if_expr_5->rtps[(signed long int)ridx] == ((struct rtp_server *)NULL))
       rwrite(sp, sp->rrcs[(signed long int)ridx], packet);
 
   }
@@ -7154,9 +7154,9 @@ struct rtpp_session * session_findfirst(struct cfg *cf, char *call_id)
   sp = cf->hash_table[(signed long int)hash];
   for( ; !(sp == ((struct rtpp_session *)NULL)); sp = sp->next)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(sp->call_id, call_id);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(sp->call_id, call_id);
+    if(return_value_strcmp_1 == 0)
       break;
 
   }
@@ -7170,9 +7170,9 @@ struct rtpp_session * session_findnext(struct rtpp_session *psp)
   struct rtpp_session *sp = psp->next;
   for( ; !(sp == ((struct rtpp_session *)NULL)); sp = sp->next)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(sp->call_id, psp->call_id);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(sp->call_id, psp->call_id);
+    if(return_value_strcmp_1 == 0)
       break;
 
   }
@@ -7184,21 +7184,21 @@ struct rtpp_session * session_findnext(struct rtpp_session *psp)
 static void setbindhost(struct sockaddr *ia, signed int pf, const char *bindhost, const char *servname)
 {
   signed int n;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(!(bindhost == ((const char *)NULL)))
   {
-    return_value_strcmp$1=strcmp(bindhost, "*");
-    if(return_value_strcmp$1 == 0)
+    return_value_strcmp_1=strcmp(bindhost, "*");
+    if(return_value_strcmp_1 == 0)
       bindhost = (const char *)(void *)0;
 
   }
 
   n=resolve(ia, pf, bindhost, servname, 0x0001);
-  const char *return_value_gai_strerror$2;
+  const char *return_value_gai_strerror_2;
   if(!(n == 0))
   {
-    return_value_gai_strerror$2=gai_strerror(n);
-    errx(1, "setbindhost: %s", return_value_gai_strerror$2);
+    return_value_gai_strerror_2=gai_strerror(n);
+    errx(1, "setbindhost: %s", return_value_gai_strerror_2);
   }
 
 }
@@ -7235,7 +7235,7 @@ static void syslog_async_atexit(void)
   if(!(syslog_queue_inited == 0))
   {
     wi=syslog_queue_get_free_item(1);
-    wi->item_type = (enum anonymous$23)SYSLOG_ITEM_ASYNC_EXIT;
+    wi->item_type = (enum anonymous_23)SYSLOG_ITEM_ASYNC_EXIT;
     syslog_queue_put_item(wi);
     pthread_join(syslog_queue, (void **)(void *)0);
   }
@@ -7249,9 +7249,9 @@ signed int syslog_async_init(const char *app, signed int facility)
   pthread_mutex_lock(&syslog_init_mutex);
   if(syslog_queue_inited == 0)
   {
-    signed int return_value_syslog_queue_init$1;
-    return_value_syslog_queue_init$1=syslog_queue_init();
-    if(!(return_value_syslog_queue_init$1 == 0))
+    signed int return_value_syslog_queue_init_1;
+    return_value_syslog_queue_init_1=syslog_queue_init();
+    if(!(return_value_syslog_queue_init_1 == 0))
     {
       pthread_mutex_unlock(&syslog_init_mutex);
       return -1;
@@ -7303,13 +7303,13 @@ static signed int syslog_queue_init(void)
   syslog_wi_queue = (struct syslog_wi *)(void *)0;
   syslog_wi_queue_tail = (struct syslog_wi *)(void *)0;
   syslog_dropped_items = 0;
-  pthread_cond_init(&syslog_queue_cond, (const union anonymous$26 *)(void *)0);
-  pthread_mutex_init(&syslog_queue_mutex, (const union anonymous$26 *)(void *)0);
-  pthread_cond_init(&syslog_wi_free_cond, (const union anonymous$26 *)(void *)0);
-  pthread_mutex_init(&syslog_wi_free_mutex, (const union anonymous$26 *)(void *)0);
-  signed int return_value_pthread_create$1;
-  return_value_pthread_create$1=pthread_create(&syslog_queue, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))syslog_queue_run, (void *)0);
-  if(!(return_value_pthread_create$1 == 0))
+  pthread_cond_init(&syslog_queue_cond, (const union anonymous_26 *)(void *)0);
+  pthread_mutex_init(&syslog_queue_mutex, (const union anonymous_26 *)(void *)0);
+  pthread_cond_init(&syslog_wi_free_cond, (const union anonymous_26 *)(void *)0);
+  pthread_mutex_init(&syslog_wi_free_mutex, (const union anonymous_26 *)(void *)0);
+  signed int return_value_pthread_create_1;
+  return_value_pthread_create_1=pthread_create(&syslog_queue, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))syslog_queue_run, (void *)0);
+  if(!(return_value_pthread_create_1 == 0))
     return -1;
 
   else
@@ -7387,34 +7387,34 @@ signed int url_unquote(unsigned char *buf, signed int len)
   outlen = len;
   while(len >= 1)
   {
-    void *return_value_memchr$1;
-    return_value_memchr$1=memchr((const void *)buf, 37, (unsigned long int)len);
-    cp = (unsigned char *)return_value_memchr$1;
+    void *return_value_memchr_1;
+    return_value_memchr_1=memchr((const void *)buf, 37, (unsigned long int)len);
+    cp = (unsigned char *)return_value_memchr_1;
     if(cp == ((unsigned char *)NULL))
       return outlen;
 
     if(!((signed long int)len >= (cp - buf) + 2l))
       return -1;
 
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if((signed int)cp[1l] >= 128)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)cp[(signed long int)2] > 127 ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$3;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = (signed int)cp[(signed long int)2] > 127 ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_3;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)hex2char[(signed long int)cp[(signed long int)1]] == -1 ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$4;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_3 = (signed int)hex2char[(signed long int)cp[(signed long int)1]] == -1 ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_4;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)hex2char[(signed long int)cp[(signed long int)2]] == -1 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)hex2char[(signed long int)cp[(signed long int)2]] == -1 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
       return -1;
 
     cp[(signed long int)0] = (unsigned char)((signed int)hex2char[(signed long int)cp[(signed long int)1]] << 4 | (signed int)hex2char[(signed long int)cp[(signed long int)2]]);
@@ -7458,7 +7458,7 @@ void vsyslog_async(signed int priority, const char *format, void **ap)
 
     wi->len = s2;
     wi->priority = priority;
-    wi->item_type = (enum anonymous$23)SYSLOG_ITEM_ASYNC_WRITE;
+    wi->item_type = (enum anonymous_23)SYSLOG_ITEM_ASYNC_WRITE;
     syslog_queue_put_item(wi);
   }
 

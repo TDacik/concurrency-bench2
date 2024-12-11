@@ -1,62 +1,62 @@
-// #anon_enum$XXH_OK=0$XXH_ERROR=1
+// #anon_enum_XXH_OK=0_XXH_ERROR=1
 // file crc/xxhash.h line 83
-enum anonymous$13 { XXH_OK=0, XXH_ERROR=1 };
+enum anonymous_13 { XXH_OK=0, XXH_ERROR=1 };
 
-// #anon_enum$XXH_aligned=0$XXH_unaligned=1
+// #anon_enum_XXH_aligned=0_XXH_unaligned=1
 // file crc/xxhash.c line 149
-enum anonymous$4 { XXH_aligned=0, XXH_unaligned=1 };
+enum anonymous_4 { XXH_aligned=0, XXH_unaligned=1 };
 
-// #anon_enum$XXH_bigEndian=0$XXH_littleEndian=1
+// #anon_enum_XXH_bigEndian=0_XXH_littleEndian=1
 // file crc/xxhash.c line 133
-enum anonymous$3 { XXH_bigEndian=0, XXH_littleEndian=1 };
+enum anonymous_3 { XXH_bigEndian=0, XXH_littleEndian=1 };
 
-// tag-#anon#ST[ARR16{U64}$U64$'__bits'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__bits'|]
 // file /usr/include/x86_64-linux-gnu/bits/sched.h line 125
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]
+// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 177
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#UN[*{SYM#tag-axmap#}$SYM#tag-axmap#$'io_axmap'||SYM#tag-fio_lfsr#'lfsr'|]
+// tag-#anon#UN[*{SYM#tag-axmap#}_SYM#tag-axmap#_'io_axmap'||SYM#tag-fio_lfsr#'lfsr'|]
 // file t/../os/../file.h line 116
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[*{SYM#tag-fio_mutex#}$SYM#tag-fio_mutex#$'lock'||*{SYM#tag-fio_rwlock#}$SYM#tag-fio_rwlock#$'rwlock'|]
+// tag-#anon#UN[*{SYM#tag-fio_mutex#}_SYM#tag-fio_mutex#_'lock'||*{SYM#tag-fio_rwlock#}_SYM#tag-fio_rwlock#_'rwlock'|]
 // file t/../os/../file.h line 108
 union anonymous;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[ARR8{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR8{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 224
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]#'__data'||ARR56{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]#'__data'||ARR56{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 174
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$10;
+union anonymous_10;
 
 // tag-#anon#UN[SYM#tag-taus88_state#'state32'||SYM#tag-taus258_state#'state64'|]
 // file t/../os/../lib/rand.h line 20
-union anonymous$2;
+union anonymous_2;
 
 // tag-#anon#UN[SYM#tag-zipf_state#'zipf'||SYM#tag-gauss_state#'gauss'|]
 // file t/../os/../file.h line 124
-union anonymous$1;
+union anonymous_1;
 
 // tag-XXH_state32_t
 // file crc/xxhash.h line 68
@@ -247,7 +247,7 @@ unsigned int XXH32(const void *input, unsigned int len, unsigned int seed);
 unsigned int XXH32_digest(void *state_in);
 // XXH32_endian_align
 // file crc/xxhash.c line 165
-static unsigned int XXH32_endian_align(const void *input, signed int len, unsigned int seed, enum anonymous$3 endian, enum anonymous$4 align);
+static unsigned int XXH32_endian_align(const void *input, signed int len, unsigned int seed, enum anonymous_3 endian, enum anonymous_4 align);
 // XXH32_init
 // file crc/xxhash.c line 277
 void * XXH32_init(unsigned int seed);
@@ -256,25 +256,25 @@ void * XXH32_init(unsigned int seed);
 unsigned int XXH32_intermediateDigest(void *state_in);
 // XXH32_intermediateDigest_endian
 // file crc/xxhash.c line 361
-static unsigned int XXH32_intermediateDigest_endian(void *state_in, enum anonymous$3 endian);
+static unsigned int XXH32_intermediateDigest_endian(void *state_in, enum anonymous_3 endian);
 // XXH32_resetState
 // file crc/xxhash.c line 263
-enum anonymous$13 XXH32_resetState(void *state_in, unsigned int seed);
+enum anonymous_13 XXH32_resetState(void *state_in, unsigned int seed);
 // XXH32_sizeofState
 // file crc/xxhash.c line 256
 signed int XXH32_sizeofState(void);
 // XXH32_update
 // file crc/xxhash.c line 349
-enum anonymous$13 XXH32_update(void *state_in, const void *input, signed int len);
+enum anonymous_13 XXH32_update(void *state_in, const void *input, signed int len);
 // XXH32_update_endian
 // file crc/xxhash.c line 285
-static enum anonymous$13 XXH32_update_endian(void *state_in, const void *input, signed int len, enum anonymous$3 endian);
+static enum anonymous_13 XXH32_update_endian(void *state_in, const void *input, signed int len, enum anonymous_3 endian);
 // XXH_readLE32
 // file crc/xxhash.c line 159
-static unsigned int XXH_readLE32(const unsigned int *ptr, enum anonymous$3 endian);
+static unsigned int XXH_readLE32(const unsigned int *ptr, enum anonymous_3 endian);
 // XXH_readLE32_align
 // file crc/xxhash.c line 151
-static unsigned int XXH_readLE32_align(const unsigned int *ptr, enum anonymous$3 endian, enum anonymous$4 align);
+static unsigned int XXH_readLE32_align(const unsigned int *ptr, enum anonymous_3 endian, enum anonymous_4 align);
 // __assert_fail
 // file /usr/include/assert.h line 69
 extern void __assert_fail(const char *, const char *, unsigned int, const char *);
@@ -374,9 +374,9 @@ static signed int blocks_free(struct pool *pool, unsigned int pool_idx, unsigned
 // blocks_iter
 // file smalloc.c line 103
 static signed int blocks_iter(struct pool *pool, unsigned int pool_idx, unsigned int idx, unsigned long int nr_blocks, signed int (*func)(unsigned int *, unsigned int));
-// blocks_iter::func$object
+// blocks_iter::func_object
 //
-signed int func$object(unsigned int *, unsigned int);
+signed int func_object(unsigned int *, unsigned int);
 // bloom_crc32c
 // file lib/bloom.c line 26
 static unsigned int bloom_crc32c(const void *buf, unsigned int len, unsigned int seed);
@@ -422,9 +422,9 @@ static signed int col_check(struct chunk *c, struct item *i);
 // cpus_online
 // file t/../os/os.h line 342
 static inline unsigned int cpus_online(void);
-// cpus_online$link1
+// cpus_online_link1
 // file os/os.h line 342
-static inline unsigned int cpus_online$link1(void);
+static inline unsigned int cpus_online_link1(void);
 // crc32c_intel
 // file lib/../crc/crc32c.h line 27
 extern unsigned int crc32c_intel(const unsigned char *data, unsigned long int length);
@@ -469,10 +469,10 @@ static signed int find_next_zero(signed int word, signed int start);
 extern void fio_clock_init(void);
 // fio_cpuset_exit
 // file os/os-linux.h line 74
-static inline signed int fio_cpuset_exit(struct anonymous$5 *mask);
+static inline signed int fio_cpuset_exit(struct anonymous_5 *mask);
 // fio_cpuset_init
 // file os/os-linux.h line 68
-static inline signed int fio_cpuset_init(struct anonymous$5 *mask);
+static inline signed int fio_cpuset_init(struct anonymous_5 *mask);
 // fio_crc32c
 // file lib/../crc/crc32c.h line 36
 static inline unsigned int fio_crc32c(const unsigned char *buf, unsigned long int len);
@@ -635,21 +635,21 @@ extern signed int memcmp(const void *, const void *, unsigned long int);
 // memcpy
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 50
 static inline void * memcpy(void * restrict __dest, const void * restrict __src, unsigned long int __len);
-// memcpy$link1
+// memcpy_link1
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 50
-static inline void * memcpy$link1(void * restrict __dest$link1, const void * restrict __src$link1, unsigned long int __len$link1);
-// memcpy$link2
+static inline void * memcpy_link1(void * restrict __dest_link1, const void * restrict __src_link1, unsigned long int __len_link1);
+// memcpy_link2
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 50
-static inline void * memcpy$link2(void * restrict __dest$link2, const void * restrict __src$link2, unsigned long int __len$link2);
+static inline void * memcpy_link2(void * restrict __dest_link2, const void * restrict __src_link2, unsigned long int __len_link2);
 // memset
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 78
 static inline void * memset(void *__dest, signed int __ch, unsigned long int __len);
-// memset$link1
+// memset_link1
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 78
-static inline void * memset$link1(void *__dest$link1, signed int __ch$link1, unsigned long int __len$link1);
-// memset$link2
+static inline void * memset_link1(void *__dest_link1, signed int __ch_link1, unsigned long int __len_link1);
+// memset_link2
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 78
-static inline void * memset$link2(void *__dest$link2, signed int __ch$link2, unsigned long int __len$link2);
+static inline void * memset_link2(void *__dest_link2, signed int __ch_link2, unsigned long int __len_link2);
 // mmap
 // file /usr/include/x86_64-linux-gnu/sys/mman.h line 61
 extern void * mmap(void *, unsigned long int, signed int, signed int, signed int, signed long int);
@@ -694,28 +694,28 @@ static inline signed long int pread(signed int __fd, void *__buf, unsigned long 
 static inline signed int printf(const char * restrict __fmt, ...);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$9 *);
+extern signed int pthread_cond_destroy(union anonymous_9 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$9 *, const union anonymous$6 *);
+extern signed int pthread_cond_init(union anonymous_9 *, const union anonymous_6 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$9 *);
+extern signed int pthread_cond_signal(union anonymous_9 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$9 *, union anonymous$10 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_9 *, union anonymous_10 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$9 *, union anonymous$10 *);
+extern signed int pthread_cond_wait(union anonymous_9 *, union anonymous_10 *);
 // pthread_condattr_destroy
 // file /usr/include/pthread.h line 1014
-extern signed int pthread_condattr_destroy(union anonymous$6 *);
+extern signed int pthread_condattr_destroy(union anonymous_6 *);
 // pthread_condattr_init
 // file /usr/include/pthread.h line 1010
-extern signed int pthread_condattr_init(union anonymous$6 *);
+extern signed int pthread_condattr_init(union anonymous_6 *);
 // pthread_condattr_setpshared
 // file /usr/include/pthread.h line 1024
-extern signed int pthread_condattr_setpshared(union anonymous$6 *, signed int);
+extern signed int pthread_condattr_setpshared(union anonymous_6 *, signed int);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -724,43 +724,43 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$10 *, const union anonymous$6 *);
+extern signed int pthread_mutex_init(union anonymous_10 *, const union anonymous_6 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$10 *);
+extern signed int pthread_mutex_lock(union anonymous_10 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$10 *);
+extern signed int pthread_mutex_unlock(union anonymous_10 *);
 // pthread_mutexattr_destroy
 // file /usr/include/pthread.h line 812
-extern signed int pthread_mutexattr_destroy(union anonymous$6 *);
+extern signed int pthread_mutexattr_destroy(union anonymous_6 *);
 // pthread_mutexattr_init
 // file /usr/include/pthread.h line 808
-extern signed int pthread_mutexattr_init(union anonymous$6 *);
+extern signed int pthread_mutexattr_init(union anonymous_6 *);
 // pthread_mutexattr_setpshared
 // file /usr/include/pthread.h line 822
-extern signed int pthread_mutexattr_setpshared(union anonymous$6 *, signed int);
+extern signed int pthread_mutexattr_setpshared(union anonymous_6 *, signed int);
 // pthread_rwlock_init
 // file /usr/include/pthread.h line 890
-extern signed int pthread_rwlock_init(union anonymous$8 *, const union anonymous$7 *);
+extern signed int pthread_rwlock_init(union anonymous_8 *, const union anonymous_7 *);
 // pthread_rwlock_rdlock
 // file /usr/include/pthread.h line 899
-extern signed int pthread_rwlock_rdlock(union anonymous$8 *);
+extern signed int pthread_rwlock_rdlock(union anonymous_8 *);
 // pthread_rwlock_unlock
 // file /usr/include/pthread.h line 929
-extern signed int pthread_rwlock_unlock(union anonymous$8 *);
+extern signed int pthread_rwlock_unlock(union anonymous_8 *);
 // pthread_rwlock_wrlock
 // file /usr/include/pthread.h line 914
-extern signed int pthread_rwlock_wrlock(union anonymous$8 *);
+extern signed int pthread_rwlock_wrlock(union anonymous_8 *);
 // pthread_rwlockattr_destroy
 // file /usr/include/pthread.h line 940
-extern signed int pthread_rwlockattr_destroy(union anonymous$7 *);
+extern signed int pthread_rwlockattr_destroy(union anonymous_7 *);
 // pthread_rwlockattr_init
 // file /usr/include/pthread.h line 936
-extern signed int pthread_rwlockattr_init(union anonymous$7 *);
+extern signed int pthread_rwlockattr_init(union anonymous_7 *);
 // pthread_rwlockattr_setpshared
 // file /usr/include/pthread.h line 950
-extern signed int pthread_rwlockattr_setpshared(union anonymous$7 *, signed int);
+extern signed int pthread_rwlockattr_setpshared(union anonymous_7 *, signed int);
 // ptr_valid
 // file smalloc.c line 91
 static inline signed int ptr_valid(struct pool *pool, void *ptr);
@@ -788,9 +788,9 @@ static inline void rb_set_color(struct rb_node *rb, signed int color);
 // rb_set_parent
 // file t/../lib/rbtree.h line 123
 static inline void rb_set_parent(struct rb_node *rb, struct rb_node *p);
-// rb_set_parent$link1
+// rb_set_parent_link1
 // file lib/rbtree.h line 123
-static inline void rb_set_parent$link1(struct rb_node *rb$link1, struct rb_node *p$link1);
+static inline void rb_set_parent_link1(struct rb_node *rb_link1, struct rb_node *p_link1);
 // read_block
 // file t/dedupe.c line 137
 static signed int read_block(signed int fd, void *buf, signed long int offset);
@@ -811,7 +811,7 @@ static signed int run_dedupe_threads(struct fio_file *f, unsigned long int dev_s
 extern void * scalloc(unsigned long int nmemb, unsigned long int size);
 // sched_setaffinity
 // file /usr/include/sched.h line 118
-extern signed int sched_setaffinity(signed int, unsigned long int, const struct anonymous$5 *);
+extern signed int sched_setaffinity(signed int, unsigned long int, const struct anonymous_5 *);
 // scleanup
 // file t/../smalloc.h line 9
 extern void scleanup(void);
@@ -894,13 +894,13 @@ extern unsigned long int utime_since_now(struct timeval *s);
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 74
 static inline signed int vsnprintf(char * restrict __s, unsigned long int __n, const char * restrict __fmt, void **__ap);
 
-struct anonymous$5
+struct anonymous_5
 {
   // __bits
   unsigned long int __bits[16l];
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // __lock
   signed int __lock;
@@ -920,7 +920,7 @@ struct anonymous$11
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // __lock
   signed int __lock;
@@ -968,7 +968,7 @@ struct fio_lfsr
   unsigned int spin;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // io_axmap
   struct axmap *io_axmap;
@@ -984,7 +984,7 @@ union anonymous
   struct fio_rwlock *rwlock;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __size
   char __size[4l];
@@ -992,7 +992,7 @@ union anonymous$6
   signed int __align;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __size
   char __size[8l];
@@ -1000,20 +1000,20 @@ union anonymous$7
   signed long int __align;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // __data
-  struct anonymous$11 __data;
+  struct anonymous_11 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // __data
-  struct anonymous$12 __data;
+  struct anonymous_12 __data;
   // __size
   char __size[56l];
   // __align
@@ -1048,7 +1048,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1082,7 +1082,7 @@ struct taus258_state
   unsigned long int s5;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // state32
   struct taus88_state state32;
@@ -1094,8 +1094,8 @@ struct frand_state
 {
   // use64
   unsigned int use64;
-  // $anon0
-  union anonymous$2 $anon0;
+  // _anon0
+  union anonymous_2 _anon0;
 };
 
 struct zipf_state
@@ -1126,7 +1126,7 @@ struct gauss_state
   unsigned int stddev;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // zipf
   struct zipf_state zipf;
@@ -1311,9 +1311,9 @@ struct clock_thread
   // debug
   signed int debug;
   // lock
-  union anonymous$10 lock;
+  union anonymous_10 lock;
   // started
-  union anonymous$10 started;
+  union anonymous_10 started;
   // nr_entries
   unsigned long int nr_entries;
   // seq
@@ -1366,12 +1366,12 @@ struct fio_file
   unsigned long int last_write;
   // engine_data
   unsigned long int engine_data;
-  // $anon0
-  union anonymous $anon0;
-  // $anon1
-  union anonymous$0 $anon1;
-  // $anon2
-  union anonymous$1 $anon2;
+  // _anon0
+  union anonymous _anon0;
+  // _anon1
+  union anonymous_0 _anon1;
+  // _anon2
+  union anonymous_1 _anon2;
   // references
   signed int references;
   // flags
@@ -1393,9 +1393,9 @@ struct fio_md5_ctx
 struct fio_mutex
 {
   // lock
-  union anonymous$10 lock;
+  union anonymous_10 lock;
   // cond
-  union anonymous$9 cond;
+  union anonymous_9 cond;
   // value
   signed int value;
   // waiters
@@ -1407,7 +1407,7 @@ struct fio_mutex
 struct fio_rwlock
 {
   // lock
-  union anonymous$8 lock;
+  union anonymous_8 lock;
   // magic
   signed int magic;
 };
@@ -1682,19 +1682,19 @@ static unsigned int use_bloom = (unsigned int)1;
 // file lib/../crc/xxhash.h line 91
 unsigned int XXH32(const void *input, unsigned int len, unsigned int seed)
 {
-  enum anonymous$3 endian_detected = (enum anonymous$3)*((char *)&one);
-  unsigned int return_value_XXH32_endian_align$1;
-  unsigned int return_value_XXH32_endian_align$2;
+  enum anonymous_3 endian_detected = (enum anonymous_3)*((char *)&one);
+  unsigned int return_value_XXH32_endian_align_1;
+  unsigned int return_value_XXH32_endian_align_2;
   if((signed int)endian_detected == XXH_littleEndian)
   {
-    return_value_XXH32_endian_align$1=XXH32_endian_align(input, (signed int)len, seed, (enum anonymous$3)XXH_littleEndian, (enum anonymous$4)XXH_unaligned);
-    return return_value_XXH32_endian_align$1;
+    return_value_XXH32_endian_align_1=XXH32_endian_align(input, (signed int)len, seed, (enum anonymous_3)XXH_littleEndian, (enum anonymous_4)XXH_unaligned);
+    return return_value_XXH32_endian_align_1;
   }
 
   else
   {
-    return_value_XXH32_endian_align$2=XXH32_endian_align(input, (signed int)len, seed, (enum anonymous$3)XXH_bigEndian, (enum anonymous$4)XXH_unaligned);
-    return return_value_XXH32_endian_align$2;
+    return_value_XXH32_endian_align_2=XXH32_endian_align(input, (signed int)len, seed, (enum anonymous_3)XXH_bigEndian, (enum anonymous_4)XXH_unaligned);
+    return return_value_XXH32_endian_align_2;
   }
 }
 
@@ -1710,7 +1710,7 @@ unsigned int XXH32_digest(void *state_in)
 
 // XXH32_endian_align
 // file crc/xxhash.c line 165
-static unsigned int XXH32_endian_align(const void *input, signed int len, unsigned int seed, enum anonymous$3 endian, enum anonymous$4 align)
+static unsigned int XXH32_endian_align(const void *input, signed int len, unsigned int seed, enum anonymous_3 endian, enum anonymous_4 align)
 {
   const unsigned char *p = (const unsigned char *)input;
   const unsigned char * const bEnd = p + (signed long int)len;
@@ -1724,27 +1724,27 @@ static unsigned int XXH32_endian_align(const void *input, signed int len, unsign
     unsigned int v4 = seed - 2654435761U;
     do
     {
-      unsigned int return_value_XXH_readLE32_align$1;
-      return_value_XXH_readLE32_align$1=XXH_readLE32_align((const unsigned int *)p, endian, align);
-      v1 = v1 + return_value_XXH_readLE32_align$1 * 2246822519U;
+      unsigned int return_value_XXH_readLE32_align_1;
+      return_value_XXH_readLE32_align_1=XXH_readLE32_align((const unsigned int *)p, endian, align);
+      v1 = v1 + return_value_XXH_readLE32_align_1 * 2246822519U;
       v1 = v1 << 13 | v1 >> 32 - 13;
       v1 = v1 * 2654435761U;
       p = p + (signed long int)4;
-      unsigned int return_value_XXH_readLE32_align$2;
-      return_value_XXH_readLE32_align$2=XXH_readLE32_align((const unsigned int *)p, endian, align);
-      v2 = v2 + return_value_XXH_readLE32_align$2 * 2246822519U;
+      unsigned int return_value_XXH_readLE32_align_2;
+      return_value_XXH_readLE32_align_2=XXH_readLE32_align((const unsigned int *)p, endian, align);
+      v2 = v2 + return_value_XXH_readLE32_align_2 * 2246822519U;
       v2 = v2 << 13 | v2 >> 32 - 13;
       v2 = v2 * 2654435761U;
       p = p + (signed long int)4;
-      unsigned int return_value_XXH_readLE32_align$3;
-      return_value_XXH_readLE32_align$3=XXH_readLE32_align((const unsigned int *)p, endian, align);
-      v3 = v3 + return_value_XXH_readLE32_align$3 * 2246822519U;
+      unsigned int return_value_XXH_readLE32_align_3;
+      return_value_XXH_readLE32_align_3=XXH_readLE32_align((const unsigned int *)p, endian, align);
+      v3 = v3 + return_value_XXH_readLE32_align_3 * 2246822519U;
       v3 = v3 << 13 | v3 >> 32 - 13;
       v3 = v3 * 2654435761U;
       p = p + (signed long int)4;
-      unsigned int return_value_XXH_readLE32_align$4;
-      return_value_XXH_readLE32_align$4=XXH_readLE32_align((const unsigned int *)p, endian, align);
-      v4 = v4 + return_value_XXH_readLE32_align$4 * 2246822519U;
+      unsigned int return_value_XXH_readLE32_align_4;
+      return_value_XXH_readLE32_align_4=XXH_readLE32_align((const unsigned int *)p, endian, align);
+      v4 = v4 + return_value_XXH_readLE32_align_4 * 2246822519U;
       v4 = v4 << 13 | v4 >> 32 - 13;
       v4 = v4 * 2654435761U;
       p = p + (signed long int)4;
@@ -1758,9 +1758,9 @@ static unsigned int XXH32_endian_align(const void *input, signed int len, unsign
   h32 = h32 + (unsigned int)len;
   while(bEnd + -4l >= p)
   {
-    unsigned int return_value_XXH_readLE32_align$5;
-    return_value_XXH_readLE32_align$5=XXH_readLE32_align((const unsigned int *)p, endian, align);
-    h32 = h32 + return_value_XXH_readLE32_align$5 * 3266489917U;
+    unsigned int return_value_XXH_readLE32_align_5;
+    return_value_XXH_readLE32_align_5=XXH_readLE32_align((const unsigned int *)p, endian, align);
+    h32 = h32 + return_value_XXH_readLE32_align_5 * 3266489917U;
     h32 = (h32 << 17 | h32 >> 32 - 17) * 668265263U;
     p = p + (signed long int)4;
   }
@@ -1791,25 +1791,25 @@ void * XXH32_init(unsigned int seed)
 // file crc/xxhash.c line 403
 unsigned int XXH32_intermediateDigest(void *state_in)
 {
-  enum anonymous$3 endian_detected = (enum anonymous$3)*((char *)&one);
-  unsigned int return_value_XXH32_intermediateDigest_endian$1;
-  unsigned int return_value_XXH32_intermediateDigest_endian$2;
+  enum anonymous_3 endian_detected = (enum anonymous_3)*((char *)&one);
+  unsigned int return_value_XXH32_intermediateDigest_endian_1;
+  unsigned int return_value_XXH32_intermediateDigest_endian_2;
   if((signed int)endian_detected == XXH_littleEndian)
   {
-    return_value_XXH32_intermediateDigest_endian$1=XXH32_intermediateDigest_endian(state_in, (enum anonymous$3)XXH_littleEndian);
-    return return_value_XXH32_intermediateDigest_endian$1;
+    return_value_XXH32_intermediateDigest_endian_1=XXH32_intermediateDigest_endian(state_in, (enum anonymous_3)XXH_littleEndian);
+    return return_value_XXH32_intermediateDigest_endian_1;
   }
 
   else
   {
-    return_value_XXH32_intermediateDigest_endian$2=XXH32_intermediateDigest_endian(state_in, (enum anonymous$3)XXH_bigEndian);
-    return return_value_XXH32_intermediateDigest_endian$2;
+    return_value_XXH32_intermediateDigest_endian_2=XXH32_intermediateDigest_endian(state_in, (enum anonymous_3)XXH_bigEndian);
+    return return_value_XXH32_intermediateDigest_endian_2;
   }
 }
 
 // XXH32_intermediateDigest_endian
 // file crc/xxhash.c line 361
-static unsigned int XXH32_intermediateDigest_endian(void *state_in, enum anonymous$3 endian)
+static unsigned int XXH32_intermediateDigest_endian(void *state_in, enum anonymous_3 endian)
 {
   struct XXH_state32_t *state = (struct XXH_state32_t *)state_in;
   const unsigned char *p = (const unsigned char *)state->memory;
@@ -1823,9 +1823,9 @@ static unsigned int XXH32_intermediateDigest_endian(void *state_in, enum anonymo
   h32 = h32 + (unsigned int)state->total_len;
   while(bEnd + -4l >= p)
   {
-    unsigned int return_value_XXH_readLE32$1;
-    return_value_XXH_readLE32$1=XXH_readLE32((const unsigned int *)p, endian);
-    h32 = h32 + return_value_XXH_readLE32$1 * 3266489917U;
+    unsigned int return_value_XXH_readLE32_1;
+    return_value_XXH_readLE32_1=XXH_readLE32((const unsigned int *)p, endian);
+    h32 = h32 + return_value_XXH_readLE32_1 * 3266489917U;
     h32 = (h32 << 17 | h32 >> 32 - 17) * 668265263U;
     p = p + (signed long int)4;
   }
@@ -1844,7 +1844,7 @@ static unsigned int XXH32_intermediateDigest_endian(void *state_in, enum anonymo
 
 // XXH32_resetState
 // file crc/xxhash.c line 263
-enum anonymous$13 XXH32_resetState(void *state_in, unsigned int seed)
+enum anonymous_13 XXH32_resetState(void *state_in, unsigned int seed)
 {
   struct XXH_state32_t *state = (struct XXH_state32_t *)state_in;
   state->seed = seed;
@@ -1854,7 +1854,7 @@ enum anonymous$13 XXH32_resetState(void *state_in, unsigned int seed)
   state->v4 = seed - 2654435761U;
   state->total_len = (unsigned long int)0;
   state->memsize = 0;
-  return (enum anonymous$13)XXH_OK;
+  return (enum anonymous_13)XXH_OK;
 }
 
 // XXH32_sizeofState
@@ -1866,27 +1866,27 @@ signed int XXH32_sizeofState(void)
 
 // XXH32_update
 // file crc/xxhash.c line 349
-enum anonymous$13 XXH32_update(void *state_in, const void *input, signed int len)
+enum anonymous_13 XXH32_update(void *state_in, const void *input, signed int len)
 {
-  enum anonymous$3 endian_detected = (enum anonymous$3)*((char *)&one);
-  enum anonymous$13 return_value_XXH32_update_endian$1;
-  enum anonymous$13 return_value_XXH32_update_endian$2;
+  enum anonymous_3 endian_detected = (enum anonymous_3)*((char *)&one);
+  enum anonymous_13 return_value_XXH32_update_endian_1;
+  enum anonymous_13 return_value_XXH32_update_endian_2;
   if((signed int)endian_detected == XXH_littleEndian)
   {
-    return_value_XXH32_update_endian$1=XXH32_update_endian(state_in, input, len, (enum anonymous$3)XXH_littleEndian);
-    return return_value_XXH32_update_endian$1;
+    return_value_XXH32_update_endian_1=XXH32_update_endian(state_in, input, len, (enum anonymous_3)XXH_littleEndian);
+    return return_value_XXH32_update_endian_1;
   }
 
   else
   {
-    return_value_XXH32_update_endian$2=XXH32_update_endian(state_in, input, len, (enum anonymous$3)XXH_bigEndian);
-    return return_value_XXH32_update_endian$2;
+    return_value_XXH32_update_endian_2=XXH32_update_endian(state_in, input, len, (enum anonymous_3)XXH_bigEndian);
+    return return_value_XXH32_update_endian_2;
   }
 }
 
 // XXH32_update_endian
 // file crc/xxhash.c line 285
-static enum anonymous$13 XXH32_update_endian(void *state_in, const void *input, signed int len, enum anonymous$3 endian)
+static enum anonymous_13 XXH32_update_endian(void *state_in, const void *input, signed int len, enum anonymous_3 endian)
 {
   struct XXH_state32_t *state = (struct XXH_state32_t *)state_in;
   const unsigned char *p = (const unsigned char *)input;
@@ -1894,38 +1894,38 @@ static enum anonymous$13 XXH32_update_endian(void *state_in, const void *input, 
   state->total_len = state->total_len + (unsigned long int)len;
   if(!(state->memsize + len >= 16))
   {
-    memcpy$link2((void *)(state->memory + (signed long int)state->memsize), input, (unsigned long int)len);
+    memcpy_link2((void *)(state->memory + (signed long int)state->memsize), input, (unsigned long int)len);
     state->memsize = state->memsize + len;
-    return (enum anonymous$13)XXH_OK;
+    return (enum anonymous_13)XXH_OK;
   }
 
   else
   {
     if(!(state->memsize == 0))
     {
-      memcpy$link2((void *)(state->memory + (signed long int)state->memsize), input, (unsigned long int)(16 - state->memsize));
+      memcpy_link2((void *)(state->memory + (signed long int)state->memsize), input, (unsigned long int)(16 - state->memsize));
       const unsigned int *p32 = (const unsigned int *)state->memory;
-      unsigned int return_value_XXH_readLE32$1;
-      return_value_XXH_readLE32$1=XXH_readLE32(p32, endian);
-      state->v1 = state->v1 + return_value_XXH_readLE32$1 * 2246822519U;
+      unsigned int return_value_XXH_readLE32_1;
+      return_value_XXH_readLE32_1=XXH_readLE32(p32, endian);
+      state->v1 = state->v1 + return_value_XXH_readLE32_1 * 2246822519U;
       state->v1 = state->v1 << 13 | state->v1 >> 32 - 13;
       state->v1 = state->v1 * 2654435761U;
       p32 = p32 + 1l;
-      unsigned int return_value_XXH_readLE32$2;
-      return_value_XXH_readLE32$2=XXH_readLE32(p32, endian);
-      state->v2 = state->v2 + return_value_XXH_readLE32$2 * 2246822519U;
+      unsigned int return_value_XXH_readLE32_2;
+      return_value_XXH_readLE32_2=XXH_readLE32(p32, endian);
+      state->v2 = state->v2 + return_value_XXH_readLE32_2 * 2246822519U;
       state->v2 = state->v2 << 13 | state->v2 >> 32 - 13;
       state->v2 = state->v2 * 2654435761U;
       p32 = p32 + 1l;
-      unsigned int return_value_XXH_readLE32$3;
-      return_value_XXH_readLE32$3=XXH_readLE32(p32, endian);
-      state->v3 = state->v3 + return_value_XXH_readLE32$3 * 2246822519U;
+      unsigned int return_value_XXH_readLE32_3;
+      return_value_XXH_readLE32_3=XXH_readLE32(p32, endian);
+      state->v3 = state->v3 + return_value_XXH_readLE32_3 * 2246822519U;
       state->v3 = state->v3 << 13 | state->v3 >> 32 - 13;
       state->v3 = state->v3 * 2654435761U;
       p32 = p32 + 1l;
-      unsigned int return_value_XXH_readLE32$4;
-      return_value_XXH_readLE32$4=XXH_readLE32(p32, endian);
-      state->v4 = state->v4 + return_value_XXH_readLE32$4 * 2246822519U;
+      unsigned int return_value_XXH_readLE32_4;
+      return_value_XXH_readLE32_4=XXH_readLE32(p32, endian);
+      state->v4 = state->v4 + return_value_XXH_readLE32_4 * 2246822519U;
       state->v4 = state->v4 << 13 | state->v4 >> 32 - 13;
       state->v4 = state->v4 * 2654435761U;
       p32 = p32 + 1l;
@@ -1942,27 +1942,27 @@ static enum anonymous$13 XXH32_update_endian(void *state_in, const void *input, 
       unsigned int v4 = state->v4;
       do
       {
-        unsigned int return_value_XXH_readLE32$5;
-        return_value_XXH_readLE32$5=XXH_readLE32((const unsigned int *)p, endian);
-        v1 = v1 + return_value_XXH_readLE32$5 * 2246822519U;
+        unsigned int return_value_XXH_readLE32_5;
+        return_value_XXH_readLE32_5=XXH_readLE32((const unsigned int *)p, endian);
+        v1 = v1 + return_value_XXH_readLE32_5 * 2246822519U;
         v1 = v1 << 13 | v1 >> 32 - 13;
         v1 = v1 * 2654435761U;
         p = p + (signed long int)4;
-        unsigned int return_value_XXH_readLE32$6;
-        return_value_XXH_readLE32$6=XXH_readLE32((const unsigned int *)p, endian);
-        v2 = v2 + return_value_XXH_readLE32$6 * 2246822519U;
+        unsigned int return_value_XXH_readLE32_6;
+        return_value_XXH_readLE32_6=XXH_readLE32((const unsigned int *)p, endian);
+        v2 = v2 + return_value_XXH_readLE32_6 * 2246822519U;
         v2 = v2 << 13 | v2 >> 32 - 13;
         v2 = v2 * 2654435761U;
         p = p + (signed long int)4;
-        unsigned int return_value_XXH_readLE32$7;
-        return_value_XXH_readLE32$7=XXH_readLE32((const unsigned int *)p, endian);
-        v3 = v3 + return_value_XXH_readLE32$7 * 2246822519U;
+        unsigned int return_value_XXH_readLE32_7;
+        return_value_XXH_readLE32_7=XXH_readLE32((const unsigned int *)p, endian);
+        v3 = v3 + return_value_XXH_readLE32_7 * 2246822519U;
         v3 = v3 << 13 | v3 >> 32 - 13;
         v3 = v3 * 2654435761U;
         p = p + (signed long int)4;
-        unsigned int return_value_XXH_readLE32$8;
-        return_value_XXH_readLE32$8=XXH_readLE32((const unsigned int *)p, endian);
-        v4 = v4 + return_value_XXH_readLE32$8 * 2246822519U;
+        unsigned int return_value_XXH_readLE32_8;
+        return_value_XXH_readLE32_8=XXH_readLE32((const unsigned int *)p, endian);
+        v4 = v4 + return_value_XXH_readLE32_8 * 2246822519U;
         v4 = v4 << 13 | v4 >> 32 - 13;
         v4 = v4 * 2654435761U;
         p = p + (signed long int)4;
@@ -1976,55 +1976,55 @@ static enum anonymous$13 XXH32_update_endian(void *state_in, const void *input, 
 
     if(!(p >= bEnd))
     {
-      memcpy$link2((void *)state->memory, (const void *)p, (unsigned long int)(bEnd - p));
+      memcpy_link2((void *)state->memory, (const void *)p, (unsigned long int)(bEnd - p));
       state->memsize = (signed int)(bEnd - p);
     }
 
-    return (enum anonymous$13)XXH_OK;
+    return (enum anonymous_13)XXH_OK;
   }
 }
 
 // XXH_readLE32
 // file crc/xxhash.c line 159
-static unsigned int XXH_readLE32(const unsigned int *ptr, enum anonymous$3 endian)
+static unsigned int XXH_readLE32(const unsigned int *ptr, enum anonymous_3 endian)
 {
-  unsigned int return_value_XXH_readLE32_align$1;
-  return_value_XXH_readLE32_align$1=XXH_readLE32_align(ptr, endian, (enum anonymous$4)XXH_unaligned);
-  return return_value_XXH_readLE32_align$1;
+  unsigned int return_value_XXH_readLE32_align_1;
+  return_value_XXH_readLE32_align_1=XXH_readLE32_align(ptr, endian, (enum anonymous_4)XXH_unaligned);
+  return return_value_XXH_readLE32_align_1;
 }
 
 // XXH_readLE32_align
 // file crc/xxhash.c line 151
-static unsigned int XXH_readLE32_align(const unsigned int *ptr, enum anonymous$3 endian, enum anonymous$4 align)
+static unsigned int XXH_readLE32_align(const unsigned int *ptr, enum anonymous_3 endian, enum anonymous_4 align)
 {
-  signed long int tmp_if_expr$2;
-  signed long int return_value___builtin_bswap32$1;
-  signed long int tmp_if_expr$4;
-  signed long int return_value___builtin_bswap32$3;
+  signed long int tmp_if_expr_2;
+  signed long int return_value___builtin_bswap32_1;
+  signed long int tmp_if_expr_4;
+  signed long int return_value___builtin_bswap32_3;
   if((signed int)align == XXH_unaligned)
   {
     if((signed int)endian == XXH_littleEndian)
-      tmp_if_expr$2 = (signed long int)((struct _uint32_t_S *)ptr)->v;
+      tmp_if_expr_2 = (signed long int)((struct _uint32_t_S *)ptr)->v;
 
     else
     {
-      return_value___builtin_bswap32$1=__builtin_bswap32((signed long int)((struct _uint32_t_S *)ptr)->v);
-      tmp_if_expr$2 = return_value___builtin_bswap32$1;
+      return_value___builtin_bswap32_1=__builtin_bswap32((signed long int)((struct _uint32_t_S *)ptr)->v);
+      tmp_if_expr_2 = return_value___builtin_bswap32_1;
     }
-    return (unsigned int)tmp_if_expr$2;
+    return (unsigned int)tmp_if_expr_2;
   }
 
   else
   {
     if((signed int)endian == XXH_littleEndian)
-      tmp_if_expr$4 = (signed long int)*ptr;
+      tmp_if_expr_4 = (signed long int)*ptr;
 
     else
     {
-      return_value___builtin_bswap32$3=__builtin_bswap32((signed long int)*ptr);
-      tmp_if_expr$4 = return_value___builtin_bswap32$3;
+      return_value___builtin_bswap32_3=__builtin_bswap32((signed long int)*ptr);
+      tmp_if_expr_4 = return_value___builtin_bswap32_3;
     }
-    return (unsigned int)tmp_if_expr$4;
+    return (unsigned int)tmp_if_expr_4;
   }
 }
 
@@ -2071,7 +2071,7 @@ void __dprint(signed int type, const char *str, ...)
 static void __fio_gettime(struct timeval *tp)
 {
   struct timespec ts;
-  signed int return_value_fill_clock_gettime$1;
+  signed int return_value_fill_clock_gettime_1;
   unsigned long int usecs;
   unsigned long int t;
   struct tv_valid *tv;
@@ -2084,8 +2084,8 @@ static void __fio_gettime(struct timeval *tp)
     }
     case CS_CGETTIME:
     {
-      return_value_fill_clock_gettime$1=fill_clock_gettime(&ts);
-      if(!(return_value_fill_clock_gettime$1 >= 0))
+      return_value_fill_clock_gettime_1=fill_clock_gettime(&ts);
+      if(!(return_value_fill_clock_gettime_1 >= 0))
       {
         log_err("fio: clock_gettime fails\n");
         /* assertion 0 */
@@ -2135,26 +2135,26 @@ static void __fio_gettime(struct timeval *tp)
 // file mutex.c line 33
 extern signed int __fio_mutex_init(struct fio_mutex *mutex, signed int value)
 {
-  union anonymous$6 attr;
-  union anonymous$6 cond;
+  union anonymous_6 attr;
+  union anonymous_6 cond;
   signed int ret;
   mutex->value = value;
   mutex->magic = (signed int)0x4d555445U;
   ret=pthread_mutexattr_init(&attr);
   if(!(ret == 0))
   {
-    char *return_value_strerror$1;
-    return_value_strerror$1=strerror(ret);
-    log_err("pthread_mutexattr_init: %s\n", return_value_strerror$1);
+    char *return_value_strerror_1;
+    return_value_strerror_1=strerror(ret);
+    log_err("pthread_mutexattr_init: %s\n", return_value_strerror_1);
     return ret;
   }
 
   ret=pthread_mutexattr_setpshared(&attr, 1);
   if(!(ret == 0))
   {
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(ret);
-    log_err("pthread_mutexattr_setpshared: %s\n", return_value_strerror$2);
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(ret);
+    log_err("pthread_mutexattr_setpshared: %s\n", return_value_strerror_2);
     return ret;
   }
 
@@ -2164,9 +2164,9 @@ extern signed int __fio_mutex_init(struct fio_mutex *mutex, signed int value)
   ret=pthread_mutex_init(&mutex->lock, &attr);
   if(!(ret == 0))
   {
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(ret);
-    log_err("pthread_mutex_init: %s\n", return_value_strerror$3);
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(ret);
+    log_err("pthread_mutex_init: %s\n", return_value_strerror_3);
     return ret;
   }
 
@@ -2199,14 +2199,14 @@ static inline void __flist_add(struct flist_head *new_entry, struct flist_head *
 static void __rb_erase_color(struct rb_node *node, struct rb_node *parent, struct rb_root *root)
 {
   struct rb_node *other;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_5;
   while((_Bool)1)
   {
     if(!(node == ((struct rb_node *)NULL)))
@@ -2235,23 +2235,23 @@ static void __rb_erase_color(struct rb_node *node, struct rb_node *parent, struc
       }
 
       if(other->rb_left == ((struct rb_node *)NULL))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (other->rb_left->rb_parent_color & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (other->rb_left->rb_parent_color & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
         if(other->rb_right == ((struct rb_node *)NULL))
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = (other->rb_right->rb_parent_color & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (other->rb_right->rb_parent_color & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
       {
         do
           other->rb_parent_color = other->rb_parent_color & (signed long int)~1;
@@ -2263,11 +2263,11 @@ static void __rb_erase_color(struct rb_node *node, struct rb_node *parent, struc
       else
       {
         if(other->rb_right == ((struct rb_node *)NULL))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = (other->rb_right->rb_parent_color & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (other->rb_right->rb_parent_color & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
         {
           struct rb_node *o_left = other->rb_left;
           if(!(o_left == ((struct rb_node *)NULL)))
@@ -2313,23 +2313,23 @@ static void __rb_erase_color(struct rb_node *node, struct rb_node *parent, struc
       }
 
       if(other->rb_left == ((struct rb_node *)NULL))
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = (other->rb_left->rb_parent_color & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$6)
+        tmp_if_expr_6 = (other->rb_left->rb_parent_color & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_6)
       {
         if(other->rb_right == ((struct rb_node *)NULL))
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = (other->rb_right->rb_parent_color & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = (other->rb_right->rb_parent_color & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$8 = (_Bool)0;
-      if(tmp_if_expr$8)
+        tmp_if_expr_8 = (_Bool)0;
+      if(tmp_if_expr_8)
       {
         do
           other->rb_parent_color = other->rb_parent_color & (signed long int)~1;
@@ -2341,11 +2341,11 @@ static void __rb_erase_color(struct rb_node *node, struct rb_node *parent, struc
       else
       {
         if(other->rb_left == ((struct rb_node *)NULL))
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = (other->rb_left->rb_parent_color & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (other->rb_left->rb_parent_color & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_5)
         {
           struct rb_node *o_right = other->rb_right;
           if(!(o_right == ((struct rb_node *)NULL)))
@@ -2393,10 +2393,10 @@ static void __rb_rotate_left(struct rb_node *node, struct rb_root *root)
   struct rb_node *parent = (struct rb_node *)(node->rb_parent_color & (signed long int)~3);
   node->rb_right = right->rb_left;
   if(!(node->rb_right == ((struct rb_node *)NULL)))
-    rb_set_parent$link1(right->rb_left, node);
+    rb_set_parent_link1(right->rb_left, node);
 
   right->rb_left = node;
-  rb_set_parent$link1(right, parent);
+  rb_set_parent_link1(right, parent);
   if(!(parent == ((struct rb_node *)NULL)))
   {
     if(node == parent->rb_left)
@@ -2408,7 +2408,7 @@ static void __rb_rotate_left(struct rb_node *node, struct rb_root *root)
 
   else
     root->rb_node = right;
-  rb_set_parent$link1(node, right);
+  rb_set_parent_link1(node, right);
 }
 
 // __rb_rotate_right
@@ -2419,10 +2419,10 @@ static void __rb_rotate_right(struct rb_node *node, struct rb_root *root)
   struct rb_node *parent = (struct rb_node *)(node->rb_parent_color & (signed long int)~3);
   node->rb_left = left->rb_right;
   if(!(node->rb_left == ((struct rb_node *)NULL)))
-    rb_set_parent$link1(left->rb_right, node);
+    rb_set_parent_link1(left->rb_right, node);
 
   left->rb_right = node;
-  rb_set_parent$link1(left, parent);
+  rb_set_parent_link1(left, parent);
   if(!(parent == ((struct rb_node *)NULL)))
   {
     if(node == parent->rb_right)
@@ -2434,7 +2434,7 @@ static void __rb_rotate_right(struct rb_node *node, struct rb_root *root)
 
   else
     root->rb_node = left;
-  rb_set_parent$link1(node, left);
+  rb_set_parent_link1(node, left);
 }
 
 // __read_block
@@ -2491,12 +2491,12 @@ static void * __smalloc_pool(struct pool *pool, unsigned long int size)
 
       else
       {
-        signed int return_value_find_next_zero$1;
-        return_value_find_next_zero$1=find_next_zero((signed int)pool->bitmap[(signed long int)i], (signed int)last_idx);
-        idx = (unsigned int)return_value_find_next_zero$1;
-        signed int return_value_blocks_free$2;
-        return_value_blocks_free$2=blocks_free(pool, i, idx, nr_blocks);
-        if(return_value_blocks_free$2 == 0)
+        signed int return_value_find_next_zero_1;
+        return_value_find_next_zero_1=find_next_zero((signed int)pool->bitmap[(signed long int)i], (signed int)last_idx);
+        idx = (unsigned int)return_value_find_next_zero_1;
+        signed int return_value_blocks_free_2;
+        return_value_blocks_free_2=blocks_free(pool, i, idx, nr_blocks);
+        if(return_value_blocks_free_2 == 0)
         {
           idx = idx + (unsigned int)nr_blocks;
           if(!((unsigned long int)idx >= sizeof(unsigned int) * 8 /*32ul*/ ))
@@ -2540,9 +2540,9 @@ static void add_item(struct chunk *c, struct item *i)
   if(!(collision_check == 0u) || !(dump_output == 0u))
   {
     struct extent *e;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct extent) /*24ul*/ );
-    e = (struct extent *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct extent) /*24ul*/ );
+    e = (struct extent *)return_value_malloc_1;
     e->offset = i->offset;
     flist_add_tail(&e->list, &c->extent_list[(signed long int)0]);
   }
@@ -2573,7 +2573,7 @@ static signed int add_pool(struct pool *pool, unsigned int alloc_size)
   ptr=mmap((void *)0, (unsigned long int)alloc_size, 0x1 | 0x2, mmap_flags, -1, (signed long int)0);
   if(!(ptr == (void *)-1))
   {
-    memset$link1(ptr, 0, (unsigned long int)alloc_size);
+    memset_link1(ptr, 0, (unsigned long int)alloc_size);
     pool->map = ptr;
     pool->bitmap = (unsigned int *)((void *)ptr + (signed long int)(pool->nr_blocks * (unsigned long int)32 * sizeof(unsigned int) /*4ul*/  * (unsigned long int)8));
     pool->lock=fio_mutex_init(1);
@@ -2602,12 +2602,12 @@ static signed int add_pool(struct pool *pool, unsigned int alloc_size)
 static struct chunk * alloc_chunk(void)
 {
   struct chunk *c;
-  void *return_value_malloc$2;
+  void *return_value_malloc_2;
   if(!(collision_check == 0u) || !(dump_output == 0u))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct chunk) /*48ul*/  + sizeof(struct flist_head) /*16ul*/ );
-    c = (struct chunk *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct chunk) /*48ul*/  + sizeof(struct flist_head) /*16ul*/ );
+    c = (struct chunk *)return_value_malloc_1;
     do
     {
       (&c->extent_list[(signed long int)0])->next = &c->extent_list[(signed long int)0];
@@ -2618,8 +2618,8 @@ static struct chunk * alloc_chunk(void)
 
   else
   {
-    return_value_malloc$2=malloc(sizeof(struct chunk) /*48ul*/ );
-    c = (struct chunk *)return_value_malloc$2;
+    return_value_malloc_2=malloc(sizeof(struct chunk) /*48ul*/ );
+    c = (struct chunk *)return_value_malloc_2;
   }
   return c;
 }
@@ -2636,38 +2636,38 @@ static inline unsigned long int arch_ffz(unsigned long int bitmask)
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // atomic32_inc_return
 // file gettime.c line 477
 static inline unsigned int atomic32_inc_return(unsigned int *seq)
 {
-  unsigned int return_value___sync_fetch_and_add$1;
+  unsigned int return_value___sync_fetch_and_add_1;
   __CPROVER_atomic_begin();
-  return_value___sync_fetch_and_add$1 = *seq;
+  return_value___sync_fetch_and_add_1 = *seq;
   *seq = *seq + (unsigned int)1;
   FENCE(WRfence);
   __CPROVER_atomic_end();
-  return (unsigned int)1 + return_value___sync_fetch_and_add$1;
+  return (unsigned int)1 + return_value___sync_fetch_and_add_1;
 }
 
 // blockdev_size
 // file t/../os/os-linux.h line 133
 static inline signed int blockdev_size(struct fio_file *f, unsigned long long int *bytes)
 {
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(f->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(0x12 << 0 + 8) | (unsigned int)(114 << 0)) | sizeof(unsigned long int) /*8ul*/  << 0 + 8 + 8, bytes);
-  if(return_value_ioctl$1 == 0)
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(f->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(0x12 << 0 + 8) | (unsigned int)(114 << 0)) | sizeof(unsigned long int) /*8ul*/  << 0 + 8 + 8, bytes);
+  if(return_value_ioctl_1 == 0)
     return 0;
 
   else
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    return *return_value___errno_location$2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    return *return_value___errno_location_2;
   }
 }
 
@@ -2675,9 +2675,9 @@ static inline signed int blockdev_size(struct fio_file *f, unsigned long long in
 // file smalloc.c line 158
 static signed int blocks_free(struct pool *pool, unsigned int pool_idx, unsigned int idx, unsigned long int nr_blocks)
 {
-  signed int return_value_blocks_iter$1;
-  return_value_blocks_iter$1=blocks_iter(pool, pool_idx, idx, nr_blocks, mask_cmp);
-  return return_value_blocks_iter$1;
+  signed int return_value_blocks_iter_1;
+  return_value_blocks_iter_1=blocks_iter(pool, pool_idx, idx, nr_blocks, mask_cmp);
+  return return_value_blocks_iter_1;
 }
 
 // blocks_iter
@@ -2722,18 +2722,18 @@ static signed int blocks_iter(struct pool *pool, unsigned int pool_idx, unsigned
 // file lib/bloom.c line 26
 static unsigned int bloom_crc32c(const void *buf, unsigned int len, unsigned int seed)
 {
-  unsigned int return_value_fio_crc32c$1;
-  return_value_fio_crc32c$1=fio_crc32c((const unsigned char *)buf, (unsigned long int)len);
-  return return_value_fio_crc32c$1;
+  unsigned int return_value_fio_crc32c_1;
+  return_value_fio_crc32c_1=fio_crc32c((const unsigned char *)buf, (unsigned long int)len);
+  return return_value_fio_crc32c_1;
 }
 
 // bloom_fnv
 // file lib/bloom.c line 31
 static unsigned int bloom_fnv(const void *buf, unsigned int len, unsigned int seed)
 {
-  unsigned long int return_value_fnv$1;
-  return_value_fnv$1=fnv(buf, len, (unsigned long int)seed);
-  return (unsigned int)return_value_fnv$1;
+  unsigned long int return_value_fnv_1;
+  return_value_fnv_1=fnv(buf, len, (unsigned long int)seed);
+  return (unsigned int)return_value_fnv_1;
 }
 
 // bloom_free
@@ -2751,20 +2751,20 @@ struct bloom * bloom_new(unsigned long int entries)
   struct bloom *b;
   unsigned long int no_uints;
   crc32c_intel_probe();
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct bloom) /*16ul*/ );
-  b = (struct bloom *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct bloom) /*16ul*/ );
+  b = (struct bloom *)return_value_malloc_1;
   b->nentries = entries;
   no_uints = ((entries + sizeof(unsigned int) /*4ul*/  * (unsigned long int)8) - (unsigned long int)1) / (sizeof(unsigned int) /*4ul*/  * (unsigned long int)8);
-  unsigned long int tmp_statement_expression$2;
+  unsigned long int tmp_statement_expression_2;
   unsigned long int _x = (unsigned long int)no_uints;
   unsigned long int _y = 1073741824UL;
   (void)(&_x == &_y);
-  tmp_statement_expression$2 = _x > _y ? _x : _y;
-  no_uints = tmp_statement_expression$2;
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc(no_uints, sizeof(unsigned int) /*4ul*/ );
-  b->map = (unsigned int *)return_value_calloc$3;
+  tmp_statement_expression_2 = _x > _y ? _x : _y;
+  no_uints = tmp_statement_expression_2;
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc(no_uints, sizeof(unsigned int) /*4ul*/ );
+  b->map = (unsigned int *)return_value_calloc_3;
   if(b->map == ((unsigned int *)NULL))
   {
     free((void *)b);
@@ -2779,9 +2779,9 @@ struct bloom * bloom_new(unsigned long int entries)
 // file t/../lib/bloom.h line 10
 signed int bloom_set(struct bloom *b, unsigned int *data, unsigned int nwords)
 {
-  signed int return_value___bloom_check$1;
-  return_value___bloom_check$1=__bloom_check(b, data, nwords, 1);
-  return return_value___bloom_check$1;
+  signed int return_value___bloom_check_1;
+  return_value___bloom_check_1=__bloom_check(b, data, nwords, 1);
+  return return_value___bloom_check_1;
 }
 
 // calibrate_cpu_clock
@@ -2813,8 +2813,8 @@ static signed int calibrate_cpu_clock(void)
     }
 
   }
-  unsigned long int tmp_statement_expression$1;
-  unsigned long int tmp_statement_expression$2;
+  unsigned long int tmp_statement_expression_1;
+  unsigned long int tmp_statement_expression_2;
   if(cycles[0l] == 0ul)
   {
     if(!(cycles[49l] == 0ul))
@@ -2840,18 +2840,18 @@ static signed int calibrate_cpu_clock(void)
       unsigned long int _x = cycles[(signed long int)i];
       unsigned long int _y = minc;
       (void)(&_x == &_y);
-      tmp_statement_expression$1 = _x < _y ? _x : _y;
-      minc = tmp_statement_expression$1;
-      unsigned long int calibrate_cpu_clock$$1$$2$$1$$2$$_x = cycles[(signed long int)i];
-      unsigned long int calibrate_cpu_clock$$1$$2$$1$$2$$_y = maxc;
-      (void)(&calibrate_cpu_clock$$1$$2$$1$$2$$_x == &calibrate_cpu_clock$$1$$2$$1$$2$$_y);
-      tmp_statement_expression$2 = calibrate_cpu_clock$$1$$2$$1$$2$$_x > calibrate_cpu_clock$$1$$2$$1$$2$$_y ? calibrate_cpu_clock$$1$$2$$1$$2$$_x : calibrate_cpu_clock$$1$$2$$1$$2$$_y;
-      maxc = tmp_statement_expression$2;
-      double return_value_fmax$3;
-      return_value_fmax$3=fmax(this, mean);
-      double return_value_fmin$4;
-      return_value_fmin$4=fmin(this, mean);
-      if(!(return_value_fmax$3 + -return_value_fmin$4 > S))
+      tmp_statement_expression_1 = _x < _y ? _x : _y;
+      minc = tmp_statement_expression_1;
+      unsigned long int calibrate_cpu_clock__1__2__1__2___x = cycles[(signed long int)i];
+      unsigned long int calibrate_cpu_clock__1__2__1__2___y = maxc;
+      (void)(&calibrate_cpu_clock__1__2__1__2___x == &calibrate_cpu_clock__1__2__1__2___y);
+      tmp_statement_expression_2 = calibrate_cpu_clock__1__2__1__2___x > calibrate_cpu_clock__1__2__1__2___y ? calibrate_cpu_clock__1__2__1__2___x : calibrate_cpu_clock__1__2__1__2___y;
+      maxc = tmp_statement_expression_2;
+      double return_value_fmax_3;
+      return_value_fmax_3=fmax(this, mean);
+      double return_value_fmin_4;
+      return_value_fmin_4=fmin(this, mean);
+      if(!(return_value_fmax_3 + -return_value_fmin_4 > S))
       {
         samples = samples + 1;
         avg = avg + (unsigned long int)this;
@@ -2934,42 +2934,42 @@ static void * clock_thread_fn(void *data)
 {
   struct clock_thread *t = (struct clock_thread *)data;
   struct clock_entry *c;
-  struct anonymous$5 cpu_mask;
+  struct anonymous_5 cpu_mask;
   unsigned int last_seq;
   signed int i;
-  signed int return_value_fio_cpuset_init$3;
-  return_value_fio_cpuset_init$3=fio_cpuset_init(&cpu_mask);
-  if(!(return_value_fio_cpuset_init$3 == 0))
+  signed int return_value_fio_cpuset_init_3;
+  return_value_fio_cpuset_init_3=fio_cpuset_init(&cpu_mask);
+  if(!(return_value_fio_cpuset_init_3 == 0))
   {
-    signed int clock_thread_fn$$1$$1$$__err;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    clock_thread_fn$$1$$1$$__err = *return_value___errno_location$1;
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(clock_thread_fn$$1$$1$$__err);
-    log_err("clock cpuset init failed: %s\n", return_value_strerror$2);
+    signed int clock_thread_fn__1__1____err;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    clock_thread_fn__1__1____err = *return_value___errno_location_1;
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(clock_thread_fn__1__1____err);
+    log_err("clock cpuset init failed: %s\n", return_value_strerror_2);
     goto err_out;
   }
 
   unsigned long int __cpu = (unsigned long int)t->cpu;
-  if(!(__cpu / 8ul >= sizeof(struct anonymous$5) /*128ul*/ ))
+  if(!(__cpu / 8ul >= sizeof(struct anonymous_5) /*128ul*/ ))
     ((unsigned long int *)(&cpu_mask)->__bits)[(signed long int)(__cpu / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ))] = ((unsigned long int *)(&cpu_mask)->__bits)[(signed long int)(__cpu / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ))] | (unsigned long int)1 << __cpu % ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ );
 
   else
     (unsigned long int)0;
-  signed int return_value_gettid$6;
-  return_value_gettid$6=gettid();
-  signed int return_value_sched_setaffinity$7;
-  return_value_sched_setaffinity$7=sched_setaffinity(return_value_gettid$6, sizeof(struct anonymous$5) /*128ul*/ , &cpu_mask);
-  if(return_value_sched_setaffinity$7 == -1)
+  signed int return_value_gettid_6;
+  return_value_gettid_6=gettid();
+  signed int return_value_sched_setaffinity_7;
+  return_value_sched_setaffinity_7=sched_setaffinity(return_value_gettid_6, sizeof(struct anonymous_5) /*128ul*/ , &cpu_mask);
+  if(return_value_sched_setaffinity_7 == -1)
   {
     signed int __err;
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    __err = *return_value___errno_location$4;
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(__err);
-    log_err("clock setaffinity failed: %s\n", return_value_strerror$5);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    __err = *return_value___errno_location_4;
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(__err);
+    log_err("clock setaffinity failed: %s\n", return_value_strerror_5);
     goto err;
   }
 
@@ -3029,23 +3029,23 @@ static signed int col_check(struct chunk *c, struct item *i)
   char *cbuf;
   char *ibuf;
   signed int ret = 1;
-  void *return_value_fio_memalign$1;
-  return_value_fio_memalign$1=fio_memalign((unsigned long int)blocksize, (unsigned long int)blocksize);
-  cbuf = (char *)return_value_fio_memalign$1;
-  void *return_value_fio_memalign$2;
-  return_value_fio_memalign$2=fio_memalign((unsigned long int)blocksize, (unsigned long int)blocksize);
-  ibuf = (char *)return_value_fio_memalign$2;
-  struct extent *tmp_statement_expression$3;
+  void *return_value_fio_memalign_1;
+  return_value_fio_memalign_1=fio_memalign((unsigned long int)blocksize, (unsigned long int)blocksize);
+  cbuf = (char *)return_value_fio_memalign_1;
+  void *return_value_fio_memalign_2;
+  return_value_fio_memalign_2=fio_memalign((unsigned long int)blocksize, (unsigned long int)blocksize);
+  ibuf = (char *)return_value_fio_memalign_2;
+  struct extent *tmp_statement_expression_3;
   const struct flist_head *__mptr = c->extent_list[(signed long int)0].next;
-  tmp_statement_expression$3 = (struct extent *)((char *)__mptr - (signed long int)(unsigned long int)&((struct extent *)0)->list);
-  e = tmp_statement_expression$3;
-  signed int return_value_read_block$4;
-  return_value_read_block$4=read_block(file.fd, (void *)cbuf, (signed long int)e->offset);
-  signed int return_value_read_block$5;
-  if(return_value_read_block$4 == 0)
+  tmp_statement_expression_3 = (struct extent *)((char *)__mptr - (signed long int)(unsigned long int)&((struct extent *)0)->list);
+  e = tmp_statement_expression_3;
+  signed int return_value_read_block_4;
+  return_value_read_block_4=read_block(file.fd, (void *)cbuf, (signed long int)e->offset);
+  signed int return_value_read_block_5;
+  if(return_value_read_block_4 == 0)
   {
-    return_value_read_block$5=read_block(file.fd, (void *)ibuf, (signed long int)i->offset);
-    if(return_value_read_block$5 == 0)
+    return_value_read_block_5=read_block(file.fd, (void *)ibuf, (signed long int)i->offset);
+    if(return_value_read_block_5 == 0)
       ret=memcmp((const void *)ibuf, (const void *)cbuf, (unsigned long int)blocksize);
 
   }
@@ -3062,18 +3062,18 @@ out:
 // file t/../os/os.h line 342
 static inline unsigned int cpus_online(void)
 {
-  signed long int return_value_sysconf$1;
-  return_value_sysconf$1=sysconf(84);
-  return (unsigned int)return_value_sysconf$1;
+  signed long int return_value_sysconf_1;
+  return_value_sysconf_1=sysconf(84);
+  return (unsigned int)return_value_sysconf_1;
 }
 
-// cpus_online$link1
+// cpus_online_link1
 // file os/os.h line 342
-static inline unsigned int cpus_online$link1(void)
+static inline unsigned int cpus_online_link1(void)
 {
-  signed long int return_value_sysconf$1$link1;
-  return_value_sysconf$1$link1=sysconf(84);
-  return (unsigned int)return_value_sysconf$1$link1;
+  signed long int return_value_sysconf_1_link1;
+  return_value_sysconf_1_link1=sysconf(84);
+  return (unsigned int)return_value_sysconf_1_link1;
 }
 
 // crc32c_intel
@@ -3084,12 +3084,12 @@ extern unsigned int crc32c_intel(const unsigned char *data, unsigned long int le
   unsigned int iremainder = (unsigned int)(length % (unsigned long int)8);
   unsigned long int *ptmp = (unsigned long int *)data;
   unsigned int crc = (unsigned int)~0;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   do
   {
-    tmp_post$1 = iquotient;
+    tmp_post_1 = iquotient;
     iquotient = iquotient - 1u;
-    if(tmp_post$1 == 0u)
+    if(tmp_post_1 == 0u)
       break;
 
     asm(".byte 0xf2, 0x48, 0xf, 0x38, 0xf1, 0xf1;" : "=S"(crc) : "0"(crc), "c"(*ptmp) : );
@@ -3106,12 +3106,12 @@ extern unsigned int crc32c_intel(const unsigned char *data, unsigned long int le
 // file crc/crc32c-intel.c line 35
 static unsigned int crc32c_intel_le_hw_byte(unsigned int crc, const unsigned char *data, unsigned long int length)
 {
-  unsigned long int tmp_post$1;
+  unsigned long int tmp_post_1;
   do
   {
-    tmp_post$1 = length;
+    tmp_post_1 = length;
     length = length - 1ul;
-    if(tmp_post$1 == 0ul)
+    if(tmp_post_1 == 0ul)
       break;
 
     asm(".byte 0xf2, 0xf, 0x38, 0xf0, 0xf1" : "=S"(crc) : "0"(crc), "c"(*data) : );
@@ -3144,18 +3144,18 @@ extern void crc32c_intel_probe(void)
 extern unsigned int crc32c_sw(const unsigned char *data, unsigned long int length)
 {
   unsigned int crc = (unsigned int)~0;
-  unsigned long int tmp_post$1;
-  const unsigned char *tmp_post$2;
+  unsigned long int tmp_post_1;
+  const unsigned char *tmp_post_2;
   do
   {
-    tmp_post$1 = length;
+    tmp_post_1 = length;
     length = length - 1ul;
-    if(tmp_post$1 == 0ul)
+    if(tmp_post_1 == 0ul)
       break;
 
-    tmp_post$2 = data;
+    tmp_post_2 = data;
     data = data + 1l;
-    crc = crc32c_table[(signed long int)(crc ^ (unsigned int)*tmp_post$2) & 0xFFL] ^ crc >> 8;
+    crc = crc32c_table[(signed long int)(crc ^ (unsigned int)*tmp_post_2) & 0xFFL] ^ crc >> 8;
   }
   while((_Bool)1);
   return crc;
@@ -3189,19 +3189,19 @@ static signed int dedupe_check(const char *filename, unsigned long int *nextents
     flags = flags | 040000;
 
   memset((void *)&file, 0, sizeof(struct fio_file) /*336ul*/ );
-  char *return_value___strdup$1;
-  return_value___strdup$1=__strdup(filename);
-  file.file_name = return_value___strdup$1;
+  char *return_value___strdup_1;
+  return_value___strdup_1=__strdup(filename);
+  file.file_name = return_value___strdup_1;
   file.fd=open(filename, flags);
-  signed int return_value_fstat$2;
-  signed int return_value_run_dedupe_threads$3;
+  signed int return_value_fstat_2;
+  signed int return_value_run_dedupe_threads_3;
   if(file.fd == -1)
     perror("open");
 
   else
   {
-    return_value_fstat$2=fstat(file.fd, &sb);
-    if(!(return_value_fstat$2 >= 0))
+    return_value_fstat_2=fstat(file.fd, &sb);
+    if(!(return_value_fstat_2 >= 0))
       perror("fstat");
 
     else
@@ -3216,8 +3216,8 @@ static signed int dedupe_check(const char *filename, unsigned long int *nextents
         }
 
         printf("Will check <%s>, size <%llu>, using %u threads\n", filename, (unsigned long long int)dev_size, num_threads);
-        return_value_run_dedupe_threads$3=run_dedupe_threads(&file, dev_size, nextents, nchunks);
-        return return_value_run_dedupe_threads$3;
+        return_value_run_dedupe_threads_3=run_dedupe_threads(&file, dev_size, nextents, nchunks);
+        return return_value_run_dedupe_threads_3;
       }
 
     }
@@ -3250,20 +3250,20 @@ static signed int do_work(struct worker_thread *thread, void *buf)
   unsigned long int ndupes = (unsigned long int)0;
   struct item *items;
   offset = (signed long int)thread->cur_offset;
-  unsigned long int tmp_statement_expression$1;
+  unsigned long int tmp_statement_expression_1;
   unsigned long int _x = thread->size;
   unsigned long int _y = (unsigned long int)chunk_size;
   (void)(&_x == &_y);
-  tmp_statement_expression$1 = _x < _y ? _x : _y;
-  nblocks=read_blocks(thread->fd, buf, offset, tmp_statement_expression$1);
+  tmp_statement_expression_1 = _x < _y ? _x : _y;
+  nblocks=read_blocks(thread->fd, buf, offset, tmp_statement_expression_1);
   if(nblocks == 0u)
     return 1;
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct item) /*24ul*/  * (unsigned long int)nblocks);
-    items = (struct item *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct item) /*24ul*/  * (unsigned long int)nblocks);
+    items = (struct item *)return_value_malloc_2;
     i = (unsigned int)0;
     for( ; !(i >= nblocks); i = i + 1u)
     {
@@ -3285,9 +3285,9 @@ static signed int do_work(struct worker_thread *thread, void *buf)
 // file gettime.c line 134
 static signed int fill_clock_gettime(struct timespec *ts)
 {
-  signed int return_value_clock_gettime$1;
-  return_value_clock_gettime$1=clock_gettime(4, ts);
-  return return_value_clock_gettime$1;
+  signed int return_value_clock_gettime_1;
+  return_value_clock_gettime_1=clock_gettime(4, ts);
+  return return_value_clock_gettime_1;
 }
 
 // fill_redzone
@@ -3295,9 +3295,9 @@ static signed int fill_clock_gettime(struct timespec *ts)
 static void fill_redzone(struct block_hdr *hdr)
 {
   unsigned int *postred;
-  void *return_value_postred_ptr$1;
-  return_value_postred_ptr$1=postred_ptr(hdr);
-  postred = (unsigned int *)return_value_postred_ptr$1;
+  void *return_value_postred_ptr_1;
+  return_value_postred_ptr_1=postred_ptr(hdr);
+  postred = (unsigned int *)return_value_postred_ptr_1;
   hdr->prered = 0xdeadbeefU;
   *postred = 0x5aa55aa5U;
 }
@@ -3309,30 +3309,30 @@ static signed int find_next_zero(signed int word, signed int start)
   /* assertion word != -1U */
   assert((unsigned int)word != -1U);
   word = word >> start;
-  unsigned long int return_value_arch_ffz$1;
-  return_value_arch_ffz$1=arch_ffz((unsigned long int)word);
-  return (signed int)(return_value_arch_ffz$1 + (unsigned long int)start);
+  unsigned long int return_value_arch_ffz_1;
+  return_value_arch_ffz_1=arch_ffz((unsigned long int)word);
+  return (signed int)(return_value_arch_ffz_1 + (unsigned long int)start);
 }
 
 // fio_clock_init
 // file gettime.c line 361
 extern void fio_clock_init(void)
 {
-  signed int return_value_fio_monotonic_clocktest$2;
+  signed int return_value_fio_monotonic_clocktest_2;
   if(!(fio_clock_source == fio_clock_source_inited))
   {
     fio_clock_source_inited = fio_clock_source;
-    signed int return_value_calibrate_cpu_clock$1;
-    return_value_calibrate_cpu_clock$1=calibrate_cpu_clock();
-    if(!(return_value_calibrate_cpu_clock$1 == 0))
+    signed int return_value_calibrate_cpu_clock_1;
+    return_value_calibrate_cpu_clock_1=calibrate_cpu_clock();
+    if(!(return_value_calibrate_cpu_clock_1 == 0))
       tsc_reliable = 0;
 
     if(!(tsc_reliable == 0))
     {
       if(fio_clock_source_set == 0)
       {
-        return_value_fio_monotonic_clocktest$2=fio_monotonic_clocktest(0);
-        if(return_value_fio_monotonic_clocktest$2 == 0)
+        return_value_fio_monotonic_clocktest_2=fio_monotonic_clocktest(0);
+        if(return_value_fio_monotonic_clocktest_2 == 0)
           fio_clock_source = (enum fio_cs)CS_CPUCLOCK;
 
       }
@@ -3349,17 +3349,17 @@ extern void fio_clock_init(void)
 
 // fio_cpuset_exit
 // file os/os-linux.h line 74
-static inline signed int fio_cpuset_exit(struct anonymous$5 *mask)
+static inline signed int fio_cpuset_exit(struct anonymous_5 *mask)
 {
   return 0;
 }
 
 // fio_cpuset_init
 // file os/os-linux.h line 68
-static inline signed int fio_cpuset_init(struct anonymous$5 *mask)
+static inline signed int fio_cpuset_init(struct anonymous_5 *mask)
 {
   do
-    __builtin_memset((void *)mask, 0, sizeof(struct anonymous$5) /*128ul*/ );
+    __builtin_memset((void *)mask, 0, sizeof(struct anonymous_5) /*128ul*/ );
   while((_Bool)0);
   return 0;
 }
@@ -3368,18 +3368,18 @@ static inline signed int fio_cpuset_init(struct anonymous$5 *mask)
 // file lib/../crc/crc32c.h line 36
 static inline unsigned int fio_crc32c(const unsigned char *buf, unsigned long int len)
 {
-  unsigned int return_value_crc32c_intel$1;
+  unsigned int return_value_crc32c_intel_1;
   if(!(crc32c_intel_available == 0))
   {
-    return_value_crc32c_intel$1=crc32c_intel(buf, len);
-    return return_value_crc32c_intel$1;
+    return_value_crc32c_intel_1=crc32c_intel(buf, len);
+    return return_value_crc32c_intel_1;
   }
 
   else
   {
-    unsigned int return_value_crc32c_sw$2;
-    return_value_crc32c_sw$2=crc32c_sw(buf, len);
-    return return_value_crc32c_sw$2;
+    unsigned int return_value_crc32c_sw_2;
+    return_value_crc32c_sw_2=crc32c_sw(buf, len);
+    return return_value_crc32c_sw_2;
   }
 }
 
@@ -3387,9 +3387,9 @@ static inline unsigned int fio_crc32c(const unsigned char *buf, unsigned long in
 // file t/../gettime.h line 16
 extern void fio_gettime(struct timeval *tp, void *caller)
 {
-  signed int return_value_fio_gettime_offload$1;
-  return_value_fio_gettime_offload$1=fio_gettime_offload(tp);
-  if(return_value_fio_gettime_offload$1 == 0)
+  signed int return_value_fio_gettime_offload_1;
+  return_value_fio_gettime_offload_1=fio_gettime_offload(tp);
+  if(return_value_fio_gettime_offload_1 == 0)
     __fio_gettime(tp);
 
 }
@@ -3430,18 +3430,18 @@ extern void fio_md5_final(struct fio_md5_ctx *mctx)
   const unsigned int offset = (const unsigned int)(mctx->byte_count & (unsigned long int)0x3f);
   char *p = (char *)mctx->block + (signed long int)offset;
   signed int padding = (signed int)((unsigned int)56 - (offset + (unsigned int)1));
-  char *tmp_post$1 = p;
+  char *tmp_post_1 = p;
   p = p + 1l;
-  *tmp_post$1 = (char)0x80;
+  *tmp_post_1 = (char)0x80;
   if(!(padding >= 0))
   {
-    memset$link2((void *)p, 0x00, (unsigned long int)padding + sizeof(unsigned long int) /*8ul*/ );
+    memset_link2((void *)p, 0x00, (unsigned long int)padding + sizeof(unsigned long int) /*8ul*/ );
     md5_transform(mctx->hash, mctx->block);
     p = (char *)mctx->block;
     padding = 56;
   }
 
-  memset$link2((void *)p, 0, (unsigned long int)padding);
+  memset_link2((void *)p, 0, (unsigned long int)padding);
   mctx->block[(signed long int)14] = (unsigned int)(mctx->byte_count << 3);
   mctx->block[(signed long int)15] = (unsigned int)(mctx->byte_count >> 29);
   md5_transform(mctx->hash, mctx->block);
@@ -3464,21 +3464,21 @@ extern void fio_md5_update(struct fio_md5_ctx *mctx, const unsigned char *data, 
   const unsigned int avail = (const unsigned int)(sizeof(unsigned int [16l]) /*64ul*/  - (mctx->byte_count & (unsigned long int)0x3f));
   mctx->byte_count = mctx->byte_count + (unsigned long int)len;
   if(!(len >= avail))
-    memcpy$link1((void *)((char *)mctx->block + (signed long int)(sizeof(unsigned int [16l]) /*64ul*/  - (unsigned long int)avail)), (const void *)data, (unsigned long int)len);
+    memcpy_link1((void *)((char *)mctx->block + (signed long int)(sizeof(unsigned int [16l]) /*64ul*/  - (unsigned long int)avail)), (const void *)data, (unsigned long int)len);
 
   else
   {
-    memcpy$link1((void *)((char *)mctx->block + (signed long int)(sizeof(unsigned int [16l]) /*64ul*/  - (unsigned long int)avail)), (const void *)data, (unsigned long int)avail);
+    memcpy_link1((void *)((char *)mctx->block + (signed long int)(sizeof(unsigned int [16l]) /*64ul*/  - (unsigned long int)avail)), (const void *)data, (unsigned long int)avail);
     md5_transform(mctx->hash, mctx->block);
     data = data + (signed long int)avail;
     len = len - avail;
     for( ; (unsigned long int)len >= sizeof(unsigned int [16l]) /*64ul*/ ; len = len - (unsigned int)sizeof(unsigned int [16l]) /*64ul*/ )
     {
-      memcpy$link1((void *)mctx->block, (const void *)data, sizeof(unsigned int [16l]) /*64ul*/ );
+      memcpy_link1((void *)mctx->block, (const void *)data, sizeof(unsigned int [16l]) /*64ul*/ );
       md5_transform(mctx->hash, mctx->block);
       data = data + (signed long int)sizeof(unsigned int [16l]) /*64ul*/ ;
     }
-    memcpy$link1((void *)mctx->block, (const void *)data, (unsigned long int)len);
+    memcpy_link1((void *)mctx->block, (const void *)data, (unsigned long int)len);
   }
 }
 
@@ -3516,7 +3516,7 @@ extern signed int fio_monotonic_clocktest(signed int debug)
 {
   struct clock_thread *cthreads;
   unsigned int nr_cpus;
-  nr_cpus=cpus_online$link1();
+  nr_cpus=cpus_online_link1();
   struct clock_entry *entries;
   unsigned long int nr_entries;
   unsigned long int tentries;
@@ -3538,13 +3538,13 @@ extern signed int fio_monotonic_clocktest(signed int debug)
   if(!(debug == 0))
     fio_debug = fio_debug & (unsigned long int)~(1U << 12);
 
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)nr_cpus * sizeof(struct clock_thread) /*120ul*/ );
-  cthreads = (struct clock_thread *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)nr_cpus * sizeof(struct clock_thread) /*120ul*/ );
+  cthreads = (struct clock_thread *)return_value_malloc_1;
   tentries = nr_entries * (unsigned long int)nr_cpus;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(tentries * sizeof(struct clock_entry) /*16ul*/ );
-  entries = (struct clock_entry *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(tentries * sizeof(struct clock_entry) /*16ul*/ );
+  entries = (struct clock_entry *)return_value_malloc_2;
   if(!(debug == 0))
     log_info("cs: Testing %u CPUs\n", nr_cpus);
 
@@ -3557,12 +3557,12 @@ extern signed int fio_monotonic_clocktest(signed int debug)
     t->seq = &seq;
     t->nr_entries = nr_entries;
     t->entries = &entries[(signed long int)((unsigned long int)i * nr_entries)];
-    pthread_mutex_init(&t->lock, (const union anonymous$6 *)(void *)0);
-    pthread_mutex_init(&t->started, (const union anonymous$6 *)(void *)0);
+    pthread_mutex_init(&t->lock, (const union anonymous_6 *)(void *)0);
+    pthread_mutex_init(&t->started, (const union anonymous_6 *)(void *)0);
     pthread_mutex_lock(&t->lock);
-    signed int return_value_pthread_create$3;
-    return_value_pthread_create$3=pthread_create(&t->thread, (const union pthread_attr_t *)(void *)0, clock_thread_fn, (void *)t);
-    if(!(return_value_pthread_create$3 == 0))
+    signed int return_value_pthread_create_3;
+    return_value_pthread_create_3=pthread_create(&t->thread, (const union pthread_attr_t *)(void *)0, clock_thread_fn, (void *)t);
+    if(!(return_value_pthread_create_3 == 0))
     {
       failed = failed + 1ul;
       nr_cpus = i;
@@ -3573,21 +3573,21 @@ extern signed int fio_monotonic_clocktest(signed int debug)
   i = (unsigned int)0;
   for( ; !(i >= nr_cpus); i = i + 1u)
   {
-    struct clock_thread *fio_monotonic_clocktest$$1$$4$$1$$t = &cthreads[(signed long int)i];
-    pthread_mutex_lock(&fio_monotonic_clocktest$$1$$4$$1$$t->started);
+    struct clock_thread *fio_monotonic_clocktest__1__4__1__t = &cthreads[(signed long int)i];
+    pthread_mutex_lock(&fio_monotonic_clocktest__1__4__1__t->started);
   }
   i = (unsigned int)0;
   for( ; !(i >= nr_cpus); i = i + 1u)
   {
-    struct clock_thread *fio_monotonic_clocktest$$1$$5$$1$$t = &cthreads[(signed long int)i];
-    pthread_mutex_unlock(&fio_monotonic_clocktest$$1$$5$$1$$t->lock);
+    struct clock_thread *fio_monotonic_clocktest__1__5__1__t = &cthreads[(signed long int)i];
+    pthread_mutex_unlock(&fio_monotonic_clocktest__1__5__1__t->lock);
   }
   i = (unsigned int)0;
   for( ; !(i >= nr_cpus); i = i + 1u)
   {
-    struct clock_thread *fio_monotonic_clocktest$$1$$6$$1$$t = &cthreads[(signed long int)i];
+    struct clock_thread *fio_monotonic_clocktest__1__6__1__t = &cthreads[(signed long int)i];
     void *ret;
-    pthread_join(fio_monotonic_clocktest$$1$$6$$1$$t->thread, &ret);
+    pthread_join(fio_monotonic_clocktest__1__6__1__t->thread, &ret);
     if(!(ret == NULL))
       failed = failed + 1ul;
 
@@ -3678,7 +3678,7 @@ extern signed int fio_mutex_down_timeout(struct fio_mutex *mutex, unsigned int s
   t.tv_sec = tv_s.tv_sec + (signed long int)seconds;
   t.tv_nsec = tv_s.tv_usec * (signed long int)1000;
   pthread_mutex_lock(&mutex->lock);
-  signed int return_value_mutex_timed_out$1;
+  signed int return_value_mutex_timed_out_1;
   while(mutex->value == 0)
   {
     if(!(ret == 0))
@@ -3688,8 +3688,8 @@ extern signed int fio_mutex_down_timeout(struct fio_mutex *mutex, unsigned int s
     ret=pthread_cond_timedwait(&mutex->cond, &mutex->lock, &t);
     if(ret == 110)
     {
-      return_value_mutex_timed_out$1=mutex_timed_out(&tv_s, seconds);
-      if(return_value_mutex_timed_out$1 == 0)
+      return_value_mutex_timed_out_1=mutex_timed_out(&tv_s, seconds);
+      if(return_value_mutex_timed_out_1 == 0)
         ret = 0;
 
     }
@@ -3728,9 +3728,9 @@ extern signed int fio_mutex_down_trylock(struct fio_mutex *mutex)
 extern struct fio_mutex * fio_mutex_init(signed int value)
 {
   struct fio_mutex *mutex = (struct fio_mutex *)(void *)0;
-  void *return_value_mmap$1;
-  return_value_mmap$1=mmap((void *)0, sizeof(struct fio_mutex) /*104ul*/ , 0x1 | 0x2, 0x20 | 0x01, -1, (signed long int)0);
-  mutex = (struct fio_mutex *)(void *)return_value_mmap$1;
+  void *return_value_mmap_1;
+  return_value_mmap_1=mmap((void *)0, sizeof(struct fio_mutex) /*104ul*/ , 0x1 | 0x2, 0x20 | 0x01, -1, (signed long int)0);
+  mutex = (struct fio_mutex *)(void *)return_value_mmap_1;
   if(mutex == (struct fio_mutex *)-1)
   {
     perror("mmap mutex");
@@ -3739,9 +3739,9 @@ extern struct fio_mutex * fio_mutex_init(signed int value)
 
   else
   {
-    signed int return_value___fio_mutex_init$2;
-    return_value___fio_mutex_init$2=__fio_mutex_init(mutex, value);
-    if(return_value___fio_mutex_init$2 == 0)
+    signed int return_value___fio_mutex_init_2;
+    return_value___fio_mutex_init_2=__fio_mutex_init(mutex, value);
+    if(return_value___fio_mutex_init_2 == 0)
       return mutex;
 
     else
@@ -3787,50 +3787,50 @@ extern void fio_mutex_up(struct fio_mutex *mutex)
 // file mutex.c line 209
 extern struct fio_rwlock * fio_rwlock_init(void)
 {
-  struct fio_rwlock *fio_rwlock_init$$1$$lock;
-  union anonymous$7 attr;
+  struct fio_rwlock *fio_rwlock_init__1__lock;
+  union anonymous_7 attr;
   signed int ret;
-  void *return_value_mmap$1;
-  return_value_mmap$1=mmap((void *)0, sizeof(struct fio_rwlock) /*64ul*/ , 0x1 | 0x2, 0x20 | 0x01, -1, (signed long int)0);
-  fio_rwlock_init$$1$$lock = (struct fio_rwlock *)(void *)return_value_mmap$1;
-  if(fio_rwlock_init$$1$$lock == (struct fio_rwlock *)-1)
+  void *return_value_mmap_1;
+  return_value_mmap_1=mmap((void *)0, sizeof(struct fio_rwlock) /*64ul*/ , 0x1 | 0x2, 0x20 | 0x01, -1, (signed long int)0);
+  fio_rwlock_init__1__lock = (struct fio_rwlock *)(void *)return_value_mmap_1;
+  if(fio_rwlock_init__1__lock == (struct fio_rwlock *)-1)
   {
     perror("mmap rwlock");
-    fio_rwlock_init$$1$$lock = (struct fio_rwlock *)(void *)0;
+    fio_rwlock_init__1__lock = (struct fio_rwlock *)(void *)0;
   }
 
   else
   {
-    fio_rwlock_init$$1$$lock->magic = (signed int)0x52574c4fU;
+    fio_rwlock_init__1__lock->magic = (signed int)0x52574c4fU;
     ret=pthread_rwlockattr_init(&attr);
     if(!(ret == 0))
     {
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(ret);
-      log_err("pthread_rwlockattr_init: %s\n", return_value_strerror$2);
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(ret);
+      log_err("pthread_rwlockattr_init: %s\n", return_value_strerror_2);
       goto err;
     }
 
     ret=pthread_rwlockattr_setpshared(&attr, 1);
     if(!(ret == 0))
     {
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(ret);
-      log_err("pthread_rwlockattr_setpshared: %s\n", return_value_strerror$3);
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(ret);
+      log_err("pthread_rwlockattr_setpshared: %s\n", return_value_strerror_3);
       goto destroy_attr;
     }
 
-    ret=pthread_rwlock_init(&fio_rwlock_init$$1$$lock->lock, &attr);
+    ret=pthread_rwlock_init(&fio_rwlock_init__1__lock->lock, &attr);
     if(!(ret == 0))
     {
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(ret);
-      log_err("pthread_rwlock_init: %s\n", return_value_strerror$4);
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(ret);
+      log_err("pthread_rwlock_init: %s\n", return_value_strerror_4);
       goto destroy_attr;
     }
 
     pthread_rwlockattr_destroy(&attr);
-    return fio_rwlock_init$$1$$lock;
+    return fio_rwlock_init__1__lock;
 
   destroy_attr:
     ;
@@ -3839,8 +3839,8 @@ extern struct fio_rwlock * fio_rwlock_init(void)
 
 err:
   ;
-  if(!(fio_rwlock_init$$1$$lock == ((struct fio_rwlock *)NULL)))
-    fio_rwlock_remove(fio_rwlock_init$$1$$lock);
+  if(!(fio_rwlock_init__1__lock == ((struct fio_rwlock *)NULL)))
+    fio_rwlock_remove(fio_rwlock_init__1__lock);
 
   return (struct fio_rwlock *)(void *)0;
 }
@@ -3906,11 +3906,11 @@ unsigned long int fnv(const void *buf, unsigned int len, unsigned long int hval)
 {
   const unsigned long int *ptr = (const unsigned long int *)buf;
   const unsigned long int *end = (const unsigned long int *)((void *)buf + (signed long int)len);
-  const unsigned long int *tmp_post$1;
-  for( ; !(ptr >= end); hval = hval ^ (unsigned long int)*tmp_post$1)
+  const unsigned long int *tmp_post_1;
+  for( ; !(ptr >= end); hval = hval ^ (unsigned long int)*tmp_post_1)
   {
     hval = hval * 0x100000001b3ULL;
-    tmp_post$1 = ptr;
+    tmp_post_1 = ptr;
     ptr = ptr + 1l;
   }
   return hval;
@@ -3920,9 +3920,9 @@ unsigned long int fnv(const void *buf, unsigned int len, unsigned long int hval)
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 466
 static inline signed int fstat(signed int __fd, struct stat *__statbuf)
 {
-  signed int return_value___fxstat$1;
-  return_value___fxstat$1=__fxstat(1, __fd, __statbuf);
-  return return_value___fxstat$1;
+  signed int return_value___fxstat_1;
+  return_value___fxstat_1=__fxstat(1, __fd, __statbuf);
+  return return_value___fxstat_1;
 }
 
 // get_cpu_clock
@@ -3972,9 +3972,9 @@ static unsigned long int get_size(struct fio_file *f, struct stat *sb)
   if((61440u & sb->st_mode) == 24576u)
   {
     unsigned long long int bytes;
-    signed int return_value_blockdev_size$1;
-    return_value_blockdev_size$1=blockdev_size(f, &bytes);
-    if(!(return_value_blockdev_size$1 == 0))
+    signed int return_value_blockdev_size_1;
+    return_value_blockdev_size_1=blockdev_size(f, &bytes);
+    if(!(return_value_blockdev_size_1 == 0))
     {
       log_err("dedupe: failed getting bdev size\n");
       return (unsigned long int)0;
@@ -3995,15 +3995,15 @@ static signed int get_work(unsigned long int *offset, unsigned long int *size)
   unsigned long int this_chunk;
   signed int ret = 1;
   fio_mutex_down(size_lock);
-  unsigned long int tmp_statement_expression$1;
+  unsigned long int tmp_statement_expression_1;
   if(!(cur_offset >= total_size))
   {
     *offset = cur_offset;
     unsigned long int _x = (unsigned long int)chunk_size;
     unsigned long int _y = total_size - cur_offset;
     (void)(&_x == &_y);
-    tmp_statement_expression$1 = _x < _y ? _x : _y;
-    this_chunk = tmp_statement_expression$1;
+    tmp_statement_expression_1 = _x < _y ? _x : _y;
+    this_chunk = tmp_statement_expression_1;
     *size = this_chunk;
     cur_offset = cur_offset + this_chunk;
     ret = 0;
@@ -4017,9 +4017,9 @@ static signed int get_work(unsigned long int *offset, unsigned long int *size)
 // file os/os-linux.h line 109
 static inline signed int gettid(void)
 {
-  signed long int return_value_syscall$1;
-  return_value_syscall$1=syscall((signed long int)186);
-  return (signed int)return_value_syscall$1;
+  signed long int return_value_syscall_1;
+  return_value_syscall_1=syscall((signed long int)186);
+  return (signed int)return_value_syscall_1;
 }
 
 // global_read_lock
@@ -4060,13 +4060,13 @@ static void insert_chunk(struct item *i)
   signed int diff;
   p = &rb_root.rb_node;
   parent = (struct rb_node *)(void *)0;
-  struct chunk *tmp_statement_expression$1;
+  struct chunk *tmp_statement_expression_1;
   while(!(*p == ((struct rb_node *)NULL)))
   {
     parent = *p;
     const struct rb_node *__mptr = parent;
-    tmp_statement_expression$1 = (struct chunk *)((char *)__mptr - (signed long int)(unsigned long int)&((struct chunk *)0)->rb_node);
-    c = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct chunk *)((char *)__mptr - (signed long int)(unsigned long int)&((struct chunk *)0)->rb_node);
+    c = tmp_statement_expression_1;
     diff=memcmp((const void *)i->hash, (const void *)c->hash, sizeof(unsigned int [4l]) /*16ul*/ );
     if(!(diff >= 0))
       p = &(*p)->rb_left;
@@ -4132,14 +4132,14 @@ static void iter_rb_tree(unsigned long int *nextents, unsigned long int *nchunks
   *nextents = (unsigned long int)0;
   *nchunks = *nextents;
   n=rb_first(&rb_root);
-  struct chunk *tmp_statement_expression$1;
+  struct chunk *tmp_statement_expression_1;
   if(!(n == ((struct rb_node *)NULL)))
     do
     {
       struct chunk *c;
       const struct rb_node *__mptr = n;
-      tmp_statement_expression$1 = (struct chunk *)((char *)__mptr - (signed long int)(unsigned long int)&((struct chunk *)0)->rb_node);
-      c = tmp_statement_expression$1;
+      tmp_statement_expression_1 = (struct chunk *)((char *)__mptr - (signed long int)(unsigned long int)&((struct chunk *)0)->rb_node);
+      c = tmp_statement_expression_1;
       *nchunks = *nchunks + 1ul;
       *nextents = *nextents + c->count;
       if(!(dump_output == 0u))
@@ -4167,34 +4167,34 @@ static inline unsigned int jhash(const void *key, unsigned int length, unsigned 
     b = b + (unsigned int)k[(signed long int)4];
     c = c + (unsigned int)k[(signed long int)8];
     a = a - c;
-    unsigned int return_value_rol32$1;
-    return_value_rol32$1=rol32(c, (unsigned int)4);
-    a = a ^ return_value_rol32$1;
+    unsigned int return_value_rol32_1;
+    return_value_rol32_1=rol32(c, (unsigned int)4);
+    a = a ^ return_value_rol32_1;
     c = c + b;
     b = b - a;
-    unsigned int return_value_rol32$2;
-    return_value_rol32$2=rol32(a, (unsigned int)6);
-    b = b ^ return_value_rol32$2;
+    unsigned int return_value_rol32_2;
+    return_value_rol32_2=rol32(a, (unsigned int)6);
+    b = b ^ return_value_rol32_2;
     a = a + c;
     c = c - b;
-    unsigned int return_value_rol32$3;
-    return_value_rol32$3=rol32(b, (unsigned int)8);
-    c = c ^ return_value_rol32$3;
+    unsigned int return_value_rol32_3;
+    return_value_rol32_3=rol32(b, (unsigned int)8);
+    c = c ^ return_value_rol32_3;
     b = b + a;
     a = a - c;
-    unsigned int return_value_rol32$4;
-    return_value_rol32$4=rol32(c, (unsigned int)16);
-    a = a ^ return_value_rol32$4;
+    unsigned int return_value_rol32_4;
+    return_value_rol32_4=rol32(c, (unsigned int)16);
+    a = a ^ return_value_rol32_4;
     c = c + b;
     b = b - a;
-    unsigned int return_value_rol32$5;
-    return_value_rol32$5=rol32(a, (unsigned int)19);
-    b = b ^ return_value_rol32$5;
+    unsigned int return_value_rol32_5;
+    return_value_rol32_5=rol32(a, (unsigned int)19);
+    b = b ^ return_value_rol32_5;
     a = a + c;
     c = c - b;
-    unsigned int return_value_rol32$6;
-    return_value_rol32$6=rol32(b, (unsigned int)4);
-    c = c ^ return_value_rol32$6;
+    unsigned int return_value_rol32_6;
+    return_value_rol32_6=rol32(b, (unsigned int)4);
+    c = c ^ return_value_rol32_6;
     b = b + a;
     length = length - (unsigned int)12;
   }
@@ -4226,33 +4226,33 @@ static inline unsigned int jhash(const void *key, unsigned int length, unsigned 
     {
       a = a + (unsigned int)k[(signed long int)0];
       c = c ^ b;
-      unsigned int return_value_rol32$7;
-      return_value_rol32$7=rol32(b, (unsigned int)14);
-      c = c - return_value_rol32$7;
+      unsigned int return_value_rol32_7;
+      return_value_rol32_7=rol32(b, (unsigned int)14);
+      c = c - return_value_rol32_7;
       a = a ^ c;
-      unsigned int return_value_rol32$8;
-      return_value_rol32$8=rol32(c, (unsigned int)11);
-      a = a - return_value_rol32$8;
+      unsigned int return_value_rol32_8;
+      return_value_rol32_8=rol32(c, (unsigned int)11);
+      a = a - return_value_rol32_8;
       b = b ^ a;
-      unsigned int return_value_rol32$9;
-      return_value_rol32$9=rol32(a, (unsigned int)25);
-      b = b - return_value_rol32$9;
+      unsigned int return_value_rol32_9;
+      return_value_rol32_9=rol32(a, (unsigned int)25);
+      b = b - return_value_rol32_9;
       c = c ^ b;
-      unsigned int return_value_rol32$10;
-      return_value_rol32$10=rol32(b, (unsigned int)16);
-      c = c - return_value_rol32$10;
+      unsigned int return_value_rol32_10;
+      return_value_rol32_10=rol32(b, (unsigned int)16);
+      c = c - return_value_rol32_10;
       a = a ^ c;
-      unsigned int return_value_rol32$11;
-      return_value_rol32$11=rol32(c, (unsigned int)4);
-      a = a - return_value_rol32$11;
+      unsigned int return_value_rol32_11;
+      return_value_rol32_11=rol32(c, (unsigned int)4);
+      a = a - return_value_rol32_11;
       b = b ^ a;
-      unsigned int return_value_rol32$12;
-      return_value_rol32$12=rol32(a, (unsigned int)14);
-      b = b - return_value_rol32$12;
+      unsigned int return_value_rol32_12;
+      return_value_rol32_12=rol32(a, (unsigned int)14);
+      b = b - return_value_rol32_12;
       c = c ^ b;
-      unsigned int return_value_rol32$13;
-      return_value_rol32$13=rol32(b, (unsigned int)24);
-      c = c - return_value_rol32$13;
+      unsigned int return_value_rol32_13;
+      return_value_rol32_13=rol32(b, (unsigned int)24);
+      c = c - return_value_rol32_13;
     }
     case (unsigned int)0:
 
@@ -4269,19 +4269,19 @@ signed int log_err(const char *format, ...)
   void **args;
   unsigned long int len;
   args = (void **)&format;
-  signed int return_value_vsnprintf$1;
-  return_value_vsnprintf$1=vsnprintf(buffer, sizeof(char [1024l]) /*1024ul*/ , format, args);
-  len = (unsigned long int)return_value_vsnprintf$1;
+  signed int return_value_vsnprintf_1;
+  return_value_vsnprintf_1=vsnprintf(buffer, sizeof(char [1024l]) /*1024ul*/ , format, args);
+  len = (unsigned long int)return_value_vsnprintf_1;
   args = ((void **)NULL);
-  unsigned long int tmp_statement_expression$2;
+  unsigned long int tmp_statement_expression_2;
   unsigned long int _x = len;
   unsigned long int _y = sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1;
   (void)(&_x == &_y);
-  tmp_statement_expression$2 = _x < _y ? _x : _y;
-  len = tmp_statement_expression$2;
-  unsigned long int return_value_fwrite$3;
-  return_value_fwrite$3=fwrite((const void *)buffer, len, (unsigned long int)1, stderr);
-  return (signed int)return_value_fwrite$3;
+  tmp_statement_expression_2 = _x < _y ? _x : _y;
+  len = tmp_statement_expression_2;
+  unsigned long int return_value_fwrite_3;
+  return_value_fwrite_3=fwrite((const void *)buffer, len, (unsigned long int)1, stderr);
+  return (signed int)return_value_fwrite_3;
 }
 
 // log_info
@@ -4292,19 +4292,19 @@ signed int log_info(const char *format, ...)
   void **args;
   unsigned long int len;
   args = (void **)&format;
-  signed int return_value_vsnprintf$1;
-  return_value_vsnprintf$1=vsnprintf(buffer, sizeof(char [1024l]) /*1024ul*/ , format, args);
-  len = (unsigned long int)return_value_vsnprintf$1;
+  signed int return_value_vsnprintf_1;
+  return_value_vsnprintf_1=vsnprintf(buffer, sizeof(char [1024l]) /*1024ul*/ , format, args);
+  len = (unsigned long int)return_value_vsnprintf_1;
   args = ((void **)NULL);
-  unsigned long int tmp_statement_expression$2;
+  unsigned long int tmp_statement_expression_2;
   unsigned long int _x = len;
   unsigned long int _y = sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1;
   (void)(&_x == &_y);
-  tmp_statement_expression$2 = _x < _y ? _x : _y;
-  len = tmp_statement_expression$2;
-  unsigned long int return_value_fwrite$3;
-  return_value_fwrite$3=fwrite((const void *)buffer, len, (unsigned long int)1, stdout);
-  return (signed int)return_value_fwrite$3;
+  tmp_statement_expression_2 = _x < _y ? _x : _y;
+  len = tmp_statement_expression_2;
+  unsigned long int return_value_fwrite_3;
+  return_value_fwrite_3=fwrite((const void *)buffer, len, (unsigned long int)1, stdout);
+  return (signed int)return_value_fwrite_3;
 }
 
 // main
@@ -4316,14 +4316,14 @@ signed int main(signed int argc, char **argv)
   signed int c;
   signed int ret;
   debug_init();
-  signed int return_value_atoi$1;
-  signed int return_value_atoi$2;
-  signed int return_value_atoi$3;
-  signed int return_value_atoi$4;
-  signed int return_value_atoi$5;
-  signed int return_value_atoi$6;
-  signed int return_value_atoi$7;
-  signed int return_value_usage$8;
+  signed int return_value_atoi_1;
+  signed int return_value_atoi_2;
+  signed int return_value_atoi_3;
+  signed int return_value_atoi_4;
+  signed int return_value_atoi_5;
+  signed int return_value_atoi_6;
+  signed int return_value_atoi_7;
+  signed int return_value_usage_8;
   do
   {
     c=getopt(argc, argv, "b:t:d:o:c:p:B:");
@@ -4334,52 +4334,52 @@ signed int main(signed int argc, char **argv)
     {
       case 98:
       {
-        return_value_atoi$1=atoi(optarg);
-        blocksize = (unsigned int)return_value_atoi$1;
+        return_value_atoi_1=atoi(optarg);
+        blocksize = (unsigned int)return_value_atoi_1;
         break;
       }
       case 116:
       {
-        return_value_atoi$2=atoi(optarg);
-        num_threads = (unsigned int)return_value_atoi$2;
+        return_value_atoi_2=atoi(optarg);
+        num_threads = (unsigned int)return_value_atoi_2;
         break;
       }
       case 100:
       {
-        return_value_atoi$3=atoi(optarg);
-        dump_output = (unsigned int)return_value_atoi$3;
+        return_value_atoi_3=atoi(optarg);
+        dump_output = (unsigned int)return_value_atoi_3;
         break;
       }
       case 111:
       {
-        return_value_atoi$4=atoi(optarg);
-        odirect = (unsigned int)return_value_atoi$4;
+        return_value_atoi_4=atoi(optarg);
+        odirect = (unsigned int)return_value_atoi_4;
         break;
       }
       case 99:
       {
-        return_value_atoi$5=atoi(optarg);
-        collision_check = (unsigned int)return_value_atoi$5;
+        return_value_atoi_5=atoi(optarg);
+        collision_check = (unsigned int)return_value_atoi_5;
         break;
       }
       case 112:
       {
-        return_value_atoi$6=atoi(optarg);
-        print_progress = (unsigned int)return_value_atoi$6;
+        return_value_atoi_6=atoi(optarg);
+        print_progress = (unsigned int)return_value_atoi_6;
         break;
       }
       case 66:
       {
-        return_value_atoi$7=atoi(optarg);
-        use_bloom = (unsigned int)return_value_atoi$7;
+        return_value_atoi_7=atoi(optarg);
+        use_bloom = (unsigned int)return_value_atoi_7;
         break;
       }
       case 63:
 
       default:
       {
-        return_value_usage$8=usage(argv);
-        return return_value_usage$8;
+        return_value_usage_8=usage(argv);
+        return return_value_usage_8;
       }
     }
   }
@@ -4390,11 +4390,11 @@ signed int main(signed int argc, char **argv)
   if(num_threads == 0u)
     num_threads=cpus_online();
 
-  signed int return_value_usage$9;
+  signed int return_value_usage_9;
   if(argc == optind)
   {
-    return_value_usage$9=usage(argv);
-    return return_value_usage$9;
+    return_value_usage_9=usage(argv);
+    return return_value_usage_9;
   }
 
   else
@@ -4597,54 +4597,54 @@ static void md5_transform(unsigned int *hash, const unsigned int *in)
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 50
 static inline void * memcpy(void * restrict __dest, const void * restrict __src, unsigned long int __len)
 {
-  void *return_value___builtin___memcpy_chk$1;
-  return_value___builtin___memcpy_chk$1=__builtin___memcpy_chk(__dest, __src, __len, 18446744073709551615ul);
-  return return_value___builtin___memcpy_chk$1;
+  void *return_value___builtin___memcpy_chk_1;
+  return_value___builtin___memcpy_chk_1=__builtin___memcpy_chk(__dest, __src, __len, 18446744073709551615ul);
+  return return_value___builtin___memcpy_chk_1;
 }
 
-// memcpy$link1
+// memcpy_link1
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 50
-static inline void * memcpy$link1(void * restrict __dest$link1, const void * restrict __src$link1, unsigned long int __len$link1)
+static inline void * memcpy_link1(void * restrict __dest_link1, const void * restrict __src_link1, unsigned long int __len_link1)
 {
-  void *return_value___builtin___memcpy_chk$1$link1;
-  return_value___builtin___memcpy_chk$1$link1=__builtin___memcpy_chk(__dest$link1, __src$link1, __len$link1, 18446744073709551615ul);
-  return return_value___builtin___memcpy_chk$1$link1;
+  void *return_value___builtin___memcpy_chk_1_link1;
+  return_value___builtin___memcpy_chk_1_link1=__builtin___memcpy_chk(__dest_link1, __src_link1, __len_link1, 18446744073709551615ul);
+  return return_value___builtin___memcpy_chk_1_link1;
 }
 
-// memcpy$link2
+// memcpy_link2
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 50
-static inline void * memcpy$link2(void * restrict __dest$link2, const void * restrict __src$link2, unsigned long int __len$link2)
+static inline void * memcpy_link2(void * restrict __dest_link2, const void * restrict __src_link2, unsigned long int __len_link2)
 {
-  void *return_value___builtin___memcpy_chk$1$link2;
-  return_value___builtin___memcpy_chk$1$link2=__builtin___memcpy_chk(__dest$link2, __src$link2, __len$link2, 18446744073709551615ul);
-  return return_value___builtin___memcpy_chk$1$link2;
+  void *return_value___builtin___memcpy_chk_1_link2;
+  return_value___builtin___memcpy_chk_1_link2=__builtin___memcpy_chk(__dest_link2, __src_link2, __len_link2, 18446744073709551615ul);
+  return return_value___builtin___memcpy_chk_1_link2;
 }
 
 // memset
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 78
 static inline void * memset(void *__dest, signed int __ch, unsigned long int __len)
 {
-  void *return_value___builtin___memset_chk$1;
-  return_value___builtin___memset_chk$1=__builtin___memset_chk(__dest, __ch, __len, 18446744073709551615ul);
-  return return_value___builtin___memset_chk$1;
+  void *return_value___builtin___memset_chk_1;
+  return_value___builtin___memset_chk_1=__builtin___memset_chk(__dest, __ch, __len, 18446744073709551615ul);
+  return return_value___builtin___memset_chk_1;
 }
 
-// memset$link1
+// memset_link1
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 78
-static inline void * memset$link1(void *__dest$link1, signed int __ch$link1, unsigned long int __len$link1)
+static inline void * memset_link1(void *__dest_link1, signed int __ch_link1, unsigned long int __len_link1)
 {
-  void *return_value___builtin___memset_chk$1$link1;
-  return_value___builtin___memset_chk$1$link1=__builtin___memset_chk(__dest$link1, __ch$link1, __len$link1, 18446744073709551615ul);
-  return return_value___builtin___memset_chk$1$link1;
+  void *return_value___builtin___memset_chk_1_link1;
+  return_value___builtin___memset_chk_1_link1=__builtin___memset_chk(__dest_link1, __ch_link1, __len_link1, 18446744073709551615ul);
+  return return_value___builtin___memset_chk_1_link1;
 }
 
-// memset$link2
+// memset_link2
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 78
-static inline void * memset$link2(void *__dest$link2, signed int __ch$link2, unsigned long int __len$link2)
+static inline void * memset_link2(void *__dest_link2, signed int __ch_link2, unsigned long int __len_link2)
 {
-  void *return_value___builtin___memset_chk$1$link2;
-  return_value___builtin___memset_chk$1$link2=__builtin___memset_chk(__dest$link2, __ch$link2, __len$link2, 18446744073709551615ul);
-  return return_value___builtin___memset_chk$1$link2;
+  void *return_value___builtin___memset_chk_1_link2;
+  return_value___builtin___memset_chk_1_link2=__builtin___memset_chk(__dest_link2, __ch_link2, __len_link2, 18446744073709551615ul);
+  return return_value___builtin___memset_chk_1_link2;
 }
 
 // mtime_since
@@ -4682,9 +4682,9 @@ extern unsigned long int mtime_since_now(struct timeval *s)
   void *p;
   p=__builtin_return_address((unsigned int)0);
   fio_gettime(&t, p);
-  unsigned long int return_value_mtime_since$1;
-  return_value_mtime_since$1=mtime_since(s, &t);
-  return return_value_mtime_since$1;
+  unsigned long int return_value_mtime_since_1;
+  return_value_mtime_since_1=mtime_since(s, &t);
+  return return_value_mtime_since_1;
 }
 
 // murmur3_tail
@@ -4708,9 +4708,9 @@ static unsigned int murmur3_tail(const unsigned char *data, const signed int nbl
       h1 = h1 ^ k1;
     }
   }
-  unsigned int return_value_fmix32$1;
-  return_value_fmix32$1=fmix32(h1 ^ len);
-  return return_value_fmix32$1;
+  unsigned int return_value_fmix32_1;
+  return_value_fmix32_1=fmix32(h1 ^ len);
+  return return_value_fmix32_1;
 }
 
 // murmurhash3
@@ -4734,46 +4734,46 @@ unsigned int murmurhash3(const void *key, unsigned int len, unsigned int seed)
     h1=rotl32(h1, (signed char)13);
     h1 = h1 * (unsigned int)5 + 0xe6546b64;
   }
-  unsigned int return_value_murmur3_tail$1;
-  return_value_murmur3_tail$1=murmur3_tail(data, nblocks, len, c1, c2, h1);
-  return return_value_murmur3_tail$1;
+  unsigned int return_value_murmur3_tail_1;
+  return_value_murmur3_tail_1=murmur3_tail(data, nblocks, len, c1, c2, h1);
+  return return_value_murmur3_tail_1;
 }
 
 // mutex_timed_out
 // file mutex.c line 95
 static signed int mutex_timed_out(struct timeval *t, unsigned int seconds)
 {
-  unsigned long int return_value_mtime_since_now$1;
-  return_value_mtime_since_now$1=mtime_since_now(t);
-  return (signed int)(return_value_mtime_since_now$1 >= (unsigned long int)(seconds * (unsigned int)1000));
+  unsigned long int return_value_mtime_since_now_1;
+  return_value_mtime_since_now_1=mtime_since_now(t);
+  return (signed int)(return_value_mtime_since_now_1 >= (unsigned long int)(seconds * (unsigned int)1000));
 }
 
 // open
 // file /usr/include/x86_64-linux-gnu/bits/fcntl2.h line 41
 static inline signed int open(const char *__path, signed int __oflag, ...)
 {
-  signed int return_value___builtin_va_arg_pack_len$1;
-  return_value___builtin_va_arg_pack_len$1=__builtin_va_arg_pack_len();
-  if(return_value___builtin_va_arg_pack_len$1 >= 2)
+  signed int return_value___builtin_va_arg_pack_len_1;
+  return_value___builtin_va_arg_pack_len_1=__builtin_va_arg_pack_len();
+  if(return_value___builtin_va_arg_pack_len_1 >= 2)
     __open_too_many_args();
 
-  signed int return_value___builtin_va_arg_pack_len$3;
-  signed int return_value___builtin_va_arg_pack_len$7;
-  return_value___builtin_va_arg_pack_len$7=__builtin_va_arg_pack_len();
-  signed int return_value___open_2$6;
-  if(!(return_value___builtin_va_arg_pack_len$7 >= 1))
+  signed int return_value___builtin_va_arg_pack_len_3;
+  signed int return_value___builtin_va_arg_pack_len_7;
+  return_value___builtin_va_arg_pack_len_7=__builtin_va_arg_pack_len();
+  signed int return_value___open_2_6;
+  if(!(return_value___builtin_va_arg_pack_len_7 >= 1))
   {
-    return_value___open_2$6=__open_2(__path, __oflag);
-    return return_value___open_2$6;
+    return_value___open_2_6=__open_2(__path, __oflag);
+    return return_value___open_2_6;
   }
 
   else
   {
-    void *return_value___builtin_va_arg_pack$8;
-    return_value___builtin_va_arg_pack$8=__builtin_va_arg_pack();
-    signed int return_value___open_alias$9;
-    return_value___open_alias$9=__open_alias(__path, __oflag, return_value___builtin_va_arg_pack$8);
-    return return_value___open_alias$9;
+    void *return_value___builtin_va_arg_pack_8;
+    return_value___builtin_va_arg_pack_8=__builtin_va_arg_pack();
+    signed int return_value___open_alias_9;
+    return_value___open_alias_9=__open_alias(__path, __oflag, return_value___builtin_va_arg_pack_8);
+    return return_value___open_alias_9;
   }
 }
 
@@ -4804,22 +4804,22 @@ static void * postred_ptr(struct block_hdr *hdr)
 // file /usr/include/x86_64-linux-gnu/bits/unistd.h line 87
 static inline signed long int pread(signed int __fd, void *__buf, unsigned long int __nbytes, signed long int __offset)
 {
-  signed long int return_value___pread64_chk$1;
-  signed long int return_value___pread64_chk_warn$2;
-  signed long int return_value___pread64_alias$3;
-  return_value___pread64_alias$3=__pread64_alias(__fd, __buf, __nbytes, __offset);
-  return return_value___pread64_alias$3;
+  signed long int return_value___pread64_chk_1;
+  signed long int return_value___pread64_chk_warn_2;
+  signed long int return_value___pread64_alias_3;
+  return_value___pread64_alias_3=__pread64_alias(__fd, __buf, __nbytes, __offset);
+  return return_value___pread64_alias_3;
 }
 
 // printf
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 102
 static inline signed int printf(const char * restrict __fmt, ...)
 {
-  void *return_value___builtin_va_arg_pack$1;
-  return_value___builtin_va_arg_pack$1=__builtin_va_arg_pack();
-  signed int return_value___printf_chk$2;
-  return_value___printf_chk$2=__printf_chk(2 - 1, __fmt, return_value___builtin_va_arg_pack$1);
-  return return_value___printf_chk$2;
+  void *return_value___builtin_va_arg_pack_1;
+  return_value___builtin_va_arg_pack_1=__builtin_va_arg_pack();
+  signed int return_value___printf_chk_2;
+  return_value___printf_chk_2=__printf_chk(2 - 1, __fmt, return_value___builtin_va_arg_pack_1);
+  return return_value___printf_chk_2;
 }
 
 // ptr_valid
@@ -4827,13 +4827,13 @@ static inline signed int printf(const char * restrict __fmt, ...)
 static inline signed int ptr_valid(struct pool *pool, void *ptr)
 {
   unsigned int pool_size = (unsigned int)(pool->nr_blocks * (unsigned long int)32 * sizeof(unsigned int) /*4ul*/  * (unsigned long int)8);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(ptr >= pool->map)
-    tmp_if_expr$1 = ptr < pool->map + (signed long int)pool_size ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ptr < pool->map + (signed long int)pool_size ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  return (signed int)tmp_if_expr_1;
 }
 
 // rb_erase
@@ -4868,7 +4868,7 @@ extern void rb_erase(struct rb_node *node, struct rb_root *root)
       parent = (struct rb_node *)(node->rb_parent_color & (signed long int)~3);
       color = (signed int)(node->rb_parent_color & (signed long int)1);
       if(!(child == ((struct rb_node *)NULL)))
-        rb_set_parent$link1(child, parent);
+        rb_set_parent_link1(child, parent);
 
       if(parent == old)
       {
@@ -4892,16 +4892,16 @@ extern void rb_erase(struct rb_node *node, struct rb_root *root)
 
       else
         root->rb_node = node;
-      rb_set_parent$link1(old->rb_left, node);
+      rb_set_parent_link1(old->rb_left, node);
       if(!(old->rb_right == ((struct rb_node *)NULL)))
-        rb_set_parent$link1(old->rb_right, node);
+        rb_set_parent_link1(old->rb_right, node);
 
       goto color;
     }
   parent = (struct rb_node *)(node->rb_parent_color & (signed long int)~3);
   color = (signed int)(node->rb_parent_color & (signed long int)1);
   if(!(child == ((struct rb_node *)NULL)))
-    rb_set_parent$link1(child, parent);
+    rb_set_parent_link1(child, parent);
 
   if(!(parent == ((struct rb_node *)NULL)))
   {
@@ -4978,11 +4978,11 @@ extern void rb_insert_color(struct rb_node *node, struct rb_root *root)
 
       if(parent->rb_right == node)
       {
-        struct rb_node *rb_insert_color$$1$$1$$1$$2$$tmp;
+        struct rb_node *rb_insert_color__1__1__1__2__tmp;
         __rb_rotate_left(parent, root);
-        rb_insert_color$$1$$1$$1$$2$$tmp = parent;
+        rb_insert_color__1__1__1__2__tmp = parent;
         parent = node;
-        node = rb_insert_color$$1$$1$$1$$2$$tmp;
+        node = rb_insert_color__1__1__1__2__tmp;
       }
 
       do
@@ -4996,14 +4996,14 @@ extern void rb_insert_color(struct rb_node *node, struct rb_root *root)
 
     else
     {
-      struct rb_node *rb_insert_color$$1$$1$$2$$1$$uncle = gparent->rb_left;
-      if(!(rb_insert_color$$1$$1$$2$$1$$uncle == ((struct rb_node *)NULL)))
+      struct rb_node *rb_insert_color__1__1__2__1__uncle = gparent->rb_left;
+      if(!(rb_insert_color__1__1__2__1__uncle == ((struct rb_node *)NULL)))
       {
-        if(!((1l & rb_insert_color$$1$$1$$2$$1$$uncle->rb_parent_color) == 0l))
+        if(!((1l & rb_insert_color__1__1__2__1__uncle->rb_parent_color) == 0l))
           goto __CPROVER_DUMP_L12;
 
         do
-          rb_insert_color$$1$$1$$2$$1$$uncle->rb_parent_color = rb_insert_color$$1$$1$$2$$1$$uncle->rb_parent_color | (signed long int)1;
+          rb_insert_color__1__1__2__1__uncle->rb_parent_color = rb_insert_color__1__1__2__1__uncle->rb_parent_color | (signed long int)1;
         while((_Bool)0);
         do
           parent->rb_parent_color = parent->rb_parent_color | (signed long int)1;
@@ -5103,29 +5103,29 @@ static inline void rb_set_parent(struct rb_node *rb, struct rb_node *p)
   rb->rb_parent_color = (signed long int)((unsigned long int)(rb->rb_parent_color & (signed long int)3) | (unsigned long int)p);
 }
 
-// rb_set_parent$link1
+// rb_set_parent_link1
 // file lib/rbtree.h line 123
-static inline void rb_set_parent$link1(struct rb_node *rb$link1, struct rb_node *p$link1)
+static inline void rb_set_parent_link1(struct rb_node *rb_link1, struct rb_node *p_link1)
 {
-  rb$link1->rb_parent_color = (signed long int)((unsigned long int)(rb$link1->rb_parent_color & (signed long int)3) | (unsigned long int)p$link1);
+  rb_link1->rb_parent_color = (signed long int)((unsigned long int)(rb_link1->rb_parent_color & (signed long int)3) | (unsigned long int)p_link1);
 }
 
 // read_block
 // file t/dedupe.c line 137
 static signed int read_block(signed int fd, void *buf, signed long int offset)
 {
-  signed int return_value___read_block$1;
-  return_value___read_block$1=__read_block(fd, buf, offset, (unsigned long int)blocksize);
-  return return_value___read_block$1;
+  signed int return_value___read_block_1;
+  return_value___read_block_1=__read_block(fd, buf, offset, (unsigned long int)blocksize);
+  return return_value___read_block_1;
 }
 
 // read_blocks
 // file t/dedupe.c line 270
 static unsigned int read_blocks(signed int fd, void *buf, signed long int offset, unsigned long int size)
 {
-  signed int return_value___read_block$1;
-  return_value___read_block$1=__read_block(fd, buf, offset, size);
-  if(!(return_value___read_block$1 == 0))
+  signed int return_value___read_block_1;
+  return_value___read_block_1=__read_block(fd, buf, offset, size);
+  if(!(return_value___read_block_1 == 0))
     return (unsigned int)0;
 
   else
@@ -5159,9 +5159,9 @@ static signed int run_dedupe_threads(struct fio_file *f, unsigned long int dev_s
   total_items = dev_size / (unsigned long int)blocksize;
   cur_offset = (unsigned long int)0;
   size_lock=fio_mutex_init(1);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)num_threads * sizeof(struct worker_thread) /*56ul*/ );
-  threads = (struct worker_thread *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)num_threads * sizeof(struct worker_thread) /*56ul*/ );
+  threads = (struct worker_thread *)return_value_malloc_1;
   i = 0;
   for( ; !((unsigned int)i >= num_threads); i = i + 1)
   {
@@ -5199,9 +5199,9 @@ static signed int run_dedupe_threads(struct fio_file *f, unsigned long int dev_s
 // file smalloc.c line 493
 extern void * scalloc(unsigned long int nmemb, unsigned long int size)
 {
-  void *return_value_smalloc$1;
-  return_value_smalloc$1=smalloc(nmemb * size);
-  return return_value_smalloc$1;
+  void *return_value_smalloc_1;
+  return_value_smalloc_1=smalloc(nmemb * size);
+  return return_value_smalloc_1;
 }
 
 // scleanup
@@ -5235,9 +5235,9 @@ extern void sfree(void *ptr)
     i = (unsigned int)0;
     for( ; !(i >= nr_pools); i = i + 1u)
     {
-      signed int return_value_ptr_valid$1;
-      return_value_ptr_valid$1=ptr_valid(&mp[(signed long int)i], ptr);
-      if(!(return_value_ptr_valid$1 == 0))
+      signed int return_value_ptr_valid_1;
+      return_value_ptr_valid_1=ptr_valid(&mp[(signed long int)i], ptr);
+      if(!(return_value_ptr_valid_1 == 0))
       {
         pool = &mp[(signed long int)i];
         break;
@@ -5259,9 +5259,9 @@ extern void sfree(void *ptr)
 static void sfree_check_redzone(struct block_hdr *hdr)
 {
   unsigned int *postred;
-  void *return_value_postred_ptr$1;
-  return_value_postred_ptr$1=postred_ptr(hdr);
-  postred = (unsigned int *)return_value_postred_ptr$1;
+  void *return_value_postred_ptr_1;
+  return_value_postred_ptr_1=postred_ptr(hdr);
+  postred = (unsigned int *)return_value_postred_ptr_1;
   if(!(hdr->prered == 0xdeadbeefU))
   {
     log_err("smalloc pre redzone destroyed!\n ptr=%p, prered=%x, expected %x\n", hdr, hdr->prered, 0xdeadbeefU);
@@ -5290,24 +5290,24 @@ static void sfree_pool(struct pool *pool, void *ptr)
   {
     ptr = ptr - (signed long int)sizeof(struct block_hdr) /*16ul*/ ;
     hdr = (struct block_hdr *)ptr;
-    signed int return_value_ptr_valid$1;
-    return_value_ptr_valid$1=ptr_valid(pool, ptr);
+    signed int return_value_ptr_valid_1;
+    return_value_ptr_valid_1=ptr_valid(pool, ptr);
     /* assertion ptr_valid(pool, ptr) */
-    assert(return_value_ptr_valid$1 != 0);
+    assert(return_value_ptr_valid_1 != 0);
     sfree_check_redzone(hdr);
     offset = (unsigned long int)(ptr - pool->map);
     i = (unsigned int)(offset / ((unsigned long int)32 * sizeof(unsigned int) /*4ul*/  * (unsigned long int)8));
     idx = (unsigned int)((offset % ((unsigned long int)32 * sizeof(unsigned int) /*4ul*/  * (unsigned long int)8)) / (unsigned long int)32);
     pool_lock(pool);
-    unsigned long int return_value_size_to_blocks$2;
-    return_value_size_to_blocks$2=size_to_blocks(hdr->size);
-    clear_blocks(pool, i, idx, return_value_size_to_blocks$2);
+    unsigned long int return_value_size_to_blocks_2;
+    return_value_size_to_blocks_2=size_to_blocks(hdr->size);
+    clear_blocks(pool, i, idx, return_value_size_to_blocks_2);
     if(!((unsigned long int)i >= pool->next_non_full))
       pool->next_non_full = (unsigned long int)i;
 
-    unsigned long int return_value_size_to_blocks$3;
-    return_value_size_to_blocks$3=size_to_blocks(hdr->size);
-    pool->free_blocks = pool->free_blocks + return_value_size_to_blocks$3;
+    unsigned long int return_value_size_to_blocks_3;
+    return_value_size_to_blocks_3=size_to_blocks(hdr->size);
+    pool->free_blocks = pool->free_blocks + return_value_size_to_blocks_3;
     pool_unlock(pool);
   }
 
@@ -5321,12 +5321,12 @@ static void show_chunk(struct chunk *c)
   struct extent *e;
   printf("c hash %8x %8x %8x %8x, count %lu\n", c->hash[(signed long int)0], c->hash[(signed long int)1], c->hash[(signed long int)2], c->hash[(signed long int)3], (unsigned long int)c->count);
   n = (&c->extent_list[(signed long int)0])->next;
-  struct extent *tmp_statement_expression$1;
+  struct extent *tmp_statement_expression_1;
   for( ; !(n == c->extent_list); n = n->next)
   {
     const struct flist_head *__mptr = n;
-    tmp_statement_expression$1 = (struct extent *)((char *)__mptr - (signed long int)(unsigned long int)&((struct extent *)0)->list);
-    e = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct extent *)((char *)__mptr - (signed long int)(unsigned long int)&((struct extent *)0)->list);
+    e = tmp_statement_expression_1;
     printf("\toffset %llu\n", (unsigned long long int)e->offset);
   }
 }
@@ -5487,7 +5487,7 @@ static void * smalloc_pool(struct pool *pool, unsigned long int size)
     hdr->size = alloc_size;
     fill_redzone(hdr);
     ptr = ptr + (signed long int)sizeof(struct block_hdr) /*16ul*/ ;
-    memset$link1(ptr, 0, size);
+    memset_link1(ptr, 0, size);
   }
 
   return ptr;
@@ -5498,11 +5498,11 @@ static void * smalloc_pool(struct pool *pool, unsigned long int size)
 extern char * smalloc_strdup(const char *str)
 {
   char *ptr = (char *)(void *)0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  void *return_value_smalloc$2;
-  return_value_smalloc$2=smalloc(return_value_strlen$1 + (unsigned long int)1);
-  ptr = (char *)return_value_smalloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  void *return_value_smalloc_2;
+  return_value_smalloc_2=smalloc(return_value_strlen_1 + (unsigned long int)1);
+  ptr = (char *)return_value_smalloc_2;
   if(!(ptr == ((char *)NULL)))
     strcpy(ptr, str);
 
@@ -5513,9 +5513,9 @@ extern char * smalloc_strdup(const char *str)
 // file /usr/include/x86_64-linux-gnu/bits/string3.h line 108
 static inline char * strcpy(char * restrict __dest, const char * restrict __src)
 {
-  char *return_value___builtin___strcpy_chk$1;
-  return_value___builtin___strcpy_chk$1=__builtin___strcpy_chk(__dest, __src, 18446744073709551615ul);
-  return return_value___builtin___strcpy_chk$1;
+  char *return_value___builtin___strcpy_chk_1;
+  return_value___builtin___strcpy_chk_1=__builtin___strcpy_chk(__dest, __src, 18446744073709551615ul);
+  return return_value___builtin___strcpy_chk_1;
 }
 
 // thread_fn
@@ -5527,17 +5527,17 @@ static void * thread_fn(void *data)
   buf=fio_memalign((unsigned long int)blocksize, (unsigned long int)chunk_size);
   do
   {
-    signed int return_value_get_work$1;
-    return_value_get_work$1=get_work(&thread->cur_offset, &thread->size);
-    if(!(return_value_get_work$1 == 0))
+    signed int return_value_get_work_1;
+    return_value_get_work_1=get_work(&thread->cur_offset, &thread->size);
+    if(!(return_value_get_work_1 == 0))
     {
       thread->err = 1;
       break;
     }
 
-    signed int return_value_do_work$2;
-    return_value_do_work$2=do_work(thread, buf);
-    if(!(return_value_do_work$2 == 0))
+    signed int return_value_do_work_2;
+    return_value_do_work_2=do_work(thread, buf);
+    if(!(return_value_do_work_2 == 0))
     {
       thread->err = 1;
       break;
@@ -5554,9 +5554,9 @@ static void * thread_fn(void *data)
 // file gettime.c line 449
 extern unsigned long int time_since_now(struct timeval *s)
 {
-  unsigned long int return_value_mtime_since_now$1;
-  return_value_mtime_since_now$1=mtime_since_now(s);
-  return return_value_mtime_since_now$1 / (unsigned long int)1000;
+  unsigned long int return_value_mtime_since_now_1;
+  return_value_mtime_since_now_1=mtime_since_now(s);
+  return return_value_mtime_since_now_1 / (unsigned long int)1000;
 }
 
 // usage
@@ -5606,17 +5606,17 @@ extern unsigned long int utime_since_now(struct timeval *s)
 {
   struct timeval t;
   fio_gettime(&t, (void *)0);
-  unsigned long int return_value_utime_since$1;
-  return_value_utime_since$1=utime_since(s, &t);
-  return return_value_utime_since$1;
+  unsigned long int return_value_utime_since_1;
+  return_value_utime_since_1=utime_since(s, &t);
+  return return_value_utime_since_1;
 }
 
 // vsnprintf
 // file /usr/include/x86_64-linux-gnu/bits/stdio2.h line 74
 static inline signed int vsnprintf(char * restrict __s, unsigned long int __n, const char * restrict __fmt, void **__ap)
 {
-  signed int return_value___builtin___vsnprintf_chk$1;
-  return_value___builtin___vsnprintf_chk$1=__builtin___vsnprintf_chk(__s, __n, 2 - 1, 18446744073709551615ul, __fmt, __ap);
-  return return_value___builtin___vsnprintf_chk$1;
+  signed int return_value___builtin___vsnprintf_chk_1;
+  return_value___builtin___vsnprintf_chk_1=__builtin___vsnprintf_chk(__s, __n, 2 - 1, 18446744073709551615ul, __fmt, __ap);
+  return return_value___builtin___vsnprintf_chk_1;
 }
 

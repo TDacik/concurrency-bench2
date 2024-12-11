@@ -1,22 +1,22 @@
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$2;
+union anonymous_2;
 
 // tag-#anon#UN[SYM#tag-ip6_hdrctl#'ip6_un1'||U8'ip6_un2_vfc'|]
 // file /usr/include/netinet/ip6.h line 26
-union anonymous$0;
+union anonymous_0;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -131,9 +131,9 @@ void add_to_whitelist(char *ip_address, char *rdns, _Bool is_child, signed int a
 // atoi
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr);
-// atoi$link1
+// atoi_link1
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1(const char *__nptr$link1);
+static inline signed int atoi_link1(const char *__nptr_link1);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -227,12 +227,12 @@ _Bool is_whitelisted(char *ip_address, _Bool useIt);
 // localtime
 // file /usr/include/time.h line 243
 extern struct tm * localtime(const signed long int *);
-// main::$tmp::return_value_signal$5$object
+// main::_tmp::return_value_signal_5_object
 //
-void return_value_signal$5$object(signed int);
-// main::$tmp::return_value_signal$6$object
+void return_value_signal_5_object(signed int);
+// main::_tmp::return_value_signal_6_object
 //
-void return_value_signal$6$object(signed int);
+void return_value_signal_6_object(signed int);
 // malloc
 // file /usr/include/stdlib.h line 466
 extern void * malloc(unsigned long int);
@@ -292,19 +292,19 @@ void print_help(char *executable);
 extern signed int printf(const char *, ...);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$1 *);
+extern signed int pthread_cond_broadcast(union anonymous_1 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$1 *, union anonymous$2 *);
+extern signed int pthread_cond_wait(union anonymous_1 *, union anonymous_2 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$2 *);
+extern signed int pthread_mutex_lock(union anonymous_2 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$2 *);
+extern signed int pthread_mutex_unlock(union anonymous_2 *);
 // rdns_for_ip
 // file src/resolve.c line 25
 char * rdns_for_ip(char *ip_address);
@@ -363,7 +363,7 @@ extern void vsyslog(signed int, const char *, void **);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$3
+struct anonymous_3
 {
   // __lock
   signed int __lock;
@@ -393,10 +393,10 @@ union anonymous
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
-  struct anonymous$3 __data;
+  struct anonymous_3 __data;
   // __size
   char __size[48l];
   // __align
@@ -431,7 +431,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -453,7 +453,7 @@ struct ip6_hdrctl
   unsigned char ip6_un1_hlim;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // ip6_un1
   struct ip6_hdrctl ip6_un1;
@@ -582,7 +582,7 @@ struct in_addr
 struct ip6_hdr
 {
   // ip6_ctlun
-  union anonymous$0 ip6_ctlun;
+  union anonymous_0 ip6_ctlun;
   // ip6_src
   struct in6_addr ip6_src;
   // ip6_dst
@@ -751,13 +751,13 @@ _Bool rdns_whitelist = (_Bool)1;
 struct mailserver_list *real_mailservers;
 // resolv_new_cond
 // file include/mxallowd.h line 30
-union anonymous$1 resolv_new_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_1 resolv_new_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // resolv_thread_mutex
 // file include/mxallowd.h line 29
-union anonymous$2 resolv_thread_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_2 resolv_thread_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // root
@@ -783,9 +783,9 @@ _Bool to_stdout = (_Bool)0;
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx)
 {
-  signed long int return_value___builtin_bswap32$1;
-  return_value___builtin_bswap32$1=__builtin_bswap32((signed long int)__bsx);
-  return (unsigned int)return_value___builtin_bswap32$1;
+  signed long int return_value___builtin_bswap32_1;
+  return_value___builtin_bswap32_1=__builtin_bswap32((signed long int)__bsx);
+  return (unsigned int)return_value___builtin_bswap32_1;
 }
 
 // add_mailserver
@@ -793,15 +793,15 @@ static inline unsigned int __bswap_32(unsigned int __bsx)
 void add_mailserver(struct mailserver_list **root, char *mailserver_ip)
 {
   struct mailserver_list *new;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct mailserver_list) /*16ul*/ );
-  new = (struct mailserver_list *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct mailserver_list) /*16ul*/ );
+  new = (struct mailserver_list *)return_value_malloc_1;
   if(new == ((struct mailserver_list *)NULL))
     diep("malloc()");
 
-  char *return_value___strdup$2;
-  return_value___strdup$2=__strdup(mailserver_ip);
-  new->ip_address = return_value___strdup$2;
+  char *return_value___strdup_2;
+  return_value___strdup_2=__strdup(mailserver_ip);
+  new->ip_address = return_value___strdup_2;
   new->next = (struct mailserver_list *)(void *)0;
   if(*root == ((struct mailserver_list *)NULL))
     *root = new;
@@ -819,29 +819,29 @@ void add_mailserver(struct mailserver_list **root, char *mailserver_ip)
 // file include/whitelist.h line 41
 void add_to_whitelist(char *ip_address, char *rdns, _Bool is_child, signed int af, const void *source_addr)
 {
-  _Bool return_value_is_whitelisted$1;
-  return_value_is_whitelisted$1=is_whitelisted(ip_address, (_Bool)0);
-  char *tmp_if_expr$5;
-  char *return_value___strdup$4;
-  if(return_value_is_whitelisted$1 == (_Bool)0)
+  _Bool return_value_is_whitelisted_1;
+  return_value_is_whitelisted_1=is_whitelisted(ip_address, (_Bool)0);
+  char *tmp_if_expr_5;
+  char *return_value___strdup_4;
+  if(return_value_is_whitelisted_1 == (_Bool)0)
   {
     struct whitelist_entry *new_entry;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct whitelist_entry) /*40ul*/ );
-    new_entry = (struct whitelist_entry *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct whitelist_entry) /*40ul*/ );
+    new_entry = (struct whitelist_entry *)return_value_malloc_2;
     new_entry->next = (struct whitelist_entry *)(void *)0;
-    char *return_value___strdup$3;
-    return_value___strdup$3=__strdup(ip_address);
-    new_entry->ip_address = return_value___strdup$3;
+    char *return_value___strdup_3;
+    return_value___strdup_3=__strdup(ip_address);
+    new_entry->ip_address = return_value___strdup_3;
     if(!(rdns == ((char *)NULL)))
     {
-      return_value___strdup$4=__strdup(rdns);
-      tmp_if_expr$5 = return_value___strdup$4;
+      return_value___strdup_4=__strdup(rdns);
+      tmp_if_expr_5 = return_value___strdup_4;
     }
 
     else
-      tmp_if_expr$5 = (char *)(void *)0;
-    new_entry->rdns = tmp_if_expr$5;
+      tmp_if_expr_5 = (char *)(void *)0;
+    new_entry->rdns = tmp_if_expr_5;
     new_entry->rdns_tried = rdns != (char *)(void *)0;
     new_entry->added=time((signed long int *)(void *)0);
     new_entry->is_child = is_child;
@@ -885,32 +885,32 @@ void add_to_whitelist(char *ip_address, char *rdns, _Bool is_child, signed int a
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
-// atoi$link1
+// atoi_link1
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1(const char *__nptr$link1)
+static inline signed int atoi_link1(const char *__nptr_link1)
 {
-  signed long int return_value_strtol$1$link1;
-  return_value_strtol$1$link1=strtol(__nptr$link1, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link1;
+  signed long int return_value_strtol_1_link1;
+  return_value_strtol_1_link1=strtol(__nptr_link1, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link1;
 }
 
 // checkConfigValue
 // file src/config.c line 75
 _Bool checkConfigValue(char *value, char *name)
 {
-  _Bool return_value_isInteger$1;
+  _Bool return_value_isInteger_1;
   if(value == ((char *)NULL))
     slog("Option \"%s\" requires argument\n", name);
 
   else
   {
-    return_value_isInteger$1=isInteger(value);
-    if(!(return_value_isInteger$1 == (_Bool)0))
+    return_value_isInteger_1=isInteger(value);
+    if(!(return_value_isInteger_1 == (_Bool)0))
       return (_Bool)1;
 
     else
@@ -923,7 +923,7 @@ _Bool checkConfigValue(char *value, char *name)
 // file include/whitelist.h line 40
 void cleanup_whitelist()
 {
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!(root == ((struct whitelist_entry *)NULL)))
   {
     signed long int current_time;
@@ -936,11 +936,11 @@ void cleanup_whitelist()
         if(!((signed long int)allow_time >= current_time + -cur->added))
         {
           if(!(cur->rdns == ((char *)NULL)))
-            tmp_if_expr$1 = cur->rdns;
+            tmp_if_expr_1 = cur->rdns;
 
           else
-            tmp_if_expr$1 = "unresolvable";
-          slog("Cleaning %s (RDNS: %s) from whitelist (timeout)\n", cur->ip_address, tmp_if_expr$1);
+            tmp_if_expr_1 = "unresolvable";
+          slog("Cleaning %s (RDNS: %s) from whitelist (timeout)\n", cur->ip_address, tmp_if_expr_1);
           if(cur->is_child == (_Bool)0)
           {
             if(!(cur->used == (_Bool)0))
@@ -1009,9 +1009,9 @@ void diep(char *message)
 // file src/config.c line 47
 void getNextConfigEntry(struct _IO_FILE *config, char **destName, char **destValue, char *wholeBuffer, signed int wholeBufferSize)
 {
-  char *return_value_fgets$1;
-  return_value_fgets$1=fgets(wholeBuffer, wholeBufferSize, config);
-  if(return_value_fgets$1 == wholeBuffer)
+  char *return_value_fgets_1;
+  return_value_fgets_1=fgets(wholeBuffer, wholeBufferSize, config);
+  if(return_value_fgets_1 == wholeBuffer)
   {
     char *c = wholeBuffer;
     for( ; (_Bool)1; c = c + 1l)
@@ -1095,11 +1095,11 @@ static signed int handlePacket(struct nfq_q_handle *qh, struct nfgenmsg *nfmsg, 
   unsigned char *payload = (unsigned char *)(void *)0;
   signed int payload_length;
   header=nfq_get_msg_packet_hdr(nfdata);
-  _Bool tmp_if_expr$3;
-  const char *return_value_inet_ntop$2;
-  _Bool tmp_if_expr$6;
-  const char *return_value_inet_ntop$5;
-  _Bool return_value_is_included$10;
+  _Bool tmp_if_expr_3;
+  const char *return_value_inet_ntop_2;
+  _Bool tmp_if_expr_6;
+  const char *return_value_inet_ntop_5;
+  _Bool return_value_is_included_10;
   if(header == ((struct nfqnl_msg_packet_hdr *)NULL))
     return -1;
 
@@ -1119,17 +1119,17 @@ static signed int handlePacket(struct nfq_q_handle *qh, struct nfgenmsg *nfmsg, 
       struct iphdr *ip_header = (struct iphdr *)payload;
       if((signed int)ip_header->version == 4)
       {
-        const char *return_value_inet_ntop$1;
-        return_value_inet_ntop$1=inet_ntop(2, (const void *)&ip_header->daddr, dest_address, (unsigned int)sizeof(char [47l]) /*47ul*/ );
-        if(return_value_inet_ntop$1 == ((const char *)NULL))
-          tmp_if_expr$3 = (_Bool)1;
+        const char *return_value_inet_ntop_1;
+        return_value_inet_ntop_1=inet_ntop(2, (const void *)&ip_header->daddr, dest_address, (unsigned int)sizeof(char [47l]) /*47ul*/ );
+        if(return_value_inet_ntop_1 == ((const char *)NULL))
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
-          return_value_inet_ntop$2=inet_ntop(2, (const void *)&ip_header->saddr, source_address, (unsigned int)sizeof(char [47l]) /*47ul*/ );
-          tmp_if_expr$3 = return_value_inet_ntop$2 == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          return_value_inet_ntop_2=inet_ntop(2, (const void *)&ip_header->saddr, source_address, (unsigned int)sizeof(char [47l]) /*47ul*/ );
+          tmp_if_expr_3 = return_value_inet_ntop_2 == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
+        if(tmp_if_expr_3)
           return -1;
 
       }
@@ -1137,23 +1137,23 @@ static signed int handlePacket(struct nfq_q_handle *qh, struct nfgenmsg *nfmsg, 
       else
       {
         struct ip6_hdr *ip6_header = (struct ip6_hdr *)payload;
-        const char *return_value_inet_ntop$4;
-        return_value_inet_ntop$4=inet_ntop(10, (const void *)&ip6_header->ip6_dst, dest_address, (unsigned int)sizeof(char [47l]) /*47ul*/ );
-        if(return_value_inet_ntop$4 == ((const char *)NULL))
-          tmp_if_expr$6 = (_Bool)1;
+        const char *return_value_inet_ntop_4;
+        return_value_inet_ntop_4=inet_ntop(10, (const void *)&ip6_header->ip6_dst, dest_address, (unsigned int)sizeof(char [47l]) /*47ul*/ );
+        if(return_value_inet_ntop_4 == ((const char *)NULL))
+          tmp_if_expr_6 = (_Bool)1;
 
         else
         {
-          return_value_inet_ntop$5=inet_ntop(10, (const void *)&ip6_header->ip6_src, source_address, (unsigned int)sizeof(char [47l]) /*47ul*/ );
-          tmp_if_expr$6 = return_value_inet_ntop$5 == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          return_value_inet_ntop_5=inet_ntop(10, (const void *)&ip6_header->ip6_src, source_address, (unsigned int)sizeof(char [47l]) /*47ul*/ );
+          tmp_if_expr_6 = return_value_inet_ntop_5 == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$6)
+        if(tmp_if_expr_6)
           return -1;
 
       }
-      _Bool return_value_is_included$11;
-      return_value_is_included$11=is_included(fake_mailservers, dest_address);
-      if(!(return_value_is_included$11 == (_Bool)0))
+      _Bool return_value_is_included_11;
+      return_value_is_included_11=is_included(fake_mailservers, dest_address);
+      if(!(return_value_is_included_11 == (_Bool)0))
       {
         slog("Successful connection from %s to a fake mailserver, adding to whitelist\n", (const void *)source_address);
         add_to_whitelist(source_address, (char *)(void *)0, (_Bool)0, 0, (void *)0);
@@ -1161,31 +1161,31 @@ static signed int handlePacket(struct nfq_q_handle *qh, struct nfgenmsg *nfmsg, 
 
       else
       {
-        return_value_is_included$10=is_included(real_mailservers, dest_address);
-        if(!(return_value_is_included$10 == (_Bool)0))
+        return_value_is_included_10=is_included(real_mailservers, dest_address);
+        if(!(return_value_is_included_10 == (_Bool)0))
         {
-          _Bool return_value_is_whitelisted$9;
-          return_value_is_whitelisted$9=is_whitelisted(source_address, (_Bool)1);
-          if(return_value_is_whitelisted$9 == (_Bool)0)
+          _Bool return_value_is_whitelisted_9;
+          return_value_is_whitelisted_9=is_whitelisted(source_address, (_Bool)1);
+          if(return_value_is_whitelisted_9 == (_Bool)0)
           {
             slog("Dropping connection attempt from %s to a real mailserver\n", (const void *)source_address);
             blocked_attempts = blocked_attempts + 1ul;
-            unsigned int return_value___bswap_32$7;
-            return_value___bswap_32$7=__bswap_32(header->packet_id);
-            signed int return_value_nfq_set_verdict$8;
-            return_value_nfq_set_verdict$8=nfq_set_verdict(qh, return_value___bswap_32$7, (unsigned int)0, (unsigned int)0, (const unsigned char *)(void *)0);
-            return return_value_nfq_set_verdict$8;
+            unsigned int return_value___bswap_32_7;
+            return_value___bswap_32_7=__bswap_32(header->packet_id);
+            signed int return_value_nfq_set_verdict_8;
+            return_value_nfq_set_verdict_8=nfq_set_verdict(qh, return_value___bswap_32_7, (unsigned int)0, (unsigned int)0, (const unsigned char *)(void *)0);
+            return return_value_nfq_set_verdict_8;
           }
 
           slog("Successful connection from %s to a real mailserver\n", (const void *)source_address);
         }
 
       }
-      unsigned int return_value___bswap_32$12;
-      return_value___bswap_32$12=__bswap_32(header->packet_id);
-      signed int return_value_nfq_set_verdict$13;
-      return_value_nfq_set_verdict$13=nfq_set_verdict(qh, return_value___bswap_32$12, (unsigned int)1, (unsigned int)0, (const unsigned char *)(void *)0);
-      return return_value_nfq_set_verdict$13;
+      unsigned int return_value___bswap_32_12;
+      return_value___bswap_32_12=__bswap_32(header->packet_id);
+      signed int return_value_nfq_set_verdict_13;
+      return_value_nfq_set_verdict_13=nfq_set_verdict(qh, return_value___bswap_32_12, (unsigned int)1, (unsigned int)0, (const unsigned char *)(void *)0);
+      return return_value_nfq_set_verdict_13;
     }
   }
 }
@@ -1210,20 +1210,20 @@ void handle_sigusr1(signed int sig)
 // file src/config.c line 25
 _Bool isInteger(char *str)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_strlen$2;
-  if(return_value_strlen$1 == 0ul)
-    tmp_if_expr$3 = (_Bool)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_strlen_2;
+  if(return_value_strlen_1 == 0ul)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_strlen$2=strlen(str);
-    tmp_if_expr$3 = return_value_strlen$2 > (unsigned long int)10 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_2=strlen(str);
+    tmp_if_expr_3 = return_value_strlen_2 > (unsigned long int)10 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
     return (_Bool)0;
 
   else
@@ -1232,11 +1232,11 @@ _Bool isInteger(char *str)
     for( ; !((signed int)*c == 0); c = c + 1l)
     {
       if(!((signed int)*c >= 48))
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)*c > 57 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (signed int)*c > 57 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
         return (_Bool)0;
 
     }
@@ -1249,15 +1249,15 @@ _Bool isInteger(char *str)
 _Bool is_included(struct mailserver_list *root, char *ip_address)
 {
   struct mailserver_list *cur = root;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   do
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$2;
-    return_value___builtin_strcmp$2=__builtin_strcmp(cur->ip_address, ip_address);
-    tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-    if(tmp_statement_expression$1 == 0)
+    signed int return_value___builtin_strcmp_2;
+    return_value___builtin_strcmp_2=__builtin_strcmp(cur->ip_address, ip_address);
+    tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+    if(tmp_statement_expression_1 == 0)
       return (_Bool)1;
 
     cur = cur->next;
@@ -1270,7 +1270,7 @@ _Bool is_included(struct mailserver_list *root, char *ip_address)
 // file include/whitelist.h line 39
 _Bool is_whitelisted(char *ip_address, _Bool useIt)
 {
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   if(root == ((struct whitelist_entry *)NULL))
     return (_Bool)0;
 
@@ -1283,10 +1283,10 @@ _Bool is_whitelisted(char *ip_address, _Bool useIt)
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$2;
-        return_value___builtin_strcmp$2=__builtin_strcmp(cur->ip_address, ip_address);
-        tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-        if(tmp_statement_expression$1 == 0)
+        signed int return_value___builtin_strcmp_2;
+        return_value___builtin_strcmp_2=__builtin_strcmp(cur->ip_address, ip_address);
+        tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+        if(tmp_statement_expression_1 == 0)
         {
           if(!(useIt == (_Bool)0))
             cur->used = (_Bool)1;
@@ -1339,10 +1339,10 @@ signed int main(signed int argc, char **argv)
 
   }
   while((_Bool)1);
-  _Bool return_value_read_configuration$1;
-  return_value_read_configuration$1=read_configuration(configfile);
-  signed int return_value_pthread_create$7;
-  if(return_value_read_configuration$1 == (_Bool)0)
+  _Bool return_value_read_configuration_1;
+  return_value_read_configuration_1=read_configuration(configfile);
+  signed int return_value_pthread_create_7;
+  if(return_value_read_configuration_1 == (_Bool)0)
   {
     if(!(argc == 1))
       goto __CPROVER_DUMP_L4;
@@ -1383,7 +1383,7 @@ signed int main(signed int argc, char **argv)
         }
         case 116:
         {
-          allow_time=atoi$link1(optarg);
+          allow_time=atoi_link1(optarg);
           break;
         }
         case 115:
@@ -1407,7 +1407,7 @@ signed int main(signed int argc, char **argv)
           break;
         }
         case 110:
-          queue_num=atoi$link1(optarg);
+          queue_num=atoi_link1(optarg);
         default:
           ;
       }
@@ -1433,9 +1433,9 @@ signed int main(signed int argc, char **argv)
         if(stay_in_foreground == (_Bool)0)
         {
           slog("Daemonizing...\n");
-          signed int return_value_daemon$2;
-          return_value_daemon$2=daemon(0, 0);
-          if(!(return_value_daemon$2 >= 0))
+          signed int return_value_daemon_2;
+          return_value_daemon_2=daemon(0, 0);
+          if(!(return_value_daemon_2 >= 0))
             slog("Cannot daemonize\n");
 
           signed int fd;
@@ -1446,24 +1446,24 @@ signed int main(signed int argc, char **argv)
           else
           {
             char buffer[256l];
-            signed int return_value_getpid$3;
-            return_value_getpid$3=getpid();
-            snprintf(buffer, (unsigned long int)255, "%d", return_value_getpid$3);
-            unsigned long int return_value_strlen$4;
-            return_value_strlen$4=strlen(buffer);
-            write(fd, (const void *)buffer, return_value_strlen$4);
+            signed int return_value_getpid_3;
+            return_value_getpid_3=getpid();
+            snprintf(buffer, (unsigned long int)255, "%d", return_value_getpid_3);
+            unsigned long int return_value_strlen_4;
+            return_value_strlen_4=strlen(buffer);
+            write(fd, (const void *)buffer, return_value_strlen_4);
             close(fd);
           }
         }
 
-        void (*return_value_signal$5)(signed int);
-        return_value_signal$5=signal(1, handle_sighup);
-        if(return_value_signal$5 == (void (*)(signed int))-1)
+        void (*return_value_signal_5)(signed int);
+        return_value_signal_5=signal(1, handle_sighup);
+        if(return_value_signal_5 == (void (*)(signed int))-1)
           diep("signal(SIGHUP)");
 
-        void (*return_value_signal$6)(signed int);
-        return_value_signal$6=signal(10, handle_sigusr1);
-        if(return_value_signal$6 == (void (*)(signed int))-1)
+        void (*return_value_signal_6)(signed int);
+        return_value_signal_6=signal(10, handle_sigusr1);
+        if(return_value_signal_6 == (void (*)(signed int))-1)
           diep("signal(SIGUSR1)");
 
         if(quiet == (_Bool)0)
@@ -1488,8 +1488,8 @@ signed int main(signed int argc, char **argv)
         unsigned long int resolv_thread;
         if(!(rdns_whitelist == (_Bool)0))
         {
-          return_value_pthread_create$7=pthread_create(&resolv_thread, (const union pthread_attr_t *)(void *)0, resolve_thread, (void *)0);
-          if(!(return_value_pthread_create$7 == 0))
+          return_value_pthread_create_7=pthread_create(&resolv_thread, (const union pthread_attr_t *)(void *)0, resolve_thread, (void *)0);
+          if(!(return_value_pthread_create_7 == 0))
             diep("Cannot create thread");
 
         }
@@ -1510,15 +1510,15 @@ void nfq_init()
     diem("Error creating an nfq-handle");
 
   nfq_unbind_pf(nfq, (unsigned short int)2);
-  signed int return_value_nfq_bind_pf$1;
-  return_value_nfq_bind_pf$1=nfq_bind_pf(nfq, (unsigned short int)2);
-  if(!(return_value_nfq_bind_pf$1 == 0))
+  signed int return_value_nfq_bind_pf_1;
+  return_value_nfq_bind_pf_1=nfq_bind_pf(nfq, (unsigned short int)2);
+  if(!(return_value_nfq_bind_pf_1 == 0))
     diem("Error binding to AF_INET");
 
   nfq_unbind_pf(nfq, (unsigned short int)10);
-  signed int return_value_nfq_bind_pf$2;
-  return_value_nfq_bind_pf$2=nfq_bind_pf(nfq, (unsigned short int)10);
-  if(!(return_value_nfq_bind_pf$2 == 0))
+  signed int return_value_nfq_bind_pf_2;
+  return_value_nfq_bind_pf_2=nfq_bind_pf(nfq, (unsigned short int)10);
+  if(!(return_value_nfq_bind_pf_2 == 0))
     diem("Error binding to AF_INET6");
 
   struct nfq_q_handle *qh;
@@ -1526,26 +1526,26 @@ void nfq_init()
   if(qh == ((struct nfq_q_handle *)NULL))
     dief("Error creating queue %d\n", queue_num);
 
-  signed int return_value_nfq_set_mode$3;
-  return_value_nfq_set_mode$3=nfq_set_mode(qh, (unsigned char)2, (unsigned int)4096);
-  if(return_value_nfq_set_mode$3 == -1)
+  signed int return_value_nfq_set_mode_3;
+  return_value_nfq_set_mode_3=nfq_set_mode(qh, (unsigned char)2, (unsigned int)4096);
+  if(return_value_nfq_set_mode_3 == -1)
     diem("Cannot set mode to NFQNL_COPY_PACKET");
 
   char *packet_buffer;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)(4096 + 1));
-  packet_buffer = (char *)return_value_malloc$4;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)(4096 + 1));
+  packet_buffer = (char *)return_value_malloc_4;
   if(packet_buffer == ((char *)NULL))
     diep("malloc()");
 
   signed int fd;
   fd=nfq_fd(nfq);
   signed int rv;
-  signed long int return_value_recv$5;
+  signed long int return_value_recv_5;
   do
   {
-    return_value_recv$5=recv(fd, (void *)packet_buffer, (unsigned long int)4096, 0);
-    rv = (signed int)return_value_recv$5;
+    return_value_recv_5=recv(fd, (void *)packet_buffer, (unsigned long int)4096, 0);
+    rv = (signed int)return_value_recv_5;
     if(!(rv >= 0))
       break;
 
@@ -1570,9 +1570,9 @@ char * rdns_for_ip(char *ip_address)
 {
   struct in_addr address4;
   struct hostent *lookup = (struct hostent *)(void *)0;
-  signed int return_value_inet_pton$1;
-  return_value_inet_pton$1=inet_pton(2, ip_address, (void *)&address4);
-  if(return_value_inet_pton$1 >= 1)
+  signed int return_value_inet_pton_1;
+  return_value_inet_pton_1=inet_pton(2, ip_address, (void *)&address4);
+  if(return_value_inet_pton_1 >= 1)
     lookup=gethostbyaddr((const void *)(const char *)&address4, (unsigned int)sizeof(struct in_addr) /*4ul*/ , 2);
 
   else
@@ -1581,24 +1581,24 @@ char * rdns_for_ip(char *ip_address)
     inet_pton(10, ip_address, (void *)&address6);
     lookup=gethostbyaddr((const void *)(const char *)&address6, (unsigned int)sizeof(struct in6_addr) /*16ul*/ , 10);
   }
-  signed int *return_value___h_errno_location$5;
-  signed int *return_value___h_errno_location$4;
-  signed int *return_value___h_errno_location$3;
+  signed int *return_value___h_errno_location_5;
+  signed int *return_value___h_errno_location_4;
+  signed int *return_value___h_errno_location_3;
   if(lookup == ((struct hostent *)NULL))
   {
-    signed int *return_value___h_errno_location$6;
-    return_value___h_errno_location$6=__h_errno_location();
-    if(!(*return_value___h_errno_location$6 == 1))
+    signed int *return_value___h_errno_location_6;
+    return_value___h_errno_location_6=__h_errno_location();
+    if(!(*return_value___h_errno_location_6 == 1))
     {
-      return_value___h_errno_location$5=__h_errno_location();
-      if(!(*return_value___h_errno_location$5 == 4))
+      return_value___h_errno_location_5=__h_errno_location();
+      if(!(*return_value___h_errno_location_5 == 4))
       {
-        return_value___h_errno_location$4=__h_errno_location();
-        if(!(*return_value___h_errno_location$4 == 4))
+        return_value___h_errno_location_4=__h_errno_location();
+        if(!(*return_value___h_errno_location_4 == 4))
         {
-          signed int *return_value___h_errno_location$2;
-          return_value___h_errno_location$2=__h_errno_location();
-          switch(*return_value___h_errno_location$2)
+          signed int *return_value___h_errno_location_2;
+          return_value___h_errno_location_2=__h_errno_location();
+          switch(*return_value___h_errno_location_2)
           {
             case 3:
             {
@@ -1612,8 +1612,8 @@ char * rdns_for_ip(char *ip_address)
             }
             default:
             {
-              return_value___h_errno_location$3=__h_errno_location();
-              fprintf(stderr, "Unknown error (code %d) during gethostbyaddr()\n", *return_value___h_errno_location$3);
+              return_value___h_errno_location_3=__h_errno_location();
+              fprintf(stderr, "Unknown error (code %d) during gethostbyaddr()\n", *return_value___h_errno_location_3);
             }
           }
         }
@@ -1634,15 +1634,15 @@ _Bool read_configuration(char *configfile)
 {
   struct _IO_FILE *config;
   config=fopen(configfile, "r");
-  signed int return_value_feof$1;
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_strlen$2;
-  signed int return_value_strcasecmp$11;
-  signed int return_value_strcasecmp$10;
-  signed int return_value_strcasecmp$9;
-  signed int return_value_strcasecmp$8;
-  signed int return_value_strcasecmp$7;
-  signed int return_value_strcasecmp$6;
+  signed int return_value_feof_1;
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_strlen_2;
+  signed int return_value_strcasecmp_11;
+  signed int return_value_strcasecmp_10;
+  signed int return_value_strcasecmp_9;
+  signed int return_value_strcasecmp_8;
+  signed int return_value_strcasecmp_7;
+  signed int return_value_strcasecmp_6;
   if(config == ((struct _IO_FILE *)NULL))
   {
     slogerror("Could not open configfile");
@@ -1656,8 +1656,8 @@ _Bool read_configuration(char *configfile)
     char wholeBuffer[1024l];
     do
     {
-      return_value_feof$1=feof(config);
-      if(!(return_value_feof$1 == 0))
+      return_value_feof_1=feof(config);
+      if(!(return_value_feof_1 == 0))
         break;
 
       getNextConfigEntry(config, &destName, &destValue, wholeBuffer, 1024);
@@ -1665,18 +1665,18 @@ _Bool read_configuration(char *configfile)
         break;
 
       if((signed int)*destName == 35)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value_strlen$2=strlen(destName);
-        tmp_if_expr$3 = return_value_strlen$2 < (unsigned long int)3 ? (_Bool)1 : (_Bool)0;
+        return_value_strlen_2=strlen(destName);
+        tmp_if_expr_3 = return_value_strlen_2 < (unsigned long int)3 ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$3)
+      if(!tmp_if_expr_3)
       {
-        signed int return_value_strcasecmp$12;
-        return_value_strcasecmp$12=strcasecmp(destName, "fake-mailserver");
-        if(return_value_strcasecmp$12 == 0)
+        signed int return_value_strcasecmp_12;
+        return_value_strcasecmp_12=strcasecmp(destName, "fake-mailserver");
+        if(return_value_strcasecmp_12 == 0)
         {
           if(!(destValue == ((char *)NULL)))
             add_mailserver(&fake_mailservers, destValue);
@@ -1687,8 +1687,8 @@ _Bool read_configuration(char *configfile)
 
         else
         {
-          return_value_strcasecmp$11=strcasecmp(destName, "real-mailserver");
-          if(return_value_strcasecmp$11 == 0)
+          return_value_strcasecmp_11=strcasecmp(destName, "real-mailserver");
+          if(return_value_strcasecmp_11 == 0)
           {
             if(!(destValue == ((char *)NULL)))
               add_mailserver(&real_mailservers, destValue);
@@ -1699,44 +1699,44 @@ _Bool read_configuration(char *configfile)
 
           else
           {
-            return_value_strcasecmp$10=strcasecmp(destName, "whitelist-time");
-            if(return_value_strcasecmp$10 == 0)
+            return_value_strcasecmp_10=strcasecmp(destName, "whitelist-time");
+            if(return_value_strcasecmp_10 == 0)
             {
-              _Bool return_value_checkConfigValue$4;
-              return_value_checkConfigValue$4=checkConfigValue(destValue, destName);
-              if(!(return_value_checkConfigValue$4 == (_Bool)0))
+              _Bool return_value_checkConfigValue_4;
+              return_value_checkConfigValue_4=checkConfigValue(destValue, destName);
+              if(!(return_value_checkConfigValue_4 == (_Bool)0))
                 allow_time=atoi(destValue);
 
             }
 
             else
             {
-              return_value_strcasecmp$9=strcasecmp(destName, "queue-num");
-              if(return_value_strcasecmp$9 == 0)
+              return_value_strcasecmp_9=strcasecmp(destName, "queue-num");
+              if(return_value_strcasecmp_9 == 0)
               {
-                _Bool return_value_checkConfigValue$5;
-                return_value_checkConfigValue$5=checkConfigValue(destValue, destName);
-                if(!(return_value_checkConfigValue$5 == (_Bool)0))
+                _Bool return_value_checkConfigValue_5;
+                return_value_checkConfigValue_5=checkConfigValue(destValue, destName);
+                if(!(return_value_checkConfigValue_5 == (_Bool)0))
                   queue_num=atoi(destValue);
 
               }
 
               else
               {
-                return_value_strcasecmp$8=strcasecmp(destName, "no-rdns-whitelist");
-                if(return_value_strcasecmp$8 == 0)
+                return_value_strcasecmp_8=strcasecmp(destName, "no-rdns-whitelist");
+                if(return_value_strcasecmp_8 == 0)
                   rdns_whitelist = (_Bool)0;
 
                 else
                 {
-                  return_value_strcasecmp$7=strcasecmp(destName, "stdout");
-                  if(return_value_strcasecmp$7 == 0)
+                  return_value_strcasecmp_7=strcasecmp(destName, "stdout");
+                  if(return_value_strcasecmp_7 == 0)
                     to_stdout = (_Bool)1;
 
                   else
                   {
-                    return_value_strcasecmp$6=strcasecmp(destName, "quiet");
-                    if(return_value_strcasecmp$6 == 0)
+                    return_value_strcasecmp_6=strcasecmp(destName, "quiet");
+                    if(return_value_strcasecmp_6 == 0)
                       quiet = (_Bool)1;
 
                     else
@@ -1765,8 +1765,8 @@ void * resolve_thread(void *data)
   struct whitelist_entry *cur;
   char *rdns;
   char address[47l];
-  _Bool tmp_if_expr$1;
-  signed int tmp_statement_expression$4;
+  _Bool tmp_if_expr_1;
+  signed int tmp_statement_expression_4;
   while((_Bool)1)
   {
     pthread_mutex_lock(&resolv_thread_mutex);
@@ -1776,20 +1776,20 @@ void * resolve_thread(void *data)
     do
     {
       if(cur->ip_address == ((char *)NULL))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = cur->rdns_tried != (_Bool)0 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = cur->rdns_tried != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_1)
       {
         rdns=rdns_for_ip(cur->ip_address);
         slog("Resolved %s to %s\n", cur->ip_address, rdns);
         cur->rdns_tried = (_Bool)1;
         if(!(rdns == ((char *)NULL)))
         {
-          char *return_value___strdup$2;
-          return_value___strdup$2=__strdup(rdns);
-          rdns = return_value___strdup$2;
+          char *return_value___strdup_2;
+          return_value___strdup_2=__strdup(rdns);
+          rdns = return_value___strdup_2;
           cur->rdns = rdns;
           if(!(rdns_whitelist == (_Bool)0))
           {
@@ -1802,9 +1802,9 @@ void * resolve_thread(void *data)
             error=getaddrinfo(rdns, "smtp", &hints, &res0);
             if(!(error == 0))
             {
-              const char *return_value_gai_strerror$3;
-              return_value_gai_strerror$3=gai_strerror(error);
-              fprintf(stderr, "Could not resolve \"%s\":smtp: %s\n", rdns, return_value_gai_strerror$3);
+              const char *return_value_gai_strerror_3;
+              return_value_gai_strerror_3=gai_strerror(error);
+              fprintf(stderr, "Could not resolve \"%s\":smtp: %s\n", rdns, return_value_gai_strerror_3);
               goto __CPROVER_DUMP_L10;
             }
 
@@ -1815,10 +1815,10 @@ void * resolve_thread(void *data)
               getnameinfo(res->ai_addr, res->ai_addrlen, address, (unsigned int)sizeof(char [47l]) /*47ul*/ , (char *)(void *)0, (unsigned int)0, 1);
               unsigned long int __s1_len;
               unsigned long int __s2_len;
-              signed int return_value___builtin_strcmp$5;
-              return_value___builtin_strcmp$5=__builtin_strcmp(address, cur->ip_address);
-              tmp_statement_expression$4 = return_value___builtin_strcmp$5;
-              if(!(tmp_statement_expression$4 == 0))
+              signed int return_value___builtin_strcmp_5;
+              return_value___builtin_strcmp_5=__builtin_strcmp(address, cur->ip_address);
+              tmp_statement_expression_4 = return_value___builtin_strcmp_5;
+              if(!(tmp_statement_expression_4 == 0))
                 add_to_whitelist(address, rdns, (_Bool)1, res->ai_family, (const void *)res->ai_addr);
 
             }
@@ -1869,22 +1869,22 @@ void slog(char *format, ...)
 // file include/log.h line 12
 void slogerror(char *message)
 {
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
   if(!(to_stdout == (_Bool)0))
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "%s: %s\n", message, return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "%s: %s\n", message, return_value_strerror_2);
   }
 
   else
   {
-    return_value___errno_location$3=__errno_location();
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    syslog(0x02 | 0x01 | 3 << 3 | 0x20, "%s: %s\n", message, return_value_strerror$4);
+    return_value___errno_location_3=__errno_location();
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    syslog(0x02 | 0x01 | 3 << 3 | 0x20, "%s: %s\n", message, return_value_strerror_4);
   }
 }
 
@@ -1892,8 +1892,8 @@ void slogerror(char *message)
 // file /usr/include/x86_64-linux-gnu/bits/stdio.h line 36
 static inline signed int vprintf(const char * restrict __fmt, void **__arg)
 {
-  signed int return_value_vfprintf$1;
-  return_value_vfprintf$1=vfprintf(stdout, __fmt, __arg);
-  return return_value_vfprintf$1;
+  signed int return_value_vfprintf_1;
+  return_value_vfprintf_1=vfprintf(stdout, __fmt, __arg);
+  return return_value_vfprintf_1;
 }
 

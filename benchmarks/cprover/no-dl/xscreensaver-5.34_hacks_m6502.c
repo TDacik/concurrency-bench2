@@ -1,286 +1,286 @@
-// #anon_enum$CARRY_FL=0$ZERO_FL=1$INTERRUPT_FL=2$DECIMAL_FL=3$BREAK_FL=4$FUTURE_FL=5$OVERFLOW_FL=6$NEGATIVE_FL=7
+// #anon_enum_CARRY_FL=0_ZERO_FL=1_INTERRUPT_FL=2_DECIMAL_FL=3_BREAK_FL=4_FUTURE_FL=5_OVERFLOW_FL=6_NEGATIVE_FL=7
 // file asm6502.c line 62
-enum anonymous$18 { CARRY_FL=0, ZERO_FL=1, INTERRUPT_FL=2, DECIMAL_FL=3, BREAK_FL=4, FUTURE_FL=5, OVERFLOW_FL=6, NEGATIVE_FL=7 };
+enum anonymous_18 { CARRY_FL=0, ZERO_FL=1, INTERRUPT_FL=2, DECIMAL_FL=3, BREAK_FL=4, FUTURE_FL=5, OVERFLOW_FL=6, NEGATIVE_FL=7 };
 
-// #anon_enum$LEFT=0$RIGHT=1
+// #anon_enum_LEFT=0_RIGHT=1
 // file asm6502.c line 48
-enum anonymous$17 { LEFT=0, RIGHT=1 };
+enum anonymous_17 { LEFT=0, RIGHT=1 };
 
-// #anon_enum$SINGLE=0$IMMEDIATE_VALUE=1$IMMEDIATE_GREAT=2$IMMEDIATE_LESS=3$INDIRECT_X=4$INDIRECT_Y=5$ZERO=6$ZERO_X=7$ZERO_Y=8$ABS_VALUE=9$ABS_OR_BRANCH=10$ABS_X=11$ABS_Y=12$ABS_LABEL_X=13$ABS_LABEL_Y=14$DCB_PARAM=15
+// #anon_enum_SINGLE=0_IMMEDIATE_VALUE=1_IMMEDIATE_GREAT=2_IMMEDIATE_LESS=3_INDIRECT_X=4_INDIRECT_Y=5_ZERO=6_ZERO_X=7_ZERO_Y=8_ABS_VALUE=9_ABS_OR_BRANCH=10_ABS_X=11_ABS_Y=12_ABS_LABEL_X=13_ABS_LABEL_Y=14_DCB_PARAM=15
 // file asm6502.h line 53
-enum anonymous$60 { SINGLE=0, IMMEDIATE_VALUE=1, IMMEDIATE_GREAT=2, IMMEDIATE_LESS=3, INDIRECT_X=4, INDIRECT_Y=5, ZERO=6, ZERO_X=7, ZERO_Y=8, ABS_VALUE=9, ABS_OR_BRANCH=10, ABS_X=11, ABS_Y=12, ABS_LABEL_X=13, ABS_LABEL_Y=14, DCB_PARAM=15 };
+enum anonymous_60 { SINGLE=0, IMMEDIATE_VALUE=1, IMMEDIATE_GREAT=2, IMMEDIATE_LESS=3, INDIRECT_X=4, INDIRECT_Y=5, ZERO=6, ZERO_X=7, ZERO_Y=8, ABS_VALUE=9, ABS_OR_BRANCH=10, ABS_X=11, ABS_Y=12, ABS_LABEL_X=13, ABS_LABEL_Y=14, DCB_PARAM=15 };
 
-// #anon_enum$XrmoptionNoArg=0$XrmoptionIsArg=1$XrmoptionStickyArg=2$XrmoptionSepArg=3$XrmoptionResArg=4$XrmoptionSkipArg=5$XrmoptionSkipLine=6$XrmoptionSkipNArgs=7
+// #anon_enum_XrmoptionNoArg=0_XrmoptionIsArg=1_XrmoptionStickyArg=2_XrmoptionSepArg=3_XrmoptionResArg=4_XrmoptionSkipArg=5_XrmoptionSkipLine=6_XrmoptionSkipNArgs=7
 // file /usr/include/X11/Xresource.h line 326
-enum anonymous$64 { XrmoptionNoArg=0, XrmoptionIsArg=1, XrmoptionStickyArg=2, XrmoptionSepArg=3, XrmoptionResArg=4, XrmoptionSkipArg=5, XrmoptionSkipLine=6, XrmoptionSkipNArgs=7 };
+enum anonymous_64 { XrmoptionNoArg=0, XrmoptionIsArg=1, XrmoptionStickyArg=2, XrmoptionSepArg=3, XrmoptionResArg=4, XrmoptionSkipArg=5, XrmoptionSkipLine=6, XrmoptionSkipNArgs=7 };
 
-// #anon_enum$XtGeometryYes=0$XtGeometryNo=1$XtGeometryAlmost=2$XtGeometryDone=3
+// #anon_enum_XtGeometryYes=0_XtGeometryNo=1_XtGeometryAlmost=2_XtGeometryDone=3
 // file /usr/include/X11/Intrinsic.h line 340
-enum anonymous$69 { XtGeometryYes=0, XtGeometryNo=1, XtGeometryAlmost=2, XtGeometryDone=3 };
+enum anonymous_69 { XtGeometryYes=0, XtGeometryNo=1, XtGeometryAlmost=2, XtGeometryDone=3 };
 
-// #anon_enum$XtGrabNone=0$XtGrabNonexclusive=1$XtGrabExclusive=2
+// #anon_enum_XtGrabNone=0_XtGrabNonexclusive=1_XtGrabExclusive=2
 // file /usr/include/X11/Intrinsic.h line 347
-enum anonymous$70 { XtGrabNone=0, XtGrabNonexclusive=1, XtGrabExclusive=2 };
+enum anonymous_70 { XtGrabNone=0, XtGrabNonexclusive=1, XtGrabExclusive=2 };
 
-// tag-#anon#ST[*{S8}$S8$'name'|S64'value']
+// tag-#anon#ST[*{S8}_S8_'name'|S64'value']
 // file /usr/include/X11/Intrinsic.h line 316
-struct anonymous$68;
+struct anonymous_68;
 
-// tag-#anon#ST[*{S8}$S8$'option'|*{S8}$S8$'specifier'|SYM##anon_enum$XrmoptionNoArg=0$XrmoptionIsArg=1$XrmoptionStickyArg=2$XrmoptionSepArg=3$XrmoptionResArg=4$XrmoptionSkipArg=5$XrmoptionSkipLine=6$XrmoptionSkipNArgs=7#'argKind'|U32'$pad0'|*{S8}$S8$'value']
+// tag-#anon#ST[*{S8}_S8_'option'|*{S8}_S8_'specifier'|SYM##anon_enum_XrmoptionNoArg=0_XrmoptionIsArg=1_XrmoptionStickyArg=2_XrmoptionSepArg=3_XrmoptionResArg=4_XrmoptionSkipArg=5_XrmoptionSkipLine=6_XrmoptionSkipNArgs=7#'argKind'|U32'_pad0'|*{S8}_S8_'value']
 // file /usr/include/X11/Xresource.h line 338
-struct anonymous$65;
+struct anonymous_65;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visual'|U64'visualid'|S32'screen'|S32'depth'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'colormap_size'|S32'bits_per_rgb']
+// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visual'|U64'visualid'|S32'screen'|S32'depth'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'colormap_size'|S32'bits_per_rgb']
 // file /usr/include/X11/Xutil.h line 287
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']
 // file /usr/include/X11/Xlib.h line 257
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private1'|S32'fd'|S32'private2'|S32'proto_major_version'|S32'proto_minor_version'|*{S8}$S8$'vendor'|U64'private3'|U64'private4'|U64'private5'|S32'private6'|U32'$pad0'|*{U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64}$U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64$'resource_alloc'|S32'byte_order'|S32'bitmap_unit'|S32'bitmap_pad'|S32'bitmap_bit_order'|S32'nformats'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'$pad0']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'$pad0']#$'pixmap_format'|S32'private8'|S32'release'|*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private9'|*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private10'|S32'qlen'|U32'$pad2'|U64'last_request_read'|U64'request'|*{S8}$S8$'private11'|*{S8}$S8$'private12'|*{S8}$S8$'private13'|*{S8}$S8$'private14'|U32'max_request_size'|U32'$pad3'|*{SYM#tag-_XrmHashBucketRec#}$SYM#tag-_XrmHashBucketRec#$'db'|*{S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32}$S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32$'private15'|*{S8}$S8$'display_name'|S32'default_screen'|S32'nscreens'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#$'screens'|U64'motion_buffer'|U64'private16'|S32'min_keycode'|S32'max_keycode'|*{S8}$S8$'private17'|*{S8}$S8$'private18'|S32'private19'|U32'$pad4'|*{S8}$S8$'xdefaults']
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private1'|S32'fd'|S32'private2'|S32'proto_major_version'|S32'proto_minor_version'|*{S8}_S8_'vendor'|U64'private3'|U64'private4'|U64'private5'|S32'private6'|U32'_pad0'|*{U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64}_U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64_'resource_alloc'|S32'byte_order'|S32'bitmap_unit'|S32'bitmap_pad'|S32'bitmap_bit_order'|S32'nformats'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'_pad0']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'_pad0']#_'pixmap_format'|S32'private8'|S32'release'|*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private9'|*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private10'|S32'qlen'|U32'_pad2'|U64'last_request_read'|U64'request'|*{S8}_S8_'private11'|*{S8}_S8_'private12'|*{S8}_S8_'private13'|*{S8}_S8_'private14'|U32'max_request_size'|U32'_pad3'|*{SYM#tag-_XrmHashBucketRec#}_SYM#tag-_XrmHashBucketRec#_'db'|*{S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32}_S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32_'private15'|*{S8}_S8_'display_name'|S32'default_screen'|S32'nscreens'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#_'screens'|U64'motion_buffer'|U64'private16'|S32'min_keycode'|S32'max_keycode'|*{S8}_S8_'private17'|*{S8}_S8_'private18'|S32'private19'|U32'_pad4'|*{S8}_S8_'xdefaults']
 // file /usr/include/X11/Xlib.h line 493
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'$pad0']
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|S32'depth'|S32'bits_per_pixel'|S32'scanline_pad'|U32'_pad0']
 // file /usr/include/X11/Xlib.h line 280
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'fid'|U32'direction'|U32'min_char_or_byte2'|U32'max_char_or_byte2'|U32'min_byte1'|U32'max_byte1'|S32'all_chars_exist'|U32'default_char'|S32'n_properties'|*{SYM#tag-#anon#ST[U64'name'|U64'card32']#}$SYM#tag-#anon#ST[U64'name'|U64'card32']#$'properties'|SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#'min_bounds'|SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#'max_bounds'|*{SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#}$SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#$'per_char'|S32'ascent'|S32'descent']
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'fid'|U32'direction'|U32'min_char_or_byte2'|U32'max_char_or_byte2'|U32'min_byte1'|U32'max_byte1'|S32'all_chars_exist'|U32'default_char'|S32'n_properties'|*{SYM#tag-#anon#ST[U64'name'|U64'card32']#}_SYM#tag-#anon#ST[U64'name'|U64'card32']#_'properties'|SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#'min_bounds'|SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#'max_bounds'|*{SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#}_SYM#tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']#_'per_char'|S32'ascent'|S32'descent']
 // file /usr/include/X11/Xlib.h line 1035
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']
 // file /usr/include/X11/Xlib.h line 227
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits']
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits']
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[ARR4{S8}$S8$'name'|U8'Imm'|U8'ZP'|U8'ZPX'|U8'ZPY'|U8'ABS'|U8'ABSX'|U8'ABSY'|U8'INDX'|U8'INDY'|U8'SNGL'|U8'BRA'|U8'$pad0'|*{V(*{SYM#tag-machine_6502#}$SYM#tag-machine_6502#$|SYM##anon_enum$SINGLE=0$IMMEDIATE_VALUE=1$IMMEDIATE_GREAT=2$IMMEDIATE_LESS=3$INDIRECT_X=4$INDIRECT_Y=5$ZERO=6$ZERO_X=7$ZERO_Y=8$ABS_VALUE=9$ABS_OR_BRANCH=10$ABS_X=11$ABS_Y=12$ABS_LABEL_X=13$ABS_LABEL_Y=14$DCB_PARAM=15#)->V}$V(*{SYM#tag-machine_6502#}$SYM#tag-machine_6502#$|SYM##anon_enum$SINGLE=0$IMMEDIATE_VALUE=1$IMMEDIATE_GREAT=2$IMMEDIATE_LESS=3$INDIRECT_X=4$INDIRECT_Y=5$ZERO=6$ZERO_X=7$ZERO_Y=8$ABS_VALUE=9$ABS_OR_BRANCH=10$ABS_X=11$ABS_Y=12$ABS_LABEL_X=13$ABS_LABEL_Y=14$DCB_PARAM=15#)->V$'func']
+// tag-#anon#ST[ARR4{S8}_S8_'name'|U8'Imm'|U8'ZP'|U8'ZPX'|U8'ZPY'|U8'ABS'|U8'ABSX'|U8'ABSY'|U8'INDX'|U8'INDY'|U8'SNGL'|U8'BRA'|U8'_pad0'|*{V(*{SYM#tag-machine_6502#}_SYM#tag-machine_6502#_|SYM##anon_enum_SINGLE=0_IMMEDIATE_VALUE=1_IMMEDIATE_GREAT=2_IMMEDIATE_LESS=3_INDIRECT_X=4_INDIRECT_Y=5_ZERO=6_ZERO_X=7_ZERO_Y=8_ABS_VALUE=9_ABS_OR_BRANCH=10_ABS_X=11_ABS_Y=12_ABS_LABEL_X=13_ABS_LABEL_Y=14_DCB_PARAM=15#)->V}_V(*{SYM#tag-machine_6502#}_SYM#tag-machine_6502#_|SYM##anon_enum_SINGLE=0_IMMEDIATE_VALUE=1_IMMEDIATE_GREAT=2_IMMEDIATE_LESS=3_INDIRECT_X=4_INDIRECT_Y=5_ZERO=6_ZERO_X=7_ZERO_Y=8_ABS_VALUE=9_ABS_OR_BRANCH=10_ABS_X=11_ABS_Y=12_ABS_LABEL_X=13_ABS_LABEL_Y=14_DCB_PARAM=15#)->V_'func']
 // file asm6502.h line 63
-struct anonymous$61;
+struct anonymous_61;
 
 // tag-#anon#ST[S16'lbearing'|S16'rbearing'|S16'width'|S16'ascent'|S16'descent'|U16'attributes']
 // file /usr/include/X11/Xlib.h line 1017
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
+// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
 struct anonymous;
 
 // tag-#anon#ST[S32'depth'|S32'bits_per_pixel'|S32'scanline_pad']
 // file /usr/include/X11/Xlib.h line 171
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']
+// tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']
 // file /usr/include/X11/Xlib.h line 243
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[S32'function'|U32'$pad0'|U64'plane_mask'|U64'foreground'|U64'background'|S32'line_width'|S32'line_style'|S32'cap_style'|S32'join_style'|S32'fill_style'|S32'fill_rule'|S32'arc_mode'|U32'$pad1'|U64'tile'|U64'stipple'|S32'ts_x_origin'|S32'ts_y_origin'|U64'font'|S32'subwindow_mode'|S32'graphics_exposures'|S32'clip_x_origin'|S32'clip_y_origin'|U64'clip_mask'|S32'dash_offset'|S8'dashes'|U24'$pad2']
+// tag-#anon#ST[S32'function'|U32'_pad0'|U64'plane_mask'|U64'foreground'|U64'background'|S32'line_width'|S32'line_style'|S32'cap_style'|S32'join_style'|S32'fill_style'|S32'fill_rule'|S32'arc_mode'|U32'_pad1'|U64'tile'|U64'stipple'|S32'ts_x_origin'|S32'ts_y_origin'|U64'font'|S32'subwindow_mode'|S32'graphics_exposures'|S32'clip_x_origin'|S32'clip_y_origin'|U64'clip_mask'|S32'dash_offset'|S8'dashes'|U24'_pad2']
 // file /usr/include/X11/Xlib.h line 181
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S32'index'|U32'$pad0'|F64'value']
+// tag-#anon#ST[S32'index'|U32'_pad0'|F64'value']
 // file analogtv.h line 222
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'resourceid'|U64'serial'|U8'error_code'|U8'request_code'|U8'minor_code'|U40'$pad1']
+// tag-#anon#ST[S32'type'|U32'_pad0'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'resourceid'|U64'serial'|U8'error_code'|U8'request_code'|U8'minor_code'|U40'_pad1']
 // file /usr/include/X11/Xlib.h line 924
-struct anonymous$56;
+struct anonymous_56;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|S32'extension'|S32'evtype']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|S32'extension'|S32'evtype']
 // file /usr/include/X11/Xlib.h line 948
-struct anonymous$58;
+struct anonymous_58;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|S32'extension'|S32'evtype'|U32'cookie'|U32'$pad2'|*{V}$V$'data']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|S32'extension'|S32'evtype'|U32'cookie'|U32'_pad2'|*{V}_V_'data']
 // file /usr/include/X11/Xlib.h line 958
-struct anonymous$59;
+struct anonymous_59;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'drawable'|S32'major_code'|S32'minor_code']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'drawable'|S32'major_code'|S32'minor_code']
 // file /usr/include/X11/Xlib.h line 686
-struct anonymous$34;
+struct anonymous_34;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'drawable'|S32'x'|S32'y'|S32'width'|S32'height'|S32'count'|S32'major_code'|S32'minor_code'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'drawable'|S32'x'|S32'y'|S32'width'|S32'height'|S32'count'|S32'major_code'|S32'minor_code'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 673
-struct anonymous$33;
+struct anonymous_33;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window']
 // file /usr/include/X11/Xlib.h line 718
-struct anonymous$37;
+struct anonymous_37;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|S32'from_configure'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|S32'from_configure'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 727
-struct anonymous$38;
+struct anonymous_38;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|S32'override_redirect'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|S32'override_redirect'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 737
-struct anonymous$39;
+struct anonymous_39;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|S32'place'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|S32'place'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 816
-struct anonymous$46;
+struct anonymous_46;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|S32'x'|S32'y']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|S32'x'|S32'y']
 // file /usr/include/X11/Xlib.h line 782
-struct anonymous$43;
+struct anonymous_43;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|U32'$pad2'|U64'above'|S32'override_redirect'|U32'$pad3']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|U32'_pad2'|U64'above'|S32'override_redirect'|U32'_pad3']
 // file /usr/include/X11/Xlib.h line 768
-struct anonymous$42;
+struct anonymous_42;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'event'|U64'window'|U64'parent'|S32'x'|S32'y'|S32'override_redirect'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'event'|U64'window'|U64'parent'|S32'x'|S32'y'|S32'override_redirect'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 756
-struct anonymous$41;
+struct anonymous_41;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'owner'|U64'requestor'|U64'selection'|U64'target'|U64'property'|U64'time']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'owner'|U64'requestor'|U64'selection'|U64'target'|U64'property'|U64'time']
 // file /usr/include/X11/Xlib.h line 857
-struct anonymous$50;
+struct anonymous_50;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'parent'|U64'window']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'parent'|U64'window']
 // file /usr/include/X11/Xlib.h line 747
-struct anonymous$40;
+struct anonymous_40;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'parent'|U64'window'|S32'place'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'parent'|U64'window'|S32'place'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 826
-struct anonymous$47;
+struct anonymous_47;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'parent'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|S32'override_redirect']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'parent'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|S32'override_redirect']
 // file /usr/include/X11/Xlib.h line 705
-struct anonymous$36;
+struct anonymous_36;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'parent'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|U32'$pad2'|U64'above'|S32'detail'|U32'$pad3'|U64'value_mask']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'parent'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|U32'_pad2'|U64'above'|S32'detail'|U32'_pad3'|U64'value_mask']
 // file /usr/include/X11/Xlib.h line 801
-struct anonymous$45;
+struct anonymous_45;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'requestor'|U64'selection'|U64'target'|U64'property'|U64'time']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'requestor'|U64'selection'|U64'target'|U64'property'|U64'time']
 // file /usr/include/X11/Xlib.h line 870
-struct anonymous$51;
+struct anonymous_51;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window']
 // file /usr/include/X11/Xlib.h line 934
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|ARR32{S8}$S8$'key_vector']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|ARR32{S8}_S8_'key_vector']
 // file /usr/include/X11/Xlib.h line 653
-struct anonymous$57;
+struct anonymous_57;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|S32'mode'|S32'detail']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|S32'mode'|S32'detail']
 // file /usr/include/X11/Xlib.h line 634
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|S32'request'|S32'first_keycode'|S32'count'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|S32'request'|S32'first_keycode'|S32'count'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 912
-struct anonymous$55;
+struct anonymous_55;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|S32'state'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|S32'state'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 696
-struct anonymous$35;
+struct anonymous_35;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|S32'width'|S32'height']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|S32'width'|S32'height']
 // file /usr/include/X11/Xlib.h line 792
-struct anonymous$44;
+struct anonymous_44;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'count'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|S32'x'|S32'y'|S32'width'|S32'height'|S32'count'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 662
-struct anonymous$32;
+struct anonymous_32;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'atom'|U64'time'|S32'state'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'atom'|U64'time'|S32'state'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 836
-struct anonymous$48;
+struct anonymous_48;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'colormap'|S32'new'|S32'state']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'colormap'|S32'new'|S32'state']
 // file /usr/include/X11/Xlib.h line 882
-struct anonymous$52;
+struct anonymous_52;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'message_type'|S32'format'|U32'$pad2'|SYM#tag-#anon#UN[ARR20{S8}$S8$'b'|ARR10{S16}$S16$'s'|ARR5{S64}$S64$'l']#'data']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'message_type'|S32'format'|U32'_pad2'|SYM#tag-#anon#UN[ARR20{S8}_S8_'b'|ARR10{S16}_S16_'s'|ARR5{S64}_S64_'l']#'data']
 // file /usr/include/X11/Xlib.h line 897
-struct anonymous$54;
+struct anonymous_54;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|S32'mode'|S32'detail'|S32'same_screen'|S32'focus'|U32'state'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|S32'mode'|S32'detail'|S32'same_screen'|S32'focus'|U32'state'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 610
-struct anonymous$30;
+struct anonymous_30;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|S8'is_hint'|U24'$pad2'|S32'same_screen'|U32'$pad3']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|S8'is_hint'|U24'_pad2'|S32'same_screen'|U32'_pad3']
 // file /usr/include/X11/Xlib.h line 593
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|U32'button'|S32'same_screen'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|U32'button'|S32'same_screen'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 575
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|U32'keycode'|S32'same_screen'|U32'$pad2']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'root'|U64'subwindow'|U64'time'|S32'x'|S32'y'|S32'x_root'|S32'y_root'|U32'state'|U32'keycode'|S32'same_screen'|U32'_pad2']
 // file /usr/include/X11/Xlib.h line 557
-struct anonymous$27;
+struct anonymous_27;
 
-// tag-#anon#ST[S32'type'|U32'$pad0'|U64'serial'|S32'send_event'|U32'$pad1'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'window'|U64'selection'|U64'time']
+// tag-#anon#ST[S32'type'|U32'_pad0'|U64'serial'|S32'send_event'|U32'_pad1'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'window'|U64'selection'|U64'time']
 // file /usr/include/X11/Xlib.h line 847
-struct anonymous$49;
+struct anonymous_49;
 
-// tag-#anon#ST[S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|S32'depth'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visual'|U64'root'|S32'class'|S32'bit_gravity'|S32'win_gravity'|S32'backing_store'|U64'backing_planes'|U64'backing_pixel'|S32'save_under'|U32'$pad0'|U64'colormap'|S32'map_installed'|S32'map_state'|S64'all_event_masks'|S64'your_event_mask'|S64'do_not_propagate_mask'|S32'override_redirect'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'$pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#}$SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'visuals']#$'depths'|S32'root_depth'|U32'$pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'|U64'visualid'|S32'class'|U32'$pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#$'root_visual'|*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#$'screen']
+// tag-#anon#ST[S32'x'|S32'y'|S32'width'|S32'height'|S32'border_width'|S32'depth'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visual'|U64'root'|S32'class'|S32'bit_gravity'|S32'win_gravity'|S32'backing_store'|U64'backing_planes'|U64'backing_pixel'|S32'save_under'|U32'_pad0'|U64'colormap'|S32'map_installed'|S32'map_state'|S64'all_event_masks'|S64'your_event_mask'|S64'do_not_propagate_mask'|S32'override_redirect'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'|U64'root'|S32'width'|S32'height'|S32'mwidth'|S32'mheight'|S32'ndepths'|U32'_pad0'|*{SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#}_SYM#tag-#anon#ST[S32'depth'|S32'nvisuals'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'visuals']#_'depths'|S32'root_depth'|U32'_pad1'|*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'|U64'visualid'|S32'class'|U32'_pad0'|U64'red_mask'|U64'green_mask'|U64'blue_mask'|S32'bits_per_rgb'|S32'map_entries']#_'root_visual'|*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'|U64'cmap'|U64'white_pixel'|U64'black_pixel'|S32'max_maps'|S32'min_maps'|S32'backing_store'|S32'save_unders'|S64'root_input_mask']#_'screen']
 // file /usr/include/X11/Xlib.h line 308
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[SYM##anon_enum$SINGLE=0$IMMEDIATE_VALUE=1$IMMEDIATE_GREAT=2$IMMEDIATE_LESS=3$INDIRECT_X=4$INDIRECT_Y=5$ZERO=6$ZERO_X=7$ZERO_Y=8$ABS_VALUE=9$ABS_OR_BRANCH=10$ABS_X=11$ABS_Y=12$ABS_LABEL_X=13$ABS_LABEL_Y=14$DCB_PARAM=15#'type'|ARR25{U32}$U32$'value'|U32'vp'|U32'$pad0'|*{S8}$S8$'label'|U32'lbladdr'|U32'$pad1']
+// tag-#anon#ST[SYM##anon_enum_SINGLE=0_IMMEDIATE_VALUE=1_IMMEDIATE_GREAT=2_IMMEDIATE_LESS=3_INDIRECT_X=4_INDIRECT_Y=5_ZERO=6_ZERO_X=7_ZERO_Y=8_ABS_VALUE=9_ABS_OR_BRANCH=10_ABS_X=11_ABS_Y=12_ABS_LABEL_X=13_ABS_LABEL_Y=14_DCB_PARAM=15#'type'|ARR25{U32}_U32_'value'|U32'vp'|U32'_pad0'|*{S8}_S8_'label'|U32'lbladdr'|U32'_pad1']
 // file asm6502.c line 75
-struct anonymous$8;
+struct anonymous_8;
 
 // tag-#anon#ST[U16'addr'|U16'value']
 // file asm6502.c line 97
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[U32'addr'|U32'$pad0'|*{S8}$S8$'label']
+// tag-#anon#ST[U32'addr'|U32'_pad0'|*{S8}_S8_'label']
 // file asm6502.c line 83
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[U32'request_mode'|S16'x'|S16'y'|U16'width'|U16'height'|U16'border_width'|U16'$pad0'|*{SYM#tag-_WidgetRec#}$SYM#tag-_WidgetRec#$'sibling'|S32'stack_mode'|U32'$pad1']
+// tag-#anon#ST[U32'request_mode'|S16'x'|S16'y'|U16'width'|U16'height'|U16'border_width'|U16'_pad0'|*{SYM#tag-_WidgetRec#}_SYM#tag-_WidgetRec#_'sibling'|S32'stack_mode'|U32'_pad1']
 // file /usr/include/X11/Intrinsic.h line 212
-struct anonymous$67;
+struct anonymous_67;
 
-// tag-#anon#ST[U32'size'|U32'$pad0'|*{S8}$S8$'addr']
+// tag-#anon#ST[U32'size'|U32'_pad0'|*{S8}_S8_'addr']
 // file /usr/include/X11/Xresource.h line 160
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[U64'background_pixmap'|U64'background_pixel'|U64'border_pixmap'|U64'border_pixel'|S32'bit_gravity'|S32'win_gravity'|S32'backing_store'|U32'$pad0'|U64'backing_planes'|U64'backing_pixel'|S32'save_under'|U32'$pad1'|S64'event_mask'|S64'do_not_propagate_mask'|S32'override_redirect'|U32'$pad2'|U64'colormap'|U64'cursor']
+// tag-#anon#ST[U64'background_pixmap'|U64'background_pixel'|U64'border_pixmap'|U64'border_pixel'|S32'bit_gravity'|S32'win_gravity'|S32'backing_store'|U32'_pad0'|U64'backing_planes'|U64'backing_pixel'|S32'save_under'|U32'_pad1'|S64'event_mask'|S64'do_not_propagate_mask'|S32'override_redirect'|U32'_pad2'|U64'colormap'|U64'cursor']
 // file /usr/include/X11/Xlib.h line 290
-struct anonymous$0;
+struct anonymous_0;
 
 // tag-#anon#ST[U64'name'|U64'card32']
 // file /usr/include/X11/Xlib.h line 1030
-struct anonymous$5;
+struct anonymous_5;
 
 // tag-#anon#ST[U64'pixel'|U16'red'|U16'green'|U16'blue'|S8'flags'|S8'pad']
 // file /usr/include/X11/Xlib.h line 410
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[U64'shmseg'|S32'shmid'|U32'$pad0'|*{S8}$S8$'shmaddr'|S32'readOnly'|U32'$pad1']
+// tag-#anon#ST[U64'shmseg'|S32'shmid'|U32'_pad0'|*{S8}_S8_'shmaddr'|S32'readOnly'|U32'_pad1']
 // file /usr/include/X11/extensions/XShm.h line 50
-struct anonymous$14;
+struct anonymous_14;
 
 // tag-#anon#ST[U8'byte1'|U8'byte2']
 // file /usr/include/X11/Xlib.h line 1064
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[U8'index'|U24'$pad0'|SYM##anon_enum$SINGLE=0$IMMEDIATE_VALUE=1$IMMEDIATE_GREAT=2$IMMEDIATE_LESS=3$INDIRECT_X=4$INDIRECT_Y=5$ZERO=6$ZERO_X=7$ZERO_Y=8$ABS_VALUE=9$ABS_OR_BRANCH=10$ABS_X=11$ABS_Y=12$ABS_LABEL_X=13$ABS_LABEL_Y=14$DCB_PARAM=15#'adm']
+// tag-#anon#ST[U8'index'|U24'_pad0'|SYM##anon_enum_SINGLE=0_IMMEDIATE_VALUE=1_IMMEDIATE_GREAT=2_IMMEDIATE_LESS=3_INDIRECT_X=4_INDIRECT_Y=5_ZERO=6_ZERO_X=7_ZERO_Y=8_ABS_VALUE=9_ABS_OR_BRANCH=10_ABS_X=11_ABS_Y=12_ABS_LABEL_X=13_ABS_LABEL_Y=14_DCB_PARAM=15#'adm']
 // file asm6502.h line 80
-struct anonymous$62;
+struct anonymous_62;
 
-// tag-#anon#UN[ARR20{S8}$S8$'b'|ARR10{S16}$S16$'s'|ARR5{S64}$S64$'l']
+// tag-#anon#UN[ARR20{S8}_S8_'b'|ARR10{S16}_S16_'s'|ARR5{S64}_S64_'l']
 // file /usr/include/X11/Xlib.h line 905
-union anonymous$53;
+union anonymous_53;
 
 // tag-#anon#UN[F32'f'|S32'i']
 // file analogtv.c line 159
-union anonymous$22;
+union anonymous_22;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$66;
+union anonymous_66;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$63;
+union anonymous_63;
 
 // tag-AsmLine
 // file asm6502.c line 88
@@ -488,10 +488,10 @@ struct xscreensaver_function_table;
 static signed int MapNotify_event_p(struct _XDisplay *dpy, union _XEvent *event, char *window);
 // VirtualRootWindowOfScreen
 // file ./../utils/vroot.h line 87
-static unsigned long int VirtualRootWindowOfScreen(struct anonymous$25 *screen);
+static unsigned long int VirtualRootWindowOfScreen(struct anonymous_25 *screen);
 // XAllocColor
 // file /usr/include/X11/Xlib.h line 1958
-extern signed int XAllocColor(struct _XDisplay *, unsigned long int, struct anonymous$9 *);
+extern signed int XAllocColor(struct _XDisplay *, unsigned long int, struct anonymous_9 *);
 // XBell
 // file /usr/include/X11/Xlib.h line 2010
 extern signed int XBell(struct _XDisplay *, signed int);
@@ -500,7 +500,7 @@ extern signed int XBell(struct _XDisplay *, signed int);
 extern signed int XChangeProperty(struct _XDisplay *, unsigned long int, unsigned long int, unsigned long int, signed int, signed int, const unsigned char *, signed int);
 // XChar2b_to_utf8
 // file utf8wc.c line 306
-extern char * XChar2b_to_utf8(const struct anonymous$24 *in, signed int *length_ret);
+extern char * XChar2b_to_utf8(const struct anonymous_24 *in, signed int *length_ret);
 // XClearArea
 // file /usr/include/X11/Xlib.h line 2145
 extern signed int XClearArea(struct _XDisplay *, unsigned long int, signed int, signed int, unsigned int, unsigned int, signed int);
@@ -509,13 +509,13 @@ extern signed int XClearArea(struct _XDisplay *, unsigned long int, signed int, 
 extern signed int XClearWindow(struct _XDisplay *, unsigned long int);
 // XCreateColormap
 // file /usr/include/X11/Xlib.h line 1552
-extern unsigned long int XCreateColormap(struct _XDisplay *, unsigned long int, struct anonymous$13 *, signed int);
+extern unsigned long int XCreateColormap(struct _XDisplay *, unsigned long int, struct anonymous_13 *, signed int);
 // XCreateGC
 // file /usr/include/X11/Xlib.h line 1584
-extern struct _XGC * XCreateGC(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous$4 *);
+extern struct _XGC * XCreateGC(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous_4 *);
 // XCreateImage
 // file /usr/include/X11/Xlib.h line 1441
-extern struct _XImage * XCreateImage(struct _XDisplay *, struct anonymous$13 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
+extern struct _XImage * XCreateImage(struct _XDisplay *, struct anonymous_13 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
 // XCreatePixmap
 // file /usr/include/X11/Xlib.h line 1597
 extern unsigned long int XCreatePixmap(struct _XDisplay *, unsigned long int, unsigned int, unsigned int, unsigned int);
@@ -536,7 +536,7 @@ extern signed int XFree(void *);
 extern signed int XFreeColors(struct _XDisplay *, unsigned long int, unsigned long int *, signed int, unsigned long int);
 // XFreeFont
 // file /usr/include/X11/Xlib.h line 2542
-extern signed int XFreeFont(struct _XDisplay *, struct anonymous$3 *);
+extern signed int XFreeFont(struct _XDisplay *, struct anonymous_3 *);
 // XFreeGC
 // file /usr/include/X11/Xlib.h line 2561
 extern signed int XFreeGC(struct _XDisplay *, struct _XGC *);
@@ -551,10 +551,10 @@ extern char * XGetAtomName(struct _XDisplay *, unsigned long int);
 extern struct _XImage * XGetImage(struct _XDisplay *, unsigned long int, signed int, signed int, unsigned int, unsigned int, unsigned long int, signed int);
 // XGetVisualInfo
 // file /usr/include/X11/Xutil.h line 471
-extern struct anonymous$19 * XGetVisualInfo(struct _XDisplay *, signed long int, struct anonymous$19 *, signed int *);
+extern struct anonymous_19 * XGetVisualInfo(struct _XDisplay *, signed long int, struct anonymous_19 *, signed int *);
 // XGetWindowAttributes
 // file /usr/include/X11/Xlib.h line 2691
-extern signed int XGetWindowAttributes(struct _XDisplay *, unsigned long int, struct anonymous$7 *);
+extern signed int XGetWindowAttributes(struct _XDisplay *, unsigned long int, struct anonymous_7 *);
 // XGetWindowProperty
 // file /usr/include/X11/Xlib.h line 2676
 extern signed int XGetWindowProperty(struct _XDisplay *, unsigned long int, unsigned long int, signed long int, signed long int, signed int, unsigned long int, unsigned long int *, signed int *, unsigned long int *, unsigned long int *, unsigned char **);
@@ -569,19 +569,19 @@ extern unsigned long int XInternAtom(struct _XDisplay *, const char *, signed in
 extern signed int * XListDepths(struct _XDisplay *, signed int, signed int *);
 // XListPixmapFormats
 // file /usr/include/X11/Xlib.h line 1862
-extern struct anonymous$16 * XListPixmapFormats(struct _XDisplay *, signed int *);
+extern struct anonymous_16 * XListPixmapFormats(struct _XDisplay *, signed int *);
 // XLoadQueryFont
 // file /usr/include/X11/Xlib.h line 1394
-extern struct anonymous$3 * XLoadQueryFont(struct _XDisplay *, const char *);
+extern struct anonymous_3 * XLoadQueryFont(struct _XDisplay *, const char *);
 // XLookupString
 // file /usr/include/X11/Xutil.h line 534
-extern signed int XLookupString(struct anonymous$27 *, char *, signed int, unsigned long int *, struct _XComposeStatus *);
+extern signed int XLookupString(struct anonymous_27 *, char *, signed int, unsigned long int *, struct _XComposeStatus *);
 // XNextEvent
 // file /usr/include/X11/Xlib.h line 2841
 extern signed int XNextEvent(struct _XDisplay *, union _XEvent *);
 // XParseColor
 // file /usr/include/X11/Xlib.h line 2850
-extern signed int XParseColor(struct _XDisplay *, unsigned long int, const char *, struct anonymous$9 *);
+extern signed int XParseColor(struct _XDisplay *, unsigned long int, const char *, struct anonymous_9 *);
 // XPending
 // file /usr/include/X11/Xlib.h line 2881
 extern signed int XPending(struct _XDisplay *);
@@ -590,7 +590,7 @@ extern signed int XPending(struct _XDisplay *);
 extern signed int XPutImage(struct _XDisplay *, unsigned long int, struct _XGC *, struct _XImage *, signed int, signed int, signed int, signed int, unsigned int, unsigned int);
 // XQueryColors
 // file /usr/include/X11/Xlib.h line 2963
-extern signed int XQueryColors(struct _XDisplay *, unsigned long int, struct anonymous$9 *, signed int);
+extern signed int XQueryColors(struct _XDisplay *, unsigned long int, struct anonymous_9 *, signed int);
 // XQueryTree
 // file /usr/include/X11/Xlib.h line 3017
 extern signed int XQueryTree(struct _XDisplay *, unsigned long int, unsigned long int *, unsigned long int *, unsigned long int **, unsigned int *);
@@ -599,7 +599,7 @@ extern signed int XQueryTree(struct _XDisplay *, unsigned long int, unsigned lon
 extern signed int XSelectInput(struct _XDisplay *, unsigned long int, signed long int);
 // XSetErrorHandler
 // file /usr/include/X11/Xlib.h line 1848
-extern signed int (*XSetErrorHandler(signed int (*)(struct _XDisplay *, struct anonymous$56 *)))(struct _XDisplay *, struct anonymous$56 *);
+extern signed int (*XSetErrorHandler(signed int (*)(struct _XDisplay *, struct anonymous_56 *)))(struct _XDisplay *, struct anonymous_56 *);
 // XSetForeground
 // file /usr/include/X11/Xlib.h line 3227
 extern signed int XSetForeground(struct _XDisplay *, struct _XGC *, unsigned long int);
@@ -611,13 +611,13 @@ extern signed int XSetWindowBackground(struct _XDisplay *, unsigned long int, un
 extern signed int XSetWindowColormap(struct _XDisplay *, unsigned long int, unsigned long int);
 // XShmAttach
 // file /usr/include/X11/extensions/XShm.h line 78
-signed int XShmAttach(struct _XDisplay *, struct anonymous$14 *);
+signed int XShmAttach(struct _XDisplay *, struct anonymous_14 *);
 // XShmCreateImage
 // file /usr/include/X11/extensions/XShm.h line 111
-struct _XImage * XShmCreateImage(struct _XDisplay *, struct anonymous$13 *, unsigned int, signed int, char *, struct anonymous$14 *, unsigned int, unsigned int);
+struct _XImage * XShmCreateImage(struct _XDisplay *, struct anonymous_13 *, unsigned int, signed int, char *, struct anonymous_14 *, unsigned int, unsigned int);
 // XShmDetach
 // file /usr/include/X11/extensions/XShm.h line 83
-signed int XShmDetach(struct _XDisplay *, struct anonymous$14 *);
+signed int XShmDetach(struct _XDisplay *, struct anonymous_14 *);
 // XShmPutImage
 // file /usr/include/X11/extensions/XShm.h line 88
 signed int XShmPutImage(struct _XDisplay *, unsigned long int, struct _XGC *, struct _XImage *, signed int, signed int, signed int, signed int, unsigned int, unsigned int, signed int);
@@ -629,16 +629,16 @@ signed int XShmQueryExtension(struct _XDisplay *);
 extern signed int XSync(struct _XDisplay *, signed int);
 // XVisualIDFromVisual
 // file /usr/include/X11/Xlib.h line 1728
-extern unsigned long int XVisualIDFromVisual(struct anonymous$13 *);
+extern unsigned long int XVisualIDFromVisual(struct anonymous_13 *);
 // XmuPrintDefaultErrorMessage
 // file ./../utils/xmu.h line 12
-signed int XmuPrintDefaultErrorMessage(struct _XDisplay *, struct anonymous$56 *, struct _IO_FILE *);
+signed int XmuPrintDefaultErrorMessage(struct _XDisplay *, struct anonymous_56 *, struct _IO_FILE *);
 // XrmGetResource
 // file /usr/include/X11/Xresource.h line 223
-extern signed int XrmGetResource(struct _XrmHashBucketRec *, const char *, const char *, char **, struct anonymous$10 *);
+extern signed int XrmGetResource(struct _XrmHashBucketRec *, const char *, const char *, char **, struct anonymous_10 *);
 // XtAppInitialize
 // file /usr/include/X11/Intrinsic.h line 1468
-extern struct _WidgetRec * XtAppInitialize(struct _XtAppStruct **, const char *, struct anonymous$65 *, unsigned int, signed int *, char **, char **, struct anonymous$68 *, unsigned int);
+extern struct _WidgetRec * XtAppInitialize(struct _XtAppStruct **, const char *, struct anonymous_65 *, unsigned int, signed int *, char **, char **, struct anonymous_68 *, unsigned int);
 // XtAppPending
 // file /usr/include/X11/Intrinsic.h line 1045
 extern unsigned long int XtAppPending(struct _XtAppStruct *);
@@ -662,7 +662,7 @@ extern struct _XtAppStruct * XtDisplayToApplicationContext(struct _XDisplay *);
 extern void XtGetApplicationNameAndClass(struct _XDisplay *, char **, char **);
 // XtPopup
 // file /usr/include/X11/Intrinsic.h line 1318
-extern void XtPopup(struct _WidgetRec *, enum anonymous$70);
+extern void XtPopup(struct _WidgetRec *, enum anonymous_70);
 // XtRealizeWidget
 // file /usr/include/X11/Intrinsic.h line 1104
 extern void XtRealizeWidget(struct _WidgetRec *);
@@ -734,7 +734,7 @@ extern signed int abs(signed int);
 static struct AsmLine * addend(struct AsmLine *listp, struct AsmLine *newp);
 // addvalue
 // file asm6502.c line 1229
-static unsigned char addvalue(struct anonymous$8 *param, unsigned int value);
+static unsigned char addvalue(struct anonymous_8 *param, unsigned int value);
 // aligned_free
 // file aligned_malloc.c line 42
 void aligned_free(void *ptr);
@@ -864,21 +864,21 @@ static void analogtv_thread_draw_lines(void *thread_raw);
 // apply
 // file asm6502.c line 1196
 static unsigned char apply(struct AsmLine *listp, unsigned char (*fn)(struct AsmLine *, void *), void *arg);
-// apply::fn$object
+// apply::fn_object
 //
-unsigned char fn$object(struct AsmLine *, void *);
+unsigned char fn_object(struct AsmLine *, void *);
 // assignOpCodes
 // file asm6502.c line 1005
-static void assignOpCodes(struct anonymous$61 *opcodes);
+static void assignOpCodes(struct anonymous_61 *opcodes);
 // atoi
 // file /usr/include/stdlib.h line 147
 extern signed int atoi(const char *);
 // bitOff
 // file asm6502.c line 243
-static unsigned char bitOff(unsigned char value, enum anonymous$18 bit);
+static unsigned char bitOff(unsigned char value, enum anonymous_18 bit);
 // bitOn
 // file asm6502.c line 237
-static unsigned char bitOn(unsigned char value, enum anonymous$18 bit);
+static unsigned char bitOn(unsigned char value, enum anonymous_18 bit);
 // buildIndexCache
 // file asm6502.c line 1074
 static void buildIndexCache(struct machine_6502 *machine);
@@ -908,7 +908,7 @@ static unsigned char compileCode(struct machine_6502 *machine, const char *code)
 static unsigned char compileLine(struct AsmLine *asmline, void *args);
 // copyParam
 // file asm6502.c line 1151
-static void copyParam(struct anonymous$8 *p1, struct anonymous$8 *p2);
+static void copyParam(struct anonymous_8 *p1, struct anonymous_8 *p2);
 // cos
 // file /usr/include/x86_64-linux-gnu/bits/mathcalls.h line 63
 extern double cos(double);
@@ -917,22 +917,22 @@ extern double cos(double);
 extern float cosf(float);
 // create_xshm_image
 // file ./../utils/xshm.h line 27
-extern struct _XImage * create_xshm_image(struct _XDisplay *dpy, struct anonymous$13 *visual, unsigned int depth, signed int format, char *data, struct anonymous$14 *shm_info, unsigned int width, unsigned int height);
+extern struct _XImage * create_xshm_image(struct _XDisplay *dpy, struct anonymous_13 *visual, unsigned int depth, signed int format, char *data, struct anonymous_14 *shm_info, unsigned int width, unsigned int height);
 // dcbValue
 // file asm6502.c line 1489
-static unsigned char dcbValue(char **s, struct anonymous$8 *param);
+static unsigned char dcbValue(char **s, struct anonymous_8 *param);
 // declareLabel
 // file asm6502.c line 1328
 static unsigned char declareLabel(char **s, char **label);
 // describe_visual
 // file visual.c line 445
-extern void describe_visual(struct _IO_FILE *f, struct anonymous$25 *screen, struct anonymous$13 *visual, signed int private_cmap_p);
+extern void describe_visual(struct _IO_FILE *f, struct anonymous_25 *screen, struct anonymous_13 *visual, signed int private_cmap_p);
 // destroy_xshm_image
 // file ./../utils/xshm.h line 32
-extern void destroy_xshm_image(struct _XDisplay *dpy, struct _XImage *image, struct anonymous$14 *shm_info);
+extern void destroy_xshm_image(struct _XDisplay *dpy, struct _XImage *image, struct anonymous_14 *shm_info);
 // doCompare
 // file asm6502.c line 626
-static void doCompare(struct machine_6502 *machine, unsigned short int reg, struct anonymous$15 *ptr);
+static void doCompare(struct machine_6502 *machine, unsigned short int reg, struct anonymous_15 *ptr);
 // ecalloc
 // file asm6502.c line 109
 static void * ecalloc(unsigned int nelm, unsigned long int nsize);
@@ -959,7 +959,7 @@ extern signed int fclose(struct _IO_FILE *);
 static char * fileToBuffer(const char *filename);
 // find_similar_visual
 // file visual.c line 503
-extern struct anonymous$13 * find_similar_visual(struct anonymous$25 *screen, struct anonymous$13 *old_visual);
+extern struct anonymous_13 * find_similar_visual(struct anonymous_25 *screen, struct anonymous_13 *old_visual);
 // fix_fds
 // file screenhack.c line 403
 static void fix_fds(void);
@@ -992,10 +992,10 @@ extern void fps_slept(struct fps_state *st, unsigned long int usecs);
 extern void free(void *);
 // freeLabel
 // file asm6502.c line 1212
-static void freeLabel(struct anonymous$12 *label);
+static void freeLabel(struct anonymous_12 *label);
 // freeParam
 // file asm6502.c line 1207
-static void freeParam(struct anonymous$8 *param);
+static void freeParam(struct anonymous_8 *param);
 // freeallAsmLine
 // file asm6502.c line 1217
 static void freeallAsmLine(struct AsmLine *listp);
@@ -1004,7 +1004,7 @@ static void freeallAsmLine(struct AsmLine *listp);
 static unsigned char getDirection(char **s, char *direction);
 // getValue
 // file asm6502.c line 332
-static unsigned char getValue(struct machine_6502 *machine, enum anonymous$60 adm, struct anonymous$15 *pointer);
+static unsigned char getValue(struct machine_6502 *machine, enum anonymous_60 adm, struct anonymous_15 *pointer);
 // get_bits_per_pixel
 // file visual.c line 545
 extern signed int get_bits_per_pixel(struct _XDisplay *dpy, signed int depth);
@@ -1037,10 +1037,10 @@ static double get_time(struct state *st);
 static unsigned int get_time_resource(struct _XDisplay *dpy, char *res_name, char *res_class, signed int sec_p);
 // get_visual
 // file visual.c line 50
-extern struct anonymous$13 * get_visual(struct anonymous$25 *screen, const char *string, signed int prefer_writable_cells, signed int verbose_p);
+extern struct anonymous_13 * get_visual(struct anonymous_25 *screen, const char *string, signed int prefer_writable_cells, signed int verbose_p);
 // get_visual_resource
 // file ./../utils/visual.h line 16
-extern struct anonymous$13 * get_visual_resource(struct anonymous$25 *screen, char *name, char *class, signed int prefer_writable_cells);
+extern struct anonymous_13 * get_visual_resource(struct anonymous_25 *screen, char *name, char *class, signed int prefer_writable_cells);
 // getenv
 // file /usr/include/stdlib.h line 564
 extern char * getenv(const char *);
@@ -1058,22 +1058,22 @@ unsigned int hardware_concurrency(struct _XDisplay *dpy);
 static unsigned char hasChar(char *s, char c);
 // has_writable_cells
 // file ./../utils/visual.h line 25
-extern signed int has_writable_cells(struct anonymous$25 *screen, struct anonymous$13 *visual);
+extern signed int has_writable_cells(struct anonymous_25 *screen, struct anonymous_13 *visual);
 // id_to_visual
 // file visual.c line 340
-extern struct anonymous$13 * id_to_visual(struct anonymous$25 *screen, signed int id);
+extern struct anonymous_13 * id_to_visual(struct anonymous_25 *screen, signed int id);
 // immediate
 // file asm6502.c line 1401
-static unsigned char immediate(char **s, struct anonymous$8 *param);
+static unsigned char immediate(char **s, struct anonymous_8 *param);
 // indexLabels
 // file asm6502.c line 1970
 static unsigned char indexLabels(struct AsmLine *asmline, void *arg);
 // indirect
 // file asm6502.c line 1450
-static unsigned char indirect(char **s, struct anonymous$8 *param);
+static unsigned char indirect(char **s, struct anonymous_8 *param);
 // initParam
 // file asm6502.c line 1596
-static void initParam(struct anonymous$8 *param);
+static void initParam(struct anonymous_8 *param);
 // init_time
 // file m6502.c line 110
 static void init_time(struct state *st);
@@ -1086,9 +1086,9 @@ signed int io_thread_cancel(struct io_thread *self);
 // io_thread_create
 // file thread_util.c line 950
 void * io_thread_create(struct io_thread *self, void *parent, void * (*start_routine)(void *), struct _XDisplay *dpy, unsigned int stacksize);
-// io_thread_create::start_routine$object
+// io_thread_create::start_routine_object
 //
-void * start_routine$object(void *);
+void * start_routine_object(void *);
 // io_thread_finish
 // file thread_util.c line 1029
 void io_thread_finish(struct io_thread *self);
@@ -1118,175 +1118,175 @@ static unsigned char isWhite(char c);
 static unsigned char ishexdigit(char c);
 // jmpADC
 // file asm6502.c line 465
-static void jmpADC(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpADC(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpAND
 // file asm6502.c line 516
-static void jmpAND(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpAND(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpASL
 // file asm6502.c line 524
-static void jmpASL(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpASL(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpBCC
 // file asm6502.c line 594
-static void jmpBCC(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpBCC(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpBCS
 // file asm6502.c line 602
-static void jmpBCS(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpBCS(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpBEQ
 // file asm6502.c line 618
-static void jmpBEQ(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpBEQ(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpBIT
 // file asm6502.c line 543
-static void jmpBIT(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpBIT(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpBMI
 // file asm6502.c line 569
-static void jmpBMI(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpBMI(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpBNE
 // file asm6502.c line 610
-static void jmpBNE(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpBNE(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpBPL
 // file asm6502.c line 560
-static void jmpBPL(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpBPL(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpBVC
 // file asm6502.c line 578
-static void jmpBVC(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpBVC(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpBVS
 // file asm6502.c line 586
-static void jmpBVS(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpBVS(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpCLC
 // file asm6502.c line 672
-static void jmpCLC(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpCLC(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpCLD
 // file asm6502.c line 692
-static void jmpCLD(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpCLD(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpCLI
 // file asm6502.c line 680
-static void jmpCLI(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpCLI(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpCLV
 // file asm6502.c line 688
-static void jmpCLV(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpCLV(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpCMP
 // file asm6502.c line 631
-static void jmpCMP(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpCMP(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpCPX
 // file asm6502.c line 638
-static void jmpCPX(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpCPX(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpCPY
 // file asm6502.c line 645
-static void jmpCPY(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpCPY(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpDEC
 // file asm6502.c line 652
-static void jmpDEC(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpDEC(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpDEX
 // file asm6502.c line 796
-static void jmpDEX(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpDEX(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpDEY
 // file asm6502.c line 820
-static void jmpDEY(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpDEY(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpEOR
 // file asm6502.c line 664
-static void jmpEOR(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpEOR(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpINC
 // file asm6502.c line 700
-static void jmpINC(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpINC(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpINX
 // file asm6502.c line 804
-static void jmpINX(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpINX(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpINY
 // file asm6502.c line 828
-static void jmpINY(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpINY(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpJMP
 // file asm6502.c line 709
-static void jmpJMP(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpJMP(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpJSR
 // file asm6502.c line 716
-static void jmpJSR(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpJSR(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpLDA
 // file asm6502.c line 728
-static void jmpLDA(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpLDA(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpLDX
 // file asm6502.c line 736
-static void jmpLDX(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpLDX(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpLDY
 // file asm6502.c line 744
-static void jmpLDY(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpLDY(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpLSR
 // file asm6502.c line 752
-static void jmpLSR(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpLSR(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpNOP
 // file asm6502.c line 774
-static void jmpNOP(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpNOP(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpORA
 // file asm6502.c line 778
-static void jmpORA(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpORA(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpPHA
 // file asm6502.c line 970
-static void jmpPHA(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpPHA(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpPHP
 // file asm6502.c line 979
-static void jmpPHP(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpPHP(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpPLA
 // file asm6502.c line 974
-static void jmpPLA(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpPLA(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpPLP
 // file asm6502.c line 983
-static void jmpPLP(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpPLP(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpROL
 // file asm6502.c line 859
-static void jmpROL(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpROL(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpROR
 // file asm6502.c line 834
-static void jmpROR(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpROR(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpRTI
 // file asm6502.c line 884
-static void jmpRTI(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpRTI(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpRTS
 // file asm6502.c line 889
-static void jmpRTS(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpRTS(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpSBC
 // file asm6502.c line 898
-static void jmpSBC(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpSBC(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpSEC
 // file asm6502.c line 676
-static void jmpSEC(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpSEC(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpSED
 // file asm6502.c line 696
-static void jmpSED(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpSED(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpSEI
 // file asm6502.c line 684
-static void jmpSEI(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpSEI(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpSTA
 // file asm6502.c line 954
-static void jmpSTA(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpSTA(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpSTX
 // file asm6502.c line 988
-static void jmpSTX(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpSTX(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpSTY
 // file asm6502.c line 995
-static void jmpSTY(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpSTY(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpTAX
 // file asm6502.c line 786
-static void jmpTAX(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpTAX(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpTAY
 // file asm6502.c line 810
-static void jmpTAY(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpTAY(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpTSX
 // file asm6502.c line 965
-static void jmpTSX(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpTSX(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpTXA
 // file asm6502.c line 791
-static void jmpTXA(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpTXA(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpTXS
 // file asm6502.c line 961
-static void jmpTXS(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpTXS(struct machine_6502 *machine, enum anonymous_60 adm);
 // jmpTYA
 // file asm6502.c line 815
-static void jmpTYA(struct machine_6502 *machine, enum anonymous$60 adm);
+static void jmpTYA(struct machine_6502 *machine, enum anonymous_60 adm);
 // jumpBranch
 // file asm6502.c line 553
 static void jumpBranch(struct machine_6502 *machine, unsigned short int offset);
 // label
 // file asm6502.c line 1548
-static unsigned char label(char **s, struct anonymous$8 *param);
+static unsigned char label(char **s, struct anonymous_8 *param);
 // linkLabels
 // file asm6502.c line 2015
 static void linkLabels(struct AsmLine *asmlist);
@@ -1305,9 +1305,9 @@ static unsigned long int m6502_draw(struct _XDisplay *dpy, unsigned long int win
 // m6502_eval_file
 // file asm6502.c line 2180
 void m6502_eval_file(struct machine_6502 *machine, const char *filename, void (*plot)(unsigned char, unsigned char, unsigned char, void *), void *plotterState);
-// m6502_eval_file::plot$object
+// m6502_eval_file::plot_object
 //
-void plot$object(unsigned char, unsigned char, unsigned char, void *);
+void plot_object(unsigned char, unsigned char, unsigned char, void *);
 // m6502_event
 // file m6502.c line 282
 static signed int m6502_event(struct _XDisplay *dpy, unsigned long int window, void *closure, union _XEvent *event);
@@ -1329,21 +1329,21 @@ static void m6502_reshape(struct _XDisplay *dpy, unsigned long int window, void 
 // m6502_start_eval_file
 // file asm6502.h line 149
 void m6502_start_eval_file(struct machine_6502 *machine, const char *filename, void (*plot)(unsigned char, unsigned char, unsigned char, void *), void *plotterState);
-// m6502_start_eval_file::plot$object
+// m6502_start_eval_file::plot_object
 //
-void plot$object(unsigned char, unsigned char, unsigned char, void *);
+void plot_object(unsigned char, unsigned char, unsigned char, void *);
 // m6502_start_eval_string
 // file asm6502.h line 158
 void m6502_start_eval_string(struct machine_6502 *machine, const char *code, void (*plot)(unsigned char, unsigned char, unsigned char, void *), void *plotterState);
-// m6502_start_eval_string::plot$object
+// m6502_start_eval_string::plot_object
 //
-void plot$object(unsigned char, unsigned char, unsigned char, void *);
+void plot_object(unsigned char, unsigned char, unsigned char, void *);
 // m6502_trace
 // file asm6502.c line 2118
 void m6502_trace(struct machine_6502 *machine, struct _IO_FILE *output);
 // make_shell
 // file screenhack.c line 612
-static struct _WidgetRec * make_shell(struct anonymous$25 *screen, struct _WidgetRec *toplevel, signed int width, signed int height);
+static struct _WidgetRec * make_shell(struct anonymous_25 *screen, struct _WidgetRec *toplevel, signed int width, signed int height);
 // malloc
 // file /usr/include/stdlib.h line 466
 extern void * malloc(unsigned long int);
@@ -1367,25 +1367,25 @@ extern void * memset(void *, signed int, unsigned long int);
 static void merge_options(void);
 // newAsmLine
 // file asm6502.c line 1170
-static struct AsmLine * newAsmLine(char *cmd, char *label, unsigned char decl, struct anonymous$8 *param, signed int lc);
+static struct AsmLine * newAsmLine(char *cmd, char *label, unsigned char decl, struct anonymous_8 *param, signed int lc);
 // newLabel
 // file asm6502.c line 1160
-static struct anonymous$12 * newLabel(void);
+static struct anonymous_12 * newLabel(void);
 // newParam
 // file asm6502.c line 1136
-static struct anonymous$8 * newParam(void);
+static struct anonymous_8 * newParam(void);
 // nibble
 // file asm6502.c line 255
-static unsigned char nibble(unsigned char value, enum anonymous$17 side);
+static unsigned char nibble(unsigned char value, enum anonymous_17 side);
 // nullify
 // file asm6502.c line 1264
 static void nullify(char *token, unsigned int sourceLength);
-// old_handler$object
+// old_handler_object
 //
-signed int old_handler$object(struct _XDisplay *, struct anonymous$56 *);
+signed int old_handler_object(struct _XDisplay *, struct anonymous_56 *);
 // opIndex
 // file asm6502.c line 1127
-static signed int opIndex(struct machine_6502 *machine, unsigned char opcode, enum anonymous$60 *adm);
+static signed int opIndex(struct machine_6502 *machine, unsigned char opcode, enum anonymous_60 *adm);
 // open
 // file /usr/include/fcntl.h line 156
 extern signed int open(const char *, signed int, ...);
@@ -1397,7 +1397,7 @@ static void paint_pixel(struct state *st, signed int x, signed int y, signed int
 static unsigned char paramLabel(char **s, char **label);
 // parameter
 // file asm6502.c line 1569
-static unsigned char parameter(const char *cmd, char **s, struct anonymous$8 *param);
+static unsigned char parameter(const char *cmd, char **s, struct anonymous_8 *param);
 // parseAssembly
 // file asm6502.c line 1606
 static struct AsmLine * parseAssembly(struct machine_6502 *machine, unsigned char *codeOk, const char *code);
@@ -1418,25 +1418,25 @@ static unsigned char parseValue(char **s, unsigned int *value);
 extern signed int parse_time(const char *string, signed int seconds_default_p, signed int silent_p);
 // peekValue
 // file asm6502.c line 267
-static unsigned char peekValue(struct machine_6502 *machine, enum anonymous$60 adm, struct anonymous$15 *pointer, unsigned short int PC);
+static unsigned char peekValue(struct machine_6502 *machine, enum anonymous_60 adm, struct anonymous_15 *pointer, unsigned short int PC);
 // perror
 // file /usr/include/stdio.h line 846
 extern void perror(const char *);
 // pick_best_gl_visual
 // file visual.c line 281
-static struct anonymous$13 * pick_best_gl_visual(struct anonymous$25 *screen);
+static struct anonymous_13 * pick_best_gl_visual(struct anonymous_25 *screen);
 // pick_best_visual
 // file visual.c line 174
-static struct anonymous$13 * pick_best_visual(struct anonymous$25 *screen, signed int prefer_writable_cells, signed int color_only);
+static struct anonymous_13 * pick_best_visual(struct anonymous_25 *screen, signed int prefer_writable_cells, signed int color_only);
 // pick_best_visual_of_class
 // file visual.c line 242
-static struct anonymous$13 * pick_best_visual_of_class(struct anonymous$25 *screen, signed int visual_class);
+static struct anonymous_13 * pick_best_visual_of_class(struct anonymous_25 *screen, signed int visual_class);
 // pick_mono_visual
 // file visual.c line 218
-static struct anonymous$13 * pick_mono_visual(struct anonymous$25 *screen);
+static struct anonymous_13 * pick_mono_visual(struct anonymous_25 *screen);
 // pick_visual
 // file screenhack.c line 321
-static struct anonymous$13 * pick_visual(struct anonymous$25 *screen);
+static struct anonymous_13 * pick_visual(struct anonymous_25 *screen);
 // plot6502
 // file m6502.c line 67
 static void plot6502(unsigned char x, unsigned char y, unsigned char color, void *closure);
@@ -1466,13 +1466,13 @@ extern signed int pthread_attr_init(union pthread_attr_t *);
 extern signed int pthread_attr_setstacksize(union pthread_attr_t *, unsigned long int);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 981
-extern signed int pthread_cond_broadcast(union anonymous$66 *);
+extern signed int pthread_cond_broadcast(union anonymous_66 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 973
-extern signed int pthread_cond_destroy(union anonymous$66 *);
+extern signed int pthread_cond_destroy(union anonymous_66 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 989
-extern signed int pthread_cond_wait(union anonymous$66 *, union anonymous$63 *);
+extern signed int pthread_cond_wait(union anonymous_66 *, union anonymous_63 *);
 // pthread_create
 // file /usr/include/pthread.h line 233
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1484,13 +1484,13 @@ extern signed int pthread_detach(unsigned long int);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 754
-extern signed int pthread_mutex_destroy(union anonymous$63 *);
+extern signed int pthread_mutex_destroy(union anonymous_63 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 762
-extern signed int pthread_mutex_lock(union anonymous$63 *);
+extern signed int pthread_mutex_lock(union anonymous_63 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 773
-extern signed int pthread_mutex_unlock(union anonymous$63 *);
+extern signed int pthread_mutex_unlock(union anonymous_63 *);
 // puramp
 // file analogtv.c line 119
 static float puramp(const struct analogtv_s *it, float tc, float start, float over);
@@ -1518,21 +1518,21 @@ static void rnd_seek_ac(unsigned int *a, unsigned int *c, unsigned int dist);
 // run_screenhack_table
 // file screenhack.c line 536
 static void run_screenhack_table(struct _XDisplay *dpy, unsigned long int window, unsigned long int window2, struct xscreensaver_function_table *ft);
-// run_screenhack_table::1::fps_cb$object
+// run_screenhack_table::1::fps_cb_object
 //
-void fps_cb$object(struct _XDisplay *, unsigned long int, struct fps_state *, void *);
-// run_screenhack_table::1::init_cb$object
+void fps_cb_object(struct _XDisplay *, unsigned long int, struct fps_state *, void *);
+// run_screenhack_table::1::init_cb_object
 //
-void * init_cb$object(struct _XDisplay *, unsigned long int, void *);
+void * init_cb_object(struct _XDisplay *, unsigned long int, void *);
 // screen_number
 // file visual.c line 475
-extern signed int screen_number(struct anonymous$25 *screen);
+extern signed int screen_number(struct anonymous_25 *screen);
 // screenhack_do_fps
 // file screenhack.c line 528
 static void screenhack_do_fps(struct _XDisplay *dpy, unsigned long int w, struct fps_state *fpst, void *closure);
 // screenhack_ehandler
 // file screenhack.c line 245
-static signed int screenhack_ehandler(struct _XDisplay *dpy, struct anonymous$56 *error);
+static signed int screenhack_ehandler(struct _XDisplay *dpy, struct anonymous_56 *error);
 // screenhack_event_helper
 // file ./../utils/resources.h line 39
 extern signed int screenhack_event_helper(struct _XDisplay *dpy, unsigned long int window, union _XEvent *event);
@@ -1547,13 +1547,13 @@ static char screenhack_table_handle_events(struct _XDisplay *dpy, struct xscreen
 extern void screenhack_usleep(unsigned long int usecs);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$20 *, struct anonymous$20 *, struct anonymous$20 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_20 *, struct anonymous_20 *, struct anonymous_20 *, struct timeval *);
 // setBit
 // file asm6502.c line 247
-static unsigned char setBit(unsigned char value, enum anonymous$18 bit, signed int on);
+static unsigned char setBit(unsigned char value, enum anonymous_18 bit, signed int on);
 // shm_ehandler
 // file xshm.c line 62
-static signed int shm_ehandler(struct _XDisplay *dpy, struct anonymous$56 *error);
+static signed int shm_ehandler(struct _XDisplay *dpy, struct anonymous_56 *error);
 // shmat
 // file /usr/include/x86_64-linux-gnu/sys/shm.h line 56
 extern void * shmat(signed int, const void *, signed int);
@@ -1619,7 +1619,7 @@ extern char * strdup(const char *);
 extern char * strerror(signed int);
 // string_width
 // file fps.c line 175
-static signed int string_width(struct anonymous$3 *f, const char *c, signed int *height_ret);
+static signed int string_width(struct anonymous_3 *f, const char *c, signed int *height_ret);
 // strlen
 // file /usr/include/string.h line 394
 extern unsigned long int strlen(const char *);
@@ -1647,9 +1647,9 @@ void threadpool_destroy(struct threadpool *self);
 // threadpool_run
 // file ./../utils/thread_util.h line 306
 void threadpool_run(struct threadpool *self, void (*func)(void *));
-// threadpool_run::func$object
+// threadpool_run::func_object
 //
-void func$object(void *);
+void func_object(void *);
 // threadpool_wait
 // file ./../utils/thread_util.h line 307
 void threadpool_wait(struct threadpool *self);
@@ -1661,7 +1661,7 @@ signed int threads_available(struct _XDisplay *dpy);
 extern signed int toupper(signed int);
 // translate
 // file asm6502.c line 1770
-static unsigned char translate(struct anonymous$61 *op, struct anonymous$8 *param, struct machine_6502 *machine);
+static unsigned char translate(struct anonymous_61 *op, struct anonymous_8 *param, struct machine_6502 *machine);
 // uc_truncate
 // file utf8wc.c line 38
 static unsigned long int uc_truncate(unsigned long int uc);
@@ -1682,25 +1682,25 @@ extern signed int utf8_encode(unsigned long int uc, char *out, signed long int l
 extern char ** utf8_split(const char *string, signed int *length_ret);
 // utf8_to_XChar2b
 // file utf8wc.c line 215
-extern struct anonymous$24 * utf8_to_XChar2b(const char *string, signed int *length_ret);
+extern struct anonymous_24 * utf8_to_XChar2b(const char *string, signed int *length_ret);
 // utf8_to_latin1
 // file utf8wc.c line 347
 extern char * utf8_to_latin1(const char *string, signed int ascii_p);
 // value
 // file asm6502.c line 1511
-static unsigned char value(char **s, struct anonymous$8 *param);
+static unsigned char value(char **s, struct anonymous_8 *param);
 // visual_cells
 // file visual.c line 487
-extern signed int visual_cells(struct anonymous$25 *screen, struct anonymous$13 *visual);
+extern signed int visual_cells(struct anonymous_25 *screen, struct anonymous_13 *visual);
 // visual_class
 // file visual.c line 409
-extern signed int visual_class(struct anonymous$25 *screen, struct anonymous$13 *visual);
+extern signed int visual_class(struct anonymous_25 *screen, struct anonymous_13 *visual);
 // visual_depth
 // file ./../utils/visual.h line 17
-extern signed int visual_depth(struct anonymous$25 *screen, struct anonymous$13 *visual);
+extern signed int visual_depth(struct anonymous_25 *screen, struct anonymous_13 *visual);
 // visual_warning
 // file screenhack.c line 341
-static void visual_warning(struct anonymous$25 *screen, unsigned long int window, struct anonymous$13 *visual, unsigned long int cmap, signed int window_p);
+static void visual_warning(struct anonymous_25 *screen, unsigned long int window, struct anonymous_13 *visual, unsigned long int cmap, signed int window_p);
 // warnValue
 // file asm6502.c line 459
 static void warnValue(unsigned char isValue);
@@ -1711,7 +1711,7 @@ extern void ya_rand_init(unsigned int seed);
 // file ./../utils/yarandom.h line 36
 extern unsigned int ya_random(void);
 
-struct anonymous$68
+struct anonymous_68
 {
   // name
   char *name;
@@ -1719,22 +1719,22 @@ struct anonymous$68
   signed long int value;
 };
 
-struct anonymous$65
+struct anonymous_65
 {
   // option
   char *option;
   // specifier
   char *specifier;
   // argKind
-  enum anonymous$64 argKind;
+  enum anonymous_64 argKind;
   // value
   char *value;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // visual
-  struct anonymous$13 *visual;
+  struct anonymous_13 *visual;
   // visualid
   unsigned long int visualid;
   // screen
@@ -1755,7 +1755,7 @@ struct anonymous$19
   signed int bits_per_rgb;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1774,11 +1774,11 @@ struct anonymous$25
   // ndepths
   signed int ndepths;
   // depths
-  struct anonymous$23 *depths;
+  struct anonymous_23 *depths;
   // root_depth
   signed int root_depth;
   // root_visual
-  struct anonymous$13 *root_visual;
+  struct anonymous_13 *root_visual;
   // default_gc
   struct _XGC *default_gc;
   // cmap
@@ -1799,7 +1799,7 @@ struct anonymous$25
   signed long int root_input_mask;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1836,7 +1836,7 @@ struct anonymous$2
   // nformats
   signed int nformats;
   // pixmap_format
-  struct anonymous$1 *pixmap_format;
+  struct anonymous_1 *pixmap_format;
   // private8
   signed int private8;
   // release
@@ -1872,7 +1872,7 @@ struct anonymous$2
   // nscreens
   signed int nscreens;
   // screens
-  struct anonymous$25 *screens;
+  struct anonymous_25 *screens;
   // motion_buffer
   unsigned long int motion_buffer;
   // private16
@@ -1891,7 +1891,7 @@ struct anonymous$2
   char *xdefaults;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1903,7 +1903,7 @@ struct anonymous$1
   signed int scanline_pad;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // lbearing
   signed short int lbearing;
@@ -1919,7 +1919,7 @@ struct anonymous$6
   unsigned short int attributes;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1942,20 +1942,20 @@ struct anonymous$3
   // n_properties
   signed int n_properties;
   // properties
-  struct anonymous$5 *properties;
+  struct anonymous_5 *properties;
   // min_bounds
-  struct anonymous$6 min_bounds;
+  struct anonymous_6 min_bounds;
   // max_bounds
-  struct anonymous$6 max_bounds;
+  struct anonymous_6 max_bounds;
   // per_char
-  struct anonymous$6 *per_char;
+  struct anonymous_6 *per_char;
   // ascent
   signed int ascent;
   // descent
   signed int descent;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1975,13 +1975,13 @@ struct anonymous$13
   signed int map_entries;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$61
+struct anonymous_61
 {
   // name
   char name[4l];
@@ -2008,7 +2008,7 @@ struct anonymous$61
   // BRA
   unsigned char BRA;
   // func
-  void (*func)(struct machine_6502 *, enum anonymous$60);
+  void (*func)(struct machine_6502 *, enum anonymous_60);
 };
 
 struct anonymous
@@ -2031,7 +2031,7 @@ struct anonymous
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // depth
   signed int depth;
@@ -2041,17 +2041,17 @@ struct anonymous$16
   signed int scanline_pad;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // depth
   signed int depth;
   // nvisuals
   signed int nvisuals;
   // visuals
-  struct anonymous$13 *visuals;
+  struct anonymous_13 *visuals;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // function
   signed int function;
@@ -2101,7 +2101,7 @@ struct anonymous$4
   char dashes;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // index
   signed int index;
@@ -2109,7 +2109,7 @@ struct anonymous$21
   double value;
 };
 
-struct anonymous$56
+struct anonymous_56
 {
   // type
   signed int type;
@@ -2127,7 +2127,7 @@ struct anonymous$56
   unsigned char minor_code;
 };
 
-struct anonymous$58
+struct anonymous_58
 {
   // type
   signed int type;
@@ -2143,7 +2143,7 @@ struct anonymous$58
   signed int evtype;
 };
 
-struct anonymous$59
+struct anonymous_59
 {
   // type
   signed int type;
@@ -2163,7 +2163,7 @@ struct anonymous$59
   void *data;
 };
 
-struct anonymous$34
+struct anonymous_34
 {
   // type
   signed int type;
@@ -2181,7 +2181,7 @@ struct anonymous$34
   signed int minor_code;
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // type
   signed int type;
@@ -2209,7 +2209,7 @@ struct anonymous$33
   signed int minor_code;
 };
 
-struct anonymous$37
+struct anonymous_37
 {
   // type
   signed int type;
@@ -2225,7 +2225,7 @@ struct anonymous$37
   unsigned long int window;
 };
 
-struct anonymous$38
+struct anonymous_38
 {
   // type
   signed int type;
@@ -2243,7 +2243,7 @@ struct anonymous$38
   signed int from_configure;
 };
 
-struct anonymous$39
+struct anonymous_39
 {
   // type
   signed int type;
@@ -2261,7 +2261,7 @@ struct anonymous$39
   signed int override_redirect;
 };
 
-struct anonymous$46
+struct anonymous_46
 {
   // type
   signed int type;
@@ -2279,7 +2279,7 @@ struct anonymous$46
   signed int place;
 };
 
-struct anonymous$43
+struct anonymous_43
 {
   // type
   signed int type;
@@ -2299,7 +2299,7 @@ struct anonymous$43
   signed int y;
 };
 
-struct anonymous$42
+struct anonymous_42
 {
   // type
   signed int type;
@@ -2329,7 +2329,7 @@ struct anonymous$42
   signed int override_redirect;
 };
 
-struct anonymous$41
+struct anonymous_41
 {
   // type
   signed int type;
@@ -2353,7 +2353,7 @@ struct anonymous$41
   signed int override_redirect;
 };
 
-struct anonymous$50
+struct anonymous_50
 {
   // type
   signed int type;
@@ -2377,7 +2377,7 @@ struct anonymous$50
   unsigned long int time;
 };
 
-struct anonymous$40
+struct anonymous_40
 {
   // type
   signed int type;
@@ -2393,7 +2393,7 @@ struct anonymous$40
   unsigned long int window;
 };
 
-struct anonymous$47
+struct anonymous_47
 {
   // type
   signed int type;
@@ -2411,7 +2411,7 @@ struct anonymous$47
   signed int place;
 };
 
-struct anonymous$36
+struct anonymous_36
 {
   // type
   signed int type;
@@ -2439,7 +2439,7 @@ struct anonymous$36
   signed int override_redirect;
 };
 
-struct anonymous$45
+struct anonymous_45
 {
   // type
   signed int type;
@@ -2471,7 +2471,7 @@ struct anonymous$45
   unsigned long int value_mask;
 };
 
-struct anonymous$51
+struct anonymous_51
 {
   // type
   signed int type;
@@ -2493,7 +2493,7 @@ struct anonymous$51
   unsigned long int time;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // type
   signed int type;
@@ -2507,7 +2507,7 @@ struct anonymous$26
   unsigned long int window;
 };
 
-struct anonymous$57
+struct anonymous_57
 {
   // type
   signed int type;
@@ -2523,7 +2523,7 @@ struct anonymous$57
   char key_vector[32l];
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // type
   signed int type;
@@ -2541,7 +2541,7 @@ struct anonymous$31
   signed int detail;
 };
 
-struct anonymous$55
+struct anonymous_55
 {
   // type
   signed int type;
@@ -2561,7 +2561,7 @@ struct anonymous$55
   signed int count;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // type
   signed int type;
@@ -2577,7 +2577,7 @@ struct anonymous$35
   signed int state;
 };
 
-struct anonymous$44
+struct anonymous_44
 {
   // type
   signed int type;
@@ -2595,7 +2595,7 @@ struct anonymous$44
   signed int height;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // type
   signed int type;
@@ -2619,7 +2619,7 @@ struct anonymous$32
   signed int count;
 };
 
-struct anonymous$48
+struct anonymous_48
 {
   // type
   signed int type;
@@ -2639,7 +2639,7 @@ struct anonymous$48
   signed int state;
 };
 
-struct anonymous$52
+struct anonymous_52
 {
   // type
   signed int type;
@@ -2659,7 +2659,7 @@ struct anonymous$52
   signed int state;
 };
 
-union anonymous$53
+union anonymous_53
 {
   // b
   char b[20l];
@@ -2669,7 +2669,7 @@ union anonymous$53
   signed long int l[5l];
 };
 
-struct anonymous$54
+struct anonymous_54
 {
   // type
   signed int type;
@@ -2686,10 +2686,10 @@ struct anonymous$54
   // format
   signed int format;
   // data
-  union anonymous$53 data;
+  union anonymous_53 data;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // type
   signed int type;
@@ -2727,7 +2727,7 @@ struct anonymous$30
   unsigned int state;
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // type
   signed int type;
@@ -2761,7 +2761,7 @@ struct anonymous$29
   signed int same_screen;
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // type
   signed int type;
@@ -2795,7 +2795,7 @@ struct anonymous$28
   signed int same_screen;
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // type
   signed int type;
@@ -2829,7 +2829,7 @@ struct anonymous$27
   signed int same_screen;
 };
 
-struct anonymous$49
+struct anonymous_49
 {
   // type
   signed int type;
@@ -2847,7 +2847,7 @@ struct anonymous$49
   unsigned long int time;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // x
   signed int x;
@@ -2862,7 +2862,7 @@ struct anonymous$7
   // depth
   signed int depth;
   // visual
-  struct anonymous$13 *visual;
+  struct anonymous_13 *visual;
   // root
   unsigned long int root;
   // class
@@ -2894,13 +2894,13 @@ struct anonymous$7
   // override_redirect
   signed int override_redirect;
   // screen
-  struct anonymous$25 *screen;
+  struct anonymous_25 *screen;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // type
-  enum anonymous$60 type;
+  enum anonymous_60 type;
   // value
   unsigned int value[25l];
   // vp
@@ -2911,7 +2911,7 @@ struct anonymous$8
   unsigned int lbladdr;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // addr
   unsigned short int addr;
@@ -2919,7 +2919,7 @@ struct anonymous$15
   unsigned short int value;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // addr
   unsigned int addr;
@@ -2927,7 +2927,7 @@ struct anonymous$12
   char *label;
 };
 
-struct anonymous$67
+struct anonymous_67
 {
   // request_mode
   unsigned int request_mode;
@@ -2947,7 +2947,7 @@ struct anonymous$67
   signed int stack_mode;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // size
   unsigned int size;
@@ -2955,7 +2955,7 @@ struct anonymous$10
   char *addr;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // background_pixmap
   unsigned long int background_pixmap;
@@ -2989,7 +2989,7 @@ struct anonymous$0
   unsigned long int cursor;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // name
   unsigned long int name;
@@ -2997,7 +2997,7 @@ struct anonymous$5
   unsigned long int card32;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // pixel
   unsigned long int pixel;
@@ -3013,7 +3013,7 @@ struct anonymous$9
   char pad;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // shmseg
   unsigned long int shmseg;
@@ -3025,7 +3025,7 @@ struct anonymous$14
   signed int readOnly;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // byte1
   unsigned char byte1;
@@ -3033,15 +3033,15 @@ struct anonymous$24
   unsigned char byte2;
 };
 
-struct anonymous$62
+struct anonymous_62
 {
   // index
   unsigned char index;
   // adm
-  enum anonymous$60 adm;
+  enum anonymous_60 adm;
 };
 
-union anonymous$22
+union anonymous_22
 {
   // f
   float f;
@@ -3049,7 +3049,7 @@ union anonymous$22
   signed int i;
 };
 
-union anonymous$66
+union anonymous_66
 {
   // __data
   struct anonymous __data;
@@ -3087,7 +3087,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$63
+union anonymous_63
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -3102,11 +3102,11 @@ struct AsmLine
   // labelDecl
   unsigned char labelDecl;
   // label
-  struct anonymous$12 *label;
+  struct anonymous_12 *label;
   // command
   char *command;
   // param
-  struct anonymous$8 *param;
+  struct anonymous_8 *param;
   // next
   struct AsmLine *next;
 };
@@ -3126,11 +3126,11 @@ struct _CoreClassPart
   // class_inited
   unsigned char class_inited;
   // initialize
-  void (*initialize)(struct _WidgetRec *, struct _WidgetRec *, struct anonymous$68 *, unsigned int *);
+  void (*initialize)(struct _WidgetRec *, struct _WidgetRec *, struct anonymous_68 *, unsigned int *);
   // initialize_hook
-  void (*initialize_hook)(struct _WidgetRec *, struct anonymous$68 *, unsigned int *);
+  void (*initialize_hook)(struct _WidgetRec *, struct anonymous_68 *, unsigned int *);
   // realize
-  void (*realize)(struct _WidgetRec *, unsigned long int *, struct anonymous$0 *);
+  void (*realize)(struct _WidgetRec *, unsigned long int *, struct anonymous_0 *);
   // actions
   struct _XtActionsRec *actions;
   // num_actions
@@ -3156,13 +3156,13 @@ struct _CoreClassPart
   // expose
   void (*expose)(struct _WidgetRec *, union _XEvent *, struct _XRegion *);
   // set_values
-  char (*set_values)(struct _WidgetRec *, struct _WidgetRec *, struct _WidgetRec *, struct anonymous$68 *, unsigned int *);
+  char (*set_values)(struct _WidgetRec *, struct _WidgetRec *, struct _WidgetRec *, struct anonymous_68 *, unsigned int *);
   // set_values_hook
-  char (*set_values_hook)(struct _WidgetRec *, struct anonymous$68 *, unsigned int *);
+  char (*set_values_hook)(struct _WidgetRec *, struct anonymous_68 *, unsigned int *);
   // set_values_almost
-  void (*set_values_almost)(struct _WidgetRec *, struct _WidgetRec *, struct anonymous$67 *, struct anonymous$67 *);
+  void (*set_values_almost)(struct _WidgetRec *, struct _WidgetRec *, struct anonymous_67 *, struct anonymous_67 *);
   // get_values_hook
-  void (*get_values_hook)(struct _WidgetRec *, struct anonymous$68 *, unsigned int *);
+  void (*get_values_hook)(struct _WidgetRec *, struct anonymous_68 *, unsigned int *);
   // accept_focus
   char (*accept_focus)(struct _WidgetRec *, unsigned long int *);
   // version
@@ -3172,7 +3172,7 @@ struct _CoreClassPart
   // tm_table
   char *tm_table;
   // query_geometry
-  enum anonymous$69 (*query_geometry)(struct _WidgetRec *, struct anonymous$67 *, struct anonymous$67 *);
+  enum anonymous_69 (*query_geometry)(struct _WidgetRec *, struct anonymous_67 *, struct anonymous_67 *);
   // display_accelerator
   void (*display_accelerator)(struct _WidgetRec *, char *);
   // extension
@@ -3240,7 +3240,7 @@ struct _CorePart
   // name
   char *name;
   // screen
-  struct anonymous$25 *screen;
+  struct anonymous_25 *screen;
   // colormap
   unsigned long int colormap;
   // window
@@ -3354,71 +3354,71 @@ union _XEvent
   // type
   signed int type;
   // xany
-  struct anonymous$26 xany;
+  struct anonymous_26 xany;
   // xkey
-  struct anonymous$27 xkey;
+  struct anonymous_27 xkey;
   // xbutton
-  struct anonymous$28 xbutton;
+  struct anonymous_28 xbutton;
   // xmotion
-  struct anonymous$29 xmotion;
+  struct anonymous_29 xmotion;
   // xcrossing
-  struct anonymous$30 xcrossing;
+  struct anonymous_30 xcrossing;
   // xfocus
-  struct anonymous$31 xfocus;
+  struct anonymous_31 xfocus;
   // xexpose
-  struct anonymous$32 xexpose;
+  struct anonymous_32 xexpose;
   // xgraphicsexpose
-  struct anonymous$33 xgraphicsexpose;
+  struct anonymous_33 xgraphicsexpose;
   // xnoexpose
-  struct anonymous$34 xnoexpose;
+  struct anonymous_34 xnoexpose;
   // xvisibility
-  struct anonymous$35 xvisibility;
+  struct anonymous_35 xvisibility;
   // xcreatewindow
-  struct anonymous$36 xcreatewindow;
+  struct anonymous_36 xcreatewindow;
   // xdestroywindow
-  struct anonymous$37 xdestroywindow;
+  struct anonymous_37 xdestroywindow;
   // xunmap
-  struct anonymous$38 xunmap;
+  struct anonymous_38 xunmap;
   // xmap
-  struct anonymous$39 xmap;
+  struct anonymous_39 xmap;
   // xmaprequest
-  struct anonymous$40 xmaprequest;
+  struct anonymous_40 xmaprequest;
   // xreparent
-  struct anonymous$41 xreparent;
+  struct anonymous_41 xreparent;
   // xconfigure
-  struct anonymous$42 xconfigure;
+  struct anonymous_42 xconfigure;
   // xgravity
-  struct anonymous$43 xgravity;
+  struct anonymous_43 xgravity;
   // xresizerequest
-  struct anonymous$44 xresizerequest;
+  struct anonymous_44 xresizerequest;
   // xconfigurerequest
-  struct anonymous$45 xconfigurerequest;
+  struct anonymous_45 xconfigurerequest;
   // xcirculate
-  struct anonymous$46 xcirculate;
+  struct anonymous_46 xcirculate;
   // xcirculaterequest
-  struct anonymous$47 xcirculaterequest;
+  struct anonymous_47 xcirculaterequest;
   // xproperty
-  struct anonymous$48 xproperty;
+  struct anonymous_48 xproperty;
   // xselectionclear
-  struct anonymous$49 xselectionclear;
+  struct anonymous_49 xselectionclear;
   // xselectionrequest
-  struct anonymous$50 xselectionrequest;
+  struct anonymous_50 xselectionrequest;
   // xselection
-  struct anonymous$51 xselection;
+  struct anonymous_51 xselection;
   // xcolormap
-  struct anonymous$52 xcolormap;
+  struct anonymous_52 xcolormap;
   // xclient
-  struct anonymous$54 xclient;
+  struct anonymous_54 xclient;
   // xmapping
-  struct anonymous$55 xmapping;
+  struct anonymous_55 xmapping;
   // xerror
-  struct anonymous$56 xerror;
+  struct anonymous_56 xerror;
   // xkeymap
-  struct anonymous$57 xkeymap;
+  struct anonymous_57 xkeymap;
   // xgeneric
-  struct anonymous$58 xgeneric;
+  struct anonymous_58 xgeneric;
   // xcookie
-  struct anonymous$59 xcookie;
+  struct anonymous_59 xcookie;
   // pad
   signed long int pad[24l];
 };
@@ -3438,7 +3438,7 @@ struct _XExtData
 struct funcs
 {
   // create_image
-  struct _XImage * (*create_image)(struct _XDisplay *, struct anonymous$13 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
+  struct _XImage * (*create_image)(struct _XDisplay *, struct anonymous_13 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
   // destroy_image
   signed int (*destroy_image)(struct _XImage *);
   // get_pixel
@@ -3596,9 +3596,9 @@ struct threadpool
   // serial_threads
   void *serial_threads;
   // mutex
-  union anonymous$63 mutex;
+  union anonymous_63 mutex;
   // cond
-  union anonymous$66 cond;
+  union anonymous_66 cond;
   // parallel_pending
   unsigned int parallel_pending;
   // parallel_unfinished
@@ -3622,9 +3622,9 @@ struct analogtv_s
   // window
   unsigned long int window;
   // screen
-  struct anonymous$25 *screen;
+  struct anonymous_25 *screen;
   // xgwa
-  struct anonymous$7 xgwa;
+  struct anonymous_7 xgwa;
   // threads
   struct threadpool threads;
   // n_colors
@@ -3674,7 +3674,7 @@ struct analogtv_s
   // bilevel_signal
   signed int bilevel_signal;
   // shm_info
-  struct anonymous$14 shm_info;
+  struct anonymous_14 shm_info;
   // visdepth
   signed int visdepth;
   // visclass
@@ -3776,7 +3776,7 @@ struct analogtv_s
   // rx_signal
   float *rx_signal;
   // leveltable
-  struct anonymous$21 leveltable[13l][13l];
+  struct anonymous_21 leveltable[13l][13l];
   // random0
   unsigned int random0;
   // random1
@@ -3826,7 +3826,7 @@ struct fps_state
   // y
   signed int y;
   // font
-  struct anonymous$3 *font;
+  struct anonymous_3 *font;
   // clear_p
   signed int clear_p;
   // string
@@ -3914,13 +3914,13 @@ struct machine_6502
   // myInterval
   signed int myInterval;
   // opcodes
-  struct anonymous$61 opcodes[56l];
+  struct anonymous_61 opcodes[56l];
   // screen
   signed int screen[32l][32l];
   // codeLen
   signed int codeLen;
   // opcache
-  struct anonymous$62 opcache[255l];
+  struct anonymous_62 opcache[255l];
   // plot
   void (*plot)(unsigned char, unsigned char, unsigned char, void *);
   // plotterState
@@ -4020,7 +4020,7 @@ struct xscreensaver_function_table
   // defaults
   const char * const *defaults;
   // options
-  const struct anonymous$65 *options;
+  const struct anonymous_65 *options;
   // setup_cb
   void (*setup_cb)(struct xscreensaver_function_table *, void *);
   // setup_arg
@@ -4038,9 +4038,9 @@ struct xscreensaver_function_table
   // fps_cb
   void (*fps_cb)(struct _XDisplay *, unsigned long int, struct fps_state *, void *);
   // pick_visual_hook
-  struct anonymous$13 * (*pick_visual_hook)(struct anonymous$25 *);
+  struct anonymous_13 * (*pick_visual_hook)(struct anonymous_25 *);
   // validate_visual_hook
-  signed int (*validate_visual_hook)(struct anonymous$25 *, const char *, struct anonymous$13 *);
+  signed int (*validate_visual_hook)(struct anonymous_25 *, const char *, struct anonymous_13 *);
 };
 
 
@@ -4067,7 +4067,7 @@ static signed int _has_pthread = 0;
 static unsigned int a[55l] = { 035340171546, (unsigned int)010401501101, 022364657325, 024130436022, (unsigned int)002167303062, 037570375137, 037210607110, (unsigned int)016272055420, 023011770546, (unsigned int)017143426366, (unsigned int)014753657433, 021657231332, 023553406142, (unsigned int)004236526362, (unsigned int)010365611275, (unsigned int)007117336710, (unsigned int)011051276551, (unsigned int)002362132524, (unsigned int)001011540233, (unsigned int)012162531646, (unsigned int)007056762337, (unsigned int)006631245521, (unsigned int)014164542224, 032633236305, 023342700176, (unsigned int)002433062234, (unsigned int)015257225043, 026762051606, (unsigned int)000742573230, (unsigned int)005366042132, (unsigned int)012126416411, (unsigned int)000520471171, (unsigned int)000725646277, 020116577576, 025765742604, (unsigned int)007633473735, (unsigned int)015674255275, (unsigned int)017555634041, (unsigned int)006503154145, 021576344247, (unsigned int)014577627653, (unsigned int)002707523333, 034146376720, 030060227734, (unsigned int)013765414060, 036072251540, (unsigned int)007255221037, 024364674123, (unsigned int)006200353166, (unsigned int)010126373326, (unsigned int)015664104320, (unsigned int)016401041535, (unsigned int)016215305520, 033115351014, (unsigned int)017411670323 };
 // cond_initializer
 // file thread_util.c line 285
-const union anonymous$66 cond_initializer = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+const union anonymous_66 cond_initializer = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -4077,53 +4077,53 @@ static char *default_defaults[10l] = { ".root:\t\tfalse", "*geometry:\t\t1280x72
     ((char *)NULL) };
 // default_options
 // file screenhack.c line 141
-static struct anonymous$65 default_options[11l] = { { .option="-root", .specifier=".root", .argKind=(enum anonymous$64)XrmoptionNoArg, .value="True" },
-    { .option="-window", .specifier=".root", .argKind=(enum anonymous$64)XrmoptionNoArg,
+static struct anonymous_65 default_options[11l] = { { .option="-root", .specifier=".root", .argKind=(enum anonymous_64)XrmoptionNoArg, .value="True" },
+    { .option="-window", .specifier=".root", .argKind=(enum anonymous_64)XrmoptionNoArg,
     .value="False" },
-    { .option="-mono", .specifier=".mono", .argKind=(enum anonymous$64)XrmoptionNoArg, .value="True" },
-    { .option="-install", .specifier=".installColormap", .argKind=(enum anonymous$64)XrmoptionNoArg,
+    { .option="-mono", .specifier=".mono", .argKind=(enum anonymous_64)XrmoptionNoArg, .value="True" },
+    { .option="-install", .specifier=".installColormap", .argKind=(enum anonymous_64)XrmoptionNoArg,
     .value="True" },
-    { .option="-noinstall", .specifier=".installColormap", .argKind=(enum anonymous$64)XrmoptionNoArg,
+    { .option="-noinstall", .specifier=".installColormap", .argKind=(enum anonymous_64)XrmoptionNoArg,
     .value="False" },
-    { .option="-visual", .specifier=".visualID", .argKind=(enum anonymous$64)XrmoptionSepArg,
+    { .option="-visual", .specifier=".visualID", .argKind=(enum anonymous_64)XrmoptionSepArg,
     .value=((char *)NULL) },
-    { .option="-window-id", .specifier=".windowID", .argKind=(enum anonymous$64)XrmoptionSepArg,
+    { .option="-window-id", .specifier=".windowID", .argKind=(enum anonymous_64)XrmoptionSepArg,
     .value=((char *)NULL) },
-    { .option="-fps", .specifier=".doFPS", .argKind=(enum anonymous$64)XrmoptionNoArg, .value="True" },
-    { .option="-no-fps", .specifier=".doFPS", .argKind=(enum anonymous$64)XrmoptionNoArg,
+    { .option="-fps", .specifier=".doFPS", .argKind=(enum anonymous_64)XrmoptionNoArg, .value="True" },
+    { .option="-no-fps", .specifier=".doFPS", .argKind=(enum anonymous_64)XrmoptionNoArg,
     .value="False" },
-    { .option="-pair", .specifier=".pair", .argKind=(enum anonymous$64)XrmoptionNoArg, .value="True" },
-    { .option=((char *)NULL), .specifier=((char *)NULL), .argKind=(enum anonymous$64)0,
+    { .option="-pair", .specifier=".pair", .argKind=(enum anonymous_64)XrmoptionNoArg, .value="True" },
+    { .option=((char *)NULL), .specifier=((char *)NULL), .argKind=(enum anonymous_64)0,
     .value=((char *)NULL) } };
 // demo_files
 // file m6502.c line 26
-static const char * const demo_files[27l] = { "start:\n  lda #$b\n  jsr setcol\n  jsr delay\n  lda #$f\n  jsr setcol\n  jsr delay\n  lda #$1\n  jsr setcol\n  jsr delay\n  ldx #0\ncp:\n  lda pic,x\n  sta $200,x\n  lda pic2,x\n  sta $300,x\n  lda pic3,x\n  sta $400,x\n  lda pic4,x\n  sta $500,x\n  dex\n  bne cp\n  rts\nsetcol:\n  ldx #0\ns:sta $200,x\n  sta $300,x\n  sta $400,x\n  sta $500,x\n  dex\n  bne s\n  rts\ndelay:\n  ldy #29\nd1:\n  ldx #0\nd2:\n  dex\n  bne d2\n  dey\n  bne d1\n  rts\npic:\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0\n        dcb 0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1\n        dcb 1,1,1,1,1,1,1,0,$e,$e,$e,$e,0,$f,$f,$f\n        dcb $f,$f,$f,$f,0,0,0,$f,0,$e,$e,0,1,1,1,1\n        dcb 1,1,1,1,1,1,1,0,$e,$e,$e,$e,0,$f,$f,$f\n        dcb $f,$f,$f,$f,0,$e,0,$f,0,$e,$e,$e,0,1,1,1\n        dcb 1,1,1,1,1,1,1,0,$e,$e,$e,$e,0,$f,$f,$f\n        dcb $f,$f,$f,$f,0,$e,0,$f,0,$e,$e,$e,$e,0,1,1\n        dcb 1,1,1,1,1,1,1,0,$e,$e,$e,$e,0,$f,$f,$f\n        dcb $f,$f,$f,$f,0,0,0,$f,0,$e,$e,$e,$e,0,1,1\n        dcb 1,1,1,1,1,1,1,0,$e,$e,$e,$e,0,0,0,0\n        dcb 0,0,0,0,0,0,0,0,0,$e,$e,$e,$e,0,1,1\n \npic2:\n        dcb 1,1,1,1,1,1,1,0,$e,$e,$e,$e,$e,$e,$e,$e\n        dcb $e,$e,$e,$e,$e,$e,$e,$e,$e,$e,$e,$e,$e,0,1,1\n        dcb 1,1,1,1,1,1,1,0,$e,$e,$e,$e,$e,$e,$e,$e\n        dcb $e,$e,$e,$e,$e,$e,$e,$e,$e,$e,$e,$e,$e,0,1,1\n        dcb 1,1,1,1,1,1,1,0,$e,$e,$e,$e,$e,$e,$e,$e\n        dcb $e,$e,$e,$e,$e,$e,$e,$e,$e,$e,$e,$e,$e,0,1,1\n        dcb 1,1,1,1,1,1,1,0,$e,$e,$e,$e,$e,$e,$e,$e\n        dcb $e,$e,$e,$e,$e,$e,$e,$e,$e,$e,$e,$e,$e,0,1,1\n        dcb 1,1,1,1,1,1,1,0,$e,0,0,0,0,0,0,0\n        dcb 0,0,0,0,0,0,0,0,0,0,0,$e,$e,0,1,1\n        dcb 1,1,1,1,1,1,0,0,$e,0,0,1,1,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,0,$e,$e,0,1,1\n        dcb 1,1,1,1,1,0,1,0,$e,0,0,0,0,1,1,$e\n        dcb $e,$e,1,$e,1,$e,1,$e,1,1,0,$e,$e,0,1,1\n        dcb 1,1,1,0,0,1,1,0,0,1,0,1,1,0,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,0,$e,$e,0,1,1\npic3:\n        dcb 1,1,0,1,1,1,0,1,1,1,1,0,0,1,1,1\n        dcb $e,1,$e,1,$e,1,$e,1,1,1,0,$e,$e,0,1,1\n        dcb 1,0,1,1,0,1,1,1,1,1,1,1,0,1,1,0\n        dcb 1,1,1,1,1,1,1,1,1,1,0,$e,$e,0,1,1\n        dcb 1,0,1,0,1,1,1,1,1,1,0,0,1,1,0,$f\n        dcb 0,1,0,1,1,1,0,0,0,1,0,$e,$e,0,1,1\n        dcb 1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,0\n        dcb 0,$f,1,0,1,$f,1,0,1,1,0,$e,$e,0,1,1\n        dcb 1,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0\n        dcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1\n        dcb 1,0,1,1,1,1,1,1,1,1,1,0,1,1,0,0\n        dcb 0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,0,1,1,1,1,1,1,1,1,1,0,1,0,0,1\n        dcb 0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,0,1,1,1,1,1,1,1,1,1,0,1,0,1,1\n        dcb 0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\npic4:\n        dcb 1,0,1,1,1,1,1,1,1,1,1,0,1,0,0,0\n        dcb 0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,0,1,1,1,1,1,1,0,0,0,0,0,1,1,0\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,0,1,1,1,1,1,1,0,1,1,1,0,0,0,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,0,1,1,1,1,1,0,1,1,1,0,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,0,1,1,1,1,1,0,1,1,1,0,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,0,1,1,1,1,1,0,1,1,1,0,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n\t\n",
-    "init:\n lda #$fe\n sta $2\n lda #$ee\n sta $3\ndrawbox:\n lda #0\n sta $0\n lda #2\n sta $1\n ldx #$20\nboxloop:\n lda #2\n sta $1ff,x\n sta $5df,x\n ldy #0\n sta ($0),y\n ldy #$1f\n sta ($0),y\n cpx #$1\n beq noblocks\n lda #3\n ldy #$17\n sta ($0),y\n lda #4\n iny\n sta ($0),y\n lda #5\n iny\n sta ($0),y\n lda #6\n iny\n sta ($0),y\nnoblocks:\n clc\n lda $0\n adc #$20\n sta $0\n lda $1\n adc #0\n sta $1\n dex\n bne boxloop\n ldx $2\n ldy $3\n lda #$44\n sta $0\n lda #$02\n sta $1\ndrawball:\n txa\n pha\n lda #1\n ldx #0\n sta ($0,x)\n pla\n tax\ndecloop:\n dex\n beq updatexpos\n dey\n bne decloop\nupdateypos:\n txa\n pha\n jsr clearball\nupdateyposnoclear:\n lda $3\n and #1\n bne moveup\nmovedown:\n clc\n lda $0\n adc #$20\n sta $0\n bcc ycollision\n inc $1\n bne ycollision\nmoveup:\n sec\n lda $0\n sbc #$20\n sta $0\n lda $1\n sbc #$0\n sta $1\nycollision:\n ldx #0\n lda ($0,x)\n bne ycollided\n ldy $3\n pla\n tax\n jmp drawball\nycollided:\n cmp #$2\n beq ycollided2\n lda #0\n sta ($0,x)\nycollided2:\n lda #1\n eor $3\n sta $3\n jmp updateyposnoclear\nupdatexpos:\n jsr clearball\nupdatexposnoclear:\n lda $2\n and #1\n bne moveleft\nmoveright:\n inc $0\n bne xcollision\nmoveleft:\n dec $0\nxcollision:\n ldx #0\n lda ($0,x)\n bne xcollided\n ldx $2\n jmp drawball\nxcollided:\n cmp #$2\n beq xcollided2\n lda #0\n sta ($0,x)\nxcollided2:\n lda #1\n eor $2\n sta $2\n jmp updatexposnoclear\nclearball:\n lda #0\n tax\n sta ($0,x)\n rts\n",
-    " \nstart:\n  lda #<logo\n  sta $0\n  lda #>logo\n  sta $1\n  lda #$00\n  sta $2\n  lda #$02\n  sta $3\ndecrunchLoop:\n  lda $3\n  cmp #$6\n  bne moreWork \n  rts\nmoreWork:\n  ldy #0\n  lda ($0),y\n  cmp #$ff\n  bne notCrunched\n  iny\n  lda ($0),y\n  sta $4\n  iny\n  lda ($0),y\n  ldy $4\ndrawLoop:\n  ldx #0\n  sta ($2,x)\n  jsr nextPixel\n  dey\n  bne drawLoop\n  jsr getNextByte\n  jsr getNextByte\n  jmp decrunchLoop\nnotCrunched:\n  ldx #0\n  sta ($2,x)\n  jsr nextPixel\n  jsr getNextByte\n  jmp decrunchLoop\ngetNextByte:\n  inc $0\n  lda $0\n  cmp #$00\n  bne notHi\n  inc $1\nnotHi:\n  rts\nnextPixel:\n  inc $2\n  ldx $2\n  cpx #$00\n  bne notNextLine\n  inc $3\nnotNextLine:\n  rts\nlogo:\n dcb $ff,43,1,$f,$f,$f,$c,$f,$f,$f,$ff,24,1,$c,$f,$c,0\n dcb $c,$f,$c,$ff,24,1,0,$f,$c,0,$c,$f,$c,$ff,24,1\n dcb $c,$f,$c,0,$c,$f,$c,$ff,24,1,0,$f,$c,0,$c,$f,$c\n dcb $ff,24,1,$c,$f,0,0,$c,$f,$c,$ff,24,1,0,$f,$c,0\n dcb $c,$f,$c,$ff,24,1,0,$f,$c,0,$c,$f,0,$ff,24,1\n dcb 0,$f,$c,0,$c,$f,0,$ff,23,1,$f,0,$f,$c,0,$c,$f,0,$f\n dcb $ff,22,1,$c,0,1,$c,0,$c,$f,0,$c,$ff,21,1\n dcb $f,0,0,1,0,0,$c,1,0,0,$ff,21,1,$c,0,$c,1,$c,0\n dcb $c,1,$c,0,$c,$ff,19,1,$f,0,0,$f,1,$c,0\n dcb $c,1,$f,0,0,$f,$ff,17,1,$f,0,0,0,1,1,$c,0\n dcb $c,1,1,0,0,0,$ff,16,1,$f,0,0,0,$f,1,1,0,0\n dcb $c,1,1,$f,0,0,0,$f,$ff,13,1\n dcb $c,0,0,0,$c,1,1,1,$c,0,$c,1,1,1,$c,0,0,0,$c\n dcb $ff,10,1,$c,0,0,0,0,$c,1,1,1,1,0,0\n dcb $c,1,1,1,1,0,0,0,0,0,$c,$ff,8,1\n dcb 0,0,0,0,$c,1,1,1,1,1,0,0\n dcb $c,1,1,1,1,1,$c,0,0,0,0,1,1,1,1,1\n dcb 1,1,1,1,0,0,$c,1,1,1,1,1,1,1,$c,0\n dcb $c,1,1,1,1,1,1,$f,$c,0,0,$ff,18,1,$f\n dcb $ff,53,1,0,$f,1,0,0,0,0,0,$f,1,$c\n dcb $c,1,1,1,$c,0,0,0,1,1,0,$f,$f,1,1,1\n dcb 1,1,1,1,$c,0,0,1,1,1,0,$f,1,1,$f,0\n dcb 0,$f,1,1,0,$f,1,$c,$c,1,0,$f,1,1,1,1\n dcb 1,1,1,1,0,$f,0,$f,1,1,0,$f,1,1,$f,$c\n dcb $c,$c,1,1,0,1,1,$f,0,1,0,$f,1,1,1,1\n dcb 1,1,1,1,0,1,$c,$f,1,1,$c,$f,1,1,0,$f\n dcb $f,0,1,1,0,$f,$f,0,$f,1,0,$f,1,1,1,1\n dcb 1,1,1,$c,0,$c,0,0,1,1,0,$f,1,1,0,$c\n dcb $c,0,$f,1,0,$f,0,$f,1,1,0,$f,1,1,1,1\n dcb 1,1,1,0,$c,$f,$f,0,$f,1,$c,$f,1,$c,$c,$f\n dcb $f,$c,$c,1,0,1,$f,$c,1,1,0,$f,1,1,1,1\n dcb 1,1,$f,0,1,1,1,$c,$c,1,0,$f,1,0,$f,1\n dcb 1,$f,0,1,0,$f,1,0,$f,1,0,$f,$ff,16,1\n dcb $f,$ff,5,1,$f,1,1,1,$f,$ff,38,1\n",
-    " lda #1\n sta $20f\nl3:\n lda #2\n sta 3\n sta 5\n sta 7\n lda #1\n sta 9\n sta 6\n lda #255\n sta 8\n lda #0\n sta 2\n lda #32\n sta 4\n ldx #30\nl1:\n ldy #31\nl2:\n lda ($2),y\n ora ($6),y\n eor ($8),y\n sta ($4),y\n dey\n bpl l2\n lda $2\n adc #32\n sta $2\n lda $3\n adc #0\n sta $3\n lda $4\n adc #32\n sta $4\n lda $5\n adc #0\n sta $5\n lda $6\n adc #32\n sta $6\n lda $7\n adc #0\n sta $7\n lda $8\n adc #32\n sta $8\n lda $9\n adc #0\n sta $9\n dex\n bpl l1\n ldy #31\nl4:\n lda ($2),y\n sta $200,y\n dey\n bpl l4\n jmp l3\n",
-    " lda #1\n sta $22f\nl3:\n ldy #29\nl2:\n lda  $220,y\n adc $221,y\n adc $222,y\n tax\n lda rule,x\n sta  $201,y\n dey\n bpl l2\n ldy #$c0\n sec\nll2:\n lda $503,y\n sta $523,y\n sta $53b,y\n lda $504,y\n sta $524,y\n sta $53a,y\n lda $505,y\n sta $525,y\n sta $539,y\n lda $506,y\n sta $526,y\n sta $538,y\n lda $507,y\n sta $527,y\n sta $537,y\n lda $508,y\n sta $528,y\n sta $536,y\n lda $509,y\n sta $529,y\n sta $535,y\n lda $50a,y\n sta $52a,y\n sta $534,y\n lda $50b,y\n sta $52b,y\n sta $533,y\n lda $50c,y\n sta $52c,y\n sta $532,y\n lda $50d,y\n sta $52d,y\n sta $531,y\n lda $50e,y\n sta $52e,y\n sta $530,y\n lda $50f,y\n sta $52f,y\n tya\n adc #$df\n tay\n bcs ll2\n ldy #$e0\n sec\nll3:\n lda $403,y\n sta $423,y\n sta $43b,y\n lda $404,y\n sta $424,y\n sta $43a,y\n lda $405,y\n sta $425,y\n sta $439,y\n lda $406,y\n sta $426,y\n sta $438,y\n lda $407,y\n sta $427,y\n sta $437,y\n lda $408,y\n sta $428,y\n sta $436,y\n lda $409,y\n sta $429,y\n sta $435,y\n lda $40a,y\n sta $42a,y\n sta $434,y\n lda $40b,y\n sta $42b,y\n sta $433,y\n lda $40c,y\n sta $42c,y\n sta $432,y\n lda $40d,y\n sta $42d,y\n sta $431,y\n lda $40e,y\n sta $42e,y\n sta $430,y\n lda $40f,y\n sta $42f,y\n tya\n adc #$df\n tay\n bcs ll3\n ldy #$e0\n sec\nll4:\n lda $303,y\n sta $323,y\n sta $33b,y\n lda $304,y\n sta $324,y\n sta $33a,y\n lda $305,y\n sta $325,y\n sta $339,y\n lda $306,y\n sta $326,y\n sta $338,y\n lda $307,y\n sta $327,y\n sta $337,y\n lda $308,y\n sta $328,y\n sta $336,y\n lda $309,y\n sta $329,y\n sta $335,y\n lda $30a,y\n sta $32a,y\n sta $334,y\n lda $30b,y\n sta $32b,y\n sta $333,y\n lda $30c,y\n sta $32c,y\n sta $332,y\n lda $30d,y\n sta $32d,y\n sta $331,y\n lda $30e,y\n sta $32e,y\n sta $330,y\n lda $30f,y\n sta $32f,y\n tya\n adc #$df\n tay\n bcs ll4\n ldy #$e0\n sec\nll1:\n lda $203,y\n sta $223,y\n sta $23b,y\n lda $204,y\n sta $224,y\n sta $23a,y\n lda $205,y\n sta $225,y\n sta $239,y\n lda $206,y\n sta $226,y\n sta $238,y\n lda $207,y\n sta $227,y\n sta $237,y\n lda $208,y\n sta $228,y\n sta $236,y\n lda $209,y\n sta $229,y\n sta $235,y\n lda $20a,y\n sta $22a,y\n sta $234,y\n lda $20b,y\n sta $22b,y\n sta $233,y\n lda $20c,y\n sta $22c,y\n sta $232,y\n lda $20d,y\n sta $22d,y\n sta $231,y\n lda $20e,y\n sta $22e,y\n sta $230,y\n lda $20f,y\n sta $22f,y\n tya\n adc #$df\n tay\n bcs ll1\n jmp l3\nrule:\n dcb 0,2,0,1,1,2,0\n",
-    " jmp $700\n *=$700\n ldx #0\t\t\n ldy #0\n lda #0\n sta $0\n sta $3\n lda #2\n sta $1\nloop:\n lda colors,x\n bpl ok\n inc $0\n ldx #0\n lda colors,x\nok:\n inx\n sta ($0),y\n iny\n bne ok2\n inc $1\n lda $1\n cmp #6\n beq end\nok2:\n jmp loop\nend:\n inc $3\n lda $3\n and #$3f\n tax\n ldy #0\n lda #2\n sta $1\n sty $0\n jmp loop\ncolors:\ndcb 0,2,0,2,2,8,2,8,8,7,8,7,7,1,7,1,1,7,1,7,7,8,7,8\ndcb 8,2,8,2,2,0,2,0,2,2,8,2,8,8,7,8,7,7,1,7,1,1,1,1\ndcb 1,1,1,1,7,1,7,7,8,7,8,8,2,8,2,2,255\n",
-    "jmp init_font_table\nstart:\nlda #<y_start_pos1\nsta $b\nlda #>y_start_pos1\nsta $c\nlda #<y_start_pos2\nsta $d\nlda #>y_start_pos2\nsta $e\nlda #<y_start_pos3\nsta $f\nlda #>y_start_pos3\nsta $10\nlda #<y_start_pos4\nsta $11\nlda #>y_start_pos4\nsta $12\nlda #<y_start_pos5\nsta $13\nlda #>y_start_pos5\nsta $14\nlda #<y_start_pos4\nsta $15\nlda #>y_start_pos4\nsta $16\nlda #<y_start_pos3\nsta $17\nlda #>y_start_pos3\nsta $18\nlda #<y_start_pos2\nsta $19\nlda #>y_start_pos2\nsta $1a\nlda #0\nsta $8\nmain_loop:\ninc $1c\ninc $1d\nldy $8\nldx $b,y\ntxa\nsta $9\niny\nldx $b,y\ntxa\nsta $a\niny\ntya\ncmp #$10\nbne store_idx\nlda #0\nstore_idx:\nsta $8\nldy #0\nlda #$ff\nsta $4\ndisplay_loop:\n  inc $4\n  ldx $d0,y\n  stx $2\n  iny\n  ldx $d0,y\n  stx $3\n  sty $7\n  jsr dis_pat\n  inc $4\n  jsr dis_pat\n  ldy $7\n  iny\n  tya\n  cmp #$20\n  bne display_loop\njmp main_loop\nrts\ninit_font_table:\n  lda #<pattern_a\n  sta $d0\n  lda #>pattern_a\n  sta $d1\n  lda #<pattern_b\n  sta $d2\n  lda #>pattern_b\n  sta $d3\n  lda #<pattern_c\n  sta $d4\n  lda #>pattern_c\n  sta $d5\n  lda #<pattern_null\n  sta $d6\n  lda #>pattern_null\n  sta $d7\n  lda #<pattern_d\n  sta $d8\n  lda #>pattern_d\n  sta $d9\n  lda #<pattern_b\n  sta $da\n  lda #>pattern_b\n  sta $db\n  lda #<pattern_c\n  sta $dc\n  lda #>pattern_c\n  sta $dd\n  lda #<pattern_null\n  sta $de\n  lda #>pattern_null\n  sta $df\n  lda #<pattern_a\n  sta $e0\n  lda #>pattern_a\n  sta $e1\n  lda #<pattern_e\n  sta $e2\n  lda #>pattern_e\n  sta $e3\n  lda #<pattern_a\n  sta $e4\n  lda #>pattern_a\n  sta $e5\n  lda #<pattern_null\n  sta $e6\n  lda #>pattern_null\n  sta $e7\n  lda #<pattern_c\n  sta $e8\n  lda #>pattern_c\n  sta $e9\n  lda #<pattern_b\n  sta $ea\n  lda #>pattern_b\n  sta $eb\n  lda #<pattern_d\n  sta $ec\n  lda #>pattern_d\n  sta $ed\n  lda #<pattern_null\n  sta $ee\n  lda #>pattern_null\n  sta $ef\n  jmp start\ndis_pat:\n  ldy $4\n  lda ($9),y\n  tay\n  sty $5\n  ldy #0\ndis_pat_loop:\n  lda ($2),y\n  pha\n  tya\n  clc\n  adc $5\n  sty $6\n  tay\n  ldx $4\n  pla\n  beq go_paint\n  clc\n  sty $1b\n  tya\n  clc\n  adc $1c\n  and #$7\n  tay\n  lda color_row,y\n  ldy $1b\ngo_paint:\n  jsr paint\n  ldy $6\n  iny\n  tya\n  cmp #12\n  bne dis_pat_loop\n  rts\npaint:\n   pha\n   lda yl,y\n   sta $0\n   lda yh,y\n   sta $1\n   txa\n   tay\n   pla\n   sta ($0),y\n   rts\nyh:\n       dcb $02, $02, $02, $02, $02, $02, $02, $02\n       dcb $03, $03, $03, $03, $03, $03, $03, $03\n       dcb $04, $04, $04, $04, $04, $04, $04, $04\n       dcb $05, $05, $05, $05, $05, $05, $05, $05\nyl:\n       dcb $00, $20, $40, $60, $80, $a0, $c0, $e0\n       dcb $00, $20, $40, $60, $80, $a0, $c0, $e0\n       dcb $00, $20, $40, $60, $80, $a0, $c0, $e0\n       dcb $00, $20, $40, $60, $80, $a0, $c0, $e0 \npattern_a:\n  dcb 0,1,1,1,1,1,1,1,1,1,1,0\npattern_b:\n  dcb 0,1,1,0,0,1,1,0,0,1,1,0\npattern_c:\n  dcb 0,1,1,0,0,1,1,1,1,1,1,0\npattern_d:\n  dcb 0,1,1,1,1,1,1,0,0,1,1,0\npattern_e:\n  dcb 0,1,1,0,0,0,0,0,0,1,1,0\npattern_null:\n  dcb 0,0,0,0,0,0,0,0,0,0,0,0\ny_start_pos1:\n  dcb 10,10,9,9,8,8,7,7,6,6,7,7,8,8,9,9,10,10,9,9,8,8,7,7\n  dcb 6,6,7,7,8,8\ny_start_pos2:\n  dcb 9,9,8,8,8,8,8,8,7,7,8,8,8,8,8,8,9,9,8,8,8,8,8,8\n  dcb 7,7,8,8,8,8\ny_start_pos3:\n  dcb 8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8\n  dcb 8,8,8,8,8,8\ny_start_pos4:\n  dcb 7,7,8,8,8,8,8,8,9,9,8,8,8,8,8,8,7,7,8,8,8,8,8,8\n  dcb 9,9,8,8,8,8\ny_start_pos5:\n  dcb  6, 6,7,7,8,8,9,9,10,10,9,9,8,8,7,7, 6, 6,7,7,8,8,9,9\n  dcb 10,10,9,9,8,8\ncolor_row:\n  dcb $7,$8,$9,$2,$4,$6,$e,$3,$d,$5\n",
-    "start:\n  ldx #0\nc:lda bottombar,x\n  cmp #$ff\n  beq init\n  sta $4e0,x\n  sta $5e0,x\n  inx\n  jmp c\ninit:\n  jsr initDraw\n  lda #0\n  sta $10\n  sta $11\nloop:\n  jsr drawMain\n  jsr putfont\n  jsr scrollarea\n  jmp loop\nscrollarea:\n  ldx #0\ng:lda $521,x\n  sta $520,x\n  lda $541,x\n  sta $540,x\n  lda $561,x\n  sta $560,x\n  lda $581,x\n  sta $580,x\n  lda $5a1,x\n  sta $5a0,x\n  inx\n  cpx #31\n  bne g\n  rts\nputfont:\n  lda $10\n  cmp #0\n  bne noNext\n  inc $11\n  ldx $11\n  lda scrolltext,x\n  tax\n  lda fontSize,x\n  sta $10\nnoNext:\n  dec $10\n  ldx $11\n  lda scrolltext,x\n  cmp #$ff\n  bne notResetText\n  lda #0\n  sta $10\n  sta $11\n  rts\nnotResetText:\n  asl\n  tax\n  lda fontlookup,x\n  sta $2\n  inx\n  lda fontlookup,x\n  sta $3\n  lda #<fonts\n  clc\n  adc $2\n  sta $0\n  lda #>fonts\n  adc $3\n  sta $1\n  ldy $10\n  lda ($00),y\n  sta $53f\n  tya\n  clc\n  adc #6\n  tay\n  lda ($00),y\n  sta $55f\n  tya\n  clc\n  adc #6\n  tay\n  lda ($00),y\n  sta $57f\n  tya\n  clc\n  adc #6\n  tay\n  lda ($00),y\n  sta $59f\n  tya\n  clc\n  adc #6\n  tay\n  lda ($00),y\n  sta $5bf\n  rts\ninitDraw:\n  lda #<picture\n  sta $20\n  lda #>picture\n  sta $21\n  lda #$00\n  sta $22\n  lda #$02\n  sta $23\n  ldx #$0\n  rts\ndrawMain:\n  ldx #0\n  lda ($20,x)\n  cmp #$ff\n  beq done\n  sta ($22,x)\n  inc $20\n  lda $20\n  cmp #$00\n  bne n1\n  inc $21\nn1:\n  inc $22\n  lda $22 \n  cmp #$00\n  bne done\n  lda $23\n  cmp #$05\n  beq done\n  inc $23\ndone:\n  rts\npicture:\n  dcb 0,0,0,0,0,0,0,0,0,$b,$b,$c,$f,$f,$f,$f\n  dcb $f,$b,0,0,0,$b,$b,$c,$c,$f,$f,$b,0,0,0,0\n  dcb 0,0,0,0,0,0,0,0,0,$b,$c,$c,$f,$c,$f,$f\n  dcb $b,$b,$b,$b,$b,0,$b,$b,$c,$f,$f,$c,0,0,0,0\n  dcb 0,0,0,0,0,0,0,$b,0,$c,$b,$f,$c,$f,$f,$c\n  dcb $c,$b,0,$b,$c,$c,$c,$f,$f,1,$f,$c,$b,0,0,0\n  dcb 0,0,0,0,0,0,0,0,$b,$b,$c,$c,$c,$f,$f,$f\n  dcb $c,$c,$c,$c,$c,$c,$f,$c,$f,$f,$f,$f,$b,0,0,0\n  dcb 0,0,0,0,0,0,0,$b,0,0,$b,$c,$c,$f,$f,$f\n  dcb $f,$c,$f,$f,$f,$f,$f,$f,$f,1,$f,$f,$c,0,0,0\n  dcb 0,0,0,0,0,0,0,0,0,$b,$b,$b,$c,$f,$f,1\n  dcb $f,$f,$c,$f,$f,$f,1,$f,$f,$f,$f,$f,$f,0,0,0\n  dcb 0,0,0,0,0,0,0,0,0,$b,$b,$b,$b,$c,$f,1\n  dcb $f,$f,$f,$f,$f,$f,$f,$f,1,$f,$f,$f,$f,$b,0,0\n  dcb 0,0,0,0,0,0,0,0,$b,0,$b,$c,$b,$c,$c,1\n  dcb 1,$f,1,$f,1,$f,1,$f,$f,1,$f,$f,1,$b,0,0\n  dcb 0,0,0,0,0,0,0,$b,$b,$b,$c,$c,$b,$c,$f,1\n  dcb 1,1,$f,$f,1,$f,$f,1,$f,$f,$f,$f,1,$c,0,0\n  dcb 0,0,0,0,0,0,0,$b,$b,$c,$c,$c,$b,$c,$c,$f\n  dcb 1,1,1,$f,$f,1,$f,1,$f,1,$f,$f,1,$c,0,0\n  dcb 0,0,0,0,0,$b,$b,$b,$c,$c,$c,$f,$c,$c,$f,$f\n  dcb 1,1,1,1,$f,$f,$f,1,$f,1,$f,$f,$f,$f,0,0\n  dcb 0,0,0,0,0,0,$b,$c,$c,$c,$f,$c,$f,$c,$f,$f\n  dcb 1,1,1,1,1,$f,$f,1,$f,$f,$f,$f,1,$f,$b,0\n  dcb 0,0,0,0,$b,$b,$b,$c,$c,$f,$c,$f,$f,$c,$f,$f\n  dcb 1,1,1,1,1,$f,$f,$f,1,$f,$f,$f,1,$c,$b,$b\n  dcb 0,0,0,0,$b,$b,$c,$f,$c,$f,$f,$f,$f,$f,$c,$f\n  dcb 1,1,1,1,1,$f,$f,$f,1,$f,$f,$f,$f,$f,$b,$b\n  dcb 0,0,0,0,$b,$c,$c,$c,$f,$f,$f,$f,$f,$f,$f,$f\n  dcb $f,1,1,1,$f,$b,$f,$f,$f,1,$f,$f,$f,$f,$b,$b\n  dcb 0,0,0,0,$b,$c,$c,$f,$c,$f,$f,$f,$f,$f,$f,$f\n  dcb $f,$f,$f,$c,$b,$f,$f,1,$f,$f,$f,$f,$f,$f,$c,$b\n  dcb 0,0,0,0,$b,$b,$c,$c,$f,$c,$f,$f,$f,$f,$f,$f\n  dcb $c,$c,$b,$c,$c,$f,$f,1,$c,$c,$f,$f,$f,$f,$c,$b\n  dcb 0,0,0,0,$b,$b,$c,$c,$c,$f,$f,$f,$f,$f,$f,$f\n  dcb $f,$f,$f,$f,$f,1,$f,$c,$b,$f,$c,$f,$c,$f,$c,$b\n  dcb 0,0,0,0,0,$b,$c,$c,$c,$c,$f,$f,$f,$f,$f,$f\n  dcb $f,$f,$f,$f,$f,$c,$b,$c,$c,$c,$f,$f,$c,$f,$c,$c\n  dcb 0,0,0,0,0,$b,$b,$c,$c,$c,$c,$c,$f,$f,$f,$f\n  dcb $f,$f,$f,$c,$b,$b,$c,$c,$c,$f,$c,$f,$f,$f,$c,$b\n  dcb 0,0,0,0,0,$b,$b,$b,$b,$c,$c,$f,$c,$f,$f,$f\n  dcb $c,$c,$b,$b,$b,$c,$b,$b,$c,$c,$f,$c,$c,$f,$c,$c\n  dcb 0,0,0,0,0,0,$b,$b,$c,$b,$c,$c,$c,$c,$c,$c\n  dcb $b,$b,$b,$b,$c,$b,$b,$c,$c,$f,$f,$f,$c,$c,$c,$b\n  dcb 0,0,0,0,0,0,0,0,$b,$b,$b,$c,$c,$c,$c,$c\n  dcb $c,$c,$b,$b,$b,$b,$c,$c,$f,$f,$f,$c,$c,$c,$c,$c\n  dcb $ff\nfontSize:\n  dcb 5,5,5,5,5,5,5,5\n  dcb 2,5,5,5,6,6,5,5\n  dcb 6,5,5,4,5,6,6,6\n  dcb 6,5,2,3\nscrolltext:\n  dcb 0\n  dcb 14,13,11,24,27\n  dcb 03,04,15,19,07,27\n  dcb 12,0,10,4,18,27\n  dcb 8,19,27\n  dcb 15,14,18,18,8,1,11,4\n  dcb 26,26,26\n  dcb 19,7,8,18,27\n  dcb 8,18,27\n  dcb 19,7,4,27\n  dcb 5,8,17,18,19,27\n  dcb 3,4,12,14,27\n  dcb 12,0,3,4,27\n  dcb 8,13,27\n  dcb 19,7,8,18,27\n  dcb 4,13,21,26,26,26,26,27\n  dcb 7,14,15,4,27\n  dcb 24,14,20,27\n  dcb 11,8,10,4,27\n  dcb 8,19,26,26,26,27,27\n  dcb 22,22,22,26\n  dcb 3,4,15,19,7,26\n  dcb 14,17,6,27,27,27,27,27\n  dcb $ff\nfontlookup:\n  dcb $00,$00\n  dcb $20,$00\n  dcb $40,$00\n  dcb $60,$00\n  dcb $80,$00\n  dcb $a0,$00\n  dcb $c0,$00\n  dcb $e0,$00\n  dcb $00,$01\n  dcb $20,$01\n  dcb $40,$01\n  dcb $60,$01\n  dcb $80,$01\n  dcb $a0,$01\n  dcb $c0,$01\n  dcb $e0,$01\n  dcb $00,$02\n  dcb $20,$02\n  dcb $40,$02\n  dcb $60,$02\n  dcb $80,$02\n  dcb $a0,$02\n  dcb $c0,$02\n  dcb $e0,$02\n  dcb $00,$03\n  dcb $20,$03\n  dcb $40,$03\n  dcb $60,$03\nfonts:\n  dcb 0,1,1,0,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,1,1,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,0\n  dcb 0,1,1,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,1,1,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,1,1,1,0,0\n  dcb 0,0\n  dcb 0,1,1,0,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,1,1,0,0,0\n  dcb 0,0\n  dcb 0,1,1,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,1,1,1,0,0\n  dcb 0,0\n  dcb 1,1,1,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 0,1,1,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 1,1,1,1,0,0\n  dcb 0,0\n  dcb 1,1,1,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 0,1,1,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 0,0\n  dcb 1,1,1,0,0,0\n  dcb 0,0,0,1,0,0\n  dcb 1,1,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,1,1,0,0,0\n  dcb 0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,1,1,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,0\n  dcb 1,0,0,0,0,0\n  dcb 1,0,0,0,0,0\n  dcb 1,0,0,0,0,0\n  dcb 1,0,0,0,0,0\n  dcb 1,0,0,0,0,0\n  dcb 0,0\n  dcb 1,0,0,0,0,0\n  dcb 1,0,0,0,0,0\n  dcb 1,0,0,0,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,1,1,0,0,0\n  dcb 0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,1,0,1,0,0\n  dcb 0,0,1,1,0,0\n  dcb 0,1,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,0\n  dcb 0,0,0,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 1,1,1,1,0,0\n  dcb 0,0\n  dcb 1,0,0,0,1,0\n  dcb 1,1,0,1,1,0\n  dcb 1,0,1,0,1,0\n  dcb 1,0,0,0,1,0\n  dcb 1,0,0,0,1,0\n  dcb 0,0\n  dcb 1,0,0,0,1,0\n  dcb 1,0,0,1,1,0\n  dcb 1,0,1,0,1,0\n  dcb 1,1,0,0,1,0\n  dcb 1,0,0,0,1,0\n  dcb 0,0\n  dcb 0,1,1,0,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,1,1,0,0,0\n  dcb 0,0\n  dcb 0,1,1,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,1,1,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 0,0\n  dcb 0,1,1,0,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,1,0,1,0,0\n  dcb 1,0,1,0,0,0\n  dcb 0,0\n  dcb 0,1,1,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,1,1,1,0,0\n  dcb 0,1,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,0\n  dcb 1,1,1,0,0,0\n  dcb 0,0,0,1,0,0\n  dcb 0,1,1,0,0,0\n  dcb 1,0,0,0,0,0\n  dcb 0,1,1,1,0,0\n  dcb 0,0\n  dcb 1,1,1,0,0,0\n  dcb 0,1,0,0,0,0\n  dcb 0,1,0,0,0,0\n  dcb 0,1,0,0,0,0\n  dcb 0,1,0,0,0,0\n  dcb 0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,1,1,0,0,0\n  dcb 0,0\n  dcb 1,0,0,0,1,0\n  dcb 1,0,0,0,1,0\n  dcb 1,0,0,0,1,0\n  dcb 0,1,0,1,0,0\n  dcb 0,0,1,0,0,0\n  dcb 0,0\n  dcb 1,0,0,0,1,0\n  dcb 1,0,0,0,1,0\n  dcb 1,0,1,0,1,0\n  dcb 1,1,0,1,1,0\n  dcb 1,0,0,0,1,0\n  dcb 0,0\n  dcb 1,0,0,0,1,0\n  dcb 0,1,0,1,0,0\n  dcb 0,0,1,0,0,0\n  dcb 0,1,0,1,0,0\n  dcb 1,0,0,0,1,0\n  dcb 0,0\n  dcb 1,0,0,0,1,0\n  dcb 0,1,0,1,0,0\n  dcb 0,0,1,0,0,0\n  dcb 0,0,1,0,0,0\n  dcb 0,0,1,0,0,0\n  dcb 0,0\n  dcb 1,1,1,1,0,0\n  dcb 1,0,0,0,0,0\n  dcb 0,1,1,0,0,0\n  dcb 0,0,0,1,0,0\n  dcb 1,1,1,1,0,0\n  dcb 0,0\n  dcb 0,0,0,0,0,0\n  dcb 0,0,0,0,0,0\n  dcb 0,0,0,0,0,0\n  dcb 0,0,0,0,0,0\n  dcb 1,0,0,0,0,0\n  dcb 0,0\n  dcb 0,0,0,0,0,0\n  dcb 0,0,0,0,0,0\n  dcb 0,0,0,0,0,0\n  dcb 0,0,0,0,0,0\n  dcb 0,0,0,0,0,0\n  dcb 0,0\nbottombar:\n  dcb $b,$9,$b,9,8,9,8,$a,8,$a,7,$a,7,1,7,1,1\n  dcb 7,1,7,$a,7,$a,8,$a,8,9,8,9,$b,9,$b\n  dcb $ff\n",
-    " \nstart:\n inx\n txa\n sta $200, y\n sta $300, y\n sta $400, y\n sta $500, y\n iny\n tya\n cmp 16\n bne do\n iny\n jmp start\ndo:\n iny\n iny\n iny\n iny\njmp start\n",
+static const char * const demo_files[27l] = { "start:\n  lda #_b\n  jsr setcol\n  jsr delay\n  lda #_f\n  jsr setcol\n  jsr delay\n  lda #_1\n  jsr setcol\n  jsr delay\n  ldx #0\ncp:\n  lda pic,x\n  sta _200,x\n  lda pic2,x\n  sta _300,x\n  lda pic3,x\n  sta _400,x\n  lda pic4,x\n  sta _500,x\n  dex\n  bne cp\n  rts\nsetcol:\n  ldx #0\ns:sta _200,x\n  sta _300,x\n  sta _400,x\n  sta _500,x\n  dex\n  bne s\n  rts\ndelay:\n  ldy #29\nd1:\n  ldx #0\nd2:\n  dex\n  bne d2\n  dey\n  bne d1\n  rts\npic:\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0\n        dcb 0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1\n        dcb 1,1,1,1,1,1,1,0,_e,_e,_e,_e,0,_f,_f,_f\n        dcb _f,_f,_f,_f,0,0,0,_f,0,_e,_e,0,1,1,1,1\n        dcb 1,1,1,1,1,1,1,0,_e,_e,_e,_e,0,_f,_f,_f\n        dcb _f,_f,_f,_f,0,_e,0,_f,0,_e,_e,_e,0,1,1,1\n        dcb 1,1,1,1,1,1,1,0,_e,_e,_e,_e,0,_f,_f,_f\n        dcb _f,_f,_f,_f,0,_e,0,_f,0,_e,_e,_e,_e,0,1,1\n        dcb 1,1,1,1,1,1,1,0,_e,_e,_e,_e,0,_f,_f,_f\n        dcb _f,_f,_f,_f,0,0,0,_f,0,_e,_e,_e,_e,0,1,1\n        dcb 1,1,1,1,1,1,1,0,_e,_e,_e,_e,0,0,0,0\n        dcb 0,0,0,0,0,0,0,0,0,_e,_e,_e,_e,0,1,1\n \npic2:\n        dcb 1,1,1,1,1,1,1,0,_e,_e,_e,_e,_e,_e,_e,_e\n        dcb _e,_e,_e,_e,_e,_e,_e,_e,_e,_e,_e,_e,_e,0,1,1\n        dcb 1,1,1,1,1,1,1,0,_e,_e,_e,_e,_e,_e,_e,_e\n        dcb _e,_e,_e,_e,_e,_e,_e,_e,_e,_e,_e,_e,_e,0,1,1\n        dcb 1,1,1,1,1,1,1,0,_e,_e,_e,_e,_e,_e,_e,_e\n        dcb _e,_e,_e,_e,_e,_e,_e,_e,_e,_e,_e,_e,_e,0,1,1\n        dcb 1,1,1,1,1,1,1,0,_e,_e,_e,_e,_e,_e,_e,_e\n        dcb _e,_e,_e,_e,_e,_e,_e,_e,_e,_e,_e,_e,_e,0,1,1\n        dcb 1,1,1,1,1,1,1,0,_e,0,0,0,0,0,0,0\n        dcb 0,0,0,0,0,0,0,0,0,0,0,_e,_e,0,1,1\n        dcb 1,1,1,1,1,1,0,0,_e,0,0,1,1,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,0,_e,_e,0,1,1\n        dcb 1,1,1,1,1,0,1,0,_e,0,0,0,0,1,1,_e\n        dcb _e,_e,1,_e,1,_e,1,_e,1,1,0,_e,_e,0,1,1\n        dcb 1,1,1,0,0,1,1,0,0,1,0,1,1,0,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,0,_e,_e,0,1,1\npic3:\n        dcb 1,1,0,1,1,1,0,1,1,1,1,0,0,1,1,1\n        dcb _e,1,_e,1,_e,1,_e,1,1,1,0,_e,_e,0,1,1\n        dcb 1,0,1,1,0,1,1,1,1,1,1,1,0,1,1,0\n        dcb 1,1,1,1,1,1,1,1,1,1,0,_e,_e,0,1,1\n        dcb 1,0,1,0,1,1,1,1,1,1,0,0,1,1,0,_f\n        dcb 0,1,0,1,1,1,0,0,0,1,0,_e,_e,0,1,1\n        dcb 1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,0\n        dcb 0,_f,1,0,1,_f,1,0,1,1,0,_e,_e,0,1,1\n        dcb 1,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0\n        dcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1\n        dcb 1,0,1,1,1,1,1,1,1,1,1,0,1,1,0,0\n        dcb 0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,0,1,1,1,1,1,1,1,1,1,0,1,0,0,1\n        dcb 0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,0,1,1,1,1,1,1,1,1,1,0,1,0,1,1\n        dcb 0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\npic4:\n        dcb 1,0,1,1,1,1,1,1,1,1,1,0,1,0,0,0\n        dcb 0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,0,1,1,1,1,1,1,0,0,0,0,0,1,1,0\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,0,1,1,1,1,1,1,0,1,1,1,0,0,0,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,0,1,1,1,1,1,0,1,1,1,0,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,0,1,1,1,1,1,0,1,1,1,0,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,0,1,1,1,1,1,0,1,1,1,0,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n        dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n\t\n",
+    "init:\n lda #_fe\n sta _2\n lda #_ee\n sta _3\ndrawbox:\n lda #0\n sta _0\n lda #2\n sta _1\n ldx #_20\nboxloop:\n lda #2\n sta _1ff,x\n sta _5df,x\n ldy #0\n sta (_0),y\n ldy #_1f\n sta (_0),y\n cpx #_1\n beq noblocks\n lda #3\n ldy #_17\n sta (_0),y\n lda #4\n iny\n sta (_0),y\n lda #5\n iny\n sta (_0),y\n lda #6\n iny\n sta (_0),y\nnoblocks:\n clc\n lda _0\n adc #_20\n sta _0\n lda _1\n adc #0\n sta _1\n dex\n bne boxloop\n ldx _2\n ldy _3\n lda #_44\n sta _0\n lda #_02\n sta _1\ndrawball:\n txa\n pha\n lda #1\n ldx #0\n sta (_0,x)\n pla\n tax\ndecloop:\n dex\n beq updatexpos\n dey\n bne decloop\nupdateypos:\n txa\n pha\n jsr clearball\nupdateyposnoclear:\n lda _3\n and #1\n bne moveup\nmovedown:\n clc\n lda _0\n adc #_20\n sta _0\n bcc ycollision\n inc _1\n bne ycollision\nmoveup:\n sec\n lda _0\n sbc #_20\n sta _0\n lda _1\n sbc #_0\n sta _1\nycollision:\n ldx #0\n lda (_0,x)\n bne ycollided\n ldy _3\n pla\n tax\n jmp drawball\nycollided:\n cmp #_2\n beq ycollided2\n lda #0\n sta (_0,x)\nycollided2:\n lda #1\n eor _3\n sta _3\n jmp updateyposnoclear\nupdatexpos:\n jsr clearball\nupdatexposnoclear:\n lda _2\n and #1\n bne moveleft\nmoveright:\n inc _0\n bne xcollision\nmoveleft:\n dec _0\nxcollision:\n ldx #0\n lda (_0,x)\n bne xcollided\n ldx _2\n jmp drawball\nxcollided:\n cmp #_2\n beq xcollided2\n lda #0\n sta (_0,x)\nxcollided2:\n lda #1\n eor _2\n sta _2\n jmp updatexposnoclear\nclearball:\n lda #0\n tax\n sta (_0,x)\n rts\n",
+    " \nstart:\n  lda #<logo\n  sta _0\n  lda #>logo\n  sta _1\n  lda #_00\n  sta _2\n  lda #_02\n  sta _3\ndecrunchLoop:\n  lda _3\n  cmp #_6\n  bne moreWork \n  rts\nmoreWork:\n  ldy #0\n  lda (_0),y\n  cmp #_ff\n  bne notCrunched\n  iny\n  lda (_0),y\n  sta _4\n  iny\n  lda (_0),y\n  ldy _4\ndrawLoop:\n  ldx #0\n  sta (_2,x)\n  jsr nextPixel\n  dey\n  bne drawLoop\n  jsr getNextByte\n  jsr getNextByte\n  jmp decrunchLoop\nnotCrunched:\n  ldx #0\n  sta (_2,x)\n  jsr nextPixel\n  jsr getNextByte\n  jmp decrunchLoop\ngetNextByte:\n  inc _0\n  lda _0\n  cmp #_00\n  bne notHi\n  inc _1\nnotHi:\n  rts\nnextPixel:\n  inc _2\n  ldx _2\n  cpx #_00\n  bne notNextLine\n  inc _3\nnotNextLine:\n  rts\nlogo:\n dcb _ff,43,1,_f,_f,_f,_c,_f,_f,_f,_ff,24,1,_c,_f,_c,0\n dcb _c,_f,_c,_ff,24,1,0,_f,_c,0,_c,_f,_c,_ff,24,1\n dcb _c,_f,_c,0,_c,_f,_c,_ff,24,1,0,_f,_c,0,_c,_f,_c\n dcb _ff,24,1,_c,_f,0,0,_c,_f,_c,_ff,24,1,0,_f,_c,0\n dcb _c,_f,_c,_ff,24,1,0,_f,_c,0,_c,_f,0,_ff,24,1\n dcb 0,_f,_c,0,_c,_f,0,_ff,23,1,_f,0,_f,_c,0,_c,_f,0,_f\n dcb _ff,22,1,_c,0,1,_c,0,_c,_f,0,_c,_ff,21,1\n dcb _f,0,0,1,0,0,_c,1,0,0,_ff,21,1,_c,0,_c,1,_c,0\n dcb _c,1,_c,0,_c,_ff,19,1,_f,0,0,_f,1,_c,0\n dcb _c,1,_f,0,0,_f,_ff,17,1,_f,0,0,0,1,1,_c,0\n dcb _c,1,1,0,0,0,_ff,16,1,_f,0,0,0,_f,1,1,0,0\n dcb _c,1,1,_f,0,0,0,_f,_ff,13,1\n dcb _c,0,0,0,_c,1,1,1,_c,0,_c,1,1,1,_c,0,0,0,_c\n dcb _ff,10,1,_c,0,0,0,0,_c,1,1,1,1,0,0\n dcb _c,1,1,1,1,0,0,0,0,0,_c,_ff,8,1\n dcb 0,0,0,0,_c,1,1,1,1,1,0,0\n dcb _c,1,1,1,1,1,_c,0,0,0,0,1,1,1,1,1\n dcb 1,1,1,1,0,0,_c,1,1,1,1,1,1,1,_c,0\n dcb _c,1,1,1,1,1,1,_f,_c,0,0,_ff,18,1,_f\n dcb _ff,53,1,0,_f,1,0,0,0,0,0,_f,1,_c\n dcb _c,1,1,1,_c,0,0,0,1,1,0,_f,_f,1,1,1\n dcb 1,1,1,1,_c,0,0,1,1,1,0,_f,1,1,_f,0\n dcb 0,_f,1,1,0,_f,1,_c,_c,1,0,_f,1,1,1,1\n dcb 1,1,1,1,0,_f,0,_f,1,1,0,_f,1,1,_f,_c\n dcb _c,_c,1,1,0,1,1,_f,0,1,0,_f,1,1,1,1\n dcb 1,1,1,1,0,1,_c,_f,1,1,_c,_f,1,1,0,_f\n dcb _f,0,1,1,0,_f,_f,0,_f,1,0,_f,1,1,1,1\n dcb 1,1,1,_c,0,_c,0,0,1,1,0,_f,1,1,0,_c\n dcb _c,0,_f,1,0,_f,0,_f,1,1,0,_f,1,1,1,1\n dcb 1,1,1,0,_c,_f,_f,0,_f,1,_c,_f,1,_c,_c,_f\n dcb _f,_c,_c,1,0,1,_f,_c,1,1,0,_f,1,1,1,1\n dcb 1,1,_f,0,1,1,1,_c,_c,1,0,_f,1,0,_f,1\n dcb 1,_f,0,1,0,_f,1,0,_f,1,0,_f,_ff,16,1\n dcb _f,_ff,5,1,_f,1,1,1,_f,_ff,38,1\n",
+    " lda #1\n sta _20f\nl3:\n lda #2\n sta 3\n sta 5\n sta 7\n lda #1\n sta 9\n sta 6\n lda #255\n sta 8\n lda #0\n sta 2\n lda #32\n sta 4\n ldx #30\nl1:\n ldy #31\nl2:\n lda (_2),y\n ora (_6),y\n eor (_8),y\n sta (_4),y\n dey\n bpl l2\n lda _2\n adc #32\n sta _2\n lda _3\n adc #0\n sta _3\n lda _4\n adc #32\n sta _4\n lda _5\n adc #0\n sta _5\n lda _6\n adc #32\n sta _6\n lda _7\n adc #0\n sta _7\n lda _8\n adc #32\n sta _8\n lda _9\n adc #0\n sta _9\n dex\n bpl l1\n ldy #31\nl4:\n lda (_2),y\n sta _200,y\n dey\n bpl l4\n jmp l3\n",
+    " lda #1\n sta _22f\nl3:\n ldy #29\nl2:\n lda  _220,y\n adc _221,y\n adc _222,y\n tax\n lda rule,x\n sta  _201,y\n dey\n bpl l2\n ldy #_c0\n sec\nll2:\n lda _503,y\n sta _523,y\n sta _53b,y\n lda _504,y\n sta _524,y\n sta _53a,y\n lda _505,y\n sta _525,y\n sta _539,y\n lda _506,y\n sta _526,y\n sta _538,y\n lda _507,y\n sta _527,y\n sta _537,y\n lda _508,y\n sta _528,y\n sta _536,y\n lda _509,y\n sta _529,y\n sta _535,y\n lda _50a,y\n sta _52a,y\n sta _534,y\n lda _50b,y\n sta _52b,y\n sta _533,y\n lda _50c,y\n sta _52c,y\n sta _532,y\n lda _50d,y\n sta _52d,y\n sta _531,y\n lda _50e,y\n sta _52e,y\n sta _530,y\n lda _50f,y\n sta _52f,y\n tya\n adc #_df\n tay\n bcs ll2\n ldy #_e0\n sec\nll3:\n lda _403,y\n sta _423,y\n sta _43b,y\n lda _404,y\n sta _424,y\n sta _43a,y\n lda _405,y\n sta _425,y\n sta _439,y\n lda _406,y\n sta _426,y\n sta _438,y\n lda _407,y\n sta _427,y\n sta _437,y\n lda _408,y\n sta _428,y\n sta _436,y\n lda _409,y\n sta _429,y\n sta _435,y\n lda _40a,y\n sta _42a,y\n sta _434,y\n lda _40b,y\n sta _42b,y\n sta _433,y\n lda _40c,y\n sta _42c,y\n sta _432,y\n lda _40d,y\n sta _42d,y\n sta _431,y\n lda _40e,y\n sta _42e,y\n sta _430,y\n lda _40f,y\n sta _42f,y\n tya\n adc #_df\n tay\n bcs ll3\n ldy #_e0\n sec\nll4:\n lda _303,y\n sta _323,y\n sta _33b,y\n lda _304,y\n sta _324,y\n sta _33a,y\n lda _305,y\n sta _325,y\n sta _339,y\n lda _306,y\n sta _326,y\n sta _338,y\n lda _307,y\n sta _327,y\n sta _337,y\n lda _308,y\n sta _328,y\n sta _336,y\n lda _309,y\n sta _329,y\n sta _335,y\n lda _30a,y\n sta _32a,y\n sta _334,y\n lda _30b,y\n sta _32b,y\n sta _333,y\n lda _30c,y\n sta _32c,y\n sta _332,y\n lda _30d,y\n sta _32d,y\n sta _331,y\n lda _30e,y\n sta _32e,y\n sta _330,y\n lda _30f,y\n sta _32f,y\n tya\n adc #_df\n tay\n bcs ll4\n ldy #_e0\n sec\nll1:\n lda _203,y\n sta _223,y\n sta _23b,y\n lda _204,y\n sta _224,y\n sta _23a,y\n lda _205,y\n sta _225,y\n sta _239,y\n lda _206,y\n sta _226,y\n sta _238,y\n lda _207,y\n sta _227,y\n sta _237,y\n lda _208,y\n sta _228,y\n sta _236,y\n lda _209,y\n sta _229,y\n sta _235,y\n lda _20a,y\n sta _22a,y\n sta _234,y\n lda _20b,y\n sta _22b,y\n sta _233,y\n lda _20c,y\n sta _22c,y\n sta _232,y\n lda _20d,y\n sta _22d,y\n sta _231,y\n lda _20e,y\n sta _22e,y\n sta _230,y\n lda _20f,y\n sta _22f,y\n tya\n adc #_df\n tay\n bcs ll1\n jmp l3\nrule:\n dcb 0,2,0,1,1,2,0\n",
+    " jmp _700\n *=_700\n ldx #0\t\t\n ldy #0\n lda #0\n sta _0\n sta _3\n lda #2\n sta _1\nloop:\n lda colors,x\n bpl ok\n inc _0\n ldx #0\n lda colors,x\nok:\n inx\n sta (_0),y\n iny\n bne ok2\n inc _1\n lda _1\n cmp #6\n beq end\nok2:\n jmp loop\nend:\n inc _3\n lda _3\n and #_3f\n tax\n ldy #0\n lda #2\n sta _1\n sty _0\n jmp loop\ncolors:\ndcb 0,2,0,2,2,8,2,8,8,7,8,7,7,1,7,1,1,7,1,7,7,8,7,8\ndcb 8,2,8,2,2,0,2,0,2,2,8,2,8,8,7,8,7,7,1,7,1,1,1,1\ndcb 1,1,1,1,7,1,7,7,8,7,8,8,2,8,2,2,255\n",
+    "jmp init_font_table\nstart:\nlda #<y_start_pos1\nsta _b\nlda #>y_start_pos1\nsta _c\nlda #<y_start_pos2\nsta _d\nlda #>y_start_pos2\nsta _e\nlda #<y_start_pos3\nsta _f\nlda #>y_start_pos3\nsta _10\nlda #<y_start_pos4\nsta _11\nlda #>y_start_pos4\nsta _12\nlda #<y_start_pos5\nsta _13\nlda #>y_start_pos5\nsta _14\nlda #<y_start_pos4\nsta _15\nlda #>y_start_pos4\nsta _16\nlda #<y_start_pos3\nsta _17\nlda #>y_start_pos3\nsta _18\nlda #<y_start_pos2\nsta _19\nlda #>y_start_pos2\nsta _1a\nlda #0\nsta _8\nmain_loop:\ninc _1c\ninc _1d\nldy _8\nldx _b,y\ntxa\nsta _9\niny\nldx _b,y\ntxa\nsta _a\niny\ntya\ncmp #_10\nbne store_idx\nlda #0\nstore_idx:\nsta _8\nldy #0\nlda #_ff\nsta _4\ndisplay_loop:\n  inc _4\n  ldx _d0,y\n  stx _2\n  iny\n  ldx _d0,y\n  stx _3\n  sty _7\n  jsr dis_pat\n  inc _4\n  jsr dis_pat\n  ldy _7\n  iny\n  tya\n  cmp #_20\n  bne display_loop\njmp main_loop\nrts\ninit_font_table:\n  lda #<pattern_a\n  sta _d0\n  lda #>pattern_a\n  sta _d1\n  lda #<pattern_b\n  sta _d2\n  lda #>pattern_b\n  sta _d3\n  lda #<pattern_c\n  sta _d4\n  lda #>pattern_c\n  sta _d5\n  lda #<pattern_null\n  sta _d6\n  lda #>pattern_null\n  sta _d7\n  lda #<pattern_d\n  sta _d8\n  lda #>pattern_d\n  sta _d9\n  lda #<pattern_b\n  sta _da\n  lda #>pattern_b\n  sta _db\n  lda #<pattern_c\n  sta _dc\n  lda #>pattern_c\n  sta _dd\n  lda #<pattern_null\n  sta _de\n  lda #>pattern_null\n  sta _df\n  lda #<pattern_a\n  sta _e0\n  lda #>pattern_a\n  sta _e1\n  lda #<pattern_e\n  sta _e2\n  lda #>pattern_e\n  sta _e3\n  lda #<pattern_a\n  sta _e4\n  lda #>pattern_a\n  sta _e5\n  lda #<pattern_null\n  sta _e6\n  lda #>pattern_null\n  sta _e7\n  lda #<pattern_c\n  sta _e8\n  lda #>pattern_c\n  sta _e9\n  lda #<pattern_b\n  sta _ea\n  lda #>pattern_b\n  sta _eb\n  lda #<pattern_d\n  sta _ec\n  lda #>pattern_d\n  sta _ed\n  lda #<pattern_null\n  sta _ee\n  lda #>pattern_null\n  sta _ef\n  jmp start\ndis_pat:\n  ldy _4\n  lda (_9),y\n  tay\n  sty _5\n  ldy #0\ndis_pat_loop:\n  lda (_2),y\n  pha\n  tya\n  clc\n  adc _5\n  sty _6\n  tay\n  ldx _4\n  pla\n  beq go_paint\n  clc\n  sty _1b\n  tya\n  clc\n  adc _1c\n  and #_7\n  tay\n  lda color_row,y\n  ldy _1b\ngo_paint:\n  jsr paint\n  ldy _6\n  iny\n  tya\n  cmp #12\n  bne dis_pat_loop\n  rts\npaint:\n   pha\n   lda yl,y\n   sta _0\n   lda yh,y\n   sta _1\n   txa\n   tay\n   pla\n   sta (_0),y\n   rts\nyh:\n       dcb _02, _02, _02, _02, _02, _02, _02, _02\n       dcb _03, _03, _03, _03, _03, _03, _03, _03\n       dcb _04, _04, _04, _04, _04, _04, _04, _04\n       dcb _05, _05, _05, _05, _05, _05, _05, _05\nyl:\n       dcb _00, _20, _40, _60, _80, _a0, _c0, _e0\n       dcb _00, _20, _40, _60, _80, _a0, _c0, _e0\n       dcb _00, _20, _40, _60, _80, _a0, _c0, _e0\n       dcb _00, _20, _40, _60, _80, _a0, _c0, _e0 \npattern_a:\n  dcb 0,1,1,1,1,1,1,1,1,1,1,0\npattern_b:\n  dcb 0,1,1,0,0,1,1,0,0,1,1,0\npattern_c:\n  dcb 0,1,1,0,0,1,1,1,1,1,1,0\npattern_d:\n  dcb 0,1,1,1,1,1,1,0,0,1,1,0\npattern_e:\n  dcb 0,1,1,0,0,0,0,0,0,1,1,0\npattern_null:\n  dcb 0,0,0,0,0,0,0,0,0,0,0,0\ny_start_pos1:\n  dcb 10,10,9,9,8,8,7,7,6,6,7,7,8,8,9,9,10,10,9,9,8,8,7,7\n  dcb 6,6,7,7,8,8\ny_start_pos2:\n  dcb 9,9,8,8,8,8,8,8,7,7,8,8,8,8,8,8,9,9,8,8,8,8,8,8\n  dcb 7,7,8,8,8,8\ny_start_pos3:\n  dcb 8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8\n  dcb 8,8,8,8,8,8\ny_start_pos4:\n  dcb 7,7,8,8,8,8,8,8,9,9,8,8,8,8,8,8,7,7,8,8,8,8,8,8\n  dcb 9,9,8,8,8,8\ny_start_pos5:\n  dcb  6, 6,7,7,8,8,9,9,10,10,9,9,8,8,7,7, 6, 6,7,7,8,8,9,9\n  dcb 10,10,9,9,8,8\ncolor_row:\n  dcb _7,_8,_9,_2,_4,_6,_e,_3,_d,_5\n",
+    "start:\n  ldx #0\nc:lda bottombar,x\n  cmp #_ff\n  beq init\n  sta _4e0,x\n  sta _5e0,x\n  inx\n  jmp c\ninit:\n  jsr initDraw\n  lda #0\n  sta _10\n  sta _11\nloop:\n  jsr drawMain\n  jsr putfont\n  jsr scrollarea\n  jmp loop\nscrollarea:\n  ldx #0\ng:lda _521,x\n  sta _520,x\n  lda _541,x\n  sta _540,x\n  lda _561,x\n  sta _560,x\n  lda _581,x\n  sta _580,x\n  lda _5a1,x\n  sta _5a0,x\n  inx\n  cpx #31\n  bne g\n  rts\nputfont:\n  lda _10\n  cmp #0\n  bne noNext\n  inc _11\n  ldx _11\n  lda scrolltext,x\n  tax\n  lda fontSize,x\n  sta _10\nnoNext:\n  dec _10\n  ldx _11\n  lda scrolltext,x\n  cmp #_ff\n  bne notResetText\n  lda #0\n  sta _10\n  sta _11\n  rts\nnotResetText:\n  asl\n  tax\n  lda fontlookup,x\n  sta _2\n  inx\n  lda fontlookup,x\n  sta _3\n  lda #<fonts\n  clc\n  adc _2\n  sta _0\n  lda #>fonts\n  adc _3\n  sta _1\n  ldy _10\n  lda (_00),y\n  sta _53f\n  tya\n  clc\n  adc #6\n  tay\n  lda (_00),y\n  sta _55f\n  tya\n  clc\n  adc #6\n  tay\n  lda (_00),y\n  sta _57f\n  tya\n  clc\n  adc #6\n  tay\n  lda (_00),y\n  sta _59f\n  tya\n  clc\n  adc #6\n  tay\n  lda (_00),y\n  sta _5bf\n  rts\ninitDraw:\n  lda #<picture\n  sta _20\n  lda #>picture\n  sta _21\n  lda #_00\n  sta _22\n  lda #_02\n  sta _23\n  ldx #_0\n  rts\ndrawMain:\n  ldx #0\n  lda (_20,x)\n  cmp #_ff\n  beq done\n  sta (_22,x)\n  inc _20\n  lda _20\n  cmp #_00\n  bne n1\n  inc _21\nn1:\n  inc _22\n  lda _22 \n  cmp #_00\n  bne done\n  lda _23\n  cmp #_05\n  beq done\n  inc _23\ndone:\n  rts\npicture:\n  dcb 0,0,0,0,0,0,0,0,0,_b,_b,_c,_f,_f,_f,_f\n  dcb _f,_b,0,0,0,_b,_b,_c,_c,_f,_f,_b,0,0,0,0\n  dcb 0,0,0,0,0,0,0,0,0,_b,_c,_c,_f,_c,_f,_f\n  dcb _b,_b,_b,_b,_b,0,_b,_b,_c,_f,_f,_c,0,0,0,0\n  dcb 0,0,0,0,0,0,0,_b,0,_c,_b,_f,_c,_f,_f,_c\n  dcb _c,_b,0,_b,_c,_c,_c,_f,_f,1,_f,_c,_b,0,0,0\n  dcb 0,0,0,0,0,0,0,0,_b,_b,_c,_c,_c,_f,_f,_f\n  dcb _c,_c,_c,_c,_c,_c,_f,_c,_f,_f,_f,_f,_b,0,0,0\n  dcb 0,0,0,0,0,0,0,_b,0,0,_b,_c,_c,_f,_f,_f\n  dcb _f,_c,_f,_f,_f,_f,_f,_f,_f,1,_f,_f,_c,0,0,0\n  dcb 0,0,0,0,0,0,0,0,0,_b,_b,_b,_c,_f,_f,1\n  dcb _f,_f,_c,_f,_f,_f,1,_f,_f,_f,_f,_f,_f,0,0,0\n  dcb 0,0,0,0,0,0,0,0,0,_b,_b,_b,_b,_c,_f,1\n  dcb _f,_f,_f,_f,_f,_f,_f,_f,1,_f,_f,_f,_f,_b,0,0\n  dcb 0,0,0,0,0,0,0,0,_b,0,_b,_c,_b,_c,_c,1\n  dcb 1,_f,1,_f,1,_f,1,_f,_f,1,_f,_f,1,_b,0,0\n  dcb 0,0,0,0,0,0,0,_b,_b,_b,_c,_c,_b,_c,_f,1\n  dcb 1,1,_f,_f,1,_f,_f,1,_f,_f,_f,_f,1,_c,0,0\n  dcb 0,0,0,0,0,0,0,_b,_b,_c,_c,_c,_b,_c,_c,_f\n  dcb 1,1,1,_f,_f,1,_f,1,_f,1,_f,_f,1,_c,0,0\n  dcb 0,0,0,0,0,_b,_b,_b,_c,_c,_c,_f,_c,_c,_f,_f\n  dcb 1,1,1,1,_f,_f,_f,1,_f,1,_f,_f,_f,_f,0,0\n  dcb 0,0,0,0,0,0,_b,_c,_c,_c,_f,_c,_f,_c,_f,_f\n  dcb 1,1,1,1,1,_f,_f,1,_f,_f,_f,_f,1,_f,_b,0\n  dcb 0,0,0,0,_b,_b,_b,_c,_c,_f,_c,_f,_f,_c,_f,_f\n  dcb 1,1,1,1,1,_f,_f,_f,1,_f,_f,_f,1,_c,_b,_b\n  dcb 0,0,0,0,_b,_b,_c,_f,_c,_f,_f,_f,_f,_f,_c,_f\n  dcb 1,1,1,1,1,_f,_f,_f,1,_f,_f,_f,_f,_f,_b,_b\n  dcb 0,0,0,0,_b,_c,_c,_c,_f,_f,_f,_f,_f,_f,_f,_f\n  dcb _f,1,1,1,_f,_b,_f,_f,_f,1,_f,_f,_f,_f,_b,_b\n  dcb 0,0,0,0,_b,_c,_c,_f,_c,_f,_f,_f,_f,_f,_f,_f\n  dcb _f,_f,_f,_c,_b,_f,_f,1,_f,_f,_f,_f,_f,_f,_c,_b\n  dcb 0,0,0,0,_b,_b,_c,_c,_f,_c,_f,_f,_f,_f,_f,_f\n  dcb _c,_c,_b,_c,_c,_f,_f,1,_c,_c,_f,_f,_f,_f,_c,_b\n  dcb 0,0,0,0,_b,_b,_c,_c,_c,_f,_f,_f,_f,_f,_f,_f\n  dcb _f,_f,_f,_f,_f,1,_f,_c,_b,_f,_c,_f,_c,_f,_c,_b\n  dcb 0,0,0,0,0,_b,_c,_c,_c,_c,_f,_f,_f,_f,_f,_f\n  dcb _f,_f,_f,_f,_f,_c,_b,_c,_c,_c,_f,_f,_c,_f,_c,_c\n  dcb 0,0,0,0,0,_b,_b,_c,_c,_c,_c,_c,_f,_f,_f,_f\n  dcb _f,_f,_f,_c,_b,_b,_c,_c,_c,_f,_c,_f,_f,_f,_c,_b\n  dcb 0,0,0,0,0,_b,_b,_b,_b,_c,_c,_f,_c,_f,_f,_f\n  dcb _c,_c,_b,_b,_b,_c,_b,_b,_c,_c,_f,_c,_c,_f,_c,_c\n  dcb 0,0,0,0,0,0,_b,_b,_c,_b,_c,_c,_c,_c,_c,_c\n  dcb _b,_b,_b,_b,_c,_b,_b,_c,_c,_f,_f,_f,_c,_c,_c,_b\n  dcb 0,0,0,0,0,0,0,0,_b,_b,_b,_c,_c,_c,_c,_c\n  dcb _c,_c,_b,_b,_b,_b,_c,_c,_f,_f,_f,_c,_c,_c,_c,_c\n  dcb _ff\nfontSize:\n  dcb 5,5,5,5,5,5,5,5\n  dcb 2,5,5,5,6,6,5,5\n  dcb 6,5,5,4,5,6,6,6\n  dcb 6,5,2,3\nscrolltext:\n  dcb 0\n  dcb 14,13,11,24,27\n  dcb 03,04,15,19,07,27\n  dcb 12,0,10,4,18,27\n  dcb 8,19,27\n  dcb 15,14,18,18,8,1,11,4\n  dcb 26,26,26\n  dcb 19,7,8,18,27\n  dcb 8,18,27\n  dcb 19,7,4,27\n  dcb 5,8,17,18,19,27\n  dcb 3,4,12,14,27\n  dcb 12,0,3,4,27\n  dcb 8,13,27\n  dcb 19,7,8,18,27\n  dcb 4,13,21,26,26,26,26,27\n  dcb 7,14,15,4,27\n  dcb 24,14,20,27\n  dcb 11,8,10,4,27\n  dcb 8,19,26,26,26,27,27\n  dcb 22,22,22,26\n  dcb 3,4,15,19,7,26\n  dcb 14,17,6,27,27,27,27,27\n  dcb _ff\nfontlookup:\n  dcb _00,_00\n  dcb _20,_00\n  dcb _40,_00\n  dcb _60,_00\n  dcb _80,_00\n  dcb _a0,_00\n  dcb _c0,_00\n  dcb _e0,_00\n  dcb _00,_01\n  dcb _20,_01\n  dcb _40,_01\n  dcb _60,_01\n  dcb _80,_01\n  dcb _a0,_01\n  dcb _c0,_01\n  dcb _e0,_01\n  dcb _00,_02\n  dcb _20,_02\n  dcb _40,_02\n  dcb _60,_02\n  dcb _80,_02\n  dcb _a0,_02\n  dcb _c0,_02\n  dcb _e0,_02\n  dcb _00,_03\n  dcb _20,_03\n  dcb _40,_03\n  dcb _60,_03\nfonts:\n  dcb 0,1,1,0,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,1,1,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,0\n  dcb 0,1,1,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,1,1,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,1,1,1,0,0\n  dcb 0,0\n  dcb 0,1,1,0,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,1,1,0,0,0\n  dcb 0,0\n  dcb 0,1,1,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,1,1,1,0,0\n  dcb 0,0\n  dcb 1,1,1,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 0,1,1,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 1,1,1,1,0,0\n  dcb 0,0\n  dcb 1,1,1,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 0,1,1,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 0,0\n  dcb 1,1,1,0,0,0\n  dcb 0,0,0,1,0,0\n  dcb 1,1,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,1,1,0,0,0\n  dcb 0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,1,1,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,0\n  dcb 1,0,0,0,0,0\n  dcb 1,0,0,0,0,0\n  dcb 1,0,0,0,0,0\n  dcb 1,0,0,0,0,0\n  dcb 1,0,0,0,0,0\n  dcb 0,0\n  dcb 1,0,0,0,0,0\n  dcb 1,0,0,0,0,0\n  dcb 1,0,0,0,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,1,1,0,0,0\n  dcb 0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,1,0,1,0,0\n  dcb 0,0,1,1,0,0\n  dcb 0,1,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,0\n  dcb 0,0,0,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 1,1,1,1,0,0\n  dcb 0,0\n  dcb 1,0,0,0,1,0\n  dcb 1,1,0,1,1,0\n  dcb 1,0,1,0,1,0\n  dcb 1,0,0,0,1,0\n  dcb 1,0,0,0,1,0\n  dcb 0,0\n  dcb 1,0,0,0,1,0\n  dcb 1,0,0,1,1,0\n  dcb 1,0,1,0,1,0\n  dcb 1,1,0,0,1,0\n  dcb 1,0,0,0,1,0\n  dcb 0,0\n  dcb 0,1,1,0,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,1,1,0,0,0\n  dcb 0,0\n  dcb 0,1,1,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,1,1,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 0,0,0,1,0,0\n  dcb 0,0\n  dcb 0,1,1,0,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,1,0,1,0,0\n  dcb 1,0,1,0,0,0\n  dcb 0,0\n  dcb 0,1,1,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,1,1,1,0,0\n  dcb 0,1,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 0,0\n  dcb 1,1,1,0,0,0\n  dcb 0,0,0,1,0,0\n  dcb 0,1,1,0,0,0\n  dcb 1,0,0,0,0,0\n  dcb 0,1,1,1,0,0\n  dcb 0,0\n  dcb 1,1,1,0,0,0\n  dcb 0,1,0,0,0,0\n  dcb 0,1,0,0,0,0\n  dcb 0,1,0,0,0,0\n  dcb 0,1,0,0,0,0\n  dcb 0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,0,0,1,0,0\n  dcb 1,1,1,0,0,0\n  dcb 0,0\n  dcb 1,0,0,0,1,0\n  dcb 1,0,0,0,1,0\n  dcb 1,0,0,0,1,0\n  dcb 0,1,0,1,0,0\n  dcb 0,0,1,0,0,0\n  dcb 0,0\n  dcb 1,0,0,0,1,0\n  dcb 1,0,0,0,1,0\n  dcb 1,0,1,0,1,0\n  dcb 1,1,0,1,1,0\n  dcb 1,0,0,0,1,0\n  dcb 0,0\n  dcb 1,0,0,0,1,0\n  dcb 0,1,0,1,0,0\n  dcb 0,0,1,0,0,0\n  dcb 0,1,0,1,0,0\n  dcb 1,0,0,0,1,0\n  dcb 0,0\n  dcb 1,0,0,0,1,0\n  dcb 0,1,0,1,0,0\n  dcb 0,0,1,0,0,0\n  dcb 0,0,1,0,0,0\n  dcb 0,0,1,0,0,0\n  dcb 0,0\n  dcb 1,1,1,1,0,0\n  dcb 1,0,0,0,0,0\n  dcb 0,1,1,0,0,0\n  dcb 0,0,0,1,0,0\n  dcb 1,1,1,1,0,0\n  dcb 0,0\n  dcb 0,0,0,0,0,0\n  dcb 0,0,0,0,0,0\n  dcb 0,0,0,0,0,0\n  dcb 0,0,0,0,0,0\n  dcb 1,0,0,0,0,0\n  dcb 0,0\n  dcb 0,0,0,0,0,0\n  dcb 0,0,0,0,0,0\n  dcb 0,0,0,0,0,0\n  dcb 0,0,0,0,0,0\n  dcb 0,0,0,0,0,0\n  dcb 0,0\nbottombar:\n  dcb _b,_9,_b,9,8,9,8,_a,8,_a,7,_a,7,1,7,1,1\n  dcb 7,1,7,_a,7,_a,8,_a,8,9,8,9,_b,9,_b\n  dcb _ff\n",
+    " \nstart:\n inx\n txa\n sta _200, y\n sta _300, y\n sta _400, y\n sta _500, y\n iny\n tya\n cmp 16\n bne do\n iny\n jmp start\ndo:\n iny\n iny\n iny\n iny\njmp start\n",
     " dcb  76, 94, 11,133, 32,162,  8,160,  8,145, 16,136,208,251,165, 16\n dcb  24,105, 32,133, 16,165, 17,105,  0,133, 17,165, 32,202,208,231\n dcb  96,230, 48,165, 48, 41, 63,133, 48,170,189,106,  6,170,189,  8\n dcb   3,105,  1, 41,  3,157,  8,  3,138, 73,231,170,189,  0,  2,105\n dcb   1, 41,  3,157,  0,  2,165, 48, 73, 63,170,189,106,  6, 73,224\n dcb 170,189,  8,  2,105,  1, 41,  3,157,  8,  2,138, 73,231,170,189\n dcb   0,  3,105,  1, 41,  3,157,  0,  3, 96,224,192,160,128, 96,225\n dcb  64,193,161,226,129, 32,194, 97,162,227,195,130,228, 65,163,196\n dcb  98,229,131,164,197,230,231,132,165,198, 99, 66, 33,  0,199,166\n dcb 133,100,167, 67,134,101,135, 34, 68,102,103, 69, 35, 70, 71, 36\n dcb   1, 37, 38, 39,  2,  3,  4,  5,  6,  7,166, 48,189,198,  6,170\n dcb 254, 24,  3, 73,  7,170,254, 16,  3, 73,231,170,254, 24,  2, 73\n dcb   7,170,254, 16,  2, 96,  0, 32,  1, 33, 64,  2, 65, 34, 96, 66\n dcb   3, 97, 35, 98, 67,128,  4,129, 36, 99,130, 68,160,  5,161,131\n dcb 100, 37,162, 69,132,192,163,101,  6,193, 38,194, 70,164,133,195\n dcb 102,224,  7,225, 39,165,226,196,134, 71,227,103,197,166,228,135\n dcb 198,229,167,230,199,231,166, 49,189, 21,  7,170,189,  0,160,157\n dcb   0,  5,230, 49, 96,195,227,194,162,228, 97,226,128,129,130,225\n dcb  64,161,163,224, 96,160,193,196, 32, 98,192, 65,  0,131,229,164\n dcb  33, 99,197, 66,132,  1,230, 34,165, 67,100,198,  2,  3, 68,  6\n dcb  35,133,166,  5,101,  4,199,  7, 36,231, 69,134,167, 37, 38,102\n dcb 135, 70,232, 71, 39,103,136,200,168,  8, 11, 10,169,233,104,  9\n dcb  12,137,201, 13, 40, 44, 72, 43,170, 42, 45, 41,105, 73,202, 14\n dcb 138,234, 74, 75,106,203, 76,171, 46, 77,235,107,139, 15,108,172\n dcb 174,140,173,141,142,204,109,206,207,205, 78,175, 47,236,239,143\n dcb 237,238,110,240,241,111,208, 16, 79,176,209,242, 48,144,243, 80\n dcb 177,244,112,210, 17, 49,178,179, 52, 53,147, 18, 81,211,145, 19\n dcb 146, 51, 85,180, 20, 54,113,148, 22, 50, 84,212, 21, 55,115,245\n dcb  83,114,116, 23, 82, 86, 88, 89, 87,118,117,119,149,213, 56, 57\n dcb 181,214, 90,121,122,150,151,182,183,215,246, 58,120,247, 24,153\n dcb 184,152,216, 25, 26, 59, 91,248,123,185, 27, 60,217,154, 28, 92\n dcb 249, 29,155,186, 61,218, 93,124,250,187, 30,251, 62,156, 94,125\n dcb 219,188, 31,252,254,220,253, 63,126,255,157,221, 95,159,191,222\n dcb 127,189,223,158,190,165, 66, 41,224,208, 72,165, 66, 24,105,  1\n dcb  41, 31,133, 66,165, 67,240,  7,198, 67,169,  0, 76, 97,  8,198\n dcb  69,240,247, 16, 37,166, 64,230, 64,189,177,  9, 16, 15, 41,127\n dcb 133, 67, 73,127,208,228,169,  1,133, 70, 76, 42,  8,170,189,117\n dcb   8,133, 69,234,234,189,181,  8,133, 65,166, 65,230, 65,189,245\n dcb   8,133, 68,165, 66, 24,105,224,133, 66,166, 66,169,  1,102, 68\n dcb  42,157,  0,160, 96,  3,  3,  3,  3,  3,  3,  3,  3,  3,  3,  2\n dcb   3,  2,  3,  3,  3,  3,  3,  1,  2,  3,  1,  5,  3,  3,  3,  3\n dcb   3,  2,  2,  3,  3,  5,  4,  3,  3,  5,  4,  4,  4,  3,  3,  4\n dcb   4,  1,  3,  4,  3,  5,  5,  5,  4,  5,  4,  4,  3,  4,  4,  7\n dcb   4,  4,  4,  2,  1,  0,  3,  6,  9, 12, 15, 18, 21, 24, 27, 30\n dcb  32, 35, 35, 38, 40, 43, 46, 49, 50, 52,  4, 55, 55, 60, 63, 65\n dcb  68, 71, 73, 75, 78, 78, 33, 83, 86, 89, 94, 98,102,106,109,112\n dcb 116, 94,120,123,127,130,134,139,144,148,153,157,161,164,167,171\n dcb 178,171,182,186,  5, 56, 68, 56, 36,124,  4, 76, 84, 36, 68, 84\n dcb  40, 24, 40,124,100, 84, 88, 56, 84, 72, 76, 80, 96, 40, 84, 40\n dcb  36, 84, 56, 44, 28,124, 36, 24, 24, 36,124, 24, 52, 16, 60, 80\n dcb  24, 37, 30,124, 32, 28,188,  1,190,124, 24, 36, 60, 32, 28, 32\n dcb  28, 24, 36, 24, 63, 36, 24, 36, 63, 60, 16, 32, 52, 44,120, 36\n dcb  56,  4, 60, 56,  4, 56,  4, 56, 57,  6, 56, 44, 52, 36, 12, 48\n dcb 208, 48, 12,252,164,164, 88,120,132,132, 72,252,132,132,120,252\n dcb 164,132,252,160,128,120,132,164, 56,252, 32, 32,252,  8,  4,248\n dcb 252, 48, 80,140,252,  4,  4,252, 64, 60, 64,252, 64, 48,  8,252\n dcb 120,132,132,132,120,252,144,144, 96,120,132,134,133,120,252,144\n dcb 144,108, 68,164,164,152,128,252,128,248,  4,  4,248,  4,  8,240\n dcb 224, 28, 16,224, 28, 16,224,204, 48, 48,204,140,148,164,196,  0\n dcb   0,133, 41, 10, 28, 29, 63, 63, 63,136, 15, 10, 28, 29, 14, 27\n dcb  63, 63, 63,132, 55, 17, 18, 28, 62, 18, 28, 62, 10,136, 27, 14\n dcb  10, 21, 21, 34,143, 15, 10, 28, 29,142, 39, 40, 48, 50,149,145\n dcb  10, 23, 13, 62, 23, 24, 32,136, 28, 24, 22, 14,136, 11, 14, 10\n dcb  30, 29, 18, 15, 30, 21,128, 14, 15, 15, 14, 12, 29, 28, 63, 63\n dcb  63,144,159,255, 55, 17, 18, 28, 62, 18, 28, 62, 10, 21, 21,129\n dcb  15, 24, 27, 62, 23, 24, 32,136, 11, 34, 14, 63, 63, 63,141, 63\n dcb  63, 63, 11, 34, 14,150,159,143, 11, 34, 62, 39, 48, 54, 38,  2\n dcb   0,  0,  7, 63,  5, 63,  2,  9, 11, 34, 62, 39, 48, 54, 38,  2\n dcb   0,  0,  7, 63,  5, 63,  2,  9, 11, 34, 62, 39, 48, 54, 38,  2\n dcb   0,  0,  7, 63,  5, 63,  2,  9,143,159,255,169,  0,133, 42,169\n dcb   1,133, 44,133, 45,169,  0,133, 32,169,160,133, 33,165, 42,133\n dcb  43,162, 15,160, 15,145, 32, 24,101, 44,230, 44,136, 16,246,165\n dcb  32, 24,105, 32,133, 32,165, 33,105,  0,133, 33,169,  1,133, 44\n dcb 165, 43, 24,101, 45,133, 43,230, 45,202, 16,215,169,  0,133, 32\n dcb 169,160,133, 33,169,224,133, 34,169,  3,133, 35,169,  0,133, 36\n dcb 169,  4,133, 37,169,240,133, 38,169,  3,133, 39,169, 16,133, 40\n dcb 169,  4,133, 41,169, 15,133, 46,160, 15,177, 32, 74, 74, 74, 74\n dcb 170,189, 62, 11,209, 34,240, 18,145, 34,145, 36,170,152, 73, 15\n dcb 168,138,145, 38,145, 40,152, 73, 15,168,136, 16,221,165, 32, 24\n dcb 105, 32,133, 32,165, 33,105,  0,133, 33,165, 34, 24,105,224,133\n dcb  34,165, 35,105,255,133, 35,165, 36, 24,105, 32,133, 36,165, 37\n dcb 105,  0,133, 37,165, 38, 24,105,224,133, 38,165, 39,105,255,133\n dcb  39,165, 40, 24,105, 32,133, 40,165, 41,105,  0,133, 41,198, 46\n dcb  16,150,230, 42,165, 42, 41, 63,240,  3, 76, 95, 10, 96,  0, 11\n dcb  12, 15,  1, 15, 12, 11,  0, 11, 12, 15,  1, 15, 12, 11,  0, 11\n dcb  12, 15,  1, 15, 12, 11,  0, 11, 12, 15,  1, 15, 12, 11,169,  1\n dcb 162,255,134, 16,162,  1,134, 17, 32,  3,  6,169,  2,162,  7,134\n dcb  16,162,  2,134, 17, 32,  3,  6,169,  3,162,  7,134, 16,162,  3\n dcb 134, 17, 32,  3,  6,169, 31,133, 66,169,  0,133, 70,133, 67,133\n dcb  64,169,  1,141,109,  8,169,  0,141,114,  8,169,160,141,115,  8\n dcb 169, 63,133, 48,169,128,133, 49,169,  3,141,109,  8,169,  0,170\n dcb 157,  0,160,232,208,250, 32, 33,  6, 32,170,  6, 32,  6,  7, 32\n dcb  21,  8,165, 66, 73, 31,208, 13,173,109,  8, 24,105,  2, 41,  3\n dcb 105,  3,141,109,  8,165, 49,208,221,173, 17,  7, 73,  1,141, 17\n dcb   7,165, 70,240,209, 32, 29, 12, 32, 91, 10,169, 31,133, 66,169\n dcb   0,133, 70,133, 67,141,109,  8,169,  0,141,114,  8,169,  3,141\n dcb 115,  8, 32, 29, 12, 32, 21,  8,165, 66, 73, 31,208,247,173,115\n dcb   8, 73,  7,141,115,  8,165, 70,240,235, 76, 94, 11,169,  0,170\n dcb 157,  0,  2,157,  0,  3,157,  0,  4,157,  0,  5,232,208,241, 96\n \n",
-    "lda #0\n sta $0\nlop:\n lda $0\n sta $1\n lda #3\n sta $6\n lda #232\n sta $5\n ldx #0\nlpN:\n lsr $1\n bcc nos\n lda $5\n clc\n adc tL,x\n sta $5\n lda $6\n adc tH,x\n sta $6\nnos:\n inx\n lda $1\n bne lpN\n inx\n txa\n ldy #0\n sta ($5),y\n inc $0\n bne lop\n rts\ntL:\n dcb 32, 31, 254, 190, 128, 132, 8, 8\ntH:\n dcb 0, 0, 255, 255, 255, 255, 0, 1 \n",
-    "start:\n  lda #<logo\n  sta $0\n  lda #>logo\n  sta $1\n  lda #$00\n  sta $2\n  lda #$02\n  sta $3\n  ldx #$0\nl:\n  lda ($0,x)\n  sta ($2,x)\n  inc $00\n  lda $00\n  cmp #$00\n  bne notReset1\n  inc $01\nnotReset1:\n  inc $02\n  lda $02 \n  cmp #$00\n  bne notReset2\n  lda $03\n  cmp #$05\n  beq done\n  inc $03\nnotReset2:\n  jmp l\ndone:\n  rts\nlogo:\n dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,6,6,6\n dcb 6,6,6,6,1,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,1,1,1,1,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,1,1,6,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,1,6,6,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,6,6,6,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,6,6,6,6,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,6,6,6,6,6,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,6,6,6,6,6,6,6,6,6,6,6,6,1\n dcb 1,1,1,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,6,6,6,6,6,6,6,6,6,6,1,1,1\n dcb 1,1,1,1,1,6,6,6,6,6,6,6,6,6,6,6\n dcb 1,1,6,6,6,6,6,6,6,6,6,1,1,1,1,1\n dcb 1,1,1,1,1,6,6,6,6,6,6,6,6,6,6,1\n dcb 1,1,6,6,6,6,6,6,6,6,1,1,1,1,1,1\n dcb 1,1,1,1,1,6,6,6,6,6,6,6,6,6,1,1\n dcb 1,1,6,6,6,6,6,6,6,6,1,1,1,1,1,1\n dcb 1,1,1,1,1,6,6,6,6,6,6,6,6,1,1,1\n dcb 1,6,6,6,6,6,6,6,6,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,6,6,6,6,6,6,6,1,1,1,1\n dcb 1,6,6,6,6,6,6,6,6,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,6,6,6,6,6,6,1,1,1,1,1\n dcb 1,6,6,6,6,6,6,6,6,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,6,6,6,6,6,1,1,1,1,1,1\n dcb 1,6,6,6,6,6,6,6,6,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,2,2,2,2,2,1,1,1,1,1,1\n dcb 1,6,6,6,6,6,6,6,6,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,2,2,2,2,2,2,1,1,1,1,1\n dcb 1,6,6,6,6,6,6,6,6,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,2,2,2,2,2,2,2,1,1,1,1\n dcb 1,6,6,6,6,6,6,6,6,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1\n dcb 1,1,6,6,6,6,6,6,6,6,1,1,1,1,1,1\n dcb 1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1\n dcb 1,1,6,6,6,6,6,6,6,6,6,1,1,1,1,1\n dcb 1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,1\n dcb 1,1,1,6,6,6,6,6,6,6,6,6,1,1,1,1\n dcb 1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2\n dcb 1,1,1,6,6,6,6,6,6,6,6,6,6,1,1,1\n dcb 1,1,1,1,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,6,6,6,6,6,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,6,6,6,6,6,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,6,6,6,6,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,6,6,6,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,1,1,6,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,1,1,1,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,1,1,1,1,1,1,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n",
-    "init:\n  ldx #0\n  stx $0\n  inx\n  stx $2\n  stx $3\n  inx\n  stx $1\nloop:\n  lda $2\n  cmp #$20\n  bne notIncF2\n  inc $3\n  lda #0\n  sta $2\nnotIncF2:\n  inc $2\n  lda $2\n  sta $f1\n  lda $2\n  sta $f2\n  jsr multiply\n  lda $f4\n  sta $f8\n  lda $3\n  sta $f1\n  lda $3\n  sta $f2\n  jsr multiply\n  lda $f4\n  clc\n  adc $f8\n  lsr\n  lsr\n  lsr\n  lsr\n  lsr\n  ldx #0\n  sta ($0,x)\n  inc $0\n  lda $0\n  cmp #$00\n  bne notNextY\n  inc $1\n  lda $1\n  cmp #6\n  beq exit\nnotNextY:\n  jmp loop\nexit:\n  rts\nmultiply:\n  lda #0\n  sta $f4\n  sta $f5\n  ldx #8\na:asl $f4\n  rol $f5\n  asl $f2\n  bcc b\n  clc\n  lda $f4\n  adc $f1\n  sta $f4\n  bcc b\n  inc $f5\nb:dex\n  bne a\n  rts \n",
-    "\t\nloop:   \n   \tlda $fe\n\tand #$1f\n\ttay\n\ttax\n\tlda matrix,y\n\tsta $1\n\ttay\n\tlda #0\n\tjsr paint\n   inc $1\n   lda $1\n   and #$1f\n   sta matrix,y\n   tay\n   lda #5 \n   jsr paint\n   \tlda $fe\n\tand #$1f\n\ttay\n\ttax\n\tlda matrix,y\n\tsta $1\n\ttay\n\tlda #$d\n\tjsr paint\n   \tlda $fe\n\tand #$1f\n\ttay\n\ttax\n\tlda matrix,y\n\tsta $1\n\ttay\n\tlda #$5\n\tjsr paint\n   jmp loop\n\t\npaint:\n   pha\n   lda yl,y\n   sta $2\n   lda yh,y\n   sta $3\n   txa\n   tay\n   pla\n   sta ($2),y\n   rts\nyh:\n       dcb $02, $02, $02, $02, $02, $02, $02, $02\n       dcb $03, $03, $03, $03, $03, $03, $03, $03\n       dcb $04, $04, $04, $04, $04, $04, $04, $04\n       dcb $05, $05, $05, $05, $05, $05, $05, $05\n       \nyl:\n       dcb $00, $20, $40, $60, $80, $a0, $c0, $e0\n       dcb $00, $20, $40, $60, $80, $a0, $c0, $e0\n       dcb $00, $20, $40, $60, $80, $a0, $c0, $e0\n       dcb $00, $20, $40, $60, $80, $a0, $c0, $e0\n   \nmatrix:\n\tdcb 5,16,19,19,17,26,10,14,11,4,1,2,20,1,8,30\n\tdcb 17,26,19,19,31,21,11,19,3,24,4,24,13,8,8,26\n",
-    "start: ldy #$ff\n       ldx #$0\nloop:  lda $fe\n       sta $200,x\n       and #$7\n       sta $300,x\n       and #$3\n       sta $400,x\n       and #$1\n       sta $500,x\n       inx\n       dey\n       bne loop\n       rts\n",
-    "   lda #16\n   sta $0\n   sta $1\n   lda $fe\n   sta $5\n   lda $fe\n   sta $6\nloop:\n   ldx $0\n   ldy $1\n   lda $5\n   jsr paint\n   jsr walk\n   dec $6\n   bne loop\n   lda $fe\n   sta $5\n   lda $fe\n   sta $6\n   jmp loop\nwalk:\n   lda $fe\n   and #3\n   cmp #0\n   beq right\n   cmp #1\n   beq left\n   cmp #2\n   beq up\n   jmp down\nright:\n   inc $0\n   jmp done\nleft:\n   dec $0\n   jmp done\nup:\n   dec $1\n   jmp done\ndown:\n   inc $1\n   jmp done\ndone:\n   lda $0\n   and #31\n   sta $0\n   lda $1\n   and #31\n   sta $1\n   rts\npaint:\n   pha\n   lda yl,y\n   sta $2\n   lda yh,y\n   sta $3\n   txa\n   tay\n   pla\n   sta ($2),y\n   rts\nyh:\n       dcb $02, $02, $02, $02, $02, $02, $02, $02\n       dcb $03, $03, $03, $03, $03, $03, $03, $03\n       dcb $04, $04, $04, $04, $04, $04, $04, $04\n       dcb $05, $05, $05, $05, $05, $05, $05, $05\nyl:\n       dcb $00, $20, $40, $60, $80, $a0, $c0, $e0\n       dcb $00, $20, $40, $60, $80, $a0, $c0, $e0\n       dcb $00, $20, $40, $60, $80, $a0, $c0, $e0\n       dcb $00, $20, $40, $60, $80, $a0, $c0, $e0 \n",
-    "loop: lda $fe\n      sta $00\n      lda $fe\n      and #$3\n      clc\n      adc #$2\n      sta $01\n      lda $fe\n      ldy #$0\n      sta ($00),y\n      jmp loop\n",
-    "      lda $fe\n      sta $00\n      lda $fe\n      and #$3\n      clc\n      adc #$2\n      sta $01\n      lda $fe\n      ldy #$0\n      sta ($00),y\n      jmp $600\n",
-    "  lda #8\n  tax\ndr:\n  sta $3cb,x\n  sta $40b,x\n  dex\n  bpl dr\n  sta $3f3\n  sta $3eb\n  lda #1\n  sta $3ec\n  ldx #255\nmk:\n  lda $fe\n  sta $1200,x\n  lda $fe\n  sta $1300,x\n  lda $fe\n  sta $1400,x\n  lda $fe\n  sta $1500,x\n  dex\n  cpx #$ff\n  bne mk\n  ldy #0\nre:\n  lda #1\n  sta $3ec,y\n  ldx #255\nsm:\n  lda $1201,x\n  adc $11ff,x\n  adc $1220,x\n  adc $11e0,x\n  lsr\n  lsr\n  sta $1200,x\n  lda $1301,x\n  adc $12ff,x\n  adc $1320,x\n  adc $12e0,x\n  lsr\n  lsr\n  sta $1300,x\n  lda $1401,x\n  adc $13ff,x\n  adc $1420,x\n  adc $13e0,x\n  lsr\n  lsr\n  sta $1400,x\n  lda $1501,x\n  adc $14ff,x\n  adc $1520,x\n  adc $14e0,x\n  lsr\n  lsr\n  sta $1500,x\n  dex\n  cpx #$ff\n  bne sm\n  iny\n  cpy #7\n  bne re\n  lda #1\n  sta $3f0\n  clc\n  ldx #255\ncp:\n  lda $1200,x\n  lsr\n  lsr\n  tay\n  lda colors,y\n  sta $200,x\n  lda $1300,x\n  lsr\n  lsr\n  tay\n  lda colors,y\n  sta $300,x\n  lda $1400,x\n  lsr\n  lsr\n  tay\n  lda colors,y\n  sta $400,x\n  lda $1500,x\n  lsr\n  lsr\n  tay\n  lda colors,y\n  sta $500,x\n  dex\n  cpx #$ff\n  bne cp\n  rts\ncolors:\n  dcb 0,0,0,0,0,$9,$9,1,1,0,0,0,0,0\n",
-    "start:\nldx #0\ncs:\nlda $2000,x\nsta $500,x\ndex\nbne cs\nstx $20\nloop:\ninc $20\nlda $20\nand #$7f\ntay\nand #$1f\ntax\nlda sinus,x\ntax\nd:\nlda #0\nsta $1e0,x\nsta $2e0,x\nlda $1000,y\nsta $200,x\nlda $1080,y\nsta $220,x\nlda $1100,y\nsta $240,x\nlda $1180,y\nsta $260,x\nlda $1200,y\nsta $280,x\nlda $1280,y\nsta $2a0,x\nlda $1300,y\nsta $2c0,x\nlda $1380,y\nsta $2c0,x\ninx\niny\ntxa\nand #$1f\nbne d\njmp loop\nsinus:\ndcb 0,0,0,0,$20,$20,$20\ndcb $40,$40,$60,$80,$a0,$a0,$c0,$c0,$c0\ndcb $e0,$e0,$e0,$e0,$c0,$c0,$c0\ndcb $a0,$a0,$80,$60,$40,$40,$20,$20,$20\n*=$1000\nsanta:\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,$a,$a,0,0,0,0,0,0\ndcb 0,0,0,0,0,$a,$a,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,2,2,2,1,0,0,0,0,$9,$9,$9,$9,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,$a,$a,$a,0,0,0,0,0\ndcb 0,0,0,0,0,$a,$a,$a,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,$9,$9,0,0,0,0,0,0,0,0\ndcb 0,1,1,2,2,0,$9,$9,$9,$9,$9,$9,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,$a,$a,$a,$a,$a,$a,0,0,0,0\ndcb 0,0,0,$a,$a,$a,$a,$a,$a,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,$9,$9,$9,0,0,0,0,0,0\ndcb 0,1,2,2,$9,$9,$9,$9,$9,$9,$9,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,$a,$a,$a,$a,$a,$a,$b\ndcb $b,$b,$b,$b,$b,$b,$a,$a,$a,$a,$a,$a,$b,$b,$b,$b\ndcb $b,$b,$b,$b,$b,$9,$9,$9,$9,$9,$9,$9,$9,$9,$9,$9\ndcb $9,2,2,$9,$9,$9,$9,$9,$9,$9,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,$a,$a,$a,$a,$a,$a,$a\ndcb $a,0,0,0,0,0,$a,$a,$a,$a,$a,$a,$a,$a,0,0\ndcb 0,0,0,0,0,0,0,$9,$9,$9,$9,$9,$9,$9,$9,$9\ndcb 2,2,$9,$9,$9,$9,$9,$9,$9,$9,$9,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,$a,$a,$a,$a,$a,$a,0\ndcb $a,$a,0,0,0,0,$a,$a,$a,$a,$a,$a,0,$a,$a,0\ndcb 0,0,0,0,0,$a,$a,0,0,$9,$a,$9,$9,$9,$9,$9\ndcb $9,$9,$a,$9,$9,$9,$9,$9,$9,$9,$9,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,$a,0,$a,0,0,$a,0\ndcb 0,$a,0,0,0,0,$a,0,$a,0,0,$a,0,0,$a,0\ndcb 0,0,0,0,0,$a,0,0,0,$a,0,0,0,0,0,0\ndcb 0,$a,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,$a,$a,0,$a,0,0,$a,$a\ndcb 0,$a,$a,0,0,$a,$a,0,$a,0,0,$a,$a,0,$a,$a\ndcb 0,0,0,0,0,0,$a,$a,$a,$a,$a,$a,$a,$a,$a,$a\ndcb $a,$a,$a,$a,$a,$a,$a,$a,$a,$a,$a,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\n*=$2000\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,$c,1,1,1\ndcb 0,0,0,0,0,0,0,0,0,0,0,1,1,1,$a,$a\ndcb 0,0,0,0,0,0,0,0,0,0,$c,1,1,1,1,1\ndcb 1,1,$c,0,0,0,0,0,0,0,0,0,1,1,0,0\ndcb 0,0,0,0,0,0,0,0,$c,1,1,1,1,1,1,1\ndcb 1,1,1,1,1,$c,0,0,0,0,0,1,1,1,1,0\ndcb 0,0,0,0,0,0,$c,1,1,1,1,1,1,1,1,1\ndcb 1,1,1,1,1,1,$c,0,0,0,0,1,1,1,1,0\ndcb 0,0,0,0,0,$c,1,1,1,1,1,1,1,1,1,1,1\ndcb 1,1,1,1,1,1,1,1,$c,0,0,1,1,0,0\ndcb 0,0,$c,1,1,1,1,1,1,1,1,1,1,1,1,1\ndcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\ndcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\ndcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\ndcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n\t\n",
-    "  lda $fe\n  sta $1001\n  jmp $1000\n  *=$1000\n  lda #$00\n  sta $3ef\n  jmp $600\n",
-    "\t\n\tLDX #0\n\tLDY #0\nnew_rnd:\n\tLDA $FE\n\tAND #3\n\tCMP #3\n\tBNE good_rnd\n\tJMP new_rnd\ngood_rnd:     \n\tPHA\n\tASL\n\tASL\n\tASL\n\tSTA $F3\n\tPLA\n\tAND #1\n\tASL\n\tASL\n\tASL\n\tASL\n\tSTA $F4\n\tTXA\n\tLSR\n\tADC $F3\n\tTAX\n\tTYA\n\tLSR\n\tADC $F4\n\tTAY\n\tJSR set_point\n\tJMP new_rnd\nset_point:\n\tPHA\n\tTXA\n\tPHA\n\tTYA\n\tPHA \n\tPHA \n\tPHA\n\tSTX $F2\n\tLDY $F2\n\tLDA #0\n\tSTA $F0\n\tLDA #$2\n\tSTA $F1\n\tLDA #0\n\tPLA\n\tAND #$07\n\tASL\n\tASL\n\tASL\n\tASL\n\tASL\n\tCLC\n\tADC $F0\n\tSTA $F0\n\tBCC no_carry\n\tINC $F1\nno_carry:\n\tCLC\n\tPLA\n\tAND #$18\n\tLSR\n\tLSR\n\tLSR\n\tADC $F1\n\tSTA $F1\t\t\n\tCLC\n\tTYA\n\tADC $F0\n\tADC $F1\n\tLDA #1\n   \tJSR set_toning_point\n\tSTA ($F0),Y\n\tPLA\n\tTAY\n\tPLA\n\tTAX\n\tPLA\n\tRTS\nset_toning_point:\n        LDA ($F0),Y\n        CMP #$00\n        BNE not_black\n        LDA #$0B\n        RTS\nnot_black:\n        CMP #$0B\n        BNE not_dgrey\n        LDA #$0C\n        RTS\nnot_dgrey:\n        CMP #$0C\n        BNE not_grey\n        LDA #$0F\n        RTS\nnot_grey:\n        CMP #$0F\n        BNE not_lgrey\n        LDA #$01\n        RTS\nnot_lgrey:\n        RTS\n",
-    "loop:\n ldx $90\n inx\n stx $90\n lda #4\n sta $3\n lda #0\n sta $4\nmultiple:\n lda $90\n clc\n adc $4\n tax\n lda sinus,x\n ldy cosinus,x\n asl\n tax\n lda ypos,x\n sta $00\n inx\n lda ypos,x\n sta $01\n ldx #0\n lda #5\n sta $2\ndraw:\n lda image,x\n sta ($0),y\n inx\n iny\n lda image,x\n sta ($0),y\n inx\n iny\n lda image,x\n sta ($0),y\n inx\n iny\n lda image,x\n sta ($0),y\n inx\n iny\n lda image,x\n sta ($0),y\n tya\n clc\n adc #28\n tay\n inx\n dec $2\n bne draw\n lda $4 \n clc\n adc #18\n sta $4\n dec $3\n bne multiple\n jmp loop\nsinus:\n dcb $0e, $0e, $0e, $0f, $0f, $0f, $10, $10, $10, $11\n dcb $11, $11, $12, $12, $12, $13, $13, $13, $14, $14\n dcb $14, $14, $15, $15, $15, $16, $16, $16, $16, $17\n dcb $17, $17, $17, $18, $18, $18, $18, $19, $19, $19\n dcb $19, $19, $1a, $1a, $1a, $1a, $1a, $1a, $1a, $1b\n dcb $1b, $1b, $1b, $1b, $1b, $1b, $1b, $1b, $1b, $1b\n dcb $1b, $1b, $1b, $1b, $1b, $1b, $1b, $1b, $1b, $1b\ncosinus:\n dcb $1b, $1b, $1b, $1b, $1b, $1b, $1b, $1b, $1b, $1b\n dcb $1a, $1a, $1a, $1a, $1a, $1a, $19, $19, $19, $19\n dcb $19, $18, $18, $18, $18, $18, $17, $17, $17, $17\n dcb $16, $16, $16, $15, $15, $15, $15, $14, $14, $14\n dcb $13, $13, $13, $12, $12, $12, $11, $11, $11, $10\n dcb $10, $10, $0f, $0f, $0f, $0e, $0e, $0e, $0d, $0d\n dcb $0d, $0c, $0c, $0c, $0b, $0b, $0b, $0a, $0a, $0a\n dcb $09, $09, $09, $08, $08, $08, $07, $07, $07, $06\n dcb $06, $06, $06, $05, $05, $05, $04, $04, $04, $04\n dcb $03, $03, $03, $03, $03, $02, $02, $02, $02, $02\n dcb $01, $01, $01, $01, $01, $01, $00, $00, $00, $00\n dcb $00, $00, $00, $00, $00, $00, $00, $00, $00, $00\n dcb $00, $00, $00, $00, $00, $00, $00, $00, $00, $00\n dcb $00, $00, $00, $00, $00, $00, $00, $01, $01, $01\n dcb $01, $01, $01, $01, $02, $02, $02, $02, $02, $03\n dcb $03, $03, $03, $04, $04, $04, $04, $05, $05, $05\n dcb $05, $06, $06, $06, $07, $07, $07, $07, $08, $08\n dcb $08, $09, $09, $09, $0a, $0a, $0a, $0b, $0b, $0b\n dcb $0c, $0c, $0c, $0d, $0d\n dcb $0e, $0e, $0e, $0f, $0f, $0f, $10, $10, $10, $11\n dcb $11, $11, $12, $12, $12, $13, $13, $13, $14, $14\n dcb $14, $14, $15, $15, $15, $16, $16, $16, $16, $17\n dcb $17, $17, $17, $18, $18, $18, $18, $19, $19, $19\n dcb $19, $19, $1a, $1a, $1a, $1a, $1a, $1a, $1a, $1b\n dcb $1b, $1b, $1b, $1b, $1b, $1b, $1b, $1b, $1b, $1b\n dcb $1b, $1b, $1b, $1b, $1b, $1b, $1b, $1b, $1b, $1b\n dcb $1b, $1b, $1b, $1b, $1b, $1b, $1b, $1b, $1b, $1b\n dcb $1a, $1a, $1a, $1a, $1a, $1a, $19, $19, $19, $19\nimage:\n dcb $0,$0,$0,$0,$0\n dcb $0,$c,$c,$c,$0\n dcb $0,$c,$1,$c,$0\n dcb $0,$c,$c,$c,$0\n dcb $0,$0,$0,$0,$0\nypos:\n dcb $00,$02,$20,$02,$40,$02,$60,$02\n dcb $80,$02,$a0,$02,$c0,$02,$e0,$02\n dcb $00,$03,$20,$03,$40,$03,$60,$03\n dcb $80,$03,$a0,$03,$c0,$03,$e0,$03\n dcb $00,$04,$20,$04,$40,$04,$60,$04\n dcb $80,$04,$a0,$04,$c0,$04,$e0,$04\n dcb $00,$05,$20,$05,$40,$05,$60,$05\n dcb $80,$05,$a0,$05,$c0,$05,$e0,$05\n",
-    "start:\n  jsr init\nloop:\n  jsr drawMap\n  jsr genMap\n  jsr readKeys\n  jmp loop\ndrawShip:\n  lda $82\n  tay\n  lda ypos,y\n  sta $00\n  iny\n  lda ypos,y\n  sta $01\n  ldx #42\n  lda ($00,x)\n  cmp #0\n  beq noCrash\n  cmp #5\nnoCrash:\n  lda #5\n  sta ($00,x)\n  lda $60\n  cmp $61\n  beq ret\n  lda $61\n  asl\n  tay\n  lda ypos,y\n  sta $00\n  iny\n  lda ypos,y\n  sta $01\n  lda #0\n  ldx #42\n  sta ($00,x)\n  lda $60\n  sta $61\nret:\n  rts\ncrashed:\n  lda $fe\n  sta ($00,x)\n  jmp crashed\nreadKeys:\n  lda $ff\n  cmp #119\n  bne notUp\n  dec $60\n  rts\nnotUp:\n  cmp #120\n  bne noMove\n  inc $60\nnoMove:\n  rts\ninit:\n  ldx #0\ndrawLogo:\n  lda bottomLogo,x\n  sta $500,x\n  inx\n  cpx #0\n  bne drawLogo\n  lda #10\n  sta $60\n  sta $61\n  ldx #0\n  lda #$c\nc:sta $200,x\n  sta $400,x\n  dex\n  cpx #0\n  bne c\n  lda #16\n  sta $80\n  ldx #15\nset:\n  sta $81,x\n  dex\n  bpl set\n  rts\ndrawMap:\n  lda #0\n  sta $78\n  lda #32\n  sta $79\n  lda #192\n  sta $7a\n  lda #224\n  sta $7b\n  ldx #15\ndrawLoop:\n  lda $81,x\n  sta $82,x\n  tay\n  lda ypos,y\n  sta $00\n  iny\n  lda ypos,y\n  sta $01\n  lda #$c\n  ldy $78\n  sta ($00),y\n  iny\n  sta ($00),y\n  ldy $7b\n  sta ($00),y\n  iny\n  sta ($00),y\n  ldy $79\n  lda #0\n  sta ($00),y\n  iny\n  sta ($00),y\n  ldy $7a\n  sta ($00),y\n  iny\n  sta ($00),y\n  inc $78\n  inc $79\n  inc $7a\n  inc $7b\n  inc $78\n  inc $79\n  inc $7a\n  inc $7b\n  dex\n  bpl drawLoop\n  rts\ngenMap:\n  lda $80\n  cmp $81\n  beq done\n  lda $80\n  clc\n  sbc $81\n  bpl plus\n  bmi minus\ndone:\n  lda $fe\n  and #$f\n  asl\n  sta $80\n  rts\nminus:\n  dec $81\n  dec $81\n  rts\nplus:\n  inc $81\n  inc $81\n  rts\nypos:\n  dcb $00,$02,$20,$02,$40,$02,$60,$02\n  dcb $80,$02,$a0,$02,$c0,$02,$e0,$02\n  dcb $00,$03,$20,$03,$40,$03,$60,$03\n  dcb $80,$03,$a0,$03,$c0,$03,$e0,$03\n  dcb $00,$04,$20,$04,$40,$04,$60,$04\n  dcb $80,$04,$a0,$04,$c0,$04,$e0,$04\n  dcb $00,$05,$20,$05,$40,$05,$60,$05\n  dcb $80,$05,$a0,$05,$c0,$05,$e0,$05\nbottomLogo:\n  dcb $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0\n  dcb $0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0,$0\n  dcb $0,$0,$0,$0,$0,$0,$1,$1,$1,$6,$1,$1,$1,$0\n  dcb $0,$6,$1,$1,$6,$0,$0,$1,$1,$1,$6,$0,$1,$1\n  dcb $1,$0,$1,$1,$1,$6,$0,$0,$6,$1,$6,$0,$6,$0\n  dcb $1,$0,$6,$1,$6,$1,$6,$0,$1,$0,$1,$0,$6,$0\n  dcb $6,$1,$6,$0,$6,$0,$1,$0,$6,$1,$6,$0,$0,$6\n  dcb $1,$1,$6,$6,$1,$1,$1,$0,$6,$1,$0,$0,$1,$0\n  dcb $1,$6,$0,$6,$6,$1,$1,$1,$0,$6,$1,$0,$6,$1\n  dcb $0,$6,$6,$6,$6,$6,$1,$6,$1,$1,$6,$6,$6,$1\n  dcb $1,$1,$1,$6,$1,$6,$6,$6,$6,$1,$6,$6,$6,$6\n  dcb $1,$1,$1,$6,$6,$6,$6,$1,$1,$1,$1,$e,$1,$1\n  dcb $e,$6,$6,$1,$1,$6,$1,$6,$1,$1,$1,$1,$e,$1\n  dcb $1,$1,$1,$6,$1,$1,$6,$1,$6,$6,$6,$1,$1,$1\n  dcb $6,$e,$1,$1,$6,$e,$6,$1,$1,$e,$1,$e,$6,$1\n  dcb $1,$1,$6,$e,$1,$1,$1,$e,$1,$1,$6,$1,$6,$e\n  dcb $e,$e,$6,$e,$e,$6,$e,$e,$6,$e,$e,$6,$e,$e\n  dcb $6,$e,$e,$6,$e,$e,$6,$e,$e,$6,$e,$e,$6,$e\n  dcb $e,$6,$e,$e\n",
-    "i:ldx #$7\ng:lda $fe\n  and #3\n  adc #1\n  sta $0,x\n  lda $fe\n  and #$1f\n  sta $20,x\n  dex\n  bpl g\nf:\n  lda #$ff\n  sta $10\n  delay:\n  nop\n  dec $10\n  bne delay\n  lda #$00\n  sta $80\n  lda #$02\n  sta $81\n  ldx #$7\nl:lda $20,x\n  pha\n  clc\n  sbc $00,x\n  and #$1f\n  sta $20,x\n  lda $20,x\n  tay\n  lda #1\n  sta ($80),y\n  pla\n  tay\n  lda #0\n  sta ($80),y\n  lda $80\n  clc\n  adc #$80\n  bne n\n  inc $81\nn:sta $80\n  dex\n  bpl l\n  jmp f\n",
-    "start:\nldx #0\nstx $20\nlda #5\nsta $21\nlda $fe\nsta $22\nloop:\ndec $21\nlda $21\nbeq randcolor\njmp pastrandcolor\nrandcolor:\nlda #5\nsta $21\nldx #33\ninc $22\nlda $22\nand #7\ntay\nrl:\nlda $1000,x\nbeq pastcolor1\nlda color_row,y\nsta $1000,x\npastcolor1:\nlda $1040,x\nbeq pastcolor2\nlda color_row,y\nsta $1040,x\npastcolor2:\nlda $1080,x\nbeq pastcolor3\nlda color_row,y\nsta $1080,x\npastcolor3:\nlda $10c0,x\nbeq pastcolor4\nlda color_row,y\nsta $10c0,x\npastcolor4:\nlda $1100,x\nbeq pastcolor5\nlda color_row,y\nsta $1100,x\npastcolor5:\nlda $1140,x\nbeq pastcolor6\nlda color_row,y\nsta $1140,x\npastcolor6:\nlda $1180,x\nbeq pastcolor7\nlda color_row,y\nsta $1180,x\npastcolor7:\nlda $11C0,x\nbeq pastcolor8\nlda color_row,y\nsta $11C0,x\npastcolor8:\nlda $1200,x\nbeq pastcolor9\nlda color_row,y\nsta $1200,x\npastcolor9:\ninx\ntxa\nand #$3f\nbne rl\npastrandcolor:\ninc $20\nlda $20\nand #$3f\ntay\nand #$1f\ntax\nlda sinus,x\ntax\nd:\nlda #0\nsta $2e0,x\nsta $3e0,x\nlda $1000,y\nsta $300,x\nlda $1080,y\nsta $320,x\nlda $1100,y\nsta $340,x\nlda $1180,y\nsta $360,x\nlda $1200,y\nsta $380,x\nlda $1280,y\nsta $3a0,x\nlda $1300,y\nsta $3c0,x\nlda $1380,y\nsta $3c0,x\ninx\niny\ntxa\nand #$1f\nbne d\njmp loop\nsinus:\ndcb 0,0,0,0,$20,$20,$20\ndcb $40,$40,$60,$80,$a0,$a0,$c0,$c0,$c0\ndcb $e0,$e0,$e0,$e0,$c0,$c0,$c0\ndcb $a0,$a0,$80,$60,$40,$40,$20,$20,$20\ncolor_row:\ndcb $7,$8,$9,$2,$4,$6,$e,$3\n*=$1000\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1\ndcb 0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1\ndcb 0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0\ndcb 0,0,1,1,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,1,1\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0\ndcb 0,0,1,1,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,1,1,0,0,1,1\ndcb 0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1\ndcb 0,0,1,1,1,1,1,1,0,0,1,1,0,0,1,1,0,0,1,1,1,1,1,1\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,1,1\ndcb 0,0,1,1,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,1,1,0,0,1,1,0,0,0,0,0,0,1,1,0,0,1,1,0,0,1,1\ndcb 0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1\ndcb 0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1\ndcb 0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1\n",
-    "ldx #0\nlda #0\nhupsu:\nsta $200,x\nsta $300,x\nsta $400,x\nsta $500,x\nbne hupsu\nlda #1\nldx #0\nfill:\ntxa\ntay\nlda seko,x\ntax\nlda kuva,x\nsta $200,x\nlda kuva_0,x\nsta $300,x\nlda kuva_1,x\nsta $400,x\nlda kuva_2,x\nsta $500,x\ntya\ntax\ninx\nbne fill\nrts\nseko:\ndcb 46,93,219,97,168,170,196,63,204,201,206\ndcb 56,238,25,2,186,209,191,138,226,80,128\ndcb 58,171,81,115,42,44,102,193,69,231,107\ndcb 78,5,218,103,11,13,221,130,149,16,227\ndcb 105,213,232,182,17,255,27,190,205,137,192\ndcb 222,233,94,52,229,96,18,220,202,122,166\ndcb 43,153,131,246,177,4,70,22,7,86,173\ndcb 141,151,164,32,143,40,156,185,121,132,165\ndcb 62,249,252,139,154,251,85,236,12,134,245\ndcb 184,39,195,119,242,244,162,74,1,77,51\ndcb 33,75,35,76,34,10,89,47,189,237,71\ndcb 159,9,38,101,180,116,147,140,183,157,123\ndcb 14,19,126,199,100,45,241,28,125,210,155\ndcb 41,254,31,144,55,247,111,95,57,53,223\ndcb 152,108,203,36,214,37,113,200,66,67,197\ndcb 29,250,20,212,68,87,207,163,145,211,48\ndcb 136,24,98,215,169,83,124,224,181,187,142\ndcb 84,240,54,110,234,59,243,79,50,30,114\ndcb 6,178,0,172,148,146,179,120,60,225,65\ndcb 230,208,15,72,117,248,198,106,129,92,127\ndcb 175,160,49,216,176,133,64,109,112,82,90\ndcb 235,104,158,194,8,161,167,88,91,174,23\ndcb 73,118,150,3,99,61,217,26,239,21,253\ndcb 135,188,228\nkuva:\ndcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\ndcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\ndcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0\ndcb 0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1\ndcb 1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0\ndcb 0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1\ndcb 0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,11,11\ndcb 11,0,0,0,0,0,0,1,0,0,0,11,11,11,0,0,0,0,0,1,1,1,1,1\ndcb 1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1\nkuva_0:\ndcb 1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1\ndcb 1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,0,0,0,0,1,1,1\ndcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1\ndcb 1,0,0,0,1,1,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0\ndcb 0,1,15,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1\ndcb 0,0,0,0,0,0,0,0,0,0,15,0,0,0,1,1,1,0,0,0,1,0,0,0\ndcb 0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,15,0,0,0,1,1\ndcb 1,0,0,0,1,0,0,0,0,1,1,1,0,0,0,1,0,0,0,1,1,1,0,0\ndcb 0,0,15,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,1,1,0,0,0,1\ndcb 0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,1\nkuva_1:\ndcb 1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0\ndcb 0,0,15,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1\ndcb 0,0,0,0,0,0,0,0,0,0,15,0,0,0,1,1,1,0,0,0,1,1,0,0\ndcb 0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,1,1\ndcb 1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1\ndcb 1,1,1,0,0,0,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0\ndcb 1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,0,0,1,1,1,1\ndcb 1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,1,1\ndcb 1,0,0,0,1,1,1,1,1,1,1,1,1,15,15,15,1,1,1,1,1,1,1,1\ndcb 1,1,15,0,0,0,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,15,15,15\ndcb 1,1,1,1,1,1,1,1,1,1,15,0,0,0,1,1\nkuva_2:\ndcb 1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\ndcb 1,1,1,0,0,0,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,15,15,0\ndcb 15,15,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,0,0,1,1,1,1\ndcb 1,1,1,1,1,15,15,0,15,15,1,1,1,1,1,1,1,1,1,0,0,0,1,1\ndcb 1,0,0,0,15,1,1,1,1,1,1,1,1,15,15,0,1,1,1,1,1,1,1,1\ndcb 1,1,1,0,0,0,1,1,1,0,0,0,0,15,15,15,15,15,15,1,15,1,1,1\ndcb 1,1,15,1,15,15,15,1,1,15,0,0,0,0,1,1,1,0,0,0,0,15,15,15\ndcb 15,15,15,1,15,1,1,1,1,1,15,1,15,15,15,1,1,15,0,0,0,0,1,1\ndcb 1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1\n" };
+    "lda #0\n sta _0\nlop:\n lda _0\n sta _1\n lda #3\n sta _6\n lda #232\n sta _5\n ldx #0\nlpN:\n lsr _1\n bcc nos\n lda _5\n clc\n adc tL,x\n sta _5\n lda _6\n adc tH,x\n sta _6\nnos:\n inx\n lda _1\n bne lpN\n inx\n txa\n ldy #0\n sta (_5),y\n inc _0\n bne lop\n rts\ntL:\n dcb 32, 31, 254, 190, 128, 132, 8, 8\ntH:\n dcb 0, 0, 255, 255, 255, 255, 0, 1 \n",
+    "start:\n  lda #<logo\n  sta _0\n  lda #>logo\n  sta _1\n  lda #_00\n  sta _2\n  lda #_02\n  sta _3\n  ldx #_0\nl:\n  lda (_0,x)\n  sta (_2,x)\n  inc _00\n  lda _00\n  cmp #_00\n  bne notReset1\n  inc _01\nnotReset1:\n  inc _02\n  lda _02 \n  cmp #_00\n  bne notReset2\n  lda _03\n  cmp #_05\n  beq done\n  inc _03\nnotReset2:\n  jmp l\ndone:\n  rts\nlogo:\n dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,6,6,6\n dcb 6,6,6,6,1,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,1,1,1,1,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,1,1,6,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,1,6,6,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,6,6,6,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,6,6,6,6,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,6,6,6,6,6,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,6,6,6,6,6,6,6,6,6,6,6,6,1\n dcb 1,1,1,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,6,6,6,6,6,6,6,6,6,6,1,1,1\n dcb 1,1,1,1,1,6,6,6,6,6,6,6,6,6,6,6\n dcb 1,1,6,6,6,6,6,6,6,6,6,1,1,1,1,1\n dcb 1,1,1,1,1,6,6,6,6,6,6,6,6,6,6,1\n dcb 1,1,6,6,6,6,6,6,6,6,1,1,1,1,1,1\n dcb 1,1,1,1,1,6,6,6,6,6,6,6,6,6,1,1\n dcb 1,1,6,6,6,6,6,6,6,6,1,1,1,1,1,1\n dcb 1,1,1,1,1,6,6,6,6,6,6,6,6,1,1,1\n dcb 1,6,6,6,6,6,6,6,6,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,6,6,6,6,6,6,6,1,1,1,1\n dcb 1,6,6,6,6,6,6,6,6,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,6,6,6,6,6,6,1,1,1,1,1\n dcb 1,6,6,6,6,6,6,6,6,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,6,6,6,6,6,1,1,1,1,1,1\n dcb 1,6,6,6,6,6,6,6,6,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,2,2,2,2,2,1,1,1,1,1,1\n dcb 1,6,6,6,6,6,6,6,6,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,2,2,2,2,2,2,1,1,1,1,1\n dcb 1,6,6,6,6,6,6,6,6,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,2,2,2,2,2,2,2,1,1,1,1\n dcb 1,6,6,6,6,6,6,6,6,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,2,2,2,2,2,2,2,2,1,1,1\n dcb 1,1,6,6,6,6,6,6,6,6,1,1,1,1,1,1\n dcb 1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1\n dcb 1,1,6,6,6,6,6,6,6,6,6,1,1,1,1,1\n dcb 1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,1\n dcb 1,1,1,6,6,6,6,6,6,6,6,6,1,1,1,1\n dcb 1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2\n dcb 1,1,1,6,6,6,6,6,6,6,6,6,6,1,1,1\n dcb 1,1,1,1,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,6,6,6,6,6,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,6,6,6,6,6,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,6,6,6,6,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,6,6,6,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,1,1,6,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,1,1,1,6,6,6,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,1,1,1,1,1,1,6,6,6,6\n dcb 6,6,6,6,6,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n dcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n",
+    "init:\n  ldx #0\n  stx _0\n  inx\n  stx _2\n  stx _3\n  inx\n  stx _1\nloop:\n  lda _2\n  cmp #_20\n  bne notIncF2\n  inc _3\n  lda #0\n  sta _2\nnotIncF2:\n  inc _2\n  lda _2\n  sta _f1\n  lda _2\n  sta _f2\n  jsr multiply\n  lda _f4\n  sta _f8\n  lda _3\n  sta _f1\n  lda _3\n  sta _f2\n  jsr multiply\n  lda _f4\n  clc\n  adc _f8\n  lsr\n  lsr\n  lsr\n  lsr\n  lsr\n  ldx #0\n  sta (_0,x)\n  inc _0\n  lda _0\n  cmp #_00\n  bne notNextY\n  inc _1\n  lda _1\n  cmp #6\n  beq exit\nnotNextY:\n  jmp loop\nexit:\n  rts\nmultiply:\n  lda #0\n  sta _f4\n  sta _f5\n  ldx #8\na:asl _f4\n  rol _f5\n  asl _f2\n  bcc b\n  clc\n  lda _f4\n  adc _f1\n  sta _f4\n  bcc b\n  inc _f5\nb:dex\n  bne a\n  rts \n",
+    "\t\nloop:   \n   \tlda _fe\n\tand #_1f\n\ttay\n\ttax\n\tlda matrix,y\n\tsta _1\n\ttay\n\tlda #0\n\tjsr paint\n   inc _1\n   lda _1\n   and #_1f\n   sta matrix,y\n   tay\n   lda #5 \n   jsr paint\n   \tlda _fe\n\tand #_1f\n\ttay\n\ttax\n\tlda matrix,y\n\tsta _1\n\ttay\n\tlda #_d\n\tjsr paint\n   \tlda _fe\n\tand #_1f\n\ttay\n\ttax\n\tlda matrix,y\n\tsta _1\n\ttay\n\tlda #_5\n\tjsr paint\n   jmp loop\n\t\npaint:\n   pha\n   lda yl,y\n   sta _2\n   lda yh,y\n   sta _3\n   txa\n   tay\n   pla\n   sta (_2),y\n   rts\nyh:\n       dcb _02, _02, _02, _02, _02, _02, _02, _02\n       dcb _03, _03, _03, _03, _03, _03, _03, _03\n       dcb _04, _04, _04, _04, _04, _04, _04, _04\n       dcb _05, _05, _05, _05, _05, _05, _05, _05\n       \nyl:\n       dcb _00, _20, _40, _60, _80, _a0, _c0, _e0\n       dcb _00, _20, _40, _60, _80, _a0, _c0, _e0\n       dcb _00, _20, _40, _60, _80, _a0, _c0, _e0\n       dcb _00, _20, _40, _60, _80, _a0, _c0, _e0\n   \nmatrix:\n\tdcb 5,16,19,19,17,26,10,14,11,4,1,2,20,1,8,30\n\tdcb 17,26,19,19,31,21,11,19,3,24,4,24,13,8,8,26\n",
+    "start: ldy #_ff\n       ldx #_0\nloop:  lda _fe\n       sta _200,x\n       and #_7\n       sta _300,x\n       and #_3\n       sta _400,x\n       and #_1\n       sta _500,x\n       inx\n       dey\n       bne loop\n       rts\n",
+    "   lda #16\n   sta _0\n   sta _1\n   lda _fe\n   sta _5\n   lda _fe\n   sta _6\nloop:\n   ldx _0\n   ldy _1\n   lda _5\n   jsr paint\n   jsr walk\n   dec _6\n   bne loop\n   lda _fe\n   sta _5\n   lda _fe\n   sta _6\n   jmp loop\nwalk:\n   lda _fe\n   and #3\n   cmp #0\n   beq right\n   cmp #1\n   beq left\n   cmp #2\n   beq up\n   jmp down\nright:\n   inc _0\n   jmp done\nleft:\n   dec _0\n   jmp done\nup:\n   dec _1\n   jmp done\ndown:\n   inc _1\n   jmp done\ndone:\n   lda _0\n   and #31\n   sta _0\n   lda _1\n   and #31\n   sta _1\n   rts\npaint:\n   pha\n   lda yl,y\n   sta _2\n   lda yh,y\n   sta _3\n   txa\n   tay\n   pla\n   sta (_2),y\n   rts\nyh:\n       dcb _02, _02, _02, _02, _02, _02, _02, _02\n       dcb _03, _03, _03, _03, _03, _03, _03, _03\n       dcb _04, _04, _04, _04, _04, _04, _04, _04\n       dcb _05, _05, _05, _05, _05, _05, _05, _05\nyl:\n       dcb _00, _20, _40, _60, _80, _a0, _c0, _e0\n       dcb _00, _20, _40, _60, _80, _a0, _c0, _e0\n       dcb _00, _20, _40, _60, _80, _a0, _c0, _e0\n       dcb _00, _20, _40, _60, _80, _a0, _c0, _e0 \n",
+    "loop: lda _fe\n      sta _00\n      lda _fe\n      and #_3\n      clc\n      adc #_2\n      sta _01\n      lda _fe\n      ldy #_0\n      sta (_00),y\n      jmp loop\n",
+    "      lda _fe\n      sta _00\n      lda _fe\n      and #_3\n      clc\n      adc #_2\n      sta _01\n      lda _fe\n      ldy #_0\n      sta (_00),y\n      jmp _600\n",
+    "  lda #8\n  tax\ndr:\n  sta _3cb,x\n  sta _40b,x\n  dex\n  bpl dr\n  sta _3f3\n  sta _3eb\n  lda #1\n  sta _3ec\n  ldx #255\nmk:\n  lda _fe\n  sta _1200,x\n  lda _fe\n  sta _1300,x\n  lda _fe\n  sta _1400,x\n  lda _fe\n  sta _1500,x\n  dex\n  cpx #_ff\n  bne mk\n  ldy #0\nre:\n  lda #1\n  sta _3ec,y\n  ldx #255\nsm:\n  lda _1201,x\n  adc _11ff,x\n  adc _1220,x\n  adc _11e0,x\n  lsr\n  lsr\n  sta _1200,x\n  lda _1301,x\n  adc _12ff,x\n  adc _1320,x\n  adc _12e0,x\n  lsr\n  lsr\n  sta _1300,x\n  lda _1401,x\n  adc _13ff,x\n  adc _1420,x\n  adc _13e0,x\n  lsr\n  lsr\n  sta _1400,x\n  lda _1501,x\n  adc _14ff,x\n  adc _1520,x\n  adc _14e0,x\n  lsr\n  lsr\n  sta _1500,x\n  dex\n  cpx #_ff\n  bne sm\n  iny\n  cpy #7\n  bne re\n  lda #1\n  sta _3f0\n  clc\n  ldx #255\ncp:\n  lda _1200,x\n  lsr\n  lsr\n  tay\n  lda colors,y\n  sta _200,x\n  lda _1300,x\n  lsr\n  lsr\n  tay\n  lda colors,y\n  sta _300,x\n  lda _1400,x\n  lsr\n  lsr\n  tay\n  lda colors,y\n  sta _400,x\n  lda _1500,x\n  lsr\n  lsr\n  tay\n  lda colors,y\n  sta _500,x\n  dex\n  cpx #_ff\n  bne cp\n  rts\ncolors:\n  dcb 0,0,0,0,0,_9,_9,1,1,0,0,0,0,0\n",
+    "start:\nldx #0\ncs:\nlda _2000,x\nsta _500,x\ndex\nbne cs\nstx _20\nloop:\ninc _20\nlda _20\nand #_7f\ntay\nand #_1f\ntax\nlda sinus,x\ntax\nd:\nlda #0\nsta _1e0,x\nsta _2e0,x\nlda _1000,y\nsta _200,x\nlda _1080,y\nsta _220,x\nlda _1100,y\nsta _240,x\nlda _1180,y\nsta _260,x\nlda _1200,y\nsta _280,x\nlda _1280,y\nsta _2a0,x\nlda _1300,y\nsta _2c0,x\nlda _1380,y\nsta _2c0,x\ninx\niny\ntxa\nand #_1f\nbne d\njmp loop\nsinus:\ndcb 0,0,0,0,_20,_20,_20\ndcb _40,_40,_60,_80,_a0,_a0,_c0,_c0,_c0\ndcb _e0,_e0,_e0,_e0,_c0,_c0,_c0\ndcb _a0,_a0,_80,_60,_40,_40,_20,_20,_20\n*=_1000\nsanta:\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,_a,_a,0,0,0,0,0,0\ndcb 0,0,0,0,0,_a,_a,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,2,2,2,1,0,0,0,0,_9,_9,_9,_9,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,_a,_a,_a,0,0,0,0,0\ndcb 0,0,0,0,0,_a,_a,_a,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,_9,_9,0,0,0,0,0,0,0,0\ndcb 0,1,1,2,2,0,_9,_9,_9,_9,_9,_9,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,_a,_a,_a,_a,_a,_a,0,0,0,0\ndcb 0,0,0,_a,_a,_a,_a,_a,_a,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,_9,_9,_9,0,0,0,0,0,0\ndcb 0,1,2,2,_9,_9,_9,_9,_9,_9,_9,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,_a,_a,_a,_a,_a,_a,_b\ndcb _b,_b,_b,_b,_b,_b,_a,_a,_a,_a,_a,_a,_b,_b,_b,_b\ndcb _b,_b,_b,_b,_b,_9,_9,_9,_9,_9,_9,_9,_9,_9,_9,_9\ndcb _9,2,2,_9,_9,_9,_9,_9,_9,_9,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,_a,_a,_a,_a,_a,_a,_a\ndcb _a,0,0,0,0,0,_a,_a,_a,_a,_a,_a,_a,_a,0,0\ndcb 0,0,0,0,0,0,0,_9,_9,_9,_9,_9,_9,_9,_9,_9\ndcb 2,2,_9,_9,_9,_9,_9,_9,_9,_9,_9,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,_a,_a,_a,_a,_a,_a,0\ndcb _a,_a,0,0,0,0,_a,_a,_a,_a,_a,_a,0,_a,_a,0\ndcb 0,0,0,0,0,_a,_a,0,0,_9,_a,_9,_9,_9,_9,_9\ndcb _9,_9,_a,_9,_9,_9,_9,_9,_9,_9,_9,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,_a,0,_a,0,0,_a,0\ndcb 0,_a,0,0,0,0,_a,0,_a,0,0,_a,0,0,_a,0\ndcb 0,0,0,0,0,_a,0,0,0,_a,0,0,0,0,0,0\ndcb 0,_a,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,_a,_a,0,_a,0,0,_a,_a\ndcb 0,_a,_a,0,0,_a,_a,0,_a,0,0,_a,_a,0,_a,_a\ndcb 0,0,0,0,0,0,_a,_a,_a,_a,_a,_a,_a,_a,_a,_a\ndcb _a,_a,_a,_a,_a,_a,_a,_a,_a,_a,_a,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\n*=_2000\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,_c,1,1,1\ndcb 0,0,0,0,0,0,0,0,0,0,0,1,1,1,_a,_a\ndcb 0,0,0,0,0,0,0,0,0,0,_c,1,1,1,1,1\ndcb 1,1,_c,0,0,0,0,0,0,0,0,0,1,1,0,0\ndcb 0,0,0,0,0,0,0,0,_c,1,1,1,1,1,1,1\ndcb 1,1,1,1,1,_c,0,0,0,0,0,1,1,1,1,0\ndcb 0,0,0,0,0,0,_c,1,1,1,1,1,1,1,1,1\ndcb 1,1,1,1,1,1,_c,0,0,0,0,1,1,1,1,0\ndcb 0,0,0,0,0,_c,1,1,1,1,1,1,1,1,1,1,1\ndcb 1,1,1,1,1,1,1,1,_c,0,0,1,1,0,0\ndcb 0,0,_c,1,1,1,1,1,1,1,1,1,1,1,1,1\ndcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\ndcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\ndcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\ndcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\n\t\n",
+    "  lda _fe\n  sta _1001\n  jmp _1000\n  *=_1000\n  lda #_00\n  sta _3ef\n  jmp _600\n",
+    "\t\n\tLDX #0\n\tLDY #0\nnew_rnd:\n\tLDA _FE\n\tAND #3\n\tCMP #3\n\tBNE good_rnd\n\tJMP new_rnd\ngood_rnd:     \n\tPHA\n\tASL\n\tASL\n\tASL\n\tSTA _F3\n\tPLA\n\tAND #1\n\tASL\n\tASL\n\tASL\n\tASL\n\tSTA _F4\n\tTXA\n\tLSR\n\tADC _F3\n\tTAX\n\tTYA\n\tLSR\n\tADC _F4\n\tTAY\n\tJSR set_point\n\tJMP new_rnd\nset_point:\n\tPHA\n\tTXA\n\tPHA\n\tTYA\n\tPHA \n\tPHA \n\tPHA\n\tSTX _F2\n\tLDY _F2\n\tLDA #0\n\tSTA _F0\n\tLDA #_2\n\tSTA _F1\n\tLDA #0\n\tPLA\n\tAND #_07\n\tASL\n\tASL\n\tASL\n\tASL\n\tASL\n\tCLC\n\tADC _F0\n\tSTA _F0\n\tBCC no_carry\n\tINC _F1\nno_carry:\n\tCLC\n\tPLA\n\tAND #_18\n\tLSR\n\tLSR\n\tLSR\n\tADC _F1\n\tSTA _F1\t\t\n\tCLC\n\tTYA\n\tADC _F0\n\tADC _F1\n\tLDA #1\n   \tJSR set_toning_point\n\tSTA (_F0),Y\n\tPLA\n\tTAY\n\tPLA\n\tTAX\n\tPLA\n\tRTS\nset_toning_point:\n        LDA (_F0),Y\n        CMP #_00\n        BNE not_black\n        LDA #_0B\n        RTS\nnot_black:\n        CMP #_0B\n        BNE not_dgrey\n        LDA #_0C\n        RTS\nnot_dgrey:\n        CMP #_0C\n        BNE not_grey\n        LDA #_0F\n        RTS\nnot_grey:\n        CMP #_0F\n        BNE not_lgrey\n        LDA #_01\n        RTS\nnot_lgrey:\n        RTS\n",
+    "loop:\n ldx _90\n inx\n stx _90\n lda #4\n sta _3\n lda #0\n sta _4\nmultiple:\n lda _90\n clc\n adc _4\n tax\n lda sinus,x\n ldy cosinus,x\n asl\n tax\n lda ypos,x\n sta _00\n inx\n lda ypos,x\n sta _01\n ldx #0\n lda #5\n sta _2\ndraw:\n lda image,x\n sta (_0),y\n inx\n iny\n lda image,x\n sta (_0),y\n inx\n iny\n lda image,x\n sta (_0),y\n inx\n iny\n lda image,x\n sta (_0),y\n inx\n iny\n lda image,x\n sta (_0),y\n tya\n clc\n adc #28\n tay\n inx\n dec _2\n bne draw\n lda _4 \n clc\n adc #18\n sta _4\n dec _3\n bne multiple\n jmp loop\nsinus:\n dcb _0e, _0e, _0e, _0f, _0f, _0f, _10, _10, _10, _11\n dcb _11, _11, _12, _12, _12, _13, _13, _13, _14, _14\n dcb _14, _14, _15, _15, _15, _16, _16, _16, _16, _17\n dcb _17, _17, _17, _18, _18, _18, _18, _19, _19, _19\n dcb _19, _19, _1a, _1a, _1a, _1a, _1a, _1a, _1a, _1b\n dcb _1b, _1b, _1b, _1b, _1b, _1b, _1b, _1b, _1b, _1b\n dcb _1b, _1b, _1b, _1b, _1b, _1b, _1b, _1b, _1b, _1b\ncosinus:\n dcb _1b, _1b, _1b, _1b, _1b, _1b, _1b, _1b, _1b, _1b\n dcb _1a, _1a, _1a, _1a, _1a, _1a, _19, _19, _19, _19\n dcb _19, _18, _18, _18, _18, _18, _17, _17, _17, _17\n dcb _16, _16, _16, _15, _15, _15, _15, _14, _14, _14\n dcb _13, _13, _13, _12, _12, _12, _11, _11, _11, _10\n dcb _10, _10, _0f, _0f, _0f, _0e, _0e, _0e, _0d, _0d\n dcb _0d, _0c, _0c, _0c, _0b, _0b, _0b, _0a, _0a, _0a\n dcb _09, _09, _09, _08, _08, _08, _07, _07, _07, _06\n dcb _06, _06, _06, _05, _05, _05, _04, _04, _04, _04\n dcb _03, _03, _03, _03, _03, _02, _02, _02, _02, _02\n dcb _01, _01, _01, _01, _01, _01, _00, _00, _00, _00\n dcb _00, _00, _00, _00, _00, _00, _00, _00, _00, _00\n dcb _00, _00, _00, _00, _00, _00, _00, _00, _00, _00\n dcb _00, _00, _00, _00, _00, _00, _00, _01, _01, _01\n dcb _01, _01, _01, _01, _02, _02, _02, _02, _02, _03\n dcb _03, _03, _03, _04, _04, _04, _04, _05, _05, _05\n dcb _05, _06, _06, _06, _07, _07, _07, _07, _08, _08\n dcb _08, _09, _09, _09, _0a, _0a, _0a, _0b, _0b, _0b\n dcb _0c, _0c, _0c, _0d, _0d\n dcb _0e, _0e, _0e, _0f, _0f, _0f, _10, _10, _10, _11\n dcb _11, _11, _12, _12, _12, _13, _13, _13, _14, _14\n dcb _14, _14, _15, _15, _15, _16, _16, _16, _16, _17\n dcb _17, _17, _17, _18, _18, _18, _18, _19, _19, _19\n dcb _19, _19, _1a, _1a, _1a, _1a, _1a, _1a, _1a, _1b\n dcb _1b, _1b, _1b, _1b, _1b, _1b, _1b, _1b, _1b, _1b\n dcb _1b, _1b, _1b, _1b, _1b, _1b, _1b, _1b, _1b, _1b\n dcb _1b, _1b, _1b, _1b, _1b, _1b, _1b, _1b, _1b, _1b\n dcb _1a, _1a, _1a, _1a, _1a, _1a, _19, _19, _19, _19\nimage:\n dcb _0,_0,_0,_0,_0\n dcb _0,_c,_c,_c,_0\n dcb _0,_c,_1,_c,_0\n dcb _0,_c,_c,_c,_0\n dcb _0,_0,_0,_0,_0\nypos:\n dcb _00,_02,_20,_02,_40,_02,_60,_02\n dcb _80,_02,_a0,_02,_c0,_02,_e0,_02\n dcb _00,_03,_20,_03,_40,_03,_60,_03\n dcb _80,_03,_a0,_03,_c0,_03,_e0,_03\n dcb _00,_04,_20,_04,_40,_04,_60,_04\n dcb _80,_04,_a0,_04,_c0,_04,_e0,_04\n dcb _00,_05,_20,_05,_40,_05,_60,_05\n dcb _80,_05,_a0,_05,_c0,_05,_e0,_05\n",
+    "start:\n  jsr init\nloop:\n  jsr drawMap\n  jsr genMap\n  jsr readKeys\n  jmp loop\ndrawShip:\n  lda _82\n  tay\n  lda ypos,y\n  sta _00\n  iny\n  lda ypos,y\n  sta _01\n  ldx #42\n  lda (_00,x)\n  cmp #0\n  beq noCrash\n  cmp #5\nnoCrash:\n  lda #5\n  sta (_00,x)\n  lda _60\n  cmp _61\n  beq ret\n  lda _61\n  asl\n  tay\n  lda ypos,y\n  sta _00\n  iny\n  lda ypos,y\n  sta _01\n  lda #0\n  ldx #42\n  sta (_00,x)\n  lda _60\n  sta _61\nret:\n  rts\ncrashed:\n  lda _fe\n  sta (_00,x)\n  jmp crashed\nreadKeys:\n  lda _ff\n  cmp #119\n  bne notUp\n  dec _60\n  rts\nnotUp:\n  cmp #120\n  bne noMove\n  inc _60\nnoMove:\n  rts\ninit:\n  ldx #0\ndrawLogo:\n  lda bottomLogo,x\n  sta _500,x\n  inx\n  cpx #0\n  bne drawLogo\n  lda #10\n  sta _60\n  sta _61\n  ldx #0\n  lda #_c\nc:sta _200,x\n  sta _400,x\n  dex\n  cpx #0\n  bne c\n  lda #16\n  sta _80\n  ldx #15\nset:\n  sta _81,x\n  dex\n  bpl set\n  rts\ndrawMap:\n  lda #0\n  sta _78\n  lda #32\n  sta _79\n  lda #192\n  sta _7a\n  lda #224\n  sta _7b\n  ldx #15\ndrawLoop:\n  lda _81,x\n  sta _82,x\n  tay\n  lda ypos,y\n  sta _00\n  iny\n  lda ypos,y\n  sta _01\n  lda #_c\n  ldy _78\n  sta (_00),y\n  iny\n  sta (_00),y\n  ldy _7b\n  sta (_00),y\n  iny\n  sta (_00),y\n  ldy _79\n  lda #0\n  sta (_00),y\n  iny\n  sta (_00),y\n  ldy _7a\n  sta (_00),y\n  iny\n  sta (_00),y\n  inc _78\n  inc _79\n  inc _7a\n  inc _7b\n  inc _78\n  inc _79\n  inc _7a\n  inc _7b\n  dex\n  bpl drawLoop\n  rts\ngenMap:\n  lda _80\n  cmp _81\n  beq done\n  lda _80\n  clc\n  sbc _81\n  bpl plus\n  bmi minus\ndone:\n  lda _fe\n  and #_f\n  asl\n  sta _80\n  rts\nminus:\n  dec _81\n  dec _81\n  rts\nplus:\n  inc _81\n  inc _81\n  rts\nypos:\n  dcb _00,_02,_20,_02,_40,_02,_60,_02\n  dcb _80,_02,_a0,_02,_c0,_02,_e0,_02\n  dcb _00,_03,_20,_03,_40,_03,_60,_03\n  dcb _80,_03,_a0,_03,_c0,_03,_e0,_03\n  dcb _00,_04,_20,_04,_40,_04,_60,_04\n  dcb _80,_04,_a0,_04,_c0,_04,_e0,_04\n  dcb _00,_05,_20,_05,_40,_05,_60,_05\n  dcb _80,_05,_a0,_05,_c0,_05,_e0,_05\nbottomLogo:\n  dcb _0,_0,_0,_0,_0,_0,_0,_0,_0,_0,_0,_0,_0,_0\n  dcb _0,_0,_0,_0,_0,_0,_0,_0,_0,_0,_0,_0,_0,_0\n  dcb _0,_0,_0,_0,_0,_0,_1,_1,_1,_6,_1,_1,_1,_0\n  dcb _0,_6,_1,_1,_6,_0,_0,_1,_1,_1,_6,_0,_1,_1\n  dcb _1,_0,_1,_1,_1,_6,_0,_0,_6,_1,_6,_0,_6,_0\n  dcb _1,_0,_6,_1,_6,_1,_6,_0,_1,_0,_1,_0,_6,_0\n  dcb _6,_1,_6,_0,_6,_0,_1,_0,_6,_1,_6,_0,_0,_6\n  dcb _1,_1,_6,_6,_1,_1,_1,_0,_6,_1,_0,_0,_1,_0\n  dcb _1,_6,_0,_6,_6,_1,_1,_1,_0,_6,_1,_0,_6,_1\n  dcb _0,_6,_6,_6,_6,_6,_1,_6,_1,_1,_6,_6,_6,_1\n  dcb _1,_1,_1,_6,_1,_6,_6,_6,_6,_1,_6,_6,_6,_6\n  dcb _1,_1,_1,_6,_6,_6,_6,_1,_1,_1,_1,_e,_1,_1\n  dcb _e,_6,_6,_1,_1,_6,_1,_6,_1,_1,_1,_1,_e,_1\n  dcb _1,_1,_1,_6,_1,_1,_6,_1,_6,_6,_6,_1,_1,_1\n  dcb _6,_e,_1,_1,_6,_e,_6,_1,_1,_e,_1,_e,_6,_1\n  dcb _1,_1,_6,_e,_1,_1,_1,_e,_1,_1,_6,_1,_6,_e\n  dcb _e,_e,_6,_e,_e,_6,_e,_e,_6,_e,_e,_6,_e,_e\n  dcb _6,_e,_e,_6,_e,_e,_6,_e,_e,_6,_e,_e,_6,_e\n  dcb _e,_6,_e,_e\n",
+    "i:ldx #_7\ng:lda _fe\n  and #3\n  adc #1\n  sta _0,x\n  lda _fe\n  and #_1f\n  sta _20,x\n  dex\n  bpl g\nf:\n  lda #_ff\n  sta _10\n  delay:\n  nop\n  dec _10\n  bne delay\n  lda #_00\n  sta _80\n  lda #_02\n  sta _81\n  ldx #_7\nl:lda _20,x\n  pha\n  clc\n  sbc _00,x\n  and #_1f\n  sta _20,x\n  lda _20,x\n  tay\n  lda #1\n  sta (_80),y\n  pla\n  tay\n  lda #0\n  sta (_80),y\n  lda _80\n  clc\n  adc #_80\n  bne n\n  inc _81\nn:sta _80\n  dex\n  bpl l\n  jmp f\n",
+    "start:\nldx #0\nstx _20\nlda #5\nsta _21\nlda _fe\nsta _22\nloop:\ndec _21\nlda _21\nbeq randcolor\njmp pastrandcolor\nrandcolor:\nlda #5\nsta _21\nldx #33\ninc _22\nlda _22\nand #7\ntay\nrl:\nlda _1000,x\nbeq pastcolor1\nlda color_row,y\nsta _1000,x\npastcolor1:\nlda _1040,x\nbeq pastcolor2\nlda color_row,y\nsta _1040,x\npastcolor2:\nlda _1080,x\nbeq pastcolor3\nlda color_row,y\nsta _1080,x\npastcolor3:\nlda _10c0,x\nbeq pastcolor4\nlda color_row,y\nsta _10c0,x\npastcolor4:\nlda _1100,x\nbeq pastcolor5\nlda color_row,y\nsta _1100,x\npastcolor5:\nlda _1140,x\nbeq pastcolor6\nlda color_row,y\nsta _1140,x\npastcolor6:\nlda _1180,x\nbeq pastcolor7\nlda color_row,y\nsta _1180,x\npastcolor7:\nlda _11C0,x\nbeq pastcolor8\nlda color_row,y\nsta _11C0,x\npastcolor8:\nlda _1200,x\nbeq pastcolor9\nlda color_row,y\nsta _1200,x\npastcolor9:\ninx\ntxa\nand #_3f\nbne rl\npastrandcolor:\ninc _20\nlda _20\nand #_3f\ntay\nand #_1f\ntax\nlda sinus,x\ntax\nd:\nlda #0\nsta _2e0,x\nsta _3e0,x\nlda _1000,y\nsta _300,x\nlda _1080,y\nsta _320,x\nlda _1100,y\nsta _340,x\nlda _1180,y\nsta _360,x\nlda _1200,y\nsta _380,x\nlda _1280,y\nsta _3a0,x\nlda _1300,y\nsta _3c0,x\nlda _1380,y\nsta _3c0,x\ninx\niny\ntxa\nand #_1f\nbne d\njmp loop\nsinus:\ndcb 0,0,0,0,_20,_20,_20\ndcb _40,_40,_60,_80,_a0,_a0,_c0,_c0,_c0\ndcb _e0,_e0,_e0,_e0,_c0,_c0,_c0\ndcb _a0,_a0,_80,_60,_40,_40,_20,_20,_20\ncolor_row:\ndcb _7,_8,_9,_2,_4,_6,_e,_3\n*=_1000\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1\ndcb 0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1\ndcb 0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0\ndcb 0,0,1,1,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,1,1\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0\ndcb 0,0,1,1,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,1,1,0,0,1,1\ndcb 0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1\ndcb 0,0,1,1,1,1,1,1,0,0,1,1,0,0,1,1,0,0,1,1,1,1,1,1\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,1,1\ndcb 0,0,1,1,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,1,1,0,0,1,1,0,0,0,0,0,0,1,1,0,0,1,1,0,0,1,1\ndcb 0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1\ndcb 0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1\ndcb 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1\ndcb 0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1\n",
+    "ldx #0\nlda #0\nhupsu:\nsta _200,x\nsta _300,x\nsta _400,x\nsta _500,x\nbne hupsu\nlda #1\nldx #0\nfill:\ntxa\ntay\nlda seko,x\ntax\nlda kuva,x\nsta _200,x\nlda kuva_0,x\nsta _300,x\nlda kuva_1,x\nsta _400,x\nlda kuva_2,x\nsta _500,x\ntya\ntax\ninx\nbne fill\nrts\nseko:\ndcb 46,93,219,97,168,170,196,63,204,201,206\ndcb 56,238,25,2,186,209,191,138,226,80,128\ndcb 58,171,81,115,42,44,102,193,69,231,107\ndcb 78,5,218,103,11,13,221,130,149,16,227\ndcb 105,213,232,182,17,255,27,190,205,137,192\ndcb 222,233,94,52,229,96,18,220,202,122,166\ndcb 43,153,131,246,177,4,70,22,7,86,173\ndcb 141,151,164,32,143,40,156,185,121,132,165\ndcb 62,249,252,139,154,251,85,236,12,134,245\ndcb 184,39,195,119,242,244,162,74,1,77,51\ndcb 33,75,35,76,34,10,89,47,189,237,71\ndcb 159,9,38,101,180,116,147,140,183,157,123\ndcb 14,19,126,199,100,45,241,28,125,210,155\ndcb 41,254,31,144,55,247,111,95,57,53,223\ndcb 152,108,203,36,214,37,113,200,66,67,197\ndcb 29,250,20,212,68,87,207,163,145,211,48\ndcb 136,24,98,215,169,83,124,224,181,187,142\ndcb 84,240,54,110,234,59,243,79,50,30,114\ndcb 6,178,0,172,148,146,179,120,60,225,65\ndcb 230,208,15,72,117,248,198,106,129,92,127\ndcb 175,160,49,216,176,133,64,109,112,82,90\ndcb 235,104,158,194,8,161,167,88,91,174,23\ndcb 73,118,150,3,99,61,217,26,239,21,253\ndcb 135,188,228\nkuva:\ndcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\ndcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\ndcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0\ndcb 0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1\ndcb 1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0\ndcb 0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1\ndcb 0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,11,11\ndcb 11,0,0,0,0,0,0,1,0,0,0,11,11,11,0,0,0,0,0,1,1,1,1,1\ndcb 1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1\nkuva_0:\ndcb 1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1\ndcb 1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,0,0,0,0,1,1,1\ndcb 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1\ndcb 1,0,0,0,1,1,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0\ndcb 0,1,15,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1\ndcb 0,0,0,0,0,0,0,0,0,0,15,0,0,0,1,1,1,0,0,0,1,0,0,0\ndcb 0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,15,0,0,0,1,1\ndcb 1,0,0,0,1,0,0,0,0,1,1,1,0,0,0,1,0,0,0,1,1,1,0,0\ndcb 0,0,15,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,1,1,0,0,0,1\ndcb 0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,1\nkuva_1:\ndcb 1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0\ndcb 0,0,15,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1\ndcb 0,0,0,0,0,0,0,0,0,0,15,0,0,0,1,1,1,0,0,0,1,1,0,0\ndcb 0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,1,1\ndcb 1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1\ndcb 1,1,1,0,0,0,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0\ndcb 1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,0,0,1,1,1,1\ndcb 1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,1,1\ndcb 1,0,0,0,1,1,1,1,1,1,1,1,1,15,15,15,1,1,1,1,1,1,1,1\ndcb 1,1,15,0,0,0,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,15,15,15\ndcb 1,1,1,1,1,1,1,1,1,1,15,0,0,0,1,1\nkuva_2:\ndcb 1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1\ndcb 1,1,1,0,0,0,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,15,15,0\ndcb 15,15,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,0,0,1,1,1,1\ndcb 1,1,1,1,1,15,15,0,15,15,1,1,1,1,1,1,1,1,1,0,0,0,1,1\ndcb 1,0,0,0,15,1,1,1,1,1,1,1,1,15,15,0,1,1,1,1,1,1,1,1\ndcb 1,1,1,0,0,0,1,1,1,0,0,0,0,15,15,15,15,15,15,1,15,1,1,1\ndcb 1,1,15,1,15,15,15,1,1,15,0,0,0,0,1,1,1,0,0,0,0,15,15,15\ndcb 15,15,15,1,15,1,1,1,1,1,15,1,15,15,15,1,1,15,0,0,0,0,1,1\ndcb 1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0\ndcb 0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1\n" };
 // float_extraction_works
 // file analogtv.c line 157
 static signed int float_extraction_works;
@@ -4150,24 +4150,24 @@ static signed int localbyteorder;
 static const char *m6502_defaults[15l] = { ".background:      black", ".foreground:      white", "*file:", "*displaytime:     20", "*TVColor:         70", "*TVTint:          5", "*TVBrightness:  2", "*TVContrast:    150", "*Background:      Black", "*use_cmap:        0", "*geometry:\t     800x600", "*fpsSolid:\t     True", "*useThreads: True", "*useSHM:           True", ((const char *)NULL) };
 // m6502_options
 // file m6502.c line 266
-static struct anonymous$65 m6502_options[10l] = { { .option="-file", .specifier=".file", .argKind=(enum anonymous$64)XrmoptionSepArg, .value=((char *)NULL) },
-    { .option="-displaytime", .specifier=".displaytime", .argKind=(enum anonymous$64)XrmoptionSepArg,
+static struct anonymous_65 m6502_options[10l] = { { .option="-file", .specifier=".file", .argKind=(enum anonymous_64)XrmoptionSepArg, .value=((char *)NULL) },
+    { .option="-displaytime", .specifier=".displaytime", .argKind=(enum anonymous_64)XrmoptionSepArg,
     .value=((char *)NULL) },
-    { .option="-threads", .specifier=".useThreads", .argKind=(enum anonymous$64)XrmoptionNoArg,
+    { .option="-threads", .specifier=".useThreads", .argKind=(enum anonymous_64)XrmoptionNoArg,
     .value="True" },
-    { .option="-no-threads", .specifier=".useThreads", .argKind=(enum anonymous$64)XrmoptionNoArg,
+    { .option="-no-threads", .specifier=".useThreads", .argKind=(enum anonymous_64)XrmoptionNoArg,
     .value="False" },
-    { .option="-use-cmap", .specifier=".use_cmap", .argKind=(enum anonymous$64)XrmoptionSepArg,
+    { .option="-use-cmap", .specifier=".use_cmap", .argKind=(enum anonymous_64)XrmoptionSepArg,
     .value=((char *)NULL) },
-    { .option="-tv-color", .specifier=".TVColor", .argKind=(enum anonymous$64)XrmoptionSepArg,
+    { .option="-tv-color", .specifier=".TVColor", .argKind=(enum anonymous_64)XrmoptionSepArg,
     .value=((char *)NULL) },
-    { .option="-tv-tint", .specifier=".TVTint", .argKind=(enum anonymous$64)XrmoptionSepArg,
+    { .option="-tv-tint", .specifier=".TVTint", .argKind=(enum anonymous_64)XrmoptionSepArg,
     .value=((char *)NULL) },
-    { .option="-tv-brightness", .specifier=".TVBrightness", .argKind=(enum anonymous$64)XrmoptionSepArg,
+    { .option="-tv-brightness", .specifier=".TVBrightness", .argKind=(enum anonymous_64)XrmoptionSepArg,
     .value=((char *)NULL) },
-    { .option="-tv-contrast", .specifier=".TVContrast", .argKind=(enum anonymous$64)XrmoptionSepArg,
+    { .option="-tv-contrast", .specifier=".TVContrast", .argKind=(enum anonymous_64)XrmoptionSepArg,
     .value=((char *)NULL) },
-    { .option=((char *)NULL), .specifier=((char *)NULL), .argKind=(enum anonymous$64)0,
+    { .option=((char *)NULL), .specifier=((char *)NULL), .argKind=(enum anonymous_64)0,
     .value=((char *)NULL) } };
 // m6502_xscreensaver_function_table
 // file m6502.c line 301
@@ -4179,14 +4179,14 @@ struct xscreensaver_function_table m6502_xscreensaver_function_table = { .progcl
     .init_cb=m6502_init, .draw_cb=m6502_draw,
     .reshape_cb=m6502_reshape, .event_cb=m6502_event,
     .free_cb=m6502_free, .fps_cb=((void (*)(struct _XDisplay *, unsigned long int, struct fps_state *, void *))NULL),
-    .pick_visual_hook=((struct anonymous$13 * (*)(struct anonymous$25 *))NULL),
-    .validate_visual_hook=((signed int (*)(struct anonymous$25 *, const char *, struct anonymous$13 *))NULL) };
+    .pick_visual_hook=((struct anonymous_13 * (*)(struct anonymous_25 *))NULL),
+    .validate_visual_hook=((signed int (*)(struct anonymous_25 *, const char *, struct anonymous_13 *))NULL) };
 // merged_defaults
 // file screenhack.c line 178
 static char **merged_defaults;
 // merged_options
 // file screenhack.c line 176
-static struct anonymous$65 *merged_options;
+static struct anonymous_65 *merged_options;
 // merged_options_size
 // file screenhack.c line 177
 static signed int merged_options_size;
@@ -4195,12 +4195,12 @@ static signed int merged_options_size;
 signed int mono_p;
 // mutex_initializer
 // file thread_util.c line 277
-const union anonymous$63 mutex_initializer = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+const union anonymous_63 mutex_initializer = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // old_handler
 // file xshm.c line 60
-signed int (*old_handler)(struct _XDisplay *, struct anonymous$56 *) = ((signed int (*)(struct _XDisplay *, struct anonymous$56 *))NULL);
+signed int (*old_handler)(struct _XDisplay *, struct anonymous_56 *) = ((signed int (*)(struct _XDisplay *, struct anonymous_56 *))NULL);
 // progclass
 // file screenhack.c line 137
 const char *progclass;
@@ -4230,22 +4230,22 @@ struct xscreensaver_function_table *xscreensaver_function_table = &m6502_xscreen
 // file screenhack.c line 256
 static signed int MapNotify_event_p(struct _XDisplay *dpy, union _XEvent *event, char *window)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(event->xany.type == 19)
-    tmp_if_expr$1 = event->xvisibility.window == (unsigned long int)window ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = event->xvisibility.window == (unsigned long int)window ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  return (signed int)tmp_if_expr_1;
 }
 
 // VirtualRootWindowOfScreen
 // file ./../utils/vroot.h line 87
-static unsigned long int VirtualRootWindowOfScreen(struct anonymous$25 *screen)
+static unsigned long int VirtualRootWindowOfScreen(struct anonymous_25 *screen)
 {
-  signed int return_value___isoc99_sscanf$2;
+  signed int return_value___isoc99_sscanf_2;
   static unsigned long int root = (unsigned long int)0;
-  static struct anonymous$25 *save_screen = (struct anonymous$25 *)0;
+  static struct anonymous_25 *save_screen = (struct anonymous_25 *)0;
   if(!(screen == save_screen))
   {
     struct _XDisplay *dpy = screen->display;
@@ -4263,18 +4263,18 @@ static unsigned long int VirtualRootWindowOfScreen(struct anonymous$25 *screen)
       {
         unsigned long int id = (unsigned long int)0;
         char c;
-        signed int return_value___isoc99_sscanf$1;
-        return_value___isoc99_sscanf$1=__isoc99_sscanf(xss_id, " 0x%lx %c", &id, &c);
-        _Bool tmp_if_expr$3;
-        if(return_value___isoc99_sscanf$1 == 1)
-          tmp_if_expr$3 = (_Bool)1;
+        signed int return_value___isoc99_sscanf_1;
+        return_value___isoc99_sscanf_1=__isoc99_sscanf(xss_id, " 0x%lx %c", &id, &c);
+        _Bool tmp_if_expr_3;
+        if(return_value___isoc99_sscanf_1 == 1)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
-          return_value___isoc99_sscanf$2=__isoc99_sscanf(xss_id, " %lu %c", &id, &c);
-          tmp_if_expr$3 = 1 == return_value___isoc99_sscanf$2 ? (_Bool)1 : (_Bool)0;
+          return_value___isoc99_sscanf_2=__isoc99_sscanf(xss_id, " %lu %c", &id, &c);
+          tmp_if_expr_3 = 1 == return_value___isoc99_sscanf_2 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
+        if(tmp_if_expr_3)
         {
           root = (unsigned long int)id;
           save_screen = screen;
@@ -4287,9 +4287,9 @@ static unsigned long int VirtualRootWindowOfScreen(struct anonymous$25 *screen)
 
     root = screen->root;
     __SWM_VROOT=XInternAtom(dpy, "__SWM_VROOT", 0);
-    signed int return_value_XQueryTree$5;
-    return_value_XQueryTree$5=XQueryTree(dpy, root, &rootReturn, &parentReturn, &children, &numChildren);
-    if(!(return_value_XQueryTree$5 == 0))
+    signed int return_value_XQueryTree_5;
+    return_value_XQueryTree_5=XQueryTree(dpy, root, &rootReturn, &parentReturn, &children, &numChildren);
+    if(!(return_value_XQueryTree_5 == 0))
     {
       i = 0;
       for( ; !((unsigned int)i >= numChildren); i = i + 1)
@@ -4299,9 +4299,9 @@ static unsigned long int VirtualRootWindowOfScreen(struct anonymous$25 *screen)
         unsigned long int nitems;
         unsigned long int bytesafter;
         unsigned char *newRoot = ((unsigned char *)NULL);
-        signed int return_value_XGetWindowProperty$4;
-        return_value_XGetWindowProperty$4=XGetWindowProperty(dpy, children[(signed long int)i], __SWM_VROOT, (signed long int)0, (signed long int)1, 0, (unsigned long int)33, &actual_type, &actual_format, &nitems, &bytesafter, &newRoot);
-        if(return_value_XGetWindowProperty$4 == 0)
+        signed int return_value_XGetWindowProperty_4;
+        return_value_XGetWindowProperty_4=XGetWindowProperty(dpy, children[(signed long int)i], __SWM_VROOT, (signed long int)0, (signed long int)1, 0, (unsigned long int)33, &actual_type, &actual_format, &nitems, &bytesafter, &newRoot);
+        if(return_value_XGetWindowProperty_4 == 0)
         {
           if(!(newRoot == ((unsigned char *)NULL)))
           {
@@ -4325,24 +4325,24 @@ static unsigned long int VirtualRootWindowOfScreen(struct anonymous$25 *screen)
 
 // XChar2b_to_utf8
 // file utf8wc.c line 306
-extern char * XChar2b_to_utf8(const struct anonymous$24 *in, signed int *length_ret)
+extern char * XChar2b_to_utf8(const struct anonymous_24 *in, signed int *length_ret)
 {
   signed int in_len = 0;
-  const struct anonymous$24 *in_end;
+  const struct anonymous_24 *in_end;
   signed int out_len;
   char *utf8;
   char *out;
   const char *out_end;
   in_end = in;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(in_end->byte1 == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = in_end->byte2 != 0 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = in_end->byte2 != 0 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     in_end = in_end + 1l;
@@ -4350,9 +4350,9 @@ extern char * XChar2b_to_utf8(const struct anonymous$24 *in, signed int *length_
   }
   while((_Bool)1);
   out_len = (in_len + 1) * 3;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(out_len + 1));
-  out = (char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(out_len + 1));
+  out = (char *)return_value_malloc_2;
   utf8 = out;
   if(out == ((char *)NULL))
     return ((char *)NULL);
@@ -4373,9 +4373,9 @@ extern char * XChar2b_to_utf8(const struct anonymous$24 *in, signed int *length_
     }
     *out = (char)0;
     out_len = (signed int)((out - utf8) + (signed long int)1);
-    void *return_value_realloc$3;
-    return_value_realloc$3=realloc((void *)utf8, (unsigned long int)out_len);
-    utf8 = (char *)return_value_realloc$3;
+    void *return_value_realloc_3;
+    return_value_realloc_3=realloc((void *)utf8, (unsigned long int)out_len);
+    utf8 = (char *)return_value_realloc_3;
     if(!(length_ret == ((signed int *)NULL)))
       *length_ret = out_len;
 
@@ -4389,14 +4389,14 @@ static void _add_next_thread(struct _parallel_startup_type *self)
 {
   /* assertion !self->last_errno */
   assert(!(self->last_errno != 0));
-  unsigned int return_value__threadpool_count_parallel$2;
-  return_value__threadpool_count_parallel$2=_threadpool_count_parallel(self->parent);
-  if(self->parent->parallel_unfinished == return_value__threadpool_count_parallel$2)
+  unsigned int return_value__threadpool_count_parallel_2;
+  return_value__threadpool_count_parallel_2=_threadpool_count_parallel(self->parent);
+  if(self->parent->parallel_unfinished == return_value__threadpool_count_parallel_2)
   {
-    signed int return_value_pthread_cond_broadcast$1;
-    return_value_pthread_cond_broadcast$1=pthread_cond_broadcast(&self->parent->cond);
+    signed int return_value_pthread_cond_broadcast_1;
+    return_value_pthread_cond_broadcast_1=pthread_cond_broadcast(&self->parent->cond);
     /* assertion !(pthread_cond_broadcast(&self->parent->cond)) */
-    assert(!(return_value_pthread_cond_broadcast$1 != 0));
+    assert(!(return_value_pthread_cond_broadcast_1 != 0));
   }
 
   else
@@ -4448,10 +4448,10 @@ static void _parallel_abort(struct threadpool *self)
   /* assertion self->count > 1 */
   assert(self->count > (unsigned int)1);
   self->count = self->parallel_unfinished + (unsigned int)1;
-  signed int return_value_pthread_cond_broadcast$1;
-  return_value_pthread_cond_broadcast$1=pthread_cond_broadcast(&self->cond);
+  signed int return_value_pthread_cond_broadcast_1;
+  return_value_pthread_cond_broadcast_1=pthread_cond_broadcast(&self->cond);
   /* assertion !(pthread_cond_broadcast(&self->cond)) */
-  assert(!(return_value_pthread_cond_broadcast$1 != 0));
+  assert(!(return_value_pthread_cond_broadcast_1 != 0));
 }
 
 // _serial_destroy
@@ -4480,21 +4480,21 @@ static void * _start_routine(void *startup_raw)
   struct _parallel_startup_type *startup = (struct _parallel_startup_type *)startup_raw;
   struct threadpool *parent = startup->parent;
   void *thread;
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&parent->mutex);
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&parent->mutex);
   /* assertion !(pthread_mutex_lock(&parent->mutex)) */
-  assert(!(return_value_pthread_mutex_lock$1 != 0));
+  assert(!(return_value_pthread_mutex_lock_1 != 0));
   parent->parallel_unfinished = parent->parallel_unfinished + 1u;
-  unsigned int return_value_thread_memory_alignment$2;
-  return_value_thread_memory_alignment$2=thread_memory_alignment((struct _XDisplay *)(void *)0);
-  startup->last_errno=aligned_malloc(&thread, return_value_thread_memory_alignment$2, parent->thread_size);
+  unsigned int return_value_thread_memory_alignment_2;
+  return_value_thread_memory_alignment_2=thread_memory_alignment((struct _XDisplay *)(void *)0);
+  startup->last_errno=aligned_malloc(&thread, return_value_thread_memory_alignment_2, parent->thread_size);
   if(!(startup->last_errno == 0))
   {
     _parallel_abort(parent);
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&parent->mutex);
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&parent->mutex);
     /* assertion !(pthread_mutex_unlock(&parent->mutex)) */
-    assert(!(return_value_pthread_mutex_unlock$3 != 0));
+    assert(!(return_value_pthread_mutex_unlock_3 != 0));
     return (void *)0;
   }
 
@@ -4502,69 +4502,69 @@ static void * _start_routine(void *startup_raw)
   if(!(startup->last_errno == 0))
   {
     _parallel_abort(parent);
-    void *return_value__thread_free_and_unlock$4;
-    return_value__thread_free_and_unlock$4=_thread_free_and_unlock(parent, thread);
-    return return_value__thread_free_and_unlock$4;
+    void *return_value__thread_free_and_unlock_4;
+    return_value__thread_free_and_unlock_4=_thread_free_and_unlock(parent, thread);
+    return return_value__thread_free_and_unlock_4;
   }
 
   /* assertion !startup->last_errno */
   assert(!(startup->last_errno != 0));
   _add_next_thread(startup);
-  void *return_value__thread_destroy_and_unlock$5;
+  void *return_value__thread_destroy_and_unlock_5;
   if(!(startup->last_errno == 0))
   {
-    return_value__thread_destroy_and_unlock$5=_thread_destroy_and_unlock(parent, thread);
-    return return_value__thread_destroy_and_unlock$5;
+    return_value__thread_destroy_and_unlock_5=_thread_destroy_and_unlock(parent, thread);
+    return return_value__thread_destroy_and_unlock_5;
   }
 
-  void *return_value__thread_destroy_and_unlock$6;
+  void *return_value__thread_destroy_and_unlock_6;
   if(parent->parallel_pending == 0u)
   {
     if(parent->parallel_threads == ((unsigned long int *)NULL))
     {
-      return_value__thread_destroy_and_unlock$6=_thread_destroy_and_unlock(parent, thread);
-      return return_value__thread_destroy_and_unlock$6;
+      return_value__thread_destroy_and_unlock_6=_thread_destroy_and_unlock(parent, thread);
+      return return_value__thread_destroy_and_unlock_6;
     }
 
-    signed int return_value_pthread_cond_wait$7;
-    return_value_pthread_cond_wait$7=pthread_cond_wait(&parent->cond, &parent->mutex);
+    signed int return_value_pthread_cond_wait_7;
+    return_value_pthread_cond_wait_7=pthread_cond_wait(&parent->cond, &parent->mutex);
     /* assertion !(pthread_cond_wait(&parent->cond, &parent->mutex)) */
-    assert(!(return_value_pthread_cond_wait$7 != 0));
+    assert(!(return_value_pthread_cond_wait_7 != 0));
   }
 
   parent->parallel_pending = parent->parallel_pending - 1u;
-  signed int return_value_pthread_cond_broadcast$8;
+  signed int return_value_pthread_cond_broadcast_8;
   if(parent->parallel_pending == 0u)
   {
-    return_value_pthread_cond_broadcast$8=pthread_cond_broadcast(&parent->cond);
+    return_value_pthread_cond_broadcast_8=pthread_cond_broadcast(&parent->cond);
     /* assertion !(pthread_cond_broadcast(&parent->cond)) */
-    assert(!(return_value_pthread_cond_broadcast$8 != 0));
+    assert(!(return_value_pthread_cond_broadcast_8 != 0));
   }
 
-  signed int return_value_pthread_mutex_unlock$9;
-  return_value_pthread_mutex_unlock$9=pthread_mutex_unlock(&parent->mutex);
+  signed int return_value_pthread_mutex_unlock_9;
+  return_value_pthread_mutex_unlock_9=pthread_mutex_unlock(&parent->mutex);
   /* assertion !(pthread_mutex_unlock(&parent->mutex)) */
-  assert(!(return_value_pthread_mutex_unlock$9 != 0));
+  assert(!(return_value_pthread_mutex_unlock_9 != 0));
   parent->thread_run(thread);
-  signed int return_value_pthread_mutex_lock$10;
-  return_value_pthread_mutex_lock$10=pthread_mutex_lock(&parent->mutex);
+  signed int return_value_pthread_mutex_lock_10;
+  return_value_pthread_mutex_lock_10=pthread_mutex_lock(&parent->mutex);
   /* assertion !(pthread_mutex_lock(&parent->mutex)) */
-  assert(!(return_value_pthread_mutex_lock$10 != 0));
-  signed int return_value_pthread_cond_wait$11;
+  assert(!(return_value_pthread_mutex_lock_10 != 0));
+  signed int return_value_pthread_cond_wait_11;
   if(!(parent->parallel_pending == 0u))
   {
-    return_value_pthread_cond_wait$11=pthread_cond_wait(&parent->cond, &parent->mutex);
+    return_value_pthread_cond_wait_11=pthread_cond_wait(&parent->cond, &parent->mutex);
     /* assertion !(pthread_cond_wait(&parent->cond, &parent->mutex)) */
-    assert(!(return_value_pthread_cond_wait$11 != 0));
+    assert(!(return_value_pthread_cond_wait_11 != 0));
   }
 
   parent->parallel_unfinished = parent->parallel_unfinished - 1u;
-  signed int return_value_pthread_cond_broadcast$12;
+  signed int return_value_pthread_cond_broadcast_12;
   if(parent->parallel_unfinished == 0u)
   {
-    return_value_pthread_cond_broadcast$12=pthread_cond_broadcast(&parent->cond);
+    return_value_pthread_cond_broadcast_12=pthread_cond_broadcast(&parent->cond);
     /* assertion !(pthread_cond_broadcast(&parent->cond)) */
-    assert(!(return_value_pthread_cond_broadcast$12 != 0));
+    assert(!(return_value_pthread_cond_broadcast_12 != 0));
   }
 
 }
@@ -4574,19 +4574,19 @@ static void * _start_routine(void *startup_raw)
 static void * _thread_destroy_and_unlock(struct threadpool *self, void *thread)
 {
   self->thread_destroy(thread);
-  void *return_value__thread_free_and_unlock$1;
-  return_value__thread_free_and_unlock$1=_thread_free_and_unlock(self, thread);
-  return return_value__thread_free_and_unlock$1;
+  void *return_value__thread_free_and_unlock_1;
+  return_value__thread_free_and_unlock_1=_thread_free_and_unlock(self, thread);
+  return return_value__thread_free_and_unlock_1;
 }
 
 // _thread_free_and_unlock
 // file thread_util.c line 568
 static void * _thread_free_and_unlock(struct threadpool *self, void *thread)
 {
-  signed int return_value_pthread_mutex_unlock$1;
-  return_value_pthread_mutex_unlock$1=pthread_mutex_unlock(&self->mutex);
+  signed int return_value_pthread_mutex_unlock_1;
+  return_value_pthread_mutex_unlock_1=pthread_mutex_unlock(&self->mutex);
   /* assertion !(pthread_mutex_unlock(&self->mutex)) */
-  assert(!(return_value_pthread_mutex_unlock$1 != 0));
+  assert(!(return_value_pthread_mutex_unlock_1 != 0));
   aligned_free(thread);
   return (void *)0;
 }
@@ -4621,19 +4621,19 @@ static void _unlock_and_destroy(struct threadpool *self)
 {
   unsigned long int *threads = self->parallel_threads;
   self->parallel_threads = (unsigned long int *)(void *)0;
-  signed int return_value_pthread_cond_broadcast$1;
+  signed int return_value_pthread_cond_broadcast_1;
   if(!(threads == ((unsigned long int *)NULL)))
   {
-    return_value_pthread_cond_broadcast$1=pthread_cond_broadcast(&self->cond);
+    return_value_pthread_cond_broadcast_1=pthread_cond_broadcast(&self->cond);
     /* assertion !(pthread_cond_broadcast(&self->cond)) */
-    assert(!(return_value_pthread_cond_broadcast$1 != 0));
+    assert(!(return_value_pthread_cond_broadcast_1 != 0));
   }
 
-  signed int return_value_pthread_mutex_unlock$2;
-  return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&self->mutex);
+  signed int return_value_pthread_mutex_unlock_2;
+  return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&self->mutex);
   /* assertion !(pthread_mutex_unlock(&self->mutex)) */
-  assert(!(return_value_pthread_mutex_unlock$2 != 0));
-  signed int return_value_pthread_join$3;
+  assert(!(return_value_pthread_mutex_unlock_2 != 0));
+  signed int return_value_pthread_join_3;
   if(!(threads == ((unsigned long int *)NULL)))
   {
     unsigned int i;
@@ -4642,19 +4642,19 @@ static void _unlock_and_destroy(struct threadpool *self)
     i = (unsigned int)0;
     for( ; !(i == count); i = i + 1u)
     {
-      return_value_pthread_join$3=pthread_join(threads[(signed long int)i], (void **)(void *)0);
+      return_value_pthread_join_3=pthread_join(threads[(signed long int)i], (void **)(void *)0);
       /* assertion !(pthread_join(threads[i], ((void *)0))) */
-      assert(!(return_value_pthread_join$3 != 0));
+      assert(!(return_value_pthread_join_3 != 0));
     }
     free((void *)threads);
-    signed int return_value_pthread_cond_destroy$4;
-    return_value_pthread_cond_destroy$4=pthread_cond_destroy(&self->cond);
+    signed int return_value_pthread_cond_destroy_4;
+    return_value_pthread_cond_destroy_4=pthread_cond_destroy(&self->cond);
     /* assertion !(pthread_cond_destroy(&self->cond)) */
-    assert(!(return_value_pthread_cond_destroy$4 != 0));
-    signed int return_value_pthread_mutex_destroy$5;
-    return_value_pthread_mutex_destroy$5=pthread_mutex_destroy(&self->mutex);
+    assert(!(return_value_pthread_cond_destroy_4 != 0));
+    signed int return_value_pthread_mutex_destroy_5;
+    return_value_pthread_mutex_destroy_5=pthread_mutex_destroy(&self->mutex);
     /* assertion !(pthread_mutex_destroy(&self->mutex)) */
-    assert(!(return_value_pthread_mutex_destroy$5 != 0));
+    assert(!(return_value_pthread_mutex_destroy_5 != 0));
   }
 
   _serial_destroy(self);
@@ -4680,13 +4680,13 @@ static struct AsmLine * addend(struct AsmLine *listp, struct AsmLine *newp)
 
 // addvalue
 // file asm6502.c line 1229
-static unsigned char addvalue(struct anonymous$8 *param, unsigned int value)
+static unsigned char addvalue(struct anonymous_8 *param, unsigned int value)
 {
   if(!(param->vp >= 25u))
   {
-    unsigned int tmp_post$1 = param->vp;
+    unsigned int tmp_post_1 = param->vp;
     param->vp = param->vp + 1u;
-    param->value[(signed long int)tmp_post$1] = value;
+    param->value[(signed long int)tmp_post_1] = value;
     return (unsigned char)1;
   }
 
@@ -4745,20 +4745,20 @@ static void analogtv_add_signal(const struct analogtv_s *it, const struct analog
   float dp[5l];
   const float noise_decay = 0.99995f;
   float noise_ampl;
-  float return_value_powf$1;
-  return_value_powf$1=powf(noise_decay, (float)start);
-  noise_ampl = 1.3f * return_value_powf$1;
+  float return_value_powf_1;
+  return_value_powf_1=powf(noise_decay, (float)start);
+  noise_ampl = 1.3f * return_value_powf_1;
   if(!(end >= (unsigned int)ec))
     ec = (signed int)end;
 
   i = (signed int)start;
   for( ; !(i >= ec); i = i + 1)
   {
-    float analogtv_add_signal$$1$$1$$sig0 = (float)s[(signed long int)0];
+    float analogtv_add_signal__1__1__sig0 = (float)s[(signed long int)0];
     unsigned int fastrnd_offset = fastrnd - (unsigned int)0x7fffffff;
     float noise = (float)(fastrnd_offset <= (unsigned int)0x7fffffff ? (signed int)fastrnd_offset : -1 - (signed int)(((unsigned int)0x7fffffff * 2U + 1U) - fastrnd_offset)) * (50.0f / (float)0x7fffffff);
     fastrnd = fastrnd * (unsigned int)1103515245 + (unsigned int)12345 & 0xffffffffu;
-    p[(signed long int)0] = p[(signed long int)0] + analogtv_add_signal$$1$$1$$sig0 * level * (1.0f - noise_ampl) + noise * noise_ampl;
+    p[(signed long int)0] = p[(signed long int)0] + analogtv_add_signal__1__1__sig0 * level * (1.0f - noise_ampl) + noise * noise_ampl;
     noise_ampl = noise_ampl * noise_decay;
     p = p + 1l;
     s = s + 1l;
@@ -4817,13 +4817,13 @@ static void analogtv_add_signal(const struct analogtv_s *it, const struct analog
 static void analogtv_alloc_image(struct analogtv_s *it)
 {
   unsigned int bits_per_pixel;
-  signed int return_value_get_bits_per_pixel$1;
-  return_value_get_bits_per_pixel$1=get_bits_per_pixel(it->dpy, it->xgwa.depth);
-  bits_per_pixel = (unsigned int)return_value_get_bits_per_pixel$1;
+  signed int return_value_get_bits_per_pixel_1;
+  return_value_get_bits_per_pixel_1=get_bits_per_pixel(it->dpy, it->xgwa.depth);
+  bits_per_pixel = (unsigned int)return_value_get_bits_per_pixel_1;
   unsigned int align;
-  unsigned int return_value_thread_memory_alignment$2;
-  return_value_thread_memory_alignment$2=thread_memory_alignment(it->dpy);
-  align = return_value_thread_memory_alignment$2 * (unsigned int)8 - (unsigned int)1;
+  unsigned int return_value_thread_memory_alignment_2;
+  return_value_thread_memory_alignment_2=thread_memory_alignment(it->dpy);
+  align = return_value_thread_memory_alignment_2 * (unsigned int)8 - (unsigned int)1;
   unsigned int width = (unsigned int)it->usewidth * bits_per_pixel + align & ~align;
   if(!(it->use_shm == 0))
   {
@@ -4838,11 +4838,11 @@ static void analogtv_alloc_image(struct analogtv_s *it)
     it->image=XCreateImage(it->dpy, it->xgwa.visual, (unsigned int)it->xgwa.depth, 2, 0, ((char *)NULL), (unsigned int)it->usewidth, (unsigned int)it->useheight, 8, (signed int)(width / (unsigned int)8));
     if(!(it->image == ((struct _XImage *)NULL)))
     {
-      unsigned int return_value_thread_memory_alignment$3;
-      return_value_thread_memory_alignment$3=thread_memory_alignment(it->dpy);
-      signed int return_value_posix_memalign$4;
-      return_value_posix_memalign$4=posix_memalign((void **)&it->image->data, (unsigned long int)return_value_thread_memory_alignment$3, (unsigned long int)(it->image->height * it->image->bytes_per_line));
-      if(!(return_value_posix_memalign$4 == 0))
+      unsigned int return_value_thread_memory_alignment_3;
+      return_value_thread_memory_alignment_3=thread_memory_alignment(it->dpy);
+      signed int return_value_posix_memalign_4;
+      return_value_posix_memalign_4=posix_memalign((void **)&it->image->data, (unsigned long int)return_value_thread_memory_alignment_3, (unsigned long int)(it->image->height * it->image->bytes_per_line));
+      if(!(return_value_posix_memalign_4 == 0))
       {
         it->image->data = (char *)(void *)0;
         it->image->f.destroy_image(it->image);
@@ -4858,9 +4858,9 @@ static void analogtv_alloc_image(struct analogtv_s *it)
 
   else
   {
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(12);
-    fprintf(stderr, "analogtv: %s\n", return_value_strerror$5);
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(12);
+    fprintf(stderr, "analogtv: %s\n", return_value_strerror_5);
   }
 }
 
@@ -4868,19 +4868,19 @@ static void analogtv_alloc_image(struct analogtv_s *it)
 // file analogtv.h line 239
 struct analogtv_s * analogtv_allocate(struct _XDisplay *dpy, unsigned long int window)
 {
-  struct anonymous$4 gcv;
+  struct anonymous_4 gcv;
   struct analogtv_s *it = (struct analogtv_s *)(void *)0;
   signed int i;
   const unsigned long int rx_signal_len = (const unsigned long int)(238944 + 2 * 912);
   analogtv_init();
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct analogtv_s) /*30336ul*/ );
-  it = (struct analogtv_s *)return_value_calloc$1;
-  unsigned int return_value_thread_memory_alignment$4;
-  signed int return_value_posix_memalign$5;
-  unsigned int return_value_hardware_concurrency$6;
-  signed int return_value_threadpool_create$7;
-  unsigned int return_value_get_pixel_resource$14;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct analogtv_s) /*30336ul*/ );
+  it = (struct analogtv_s *)return_value_calloc_1;
+  unsigned int return_value_thread_memory_alignment_4;
+  signed int return_value_posix_memalign_5;
+  unsigned int return_value_hardware_concurrency_6;
+  signed int return_value_threadpool_create_7;
+  unsigned int return_value_get_pixel_resource_14;
   if(it == ((struct analogtv_s *)NULL))
     return ((struct analogtv_s *)NULL);
 
@@ -4891,24 +4891,24 @@ struct analogtv_s * analogtv_allocate(struct _XDisplay *dpy, unsigned long int w
     it->signal_subtotals = (float *)(void *)0;
     it->dpy = dpy;
     it->window = window;
-    unsigned int return_value_thread_memory_alignment$2;
-    return_value_thread_memory_alignment$2=thread_memory_alignment(dpy);
-    signed int return_value_posix_memalign$3;
-    return_value_posix_memalign$3=posix_memalign((void **)&it->rx_signal, (unsigned long int)return_value_thread_memory_alignment$2, sizeof(float) /*4ul*/  * rx_signal_len);
-    if(return_value_posix_memalign$3 == 0)
+    unsigned int return_value_thread_memory_alignment_2;
+    return_value_thread_memory_alignment_2=thread_memory_alignment(dpy);
+    signed int return_value_posix_memalign_3;
+    return_value_posix_memalign_3=posix_memalign((void **)&it->rx_signal, (unsigned long int)return_value_thread_memory_alignment_2, sizeof(float) /*4ul*/  * rx_signal_len);
+    if(return_value_posix_memalign_3 == 0)
     {
       /* assertion !(ANALOGTV_SIGNAL_LEN % 32) */
       assert(!(238944 % 32 != 0));
-      return_value_thread_memory_alignment$4=thread_memory_alignment(dpy);
-      return_value_posix_memalign$5=posix_memalign((void **)&it->signal_subtotals, (unsigned long int)return_value_thread_memory_alignment$4, sizeof(float) /*4ul*/  * (rx_signal_len / (unsigned long int)32));
-      if(!(return_value_posix_memalign$5 == 0))
+      return_value_thread_memory_alignment_4=thread_memory_alignment(dpy);
+      return_value_posix_memalign_5=posix_memalign((void **)&it->signal_subtotals, (unsigned long int)return_value_thread_memory_alignment_4, sizeof(float) /*4ul*/  * (rx_signal_len / (unsigned long int)32));
+      if(!(return_value_posix_memalign_5 == 0))
         goto fail;
 
-      return_value_hardware_concurrency$6=hardware_concurrency(dpy);
+      return_value_hardware_concurrency_6=hardware_concurrency(dpy);
       static struct threadpool_class cls = { .size=sizeof(struct analogtv_thread_s) /*32ul*/ , .create=analogtv_thread_create,
     .destroy=analogtv_thread_destroy };
-      return_value_threadpool_create$7=threadpool_create(&it->threads, &cls, dpy, return_value_hardware_concurrency$6);
-      if(!(return_value_threadpool_create$7 == 0))
+      return_value_threadpool_create_7=threadpool_create(&it->threads, &cls, dpy, return_value_hardware_concurrency_6);
+      if(!(return_value_threadpool_create_7 == 0))
         goto fail;
 
       /* assertion it->threads.count */
@@ -4922,17 +4922,17 @@ struct analogtv_s * analogtv_allocate(struct _XDisplay *dpy, unsigned long int w
       it->visclass = it->xgwa.visual->class;
       it->visbits = it->xgwa.visual->bits_per_rgb;
       it->visdepth = it->xgwa.depth;
-      _Bool tmp_if_expr$10;
+      _Bool tmp_if_expr_10;
       if(it->visclass == 4)
-        tmp_if_expr$10 = (_Bool)1;
+        tmp_if_expr_10 = (_Bool)1;
 
       else
-        tmp_if_expr$10 = it->visclass == 5 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$10)
+        tmp_if_expr_10 = it->visclass == 5 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_10)
       {
-        signed int return_value_get_integer_resource$8;
-        return_value_get_integer_resource$8=get_integer_resource(it->dpy, "use_cmap", "Integer");
-        if(!(return_value_get_integer_resource$8 == 0))
+        signed int return_value_get_integer_resource_8;
+        return_value_get_integer_resource_8=get_integer_resource(it->dpy, "use_cmap", "Integer");
+        if(!(return_value_get_integer_resource_8 == 0))
           it->use_cmap = 1;
 
         else
@@ -4942,13 +4942,13 @@ struct analogtv_s * analogtv_allocate(struct _XDisplay *dpy, unsigned long int w
 
       else
       {
-        _Bool tmp_if_expr$9;
+        _Bool tmp_if_expr_9;
         if(it->visclass == 3)
-          tmp_if_expr$9 = (_Bool)1;
+          tmp_if_expr_9 = (_Bool)1;
 
         else
-          tmp_if_expr$9 = it->visclass == 2 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$9)
+          tmp_if_expr_9 = it->visclass == 2 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_9)
         {
           it->use_cmap = 1;
           it->use_color = (signed int)!(mono_p != 0);
@@ -5012,28 +5012,28 @@ struct analogtv_s * analogtv_allocate(struct _XDisplay *dpy, unsigned long int w
 
           }
         }
-        _Bool tmp_if_expr$11;
+        _Bool tmp_if_expr_11;
         if(!(it->red_shift >= 0))
-          tmp_if_expr$11 = (_Bool)1;
+          tmp_if_expr_11 = (_Bool)1;
 
         else
-          tmp_if_expr$11 = it->green_shift < 0 ? (_Bool)1 : (_Bool)0;
-        _Bool tmp_if_expr$12;
-        if(tmp_if_expr$11)
-          tmp_if_expr$12 = (_Bool)1;
+          tmp_if_expr_11 = it->green_shift < 0 ? (_Bool)1 : (_Bool)0;
+        _Bool tmp_if_expr_12;
+        if(tmp_if_expr_11)
+          tmp_if_expr_12 = (_Bool)1;
 
         else
-          tmp_if_expr$12 = it->blue_shift < 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$12)
+          tmp_if_expr_12 = it->blue_shift < 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_12)
           goto fail;
 
         i = 0;
         for( ; !(i >= 1024); i = i + 1)
         {
           signed int intensity;
-          double return_value_pow$13;
-          return_value_pow$13=pow((double)i / 256.0, 0.8);
-          intensity = (signed int)(return_value_pow$13 * 65535.0);
+          double return_value_pow_13;
+          return_value_pow_13=pow((double)i / 256.0, 0.8);
+          intensity = (signed int)(return_value_pow_13 * 65535.0);
           if(intensity >= 65536)
             intensity = 65535;
 
@@ -5043,8 +5043,8 @@ struct analogtv_s * analogtv_allocate(struct _XDisplay *dpy, unsigned long int w
         }
       }
 
-      return_value_get_pixel_resource$14=get_pixel_resource(it->dpy, it->colormap, "background", "Background");
-      gcv.background = (unsigned long int)return_value_get_pixel_resource$14;
+      return_value_get_pixel_resource_14=get_pixel_resource(it->dpy, it->colormap, "background", "Background");
+      gcv.background = (unsigned long int)return_value_get_pixel_resource_14;
       it->gc=XCreateGC(it->dpy, it->window, (unsigned long int)(1L << 3), &gcv);
       XSetWindowBackground(it->dpy, it->window, gcv.background);
       XClearWindow(dpy, window);
@@ -5104,38 +5104,38 @@ static void analogtv_blast_imagerow(const struct analogtv_s *it, float *rgbf, fl
     {
       level_copyfrom[(signed long int)level] = rowdata;
       {
-        _Bool tmp_if_expr$5;
+        _Bool tmp_if_expr_5;
         if(it->image->format == 2)
-          tmp_if_expr$5 = it->image->bits_per_pixel == 32 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = it->image->bits_per_pixel == 32 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        _Bool tmp_if_expr$6;
-        if(tmp_if_expr$5)
-          tmp_if_expr$6 = it->image->byte_order == localbyteorder ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = (_Bool)0;
+        _Bool tmp_if_expr_6;
+        if(tmp_if_expr_5)
+          tmp_if_expr_6 = it->image->byte_order == localbyteorder ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
         {
           unsigned int *pixelptr = (unsigned int *)rowdata;
           unsigned int pix;
           rpf = rgbf;
           for( ; !(rpf == rgbf_end); rpf = rpf + (signed long int)3)
           {
-            signed int analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscri = (signed int)(rpf[(signed long int)0] * levelmult);
-            signed int analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscgi = (signed int)(rpf[(signed long int)1] * levelmult);
-            signed int analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscbi = (signed int)(rpf[(signed long int)2] * levelmult);
-            if(analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscri >= 1024)
-              analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscri = 1024 - 1;
+            signed int analogtv_blast_imagerow__1__1__2__2__1__ntscri = (signed int)(rpf[(signed long int)0] * levelmult);
+            signed int analogtv_blast_imagerow__1__1__2__2__1__ntscgi = (signed int)(rpf[(signed long int)1] * levelmult);
+            signed int analogtv_blast_imagerow__1__1__2__2__1__ntscbi = (signed int)(rpf[(signed long int)2] * levelmult);
+            if(analogtv_blast_imagerow__1__1__2__2__1__ntscri >= 1024)
+              analogtv_blast_imagerow__1__1__2__2__1__ntscri = 1024 - 1;
 
-            if(analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscgi >= 1024)
-              analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscgi = 1024 - 1;
+            if(analogtv_blast_imagerow__1__1__2__2__1__ntscgi >= 1024)
+              analogtv_blast_imagerow__1__1__2__2__1__ntscgi = 1024 - 1;
 
-            if(analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscbi >= 1024)
-              analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscbi = 1024 - 1;
+            if(analogtv_blast_imagerow__1__1__2__2__1__ntscbi >= 1024)
+              analogtv_blast_imagerow__1__1__2__2__1__ntscbi = 1024 - 1;
 
-            pix = it->red_values[(signed long int)analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscri] | it->green_values[(signed long int)analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscgi] | it->blue_values[(signed long int)analogtv_blast_imagerow$$1$$1$$2$$2$$1$$ntscbi];
+            pix = it->red_values[(signed long int)analogtv_blast_imagerow__1__1__2__2__1__ntscri] | it->green_values[(signed long int)analogtv_blast_imagerow__1__1__2__2__1__ntscgi] | it->blue_values[(signed long int)analogtv_blast_imagerow__1__1__2__2__1__ntscbi];
             pixelptr[(signed long int)0] = pix;
             if(xrepl >= 2)
             {
@@ -5151,28 +5151,28 @@ static void analogtv_blast_imagerow(const struct analogtv_s *it, float *rgbf, fl
 
         else
         {
-          _Bool tmp_if_expr$3;
+          _Bool tmp_if_expr_3;
           if(it->image->format == 2)
-            tmp_if_expr$3 = it->image->bits_per_pixel == 16 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = it->image->bits_per_pixel == 16 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          _Bool tmp_if_expr$4;
-          if(!(float_extraction_works == 0) && tmp_if_expr$3)
-            tmp_if_expr$4 = it->image->byte_order == localbyteorder ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = (_Bool)0;
+          _Bool tmp_if_expr_4;
+          if(!(float_extraction_works == 0) && tmp_if_expr_3)
+            tmp_if_expr_4 = it->image->byte_order == localbyteorder ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(tmp_if_expr_4)
           {
-            unsigned short int *analogtv_blast_imagerow$$1$$1$$2$$3$$pixelptr = (unsigned short int *)rowdata;
+            unsigned short int *analogtv_blast_imagerow__1__1__2__3__pixelptr = (unsigned short int *)rowdata;
             float r2;
             float g2;
             float b2;
-            union anonymous$22 r1;
-            union anonymous$22 g1;
-            union anonymous$22 b1;
-            unsigned short int analogtv_blast_imagerow$$1$$1$$2$$3$$pix;
+            union anonymous_22 r1;
+            union anonymous_22 g1;
+            union anonymous_22 b1;
+            unsigned short int analogtv_blast_imagerow__1__1__2__3__pix;
             rpf = rgbf;
             for( ; !(rpf == rgbf_end); rpf = rpf + (signed long int)3)
             {
@@ -5182,64 +5182,64 @@ static void analogtv_blast_imagerow(const struct analogtv_s *it, float *rgbf, fl
               r1.f = (float)((double)(r2 * levelmult) + float_low8_ofs);
               g1.f = (float)((double)(g2 * levelmult) + float_low8_ofs);
               b1.f = (float)((double)(b2 * levelmult) + float_low8_ofs);
-              analogtv_blast_imagerow$$1$$1$$2$$3$$pix = (unsigned short int)(it->red_values[(signed long int)(r1.i & 0x3ff)] | it->green_values[(signed long int)(g1.i & 0x3ff)] | it->blue_values[(signed long int)(b1.i & 0x3ff)]);
-              analogtv_blast_imagerow$$1$$1$$2$$3$$pixelptr[(signed long int)0] = analogtv_blast_imagerow$$1$$1$$2$$3$$pix;
+              analogtv_blast_imagerow__1__1__2__3__pix = (unsigned short int)(it->red_values[(signed long int)(r1.i & 0x3ff)] | it->green_values[(signed long int)(g1.i & 0x3ff)] | it->blue_values[(signed long int)(b1.i & 0x3ff)]);
+              analogtv_blast_imagerow__1__1__2__3__pixelptr[(signed long int)0] = analogtv_blast_imagerow__1__1__2__3__pix;
               if(xrepl >= 2)
               {
-                analogtv_blast_imagerow$$1$$1$$2$$3$$pixelptr[(signed long int)1] = analogtv_blast_imagerow$$1$$1$$2$$3$$pix;
+                analogtv_blast_imagerow__1__1__2__3__pixelptr[(signed long int)1] = analogtv_blast_imagerow__1__1__2__3__pix;
                 if(xrepl >= 3)
-                  analogtv_blast_imagerow$$1$$1$$2$$3$$pixelptr[(signed long int)2] = analogtv_blast_imagerow$$1$$1$$2$$3$$pix;
+                  analogtv_blast_imagerow__1__1__2__3__pixelptr[(signed long int)2] = analogtv_blast_imagerow__1__1__2__3__pix;
 
               }
 
-              analogtv_blast_imagerow$$1$$1$$2$$3$$pixelptr = analogtv_blast_imagerow$$1$$1$$2$$3$$pixelptr + (signed long int)xrepl;
+              analogtv_blast_imagerow__1__1__2__3__pixelptr = analogtv_blast_imagerow__1__1__2__3__pixelptr + (signed long int)xrepl;
             }
           }
 
           else
           {
-            _Bool tmp_if_expr$1;
+            _Bool tmp_if_expr_1;
             if(it->image->format == 2)
-              tmp_if_expr$1 = it->image->bits_per_pixel == 16 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_1 = it->image->bits_per_pixel == 16 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$1 = (_Bool)0;
-            _Bool tmp_if_expr$2;
-            if(tmp_if_expr$1)
-              tmp_if_expr$2 = it->image->byte_order == localbyteorder ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_1 = (_Bool)0;
+            _Bool tmp_if_expr_2;
+            if(tmp_if_expr_1)
+              tmp_if_expr_2 = it->image->byte_order == localbyteorder ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$2 = (_Bool)0;
-            if(tmp_if_expr$2)
+              tmp_if_expr_2 = (_Bool)0;
+            if(tmp_if_expr_2)
             {
-              unsigned short int *analogtv_blast_imagerow$$1$$1$$2$$4$$pixelptr = (unsigned short int *)rowdata;
-              unsigned short int analogtv_blast_imagerow$$1$$1$$2$$4$$pix;
+              unsigned short int *analogtv_blast_imagerow__1__1__2__4__pixelptr = (unsigned short int *)rowdata;
+              unsigned short int analogtv_blast_imagerow__1__1__2__4__pix;
               rpf = rgbf;
               for( ; !(rpf == rgbf_end); rpf = rpf + (signed long int)3)
               {
-                signed int analogtv_blast_imagerow$$1$$1$$2$$4$$1$$r1 = (signed int)(rpf[(signed long int)0] * levelmult);
-                signed int analogtv_blast_imagerow$$1$$1$$2$$4$$1$$g1 = (signed int)(rpf[(signed long int)1] * levelmult);
-                signed int analogtv_blast_imagerow$$1$$1$$2$$4$$1$$b1 = (signed int)(rpf[(signed long int)2] * levelmult);
-                if(analogtv_blast_imagerow$$1$$1$$2$$4$$1$$r1 >= 1024)
-                  analogtv_blast_imagerow$$1$$1$$2$$4$$1$$r1 = 1024 - 1;
+                signed int analogtv_blast_imagerow__1__1__2__4__1__r1 = (signed int)(rpf[(signed long int)0] * levelmult);
+                signed int analogtv_blast_imagerow__1__1__2__4__1__g1 = (signed int)(rpf[(signed long int)1] * levelmult);
+                signed int analogtv_blast_imagerow__1__1__2__4__1__b1 = (signed int)(rpf[(signed long int)2] * levelmult);
+                if(analogtv_blast_imagerow__1__1__2__4__1__r1 >= 1024)
+                  analogtv_blast_imagerow__1__1__2__4__1__r1 = 1024 - 1;
 
-                if(analogtv_blast_imagerow$$1$$1$$2$$4$$1$$g1 >= 1024)
-                  analogtv_blast_imagerow$$1$$1$$2$$4$$1$$g1 = 1024 - 1;
+                if(analogtv_blast_imagerow__1__1__2__4__1__g1 >= 1024)
+                  analogtv_blast_imagerow__1__1__2__4__1__g1 = 1024 - 1;
 
-                if(analogtv_blast_imagerow$$1$$1$$2$$4$$1$$b1 >= 1024)
-                  analogtv_blast_imagerow$$1$$1$$2$$4$$1$$b1 = 1024 - 1;
+                if(analogtv_blast_imagerow__1__1__2__4__1__b1 >= 1024)
+                  analogtv_blast_imagerow__1__1__2__4__1__b1 = 1024 - 1;
 
-                analogtv_blast_imagerow$$1$$1$$2$$4$$pix = (unsigned short int)(it->red_values[(signed long int)analogtv_blast_imagerow$$1$$1$$2$$4$$1$$r1] | it->green_values[(signed long int)analogtv_blast_imagerow$$1$$1$$2$$4$$1$$g1] | it->blue_values[(signed long int)analogtv_blast_imagerow$$1$$1$$2$$4$$1$$b1]);
-                analogtv_blast_imagerow$$1$$1$$2$$4$$pixelptr[(signed long int)0] = analogtv_blast_imagerow$$1$$1$$2$$4$$pix;
+                analogtv_blast_imagerow__1__1__2__4__pix = (unsigned short int)(it->red_values[(signed long int)analogtv_blast_imagerow__1__1__2__4__1__r1] | it->green_values[(signed long int)analogtv_blast_imagerow__1__1__2__4__1__g1] | it->blue_values[(signed long int)analogtv_blast_imagerow__1__1__2__4__1__b1]);
+                analogtv_blast_imagerow__1__1__2__4__pixelptr[(signed long int)0] = analogtv_blast_imagerow__1__1__2__4__pix;
                 if(xrepl >= 2)
                 {
-                  analogtv_blast_imagerow$$1$$1$$2$$4$$pixelptr[(signed long int)1] = analogtv_blast_imagerow$$1$$1$$2$$4$$pix;
+                  analogtv_blast_imagerow__1__1__2__4__pixelptr[(signed long int)1] = analogtv_blast_imagerow__1__1__2__4__pix;
                   if(xrepl >= 3)
-                    analogtv_blast_imagerow$$1$$1$$2$$4$$pixelptr[(signed long int)2] = analogtv_blast_imagerow$$1$$1$$2$$4$$pix;
+                    analogtv_blast_imagerow__1__1__2__4__pixelptr[(signed long int)2] = analogtv_blast_imagerow__1__1__2__4__pix;
 
                 }
 
-                analogtv_blast_imagerow$$1$$1$$2$$4$$pixelptr = analogtv_blast_imagerow$$1$$1$$2$$4$$pixelptr + (signed long int)xrepl;
+                analogtv_blast_imagerow__1__1__2__4__pixelptr = analogtv_blast_imagerow__1__1__2__4__pixelptr + (signed long int)xrepl;
               }
             }
 
@@ -5312,11 +5312,11 @@ static void analogtv_configure(struct analogtv_s *it)
     }
 
   height_diff = (hlim + 200 / 2) % 200 - 200 / 2;
-  double return_value_fabs$1;
+  double return_value_fabs_1;
   if(!(height_diff == 0))
   {
-    return_value_fabs$1=fabs((double)height_diff);
-    if(return_value_fabs$1 < (double)((float)hlim * height_snap))
+    return_value_fabs_1=fabs((double)height_diff);
+    if(return_value_fabs_1 < (double)((float)hlim * height_snap))
       hlim = hlim - height_diff;
 
   }
@@ -5375,18 +5375,18 @@ void analogtv_draw(struct analogtv_s *it, double noiselevel, const struct analog
     analogtv_sync(it);
     baseload = 0.5;
     it->crtload[(signed long int)(30 - 1)] = (float)baseload;
-    float return_value_puramp$1;
-    return_value_puramp$1=puramp(it, (float)2.0, (float)1.0, (float)1.3);
-    float return_value_puramp$2;
-    return_value_puramp$2=puramp(it, (float)2.0, (float)2.0, (float)1.1);
-    it->puheight = (float)((double)(return_value_puramp$1 * it->height_control) * (1.125 - 0.125 * (double)return_value_puramp$2));
+    float return_value_puramp_1;
+    return_value_puramp_1=puramp(it, (float)2.0, (float)1.0, (float)1.3);
+    float return_value_puramp_2;
+    return_value_puramp_2=puramp(it, (float)2.0, (float)2.0, (float)1.1);
+    it->puheight = (float)((double)(return_value_puramp_1 * it->height_control) * (1.125 - 0.125 * (double)return_value_puramp_2));
     analogtv_setup_levels(it, ((double)it->puheight * (double)it->useheight) / (double)200);
-    double return_value_cos$3;
-    return_value_cos$3=cos(((double)((float)103 + it->tint_control) * 3.1415926) / (double)180);
-    it->tint_i = (float)-return_value_cos$3;
-    double return_value_sin$4;
-    return_value_sin$4=sin(((double)((float)103 + it->tint_control) * 3.1415926) / (double)180);
-    it->tint_q = (float)return_value_sin$4;
+    double return_value_cos_3;
+    return_value_cos_3=cos(((double)((float)103 + it->tint_control) * 3.1415926) / (double)180);
+    it->tint_i = (float)-return_value_cos_3;
+    double return_value_sin_4;
+    return_value_sin_4=sin(((double)((float)103 + it->tint_control) * 3.1415926) / (double)180);
+    it->tint_q = (float)return_value_sin_4;
     lineno = 30;
     for( ; !(lineno >= 230); lineno = lineno + 1)
     {
@@ -5394,9 +5394,9 @@ void analogtv_draw(struct analogtv_s *it, double noiselevel, const struct analog
       signed int ytop;
       signed int ybot;
       unsigned int signal_offset;
-      signed int return_value_analogtv_get_line$5;
-      return_value_analogtv_get_line$5=analogtv_get_line(it, lineno, &slineno, &ytop, &ybot, &signal_offset);
-      if(!(return_value_analogtv_get_line$5 == 0))
+      signed int return_value_analogtv_get_line_5;
+      return_value_analogtv_get_line_5=analogtv_get_line(it, lineno, &slineno, &ytop, &ybot, &signal_offset);
+      if(!(return_value_analogtv_get_line_5 == 0))
       {
         if(lineno == it->shrinkpulse)
         {
@@ -5426,13 +5426,13 @@ void analogtv_draw(struct analogtv_s *it, double noiselevel, const struct analog
         for( ; !((unsigned int)i == frac); i = i + 1)
           totsignal = totsignal + p[(signed long int)i];
         totsignal = totsignal * it->agclevel;
-        float tmp_if_expr$6;
+        float tmp_if_expr_6;
         if(slineno >= 185)
-          tmp_if_expr$6 = (float)((slineno - 184) * (lineno - 184)) * 0.001f * it->squeezebottom;
+          tmp_if_expr_6 = (float)((slineno - 184) * (lineno - 184)) * 0.001f * it->squeezebottom;
 
         else
-          tmp_if_expr$6 = 0.0f;
-        ncl = (float)((double)(0.95f * it->crtload[(signed long int)(lineno - 1)]) + (double)0.05f * (baseload + (double)((totsignal - (float)30000) / 100000.0f) + (double)tmp_if_expr$6));
+          tmp_if_expr_6 = 0.0f;
+        ncl = (float)((double)(0.95f * it->crtload[(signed long int)(lineno - 1)]) + (double)0.05f * (baseload + (double)((totsignal - (float)30000) / 100000.0f) + (double)tmp_if_expr_6));
         it->crtload[(signed long int)lineno] = ncl;
       }
 
@@ -5557,9 +5557,9 @@ void analogtv_draw_string(struct analogtv_input_s *input, struct analogtv_font_s
 void analogtv_draw_string_centered(struct analogtv_input_s *input, struct analogtv_font_s *f, char *s, signed int x, signed int y, signed int *ntsc)
 {
   signed int width;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s);
-  width = (signed int)(return_value_strlen$1 * (unsigned long int)f->char_w * (unsigned long int)4);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s);
+  width = (signed int)(return_value_strlen_1 * (unsigned long int)f->char_w * (unsigned long int)4);
   x = x - width / 2;
   analogtv_draw_string(input, f, s, x, y, ntsc);
 }
@@ -5582,7 +5582,7 @@ void analogtv_draw_xpm(struct analogtv_s *tv, struct analogtv_input_s *input, co
   signed int nbytes;
   char dummyc;
   /* tag-#anon#lST[S32'r'|S32'g'|S32'b'] */
-struct anonymous$11
+struct anonymous_11
 {
   // r
   signed int r;
@@ -5594,10 +5594,10 @@ struct anonymous$11
 
 /* */
   ;
-  struct anonymous$11 cmap[256l];
-  signed int return_value___isoc99_sscanf$1;
-  return_value___isoc99_sscanf$1=__isoc99_sscanf((const char *)*xpm, "%d %d %d %d %c", &xpmw, &xpmh, &ncolors, &nbytes, &dummyc);
-  if(!(return_value___isoc99_sscanf$1 == 4))
+  struct anonymous_11 cmap[256l];
+  signed int return_value___isoc99_sscanf_1;
+  return_value___isoc99_sscanf_1=__isoc99_sscanf((const char *)*xpm, "%d %d %d %d %c", &xpmw, &xpmh, &ncolors, &nbytes, &dummyc);
+  if(!(return_value___isoc99_sscanf_1 == 4))
     abort();
 
   if(ncolors >= 256 || !(ncolors >= 1))
@@ -5610,21 +5610,21 @@ struct anonymous$11
   i = 0;
   for( ; !(i >= ncolors); i = i + 1)
   {
-    const char *analogtv_draw_xpm$$1$$1$$line = *xpm;
+    const char *analogtv_draw_xpm__1__1__line = *xpm;
     signed int colori;
-    const char *tmp_post$2 = analogtv_draw_xpm$$1$$1$$line;
-    analogtv_draw_xpm$$1$$1$$line = analogtv_draw_xpm$$1$$1$$line + 1l;
-    colori = (signed int)(unsigned char)*tmp_post$2 & 0xff;
-    while(!(*analogtv_draw_xpm$$1$$1$$line == 0))
+    const char *tmp_post_2 = analogtv_draw_xpm__1__1__line;
+    analogtv_draw_xpm__1__1__line = analogtv_draw_xpm__1__1__line + 1l;
+    colori = (signed int)(unsigned char)*tmp_post_2 & 0xff;
+    while(!(*analogtv_draw_xpm__1__1__line == 0))
     {
       signed int r;
       signed int g;
       signed int b;
       char which;
-      for( ; (_Bool)1; analogtv_draw_xpm$$1$$1$$line = analogtv_draw_xpm$$1$$1$$line + 1l)
-        if(!((signed int)*analogtv_draw_xpm$$1$$1$$line == 32))
+      for( ; (_Bool)1; analogtv_draw_xpm__1__1__line = analogtv_draw_xpm__1__1__line + 1l)
+        if(!((signed int)*analogtv_draw_xpm__1__1__line == 32))
         {
-          if(!((signed int)*analogtv_draw_xpm$$1$$1$$line == 9))
+          if(!((signed int)*analogtv_draw_xpm__1__1__line == 9))
             goto __CPROVER_DUMP_L8;
 
         }
@@ -5632,16 +5632,16 @@ struct anonymous$11
 
     __CPROVER_DUMP_L8:
       ;
-      const char *tmp_post$3 = analogtv_draw_xpm$$1$$1$$line;
-      analogtv_draw_xpm$$1$$1$$line = analogtv_draw_xpm$$1$$1$$line + 1l;
-      which = *tmp_post$3;
+      const char *tmp_post_3 = analogtv_draw_xpm__1__1__line;
+      analogtv_draw_xpm__1__1__line = analogtv_draw_xpm__1__1__line + 1l;
+      which = *tmp_post_3;
       if(!((signed int)which == 99) && !((signed int)which == 109))
         abort();
 
-      for( ; (_Bool)1; analogtv_draw_xpm$$1$$1$$line = analogtv_draw_xpm$$1$$1$$line + 1l)
-        if(!((signed int)*analogtv_draw_xpm$$1$$1$$line == 32))
+      for( ; (_Bool)1; analogtv_draw_xpm__1__1__line = analogtv_draw_xpm__1__1__line + 1l)
+        if(!((signed int)*analogtv_draw_xpm__1__1__line == 32))
         {
-          if(!((signed int)*analogtv_draw_xpm$$1$$1$$line == 9))
+          if(!((signed int)*analogtv_draw_xpm__1__1__line == 9))
             goto __CPROVER_DUMP_L11;
 
         }
@@ -5649,27 +5649,27 @@ struct anonymous$11
 
     __CPROVER_DUMP_L11:
       ;
-      signed int return_value_strncasecmp$4;
-      return_value_strncasecmp$4=strncasecmp(analogtv_draw_xpm$$1$$1$$line, "None", (unsigned long int)4);
-      if(return_value_strncasecmp$4 == 0)
+      signed int return_value_strncasecmp_4;
+      return_value_strncasecmp_4=strncasecmp(analogtv_draw_xpm__1__1__line, "None", (unsigned long int)4);
+      if(return_value_strncasecmp_4 == 0)
       {
         b = -1;
         g = b;
         r = g;
-        analogtv_draw_xpm$$1$$1$$line = analogtv_draw_xpm$$1$$1$$line + (signed long int)4;
+        analogtv_draw_xpm__1__1__line = analogtv_draw_xpm__1__1__line + (signed long int)4;
       }
 
       else
       {
-        if((signed int)*analogtv_draw_xpm$$1$$1$$line == 35)
-          analogtv_draw_xpm$$1$$1$$line = analogtv_draw_xpm$$1$$1$$line + 1l;
+        if((signed int)*analogtv_draw_xpm__1__1__line == 35)
+          analogtv_draw_xpm__1__1__line = analogtv_draw_xpm__1__1__line + 1l;
 
-        r = (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm$$1$$1$$line[(signed long int)0]] << 4 | (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm$$1$$1$$line[(signed long int)1]];
-        analogtv_draw_xpm$$1$$1$$line = analogtv_draw_xpm$$1$$1$$line + (signed long int)2;
-        g = (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm$$1$$1$$line[(signed long int)0]] << 4 | (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm$$1$$1$$line[(signed long int)1]];
-        analogtv_draw_xpm$$1$$1$$line = analogtv_draw_xpm$$1$$1$$line + (signed long int)2;
-        b = (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm$$1$$1$$line[(signed long int)0]] << 4 | (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm$$1$$1$$line[(signed long int)1]];
-        analogtv_draw_xpm$$1$$1$$line = analogtv_draw_xpm$$1$$1$$line + (signed long int)2;
+        r = (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm__1__1__line[(signed long int)0]] << 4 | (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm__1__1__line[(signed long int)1]];
+        analogtv_draw_xpm__1__1__line = analogtv_draw_xpm__1__1__line + (signed long int)2;
+        g = (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm__1__1__line[(signed long int)0]] << 4 | (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm__1__1__line[(signed long int)1]];
+        analogtv_draw_xpm__1__1__line = analogtv_draw_xpm__1__1__line + (signed long int)2;
+        b = (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm__1__1__line[(signed long int)0]] << 4 | (signed int)hextonib[(signed long int)(signed int)analogtv_draw_xpm__1__1__line[(signed long int)1]];
+        analogtv_draw_xpm__1__1__line = analogtv_draw_xpm__1__1__line + (signed long int)2;
       }
       if((signed int)which == 99)
       {
@@ -5685,9 +5685,9 @@ struct anonymous$11
   for( ; !(y >= xpmh); y = y + 1)
   {
     const char *line;
-    const char * const *tmp_post$5 = xpm;
+    const char * const *tmp_post_5 = xpm;
     xpm = xpm + 1l;
-    line = *tmp_post$5;
+    line = *tmp_post_5;
     tvy = y + top;
     if(!(tvy >= 230) && tvy >= 30)
     {
@@ -5732,24 +5732,24 @@ struct anonymous$11
 // file analogtv.c line 2280
 signed int analogtv_font_pixel(struct analogtv_font_s *f, signed int c, signed int x, signed int y)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(x >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = x >= f->char_w ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = x >= f->char_w ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if(!(y >= 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = y >= f->char_h ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = y >= f->char_h ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return 0;
 
     else
@@ -5769,7 +5769,7 @@ signed int analogtv_font_pixel(struct analogtv_font_s *f, signed int c, signed i
 // file analogtv.c line 2299
 void analogtv_font_set_char(struct analogtv_font_s *f, signed int c, char *s)
 {
-  signed int analogtv_font_set_char$$1$$value;
+  signed int analogtv_font_set_char__1__value;
   signed int x;
   signed int y;
   if(!(c >= 256) && c >= 0)
@@ -5783,8 +5783,8 @@ void analogtv_font_set_char(struct analogtv_font_s *f, signed int c, char *s)
         if(*s == 0)
           goto __CPROVER_DUMP_L7;
 
-        analogtv_font_set_char$$1$$value = (signed int)*s == 32 ? 0 : 1;
-        analogtv_font_set_pixel(f, c, x, y, analogtv_font_set_char$$1$$value);
+        analogtv_font_set_char__1__value = (signed int)*s == 32 ? 0 : 1;
+        analogtv_font_set_pixel(f, c, x, y, analogtv_font_set_char__1__value);
         s = s + 1l;
       }
     }
@@ -5799,21 +5799,21 @@ __CPROVER_DUMP_L7:
 // file analogtv.c line 2289
 void analogtv_font_set_pixel(struct analogtv_font_s *f, signed int c, signed int x, signed int y, signed int value)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(x >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = x >= f->char_w ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = x >= f->char_w ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if(!(y >= 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = y >= f->char_h ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = y >= f->char_h ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_2)
     {
       if(!(c >= 256) && c >= 0)
         f->text_im->f.put_pixel(f->text_im, c * f->char_w + x, y, (unsigned long int)value);
@@ -5857,13 +5857,13 @@ static signed int analogtv_get_line(const struct analogtv_s *it, signed int line
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(!(*ybot >= 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = *ytop > it->useheight ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = *ytop > it->useheight ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return 0;
 
     else
@@ -5890,7 +5890,7 @@ static void analogtv_init(void)
   unsigned int localbyteorder_loc = (unsigned int)(1 << 24 | 0 << 0);
   localbyteorder = (signed int)*((char *)&localbyteorder_loc);
   {
-    union anonymous$22 fe;
+    union anonymous_22 fe;
     signed int ans;
     float_extraction_works = 1;
     i = 0;
@@ -5921,9 +5921,9 @@ static void analogtv_init_signal(const struct analogtv_s *it, double noiselevel,
   float nm1;
   float nm2;
   float noisemul;
-  double return_value_sqrt$1;
-  return_value_sqrt$1=sqrt(noiselevel * (double)150);
-  noisemul = (float)(return_value_sqrt$1 / (double)(float)0x7fffffff);
+  double return_value_sqrt_1;
+  return_value_sqrt_1=sqrt(noiselevel * (double)150);
+  noisemul = (float)(return_value_sqrt_1 / (double)(float)0x7fffffff);
   fastrnd_offset = fastrnd - (unsigned int)0x7fffffff;
   nm1 = (float)(fastrnd_offset <= (unsigned int)0x7fffffff ? (signed int)fastrnd_offset : -1 - (signed int)(((unsigned int)0x7fffffff * 2U + 1U) - fastrnd_offset)) * noisemul;
   while(!(p == pe))
@@ -5932,9 +5932,9 @@ static void analogtv_init_signal(const struct analogtv_s *it, double noiselevel,
     fastrnd = fastrnd * (unsigned int)1103515245 + (unsigned int)12345 & 0xffffffffu;
     fastrnd_offset = fastrnd - (unsigned int)0x7fffffff;
     nm1 = (float)(fastrnd_offset <= (unsigned int)0x7fffffff ? (signed int)fastrnd_offset : -1 - (signed int)(((unsigned int)0x7fffffff * 2U + 1U) - fastrnd_offset)) * noisemul;
-    float *tmp_post$2 = p;
+    float *tmp_post_2 = p;
     p = p + 1l;
-    *tmp_post$2 = nm1 * nm2;
+    *tmp_post_2 = nm1 * nm2;
   }
 }
 
@@ -5943,9 +5943,9 @@ static void analogtv_init_signal(const struct analogtv_s *it, double noiselevel,
 struct analogtv_input_s * analogtv_input_allocate(void)
 {
   struct analogtv_input_s *ret;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct analogtv_input_s) /*239888ul*/ );
-  ret = (struct analogtv_input_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct analogtv_input_s) /*239888ul*/ );
+  ret = (struct analogtv_input_s *)return_value_calloc_1;
   return ret;
 }
 
@@ -5958,9 +5958,9 @@ void analogtv_lcp_to_ntsc(double luma, double chroma, double phase, signed int *
   {
     double w = 90.0 * (double)i + phase;
     double val;
-    double return_value_cos$1;
-    return_value_cos$1=cos((3.1415926 / 180.0) * w);
-    val = luma + chroma * return_value_cos$1;
+    double return_value_cos_1;
+    return_value_cos_1=cos((3.1415926 / 180.0) * w);
+    val = luma + chroma * return_value_cos_1;
     if(val < 0.0)
       val = 0.0;
 
@@ -6018,10 +6018,10 @@ static signed int analogtv_level(const struct analogtv_s *it, signed int y, sign
 // file analogtv.c line 1115
 static double analogtv_levelmult(const struct analogtv_s *it, signed int level)
 {
-  float return_value_puramp$1;
-  return_value_puramp$1=puramp(it, (float)3.0, (float)6.0, (float)1.0);
+  float return_value_puramp_1;
+  return_value_puramp_1=puramp(it, (float)3.0, (float)6.0, (float)1.0);
   static const double levelfac[3l] = { -7.5, 5.5, 24.5 };
-  return (40.0 + levelfac[(signed long int)level] * (double)return_value_puramp$1) / 256.0;
+  return (40.0 + levelfac[(signed long int)level] * (double)return_value_puramp_1) / 256.0;
 }
 
 // analogtv_load_ximage
@@ -6039,8 +6039,8 @@ signed int analogtv_load_ximage(struct analogtv_s *it, struct analogtv_input_s *
   signed int fiy[4l];
   signed int fqx[4l];
   signed int fqy[4l];
-  struct anonymous$9 col1[755l];
-  struct anonymous$9 col2[755l];
+  struct anonymous_9 col1[755l];
+  struct anonymous_9 col2[755l];
   signed int multiq[759l];
   signed int y_overscan = 5;
   signed int y_scanlength = 200 + 2 * y_overscan;
@@ -6051,9 +6051,9 @@ signed int analogtv_load_ximage(struct analogtv_s *it, struct analogtv_input_s *
   {
     double phase = 90.0 - 90.0 * (double)i;
     double ampl = 1.0;
-    double return_value_cos$1;
-    return_value_cos$1=cos((3.1415926 / 180.0) * (phase - (double)303));
-    multiq[(signed long int)i] = (signed int)(-return_value_cos$1 * 4096.0 * ampl);
+    double return_value_cos_1;
+    return_value_cos_1=cos((3.1415926 / 180.0) * (phase - (double)303));
+    multiq[(signed long int)i] = (signed int)(-return_value_cos_1 * 4096.0 * ampl);
   }
   y = 0;
   for( ; !(y >= y_scanlength); y = y + 1)
@@ -6150,25 +6150,25 @@ signed int analogtv_load_ximage(struct analogtv_s *it, struct analogtv_input_s *
 void analogtv_make_font(struct _XDisplay *dpy, unsigned long int window, struct analogtv_font_s *f, signed int w, signed int h, char *fontname)
 {
   signed int i;
-  struct anonymous$3 *font;
+  struct anonymous_3 *font;
   unsigned long int text_pm;
   struct _XGC *gc;
-  struct anonymous$4 gcv;
-  struct anonymous$7 xgwa;
+  struct anonymous_4 gcv;
+  struct anonymous_7 xgwa;
   f->char_w = w;
   f->char_h = h;
   XGetWindowAttributes(dpy, window, &xgwa);
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
   if(!(fontname == ((char *)NULL)))
   {
-    return_value_strcmp$2=strcmp(fontname, "6x10");
-    tmp_if_expr$3 = !(return_value_strcmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_2=strcmp(fontname, "6x10");
+    tmp_if_expr_3 = !(return_value_strcmp_2 != 0) ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
   {
     text_pm=XCreatePixmapFromBitmapData(dpy, window, (char *)font6x10_bits, (unsigned int)1792, (unsigned int)10, (unsigned long int)1, (unsigned long int)0, (unsigned int)1);
     f->text_im=XGetImage(dpy, text_pm, 0, 0, (unsigned int)1792, (unsigned int)10, (unsigned long int)1, 1);
@@ -6179,14 +6179,14 @@ void analogtv_make_font(struct _XDisplay *dpy, unsigned long int window, struct 
     if(!(fontname == ((char *)NULL)))
     {
       font=XLoadQueryFont(dpy, fontname);
-      if(font == ((struct anonymous$3 *)NULL))
+      if(font == ((struct anonymous_3 *)NULL))
       {
         fprintf(stderr, "analogtv: can't load font %s\n", fontname);
         abort();
       }
 
       text_pm=XCreatePixmap(dpy, window, (unsigned int)(256 * f->char_w), (unsigned int)f->char_h, (unsigned int)1);
-      memset((void *)&gcv, 0, sizeof(struct anonymous$4) /*128ul*/ );
+      memset((void *)&gcv, 0, sizeof(struct anonymous_4) /*128ul*/ );
       gcv.foreground = (unsigned long int)1;
       gcv.background = (unsigned long int)0;
       gcv.font = font->fid;
@@ -6210,9 +6210,9 @@ void analogtv_make_font(struct _XDisplay *dpy, unsigned long int window, struct 
     else
     {
       f->text_im=XCreateImage(dpy, xgwa.visual, (unsigned int)1, 1, 0, ((char *)NULL), (unsigned int)(256 * f->char_w), (unsigned int)f->char_h, 8, 0);
-      void *return_value_calloc$1;
-      return_value_calloc$1=calloc((unsigned long int)f->text_im->height, (unsigned long int)f->text_im->bytes_per_line);
-      f->text_im->data = (char *)return_value_calloc$1;
+      void *return_value_calloc_1;
+      return_value_calloc_1=calloc((unsigned long int)f->text_im->height, (unsigned long int)f->text_im->bytes_per_line);
+      f->text_im->data = (char *)return_value_calloc_1;
     }
   f->x_mult = 4;
   f->y_mult = 2;
@@ -6314,27 +6314,27 @@ void analogtv_reception_update(struct analogtv_reception_s *rec)
     i = 0;
     for( ; !(i >= 4); i = i + 1)
     {
-      double tmp_statement_expression$1;
-      double analogtv_reception_update$$1$$1$$1$$1$$tmp;
-      unsigned int return_value_ya_random$2;
-      return_value_ya_random$2=ya_random();
-      analogtv_reception_update$$1$$1$$1$$1$$tmp = ((double)return_value_ya_random$2 * (double)0.02) / (double)(unsigned int)~0;
-      tmp_statement_expression$1 = analogtv_reception_update$$1$$1$$1$$1$$tmp < (double)0 ? -analogtv_reception_update$$1$$1$$1$$1$$tmp : analogtv_reception_update$$1$$1$$1$$1$$tmp;
-      rec->ghostfir2[(signed long int)i] = rec->ghostfir2[(signed long int)i] + -(rec->ghostfir2[(signed long int)i] / 16.0) + rec->multipath * (tmp_statement_expression$1 - 0.01);
+      double tmp_statement_expression_1;
+      double analogtv_reception_update__1__1__1__1__tmp;
+      unsigned int return_value_ya_random_2;
+      return_value_ya_random_2=ya_random();
+      analogtv_reception_update__1__1__1__1__tmp = ((double)return_value_ya_random_2 * (double)0.02) / (double)(unsigned int)~0;
+      tmp_statement_expression_1 = analogtv_reception_update__1__1__1__1__tmp < (double)0 ? -analogtv_reception_update__1__1__1__1__tmp : analogtv_reception_update__1__1__1__1__tmp;
+      rec->ghostfir2[(signed long int)i] = rec->ghostfir2[(signed long int)i] + -(rec->ghostfir2[(signed long int)i] / 16.0) + rec->multipath * (tmp_statement_expression_1 - 0.01);
     }
-    unsigned int return_value_ya_random$6;
-    return_value_ya_random$6=ya_random();
-    if(return_value_ya_random$6 % 20u == 0u)
+    unsigned int return_value_ya_random_6;
+    return_value_ya_random_6=ya_random();
+    if(return_value_ya_random_6 % 20u == 0u)
     {
-      unsigned int return_value_ya_random$3;
-      return_value_ya_random$3=ya_random();
-      double tmp_statement_expression$4;
+      unsigned int return_value_ya_random_3;
+      return_value_ya_random_3=ya_random();
+      double tmp_statement_expression_4;
       double tmp;
-      unsigned int return_value_ya_random$5;
-      return_value_ya_random$5=ya_random();
-      tmp = ((double)return_value_ya_random$5 * (double)0.08) / (double)(unsigned int)~0;
-      tmp_statement_expression$4 = tmp < (double)0 ? -tmp : tmp;
-      rec->ghostfir2[(signed long int)(return_value_ya_random$3 % (unsigned int)4)] = rec->multipath * (tmp_statement_expression$4 - 0.04);
+      unsigned int return_value_ya_random_5;
+      return_value_ya_random_5=ya_random();
+      tmp = ((double)return_value_ya_random_5 * (double)0.08) / (double)(unsigned int)~0;
+      tmp_statement_expression_4 = tmp < (double)0 ? -tmp : tmp;
+      rec->ghostfir2[(signed long int)(return_value_ya_random_3 % (unsigned int)4)] = rec->multipath * (tmp_statement_expression_4 - 0.04);
     }
 
     i = 0;
@@ -6396,21 +6396,21 @@ void analogtv_set_defaults(struct analogtv_s *it, char *prefix)
 {
   char buf[256l];
   sprintf(buf, "%sTVTint", prefix);
-  double return_value_get_float_resource$1;
-  return_value_get_float_resource$1=get_float_resource(it->dpy, buf, "TVTint");
-  it->tint_control = (float)return_value_get_float_resource$1;
+  double return_value_get_float_resource_1;
+  return_value_get_float_resource_1=get_float_resource(it->dpy, buf, "TVTint");
+  it->tint_control = (float)return_value_get_float_resource_1;
   sprintf(buf, "%sTVColor", prefix);
-  double return_value_get_float_resource$2;
-  return_value_get_float_resource$2=get_float_resource(it->dpy, buf, "TVColor");
-  it->color_control = (float)(return_value_get_float_resource$2 / 100.0);
+  double return_value_get_float_resource_2;
+  return_value_get_float_resource_2=get_float_resource(it->dpy, buf, "TVColor");
+  it->color_control = (float)(return_value_get_float_resource_2 / 100.0);
   sprintf(buf, "%sTVBrightness", prefix);
-  double return_value_get_float_resource$3;
-  return_value_get_float_resource$3=get_float_resource(it->dpy, buf, "TVBrightness");
-  it->brightness_control = (float)(return_value_get_float_resource$3 / 100.0);
+  double return_value_get_float_resource_3;
+  return_value_get_float_resource_3=get_float_resource(it->dpy, buf, "TVBrightness");
+  it->brightness_control = (float)(return_value_get_float_resource_3 / 100.0);
   sprintf(buf, "%sTVContrast", prefix);
-  double return_value_get_float_resource$4;
-  return_value_get_float_resource$4=get_float_resource(it->dpy, buf, "TVContrast");
-  it->contrast_control = (float)(return_value_get_float_resource$4 / 100.0);
+  double return_value_get_float_resource_4;
+  return_value_get_float_resource_4=get_float_resource(it->dpy, buf, "TVContrast");
+  it->contrast_control = (float)(return_value_get_float_resource_4 / 100.0);
   it->height_control = (float)1.0;
   it->width_control = (float)1.0;
   it->squish_control = (float)0.0;
@@ -6418,20 +6418,20 @@ void analogtv_set_defaults(struct analogtv_s *it, char *prefix)
   it->hashnoise_rpm = (double)0;
   it->hashnoise_on = 0;
   it->hashnoise_enable = 1;
-  double tmp_statement_expression$5;
+  double tmp_statement_expression_5;
   double tmp;
-  unsigned int return_value_ya_random$6;
-  return_value_ya_random$6=ya_random();
-  tmp = ((double)return_value_ya_random$6 * (double)10.0) / (double)(unsigned int)~0;
-  tmp_statement_expression$5 = tmp < (double)0 ? -tmp : tmp;
-  it->horiz_desync = (float)(tmp_statement_expression$5 - 5.0);
-  double tmp_statement_expression$7;
-  double analogtv_set_defaults$$1$$2$$tmp;
-  unsigned int return_value_ya_random$8;
-  return_value_ya_random$8=ya_random();
-  analogtv_set_defaults$$1$$2$$tmp = ((double)return_value_ya_random$8 * (double)5.0) / (double)(unsigned int)~0;
-  tmp_statement_expression$7 = analogtv_set_defaults$$1$$2$$tmp < (double)0 ? -analogtv_set_defaults$$1$$2$$tmp : analogtv_set_defaults$$1$$2$$tmp;
-  it->squeezebottom = (float)(tmp_statement_expression$7 - 1.0);
+  unsigned int return_value_ya_random_6;
+  return_value_ya_random_6=ya_random();
+  tmp = ((double)return_value_ya_random_6 * (double)10.0) / (double)(unsigned int)~0;
+  tmp_statement_expression_5 = tmp < (double)0 ? -tmp : tmp;
+  it->horiz_desync = (float)(tmp_statement_expression_5 - 5.0);
+  double tmp_statement_expression_7;
+  double analogtv_set_defaults__1__2__tmp;
+  unsigned int return_value_ya_random_8;
+  return_value_ya_random_8=ya_random();
+  analogtv_set_defaults__1__2__tmp = ((double)return_value_ya_random_8 * (double)5.0) / (double)(unsigned int)~0;
+  tmp_statement_expression_7 = analogtv_set_defaults__1__2__tmp < (double)0 ? -analogtv_set_defaults__1__2__tmp : analogtv_set_defaults__1__2__tmp;
+  it->squeezebottom = (float)(tmp_statement_expression_7 - 1.0);
 }
 
 // analogtv_set_demod
@@ -6454,8 +6454,8 @@ cmap_again:
   signed int r;
   signed int g;
   signed int b;
-  struct anonymous$9 col;
-  signed int return_value_XAllocColor$1;
+  struct anonymous_9 col;
+  signed int return_value_XAllocColor_1;
   while((_Bool)1)
   {
     if(it->use_cmap == 0)
@@ -6520,8 +6520,8 @@ cmap_again:
     col.green = (unsigned short int)g;
     col.blue = (unsigned short int)b;
     col.pixel = (unsigned long int)0;
-    return_value_XAllocColor$1=XAllocColor(it->dpy, it->colormap, &col);
-    if(!(return_value_XAllocColor$1 == 0))
+    return_value_XAllocColor_1=XAllocColor(it->dpy, it->colormap, &col);
+    if(!(return_value_XAllocColor_1 == 0))
       break;
 
     if(!((4 * y_levels) / 12 >= q_levels))
@@ -6537,9 +6537,9 @@ cmap_again:
       return -1;
 
   }
-  signed int tmp_post$2 = it->n_colors;
+  signed int tmp_post_2 = it->n_colors;
   it->n_colors = it->n_colors + 1;
-  it->colors[(signed long int)tmp_post$2] = col.pixel;
+  it->colors[(signed long int)tmp_post_2] = col.pixel;
   qli = qli + 1;
   goto __CPROVER_DUMP_L5;
 
@@ -6571,36 +6571,36 @@ void analogtv_setup_frame(struct analogtv_s *it)
   it->redraw_all = 0;
   if(!(it->flutter_horiz_desync == 0))
   {
-    unsigned int return_value_ya_random$1;
-    return_value_ya_random$1=ya_random();
-    unsigned int return_value_ya_random$2;
-    return_value_ya_random$2=ya_random();
-    unsigned int return_value_ya_random$3;
-    return_value_ya_random$3=ya_random();
-    it->horiz_desync = it->horiz_desync + (float)(-0.10 * ((double)it->horiz_desync - 3.0) + (double)(((signed int)(return_value_ya_random$1 & (unsigned int)0xff) - 0x80) * ((signed int)(return_value_ya_random$2 & (unsigned int)0xff) - 0x80) * ((signed int)(return_value_ya_random$3 & (unsigned int)0xff) - 0x80)) * 0.000001);
+    unsigned int return_value_ya_random_1;
+    return_value_ya_random_1=ya_random();
+    unsigned int return_value_ya_random_2;
+    return_value_ya_random_2=ya_random();
+    unsigned int return_value_ya_random_3;
+    return_value_ya_random_3=ya_random();
+    it->horiz_desync = it->horiz_desync + (float)(-0.10 * ((double)it->horiz_desync - 3.0) + (double)(((signed int)(return_value_ya_random_1 & (unsigned int)0xff) - 0x80) * ((signed int)(return_value_ya_random_2 & (unsigned int)0xff) - 0x80) * ((signed int)(return_value_ya_random_3 & (unsigned int)0xff) - 0x80)) * 0.000001);
   }
 
   if(!(it->hashnoise_enable == 0))
   {
     if(it->hashnoise_on == 0)
     {
-      unsigned int return_value_ya_random$5;
-      return_value_ya_random$5=ya_random();
-      if(return_value_ya_random$5 % 10000u == 0u)
+      unsigned int return_value_ya_random_5;
+      return_value_ya_random_5=ya_random();
+      if(return_value_ya_random_5 % 10000u == 0u)
       {
         it->hashnoise_on = 1;
-        unsigned int return_value_ya_random$4;
-        return_value_ya_random$4=ya_random();
-        it->shrinkpulse = (signed int)(return_value_ya_random$4 % (unsigned int)262);
+        unsigned int return_value_ya_random_4;
+        return_value_ya_random_4=ya_random();
+        it->shrinkpulse = (signed int)(return_value_ya_random_4 % (unsigned int)262);
       }
 
     }
 
   }
 
-  unsigned int return_value_ya_random$6;
-  return_value_ya_random$6=ya_random();
-  if(return_value_ya_random$6 % 1000u == 0u)
+  unsigned int return_value_ya_random_6;
+  return_value_ya_random_6=ya_random();
+  if(return_value_ya_random_6 % 1000u == 0u)
     it->hashnoise_on = 0;
 
   if(IEEE_FLOAT_NOTEQUAL(it->rx_signal_level, 0.0))
@@ -6640,10 +6640,10 @@ static void analogtv_setup_levels(struct analogtv_s *it, double avgheight)
     i = 0;
     for( ; !(i >= height); i = i + 1)
     {
-      float return_value_puramp$1;
-      return_value_puramp$1=puramp(it, (float)3.0, (float)6.0, (float)1.0);
+      float return_value_puramp_1;
+      return_value_puramp_1=puramp(it, (float)3.0, (float)6.0, (float)1.0);
       static const double levelfac[3l] = { -7.5, 5.5, 24.5 };
-      it->leveltable[(signed long int)height][(signed long int)i].value = (40.0 + levelfac[(signed long int)it->leveltable[(signed long int)height][(signed long int)i].index] * (double)return_value_puramp$1) / 256.0;
+      it->leveltable[(signed long int)height][(signed long int)i].value = (40.0 + levelfac[(signed long int)it->leveltable[(signed long int)height][(signed long int)i].index] * (double)return_value_puramp_1) / 256.0;
     }
   }
 }
@@ -6667,15 +6667,15 @@ void analogtv_setup_sync(struct analogtv_input_s *input, signed int do_cb, signe
     {
       while(!(i >= 67))
       {
-        signed int tmp_post$1 = i;
+        signed int tmp_post_1 = i;
         i = i + 1;
-        sig[(signed long int)tmp_post$1] = (signed char)0;
+        sig[(signed long int)tmp_post_1] = (signed char)0;
       }
       while(!(i >= 912))
       {
-        signed int tmp_post$2 = i;
+        signed int tmp_post_2 = i;
         i = i + 1;
-        sig[(signed long int)tmp_post$2] = (signed char)synclevel;
+        sig[(signed long int)tmp_post_2] = (signed char)synclevel;
       }
     }
 
@@ -6683,28 +6683,28 @@ void analogtv_setup_sync(struct analogtv_input_s *input, signed int do_cb, signe
     {
       while(!(i >= 67))
       {
-        signed int tmp_post$3 = i;
+        signed int tmp_post_3 = i;
         i = i + 1;
-        sig[(signed long int)tmp_post$3] = (signed char)synclevel;
+        sig[(signed long int)tmp_post_3] = (signed char)synclevel;
       }
       while(!(i >= 135))
       {
-        signed int tmp_post$4 = i;
+        signed int tmp_post_4 = i;
         i = i + 1;
-        sig[(signed long int)tmp_post$4] = (signed char)0;
+        sig[(signed long int)tmp_post_4] = (signed char)0;
       }
       while(!(i >= 890))
       {
-        signed int tmp_post$5 = i;
+        signed int tmp_post_5 = i;
         i = i + 1;
-        sig[(signed long int)tmp_post$5] = (signed char)10;
+        sig[(signed long int)tmp_post_5] = (signed char)10;
       }
     }
     while(!(i >= 912))
     {
-      signed int tmp_post$6 = i;
+      signed int tmp_post_6 = i;
       i = i + 1;
-      sig[(signed long int)tmp_post$6] = (signed char)0;
+      sig[(signed long int)tmp_post_6] = (signed char)0;
     }
     if(!(do_cb == 0))
     {
@@ -6734,9 +6734,9 @@ void analogtv_setup_teletext(struct analogtv_input_s *input)
     {
       if((7 & x) == 0)
       {
-        unsigned int return_value_ya_random$1;
-        return_value_ya_random$1=ya_random();
-        teletext = (return_value_ya_random$1 & (unsigned int)1) != 0u ? 100 : 10;
+        unsigned int return_value_ya_random_1;
+        return_value_ya_random_1=ya_random();
+        teletext = (return_value_ya_random_1 & (unsigned int)1) != 0u ? 100 : 10;
       }
 
       input->signal[(signed long int)y][(signed long int)x] = (signed char)teletext;
@@ -6809,9 +6809,9 @@ static void analogtv_sync(struct analogtv_s *it)
     i = 0;
     for( ; !(i >= 4); i = i + 1)
       tot = tot + (float)(it->cb_phase[(signed long int)i] * it->cb_phase[(signed long int)i]);
-    float return_value_sqrtf$1;
-    return_value_sqrtf$1=sqrtf(tot);
-    cbgain = 32.0f / return_value_sqrtf$1;
+    float return_value_sqrtf_1;
+    return_value_sqrtf_1=sqrtf(tot);
+    cbgain = 32.0f / return_value_sqrtf_1;
     i = 0;
     for( ; !(i >= 4); i = i + 1)
       it->line_cb_phase[(signed long int)lineno][(signed long int)i] = it->cb_phase[(signed long int)i] * (double)cbgain;
@@ -6841,13 +6841,13 @@ static void analogtv_thread_add_signals(void *thread_raw)
     i = (unsigned int)0;
     for( ; !(i == it->rec_count); i = i + 1u)
     {
-      signed int tmp_if_expr$1;
+      signed int tmp_if_expr_1;
       if(i == 0u)
-        tmp_if_expr$1 = it->channel_change_cycles;
+        tmp_if_expr_1 = it->channel_change_cycles;
 
       else
-        tmp_if_expr$1 = 0;
-      analogtv_add_signal(it, it->recs[(signed long int)i], start, end, tmp_if_expr$1);
+        tmp_if_expr_1 = 0;
+      analogtv_add_signal(it, it->recs[(signed long int)i], start, end, tmp_if_expr_1);
     }
     /* assertion !(start % 32) */
     assert(!(start % (unsigned int)32 != 0u));
@@ -6877,21 +6877,21 @@ static signed int analogtv_thread_create(void *thread_raw, struct threadpool *th
   unsigned int align;
   thread->it = (struct analogtv_s *)((char *)threads - (signed long int)160ul);
   thread->thread_id = thread_id;
-  unsigned int return_value_thread_memory_alignment$1;
-  return_value_thread_memory_alignment$1=thread_memory_alignment(thread->it->dpy);
-  align = (unsigned int)((unsigned long int)return_value_thread_memory_alignment$1 / sizeof(float) /*4ul*/ );
+  unsigned int return_value_thread_memory_alignment_1;
+  return_value_thread_memory_alignment_1=thread_memory_alignment(thread->it->dpy);
+  align = (unsigned int)((unsigned long int)return_value_thread_memory_alignment_1 / sizeof(float) /*4ul*/ );
   if(align == 0u)
     align = (unsigned int)1;
 
   align = ~(align * (unsigned int)32 - (unsigned int)1);
   thread->signal_start = (unsigned long int)(((unsigned int)238944 * thread_id) / threads->count & align);
-  unsigned int tmp_if_expr$2;
+  unsigned int tmp_if_expr_2;
   if(1u + thread_id == threads->count)
-    tmp_if_expr$2 = (unsigned int)238944;
+    tmp_if_expr_2 = (unsigned int)238944;
 
   else
-    tmp_if_expr$2 = ((unsigned int)238944 * (thread_id + (unsigned int)1)) / threads->count & align;
-  thread->signal_end = (unsigned long int)tmp_if_expr$2;
+    tmp_if_expr_2 = ((unsigned int)238944 * (thread_id + (unsigned int)1)) / threads->count & align;
+  thread->signal_end = (unsigned long int)tmp_if_expr_2;
   return 0;
 }
 
@@ -6911,9 +6911,9 @@ static void analogtv_thread_draw_lines(void *thread_raw)
   signed int lineno;
   float *raw_rgb_start;
   float *raw_rgb_end;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)(it->subwidth * 3), sizeof(float) /*4ul*/ );
-  raw_rgb_start = (float *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)(it->subwidth * 3), sizeof(float) /*4ul*/ );
+  raw_rgb_start = (float *)return_value_calloc_1;
   if(!(raw_rgb_start == ((float *)NULL)))
   {
     raw_rgb_end = raw_rgb_start + (signed long int)(3 * it->subwidth);
@@ -6940,9 +6940,9 @@ static void analogtv_thread_draw_lines(void *thread_raw)
       signed int pixmultinc;
       float *rrp;
       struct analogtv_yiq_s yiq[765l];
-      signed int return_value_analogtv_get_line$2;
-      return_value_analogtv_get_line$2=analogtv_get_line(it, lineno, &slineno, &ytop, &ybot, &signal_offset);
-      if(!(return_value_analogtv_get_line$2 == 0))
+      signed int return_value_analogtv_get_line_2;
+      return_value_analogtv_get_line_2=analogtv_get_line(it, lineno, &slineno, &ytop, &ybot, &signal_offset);
+      if(!(return_value_analogtv_get_line_2 == 0))
       {
         signal = it->rx_signal + (signed long int)signal_offset;
         float bloomthisrow;
@@ -6962,20 +6962,20 @@ static void analogtv_thread_draw_lines(void *thread_raw)
 
         if(!(slineno >= 16))
         {
-          float return_value_expf$3;
-          return_value_expf$3=expf(-0.17f * (float)slineno);
-          float return_value_cosf$4;
-          return_value_cosf$4=cosf((float)slineno * 0.6f);
-          shiftthisrow = it->horiz_desync * return_value_expf$3 * (0.7f + return_value_cosf$4);
+          float return_value_expf_3;
+          return_value_expf_3=expf(-0.17f * (float)slineno);
+          float return_value_cosf_4;
+          return_value_cosf_4=cosf((float)slineno * 0.6f);
+          shiftthisrow = it->horiz_desync * return_value_expf_3 * (0.7f + return_value_cosf_4);
         }
 
         else
           shiftthisrow = 0.0f;
         viswidth = (float)755 * 0.79f - 5.0f * bloomthisrow;
         middle = (float)(755 / 2) - shiftthisrow;
-        float return_value_puramp$5;
-        return_value_puramp$5=puramp(it, 0.5f, 0.3f, 1.0f);
-        scanwidth = it->width_control * return_value_puramp$5;
+        float return_value_puramp_5;
+        return_value_puramp_5=puramp(it, 0.5f, 0.3f, 1.0f);
+        scanwidth = it->width_control * return_value_puramp_5;
         scw = (signed int)((float)it->subwidth * scanwidth);
         if(!(it->subwidth >= scw))
           scw = it->usewidth;
@@ -6985,9 +6985,9 @@ static void analogtv_thread_draw_lines(void *thread_raw)
         pixrate = (signed int)((float)(signed int)((viswidth * 65536.0f * 1.0f) / (float)it->subwidth) / scanwidth);
         scanstart_i = (signed int)((middle - viswidth * 0.5f) * 65536.0f);
         scanend_i = (755 - 1) * 65536;
-        float return_value_puramp$6;
-        return_value_puramp$6=puramp(it, 2.0f, 0.0f, 1.1f);
-        squishright_i = (signed int)((middle + viswidth * ((0.25f + 0.25f * return_value_puramp$6) - it->squish_control)) * 65536.0f);
+        float return_value_puramp_6;
+        return_value_puramp_6=puramp(it, 2.0f, 0.0f, 1.1f);
+        squishright_i = (signed int)((middle + viswidth * ((0.25f + 0.25f * return_value_puramp_6) - it->squish_control)) * 65536.0f);
         squishdiv = it->subwidth / 15;
         rgb_start = raw_rgb_start + (signed long int)(scl * 3);
         rgb_end = raw_rgb_start + (signed long int)(scr * 3);
@@ -7001,13 +7001,13 @@ static void analogtv_thread_draw_lines(void *thread_raw)
             signed int level;
             level=analogtv_level(it, y, ytop, ybot);
             float levelmult;
-            double return_value_analogtv_levelmult$7;
-            return_value_analogtv_levelmult$7=analogtv_levelmult(it, level);
-            levelmult = (float)return_value_analogtv_levelmult$7;
+            double return_value_analogtv_levelmult_7;
+            return_value_analogtv_levelmult_7=analogtv_levelmult(it, level);
+            levelmult = (float)return_value_analogtv_levelmult_7;
             float levelmult_y;
-            float return_value_puramp$8;
-            return_value_puramp$8=puramp(it, 1.0f, 0.0f, 1.0f);
-            levelmult_y = ((levelmult * it->contrast_control * return_value_puramp$8) / (0.5f + 0.5f * it->puheight)) * 0.070f;
+            float return_value_puramp_8;
+            return_value_puramp_8=puramp(it, 1.0f, 0.0f, 1.0f);
+            levelmult_y = ((levelmult * it->contrast_control * return_value_puramp_8) / (0.5f + 0.5f * it->puheight)) * 0.070f;
             float levelmult_iq = levelmult * 0.090f;
             analogtv_ntsc_to_yiq(it, lineno, signal, (scanstart_i >> 16) - 10, (scanend_i >> 16) + 10, yiq);
             pixmultinc = pixrate;
@@ -7029,19 +7029,19 @@ static void analogtv_thread_draw_lines(void *thread_raw)
               if(x >= it->usewidth)
                 break;
 
-              float analogtv_thread_draw_lines$$1$$1$$2$$1$$2$$pixfrac = (float)(i & 0xffff) / 65536.0f;
-              float invpixfrac = 1.0f - analogtv_thread_draw_lines$$1$$1$$2$$1$$2$$pixfrac;
+              float analogtv_thread_draw_lines__1__1__2__1__2__pixfrac = (float)(i & 0xffff) / 65536.0f;
+              float invpixfrac = 1.0f - analogtv_thread_draw_lines__1__1__2__1__2__pixfrac;
               signed int pati = i >> 16;
               signed int yli;
               signed int ili;
               signed int qli;
               signed int cmi;
-              float analogtv_thread_draw_lines$$1$$1$$2$$1$$2$$interpy = (yiq[(signed long int)pati].y * invpixfrac + yiq[(signed long int)(pati + 1)].y * analogtv_thread_draw_lines$$1$$1$$2$$1$$2$$pixfrac) * levelmult_y;
-              float analogtv_thread_draw_lines$$1$$1$$2$$1$$2$$interpi = (yiq[(signed long int)pati].i * invpixfrac + yiq[(signed long int)(pati + 1)].i * analogtv_thread_draw_lines$$1$$1$$2$$1$$2$$pixfrac) * levelmult_iq;
-              float analogtv_thread_draw_lines$$1$$1$$2$$1$$2$$interpq = (yiq[(signed long int)pati].q * invpixfrac + yiq[(signed long int)(pati + 1)].q * analogtv_thread_draw_lines$$1$$1$$2$$1$$2$$pixfrac) * levelmult_iq;
-              yli = (signed int)(analogtv_thread_draw_lines$$1$$1$$2$$1$$2$$interpy * (float)it->cmap_y_levels);
-              ili = (signed int)((analogtv_thread_draw_lines$$1$$1$$2$$1$$2$$interpi + 0.5f) * (float)it->cmap_i_levels);
-              qli = (signed int)((analogtv_thread_draw_lines$$1$$1$$2$$1$$2$$interpq + 0.5f) * (float)it->cmap_q_levels);
+              float analogtv_thread_draw_lines__1__1__2__1__2__interpy = (yiq[(signed long int)pati].y * invpixfrac + yiq[(signed long int)(pati + 1)].y * analogtv_thread_draw_lines__1__1__2__1__2__pixfrac) * levelmult_y;
+              float analogtv_thread_draw_lines__1__1__2__1__2__interpi = (yiq[(signed long int)pati].i * invpixfrac + yiq[(signed long int)(pati + 1)].i * analogtv_thread_draw_lines__1__1__2__1__2__pixfrac) * levelmult_iq;
+              float analogtv_thread_draw_lines__1__1__2__1__2__interpq = (yiq[(signed long int)pati].q * invpixfrac + yiq[(signed long int)(pati + 1)].q * analogtv_thread_draw_lines__1__1__2__1__2__pixfrac) * levelmult_iq;
+              yli = (signed int)(analogtv_thread_draw_lines__1__1__2__1__2__interpy * (float)it->cmap_y_levels);
+              ili = (signed int)((analogtv_thread_draw_lines__1__1__2__1__2__interpi + 0.5f) * (float)it->cmap_i_levels);
+              qli = (signed int)((analogtv_thread_draw_lines__1__1__2__1__2__interpq + 0.5f) * (float)it->cmap_q_levels);
               if(!(yli >= 0))
                 yli = 0;
 
@@ -7086,9 +7086,9 @@ static void analogtv_thread_draw_lines(void *thread_raw)
         else
         {
           analogtv_ntsc_to_yiq(it, lineno, signal, (scanstart_i >> 16) - 10, (scanend_i >> 16) + 10, yiq);
-          float return_value_puramp$9;
-          return_value_puramp$9=puramp(it, 1.0f, 0.0f, 1.0f);
-          pixbright = (((it->contrast_control * return_value_puramp$9) / (0.5f + 0.5f * it->puheight)) * 1024.0f) / 100.0f;
+          float return_value_puramp_9;
+          return_value_puramp_9=puramp(it, 1.0f, 0.0f, 1.0f);
+          pixbright = (((it->contrast_control * return_value_puramp_9) / (0.5f + 0.5f * it->puheight)) * 1024.0f) / 100.0f;
           pixmultinc = pixrate;
           i = scanstart_i;
           rrp = rgb_start;
@@ -7102,14 +7102,14 @@ static void analogtv_thread_draw_lines(void *thread_raw)
           while(!(rrp == rgb_end) && !(i >= scanend_i))
           {
             float pixfrac = (float)(i & 0xffff) / 65536.0f;
-            float analogtv_thread_draw_lines$$1$$1$$3$$2$$invpixfrac = 1.0f - pixfrac;
-            signed int analogtv_thread_draw_lines$$1$$1$$3$$2$$pati = i >> 16;
+            float analogtv_thread_draw_lines__1__1__3__2__invpixfrac = 1.0f - pixfrac;
+            signed int analogtv_thread_draw_lines__1__1__3__2__pati = i >> 16;
             float r;
             float g;
             float b;
-            float interpy = yiq[(signed long int)analogtv_thread_draw_lines$$1$$1$$3$$2$$pati].y * analogtv_thread_draw_lines$$1$$1$$3$$2$$invpixfrac + yiq[(signed long int)(analogtv_thread_draw_lines$$1$$1$$3$$2$$pati + 1)].y * pixfrac;
-            float interpi = yiq[(signed long int)analogtv_thread_draw_lines$$1$$1$$3$$2$$pati].i * analogtv_thread_draw_lines$$1$$1$$3$$2$$invpixfrac + yiq[(signed long int)(analogtv_thread_draw_lines$$1$$1$$3$$2$$pati + 1)].i * pixfrac;
-            float interpq = yiq[(signed long int)analogtv_thread_draw_lines$$1$$1$$3$$2$$pati].q * analogtv_thread_draw_lines$$1$$1$$3$$2$$invpixfrac + yiq[(signed long int)(analogtv_thread_draw_lines$$1$$1$$3$$2$$pati + 1)].q * pixfrac;
+            float interpy = yiq[(signed long int)analogtv_thread_draw_lines__1__1__3__2__pati].y * analogtv_thread_draw_lines__1__1__3__2__invpixfrac + yiq[(signed long int)(analogtv_thread_draw_lines__1__1__3__2__pati + 1)].y * pixfrac;
+            float interpi = yiq[(signed long int)analogtv_thread_draw_lines__1__1__3__2__pati].i * analogtv_thread_draw_lines__1__1__3__2__invpixfrac + yiq[(signed long int)(analogtv_thread_draw_lines__1__1__3__2__pati + 1)].i * pixfrac;
+            float interpq = yiq[(signed long int)analogtv_thread_draw_lines__1__1__3__2__pati].q * analogtv_thread_draw_lines__1__1__3__2__invpixfrac + yiq[(signed long int)(analogtv_thread_draw_lines__1__1__3__2__pati + 1)].q * pixfrac;
             r = (interpy + 0.948f * interpi + 0.624f * interpq) * pixbright;
             g = ((interpy - 0.276f * interpi) - 0.639f * interpq) * pixbright;
             b = ((interpy - 1.105f * interpi) + 1.729f * interpq) * pixbright;
@@ -7177,7 +7177,7 @@ static unsigned char apply(struct AsmLine *listp, unsigned char (*fn)(struct Asm
 
 // assignOpCodes
 // file asm6502.c line 1005
-static void assignOpCodes(struct anonymous$61 *opcodes)
+static void assignOpCodes(struct anonymous_61 *opcodes)
 {
   (opcodes + (signed long int)0)->name[(signed long int)3] = (char)0;
   strncpy((opcodes + (signed long int)0)->name, "ADC", (unsigned long int)3);
@@ -7962,21 +7962,21 @@ static void assignOpCodes(struct anonymous$61 *opcodes)
   (opcodes + (signed long int)55)->INDY = (unsigned char)0x00;
   (opcodes + (signed long int)55)->SNGL = (unsigned char)0x00;
   (opcodes + (signed long int)55)->BRA = (unsigned char)0x00;
-  (opcodes + (signed long int)55)->func = (void (*)(struct machine_6502 *, enum anonymous$60))(void *)0;
+  (opcodes + (signed long int)55)->func = (void (*)(struct machine_6502 *, enum anonymous_60))(void *)0;
 }
 
 // bitOff
 // file asm6502.c line 243
-static unsigned char bitOff(unsigned char value, enum anonymous$18 bit)
+static unsigned char bitOff(unsigned char value, enum anonymous_18 bit)
 {
-  unsigned char return_value_bitOn$1;
-  return_value_bitOn$1=bitOn(value, bit);
-  return (unsigned char)!(return_value_bitOn$1 != 0);
+  unsigned char return_value_bitOn_1;
+  return_value_bitOn_1=bitOn(value, bit);
+  return (unsigned char)!(return_value_bitOn_1 != 0);
 }
 
 // bitOn
 // file asm6502.c line 237
-static unsigned char bitOn(unsigned char value, enum anonymous$18 bit)
+static unsigned char bitOn(unsigned char value, enum anonymous_18 bit)
 {
   unsigned char mask = (unsigned char)1;
   mask = (unsigned char)((signed int)mask << (signed int)bit);
@@ -7992,67 +7992,67 @@ static void buildIndexCache(struct machine_6502 *machine)
   {
     if(!((signed int)machine->opcodes[(signed long int)i].Imm == 0x00))
     {
-      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].Imm].adm = (enum anonymous$60)IMMEDIATE_VALUE;
+      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].Imm].adm = (enum anonymous_60)IMMEDIATE_VALUE;
       machine->opcache[(signed long int)machine->opcodes[(signed long int)i].Imm].index = (unsigned char)i;
     }
 
     if(!((signed int)machine->opcodes[(signed long int)i].ZP == 0x00))
     {
-      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].ZP].adm = (enum anonymous$60)ZERO;
+      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].ZP].adm = (enum anonymous_60)ZERO;
       machine->opcache[(signed long int)machine->opcodes[(signed long int)i].ZP].index = (unsigned char)i;
     }
 
     if(!((signed int)machine->opcodes[(signed long int)i].ZPX == 0x00))
     {
-      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].ZPX].adm = (enum anonymous$60)ZERO_X;
+      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].ZPX].adm = (enum anonymous_60)ZERO_X;
       machine->opcache[(signed long int)machine->opcodes[(signed long int)i].ZPX].index = (unsigned char)i;
     }
 
     if(!((signed int)machine->opcodes[(signed long int)i].ZPY == 0x00))
     {
-      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].ZPY].adm = (enum anonymous$60)ZERO_Y;
+      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].ZPY].adm = (enum anonymous_60)ZERO_Y;
       machine->opcache[(signed long int)machine->opcodes[(signed long int)i].ZPY].index = (unsigned char)i;
     }
 
     if(!((signed int)machine->opcodes[(signed long int)i].ABS == 0x00))
     {
-      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].ABS].adm = (enum anonymous$60)ABS_VALUE;
+      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].ABS].adm = (enum anonymous_60)ABS_VALUE;
       machine->opcache[(signed long int)machine->opcodes[(signed long int)i].ABS].index = (unsigned char)i;
     }
 
     if(!((signed int)machine->opcodes[(signed long int)i].ABSX == 0x00))
     {
-      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].ABSX].adm = (enum anonymous$60)ABS_X;
+      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].ABSX].adm = (enum anonymous_60)ABS_X;
       machine->opcache[(signed long int)machine->opcodes[(signed long int)i].ABSX].index = (unsigned char)i;
     }
 
     if(!((signed int)machine->opcodes[(signed long int)i].ABSY == 0x00))
     {
-      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].ABSY].adm = (enum anonymous$60)ABS_Y;
+      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].ABSY].adm = (enum anonymous_60)ABS_Y;
       machine->opcache[(signed long int)machine->opcodes[(signed long int)i].ABSY].index = (unsigned char)i;
     }
 
     if(!((signed int)machine->opcodes[(signed long int)i].INDX == 0x00))
     {
-      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].INDX].adm = (enum anonymous$60)INDIRECT_X;
+      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].INDX].adm = (enum anonymous_60)INDIRECT_X;
       machine->opcache[(signed long int)machine->opcodes[(signed long int)i].INDX].index = (unsigned char)i;
     }
 
     if(!((signed int)machine->opcodes[(signed long int)i].INDY == 0x00))
     {
-      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].INDY].adm = (enum anonymous$60)INDIRECT_Y;
+      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].INDY].adm = (enum anonymous_60)INDIRECT_Y;
       machine->opcache[(signed long int)machine->opcodes[(signed long int)i].INDY].index = (unsigned char)i;
     }
 
     if(!((signed int)machine->opcodes[(signed long int)i].SNGL == 0x00))
     {
-      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].SNGL].adm = (enum anonymous$60)SINGLE;
+      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].SNGL].adm = (enum anonymous_60)SINGLE;
       machine->opcache[(signed long int)machine->opcodes[(signed long int)i].SNGL].index = (unsigned char)i;
     }
 
     if(!((signed int)machine->opcodes[(signed long int)i].BRA == 0x00))
     {
-      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].BRA].adm = (enum anonymous$60)ABS_OR_BRANCH;
+      machine->opcache[(signed long int)machine->opcodes[(signed long int)i].BRA].adm = (enum anonymous_60)ABS_OR_BRANCH;
       machine->opcache[(signed long int)machine->opcodes[(signed long int)i].BRA].index = (unsigned char)i;
     }
 
@@ -8063,10 +8063,10 @@ static void buildIndexCache(struct machine_6502 *machine)
 // file asm6502.c line 2001
 static unsigned char changeParamLabelAddr(struct AsmLine *asmline, void *label)
 {
-  struct anonymous$12 *la = (struct anonymous$12 *)label;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(asmline->param->label, la->label);
-  if(return_value_strcmp$1 == 0)
+  struct anonymous_12 *la = (struct anonymous_12 *)label;
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(asmline->param->label, la->label);
+  if(return_value_strcmp_1 == 0)
     asmline->param->lbladdr = la->addr;
 
   return (unsigned char)1;
@@ -8087,34 +8087,34 @@ static unsigned char command(struct machine_6502 *machine, char **s, char **cmd)
 {
   signed int i = 0;
   skipSpace(s);
-  unsigned char return_value_isCmdChar$1;
+  unsigned char return_value_isCmdChar_1;
   do
   {
-    return_value_isCmdChar$1=isCmdChar(*(*s));
-    if(return_value_isCmdChar$1 == 0 || i >= 4)
+    return_value_isCmdChar_1=isCmdChar(*(*s));
+    if(return_value_isCmdChar_1 == 0 || i >= 4)
       break;
 
-    signed int tmp_post$2 = i;
+    signed int tmp_post_2 = i;
     i = i + 1;
-    (*cmd)[(signed long int)tmp_post$2] = *(*s);
+    (*cmd)[(signed long int)tmp_post_2] = *(*s);
     *s = *s + 1l;
   }
   while((_Bool)1);
-  signed int return_value_strcmp$4;
-  unsigned char return_value_isCommand$3;
+  signed int return_value_strcmp_4;
+  unsigned char return_value_isCommand_3;
   if(i == 0)
     return (unsigned char)1;
 
   else
   {
-    return_value_strcmp$4=strcmp(*cmd, "*=");
-    if(return_value_strcmp$4 == 0)
+    return_value_strcmp_4=strcmp(*cmd, "*=");
+    if(return_value_strcmp_4 == 0)
       return (unsigned char)1;
 
     else
     {
-      return_value_isCommand$3=isCommand(machine, *cmd);
-      return return_value_isCommand$3;
+      return_value_isCommand_3=isCommand(machine, *cmd);
+      return return_value_isCommand_3;
     }
   }
 }
@@ -8124,16 +8124,16 @@ static unsigned char command(struct machine_6502 *machine, char **s, char **cmd)
 static void comment(char **s)
 {
   skipSpace(s);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)*(*s) == 59)
     do
     {
       if(!((signed int)*(*s) == 10))
-        tmp_if_expr$1 = (signed int)*(*s) != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)*(*s) != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       *s = *s + 1l;
@@ -8154,17 +8154,17 @@ static unsigned char compileCode(struct machine_6502 *machine, const char *code)
   asmlist=parseAssembly(machine, &codeOk, code);
   if(!(codeOk == 0))
   {
-    unsigned char return_value_apply$1;
-    return_value_apply$1=apply(asmlist, indexLabels, (void *)machine);
-    if(return_value_apply$1 == 0)
+    unsigned char return_value_apply_1;
+    return_value_apply_1=apply(asmlist, indexLabels, (void *)machine);
+    if(return_value_apply_1 == 0)
       return (unsigned char)0;
 
     linkLabels(asmlist);
     machine->codeLen = 0;
     machine->defaultCodePC = (unsigned short int)1536;
-    unsigned char return_value_apply$2;
-    return_value_apply$2=apply(asmlist, compileLine, (void *)machine);
-    if(return_value_apply$2 == 0)
+    unsigned char return_value_apply_2;
+    return_value_apply_2=apply(asmlist, compileLine, (void *)machine);
+    if(return_value_apply_2 == 0)
       return (unsigned char)0;
 
     if((signed int)machine->defaultCodePC >= 1537)
@@ -8194,24 +8194,24 @@ static unsigned char compileCode(struct machine_6502 *machine, const char *code)
 static unsigned char compileLine(struct AsmLine *asmline, void *args)
 {
   struct machine_6502 *machine = (struct machine_6502 *)args;
-  unsigned char return_value_isBlank$1;
-  return_value_isBlank$1=isBlank(asmline->command);
-  signed int return_value_strcmp$4;
-  unsigned char return_value_translate$3;
-  if(!(return_value_isBlank$1 == 0))
+  unsigned char return_value_isBlank_1;
+  return_value_isBlank_1=isBlank(asmline->command);
+  signed int return_value_strcmp_4;
+  unsigned char return_value_translate_3;
+  if(!(return_value_isBlank_1 == 0))
     return (unsigned char)1;
 
   else
   {
-    signed int return_value_strcmp$5;
-    return_value_strcmp$5=strcmp("*=", asmline->command);
-    if(return_value_strcmp$5 == 0)
+    signed int return_value_strcmp_5;
+    return_value_strcmp_5=strcmp("*=", asmline->command);
+    if(return_value_strcmp_5 == 0)
       machine->defaultCodePC = (unsigned short int)asmline->param->value[(signed long int)0];
 
     else
     {
-      return_value_strcmp$4=strcmp("DCB", asmline->command);
-      if(return_value_strcmp$4 == 0)
+      return_value_strcmp_4=strcmp("DCB", asmline->command);
+      if(return_value_strcmp_4 == 0)
       {
         signed int i = 0;
         for( ; !((unsigned int)i >= asmline->param->vp); i = i + 1)
@@ -8220,28 +8220,28 @@ static unsigned char compileLine(struct AsmLine *asmline, void *args)
 
       else
       {
-        signed int compileLine$$1$$3$$i;
-        char *compileLine$$1$$3$$command = asmline->command;
-        struct anonymous$61 op;
-        compileLine$$1$$3$$i = 0;
-        for( ; !(compileLine$$1$$3$$i >= 56); compileLine$$1$$3$$i = compileLine$$1$$3$$i + 1)
+        signed int compileLine__1__3__i;
+        char *compileLine__1__3__command = asmline->command;
+        struct anonymous_61 op;
+        compileLine__1__3__i = 0;
+        for( ; !(compileLine__1__3__i >= 56); compileLine__1__3__i = compileLine__1__3__i + 1)
         {
-          signed int return_value_strcmp$2;
-          return_value_strcmp$2=strcmp(machine->opcodes[(signed long int)compileLine$$1$$3$$i].name, compileLine$$1$$3$$command);
-          if(return_value_strcmp$2 == 0)
+          signed int return_value_strcmp_2;
+          return_value_strcmp_2=strcmp(machine->opcodes[(signed long int)compileLine__1__3__i].name, compileLine__1__3__command);
+          if(return_value_strcmp_2 == 0)
           {
-            op = machine->opcodes[(signed long int)compileLine$$1$$3$$i];
+            op = machine->opcodes[(signed long int)compileLine__1__3__i];
             break;
           }
 
         }
-        if(compileLine$$1$$3$$i == 56)
+        if(compileLine__1__3__i == 56)
           return (unsigned char)0;
 
         else
         {
-          return_value_translate$3=translate(&op, asmline->param, machine);
-          return return_value_translate$3;
+          return_value_translate_3=translate(&op, asmline->param, machine);
+          return return_value_translate_3;
         }
       }
     }
@@ -8251,7 +8251,7 @@ static unsigned char compileLine(struct AsmLine *asmline, void *args)
 
 // copyParam
 // file asm6502.c line 1151
-static void copyParam(struct anonymous$8 *p1, struct anonymous$8 *p2)
+static void copyParam(struct anonymous_8 *p1, struct anonymous_8 *p2)
 {
   signed int i = 0;
   strncpy(p1->label, p2->label, (unsigned long int)80);
@@ -8264,20 +8264,20 @@ static void copyParam(struct anonymous$8 *p1, struct anonymous$8 *p2)
 
 // create_xshm_image
 // file ./../utils/xshm.h line 27
-extern struct _XImage * create_xshm_image(struct _XDisplay *dpy, struct anonymous$13 *visual, unsigned int depth, signed int format, char *data, struct anonymous$14 *shm_info, unsigned int width, unsigned int height)
+extern struct _XImage * create_xshm_image(struct _XDisplay *dpy, struct anonymous_13 *visual, unsigned int depth, signed int format, char *data, struct anonymous_14 *shm_info, unsigned int width, unsigned int height)
 {
   signed int status;
   struct _XImage *image = ((struct _XImage *)NULL);
-  signed int return_value_get_boolean_resource$1;
-  return_value_get_boolean_resource$1=get_boolean_resource(dpy, "useSHM", "Boolean");
-  if(return_value_get_boolean_resource$1 == 0)
+  signed int return_value_get_boolean_resource_1;
+  return_value_get_boolean_resource_1=get_boolean_resource(dpy, "useSHM", "Boolean");
+  if(return_value_get_boolean_resource_1 == 0)
     return ((struct _XImage *)NULL);
 
   else
   {
-    signed int return_value_XShmQueryExtension$2;
-    return_value_XShmQueryExtension$2=XShmQueryExtension(dpy);
-    if(return_value_XShmQueryExtension$2 == 0)
+    signed int return_value_XShmQueryExtension_2;
+    return_value_XShmQueryExtension_2=XShmQueryExtension(dpy);
+    if(return_value_XShmQueryExtension_2 == 0)
       return ((struct _XImage *)NULL);
 
     else
@@ -8295,10 +8295,10 @@ extern struct _XImage * create_xshm_image(struct _XDisplay *dpy, struct anonymou
       do
       {
         XSync(dpy, 0);
-        if(!(old_handler == ((signed int (*)(struct _XDisplay *, struct anonymous$56 *))NULL)))
+        if(!(old_handler == ((signed int (*)(struct _XDisplay *, struct anonymous_56 *))NULL)))
           XSetErrorHandler(old_handler);
 
-        old_handler = ((signed int (*)(struct _XDisplay *, struct anonymous$56 *))NULL);
+        old_handler = ((signed int (*)(struct _XDisplay *, struct anonymous_56 *))NULL);
       }
       while((_Bool)0);
       if(!(shm_got_x_error == 0))
@@ -8320,9 +8320,9 @@ extern struct _XImage * create_xshm_image(struct _XDisplay *dpy, struct anonymou
         else
         {
           shm_info->readOnly = 0;
-          void *return_value_shmat$3;
-          return_value_shmat$3=shmat(shm_info->shmid, NULL, 0);
-          shm_info->shmaddr = (char *)return_value_shmat$3;
+          void *return_value_shmat_3;
+          return_value_shmat_3=shmat(shm_info->shmid, NULL, 0);
+          shm_info->shmaddr = (char *)return_value_shmat_3;
           image->data = shm_info->shmaddr;
           do
           {
@@ -8337,10 +8337,10 @@ extern struct _XImage * create_xshm_image(struct _XDisplay *dpy, struct anonymou
           do
           {
             XSync(dpy, 0);
-            if(!(old_handler == ((signed int (*)(struct _XDisplay *, struct anonymous$56 *))NULL)))
+            if(!(old_handler == ((signed int (*)(struct _XDisplay *, struct anonymous_56 *))NULL)))
               XSetErrorHandler(old_handler);
 
-            old_handler = ((signed int (*)(struct _XDisplay *, struct anonymous$56 *))NULL);
+            old_handler = ((signed int (*)(struct _XDisplay *, struct anonymous_56 *))NULL);
           }
           while((_Bool)0);
           if(!(shm_got_x_error == 0))
@@ -8366,12 +8366,12 @@ extern struct _XImage * create_xshm_image(struct _XDisplay *dpy, struct anonymou
 
 // dcbValue
 // file asm6502.c line 1489
-static unsigned char dcbValue(char **s, struct anonymous$8 *param)
+static unsigned char dcbValue(char **s, struct anonymous_8 *param)
 {
   unsigned int val;
-  unsigned char return_value_parseValue$1;
-  return_value_parseValue$1=parseValue(s, &val);
-  if(return_value_parseValue$1 == 0)
+  unsigned char return_value_parseValue_1;
+  return_value_parseValue_1=parseValue(s, &val);
+  if(return_value_parseValue_1 == 0)
     return (unsigned char)0;
 
   else
@@ -8380,21 +8380,21 @@ static unsigned char dcbValue(char **s, struct anonymous$8 *param)
 
     else
     {
-      unsigned char return_value_addvalue$2;
-      return_value_addvalue$2=addvalue(param, val);
-      if(return_value_addvalue$2 == 0)
+      unsigned char return_value_addvalue_2;
+      return_value_addvalue_2=addvalue(param, val);
+      if(return_value_addvalue_2 == 0)
         return (unsigned char)0;
 
       else
       {
-        param->type = (enum anonymous$60)DCB_PARAM;
+        param->type = (enum anonymous_60)DCB_PARAM;
         skipSpace(s);
         if((signed int)*(*s) == 44)
         {
           *s = *s + 1l;
-          unsigned char return_value_dcbValue$3;
-          return_value_dcbValue$3=dcbValue(s, param);
-          return return_value_dcbValue$3;
+          unsigned char return_value_dcbValue_3;
+          return_value_dcbValue_3=dcbValue(s, param);
+          return return_value_dcbValue_3;
         }
 
         else
@@ -8409,30 +8409,30 @@ static unsigned char declareLabel(char **s, char **label)
 {
   signed int i = 0;
   skipSpace(s);
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   do
   {
     if(!((signed int)*(*s) == 58))
-      tmp_if_expr$1 = (signed int)*(*s) != 10 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)*(*s) != 10 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (signed int)*(*s) != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (signed int)*(*s) != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
-    unsigned char return_value_isWhite$3;
-    return_value_isWhite$3=isWhite(*(*s));
-    if(return_value_isWhite$3 == 0)
+    unsigned char return_value_isWhite_3;
+    return_value_isWhite_3=isWhite(*(*s));
+    if(return_value_isWhite_3 == 0)
     {
-      signed int tmp_post$4 = i;
+      signed int tmp_post_4 = i;
       i = i + 1;
-      (*label)[(signed long int)tmp_post$4] = *(*s);
+      (*label)[(signed long int)tmp_post_4] = *(*s);
     }
 
     *s = *s + 1l;
@@ -8454,17 +8454,17 @@ static unsigned char declareLabel(char **s, char **label)
 
 // describe_visual
 // file visual.c line 445
-extern void describe_visual(struct _IO_FILE *f, struct anonymous$25 *screen, struct anonymous$13 *visual, signed int private_cmap_p)
+extern void describe_visual(struct _IO_FILE *f, struct anonymous_25 *screen, struct anonymous_13 *visual, signed int private_cmap_p)
 {
   char n[10l];
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$19 vi_in;
-  struct anonymous$19 *vi_out;
+  struct anonymous_19 vi_in;
+  struct anonymous_19 *vi_out;
   signed int out_count;
   vi_in.screen=screen_number(screen);
   vi_in.visualid=XVisualIDFromVisual(visual);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x1), &vi_in, &out_count);
-  if(vi_out == ((struct anonymous$19 *)NULL))
+  if(vi_out == ((struct anonymous_19 *)NULL))
     abort();
 
   if(!(private_cmap_p == 0))
@@ -8472,51 +8472,51 @@ extern void describe_visual(struct _IO_FILE *f, struct anonymous$25 *screen, str
 
   else
     strcpy(n, "default");
-  char *tmp_if_expr$5;
-  char *tmp_if_expr$4;
-  char *tmp_if_expr$3;
-  char *tmp_if_expr$2;
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_5;
+  char *tmp_if_expr_4;
+  char *tmp_if_expr_3;
+  char *tmp_if_expr_2;
+  char *tmp_if_expr_1;
   if(vi_out->class == 0)
-    tmp_if_expr$5 = "StaticGray, ";
+    tmp_if_expr_5 = "StaticGray, ";
 
   else
   {
     if(vi_out->class == 2)
-      tmp_if_expr$4 = "StaticColor,";
+      tmp_if_expr_4 = "StaticColor,";
 
     else
     {
       if(vi_out->class == 4)
-        tmp_if_expr$3 = "TrueColor,  ";
+        tmp_if_expr_3 = "TrueColor,  ";
 
       else
       {
         if(vi_out->class == 1)
-          tmp_if_expr$2 = "GrayScale,  ";
+          tmp_if_expr_2 = "GrayScale,  ";
 
         else
         {
           if(vi_out->class == 3)
-            tmp_if_expr$1 = "PseudoColor,";
+            tmp_if_expr_1 = "PseudoColor,";
 
           else
-            tmp_if_expr$1 = vi_out->class == 5 ? "DirectColor," : "UNKNOWN:    ";
-          tmp_if_expr$2 = tmp_if_expr$1;
+            tmp_if_expr_1 = vi_out->class == 5 ? "DirectColor," : "UNKNOWN:    ";
+          tmp_if_expr_2 = tmp_if_expr_1;
         }
-        tmp_if_expr$3 = tmp_if_expr$2;
+        tmp_if_expr_3 = tmp_if_expr_2;
       }
-      tmp_if_expr$4 = tmp_if_expr$3;
+      tmp_if_expr_4 = tmp_if_expr_3;
     }
-    tmp_if_expr$5 = tmp_if_expr$4;
+    tmp_if_expr_5 = tmp_if_expr_4;
   }
-  fprintf(f, "0x%02x (%s depth: %2d, cmap: %s)\n", (unsigned int)vi_out->visualid, tmp_if_expr$5, vi_out->depth, (const void *)n);
+  fprintf(f, "0x%02x (%s depth: %2d, cmap: %s)\n", (unsigned int)vi_out->visualid, tmp_if_expr_5, vi_out->depth, (const void *)n);
   XFree((void *)(char *)vi_out);
 }
 
 // destroy_xshm_image
 // file ./../utils/xshm.h line 32
-extern void destroy_xshm_image(struct _XDisplay *dpy, struct _XImage *image, struct anonymous$14 *shm_info)
+extern void destroy_xshm_image(struct _XDisplay *dpy, struct _XImage *image, struct anonymous_14 *shm_info)
 {
   signed int status;
   do
@@ -8532,10 +8532,10 @@ extern void destroy_xshm_image(struct _XDisplay *dpy, struct _XImage *image, str
   do
   {
     XSync(dpy, 0);
-    if(!(old_handler == ((signed int (*)(struct _XDisplay *, struct anonymous$56 *))NULL)))
+    if(!(old_handler == ((signed int (*)(struct _XDisplay *, struct anonymous_56 *))NULL)))
       XSetErrorHandler(old_handler);
 
-    old_handler = ((signed int (*)(struct _XDisplay *, struct anonymous$56 *))NULL);
+    old_handler = ((signed int (*)(struct _XDisplay *, struct anonymous_56 *))NULL);
   }
   while((_Bool)0);
   if(!(shm_got_x_error == 0))
@@ -8559,9 +8559,9 @@ extern void destroy_xshm_image(struct _XDisplay *dpy, struct _XImage *image, str
 
 // doCompare
 // file asm6502.c line 626
-static void doCompare(struct machine_6502 *machine, unsigned short int reg, struct anonymous$15 *ptr)
+static void doCompare(struct machine_6502 *machine, unsigned short int reg, struct anonymous_15 *ptr)
 {
-  machine->regP=setBit(machine->regP, (enum anonymous$18)CARRY_FL, (signed int)((signed int)reg + (signed int)ptr->value > 0xff));
+  machine->regP=setBit(machine->regP, (enum anonymous_18)CARRY_FL, (signed int)((signed int)reg + (signed int)ptr->value > 0xff));
   manZeroNeg(machine, (unsigned char)((signed int)reg - (signed int)ptr->value));
 }
 
@@ -8582,13 +8582,13 @@ static void * ecalloc(unsigned int nelm, unsigned long int nsize)
 static char * estrdup(const char *source)
 {
   signed int ln;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(source);
-  ln = (signed int)(return_value_strlen$1 + (unsigned long int)1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(source);
+  ln = (signed int)(return_value_strlen_1 + (unsigned long int)1);
   char *s;
-  void *return_value_ecalloc$2;
-  return_value_ecalloc$2=ecalloc((unsigned int)ln, sizeof(char) /*1ul*/ );
-  s = (char *)return_value_ecalloc$2;
+  void *return_value_ecalloc_2;
+  return_value_ecalloc_2=ecalloc((unsigned int)ln, sizeof(char) /*1ul*/ );
+  s = (char *)return_value_ecalloc_2;
   strncpy(s, source, (unsigned long int)ln);
   return s;
 }
@@ -8598,7 +8598,7 @@ static char * estrdup(const char *source)
 static void execute(struct machine_6502 *machine)
 {
   unsigned char opcode;
-  enum anonymous$60 adm;
+  enum anonymous_60 adm;
   signed int opidx;
   if(!(machine->codeRunning == 0))
   {
@@ -8615,13 +8615,13 @@ static void execute(struct machine_6502 *machine)
       else
         fprintf(stderr, "Invalid opcode!\n");
     }
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if((signed int)machine->regPC == 0)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !(machine->codeRunning != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !(machine->codeRunning != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       machine->codeRunning = (unsigned char)0;
 
   }
@@ -8638,9 +8638,9 @@ static char * fileToBuffer(const char *filename)
   signed int size = defaultSize;
   signed int i = 0;
   char *buffer;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned int)defaultSize, sizeof(char) /*1ul*/ );
-  buffer = (char *)return_value_ecalloc$1;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned int)defaultSize, sizeof(char) /*1ul*/ );
+  buffer = (char *)return_value_ecalloc_1;
   if(buffer == ((char *)NULL))
     abort();
 
@@ -8654,15 +8654,15 @@ static char * fileToBuffer(const char *filename)
     if(c == -1)
       break;
 
-    signed int tmp_post$2 = i;
+    signed int tmp_post_2 = i;
     i = i + 1;
-    buffer[(signed long int)tmp_post$2] = (char)c;
+    buffer[(signed long int)tmp_post_2] = (char)c;
     if(i == size)
     {
       size = size + defaultSize;
-      void *return_value_realloc$3;
-      return_value_realloc$3=realloc((void *)buffer, (unsigned long int)size);
-      buffer = (char *)return_value_realloc$3;
+      void *return_value_realloc_3;
+      return_value_realloc_3=realloc((void *)buffer, (unsigned long int)size);
+      buffer = (char *)return_value_realloc_3;
       if(buffer == ((char *)NULL))
         abort();
 
@@ -8671,9 +8671,9 @@ static char * fileToBuffer(const char *filename)
   }
   while((_Bool)1);
   fclose(ifp);
-  void *return_value_realloc$4;
-  return_value_realloc$4=realloc((void *)buffer, (unsigned long int)(i + 2));
-  buffer = (char *)return_value_realloc$4;
+  void *return_value_realloc_4;
+  return_value_realloc_4=realloc((void *)buffer, (unsigned long int)(i + 2));
+  buffer = (char *)return_value_realloc_4;
   if(buffer == ((char *)NULL))
     abort();
 
@@ -8684,37 +8684,37 @@ static char * fileToBuffer(const char *filename)
 
 // find_similar_visual
 // file visual.c line 503
-extern struct anonymous$13 * find_similar_visual(struct anonymous$25 *screen, struct anonymous$13 *old_visual)
+extern struct anonymous_13 * find_similar_visual(struct anonymous_25 *screen, struct anonymous_13 *old_visual)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$19 vi_in;
-  struct anonymous$19 *vi_out;
-  struct anonymous$13 *result = ((struct anonymous$13 *)NULL);
+  struct anonymous_19 vi_in;
+  struct anonymous_19 *vi_out;
+  struct anonymous_13 *result = ((struct anonymous_13 *)NULL);
   signed int out_count;
   vi_in.screen=screen_number(screen);
   vi_in.class=visual_class(screen, old_visual);
   vi_in.depth=visual_depth(screen, old_visual);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x8 | 0x4), &vi_in, &out_count);
-  if(out_count >= 1 && !(vi_out == ((struct anonymous$19 *)NULL)))
+  if(out_count >= 1 && !(vi_out == ((struct anonymous_19 *)NULL)))
     result = (vi_out + (signed long int)0)->visual;
 
-  if(!(vi_out == ((struct anonymous$19 *)NULL)))
+  if(!(vi_out == ((struct anonymous_19 *)NULL)))
     XFree((void *)vi_out);
 
-  vi_out = ((struct anonymous$19 *)NULL);
-  if(result == ((struct anonymous$13 *)NULL))
+  vi_out = ((struct anonymous_19 *)NULL);
+  if(result == ((struct anonymous_13 *)NULL))
   {
     vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x8), &vi_in, &out_count);
-    if(out_count >= 1 && !(vi_out == ((struct anonymous$19 *)NULL)))
+    if(out_count >= 1 && !(vi_out == ((struct anonymous_19 *)NULL)))
       result = (vi_out + (signed long int)0)->visual;
 
-    if(!(vi_out == ((struct anonymous$19 *)NULL)))
+    if(!(vi_out == ((struct anonymous_19 *)NULL)))
       XFree((void *)vi_out);
 
-    vi_out = ((struct anonymous$19 *)NULL);
+    vi_out = ((struct anonymous_19 *)NULL);
   }
 
-  if(result == ((struct anonymous$13 *)NULL))
+  if(result == ((struct anonymous_13 *)NULL))
     result = screen->root_visual;
 
   return result;
@@ -8745,17 +8745,17 @@ static void fix_fds(void)
 // file fps.h line 25
 extern double fps_compute(struct fps_state *st, unsigned long int polys, double depth)
 {
-  unsigned long int return_value_strlen$2;
-  unsigned long int return_value_strlen$3;
-  unsigned long int return_value_strlen$4;
+  unsigned long int return_value_strlen_2;
+  unsigned long int return_value_strlen_3;
+  unsigned long int return_value_strlen_4;
   if(st == ((struct fps_state *)NULL))
     return (double)0;
 
   else
   {
-    signed int tmp_post$1 = st->frame_count;
+    signed int tmp_post_1 = st->frame_count;
     st->frame_count = st->frame_count + 1;
-    if(tmp_post$1 >= st->last_ifps)
+    if(tmp_post_1 >= st->last_ifps)
     {
       struct timezone tzp;
       gettimeofday(&st->this_frame_end, &tzp);
@@ -8786,21 +8786,21 @@ extern double fps_compute(struct fps_state *st, unsigned long int polys, double 
         strcat(st->string, "\nPolys: ");
         if(polys >= 1000000ul)
         {
-          return_value_strlen$2=strlen(st->string);
-          sprintf(st->string + (signed long int)return_value_strlen$2, "%lu,%03lu,%03lu%s ", polys / (unsigned long int)1000000, (polys / (unsigned long int)1000) % (unsigned long int)1000, polys % (unsigned long int)1000, s);
+          return_value_strlen_2=strlen(st->string);
+          sprintf(st->string + (signed long int)return_value_strlen_2, "%lu,%03lu,%03lu%s ", polys / (unsigned long int)1000000, (polys / (unsigned long int)1000) % (unsigned long int)1000, polys % (unsigned long int)1000, s);
         }
 
         else
           if(polys >= 1000ul)
           {
-            return_value_strlen$3=strlen(st->string);
-            sprintf(st->string + (signed long int)return_value_strlen$3, "%lu,%03lu%s ", polys / (unsigned long int)1000, polys % (unsigned long int)1000, s);
+            return_value_strlen_3=strlen(st->string);
+            sprintf(st->string + (signed long int)return_value_strlen_3, "%lu,%03lu%s ", polys / (unsigned long int)1000, polys % (unsigned long int)1000, s);
           }
 
           else
           {
-            return_value_strlen$4=strlen(st->string);
-            sprintf(st->string + (signed long int)return_value_strlen$4, "%lu%s ", polys, s);
+            return_value_strlen_4=strlen(st->string);
+            sprintf(st->string + (signed long int)return_value_strlen_4, "%lu%s ", polys, s);
           }
       }
 
@@ -8808,16 +8808,16 @@ extern double fps_compute(struct fps_state *st, unsigned long int polys, double 
       {
         unsigned long int L;
         L=strlen(st->string);
-        char *fps_compute$$1$$2$$2$$s = st->string + (signed long int)L;
-        strcat(fps_compute$$1$$2$$2$$s, "\nDepth: ");
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(fps_compute$$1$$2$$2$$s);
-        sprintf(fps_compute$$1$$2$$2$$s + (signed long int)return_value_strlen$5, "%.1f", depth);
-        L=strlen(fps_compute$$1$$2$$2$$s);
-        if((signed int)fps_compute$$1$$2$$2$$s[-2l + (signed long int)L] == 46)
+        char *fps_compute__1__2__2__s = st->string + (signed long int)L;
+        strcat(fps_compute__1__2__2__s, "\nDepth: ");
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(fps_compute__1__2__2__s);
+        sprintf(fps_compute__1__2__2__s + (signed long int)return_value_strlen_5, "%.1f", depth);
+        L=strlen(fps_compute__1__2__2__s);
+        if((signed int)fps_compute__1__2__2__s[-2l + (signed long int)L] == 46)
         {
-          if((signed int)fps_compute$$1$$2$$2$$s[-1l + (signed long int)L] == 48)
-            fps_compute$$1$$2$$2$$s[(signed long int)(L - (unsigned long int)2)] = (char)0;
+          if((signed int)fps_compute__1__2__2__s[-1l + (signed long int)L] == 48)
+            fps_compute__1__2__2__s[(signed long int)(L - (unsigned long int)2)] = (char)0;
 
         }
 
@@ -8833,7 +8833,7 @@ extern double fps_compute(struct fps_state *st, unsigned long int polys, double 
 // file fps.h line 26
 extern void fps_draw(struct fps_state *st)
 {
-  struct anonymous$7 xgwa;
+  struct anonymous_7 xgwa;
   const char *string = st->string;
   const char *s;
   signed int x = st->x;
@@ -8860,14 +8860,14 @@ extern void fps_draw(struct fps_state *st)
     XFillRectangle(st->dpy, st->window, st->erase_gc, x - st->font->descent, y - lh, (unsigned int)(w + 2 * st->font->descent), (unsigned int)(h + 2 * st->font->descent));
   }
 
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   while(!(lines == 0))
   {
     s=strchr(string, 10);
     if(s == ((const char *)NULL))
     {
-      return_value_strlen$1=strlen(string);
-      s = string + (signed long int)return_value_strlen$1;
+      return_value_strlen_1=strlen(string);
+      s = string + (signed long int)return_value_strlen_1;
     }
 
     XDrawString(st->dpy, st->window, st->draw_gc, x, y, string, (signed int)(s - string));
@@ -8888,7 +8888,7 @@ extern void fps_free(struct fps_state *st)
   if(!(st->erase_gc == ((struct _XGC *)NULL)))
     XFreeGC(st->dpy, st->erase_gc);
 
-  if(!(st->font == ((struct anonymous$3 *)NULL)))
+  if(!(st->font == ((struct anonymous_3 *)NULL)))
     XFreeFont(st->dpy, st->font);
 
   free((void *)st);
@@ -8900,17 +8900,17 @@ extern struct fps_state * fps_init(struct _XDisplay *dpy, unsigned long int wind
 {
   struct fps_state *st;
   const char *font;
-  struct anonymous$3 *f;
-  signed int return_value_get_boolean_resource$1;
-  return_value_get_boolean_resource$1=get_boolean_resource(dpy, "doFPS", "DoFPS");
-  if(return_value_get_boolean_resource$1 == 0)
+  struct anonymous_3 *f;
+  signed int return_value_get_boolean_resource_1;
+  return_value_get_boolean_resource_1=get_boolean_resource(dpy, "doFPS", "DoFPS");
+  if(return_value_get_boolean_resource_1 == 0)
     return ((struct fps_state *)NULL);
 
   else
   {
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct fps_state) /*1152ul*/ );
-    st = (struct fps_state *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct fps_state) /*1152ul*/ );
+    st = (struct fps_state *)return_value_calloc_2;
     st->dpy = dpy;
     st->window = window;
     st->clear_p=get_boolean_resource(dpy, "fpsSolid", "FPSSolid");
@@ -8919,27 +8919,27 @@ extern struct fps_state * fps_init(struct _XDisplay *dpy, unsigned long int wind
       font = "-*-courier-bold-r-normal-*-180-*";
 
     f=XLoadQueryFont(dpy, font);
-    if(f == ((struct anonymous$3 *)NULL))
+    if(f == ((struct anonymous_3 *)NULL))
       f=XLoadQueryFont(dpy, "fixed");
 
-    struct anonymous$7 xgwa;
-    struct anonymous$4 gcv;
+    struct anonymous_7 xgwa;
+    struct anonymous_4 gcv;
     XGetWindowAttributes(dpy, window, &xgwa);
     gcv.font = f->fid;
-    unsigned int return_value_get_pixel_resource$3;
-    return_value_get_pixel_resource$3=get_pixel_resource(st->dpy, xgwa.colormap, "foreground", "Foreground");
-    gcv.foreground = (unsigned long int)return_value_get_pixel_resource$3;
+    unsigned int return_value_get_pixel_resource_3;
+    return_value_get_pixel_resource_3=get_pixel_resource(st->dpy, xgwa.colormap, "foreground", "Foreground");
+    gcv.foreground = (unsigned long int)return_value_get_pixel_resource_3;
     st->draw_gc=XCreateGC(dpy, window, (unsigned long int)(1L << 14 | 1L << 2), &gcv);
-    unsigned int return_value_get_pixel_resource$4;
-    return_value_get_pixel_resource$4=get_pixel_resource(st->dpy, xgwa.colormap, "background", "Background");
-    gcv.foreground = (unsigned long int)return_value_get_pixel_resource$4;
+    unsigned int return_value_get_pixel_resource_4;
+    return_value_get_pixel_resource_4=get_pixel_resource(st->dpy, xgwa.colormap, "background", "Background");
+    gcv.foreground = (unsigned long int)return_value_get_pixel_resource_4;
     st->erase_gc=XCreateGC(dpy, window, (unsigned long int)(1L << 14 | 1L << 2), &gcv);
     st->font = f;
     st->x = 10;
     st->y = 10;
-    signed int return_value_get_boolean_resource$5;
-    return_value_get_boolean_resource$5=get_boolean_resource(dpy, "fpsTop", "FPSTop");
-    if(!(return_value_get_boolean_resource$5 == 0))
+    signed int return_value_get_boolean_resource_5;
+    return_value_get_boolean_resource_5=get_boolean_resource(dpy, "fpsTop", "FPSTop");
+    if(!(return_value_get_boolean_resource_5 == 0))
       st->y = -(st->font->ascent + st->font->descent + 10);
 
     strcpy(st->string, "FPS: ... ");
@@ -8956,7 +8956,7 @@ extern void fps_slept(struct fps_state *st, unsigned long int usecs)
 
 // freeLabel
 // file asm6502.c line 1212
-static void freeLabel(struct anonymous$12 *label)
+static void freeLabel(struct anonymous_12 *label)
 {
   free((void *)label->label);
   free((void *)label);
@@ -8964,7 +8964,7 @@ static void freeLabel(struct anonymous$12 *label)
 
 // freeParam
 // file asm6502.c line 1207
-static void freeParam(struct anonymous$8 *param)
+static void freeParam(struct anonymous_8 *param)
 {
   free((void *)param->label);
   free((void *)param);
@@ -8994,9 +8994,9 @@ static unsigned char getDirection(char **s, char *direction)
   {
     *s = *s + 1l;
     skipSpace(s);
-    unsigned char return_value_isDirection$1;
-    return_value_isDirection$1=isDirection(*(*s));
-    if(!(return_value_isDirection$1 == 0))
+    unsigned char return_value_isDirection_1;
+    return_value_isDirection_1=isDirection(*(*s));
+    if(!(return_value_isDirection_1 == 0))
     {
       *direction = *(*s);
       *s = *s + 1l;
@@ -9010,32 +9010,32 @@ static unsigned char getDirection(char **s, char *direction)
 
 // getValue
 // file asm6502.c line 332
-static unsigned char getValue(struct machine_6502 *machine, enum anonymous$60 adm, struct anonymous$15 *pointer)
+static unsigned char getValue(struct machine_6502 *machine, enum anonymous_60 adm, struct anonymous_15 *pointer)
 {
   unsigned char zp;
   pointer->value = (unsigned short int)0;
   pointer->addr = (unsigned short int)0;
-  unsigned char return_value_popByte$1;
-  unsigned char return_value_popByte$2;
-  signed int return_value_memReadByte$3;
-  signed int return_value_memReadByte$4;
-  signed int return_value_memReadByte$5;
-  signed int return_value_memReadByte$6;
-  signed int return_value_memReadByte$7;
-  signed int return_value_memReadByte$8;
-  unsigned char return_value_popByte$9;
-  signed int return_value_memReadByte$10;
-  unsigned char return_value_popByte$11;
-  signed int return_value_memReadByte$12;
-  unsigned char return_value_popByte$13;
-  signed int return_value_memReadByte$14;
-  unsigned char return_value_popByte$15;
-  signed int return_value_popWord$16;
-  signed int return_value_memReadByte$17;
-  signed int return_value_popWord$18;
-  signed int return_value_memReadByte$19;
-  signed int return_value_popWord$20;
-  signed int return_value_memReadByte$21;
+  unsigned char return_value_popByte_1;
+  unsigned char return_value_popByte_2;
+  signed int return_value_memReadByte_3;
+  signed int return_value_memReadByte_4;
+  signed int return_value_memReadByte_5;
+  signed int return_value_memReadByte_6;
+  signed int return_value_memReadByte_7;
+  signed int return_value_memReadByte_8;
+  unsigned char return_value_popByte_9;
+  signed int return_value_memReadByte_10;
+  unsigned char return_value_popByte_11;
+  signed int return_value_memReadByte_12;
+  unsigned char return_value_popByte_13;
+  signed int return_value_memReadByte_14;
+  unsigned char return_value_popByte_15;
+  signed int return_value_popWord_16;
+  signed int return_value_memReadByte_17;
+  signed int return_value_popWord_18;
+  signed int return_value_memReadByte_19;
+  signed int return_value_popWord_20;
+  signed int return_value_memReadByte_21;
   switch((signed int)adm)
   {
     case SINGLE:
@@ -9046,87 +9046,87 @@ static unsigned char getValue(struct machine_6502 *machine, enum anonymous$60 ad
 
     case IMMEDIATE_VALUE:
     {
-      return_value_popByte$1=popByte(machine);
-      pointer->value = (unsigned short int)return_value_popByte$1;
+      return_value_popByte_1=popByte(machine);
+      pointer->value = (unsigned short int)return_value_popByte_1;
       return (unsigned char)1;
     }
     case INDIRECT_X:
     {
-      return_value_popByte$2=popByte(machine);
-      zp = (unsigned char)((signed int)return_value_popByte$2 + (signed int)machine->regX);
-      return_value_memReadByte$3=memReadByte(machine, (signed int)zp);
-      return_value_memReadByte$4=memReadByte(machine, (signed int)zp + 1);
-      pointer->addr = (unsigned short int)(return_value_memReadByte$3 + (return_value_memReadByte$4 << 8));
-      return_value_memReadByte$5=memReadByte(machine, (signed int)pointer->addr);
-      pointer->value = (unsigned short int)return_value_memReadByte$5;
+      return_value_popByte_2=popByte(machine);
+      zp = (unsigned char)((signed int)return_value_popByte_2 + (signed int)machine->regX);
+      return_value_memReadByte_3=memReadByte(machine, (signed int)zp);
+      return_value_memReadByte_4=memReadByte(machine, (signed int)zp + 1);
+      pointer->addr = (unsigned short int)(return_value_memReadByte_3 + (return_value_memReadByte_4 << 8));
+      return_value_memReadByte_5=memReadByte(machine, (signed int)pointer->addr);
+      pointer->value = (unsigned short int)return_value_memReadByte_5;
       return (unsigned char)1;
     }
     case INDIRECT_Y:
     {
       zp=popByte(machine);
-      return_value_memReadByte$6=memReadByte(machine, (signed int)zp);
-      return_value_memReadByte$7=memReadByte(machine, (signed int)zp + 1);
-      pointer->addr = (unsigned short int)(return_value_memReadByte$6 + (return_value_memReadByte$7 << 8) + (signed int)machine->regY);
-      return_value_memReadByte$8=memReadByte(machine, (signed int)pointer->addr);
-      pointer->value = (unsigned short int)return_value_memReadByte$8;
+      return_value_memReadByte_6=memReadByte(machine, (signed int)zp);
+      return_value_memReadByte_7=memReadByte(machine, (signed int)zp + 1);
+      pointer->addr = (unsigned short int)(return_value_memReadByte_6 + (return_value_memReadByte_7 << 8) + (signed int)machine->regY);
+      return_value_memReadByte_8=memReadByte(machine, (signed int)pointer->addr);
+      pointer->value = (unsigned short int)return_value_memReadByte_8;
       return (unsigned char)1;
     }
     case ZERO:
     {
-      return_value_popByte$9=popByte(machine);
-      pointer->addr = (unsigned short int)return_value_popByte$9;
-      return_value_memReadByte$10=memReadByte(machine, (signed int)pointer->addr);
-      pointer->value = (unsigned short int)return_value_memReadByte$10;
+      return_value_popByte_9=popByte(machine);
+      pointer->addr = (unsigned short int)return_value_popByte_9;
+      return_value_memReadByte_10=memReadByte(machine, (signed int)pointer->addr);
+      pointer->value = (unsigned short int)return_value_memReadByte_10;
       return (unsigned char)1;
     }
     case ZERO_X:
     {
-      return_value_popByte$11=popByte(machine);
-      pointer->addr = (unsigned short int)((signed int)return_value_popByte$11 + (signed int)machine->regX);
-      return_value_memReadByte$12=memReadByte(machine, (signed int)pointer->addr);
-      pointer->value = (unsigned short int)return_value_memReadByte$12;
+      return_value_popByte_11=popByte(machine);
+      pointer->addr = (unsigned short int)((signed int)return_value_popByte_11 + (signed int)machine->regX);
+      return_value_memReadByte_12=memReadByte(machine, (signed int)pointer->addr);
+      pointer->value = (unsigned short int)return_value_memReadByte_12;
       return (unsigned char)1;
     }
     case ZERO_Y:
     {
-      return_value_popByte$13=popByte(machine);
-      pointer->addr = (unsigned short int)((signed int)return_value_popByte$13 + (signed int)machine->regY);
-      return_value_memReadByte$14=memReadByte(machine, (signed int)pointer->addr);
-      pointer->value = (unsigned short int)return_value_memReadByte$14;
+      return_value_popByte_13=popByte(machine);
+      pointer->addr = (unsigned short int)((signed int)return_value_popByte_13 + (signed int)machine->regY);
+      return_value_memReadByte_14=memReadByte(machine, (signed int)pointer->addr);
+      pointer->value = (unsigned short int)return_value_memReadByte_14;
       return (unsigned char)1;
     }
     case ABS_OR_BRANCH:
     {
-      return_value_popByte$15=popByte(machine);
-      pointer->addr = (unsigned short int)return_value_popByte$15;
+      return_value_popByte_15=popByte(machine);
+      pointer->addr = (unsigned short int)return_value_popByte_15;
       return (unsigned char)1;
     }
     case ABS_VALUE:
     {
-      return_value_popWord$16=popWord(machine);
-      pointer->addr = (unsigned short int)return_value_popWord$16;
-      return_value_memReadByte$17=memReadByte(machine, (signed int)pointer->addr);
-      pointer->value = (unsigned short int)return_value_memReadByte$17;
+      return_value_popWord_16=popWord(machine);
+      pointer->addr = (unsigned short int)return_value_popWord_16;
+      return_value_memReadByte_17=memReadByte(machine, (signed int)pointer->addr);
+      pointer->value = (unsigned short int)return_value_memReadByte_17;
       return (unsigned char)1;
     }
     case ABS_LABEL_X:
 
     case ABS_X:
     {
-      return_value_popWord$18=popWord(machine);
-      pointer->addr = (unsigned short int)(return_value_popWord$18 + (signed int)machine->regX);
-      return_value_memReadByte$19=memReadByte(machine, (signed int)pointer->addr);
-      pointer->value = (unsigned short int)return_value_memReadByte$19;
+      return_value_popWord_18=popWord(machine);
+      pointer->addr = (unsigned short int)(return_value_popWord_18 + (signed int)machine->regX);
+      return_value_memReadByte_19=memReadByte(machine, (signed int)pointer->addr);
+      pointer->value = (unsigned short int)return_value_memReadByte_19;
       return (unsigned char)1;
     }
     case ABS_LABEL_Y:
 
     case ABS_Y:
     {
-      return_value_popWord$20=popWord(machine);
-      pointer->addr = (unsigned short int)(return_value_popWord$20 + (signed int)machine->regY);
-      return_value_memReadByte$21=memReadByte(machine, (signed int)pointer->addr);
-      pointer->value = (unsigned short int)return_value_memReadByte$21;
+      return_value_popWord_20=popWord(machine);
+      pointer->addr = (unsigned short int)(return_value_popWord_20 + (signed int)machine->regY);
+      return_value_memReadByte_21=memReadByte(machine, (signed int)pointer->addr);
+      pointer->value = (unsigned short int)return_value_memReadByte_21;
       return (unsigned char)1;
     }
     case DCB_PARAM:
@@ -9143,9 +9143,9 @@ extern signed int get_bits_per_pixel(struct _XDisplay *dpy, signed int depth)
   unsigned int i = (unsigned int)0;
   signed int count;
   signed int result;
-  struct anonymous$16 *formats;
+  struct anonymous_16 *formats;
   formats=XListPixmapFormats(dpy, &count);
-  if(formats == ((struct anonymous$16 *)NULL))
+  if(formats == ((struct anonymous_16 *)NULL))
     return 0;
 
   else
@@ -9182,13 +9182,13 @@ extern signed int get_boolean_resource(struct _XDisplay *dpy, char *res_name, ch
   char *s;
   s=get_string_resource(dpy, res_name, res_class);
   char *os = s;
-  unsigned long int return_value_strlen$4;
-  unsigned long int return_value_strlen$5;
-  unsigned long int return_value_strlen$6;
-  signed int return_value_strcmp$8;
-  signed int return_value_strcmp$10;
-  signed int return_value_strcmp$13;
-  signed int return_value_strcmp$15;
+  unsigned long int return_value_strlen_4;
+  unsigned long int return_value_strlen_5;
+  unsigned long int return_value_strlen_6;
+  signed int return_value_strcmp_8;
+  signed int return_value_strcmp_10;
+  signed int return_value_strcmp_13;
+  signed int return_value_strcmp_15;
   if(s == ((char *)NULL))
     return 0;
 
@@ -9197,84 +9197,84 @@ extern signed int get_boolean_resource(struct _XDisplay *dpy, char *res_name, ch
     tmp = buf;
     for( ; !(*s == 0); s = s + 1l)
     {
-      char *tmp_post$1 = tmp;
+      char *tmp_post_1 = tmp;
       tmp = tmp + 1l;
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if((signed int)*s >= 65)
-        tmp_if_expr$2 = (signed int)*s <= 90 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)*s <= 90 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      signed int tmp_if_expr$3;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = ((signed int)*s - 65) + 97;
+        tmp_if_expr_2 = (_Bool)0;
+      signed int tmp_if_expr_3;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = ((signed int)*s - 65) + 97;
 
       else
-        tmp_if_expr$3 = (signed int)*s;
-      *tmp_post$1 = (char)tmp_if_expr$3;
+        tmp_if_expr_3 = (signed int)*s;
+      *tmp_post_1 = (char)tmp_if_expr_3;
     }
     *tmp = (char)0;
     free((void *)os);
     while(!(buf[0l] == 0))
     {
-      return_value_strlen$4=strlen(buf);
-      if(!((signed int)buf[-1l + (signed long int)return_value_strlen$4] == 32))
+      return_value_strlen_4=strlen(buf);
+      if(!((signed int)buf[-1l + (signed long int)return_value_strlen_4] == 32))
       {
-        return_value_strlen$5=strlen(buf);
-        if(!((signed int)buf[-1l + (signed long int)return_value_strlen$5] == 9))
+        return_value_strlen_5=strlen(buf);
+        if(!((signed int)buf[-1l + (signed long int)return_value_strlen_5] == 9))
           break;
 
       }
 
-      return_value_strlen$6=strlen(buf);
-      buf[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] = (char)0;
+      return_value_strlen_6=strlen(buf);
+      buf[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] = (char)0;
     }
-    signed int return_value_strcmp$7;
-    return_value_strcmp$7=strcmp(buf, "on");
-    _Bool tmp_if_expr$9;
-    if(return_value_strcmp$7 == 0)
-      tmp_if_expr$9 = (_Bool)1;
+    signed int return_value_strcmp_7;
+    return_value_strcmp_7=strcmp(buf, "on");
+    _Bool tmp_if_expr_9;
+    if(return_value_strcmp_7 == 0)
+      tmp_if_expr_9 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$8=strcmp(buf, "true");
-      tmp_if_expr$9 = !(return_value_strcmp$8 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_8=strcmp(buf, "true");
+      tmp_if_expr_9 = !(return_value_strcmp_8 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    _Bool tmp_if_expr$11;
-    if(tmp_if_expr$9)
-      tmp_if_expr$11 = (_Bool)1;
+    _Bool tmp_if_expr_11;
+    if(tmp_if_expr_9)
+      tmp_if_expr_11 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$10=strcmp(buf, "yes");
-      tmp_if_expr$11 = !(return_value_strcmp$10 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_10=strcmp(buf, "yes");
+      tmp_if_expr_11 = !(return_value_strcmp_10 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$11)
+    if(tmp_if_expr_11)
       return 1;
 
     else
     {
-      signed int return_value_strcmp$12;
-      return_value_strcmp$12=strcmp(buf, "off");
-      _Bool tmp_if_expr$14;
-      if(return_value_strcmp$12 == 0)
-        tmp_if_expr$14 = (_Bool)1;
+      signed int return_value_strcmp_12;
+      return_value_strcmp_12=strcmp(buf, "off");
+      _Bool tmp_if_expr_14;
+      if(return_value_strcmp_12 == 0)
+        tmp_if_expr_14 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$13=strcmp(buf, "false");
-        tmp_if_expr$14 = !(return_value_strcmp$13 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_13=strcmp(buf, "false");
+        tmp_if_expr_14 = !(return_value_strcmp_13 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      _Bool tmp_if_expr$16;
-      if(tmp_if_expr$14)
-        tmp_if_expr$16 = (_Bool)1;
+      _Bool tmp_if_expr_16;
+      if(tmp_if_expr_14)
+        tmp_if_expr_16 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$15=strcmp(buf, "no");
-        tmp_if_expr$16 = !(return_value_strcmp$15 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_15=strcmp(buf, "no");
+        tmp_if_expr_16 = !(return_value_strcmp_15 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$16)
+      if(tmp_if_expr_16)
         return 0;
 
       else
@@ -9299,9 +9299,9 @@ extern double get_float_resource(struct _XDisplay *dpy, char *res_name, char *re
 
   else
   {
-    signed int return_value___isoc99_sscanf$1;
-    return_value___isoc99_sscanf$1=__isoc99_sscanf(s, " %lf %c", &val, &c);
-    if(return_value___isoc99_sscanf$1 == 1)
+    signed int return_value___isoc99_sscanf_1;
+    return_value___isoc99_sscanf_1=__isoc99_sscanf(s, " %lf %c", &val, &c);
+    if(return_value___isoc99_sscanf_1 == 1)
     {
       free((void *)s);
       return val;
@@ -9325,7 +9325,7 @@ extern signed int get_integer_resource(struct _XDisplay *dpy, char *res_name, ch
   char *s;
   s=get_string_resource(dpy, res_name, res_class);
   char *ss = s;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(s == ((char *)NULL))
     return 0;
 
@@ -9335,24 +9335,24 @@ extern signed int get_integer_resource(struct _XDisplay *dpy, char *res_name, ch
       if((signed int)*ss >= 33)
         break;
 
-    _Bool tmp_if_expr$4;
+    _Bool tmp_if_expr_4;
     if((signed int)*ss == 48)
     {
       if((signed int)ss[1l] == 120)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)ss[(signed long int)1] == 88 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)ss[(signed long int)1] == 88 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
-      signed int return_value___isoc99_sscanf$1;
-      return_value___isoc99_sscanf$1=__isoc99_sscanf(ss + (signed long int)2, "%x %c", (unsigned int *)&val, &c);
-      if(return_value___isoc99_sscanf$1 == 1)
+      signed int return_value___isoc99_sscanf_1;
+      return_value___isoc99_sscanf_1=__isoc99_sscanf(ss + (signed long int)2, "%x %c", (unsigned int *)&val, &c);
+      if(return_value___isoc99_sscanf_1 == 1)
       {
         free((void *)s);
         return val;
@@ -9362,9 +9362,9 @@ extern signed int get_integer_resource(struct _XDisplay *dpy, char *res_name, ch
 
     else
     {
-      signed int return_value___isoc99_sscanf$2;
-      return_value___isoc99_sscanf$2=__isoc99_sscanf(ss, "%d %c", &val, &c);
-      if(return_value___isoc99_sscanf$2 == 1)
+      signed int return_value___isoc99_sscanf_2;
+      return_value___isoc99_sscanf_2=__isoc99_sscanf(ss, "%d %c", &val, &c);
+      if(return_value___isoc99_sscanf_2 == 1)
       {
         free((void *)s);
         return val;
@@ -9381,53 +9381,53 @@ extern signed int get_integer_resource(struct _XDisplay *dpy, char *res_name, ch
 // file resources.c line 261
 extern unsigned int get_minutes_resource(struct _XDisplay *dpy, char *res_name, char *res_class)
 {
-  unsigned int return_value_get_time_resource$1;
-  return_value_get_time_resource$1=get_time_resource(dpy, res_name, res_class, 0);
-  return return_value_get_time_resource$1;
+  unsigned int return_value_get_time_resource_1;
+  return_value_get_time_resource_1=get_time_resource(dpy, res_name, res_class, 0);
+  return return_value_get_time_resource_1;
 }
 
 // get_pixel_resource
 // file ./../utils/resources.h line 19
 extern unsigned int get_pixel_resource(struct _XDisplay *dpy, unsigned long int cmap, char *res_name, char *res_class)
 {
-  struct anonymous$9 color;
+  struct anonymous_9 color;
   char *s;
   s=get_string_resource(dpy, res_name, res_class);
   char *s2;
   signed int ok = 1;
-  unsigned long int return_value_strlen$1;
-  signed int return_value_XParseColor$3;
-  signed int return_value_XAllocColor$4;
-  unsigned long int return_value_strlen$6;
-  signed int return_value_strcasecmp$7;
+  unsigned long int return_value_strlen_1;
+  signed int return_value_XParseColor_3;
+  signed int return_value_XAllocColor_4;
+  unsigned long int return_value_strlen_6;
+  signed int return_value_strcasecmp_7;
   if(!(s == ((char *)NULL)))
   {
-    return_value_strlen$1=strlen(s);
-    s2 = (s + (signed long int)return_value_strlen$1) - (signed long int)1;
+    return_value_strlen_1=strlen(s);
+    s2 = (s + (signed long int)return_value_strlen_1) - (signed long int)1;
     for( ; !(s >= s2); s2 = s2 - 1l)
     {
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if((signed int)*s2 == 32)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)*s2 == 9 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (signed int)*s2 == 9 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         *s2 = (char)0;
 
       else
         break;
     }
-    return_value_XParseColor$3=XParseColor(dpy, cmap, s, &color);
-    if(return_value_XParseColor$3 == 0)
+    return_value_XParseColor_3=XParseColor(dpy, cmap, s, &color);
+    if(return_value_XParseColor_3 == 0)
     {
       fprintf(stderr, "%s: can't parse color %s", progname, s);
       ok = 0;
       goto DEFAULT;
     }
 
-    return_value_XAllocColor$4=XAllocColor(dpy, cmap, &color);
-    if(return_value_XAllocColor$4 == 0)
+    return_value_XAllocColor_4=XAllocColor(dpy, cmap, &color);
+    if(return_value_XAllocColor_4 == 0)
     {
       fprintf(stderr, "%s: couldn't allocate color %s", progname, s);
       ok = 0;
@@ -9447,19 +9447,19 @@ extern unsigned int get_pixel_resource(struct _XDisplay *dpy, unsigned long int 
       free((void *)s);
 
     signed int black_p;
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(res_class);
-    _Bool tmp_if_expr$8;
-    if(return_value_strlen$5 >= 10ul)
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(res_class);
+    _Bool tmp_if_expr_8;
+    if(return_value_strlen_5 >= 10ul)
     {
-      return_value_strlen$6=strlen(res_class);
-      return_value_strcasecmp$7=strcasecmp("Background", (res_class + (signed long int)return_value_strlen$6) - (signed long int)10);
-      tmp_if_expr$8 = !(return_value_strcasecmp$7 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strlen_6=strlen(res_class);
+      return_value_strcasecmp_7=strcasecmp("Background", (res_class + (signed long int)return_value_strlen_6) - (signed long int)10);
+      tmp_if_expr_8 = !(return_value_strcasecmp_7 != 0) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    black_p = (signed int)tmp_if_expr$8;
+      tmp_if_expr_8 = (_Bool)0;
+    black_p = (signed int)tmp_if_expr_8;
     if(ok == 0)
       fprintf(stderr, ": using %s.\n", black_p != 0 ? "black" : "white");
 
@@ -9467,9 +9467,9 @@ extern unsigned int get_pixel_resource(struct _XDisplay *dpy, unsigned long int 
     color.blue = (unsigned short int)(black_p != 0 ? 0 : 0xFFFF);
     color.green = color.blue;
     color.red = color.green;
-    signed int return_value_XAllocColor$9;
-    return_value_XAllocColor$9=XAllocColor(dpy, cmap, &color);
-    if(!(return_value_XAllocColor$9 == 0))
+    signed int return_value_XAllocColor_9;
+    return_value_XAllocColor_9=XAllocColor(dpy, cmap, &color);
+    if(!(return_value_XAllocColor_9 == 0))
       return (unsigned int)color.pixel;
 
     else
@@ -9484,16 +9484,16 @@ extern unsigned int get_pixel_resource(struct _XDisplay *dpy, unsigned long int 
 // file resources.c line 255
 extern unsigned int get_seconds_resource(struct _XDisplay *dpy, char *res_name, char *res_class)
 {
-  unsigned int return_value_get_time_resource$1;
-  return_value_get_time_resource$1=get_time_resource(dpy, res_name, res_class, 1);
-  return return_value_get_time_resource$1;
+  unsigned int return_value_get_time_resource_1;
+  return_value_get_time_resource_1=get_time_resource(dpy, res_name, res_class, 1);
+  return return_value_get_time_resource_1;
 }
 
 // get_string_resource
 // file ./../utils/resources.h line 15
 extern char * get_string_resource(struct _XDisplay *dpy, char *res_name, char *res_class)
 {
-  struct anonymous$10 get_string_resource$$1$$value;
+  struct anonymous_10 get_string_resource__1__value;
   char *type;
   char full_name[1024l];
   char full_class[1024l];
@@ -9503,18 +9503,18 @@ extern char * get_string_resource(struct _XDisplay *dpy, char *res_name, char *r
   strcpy(full_class, progclass);
   strcat(full_class, ".");
   strcat(full_class, res_class);
-  struct _XrmHashBucketRec *return_value_XtDatabase$2;
-  return_value_XtDatabase$2=XtDatabase(dpy);
-  signed int return_value_XrmGetResource$3;
-  return_value_XrmGetResource$3=XrmGetResource(return_value_XtDatabase$2, full_name, full_class, &type, &get_string_resource$$1$$value);
-  if(!(return_value_XrmGetResource$3 == 0))
+  struct _XrmHashBucketRec *return_value_XtDatabase_2;
+  return_value_XtDatabase_2=XtDatabase(dpy);
+  signed int return_value_XrmGetResource_3;
+  return_value_XrmGetResource_3=XrmGetResource(return_value_XtDatabase_2, full_name, full_class, &type, &get_string_resource__1__value);
+  if(!(return_value_XrmGetResource_3 == 0))
   {
     char *str;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)(get_string_resource$$1$$value.size + (unsigned int)1));
-    str = (char *)return_value_malloc$1;
-    strncpy(str, (char *)get_string_resource$$1$$value.addr, (unsigned long int)get_string_resource$$1$$value.size);
-    str[(signed long int)get_string_resource$$1$$value.size] = (char)0;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)(get_string_resource__1__value.size + (unsigned int)1));
+    str = (char *)return_value_malloc_1;
+    strncpy(str, (char *)get_string_resource__1__value.addr, (unsigned long int)get_string_resource__1__value.size);
+    str[(signed long int)get_string_resource__1__value.size] = (char)0;
     return str;
   }
 
@@ -9553,25 +9553,25 @@ static unsigned int get_time_resource(struct _XDisplay *dpy, char *res_name, cha
 
 // get_visual
 // file visual.c line 50
-extern struct anonymous$13 * get_visual(struct anonymous$25 *screen, const char *string, signed int prefer_writable_cells, signed int verbose_p)
+extern struct anonymous_13 * get_visual(struct anonymous_25 *screen, const char *string, signed int prefer_writable_cells, signed int verbose_p)
 {
   char *v;
-  char *tmp_if_expr$2;
-  char *return_value_strdup$1;
+  char *tmp_if_expr_2;
+  char *return_value_strdup_1;
   if(!(string == ((const char *)NULL)))
   {
-    return_value_strdup$1=strdup(string);
-    tmp_if_expr$2 = return_value_strdup$1;
+    return_value_strdup_1=strdup(string);
+    tmp_if_expr_2 = return_value_strdup_1;
   }
 
   else
-    tmp_if_expr$2 = ((char *)NULL);
-  v = tmp_if_expr$2;
+    tmp_if_expr_2 = ((char *)NULL);
+  v = tmp_if_expr_2;
   char c;
   char *tmp;
   signed int vclass;
   unsigned long int id;
-  struct anonymous$13 *result = ((struct anonymous$13 *)NULL);
+  struct anonymous_13 *result = ((struct anonymous_13 *)NULL);
   if(!(v == ((char *)NULL)))
   {
     tmp = v;
@@ -9585,132 +9585,132 @@ extern struct anonymous$13 * get_visual(struct anonymous$25 *screen, const char 
 
   }
 
-  _Bool tmp_if_expr$20;
+  _Bool tmp_if_expr_20;
   if(v == ((char *)NULL))
-    tmp_if_expr$20 = (_Bool)1;
+    tmp_if_expr_20 = (_Bool)1;
 
   else
-    tmp_if_expr$20 = !(*v != 0) ? (_Bool)1 : (_Bool)0;
-  signed int return_value_strcmp$19;
-  signed int return_value_strcmp$18;
-  signed int return_value_strcmp$17;
-  signed int return_value_strcmp$16;
-  signed int return_value_strcmp$15;
-  signed int return_value_strcmp$14;
-  signed int return_value_strcmp$13;
-  signed int return_value_strcmp$12;
-  signed int return_value_strcmp$11;
-  signed int return_value_strcmp$10;
-  signed int return_value_strcmp$9;
-  signed int return_value_strcmp$8;
-  signed int return_value_strcmp$7;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
-  signed int return_value___isoc99_sscanf$4;
-  signed int return_value___isoc99_sscanf$3;
-  if(tmp_if_expr$20)
+    tmp_if_expr_20 = !(*v != 0) ? (_Bool)1 : (_Bool)0;
+  signed int return_value_strcmp_19;
+  signed int return_value_strcmp_18;
+  signed int return_value_strcmp_17;
+  signed int return_value_strcmp_16;
+  signed int return_value_strcmp_15;
+  signed int return_value_strcmp_14;
+  signed int return_value_strcmp_13;
+  signed int return_value_strcmp_12;
+  signed int return_value_strcmp_11;
+  signed int return_value_strcmp_10;
+  signed int return_value_strcmp_9;
+  signed int return_value_strcmp_8;
+  signed int return_value_strcmp_7;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
+  signed int return_value___isoc99_sscanf_4;
+  signed int return_value___isoc99_sscanf_3;
+  if(tmp_if_expr_20)
     vclass = -2;
 
   else
   {
-    return_value_strcmp$19=strcmp(v, "default");
-    if(return_value_strcmp$19 == 0)
+    return_value_strcmp_19=strcmp(v, "default");
+    if(return_value_strcmp_19 == 0)
       vclass = -1;
 
     else
     {
-      return_value_strcmp$18=strcmp(v, "best");
-      if(return_value_strcmp$18 == 0)
+      return_value_strcmp_18=strcmp(v, "best");
+      if(return_value_strcmp_18 == 0)
         vclass = -2;
 
       else
       {
-        return_value_strcmp$17=strcmp(v, "mono");
-        if(return_value_strcmp$17 == 0)
+        return_value_strcmp_17=strcmp(v, "mono");
+        if(return_value_strcmp_17 == 0)
           vclass = -3;
 
         else
         {
-          return_value_strcmp$16=strcmp(v, "monochrome");
-          if(return_value_strcmp$16 == 0)
+          return_value_strcmp_16=strcmp(v, "monochrome");
+          if(return_value_strcmp_16 == 0)
             vclass = -3;
 
           else
           {
-            return_value_strcmp$15=strcmp(v, "gray");
-            if(return_value_strcmp$15 == 0)
+            return_value_strcmp_15=strcmp(v, "gray");
+            if(return_value_strcmp_15 == 0)
               vclass = -4;
 
             else
             {
-              return_value_strcmp$14=strcmp(v, "grey");
-              if(return_value_strcmp$14 == 0)
+              return_value_strcmp_14=strcmp(v, "grey");
+              if(return_value_strcmp_14 == 0)
                 vclass = -4;
 
               else
               {
-                return_value_strcmp$13=strcmp(v, "color");
-                if(return_value_strcmp$13 == 0)
+                return_value_strcmp_13=strcmp(v, "color");
+                if(return_value_strcmp_13 == 0)
                   vclass = -5;
 
                 else
                 {
-                  return_value_strcmp$12=strcmp(v, "gl");
-                  if(return_value_strcmp$12 == 0)
+                  return_value_strcmp_12=strcmp(v, "gl");
+                  if(return_value_strcmp_12 == 0)
                     vclass = -6;
 
                   else
                   {
-                    return_value_strcmp$11=strcmp(v, "staticgray");
-                    if(return_value_strcmp$11 == 0)
+                    return_value_strcmp_11=strcmp(v, "staticgray");
+                    if(return_value_strcmp_11 == 0)
                       vclass = 0;
 
                     else
                     {
-                      return_value_strcmp$10=strcmp(v, "staticcolor");
-                      if(return_value_strcmp$10 == 0)
+                      return_value_strcmp_10=strcmp(v, "staticcolor");
+                      if(return_value_strcmp_10 == 0)
                         vclass = 2;
 
                       else
                       {
-                        return_value_strcmp$9=strcmp(v, "truecolor");
-                        if(return_value_strcmp$9 == 0)
+                        return_value_strcmp_9=strcmp(v, "truecolor");
+                        if(return_value_strcmp_9 == 0)
                           vclass = 4;
 
                         else
                         {
-                          return_value_strcmp$8=strcmp(v, "grayscale");
-                          if(return_value_strcmp$8 == 0)
+                          return_value_strcmp_8=strcmp(v, "grayscale");
+                          if(return_value_strcmp_8 == 0)
                             vclass = 1;
 
                           else
                           {
-                            return_value_strcmp$7=strcmp(v, "greyscale");
-                            if(return_value_strcmp$7 == 0)
+                            return_value_strcmp_7=strcmp(v, "greyscale");
+                            if(return_value_strcmp_7 == 0)
                               vclass = 1;
 
                             else
                             {
-                              return_value_strcmp$6=strcmp(v, "pseudocolor");
-                              if(return_value_strcmp$6 == 0)
+                              return_value_strcmp_6=strcmp(v, "pseudocolor");
+                              if(return_value_strcmp_6 == 0)
                                 vclass = 3;
 
                               else
                               {
-                                return_value_strcmp$5=strcmp(v, "directcolor");
-                                if(return_value_strcmp$5 == 0)
+                                return_value_strcmp_5=strcmp(v, "directcolor");
+                                if(return_value_strcmp_5 == 0)
                                   vclass = 5;
 
                                 else
                                 {
-                                  return_value___isoc99_sscanf$4=__isoc99_sscanf(v, " %lu %c", &id, &c);
-                                  if(return_value___isoc99_sscanf$4 == 1)
+                                  return_value___isoc99_sscanf_4=__isoc99_sscanf(v, " %lu %c", &id, &c);
+                                  if(return_value___isoc99_sscanf_4 == 1)
                                     vclass = -7;
 
                                   else
                                   {
-                                    return_value___isoc99_sscanf$3=__isoc99_sscanf(v, " 0x%lx %c", &id, &c);
-                                    if(return_value___isoc99_sscanf$3 == 1)
+                                    return_value___isoc99_sscanf_3=__isoc99_sscanf(v, " 0x%lx %c", &id, &c);
+                                    if(return_value___isoc99_sscanf_3 == 1)
                                       vclass = -7;
 
                                     else
@@ -9735,7 +9735,7 @@ extern struct anonymous$13 * get_visual(struct anonymous$25 *screen, const char 
       }
     }
   }
-  signed int return_value_visual_depth$21;
+  signed int return_value_visual_depth_21;
   if(vclass == -1)
     result = screen->root_visual;
 
@@ -9747,7 +9747,7 @@ extern struct anonymous$13 * get_visual(struct anonymous$25 *screen, const char 
       if(vclass == -3)
       {
         result=pick_mono_visual(screen);
-        if(result == ((struct anonymous$13 *)NULL) && !(verbose_p == 0))
+        if(result == ((struct anonymous_13 *)NULL) && !(verbose_p == 0))
           fprintf(stderr, "%s: no monochrome visuals.\n", progname);
 
       }
@@ -9758,13 +9758,13 @@ extern struct anonymous$13 * get_visual(struct anonymous$25 *screen, const char 
           if(!(prefer_writable_cells == 0))
             result=pick_best_visual_of_class(screen, 1);
 
-          if(result == ((struct anonymous$13 *)NULL))
+          if(result == ((struct anonymous_13 *)NULL))
             result=pick_best_visual_of_class(screen, 0);
 
-          if(result == ((struct anonymous$13 *)NULL))
+          if(result == ((struct anonymous_13 *)NULL))
             result=pick_best_visual_of_class(screen, 1);
 
-          if(result == ((struct anonymous$13 *)NULL) && !(verbose_p == 0))
+          if(result == ((struct anonymous_13 *)NULL) && !(verbose_p == 0))
             fprintf(stderr, "%s: no GrayScale or StaticGray visuals.\n", progname);
 
         }
@@ -9776,20 +9776,20 @@ extern struct anonymous$13 * get_visual(struct anonymous$25 *screen, const char 
             result = screen->root_visual;
             class=visual_class(screen, result);
             if(!(class == 2) && !(class == 3) && !(class == 4) && !(class == 5))
-              result = ((struct anonymous$13 *)NULL);
+              result = ((struct anonymous_13 *)NULL);
 
-            if(!(result == ((struct anonymous$13 *)NULL)))
+            if(!(result == ((struct anonymous_13 *)NULL)))
             {
-              return_value_visual_depth$21=visual_depth(screen, result);
-              if(!(return_value_visual_depth$21 >= 2))
-                result = ((struct anonymous$13 *)NULL);
+              return_value_visual_depth_21=visual_depth(screen, result);
+              if(!(return_value_visual_depth_21 >= 2))
+                result = ((struct anonymous_13 *)NULL);
 
             }
 
-            if(result == ((struct anonymous$13 *)NULL))
+            if(result == ((struct anonymous_13 *)NULL))
               result=pick_best_visual(screen, prefer_writable_cells, 1);
 
-            if(result == ((struct anonymous$13 *)NULL) && !(verbose_p == 0))
+            if(result == ((struct anonymous_13 *)NULL) && !(verbose_p == 0))
               fprintf(stderr, "%s: no color visuals.\n", progname);
 
           }
@@ -9797,9 +9797,9 @@ extern struct anonymous$13 * get_visual(struct anonymous$25 *screen, const char 
           else
             if(vclass == -6)
             {
-              struct anonymous$13 *visual;
+              struct anonymous_13 *visual;
               visual=pick_best_gl_visual(screen);
-              if(!(visual == ((struct anonymous$13 *)NULL)))
+              if(!(visual == ((struct anonymous_13 *)NULL)))
                 result = visual;
 
               else
@@ -9812,17 +9812,17 @@ extern struct anonymous$13 * get_visual(struct anonymous$25 *screen, const char 
               if(vclass == -7)
               {
                 result=id_to_visual(screen, (signed int)id);
-                if(result == ((struct anonymous$13 *)NULL) && !(verbose_p == 0))
+                if(result == ((struct anonymous_13 *)NULL) && !(verbose_p == 0))
                   fprintf(stderr, "%s: no visual with id 0x%x.\n", progname, (unsigned int)id);
 
               }
 
               else
               {
-                struct anonymous$13 *get_visual$$1$$7$$visual;
-                get_visual$$1$$7$$visual=pick_best_visual_of_class(screen, vclass);
-                if(!(get_visual$$1$$7$$visual == ((struct anonymous$13 *)NULL)))
-                  result = get_visual$$1$$7$$visual;
+                struct anonymous_13 *get_visual__1__7__visual;
+                get_visual__1__7__visual=pick_best_visual_of_class(screen, vclass);
+                if(!(get_visual__1__7__visual == ((struct anonymous_13 *)NULL)))
+                  result = get_visual__1__7__visual;
 
                 else
                   if(!(verbose_p == 0))
@@ -9837,16 +9837,16 @@ extern struct anonymous$13 * get_visual(struct anonymous$25 *screen, const char 
 
 // get_visual_resource
 // file ./../utils/visual.h line 16
-extern struct anonymous$13 * get_visual_resource(struct anonymous$25 *screen, char *name, char *class, signed int prefer_writable_cells)
+extern struct anonymous_13 * get_visual_resource(struct anonymous_25 *screen, char *name, char *class, signed int prefer_writable_cells)
 {
   char *string;
   string=get_string_resource(screen->display, name, class);
-  struct anonymous$13 *v;
+  struct anonymous_13 *v;
   v=get_visual(screen, string, prefer_writable_cells, 1);
   if(!(string == ((char *)NULL)))
     free((void *)string);
 
-  if(!(v == ((struct anonymous$13 *)NULL)))
+  if(!(v == ((struct anonymous_13 *)NULL)))
     return v;
 
   else
@@ -9857,13 +9857,13 @@ extern struct anonymous$13 * get_visual_resource(struct anonymous$25 *screen, ch
 // file ./../utils/thread_util.h line 101
 unsigned int hardware_concurrency(struct _XDisplay *dpy)
 {
-  signed int return_value_threads_available$2;
-  return_value_threads_available$2=threads_available(dpy);
-  unsigned int return_value__hardware_concurrency$1;
-  if(return_value_threads_available$2 >= 0)
+  signed int return_value_threads_available_2;
+  return_value_threads_available_2=threads_available(dpy);
+  unsigned int return_value__hardware_concurrency_1;
+  if(return_value_threads_available_2 >= 0)
   {
-    return_value__hardware_concurrency$1=_hardware_concurrency();
-    return return_value__hardware_concurrency$1;
+    return_value__hardware_concurrency_1=_hardware_concurrency();
+    return return_value__hardware_concurrency_1;
   }
 
   return (unsigned int)1;
@@ -9873,15 +9873,15 @@ unsigned int hardware_concurrency(struct _XDisplay *dpy)
 // file asm6502.c line 1289
 static unsigned char hasChar(char *s, char c)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!((signed int)*s == 0))
-      tmp_if_expr$1 = (signed int)*s != 10 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)*s != 10 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     if(*s == c)
@@ -9895,11 +9895,11 @@ static unsigned char hasChar(char *s, char c)
 
 // has_writable_cells
 // file ./../utils/visual.h line 25
-extern signed int has_writable_cells(struct anonymous$25 *screen, struct anonymous$13 *visual)
+extern signed int has_writable_cells(struct anonymous_25 *screen, struct anonymous_13 *visual)
 {
-  signed int return_value_visual_class$1;
-  return_value_visual_class$1=visual_class(screen, visual);
-  switch(return_value_visual_class$1)
+  signed int return_value_visual_class_1;
+  return_value_visual_class_1=visual_class(screen, visual);
+  switch(return_value_visual_class_1)
   {
     case 1:
 
@@ -9923,28 +9923,28 @@ extern signed int has_writable_cells(struct anonymous$25 *screen, struct anonymo
 
 // id_to_visual
 // file visual.c line 340
-extern struct anonymous$13 * id_to_visual(struct anonymous$25 *screen, signed int id)
+extern struct anonymous_13 * id_to_visual(struct anonymous_25 *screen, signed int id)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$19 vi_in;
-  struct anonymous$19 *vi_out;
+  struct anonymous_19 vi_in;
+  struct anonymous_19 *vi_out;
   signed int out_count;
   vi_in.screen=screen_number(screen);
   vi_in.visualid = (unsigned long int)id;
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x1), &vi_in, &out_count);
-  if(!(vi_out == ((struct anonymous$19 *)NULL)))
+  if(!(vi_out == ((struct anonymous_19 *)NULL)))
   {
-    struct anonymous$13 *v = (vi_out + (signed long int)0)->visual;
+    struct anonymous_13 *v = (vi_out + (signed long int)0)->visual;
     XFree((void *)(char *)vi_out);
     return v;
   }
 
-  return ((struct anonymous$13 *)NULL);
+  return ((struct anonymous_13 *)NULL);
 }
 
 // immediate
 // file asm6502.c line 1401
-static unsigned char immediate(char **s, struct anonymous$8 *param)
+static unsigned char immediate(char **s, struct anonymous_8 *param)
 {
   if(!((signed int)*(*s) == 35))
     return (unsigned char)0;
@@ -9952,53 +9952,53 @@ static unsigned char immediate(char **s, struct anonymous$8 *param)
   else
   {
     *s = *s + 1l;
-    _Bool tmp_if_expr$6;
+    _Bool tmp_if_expr_6;
     if((signed int)*(*s) == 60)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (signed int)*(*s) == 62 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (signed int)*(*s) == 62 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
     {
-      char *immediate$$1$$1$$label;
-      void *return_value_ecalloc$1;
-      return_value_ecalloc$1=ecalloc((unsigned int)80, sizeof(char) /*1ul*/ );
-      immediate$$1$$1$$label = (char *)return_value_ecalloc$1;
-      param->type = (enum anonymous$60)((signed int)*(*s) == 60 ? IMMEDIATE_LESS : IMMEDIATE_GREAT);
+      char *immediate__1__1__label;
+      void *return_value_ecalloc_1;
+      return_value_ecalloc_1=ecalloc((unsigned int)80, sizeof(char) /*1ul*/ );
+      immediate__1__1__label = (char *)return_value_ecalloc_1;
+      param->type = (enum anonymous_60)((signed int)*(*s) == 60 ? IMMEDIATE_LESS : IMMEDIATE_GREAT);
       *s = *s + 1l;
-      unsigned char return_value_paramLabel$3;
-      return_value_paramLabel$3=paramLabel(s, &immediate$$1$$1$$label);
-      if(!(return_value_paramLabel$3 == 0))
+      unsigned char return_value_paramLabel_3;
+      return_value_paramLabel_3=paramLabel(s, &immediate__1__1__label);
+      if(!(return_value_paramLabel_3 == 0))
       {
         signed int ln;
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(immediate$$1$$1$$label);
-        ln = (signed int)(return_value_strlen$2 + (unsigned long int)1);
-        strncpy(param->label, immediate$$1$$1$$label, (unsigned long int)ln);
-        free((void *)immediate$$1$$1$$label);
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(immediate__1__1__label);
+        ln = (signed int)(return_value_strlen_2 + (unsigned long int)1);
+        strncpy(param->label, immediate__1__1__label, (unsigned long int)ln);
+        free((void *)immediate__1__1__label);
         return (unsigned char)1;
       }
 
-      free((void *)immediate$$1$$1$$label);
+      free((void *)immediate__1__1__label);
     }
 
     else
     {
-      unsigned int immediate$$1$$2$$value;
-      unsigned char return_value_parseValue$5;
-      return_value_parseValue$5=parseValue(s, &immediate$$1$$2$$value);
-      if(!(return_value_parseValue$5 == 0))
+      unsigned int immediate__1__2__value;
+      unsigned char return_value_parseValue_5;
+      return_value_parseValue_5=parseValue(s, &immediate__1__2__value);
+      if(!(return_value_parseValue_5 == 0))
       {
-        if(immediate$$1$$2$$value >= 256u)
+        if(immediate__1__2__value >= 256u)
         {
           parseError("Immediate value is too large.");
           return (unsigned char)0;
         }
 
-        param->type = (enum anonymous$60)IMMEDIATE_VALUE;
-        unsigned char return_value_addvalue$4;
-        return_value_addvalue$4=addvalue(param, immediate$$1$$2$$value);
-        return return_value_addvalue$4;
+        param->type = (enum anonymous_60)IMMEDIATE_VALUE;
+        unsigned char return_value_addvalue_4;
+        return_value_addvalue_4=addvalue(param, immediate__1__2__value);
+        return return_value_addvalue_4;
       }
 
     }
@@ -10017,9 +10017,9 @@ static unsigned char indexLabels(struct AsmLine *asmline, void *arg)
   oldDefault = machine->defaultCodePC;
   thisPC = (signed int)machine->regPC;
   machine->codeLen = 0;
-  unsigned char return_value_compileLine$1;
-  return_value_compileLine$1=compileLine(asmline, (void *)machine);
-  if(return_value_compileLine$1 == 0)
+  unsigned char return_value_compileLine_1;
+  return_value_compileLine_1=compileLine(asmline, (void *)machine);
+  if(return_value_compileLine_1 == 0)
     return (unsigned char)0;
 
   else
@@ -10038,23 +10038,23 @@ static unsigned char indexLabels(struct AsmLine *asmline, void *arg)
 
 // indirect
 // file asm6502.c line 1450
-static unsigned char indirect(char **s, struct anonymous$8 *param)
+static unsigned char indirect(char **s, struct anonymous_8 *param)
 {
-  unsigned int indirect$$1$$value;
+  unsigned int indirect__1__value;
   char c;
   if((signed int)*(*s) == 40)
     *s = *s + 1l;
 
   else
     return (unsigned char)0;
-  unsigned char return_value_parseHex$1;
-  return_value_parseHex$1=parseHex(s, &indirect$$1$$value);
-  unsigned char return_value_getDirection$4;
-  if(return_value_parseHex$1 == 0)
+  unsigned char return_value_parseHex_1;
+  return_value_parseHex_1=parseHex(s, &indirect__1__value);
+  unsigned char return_value_getDirection_4;
+  if(return_value_parseHex_1 == 0)
     return (unsigned char)0;
 
   else
-    if(indirect$$1$$value >= 256u)
+    if(indirect__1__value >= 256u)
     {
       parseError("Indirect value is too large.");
       return (unsigned char)0;
@@ -10062,9 +10062,9 @@ static unsigned char indirect(char **s, struct anonymous$8 *param)
 
     else
     {
-      unsigned char return_value_addvalue$2;
-      return_value_addvalue$2=addvalue(param, indirect$$1$$value);
-      if(return_value_addvalue$2 == 0)
+      unsigned char return_value_addvalue_2;
+      return_value_addvalue_2=addvalue(param, indirect__1__value);
+      if(return_value_addvalue_2 == 0)
         return (unsigned char)0;
 
       else
@@ -10073,13 +10073,13 @@ static unsigned char indirect(char **s, struct anonymous$8 *param)
         if((signed int)*(*s) == 41)
         {
           *s = *s + 1l;
-          unsigned char return_value_getDirection$3;
-          return_value_getDirection$3=getDirection(s, &c);
-          if(!(return_value_getDirection$3 == 0))
+          unsigned char return_value_getDirection_3;
+          return_value_getDirection_3=getDirection(s, &c);
+          if(!(return_value_getDirection_3 == 0))
           {
             if((signed int)c == 89)
             {
-              param->type = (enum anonymous$60)INDIRECT_Y;
+              param->type = (enum anonymous_60)INDIRECT_Y;
               return (unsigned char)1;
             }
 
@@ -10089,8 +10089,8 @@ static unsigned char indirect(char **s, struct anonymous$8 *param)
 
         else
         {
-          return_value_getDirection$4=getDirection(s, &c);
-          if(!(return_value_getDirection$4 == 0))
+          return_value_getDirection_4=getDirection(s, &c);
+          if(!(return_value_getDirection_4 == 0))
           {
             if((signed int)c == 88)
             {
@@ -10098,7 +10098,7 @@ static unsigned char indirect(char **s, struct anonymous$8 *param)
               if((signed int)*(*s) == 41)
               {
                 *s = *s + 1l;
-                param->type = (enum anonymous$60)INDIRECT_X;
+                param->type = (enum anonymous_60)INDIRECT_X;
                 return (unsigned char)1;
               }
 
@@ -10114,10 +10114,10 @@ static unsigned char indirect(char **s, struct anonymous$8 *param)
 
 // initParam
 // file asm6502.c line 1596
-static void initParam(struct anonymous$8 *param)
+static void initParam(struct anonymous_8 *param)
 {
   signed int i;
-  param->type = (enum anonymous$60)SINGLE;
+  param->type = (enum anonymous_60)SINGLE;
   i = 0;
   for( ; !(i >= 25); i = i + 1)
     param->value[(signed long int)i] = (unsigned int)0;
@@ -10137,8 +10137,8 @@ static void init_time(struct state *st)
 static void init_window(struct _XDisplay *dpy, struct _WidgetRec *toplevel, const char *title)
 {
   unsigned long int window;
-  struct anonymous$7 xgwa;
-  XtPopup(toplevel, (enum anonymous$70)XtGrabNone);
+  struct anonymous_7 xgwa;
+  XtPopup(toplevel, (enum anonymous_70)XtGrabNone);
   XtVaSetValues(toplevel, (char *)&XtShellStrings[(signed long int)356], title, (void *)0);
   window = toplevel->core.window;
   XGetWindowAttributes(dpy, window, &xgwa);
@@ -10153,15 +10153,15 @@ signed int io_thread_cancel(struct io_thread *self)
   if(_has_pthread >= 0)
   {
     enum _io_thread_status old_status;
-    signed int return_value___atomic_exchange_n$1;
-    return_value___atomic_exchange_n$1=__atomic_exchange_n(&self->status, _io_thread_cancelled, 5);
-    old_status = (enum _io_thread_status)return_value___atomic_exchange_n$1;
+    signed int return_value___atomic_exchange_n_1;
+    return_value___atomic_exchange_n_1=__atomic_exchange_n(&self->status, _io_thread_cancelled, 5);
+    old_status = (enum _io_thread_status)return_value___atomic_exchange_n_1;
     /* assertion old_status == _io_thread_working || old_status == _io_thread_done */
     assert((signed int)old_status == _io_thread_working || (signed int)old_status == _io_thread_done);
-    signed int return_value_pthread_detach$2;
-    return_value_pthread_detach$2=pthread_detach(self->thread);
+    signed int return_value_pthread_detach_2;
+    return_value_pthread_detach_2=pthread_detach(self->thread);
     /* assertion !(pthread_detach(self->thread)) */
-    assert(!(return_value_pthread_detach$2 != 0));
+    assert(!(return_value_pthread_detach_2 != 0));
     return (signed int)((signed int)old_status != _io_thread_working);
   }
 
@@ -10172,10 +10172,10 @@ signed int io_thread_cancel(struct io_thread *self)
 // file thread_util.c line 950
 void * io_thread_create(struct io_thread *self, void *parent, void * (*start_routine)(void *), struct _XDisplay *dpy, unsigned int stacksize)
 {
-  signed int return_value_threads_available$4;
-  return_value_threads_available$4=threads_available(dpy);
-  signed int return_value_pthread_attr_destroy$3;
-  if(return_value_threads_available$4 >= 0)
+  signed int return_value_threads_available_4;
+  return_value_threads_available_4=threads_available(dpy);
+  signed int return_value_pthread_attr_destroy_3;
+  if(return_value_threads_available_4 >= 0)
   {
     signed int error;
     union pthread_attr_t attr;
@@ -10183,17 +10183,17 @@ void * io_thread_create(struct io_thread *self, void *parent, void * (*start_rou
     if(!(stacksize == 0u))
     {
       attr_ptr = &attr;
-      signed int return_value_pthread_attr_init$1;
-      return_value_pthread_attr_init$1=pthread_attr_init(&attr);
-      if(!(return_value_pthread_attr_init$1 == 0))
+      signed int return_value_pthread_attr_init_1;
+      return_value_pthread_attr_init_1=pthread_attr_init(&attr);
+      if(!(return_value_pthread_attr_init_1 == 0))
         return (void *)0;
 
       /* assertion stacksize >= 16384 */
       assert(stacksize >= (unsigned int)16384);
-      signed int return_value_pthread_attr_setstacksize$2;
-      return_value_pthread_attr_setstacksize$2=pthread_attr_setstacksize(&attr, (unsigned long int)stacksize);
+      signed int return_value_pthread_attr_setstacksize_2;
+      return_value_pthread_attr_setstacksize_2=pthread_attr_setstacksize(&attr, (unsigned long int)stacksize);
       /* assertion !(pthread_attr_setstacksize(&attr, stacksize)) */
-      assert(!(return_value_pthread_attr_setstacksize$2 != 0));
+      assert(!(return_value_pthread_attr_setstacksize_2 != 0));
     }
 
     self->status = (enum _io_thread_status)_io_thread_working;
@@ -10205,9 +10205,9 @@ void * io_thread_create(struct io_thread *self, void *parent, void * (*start_rou
 
     if(!(attr_ptr == ((union pthread_attr_t *)NULL)))
     {
-      return_value_pthread_attr_destroy$3=pthread_attr_destroy(attr_ptr);
+      return_value_pthread_attr_destroy_3=pthread_attr_destroy(attr_ptr);
       /* assertion !(pthread_attr_destroy(attr_ptr)) */
-      assert(!(return_value_pthread_attr_destroy$3 != 0));
+      assert(!(return_value_pthread_attr_destroy_3 != 0));
     }
 
     return parent;
@@ -10223,19 +10223,19 @@ void io_thread_finish(struct io_thread *self)
   if(_has_pthread >= 0)
   {
     enum _io_thread_status status;
-    signed int return_value___atomic_load_n$1;
-    return_value___atomic_load_n$1=__atomic_load_n(&self->status, 5);
-    status = (enum _io_thread_status)return_value___atomic_load_n$1;
+    signed int return_value___atomic_load_n_1;
+    return_value___atomic_load_n_1=__atomic_load_n(&self->status, 5);
+    status = (enum _io_thread_status)return_value___atomic_load_n_1;
     /* assertion status == _io_thread_working || status == _io_thread_done */
     assert((signed int)status == _io_thread_working || (signed int)status == _io_thread_done);
-    signed int return_value_pthread_join$2;
-    return_value_pthread_join$2=pthread_join(self->thread, (void **)(void *)0);
+    signed int return_value_pthread_join_2;
+    return_value_pthread_join_2=pthread_join(self->thread, (void **)(void *)0);
     /* assertion !(pthread_join(self->thread, ((void *)0))) */
-    assert(!(return_value_pthread_join$2 != 0));
-    signed int return_value___atomic_load_n$3;
-    return_value___atomic_load_n$3=__atomic_load_n(&self->status, 5);
+    assert(!(return_value_pthread_join_2 != 0));
+    signed int return_value___atomic_load_n_3;
+    return_value___atomic_load_n_3=__atomic_load_n(&self->status, 5);
     /* assertion (__atomic_load_n((&self->status), 5)) == _io_thread_done */
-    assert(return_value___atomic_load_n$3 == _io_thread_done);
+    assert(return_value___atomic_load_n_3 == _io_thread_done);
   }
 
 }
@@ -10263,9 +10263,9 @@ signed int io_thread_return(struct io_thread *self)
   if(_has_pthread >= 0)
   {
     enum _io_thread_status old_status;
-    signed int return_value___atomic_exchange_n$1;
-    return_value___atomic_exchange_n$1=__atomic_exchange_n(&self->status, _io_thread_done, 5);
-    old_status = (enum _io_thread_status)return_value___atomic_exchange_n$1;
+    signed int return_value___atomic_exchange_n_1;
+    return_value___atomic_exchange_n_1=__atomic_exchange_n(&self->status, _io_thread_done, 5);
+    old_status = (enum _io_thread_status)return_value___atomic_exchange_n_1;
     /* assertion old_status == _io_thread_working || old_status == _io_thread_cancelled */
     assert((signed int)old_status == _io_thread_working || (signed int)old_status == _io_thread_cancelled);
     return (signed int)((signed int)old_status != _io_thread_working);
@@ -10285,9 +10285,9 @@ static unsigned char isBlank(const char *token)
 // file asm6502.c line 1308
 static unsigned char isCmdChar(char c)
 {
-  const unsigned short int **return_value___ctype_b_loc$1;
-  return_value___ctype_b_loc$1=__ctype_b_loc();
-  return (unsigned char)((((signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)c] & (signed int)(unsigned short int)1024) != 0 ? (_Bool)1 : ((signed int)c == 42 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : ((signed int)c == 61 ? (_Bool)1 : (_Bool)0));
+  const unsigned short int **return_value___ctype_b_loc_1;
+  return_value___ctype_b_loc_1=__ctype_b_loc();
+  return (unsigned char)((((signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)c] & (signed int)(unsigned short int)1024) != 0 ? (_Bool)1 : ((signed int)c == 42 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : ((signed int)c == 61 ? (_Bool)1 : (_Bool)0));
 }
 
 // isCommand
@@ -10297,16 +10297,16 @@ static unsigned char isCommand(struct machine_6502 *machine, const char *token)
   signed int i = 0;
   while(!(i >= 56))
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(machine->opcodes[(signed long int)i].name, token);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(machine->opcodes[(signed long int)i].name, token);
+    if(return_value_strcmp_1 == 0)
       return (unsigned char)1;
 
     i = i + 1;
   }
-  signed int return_value_strcmp$2;
-  return_value_strcmp$2=strcmp(token, "DCB");
-  if(return_value_strcmp$2 == 0)
+  signed int return_value_strcmp_2;
+  return_value_strcmp_2=strcmp(token, "DCB");
+  if(return_value_strcmp_2 == 0)
     return (unsigned char)1;
 
   else
@@ -10331,75 +10331,75 @@ static unsigned char isWhite(char c)
 // file asm6502.c line 1297
 static unsigned char ishexdigit(char c)
 {
-  const unsigned short int **return_value___ctype_b_loc$2;
-  return_value___ctype_b_loc$2=__ctype_b_loc();
-  if(!((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)c]) == 0))
+  const unsigned short int **return_value___ctype_b_loc_2;
+  return_value___ctype_b_loc_2=__ctype_b_loc();
+  if(!((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)c]) == 0))
     return (unsigned char)1;
 
   else
   {
     char c1;
-    signed int return_value_toupper$1;
-    return_value_toupper$1=toupper((signed int)c);
-    c1 = (char)return_value_toupper$1;
+    signed int return_value_toupper_1;
+    return_value_toupper_1=toupper((signed int)c);
+    c1 = (char)return_value_toupper_1;
     return (unsigned char)(65 <= (signed int)c1 && (signed int)c1 <= 70);
   }
 }
 
 // jmpADC
 // file asm6502.c line 465
-static void jmpADC(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpADC(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned short int tmp;
   unsigned char c;
-  c=bitOn(machine->regP, (enum anonymous$18)CARRY_FL);
+  c=bitOn(machine->regP, (enum anonymous_18)CARRY_FL);
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
-  unsigned char return_value_bitOn$1;
-  return_value_bitOn$1=bitOn(machine->regA, (enum anonymous$18)NEGATIVE_FL);
-  _Bool tmp_if_expr$3;
-  unsigned char return_value_bitOn$2;
-  if(!(return_value_bitOn$1 == 0))
+  unsigned char return_value_bitOn_1;
+  return_value_bitOn_1=bitOn(machine->regA, (enum anonymous_18)NEGATIVE_FL);
+  _Bool tmp_if_expr_3;
+  unsigned char return_value_bitOn_2;
+  if(!(return_value_bitOn_1 == 0))
   {
-    return_value_bitOn$2=bitOn((unsigned char)ptr.value, (enum anonymous$18)NEGATIVE_FL);
-    tmp_if_expr$3 = return_value_bitOn$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_bitOn_2=bitOn((unsigned char)ptr.value, (enum anonymous_18)NEGATIVE_FL);
+    tmp_if_expr_3 = return_value_bitOn_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
-    machine->regP=setBit(machine->regP, (enum anonymous$18)OVERFLOW_FL, 0);
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
+    machine->regP=setBit(machine->regP, (enum anonymous_18)OVERFLOW_FL, 0);
 
   else
-    machine->regP=setBit(machine->regP, (enum anonymous$18)OVERFLOW_FL, 1);
-  unsigned char return_value_bitOn$12;
-  return_value_bitOn$12=bitOn(machine->regP, (enum anonymous$18)DECIMAL_FL);
-  if(!(return_value_bitOn$12 == 0))
+    machine->regP=setBit(machine->regP, (enum anonymous_18)OVERFLOW_FL, 1);
+  unsigned char return_value_bitOn_12;
+  return_value_bitOn_12=bitOn(machine->regP, (enum anonymous_18)DECIMAL_FL);
+  if(!(return_value_bitOn_12 == 0))
   {
-    unsigned char return_value_nibble$4;
-    return_value_nibble$4=nibble(machine->regA, (enum anonymous$17)RIGHT);
-    unsigned char return_value_nibble$5;
-    return_value_nibble$5=nibble((unsigned char)ptr.value, (enum anonymous$17)RIGHT);
-    tmp = (unsigned short int)((signed int)return_value_nibble$4 + (signed int)return_value_nibble$5 + (signed int)c);
+    unsigned char return_value_nibble_4;
+    return_value_nibble_4=nibble(machine->regA, (enum anonymous_17)RIGHT);
+    unsigned char return_value_nibble_5;
+    return_value_nibble_5=nibble((unsigned char)ptr.value, (enum anonymous_17)RIGHT);
+    tmp = (unsigned short int)((signed int)return_value_nibble_4 + (signed int)return_value_nibble_5 + (signed int)c);
     if((signed int)tmp >= 10)
       tmp = (unsigned short int)(0x10 | (signed int)tmp + 6 & 0xf);
 
-    unsigned char return_value_nibble$6;
-    return_value_nibble$6=nibble(machine->regA, (enum anonymous$17)LEFT);
-    unsigned char return_value_nibble$7;
-    return_value_nibble$7=nibble((unsigned char)ptr.value, (enum anonymous$17)LEFT);
-    tmp = tmp + (unsigned short int)((signed int)return_value_nibble$6 + (signed int)return_value_nibble$7);
+    unsigned char return_value_nibble_6;
+    return_value_nibble_6=nibble(machine->regA, (enum anonymous_17)LEFT);
+    unsigned char return_value_nibble_7;
+    return_value_nibble_7=nibble((unsigned char)ptr.value, (enum anonymous_17)LEFT);
+    tmp = tmp + (unsigned short int)((signed int)return_value_nibble_6 + (signed int)return_value_nibble_7);
     if((signed int)tmp >= 160)
     {
-      machine->regP=setBit(machine->regP, (enum anonymous$18)CARRY_FL, 1);
-      unsigned char return_value_bitOn$8;
-      return_value_bitOn$8=bitOn(machine->regP, (enum anonymous$18)OVERFLOW_FL);
-      if(!(return_value_bitOn$8 == 0))
+      machine->regP=setBit(machine->regP, (enum anonymous_18)CARRY_FL, 1);
+      unsigned char return_value_bitOn_8;
+      return_value_bitOn_8=bitOn(machine->regP, (enum anonymous_18)OVERFLOW_FL);
+      if(!(return_value_bitOn_8 == 0))
       {
         if((signed int)tmp >= 0x180)
-          machine->regP=setBit(machine->regP, (enum anonymous$18)OVERFLOW_FL, 0);
+          machine->regP=setBit(machine->regP, (enum anonymous_18)OVERFLOW_FL, 0);
 
       }
 
@@ -10408,13 +10408,13 @@ static void jmpADC(struct machine_6502 *machine, enum anonymous$60 adm)
 
     else
     {
-      machine->regP=setBit(machine->regP, (enum anonymous$18)CARRY_FL, 0);
-      unsigned char return_value_bitOn$9;
-      return_value_bitOn$9=bitOn(machine->regP, (enum anonymous$18)OVERFLOW_FL);
-      if(!(return_value_bitOn$9 == 0))
+      machine->regP=setBit(machine->regP, (enum anonymous_18)CARRY_FL, 0);
+      unsigned char return_value_bitOn_9;
+      return_value_bitOn_9=bitOn(machine->regP, (enum anonymous_18)OVERFLOW_FL);
+      if(!(return_value_bitOn_9 == 0))
       {
         if(!((signed int)tmp >= 0x80))
-          machine->regP=setBit(machine->regP, (enum anonymous$18)OVERFLOW_FL, 0);
+          machine->regP=setBit(machine->regP, (enum anonymous_18)OVERFLOW_FL, 0);
 
       }
 
@@ -10426,13 +10426,13 @@ static void jmpADC(struct machine_6502 *machine, enum anonymous$60 adm)
     tmp = (unsigned short int)((signed int)machine->regA + (signed int)ptr.value + (signed int)c);
     if((signed int)tmp >= 0x100)
     {
-      machine->regP=setBit(machine->regP, (enum anonymous$18)CARRY_FL, 1);
-      unsigned char return_value_bitOn$10;
-      return_value_bitOn$10=bitOn(machine->regP, (enum anonymous$18)OVERFLOW_FL);
-      if(!(return_value_bitOn$10 == 0))
+      machine->regP=setBit(machine->regP, (enum anonymous_18)CARRY_FL, 1);
+      unsigned char return_value_bitOn_10;
+      return_value_bitOn_10=bitOn(machine->regP, (enum anonymous_18)OVERFLOW_FL);
+      if(!(return_value_bitOn_10 == 0))
       {
         if((signed int)tmp >= 0x180)
-          machine->regP=setBit(machine->regP, (enum anonymous$18)OVERFLOW_FL, 0);
+          machine->regP=setBit(machine->regP, (enum anonymous_18)OVERFLOW_FL, 0);
 
       }
 
@@ -10440,13 +10440,13 @@ static void jmpADC(struct machine_6502 *machine, enum anonymous$60 adm)
 
     else
     {
-      machine->regP=setBit(machine->regP, (enum anonymous$18)CARRY_FL, 0);
-      unsigned char return_value_bitOn$11;
-      return_value_bitOn$11=bitOn(machine->regP, (enum anonymous$18)OVERFLOW_FL);
-      if(!(return_value_bitOn$11 == 0))
+      machine->regP=setBit(machine->regP, (enum anonymous_18)CARRY_FL, 0);
+      unsigned char return_value_bitOn_11;
+      return_value_bitOn_11=bitOn(machine->regP, (enum anonymous_18)OVERFLOW_FL);
+      if(!(return_value_bitOn_11 == 0))
       {
         if(!((signed int)tmp >= 0x80))
-          machine->regP=setBit(machine->regP, (enum anonymous$18)OVERFLOW_FL, 0);
+          machine->regP=setBit(machine->regP, (enum anonymous_18)OVERFLOW_FL, 0);
 
       }
 
@@ -10458,9 +10458,9 @@ static void jmpADC(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpAND
 // file asm6502.c line 516
-static void jmpAND(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpAND(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
@@ -10470,205 +10470,205 @@ static void jmpAND(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpASL
 // file asm6502.c line 524
-static void jmpASL(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpASL(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   if(!(isValue == 0))
   {
-    unsigned char return_value_bitOn$1;
-    return_value_bitOn$1=bitOn((unsigned char)ptr.value, (enum anonymous$18)NEGATIVE_FL);
-    machine->regP=setBit(machine->regP, (enum anonymous$18)CARRY_FL, (signed int)return_value_bitOn$1);
+    unsigned char return_value_bitOn_1;
+    return_value_bitOn_1=bitOn((unsigned char)ptr.value, (enum anonymous_18)NEGATIVE_FL);
+    machine->regP=setBit(machine->regP, (enum anonymous_18)CARRY_FL, (signed int)return_value_bitOn_1);
     ptr.value = (unsigned short int)((signed int)ptr.value << 1);
-    unsigned char return_value_setBit$2;
-    return_value_setBit$2=setBit((unsigned char)ptr.value, (enum anonymous$18)CARRY_FL, 0);
-    ptr.value = (unsigned short int)return_value_setBit$2;
+    unsigned char return_value_setBit_2;
+    return_value_setBit_2=setBit((unsigned char)ptr.value, (enum anonymous_18)CARRY_FL, 0);
+    ptr.value = (unsigned short int)return_value_setBit_2;
     memStoreByte(machine, (signed int)ptr.addr, (signed int)ptr.value);
     manZeroNeg(machine, (unsigned char)ptr.value);
   }
 
   else
   {
-    unsigned char return_value_bitOn$3;
-    return_value_bitOn$3=bitOn(machine->regA, (enum anonymous$18)NEGATIVE_FL);
-    machine->regP=setBit(machine->regP, (enum anonymous$18)CARRY_FL, (signed int)return_value_bitOn$3);
+    unsigned char return_value_bitOn_3;
+    return_value_bitOn_3=bitOn(machine->regA, (enum anonymous_18)NEGATIVE_FL);
+    machine->regP=setBit(machine->regP, (enum anonymous_18)CARRY_FL, (signed int)return_value_bitOn_3);
     machine->regA = (unsigned char)((signed int)machine->regA << 1);
-    machine->regA=setBit(machine->regA, (enum anonymous$18)CARRY_FL, 0);
+    machine->regA=setBit(machine->regA, (enum anonymous_18)CARRY_FL, 0);
     manZeroNeg(machine, machine->regA);
   }
 }
 
 // jmpBCC
 // file asm6502.c line 594
-static void jmpBCC(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpBCC(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
-  unsigned char return_value_bitOff$1;
-  return_value_bitOff$1=bitOff(machine->regP, (enum anonymous$18)CARRY_FL);
-  if(!(return_value_bitOff$1 == 0))
+  unsigned char return_value_bitOff_1;
+  return_value_bitOff_1=bitOff(machine->regP, (enum anonymous_18)CARRY_FL);
+  if(!(return_value_bitOff_1 == 0))
     jumpBranch(machine, ptr.addr);
 
 }
 
 // jmpBCS
 // file asm6502.c line 602
-static void jmpBCS(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpBCS(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
-  unsigned char return_value_bitOn$1;
-  return_value_bitOn$1=bitOn(machine->regP, (enum anonymous$18)CARRY_FL);
-  if(!(return_value_bitOn$1 == 0))
+  unsigned char return_value_bitOn_1;
+  return_value_bitOn_1=bitOn(machine->regP, (enum anonymous_18)CARRY_FL);
+  if(!(return_value_bitOn_1 == 0))
     jumpBranch(machine, ptr.addr);
 
 }
 
 // jmpBEQ
 // file asm6502.c line 618
-static void jmpBEQ(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpBEQ(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
-  unsigned char return_value_bitOn$1;
-  return_value_bitOn$1=bitOn(machine->regP, (enum anonymous$18)ZERO_FL);
-  if(!(return_value_bitOn$1 == 0))
+  unsigned char return_value_bitOn_1;
+  return_value_bitOn_1=bitOn(machine->regP, (enum anonymous_18)ZERO_FL);
+  if(!(return_value_bitOn_1 == 0))
     jumpBranch(machine, ptr.addr);
 
 }
 
 // jmpBIT
 // file asm6502.c line 543
-static void jmpBIT(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpBIT(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
-  machine->regP=setBit(machine->regP, (enum anonymous$18)ZERO_FL, (signed int)ptr.value & (signed int)machine->regA);
-  unsigned char return_value_bitOn$1;
-  return_value_bitOn$1=bitOn((unsigned char)ptr.value, (enum anonymous$18)OVERFLOW_FL);
-  machine->regP=setBit(machine->regP, (enum anonymous$18)OVERFLOW_FL, (signed int)return_value_bitOn$1);
-  unsigned char return_value_bitOn$2;
-  return_value_bitOn$2=bitOn((unsigned char)ptr.value, (enum anonymous$18)NEGATIVE_FL);
-  machine->regP=setBit(machine->regP, (enum anonymous$18)NEGATIVE_FL, (signed int)return_value_bitOn$2);
+  machine->regP=setBit(machine->regP, (enum anonymous_18)ZERO_FL, (signed int)ptr.value & (signed int)machine->regA);
+  unsigned char return_value_bitOn_1;
+  return_value_bitOn_1=bitOn((unsigned char)ptr.value, (enum anonymous_18)OVERFLOW_FL);
+  machine->regP=setBit(machine->regP, (enum anonymous_18)OVERFLOW_FL, (signed int)return_value_bitOn_1);
+  unsigned char return_value_bitOn_2;
+  return_value_bitOn_2=bitOn((unsigned char)ptr.value, (enum anonymous_18)NEGATIVE_FL);
+  machine->regP=setBit(machine->regP, (enum anonymous_18)NEGATIVE_FL, (signed int)return_value_bitOn_2);
 }
 
 // jmpBMI
 // file asm6502.c line 569
-static void jmpBMI(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpBMI(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
-  unsigned char return_value_bitOn$1;
-  return_value_bitOn$1=bitOn(machine->regP, (enum anonymous$18)NEGATIVE_FL);
-  if(!(return_value_bitOn$1 == 0))
+  unsigned char return_value_bitOn_1;
+  return_value_bitOn_1=bitOn(machine->regP, (enum anonymous_18)NEGATIVE_FL);
+  if(!(return_value_bitOn_1 == 0))
     jumpBranch(machine, ptr.addr);
 
 }
 
 // jmpBNE
 // file asm6502.c line 610
-static void jmpBNE(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpBNE(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
-  unsigned char return_value_bitOff$1;
-  return_value_bitOff$1=bitOff(machine->regP, (enum anonymous$18)ZERO_FL);
-  if(!(return_value_bitOff$1 == 0))
+  unsigned char return_value_bitOff_1;
+  return_value_bitOff_1=bitOff(machine->regP, (enum anonymous_18)ZERO_FL);
+  if(!(return_value_bitOff_1 == 0))
     jumpBranch(machine, ptr.addr);
 
 }
 
 // jmpBPL
 // file asm6502.c line 560
-static void jmpBPL(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpBPL(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
-  unsigned char return_value_bitOff$1;
-  return_value_bitOff$1=bitOff(machine->regP, (enum anonymous$18)NEGATIVE_FL);
-  if(!(return_value_bitOff$1 == 0))
+  unsigned char return_value_bitOff_1;
+  return_value_bitOff_1=bitOff(machine->regP, (enum anonymous_18)NEGATIVE_FL);
+  if(!(return_value_bitOff_1 == 0))
     jumpBranch(machine, ptr.addr);
 
 }
 
 // jmpBVC
 // file asm6502.c line 578
-static void jmpBVC(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpBVC(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
-  unsigned char return_value_bitOff$1;
-  return_value_bitOff$1=bitOff(machine->regP, (enum anonymous$18)OVERFLOW_FL);
-  if(!(return_value_bitOff$1 == 0))
+  unsigned char return_value_bitOff_1;
+  return_value_bitOff_1=bitOff(machine->regP, (enum anonymous_18)OVERFLOW_FL);
+  if(!(return_value_bitOff_1 == 0))
     jumpBranch(machine, ptr.addr);
 
 }
 
 // jmpBVS
 // file asm6502.c line 586
-static void jmpBVS(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpBVS(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
-  unsigned char return_value_bitOn$1;
-  return_value_bitOn$1=bitOn(machine->regP, (enum anonymous$18)OVERFLOW_FL);
-  if(!(return_value_bitOn$1 == 0))
+  unsigned char return_value_bitOn_1;
+  return_value_bitOn_1=bitOn(machine->regP, (enum anonymous_18)OVERFLOW_FL);
+  if(!(return_value_bitOn_1 == 0))
     jumpBranch(machine, ptr.addr);
 
 }
 
 // jmpCLC
 // file asm6502.c line 672
-static void jmpCLC(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpCLC(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  machine->regP=setBit(machine->regP, (enum anonymous$18)CARRY_FL, 0);
+  machine->regP=setBit(machine->regP, (enum anonymous_18)CARRY_FL, 0);
 }
 
 // jmpCLD
 // file asm6502.c line 692
-static void jmpCLD(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpCLD(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  machine->regP=setBit(machine->regP, (enum anonymous$18)DECIMAL_FL, 0);
+  machine->regP=setBit(machine->regP, (enum anonymous_18)DECIMAL_FL, 0);
 }
 
 // jmpCLI
 // file asm6502.c line 680
-static void jmpCLI(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpCLI(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  machine->regP=setBit(machine->regP, (enum anonymous$18)INTERRUPT_FL, 0);
+  machine->regP=setBit(machine->regP, (enum anonymous_18)INTERRUPT_FL, 0);
 }
 
 // jmpCLV
 // file asm6502.c line 688
-static void jmpCLV(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpCLV(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  machine->regP=setBit(machine->regP, (enum anonymous$18)OVERFLOW_FL, 0);
+  machine->regP=setBit(machine->regP, (enum anonymous_18)OVERFLOW_FL, 0);
 }
 
 // jmpCMP
 // file asm6502.c line 631
-static void jmpCMP(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpCMP(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
@@ -10677,9 +10677,9 @@ static void jmpCMP(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpCPX
 // file asm6502.c line 638
-static void jmpCPX(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpCPX(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
@@ -10688,9 +10688,9 @@ static void jmpCPX(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpCPY
 // file asm6502.c line 645
-static void jmpCPY(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpCPY(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
@@ -10699,9 +10699,9 @@ static void jmpCPY(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpDEC
 // file asm6502.c line 652
-static void jmpDEC(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpDEC(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
@@ -10716,7 +10716,7 @@ static void jmpDEC(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpDEX
 // file asm6502.c line 796
-static void jmpDEX(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpDEX(struct machine_6502 *machine, enum anonymous_60 adm)
 {
   if((signed int)machine->regX >= 1)
     machine->regX = machine->regX - 1;
@@ -10728,7 +10728,7 @@ static void jmpDEX(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpDEY
 // file asm6502.c line 820
-static void jmpDEY(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpDEY(struct machine_6502 *machine, enum anonymous_60 adm)
 {
   if((signed int)machine->regY >= 1)
     machine->regY = machine->regY - 1;
@@ -10740,9 +10740,9 @@ static void jmpDEY(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpEOR
 // file asm6502.c line 664
-static void jmpEOR(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpEOR(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
@@ -10752,9 +10752,9 @@ static void jmpEOR(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpINC
 // file asm6502.c line 700
-static void jmpINC(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpINC(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
@@ -10765,27 +10765,27 @@ static void jmpINC(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpINX
 // file asm6502.c line 804
-static void jmpINX(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpINX(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  unsigned short int jmpINX$$1$$value = (unsigned short int)((signed int)machine->regX + 1);
-  machine->regX = (unsigned char)((signed int)jmpINX$$1$$value & 0xFF);
+  unsigned short int jmpINX__1__value = (unsigned short int)((signed int)machine->regX + 1);
+  machine->regX = (unsigned char)((signed int)jmpINX__1__value & 0xFF);
   manZeroNeg(machine, machine->regX);
 }
 
 // jmpINY
 // file asm6502.c line 828
-static void jmpINY(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpINY(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  unsigned short int jmpINY$$1$$value = (unsigned short int)((signed int)machine->regY + 1);
-  machine->regY = (unsigned char)((signed int)jmpINY$$1$$value & 0xff);
+  unsigned short int jmpINY__1__value = (unsigned short int)((signed int)machine->regY + 1);
+  machine->regY = (unsigned char)((signed int)jmpINY__1__value & 0xff);
   manZeroNeg(machine, machine->regY);
 }
 
 // jmpJMP
 // file asm6502.c line 709
-static void jmpJMP(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpJMP(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
@@ -10794,9 +10794,9 @@ static void jmpJMP(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpJSR
 // file asm6502.c line 716
-static void jmpJSR(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpJSR(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned short int currAddr = (unsigned short int)((signed int)machine->regPC + 2);
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
@@ -10808,9 +10808,9 @@ static void jmpJSR(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpLDA
 // file asm6502.c line 728
-static void jmpLDA(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpLDA(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
@@ -10820,9 +10820,9 @@ static void jmpLDA(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpLDX
 // file asm6502.c line 736
-static void jmpLDX(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpLDX(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
@@ -10832,9 +10832,9 @@ static void jmpLDX(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpLDY
 // file asm6502.c line 744
-static void jmpLDY(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpLDY(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
@@ -10844,47 +10844,47 @@ static void jmpLDY(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpLSR
 // file asm6502.c line 752
-static void jmpLSR(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpLSR(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   if(!(isValue == 0))
   {
-    unsigned char return_value_bitOn$1;
-    return_value_bitOn$1=bitOn((unsigned char)ptr.value, (enum anonymous$18)CARRY_FL);
-    machine->regP=setBit(machine->regP, (enum anonymous$18)CARRY_FL, (signed int)return_value_bitOn$1);
+    unsigned char return_value_bitOn_1;
+    return_value_bitOn_1=bitOn((unsigned char)ptr.value, (enum anonymous_18)CARRY_FL);
+    machine->regP=setBit(machine->regP, (enum anonymous_18)CARRY_FL, (signed int)return_value_bitOn_1);
     ptr.value = (unsigned short int)((signed int)ptr.value >> 1);
-    unsigned char return_value_setBit$2;
-    return_value_setBit$2=setBit((unsigned char)ptr.value, (enum anonymous$18)NEGATIVE_FL, 0);
-    ptr.value = (unsigned short int)return_value_setBit$2;
+    unsigned char return_value_setBit_2;
+    return_value_setBit_2=setBit((unsigned char)ptr.value, (enum anonymous_18)NEGATIVE_FL, 0);
+    ptr.value = (unsigned short int)return_value_setBit_2;
     memStoreByte(machine, (signed int)ptr.addr, (signed int)ptr.value);
     manZeroNeg(machine, (unsigned char)ptr.value);
   }
 
   else
   {
-    unsigned char return_value_bitOn$3;
-    return_value_bitOn$3=bitOn(machine->regA, (enum anonymous$18)CARRY_FL);
-    machine->regP=setBit(machine->regP, (enum anonymous$18)CARRY_FL, (signed int)return_value_bitOn$3);
+    unsigned char return_value_bitOn_3;
+    return_value_bitOn_3=bitOn(machine->regA, (enum anonymous_18)CARRY_FL);
+    machine->regP=setBit(machine->regP, (enum anonymous_18)CARRY_FL, (signed int)return_value_bitOn_3);
     machine->regA = (unsigned char)((signed int)machine->regA >> 1);
-    machine->regA=setBit(machine->regA, (enum anonymous$18)NEGATIVE_FL, 0);
+    machine->regA=setBit(machine->regA, (enum anonymous_18)NEGATIVE_FL, 0);
     manZeroNeg(machine, (unsigned char)ptr.value);
   }
 }
 
 // jmpNOP
 // file asm6502.c line 774
-static void jmpNOP(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpNOP(struct machine_6502 *machine, enum anonymous_60 adm)
 {
   ;
 }
 
 // jmpORA
 // file asm6502.c line 778
-static void jmpORA(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpORA(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
@@ -10894,21 +10894,21 @@ static void jmpORA(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpPHA
 // file asm6502.c line 970
-static void jmpPHA(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpPHA(struct machine_6502 *machine, enum anonymous_60 adm)
 {
   stackPush(machine, machine->regA);
 }
 
 // jmpPHP
 // file asm6502.c line 979
-static void jmpPHP(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpPHP(struct machine_6502 *machine, enum anonymous_60 adm)
 {
   stackPush(machine, machine->regP);
 }
 
 // jmpPLA
 // file asm6502.c line 974
-static void jmpPLA(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpPLA(struct machine_6502 *machine, enum anonymous_60 adm)
 {
   machine->regA=stackPop(machine);
   manZeroNeg(machine, machine->regA);
@@ -10916,133 +10916,133 @@ static void jmpPLA(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpPLP
 // file asm6502.c line 983
-static void jmpPLP(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpPLP(struct machine_6502 *machine, enum anonymous_60 adm)
 {
   machine->regP=stackPop(machine);
-  machine->regP=setBit(machine->regP, (enum anonymous$18)FUTURE_FL, 1);
+  machine->regP=setBit(machine->regP, (enum anonymous_18)FUTURE_FL, 1);
 }
 
 // jmpROL
 // file asm6502.c line 859
-static void jmpROL(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpROL(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char cf;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   if(!(isValue == 0))
   {
-    cf=bitOn(machine->regP, (enum anonymous$18)CARRY_FL);
-    unsigned char return_value_bitOn$1;
-    return_value_bitOn$1=bitOn((unsigned char)ptr.value, (enum anonymous$18)NEGATIVE_FL);
-    machine->regP=setBit(machine->regP, (enum anonymous$18)CARRY_FL, (signed int)return_value_bitOn$1);
+    cf=bitOn(machine->regP, (enum anonymous_18)CARRY_FL);
+    unsigned char return_value_bitOn_1;
+    return_value_bitOn_1=bitOn((unsigned char)ptr.value, (enum anonymous_18)NEGATIVE_FL);
+    machine->regP=setBit(machine->regP, (enum anonymous_18)CARRY_FL, (signed int)return_value_bitOn_1);
     ptr.value = (unsigned short int)((signed int)ptr.value << 1);
-    unsigned char return_value_setBit$2;
-    return_value_setBit$2=setBit((unsigned char)ptr.value, (enum anonymous$18)CARRY_FL, (signed int)cf);
-    ptr.value = (unsigned short int)return_value_setBit$2;
+    unsigned char return_value_setBit_2;
+    return_value_setBit_2=setBit((unsigned char)ptr.value, (enum anonymous_18)CARRY_FL, (signed int)cf);
+    ptr.value = (unsigned short int)return_value_setBit_2;
     memStoreByte(machine, (signed int)ptr.addr, (signed int)ptr.value);
     manZeroNeg(machine, (unsigned char)ptr.value);
   }
 
   else
   {
-    cf=bitOn(machine->regP, (enum anonymous$18)CARRY_FL);
-    unsigned char return_value_bitOn$3;
-    return_value_bitOn$3=bitOn(machine->regA, (enum anonymous$18)NEGATIVE_FL);
-    machine->regP=setBit(machine->regP, (enum anonymous$18)CARRY_FL, (signed int)return_value_bitOn$3);
+    cf=bitOn(machine->regP, (enum anonymous_18)CARRY_FL);
+    unsigned char return_value_bitOn_3;
+    return_value_bitOn_3=bitOn(machine->regA, (enum anonymous_18)NEGATIVE_FL);
+    machine->regP=setBit(machine->regP, (enum anonymous_18)CARRY_FL, (signed int)return_value_bitOn_3);
     machine->regA = (unsigned char)((signed int)machine->regA << 1);
-    machine->regA=setBit(machine->regA, (enum anonymous$18)CARRY_FL, (signed int)cf);
+    machine->regA=setBit(machine->regA, (enum anonymous_18)CARRY_FL, (signed int)cf);
     manZeroNeg(machine, machine->regA);
   }
 }
 
 // jmpROR
 // file asm6502.c line 834
-static void jmpROR(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpROR(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char cf;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   if(!(isValue == 0))
   {
-    cf=bitOn(machine->regP, (enum anonymous$18)CARRY_FL);
-    unsigned char return_value_bitOn$1;
-    return_value_bitOn$1=bitOn((unsigned char)ptr.value, (enum anonymous$18)CARRY_FL);
-    machine->regP=setBit(machine->regP, (enum anonymous$18)CARRY_FL, (signed int)return_value_bitOn$1);
+    cf=bitOn(machine->regP, (enum anonymous_18)CARRY_FL);
+    unsigned char return_value_bitOn_1;
+    return_value_bitOn_1=bitOn((unsigned char)ptr.value, (enum anonymous_18)CARRY_FL);
+    machine->regP=setBit(machine->regP, (enum anonymous_18)CARRY_FL, (signed int)return_value_bitOn_1);
     ptr.value = (unsigned short int)((signed int)ptr.value >> 1);
-    unsigned char return_value_setBit$2;
-    return_value_setBit$2=setBit((unsigned char)ptr.value, (enum anonymous$18)NEGATIVE_FL, (signed int)cf);
-    ptr.value = (unsigned short int)return_value_setBit$2;
+    unsigned char return_value_setBit_2;
+    return_value_setBit_2=setBit((unsigned char)ptr.value, (enum anonymous_18)NEGATIVE_FL, (signed int)cf);
+    ptr.value = (unsigned short int)return_value_setBit_2;
     memStoreByte(machine, (signed int)ptr.addr, (signed int)ptr.value);
     manZeroNeg(machine, (unsigned char)ptr.value);
   }
 
   else
   {
-    cf=bitOn(machine->regP, (enum anonymous$18)CARRY_FL);
-    unsigned char return_value_bitOn$3;
-    return_value_bitOn$3=bitOn(machine->regA, (enum anonymous$18)CARRY_FL);
-    machine->regP=setBit(machine->regP, (enum anonymous$18)CARRY_FL, (signed int)return_value_bitOn$3);
+    cf=bitOn(machine->regP, (enum anonymous_18)CARRY_FL);
+    unsigned char return_value_bitOn_3;
+    return_value_bitOn_3=bitOn(machine->regA, (enum anonymous_18)CARRY_FL);
+    machine->regP=setBit(machine->regP, (enum anonymous_18)CARRY_FL, (signed int)return_value_bitOn_3);
     machine->regA = (unsigned char)((signed int)machine->regA >> 1);
-    machine->regA=setBit(machine->regA, (enum anonymous$18)NEGATIVE_FL, (signed int)cf);
+    machine->regA=setBit(machine->regA, (enum anonymous_18)NEGATIVE_FL, (signed int)cf);
     manZeroNeg(machine, machine->regA);
   }
 }
 
 // jmpRTI
 // file asm6502.c line 884
-static void jmpRTI(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpRTI(struct machine_6502 *machine, enum anonymous_60 adm)
 {
   machine->regP=stackPop(machine);
-  unsigned char return_value_stackPop$1;
-  return_value_stackPop$1=stackPop(machine);
-  machine->regPC = (unsigned short int)return_value_stackPop$1;
+  unsigned char return_value_stackPop_1;
+  return_value_stackPop_1=stackPop(machine);
+  machine->regPC = (unsigned short int)return_value_stackPop_1;
 }
 
 // jmpRTS
 // file asm6502.c line 889
-static void jmpRTS(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpRTS(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   unsigned short int nr;
-  unsigned char return_value_stackPop$1;
-  return_value_stackPop$1=stackPop(machine);
-  nr = (unsigned short int)return_value_stackPop$1;
+  unsigned char return_value_stackPop_1;
+  return_value_stackPop_1=stackPop(machine);
+  nr = (unsigned short int)return_value_stackPop_1;
   unsigned short int nl;
-  unsigned char return_value_stackPop$2;
-  return_value_stackPop$2=stackPop(machine);
-  nl = (unsigned short int)return_value_stackPop$2;
+  unsigned char return_value_stackPop_2;
+  return_value_stackPop_2=stackPop(machine);
+  nl = (unsigned short int)return_value_stackPop_2;
   warnValue((unsigned char)!(isValue != 0));
   machine->regPC = (unsigned short int)((signed int)nl << 8 | (signed int)nr);
 }
 
 // jmpSBC
 // file asm6502.c line 898
-static void jmpSBC(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpSBC(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char c;
-  c=bitOn(machine->regP, (enum anonymous$18)CARRY_FL);
+  c=bitOn(machine->regP, (enum anonymous_18)CARRY_FL);
   unsigned short int tmp;
   unsigned short int w;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
-  unsigned char return_value_bitOn$5;
-  return_value_bitOn$5=bitOn(machine->regP, (enum anonymous$18)DECIMAL_FL);
-  if(!(return_value_bitOn$5 == 0))
+  unsigned char return_value_bitOn_5;
+  return_value_bitOn_5=bitOn(machine->regP, (enum anonymous_18)DECIMAL_FL);
+  if(!(return_value_bitOn_5 == 0))
   {
     unsigned char ar;
-    ar=nibble(machine->regA, (enum anonymous$17)RIGHT);
+    ar=nibble(machine->regA, (enum anonymous_17)RIGHT);
     unsigned char br;
-    br=nibble((unsigned char)ptr.value, (enum anonymous$17)RIGHT);
+    br=nibble((unsigned char)ptr.value, (enum anonymous_17)RIGHT);
     unsigned char al;
-    al=nibble(machine->regA, (enum anonymous$17)LEFT);
+    al=nibble(machine->regA, (enum anonymous_17)LEFT);
     unsigned char bl;
-    bl=nibble((unsigned char)ptr.value, (enum anonymous$17)LEFT);
+    bl=nibble((unsigned char)ptr.value, (enum anonymous_17)LEFT);
     tmp = (unsigned short int)(((0xf + (signed int)ar) - (signed int)br) + (signed int)c);
     if(!((signed int)tmp >= 0x10))
     {
@@ -11058,13 +11058,13 @@ static void jmpSBC(struct machine_6502 *machine, enum anonymous$60 adm)
     w = w + (unsigned short int)((0xf0 + (signed int)al) - (signed int)bl);
     if(!((signed int)w >= 0x100))
     {
-      machine->regP=setBit(machine->regP, (enum anonymous$18)CARRY_FL, 0);
-      unsigned char return_value_bitOn$1;
-      return_value_bitOn$1=bitOn(machine->regP, (enum anonymous$18)OVERFLOW_FL);
-      if(!(return_value_bitOn$1 == 0))
+      machine->regP=setBit(machine->regP, (enum anonymous_18)CARRY_FL, 0);
+      unsigned char return_value_bitOn_1;
+      return_value_bitOn_1=bitOn(machine->regP, (enum anonymous_18)OVERFLOW_FL);
+      if(!(return_value_bitOn_1 == 0))
       {
         if(!((signed int)w >= 0x80))
-          machine->regP=setBit(machine->regP, (enum anonymous$18)OVERFLOW_FL, 0);
+          machine->regP=setBit(machine->regP, (enum anonymous_18)OVERFLOW_FL, 0);
 
       }
 
@@ -11073,13 +11073,13 @@ static void jmpSBC(struct machine_6502 *machine, enum anonymous$60 adm)
 
     else
     {
-      machine->regP=setBit(machine->regP, (enum anonymous$18)CARRY_FL, 1);
-      unsigned char return_value_bitOn$2;
-      return_value_bitOn$2=bitOn(machine->regP, (enum anonymous$18)OVERFLOW_FL);
-      if(!(return_value_bitOn$2 == 0))
+      machine->regP=setBit(machine->regP, (enum anonymous_18)CARRY_FL, 1);
+      unsigned char return_value_bitOn_2;
+      return_value_bitOn_2=bitOn(machine->regP, (enum anonymous_18)OVERFLOW_FL);
+      if(!(return_value_bitOn_2 == 0))
       {
         if((signed int)w >= 0x180)
-          machine->regP=setBit(machine->regP, (enum anonymous$18)OVERFLOW_FL, 0);
+          machine->regP=setBit(machine->regP, (enum anonymous_18)OVERFLOW_FL, 0);
 
       }
 
@@ -11092,13 +11092,13 @@ static void jmpSBC(struct machine_6502 *machine, enum anonymous$60 adm)
     w = (unsigned short int)(((0xff + (signed int)machine->regA) - (signed int)ptr.value) + (signed int)c);
     if(!((signed int)w >= 0x100))
     {
-      machine->regP=setBit(machine->regP, (enum anonymous$18)CARRY_FL, 0);
-      unsigned char return_value_bitOn$3;
-      return_value_bitOn$3=bitOn(machine->regP, (enum anonymous$18)OVERFLOW_FL);
-      if(!(return_value_bitOn$3 == 0))
+      machine->regP=setBit(machine->regP, (enum anonymous_18)CARRY_FL, 0);
+      unsigned char return_value_bitOn_3;
+      return_value_bitOn_3=bitOn(machine->regP, (enum anonymous_18)OVERFLOW_FL);
+      if(!(return_value_bitOn_3 == 0))
       {
         if(!((signed int)w >= 0x80))
-          machine->regP=setBit(machine->regP, (enum anonymous$18)OVERFLOW_FL, 0);
+          machine->regP=setBit(machine->regP, (enum anonymous_18)OVERFLOW_FL, 0);
 
       }
 
@@ -11106,13 +11106,13 @@ static void jmpSBC(struct machine_6502 *machine, enum anonymous$60 adm)
 
     else
     {
-      machine->regP=setBit(machine->regP, (enum anonymous$18)CARRY_FL, 1);
-      unsigned char return_value_bitOn$4;
-      return_value_bitOn$4=bitOn(machine->regP, (enum anonymous$18)OVERFLOW_FL);
-      if(!(return_value_bitOn$4 == 0))
+      machine->regP=setBit(machine->regP, (enum anonymous_18)CARRY_FL, 1);
+      unsigned char return_value_bitOn_4;
+      return_value_bitOn_4=bitOn(machine->regP, (enum anonymous_18)OVERFLOW_FL);
+      if(!(return_value_bitOn_4 == 0))
       {
         if((signed int)w >= 0x180)
-          machine->regP=setBit(machine->regP, (enum anonymous$18)OVERFLOW_FL, 0);
+          machine->regP=setBit(machine->regP, (enum anonymous_18)OVERFLOW_FL, 0);
 
       }
 
@@ -11124,30 +11124,30 @@ static void jmpSBC(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpSEC
 // file asm6502.c line 676
-static void jmpSEC(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpSEC(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  machine->regP=setBit(machine->regP, (enum anonymous$18)CARRY_FL, 1);
+  machine->regP=setBit(machine->regP, (enum anonymous_18)CARRY_FL, 1);
 }
 
 // jmpSED
 // file asm6502.c line 696
-static void jmpSED(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpSED(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  machine->regP=setBit(machine->regP, (enum anonymous$18)DECIMAL_FL, 1);
+  machine->regP=setBit(machine->regP, (enum anonymous_18)DECIMAL_FL, 1);
 }
 
 // jmpSEI
 // file asm6502.c line 684
-static void jmpSEI(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpSEI(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  machine->regP=setBit(machine->regP, (enum anonymous$18)INTERRUPT_FL, 1);
+  machine->regP=setBit(machine->regP, (enum anonymous_18)INTERRUPT_FL, 1);
 }
 
 // jmpSTA
 // file asm6502.c line 954
-static void jmpSTA(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpSTA(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
@@ -11156,9 +11156,9 @@ static void jmpSTA(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpSTX
 // file asm6502.c line 988
-static void jmpSTX(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpSTX(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
@@ -11167,9 +11167,9 @@ static void jmpSTX(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpSTY
 // file asm6502.c line 995
-static void jmpSTY(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpSTY(struct machine_6502 *machine, enum anonymous_60 adm)
 {
-  struct anonymous$15 ptr;
+  struct anonymous_15 ptr;
   unsigned char isValue;
   isValue=getValue(machine, adm, &ptr);
   warnValue(isValue);
@@ -11178,7 +11178,7 @@ static void jmpSTY(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpTAX
 // file asm6502.c line 786
-static void jmpTAX(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpTAX(struct machine_6502 *machine, enum anonymous_60 adm)
 {
   machine->regX = machine->regA;
   manZeroNeg(machine, machine->regX);
@@ -11186,7 +11186,7 @@ static void jmpTAX(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpTAY
 // file asm6502.c line 810
-static void jmpTAY(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpTAY(struct machine_6502 *machine, enum anonymous_60 adm)
 {
   machine->regY = machine->regA;
   manZeroNeg(machine, machine->regY);
@@ -11194,7 +11194,7 @@ static void jmpTAY(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpTSX
 // file asm6502.c line 965
-static void jmpTSX(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpTSX(struct machine_6502 *machine, enum anonymous_60 adm)
 {
   machine->regX=stackPop(machine);
   manZeroNeg(machine, machine->regX);
@@ -11202,7 +11202,7 @@ static void jmpTSX(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpTXA
 // file asm6502.c line 791
-static void jmpTXA(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpTXA(struct machine_6502 *machine, enum anonymous_60 adm)
 {
   machine->regA = machine->regX;
   manZeroNeg(machine, machine->regA);
@@ -11210,14 +11210,14 @@ static void jmpTXA(struct machine_6502 *machine, enum anonymous$60 adm)
 
 // jmpTXS
 // file asm6502.c line 961
-static void jmpTXS(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpTXS(struct machine_6502 *machine, enum anonymous_60 adm)
 {
   stackPush(machine, machine->regX);
 }
 
 // jmpTYA
 // file asm6502.c line 815
-static void jmpTYA(struct machine_6502 *machine, enum anonymous$60 adm)
+static void jmpTYA(struct machine_6502 *machine, enum anonymous_60 adm)
 {
   machine->regA = machine->regY;
   manZeroNeg(machine, machine->regA);
@@ -11236,39 +11236,39 @@ static void jumpBranch(struct machine_6502 *machine, unsigned short int offset)
 
 // label
 // file asm6502.c line 1548
-static unsigned char label(char **s, struct anonymous$8 *param)
+static unsigned char label(char **s, struct anonymous_8 *param)
 {
-  char *label$$1$$label;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned int)80, sizeof(char) /*1ul*/ );
-  label$$1$$label = (char *)return_value_ecalloc$1;
+  char *label__1__label;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned int)80, sizeof(char) /*1ul*/ );
+  label__1__label = (char *)return_value_ecalloc_1;
   char c;
   unsigned char labelOk = (unsigned char)0;
-  unsigned char return_value_paramLabel$3;
-  return_value_paramLabel$3=paramLabel(s, &label$$1$$label);
-  if(!(return_value_paramLabel$3 == 0))
+  unsigned char return_value_paramLabel_3;
+  return_value_paramLabel_3=paramLabel(s, &label__1__label);
+  if(!(return_value_paramLabel_3 == 0))
   {
     labelOk = (unsigned char)1;
-    param->type = (enum anonymous$60)ABS_OR_BRANCH;
-    unsigned char return_value_getDirection$2;
-    return_value_getDirection$2=getDirection(s, &c);
-    if(!(return_value_getDirection$2 == 0))
+    param->type = (enum anonymous_60)ABS_OR_BRANCH;
+    unsigned char return_value_getDirection_2;
+    return_value_getDirection_2=getDirection(s, &c);
+    if(!(return_value_getDirection_2 == 0))
     {
       if((signed int)c == 88)
-        param->type = (enum anonymous$60)ABS_LABEL_X;
+        param->type = (enum anonymous_60)ABS_LABEL_X;
 
       else
         if((signed int)c == 89)
-          param->type = (enum anonymous$60)ABS_LABEL_Y;
+          param->type = (enum anonymous_60)ABS_LABEL_Y;
 
         else
           labelOk = (unsigned char)0;
     }
 
-    strncpy(param->label, label$$1$$label, (unsigned long int)80);
+    strncpy(param->label, label__1__label, (unsigned long int)80);
   }
 
-  free((void *)label$$1$$label);
+  free((void *)label__1__label);
   return labelOk;
 }
 
@@ -11292,9 +11292,9 @@ static unsigned char linkit(struct AsmLine *asmline, void *asmlist)
 struct machine_6502 * m6502_build(void)
 {
   struct machine_6502 *machine;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned int)1, sizeof(struct machine_6502) /*73072ul*/ );
-  machine = (struct machine_6502 *)return_value_ecalloc$1;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned int)1, sizeof(struct machine_6502) /*73072ul*/ );
+  machine = (struct machine_6502 *)return_value_ecalloc_1;
   assignOpCodes(machine->opcodes);
   buildIndexCache(machine);
   reset(machine);
@@ -11329,13 +11329,13 @@ static unsigned long int m6502_draw(struct _XDisplay *dpy, unsigned long int win
   analogtv_reception_update(&st->reception);
   analogtv_draw(st->tv, 0.04, &reception, (unsigned int)1);
   te=get_time(st);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(st->reset_p == 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = te > (double)st->dt ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = te > (double)st->dt ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     st->reset_p = 0;
     x = (unsigned int)0;
@@ -11360,9 +11360,9 @@ void m6502_eval_file(struct machine_6502 *machine, const char *filename, void (*
   machine->plot = plot;
   machine->plotterState = plotterState;
   code=fileToBuffer(filename);
-  unsigned char return_value_compileCode$1;
-  return_value_compileCode$1=compileCode(machine, code);
-  if(return_value_compileCode$1 == 0)
+  unsigned char return_value_compileCode_1;
+  return_value_compileCode_1=compileCode(machine, code);
+  if(return_value_compileCode_1 == 0)
     abort();
 
   free((void *)code);
@@ -11382,9 +11382,9 @@ void m6502_eval_file(struct machine_6502 *machine, const char *filename, void (*
 static signed int m6502_event(struct _XDisplay *dpy, unsigned long int window, void *closure, union _XEvent *event)
 {
   struct state *st = (struct state *)closure;
-  signed int return_value_screenhack_event_helper$1;
-  return_value_screenhack_event_helper$1=screenhack_event_helper(dpy, window, event);
-  if(!(return_value_screenhack_event_helper$1 == 0))
+  signed int return_value_screenhack_event_helper_1;
+  return_value_screenhack_event_helper_1=screenhack_event_helper(dpy, window, event);
+  if(!(return_value_screenhack_event_helper_1 == 0))
   {
     st->reset_p = 1;
     return 1;
@@ -11425,18 +11425,18 @@ void m6502_hexDump(struct machine_6502 *machine, unsigned short int start, unsig
 static void * m6502_init(struct _XDisplay *dpy, unsigned long int window)
 {
   struct state *st;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct state) /*1248ul*/ );
-  st = (struct state *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct state) /*1248ul*/ );
+  st = (struct state *)return_value_calloc_1;
   unsigned int x;
   unsigned int y;
   signed int n;
   n=get_integer_resource(dpy, "displaytime", "Displaytime");
   signed int dh;
   st->demos = (signed int)(sizeof(const char * const [27l]) /*216ul*/  / sizeof(const char *) /*8ul*/ );
-  unsigned int return_value_ya_random$2;
-  return_value_ya_random$2=ya_random();
-  st->which = (signed int)(return_value_ya_random$2 % (unsigned int)st->demos);
+  unsigned int return_value_ya_random_2;
+  return_value_ya_random_2=ya_random();
+  st->which = (signed int)(return_value_ya_random_2 % (unsigned int)st->demos);
   st->dt = n;
   st->dpy = dpy;
   st->window = window;
@@ -11456,9 +11456,9 @@ static void * m6502_init(struct _XDisplay *dpy, unsigned long int window)
   init_time(st);
   char *s;
   s=get_string_resource(dpy, "file", "File");
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(s);
-  if(return_value_strlen$3 >= 1ul)
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(s);
+  if(return_value_strlen_3 >= 1ul)
     m6502_start_eval_file(st->machine, s, plot6502, (void *)st);
 
   else
@@ -11506,9 +11506,9 @@ void m6502_start_eval_file(struct machine_6502 *machine, const char *filename, v
   machine->plot = plot;
   machine->plotterState = plotterState;
   code=fileToBuffer(filename);
-  unsigned char return_value_compileCode$1;
-  return_value_compileCode$1=compileCode(machine, code);
-  if(return_value_compileCode$1 == 0)
+  unsigned char return_value_compileCode_1;
+  return_value_compileCode_1=compileCode(machine, code);
+  if(return_value_compileCode_1 == 0)
     abort();
 
   free((void *)code);
@@ -11525,9 +11525,9 @@ void m6502_start_eval_string(struct machine_6502 *machine, const char *code, voi
   reset(machine);
   machine->plot = plot;
   machine->plotterState = plotterState;
-  unsigned char return_value_compileCode$1;
-  return_value_compileCode$1=compileCode(machine, code);
-  if(return_value_compileCode$1 == 0)
+  unsigned char return_value_compileCode_1;
+  return_value_compileCode_1=compileCode(machine, code);
+  if(return_value_compileCode_1 == 0)
     fprintf(stderr, "Could not compile code.\n");
 
   machine->regPC = (unsigned short int)1536;
@@ -11541,39 +11541,39 @@ void m6502_start_eval_string(struct machine_6502 *machine, const char *code, voi
 void m6502_trace(struct machine_6502 *machine, struct _IO_FILE *output)
 {
   unsigned char opcode;
-  signed int return_value_memReadByte$1;
-  return_value_memReadByte$1=memReadByte(machine, (signed int)machine->regPC);
-  opcode = (unsigned char)return_value_memReadByte$1;
-  enum anonymous$60 adm;
-  struct anonymous$15 ptr;
+  signed int return_value_memReadByte_1;
+  return_value_memReadByte_1=memReadByte(machine, (signed int)machine->regPC);
+  opcode = (unsigned char)return_value_memReadByte_1;
+  enum anonymous_60 adm;
+  struct anonymous_15 ptr;
   signed int opidx;
   opidx=opIndex(machine, opcode, &adm);
   signed int stacksz = 511 - (signed int)machine->regSP;
-  unsigned char return_value_bitOn$2;
-  return_value_bitOn$2=bitOn(machine->regP, (enum anonymous$18)NEGATIVE_FL);
-  unsigned char return_value_bitOn$3;
-  return_value_bitOn$3=bitOn(machine->regP, (enum anonymous$18)OVERFLOW_FL);
-  unsigned char return_value_bitOn$4;
-  return_value_bitOn$4=bitOn(machine->regP, (enum anonymous$18)FUTURE_FL);
-  unsigned char return_value_bitOn$5;
-  return_value_bitOn$5=bitOn(machine->regP, (enum anonymous$18)BREAK_FL);
-  unsigned char return_value_bitOn$6;
-  return_value_bitOn$6=bitOn(machine->regP, (enum anonymous$18)DECIMAL_FL);
-  unsigned char return_value_bitOn$7;
-  return_value_bitOn$7=bitOn(machine->regP, (enum anonymous$18)INTERRUPT_FL);
-  unsigned char return_value_bitOn$8;
-  return_value_bitOn$8=bitOn(machine->regP, (enum anonymous$18)ZERO_FL);
-  unsigned char return_value_bitOn$9;
-  return_value_bitOn$9=bitOn(machine->regP, (enum anonymous$18)CARRY_FL);
-  fprintf(output, "\n   NVFBDIZC\nP: %d%d%d%d%d%d%d%d ", return_value_bitOn$2, return_value_bitOn$3, return_value_bitOn$4, return_value_bitOn$5, return_value_bitOn$6, return_value_bitOn$7, return_value_bitOn$8, return_value_bitOn$9);
+  unsigned char return_value_bitOn_2;
+  return_value_bitOn_2=bitOn(machine->regP, (enum anonymous_18)NEGATIVE_FL);
+  unsigned char return_value_bitOn_3;
+  return_value_bitOn_3=bitOn(machine->regP, (enum anonymous_18)OVERFLOW_FL);
+  unsigned char return_value_bitOn_4;
+  return_value_bitOn_4=bitOn(machine->regP, (enum anonymous_18)FUTURE_FL);
+  unsigned char return_value_bitOn_5;
+  return_value_bitOn_5=bitOn(machine->regP, (enum anonymous_18)BREAK_FL);
+  unsigned char return_value_bitOn_6;
+  return_value_bitOn_6=bitOn(machine->regP, (enum anonymous_18)DECIMAL_FL);
+  unsigned char return_value_bitOn_7;
+  return_value_bitOn_7=bitOn(machine->regP, (enum anonymous_18)INTERRUPT_FL);
+  unsigned char return_value_bitOn_8;
+  return_value_bitOn_8=bitOn(machine->regP, (enum anonymous_18)ZERO_FL);
+  unsigned char return_value_bitOn_9;
+  return_value_bitOn_9=bitOn(machine->regP, (enum anonymous_18)CARRY_FL);
+  fprintf(output, "\n   NVFBDIZC\nP: %d%d%d%d%d%d%d%d ", return_value_bitOn_2, return_value_bitOn_3, return_value_bitOn_4, return_value_bitOn_5, return_value_bitOn_6, return_value_bitOn_7, return_value_bitOn_8, return_value_bitOn_9);
   fprintf(output, "A: %.2x X: %.2x Y: %.2x SP: %.4x PC: %.4x\n", machine->regA, machine->regX, machine->regY, machine->regSP, machine->regPC);
   if(opidx >= 0)
   {
     unsigned short int pc = machine->regPC;
     fprintf(output, "\n%.4x:\t%s", machine->regPC, (const void *)machine->opcodes[(signed long int)opidx].name);
-    unsigned char return_value_peekValue$10;
-    return_value_peekValue$10=peekValue(machine, adm, &ptr, (unsigned short int)((signed int)pc + 1));
-    if(!(return_value_peekValue$10 == 0))
+    unsigned char return_value_peekValue_10;
+    return_value_peekValue_10=peekValue(machine, adm, &ptr, (unsigned short int)((signed int)pc + 1));
+    if(!(return_value_peekValue_10 == 0))
       fprintf(output, "\tAddress:%.4x\tValue:%.4x\n", ptr.addr, ptr.value);
 
     else
@@ -11589,7 +11589,7 @@ void m6502_trace(struct machine_6502 *machine, struct _IO_FILE *output)
 signed int main(signed int argc, char **argv)
 {
   struct xscreensaver_function_table *ft = xscreensaver_function_table;
-  struct anonymous$7 xgwa;
+  struct anonymous_7 xgwa;
   struct _WidgetRec *toplevel;
   struct _XDisplay *dpy;
   unsigned long int window;
@@ -11608,43 +11608,43 @@ signed int main(signed int argc, char **argv)
     ft->setup_cb(ft, ft->setup_arg);
 
   merge_options();
-  toplevel=XtAppInitialize(&app, progclass, merged_options, (unsigned int)merged_options_size, &argc, argv, merged_defaults, ((struct anonymous$68 *)NULL), (unsigned int)0);
+  toplevel=XtAppInitialize(&app, progclass, merged_options, (unsigned int)merged_options_size, &argc, argv, merged_defaults, ((struct anonymous_68 *)NULL), (unsigned int)0);
   dpy = toplevel->core.screen->display;
   XtGetApplicationNameAndClass(dpy, (char **)&progname, (char **)&progclass);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(progname);
-  if(return_value_strlen$1 >= 100ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(progname);
+  if(return_value_strlen_1 >= 100ul)
     ((char *)progname)[(signed long int)100] = (char)0;
 
   XSetErrorHandler(screenhack_ehandler);
   XA_WM_PROTOCOLS=XInternAtom(dpy, "WM_PROTOCOLS", 0);
   XA_WM_DELETE_WINDOW=XInternAtom(dpy, "WM_DELETE_WINDOW", 0);
   char *v;
-  char *return_value_strchr$2;
-  return_value_strchr$2=strchr(screensaver_id, 32);
-  char *return_value_strdup$3;
-  return_value_strdup$3=strdup(return_value_strchr$2);
-  v = (char *)return_value_strdup$3;
+  char *return_value_strchr_2;
+  return_value_strchr_2=strchr(screensaver_id, 32);
+  char *return_value_strdup_3;
+  return_value_strdup_3=strdup(return_value_strchr_2);
+  v = (char *)return_value_strdup_3;
   char *s1;
   char *s2;
   char *s3;
   char *s4;
   const char *ot;
   ot=get_string_resource(dpy, "title", "Title");
-  char *return_value_strchr$4;
-  return_value_strchr$4=strchr(v, 32);
-  s1 = (char *)return_value_strchr$4;
+  char *return_value_strchr_4;
+  return_value_strchr_4=strchr(v, 32);
+  s1 = (char *)return_value_strchr_4;
   s1 = s1 + 1l;
-  char *return_value_strchr$5;
-  return_value_strchr$5=strchr(s1, 32);
-  s2 = (char *)return_value_strchr$5;
-  char *return_value_strchr$6;
-  return_value_strchr$6=strchr(v, 40);
-  s3 = (char *)return_value_strchr$6;
+  char *return_value_strchr_5;
+  return_value_strchr_5=strchr(s1, 32);
+  s2 = (char *)return_value_strchr_5;
+  char *return_value_strchr_6;
+  return_value_strchr_6=strchr(v, 40);
+  s3 = (char *)return_value_strchr_6;
   s3 = s3 + 1l;
-  char *return_value_strchr$7;
-  return_value_strchr$7=strchr(s3, 41);
-  s4 = (char *)return_value_strchr$7;
+  char *return_value_strchr_7;
+  return_value_strchr_7=strchr(s3, 41);
+  s4 = (char *)return_value_strchr_7;
   *s2 = (char)0;
   *s4 = (char)0;
   if(!(ot == ((const char *)NULL)))
@@ -11656,29 +11656,29 @@ signed int main(signed int argc, char **argv)
 
   sprintf(version, "%.50s%s%s: from the XScreenSaver %s distribution (%s)", ot != ((const char *)NULL) ? ot : "", ot != ((const char *)NULL) ? ": " : "", progclass, s1, s3);
   free((void *)v);
-  signed int return_value_strcmp$9;
+  signed int return_value_strcmp_9;
   if(argc >= 2)
   {
-    const char *main$$1$$2$$s;
+    const char *main__1__2__s;
     signed int i;
     signed int x = 18;
     signed int end = 78;
     signed int help_p;
-    signed int return_value_strcmp$8;
-    return_value_strcmp$8=strcmp(argv[(signed long int)1], "-help");
-    _Bool tmp_if_expr$10;
-    if(return_value_strcmp$8 == 0)
-      tmp_if_expr$10 = (_Bool)1;
+    signed int return_value_strcmp_8;
+    return_value_strcmp_8=strcmp(argv[(signed long int)1], "-help");
+    _Bool tmp_if_expr_10;
+    if(return_value_strcmp_8 == 0)
+      tmp_if_expr_10 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$9=strcmp(argv[(signed long int)1], "--help");
-      tmp_if_expr$10 = !(return_value_strcmp$9 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_9=strcmp(argv[(signed long int)1], "--help");
+      tmp_if_expr_10 = !(return_value_strcmp_9 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    help_p = (signed int)tmp_if_expr$10;
+    help_p = (signed int)tmp_if_expr_10;
     fprintf(stderr, "%s\n", (const void *)version);
-    main$$1$$2$$s = progclass;
-    for( ; !(*main$$1$$2$$s == 0); main$$1$$2$$s = main$$1$$2$$s + 1l)
+    main__1__2__s = progclass;
+    for( ; !(*main__1__2__s == 0); main__1__2__s = main__1__2__s + 1l)
       fprintf(stderr, " ");
     fprintf(stderr, "  http://www.jwz.org/xscreensaver/\n\n");
     if(help_p == 0)
@@ -11691,9 +11691,9 @@ signed int main(signed int argc, char **argv)
       char *sw = (merged_options + (signed long int)i)->option;
       signed int argp = (signed int)((signed int)(merged_options + (signed long int)i)->argKind == XrmoptionSepArg);
       signed int size;
-      unsigned long int return_value_strlen$11;
-      return_value_strlen$11=strlen(sw);
-      size = (signed int)(return_value_strlen$11 + (unsigned long int)(argp != 0 ? 6 : 0) + (unsigned long int)2);
+      unsigned long int return_value_strlen_11;
+      return_value_strlen_11=strlen(sw);
+      size = (signed int)(return_value_strlen_11 + (unsigned long int)(argp != 0 ? 6 : 0) + (unsigned long int)2);
       if(size + x >= end)
       {
         fprintf(stderr, "\n\t\t ");
@@ -11718,31 +11718,31 @@ signed int main(signed int argc, char **argv)
     free((void *)*s);
   free((void *)merged_options);
   free((void *)merged_defaults);
-  merged_options = ((struct anonymous$65 *)NULL);
+  merged_options = ((struct anonymous_65 *)NULL);
   merged_defaults = ((char **)NULL);
-  signed int return_value_get_boolean_resource$12;
-  return_value_get_boolean_resource$12=get_boolean_resource(dpy, "dontClearRoot", "Boolean");
-  dont_clear = (char)return_value_get_boolean_resource$12;
+  signed int return_value_get_boolean_resource_12;
+  return_value_get_boolean_resource_12=get_boolean_resource(dpy, "dontClearRoot", "Boolean");
+  dont_clear = (char)return_value_get_boolean_resource_12;
   mono_p=get_boolean_resource(dpy, "mono", "Boolean");
-  if(!((((struct anonymous$2 *)dpy)->screens + (signed long int)((struct anonymous$2 *)dpy)->default_screen)->root_visual->map_entries >= 3))
+  if(!((((struct anonymous_2 *)dpy)->screens + (signed long int)((struct anonymous_2 *)dpy)->default_screen)->root_visual->map_entries >= 3))
     mono_p = 1;
 
   root_p=get_boolean_resource(dpy, "root", "Boolean");
-  char *main$$1$$4$$s;
-  main$$1$$4$$s=get_string_resource(dpy, "windowID", "WindowID");
-  signed int return_value_get_integer_resource$13;
-  if(!(main$$1$$4$$s == ((char *)NULL)))
+  char *main__1__4__s;
+  main__1__4__s=get_string_resource(dpy, "windowID", "WindowID");
+  signed int return_value_get_integer_resource_13;
+  if(!(main__1__4__s == ((char *)NULL)))
   {
-    if(!(*main$$1$$4$$s == 0))
+    if(!(*main__1__4__s == 0))
     {
-      return_value_get_integer_resource$13=get_integer_resource(dpy, "windowID", "WindowID");
-      on_window = (unsigned long int)return_value_get_integer_resource$13;
+      return_value_get_integer_resource_13=get_integer_resource(dpy, "windowID", "WindowID");
+      on_window = (unsigned long int)return_value_get_integer_resource_13;
     }
 
   }
 
-  if(!(main$$1$$4$$s == ((char *)NULL)))
-    free((void *)main$$1$$4$$s);
+  if(!(main__1__4__s == ((char *)NULL)))
+    free((void *)main__1__4__s);
 
   if(!(on_window == 0ul))
   {
@@ -11780,9 +11780,9 @@ signed int main(signed int argc, char **argv)
       init_window(dpy, toplevel, version);
       window = toplevel->core.window;
       XGetWindowAttributes(dpy, window, &xgwa);
-      signed int return_value_get_boolean_resource$14;
-      return_value_get_boolean_resource$14=get_boolean_resource(dpy, "pair", "Boolean");
-      if(!(return_value_get_boolean_resource$14 == 0))
+      signed int return_value_get_boolean_resource_14;
+      return_value_get_boolean_resource_14=get_boolean_resource(dpy, "pair", "Boolean");
+      if(!(return_value_get_boolean_resource_14 == 0))
       {
         toplevel2=make_shell(xgwa.screen, ((struct _WidgetRec *)NULL), (signed int)toplevel->core.width, (signed int)toplevel->core.height);
         init_window(dpy, toplevel2, version);
@@ -11817,19 +11817,19 @@ signed int main(signed int argc, char **argv)
 
 // make_shell
 // file screenhack.c line 612
-static struct _WidgetRec * make_shell(struct anonymous$25 *screen, struct _WidgetRec *toplevel, signed int width, signed int height)
+static struct _WidgetRec * make_shell(struct anonymous_25 *screen, struct _WidgetRec *toplevel, signed int width, signed int height)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$13 *visual;
+  struct anonymous_13 *visual;
   visual=pick_visual(screen);
   char def_visual_p;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(toplevel == ((struct _WidgetRec *)NULL)))
-    tmp_if_expr$1 = visual == screen->root_visual ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = visual == screen->root_visual ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  def_visual_p = (char)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  def_visual_p = (char)tmp_if_expr_1;
   if(!(width >= 1))
     width = 600;
 
@@ -11842,13 +11842,13 @@ static struct _WidgetRec * make_shell(struct anonymous$25 *screen, struct _Widge
     XtVaSetValues(toplevel, (char *)&XtStrings[(signed long int)453], 0, (char *)&XtStrings[(signed long int)872], width, (char *)&XtStrings[(signed long int)234], height, (char *)&XtShellStrings[(signed long int)417], 1, (void *)0);
     XtRealizeWidget(toplevel);
     window = toplevel->core.window;
-    signed int return_value_get_boolean_resource$2;
-    return_value_get_boolean_resource$2=get_boolean_resource(dpy, "installColormap", "InstallColormap");
-    if(!(return_value_get_boolean_resource$2 == 0))
+    signed int return_value_get_boolean_resource_2;
+    return_value_get_boolean_resource_2=get_boolean_resource(dpy, "installColormap", "InstallColormap");
+    if(!(return_value_get_boolean_resource_2 == 0))
     {
-      unsigned long int make_shell$$1$$1$$1$$cmap;
-      make_shell$$1$$1$$1$$cmap=XCreateColormap(dpy, window, screen->root_visual, 0);
-      XSetWindowColormap(dpy, window, make_shell$$1$$1$$1$$cmap);
+      unsigned long int make_shell__1__1__1__cmap;
+      make_shell__1__1__1__cmap=XCreateColormap(dpy, window, screen->root_visual, 0);
+      XSetWindowColormap(dpy, window, make_shell__1__1__1__cmap);
     }
 
   }
@@ -11859,14 +11859,14 @@ static struct _WidgetRec * make_shell(struct anonymous$25 *screen, struct _Widge
     unsigned int bd;
     struct _WidgetRec *new;
     unsigned long int cmap;
-    unsigned long int return_value_VirtualRootWindowOfScreen$3;
-    return_value_VirtualRootWindowOfScreen$3=VirtualRootWindowOfScreen(screen);
-    cmap=XCreateColormap(dpy, return_value_VirtualRootWindowOfScreen$3, visual, 0);
+    unsigned long int return_value_VirtualRootWindowOfScreen_3;
+    return_value_VirtualRootWindowOfScreen_3=VirtualRootWindowOfScreen(screen);
+    cmap=XCreateColormap(dpy, return_value_VirtualRootWindowOfScreen_3, visual, 0);
     bg=get_pixel_resource(dpy, cmap, "background", "Background");
     bd=get_pixel_resource(dpy, cmap, "borderColor", "Foreground");
-    signed int return_value_visual_depth$4;
-    return_value_visual_depth$4=visual_depth(screen, visual);
-    new=XtVaAppCreateShell(progname, progclass, topLevelShellWidgetClass, dpy, (char *)&XtStrings[(signed long int)453], 0, (char *)&XtShellStrings[(signed long int)104], visual, (char *)&XtStrings[(signed long int)163], return_value_visual_depth$4, (char *)&XtStrings[(signed long int)872], width, (char *)&XtStrings[(signed long int)234], height, (char *)&XtStrings[(signed long int)154], cmap, (char *)&XtStrings[(signed long int)52], (unsigned long int)bg, (char *)&XtStrings[(signed long int)87], (unsigned long int)bd, (char *)&XtShellStrings[(signed long int)417], 1, (void *)0);
+    signed int return_value_visual_depth_4;
+    return_value_visual_depth_4=visual_depth(screen, visual);
+    new=XtVaAppCreateShell(progname, progclass, topLevelShellWidgetClass, dpy, (char *)&XtStrings[(signed long int)453], 0, (char *)&XtShellStrings[(signed long int)104], visual, (char *)&XtStrings[(signed long int)163], return_value_visual_depth_4, (char *)&XtStrings[(signed long int)872], width, (char *)&XtStrings[(signed long int)234], height, (char *)&XtStrings[(signed long int)154], cmap, (char *)&XtStrings[(signed long int)52], (unsigned long int)bg, (char *)&XtStrings[(signed long int)87], (unsigned long int)bd, (char *)&XtShellStrings[(signed long int)417], 1, (void *)0);
     if(toplevel == ((struct _WidgetRec *)NULL))
       XtVaSetValues(new, (char *)&XtStrings[(signed long int)885], 0, (char *)&XtStrings[(signed long int)887], 550, (void *)0);
 
@@ -11880,23 +11880,23 @@ static struct _WidgetRec * make_shell(struct anonymous$25 *screen, struct _Widge
 // file asm6502.c line 454
 static void manZeroNeg(struct machine_6502 *machine, unsigned char value)
 {
-  machine->regP=setBit(machine->regP, (enum anonymous$18)ZERO_FL, (signed int)((signed int)value == 0));
-  unsigned char return_value_bitOn$1;
-  return_value_bitOn$1=bitOn(value, (enum anonymous$18)NEGATIVE_FL);
-  machine->regP=setBit(machine->regP, (enum anonymous$18)NEGATIVE_FL, (signed int)return_value_bitOn$1);
+  machine->regP=setBit(machine->regP, (enum anonymous_18)ZERO_FL, (signed int)((signed int)value == 0));
+  unsigned char return_value_bitOn_1;
+  return_value_bitOn_1=bitOn(value, (enum anonymous_18)NEGATIVE_FL);
+  machine->regP=setBit(machine->regP, (enum anonymous_18)NEGATIVE_FL, (signed int)return_value_bitOn_1);
 }
 
 // memReadByte
 // file asm6502.c line 206
 static signed int memReadByte(struct machine_6502 *machine, signed int addr)
 {
-  unsigned int return_value_ya_random$1;
-  double return_value_floor$2;
+  unsigned int return_value_ya_random_1;
+  double return_value_floor_2;
   if(addr == 0xfe)
   {
-    return_value_ya_random$1=ya_random();
-    return_value_floor$2=floor((double)(return_value_ya_random$1 % (unsigned int)255));
-    return (signed int)return_value_floor$2;
+    return_value_ya_random_1=ya_random();
+    return_value_floor_2=floor((double)(return_value_ya_random_1 % (unsigned int)255));
+    return (signed int)return_value_floor_2;
   }
 
   return (signed int)machine->memory[(signed long int)addr];
@@ -11917,9 +11917,9 @@ static void memStoreByte(struct machine_6502 *machine, signed int addr, signed i
 static void merge_options(void)
 {
   struct xscreensaver_function_table *ft = xscreensaver_function_table;
-  const struct anonymous$65 *options = ft->options;
+  const struct anonymous_65 *options = ft->options;
   const char * const *defaults = ft->defaults;
-  const char *merge_options$$1$$progclass = ft->progclass;
+  const char *merge_options__1__progclass = ft->progclass;
   signed int def_opts_size;
   signed int opts_size;
   signed int def_defaults_size;
@@ -11931,20 +11931,20 @@ static void merge_options(void)
   for( ; !((options + (signed long int)opts_size)->option == ((char *)NULL)); opts_size = opts_size + 1)
     ;
   merged_options_size = def_opts_size + opts_size;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(merged_options_size + 1) * sizeof(struct anonymous$65) /*32ul*/ );
-  merged_options = (struct anonymous$65 *)return_value_malloc$1;
-  memcpy((void *)merged_options, (const void *)default_options, (unsigned long int)def_opts_size * sizeof(struct anonymous$65) /*32ul*/ );
-  memcpy((void *)(merged_options + (signed long int)def_opts_size), (const void *)options, (unsigned long int)(opts_size + 1) * sizeof(struct anonymous$65) /*32ul*/ );
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(merged_options_size + 1) * sizeof(struct anonymous_65) /*32ul*/ );
+  merged_options = (struct anonymous_65 *)return_value_malloc_1;
+  memcpy((void *)merged_options, (const void *)default_options, (unsigned long int)def_opts_size * sizeof(struct anonymous_65) /*32ul*/ );
+  memcpy((void *)(merged_options + (signed long int)def_opts_size), (const void *)options, (unsigned long int)(opts_size + 1) * sizeof(struct anonymous_65) /*32ul*/ );
   def_defaults_size = 0;
   for( ; !(default_defaults[(signed long int)def_defaults_size] == ((char *)NULL)); def_defaults_size = def_defaults_size + 1)
     ;
   defaults_size = 0;
   for( ; !(defaults[(signed long int)defaults_size] == ((const char *)NULL)); defaults_size = defaults_size + 1)
     ;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(def_defaults_size + defaults_size + 1) * sizeof(const char *) /*8ul*/ );
-  merged_defaults = (char **)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(def_defaults_size + defaults_size + 1) * sizeof(const char *) /*8ul*/ );
+  merged_defaults = (char **)return_value_malloc_2;
   memcpy((void *)merged_defaults, (const void *)default_defaults, (unsigned long int)def_defaults_size * sizeof(const char *) /*8ul*/ );
   memcpy((void *)(merged_defaults + (signed long int)def_defaults_size), (const void *)defaults, (unsigned long int)(defaults_size + 1) * sizeof(const char *) /*8ul*/ );
   char **s = merged_defaults;
@@ -11953,14 +11953,14 @@ static void merge_options(void)
     {
       const char *oldr = *s;
       char *newr;
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(oldr);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(merge_options$$1$$progclass);
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc(return_value_strlen$3 + return_value_strlen$4 + (unsigned long int)3);
-      newr = (char *)return_value_malloc$5;
-      strcpy(newr, merge_options$$1$$progclass);
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(oldr);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(merge_options__1__progclass);
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc(return_value_strlen_3 + return_value_strlen_4 + (unsigned long int)3);
+      newr = (char *)return_value_malloc_5;
+      strcpy(newr, merge_options__1__progclass);
       strcat(newr, oldr);
       *s = newr;
     }
@@ -11971,12 +11971,12 @@ static void merge_options(void)
 
 // newAsmLine
 // file asm6502.c line 1170
-static struct AsmLine * newAsmLine(char *cmd, char *label, unsigned char decl, struct anonymous$8 *param, signed int lc)
+static struct AsmLine * newAsmLine(char *cmd, char *label, unsigned char decl, struct anonymous_8 *param, signed int lc)
 {
   struct AsmLine *newp;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned int)1, sizeof(struct AsmLine) /*40ul*/ );
-  newp = (struct AsmLine *)return_value_ecalloc$1;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned int)1, sizeof(struct AsmLine) /*40ul*/ );
+  newp = (struct AsmLine *)return_value_ecalloc_1;
   newp->labelDecl = decl;
   newp->label=newLabel();
   strncpy(newp->label->label, label, (unsigned long int)80);
@@ -11989,43 +11989,43 @@ static struct AsmLine * newAsmLine(char *cmd, char *label, unsigned char decl, s
 
 // newLabel
 // file asm6502.c line 1160
-static struct anonymous$12 * newLabel(void)
+static struct anonymous_12 * newLabel(void)
 {
-  struct anonymous$12 *newp;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned int)1, sizeof(struct anonymous$12) /*16ul*/ );
-  newp = (struct anonymous$12 *)return_value_ecalloc$1;
+  struct anonymous_12 *newp;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned int)1, sizeof(struct anonymous_12) /*16ul*/ );
+  newp = (struct anonymous_12 *)return_value_ecalloc_1;
   newp->addr = (unsigned int)0;
-  void *return_value_ecalloc$2;
-  return_value_ecalloc$2=ecalloc((unsigned int)80, sizeof(char) /*1ul*/ );
-  newp->label = (char *)return_value_ecalloc$2;
+  void *return_value_ecalloc_2;
+  return_value_ecalloc_2=ecalloc((unsigned int)80, sizeof(char) /*1ul*/ );
+  newp->label = (char *)return_value_ecalloc_2;
   return newp;
 }
 
 // newParam
 // file asm6502.c line 1136
-static struct anonymous$8 * newParam(void)
+static struct anonymous_8 * newParam(void)
 {
-  struct anonymous$8 *newp;
+  struct anonymous_8 *newp;
   signed int i = 0;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned int)1, sizeof(struct anonymous$8) /*128ul*/ );
-  newp = (struct anonymous$8 *)return_value_ecalloc$1;
-  newp->type = (enum anonymous$60)SINGLE;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned int)1, sizeof(struct anonymous_8) /*128ul*/ );
+  newp = (struct anonymous_8 *)return_value_ecalloc_1;
+  newp->type = (enum anonymous_60)SINGLE;
   i = 0;
   for( ; !(i >= 25); i = i + 1)
     newp->value[(signed long int)i] = (unsigned int)0;
   newp->vp = (unsigned int)0;
-  void *return_value_ecalloc$2;
-  return_value_ecalloc$2=ecalloc((unsigned int)80, sizeof(char) /*1ul*/ );
-  newp->label = (char *)return_value_ecalloc$2;
+  void *return_value_ecalloc_2;
+  return_value_ecalloc_2=ecalloc((unsigned int)80, sizeof(char) /*1ul*/ );
+  newp->label = (char *)return_value_ecalloc_2;
   newp->lbladdr = (unsigned int)0;
   return newp;
 }
 
 // nibble
 // file asm6502.c line 255
-static unsigned char nibble(unsigned char value, enum anonymous$17 side)
+static unsigned char nibble(unsigned char value, enum anonymous_17 side)
 {
   switch((signed int)side)
   {
@@ -12048,15 +12048,15 @@ static void nullify(char *token, unsigned int sourceLength)
   unsigned int i = (unsigned int)0;
   while(!(i >= sourceLength))
   {
-    unsigned int tmp_post$1 = i;
+    unsigned int tmp_post_1 = i;
     i = i + 1u;
-    token[(signed long int)tmp_post$1] = (char)0;
+    token[(signed long int)tmp_post_1] = (char)0;
   }
 }
 
 // opIndex
 // file asm6502.c line 1127
-static signed int opIndex(struct machine_6502 *machine, unsigned char opcode, enum anonymous$60 *adm)
+static signed int opIndex(struct machine_6502 *machine, unsigned char opcode, enum anonymous_60 *adm)
 {
   *adm = machine->opcache[(signed long int)opcode].adm;
   return (signed int)machine->opcache[(signed long int)opcode].index;
@@ -12109,22 +12109,22 @@ static void paint_pixel(struct state *st, signed int x, signed int y, signed int
 static unsigned char paramLabel(char **s, char **label)
 {
   signed int i = 0;
-  const unsigned short int **return_value___ctype_b_loc$1;
-  _Bool tmp_if_expr$2;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  _Bool tmp_if_expr_2;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if(!((8 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*(*s)]) == 0))
-      tmp_if_expr$2 = (_Bool)1;
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if(!((8 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*(*s)]) == 0))
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)*(*s) == 95 ? (_Bool)1 : (_Bool)0;
-    if(i >= 80 || !tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)*(*s) == 95 ? (_Bool)1 : (_Bool)0;
+    if(i >= 80 || !tmp_if_expr_2)
       break;
 
-    signed int tmp_post$3 = i;
+    signed int tmp_post_3 = i;
     i = i + 1;
-    (*label)[(signed long int)tmp_post$3] = *(*s);
+    (*label)[(signed long int)tmp_post_3] = *(*s);
     *s = *s + 1l;
   }
   while((_Bool)1);
@@ -12137,74 +12137,74 @@ static unsigned char paramLabel(char **s, char **label)
 
 // parameter
 // file asm6502.c line 1569
-static unsigned char parameter(const char *cmd, char **s, struct anonymous$8 *param)
+static unsigned char parameter(const char *cmd, char **s, struct anonymous_8 *param)
 {
   skipSpace(s);
-  _Bool tmp_if_expr$10;
+  _Bool tmp_if_expr_10;
   if((signed int)*(*s) == 0)
-    tmp_if_expr$10 = (_Bool)1;
+    tmp_if_expr_10 = (_Bool)1;
 
   else
-    tmp_if_expr$10 = (signed int)*(*s) == 10 ? (_Bool)1 : (_Bool)0;
-  unsigned char return_value_immediate$1;
-  unsigned char return_value_indirect$2;
-  const unsigned short int **return_value___ctype_b_loc$8;
-  unsigned char return_value_dcbValue$3;
-  unsigned char return_value_value$4;
-  const unsigned short int **return_value___ctype_b_loc$7;
-  unsigned char return_value_label$6;
-  if(tmp_if_expr$10)
+    tmp_if_expr_10 = (signed int)*(*s) == 10 ? (_Bool)1 : (_Bool)0;
+  unsigned char return_value_immediate_1;
+  unsigned char return_value_indirect_2;
+  const unsigned short int **return_value___ctype_b_loc_8;
+  unsigned char return_value_dcbValue_3;
+  unsigned char return_value_value_4;
+  const unsigned short int **return_value___ctype_b_loc_7;
+  unsigned char return_value_label_6;
+  if(tmp_if_expr_10)
     return (unsigned char)1;
 
   else
     if((signed int)*(*s) == 35)
     {
-      return_value_immediate$1=immediate(s, param);
-      return return_value_immediate$1;
+      return_value_immediate_1=immediate(s, param);
+      return return_value_immediate_1;
     }
 
     else
       if((signed int)*(*s) == 40)
       {
-        return_value_indirect$2=indirect(s, param);
-        return return_value_indirect$2;
+        return_value_indirect_2=indirect(s, param);
+        return return_value_indirect_2;
       }
 
       else
       {
-        _Bool tmp_if_expr$9;
+        _Bool tmp_if_expr_9;
         if((signed int)*(*s) == 36)
-          tmp_if_expr$9 = (_Bool)1;
+          tmp_if_expr_9 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$8=__ctype_b_loc();
-          tmp_if_expr$9 = ((signed int)(*return_value___ctype_b_loc$8)[(signed long int)(signed int)*(*s)] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_8=__ctype_b_loc();
+          tmp_if_expr_9 = ((signed int)(*return_value___ctype_b_loc_8)[(signed long int)(signed int)*(*s)] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$9)
+        if(tmp_if_expr_9)
         {
-          signed int return_value_strcmp$5;
-          return_value_strcmp$5=strcmp(cmd, "DCB");
-          if(return_value_strcmp$5 == 0)
+          signed int return_value_strcmp_5;
+          return_value_strcmp_5=strcmp(cmd, "DCB");
+          if(return_value_strcmp_5 == 0)
           {
-            return_value_dcbValue$3=dcbValue(s, param);
-            return return_value_dcbValue$3;
+            return_value_dcbValue_3=dcbValue(s, param);
+            return return_value_dcbValue_3;
           }
 
           else
           {
-            return_value_value$4=value(s, param);
-            return return_value_value$4;
+            return_value_value_4=value(s, param);
+            return return_value_value_4;
           }
         }
 
         else
         {
-          return_value___ctype_b_loc$7=__ctype_b_loc();
-          if(!((1024 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)*(*s)]) == 0))
+          return_value___ctype_b_loc_7=__ctype_b_loc();
+          if(!((1024 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)*(*s)]) == 0))
           {
-            return_value_label$6=label(s, param);
-            return return_value_label$6;
+            return_value_label_6=label(s, param);
+            return return_value_label_6;
           }
 
           else
@@ -12219,16 +12219,16 @@ static struct AsmLine * parseAssembly(struct machine_6502 *machine, unsigned cha
 {
   char *s;
   char *cmd;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned int)4, sizeof(char) /*1ul*/ );
-  cmd = (char *)return_value_ecalloc$1;
-  char *parseAssembly$$1$$label;
-  void *return_value_ecalloc$2;
-  return_value_ecalloc$2=ecalloc((unsigned int)80, sizeof(char) /*1ul*/ );
-  parseAssembly$$1$$label = (char *)return_value_ecalloc$2;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned int)4, sizeof(char) /*1ul*/ );
+  cmd = (char *)return_value_ecalloc_1;
+  char *parseAssembly__1__label;
+  void *return_value_ecalloc_2;
+  return_value_ecalloc_2=ecalloc((unsigned int)80, sizeof(char) /*1ul*/ );
+  parseAssembly__1__label = (char *)return_value_ecalloc_2;
   char *start;
   unsigned int lc = (unsigned int)1;
-  struct anonymous$8 *param;
+  struct anonymous_8 *param;
   unsigned char decl;
   struct AsmLine *listp = (struct AsmLine *)(void *)0;
   *codeOk = (unsigned char)1;
@@ -12236,7 +12236,7 @@ static struct AsmLine * parseAssembly(struct machine_6502 *machine, unsigned cha
   s=estrdup(code);
   start = s;
   stoupper(&s);
-  unsigned char return_value_hasChar$4;
+  unsigned char return_value_hasChar_4;
   while(!((signed int)*s == 0))
   {
     if(*codeOk == 0)
@@ -12244,7 +12244,7 @@ static struct AsmLine * parseAssembly(struct machine_6502 *machine, unsigned cha
 
     initParam(param);
     nullify(cmd, (unsigned int)4);
-    nullify(parseAssembly$$1$$label, (unsigned int)80);
+    nullify(parseAssembly__1__label, (unsigned int)80);
     decl = (unsigned char)0;
     skipSpace(&s);
     comment(&s);
@@ -12261,13 +12261,13 @@ static struct AsmLine * parseAssembly(struct machine_6502 *machine, unsigned cha
 
       else
       {
-        return_value_hasChar$4=hasChar(s, (char)58);
-        if(!(return_value_hasChar$4 == 0))
+        return_value_hasChar_4=hasChar(s, (char)58);
+        if(!(return_value_hasChar_4 == 0))
         {
           decl = (unsigned char)1;
-          unsigned char return_value_declareLabel$3;
-          return_value_declareLabel$3=declareLabel(&s, &parseAssembly$$1$$label);
-          if(return_value_declareLabel$3 == 0)
+          unsigned char return_value_declareLabel_3;
+          return_value_declareLabel_3=declareLabel(&s, &parseAssembly__1__label);
+          if(return_value_declareLabel_3 == 0)
           {
             *codeOk = (unsigned char)0;
             break;
@@ -12277,9 +12277,9 @@ static struct AsmLine * parseAssembly(struct machine_6502 *machine, unsigned cha
         }
 
       }
-    unsigned char return_value_command$5;
-    return_value_command$5=command(machine, &s, &cmd);
-    if(return_value_command$5 == 0)
+    unsigned char return_value_command_5;
+    return_value_command_5=command(machine, &s, &cmd);
+    if(return_value_command_5 == 0)
     {
       *codeOk = (unsigned char)0;
       break;
@@ -12287,9 +12287,9 @@ static struct AsmLine * parseAssembly(struct machine_6502 *machine, unsigned cha
 
     skipSpace(&s);
     comment(&s);
-    unsigned char return_value_parameter$6;
-    return_value_parameter$6=parameter(cmd, &s, param);
-    if(return_value_parameter$6 == 0)
+    unsigned char return_value_parameter_6;
+    return_value_parameter_6=parameter(cmd, &s, param);
+    if(return_value_parameter_6 == 0)
     {
       *codeOk = (unsigned char)0;
       break;
@@ -12297,16 +12297,16 @@ static struct AsmLine * parseAssembly(struct machine_6502 *machine, unsigned cha
 
     skipSpace(&s);
     comment(&s);
-    _Bool tmp_if_expr$7;
+    _Bool tmp_if_expr_7;
     if((signed int)*s == 10)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = (signed int)*s == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = (signed int)*s == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_7)
     {
       struct AsmLine *asmm;
-      asmm=newAsmLine(cmd, parseAssembly$$1$$label, decl, param, (signed int)lc);
+      asmm=newAsmLine(cmd, parseAssembly__1__label, decl, param, (signed int)lc);
       listp=addend(listp, asmm);
     }
 
@@ -12321,7 +12321,7 @@ static struct AsmLine * parseAssembly(struct machine_6502 *machine, unsigned cha
 
   free((void *)start);
   free((void *)cmd);
-  free((void *)parseAssembly$$1$$label);
+  free((void *)parseAssembly__1__label);
   freeParam(param);
   return listp;
 }
@@ -12331,28 +12331,28 @@ static struct AsmLine * parseAssembly(struct machine_6502 *machine, unsigned cha
 static unsigned char parseDec(char **s, unsigned int *value)
 {
   char *dec;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned int)4, sizeof(char) /*1ul*/ );
-  dec = (char *)return_value_ecalloc$1;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned int)4, sizeof(char) /*1ul*/ );
+  dec = (char *)return_value_ecalloc_1;
   signed int i = 0;
-  const unsigned short int **return_value___ctype_b_loc$2;
+  const unsigned short int **return_value___ctype_b_loc_2;
   do
   {
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*(*s)]) == 0 || i >= 4)
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*(*s)]) == 0 || i >= 4)
       break;
 
-    signed int tmp_post$3 = i;
+    signed int tmp_post_3 = i;
     i = i + 1;
-    dec[(signed long int)tmp_post$3] = *(*s);
+    dec[(signed long int)tmp_post_3] = *(*s);
     *s = *s + 1l;
   }
   while((_Bool)1);
   if(i >= 1)
   {
-    signed int return_value_atoi$4;
-    return_value_atoi$4=atoi(dec);
-    *value = (unsigned int)return_value_atoi$4;
+    signed int return_value_atoi_4;
+    return_value_atoi_4=atoi(dec);
+    *value = (unsigned int)return_value_atoi_4;
     free((void *)dec);
     return (unsigned char)1;
   }
@@ -12375,30 +12375,30 @@ static void parseError(char *s)
 // file asm6502.c line 1346
 static unsigned char parseHex(char **s, unsigned int *value)
 {
-  unsigned char return_value_ishexdigit$2;
+  unsigned char return_value_ishexdigit_2;
   if((signed int)*(*s) == 36)
   {
     char *hex;
-    void *return_value_ecalloc$1;
-    return_value_ecalloc$1=ecalloc((unsigned int)5, sizeof(char) /*1ul*/ );
-    hex = (char *)return_value_ecalloc$1;
+    void *return_value_ecalloc_1;
+    return_value_ecalloc_1=ecalloc((unsigned int)5, sizeof(char) /*1ul*/ );
+    hex = (char *)return_value_ecalloc_1;
     signed int i = 0;
     *s = *s + 1l;
     do
     {
-      return_value_ishexdigit$2=ishexdigit(*(*s));
-      if(return_value_ishexdigit$2 == 0 || i >= 5)
+      return_value_ishexdigit_2=ishexdigit(*(*s));
+      if(return_value_ishexdigit_2 == 0 || i >= 5)
         break;
 
-      signed int tmp_post$3 = i;
+      signed int tmp_post_3 = i;
       i = i + 1;
-      hex[(signed long int)tmp_post$3] = *(*s);
+      hex[(signed long int)tmp_post_3] = *(*s);
       *s = *s + 1l;
     }
     while((_Bool)1);
-    signed long int return_value_strtol$4;
-    return_value_strtol$4=strtol(hex, (char ** restrict )(void *)0, 16);
-    *value = (unsigned int)return_value_strtol$4;
+    signed long int return_value_strtol_4;
+    return_value_strtol_4=strtol(hex, (char ** restrict )(void *)0, 16);
+    *value = (unsigned int)return_value_strtol_4;
     free((void *)hex);
     return (unsigned char)1;
   }
@@ -12412,18 +12412,18 @@ static unsigned char parseHex(char **s, unsigned int *value)
 static unsigned char parseValue(char **s, unsigned int *value)
 {
   skipSpace(s);
-  unsigned char return_value_parseHex$1;
-  unsigned char return_value_parseDec$2;
+  unsigned char return_value_parseHex_1;
+  unsigned char return_value_parseDec_2;
   if((signed int)*(*s) == 36)
   {
-    return_value_parseHex$1=parseHex(s, value);
-    return return_value_parseHex$1;
+    return_value_parseHex_1=parseHex(s, value);
+    return return_value_parseHex_1;
   }
 
   else
   {
-    return_value_parseDec$2=parseDec(s, value);
-    return return_value_parseDec$2;
+    return_value_parseDec_2=parseDec(s, value);
+    return return_value_parseDec_2;
   }
 }
 
@@ -12435,31 +12435,31 @@ extern signed int parse_time(const char *string, signed int seconds_default_p, s
   unsigned int m;
   unsigned int s;
   char c;
-  signed int return_value___isoc99_sscanf$6;
-  return_value___isoc99_sscanf$6=__isoc99_sscanf(string, " %u : %2u : %2u %c", &h, &m, &s, &c);
-  signed int return_value___isoc99_sscanf$3;
-  signed int return_value___isoc99_sscanf$4;
-  signed int return_value___isoc99_sscanf$2;
-  signed int return_value___isoc99_sscanf$1;
-  if(!(return_value___isoc99_sscanf$6 == 3))
+  signed int return_value___isoc99_sscanf_6;
+  return_value___isoc99_sscanf_6=__isoc99_sscanf(string, " %u : %2u : %2u %c", &h, &m, &s, &c);
+  signed int return_value___isoc99_sscanf_3;
+  signed int return_value___isoc99_sscanf_4;
+  signed int return_value___isoc99_sscanf_2;
+  signed int return_value___isoc99_sscanf_1;
+  if(!(return_value___isoc99_sscanf_6 == 3))
   {
-    return_value___isoc99_sscanf$3=__isoc99_sscanf(string, " : %2u : %2u %c", &m, &s, &c);
-    _Bool tmp_if_expr$5;
-    if(return_value___isoc99_sscanf$3 == 2)
-      tmp_if_expr$5 = (_Bool)1;
+    return_value___isoc99_sscanf_3=__isoc99_sscanf(string, " : %2u : %2u %c", &m, &s, &c);
+    _Bool tmp_if_expr_5;
+    if(return_value___isoc99_sscanf_3 == 2)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value___isoc99_sscanf$4=__isoc99_sscanf(string, " %u : %2u %c", &m, &s, &c);
-      tmp_if_expr$5 = 2 == return_value___isoc99_sscanf$4 ? (_Bool)1 : (_Bool)0;
+      return_value___isoc99_sscanf_4=__isoc99_sscanf(string, " %u : %2u %c", &m, &s, &c);
+      tmp_if_expr_5 = 2 == return_value___isoc99_sscanf_4 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
       h = (unsigned int)0;
 
     else
     {
-      return_value___isoc99_sscanf$2=__isoc99_sscanf(string, " : %2u %c", &s, &c);
-      if(return_value___isoc99_sscanf$2 == 1)
+      return_value___isoc99_sscanf_2=__isoc99_sscanf(string, " : %2u %c", &s, &c);
+      if(return_value___isoc99_sscanf_2 == 1)
       {
         m = (unsigned int)0;
         h = m;
@@ -12467,8 +12467,8 @@ extern signed int parse_time(const char *string, signed int seconds_default_p, s
 
       else
       {
-        return_value___isoc99_sscanf$1=__isoc99_sscanf(string, " %u %c", seconds_default_p != 0 ? &s : &m, &c);
-        if(return_value___isoc99_sscanf$1 == 1)
+        return_value___isoc99_sscanf_1=__isoc99_sscanf(string, " %u %c", seconds_default_p != 0 ? &s : &m, &c);
+        if(return_value___isoc99_sscanf_1 == 1)
         {
           h = (unsigned int)0;
           if(!(seconds_default_p == 0))
@@ -12512,36 +12512,36 @@ extern signed int parse_time(const char *string, signed int seconds_default_p, s
 
 // peekValue
 // file asm6502.c line 267
-static unsigned char peekValue(struct machine_6502 *machine, enum anonymous$60 adm, struct anonymous$15 *pointer, unsigned short int PC)
+static unsigned char peekValue(struct machine_6502 *machine, enum anonymous_60 adm, struct anonymous_15 *pointer, unsigned short int PC)
 {
   unsigned char zp;
   pointer->value = (unsigned short int)0;
   pointer->addr = (unsigned short int)0;
-  signed int return_value_memReadByte$1;
-  signed int return_value_memReadByte$2;
-  signed int return_value_memReadByte$3;
-  signed int return_value_memReadByte$4;
-  signed int return_value_memReadByte$5;
-  signed int return_value_memReadByte$6;
-  signed int return_value_memReadByte$7;
-  signed int return_value_memReadByte$8;
-  signed int return_value_memReadByte$9;
-  signed int return_value_memReadByte$10;
-  signed int return_value_memReadByte$11;
-  signed int return_value_memReadByte$12;
-  signed int return_value_memReadByte$13;
-  signed int return_value_memReadByte$14;
-  signed int return_value_memReadByte$15;
-  signed int return_value_memReadByte$16;
-  signed int return_value_memReadByte$17;
-  signed int return_value_memReadByte$18;
-  signed int return_value_memReadByte$19;
-  signed int return_value_memReadByte$20;
-  signed int return_value_memReadByte$21;
-  signed int return_value_memReadByte$22;
-  signed int return_value_memReadByte$23;
-  signed int return_value_memReadByte$24;
-  signed int return_value_memReadByte$25;
+  signed int return_value_memReadByte_1;
+  signed int return_value_memReadByte_2;
+  signed int return_value_memReadByte_3;
+  signed int return_value_memReadByte_4;
+  signed int return_value_memReadByte_5;
+  signed int return_value_memReadByte_6;
+  signed int return_value_memReadByte_7;
+  signed int return_value_memReadByte_8;
+  signed int return_value_memReadByte_9;
+  signed int return_value_memReadByte_10;
+  signed int return_value_memReadByte_11;
+  signed int return_value_memReadByte_12;
+  signed int return_value_memReadByte_13;
+  signed int return_value_memReadByte_14;
+  signed int return_value_memReadByte_15;
+  signed int return_value_memReadByte_16;
+  signed int return_value_memReadByte_17;
+  signed int return_value_memReadByte_18;
+  signed int return_value_memReadByte_19;
+  signed int return_value_memReadByte_20;
+  signed int return_value_memReadByte_21;
+  signed int return_value_memReadByte_22;
+  signed int return_value_memReadByte_23;
+  signed int return_value_memReadByte_24;
+  signed int return_value_memReadByte_25;
   switch((signed int)adm)
   {
     case SINGLE:
@@ -12552,91 +12552,91 @@ static unsigned char peekValue(struct machine_6502 *machine, enum anonymous$60 a
 
     case IMMEDIATE_VALUE:
     {
-      return_value_memReadByte$1=memReadByte(machine, (signed int)PC);
-      pointer->value = (unsigned short int)return_value_memReadByte$1;
+      return_value_memReadByte_1=memReadByte(machine, (signed int)PC);
+      pointer->value = (unsigned short int)return_value_memReadByte_1;
       return (unsigned char)1;
     }
     case INDIRECT_X:
     {
-      return_value_memReadByte$2=memReadByte(machine, (signed int)PC);
-      zp = (unsigned char)(return_value_memReadByte$2 + (signed int)machine->regX);
-      return_value_memReadByte$3=memReadByte(machine, (signed int)zp);
-      return_value_memReadByte$4=memReadByte(machine, (signed int)zp + 1);
-      pointer->addr = (unsigned short int)(return_value_memReadByte$3 + (return_value_memReadByte$4 << 8));
-      return_value_memReadByte$5=memReadByte(machine, (signed int)pointer->addr);
-      pointer->value = (unsigned short int)return_value_memReadByte$5;
+      return_value_memReadByte_2=memReadByte(machine, (signed int)PC);
+      zp = (unsigned char)(return_value_memReadByte_2 + (signed int)machine->regX);
+      return_value_memReadByte_3=memReadByte(machine, (signed int)zp);
+      return_value_memReadByte_4=memReadByte(machine, (signed int)zp + 1);
+      pointer->addr = (unsigned short int)(return_value_memReadByte_3 + (return_value_memReadByte_4 << 8));
+      return_value_memReadByte_5=memReadByte(machine, (signed int)pointer->addr);
+      pointer->value = (unsigned short int)return_value_memReadByte_5;
       return (unsigned char)1;
     }
     case INDIRECT_Y:
     {
-      return_value_memReadByte$6=memReadByte(machine, (signed int)PC);
-      zp = (unsigned char)return_value_memReadByte$6;
-      return_value_memReadByte$7=memReadByte(machine, (signed int)zp);
-      return_value_memReadByte$8=memReadByte(machine, (signed int)zp + 1);
-      pointer->addr = (unsigned short int)(return_value_memReadByte$7 + (return_value_memReadByte$8 << 8) + (signed int)machine->regY);
-      return_value_memReadByte$9=memReadByte(machine, (signed int)pointer->addr);
-      pointer->value = (unsigned short int)return_value_memReadByte$9;
+      return_value_memReadByte_6=memReadByte(machine, (signed int)PC);
+      zp = (unsigned char)return_value_memReadByte_6;
+      return_value_memReadByte_7=memReadByte(machine, (signed int)zp);
+      return_value_memReadByte_8=memReadByte(machine, (signed int)zp + 1);
+      pointer->addr = (unsigned short int)(return_value_memReadByte_7 + (return_value_memReadByte_8 << 8) + (signed int)machine->regY);
+      return_value_memReadByte_9=memReadByte(machine, (signed int)pointer->addr);
+      pointer->value = (unsigned short int)return_value_memReadByte_9;
       return (unsigned char)1;
     }
     case ZERO:
     {
-      return_value_memReadByte$10=memReadByte(machine, (signed int)PC);
-      pointer->addr = (unsigned short int)return_value_memReadByte$10;
-      return_value_memReadByte$11=memReadByte(machine, (signed int)pointer->addr);
-      pointer->value = (unsigned short int)return_value_memReadByte$11;
+      return_value_memReadByte_10=memReadByte(machine, (signed int)PC);
+      pointer->addr = (unsigned short int)return_value_memReadByte_10;
+      return_value_memReadByte_11=memReadByte(machine, (signed int)pointer->addr);
+      pointer->value = (unsigned short int)return_value_memReadByte_11;
       return (unsigned char)1;
     }
     case ZERO_X:
     {
-      return_value_memReadByte$12=memReadByte(machine, (signed int)PC);
-      pointer->addr = (unsigned short int)(return_value_memReadByte$12 + (signed int)machine->regX);
-      return_value_memReadByte$13=memReadByte(machine, (signed int)pointer->addr);
-      pointer->value = (unsigned short int)return_value_memReadByte$13;
+      return_value_memReadByte_12=memReadByte(machine, (signed int)PC);
+      pointer->addr = (unsigned short int)(return_value_memReadByte_12 + (signed int)machine->regX);
+      return_value_memReadByte_13=memReadByte(machine, (signed int)pointer->addr);
+      pointer->value = (unsigned short int)return_value_memReadByte_13;
       return (unsigned char)1;
     }
     case ZERO_Y:
     {
-      return_value_memReadByte$14=memReadByte(machine, (signed int)PC);
-      pointer->addr = (unsigned short int)(return_value_memReadByte$14 + (signed int)machine->regY);
-      return_value_memReadByte$15=memReadByte(machine, (signed int)pointer->addr);
-      pointer->value = (unsigned short int)return_value_memReadByte$15;
+      return_value_memReadByte_14=memReadByte(machine, (signed int)PC);
+      pointer->addr = (unsigned short int)(return_value_memReadByte_14 + (signed int)machine->regY);
+      return_value_memReadByte_15=memReadByte(machine, (signed int)pointer->addr);
+      pointer->value = (unsigned short int)return_value_memReadByte_15;
       return (unsigned char)1;
     }
     case ABS_OR_BRANCH:
     {
-      return_value_memReadByte$16=memReadByte(machine, (signed int)PC);
-      pointer->addr = (unsigned short int)return_value_memReadByte$16;
+      return_value_memReadByte_16=memReadByte(machine, (signed int)PC);
+      pointer->addr = (unsigned short int)return_value_memReadByte_16;
       return (unsigned char)1;
     }
     case ABS_VALUE:
     {
-      return_value_memReadByte$17=memReadByte(machine, (signed int)PC);
-      return_value_memReadByte$18=memReadByte(machine, (signed int)PC + 1);
-      pointer->addr = (unsigned short int)(return_value_memReadByte$17 + (return_value_memReadByte$18 << 8));
-      return_value_memReadByte$19=memReadByte(machine, (signed int)pointer->addr);
-      pointer->value = (unsigned short int)return_value_memReadByte$19;
+      return_value_memReadByte_17=memReadByte(machine, (signed int)PC);
+      return_value_memReadByte_18=memReadByte(machine, (signed int)PC + 1);
+      pointer->addr = (unsigned short int)(return_value_memReadByte_17 + (return_value_memReadByte_18 << 8));
+      return_value_memReadByte_19=memReadByte(machine, (signed int)pointer->addr);
+      pointer->value = (unsigned short int)return_value_memReadByte_19;
       return (unsigned char)1;
     }
     case ABS_LABEL_X:
 
     case ABS_X:
     {
-      return_value_memReadByte$20=memReadByte(machine, (signed int)PC);
-      return_value_memReadByte$21=memReadByte(machine, (signed int)PC + 1);
-      pointer->addr = (unsigned short int)(return_value_memReadByte$20 + (return_value_memReadByte$21 << 8) + (signed int)machine->regX);
-      return_value_memReadByte$22=memReadByte(machine, (signed int)pointer->addr);
-      pointer->value = (unsigned short int)return_value_memReadByte$22;
+      return_value_memReadByte_20=memReadByte(machine, (signed int)PC);
+      return_value_memReadByte_21=memReadByte(machine, (signed int)PC + 1);
+      pointer->addr = (unsigned short int)(return_value_memReadByte_20 + (return_value_memReadByte_21 << 8) + (signed int)machine->regX);
+      return_value_memReadByte_22=memReadByte(machine, (signed int)pointer->addr);
+      pointer->value = (unsigned short int)return_value_memReadByte_22;
       return (unsigned char)1;
     }
     case ABS_LABEL_Y:
 
     case ABS_Y:
     {
-      return_value_memReadByte$23=memReadByte(machine, (signed int)PC);
-      return_value_memReadByte$24=memReadByte(machine, (signed int)PC + 1);
-      pointer->addr = (unsigned short int)(return_value_memReadByte$23 + (return_value_memReadByte$24 << 8) + (signed int)machine->regY);
-      return_value_memReadByte$25=memReadByte(machine, (signed int)pointer->addr);
-      pointer->value = (unsigned short int)return_value_memReadByte$25;
+      return_value_memReadByte_23=memReadByte(machine, (signed int)PC);
+      return_value_memReadByte_24=memReadByte(machine, (signed int)PC + 1);
+      pointer->addr = (unsigned short int)(return_value_memReadByte_23 + (return_value_memReadByte_24 << 8) + (signed int)machine->regY);
+      return_value_memReadByte_25=memReadByte(machine, (signed int)pointer->addr);
+      pointer->value = (unsigned short int)return_value_memReadByte_25;
       return (unsigned char)1;
     }
     case DCB_PARAM:
@@ -12648,26 +12648,26 @@ static unsigned char peekValue(struct machine_6502 *machine, enum anonymous$60 a
 
 // pick_best_gl_visual
 // file visual.c line 281
-static struct anonymous$13 * pick_best_gl_visual(struct anonymous$25 *screen)
+static struct anonymous_13 * pick_best_gl_visual(struct anonymous_25 *screen)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$19 vi_in;
-  struct anonymous$19 *vi_out;
+  struct anonymous_19 vi_in;
+  struct anonymous_19 *vi_out;
   signed int out_count;
-  struct anonymous$13 *result = ((struct anonymous$13 *)NULL);
+  struct anonymous_13 *result = ((struct anonymous_13 *)NULL);
   signed int ndepths = 0;
   signed int *depths;
-  signed int return_value_screen_number$1;
-  return_value_screen_number$1=screen_number(screen);
-  depths=XListDepths(dpy, return_value_screen_number$1, &ndepths);
+  signed int return_value_screen_number_1;
+  return_value_screen_number_1=screen_number(screen);
+  depths=XListDepths(dpy, return_value_screen_number_1, &ndepths);
   signed int screen_depth;
-  signed int tmp_if_expr$2;
+  signed int tmp_if_expr_2;
   if(!(depths == ((signed int *)NULL)) && !(ndepths == 0))
-    tmp_if_expr$2 = depths[(signed long int)(ndepths - 1)];
+    tmp_if_expr_2 = depths[(signed long int)(ndepths - 1)];
 
   else
-    tmp_if_expr$2 = 0;
-  screen_depth = tmp_if_expr$2;
+    tmp_if_expr_2 = 0;
+  screen_depth = tmp_if_expr_2;
   XFree((void *)depths);
   vi_in.class = 4;
   vi_in.screen=screen_number(screen);
@@ -12676,10 +12676,10 @@ static struct anonymous$13 * pick_best_gl_visual(struct anonymous$25 *screen)
   if(out_count >= 1)
     result = (vi_out + (signed long int)0)->visual;
 
-  if(!(vi_out == ((struct anonymous$19 *)NULL)))
+  if(!(vi_out == ((struct anonymous_19 *)NULL)))
     XFree((void *)(char *)vi_out);
 
-  if(result == ((struct anonymous$13 *)NULL) && screen_depth >= 25)
+  if(result == ((struct anonymous_13 *)NULL) && screen_depth >= 25)
   {
     vi_in.class = 4;
     vi_in.screen=screen_number(screen);
@@ -12690,10 +12690,10 @@ static struct anonymous$13 * pick_best_gl_visual(struct anonymous$25 *screen)
 
   }
 
-  if(result == ((struct anonymous$13 *)NULL))
+  if(result == ((struct anonymous_13 *)NULL))
     result=pick_best_visual_of_class(screen, 4);
 
-  if(result == ((struct anonymous$13 *)NULL))
+  if(result == ((struct anonymous_13 *)NULL))
     result=pick_best_visual(screen, 0, 0);
 
   return result;
@@ -12701,17 +12701,17 @@ static struct anonymous$13 * pick_best_gl_visual(struct anonymous$25 *screen)
 
 // pick_best_visual
 // file visual.c line 174
-static struct anonymous$13 * pick_best_visual(struct anonymous$25 *screen, signed int prefer_writable_cells, signed int color_only)
+static struct anonymous_13 * pick_best_visual(struct anonymous_25 *screen, signed int prefer_writable_cells, signed int color_only)
 {
-  struct anonymous$13 *visual;
-  signed int return_value_visual_depth$1;
+  struct anonymous_13 *visual;
+  signed int return_value_visual_depth_1;
   if(prefer_writable_cells == 0)
   {
     visual=pick_best_visual_of_class(screen, 4);
-    if(!(visual == ((struct anonymous$13 *)NULL)))
+    if(!(visual == ((struct anonymous_13 *)NULL)))
     {
-      return_value_visual_depth$1=visual_depth(screen, visual);
-      if(return_value_visual_depth$1 >= 16)
+      return_value_visual_depth_1=visual_depth(screen, visual);
+      if(return_value_visual_depth_1 >= 16)
         return visual;
 
     }
@@ -12719,111 +12719,111 @@ static struct anonymous$13 * pick_best_visual(struct anonymous$25 *screen, signe
   }
 
   visual=pick_best_visual_of_class(screen, 3);
-  signed int return_value_visual_depth$2;
-  if(!(visual == ((struct anonymous$13 *)NULL)))
+  signed int return_value_visual_depth_2;
+  if(!(visual == ((struct anonymous_13 *)NULL)))
   {
-    _Bool tmp_if_expr$3;
+    _Bool tmp_if_expr_3;
     if(color_only == 0)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_visual_depth$2=visual_depth(screen, visual);
-      tmp_if_expr$3 = return_value_visual_depth$2 > 1 ? (_Bool)1 : (_Bool)0;
+      return_value_visual_depth_2=visual_depth(screen, visual);
+      tmp_if_expr_3 = return_value_visual_depth_2 > 1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       return visual;
 
   }
 
   visual=pick_best_visual_of_class(screen, 4);
-  signed int return_value_visual_depth$4;
-  if(!(visual == ((struct anonymous$13 *)NULL)))
+  signed int return_value_visual_depth_4;
+  if(!(visual == ((struct anonymous_13 *)NULL)))
   {
-    _Bool tmp_if_expr$5;
+    _Bool tmp_if_expr_5;
     if(color_only == 0)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_visual_depth$4=visual_depth(screen, visual);
-      tmp_if_expr$5 = return_value_visual_depth$4 > 1 ? (_Bool)1 : (_Bool)0;
+      return_value_visual_depth_4=visual_depth(screen, visual);
+      tmp_if_expr_5 = return_value_visual_depth_4 > 1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
       return visual;
 
   }
 
   visual=pick_best_visual_of_class(screen, 5);
-  signed int return_value_visual_depth$6;
-  if(!(visual == ((struct anonymous$13 *)NULL)))
+  signed int return_value_visual_depth_6;
+  if(!(visual == ((struct anonymous_13 *)NULL)))
   {
-    _Bool tmp_if_expr$7;
+    _Bool tmp_if_expr_7;
     if(color_only == 0)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
-      return_value_visual_depth$6=visual_depth(screen, visual);
-      tmp_if_expr$7 = return_value_visual_depth$6 > 1 ? (_Bool)1 : (_Bool)0;
+      return_value_visual_depth_6=visual_depth(screen, visual);
+      tmp_if_expr_7 = return_value_visual_depth_6 > 1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
       return visual;
 
   }
 
   visual=pick_best_visual_of_class(screen, 2);
-  signed int return_value_visual_depth$8;
-  if(!(visual == ((struct anonymous$13 *)NULL)))
+  signed int return_value_visual_depth_8;
+  if(!(visual == ((struct anonymous_13 *)NULL)))
   {
-    _Bool tmp_if_expr$9;
+    _Bool tmp_if_expr_9;
     if(color_only == 0)
-      tmp_if_expr$9 = (_Bool)1;
+      tmp_if_expr_9 = (_Bool)1;
 
     else
     {
-      return_value_visual_depth$8=visual_depth(screen, visual);
-      tmp_if_expr$9 = return_value_visual_depth$8 > 1 ? (_Bool)1 : (_Bool)0;
+      return_value_visual_depth_8=visual_depth(screen, visual);
+      tmp_if_expr_9 = return_value_visual_depth_8 > 1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$9)
+    if(tmp_if_expr_9)
       return visual;
 
   }
 
-  signed int return_value_visual_depth$10;
-  signed int return_value_visual_depth$12;
+  signed int return_value_visual_depth_10;
+  signed int return_value_visual_depth_12;
   if(color_only == 0)
   {
     visual=pick_best_visual_of_class(screen, 1);
-    if(!(visual == ((struct anonymous$13 *)NULL)))
+    if(!(visual == ((struct anonymous_13 *)NULL)))
     {
-      _Bool tmp_if_expr$11;
+      _Bool tmp_if_expr_11;
       if(color_only == 0)
-        tmp_if_expr$11 = (_Bool)1;
+        tmp_if_expr_11 = (_Bool)1;
 
       else
       {
-        return_value_visual_depth$10=visual_depth(screen, visual);
-        tmp_if_expr$11 = return_value_visual_depth$10 > 1 ? (_Bool)1 : (_Bool)0;
+        return_value_visual_depth_10=visual_depth(screen, visual);
+        tmp_if_expr_11 = return_value_visual_depth_10 > 1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$11)
+      if(tmp_if_expr_11)
         return visual;
 
     }
 
     visual=pick_best_visual_of_class(screen, 0);
-    if(!(visual == ((struct anonymous$13 *)NULL)))
+    if(!(visual == ((struct anonymous_13 *)NULL)))
     {
-      _Bool tmp_if_expr$13;
+      _Bool tmp_if_expr_13;
       if(color_only == 0)
-        tmp_if_expr$13 = (_Bool)1;
+        tmp_if_expr_13 = (_Bool)1;
 
       else
       {
-        return_value_visual_depth$12=visual_depth(screen, visual);
-        tmp_if_expr$13 = return_value_visual_depth$12 > 1 ? (_Bool)1 : (_Bool)0;
+        return_value_visual_depth_12=visual_depth(screen, visual);
+        tmp_if_expr_13 = return_value_visual_depth_12 > 1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$13)
+      if(tmp_if_expr_13)
         return visual;
 
     }
@@ -12831,101 +12831,101 @@ static struct anonymous$13 * pick_best_visual(struct anonymous$25 *screen, signe
   }
 
   visual = screen->root_visual;
-  _Bool tmp_if_expr$15;
-  signed int return_value_visual_depth$14;
+  _Bool tmp_if_expr_15;
+  signed int return_value_visual_depth_14;
   if(color_only == 0)
-    tmp_if_expr$15 = (_Bool)1;
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value_visual_depth$14=visual_depth(screen, visual);
-    tmp_if_expr$15 = return_value_visual_depth$14 > 1 ? (_Bool)1 : (_Bool)0;
+    return_value_visual_depth_14=visual_depth(screen, visual);
+    tmp_if_expr_15 = return_value_visual_depth_14 > 1 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$15)
+  if(tmp_if_expr_15)
     return visual;
 
   else
-    return ((struct anonymous$13 *)NULL);
+    return ((struct anonymous_13 *)NULL);
 }
 
 // pick_best_visual_of_class
 // file visual.c line 242
-static struct anonymous$13 * pick_best_visual_of_class(struct anonymous$25 *screen, signed int visual_class)
+static struct anonymous_13 * pick_best_visual_of_class(struct anonymous_25 *screen, signed int visual_class)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$19 vi_in;
-  struct anonymous$19 *vi_out;
+  struct anonymous_19 vi_in;
+  struct anonymous_19 *vi_out;
   signed int out_count;
   vi_in.class = visual_class;
   vi_in.screen=screen_number(screen);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x8 | 0x2), &vi_in, &out_count);
-  _Bool tmp_if_expr$1;
-  if(!(vi_out == ((struct anonymous$19 *)NULL)))
+  _Bool tmp_if_expr_1;
+  if(!(vi_out == ((struct anonymous_19 *)NULL)))
   {
     signed int i;
     signed int best;
-    struct anonymous$13 *visual;
+    struct anonymous_13 *visual;
     i = out_count - 1;
     best = i;
     for( ; i >= 0; i = i - 1)
     {
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(!((vi_out + (signed long int)best)->depth >= (vi_out + (signed long int)i)->depth))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
       {
         if((vi_out + (signed long int)i)->depth == (vi_out + (signed long int)best)->depth)
-          tmp_if_expr$1 = (vi_out + (signed long int)i)->colormap_size > (vi_out + (signed long int)best)->colormap_size ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (vi_out + (signed long int)i)->colormap_size > (vi_out + (signed long int)best)->colormap_size ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$2)
+      if(tmp_if_expr_2)
         best = i;
 
     }
-    struct anonymous$13 *tmp_if_expr$3;
+    struct anonymous_13 *tmp_if_expr_3;
     if(!(best >= out_count))
-      tmp_if_expr$3 = (vi_out + (signed long int)best)->visual;
+      tmp_if_expr_3 = (vi_out + (signed long int)best)->visual;
 
     else
-      tmp_if_expr$3 = ((struct anonymous$13 *)NULL);
-    visual = tmp_if_expr$3;
+      tmp_if_expr_3 = ((struct anonymous_13 *)NULL);
+    visual = tmp_if_expr_3;
     XFree((void *)(char *)vi_out);
     return visual;
   }
 
   else
-    return ((struct anonymous$13 *)NULL);
+    return ((struct anonymous_13 *)NULL);
 }
 
 // pick_mono_visual
 // file visual.c line 218
-static struct anonymous$13 * pick_mono_visual(struct anonymous$25 *screen)
+static struct anonymous_13 * pick_mono_visual(struct anonymous_25 *screen)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$19 vi_in;
-  struct anonymous$19 *vi_out;
+  struct anonymous_19 vi_in;
+  struct anonymous_19 *vi_out;
   signed int out_count;
   vi_in.depth = 1;
   vi_in.screen=screen_number(screen);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x4 | 0x2), &vi_in, &out_count);
-  if(!(vi_out == ((struct anonymous$19 *)NULL)))
+  if(!(vi_out == ((struct anonymous_19 *)NULL)))
   {
-    struct anonymous$13 *v;
-    struct anonymous$13 *tmp_if_expr$1;
+    struct anonymous_13 *v;
+    struct anonymous_13 *tmp_if_expr_1;
     if(out_count >= 1)
-      tmp_if_expr$1 = (vi_out + (signed long int)0)->visual;
+      tmp_if_expr_1 = (vi_out + (signed long int)0)->visual;
 
     else
-      tmp_if_expr$1 = ((struct anonymous$13 *)NULL);
-    v = tmp_if_expr$1;
-    if(!(v == ((struct anonymous$13 *)NULL)))
+      tmp_if_expr_1 = ((struct anonymous_13 *)NULL);
+    v = tmp_if_expr_1;
+    if(!(v == ((struct anonymous_13 *)NULL)))
     {
       if(!(vi_out->depth == 1))
-        v = ((struct anonymous$13 *)NULL);
+        v = ((struct anonymous_13 *)NULL);
 
     }
 
@@ -12934,26 +12934,26 @@ static struct anonymous$13 * pick_mono_visual(struct anonymous$25 *screen)
   }
 
   else
-    return ((struct anonymous$13 *)NULL);
+    return ((struct anonymous_13 *)NULL);
 }
 
 // pick_visual
 // file screenhack.c line 321
-static struct anonymous$13 * pick_visual(struct anonymous$25 *screen)
+static struct anonymous_13 * pick_visual(struct anonymous_25 *screen)
 {
   struct xscreensaver_function_table *ft = xscreensaver_function_table;
-  if(!(ft->pick_visual_hook == ((struct anonymous$13 * (*)(struct anonymous$25 *))NULL)))
+  if(!(ft->pick_visual_hook == ((struct anonymous_13 * (*)(struct anonymous_25 *))NULL)))
   {
-    struct anonymous$13 *v;
+    struct anonymous_13 *v;
     v=ft->pick_visual_hook(screen);
-    if(!(v == ((struct anonymous$13 *)NULL)))
+    if(!(v == ((struct anonymous_13 *)NULL)))
       return v;
 
   }
 
-  struct anonymous$13 *return_value_get_visual_resource$1;
-  return_value_get_visual_resource$1=get_visual_resource(screen, "visualID", "VisualID", 0);
-  return return_value_get_visual_resource$1;
+  struct anonymous_13 *return_value_get_visual_resource_1;
+  return_value_get_visual_resource_1=get_visual_resource(screen, "visualID", "VisualID", 0);
+  return return_value_get_visual_resource_1;
 }
 
 // plot6502
@@ -12968,20 +12968,20 @@ static void plot6502(unsigned char x, unsigned char y, unsigned char color, void
 // file asm6502.c line 185
 static unsigned char popByte(struct machine_6502 *machine)
 {
-  unsigned char popByte$$1$$value = machine->memory[(signed long int)machine->regPC];
+  unsigned char popByte__1__value = machine->memory[(signed long int)machine->regPC];
   machine->regPC = machine->regPC + 1;
-  return popByte$$1$$value;
+  return popByte__1__value;
 }
 
 // popWord
 // file asm6502.c line 196
 static signed int popWord(struct machine_6502 *machine)
 {
-  unsigned char return_value_popByte$1;
-  return_value_popByte$1=popByte(machine);
-  unsigned char return_value_popByte$2;
-  return_value_popByte$2=popByte(machine);
-  return (signed int)return_value_popByte$1 + ((signed int)return_value_popByte$2 << 8);
+  unsigned char return_value_popByte_1;
+  return_value_popByte_1=popByte(machine);
+  unsigned char return_value_popByte_2;
+  return_value_popByte_2=popByte(machine);
+  return (signed int)return_value_popByte_1 + ((signed int)return_value_popByte_2 << 8);
 }
 
 // puramp
@@ -12999,9 +12999,9 @@ static float puramp(const struct analogtv_s *it, float tc, float start, float ov
 
     else
     {
-      float return_value_expf$1;
-      return_value_expf$1=expf(-pt / tc);
-      ret = (1.0f - return_value_expf$1) * over;
+      float return_value_expf_1;
+      return_value_expf_1=expf(-pt / tc);
+      ret = (1.0f - return_value_expf_1) * over;
       if(ret > 1.0f)
         return 1.0f;
 
@@ -13048,7 +13048,7 @@ static void reset(struct machine_6502 *machine)
   machine->regA = (unsigned char)0;
   machine->regX = (unsigned char)0;
   machine->regY = (unsigned char)0;
-  machine->regP=setBit(machine->regP, (enum anonymous$18)FUTURE_FL, 1);
+  machine->regP=setBit(machine->regP, (enum anonymous_18)FUTURE_FL, 1);
   machine->regPC = (unsigned short int)1536;
   machine->defaultCodePC = machine->regPC;
   machine->regSP = (unsigned short int)511;
@@ -13128,8 +13128,8 @@ static void run_screenhack_table(struct _XDisplay *dpy, unsigned long int window
     if(!(fpst2 == ((struct fps_state *)NULL)))
       fps_cb(dpy, window, fpst2, closure);
 
-    char return_value_usleep_and_process_events$1;
-    return_value_usleep_and_process_events$1=usleep_and_process_events(dpy, ft, window, fpst, closure, delay, window2, fpst2, closure2, delay2);
+    char return_value_usleep_and_process_events_1;
+    return_value_usleep_and_process_events_1=usleep_and_process_events(dpy, ft, window, fpst, closure, delay, window2, fpst2, closure2, delay2);
   }
   ft->free_cb(dpy, window, closure);
   if(!(fpst == ((struct fps_state *)NULL)))
@@ -13145,12 +13145,12 @@ static void run_screenhack_table(struct _XDisplay *dpy, unsigned long int window
 
 // screen_number
 // file visual.c line 475
-extern signed int screen_number(struct anonymous$25 *screen)
+extern signed int screen_number(struct anonymous_25 *screen)
 {
   struct _XDisplay *dpy = screen->display;
   signed int i = 0;
-  for( ; !(i >= ((struct anonymous$2 *)dpy)->nscreens); i = i + 1)
-    if(((struct anonymous$2 *)dpy)->screens + (signed long int)i == screen)
+  for( ; !(i >= ((struct anonymous_2 *)dpy)->nscreens); i = i + 1)
+    if(((struct anonymous_2 *)dpy)->screens + (signed long int)i == screen)
       return i;
 
   abort();
@@ -13167,12 +13167,12 @@ static void screenhack_do_fps(struct _XDisplay *dpy, unsigned long int w, struct
 
 // screenhack_ehandler
 // file screenhack.c line 245
-static signed int screenhack_ehandler(struct _XDisplay *dpy, struct anonymous$56 *error)
+static signed int screenhack_ehandler(struct _XDisplay *dpy, struct anonymous_56 *error)
 {
   fprintf(stderr, "\nX error in %s:\n", progname);
-  signed int return_value_XmuPrintDefaultErrorMessage$1;
-  return_value_XmuPrintDefaultErrorMessage$1=XmuPrintDefaultErrorMessage(dpy, error, stderr);
-  if(!(return_value_XmuPrintDefaultErrorMessage$1 == 0))
+  signed int return_value_XmuPrintDefaultErrorMessage_1;
+  return_value_XmuPrintDefaultErrorMessage_1=XmuPrintDefaultErrorMessage(dpy, error, stderr);
+  if(!(return_value_XmuPrintDefaultErrorMessage_1 == 0))
     exit(-1);
 
   else
@@ -13275,21 +13275,21 @@ static char screenhack_table_handle_events(struct _XDisplay *dpy, struct xscreen
 {
   struct _XtAppStruct *app;
   app=XtDisplayToApplicationContext(dpy);
-  unsigned long int return_value_XtAppPending$1;
-  return_value_XtAppPending$1=XtAppPending(app);
-  if(!((6ul & return_value_XtAppPending$1) == 0ul))
+  unsigned long int return_value_XtAppPending_1;
+  return_value_XtAppPending_1=XtAppPending(app);
+  if(!((6ul & return_value_XtAppPending_1) == 0ul))
     XtAppProcessEvent(app, (unsigned long int)(2 | 4));
 
-  signed int return_value_XPending$2;
-  signed int tmp_if_expr$5;
+  signed int return_value_XPending_2;
+  signed int tmp_if_expr_5;
   signed int return_value;
-  signed int tmp_if_expr$4;
+  signed int tmp_if_expr_4;
   signed int return_value_1;
-  signed int return_value_screenhack_handle_event_1$3;
+  signed int return_value_screenhack_handle_event_1_3;
   do
   {
-    return_value_XPending$2=XPending(dpy);
-    if(return_value_XPending$2 == 0)
+    return_value_XPending_2=XPending(dpy);
+    if(return_value_XPending_2 == 0)
       break;
 
     union _XEvent event;
@@ -13306,16 +13306,16 @@ static char screenhack_table_handle_events(struct _XDisplay *dpy, struct xscreen
 
     else
     {
-      _Bool tmp_if_expr$6;
+      _Bool tmp_if_expr_6;
       if(event.xany.type == 33)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_6 = (_Bool)1;
 
       else
       {
         if(event.xany.window == window)
         {
           return_value=ft->event_cb(dpy, window, closure, &event);
-          tmp_if_expr$5 = return_value;
+          tmp_if_expr_5 = return_value;
         }
 
         else
@@ -13323,27 +13323,27 @@ static char screenhack_table_handle_events(struct _XDisplay *dpy, struct xscreen
           if(event.xany.window == window2 && !(window2 == 0ul))
           {
             return_value_1=ft->event_cb(dpy, window2, closure2, &event);
-            tmp_if_expr$4 = return_value_1;
+            tmp_if_expr_4 = return_value_1;
           }
 
           else
-            tmp_if_expr$4 = 0;
-          tmp_if_expr$5 = tmp_if_expr$4;
+            tmp_if_expr_4 = 0;
+          tmp_if_expr_5 = tmp_if_expr_4;
         }
-        tmp_if_expr$6 = !(tmp_if_expr$5 != 0) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = !(tmp_if_expr_5 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$6)
+      if(tmp_if_expr_6)
       {
-        return_value_screenhack_handle_event_1$3=screenhack_handle_event_1(dpy, &event);
-        if(return_value_screenhack_handle_event_1$3 == 0)
+        return_value_screenhack_handle_event_1_3=screenhack_handle_event_1(dpy, &event);
+        if(return_value_screenhack_handle_event_1_3 == 0)
           return (char)0;
 
       }
 
     }
-    unsigned long int return_value_XtAppPending$7;
-    return_value_XtAppPending$7=XtAppPending(app);
-    if(!((6ul & return_value_XtAppPending$7) == 0ul))
+    unsigned long int return_value_XtAppPending_7;
+    return_value_XtAppPending_7=XtAppPending(app);
+    if(!((6ul & return_value_XtAppPending_7) == 0ul))
       XtAppProcessEvent(app, (unsigned long int)(2 | 4));
 
   }
@@ -13358,12 +13358,12 @@ extern void screenhack_usleep(unsigned long int usecs)
   struct timeval tv;
   tv.tv_sec = (signed long int)(usecs / (unsigned long int)1000000L);
   tv.tv_usec = (signed long int)(usecs % (unsigned long int)1000000L);
-  select(0, ((struct anonymous$20 *)NULL), ((struct anonymous$20 *)NULL), ((struct anonymous$20 *)NULL), &tv);
+  select(0, ((struct anonymous_20 *)NULL), ((struct anonymous_20 *)NULL), ((struct anonymous_20 *)NULL), &tv);
 }
 
 // setBit
 // file asm6502.c line 247
-static unsigned char setBit(unsigned char value, enum anonymous$18 bit, signed int on)
+static unsigned char setBit(unsigned char value, enum anonymous_18 bit, signed int on)
 {
   unsigned char onMask = (unsigned char)1;
   unsigned char offMask = (unsigned char)0xff;
@@ -13374,7 +13374,7 @@ static unsigned char setBit(unsigned char value, enum anonymous$18 bit, signed i
 
 // shm_ehandler
 // file xshm.c line 62
-static signed int shm_ehandler(struct _XDisplay *dpy, struct anonymous$56 *error)
+static signed int shm_ehandler(struct _XDisplay *dpy, struct anonymous_56 *error)
 {
   shm_got_x_error = 1;
   return 0;
@@ -13384,11 +13384,11 @@ static signed int shm_ehandler(struct _XDisplay *dpy, struct anonymous$56 *error
 // file asm6502.c line 1258
 static void skipSpace(char **s)
 {
-  unsigned char return_value_isWhite$1;
+  unsigned char return_value_isWhite_1;
   do
   {
-    return_value_isWhite$1=isWhite(*(*s));
-    if(return_value_isWhite$1 == 0)
+    return_value_isWhite_1=isWhite(*(*s));
+    if(return_value_isWhite_1 == 0)
       break;
 
     *s = *s + 1l;
@@ -13402,10 +13402,10 @@ static unsigned char stackPop(struct machine_6502 *machine)
 {
   if(!((signed int)machine->regSP >= 511))
   {
-    unsigned char stackPop$$1$$1$$value;
+    unsigned char stackPop__1__1__value;
     machine->regSP = machine->regSP + 1;
-    stackPop$$1$$1$$value = machine->memory[(signed long int)machine->regSP];
-    return stackPop$$1$$1$$value;
+    stackPop__1__1__value = machine->memory[(signed long int)machine->regSP];
+    return stackPop__1__1__value;
   }
 
   else
@@ -13421,9 +13421,9 @@ static void stackPush(struct machine_6502 *machine, unsigned char value)
 {
   if((signed int)machine->regSP >= 256)
   {
-    unsigned short int tmp_post$1 = machine->regSP;
+    unsigned short int tmp_post_1 = machine->regSP;
     machine->regSP = machine->regSP - 1;
-    machine->memory[(signed long int)tmp_post$1] = value;
+    machine->memory[(signed long int)tmp_post_1] = value;
   }
 
   else
@@ -13438,11 +13438,11 @@ static void stackPush(struct machine_6502 *machine, unsigned char value)
 static void start_rand_bin_prog(struct machine_6502 *machine, struct state *st)
 {
   signed int n = st->which;
-  unsigned int return_value_ya_random$1;
+  unsigned int return_value_ya_random_1;
   while(n == st->which)
   {
-    return_value_ya_random$1=ya_random();
-    n = (signed int)(return_value_ya_random$1 % (unsigned int)st->demos);
+    return_value_ya_random_1=ya_random();
+    n = (signed int)(return_value_ya_random_1 % (unsigned int)st->demos);
   }
   st->which = n;
   m6502_start_eval_string(machine, demo_files[(signed long int)st->which], plot6502, (void *)st);
@@ -13455,16 +13455,16 @@ static void stoupper(char **s)
   signed int i = 0;
   while(!((signed int)(*s)[(signed long int)i] == 0))
   {
-    signed int return_value_toupper$1;
-    return_value_toupper$1=toupper((signed int)(*s)[(signed long int)i]);
-    (*s)[(signed long int)i] = (char)return_value_toupper$1;
+    signed int return_value_toupper_1;
+    return_value_toupper_1=toupper((signed int)(*s)[(signed long int)i]);
+    (*s)[(signed long int)i] = (char)return_value_toupper_1;
     i = i + 1;
   }
 }
 
 // string_width
 // file fps.c line 175
-static signed int string_width(struct anonymous$3 *f, const char *c, signed int *height_ret)
+static signed int string_width(struct anonymous_3 *f, const char *c, signed int *height_ret)
 {
   signed int x = 0;
   signed int max_w = 0;
@@ -13483,13 +13483,13 @@ static signed int string_width(struct anonymous$3 *f, const char *c, signed int 
 
     else
     {
-      signed int tmp_if_expr$1;
-      if(!(f->per_char == ((struct anonymous$6 *)NULL)))
-        tmp_if_expr$1 = (signed int)(f->per_char + (signed long int)((unsigned int)cc - f->min_char_or_byte2))->width;
+      signed int tmp_if_expr_1;
+      if(!(f->per_char == ((struct anonymous_6 *)NULL)))
+        tmp_if_expr_1 = (signed int)(f->per_char + (signed long int)((unsigned int)cc - f->min_char_or_byte2))->width;
 
       else
-        tmp_if_expr$1 = (signed int)f->min_bounds.rbearing;
-      x = x + tmp_if_expr$1;
+        tmp_if_expr_1 = (signed int)f->min_bounds.rbearing;
+      x = x + tmp_if_expr_1;
     }
     c = c + 1l;
   }
@@ -13553,7 +13553,7 @@ signed int threadpool_create(struct threadpool *self, struct threadpool_class *c
 
   /* assertion _has_pthread */
   assert(_has_pthread != 0);
-  signed int return_value_pthread_cond_wait$3;
+  signed int return_value_pthread_cond_wait_3;
   if(_has_pthread >= 0)
   {
     unsigned int count_parallel;
@@ -13568,9 +13568,9 @@ signed int threadpool_create(struct threadpool *self, struct threadpool_class *c
       return 0;
     }
 
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)count_parallel);
-    self->parallel_threads = (unsigned long int *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)count_parallel);
+    self->parallel_threads = (unsigned long int *)return_value_malloc_1;
     if(self->parallel_threads == ((unsigned long int *)NULL))
       return 12;
 
@@ -13578,10 +13578,10 @@ signed int threadpool_create(struct threadpool *self, struct threadpool_class *c
     startup.parent = self;
     startup.thread_create = cls->create;
     startup.last_errno = 0;
-    signed int return_value_pthread_mutex_lock$2;
-    return_value_pthread_mutex_lock$2=pthread_mutex_lock(&self->mutex);
+    signed int return_value_pthread_mutex_lock_2;
+    return_value_pthread_mutex_lock_2=pthread_mutex_lock(&self->mutex);
     /* assertion !(pthread_mutex_lock(&self->mutex)) */
-    assert(!(return_value_pthread_mutex_lock$2 != 0));
+    assert(!(return_value_pthread_mutex_lock_2 != 0));
     _add_next_thread(&startup);
     if(startup.last_errno == 0)
       while(!(self->parallel_unfinished == count_parallel))
@@ -13589,9 +13589,9 @@ signed int threadpool_create(struct threadpool *self, struct threadpool_class *c
         if(self->parallel_threads == ((unsigned long int *)NULL))
           break;
 
-        return_value_pthread_cond_wait$3=pthread_cond_wait(&self->cond, &self->mutex);
+        return_value_pthread_cond_wait_3=pthread_cond_wait(&self->cond, &self->mutex);
         /* assertion !(pthread_cond_wait(&self->cond, &self->mutex)) */
-        assert(!(return_value_pthread_cond_wait$3 != 0));
+        assert(!(return_value_pthread_cond_wait_3 != 0));
       }
 
     if(!(startup.last_errno == 0))
@@ -13600,10 +13600,10 @@ signed int threadpool_create(struct threadpool *self, struct threadpool_class *c
     else
     {
       self->parallel_unfinished = (unsigned int)0;
-      signed int return_value_pthread_mutex_unlock$4;
-      return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&self->mutex);
+      signed int return_value_pthread_mutex_unlock_4;
+      return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&self->mutex);
       /* assertion !(pthread_mutex_unlock(&self->mutex)) */
-      assert(!(return_value_pthread_mutex_unlock$4 != 0));
+      assert(!(return_value_pthread_mutex_unlock_4 != 0));
     }
     return startup.last_errno;
   }
@@ -13617,10 +13617,10 @@ void threadpool_destroy(struct threadpool *self)
 {
   if(_has_pthread >= 0)
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&self->mutex);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&self->mutex);
     /* assertion !(pthread_mutex_lock(&self->mutex)) */
-    assert(!(return_value_pthread_mutex_lock$1 != 0));
+    assert(!(return_value_pthread_mutex_lock_1 != 0));
     _unlock_and_destroy(self);
     goto __CPROVER_DUMP_L2;
   }
@@ -13637,27 +13637,27 @@ void threadpool_run(struct threadpool *self, void (*func)(void *))
 {
   if(_has_pthread >= 0)
   {
-    unsigned int threadpool_run$$1$$1$$count;
-    threadpool_run$$1$$1$$count=_threadpool_count_parallel(self);
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&self->mutex);
+    unsigned int threadpool_run__1__1__count;
+    threadpool_run__1__1__count=_threadpool_count_parallel(self);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&self->mutex);
     /* assertion !(pthread_mutex_lock(&self->mutex)) */
-    assert(!(return_value_pthread_mutex_lock$1 != 0));
+    assert(!(return_value_pthread_mutex_lock_1 != 0));
     /* assertion !self->parallel_pending */
     assert(!(self->parallel_pending != 0u));
     /* assertion !self->parallel_unfinished */
     assert(!(self->parallel_unfinished != 0u));
-    self->parallel_pending = threadpool_run$$1$$1$$count;
-    self->parallel_unfinished = threadpool_run$$1$$1$$count;
+    self->parallel_pending = threadpool_run__1__1__count;
+    self->parallel_unfinished = threadpool_run__1__1__count;
     self->thread_run = func;
-    signed int return_value_pthread_cond_broadcast$2;
-    return_value_pthread_cond_broadcast$2=pthread_cond_broadcast(&self->cond);
+    signed int return_value_pthread_cond_broadcast_2;
+    return_value_pthread_cond_broadcast_2=pthread_cond_broadcast(&self->cond);
     /* assertion !(pthread_cond_broadcast(&self->cond)) */
-    assert(!(return_value_pthread_cond_broadcast$2 != 0));
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&self->mutex);
+    assert(!(return_value_pthread_cond_broadcast_2 != 0));
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&self->mutex);
     /* assertion !(pthread_mutex_unlock(&self->mutex)) */
-    assert(!(return_value_pthread_mutex_unlock$3 != 0));
+    assert(!(return_value_pthread_mutex_unlock_3 != 0));
   }
 
   void *thread = self->serial_threads;
@@ -13678,23 +13678,23 @@ void threadpool_run(struct threadpool *self, void (*func)(void *))
 // file ./../utils/thread_util.h line 307
 void threadpool_wait(struct threadpool *self)
 {
-  signed int return_value_pthread_cond_wait$2;
+  signed int return_value_pthread_cond_wait_2;
   if(_has_pthread >= 0)
   {
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&self->mutex);
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&self->mutex);
     /* assertion !(pthread_mutex_lock(&self->mutex)) */
-    assert(!(return_value_pthread_mutex_lock$1 != 0));
+    assert(!(return_value_pthread_mutex_lock_1 != 0));
     while(!(self->parallel_unfinished == 0u))
     {
-      return_value_pthread_cond_wait$2=pthread_cond_wait(&self->cond, &self->mutex);
+      return_value_pthread_cond_wait_2=pthread_cond_wait(&self->cond, &self->mutex);
       /* assertion !(pthread_cond_wait(&self->cond, &self->mutex)) */
-      assert(!(return_value_pthread_cond_wait$2 != 0));
+      assert(!(return_value_pthread_cond_wait_2 != 0));
     }
-    signed int return_value_pthread_mutex_unlock$3;
-    return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&self->mutex);
+    signed int return_value_pthread_mutex_unlock_3;
+    return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&self->mutex);
     /* assertion !(pthread_mutex_unlock(&self->mutex)) */
-    assert(!(return_value_pthread_mutex_unlock$3 != 0));
+    assert(!(return_value_pthread_mutex_unlock_3 != 0));
   }
 
 }
@@ -13708,13 +13708,13 @@ signed int threads_available(struct _XDisplay *dpy)
     _has_pthread = (signed int)200809L;
     if(_has_pthread >= 0)
     {
-      signed int return_value_get_boolean_resource$2;
-      return_value_get_boolean_resource$2=get_boolean_resource(dpy, "useThreads", "Boolean");
-      if(!(return_value_get_boolean_resource$2 == 0))
+      signed int return_value_get_boolean_resource_2;
+      return_value_get_boolean_resource_2=get_boolean_resource(dpy, "useThreads", "Boolean");
+      if(!(return_value_get_boolean_resource_2 == 0))
       {
-        unsigned int return_value__get_cache_line_size$1;
-        return_value__get_cache_line_size$1=_get_cache_line_size();
-        _cache_line_size = (signed int)return_value__get_cache_line_size$1;
+        unsigned int return_value__get_cache_line_size_1;
+        return_value__get_cache_line_size_1=_get_cache_line_size();
+        _cache_line_size = (signed int)return_value__get_cache_line_size_1;
         /* assertion _cache_line_size >= sizeof(void *) */
         assert((unsigned long int)_cache_line_size >= sizeof(void *) /*8ul*/ );
         /* assertion ((_cache_line_size) > 0 && !((_cache_line_size) & ((_cache_line_size) - 1))) */
@@ -13732,7 +13732,7 @@ signed int threads_available(struct _XDisplay *dpy)
 
 // translate
 // file asm6502.c line 1770
-static unsigned char translate(struct anonymous$61 *op, struct anonymous$8 *param, struct machine_6502 *machine)
+static unsigned char translate(struct anonymous_61 *op, struct anonymous_8 *param, struct machine_6502 *machine)
 {
   switch((signed int)param->type)
   {
@@ -13976,9 +13976,9 @@ static unsigned long int uc_truncate(unsigned long int uc)
 static void updateDisplayPixel(struct machine_6502 *machine, unsigned short int addr)
 {
   unsigned char idx;
-  signed int return_value_memReadByte$1;
-  return_value_memReadByte$1=memReadByte(machine, (signed int)addr);
-  idx = (unsigned char)(return_value_memReadByte$1 & 0x0f);
+  signed int return_value_memReadByte_1;
+  return_value_memReadByte_1=memReadByte(machine, (signed int)addr);
+  idx = (unsigned char)(return_value_memReadByte_1 & 0x0f);
   unsigned char x;
   unsigned char y;
   addr = addr - (unsigned short int)0x200;
@@ -14012,9 +14012,9 @@ static char usleep_and_process_events(struct _XDisplay *dpy, struct xscreensaver
 
     }
 
-    char return_value_screenhack_table_handle_events$1;
-    return_value_screenhack_table_handle_events$1=screenhack_table_handle_events(dpy, ft, window, closure, window2, closure2);
-    if(return_value_screenhack_table_handle_events$1 == 0)
+    char return_value_screenhack_table_handle_events_1;
+    return_value_screenhack_table_handle_events_1=screenhack_table_handle_events(dpy, ft, window, closure, window2, closure2);
+    if(return_value_screenhack_table_handle_events_1 == 0)
       return (char)0;
 
   }
@@ -14033,9 +14033,9 @@ extern signed long int utf8_decode(const unsigned char *in, signed long int leng
   unsigned char c;
   if(length >= 1l)
   {
-    const unsigned char *tmp_post$1 = in;
+    const unsigned char *tmp_post_1 = in;
     in = in + 1l;
-    c = *tmp_post$1;
+    c = *tmp_post_1;
     if((0xC0 & (signed int)c) == 0x80)
       uc = (unsigned long int)0xFFFD;
 
@@ -14148,94 +14148,94 @@ extern signed int utf8_encode(unsigned long int uc, char *out, signed long int l
   uc=uc_truncate(uc);
   if(length >= 1l && !(uc >= 128ul))
   {
-    char *tmp_post$1 = out;
+    char *tmp_post_1 = out;
     out = out + 1l;
-    *tmp_post$1 = (char)uc;
+    *tmp_post_1 = (char)uc;
   }
 
   else
     if(length >= 2l && !(uc >= 2048ul))
     {
-      char *tmp_post$2 = out;
+      char *tmp_post_2 = out;
       out = out + 1l;
-      *tmp_post$2 = (char)((unsigned long int)0xC0 | uc >> 6 & (unsigned long int)0x1F);
-      char *tmp_post$3 = out;
+      *tmp_post_2 = (char)((unsigned long int)0xC0 | uc >> 6 & (unsigned long int)0x1F);
+      char *tmp_post_3 = out;
       out = out + 1l;
-      *tmp_post$3 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
+      *tmp_post_3 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
     }
 
     else
       if(length >= 3l && !(uc >= 65536ul))
       {
-        char *tmp_post$4 = out;
+        char *tmp_post_4 = out;
         out = out + 1l;
-        *tmp_post$4 = (char)((unsigned long int)0xE0 | uc >> 12 & (unsigned long int)0x0F);
-        char *tmp_post$5 = out;
+        *tmp_post_4 = (char)((unsigned long int)0xE0 | uc >> 12 & (unsigned long int)0x0F);
+        char *tmp_post_5 = out;
         out = out + 1l;
-        *tmp_post$5 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
-        char *tmp_post$6 = out;
+        *tmp_post_5 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
+        char *tmp_post_6 = out;
         out = out + 1l;
-        *tmp_post$6 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
+        *tmp_post_6 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
       }
 
       else
         if(length >= 4l && !(uc >= 2097152ul))
         {
-          char *tmp_post$7 = out;
+          char *tmp_post_7 = out;
           out = out + 1l;
-          *tmp_post$7 = (char)((unsigned long int)0xF0 | uc >> 18 & (unsigned long int)0x07);
-          char *tmp_post$8 = out;
+          *tmp_post_7 = (char)((unsigned long int)0xF0 | uc >> 18 & (unsigned long int)0x07);
+          char *tmp_post_8 = out;
           out = out + 1l;
-          *tmp_post$8 = (char)((unsigned long int)0x80 | uc >> 12 & (unsigned long int)0x3F);
-          char *tmp_post$9 = out;
+          *tmp_post_8 = (char)((unsigned long int)0x80 | uc >> 12 & (unsigned long int)0x3F);
+          char *tmp_post_9 = out;
           out = out + 1l;
-          *tmp_post$9 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
-          char *tmp_post$10 = out;
+          *tmp_post_9 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
+          char *tmp_post_10 = out;
           out = out + 1l;
-          *tmp_post$10 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
+          *tmp_post_10 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
         }
 
         else
           if(length >= 5l && !(uc >= 67108864ul))
           {
-            char *tmp_post$11 = out;
+            char *tmp_post_11 = out;
             out = out + 1l;
-            *tmp_post$11 = (char)((unsigned long int)0xF8 | uc >> 24 & (unsigned long int)0x03);
-            char *tmp_post$12 = out;
+            *tmp_post_11 = (char)((unsigned long int)0xF8 | uc >> 24 & (unsigned long int)0x03);
+            char *tmp_post_12 = out;
             out = out + 1l;
-            *tmp_post$12 = (char)((unsigned long int)0x80 | uc >> 18 & (unsigned long int)0x3F);
-            char *tmp_post$13 = out;
+            *tmp_post_12 = (char)((unsigned long int)0x80 | uc >> 18 & (unsigned long int)0x3F);
+            char *tmp_post_13 = out;
             out = out + 1l;
-            *tmp_post$13 = (char)((unsigned long int)0x80 | uc >> 12 & (unsigned long int)0x3F);
-            char *tmp_post$14 = out;
+            *tmp_post_13 = (char)((unsigned long int)0x80 | uc >> 12 & (unsigned long int)0x3F);
+            char *tmp_post_14 = out;
             out = out + 1l;
-            *tmp_post$14 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
-            char *tmp_post$15 = out;
+            *tmp_post_14 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
+            char *tmp_post_15 = out;
             out = out + 1l;
-            *tmp_post$15 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
+            *tmp_post_15 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
           }
 
           else
             if(length >= 6l)
             {
-              char *tmp_post$16 = out;
+              char *tmp_post_16 = out;
               out = out + 1l;
-              *tmp_post$16 = (char)((unsigned long int)0xFC | uc >> 30 & (unsigned long int)0x01);
-              char *tmp_post$17 = out;
+              *tmp_post_16 = (char)((unsigned long int)0xFC | uc >> 30 & (unsigned long int)0x01);
+              char *tmp_post_17 = out;
               out = out + 1l;
-              *tmp_post$17 = (char)((unsigned long int)0x80 | uc >> 24 & (unsigned long int)0x3F);
-              char *tmp_post$18 = out;
+              *tmp_post_17 = (char)((unsigned long int)0x80 | uc >> 24 & (unsigned long int)0x3F);
+              char *tmp_post_18 = out;
               out = out + 1l;
-              *tmp_post$18 = (char)((unsigned long int)0x80 | uc >> 18 & (unsigned long int)0x3F);
-              char *tmp_post$19 = out;
+              *tmp_post_18 = (char)((unsigned long int)0x80 | uc >> 18 & (unsigned long int)0x3F);
+              char *tmp_post_19 = out;
               out = out + 1l;
-              *tmp_post$19 = (char)((unsigned long int)0x80 | uc >> 12 & (unsigned long int)0x3F);
-              char *tmp_post$20 = out;
+              *tmp_post_19 = (char)((unsigned long int)0x80 | uc >> 12 & (unsigned long int)0x3F);
+              char *tmp_post_20 = out;
               out = out + 1l;
-              *tmp_post$20 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
-              char *tmp_post$21 = out;
+              *tmp_post_20 = (char)((unsigned long int)0x80 | uc >> 6 & (unsigned long int)0x3F);
+              char *tmp_post_21 = out;
               out = out + 1l;
-              *tmp_post$21 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
+              *tmp_post_21 = (char)((unsigned long int)0x80 | uc & (unsigned long int)0x3F);
             }
 
   return (signed int)(out - old);
@@ -14247,14 +14247,14 @@ extern char ** utf8_split(const char *string, signed int *length_ret)
 {
   const unsigned char *in = (const unsigned char *)string;
   signed long int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(string);
-  len = (signed long int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(string);
+  len = (signed long int)return_value_strlen_1;
   const unsigned char *end = in + len;
   char **ret;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(len + (signed long int)1) * sizeof(char *) /*8ul*/ );
-  ret = (char **)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(len + (signed long int)1) * sizeof(char *) /*8ul*/ );
+  ret = (char **)return_value_malloc_2;
   signed int i = 0;
   if(ret == ((char **)NULL))
     return ((char **)NULL);
@@ -14269,24 +14269,24 @@ extern char ** utf8_split(const char *string, signed int *length_ret)
       char tmp[10l];
       strncpy(tmp, (char *)in, (unsigned long int)len2);
       tmp[len2] = (char)0;
-      signed int tmp_post$3 = i;
+      signed int tmp_post_3 = i;
       i = i + 1;
-      ret[(signed long int)tmp_post$3]=strdup(tmp);
+      ret[(signed long int)tmp_post_3]=strdup(tmp);
       in = in + len2;
       if(i >= 2 && uc >= 768ul && !(uc >= 880ul))
       {
         signed long int L1;
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(ret[(signed long int)(i - 2)]);
-        L1 = (signed long int)return_value_strlen$4;
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(ret[(signed long int)(i - 2)]);
+        L1 = (signed long int)return_value_strlen_4;
         signed long int L2;
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(ret[(signed long int)(i - 1)]);
-        L2 = (signed long int)return_value_strlen$5;
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(ret[(signed long int)(i - 1)]);
+        L2 = (signed long int)return_value_strlen_5;
         char *s2;
-        void *return_value_malloc$6;
-        return_value_malloc$6=malloc((unsigned long int)(L1 + L2 + (signed long int)1));
-        s2 = (char *)return_value_malloc$6;
+        void *return_value_malloc_6;
+        return_value_malloc_6=malloc((unsigned long int)(L1 + L2 + (signed long int)1));
+        s2 = (char *)return_value_malloc_6;
         strncpy(s2, ret[(signed long int)(i - 2)], (unsigned long int)L1);
         strncpy(s2 + L1, ret[(signed long int)(i - 1)], (unsigned long int)L2);
         s2[L1 + L2] = (char)0;
@@ -14297,9 +14297,9 @@ extern char ** utf8_split(const char *string, signed int *length_ret)
 
     }
     ret[(signed long int)i] = ((char *)NULL);
-    void *return_value_realloc$7;
-    return_value_realloc$7=realloc((void *)ret, (unsigned long int)(i + 1) * sizeof(char *) /*8ul*/ );
-    ret = (char **)return_value_realloc$7;
+    void *return_value_realloc_7;
+    return_value_realloc_7=realloc((void *)ret, (unsigned long int)(i + 1) * sizeof(char *) /*8ul*/ );
+    ret = (char **)return_value_realloc_7;
     if(!(length_ret == ((signed int *)NULL)))
       *length_ret = i;
 
@@ -14309,21 +14309,21 @@ extern char ** utf8_split(const char *string, signed int *length_ret)
 
 // utf8_to_XChar2b
 // file utf8wc.c line 215
-extern struct anonymous$24 * utf8_to_XChar2b(const char *string, signed int *length_ret)
+extern struct anonymous_24 * utf8_to_XChar2b(const char *string, signed int *length_ret)
 {
   signed long int in_len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(string);
-  in_len = (signed long int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(string);
+  in_len = (signed long int)return_value_strlen_1;
   const unsigned char *in = (const unsigned char *)string;
   const unsigned char *in_end = in + in_len;
-  struct anonymous$24 *c2b;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(in_len + (signed long int)1) * sizeof(struct anonymous$24) /*2ul*/ );
-  c2b = (struct anonymous$24 *)return_value_malloc$2;
-  struct anonymous$24 *out = c2b;
-  if(out == ((struct anonymous$24 *)NULL))
-    return ((struct anonymous$24 *)NULL);
+  struct anonymous_24 *c2b;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(in_len + (signed long int)1) * sizeof(struct anonymous_24) /*2ul*/ );
+  c2b = (struct anonymous_24 *)return_value_malloc_2;
+  struct anonymous_24 *out = c2b;
+  if(out == ((struct anonymous_24 *)NULL))
+    return ((struct anonymous_24 *)NULL);
 
   else
   {
@@ -14342,9 +14342,9 @@ extern struct anonymous$24 * utf8_to_XChar2b(const char *string, signed int *len
     }
     out->byte1 = (unsigned char)0;
     out->byte2 = (unsigned char)0;
-    void *return_value_realloc$3;
-    return_value_realloc$3=realloc((void *)c2b, (unsigned long int)((out - c2b) + (signed long int)1) * sizeof(struct anonymous$24) /*2ul*/ );
-    c2b = (struct anonymous$24 *)return_value_realloc$3;
+    void *return_value_realloc_3;
+    return_value_realloc_3=realloc((void *)c2b, (unsigned long int)((out - c2b) + (signed long int)1) * sizeof(struct anonymous_24) /*2ul*/ );
+    c2b = (struct anonymous_24 *)return_value_realloc_3;
     if(!(length_ret == ((signed int *)NULL)))
       *length_ret = (signed int)(out - c2b);
 
@@ -14357,15 +14357,15 @@ extern struct anonymous$24 * utf8_to_XChar2b(const char *string, signed int *len
 extern char * utf8_to_latin1(const char *string, signed int ascii_p)
 {
   signed long int in_len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(string);
-  in_len = (signed long int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(string);
+  in_len = (signed long int)return_value_strlen_1;
   const unsigned char *in = (const unsigned char *)string;
   const unsigned char *in_end = in + in_len;
   unsigned char *ret;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(in_len + (signed long int)1));
-  ret = (unsigned char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(in_len + (signed long int)1));
+  ret = (unsigned char *)return_value_malloc_2;
   unsigned char *out = ret;
   if(ret == ((unsigned char *)NULL))
     return ((char *)NULL);
@@ -14543,77 +14543,77 @@ extern char * utf8_to_latin1(const char *string, signed int ascii_p)
 
       if(uc >= 1ul)
       {
-        unsigned char *tmp_post$3 = out;
+        unsigned char *tmp_post_3 = out;
         out = out + 1l;
-        *tmp_post$3 = (unsigned char)uc;
+        *tmp_post_3 = (unsigned char)uc;
       }
 
     }
     *out = (unsigned char)0;
-    void *return_value_realloc$4;
-    return_value_realloc$4=realloc((void *)ret, (unsigned long int)((out - ret) + (signed long int)1) * sizeof(unsigned char) /*1ul*/ );
-    ret = (unsigned char *)return_value_realloc$4;
+    void *return_value_realloc_4;
+    return_value_realloc_4=realloc((void *)ret, (unsigned long int)((out - ret) + (signed long int)1) * sizeof(unsigned char) /*1ul*/ );
+    ret = (unsigned char *)return_value_realloc_4;
     return (char *)ret;
   }
 }
 
 // value
 // file asm6502.c line 1511
-static unsigned char value(char **s, struct anonymous$8 *param)
+static unsigned char value(char **s, struct anonymous_8 *param)
 {
   unsigned int val;
-  unsigned char value$$1$$abs;
+  unsigned char value__1__abs;
   unsigned char dir;
   char c = (char)0;
-  unsigned char return_value_parseValue$1;
-  return_value_parseValue$1=parseValue(s, &val);
-  if(return_value_parseValue$1 == 0)
+  unsigned char return_value_parseValue_1;
+  return_value_parseValue_1=parseValue(s, &val);
+  if(return_value_parseValue_1 == 0)
     return (unsigned char)0;
 
   else
   {
-    value$$1$$abs = (unsigned char)(val > (unsigned int)0xFF);
+    value__1__abs = (unsigned char)(val > (unsigned int)0xFF);
     dir=getDirection(s, &c);
-    unsigned char return_value_addvalue$2;
-    return_value_addvalue$2=addvalue(param, val);
-    if(return_value_addvalue$2 == 0)
+    unsigned char return_value_addvalue_2;
+    return_value_addvalue_2=addvalue(param, val);
+    if(return_value_addvalue_2 == 0)
       return (unsigned char)0;
 
     else
     {
-      if(!(value$$1$$abs == 0) && !(dir == 0))
+      if(!(value__1__abs == 0) && !(dir == 0))
       {
         if((signed int)c == 88)
-          param->type = (enum anonymous$60)ABS_X;
+          param->type = (enum anonymous_60)ABS_X;
 
         else
           if((signed int)c == 89)
-            param->type = (enum anonymous$60)ABS_Y;
+            param->type = (enum anonymous_60)ABS_Y;
 
           else
             return (unsigned char)0;
       }
 
       else
-        if(!(value$$1$$abs == 0))
-          param->type = (enum anonymous$60)ABS_VALUE;
+        if(!(value__1__abs == 0))
+          param->type = (enum anonymous_60)ABS_VALUE;
 
         else
           if(!(dir == 0))
           {
             if((signed int)c == 88)
-              param->type = (enum anonymous$60)ZERO_X;
+              param->type = (enum anonymous_60)ZERO_X;
 
             else
               if((signed int)c == 89)
-                param->type = (enum anonymous$60)ZERO_Y;
+                param->type = (enum anonymous_60)ZERO_Y;
 
               else
                 return (unsigned char)0;
           }
 
           else
-            param->type = (enum anonymous$60)ZERO;
+            param->type = (enum anonymous_60)ZERO;
       return (unsigned char)1;
     }
   }
@@ -14621,17 +14621,17 @@ static unsigned char value(char **s, struct anonymous$8 *param)
 
 // visual_cells
 // file visual.c line 487
-extern signed int visual_cells(struct anonymous$25 *screen, struct anonymous$13 *visual)
+extern signed int visual_cells(struct anonymous_25 *screen, struct anonymous_13 *visual)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$19 vi_in;
-  struct anonymous$19 *vi_out;
+  struct anonymous_19 vi_in;
+  struct anonymous_19 *vi_out;
   signed int out_count;
   signed int c;
   vi_in.screen=screen_number(screen);
   vi_in.visualid=XVisualIDFromVisual(visual);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x1), &vi_in, &out_count);
-  if(vi_out == ((struct anonymous$19 *)NULL))
+  if(vi_out == ((struct anonymous_19 *)NULL))
     abort();
 
   c = (vi_out + (signed long int)0)->colormap_size;
@@ -14641,17 +14641,17 @@ extern signed int visual_cells(struct anonymous$25 *screen, struct anonymous$13 
 
 // visual_class
 // file visual.c line 409
-extern signed int visual_class(struct anonymous$25 *screen, struct anonymous$13 *visual)
+extern signed int visual_class(struct anonymous_25 *screen, struct anonymous_13 *visual)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$19 vi_in;
-  struct anonymous$19 *vi_out;
+  struct anonymous_19 vi_in;
+  struct anonymous_19 *vi_out;
   signed int out_count;
   signed int c;
   vi_in.screen=screen_number(screen);
   vi_in.visualid=XVisualIDFromVisual(visual);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x1), &vi_in, &out_count);
-  if(vi_out == ((struct anonymous$19 *)NULL))
+  if(vi_out == ((struct anonymous_19 *)NULL))
     abort();
 
   c = (vi_out + (signed long int)0)->class;
@@ -14661,17 +14661,17 @@ extern signed int visual_class(struct anonymous$25 *screen, struct anonymous$13 
 
 // visual_depth
 // file ./../utils/visual.h line 17
-extern signed int visual_depth(struct anonymous$25 *screen, struct anonymous$13 *visual)
+extern signed int visual_depth(struct anonymous_25 *screen, struct anonymous_13 *visual)
 {
   struct _XDisplay *dpy = screen->display;
-  struct anonymous$19 vi_in;
-  struct anonymous$19 *vi_out;
+  struct anonymous_19 vi_in;
+  struct anonymous_19 *vi_out;
   signed int out_count;
   signed int d;
   vi_in.screen=screen_number(screen);
   vi_in.visualid=XVisualIDFromVisual(visual);
   vi_out=XGetVisualInfo(dpy, (signed long int)(0x2 | 0x1), &vi_in, &out_count);
-  if(vi_out == ((struct anonymous$19 *)NULL))
+  if(vi_out == ((struct anonymous_19 *)NULL))
     abort();
 
   d = (vi_out + (signed long int)0)->depth;
@@ -14681,18 +14681,18 @@ extern signed int visual_depth(struct anonymous$25 *screen, struct anonymous$13 
 
 // visual_warning
 // file screenhack.c line 341
-static void visual_warning(struct anonymous$25 *screen, unsigned long int window, struct anonymous$13 *visual, unsigned long int cmap, signed int window_p)
+static void visual_warning(struct anonymous_25 *screen, unsigned long int window, struct anonymous_13 *visual, unsigned long int cmap, signed int window_p)
 {
   struct xscreensaver_function_table *ft = xscreensaver_function_table;
   char *visual_string;
   visual_string=get_string_resource(screen->display, "visualID", "VisualID");
-  struct anonymous$13 *desired_visual;
+  struct anonymous_13 *desired_visual;
   desired_visual=pick_visual(screen);
   char win[100l];
   char why[100l];
-  unsigned long int return_value_VirtualRootWindowOfScreen$1;
-  return_value_VirtualRootWindowOfScreen$1=VirtualRootWindowOfScreen(screen);
-  if(window == return_value_VirtualRootWindowOfScreen$1)
+  unsigned long int return_value_VirtualRootWindowOfScreen_1;
+  return_value_VirtualRootWindowOfScreen_1=VirtualRootWindowOfScreen(screen);
+  if(window == return_value_VirtualRootWindowOfScreen_1)
     strcpy(win, "root window");
 
   else
@@ -14702,8 +14702,8 @@ static void visual_warning(struct anonymous$25 *screen, unsigned long int window
 
   else
     strcpy(why, "-root");
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$6;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_6;
   if(!(visual_string == ((char *)NULL)))
   {
     if(!(*visual_string == 0))
@@ -14717,34 +14717,34 @@ static void visual_warning(struct anonymous$25 *screen, unsigned long int window
 
         }
 
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(visual_string, "default");
-      _Bool tmp_if_expr$5;
-      if(return_value_strcmp$3 == 0)
-        tmp_if_expr$5 = (_Bool)1;
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(visual_string, "default");
+      _Bool tmp_if_expr_5;
+      if(return_value_strcmp_3 == 0)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$4=strcmp(visual_string, "default");
-        tmp_if_expr$5 = !(return_value_strcmp$4 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_4=strcmp(visual_string, "default");
+        tmp_if_expr_5 = !(return_value_strcmp_4 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      _Bool tmp_if_expr$7;
-      if(tmp_if_expr$5)
-        tmp_if_expr$7 = (_Bool)1;
+      _Bool tmp_if_expr_7;
+      if(tmp_if_expr_5)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$6=strcmp(visual_string, "best");
-        tmp_if_expr$7 = !(return_value_strcmp$6 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_6=strcmp(visual_string, "best");
+        tmp_if_expr_7 = !(return_value_strcmp_6 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$7)
+      if(!tmp_if_expr_7)
       {
         if(!(visual == desired_visual))
         {
           fprintf(stderr, "%s: ignoring `-visual %s' because of `%s'.\n", progname, visual_string, (const void *)why);
-          unsigned long int return_value_XVisualIDFromVisual$2;
-          return_value_XVisualIDFromVisual$2=XVisualIDFromVisual(visual);
-          fprintf(stderr, "%s: using %s's visual 0x%lx.\n", progname, (const void *)win, return_value_XVisualIDFromVisual$2);
+          unsigned long int return_value_XVisualIDFromVisual_2;
+          return_value_XVisualIDFromVisual_2=XVisualIDFromVisual(visual);
+          fprintf(stderr, "%s: using %s's visual 0x%lx.\n", progname, (const void *)win, return_value_XVisualIDFromVisual_2);
         }
 
       }
@@ -14754,15 +14754,15 @@ static void visual_warning(struct anonymous$25 *screen, unsigned long int window
 
   }
 
-  signed int return_value_has_writable_cells$9;
-  signed int return_value_get_boolean_resource$8;
+  signed int return_value_has_writable_cells_9;
+  signed int return_value_get_boolean_resource_8;
   if(visual == screen->root_visual)
   {
-    return_value_has_writable_cells$9=has_writable_cells(screen, visual);
-    if(!(return_value_has_writable_cells$9 == 0))
+    return_value_has_writable_cells_9=has_writable_cells(screen, visual);
+    if(!(return_value_has_writable_cells_9 == 0))
     {
-      return_value_get_boolean_resource$8=get_boolean_resource(screen->display, "installColormap", "InstallColormap");
-      if(!(return_value_get_boolean_resource$8 == 0))
+      return_value_get_boolean_resource_8=get_boolean_resource(screen->display, "installColormap", "InstallColormap");
+      if(!(return_value_get_boolean_resource_8 == 0))
       {
         fprintf(stderr, "%s: ignoring `-install' because of `%s'.\n", progname, (const void *)why);
         fprintf(stderr, "%s: using %s's colormap 0x%lx.\n", progname, (const void *)win, (unsigned long int)cmap);
@@ -14772,7 +14772,7 @@ static void visual_warning(struct anonymous$25 *screen, unsigned long int window
 
   }
 
-  if(!(ft->validate_visual_hook == ((signed int (*)(struct anonymous$25 *, const char *, struct anonymous$13 *))NULL)))
+  if(!(ft->validate_visual_hook == ((signed int (*)(struct anonymous_25 *, const char *, struct anonymous_13 *))NULL)))
   {
     signed int return_value;
     return_value=ft->validate_visual_hook(screen, win, visual);
@@ -14806,9 +14806,9 @@ extern void ya_rand_init(unsigned int seed)
     seed = seed << 11 | seed >> sizeof(unsigned int) /*4ul*/  * (unsigned long int)8 - (unsigned long int)11;
     seed = seed + (unsigned int)((signed long int)1001 * tp.tv_usec);
     seed = seed << 7 | seed >> sizeof(unsigned int) /*4ul*/  * (unsigned long int)8 - (unsigned long int)7;
-    signed int return_value_getpid$1;
-    return_value_getpid$1=getpid();
-    seed = seed + (unsigned int)(1003 * return_value_getpid$1);
+    signed int return_value_getpid_1;
+    return_value_getpid_1=getpid();
+    seed = seed + (unsigned int)(1003 * return_value_getpid_1);
     seed = seed << 13 | seed >> sizeof(unsigned int) /*4ul*/  * (unsigned long int)8 - (unsigned long int)13;
   }
 

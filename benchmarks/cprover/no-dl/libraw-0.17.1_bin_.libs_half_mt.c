@@ -1,74 +1,74 @@
-// tag-#anon#ST[*{ARR4{U16}$U16$}$ARR4{U16}$U16$$'image'||SYM#tag-#anon#ST[U16'raw_height'||U16'raw_width'||U16'height'||U16'width'||U16'top_margin'||U16'left_margin'||U16'iheight'||U16'iwidth'||U32'raw_pitch'||U32'$pad0'||F64'pixel_aspect'||S32'flip'||ARR8{ARR4{S32}$S32$}$ARR4{S32}$S32$$'mask'||U32'$pad1'|]#'sizes'||SYM#tag-#anon#ST[ARR64{S8}$S8$'make'||ARR64{S8}$S8$'model'||ARR64{S8}$S8$'software'||U32'raw_count'||U32'dng_version'||U32'is_foveon'||S32'colors'||U32'filters'||ARR6{ARR6{S8}$S8$}$ARR6{S8}$S8$$'xtrans'||ARR6{ARR6{S8}$S8$}$ARR6{S8}$S8$$'xtrans_abs'||ARR5{S8}$S8$'cdesc'||U24'$pad0'||U32'xmplen'||*{S8}$S8$'xmpdata'|]#'idata'||SYM#tag-#anon#ST[F32'MinFocal'||F32'MaxFocal'||F32'MaxAp4MinFocal'||F32'MaxAp4MaxFocal'||F32'EXIF_MaxAp'||ARR128{S8}$S8$'LensMake'||ARR128{S8}$S8$'Lens'||U16'FocalLengthIn35mmFormat'||U16'$pad0'||SYM#tag-#anon#ST[F32'NikonEffectiveMaxAp'||U8'NikonLensIDNumber'||U8'NikonLensFStops'||U8'NikonMCUVersion'||U8'NikonLensType'|]#'nikon'||SYM#tag-#anon#ST[F32'MinFocal'||F32'MaxFocal'||F32'MaxAp4MinFocal'||F32'MaxAp4MaxFocal'|]#'dng'||SYM#tag-#anon#ST[U64'LensID'||ARR128{S8}$S8$'Lens'||U16'LensFormat'||U16'LensMount'||U32'$pad0'||U64'CamID'||U16'CameraFormat'||U16'CameraMount'||ARR64{S8}$S8$'body'||S16'FocalType'||ARR16{S8}$S8$'LensFeatures_pre'||ARR16{S8}$S8$'LensFeatures_suf'||U16'$pad1'||F32'MinFocal'||F32'MaxFocal'||F32'MaxAp4MinFocal'||F32'MaxAp4MaxFocal'||F32'MinAp4MinFocal'||F32'MinAp4MaxFocal'||F32'MaxAp'||F32'MinAp'||F32'CurFocal'||F32'CurAp'||F32'MaxAp4CurFocal'||F32'MinAp4CurFocal'||F32'LensFStops'||U32'$pad2'||U64'TeleconverterID'||ARR128{S8}$S8$'Teleconverter'||U64'AdapterID'||ARR128{S8}$S8$'Adapter'||U64'AttachmentID'||ARR128{S8}$S8$'Attachment'||S16'CanonFocalUnits'||U16'$pad3'||F32'FocalLengthIn35mmFormat'|]#'makernotes'|]#'lens'||SYM#tag-#anon#ST[ARR4{U32}$U32$'greybox'||ARR4{U32}$U32$'cropbox'||ARR4{F64}$F64$'aber'||ARR6{F64}$F64$'gamm'||ARR4{F32}$F32$'user_mul'||U32'shot_select'||F32'bright'||F32'threshold'||S32'half_size'||S32'four_color_rgb'||S32'highlight'||S32'use_auto_wb'||S32'use_camera_wb'||S32'use_camera_matrix'||S32'output_color'||*{S8}$S8$'output_profile'||*{S8}$S8$'camera_profile'||*{S8}$S8$'bad_pixels'||*{S8}$S8$'dark_frame'||S32'output_bps'||S32'output_tiff'||S32'user_flip'||S32'user_qual'||S32'user_black'||ARR4{S32}$S32$'user_cblack'||S32'user_sat'||S32'med_passes'||F32'auto_bright_thr'||F32'adjust_maximum_thr'||S32'no_auto_bright'||S32'use_fuji_rotate'||S32'green_matching'||S32'dcb_iterations'||S32'dcb_enhance_fl'||S32'fbdd_noiserd'||S32'eeci_refine'||S32'es_med_passes'||S32'ca_correc'||F32'cared'||F32'cablue'||S32'cfaline'||F32'linenoise'||S32'cfa_clean'||F32'lclean'||F32'cclean'||S32'cfa_green'||F32'green_thresh'||S32'exp_correc'||F32'exp_shift'||F32'exp_preser'||S32'wf_debanding'||ARR4{F32}$F32$'wf_deband_treshold'||S32'use_rawspeed'||S32'no_auto_scale'||S32'no_interpolation'||S32'sraw_ycc'||S32'force_foveon_x3f'||S32'x3f_flags'||S32'sony_arw2_options'||S32'sony_arw2_posterization_thr'||F32'coolscan_nef_gamma'|]#'params'||U32'progress_flags'||U32'process_warnings'||SYM#tag-#anon#ST[ARR65536{U16}$U16$'curve'||ARR4102{U32}$U32$'cblack'||U32'black'||U32'data_maximum'||U32'maximum'||ARR8{ARR8{U16}$U16$}$ARR8{U16}$U16$$'white'||ARR4{F32}$F32$'cam_mul'||ARR4{F32}$F32$'pre_mul'||ARR3{ARR4{F32}$F32$}$ARR4{F32}$F32$$'cmatrix'||ARR3{ARR4{F32}$F32$}$ARR4{F32}$F32$$'rgb_cam'||ARR4{ARR3{F32}$F32$}$ARR3{F32}$F32$$'cam_xyz'||SYM#tag-ph1_t#'phase_one_data'||F32'flash_used'||F32'canon_ev'||ARR64{S8}$S8$'model2'||*{V}$V$'profile'||U32'profile_length'||ARR8{U32}$U32$'black_stat'||ARR2{SYM#tag-#anon#ST[U16'illuminant'||U16'$pad0'||ARR4{ARR4{F32}$F32$}$ARR4{F32}$F32$$'calibration'||ARR4{ARR3{F32}$F32$}$ARR3{F32}$F32$$'colormatrix'|]#}$SYM#tag-#anon#ST[U16'illuminant'||U16'$pad0'||ARR4{ARR4{F32}$F32$}$ARR4{F32}$F32$$'calibration'||ARR4{ARR3{F32}$F32$}$ARR3{F32}$F32$$'colormatrix'|]#$'dng_color'||SYM#tag-#anon#ST[S32'CanonColorDataVer'||S32'CanonColorDataSubVer'||S32'SpecularWhiteLevel'||S32'AverageBlackLevel'|]#'canon_makernotes'||F32'baseline_exposure'||ARR2{S32}$S32$'OlympusSensorCalibration'||F32'FujiExpoMidPointShift'||S32'digitalBack_color'|]#'color'||SYM#tag-#anon#ST[F32'iso_speed'||F32'shutter'||F32'aperture'||F32'focal_len'||S64'timestamp'||U32'shot_order'||ARR32{U32}$U32$'gpsdata'||SYM#tag-#anon#ST[ARR3{F32}$F32$'latitude'||ARR3{F32}$F32$'longtitude'||ARR3{F32}$F32$'gpstimestamp'||F32'altitude'||S8'altref'||S8'latref'||S8'longref'||S8'gpsstatus'||S8'gpsparsed'||U24'$pad0'|]#'parsed_gps'||ARR512{S8}$S8$'desc'||ARR64{S8}$S8$'artist'||U32'$pad0'|]#'other'||SYM#tag-#anon#ST[ENtag-LibRaw_thumbnail_formats#{U32}$U32$'tformat'||U16'twidth'||U16'theight'||U32'tlength'||S32'tcolors'||*{S8}$S8$'thumb'|]#'thumbnail'||SYM#tag-#anon#ST[*{V}$V$'raw_alloc'||*{U16}$U16$'raw_image'||*{ARR4{U16}$U16$}$ARR4{U16}$U16$$'color4_image'||*{ARR3{U16}$U16$}$ARR3{U16}$U16$$'color3_image'||*{ARR2{S16}$S16$}$ARR2{S16}$S16$$'ph1_cblack'||*{ARR2{S16}$S16$}$ARR2{S16}$S16$$'ph1_rblack'||SYM#tag-#anon#ST[ARR64{S8}$S8$'make'||ARR64{S8}$S8$'model'||ARR64{S8}$S8$'software'||U32'raw_count'||U32'dng_version'||U32'is_foveon'||S32'colors'||U32'filters'||ARR6{ARR6{S8}$S8$}$ARR6{S8}$S8$$'xtrans'||ARR6{ARR6{S8}$S8$}$ARR6{S8}$S8$$'xtrans_abs'||ARR5{S8}$S8$'cdesc'||U24'$pad0'||U32'xmplen'||*{S8}$S8$'xmpdata'|]#'iparams'||SYM#tag-#anon#ST[U16'raw_height'||U16'raw_width'||U16'height'||U16'width'||U16'top_margin'||U16'left_margin'||U16'iheight'||U16'iwidth'||U32'raw_pitch'||U32'$pad0'||F64'pixel_aspect'||S32'flip'||ARR8{ARR4{S32}$S32$}$ARR4{S32}$S32$$'mask'||U32'$pad1'|]#'sizes'||SYM#tag-#anon#ST[U32'mix_green'||U32'raw_color'||U32'zero_is_bad'||U16'shrink'||U16'fuji_width'|]#'ioparams'||SYM#tag-#anon#ST[ARR65536{U16}$U16$'curve'||ARR4102{U32}$U32$'cblack'||U32'black'||U32'data_maximum'||U32'maximum'||ARR8{ARR8{U16}$U16$}$ARR8{U16}$U16$$'white'||ARR4{F32}$F32$'cam_mul'||ARR4{F32}$F32$'pre_mul'||ARR3{ARR4{F32}$F32$}$ARR4{F32}$F32$$'cmatrix'||ARR3{ARR4{F32}$F32$}$ARR4{F32}$F32$$'rgb_cam'||ARR4{ARR3{F32}$F32$}$ARR3{F32}$F32$$'cam_xyz'||SYM#tag-ph1_t#'phase_one_data'||F32'flash_used'||F32'canon_ev'||ARR64{S8}$S8$'model2'||*{V}$V$'profile'||U32'profile_length'||ARR8{U32}$U32$'black_stat'||ARR2{SYM#tag-#anon#ST[U16'illuminant'||U16'$pad0'||ARR4{ARR4{F32}$F32$}$ARR4{F32}$F32$$'calibration'||ARR4{ARR3{F32}$F32$}$ARR3{F32}$F32$$'colormatrix'|]#}$SYM#tag-#anon#ST[U16'illuminant'||U16'$pad0'||ARR4{ARR4{F32}$F32$}$ARR4{F32}$F32$$'calibration'||ARR4{ARR3{F32}$F32$}$ARR3{F32}$F32$$'colormatrix'|]#$'dng_color'||SYM#tag-#anon#ST[S32'CanonColorDataVer'||S32'CanonColorDataSubVer'||S32'SpecularWhiteLevel'||S32'AverageBlackLevel'|]#'canon_makernotes'||F32'baseline_exposure'||ARR2{S32}$S32$'OlympusSensorCalibration'||F32'FujiExpoMidPointShift'||S32'digitalBack_color'|]#'color'|]#'rawdata'||*{V}$V$'parent_class'|]
+// tag-#anon#ST[*{ARR4{U16}_U16_}_ARR4{U16}_U16__'image'||SYM#tag-#anon#ST[U16'raw_height'||U16'raw_width'||U16'height'||U16'width'||U16'top_margin'||U16'left_margin'||U16'iheight'||U16'iwidth'||U32'raw_pitch'||U32'_pad0'||F64'pixel_aspect'||S32'flip'||ARR8{ARR4{S32}_S32_}_ARR4{S32}_S32__'mask'||U32'_pad1'|]#'sizes'||SYM#tag-#anon#ST[ARR64{S8}_S8_'make'||ARR64{S8}_S8_'model'||ARR64{S8}_S8_'software'||U32'raw_count'||U32'dng_version'||U32'is_foveon'||S32'colors'||U32'filters'||ARR6{ARR6{S8}_S8_}_ARR6{S8}_S8__'xtrans'||ARR6{ARR6{S8}_S8_}_ARR6{S8}_S8__'xtrans_abs'||ARR5{S8}_S8_'cdesc'||U24'_pad0'||U32'xmplen'||*{S8}_S8_'xmpdata'|]#'idata'||SYM#tag-#anon#ST[F32'MinFocal'||F32'MaxFocal'||F32'MaxAp4MinFocal'||F32'MaxAp4MaxFocal'||F32'EXIF_MaxAp'||ARR128{S8}_S8_'LensMake'||ARR128{S8}_S8_'Lens'||U16'FocalLengthIn35mmFormat'||U16'_pad0'||SYM#tag-#anon#ST[F32'NikonEffectiveMaxAp'||U8'NikonLensIDNumber'||U8'NikonLensFStops'||U8'NikonMCUVersion'||U8'NikonLensType'|]#'nikon'||SYM#tag-#anon#ST[F32'MinFocal'||F32'MaxFocal'||F32'MaxAp4MinFocal'||F32'MaxAp4MaxFocal'|]#'dng'||SYM#tag-#anon#ST[U64'LensID'||ARR128{S8}_S8_'Lens'||U16'LensFormat'||U16'LensMount'||U32'_pad0'||U64'CamID'||U16'CameraFormat'||U16'CameraMount'||ARR64{S8}_S8_'body'||S16'FocalType'||ARR16{S8}_S8_'LensFeatures_pre'||ARR16{S8}_S8_'LensFeatures_suf'||U16'_pad1'||F32'MinFocal'||F32'MaxFocal'||F32'MaxAp4MinFocal'||F32'MaxAp4MaxFocal'||F32'MinAp4MinFocal'||F32'MinAp4MaxFocal'||F32'MaxAp'||F32'MinAp'||F32'CurFocal'||F32'CurAp'||F32'MaxAp4CurFocal'||F32'MinAp4CurFocal'||F32'LensFStops'||U32'_pad2'||U64'TeleconverterID'||ARR128{S8}_S8_'Teleconverter'||U64'AdapterID'||ARR128{S8}_S8_'Adapter'||U64'AttachmentID'||ARR128{S8}_S8_'Attachment'||S16'CanonFocalUnits'||U16'_pad3'||F32'FocalLengthIn35mmFormat'|]#'makernotes'|]#'lens'||SYM#tag-#anon#ST[ARR4{U32}_U32_'greybox'||ARR4{U32}_U32_'cropbox'||ARR4{F64}_F64_'aber'||ARR6{F64}_F64_'gamm'||ARR4{F32}_F32_'user_mul'||U32'shot_select'||F32'bright'||F32'threshold'||S32'half_size'||S32'four_color_rgb'||S32'highlight'||S32'use_auto_wb'||S32'use_camera_wb'||S32'use_camera_matrix'||S32'output_color'||*{S8}_S8_'output_profile'||*{S8}_S8_'camera_profile'||*{S8}_S8_'bad_pixels'||*{S8}_S8_'dark_frame'||S32'output_bps'||S32'output_tiff'||S32'user_flip'||S32'user_qual'||S32'user_black'||ARR4{S32}_S32_'user_cblack'||S32'user_sat'||S32'med_passes'||F32'auto_bright_thr'||F32'adjust_maximum_thr'||S32'no_auto_bright'||S32'use_fuji_rotate'||S32'green_matching'||S32'dcb_iterations'||S32'dcb_enhance_fl'||S32'fbdd_noiserd'||S32'eeci_refine'||S32'es_med_passes'||S32'ca_correc'||F32'cared'||F32'cablue'||S32'cfaline'||F32'linenoise'||S32'cfa_clean'||F32'lclean'||F32'cclean'||S32'cfa_green'||F32'green_thresh'||S32'exp_correc'||F32'exp_shift'||F32'exp_preser'||S32'wf_debanding'||ARR4{F32}_F32_'wf_deband_treshold'||S32'use_rawspeed'||S32'no_auto_scale'||S32'no_interpolation'||S32'sraw_ycc'||S32'force_foveon_x3f'||S32'x3f_flags'||S32'sony_arw2_options'||S32'sony_arw2_posterization_thr'||F32'coolscan_nef_gamma'|]#'params'||U32'progress_flags'||U32'process_warnings'||SYM#tag-#anon#ST[ARR65536{U16}_U16_'curve'||ARR4102{U32}_U32_'cblack'||U32'black'||U32'data_maximum'||U32'maximum'||ARR8{ARR8{U16}_U16_}_ARR8{U16}_U16__'white'||ARR4{F32}_F32_'cam_mul'||ARR4{F32}_F32_'pre_mul'||ARR3{ARR4{F32}_F32_}_ARR4{F32}_F32__'cmatrix'||ARR3{ARR4{F32}_F32_}_ARR4{F32}_F32__'rgb_cam'||ARR4{ARR3{F32}_F32_}_ARR3{F32}_F32__'cam_xyz'||SYM#tag-ph1_t#'phase_one_data'||F32'flash_used'||F32'canon_ev'||ARR64{S8}_S8_'model2'||*{V}_V_'profile'||U32'profile_length'||ARR8{U32}_U32_'black_stat'||ARR2{SYM#tag-#anon#ST[U16'illuminant'||U16'_pad0'||ARR4{ARR4{F32}_F32_}_ARR4{F32}_F32__'calibration'||ARR4{ARR3{F32}_F32_}_ARR3{F32}_F32__'colormatrix'|]#}_SYM#tag-#anon#ST[U16'illuminant'||U16'_pad0'||ARR4{ARR4{F32}_F32_}_ARR4{F32}_F32__'calibration'||ARR4{ARR3{F32}_F32_}_ARR3{F32}_F32__'colormatrix'|]#_'dng_color'||SYM#tag-#anon#ST[S32'CanonColorDataVer'||S32'CanonColorDataSubVer'||S32'SpecularWhiteLevel'||S32'AverageBlackLevel'|]#'canon_makernotes'||F32'baseline_exposure'||ARR2{S32}_S32_'OlympusSensorCalibration'||F32'FujiExpoMidPointShift'||S32'digitalBack_color'|]#'color'||SYM#tag-#anon#ST[F32'iso_speed'||F32'shutter'||F32'aperture'||F32'focal_len'||S64'timestamp'||U32'shot_order'||ARR32{U32}_U32_'gpsdata'||SYM#tag-#anon#ST[ARR3{F32}_F32_'latitude'||ARR3{F32}_F32_'longtitude'||ARR3{F32}_F32_'gpstimestamp'||F32'altitude'||S8'altref'||S8'latref'||S8'longref'||S8'gpsstatus'||S8'gpsparsed'||U24'_pad0'|]#'parsed_gps'||ARR512{S8}_S8_'desc'||ARR64{S8}_S8_'artist'||U32'_pad0'|]#'other'||SYM#tag-#anon#ST[ENtag-LibRaw_thumbnail_formats#{U32}_U32_'tformat'||U16'twidth'||U16'theight'||U32'tlength'||S32'tcolors'||*{S8}_S8_'thumb'|]#'thumbnail'||SYM#tag-#anon#ST[*{V}_V_'raw_alloc'||*{U16}_U16_'raw_image'||*{ARR4{U16}_U16_}_ARR4{U16}_U16__'color4_image'||*{ARR3{U16}_U16_}_ARR3{U16}_U16__'color3_image'||*{ARR2{S16}_S16_}_ARR2{S16}_S16__'ph1_cblack'||*{ARR2{S16}_S16_}_ARR2{S16}_S16__'ph1_rblack'||SYM#tag-#anon#ST[ARR64{S8}_S8_'make'||ARR64{S8}_S8_'model'||ARR64{S8}_S8_'software'||U32'raw_count'||U32'dng_version'||U32'is_foveon'||S32'colors'||U32'filters'||ARR6{ARR6{S8}_S8_}_ARR6{S8}_S8__'xtrans'||ARR6{ARR6{S8}_S8_}_ARR6{S8}_S8__'xtrans_abs'||ARR5{S8}_S8_'cdesc'||U24'_pad0'||U32'xmplen'||*{S8}_S8_'xmpdata'|]#'iparams'||SYM#tag-#anon#ST[U16'raw_height'||U16'raw_width'||U16'height'||U16'width'||U16'top_margin'||U16'left_margin'||U16'iheight'||U16'iwidth'||U32'raw_pitch'||U32'_pad0'||F64'pixel_aspect'||S32'flip'||ARR8{ARR4{S32}_S32_}_ARR4{S32}_S32__'mask'||U32'_pad1'|]#'sizes'||SYM#tag-#anon#ST[U32'mix_green'||U32'raw_color'||U32'zero_is_bad'||U16'shrink'||U16'fuji_width'|]#'ioparams'||SYM#tag-#anon#ST[ARR65536{U16}_U16_'curve'||ARR4102{U32}_U32_'cblack'||U32'black'||U32'data_maximum'||U32'maximum'||ARR8{ARR8{U16}_U16_}_ARR8{U16}_U16__'white'||ARR4{F32}_F32_'cam_mul'||ARR4{F32}_F32_'pre_mul'||ARR3{ARR4{F32}_F32_}_ARR4{F32}_F32__'cmatrix'||ARR3{ARR4{F32}_F32_}_ARR4{F32}_F32__'rgb_cam'||ARR4{ARR3{F32}_F32_}_ARR3{F32}_F32__'cam_xyz'||SYM#tag-ph1_t#'phase_one_data'||F32'flash_used'||F32'canon_ev'||ARR64{S8}_S8_'model2'||*{V}_V_'profile'||U32'profile_length'||ARR8{U32}_U32_'black_stat'||ARR2{SYM#tag-#anon#ST[U16'illuminant'||U16'_pad0'||ARR4{ARR4{F32}_F32_}_ARR4{F32}_F32__'calibration'||ARR4{ARR3{F32}_F32_}_ARR3{F32}_F32__'colormatrix'|]#}_SYM#tag-#anon#ST[U16'illuminant'||U16'_pad0'||ARR4{ARR4{F32}_F32_}_ARR4{F32}_F32__'calibration'||ARR4{ARR3{F32}_F32_}_ARR3{F32}_F32__'colormatrix'|]#_'dng_color'||SYM#tag-#anon#ST[S32'CanonColorDataVer'||S32'CanonColorDataSubVer'||S32'SpecularWhiteLevel'||S32'AverageBlackLevel'|]#'canon_makernotes'||F32'baseline_exposure'||ARR2{S32}_S32_'OlympusSensorCalibration'||F32'FujiExpoMidPointShift'||S32'digitalBack_color'|]#'color'|]#'rawdata'||*{V}_V_'parent_class'|]
 // file ./libraw/libraw_types.h line 421
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[*{V}$V$'raw_alloc'||*{U16}$U16$'raw_image'||*{ARR4{U16}$U16$}$ARR4{U16}$U16$$'color4_image'||*{ARR3{U16}$U16$}$ARR3{U16}$U16$$'color3_image'||*{ARR2{S16}$S16$}$ARR2{S16}$S16$$'ph1_cblack'||*{ARR2{S16}$S16$}$ARR2{S16}$S16$$'ph1_rblack'||SYM#tag-#anon#ST[ARR64{S8}$S8$'make'||ARR64{S8}$S8$'model'||ARR64{S8}$S8$'software'||U32'raw_count'||U32'dng_version'||U32'is_foveon'||S32'colors'||U32'filters'||ARR6{ARR6{S8}$S8$}$ARR6{S8}$S8$$'xtrans'||ARR6{ARR6{S8}$S8$}$ARR6{S8}$S8$$'xtrans_abs'||ARR5{S8}$S8$'cdesc'||U24'$pad0'||U32'xmplen'||*{S8}$S8$'xmpdata'|]#'iparams'||SYM#tag-#anon#ST[U16'raw_height'||U16'raw_width'||U16'height'||U16'width'||U16'top_margin'||U16'left_margin'||U16'iheight'||U16'iwidth'||U32'raw_pitch'||U32'$pad0'||F64'pixel_aspect'||S32'flip'||ARR8{ARR4{S32}$S32$}$ARR4{S32}$S32$$'mask'||U32'$pad1'|]#'sizes'||SYM#tag-#anon#ST[U32'mix_green'||U32'raw_color'||U32'zero_is_bad'||U16'shrink'||U16'fuji_width'|]#'ioparams'||SYM#tag-#anon#ST[ARR65536{U16}$U16$'curve'||ARR4102{U32}$U32$'cblack'||U32'black'||U32'data_maximum'||U32'maximum'||ARR8{ARR8{U16}$U16$}$ARR8{U16}$U16$$'white'||ARR4{F32}$F32$'cam_mul'||ARR4{F32}$F32$'pre_mul'||ARR3{ARR4{F32}$F32$}$ARR4{F32}$F32$$'cmatrix'||ARR3{ARR4{F32}$F32$}$ARR4{F32}$F32$$'rgb_cam'||ARR4{ARR3{F32}$F32$}$ARR3{F32}$F32$$'cam_xyz'||SYM#tag-ph1_t#'phase_one_data'||F32'flash_used'||F32'canon_ev'||ARR64{S8}$S8$'model2'||*{V}$V$'profile'||U32'profile_length'||ARR8{U32}$U32$'black_stat'||ARR2{SYM#tag-#anon#ST[U16'illuminant'||U16'$pad0'||ARR4{ARR4{F32}$F32$}$ARR4{F32}$F32$$'calibration'||ARR4{ARR3{F32}$F32$}$ARR3{F32}$F32$$'colormatrix'|]#}$SYM#tag-#anon#ST[U16'illuminant'||U16'$pad0'||ARR4{ARR4{F32}$F32$}$ARR4{F32}$F32$$'calibration'||ARR4{ARR3{F32}$F32$}$ARR3{F32}$F32$$'colormatrix'|]#$'dng_color'||SYM#tag-#anon#ST[S32'CanonColorDataVer'||S32'CanonColorDataSubVer'||S32'SpecularWhiteLevel'||S32'AverageBlackLevel'|]#'canon_makernotes'||F32'baseline_exposure'||ARR2{S32}$S32$'OlympusSensorCalibration'||F32'FujiExpoMidPointShift'||S32'digitalBack_color'|]#'color'|]
+// tag-#anon#ST[*{V}_V_'raw_alloc'||*{U16}_U16_'raw_image'||*{ARR4{U16}_U16_}_ARR4{U16}_U16__'color4_image'||*{ARR3{U16}_U16_}_ARR3{U16}_U16__'color3_image'||*{ARR2{S16}_S16_}_ARR2{S16}_S16__'ph1_cblack'||*{ARR2{S16}_S16_}_ARR2{S16}_S16__'ph1_rblack'||SYM#tag-#anon#ST[ARR64{S8}_S8_'make'||ARR64{S8}_S8_'model'||ARR64{S8}_S8_'software'||U32'raw_count'||U32'dng_version'||U32'is_foveon'||S32'colors'||U32'filters'||ARR6{ARR6{S8}_S8_}_ARR6{S8}_S8__'xtrans'||ARR6{ARR6{S8}_S8_}_ARR6{S8}_S8__'xtrans_abs'||ARR5{S8}_S8_'cdesc'||U24'_pad0'||U32'xmplen'||*{S8}_S8_'xmpdata'|]#'iparams'||SYM#tag-#anon#ST[U16'raw_height'||U16'raw_width'||U16'height'||U16'width'||U16'top_margin'||U16'left_margin'||U16'iheight'||U16'iwidth'||U32'raw_pitch'||U32'_pad0'||F64'pixel_aspect'||S32'flip'||ARR8{ARR4{S32}_S32_}_ARR4{S32}_S32__'mask'||U32'_pad1'|]#'sizes'||SYM#tag-#anon#ST[U32'mix_green'||U32'raw_color'||U32'zero_is_bad'||U16'shrink'||U16'fuji_width'|]#'ioparams'||SYM#tag-#anon#ST[ARR65536{U16}_U16_'curve'||ARR4102{U32}_U32_'cblack'||U32'black'||U32'data_maximum'||U32'maximum'||ARR8{ARR8{U16}_U16_}_ARR8{U16}_U16__'white'||ARR4{F32}_F32_'cam_mul'||ARR4{F32}_F32_'pre_mul'||ARR3{ARR4{F32}_F32_}_ARR4{F32}_F32__'cmatrix'||ARR3{ARR4{F32}_F32_}_ARR4{F32}_F32__'rgb_cam'||ARR4{ARR3{F32}_F32_}_ARR3{F32}_F32__'cam_xyz'||SYM#tag-ph1_t#'phase_one_data'||F32'flash_used'||F32'canon_ev'||ARR64{S8}_S8_'model2'||*{V}_V_'profile'||U32'profile_length'||ARR8{U32}_U32_'black_stat'||ARR2{SYM#tag-#anon#ST[U16'illuminant'||U16'_pad0'||ARR4{ARR4{F32}_F32_}_ARR4{F32}_F32__'calibration'||ARR4{ARR3{F32}_F32_}_ARR3{F32}_F32__'colormatrix'|]#}_SYM#tag-#anon#ST[U16'illuminant'||U16'_pad0'||ARR4{ARR4{F32}_F32_}_ARR4{F32}_F32__'calibration'||ARR4{ARR3{F32}_F32_}_ARR3{F32}_F32__'colormatrix'|]#_'dng_color'||SYM#tag-#anon#ST[S32'CanonColorDataVer'||S32'CanonColorDataSubVer'||S32'SpecularWhiteLevel'||S32'AverageBlackLevel'|]#'canon_makernotes'||F32'baseline_exposure'||ARR2{S32}_S32_'OlympusSensorCalibration'||F32'FujiExpoMidPointShift'||S32'digitalBack_color'|]#'color'|]
 // file ./libraw/libraw_types.h line 350
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[ARR3{F32}$F32$'latitude'||ARR3{F32}$F32$'longtitude'||ARR3{F32}$F32$'gpstimestamp'||F32'altitude'||S8'altref'||S8'latref'||S8'longref'||S8'gpsstatus'||S8'gpsparsed'||U24'$pad0'|]
+// tag-#anon#ST[ARR3{F32}_F32_'latitude'||ARR3{F32}_F32_'longtitude'||ARR3{F32}_F32_'gpstimestamp'||F32'altitude'||S8'altref'||S8'latref'||S8'longref'||S8'gpsstatus'||S8'gpsparsed'||U24'_pad0'|]
 // file ./libraw/libraw_types.h line 248
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[ARR4{U32}$U32$'greybox'||ARR4{U32}$U32$'cropbox'||ARR4{F64}$F64$'aber'||ARR6{F64}$F64$'gamm'||ARR4{F32}$F32$'user_mul'||U32'shot_select'||F32'bright'||F32'threshold'||S32'half_size'||S32'four_color_rgb'||S32'highlight'||S32'use_auto_wb'||S32'use_camera_wb'||S32'use_camera_matrix'||S32'output_color'||*{S8}$S8$'output_profile'||*{S8}$S8$'camera_profile'||*{S8}$S8$'bad_pixels'||*{S8}$S8$'dark_frame'||S32'output_bps'||S32'output_tiff'||S32'user_flip'||S32'user_qual'||S32'user_black'||ARR4{S32}$S32$'user_cblack'||S32'user_sat'||S32'med_passes'||F32'auto_bright_thr'||F32'adjust_maximum_thr'||S32'no_auto_bright'||S32'use_fuji_rotate'||S32'green_matching'||S32'dcb_iterations'||S32'dcb_enhance_fl'||S32'fbdd_noiserd'||S32'eeci_refine'||S32'es_med_passes'||S32'ca_correc'||F32'cared'||F32'cablue'||S32'cfaline'||F32'linenoise'||S32'cfa_clean'||F32'lclean'||F32'cclean'||S32'cfa_green'||F32'green_thresh'||S32'exp_correc'||F32'exp_shift'||F32'exp_preser'||S32'wf_debanding'||ARR4{F32}$F32$'wf_deband_treshold'||S32'use_rawspeed'||S32'no_auto_scale'||S32'no_interpolation'||S32'sraw_ycc'||S32'force_foveon_x3f'||S32'x3f_flags'||S32'sony_arw2_options'||S32'sony_arw2_posterization_thr'||F32'coolscan_nef_gamma'|]
+// tag-#anon#ST[ARR4{U32}_U32_'greybox'||ARR4{U32}_U32_'cropbox'||ARR4{F64}_F64_'aber'||ARR6{F64}_F64_'gamm'||ARR4{F32}_F32_'user_mul'||U32'shot_select'||F32'bright'||F32'threshold'||S32'half_size'||S32'four_color_rgb'||S32'highlight'||S32'use_auto_wb'||S32'use_camera_wb'||S32'use_camera_matrix'||S32'output_color'||*{S8}_S8_'output_profile'||*{S8}_S8_'camera_profile'||*{S8}_S8_'bad_pixels'||*{S8}_S8_'dark_frame'||S32'output_bps'||S32'output_tiff'||S32'user_flip'||S32'user_qual'||S32'user_black'||ARR4{S32}_S32_'user_cblack'||S32'user_sat'||S32'med_passes'||F32'auto_bright_thr'||F32'adjust_maximum_thr'||S32'no_auto_bright'||S32'use_fuji_rotate'||S32'green_matching'||S32'dcb_iterations'||S32'dcb_enhance_fl'||S32'fbdd_noiserd'||S32'eeci_refine'||S32'es_med_passes'||S32'ca_correc'||F32'cared'||F32'cablue'||S32'cfaline'||F32'linenoise'||S32'cfa_clean'||F32'lclean'||F32'cclean'||S32'cfa_green'||F32'green_thresh'||S32'exp_correc'||F32'exp_shift'||F32'exp_preser'||S32'wf_debanding'||ARR4{F32}_F32_'wf_deband_treshold'||S32'use_rawspeed'||S32'no_auto_scale'||S32'no_interpolation'||S32'sraw_ycc'||S32'force_foveon_x3f'||S32'x3f_flags'||S32'sony_arw2_options'||S32'sony_arw2_posterization_thr'||F32'coolscan_nef_gamma'|]
 // file ./libraw/libraw_types.h line 273
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[ARR64{S8}$S8$'make'||ARR64{S8}$S8$'model'||ARR64{S8}$S8$'software'||U32'raw_count'||U32'dng_version'||U32'is_foveon'||S32'colors'||U32'filters'||ARR6{ARR6{S8}$S8$}$ARR6{S8}$S8$$'xtrans'||ARR6{ARR6{S8}$S8$}$ARR6{S8}$S8$$'xtrans_abs'||ARR5{S8}$S8$'cdesc'||U24'$pad0'||U32'xmplen'||*{S8}$S8$'xmpdata'|]
+// tag-#anon#ST[ARR64{S8}_S8_'make'||ARR64{S8}_S8_'model'||ARR64{S8}_S8_'software'||U32'raw_count'||U32'dng_version'||U32'is_foveon'||S32'colors'||U32'filters'||ARR6{ARR6{S8}_S8_}_ARR6{S8}_S8__'xtrans'||ARR6{ARR6{S8}_S8_}_ARR6{S8}_S8__'xtrans_abs'||ARR5{S8}_S8_'cdesc'||U24'_pad0'||U32'xmplen'||*{S8}_S8_'xmpdata'|]
 // file ./libraw/libraw_types.h line 152
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[ARR65536{U16}$U16$'curve'||ARR4102{U32}$U32$'cblack'||U32'black'||U32'data_maximum'||U32'maximum'||ARR8{ARR8{U16}$U16$}$ARR8{U16}$U16$$'white'||ARR4{F32}$F32$'cam_mul'||ARR4{F32}$F32$'pre_mul'||ARR3{ARR4{F32}$F32$}$ARR4{F32}$F32$$'cmatrix'||ARR3{ARR4{F32}$F32$}$ARR4{F32}$F32$$'rgb_cam'||ARR4{ARR3{F32}$F32$}$ARR3{F32}$F32$$'cam_xyz'||SYM#tag-ph1_t#'phase_one_data'||F32'flash_used'||F32'canon_ev'||ARR64{S8}$S8$'model2'||*{V}$V$'profile'||U32'profile_length'||ARR8{U32}$U32$'black_stat'||ARR2{SYM#tag-#anon#ST[U16'illuminant'||U16'$pad0'||ARR4{ARR4{F32}$F32$}$ARR4{F32}$F32$$'calibration'||ARR4{ARR3{F32}$F32$}$ARR3{F32}$F32$$'colormatrix'|]#}$SYM#tag-#anon#ST[U16'illuminant'||U16'$pad0'||ARR4{ARR4{F32}$F32$}$ARR4{F32}$F32$$'calibration'||ARR4{ARR3{F32}$F32$}$ARR3{F32}$F32$$'colormatrix'|]#$'dng_color'||SYM#tag-#anon#ST[S32'CanonColorDataVer'||S32'CanonColorDataSubVer'||S32'SpecularWhiteLevel'||S32'AverageBlackLevel'|]#'canon_makernotes'||F32'baseline_exposure'||ARR2{S32}$S32$'OlympusSensorCalibration'||F32'FujiExpoMidPointShift'||S32'digitalBack_color'|]
+// tag-#anon#ST[ARR65536{U16}_U16_'curve'||ARR4102{U32}_U32_'cblack'||U32'black'||U32'data_maximum'||U32'maximum'||ARR8{ARR8{U16}_U16_}_ARR8{U16}_U16__'white'||ARR4{F32}_F32_'cam_mul'||ARR4{F32}_F32_'pre_mul'||ARR3{ARR4{F32}_F32_}_ARR4{F32}_F32__'cmatrix'||ARR3{ARR4{F32}_F32_}_ARR4{F32}_F32__'rgb_cam'||ARR4{ARR3{F32}_F32_}_ARR3{F32}_F32__'cam_xyz'||SYM#tag-ph1_t#'phase_one_data'||F32'flash_used'||F32'canon_ev'||ARR64{S8}_S8_'model2'||*{V}_V_'profile'||U32'profile_length'||ARR8{U32}_U32_'black_stat'||ARR2{SYM#tag-#anon#ST[U16'illuminant'||U16'_pad0'||ARR4{ARR4{F32}_F32_}_ARR4{F32}_F32__'calibration'||ARR4{ARR3{F32}_F32_}_ARR3{F32}_F32__'colormatrix'|]#}_SYM#tag-#anon#ST[U16'illuminant'||U16'_pad0'||ARR4{ARR4{F32}_F32_}_ARR4{F32}_F32__'calibration'||ARR4{ARR3{F32}_F32_}_ARR3{F32}_F32__'colormatrix'|]#_'dng_color'||SYM#tag-#anon#ST[S32'CanonColorDataVer'||S32'CanonColorDataSubVer'||S32'SpecularWhiteLevel'||S32'AverageBlackLevel'|]#'canon_makernotes'||F32'baseline_exposure'||ARR2{S32}_S32_'OlympusSensorCalibration'||F32'FujiExpoMidPointShift'||S32'digitalBack_color'|]
 // file ./libraw/libraw_types.h line 209
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[ENtag-LibRaw_thumbnail_formats#{U32}$U32$'tformat'||U16'twidth'||U16'theight'||U32'tlength'||S32'tcolors'||*{S8}$S8$'thumb'|]
+// tag-#anon#ST[ENtag-LibRaw_thumbnail_formats#{U32}_U32_'tformat'||U16'twidth'||U16'theight'||U32'tlength'||S32'tcolors'||*{S8}_S8_'thumb'|]
 // file ./libraw/libraw_types.h line 237
-struct anonymous$5;
+struct anonymous_5;
 
 // tag-#anon#ST[F32'MinFocal'||F32'MaxFocal'||F32'MaxAp4MinFocal'||F32'MaxAp4MaxFocal'|]
 // file ./libraw/libraw_types.h line 405
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[F32'MinFocal'||F32'MaxFocal'||F32'MaxAp4MinFocal'||F32'MaxAp4MaxFocal'||F32'EXIF_MaxAp'||ARR128{S8}$S8$'LensMake'||ARR128{S8}$S8$'Lens'||U16'FocalLengthIn35mmFormat'||U16'$pad0'||SYM#tag-#anon#ST[F32'NikonEffectiveMaxAp'||U8'NikonLensIDNumber'||U8'NikonLensFStops'||U8'NikonMCUVersion'||U8'NikonLensType'|]#'nikon'||SYM#tag-#anon#ST[F32'MinFocal'||F32'MaxFocal'||F32'MaxAp4MinFocal'||F32'MaxAp4MaxFocal'|]#'dng'||SYM#tag-#anon#ST[U64'LensID'||ARR128{S8}$S8$'Lens'||U16'LensFormat'||U16'LensMount'||U32'$pad0'||U64'CamID'||U16'CameraFormat'||U16'CameraMount'||ARR64{S8}$S8$'body'||S16'FocalType'||ARR16{S8}$S8$'LensFeatures_pre'||ARR16{S8}$S8$'LensFeatures_suf'||U16'$pad1'||F32'MinFocal'||F32'MaxFocal'||F32'MaxAp4MinFocal'||F32'MaxAp4MaxFocal'||F32'MinAp4MinFocal'||F32'MinAp4MaxFocal'||F32'MaxAp'||F32'MinAp'||F32'CurFocal'||F32'CurAp'||F32'MaxAp4CurFocal'||F32'MinAp4CurFocal'||F32'LensFStops'||U32'$pad2'||U64'TeleconverterID'||ARR128{S8}$S8$'Teleconverter'||U64'AdapterID'||ARR128{S8}$S8$'Adapter'||U64'AttachmentID'||ARR128{S8}$S8$'Attachment'||S16'CanonFocalUnits'||U16'$pad3'||F32'FocalLengthIn35mmFormat'|]#'makernotes'|]
+// tag-#anon#ST[F32'MinFocal'||F32'MaxFocal'||F32'MaxAp4MinFocal'||F32'MaxAp4MaxFocal'||F32'EXIF_MaxAp'||ARR128{S8}_S8_'LensMake'||ARR128{S8}_S8_'Lens'||U16'FocalLengthIn35mmFormat'||U16'_pad0'||SYM#tag-#anon#ST[F32'NikonEffectiveMaxAp'||U8'NikonLensIDNumber'||U8'NikonLensFStops'||U8'NikonMCUVersion'||U8'NikonLensType'|]#'nikon'||SYM#tag-#anon#ST[F32'MinFocal'||F32'MaxFocal'||F32'MaxAp4MinFocal'||F32'MaxAp4MaxFocal'|]#'dng'||SYM#tag-#anon#ST[U64'LensID'||ARR128{S8}_S8_'Lens'||U16'LensFormat'||U16'LensMount'||U32'_pad0'||U64'CamID'||U16'CameraFormat'||U16'CameraMount'||ARR64{S8}_S8_'body'||S16'FocalType'||ARR16{S8}_S8_'LensFeatures_pre'||ARR16{S8}_S8_'LensFeatures_suf'||U16'_pad1'||F32'MinFocal'||F32'MaxFocal'||F32'MaxAp4MinFocal'||F32'MaxAp4MaxFocal'||F32'MinAp4MinFocal'||F32'MinAp4MaxFocal'||F32'MaxAp'||F32'MinAp'||F32'CurFocal'||F32'CurAp'||F32'MaxAp4CurFocal'||F32'MinAp4CurFocal'||F32'LensFStops'||U32'_pad2'||U64'TeleconverterID'||ARR128{S8}_S8_'Teleconverter'||U64'AdapterID'||ARR128{S8}_S8_'Adapter'||U64'AttachmentID'||ARR128{S8}_S8_'Attachment'||S16'CanonFocalUnits'||U16'_pad3'||F32'FocalLengthIn35mmFormat'|]#'makernotes'|]
 // file ./libraw/libraw_types.h line 410
-struct anonymous$2;
+struct anonymous_2;
 
 // tag-#anon#ST[F32'NikonEffectiveMaxAp'||U8'NikonLensIDNumber'||U8'NikonLensFStops'||U8'NikonMCUVersion'||U8'NikonLensType'|]
 // file ./libraw/libraw_types.h line 399
 struct anonymous;
 
-// tag-#anon#ST[F32'iso_speed'||F32'shutter'||F32'aperture'||F32'focal_len'||S64'timestamp'||U32'shot_order'||ARR32{U32}$U32$'gpsdata'||SYM#tag-#anon#ST[ARR3{F32}$F32$'latitude'||ARR3{F32}$F32$'longtitude'||ARR3{F32}$F32$'gpstimestamp'||F32'altitude'||S8'altref'||S8'latref'||S8'longref'||S8'gpsstatus'||S8'gpsparsed'||U24'$pad0'|]#'parsed_gps'||ARR512{S8}$S8$'desc'||ARR64{S8}$S8$'artist'||U32'$pad0'|]
+// tag-#anon#ST[F32'iso_speed'||F32'shutter'||F32'aperture'||F32'focal_len'||S64'timestamp'||U32'shot_order'||ARR32{U32}_U32_'gpsdata'||SYM#tag-#anon#ST[ARR3{F32}_F32_'latitude'||ARR3{F32}_F32_'longtitude'||ARR3{F32}_F32_'gpstimestamp'||F32'altitude'||S8'altref'||S8'latref'||S8'longref'||S8'gpsstatus'||S8'gpsparsed'||U24'_pad0'|]#'parsed_gps'||ARR512{S8}_S8_'desc'||ARR64{S8}_S8_'artist'||U32'_pad0'|]
 // file ./libraw/libraw_types.h line 259
-struct anonymous$10;
+struct anonymous_10;
 
 // tag-#anon#ST[S32'CanonColorDataVer'||S32'CanonColorDataSubVer'||S32'SpecularWhiteLevel'||S32'AverageBlackLevel'|]
 // file ./libraw/libraw_types.h line 201
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[U16'illuminant'||U16'$pad0'||ARR4{ARR4{F32}$F32$}$ARR4{F32}$F32$$'calibration'||ARR4{ARR3{F32}$F32$}$ARR3{F32}$F32$$'colormatrix'|]
+// tag-#anon#ST[U16'illuminant'||U16'_pad0'||ARR4{ARR4{F32}_F32_}_ARR4{F32}_F32__'calibration'||ARR4{ARR3{F32}_F32_}_ARR3{F32}_F32__'colormatrix'|]
 // file ./libraw/libraw_types.h line 194
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[U16'raw_height'||U16'raw_width'||U16'height'||U16'width'||U16'top_margin'||U16'left_margin'||U16'iheight'||U16'iwidth'||U32'raw_pitch'||U32'$pad0'||F64'pixel_aspect'||S32'flip'||ARR8{ARR4{S32}$S32$}$ARR4{S32}$S32$$'mask'||U32'$pad1'|]
+// tag-#anon#ST[U16'raw_height'||U16'raw_width'||U16'height'||U16'width'||U16'top_margin'||U16'left_margin'||U16'iheight'||U16'iwidth'||U32'raw_pitch'||U32'_pad0'||F64'pixel_aspect'||S32'flip'||ARR8{ARR4{S32}_S32_}_ARR4{S32}_S32__'mask'||U32'_pad1'|]
 // file ./libraw/libraw_types.h line 170
-struct anonymous$0;
+struct anonymous_0;
 
 // tag-#anon#ST[U32'mix_green'||U32'raw_color'||U32'zero_is_bad'||U16'shrink'||U16'fuji_width'|]
 // file ./libraw/libraw_types.h line 103
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[U64'LensID'||ARR128{S8}$S8$'Lens'||U16'LensFormat'||U16'LensMount'||U32'$pad0'||U64'CamID'||U16'CameraFormat'||U16'CameraMount'||ARR64{S8}$S8$'body'||S16'FocalType'||ARR16{S8}$S8$'LensFeatures_pre'||ARR16{S8}$S8$'LensFeatures_suf'||U16'$pad1'||F32'MinFocal'||F32'MaxFocal'||F32'MaxAp4MinFocal'||F32'MaxAp4MaxFocal'||F32'MinAp4MinFocal'||F32'MinAp4MaxFocal'||F32'MaxAp'||F32'MinAp'||F32'CurFocal'||F32'CurAp'||F32'MaxAp4CurFocal'||F32'MinAp4CurFocal'||F32'LensFStops'||U32'$pad2'||U64'TeleconverterID'||ARR128{S8}$S8$'Teleconverter'||U64'AdapterID'||ARR128{S8}$S8$'Adapter'||U64'AttachmentID'||ARR128{S8}$S8$'Attachment'||S16'CanonFocalUnits'||U16'$pad3'||F32'FocalLengthIn35mmFormat'|]
+// tag-#anon#ST[U64'LensID'||ARR128{S8}_S8_'Lens'||U16'LensFormat'||U16'LensMount'||U32'_pad0'||U64'CamID'||U16'CameraFormat'||U16'CameraMount'||ARR64{S8}_S8_'body'||S16'FocalType'||ARR16{S8}_S8_'LensFeatures_pre'||ARR16{S8}_S8_'LensFeatures_suf'||U16'_pad1'||F32'MinFocal'||F32'MaxFocal'||F32'MaxAp4MinFocal'||F32'MaxAp4MaxFocal'||F32'MinAp4MinFocal'||F32'MinAp4MaxFocal'||F32'MaxAp'||F32'MinAp'||F32'CurFocal'||F32'CurAp'||F32'MaxAp4CurFocal'||F32'MinAp4CurFocal'||F32'LensFStops'||U32'_pad2'||U64'TeleconverterID'||ARR128{S8}_S8_'Teleconverter'||U64'AdapterID'||ARR128{S8}_S8_'Adapter'||U64'AttachmentID'||ARR128{S8}_S8_'Attachment'||S16'CanonFocalUnits'||U16'_pad3'||F32'FocalLengthIn35mmFormat'|]
 // file ./libraw/libraw_types.h line 371
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$14;
+union anonymous_14;
 
 // tag-LibRaw_thumbnail_formats
 // file ./libraw/libraw_const.h line 218
@@ -119,25 +119,25 @@ extern signed int fprintf(struct _IO_FILE *, const char *, ...);
 char * get_next_file();
 // libraw_close
 // file ./libraw/libraw.h line 65
-void libraw_close(struct anonymous$7 *);
+void libraw_close(struct anonymous_7 *);
 // libraw_dcraw_ppm_tiff_writer
 // file ./libraw/libraw.h line 87
-signed int libraw_dcraw_ppm_tiff_writer(struct anonymous$7 *, const char *);
+signed int libraw_dcraw_ppm_tiff_writer(struct anonymous_7 *, const char *);
 // libraw_dcraw_process
 // file ./libraw/libraw.h line 89
-signed int libraw_dcraw_process(struct anonymous$7 *);
+signed int libraw_dcraw_process(struct anonymous_7 *);
 // libraw_init
 // file ./libraw/libraw.h line 53
-struct anonymous$7 * libraw_init(unsigned int);
+struct anonymous_7 * libraw_init(unsigned int);
 // libraw_open_file
 // file ./libraw/libraw.h line 54
-signed int libraw_open_file(struct anonymous$7 *, const char *);
+signed int libraw_open_file(struct anonymous_7 *, const char *);
 // libraw_strerror
 // file ./libraw/libraw.h line 50
 const char * libraw_strerror(signed int);
 // libraw_unpack
 // file ./libraw/libraw.h line 61
-signed int libraw_unpack(struct anonymous$7 *);
+signed int libraw_unpack(struct anonymous_7 *);
 // printf
 // file /usr/include/stdio.h line 362
 extern signed int printf(const char *, ...);
@@ -152,13 +152,13 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$14 *, const union anonymous$15 *);
+extern signed int pthread_mutex_init(union anonymous_14 *, const union anonymous_15 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$14 *);
+extern signed int pthread_mutex_lock(union anonymous_14 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$14 *);
+extern signed int pthread_mutex_unlock(union anonymous_14 *);
 // show_files
 // file samples/half_mt.c line 116
 signed int show_files(void *q);
@@ -169,7 +169,7 @@ extern signed int snprintf(char *, unsigned long int, const char *, ...);
 // file samples/half_mt.c line 104
 void usage(const char *p);
 
-struct anonymous$0
+struct anonymous_0
 {
   // raw_height
   unsigned short int raw_height;
@@ -197,7 +197,7 @@ struct anonymous$0
   signed int mask[8l][4l];
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // make
   char make[64l];
@@ -241,7 +241,7 @@ struct anonymous
   unsigned char NikonLensType;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // MinFocal
   float MinFocal;
@@ -253,7 +253,7 @@ struct anonymous$8
   float MaxAp4MaxFocal;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // LensID
   unsigned long long int LensID;
@@ -321,7 +321,7 @@ struct anonymous$9
   float FocalLengthIn35mmFormat;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // MinFocal
   float MinFocal;
@@ -342,12 +342,12 @@ struct anonymous$2
   // nikon
   struct anonymous nikon;
   // dng
-  struct anonymous$8 dng;
+  struct anonymous_8 dng;
   // makernotes
-  struct anonymous$9 makernotes;
+  struct anonymous_9 makernotes;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // greybox
   unsigned int greybox[4l];
@@ -495,7 +495,7 @@ struct ph1_t
   float tag_210;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // illuminant
   unsigned short int illuminant;
@@ -505,7 +505,7 @@ struct anonymous$11
   float colormatrix[4l][3l];
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // CanonColorDataVer
   signed int CanonColorDataVer;
@@ -517,7 +517,7 @@ struct anonymous$13
   signed int AverageBlackLevel;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // curve
   unsigned short int curve[65536l];
@@ -556,9 +556,9 @@ struct anonymous$4
   // black_stat
   unsigned int black_stat[8l];
   // dng_color
-  struct anonymous$11 dng_color[2l];
+  struct anonymous_11 dng_color[2l];
   // canon_makernotes
-  struct anonymous$13 canon_makernotes;
+  struct anonymous_13 canon_makernotes;
   // baseline_exposure
   float baseline_exposure;
   // OlympusSensorCalibration
@@ -569,7 +569,7 @@ struct anonymous$4
   signed int digitalBack_color;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // latitude
   float latitude[3l];
@@ -591,7 +591,7 @@ struct anonymous$12
   char gpsparsed;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // iso_speed
   float iso_speed;
@@ -608,14 +608,14 @@ struct anonymous$10
   // gpsdata
   unsigned int gpsdata[32l];
   // parsed_gps
-  struct anonymous$12 parsed_gps;
+  struct anonymous_12 parsed_gps;
   // desc
   char desc[512l];
   // artist
   char artist[64l];
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // tformat
   enum LibRaw_thumbnail_formats tformat;
@@ -631,7 +631,7 @@ struct anonymous$5
   char *thumb;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // mix_green
   unsigned int mix_green;
@@ -645,7 +645,7 @@ struct anonymous$16
   unsigned short int fuji_width;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // raw_alloc
   void *raw_alloc;
@@ -660,44 +660,44 @@ struct anonymous$6
   // ph1_rblack
   signed short int (*ph1_rblack)[2l];
   // iparams
-  struct anonymous$1 iparams;
+  struct anonymous_1 iparams;
   // sizes
-  struct anonymous$0 sizes;
+  struct anonymous_0 sizes;
   // ioparams
-  struct anonymous$16 ioparams;
+  struct anonymous_16 ioparams;
   // color
-  struct anonymous$4 color;
+  struct anonymous_4 color;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // image
   unsigned short int (*image)[4l];
   // sizes
-  struct anonymous$0 sizes;
+  struct anonymous_0 sizes;
   // idata
-  struct anonymous$1 idata;
+  struct anonymous_1 idata;
   // lens
-  struct anonymous$2 lens;
+  struct anonymous_2 lens;
   // params
-  struct anonymous$3 params;
+  struct anonymous_3 params;
   // progress_flags
   unsigned int progress_flags;
   // process_warnings
   unsigned int process_warnings;
   // color
-  struct anonymous$4 color;
+  struct anonymous_4 color;
   // other
-  struct anonymous$10 other;
+  struct anonymous_10 other;
   // thumbnail
-  struct anonymous$5 thumbnail;
+  struct anonymous_5 thumbnail;
   // rawdata
-  struct anonymous$6 rawdata;
+  struct anonymous_6 rawdata;
   // parent_class
   void *parent_class;
 };
 
-union anonymous$15
+union anonymous_15
 {
   // __size
   char __size[4l];
@@ -733,7 +733,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$14
+union anonymous_14
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -826,7 +826,7 @@ union pthread_attr_t
 
 // qm
 // file samples/half_mt.c line 46
-union anonymous$14 qm;
+union anonymous_14 qm;
 // qptr
 // file samples/half_mt.c line 48
 unsigned long int qptr = (unsigned long int)0;
@@ -857,7 +857,7 @@ signed int verbose = 0;
 char * get_next_file()
 {
   char *ret;
-  unsigned long int tmp_post$1;
+  unsigned long int tmp_post_1;
   if(queue == ((char **)NULL))
     return (char *)(void *)0;
 
@@ -868,9 +868,9 @@ char * get_next_file()
     else
     {
       pthread_mutex_lock(&qm);
-      tmp_post$1 = qptr;
+      tmp_post_1 = qptr;
       qptr = qptr + 1ul;
-      ret = queue[(signed long int)tmp_post$1];
+      ret = queue[(signed long int)tmp_post_1];
       pthread_mutex_unlock(&qm);
       return ret;
     }
@@ -886,11 +886,11 @@ signed int main(signed int ac, char **av)
   if(!(ac >= 2))
     usage(av[(signed long int)0]);
 
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)(ac - 1), sizeof(char *) /*8ul*/ );
-  queue = (char **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)(ac - 1), sizeof(char *) /*8ul*/ );
+  queue = (char **)return_value_calloc_1;
   i = 1;
-  unsigned long int tmp_post$2;
+  unsigned long int tmp_post_2;
   for( ; !(i >= ac); i = i + 1)
     if((signed int)*av[(signed long int)i] == 45)
     {
@@ -922,14 +922,14 @@ signed int main(signed int ac, char **av)
 
     else
     {
-      tmp_post$2 = qsize;
+      tmp_post_2 = qsize;
       qsize = qsize + 1ul;
-      queue[(signed long int)tmp_post$2] = av[(signed long int)i];
+      queue[(signed long int)tmp_post_2] = av[(signed long int)i];
     }
-  pthread_mutex_init(&qm, (const union anonymous$15 *)(void *)0);
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc((unsigned long int)max_threads, sizeof(unsigned long int) /*8ul*/ );
-  threads = (unsigned long int *)return_value_calloc$3;
+  pthread_mutex_init(&qm, (const union anonymous_15 *)(void *)0);
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc((unsigned long int)max_threads, sizeof(unsigned long int) /*8ul*/ );
+  threads = (unsigned long int *)return_value_calloc_3;
   i = 0;
   for( ; !(i >= max_threads); i = i + 1)
     pthread_create(&threads[(signed long int)i], (const union pthread_attr_t *)(void *)0, process_files, (void *)0);
@@ -952,9 +952,9 @@ void * process_files(void *q)
   signed int count = 0;
   char outfn[1024l];
   char *fn;
-  struct anonymous$7 *iprc;
+  struct anonymous_7 *iprc;
   iprc=libraw_init((unsigned int)0);
-  if(iprc == ((struct anonymous$7 *)NULL))
+  if(iprc == ((struct anonymous_7 *)NULL))
   {
     fprintf(stderr, "Cannot create libraw handle\n");
     return (void *)0;
@@ -979,9 +979,9 @@ void * process_files(void *q)
       do
         if(!(ret == 0))
         {
-          const char *return_value_libraw_strerror$1;
-          return_value_libraw_strerror$1=libraw_strerror(ret);
-          fprintf(stderr, "%s: %s\n", fn, return_value_libraw_strerror$1);
+          const char *return_value_libraw_strerror_1;
+          return_value_libraw_strerror_1=libraw_strerror(ret);
+          fprintf(stderr, "%s: %s\n", fn, return_value_libraw_strerror_1);
           if(!(ret >= -100000))
           {
             libraw_close(iprc);
@@ -995,9 +995,9 @@ void * process_files(void *q)
       do
         if(!(ret == 0))
         {
-          const char *return_value_libraw_strerror$2;
-          return_value_libraw_strerror$2=libraw_strerror(ret);
-          fprintf(stderr, "%s: %s\n", fn, return_value_libraw_strerror$2);
+          const char *return_value_libraw_strerror_2;
+          return_value_libraw_strerror_2=libraw_strerror(ret);
+          fprintf(stderr, "%s: %s\n", fn, return_value_libraw_strerror_2);
           if(!(ret >= -100000))
           {
             libraw_close(iprc);
@@ -1011,9 +1011,9 @@ void * process_files(void *q)
       do
         if(!(ret == 0))
         {
-          const char *return_value_libraw_strerror$3;
-          return_value_libraw_strerror$3=libraw_strerror(ret);
-          fprintf(stderr, "%s: %s\n", fn, return_value_libraw_strerror$3);
+          const char *return_value_libraw_strerror_3;
+          return_value_libraw_strerror_3=libraw_strerror(ret);
+          fprintf(stderr, "%s: %s\n", fn, return_value_libraw_strerror_3);
           if(!(ret >= -100000))
           {
             libraw_close(iprc);
@@ -1031,9 +1031,9 @@ void * process_files(void *q)
       do
         if(!(ret == 0))
         {
-          const char *return_value_libraw_strerror$4;
-          return_value_libraw_strerror$4=libraw_strerror(ret);
-          fprintf(stderr, "%s: %s\n", fn, return_value_libraw_strerror$4);
+          const char *return_value_libraw_strerror_4;
+          return_value_libraw_strerror_4=libraw_strerror(ret);
+          fprintf(stderr, "%s: %s\n", fn, return_value_libraw_strerror_4);
           if(!(ret >= -100000))
           {
             libraw_close(iprc);

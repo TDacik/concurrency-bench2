@@ -1,86 +1,86 @@
-// tag-#anon#ST[*{V(*{SYM#tag-fuse_req#}$SYM#tag-fuse_req#$|*{V}$V$)->V}$V(*{SYM#tag-fuse_req#}$SYM#tag-fuse_req#$|*{V}$V$)->V$'func'||*{V}$V$'data'|]
+// tag-#anon#ST[*{V(*{SYM#tag-fuse_req#}_SYM#tag-fuse_req#_|*{V}_V_)->V}_V(*{SYM#tag-fuse_req#}_SYM#tag-fuse_req#_|*{V}_V_)->V_'func'||*{V}_V_'data'|]
 // file fuse_i.h line 44
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[*{V(*{SYM#tag-fuse_req#}$SYM#tag-fuse_req#$|U64|*{cV}$cV$)->V}$V(*{SYM#tag-fuse_req#}$SYM#tag-fuse_req#$|U64|*{cV}$cV$)->V$'func'||*{cS8}$cS8$'name'|]
+// tag-#anon#ST[*{V(*{SYM#tag-fuse_req#}_SYM#tag-fuse_req#_|U64|*{cV}_cV_)->V}_V(*{SYM#tag-fuse_req#}_SYM#tag-fuse_req#_|U64|*{cV}_cV_)->V_'func'||*{cS8}_cS8_'name'|]
 // file fuse_lowlevel.c line 2246
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[ARR2{S32}$S32$'__val'|]
+// tag-#anon#ST[ARR2{S32}_S32_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/types.h line 134
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$1;
+struct anonymous_1;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$12;
+struct anonymous_12;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$0;
+struct anonymous_0;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$14;
+struct anonymous_14;
 
 // tag-#anon#ST[U64'unique'|]
 // file fuse_i.h line 41
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
 union anonymous;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$16;
+union anonymous_16;
 
-// tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 239
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U64'unique'|]#'i'||SYM#tag-#anon#ST[*{V(*{SYM#tag-fuse_req#}$SYM#tag-fuse_req#$|*{V}$V$)->V}$V(*{SYM#tag-fuse_req#}$SYM#tag-fuse_req#$|*{V}$V$)->V$'func'||*{V}$V$'data'|]#'ni'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U64'unique'|]#'i'||SYM#tag-#anon#ST[*{V(*{SYM#tag-fuse_req#}_SYM#tag-fuse_req#_|*{V}_V_)->V}_V(*{SYM#tag-fuse_req#}_SYM#tag-fuse_req#_|*{V}_V_)->V_'func'||*{V}_V_'data'|]#'ni'|]
 // file fuse_i.h line 40
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$2;
+union anonymous_2;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -751,9 +751,9 @@ static void convert_statfs(struct statvfs *stbuf, struct fuse_kstatfs *kstatfs);
 // convert_statfs_compat
 // file fuse.c line 1550
 static void convert_statfs_compat(struct fuse_statfs_compat1 *compatbuf, struct statvfs *stbuf);
-// convert_statfs_compat$link1
+// convert_statfs_compat_link1
 // file fuse_lowlevel.c line 2857
-static void convert_statfs_compat$link1(struct statfs *compatbuf$link1, struct statvfs *buf);
+static void convert_statfs_compat_link1(struct statfs *compatbuf_link1, struct statvfs *buf);
 // convert_statfs_old
 // file fuse.c line 1562
 static void convert_statfs_old(struct statfs *oldbuf, struct statvfs *stbuf);
@@ -886,9 +886,9 @@ static void do_flush(struct fuse_req *req, unsigned long int nodeid, const void 
 // do_forget
 // file fuse.c line 2723
 static void do_forget(struct fuse *f, unsigned long int ino, unsigned long int nlookup);
-// do_forget$link1
+// do_forget_link1
 // file fuse_lowlevel.c line 984
-static void do_forget$link1(struct fuse_req *req, unsigned long int nodeid, const void *inarg);
+static void do_forget_link1(struct fuse_req *req, unsigned long int nodeid, const void *inarg);
 // do_fsync
 // file fuse_lowlevel.c line 1351
 static void do_fsync(struct fuse_req *req, unsigned long int nodeid, const void *inarg);
@@ -1048,9 +1048,9 @@ static void fill_open_compat(struct fuse_open_out *arg, struct fuse_file_info_co
 // find_interrupted
 // file fuse_lowlevel.c line 1567
 static signed int find_interrupted(struct fuse_ll *f, struct fuse_req *req);
-// find_interrupted::1::1::1::1::func$object
+// find_interrupted::1::1::1::1::func_object
 //
-void func$object(struct fuse_req *, void *);
+void func_object(struct fuse_req *, void *);
 // find_node
 // file fuse.c line 878
 static struct node * find_node(struct fuse *f, unsigned long int parent, const char *name);
@@ -1324,9 +1324,9 @@ signed int fuse_fs_read_buf(struct fuse_fs *fs, const char *path, struct fuse_bu
 // fuse_fs_readdir
 // file fuse.c line 2033
 signed int fuse_fs_readdir(struct fuse_fs *fs, const char *path, void *buf, signed int (*filler)(void *, const char *, struct stat *, signed long int), signed long int off, struct fuse_file_info *fi);
-// fuse_fs_readdir::filler$object
+// fuse_fs_readdir::filler_object
 //
-signed int filler$object(void *, const char *, struct stat *, signed long int);
+signed int filler_object(void *, const char *, struct stat *, signed long int);
 // fuse_fs_readlink
 // file fuse.c line 2220
 signed int fuse_fs_readlink(struct fuse_fs *fs, const char *path, char *buf, unsigned long int len);
@@ -1618,9 +1618,9 @@ signed int fuse_loop_mt(struct fuse *f);
 // fuse_loop_mt_proc
 // file fuse_mt.c line 69
 signed int fuse_loop_mt_proc(struct fuse *f, void (*proc)(struct fuse *, struct fuse_cmd *, void *), void *data);
-// fuse_loop_mt_proc::proc$object
+// fuse_loop_mt_proc::proc_object
 //
-void proc$object(struct fuse *, struct fuse_cmd *, void *);
+void proc_object(struct fuse *, struct fuse_cmd *, void *);
 // fuse_loop_start_thread
 // file fuse_loop_mt.c line 178
 static signed int fuse_loop_start_thread(struct fuse_mt *mt);
@@ -1774,9 +1774,9 @@ signed int fuse_opt_match(struct fuse_opt *opts, const char *opt);
 // fuse_opt_parse
 // file ../include/fuse_opt.h line 202
 signed int fuse_opt_parse(struct fuse_args *args, void *data, struct fuse_opt *opts, signed int (*proc)(void *, const char *, signed int, struct fuse_args *));
-// fuse_opt_parse::proc$object
+// fuse_opt_parse::proc_object
 //
-signed int proc$object(void *, const char *, signed int, struct fuse_args *);
+signed int proc_object(void *, const char *, signed int, struct fuse_args *);
 // fuse_parse_cmdline
 // file ../include/fuse_common.h line 237
 signed int fuse_parse_cmdline(struct fuse_args *args, char **mountpoint, signed int *multithreaded, signed int *foreground);
@@ -1882,9 +1882,9 @@ signed int fuse_req_getgroups(struct fuse_req *req, signed int size, unsigned in
 // fuse_req_interrupt_func
 // file ../include/fuse_lowlevel.h line 1492
 void fuse_req_interrupt_func(struct fuse_req *req, void (*func)(struct fuse_req *, void *), void *data);
-// fuse_req_interrupt_func::func$object
+// fuse_req_interrupt_func::func_object
 //
-void func$object(struct fuse_req *, void *);
+void func_object(struct fuse_req *, void *);
 // fuse_req_interrupted
 // file ../include/fuse_lowlevel.h line 1501
 signed int fuse_req_interrupted(struct fuse_req *req);
@@ -1954,9 +1954,9 @@ void fuse_session_reset(struct fuse_session *se);
 // fuse_set_getcontext_func
 // file fuse.c line 4400
 void fuse_set_getcontext_func(struct fuse_context * (*func)(void));
-// fuse_set_getcontext_func::func$object
+// fuse_set_getcontext_func::func_object
 //
-struct fuse_context * func$object(void);
+struct fuse_context * func_object(void);
 // fuse_set_signal_handlers
 // file fuse_signals.c line 47
 signed int fuse_set_signal_handlers(struct fuse_session *se);
@@ -1981,9 +1981,9 @@ signed int fuse_start_cleanup_thread(struct fuse *f);
 // fuse_start_thread
 // file fuse_i.h line 130
 signed int fuse_start_thread(unsigned long int *thread_id, void * (*func)(void *), void *arg);
-// fuse_start_thread::func$object
+// fuse_start_thread::func_object
 //
-void * func$object(void *);
+void * func_object(void *);
 // fuse_stop_cleanup_thread
 // file fuse.c line 4625
 void fuse_stop_cleanup_thread(struct fuse *f);
@@ -2179,9 +2179,9 @@ static signed int iconv_read_buf(const char *path, struct fuse_bufvec **bufp, un
 // iconv_readdir
 // file modules/iconv.c line 185
 static signed int iconv_readdir(const char *path, void *buf, signed int (*filler)(void *, const char *, struct stat *, signed long int), signed long int offset, struct fuse_file_info *fi);
-// iconv_readdir::filler$object
+// iconv_readdir::filler_object
 //
-signed int filler$object(void *, const char *, struct stat *, signed long int);
+signed int filler_object(void *, const char *, struct stat *, signed long int);
 // iconv_readlink
 // file modules/iconv.c line 139
 static signed int iconv_readlink(const char *path, char *buf, unsigned long int size);
@@ -2448,22 +2448,22 @@ extern signed int pthread_attr_setstacksize(union pthread_attr_t *, unsigned lon
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$5 *);
+extern signed int pthread_cond_broadcast(union anonymous_5 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$5 *);
+extern signed int pthread_cond_destroy(union anonymous_5 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$5 *, const union anonymous$7 *);
+extern signed int pthread_cond_init(union anonymous_5 *, const union anonymous_7 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$5 *);
+extern signed int pthread_cond_signal(union anonymous_5 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$5 *, union anonymous$2 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_5 *, union anonymous_2 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$5 *, union anonymous$2 *);
+extern signed int pthread_cond_wait(union anonymous_5 *, union anonymous_2 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -2487,16 +2487,16 @@ extern signed int pthread_key_delete(unsigned int);
 extern signed int pthread_kill(unsigned long int, signed int);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$2 *);
+extern signed int pthread_mutex_destroy(union anonymous_2 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$2 *, const union anonymous$7 *);
+extern signed int pthread_mutex_init(union anonymous_2 *, const union anonymous_7 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$2 *);
+extern signed int pthread_mutex_lock(union anonymous_2 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$2 *);
+extern signed int pthread_mutex_unlock(union anonymous_2 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -2508,7 +2508,7 @@ extern signed int pthread_setcancelstate(signed int, signed int *);
 extern signed int pthread_setspecific(unsigned int, const void *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$4 *, struct anonymous$4 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_4 *, struct anonymous_4 *);
 // pwrite
 // file /usr/include/unistd.h line 391
 extern signed long int pwrite(signed int, const void *, unsigned long int, signed long int);
@@ -2586,16 +2586,16 @@ static struct fuse * req_fuse(struct fuse_req *req);
 static struct fuse * req_fuse_prepare(struct fuse_req *req);
 // sem_destroy
 // file /usr/include/semaphore.h line 39
-extern signed int sem_destroy(union anonymous$8 *);
+extern signed int sem_destroy(union anonymous_8 *);
 // sem_init
 // file /usr/include/semaphore.h line 36
-extern signed int sem_init(union anonymous$8 *, signed int, unsigned int);
+extern signed int sem_init(union anonymous_8 *, signed int, unsigned int);
 // sem_post
 // file /usr/include/semaphore.h line 69
-extern signed int sem_post(union anonymous$8 *);
+extern signed int sem_post(union anonymous_8 *);
 // sem_wait
 // file /usr/include/semaphore.h line 54
-extern signed int sem_wait(union anonymous$8 *);
+extern signed int sem_wait(union anonymous_8 *);
 // send_notify_iov
 // file fuse_lowlevel.c line 1949
 static signed int send_notify_iov(struct fuse_ll *f, struct fuse_chan *ch, signed int notify_code, struct iovec *iov, signed int count);
@@ -2617,9 +2617,9 @@ static void set_mount_flag(const char *s, signed int *flags);
 // set_one_signal_handler
 // file fuse_signals.c line 24
 static signed int set_one_signal_handler(signed int sig, void (*handler)(signed int), signed int remove);
-// set_one_signal_handler::handler$object
+// set_one_signal_handler::handler_object
 //
-void handler$object(signed int);
+void handler_object(signed int);
 // set_stat
 // file fuse.c line 1417
 static void set_stat(struct fuse *f, unsigned long int nodeid, struct stat *stbuf);
@@ -2643,13 +2643,13 @@ extern signed int setuid(unsigned int);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$4 *, signed int);
+extern signed int sigaddset(struct anonymous_4 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$4 *);
+extern signed int sigemptyset(struct anonymous_4 *);
 // sigprocmask
 // file /usr/include/signal.h line 248
-extern signed int sigprocmask(signed int, const struct anonymous$4 *, struct anonymous$4 *);
+extern signed int sigprocmask(signed int, const struct anonymous_4 *, struct anonymous_4 *);
 // sleep
 // file /usr/include/unistd.h line 444
 extern unsigned int sleep(unsigned int);
@@ -2800,9 +2800,9 @@ static signed int subdir_read_buf(const char *path, struct fuse_bufvec **bufp, u
 // subdir_readdir
 // file modules/subdir.c line 180
 static signed int subdir_readdir(const char *path, void *buf, signed int (*filler)(void *, const char *, struct stat *, signed long int), signed long int offset, struct fuse_file_info *fi);
-// subdir_readdir::filler$object
+// subdir_readdir::filler_object
 //
-signed int filler$object(void *, const char *, struct stat *, signed long int);
+signed int filler_object(void *, const char *, struct stat *, signed long int);
 // subdir_readlink
 // file modules/subdir.c line 154
 static signed int subdir_readlink(const char *path, char *buf, unsigned long int size);
@@ -2872,9 +2872,9 @@ static void unref_node(struct fuse *f, struct node *node);
 // update_stat
 // file fuse.c line 2486
 static void update_stat(struct node *node, struct stat *stbuf);
-// usage$link1
+// usage_link1
 // file helper.c line 60
-static void usage$link1(const char *progname);
+static void usage_link1(const char *progname);
 // vmsplice
 // file /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h line 384
 extern signed long int vmsplice(signed int, struct iovec *, unsigned long int, unsigned int);
@@ -2894,7 +2894,7 @@ extern signed long int write(signed int, const void *, unsigned long int);
 // file /usr/include/x86_64-linux-gnu/sys/uio.h line 50
 extern signed long int writev(signed int, struct iovec *, signed int);
 
-struct anonymous$19
+struct anonymous_19
 {
   // func
   void (*func)(struct fuse_req *, void *);
@@ -2902,7 +2902,7 @@ struct anonymous$19
   void *data;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // func
   void (*func)(struct fuse_req *, unsigned long int, const void *);
@@ -2910,7 +2910,7 @@ struct anonymous$17
   const char *name;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // _call_addr
   void *_call_addr;
@@ -2920,7 +2920,7 @@ struct anonymous$15
   unsigned int _arch;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // si_addr
   void *si_addr;
@@ -2928,19 +2928,19 @@ struct anonymous$13
   signed short int si_addr_lsb;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // __val
   signed int __val[2l];
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // __lock
   signed int __lock;
@@ -2960,7 +2960,7 @@ struct anonymous$1
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // si_pid
   signed int si_pid;
@@ -2968,7 +2968,7 @@ struct anonymous$9
   unsigned int si_uid;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // si_pid
   signed int si_pid;
@@ -2990,7 +2990,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // si_pid
   signed int si_pid;
@@ -3000,7 +3000,7 @@ struct anonymous$11
   union sigval si_sigval;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // si_tid
   signed int si_tid;
@@ -3010,7 +3010,7 @@ struct anonymous$10
   union sigval si_sigval;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // si_band
   signed long int si_band;
@@ -3018,27 +3018,27 @@ struct anonymous$14
   signed int si_fd;
 };
 
-union anonymous$16
+union anonymous_16
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$9 _kill;
+  struct anonymous_9 _kill;
   // _timer
-  struct anonymous$10 _timer;
+  struct anonymous_10 _timer;
   // _rt
-  struct anonymous$11 _rt;
+  struct anonymous_11 _rt;
   // _sigchld
-  struct anonymous$12 _sigchld;
+  struct anonymous_12 _sigchld;
   // _sigfault
-  struct anonymous$13 _sigfault;
+  struct anonymous_13 _sigfault;
   // _sigpoll
-  struct anonymous$14 _sigpoll;
+  struct anonymous_14 _sigpoll;
   // _sigsys
-  struct anonymous$15 _sigsys;
+  struct anonymous_15 _sigsys;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // si_signo
   signed int si_signo;
@@ -3047,10 +3047,10 @@ struct anonymous$0
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$16 _sifields;
+  union anonymous_16 _sifields;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // unique
   unsigned long int unique;
@@ -3061,10 +3061,10 @@ union anonymous
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$0 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_0 *, void *);
 };
 
-union anonymous$8
+union anonymous_8
 {
   // __size
   char __size[32l];
@@ -3072,7 +3072,7 @@ union anonymous$8
   signed long int __align;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __size
   char __size[4l];
@@ -3080,22 +3080,22 @@ union anonymous$7
   signed int __align;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __data
-  struct anonymous$1 __data;
+  struct anonymous_1 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // i
-  struct anonymous$18 i;
+  struct anonymous_18 i;
   // ni
-  struct anonymous$19 ni;
+  struct anonymous_19 ni;
 };
 
 struct __pthread_internal_list
@@ -3126,7 +3126,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -3443,7 +3443,7 @@ struct fuse
   // hidectr
   unsigned int hidectr;
   // lock
-  union anonymous$2 lock;
+  union anonymous_2 lock;
   // conf
   struct fuse_config conf;
   // intr_installed
@@ -3703,7 +3703,7 @@ struct fuse_ctx
 struct fuse_dh
 {
   // lock
-  union anonymous$2 lock;
+  union anonymous_2 lock;
   // fuse
   struct fuse *fuse;
   // req
@@ -4135,7 +4135,7 @@ struct fuse_intr_data
   // id
   unsigned long int id;
   // cond
-  union anonymous$5 cond;
+  union anonymous_5 cond;
   // finished
   signed int finished;
 };
@@ -4321,7 +4321,7 @@ struct fuse_req
   // ctr
   signed int ctr;
   // lock
-  union anonymous$2 lock;
+  union anonymous_2 lock;
   // ctx
   struct fuse_ctx ctx;
   // ch
@@ -4331,7 +4331,7 @@ struct fuse_req
   // ioctl_64bit
   unsigned int ioctl_64bit : 1;
   // u
-  union anonymous$3 u;
+  union anonymous_3 u;
   // next
   struct fuse_req *next;
   // prev
@@ -4393,7 +4393,7 @@ struct fuse_ll
   // interrupts
   struct fuse_req interrupts;
   // lock
-  union anonymous$2 lock;
+  union anonymous_2 lock;
   // got_destroy
   signed int got_destroy;
   // pipe_key
@@ -4609,7 +4609,7 @@ struct fuse_worker
 struct fuse_mt
 {
   // lock
-  union anonymous$2 lock;
+  union anonymous_2 lock;
   // numworker
   signed int numworker;
   // numavail
@@ -4621,7 +4621,7 @@ struct fuse_mt
   // main
   struct fuse_worker main;
   // finish
-  union anonymous$8 finish;
+  union anonymous_8 finish;
   // exit
   signed int exit;
   // error
@@ -5225,7 +5225,7 @@ struct iconv
   // next
   struct fuse_fs *next;
   // lock
-  union anonymous$2 lock;
+  union anonymous_2 lock;
   // from_code
   char *from_code;
   // to_code
@@ -5275,7 +5275,7 @@ struct lock_queue_element
   // next
   struct lock_queue_element *next;
   // cond
-  union anonymous$5 cond;
+  union anonymous_5 cond;
   // nodeid1
   unsigned long int nodeid1;
   // name1
@@ -5455,7 +5455,7 @@ struct sigaction
   // __sigaction_handler
   union anonymous __sigaction_handler;
   // sa_mask
-  struct anonymous$4 sa_mask;
+  struct anonymous_4 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -5479,7 +5479,7 @@ struct statfs
   // f_ffree
   unsigned long int f_ffree;
   // f_fsid
-  struct anonymous$6 f_fsid;
+  struct anonymous_6 f_fsid;
   // f_namelen
   signed long int f_namelen;
   // f_frsize
@@ -5590,7 +5590,7 @@ static unsigned long int cusexmp_size;
 static unsigned int fuse_context_key;
 // fuse_context_lock
 // file fuse.c line 227
-static union anonymous$2 fuse_context_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_2 fuse_context_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // fuse_context_ref
@@ -5666,11 +5666,11 @@ static struct fuse_opt fuse_lib_opts[31l] = { { .templ="-h", .offset=(unsigned l
     { .templ=(const char *)(void *)0, .offset=(unsigned long int)0, .value=0 } };
 // fuse_ll_ops
 // file fuse_lowlevel.c line 2249
-static struct anonymous$17 fuse_ll_ops[4097l];
+static struct anonymous_17 fuse_ll_ops[4097l];
 // fuse_ll_ops
 // file fuse_lowlevel.c line 2249
-static struct anonymous$17 fuse_ll_ops[4097l] = { { .func=((void (*)(struct fuse_req *, unsigned long int, const void *))NULL), .name=((const char *)NULL) },
-    { .func=do_lookup, .name="LOOKUP" }, { .func=do_forget$link1, .name="FORGET" },
+static struct anonymous_17 fuse_ll_ops[4097l] = { { .func=((void (*)(struct fuse_req *, unsigned long int, const void *))NULL), .name=((const char *)NULL) },
+    { .func=do_lookup, .name="LOOKUP" }, { .func=do_forget_link1, .name="FORGET" },
     { .func=do_getattr, .name="GETATTR" }, { .func=do_setattr, .name="SETATTR" }, { .func=do_readlink, .name="READLINK" },
     { .func=do_symlink, .name="SYMLINK" }, { .func=((void (*)(struct fuse_req *, unsigned long int, const void *))NULL), .name=((const char *)NULL) },
     { .func=do_mknod, .name="MKNOD" }, { .func=do_mkdir, .name="MKDIR" }, { .func=do_unlink, .name="UNLINK" }, { .func=do_rmdir, .name="RMDIR" }, { .func=do_rename, .name="RENAME" }, { .func=do_link, .name="LINK" }, { .func=do_open, .name="OPEN" }, { .func=do_read, .name="READ" }, { .func=do_write, .name="WRITE" }, { .func=do_statfs, .name="STATFS" }, { .func=do_release, .name="RELEASE" }, { .func=((void (*)(struct fuse_req *, unsigned long int, const void *))NULL), .name=((const char *)NULL) },
@@ -9949,9 +9949,9 @@ static const char *usage = "usage: cusexmp [options]\n\noptions:\n    --help|-h 
 // file fuse_opt.c line 112
 static signed int add_arg(struct fuse_opt_context *ctx, const char *arg)
 {
-  signed int return_value_fuse_opt_add_arg$1;
-  return_value_fuse_opt_add_arg$1=fuse_opt_add_arg(&ctx->outargs, arg);
-  return return_value_fuse_opt_add_arg$1;
+  signed int return_value_fuse_opt_add_arg_1;
+  return_value_fuse_opt_add_arg_1=fuse_opt_add_arg(&ctx->outargs, arg);
+  return return_value_fuse_opt_add_arg_1;
 }
 
 // add_default_subtype
@@ -9969,11 +9969,11 @@ static signed int add_default_subtype(const char *progname, struct fuse_args *ar
     if(!((signed int)basename[1l] == 0))
       basename = basename + 1l;
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(basename);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)64);
-  subtype_opt = (char *)return_value_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(basename);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)64);
+  subtype_opt = (char *)return_value_malloc_2;
   if(subtype_opt == ((char *)NULL))
   {
     fprintf(stderr, "fuse: memory allocation failed\n");
@@ -9995,56 +9995,56 @@ static signed int add_mount(const char *progname, const char *fsname, const char
 {
   signed int res;
   signed int status;
-  struct anonymous$4 blockmask;
-  struct anonymous$4 oldmask;
+  struct anonymous_4 blockmask;
+  struct anonymous_4 oldmask;
   sigemptyset(&blockmask);
   sigaddset(&blockmask, 17);
   res=sigprocmask(0, &blockmask, &oldmask);
   if(res == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "%s: sigprocmask: %s\n", progname, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "%s: sigprocmask: %s\n", progname, return_value_strerror_2);
     return -1;
   }
 
   res=fork();
   if(res == -1)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fprintf(stderr, "%s: fork: %s\n", progname, return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fprintf(stderr, "%s: fork: %s\n", progname, return_value_strerror_4);
     goto out_restore;
   }
 
   if(res == 0)
   {
     char *env = (char *)(void *)0;
-    sigprocmask(2, &oldmask, (struct anonymous$4 *)(void *)0);
-    unsigned int return_value_geteuid$5;
-    return_value_geteuid$5=geteuid();
-    setuid(return_value_geteuid$5);
+    sigprocmask(2, &oldmask, (struct anonymous_4 *)(void *)0);
+    unsigned int return_value_geteuid_5;
+    return_value_geteuid_5=geteuid();
+    setuid(return_value_geteuid_5);
     execle("/bin/mount", "/bin/mount", (const void *)"--no-canonicalize", (const void *)"-i", (const void *)"-f", (const void *)"-t", type, (const void *)"-o", opts, fsname, mnt, (void *)0, &env);
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    char *return_value_strerror$7;
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    fprintf(stderr, "%s: failed to execute /bin/mount: %s\n", progname, return_value_strerror$7);
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    char *return_value_strerror_7;
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    fprintf(stderr, "%s: failed to execute /bin/mount: %s\n", progname, return_value_strerror_7);
     exit(1);
   }
 
   res=waitpid(res, &status, 0);
-  signed int *return_value___errno_location$8;
-  char *return_value_strerror$9;
+  signed int *return_value___errno_location_8;
+  char *return_value_strerror_9;
   if(res == -1)
   {
-    return_value___errno_location$8=__errno_location();
-    return_value_strerror$9=strerror(*return_value___errno_location$8);
-    fprintf(stderr, "%s: waitpid: %s\n", progname, return_value_strerror$9);
+    return_value___errno_location_8=__errno_location();
+    return_value_strerror_9=strerror(*return_value___errno_location_8);
+    fprintf(stderr, "%s: waitpid: %s\n", progname, return_value_strerror_9);
   }
 
   if(!(status == 0))
@@ -10053,7 +10053,7 @@ static signed int add_mount(const char *progname, const char *fsname, const char
 
 out_restore:
   ;
-  sigprocmask(2, &oldmask, (struct anonymous$4 *)(void *)0);
+  sigprocmask(2, &oldmask, (struct anonymous_4 *)(void *)0);
   return res;
 }
 
@@ -10074,9 +10074,9 @@ static char * add_name(char **buf, unsigned int *bufsize, char *s, const char *n
 
       else
         newbufsize = newbufsize * (unsigned int)2;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)*buf, (unsigned long int)newbufsize);
-    newbuf = (char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)*buf, (unsigned long int)newbufsize);
+    newbuf = (char *)return_value_realloc_1;
     if(newbuf == ((char *)NULL))
       return (char *)(void *)0;
 
@@ -10097,9 +10097,9 @@ static char * add_name(char **buf, unsigned int *bufsize, char *s, const char *n
 // file fuse_opt.c line 151
 static signed int add_opt(struct fuse_opt_context *ctx, const char *opt)
 {
-  signed int return_value_add_opt_common$1;
-  return_value_add_opt_common$1=add_opt_common(&ctx->opts, opt, 1);
-  return return_value_add_opt_common$1;
+  signed int return_value_add_opt_common_1;
+  return_value_add_opt_common_1=add_opt_common(&ctx->opts, opt, 1);
+  return return_value_add_opt_common_1;
 }
 
 // add_opt_common
@@ -10107,32 +10107,32 @@ static signed int add_opt(struct fuse_opt_context *ctx, const char *opt)
 static signed int add_opt_common(char **opts, const char *opt, signed int esc)
 {
   unsigned int oldlen;
-  unsigned long int tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  unsigned long int tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(!(*opts == ((char *)NULL)))
   {
-    return_value_strlen$1=strlen(*opts);
-    tmp_if_expr$2 = return_value_strlen$1;
+    return_value_strlen_1=strlen(*opts);
+    tmp_if_expr_2 = return_value_strlen_1;
   }
 
   else
-    tmp_if_expr$2 = (unsigned long int)0;
-  oldlen = (unsigned int)tmp_if_expr$2;
+    tmp_if_expr_2 = (unsigned long int)0;
+  oldlen = (unsigned int)tmp_if_expr_2;
   char *d;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(opt);
-  void *return_value_realloc$4;
-  return_value_realloc$4=realloc((void *)*opts, (unsigned long int)(oldlen + (unsigned int)1) + return_value_strlen$3 * (unsigned long int)2 + (unsigned long int)1);
-  d = (char *)return_value_realloc$4;
-  signed int return_value_alloc_failed$5;
-  char *tmp_post$6;
-  _Bool tmp_if_expr$8;
-  char *tmp_post$7;
-  char *tmp_post$9;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(opt);
+  void *return_value_realloc_4;
+  return_value_realloc_4=realloc((void *)*opts, (unsigned long int)(oldlen + (unsigned int)1) + return_value_strlen_3 * (unsigned long int)2 + (unsigned long int)1);
+  d = (char *)return_value_realloc_4;
+  signed int return_value_alloc_failed_5;
+  char *tmp_post_6;
+  _Bool tmp_if_expr_8;
+  char *tmp_post_7;
+  char *tmp_post_9;
   if(d == ((char *)NULL))
   {
-    return_value_alloc_failed$5=alloc_failed();
-    return return_value_alloc_failed$5;
+    return_value_alloc_failed_5=alloc_failed();
+    return return_value_alloc_failed_5;
   }
 
   else
@@ -10141,9 +10141,9 @@ static signed int add_opt_common(char **opts, const char *opt, signed int esc)
     if(!(oldlen == 0u))
     {
       d = d + (signed long int)oldlen;
-      tmp_post$6 = d;
+      tmp_post_6 = d;
       d = d + 1l;
-      *tmp_post$6 = (char)44;
+      *tmp_post_6 = (char)44;
     }
 
     for( ; !(*opt == 0); opt = opt + 1l)
@@ -10151,22 +10151,22 @@ static signed int add_opt_common(char **opts, const char *opt, signed int esc)
       if(!(esc == 0))
       {
         if((signed int)*opt == 44)
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
-          tmp_if_expr$8 = (signed int)*opt == 92 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$8)
+          tmp_if_expr_8 = (signed int)*opt == 92 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_8)
         {
-          tmp_post$7 = d;
+          tmp_post_7 = d;
           d = d + 1l;
-          *tmp_post$7 = (char)92;
+          *tmp_post_7 = (char)92;
         }
 
       }
 
-      tmp_post$9 = d;
+      tmp_post_9 = d;
       d = d + 1l;
-      *tmp_post$9 = *opt;
+      *tmp_post_9 = *opt;
     }
     *d = (char)0;
     return 0;
@@ -10187,9 +10187,9 @@ static struct node * alloc_node(struct fuse *f)
 {
   struct node_slab *slab;
   struct list_head *node;
-  signed int return_value_list_empty$1;
-  return_value_list_empty$1=list_empty(&f->partial_slabs);
-  if(!(return_value_list_empty$1 == 0))
+  signed int return_value_list_empty_1;
+  return_value_list_empty_1=list_empty(&f->partial_slabs);
+  if(!(return_value_list_empty_1 == 0))
   {
     signed int res;
     res=alloc_slab(f);
@@ -10202,9 +10202,9 @@ static struct node * alloc_node(struct fuse *f)
   slab->used = slab->used + 1;
   node = slab->freelist.next;
   list_del(node);
-  signed int return_value_list_empty$2;
-  return_value_list_empty$2=list_empty(&slab->freelist);
-  if(!(return_value_list_empty$2 == 0))
+  signed int return_value_list_empty_2;
+  return_value_list_empty_2=list_empty(&slab->freelist);
+  if(!(return_value_list_empty_2 == 0))
   {
     list_del(&slab->list);
     list_add_tail(&slab->list, &f->full_slabs);
@@ -10252,9 +10252,9 @@ static signed int alloc_slab(struct fuse *f)
 static unsigned int calc_timeout_nsec(double t)
 {
   double f;
-  unsigned long int return_value_calc_timeout_sec$1;
-  return_value_calc_timeout_sec$1=calc_timeout_sec(t);
-  f = t - (double)return_value_calc_timeout_sec$1;
+  unsigned long int return_value_calc_timeout_sec_1;
+  return_value_calc_timeout_sec_1=calc_timeout_sec(t);
+  f = t - (double)return_value_calc_timeout_sec_1;
   if(f < 0.0)
     return (unsigned int)0;
 
@@ -10285,8 +10285,8 @@ static unsigned long int calc_timeout_sec(double t)
 // file fuse_opt.c line 156
 static signed int call_proc(struct fuse_opt_context *ctx, const char *arg, signed int key, signed int iso)
 {
-  signed int return_value_add_opt$1;
-  signed int return_value_add_arg$2;
+  signed int return_value_add_opt_1;
+  signed int return_value_add_arg_2;
   if(key == -4)
     return 0;
 
@@ -10307,14 +10307,14 @@ static signed int call_proc(struct fuse_opt_context *ctx, const char *arg, signe
 
     if(!(iso == 0))
     {
-      return_value_add_opt$1=add_opt(ctx, arg);
-      return return_value_add_opt$1;
+      return_value_add_opt_1=add_opt(ctx, arg);
+      return return_value_add_opt_1;
     }
 
     else
     {
-      return_value_add_arg$2=add_arg(ctx, arg);
-      return return_value_add_arg$2;
+      return_value_add_arg_2=add_arg(ctx, arg);
+      return return_value_add_arg_2;
     }
   }
 }
@@ -10479,17 +10479,17 @@ static void convert_statfs_compat(struct fuse_statfs_compat1 *compatbuf, struct 
   stbuf->f_namemax = (unsigned long int)compatbuf->namelen;
 }
 
-// convert_statfs_compat$link1
+// convert_statfs_compat_link1
 // file fuse_lowlevel.c line 2857
-static void convert_statfs_compat$link1(struct statfs *compatbuf$link1, struct statvfs *buf)
+static void convert_statfs_compat_link1(struct statfs *compatbuf_link1, struct statvfs *buf)
 {
-  buf->f_bsize = (unsigned long int)compatbuf$link1->f_bsize;
-  buf->f_blocks = compatbuf$link1->f_blocks;
-  buf->f_bfree = compatbuf$link1->f_bfree;
-  buf->f_bavail = compatbuf$link1->f_bavail;
-  buf->f_files = compatbuf$link1->f_files;
-  buf->f_ffree = compatbuf$link1->f_ffree;
-  buf->f_namemax = (unsigned long int)compatbuf$link1->f_namelen;
+  buf->f_bsize = (unsigned long int)compatbuf_link1->f_bsize;
+  buf->f_blocks = compatbuf_link1->f_blocks;
+  buf->f_bfree = compatbuf_link1->f_bfree;
+  buf->f_bavail = compatbuf_link1->f_bavail;
+  buf->f_files = compatbuf_link1->f_files;
+  buf->f_ffree = compatbuf_link1->f_ffree;
+  buf->f_namemax = (unsigned long int)compatbuf_link1->f_namelen;
 }
 
 // convert_statfs_old
@@ -10513,17 +10513,17 @@ static signed int count_components(const char *p)
   for( ; (signed int)*p == 47; p = p + 1l)
     ;
   ctr = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(*p == 0); ctr = ctr + 1)
   {
     do
     {
       if(!(*p == 0))
-        tmp_if_expr$1 = (signed int)*p != 47 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)*p != 47 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       p = p + 1l;
@@ -10542,11 +10542,11 @@ static void curr_time(struct timespec *now)
   signed int res;
   static signed int clockid = 1;
   res=clock_gettime(clockid, now);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(res == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 22)
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 22)
     {
       clockid = 0;
       res=clock_gettime(clockid, now);
@@ -10567,9 +10567,9 @@ static void curr_time(struct timespec *now)
 static void cuse_fll_flush(struct fuse_req *req, unsigned long int ino, struct fuse_file_info *fi)
 {
   (void)ino;
-  struct cuse_lowlevel_ops *return_value_req_clop$1;
-  return_value_req_clop$1=req_clop(req);
-  return_value_req_clop$1->flush(req, fi);
+  struct cuse_lowlevel_ops *return_value_req_clop_1;
+  return_value_req_clop_1=req_clop(req);
+  return_value_req_clop_1->flush(req, fi);
 }
 
 // cuse_fll_fsync
@@ -10577,9 +10577,9 @@ static void cuse_fll_flush(struct fuse_req *req, unsigned long int ino, struct f
 static void cuse_fll_fsync(struct fuse_req *req, unsigned long int ino, signed int datasync, struct fuse_file_info *fi)
 {
   (void)ino;
-  struct cuse_lowlevel_ops *return_value_req_clop$1;
-  return_value_req_clop$1=req_clop(req);
-  return_value_req_clop$1->fsync(req, datasync, fi);
+  struct cuse_lowlevel_ops *return_value_req_clop_1;
+  return_value_req_clop_1=req_clop(req);
+  return_value_req_clop_1->fsync(req, datasync, fi);
 }
 
 // cuse_fll_ioctl
@@ -10587,9 +10587,9 @@ static void cuse_fll_fsync(struct fuse_req *req, unsigned long int ino, signed i
 static void cuse_fll_ioctl(struct fuse_req *req, unsigned long int ino, signed int cmd, void *arg, struct fuse_file_info *fi, unsigned int flags, const void *in_buf, unsigned long int in_bufsz, unsigned long int out_bufsz)
 {
   (void)ino;
-  struct cuse_lowlevel_ops *return_value_req_clop$1;
-  return_value_req_clop$1=req_clop(req);
-  return_value_req_clop$1->ioctl(req, cmd, arg, fi, flags, in_buf, in_bufsz, out_bufsz);
+  struct cuse_lowlevel_ops *return_value_req_clop_1;
+  return_value_req_clop_1=req_clop(req);
+  return_value_req_clop_1->ioctl(req, cmd, arg, fi, flags, in_buf, in_bufsz, out_bufsz);
 }
 
 // cuse_fll_open
@@ -10597,9 +10597,9 @@ static void cuse_fll_ioctl(struct fuse_req *req, unsigned long int ino, signed i
 static void cuse_fll_open(struct fuse_req *req, unsigned long int ino, struct fuse_file_info *fi)
 {
   (void)ino;
-  struct cuse_lowlevel_ops *return_value_req_clop$1;
-  return_value_req_clop$1=req_clop(req);
-  return_value_req_clop$1->open(req, fi);
+  struct cuse_lowlevel_ops *return_value_req_clop_1;
+  return_value_req_clop_1=req_clop(req);
+  return_value_req_clop_1->open(req, fi);
 }
 
 // cuse_fll_poll
@@ -10607,9 +10607,9 @@ static void cuse_fll_open(struct fuse_req *req, unsigned long int ino, struct fu
 static void cuse_fll_poll(struct fuse_req *req, unsigned long int ino, struct fuse_file_info *fi, struct fuse_pollhandle *ph)
 {
   (void)ino;
-  struct cuse_lowlevel_ops *return_value_req_clop$1;
-  return_value_req_clop$1=req_clop(req);
-  return_value_req_clop$1->poll(req, fi, ph);
+  struct cuse_lowlevel_ops *return_value_req_clop_1;
+  return_value_req_clop_1=req_clop(req);
+  return_value_req_clop_1->poll(req, fi, ph);
 }
 
 // cuse_fll_read
@@ -10617,9 +10617,9 @@ static void cuse_fll_poll(struct fuse_req *req, unsigned long int ino, struct fu
 static void cuse_fll_read(struct fuse_req *req, unsigned long int ino, unsigned long int size, signed long int off, struct fuse_file_info *fi)
 {
   (void)ino;
-  struct cuse_lowlevel_ops *return_value_req_clop$1;
-  return_value_req_clop$1=req_clop(req);
-  return_value_req_clop$1->read(req, size, off, fi);
+  struct cuse_lowlevel_ops *return_value_req_clop_1;
+  return_value_req_clop_1=req_clop(req);
+  return_value_req_clop_1->read(req, size, off, fi);
 }
 
 // cuse_fll_release
@@ -10627,9 +10627,9 @@ static void cuse_fll_read(struct fuse_req *req, unsigned long int ino, unsigned 
 static void cuse_fll_release(struct fuse_req *req, unsigned long int ino, struct fuse_file_info *fi)
 {
   (void)ino;
-  struct cuse_lowlevel_ops *return_value_req_clop$1;
-  return_value_req_clop$1=req_clop(req);
-  return_value_req_clop$1->release(req, fi);
+  struct cuse_lowlevel_ops *return_value_req_clop_1;
+  return_value_req_clop_1=req_clop(req);
+  return_value_req_clop_1->release(req, fi);
 }
 
 // cuse_fll_write
@@ -10637,9 +10637,9 @@ static void cuse_fll_release(struct fuse_req *req, unsigned long int ino, struct
 static void cuse_fll_write(struct fuse_req *req, unsigned long int ino, const char *buf, unsigned long int size, signed long int off, struct fuse_file_info *fi)
 {
   (void)ino;
-  struct cuse_lowlevel_ops *return_value_req_clop$1;
-  return_value_req_clop$1=req_clop(req);
-  return_value_req_clop$1->write(req, buf, size, off, fi);
+  struct cuse_lowlevel_ops *return_value_req_clop_1;
+  return_value_req_clop_1=req_clop(req);
+  return_value_req_clop_1->write(req, buf, size, off, fi);
 }
 
 // cuse_lowlevel_init
@@ -10794,10 +10794,10 @@ struct fuse_session * cuse_lowlevel_setup(signed int argc, char **argv, struct c
   signed int foreground;
   signed int res;
   res=fuse_parse_cmdline(&args, (char **)(void *)0, multithreaded, &foreground);
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(!(res == -1))
   {
     static struct fuse_opt kill_subtype_opts[2l] = { { .templ="subtype=", .offset=(unsigned long int)-1U, .value=-4 },
@@ -10820,24 +10820,24 @@ struct fuse_session * cuse_lowlevel_setup(signed int argc, char **argv, struct c
         fd=open(devname, 02);
         if(fd == -1)
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          if(*return_value___errno_location$3 == 19)
-            tmp_if_expr$5 = (_Bool)1;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          if(*return_value___errno_location_3 == 19)
+            tmp_if_expr_5 = (_Bool)1;
 
           else
           {
-            return_value___errno_location$4=__errno_location();
-            tmp_if_expr$5 = *return_value___errno_location$4 == 2 ? (_Bool)1 : (_Bool)0;
+            return_value___errno_location_4=__errno_location();
+            tmp_if_expr_5 = *return_value___errno_location_4 == 2 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$5)
+          if(tmp_if_expr_5)
             fprintf(stderr, "cuse: device not found, try 'modprobe cuse' first\n");
 
           else
           {
-            return_value___errno_location$1=__errno_location();
-            return_value_strerror$2=strerror(*return_value___errno_location$1);
-            fprintf(stderr, "cuse: failed to open %s: %s\n", devname, return_value_strerror$2);
+            return_value___errno_location_1=__errno_location();
+            return_value_strerror_2=strerror(*return_value___errno_location_1);
+            fprintf(stderr, "cuse: failed to open %s: %s\n", devname, return_value_strerror_2);
           }
           goto err_se;
         }
@@ -10897,9 +10897,9 @@ static unsigned long int cuse_pack_info(signed int argc, const char **argv, char
   for( ; !(i >= argc); i = i + 1)
   {
     unsigned long int len;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(argv[(signed long int)i]);
-    len = return_value_strlen$1 + (unsigned long int)1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(argv[(signed long int)i]);
+    len = return_value_strlen_1 + (unsigned long int)1;
     size = size + len;
     if(!(buf == ((char *)NULL)))
     {
@@ -10926,9 +10926,9 @@ static struct cuse_data * cuse_prep_data(struct cuse_info *ci, struct cuse_lowle
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct cuse_data) /*112ul*/  + dev_info_len);
-    cd = (struct cuse_data *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct cuse_data) /*112ul*/  + dev_info_len);
+    cd = (struct cuse_data *)return_value_calloc_1;
     if(cd == ((struct cuse_data *)NULL))
     {
       fprintf(stderr, "cuse: failed to allocate cuse_data\n");
@@ -10958,20 +10958,20 @@ static signed int cuse_reply_init(struct fuse_req *req, struct cuse_init_out *ar
   iov[(signed long int)1].iov_len = sizeof(struct cuse_init_out) /*72ul*/ ;
   iov[(signed long int)2].iov_base = (void *)dev_info;
   iov[(signed long int)2].iov_len = (unsigned long int)dev_info_len;
-  signed int return_value_fuse_send_reply_iov_nofree$1;
-  return_value_fuse_send_reply_iov_nofree$1=fuse_send_reply_iov_nofree(req, 0, iov, 3);
-  return return_value_fuse_send_reply_iov_nofree$1;
+  signed int return_value_fuse_send_reply_iov_nofree_1;
+  return_value_fuse_send_reply_iov_nofree_1=fuse_send_reply_iov_nofree(req, 0, iov, 3);
+  return return_value_fuse_send_reply_iov_nofree_1;
 }
 
 // cusexmp_expand
 // file cusexmp.c line 58
 static signed int cusexmp_expand(unsigned long int new_size)
 {
-  signed int return_value_cusexmp_resize$1;
+  signed int return_value_cusexmp_resize_1;
   if(!(cusexmp_size >= new_size))
   {
-    return_value_cusexmp_resize$1=cusexmp_resize(new_size);
-    return return_value_cusexmp_resize$1;
+    return_value_cusexmp_resize_1=cusexmp_resize(new_size);
+    return return_value_cusexmp_resize_1;
   }
 
   else
@@ -11006,8 +11006,8 @@ static void cusexmp_ioctl(struct fuse_req *req, signed int cmd, void *arg, struc
       {
         if(in_bufsz == 0ul)
         {
-          struct iovec cusexmp_ioctl$$1$$2$$2$$iov = { .iov_base=arg, .iov_len=sizeof(unsigned long int) /*8ul*/  };
-          fuse_reply_ioctl_retry(req, &cusexmp_ioctl$$1$$2$$2$$iov, (unsigned long int)1, (struct iovec *)(void *)0, (unsigned long int)0);
+          struct iovec cusexmp_ioctl__1__2__2__iov = { .iov_base=arg, .iov_len=sizeof(unsigned long int) /*8ul*/  };
+          fuse_reply_ioctl_retry(req, &cusexmp_ioctl__1__2__2__iov, (unsigned long int)1, (struct iovec *)(void *)0, (unsigned long int)0);
         }
 
         else
@@ -11043,13 +11043,13 @@ static signed int cusexmp_process_arg(void *data, const char *arg, signed int ke
   struct cusexmp_param *param = (struct cusexmp_param *)data;
   (void)outargs;
   (void)arg;
-  signed int return_value_fuse_opt_add_arg$1;
+  signed int return_value_fuse_opt_add_arg_1;
   if(key == 0)
   {
     param->is_help = 1;
     fprintf(stderr, "%s", usage);
-    return_value_fuse_opt_add_arg$1=fuse_opt_add_arg(outargs, "-ho");
-    return return_value_fuse_opt_add_arg$1;
+    return_value_fuse_opt_add_arg_1=fuse_opt_add_arg(outargs, "-ho");
+    return return_value_fuse_opt_add_arg_1;
   }
 
   return 1;
@@ -11100,9 +11100,9 @@ static signed int cusexmp_resize(unsigned long int new_size)
 static void cusexmp_write(struct fuse_req *req, const char *buf, unsigned long int size, signed long int off, struct fuse_file_info *fi)
 {
   (void)fi;
-  signed int return_value_cusexmp_expand$1;
-  return_value_cusexmp_expand$1=cusexmp_expand((unsigned long int)off + size);
-  if(!(return_value_cusexmp_expand$1 == 0))
+  signed int return_value_cusexmp_expand_1;
+  return_value_cusexmp_expand_1=cusexmp_expand((unsigned long int)off + size);
+  if(!(return_value_cusexmp_expand_1 == 0))
     fuse_reply_err(req, 12);
 
   else
@@ -11150,9 +11150,9 @@ static void delete_node(struct fuse *f, struct node *node)
   /* assertion node->treelock == 0 */
   assert(node->treelock == 0);
   unhash_name(f, node);
-  signed int return_value_lru_enabled$1;
-  return_value_lru_enabled$1=lru_enabled(f);
-  if(!(return_value_lru_enabled$1 == 0))
+  signed int return_value_lru_enabled_1;
+  return_value_lru_enabled_1=lru_enabled(f);
+  if(!(return_value_lru_enabled_1 == 0))
     remove_node_lru(node);
 
   unhash_id(f, node);
@@ -11330,9 +11330,9 @@ static void do_forget(struct fuse *f, unsigned long int ino, unsigned long int n
   forget_node(f, ino, nlookup);
 }
 
-// do_forget$link1
+// do_forget_link1
 // file fuse_lowlevel.c line 984
-static void do_forget$link1(struct fuse_req *req, unsigned long int nodeid, const void *inarg)
+static void do_forget_link1(struct fuse_req *req, unsigned long int nodeid, const void *inarg)
 {
   struct fuse_forget_in *arg = (struct fuse_forget_in *)inarg;
   if(!(req->f->op.forget == ((void (*)(struct fuse_req *, unsigned long int, unsigned long int))NULL)))
@@ -11462,7 +11462,7 @@ static void do_init(struct fuse_req *req, unsigned long int nodeid, const void *
   memset((void *)&outarg, 0, sizeof(struct fuse_init_out) /*24ul*/ );
   outarg.major = (unsigned int)7;
   outarg.minor = (unsigned int)19;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(arg->major >= 7u))
   {
     fprintf(stderr, "fuse: unsupported protocol version: %u.%u\n", arg->major, arg->minor);
@@ -11577,11 +11577,11 @@ static void do_init(struct fuse_req *req, unsigned long int nodeid, const void *
         f->conn.want = f->conn.want & (unsigned int)~(1 << 8);
 
       if(!(f->conn.async_read == 0u))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (f->conn.want & (unsigned int)(1 << 0)) != 0u ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (f->conn.want & (unsigned int)(1 << 0)) != 0u ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         outarg.flags = outarg.flags | (unsigned int)(1 << 0);
 
       if(!((2u & f->conn.want) == 0u))
@@ -11645,9 +11645,9 @@ static void do_interrupt(struct fuse_req *req, unsigned long int nodeid, const v
 
   req->u.i.unique = arg->unique;
   pthread_mutex_lock(&f->lock);
-  signed int return_value_find_interrupted$1;
-  return_value_find_interrupted$1=find_interrupted(f, req);
-  if(!(return_value_find_interrupted$1 == 0))
+  signed int return_value_find_interrupted_1;
+  return_value_find_interrupted_1=find_interrupted(f, req);
+  if(!(return_value_find_interrupted_1 == 0))
     destroy_req(req);
 
   else
@@ -11823,9 +11823,9 @@ static void do_poll(struct fuse_req *req, unsigned long int nodeid, const void *
     struct fuse_pollhandle *ph = (struct fuse_pollhandle *)(void *)0;
     if(!((1u & arg->flags) == 0u))
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct fuse_pollhandle) /*24ul*/ );
-      ph = (struct fuse_pollhandle *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct fuse_pollhandle) /*24ul*/ );
+      ph = (struct fuse_pollhandle *)return_value_malloc_1;
       if(ph == ((struct fuse_pollhandle *)NULL))
       {
         fuse_reply_err(req, 12);
@@ -11964,9 +11964,9 @@ static void do_rename(struct fuse_req *req, unsigned long int nodeid, const void
   struct fuse_rename_in *arg = (struct fuse_rename_in *)inarg;
   char *oldname = (char *)arg + (signed long int)sizeof(struct fuse_rename_in) /*8ul*/ ;
   char *newname;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(oldname);
-  newname = oldname + (signed long int)return_value_strlen$1 + (signed long int)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(oldname);
+  newname = oldname + (signed long int)return_value_strlen_1 + (signed long int)1;
   if(!(req->f->op.rename == ((void (*)(struct fuse_req *, unsigned long int, const char *, unsigned long int, const char *))NULL)))
     req->f->op.rename(req, nodeid, oldname, arg->newdir, newname);
 
@@ -12085,9 +12085,9 @@ static void do_setxattr(struct fuse_req *req, unsigned long int nodeid, const vo
   struct fuse_setxattr_in *arg = (struct fuse_setxattr_in *)inarg;
   char *name = (char *)arg + (signed long int)sizeof(struct fuse_setxattr_in) /*8ul*/ ;
   char *value;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  value = name + (signed long int)return_value_strlen$1 + (signed long int)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  value = name + (signed long int)return_value_strlen_1 + (signed long int)1;
   if(!(req->f->op.setxattr == ((void (*)(struct fuse_req *, unsigned long int, const char *, const char *, unsigned long int, signed int))NULL)))
     req->f->op.setxattr(req, nodeid, name, value, (unsigned long int)arg->size, (signed int)arg->flags);
 
@@ -12120,9 +12120,9 @@ static void do_symlink(struct fuse_req *req, unsigned long int nodeid, const voi
 {
   char *name = (char *)inarg;
   char *linkname;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen((char *)inarg);
-  linkname = (char *)inarg + (signed long int)return_value_strlen$1 + (signed long int)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen((char *)inarg);
+  linkname = (char *)inarg + (signed long int)return_value_strlen_1 + (signed long int)1;
   if(!(req->f->op.symlink == ((void (*)(struct fuse_req *, const char *, unsigned long int, const char *))NULL)))
     req->f->op.symlink(req, linkname, nodeid, name);
 
@@ -12236,60 +12236,60 @@ static signed int exec_umount(const char *progname, const char *rel_mnt, signed 
 {
   signed int res;
   signed int status;
-  struct anonymous$4 blockmask;
-  struct anonymous$4 oldmask;
+  struct anonymous_4 blockmask;
+  struct anonymous_4 oldmask;
   sigemptyset(&blockmask);
   sigaddset(&blockmask, 17);
   res=sigprocmask(0, &blockmask, &oldmask);
   if(res == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "%s: sigprocmask: %s\n", progname, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "%s: sigprocmask: %s\n", progname, return_value_strerror_2);
     return -1;
   }
 
   res=fork();
   if(res == -1)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fprintf(stderr, "%s: fork: %s\n", progname, return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fprintf(stderr, "%s: fork: %s\n", progname, return_value_strerror_4);
     goto out_restore;
   }
 
   if(res == 0)
   {
     char *env = (char *)(void *)0;
-    sigprocmask(2, &oldmask, (struct anonymous$4 *)(void *)0);
-    unsigned int return_value_geteuid$5;
-    return_value_geteuid$5=geteuid();
-    setuid(return_value_geteuid$5);
+    sigprocmask(2, &oldmask, (struct anonymous_4 *)(void *)0);
+    unsigned int return_value_geteuid_5;
+    return_value_geteuid_5=geteuid();
+    setuid(return_value_geteuid_5);
     if(!(lazy == 0))
       execle("/bin/umount", "/bin/umount", (const void *)"-i", rel_mnt, (const void *)"-l", (void *)0, &env);
 
     else
       execle("/bin/umount", "/bin/umount", (const void *)"-i", rel_mnt, (void *)0, &env);
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    char *return_value_strerror$7;
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    fprintf(stderr, "%s: failed to execute /bin/umount: %s\n", progname, return_value_strerror$7);
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    char *return_value_strerror_7;
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    fprintf(stderr, "%s: failed to execute /bin/umount: %s\n", progname, return_value_strerror_7);
     exit(1);
   }
 
   res=waitpid(res, &status, 0);
-  signed int *return_value___errno_location$8;
-  char *return_value_strerror$9;
+  signed int *return_value___errno_location_8;
+  char *return_value_strerror_9;
   if(res == -1)
   {
-    return_value___errno_location$8=__errno_location();
-    return_value_strerror$9=strerror(*return_value___errno_location$8);
-    fprintf(stderr, "%s: waitpid: %s\n", progname, return_value_strerror$9);
+    return_value___errno_location_8=__errno_location();
+    return_value_strerror_9=strerror(*return_value___errno_location_8);
+    fprintf(stderr, "%s: waitpid: %s\n", progname, return_value_strerror_9);
   }
 
   if(!(status == 0))
@@ -12298,7 +12298,7 @@ static signed int exec_umount(const char *progname, const char *rel_mnt, signed 
 
 out_restore:
   ;
-  sigprocmask(2, &oldmask, (struct anonymous$4 *)(void *)0);
+  sigprocmask(2, &oldmask, (struct anonymous_4 *)(void *)0);
   return res;
 }
 
@@ -12329,9 +12329,9 @@ static signed int extend_contents(struct fuse_dh *dh, unsigned int minsize)
 
       else
         newsize = newsize * (unsigned int)2;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)dh->contents, (unsigned long int)newsize);
-    newptr = (char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)dh->contents, (unsigned long int)newsize);
+    newptr = (char *)return_value_realloc_1;
     if(newptr == ((char *)NULL))
     {
       dh->error = -12;
@@ -12378,15 +12378,15 @@ static signed int fill_dir(void *dh_, const char *name, struct stat *statp, sign
 
   if(!(off == 0l))
   {
-    signed int return_value_extend_contents$1;
-    return_value_extend_contents$1=extend_contents(dh, dh->needlen);
-    if(return_value_extend_contents$1 == -1)
+    signed int return_value_extend_contents_1;
+    return_value_extend_contents_1=extend_contents(dh, dh->needlen);
+    if(return_value_extend_contents_1 == -1)
       return 1;
 
     dh->filled = 0;
-    unsigned long int return_value_fuse_add_direntry$2;
-    return_value_fuse_add_direntry$2=fuse_add_direntry(dh->req, dh->contents + (signed long int)dh->len, (unsigned long int)(dh->needlen - dh->len), name, &stbuf, off);
-    newlen = (unsigned long int)dh->len + return_value_fuse_add_direntry$2;
+    unsigned long int return_value_fuse_add_direntry_2;
+    return_value_fuse_add_direntry_2=fuse_add_direntry(dh->req, dh->contents + (signed long int)dh->len, (unsigned long int)(dh->needlen - dh->len), name, &stbuf, off);
+    newlen = (unsigned long int)dh->len + return_value_fuse_add_direntry_2;
     if(!((unsigned long int)dh->needlen >= newlen))
       return 1;
 
@@ -12394,12 +12394,12 @@ static signed int fill_dir(void *dh_, const char *name, struct stat *statp, sign
 
   else
   {
-    unsigned long int return_value_fuse_add_direntry$3;
-    return_value_fuse_add_direntry$3=fuse_add_direntry(dh->req, (char *)(void *)0, (unsigned long int)0, name, (struct stat *)(void *)0, (signed long int)0);
-    newlen = (unsigned long int)dh->len + return_value_fuse_add_direntry$3;
-    signed int return_value_extend_contents$4;
-    return_value_extend_contents$4=extend_contents(dh, (unsigned int)newlen);
-    if(return_value_extend_contents$4 == -1)
+    unsigned long int return_value_fuse_add_direntry_3;
+    return_value_fuse_add_direntry_3=fuse_add_direntry(dh->req, (char *)(void *)0, (unsigned long int)0, name, (struct stat *)(void *)0, (signed long int)0);
+    newlen = (unsigned long int)dh->len + return_value_fuse_add_direntry_3;
+    signed int return_value_extend_contents_4;
+    return_value_extend_contents_4=extend_contents(dh, (unsigned int)newlen);
+    if(return_value_extend_contents_4 == -1)
       return 1;
 
     fuse_add_direntry(dh->req, dh->contents + (signed long int)dh->len, (unsigned long int)(dh->size - dh->len), name, &stbuf, (signed long int)newlen);
@@ -12512,7 +12512,7 @@ static struct node * find_node(struct fuse *f, unsigned long int parent, const c
 
   else
     node=lookup_node(f, parent, name);
-  signed int return_value_lru_enabled$3;
+  signed int return_value_lru_enabled_3;
   if(node == ((struct node *)NULL))
   {
     node=alloc_node(f);
@@ -12524,9 +12524,9 @@ static struct node * find_node(struct fuse *f, unsigned long int parent, const c
     if(!(f->conf.remember == 0))
       inc_nlookup(node);
 
-    signed int return_value_hash_name$1;
-    return_value_hash_name$1=hash_name(f, node, parent, name);
-    if(return_value_hash_name$1 == -1)
+    signed int return_value_hash_name_1;
+    return_value_hash_name_1=hash_name(f, node, parent, name);
+    if(return_value_hash_name_1 == -1)
     {
       free_node(f, node);
       node = (struct node *)(void *)0;
@@ -12534,9 +12534,9 @@ static struct node * find_node(struct fuse *f, unsigned long int parent, const c
     }
 
     hash_id(f, node);
-    signed int return_value_lru_enabled$2;
-    return_value_lru_enabled$2=lru_enabled(f);
-    if(!(return_value_lru_enabled$2 == 0))
+    signed int return_value_lru_enabled_2;
+    return_value_lru_enabled_2=lru_enabled(f);
+    if(!(return_value_lru_enabled_2 == 0))
     {
       struct node_lru *lnode;
       lnode=node_lru(node);
@@ -12547,8 +12547,8 @@ static struct node * find_node(struct fuse *f, unsigned long int parent, const c
 
   else
   {
-    return_value_lru_enabled$3=lru_enabled(f);
-    if(!(return_value_lru_enabled$3 == 0))
+    return_value_lru_enabled_3=lru_enabled(f);
+    if(!(return_value_lru_enabled_3 == 0))
     {
       if(node->nlookup == 1ul)
         remove_node_lru(node);
@@ -12568,20 +12568,20 @@ out_err:
 // file fuse_opt.c line 194
 static struct fuse_opt * find_opt(struct fuse_opt *opt, const char *arg, unsigned int *sepp)
 {
-  _Bool tmp_if_expr$1;
-  signed int return_value_match_template$2;
+  _Bool tmp_if_expr_1;
+  signed int return_value_match_template_2;
   do
   {
     if(!(opt == ((struct fuse_opt *)NULL)))
-      tmp_if_expr$1 = opt->templ != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = opt->templ != ((const char *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
-    return_value_match_template$2=match_template(opt->templ, arg, sepp);
-    if(!(return_value_match_template$2 == 0))
+    return_value_match_template_2=match_template(opt->templ, arg, sepp);
+    if(!(return_value_match_template_2 == 0))
       return opt;
 
     opt = opt + 1l;
@@ -12662,9 +12662,9 @@ static void fioc_do_rw(struct fuse_req *req, void *addr, const void *in_buf, uns
 
     else
     {
-      signed int return_value_cusexmp_expand$1;
-      return_value_cusexmp_expand$1=cusexmp_expand((unsigned long int)arg->offset + in_bufsz);
-      if(!(return_value_cusexmp_expand$1 == 0))
+      signed int return_value_cusexmp_expand_1;
+      return_value_cusexmp_expand_1=cusexmp_expand((unsigned long int)arg->offset + in_bufsz);
+      if(!(return_value_cusexmp_expand_1 == 0))
       {
         fuse_reply_err(req, 12);
         goto __CPROVER_DUMP_L10;
@@ -12686,13 +12686,13 @@ static void flock_to_lock(struct flock *flock, struct lock *lock)
   memset((void *)lock, 0, sizeof(struct lock) /*48ul*/ );
   lock->type = (signed int)flock->l_type;
   lock->start = flock->l_start;
-  signed long int tmp_if_expr$1;
+  signed long int tmp_if_expr_1;
   if(!(flock->l_len == 0l))
-    tmp_if_expr$1 = (flock->l_start + flock->l_len) - (signed long int)1;
+    tmp_if_expr_1 = (flock->l_start + flock->l_len) - (signed long int)1;
 
   else
-    tmp_if_expr$1 = 0x7fffffffffffffffLL;
-  lock->end = tmp_if_expr$1;
+    tmp_if_expr_1 = 0x7fffffffffffffffLL;
+  lock->end = tmp_if_expr_1;
   lock->pid = flock->l_pid;
 }
 
@@ -12701,8 +12701,8 @@ static void flock_to_lock(struct flock *flock, struct lock *lock)
 static void forget_node(struct fuse *f, unsigned long int nodeid, unsigned long int nlookup)
 {
   struct node *node;
-  _Bool tmp_if_expr$1;
-  signed int return_value_lru_enabled$2;
+  _Bool tmp_if_expr_1;
+  signed int return_value_lru_enabled_2;
   if(!(nodeid == 1ul))
   {
     pthread_mutex_lock(&f->lock);
@@ -12727,12 +12727,12 @@ static void forget_node(struct fuse *f, unsigned long int nodeid, unsigned long 
       {
         pthread_cond_wait(&qe.cond, &f->lock);
         if(node->nlookup == nlookup)
-          tmp_if_expr$1 = node->treelock != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = node->treelock != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
       }
-      while(tmp_if_expr$1);
+      while(tmp_if_expr_1);
       dequeue_path(f, &qe);
       debug_path(f, "DEQUEUE_PATH (forget)", nodeid, (const char *)(void *)0, (_Bool)0);
     }
@@ -12744,8 +12744,8 @@ static void forget_node(struct fuse *f, unsigned long int nodeid, unsigned long 
 
     else
     {
-      return_value_lru_enabled$2=lru_enabled(f);
-      if(!(return_value_lru_enabled$2 == 0))
+      return_value_lru_enabled_2=lru_enabled(f);
+      if(!(return_value_lru_enabled_2 == 0))
       {
         if(node->nlookup == 1ul)
           set_forget_time(f, node);
@@ -12786,9 +12786,9 @@ static void free_node_mem(struct fuse *f, struct node *node)
   slab->used = slab->used - 1;
   if(!(slab->used == 0))
   {
-    signed int return_value_list_empty$1;
-    return_value_list_empty$1=list_empty(&slab->freelist);
-    if(!(return_value_list_empty$1 == 0))
+    signed int return_value_list_empty_1;
+    return_value_list_empty_1=list_empty(&slab->freelist);
+    if(!(return_value_list_empty_1 == 0))
     {
       list_del(&slab->list);
       list_add_tail(&slab->list, &f->partial_slabs);
@@ -12853,14 +12853,14 @@ static void free_slab(struct fuse *f, struct node_slab *slab)
 char * fuse_add_dirent(char *buf, const char *name, struct stat *stbuf, signed long int off)
 {
   unsigned int namelen;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  namelen = (unsigned int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  namelen = (unsigned int)return_value_strlen_1;
   unsigned int entlen = (unsigned int)(24ul + (unsigned long int)namelen);
   unsigned int entsize;
-  unsigned long int return_value_fuse_dirent_size$2;
-  return_value_fuse_dirent_size$2=fuse_dirent_size((unsigned long int)namelen);
-  entsize = (unsigned int)return_value_fuse_dirent_size$2;
+  unsigned long int return_value_fuse_dirent_size_2;
+  return_value_fuse_dirent_size_2=fuse_dirent_size((unsigned long int)namelen);
+  entsize = (unsigned int)return_value_fuse_dirent_size_2;
   unsigned int padlen = entsize - entlen;
   struct fuse_dirent *dirent = (struct fuse_dirent *)buf;
   dirent->ino = stbuf->st_ino;
@@ -12880,9 +12880,9 @@ unsigned long int fuse_add_direntry(struct fuse_req *req, char *buf, unsigned lo
 {
   unsigned long int entsize;
   (void)req;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  entsize=fuse_dirent_size(return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  entsize=fuse_dirent_size(return_value_strlen_1);
   if(bufsize >= entsize && !(buf == ((char *)NULL)))
     fuse_add_dirent(buf, name, stbuf, off);
 
@@ -12894,9 +12894,9 @@ unsigned long int fuse_add_direntry(struct fuse_req *req, char *buf, unsigned lo
 static struct fuse_cmd * fuse_alloc_cmd(unsigned long int bufsize)
 {
   struct fuse_cmd *cmd;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct fuse_cmd) /*24ul*/ );
-  cmd = (struct fuse_cmd *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct fuse_cmd) /*24ul*/ );
+  cmd = (struct fuse_cmd *)return_value_malloc_1;
   if(cmd == ((struct fuse_cmd *)NULL))
   {
     fprintf(stderr, "fuse: failed to allocate cmd\n");
@@ -12905,9 +12905,9 @@ static struct fuse_cmd * fuse_alloc_cmd(unsigned long int bufsize)
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(bufsize);
-    cmd->buf = (char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(bufsize);
+    cmd->buf = (char *)return_value_malloc_2;
     if(cmd->buf == ((char *)NULL))
     {
       fprintf(stderr, "fuse: failed to allocate read buffer\n");
@@ -12925,13 +12925,13 @@ static struct fuse_cmd * fuse_alloc_cmd(unsigned long int bufsize)
 signed long int fuse_buf_copy(struct fuse_bufvec *dstv, struct fuse_bufvec *srcv, enum fuse_buf_copy_flags flags)
 {
   unsigned long int copied = (unsigned long int)0;
-  unsigned long int return_value_fuse_buf_size$1;
-  _Bool tmp_if_expr$4;
-  signed int return_value_fuse_bufvec_advance$3;
+  unsigned long int return_value_fuse_buf_size_1;
+  _Bool tmp_if_expr_4;
+  signed int return_value_fuse_bufvec_advance_3;
   if(dstv == srcv)
   {
-    return_value_fuse_buf_size$1=fuse_buf_size(dstv);
-    return (signed long int)return_value_fuse_buf_size$1;
+    return_value_fuse_buf_size_1=fuse_buf_size(dstv);
+    return (signed long int)return_value_fuse_buf_size_1;
   }
 
   else
@@ -12962,17 +12962,17 @@ signed long int fuse_buf_copy(struct fuse_bufvec *dstv, struct fuse_bufvec *srcv
       }
 
       copied = copied + (unsigned long int)res;
-      signed int return_value_fuse_bufvec_advance$2;
-      return_value_fuse_bufvec_advance$2=fuse_bufvec_advance(srcv, (unsigned long int)res);
-      if(return_value_fuse_bufvec_advance$2 == 0)
-        tmp_if_expr$4 = (_Bool)1;
+      signed int return_value_fuse_bufvec_advance_2;
+      return_value_fuse_bufvec_advance_2=fuse_bufvec_advance(srcv, (unsigned long int)res);
+      if(return_value_fuse_bufvec_advance_2 == 0)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
-        return_value_fuse_bufvec_advance$3=fuse_bufvec_advance(dstv, (unsigned long int)res);
-        tmp_if_expr$4 = !(return_value_fuse_bufvec_advance$3 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_fuse_bufvec_advance_3=fuse_bufvec_advance(dstv, (unsigned long int)res);
+        tmp_if_expr_4 = !(return_value_fuse_bufvec_advance_3 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
+      if(tmp_if_expr_4)
         break;
 
       if(!((unsigned long int)res >= len))
@@ -13009,32 +13009,32 @@ static signed long int fuse_buf_copy_one(struct fuse_buf *dst, unsigned long int
   else
     if(src_is_fd == 0)
     {
-      signed long int return_value_fuse_buf_write$1;
-      return_value_fuse_buf_write$1=fuse_buf_write(dst, dst_off, src, src_off, len);
-      return return_value_fuse_buf_write$1;
+      signed long int return_value_fuse_buf_write_1;
+      return_value_fuse_buf_write_1=fuse_buf_write(dst, dst_off, src, src_off, len);
+      return return_value_fuse_buf_write_1;
     }
 
     else
       if(dst_is_fd == 0)
       {
-        signed long int return_value_fuse_buf_read$2;
-        return_value_fuse_buf_read$2=fuse_buf_read(dst, dst_off, src, src_off, len);
-        return return_value_fuse_buf_read$2;
+        signed long int return_value_fuse_buf_read_2;
+        return_value_fuse_buf_read_2=fuse_buf_read(dst, dst_off, src, src_off, len);
+        return return_value_fuse_buf_read_2;
       }
 
       else
         if(!((FUSE_BUF_NO_SPLICE & (signed int)flags) == 0))
         {
-          signed long int return_value_fuse_buf_fd_to_fd$3;
-          return_value_fuse_buf_fd_to_fd$3=fuse_buf_fd_to_fd(dst, dst_off, src, src_off, len);
-          return return_value_fuse_buf_fd_to_fd$3;
+          signed long int return_value_fuse_buf_fd_to_fd_3;
+          return_value_fuse_buf_fd_to_fd_3=fuse_buf_fd_to_fd(dst, dst_off, src, src_off, len);
+          return return_value_fuse_buf_fd_to_fd_3;
         }
 
         else
         {
-          signed long int return_value_fuse_buf_splice$4;
-          return_value_fuse_buf_splice$4=fuse_buf_splice(dst, dst_off, src, src_off, len, flags);
-          return return_value_fuse_buf_splice$4;
+          signed long int return_value_fuse_buf_splice_4;
+          return_value_fuse_buf_splice_4=fuse_buf_splice(dst, dst_off, src, src_off, len, flags);
+          return return_value_fuse_buf_splice_4;
         }
 }
 
@@ -13096,7 +13096,7 @@ static signed long int fuse_buf_read(struct fuse_buf *dst, unsigned long int dst
 {
   signed long int res = (signed long int)0;
   unsigned long int copied = (unsigned long int)0;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   for( ; !(len == 0ul); len = len - (unsigned long int)res)
   {
     if(!((FUSE_BUF_FD_SEEK & (signed int)src->flags) == 0))
@@ -13108,8 +13108,8 @@ static signed long int fuse_buf_read(struct fuse_buf *dst, unsigned long int dst
     {
       if(copied == 0ul)
       {
-        return_value___errno_location$1=__errno_location();
-        return (signed long int)-(*return_value___errno_location$1);
+        return_value___errno_location_1=__errno_location();
+        return (signed long int)-(*return_value___errno_location_1);
       }
 
       break;
@@ -13173,7 +13173,7 @@ static signed long int fuse_buf_splice(struct fuse_buf *dst, unsigned long int d
     dstpos = &dstpos_val;
   }
 
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   for( ; !(len == 0ul); len = len - (unsigned long int)res)
   {
     res=splice(src->fd, srcpos, dst->fd, dstpos, len, (unsigned int)splice_flags);
@@ -13182,17 +13182,17 @@ static signed long int fuse_buf_splice(struct fuse_buf *dst, unsigned long int d
       if(!(copied == 0ul))
         break;
 
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      if(!((FUSE_BUF_FORCE_SPLICE & (signed int)flags) == 0) || !(*return_value___errno_location$2 == 22))
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      if(!((FUSE_BUF_FORCE_SPLICE & (signed int)flags) == 0) || !(*return_value___errno_location_2 == 22))
       {
-        return_value___errno_location$1=__errno_location();
-        return (signed long int)-(*return_value___errno_location$1);
+        return_value___errno_location_1=__errno_location();
+        return (signed long int)-(*return_value___errno_location_1);
       }
 
-      signed long int return_value_fuse_buf_fd_to_fd$3;
-      return_value_fuse_buf_fd_to_fd$3=fuse_buf_fd_to_fd(dst, dst_off, src, src_off, len);
-      return return_value_fuse_buf_fd_to_fd$3;
+      signed long int return_value_fuse_buf_fd_to_fd_3;
+      return_value_fuse_buf_fd_to_fd_3=fuse_buf_fd_to_fd(dst, dst_off, src, src_off, len);
+      return return_value_fuse_buf_fd_to_fd_3;
     }
 
     if(res == 0l)
@@ -13216,7 +13216,7 @@ static signed long int fuse_buf_write(struct fuse_buf *dst, unsigned long int ds
 {
   signed long int res = (signed long int)0;
   unsigned long int copied = (unsigned long int)0;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   for( ; !(len == 0ul); len = len - (unsigned long int)res)
   {
     if(!((FUSE_BUF_FD_SEEK & (signed int)dst->flags) == 0))
@@ -13228,8 +13228,8 @@ static signed long int fuse_buf_write(struct fuse_buf *dst, unsigned long int ds
     {
       if(copied == 0ul)
       {
-        return_value___errno_location$1=__errno_location();
-        return (signed long int)-(*return_value___errno_location$1);
+        return_value___errno_location_1=__errno_location();
+        return (signed long int)-(*return_value___errno_location_1);
       }
 
       break;
@@ -13327,9 +13327,9 @@ signed int fuse_chan_fd(struct fuse_chan *ch)
 // file ../include/fuse_lowlevel.h line 1756
 struct fuse_chan * fuse_chan_new(struct fuse_chan_ops *op, signed int fd, unsigned long int bufsize, void *data)
 {
-  struct fuse_chan *return_value_fuse_chan_new_common$1;
-  return_value_fuse_chan_new_common$1=fuse_chan_new_common(op, fd, bufsize, data, 0);
-  return return_value_fuse_chan_new_common$1;
+  struct fuse_chan *return_value_fuse_chan_new_common_1;
+  return_value_fuse_chan_new_common_1=fuse_chan_new_common(op, fd, bufsize, data, 0);
+  return return_value_fuse_chan_new_common_1;
 }
 
 // fuse_chan_new_common
@@ -13337,9 +13337,9 @@ struct fuse_chan * fuse_chan_new(struct fuse_chan_ops *op, signed int fd, unsign
 static struct fuse_chan * fuse_chan_new_common(struct fuse_chan_ops *op, signed int fd, unsigned long int bufsize, void *data, signed int compat)
 {
   struct fuse_chan *ch;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct fuse_chan) /*64ul*/ );
-  ch = (struct fuse_chan *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct fuse_chan) /*64ul*/ );
+  ch = (struct fuse_chan *)return_value_malloc_1;
   if(ch == ((struct fuse_chan *)NULL))
   {
     fprintf(stderr, "fuse: failed to allocate channel\n");
@@ -13362,9 +13362,9 @@ static struct fuse_chan * fuse_chan_new_common(struct fuse_chan_ops *op, signed 
 // file fuse_session.c line 173
 struct fuse_chan * fuse_chan_new_compat24(struct fuse_chan_ops_compat24 *op, signed int fd, unsigned long int bufsize, void *data)
 {
-  struct fuse_chan *return_value_fuse_chan_new_common$1;
-  return_value_fuse_chan_new_common$1=fuse_chan_new_common((struct fuse_chan_ops *)op, fd, bufsize, data, 24);
-  return return_value_fuse_chan_new_common$1;
+  struct fuse_chan *return_value_fuse_chan_new_common_1;
+  return_value_fuse_chan_new_common_1=fuse_chan_new_common((struct fuse_chan_ops *)op, fd, bufsize, data, 24);
+  return return_value_fuse_chan_new_common_1;
 }
 
 // fuse_chan_receive
@@ -13424,14 +13424,14 @@ signed int fuse_clean_cache(struct fuse *f)
   pthread_mutex_lock(&f->lock);
   curr_time(&now);
   curr = f->lru_table.next;
-  struct node_lru *tmp_statement_expression$1;
+  struct node_lru *tmp_statement_expression_1;
   for( ; !(curr == &f->lru_table); curr = next)
   {
     double age;
     next = curr->next;
     const struct list_head *__mptr = curr;
-    tmp_statement_expression$1 = (struct node_lru *)((char *)__mptr - (signed long int)152ul);
-    lnode = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct node_lru *)((char *)__mptr - (signed long int)152ul);
+    lnode = tmp_statement_expression_1;
     node = &lnode->node;
     age=diff_timespec(&now, &lnode->forget_time);
     if(age <= (double)f->conf.remember)
@@ -13448,9 +13448,9 @@ signed int fuse_clean_cache(struct fuse *f)
 
   }
   pthread_mutex_unlock(&f->lock);
-  signed int return_value_clean_delay$2;
-  return_value_clean_delay$2=clean_delay(f);
-  return return_value_clean_delay$2;
+  signed int return_value_clean_delay_2;
+  return_value_clean_delay_2=clean_delay(f);
+  return return_value_clean_delay_2;
 }
 
 // fuse_compat_open
@@ -13458,13 +13458,13 @@ signed int fuse_clean_cache(struct fuse *f)
 static signed int fuse_compat_open(struct fuse_fs *fs, const char *path, struct fuse_file_info *fi)
 {
   signed int err;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(fs->compat == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = fs->compat >= 25 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = fs->compat >= 25 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     err=fs->op.open(path, fi);
 
   else
@@ -13486,14 +13486,14 @@ static signed int fuse_compat_open(struct fuse_fs *fs, const char *path, struct 
 // file fuse.c line 1533
 static signed int fuse_compat_opendir(struct fuse_fs *fs, const char *path, struct fuse_file_info *fi)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(fs->compat == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = fs->compat >= 25 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = fs->compat >= 25 ? (_Bool)1 : (_Bool)0;
   signed int return_value;
-  if(tmp_if_expr$1)
+  if(tmp_if_expr_1)
   {
     return_value=fs->op.opendir(path, fi);
     return return_value;
@@ -13515,15 +13515,15 @@ static signed int fuse_compat_opendir(struct fuse_fs *fs, const char *path, stru
 // file fuse.c line 1523
 static signed int fuse_compat_release(struct fuse_fs *fs, const char *path, struct fuse_file_info *fi)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(fs->compat == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = fs->compat >= 22 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = fs->compat >= 22 ? (_Bool)1 : (_Bool)0;
   signed int return_value;
   signed int return_value_1;
-  if(tmp_if_expr$1)
+  if(tmp_if_expr_1)
   {
     return_value=fs->op.release(path, fi);
     return return_value;
@@ -13541,13 +13541,13 @@ static signed int fuse_compat_release(struct fuse_fs *fs, const char *path, stru
 static signed int fuse_compat_statfs(struct fuse_fs *fs, const char *path, struct statvfs *buf)
 {
   signed int err;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(fs->compat == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = fs->compat >= 25 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = fs->compat >= 25 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     err=fs->op.statfs(fs->compat == 25 ? "/" : path, buf);
 
   else
@@ -13583,9 +13583,9 @@ static signed int fuse_create_context_key(void)
     err=pthread_key_create(&fuse_context_key, fuse_freecontext);
     if(!(err == 0))
     {
-      char *return_value_strerror$1;
-      return_value_strerror$1=strerror(err);
-      fprintf(stderr, "fuse: failed to create thread specific key: %s\n", return_value_strerror$1);
+      char *return_value_strerror_1;
+      return_value_strerror_1=strerror(err);
+      fprintf(stderr, "fuse: failed to create thread specific key: %s\n", return_value_strerror_1);
       pthread_mutex_unlock(&fuse_context_lock);
       return -1;
     }
@@ -13604,11 +13604,11 @@ signed int fuse_daemonize(signed int foreground)
   if(foreground == 0)
   {
     signed int nullfd;
-    signed int return_value_fork$1;
-    return_value_fork$1=fork();
-    if(!(return_value_fork$1 == -1))
+    signed int return_value_fork_1;
+    return_value_fork_1=fork();
+    if(!(return_value_fork_1 == -1))
     {
-      if(return_value_fork$1 == 0)
+      if(return_value_fork_1 == 0)
         goto __CPROVER_DUMP_L2;
 
     }
@@ -13626,9 +13626,9 @@ signed int fuse_daemonize(signed int foreground)
 
   __CPROVER_DUMP_L4:
     ;
-    signed int return_value_setsid$2;
-    return_value_setsid$2=setsid();
-    if(return_value_setsid$2 == -1)
+    signed int return_value_setsid_2;
+    return_value_setsid_2=setsid();
+    if(return_value_setsid_2 == -1)
     {
       perror("fuse_daemonize: setsid");
       return -1;
@@ -13659,9 +13659,9 @@ static void fuse_delete_context_key(void)
   fuse_context_ref = fuse_context_ref - 1;
   if(fuse_context_ref == 0)
   {
-    void *return_value_pthread_getspecific$1;
-    return_value_pthread_getspecific$1=pthread_getspecific(fuse_context_key);
-    free(return_value_pthread_getspecific$1);
+    void *return_value_pthread_getspecific_1;
+    return_value_pthread_getspecific_1=pthread_getspecific(fuse_context_key);
+    free(return_value_pthread_getspecific_1);
     pthread_key_delete(fuse_context_key);
   }
 
@@ -13694,9 +13694,9 @@ void fuse_destroy(struct fuse *f)
         if(!(node->is_hidden == 0u))
         {
           char *path;
-          signed int return_value_try_get_path$1;
-          return_value_try_get_path$1=try_get_path(f, node->nodeid, (const char *)(void *)0, &path, (struct node **)(void *)0, (_Bool)0);
-          if(return_value_try_get_path$1 == 0)
+          signed int return_value_try_get_path_1;
+          return_value_try_get_path_1=try_get_path(f, node->nodeid, (const char *)(void *)0, &path, (struct node **)(void *)0, (_Bool)0);
+          if(return_value_try_get_path_1 == 0)
           {
             fuse_fs_unlink(f->fs, path);
             free((void *)path);
@@ -13710,24 +13710,24 @@ void fuse_destroy(struct fuse *f)
   i = (unsigned long int)0;
   for( ; !(i >= f->id_table.size); i = i + 1ul)
   {
-    struct node *fuse_destroy$$1$$2$$1$$node;
+    struct node *fuse_destroy__1__2__1__node;
     struct node *next;
-    fuse_destroy$$1$$2$$1$$node = f->id_table.array[(signed long int)i];
-    for( ; !(fuse_destroy$$1$$2$$1$$node == ((struct node *)NULL)); fuse_destroy$$1$$2$$1$$node = next)
+    fuse_destroy__1__2__1__node = f->id_table.array[(signed long int)i];
+    for( ; !(fuse_destroy__1__2__1__node == ((struct node *)NULL)); fuse_destroy__1__2__1__node = next)
     {
-      next = fuse_destroy$$1$$2$$1$$node->id_next;
-      free_node(f, fuse_destroy$$1$$2$$1$$node);
+      next = fuse_destroy__1__2__1__node->id_next;
+      free_node(f, fuse_destroy__1__2__1__node);
       f->id_table.use = f->id_table.use - 1ul;
     }
   }
-  signed int return_value_list_empty$2;
-  return_value_list_empty$2=list_empty(&f->partial_slabs);
+  signed int return_value_list_empty_2;
+  return_value_list_empty_2=list_empty(&f->partial_slabs);
   /* assertion list_empty(&f->partial_slabs) */
-  assert(return_value_list_empty$2 != 0);
-  signed int return_value_list_empty$3;
-  return_value_list_empty$3=list_empty(&f->full_slabs);
+  assert(return_value_list_empty_2 != 0);
+  signed int return_value_list_empty_3;
+  return_value_list_empty_3=list_empty(&f->full_slabs);
   /* assertion list_empty(&f->full_slabs) */
-  assert(return_value_list_empty$3 != 0);
+  assert(return_value_list_empty_3 != 0);
   free((void *)f->id_table.array);
   free((void *)f->name_table.array);
   pthread_mutex_destroy(&f->lock);
@@ -13761,7 +13761,7 @@ static void fuse_do_finish_interrupt(struct fuse *f, struct fuse_req *req, struc
 static void fuse_do_prepare_interrupt(struct fuse_req *req, struct fuse_intr_data *d)
 {
   d->id=pthread_self();
-  pthread_cond_init(&d->cond, (const union anonymous$7 *)(void *)0);
+  pthread_cond_init(&d->cond, (const union anonymous_7 *)(void *)0);
   d->finished = 0;
   fuse_req_interrupt_func(req, fuse_interrupt, (void *)d);
 }
@@ -13773,19 +13773,19 @@ static void fuse_do_release(struct fuse *f, unsigned long int ino, const char *p
   struct node *node;
   signed int unlink_hidden = 0;
   const char *compatpath;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(path == ((const char *)NULL)))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = f->nullpath_ok != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = f->nullpath_ok != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = f->conf.nopath != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = f->conf.nopath != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     compatpath = path;
 
   else
@@ -13816,9 +13816,9 @@ static void fuse_do_release(struct fuse *f, unsigned long int ino, const char *p
       if(!(f->conf.nopath == 0))
       {
         char *unlinkpath;
-        signed int return_value_get_path$3;
-        return_value_get_path$3=get_path(f, ino, &unlinkpath);
-        if(return_value_get_path$3 == 0)
+        signed int return_value_get_path_3;
+        return_value_get_path_3=get_path(f, ino, &unlinkpath);
+        if(return_value_get_path_3 == 0)
           fuse_fs_unlink(f->fs, unlinkpath);
 
         free_path(f, ino, unlinkpath);
@@ -13834,12 +13834,12 @@ static void * fuse_do_work(void *data)
 {
   struct fuse_worker *w = (struct fuse_worker *)data;
   struct fuse_mt *mt = w->mt;
-  signed int return_value_fuse_session_exited$1;
-  _Bool tmp_if_expr$2;
+  signed int return_value_fuse_session_exited_1;
+  _Bool tmp_if_expr_2;
   do
   {
-    return_value_fuse_session_exited$1=fuse_session_exited(mt->se);
-    if(!(return_value_fuse_session_exited$1 == 0))
+    return_value_fuse_session_exited_1=fuse_session_exited(mt->se);
+    if(!(return_value_fuse_session_exited_1 == 0))
       break;
 
     signed int isforget = 0;
@@ -13874,11 +13874,11 @@ static void * fuse_do_work(void *data)
       {
         struct fuse_in_header *in = (struct fuse_in_header *)fbuf.mem;
         if(in->opcode == 2u)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = in->opcode == (unsigned int)FUSE_BATCH_FORGET ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = in->opcode == (unsigned int)FUSE_BATCH_FORGET ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           isforget = 1;
 
       }
@@ -13933,9 +13933,9 @@ void fuse_exit(struct fuse *f)
 // file fuse.c line 4242
 signed int fuse_exited(struct fuse *f)
 {
-  signed int return_value_fuse_session_exited$1;
-  return_value_fuse_session_exited$1=fuse_session_exited(f->se);
-  return return_value_fuse_session_exited$1;
+  signed int return_value_fuse_session_exited_1;
+  return_value_fuse_session_exited_1=fuse_session_exited(f->se);
+  return return_value_fuse_session_exited_1;
 }
 
 // fuse_find_module
@@ -13945,9 +13945,9 @@ static struct fuse_module * fuse_find_module(const char *module)
   struct fuse_module *m = fuse_modules;
   for( ; !(m == ((struct fuse_module *)NULL)); m = m->next)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(module, m->name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(module, m->name);
+    if(return_value_strcmp_1 == 0)
     {
       m->ctr = m->ctr + 1;
       break;
@@ -13987,9 +13987,9 @@ static signed int fuse_flush_common(struct fuse *f, struct fuse_req *req, unsign
     flock_to_lock(&lock, &l);
     l.owner = fi->lock_owner;
     pthread_mutex_lock(&f->lock);
-    struct node *return_value_get_node$1;
-    return_value_get_node$1=get_node(f, ino);
-    locks_insert(return_value_get_node$1, &l);
+    struct node *return_value_get_node_1;
+    return_value_get_node_1=get_node(f, ino);
+    locks_insert(return_value_get_node_1, &l);
     pthread_mutex_unlock(&f->lock);
     if(err == -38)
       err = 0;
@@ -14042,9 +14042,9 @@ static void fuse_freecontext(void *data)
 // file fuse.c line 2207
 signed int fuse_fs_access(struct fuse_fs *fs, const char *path, signed int mask)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.access == ((signed int (*)(const char *, signed int))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14063,9 +14063,9 @@ signed int fuse_fs_access(struct fuse_fs *fs, const char *path, signed int mask)
 // file fuse.c line 2310
 signed int fuse_fs_bmap(struct fuse_fs *fs, const char *path, unsigned long int blocksize, unsigned long int *idx)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.bmap == ((signed int (*)(const char *, unsigned long int, unsigned long int *))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14084,9 +14084,9 @@ signed int fuse_fs_bmap(struct fuse_fs *fs, const char *path, unsigned long int 
 // file fuse.c line 2791
 signed int fuse_fs_chmod(struct fuse_fs *fs, const char *path, unsigned int mode)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   signed int return_value;
   if(!(fs->op.chmod == ((signed int (*)(const char *, unsigned int))NULL)))
   {
@@ -14102,9 +14102,9 @@ signed int fuse_fs_chmod(struct fuse_fs *fs, const char *path, unsigned int mode
 // file fuse.c line 2131
 signed int fuse_fs_chown(struct fuse_fs *fs, const char *path, unsigned int uid, unsigned int gid)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.chown == ((signed int (*)(const char *, unsigned int, unsigned int))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14123,17 +14123,17 @@ signed int fuse_fs_chown(struct fuse_fs *fs, const char *path, unsigned int uid,
 // file fuse.c line 2060
 signed int fuse_fs_create(struct fuse_fs *fs, const char *path, unsigned int mode, struct fuse_file_info *fi)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
-  struct fuse_context *return_value_fuse_get_context$2;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_2;
   if(!(fs->op.create == ((signed int (*)(const char *, unsigned int, struct fuse_file_info *))NULL)))
   {
     signed int err;
     if(!(fs->debug == 0))
     {
-      return_value_fuse_get_context$2=fuse_get_context();
-      fprintf(stderr, "create flags: 0x%x %s 0%o umask=0%03o\n", fi->flags, path, mode, return_value_fuse_get_context$2->umask);
+      return_value_fuse_get_context_2=fuse_get_context();
+      fprintf(stderr, "create flags: 0x%x %s 0%o umask=0%03o\n", fi->flags, path, mode, return_value_fuse_get_context_2->umask);
     }
 
     err=fs->op.create(path, mode, fi);
@@ -14155,9 +14155,9 @@ signed int fuse_fs_create(struct fuse_fs *fs, const char *path, unsigned int mod
 // file fuse.c line 2645
 void fuse_fs_destroy(struct fuse_fs *fs)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.destroy == ((void (*)(void *))NULL)))
     fs->op.destroy(fs->user_data);
 
@@ -14171,9 +14171,9 @@ void fuse_fs_destroy(struct fuse_fs *fs)
 // file fuse.c line 2376
 signed int fuse_fs_fallocate(struct fuse_fs *fs, const char *path, signed int mode, signed long int offset, signed long int length, struct fuse_file_info *fi)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.fallocate == ((signed int (*)(const char *, signed int, signed long int, signed long int, struct fuse_file_info *))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14192,10 +14192,10 @@ signed int fuse_fs_fallocate(struct fuse_fs *fs, const char *path, signed int mo
 // file fuse.c line 1638
 signed int fuse_fs_fgetattr(struct fuse_fs *fs, const char *path, struct stat *buf, struct fuse_file_info *fi)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
-  _Bool tmp_if_expr$2;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
+  _Bool tmp_if_expr_2;
   if(!(fs->op.fgetattr == ((signed int (*)(const char *, struct stat *, struct fuse_file_info *))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14209,11 +14209,11 @@ signed int fuse_fs_fgetattr(struct fuse_fs *fs, const char *path, struct stat *b
   else
   {
     if(!(path == ((const char *)NULL)))
-      tmp_if_expr$2 = fs->op.getattr != ((signed int (*)(const char *, struct stat *))NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = fs->op.getattr != ((signed int (*)(const char *, struct stat *))NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       if(!(fs->debug == 0))
         fprintf(stderr, "getattr %s\n", path);
@@ -14232,9 +14232,9 @@ signed int fuse_fs_fgetattr(struct fuse_fs *fs, const char *path, struct stat *b
 // file fuse.c line 2110
 signed int fuse_fs_flock(struct fuse_fs *fs, const char *path, struct fuse_file_info *fi, signed int op)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.flock == ((signed int (*)(const char *, struct fuse_file_info *, signed int))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14256,9 +14256,9 @@ signed int fuse_fs_flock(struct fuse_fs *fs, const char *path, struct fuse_file_
 // file fuse.c line 1974
 signed int fuse_fs_flush(struct fuse_fs *fs, const char *path, struct fuse_file_info *fi)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.flush == ((signed int (*)(const char *, struct fuse_file_info *))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14277,9 +14277,9 @@ signed int fuse_fs_flush(struct fuse_fs *fs, const char *path, struct fuse_file_
 // file fuse.c line 1944
 signed int fuse_fs_fsync(struct fuse_fs *fs, const char *path, signed int datasync, struct fuse_file_info *fi)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.fsync == ((signed int (*)(const char *, signed int, struct fuse_file_info *))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14298,9 +14298,9 @@ signed int fuse_fs_fsync(struct fuse_fs *fs, const char *path, signed int datasy
 // file fuse.c line 1959
 signed int fuse_fs_fsyncdir(struct fuse_fs *fs, const char *path, signed int datasync, struct fuse_file_info *fi)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.fsyncdir == ((signed int (*)(const char *, signed int, struct fuse_file_info *))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14319,10 +14319,10 @@ signed int fuse_fs_fsyncdir(struct fuse_fs *fs, const char *path, signed int dat
 // file fuse.c line 2159
 signed int fuse_fs_ftruncate(struct fuse_fs *fs, const char *path, signed long int size, struct fuse_file_info *fi)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
-  _Bool tmp_if_expr$2;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
+  _Bool tmp_if_expr_2;
   if(!(fs->op.ftruncate == ((signed int (*)(const char *, signed long int, struct fuse_file_info *))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14336,11 +14336,11 @@ signed int fuse_fs_ftruncate(struct fuse_fs *fs, const char *path, signed long i
   else
   {
     if(!(path == ((const char *)NULL)))
-      tmp_if_expr$2 = fs->op.truncate != ((signed int (*)(const char *, signed long int))NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = fs->op.truncate != ((signed int (*)(const char *, signed long int))NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       if(!(fs->debug == 0))
         fprintf(stderr, "truncate %s %llu\n", path, (unsigned long long int)size);
@@ -14359,9 +14359,9 @@ signed int fuse_fs_ftruncate(struct fuse_fs *fs, const char *path, signed long i
 // file fuse.c line 1625
 signed int fuse_fs_getattr(struct fuse_fs *fs, const char *path, struct stat *buf)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.getattr == ((signed int (*)(const char *, struct stat *))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14380,9 +14380,9 @@ signed int fuse_fs_getattr(struct fuse_fs *fs, const char *path, struct stat *bu
 // file fuse.c line 2280
 signed int fuse_fs_getxattr(struct fuse_fs *fs, const char *path, const char *name, char *value, unsigned long int size)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.getxattr == ((signed int (*)(const char *, const char *, char *, unsigned long int))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14401,9 +14401,9 @@ signed int fuse_fs_getxattr(struct fuse_fs *fs, const char *path, const char *na
 // file fuse.c line 2621
 void fuse_fs_init(struct fuse_fs *fs, struct fuse_conn_info *conn)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(fs->op.write_buf == ((signed int (*)(const char *, struct fuse_bufvec *, signed long int, struct fuse_file_info *))NULL))
     conn->want = conn->want & (unsigned int)~(1 << 9);
 
@@ -14422,9 +14422,9 @@ void fuse_fs_init(struct fuse_fs *fs, struct fuse_conn_info *conn)
 // file fuse.c line 2339
 signed int fuse_fs_ioctl(struct fuse_fs *fs, const char *path, signed int cmd, void *arg, struct fuse_file_info *fi, unsigned int flags, void *data)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.ioctl == ((signed int (*)(const char *, signed int, void *, struct fuse_file_info *, unsigned int, void *))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14443,9 +14443,9 @@ signed int fuse_fs_ioctl(struct fuse_fs *fs, const char *path, signed int cmd, v
 // file fuse.c line 1711
 signed int fuse_fs_link(struct fuse_fs *fs, const char *oldpath, const char *newpath)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.link == ((signed int (*)(const char *, const char *))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14464,9 +14464,9 @@ signed int fuse_fs_link(struct fuse_fs *fs, const char *oldpath, const char *new
 // file fuse.c line 2295
 signed int fuse_fs_listxattr(struct fuse_fs *fs, const char *path, char *list, unsigned long int size)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.listxattr == ((signed int (*)(const char *, char *, unsigned long int))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14485,28 +14485,28 @@ signed int fuse_fs_listxattr(struct fuse_fs *fs, const char *path, char *list, u
 // file fuse.c line 2085
 signed int fuse_fs_lock(struct fuse_fs *fs, const char *path, struct fuse_file_info *fi, signed int cmd, struct flock *lock)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
-  char *tmp_if_expr$3;
-  char *tmp_if_expr$2;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
+  char *tmp_if_expr_3;
+  char *tmp_if_expr_2;
   if(!(fs->op.lock == ((signed int (*)(const char *, struct fuse_file_info *, signed int, struct flock *))NULL)))
   {
     if(!(fs->debug == 0))
     {
       if((signed int)lock->l_type == 0)
-        tmp_if_expr$3 = "F_RDLCK";
+        tmp_if_expr_3 = "F_RDLCK";
 
       else
       {
         if((signed int)lock->l_type == 1)
-          tmp_if_expr$2 = "F_WRLCK";
+          tmp_if_expr_2 = "F_WRLCK";
 
         else
-          tmp_if_expr$2 = (signed int)lock->l_type == 2 ? "F_UNLCK" : "???";
-        tmp_if_expr$3 = tmp_if_expr$2;
+          tmp_if_expr_2 = (signed int)lock->l_type == 2 ? "F_UNLCK" : "???";
+        tmp_if_expr_3 = tmp_if_expr_2;
       }
-      fprintf(stderr, "lock[%llu] %s %s start: %llu len: %llu pid: %llu\n", (unsigned long long int)fi->fh, cmd == 5 ? "F_GETLK" : (cmd == 6 ? "F_SETLK" : (cmd == 7 ? "F_SETLKW" : "???")), tmp_if_expr$3, (unsigned long long int)lock->l_start, (unsigned long long int)lock->l_len, (unsigned long long int)lock->l_pid);
+      fprintf(stderr, "lock[%llu] %s %s start: %llu len: %llu pid: %llu\n", (unsigned long long int)fi->fh, cmd == 5 ? "F_GETLK" : (cmd == 6 ? "F_SETLK" : (cmd == 7 ? "F_SETLKW" : "???")), tmp_if_expr_3, (unsigned long long int)lock->l_start, (unsigned long long int)lock->l_len, (unsigned long long int)lock->l_pid);
     }
 
     signed int return_value;
@@ -14522,16 +14522,16 @@ signed int fuse_fs_lock(struct fuse_fs *fs, const char *path, struct fuse_file_i
 // file fuse.c line 2251
 signed int fuse_fs_mkdir(struct fuse_fs *fs, const char *path, unsigned int mode)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
-  struct fuse_context *return_value_fuse_get_context$2;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_2;
   if(!(fs->op.mkdir == ((signed int (*)(const char *, unsigned int))NULL)))
   {
     if(!(fs->debug == 0))
     {
-      return_value_fuse_get_context$2=fuse_get_context();
-      fprintf(stderr, "mkdir %s 0%o umask=0%03o\n", path, mode, return_value_fuse_get_context$2->umask);
+      return_value_fuse_get_context_2=fuse_get_context();
+      fprintf(stderr, "mkdir %s 0%o umask=0%03o\n", path, mode, return_value_fuse_get_context_2->umask);
     }
 
     signed int return_value;
@@ -14547,16 +14547,16 @@ signed int fuse_fs_mkdir(struct fuse_fs *fs, const char *path, unsigned int mode
 // file fuse.c line 2235
 signed int fuse_fs_mknod(struct fuse_fs *fs, const char *path, unsigned int mode, unsigned long int rdev)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
-  struct fuse_context *return_value_fuse_get_context$2;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_2;
   if(!(fs->op.mknod == ((signed int (*)(const char *, unsigned int, unsigned long int))NULL)))
   {
     if(!(fs->debug == 0))
     {
-      return_value_fuse_get_context$2=fuse_get_context();
-      fprintf(stderr, "mknod %s 0%o 0x%llx umask=0%03o\n", path, mode, (unsigned long long int)rdev, return_value_fuse_get_context$2->umask);
+      return_value_fuse_get_context_2=fuse_get_context();
+      fprintf(stderr, "mknod %s 0%o 0x%llx umask=0%03o\n", path, mode, (unsigned long long int)rdev, return_value_fuse_get_context_2->umask);
     }
 
     signed int return_value;
@@ -14579,9 +14579,9 @@ struct fuse_fs * fuse_fs_new(struct fuse_operations *op, unsigned long int op_si
     op_size = sizeof(struct fuse_operations) /*360ul*/ ;
   }
 
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct fuse_fs) /*384ul*/ );
-  fs = (struct fuse_fs *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct fuse_fs) /*384ul*/ );
+  fs = (struct fuse_fs *)return_value_calloc_1;
   if(fs == ((struct fuse_fs *)NULL))
   {
     fprintf(stderr, "fuse: failed to allocate fuse_fs object\n");
@@ -14602,9 +14602,9 @@ struct fuse_fs * fuse_fs_new(struct fuse_operations *op, unsigned long int op_si
 // file fuse.c line 1763
 signed int fuse_fs_open(struct fuse_fs *fs, const char *path, struct fuse_file_info *fi)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.open == ((signed int (*)(const char *, struct fuse_file_info *))NULL)))
   {
     signed int err;
@@ -14630,9 +14630,9 @@ signed int fuse_fs_open(struct fuse_fs *fs, const char *path, struct fuse_file_i
 // file fuse.c line 1740
 signed int fuse_fs_opendir(struct fuse_fs *fs, const char *path, struct fuse_file_info *fi)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.opendir == ((signed int (*)(const char *, struct fuse_file_info *))NULL)))
   {
     signed int err;
@@ -14658,9 +14658,9 @@ signed int fuse_fs_opendir(struct fuse_fs *fs, const char *path, struct fuse_fil
 // file fuse.c line 2353
 signed int fuse_fs_poll(struct fuse_fs *fs, const char *path, struct fuse_file_info *fi, struct fuse_pollhandle *ph, unsigned int *reventsp)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.poll == ((signed int (*)(const char *, struct fuse_file_info *, struct fuse_pollhandle *, unsigned int *))NULL)))
   {
     signed int res;
@@ -14695,9 +14695,9 @@ signed int fuse_fs_read(struct fuse_fs *fs, const char *path, char *mem, unsigne
     .buf={ { .size=size, .flags=(enum fuse_buf_flags)0, .mem=(void *)0,
     .fd=-1, .pos=(signed long int)0 } } };
     dst.buf[(signed long int)0].mem = (void *)mem;
-    signed long int return_value_fuse_buf_copy$1;
-    return_value_fuse_buf_copy$1=fuse_buf_copy(&dst, buf, (enum fuse_buf_copy_flags)0);
-    res = (signed int)return_value_fuse_buf_copy$1;
+    signed long int return_value_fuse_buf_copy_1;
+    return_value_fuse_buf_copy_1=fuse_buf_copy(&dst, buf, (enum fuse_buf_copy_flags)0);
+    res = (signed int)return_value_fuse_buf_copy_1;
   }
 
   fuse_free_buf(buf);
@@ -14708,18 +14708,18 @@ signed int fuse_fs_read(struct fuse_fs *fs, const char *path, char *mem, unsigne
 // file fuse.c line 1797
 signed int fuse_fs_read_buf(struct fuse_fs *fs, const char *path, struct fuse_bufvec **bufp, unsigned long int size, signed long int off, struct fuse_file_info *fi)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
-  _Bool tmp_if_expr$5;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
+  _Bool tmp_if_expr_5;
   if(!(fs->op.read == ((signed int (*)(const char *, char *, unsigned long int, signed long int, struct fuse_file_info *))NULL)))
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = fs->op.read_buf != ((signed int (*)(const char *, struct fuse_bufvec **, unsigned long int, signed long int, struct fuse_file_info *))NULL) ? (_Bool)1 : (_Bool)0;
-  unsigned long int return_value_fuse_buf_size$3;
-  unsigned long int return_value_fuse_buf_size$4;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = fs->op.read_buf != ((signed int (*)(const char *, struct fuse_bufvec **, unsigned long int, signed long int, struct fuse_file_info *))NULL) ? (_Bool)1 : (_Bool)0;
+  unsigned long int return_value_fuse_buf_size_3;
+  unsigned long int return_value_fuse_buf_size_4;
+  if(tmp_if_expr_5)
   {
     signed int res;
     if(!(fs->debug == 0))
@@ -14732,9 +14732,9 @@ signed int fuse_fs_read_buf(struct fuse_fs *fs, const char *path, struct fuse_bu
     {
       struct fuse_bufvec *buf;
       void *mem;
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct fuse_bufvec) /*64ul*/ );
-      buf = (struct fuse_bufvec *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct fuse_bufvec) /*64ul*/ );
+      buf = (struct fuse_bufvec *)return_value_malloc_2;
       if(buf == ((struct fuse_bufvec *)NULL))
         return -12;
 
@@ -14759,16 +14759,16 @@ signed int fuse_fs_read_buf(struct fuse_fs *fs, const char *path, struct fuse_bu
     {
       if(res >= 0)
       {
-        return_value_fuse_buf_size$3=fuse_buf_size(*bufp);
-        fprintf(stderr, "   read[%llu] %zu bytes from %llu\n", (unsigned long long int)fi->fh, return_value_fuse_buf_size$3, (unsigned long long int)off);
+        return_value_fuse_buf_size_3=fuse_buf_size(*bufp);
+        fprintf(stderr, "   read[%llu] %zu bytes from %llu\n", (unsigned long long int)fi->fh, return_value_fuse_buf_size_3, (unsigned long long int)off);
       }
 
     }
 
     if(res >= 0)
     {
-      return_value_fuse_buf_size$4=fuse_buf_size(*bufp);
-      if(!((unsigned long int)(signed int)size >= return_value_fuse_buf_size$4))
+      return_value_fuse_buf_size_4=fuse_buf_size(*bufp);
+      if(!((unsigned long int)(signed int)size >= return_value_fuse_buf_size_4))
         fprintf(stderr, "fuse: read too many bytes\n");
 
     }
@@ -14787,9 +14787,9 @@ signed int fuse_fs_read_buf(struct fuse_fs *fs, const char *path, struct fuse_bu
 // file fuse.c line 2033
 signed int fuse_fs_readdir(struct fuse_fs *fs, const char *path, void *buf, signed int (*filler)(void *, const char *, struct stat *, signed long int), signed long int off, struct fuse_file_info *fi)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.readdir == ((signed int (*)(const char *, void *, signed int (*)(void *, const char *, struct stat *, signed long int), signed long int, struct fuse_file_info *))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14822,9 +14822,9 @@ signed int fuse_fs_readdir(struct fuse_fs *fs, const char *path, void *buf, sign
 // file fuse.c line 2220
 signed int fuse_fs_readlink(struct fuse_fs *fs, const char *path, char *buf, unsigned long int len)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.readlink == ((signed int (*)(const char *, char *, unsigned long int))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14843,17 +14843,17 @@ signed int fuse_fs_readlink(struct fuse_fs *fs, const char *path, char *buf, uns
 // file fuse.c line 1724
 signed int fuse_fs_release(struct fuse_fs *fs, const char *path, struct fuse_file_info *fi)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.release == ((signed int (*)(const char *, struct fuse_file_info *))NULL)))
   {
     if(!(fs->debug == 0))
       fprintf(stderr, "release%s[%llu] flags: 0x%x\n", fi->flush != 0u ? "+flush" : "", (unsigned long long int)fi->fh, fi->flags);
 
-    signed int return_value_fuse_compat_release$2;
-    return_value_fuse_compat_release$2=fuse_compat_release(fs, path, fi);
-    return return_value_fuse_compat_release$2;
+    signed int return_value_fuse_compat_release_2;
+    return_value_fuse_compat_release_2=fuse_compat_release(fs, path, fi);
+    return return_value_fuse_compat_release_2;
   }
 
   else
@@ -14864,9 +14864,9 @@ signed int fuse_fs_release(struct fuse_fs *fs, const char *path, struct fuse_fil
 // file fuse.c line 2004
 signed int fuse_fs_releasedir(struct fuse_fs *fs, const char *path, struct fuse_file_info *fi)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.releasedir == ((signed int (*)(const char *, struct fuse_file_info *))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14885,9 +14885,9 @@ signed int fuse_fs_releasedir(struct fuse_fs *fs, const char *path, struct fuse_
 // file fuse.c line 2326
 signed int fuse_fs_removexattr(struct fuse_fs *fs, const char *path, const char *name)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.removexattr == ((signed int (*)(const char *, const char *))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14906,9 +14906,9 @@ signed int fuse_fs_removexattr(struct fuse_fs *fs, const char *path, const char 
 // file fuse.c line 1658
 signed int fuse_fs_rename(struct fuse_fs *fs, const char *oldpath, const char *newpath)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.rename == ((signed int (*)(const char *, const char *))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14927,9 +14927,9 @@ signed int fuse_fs_rename(struct fuse_fs *fs, const char *oldpath, const char *n
 // file fuse.c line 1685
 signed int fuse_fs_rmdir(struct fuse_fs *fs, const char *path)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.rmdir == ((signed int (*)(const char *))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14948,9 +14948,9 @@ signed int fuse_fs_rmdir(struct fuse_fs *fs, const char *path)
 // file fuse.c line 2265
 signed int fuse_fs_setxattr(struct fuse_fs *fs, const char *path, const char *name, const char *value, unsigned long int size, signed int flags)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.setxattr == ((signed int (*)(const char *, const char *, const char *, unsigned long int, signed int))NULL)))
   {
     if(!(fs->debug == 0))
@@ -14969,17 +14969,17 @@ signed int fuse_fs_setxattr(struct fuse_fs *fs, const char *path, const char *na
 // file fuse.c line 1989
 signed int fuse_fs_statfs(struct fuse_fs *fs, const char *path, struct statvfs *buf)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.statfs == ((signed int (*)(const char *, struct statvfs *))NULL)))
   {
     if(!(fs->debug == 0))
       fprintf(stderr, "statfs %s\n", path);
 
-    signed int return_value_fuse_compat_statfs$2;
-    return_value_fuse_compat_statfs$2=fuse_compat_statfs(fs, path, buf);
-    return return_value_fuse_compat_statfs$2;
+    signed int return_value_fuse_compat_statfs_2;
+    return_value_fuse_compat_statfs_2=fuse_compat_statfs(fs, path, buf);
+    return return_value_fuse_compat_statfs_2;
   }
 
   else
@@ -14994,9 +14994,9 @@ signed int fuse_fs_statfs(struct fuse_fs *fs, const char *path, struct statvfs *
 // file fuse.c line 1698
 signed int fuse_fs_symlink(struct fuse_fs *fs, const char *linkname, const char *path)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.symlink == ((signed int (*)(const char *, const char *))NULL)))
   {
     if(!(fs->debug == 0))
@@ -15015,9 +15015,9 @@ signed int fuse_fs_symlink(struct fuse_fs *fs, const char *linkname, const char 
 // file fuse.c line 2145
 signed int fuse_fs_truncate(struct fuse_fs *fs, const char *path, signed long int size)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.truncate == ((signed int (*)(const char *, signed long int))NULL)))
   {
     if(!(fs->debug == 0))
@@ -15036,9 +15036,9 @@ signed int fuse_fs_truncate(struct fuse_fs *fs, const char *path, signed long in
 // file fuse.c line 1672
 signed int fuse_fs_unlink(struct fuse_fs *fs, const char *path)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.unlink == ((signed int (*)(const char *))NULL)))
   {
     if(!(fs->debug == 0))
@@ -15057,9 +15057,9 @@ signed int fuse_fs_unlink(struct fuse_fs *fs, const char *path)
 // file fuse.c line 2181
 signed int fuse_fs_utimens(struct fuse_fs *fs, const char *path, struct timespec *tv)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
   if(!(fs->op.utimens == ((signed int (*)(const char *, struct timespec *))NULL)))
   {
     if(!(fs->debug == 0))
@@ -15096,38 +15096,38 @@ signed int fuse_fs_write(struct fuse_fs *fs, const char *path, const char *mem, 
     .buf={ { .size=size, .flags=(enum fuse_buf_flags)0, .mem=(void *)0,
     .fd=-1, .pos=(signed long int)0 } } };
   bufv.buf[(signed long int)0].mem = (void *)mem;
-  signed int return_value_fuse_fs_write_buf$1;
-  return_value_fuse_fs_write_buf$1=fuse_fs_write_buf(fs, path, &bufv, off, fi);
-  return return_value_fuse_fs_write_buf$1;
+  signed int return_value_fuse_fs_write_buf_1;
+  return_value_fuse_fs_write_buf_1=fuse_fs_write_buf(fs, path, &bufv, off, fi);
+  return return_value_fuse_fs_write_buf_1;
 }
 
 // fuse_fs_write_buf
 // file fuse.c line 1870
 signed int fuse_fs_write_buf(struct fuse_fs *fs, const char *path, struct fuse_bufvec *buf, signed long int off, struct fuse_file_info *fi)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return_value_fuse_get_context$1->private_data = fs->user_data;
-  _Bool tmp_if_expr$5;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return_value_fuse_get_context_1->private_data = fs->user_data;
+  _Bool tmp_if_expr_5;
   if(!(fs->op.write_buf == ((signed int (*)(const char *, struct fuse_bufvec *, signed long int, struct fuse_file_info *))NULL)))
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = fs->op.write != ((signed int (*)(const char *, const char *, unsigned long int, signed long int, struct fuse_file_info *))NULL) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = fs->op.write != ((signed int (*)(const char *, const char *, unsigned long int, signed long int, struct fuse_file_info *))NULL) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_5)
   {
     signed int res;
     unsigned long int size;
     size=fuse_buf_size(buf);
     if(buf->idx == 0ul)
-      tmp_if_expr$2 = buf->off == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = buf->off == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
     /* assertion buf->idx == 0 && buf->off == 0 */
-    assert(tmp_if_expr$2);
+    assert(tmp_if_expr_2);
     if(!(fs->debug == 0))
       fprintf(stderr, "write%s[%llu] %zu bytes to %llu flags: 0x%x\n", fi->writepage != 0 ? "page" : "", (unsigned long long int)fi->fh, size, (unsigned long long int)off, fi->flags);
 
@@ -15142,11 +15142,11 @@ signed int fuse_fs_write_buf(struct fuse_fs *fs, const char *path, struct fuse_b
     .buf={ { .size=size, .flags=(enum fuse_buf_flags)0, .mem=(void *)0,
     .fd=-1, .pos=(signed long int)0 } } };
       if(buf->count == 1ul)
-        tmp_if_expr$4 = !(((signed int)buf->buf[(signed long int)0].flags & FUSE_BUF_IS_FD) != 0) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = !(((signed int)buf->buf[(signed long int)0].flags & FUSE_BUF_IS_FD) != 0) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
         flatbuf = &buf->buf[(signed long int)0];
 
       else
@@ -15157,9 +15157,9 @@ signed int fuse_fs_write_buf(struct fuse_fs *fs, const char *path, struct fuse_b
           goto out;
 
         tmp.buf[(signed long int)0].mem = mem;
-        signed long int return_value_fuse_buf_copy$3;
-        return_value_fuse_buf_copy$3=fuse_buf_copy(&tmp, buf, (enum fuse_buf_copy_flags)0);
-        res = (signed int)return_value_fuse_buf_copy$3;
+        signed long int return_value_fuse_buf_copy_3;
+        return_value_fuse_buf_copy_3=fuse_buf_copy(&tmp, buf, (enum fuse_buf_copy_flags)0);
+        res = (signed int)return_value_fuse_buf_copy_3;
         if(!(res >= 1))
           goto out_free;
 
@@ -15196,18 +15196,18 @@ signed int fuse_fs_write_buf(struct fuse_fs *fs, const char *path, struct fuse_b
 // file fuse.c line 4372
 struct fuse_context * fuse_get_context(void)
 {
-  struct fuse_context_i *return_value_fuse_get_context_internal$1;
-  return_value_fuse_get_context_internal$1=fuse_get_context_internal();
-  return &return_value_fuse_get_context_internal$1->ctx;
+  struct fuse_context_i *return_value_fuse_get_context_internal_1;
+  return_value_fuse_get_context_internal_1=fuse_get_context_internal();
+  return &return_value_fuse_get_context_internal_1->ctx;
 }
 
 // fuse_get_context_compat22
 // file fuse.c line 4383
 struct fuse_context * fuse_get_context_compat22(void)
 {
-  struct fuse_context_i *return_value_fuse_get_context_internal$1;
-  return_value_fuse_get_context_internal$1=fuse_get_context_internal();
-  return &return_value_fuse_get_context_internal$1->ctx;
+  struct fuse_context_i *return_value_fuse_get_context_internal_1;
+  return_value_fuse_get_context_internal_1=fuse_get_context_internal();
+  return &return_value_fuse_get_context_internal_1->ctx;
 }
 
 // fuse_get_context_internal
@@ -15215,14 +15215,14 @@ struct fuse_context * fuse_get_context_compat22(void)
 static struct fuse_context_i * fuse_get_context_internal(void)
 {
   struct fuse_context_i *c;
-  void *return_value_pthread_getspecific$1;
-  return_value_pthread_getspecific$1=pthread_getspecific(fuse_context_key);
-  c = (struct fuse_context_i *)return_value_pthread_getspecific$1;
+  void *return_value_pthread_getspecific_1;
+  return_value_pthread_getspecific_1=pthread_getspecific(fuse_context_key);
+  c = (struct fuse_context_i *)return_value_pthread_getspecific_1;
   if(c == ((struct fuse_context_i *)NULL))
   {
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct fuse_context_i) /*48ul*/ );
-    c = (struct fuse_context_i *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct fuse_context_i) /*48ul*/ );
+    c = (struct fuse_context_i *)return_value_calloc_2;
     if(c == ((struct fuse_context_i *)NULL))
     {
       fprintf(stderr, "fuse: failed to allocate thread specific data\n");
@@ -15267,12 +15267,12 @@ struct fuse_session * fuse_get_session(struct fuse *f)
 signed int fuse_getgroups(signed int size, unsigned int *list)
 {
   struct fuse_req *req;
-  struct fuse_context_i *return_value_fuse_get_context_internal$1;
-  return_value_fuse_get_context_internal$1=fuse_get_context_internal();
-  req = return_value_fuse_get_context_internal$1->req;
-  signed int return_value_fuse_req_getgroups$2;
-  return_value_fuse_req_getgroups$2=fuse_req_getgroups(req, size, list);
-  return return_value_fuse_req_getgroups$2;
+  struct fuse_context_i *return_value_fuse_get_context_internal_1;
+  return_value_fuse_get_context_internal_1=fuse_get_context_internal();
+  req = return_value_fuse_get_context_internal_1->req;
+  signed int return_value_fuse_req_getgroups_2;
+  return_value_fuse_req_getgroups_2=fuse_req_getgroups(req, size, list);
+  return return_value_fuse_req_getgroups_2;
 }
 
 // fuse_helper_opt_proc
@@ -15280,7 +15280,7 @@ signed int fuse_getgroups(signed int size, unsigned int *list)
 static signed int fuse_helper_opt_proc(void *data, const char *arg, signed int key, struct fuse_args *outargs)
 {
   struct helper_opts *hopts = (struct helper_opts *)data;
-  signed int return_value_fuse_opt_add_arg$1;
+  signed int return_value_fuse_opt_add_arg_1;
   if(!(key == 0))
   {
     if(key == 1)
@@ -15296,13 +15296,13 @@ static signed int fuse_helper_opt_proc(void *data, const char *arg, signed int k
 
   else
   {
-    usage$link1(outargs->argv[(signed long int)0]);
+    usage_link1(outargs->argv[(signed long int)0]);
 
   __CPROVER_DUMP_L2:
     ;
     helper_help();
-    return_value_fuse_opt_add_arg$1=fuse_opt_add_arg(outargs, "-h");
-    return return_value_fuse_opt_add_arg$1;
+    return_value_fuse_opt_add_arg_1=fuse_opt_add_arg(outargs, "-h");
+    return return_value_fuse_opt_add_arg_1;
 
   __CPROVER_DUMP_L3:
     ;
@@ -15314,21 +15314,21 @@ static signed int fuse_helper_opt_proc(void *data, const char *arg, signed int k
     if(hopts->mountpoint == ((char *)NULL))
     {
       char mountpoint[4096l];
-      char *return_value_realpath$4;
-      return_value_realpath$4=realpath(arg, mountpoint);
-      if(return_value_realpath$4 == ((char *)NULL))
+      char *return_value_realpath_4;
+      return_value_realpath_4=realpath(arg, mountpoint);
+      if(return_value_realpath_4 == ((char *)NULL))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        fprintf(stderr, "fuse: bad mount point `%s': %s\n", arg, return_value_strerror$3);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        fprintf(stderr, "fuse: bad mount point `%s': %s\n", arg, return_value_strerror_3);
         return -1;
       }
 
-      signed int return_value_fuse_opt_add_opt$5;
-      return_value_fuse_opt_add_opt$5=fuse_opt_add_opt(&hopts->mountpoint, mountpoint);
-      return return_value_fuse_opt_add_opt$5;
+      signed int return_value_fuse_opt_add_opt_5;
+      return_value_fuse_opt_add_opt_5=fuse_opt_add_opt(&hopts->mountpoint, mountpoint);
+      return return_value_fuse_opt_add_opt_5;
     }
 
     else
@@ -15345,9 +15345,9 @@ static signed int fuse_helper_opt_proc(void *data, const char *arg, signed int k
 static signed int fuse_init_intr_signal(signed int signum, signed int *installed)
 {
   struct sigaction old_sa;
-  signed int return_value_sigaction$1;
-  return_value_sigaction$1=sigaction(signum, (struct sigaction *)(void *)0, &old_sa);
-  if(return_value_sigaction$1 == -1)
+  signed int return_value_sigaction_1;
+  return_value_sigaction_1=sigaction(signum, (struct sigaction *)(void *)0, &old_sa);
+  if(return_value_sigaction_1 == -1)
   {
     perror("fuse: cannot get old signal handler");
     return -1;
@@ -15361,9 +15361,9 @@ static signed int fuse_init_intr_signal(signed int signum, signed int *installed
       memset((void *)&sa, 0, sizeof(struct sigaction) /*152ul*/ );
       sa.__sigaction_handler.sa_handler = fuse_intr_sighandler;
       sigemptyset(&sa.sa_mask);
-      signed int return_value_sigaction$2;
-      return_value_sigaction$2=sigaction(signum, &sa, (struct sigaction *)(void *)0);
-      if(return_value_sigaction$2 == -1)
+      signed int return_value_sigaction_2;
+      return_value_sigaction_2=sigaction(signum, &sa, (struct sigaction *)(void *)0);
+      if(return_value_sigaction_2 == -1)
       {
         perror("fuse: cannot set interrupt signal handler");
         return -1;
@@ -15383,9 +15383,9 @@ static void fuse_interrupt(struct fuse_req *req, void *d_)
   struct fuse_intr_data *d = (struct fuse_intr_data *)d_;
   struct fuse *f;
   f=req_fuse(req);
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  if(!(d->id == return_value_pthread_self$1))
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  if(!(d->id == return_value_pthread_self_1))
   {
     pthread_mutex_lock(&f->lock);
     while(d->finished == 0)
@@ -15407,11 +15407,11 @@ static void fuse_interrupt(struct fuse_req *req, void *d_)
 // file fuse.c line 4395
 signed int fuse_interrupted(void)
 {
-  struct fuse_context_i *return_value_fuse_get_context_internal$1;
-  return_value_fuse_get_context_internal$1=fuse_get_context_internal();
-  signed int return_value_fuse_req_interrupted$2;
-  return_value_fuse_req_interrupted$2=fuse_req_interrupted(return_value_fuse_get_context_internal$1->req);
-  return return_value_fuse_req_interrupted$2;
+  struct fuse_context_i *return_value_fuse_get_context_internal_1;
+  return_value_fuse_get_context_internal_1=fuse_get_context_internal();
+  signed int return_value_fuse_req_interrupted_2;
+  return_value_fuse_req_interrupted_2=fuse_req_interrupted(return_value_fuse_get_context_internal_1->req);
+  return return_value_fuse_req_interrupted_2;
 }
 
 // fuse_intr_sighandler
@@ -15436,9 +15436,9 @@ static struct fuse_ioctl_iovec * fuse_ioctl_iovec_copy(struct iovec *iov, unsign
 {
   struct fuse_ioctl_iovec *fiov;
   unsigned long int i;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct fuse_ioctl_iovec) /*16ul*/  * count);
-  fiov = (struct fuse_ioctl_iovec *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct fuse_ioctl_iovec) /*16ul*/  * count);
+  fiov = (struct fuse_ioctl_iovec *)return_value_malloc_1;
   if(fiov == ((struct fuse_ioctl_iovec *)NULL))
     return (struct fuse_ioctl_iovec *)(void *)0;
 
@@ -15458,19 +15458,19 @@ static struct fuse_ioctl_iovec * fuse_ioctl_iovec_copy(struct iovec *iov, unsign
 // file fuse.c line 4505
 signed int fuse_is_lib_option(const char *opt)
 {
-  signed int return_value_fuse_lowlevel_is_lib_option$1;
-  return_value_fuse_lowlevel_is_lib_option$1=fuse_lowlevel_is_lib_option(opt);
-  _Bool tmp_if_expr$3;
-  signed int return_value_fuse_opt_match$2;
-  if(!(return_value_fuse_lowlevel_is_lib_option$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_fuse_lowlevel_is_lib_option_1;
+  return_value_fuse_lowlevel_is_lib_option_1=fuse_lowlevel_is_lib_option(opt);
+  _Bool tmp_if_expr_3;
+  signed int return_value_fuse_opt_match_2;
+  if(!(return_value_fuse_lowlevel_is_lib_option_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_fuse_opt_match$2=fuse_opt_match(fuse_lib_opts, opt);
-    tmp_if_expr$3 = return_value_fuse_opt_match$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_fuse_opt_match_2=fuse_opt_match(fuse_lib_opts, opt);
+    tmp_if_expr_3 = return_value_fuse_opt_match_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  return (signed int)tmp_if_expr$3;
+  return (signed int)tmp_if_expr_3;
 }
 
 // fuse_join_worker
@@ -15502,13 +15502,13 @@ struct fuse_chan * fuse_kern_chan_new(signed int fd)
 {
   struct fuse_chan_ops op = { .receive=fuse_kern_chan_receive, .send=fuse_kern_chan_send, .destroy=fuse_kern_chan_destroy };
   unsigned long int bufsize;
-  signed int return_value_getpagesize$1;
-  return_value_getpagesize$1=getpagesize();
-  bufsize = (unsigned long int)(return_value_getpagesize$1 + 0x1000);
+  signed int return_value_getpagesize_1;
+  return_value_getpagesize_1=getpagesize();
+  bufsize = (unsigned long int)(return_value_getpagesize_1 + 0x1000);
   bufsize = bufsize < (unsigned long int)0x21000 ? (unsigned long int)0x21000 : bufsize;
-  struct fuse_chan *return_value_fuse_chan_new$2;
-  return_value_fuse_chan_new$2=fuse_chan_new(&op, fd, bufsize, (void *)0);
-  return return_value_fuse_chan_new$2;
+  struct fuse_chan *return_value_fuse_chan_new_2;
+  return_value_fuse_chan_new_2=fuse_chan_new(&op, fd, bufsize, (void *)0);
+  return return_value_fuse_chan_new_2;
 }
 
 // fuse_kern_chan_receive
@@ -15522,20 +15522,20 @@ static signed int fuse_kern_chan_receive(struct fuse_chan **chp, char *buf, unsi
   se=fuse_chan_session(ch);
   /* assertion se != ((void *)0) */
   assert(se != (struct fuse_session *)(void *)0);
-  signed int return_value_fuse_chan_fd$1;
-  signed int *return_value___errno_location$2;
-  signed int return_value_fuse_session_exited$3;
+  signed int return_value_fuse_chan_fd_1;
+  signed int *return_value___errno_location_2;
+  signed int return_value_fuse_session_exited_3;
   do
   {
 
   restart:
     ;
-    return_value_fuse_chan_fd$1=fuse_chan_fd(ch);
-    res=read(return_value_fuse_chan_fd$1, (void *)buf, size);
-    return_value___errno_location$2=__errno_location();
-    err = *return_value___errno_location$2;
-    return_value_fuse_session_exited$3=fuse_session_exited(se);
-    if(!(return_value_fuse_session_exited$3 == 0))
+    return_value_fuse_chan_fd_1=fuse_chan_fd(ch);
+    res=read(return_value_fuse_chan_fd_1, (void *)buf, size);
+    return_value___errno_location_2=__errno_location();
+    err = *return_value___errno_location_2;
+    return_value_fuse_session_exited_3=fuse_session_exited(se);
+    if(!(return_value_fuse_session_exited_3 == 0))
       return 0;
 
     if(!(res == -1l))
@@ -15576,22 +15576,22 @@ static signed int fuse_kern_chan_send(struct fuse_chan *ch, struct iovec *iov, u
   if(!(iov == ((struct iovec *)NULL)))
   {
     signed long int res;
-    signed int return_value_fuse_chan_fd$1;
-    return_value_fuse_chan_fd$1=fuse_chan_fd(ch);
-    res=writev(return_value_fuse_chan_fd$1, iov, (signed int)count);
+    signed int return_value_fuse_chan_fd_1;
+    return_value_fuse_chan_fd_1=fuse_chan_fd(ch);
+    res=writev(return_value_fuse_chan_fd_1, iov, (signed int)count);
     signed int err;
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    err = *return_value___errno_location$2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    err = *return_value___errno_location_2;
     if(res == -1l)
     {
       struct fuse_session *se;
       se=fuse_chan_session(ch);
       /* assertion se != ((void *)0) */
       assert(se != (struct fuse_session *)(void *)0);
-      signed int return_value_fuse_session_exited$3;
-      return_value_fuse_session_exited$3=fuse_session_exited(se);
-      if(return_value_fuse_session_exited$3 == 0)
+      signed int return_value_fuse_session_exited_3;
+      return_value_fuse_session_exited_3=fuse_session_exited(se);
+      if(return_value_fuse_session_exited_3 == 0)
       {
         if(!(err == 2))
           perror("fuse: writing device");
@@ -15615,17 +15615,17 @@ signed int fuse_kern_mount(const char *mountpoint, struct fuse_args *args)
   char *mnt_opts = (char *)(void *)0;
   memset((void *)&mo, 0, sizeof(struct mount_opts) /*80ul*/ );
   mo.flags = 2 | 4;
-  signed int return_value_fuse_opt_parse$1;
-  signed int return_value_get_mnt_flag_opts$2;
-  signed int return_value_fuse_opt_add_opt$3;
-  signed int return_value_fuse_opt_add_opt$4;
-  signed int return_value_fuse_opt_add_opt$5;
-  _Bool tmp_if_expr$8;
-  signed int return_value_fuse_opt_add_opt$7;
+  signed int return_value_fuse_opt_parse_1;
+  signed int return_value_get_mnt_flag_opts_2;
+  signed int return_value_fuse_opt_add_opt_3;
+  signed int return_value_fuse_opt_add_opt_4;
+  signed int return_value_fuse_opt_add_opt_5;
+  _Bool tmp_if_expr_8;
+  signed int return_value_fuse_opt_add_opt_7;
   if(!(args == ((struct fuse_args *)NULL)))
   {
-    return_value_fuse_opt_parse$1=fuse_opt_parse(args, (void *)&mo, fuse_mount_opts, fuse_mount_opt_proc);
-    if(!(return_value_fuse_opt_parse$1 == -1))
+    return_value_fuse_opt_parse_1=fuse_opt_parse(args, (void *)&mo, fuse_mount_opts, fuse_mount_opt_proc);
+    if(!(return_value_fuse_opt_parse_1 == -1))
       goto __CPROVER_DUMP_L1;
 
     return -1;
@@ -15645,21 +15645,21 @@ signed int fuse_kern_mount(const char *mountpoint, struct fuse_args *args)
       if(mo.ishelp == 0)
       {
         res = -1;
-        return_value_get_mnt_flag_opts$2=get_mnt_flag_opts(&mnt_opts, mo.flags);
-        if(!(return_value_get_mnt_flag_opts$2 == -1))
+        return_value_get_mnt_flag_opts_2=get_mnt_flag_opts(&mnt_opts, mo.flags);
+        if(!(return_value_get_mnt_flag_opts_2 == -1))
         {
           if(!(mo.kernel_opts == ((char *)NULL)))
           {
-            return_value_fuse_opt_add_opt$3=fuse_opt_add_opt(&mnt_opts, mo.kernel_opts);
-            if(return_value_fuse_opt_add_opt$3 == -1)
+            return_value_fuse_opt_add_opt_3=fuse_opt_add_opt(&mnt_opts, mo.kernel_opts);
+            if(return_value_fuse_opt_add_opt_3 == -1)
               goto out;
 
           }
 
           if(!(mo.mtab_opts == ((char *)NULL)))
           {
-            return_value_fuse_opt_add_opt$4=fuse_opt_add_opt(&mnt_opts, mo.mtab_opts);
-            if(return_value_fuse_opt_add_opt$4 == -1)
+            return_value_fuse_opt_add_opt_4=fuse_opt_add_opt(&mnt_opts, mo.mtab_opts);
+            if(return_value_fuse_opt_add_opt_4 == -1)
               goto out;
 
           }
@@ -15669,8 +15669,8 @@ signed int fuse_kern_mount(const char *mountpoint, struct fuse_args *args)
           {
             if(!(mo.fusermount_opts == ((char *)NULL)))
             {
-              return_value_fuse_opt_add_opt$5=fuse_opt_add_opt(&mnt_opts, mo.fusermount_opts);
-              if(return_value_fuse_opt_add_opt$5 == -1)
+              return_value_fuse_opt_add_opt_5=fuse_opt_add_opt(&mnt_opts, mo.fusermount_opts);
+              if(return_value_fuse_opt_add_opt_5 == -1)
                 goto out;
 
             }
@@ -15679,17 +15679,17 @@ signed int fuse_kern_mount(const char *mountpoint, struct fuse_args *args)
             {
               char *tmp_opts = (char *)(void *)0;
               res = -1;
-              signed int return_value_fuse_opt_add_opt$6;
-              return_value_fuse_opt_add_opt$6=fuse_opt_add_opt(&tmp_opts, mnt_opts);
-              if(return_value_fuse_opt_add_opt$6 == -1)
-                tmp_if_expr$8 = (_Bool)1;
+              signed int return_value_fuse_opt_add_opt_6;
+              return_value_fuse_opt_add_opt_6=fuse_opt_add_opt(&tmp_opts, mnt_opts);
+              if(return_value_fuse_opt_add_opt_6 == -1)
+                tmp_if_expr_8 = (_Bool)1;
 
               else
               {
-                return_value_fuse_opt_add_opt$7=fuse_opt_add_opt(&tmp_opts, mo.subtype_opt);
-                tmp_if_expr$8 = return_value_fuse_opt_add_opt$7 == -1 ? (_Bool)1 : (_Bool)0;
+                return_value_fuse_opt_add_opt_7=fuse_opt_add_opt(&tmp_opts, mo.subtype_opt);
+                tmp_if_expr_8 = return_value_fuse_opt_add_opt_7 == -1 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$8)
+              if(tmp_if_expr_8)
               {
                 free((void *)tmp_opts);
                 goto out;
@@ -15745,9 +15745,9 @@ void fuse_kern_unmount(const char *mountpoint, signed int fd)
 
     }
 
-    unsigned int return_value_geteuid$1;
-    return_value_geteuid$1=geteuid();
-    if(return_value_geteuid$1 == 0u)
+    unsigned int return_value_geteuid_1;
+    return_value_geteuid_1=geteuid();
+    if(return_value_geteuid_1 == 0u)
       fuse_mnt_umount("fuse", mountpoint, mountpoint, 1);
 
     else
@@ -15870,13 +15870,13 @@ static void fuse_lib_create(struct fuse_req *req, unsigned long int parent, cons
   if(err == 0)
   {
     pthread_mutex_lock(&f->lock);
-    struct node *return_value_get_node$1;
-    return_value_get_node$1=get_node(f, e.ino);
-    return_value_get_node$1->open_count = return_value_get_node$1->open_count + 1;
+    struct node *return_value_get_node_1;
+    return_value_get_node_1=get_node(f, e.ino);
+    return_value_get_node_1->open_count = return_value_get_node_1->open_count + 1;
     pthread_mutex_unlock(&f->lock);
-    signed int return_value_fuse_reply_create$2;
-    return_value_fuse_reply_create$2=fuse_reply_create(req, &e, fi);
-    if(return_value_fuse_reply_create$2 == -2)
+    signed int return_value_fuse_reply_create_2;
+    return_value_fuse_reply_create_2=fuse_reply_create(req, &e, fi);
+    if(return_value_fuse_reply_create_2 == -2)
     {
       fuse_do_release(f, e.ino, path, fi);
       forget_node(f, e.ino, (unsigned long int)1);
@@ -15962,9 +15962,9 @@ static void fuse_lib_flush(struct fuse_req *req, unsigned long int ino, struct f
 // file fuse.c line 2731
 static void fuse_lib_forget(struct fuse_req *req, unsigned long int ino, unsigned long int nlookup)
 {
-  struct fuse *return_value_req_fuse$1;
-  return_value_req_fuse$1=req_fuse(req);
-  do_forget(return_value_req_fuse$1, ino, nlookup);
+  struct fuse *return_value_req_fuse_1;
+  return_value_req_fuse_1=req_fuse(req);
+  do_forget(return_value_req_fuse_1, ino, nlookup);
   fuse_reply_none(req);
 }
 
@@ -16034,13 +16034,13 @@ static void fuse_lib_getattr(struct fuse_req *req, unsigned long int ino, struct
   char *path;
   signed int err;
   memset((void *)&buf, 0, sizeof(struct stat) /*144ul*/ );
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(fi == ((struct fuse_file_info *)NULL)))
-    tmp_if_expr$1 = f->fs->op.fgetattr != ((signed int (*)(const char *, struct stat *, struct fuse_file_info *))NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = f->fs->op.fgetattr != ((signed int (*)(const char *, struct stat *, struct fuse_file_info *))NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     err=get_path_nullok(f, ino, &path);
 
   else
@@ -16094,9 +16094,9 @@ static void fuse_lib_getlk(struct fuse_req *req, unsigned long int ino, struct f
   flock_to_lock(lock, &l);
   l.owner = fi->lock_owner;
   pthread_mutex_lock(&f->lock);
-  struct node *return_value_get_node$1;
-  return_value_get_node$1=get_node(f, ino);
-  conflict=locks_conflict(return_value_get_node$1, &l);
+  struct node *return_value_get_node_1;
+  return_value_get_node_1=get_node(f, ino);
+  conflict=locks_conflict(return_value_get_node_1, &l);
   if(!(conflict == ((struct lock *)NULL)))
     lock_to_flock(conflict, lock);
 
@@ -16123,9 +16123,9 @@ static void fuse_lib_getxattr(struct fuse_req *req, unsigned long int ino, const
   if(!(size == 0ul))
   {
     char *value;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(size);
-    value = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(size);
+    value = (char *)return_value_malloc_1;
     if(value == ((char *)NULL))
     {
       reply_err(req, -12);
@@ -16170,18 +16170,18 @@ static void fuse_lib_help_modules(void)
   fprintf(stderr, "\nModule options:\n");
   pthread_mutex_lock(&fuse_context_lock);
   m = fuse_modules;
-  signed int return_value_fuse_opt_add_arg$1;
+  signed int return_value_fuse_opt_add_arg_1;
   for( ; !(m == ((struct fuse_module *)NULL)); m = m->next)
   {
     struct fuse_fs *fs = (struct fuse_fs *)(void *)0;
     struct fuse_fs *newfs;
     struct fuse_args args = { .argc=0, .argv=(char **)(void *)0, .allocated=0 };
-    signed int return_value_fuse_opt_add_arg$2;
-    return_value_fuse_opt_add_arg$2=fuse_opt_add_arg(&args, "");
-    if(!(return_value_fuse_opt_add_arg$2 == -1))
+    signed int return_value_fuse_opt_add_arg_2;
+    return_value_fuse_opt_add_arg_2=fuse_opt_add_arg(&args, "");
+    if(!(return_value_fuse_opt_add_arg_2 == -1))
     {
-      return_value_fuse_opt_add_arg$1=fuse_opt_add_arg(&args, "-h");
-      if(!(return_value_fuse_opt_add_arg$1 == -1))
+      return_value_fuse_opt_add_arg_1=fuse_opt_add_arg(&args, "-h");
+      if(!(return_value_fuse_opt_add_arg_1 == -1))
       {
         fprintf(stderr, "\n[%s]\n", m->name);
         newfs=m->factory(&args, &fs);
@@ -16230,9 +16230,9 @@ static void fuse_lib_ioctl(struct fuse_req *req, unsigned long int ino, signed i
     if(!(out_bufsz == 0ul))
     {
       err = -12;
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(out_bufsz);
-      out_buf = (char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(out_bufsz);
+      out_buf = (char *)return_value_malloc_1;
       if(out_buf == ((char *)NULL))
         goto err;
 
@@ -16303,9 +16303,9 @@ static void fuse_lib_listxattr(struct fuse_req *req, unsigned long int ino, unsi
   if(!(size == 0ul))
   {
     char *list;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(size);
-    list = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(size);
+    list = (char *)return_value_malloc_1;
     if(list == ((char *)NULL))
     {
       reply_err(req, -12);
@@ -16345,19 +16345,19 @@ static void fuse_lib_lookup(struct fuse_req *req, unsigned long int parent, cons
   char *path;
   signed int err;
   struct node *dot = (struct node *)(void *)0;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if((signed int)*name == 46)
   {
     signed int len;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(name);
-    len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(name);
+    len = (signed int)return_value_strlen_1;
     if(len == 1)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = ((signed int)name[(signed long int)1] == 46 ? (len == 2 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = ((signed int)name[(signed long int)1] == 46 ? (len == 2 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       pthread_mutex_lock(&f->lock);
       if(len == 1)
@@ -16381,9 +16381,9 @@ static void fuse_lib_lookup(struct fuse_req *req, unsigned long int parent, cons
         if(!(f->conf.debug == 0))
           fprintf(stderr, "LOOKUP-DOTDOT\n");
 
-        struct node *return_value_get_node$2;
-        return_value_get_node$2=get_node(f, parent);
-        parent = return_value_get_node$2->parent->nodeid;
+        struct node *return_value_get_node_2;
+        return_value_get_node_2=get_node(f, parent);
+        parent = return_value_get_node_2->parent->nodeid;
       }
       pthread_mutex_unlock(&f->lock);
       name = (const char *)(void *)0;
@@ -16530,13 +16530,13 @@ static void fuse_lib_open(struct fuse_req *req, unsigned long int ino, struct fu
   if(err == 0)
   {
     pthread_mutex_lock(&f->lock);
-    struct node *return_value_get_node$1;
-    return_value_get_node$1=get_node(f, ino);
-    return_value_get_node$1->open_count = return_value_get_node$1->open_count + 1;
+    struct node *return_value_get_node_1;
+    return_value_get_node_1=get_node(f, ino);
+    return_value_get_node_1->open_count = return_value_get_node_1->open_count + 1;
     pthread_mutex_unlock(&f->lock);
-    signed int return_value_fuse_reply_open$2;
-    return_value_fuse_reply_open$2=fuse_reply_open(req, fi);
-    if(return_value_fuse_reply_open$2 == -2)
+    signed int return_value_fuse_reply_open_2;
+    return_value_fuse_reply_open_2=fuse_reply_open(req, fi);
+    if(return_value_fuse_reply_open_2 == -2)
       fuse_do_release(f, ino, path, fi);
 
   }
@@ -16557,9 +16557,9 @@ static void fuse_lib_opendir(struct fuse_req *req, unsigned long int ino, struct
   struct fuse_file_info fi;
   char *path;
   signed int err;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct fuse_dh) /*112ul*/ );
-  dh = (struct fuse_dh *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct fuse_dh) /*112ul*/ );
+  dh = (struct fuse_dh *)return_value_malloc_1;
   if(dh == ((struct fuse_dh *)NULL))
     reply_err(req, -12);
 
@@ -16571,7 +16571,7 @@ static void fuse_lib_opendir(struct fuse_req *req, unsigned long int ino, struct
     dh->len = (unsigned int)0;
     dh->filled = 0;
     dh->nodeid = ino;
-    pthread_mutex_init(&dh->lock, (const union anonymous$7 *)(void *)0);
+    pthread_mutex_init(&dh->lock, (const union anonymous_7 *)(void *)0);
     llfi->fh = (unsigned long int)dh;
     memset((void *)&fi, 0, sizeof(struct fuse_file_info) /*40ul*/ );
     fi.flags = llfi->flags;
@@ -16586,9 +16586,9 @@ static void fuse_lib_opendir(struct fuse_req *req, unsigned long int ino, struct
 
     if(err == 0)
     {
-      signed int return_value_fuse_reply_open$2;
-      return_value_fuse_reply_open$2=fuse_reply_open(req, llfi);
-      if(return_value_fuse_reply_open$2 == -2)
+      signed int return_value_fuse_reply_open_2;
+      return_value_fuse_reply_open_2=fuse_reply_open(req, llfi);
+      if(return_value_fuse_reply_open_2 == -2)
       {
         fuse_fs_releasedir(f->fs, path, &fi);
         pthread_mutex_destroy(&dh->lock);
@@ -16793,19 +16793,19 @@ static void fuse_lib_releasedir(struct fuse_req *req, unsigned long int ino, str
   char *path;
   const char *compatpath;
   get_path_nullok(f, ino, &path);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(path == ((char *)NULL)))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = f->nullpath_ok != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = f->nullpath_ok != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = f->conf.nopath != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = f->conf.nopath != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     compatpath = path;
 
   else
@@ -16855,7 +16855,7 @@ static void fuse_lib_rename(struct fuse_req *req, unsigned long int olddir, cons
   struct node *wnode2;
   signed int err;
   err=get_path2(f, olddir, oldname, newdir, newname, &oldpath, &newpath, &wnode1, &wnode2);
-  signed int return_value_is_open$1;
+  signed int return_value_is_open_1;
   if(err == 0)
   {
     struct fuse_intr_data d;
@@ -16863,8 +16863,8 @@ static void fuse_lib_rename(struct fuse_req *req, unsigned long int olddir, cons
     fuse_prepare_interrupt(f, req, &d);
     if(f->conf.hard_remove == 0)
     {
-      return_value_is_open$1=is_open(f, newdir, newname);
-      if(!(return_value_is_open$1 == 0))
+      return_value_is_open_1=is_open(f, newdir, newname);
+      if(!(return_value_is_open_1 == 0))
         err=hide_node(f, newpath, newdir, newname);
 
     }
@@ -16919,26 +16919,26 @@ static void fuse_lib_setattr(struct fuse_req *req, unsigned long int ino, struct
   char *path;
   signed int err;
   memset((void *)&buf, 0, sizeof(struct stat) /*144ul*/ );
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(valid == 8 && !(fi == ((struct fuse_file_info *)NULL)))
-    tmp_if_expr$1 = f->fs->op.ftruncate != ((signed int (*)(const char *, signed long int, struct fuse_file_info *))NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = f->fs->op.ftruncate != ((signed int (*)(const char *, signed long int, struct fuse_file_info *))NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = f->fs->op.fgetattr != ((signed int (*)(const char *, struct stat *, struct fuse_file_info *))NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = f->fs->op.fgetattr != ((signed int (*)(const char *, struct stat *, struct fuse_file_info *))NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     err=get_path_nullok(f, ino, &path);
 
   else
     err=get_path(f, ino, &path);
-  unsigned int tmp_if_expr$3;
-  unsigned int tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  unsigned int tmp_if_expr_3;
+  unsigned int tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   if(err == 0)
   {
     struct fuse_intr_data d;
@@ -16951,18 +16951,18 @@ static void fuse_lib_setattr(struct fuse_req *req, unsigned long int ino, struct
     {
       unsigned int uid;
       if(!((2 & valid) == 0))
-        tmp_if_expr$3 = attr->st_uid;
+        tmp_if_expr_3 = attr->st_uid;
 
       else
-        tmp_if_expr$3 = (unsigned int)-1;
-      uid = tmp_if_expr$3;
+        tmp_if_expr_3 = (unsigned int)-1;
+      uid = tmp_if_expr_3;
       unsigned int gid;
       if(!((4 & valid) == 0))
-        tmp_if_expr$4 = attr->st_gid;
+        tmp_if_expr_4 = attr->st_gid;
 
       else
-        tmp_if_expr$4 = (unsigned int)-1;
-      gid = tmp_if_expr$4;
+        tmp_if_expr_4 = (unsigned int)-1;
+      gid = tmp_if_expr_4;
       err=fuse_fs_chown(f->fs, path, uid, gid);
     }
 
@@ -16976,11 +16976,11 @@ static void fuse_lib_setattr(struct fuse_req *req, unsigned long int ino, struct
     }
 
     if(err == 0)
-      tmp_if_expr$5 = f->utime_omit_ok != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = f->utime_omit_ok != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(!((48 & valid) == 0) && tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(!((48 & valid) == 0) && tmp_if_expr_5)
     {
       struct timespec tv[2l];
       tv[(signed long int)0].tv_sec = (signed long int)0;
@@ -17007,12 +17007,12 @@ static void fuse_lib_setattr(struct fuse_req *req, unsigned long int ino, struct
     else
       if((48 & valid) == 48 && err == 0)
       {
-        struct timespec fuse_lib_setattr$$1$$1$$4$$tv[2l];
-        fuse_lib_setattr$$1$$1$$4$$tv[(signed long int)0].tv_sec = attr->st_atim.tv_sec;
-        fuse_lib_setattr$$1$$1$$4$$tv[(signed long int)0].tv_nsec = attr->st_atim.tv_nsec;
-        fuse_lib_setattr$$1$$1$$4$$tv[(signed long int)1].tv_sec = attr->st_mtim.tv_sec;
-        fuse_lib_setattr$$1$$1$$4$$tv[(signed long int)1].tv_nsec = attr->st_mtim.tv_nsec;
-        err=fuse_fs_utimens(f->fs, path, fuse_lib_setattr$$1$$1$$4$$tv);
+        struct timespec fuse_lib_setattr__1__1__4__tv[2l];
+        fuse_lib_setattr__1__1__4__tv[(signed long int)0].tv_sec = attr->st_atim.tv_sec;
+        fuse_lib_setattr__1__1__4__tv[(signed long int)0].tv_nsec = attr->st_atim.tv_nsec;
+        fuse_lib_setattr__1__1__4__tv[(signed long int)1].tv_sec = attr->st_mtim.tv_sec;
+        fuse_lib_setattr__1__1__4__tv[(signed long int)1].tv_nsec = attr->st_mtim.tv_nsec;
+        err=fuse_fs_utimens(f->fs, path, fuse_lib_setattr__1__1__4__tv);
       }
 
     if(err == 0)
@@ -17033,9 +17033,9 @@ static void fuse_lib_setattr(struct fuse_req *req, unsigned long int ino, struct
     if(!(f->conf.auto_cache == 0))
     {
       pthread_mutex_lock(&f->lock);
-      struct node *return_value_get_node$6;
-      return_value_get_node$6=get_node(f, ino);
-      update_stat(return_value_get_node$6, &buf);
+      struct node *return_value_get_node_6;
+      return_value_get_node_6=get_node(f, ino);
+      update_stat(return_value_get_node_6, &buf);
       pthread_mutex_unlock(&f->lock);
     }
 
@@ -17061,9 +17061,9 @@ static void fuse_lib_setlk(struct fuse_req *req, unsigned long int ino, struct f
     flock_to_lock(lock, &l);
     l.owner = fi->lock_owner;
     pthread_mutex_lock(&f->lock);
-    struct node *return_value_get_node$1;
-    return_value_get_node$1=get_node(f, ino);
-    locks_insert(return_value_get_node$1, &l);
+    struct node *return_value_get_node_1;
+    return_value_get_node_1=get_node(f, ino);
+    locks_insert(return_value_get_node_1, &l);
     pthread_mutex_unlock(&f->lock);
   }
 
@@ -17155,21 +17155,21 @@ static void fuse_lib_unlink(struct fuse_req *req, unsigned long int parent, cons
   char *path;
   signed int err;
   err=get_path_wrlock(f, parent, name, &path, &wnode);
-  _Bool tmp_if_expr$2;
-  signed int return_value_is_open$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_is_open_1;
   if(err == 0)
   {
     struct fuse_intr_data d;
     fuse_prepare_interrupt(f, req, &d);
     if(f->conf.hard_remove == 0)
     {
-      return_value_is_open$1=is_open(f, parent, name);
-      tmp_if_expr$2 = return_value_is_open$1 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_is_open_1=is_open(f, parent, name);
+      tmp_if_expr_2 = return_value_is_open_1 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
       err=hide_node(f, path, parent, name);
 
     else
@@ -17216,9 +17216,9 @@ static void fuse_lib_write_buf(struct fuse_req *req, unsigned long int ino, stru
 static struct fuse_req * fuse_ll_alloc_req(struct fuse_ll *f)
 {
   struct fuse_req *req;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct fuse_req) /*128ul*/ );
-  req = (struct fuse_req *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct fuse_req) /*128ul*/ );
+  req = (struct fuse_req *)return_value_calloc_1;
   if(req == ((struct fuse_req *)NULL))
     fprintf(stderr, "fuse: failed to allocate request\n");
 
@@ -17227,7 +17227,7 @@ static struct fuse_req * fuse_ll_alloc_req(struct fuse_ll *f)
     req->f = f;
     req->ctr = 1;
     list_init_req(req);
-    pthread_mutex_init(&req->lock, (const union anonymous$7 *)(void *)0);
+    pthread_mutex_init(&req->lock, (const union anonymous_7 *)(void *)0);
   }
   return req;
 }
@@ -17237,9 +17237,9 @@ static struct fuse_req * fuse_ll_alloc_req(struct fuse_ll *f)
 static void fuse_ll_clear_pipe(struct fuse_ll *f)
 {
   struct fuse_ll_pipe *llp;
-  void *return_value_pthread_getspecific$1;
-  return_value_pthread_getspecific$1=pthread_getspecific(f->pipe_key);
-  llp = (struct fuse_ll_pipe *)return_value_pthread_getspecific$1;
+  void *return_value_pthread_getspecific_1;
+  return_value_pthread_getspecific_1=pthread_getspecific(f->pipe_key);
+  llp = (struct fuse_ll_pipe *)return_value_pthread_getspecific_1;
   if(!(llp == ((struct fuse_ll_pipe *)NULL)))
   {
     pthread_setspecific(f->pipe_key, (void *)0);
@@ -17253,20 +17253,20 @@ static void fuse_ll_clear_pipe(struct fuse_ll *f)
 static signed int fuse_ll_copy_from_pipe(struct fuse_bufvec *dst, struct fuse_bufvec *src)
 {
   signed int res;
-  signed long int return_value_fuse_buf_copy$1;
-  return_value_fuse_buf_copy$1=fuse_buf_copy(dst, src, (enum fuse_buf_copy_flags)0);
-  res = (signed int)return_value_fuse_buf_copy$1;
+  signed long int return_value_fuse_buf_copy_1;
+  return_value_fuse_buf_copy_1=fuse_buf_copy(dst, src, (enum fuse_buf_copy_flags)0);
+  res = (signed int)return_value_fuse_buf_copy_1;
   if(!(res >= 0))
   {
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(-res);
-    fprintf(stderr, "fuse: copy from pipe: %s\n", return_value_strerror$2);
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(-res);
+    fprintf(stderr, "fuse: copy from pipe: %s\n", return_value_strerror_2);
     return res;
   }
 
-  unsigned long int return_value_fuse_buf_size$3;
-  return_value_fuse_buf_size$3=fuse_buf_size(dst);
-  if(!((unsigned long int)res >= return_value_fuse_buf_size$3))
+  unsigned long int return_value_fuse_buf_size_3;
+  return_value_fuse_buf_size_3=fuse_buf_size(dst);
+  if(!((unsigned long int)res >= return_value_fuse_buf_size_3))
   {
     fprintf(stderr, "fuse: copy from pipe: short read\n");
     return -1;
@@ -17293,9 +17293,9 @@ static void fuse_ll_destroy(void *data)
 
   }
 
-  void *return_value_pthread_getspecific$1;
-  return_value_pthread_getspecific$1=pthread_getspecific(f->pipe_key);
-  llp = (struct fuse_ll_pipe *)return_value_pthread_getspecific$1;
+  void *return_value_pthread_getspecific_1;
+  return_value_pthread_getspecific_1=pthread_getspecific(f->pipe_key);
+  llp = (struct fuse_ll_pipe *)return_value_pthread_getspecific_1;
   if(!(llp == ((struct fuse_ll_pipe *)NULL)))
     fuse_ll_pipe_free(llp);
 
@@ -17310,17 +17310,17 @@ static void fuse_ll_destroy(void *data)
 static struct fuse_ll_pipe * fuse_ll_get_pipe(struct fuse_ll *f)
 {
   struct fuse_ll_pipe *llp;
-  void *return_value_pthread_getspecific$1;
-  return_value_pthread_getspecific$1=pthread_getspecific(f->pipe_key);
-  llp = (struct fuse_ll_pipe *)return_value_pthread_getspecific$1;
-  _Bool tmp_if_expr$5;
-  signed int return_value_fcntl$4;
+  void *return_value_pthread_getspecific_1;
+  return_value_pthread_getspecific_1=pthread_getspecific(f->pipe_key);
+  llp = (struct fuse_ll_pipe *)return_value_pthread_getspecific_1;
+  _Bool tmp_if_expr_5;
+  signed int return_value_fcntl_4;
   if(llp == ((struct fuse_ll_pipe *)NULL))
   {
     signed int res;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct fuse_ll_pipe) /*24ul*/ );
-    llp = (struct fuse_ll_pipe *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct fuse_ll_pipe) /*24ul*/ );
+    llp = (struct fuse_ll_pipe *)return_value_malloc_2;
     if(llp == ((struct fuse_ll_pipe *)NULL))
       return (struct fuse_ll_pipe *)(void *)0;
 
@@ -17331,17 +17331,17 @@ static struct fuse_ll_pipe * fuse_ll_get_pipe(struct fuse_ll *f)
       return (struct fuse_ll_pipe *)(void *)0;
     }
 
-    signed int return_value_fcntl$3;
-    return_value_fcntl$3=fcntl(llp->pipe[(signed long int)0], 4, 04000);
-    if(return_value_fcntl$3 == -1)
-      tmp_if_expr$5 = (_Bool)1;
+    signed int return_value_fcntl_3;
+    return_value_fcntl_3=fcntl(llp->pipe[(signed long int)0], 4, 04000);
+    if(return_value_fcntl_3 == -1)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_fcntl$4=fcntl(llp->pipe[(signed long int)1], 4, 04000);
-      tmp_if_expr$5 = return_value_fcntl$4 == -1 ? (_Bool)1 : (_Bool)0;
+      return_value_fcntl_4=fcntl(llp->pipe[(signed long int)1], 4, 04000);
+      tmp_if_expr_5 = return_value_fcntl_4 == -1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
     {
       close(llp->pipe[(signed long int)0]);
       close(llp->pipe[(signed long int)1]);
@@ -17455,9 +17455,9 @@ static void fuse_ll_process_buf(void *data, struct fuse_buf *buf, struct fuse_ch
     in = (struct fuse_in_header *)buf->mem;
   if(!(f->debug == 0))
   {
-    const char *return_value_opname$1;
-    return_value_opname$1=opname((enum fuse_opcode)in->opcode);
-    fprintf(stderr, "unique: %llu, opcode: %s (%i), nodeid: %lu, insize: %zu, pid: %u\n", (unsigned long long int)in->unique, return_value_opname$1, in->opcode, (unsigned long int)in->nodeid, buf->size, in->pid);
+    const char *return_value_opname_1;
+    return_value_opname_1=opname((enum fuse_opcode)in->opcode);
+    fprintf(stderr, "unique: %llu, opcode: %s (%i), nodeid: %lu, insize: %zu, pid: %u\n", (unsigned long long int)in->unique, return_value_opname_1, in->opcode, (unsigned long int)in->nodeid, buf->size, in->pid);
   }
 
   req=fuse_ll_alloc_req(f);
@@ -17475,7 +17475,7 @@ static void fuse_ll_process_buf(void *data, struct fuse_buf *buf, struct fuse_ch
   req->ctx.pid = (signed int)in->pid;
   req->ch = ch;
   err = 5;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(f->got_init == 0)
   {
     enum fuse_opcode expected = (enum fuse_opcode)(f->cuse_data != ((struct cuse_data *)NULL) ? CUSE_INIT : FUSE_INIT);
@@ -17487,11 +17487,11 @@ static void fuse_ll_process_buf(void *data, struct fuse_buf *buf, struct fuse_ch
   else
   {
     if(in->opcode == 26u)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = in->opcode == (unsigned int)CUSE_INIT ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = in->opcode == (unsigned int)CUSE_INIT ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       goto reply_err;
 
   }
@@ -17544,15 +17544,15 @@ static void fuse_ll_process_buf(void *data, struct fuse_buf *buf, struct fuse_ch
   }
 
   err = 38;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if((unsigned long int)in->opcode >= 4097ul)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = !(fuse_ll_ops[(signed long int)in->opcode].func != ((void (*)(struct fuse_req *, unsigned long int, const void *))NULL)) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  if(!tmp_if_expr$3)
+    tmp_if_expr_3 = !(fuse_ll_ops[(signed long int)in->opcode].func != ((void (*)(struct fuse_req *, unsigned long int, const void *))NULL)) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  if(!tmp_if_expr_3)
   {
     if(!(in->opcode == 36u))
     {
@@ -17571,11 +17571,11 @@ static void fuse_ll_process_buf(void *data, struct fuse_buf *buf, struct fuse_ch
       if(!(write_header_size >= buf->size))
       {
         if(!(in->opcode == 16u))
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = !(f->op.write_buf != ((void (*)(struct fuse_req *, unsigned long int, struct fuse_bufvec *, signed long int, struct fuse_file_info *))NULL)) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = !(f->op.write_buf != ((void (*)(struct fuse_req *, unsigned long int, struct fuse_bufvec *, signed long int, struct fuse_file_info *))NULL)) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
         {
           if(!(in->opcode == 41u))
           {
@@ -17606,11 +17606,11 @@ static void fuse_ll_process_buf(void *data, struct fuse_buf *buf, struct fuse_ch
 
     inarg = (void *)&in[(signed long int)1];
     if(in->opcode == 16u)
-      tmp_if_expr$5 = f->op.write_buf != ((void (*)(struct fuse_req *, unsigned long int, struct fuse_bufvec *, signed long int, struct fuse_file_info *))NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = f->op.write_buf != ((void (*)(struct fuse_req *, unsigned long int, struct fuse_bufvec *, signed long int, struct fuse_file_info *))NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
       do_write_buf(req, in->nodeid, inarg, buf);
 
     else
@@ -17647,25 +17647,25 @@ static signed int fuse_ll_receive_buf(struct fuse_session *se, struct fuse_buf *
 {
   struct fuse_chan *ch = *chp;
   struct fuse_ll *f;
-  void *return_value_fuse_session_data$1;
-  return_value_fuse_session_data$1=fuse_session_data(se);
-  f = (struct fuse_ll *)return_value_fuse_session_data$1;
+  void *return_value_fuse_session_data_1;
+  return_value_fuse_session_data_1=fuse_session_data(se);
+  f = (struct fuse_ll *)return_value_fuse_session_data_1;
   unsigned long int bufsize = buf->size;
   struct fuse_ll_pipe *llp;
   struct fuse_buf tmpbuf;
   signed int err;
   signed int res;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(f->conn.proto_minor >= 14u))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !((f->conn.want & (unsigned int)(1 << 9)) != 0u) ? (_Bool)1 : (_Bool)0;
-  signed int return_value_fuse_chan_fd$3;
-  signed long int return_value_splice$4;
-  signed int *return_value___errno_location$5;
-  signed int return_value_fuse_session_exited$6;
-  if(!tmp_if_expr$2)
+    tmp_if_expr_2 = !((f->conn.want & (unsigned int)(1 << 9)) != 0u) ? (_Bool)1 : (_Bool)0;
+  signed int return_value_fuse_chan_fd_3;
+  signed long int return_value_splice_4;
+  signed int *return_value___errno_location_5;
+  signed int return_value_fuse_session_exited_6;
+  if(!tmp_if_expr_2)
   {
     llp=fuse_ll_get_pipe(f);
     if(llp == ((struct fuse_ll_pipe *)NULL))
@@ -17690,13 +17690,13 @@ static signed int fuse_ll_receive_buf(struct fuse_session *se, struct fuse_buf *
 
     }
 
-    return_value_fuse_chan_fd$3=fuse_chan_fd(ch);
-    return_value_splice$4=splice(return_value_fuse_chan_fd$3, (signed long int *)(void *)0, llp->pipe[(signed long int)1], (signed long int *)(void *)0, bufsize, (unsigned int)0);
-    res = (signed int)return_value_splice$4;
-    return_value___errno_location$5=__errno_location();
-    err = *return_value___errno_location$5;
-    return_value_fuse_session_exited$6=fuse_session_exited(se);
-    if(!(return_value_fuse_session_exited$6 == 0))
+    return_value_fuse_chan_fd_3=fuse_chan_fd(ch);
+    return_value_splice_4=splice(return_value_fuse_chan_fd_3, (signed long int *)(void *)0, llp->pipe[(signed long int)1], (signed long int *)(void *)0, bufsize, (unsigned int)0);
+    res = (signed int)return_value_splice_4;
+    return_value___errno_location_5=__errno_location();
+    err = *return_value___errno_location_5;
+    return_value_fuse_session_exited_6=fuse_session_exited(se);
+    if(!(return_value_fuse_session_exited_6 == 0))
       return 0;
 
     if(res == -1)
@@ -17727,14 +17727,14 @@ static signed int fuse_ll_receive_buf(struct fuse_session *se, struct fuse_buf *
     .buf={ tmpbuf } };
       struct fuse_bufvec dst = { .count=(unsigned long int)1, .idx=0ul, .off=0ul,
     .buf={ *buf } };
-      signed long int return_value_fuse_buf_copy$7;
-      return_value_fuse_buf_copy$7=fuse_buf_copy(&dst, &src, (enum fuse_buf_copy_flags)0);
-      res = (signed int)return_value_fuse_buf_copy$7;
+      signed long int return_value_fuse_buf_copy_7;
+      return_value_fuse_buf_copy_7=fuse_buf_copy(&dst, &src, (enum fuse_buf_copy_flags)0);
+      res = (signed int)return_value_fuse_buf_copy_7;
       if(!(res >= 0))
       {
-        char *return_value_strerror$8;
-        return_value_strerror$8=strerror(-res);
-        fprintf(stderr, "fuse: copy from pipe: %s\n", return_value_strerror$8);
+        char *return_value_strerror_8;
+        return_value_strerror_8=strerror(-res);
+        fprintf(stderr, "fuse: copy from pipe: %s\n", return_value_strerror_8);
         fuse_ll_clear_pipe(f);
         return res;
       }
@@ -17777,10 +17777,10 @@ static void fuse_ll_retrieve_reply(struct fuse_notify_req *nreq, struct fuse_req
 {
   struct fuse_ll *f = req->f;
   struct fuse_retrieve_req *rreq;
-  struct fuse_retrieve_req *tmp_statement_expression$1;
+  struct fuse_retrieve_req *tmp_statement_expression_1;
   const struct fuse_notify_req *__mptr = nreq;
-  tmp_statement_expression$1 = (struct fuse_retrieve_req *)((char *)__mptr - (signed long int)0ul);
-  rreq = tmp_statement_expression$1;
+  tmp_statement_expression_1 = (struct fuse_retrieve_req *)((char *)__mptr - (signed long int)0ul);
+  rreq = tmp_statement_expression_1;
   struct fuse_notify_retrieve_in *arg = (struct fuse_notify_retrieve_in *)inarg;
   struct fuse_bufvec bufv = { .count=(unsigned long int)1, .idx=0ul, .off=0ul,
     .buf={ *ibuf } };
@@ -17829,11 +17829,11 @@ static signed int fuse_load_so_module(const char *module)
 {
   signed int res;
   char *soname;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(module);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)64);
-  soname = (char *)return_value_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(module);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)64);
+  soname = (char *)return_value_malloc_2;
   if(soname == ((char *)NULL))
   {
     fprintf(stderr, "fuse: memory allocation failed\n");
@@ -17855,14 +17855,14 @@ static signed int fuse_load_so_name(const char *soname, const char *module_name)
 {
   struct fusemod_so *so;
   signed int ret = 0;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct fusemod_so) /*16ul*/ );
-  so = (struct fusemod_so *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct fusemod_so) /*16ul*/ );
+  so = (struct fusemod_so *)return_value_calloc_1;
   unsigned long int module_len;
   char *symbol;
-  void *return_value_malloc$3;
+  void *return_value_malloc_3;
   struct fuse_module *module;
-  void *return_value_dlsym$4;
+  void *return_value_dlsym_4;
   if(so == ((struct fusemod_so *)NULL))
   {
     fprintf(stderr, "fuse: memory allocation failed\n");
@@ -17875,16 +17875,16 @@ static signed int fuse_load_so_name(const char *soname, const char *module_name)
     so->handle=dlopen(soname, 0x00002);
     if(so->handle == NULL)
     {
-      char *return_value_dlerror$2;
-      return_value_dlerror$2=dlerror();
-      fprintf(stderr, "fuse: dlopen() failed: %s\n", return_value_dlerror$2);
+      char *return_value_dlerror_2;
+      return_value_dlerror_2=dlerror();
+      fprintf(stderr, "fuse: dlopen() failed: %s\n", return_value_dlerror_2);
       ret = -1;
       goto freeso_end;
     }
 
     module_len=strlen(module_name);
-    return_value_malloc$3=malloc((unsigned long int)64 + module_len);
-    symbol = (char *)return_value_malloc$3;
+    return_value_malloc_3=malloc((unsigned long int)64 + module_len);
+    symbol = (char *)return_value_malloc_3;
     if(symbol == ((char *)NULL))
     {
       perror("fuse");
@@ -17894,8 +17894,8 @@ static signed int fuse_load_so_name(const char *soname, const char *module_name)
     else
     {
       sprintf(symbol, "fuse_fusemod_%s_module", module_name);
-      return_value_dlsym$4=dlsym(so->handle, symbol);
-      module = (struct fuse_module *)return_value_dlsym$4;
+      return_value_dlsym_4=dlsym(so->handle, symbol);
+      module = (struct fuse_module *)return_value_dlsym_4;
       if(!(module == ((struct fuse_module *)NULL)))
         fuse_register_module(module);
 
@@ -17916,13 +17916,13 @@ static signed int fuse_load_so_name(const char *soname, const char *module_name)
     ;
     if(!(ret == 0))
     {
-      signed int return_value_dlclose$6;
-      return_value_dlclose$6=dlclose(so->handle);
-      if(!(return_value_dlclose$6 == 0))
+      signed int return_value_dlclose_6;
+      return_value_dlclose_6=dlclose(so->handle);
+      if(!(return_value_dlclose_6 == 0))
       {
-        char *return_value_dlerror$5;
-        return_value_dlerror$5=dlerror();
-        fprintf(stderr, "fuse: dlclose() failed: %s\n", return_value_dlerror$5);
+        char *return_value_dlerror_5;
+        return_value_dlerror_5=dlerror();
+        fprintf(stderr, "fuse: dlclose() failed: %s\n", return_value_dlerror_5);
       }
 
     }
@@ -17963,25 +17963,25 @@ static signed int fuse_lock_common(struct fuse_req *req, unsigned long int ino, 
 // file fuse.c line 4349
 signed int fuse_loop(struct fuse *f)
 {
-  signed int return_value_fuse_session_loop_remember$1;
+  signed int return_value_fuse_session_loop_remember_1;
   if(f == ((struct fuse *)NULL))
     return -1;
 
   else
   {
-    signed int return_value_lru_enabled$2;
-    return_value_lru_enabled$2=lru_enabled(f);
-    if(!(return_value_lru_enabled$2 == 0))
+    signed int return_value_lru_enabled_2;
+    return_value_lru_enabled_2=lru_enabled(f);
+    if(!(return_value_lru_enabled_2 == 0))
     {
-      return_value_fuse_session_loop_remember$1=fuse_session_loop_remember(f);
-      return return_value_fuse_session_loop_remember$1;
+      return_value_fuse_session_loop_remember_1=fuse_session_loop_remember(f);
+      return return_value_fuse_session_loop_remember_1;
     }
 
     else
     {
-      signed int return_value_fuse_session_loop$3;
-      return_value_fuse_session_loop$3=fuse_session_loop(f->se);
-      return return_value_fuse_session_loop$3;
+      signed int return_value_fuse_session_loop_3;
+      return_value_fuse_session_loop_3=fuse_session_loop(f->se);
+      return return_value_fuse_session_loop_3;
     }
   }
 }
@@ -18002,9 +18002,9 @@ signed int fuse_loop_mt(struct fuse *f)
 
     else
     {
-      struct fuse_session *return_value_fuse_get_session$1;
-      return_value_fuse_get_session$1=fuse_get_session(f);
-      res=fuse_session_loop_mt(return_value_fuse_get_session$1);
+      struct fuse_session *return_value_fuse_get_session_1;
+      return_value_fuse_get_session_1=fuse_get_session(f);
+      res=fuse_session_loop_mt(return_value_fuse_get_session_1);
       fuse_stop_cleanup_thread(f);
       return res;
     }
@@ -18037,9 +18037,9 @@ signed int fuse_loop_mt_proc(struct fuse *f, void (*proc)(struct fuse *, struct 
 
   else
   {
-    signed int return_value_fuse_chan_fd$1;
-    return_value_fuse_chan_fd$1=fuse_chan_fd(prevch);
-    ch=fuse_chan_new(&cop, return_value_fuse_chan_fd$1, sizeof(struct fuse_cmd *) /*8ul*/ , (void *)&pd);
+    signed int return_value_fuse_chan_fd_1;
+    return_value_fuse_chan_fd_1=fuse_chan_fd(prevch);
+    ch=fuse_chan_new(&cop, return_value_fuse_chan_fd_1, sizeof(struct fuse_cmd *) /*8ul*/ , (void *)&pd);
     if(ch == ((struct fuse_chan *)NULL))
     {
       fuse_session_destroy(se);
@@ -18062,9 +18062,9 @@ static signed int fuse_loop_start_thread(struct fuse_mt *mt)
 {
   signed int res;
   struct fuse_worker *w;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct fuse_worker) /*48ul*/ );
-  w = (struct fuse_worker *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct fuse_worker) /*48ul*/ );
+  w = (struct fuse_worker *)return_value_malloc_1;
   if(w == ((struct fuse_worker *)NULL))
   {
     fprintf(stderr, "fuse: failed to allocate worker structure\n");
@@ -18075,9 +18075,9 @@ static signed int fuse_loop_start_thread(struct fuse_mt *mt)
   {
     memset((void *)w, 0, sizeof(struct fuse_worker) /*48ul*/ );
     w->bufsize=fuse_chan_bufsize(mt->prevch);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(w->bufsize);
-    w->buf = (char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(w->bufsize);
+    w->buf = (char *)return_value_malloc_2;
     w->mt = mt;
     if(w->buf == ((char *)NULL))
     {
@@ -18111,18 +18111,18 @@ static signed int fuse_loop_start_thread(struct fuse_mt *mt)
 // file ../include/fuse_lowlevel.h line 1508
 signed int fuse_lowlevel_is_lib_option(const char *opt)
 {
-  signed int return_value_fuse_opt_match$1;
-  return_value_fuse_opt_match$1=fuse_opt_match(fuse_ll_opts, opt);
-  return return_value_fuse_opt_match$1;
+  signed int return_value_fuse_opt_match_1;
+  return_value_fuse_opt_match_1=fuse_opt_match(fuse_ll_opts, opt);
+  return return_value_fuse_opt_match_1;
 }
 
 // fuse_lowlevel_new
 // file fuse_lowlevel.c line 2769
 struct fuse_session * fuse_lowlevel_new(struct fuse_args *args, struct fuse_lowlevel_ops *op, unsigned long int op_size, void *userdata)
 {
-  struct fuse_session *return_value_fuse_lowlevel_new_common$1;
-  return_value_fuse_lowlevel_new_common$1=fuse_lowlevel_new_common(args, op, op_size, userdata);
-  return return_value_fuse_lowlevel_new_common$1;
+  struct fuse_session *return_value_fuse_lowlevel_new_common_1;
+  return_value_fuse_lowlevel_new_common_1=fuse_lowlevel_new_common(args, op, op_size, userdata);
+  return return_value_fuse_lowlevel_new_common_1;
 }
 
 // fuse_lowlevel_new_common
@@ -18140,10 +18140,10 @@ struct fuse_session * fuse_lowlevel_new_common(struct fuse_args *args, struct fu
     op_size = sizeof(struct fuse_lowlevel_ops) /*328ul*/ ;
   }
 
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct fuse_ll) /*888ul*/ );
-  f = (struct fuse_ll *)return_value_calloc$1;
-  signed int return_value_fuse_opt_parse$3;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct fuse_ll) /*888ul*/ );
+  f = (struct fuse_ll *)return_value_calloc_1;
+  signed int return_value_fuse_opt_parse_3;
   if(f == ((struct fuse_ll *)NULL))
     fprintf(stderr, "fuse: failed to allocate fuse object\n");
 
@@ -18157,18 +18157,18 @@ struct fuse_session * fuse_lowlevel_new_common(struct fuse_args *args, struct fu
     list_init_req(&f->interrupts);
     list_init_nreq(&f->notify_list);
     f->notify_ctr = (unsigned long int)1;
-    pthread_mutex_init(&f->lock, (const union anonymous$7 *)(void *)0);
+    pthread_mutex_init(&f->lock, (const union anonymous_7 *)(void *)0);
     err=pthread_key_create(&f->pipe_key, fuse_ll_pipe_destructor);
     if(!(err == 0))
     {
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(err);
-      fprintf(stderr, "fuse: failed to create thread specific key: %s\n", return_value_strerror$2);
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(err);
+      fprintf(stderr, "fuse: failed to create thread specific key: %s\n", return_value_strerror_2);
       goto out_free;
     }
 
-    return_value_fuse_opt_parse$3=fuse_opt_parse(args, (void *)f, fuse_ll_opts, fuse_ll_opt_proc);
-    if(!(return_value_fuse_opt_parse$3 == -1))
+    return_value_fuse_opt_parse_3=fuse_opt_parse(args, (void *)f, fuse_ll_opts, fuse_ll_opt_proc);
+    if(!(return_value_fuse_opt_parse_3 == -1))
     {
       if(!(f->debug == 0))
         fprintf(stderr, "FUSE library version: %s\n", (const void *)"2.9.5");
@@ -18208,31 +18208,31 @@ struct fuse_session * fuse_lowlevel_new_compat(const char *opts, struct fuse_low
 {
   struct fuse_session *se;
   struct fuse_args args = { .argc=0, .argv=(char **)(void *)0, .allocated=0 };
-  signed int return_value_fuse_opt_add_arg$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_fuse_opt_add_arg$2;
-  _Bool tmp_if_expr$5;
-  signed int return_value_fuse_opt_add_arg$4;
+  signed int return_value_fuse_opt_add_arg_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_fuse_opt_add_arg_2;
+  _Bool tmp_if_expr_5;
+  signed int return_value_fuse_opt_add_arg_4;
   if(!(opts == ((const char *)NULL)))
   {
-    return_value_fuse_opt_add_arg$1=fuse_opt_add_arg(&args, "");
-    if(return_value_fuse_opt_add_arg$1 == -1)
-      tmp_if_expr$3 = (_Bool)1;
+    return_value_fuse_opt_add_arg_1=fuse_opt_add_arg(&args, "");
+    if(return_value_fuse_opt_add_arg_1 == -1)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_fuse_opt_add_arg$2=fuse_opt_add_arg(&args, "-o");
-      tmp_if_expr$3 = return_value_fuse_opt_add_arg$2 == -1 ? (_Bool)1 : (_Bool)0;
+      return_value_fuse_opt_add_arg_2=fuse_opt_add_arg(&args, "-o");
+      tmp_if_expr_3 = return_value_fuse_opt_add_arg_2 == -1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
-      tmp_if_expr$5 = (_Bool)1;
+    if(tmp_if_expr_3)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_fuse_opt_add_arg$4=fuse_opt_add_arg(&args, opts);
-      tmp_if_expr$5 = return_value_fuse_opt_add_arg$4 == -1 ? (_Bool)1 : (_Bool)0;
+      return_value_fuse_opt_add_arg_4=fuse_opt_add_arg(&args, opts);
+      tmp_if_expr_5 = return_value_fuse_opt_add_arg_4 == -1 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$5)
+    if(!tmp_if_expr_5)
       goto __CPROVER_DUMP_L5;
 
     fuse_opt_free_args(&args);
@@ -18254,16 +18254,16 @@ struct fuse_session * fuse_lowlevel_new_compat(const char *opts, struct fuse_low
 // file fuse_lowlevel.c line 2957
 struct fuse_session * fuse_lowlevel_new_compat25(struct fuse_args *args, struct fuse_lowlevel_ops_compat25 *op, unsigned long int op_size, void *userdata)
 {
-  signed int return_value_fuse_sync_compat_args$1;
-  return_value_fuse_sync_compat_args$1=fuse_sync_compat_args(args);
-  if(return_value_fuse_sync_compat_args$1 == -1)
+  signed int return_value_fuse_sync_compat_args_1;
+  return_value_fuse_sync_compat_args_1=fuse_sync_compat_args(args);
+  if(return_value_fuse_sync_compat_args_1 == -1)
     return (struct fuse_session *)(void *)0;
 
   else
   {
-    struct fuse_session *return_value_fuse_lowlevel_new_common$2;
-    return_value_fuse_lowlevel_new_common$2=fuse_lowlevel_new_common(args, (struct fuse_lowlevel_ops *)op, op_size, userdata);
-    return return_value_fuse_lowlevel_new_common$2;
+    struct fuse_session *return_value_fuse_lowlevel_new_common_2;
+    return_value_fuse_lowlevel_new_common_2=fuse_lowlevel_new_common(args, (struct fuse_lowlevel_ops *)op, op_size, userdata);
+    return return_value_fuse_lowlevel_new_common_2;
   }
 }
 
@@ -18279,11 +18279,11 @@ signed int fuse_lowlevel_notify_delete(struct fuse_chan *ch, unsigned long int p
 
   else
   {
-    struct fuse_session *return_value_fuse_chan_session$1;
-    return_value_fuse_chan_session$1=fuse_chan_session(ch);
-    void *return_value_fuse_session_data$2;
-    return_value_fuse_session_data$2=fuse_session_data(return_value_fuse_chan_session$1);
-    f = (struct fuse_ll *)return_value_fuse_session_data$2;
+    struct fuse_session *return_value_fuse_chan_session_1;
+    return_value_fuse_chan_session_1=fuse_chan_session(ch);
+    void *return_value_fuse_session_data_2;
+    return_value_fuse_session_data_2=fuse_session_data(return_value_fuse_chan_session_1);
+    f = (struct fuse_ll *)return_value_fuse_session_data_2;
     if(f == ((struct fuse_ll *)NULL))
       return -19;
 
@@ -18301,9 +18301,9 @@ signed int fuse_lowlevel_notify_delete(struct fuse_chan *ch, unsigned long int p
         iov[(signed long int)1].iov_len = sizeof(struct fuse_notify_delete_out) /*24ul*/ ;
         iov[(signed long int)2].iov_base = (void *)name;
         iov[(signed long int)2].iov_len = namelen + (unsigned long int)1;
-        signed int return_value_send_notify_iov$3;
-        return_value_send_notify_iov$3=send_notify_iov(f, ch, 6, iov, 3);
-        return return_value_send_notify_iov$3;
+        signed int return_value_send_notify_iov_3;
+        return_value_send_notify_iov_3=send_notify_iov(f, ch, 6, iov, 3);
+        return return_value_send_notify_iov_3;
       }
   }
 }
@@ -18320,11 +18320,11 @@ signed int fuse_lowlevel_notify_inval_entry(struct fuse_chan *ch, unsigned long 
 
   else
   {
-    struct fuse_session *return_value_fuse_chan_session$1;
-    return_value_fuse_chan_session$1=fuse_chan_session(ch);
-    void *return_value_fuse_session_data$2;
-    return_value_fuse_session_data$2=fuse_session_data(return_value_fuse_chan_session$1);
-    f = (struct fuse_ll *)return_value_fuse_session_data$2;
+    struct fuse_session *return_value_fuse_chan_session_1;
+    return_value_fuse_chan_session_1=fuse_chan_session(ch);
+    void *return_value_fuse_session_data_2;
+    return_value_fuse_session_data_2=fuse_session_data(return_value_fuse_chan_session_1);
+    f = (struct fuse_ll *)return_value_fuse_session_data_2;
     if(f == ((struct fuse_ll *)NULL))
       return -19;
 
@@ -18337,9 +18337,9 @@ signed int fuse_lowlevel_notify_inval_entry(struct fuse_chan *ch, unsigned long 
       iov[(signed long int)1].iov_len = sizeof(struct fuse_notify_inval_entry_out) /*16ul*/ ;
       iov[(signed long int)2].iov_base = (void *)name;
       iov[(signed long int)2].iov_len = namelen + (unsigned long int)1;
-      signed int return_value_send_notify_iov$3;
-      return_value_send_notify_iov$3=send_notify_iov(f, ch, 3, iov, 3);
-      return return_value_send_notify_iov$3;
+      signed int return_value_send_notify_iov_3;
+      return_value_send_notify_iov_3=send_notify_iov(f, ch, 3, iov, 3);
+      return return_value_send_notify_iov_3;
     }
   }
 }
@@ -18356,11 +18356,11 @@ signed int fuse_lowlevel_notify_inval_inode(struct fuse_chan *ch, unsigned long 
 
   else
   {
-    struct fuse_session *return_value_fuse_chan_session$1;
-    return_value_fuse_chan_session$1=fuse_chan_session(ch);
-    void *return_value_fuse_session_data$2;
-    return_value_fuse_session_data$2=fuse_session_data(return_value_fuse_chan_session$1);
-    f = (struct fuse_ll *)return_value_fuse_session_data$2;
+    struct fuse_session *return_value_fuse_chan_session_1;
+    return_value_fuse_chan_session_1=fuse_chan_session(ch);
+    void *return_value_fuse_session_data_2;
+    return_value_fuse_session_data_2=fuse_session_data(return_value_fuse_chan_session_1);
+    f = (struct fuse_ll *)return_value_fuse_session_data_2;
     if(f == ((struct fuse_ll *)NULL))
       return -19;
 
@@ -18371,9 +18371,9 @@ signed int fuse_lowlevel_notify_inval_inode(struct fuse_chan *ch, unsigned long 
       outarg.len = len;
       iov[(signed long int)1].iov_base = (void *)&outarg;
       iov[(signed long int)1].iov_len = sizeof(struct fuse_notify_inval_inode_out) /*24ul*/ ;
-      signed int return_value_send_notify_iov$3;
-      return_value_send_notify_iov$3=send_notify_iov(f, ch, 2, iov, 2);
-      return return_value_send_notify_iov$3;
+      signed int return_value_send_notify_iov_3;
+      return_value_send_notify_iov_3=send_notify_iov(f, ch, 2, iov, 2);
+      return return_value_send_notify_iov_3;
     }
   }
 }
@@ -18389,9 +18389,9 @@ signed int fuse_lowlevel_notify_poll(struct fuse_pollhandle *ph)
     outarg.kh = ph->kh;
     iov[(signed long int)1].iov_base = (void *)&outarg;
     iov[(signed long int)1].iov_len = sizeof(struct fuse_notify_poll_wakeup_out) /*8ul*/ ;
-    signed int return_value_send_notify_iov$1;
-    return_value_send_notify_iov$1=send_notify_iov(ph->f, ph->ch, 1, iov, 2);
-    return return_value_send_notify_iov$1;
+    signed int return_value_send_notify_iov_1;
+    return_value_send_notify_iov_1=send_notify_iov(ph->f, ph->ch, 1, iov, 2);
+    return return_value_send_notify_iov_1;
   }
 
   else
@@ -18407,17 +18407,17 @@ signed int fuse_lowlevel_notify_retrieve(struct fuse_chan *ch, unsigned long int
   struct iovec iov[2l];
   struct fuse_retrieve_req *rreq;
   signed int err;
-  unsigned long int tmp_post$4;
+  unsigned long int tmp_post_4;
   if(ch == ((struct fuse_chan *)NULL))
     return -22;
 
   else
   {
-    struct fuse_session *return_value_fuse_chan_session$1;
-    return_value_fuse_chan_session$1=fuse_chan_session(ch);
-    void *return_value_fuse_session_data$2;
-    return_value_fuse_session_data$2=fuse_session_data(return_value_fuse_chan_session$1);
-    f = (struct fuse_ll *)return_value_fuse_session_data$2;
+    struct fuse_session *return_value_fuse_chan_session_1;
+    return_value_fuse_chan_session_1=fuse_chan_session(ch);
+    void *return_value_fuse_session_data_2;
+    return_value_fuse_session_data_2=fuse_session_data(return_value_fuse_chan_session_1);
+    f = (struct fuse_ll *)return_value_fuse_session_data_2;
     if(f == ((struct fuse_ll *)NULL))
       return -19;
 
@@ -18427,9 +18427,9 @@ signed int fuse_lowlevel_notify_retrieve(struct fuse_chan *ch, unsigned long int
 
       else
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct fuse_retrieve_req) /*40ul*/ );
-        rreq = (struct fuse_retrieve_req *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct fuse_retrieve_req) /*40ul*/ );
+        rreq = (struct fuse_retrieve_req *)return_value_malloc_3;
         if(rreq == ((struct fuse_retrieve_req *)NULL))
           return -12;
 
@@ -18437,9 +18437,9 @@ signed int fuse_lowlevel_notify_retrieve(struct fuse_chan *ch, unsigned long int
         {
           pthread_mutex_lock(&f->lock);
           rreq->cookie = cookie;
-          tmp_post$4 = f->notify_ctr;
+          tmp_post_4 = f->notify_ctr;
           f->notify_ctr = f->notify_ctr + 1ul;
-          rreq->nreq.unique = tmp_post$4;
+          rreq->nreq.unique = tmp_post_4;
           rreq->nreq.reply = fuse_ll_retrieve_reply;
           list_add_nreq(&rreq->nreq, &f->notify_list);
           pthread_mutex_unlock(&f->lock);
@@ -18480,11 +18480,11 @@ signed int fuse_lowlevel_notify_store(struct fuse_chan *ch, unsigned long int in
 
   else
   {
-    struct fuse_session *return_value_fuse_chan_session$1;
-    return_value_fuse_chan_session$1=fuse_chan_session(ch);
-    void *return_value_fuse_session_data$2;
-    return_value_fuse_session_data$2=fuse_session_data(return_value_fuse_chan_session$1);
-    f = (struct fuse_ll *)return_value_fuse_session_data$2;
+    struct fuse_session *return_value_fuse_chan_session_1;
+    return_value_fuse_chan_session_1=fuse_chan_session(ch);
+    void *return_value_fuse_session_data_2;
+    return_value_fuse_session_data_2=fuse_session_data(return_value_fuse_chan_session_1);
+    f = (struct fuse_ll *)return_value_fuse_session_data_2;
     if(f == ((struct fuse_ll *)NULL))
       return -19;
 
@@ -18560,52 +18560,52 @@ void fuse_main_compat1(signed int argc, char **argv, struct fuse_operations_comp
 // file helper.c line 424
 signed int fuse_main_compat2(signed int argc, char **argv, struct fuse_operations_compat2 *op)
 {
-  signed int return_value_fuse_main_common$1;
-  return_value_fuse_main_common$1=fuse_main_common(argc, argv, (struct fuse_operations *)op, sizeof(struct fuse_operations_compat2) /*200ul*/ , (void *)0, 21);
-  return return_value_fuse_main_common$1;
+  signed int return_value_fuse_main_common_1;
+  return_value_fuse_main_common_1=fuse_main_common(argc, argv, (struct fuse_operations *)op, sizeof(struct fuse_operations_compat2) /*200ul*/ , (void *)0, 21);
+  return return_value_fuse_main_common_1;
 }
 
 // fuse_main_real
 // file helper.c line 366
 signed int fuse_main_real(signed int argc, char **argv, struct fuse_operations *op, unsigned long int op_size, void *user_data)
 {
-  signed int return_value_fuse_main_common$1;
-  return_value_fuse_main_common$1=fuse_main_common(argc, argv, op, op_size, user_data, 0);
-  return return_value_fuse_main_common$1;
+  signed int return_value_fuse_main_common_1;
+  return_value_fuse_main_common_1=fuse_main_common(argc, argv, op, op_size, user_data, 0);
+  return return_value_fuse_main_common_1;
 }
 
 // fuse_main_real_compat22
 // file helper.c line 409
 signed int fuse_main_real_compat22(signed int argc, char **argv, struct fuse_operations_compat22 *op, unsigned long int op_size)
 {
-  signed int return_value_fuse_main_common$1;
-  return_value_fuse_main_common$1=fuse_main_common(argc, argv, (struct fuse_operations *)op, op_size, (void *)0, 22);
-  return return_value_fuse_main_common$1;
+  signed int return_value_fuse_main_common_1;
+  return_value_fuse_main_common_1=fuse_main_common(argc, argv, (struct fuse_operations *)op, op_size, (void *)0, 22);
+  return return_value_fuse_main_common_1;
 }
 
 // fuse_main_real_compat25
 // file helper.c line 458
 signed int fuse_main_real_compat25(signed int argc, char **argv, struct fuse_operations_compat25 *op, unsigned long int op_size)
 {
-  signed int return_value_fuse_main_common$1;
-  return_value_fuse_main_common$1=fuse_main_common(argc, argv, (struct fuse_operations *)op, op_size, (void *)0, 25);
-  return return_value_fuse_main_common$1;
+  signed int return_value_fuse_main_common_1;
+  return_value_fuse_main_common_1=fuse_main_common(argc, argv, (struct fuse_operations *)op, op_size, (void *)0, 25);
+  return return_value_fuse_main_common_1;
 }
 
 // fuse_mnt_add_mount
 // file mount_util.h line 11
 signed int fuse_mnt_add_mount(const char *progname, const char *fsname, const char *mnt, const char *type, const char *opts)
 {
-  signed int return_value_mtab_needs_update$1;
-  return_value_mtab_needs_update$1=mtab_needs_update(mnt);
-  if(return_value_mtab_needs_update$1 == 0)
+  signed int return_value_mtab_needs_update_1;
+  return_value_mtab_needs_update_1=mtab_needs_update(mnt);
+  if(return_value_mtab_needs_update_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_add_mount$2;
-    return_value_add_mount$2=add_mount(progname, fsname, mnt, type, opts);
-    return return_value_add_mount$2;
+    signed int return_value_add_mount_2;
+    return_value_add_mount_2=add_mount(progname, fsname, mnt, type, opts);
+    return return_value_add_mount_2;
   }
 }
 
@@ -18614,7 +18614,7 @@ signed int fuse_mnt_add_mount(const char *progname, const char *fsname, const ch
 signed int fuse_mnt_check_empty(const char *progname, const char *mnt, unsigned int rootmode, signed long int rootsize)
 {
   signed int isempty = 1;
-  signed int return_value_strcmp$3;
+  signed int return_value_strcmp_3;
   if((61440u & rootmode) == 16384u)
   {
     struct dirent *ent;
@@ -18622,11 +18622,11 @@ signed int fuse_mnt_check_empty(const char *progname, const char *mnt, unsigned 
     dp=opendir(mnt);
     if(dp == ((struct __dirstream *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fprintf(stderr, "%s: failed to open mountpoint for reading: %s\n", progname, return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fprintf(stderr, "%s: failed to open mountpoint for reading: %s\n", progname, return_value_strerror_2);
       return -1;
     }
 
@@ -18636,12 +18636,12 @@ signed int fuse_mnt_check_empty(const char *progname, const char *mnt, unsigned 
       if(ent == ((struct dirent *)NULL))
         break;
 
-      signed int return_value_strcmp$4;
-      return_value_strcmp$4=strcmp(ent->d_name, ".");
-      if(!(return_value_strcmp$4 == 0))
+      signed int return_value_strcmp_4;
+      return_value_strcmp_4=strcmp(ent->d_name, ".");
+      if(!(return_value_strcmp_4 == 0))
       {
-        return_value_strcmp$3=strcmp(ent->d_name, "..");
-        if(!(return_value_strcmp$3 == 0))
+        return_value_strcmp_3=strcmp(ent->d_name, "..");
+        if(!(return_value_strcmp_3 == 0))
         {
           isempty = 0;
           break;
@@ -18676,8 +18676,8 @@ signed int fuse_mnt_check_fuseblk(void)
   char buf[256l];
   struct _IO_FILE *f;
   f=fopen("/proc/filesystems", "r");
-  char *return_value_fgets$1;
-  char *return_value_strstr$2;
+  char *return_value_fgets_1;
+  char *return_value_strstr_2;
   if(f == ((struct _IO_FILE *)NULL))
     return 1;
 
@@ -18685,12 +18685,12 @@ signed int fuse_mnt_check_fuseblk(void)
   {
     do
     {
-      return_value_fgets$1=fgets(buf, (signed int)sizeof(char [256l]) /*256ul*/ , f);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(buf, (signed int)sizeof(char [256l]) /*256ul*/ , f);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
-      return_value_strstr$2=strstr(buf, "fuseblk\n");
-      if(!(return_value_strstr$2 == ((char *)NULL)))
+      return_value_strstr_2=strstr(buf, "fuseblk\n");
+      if(!(return_value_strstr_2 == ((char *)NULL)))
       {
         fclose(f);
         return 1;
@@ -18707,16 +18707,16 @@ signed int fuse_mnt_check_fuseblk(void)
 // file mount_util.c line 240
 signed int fuse_mnt_remove_mount(const char *progname, const char *mnt)
 {
-  signed int return_value_mtab_needs_update$1;
-  return_value_mtab_needs_update$1=mtab_needs_update(mnt);
-  if(return_value_mtab_needs_update$1 == 0)
+  signed int return_value_mtab_needs_update_1;
+  return_value_mtab_needs_update_1=mtab_needs_update(mnt);
+  if(return_value_mtab_needs_update_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_remove_mount$2;
-    return_value_remove_mount$2=remove_mount(progname, mnt);
-    return return_value_remove_mount$2;
+    signed int return_value_remove_mount_2;
+    return_value_remove_mount_2=remove_mount(progname, mnt);
+    return return_value_remove_mount_2;
   }
 }
 
@@ -18730,10 +18730,10 @@ char * fuse_mnt_resolve_path(const char *progname, const char *orig)
   char *end;
   char *lastcomp;
   const char *toresolv;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcmp$4;
-  _Bool tmp_if_expr$13;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcmp_4;
+  _Bool tmp_if_expr_13;
   if(*orig == 0)
   {
     fprintf(stderr, "%s: invalid mountpoint '%s'\n", progname, orig);
@@ -18753,17 +18753,17 @@ char * fuse_mnt_resolve_path(const char *progname, const char *orig)
     {
       toresolv = copy;
       lastcomp = (char *)(void *)0;
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(copy);
-      end = (copy + (signed long int)return_value_strlen$1) - (signed long int)1;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(copy);
+      end = (copy + (signed long int)return_value_strlen_1) - (signed long int)1;
       do
       {
         if(!(copy >= end))
-          tmp_if_expr$2 = (signed int)*end == 47 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)*end == 47 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(!tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(!tmp_if_expr_2)
           break;
 
         end = end - 1l;
@@ -18787,17 +18787,17 @@ char * fuse_mnt_resolve_path(const char *progname, const char *orig)
             toresolv = "/";
 
         }
-        signed int return_value_strcmp$3;
-        return_value_strcmp$3=strcmp(lastcomp, ".");
-        if(return_value_strcmp$3 == 0)
-          tmp_if_expr$5 = (_Bool)1;
+        signed int return_value_strcmp_3;
+        return_value_strcmp_3=strcmp(lastcomp, ".");
+        if(return_value_strcmp_3 == 0)
+          tmp_if_expr_5 = (_Bool)1;
 
         else
         {
-          return_value_strcmp$4=strcmp(lastcomp, "..");
-          tmp_if_expr$5 = return_value_strcmp$4 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_4=strcmp(lastcomp, "..");
+          tmp_if_expr_5 = return_value_strcmp_4 == 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$5)
+        if(tmp_if_expr_5)
         {
           lastcomp = (char *)(void *)0;
           toresolv = copy;
@@ -18809,15 +18809,15 @@ char * fuse_mnt_resolve_path(const char *progname, const char *orig)
 
       }
 
-      char *return_value_realpath$8;
-      return_value_realpath$8=realpath(toresolv, buf);
-      if(return_value_realpath$8 == ((char *)NULL))
+      char *return_value_realpath_8;
+      return_value_realpath_8=realpath(toresolv, buf);
+      if(return_value_realpath_8 == ((char *)NULL))
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        char *return_value_strerror$7;
-        return_value_strerror$7=strerror(*return_value___errno_location$6);
-        fprintf(stderr, "%s: bad mount point %s: %s\n", progname, orig, return_value_strerror$7);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        char *return_value_strerror_7;
+        return_value_strerror_7=strerror(*return_value___errno_location_6);
+        fprintf(stderr, "%s: bad mount point %s: %s\n", progname, orig, return_value_strerror_7);
         free((void *)copy);
         return (char *)(void *)0;
       }
@@ -18827,25 +18827,25 @@ char * fuse_mnt_resolve_path(const char *progname, const char *orig)
 
       else
       {
-        unsigned long int return_value_strlen$9;
-        return_value_strlen$9=strlen(buf);
-        unsigned long int return_value_strlen$10;
-        return_value_strlen$10=strlen(lastcomp);
-        void *return_value_malloc$11;
-        return_value_malloc$11=malloc(return_value_strlen$9 + (unsigned long int)1 + return_value_strlen$10 + (unsigned long int)1);
-        dst = (char *)return_value_malloc$11;
+        unsigned long int return_value_strlen_9;
+        return_value_strlen_9=strlen(buf);
+        unsigned long int return_value_strlen_10;
+        return_value_strlen_10=strlen(lastcomp);
+        void *return_value_malloc_11;
+        return_value_malloc_11=malloc(return_value_strlen_9 + (unsigned long int)1 + return_value_strlen_10 + (unsigned long int)1);
+        dst = (char *)return_value_malloc_11;
         if(!(dst == ((char *)NULL)))
         {
           unsigned int buflen;
-          unsigned long int return_value_strlen$12;
-          return_value_strlen$12=strlen(buf);
-          buflen = (unsigned int)return_value_strlen$12;
+          unsigned long int return_value_strlen_12;
+          return_value_strlen_12=strlen(buf);
+          buflen = (unsigned int)return_value_strlen_12;
           if(!(buflen == 0u))
-            tmp_if_expr$13 = (signed int)buf[(signed long int)(buflen - (unsigned int)1)] == 47 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_13 = (signed int)buf[(signed long int)(buflen - (unsigned int)1)] == 47 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$13 = (_Bool)0;
-          if(tmp_if_expr$13)
+            tmp_if_expr_13 = (_Bool)0;
+          if(tmp_if_expr_13)
             sprintf(dst, "%s%s", (const void *)buf, lastcomp);
 
           else
@@ -18867,35 +18867,35 @@ char * fuse_mnt_resolve_path(const char *progname, const char *orig)
 signed int fuse_mnt_umount(const char *progname, const char *abs_mnt, const char *rel_mnt, signed int lazy)
 {
   signed int res;
-  signed int return_value_mtab_needs_update$3;
-  return_value_mtab_needs_update$3=mtab_needs_update(abs_mnt);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  if(return_value_mtab_needs_update$3 == 0)
+  signed int return_value_mtab_needs_update_3;
+  return_value_mtab_needs_update_3=mtab_needs_update(abs_mnt);
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  if(return_value_mtab_needs_update_3 == 0)
   {
     res=umount2(rel_mnt, lazy != 0 ? 2 : 0);
     if(res == -1)
     {
-      return_value___errno_location$1=__errno_location();
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fprintf(stderr, "%s: failed to unmount %s: %s\n", progname, abs_mnt, return_value_strerror$2);
+      return_value___errno_location_1=__errno_location();
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fprintf(stderr, "%s: failed to unmount %s: %s\n", progname, abs_mnt, return_value_strerror_2);
     }
 
     return res;
   }
 
-  signed int return_value_exec_umount$4;
-  return_value_exec_umount$4=exec_umount(progname, rel_mnt, lazy);
-  return return_value_exec_umount$4;
+  signed int return_value_exec_umount_4;
+  return_value_exec_umount_4=exec_umount(progname, rel_mnt, lazy);
+  return return_value_exec_umount_4;
 }
 
 // fuse_mount
 // file helper.c line 245
 struct fuse_chan * fuse_mount(const char *mountpoint, struct fuse_args *args)
 {
-  struct fuse_chan *return_value_fuse_mount_common$1;
-  return_value_fuse_mount_common$1=fuse_mount_common(mountpoint, args);
-  return return_value_fuse_mount_common$1;
+  struct fuse_chan *return_value_fuse_mount_common_1;
+  return_value_fuse_mount_common_1=fuse_mount_common(mountpoint, args);
+  return return_value_fuse_mount_common_1;
 }
 
 // fuse_mount_common
@@ -18931,9 +18931,9 @@ static struct fuse_chan * fuse_mount_common(const char *mountpoint, struct fuse_
 signed int fuse_mount_compat1(const char *mountpoint, const char **args)
 {
   (void)args;
-  signed int return_value_fuse_mount_compat22$1;
-  return_value_fuse_mount_compat22$1=fuse_mount_compat22(mountpoint, (const char *)(void *)0);
-  return return_value_fuse_mount_compat22$1;
+  signed int return_value_fuse_mount_compat22_1;
+  return_value_fuse_mount_compat22_1=fuse_mount_compat22(mountpoint, (const char *)(void *)0);
+  return return_value_fuse_mount_compat22_1;
 }
 
 // fuse_mount_compat22
@@ -18943,18 +18943,18 @@ signed int fuse_mount_compat22(const char *mountpoint, const char *opts)
   struct mount_opts mo;
   memset((void *)&mo, 0, sizeof(struct mount_opts) /*80ul*/ );
   mo.flags = 2 | 4;
-  signed int return_value_fuse_mount_fusermount$1;
-  return_value_fuse_mount_fusermount$1=fuse_mount_fusermount(mountpoint, &mo, opts, 0);
-  return return_value_fuse_mount_fusermount$1;
+  signed int return_value_fuse_mount_fusermount_1;
+  return_value_fuse_mount_fusermount_1=fuse_mount_fusermount(mountpoint, &mo, opts, 0);
+  return return_value_fuse_mount_fusermount_1;
 }
 
 // fuse_mount_compat25
 // file helper.c line 472
 signed int fuse_mount_compat25(const char *mountpoint, struct fuse_args *args)
 {
-  signed int return_value_fuse_kern_mount$1;
-  return_value_fuse_kern_mount$1=fuse_kern_mount(mountpoint, args);
-  return return_value_fuse_kern_mount$1;
+  signed int return_value_fuse_kern_mount_1;
+  return_value_fuse_kern_mount_1=fuse_kern_mount(mountpoint, args);
+  return return_value_fuse_kern_mount_1;
 }
 
 // fuse_mount_fusermount
@@ -18965,12 +18965,12 @@ static signed int fuse_mount_fusermount(const char *mountpoint, struct mount_opt
   signed int pid;
   signed int res;
   signed int rv;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
-  signed int tmp_post$6;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
+  signed int tmp_post_6;
   if(mountpoint == ((const char *)NULL))
   {
     fprintf(stderr, "fuse: missing mountpoint parameter\n");
@@ -19016,28 +19016,28 @@ static signed int fuse_mount_fusermount(const char *mountpoint, struct mount_opt
 
           }
 
-          tmp_post$1 = a;
+          tmp_post_1 = a;
           a = a + 1;
-          argv[(signed long int)tmp_post$1] = "fusermount";
+          argv[(signed long int)tmp_post_1] = "fusermount";
           if(!(opts == ((const char *)NULL)))
           {
-            tmp_post$2 = a;
+            tmp_post_2 = a;
             a = a + 1;
-            argv[(signed long int)tmp_post$2] = "-o";
-            tmp_post$3 = a;
+            argv[(signed long int)tmp_post_2] = "-o";
+            tmp_post_3 = a;
             a = a + 1;
-            argv[(signed long int)tmp_post$3] = opts;
+            argv[(signed long int)tmp_post_3] = opts;
           }
 
-          tmp_post$4 = a;
+          tmp_post_4 = a;
           a = a + 1;
-          argv[(signed long int)tmp_post$4] = "--";
-          tmp_post$5 = a;
+          argv[(signed long int)tmp_post_4] = "--";
+          tmp_post_5 = a;
           a = a + 1;
-          argv[(signed long int)tmp_post$5] = mountpoint;
-          tmp_post$6 = a;
+          argv[(signed long int)tmp_post_5] = mountpoint;
+          tmp_post_6 = a;
           a = a + 1;
-          argv[(signed long int)tmp_post$6] = (const char *)(void *)0;
+          argv[(signed long int)tmp_post_6] = (const char *)(void *)0;
           close(fds[(signed long int)1]);
           fcntl(fds[(signed long int)0], 2, 0);
           snprintf(env, sizeof(char [10l]) /*10ul*/ , "%i", fds[(signed long int)0]);
@@ -19066,27 +19066,27 @@ static signed int fuse_mount_fusermount(const char *mountpoint, struct mount_opt
 static signed int fuse_mount_opt_proc(void *data, const char *arg, signed int key, struct fuse_args *outargs)
 {
   struct mount_opts *mo = (struct mount_opts *)data;
-  signed int return_value_fuse_opt_add_opt$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_fuse_opt_add_arg$2;
-  signed int return_value_fuse_opt_add_opt$4;
-  signed int return_value_fuse_opt_add_opt_escaped$5;
-  signed int return_value_fuse_opt_add_opt$6;
-  signed int return_value_fuse_opt_add_opt$7;
+  signed int return_value_fuse_opt_add_opt_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_fuse_opt_add_arg_2;
+  signed int return_value_fuse_opt_add_opt_4;
+  signed int return_value_fuse_opt_add_opt_escaped_5;
+  signed int return_value_fuse_opt_add_opt_6;
+  signed int return_value_fuse_opt_add_opt_7;
   switch(key)
   {
     case 5:
     {
-      return_value_fuse_opt_add_opt$1=fuse_opt_add_opt(&mo->kernel_opts, "allow_other");
-      if(return_value_fuse_opt_add_opt$1 == -1)
-        tmp_if_expr$3 = (_Bool)1;
+      return_value_fuse_opt_add_opt_1=fuse_opt_add_opt(&mo->kernel_opts, "allow_other");
+      if(return_value_fuse_opt_add_opt_1 == -1)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value_fuse_opt_add_arg$2=fuse_opt_add_arg(outargs, "-oallow_root");
-        tmp_if_expr$3 = return_value_fuse_opt_add_arg$2 == -1 ? (_Bool)1 : (_Bool)0;
+        return_value_fuse_opt_add_arg_2=fuse_opt_add_arg(outargs, "-oallow_root");
+        tmp_if_expr_3 = return_value_fuse_opt_add_arg_2 == -1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
         return -1;
 
       return 0;
@@ -19100,23 +19100,23 @@ static signed int fuse_mount_opt_proc(void *data, const char *arg, signed int ke
     }
     case 1:
     {
-      return_value_fuse_opt_add_opt$4=fuse_opt_add_opt(&mo->kernel_opts, arg);
-      return return_value_fuse_opt_add_opt$4;
+      return_value_fuse_opt_add_opt_4=fuse_opt_add_opt(&mo->kernel_opts, arg);
+      return return_value_fuse_opt_add_opt_4;
     }
     case 2:
     {
-      return_value_fuse_opt_add_opt_escaped$5=fuse_opt_add_opt_escaped(&mo->fusermount_opts, arg);
-      return return_value_fuse_opt_add_opt_escaped$5;
+      return_value_fuse_opt_add_opt_escaped_5=fuse_opt_add_opt_escaped(&mo->fusermount_opts, arg);
+      return return_value_fuse_opt_add_opt_escaped_5;
     }
     case 3:
     {
-      return_value_fuse_opt_add_opt$6=fuse_opt_add_opt(&mo->subtype_opt, arg);
-      return return_value_fuse_opt_add_opt$6;
+      return_value_fuse_opt_add_opt_6=fuse_opt_add_opt(&mo->subtype_opt, arg);
+      return return_value_fuse_opt_add_opt_6;
     }
     case 4:
     {
-      return_value_fuse_opt_add_opt$7=fuse_opt_add_opt(&mo->mtab_opts, arg);
-      return return_value_fuse_opt_add_opt$7;
+      return_value_fuse_opt_add_opt_7=fuse_opt_add_opt(&mo->mtab_opts, arg);
+      return return_value_fuse_opt_add_opt_7;
     }
     case 7:
     {
@@ -19150,28 +19150,28 @@ static signed int fuse_mount_sys(const char *mnt, struct mount_opts *mo, const c
   struct stat stbuf;
   signed int fd;
   signed int res;
-  _Bool tmp_if_expr$7;
-  signed int *return_value___errno_location$6;
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  unsigned long int tmp_if_expr$11;
-  unsigned long int return_value_strlen$10;
-  unsigned long int tmp_if_expr$13;
-  unsigned long int return_value_strlen$12;
-  unsigned long int return_value_strlen$14;
-  void *return_value_malloc$15;
-  unsigned long int tmp_if_expr$17;
-  unsigned long int return_value_strlen$16;
-  void *return_value_malloc$18;
-  char *tmp_if_expr$20;
-  char *tmp_if_expr$19;
-  signed int *return_value___errno_location$21;
-  _Bool tmp_if_expr$25;
-  signed int *return_value___errno_location$24;
-  _Bool tmp_if_expr$27;
-  signed int return_value_fuse_mnt_check_fuseblk$26;
-  char *return_value_strerror$23;
-  unsigned int return_value_geteuid$29;
+  _Bool tmp_if_expr_7;
+  signed int *return_value___errno_location_6;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  unsigned long int tmp_if_expr_11;
+  unsigned long int return_value_strlen_10;
+  unsigned long int tmp_if_expr_13;
+  unsigned long int return_value_strlen_12;
+  unsigned long int return_value_strlen_14;
+  void *return_value_malloc_15;
+  unsigned long int tmp_if_expr_17;
+  unsigned long int return_value_strlen_16;
+  void *return_value_malloc_18;
+  char *tmp_if_expr_20;
+  char *tmp_if_expr_19;
+  signed int *return_value___errno_location_21;
+  _Bool tmp_if_expr_25;
+  signed int *return_value___errno_location_24;
+  _Bool tmp_if_expr_27;
+  signed int return_value_fuse_mnt_check_fuseblk_26;
+  char *return_value_strerror_23;
+  unsigned int return_value_geteuid_29;
   if(mnt == ((const char *)NULL))
   {
     fprintf(stderr, "fuse: missing mountpoint parameter\n");
@@ -19183,11 +19183,11 @@ static signed int fuse_mount_sys(const char *mnt, struct mount_opts *mo, const c
     res=stat(mnt, &stbuf);
     if(res == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fprintf(stderr, "fuse: failed to access mountpoint %s: %s\n", mnt, return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fprintf(stderr, "fuse: failed to access mountpoint %s: %s\n", mnt, return_value_strerror_2);
       return -1;
     }
 
@@ -19213,65 +19213,65 @@ static signed int fuse_mount_sys(const char *mnt, struct mount_opts *mo, const c
         fd=open(devname, 02);
         if(fd == -1)
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          if(*return_value___errno_location$5 == 19)
-            tmp_if_expr$7 = (_Bool)1;
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          if(*return_value___errno_location_5 == 19)
+            tmp_if_expr_7 = (_Bool)1;
 
           else
           {
-            return_value___errno_location$6=__errno_location();
-            tmp_if_expr$7 = *return_value___errno_location$6 == 2 ? (_Bool)1 : (_Bool)0;
+            return_value___errno_location_6=__errno_location();
+            tmp_if_expr_7 = *return_value___errno_location_6 == 2 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$7)
+          if(tmp_if_expr_7)
             fprintf(stderr, "fuse: device not found, try 'modprobe fuse' first\n");
 
           else
           {
-            return_value___errno_location$3=__errno_location();
-            return_value_strerror$4=strerror(*return_value___errno_location$3);
-            fprintf(stderr, "fuse: failed to open %s: %s\n", devname, return_value_strerror$4);
+            return_value___errno_location_3=__errno_location();
+            return_value_strerror_4=strerror(*return_value___errno_location_3);
+            fprintf(stderr, "fuse: failed to open %s: %s\n", devname, return_value_strerror_4);
           }
           return -1;
         }
 
-        unsigned int return_value_getuid$8;
-        return_value_getuid$8=getuid();
-        unsigned int return_value_getgid$9;
-        return_value_getgid$9=getgid();
-        snprintf(tmp, sizeof(char [128l]) /*128ul*/ , "fd=%i,rootmode=%o,user_id=%u,group_id=%u", fd, stbuf.st_mode & (unsigned int)0170000, return_value_getuid$8, return_value_getgid$9);
+        unsigned int return_value_getuid_8;
+        return_value_getuid_8=getuid();
+        unsigned int return_value_getgid_9;
+        return_value_getgid_9=getgid();
+        snprintf(tmp, sizeof(char [128l]) /*128ul*/ , "fd=%i,rootmode=%o,user_id=%u,group_id=%u", fd, stbuf.st_mode & (unsigned int)0170000, return_value_getuid_8, return_value_getgid_9);
         res=fuse_opt_add_opt(&mo->kernel_opts, tmp);
         if(!(res == -1))
         {
           if(!(mo->fsname == ((char *)NULL)))
           {
-            return_value_strlen$10=strlen(mo->fsname);
-            tmp_if_expr$11 = return_value_strlen$10;
+            return_value_strlen_10=strlen(mo->fsname);
+            tmp_if_expr_11 = return_value_strlen_10;
           }
 
           else
-            tmp_if_expr$11 = (unsigned long int)0;
+            tmp_if_expr_11 = (unsigned long int)0;
           if(!(mo->subtype == ((char *)NULL)))
           {
-            return_value_strlen$12=strlen(mo->subtype);
-            tmp_if_expr$13 = return_value_strlen$12;
+            return_value_strlen_12=strlen(mo->subtype);
+            tmp_if_expr_13 = return_value_strlen_12;
           }
 
           else
-            tmp_if_expr$13 = (unsigned long int)0;
-          return_value_strlen$14=strlen(devname);
-          return_value_malloc$15=malloc(tmp_if_expr$11 + tmp_if_expr$13 + return_value_strlen$14 + (unsigned long int)32);
-          source = (char *)return_value_malloc$15;
+            tmp_if_expr_13 = (unsigned long int)0;
+          return_value_strlen_14=strlen(devname);
+          return_value_malloc_15=malloc(tmp_if_expr_11 + tmp_if_expr_13 + return_value_strlen_14 + (unsigned long int)32);
+          source = (char *)return_value_malloc_15;
           if(!(mo->subtype == ((char *)NULL)))
           {
-            return_value_strlen$16=strlen(mo->subtype);
-            tmp_if_expr$17 = return_value_strlen$16;
+            return_value_strlen_16=strlen(mo->subtype);
+            tmp_if_expr_17 = return_value_strlen_16;
           }
 
           else
-            tmp_if_expr$17 = (unsigned long int)0;
-          return_value_malloc$18=malloc(tmp_if_expr$17 + (unsigned long int)32);
-          type = (char *)return_value_malloc$18;
+            tmp_if_expr_17 = (unsigned long int)0;
+          return_value_malloc_18=malloc(tmp_if_expr_17 + (unsigned long int)32);
+          type = (char *)return_value_malloc_18;
           if(source == ((char *)NULL) || type == ((char *)NULL))
             fprintf(stderr, "fuse: failed to allocate memory\n");
 
@@ -19285,23 +19285,23 @@ static signed int fuse_mount_sys(const char *mnt, struct mount_opts *mo, const c
             }
 
             if(!(mo->fsname == ((char *)NULL)))
-              tmp_if_expr$20 = mo->fsname;
+              tmp_if_expr_20 = mo->fsname;
 
             else
             {
               if(!(mo->subtype == ((char *)NULL)))
-                tmp_if_expr$19 = mo->subtype;
+                tmp_if_expr_19 = mo->subtype;
 
               else
-                tmp_if_expr$19 = devname;
-              tmp_if_expr$20 = tmp_if_expr$19;
+                tmp_if_expr_19 = devname;
+              tmp_if_expr_20 = tmp_if_expr_19;
             }
-            strcpy(source, tmp_if_expr$20);
+            strcpy(source, tmp_if_expr_20);
             res=mount(source, mnt, type, (unsigned long int)mo->flags, (const void *)mo->kernel_opts);
             if(res == -1)
             {
-              return_value___errno_location$21=__errno_location();
-              if(*return_value___errno_location$21 == 19)
+              return_value___errno_location_21=__errno_location();
+              if(*return_value___errno_location_21 == 19)
               {
                 if(!(mo->subtype == ((char *)NULL)))
                 {
@@ -19324,47 +19324,47 @@ static signed int fuse_mount_sys(const char *mnt, struct mount_opts *mo, const c
 
             if(res == -1)
             {
-              signed int *return_value___errno_location$28;
-              return_value___errno_location$28=__errno_location();
-              if(*return_value___errno_location$28 == 1)
+              signed int *return_value___errno_location_28;
+              return_value___errno_location_28=__errno_location();
+              if(*return_value___errno_location_28 == 1)
                 res = -2;
 
               else
               {
                 signed int errno_save;
-                signed int *return_value___errno_location$22;
-                return_value___errno_location$22=__errno_location();
-                errno_save = *return_value___errno_location$22;
+                signed int *return_value___errno_location_22;
+                return_value___errno_location_22=__errno_location();
+                errno_save = *return_value___errno_location_22;
                 if(!(mo->blkdev == 0))
                 {
-                  return_value___errno_location$24=__errno_location();
-                  tmp_if_expr$25 = *return_value___errno_location$24 == 19 ? (_Bool)1 : (_Bool)0;
+                  return_value___errno_location_24=__errno_location();
+                  tmp_if_expr_25 = *return_value___errno_location_24 == 19 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$25 = (_Bool)0;
-                if(tmp_if_expr$25)
+                  tmp_if_expr_25 = (_Bool)0;
+                if(tmp_if_expr_25)
                 {
-                  return_value_fuse_mnt_check_fuseblk$26=fuse_mnt_check_fuseblk();
-                  tmp_if_expr$27 = !(return_value_fuse_mnt_check_fuseblk$26 != 0) ? (_Bool)1 : (_Bool)0;
+                  return_value_fuse_mnt_check_fuseblk_26=fuse_mnt_check_fuseblk();
+                  tmp_if_expr_27 = !(return_value_fuse_mnt_check_fuseblk_26 != 0) ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$27 = (_Bool)0;
-                if(tmp_if_expr$27)
+                  tmp_if_expr_27 = (_Bool)0;
+                if(tmp_if_expr_27)
                   fprintf(stderr, "fuse: 'fuseblk' support missing\n");
 
                 else
                 {
-                  return_value_strerror$23=strerror(errno_save);
-                  fprintf(stderr, "fuse: mount failed: %s\n", return_value_strerror$23);
+                  return_value_strerror_23=strerror(errno_save);
+                  fprintf(stderr, "fuse: mount failed: %s\n", return_value_strerror_23);
                 }
               }
               goto out_close;
             }
 
-            return_value_geteuid$29=geteuid();
-            if(return_value_geteuid$29 == 0u)
+            return_value_geteuid_29=geteuid();
+            if(return_value_geteuid_29 == 0u)
             {
               char *newmnt;
               newmnt=fuse_mnt_resolve_path("fuse", mnt);
@@ -19405,9 +19405,9 @@ static signed int fuse_mount_sys(const char *mnt, struct mount_opts *mo, const c
 // file fuse.c line 4797
 struct fuse * fuse_new(struct fuse_chan *ch, struct fuse_args *args, struct fuse_operations *op, unsigned long int op_size, void *user_data)
 {
-  struct fuse *return_value_fuse_new_common$1;
-  return_value_fuse_new_common$1=fuse_new_common(ch, args, op, op_size, user_data, 0);
-  return return_value_fuse_new_common$1;
+  struct fuse *return_value_fuse_new_common_1;
+  return_value_fuse_new_common_1=fuse_new_common(ch, args, op, op_size, user_data, 0);
+  return return_value_fuse_new_common_1;
 }
 
 // fuse_new_common
@@ -19426,20 +19426,20 @@ struct fuse * fuse_new_common(struct fuse_chan *ch, struct fuse_args *args, stru
     builtin_modules_registered_p = 1;
   }
 
-  signed int return_value_fuse_create_context_key$1;
-  return_value_fuse_create_context_key$1=fuse_create_context_key();
-  void *return_value_calloc$2;
-  signed int return_value_fuse_opt_parse$3;
-  _Bool tmp_if_expr$4;
-  signed int return_value_fuse_push_module$5;
-  signed int return_value_node_table_init$7;
-  signed int return_value_node_table_init$8;
-  signed int return_value_lru_enabled$9;
-  signed int return_value_fuse_init_intr_signal$10;
-  if(!(return_value_fuse_create_context_key$1 == -1))
+  signed int return_value_fuse_create_context_key_1;
+  return_value_fuse_create_context_key_1=fuse_create_context_key();
+  void *return_value_calloc_2;
+  signed int return_value_fuse_opt_parse_3;
+  _Bool tmp_if_expr_4;
+  signed int return_value_fuse_push_module_5;
+  signed int return_value_node_table_init_7;
+  signed int return_value_node_table_init_8;
+  signed int return_value_lru_enabled_9;
+  signed int return_value_fuse_init_intr_signal_10;
+  if(!(return_value_fuse_create_context_key_1 == -1))
   {
-    return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct fuse) /*344ul*/ );
-    f = (struct fuse *)return_value_calloc$2;
+    return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct fuse) /*344ul*/ );
+    f = (struct fuse *)return_value_calloc_2;
     if(f == ((struct fuse *)NULL))
       fprintf(stderr, "fuse: failed to allocate fuse object\n");
 
@@ -19467,8 +19467,8 @@ struct fuse * fuse_new_common(struct fuse_chan *ch, struct fuse_args *args, stru
         init_list_head(&f->partial_slabs);
         init_list_head(&f->full_slabs);
         init_list_head(&f->lru_table);
-        return_value_fuse_opt_parse$3=fuse_opt_parse(args, (void *)&f->conf, fuse_lib_opts, fuse_lib_opt_proc);
-        if(!(return_value_fuse_opt_parse$3 == -1))
+        return_value_fuse_opt_parse_3=fuse_opt_parse(args, (void *)&f->conf, fuse_lib_opts, fuse_lib_opt_proc);
+        if(!(return_value_fuse_opt_parse_3 == -1))
         {
           if(!(f->conf.modules == ((char *)NULL)))
           {
@@ -19481,11 +19481,11 @@ struct fuse * fuse_new_common(struct fuse_chan *ch, struct fuse_args *args, stru
               do
               {
                 if(!(*p == 0))
-                  tmp_if_expr$4 = (signed int)*p != 58 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_4 = (signed int)*p != 58 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$4 = (_Bool)0;
-                if(!tmp_if_expr$4)
+                  tmp_if_expr_4 = (_Bool)0;
+                if(!tmp_if_expr_4)
                   break;
 
                 p = p + 1l;
@@ -19495,8 +19495,8 @@ struct fuse * fuse_new_common(struct fuse_chan *ch, struct fuse_args *args, stru
               *p = (char)0;
               if(!(*module == 0))
               {
-                return_value_fuse_push_module$5=fuse_push_module(f, module, args);
-                if(return_value_fuse_push_module$5 == -1)
+                return_value_fuse_push_module_5=fuse_push_module(f, module, args);
+                if(return_value_fuse_push_module_5 == -1)
                   goto out_free_fs;
 
               }
@@ -19509,9 +19509,9 @@ struct fuse * fuse_new_common(struct fuse_chan *ch, struct fuse_args *args, stru
 
           if(!(compat == 0) && !(compat >= 26))
           {
-            signed int return_value_fuse_sync_compat_args$6;
-            return_value_fuse_sync_compat_args$6=fuse_sync_compat_args(args);
-            if(return_value_fuse_sync_compat_args$6 == -1)
+            signed int return_value_fuse_sync_compat_args_6;
+            return_value_fuse_sync_compat_args_6=fuse_sync_compat_args(args);
+            if(return_value_fuse_sync_compat_args_6 == -1)
               goto out_free_fs;
 
           }
@@ -19537,21 +19537,21 @@ struct fuse * fuse_new_common(struct fuse_chan *ch, struct fuse_args *args, stru
             f->fs->debug = f->conf.debug;
             f->ctr = (unsigned long int)0;
             f->generation = (unsigned int)0;
-            return_value_node_table_init$7=node_table_init(&f->name_table);
-            if(!(return_value_node_table_init$7 == -1))
+            return_value_node_table_init_7=node_table_init(&f->name_table);
+            if(!(return_value_node_table_init_7 == -1))
             {
-              return_value_node_table_init$8=node_table_init(&f->id_table);
-              if(!(return_value_node_table_init$8 == -1))
+              return_value_node_table_init_8=node_table_init(&f->id_table);
+              if(!(return_value_node_table_init_8 == -1))
               {
-                pthread_mutex_init(&f->lock, (const union anonymous$7 *)(void *)0);
+                pthread_mutex_init(&f->lock, (const union anonymous_7 *)(void *)0);
                 root=alloc_node(f);
                 if(root == ((struct node *)NULL))
                   fprintf(stderr, "fuse: memory allocation failed\n");
 
                 else
                 {
-                  return_value_lru_enabled$9=lru_enabled(f);
-                  if(!(return_value_lru_enabled$9 == 0))
+                  return_value_lru_enabled_9=lru_enabled(f);
+                  if(!(return_value_lru_enabled_9 == 0))
                   {
                     struct node_lru *lnode;
                     lnode=node_lru(root);
@@ -19562,8 +19562,8 @@ struct fuse * fuse_new_common(struct fuse_chan *ch, struct fuse_args *args, stru
                   root->name = root->inline_name;
                   if(!(f->conf.intr == 0))
                   {
-                    return_value_fuse_init_intr_signal$10=fuse_init_intr_signal(f->conf.intr_signal, &f->intr_installed);
-                    if(return_value_fuse_init_intr_signal$10 == -1)
+                    return_value_fuse_init_intr_signal_10=fuse_init_intr_signal(f->conf.intr_signal, &f->intr_installed);
+                    if(return_value_fuse_init_intr_signal_10 == -1)
                       goto out_free_root;
 
                   }
@@ -19628,27 +19628,27 @@ static struct fuse * fuse_new_common_compat(signed int fd, const char *opts, str
 {
   struct fuse *f;
   struct fuse_args args = { .argc=0, .argv=(char **)(void *)0, .allocated=0 };
-  signed int return_value_fuse_opt_add_arg$1;
-  return_value_fuse_opt_add_arg$1=fuse_opt_add_arg(&args, "");
-  signed int return_value_fuse_opt_add_arg$2;
-  _Bool tmp_if_expr$4;
-  signed int return_value_fuse_opt_add_arg$3;
-  if(return_value_fuse_opt_add_arg$1 == -1)
+  signed int return_value_fuse_opt_add_arg_1;
+  return_value_fuse_opt_add_arg_1=fuse_opt_add_arg(&args, "");
+  signed int return_value_fuse_opt_add_arg_2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_fuse_opt_add_arg_3;
+  if(return_value_fuse_opt_add_arg_1 == -1)
     return (struct fuse *)(void *)0;
 
   else
     if(!(opts == ((const char *)NULL)))
     {
-      return_value_fuse_opt_add_arg$2=fuse_opt_add_arg(&args, "-o");
-      if(return_value_fuse_opt_add_arg$2 == -1)
-        tmp_if_expr$4 = (_Bool)1;
+      return_value_fuse_opt_add_arg_2=fuse_opt_add_arg(&args, "-o");
+      if(return_value_fuse_opt_add_arg_2 == -1)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
-        return_value_fuse_opt_add_arg$3=fuse_opt_add_arg(&args, opts);
-        tmp_if_expr$4 = return_value_fuse_opt_add_arg$3 == -1 ? (_Bool)1 : (_Bool)0;
+        return_value_fuse_opt_add_arg_3=fuse_opt_add_arg(&args, opts);
+        tmp_if_expr_4 = return_value_fuse_opt_add_arg_3 == -1 ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$4)
+      if(!tmp_if_expr_4)
         goto __CPROVER_DUMP_L4;
 
       fuse_opt_free_args(&args);
@@ -19687,45 +19687,45 @@ struct fuse * fuse_new_compat1(signed int fd, signed int flags, struct fuse_oper
   if(!((2 & flags) == 0))
     opts = "debug";
 
-  struct fuse *return_value_fuse_new_common_compat$1;
-  return_value_fuse_new_common_compat$1=fuse_new_common_compat(fd, opts, (struct fuse_operations *)op, sizeof(struct fuse_operations_compat1) /*160ul*/ , 11);
-  return return_value_fuse_new_common_compat$1;
+  struct fuse *return_value_fuse_new_common_compat_1;
+  return_value_fuse_new_common_compat_1=fuse_new_common_compat(fd, opts, (struct fuse_operations *)op, sizeof(struct fuse_operations_compat1) /*160ul*/ , 11);
+  return return_value_fuse_new_common_compat_1;
 }
 
 // fuse_new_compat2
 // file fuse.c line 4910
 struct fuse * fuse_new_compat2(signed int fd, const char *opts, struct fuse_operations_compat2 *op)
 {
-  struct fuse *return_value_fuse_new_common_compat$1;
-  return_value_fuse_new_common_compat$1=fuse_new_common_compat(fd, opts, (struct fuse_operations *)op, sizeof(struct fuse_operations_compat2) /*200ul*/ , 21);
-  return return_value_fuse_new_common_compat$1;
+  struct fuse *return_value_fuse_new_common_compat_1;
+  return_value_fuse_new_common_compat_1=fuse_new_common_compat(fd, opts, (struct fuse_operations *)op, sizeof(struct fuse_operations_compat2) /*200ul*/ , 21);
+  return return_value_fuse_new_common_compat_1;
 }
 
 // fuse_new_compat22
 // file fuse.c line 4902
 struct fuse * fuse_new_compat22(signed int fd, const char *opts, struct fuse_operations_compat22 *op, unsigned long int op_size)
 {
-  struct fuse *return_value_fuse_new_common_compat$1;
-  return_value_fuse_new_common_compat$1=fuse_new_common_compat(fd, opts, (struct fuse_operations *)op, op_size, 22);
-  return return_value_fuse_new_common_compat$1;
+  struct fuse *return_value_fuse_new_common_compat_1;
+  return_value_fuse_new_common_compat_1=fuse_new_common_compat(fd, opts, (struct fuse_operations *)op, op_size, 22);
+  return return_value_fuse_new_common_compat_1;
 }
 
 // fuse_new_compat25
 // file fuse.c line 4938
 struct fuse * fuse_new_compat25(signed int fd, struct fuse_args *args, struct fuse_operations_compat25 *op, unsigned long int op_size)
 {
-  struct fuse *return_value_fuse_new_common_compat25$1;
-  return_value_fuse_new_common_compat25$1=fuse_new_common_compat25(fd, args, (struct fuse_operations *)op, op_size, 25);
-  return return_value_fuse_new_common_compat25$1;
+  struct fuse *return_value_fuse_new_common_compat25_1;
+  return_value_fuse_new_common_compat25_1=fuse_new_common_compat25(fd, args, (struct fuse_operations *)op, op_size, 25);
+  return return_value_fuse_new_common_compat25_1;
 }
 
 // fuse_notify_poll
 // file fuse.c line 4225
 signed int fuse_notify_poll(struct fuse_pollhandle *ph)
 {
-  signed int return_value_fuse_lowlevel_notify_poll$1;
-  return_value_fuse_lowlevel_notify_poll$1=fuse_lowlevel_notify_poll(ph);
-  return return_value_fuse_lowlevel_notify_poll$1;
+  signed int return_value_fuse_lowlevel_notify_poll_1;
+  return_value_fuse_lowlevel_notify_poll_1=fuse_lowlevel_notify_poll(ph);
+  return return_value_fuse_lowlevel_notify_poll_1;
 }
 
 // fuse_opt_add_arg
@@ -19734,41 +19734,41 @@ signed int fuse_opt_add_arg(struct fuse_args *args, const char *arg)
 {
   char **newargv;
   char *newarg;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(args->argv == ((char **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = args->allocated != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = args->allocated != 0 ? (_Bool)1 : (_Bool)0;
   /* assertion !args->argv || args->allocated */
-  assert(tmp_if_expr$1);
+  assert(tmp_if_expr_1);
   newarg=strdup(arg);
-  signed int return_value_alloc_failed$2;
-  signed int tmp_post$5;
+  signed int return_value_alloc_failed_2;
+  signed int tmp_post_5;
   if(newarg == ((char *)NULL))
   {
-    return_value_alloc_failed$2=alloc_failed();
-    return return_value_alloc_failed$2;
+    return_value_alloc_failed_2=alloc_failed();
+    return return_value_alloc_failed_2;
   }
 
   else
   {
-    void *return_value_realloc$3;
-    return_value_realloc$3=realloc((void *)args->argv, (unsigned long int)(args->argc + 2) * sizeof(char *) /*8ul*/ );
-    newargv = (char **)return_value_realloc$3;
+    void *return_value_realloc_3;
+    return_value_realloc_3=realloc((void *)args->argv, (unsigned long int)(args->argc + 2) * sizeof(char *) /*8ul*/ );
+    newargv = (char **)return_value_realloc_3;
     if(newargv == ((char **)NULL))
     {
       free((void *)newarg);
-      signed int return_value_alloc_failed$4;
-      return_value_alloc_failed$4=alloc_failed();
-      return return_value_alloc_failed$4;
+      signed int return_value_alloc_failed_4;
+      return_value_alloc_failed_4=alloc_failed();
+      return return_value_alloc_failed_4;
     }
 
     args->argv = newargv;
     args->allocated = 1;
-    tmp_post$5 = args->argc;
+    tmp_post_5 = args->argc;
     args->argc = args->argc + 1;
-    args->argv[(signed long int)tmp_post$5] = newarg;
+    args->argv[(signed long int)tmp_post_5] = newarg;
     args->argv[(signed long int)args->argc] = (char *)(void *)0;
     return 0;
   }
@@ -19778,18 +19778,18 @@ signed int fuse_opt_add_arg(struct fuse_args *args, const char *arg)
 // file fuse_opt.c line 141
 signed int fuse_opt_add_opt(char **opts, const char *opt)
 {
-  signed int return_value_add_opt_common$1;
-  return_value_add_opt_common$1=add_opt_common(opts, opt, 0);
-  return return_value_add_opt_common$1;
+  signed int return_value_add_opt_common_1;
+  return_value_add_opt_common_1=add_opt_common(opts, opt, 0);
+  return return_value_add_opt_common_1;
 }
 
 // fuse_opt_add_opt_escaped
 // file fuse_opt.c line 146
 signed int fuse_opt_add_opt_escaped(char **opts, const char *opt)
 {
-  signed int return_value_add_opt_common$1;
-  return_value_add_opt_common$1=add_opt_common(opts, opt, 1);
-  return return_value_add_opt_common$1;
+  signed int return_value_add_opt_common_1;
+  return_value_add_opt_common_1=add_opt_common(opts, opt, 1);
+  return return_value_add_opt_common_1;
 }
 
 // fuse_opt_free_args
@@ -19821,9 +19821,9 @@ void fuse_opt_free_args(struct fuse_args *args)
 // file ../include/fuse_opt.h line 245
 signed int fuse_opt_insert_arg(struct fuse_args *args, signed int pos, const char *arg)
 {
-  signed int return_value_fuse_opt_insert_arg_common$1;
-  return_value_fuse_opt_insert_arg_common$1=fuse_opt_insert_arg_common(args, pos, arg);
-  return return_value_fuse_opt_insert_arg_common$1;
+  signed int return_value_fuse_opt_insert_arg_common_1;
+  return_value_fuse_opt_insert_arg_common_1=fuse_opt_insert_arg_common(args, pos, arg);
+  return return_value_fuse_opt_insert_arg_common_1;
 }
 
 // fuse_opt_insert_arg_common
@@ -19832,9 +19832,9 @@ static signed int fuse_opt_insert_arg_common(struct fuse_args *args, signed int 
 {
   /* assertion pos <= args->argc */
   assert(pos <= args->argc);
-  signed int return_value_fuse_opt_add_arg$1;
-  return_value_fuse_opt_add_arg$1=fuse_opt_add_arg(args, arg);
-  if(return_value_fuse_opt_add_arg$1 == -1)
+  signed int return_value_fuse_opt_add_arg_1;
+  return_value_fuse_opt_add_arg_1=fuse_opt_add_arg(args, arg);
+  if(return_value_fuse_opt_add_arg_1 == -1)
     return -1;
 
   else
@@ -19854,9 +19854,9 @@ static signed int fuse_opt_insert_arg_common(struct fuse_args *args, signed int 
 // file fuse_opt.c line 97
 signed int fuse_opt_insert_arg_compat(struct fuse_args *args, signed int pos, const char *arg)
 {
-  signed int return_value_fuse_opt_insert_arg_common$1;
-  return_value_fuse_opt_insert_arg_common$1=fuse_opt_insert_arg_common(args, pos, arg);
-  return return_value_fuse_opt_insert_arg_common$1;
+  signed int return_value_fuse_opt_insert_arg_common_1;
+  return_value_fuse_opt_insert_arg_common_1=fuse_opt_insert_arg_common(args, pos, arg);
+  return return_value_fuse_opt_insert_arg_common_1;
 }
 
 // fuse_opt_match
@@ -19864,9 +19864,9 @@ signed int fuse_opt_insert_arg_compat(struct fuse_args *args, signed int pos, co
 signed int fuse_opt_match(struct fuse_opt *opts, const char *opt)
 {
   unsigned int dummy;
-  struct fuse_opt *return_value_find_opt$1;
-  return_value_find_opt$1=find_opt(opts, opt, &dummy);
-  return return_value_find_opt$1 != ((struct fuse_opt *)NULL) ? 1 : 0;
+  struct fuse_opt *return_value_find_opt_1;
+  return_value_find_opt_1=find_opt(opts, opt, &dummy);
+  return return_value_find_opt_1 != ((struct fuse_opt *)NULL) ? 1 : 0;
 }
 
 // fuse_opt_parse
@@ -19877,19 +19877,19 @@ signed int fuse_opt_parse(struct fuse_args *args, void *data, struct fuse_opt *o
   struct fuse_opt_context ctx = { .data=data, .opt=opts, .proc=proc, .argctr=0, .argc=0,
     .argv=((char **)NULL), .outargs={ .argc=0, .argv=((char **)NULL), .allocated=0 }, .opts=((char *)NULL),
     .nonopt=0 };
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(args == ((struct fuse_args *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(args->argv != ((char **)NULL)) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = !(args->argv != ((char **)NULL)) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(args->argc != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = !(args->argc != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return 0;
 
   else
@@ -19997,9 +19997,9 @@ static signed int fuse_push_module(struct fuse *f, const char *module, struct fu
   struct fuse_fs *newfs;
   struct fuse_module *m;
   m=fuse_get_module(module);
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if(m == ((struct fuse_module *)NULL))
     return -1;
 
@@ -20017,23 +20017,23 @@ static signed int fuse_push_module(struct fuse *f, const char *module, struct fu
       newfs->m = m;
       f->fs = newfs;
       if(!(newfs->op.flag_nullpath_ok == 0u))
-        tmp_if_expr$1 = f->nullpath_ok != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = f->nullpath_ok != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      f->nullpath_ok = (signed int)tmp_if_expr$1;
+        tmp_if_expr_1 = (_Bool)0;
+      f->nullpath_ok = (signed int)tmp_if_expr_1;
       if(!(newfs->op.flag_nopath == 0u))
-        tmp_if_expr$2 = f->conf.nopath != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = f->conf.nopath != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      f->conf.nopath = (signed int)tmp_if_expr$2;
+        tmp_if_expr_2 = (_Bool)0;
+      f->conf.nopath = (signed int)tmp_if_expr_2;
       if(!(newfs->op.flag_utime_omit_ok == 0u))
-        tmp_if_expr$3 = f->utime_omit_ok != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = f->utime_omit_ok != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      f->utime_omit_ok = (signed int)tmp_if_expr$3;
+        tmp_if_expr_3 = (_Bool)0;
+      f->utime_omit_ok = (signed int)tmp_if_expr_3;
       return 0;
     }
   }
@@ -20143,9 +20143,9 @@ signed int fuse_reply_attr(struct fuse_req *req, struct stat *attr, double attr_
   arg.attr_valid=calc_timeout_sec(attr_timeout);
   arg.attr_valid_nsec=calc_timeout_nsec(attr_timeout);
   convert_stat(attr, &arg.attr);
-  signed int return_value_send_reply_ok$1;
-  return_value_send_reply_ok$1=send_reply_ok(req, (const void *)&arg, size);
-  return return_value_send_reply_ok$1;
+  signed int return_value_send_reply_ok_1;
+  return_value_send_reply_ok_1=send_reply_ok(req, (const void *)&arg, size);
+  return return_value_send_reply_ok_1;
 }
 
 // fuse_reply_bmap
@@ -20155,18 +20155,18 @@ signed int fuse_reply_bmap(struct fuse_req *req, unsigned long int idx)
   struct fuse_bmap_out arg;
   memset((void *)&arg, 0, sizeof(struct fuse_bmap_out) /*8ul*/ );
   arg.block = idx;
-  signed int return_value_send_reply_ok$1;
-  return_value_send_reply_ok$1=send_reply_ok(req, (const void *)&arg, sizeof(struct fuse_bmap_out) /*8ul*/ );
-  return return_value_send_reply_ok$1;
+  signed int return_value_send_reply_ok_1;
+  return_value_send_reply_ok_1=send_reply_ok(req, (const void *)&arg, sizeof(struct fuse_bmap_out) /*8ul*/ );
+  return return_value_send_reply_ok_1;
 }
 
 // fuse_reply_buf
 // file ../include/fuse_lowlevel.h line 1150
 signed int fuse_reply_buf(struct fuse_req *req, const char *buf, unsigned long int size)
 {
-  signed int return_value_send_reply_ok$1;
-  return_value_send_reply_ok$1=send_reply_ok(req, (const void *)buf, size);
-  return return_value_send_reply_ok$1;
+  signed int return_value_send_reply_ok_1;
+  return_value_send_reply_ok_1=send_reply_ok(req, (const void *)buf, size);
+  return return_value_send_reply_ok_1;
 }
 
 // fuse_reply_create
@@ -20180,9 +20180,9 @@ signed int fuse_reply_create(struct fuse_req *req, struct fuse_entry_param *e, s
   memset((void *)buf, 0, sizeof(char [144l]) /*144ul*/ );
   fill_entry(earg, e);
   fill_open(oarg, f);
-  signed int return_value_send_reply_ok$1;
-  return_value_send_reply_ok$1=send_reply_ok(req, (const void *)buf, entrysize + sizeof(struct fuse_open_out) /*16ul*/ );
-  return return_value_send_reply_ok$1;
+  signed int return_value_send_reply_ok_1;
+  return_value_send_reply_ok_1=send_reply_ok(req, (const void *)buf, entrysize + sizeof(struct fuse_open_out) /*16ul*/ );
+  return return_value_send_reply_ok_1;
 }
 
 // fuse_reply_data
@@ -20205,9 +20205,9 @@ signed int fuse_reply_data(struct fuse_req *req, struct fuse_bufvec *bufv, enum 
 
   else
   {
-    signed int return_value_fuse_reply_err$1;
-    return_value_fuse_reply_err$1=fuse_reply_err(req, res);
-    return return_value_fuse_reply_err$1;
+    signed int return_value_fuse_reply_err_1;
+    return_value_fuse_reply_err_1=fuse_reply_err(req, res);
+    return return_value_fuse_reply_err_1;
   }
 }
 
@@ -20217,14 +20217,14 @@ signed int fuse_reply_entry(struct fuse_req *req, struct fuse_entry_param *e)
 {
   struct fuse_entry_out arg;
   unsigned long int size = req->f->conn.proto_minor < (unsigned int)9 ? (unsigned long int)120 : sizeof(struct fuse_entry_out) /*128ul*/ ;
-  signed int return_value_fuse_reply_err$1;
+  signed int return_value_fuse_reply_err_1;
   if(e->ino == 0ul)
   {
     if(req->f->conn.proto_minor >= 4u)
       goto __CPROVER_DUMP_L1;
 
-    return_value_fuse_reply_err$1=fuse_reply_err(req, 2);
-    return return_value_fuse_reply_err$1;
+    return_value_fuse_reply_err_1=fuse_reply_err(req, 2);
+    return return_value_fuse_reply_err_1;
   }
 
   else
@@ -20234,9 +20234,9 @@ signed int fuse_reply_entry(struct fuse_req *req, struct fuse_entry_param *e)
     ;
     memset((void *)&arg, 0, sizeof(struct fuse_entry_out) /*128ul*/ );
     fill_entry(&arg, e);
-    signed int return_value_send_reply_ok$2;
-    return_value_send_reply_ok$2=send_reply_ok(req, (const void *)&arg, size);
-    return return_value_send_reply_ok$2;
+    signed int return_value_send_reply_ok_2;
+    return_value_send_reply_ok_2=send_reply_ok(req, (const void *)&arg, size);
+    return return_value_send_reply_ok_2;
   }
 }
 
@@ -20244,9 +20244,9 @@ signed int fuse_reply_entry(struct fuse_req *req, struct fuse_entry_param *e)
 // file ../include/fuse_lowlevel.h line 1039
 signed int fuse_reply_err(struct fuse_req *req, signed int err)
 {
-  signed int return_value_send_reply$1;
-  return_value_send_reply$1=send_reply(req, -err, (void *)0, (unsigned long int)0);
-  return return_value_send_reply$1;
+  signed int return_value_send_reply_1;
+  return_value_send_reply_1=send_reply(req, -err, (void *)0, (unsigned long int)0);
+  return return_value_send_reply_1;
 }
 
 // fuse_reply_ioctl
@@ -20268,9 +20268,9 @@ signed int fuse_reply_ioctl(struct fuse_req *req, signed int result, const void 
     count = count + 1ul;
   }
 
-  signed int return_value_send_reply_iov$1;
-  return_value_send_reply_iov$1=send_reply_iov(req, 0, iov, (signed int)count);
-  return return_value_send_reply_iov$1;
+  signed int return_value_send_reply_iov_1;
+  return_value_send_reply_iov_1=send_reply_iov(req, 0, iov, (signed int)count);
+  return return_value_send_reply_iov_1;
 }
 
 // fuse_reply_ioctl_iov
@@ -20280,14 +20280,14 @@ signed int fuse_reply_ioctl_iov(struct fuse_req *req, signed int result, struct 
   struct iovec *padded_iov;
   struct fuse_ioctl_out arg;
   signed int res;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(count + 2) * sizeof(struct iovec) /*16ul*/ );
-  padded_iov = (struct iovec *)return_value_malloc$1;
-  signed int return_value_fuse_reply_err$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(count + 2) * sizeof(struct iovec) /*16ul*/ );
+  padded_iov = (struct iovec *)return_value_malloc_1;
+  signed int return_value_fuse_reply_err_2;
   if(padded_iov == ((struct iovec *)NULL))
   {
-    return_value_fuse_reply_err$2=fuse_reply_err(req, 12);
-    return return_value_fuse_reply_err$2;
+    return_value_fuse_reply_err_2=fuse_reply_err(req, 12);
+    return return_value_fuse_reply_err_2;
   }
 
   else
@@ -20383,14 +20383,14 @@ signed int fuse_reply_iov(struct fuse_req *req, struct iovec *iov, signed int co
 {
   signed int res;
   struct iovec *padded_iov;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(count + 1) * sizeof(struct iovec) /*16ul*/ );
-  padded_iov = (struct iovec *)return_value_malloc$1;
-  signed int return_value_fuse_reply_err$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(count + 1) * sizeof(struct iovec) /*16ul*/ );
+  padded_iov = (struct iovec *)return_value_malloc_1;
+  signed int return_value_fuse_reply_err_2;
   if(padded_iov == ((struct iovec *)NULL))
   {
-    return_value_fuse_reply_err$2=fuse_reply_err(req, 12);
-    return return_value_fuse_reply_err$2;
+    return_value_fuse_reply_err_2=fuse_reply_err(req, 12);
+    return return_value_fuse_reply_err_2;
   }
 
   else
@@ -20421,9 +20421,9 @@ signed int fuse_reply_lock(struct fuse_req *req, struct flock *lock)
   }
 
   arg.lk.pid = (unsigned int)lock->l_pid;
-  signed int return_value_send_reply_ok$1;
-  return_value_send_reply_ok$1=send_reply_ok(req, (const void *)&arg, sizeof(struct fuse_lk_out) /*24ul*/ );
-  return return_value_send_reply_ok$1;
+  signed int return_value_send_reply_ok_1;
+  return_value_send_reply_ok_1=send_reply_ok(req, (const void *)&arg, sizeof(struct fuse_lk_out) /*24ul*/ );
+  return return_value_send_reply_ok_1;
 }
 
 // fuse_reply_none
@@ -20443,9 +20443,9 @@ signed int fuse_reply_open(struct fuse_req *req, struct fuse_file_info *f)
   struct fuse_open_out arg;
   memset((void *)&arg, 0, sizeof(struct fuse_open_out) /*16ul*/ );
   fill_open(&arg, f);
-  signed int return_value_send_reply_ok$1;
-  return_value_send_reply_ok$1=send_reply_ok(req, (const void *)&arg, sizeof(struct fuse_open_out) /*16ul*/ );
-  return return_value_send_reply_ok$1;
+  signed int return_value_send_reply_ok_1;
+  return_value_send_reply_ok_1=send_reply_ok(req, (const void *)&arg, sizeof(struct fuse_open_out) /*16ul*/ );
+  return return_value_send_reply_ok_1;
 }
 
 // fuse_reply_open_compat
@@ -20455,9 +20455,9 @@ signed int fuse_reply_open_compat(struct fuse_req *req, struct fuse_file_info_co
   struct fuse_open_out arg;
   memset((void *)&arg, 0, sizeof(struct fuse_open_out) /*16ul*/ );
   fill_open_compat(&arg, f);
-  signed int return_value_send_reply_ok$1;
-  return_value_send_reply_ok$1=send_reply_ok(req, (const void *)&arg, sizeof(struct fuse_open_out) /*16ul*/ );
-  return return_value_send_reply_ok$1;
+  signed int return_value_send_reply_ok_1;
+  return_value_send_reply_ok_1=send_reply_ok(req, (const void *)&arg, sizeof(struct fuse_open_out) /*16ul*/ );
+  return return_value_send_reply_ok_1;
 }
 
 // fuse_reply_poll
@@ -20467,20 +20467,20 @@ signed int fuse_reply_poll(struct fuse_req *req, unsigned int revents)
   struct fuse_poll_out arg;
   memset((void *)&arg, 0, sizeof(struct fuse_poll_out) /*8ul*/ );
   arg.revents = revents;
-  signed int return_value_send_reply_ok$1;
-  return_value_send_reply_ok$1=send_reply_ok(req, (const void *)&arg, sizeof(struct fuse_poll_out) /*8ul*/ );
-  return return_value_send_reply_ok$1;
+  signed int return_value_send_reply_ok_1;
+  return_value_send_reply_ok_1=send_reply_ok(req, (const void *)&arg, sizeof(struct fuse_poll_out) /*8ul*/ );
+  return return_value_send_reply_ok_1;
 }
 
 // fuse_reply_readlink
 // file ../include/fuse_lowlevel.h line 1110
 signed int fuse_reply_readlink(struct fuse_req *req, const char *linkname)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(linkname);
-  signed int return_value_send_reply_ok$2;
-  return_value_send_reply_ok$2=send_reply_ok(req, (const void *)linkname, return_value_strlen$1);
-  return return_value_send_reply_ok$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(linkname);
+  signed int return_value_send_reply_ok_2;
+  return_value_send_reply_ok_2=send_reply_ok(req, (const void *)linkname, return_value_strlen_1);
+  return return_value_send_reply_ok_2;
 }
 
 // fuse_reply_statfs
@@ -20491,9 +20491,9 @@ signed int fuse_reply_statfs(struct fuse_req *req, struct statvfs *stbuf)
   unsigned long int size = req->f->conn.proto_minor < (unsigned int)4 ? (unsigned long int)48 : sizeof(struct fuse_statfs_out) /*80ul*/ ;
   memset((void *)&arg, 0, sizeof(struct fuse_statfs_out) /*80ul*/ );
   convert_statfs(stbuf, &arg.st);
-  signed int return_value_send_reply_ok$1;
-  return_value_send_reply_ok$1=send_reply_ok(req, (const void *)&arg, size);
-  return return_value_send_reply_ok$1;
+  signed int return_value_send_reply_ok_1;
+  return_value_send_reply_ok_1=send_reply_ok(req, (const void *)&arg, size);
+  return return_value_send_reply_ok_1;
 }
 
 // fuse_reply_statfs_compat
@@ -20502,10 +20502,10 @@ signed int fuse_reply_statfs_compat(struct fuse_req *req, struct statfs *stbuf)
 {
   struct statvfs newbuf;
   memset((void *)&newbuf, 0, sizeof(struct statvfs) /*112ul*/ );
-  convert_statfs_compat$link1(stbuf, &newbuf);
-  signed int return_value_fuse_reply_statfs$1;
-  return_value_fuse_reply_statfs$1=fuse_reply_statfs(req, &newbuf);
-  return return_value_fuse_reply_statfs$1;
+  convert_statfs_compat_link1(stbuf, &newbuf);
+  signed int return_value_fuse_reply_statfs_1;
+  return_value_fuse_reply_statfs_1=fuse_reply_statfs(req, &newbuf);
+  return return_value_fuse_reply_statfs_1;
 }
 
 // fuse_reply_write
@@ -20515,9 +20515,9 @@ signed int fuse_reply_write(struct fuse_req *req, unsigned long int count)
   struct fuse_write_out arg;
   memset((void *)&arg, 0, sizeof(struct fuse_write_out) /*8ul*/ );
   arg.size = (unsigned int)count;
-  signed int return_value_send_reply_ok$1;
-  return_value_send_reply_ok$1=send_reply_ok(req, (const void *)&arg, sizeof(struct fuse_write_out) /*8ul*/ );
-  return return_value_send_reply_ok$1;
+  signed int return_value_send_reply_ok_1;
+  return_value_send_reply_ok_1=send_reply_ok(req, (const void *)&arg, sizeof(struct fuse_write_out) /*8ul*/ );
+  return return_value_send_reply_ok_1;
 }
 
 // fuse_reply_xattr
@@ -20527,9 +20527,9 @@ signed int fuse_reply_xattr(struct fuse_req *req, unsigned long int count)
   struct fuse_getxattr_out arg;
   memset((void *)&arg, 0, sizeof(struct fuse_getxattr_out) /*8ul*/ );
   arg.size = (unsigned int)count;
-  signed int return_value_send_reply_ok$1;
-  return_value_send_reply_ok$1=send_reply_ok(req, (const void *)&arg, sizeof(struct fuse_getxattr_out) /*8ul*/ );
-  return return_value_send_reply_ok$1;
+  signed int return_value_send_reply_ok_1;
+  return_value_send_reply_ok_1=send_reply_ok(req, (const void *)&arg, sizeof(struct fuse_getxattr_out) /*8ul*/ );
+  return return_value_send_reply_ok_1;
 }
 
 // fuse_req_ctx
@@ -20543,9 +20543,9 @@ struct fuse_ctx * fuse_req_ctx(struct fuse_req *req)
 // file fuse_lowlevel.c line 2213
 struct fuse_ctx * fuse_req_ctx_compat24(struct fuse_req *req)
 {
-  struct fuse_ctx *return_value_fuse_req_ctx$1;
-  return_value_fuse_req_ctx$1=fuse_req_ctx(req);
-  return return_value_fuse_req_ctx$1;
+  struct fuse_ctx *return_value_fuse_req_ctx_1;
+  return_value_fuse_req_ctx_1=fuse_req_ctx(req);
+  return return_value_fuse_req_ctx_1;
 }
 
 // fuse_req_getgroups
@@ -20560,15 +20560,15 @@ signed int fuse_req_getgroups(struct fuse_req *req, signed int size, unsigned in
   unsigned long int pid = (unsigned long int)req->ctx.pid;
   char *s;
   sprintf(path, "/proc/%lu/task/%lu/status", pid, pid);
-  void *return_value_malloc$1;
-  signed long int return_value_read$2;
+  void *return_value_malloc_1;
+  signed long int return_value_read_2;
   do
   {
 
   retry:
     ;
-    return_value_malloc$1=malloc(bufsize);
-    buf = (char *)return_value_malloc$1;
+    return_value_malloc_1=malloc(bufsize);
+    buf = (char *)return_value_malloc_1;
     if(buf == ((char *)NULL))
       return -12;
 
@@ -20577,8 +20577,8 @@ signed int fuse_req_getgroups(struct fuse_req *req, signed int size, unsigned in
     if(fd == -1)
       goto out_free;
 
-    return_value_read$2=read(fd, (void *)buf, bufsize);
-    ret = (signed int)return_value_read$2;
+    return_value_read_2=read(fd, (void *)buf, bufsize);
+    ret = (signed int)return_value_read_2;
     close(fd);
     if(ret == -1)
     {
@@ -20686,11 +20686,11 @@ static signed int fuse_send_data_iov(struct fuse_ll *f, struct fuse_chan *ch, st
   struct fuse_bufvec pipe_buf = { .count=(unsigned long int)1, .idx=(unsigned long int)0, .off=(unsigned long int)0,
     .buf={ { .size=len, .flags=(enum fuse_buf_flags)0, .mem=(void *)0,
     .fd=-1, .pos=(signed long int)0 } } };
-  _Bool tmp_if_expr$1;
-  signed long int return_value_vmsplice$2;
-  signed long int return_value_fuse_buf_copy$3;
-  signed int return_value_fuse_chan_fd$6;
-  signed long int return_value_splice$7;
+  _Bool tmp_if_expr_1;
+  signed long int return_value_vmsplice_2;
+  signed long int return_value_fuse_buf_copy_3;
+  signed int return_value_fuse_chan_fd_6;
+  signed long int return_value_splice_7;
   if(f->broken_splice_nonblock == 0)
   {
     if(!((2u & flags) == 0u))
@@ -20711,11 +20711,11 @@ static signed int fuse_send_data_iov(struct fuse_ll *f, struct fuse_chan *ch, st
       goto fallback;
 
     if(!(f->conn.proto_minor >= 14u))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((f->conn.want & (unsigned int)(1 << 7)) != 0u) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !((f->conn.want & (unsigned int)(1 << 7)) != 0u) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       goto fallback;
 
     llp=fuse_ll_get_pipe(f);
@@ -20744,8 +20744,8 @@ static signed int fuse_send_data_iov(struct fuse_ll *f, struct fuse_chan *ch, st
 
     }
 
-    return_value_vmsplice$2=vmsplice(llp->pipe[(signed long int)1], iov, (unsigned long int)iov_count, (unsigned int)2);
-    res = (signed int)return_value_vmsplice$2;
+    return_value_vmsplice_2=vmsplice(llp->pipe[(signed long int)1], iov, (unsigned long int)iov_count, (unsigned int)2);
+    res = (signed int)return_value_vmsplice_2;
     if(res == -1)
       goto fallback;
 
@@ -20759,8 +20759,8 @@ static signed int fuse_send_data_iov(struct fuse_ll *f, struct fuse_chan *ch, st
     {
       pipe_buf.buf[(signed long int)0].flags = (enum fuse_buf_flags)FUSE_BUF_IS_FD;
       pipe_buf.buf[(signed long int)0].fd = llp->pipe[(signed long int)1];
-      return_value_fuse_buf_copy$3=fuse_buf_copy(&pipe_buf, buf, (enum fuse_buf_copy_flags)(FUSE_BUF_FORCE_SPLICE | FUSE_BUF_SPLICE_NONBLOCK));
-      res = (signed int)return_value_fuse_buf_copy$3;
+      return_value_fuse_buf_copy_3=fuse_buf_copy(&pipe_buf, buf, (enum fuse_buf_copy_flags)(FUSE_BUF_FORCE_SPLICE | FUSE_BUF_SPLICE_NONBLOCK));
+      res = (signed int)return_value_fuse_buf_copy_3;
       if(!(res >= 0))
       {
         if(res == -22 || res == -11)
@@ -20791,16 +20791,16 @@ static signed int fuse_send_data_iov(struct fuse_ll *f, struct fuse_chan *ch, st
 
           mem_buf.buf[(signed long int)0].mem = mbuf;
           mem_buf.off = now_len;
-          signed long int return_value_fuse_buf_copy$4;
-          return_value_fuse_buf_copy$4=fuse_buf_copy(&mem_buf, buf, (enum fuse_buf_copy_flags)0);
-          res = (signed int)return_value_fuse_buf_copy$4;
+          signed long int return_value_fuse_buf_copy_4;
+          return_value_fuse_buf_copy_4=fuse_buf_copy(&mem_buf, buf, (enum fuse_buf_copy_flags)0);
+          res = (signed int)return_value_fuse_buf_copy_4;
           if(res >= 1)
           {
             char *tmpbuf;
             unsigned long int extra_len = (unsigned long int)res;
-            void *return_value_malloc$5;
-            return_value_malloc$5=malloc(headerlen);
-            tmpbuf = (char *)return_value_malloc$5;
+            void *return_value_malloc_5;
+            return_value_malloc_5=malloc(headerlen);
+            tmpbuf = (char *)return_value_malloc_5;
             if(tmpbuf == ((char *)NULL))
             {
               free(mbuf);
@@ -20849,14 +20849,14 @@ static signed int fuse_send_data_iov(struct fuse_ll *f, struct fuse_chan *ch, st
 
         }
 
-        return_value_fuse_chan_fd$6=fuse_chan_fd(ch);
-        return_value_splice$7=splice(llp->pipe[(signed long int)0], (signed long int *)(void *)0, return_value_fuse_chan_fd$6, (signed long int *)(void *)0, (unsigned long int)out->len, (unsigned int)splice_flags);
-        res = (signed int)return_value_splice$7;
+        return_value_fuse_chan_fd_6=fuse_chan_fd(ch);
+        return_value_splice_7=splice(llp->pipe[(signed long int)0], (signed long int *)(void *)0, return_value_fuse_chan_fd_6, (signed long int *)(void *)0, (unsigned long int)out->len, (unsigned int)splice_flags);
+        res = (signed int)return_value_splice_7;
         if(res == -1)
         {
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          res = -(*return_value___errno_location$8);
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          res = -(*return_value___errno_location_8);
           perror("fuse: splice from pipe");
           goto clear_pipe;
         }
@@ -20883,9 +20883,9 @@ static signed int fuse_send_data_iov(struct fuse_ll *f, struct fuse_chan *ch, st
 
   fallback:
     ;
-    signed int return_value_fuse_send_data_iov_fallback$9;
-    return_value_fuse_send_data_iov_fallback$9=fuse_send_data_iov_fallback(f, ch, iov, iov_count, buf, len);
-    return return_value_fuse_send_data_iov_fallback$9;
+    signed int return_value_fuse_send_data_iov_fallback_9;
+    return_value_fuse_send_data_iov_fallback_9=fuse_send_data_iov_fallback(f, ch, iov, iov_count, buf, len);
+    return return_value_fuse_send_data_iov_fallback_9;
   }
 }
 
@@ -20909,9 +20909,9 @@ static signed int fuse_send_data_iov_fallback(struct fuse_ll *f, struct fuse_cha
           (iov + (signed long int)iov_count)->iov_base = buf->buf[(signed long int)0].mem;
           (iov + (signed long int)iov_count)->iov_len = len;
           iov_count = iov_count + 1;
-          signed int return_value_fuse_send_msg$1;
-          return_value_fuse_send_msg$1=fuse_send_msg(f, ch, iov, iov_count);
-          return return_value_fuse_send_msg$1;
+          signed int return_value_fuse_send_msg_1;
+          return_value_fuse_send_msg_1=fuse_send_msg(f, ch, iov, iov_count);
+          return return_value_fuse_send_msg_1;
         }
 
       }
@@ -20927,9 +20927,9 @@ static signed int fuse_send_data_iov_fallback(struct fuse_ll *f, struct fuse_cha
   else
   {
     mem_buf.buf[(signed long int)0].mem = mbuf;
-    signed long int return_value_fuse_buf_copy$2;
-    return_value_fuse_buf_copy$2=fuse_buf_copy(&mem_buf, buf, (enum fuse_buf_copy_flags)0);
-    res = (signed int)return_value_fuse_buf_copy$2;
+    signed long int return_value_fuse_buf_copy_2;
+    return_value_fuse_buf_copy_2=fuse_buf_copy(&mem_buf, buf, (enum fuse_buf_copy_flags)0);
+    res = (signed int)return_value_fuse_buf_copy_2;
     if(!(res >= 0))
     {
       free(mbuf);
@@ -20954,9 +20954,9 @@ static signed int fuse_send_data_iov_fallback(struct fuse_ll *f, struct fuse_cha
 static signed int fuse_send_msg(struct fuse_ll *f, struct fuse_chan *ch, struct iovec *iov, signed int count)
 {
   struct fuse_out_header *out = (struct fuse_out_header *)(iov + (signed long int)0)->iov_base;
-  unsigned long int return_value_iov_length$1;
-  return_value_iov_length$1=iov_length(iov, (unsigned long int)count);
-  out->len = (unsigned int)return_value_iov_length$1;
+  unsigned long int return_value_iov_length_1;
+  return_value_iov_length_1=iov_length(iov, (unsigned long int)count);
+  out->len = (unsigned int)return_value_iov_length_1;
   if(!(f->debug == 0))
   {
     if(out->unique == 0ul)
@@ -20965,18 +20965,18 @@ static signed int fuse_send_msg(struct fuse_ll *f, struct fuse_chan *ch, struct 
     else
       if(!(out->error == 0))
       {
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(-out->error);
-        fprintf(stderr, "   unique: %llu, error: %i (%s), outsize: %i\n", (unsigned long long int)out->unique, out->error, return_value_strerror$2, out->len);
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(-out->error);
+        fprintf(stderr, "   unique: %llu, error: %i (%s), outsize: %i\n", (unsigned long long int)out->unique, out->error, return_value_strerror_2, out->len);
       }
 
       else
         fprintf(stderr, "   unique: %llu, success, outsize: %i\n", (unsigned long long int)out->unique, out->len);
   }
 
-  signed int return_value_fuse_chan_send$3;
-  return_value_fuse_chan_send$3=fuse_chan_send(ch, iov, (unsigned long int)count);
-  return return_value_fuse_chan_send$3;
+  signed int return_value_fuse_chan_send_3;
+  return_value_fuse_chan_send_3=fuse_chan_send(ch, iov, (unsigned long int)count);
+  return return_value_fuse_chan_send_3;
 }
 
 // fuse_send_reply_iov_nofree
@@ -20994,9 +20994,9 @@ signed int fuse_send_reply_iov_nofree(struct fuse_req *req, signed int error, st
   out.error = error;
   (iov + (signed long int)0)->iov_base = (void *)&out;
   (iov + (signed long int)0)->iov_len = sizeof(struct fuse_out_header) /*16ul*/ ;
-  signed int return_value_fuse_send_msg$1;
-  return_value_fuse_send_msg$1=fuse_send_msg(req->f, req->ch, iov, count);
-  return return_value_fuse_send_msg$1;
+  signed int return_value_fuse_send_msg_1;
+  return_value_fuse_send_msg_1=fuse_send_msg(req->f, req->ch, iov, count);
+  return return_value_fuse_send_msg_1;
 }
 
 // fuse_session_add_chan
@@ -21066,10 +21066,10 @@ signed int fuse_session_loop(struct fuse_session *se)
   unsigned long int bufsize;
   bufsize=fuse_chan_bufsize(ch);
   char *buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(bufsize);
-  buf = (char *)return_value_malloc$1;
-  signed int return_value_fuse_session_exited$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(bufsize);
+  buf = (char *)return_value_malloc_1;
+  signed int return_value_fuse_session_exited_2;
   if(buf == ((char *)NULL))
   {
     fprintf(stderr, "fuse: failed to allocate read buffer\n");
@@ -21080,8 +21080,8 @@ signed int fuse_session_loop(struct fuse_session *se)
   {
     do
     {
-      return_value_fuse_session_exited$2=fuse_session_exited(se);
-      if(!(return_value_fuse_session_exited$2 == 0))
+      return_value_fuse_session_exited_2=fuse_session_exited(se);
+      if(!(return_value_fuse_session_exited_2 == 0))
         break;
 
       struct fuse_chan *tmpch = ch;
@@ -21121,17 +21121,17 @@ signed int fuse_session_loop_mt(struct fuse_session *se)
   mt.main.next = &mt.main;
   mt.main.prev = mt.main.next;
   sem_init(&mt.finish, 0, (unsigned int)0);
-  pthread_mutex_init(&mt.lock, (const union anonymous$7 *)(void *)0);
+  pthread_mutex_init(&mt.lock, (const union anonymous_7 *)(void *)0);
   pthread_mutex_lock(&mt.lock);
   err=fuse_loop_start_thread(&mt);
   pthread_mutex_unlock(&mt.lock);
-  signed int return_value_fuse_session_exited$1;
+  signed int return_value_fuse_session_exited_1;
   if(err == 0)
   {
     do
     {
-      return_value_fuse_session_exited$1=fuse_session_exited(se);
-      if(!(return_value_fuse_session_exited$1 == 0))
+      return_value_fuse_session_exited_1=fuse_session_exited(se);
+      if(!(return_value_fuse_session_exited_1 == 0))
         break;
 
       sem_wait(&mt.finish);
@@ -21167,14 +21167,14 @@ static signed int fuse_session_loop_remember(struct fuse *f)
   unsigned long int bufsize;
   bufsize=fuse_chan_bufsize(ch);
   char *buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(bufsize);
-  buf = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(bufsize);
+  buf = (char *)return_value_malloc_1;
   struct pollfd fds;
-  signed int return_value_fuse_chan_fd$2;
-  return_value_fuse_chan_fd$2=fuse_chan_fd(ch);
-  fds = (struct pollfd){ .fd=return_value_fuse_chan_fd$2, .events=(signed short int)0x001, .revents=0 };
-  signed int return_value_fuse_session_exited$3;
+  signed int return_value_fuse_chan_fd_2;
+  return_value_fuse_chan_fd_2=fuse_chan_fd(ch);
+  fds = (struct pollfd){ .fd=return_value_fuse_chan_fd_2, .events=(signed short int)0x001, .revents=0 };
+  signed int return_value_fuse_session_exited_3;
   if(buf == ((char *)NULL))
   {
     fprintf(stderr, "fuse: failed to allocate read buffer\n");
@@ -21187,8 +21187,8 @@ static signed int fuse_session_loop_remember(struct fuse *f)
     next_clean = now.tv_sec;
     do
     {
-      return_value_fuse_session_exited$3=fuse_session_exited(se);
-      if(!(return_value_fuse_session_exited$3 == 0))
+      return_value_fuse_session_exited_3=fuse_session_exited(se);
+      if(!(return_value_fuse_session_exited_3 == 0))
         break;
 
       struct fuse_chan *tmpch = ch;
@@ -21204,9 +21204,9 @@ static signed int fuse_session_loop_remember(struct fuse *f)
       res=poll(&fds, (unsigned long int)1, (signed int)(timeout * (unsigned int)1000));
       if(res == -1)
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        if(*return_value___errno_location$4 == -4)
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        if(*return_value___errno_location_4 == -4)
           continue;
 
         else
@@ -21228,9 +21228,9 @@ static signed int fuse_session_loop_remember(struct fuse *f)
 
         else
         {
-          signed int return_value_fuse_clean_cache$5;
-          return_value_fuse_clean_cache$5=fuse_clean_cache(f);
-          timeout = (unsigned int)return_value_fuse_clean_cache$5;
+          signed int return_value_fuse_clean_cache_5;
+          return_value_fuse_clean_cache_5=fuse_clean_cache(f);
+          timeout = (unsigned int)return_value_fuse_clean_cache_5;
           curr_time(&now);
           next_clean = now.tv_sec + (signed long int)timeout;
         }
@@ -21247,9 +21247,9 @@ static signed int fuse_session_loop_remember(struct fuse *f)
 struct fuse_session * fuse_session_new(struct fuse_session_ops *op, void *data)
 {
   struct fuse_session *se;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct fuse_session) /*72ul*/ );
-  se = (struct fuse_session *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct fuse_session) /*72ul*/ );
+  se = (struct fuse_session *)return_value_malloc_1;
   if(se == ((struct fuse_session *)NULL))
   {
     fprintf(stderr, "fuse: failed to allocate session\n");
@@ -21269,14 +21269,14 @@ struct fuse_session * fuse_session_new(struct fuse_session_ops *op, void *data)
 // file ../include/fuse_lowlevel.h line 1610
 struct fuse_chan * fuse_session_next_chan(struct fuse_session *se, struct fuse_chan *ch)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(ch == ((struct fuse_chan *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = ch == se->ch ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ch == se->ch ? (_Bool)1 : (_Bool)0;
   /* assertion ch == ((void *)0) || ch == se->ch */
-  assert(tmp_if_expr$1);
+  assert(tmp_if_expr_1);
   if(ch == ((struct fuse_chan *)NULL))
     return se->ch;
 
@@ -21360,39 +21360,39 @@ void fuse_set_getcontext_func(struct fuse_context * (*func)(void))
 // file fuse_signals.c line 47
 signed int fuse_set_signal_handlers(struct fuse_session *se)
 {
-  signed int return_value_set_one_signal_handler$1;
-  return_value_set_one_signal_handler$1=set_one_signal_handler(1, exit_handler, 0);
-  _Bool tmp_if_expr$3;
-  signed int return_value_set_one_signal_handler$2;
-  if(return_value_set_one_signal_handler$1 == -1)
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_set_one_signal_handler_1;
+  return_value_set_one_signal_handler_1=set_one_signal_handler(1, exit_handler, 0);
+  _Bool tmp_if_expr_3;
+  signed int return_value_set_one_signal_handler_2;
+  if(return_value_set_one_signal_handler_1 == -1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_set_one_signal_handler$2=set_one_signal_handler(2, exit_handler, 0);
-    tmp_if_expr$3 = return_value_set_one_signal_handler$2 == -1 ? (_Bool)1 : (_Bool)0;
+    return_value_set_one_signal_handler_2=set_one_signal_handler(2, exit_handler, 0);
+    tmp_if_expr_3 = return_value_set_one_signal_handler_2 == -1 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed int return_value_set_one_signal_handler$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed int return_value_set_one_signal_handler_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_set_one_signal_handler$4=set_one_signal_handler(15, exit_handler, 0);
-    tmp_if_expr$5 = return_value_set_one_signal_handler$4 == -1 ? (_Bool)1 : (_Bool)0;
+    return_value_set_one_signal_handler_4=set_one_signal_handler(15, exit_handler, 0);
+    tmp_if_expr_5 = return_value_set_one_signal_handler_4 == -1 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed int return_value_set_one_signal_handler$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed int return_value_set_one_signal_handler_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_set_one_signal_handler$6=set_one_signal_handler(13, (void (*)(signed int))1, 0);
-    tmp_if_expr$7 = return_value_set_one_signal_handler$6 == -1 ? (_Bool)1 : (_Bool)0;
+    return_value_set_one_signal_handler_6=set_one_signal_handler(13, (void (*)(signed int))1, 0);
+    tmp_if_expr_7 = return_value_set_one_signal_handler_6 == -1 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$7)
+  if(tmp_if_expr_7)
     return -1;
 
   else
@@ -21406,9 +21406,9 @@ signed int fuse_set_signal_handlers(struct fuse_session *se)
 // file helper.c line 317
 struct fuse * fuse_setup(signed int argc, char **argv, struct fuse_operations *op, unsigned long int op_size, char **mountpoint, signed int *multithreaded, void *user_data)
 {
-  struct fuse *return_value_fuse_setup_common$1;
-  return_value_fuse_setup_common$1=fuse_setup_common(argc, argv, op, op_size, mountpoint, multithreaded, (signed int *)(void *)0, user_data, 0);
-  return return_value_fuse_setup_common$1;
+  struct fuse *return_value_fuse_setup_common_1;
+  return_value_fuse_setup_common_1=fuse_setup_common(argc, argv, op, op_size, mountpoint, multithreaded, (signed int *)(void *)0, user_data, 0);
+  return return_value_fuse_setup_common_1;
 }
 
 // fuse_setup_common
@@ -21421,7 +21421,7 @@ struct fuse * fuse_setup_common(signed int argc, char **argv, struct fuse_operat
   signed int foreground;
   signed int res;
   res=fuse_parse_cmdline(&args, mountpoint, multithreaded, &foreground);
-  struct fuse_session *return_value_fuse_get_session$1;
+  struct fuse_session *return_value_fuse_get_session_1;
   if(res == -1)
     return (struct fuse *)(void *)0;
 
@@ -21440,8 +21440,8 @@ struct fuse * fuse_setup_common(signed int argc, char **argv, struct fuse_operat
         res=fuse_daemonize(foreground);
         if(!(res == -1))
         {
-          return_value_fuse_get_session$1=fuse_get_session(fuse);
-          res=fuse_set_signal_handlers(return_value_fuse_get_session$1);
+          return_value_fuse_get_session_1=fuse_get_session(fuse);
+          res=fuse_set_signal_handlers(return_value_fuse_get_session_1);
           if(!(res == -1))
           {
             if(!(fd == ((signed int *)NULL)))
@@ -21474,40 +21474,40 @@ struct fuse * fuse_setup_common(signed int argc, char **argv, struct fuse_operat
 // file helper.c line 399
 struct fuse * fuse_setup_compat2(signed int argc, char **argv, struct fuse_operations_compat2 *op, char **mountpoint, signed int *multithreaded, signed int *fd)
 {
-  struct fuse *return_value_fuse_setup_common$1;
-  return_value_fuse_setup_common$1=fuse_setup_common(argc, argv, (struct fuse_operations *)op, sizeof(struct fuse_operations_compat2) /*200ul*/ , mountpoint, multithreaded, fd, (void *)0, 21);
-  return return_value_fuse_setup_common$1;
+  struct fuse *return_value_fuse_setup_common_1;
+  return_value_fuse_setup_common_1=fuse_setup_common(argc, argv, (struct fuse_operations *)op, sizeof(struct fuse_operations_compat2) /*200ul*/ , mountpoint, multithreaded, fd, (void *)0, 21);
+  return return_value_fuse_setup_common_1;
 }
 
 // fuse_setup_compat22
 // file helper.c line 389
 struct fuse * fuse_setup_compat22(signed int argc, char **argv, struct fuse_operations_compat22 *op, unsigned long int op_size, char **mountpoint, signed int *multithreaded, signed int *fd)
 {
-  struct fuse *return_value_fuse_setup_common$1;
-  return_value_fuse_setup_common$1=fuse_setup_common(argc, argv, (struct fuse_operations *)op, op_size, mountpoint, multithreaded, fd, (void *)0, 22);
-  return return_value_fuse_setup_common$1;
+  struct fuse *return_value_fuse_setup_common_1;
+  return_value_fuse_setup_common_1=fuse_setup_common(argc, argv, (struct fuse_operations *)op, op_size, mountpoint, multithreaded, fd, (void *)0, 22);
+  return return_value_fuse_setup_common_1;
 }
 
 // fuse_setup_compat25
 // file helper.c line 448
 struct fuse * fuse_setup_compat25(signed int argc, char **argv, struct fuse_operations_compat25 *op, unsigned long int op_size, char **mountpoint, signed int *multithreaded, signed int *fd)
 {
-  struct fuse *return_value_fuse_setup_common$1;
-  return_value_fuse_setup_common$1=fuse_setup_common(argc, argv, (struct fuse_operations *)op, op_size, mountpoint, multithreaded, fd, (void *)0, 25);
-  return return_value_fuse_setup_common$1;
+  struct fuse *return_value_fuse_setup_common_1;
+  return_value_fuse_setup_common_1=fuse_setup_common(argc, argv, (struct fuse_operations *)op, op_size, mountpoint, multithreaded, fd, (void *)0, 25);
+  return return_value_fuse_setup_common_1;
 }
 
 // fuse_start_cleanup_thread
 // file fuse.c line 4617
 signed int fuse_start_cleanup_thread(struct fuse *f)
 {
-  signed int return_value_lru_enabled$2;
-  return_value_lru_enabled$2=lru_enabled(f);
-  signed int return_value_fuse_start_thread$1;
-  if(!(return_value_lru_enabled$2 == 0))
+  signed int return_value_lru_enabled_2;
+  return_value_lru_enabled_2=lru_enabled(f);
+  signed int return_value_fuse_start_thread_1;
+  if(!(return_value_lru_enabled_2 == 0))
   {
-    return_value_fuse_start_thread$1=fuse_start_thread(&f->prune_thread, fuse_prune_nodes, (void *)f);
-    return return_value_fuse_start_thread$1;
+    return_value_fuse_start_thread_1=fuse_start_thread(&f->prune_thread, fuse_prune_nodes, (void *)f);
+    return return_value_fuse_start_thread_1;
   }
 
   else
@@ -21518,20 +21518,20 @@ signed int fuse_start_cleanup_thread(struct fuse *f)
 // file fuse_i.h line 130
 signed int fuse_start_thread(unsigned long int *thread_id, void * (*func)(void *), void *arg)
 {
-  struct anonymous$4 oldset;
-  struct anonymous$4 newset;
+  struct anonymous_4 oldset;
+  struct anonymous_4 newset;
   signed int res;
   union pthread_attr_t attr;
   char *stack_size;
   pthread_attr_init(&attr);
   stack_size=getenv("FUSE_THREAD_STACK");
-  signed int return_value_atoi$1;
-  signed int return_value_pthread_attr_setstacksize$2;
+  signed int return_value_atoi_1;
+  signed int return_value_pthread_attr_setstacksize_2;
   if(!(stack_size == ((char *)NULL)))
   {
-    return_value_atoi$1=atoi(stack_size);
-    return_value_pthread_attr_setstacksize$2=pthread_attr_setstacksize(&attr, (unsigned long int)return_value_atoi$1);
-    if(!(return_value_pthread_attr_setstacksize$2 == 0))
+    return_value_atoi_1=atoi(stack_size);
+    return_value_pthread_attr_setstacksize_2=pthread_attr_setstacksize(&attr, (unsigned long int)return_value_atoi_1);
+    if(!(return_value_pthread_attr_setstacksize_2 == 0))
       fprintf(stderr, "fuse: invalid stack size: %s\n", stack_size);
 
   }
@@ -21543,13 +21543,13 @@ signed int fuse_start_thread(unsigned long int *thread_id, void * (*func)(void *
   sigaddset(&newset, 3);
   pthread_sigmask(0, &newset, &oldset);
   res=pthread_create(thread_id, &attr, func, arg);
-  pthread_sigmask(2, &oldset, (struct anonymous$4 *)(void *)0);
+  pthread_sigmask(2, &oldset, (struct anonymous_4 *)(void *)0);
   pthread_attr_destroy(&attr);
   if(!(res == 0))
   {
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(res);
-    fprintf(stderr, "fuse: error creating thread: %s\n", return_value_strerror$3);
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(res);
+    fprintf(stderr, "fuse: error creating thread: %s\n", return_value_strerror_3);
     return -1;
   }
 
@@ -21560,9 +21560,9 @@ signed int fuse_start_thread(unsigned long int *thread_id, void * (*func)(void *
 // file fuse.c line 4625
 void fuse_stop_cleanup_thread(struct fuse *f)
 {
-  signed int return_value_lru_enabled$1;
-  return_value_lru_enabled$1=lru_enabled(f);
-  if(!(return_value_lru_enabled$1 == 0))
+  signed int return_value_lru_enabled_1;
+  return_value_lru_enabled_1=lru_enabled(f);
+  if(!(return_value_lru_enabled_1 == 0))
   {
     pthread_mutex_lock(&f->lock);
     pthread_cancel(f->prune_thread);
@@ -21578,16 +21578,16 @@ signed int fuse_sync_compat_args(struct fuse_args *args)
 {
   struct fuse_ll_compat_conf conf;
   memset((void *)&conf, 0, sizeof(struct fuse_ll_compat_conf) /*8ul*/ );
-  signed int return_value_fuse_opt_parse$1;
-  return_value_fuse_opt_parse$1=fuse_opt_parse(args, (void *)&conf, fuse_ll_opts_compat, (signed int (*)(void *, const char *, signed int, struct fuse_args *))(void *)0);
-  if(return_value_fuse_opt_parse$1 == -1)
+  signed int return_value_fuse_opt_parse_1;
+  return_value_fuse_opt_parse_1=fuse_opt_parse(args, (void *)&conf, fuse_ll_opts_compat, (signed int (*)(void *, const char *, signed int, struct fuse_args *))(void *)0);
+  if(return_value_fuse_opt_parse_1 == -1)
     return -1;
 
   else
   {
-    signed int return_value_fuse_opt_insert_arg$2;
-    return_value_fuse_opt_insert_arg$2=fuse_opt_insert_arg(args, 1, "-osync_read");
-    if(!(return_value_fuse_opt_insert_arg$2 == 0))
+    signed int return_value_fuse_opt_insert_arg_2;
+    return_value_fuse_opt_insert_arg_2=fuse_opt_insert_arg(args, 1, "-osync_read");
+    if(!(return_value_fuse_opt_insert_arg_2 == 0))
       return -1;
 
     else
@@ -21596,9 +21596,9 @@ signed int fuse_sync_compat_args(struct fuse_args *args)
       {
         char tmpbuf[64l];
         sprintf(tmpbuf, "-omax_readahead=%u", conf.max_read);
-        signed int return_value_fuse_opt_insert_arg$3;
-        return_value_fuse_opt_insert_arg$3=fuse_opt_insert_arg(args, 1, tmpbuf);
-        if(return_value_fuse_opt_insert_arg$3 == -1)
+        signed int return_value_fuse_opt_insert_arg_3;
+        return_value_fuse_opt_insert_arg_3=fuse_opt_insert_arg(args, 1, tmpbuf);
+        if(return_value_fuse_opt_insert_arg_3 == -1)
           return -1;
 
       }
@@ -21648,20 +21648,20 @@ void fuse_unmount(const char *mountpoint, struct fuse_chan *ch)
 // file helper.c line 250
 static void fuse_unmount_common(const char *mountpoint, struct fuse_chan *ch)
 {
-  signed int tmp_if_expr$2;
-  signed int return_value_fuse_chan_clearfd$1;
+  signed int tmp_if_expr_2;
+  signed int return_value_fuse_chan_clearfd_1;
   if(!(mountpoint == ((const char *)NULL)))
   {
     signed int fd;
     if(!(ch == ((struct fuse_chan *)NULL)))
     {
-      return_value_fuse_chan_clearfd$1=fuse_chan_clearfd(ch);
-      tmp_if_expr$2 = return_value_fuse_chan_clearfd$1;
+      return_value_fuse_chan_clearfd_1=fuse_chan_clearfd(ch);
+      tmp_if_expr_2 = return_value_fuse_chan_clearfd_1;
     }
 
     else
-      tmp_if_expr$2 = -1;
-    fd = tmp_if_expr$2;
+      tmp_if_expr_2 = -1;
+    fd = tmp_if_expr_2;
     fuse_kern_unmount(mountpoint, fd);
     if(!(ch == ((struct fuse_chan *)NULL)))
       fuse_chan_destroy(ch);
@@ -21700,12 +21700,12 @@ static struct fuse_dh * get_dirhandle(struct fuse_file_info *llfi, struct fuse_f
 static signed int get_mnt_flag_opts(char **mnt_optsp, signed int flags)
 {
   signed int i;
-  signed int return_value_fuse_opt_add_opt$1;
-  signed int return_value_fuse_opt_add_opt$2;
+  signed int return_value_fuse_opt_add_opt_1;
+  signed int return_value_fuse_opt_add_opt_2;
   if((1 & flags) == 0)
   {
-    return_value_fuse_opt_add_opt$1=fuse_opt_add_opt(mnt_optsp, "rw");
-    if(!(return_value_fuse_opt_add_opt$1 == -1))
+    return_value_fuse_opt_add_opt_1=fuse_opt_add_opt(mnt_optsp, "rw");
+    if(!(return_value_fuse_opt_add_opt_1 == -1))
       goto __CPROVER_DUMP_L1;
 
     return -1;
@@ -21722,8 +21722,8 @@ static signed int get_mnt_flag_opts(char **mnt_optsp, signed int flags)
       {
         if(!((mount_flags[(signed long int)i].flag & (unsigned long int)flags) == 0ul))
         {
-          return_value_fuse_opt_add_opt$2=fuse_opt_add_opt(mnt_optsp, mount_flags[(signed long int)i].opt);
-          if(return_value_fuse_opt_add_opt$2 == -1)
+          return_value_fuse_opt_add_opt_2=fuse_opt_add_opt(mnt_optsp, mount_flags[(signed long int)i].opt);
+          if(return_value_fuse_opt_add_opt_2 == -1)
             return -1;
 
         }
@@ -21767,9 +21767,9 @@ static struct node * get_node_nocheck(struct fuse *f, unsigned long int nodeid)
 // file fuse.c line 408
 static unsigned long int get_node_size(struct fuse *f)
 {
-  signed int return_value_lru_enabled$1;
-  return_value_lru_enabled$1=lru_enabled(f);
-  if(!(return_value_lru_enabled$1 == 0))
+  signed int return_value_lru_enabled_1;
+  return_value_lru_enabled_1=lru_enabled(f);
+  if(!(return_value_lru_enabled_1 == 0))
     return sizeof(struct node_lru) /*184ul*/ ;
 
   else
@@ -21780,9 +21780,9 @@ static unsigned long int get_node_size(struct fuse *f)
 // file fuse.c line 1207
 static signed int get_path(struct fuse *f, unsigned long int nodeid, char **path)
 {
-  signed int return_value_get_path_common$1;
-  return_value_get_path_common$1=get_path_common(f, nodeid, (const char *)(void *)0, path, (struct node **)(void *)0);
-  return return_value_get_path_common$1;
+  signed int return_value_get_path_common_1;
+  return_value_get_path_common_1=get_path_common(f, nodeid, (const char *)(void *)0, path, (struct node **)(void *)0);
+  return return_value_get_path_common_1;
 }
 
 // get_path2
@@ -21843,9 +21843,9 @@ static signed int get_path_common(struct fuse *f, unsigned long int nodeid, cons
 // file fuse.c line 1227
 static signed int get_path_name(struct fuse *f, unsigned long int nodeid, const char *name, char **path)
 {
-  signed int return_value_get_path_common$1;
-  return_value_get_path_common$1=get_path_common(f, nodeid, name, path, (struct node **)(void *)0);
-  return return_value_get_path_common$1;
+  signed int return_value_get_path_common_1;
+  return_value_get_path_common_1=get_path_common(f, nodeid, name, path, (struct node **)(void *)0);
+  return return_value_get_path_common_1;
 }
 
 // get_path_nullok
@@ -21874,9 +21874,9 @@ static signed int get_path_nullok(struct fuse *f, unsigned long int nodeid, char
 // file fuse.c line 1233
 static signed int get_path_wrlock(struct fuse *f, unsigned long int nodeid, const char *name, char **path, struct node **wnode)
 {
-  signed int return_value_get_path_common$1;
-  return_value_get_path_common$1=get_path_common(f, nodeid, name, path, wnode);
-  return return_value_get_path_common$1;
+  signed int return_value_get_path_common_1;
+  return_value_get_path_common_1=get_path_common(f, nodeid, name, path, wnode);
+  return return_value_get_path_common_1;
 }
 
 // hash_id
@@ -21901,9 +21901,9 @@ static signed int hash_name(struct fuse *f, struct node *node, unsigned long int
   hash=name_hash(f, parentid, name);
   struct node *parent;
   parent=get_node(f, parentid);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  if(!(return_value_strlen$1 >= sizeof(char [32l]) /*32ul*/ ))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  if(!(return_value_strlen_1 >= sizeof(char [32l]) /*32ul*/ ))
   {
     strcpy(node->inline_name, name);
     node->name = node->inline_name;
@@ -21951,7 +21951,7 @@ static char * hidden_name(struct fuse *f, unsigned long int dir, const char *old
   char *newpath;
   signed int res;
   signed int failctr = 10;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     pthread_mutex_lock(&f->lock);
@@ -21984,13 +21984,13 @@ static char * hidden_name(struct fuse *f, unsigned long int dir, const char *old
     if(res == 0)
     {
       failctr = failctr - 1;
-      tmp_if_expr$1 = failctr != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = failctr != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$1 = (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
   }
-  while(tmp_if_expr$1);
+  while(tmp_if_expr_1);
   return newpath;
 }
 
@@ -22097,8 +22097,8 @@ static signed int iconv_convpath(struct iconv *ic, const char *path, char **newp
   char *p;
   unsigned long int res;
   signed int err;
-  void *tmp_if_expr$2;
-  void *tmp_if_expr$5;
+  void *tmp_if_expr_2;
+  void *tmp_if_expr_5;
   if(path == ((const char *)NULL))
   {
     *newpathp = (char *)(void *)0;
@@ -22109,9 +22109,9 @@ static signed int iconv_convpath(struct iconv *ic, const char *path, char **newp
   {
     pathlen=strlen(path);
     newpathlen = pathlen * (unsigned long int)4;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(newpathlen + (unsigned long int)1);
-    newpath = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(newpathlen + (unsigned long int)1);
+    newpath = (char *)return_value_malloc_1;
     if(newpath == ((char *)NULL))
       return -12;
 
@@ -22123,26 +22123,26 @@ static signed int iconv_convpath(struct iconv *ic, const char *path, char **newp
       do
       {
         if(!(fromfs == 0))
-          tmp_if_expr$2 = ic->fromfs;
+          tmp_if_expr_2 = ic->fromfs;
 
         else
-          tmp_if_expr$2 = ic->tofs;
-        res=iconv(tmp_if_expr$2, (char **)&path, &pathlen, &p, &plen);
+          tmp_if_expr_2 = ic->tofs;
+        res=iconv(tmp_if_expr_2, (char **)&path, &pathlen, &p, &plen);
         if(res == 18446744073709551615ul)
         {
           char *tmp;
           unsigned long int inc;
           err = -84;
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          if(!(*return_value___errno_location$3 == 7))
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          if(!(*return_value___errno_location_3 == 7))
             goto err;
 
           inc = (pathlen + (unsigned long int)1) * (unsigned long int)4;
           newpathlen = newpathlen + inc;
-          void *return_value_realloc$4;
-          return_value_realloc$4=realloc((void *)newpath, newpathlen + (unsigned long int)1);
-          tmp = (char *)return_value_realloc$4;
+          void *return_value_realloc_4;
+          return_value_realloc_4=realloc((void *)newpath, newpathlen + (unsigned long int)1);
+          tmp = (char *)return_value_realloc_4;
           err = -12;
           if(tmp == ((char *)NULL))
             goto err;
@@ -22162,11 +22162,11 @@ static signed int iconv_convpath(struct iconv *ic, const char *path, char **newp
     err:
       ;
       if(!(fromfs == 0))
-        tmp_if_expr$5 = ic->fromfs;
+        tmp_if_expr_5 = ic->fromfs;
 
       else
-        tmp_if_expr$5 = ic->tofs;
-      iconv(tmp_if_expr$5, (char ** restrict )(void *)0, (unsigned long int *)(void *)0, (char ** restrict )(void *)0, (unsigned long int *)(void *)0);
+        tmp_if_expr_5 = ic->tofs;
+      iconv(tmp_if_expr_5, (char ** restrict )(void *)0, (unsigned long int *)(void *)0, (char ** restrict )(void *)0, (unsigned long int *)(void *)0);
       pthread_mutex_unlock(&ic->lock);
       free((void *)newpath);
       return err;
@@ -22213,9 +22213,9 @@ static signed int iconv_dir_fill(void *buf, const char *name, struct stat *stbuf
   struct iconv_dh *dh = (struct iconv_dh *)buf;
   char *newname;
   signed int res = 0;
-  signed int return_value_iconv_convpath$1;
-  return_value_iconv_convpath$1=iconv_convpath(dh->ic, name, &newname, 1);
-  if(return_value_iconv_convpath$1 == 0)
+  signed int return_value_iconv_convpath_1;
+  return_value_iconv_convpath_1=iconv_convpath(dh->ic, name, &newname, 1);
+  if(return_value_iconv_convpath_1 == 0)
   {
     res=dh->prev_filler(dh->prev_buf, newname, stbuf, off);
     free((void *)newname);
@@ -22336,9 +22336,9 @@ static signed int iconv_ftruncate(const char *path, signed long int size, struct
 // file modules/iconv.c line 37
 static struct iconv * iconv_get(void)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return (struct iconv *)return_value_fuse_get_context$1->private_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return (struct iconv *)return_value_fuse_get_context_1->private_data;
 }
 
 // iconv_getattr
@@ -22382,13 +22382,13 @@ static signed int iconv_getxattr(const char *path, const char *name, char *value
 static void iconv_help(void)
 {
   char *old;
-  char *return_value_setlocale$1;
-  return_value_setlocale$1=setlocale(0, "");
-  old=strdup(return_value_setlocale$1);
+  char *return_value_setlocale_1;
+  return_value_setlocale_1=setlocale(0, "");
+  old=strdup(return_value_setlocale_1);
   char *charmap;
-  char *return_value_nl_langinfo$2;
-  return_value_nl_langinfo$2=nl_langinfo(14);
-  charmap=strdup(return_value_nl_langinfo$2);
+  char *return_value_nl_langinfo_2;
+  return_value_nl_langinfo_2=nl_langinfo(14);
+  charmap=strdup(return_value_nl_langinfo_2);
   setlocale(0, old);
   free((void *)old);
   fprintf(stderr, "    -o from_code=CHARSET   original encoding of file names (default: UTF-8)\n    -o to_code=CHARSET\t    new encoding of the file names (default: %s)\n", charmap);
@@ -22511,13 +22511,13 @@ static struct fuse_fs * iconv_new(struct fuse_args *args, struct fuse_fs **next)
   char *old = (char *)(void *)0;
   const char *from;
   const char *to;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct iconv) /*80ul*/ );
-  ic = (struct iconv *)return_value_calloc$1;
-  _Bool tmp_if_expr$3;
-  char *tmp_if_expr$4;
-  char *tmp_if_expr$5;
-  char *return_value_setlocale$6;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct iconv) /*80ul*/ );
+  ic = (struct iconv *)return_value_calloc_1;
+  _Bool tmp_if_expr_3;
+  char *tmp_if_expr_4;
+  char *tmp_if_expr_5;
+  char *return_value_setlocale_6;
   if(ic == ((struct iconv *)NULL))
   {
     fprintf(stderr, "fuse-iconv: memory allocation failed\n");
@@ -22526,36 +22526,36 @@ static struct fuse_fs * iconv_new(struct fuse_args *args, struct fuse_fs **next)
 
   else
   {
-    signed int return_value_fuse_opt_parse$2;
-    return_value_fuse_opt_parse$2=fuse_opt_parse(args, (void *)ic, iconv_opts, iconv_opt_proc);
-    if(!(return_value_fuse_opt_parse$2 == -1))
+    signed int return_value_fuse_opt_parse_2;
+    return_value_fuse_opt_parse_2=fuse_opt_parse(args, (void *)ic, iconv_opts, iconv_opt_proc);
+    if(!(return_value_fuse_opt_parse_2 == -1))
     {
       if(*next == ((struct fuse_fs *)NULL))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = next[(signed long int)1] != ((struct fuse_fs *)NULL) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = next[(signed long int)1] != ((struct fuse_fs *)NULL) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
         fprintf(stderr, "fuse-iconv: exactly one next filesystem required\n");
 
       else
       {
         if(!(ic->from_code == ((char *)NULL)))
-          tmp_if_expr$4 = ic->from_code;
+          tmp_if_expr_4 = ic->from_code;
 
         else
-          tmp_if_expr$4 = "UTF-8";
-        from = tmp_if_expr$4;
+          tmp_if_expr_4 = "UTF-8";
+        from = tmp_if_expr_4;
         if(!(ic->to_code == ((char *)NULL)))
-          tmp_if_expr$5 = ic->to_code;
+          tmp_if_expr_5 = ic->to_code;
 
         else
-          tmp_if_expr$5 = "";
-        to = tmp_if_expr$5;
+          tmp_if_expr_5 = "";
+        to = tmp_if_expr_5;
         if(*to == 0)
         {
-          return_value_setlocale$6=setlocale(0, "");
-          old=strdup(return_value_setlocale$6);
+          return_value_setlocale_6=setlocale(0, "");
+          old=strdup(return_value_setlocale_6);
         }
 
         ic->tofs=iconv_open(from, to);
@@ -23167,13 +23167,13 @@ static void lock_to_flock(struct lock *lock, struct flock *flock)
 {
   flock->l_type = (signed short int)lock->type;
   flock->l_start = lock->start;
-  signed long int tmp_if_expr$1;
+  signed long int tmp_if_expr_1;
   if(lock->end == 0x7fffffffffffffffLL)
-    tmp_if_expr$1 = (signed long int)0;
+    tmp_if_expr_1 = (signed long int)0;
 
   else
-    tmp_if_expr$1 = (lock->end - lock->start) + (signed long int)1;
-  flock->l_len = tmp_if_expr$1;
+    tmp_if_expr_1 = (lock->end - lock->start) + (signed long int)1;
+  flock->l_len = tmp_if_expr_1;
   flock->l_pid = lock->pid;
 }
 
@@ -23182,7 +23182,7 @@ static void lock_to_flock(struct lock *lock, struct flock *flock)
 static struct lock * locks_conflict(struct node *node, struct lock *lock)
 {
   struct lock *l = node->locks;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(l == ((struct lock *)NULL)); l = l->next)
     if(!(l->owner == lock->owner))
     {
@@ -23191,11 +23191,11 @@ static struct lock * locks_conflict(struct node *node, struct lock *lock)
         if(lock->end >= l->start)
         {
           if(l->type == 1)
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = lock->type == 1 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = lock->type == 1 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
             break;
 
         }
@@ -23214,26 +23214,26 @@ static signed int locks_insert(struct node *node, struct lock *lock)
   struct lock **lp;
   struct lock *newl1 = (struct lock *)(void *)0;
   struct lock *newl2 = (struct lock *)(void *)0;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(lock->type == 2))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = lock->start != (signed long int)0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_3 = lock->start != (signed long int)0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = lock->end != 0x7fffffffffffffffLL ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = lock->end != 0x7fffffffffffffffLL ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_4)
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct lock) /*48ul*/ );
-    newl1 = (struct lock *)return_value_malloc$1;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct lock) /*48ul*/ );
-    newl2 = (struct lock *)return_value_malloc$2;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct lock) /*48ul*/ );
+    newl1 = (struct lock *)return_value_malloc_1;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct lock) /*48ul*/ );
+    newl2 = (struct lock *)return_value_malloc_2;
     if(newl1 == ((struct lock *)NULL) || newl2 == ((struct lock *)NULL))
     {
       free((void *)newl1);
@@ -23339,12 +23339,12 @@ static struct node * lookup_node(struct fuse *f, unsigned long int parent, const
   unsigned long int hash;
   hash=name_hash(f, parent, name);
   struct node *node = f->name_table.array[(signed long int)hash];
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; !(node == ((struct node *)NULL)); node = node->name_next)
     if(node->parent->nodeid == parent)
     {
-      return_value_strcmp$1=strcmp(node->name, name);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(node->name, name);
+      if(return_value_strcmp_1 == 0)
         return node;
 
     }
@@ -23410,9 +23410,9 @@ signed int main(signed int argc, char **argv)
   char dev_name[128l] = { 'D', 'E', 'V', 'N', 'A', 'M', 'E', '=', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   const char *dev_info_argv[1l] = { dev_name };
   struct cuse_info ci;
-  signed int return_value_fuse_opt_parse$1;
-  return_value_fuse_opt_parse$1=fuse_opt_parse(&args, (void *)&param, cusexmp_opts, cusexmp_process_arg);
-  if(!(return_value_fuse_opt_parse$1 == 0))
+  signed int return_value_fuse_opt_parse_1;
+  return_value_fuse_opt_parse_1=fuse_opt_parse(&args, (void *)&param, cusexmp_opts, cusexmp_process_arg);
+  if(!(return_value_fuse_opt_parse_1 == 0))
   {
     printf("failed to parse option\n");
     return 1;
@@ -23437,9 +23437,9 @@ signed int main(signed int argc, char **argv)
     ci.dev_info_argc = (unsigned int)1;
     ci.dev_info_argv = dev_info_argv;
     ci.flags = (unsigned int)(1 << 0);
-    signed int return_value_cuse_lowlevel_main$2;
-    return_value_cuse_lowlevel_main$2=cuse_lowlevel_main(args.argc, args.argv, &ci, &cusexmp_clop, (void *)0);
-    return return_value_cuse_lowlevel_main$2;
+    signed int return_value_cuse_lowlevel_main_2;
+    return_value_cuse_lowlevel_main_2=cuse_lowlevel_main(args.argc, args.argv, &ci, &cusexmp_clop, (void *)0);
+    return return_value_cuse_lowlevel_main_2;
   }
 }
 
@@ -23448,32 +23448,32 @@ signed int main(signed int argc, char **argv)
 static signed int match_template(const char *t, const char *arg, unsigned int *sepp)
 {
   signed int arglen;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(arg);
-  arglen = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(arg);
+  arglen = (signed int)return_value_strlen_1;
   const char *sep;
   sep=strchr(t, 61);
-  const char *tmp_if_expr$3;
-  char *return_value_strchr$2;
+  const char *tmp_if_expr_3;
+  char *return_value_strchr_2;
   if(!(sep == ((const char *)NULL)))
-    tmp_if_expr$3 = sep;
+    tmp_if_expr_3 = sep;
 
   else
   {
-    return_value_strchr$2=strchr(t, 32);
-    tmp_if_expr$3 = return_value_strchr$2;
+    return_value_strchr_2=strchr(t, 32);
+    tmp_if_expr_3 = return_value_strchr_2;
   }
-  sep = tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  signed int return_value_strncmp$4;
+  sep = tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strncmp_4;
   if(!(sep == ((const char *)NULL)))
   {
     if(sep[1l] == 0)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = (signed int)sep[(signed long int)1] == 37 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (signed int)sep[(signed long int)1] == 37 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
     {
       signed int tlen = (signed int)(sep - t);
       if((signed int)*sep == 61)
@@ -23481,8 +23481,8 @@ static signed int match_template(const char *t, const char *arg, unsigned int *s
 
       if(arglen >= tlen)
       {
-        return_value_strncmp$4=strncmp(arg, t, (unsigned long int)tlen);
-        if(return_value_strncmp$4 == 0)
+        return_value_strncmp_4=strncmp(arg, t, (unsigned long int)tlen);
+        if(return_value_strncmp_4 == 0)
         {
           *sepp = (unsigned int)(sep - t);
           return 1;
@@ -23494,9 +23494,9 @@ static signed int match_template(const char *t, const char *arg, unsigned int *s
 
   }
 
-  signed int return_value_strcmp$6;
-  return_value_strcmp$6=strcmp(t, arg);
-  if(return_value_strcmp$6 == 0)
+  signed int return_value_strcmp_6;
+  return_value_strcmp_6=strcmp(t, arg);
+  if(return_value_strcmp_6 == 0)
   {
     *sepp = (unsigned int)0;
     return 1;
@@ -23545,9 +23545,9 @@ static signed int mt_chan_receive(struct fuse_chan **chp, char *buf, unsigned lo
 {
   struct fuse_cmd *cmd;
   struct procdata *pd;
-  void *return_value_fuse_chan_data$1;
-  return_value_fuse_chan_data$1=fuse_chan_data(*chp);
-  pd = (struct procdata *)return_value_fuse_chan_data$1;
+  void *return_value_fuse_chan_data_1;
+  return_value_fuse_chan_data_1=fuse_chan_data(*chp);
+  pd = (struct procdata *)return_value_fuse_chan_data_1;
   /* assertion size >= sizeof(cmd) */
   assert(size >= sizeof(struct fuse_cmd *) /*8ul*/ );
   cmd=fuse_read_cmd(pd->f);
@@ -23578,9 +23578,9 @@ static void mt_session_exit(void *data, signed int val)
 static signed int mt_session_exited(void *data)
 {
   struct procdata *pd = (struct procdata *)data;
-  signed int return_value_fuse_session_exited$1;
-  return_value_fuse_session_exited$1=fuse_session_exited(pd->prevse);
-  return return_value_fuse_session_exited$1;
+  signed int return_value_fuse_session_exited_1;
+  return_value_fuse_session_exited_1=fuse_session_exited(pd->prevse);
+  return return_value_fuse_session_exited_1;
 }
 
 // mt_session_proc
@@ -23600,17 +23600,17 @@ static signed int mtab_needs_update(const char *mnt)
 {
   signed int res;
   struct stat stbuf;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(mnt);
-  signed int return_value_strncmp$3;
-  return_value_strncmp$3=strncmp(mnt, "/etc/mtab", return_value_strlen$2);
-  unsigned long int return_value_strlen$1;
-  signed int tmp_if_expr$6;
-  signed int *return_value___errno_location$5;
-  if(return_value_strncmp$3 == 0)
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(mnt);
+  signed int return_value_strncmp_3;
+  return_value_strncmp_3=strncmp(mnt, "/etc/mtab", return_value_strlen_2);
+  unsigned long int return_value_strlen_1;
+  signed int tmp_if_expr_6;
+  signed int *return_value___errno_location_5;
+  if(return_value_strncmp_3 == 0)
   {
-    return_value_strlen$1=strlen(mnt);
-    if(!((signed int)"/etc/mtab"[(signed long int)return_value_strlen$1] == 47))
+    return_value_strlen_1=strlen(mnt);
+    if(!((signed int)"/etc/mtab"[(signed long int)return_value_strlen_1] == 47))
       goto __CPROVER_DUMP_L1;
 
     return 0;
@@ -23624,9 +23624,9 @@ static signed int mtab_needs_update(const char *mnt)
     res=lstat("/etc/mtab", &stbuf);
     if(res == -1)
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      if(*return_value___errno_location$4 == 2)
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      if(*return_value___errno_location_4 == 2)
         return 0;
 
     }
@@ -23645,13 +23645,13 @@ static signed int mtab_needs_update(const char *mnt)
       res=access("/etc/mtab", 2);
       if(res == -1)
       {
-        return_value___errno_location$5=__errno_location();
-        tmp_if_expr$6 = *return_value___errno_location$5;
+        return_value___errno_location_5=__errno_location();
+        tmp_if_expr_6 = *return_value___errno_location_5;
       }
 
       else
-        tmp_if_expr$6 = 0;
-      err = tmp_if_expr$6;
+        tmp_if_expr_6 = 0;
+      err = tmp_if_expr_6;
       if(!(ruid == 0u))
         setreuid(ruid, (unsigned int)-1);
 
@@ -23667,13 +23667,13 @@ static signed int mtab_needs_update(const char *mnt)
 // file fuse.c line 2462
 static signed int mtime_eq(struct stat *stbuf, struct timespec *ts)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(stbuf->st_mtim.tv_sec == ts->tv_sec)
-    tmp_if_expr$1 = stbuf->st_mtim.tv_nsec == ts->tv_nsec ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = stbuf->st_mtim.tv_nsec == ts->tv_nsec ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  return (signed int)tmp_if_expr_1;
 }
 
 // name_hash
@@ -23714,9 +23714,9 @@ static signed int next_arg(struct fuse_opt_context *ctx, const char *opt)
 // file fuse.c line 846
 static unsigned long int next_id(struct fuse *f)
 {
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  struct node *return_value_get_node_nocheck$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  struct node *return_value_get_node_nocheck_2;
   do
   {
     f->ctr = f->ctr + (unsigned long int)1 & (unsigned long int)0xffffffff;
@@ -23724,20 +23724,20 @@ static unsigned long int next_id(struct fuse *f)
       f->generation = f->generation + 1u;
 
     if(f->ctr == 0ul)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = f->ctr == (unsigned long int)0xffffffff ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_1 = f->ctr == (unsigned long int)0xffffffff ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_get_node_nocheck$2=get_node_nocheck(f, f->ctr);
-      tmp_if_expr$3 = return_value_get_node_nocheck$2 != (struct node *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      return_value_get_node_nocheck_2=get_node_nocheck(f, f->ctr);
+      tmp_if_expr_3 = return_value_get_node_nocheck_2 != (struct node *)(void *)0 ? (_Bool)1 : (_Bool)0;
     }
   }
-  while(tmp_if_expr$3);
+  while(tmp_if_expr_3);
   return f->ctr;
 }
 
@@ -23753,9 +23753,9 @@ static struct node_lru * node_lru(struct node *node)
 static signed int node_table_init(struct node_table *t)
 {
   t->size = (unsigned long int)8192;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct node *) /*8ul*/  * t->size);
-  t->array = (struct node **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct node *) /*8ul*/  * t->size);
+  t->array = (struct node **)return_value_calloc_1;
   if(t->array == ((struct node **)NULL))
   {
     fprintf(stderr, "fuse: memory allocation failed\n");
@@ -23826,9 +23826,9 @@ static void open_auto_cache(struct fuse *f, unsigned long int ino, const char *p
   {
     struct timespec now;
     curr_time(&now);
-    double return_value_diff_timespec$1;
-    return_value_diff_timespec$1=diff_timespec(&now, &node->stat_updated);
-    if(return_value_diff_timespec$1 > f->conf.ac_attr_timeout)
+    double return_value_diff_timespec_1;
+    return_value_diff_timespec_1=diff_timespec(&now, &node->stat_updated);
+    if(return_value_diff_timespec_1 > f->conf.ac_attr_timeout)
     {
       struct stat stbuf;
       signed int err;
@@ -23855,13 +23855,13 @@ static void open_auto_cache(struct fuse *f, unsigned long int ino, const char *p
 // file fuse_lowlevel.c line 2296
 static const char * opname(enum fuse_opcode opcode)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((unsigned long int)opcode >= 4097ul)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(fuse_ll_ops[(signed long int)opcode].name != ((const char *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(fuse_ll_ops[(signed long int)opcode].name != ((const char *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return "???";
 
   else
@@ -23874,48 +23874,48 @@ static signed int opt_parse(struct fuse_opt_context *ctx)
 {
   if(!(ctx->argc == 0))
   {
-    signed int return_value_add_arg$1;
-    return_value_add_arg$1=add_arg(ctx, ctx->argv[(signed long int)0]);
-    if(return_value_add_arg$1 == -1)
+    signed int return_value_add_arg_1;
+    return_value_add_arg_1=add_arg(ctx, ctx->argv[(signed long int)0]);
+    if(return_value_add_arg_1 == -1)
       return -1;
 
   }
 
   ctx->argctr = 1;
-  signed int return_value_process_one$2;
+  signed int return_value_process_one_2;
   for( ; !(ctx->argctr >= ctx->argc); ctx->argctr = ctx->argctr + 1)
   {
-    return_value_process_one$2=process_one(ctx, ctx->argv[(signed long int)ctx->argctr]);
-    if(return_value_process_one$2 == -1)
+    return_value_process_one_2=process_one(ctx, ctx->argv[(signed long int)ctx->argctr]);
+    if(return_value_process_one_2 == -1)
       return -1;
 
   }
-  _Bool tmp_if_expr$5;
-  signed int return_value_fuse_opt_insert_arg$4;
+  _Bool tmp_if_expr_5;
+  signed int return_value_fuse_opt_insert_arg_4;
   if(!(ctx->opts == ((char *)NULL)))
   {
-    signed int return_value_fuse_opt_insert_arg$3;
-    return_value_fuse_opt_insert_arg$3=fuse_opt_insert_arg(&ctx->outargs, 1, "-o");
-    if(return_value_fuse_opt_insert_arg$3 == -1)
-      tmp_if_expr$5 = (_Bool)1;
+    signed int return_value_fuse_opt_insert_arg_3;
+    return_value_fuse_opt_insert_arg_3=fuse_opt_insert_arg(&ctx->outargs, 1, "-o");
+    if(return_value_fuse_opt_insert_arg_3 == -1)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_fuse_opt_insert_arg$4=fuse_opt_insert_arg(&ctx->outargs, 2, ctx->opts);
-      tmp_if_expr$5 = return_value_fuse_opt_insert_arg$4 == -1 ? (_Bool)1 : (_Bool)0;
+      return_value_fuse_opt_insert_arg_4=fuse_opt_insert_arg(&ctx->outargs, 2, ctx->opts);
+      tmp_if_expr_5 = return_value_fuse_opt_insert_arg_4 == -1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
       return -1;
 
   }
 
-  signed int return_value_strcmp$6;
+  signed int return_value_strcmp_6;
   if(!(ctx->nonopt == 0))
   {
     if(ctx->nonopt == ctx->outargs.argc)
     {
-      return_value_strcmp$6=strcmp(ctx->outargs.argv[(signed long int)(ctx->outargs.argc - 1)], "--");
-      if(return_value_strcmp$6 == 0)
+      return_value_strcmp_6=strcmp(ctx->outargs.argv[(signed long int)(ctx->outargs.argc - 1)], "--");
+      if(return_value_strcmp_6 == 0)
       {
         free((void *)ctx->outargs.argv[(signed long int)(ctx->outargs.argc - 1)]);
         ctx->outargs.argc = ctx->outargs.argc - 1;
@@ -23936,25 +23936,25 @@ static signed int process_gopt(struct fuse_opt_context *ctx, const char *arg, si
   unsigned int sep;
   struct fuse_opt *opt;
   opt=find_opt(ctx->opt, arg, &sep);
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  signed int return_value_call_proc$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_call_proc_3;
   if(!(opt == ((struct fuse_opt *)NULL)))
   {
     while(!(opt == ((struct fuse_opt *)NULL)))
     {
       signed int res;
       if(!(sep == 0u))
-        tmp_if_expr$1 = (signed int)opt->templ[(signed long int)sep] == 32 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)opt->templ[(signed long int)sep] == 32 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$2 = !(arg[(signed long int)sep] != 0) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_2 = !(arg[(signed long int)sep] != 0) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
         res=process_opt_sep_arg(ctx, opt, sep, arg, iso);
 
       else
@@ -23969,8 +23969,8 @@ static signed int process_gopt(struct fuse_opt_context *ctx, const char *arg, si
 
   else
   {
-    return_value_call_proc$3=call_proc(ctx, arg, -1, iso);
-    return return_value_call_proc$3;
+    return_value_call_proc_3=call_proc(ctx, arg, -1, iso);
+    return return_value_call_proc_3;
   }
 }
 
@@ -23978,20 +23978,20 @@ static signed int process_gopt(struct fuse_opt_context *ctx, const char *arg, si
 // file fuse_opt.c line 348
 static signed int process_one(struct fuse_opt_context *ctx, const char *arg)
 {
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_8;
   if(!(ctx->nonopt == 0))
-    tmp_if_expr$8 = (_Bool)1;
+    tmp_if_expr_8 = (_Bool)1;
 
   else
-    tmp_if_expr$8 = (signed int)arg[(signed long int)0] != 45 ? (_Bool)1 : (_Bool)0;
-  signed int return_value_call_proc$1;
-  signed int return_value_process_option_group$2;
-  _Bool tmp_if_expr$7;
-  signed int return_value_process_gopt$6;
-  if(tmp_if_expr$8)
+    tmp_if_expr_8 = (signed int)arg[(signed long int)0] != 45 ? (_Bool)1 : (_Bool)0;
+  signed int return_value_call_proc_1;
+  signed int return_value_process_option_group_2;
+  _Bool tmp_if_expr_7;
+  signed int return_value_process_gopt_6;
+  if(tmp_if_expr_8)
   {
-    return_value_call_proc$1=call_proc(ctx, arg, -2, 0);
-    return return_value_call_proc$1;
+    return_value_call_proc_1=call_proc(ctx, arg, -2, 0);
+    return return_value_call_proc_1;
   }
 
   else
@@ -23999,35 +23999,35 @@ static signed int process_one(struct fuse_opt_context *ctx, const char *arg)
     {
       if(!(arg[2l] == 0))
       {
-        return_value_process_option_group$2=process_option_group(ctx, arg + (signed long int)2);
-        return return_value_process_option_group$2;
+        return_value_process_option_group_2=process_option_group(ctx, arg + (signed long int)2);
+        return return_value_process_option_group_2;
       }
 
       else
       {
-        signed int return_value_next_arg$3;
-        return_value_next_arg$3=next_arg(ctx, arg);
-        if(return_value_next_arg$3 == -1)
+        signed int return_value_next_arg_3;
+        return_value_next_arg_3=next_arg(ctx, arg);
+        if(return_value_next_arg_3 == -1)
           return -1;
 
-        signed int return_value_process_option_group$4;
-        return_value_process_option_group$4=process_option_group(ctx, ctx->argv[(signed long int)ctx->argctr]);
-        return return_value_process_option_group$4;
+        signed int return_value_process_option_group_4;
+        return_value_process_option_group_4=process_option_group(ctx, ctx->argv[(signed long int)ctx->argctr]);
+        return return_value_process_option_group_4;
       }
     }
 
     else
     {
       if((signed int)arg[1l] == 45)
-        tmp_if_expr$7 = !(arg[(signed long int)2] != 0) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = !(arg[(signed long int)2] != 0) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = (_Bool)0;
+      if(tmp_if_expr_7)
       {
-        signed int return_value_add_arg$5;
-        return_value_add_arg$5=add_arg(ctx, arg);
-        if(return_value_add_arg$5 == -1)
+        signed int return_value_add_arg_5;
+        return_value_add_arg_5=add_arg(ctx, arg);
+        if(return_value_add_arg_5 == -1)
           return -1;
 
         ctx->nonopt = ctx->outargs.argc;
@@ -24036,8 +24036,8 @@ static signed int process_one(struct fuse_opt_context *ctx, const char *arg)
 
       else
       {
-        return_value_process_gopt$6=process_gopt(ctx, arg, 0);
-        return return_value_process_gopt$6;
+        return_value_process_gopt_6=process_gopt(ctx, arg, 0);
+        return return_value_process_gopt_6;
       }
     }
 }
@@ -24046,12 +24046,12 @@ static signed int process_one(struct fuse_opt_context *ctx, const char *arg)
 // file fuse_opt.c line 228
 static signed int process_opt(struct fuse_opt_context *ctx, struct fuse_opt *opt, unsigned int sep, const char *arg, signed int iso)
 {
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(opt->offset == 4294967295ul)
   {
-    signed int return_value_call_proc$1;
-    return_value_call_proc$1=call_proc(ctx, arg, opt->value, iso);
-    if(return_value_call_proc$1 == -1)
+    signed int return_value_call_proc_1;
+    return_value_call_proc_1=call_proc(ctx, arg, opt->value, iso);
+    if(return_value_call_proc_1 == -1)
       return -1;
 
   }
@@ -24060,19 +24060,19 @@ static signed int process_opt(struct fuse_opt_context *ctx, struct fuse_opt *opt
   {
     void *var = ctx->data + (signed long int)opt->offset;
     if(!(sep == 0u))
-      tmp_if_expr$3 = opt->templ[(signed long int)(sep + (unsigned int)1)] != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = opt->templ[(signed long int)(sep + (unsigned int)1)] != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
     {
       const char *param = arg + (signed long int)sep;
       if((signed int)opt->templ[(signed long int)sep] == 61)
         param = param + 1l;
 
-      signed int return_value_process_opt_param$2;
-      return_value_process_opt_param$2=process_opt_param(var, opt->templ + (signed long int)sep + (signed long int)1, param, arg);
-      if(return_value_process_opt_param$2 == -1)
+      signed int return_value_process_opt_param_2;
+      return_value_process_opt_param_2=process_opt_param(var, opt->templ + (signed long int)sep + (signed long int)1, param, arg);
+      if(return_value_process_opt_param_2 == -1)
         return -1;
 
     }
@@ -24089,15 +24089,15 @@ static signed int process_opt_param(void *var, const char *format, const char *p
 {
   /* assertion format[0] == '%' */
   assert((signed int)format[(signed long int)0] == 37);
-  signed int return_value_alloc_failed$1;
+  signed int return_value_alloc_failed_1;
   if((signed int)format[1l] == 115)
   {
     char *copy;
     copy=strdup(param);
     if(copy == ((char *)NULL))
     {
-      return_value_alloc_failed$1=alloc_failed();
-      return return_value_alloc_failed$1;
+      return_value_alloc_failed_1=alloc_failed();
+      return return_value_alloc_failed_1;
     }
 
     *((char **)var) = copy;
@@ -24105,9 +24105,9 @@ static signed int process_opt_param(void *var, const char *format, const char *p
 
   else
   {
-    signed int return_value_sscanf$2;
-    return_value_sscanf$2=sscanf(param, format, var);
-    if(!(return_value_sscanf$2 == 1))
+    signed int return_value_sscanf_2;
+    return_value_sscanf_2=sscanf(param, format, var);
+    if(!(return_value_sscanf_2 == 1))
     {
       fprintf(stderr, "fuse: invalid parameter in option `%s'\n", arg);
       return -1;
@@ -24124,24 +24124,24 @@ static signed int process_opt_sep_arg(struct fuse_opt_context *ctx, struct fuse_
   signed int res;
   char *newarg;
   char *param;
-  signed int return_value_next_arg$1;
-  return_value_next_arg$1=next_arg(ctx, arg);
-  signed int return_value_alloc_failed$4;
-  if(return_value_next_arg$1 == -1)
+  signed int return_value_next_arg_1;
+  return_value_next_arg_1=next_arg(ctx, arg);
+  signed int return_value_alloc_failed_4;
+  if(return_value_next_arg_1 == -1)
     return -1;
 
   else
   {
     param = ctx->argv[(signed long int)ctx->argctr];
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(param);
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)sep + return_value_strlen$2 + (unsigned long int)1);
-    newarg = (char *)return_value_malloc$3;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(param);
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)sep + return_value_strlen_2 + (unsigned long int)1);
+    newarg = (char *)return_value_malloc_3;
     if(newarg == ((char *)NULL))
     {
-      return_value_alloc_failed$4=alloc_failed();
-      return return_value_alloc_failed$4;
+      return_value_alloc_failed_4=alloc_failed();
+      return return_value_alloc_failed_4;
     }
 
     else
@@ -24183,15 +24183,15 @@ static signed int process_real_option_group(struct fuse_opt_context *ctx, char *
   char *s = opts;
   char *d = s;
   signed int end = 0;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  char *tmp_post$1;
-  char *tmp_post$2;
-  char *tmp_post$8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  char *tmp_post_8;
   for( ; end == 0; s = s + 1l)
   {
     if((signed int)*s == 0)
@@ -24211,59 +24211,59 @@ static signed int process_real_option_group(struct fuse_opt_context *ctx, char *
     else
     {
       if((signed int)*s == 92)
-        tmp_if_expr$9 = (signed int)s[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_9 = (signed int)s[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$9 = (_Bool)0;
-      if(tmp_if_expr$9)
+        tmp_if_expr_9 = (_Bool)0;
+      if(tmp_if_expr_9)
       {
         s = s + 1l;
         if((signed int)*s >= 48)
-          tmp_if_expr$3 = (signed int)s[(signed long int)0] <= 51 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (signed int)s[(signed long int)0] <= 51 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (signed int)s[(signed long int)1] >= 48 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (signed int)s[(signed long int)1] >= 48 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
-          tmp_if_expr$5 = (signed int)s[(signed long int)1] <= 55 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
+          tmp_if_expr_5 = (signed int)s[(signed long int)1] <= 55 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
-          tmp_if_expr$6 = (signed int)s[(signed long int)2] >= 48 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
+          tmp_if_expr_6 = (signed int)s[(signed long int)2] >= 48 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
-          tmp_if_expr$7 = (signed int)s[(signed long int)2] <= 55 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
+          tmp_if_expr_7 = (signed int)s[(signed long int)2] <= 55 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = (_Bool)0;
+        if(tmp_if_expr_7)
         {
-          tmp_post$1 = d;
+          tmp_post_1 = d;
           d = d + 1l;
-          *tmp_post$1 = (char)(((signed int)s[(signed long int)0] - 48) * 0100 + ((signed int)s[(signed long int)1] - 48) * 0010 + ((signed int)s[(signed long int)2] - 48));
+          *tmp_post_1 = (char)(((signed int)s[(signed long int)0] - 48) * 0100 + ((signed int)s[(signed long int)1] - 48) * 0010 + ((signed int)s[(signed long int)2] - 48));
           s = s + (signed long int)2;
         }
 
         else
         {
-          tmp_post$2 = d;
+          tmp_post_2 = d;
           d = d + 1l;
-          *tmp_post$2 = *s;
+          *tmp_post_2 = *s;
         }
       }
 
       else
       {
-        tmp_post$8 = d;
+        tmp_post_8 = d;
         d = d + 1l;
-        *tmp_post$8 = *s;
+        *tmp_post_8 = *s;
       }
     }
   }
@@ -24275,28 +24275,28 @@ static signed int process_real_option_group(struct fuse_opt_context *ctx, char *
 static void queue_element_unlock(struct fuse *f, struct lock_queue_element *qe)
 {
   struct node *wnode;
-  struct node *tmp_if_expr$1;
+  struct node *tmp_if_expr_1;
   if(!(qe->first_locked == 0))
   {
     if(!(qe->wnode1 == ((struct node **)NULL)))
-      tmp_if_expr$1 = *qe->wnode1;
+      tmp_if_expr_1 = *qe->wnode1;
 
     else
-      tmp_if_expr$1 = (struct node *)(void *)0;
-    wnode = tmp_if_expr$1;
+      tmp_if_expr_1 = (struct node *)(void *)0;
+    wnode = tmp_if_expr_1;
     unlock_path(f, qe->nodeid1, wnode, (struct node *)(void *)0);
     qe->first_locked = (_Bool)0;
   }
 
-  struct node *tmp_if_expr$2;
+  struct node *tmp_if_expr_2;
   if(!(qe->second_locked == 0))
   {
     if(!(qe->wnode2 == ((struct node **)NULL)))
-      tmp_if_expr$2 = *qe->wnode2;
+      tmp_if_expr_2 = *qe->wnode2;
 
     else
-      tmp_if_expr$2 = (struct node *)(void *)0;
-    wnode = tmp_if_expr$2;
+      tmp_if_expr_2 = (struct node *)(void *)0;
+    wnode = tmp_if_expr_2;
     unlock_path(f, qe->nodeid2, wnode, (struct node *)(void *)0);
     qe->second_locked = (_Bool)0;
   }
@@ -24311,9 +24311,9 @@ static void queue_element_wakeup(struct fuse *f, struct lock_queue_element *qe)
   _Bool first = qe == f->lockq;
   if(qe->path1 == ((char **)NULL))
   {
-    struct node *return_value_get_node$1;
-    return_value_get_node$1=get_node(f, qe->nodeid1);
-    if(return_value_get_node$1->treelock == 0)
+    struct node *return_value_get_node_1;
+    return_value_get_node_1=get_node(f, qe->nodeid1);
+    if(return_value_get_node_1->treelock == 0)
       pthread_cond_signal(&qe->cond);
 
     goto __CPROVER_DUMP_L13;
@@ -24347,15 +24347,15 @@ static void queue_element_wakeup(struct fuse *f, struct lock_queue_element *qe)
 
   }
 
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(qe->first_locked == 0))
   {
     if(!(qe->second_locked == 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = !(qe->path2 != ((char **)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = !(qe->path2 != ((char **)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_2)
       goto __CPROVER_DUMP_L9;
 
     err = 0;
@@ -24394,7 +24394,7 @@ static void queue_path(struct fuse *f, struct lock_queue_element *qe)
   qe->done = (_Bool)0;
   qe->first_locked = (_Bool)0;
   qe->second_locked = (_Bool)0;
-  pthread_cond_init(&qe->cond, (const union anonymous$7 *)(void *)0);
+  pthread_cond_init(&qe->cond, (const union anonymous_7 *)(void *)0);
   qe->next = (struct lock_queue_element *)(void *)0;
   qp = &f->lockq;
   for( ; !(*qp == ((struct lock_queue_element *)NULL)); qp = &(*qp)->next)
@@ -24407,16 +24407,16 @@ static void queue_path(struct fuse *f, struct lock_queue_element *qe)
 static signed int read_back(signed int fd, char *buf, unsigned long int len)
 {
   signed int res;
-  signed long int return_value_read$1;
-  return_value_read$1=read(fd, (void *)buf, len);
-  res = (signed int)return_value_read$1;
+  signed long int return_value_read_1;
+  return_value_read_1=read(fd, (void *)buf, len);
+  res = (signed int)return_value_read_1;
   if(res == -1)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    fprintf(stderr, "fuse: internal error: failed to read back from pipe: %s\n", return_value_strerror$3);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    fprintf(stderr, "fuse: internal error: failed to read back from pipe: %s\n", return_value_strerror_3);
     return -5;
   }
 
@@ -24484,22 +24484,22 @@ static signed int receive_fd(signed int fd)
   msg.msg_iovlen = (unsigned long int)1;
   msg.msg_control = (void *)ccmsg;
   msg.msg_controllen = sizeof(unsigned long int [3l]) /*24ul*/ ;
-  signed long int return_value_recvmsg$1;
-  signed int *return_value___errno_location$2;
+  signed long int return_value_recvmsg_1;
+  signed int *return_value___errno_location_2;
   do
   {
-    return_value_recvmsg$1=recvmsg(fd, &msg, 0);
-    rv = (signed int)return_value_recvmsg$1;
+    return_value_recvmsg_1=recvmsg(fd, &msg, 0);
+    rv = (signed int)return_value_recvmsg_1;
     if(!(rv == -1))
       break;
 
-    return_value___errno_location$2=__errno_location();
-    if(!(*return_value___errno_location$2 == 4))
+    return_value___errno_location_2=__errno_location();
+    if(!(*return_value___errno_location_2 == 4))
       break;
 
   }
   while((_Bool)1);
-  struct cmsghdr *tmp_if_expr$3;
+  struct cmsghdr *tmp_if_expr_3;
   if(rv == -1)
   {
     perror("recvmsg");
@@ -24513,11 +24513,11 @@ static signed int receive_fd(signed int fd)
     else
     {
       if(msg.msg_controllen >= sizeof(struct cmsghdr) /*16ul*/ )
-        tmp_if_expr$3 = (struct cmsghdr *)(&msg)->msg_control;
+        tmp_if_expr_3 = (struct cmsghdr *)(&msg)->msg_control;
 
       else
-        tmp_if_expr$3 = (struct cmsghdr *)0;
-      cmsg = tmp_if_expr$3;
+        tmp_if_expr_3 = (struct cmsghdr *)0;
+      cmsg = tmp_if_expr_3;
       if(!(cmsg->cmsg_type == 1))
       {
         fprintf(stderr, "got control message of unknown type %d\n", cmsg->cmsg_type);
@@ -24663,56 +24663,56 @@ static signed int remove_mount(const char *progname, const char *mnt)
 {
   signed int res;
   signed int status;
-  struct anonymous$4 blockmask;
-  struct anonymous$4 oldmask;
+  struct anonymous_4 blockmask;
+  struct anonymous_4 oldmask;
   sigemptyset(&blockmask);
   sigaddset(&blockmask, 17);
   res=sigprocmask(0, &blockmask, &oldmask);
   if(res == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "%s: sigprocmask: %s\n", progname, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "%s: sigprocmask: %s\n", progname, return_value_strerror_2);
     return -1;
   }
 
   res=fork();
   if(res == -1)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fprintf(stderr, "%s: fork: %s\n", progname, return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fprintf(stderr, "%s: fork: %s\n", progname, return_value_strerror_4);
     goto out_restore;
   }
 
   if(res == 0)
   {
     char *env = (char *)(void *)0;
-    sigprocmask(2, &oldmask, (struct anonymous$4 *)(void *)0);
-    unsigned int return_value_geteuid$5;
-    return_value_geteuid$5=geteuid();
-    setuid(return_value_geteuid$5);
+    sigprocmask(2, &oldmask, (struct anonymous_4 *)(void *)0);
+    unsigned int return_value_geteuid_5;
+    return_value_geteuid_5=geteuid();
+    setuid(return_value_geteuid_5);
     execle("/bin/umount", "/bin/umount", (const void *)"--no-canonicalize", (const void *)"-i", (const void *)"--fake", mnt, (void *)0, &env);
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    char *return_value_strerror$7;
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    fprintf(stderr, "%s: failed to execute /bin/umount: %s\n", progname, return_value_strerror$7);
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    char *return_value_strerror_7;
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    fprintf(stderr, "%s: failed to execute /bin/umount: %s\n", progname, return_value_strerror_7);
     exit(1);
   }
 
   res=waitpid(res, &status, 0);
-  signed int *return_value___errno_location$8;
-  char *return_value_strerror$9;
+  signed int *return_value___errno_location_8;
+  char *return_value_strerror_9;
   if(res == -1)
   {
-    return_value___errno_location$8=__errno_location();
-    return_value_strerror$9=strerror(*return_value___errno_location$8);
-    fprintf(stderr, "%s: waitpid: %s\n", progname, return_value_strerror$9);
+    return_value___errno_location_8=__errno_location();
+    return_value_strerror_9=strerror(*return_value___errno_location_8);
+    fprintf(stderr, "%s: waitpid: %s\n", progname, return_value_strerror_9);
   }
 
   if(!(status == 0))
@@ -24721,7 +24721,7 @@ static signed int remove_mount(const char *progname, const char *mnt)
 
 out_restore:
   ;
-  sigprocmask(2, &oldmask, (struct anonymous$4 *)(void *)0);
+  sigprocmask(2, &oldmask, (struct anonymous_4 *)(void *)0);
   return res;
 }
 
@@ -24758,7 +24758,7 @@ static signed int rename_node(struct fuse *f, unsigned long int olddir, const ch
   pthread_mutex_lock(&f->lock);
   node=lookup_node(f, olddir, oldname);
   newnode=lookup_node(f, newdir, newname);
-  signed int return_value_hash_name$1;
+  signed int return_value_hash_name_1;
   if(!(node == ((struct node *)NULL)))
   {
     if(!(newnode == ((struct node *)NULL)))
@@ -24774,8 +24774,8 @@ static signed int rename_node(struct fuse *f, unsigned long int olddir, const ch
     }
 
     unhash_name(f, node);
-    return_value_hash_name$1=hash_name(f, node, newdir, newname);
-    if(return_value_hash_name$1 == -1)
+    return_value_hash_name_1=hash_name(f, node, newdir, newname);
+    if(return_value_hash_name_1 == -1)
       err = -12;
 
     else
@@ -24799,9 +24799,9 @@ static void reply_entry(struct fuse_req *req, struct fuse_entry_param *e, signed
   {
     struct fuse *f;
     f=req_fuse(req);
-    signed int return_value_fuse_reply_entry$1;
-    return_value_fuse_reply_entry$1=fuse_reply_entry(req, e);
-    if(return_value_fuse_reply_entry$1 == -2)
+    signed int return_value_fuse_reply_entry_1;
+    return_value_fuse_reply_entry_1=fuse_reply_entry(req, e);
+    if(return_value_fuse_reply_entry_1 == -2)
     {
       if(!(e->ino == 0ul))
         forget_node(f, e->ino, (unsigned long int)1);
@@ -24832,9 +24832,9 @@ static struct cuse_lowlevel_ops * req_clop(struct fuse_req *req)
 // file fuse.c line 1430
 static struct fuse * req_fuse(struct fuse_req *req)
 {
-  void *return_value_fuse_req_userdata$1;
-  return_value_fuse_req_userdata$1=fuse_req_userdata(req);
-  return (struct fuse *)return_value_fuse_req_userdata$1;
+  void *return_value_fuse_req_userdata_1;
+  return_value_fuse_req_userdata_1=fuse_req_userdata(req);
+  return (struct fuse *)return_value_fuse_req_userdata_1;
 }
 
 // req_fuse_prepare
@@ -24868,9 +24868,9 @@ static signed int send_notify_iov(struct fuse_ll *f, struct fuse_chan *ch, signe
     out.error = notify_code;
     (iov + (signed long int)0)->iov_base = (void *)&out;
     (iov + (signed long int)0)->iov_len = sizeof(struct fuse_out_header) /*16ul*/ ;
-    signed int return_value_fuse_send_msg$1;
-    return_value_fuse_send_msg$1=fuse_send_msg(f, ch, iov, count);
-    return return_value_fuse_send_msg$1;
+    signed int return_value_fuse_send_msg_1;
+    return_value_fuse_send_msg_1=fuse_send_msg(f, ch, iov, count);
+    return return_value_fuse_send_msg_1;
   }
 }
 
@@ -24887,9 +24887,9 @@ static signed int send_reply(struct fuse_req *req, signed int error, const void 
     count = count + 1;
   }
 
-  signed int return_value_send_reply_iov$1;
-  return_value_send_reply_iov$1=send_reply_iov(req, error, iov, count);
-  return return_value_send_reply_iov$1;
+  signed int return_value_send_reply_iov_1;
+  return_value_send_reply_iov_1=send_reply_iov(req, error, iov, count);
+  return return_value_send_reply_iov_1;
 }
 
 // send_reply_iov
@@ -24906,9 +24906,9 @@ static signed int send_reply_iov(struct fuse_req *req, signed int error, struct 
 // file fuse_lowlevel.c line 295
 static signed int send_reply_ok(struct fuse_req *req, const void *arg, unsigned long int argsize)
 {
-  signed int return_value_send_reply$1;
-  return_value_send_reply$1=send_reply(req, 0, arg, argsize);
-  return return_value_send_reply$1;
+  signed int return_value_send_reply_1;
+  return_value_send_reply_1=send_reply(req, 0, arg, argsize);
+  return return_value_send_reply_1;
 }
 
 // set_forget_time
@@ -24930,9 +24930,9 @@ static void set_mount_flag(const char *s, signed int *flags)
   for( ; !(mount_flags[(signed long int)i].opt == ((const char *)NULL)); i = i + 1)
   {
     const char *opt = mount_flags[(signed long int)i].opt;
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(opt, s);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(opt, s);
+    if(return_value_strcmp_1 == 0)
     {
       if(!(mount_flags[(signed long int)i].on == 0))
         *flags = *flags | (signed int)mount_flags[(signed long int)i].flag;
@@ -24960,10 +24960,10 @@ static signed int set_one_signal_handler(signed int sig, void (*handler)(signed 
   sa.__sigaction_handler.sa_handler = remove != 0 ? (void (*)(signed int))0 : handler;
   sigemptyset(&sa.sa_mask);
   sa.sa_flags = 0;
-  signed int return_value_sigaction$1;
-  return_value_sigaction$1=sigaction(sig, (struct sigaction *)(void *)0, &old_sa);
-  signed int return_value_sigaction$2;
-  if(return_value_sigaction$1 == -1)
+  signed int return_value_sigaction_1;
+  return_value_sigaction_1=sigaction(sig, (struct sigaction *)(void *)0, &old_sa);
+  signed int return_value_sigaction_2;
+  if(return_value_sigaction_1 == -1)
   {
     perror("fuse: cannot get old signal handler");
     return -1;
@@ -24972,8 +24972,8 @@ static signed int set_one_signal_handler(signed int sig, void (*handler)(signed 
   else
     if(remove == 0 ? old_sa.__sigaction_handler.sa_handler == ((void (*)(signed int))NULL) : handler == old_sa.__sigaction_handler.sa_handler)
     {
-      return_value_sigaction$2=sigaction(sig, &sa, (struct sigaction *)(void *)0);
-      if(!(return_value_sigaction$2 == -1))
+      return_value_sigaction_2=sigaction(sig, &sa, (struct sigaction *)(void *)0);
+      if(!(return_value_sigaction_2 == -1))
         goto __CPROVER_DUMP_L2;
 
       perror("fuse: cannot set signal handler");
@@ -25016,13 +25016,13 @@ static void strip_common(const char **sp, const char **tp)
 
 __CPROVER_DUMP_L1:
   ;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
   while((_Bool)1)
   {
     if((signed int)*s == 47)
@@ -25038,16 +25038,16 @@ __CPROVER_DUMP_L1:
     do
     {
       if(*s == *t)
-        tmp_if_expr$6 = *s != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = *s != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(tmp_if_expr$6)
-        tmp_if_expr$7 = (signed int)*s != 47 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (_Bool)0;
+      if(tmp_if_expr_6)
+        tmp_if_expr_7 = (signed int)*s != 47 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(!tmp_if_expr$7)
+        tmp_if_expr_7 = (_Bool)0;
+      if(!tmp_if_expr_7)
         break;
 
       s = s + 1l;
@@ -25055,35 +25055,35 @@ __CPROVER_DUMP_L1:
     }
     while((_Bool)1);
     if(*s == *t)
-      tmp_if_expr$1 = *s != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *s != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       if(*s == 0)
-        tmp_if_expr$2 = (signed int)*t == 47 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)*t == 47 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
-      tmp_if_expr$5 = (_Bool)1;
+    if(tmp_if_expr_3)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
       if((signed int)*s == 47)
-        tmp_if_expr$4 = !(*t != 0) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = !(*t != 0) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
+      tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$5)
+    if(!tmp_if_expr_5)
       break;
 
   }
@@ -25115,12 +25115,12 @@ static signed int subdir_addpath(struct subdir *d, const char *path, char **newp
   if(!(path == ((const char *)NULL)))
   {
     unsigned int newlen;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(path);
-    newlen = (unsigned int)(d->baselen + return_value_strlen$1);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)(newlen + (unsigned int)2));
-    newpath = (char *)return_value_malloc$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(path);
+    newlen = (unsigned int)(d->baselen + return_value_strlen_1);
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)(newlen + (unsigned int)2));
+    newpath = (char *)return_value_malloc_2;
     if(newpath == ((char *)NULL))
       return -12;
 
@@ -25332,9 +25332,9 @@ static signed int subdir_ftruncate(const char *path, signed long int size, struc
 // file modules/subdir.c line 25
 static struct subdir * subdir_get(void)
 {
-  struct fuse_context *return_value_fuse_get_context$1;
-  return_value_fuse_get_context$1=fuse_get_context();
-  return (struct subdir *)return_value_fuse_get_context$1->private_data;
+  struct fuse_context *return_value_fuse_get_context_1;
+  return_value_fuse_get_context_1=fuse_get_context();
+  return (struct subdir *)return_value_fuse_get_context_1->private_data;
 }
 
 // subdir_getattr
@@ -25493,11 +25493,11 @@ static struct fuse_fs * subdir_new(struct fuse_args *args, struct fuse_fs **next
 {
   struct fuse_fs *fs;
   struct subdir *d;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct subdir) /*32ul*/ );
-  d = (struct subdir *)return_value_calloc$1;
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_strlen$6;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct subdir) /*32ul*/ );
+  d = (struct subdir *)return_value_calloc_1;
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_strlen_6;
   if(d == ((struct subdir *)NULL))
   {
     fprintf(stderr, "fuse-subdir: memory allocation failed\n");
@@ -25506,16 +25506,16 @@ static struct fuse_fs * subdir_new(struct fuse_args *args, struct fuse_fs **next
 
   else
   {
-    signed int return_value_fuse_opt_parse$2;
-    return_value_fuse_opt_parse$2=fuse_opt_parse(args, (void *)d, subdir_opts, subdir_opt_proc);
-    if(!(return_value_fuse_opt_parse$2 == -1))
+    signed int return_value_fuse_opt_parse_2;
+    return_value_fuse_opt_parse_2=fuse_opt_parse(args, (void *)d, subdir_opts, subdir_opt_proc);
+    if(!(return_value_fuse_opt_parse_2 == -1))
     {
       if(*next == ((struct fuse_fs *)NULL))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = next[(signed long int)1] != ((struct fuse_fs *)NULL) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = next[(signed long int)1] != ((struct fuse_fs *)NULL) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
         fprintf(stderr, "fuse-subdir: exactly one next filesystem required\n");
         goto out_free;
@@ -25529,15 +25529,15 @@ static struct fuse_fs * subdir_new(struct fuse_args *args, struct fuse_fs **next
 
       if(!(*d->base == 0))
       {
-        return_value_strlen$6=strlen(d->base);
-        if(!((signed int)d->base[-1l + (signed long int)return_value_strlen$6] == 47))
+        return_value_strlen_6=strlen(d->base);
+        if(!((signed int)d->base[-1l + (signed long int)return_value_strlen_6] == 47))
         {
           char *tmp;
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(d->base);
-          void *return_value_realloc$5;
-          return_value_realloc$5=realloc((void *)d->base, return_value_strlen$4 + (unsigned long int)2);
-          tmp = (char *)return_value_realloc$5;
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(d->base);
+          void *return_value_realloc_5;
+          return_value_realloc_5=realloc((void *)d->base, return_value_strlen_4 + (unsigned long int)2);
+          tmp = (char *)return_value_realloc_5;
           if(tmp == ((char *)NULL))
           {
             fprintf(stderr, "fuse-subdir: memory allocation failed\n");
@@ -25917,13 +25917,13 @@ static void transform_symlink(struct subdir *d, const char *path, char *buf, uns
   char *s;
   signed int dotdots;
   signed int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((signed int)*l == 47))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)d->base[(signed long int)0] != 47 ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)d->base[(signed long int)0] != 47 ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     strip_common(&l, &path);
     if(l - buf >= (signed long int)d->baselen)
@@ -25974,10 +25974,10 @@ static signed int try_get_path(struct fuse *f, unsigned long int nodeid, const c
   signed int err;
   *path = (char *)(void *)0;
   err = -12;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)bufsize);
-  buf = (char *)return_value_malloc$1;
-  _Bool tmp_if_expr$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)bufsize);
+  buf = (char *)return_value_malloc_1;
+  _Bool tmp_if_expr_2;
   if(!(buf == ((char *)NULL)))
   {
     s = (buf + (signed long int)bufsize) - (signed long int)1;
@@ -26017,11 +26017,11 @@ static signed int try_get_path(struct fuse *f, unsigned long int nodeid, const c
     {
       err = -2;
       if(node->name == ((char *)NULL))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = node->parent == (struct node *)(void *)0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = node->parent == (struct node *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         goto out_unlock;
 
       err = -12;
@@ -26073,7 +26073,7 @@ static signed int try_get_path2(struct fuse *f, unsigned long int nodeid1, const
 {
   signed int err;
   err=try_get_path(f, nodeid1, name1, path1, wnode1, (_Bool)1);
-  struct node *tmp_if_expr$1;
+  struct node *tmp_if_expr_1;
   if(err == 0)
   {
     err=try_get_path(f, nodeid2, name2, path2, wnode2, (_Bool)1);
@@ -26081,11 +26081,11 @@ static signed int try_get_path2(struct fuse *f, unsigned long int nodeid1, const
     {
       struct node *wn1;
       if(!(wnode1 == ((struct node **)NULL)))
-        tmp_if_expr$1 = *wnode1;
+        tmp_if_expr_1 = *wnode1;
 
       else
-        tmp_if_expr$1 = (struct node *)(void *)0;
-      wn1 = tmp_if_expr$1;
+        tmp_if_expr_1 = (struct node *)(void *)0;
+      wn1 = tmp_if_expr_1;
       unlock_path(f, nodeid1, wn1, (struct node *)(void *)0);
       free((void *)*path1);
     }
@@ -26100,9 +26100,9 @@ static signed int try_get_path2(struct fuse *f, unsigned long int nodeid1, const
 static void unhash_id(struct fuse *f, struct node *node)
 {
   struct node **nodep;
-  unsigned long int return_value_id_hash$1;
-  return_value_id_hash$1=id_hash(f, node->nodeid);
-  nodep = &f->id_table.array[(signed long int)return_value_id_hash$1];
+  unsigned long int return_value_id_hash_1;
+  return_value_id_hash_1=id_hash(f, node->nodeid);
+  nodep = &f->id_table.array[(signed long int)return_value_id_hash_1];
   for( ; !(*nodep == ((struct node *)NULL)); nodep = &(*nodep)->id_next)
     if(*nodep == node)
     {
@@ -26182,15 +26182,15 @@ static void unlock_path(struct fuse *f, unsigned long int nodeid, struct node *w
   }
 
   node=get_node(f, nodeid);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(node == end))
-      tmp_if_expr$1 = node->nodeid != (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = node->nodeid != (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     /* assertion node->treelock != 0 */
@@ -26224,17 +26224,17 @@ static void unref_node(struct fuse *f, struct node *node)
 // file fuse.c line 2486
 static void update_stat(struct node *node, struct stat *stbuf)
 {
-  signed int return_value_mtime_eq$1;
-  _Bool tmp_if_expr$2;
+  signed int return_value_mtime_eq_1;
+  _Bool tmp_if_expr_2;
   if(!(node->cache_valid == 0u))
   {
-    return_value_mtime_eq$1=mtime_eq(stbuf, &node->mtime);
-    if(return_value_mtime_eq$1 == 0)
-      tmp_if_expr$2 = (_Bool)1;
+    return_value_mtime_eq_1=mtime_eq(stbuf, &node->mtime);
+    if(return_value_mtime_eq_1 == 0)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = stbuf->st_size != node->size ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = stbuf->st_size != node->size ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       node->cache_valid = (unsigned int)0;
 
   }
@@ -26245,9 +26245,9 @@ static void update_stat(struct node *node, struct stat *stbuf)
   curr_time(&node->stat_updated);
 }
 
-// usage$link1
+// usage_link1
 // file helper.c line 60
-static void usage$link1(const char *progname)
+static void usage_link1(const char *progname)
 {
   fprintf(stderr, "usage: %s mountpoint [options]\n\n", progname);
   fprintf(stderr, "general options:\n    -o opt,[opt...]        mount options\n    -h   --help            print help\n    -V   --version         print version\n\n");

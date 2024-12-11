@@ -1,82 +1,82 @@
-// tag-#anon#ST[*{V(SYM#tag-sigval#)->V}$V(SYM#tag-sigval#)->V$'_function'||*{SYM#tag-pthread_attr_t#}$SYM#tag-pthread_attr_t#$'_attribute'|]
+// tag-#anon#ST[*{V(SYM#tag-sigval#)->V}_V(SYM#tag-sigval#)->V_'_function'||*{SYM#tag-pthread_attr_t#}_SYM#tag-pthread_attr_t#_'_attribute'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 327
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$17;
+struct anonymous_17;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$11;
+struct anonymous_11;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$16;
+struct anonymous_16;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
 union anonymous;
 
-// tag-#anon#UN[ARR12{S32}$S32$'_pad'||S32'_tid'||SYM#tag-#anon#ST[*{V(SYM#tag-sigval#)->V}$V(SYM#tag-sigval#)->V$'_function'||*{SYM#tag-pthread_attr_t#}$SYM#tag-pthread_attr_t#$'_attribute'|]#'_sigev_thread'|]
+// tag-#anon#UN[ARR12{S32}_S32_'_pad'||S32'_tid'||SYM#tag-#anon#ST[*{V(SYM#tag-sigval#)->V}_V(SYM#tag-sigval#)->V_'_function'||*{SYM#tag-pthread_attr_t#}_SYM#tag-pthread_attr_t#_'_attribute'|]#'_sigev_thread'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 319
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$3;
+union anonymous_3;
 
 // tag-#anon#UN[SYM#tag-io_iocb_common#'c'||SYM#tag-io_iocb_vector#'v'||SYM#tag-io_iocb_poll#'poll'||SYM#tag-io_iocb_sockaddr#'saddr'|]
 // file /usr/include/libaio.h line 126
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$2;
+union anonymous_2;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -361,57 +361,57 @@ struct wdmd_header;
 // INIT_LIST_HEAD
 // file list.h line 40
 static inline void INIT_LIST_HEAD(struct list_head *list);
-// INIT_LIST_HEAD$link1
+// INIT_LIST_HEAD_link1
 // file list.h line 40
-static inline void INIT_LIST_HEAD$link1(struct list_head *list$link1);
+static inline void INIT_LIST_HEAD_link1(struct list_head *list_link1);
 // __errno_location
 // file /usr/include/x86_64-linux-gnu/bits/errno.h line 50
 extern signed int * __errno_location(void);
 // __list_add
 // file list.h line 52
 static inline void __list_add(struct list_head *new, struct list_head *prev, struct list_head *next);
-// __list_add$link1
+// __list_add_link1
 // file list.h line 52
-static inline void __list_add$link1(struct list_head *new$link1, struct list_head *prev$link1, struct list_head *next$link1);
-// __list_add$link2
+static inline void __list_add_link1(struct list_head *new_link1, struct list_head *prev_link1, struct list_head *next_link1);
+// __list_add_link2
 // file list.h line 52
-static inline void __list_add$link2(struct list_head *new$link2, struct list_head *prev$link2, struct list_head *next$link2);
+static inline void __list_add_link2(struct list_head *new_link2, struct list_head *prev_link2, struct list_head *next_link2);
 // __list_del
 // file list.h line 96
 static inline void __list_del(struct list_head *prev, struct list_head *next);
-// __list_del$link1
+// __list_del_link1
 // file list.h line 96
-static inline void __list_del$link1(struct list_head *prev$link1, struct list_head *next$link1);
-// __list_del$link2
+static inline void __list_del_link1(struct list_head *prev_link1, struct list_head *next_link1);
+// __list_del_link2
 // file list.h line 96
-static inline void __list_del$link2(struct list_head *prev$link2, struct list_head *next$link2);
+static inline void __list_del_link2(struct list_head *prev_link2, struct list_head *next_link2);
 // _client_free
 // file main.c line 119
 static void _client_free(signed int ci);
 // _leader_read_num
 // file paxos_lease.c line 715
 static signed int _leader_read_num(struct task *task, struct token *token, struct leader_record *leader_ret, const char *caller);
-// _leader_read_num$link1
+// _leader_read_num_link1
 // file paxos_lease.c line 715
-static signed int _leader_read_num$link1(struct task *task$link1, struct token *token$link1, struct leader_record *leader_ret$link1, const char *caller$link1);
+static signed int _leader_read_num_link1(struct task *task_link1, struct token *token_link1, struct leader_record *leader_ret_link1, const char *caller_link1);
 // _leader_read_one
 // file paxos_lease.c line 691
 static signed int _leader_read_one(struct task *task, struct token *token, struct leader_record *leader_ret, const char *caller);
-// _leader_read_one$link1
+// _leader_read_one_link1
 // file paxos_lease.c line 691
-static signed int _leader_read_one$link1(struct task *task$link1, struct token *token$link1, struct leader_record *leader_ret$link1, const char *caller$link1);
+static signed int _leader_read_one_link1(struct task *task_link1, struct token *token_link1, struct leader_record *leader_ret_link1, const char *caller_link1);
 // _lease_read_num
 // file paxos_lease.c line 900
 static signed int _lease_read_num(struct task *task, struct token *token, struct leader_record *leader_ret, struct paxos_dblock *our_dblock, unsigned long int *max_mbal, signed int *max_q, const char *caller);
-// _lease_read_num$link1
+// _lease_read_num_link1
 // file paxos_lease.c line 900
-static signed int _lease_read_num$link1(struct task *task$link1, struct token *token$link1, struct leader_record *leader_ret$link1, struct paxos_dblock *our_dblock$link1, unsigned long int *max_mbal$link1, signed int *max_q$link1, const char *caller$link1);
+static signed int _lease_read_num_link1(struct task *task_link1, struct token *token_link1, struct leader_record *leader_ret_link1, struct paxos_dblock *our_dblock_link1, unsigned long int *max_mbal_link1, signed int *max_q_link1, const char *caller_link1);
 // _lease_read_one
 // file paxos_lease.c line 837
 static signed int _lease_read_one(struct task *task, struct token *token, struct sync_disk *disk, struct leader_record *leader_ret, struct paxos_dblock *our_dblock, unsigned long int *max_mbal, signed int *max_q, const char *caller);
-// _lease_read_one$link1
+// _lease_read_one_link1
 // file paxos_lease.c line 837
-static signed int _lease_read_one$link1(struct task *task$link1, struct token *token$link1, struct sync_disk *disk$link1, struct leader_record *leader_ret$link1, struct paxos_dblock *our_dblock$link1, unsigned long int *max_mbal$link1, signed int *max_q$link1, const char *caller$link1);
+static signed int _lease_read_one_link1(struct task *task_link1, struct token *token_link1, struct sync_disk *disk_link1, struct leader_record *leader_ret_link1, struct paxos_dblock *our_dblock_link1, unsigned long int *max_mbal_link1, signed int *max_q_link1, const char *caller_link1);
 // _lockspace_info
 // file lockspace.c line 95
 signed int _lockspace_info(char *space_name, struct space *sp_out);
@@ -430,12 +430,12 @@ static struct space * _search_space(char *name, struct sync_disk *disk, unsigned
 // _write_sectors
 // file diskio.c line 599
 static signed int _write_sectors(struct sync_disk *disk, unsigned long int sector_nr, unsigned int sector_count, const char *data, signed int data_len, signed int iobuf_len, struct task *task, const char *blktype);
-// _write_sectors$link1
+// _write_sectors_link1
 // file diskio.c line 599
-static signed int _write_sectors$link1(struct sync_disk *disk$link1, unsigned long int sector_nr$link1, unsigned int sector_count$link1, const char *data$link1, signed int data_len$link1, signed int iobuf_len$link1, struct task *task$link1, const char *blktype$link1);
+static signed int _write_sectors_link1(struct sync_disk *disk_link1, unsigned long int sector_nr_link1, unsigned int sector_count_link1, const char *data_link1, signed int data_len_link1, signed int iobuf_len_link1, struct task *task_link1, const char *blktype_link1);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous$2, unsigned int *);
+extern signed int accept(signed int, union anonymous_2, unsigned int *);
 // acquire_disk
 // file resource.c line 293
 static signed int acquire_disk(struct task *task, struct token *token, unsigned long int acquire_lver, signed int new_num_hosts, struct leader_record *leader);
@@ -471,7 +471,7 @@ extern signed int atoi(const char *);
 extern signed long long int atoll(const char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$2, unsigned int);
+extern signed int bind(signed int, union anonymous_2, unsigned int);
 // blkid_free_probe
 // file /usr/include/blkid/blkid.h line 222
 extern void blkid_free_probe(struct blkid_struct_probe *);
@@ -520,12 +520,12 @@ static signed int clear_dead_shared(struct task *task, struct token *token, sign
 // client_add
 // file main.c line 264
 static signed int client_add(signed int fd, void (*workfn)(signed int), void (*deadfn)(signed int));
-// client_add::deadfn$object
+// client_add::deadfn_object
 //
-void deadfn$object(signed int);
-// client_add::workfn$object
+void deadfn_object(signed int);
+// client_add::workfn_object
 //
-void workfn$object(signed int);
+void workfn_object(signed int);
 // client_alloc
 // file main.c line 92
 static signed int client_alloc(void);
@@ -624,7 +624,7 @@ static void cmd_restrict(signed int ci, signed int fd, struct sm_header *h_recv)
 static void cmd_status(signed int fd, struct sm_header *h_recv, signed int client_maxi);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous$2, unsigned int);
+extern signed int connect(signed int, union anonymous_2, unsigned int);
 // connect_socket
 // file client.c line 40
 static signed int connect_socket(signed int *sock_fd);
@@ -658,9 +658,9 @@ extern signed int daemon(signed int, signed int);
 // dblock_checksum
 // file paxos_lease.c line 183
 static unsigned int dblock_checksum(struct paxos_dblock *pd);
-// dblock_checksum$link1
+// dblock_checksum_link1
 // file paxos_lease.c line 183
-static unsigned int dblock_checksum$link1(struct paxos_dblock *pd$link1);
+static unsigned int dblock_checksum_link1(struct paxos_dblock *pd_link1);
 // delta_lease_acquire
 // file delta_lease.c line 191
 signed int delta_lease_acquire(struct task *task, struct space *sp, struct sync_disk *disk, char *space_name, char *our_host_name, unsigned long int host_id, struct leader_record *leader_ret);
@@ -718,63 +718,63 @@ static signed int do_daemon(void);
 // do_delta_action
 // file direct.c line 184
 static signed int do_delta_action(signed int action, struct task *task, struct sanlk_lockspace *ls, signed int max_hosts, char *our_host_name, struct leader_record *leader_ret);
-// do_delta_action$link1
+// do_delta_action_link1
 // file direct.c line 184
-static signed int do_delta_action$link1(signed int action$link1, struct task *task$link1, struct sanlk_lockspace *ls$link1, signed int max_hosts$link1, char *our_host_name$link1, struct leader_record *leader_ret$link1);
+static signed int do_delta_action_link1(signed int action_link1, struct task *task_link1, struct sanlk_lockspace *ls_link1, signed int max_hosts_link1, char *our_host_name_link1, struct leader_record *leader_ret_link1);
 // do_direct
 // file main.c line 1871
 static signed int do_direct(void);
 // do_linux_aio
 // file diskio.c line 368
 static signed int do_linux_aio(signed int fd, unsigned long int offset, char *buf, signed int len, struct task *task, signed int cmd);
-// do_linux_aio$link1
+// do_linux_aio_link1
 // file diskio.c line 368
-static signed int do_linux_aio$link1(signed int fd$link1, unsigned long int offset$link1, char *buf$link1, signed int len$link1, struct task *task$link1, signed int cmd$link1);
+static signed int do_linux_aio_link1(signed int fd_link1, unsigned long int offset_link1, char *buf_link1, signed int len_link1, struct task *task_link1, signed int cmd_link1);
 // do_paxos_action
 // file direct.c line 81
 static signed int do_paxos_action(signed int action, struct task *task, struct sanlk_resource *res, signed int max_hosts, signed int num_hosts, unsigned long int local_host_id, unsigned long int local_host_generation, struct leader_record *leader_ret);
-// do_paxos_action$link1
+// do_paxos_action_link1
 // file direct.c line 81
-static signed int do_paxos_action$link1(signed int action$link1, struct task *task$link1, struct sanlk_resource *res$link1, signed int max_hosts$link1, signed int num_hosts$link1, unsigned long int local_host_id$link1, unsigned long int local_host_generation$link1, struct leader_record *leader_ret$link1);
+static signed int do_paxos_action_link1(signed int action_link1, struct task *task_link1, struct sanlk_resource *res_link1, signed int max_hosts_link1, signed int num_hosts_link1, unsigned long int local_host_id_link1, unsigned long int local_host_generation_link1, struct leader_record *leader_ret_link1);
 // do_read
 // file diskio.c line 292
 static signed int do_read(signed int fd, unsigned long int offset, char *buf, signed int len, struct task *task);
-// do_read$link1
+// do_read_link1
 // file diskio.c line 292
-static signed int do_read$link1(signed int fd$link1, unsigned long int offset$link1, char *buf$link1, signed int len$link1, struct task *task$link1);
+static signed int do_read_link1(signed int fd_link1, unsigned long int offset_link1, char *buf_link1, signed int len_link1, struct task *task_link1);
 // do_read_aio_linux
 // file diskio.c line 485
 static signed int do_read_aio_linux(signed int fd, unsigned long int offset, char *buf, signed int len, struct task *task);
-// do_read_aio_linux$link1
+// do_read_aio_linux_link1
 // file diskio.c line 485
-static signed int do_read_aio_linux$link1(signed int fd$link1, unsigned long int offset$link1, char *buf$link1, signed int len$link1, struct task *task$link1);
+static signed int do_read_aio_linux_link1(signed int fd_link1, unsigned long int offset_link1, char *buf_link1, signed int len_link1, struct task *task_link1);
 // do_read_aio_posix
 // file diskio.c line 539
 static signed int do_read_aio_posix(signed int fd, unsigned long int offset, char *buf, signed int len, struct task *task);
-// do_read_aio_posix$link1
+// do_read_aio_posix_link1
 // file diskio.c line 539
-static signed int do_read_aio_posix$link1(signed int fd$link1, unsigned long int offset$link1, char *buf$link1, signed int len$link1, struct task *task$link1);
+static signed int do_read_aio_posix_link1(signed int fd_link1, unsigned long int offset_link1, char *buf_link1, signed int len_link1, struct task *task_link1);
 // do_req_kill_pid
 // file resource.c line 802
 static void do_req_kill_pid(struct token *tt, signed int pid);
 // do_write
 // file diskio.c line 259
 static signed int do_write(signed int fd, unsigned long int offset, const char *buf, signed int len, struct task *task);
-// do_write$link1
+// do_write_link1
 // file diskio.c line 259
-static signed int do_write$link1(signed int fd$link1, unsigned long int offset$link1, const char *buf$link1, signed int len$link1, struct task *task$link1);
+static signed int do_write_link1(signed int fd_link1, unsigned long int offset_link1, const char *buf_link1, signed int len_link1, struct task *task_link1);
 // do_write_aio_linux
 // file diskio.c line 480
 static signed int do_write_aio_linux(signed int fd, unsigned long int offset, char *buf, signed int len, struct task *task);
-// do_write_aio_linux$link1
+// do_write_aio_linux_link1
 // file diskio.c line 480
-static signed int do_write_aio_linux$link1(signed int fd$link1, unsigned long int offset$link1, char *buf$link1, signed int len$link1, struct task *task$link1);
+static signed int do_write_aio_linux_link1(signed int fd_link1, unsigned long int offset_link1, char *buf_link1, signed int len_link1, struct task *task_link1);
 // do_write_aio_posix
 // file diskio.c line 490
 static signed int do_write_aio_posix(signed int fd, unsigned long int offset, char *buf, signed int len, struct task *task);
-// do_write_aio_posix$link1
+// do_write_aio_posix_link1
 // file diskio.c line 490
-static signed int do_write_aio_posix$link1(signed int fd$link1, unsigned long int offset$link1, char *buf$link1, signed int len$link1, struct task *task$link1);
+static signed int do_write_aio_posix_link1(signed int fd_link1, unsigned long int offset_link1, char *buf_link1, signed int len_link1, struct task *task_link1);
 // examine_token
 // file resource.c line 772
 static signed int examine_token(struct task *task, struct token *token, struct request_record *req_out);
@@ -799,9 +799,9 @@ extern signed int fileno(struct _IO_FILE *);
 // find_callback_slot
 // file diskio.c line 318
 static struct aicb * find_callback_slot(struct task *task);
-// find_callback_slot$link1
+// find_callback_slot_link1
 // file diskio.c line 318
-static struct aicb * find_callback_slot$link1(struct task *task$link1);
+static struct aicb * find_callback_slot_link1(struct task *task_link1);
 // find_lockspace
 // file lockspace.c line 90
 struct space * find_lockspace(char *name);
@@ -904,48 +904,48 @@ unsigned int leader_checksum(struct leader_record *lr);
 // leaders_match
 // file paxos_lease.c line 684
 static signed int leaders_match(struct leader_record *a, struct leader_record *b);
-// leaders_match$link1
+// leaders_match_link1
 // file paxos_lease.c line 684
-static signed int leaders_match$link1(struct leader_record *a$link1, struct leader_record *b$link1);
+static signed int leaders_match_link1(struct leader_record *a_link1, struct leader_record *b_link1);
 // list_add
 // file list.h line 70
 static inline void list_add(struct list_head *new, struct list_head *head);
-// list_add$link1
+// list_add_link1
 // file list.h line 70
-static inline void list_add$link1(struct list_head *new$link1, struct list_head *head$link1);
-// list_add$link2
+static inline void list_add_link1(struct list_head *new_link1, struct list_head *head_link1);
+// list_add_link2
 // file list.h line 70
-static inline void list_add$link2(struct list_head *new$link2, struct list_head *head$link2);
+static inline void list_add_link2(struct list_head *new_link2, struct list_head *head_link2);
 // list_add_tail
 // file list.h line 84
 static inline void list_add_tail(struct list_head *new, struct list_head *head);
 // list_del
 // file list.h line 108
 static inline void list_del(struct list_head *entry);
-// list_del$link1
+// list_del_link1
 // file list.h line 108
-static inline void list_del$link1(struct list_head *entry$link1);
-// list_del$link2
+static inline void list_del_link1(struct list_head *entry_link1);
+// list_del_link2
 // file list.h line 108
-static inline void list_del$link2(struct list_head *entry$link2);
+static inline void list_del_link2(struct list_head *entry_link2);
 // list_empty
 // file list.h line 186
 static inline signed int list_empty(struct list_head *head);
-// list_empty$link1
+// list_empty_link1
 // file list.h line 186
-static inline signed int list_empty$link1(struct list_head *head$link1);
-// list_empty$link2
+static inline signed int list_empty_link1(struct list_head *head_link1);
+// list_empty_link2
 // file list.h line 186
-static inline signed int list_empty$link2(struct list_head *head$link2);
+static inline signed int list_empty_link2(struct list_head *head_link2);
 // list_move
 // file list.h line 153
 static inline void list_move(struct list_head *list, struct list_head *head);
-// list_move$link1
+// list_move_link1
 // file list.h line 153
-static inline void list_move$link1(struct list_head *list$link1, struct list_head *head$link1);
-// list_move$link2
+static inline void list_move_link1(struct list_head *list_link1, struct list_head *head_link1);
+// list_move_link2
 // file list.h line 153
-static inline void list_move$link2(struct list_head *list$link2, struct list_head *head$link2);
+static inline void list_move_link2(struct list_head *list_link2, struct list_head *head_link2);
 // listen
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 233
 extern signed int listen(signed int, signed int);
@@ -967,15 +967,15 @@ static void * lockspace_thread(void *arg_in);
 // log_leader_error
 // file delta_lease.c line 44
 static void log_leader_error(signed int result, char *space_name, unsigned long int host_id, struct sync_disk *disk, struct leader_record *lr, const char *caller);
-// log_leader_error$link1
+// log_leader_error_link1
 // file paxos_lease.c line 568
-static void log_leader_error$link1(signed int result$link1, struct token *token, struct sync_disk *disk$link1, struct leader_record *lr$link1, const char *caller$link1);
-// log_leader_error$link1$link1
+static void log_leader_error_link1(signed int result_link1, struct token *token, struct sync_disk *disk_link1, struct leader_record *lr_link1, const char *caller_link1);
+// log_leader_error_link1_link1
 // file paxos_lease.c line 568
-static void log_leader_error$link1$link1(signed int result$link1$link1, struct token *token$link1, struct sync_disk *disk$link1$link1, struct leader_record *lr$link1$link1, const char *caller$link1$link1);
-// log_leader_error$link2
+static void log_leader_error_link1_link1(signed int result_link1_link1, struct token *token_link1, struct sync_disk *disk_link1_link1, struct leader_record *lr_link1_link1, const char *caller_link1_link1);
+// log_leader_error_link2
 // file delta_lease.c line 44
-static void log_leader_error$link2(signed int result$link2, char *space_name$link1, unsigned long int host_id$link1, struct sync_disk *disk$link2, struct leader_record *lr$link2, const char *caller$link2);
+static void log_leader_error_link2(signed int result_link2, char *space_name_link1, unsigned long int host_id_link1, struct sync_disk *disk_link2, struct leader_record *lr_link2, const char *caller_link2);
 // log_level
 // file log.h line 12
 void log_level(unsigned int space_id, unsigned int token_id, char *name_in, signed int level, const char *fmt, ...);
@@ -988,12 +988,12 @@ extern signed long int lseek(signed int, signed long int, signed int);
 // main_loop
 // file main.c line 560
 static signed int main_loop(void);
-// main_loop::1::deadfn$object
+// main_loop::1::deadfn_object
 //
-void deadfn$object(signed int);
-// main_loop::1::workfn$object
+void deadfn_object(signed int);
+// main_loop::1::workfn_object
 //
-void workfn$object(signed int);
+void workfn_object(signed int);
 // majority_disks
 // file diskio.c line 82
 signed int majority_disks(signed int num_disks, signed int num);
@@ -1054,9 +1054,9 @@ signed int paxos_lease_leader_read(struct task *task, struct token *token, struc
 // paxos_lease_read
 // file paxos_lease.c line 1006
 static signed int paxos_lease_read(struct task *task, struct token *token, struct leader_record *leader_ret, unsigned long int *max_mbal, const char *caller);
-// paxos_lease_read$link1
+// paxos_lease_read_link1
 // file paxos_lease.c line 1006
-static signed int paxos_lease_read$link1(struct task *task$link1, struct token *token$link1, struct leader_record *leader_ret$link1, unsigned long int *max_mbal$link1, const char *caller$link1);
+static signed int paxos_lease_read_link1(struct task *task_link1, struct token *token_link1, struct leader_record *leader_ret_link1, unsigned long int *max_mbal_link1, const char *caller_link1);
 // paxos_lease_release
 // file paxos_lease.h line 30
 signed int paxos_lease_release(struct task *task, struct token *token, struct leader_record *leader_last, struct leader_record *leader_ret);
@@ -1126,24 +1126,24 @@ static void process_cmd_thread_unregistered(signed int ci_in, struct sm_header *
 // process_connection
 // file main.c line 967
 static void process_connection(signed int ci);
-// process_connection::1::deadfn$object
+// process_connection::1::deadfn_object
 //
-void deadfn$object(signed int);
+void deadfn_object(signed int);
 // process_listener
 // file main.c line 1046
 static void process_listener(signed int ci);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$4 *);
+extern signed int pthread_cond_broadcast(union anonymous_4 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$4 *, const union anonymous$5 *);
+extern signed int pthread_cond_init(union anonymous_4 *, const union anonymous_5 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$4 *);
+extern signed int pthread_cond_signal(union anonymous_4 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$4 *, union anonymous$3 *);
+extern signed int pthread_cond_wait(union anonymous_4 *, union anonymous_3 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1155,13 +1155,13 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$3 *, const union anonymous$5 *);
+extern signed int pthread_mutex_init(union anonymous_3 *, const union anonymous_5 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$3 *);
+extern signed int pthread_mutex_lock(union anonymous_3 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$3 *);
+extern signed int pthread_mutex_unlock(union anonymous_3 *);
 // pthread_tryjoin_np
 // file /usr/include/pthread.h line 257
 extern signed int pthread_tryjoin_np(unsigned long int, void **);
@@ -1186,9 +1186,9 @@ signed int read_iobuf_reap(signed int fd, unsigned long int offset, char *iobuf,
 // read_leader
 // file paxos_lease.c line 169
 static signed int read_leader(struct task *task, struct sync_disk *disk, struct leader_record *lr);
-// read_leader$link1
+// read_leader_link1
 // file paxos_lease.c line 169
-static signed int read_leader$link1(struct task *task$link1, struct sync_disk *disk$link1, struct leader_record *lr$link1);
+static signed int read_leader_link1(struct task *task_link1, struct sync_disk *disk_link1, struct leader_record *lr_link1);
 // read_mode_block
 // file resource.c line 199
 static signed int read_mode_block(struct task *task, struct token *token, unsigned long int host_id, unsigned long int *max_gen);
@@ -1246,15 +1246,15 @@ static void resource_thread_release(struct task *task, struct resource *r, struc
 // roundup_power_of_two
 // file paxos_lease.c line 48
 static unsigned int roundup_power_of_two(unsigned int val);
-// roundup_power_of_two$link1
+// roundup_power_of_two_link1
 // file paxos_lease.c line 48
-static unsigned int roundup_power_of_two$link1(unsigned int val$link1);
+static unsigned int roundup_power_of_two_link1(unsigned int val_link1);
 // run_ballot
 // file paxos_lease.c line 253
 static signed int run_ballot(struct task *task, struct token *token, signed int num_hosts, unsigned long int next_lver, unsigned long int our_mbal, struct paxos_dblock *dblock_out);
-// run_ballot$link1
+// run_ballot_link1
 // file paxos_lease.c line 253
-static signed int run_ballot$link1(struct task *task$link1, struct token *token$link1, signed int num_hosts$link1, unsigned long int next_lver$link1, unsigned long int our_mbal$link1, struct paxos_dblock *dblock_out$link1);
+static signed int run_ballot_link1(struct task *task_link1, struct token *token_link1, signed int num_hosts_link1, unsigned long int next_lver_link1, unsigned long int our_mbal_link1, struct paxos_dblock *dblock_out_link1);
 // sanlock_acquire
 // file sanlock_resource.h line 38
 signed int sanlock_acquire(signed int sock, signed int pid, unsigned int flags, signed int res_count, struct sanlk_resource **res_args, struct sanlk_options *opt_in);
@@ -1348,12 +1348,12 @@ signed int send_command(signed int cmd, unsigned int data);
 // send_header
 // file client.c line 63
 static signed int send_header(signed int sock, signed int cmd, unsigned int cmd_flags, signed int datalen, unsigned int data, unsigned int data2);
-// send_header$link1
+// send_header_link1
 // file client.c line 66
-static signed int send_header$link1(signed int con, signed int cmd$link1);
-// send_header$link2
+static signed int send_header_link1(signed int con, signed int cmd_link1);
+// send_header_link2
 // file client.c line 66
-static signed int send_header$link2(signed int con$link1, signed int cmd$link2);
+static signed int send_header_link2(signed int con_link1, signed int cmd_link2);
 // send_result
 // file main.c line 322
 void send_result(signed int fd, struct sm_header *h_recv, signed int result);
@@ -1378,9 +1378,9 @@ void send_state_resources(signed int fd);
 // set_disk_properties
 // file diskio.c line 34
 static signed int set_disk_properties(struct sync_disk *disk);
-// set_disk_properties$link1
+// set_disk_properties_link1
 // file diskio.c line 34
-static signed int set_disk_properties$link1(struct sync_disk *disk$link1);
+static signed int set_disk_properties_link1(struct sync_disk *disk_link1);
 // set_id_bit
 // file lockspace.c line 145
 void set_id_bit(signed int host_id, char *bitmap, char *c);
@@ -1549,21 +1549,21 @@ extern void uuid_unparse_lower(unsigned char *, char *);
 // verify_dblock
 // file paxos_lease.c line 188
 static signed int verify_dblock(struct token *token, struct paxos_dblock *pd);
-// verify_dblock$link1
+// verify_dblock_link1
 // file paxos_lease.c line 188
-static signed int verify_dblock$link1(struct token *token$link1, struct paxos_dblock *pd$link1);
+static signed int verify_dblock_link1(struct token *token_link1, struct paxos_dblock *pd_link1);
 // verify_leader
 // file delta_lease.c line 78
 static signed int verify_leader(struct sync_disk *disk, char *space_name, unsigned long int host_id, struct leader_record *lr, const char *caller);
-// verify_leader$link1
+// verify_leader_link1
 // file paxos_lease.c line 607
-static signed int verify_leader$link1(struct token *token, struct sync_disk *disk$link1, struct leader_record *lr$link1, const char *caller$link1);
-// verify_leader$link1$link1
+static signed int verify_leader_link1(struct token *token, struct sync_disk *disk_link1, struct leader_record *lr_link1, const char *caller_link1);
+// verify_leader_link1_link1
 // file paxos_lease.c line 607
-static signed int verify_leader$link1$link1(struct token *token$link1, struct sync_disk *disk$link1$link1, struct leader_record *lr$link1$link1, const char *caller$link1$link1);
-// verify_leader$link2
+static signed int verify_leader_link1_link1(struct token *token_link1, struct sync_disk *disk_link1_link1, struct leader_record *lr_link1_link1, const char *caller_link1_link1);
+// verify_leader_link2
 // file delta_lease.c line 78
-static signed int verify_leader$link2(struct sync_disk *disk$link2, char *space_name$link1, unsigned long int host_id$link1, struct leader_record *lr$link2, const char *caller$link2);
+static signed int verify_leader_link2(struct sync_disk *disk_link2, char *space_name_link1, unsigned long int host_id_link1, struct leader_record *lr_link2, const char *caller_link2);
 // vsnprintf
 // file /usr/include/stdio.h line 390
 extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
@@ -1594,9 +1594,9 @@ extern signed long int write(signed int, const void *, unsigned long int);
 // write_dblock
 // file paxos_lease.c line 88
 static signed int write_dblock(struct task *task, struct sync_disk *disk, unsigned long int host_id, struct paxos_dblock *pd);
-// write_dblock$link1
+// write_dblock_link1
 // file paxos_lease.c line 88
-static signed int write_dblock$link1(struct task *task$link1, struct sync_disk *disk$link1, unsigned long int host_id$link1, struct paxos_dblock *pd$link1);
+static signed int write_dblock_link1(struct task *task_link1, struct sync_disk *disk_link1, unsigned long int host_id_link1, struct paxos_dblock *pd_link1);
 // write_dropped
 // file log.c line 182
 static void write_dropped(signed int level, signed int num);
@@ -1609,15 +1609,15 @@ signed int write_iobuf(signed int fd, unsigned long int offset, char *iobuf, sig
 // write_leader
 // file paxos_lease.c line 103
 static signed int write_leader(struct task *task, struct sync_disk *disk, struct leader_record *lr);
-// write_leader$link1
+// write_leader_link1
 // file paxos_lease.c line 103
-static signed int write_leader$link1(struct task *task$link1, struct sync_disk *disk$link1, struct leader_record *lr$link1);
+static signed int write_leader_link1(struct task *task_link1, struct sync_disk *disk_link1, struct leader_record *lr_link1);
 // write_new_leader
 // file paxos_lease.c line 1040
 static signed int write_new_leader(struct task *task, struct token *token, struct leader_record *nl, const char *caller);
-// write_new_leader$link1
+// write_new_leader_link1
 // file paxos_lease.c line 1040
-static signed int write_new_leader$link1(struct task *task$link1, struct token *token$link1, struct leader_record *nl$link1, const char *caller$link1);
+static signed int write_new_leader_link1(struct task *task_link1, struct token *token_link1, struct leader_record *nl_link1, const char *caller_link1);
 // write_sector
 // file diskio.h line 37
 signed int write_sector(struct sync_disk *disk, unsigned long int sector_nr, const char *data, signed int data_len, struct task *task, const char *blktype);
@@ -1625,7 +1625,7 @@ signed int write_sector(struct sync_disk *disk, unsigned long int sector_nr, con
 // file diskio.c line 661
 signed int write_sectors(struct sync_disk *disk, unsigned long int sector_nr, unsigned int sector_count, const char *data, signed int data_len, struct task *task, const char *blktype);
 
-struct anonymous$19
+struct anonymous_19
 {
   // _function
   void (*_function)(union sigval);
@@ -1633,7 +1633,7 @@ struct anonymous$19
   union pthread_attr_t *_attribute;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // _call_addr
   void *_call_addr;
@@ -1643,7 +1643,7 @@ struct anonymous$14
   unsigned int _arch;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // si_addr
   void *si_addr;
@@ -1651,13 +1651,13 @@ struct anonymous$12
   signed short int si_addr_lsb;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // __lock
   signed int __lock;
@@ -1677,7 +1677,7 @@ struct anonymous$17
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // si_pid
   signed int si_pid;
@@ -1685,7 +1685,7 @@ struct anonymous$8
   unsigned int si_uid;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // si_pid
   signed int si_pid;
@@ -1707,7 +1707,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // si_pid
   signed int si_pid;
@@ -1717,7 +1717,7 @@ struct anonymous$10
   union sigval si_sigval;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // si_tid
   signed int si_tid;
@@ -1727,7 +1727,7 @@ struct anonymous$9
   union sigval si_sigval;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // si_band
   signed long int si_band;
@@ -1735,27 +1735,27 @@ struct anonymous$13
   signed int si_fd;
 };
 
-union anonymous$15
+union anonymous_15
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$8 _kill;
+  struct anonymous_8 _kill;
   // _timer
-  struct anonymous$9 _timer;
+  struct anonymous_9 _timer;
   // _rt
-  struct anonymous$10 _rt;
+  struct anonymous_10 _rt;
   // _sigchld
-  struct anonymous$11 _sigchld;
+  struct anonymous_11 _sigchld;
   // _sigfault
-  struct anonymous$12 _sigfault;
+  struct anonymous_12 _sigfault;
   // _sigpoll
-  struct anonymous$13 _sigpoll;
+  struct anonymous_13 _sigpoll;
   // _sigsys
-  struct anonymous$14 _sigsys;
+  struct anonymous_14 _sigsys;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // si_signo
   signed int si_signo;
@@ -1764,7 +1764,7 @@ struct anonymous$16
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$15 _sifields;
+  union anonymous_15 _sifields;
 };
 
 union anonymous
@@ -1772,20 +1772,20 @@ union anonymous
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$16 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_16 *, void *);
 };
 
-union anonymous$1
+union anonymous_1
 {
   // _pad
   signed int _pad[12l];
   // _tid
   signed int _tid;
   // _sigev_thread
-  struct anonymous$19 _sigev_thread;
+  struct anonymous_19 _sigev_thread;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __size
   char __size[4l];
@@ -1793,10 +1793,10 @@ union anonymous$5
   signed int __align;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __data
-  struct anonymous$17 __data;
+  struct anonymous_17 __data;
   // __size
   char __size[48l];
   // __align
@@ -1831,7 +1831,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1883,7 +1883,7 @@ struct io_iocb_sockaddr
   signed int len;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // c
   struct io_iocb_common c;
@@ -1895,7 +1895,7 @@ union anonymous$7
   struct io_iocb_sockaddr saddr;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1925,7 +1925,7 @@ union anonymous$6
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -2042,7 +2042,7 @@ struct iocb
   // aio_fildes
   signed int aio_fildes;
   // u
-  union anonymous$7 u;
+  union anonymous_7 u;
 };
 
 struct aicb
@@ -2064,7 +2064,7 @@ struct sigevent
   // sigev_notify
   signed int sigev_notify;
   // _sigev_un
-  union anonymous$1 _sigev_un;
+  union anonymous_1 _sigev_un;
 };
 
 struct aiocb
@@ -2202,7 +2202,7 @@ struct client
   // owner_name
   char owner_name[49l];
   // mutex
-  union anonymous$3 mutex;
+  union anonymous_3 mutex;
   // workfn
   void *workfn;
   // deadfn
@@ -2606,7 +2606,7 @@ struct sigaction
   // __sigaction_handler
   union anonymous __sigaction_handler;
   // sa_mask
-  struct anonymous$0 sa_mask;
+  struct anonymous_0 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -2670,7 +2670,7 @@ struct space
   // thread
   unsigned long int thread;
   // mutex
-  union anonymous$3 mutex;
+  union anonymous_3 mutex;
   // lease_status
   struct lease_status lease_status;
   // host_status
@@ -2770,11 +2770,11 @@ struct thread_pool
   // work_data
   struct list_head work_data;
   // mutex
-  union anonymous$3 mutex;
+  union anonymous_3 mutex;
   // cond
-  union anonymous$4 cond;
+  union anonymous_4 cond;
   // quit_wait
-  union anonymous$4 quit_wait;
+  union anonymous_4 quit_wait;
 };
 
 struct timeval
@@ -2868,9 +2868,9 @@ static char command[4096l];
 // crc32c_table
 // file crc32c.c line 22
 static const unsigned int crc32c_table[256l] = { (const unsigned int)0x00000000L, (const unsigned int)0xF26B8303L, (const unsigned int)0xE13B70F7L, (const unsigned int)0x1350F3F4L, (const unsigned int)0xC79A971FL, (const unsigned int)0x35F1141CL, (const unsigned int)0x26A1E7E8L, (const unsigned int)0xD4CA64EBL, (const unsigned int)0x8AD958CFL, (const unsigned int)0x78B2DBCCL, (const unsigned int)0x6BE22838L, (const unsigned int)0x9989AB3BL, (const unsigned int)0x4D43CFD0L, (const unsigned int)0xBF284CD3L, (const unsigned int)0xAC78BF27L, (const unsigned int)0x5E133C24L, (const unsigned int)0x105EC76FL, (const unsigned int)0xE235446CL, (const unsigned int)0xF165B798L, (const unsigned int)0x030E349BL, (const unsigned int)0xD7C45070L, (const unsigned int)0x25AFD373L, (const unsigned int)0x36FF2087L, (const unsigned int)0xC494A384L, (const unsigned int)0x9A879FA0L, (const unsigned int)0x68EC1CA3L, (const unsigned int)0x7BBCEF57L, (const unsigned int)0x89D76C54L, (const unsigned int)0x5D1D08BFL, (const unsigned int)0xAF768BBCL, (const unsigned int)0xBC267848L, (const unsigned int)0x4E4DFB4BL, (const unsigned int)0x20BD8EDEL, (const unsigned int)0xD2D60DDDL, (const unsigned int)0xC186FE29L, (const unsigned int)0x33ED7D2AL, (const unsigned int)0xE72719C1L, (const unsigned int)0x154C9AC2L, (const unsigned int)0x061C6936L, (const unsigned int)0xF477EA35L, (const unsigned int)0xAA64D611L, (const unsigned int)0x580F5512L, (const unsigned int)0x4B5FA6E6L, (const unsigned int)0xB93425E5L, (const unsigned int)0x6DFE410EL, (const unsigned int)0x9F95C20DL, (const unsigned int)0x8CC531F9L, (const unsigned int)0x7EAEB2FAL, (const unsigned int)0x30E349B1L, (const unsigned int)0xC288CAB2L, (const unsigned int)0xD1D83946L, (const unsigned int)0x23B3BA45L, (const unsigned int)0xF779DEAEL, (const unsigned int)0x05125DADL, (const unsigned int)0x1642AE59L, (const unsigned int)0xE4292D5AL, (const unsigned int)0xBA3A117EL, (const unsigned int)0x4851927DL, (const unsigned int)0x5B016189L, (const unsigned int)0xA96AE28AL, (const unsigned int)0x7DA08661L, (const unsigned int)0x8FCB0562L, (const unsigned int)0x9C9BF696L, (const unsigned int)0x6EF07595L, (const unsigned int)0x417B1DBCL, (const unsigned int)0xB3109EBFL, (const unsigned int)0xA0406D4BL, (const unsigned int)0x522BEE48L, (const unsigned int)0x86E18AA3L, (const unsigned int)0x748A09A0L, (const unsigned int)0x67DAFA54L, (const unsigned int)0x95B17957L, (const unsigned int)0xCBA24573L, (const unsigned int)0x39C9C670L, (const unsigned int)0x2A993584L, (const unsigned int)0xD8F2B687L, (const unsigned int)0x0C38D26CL, (const unsigned int)0xFE53516FL, (const unsigned int)0xED03A29BL, (const unsigned int)0x1F682198L, (const unsigned int)0x5125DAD3L, (const unsigned int)0xA34E59D0L, (const unsigned int)0xB01EAA24L, (const unsigned int)0x42752927L, (const unsigned int)0x96BF4DCCL, (const unsigned int)0x64D4CECFL, (const unsigned int)0x77843D3BL, (const unsigned int)0x85EFBE38L, (const unsigned int)0xDBFC821CL, (const unsigned int)0x2997011FL, (const unsigned int)0x3AC7F2EBL, (const unsigned int)0xC8AC71E8L, (const unsigned int)0x1C661503L, (const unsigned int)0xEE0D9600L, (const unsigned int)0xFD5D65F4L, (const unsigned int)0x0F36E6F7L, (const unsigned int)0x61C69362L, (const unsigned int)0x93AD1061L, (const unsigned int)0x80FDE395L, (const unsigned int)0x72966096L, (const unsigned int)0xA65C047DL, (const unsigned int)0x5437877EL, (const unsigned int)0x4767748AL, (const unsigned int)0xB50CF789L, (const unsigned int)0xEB1FCBADL, (const unsigned int)0x197448AEL, (const unsigned int)0x0A24BB5AL, (const unsigned int)0xF84F3859L, (const unsigned int)0x2C855CB2L, (const unsigned int)0xDEEEDFB1L, (const unsigned int)0xCDBE2C45L, (const unsigned int)0x3FD5AF46L, (const unsigned int)0x7198540DL, (const unsigned int)0x83F3D70EL, (const unsigned int)0x90A324FAL, (const unsigned int)0x62C8A7F9L, (const unsigned int)0xB602C312L, (const unsigned int)0x44694011L, (const unsigned int)0x5739B3E5L, (const unsigned int)0xA55230E6L, (const unsigned int)0xFB410CC2L, (const unsigned int)0x092A8FC1L, (const unsigned int)0x1A7A7C35L, (const unsigned int)0xE811FF36L, (const unsigned int)0x3CDB9BDDL, (const unsigned int)0xCEB018DEL, (const unsigned int)0xDDE0EB2AL, (const unsigned int)0x2F8B6829L, (const unsigned int)0x82F63B78L, (const unsigned int)0x709DB87BL, (const unsigned int)0x63CD4B8FL, (const unsigned int)0x91A6C88CL, (const unsigned int)0x456CAC67L, (const unsigned int)0xB7072F64L, (const unsigned int)0xA457DC90L, (const unsigned int)0x563C5F93L, (const unsigned int)0x082F63B7L, (const unsigned int)0xFA44E0B4L, (const unsigned int)0xE9141340L, (const unsigned int)0x1B7F9043L, (const unsigned int)0xCFB5F4A8L, (const unsigned int)0x3DDE77ABL, (const unsigned int)0x2E8E845FL, (const unsigned int)0xDCE5075CL, (const unsigned int)0x92A8FC17L, (const unsigned int)0x60C37F14L, (const unsigned int)0x73938CE0L, (const unsigned int)0x81F80FE3L, (const unsigned int)0x55326B08L, (const unsigned int)0xA759E80BL, (const unsigned int)0xB4091BFFL, (const unsigned int)0x466298FCL, (const unsigned int)0x1871A4D8L, (const unsigned int)0xEA1A27DBL, (const unsigned int)0xF94AD42FL, (const unsigned int)0x0B21572CL, (const unsigned int)0xDFEB33C7L, (const unsigned int)0x2D80B0C4L, (const unsigned int)0x3ED04330L, (const unsigned int)0xCCBBC033L, (const unsigned int)0xA24BB5A6L, (const unsigned int)0x502036A5L, (const unsigned int)0x4370C551L, (const unsigned int)0xB11B4652L, (const unsigned int)0x65D122B9L, (const unsigned int)0x97BAA1BAL, (const unsigned int)0x84EA524EL, (const unsigned int)0x7681D14DL, (const unsigned int)0x2892ED69L, (const unsigned int)0xDAF96E6AL, (const unsigned int)0xC9A99D9EL, (const unsigned int)0x3BC21E9DL, (const unsigned int)0xEF087A76L, (const unsigned int)0x1D63F975L, (const unsigned int)0x0E330A81L, (const unsigned int)0xFC588982L, (const unsigned int)0xB21572C9L, (const unsigned int)0x407EF1CAL, (const unsigned int)0x532E023EL, (const unsigned int)0xA145813DL, (const unsigned int)0x758FE5D6L, (const unsigned int)0x87E466D5L, (const unsigned int)0x94B49521L, (const unsigned int)0x66DF1622L, (const unsigned int)0x38CC2A06L, (const unsigned int)0xCAA7A905L, (const unsigned int)0xD9F75AF1L, (const unsigned int)0x2B9CD9F2L, (const unsigned int)0xFF56BD19L, (const unsigned int)0x0D3D3E1AL, (const unsigned int)0x1E6DCDEEL, (const unsigned int)0xEC064EEDL, (const unsigned int)0xC38D26C4L, (const unsigned int)0x31E6A5C7L, (const unsigned int)0x22B65633L, (const unsigned int)0xD0DDD530L, (const unsigned int)0x0417B1DBL, (const unsigned int)0xF67C32D8L, (const unsigned int)0xE52CC12CL, (const unsigned int)0x1747422FL, (const unsigned int)0x49547E0BL, (const unsigned int)0xBB3FFD08L, (const unsigned int)0xA86F0EFCL, (const unsigned int)0x5A048DFFL, (const unsigned int)0x8ECEE914L, (const unsigned int)0x7CA56A17L, (const unsigned int)0x6FF599E3L, (const unsigned int)0x9D9E1AE0L, (const unsigned int)0xD3D3E1ABL, (const unsigned int)0x21B862A8L, (const unsigned int)0x32E8915CL, (const unsigned int)0xC083125FL, (const unsigned int)0x144976B4L, (const unsigned int)0xE622F5B7L, (const unsigned int)0xF5720643L, (const unsigned int)0x07198540L, (const unsigned int)0x590AB964L, (const unsigned int)0xAB613A67L, (const unsigned int)0xB831C993L, (const unsigned int)0x4A5A4A90L, (const unsigned int)0x9E902E7BL, (const unsigned int)0x6CFBAD78L, (const unsigned int)0x7FAB5E8CL, (const unsigned int)0x8DC0DD8FL, (const unsigned int)0xE330A81AL, (const unsigned int)0x115B2B19L, (const unsigned int)0x020BD8EDL, (const unsigned int)0xF0605BEEL, (const unsigned int)0x24AA3F05L, (const unsigned int)0xD6C1BC06L, (const unsigned int)0xC5914FF2L, (const unsigned int)0x37FACCF1L, (const unsigned int)0x69E9F0D5L, (const unsigned int)0x9B8273D6L, (const unsigned int)0x88D28022L, (const unsigned int)0x7AB90321L, (const unsigned int)0xAE7367CAL, (const unsigned int)0x5C18E4C9L, (const unsigned int)0x4F48173DL, (const unsigned int)0xBD23943EL, (const unsigned int)0xF36E6F75L, (const unsigned int)0x0105EC76L, (const unsigned int)0x12551F82L, (const unsigned int)0xE03E9C81L, (const unsigned int)0x34F4F86AL, (const unsigned int)0xC69F7B69L, (const unsigned int)0xD5CF889DL, (const unsigned int)0x27A40B9EL, (const unsigned int)0x79B737BAL, (const unsigned int)0x8BDCB4B9L, (const unsigned int)0x988C474DL, (const unsigned int)0x6AE7C44EL, (const unsigned int)0xBE2DA0A5L, (const unsigned int)0x4C4623A6L, (const unsigned int)0x5F16D052L, (const unsigned int)0xAD7D5351L };
-// crc32c_table$link1
+// crc32c_table_link1
 // file crc32c.c line 22
-static const unsigned int crc32c_table$link1[256l] = { (const unsigned int)0x00000000L, (const unsigned int)0xF26B8303L, (const unsigned int)0xE13B70F7L, (const unsigned int)0x1350F3F4L, (const unsigned int)0xC79A971FL, (const unsigned int)0x35F1141CL, (const unsigned int)0x26A1E7E8L, (const unsigned int)0xD4CA64EBL, (const unsigned int)0x8AD958CFL, (const unsigned int)0x78B2DBCCL, (const unsigned int)0x6BE22838L, (const unsigned int)0x9989AB3BL, (const unsigned int)0x4D43CFD0L, (const unsigned int)0xBF284CD3L, (const unsigned int)0xAC78BF27L, (const unsigned int)0x5E133C24L, (const unsigned int)0x105EC76FL, (const unsigned int)0xE235446CL, (const unsigned int)0xF165B798L, (const unsigned int)0x030E349BL, (const unsigned int)0xD7C45070L, (const unsigned int)0x25AFD373L, (const unsigned int)0x36FF2087L, (const unsigned int)0xC494A384L, (const unsigned int)0x9A879FA0L, (const unsigned int)0x68EC1CA3L, (const unsigned int)0x7BBCEF57L, (const unsigned int)0x89D76C54L, (const unsigned int)0x5D1D08BFL, (const unsigned int)0xAF768BBCL, (const unsigned int)0xBC267848L, (const unsigned int)0x4E4DFB4BL, (const unsigned int)0x20BD8EDEL, (const unsigned int)0xD2D60DDDL, (const unsigned int)0xC186FE29L, (const unsigned int)0x33ED7D2AL, (const unsigned int)0xE72719C1L, (const unsigned int)0x154C9AC2L, (const unsigned int)0x061C6936L, (const unsigned int)0xF477EA35L, (const unsigned int)0xAA64D611L, (const unsigned int)0x580F5512L, (const unsigned int)0x4B5FA6E6L, (const unsigned int)0xB93425E5L, (const unsigned int)0x6DFE410EL, (const unsigned int)0x9F95C20DL, (const unsigned int)0x8CC531F9L, (const unsigned int)0x7EAEB2FAL, (const unsigned int)0x30E349B1L, (const unsigned int)0xC288CAB2L, (const unsigned int)0xD1D83946L, (const unsigned int)0x23B3BA45L, (const unsigned int)0xF779DEAEL, (const unsigned int)0x05125DADL, (const unsigned int)0x1642AE59L, (const unsigned int)0xE4292D5AL, (const unsigned int)0xBA3A117EL, (const unsigned int)0x4851927DL, (const unsigned int)0x5B016189L, (const unsigned int)0xA96AE28AL, (const unsigned int)0x7DA08661L, (const unsigned int)0x8FCB0562L, (const unsigned int)0x9C9BF696L, (const unsigned int)0x6EF07595L, (const unsigned int)0x417B1DBCL, (const unsigned int)0xB3109EBFL, (const unsigned int)0xA0406D4BL, (const unsigned int)0x522BEE48L, (const unsigned int)0x86E18AA3L, (const unsigned int)0x748A09A0L, (const unsigned int)0x67DAFA54L, (const unsigned int)0x95B17957L, (const unsigned int)0xCBA24573L, (const unsigned int)0x39C9C670L, (const unsigned int)0x2A993584L, (const unsigned int)0xD8F2B687L, (const unsigned int)0x0C38D26CL, (const unsigned int)0xFE53516FL, (const unsigned int)0xED03A29BL, (const unsigned int)0x1F682198L, (const unsigned int)0x5125DAD3L, (const unsigned int)0xA34E59D0L, (const unsigned int)0xB01EAA24L, (const unsigned int)0x42752927L, (const unsigned int)0x96BF4DCCL, (const unsigned int)0x64D4CECFL, (const unsigned int)0x77843D3BL, (const unsigned int)0x85EFBE38L, (const unsigned int)0xDBFC821CL, (const unsigned int)0x2997011FL, (const unsigned int)0x3AC7F2EBL, (const unsigned int)0xC8AC71E8L, (const unsigned int)0x1C661503L, (const unsigned int)0xEE0D9600L, (const unsigned int)0xFD5D65F4L, (const unsigned int)0x0F36E6F7L, (const unsigned int)0x61C69362L, (const unsigned int)0x93AD1061L, (const unsigned int)0x80FDE395L, (const unsigned int)0x72966096L, (const unsigned int)0xA65C047DL, (const unsigned int)0x5437877EL, (const unsigned int)0x4767748AL, (const unsigned int)0xB50CF789L, (const unsigned int)0xEB1FCBADL, (const unsigned int)0x197448AEL, (const unsigned int)0x0A24BB5AL, (const unsigned int)0xF84F3859L, (const unsigned int)0x2C855CB2L, (const unsigned int)0xDEEEDFB1L, (const unsigned int)0xCDBE2C45L, (const unsigned int)0x3FD5AF46L, (const unsigned int)0x7198540DL, (const unsigned int)0x83F3D70EL, (const unsigned int)0x90A324FAL, (const unsigned int)0x62C8A7F9L, (const unsigned int)0xB602C312L, (const unsigned int)0x44694011L, (const unsigned int)0x5739B3E5L, (const unsigned int)0xA55230E6L, (const unsigned int)0xFB410CC2L, (const unsigned int)0x092A8FC1L, (const unsigned int)0x1A7A7C35L, (const unsigned int)0xE811FF36L, (const unsigned int)0x3CDB9BDDL, (const unsigned int)0xCEB018DEL, (const unsigned int)0xDDE0EB2AL, (const unsigned int)0x2F8B6829L, (const unsigned int)0x82F63B78L, (const unsigned int)0x709DB87BL, (const unsigned int)0x63CD4B8FL, (const unsigned int)0x91A6C88CL, (const unsigned int)0x456CAC67L, (const unsigned int)0xB7072F64L, (const unsigned int)0xA457DC90L, (const unsigned int)0x563C5F93L, (const unsigned int)0x082F63B7L, (const unsigned int)0xFA44E0B4L, (const unsigned int)0xE9141340L, (const unsigned int)0x1B7F9043L, (const unsigned int)0xCFB5F4A8L, (const unsigned int)0x3DDE77ABL, (const unsigned int)0x2E8E845FL, (const unsigned int)0xDCE5075CL, (const unsigned int)0x92A8FC17L, (const unsigned int)0x60C37F14L, (const unsigned int)0x73938CE0L, (const unsigned int)0x81F80FE3L, (const unsigned int)0x55326B08L, (const unsigned int)0xA759E80BL, (const unsigned int)0xB4091BFFL, (const unsigned int)0x466298FCL, (const unsigned int)0x1871A4D8L, (const unsigned int)0xEA1A27DBL, (const unsigned int)0xF94AD42FL, (const unsigned int)0x0B21572CL, (const unsigned int)0xDFEB33C7L, (const unsigned int)0x2D80B0C4L, (const unsigned int)0x3ED04330L, (const unsigned int)0xCCBBC033L, (const unsigned int)0xA24BB5A6L, (const unsigned int)0x502036A5L, (const unsigned int)0x4370C551L, (const unsigned int)0xB11B4652L, (const unsigned int)0x65D122B9L, (const unsigned int)0x97BAA1BAL, (const unsigned int)0x84EA524EL, (const unsigned int)0x7681D14DL, (const unsigned int)0x2892ED69L, (const unsigned int)0xDAF96E6AL, (const unsigned int)0xC9A99D9EL, (const unsigned int)0x3BC21E9DL, (const unsigned int)0xEF087A76L, (const unsigned int)0x1D63F975L, (const unsigned int)0x0E330A81L, (const unsigned int)0xFC588982L, (const unsigned int)0xB21572C9L, (const unsigned int)0x407EF1CAL, (const unsigned int)0x532E023EL, (const unsigned int)0xA145813DL, (const unsigned int)0x758FE5D6L, (const unsigned int)0x87E466D5L, (const unsigned int)0x94B49521L, (const unsigned int)0x66DF1622L, (const unsigned int)0x38CC2A06L, (const unsigned int)0xCAA7A905L, (const unsigned int)0xD9F75AF1L, (const unsigned int)0x2B9CD9F2L, (const unsigned int)0xFF56BD19L, (const unsigned int)0x0D3D3E1AL, (const unsigned int)0x1E6DCDEEL, (const unsigned int)0xEC064EEDL, (const unsigned int)0xC38D26C4L, (const unsigned int)0x31E6A5C7L, (const unsigned int)0x22B65633L, (const unsigned int)0xD0DDD530L, (const unsigned int)0x0417B1DBL, (const unsigned int)0xF67C32D8L, (const unsigned int)0xE52CC12CL, (const unsigned int)0x1747422FL, (const unsigned int)0x49547E0BL, (const unsigned int)0xBB3FFD08L, (const unsigned int)0xA86F0EFCL, (const unsigned int)0x5A048DFFL, (const unsigned int)0x8ECEE914L, (const unsigned int)0x7CA56A17L, (const unsigned int)0x6FF599E3L, (const unsigned int)0x9D9E1AE0L, (const unsigned int)0xD3D3E1ABL, (const unsigned int)0x21B862A8L, (const unsigned int)0x32E8915CL, (const unsigned int)0xC083125FL, (const unsigned int)0x144976B4L, (const unsigned int)0xE622F5B7L, (const unsigned int)0xF5720643L, (const unsigned int)0x07198540L, (const unsigned int)0x590AB964L, (const unsigned int)0xAB613A67L, (const unsigned int)0xB831C993L, (const unsigned int)0x4A5A4A90L, (const unsigned int)0x9E902E7BL, (const unsigned int)0x6CFBAD78L, (const unsigned int)0x7FAB5E8CL, (const unsigned int)0x8DC0DD8FL, (const unsigned int)0xE330A81AL, (const unsigned int)0x115B2B19L, (const unsigned int)0x020BD8EDL, (const unsigned int)0xF0605BEEL, (const unsigned int)0x24AA3F05L, (const unsigned int)0xD6C1BC06L, (const unsigned int)0xC5914FF2L, (const unsigned int)0x37FACCF1L, (const unsigned int)0x69E9F0D5L, (const unsigned int)0x9B8273D6L, (const unsigned int)0x88D28022L, (const unsigned int)0x7AB90321L, (const unsigned int)0xAE7367CAL, (const unsigned int)0x5C18E4C9L, (const unsigned int)0x4F48173DL, (const unsigned int)0xBD23943EL, (const unsigned int)0xF36E6F75L, (const unsigned int)0x0105EC76L, (const unsigned int)0x12551F82L, (const unsigned int)0xE03E9C81L, (const unsigned int)0x34F4F86AL, (const unsigned int)0xC69F7B69L, (const unsigned int)0xD5CF889DL, (const unsigned int)0x27A40B9EL, (const unsigned int)0x79B737BAL, (const unsigned int)0x8BDCB4B9L, (const unsigned int)0x988C474DL, (const unsigned int)0x6AE7C44EL, (const unsigned int)0xBE2DA0A5L, (const unsigned int)0x4C4623A6L, (const unsigned int)0x5F16D052L, (const unsigned int)0xAD7D5351L };
+static const unsigned int crc32c_table_link1[256l] = { (const unsigned int)0x00000000L, (const unsigned int)0xF26B8303L, (const unsigned int)0xE13B70F7L, (const unsigned int)0x1350F3F4L, (const unsigned int)0xC79A971FL, (const unsigned int)0x35F1141CL, (const unsigned int)0x26A1E7E8L, (const unsigned int)0xD4CA64EBL, (const unsigned int)0x8AD958CFL, (const unsigned int)0x78B2DBCCL, (const unsigned int)0x6BE22838L, (const unsigned int)0x9989AB3BL, (const unsigned int)0x4D43CFD0L, (const unsigned int)0xBF284CD3L, (const unsigned int)0xAC78BF27L, (const unsigned int)0x5E133C24L, (const unsigned int)0x105EC76FL, (const unsigned int)0xE235446CL, (const unsigned int)0xF165B798L, (const unsigned int)0x030E349BL, (const unsigned int)0xD7C45070L, (const unsigned int)0x25AFD373L, (const unsigned int)0x36FF2087L, (const unsigned int)0xC494A384L, (const unsigned int)0x9A879FA0L, (const unsigned int)0x68EC1CA3L, (const unsigned int)0x7BBCEF57L, (const unsigned int)0x89D76C54L, (const unsigned int)0x5D1D08BFL, (const unsigned int)0xAF768BBCL, (const unsigned int)0xBC267848L, (const unsigned int)0x4E4DFB4BL, (const unsigned int)0x20BD8EDEL, (const unsigned int)0xD2D60DDDL, (const unsigned int)0xC186FE29L, (const unsigned int)0x33ED7D2AL, (const unsigned int)0xE72719C1L, (const unsigned int)0x154C9AC2L, (const unsigned int)0x061C6936L, (const unsigned int)0xF477EA35L, (const unsigned int)0xAA64D611L, (const unsigned int)0x580F5512L, (const unsigned int)0x4B5FA6E6L, (const unsigned int)0xB93425E5L, (const unsigned int)0x6DFE410EL, (const unsigned int)0x9F95C20DL, (const unsigned int)0x8CC531F9L, (const unsigned int)0x7EAEB2FAL, (const unsigned int)0x30E349B1L, (const unsigned int)0xC288CAB2L, (const unsigned int)0xD1D83946L, (const unsigned int)0x23B3BA45L, (const unsigned int)0xF779DEAEL, (const unsigned int)0x05125DADL, (const unsigned int)0x1642AE59L, (const unsigned int)0xE4292D5AL, (const unsigned int)0xBA3A117EL, (const unsigned int)0x4851927DL, (const unsigned int)0x5B016189L, (const unsigned int)0xA96AE28AL, (const unsigned int)0x7DA08661L, (const unsigned int)0x8FCB0562L, (const unsigned int)0x9C9BF696L, (const unsigned int)0x6EF07595L, (const unsigned int)0x417B1DBCL, (const unsigned int)0xB3109EBFL, (const unsigned int)0xA0406D4BL, (const unsigned int)0x522BEE48L, (const unsigned int)0x86E18AA3L, (const unsigned int)0x748A09A0L, (const unsigned int)0x67DAFA54L, (const unsigned int)0x95B17957L, (const unsigned int)0xCBA24573L, (const unsigned int)0x39C9C670L, (const unsigned int)0x2A993584L, (const unsigned int)0xD8F2B687L, (const unsigned int)0x0C38D26CL, (const unsigned int)0xFE53516FL, (const unsigned int)0xED03A29BL, (const unsigned int)0x1F682198L, (const unsigned int)0x5125DAD3L, (const unsigned int)0xA34E59D0L, (const unsigned int)0xB01EAA24L, (const unsigned int)0x42752927L, (const unsigned int)0x96BF4DCCL, (const unsigned int)0x64D4CECFL, (const unsigned int)0x77843D3BL, (const unsigned int)0x85EFBE38L, (const unsigned int)0xDBFC821CL, (const unsigned int)0x2997011FL, (const unsigned int)0x3AC7F2EBL, (const unsigned int)0xC8AC71E8L, (const unsigned int)0x1C661503L, (const unsigned int)0xEE0D9600L, (const unsigned int)0xFD5D65F4L, (const unsigned int)0x0F36E6F7L, (const unsigned int)0x61C69362L, (const unsigned int)0x93AD1061L, (const unsigned int)0x80FDE395L, (const unsigned int)0x72966096L, (const unsigned int)0xA65C047DL, (const unsigned int)0x5437877EL, (const unsigned int)0x4767748AL, (const unsigned int)0xB50CF789L, (const unsigned int)0xEB1FCBADL, (const unsigned int)0x197448AEL, (const unsigned int)0x0A24BB5AL, (const unsigned int)0xF84F3859L, (const unsigned int)0x2C855CB2L, (const unsigned int)0xDEEEDFB1L, (const unsigned int)0xCDBE2C45L, (const unsigned int)0x3FD5AF46L, (const unsigned int)0x7198540DL, (const unsigned int)0x83F3D70EL, (const unsigned int)0x90A324FAL, (const unsigned int)0x62C8A7F9L, (const unsigned int)0xB602C312L, (const unsigned int)0x44694011L, (const unsigned int)0x5739B3E5L, (const unsigned int)0xA55230E6L, (const unsigned int)0xFB410CC2L, (const unsigned int)0x092A8FC1L, (const unsigned int)0x1A7A7C35L, (const unsigned int)0xE811FF36L, (const unsigned int)0x3CDB9BDDL, (const unsigned int)0xCEB018DEL, (const unsigned int)0xDDE0EB2AL, (const unsigned int)0x2F8B6829L, (const unsigned int)0x82F63B78L, (const unsigned int)0x709DB87BL, (const unsigned int)0x63CD4B8FL, (const unsigned int)0x91A6C88CL, (const unsigned int)0x456CAC67L, (const unsigned int)0xB7072F64L, (const unsigned int)0xA457DC90L, (const unsigned int)0x563C5F93L, (const unsigned int)0x082F63B7L, (const unsigned int)0xFA44E0B4L, (const unsigned int)0xE9141340L, (const unsigned int)0x1B7F9043L, (const unsigned int)0xCFB5F4A8L, (const unsigned int)0x3DDE77ABL, (const unsigned int)0x2E8E845FL, (const unsigned int)0xDCE5075CL, (const unsigned int)0x92A8FC17L, (const unsigned int)0x60C37F14L, (const unsigned int)0x73938CE0L, (const unsigned int)0x81F80FE3L, (const unsigned int)0x55326B08L, (const unsigned int)0xA759E80BL, (const unsigned int)0xB4091BFFL, (const unsigned int)0x466298FCL, (const unsigned int)0x1871A4D8L, (const unsigned int)0xEA1A27DBL, (const unsigned int)0xF94AD42FL, (const unsigned int)0x0B21572CL, (const unsigned int)0xDFEB33C7L, (const unsigned int)0x2D80B0C4L, (const unsigned int)0x3ED04330L, (const unsigned int)0xCCBBC033L, (const unsigned int)0xA24BB5A6L, (const unsigned int)0x502036A5L, (const unsigned int)0x4370C551L, (const unsigned int)0xB11B4652L, (const unsigned int)0x65D122B9L, (const unsigned int)0x97BAA1BAL, (const unsigned int)0x84EA524EL, (const unsigned int)0x7681D14DL, (const unsigned int)0x2892ED69L, (const unsigned int)0xDAF96E6AL, (const unsigned int)0xC9A99D9EL, (const unsigned int)0x3BC21E9DL, (const unsigned int)0xEF087A76L, (const unsigned int)0x1D63F975L, (const unsigned int)0x0E330A81L, (const unsigned int)0xFC588982L, (const unsigned int)0xB21572C9L, (const unsigned int)0x407EF1CAL, (const unsigned int)0x532E023EL, (const unsigned int)0xA145813DL, (const unsigned int)0x758FE5D6L, (const unsigned int)0x87E466D5L, (const unsigned int)0x94B49521L, (const unsigned int)0x66DF1622L, (const unsigned int)0x38CC2A06L, (const unsigned int)0xCAA7A905L, (const unsigned int)0xD9F75AF1L, (const unsigned int)0x2B9CD9F2L, (const unsigned int)0xFF56BD19L, (const unsigned int)0x0D3D3E1AL, (const unsigned int)0x1E6DCDEEL, (const unsigned int)0xEC064EEDL, (const unsigned int)0xC38D26C4L, (const unsigned int)0x31E6A5C7L, (const unsigned int)0x22B65633L, (const unsigned int)0xD0DDD530L, (const unsigned int)0x0417B1DBL, (const unsigned int)0xF67C32D8L, (const unsigned int)0xE52CC12CL, (const unsigned int)0x1747422FL, (const unsigned int)0x49547E0BL, (const unsigned int)0xBB3FFD08L, (const unsigned int)0xA86F0EFCL, (const unsigned int)0x5A048DFFL, (const unsigned int)0x8ECEE914L, (const unsigned int)0x7CA56A17L, (const unsigned int)0x6FF599E3L, (const unsigned int)0x9D9E1AE0L, (const unsigned int)0xD3D3E1ABL, (const unsigned int)0x21B862A8L, (const unsigned int)0x32E8915CL, (const unsigned int)0xC083125FL, (const unsigned int)0x144976B4L, (const unsigned int)0xE622F5B7L, (const unsigned int)0xF5720643L, (const unsigned int)0x07198540L, (const unsigned int)0x590AB964L, (const unsigned int)0xAB613A67L, (const unsigned int)0xB831C993L, (const unsigned int)0x4A5A4A90L, (const unsigned int)0x9E902E7BL, (const unsigned int)0x6CFBAD78L, (const unsigned int)0x7FAB5E8CL, (const unsigned int)0x8DC0DD8FL, (const unsigned int)0xE330A81AL, (const unsigned int)0x115B2B19L, (const unsigned int)0x020BD8EDL, (const unsigned int)0xF0605BEEL, (const unsigned int)0x24AA3F05L, (const unsigned int)0xD6C1BC06L, (const unsigned int)0xC5914FF2L, (const unsigned int)0x37FACCF1L, (const unsigned int)0x69E9F0D5L, (const unsigned int)0x9B8273D6L, (const unsigned int)0x88D28022L, (const unsigned int)0x7AB90321L, (const unsigned int)0xAE7367CAL, (const unsigned int)0x5C18E4C9L, (const unsigned int)0x4F48173DL, (const unsigned int)0xBD23943EL, (const unsigned int)0xF36E6F75L, (const unsigned int)0x0105EC76L, (const unsigned int)0x12551F82L, (const unsigned int)0xE03E9C81L, (const unsigned int)0x34F4F86AL, (const unsigned int)0xC69F7B69L, (const unsigned int)0xD5CF889DL, (const unsigned int)0x27A40B9EL, (const unsigned int)0x79B737BAL, (const unsigned int)0x8BDCB4B9L, (const unsigned int)0x988C474DL, (const unsigned int)0x6AE7C44EL, (const unsigned int)0xBE2DA0A5L, (const unsigned int)0x4C4623A6L, (const unsigned int)0x5F16D052L, (const unsigned int)0xAD7D5351L };
 // daemon_wdmd_con
 // file watchdog.c line 42
 static signed int daemon_wdmd_con;
@@ -2879,7 +2879,7 @@ static signed int daemon_wdmd_con;
 signed int external_shutdown;
 // log_cond
 // file log.c line 34
-static union anonymous$4 log_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_4 log_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -2900,7 +2900,7 @@ static unsigned int log_head_ent;
 signed int log_logfile_priority = 4;
 // log_mutex
 // file log.c line 33
-static union anonymous$3 log_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_3 log_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // log_num_ents
@@ -2953,7 +2953,7 @@ static struct thread_pool pool;
 static struct random_data rand_data;
 // rand_mutex
 // file main.c line 85
-static union anonymous$3 rand_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_3 rand_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // rand_state
@@ -2961,10 +2961,10 @@ static union anonymous$3 rand_mutex = { .__data={ .__lock=0, .__count=(unsigned 
 static char rand_state[32l];
 // resource_cond
 // file resource.c line 48
-static union anonymous$4 resource_cond;
+static union anonymous_4 resource_cond;
 // resource_mutex
 // file resource.c line 47
-static union anonymous$3 resource_mutex;
+static union anonymous_3 resource_mutex;
 // resource_pt
 // file resource.c line 41
 static unsigned long int resource_pt;
@@ -3006,7 +3006,7 @@ struct list_head spaces;
 struct list_head spaces_add;
 // spaces_mutex
 // file sanlock_internal.h line 591
-union anonymous$3 spaces_mutex;
+union anonymous_3 spaces_mutex;
 // spaces_rem
 // file sanlock_internal.h line 589
 struct list_head spaces_rem;
@@ -3028,12 +3028,12 @@ static inline void INIT_LIST_HEAD(struct list_head *list)
   list->prev = list;
 }
 
-// INIT_LIST_HEAD$link1
+// INIT_LIST_HEAD_link1
 // file list.h line 40
-static inline void INIT_LIST_HEAD$link1(struct list_head *list$link1)
+static inline void INIT_LIST_HEAD_link1(struct list_head *list_link1)
 {
-  list$link1->next = list$link1;
-  list$link1->prev = list$link1;
+  list_link1->next = list_link1;
+  list_link1->prev = list_link1;
 }
 
 // __list_add
@@ -3046,24 +3046,24 @@ static inline void __list_add(struct list_head *new, struct list_head *prev, str
   prev->next = new;
 }
 
-// __list_add$link1
+// __list_add_link1
 // file list.h line 52
-static inline void __list_add$link1(struct list_head *new$link1, struct list_head *prev$link1, struct list_head *next$link1)
+static inline void __list_add_link1(struct list_head *new_link1, struct list_head *prev_link1, struct list_head *next_link1)
 {
-  next$link1->prev = new$link1;
-  new$link1->next = next$link1;
-  new$link1->prev = prev$link1;
-  prev$link1->next = new$link1;
+  next_link1->prev = new_link1;
+  new_link1->next = next_link1;
+  new_link1->prev = prev_link1;
+  prev_link1->next = new_link1;
 }
 
-// __list_add$link2
+// __list_add_link2
 // file list.h line 52
-static inline void __list_add$link2(struct list_head *new$link2, struct list_head *prev$link2, struct list_head *next$link2)
+static inline void __list_add_link2(struct list_head *new_link2, struct list_head *prev_link2, struct list_head *next_link2)
 {
-  next$link2->prev = new$link2;
-  new$link2->next = next$link2;
-  new$link2->prev = prev$link2;
-  prev$link2->next = new$link2;
+  next_link2->prev = new_link2;
+  new_link2->next = next_link2;
+  new_link2->prev = prev_link2;
+  prev_link2->next = new_link2;
 }
 
 // __list_del
@@ -3074,20 +3074,20 @@ static inline void __list_del(struct list_head *prev, struct list_head *next)
   prev->next = next;
 }
 
-// __list_del$link1
+// __list_del_link1
 // file list.h line 96
-static inline void __list_del$link1(struct list_head *prev$link1, struct list_head *next$link1)
+static inline void __list_del_link1(struct list_head *prev_link1, struct list_head *next_link1)
 {
-  next$link1->prev = prev$link1;
-  prev$link1->next = next$link1;
+  next_link1->prev = prev_link1;
+  prev_link1->next = next_link1;
 }
 
-// __list_del$link2
+// __list_del_link2
 // file list.h line 96
-static inline void __list_del$link2(struct list_head *prev$link2, struct list_head *next$link2)
+static inline void __list_del_link2(struct list_head *prev_link2, struct list_head *next_link2)
 {
-  next$link2->prev = prev$link2;
-  prev$link2->next = next$link2;
+  next_link2->prev = prev_link2;
+  prev_link2->next = next_link2;
 }
 
 // _client_free
@@ -3162,17 +3162,17 @@ static signed int _leader_read_num(struct task *task, struct token *token, struc
   signed int error;
   leaders_len = (signed int)((unsigned long int)num_disks * sizeof(struct leader_record) /*200ul*/ );
   leader_reps_len = (signed int)((unsigned long int)num_disks * sizeof(signed int) /*4ul*/ );
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)leaders_len);
-  leaders = (struct leader_record *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)leaders_len);
+  leaders = (struct leader_record *)return_value_malloc_1;
   if(leaders == ((struct leader_record *)NULL))
     return -12;
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)leader_reps_len);
-    leader_reps = (signed int *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)leader_reps_len);
+    leader_reps = (signed int *)return_value_malloc_2;
     if(leader_reps == ((signed int *)NULL))
     {
       free((void *)leaders);
@@ -3191,7 +3191,7 @@ static signed int _leader_read_num(struct task *task, struct token *token, struc
         rv=read_leader(task, &token->disks[(signed long int)d], &leaders[(signed long int)d]);
         if(rv >= 0)
         {
-          rv=verify_leader$link1(token, &token->disks[(signed long int)d], &leaders[(signed long int)d], caller);
+          rv=verify_leader_link1(token, &token->disks[(signed long int)d], &leaders[(signed long int)d], caller);
           if(rv >= 0)
           {
             num_reads = num_reads + 1;
@@ -3199,9 +3199,9 @@ static signed int _leader_read_num(struct task *task, struct token *token, struc
             i = 0;
             for( ; !(i >= d); i = i + 1)
             {
-              signed int return_value_leaders_match$3;
-              return_value_leaders_match$3=leaders_match(&leaders[(signed long int)d], &leaders[(signed long int)i]);
-              if(!(return_value_leaders_match$3 == 0))
+              signed int return_value_leaders_match_3;
+              return_value_leaders_match_3=leaders_match(&leaders[(signed long int)d], &leaders[(signed long int)i]);
+              if(!(return_value_leaders_match_3 == 0))
               {
                 leader_reps[(signed long int)i] = leader_reps[(signed long int)i] + 1;
                 break;
@@ -3213,9 +3213,9 @@ static signed int _leader_read_num(struct task *task, struct token *token, struc
         }
 
       }
-      signed int return_value_majority_disks$4;
-      return_value_majority_disks$4=majority_disks(num_disks, num_reads);
-      if(return_value_majority_disks$4 == 0)
+      signed int return_value_majority_disks_4;
+      return_value_majority_disks_4=majority_disks(num_disks, num_reads);
+      if(return_value_majority_disks_4 == 0)
       {
         log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "%s leader read error %d", caller, rv);
         error = -220;
@@ -3227,9 +3227,9 @@ static signed int _leader_read_num(struct task *task, struct token *token, struc
         d = 0;
         for( ; !(d >= num_disks); d = d + 1)
         {
-          signed int return_value_majority_disks$5;
-          return_value_majority_disks$5=majority_disks(num_disks, leader_reps[(signed long int)d]);
-          if(!(return_value_majority_disks$5 == 0))
+          signed int return_value_majority_disks_5;
+          return_value_majority_disks_5=majority_disks(num_disks, leader_reps[(signed long int)d]);
+          if(!(return_value_majority_disks_5 == 0))
           {
             memcpy((void *)&leader, (const void *)&leaders[(signed long int)d], sizeof(struct leader_record) /*200ul*/ );
             found = 1;
@@ -3257,66 +3257,66 @@ static signed int _leader_read_num(struct task *task, struct token *token, struc
   }
 }
 
-// _leader_read_num$link1
+// _leader_read_num_link1
 // file paxos_lease.c line 715
-static signed int _leader_read_num$link1(struct task *task$link1, struct token *token$link1, struct leader_record *leader_ret$link1, const char *caller$link1)
+static signed int _leader_read_num_link1(struct task *task_link1, struct token *token_link1, struct leader_record *leader_ret_link1, const char *caller_link1)
 {
-  struct leader_record leader$link1;
-  struct leader_record *leaders$link1;
-  signed int *leader_reps$link1;
-  signed int leaders_len$link1;
-  signed int leader_reps_len$link1;
-  signed int num_reads$link1;
-  signed int num_disks$link1 = (signed int)token$link1->r.num_disks;
-  signed int rv$link1 = 0;
-  signed int d$link1;
-  signed int i$link1;
-  signed int found$link1;
-  signed int error$link1;
-  leaders_len$link1 = (signed int)((unsigned long int)num_disks$link1 * sizeof(struct leader_record) /*200ul*/ );
-  leader_reps_len$link1 = (signed int)((unsigned long int)num_disks$link1 * sizeof(signed int) /*4ul*/ );
-  void *return_value_malloc$1$link1;
-  return_value_malloc$1$link1=malloc((unsigned long int)leaders_len$link1);
-  leaders$link1 = (struct leader_record *)return_value_malloc$1$link1;
-  if(leaders$link1 == ((struct leader_record *)NULL))
+  struct leader_record leader_link1;
+  struct leader_record *leaders_link1;
+  signed int *leader_reps_link1;
+  signed int leaders_len_link1;
+  signed int leader_reps_len_link1;
+  signed int num_reads_link1;
+  signed int num_disks_link1 = (signed int)token_link1->r.num_disks;
+  signed int rv_link1 = 0;
+  signed int d_link1;
+  signed int i_link1;
+  signed int found_link1;
+  signed int error_link1;
+  leaders_len_link1 = (signed int)((unsigned long int)num_disks_link1 * sizeof(struct leader_record) /*200ul*/ );
+  leader_reps_len_link1 = (signed int)((unsigned long int)num_disks_link1 * sizeof(signed int) /*4ul*/ );
+  void *return_value_malloc_1_link1;
+  return_value_malloc_1_link1=malloc((unsigned long int)leaders_len_link1);
+  leaders_link1 = (struct leader_record *)return_value_malloc_1_link1;
+  if(leaders_link1 == ((struct leader_record *)NULL))
     return -12;
 
   else
   {
-    void *return_value_malloc$2$link1;
-    return_value_malloc$2$link1=malloc((unsigned long int)leader_reps_len$link1);
-    leader_reps$link1 = (signed int *)return_value_malloc$2$link1;
-    if(leader_reps$link1 == ((signed int *)NULL))
+    void *return_value_malloc_2_link1;
+    return_value_malloc_2_link1=malloc((unsigned long int)leader_reps_len_link1);
+    leader_reps_link1 = (signed int *)return_value_malloc_2_link1;
+    if(leader_reps_link1 == ((signed int *)NULL))
     {
-      free((void *)leaders$link1);
+      free((void *)leaders_link1);
       return -12;
     }
 
     else
     {
-      memset((void *)&leader$link1, 0, sizeof(struct leader_record) /*200ul*/ );
-      memset((void *)leaders$link1, 0, (unsigned long int)leaders_len$link1);
-      memset((void *)leader_reps$link1, 0, (unsigned long int)leader_reps_len$link1);
-      num_reads$link1 = 0;
-      d$link1 = 0;
-      for( ; !(d$link1 >= num_disks$link1); d$link1 = d$link1 + 1)
+      memset((void *)&leader_link1, 0, sizeof(struct leader_record) /*200ul*/ );
+      memset((void *)leaders_link1, 0, (unsigned long int)leaders_len_link1);
+      memset((void *)leader_reps_link1, 0, (unsigned long int)leader_reps_len_link1);
+      num_reads_link1 = 0;
+      d_link1 = 0;
+      for( ; !(d_link1 >= num_disks_link1); d_link1 = d_link1 + 1)
       {
-        rv$link1=read_leader$link1(task$link1, &token$link1->disks[(signed long int)d$link1], &leaders$link1[(signed long int)d$link1]);
-        if(rv$link1 >= 0)
+        rv_link1=read_leader_link1(task_link1, &token_link1->disks[(signed long int)d_link1], &leaders_link1[(signed long int)d_link1]);
+        if(rv_link1 >= 0)
         {
-          rv$link1=verify_leader$link1$link1(token$link1, &token$link1->disks[(signed long int)d$link1], &leaders$link1[(signed long int)d$link1], caller$link1);
-          if(rv$link1 >= 0)
+          rv_link1=verify_leader_link1_link1(token_link1, &token_link1->disks[(signed long int)d_link1], &leaders_link1[(signed long int)d_link1], caller_link1);
+          if(rv_link1 >= 0)
           {
-            num_reads$link1 = num_reads$link1 + 1;
-            leader_reps$link1[(signed long int)d$link1] = 1;
-            i$link1 = 0;
-            for( ; !(i$link1 >= d$link1); i$link1 = i$link1 + 1)
+            num_reads_link1 = num_reads_link1 + 1;
+            leader_reps_link1[(signed long int)d_link1] = 1;
+            i_link1 = 0;
+            for( ; !(i_link1 >= d_link1); i_link1 = i_link1 + 1)
             {
-              signed int return_value_leaders_match$3$link1;
-              return_value_leaders_match$3$link1=leaders_match$link1(&leaders$link1[(signed long int)d$link1], &leaders$link1[(signed long int)i$link1]);
-              if(!(return_value_leaders_match$3$link1 == 0))
+              signed int return_value_leaders_match_3_link1;
+              return_value_leaders_match_3_link1=leaders_match_link1(&leaders_link1[(signed long int)d_link1], &leaders_link1[(signed long int)i_link1]);
+              if(!(return_value_leaders_match_3_link1 == 0))
               {
-                leader_reps$link1[(signed long int)i$link1] = leader_reps$link1[(signed long int)i$link1] + 1;
+                leader_reps_link1[(signed long int)i_link1] = leader_reps_link1[(signed long int)i_link1] + 1;
                 break;
               }
 
@@ -3326,46 +3326,46 @@ static signed int _leader_read_num$link1(struct task *task$link1, struct token *
         }
 
       }
-      signed int return_value_majority_disks$4$link1;
-      return_value_majority_disks$4$link1=majority_disks(num_disks$link1, num_reads$link1);
-      if(return_value_majority_disks$4$link1 == 0)
+      signed int return_value_majority_disks_4_link1;
+      return_value_majority_disks_4_link1=majority_disks(num_disks_link1, num_reads_link1);
+      if(return_value_majority_disks_4_link1 == 0)
       {
-        log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "%s leader read error %d", caller$link1, rv$link1);
-        error$link1 = -220;
+        log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "%s leader read error %d", caller_link1, rv_link1);
+        error_link1 = -220;
       }
 
       else
       {
-        found$link1 = 0;
-        d$link1 = 0;
-        for( ; !(d$link1 >= num_disks$link1); d$link1 = d$link1 + 1)
+        found_link1 = 0;
+        d_link1 = 0;
+        for( ; !(d_link1 >= num_disks_link1); d_link1 = d_link1 + 1)
         {
-          signed int return_value_majority_disks$5$link1;
-          return_value_majority_disks$5$link1=majority_disks(num_disks$link1, leader_reps$link1[(signed long int)d$link1]);
-          if(!(return_value_majority_disks$5$link1 == 0))
+          signed int return_value_majority_disks_5_link1;
+          return_value_majority_disks_5_link1=majority_disks(num_disks_link1, leader_reps_link1[(signed long int)d_link1]);
+          if(!(return_value_majority_disks_5_link1 == 0))
           {
-            memcpy((void *)&leader$link1, (const void *)&leaders$link1[(signed long int)d$link1], sizeof(struct leader_record) /*200ul*/ );
-            found$link1 = 1;
+            memcpy((void *)&leader_link1, (const void *)&leaders_link1[(signed long int)d_link1], sizeof(struct leader_record) /*200ul*/ );
+            found_link1 = 1;
             break;
           }
 
         }
-        if(found$link1 == 0)
+        if(found_link1 == 0)
         {
-          log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "%s leader inconsistent", caller$link1);
-          error$link1 = -222;
+          log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "%s leader inconsistent", caller_link1);
+          error_link1 = -222;
         }
 
         else
-          error$link1 = 1;
+          error_link1 = 1;
       }
 
     out:
       ;
-      memcpy((void *)leader_ret$link1, (const void *)&leader$link1, sizeof(struct leader_record) /*200ul*/ );
-      free((void *)leaders$link1);
-      free((void *)leader_reps$link1);
-      return error$link1;
+      memcpy((void *)leader_ret_link1, (const void *)&leader_link1, sizeof(struct leader_record) /*200ul*/ );
+      free((void *)leaders_link1);
+      free((void *)leader_reps_link1);
+      return error_link1;
     }
   }
 }
@@ -3383,28 +3383,28 @@ static signed int _leader_read_one(struct task *task, struct token *token, struc
 
   else
   {
-    rv=verify_leader$link1(token, &token->disks[(signed long int)0], &leader, caller);
+    rv=verify_leader_link1(token, &token->disks[(signed long int)0], &leader, caller);
     memcpy((void *)leader_ret, (const void *)&leader, sizeof(struct leader_record) /*200ul*/ );
     return rv;
   }
 }
 
-// _leader_read_one$link1
+// _leader_read_one_link1
 // file paxos_lease.c line 691
-static signed int _leader_read_one$link1(struct task *task$link1, struct token *token$link1, struct leader_record *leader_ret$link1, const char *caller$link1)
+static signed int _leader_read_one_link1(struct task *task_link1, struct token *token_link1, struct leader_record *leader_ret_link1, const char *caller_link1)
 {
-  struct leader_record leader$link1;
-  signed int rv$link1;
-  memset((void *)&leader$link1, 0, sizeof(struct leader_record) /*200ul*/ );
-  rv$link1=read_leader$link1(task$link1, &token$link1->disks[(signed long int)0], &leader$link1);
-  if(!(rv$link1 >= 0))
-    return rv$link1;
+  struct leader_record leader_link1;
+  signed int rv_link1;
+  memset((void *)&leader_link1, 0, sizeof(struct leader_record) /*200ul*/ );
+  rv_link1=read_leader_link1(task_link1, &token_link1->disks[(signed long int)0], &leader_link1);
+  if(!(rv_link1 >= 0))
+    return rv_link1;
 
   else
   {
-    rv$link1=verify_leader$link1$link1(token$link1, &token$link1->disks[(signed long int)0], &leader$link1, caller$link1);
-    memcpy((void *)leader_ret$link1, (const void *)&leader$link1, sizeof(struct leader_record) /*200ul*/ );
-    return rv$link1;
+    rv_link1=verify_leader_link1_link1(token_link1, &token_link1->disks[(signed long int)0], &leader_link1, caller_link1);
+    memcpy((void *)leader_ret_link1, (const void *)&leader_link1, sizeof(struct leader_record) /*200ul*/ );
+    return rv_link1;
   }
 }
 
@@ -3430,17 +3430,17 @@ static signed int _lease_read_num(struct task *task, struct token *token, struct
   signed int tmp_q = -1;
   leaders_len = (signed int)((unsigned long int)num_disks * sizeof(struct leader_record) /*200ul*/ );
   leader_reps_len = (signed int)((unsigned long int)num_disks * sizeof(signed int) /*4ul*/ );
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)leaders_len);
-  leaders = (struct leader_record *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)leaders_len);
+  leaders = (struct leader_record *)return_value_malloc_1;
   if(leaders == ((struct leader_record *)NULL))
     return -12;
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)leader_reps_len);
-    leader_reps = (signed int *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)leader_reps_len);
+    leader_reps = (signed int *)return_value_malloc_2;
     if(leader_reps == ((signed int *)NULL))
     {
       free((void *)leaders);
@@ -3471,9 +3471,9 @@ static signed int _lease_read_num(struct task *task, struct token *token, struct
           i = 0;
           for( ; !(i >= d); i = i + 1)
           {
-            signed int return_value_leaders_match$3;
-            return_value_leaders_match$3=leaders_match(&leaders[(signed long int)d], &leaders[(signed long int)i]);
-            if(!(return_value_leaders_match$3 == 0))
+            signed int return_value_leaders_match_3;
+            return_value_leaders_match_3=leaders_match(&leaders[(signed long int)d], &leaders[(signed long int)i]);
+            if(!(return_value_leaders_match_3 == 0))
             {
               leader_reps[(signed long int)i] = leader_reps[(signed long int)i] + 1;
               break;
@@ -3497,9 +3497,9 @@ static signed int _lease_read_num(struct task *task, struct token *token, struct
         d = 0;
         for( ; !(d >= num_disks); d = d + 1)
         {
-          signed int return_value_majority_disks$4;
-          return_value_majority_disks$4=majority_disks(num_disks, leader_reps[(signed long int)d]);
-          if(!(return_value_majority_disks$4 == 0))
+          signed int return_value_majority_disks_4;
+          return_value_majority_disks_4=majority_disks(num_disks, leader_reps[(signed long int)d]);
+          if(!(return_value_majority_disks_4 == 0))
           {
             memcpy((void *)leader_ret, (const void *)&leaders[(signed long int)d], sizeof(struct leader_record) /*200ul*/ );
             found = 1;
@@ -3524,74 +3524,74 @@ static signed int _lease_read_num(struct task *task, struct token *token, struct
   }
 }
 
-// _lease_read_num$link1
+// _lease_read_num_link1
 // file paxos_lease.c line 900
-static signed int _lease_read_num$link1(struct task *task$link1, struct token *token$link1, struct leader_record *leader_ret$link1, struct paxos_dblock *our_dblock$link1, unsigned long int *max_mbal$link1, signed int *max_q$link1, const char *caller$link1)
+static signed int _lease_read_num_link1(struct task *task_link1, struct token *token_link1, struct leader_record *leader_ret_link1, struct paxos_dblock *our_dblock_link1, unsigned long int *max_mbal_link1, signed int *max_q_link1, const char *caller_link1)
 {
-  struct paxos_dblock dblock_one$link1;
-  struct leader_record leader_one$link1;
-  struct leader_record *leaders$link1;
-  unsigned long int tmp_mbal$link1 = (unsigned long int)0;
-  unsigned long int mbal_one$link1;
-  signed int *leader_reps$link1;
-  signed int num_disks$link1 = (signed int)token$link1->r.num_disks;
-  signed int leaders_len$link1;
-  signed int leader_reps_len$link1;
-  signed int i$link1;
-  signed int d$link1;
-  signed int rv$link1;
-  signed int found$link1;
-  signed int num_reads$link1;
-  signed int q_one$link1;
-  signed int tmp_q$link1 = -1;
-  leaders_len$link1 = (signed int)((unsigned long int)num_disks$link1 * sizeof(struct leader_record) /*200ul*/ );
-  leader_reps_len$link1 = (signed int)((unsigned long int)num_disks$link1 * sizeof(signed int) /*4ul*/ );
-  void *return_value_malloc$1$link1;
-  return_value_malloc$1$link1=malloc((unsigned long int)leaders_len$link1);
-  leaders$link1 = (struct leader_record *)return_value_malloc$1$link1;
-  if(leaders$link1 == ((struct leader_record *)NULL))
+  struct paxos_dblock dblock_one_link1;
+  struct leader_record leader_one_link1;
+  struct leader_record *leaders_link1;
+  unsigned long int tmp_mbal_link1 = (unsigned long int)0;
+  unsigned long int mbal_one_link1;
+  signed int *leader_reps_link1;
+  signed int num_disks_link1 = (signed int)token_link1->r.num_disks;
+  signed int leaders_len_link1;
+  signed int leader_reps_len_link1;
+  signed int i_link1;
+  signed int d_link1;
+  signed int rv_link1;
+  signed int found_link1;
+  signed int num_reads_link1;
+  signed int q_one_link1;
+  signed int tmp_q_link1 = -1;
+  leaders_len_link1 = (signed int)((unsigned long int)num_disks_link1 * sizeof(struct leader_record) /*200ul*/ );
+  leader_reps_len_link1 = (signed int)((unsigned long int)num_disks_link1 * sizeof(signed int) /*4ul*/ );
+  void *return_value_malloc_1_link1;
+  return_value_malloc_1_link1=malloc((unsigned long int)leaders_len_link1);
+  leaders_link1 = (struct leader_record *)return_value_malloc_1_link1;
+  if(leaders_link1 == ((struct leader_record *)NULL))
     return -12;
 
   else
   {
-    void *return_value_malloc$2$link1;
-    return_value_malloc$2$link1=malloc((unsigned long int)leader_reps_len$link1);
-    leader_reps$link1 = (signed int *)return_value_malloc$2$link1;
-    if(leader_reps$link1 == ((signed int *)NULL))
+    void *return_value_malloc_2_link1;
+    return_value_malloc_2_link1=malloc((unsigned long int)leader_reps_len_link1);
+    leader_reps_link1 = (signed int *)return_value_malloc_2_link1;
+    if(leader_reps_link1 == ((signed int *)NULL))
     {
-      free((void *)leaders$link1);
+      free((void *)leaders_link1);
       return -12;
     }
 
     else
     {
-      memset((void *)leaders$link1, 0, (unsigned long int)leaders_len$link1);
-      memset((void *)leader_reps$link1, 0, (unsigned long int)leader_reps_len$link1);
-      num_reads$link1 = 0;
-      d$link1 = 0;
-      for( ; !(d$link1 >= num_disks$link1); d$link1 = d$link1 + 1)
+      memset((void *)leaders_link1, 0, (unsigned long int)leaders_len_link1);
+      memset((void *)leader_reps_link1, 0, (unsigned long int)leader_reps_len_link1);
+      num_reads_link1 = 0;
+      d_link1 = 0;
+      for( ; !(d_link1 >= num_disks_link1); d_link1 = d_link1 + 1)
       {
-        rv$link1=_lease_read_one$link1(task$link1, token$link1, &token$link1->disks[(signed long int)d$link1], &leader_one$link1, &dblock_one$link1, &mbal_one$link1, &q_one$link1, caller$link1);
-        if(rv$link1 >= 0)
+        rv_link1=_lease_read_one_link1(task_link1, token_link1, &token_link1->disks[(signed long int)d_link1], &leader_one_link1, &dblock_one_link1, &mbal_one_link1, &q_one_link1, caller_link1);
+        if(rv_link1 >= 0)
         {
-          num_reads$link1 = num_reads$link1 + 1;
-          if(tmp_mbal$link1 == 0ul || !(tmp_mbal$link1 >= mbal_one$link1))
+          num_reads_link1 = num_reads_link1 + 1;
+          if(tmp_mbal_link1 == 0ul || !(tmp_mbal_link1 >= mbal_one_link1))
           {
-            tmp_mbal$link1 = mbal_one$link1;
-            tmp_q$link1 = q_one$link1;
-            memcpy((void *)our_dblock$link1, (const void *)&dblock_one$link1, sizeof(struct paxos_dblock) /*56ul*/ );
+            tmp_mbal_link1 = mbal_one_link1;
+            tmp_q_link1 = q_one_link1;
+            memcpy((void *)our_dblock_link1, (const void *)&dblock_one_link1, sizeof(struct paxos_dblock) /*56ul*/ );
           }
 
-          memcpy((void *)&leaders$link1[(signed long int)d$link1], (const void *)&leader_one$link1, sizeof(struct leader_record) /*200ul*/ );
-          leader_reps$link1[(signed long int)d$link1] = 1;
-          i$link1 = 0;
-          for( ; !(i$link1 >= d$link1); i$link1 = i$link1 + 1)
+          memcpy((void *)&leaders_link1[(signed long int)d_link1], (const void *)&leader_one_link1, sizeof(struct leader_record) /*200ul*/ );
+          leader_reps_link1[(signed long int)d_link1] = 1;
+          i_link1 = 0;
+          for( ; !(i_link1 >= d_link1); i_link1 = i_link1 + 1)
           {
-            signed int return_value_leaders_match$3$link1;
-            return_value_leaders_match$3$link1=leaders_match$link1(&leaders$link1[(signed long int)d$link1], &leaders$link1[(signed long int)i$link1]);
-            if(!(return_value_leaders_match$3$link1 == 0))
+            signed int return_value_leaders_match_3_link1;
+            return_value_leaders_match_3_link1=leaders_match_link1(&leaders_link1[(signed long int)d_link1], &leaders_link1[(signed long int)i_link1]);
+            if(!(return_value_leaders_match_3_link1 == 0))
             {
-              leader_reps$link1[(signed long int)i$link1] = leader_reps$link1[(signed long int)i$link1] + 1;
+              leader_reps_link1[(signed long int)i_link1] = leader_reps_link1[(signed long int)i_link1] + 1;
               break;
             }
 
@@ -3599,43 +3599,43 @@ static signed int _lease_read_num$link1(struct task *task$link1, struct token *t
         }
 
       }
-      *max_mbal$link1 = tmp_mbal$link1;
-      *max_q$link1 = tmp_q$link1;
-      if(num_reads$link1 == 0)
+      *max_mbal_link1 = tmp_mbal_link1;
+      *max_q_link1 = tmp_q_link1;
+      if(num_reads_link1 == 0)
       {
-        log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "%s lease_read_num cannot read disks %d", caller$link1, rv$link1);
-        rv$link1 = -210;
+        log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "%s lease_read_num cannot read disks %d", caller_link1, rv_link1);
+        rv_link1 = -210;
       }
 
       else
       {
-        found$link1 = 0;
-        d$link1 = 0;
-        for( ; !(d$link1 >= num_disks$link1); d$link1 = d$link1 + 1)
+        found_link1 = 0;
+        d_link1 = 0;
+        for( ; !(d_link1 >= num_disks_link1); d_link1 = d_link1 + 1)
         {
-          signed int return_value_majority_disks$4$link1;
-          return_value_majority_disks$4$link1=majority_disks(num_disks$link1, leader_reps$link1[(signed long int)d$link1]);
-          if(!(return_value_majority_disks$4$link1 == 0))
+          signed int return_value_majority_disks_4_link1;
+          return_value_majority_disks_4_link1=majority_disks(num_disks_link1, leader_reps_link1[(signed long int)d_link1]);
+          if(!(return_value_majority_disks_4_link1 == 0))
           {
-            memcpy((void *)leader_ret$link1, (const void *)&leaders$link1[(signed long int)d$link1], sizeof(struct leader_record) /*200ul*/ );
-            found$link1 = 1;
+            memcpy((void *)leader_ret_link1, (const void *)&leaders_link1[(signed long int)d_link1], sizeof(struct leader_record) /*200ul*/ );
+            found_link1 = 1;
             break;
           }
 
         }
-        if(found$link1 == 0)
+        if(found_link1 == 0)
         {
-          log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "%s lease_read_num leader inconsistent", caller$link1);
-          rv$link1 = -222;
+          log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "%s lease_read_num leader inconsistent", caller_link1);
+          rv_link1 = -222;
         }
 
       }
 
     out:
       ;
-      free((void *)leaders$link1);
-      free((void *)leader_reps$link1);
-      return rv$link1;
+      free((void *)leaders_link1);
+      free((void *)leader_reps_link1);
+      return rv_link1;
     }
   }
 }
@@ -3655,16 +3655,16 @@ static signed int _lease_read_one(struct task *task, struct token *token, struct
   signed int rv;
   signed int iobuf_len;
   iobuf_len=direct_align(disk);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(iobuf_len >= 0))
     return iobuf_len;
 
   else
   {
     p_iobuf = &iobuf;
-    signed int return_value_getpagesize$1;
-    return_value_getpagesize$1=getpagesize();
-    rv=posix_memalign((void **)(void *)p_iobuf, (unsigned long int)return_value_getpagesize$1, (unsigned long int)iobuf_len);
+    signed int return_value_getpagesize_1;
+    return_value_getpagesize_1=getpagesize();
+    rv=posix_memalign((void **)(void *)p_iobuf, (unsigned long int)return_value_getpagesize_1, (unsigned long int)iobuf_len);
     if(!(rv == 0))
       return rv;
 
@@ -3676,7 +3676,7 @@ static signed int _lease_read_one(struct task *task, struct token *token, struct
       {
         memcpy((void *)leader_ret, (const void *)iobuf, sizeof(struct leader_record) /*200ul*/ );
         memcpy((void *)our_dblock, (const void *)(iobuf + (signed long int)((host_id + (unsigned int)1) * sector_size)), sizeof(struct paxos_dblock) /*56ul*/ );
-        rv=verify_leader$link1(token, disk, leader_ret, caller);
+        rv=verify_leader_link1(token, disk, leader_ret, caller);
         if(rv >= 0)
         {
           q = 0;
@@ -3688,11 +3688,11 @@ static signed int _lease_read_one(struct task *task, struct token *token, struct
               goto out;
 
             if(tmp_mbal == 0ul)
-              tmp_if_expr$2 = (_Bool)1;
+              tmp_if_expr_2 = (_Bool)1;
 
             else
-              tmp_if_expr$2 = bk->mbal > tmp_mbal ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$2)
+              tmp_if_expr_2 = bk->mbal > tmp_mbal ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_2)
             {
               tmp_mbal = bk->mbal;
               tmp_q = q;
@@ -3716,67 +3716,67 @@ static signed int _lease_read_one(struct task *task, struct token *token, struct
   }
 }
 
-// _lease_read_one$link1
+// _lease_read_one_link1
 // file paxos_lease.c line 837
-static signed int _lease_read_one$link1(struct task *task$link1, struct token *token$link1, struct sync_disk *disk$link1, struct leader_record *leader_ret$link1, struct paxos_dblock *our_dblock$link1, unsigned long int *max_mbal$link1, signed int *max_q$link1, const char *caller$link1)
+static signed int _lease_read_one_link1(struct task *task_link1, struct token *token_link1, struct sync_disk *disk_link1, struct leader_record *leader_ret_link1, struct paxos_dblock *our_dblock_link1, unsigned long int *max_mbal_link1, signed int *max_q_link1, const char *caller_link1)
 {
-  char *iobuf$link1;
-  char **p_iobuf$link1;
-  unsigned int host_id$link1 = (unsigned int)token$link1->host_id;
-  unsigned int sector_size$link1 = disk$link1->sector_size;
-  struct paxos_dblock *bk$link1;
-  unsigned long int tmp_mbal$link1 = (unsigned long int)0;
-  signed int q$link1;
-  signed int tmp_q$link1 = -1;
-  signed int rv$link1;
-  signed int iobuf_len$link1;
-  iobuf_len$link1=direct_align(disk$link1);
-  _Bool tmp_if_expr$2$link1;
-  if(!(iobuf_len$link1 >= 0))
-    return iobuf_len$link1;
+  char *iobuf_link1;
+  char **p_iobuf_link1;
+  unsigned int host_id_link1 = (unsigned int)token_link1->host_id;
+  unsigned int sector_size_link1 = disk_link1->sector_size;
+  struct paxos_dblock *bk_link1;
+  unsigned long int tmp_mbal_link1 = (unsigned long int)0;
+  signed int q_link1;
+  signed int tmp_q_link1 = -1;
+  signed int rv_link1;
+  signed int iobuf_len_link1;
+  iobuf_len_link1=direct_align(disk_link1);
+  _Bool tmp_if_expr_2_link1;
+  if(!(iobuf_len_link1 >= 0))
+    return iobuf_len_link1;
 
   else
   {
-    p_iobuf$link1 = &iobuf$link1;
-    signed int return_value_getpagesize$1$link1;
-    return_value_getpagesize$1$link1=getpagesize();
-    rv$link1=posix_memalign((void **)(void *)p_iobuf$link1, (unsigned long int)return_value_getpagesize$1$link1, (unsigned long int)iobuf_len$link1);
-    if(!(rv$link1 == 0))
-      return rv$link1;
+    p_iobuf_link1 = &iobuf_link1;
+    signed int return_value_getpagesize_1_link1;
+    return_value_getpagesize_1_link1=getpagesize();
+    rv_link1=posix_memalign((void **)(void *)p_iobuf_link1, (unsigned long int)return_value_getpagesize_1_link1, (unsigned long int)iobuf_len_link1);
+    if(!(rv_link1 == 0))
+      return rv_link1;
 
     else
     {
-      memset((void *)iobuf$link1, 0, (unsigned long int)iobuf_len$link1);
-      rv$link1=read_iobuf(disk$link1->fd, disk$link1->offset, iobuf$link1, iobuf_len$link1, task$link1);
-      if(rv$link1 >= 0)
+      memset((void *)iobuf_link1, 0, (unsigned long int)iobuf_len_link1);
+      rv_link1=read_iobuf(disk_link1->fd, disk_link1->offset, iobuf_link1, iobuf_len_link1, task_link1);
+      if(rv_link1 >= 0)
       {
-        memcpy((void *)leader_ret$link1, (const void *)iobuf$link1, sizeof(struct leader_record) /*200ul*/ );
-        memcpy((void *)our_dblock$link1, (const void *)(iobuf$link1 + (signed long int)((host_id$link1 + (unsigned int)1) * sector_size$link1)), sizeof(struct paxos_dblock) /*56ul*/ );
-        rv$link1=verify_leader$link1$link1(token$link1, disk$link1, leader_ret$link1, caller$link1);
-        if(rv$link1 >= 0)
+        memcpy((void *)leader_ret_link1, (const void *)iobuf_link1, sizeof(struct leader_record) /*200ul*/ );
+        memcpy((void *)our_dblock_link1, (const void *)(iobuf_link1 + (signed long int)((host_id_link1 + (unsigned int)1) * sector_size_link1)), sizeof(struct paxos_dblock) /*56ul*/ );
+        rv_link1=verify_leader_link1_link1(token_link1, disk_link1, leader_ret_link1, caller_link1);
+        if(rv_link1 >= 0)
         {
-          q$link1 = 0;
-          for( ; !((unsigned long int)q$link1 >= leader_ret$link1->num_hosts); q$link1 = q$link1 + 1)
+          q_link1 = 0;
+          for( ; !((unsigned long int)q_link1 >= leader_ret_link1->num_hosts); q_link1 = q_link1 + 1)
           {
-            bk$link1 = (struct paxos_dblock *)(iobuf$link1 + (signed long int)((unsigned int)(2 + q$link1) * sector_size$link1));
-            rv$link1=verify_dblock$link1(token$link1, bk$link1);
-            if(!(rv$link1 >= 0))
+            bk_link1 = (struct paxos_dblock *)(iobuf_link1 + (signed long int)((unsigned int)(2 + q_link1) * sector_size_link1));
+            rv_link1=verify_dblock_link1(token_link1, bk_link1);
+            if(!(rv_link1 >= 0))
               goto out;
 
-            if(tmp_mbal$link1 == 0ul)
-              tmp_if_expr$2$link1 = (_Bool)1;
+            if(tmp_mbal_link1 == 0ul)
+              tmp_if_expr_2_link1 = (_Bool)1;
 
             else
-              tmp_if_expr$2$link1 = bk$link1->mbal > tmp_mbal$link1 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$2$link1)
+              tmp_if_expr_2_link1 = bk_link1->mbal > tmp_mbal_link1 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_2_link1)
             {
-              tmp_mbal$link1 = bk$link1->mbal;
-              tmp_q$link1 = q$link1;
+              tmp_mbal_link1 = bk_link1->mbal;
+              tmp_q_link1 = q_link1;
             }
 
           }
-          *max_mbal$link1 = tmp_mbal$link1;
-          *max_q$link1 = tmp_q$link1;
+          *max_mbal_link1 = tmp_mbal_link1;
+          *max_q_link1 = tmp_q_link1;
         }
 
       }
@@ -3784,10 +3784,10 @@ static signed int _lease_read_one$link1(struct task *task$link1, struct token *t
 
     out:
       ;
-      if(!(rv$link1 == -202))
-        free((void *)iobuf$link1);
+      if(!(rv_link1 == -202))
+        free((void *)iobuf_link1);
 
-      return rv$link1;
+      return rv_link1;
     }
   }
 }
@@ -3797,23 +3797,23 @@ static signed int _lease_read_one$link1(struct task *task$link1, struct token *t
 signed int _lockspace_info(char *space_name, struct space *sp_out)
 {
   struct space *sp;
-  struct space *tmp_statement_expression$1;
+  struct space *tmp_statement_expression_1;
   const struct list_head *__mptr = (&spaces)->next;
-  tmp_statement_expression$1 = (struct space *)((char *)__mptr - (signed long int)0ul);
-  sp = tmp_statement_expression$1;
-  struct space *tmp_statement_expression$2;
-  for( ; !(&sp->list == &spaces); sp = tmp_statement_expression$2)
+  tmp_statement_expression_1 = (struct space *)((char *)__mptr - (signed long int)0ul);
+  sp = tmp_statement_expression_1;
+  struct space *tmp_statement_expression_2;
+  for( ; !(&sp->list == &spaces); sp = tmp_statement_expression_2)
   {
-    signed int return_value_strncmp$3;
-    return_value_strncmp$3=strncmp(sp->space_name, space_name, (unsigned long int)48);
-    if(return_value_strncmp$3 == 0)
+    signed int return_value_strncmp_3;
+    return_value_strncmp_3=strncmp(sp->space_name, space_name, (unsigned long int)48);
+    if(return_value_strncmp_3 == 0)
     {
       memcpy((void *)sp_out, (const void *)sp, sizeof(struct space) /*129264ul*/ );
       return 0;
     }
 
-    const struct list_head *_lockspace_info$$1$$1$$2$$__mptr = sp->list.next;
-    tmp_statement_expression$2 = (struct space *)((char *)_lockspace_info$$1$$1$$2$$__mptr - (signed long int)0ul);
+    const struct list_head *_lockspace_info__1__1__2____mptr = sp->list.next;
+    tmp_statement_expression_2 = (struct space *)((char *)_lockspace_info__1__1__2____mptr - (signed long int)0ul);
   }
   return -1;
 }
@@ -3823,7 +3823,7 @@ signed int _lockspace_info(char *space_name, struct space *sp_out)
 static void _log_save_dump(signed int level, signed int len)
 {
   signed int i;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   if(!((unsigned int)len >= 1048576u + -log_point))
   {
     memcpy((void *)(log_dump + (signed long int)log_point), (const void *)log_str, (unsigned long int)len);
@@ -3841,9 +3841,9 @@ static void _log_save_dump(signed int level, signed int len)
     i = 0;
     for( ; !(i >= len); i = i + 1)
     {
-      tmp_post$1 = log_point;
+      tmp_post_1 = log_point;
       log_point = log_point + 1u;
-      log_dump[(signed long int)tmp_post$1] = log_str[(signed long int)i];
+      log_dump[(signed long int)tmp_post_1] = log_str[(signed long int)i];
       if(log_point == 1048576u)
       {
         log_point = (unsigned int)0;
@@ -3859,7 +3859,7 @@ static void _log_save_dump(signed int level, signed int len)
 static void _log_save_ent(signed int level, signed int len)
 {
   struct entry *e;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   if(!(log_ents == ((struct entry *)NULL)))
   {
     if(log_pending_ents == log_num_ents)
@@ -3867,9 +3867,9 @@ static void _log_save_ent(signed int level, signed int len)
 
     else
     {
-      tmp_post$1 = log_head_ent;
+      tmp_post_1 = log_head_ent;
       log_head_ent = log_head_ent + 1u;
-      e = &log_ents[(signed long int)tmp_post$1];
+      e = &log_ents[(signed long int)tmp_post_1];
       log_head_ent = log_head_ent % log_num_ents;
       log_pending_ents = log_pending_ents + 1u;
       e->level = level;
@@ -3888,12 +3888,12 @@ static signed int _release_token(struct task *task, struct token *token, signed 
   signed int last_token = 0;
   signed int rv;
   pthread_mutex_lock(&resource_mutex);
-  list_del$link2(&token->list);
-  signed int return_value_list_empty$1;
-  return_value_list_empty$1=list_empty$link1(&r->tokens);
-  if(!(return_value_list_empty$1 == 0))
+  list_del_link2(&token->list);
+  signed int return_value_list_empty_1;
+  return_value_list_empty_1=list_empty_link1(&r->tokens);
+  if(!(return_value_list_empty_1 == 0))
   {
-    list_move$link2(&r->list, &resources_rem);
+    list_move_link2(&r->list, &resources_rem);
     last_token = 1;
   }
 
@@ -3964,7 +3964,7 @@ static signed int _release_token(struct task *task, struct token *token, signed 
       else
         log_level((unsigned int)0, token->token_id, (char *)(void *)0, 7, "release_token flags %x", r->flags);
       pthread_mutex_lock(&resource_mutex);
-      list_del$link2(&r->list);
+      list_del_link2(&r->list);
       pthread_mutex_unlock(&resource_mutex);
       free((void *)r);
       return rv;
@@ -3977,29 +3977,29 @@ static signed int _release_token(struct task *task, struct token *token, signed 
 static struct space * _search_space(char *name, struct sync_disk *disk, unsigned long int host_id, struct list_head *head1, struct list_head *head2, struct list_head *head3)
 {
   struct space *sp;
-  struct space *tmp_statement_expression$1;
-  signed int return_value_strncmp$3;
-  signed int return_value_strncmp$4;
-  struct space *tmp_statement_expression$2;
+  struct space *tmp_statement_expression_1;
+  signed int return_value_strncmp_3;
+  signed int return_value_strncmp_4;
+  struct space *tmp_statement_expression_2;
   if(!(head1 == ((struct list_head *)NULL)))
   {
-    const struct list_head *_search_space$$1$$1$$1$$1$$__mptr = head1->next;
-    tmp_statement_expression$1 = (struct space *)((char *)_search_space$$1$$1$$1$$1$$__mptr - (signed long int)0ul);
-    sp = tmp_statement_expression$1;
-    for( ; !(&sp->list == head1); sp = tmp_statement_expression$2)
+    const struct list_head *_search_space__1__1__1__1____mptr = head1->next;
+    tmp_statement_expression_1 = (struct space *)((char *)_search_space__1__1__1__1____mptr - (signed long int)0ul);
+    sp = tmp_statement_expression_1;
+    for( ; !(&sp->list == head1); sp = tmp_statement_expression_2)
     {
       if(!(name == ((char *)NULL)))
       {
-        return_value_strncmp$3=strncmp(sp->space_name, name, (unsigned long int)48);
-        if(!(return_value_strncmp$3 == 0))
+        return_value_strncmp_3=strncmp(sp->space_name, name, (unsigned long int)48);
+        if(!(return_value_strncmp_3 == 0))
           goto __CPROVER_DUMP_L6;
 
       }
 
       if(!(disk == ((struct sync_disk *)NULL)))
       {
-        return_value_strncmp$4=strncmp(sp->host_id_disk.path, disk->path, (unsigned long int)1024);
-        if(return_value_strncmp$4 == 0)
+        return_value_strncmp_4=strncmp(sp->host_id_disk.path, disk->path, (unsigned long int)1024);
+        if(return_value_strncmp_4 == 0)
           goto __CPROVER_DUMP_L3;
 
       }
@@ -4040,34 +4040,34 @@ static struct space * _search_space(char *name, struct sync_disk *disk, unsigned
 
     __CPROVER_DUMP_L6:
       ;
-      const struct list_head *_search_space$$1$$1$$1$$2$$__mptr = sp->list.next;
-      tmp_statement_expression$2 = (struct space *)((char *)_search_space$$1$$1$$1$$2$$__mptr - (signed long int)0ul);
+      const struct list_head *_search_space__1__1__1__2____mptr = sp->list.next;
+      tmp_statement_expression_2 = (struct space *)((char *)_search_space__1__1__1__2____mptr - (signed long int)0ul);
     }
   }
 
-  struct space *tmp_statement_expression$5;
-  signed int return_value_strncmp$7;
-  signed int return_value_strncmp$8;
-  struct space *tmp_statement_expression$6;
+  struct space *tmp_statement_expression_5;
+  signed int return_value_strncmp_7;
+  signed int return_value_strncmp_8;
+  struct space *tmp_statement_expression_6;
   if(!(head2 == ((struct list_head *)NULL)))
   {
-    const struct list_head *_search_space$$1$$2$$1$$1$$__mptr = head2->next;
-    tmp_statement_expression$5 = (struct space *)((char *)_search_space$$1$$2$$1$$1$$__mptr - (signed long int)0ul);
-    sp = tmp_statement_expression$5;
-    for( ; !(&sp->list == head2); sp = tmp_statement_expression$6)
+    const struct list_head *_search_space__1__2__1__1____mptr = head2->next;
+    tmp_statement_expression_5 = (struct space *)((char *)_search_space__1__2__1__1____mptr - (signed long int)0ul);
+    sp = tmp_statement_expression_5;
+    for( ; !(&sp->list == head2); sp = tmp_statement_expression_6)
     {
       if(!(name == ((char *)NULL)))
       {
-        return_value_strncmp$7=strncmp(sp->space_name, name, (unsigned long int)48);
-        if(!(return_value_strncmp$7 == 0))
+        return_value_strncmp_7=strncmp(sp->space_name, name, (unsigned long int)48);
+        if(!(return_value_strncmp_7 == 0))
           goto __CPROVER_DUMP_L13;
 
       }
 
       if(!(disk == ((struct sync_disk *)NULL)))
       {
-        return_value_strncmp$8=strncmp(sp->host_id_disk.path, disk->path, (unsigned long int)1024);
-        if(return_value_strncmp$8 == 0)
+        return_value_strncmp_8=strncmp(sp->host_id_disk.path, disk->path, (unsigned long int)1024);
+        if(return_value_strncmp_8 == 0)
           goto __CPROVER_DUMP_L10;
 
       }
@@ -4108,34 +4108,34 @@ static struct space * _search_space(char *name, struct sync_disk *disk, unsigned
 
     __CPROVER_DUMP_L13:
       ;
-      const struct list_head *_search_space$$1$$2$$1$$2$$__mptr = sp->list.next;
-      tmp_statement_expression$6 = (struct space *)((char *)_search_space$$1$$2$$1$$2$$__mptr - (signed long int)0ul);
+      const struct list_head *_search_space__1__2__1__2____mptr = sp->list.next;
+      tmp_statement_expression_6 = (struct space *)((char *)_search_space__1__2__1__2____mptr - (signed long int)0ul);
     }
   }
 
-  struct space *tmp_statement_expression$9;
-  signed int return_value_strncmp$11;
-  signed int return_value_strncmp$12;
-  struct space *tmp_statement_expression$10;
+  struct space *tmp_statement_expression_9;
+  signed int return_value_strncmp_11;
+  signed int return_value_strncmp_12;
+  struct space *tmp_statement_expression_10;
   if(!(head3 == ((struct list_head *)NULL)))
   {
-    const struct list_head *_search_space$$1$$3$$1$$1$$__mptr = head3->next;
-    tmp_statement_expression$9 = (struct space *)((char *)_search_space$$1$$3$$1$$1$$__mptr - (signed long int)0ul);
-    sp = tmp_statement_expression$9;
-    for( ; !(&sp->list == head3); sp = tmp_statement_expression$10)
+    const struct list_head *_search_space__1__3__1__1____mptr = head3->next;
+    tmp_statement_expression_9 = (struct space *)((char *)_search_space__1__3__1__1____mptr - (signed long int)0ul);
+    sp = tmp_statement_expression_9;
+    for( ; !(&sp->list == head3); sp = tmp_statement_expression_10)
     {
       if(!(name == ((char *)NULL)))
       {
-        return_value_strncmp$11=strncmp(sp->space_name, name, (unsigned long int)48);
-        if(!(return_value_strncmp$11 == 0))
+        return_value_strncmp_11=strncmp(sp->space_name, name, (unsigned long int)48);
+        if(!(return_value_strncmp_11 == 0))
           goto __CPROVER_DUMP_L20;
 
       }
 
       if(!(disk == ((struct sync_disk *)NULL)))
       {
-        return_value_strncmp$12=strncmp(sp->host_id_disk.path, disk->path, (unsigned long int)1024);
-        if(return_value_strncmp$12 == 0)
+        return_value_strncmp_12=strncmp(sp->host_id_disk.path, disk->path, (unsigned long int)1024);
+        if(return_value_strncmp_12 == 0)
           goto __CPROVER_DUMP_L17;
 
       }
@@ -4177,7 +4177,7 @@ static struct space * _search_space(char *name, struct sync_disk *disk, unsigned
     __CPROVER_DUMP_L20:
       ;
       const struct list_head *__mptr = sp->list.next;
-      tmp_statement_expression$10 = (struct space *)((char *)__mptr - (signed long int)0ul);
+      tmp_statement_expression_10 = (struct space *)((char *)__mptr - (signed long int)0ul);
     }
   }
 
@@ -4199,9 +4199,9 @@ static signed int _write_sectors(struct sync_disk *disk, unsigned long int secto
   {
     offset = disk->offset + sector_nr * (unsigned long int)disk->sector_size;
     p_iobuf = &iobuf;
-    signed int return_value_getpagesize$1;
-    return_value_getpagesize$1=getpagesize();
-    rv=posix_memalign((void **)(void *)p_iobuf, (unsigned long int)return_value_getpagesize$1, (unsigned long int)iobuf_len);
+    signed int return_value_getpagesize_1;
+    return_value_getpagesize_1=getpagesize();
+    rv=posix_memalign((void **)(void *)p_iobuf, (unsigned long int)return_value_getpagesize_1, (unsigned long int)iobuf_len);
     if(!(rv == 0))
     {
       log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "write_sectors %s posix_memalign rv %d %s", blktype, rv, (const void *)disk->path);
@@ -4227,46 +4227,46 @@ static signed int _write_sectors(struct sync_disk *disk, unsigned long int secto
   }
 }
 
-// _write_sectors$link1
+// _write_sectors_link1
 // file diskio.c line 599
-static signed int _write_sectors$link1(struct sync_disk *disk$link1, unsigned long int sector_nr$link1, unsigned int sector_count$link1, const char *data$link1, signed int data_len$link1, signed int iobuf_len$link1, struct task *task$link1, const char *blktype$link1)
+static signed int _write_sectors_link1(struct sync_disk *disk_link1, unsigned long int sector_nr_link1, unsigned int sector_count_link1, const char *data_link1, signed int data_len_link1, signed int iobuf_len_link1, struct task *task_link1, const char *blktype_link1)
 {
-  char *iobuf$link1;
-  char **p_iobuf$link1;
-  unsigned long int offset$link1;
-  signed int rv$link1;
-  if(disk$link1->sector_size == 0u)
+  char *iobuf_link1;
+  char **p_iobuf_link1;
+  unsigned long int offset_link1;
+  signed int rv_link1;
+  if(disk_link1->sector_size == 0u)
     return -22;
 
   else
   {
-    offset$link1 = disk$link1->offset + sector_nr$link1 * (unsigned long int)disk$link1->sector_size;
-    p_iobuf$link1 = &iobuf$link1;
-    signed int return_value_getpagesize$1$link1;
-    return_value_getpagesize$1$link1=getpagesize();
-    rv$link1=posix_memalign((void **)(void *)p_iobuf$link1, (unsigned long int)return_value_getpagesize$1$link1, (unsigned long int)iobuf_len$link1);
-    if(!(rv$link1 == 0))
+    offset_link1 = disk_link1->offset + sector_nr_link1 * (unsigned long int)disk_link1->sector_size;
+    p_iobuf_link1 = &iobuf_link1;
+    signed int return_value_getpagesize_1_link1;
+    return_value_getpagesize_1_link1=getpagesize();
+    rv_link1=posix_memalign((void **)(void *)p_iobuf_link1, (unsigned long int)return_value_getpagesize_1_link1, (unsigned long int)iobuf_len_link1);
+    if(!(rv_link1 == 0))
     {
-      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "write_sectors %s posix_memalign rv %d %s", blktype$link1, rv$link1, (const void *)disk$link1->path);
-      rv$link1 = -12;
+      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "write_sectors %s posix_memalign rv %d %s", blktype_link1, rv_link1, (const void *)disk_link1->path);
+      rv_link1 = -12;
     }
 
     else
     {
-      memset((void *)iobuf$link1, 0, (unsigned long int)iobuf_len$link1);
-      memcpy((void *)iobuf$link1, (const void *)data$link1, (unsigned long int)data_len$link1);
-      rv$link1=write_iobuf(disk$link1->fd, offset$link1, iobuf$link1, iobuf_len$link1, task$link1);
-      if(!(rv$link1 >= 0))
-        log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "write_sectors %s offset %llu rv %d %s", blktype$link1, (unsigned long long int)offset$link1, rv$link1, (const void *)disk$link1->path);
+      memset((void *)iobuf_link1, 0, (unsigned long int)iobuf_len_link1);
+      memcpy((void *)iobuf_link1, (const void *)data_link1, (unsigned long int)data_len_link1);
+      rv_link1=write_iobuf(disk_link1->fd, offset_link1, iobuf_link1, iobuf_len_link1, task_link1);
+      if(!(rv_link1 >= 0))
+        log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "write_sectors %s offset %llu rv %d %s", blktype_link1, (unsigned long long int)offset_link1, rv_link1, (const void *)disk_link1->path);
 
-      if(!(rv$link1 == -202))
-        free((void *)iobuf$link1);
+      if(!(rv_link1 == -202))
+        free((void *)iobuf_link1);
 
     }
 
   out:
     ;
-    return rv$link1;
+    return rv_link1;
   }
 }
 
@@ -4309,7 +4309,7 @@ signed int acquire_token(struct task *task, struct token *token)
 
   pthread_mutex_lock(&resource_mutex);
   r=find_resource(token, &resources_rem);
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   signed int us;
   if(!(r == ((struct resource *)NULL)))
   {
@@ -4346,7 +4346,7 @@ signed int acquire_token(struct task *task, struct token *token)
         log_level((unsigned int)0, token->token_id, (char *)(void *)0, 7, "acquire_token add shared");
         copy_disks((void *)&token->r.disks, (void *)&r->r.disks, (signed int)token->r.num_disks);
         token->resource = r;
-        list_add$link2(&token->list, &r->tokens);
+        list_add_link2(&token->list, &r->tokens);
         pthread_mutex_unlock(&resource_mutex);
         return 1;
       }
@@ -4376,8 +4376,8 @@ signed int acquire_token(struct task *task, struct token *token)
 
           else
           {
-            list_add$link2(&token->list, &r->tokens);
-            list_add$link2(&r->list, &resources_add);
+            list_add_link2(&token->list, &r->tokens);
+            list_add_link2(&r->list, &resources_add);
             token->resource = r;
             pthread_mutex_unlock(&resource_mutex);
             rv=open_disks(token->disks, (signed int)token->r.num_disks);
@@ -4407,9 +4407,9 @@ signed int acquire_token(struct task *task, struct token *token)
                 if((1u & leader.flags) == 0u)
                   goto __CPROVER_DUMP_L14;
 
-                tmp_post$1 = sh_retries;
+                tmp_post_1 = sh_retries;
                 sh_retries = sh_retries + 1;
-                if(tmp_post$1 >= com.sh_retries)
+                if(tmp_post_1 >= com.sh_retries)
                   break;
 
                 us=get_rand(0, 1000000);
@@ -4462,7 +4462,7 @@ signed int acquire_token(struct task *task, struct token *token)
               ;
               close_disks(token->disks, (signed int)token->r.num_disks);
               pthread_mutex_lock(&resource_mutex);
-              list_move$link2(&r->list, &resources_held);
+              list_move_link2(&r->list, &resources_held);
               pthread_mutex_unlock(&resource_mutex);
               return 1;
             }
@@ -4480,32 +4480,32 @@ signed int add_lockspace_start(struct sanlk_lockspace *ls, struct space **sp_out
   struct space *sp;
   struct space *sp2;
   signed int rv;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(ls->name[0l] == 0)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = !(ls->host_id != 0ul) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_3 = !(ls->host_id != 0ul) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = !(ls->host_id_disk.path[(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = !(ls->host_id_disk.path[(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_4)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(ls->name);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(ls->host_id_disk.path);
-    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "add_lockspace bad args id %llu name %zu path %zu", (unsigned long long int)ls->host_id, return_value_strlen$1, return_value_strlen$2);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(ls->name);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(ls->host_id_disk.path);
+    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "add_lockspace bad args id %llu name %zu path %zu", (unsigned long long int)ls->host_id, return_value_strlen_1, return_value_strlen_2);
     return -22;
   }
 
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc(sizeof(struct space) /*129264ul*/ );
-  sp = (struct space *)return_value_malloc$5;
-  unsigned int tmp_post$6;
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc(sizeof(struct space) /*129264ul*/ );
+  sp = (struct space *)return_value_malloc_5;
+  unsigned int tmp_post_6;
   if(sp == ((struct space *)NULL))
     return -12;
 
@@ -4517,7 +4517,7 @@ signed int add_lockspace_start(struct sanlk_lockspace *ls, struct space **sp_out
     sp->host_id_disk.sector_size = (unsigned int)0;
     sp->host_id_disk.fd = -1;
     sp->host_id = ls->host_id;
-    pthread_mutex_init(&sp->mutex, (const union anonymous$5 *)(void *)0);
+    pthread_mutex_init(&sp->mutex, (const union anonymous_5 *)(void *)0);
     pthread_mutex_lock(&spaces_mutex);
     sp2=_search_space(sp->space_name, &sp->host_id_disk, sp->host_id, &spaces, (struct list_head *)(void *)0, (struct list_head *)(void *)0);
     if(!(sp2 == ((struct space *)NULL)))
@@ -4564,9 +4564,9 @@ signed int add_lockspace_start(struct sanlk_lockspace *ls, struct space **sp_out
 
             else
             {
-              tmp_post$6 = space_id_counter;
+              tmp_post_6 = space_id_counter;
               space_id_counter = space_id_counter + 1u;
-              sp->space_id = tmp_post$6;
+              sp->space_id = tmp_post_6;
               list_add(&sp->list, &spaces_add);
               pthread_mutex_unlock(&spaces_mutex);
               log_level(sp->space_id, (unsigned int)0, (char *)(void *)0, 4, "lockspace %.48s:%llu:%.256s:%llu", (const void *)sp->space_name, (unsigned long long int)sp->host_id, (const void *)sp->host_id_disk.path, (unsigned long long int)sp->host_id_disk.offset);
@@ -4654,7 +4654,7 @@ static signed int all_pids_dead(struct space *sp)
   signed int stuck = 0;
   signed int check = 0;
   signed int ci = 0;
-  signed int return_value_client_using_space$1;
+  signed int return_value_client_using_space_1;
   for( ; client_maxi >= ci; ci = ci + 1)
   {
     cl = &client[(signed long int)ci];
@@ -4663,8 +4663,8 @@ static signed int all_pids_dead(struct space *sp)
     {
       if(cl->pid >= 1)
       {
-        return_value_client_using_space$1=client_using_space(cl, sp);
-        if(!(return_value_client_using_space$1 == 0))
+        return_value_client_using_space_1=client_using_space(cl, sp);
+        if(!(return_value_client_using_space_1 == 0))
         {
           if(cl->kill_count >= main_task.kill_count_max)
             stuck = stuck + 1;
@@ -4710,10 +4710,10 @@ void call_cmd_daemon(signed int ci, struct sm_header *h_recv, signed int client_
   signed int pid;
   signed int auto_close = 1;
   signed int fd = (client + (signed long int)ci)->fd;
-  _Bool tmp_if_expr$3;
-  signed int return_value_list_empty$2;
-  _Bool tmp_if_expr$5;
-  signed int return_value_list_empty$4;
+  _Bool tmp_if_expr_3;
+  signed int return_value_list_empty_2;
+  _Bool tmp_if_expr_5;
+  signed int return_value_list_empty_4;
   switch(h_recv->cmd)
   {
     case (unsigned int)1:
@@ -4747,25 +4747,25 @@ void call_cmd_daemon(signed int ci, struct sm_header *h_recv, signed int client_
       else
       {
         pthread_mutex_lock(&spaces_mutex);
-        signed int return_value_list_empty$1;
-        return_value_list_empty$1=list_empty$link2(&spaces);
-        if(!(return_value_list_empty$1 == 0))
+        signed int return_value_list_empty_1;
+        return_value_list_empty_1=list_empty_link2(&spaces);
+        if(!(return_value_list_empty_1 == 0))
         {
-          return_value_list_empty$2=list_empty$link2(&spaces_rem);
-          tmp_if_expr$3 = return_value_list_empty$2 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_list_empty_2=list_empty_link2(&spaces_rem);
+          tmp_if_expr_3 = return_value_list_empty_2 != 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
         {
-          return_value_list_empty$4=list_empty$link2(&spaces_add);
-          tmp_if_expr$5 = return_value_list_empty$4 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_list_empty_4=list_empty_link2(&spaces_add);
+          tmp_if_expr_5 = return_value_list_empty_4 != 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
           external_shutdown = 1;
 
         else
@@ -4959,9 +4959,9 @@ void check_other_leases(struct task *task, struct space *sp, char *buf)
     if(!((unsigned long int)(1 + i) == sp->host_id))
     {
       bitmap = (char *)leader + (signed long int)256;
-      signed int return_value_test_id_bit$1;
-      return_value_test_id_bit$1=test_id_bit((signed int)sp->host_id, bitmap);
-      if(!(return_value_test_id_bit$1 == 0))
+      signed int return_value_test_id_bit_1;
+      return_value_test_id_bit_1=test_id_bit((signed int)sp->host_id, bitmap);
+      if(!(return_value_test_id_bit_1 == 0))
       {
         if(now + -hs->last_req >= (unsigned long int)task->request_finish_seconds)
         {
@@ -4988,11 +4988,11 @@ void check_other_leases(struct task *task, struct space *sp, char *buf)
 signed int check_our_lease(struct task *task, struct space *sp, signed int *check_all, char *check_buf)
 {
   unsigned long int last_success;
-  signed int check_our_lease$$1$$corrupt_result;
+  signed int check_our_lease__1__corrupt_result;
   signed int gap;
   pthread_mutex_lock(&sp->mutex);
   last_success = sp->lease_status.renewal_last_success;
-  check_our_lease$$1$$corrupt_result = sp->lease_status.corrupt_result;
+  check_our_lease__1__corrupt_result = sp->lease_status.corrupt_result;
   if(!(sp->lease_status.renewal_read_check >= sp->lease_status.renewal_read_count))
   {
     sp->lease_status.renewal_read_check = sp->lease_status.renewal_read_count;
@@ -5003,17 +5003,17 @@ signed int check_our_lease(struct task *task, struct space *sp, signed int *chec
   }
 
   pthread_mutex_unlock(&sp->mutex);
-  if(!(check_our_lease$$1$$corrupt_result == 0))
+  if(!(check_our_lease__1__corrupt_result == 0))
   {
-    log_level(sp->space_id, (unsigned int)0, (char *)(void *)0, 3, "check_our_lease corrupt %d", check_our_lease$$1$$corrupt_result);
+    log_level(sp->space_id, (unsigned int)0, (char *)(void *)0, 3, "check_our_lease corrupt %d", check_our_lease__1__corrupt_result);
     return -1;
   }
 
   else
   {
-    unsigned long int return_value_monotime$1;
-    return_value_monotime$1=monotime();
-    gap = (signed int)(return_value_monotime$1 - last_success);
+    unsigned long int return_value_monotime_1;
+    return_value_monotime_1=monotime();
+    gap = (signed int)(return_value_monotime_1 - last_success);
     if(gap >= task->id_renewal_fail_seconds)
     {
       log_level(sp->space_id, (unsigned int)0, (char *)(void *)0, 3, "check_our_lease failed %d", gap);
@@ -5048,9 +5048,9 @@ static signed int clear_dead_shared(struct task *task, struct token *token, sign
     host_id = (unsigned long int)(i + 1);
     if(!(host_id == token->host_id))
     {
-      signed int return_value_test_id_bit$1;
-      return_value_test_id_bit$1=test_id_bit((signed int)host_id, token->shared_bitmap);
-      if(!(return_value_test_id_bit$1 == 0))
+      signed int return_value_test_id_bit_1;
+      return_value_test_id_bit_1=test_id_bit((signed int)host_id, token->shared_bitmap);
+      if(!(return_value_test_id_bit_1 == 0))
       {
         rv=read_mode_block(task, token, host_id, &max_gen);
         if(!(rv >= 0))
@@ -5059,9 +5059,9 @@ static signed int clear_dead_shared(struct task *task, struct token *token, sign
           return rv;
         }
 
-        signed int return_value_host_live$2;
-        return_value_host_live$2=host_live(task, token->r.lockspace_name, host_id, max_gen);
-        if(!(return_value_host_live$2 == 0))
+        signed int return_value_host_live_2;
+        return_value_host_live_2=host_live(task, token->r.lockspace_name, host_id, max_gen);
+        if(!(return_value_host_live_2 == 0))
         {
           log_level((unsigned int)0, token->token_id, (char *)(void *)0, 7, "clear_dead_shared host_id %llu gen %llu alive", (unsigned long long int)host_id, (unsigned long long int)max_gen);
           live = live + 1;
@@ -5122,12 +5122,12 @@ static signed int client_add(signed int fd, void (*workfn)(signed int), void (*d
 static signed int client_alloc(void)
 {
   signed int i;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)1024 * sizeof(struct client) /*224ul*/ );
-  client = (struct client *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)1024 * sizeof(struct pollfd) /*8ul*/ );
-  pollfd = (struct pollfd *)return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)1024 * sizeof(struct client) /*224ul*/ );
+  client = (struct client *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)1024 * sizeof(struct pollfd) /*8ul*/ );
+  pollfd = (struct pollfd *)return_value_malloc_2;
   if(client == ((struct client *)NULL) || pollfd == ((struct pollfd *)NULL))
   {
     log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "can't alloc for client or pollfd array");
@@ -5141,7 +5141,7 @@ static signed int client_alloc(void)
     {
       memset((void *)&client[(signed long int)i], 0, sizeof(struct client) /*224ul*/ );
       memset((void *)&pollfd[(signed long int)i], 0, sizeof(struct pollfd) /*8ul*/ );
-      pthread_mutex_init(&(client + (signed long int)i)->mutex, (const union anonymous$5 *)(void *)0);
+      pthread_mutex_init(&(client + (signed long int)i)->mutex, (const union anonymous_5 *)(void *)0);
       (client + (signed long int)i)->fd = -1;
       (client + (signed long int)i)->pid = -1;
       (pollfd + (signed long int)i)->fd = -1;
@@ -5171,19 +5171,19 @@ void client_pid_dead(signed int ci)
   signed int i;
   signed int pid;
   pthread_mutex_lock(&cl->mutex);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(cl->used == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = cl->fd == -1 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = cl->fd == -1 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = cl->pid == -1 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = cl->pid == -1 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
     pthread_mutex_unlock(&cl->mutex);
     log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "client_pid_dead %d,%d,%d u %d a %d s %d bad state", ci, cl->fd, cl->pid, cl->used, cl->cmd_active, cl->suspend);
@@ -5229,18 +5229,18 @@ void client_recv_all(signed int ci, struct sm_header *h_recv, signed int pos)
   signed int rv;
   signed int error = 0;
   signed int total = 0;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   if(!(rem == 0))
   {
     while((_Bool)1)
     {
-      signed long int return_value_recv$1;
-      return_value_recv$1=recv((client + (signed long int)ci)->fd, (void *)trash, sizeof(char [64l]) /*64ul*/ , 64);
-      rv = (signed int)return_value_recv$1;
+      signed long int return_value_recv_1;
+      return_value_recv_1=recv((client + (signed long int)ci)->fd, (void *)trash, sizeof(char [64l]) /*64ul*/ , 64);
+      rv = (signed int)return_value_recv_1;
       if(rv == -1)
       {
-        return_value___errno_location$2=__errno_location();
-        error = *return_value___errno_location$2;
+        return_value___errno_location_2=__errno_location();
+        error = *return_value___errno_location_2;
       }
 
       if(!(rv >= 1))
@@ -5347,9 +5347,9 @@ static signed int client_using_space(struct client *cl, struct space *sp)
     token = cl->tokens[(signed long int)i];
     if(!(token == ((struct token *)NULL)))
     {
-      signed int return_value_strncmp$1;
-      return_value_strncmp$1=strncmp(token->r.lockspace_name, sp->space_name, (unsigned long int)48);
-      if(return_value_strncmp$1 == 0)
+      signed int return_value_strncmp_1;
+      return_value_strncmp_1=strncmp(token->r.lockspace_name, sp->space_name, (unsigned long int)48);
+      if(return_value_strncmp_1 == 0)
       {
         if(cl->kill_count == 0)
           log_level(sp->space_id, token->token_id, (char *)(void *)0, 7, "client_using_space pid %d", cl->pid);
@@ -5411,24 +5411,24 @@ void close_task_aio(struct task *task)
   signed int i;
   signed int used;
   signed int warn;
-  signed long int return_value_time$1;
-  struct aicb *tmp_statement_expression$4;
+  signed long int return_value_time_1;
+  struct aicb *tmp_statement_expression_4;
   if(!(task->use_aio == 0))
   {
     memset((void *)&ts, 0, sizeof(struct timespec) /*16ul*/ );
     ts.tv_sec = (signed long int)task->io_timeout_seconds;
-    return_value_time$1=time((signed long int *)(void *)0);
-    last_warn = (unsigned long int)return_value_time$1;
+    return_value_time_1=time((signed long int *)(void *)0);
+    last_warn = (unsigned long int)return_value_time_1;
     while((_Bool)1)
     {
       warn = 0;
-      signed long int return_value_time$3;
-      return_value_time$3=time((signed long int *)(void *)0);
-      if((unsigned long int)return_value_time$3 + -last_warn >= (unsigned long int)task->io_timeout_seconds)
+      signed long int return_value_time_3;
+      return_value_time_3=time((signed long int *)(void *)0);
+      if((unsigned long int)return_value_time_3 + -last_warn >= (unsigned long int)task->io_timeout_seconds)
       {
-        signed long int return_value_time$2;
-        return_value_time$2=time((signed long int *)(void *)0);
-        last_warn = (unsigned long int)return_value_time$2;
+        signed long int return_value_time_2;
+        return_value_time_2=time((signed long int *)(void *)0);
+        last_warn = (unsigned long int)return_value_time_2;
         warn = 1;
       }
 
@@ -5458,8 +5458,8 @@ void close_task_aio(struct task *task)
           struct iocb *ev_iocb = event.obj;
           struct aicb *ev_aicb;
           const struct iocb *__mptr = ev_iocb;
-          tmp_statement_expression$4 = (struct aicb *)((char *)__mptr - (signed long int)16ul);
-          ev_aicb = tmp_statement_expression$4;
+          tmp_statement_expression_4 = (struct aicb *)((char *)__mptr - (signed long int)16ul);
+          ev_aicb = tmp_statement_expression_4;
           if(ev_aicb->buf == task->iobuf)
             task->iobuf = (char *)(void *)0;
 
@@ -5552,8 +5552,8 @@ static void cmd_acquire(struct task *task, struct cmd_args *ca)
   fd = (client + (signed long int)ca->ci_in)->fd;
   new_tokens_count = (signed int)ca->header.data;
   log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 7, "cmd_acquire %d,%d,%d ci_in %d fd %d count %d", cl_ci, cl_fd, cl_pid, ca->ci_in, fd, new_tokens_count);
-  unsigned int tmp_post$6;
-  signed long int return_value_recv$7;
+  unsigned int tmp_post_6;
+  signed long int return_value_recv_7;
   if(new_tokens_count >= 9)
   {
     log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_acquire %d,%d,%d new %d max %d", cl_ci, cl_fd, cl_pid, new_tokens_count, 8);
@@ -5589,17 +5589,17 @@ static void cmd_acquire(struct task *task, struct cmd_args *ca)
         i = 0;
         for( ; !(i >= new_tokens_count); i = i + 1)
         {
-          signed long int return_value_recv$1;
-          return_value_recv$1=recv(fd, (void *)&res, sizeof(struct sanlk_resource) /*128ul*/ , 256);
-          rv = (signed int)return_value_recv$1;
+          signed long int return_value_recv_1;
+          return_value_recv_1=recv(fd, (void *)&res, sizeof(struct sanlk_resource) /*128ul*/ , 256);
+          rv = (signed int)return_value_recv_1;
           if(rv >= 1)
             pos = pos + rv;
 
           if(!((unsigned long int)rv == sizeof(struct sanlk_resource) /*128ul*/ ))
           {
-            signed int *return_value___errno_location$2;
-            return_value___errno_location$2=__errno_location();
-            log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_acquire %d,%d,%d recv res %d %d", cl_ci, cl_fd, cl_pid, rv, *return_value___errno_location$2);
+            signed int *return_value___errno_location_2;
+            return_value___errno_location_2=__errno_location();
+            log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_acquire %d,%d,%d recv res %d %d", cl_ci, cl_fd, cl_pid, rv, *return_value___errno_location_2);
             result = -107;
             goto done;
           }
@@ -5612,9 +5612,9 @@ static void cmd_acquire(struct task *task, struct cmd_args *ca)
 
           disks_len = (signed int)((unsigned long int)res.num_disks * sizeof(struct sync_disk) /*1040ul*/ );
           token_len = (signed int)(sizeof(struct token) /*472ul*/  + (unsigned long int)disks_len);
-          void *return_value_malloc$3;
-          return_value_malloc$3=malloc((unsigned long int)token_len);
-          token = (struct token *)return_value_malloc$3;
+          void *return_value_malloc_3;
+          return_value_malloc_3=malloc((unsigned long int)token_len);
+          token = (struct token *)return_value_malloc_3;
           if(token == ((struct token *)NULL))
           {
             result = -12;
@@ -5633,17 +5633,17 @@ static void cmd_acquire(struct task *task, struct cmd_args *ca)
           token->acquire_data64 = res.data64;
           token->acquire_data32 = res.data32;
           token->acquire_flags = res.flags;
-          signed long int return_value_recv$4;
-          return_value_recv$4=recv(fd, (void *)token->disks, (unsigned long int)disks_len, 256);
-          rv = (signed int)return_value_recv$4;
+          signed long int return_value_recv_4;
+          return_value_recv_4=recv(fd, (void *)token->disks, (unsigned long int)disks_len, 256);
+          rv = (signed int)return_value_recv_4;
           if(rv >= 1)
             pos = pos + rv;
 
           if(!(rv == disks_len))
           {
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_acquire %d,%d,%d recv disks %d %d", cl_ci, cl_fd, cl_pid, rv, *return_value___errno_location$5);
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_acquire %d,%d,%d recv disks %d %d", cl_ci, cl_fd, cl_pid, rv, *return_value___errno_location_5);
             free((void *)token);
             result = -107;
             goto done;
@@ -5655,22 +5655,22 @@ static void cmd_acquire(struct task *task, struct cmd_args *ca)
             (token->disks + (signed long int)j)->sector_size = (unsigned int)0;
             (token->disks + (signed long int)j)->fd = -1;
           }
-          tmp_post$6 = token_id_counter;
+          tmp_post_6 = token_id_counter;
           token_id_counter = token_id_counter + 1u;
-          token->token_id = tmp_post$6;
+          token->token_id = tmp_post_6;
           new_tokens[(signed long int)i] = token;
           alloc_count = alloc_count + 1;
         }
-        return_value_recv$7=recv(fd, (void *)&opt, sizeof(struct sanlk_options) /*56ul*/ , 256);
-        rv = (signed int)return_value_recv$7;
+        return_value_recv_7=recv(fd, (void *)&opt, sizeof(struct sanlk_options) /*56ul*/ , 256);
+        rv = (signed int)return_value_recv_7;
         if(rv >= 1)
           pos = pos + rv;
 
         if(!((unsigned long int)rv == sizeof(struct sanlk_options) /*56ul*/ ))
         {
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_acquire %d,%d,%d recv opt %d %d", cl_ci, cl_fd, cl_pid, rv, *return_value___errno_location$8);
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_acquire %d,%d,%d recv opt %d %d", cl_ci, cl_fd, cl_pid, rv, *return_value___errno_location_8);
           result = -107;
           goto done;
         }
@@ -5678,26 +5678,26 @@ static void cmd_acquire(struct task *task, struct cmd_args *ca)
         strncpy(cl->owner_name, opt.owner_name, (unsigned long int)48);
         if(!(opt.len == 0u))
         {
-          void *return_value_malloc$9;
-          return_value_malloc$9=malloc((unsigned long int)opt.len);
-          opt_str = (char *)return_value_malloc$9;
+          void *return_value_malloc_9;
+          return_value_malloc_9=malloc((unsigned long int)opt.len);
+          opt_str = (char *)return_value_malloc_9;
           if(opt_str == ((char *)NULL))
           {
             result = -12;
             goto done;
           }
 
-          signed long int return_value_recv$10;
-          return_value_recv$10=recv(fd, (void *)opt_str, (unsigned long int)opt.len, 256);
-          rv = (signed int)return_value_recv$10;
+          signed long int return_value_recv_10;
+          return_value_recv_10=recv(fd, (void *)opt_str, (unsigned long int)opt.len, 256);
+          rv = (signed int)return_value_recv_10;
           if(rv >= 1)
             pos = pos + rv;
 
           if(!((unsigned int)rv == opt.len))
           {
-            signed int *return_value___errno_location$11;
-            return_value___errno_location$11=__errno_location();
-            log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_acquire %d,%d,%d recv str %d %d", cl_ci, cl_fd, cl_pid, rv, *return_value___errno_location$11);
+            signed int *return_value___errno_location_11;
+            return_value___errno_location_11=__errno_location();
+            log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_acquire %d,%d,%d recv str %d %d", cl_ci, cl_fd, cl_pid, rv, *return_value___errno_location_11);
             free((void *)opt_str);
             result = -107;
             goto done;
@@ -5774,9 +5774,9 @@ done:
   cl->cmd_active = 0;
   if(pid_dead == 0 && result == 0)
   {
-    signed int return_value_check_new_tokens_space$12;
-    return_value_check_new_tokens_space$12=check_new_tokens_space(cl, new_tokens, new_tokens_count);
-    if(!(return_value_check_new_tokens_space$12 == 0))
+    signed int return_value_check_new_tokens_space_12;
+    return_value_check_new_tokens_space_12=check_new_tokens_space(cl, new_tokens, new_tokens_count);
+    if(!(return_value_check_new_tokens_space_12 == 0))
     {
       log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_acquire %d,%d,%d invalid lockspace", cl_ci, cl_fd, cl_pid);
       result = -28;
@@ -5847,14 +5847,14 @@ static void cmd_add_lockspace(struct cmd_args *ca)
   signed int rv;
   signed int result;
   fd = (client + (signed long int)ca->ci_in)->fd;
-  signed long int return_value_recv$1;
-  return_value_recv$1=recv(fd, (void *)&lockspace, sizeof(struct sanlk_lockspace) /*1104ul*/ , 256);
-  rv = (signed int)return_value_recv$1;
+  signed long int return_value_recv_1;
+  return_value_recv_1=recv(fd, (void *)&lockspace, sizeof(struct sanlk_lockspace) /*1104ul*/ , 256);
+  rv = (signed int)return_value_recv_1;
   if(!((unsigned long int)rv == sizeof(struct sanlk_lockspace) /*1104ul*/ ))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_add_lockspace %d,%d recv %d %d", ca->ci_in, fd, rv, *return_value___errno_location$2);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_add_lockspace %d,%d recv %d %d", ca->ci_in, fd, rv, *return_value___errno_location_2);
     result = -107;
     goto reply;
   }
@@ -5899,14 +5899,14 @@ static void cmd_align(struct task *task, struct cmd_args *ca)
   signed int rv;
   signed int result;
   fd = (client + (signed long int)ca->ci_in)->fd;
-  signed long int return_value_recv$1;
-  return_value_recv$1=recv(fd, (void *)&disk, sizeof(struct sanlk_disk) /*1040ul*/ , 256);
-  rv = (signed int)return_value_recv$1;
+  signed long int return_value_recv_1;
+  return_value_recv_1=recv(fd, (void *)&disk, sizeof(struct sanlk_disk) /*1040ul*/ , 256);
+  rv = (signed int)return_value_recv_1;
   if(!((unsigned long int)rv == sizeof(struct sanlk_disk) /*1040ul*/ ))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_align %d,%d recv %d %d", ca->ci_in, fd, rv, *return_value___errno_location$2);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_align %d,%d recv %d %d", ca->ci_in, fd, rv, *return_value___errno_location_2);
     result = -107;
     goto reply;
   }
@@ -5943,7 +5943,7 @@ reply:
 static void cmd_examine(struct task *task, struct cmd_args *ca)
 {
   /* tag-#anon#lUN[lSYM#tag-sanlk_resource#'r'||lSYM#tag-sanlk_lockspace#'s'|] */
-union anonymous$18
+union anonymous_18
 {
   // r
   struct sanlk_resource r;
@@ -5953,7 +5953,7 @@ union anonymous$18
 
 /* */
   ;
-  union anonymous$18 buf;
+  union anonymous_18 buf;
   struct sanlk_resource *res = (struct sanlk_resource *)(void *)0;
   struct sanlk_lockspace *ls = (struct sanlk_lockspace *)(void *)0;
   char *space_name = (char *)(void *)0;
@@ -5975,14 +5975,14 @@ union anonymous$18
     datalen = (signed int)sizeof(struct sanlk_lockspace) /*1104ul*/ ;
     ls = &buf.s;
   }
-  signed long int return_value_recv$1;
-  return_value_recv$1=recv(fd, (void *)&buf, (unsigned long int)datalen, 256);
-  rv = (signed int)return_value_recv$1;
+  signed long int return_value_recv_1;
+  return_value_recv_1=recv(fd, (void *)&buf, (unsigned long int)datalen, 256);
+  rv = (signed int)return_value_recv_1;
   if(!(rv == datalen))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_examine %d,%d recv %d %d", ca->ci_in, fd, rv, *return_value___errno_location$2);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_examine %d,%d recv %d %d", ca->ci_in, fd, rv, *return_value___errno_location_2);
     result = -107;
     goto reply;
   }
@@ -6023,17 +6023,17 @@ static void cmd_host_status(signed int fd, struct sm_header *h_recv)
   h.length = (unsigned int)sizeof(struct sm_header) /*32ul*/ ;
   h.data = (unsigned int)0;
   status_len = (signed int)(sizeof(struct host_status) /*64ul*/  * (unsigned long int)2000);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)status_len);
-  status = (struct host_status *)return_value_malloc$1;
-  signed long int return_value_recv$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)status_len);
+  status = (struct host_status *)return_value_malloc_1;
+  signed long int return_value_recv_2;
   if(status == ((struct host_status *)NULL))
     h.data = (unsigned int)-12;
 
   else
   {
-    return_value_recv$2=recv(fd, (void *)&lockspace, sizeof(struct sanlk_lockspace) /*1104ul*/ , 256);
-    rv = (signed int)return_value_recv$2;
+    return_value_recv_2=recv(fd, (void *)&lockspace, sizeof(struct sanlk_lockspace) /*1104ul*/ , 256);
+    rv = (signed int)return_value_recv_2;
     if(!((unsigned long int)rv == sizeof(struct sanlk_lockspace) /*1104ul*/ ))
       h.data = (unsigned int)-107;
 
@@ -6096,14 +6096,14 @@ static void cmd_init_lockspace(struct task *task, struct cmd_args *ca)
   signed int rv;
   signed int result;
   fd = (client + (signed long int)ca->ci_in)->fd;
-  signed long int return_value_recv$1;
-  return_value_recv$1=recv(fd, (void *)&lockspace, sizeof(struct sanlk_lockspace) /*1104ul*/ , 256);
-  rv = (signed int)return_value_recv$1;
+  signed long int return_value_recv_1;
+  return_value_recv_1=recv(fd, (void *)&lockspace, sizeof(struct sanlk_lockspace) /*1104ul*/ , 256);
+  rv = (signed int)return_value_recv_1;
   if(!((unsigned long int)rv == sizeof(struct sanlk_lockspace) /*1104ul*/ ))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_init_lockspace %d,%d recv %d %d", ca->ci_in, fd, rv, *return_value___errno_location$2);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_init_lockspace %d,%d recv %d %d", ca->ci_in, fd, rv, *return_value___errno_location_2);
     result = -107;
     goto reply;
   }
@@ -6148,20 +6148,20 @@ static void cmd_init_resource(struct task *task, struct cmd_args *ca)
   signed int rv;
   signed int result;
   fd = (client + (signed long int)ca->ci_in)->fd;
-  signed long int return_value_recv$1;
-  return_value_recv$1=recv(fd, (void *)&res, sizeof(struct sanlk_resource) /*128ul*/ , 256);
-  rv = (signed int)return_value_recv$1;
+  signed long int return_value_recv_1;
+  return_value_recv_1=recv(fd, (void *)&res, sizeof(struct sanlk_resource) /*128ul*/ , 256);
+  rv = (signed int)return_value_recv_1;
   if(!((unsigned long int)rv == sizeof(struct sanlk_resource) /*128ul*/ ))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_init_resource %d,%d recv %d %d", ca->ci_in, fd, rv, *return_value___errno_location$2);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_init_resource %d,%d recv %d %d", ca->ci_in, fd, rv, *return_value___errno_location_2);
     result = -107;
     goto reply;
   }
 
-  void *return_value_malloc$3;
-  signed long int return_value_recv$4;
+  void *return_value_malloc_3;
+  signed long int return_value_recv_4;
   if(res.num_disks == 0u || res.num_disks >= 5u)
     result = -34;
 
@@ -6169,8 +6169,8 @@ static void cmd_init_resource(struct task *task, struct cmd_args *ca)
   {
     disks_len = (signed int)((unsigned long int)res.num_disks * sizeof(struct sync_disk) /*1040ul*/ );
     token_len = (signed int)(sizeof(struct token) /*472ul*/  + (unsigned long int)disks_len);
-    return_value_malloc$3=malloc((unsigned long int)token_len);
-    token = (struct token *)return_value_malloc$3;
+    return_value_malloc_3=malloc((unsigned long int)token_len);
+    token = (struct token *)return_value_malloc_3;
     if(token == ((struct token *)NULL))
       result = -12;
 
@@ -6181,8 +6181,8 @@ static void cmd_init_resource(struct task *task, struct cmd_args *ca)
       token->r.num_disks = res.num_disks;
       memcpy((void *)token->r.lockspace_name, (const void *)res.lockspace_name, (unsigned long int)48);
       memcpy((void *)token->r.name, (const void *)res.name, (unsigned long int)48);
-      return_value_recv$4=recv(fd, (void *)token->disks, (unsigned long int)disks_len, 256);
-      rv = (signed int)return_value_recv$4;
+      return_value_recv_4=recv(fd, (void *)token->disks, (unsigned long int)disks_len, 256);
+      rv = (signed int)return_value_recv_4;
       if(!(rv == disks_len))
         result = -107;
 
@@ -6227,14 +6227,14 @@ static void cmd_inq_lockspace(struct cmd_args *ca)
   signed int rv;
   signed int result;
   fd = (client + (signed long int)ca->ci_in)->fd;
-  signed long int return_value_recv$1;
-  return_value_recv$1=recv(fd, (void *)&lockspace, sizeof(struct sanlk_lockspace) /*1104ul*/ , 256);
-  rv = (signed int)return_value_recv$1;
+  signed long int return_value_recv_1;
+  return_value_recv_1=recv(fd, (void *)&lockspace, sizeof(struct sanlk_lockspace) /*1104ul*/ , 256);
+  rv = (signed int)return_value_recv_1;
   if(!((unsigned long int)rv == sizeof(struct sanlk_lockspace) /*1104ul*/ ))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_inq_lockspace %d,%d recv %d %d", ca->ci_in, fd, rv, *return_value___errno_location$2);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_inq_lockspace %d,%d recv %d %d", ca->ci_in, fd, rv, *return_value___errno_location_2);
     result = -107;
     goto reply;
   }
@@ -6274,8 +6274,8 @@ static void cmd_inquire(struct task *task, struct cmd_args *ca)
   fd = (client + (signed long int)ca->ci_in)->fd;
   log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 7, "cmd_inquire %d,%d,%d ci_in %d fd %d", cl_ci, cl_fd, cl_pid, ca->ci_in, fd);
   pthread_mutex_lock(&cl->mutex);
-  void *return_value_malloc$1;
-  unsigned long int return_value_strlen$5;
+  void *return_value_malloc_1;
+  unsigned long int return_value_strlen_5;
   if(!(cl->pid_dead == 0))
     result = -116;
 
@@ -6292,8 +6292,8 @@ static void cmd_inquire(struct task *task, struct cmd_args *ca)
     else
     {
       state_maxlen = res_count * (4400 + 1);
-      return_value_malloc$1=malloc((unsigned long int)state_maxlen);
-      state = (char *)return_value_malloc$1;
+      return_value_malloc_1=malloc((unsigned long int)state_maxlen);
+      state = (char *)return_value_malloc_1;
       if(state == ((char *)NULL))
         result = -12;
 
@@ -6322,21 +6322,21 @@ static void cmd_inquire(struct task *task, struct cmd_args *ca)
               goto done;
             }
 
-            unsigned long int return_value_strlen$3;
-            return_value_strlen$3=strlen(str);
-            if(return_value_strlen$3 >= 4400ul)
+            unsigned long int return_value_strlen_3;
+            return_value_strlen_3=strlen(str);
+            if(return_value_strlen_3 >= 4400ul)
             {
-              unsigned long int return_value_strlen$2;
-              return_value_strlen$2=strlen(str);
-              log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "cmd_inquire %d,%d,%d strlen %zu", cl_ci, cl_fd, cl_pid, return_value_strlen$2);
+              unsigned long int return_value_strlen_2;
+              return_value_strlen_2=strlen(str);
+              log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "cmd_inquire %d,%d,%d strlen %zu", cl_ci, cl_fd, cl_pid, return_value_strlen_2);
               free((void *)str);
               result = -80;
               goto done;
             }
 
-            char *return_value_strstr$4;
-            return_value_strstr$4=strstr(str, " ");
-            if(!(return_value_strstr$4 == ((char *)NULL)))
+            char *return_value_strstr_4;
+            return_value_strstr_4=strstr(str, " ");
+            if(!(return_value_strstr_4 == ((char *)NULL)))
             {
               log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "cmd_inquire %d,%d,%d str space", cl_ci, cl_fd, cl_pid);
               free((void *)str);
@@ -6354,8 +6354,8 @@ static void cmd_inquire(struct task *task, struct cmd_args *ca)
 
         }
         state[(signed long int)(state_maxlen - 1)] = (char)0;
-        return_value_strlen$5=strlen(state);
-        state_strlen = (signed int)return_value_strlen$5;
+        return_value_strlen_5=strlen(state);
+        state_strlen = (signed int)return_value_strlen_5;
         result = 0;
       }
     }
@@ -6399,7 +6399,7 @@ static signed int cmd_lockspace(signed int cmd, struct sanlk_lockspace *ls, unsi
   signed int rv;
   signed int fd;
   rv=connect_socket(&fd);
-  signed long int return_value_send$1;
+  signed long int return_value_send_1;
   if(!(rv >= 0))
     return rv;
 
@@ -6408,13 +6408,13 @@ static signed int cmd_lockspace(signed int cmd, struct sanlk_lockspace *ls, unsi
     rv=send_header(fd, cmd, flags, (signed int)sizeof(struct sanlk_lockspace) /*1104ul*/ , (unsigned int)0, (unsigned int)0);
     if(rv >= 0)
     {
-      return_value_send$1=send(fd, (void *)ls, sizeof(struct sanlk_lockspace) /*1104ul*/ , 0);
-      rv = (signed int)return_value_send$1;
+      return_value_send_1=send(fd, (void *)ls, sizeof(struct sanlk_lockspace) /*1104ul*/ , 0);
+      rv = (signed int)return_value_send_1;
       if(!(rv >= 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        rv = -(*return_value___errno_location$2);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        rv = -(*return_value___errno_location_2);
         goto out;
       }
 
@@ -6462,8 +6462,8 @@ static void cmd_release(struct task *task, struct cmd_args *ca)
   cl = &client[(signed long int)cl_ci];
   fd = (client + (signed long int)ca->ci_in)->fd;
   log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 7, "cmd_release %d,%d,%d ci_in %d fd %d count %d flags %x", cl_ci, cl_fd, cl_pid, ca->ci_in, fd, ca->header.data, ca->header.cmd_flags);
-  signed int tmp_post$1;
-  signed int tmp_post$6;
+  signed int tmp_post_1;
+  signed int tmp_post_6;
   if(!((1u & ca->header.cmd_flags) == 0u))
   {
     pthread_mutex_lock(&cl->mutex);
@@ -6473,9 +6473,9 @@ static void cmd_release(struct task *task, struct cmd_args *ca)
       token = cl->tokens[(signed long int)j];
       if(!(token == ((struct token *)NULL)))
       {
-        tmp_post$1 = rem_tokens_count;
+        tmp_post_1 = rem_tokens_count;
         rem_tokens_count = rem_tokens_count + 1;
-        rem_tokens[(signed long int)tmp_post$1] = token;
+        rem_tokens[(signed long int)tmp_post_1] = token;
         cl->tokens[(signed long int)j] = (struct token *)(void *)0;
       }
 
@@ -6488,14 +6488,14 @@ static void cmd_release(struct task *task, struct cmd_args *ca)
     i = 0;
     for( ; !((unsigned int)i >= ca->header.data); i = i + 1)
     {
-      signed long int return_value_recv$2;
-      return_value_recv$2=recv(fd, (void *)&res, sizeof(struct sanlk_resource) /*128ul*/ , 256);
-      rv = (signed int)return_value_recv$2;
+      signed long int return_value_recv_2;
+      return_value_recv_2=recv(fd, (void *)&res, sizeof(struct sanlk_resource) /*128ul*/ , 256);
+      rv = (signed int)return_value_recv_2;
       if(!((unsigned long int)rv == sizeof(struct sanlk_resource) /*128ul*/ ))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_release %d,%d,%d recv res %d %d", cl_ci, cl_fd, cl_pid, rv, *return_value___errno_location$3);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_release %d,%d,%d recv res %d %d", cl_ci, cl_fd, cl_pid, rv, *return_value___errno_location_3);
         result = -107;
         break;
       }
@@ -6508,17 +6508,17 @@ static void cmd_release(struct task *task, struct cmd_args *ca)
         token = cl->tokens[(signed long int)j];
         if(!(token == ((struct token *)NULL)))
         {
-          signed int return_value_memcmp$4;
-          return_value_memcmp$4=memcmp((const void *)token->r.lockspace_name, (const void *)res.lockspace_name, (unsigned long int)48);
-          if(return_value_memcmp$4 == 0)
+          signed int return_value_memcmp_4;
+          return_value_memcmp_4=memcmp((const void *)token->r.lockspace_name, (const void *)res.lockspace_name, (unsigned long int)48);
+          if(return_value_memcmp_4 == 0)
           {
-            signed int return_value_memcmp$5;
-            return_value_memcmp$5=memcmp((const void *)token->r.name, (const void *)res.name, (unsigned long int)48);
-            if(return_value_memcmp$5 == 0)
+            signed int return_value_memcmp_5;
+            return_value_memcmp_5=memcmp((const void *)token->r.name, (const void *)res.name, (unsigned long int)48);
+            if(return_value_memcmp_5 == 0)
             {
-              tmp_post$6 = rem_tokens_count;
+              tmp_post_6 = rem_tokens_count;
               rem_tokens_count = rem_tokens_count + 1;
-              rem_tokens[(signed long int)tmp_post$6] = token;
+              rem_tokens[(signed long int)tmp_post_6] = token;
               cl->tokens[(signed long int)j] = (struct token *)(void *)0;
               found = 1;
               break;
@@ -6577,14 +6577,14 @@ static void cmd_rem_lockspace(struct cmd_args *ca)
   signed int result;
   unsigned int space_id;
   fd = (client + (signed long int)ca->ci_in)->fd;
-  signed long int return_value_recv$1;
-  return_value_recv$1=recv(fd, (void *)&lockspace, sizeof(struct sanlk_lockspace) /*1104ul*/ , 256);
-  rv = (signed int)return_value_recv$1;
+  signed long int return_value_recv_1;
+  return_value_recv_1=recv(fd, (void *)&lockspace, sizeof(struct sanlk_lockspace) /*1104ul*/ , 256);
+  rv = (signed int)return_value_recv_1;
   if(!((unsigned long int)rv == sizeof(struct sanlk_lockspace) /*1104ul*/ ))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_rem_lockspace %d,%d recv %d %d", ca->ci_in, fd, rv, *return_value___errno_location$2);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_rem_lockspace %d,%d recv %d %d", ca->ci_in, fd, rv, *return_value___errno_location_2);
     result = -107;
     goto reply;
   }
@@ -6592,9 +6592,9 @@ static void cmd_rem_lockspace(struct cmd_args *ca)
   log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 7, "cmd_rem_lockspace %d,%d %.48s flags %x", ca->ci_in, fd, (const void *)lockspace.name, ca->header.cmd_flags);
   if(!((2u & ca->header.cmd_flags) == 0u))
   {
-    signed int return_value_lockspace_is_used$3;
-    return_value_lockspace_is_used$3=lockspace_is_used(&lockspace);
-    if(!(return_value_lockspace_is_used$3 == 0))
+    signed int return_value_lockspace_is_used_3;
+    return_value_lockspace_is_used_3=lockspace_is_used(&lockspace);
+    if(!(return_value_lockspace_is_used_3 == 0))
     {
       result = -16;
       goto reply;
@@ -6648,20 +6648,20 @@ static void cmd_request(struct task *task, struct cmd_args *ca)
   signed int result;
   fd = (client + (signed long int)ca->ci_in)->fd;
   force_mode = ca->header.data;
-  signed long int return_value_recv$1;
-  return_value_recv$1=recv(fd, (void *)&res, sizeof(struct sanlk_resource) /*128ul*/ , 256);
-  rv = (signed int)return_value_recv$1;
+  signed long int return_value_recv_1;
+  return_value_recv_1=recv(fd, (void *)&res, sizeof(struct sanlk_resource) /*128ul*/ , 256);
+  rv = (signed int)return_value_recv_1;
   if(!((unsigned long int)rv == sizeof(struct sanlk_resource) /*128ul*/ ))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_request %d,%d recv %d %d", ca->ci_in, fd, rv, *return_value___errno_location$2);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cmd_request %d,%d recv %d %d", ca->ci_in, fd, rv, *return_value___errno_location_2);
     result = -107;
     goto reply;
   }
 
-  void *return_value_malloc$3;
-  signed long int return_value_recv$4;
+  void *return_value_malloc_3;
+  signed long int return_value_recv_4;
   if(res.num_disks == 0u || res.num_disks >= 5u)
     result = -34;
 
@@ -6669,8 +6669,8 @@ static void cmd_request(struct task *task, struct cmd_args *ca)
   {
     disks_len = (signed int)((unsigned long int)res.num_disks * sizeof(struct sync_disk) /*1040ul*/ );
     token_len = (signed int)(sizeof(struct token) /*472ul*/  + (unsigned long int)disks_len);
-    return_value_malloc$3=malloc((unsigned long int)token_len);
-    token = (struct token *)return_value_malloc$3;
+    return_value_malloc_3=malloc((unsigned long int)token_len);
+    token = (struct token *)return_value_malloc_3;
     if(token == ((struct token *)NULL))
       result = -12;
 
@@ -6685,8 +6685,8 @@ static void cmd_request(struct task *task, struct cmd_args *ca)
       token->acquire_data64 = res.data64;
       token->acquire_data32 = res.data32;
       token->acquire_flags = res.flags;
-      return_value_recv$4=recv(fd, (void *)token->disks, (unsigned long int)disks_len, 256);
-      rv = (signed int)return_value_recv$4;
+      return_value_recv_4=recv(fd, (void *)token->disks, (unsigned long int)disks_len, 256);
+      rv = (signed int)return_value_recv_4;
       if(!(rv == disks_len))
         result = -107;
 
@@ -6755,12 +6755,12 @@ static void cmd_status(signed int fd, struct sm_header *h_recv, signed int clien
   h.data = (unsigned int)0;
   send(fd, (const void *)&h, sizeof(struct sm_header) /*32ul*/ , 16384);
   send_state_daemon(fd);
-  struct space *tmp_statement_expression$1;
-  struct space *tmp_statement_expression$2;
-  struct space *tmp_statement_expression$3;
-  struct space *tmp_statement_expression$4;
-  struct space *tmp_statement_expression$5;
-  struct space *tmp_statement_expression$6;
+  struct space *tmp_statement_expression_1;
+  struct space *tmp_statement_expression_2;
+  struct space *tmp_statement_expression_3;
+  struct space *tmp_statement_expression_4;
+  struct space *tmp_statement_expression_5;
+  struct space *tmp_statement_expression_6;
   if(!(h_recv->data == 1u))
   {
     ci = 0;
@@ -6775,31 +6775,31 @@ static void cmd_status(signed int fd, struct sm_header *h_recv, signed int clien
     {
       pthread_mutex_lock(&spaces_mutex);
       const struct list_head *__mptr = (&spaces)->next;
-      tmp_statement_expression$1 = (struct space *)((char *)__mptr - (signed long int)0ul);
-      sp = tmp_statement_expression$1;
-      for( ; !(&sp->list == &spaces); sp = tmp_statement_expression$2)
+      tmp_statement_expression_1 = (struct space *)((char *)__mptr - (signed long int)0ul);
+      sp = tmp_statement_expression_1;
+      for( ; !(&sp->list == &spaces); sp = tmp_statement_expression_2)
       {
         send_state_lockspace(fd, sp, "spaces");
-        const struct list_head *cmd_status$$1$$2$$2$$__mptr = sp->list.next;
-        tmp_statement_expression$2 = (struct space *)((char *)cmd_status$$1$$2$$2$$__mptr - (signed long int)0ul);
+        const struct list_head *cmd_status__1__2__2____mptr = sp->list.next;
+        tmp_statement_expression_2 = (struct space *)((char *)cmd_status__1__2__2____mptr - (signed long int)0ul);
       }
-      const struct list_head *cmd_status$$1$$3$$1$$__mptr = (&spaces_rem)->next;
-      tmp_statement_expression$3 = (struct space *)((char *)cmd_status$$1$$3$$1$$__mptr - (signed long int)0ul);
-      sp = tmp_statement_expression$3;
-      for( ; !(&sp->list == &spaces_rem); sp = tmp_statement_expression$4)
+      const struct list_head *cmd_status__1__3__1____mptr = (&spaces_rem)->next;
+      tmp_statement_expression_3 = (struct space *)((char *)cmd_status__1__3__1____mptr - (signed long int)0ul);
+      sp = tmp_statement_expression_3;
+      for( ; !(&sp->list == &spaces_rem); sp = tmp_statement_expression_4)
       {
         send_state_lockspace(fd, sp, "spaces_rem");
-        const struct list_head *cmd_status$$1$$3$$2$$__mptr = sp->list.next;
-        tmp_statement_expression$4 = (struct space *)((char *)cmd_status$$1$$3$$2$$__mptr - (signed long int)0ul);
+        const struct list_head *cmd_status__1__3__2____mptr = sp->list.next;
+        tmp_statement_expression_4 = (struct space *)((char *)cmd_status__1__3__2____mptr - (signed long int)0ul);
       }
-      const struct list_head *cmd_status$$1$$4$$1$$__mptr = (&spaces_rem)->next;
-      tmp_statement_expression$5 = (struct space *)((char *)cmd_status$$1$$4$$1$$__mptr - (signed long int)0ul);
-      sp = tmp_statement_expression$5;
-      for( ; !(&sp->list == &spaces_rem); sp = tmp_statement_expression$6)
+      const struct list_head *cmd_status__1__4__1____mptr = (&spaces_rem)->next;
+      tmp_statement_expression_5 = (struct space *)((char *)cmd_status__1__4__1____mptr - (signed long int)0ul);
+      sp = tmp_statement_expression_5;
+      for( ; !(&sp->list == &spaces_rem); sp = tmp_statement_expression_6)
       {
         send_state_lockspace(fd, sp, "spaces_add");
-        const struct list_head *cmd_status$$1$$4$$2$$__mptr = sp->list.next;
-        tmp_statement_expression$6 = (struct space *)((char *)cmd_status$$1$$4$$2$$__mptr - (signed long int)0ul);
+        const struct list_head *cmd_status__1__4__2____mptr = sp->list.next;
+        tmp_statement_expression_6 = (struct space *)((char *)cmd_status__1__4__2____mptr - (signed long int)0ul);
       }
       pthread_mutex_unlock(&spaces_mutex);
       if(!(h_recv->data == 3u))
@@ -6819,11 +6819,11 @@ static signed int connect_socket(signed int *sock_fd)
   signed int s;
   struct sockaddr_un addr;
   s=socket(1, 1, 0);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(!(s >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -6837,9 +6837,9 @@ static signed int connect_socket(signed int *sock_fd)
       rv=connect(s, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
       if(!(rv >= 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        rv = -(*return_value___errno_location$2);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        rv = -(*return_value___errno_location_2);
         close(s);
         return rv;
       }
@@ -6906,19 +6906,19 @@ static void copy_path_in(char *dst, char *src)
   signed int i;
   signed int j = 0;
   i = 0;
-  unsigned long int return_value_strlen$1;
-  signed int tmp_post$2;
+  unsigned long int return_value_strlen_1;
+  signed int tmp_post_2;
   do
   {
-    return_value_strlen$1=strlen(src);
-    if((unsigned long int)i >= return_value_strlen$1)
+    return_value_strlen_1=strlen(src);
+    if((unsigned long int)i >= return_value_strlen_1)
       break;
 
     if(!((signed int)src[(signed long int)i] == 92))
     {
-      tmp_post$2 = j;
+      tmp_post_2 = j;
       j = j + 1;
-      dst[(signed long int)tmp_post$2] = src[(signed long int)i];
+      dst[(signed long int)tmp_post_2] = src[(signed long int)i];
     }
 
     i = i + 1;
@@ -6933,25 +6933,25 @@ static void copy_path_out(char *dst, char *src)
   signed int i;
   signed int j = 0;
   i = 0;
-  unsigned long int return_value_strlen$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
+  unsigned long int return_value_strlen_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
   do
   {
-    return_value_strlen$1=strlen(src);
-    if((unsigned long int)i >= return_value_strlen$1)
+    return_value_strlen_1=strlen(src);
+    if((unsigned long int)i >= return_value_strlen_1)
       break;
 
     if((signed int)src[(signed long int)i] == 58)
     {
-      tmp_post$2 = j;
+      tmp_post_2 = j;
       j = j + 1;
-      dst[(signed long int)tmp_post$2] = (char)92;
+      dst[(signed long int)tmp_post_2] = (char)92;
     }
 
-    tmp_post$3 = j;
+    tmp_post_3 = j;
     j = j + 1;
-    dst[(signed long int)tmp_post$3] = src[(signed long int)i];
+    dst[(signed long int)tmp_post_3] = src[(signed long int)i];
     i = i + 1;
   }
   while((_Bool)1);
@@ -6971,18 +6971,18 @@ static signed int corrupt_result(signed int result)
 // file crc32c.c line 96
 unsigned int crc32c(unsigned int crc, unsigned char *data, unsigned long int length)
 {
-  unsigned long int tmp_post$1;
-  unsigned char *tmp_post$2;
+  unsigned long int tmp_post_1;
+  unsigned char *tmp_post_2;
   do
   {
-    tmp_post$1 = length;
+    tmp_post_1 = length;
     length = length - 1ul;
-    if(tmp_post$1 == 0ul)
+    if(tmp_post_1 == 0ul)
       break;
 
-    tmp_post$2 = data;
+    tmp_post_2 = data;
     data = data + 1l;
-    crc = crc32c_table[(signed long int)(crc ^ (unsigned int)*tmp_post$2) & 0xFFL] ^ crc >> 8;
+    crc = crc32c_table[(signed long int)(crc ^ (unsigned int)*tmp_post_2) & 0xFFL] ^ crc >> 8;
   }
   while((_Bool)1);
   return crc;
@@ -7073,18 +7073,18 @@ signed int create_watchdog_file(struct space *sp, unsigned long int timestamp)
 // file paxos_lease.c line 183
 static unsigned int dblock_checksum(struct paxos_dblock *pd)
 {
-  unsigned int return_value_crc32c$1;
-  return_value_crc32c$1=crc32c((unsigned int)~1, (unsigned char *)pd, (unsigned long int)48);
-  return return_value_crc32c$1;
+  unsigned int return_value_crc32c_1;
+  return_value_crc32c_1=crc32c((unsigned int)~1, (unsigned char *)pd, (unsigned long int)48);
+  return return_value_crc32c_1;
 }
 
-// dblock_checksum$link1
+// dblock_checksum_link1
 // file paxos_lease.c line 183
-static unsigned int dblock_checksum$link1(struct paxos_dblock *pd$link1)
+static unsigned int dblock_checksum_link1(struct paxos_dblock *pd_link1)
 {
-  unsigned int return_value_crc32c$1$link1;
-  return_value_crc32c$1$link1=crc32c((unsigned int)~1, (unsigned char *)pd$link1, (unsigned long int)48);
-  return return_value_crc32c$1$link1;
+  unsigned int return_value_crc32c_1_link1;
+  return_value_crc32c_1_link1=crc32c((unsigned int)~1, (unsigned char *)pd_link1, (unsigned long int)48);
+  return return_value_crc32c_1_link1;
 }
 
 // delta_lease_acquire
@@ -7101,7 +7101,7 @@ signed int delta_lease_acquire(struct task *task, struct space *sp, struct sync_
   signed int delta_large_delay;
   log_level(sp->space_id, (unsigned int)0, (char *)(void *)0, 7, "delta_acquire %llu begin", (unsigned long long int)host_id);
   error=delta_lease_leader_read(task, disk, space_name, host_id, &leader, "delta_acquire_begin");
-  signed int return_value_strncmp$1;
+  signed int return_value_strncmp_1;
   if(!(error >= 0))
     return error;
 
@@ -7109,8 +7109,8 @@ signed int delta_lease_acquire(struct task *task, struct space *sp, struct sync_
   {
     if(!(leader.timestamp == 0ul))
     {
-      return_value_strncmp$1=strncmp(leader.resource_name, our_host_name, (unsigned long int)48);
-      if(return_value_strncmp$1 == 0)
+      return_value_strncmp_1=strncmp(leader.resource_name, our_host_name, (unsigned long int)48);
+      if(return_value_strncmp_1 == 0)
         log_level(sp->space_id, (unsigned int)0, (char *)(void *)0, 7, "delta_acquire %llu fast reacquire", (unsigned long long int)host_id);
 
       else
@@ -7135,9 +7135,9 @@ signed int delta_lease_acquire(struct task *task, struct space *sp, struct sync_
           if(!(error >= 0))
             return error;
 
-          signed int return_value_memcmp$2;
-          return_value_memcmp$2=memcmp((const void *)&leader1, (const void *)&leader, sizeof(struct leader_record) /*200ul*/ );
-          if(!(return_value_memcmp$2 == 0))
+          signed int return_value_memcmp_2;
+          return_value_memcmp_2=memcmp((const void *)&leader1, (const void *)&leader, sizeof(struct leader_record) /*200ul*/ );
+          if(!(return_value_memcmp_2 == 0))
           {
             if(!(leader.timestamp == 0ul))
             {
@@ -7184,9 +7184,9 @@ signed int delta_lease_acquire(struct task *task, struct space *sp, struct sync_
 
       else
       {
-        signed int return_value_memcmp$3;
-        return_value_memcmp$3=memcmp((const void *)&leader1, (const void *)&leader, sizeof(struct leader_record) /*200ul*/ );
-        if(!(return_value_memcmp$3 == 0))
+        signed int return_value_memcmp_3;
+        return_value_memcmp_3=memcmp((const void *)&leader1, (const void *)&leader, sizeof(struct leader_record) /*200ul*/ );
+        if(!(return_value_memcmp_3 == 0))
         {
           log_level(sp->space_id, (unsigned int)0, (char *)(void *)0, 3, "delta_acquire %llu busy %llu %llu %llu %.48s", (unsigned long long int)host_id, (unsigned long long int)leader.owner_id, (unsigned long long int)leader.owner_generation, (unsigned long long int)leader.timestamp, (const void *)leader.resource_name);
           return -262;
@@ -7228,9 +7228,9 @@ signed int delta_lease_init(struct task *task, struct sync_disk *disk, char *spa
     {
       iobuf_len = align_size;
       p_iobuf = &iobuf;
-      signed int return_value_getpagesize$1;
-      return_value_getpagesize$1=getpagesize();
-      rv=posix_memalign((void **)(void *)p_iobuf, (unsigned long int)return_value_getpagesize$1, (unsigned long int)iobuf_len);
+      signed int return_value_getpagesize_1;
+      return_value_getpagesize_1=getpagesize();
+      rv=posix_memalign((void **)(void *)p_iobuf, (unsigned long int)return_value_getpagesize_1, (unsigned long int)iobuf_len);
       if(!(rv == 0))
         return rv;
 
@@ -7327,10 +7327,10 @@ signed int delta_lease_renew(struct task *task, struct space *sp, struct sync_di
   signed int iobuf_len;
   signed int sector_size;
   signed int io_timeout_save;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  signed int return_value_memcmp$3;
-  signed int return_value_memcmp$5;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_memcmp_3;
+  signed int return_value_memcmp_5;
   if(leader_last == ((struct leader_record *)NULL))
     return -22;
 
@@ -7383,9 +7383,9 @@ signed int delta_lease_renew(struct task *task, struct space *sp, struct sync_di
       if(task->iobuf == ((char *)NULL))
       {
         p_iobuf = &task->iobuf;
-        signed int return_value_getpagesize$1;
-        return_value_getpagesize$1=getpagesize();
-        rv=posix_memalign((void **)(void *)p_iobuf, (unsigned long int)return_value_getpagesize$1, (unsigned long int)iobuf_len);
+        signed int return_value_getpagesize_1;
+        return_value_getpagesize_1=getpagesize();
+        rv=posix_memalign((void **)(void *)p_iobuf, (unsigned long int)return_value_getpagesize_1, (unsigned long int)iobuf_len);
         if(!(rv == 0))
         {
           log_level(sp->space_id, (unsigned int)0, (char *)(void *)0, 3, "dela_renew memalign rv %d", rv);
@@ -7415,19 +7415,19 @@ signed int delta_lease_renew(struct task *task, struct space *sp, struct sync_di
         else
         {
           if(!(leader.owner_id == leader_last->owner_id))
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = leader.owner_generation != leader_last->owner_generation ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$2)
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_2 = leader.owner_generation != leader_last->owner_generation ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_2)
+            tmp_if_expr_4 = (_Bool)1;
 
           else
           {
-            return_value_memcmp$3=memcmp((const void *)leader.resource_name, (const void *)leader_last->resource_name, (unsigned long int)48);
-            tmp_if_expr$4 = return_value_memcmp$3 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_memcmp_3=memcmp((const void *)leader.resource_name, (const void *)leader_last->resource_name, (unsigned long int)48);
+            tmp_if_expr_4 = return_value_memcmp_3 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$4)
+          if(tmp_if_expr_4)
           {
             log_level(sp->space_id, (unsigned int)0, (char *)(void *)0, 3, "delta_renew not owner");
             log_leader_error(0, space_name, host_id, disk, leader_last, "delta_renew_last");
@@ -7438,8 +7438,8 @@ signed int delta_lease_renew(struct task *task, struct space *sp, struct sync_di
           else
             if(prev_result == 1)
             {
-              return_value_memcmp$5=memcmp((const void *)&leader, (const void *)leader_last, sizeof(struct leader_record) /*200ul*/ );
-              if(return_value_memcmp$5 == 0)
+              return_value_memcmp_5=memcmp((const void *)&leader, (const void *)leader_last, sizeof(struct leader_record) /*200ul*/ );
+              if(return_value_memcmp_5 == 0)
                 goto __CPROVER_DUMP_L17;
 
               log_level(sp->space_id, (unsigned int)0, (char *)(void *)0, 3, "delta_renew reread mismatch");
@@ -7460,9 +7460,9 @@ signed int delta_lease_renew(struct task *task, struct space *sp, struct sync_di
               leader.timestamp = new_ts;
               leader.checksum=leader_checksum(&leader);
               p_wbuf = &wbuf;
-              signed int return_value_getpagesize$6;
-              return_value_getpagesize$6=getpagesize();
-              rv=posix_memalign((void **)(void *)p_wbuf, (unsigned long int)return_value_getpagesize$6, (unsigned long int)sector_size);
+              signed int return_value_getpagesize_6;
+              return_value_getpagesize_6=getpagesize();
+              rv=posix_memalign((void **)(void *)p_wbuf, (unsigned long int)return_value_getpagesize_6, (unsigned long int)sector_size);
               if(!(rv == 0))
               {
                 log_level(sp->space_id, (unsigned int)0, (char *)(void *)0, 3, "dela_renew write memalign rv %d", rv);
@@ -7501,18 +7501,18 @@ signed int delta_lease_renew(struct task *task, struct space *sp, struct sync_di
 // file direct.c line 161
 signed int direct_acquire(struct task *task, struct sanlk_resource *res, signed int num_hosts, unsigned long int local_host_id, unsigned long int local_host_generation, struct leader_record *leader_ret)
 {
-  signed int return_value_do_paxos_action$1;
-  return_value_do_paxos_action$1=do_paxos_action(9, task, res, -1, num_hosts, local_host_id, local_host_generation, leader_ret);
-  return return_value_do_paxos_action$1;
+  signed int return_value_do_paxos_action_1;
+  return_value_do_paxos_action_1=do_paxos_action(9, task, res, -1, num_hosts, local_host_id, local_host_generation, leader_ret);
+  return return_value_do_paxos_action_1;
 }
 
 // direct_acquire_id
 // file direct.c line 282
 signed int direct_acquire_id(struct task *task, struct sanlk_lockspace *ls, char *our_host_name)
 {
-  signed int return_value_do_delta_action$1;
-  return_value_do_delta_action$1=do_delta_action(13, task, ls, -1, our_host_name, (struct leader_record *)(void *)0);
-  return return_value_do_delta_action$1;
+  signed int return_value_do_delta_action_1;
+  return_value_do_delta_action_1=do_delta_action(13, task, ls, -1, our_host_name, (struct leader_record *)(void *)0);
+  return return_value_do_delta_action_1;
 }
 
 // direct_align
@@ -7556,15 +7556,15 @@ signed int direct_dump(struct task *task, char *dump_path, signed int force_mode
   {
     off_str = colon + (signed long int)1;
     *colon = (char)0;
-    signed long long int return_value_atoll$1;
-    return_value_atoll$1=atoll(off_str);
-    sd.offset = (unsigned long int)return_value_atoll$1;
+    signed long long int return_value_atoll_1;
+    return_value_atoll_1=atoll(off_str);
+    sd.offset = (unsigned long int)return_value_atoll_1;
   }
 
   strncpy(sd.path, dump_path, (unsigned long int)1024);
   sd.fd = -1;
   rv=open_disk(&sd);
-  void *return_value_malloc$2;
+  void *return_value_malloc_2;
   if(!(rv >= 0))
     return -19;
 
@@ -7576,8 +7576,8 @@ signed int direct_dump(struct task *task, char *dump_path, signed int force_mode
       align_size = rv;
       datalen = align_size;
       sector_count = (signed int)((unsigned int)align_size / sd.sector_size);
-      return_value_malloc$2=malloc((unsigned long int)datalen);
-      data = (char *)return_value_malloc$2;
+      return_value_malloc_2=malloc((unsigned long int)datalen);
+      data = (char *)return_value_malloc_2;
       if(data == ((char *)NULL))
         rv = -12;
 
@@ -7620,9 +7620,9 @@ signed int direct_dump(struct task *task, char *dump_path, signed int force_mode
                   b = 0;
                   for( ; !(b >= 2000); b = b + 1)
                   {
-                    signed int return_value_test_id_bit$3;
-                    return_value_test_id_bit$3=test_id_bit(b + 1, bitmap);
-                    if(!(return_value_test_id_bit$3 == 0))
+                    signed int return_value_test_id_bit_3;
+                    return_value_test_id_bit_3=test_id_bit(b + 1, bitmap);
+                    if(!(return_value_test_id_bit_3 == 0))
                       printf(" %d", b + 1);
 
                   }
@@ -7685,13 +7685,13 @@ signed int direct_dump(struct task *task, char *dump_path, signed int force_mode
 signed int direct_init(struct task *task, struct sanlk_lockspace *ls, struct sanlk_resource *res, signed int max_hosts, signed int num_hosts)
 {
   signed int rv = -1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(ls == ((struct sanlk_lockspace *)NULL)))
-    tmp_if_expr$1 = ls->host_id_disk.path[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ls->host_id_disk.path[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     rv=do_delta_action(18, task, ls, max_hosts, (char *)(void *)0, (struct leader_record *)(void *)0);
 
   else
@@ -7723,9 +7723,9 @@ signed int direct_live_id(struct task *task, struct sanlk_lockspace *ls, unsigne
 
   else
   {
-    unsigned long int return_value_monotime$1;
-    return_value_monotime$1=monotime();
-    start = (signed long int)return_value_monotime$1;
+    unsigned long int return_value_monotime_1;
+    return_value_monotime_1=monotime();
+    start = (signed long int)return_value_monotime_1;
     while((_Bool)1)
     {
       sleep((unsigned int)1);
@@ -7751,9 +7751,9 @@ signed int direct_live_id(struct task *task, struct sanlk_lockspace *ls, unsigne
         break;
       }
 
-      unsigned long int return_value_monotime$2;
-      return_value_monotime$2=monotime();
-      if(!((unsigned long int)task->host_dead_seconds >= return_value_monotime$2 + -((unsigned long int)start)))
+      unsigned long int return_value_monotime_2;
+      return_value_monotime_2=monotime();
+      if(!((unsigned long int)task->host_dead_seconds >= return_value_monotime_2 + -((unsigned long int)start)))
       {
         *live = 0;
         break;
@@ -7786,13 +7786,13 @@ signed int direct_read_id(struct task *task, struct sanlk_lockspace *ls, unsigne
 signed int direct_read_leader(struct task *task, struct sanlk_lockspace *ls, struct sanlk_resource *res, struct leader_record *leader_ret)
 {
   signed int rv = -1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(ls == ((struct sanlk_lockspace *)NULL)))
-    tmp_if_expr$1 = ls->host_id_disk.path[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ls->host_id_disk.path[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     rv=do_delta_action(20, task, ls, -1, (char *)(void *)0, leader_ret);
 
   else
@@ -7806,27 +7806,27 @@ signed int direct_read_leader(struct task *task, struct sanlk_lockspace *ls, str
 // file direct.c line 174
 signed int direct_release(struct task *task, struct sanlk_resource *res, struct leader_record *leader_ret)
 {
-  signed int return_value_do_paxos_action$1;
-  return_value_do_paxos_action$1=do_paxos_action(10, task, res, -1, -1, (unsigned long int)0, (unsigned long int)0, leader_ret);
-  return return_value_do_paxos_action$1;
+  signed int return_value_do_paxos_action_1;
+  return_value_do_paxos_action_1=do_paxos_action(10, task, res, -1, -1, (unsigned long int)0, (unsigned long int)0, leader_ret);
+  return return_value_do_paxos_action_1;
 }
 
 // direct_release_id
 // file direct.c line 288
 signed int direct_release_id(struct task *task, struct sanlk_lockspace *ls)
 {
-  signed int return_value_do_delta_action$1;
-  return_value_do_delta_action$1=do_delta_action(14, task, ls, -1, (char *)(void *)0, (struct leader_record *)(void *)0);
-  return return_value_do_delta_action$1;
+  signed int return_value_do_delta_action_1;
+  return_value_do_delta_action_1=do_delta_action(14, task, ls, -1, (char *)(void *)0, (struct leader_record *)(void *)0);
+  return return_value_do_delta_action_1;
 }
 
 // direct_renew_id
 // file direct.c line 293
 signed int direct_renew_id(struct task *task, struct sanlk_lockspace *ls)
 {
-  signed int return_value_do_delta_action$1;
-  return_value_do_delta_action$1=do_delta_action(15, task, ls, -1, (char *)(void *)0, (struct leader_record *)(void *)0);
-  return return_value_do_delta_action$1;
+  signed int return_value_do_delta_action_1;
+  return_value_do_delta_action_1=do_delta_action(15, task, ls, -1, (char *)(void *)0, (struct leader_record *)(void *)0);
+  return return_value_do_delta_action_1;
 }
 
 // do_client
@@ -8090,9 +8090,9 @@ static signed int do_daemon(void)
   signed int rv;
   if(com.debug == 0)
   {
-    signed int return_value_daemon$1;
-    return_value_daemon$1=daemon(0, 0);
-    if(!(return_value_daemon$1 >= 0))
+    signed int return_value_daemon_1;
+    return_value_daemon_1=daemon(0, 0);
+    if(!(return_value_daemon_1 >= 0))
     {
       do
         fprintf(stderr, "cannot fork daemon\n\n");
@@ -8127,9 +8127,9 @@ static signed int do_daemon(void)
       {
         setup_logging();
         setup_host_name();
-        signed long int return_value_time$2;
-        return_value_time$2=time((signed long int *)(void *)0);
-        log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "sanlock daemon started %s aio %d %d renew %d %d host %s time %llu", (const void *)"2.2", main_task.use_aio, main_task.io_timeout_seconds, main_task.id_renewal_seconds, main_task.id_renewal_fail_seconds, (const void *)our_host_name_global, (unsigned long long int)return_value_time$2);
+        signed long int return_value_time_2;
+        return_value_time_2=time((signed long int *)(void *)0);
+        log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "sanlock daemon started %s aio %d %d renew %d %d host %s time %llu", (const void *)"2.2", main_task.use_aio, main_task.io_timeout_seconds, main_task.id_renewal_seconds, main_task.id_renewal_fail_seconds, (const void *)our_host_name_global, (unsigned long long int)return_value_time_2);
         setup_priority();
         rv=thread_pool_create(2, com.max_worker_threads);
         if(rv >= 0)
@@ -8246,78 +8246,78 @@ static signed int do_delta_action(signed int action, struct task *task, struct s
   }
 }
 
-// do_delta_action$link1
+// do_delta_action_link1
 // file direct.c line 184
-static signed int do_delta_action$link1(signed int action$link1, struct task *task$link1, struct sanlk_lockspace *ls$link1, signed int max_hosts$link1, char *our_host_name$link1, struct leader_record *leader_ret$link1)
+static signed int do_delta_action_link1(signed int action_link1, struct task *task_link1, struct sanlk_lockspace *ls_link1, signed int max_hosts_link1, char *our_host_name_link1, struct leader_record *leader_ret_link1)
 {
-  struct leader_record leader$link1;
-  struct sync_disk sd$link1;
-  struct space space$link1;
-  char bitmap$link1[256l];
-  signed int read_result$link1;
-  signed int rv$link1;
-  memset((void *)bitmap$link1, 0, sizeof(char [256l]) /*256ul*/ );
-  memset((void *)&space$link1, 0, sizeof(struct space) /*129264ul*/ );
-  if(ls$link1->host_id_disk.path[0l] == 0)
+  struct leader_record leader_link1;
+  struct sync_disk sd_link1;
+  struct space space_link1;
+  char bitmap_link1[256l];
+  signed int read_result_link1;
+  signed int rv_link1;
+  memset((void *)bitmap_link1, 0, sizeof(char [256l]) /*256ul*/ );
+  memset((void *)&space_link1, 0, sizeof(struct space) /*129264ul*/ );
+  if(ls_link1->host_id_disk.path[0l] == 0)
     return -19;
 
   else
   {
-    memset((void *)&sd$link1, 0, sizeof(struct sync_disk) /*1040ul*/ );
-    memcpy((void *)&sd$link1, (const void *)&ls$link1->host_id_disk, sizeof(struct sanlk_disk) /*1040ul*/ );
-    sd$link1.fd = -1;
-    rv$link1=open_disk(&sd$link1);
-    if(!(rv$link1 >= 0))
+    memset((void *)&sd_link1, 0, sizeof(struct sync_disk) /*1040ul*/ );
+    memcpy((void *)&sd_link1, (const void *)&ls_link1->host_id_disk, sizeof(struct sanlk_disk) /*1040ul*/ );
+    sd_link1.fd = -1;
+    rv_link1=open_disk(&sd_link1);
+    if(!(rv_link1 >= 0))
       return -19;
 
     else
-      switch(action$link1)
+      switch(action_link1)
       {
         case 18:
         {
-          rv$link1=delta_lease_init(task$link1, &sd$link1, ls$link1->name, max_hosts$link1);
+          rv_link1=delta_lease_init(task_link1, &sd_link1, ls_link1->name, max_hosts_link1);
           goto __CPROVER_DUMP_L10;
         }
         case 13:
         {
-          rv$link1=delta_lease_acquire(task$link1, &space$link1, &sd$link1, ls$link1->name, our_host_name$link1, ls$link1->host_id, &leader$link1);
+          rv_link1=delta_lease_acquire(task_link1, &space_link1, &sd_link1, ls_link1->name, our_host_name_link1, ls_link1->host_id, &leader_link1);
           goto __CPROVER_DUMP_L10;
         }
         case 15:
         {
-          rv$link1=delta_lease_leader_read(task$link1, &sd$link1, ls$link1->name, ls$link1->host_id, &leader$link1, "direct_renew");
-          if(!(rv$link1 >= 0))
-            return rv$link1;
+          rv_link1=delta_lease_leader_read(task_link1, &sd_link1, ls_link1->name, ls_link1->host_id, &leader_link1, "direct_renew");
+          if(!(rv_link1 >= 0))
+            return rv_link1;
 
-          rv$link1=delta_lease_renew(task$link1, &space$link1, &sd$link1, ls$link1->name, bitmap$link1, -1, &read_result$link1, &leader$link1, &leader$link1);
+          rv_link1=delta_lease_renew(task_link1, &space_link1, &sd_link1, ls_link1->name, bitmap_link1, -1, &read_result_link1, &leader_link1, &leader_link1);
           goto __CPROVER_DUMP_L10;
         }
         case 14:
         {
-          rv$link1=delta_lease_leader_read(task$link1, &sd$link1, ls$link1->name, ls$link1->host_id, &leader$link1, "direct_release");
-          if(!(rv$link1 >= 0))
-            return rv$link1;
+          rv_link1=delta_lease_leader_read(task_link1, &sd_link1, ls_link1->name, ls_link1->host_id, &leader_link1, "direct_release");
+          if(!(rv_link1 >= 0))
+            return rv_link1;
 
-          rv$link1=delta_lease_release(task$link1, &space$link1, &sd$link1, ls$link1->name, &leader$link1, &leader$link1);
+          rv_link1=delta_lease_release(task_link1, &space_link1, &sd_link1, ls_link1->name, &leader_link1, &leader_link1);
           goto __CPROVER_DUMP_L10;
         }
         case 16:
 
         case 20:
-          rv$link1=delta_lease_leader_read(task$link1, &sd$link1, ls$link1->name, ls$link1->host_id, &leader$link1, "direct_read");
+          rv_link1=delta_lease_leader_read(task_link1, &sd_link1, ls_link1->name, ls_link1->host_id, &leader_link1, "direct_read");
         default:
         {
 
         __CPROVER_DUMP_L10:
           ;
-          close_disks(&sd$link1, 1);
-          if(rv$link1 == 1)
-            rv$link1 = 0;
+          close_disks(&sd_link1, 1);
+          if(rv_link1 == 1)
+            rv_link1 = 0;
 
-          if(!(leader_ret$link1 == ((struct leader_record *)NULL)))
-            memcpy((void *)leader_ret$link1, (const void *)&leader$link1, sizeof(struct leader_record) /*200ul*/ );
+          if(!(leader_ret_link1 == ((struct leader_record *)NULL)))
+            memcpy((void *)leader_ret_link1, (const void *)&leader_link1, sizeof(struct leader_record) /*200ul*/ );
 
-          return rv$link1;
+          return rv_link1;
         }
       }
   }
@@ -8488,7 +8488,7 @@ static signed int do_linux_aio(signed int fd, unsigned long int offset, char *bu
   aicb=find_callback_slot(task);
   struct iocb *ev_iocb;
   struct aicb *ev_aicb;
-  struct aicb *tmp_statement_expression$1;
+  struct aicb *tmp_statement_expression_1;
   if(aicb == ((struct aicb *)NULL))
     return -2;
 
@@ -8533,8 +8533,8 @@ static signed int do_linux_aio(signed int fd, unsigned long int offset, char *bu
 
         ev_iocb = event.obj;
         const struct iocb *__mptr = ev_iocb;
-        tmp_statement_expression$1 = (struct aicb *)((char *)__mptr - (signed long int)16ul);
-        ev_aicb = tmp_statement_expression$1;
+        tmp_statement_expression_1 = (struct aicb *)((char *)__mptr - (signed long int)16ul);
+        ev_aicb = tmp_statement_expression_1;
         ev_aicb->used = 0;
         if(ev_iocb == iocb)
           break;
@@ -8589,108 +8589,108 @@ static signed int do_linux_aio(signed int fd, unsigned long int offset, char *bu
   }
 }
 
-// do_linux_aio$link1
+// do_linux_aio_link1
 // file diskio.c line 368
-static signed int do_linux_aio$link1(signed int fd$link1, unsigned long int offset$link1, char *buf$link1, signed int len$link1, struct task *task$link1, signed int cmd$link1)
+static signed int do_linux_aio_link1(signed int fd_link1, unsigned long int offset_link1, char *buf_link1, signed int len_link1, struct task *task_link1, signed int cmd_link1)
 {
-  struct timespec ts$link1;
-  struct aicb *aicb$link1;
-  struct iocb *iocb$link1;
-  struct io_event event$link1;
-  signed int rv$link1;
-  aicb$link1=find_callback_slot$link1(task$link1);
-  struct iocb *ev_iocb$link1;
-  struct aicb *ev_aicb$link1;
-  struct aicb *tmp_statement_expression$1$link1;
-  if(aicb$link1 == ((struct aicb *)NULL))
+  struct timespec ts_link1;
+  struct aicb *aicb_link1;
+  struct iocb *iocb_link1;
+  struct io_event event_link1;
+  signed int rv_link1;
+  aicb_link1=find_callback_slot_link1(task_link1);
+  struct iocb *ev_iocb_link1;
+  struct aicb *ev_aicb_link1;
+  struct aicb *tmp_statement_expression_1_link1;
+  if(aicb_link1 == ((struct aicb *)NULL))
     return -2;
 
   else
   {
-    iocb$link1 = &aicb$link1->iocb;
-    memset((void *)iocb$link1, 0, sizeof(struct iocb) /*64ul*/ );
-    iocb$link1->aio_fildes = fd$link1;
-    iocb$link1->aio_lio_opcode = (signed short int)cmd$link1;
-    iocb$link1->u.c.buf = (void *)buf$link1;
-    iocb$link1->u.c.nbytes = (unsigned long int)len$link1;
-    iocb$link1->u.c.offset = (signed long long int)offset$link1;
-    rv$link1=io_submit(task$link1->aio_ctx, (signed long int)1, &iocb$link1);
-    if(!(rv$link1 >= 0))
-      log_level((unsigned int)0, (unsigned int)0, task$link1->name, 3, "aio submit %p:%p:%p rv %d fd %d cmd %d", aicb$link1, iocb$link1, buf$link1, rv$link1, fd$link1, cmd$link1);
+    iocb_link1 = &aicb_link1->iocb;
+    memset((void *)iocb_link1, 0, sizeof(struct iocb) /*64ul*/ );
+    iocb_link1->aio_fildes = fd_link1;
+    iocb_link1->aio_lio_opcode = (signed short int)cmd_link1;
+    iocb_link1->u.c.buf = (void *)buf_link1;
+    iocb_link1->u.c.nbytes = (unsigned long int)len_link1;
+    iocb_link1->u.c.offset = (signed long long int)offset_link1;
+    rv_link1=io_submit(task_link1->aio_ctx, (signed long int)1, &iocb_link1);
+    if(!(rv_link1 >= 0))
+      log_level((unsigned int)0, (unsigned int)0, task_link1->name, 3, "aio submit %p:%p:%p rv %d fd %d cmd %d", aicb_link1, iocb_link1, buf_link1, rv_link1, fd_link1, cmd_link1);
 
     else
     {
-      task$link1->io_count = task$link1->io_count + 1u;
-      aicb$link1->used = 1;
-      aicb$link1->buf = buf$link1;
-      memset((void *)&ts$link1, 0, sizeof(struct timespec) /*16ul*/ );
-      ts$link1.tv_sec = (signed long int)task$link1->io_timeout_seconds;
+      task_link1->io_count = task_link1->io_count + 1u;
+      aicb_link1->used = 1;
+      aicb_link1->buf = buf_link1;
+      memset((void *)&ts_link1, 0, sizeof(struct timespec) /*16ul*/ );
+      ts_link1.tv_sec = (signed long int)task_link1->io_timeout_seconds;
       do
       {
 
       retry:
         ;
-        memset((void *)&event$link1, 0, sizeof(struct io_event) /*32ul*/ );
-        rv$link1=io_getevents(task$link1->aio_ctx, (signed long int)1, (signed long int)1, &event$link1, &ts$link1);
-        if(rv$link1 == -4)
+        memset((void *)&event_link1, 0, sizeof(struct io_event) /*32ul*/ );
+        rv_link1=io_getevents(task_link1->aio_ctx, (signed long int)1, (signed long int)1, &event_link1, &ts_link1);
+        if(rv_link1 == -4)
           goto retry;
 
-        if(!(rv$link1 >= 0))
+        if(!(rv_link1 >= 0))
         {
-          log_level((unsigned int)0, (unsigned int)0, task$link1->name, 3, "aio getevent %p:%p:%p rv %d", aicb$link1, iocb$link1, buf$link1, rv$link1);
+          log_level((unsigned int)0, (unsigned int)0, task_link1->name, 3, "aio getevent %p:%p:%p rv %d", aicb_link1, iocb_link1, buf_link1, rv_link1);
           goto out;
         }
 
-        if(!(rv$link1 == 1))
+        if(!(rv_link1 == 1))
           goto __CPROVER_DUMP_L8;
 
-        ev_iocb$link1 = event$link1.obj;
-        const struct iocb *__mptr$link1 = ev_iocb$link1;
-        tmp_statement_expression$1$link1 = (struct aicb *)((char *)__mptr$link1 - (signed long int)16ul);
-        ev_aicb$link1 = tmp_statement_expression$1$link1;
-        ev_aicb$link1->used = 0;
-        if(ev_iocb$link1 == iocb$link1)
+        ev_iocb_link1 = event_link1.obj;
+        const struct iocb *__mptr_link1 = ev_iocb_link1;
+        tmp_statement_expression_1_link1 = (struct aicb *)((char *)__mptr_link1 - (signed long int)16ul);
+        ev_aicb_link1 = tmp_statement_expression_1_link1;
+        ev_aicb_link1->used = 0;
+        if(ev_iocb_link1 == iocb_link1)
           break;
 
-        log_level((unsigned int)0, (unsigned int)0, task$link1->name, 3, "aio collect %p:%p:%p result %ld:%ld other free", ev_aicb$link1, ev_iocb$link1, ev_aicb$link1->buf, event$link1.res, event$link1.res2);
-        free((void *)ev_aicb$link1->buf);
-        ev_aicb$link1->buf = (char *)(void *)0;
+        log_level((unsigned int)0, (unsigned int)0, task_link1->name, 3, "aio collect %p:%p:%p result %ld:%ld other free", ev_aicb_link1, ev_iocb_link1, ev_aicb_link1->buf, event_link1.res, event_link1.res2);
+        free((void *)ev_aicb_link1->buf);
+        ev_aicb_link1->buf = (char *)(void *)0;
       }
       while((_Bool)1);
-      if(!((signed int)event$link1.res >= 0))
+      if(!((signed int)event_link1.res >= 0))
       {
-        log_level((unsigned int)0, (unsigned int)0, task$link1->name, 3, "aio collect %p:%p:%p result %ld:%ld match res", ev_aicb$link1, ev_iocb$link1, ev_aicb$link1->buf, event$link1.res, event$link1.res2);
-        rv$link1 = (signed int)event$link1.res;
+        log_level((unsigned int)0, (unsigned int)0, task_link1->name, 3, "aio collect %p:%p:%p result %ld:%ld match res", ev_aicb_link1, ev_iocb_link1, ev_aicb_link1->buf, event_link1.res, event_link1.res2);
+        rv_link1 = (signed int)event_link1.res;
       }
 
       else
-        if(!(event$link1.res == (unsigned long int)len$link1))
+        if(!(event_link1.res == (unsigned long int)len_link1))
         {
-          log_level((unsigned int)0, (unsigned int)0, task$link1->name, 3, "aio collect %p:%p:%p result %ld:%ld match len %d", ev_aicb$link1, ev_iocb$link1, ev_aicb$link1->buf, event$link1.res, event$link1.res2, len$link1);
-          rv$link1 = -90;
+          log_level((unsigned int)0, (unsigned int)0, task_link1->name, 3, "aio collect %p:%p:%p result %ld:%ld match len %d", ev_aicb_link1, ev_iocb_link1, ev_aicb_link1->buf, event_link1.res, event_link1.res2, len_link1);
+          rv_link1 = -90;
         }
 
         else
         {
-          rv$link1 = 0;
+          rv_link1 = 0;
           goto out;
 
         __CPROVER_DUMP_L8:
           ;
-          task$link1->to_count = task$link1->to_count + 1u;
-          log_level((unsigned int)0, (unsigned int)0, task$link1->name, 3, "aio timeout %p:%p:%p sec %d to_count %d", aicb$link1, iocb$link1, buf$link1, task$link1->io_timeout_seconds, task$link1->to_count);
-          rv$link1=io_cancel(task$link1->aio_ctx, iocb$link1, &event$link1);
-          if(rv$link1 == 0)
+          task_link1->to_count = task_link1->to_count + 1u;
+          log_level((unsigned int)0, (unsigned int)0, task_link1->name, 3, "aio timeout %p:%p:%p sec %d to_count %d", aicb_link1, iocb_link1, buf_link1, task_link1->io_timeout_seconds, task_link1->to_count);
+          rv_link1=io_cancel(task_link1->aio_ctx, iocb_link1, &event_link1);
+          if(rv_link1 == 0)
           {
-            aicb$link1->used = 0;
-            rv$link1 = -125;
+            aicb_link1->used = 0;
+            rv_link1 = -125;
           }
 
           else
           {
-            rv$link1 = -202;
-            if(cmd$link1 == 0)
-              task$link1->read_iobuf_timeout_aicb = aicb$link1;
+            rv_link1 = -202;
+            if(cmd_link1 == 0)
+              task_link1->read_iobuf_timeout_aicb = aicb_link1;
 
           }
         }
@@ -8698,7 +8698,7 @@ static signed int do_linux_aio$link1(signed int fd$link1, unsigned long int offs
 
   out:
     ;
-    return rv$link1;
+    return rv_link1;
   }
 }
 
@@ -8714,9 +8714,9 @@ static signed int do_paxos_action(signed int action, struct task *task, struct s
   signed int rv = 0;
   disks_len = (signed int)((unsigned long int)res->num_disks * sizeof(struct sync_disk) /*1040ul*/ );
   token_len = (signed int)(sizeof(struct token) /*472ul*/  + (unsigned long int)disks_len);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)token_len);
-  token = (struct token *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)token_len);
+  token = (struct token *)return_value_malloc_1;
   if(token == ((struct token *)NULL))
     return -12;
 
@@ -8782,82 +8782,82 @@ static signed int do_paxos_action(signed int action, struct task *task, struct s
   }
 }
 
-// do_paxos_action$link1
+// do_paxos_action_link1
 // file direct.c line 81
-static signed int do_paxos_action$link1(signed int action$link1, struct task *task$link1, struct sanlk_resource *res$link1, signed int max_hosts$link1, signed int num_hosts$link1, unsigned long int local_host_id$link1, unsigned long int local_host_generation$link1, struct leader_record *leader_ret$link1)
+static signed int do_paxos_action_link1(signed int action_link1, struct task *task_link1, struct sanlk_resource *res_link1, signed int max_hosts_link1, signed int num_hosts_link1, unsigned long int local_host_id_link1, unsigned long int local_host_generation_link1, struct leader_record *leader_ret_link1)
 {
-  struct token *token$link1;
-  struct leader_record leader$link1;
-  signed int disks_len$link1;
-  signed int token_len$link1;
-  signed int j$link1;
-  signed int rv$link1 = 0;
-  disks_len$link1 = (signed int)((unsigned long int)res$link1->num_disks * sizeof(struct sync_disk) /*1040ul*/ );
-  token_len$link1 = (signed int)(sizeof(struct token) /*472ul*/  + (unsigned long int)disks_len$link1);
-  void *return_value_malloc$1$link1;
-  return_value_malloc$1$link1=malloc((unsigned long int)token_len$link1);
-  token$link1 = (struct token *)return_value_malloc$1$link1;
-  if(token$link1 == ((struct token *)NULL))
+  struct token *token_link1;
+  struct leader_record leader_link1;
+  signed int disks_len_link1;
+  signed int token_len_link1;
+  signed int j_link1;
+  signed int rv_link1 = 0;
+  disks_len_link1 = (signed int)((unsigned long int)res_link1->num_disks * sizeof(struct sync_disk) /*1040ul*/ );
+  token_len_link1 = (signed int)(sizeof(struct token) /*472ul*/  + (unsigned long int)disks_len_link1);
+  void *return_value_malloc_1_link1;
+  return_value_malloc_1_link1=malloc((unsigned long int)token_len_link1);
+  token_link1 = (struct token *)return_value_malloc_1_link1;
+  if(token_link1 == ((struct token *)NULL))
     return -12;
 
   else
   {
-    memset((void *)token$link1, 0, (unsigned long int)token_len$link1);
-    token$link1->disks = (struct sync_disk *)&token$link1->r.disks[(signed long int)0];
-    token$link1->r.num_disks = res$link1->num_disks;
-    memcpy((void *)token$link1->r.lockspace_name, (const void *)res$link1->lockspace_name, (unsigned long int)48);
-    memcpy((void *)token$link1->r.name, (const void *)res$link1->name, (unsigned long int)48);
-    memcpy((void *)token$link1->disks, (const void *)&res$link1->disks, (unsigned long int)disks_len$link1);
-    j$link1 = 0;
-    for( ; !((unsigned int)j$link1 >= token$link1->r.num_disks); j$link1 = j$link1 + 1)
+    memset((void *)token_link1, 0, (unsigned long int)token_len_link1);
+    token_link1->disks = (struct sync_disk *)&token_link1->r.disks[(signed long int)0];
+    token_link1->r.num_disks = res_link1->num_disks;
+    memcpy((void *)token_link1->r.lockspace_name, (const void *)res_link1->lockspace_name, (unsigned long int)48);
+    memcpy((void *)token_link1->r.name, (const void *)res_link1->name, (unsigned long int)48);
+    memcpy((void *)token_link1->disks, (const void *)&res_link1->disks, (unsigned long int)disks_len_link1);
+    j_link1 = 0;
+    for( ; !((unsigned int)j_link1 >= token_link1->r.num_disks); j_link1 = j_link1 + 1)
     {
-      (token$link1->disks + (signed long int)j$link1)->sector_size = (unsigned int)0;
-      (token$link1->disks + (signed long int)j$link1)->fd = -1;
+      (token_link1->disks + (signed long int)j_link1)->sector_size = (unsigned int)0;
+      (token_link1->disks + (signed long int)j_link1)->fd = -1;
     }
-    rv$link1=open_disks(token$link1->disks, (signed int)token$link1->r.num_disks);
-    if(!(rv$link1 >= 0))
+    rv_link1=open_disks(token_link1->disks, (signed int)token_link1->r.num_disks);
+    if(!(rv_link1 >= 0))
     {
-      free((void *)token$link1);
-      return rv$link1;
+      free((void *)token_link1);
+      return rv_link1;
     }
 
     else
     {
-      switch(action$link1)
+      switch(action_link1)
       {
         case 18:
         {
-          rv$link1=paxos_lease_init(task$link1, token$link1, num_hosts$link1, max_hosts$link1);
+          rv_link1=paxos_lease_init(task_link1, token_link1, num_hosts_link1, max_hosts_link1);
           break;
         }
         case 9:
         {
-          token$link1->host_id = local_host_id$link1;
-          token$link1->host_generation = local_host_generation$link1;
-          rv$link1=paxos_lease_acquire(task$link1, token$link1, (unsigned int)0, leader_ret$link1, (unsigned long int)0, num_hosts$link1);
+          token_link1->host_id = local_host_id_link1;
+          token_link1->host_generation = local_host_generation_link1;
+          rv_link1=paxos_lease_acquire(task_link1, token_link1, (unsigned int)0, leader_ret_link1, (unsigned long int)0, num_hosts_link1);
           break;
         }
         case 10:
         {
-          rv$link1=paxos_lease_leader_read(task$link1, token$link1, &leader$link1, "direct_release");
-          if(!(rv$link1 >= 0))
+          rv_link1=paxos_lease_leader_read(task_link1, token_link1, &leader_link1, "direct_release");
+          if(!(rv_link1 >= 0))
             break;
 
-          rv$link1=paxos_lease_release(task$link1, token$link1, &leader$link1, leader_ret$link1);
+          rv_link1=paxos_lease_release(task_link1, token_link1, &leader_link1, leader_ret_link1);
           break;
         }
         case 20:
-          rv$link1=paxos_lease_leader_read(task$link1, token$link1, &leader$link1, "direct_read_leader");
+          rv_link1=paxos_lease_leader_read(task_link1, token_link1, &leader_link1, "direct_read_leader");
       }
-      close_disks(token$link1->disks, (signed int)token$link1->r.num_disks);
-      free((void *)token$link1);
-      if(rv$link1 == 1)
-        rv$link1 = 0;
+      close_disks(token_link1->disks, (signed int)token_link1->r.num_disks);
+      free((void *)token_link1);
+      if(rv_link1 == 1)
+        rv_link1 = 0;
 
-      if(!(leader_ret$link1 == ((struct leader_record *)NULL)))
-        memcpy((void *)leader_ret$link1, (const void *)&leader$link1, sizeof(struct leader_record) /*200ul*/ );
+      if(!(leader_ret_link1 == ((struct leader_record *)NULL)))
+        memcpy((void *)leader_ret_link1, (const void *)&leader_link1, sizeof(struct leader_record) /*200ul*/ );
 
-      return rv$link1;
+      return rv_link1;
     }
   }
 }
@@ -8873,7 +8873,7 @@ static signed int do_read(signed int fd, unsigned long int offset, char *buf, si
     task->io_count = task->io_count + 1u;
 
   ret=lseek(fd, (signed long int)offset, 0);
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   if(!((unsigned long int)ret == offset))
     return -1;
 
@@ -8881,16 +8881,16 @@ static signed int do_read(signed int fd, unsigned long int offset, char *buf, si
   {
     while(!(pos >= len))
     {
-      signed long int return_value_read$1;
-      return_value_read$1=read(fd, (void *)(buf + (signed long int)pos), (unsigned long int)(len - pos));
-      rv = (signed int)return_value_read$1;
+      signed long int return_value_read_1;
+      return_value_read_1=read(fd, (void *)(buf + (signed long int)pos), (unsigned long int)(len - pos));
+      rv = (signed int)return_value_read_1;
       if(rv == 0)
         return -1;
 
       if(rv == -1)
       {
-        return_value___errno_location$2=__errno_location();
-        if(!(*return_value___errno_location$2 == 4))
+        return_value___errno_location_2=__errno_location();
+        if(!(*return_value___errno_location_2 == 4))
           goto __CPROVER_DUMP_L4;
 
       }
@@ -8910,35 +8910,35 @@ static signed int do_read(signed int fd, unsigned long int offset, char *buf, si
   }
 }
 
-// do_read$link1
+// do_read_link1
 // file diskio.c line 292
-static signed int do_read$link1(signed int fd$link1, unsigned long int offset$link1, char *buf$link1, signed int len$link1, struct task *task$link1)
+static signed int do_read_link1(signed int fd_link1, unsigned long int offset_link1, char *buf_link1, signed int len_link1, struct task *task_link1)
 {
-  signed long int ret$link1;
-  signed int rv$link1;
-  signed int pos$link1 = 0;
-  if(!(task$link1 == ((struct task *)NULL)))
-    task$link1->io_count = task$link1->io_count + 1u;
+  signed long int ret_link1;
+  signed int rv_link1;
+  signed int pos_link1 = 0;
+  if(!(task_link1 == ((struct task *)NULL)))
+    task_link1->io_count = task_link1->io_count + 1u;
 
-  ret$link1=lseek(fd$link1, (signed long int)offset$link1, 0);
-  signed int *return_value___errno_location$2$link1;
-  if(!((unsigned long int)ret$link1 == offset$link1))
+  ret_link1=lseek(fd_link1, (signed long int)offset_link1, 0);
+  signed int *return_value___errno_location_2_link1;
+  if(!((unsigned long int)ret_link1 == offset_link1))
     return -1;
 
   else
   {
-    while(!(pos$link1 >= len$link1))
+    while(!(pos_link1 >= len_link1))
     {
-      signed long int return_value_read$1$link1;
-      return_value_read$1$link1=read(fd$link1, (void *)(buf$link1 + (signed long int)pos$link1), (unsigned long int)(len$link1 - pos$link1));
-      rv$link1 = (signed int)return_value_read$1$link1;
-      if(rv$link1 == 0)
+      signed long int return_value_read_1_link1;
+      return_value_read_1_link1=read(fd_link1, (void *)(buf_link1 + (signed long int)pos_link1), (unsigned long int)(len_link1 - pos_link1));
+      rv_link1 = (signed int)return_value_read_1_link1;
+      if(rv_link1 == 0)
         return -1;
 
-      if(rv$link1 == -1)
+      if(rv_link1 == -1)
       {
-        return_value___errno_location$2$link1=__errno_location();
-        if(!(*return_value___errno_location$2$link1 == 4))
+        return_value___errno_location_2_link1=__errno_location();
+        if(!(*return_value___errno_location_2_link1 == 4))
           goto __CPROVER_DUMP_L4;
 
       }
@@ -8948,10 +8948,10 @@ static signed int do_read$link1(signed int fd$link1, unsigned long int offset$li
 
       __CPROVER_DUMP_L4:
         ;
-        if(!(rv$link1 >= 0))
+        if(!(rv_link1 >= 0))
           return -1;
 
-        pos$link1 = pos$link1 + rv$link1;
+        pos_link1 = pos_link1 + rv_link1;
       }
     }
     return 0;
@@ -8962,18 +8962,18 @@ static signed int do_read$link1(signed int fd$link1, unsigned long int offset$li
 // file diskio.c line 485
 static signed int do_read_aio_linux(signed int fd, unsigned long int offset, char *buf, signed int len, struct task *task)
 {
-  signed int return_value_do_linux_aio$1;
-  return_value_do_linux_aio$1=do_linux_aio(fd, offset, buf, len, task, 0);
-  return return_value_do_linux_aio$1;
+  signed int return_value_do_linux_aio_1;
+  return_value_do_linux_aio_1=do_linux_aio(fd, offset, buf, len, task, 0);
+  return return_value_do_linux_aio_1;
 }
 
-// do_read_aio_linux$link1
+// do_read_aio_linux_link1
 // file diskio.c line 485
-static signed int do_read_aio_linux$link1(signed int fd$link1, unsigned long int offset$link1, char *buf$link1, signed int len$link1, struct task *task$link1)
+static signed int do_read_aio_linux_link1(signed int fd_link1, unsigned long int offset_link1, char *buf_link1, signed int len_link1, struct task *task_link1)
 {
-  signed int return_value_do_linux_aio$1$link1;
-  return_value_do_linux_aio$1$link1=do_linux_aio$link1(fd$link1, offset$link1, buf$link1, len$link1, task$link1, 0);
-  return return_value_do_linux_aio$1$link1;
+  signed int return_value_do_linux_aio_1_link1;
+  return_value_do_linux_aio_1_link1=do_linux_aio_link1(fd_link1, offset_link1, buf_link1, len_link1, task_link1, 0);
+  return return_value_do_linux_aio_1_link1;
 }
 
 // do_read_aio_posix
@@ -9026,48 +9026,48 @@ static signed int do_read_aio_posix(signed int fd, unsigned long int offset, cha
   }
 }
 
-// do_read_aio_posix$link1
+// do_read_aio_posix_link1
 // file diskio.c line 539
-static signed int do_read_aio_posix$link1(signed int fd$link1, unsigned long int offset$link1, char *buf$link1, signed int len$link1, struct task *task$link1)
+static signed int do_read_aio_posix_link1(signed int fd_link1, unsigned long int offset_link1, char *buf_link1, signed int len_link1, struct task *task_link1)
 {
-  struct timespec ts$link1;
-  struct aiocb cb$link1;
-  struct aiocb *p_cb$link1;
-  signed int rv$link1;
-  memset((void *)&ts$link1, 0, sizeof(struct timespec) /*16ul*/ );
-  ts$link1.tv_sec = (signed long int)task$link1->io_timeout_seconds;
-  memset((void *)&cb$link1, 0, sizeof(struct aiocb) /*168ul*/ );
-  p_cb$link1 = &cb$link1;
-  cb$link1.aio_fildes = fd$link1;
-  cb$link1.aio_buf = (volatile void *)buf$link1;
-  cb$link1.aio_nbytes = (unsigned long int)len$link1;
-  cb$link1.aio_offset = (signed long int)offset$link1;
-  rv$link1=aio_read(&cb$link1);
-  if(!(rv$link1 >= 0))
+  struct timespec ts_link1;
+  struct aiocb cb_link1;
+  struct aiocb *p_cb_link1;
+  signed int rv_link1;
+  memset((void *)&ts_link1, 0, sizeof(struct timespec) /*16ul*/ );
+  ts_link1.tv_sec = (signed long int)task_link1->io_timeout_seconds;
+  memset((void *)&cb_link1, 0, sizeof(struct aiocb) /*168ul*/ );
+  p_cb_link1 = &cb_link1;
+  cb_link1.aio_fildes = fd_link1;
+  cb_link1.aio_buf = (volatile void *)buf_link1;
+  cb_link1.aio_nbytes = (unsigned long int)len_link1;
+  cb_link1.aio_offset = (signed long int)offset_link1;
+  rv_link1=aio_read(&cb_link1);
+  if(!(rv_link1 >= 0))
     return -1;
 
   else
   {
-    rv$link1=aio_suspend(&p_cb$link1, 1, &ts$link1);
-    if(rv$link1 == 0)
+    rv_link1=aio_suspend(&p_cb_link1, 1, &ts_link1);
+    if(rv_link1 == 0)
       return 0;
 
     else
     {
-      rv$link1=aio_cancel(fd$link1, &cb$link1);
-      if(!(rv$link1 >= 0))
+      rv_link1=aio_cancel(fd_link1, &cb_link1);
+      if(!(rv_link1 >= 0))
         return -1;
 
       else
-        if(rv$link1 == 2)
+        if(rv_link1 == 2)
           return 0;
 
         else
-          if(rv$link1 == 0)
+          if(rv_link1 == 0)
             return -5;
 
           else
-            if(rv$link1 == 1)
+            if(rv_link1 == 1)
               return -5;
 
             else
@@ -9123,8 +9123,8 @@ static signed int do_write(signed int fd, unsigned long int offset, const char *
     task->io_count = task->io_count + 1u;
 
   ret=lseek(fd, (signed long int)offset, 0);
-  signed long int return_value_write$1;
-  signed int *return_value___errno_location$2;
+  signed long int return_value_write_1;
+  signed int *return_value___errno_location_2;
   if(!((unsigned long int)ret == offset))
     return -1;
 
@@ -9135,12 +9135,12 @@ static signed int do_write(signed int fd, unsigned long int offset, const char *
 
     retry:
       ;
-      return_value_write$1=write(fd, (const void *)(buf + (signed long int)pos), (unsigned long int)len);
-      rv = (signed int)return_value_write$1;
+      return_value_write_1=write(fd, (const void *)(buf + (signed long int)pos), (unsigned long int)len);
+      rv = (signed int)return_value_write_1;
       if(rv == -1)
       {
-        return_value___errno_location$2=__errno_location();
-        if(*return_value___errno_location$2 == 4)
+        return_value___errno_location_2=__errno_location();
+        if(*return_value___errno_location_2 == 4)
           goto retry;
 
       }
@@ -9159,20 +9159,20 @@ static signed int do_write(signed int fd, unsigned long int offset, const char *
   }
 }
 
-// do_write$link1
+// do_write_link1
 // file diskio.c line 259
-static signed int do_write$link1(signed int fd$link1, unsigned long int offset$link1, const char *buf$link1, signed int len$link1, struct task *task$link1)
+static signed int do_write_link1(signed int fd_link1, unsigned long int offset_link1, const char *buf_link1, signed int len_link1, struct task *task_link1)
 {
-  signed long int ret$link1;
-  signed int rv$link1;
-  signed int pos$link1 = 0;
-  if(!(task$link1 == ((struct task *)NULL)))
-    task$link1->io_count = task$link1->io_count + 1u;
+  signed long int ret_link1;
+  signed int rv_link1;
+  signed int pos_link1 = 0;
+  if(!(task_link1 == ((struct task *)NULL)))
+    task_link1->io_count = task_link1->io_count + 1u;
 
-  ret$link1=lseek(fd$link1, (signed long int)offset$link1, 0);
-  signed long int return_value_write$1$link1;
-  signed int *return_value___errno_location$2$link1;
-  if(!((unsigned long int)ret$link1 == offset$link1))
+  ret_link1=lseek(fd_link1, (signed long int)offset_link1, 0);
+  signed long int return_value_write_1_link1;
+  signed int *return_value___errno_location_2_link1;
+  if(!((unsigned long int)ret_link1 == offset_link1))
     return -1;
 
   else
@@ -9182,24 +9182,24 @@ static signed int do_write$link1(signed int fd$link1, unsigned long int offset$l
 
     retry:
       ;
-      return_value_write$1$link1=write(fd$link1, (const void *)(buf$link1 + (signed long int)pos$link1), (unsigned long int)len$link1);
-      rv$link1 = (signed int)return_value_write$1$link1;
-      if(rv$link1 == -1)
+      return_value_write_1_link1=write(fd_link1, (const void *)(buf_link1 + (signed long int)pos_link1), (unsigned long int)len_link1);
+      rv_link1 = (signed int)return_value_write_1_link1;
+      if(rv_link1 == -1)
       {
-        return_value___errno_location$2$link1=__errno_location();
-        if(*return_value___errno_location$2$link1 == 4)
+        return_value___errno_location_2_link1=__errno_location();
+        if(*return_value___errno_location_2_link1 == 4)
           goto retry;
 
       }
 
-      if(!(rv$link1 >= 0))
+      if(!(rv_link1 >= 0))
         return -1;
 
-      if(rv$link1 == len$link1)
+      if(rv_link1 == len_link1)
         break;
 
-      len$link1 = len$link1 - rv$link1;
-      pos$link1 = pos$link1 + rv$link1;
+      len_link1 = len_link1 - rv_link1;
+      pos_link1 = pos_link1 + rv_link1;
     }
     while((_Bool)1);
     return 0;
@@ -9210,18 +9210,18 @@ static signed int do_write$link1(signed int fd$link1, unsigned long int offset$l
 // file diskio.c line 480
 static signed int do_write_aio_linux(signed int fd, unsigned long int offset, char *buf, signed int len, struct task *task)
 {
-  signed int return_value_do_linux_aio$1;
-  return_value_do_linux_aio$1=do_linux_aio(fd, offset, buf, len, task, 1);
-  return return_value_do_linux_aio$1;
+  signed int return_value_do_linux_aio_1;
+  return_value_do_linux_aio_1=do_linux_aio(fd, offset, buf, len, task, 1);
+  return return_value_do_linux_aio_1;
 }
 
-// do_write_aio_linux$link1
+// do_write_aio_linux_link1
 // file diskio.c line 480
-static signed int do_write_aio_linux$link1(signed int fd$link1, unsigned long int offset$link1, char *buf$link1, signed int len$link1, struct task *task$link1)
+static signed int do_write_aio_linux_link1(signed int fd_link1, unsigned long int offset_link1, char *buf_link1, signed int len_link1, struct task *task_link1)
 {
-  signed int return_value_do_linux_aio$1$link1;
-  return_value_do_linux_aio$1$link1=do_linux_aio$link1(fd$link1, offset$link1, buf$link1, len$link1, task$link1, 1);
-  return return_value_do_linux_aio$1$link1;
+  signed int return_value_do_linux_aio_1_link1;
+  return_value_do_linux_aio_1_link1=do_linux_aio_link1(fd_link1, offset_link1, buf_link1, len_link1, task_link1, 1);
+  return return_value_do_linux_aio_1_link1;
 }
 
 // do_write_aio_posix
@@ -9274,48 +9274,48 @@ static signed int do_write_aio_posix(signed int fd, unsigned long int offset, ch
   }
 }
 
-// do_write_aio_posix$link1
+// do_write_aio_posix_link1
 // file diskio.c line 490
-static signed int do_write_aio_posix$link1(signed int fd$link1, unsigned long int offset$link1, char *buf$link1, signed int len$link1, struct task *task$link1)
+static signed int do_write_aio_posix_link1(signed int fd_link1, unsigned long int offset_link1, char *buf_link1, signed int len_link1, struct task *task_link1)
 {
-  struct timespec ts$link1;
-  struct aiocb cb$link1;
-  struct aiocb *p_cb$link1;
-  signed int rv$link1;
-  memset((void *)&ts$link1, 0, sizeof(struct timespec) /*16ul*/ );
-  ts$link1.tv_sec = (signed long int)task$link1->io_timeout_seconds;
-  memset((void *)&cb$link1, 0, sizeof(struct aiocb) /*168ul*/ );
-  p_cb$link1 = &cb$link1;
-  cb$link1.aio_fildes = fd$link1;
-  cb$link1.aio_buf = (volatile void *)buf$link1;
-  cb$link1.aio_nbytes = (unsigned long int)len$link1;
-  cb$link1.aio_offset = (signed long int)offset$link1;
-  rv$link1=aio_write(&cb$link1);
-  if(!(rv$link1 >= 0))
+  struct timespec ts_link1;
+  struct aiocb cb_link1;
+  struct aiocb *p_cb_link1;
+  signed int rv_link1;
+  memset((void *)&ts_link1, 0, sizeof(struct timespec) /*16ul*/ );
+  ts_link1.tv_sec = (signed long int)task_link1->io_timeout_seconds;
+  memset((void *)&cb_link1, 0, sizeof(struct aiocb) /*168ul*/ );
+  p_cb_link1 = &cb_link1;
+  cb_link1.aio_fildes = fd_link1;
+  cb_link1.aio_buf = (volatile void *)buf_link1;
+  cb_link1.aio_nbytes = (unsigned long int)len_link1;
+  cb_link1.aio_offset = (signed long int)offset_link1;
+  rv_link1=aio_write(&cb_link1);
+  if(!(rv_link1 >= 0))
     return -1;
 
   else
   {
-    rv$link1=aio_suspend(&p_cb$link1, 1, &ts$link1);
-    if(rv$link1 == 0)
+    rv_link1=aio_suspend(&p_cb_link1, 1, &ts_link1);
+    if(rv_link1 == 0)
       return 0;
 
     else
     {
-      rv$link1=aio_cancel(fd$link1, &cb$link1);
-      if(!(rv$link1 >= 0))
+      rv_link1=aio_cancel(fd_link1, &cb_link1);
+      if(!(rv_link1 >= 0))
         return -1;
 
       else
-        if(rv$link1 == 2)
+        if(rv_link1 == 2)
           return 0;
 
         else
-          if(rv$link1 == 0)
+          if(rv_link1 == 0)
             return -5;
 
           else
-            if(rv$link1 == 1)
+            if(rv_link1 == 1)
               return -5;
 
             else
@@ -9361,10 +9361,10 @@ static struct aicb * find_callback_slot(struct task *task)
   signed int cleared = 0;
   signed int rv;
   signed int i;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   struct iocb *ev_iocb;
   struct aicb *ev_aicb;
-  struct aicb *tmp_statement_expression$2;
+  struct aicb *tmp_statement_expression_2;
   do
   {
 
@@ -9375,9 +9375,9 @@ static struct aicb * find_callback_slot(struct task *task)
       if((task->callbacks + (signed long int)i)->used == 0)
         return &task->callbacks[(signed long int)i];
 
-    tmp_post$1 = cleared;
+    tmp_post_1 = cleared;
     cleared = cleared + 1;
-    if(!(tmp_post$1 == 0))
+    if(!(tmp_post_1 == 0))
       return (struct aicb *)(void *)0;
 
     memset((void *)&ts, 0, sizeof(struct timespec) /*16ul*/ );
@@ -9399,8 +9399,8 @@ static struct aicb * find_callback_slot(struct task *task)
 
     ev_iocb = event.obj;
     const struct iocb *__mptr = ev_iocb;
-    tmp_statement_expression$2 = (struct aicb *)((char *)__mptr - (signed long int)16ul);
-    ev_aicb = tmp_statement_expression$2;
+    tmp_statement_expression_2 = (struct aicb *)((char *)__mptr - (signed long int)16ul);
+    ev_aicb = tmp_statement_expression_2;
     log_level((unsigned int)0, (unsigned int)0, task->name, 3, "aio collect %p:%p:%p result %ld:%ld old free", ev_aicb, ev_iocb, ev_aicb->buf, event.res, event.res2);
     ev_aicb->used = 0;
     free((void *)ev_aicb->buf);
@@ -9410,59 +9410,59 @@ static struct aicb * find_callback_slot(struct task *task)
   return (struct aicb *)(void *)0;
 }
 
-// find_callback_slot$link1
+// find_callback_slot_link1
 // file diskio.c line 318
-static struct aicb * find_callback_slot$link1(struct task *task$link1)
+static struct aicb * find_callback_slot_link1(struct task *task_link1)
 {
-  struct timespec ts$link1;
-  struct io_event event$link1;
-  signed int cleared$link1 = 0;
-  signed int rv$link1;
-  signed int i$link1;
-  signed int tmp_post$1$link1;
-  struct iocb *ev_iocb$link1;
-  struct aicb *ev_aicb$link1;
-  struct aicb *tmp_statement_expression$2$link1;
+  struct timespec ts_link1;
+  struct io_event event_link1;
+  signed int cleared_link1 = 0;
+  signed int rv_link1;
+  signed int i_link1;
+  signed int tmp_post_1_link1;
+  struct iocb *ev_iocb_link1;
+  struct aicb *ev_aicb_link1;
+  struct aicb *tmp_statement_expression_2_link1;
   do
   {
 
   find:
     ;
-    i$link1 = 0;
-    for( ; !(i$link1 >= task$link1->cb_size); i$link1 = i$link1 + 1)
-      if((task$link1->callbacks + (signed long int)i$link1)->used == 0)
-        return &task$link1->callbacks[(signed long int)i$link1];
+    i_link1 = 0;
+    for( ; !(i_link1 >= task_link1->cb_size); i_link1 = i_link1 + 1)
+      if((task_link1->callbacks + (signed long int)i_link1)->used == 0)
+        return &task_link1->callbacks[(signed long int)i_link1];
 
-    tmp_post$1$link1 = cleared$link1;
-    cleared$link1 = cleared$link1 + 1;
-    if(!(tmp_post$1$link1 == 0))
+    tmp_post_1_link1 = cleared_link1;
+    cleared_link1 = cleared_link1 + 1;
+    if(!(tmp_post_1_link1 == 0))
       return (struct aicb *)(void *)0;
 
-    memset((void *)&ts$link1, 0, sizeof(struct timespec) /*16ul*/ );
-    ts$link1.tv_sec = (signed long int)task$link1->io_timeout_seconds;
+    memset((void *)&ts_link1, 0, sizeof(struct timespec) /*16ul*/ );
+    ts_link1.tv_sec = (signed long int)task_link1->io_timeout_seconds;
     do
     {
 
     retry:
       ;
-      memset((void *)&event$link1, 0, sizeof(struct io_event) /*32ul*/ );
-      rv$link1=io_getevents(task$link1->aio_ctx, (signed long int)1, (signed long int)1, &event$link1, &ts$link1);
+      memset((void *)&event_link1, 0, sizeof(struct io_event) /*32ul*/ );
+      rv_link1=io_getevents(task_link1->aio_ctx, (signed long int)1, (signed long int)1, &event_link1, &ts_link1);
     }
-    while(rv$link1 == -4);
-    if(!(rv$link1 >= 0))
+    while(rv_link1 == -4);
+    if(!(rv_link1 >= 0))
       return (struct aicb *)(void *)0;
 
-    if(!(rv$link1 == 1))
+    if(!(rv_link1 == 1))
       break;
 
-    ev_iocb$link1 = event$link1.obj;
-    const struct iocb *__mptr$link1 = ev_iocb$link1;
-    tmp_statement_expression$2$link1 = (struct aicb *)((char *)__mptr$link1 - (signed long int)16ul);
-    ev_aicb$link1 = tmp_statement_expression$2$link1;
-    log_level((unsigned int)0, (unsigned int)0, task$link1->name, 3, "aio collect %p:%p:%p result %ld:%ld old free", ev_aicb$link1, ev_iocb$link1, ev_aicb$link1->buf, event$link1.res, event$link1.res2);
-    ev_aicb$link1->used = 0;
-    free((void *)ev_aicb$link1->buf);
-    ev_aicb$link1->buf = (char *)(void *)0;
+    ev_iocb_link1 = event_link1.obj;
+    const struct iocb *__mptr_link1 = ev_iocb_link1;
+    tmp_statement_expression_2_link1 = (struct aicb *)((char *)__mptr_link1 - (signed long int)16ul);
+    ev_aicb_link1 = tmp_statement_expression_2_link1;
+    log_level((unsigned int)0, (unsigned int)0, task_link1->name, 3, "aio collect %p:%p:%p result %ld:%ld old free", ev_aicb_link1, ev_iocb_link1, ev_aicb_link1->buf, event_link1.res, event_link1.res2);
+    ev_aicb_link1->used = 0;
+    free((void *)ev_aicb_link1->buf);
+    ev_aicb_link1->buf = (char *)(void *)0;
   }
   while((_Bool)1);
   return (struct aicb *)(void *)0;
@@ -9472,9 +9472,9 @@ static struct aicb * find_callback_slot$link1(struct task *task$link1)
 // file lockspace.c line 90
 struct space * find_lockspace(char *name)
 {
-  struct space *return_value__search_space$1;
-  return_value__search_space$1=_search_space(name, (struct sync_disk *)(void *)0, (unsigned long int)0, &spaces, &spaces_rem, &spaces_add);
-  return return_value__search_space$1;
+  struct space *return_value__search_space_1;
+  return_value__search_space_1=_search_space(name, (struct sync_disk *)(void *)0, (unsigned long int)0, &spaces, &spaces_rem, &spaces_add);
+  return return_value__search_space_1;
 }
 
 // find_resource
@@ -9482,26 +9482,26 @@ struct space * find_lockspace(char *name)
 static struct resource * find_resource(struct token *token, struct list_head *head)
 {
   struct resource *r;
-  struct resource *tmp_statement_expression$1;
+  struct resource *tmp_statement_expression_1;
   const struct list_head *__mptr = head->next;
-  tmp_statement_expression$1 = (struct resource *)((char *)__mptr - (signed long int)0ul);
-  r = tmp_statement_expression$1;
-  struct resource *tmp_statement_expression$2;
-  for( ; !(&r->list == head); r = tmp_statement_expression$2)
+  tmp_statement_expression_1 = (struct resource *)((char *)__mptr - (signed long int)0ul);
+  r = tmp_statement_expression_1;
+  struct resource *tmp_statement_expression_2;
+  for( ; !(&r->list == head); r = tmp_statement_expression_2)
   {
-    signed int return_value_strncmp$3;
-    return_value_strncmp$3=strncmp(r->r.lockspace_name, token->r.lockspace_name, (unsigned long int)48);
-    if(return_value_strncmp$3 == 0)
+    signed int return_value_strncmp_3;
+    return_value_strncmp_3=strncmp(r->r.lockspace_name, token->r.lockspace_name, (unsigned long int)48);
+    if(return_value_strncmp_3 == 0)
     {
-      signed int return_value_strncmp$4;
-      return_value_strncmp$4=strncmp(r->r.name, token->r.name, (unsigned long int)48);
-      if(return_value_strncmp$4 == 0)
+      signed int return_value_strncmp_4;
+      return_value_strncmp_4=strncmp(r->r.name, token->r.name, (unsigned long int)48);
+      if(return_value_strncmp_4 == 0)
         return r;
 
     }
 
-    const struct list_head *find_resource$$1$$1$$2$$__mptr = r->list.next;
-    tmp_statement_expression$2 = (struct resource *)((char *)find_resource$$1$$1$$2$$__mptr - (signed long int)0ul);
+    const struct list_head *find_resource__1__1__2____mptr = r->list.next;
+    tmp_statement_expression_2 = (struct resource *)((char *)find_resource__1__1__2____mptr - (signed long int)0ul);
   }
   return (struct resource *)(void *)0;
 }
@@ -9511,18 +9511,18 @@ static struct resource * find_resource(struct token *token, struct list_head *he
 static struct resource * find_resource_flag(struct list_head *head, unsigned int flag)
 {
   struct resource *r;
-  struct resource *tmp_statement_expression$1;
-  const struct list_head *find_resource_flag$$1$$1$$1$$__mptr = head->next;
-  tmp_statement_expression$1 = (struct resource *)((char *)find_resource_flag$$1$$1$$1$$__mptr - (signed long int)0ul);
-  r = tmp_statement_expression$1;
-  struct resource *tmp_statement_expression$2;
-  for( ; !(&r->list == head); r = tmp_statement_expression$2)
+  struct resource *tmp_statement_expression_1;
+  const struct list_head *find_resource_flag__1__1__1____mptr = head->next;
+  tmp_statement_expression_1 = (struct resource *)((char *)find_resource_flag__1__1__1____mptr - (signed long int)0ul);
+  r = tmp_statement_expression_1;
+  struct resource *tmp_statement_expression_2;
+  for( ; !(&r->list == head); r = tmp_statement_expression_2)
   {
     if(!((r->flags & flag) == 0u))
       return r;
 
     const struct list_head *__mptr = r->list.next;
-    tmp_statement_expression$2 = (struct resource *)((char *)__mptr - (signed long int)0ul);
+    tmp_statement_expression_2 = (struct resource *)((char *)__mptr - (signed long int)0ul);
   }
   return (struct resource *)(void *)0;
 }
@@ -9560,16 +9560,16 @@ void free_lockspaces(signed int wait)
   struct space *safe;
   signed int rv;
   pthread_mutex_lock(&spaces_mutex);
-  struct space *tmp_statement_expression$1;
+  struct space *tmp_statement_expression_1;
   const struct list_head *__mptr = (&spaces_rem)->next;
-  tmp_statement_expression$1 = (struct space *)((char *)__mptr - (signed long int)0ul);
-  sp = tmp_statement_expression$1;
-  struct space *tmp_statement_expression$2;
-  const struct list_head *free_lockspaces$$1$$1$$2$$__mptr = sp->list.next;
-  tmp_statement_expression$2 = (struct space *)((char *)free_lockspaces$$1$$1$$2$$__mptr - (signed long int)0ul);
-  safe = tmp_statement_expression$2;
-  struct space *tmp_statement_expression$3;
-  for( ; !(&sp->list == &spaces_rem); safe = tmp_statement_expression$3)
+  tmp_statement_expression_1 = (struct space *)((char *)__mptr - (signed long int)0ul);
+  sp = tmp_statement_expression_1;
+  struct space *tmp_statement_expression_2;
+  const struct list_head *free_lockspaces__1__1__2____mptr = sp->list.next;
+  tmp_statement_expression_2 = (struct space *)((char *)free_lockspaces__1__1__2____mptr - (signed long int)0ul);
+  safe = tmp_statement_expression_2;
+  struct space *tmp_statement_expression_3;
+  for( ; !(&sp->list == &spaces_rem); safe = tmp_statement_expression_3)
   {
     rv=stop_lockspace_thread(sp, wait);
     if(rv == 0)
@@ -9580,8 +9580,8 @@ void free_lockspaces(signed int wait)
     }
 
     sp = safe;
-    const struct list_head *free_lockspaces$$1$$1$$3$$__mptr = safe->list.next;
-    tmp_statement_expression$3 = (struct space *)((char *)free_lockspaces$$1$$1$$3$$__mptr - (signed long int)0ul);
+    const struct list_head *free_lockspaces__1__1__3____mptr = safe->list.next;
+    tmp_statement_expression_3 = (struct space *)((char *)free_lockspaces__1__1__3____mptr - (signed long int)0ul);
   }
   pthread_mutex_unlock(&spaces_mutex);
 }
@@ -9602,9 +9602,9 @@ static signed int get_peer_pid(signed int fd, signed int *pid)
 {
   struct ucred cred;
   unsigned int len = (unsigned int)sizeof(struct ucred) /*12ul*/ ;
-  signed int return_value_getsockopt$1;
-  return_value_getsockopt$1=getsockopt(fd, 1, 17, (void *)&cred, &len);
-  if(!(return_value_getsockopt$1 == 0))
+  signed int return_value_getsockopt_1;
+  return_value_getsockopt_1=getsockopt(fd, 1, 17, (void *)&cred, &len);
+  if(!(return_value_getsockopt_1 == 0))
     return -1;
 
   else
@@ -9652,8 +9652,8 @@ signed int host_info(char *space_name, unsigned long int host_id, struct host_st
 {
   struct space *sp;
   signed int found = 0;
-  struct space *tmp_statement_expression$1;
-  struct space *tmp_statement_expression$2;
+  struct space *tmp_statement_expression_1;
+  struct space *tmp_statement_expression_2;
   if(host_id == 0ul || host_id >= 2001ul)
     return -22;
 
@@ -9661,21 +9661,21 @@ signed int host_info(char *space_name, unsigned long int host_id, struct host_st
   {
     pthread_mutex_lock(&spaces_mutex);
     const struct list_head *__mptr = (&spaces)->next;
-    tmp_statement_expression$1 = (struct space *)((char *)__mptr - (signed long int)0ul);
-    sp = tmp_statement_expression$1;
-    for( ; !(&sp->list == &spaces); sp = tmp_statement_expression$2)
+    tmp_statement_expression_1 = (struct space *)((char *)__mptr - (signed long int)0ul);
+    sp = tmp_statement_expression_1;
+    for( ; !(&sp->list == &spaces); sp = tmp_statement_expression_2)
     {
-      signed int return_value_strncmp$3;
-      return_value_strncmp$3=strncmp(sp->space_name, space_name, (unsigned long int)48);
-      if(return_value_strncmp$3 == 0)
+      signed int return_value_strncmp_3;
+      return_value_strncmp_3=strncmp(sp->space_name, space_name, (unsigned long int)48);
+      if(return_value_strncmp_3 == 0)
       {
         memcpy((void *)hs_out, (const void *)&sp->host_status[(signed long int)(host_id - (unsigned long int)1)], sizeof(struct host_status) /*64ul*/ );
         found = 1;
         break;
       }
 
-      const struct list_head *host_info$$1$$1$$2$$__mptr = sp->list.next;
-      tmp_statement_expression$2 = (struct space *)((char *)host_info$$1$$1$$2$$__mptr - (signed long int)0ul);
+      const struct list_head *host_info__1__1__2____mptr = sp->list.next;
+      tmp_statement_expression_2 = (struct space *)((char *)host_info__1__1__2____mptr - (signed long int)0ul);
     }
     pthread_mutex_unlock(&spaces_mutex);
     if(found == 0)
@@ -9765,8 +9765,8 @@ signed int host_status_set_bit(char *space_name, unsigned long int host_id)
 {
   struct space *sp;
   signed int found = 0;
-  struct space *tmp_statement_expression$1;
-  struct space *tmp_statement_expression$2;
+  struct space *tmp_statement_expression_1;
+  struct space *tmp_statement_expression_2;
   if(host_id == 0ul || host_id >= 2001ul)
     return -22;
 
@@ -9774,20 +9774,20 @@ signed int host_status_set_bit(char *space_name, unsigned long int host_id)
   {
     pthread_mutex_lock(&spaces_mutex);
     const struct list_head *__mptr = (&spaces)->next;
-    tmp_statement_expression$1 = (struct space *)((char *)__mptr - (signed long int)0ul);
-    sp = tmp_statement_expression$1;
-    for( ; !(&sp->list == &spaces); sp = tmp_statement_expression$2)
+    tmp_statement_expression_1 = (struct space *)((char *)__mptr - (signed long int)0ul);
+    sp = tmp_statement_expression_1;
+    for( ; !(&sp->list == &spaces); sp = tmp_statement_expression_2)
     {
-      signed int return_value_strncmp$3;
-      return_value_strncmp$3=strncmp(sp->space_name, space_name, (unsigned long int)48);
-      if(return_value_strncmp$3 == 0)
+      signed int return_value_strncmp_3;
+      return_value_strncmp_3=strncmp(sp->space_name, space_name, (unsigned long int)48);
+      if(return_value_strncmp_3 == 0)
       {
         found = 1;
         break;
       }
 
-      const struct list_head *host_status_set_bit$$1$$1$$2$$__mptr = sp->list.next;
-      tmp_statement_expression$2 = (struct space *)((char *)host_status_set_bit$$1$$1$$2$$__mptr - (signed long int)0ul);
+      const struct list_head *host_status_set_bit__1__1__2____mptr = sp->list.next;
+      tmp_statement_expression_2 = (struct space *)((char *)host_status_set_bit__1__1__2____mptr - (signed long int)0ul);
     }
     pthread_mutex_unlock(&spaces_mutex);
     if(found == 0)
@@ -9841,7 +9841,7 @@ static void kill_pids(struct space *sp)
   signed int pid;
   signed int sig;
   signed int do_kill;
-  signed int return_value_client_using_space$1;
+  signed int return_value_client_using_space_1;
   if(!(sp->killing_pids >= 2))
   {
     now=monotime();
@@ -9864,8 +9864,8 @@ static void kill_pids(struct space *sp)
 
             }
 
-            return_value_client_using_space$1=client_using_space(cl, sp);
-            if(!(return_value_client_using_space$1 == 0))
+            return_value_client_using_space_1=client_using_space(cl, sp);
+            if(!(return_value_client_using_space_1 == 0))
             {
               cl->kill_last = now;
               cl->kill_count = cl->kill_count + 1;
@@ -9916,31 +9916,31 @@ static void kill_pids(struct space *sp)
 // file paxos_lease.h line 16
 unsigned int leader_checksum(struct leader_record *lr)
 {
-  unsigned int return_value_crc32c$1;
-  return_value_crc32c$1=crc32c((unsigned int)~1, (unsigned char *)lr, (unsigned long int)168);
-  return return_value_crc32c$1;
+  unsigned int return_value_crc32c_1;
+  return_value_crc32c_1=crc32c((unsigned int)~1, (unsigned char *)lr, (unsigned long int)168);
+  return return_value_crc32c_1;
 }
 
 // leaders_match
 // file paxos_lease.c line 684
 static signed int leaders_match(struct leader_record *a, struct leader_record *b)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)a, (const void *)b, (unsigned long int)152);
-  if(return_value_memcmp$1 == 0)
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)a, (const void *)b, (unsigned long int)152);
+  if(return_value_memcmp_1 == 0)
     return 1;
 
   else
     return 0;
 }
 
-// leaders_match$link1
+// leaders_match_link1
 // file paxos_lease.c line 684
-static signed int leaders_match$link1(struct leader_record *a$link1, struct leader_record *b$link1)
+static signed int leaders_match_link1(struct leader_record *a_link1, struct leader_record *b_link1)
 {
-  signed int return_value_memcmp$1$link1;
-  return_value_memcmp$1$link1=memcmp((const void *)a$link1, (const void *)b$link1, (unsigned long int)152);
-  if(return_value_memcmp$1$link1 == 0)
+  signed int return_value_memcmp_1_link1;
+  return_value_memcmp_1_link1=memcmp((const void *)a_link1, (const void *)b_link1, (unsigned long int)152);
+  if(return_value_memcmp_1_link1 == 0)
     return 1;
 
   else
@@ -9954,25 +9954,25 @@ static inline void list_add(struct list_head *new, struct list_head *head)
   __list_add(new, head, head->next);
 }
 
-// list_add$link1
+// list_add_link1
 // file list.h line 70
-static inline void list_add$link1(struct list_head *new$link1, struct list_head *head$link1)
+static inline void list_add_link1(struct list_head *new_link1, struct list_head *head_link1)
 {
-  __list_add$link1(new$link1, head$link1, head$link1->next);
+  __list_add_link1(new_link1, head_link1, head_link1->next);
 }
 
-// list_add$link2
+// list_add_link2
 // file list.h line 70
-static inline void list_add$link2(struct list_head *new$link2, struct list_head *head$link2)
+static inline void list_add_link2(struct list_head *new_link2, struct list_head *head_link2)
 {
-  __list_add$link2(new$link2, head$link2, head$link2->next);
+  __list_add_link2(new_link2, head_link2, head_link2->next);
 }
 
 // list_add_tail
 // file list.h line 84
 static inline void list_add_tail(struct list_head *new, struct list_head *head)
 {
-  __list_add$link1(new, head->prev, head);
+  __list_add_link1(new, head->prev, head);
 }
 
 // list_del
@@ -9984,22 +9984,22 @@ static inline void list_del(struct list_head *entry)
   entry->prev = (struct list_head *)(void *)0x00200200;
 }
 
-// list_del$link1
+// list_del_link1
 // file list.h line 108
-static inline void list_del$link1(struct list_head *entry$link1)
+static inline void list_del_link1(struct list_head *entry_link1)
 {
-  __list_del$link1(entry$link1->prev, entry$link1->next);
-  entry$link1->next = (struct list_head *)(void *)0x00100100;
-  entry$link1->prev = (struct list_head *)(void *)0x00200200;
+  __list_del_link1(entry_link1->prev, entry_link1->next);
+  entry_link1->next = (struct list_head *)(void *)0x00100100;
+  entry_link1->prev = (struct list_head *)(void *)0x00200200;
 }
 
-// list_del$link2
+// list_del_link2
 // file list.h line 108
-static inline void list_del$link2(struct list_head *entry$link2)
+static inline void list_del_link2(struct list_head *entry_link2)
 {
-  __list_del$link2(entry$link2->prev, entry$link2->next);
-  entry$link2->next = (struct list_head *)(void *)0x00100100;
-  entry$link2->prev = (struct list_head *)(void *)0x00200200;
+  __list_del_link2(entry_link2->prev, entry_link2->next);
+  entry_link2->next = (struct list_head *)(void *)0x00100100;
+  entry_link2->prev = (struct list_head *)(void *)0x00200200;
 }
 
 // list_empty
@@ -10009,18 +10009,18 @@ static inline signed int list_empty(struct list_head *head)
   return (signed int)(head->next == head);
 }
 
-// list_empty$link1
+// list_empty_link1
 // file list.h line 186
-static inline signed int list_empty$link1(struct list_head *head$link1)
+static inline signed int list_empty_link1(struct list_head *head_link1)
 {
-  return (signed int)(head$link1->next == head$link1);
+  return (signed int)(head_link1->next == head_link1);
 }
 
-// list_empty$link2
+// list_empty_link2
 // file list.h line 186
-static inline signed int list_empty$link2(struct list_head *head$link2)
+static inline signed int list_empty_link2(struct list_head *head_link2)
 {
-  return (signed int)(head$link2->next == head$link2);
+  return (signed int)(head_link2->next == head_link2);
 }
 
 // list_move
@@ -10031,20 +10031,20 @@ static inline void list_move(struct list_head *list, struct list_head *head)
   list_add(list, head);
 }
 
-// list_move$link1
+// list_move_link1
 // file list.h line 153
-static inline void list_move$link1(struct list_head *list$link1, struct list_head *head$link1)
+static inline void list_move_link1(struct list_head *list_link1, struct list_head *head_link1)
 {
-  __list_del$link1(list$link1->prev, list$link1->next);
-  list_add$link1(list$link1, head$link1);
+  __list_del_link1(list_link1->prev, list_link1->next);
+  list_add_link1(list_link1, head_link1);
 }
 
-// list_move$link2
+// list_move_link2
 // file list.h line 153
-static inline void list_move$link2(struct list_head *list$link2, struct list_head *head$link2)
+static inline void list_move_link2(struct list_head *list_link2, struct list_head *head_link2)
 {
-  __list_del$link2(list$link2->prev, list$link2->next);
-  list_add$link2(list$link2, head$link2);
+  __list_del_link2(list_link2->prev, list_link2->next);
+  list_add_link2(list_link2, head_link2);
 }
 
 // lockfile
@@ -10059,11 +10059,11 @@ signed int lockfile(const char *dir, const char *name)
   signed int rv;
   old_umask=umask((unsigned int)0022);
   rv=mkdir("/var/run/sanlock", (unsigned int)0777);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(!(rv >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 17)
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 17)
       goto __CPROVER_DUMP_L1;
 
     umask(old_umask);
@@ -10080,11 +10080,11 @@ signed int lockfile(const char *dir, const char *name)
     fd=open(path, 0100 | 01 | 02000000, 0644);
     if(!(fd >= 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "lockfile open error %s: %s", (const void *)path, return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "lockfile open error %s: %s", (const void *)path, return_value_strerror_3);
       return -1;
     }
 
@@ -10095,41 +10095,41 @@ signed int lockfile(const char *dir, const char *name)
     rv=fcntl(fd, 6, &lock);
     if(!(rv >= 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "lockfile setlk error %s: %s", (const void *)path, return_value_strerror$5);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "lockfile setlk error %s: %s", (const void *)path, return_value_strerror_5);
       goto fail;
     }
 
     rv=ftruncate(fd, (signed long int)0);
     if(!(rv >= 0))
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      char *return_value_strerror$7;
-      return_value_strerror$7=strerror(*return_value___errno_location$6);
-      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "lockfile truncate error %s: %s", (const void *)path, return_value_strerror$7);
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      char *return_value_strerror_7;
+      return_value_strerror_7=strerror(*return_value___errno_location_6);
+      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "lockfile truncate error %s: %s", (const void *)path, return_value_strerror_7);
       goto fail;
     }
 
     memset((void *)buf, 0, sizeof(char [16l]) /*16ul*/ );
-    signed int return_value_getpid$8;
-    return_value_getpid$8=getpid();
-    snprintf(buf, sizeof(char [16l]) /*16ul*/ , "%d\n", return_value_getpid$8);
-    unsigned long int return_value_strlen$9;
-    return_value_strlen$9=strlen(buf);
-    signed long int return_value_write$10;
-    return_value_write$10=write(fd, (const void *)buf, return_value_strlen$9);
-    rv = (signed int)return_value_write$10;
+    signed int return_value_getpid_8;
+    return_value_getpid_8=getpid();
+    snprintf(buf, sizeof(char [16l]) /*16ul*/ , "%d\n", return_value_getpid_8);
+    unsigned long int return_value_strlen_9;
+    return_value_strlen_9=strlen(buf);
+    signed long int return_value_write_10;
+    return_value_write_10=write(fd, (const void *)buf, return_value_strlen_9);
+    rv = (signed int)return_value_write_10;
     if(!(rv >= 1))
     {
-      signed int *return_value___errno_location$11;
-      return_value___errno_location$11=__errno_location();
-      char *return_value_strerror$12;
-      return_value_strerror$12=strerror(*return_value___errno_location$11);
-      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "lockfile write error %s: %s", (const void *)path, return_value_strerror$12);
+      signed int *return_value___errno_location_11;
+      return_value___errno_location_11=__errno_location();
+      char *return_value_strerror_12;
+      return_value_strerror_12=strerror(*return_value___errno_location_11);
+      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "lockfile write error %s: %s", (const void *)path, return_value_strerror_12);
       goto fail;
     }
 
@@ -10177,50 +10177,50 @@ signed int lockspace_is_used(struct sanlk_lockspace *ls)
 {
   struct resource *r;
   pthread_mutex_lock(&resource_mutex);
-  struct resource *tmp_statement_expression$1;
+  struct resource *tmp_statement_expression_1;
   const struct list_head *__mptr = (&resources_held)->next;
-  tmp_statement_expression$1 = (struct resource *)((char *)__mptr - (signed long int)0ul);
-  r = tmp_statement_expression$1;
-  struct resource *tmp_statement_expression$2;
-  for( ; !(&r->list == &resources_held); r = tmp_statement_expression$2)
+  tmp_statement_expression_1 = (struct resource *)((char *)__mptr - (signed long int)0ul);
+  r = tmp_statement_expression_1;
+  struct resource *tmp_statement_expression_2;
+  for( ; !(&r->list == &resources_held); r = tmp_statement_expression_2)
   {
-    signed int return_value_strncmp$3;
-    return_value_strncmp$3=strncmp(r->r.lockspace_name, ls->name, (unsigned long int)48);
-    if(return_value_strncmp$3 == 0)
+    signed int return_value_strncmp_3;
+    return_value_strncmp_3=strncmp(r->r.lockspace_name, ls->name, (unsigned long int)48);
+    if(return_value_strncmp_3 == 0)
       goto yes;
 
-    const struct list_head *lockspace_is_used$$1$$1$$2$$__mptr = r->list.next;
-    tmp_statement_expression$2 = (struct resource *)((char *)lockspace_is_used$$1$$1$$2$$__mptr - (signed long int)0ul);
+    const struct list_head *lockspace_is_used__1__1__2____mptr = r->list.next;
+    tmp_statement_expression_2 = (struct resource *)((char *)lockspace_is_used__1__1__2____mptr - (signed long int)0ul);
   }
-  struct resource *tmp_statement_expression$4;
-  const struct list_head *lockspace_is_used$$1$$2$$1$$__mptr = (&resources_add)->next;
-  tmp_statement_expression$4 = (struct resource *)((char *)lockspace_is_used$$1$$2$$1$$__mptr - (signed long int)0ul);
-  r = tmp_statement_expression$4;
-  struct resource *tmp_statement_expression$5;
-  for( ; !(&r->list == &resources_add); r = tmp_statement_expression$5)
+  struct resource *tmp_statement_expression_4;
+  const struct list_head *lockspace_is_used__1__2__1____mptr = (&resources_add)->next;
+  tmp_statement_expression_4 = (struct resource *)((char *)lockspace_is_used__1__2__1____mptr - (signed long int)0ul);
+  r = tmp_statement_expression_4;
+  struct resource *tmp_statement_expression_5;
+  for( ; !(&r->list == &resources_add); r = tmp_statement_expression_5)
   {
-    signed int return_value_strncmp$6;
-    return_value_strncmp$6=strncmp(r->r.lockspace_name, ls->name, (unsigned long int)48);
-    if(return_value_strncmp$6 == 0)
+    signed int return_value_strncmp_6;
+    return_value_strncmp_6=strncmp(r->r.lockspace_name, ls->name, (unsigned long int)48);
+    if(return_value_strncmp_6 == 0)
       goto yes;
 
-    const struct list_head *lockspace_is_used$$1$$2$$2$$__mptr = r->list.next;
-    tmp_statement_expression$5 = (struct resource *)((char *)lockspace_is_used$$1$$2$$2$$__mptr - (signed long int)0ul);
+    const struct list_head *lockspace_is_used__1__2__2____mptr = r->list.next;
+    tmp_statement_expression_5 = (struct resource *)((char *)lockspace_is_used__1__2__2____mptr - (signed long int)0ul);
   }
-  struct resource *tmp_statement_expression$7;
-  const struct list_head *lockspace_is_used$$1$$3$$1$$__mptr = (&resources_rem)->next;
-  tmp_statement_expression$7 = (struct resource *)((char *)lockspace_is_used$$1$$3$$1$$__mptr - (signed long int)0ul);
-  r = tmp_statement_expression$7;
-  struct resource *tmp_statement_expression$8;
-  for( ; !(&r->list == &resources_rem); r = tmp_statement_expression$8)
+  struct resource *tmp_statement_expression_7;
+  const struct list_head *lockspace_is_used__1__3__1____mptr = (&resources_rem)->next;
+  tmp_statement_expression_7 = (struct resource *)((char *)lockspace_is_used__1__3__1____mptr - (signed long int)0ul);
+  r = tmp_statement_expression_7;
+  struct resource *tmp_statement_expression_8;
+  for( ; !(&r->list == &resources_rem); r = tmp_statement_expression_8)
   {
-    signed int return_value_strncmp$9;
-    return_value_strncmp$9=strncmp(r->r.lockspace_name, ls->name, (unsigned long int)48);
-    if(return_value_strncmp$9 == 0)
+    signed int return_value_strncmp_9;
+    return_value_strncmp_9=strncmp(r->r.lockspace_name, ls->name, (unsigned long int)48);
+    if(return_value_strncmp_9 == 0)
       goto yes;
 
-    const struct list_head *lockspace_is_used$$1$$3$$2$$__mptr = r->list.next;
-    tmp_statement_expression$8 = (struct resource *)((char *)lockspace_is_used$$1$$3$$2$$__mptr - (signed long int)0ul);
+    const struct list_head *lockspace_is_used__1__3__2____mptr = r->list.next;
+    tmp_statement_expression_8 = (struct resource *)((char *)lockspace_is_used__1__3__2____mptr - (signed long int)0ul);
   }
   pthread_mutex_unlock(&resource_mutex);
   return 0;
@@ -10256,8 +10256,8 @@ static void * lockspace_thread(void *arg_in)
   memcpy((void *)task.name, (const void *)sp->space_name, (unsigned long int)48);
   delta_begin=monotime();
   rv=open_disk(&sp->host_id_disk);
-  void *return_value_malloc$1;
-  unsigned long int return_value_monotime$2;
+  void *return_value_malloc_1;
+  unsigned long int return_value_monotime_2;
   if(!(rv >= 0))
   {
     log_level(sp->space_id, (unsigned int)0, (char *)(void *)0, 3, "open_disk %s error %d", (const void *)sp->host_id_disk.path, rv);
@@ -10278,8 +10278,8 @@ static void * lockspace_thread(void *arg_in)
 
     else
     {
-      return_value_malloc$1=malloc((unsigned long int)sp->align_size);
-      sp->lease_status.renewal_read_buf = (char *)return_value_malloc$1;
+      return_value_malloc_1=malloc((unsigned long int)sp->align_size);
+      sp->lease_status.renewal_read_buf = (char *)return_value_malloc_1;
       if(sp->lease_status.renewal_read_buf == ((char *)NULL))
       {
         acquire_result = -12;
@@ -10290,8 +10290,8 @@ static void * lockspace_thread(void *arg_in)
       {
         delta_begin=monotime();
         delta_result=delta_lease_acquire(&task, sp, &sp->host_id_disk, sp->space_name, our_host_name_global, sp->host_id, &leader);
-        return_value_monotime$2=monotime();
-        delta_length = (signed int)(return_value_monotime$2 - delta_begin);
+        return_value_monotime_2=monotime();
+        delta_length = (signed int)(return_value_monotime_2 - delta_begin);
         if(delta_result == 1)
           last_success = leader.timestamp;
 
@@ -10336,9 +10336,9 @@ set_status:
       if(!(stop == 0))
         break;
 
-      unsigned long int return_value_monotime$3;
-      return_value_monotime$3=monotime();
-      if(!(return_value_monotime$3 + -last_success >= (unsigned long int)task.id_renewal_seconds))
+      unsigned long int return_value_monotime_3;
+      return_value_monotime_3=monotime();
+      if(!(return_value_monotime_3 + -last_success >= (unsigned long int)task.id_renewal_seconds))
       {
         sleep((unsigned int)1);
         continue;
@@ -10350,9 +10350,9 @@ set_status:
       create_bitmap(&task, sp, bitmap);
       delta_begin=monotime();
       delta_result=delta_lease_renew(&task, sp, &sp->host_id_disk, sp->space_name, bitmap, delta_result, &read_result, &leader, &leader);
-      unsigned long int return_value_monotime$4;
-      return_value_monotime$4=monotime();
-      delta_length = (signed int)(return_value_monotime$4 - delta_begin);
+      unsigned long int return_value_monotime_4;
+      return_value_monotime_4=monotime();
+      delta_length = (signed int)(return_value_monotime_4 - delta_begin);
       if(delta_result == 1)
       {
         renewal_interval = (signed int)(leader.timestamp - last_success);
@@ -10424,36 +10424,36 @@ static void log_leader_error(signed int result, char *space_name, unsigned long 
   log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "leader4 sn %.48s rn %.48s ts %llu cs %x", (const void *)lr->space_name, (const void *)lr->resource_name, (unsigned long long int)lr->timestamp, lr->checksum);
 }
 
-// log_leader_error$link1
+// log_leader_error_link1
 // file paxos_lease.c line 568
-static void log_leader_error$link1(signed int result$link1, struct token *token, struct sync_disk *disk$link1, struct leader_record *lr$link1, const char *caller$link1)
+static void log_leader_error_link1(signed int result_link1, struct token *token, struct sync_disk *disk_link1, struct leader_record *lr_link1, const char *caller_link1)
 {
-  log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "leader1 %s error %d sn %.48s rn %.48s", caller$link1 != ((const char *)NULL) ? caller$link1 : "unknown", result$link1, (const void *)token->r.lockspace_name, (const void *)token->r.name);
-  log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "leader2 path %s offset %llu fd %d", (const void *)disk$link1->path, (unsigned long long int)disk$link1->offset, disk$link1->fd);
-  log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "leader3 m %x v %x ss %u nh %llu mh %llu oi %llu og %llu lv %llu", lr$link1->magic, lr$link1->version, lr$link1->sector_size, (unsigned long long int)lr$link1->num_hosts, (unsigned long long int)lr$link1->max_hosts, (unsigned long long int)lr$link1->owner_id, (unsigned long long int)lr$link1->owner_generation, (unsigned long long int)lr$link1->lver);
-  log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "leader4 sn %.48s rn %.48s ts %llu cs %x", (const void *)lr$link1->space_name, (const void *)lr$link1->resource_name, (unsigned long long int)lr$link1->timestamp, lr$link1->checksum);
-  log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "leader5 wi %llu wg %llu wt %llu", (unsigned long long int)lr$link1->write_id, (unsigned long long int)lr$link1->write_generation, (unsigned long long int)lr$link1->write_timestamp);
+  log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "leader1 %s error %d sn %.48s rn %.48s", caller_link1 != ((const char *)NULL) ? caller_link1 : "unknown", result_link1, (const void *)token->r.lockspace_name, (const void *)token->r.name);
+  log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "leader2 path %s offset %llu fd %d", (const void *)disk_link1->path, (unsigned long long int)disk_link1->offset, disk_link1->fd);
+  log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "leader3 m %x v %x ss %u nh %llu mh %llu oi %llu og %llu lv %llu", lr_link1->magic, lr_link1->version, lr_link1->sector_size, (unsigned long long int)lr_link1->num_hosts, (unsigned long long int)lr_link1->max_hosts, (unsigned long long int)lr_link1->owner_id, (unsigned long long int)lr_link1->owner_generation, (unsigned long long int)lr_link1->lver);
+  log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "leader4 sn %.48s rn %.48s ts %llu cs %x", (const void *)lr_link1->space_name, (const void *)lr_link1->resource_name, (unsigned long long int)lr_link1->timestamp, lr_link1->checksum);
+  log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "leader5 wi %llu wg %llu wt %llu", (unsigned long long int)lr_link1->write_id, (unsigned long long int)lr_link1->write_generation, (unsigned long long int)lr_link1->write_timestamp);
 }
 
-// log_leader_error$link1$link1
+// log_leader_error_link1_link1
 // file paxos_lease.c line 568
-static void log_leader_error$link1$link1(signed int result$link1$link1, struct token *token$link1, struct sync_disk *disk$link1$link1, struct leader_record *lr$link1$link1, const char *caller$link1$link1)
+static void log_leader_error_link1_link1(signed int result_link1_link1, struct token *token_link1, struct sync_disk *disk_link1_link1, struct leader_record *lr_link1_link1, const char *caller_link1_link1)
 {
-  log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "leader1 %s error %d sn %.48s rn %.48s", caller$link1$link1 != ((const char *)NULL) ? caller$link1$link1 : "unknown", result$link1$link1, (const void *)token$link1->r.lockspace_name, (const void *)token$link1->r.name);
-  log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "leader2 path %s offset %llu fd %d", (const void *)disk$link1$link1->path, (unsigned long long int)disk$link1$link1->offset, disk$link1$link1->fd);
-  log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "leader3 m %x v %x ss %u nh %llu mh %llu oi %llu og %llu lv %llu", lr$link1$link1->magic, lr$link1$link1->version, lr$link1$link1->sector_size, (unsigned long long int)lr$link1$link1->num_hosts, (unsigned long long int)lr$link1$link1->max_hosts, (unsigned long long int)lr$link1$link1->owner_id, (unsigned long long int)lr$link1$link1->owner_generation, (unsigned long long int)lr$link1$link1->lver);
-  log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "leader4 sn %.48s rn %.48s ts %llu cs %x", (const void *)lr$link1$link1->space_name, (const void *)lr$link1$link1->resource_name, (unsigned long long int)lr$link1$link1->timestamp, lr$link1$link1->checksum);
-  log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "leader5 wi %llu wg %llu wt %llu", (unsigned long long int)lr$link1$link1->write_id, (unsigned long long int)lr$link1$link1->write_generation, (unsigned long long int)lr$link1$link1->write_timestamp);
+  log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "leader1 %s error %d sn %.48s rn %.48s", caller_link1_link1 != ((const char *)NULL) ? caller_link1_link1 : "unknown", result_link1_link1, (const void *)token_link1->r.lockspace_name, (const void *)token_link1->r.name);
+  log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "leader2 path %s offset %llu fd %d", (const void *)disk_link1_link1->path, (unsigned long long int)disk_link1_link1->offset, disk_link1_link1->fd);
+  log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "leader3 m %x v %x ss %u nh %llu mh %llu oi %llu og %llu lv %llu", lr_link1_link1->magic, lr_link1_link1->version, lr_link1_link1->sector_size, (unsigned long long int)lr_link1_link1->num_hosts, (unsigned long long int)lr_link1_link1->max_hosts, (unsigned long long int)lr_link1_link1->owner_id, (unsigned long long int)lr_link1_link1->owner_generation, (unsigned long long int)lr_link1_link1->lver);
+  log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "leader4 sn %.48s rn %.48s ts %llu cs %x", (const void *)lr_link1_link1->space_name, (const void *)lr_link1_link1->resource_name, (unsigned long long int)lr_link1_link1->timestamp, lr_link1_link1->checksum);
+  log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "leader5 wi %llu wg %llu wt %llu", (unsigned long long int)lr_link1_link1->write_id, (unsigned long long int)lr_link1_link1->write_generation, (unsigned long long int)lr_link1_link1->write_timestamp);
 }
 
-// log_leader_error$link2
+// log_leader_error_link2
 // file delta_lease.c line 44
-static void log_leader_error$link2(signed int result$link2, char *space_name$link1, unsigned long int host_id$link1, struct sync_disk *disk$link2, struct leader_record *lr$link2, const char *caller$link2)
+static void log_leader_error_link2(signed int result_link2, char *space_name_link1, unsigned long int host_id_link1, struct sync_disk *disk_link2, struct leader_record *lr_link2, const char *caller_link2)
 {
-  log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "leader1 %s error %d lockspace %.48s host_id %llu", caller$link2 != ((const char *)NULL) ? caller$link2 : "unknown", result$link2, space_name$link1, (unsigned long long int)host_id$link1);
-  log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "leader2 path %s offset %llu", (const void *)disk$link2->path, (unsigned long long int)disk$link2->offset);
-  log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "leader3 m %x v %x ss %u nh %llu mh %llu oi %llu og %llu lv %llu", lr$link2->magic, lr$link2->version, lr$link2->sector_size, (unsigned long long int)lr$link2->num_hosts, (unsigned long long int)lr$link2->max_hosts, (unsigned long long int)lr$link2->owner_id, (unsigned long long int)lr$link2->owner_generation, (unsigned long long int)lr$link2->lver);
-  log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "leader4 sn %.48s rn %.48s ts %llu cs %x", (const void *)lr$link2->space_name, (const void *)lr$link2->resource_name, (unsigned long long int)lr$link2->timestamp, lr$link2->checksum);
+  log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "leader1 %s error %d lockspace %.48s host_id %llu", caller_link2 != ((const char *)NULL) ? caller_link2 : "unknown", result_link2, space_name_link1, (unsigned long long int)host_id_link1);
+  log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "leader2 path %s offset %llu", (const void *)disk_link2->path, (unsigned long long int)disk_link2->offset);
+  log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "leader3 m %x v %x ss %u nh %llu mh %llu oi %llu og %llu lv %llu", lr_link2->magic, lr_link2->version, lr_link2->sector_size, (unsigned long long int)lr_link2->num_hosts, (unsigned long long int)lr_link2->max_hosts, (unsigned long long int)lr_link2->owner_id, (unsigned long long int)lr_link2->owner_generation, (unsigned long long int)lr_link2->lver);
+  log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "leader4 sn %.48s rn %.48s ts %llu cs %x", (const void *)lr_link2->space_name, (const void *)lr_link2->resource_name, (unsigned long long int)lr_link2->timestamp, lr_link2->checksum);
 }
 
 // log_level
@@ -10482,9 +10482,9 @@ void log_level(unsigned int space_id, unsigned int token_id, char *name_in, sign
           snprintf(name, (unsigned long int)48, "%.8s ", name_in);
 
   pthread_mutex_lock(&log_mutex);
-  unsigned long int return_value_monotime$1;
-  return_value_monotime$1=monotime();
-  ret=snprintf(log_str + (signed long int)pos, (unsigned long int)(len - pos), "%llu %s", (unsigned long long int)return_value_monotime$1, (const void *)name);
+  unsigned long int return_value_monotime_1;
+  return_value_monotime_1=monotime();
+  ret=snprintf(log_str + (signed long int)pos, (unsigned long int)(len - pos), "%llu %s", (unsigned long long int)return_value_monotime_1, (const void *)name);
   pos = pos + ret;
   ap = (void **)&fmt;
   ret=vsnprintf(log_str + (signed long int)pos, (unsigned long int)(len - pos), fmt, ap);
@@ -10494,12 +10494,12 @@ void log_level(unsigned int space_id, unsigned int token_id, char *name_in, sign
 
   else
     pos = pos + ret;
-  signed int tmp_post$2 = pos;
+  signed int tmp_post_2 = pos;
   pos = pos + 1;
-  log_str[(signed long int)tmp_post$2] = (char)10;
-  signed int tmp_post$3 = pos;
+  log_str[(signed long int)tmp_post_2] = (char)10;
+  signed int tmp_post_3 = pos;
   pos = pos + 1;
-  log_str[(signed long int)tmp_post$3] = (char)0;
+  log_str[(signed long int)tmp_post_3] = (char)0;
   _log_save_dump(level, pos - 1);
   if(log_logfile_priority >= level || log_syslog_priority >= level)
     _log_save_ent(level, pos);
@@ -10519,7 +10519,7 @@ static void * log_thread_fn(void *arg)
   struct entry *e;
   signed int level;
   signed int prev_dropped = 0;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   while((_Bool)1)
   {
     pthread_mutex_lock(&log_mutex);
@@ -10533,9 +10533,9 @@ static void * log_thread_fn(void *arg)
 
       pthread_cond_wait(&log_cond, &log_mutex);
     }
-    tmp_post$1 = log_tail_ent;
+    tmp_post_1 = log_tail_ent;
     log_tail_ent = log_tail_ent + 1u;
-    e = &log_ents[(signed long int)tmp_post$1];
+    e = &log_ents[(signed long int)tmp_post_1];
     log_tail_ent = log_tail_ent % log_num_ents;
     log_pending_ents = log_pending_ents - 1u;
     memcpy((void *)str, (const void *)e->str, (unsigned long int)512);
@@ -10562,7 +10562,7 @@ out:
 signed int main(signed int argc, char **argv)
 {
   signed int rv;
-  pthread_mutex_init(&spaces_mutex, (const union anonymous$5 *)(void *)0);
+  pthread_mutex_init(&spaces_mutex, (const union anonymous_5 *)(void *)0);
   INIT_LIST_HEAD(&spaces);
   INIT_LIST_HEAD(&spaces_rem);
   INIT_LIST_HEAD(&spaces_add);
@@ -10623,19 +10623,19 @@ static signed int main_loop(void)
   gettimeofday(&last_check, (struct timezone *)(void *)0);
   poll_timeout = 1000;
   check_interval = 1000;
-  signed int *return_value___errno_location$1;
-  struct space *tmp_statement_expression$2;
-  struct space *tmp_statement_expression$3;
-  signed int return_value_all_pids_dead$5;
-  _Bool tmp_if_expr$7;
-  struct space *tmp_statement_expression$4;
+  signed int *return_value___errno_location_1;
+  struct space *tmp_statement_expression_2;
+  struct space *tmp_statement_expression_3;
+  signed int return_value_all_pids_dead_5;
+  _Bool tmp_if_expr_7;
+  struct space *tmp_statement_expression_4;
   while((_Bool)1)
   {
     rv=poll(pollfd, (unsigned long int)(client_maxi + 1), poll_timeout);
     if(rv == -1)
     {
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 4)
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 4)
         continue;
 
     }
@@ -10673,17 +10673,17 @@ static signed int main_loop(void)
       check_interval = 1000;
       pthread_mutex_lock(&spaces_mutex);
       const struct list_head *__mptr = (&spaces)->next;
-      tmp_statement_expression$2 = (struct space *)((char *)__mptr - (signed long int)0ul);
-      sp = tmp_statement_expression$2;
-      const struct list_head *main_loop$$1$$1$$4$$2$$__mptr = sp->list.next;
-      tmp_statement_expression$3 = (struct space *)((char *)main_loop$$1$$1$$4$$2$$__mptr - (signed long int)0ul);
-      safe = tmp_statement_expression$3;
-      for( ; !(&sp->list == &spaces); safe = tmp_statement_expression$4)
+      tmp_statement_expression_2 = (struct space *)((char *)__mptr - (signed long int)0ul);
+      sp = tmp_statement_expression_2;
+      const struct list_head *main_loop__1__1__4__2____mptr = sp->list.next;
+      tmp_statement_expression_3 = (struct space *)((char *)main_loop__1__1__4__2____mptr - (signed long int)0ul);
+      safe = tmp_statement_expression_3;
+      for( ; !(&sp->list == &spaces); safe = tmp_statement_expression_4)
       {
         if(!(sp->killing_pids == 0))
         {
-          return_value_all_pids_dead$5=all_pids_dead(sp);
-          if(return_value_all_pids_dead$5 == 0)
+          return_value_all_pids_dead_5=all_pids_dead(sp);
+          if(return_value_all_pids_dead_5 == 0)
             goto __CPROVER_DUMP_L9;
 
           log_level(sp->space_id, (unsigned int)0, (char *)(void *)0, 7, "set thread_stop");
@@ -10691,7 +10691,7 @@ static signed int main_loop(void)
           sp->thread_stop = 1;
           unlink_watchdog_file(sp);
           pthread_mutex_unlock(&sp->mutex);
-          list_move$link1(&sp->list, &spaces_rem);
+          list_move_link1(&sp->list, &spaces_rem);
         }
 
         else
@@ -10713,9 +10713,9 @@ static signed int main_loop(void)
                 free((void *)check_buf);
 
               check_buf_len = sp->align_size;
-              void *return_value_malloc$6;
-              return_value_malloc$6=malloc((unsigned long int)check_buf_len);
-              check_buf = (char *)return_value_malloc$6;
+              void *return_value_malloc_6;
+              return_value_malloc_6=malloc((unsigned long int)check_buf_len);
+              check_buf = (char *)return_value_malloc_6;
             }
 
             if(!(check_buf == ((char *)NULL)))
@@ -10724,11 +10724,11 @@ static signed int main_loop(void)
             check_all = 0;
             rv=check_our_lease(&main_task, sp, &check_all, check_buf);
             if(!(rv == 0))
-              tmp_if_expr$7 = (_Bool)1;
+              tmp_if_expr_7 = (_Bool)1;
 
             else
-              tmp_if_expr$7 = sp->external_remove != 0 ? (_Bool)1 : (_Bool)0;
-            if(external_shutdown >= 2 || tmp_if_expr$7)
+              tmp_if_expr_7 = sp->external_remove != 0 ? (_Bool)1 : (_Bool)0;
+            if(external_shutdown >= 2 || tmp_if_expr_7)
             {
               log_level(sp->space_id, (unsigned int)0, (char *)(void *)0, 7, "set killing_pids check %d remove %d", rv, sp->external_remove);
               sp->space_dead = 1;
@@ -10744,8 +10744,8 @@ static signed int main_loop(void)
           }
         }
         sp = safe;
-        const struct list_head *main_loop$$1$$1$$4$$3$$__mptr = safe->list.next;
-        tmp_statement_expression$4 = (struct space *)((char *)main_loop$$1$$1$$4$$3$$__mptr - (signed long int)0ul);
+        const struct list_head *main_loop__1__1__4__3____mptr = safe->list.next;
+        tmp_statement_expression_4 = (struct space *)((char *)main_loop__1__1__4__3____mptr - (signed long int)0ul);
       }
       empty=list_empty(&spaces);
       pthread_mutex_unlock(&spaces_mutex);
@@ -10813,9 +10813,9 @@ static struct resource * new_resource(struct token *token)
   signed int r_len;
   disks_len = (signed int)((unsigned long int)token->r.num_disks * sizeof(struct sync_disk) /*1040ul*/ );
   r_len = (signed int)(sizeof(struct resource) /*392ul*/  + (unsigned long int)disks_len);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)r_len);
-  r = (struct resource *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)r_len);
+  r = (struct resource *)return_value_malloc_1;
   if(r == ((struct resource *)NULL))
     return (struct resource *)(void *)0;
 
@@ -10823,7 +10823,7 @@ static struct resource * new_resource(struct token *token)
   {
     memset((void *)r, 0, (unsigned long int)r_len);
     memcpy((void *)&r->r, (const void *)&token->r, sizeof(struct sanlk_resource) /*128ul*/ );
-    INIT_LIST_HEAD$link1(&r->tokens);
+    INIT_LIST_HEAD_link1(&r->tokens);
     r->host_id = token->host_id;
     r->host_generation = token->host_generation;
     if(!((4u & token->acquire_flags) == 0u))
@@ -10851,20 +10851,20 @@ signed int open_disk(struct sync_disk *disk)
   fd=open(disk->path, 02 | 040000 | 04010000, 0);
   if(!(fd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    rv = -(*return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    rv = -(*return_value___errno_location_1);
     log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "open error %d %s", rv, (const void *)disk->path);
     goto fail;
   }
 
-  signed int return_value_fstat$3;
-  return_value_fstat$3=fstat(fd, &st);
-  if(!(return_value_fstat$3 >= 0))
+  signed int return_value_fstat_3;
+  return_value_fstat_3=fstat(fd, &st);
+  if(!(return_value_fstat_3 >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    rv = -(*return_value___errno_location$2);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    rv = -(*return_value___errno_location_2);
     log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "fstat error %d %s", rv, (const void *)disk->path);
     close(fd);
     goto fail;
@@ -10952,9 +10952,9 @@ signed int open_disks(struct sync_disk *disks, signed int num_disks)
       num_opens = num_opens + 1;
     }
   }
-  signed int return_value_majority_disks$1;
-  return_value_majority_disks$1=majority_disks(num_disks, num_opens);
-  if(!(return_value_majority_disks$1 == 0))
+  signed int return_value_majority_disks_1;
+  return_value_majority_disks_1=majority_disks(num_disks, num_opens);
+  if(!(return_value_majority_disks_1 == 0))
     return 0;
 
   else
@@ -10990,9 +10990,9 @@ signed int open_disks_fd(struct sync_disk *disks, signed int num_disks)
     fd=open(disk->path, 02 | 040000 | 04010000, 0);
     if(!(fd >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      rv = -(*return_value___errno_location$1);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      rv = -(*return_value___errno_location_1);
       log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "open error %d %s", fd, (const void *)disk->path);
       goto __CPROVER_DUMP_L4;
     }
@@ -11003,9 +11003,9 @@ signed int open_disks_fd(struct sync_disk *disks, signed int num_disks)
   __CPROVER_DUMP_L4:
     ;
   }
-  signed int return_value_majority_disks$2;
-  return_value_majority_disks$2=majority_disks(num_disks, num_opens);
-  if(!(return_value_majority_disks$2 == 0))
+  signed int return_value_majority_disks_2;
+  return_value_majority_disks_2=majority_disks(num_disks, num_opens);
+  if(!(return_value_majority_disks_2 == 0))
     return 0;
 
   else
@@ -11090,8 +11090,8 @@ signed int paxos_lease_acquire(struct task *task, struct token *token, unsigned 
   signed int rv;
   signed int us;
   log_level((unsigned int)0, token->token_id, (char *)(void *)0, 7, "paxos_acquire begin %x %llu %d", flags, (unsigned long long int)acquire_lver, new_num_hosts);
-  _Bool tmp_if_expr$2;
-  signed int return_value_memcmp$3;
+  _Bool tmp_if_expr_2;
+  signed int return_value_memcmp_3;
   do
   {
 
@@ -11230,9 +11230,9 @@ signed int paxos_lease_acquire(struct task *task, struct token *token, unsigned 
             if(!(error >= 0))
               goto out;
 
-            signed int return_value_memcmp$1;
-            return_value_memcmp$1=memcmp((const void *)&cur_leader, (const void *)&tmp_leader, sizeof(struct leader_record) /*200ul*/ );
-            if(!(return_value_memcmp$1 == 0))
+            signed int return_value_memcmp_1;
+            return_value_memcmp_1=memcmp((const void *)&cur_leader, (const void *)&tmp_leader, sizeof(struct leader_record) /*200ul*/ );
+            if(!(return_value_memcmp_1 == 0))
             {
               log_level((unsigned int)0, token->token_id, (char *)(void *)0, 7, "paxos_acquire restart leader changed");
               goto restart;
@@ -11272,11 +11272,11 @@ signed int paxos_lease_acquire(struct task *task, struct token *token, unsigned 
     if(tmp_leader.lver == next_lver)
     {
       if(tmp_leader.owner_id == token->host_id)
-        tmp_if_expr$2 = tmp_leader.owner_generation == token->host_generation ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = tmp_leader.owner_generation == token->host_generation ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
       {
         log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "paxos_acquire %llu owner is our inp %llu %llu %llu commited by %llu", (unsigned long long int)next_lver, (unsigned long long int)tmp_leader.owner_id, (unsigned long long int)tmp_leader.owner_generation, (unsigned long long int)tmp_leader.timestamp, (unsigned long long int)tmp_leader.write_id);
         memcpy((void *)leader_ret, (const void *)&tmp_leader, sizeof(struct leader_record) /*200ul*/ );
@@ -11298,8 +11298,8 @@ signed int paxos_lease_acquire(struct task *task, struct token *token, unsigned 
       goto restart;
     }
 
-    return_value_memcmp$3=memcmp((const void *)&cur_leader, (const void *)&tmp_leader, sizeof(struct leader_record) /*200ul*/ );
-    if(return_value_memcmp$3 == 0)
+    return_value_memcmp_3=memcmp((const void *)&cur_leader, (const void *)&tmp_leader, sizeof(struct leader_record) /*200ul*/ );
+    if(return_value_memcmp_3 == 0)
       break;
 
     log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "paxos_acquire restart leader changed2");
@@ -11405,9 +11405,9 @@ signed int paxos_lease_init(struct task *task, struct token *token, signed int n
     {
       iobuf_len = align_size;
       p_iobuf = &iobuf;
-      signed int return_value_getpagesize$1;
-      return_value_getpagesize$1=getpagesize();
-      rv=posix_memalign((void **)(void *)p_iobuf, (unsigned long int)return_value_getpagesize$1, (unsigned long int)iobuf_len);
+      signed int return_value_getpagesize_1;
+      return_value_getpagesize_1=getpagesize();
+      rv=posix_memalign((void **)(void *)p_iobuf, (unsigned long int)return_value_getpagesize_1, (unsigned long int)iobuf_len);
       if(!(rv == 0))
         return rv;
 
@@ -11480,22 +11480,22 @@ static signed int paxos_lease_read(struct task *task, struct token *token, struc
   return rv;
 }
 
-// paxos_lease_read$link1
+// paxos_lease_read_link1
 // file paxos_lease.c line 1006
-static signed int paxos_lease_read$link1(struct task *task$link1, struct token *token$link1, struct leader_record *leader_ret$link1, unsigned long int *max_mbal$link1, const char *caller$link1)
+static signed int paxos_lease_read_link1(struct task *task_link1, struct token *token_link1, struct leader_record *leader_ret_link1, unsigned long int *max_mbal_link1, const char *caller_link1)
 {
-  struct paxos_dblock our_dblock$link1;
-  signed int rv$link1;
-  signed int q$link1 = -1;
-  if(token$link1->r.num_disks >= 2u)
-    rv$link1=_lease_read_num$link1(task$link1, token$link1, leader_ret$link1, &our_dblock$link1, max_mbal$link1, &q$link1, caller$link1);
+  struct paxos_dblock our_dblock_link1;
+  signed int rv_link1;
+  signed int q_link1 = -1;
+  if(token_link1->r.num_disks >= 2u)
+    rv_link1=_lease_read_num_link1(task_link1, token_link1, leader_ret_link1, &our_dblock_link1, max_mbal_link1, &q_link1, caller_link1);
 
   else
-    rv$link1=_lease_read_one$link1(task$link1, token$link1, &token$link1->disks[(signed long int)0], leader_ret$link1, &our_dblock$link1, max_mbal$link1, &q$link1, caller$link1);
-  if(rv$link1 == 1)
-    log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 7, "%s leader %llu owner %llu %llu %llu max mbal[%d] %llu our_dblock %llu %llu %llu %llu %llu %llu", caller$link1, (unsigned long long int)leader_ret$link1->lver, (unsigned long long int)leader_ret$link1->owner_id, (unsigned long long int)leader_ret$link1->owner_generation, (unsigned long long int)leader_ret$link1->timestamp, q$link1, (unsigned long long int)*max_mbal$link1, (unsigned long long int)our_dblock$link1.mbal, (unsigned long long int)our_dblock$link1.bal, (unsigned long long int)our_dblock$link1.inp, (unsigned long long int)our_dblock$link1.inp2, (unsigned long long int)our_dblock$link1.inp3, (unsigned long long int)our_dblock$link1.lver);
+    rv_link1=_lease_read_one_link1(task_link1, token_link1, &token_link1->disks[(signed long int)0], leader_ret_link1, &our_dblock_link1, max_mbal_link1, &q_link1, caller_link1);
+  if(rv_link1 == 1)
+    log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 7, "%s leader %llu owner %llu %llu %llu max mbal[%d] %llu our_dblock %llu %llu %llu %llu %llu %llu", caller_link1, (unsigned long long int)leader_ret_link1->lver, (unsigned long long int)leader_ret_link1->owner_id, (unsigned long long int)leader_ret_link1->owner_generation, (unsigned long long int)leader_ret_link1->timestamp, q_link1, (unsigned long long int)*max_mbal_link1, (unsigned long long int)our_dblock_link1.mbal, (unsigned long long int)our_dblock_link1.bal, (unsigned long long int)our_dblock_link1.inp, (unsigned long long int)our_dblock_link1.inp2, (unsigned long long int)our_dblock_link1.inp3, (unsigned long long int)our_dblock_link1.lver);
 
-  return rv$link1;
+  return rv_link1;
 }
 
 // paxos_lease_release
@@ -11505,8 +11505,8 @@ signed int paxos_lease_release(struct task *task, struct token *token, struct le
   struct leader_record leader;
   signed int error;
   error=paxos_lease_leader_read(task, token, &leader, "paxos_release");
-  _Bool tmp_if_expr$1;
-  signed int return_value_memcmp$2;
+  _Bool tmp_if_expr_1;
+  signed int return_value_memcmp_2;
   if(!(error >= 0))
     log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "paxos_release leader_read error %d", error);
 
@@ -11519,18 +11519,18 @@ signed int paxos_lease_release(struct task *task, struct token *token, struct le
     }
 
     if(!(leader.owner_id == token->host_id))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = leader.owner_generation != token->host_generation ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = leader.owner_generation != token->host_generation ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "paxos_release %llu other owner %llu %llu %llu", (unsigned long long int)leader_last->lver, (unsigned long long int)leader.owner_id, (unsigned long long int)leader.owner_generation, (unsigned long long int)leader.timestamp);
       return -251;
     }
 
-    return_value_memcmp$2=memcmp((const void *)&leader, (const void *)leader_last, sizeof(struct leader_record) /*200ul*/ );
-    if(!(return_value_memcmp$2 == 0))
+    return_value_memcmp_2=memcmp((const void *)&leader, (const void *)leader_last, sizeof(struct leader_record) /*200ul*/ );
+    if(!(return_value_memcmp_2 == 0))
       log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "paxos_release %llu leader different write %llu %llu %llu vs %llu %llu %llu", (unsigned long long int)leader_last->lver, (unsigned long long int)leader_last->write_id, (unsigned long long int)leader_last->write_generation, (unsigned long long int)leader_last->write_timestamp, (unsigned long long int)leader.write_id, (unsigned long long int)leader.write_generation, (unsigned long long int)leader.write_timestamp);
 
     leader.timestamp = (unsigned long int)0;
@@ -11641,10 +11641,10 @@ static void print_r(signed int p, char *s, signed int debug)
   char *str;
   char *bin;
   signed int i = 0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strncmp$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strncmp_2;
   for( ; !(i >= sort_count); i = i + 1)
   {
     buf = sort_bufs[(signed long int)i];
@@ -11657,26 +11657,26 @@ static void print_r(signed int p, char *s, signed int debug)
       {
         res = (struct sanlk_resource *)bin;
         if(!(p == 0))
-          tmp_if_expr$1 = st->data32 == (unsigned int)p ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = st->data32 == (unsigned int)p ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
           if(!(s == ((char *)NULL)))
           {
-            return_value_strncmp$2=strncmp(s, res->lockspace_name, (unsigned long int)48);
-            tmp_if_expr$3 = !(return_value_strncmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+            return_value_strncmp_2=strncmp(s, res->lockspace_name, (unsigned long int)48);
+            tmp_if_expr_3 = !(return_value_strncmp_2 != 0) ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = (_Bool)0;
+          tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
         {
           print_st(st, str, bin, debug);
           free((void *)buf);
@@ -11783,9 +11783,9 @@ static signed int print_state_client(struct client *cl, signed int ci, char *str
 {
   memset((void *)str, 0, (unsigned long int)4096);
   snprintf(str, (unsigned long int)(4096 - 1), "ci=%d fd=%d pid=%d restricted=%x cmd_active=%d cmd_last=%d pid_dead=%d kill_count=%d kill_last=%llu suspend=%d need_free=%d", ci, cl->fd, cl->pid, cl->restricted, cl->cmd_active, cl->cmd_last, cl->pid_dead, cl->kill_count, (unsigned long long int)cl->kill_last, cl->suspend, cl->need_free);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  return (signed int)(return_value_strlen$1 + (unsigned long int)1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  return (signed int)(return_value_strlen_1 + (unsigned long int)1);
 }
 
 // print_state_daemon
@@ -11793,12 +11793,12 @@ static signed int print_state_client(struct client *cl, signed int ci, char *str
 static signed int print_state_daemon(char *str)
 {
   memset((void *)str, 0, (unsigned long int)4096);
-  unsigned long int return_value_monotime$1;
-  return_value_monotime$1=monotime();
-  snprintf(str, (unsigned long int)(4096 - 1), "our_host_name=%s use_aio=%d io_timeout=%d id_renewal=%d id_renewal_fail=%d id_renewal_warn=%d monotime=%llu", (const void *)our_host_name_global, main_task.use_aio, main_task.io_timeout_seconds, main_task.id_renewal_seconds, main_task.id_renewal_fail_seconds, main_task.id_renewal_warn_seconds, (unsigned long long int)return_value_monotime$1);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(str);
-  return (signed int)(return_value_strlen$2 + (unsigned long int)1);
+  unsigned long int return_value_monotime_1;
+  return_value_monotime_1=monotime();
+  snprintf(str, (unsigned long int)(4096 - 1), "our_host_name=%s use_aio=%d io_timeout=%d id_renewal=%d id_renewal_fail=%d id_renewal_warn=%d monotime=%llu", (const void *)our_host_name_global, main_task.use_aio, main_task.io_timeout_seconds, main_task.id_renewal_seconds, main_task.id_renewal_fail_seconds, main_task.id_renewal_warn_seconds, (unsigned long long int)return_value_monotime_1);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(str);
+  return (signed int)(return_value_strlen_2 + (unsigned long int)1);
 }
 
 // print_state_host
@@ -11807,9 +11807,9 @@ static signed int print_state_host(struct host_status *hs, char *str)
 {
   memset((void *)str, 0, (unsigned long int)4096);
   snprintf(str, (unsigned long int)(4096 - 1), "last_check=%llu last_live=%llu last_req=%llu owner_id=%llu owner_generation=%llu timestamp=%llu", (unsigned long long int)hs->last_check, (unsigned long long int)hs->last_live, (unsigned long long int)hs->last_req, (unsigned long long int)hs->owner_id, (unsigned long long int)hs->owner_generation, (unsigned long long int)hs->timestamp);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  return (signed int)(return_value_strlen$1 + (unsigned long int)1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  return (signed int)(return_value_strlen_1 + (unsigned long int)1);
 }
 
 // print_state_lockspace
@@ -11818,9 +11818,9 @@ static signed int print_state_lockspace(struct space *sp, char *str, const char 
 {
   memset((void *)str, 0, (unsigned long int)4096);
   snprintf(str, (unsigned long int)(4096 - 1), "list=%s space_id=%u host_generation=%llu space_dead=%d killing_pids=%d corrupt_result=%d acquire_last_result=%d renewal_last_result=%d acquire_last_attempt=%llu acquire_last_success=%llu renewal_last_attempt=%llu renewal_last_success=%llu", list_name, sp->space_id, (unsigned long long int)sp->host_generation, sp->space_dead, sp->killing_pids, sp->lease_status.corrupt_result, sp->lease_status.acquire_last_result, sp->lease_status.renewal_last_result, (unsigned long long int)sp->lease_status.acquire_last_attempt, (unsigned long long int)sp->lease_status.acquire_last_success, (unsigned long long int)sp->lease_status.renewal_last_attempt, (unsigned long long int)sp->lease_status.renewal_last_success);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  return (signed int)(return_value_strlen$1 + (unsigned long int)1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  return (signed int)(return_value_strlen_1 + (unsigned long int)1);
 }
 
 // print_state_resource
@@ -11829,9 +11829,9 @@ static signed int print_state_resource(struct resource *r, char *str, const char
 {
   memset((void *)str, 0, (unsigned long int)4096);
   snprintf(str, (unsigned long int)(4096 - 1), "list=%s flags=%x lver=%llu token_id=%u", list_name, r->flags, (unsigned long long int)r->leader.lver, token_id);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  return (signed int)(return_value_strlen$1 + (unsigned long int)1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  return (signed int)(return_value_strlen_1 + (unsigned long int)1);
 }
 
 // print_type
@@ -11843,7 +11843,7 @@ static void print_type(signed int type, signed int debug)
   char *str;
   char *bin;
   signed int i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(i >= sort_count); i = i + 1)
   {
     buf = sort_bufs[(signed long int)i];
@@ -11853,11 +11853,11 @@ static void print_type(signed int type, signed int debug)
       str = buf + (signed long int)sizeof(struct sanlk_state) /*80ul*/ ;
       bin = buf + (signed long int)sizeof(struct sanlk_state) /*80ul*/  + (signed long int)4096;
       if(type == 0)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = st->type == (unsigned int)type ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = st->type == (unsigned int)type ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         print_st(st, str, bin, debug);
         free((void *)buf);
@@ -11957,9 +11957,9 @@ static void process_cmd_thread_registered(signed int ci_in, struct sm_header *h_
   signed int rv;
   signed int i;
   signed int ci_target;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct cmd_args) /*64ul*/ );
-  ca = (struct cmd_args *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct cmd_args) /*64ul*/ );
+  ca = (struct cmd_args *)return_value_malloc_1;
   if(ca == ((struct cmd_args *)NULL))
     result = -12;
 
@@ -12095,9 +12095,9 @@ static void process_cmd_thread_unregistered(signed int ci_in, struct sm_header *
 {
   struct cmd_args *ca;
   signed int rv;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct cmd_args) /*64ul*/ );
-  ca = (struct cmd_args *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct cmd_args) /*64ul*/ );
+  ca = (struct cmd_args *)return_value_malloc_1;
   if(ca == ((struct cmd_args *)NULL))
     rv = -12;
 
@@ -12133,16 +12133,16 @@ static void process_connection(signed int ci)
   void (*deadfn)(signed int);
   signed int rv;
   memset((void *)&h, 0, sizeof(struct sm_header) /*32ul*/ );
-  signed long int return_value_recv$1;
-  return_value_recv$1=recv((client + (signed long int)ci)->fd, (void *)&h, sizeof(struct sm_header) /*32ul*/ , 256);
-  rv = (signed int)return_value_recv$1;
+  signed long int return_value_recv_1;
+  return_value_recv_1=recv((client + (signed long int)ci)->fd, (void *)&h, sizeof(struct sm_header) /*32ul*/ , 256);
+  rv = (signed int)return_value_recv_1;
   if(!(rv == 0))
   {
     if(!(rv >= 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "ci %d fd %d pid %d recv errno %d", ci, (client + (signed long int)ci)->fd, (client + (signed long int)ci)->pid, *return_value___errno_location$2);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "ci %d fd %d pid %d recv errno %d", ci, (client + (signed long int)ci)->fd, (client + (signed long int)ci)->pid, *return_value___errno_location_2);
       goto dead;
     }
 
@@ -12262,75 +12262,75 @@ static signed int read_command_line(signed int argc, char **argv)
   signed int j;
   signed int len;
   signed int begin_command = 0;
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcmp$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcmp_1;
   if(!(argc >= 2))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$1=strcmp(arg1, "help");
-    tmp_if_expr$2 = !(return_value_strcmp$1 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_1=strcmp(arg1, "help");
+    tmp_if_expr_2 = !(return_value_strcmp_1 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcmp$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$4 = (_Bool)1;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcmp_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$3=strcmp(arg1, "--help");
-    tmp_if_expr$4 = !(return_value_strcmp$3 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_3=strcmp(arg1, "--help");
+    tmp_if_expr_4 = !(return_value_strcmp_3 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$6;
-  signed int return_value_strcmp$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$6 = (_Bool)1;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strcmp_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$5=strcmp(arg1, "-h");
-    tmp_if_expr$6 = !(return_value_strcmp$5 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_5=strcmp(arg1, "-h");
+    tmp_if_expr_6 = !(return_value_strcmp_5 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$6)
+  if(tmp_if_expr_6)
   {
     print_usage();
     exit(0);
   }
 
-  signed int return_value_strcmp$7;
-  return_value_strcmp$7=strcmp(arg1, "version");
-  _Bool tmp_if_expr$9;
-  signed int return_value_strcmp$8;
-  if(return_value_strcmp$7 == 0)
-    tmp_if_expr$9 = (_Bool)1;
+  signed int return_value_strcmp_7;
+  return_value_strcmp_7=strcmp(arg1, "version");
+  _Bool tmp_if_expr_9;
+  signed int return_value_strcmp_8;
+  if(return_value_strcmp_7 == 0)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$8=strcmp(arg1, "--version");
-    tmp_if_expr$9 = !(return_value_strcmp$8 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_8=strcmp(arg1, "--version");
+    tmp_if_expr_9 = !(return_value_strcmp_8 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$11;
-  signed int return_value_strcmp$10;
-  if(tmp_if_expr$9)
-    tmp_if_expr$11 = (_Bool)1;
+  _Bool tmp_if_expr_11;
+  signed int return_value_strcmp_10;
+  if(tmp_if_expr_9)
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$10=strcmp(arg1, "-V");
-    tmp_if_expr$11 = !(return_value_strcmp$10 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_10=strcmp(arg1, "-V");
+    tmp_if_expr_11 = !(return_value_strcmp_10 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$11)
+  if(tmp_if_expr_11)
   {
     printf("%s %s (built %s %s)\n", argv[(signed long int)0], (const void *)"2.2", (const void *)"Jan 26 2016", (const void *)"11:06:07");
     exit(0);
   }
 
-  signed int return_value_strcmp$14;
-  return_value_strcmp$14=strcmp(arg1, "daemon");
-  signed int return_value_strcmp$13;
-  signed int return_value_strcmp$12;
-  if(return_value_strcmp$14 == 0)
+  signed int return_value_strcmp_14;
+  return_value_strcmp_14=strcmp(arg1, "daemon");
+  signed int return_value_strcmp_13;
+  signed int return_value_strcmp_12;
+  if(return_value_strcmp_14 == 0)
   {
     com.type = 1;
     i = 2;
@@ -12338,8 +12338,8 @@ static signed int read_command_line(signed int argc, char **argv)
 
   else
   {
-    return_value_strcmp$13=strcmp(arg1, "direct");
-    if(return_value_strcmp$13 == 0)
+    return_value_strcmp_13=strcmp(arg1, "direct");
+    if(return_value_strcmp_13 == 0)
     {
       com.type = 3;
       if(!(argc >= 3))
@@ -12354,8 +12354,8 @@ static signed int read_command_line(signed int argc, char **argv)
 
     else
     {
-      return_value_strcmp$12=strcmp(arg1, "client");
-      if(return_value_strcmp$12 == 0)
+      return_value_strcmp_12=strcmp(arg1, "client");
+      if(return_value_strcmp_12 == 0)
       {
         com.type = 2;
         if(!(argc >= 3))
@@ -12376,123 +12376,123 @@ static signed int read_command_line(signed int argc, char **argv)
       }
     }
   }
-  signed int return_value_strcmp$29;
-  signed int return_value_strcmp$28;
-  signed int return_value_strcmp$27;
-  signed int return_value_strcmp$26;
-  signed int return_value_strcmp$25;
-  signed int return_value_strcmp$24;
-  signed int return_value_strcmp$23;
-  signed int return_value_strcmp$22;
-  signed int return_value_strcmp$21;
-  signed int return_value_strcmp$20;
-  signed int return_value_strcmp$19;
-  signed int return_value_strcmp$18;
-  signed int return_value_strcmp$17;
-  signed int return_value_strcmp$16;
-  signed int return_value_strcmp$15;
-  signed int return_value_strcmp$39;
-  signed int return_value_strcmp$38;
-  signed int return_value_strcmp$37;
-  signed int return_value_strcmp$36;
-  signed int return_value_strcmp$35;
-  signed int return_value_strcmp$34;
-  signed int return_value_strcmp$33;
-  signed int return_value_strcmp$32;
-  signed int return_value_strcmp$31;
-  signed int return_value_strcmp$30;
+  signed int return_value_strcmp_29;
+  signed int return_value_strcmp_28;
+  signed int return_value_strcmp_27;
+  signed int return_value_strcmp_26;
+  signed int return_value_strcmp_25;
+  signed int return_value_strcmp_24;
+  signed int return_value_strcmp_23;
+  signed int return_value_strcmp_22;
+  signed int return_value_strcmp_21;
+  signed int return_value_strcmp_20;
+  signed int return_value_strcmp_19;
+  signed int return_value_strcmp_18;
+  signed int return_value_strcmp_17;
+  signed int return_value_strcmp_16;
+  signed int return_value_strcmp_15;
+  signed int return_value_strcmp_39;
+  signed int return_value_strcmp_38;
+  signed int return_value_strcmp_37;
+  signed int return_value_strcmp_36;
+  signed int return_value_strcmp_35;
+  signed int return_value_strcmp_34;
+  signed int return_value_strcmp_33;
+  signed int return_value_strcmp_32;
+  signed int return_value_strcmp_31;
+  signed int return_value_strcmp_30;
   switch(com.type)
   {
     case 1:
       break;
     case 2:
     {
-      return_value_strcmp$29=strcmp(act, "status");
-      if(return_value_strcmp$29 == 0)
+      return_value_strcmp_29=strcmp(act, "status");
+      if(return_value_strcmp_29 == 0)
         com.action = 1;
 
       else
       {
-        return_value_strcmp$28=strcmp(act, "host_status");
-        if(return_value_strcmp$28 == 0)
+        return_value_strcmp_28=strcmp(act, "host_status");
+        if(return_value_strcmp_28 == 0)
           com.action = 2;
 
         else
         {
-          return_value_strcmp$27=strcmp(act, "log_dump");
-          if(return_value_strcmp$27 == 0)
+          return_value_strcmp_27=strcmp(act, "log_dump");
+          if(return_value_strcmp_27 == 0)
             com.action = 3;
 
           else
           {
-            return_value_strcmp$26=strcmp(act, "shutdown");
-            if(return_value_strcmp$26 == 0)
+            return_value_strcmp_26=strcmp(act, "shutdown");
+            if(return_value_strcmp_26 == 0)
               com.action = 4;
 
             else
             {
-              return_value_strcmp$25=strcmp(act, "add_lockspace");
-              if(return_value_strcmp$25 == 0)
+              return_value_strcmp_25=strcmp(act, "add_lockspace");
+              if(return_value_strcmp_25 == 0)
                 com.action = 5;
 
               else
               {
-                return_value_strcmp$24=strcmp(act, "inq_lockspace");
-                if(return_value_strcmp$24 == 0)
+                return_value_strcmp_24=strcmp(act, "inq_lockspace");
+                if(return_value_strcmp_24 == 0)
                   com.action = 6;
 
                 else
                 {
-                  return_value_strcmp$23=strcmp(act, "rem_lockspace");
-                  if(return_value_strcmp$23 == 0)
+                  return_value_strcmp_23=strcmp(act, "rem_lockspace");
+                  if(return_value_strcmp_23 == 0)
                     com.action = 7;
 
                   else
                   {
-                    return_value_strcmp$22=strcmp(act, "command");
-                    if(return_value_strcmp$22 == 0)
+                    return_value_strcmp_22=strcmp(act, "command");
+                    if(return_value_strcmp_22 == 0)
                       com.action = 8;
 
                     else
                     {
-                      return_value_strcmp$21=strcmp(act, "acquire");
-                      if(return_value_strcmp$21 == 0)
+                      return_value_strcmp_21=strcmp(act, "acquire");
+                      if(return_value_strcmp_21 == 0)
                         com.action = 9;
 
                       else
                       {
-                        return_value_strcmp$20=strcmp(act, "release");
-                        if(return_value_strcmp$20 == 0)
+                        return_value_strcmp_20=strcmp(act, "release");
+                        if(return_value_strcmp_20 == 0)
                           com.action = 10;
 
                         else
                         {
-                          return_value_strcmp$19=strcmp(act, "inquire");
-                          if(return_value_strcmp$19 == 0)
+                          return_value_strcmp_19=strcmp(act, "inquire");
+                          if(return_value_strcmp_19 == 0)
                             com.action = 11;
 
                           else
                           {
-                            return_value_strcmp$18=strcmp(act, "request");
-                            if(return_value_strcmp$18 == 0)
+                            return_value_strcmp_18=strcmp(act, "request");
+                            if(return_value_strcmp_18 == 0)
                               com.action = 12;
 
                             else
                             {
-                              return_value_strcmp$17=strcmp(act, "examine");
-                              if(return_value_strcmp$17 == 0)
+                              return_value_strcmp_17=strcmp(act, "examine");
+                              if(return_value_strcmp_17 == 0)
                                 com.action = 23;
 
                               else
                               {
-                                return_value_strcmp$16=strcmp(act, "align");
-                                if(return_value_strcmp$16 == 0)
+                                return_value_strcmp_16=strcmp(act, "align");
+                                if(return_value_strcmp_16 == 0)
                                   com.action = 22;
 
                                 else
                                 {
-                                  return_value_strcmp$15=strcmp(act, "init");
-                                  if(return_value_strcmp$15 == 0)
+                                  return_value_strcmp_15=strcmp(act, "init");
+                                  if(return_value_strcmp_15 == 0)
                                     com.action = 21;
 
                                   else
@@ -12520,62 +12520,62 @@ static signed int read_command_line(signed int argc, char **argv)
     }
     case 3:
     {
-      return_value_strcmp$39=strcmp(act, "init");
-      if(return_value_strcmp$39 == 0)
+      return_value_strcmp_39=strcmp(act, "init");
+      if(return_value_strcmp_39 == 0)
         com.action = 18;
 
       else
       {
-        return_value_strcmp$38=strcmp(act, "dump");
-        if(return_value_strcmp$38 == 0)
+        return_value_strcmp_38=strcmp(act, "dump");
+        if(return_value_strcmp_38 == 0)
           com.action = 19;
 
         else
         {
-          return_value_strcmp$37=strcmp(act, "read_leader");
-          if(return_value_strcmp$37 == 0)
+          return_value_strcmp_37=strcmp(act, "read_leader");
+          if(return_value_strcmp_37 == 0)
             com.action = 20;
 
           else
           {
-            return_value_strcmp$36=strcmp(act, "acquire");
-            if(return_value_strcmp$36 == 0)
+            return_value_strcmp_36=strcmp(act, "acquire");
+            if(return_value_strcmp_36 == 0)
               com.action = 9;
 
             else
             {
-              return_value_strcmp$35=strcmp(act, "release");
-              if(return_value_strcmp$35 == 0)
+              return_value_strcmp_35=strcmp(act, "release");
+              if(return_value_strcmp_35 == 0)
                 com.action = 10;
 
               else
               {
-                return_value_strcmp$34=strcmp(act, "acquire_id");
-                if(return_value_strcmp$34 == 0)
+                return_value_strcmp_34=strcmp(act, "acquire_id");
+                if(return_value_strcmp_34 == 0)
                   com.action = 13;
 
                 else
                 {
-                  return_value_strcmp$33=strcmp(act, "release_id");
-                  if(return_value_strcmp$33 == 0)
+                  return_value_strcmp_33=strcmp(act, "release_id");
+                  if(return_value_strcmp_33 == 0)
                     com.action = 14;
 
                   else
                   {
-                    return_value_strcmp$32=strcmp(act, "renew_id");
-                    if(return_value_strcmp$32 == 0)
+                    return_value_strcmp_32=strcmp(act, "renew_id");
+                    if(return_value_strcmp_32 == 0)
                       com.action = 15;
 
                     else
                     {
-                      return_value_strcmp$31=strcmp(act, "read_id");
-                      if(return_value_strcmp$31 == 0)
+                      return_value_strcmp_31=strcmp(act, "read_id");
+                      if(return_value_strcmp_31 == 0)
                         com.action = 16;
 
                       else
                       {
-                        return_value_strcmp$30=strcmp(act, "live_id");
-                        if(return_value_strcmp$30 == 0)
+                        return_value_strcmp_30=strcmp(act, "live_id");
+                        if(return_value_strcmp_30 == 0)
                           com.action = 17;
 
                         else
@@ -12596,35 +12596,35 @@ static signed int read_command_line(signed int argc, char **argv)
       }
     }
   }
-  signed int tmp_post$40;
+  signed int tmp_post_40;
   if(com.action == 19)
   {
     if(!(argc >= 4))
       exit(1);
 
-    tmp_post$40 = i;
+    tmp_post_40 = i;
     i = i + 1;
-    optionarg = argv[(signed long int)tmp_post$40];
+    optionarg = argv[(signed long int)tmp_post_40];
     com.dump_path=strdup(optionarg);
   }
 
-  _Bool tmp_if_expr$42;
-  unsigned long int return_value_strlen$41;
-  signed long long int return_value_atoll$43;
-  signed long long int return_value_atoll$44;
-  unsigned long int return_value_strtoul$45;
+  _Bool tmp_if_expr_42;
+  unsigned long int return_value_strlen_41;
+  signed long long int return_value_atoll_43;
+  signed long long int return_value_atoll_44;
+  unsigned long int return_value_strtoul_45;
   while(!(i >= argc))
   {
     p = argv[(signed long int)i];
     if(!((signed int)*p == 45))
-      tmp_if_expr$42 = (_Bool)1;
+      tmp_if_expr_42 = (_Bool)1;
 
     else
     {
-      return_value_strlen$41=strlen(p);
-      tmp_if_expr$42 = return_value_strlen$41 != (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
+      return_value_strlen_41=strlen(p);
+      tmp_if_expr_42 = return_value_strlen_41 != (unsigned long int)2 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$42)
+    if(tmp_if_expr_42)
     {
       do
         fprintf(stderr, "unknown option %s\n", p);
@@ -12738,20 +12738,20 @@ static signed int read_command_line(signed int argc, char **argv)
         }
         case 105:
         {
-          return_value_atoll$43=atoll(optionarg);
-          com.local_host_id = (unsigned long int)return_value_atoll$43;
+          return_value_atoll_43=atoll(optionarg);
+          com.local_host_id = (unsigned long int)return_value_atoll_43;
           break;
         }
         case 103:
         {
-          return_value_atoll$44=atoll(optionarg);
-          com.local_host_generation = (unsigned long int)return_value_atoll$44;
+          return_value_atoll_44=atoll(optionarg);
+          com.local_host_generation = (unsigned long int)return_value_atoll_44;
           break;
         }
         case 102:
         {
-          return_value_strtoul$45=strtoul(optionarg, (char ** restrict )(void *)0, 0);
-          com.force_mode = (unsigned int)return_value_strtoul$45;
+          return_value_strtoul_45=strtoul(optionarg, (char ** restrict )(void *)0, 0);
+          com.force_mode = (unsigned int)return_value_strtoul_45;
           break;
         }
         case 115:
@@ -12793,7 +12793,7 @@ static signed int read_command_line(signed int argc, char **argv)
       i = i + 1;
     }
   }
-  signed int tmp_post$47;
+  signed int tmp_post_47;
   if(!(begin_command == 0))
   {
     cmd_argc = argc - i;
@@ -12806,9 +12806,9 @@ static signed int read_command_line(signed int argc, char **argv)
     }
 
     len = (signed int)((unsigned long int)(cmd_argc + 1) * sizeof(char *) /*8ul*/ );
-    void *return_value_malloc$46;
-    return_value_malloc$46=malloc((unsigned long int)len);
-    cmd_argv = (char **)return_value_malloc$46;
+    void *return_value_malloc_46;
+    return_value_malloc_46=malloc((unsigned long int)len);
+    cmd_argv = (char **)return_value_malloc_46;
     if(cmd_argv == ((char **)NULL))
       return -12;
 
@@ -12816,9 +12816,9 @@ static signed int read_command_line(signed int argc, char **argv)
     j = 0;
     for( ; !(j >= cmd_argc); j = j + 1)
     {
-      tmp_post$47 = i;
+      tmp_post_47 = i;
       i = i + 1;
-      cmd_argv[(signed long int)j]=strdup(argv[(signed long int)tmp_post$47]);
+      cmd_argv[(signed long int)j]=strdup(argv[(signed long int)tmp_post_47]);
       if(cmd_argv[(signed long int)j] == ((char *)NULL))
         return -12;
 
@@ -12833,39 +12833,39 @@ static signed int read_command_line(signed int argc, char **argv)
 // file diskio.h line 26
 signed int read_iobuf(signed int fd, unsigned long int offset, char *iobuf, signed int iobuf_len, struct task *task)
 {
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if(!(task == ((struct task *)NULL)))
-    tmp_if_expr$5 = task->use_aio == 1 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_5 = task->use_aio == 1 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$5 = (_Bool)0;
-  signed int return_value_do_read_aio_linux$1;
-  _Bool tmp_if_expr$4;
-  signed int return_value_do_read_aio_posix$2;
-  signed int return_value_do_read$3;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = (_Bool)0;
+  signed int return_value_do_read_aio_linux_1;
+  _Bool tmp_if_expr_4;
+  signed int return_value_do_read_aio_posix_2;
+  signed int return_value_do_read_3;
+  if(tmp_if_expr_5)
   {
-    return_value_do_read_aio_linux$1=do_read_aio_linux(fd, offset, iobuf, iobuf_len, task);
-    return return_value_do_read_aio_linux$1;
+    return_value_do_read_aio_linux_1=do_read_aio_linux(fd, offset, iobuf, iobuf_len, task);
+    return return_value_do_read_aio_linux_1;
   }
 
   else
   {
     if(!(task == ((struct task *)NULL)))
-      tmp_if_expr$4 = task->use_aio == 2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = task->use_aio == 2 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
-      return_value_do_read_aio_posix$2=do_read_aio_posix(fd, offset, iobuf, iobuf_len, task);
-      return return_value_do_read_aio_posix$2;
+      return_value_do_read_aio_posix_2=do_read_aio_posix(fd, offset, iobuf, iobuf_len, task);
+      return return_value_do_read_aio_posix_2;
     }
 
     else
     {
-      return_value_do_read$3=do_read(fd, offset, iobuf, iobuf_len, task);
-      return return_value_do_read$3;
+      return_value_do_read_3=do_read(fd, offset, iobuf, iobuf_len, task);
+      return return_value_do_read_3;
     }
   }
 }
@@ -12883,7 +12883,7 @@ signed int read_iobuf_reap(signed int fd, unsigned long int offset, char *iobuf,
   iocb = &aicb->iocb;
   struct iocb *ev_iocb;
   struct aicb *ev_aicb;
-  struct aicb *tmp_statement_expression$1;
+  struct aicb *tmp_statement_expression_1;
   if(aicb->used == 0)
     return -22;
 
@@ -12932,8 +12932,8 @@ signed int read_iobuf_reap(signed int fd, unsigned long int offset, char *iobuf,
 
                 ev_iocb = event.obj;
                 const struct iocb *__mptr = ev_iocb;
-                tmp_statement_expression$1 = (struct aicb *)((char *)__mptr - (signed long int)16ul);
-                ev_aicb = tmp_statement_expression$1;
+                tmp_statement_expression_1 = (struct aicb *)((char *)__mptr - (signed long int)16ul);
+                ev_aicb = tmp_statement_expression_1;
                 ev_aicb->used = 0;
                 if(ev_iocb == iocb)
                   break;
@@ -12982,13 +12982,13 @@ static signed int read_leader(struct task *task, struct sync_disk *disk, struct 
   return rv;
 }
 
-// read_leader$link1
+// read_leader_link1
 // file paxos_lease.c line 169
-static signed int read_leader$link1(struct task *task$link1, struct sync_disk *disk$link1, struct leader_record *lr$link1)
+static signed int read_leader_link1(struct task *task_link1, struct sync_disk *disk_link1, struct leader_record *lr_link1)
 {
-  signed int rv$link1;
-  rv$link1=read_sectors(disk$link1, (unsigned long int)0, (unsigned int)1, (char *)lr$link1, (signed int)sizeof(struct leader_record) /*200ul*/ , task$link1, "leader");
-  return rv$link1;
+  signed int rv_link1;
+  rv_link1=read_sectors(disk_link1, (unsigned long int)0, (unsigned int)1, (char *)lr_link1, (signed int)sizeof(struct leader_record) /*200ul*/ , task_link1, "leader");
+  return rv_link1;
 }
 
 // read_mode_block
@@ -13007,16 +13007,16 @@ static signed int read_mode_block(struct task *task, struct token *token, unsign
   signed int d;
   disk = &token->disks[(signed long int)0];
   iobuf_len = (signed int)disk->sector_size;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(iobuf_len == 0)
     return -22;
 
   else
   {
     p_iobuf = &iobuf;
-    signed int return_value_getpagesize$1;
-    return_value_getpagesize$1=getpagesize();
-    rv=posix_memalign((void **)(void *)p_iobuf, (unsigned long int)return_value_getpagesize$1, (unsigned long int)iobuf_len);
+    signed int return_value_getpagesize_1;
+    return_value_getpagesize_1=getpagesize();
+    rv=posix_memalign((void **)(void *)p_iobuf, (unsigned long int)return_value_getpagesize_1, (unsigned long int)iobuf_len);
     if(!(rv == 0))
       return -12;
 
@@ -13035,11 +13035,11 @@ static signed int read_mode_block(struct task *task, struct token *token, unsign
         if(!((1u & mb->flags) == 0u))
         {
           if(max == 0ul)
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = mb->generation > max ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$2)
+            tmp_if_expr_2 = mb->generation > max ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_2)
             max = mb->generation;
 
         }
@@ -13074,9 +13074,9 @@ signed int read_sectors(struct sync_disk *disk, unsigned long int sector_nr, uns
     iobuf_len = (signed int)(sector_count * disk->sector_size);
     offset = disk->offset + sector_nr * (unsigned long int)disk->sector_size;
     p_iobuf = &iobuf;
-    signed int return_value_getpagesize$1;
-    return_value_getpagesize$1=getpagesize();
-    rv=posix_memalign((void **)(void *)p_iobuf, (unsigned long int)return_value_getpagesize$1, (unsigned long int)iobuf_len);
+    signed int return_value_getpagesize_1;
+    return_value_getpagesize_1=getpagesize();
+    rv=posix_memalign((void **)(void *)p_iobuf, (unsigned long int)return_value_getpagesize_1, (unsigned long int)iobuf_len);
     if(!(rv == 0))
     {
       log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "read_sectors %s posix_memalign rv %d %s", blktype, rv, (const void *)disk->path);
@@ -13128,14 +13128,14 @@ static signed int recv_result(signed int fd)
   struct sm_header h;
   signed int rv;
   memset((void *)&h, 0, sizeof(struct sm_header) /*32ul*/ );
-  signed long int return_value_recv$1;
-  return_value_recv$1=recv(fd, (void *)&h, sizeof(struct sm_header) /*32ul*/ , 256);
-  rv = (signed int)return_value_recv$1;
-  signed int *return_value___errno_location$2;
+  signed long int return_value_recv_1;
+  return_value_recv_1=recv(fd, (void *)&h, sizeof(struct sm_header) /*32ul*/ , 256);
+  rv = (signed int)return_value_recv_1;
+  signed int *return_value___errno_location_2;
   if(!(rv >= 0))
   {
-    return_value___errno_location$2=__errno_location();
-    return -(*return_value___errno_location$2);
+    return_value___errno_location_2=__errno_location();
+    return -(*return_value___errno_location_2);
   }
 
   else
@@ -13198,9 +13198,9 @@ static void release_new_tokens(struct task *task, struct token **new_tokens, sig
 // file resource.c line 430
 signed int release_token(struct task *task, struct token *token)
 {
-  signed int return_value__release_token$1;
-  return_value__release_token$1=_release_token(task, token, 0, 0);
-  return return_value__release_token$1;
+  signed int return_value__release_token_1;
+  return_value__release_token_1=_release_token(task, token, 0, 0);
+  return return_value__release_token_1;
 }
 
 // release_token_async
@@ -13209,20 +13209,20 @@ void release_token_async(struct token *token)
 {
   struct resource *r = token->resource;
   pthread_mutex_lock(&resource_mutex);
-  list_del$link2(&token->list);
-  signed int return_value_list_empty$2;
-  return_value_list_empty$2=list_empty$link1(&r->tokens);
-  _Bool tmp_if_expr$1;
-  if(!(return_value_list_empty$2 == 0))
+  list_del_link2(&token->list);
+  signed int return_value_list_empty_2;
+  return_value_list_empty_2=list_empty_link1(&r->tokens);
+  _Bool tmp_if_expr_1;
+  if(!(return_value_list_empty_2 == 0))
   {
     if(!((2u & token->flags) == 0u))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !(r->leader.lver != 0ul) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !(r->leader.lver != 0ul) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
-      list_del$link2(&r->list);
+      list_del_link2(&r->list);
       free((void *)r);
     }
 
@@ -13231,7 +13231,7 @@ void release_token_async(struct token *token)
       r->flags = r->flags | (unsigned int)0x00000004;
       r->release_token_id = token->token_id;
       resource_thread_work = 1;
-      list_move$link2(&r->list, &resources_rem);
+      list_move_link2(&r->list, &resources_rem);
       pthread_cond_signal(&resource_cond);
     }
   }
@@ -13243,18 +13243,18 @@ void release_token_async(struct token *token)
 // file resource.c line 420
 static signed int release_token_nodisk(struct task *task, struct token *token)
 {
-  signed int return_value__release_token$1;
-  return_value__release_token$1=_release_token(task, token, 0, 1);
-  return return_value__release_token$1;
+  signed int return_value__release_token_1;
+  return_value__release_token_1=_release_token(task, token, 0, 1);
+  return return_value__release_token_1;
 }
 
 // release_token_opened
 // file resource.c line 425
 static signed int release_token_opened(struct task *task, struct token *token)
 {
-  signed int return_value__release_token$1;
-  return_value__release_token$1=_release_token(task, token, 1, 0);
-  return return_value__release_token$1;
+  signed int return_value__release_token_1;
+  return_value__release_token_1=_release_token(task, token, 1, 0);
+  return return_value__release_token_1;
 }
 
 // rem_lockspace_start
@@ -13313,17 +13313,17 @@ signed int rem_lockspace_wait(struct sanlk_lockspace *ls, unsigned int space_id)
 {
   struct space *sp;
   signed int done;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while((_Bool)1)
   {
     pthread_mutex_lock(&spaces_mutex);
     sp=_search_space(ls->name, (struct sync_disk *)&ls->host_id_disk, ls->host_id, &spaces, &spaces_rem, (struct list_head *)(void *)0);
     if(!(sp == ((struct space *)NULL)))
-      tmp_if_expr$1 = sp->space_id == space_id ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = sp->space_id == space_id ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       done = 0;
 
     else
@@ -13444,9 +13444,9 @@ static void * resource_thread(void *arg)
   setup_task_aio(&task, main_task.use_aio, 2);
   sprintf(task.name, "%s", (const void *)"resource");
   tt_len = (signed int)(sizeof(struct token) /*472ul*/  + (unsigned long int)4 * sizeof(struct sync_disk) /*1040ul*/ );
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)tt_len);
-  tt = (struct token *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)tt_len);
+  tt = (struct token *)return_value_malloc_1;
   if(tt == ((struct token *)NULL))
     log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "resource_thread tt malloc error");
 
@@ -13568,7 +13568,7 @@ static void resource_thread_release(struct task *task, struct resource *r, struc
 out:
   ;
   pthread_mutex_lock(&resource_mutex);
-  list_del$link2(&r->list);
+  list_del_link2(&r->list);
   pthread_mutex_unlock(&resource_mutex);
   free((void *)r);
 }
@@ -13587,18 +13587,18 @@ static unsigned int roundup_power_of_two(unsigned int val)
   return val;
 }
 
-// roundup_power_of_two$link1
+// roundup_power_of_two_link1
 // file paxos_lease.c line 48
-static unsigned int roundup_power_of_two$link1(unsigned int val$link1)
+static unsigned int roundup_power_of_two_link1(unsigned int val_link1)
 {
-  val$link1 = val$link1 - 1u;
-  val$link1 = val$link1 | val$link1 >> 1;
-  val$link1 = val$link1 | val$link1 >> 2;
-  val$link1 = val$link1 | val$link1 >> 4;
-  val$link1 = val$link1 | val$link1 >> 8;
-  val$link1 = val$link1 | val$link1 >> 16;
-  val$link1 = val$link1 + 1u;
-  return val$link1;
+  val_link1 = val_link1 - 1u;
+  val_link1 = val_link1 | val_link1 >> 1;
+  val_link1 = val_link1 | val_link1 >> 2;
+  val_link1 = val_link1 | val_link1 >> 4;
+  val_link1 = val_link1 | val_link1 >> 8;
+  val_link1 = val_link1 | val_link1 >> 16;
+  val_link1 = val_link1 + 1u;
+  return val_link1;
 }
 
 // run_ballot
@@ -13622,13 +13622,13 @@ static signed int run_ballot(struct task *task, struct token *token, signed int 
   signed int rv;
   signed int q_max = -1;
   signed int error;
-  unsigned int return_value_roundup_power_of_two$1;
-  return_value_roundup_power_of_two$1=roundup_power_of_two((unsigned int)(num_hosts + 2));
-  sector_count = (signed int)return_value_roundup_power_of_two$1;
+  unsigned int return_value_roundup_power_of_two_1;
+  return_value_roundup_power_of_two_1=roundup_power_of_two((unsigned int)(num_hosts + 2));
+  sector_count = (signed int)return_value_roundup_power_of_two_1;
   iobuf_len = sector_count * sector_size;
-  signed int return_value_majority_disks$4;
-  signed int return_value_majority_disks$5;
-  signed int return_value_majority_disks$6;
+  signed int return_value_majority_disks_4;
+  signed int return_value_majority_disks_5;
+  signed int return_value_majority_disks_6;
   if(iobuf_len == 0)
     return -22;
 
@@ -13638,9 +13638,9 @@ static signed int run_ballot(struct task *task, struct token *token, signed int 
     for( ; !(d >= num_disks); d = d + 1)
     {
       p_iobuf[(signed long int)d] = &iobuf[(signed long int)d];
-      signed int return_value_getpagesize$2;
-      return_value_getpagesize$2=getpagesize();
-      rv=posix_memalign((void **)(void *)p_iobuf[(signed long int)d], (unsigned long int)return_value_getpagesize$2, (unsigned long int)iobuf_len);
+      signed int return_value_getpagesize_2;
+      return_value_getpagesize_2=getpagesize();
+      rv=posix_memalign((void **)(void *)p_iobuf[(signed long int)d], (unsigned long int)return_value_getpagesize_2, (unsigned long int)iobuf_len);
       if(!(rv == 0))
         return rv;
 
@@ -13660,9 +13660,9 @@ static signed int run_ballot(struct task *task, struct token *token, signed int 
         num_writes = num_writes + 1;
 
     }
-    signed int return_value_majority_disks$3;
-    return_value_majority_disks$3=majority_disks(num_disks, num_writes);
-    if(return_value_majority_disks$3 == 0)
+    signed int return_value_majority_disks_3;
+    return_value_majority_disks_3=majority_disks(num_disks, num_writes);
+    if(return_value_majority_disks_3 == 0)
     {
       log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "ballot %llu dblock write error %d", (unsigned long long int)next_lver, rv);
       error = -211;
@@ -13733,8 +13733,8 @@ static signed int run_ballot(struct task *task, struct token *token, signed int 
         }
 
       }
-      return_value_majority_disks$4=majority_disks(num_disks, num_reads);
-      if(return_value_majority_disks$4 == 0)
+      return_value_majority_disks_4=majority_disks(num_disks, num_reads);
+      if(return_value_majority_disks_4 == 0)
       {
         log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "ballot %llu dblock read error %d", (unsigned long long int)next_lver, rv);
         error = -210;
@@ -13770,8 +13770,8 @@ static signed int run_ballot(struct task *task, struct token *token, signed int 
             num_writes = num_writes + 1;
 
         }
-        return_value_majority_disks$5=majority_disks(num_disks, num_writes);
-        if(return_value_majority_disks$5 == 0)
+        return_value_majority_disks_5=majority_disks(num_disks, num_writes);
+        if(return_value_majority_disks_5 == 0)
         {
           log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "ballot %llu our dblock write2 error %d", (unsigned long long int)next_lver, rv);
           error = -211;
@@ -13829,8 +13829,8 @@ static signed int run_ballot(struct task *task, struct token *token, signed int 
             }
 
           }
-          return_value_majority_disks$6=majority_disks(num_disks, num_reads);
-          if(return_value_majority_disks$6 == 0)
+          return_value_majority_disks_6=majority_disks(num_disks, num_reads);
+          if(return_value_majority_disks_6 == 0)
           {
             log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "ballot %llu dblock read2 error %d", (unsigned long long int)next_lver, rv);
             error = -210;
@@ -13856,124 +13856,124 @@ static signed int run_ballot(struct task *task, struct token *token, signed int 
   }
 }
 
-// run_ballot$link1
+// run_ballot_link1
 // file paxos_lease.c line 253
-static signed int run_ballot$link1(struct task *task$link1, struct token *token$link1, signed int num_hosts$link1, unsigned long int next_lver$link1, unsigned long int our_mbal$link1, struct paxos_dblock *dblock_out$link1)
+static signed int run_ballot_link1(struct task *task_link1, struct token *token_link1, signed int num_hosts_link1, unsigned long int next_lver_link1, unsigned long int our_mbal_link1, struct paxos_dblock *dblock_out_link1)
 {
-  struct paxos_dblock dblock$link1;
-  struct paxos_dblock bk_max$link1;
-  struct paxos_dblock *bk$link1;
-  struct sync_disk *disk$link1;
-  char *iobuf$link1[4l];
-  char **p_iobuf$link1[4l];
-  signed int num_disks$link1 = (signed int)token$link1->r.num_disks;
-  signed int num_writes$link1;
-  signed int num_reads$link1;
-  signed int sector_size$link1 = (signed int)(token$link1->disks + (signed long int)0)->sector_size;
-  signed int sector_count$link1;
-  signed int iobuf_len$link1;
-  signed int d$link1;
-  signed int q$link1;
-  signed int rv$link1;
-  signed int q_max$link1 = -1;
-  signed int error$link1;
-  unsigned int return_value_roundup_power_of_two$1$link1;
-  return_value_roundup_power_of_two$1$link1=roundup_power_of_two$link1((unsigned int)(num_hosts$link1 + 2));
-  sector_count$link1 = (signed int)return_value_roundup_power_of_two$1$link1;
-  iobuf_len$link1 = sector_count$link1 * sector_size$link1;
-  signed int return_value_majority_disks$4$link1;
-  signed int return_value_majority_disks$5$link1;
-  signed int return_value_majority_disks$6$link1;
-  if(iobuf_len$link1 == 0)
+  struct paxos_dblock dblock_link1;
+  struct paxos_dblock bk_max_link1;
+  struct paxos_dblock *bk_link1;
+  struct sync_disk *disk_link1;
+  char *iobuf_link1[4l];
+  char **p_iobuf_link1[4l];
+  signed int num_disks_link1 = (signed int)token_link1->r.num_disks;
+  signed int num_writes_link1;
+  signed int num_reads_link1;
+  signed int sector_size_link1 = (signed int)(token_link1->disks + (signed long int)0)->sector_size;
+  signed int sector_count_link1;
+  signed int iobuf_len_link1;
+  signed int d_link1;
+  signed int q_link1;
+  signed int rv_link1;
+  signed int q_max_link1 = -1;
+  signed int error_link1;
+  unsigned int return_value_roundup_power_of_two_1_link1;
+  return_value_roundup_power_of_two_1_link1=roundup_power_of_two_link1((unsigned int)(num_hosts_link1 + 2));
+  sector_count_link1 = (signed int)return_value_roundup_power_of_two_1_link1;
+  iobuf_len_link1 = sector_count_link1 * sector_size_link1;
+  signed int return_value_majority_disks_4_link1;
+  signed int return_value_majority_disks_5_link1;
+  signed int return_value_majority_disks_6_link1;
+  if(iobuf_len_link1 == 0)
     return -22;
 
   else
   {
-    d$link1 = 0;
-    for( ; !(d$link1 >= num_disks$link1); d$link1 = d$link1 + 1)
+    d_link1 = 0;
+    for( ; !(d_link1 >= num_disks_link1); d_link1 = d_link1 + 1)
     {
-      p_iobuf$link1[(signed long int)d$link1] = &iobuf$link1[(signed long int)d$link1];
-      signed int return_value_getpagesize$2$link1;
-      return_value_getpagesize$2$link1=getpagesize();
-      rv$link1=posix_memalign((void **)(void *)p_iobuf$link1[(signed long int)d$link1], (unsigned long int)return_value_getpagesize$2$link1, (unsigned long int)iobuf_len$link1);
-      if(!(rv$link1 == 0))
-        return rv$link1;
+      p_iobuf_link1[(signed long int)d_link1] = &iobuf_link1[(signed long int)d_link1];
+      signed int return_value_getpagesize_2_link1;
+      return_value_getpagesize_2_link1=getpagesize();
+      rv_link1=posix_memalign((void **)(void *)p_iobuf_link1[(signed long int)d_link1], (unsigned long int)return_value_getpagesize_2_link1, (unsigned long int)iobuf_len_link1);
+      if(!(rv_link1 == 0))
+        return rv_link1;
 
     }
-    log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 7, "ballot %llu phase1 mbal %llu", (unsigned long long int)next_lver$link1, (unsigned long long int)our_mbal$link1);
-    memset((void *)&dblock$link1, 0, sizeof(struct paxos_dblock) /*56ul*/ );
-    dblock$link1.mbal = our_mbal$link1;
-    dblock$link1.lver = next_lver$link1;
-    dblock$link1.checksum=dblock_checksum$link1(&dblock$link1);
-    memset((void *)&bk_max$link1, 0, sizeof(struct paxos_dblock) /*56ul*/ );
-    num_writes$link1 = 0;
-    d$link1 = 0;
-    for( ; !(d$link1 >= num_disks$link1); d$link1 = d$link1 + 1)
+    log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 7, "ballot %llu phase1 mbal %llu", (unsigned long long int)next_lver_link1, (unsigned long long int)our_mbal_link1);
+    memset((void *)&dblock_link1, 0, sizeof(struct paxos_dblock) /*56ul*/ );
+    dblock_link1.mbal = our_mbal_link1;
+    dblock_link1.lver = next_lver_link1;
+    dblock_link1.checksum=dblock_checksum_link1(&dblock_link1);
+    memset((void *)&bk_max_link1, 0, sizeof(struct paxos_dblock) /*56ul*/ );
+    num_writes_link1 = 0;
+    d_link1 = 0;
+    for( ; !(d_link1 >= num_disks_link1); d_link1 = d_link1 + 1)
     {
-      rv$link1=write_dblock$link1(task$link1, &token$link1->disks[(signed long int)d$link1], token$link1->host_id, &dblock$link1);
-      if(rv$link1 >= 0)
-        num_writes$link1 = num_writes$link1 + 1;
+      rv_link1=write_dblock_link1(task_link1, &token_link1->disks[(signed long int)d_link1], token_link1->host_id, &dblock_link1);
+      if(rv_link1 >= 0)
+        num_writes_link1 = num_writes_link1 + 1;
 
     }
-    signed int return_value_majority_disks$3$link1;
-    return_value_majority_disks$3$link1=majority_disks(num_disks$link1, num_writes$link1);
-    if(return_value_majority_disks$3$link1 == 0)
+    signed int return_value_majority_disks_3_link1;
+    return_value_majority_disks_3_link1=majority_disks(num_disks_link1, num_writes_link1);
+    if(return_value_majority_disks_3_link1 == 0)
     {
-      log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "ballot %llu dblock write error %d", (unsigned long long int)next_lver$link1, rv$link1);
-      error$link1 = -211;
+      log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "ballot %llu dblock write error %d", (unsigned long long int)next_lver_link1, rv_link1);
+      error_link1 = -211;
     }
 
     else
     {
-      num_reads$link1 = 0;
-      d$link1 = 0;
-      for( ; !(d$link1 >= num_disks$link1); d$link1 = d$link1 + 1)
+      num_reads_link1 = 0;
+      d_link1 = 0;
+      for( ; !(d_link1 >= num_disks_link1); d_link1 = d_link1 + 1)
       {
-        disk$link1 = &token$link1->disks[(signed long int)d$link1];
-        if(!(iobuf$link1[(signed long int)d$link1] == ((char *)NULL)))
+        disk_link1 = &token_link1->disks[(signed long int)d_link1];
+        if(!(iobuf_link1[(signed long int)d_link1] == ((char *)NULL)))
         {
-          memset((void *)iobuf$link1[(signed long int)d$link1], 0, (unsigned long int)iobuf_len$link1);
-          rv$link1=read_iobuf(disk$link1->fd, disk$link1->offset, iobuf$link1[(signed long int)d$link1], iobuf_len$link1, task$link1);
-          if(rv$link1 == -202)
-            iobuf$link1[(signed long int)d$link1] = (char *)(void *)0;
+          memset((void *)iobuf_link1[(signed long int)d_link1], 0, (unsigned long int)iobuf_len_link1);
+          rv_link1=read_iobuf(disk_link1->fd, disk_link1->offset, iobuf_link1[(signed long int)d_link1], iobuf_len_link1, task_link1);
+          if(rv_link1 == -202)
+            iobuf_link1[(signed long int)d_link1] = (char *)(void *)0;
 
-          if(rv$link1 >= 0)
+          if(rv_link1 >= 0)
           {
-            num_reads$link1 = num_reads$link1 + 1;
-            q$link1 = 0;
-            for( ; !(q$link1 >= num_hosts$link1); q$link1 = q$link1 + 1)
+            num_reads_link1 = num_reads_link1 + 1;
+            q_link1 = 0;
+            for( ; !(q_link1 >= num_hosts_link1); q_link1 = q_link1 + 1)
             {
-              bk$link1 = (struct paxos_dblock *)(iobuf$link1[(signed long int)d$link1] + (signed long int)((2 + q$link1) * sector_size$link1));
-              rv$link1=verify_dblock$link1(token$link1, bk$link1);
-              if(rv$link1 >= 0)
+              bk_link1 = (struct paxos_dblock *)(iobuf_link1[(signed long int)d_link1] + (signed long int)((2 + q_link1) * sector_size_link1));
+              rv_link1=verify_dblock_link1(token_link1, bk_link1);
+              if(rv_link1 >= 0)
               {
-                check_mode_block(token$link1, q$link1, (char *)bk$link1);
-                if(bk$link1->lver >= dblock$link1.lver)
+                check_mode_block(token_link1, q_link1, (char *)bk_link1);
+                if(bk_link1->lver >= dblock_link1.lver)
                 {
-                  if(!(dblock$link1.lver >= bk$link1->lver))
+                  if(!(dblock_link1.lver >= bk_link1->lver))
                   {
-                    log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "ballot %llu larger1 lver[%d] %llu", (unsigned long long int)next_lver$link1, q$link1, (unsigned long long int)bk$link1->lver);
-                    error$link1 = -212;
+                    log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "ballot %llu larger1 lver[%d] %llu", (unsigned long long int)next_lver_link1, q_link1, (unsigned long long int)bk_link1->lver);
+                    error_link1 = -212;
                     goto out;
                   }
 
-                  if(!(dblock$link1.mbal >= bk$link1->mbal))
+                  if(!(dblock_link1.mbal >= bk_link1->mbal))
                   {
-                    log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "ballot %llu abort1 mbal %llu mbal[%d] %llu", (unsigned long long int)next_lver$link1, (unsigned long long int)our_mbal$link1, q$link1, (unsigned long long int)bk$link1->mbal);
-                    error$link1 = -213;
+                    log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "ballot %llu abort1 mbal %llu mbal[%d] %llu", (unsigned long long int)next_lver_link1, (unsigned long long int)our_mbal_link1, q_link1, (unsigned long long int)bk_link1->mbal);
+                    error_link1 = -213;
                     goto out;
                   }
 
-                  if(!(bk$link1->inp == 0ul))
+                  if(!(bk_link1->inp == 0ul))
                   {
-                    if(bk$link1->bal == 0ul)
-                      log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "ballot %llu zero bal inp[%d] %llu", (unsigned long long int)next_lver$link1, q$link1, (unsigned long long int)bk$link1->inp);
+                    if(bk_link1->bal == 0ul)
+                      log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "ballot %llu zero bal inp[%d] %llu", (unsigned long long int)next_lver_link1, q_link1, (unsigned long long int)bk_link1->inp);
 
                     else
-                      if(!(bk_max$link1.bal >= bk$link1->bal))
+                      if(!(bk_max_link1.bal >= bk_link1->bal))
                       {
-                        bk_max$link1 = *bk$link1;
-                        q_max$link1 = q$link1;
+                        bk_max_link1 = *bk_link1;
+                        q_max_link1 = q_link1;
                       }
 
                   }
@@ -13988,89 +13988,89 @@ static signed int run_ballot$link1(struct task *task$link1, struct token *token$
         }
 
       }
-      return_value_majority_disks$4$link1=majority_disks(num_disks$link1, num_reads$link1);
-      if(return_value_majority_disks$4$link1 == 0)
+      return_value_majority_disks_4_link1=majority_disks(num_disks_link1, num_reads_link1);
+      if(return_value_majority_disks_4_link1 == 0)
       {
-        log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "ballot %llu dblock read error %d", (unsigned long long int)next_lver$link1, rv$link1);
-        error$link1 = -210;
+        log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "ballot %llu dblock read error %d", (unsigned long long int)next_lver_link1, rv_link1);
+        error_link1 = -210;
       }
 
       else
       {
-        if(!(bk_max$link1.inp == 0ul))
+        if(!(bk_max_link1.inp == 0ul))
         {
-          dblock$link1.inp = bk_max$link1.inp;
-          dblock$link1.inp2 = bk_max$link1.inp2;
-          dblock$link1.inp3 = bk_max$link1.inp3;
+          dblock_link1.inp = bk_max_link1.inp;
+          dblock_link1.inp2 = bk_max_link1.inp2;
+          dblock_link1.inp3 = bk_max_link1.inp3;
         }
 
         else
         {
-          dblock$link1.inp = token$link1->host_id;
-          dblock$link1.inp2 = token$link1->host_generation;
-          dblock$link1.inp3=monotime();
+          dblock_link1.inp = token_link1->host_id;
+          dblock_link1.inp2 = token_link1->host_generation;
+          dblock_link1.inp3=monotime();
         }
-        dblock$link1.bal = dblock$link1.mbal;
-        dblock$link1.checksum=dblock_checksum$link1(&dblock$link1);
-        if(!(bk_max$link1.inp == 0ul))
-          log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "ballot %llu choose bk_max[%d] lver %llu mbal %llu bal %llu inp %llu %llu %llu", (unsigned long long int)next_lver$link1, q_max$link1, (unsigned long long int)bk_max$link1.lver, (unsigned long long int)bk_max$link1.mbal, (unsigned long long int)bk_max$link1.bal, (unsigned long long int)bk_max$link1.inp, (unsigned long long int)bk_max$link1.inp2, (unsigned long long int)bk_max$link1.inp3);
+        dblock_link1.bal = dblock_link1.mbal;
+        dblock_link1.checksum=dblock_checksum_link1(&dblock_link1);
+        if(!(bk_max_link1.inp == 0ul))
+          log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "ballot %llu choose bk_max[%d] lver %llu mbal %llu bal %llu inp %llu %llu %llu", (unsigned long long int)next_lver_link1, q_max_link1, (unsigned long long int)bk_max_link1.lver, (unsigned long long int)bk_max_link1.mbal, (unsigned long long int)bk_max_link1.bal, (unsigned long long int)bk_max_link1.inp, (unsigned long long int)bk_max_link1.inp2, (unsigned long long int)bk_max_link1.inp3);
 
-        log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 7, "ballot %llu phase2 bal %llu inp %llu %llu %llu q_max %d", (unsigned long long int)dblock$link1.lver, (unsigned long long int)dblock$link1.bal, (unsigned long long int)dblock$link1.inp, (unsigned long long int)dblock$link1.inp2, (unsigned long long int)dblock$link1.inp3, q_max$link1);
-        num_writes$link1 = 0;
-        d$link1 = 0;
-        for( ; !(d$link1 >= num_disks$link1); d$link1 = d$link1 + 1)
+        log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 7, "ballot %llu phase2 bal %llu inp %llu %llu %llu q_max %d", (unsigned long long int)dblock_link1.lver, (unsigned long long int)dblock_link1.bal, (unsigned long long int)dblock_link1.inp, (unsigned long long int)dblock_link1.inp2, (unsigned long long int)dblock_link1.inp3, q_max_link1);
+        num_writes_link1 = 0;
+        d_link1 = 0;
+        for( ; !(d_link1 >= num_disks_link1); d_link1 = d_link1 + 1)
         {
-          rv$link1=write_dblock$link1(task$link1, &token$link1->disks[(signed long int)d$link1], token$link1->host_id, &dblock$link1);
-          if(rv$link1 >= 0)
-            num_writes$link1 = num_writes$link1 + 1;
+          rv_link1=write_dblock_link1(task_link1, &token_link1->disks[(signed long int)d_link1], token_link1->host_id, &dblock_link1);
+          if(rv_link1 >= 0)
+            num_writes_link1 = num_writes_link1 + 1;
 
         }
-        return_value_majority_disks$5$link1=majority_disks(num_disks$link1, num_writes$link1);
-        if(return_value_majority_disks$5$link1 == 0)
+        return_value_majority_disks_5_link1=majority_disks(num_disks_link1, num_writes_link1);
+        if(return_value_majority_disks_5_link1 == 0)
         {
-          log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "ballot %llu our dblock write2 error %d", (unsigned long long int)next_lver$link1, rv$link1);
-          error$link1 = -211;
+          log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "ballot %llu our dblock write2 error %d", (unsigned long long int)next_lver_link1, rv_link1);
+          error_link1 = -211;
         }
 
         else
         {
-          num_reads$link1 = 0;
-          d$link1 = 0;
-          for( ; !(d$link1 >= num_disks$link1); d$link1 = d$link1 + 1)
+          num_reads_link1 = 0;
+          d_link1 = 0;
+          for( ; !(d_link1 >= num_disks_link1); d_link1 = d_link1 + 1)
           {
-            disk$link1 = &token$link1->disks[(signed long int)d$link1];
-            if(!(iobuf$link1[(signed long int)d$link1] == ((char *)NULL)))
+            disk_link1 = &token_link1->disks[(signed long int)d_link1];
+            if(!(iobuf_link1[(signed long int)d_link1] == ((char *)NULL)))
             {
-              memset((void *)iobuf$link1[(signed long int)d$link1], 0, (unsigned long int)iobuf_len$link1);
-              rv$link1=read_iobuf(disk$link1->fd, disk$link1->offset, iobuf$link1[(signed long int)d$link1], iobuf_len$link1, task$link1);
-              if(rv$link1 == -202)
-                iobuf$link1[(signed long int)d$link1] = (char *)(void *)0;
+              memset((void *)iobuf_link1[(signed long int)d_link1], 0, (unsigned long int)iobuf_len_link1);
+              rv_link1=read_iobuf(disk_link1->fd, disk_link1->offset, iobuf_link1[(signed long int)d_link1], iobuf_len_link1, task_link1);
+              if(rv_link1 == -202)
+                iobuf_link1[(signed long int)d_link1] = (char *)(void *)0;
 
-              if(rv$link1 >= 0)
+              if(rv_link1 >= 0)
               {
-                num_reads$link1 = num_reads$link1 + 1;
-                q$link1 = 0;
-                for( ; !(q$link1 >= num_hosts$link1); q$link1 = q$link1 + 1)
+                num_reads_link1 = num_reads_link1 + 1;
+                q_link1 = 0;
+                for( ; !(q_link1 >= num_hosts_link1); q_link1 = q_link1 + 1)
                 {
-                  bk$link1 = (struct paxos_dblock *)(iobuf$link1[(signed long int)d$link1] + (signed long int)((2 + q$link1) * sector_size$link1));
-                  rv$link1=verify_dblock$link1(token$link1, bk$link1);
-                  if(rv$link1 >= 0)
+                  bk_link1 = (struct paxos_dblock *)(iobuf_link1[(signed long int)d_link1] + (signed long int)((2 + q_link1) * sector_size_link1));
+                  rv_link1=verify_dblock_link1(token_link1, bk_link1);
+                  if(rv_link1 >= 0)
                   {
-                    if(bk$link1->lver >= dblock$link1.lver)
+                    if(bk_link1->lver >= dblock_link1.lver)
                     {
-                      if(!(dblock$link1.lver >= bk$link1->lver))
+                      if(!(dblock_link1.lver >= bk_link1->lver))
                       {
-                        log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "ballot %llu larger2 lver[%d] %llu dblock %llu", (unsigned long long int)next_lver$link1, q$link1, (unsigned long long int)bk$link1->lver, (unsigned long long int)dblock$link1.lver);
-                        log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "ballot %llu larger2 mbal[%d] %llu dblock %llu", (unsigned long long int)next_lver$link1, q$link1, (unsigned long long int)bk$link1->mbal, (unsigned long long int)dblock$link1.mbal);
-                        log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "ballot %llu larger2 inp[%d] %llu %llu %llu dblock %llu %llu %llu", (unsigned long long int)next_lver$link1, q$link1, (unsigned long long int)bk$link1->inp, (unsigned long long int)bk$link1->inp2, (unsigned long long int)bk$link1->inp3, (unsigned long long int)dblock$link1.inp, (unsigned long long int)dblock$link1.inp2, (unsigned long long int)dblock$link1.inp3);
-                        error$link1 = -212;
+                        log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "ballot %llu larger2 lver[%d] %llu dblock %llu", (unsigned long long int)next_lver_link1, q_link1, (unsigned long long int)bk_link1->lver, (unsigned long long int)dblock_link1.lver);
+                        log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "ballot %llu larger2 mbal[%d] %llu dblock %llu", (unsigned long long int)next_lver_link1, q_link1, (unsigned long long int)bk_link1->mbal, (unsigned long long int)dblock_link1.mbal);
+                        log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "ballot %llu larger2 inp[%d] %llu %llu %llu dblock %llu %llu %llu", (unsigned long long int)next_lver_link1, q_link1, (unsigned long long int)bk_link1->inp, (unsigned long long int)bk_link1->inp2, (unsigned long long int)bk_link1->inp3, (unsigned long long int)dblock_link1.inp, (unsigned long long int)dblock_link1.inp2, (unsigned long long int)dblock_link1.inp3);
+                        error_link1 = -212;
                         goto out;
                       }
 
-                      if(!(dblock$link1.mbal >= bk$link1->mbal))
+                      if(!(dblock_link1.mbal >= bk_link1->mbal))
                       {
-                        log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "ballot %llu abort2 mbal %llu mbal[%d] %llu", (unsigned long long int)next_lver$link1, (unsigned long long int)our_mbal$link1, q$link1, (unsigned long long int)bk$link1->mbal);
-                        error$link1 = -213;
+                        log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "ballot %llu abort2 mbal %llu mbal[%d] %llu", (unsigned long long int)next_lver_link1, (unsigned long long int)our_mbal_link1, q_link1, (unsigned long long int)bk_link1->mbal);
+                        error_link1 = -213;
                         goto out;
                       }
 
@@ -14084,17 +14084,17 @@ static signed int run_ballot$link1(struct task *task$link1, struct token *token$
             }
 
           }
-          return_value_majority_disks$6$link1=majority_disks(num_disks$link1, num_reads$link1);
-          if(return_value_majority_disks$6$link1 == 0)
+          return_value_majority_disks_6_link1=majority_disks(num_disks_link1, num_reads_link1);
+          if(return_value_majority_disks_6_link1 == 0)
           {
-            log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "ballot %llu dblock read2 error %d", (unsigned long long int)next_lver$link1, rv$link1);
-            error$link1 = -210;
+            log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "ballot %llu dblock read2 error %d", (unsigned long long int)next_lver_link1, rv_link1);
+            error_link1 = -210;
           }
 
           else
           {
-            memcpy((void *)dblock_out$link1, (const void *)&dblock$link1, sizeof(struct paxos_dblock) /*56ul*/ );
-            error$link1 = 1;
+            memcpy((void *)dblock_out_link1, (const void *)&dblock_link1, sizeof(struct paxos_dblock) /*56ul*/ );
+            error_link1 = 1;
           }
         }
       }
@@ -14102,12 +14102,12 @@ static signed int run_ballot$link1(struct task *task$link1, struct token *token$
 
   out:
     ;
-    d$link1 = 0;
-    for( ; !(d$link1 >= num_disks$link1); d$link1 = d$link1 + 1)
-      if(!(iobuf$link1[(signed long int)d$link1] == ((char *)NULL)))
-        free((void *)iobuf$link1[(signed long int)d$link1]);
+    d_link1 = 0;
+    for( ; !(d_link1 >= num_disks_link1); d_link1 = d_link1 + 1)
+      if(!(iobuf_link1[(signed long int)d_link1] == ((char *)NULL)))
+        free((void *)iobuf_link1[(signed long int)d_link1]);
 
-    return error$link1;
+    return error_link1;
   }
 }
 
@@ -14170,18 +14170,18 @@ signed int sanlock_acquire(signed int sock, signed int pid, unsigned int flags, 
       for( ; !(i >= res_count); i = i + 1)
       {
         res = res_args[(signed long int)i];
-        signed long int return_value_send$1;
-        return_value_send$1=send(fd, (const void *)res, sizeof(struct sanlk_resource) /*128ul*/ , 0);
-        rv = (signed int)return_value_send$1;
+        signed long int return_value_send_1;
+        return_value_send_1=send(fd, (const void *)res, sizeof(struct sanlk_resource) /*128ul*/ , 0);
+        rv = (signed int)return_value_send_1;
         if(!(rv >= 0))
         {
           rv = -1;
           goto out;
         }
 
-        signed long int return_value_send$2;
-        return_value_send$2=send(fd, (const void *)res->disks, sizeof(struct sanlk_disk) /*1040ul*/  * (unsigned long int)res->num_disks, 0);
-        rv = (signed int)return_value_send$2;
+        signed long int return_value_send_2;
+        return_value_send_2=send(fd, (const void *)res->disks, sizeof(struct sanlk_disk) /*1040ul*/  * (unsigned long int)res->num_disks, 0);
+        rv = (signed int)return_value_send_2;
         if(!(rv >= 0))
         {
           rv = -1;
@@ -14189,9 +14189,9 @@ signed int sanlock_acquire(signed int sock, signed int pid, unsigned int flags, 
         }
 
       }
-      signed long int return_value_send$3;
-      return_value_send$3=send(fd, (const void *)&opt, sizeof(struct sanlk_options) /*56ul*/ , 0);
-      rv = (signed int)return_value_send$3;
+      signed long int return_value_send_3;
+      return_value_send_3=send(fd, (const void *)&opt, sizeof(struct sanlk_options) /*56ul*/ , 0);
+      rv = (signed int)return_value_send_3;
       if(!(rv >= 0))
         rv = -1;
 
@@ -14199,9 +14199,9 @@ signed int sanlock_acquire(signed int sock, signed int pid, unsigned int flags, 
       {
         if(!(opt.len == 0u))
         {
-          signed long int return_value_send$4;
-          return_value_send$4=send(fd, (const void *)opt_in->str, (unsigned long int)opt.len, 0);
-          rv = (signed int)return_value_send$4;
+          signed long int return_value_send_4;
+          return_value_send_4=send(fd, (const void *)opt_in->str, (unsigned long int)opt.len, 0);
+          rv = (signed int)return_value_send_4;
           if(!(rv >= 0))
           {
             rv = -1;
@@ -14227,9 +14227,9 @@ signed int sanlock_acquire(signed int sock, signed int pid, unsigned int flags, 
 // file sanlock_admin.h line 29
 signed int sanlock_add_lockspace(struct sanlk_lockspace *ls, unsigned int flags)
 {
-  signed int return_value_cmd_lockspace$1;
-  return_value_cmd_lockspace$1=cmd_lockspace(2, ls, flags);
-  return return_value_cmd_lockspace$1;
+  signed int return_value_cmd_lockspace_1;
+  return_value_cmd_lockspace_1=cmd_lockspace(2, ls, flags);
+  return return_value_cmd_lockspace_1;
 }
 
 // sanlock_align
@@ -14239,7 +14239,7 @@ signed int sanlock_align(struct sanlk_disk *disk)
   signed int rv;
   signed int fd;
   rv=connect_socket(&fd);
-  signed long int return_value_send$1;
+  signed long int return_value_send_1;
   if(!(rv >= 0))
     return rv;
 
@@ -14248,13 +14248,13 @@ signed int sanlock_align(struct sanlk_disk *disk)
     rv=send_header(fd, 12, (unsigned int)0, (signed int)sizeof(struct sanlk_disk) /*1040ul*/ , (unsigned int)0, (unsigned int)0);
     if(rv >= 0)
     {
-      return_value_send$1=send(fd, (void *)disk, sizeof(struct sanlk_disk) /*1040ul*/ , 0);
-      rv = (signed int)return_value_send$1;
+      return_value_send_1=send(fd, (void *)disk, sizeof(struct sanlk_disk) /*1040ul*/ , 0);
+      rv = (signed int)return_value_send_1;
       if(!(rv >= 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        rv = -(*return_value___errno_location$2);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        rv = -(*return_value___errno_location_2);
         goto out;
       }
 
@@ -14277,9 +14277,9 @@ signed int sanlock_args_to_state(signed int res_count, struct sanlk_resource **r
   char *state;
   signed int i;
   signed int rv;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(res_count * (4400 + 1)));
-  state = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(res_count * (4400 + 1)));
+  state = (char *)return_value_malloc_1;
   if(state == ((char *)NULL))
     return -12;
 
@@ -14297,18 +14297,18 @@ signed int sanlock_args_to_state(signed int res_count, struct sanlk_resource **r
         return rv;
       }
 
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(str);
-      if(return_value_strlen$2 >= 4400ul)
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(str);
+      if(return_value_strlen_2 >= 4400ul)
       {
         free((void *)str);
         free((void *)state);
         return -22;
       }
 
-      char *return_value_strstr$3;
-      return_value_strstr$3=strstr(str, " ");
-      if(!(return_value_strstr$3 == ((char *)NULL)))
+      char *return_value_strstr_3;
+      return_value_strstr_3=strstr(str, " ");
+      if(!(return_value_strstr_3 == ((char *)NULL)))
       {
         free((void *)str);
         free((void *)state);
@@ -14392,8 +14392,8 @@ signed int sanlock_examine(unsigned int flags, struct sanlk_lockspace *ls, struc
   signed int fd;
   signed int cmd;
   signed int datalen;
-  _Bool tmp_if_expr$1;
-  signed long int return_value_send$2;
+  _Bool tmp_if_expr_1;
+  signed long int return_value_send_2;
   if(ls == ((struct sanlk_lockspace *)NULL) && res == ((struct sanlk_resource *)NULL))
     return -22;
 
@@ -14406,11 +14406,11 @@ signed int sanlock_examine(unsigned int flags, struct sanlk_lockspace *ls, struc
     else
     {
       if(!(ls == ((struct sanlk_lockspace *)NULL)))
-        tmp_if_expr$1 = ls->host_id_disk.path[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = ls->host_id_disk.path[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
       {
         cmd = 15;
         datalen = (signed int)sizeof(struct sanlk_lockspace) /*1104ul*/ ;
@@ -14426,13 +14426,13 @@ signed int sanlock_examine(unsigned int flags, struct sanlk_lockspace *ls, struc
       rv=send_header(fd, cmd, flags, datalen, (unsigned int)0, (unsigned int)0);
       if(rv >= 0)
       {
-        return_value_send$2=send(fd, (const void *)data, (unsigned long int)datalen, 0);
-        rv = (signed int)return_value_send$2;
+        return_value_send_2=send(fd, (const void *)data, (unsigned long int)datalen, 0);
+        rv = (signed int)return_value_send_2;
         if(!(rv >= 0))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          rv = -(*return_value___errno_location$3);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          rv = -(*return_value___errno_location_3);
           goto out;
         }
 
@@ -14458,14 +14458,14 @@ signed int sanlock_host_status(signed int debug, char *lockspace_name)
   char str[4096l];
   signed int fd;
   signed int rv;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(lockspace_name == ((char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(lockspace_name[(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
-  signed long int return_value_recv$3;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(lockspace_name[(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
+  signed long int return_value_recv_3;
+  if(tmp_if_expr_1)
     return -1;
 
   else
@@ -14478,18 +14478,18 @@ signed int sanlock_host_status(signed int debug, char *lockspace_name)
     {
       memset((void *)&lockspace, 0, sizeof(struct sanlk_lockspace) /*1104ul*/ );
       snprintf(lockspace.name, (unsigned long int)48, "%s", lockspace_name);
-      signed long int return_value_send$2;
-      return_value_send$2=send(fd, (const void *)&lockspace, sizeof(struct sanlk_lockspace) /*1104ul*/ , 0);
-      rv = (signed int)return_value_send$2;
+      signed long int return_value_send_2;
+      return_value_send_2=send(fd, (const void *)&lockspace, sizeof(struct sanlk_lockspace) /*1104ul*/ , 0);
+      rv = (signed int)return_value_send_2;
       if(rv >= 0)
       {
-        return_value_recv$3=recv(fd, (void *)&h, sizeof(struct sm_header) /*32ul*/ , 256);
-        rv = (signed int)return_value_recv$3;
+        return_value_recv_3=recv(fd, (void *)&h, sizeof(struct sm_header) /*32ul*/ , 256);
+        rv = (signed int)return_value_recv_3;
         if(!(rv >= 0))
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          rv = -(*return_value___errno_location$4);
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          rv = -(*return_value___errno_location_4);
           goto out;
         }
 
@@ -14500,9 +14500,9 @@ signed int sanlock_host_status(signed int debug, char *lockspace_name)
         {
           while((_Bool)1)
           {
-            signed long int return_value_recv$5;
-            return_value_recv$5=recv(fd, (void *)&st, sizeof(struct sanlk_state) /*80ul*/ , 256);
-            rv = (signed int)return_value_recv$5;
+            signed long int return_value_recv_5;
+            return_value_recv_5=recv(fd, (void *)&st, sizeof(struct sanlk_state) /*80ul*/ , 256);
+            rv = (signed int)return_value_recv_5;
             if(rv == 0)
               break;
 
@@ -14511,9 +14511,9 @@ signed int sanlock_host_status(signed int debug, char *lockspace_name)
 
             if(!(st.str_len == 0u))
             {
-              signed long int return_value_recv$6;
-              return_value_recv$6=recv(fd, (void *)str, (unsigned long int)st.str_len, 256);
-              rv = (signed int)return_value_recv$6;
+              signed long int return_value_recv_6;
+              return_value_recv_6=recv(fd, (void *)str, (unsigned long int)st.str_len, 256);
+              rv = (signed int)return_value_recv_6;
               if(!((unsigned int)rv == st.str_len))
                 break;
 
@@ -14544,7 +14544,7 @@ signed int sanlock_init(struct sanlk_lockspace *ls, struct sanlk_resource *res, 
   signed int fd;
   signed int cmd;
   signed int datalen;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(ls == ((struct sanlk_lockspace *)NULL) && res == ((struct sanlk_resource *)NULL))
     return -22;
 
@@ -14557,11 +14557,11 @@ signed int sanlock_init(struct sanlk_lockspace *ls, struct sanlk_resource *res, 
     else
     {
       if(!(ls == ((struct sanlk_lockspace *)NULL)))
-        tmp_if_expr$1 = ls->host_id_disk.path[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = ls->host_id_disk.path[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
       {
         cmd = 13;
         datalen = (signed int)sizeof(struct sanlk_lockspace) /*1104ul*/ ;
@@ -14577,14 +14577,14 @@ signed int sanlock_init(struct sanlk_lockspace *ls, struct sanlk_resource *res, 
       {
         if(!(ls == ((struct sanlk_lockspace *)NULL)))
         {
-          signed long int return_value_send$2;
-          return_value_send$2=send(fd, (const void *)ls, sizeof(struct sanlk_lockspace) /*1104ul*/ , 0);
-          rv = (signed int)return_value_send$2;
+          signed long int return_value_send_2;
+          return_value_send_2=send(fd, (const void *)ls, sizeof(struct sanlk_lockspace) /*1104ul*/ , 0);
+          rv = (signed int)return_value_send_2;
           if(!(rv >= 0))
           {
-            signed int *return_value___errno_location$3;
-            return_value___errno_location$3=__errno_location();
-            rv = -(*return_value___errno_location$3);
+            signed int *return_value___errno_location_3;
+            return_value___errno_location_3=__errno_location();
+            rv = -(*return_value___errno_location_3);
             goto out;
           }
 
@@ -14592,25 +14592,25 @@ signed int sanlock_init(struct sanlk_lockspace *ls, struct sanlk_resource *res, 
 
         else
         {
-          signed long int return_value_send$4;
-          return_value_send$4=send(fd, (const void *)res, sizeof(struct sanlk_resource) /*128ul*/ , 0);
-          rv = (signed int)return_value_send$4;
+          signed long int return_value_send_4;
+          return_value_send_4=send(fd, (const void *)res, sizeof(struct sanlk_resource) /*128ul*/ , 0);
+          rv = (signed int)return_value_send_4;
           if(!(rv >= 0))
           {
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            rv = -(*return_value___errno_location$5);
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            rv = -(*return_value___errno_location_5);
             goto out;
           }
 
-          signed long int return_value_send$6;
-          return_value_send$6=send(fd, (const void *)res->disks, sizeof(struct sanlk_disk) /*1040ul*/  * (unsigned long int)res->num_disks, 0);
-          rv = (signed int)return_value_send$6;
+          signed long int return_value_send_6;
+          return_value_send_6=send(fd, (const void *)res->disks, sizeof(struct sanlk_disk) /*1040ul*/  * (unsigned long int)res->num_disks, 0);
+          rv = (signed int)return_value_send_6;
           if(!(rv >= 0))
           {
-            signed int *return_value___errno_location$7;
-            return_value___errno_location$7=__errno_location();
-            rv = -(*return_value___errno_location$7);
+            signed int *return_value___errno_location_7;
+            return_value___errno_location_7=__errno_location();
+            rv = -(*return_value___errno_location_7);
             goto out;
           }
 
@@ -14631,9 +14631,9 @@ signed int sanlock_init(struct sanlk_lockspace *ls, struct sanlk_resource *res, 
 // file sanlock_admin.h line 37
 signed int sanlock_inq_lockspace(struct sanlk_lockspace *ls, unsigned int flags)
 {
-  signed int return_value_cmd_lockspace$1;
-  return_value_cmd_lockspace$1=cmd_lockspace(18, ls, flags);
-  return return_value_cmd_lockspace$1;
+  signed int return_value_cmd_lockspace_1;
+  return_value_cmd_lockspace_1=cmd_lockspace(18, ls, flags);
+  return return_value_cmd_lockspace_1;
 }
 
 // sanlock_inquire
@@ -14665,17 +14665,17 @@ signed int sanlock_inquire(signed int sock, signed int pid, unsigned int flags, 
     fd = sock;
   }
   rv=send_header(fd, 9, flags, 0, (unsigned int)0, (unsigned int)data2);
-  void *return_value_malloc$2;
-  signed long int return_value_recv$3;
+  void *return_value_malloc_2;
+  signed long int return_value_recv_3;
   if(!(rv >= 0))
     return rv;
 
   else
   {
     memset((void *)&h, 0, sizeof(struct sm_header) /*32ul*/ );
-    signed long int return_value_recv$1;
-    return_value_recv$1=recv(fd, (void *)&h, sizeof(struct sm_header) /*32ul*/ , 256);
-    rv = (signed int)return_value_recv$1;
+    signed long int return_value_recv_1;
+    return_value_recv_1=recv(fd, (void *)&h, sizeof(struct sm_header) /*32ul*/ , 256);
+    rv = (signed int)return_value_recv_1;
     if(!((unsigned long int)rv == sizeof(struct sm_header) /*32ul*/ ))
       rv = -1;
 
@@ -14687,15 +14687,15 @@ signed int sanlock_inquire(signed int sock, signed int pid, unsigned int flags, 
 
       else
       {
-        return_value_malloc$2=malloc((unsigned long int)len);
-        reply_data = (char *)return_value_malloc$2;
+        return_value_malloc_2=malloc((unsigned long int)len);
+        reply_data = (char *)return_value_malloc_2;
         if(reply_data == ((char *)NULL))
           rv = -12;
 
         else
         {
-          return_value_recv$3=recv(fd, (void *)reply_data, (unsigned long int)len, 256);
-          rv = (signed int)return_value_recv$3;
+          return_value_recv_3=recv(fd, (void *)reply_data, (unsigned long int)len, 256);
+          rv = (signed int)return_value_recv_3;
           if(!(rv == len))
           {
             free((void *)reply_data);
@@ -14733,10 +14733,10 @@ signed int sanlock_log_dump(signed int max_size)
   char *buf;
   signed int fd;
   signed int rv;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)max_size);
-  buf = (char *)return_value_malloc$1;
-  signed long int return_value_recv$4;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)max_size);
+  buf = (char *)return_value_malloc_1;
+  signed long int return_value_recv_4;
   if(buf == ((char *)NULL))
     return -12;
 
@@ -14753,14 +14753,14 @@ signed int sanlock_log_dump(signed int max_size)
     else
     {
       memset((void *)&h, 0, sizeof(struct sm_header) /*32ul*/ );
-      signed long int return_value_recv$2;
-      return_value_recv$2=recv(fd, (void *)&h, sizeof(struct sm_header) /*32ul*/ , 256);
-      rv = (signed int)return_value_recv$2;
+      signed long int return_value_recv_2;
+      return_value_recv_2=recv(fd, (void *)&h, sizeof(struct sm_header) /*32ul*/ , 256);
+      rv = (signed int)return_value_recv_2;
       if(!(rv >= 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        rv = -(*return_value___errno_location$3);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        rv = -(*return_value___errno_location_3);
         goto out;
       }
 
@@ -14770,13 +14770,13 @@ signed int sanlock_log_dump(signed int max_size)
       else
         if(h.data >= 1u && (unsigned int)max_size >= h.data)
         {
-          return_value_recv$4=recv(fd, (void *)buf, (unsigned long int)h.data, 256);
-          rv = (signed int)return_value_recv$4;
+          return_value_recv_4=recv(fd, (void *)buf, (unsigned long int)h.data, 256);
+          rv = (signed int)return_value_recv_4;
           if(!(rv >= 0))
           {
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            rv = -(*return_value___errno_location$5);
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            rv = -(*return_value___errno_location_5);
             goto out;
           }
 
@@ -14857,9 +14857,9 @@ signed int sanlock_release(signed int sock, signed int pid, unsigned int flags, 
     i = 0;
     for( ; !(i >= res_count); i = i + 1)
     {
-      signed long int return_value_send$1;
-      return_value_send$1=send(fd, (const void *)res_args[(signed long int)i], sizeof(struct sanlk_resource) /*128ul*/ , 0);
-      rv = (signed int)return_value_send$1;
+      signed long int return_value_send_1;
+      return_value_send_1=send(fd, (const void *)res_args[(signed long int)i], sizeof(struct sanlk_resource) /*128ul*/ , 0);
+      rv = (signed int)return_value_send_1;
       if(!(rv >= 0))
       {
         rv = -1;
@@ -14883,9 +14883,9 @@ out:
 // file sanlock_admin.h line 50
 signed int sanlock_rem_lockspace(struct sanlk_lockspace *ls, unsigned int flags)
 {
-  signed int return_value_cmd_lockspace$1;
-  return_value_cmd_lockspace$1=cmd_lockspace(3, ls, flags);
-  return return_value_cmd_lockspace$1;
+  signed int return_value_cmd_lockspace_1;
+  return_value_cmd_lockspace_1=cmd_lockspace(3, ls, flags);
+  return return_value_cmd_lockspace_1;
 }
 
 // sanlock_request
@@ -14896,8 +14896,8 @@ signed int sanlock_request(unsigned int flags, unsigned int force_mode, struct s
   signed int rv;
   signed int datalen = (signed int)(sizeof(struct sanlk_resource) /*128ul*/  + sizeof(struct sanlk_disk) /*1040ul*/  * (unsigned long int)res->num_disks);
   rv=connect_socket(&fd);
-  signed long int return_value_send$1;
-  signed long int return_value_send$3;
+  signed long int return_value_send_1;
+  signed long int return_value_send_3;
   if(!(rv >= 0))
     return rv;
 
@@ -14906,23 +14906,23 @@ signed int sanlock_request(unsigned int flags, unsigned int force_mode, struct s
     rv=send_header(fd, 11, flags, datalen, force_mode, (unsigned int)0);
     if(rv >= 0)
     {
-      return_value_send$1=send(fd, (const void *)res, sizeof(struct sanlk_resource) /*128ul*/ , 0);
-      rv = (signed int)return_value_send$1;
+      return_value_send_1=send(fd, (const void *)res, sizeof(struct sanlk_resource) /*128ul*/ , 0);
+      rv = (signed int)return_value_send_1;
       if(!(rv >= 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        rv = -(*return_value___errno_location$2);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        rv = -(*return_value___errno_location_2);
         goto out;
       }
 
-      return_value_send$3=send(fd, (const void *)res->disks, sizeof(struct sanlk_disk) /*1040ul*/  * (unsigned long int)res->num_disks, 0);
-      rv = (signed int)return_value_send$3;
+      return_value_send_3=send(fd, (const void *)res->disks, sizeof(struct sanlk_disk) /*1040ul*/  * (unsigned long int)res->num_disks, 0);
+      rv = (signed int)return_value_send_3;
       if(!(rv >= 0))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        rv = -(*return_value___errno_location$4);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        rv = -(*return_value___errno_location_4);
         goto out;
       }
 
@@ -14947,9 +14947,9 @@ signed int sanlock_res_to_str(struct sanlk_resource *res, char **str_ret)
   signed int len;
   signed int pos;
   signed int d;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(4400 + 1));
-  str = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(4400 + 1));
+  str = (char *)return_value_malloc_1;
   if(str == ((char *)NULL))
     return -12;
 
@@ -15056,11 +15056,11 @@ signed int sanlock_state_to_args(char *res_state, signed int *res_count, struct 
   signed int len;
   signed int rv;
   i = 0;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   do
   {
-    return_value_strlen$1=strlen(res_state);
-    if((unsigned long int)i >= return_value_strlen$1)
+    return_value_strlen_1=strlen(res_state);
+    if((unsigned long int)i >= return_value_strlen_1)
       break;
 
     if((signed int)res_state[(signed long int)i] == 32)
@@ -15070,11 +15070,11 @@ signed int sanlock_state_to_args(char *res_state, signed int *res_count, struct 
   }
   while((_Bool)1);
   *res_count = count;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)count * sizeof(struct sanlk_resource *) /*8ul*/ );
-  args = (struct sanlk_resource **)return_value_malloc$2;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)count * sizeof(struct sanlk_resource *) /*8ul*/ );
+  args = (struct sanlk_resource **)return_value_malloc_2;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
   if(args == ((struct sanlk_resource **)NULL))
     return -12;
 
@@ -15083,9 +15083,9 @@ signed int sanlock_state_to_args(char *res_state, signed int *res_count, struct 
     memset((void *)args, 0, (unsigned long int)count * sizeof(struct sanlk_resource *) /*8ul*/ );
     j = 0;
     memset((void *)str, 0, sizeof(char [4401l]) /*4401ul*/ );
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(res_state);
-    len = (signed int)return_value_strlen$3;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(res_state);
+    len = (signed int)return_value_strlen_3;
     i = 0;
     for( ; !(i >= 1 + len); i = i + 1)
       if(!(i >= len))
@@ -15093,9 +15093,9 @@ signed int sanlock_state_to_args(char *res_state, signed int *res_count, struct 
         if((signed int)res_state[(signed long int)i] == 32)
           goto __CPROVER_DUMP_L6;
 
-        tmp_post$4 = j;
+        tmp_post_4 = j;
         j = j + 1;
-        str[(signed long int)tmp_post$4] = res_state[(signed long int)i];
+        str[(signed long int)tmp_post_4] = res_state[(signed long int)i];
       }
 
       else
@@ -15110,9 +15110,9 @@ signed int sanlock_state_to_args(char *res_state, signed int *res_count, struct 
         if(arg_count == count)
           goto fail_free;
 
-        tmp_post$5 = arg_count;
+        tmp_post_5 = arg_count;
         arg_count = arg_count + 1;
-        args[(signed long int)tmp_post$5] = res;
+        args[(signed long int)tmp_post_5] = res;
         j = 0;
         memset((void *)str, 0, sizeof(char [4401l]) /*4401ul*/ );
       }
@@ -15157,20 +15157,20 @@ signed int sanlock_status(signed int debug, char sort_arg)
       sort_s = 1;
 
   fd=send_command(5, (unsigned int)0);
-  signed int tmp_post$6;
+  signed int tmp_post_6;
   if(!(fd >= 0))
     return fd;
 
   else
   {
-    signed long int return_value_recv$1;
-    return_value_recv$1=recv(fd, (void *)&h, sizeof(struct sm_header) /*32ul*/ , 256);
-    rv = (signed int)return_value_recv$1;
+    signed long int return_value_recv_1;
+    return_value_recv_1=recv(fd, (void *)&h, sizeof(struct sm_header) /*32ul*/ , 256);
+    rv = (signed int)return_value_recv_1;
     if(!(rv >= 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      rv = -(*return_value___errno_location$2);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      rv = -(*return_value___errno_location_2);
       goto out;
     }
 
@@ -15187,9 +15187,9 @@ signed int sanlock_status(signed int debug, char sort_arg)
         if(!(sort_p == 0) || !(sort_s == 0))
         {
           len = (signed int)(sizeof(struct sanlk_state) /*80ul*/  + (unsigned long int)(4096 * 4));
-          void *return_value_malloc$3;
-          return_value_malloc$3=malloc((unsigned long int)len);
-          buf = (char *)return_value_malloc$3;
+          void *return_value_malloc_3;
+          return_value_malloc_3=malloc((unsigned long int)len);
+          buf = (char *)return_value_malloc_3;
           if(buf == ((char *)NULL))
             return -12;
 
@@ -15205,9 +15205,9 @@ signed int sanlock_status(signed int debug, char sort_arg)
           memset((void *)maxstr, 0, sizeof(char [4096l]) /*4096ul*/ );
           memset((void *)maxbin, 0, sizeof(char [4096l]) /*4096ul*/ );
         }
-        signed long int return_value_recv$4;
-        return_value_recv$4=recv(fd, (void *)st, sizeof(struct sanlk_state) /*80ul*/ , 256);
-        rv = (signed int)return_value_recv$4;
+        signed long int return_value_recv_4;
+        return_value_recv_4=recv(fd, (void *)st, sizeof(struct sanlk_state) /*80ul*/ , 256);
+        rv = (signed int)return_value_recv_4;
         if(rv == 0)
           break;
 
@@ -15216,9 +15216,9 @@ signed int sanlock_status(signed int debug, char sort_arg)
 
         if(!(st->str_len == 0u))
         {
-          signed long int return_value_recv$5;
-          return_value_recv$5=recv(fd, (void *)str, (unsigned long int)st->str_len, 256);
-          rv = (signed int)return_value_recv$5;
+          signed long int return_value_recv_5;
+          return_value_recv_5=recv(fd, (void *)str, (unsigned long int)st->str_len, 256);
+          rv = (signed int)return_value_recv_5;
           if(!((unsigned int)rv == st->str_len))
             break;
 
@@ -15233,9 +15233,9 @@ signed int sanlock_status(signed int debug, char sort_arg)
             goto out;
           }
 
-          tmp_post$6 = sort_count;
+          tmp_post_6 = sort_count;
           sort_count = sort_count + 1;
-          sort_bufs[(signed long int)tmp_post$6] = buf;
+          sort_bufs[(signed long int)tmp_post_6] = buf;
         }
 
         else
@@ -15288,9 +15288,9 @@ signed int sanlock_str_to_lockspace(char *str, struct sanlk_lockspace *ls)
   char *path = (char *)(void *)0;
   char *offset = (char *)(void *)0;
   signed int i;
-  unsigned long int return_value_strlen$1;
-  signed long long int return_value_atoll$2;
-  signed long long int return_value_atoll$3;
+  unsigned long int return_value_strlen_1;
+  signed long long int return_value_atoll_2;
+  signed long long int return_value_atoll_3;
   if(str == ((char *)NULL))
     return -22;
 
@@ -15299,8 +15299,8 @@ signed int sanlock_str_to_lockspace(char *str, struct sanlk_lockspace *ls)
     i = 0;
     do
     {
-      return_value_strlen$1=strlen(str);
-      if((unsigned long int)i >= return_value_strlen$1)
+      return_value_strlen_1=strlen(str);
+      if((unsigned long int)i >= return_value_strlen_1)
         break;
 
       if((signed int)str[(signed long int)i] == 92)
@@ -15346,8 +15346,8 @@ signed int sanlock_str_to_lockspace(char *str, struct sanlk_lockspace *ls)
     strncpy(ls->name, str, (unsigned long int)48);
     if(!(host_id == ((char *)NULL)))
     {
-      return_value_atoll$2=atoll(host_id);
-      ls->host_id = (unsigned long int)return_value_atoll$2;
+      return_value_atoll_2=atoll(host_id);
+      ls->host_id = (unsigned long int)return_value_atoll_2;
     }
 
     if(!(path == ((char *)NULL)))
@@ -15355,8 +15355,8 @@ signed int sanlock_str_to_lockspace(char *str, struct sanlk_lockspace *ls)
 
     if(!(offset == ((char *)NULL)))
     {
-      return_value_atoll$3=atoll(offset);
-      ls->host_id_disk.offset = (unsigned long int)return_value_atoll$3;
+      return_value_atoll_3=atoll(offset);
+      ls->host_id_disk.offset = (unsigned long int)return_value_atoll_3;
     }
 
     return 0;
@@ -15378,16 +15378,16 @@ signed int sanlock_str_to_res(char *str, struct sanlk_resource **res_ret)
   signed int colons;
   signed int num_disks;
   signed int have_lver;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  unsigned long int return_value_strlen$2;
-  signed int tmp_post$5;
-  signed int tmp_post$6;
-  unsigned long int return_value_strlen$7;
-  unsigned long int return_value_strlen$8;
-  _Bool tmp_if_expr$10;
-  unsigned long int return_value_strlen$9;
-  if(!(return_value_strlen$1 >= 3ul))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  unsigned long int return_value_strlen_2;
+  signed int tmp_post_5;
+  signed int tmp_post_6;
+  unsigned long int return_value_strlen_7;
+  unsigned long int return_value_strlen_8;
+  _Bool tmp_if_expr_10;
+  unsigned long int return_value_strlen_9;
+  if(!(return_value_strlen_1 >= 3ul))
     return -6;
 
   else
@@ -15396,8 +15396,8 @@ signed int sanlock_str_to_res(char *str, struct sanlk_resource **res_ret)
     i = 0;
     do
     {
-      return_value_strlen$2=strlen(str);
-      if((unsigned long int)i >= return_value_strlen$2)
+      return_value_strlen_2=strlen(str);
+      if((unsigned long int)i >= return_value_strlen_2)
         break;
 
       if((signed int)str[(signed long int)i] == 92)
@@ -15423,9 +15423,9 @@ signed int sanlock_str_to_res(char *str, struct sanlk_resource **res_ret)
       else
       {
         len = (signed int)(sizeof(struct sanlk_resource) /*128ul*/  + (unsigned long int)num_disks * sizeof(struct sanlk_disk) /*1040ul*/ );
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc((unsigned long int)len);
-        res = (struct sanlk_resource *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc((unsigned long int)len);
+        res = (struct sanlk_resource *)return_value_malloc_3;
         if(res == ((struct sanlk_resource *)NULL))
           return -12;
 
@@ -15437,9 +15437,9 @@ signed int sanlock_str_to_res(char *str, struct sanlk_resource **res_ret)
           sub_count = 0;
           j = 0;
           memset((void *)sub, 0, sizeof(char [1025l]) /*1025ul*/ );
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(str);
-          len = (signed int)return_value_strlen$4;
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(str);
+          len = (signed int)return_value_strlen_4;
           i = 0;
           for( ; !(i >= 1 + len); i = i + 1)
             if((signed int)str[(signed long int)i] == 92)
@@ -15448,9 +15448,9 @@ signed int sanlock_str_to_res(char *str, struct sanlk_resource **res_ret)
                 goto fail;
 
               i = i + 1;
-              tmp_post$5 = j;
+              tmp_post_5 = j;
               j = j + 1;
-              sub[(signed long int)tmp_post$5] = str[(signed long int)i];
+              sub[(signed long int)tmp_post_5] = str[(signed long int)i];
             }
 
             else
@@ -15462,9 +15462,9 @@ signed int sanlock_str_to_res(char *str, struct sanlk_resource **res_ret)
                 if(j >= 1024)
                   goto fail;
 
-                tmp_post$6 = j;
+                tmp_post_6 = j;
                 j = j + 1;
-                sub[(signed long int)tmp_post$6] = str[(signed long int)i];
+                sub[(signed long int)tmp_post_6] = str[(signed long int)i];
               }
 
               else
@@ -15474,24 +15474,24 @@ signed int sanlock_str_to_res(char *str, struct sanlk_resource **res_ret)
                 ;
                 if(!(sub_count >= 2))
                 {
-                  return_value_strlen$7=strlen(sub);
-                  if(return_value_strlen$7 >= 49ul)
+                  return_value_strlen_7=strlen(sub);
+                  if(return_value_strlen_7 >= 49ul)
                     goto fail;
 
                 }
 
                 if(sub_count >= 2)
                 {
-                  return_value_strlen$8=strlen(sub);
-                  if(return_value_strlen$8 >= 1024ul)
-                    tmp_if_expr$10 = (_Bool)1;
+                  return_value_strlen_8=strlen(sub);
+                  if(return_value_strlen_8 >= 1024ul)
+                    tmp_if_expr_10 = (_Bool)1;
 
                   else
                   {
-                    return_value_strlen$9=strlen(sub);
-                    tmp_if_expr$10 = return_value_strlen$9 < (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
+                    return_value_strlen_9=strlen(sub);
+                    tmp_if_expr_10 = return_value_strlen_9 < (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$10)
+                  if(tmp_if_expr_10)
                     goto fail;
 
                 }
@@ -15508,9 +15508,9 @@ signed int sanlock_str_to_res(char *str, struct sanlk_resource **res_ret)
                     {
                       if(d == num_disks && !(have_lver == 0))
                       {
-                        signed int return_value_strncmp$11;
-                        return_value_strncmp$11=strncmp(sub, "SH", (unsigned long int)2);
-                        if(return_value_strncmp$11 == 0)
+                        signed int return_value_strncmp_11;
+                        return_value_strncmp_11=strncmp(sub, "SH", (unsigned long int)2);
+                        if(return_value_strncmp_11 == 0)
                           res->flags = res->flags | (unsigned int)0x4;
 
                         else
@@ -15586,58 +15586,58 @@ static signed int send_header(signed int sock, signed int cmd, unsigned int cmd_
   header.length = (unsigned int)(sizeof(struct sm_header) /*32ul*/  + (unsigned long int)datalen);
   header.data = data;
   header.data2 = data2;
-  signed long int return_value_send$1;
-  return_value_send$1=send(sock, (void *)&header, sizeof(struct sm_header) /*32ul*/ , 0);
-  rv = (signed int)return_value_send$1;
-  signed int *return_value___errno_location$2;
+  signed long int return_value_send_1;
+  return_value_send_1=send(sock, (void *)&header, sizeof(struct sm_header) /*32ul*/ , 0);
+  rv = (signed int)return_value_send_1;
+  signed int *return_value___errno_location_2;
   if(!(rv >= 0))
   {
-    return_value___errno_location$2=__errno_location();
-    return -(*return_value___errno_location$2);
+    return_value___errno_location_2=__errno_location();
+    return -(*return_value___errno_location_2);
   }
 
   else
     return 0;
 }
 
-// send_header$link1
+// send_header_link1
 // file client.c line 66
-static signed int send_header$link1(signed int con, signed int cmd$link1)
+static signed int send_header_link1(signed int con, signed int cmd_link1)
 {
   struct wdmd_header h;
-  signed int rv$link1;
+  signed int rv_link1;
   memset((void *)&h, 0, sizeof(struct wdmd_header) /*176ul*/ );
-  h.cmd = (unsigned int)cmd$link1;
-  signed long int return_value_send$1$link1;
-  return_value_send$1$link1=send(con, (void *)&h, sizeof(struct wdmd_header) /*176ul*/ , 0);
-  rv$link1 = (signed int)return_value_send$1$link1;
-  signed int *return_value___errno_location$2$link1;
-  if(!(rv$link1 >= 0))
+  h.cmd = (unsigned int)cmd_link1;
+  signed long int return_value_send_1_link1;
+  return_value_send_1_link1=send(con, (void *)&h, sizeof(struct wdmd_header) /*176ul*/ , 0);
+  rv_link1 = (signed int)return_value_send_1_link1;
+  signed int *return_value___errno_location_2_link1;
+  if(!(rv_link1 >= 0))
   {
-    return_value___errno_location$2$link1=__errno_location();
-    return -(*return_value___errno_location$2$link1);
+    return_value___errno_location_2_link1=__errno_location();
+    return -(*return_value___errno_location_2_link1);
   }
 
   else
     return 0;
 }
 
-// send_header$link2
+// send_header_link2
 // file client.c line 66
-static signed int send_header$link2(signed int con$link1, signed int cmd$link2)
+static signed int send_header_link2(signed int con_link1, signed int cmd_link2)
 {
-  struct wdmd_header h$link1;
-  signed int rv$link2;
-  memset((void *)&h$link1, 0, sizeof(struct wdmd_header) /*176ul*/ );
-  h$link1.cmd = (unsigned int)cmd$link2;
-  signed long int return_value_send$1$link2;
-  return_value_send$1$link2=send(con$link1, (void *)&h$link1, sizeof(struct wdmd_header) /*176ul*/ , 0);
-  rv$link2 = (signed int)return_value_send$1$link2;
-  signed int *return_value___errno_location$2$link2;
-  if(!(rv$link2 >= 0))
+  struct wdmd_header h_link1;
+  signed int rv_link2;
+  memset((void *)&h_link1, 0, sizeof(struct wdmd_header) /*176ul*/ );
+  h_link1.cmd = (unsigned int)cmd_link2;
+  signed long int return_value_send_1_link2;
+  return_value_send_1_link2=send(con_link1, (void *)&h_link1, sizeof(struct wdmd_header) /*176ul*/ , 0);
+  rv_link2 = (signed int)return_value_send_1_link2;
+  signed int *return_value___errno_location_2_link2;
+  if(!(rv_link2 >= 0))
   {
-    return_value___errno_location$2$link2=__errno_location();
-    return -(*return_value___errno_location$2$link2);
+    return_value___errno_location_2_link2=__errno_location();
+    return -(*return_value___errno_location_2_link2);
   }
 
   else
@@ -15769,58 +15769,58 @@ void send_state_resources(signed int fd)
   struct resource *r;
   struct token *token;
   pthread_mutex_lock(&resource_mutex);
-  struct resource *tmp_statement_expression$1;
-  const struct list_head *send_state_resources$$1$$1$$1$$__mptr = (&resources_held)->next;
-  tmp_statement_expression$1 = (struct resource *)((char *)send_state_resources$$1$$1$$1$$__mptr - (signed long int)0ul);
-  r = tmp_statement_expression$1;
-  struct token *tmp_statement_expression$3;
-  struct token *tmp_statement_expression$4;
-  struct resource *tmp_statement_expression$2;
-  for( ; !(&r->list == &resources_held); r = tmp_statement_expression$2)
+  struct resource *tmp_statement_expression_1;
+  const struct list_head *send_state_resources__1__1__1____mptr = (&resources_held)->next;
+  tmp_statement_expression_1 = (struct resource *)((char *)send_state_resources__1__1__1____mptr - (signed long int)0ul);
+  r = tmp_statement_expression_1;
+  struct token *tmp_statement_expression_3;
+  struct token *tmp_statement_expression_4;
+  struct resource *tmp_statement_expression_2;
+  for( ; !(&r->list == &resources_held); r = tmp_statement_expression_2)
   {
-    const struct list_head *send_state_resources$$1$$1$$3$$1$$1$$__mptr = (&r->tokens)->next;
-    tmp_statement_expression$3 = (struct token *)((char *)send_state_resources$$1$$1$$3$$1$$1$$__mptr - (signed long int)40ul);
-    token = tmp_statement_expression$3;
-    for( ; !(&token->list == &r->tokens); token = tmp_statement_expression$4)
+    const struct list_head *send_state_resources__1__1__3__1__1____mptr = (&r->tokens)->next;
+    tmp_statement_expression_3 = (struct token *)((char *)send_state_resources__1__1__3__1__1____mptr - (signed long int)40ul);
+    token = tmp_statement_expression_3;
+    for( ; !(&token->list == &r->tokens); token = tmp_statement_expression_4)
     {
       send_state_resource(fd, r, "held", token->pid, token->token_id);
-      const struct list_head *send_state_resources$$1$$1$$3$$1$$2$$__mptr = token->list.next;
-      tmp_statement_expression$4 = (struct token *)((char *)send_state_resources$$1$$1$$3$$1$$2$$__mptr - (signed long int)40ul);
+      const struct list_head *send_state_resources__1__1__3__1__2____mptr = token->list.next;
+      tmp_statement_expression_4 = (struct token *)((char *)send_state_resources__1__1__3__1__2____mptr - (signed long int)40ul);
     }
-    const struct list_head *send_state_resources$$1$$1$$2$$__mptr = r->list.next;
-    tmp_statement_expression$2 = (struct resource *)((char *)send_state_resources$$1$$1$$2$$__mptr - (signed long int)0ul);
+    const struct list_head *send_state_resources__1__1__2____mptr = r->list.next;
+    tmp_statement_expression_2 = (struct resource *)((char *)send_state_resources__1__1__2____mptr - (signed long int)0ul);
   }
-  struct resource *tmp_statement_expression$5;
-  const struct list_head *send_state_resources$$1$$2$$1$$__mptr = (&resources_add)->next;
-  tmp_statement_expression$5 = (struct resource *)((char *)send_state_resources$$1$$2$$1$$__mptr - (signed long int)0ul);
-  r = tmp_statement_expression$5;
-  struct token *tmp_statement_expression$7;
-  struct token *tmp_statement_expression$8;
-  struct resource *tmp_statement_expression$6;
-  for( ; !(&r->list == &resources_add); r = tmp_statement_expression$6)
+  struct resource *tmp_statement_expression_5;
+  const struct list_head *send_state_resources__1__2__1____mptr = (&resources_add)->next;
+  tmp_statement_expression_5 = (struct resource *)((char *)send_state_resources__1__2__1____mptr - (signed long int)0ul);
+  r = tmp_statement_expression_5;
+  struct token *tmp_statement_expression_7;
+  struct token *tmp_statement_expression_8;
+  struct resource *tmp_statement_expression_6;
+  for( ; !(&r->list == &resources_add); r = tmp_statement_expression_6)
   {
-    const struct list_head *send_state_resources$$1$$2$$3$$1$$1$$__mptr = (&r->tokens)->next;
-    tmp_statement_expression$7 = (struct token *)((char *)send_state_resources$$1$$2$$3$$1$$1$$__mptr - (signed long int)40ul);
-    token = tmp_statement_expression$7;
-    for( ; !(&token->list == &r->tokens); token = tmp_statement_expression$8)
+    const struct list_head *send_state_resources__1__2__3__1__1____mptr = (&r->tokens)->next;
+    tmp_statement_expression_7 = (struct token *)((char *)send_state_resources__1__2__3__1__1____mptr - (signed long int)40ul);
+    token = tmp_statement_expression_7;
+    for( ; !(&token->list == &r->tokens); token = tmp_statement_expression_8)
     {
       send_state_resource(fd, r, "add", token->pid, token->token_id);
-      const struct list_head *send_state_resources$$1$$2$$3$$1$$2$$__mptr = token->list.next;
-      tmp_statement_expression$8 = (struct token *)((char *)send_state_resources$$1$$2$$3$$1$$2$$__mptr - (signed long int)40ul);
+      const struct list_head *send_state_resources__1__2__3__1__2____mptr = token->list.next;
+      tmp_statement_expression_8 = (struct token *)((char *)send_state_resources__1__2__3__1__2____mptr - (signed long int)40ul);
     }
-    const struct list_head *send_state_resources$$1$$2$$2$$__mptr = r->list.next;
-    tmp_statement_expression$6 = (struct resource *)((char *)send_state_resources$$1$$2$$2$$__mptr - (signed long int)0ul);
+    const struct list_head *send_state_resources__1__2__2____mptr = r->list.next;
+    tmp_statement_expression_6 = (struct resource *)((char *)send_state_resources__1__2__2____mptr - (signed long int)0ul);
   }
-  struct resource *tmp_statement_expression$9;
-  const struct list_head *send_state_resources$$1$$3$$1$$__mptr = (&resources_rem)->next;
-  tmp_statement_expression$9 = (struct resource *)((char *)send_state_resources$$1$$3$$1$$__mptr - (signed long int)0ul);
-  r = tmp_statement_expression$9;
-  struct resource *tmp_statement_expression$10;
-  for( ; !(&r->list == &resources_rem); r = tmp_statement_expression$10)
+  struct resource *tmp_statement_expression_9;
+  const struct list_head *send_state_resources__1__3__1____mptr = (&resources_rem)->next;
+  tmp_statement_expression_9 = (struct resource *)((char *)send_state_resources__1__3__1____mptr - (signed long int)0ul);
+  r = tmp_statement_expression_9;
+  struct resource *tmp_statement_expression_10;
+  for( ; !(&r->list == &resources_rem); r = tmp_statement_expression_10)
   {
     send_state_resource(fd, r, "rem", r->pid, r->release_token_id);
     const struct list_head *__mptr = r->list.next;
-    tmp_statement_expression$10 = (struct resource *)((char *)__mptr - (signed long int)0ul);
+    tmp_statement_expression_10 = (struct resource *)((char *)__mptr - (signed long int)0ul);
   }
   pthread_mutex_unlock(&resource_mutex);
 }
@@ -15854,12 +15854,12 @@ static signed int set_disk_properties(struct sync_disk *disk)
     else
     {
       sector_size=blkid_probe_get_sectorsize(probe);
-      unsigned long int return_value_blkid_topology_get_logical_sector_size$1;
-      return_value_blkid_topology_get_logical_sector_size$1=blkid_topology_get_logical_sector_size(topo);
-      ss_logical = (unsigned int)return_value_blkid_topology_get_logical_sector_size$1;
-      unsigned long int return_value_blkid_topology_get_physical_sector_size$2;
-      return_value_blkid_topology_get_physical_sector_size$2=blkid_topology_get_physical_sector_size(topo);
-      ss_physical = (unsigned int)return_value_blkid_topology_get_physical_sector_size$2;
+      unsigned long int return_value_blkid_topology_get_logical_sector_size_1;
+      return_value_blkid_topology_get_logical_sector_size_1=blkid_topology_get_logical_sector_size(topo);
+      ss_logical = (unsigned int)return_value_blkid_topology_get_logical_sector_size_1;
+      unsigned long int return_value_blkid_topology_get_physical_sector_size_2;
+      return_value_blkid_topology_get_physical_sector_size_2=blkid_topology_get_physical_sector_size(topo);
+      ss_physical = (unsigned int)return_value_blkid_topology_get_physical_sector_size_2;
       blkid_free_probe(probe);
       if(!(sector_size % 512u == 0u) || !(sector_size == ss_logical))
       {
@@ -15876,51 +15876,51 @@ static signed int set_disk_properties(struct sync_disk *disk)
   }
 }
 
-// set_disk_properties$link1
+// set_disk_properties_link1
 // file diskio.c line 34
-static signed int set_disk_properties$link1(struct sync_disk *disk$link1)
+static signed int set_disk_properties_link1(struct sync_disk *disk_link1)
 {
-  struct blkid_struct_probe *probe$link1;
-  struct blkid_struct_topology *topo$link1;
-  unsigned int sector_size$link1;
-  unsigned int ss_logical$link1;
-  unsigned int ss_physical$link1;
-  probe$link1=blkid_new_probe_from_filename(disk$link1->path);
-  if(probe$link1 == ((struct blkid_struct_probe *)NULL))
+  struct blkid_struct_probe *probe_link1;
+  struct blkid_struct_topology *topo_link1;
+  unsigned int sector_size_link1;
+  unsigned int ss_logical_link1;
+  unsigned int ss_physical_link1;
+  probe_link1=blkid_new_probe_from_filename(disk_link1->path);
+  if(probe_link1 == ((struct blkid_struct_probe *)NULL))
   {
-    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cannot get blkid probe %s", (const void *)disk$link1->path);
+    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cannot get blkid probe %s", (const void *)disk_link1->path);
     return -1;
   }
 
   else
   {
-    topo$link1=blkid_probe_get_topology(probe$link1);
-    if(topo$link1 == ((struct blkid_struct_topology *)NULL))
+    topo_link1=blkid_probe_get_topology(probe_link1);
+    if(topo_link1 == ((struct blkid_struct_topology *)NULL))
     {
-      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cannot get blkid topology %s", (const void *)disk$link1->path);
-      blkid_free_probe(probe$link1);
+      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "cannot get blkid topology %s", (const void *)disk_link1->path);
+      blkid_free_probe(probe_link1);
       return -1;
     }
 
     else
     {
-      sector_size$link1=blkid_probe_get_sectorsize(probe$link1);
-      unsigned long int return_value_blkid_topology_get_logical_sector_size$1$link1;
-      return_value_blkid_topology_get_logical_sector_size$1$link1=blkid_topology_get_logical_sector_size(topo$link1);
-      ss_logical$link1 = (unsigned int)return_value_blkid_topology_get_logical_sector_size$1$link1;
-      unsigned long int return_value_blkid_topology_get_physical_sector_size$2$link1;
-      return_value_blkid_topology_get_physical_sector_size$2$link1=blkid_topology_get_physical_sector_size(topo$link1);
-      ss_physical$link1 = (unsigned int)return_value_blkid_topology_get_physical_sector_size$2$link1;
-      blkid_free_probe(probe$link1);
-      if(!(sector_size$link1 % 512u == 0u) || !(sector_size$link1 == ss_logical$link1))
+      sector_size_link1=blkid_probe_get_sectorsize(probe_link1);
+      unsigned long int return_value_blkid_topology_get_logical_sector_size_1_link1;
+      return_value_blkid_topology_get_logical_sector_size_1_link1=blkid_topology_get_logical_sector_size(topo_link1);
+      ss_logical_link1 = (unsigned int)return_value_blkid_topology_get_logical_sector_size_1_link1;
+      unsigned long int return_value_blkid_topology_get_physical_sector_size_2_link1;
+      return_value_blkid_topology_get_physical_sector_size_2_link1=blkid_topology_get_physical_sector_size(topo_link1);
+      ss_physical_link1 = (unsigned int)return_value_blkid_topology_get_physical_sector_size_2_link1;
+      blkid_free_probe(probe_link1);
+      if(!(sector_size_link1 % 512u == 0u) || !(sector_size_link1 == ss_logical_link1))
       {
-        log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "invalid disk sector size %u logical %u physical %u %s", sector_size$link1, ss_logical$link1, ss_physical$link1, (const void *)disk$link1->path);
+        log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "invalid disk sector size %u logical %u physical %u %s", sector_size_link1, ss_logical_link1, ss_physical_link1, (const void *)disk_link1->path);
         return -1;
       }
 
       else
       {
-        disk$link1->sector_size = sector_size$link1;
+        disk_link1->sector_size = sector_size_link1;
         return 0;
       }
     }
@@ -15961,9 +15961,9 @@ static signed int set_mode_block(struct task *task, struct token *token, unsigne
   else
   {
     p_iobuf = &iobuf;
-    signed int return_value_getpagesize$1;
-    return_value_getpagesize$1=getpagesize();
-    rv=posix_memalign((void **)(void *)p_iobuf, (unsigned long int)return_value_getpagesize$1, (unsigned long int)iobuf_len);
+    signed int return_value_getpagesize_1;
+    return_value_getpagesize_1=getpagesize();
+    rv=posix_memalign((void **)(void *)p_iobuf, (unsigned long int)return_value_getpagesize_1, (unsigned long int)iobuf_len);
     if(!(rv == 0))
       return -12;
 
@@ -16006,22 +16006,22 @@ signed int set_resource_examine(char *space_name, char *res_name)
   struct resource *r;
   signed int count = 0;
   pthread_mutex_lock(&resource_mutex);
-  struct resource *tmp_statement_expression$1;
+  struct resource *tmp_statement_expression_1;
   const struct list_head *__mptr = (&resources_held)->next;
-  tmp_statement_expression$1 = (struct resource *)((char *)__mptr - (signed long int)0ul);
-  r = tmp_statement_expression$1;
-  signed int return_value_strncmp$4;
-  struct resource *tmp_statement_expression$2;
-  for( ; !(&r->list == &resources_held); r = tmp_statement_expression$2)
+  tmp_statement_expression_1 = (struct resource *)((char *)__mptr - (signed long int)0ul);
+  r = tmp_statement_expression_1;
+  signed int return_value_strncmp_4;
+  struct resource *tmp_statement_expression_2;
+  for( ; !(&r->list == &resources_held); r = tmp_statement_expression_2)
   {
-    signed int return_value_strncmp$3;
-    return_value_strncmp$3=strncmp(r->r.lockspace_name, space_name, (unsigned long int)48);
-    if(return_value_strncmp$3 == 0)
+    signed int return_value_strncmp_3;
+    return_value_strncmp_3=strncmp(r->r.lockspace_name, space_name, (unsigned long int)48);
+    if(return_value_strncmp_3 == 0)
     {
       if(!(res_name == ((char *)NULL)))
       {
-        return_value_strncmp$4=strncmp(r->r.name, res_name, (unsigned long int)48);
-        if(return_value_strncmp$4 == 0)
+        return_value_strncmp_4=strncmp(r->r.name, res_name, (unsigned long int)48);
+        if(return_value_strncmp_4 == 0)
           goto __CPROVER_DUMP_L2;
 
       }
@@ -16037,8 +16037,8 @@ signed int set_resource_examine(char *space_name, char *res_name)
       }
     }
 
-    const struct list_head *set_resource_examine$$1$$1$$2$$__mptr = r->list.next;
-    tmp_statement_expression$2 = (struct resource *)((char *)set_resource_examine$$1$$1$$2$$__mptr - (signed long int)0ul);
+    const struct list_head *set_resource_examine__1__1__2____mptr = r->list.next;
+    tmp_statement_expression_2 = (struct resource *)((char *)set_resource_examine__1__1__2____mptr - (signed long int)0ul);
   }
   if(!(count == 0))
     pthread_cond_signal(&resource_cond);
@@ -16056,9 +16056,9 @@ static void setup_host_name(void)
   unsigned char uu[16l];
   memset((void *)rand_state, 0, sizeof(char [32l]) /*32ul*/ );
   memset((void *)&rand_data, 0, sizeof(struct random_data) /*48ul*/ );
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
-  initstate_r((unsigned int)return_value_time$1, rand_state, sizeof(char [32l]) /*32ul*/ , &rand_data);
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
+  initstate_r((unsigned int)return_value_time_1, rand_state, sizeof(char [32l]) /*32ul*/ , &rand_data);
   if(!(com.our_host_name[0l] == 0))
     memcpy((void *)our_host_name_global, (const void *)com.our_host_name, (unsigned long int)48);
 
@@ -16083,7 +16083,7 @@ static signed int setup_listener(void)
   signed int fd;
   signed int ci;
   rv=sanlock_socket_address(&addr);
-  signed int return_value_fcntl$3;
+  signed int return_value_fcntl_3;
   if(!(rv >= 0))
     return rv;
 
@@ -16106,11 +16106,11 @@ static signed int setup_listener(void)
         rv=chown(addr.sun_path, (unsigned int)com.uid, (unsigned int)com.gid);
         if(!(rv >= 0))
         {
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          char *return_value_strerror$2;
-          return_value_strerror$2=strerror(*return_value___errno_location$1);
-          log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "could not set socket %s permissions: %s", (const void *)addr.sun_path, return_value_strerror$2);
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          char *return_value_strerror_2;
+          return_value_strerror_2=strerror(*return_value___errno_location_1);
+          log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "could not set socket %s permissions: %s", (const void *)addr.sun_path, return_value_strerror_2);
           goto exit_fail;
         }
 
@@ -16118,8 +16118,8 @@ static signed int setup_listener(void)
         if(!(rv >= 0))
           goto exit_fail;
 
-        return_value_fcntl$3=fcntl(fd, 3, 0);
-        fcntl(fd, 4, return_value_fcntl$3 | 04000);
+        return_value_fcntl_3=fcntl(fd, 3, 0);
+        fcntl(fd, 4, return_value_fcntl_3 | 04000);
         ci=client_add(fd, process_listener, (void (*)(signed int))(void *)0);
         if(!(ci >= 0))
           goto exit_fail;
@@ -16151,14 +16151,14 @@ signed int setup_logging(void)
   if(!(logfile_fp == ((struct _IO_FILE *)NULL)))
   {
     fd=fileno(logfile_fp);
-    signed int return_value_fcntl$1;
-    return_value_fcntl$1=fcntl(fd, 1, 0);
-    fcntl(fd, 2, return_value_fcntl$1 | 1);
+    signed int return_value_fcntl_1;
+    return_value_fcntl_1=fcntl(fd, 1, 0);
+    fcntl(fd, 2, return_value_fcntl_1 | 1);
   }
 
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)log_num_ents * sizeof(struct entry) /*516ul*/ );
-  log_ents = (struct entry *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)log_num_ents * sizeof(struct entry) /*516ul*/ );
+  log_ents = (struct entry *)return_value_malloc_2;
   if(log_ents == ((struct entry *)NULL))
   {
     fclose(logfile_fp);
@@ -16190,19 +16190,19 @@ static void setup_priority(void)
     rv=mlockall(1 | 2);
     if(!(rv >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "mlockall failed: %s", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "mlockall failed: %s", return_value_strerror_2);
     }
 
     rv=sched_get_priority_max(2);
     if(!(rv >= 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "could not get max scheduler priority err %d", *return_value___errno_location$3);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "could not get max scheduler priority err %d", *return_value___errno_location_3);
       goto __CPROVER_DUMP_L5;
     }
 
@@ -16210,11 +16210,11 @@ static void setup_priority(void)
     rv=sched_setscheduler(0, 2 | 0x40000000, &sched_param);
     if(!(rv >= 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "set scheduler RR|RESET_ON_FORK priority %d failed: %s", sched_param.__sched_priority, return_value_strerror$5);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "set scheduler RR|RESET_ON_FORK priority %d failed: %s", sched_param.__sched_priority, return_value_strerror_5);
     }
 
   }
@@ -16231,7 +16231,7 @@ void setup_task_aio(struct task *task, signed int use_aio, signed int cb_size)
   signed int rv;
   task->use_aio = use_aio;
   memset((void *)&task->aio_ctx, 0, sizeof(struct io_context *) /*8ul*/ );
-  void *return_value_malloc$1;
+  void *return_value_malloc_1;
   if(!(use_aio == 0))
   {
     if(!(cb_size == 0))
@@ -16240,8 +16240,8 @@ void setup_task_aio(struct task *task, signed int use_aio, signed int cb_size)
       if(rv >= 0)
       {
         task->cb_size = cb_size;
-        return_value_malloc$1=malloc((unsigned long int)cb_size * sizeof(struct aicb) /*80ul*/ );
-        task->callbacks = (struct aicb *)return_value_malloc$1;
+        return_value_malloc_1=malloc((unsigned long int)cb_size * sizeof(struct aicb) /*80ul*/ );
+        task->callbacks = (struct aicb *)return_value_malloc_1;
         if(task->callbacks == ((struct aicb *)NULL))
           rv = -12;
 
@@ -16316,9 +16316,9 @@ void setup_task_timeouts(struct task *task, signed int io_timeout_arg)
   task->request_finish_seconds = request_finish_seconds;
   task->kill_count_term = 10;
   task->kill_count_max = 60;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(task->name, "main");
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(task->name, "main");
+  if(return_value_strcmp_1 == 0)
   {
     log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 7, "io_timeout_seconds %d", io_timeout_seconds);
     log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 7, "id_renewal_seconds %d", id_renewal_seconds);
@@ -16347,11 +16347,11 @@ void setup_task_timeouts(struct task *task, signed int io_timeout_arg)
 signed int setup_token_manager(void)
 {
   signed int rv;
-  pthread_mutex_init(&resource_mutex, (const union anonymous$5 *)(void *)0);
-  pthread_cond_init(&resource_cond, (const union anonymous$5 *)(void *)0);
-  INIT_LIST_HEAD$link1(&resources_add);
-  INIT_LIST_HEAD$link1(&resources_rem);
-  INIT_LIST_HEAD$link1(&resources_held);
+  pthread_mutex_init(&resource_mutex, (const union anonymous_5 *)(void *)0);
+  pthread_cond_init(&resource_cond, (const union anonymous_5 *)(void *)0);
+  INIT_LIST_HEAD_link1(&resources_add);
+  INIT_LIST_HEAD_link1(&resources_rem);
+  INIT_LIST_HEAD_link1(&resources_held);
   rv=pthread_create(&resource_pt, (const union pthread_attr_t *)(void *)0, resource_thread, (void *)0);
   if(!(rv == 0))
     return -1;
@@ -16580,7 +16580,7 @@ static signed int thread_pool_add_work(struct cmd_args *ca)
       rv=pthread_create(&th, (const union pthread_attr_t *)(void *)0, thread_pool_worker, (void *)(signed long int)pool.num_workers);
       if(!(rv >= 0))
       {
-        list_del$link1(&ca->list);
+        list_del_link1(&ca->list);
         pthread_mutex_unlock(&pool.mutex);
         return rv;
       }
@@ -16603,9 +16603,9 @@ static signed int thread_pool_create(signed int min_workers, signed int max_work
   signed int rv;
   memset((void *)&pool, 0, sizeof(struct thread_pool) /*168ul*/ );
   INIT_LIST_HEAD(&pool.work_data);
-  pthread_mutex_init(&pool.mutex, (const union anonymous$5 *)(void *)0);
-  pthread_cond_init(&pool.cond, (const union anonymous$5 *)(void *)0);
-  pthread_cond_init(&pool.quit_wait, (const union anonymous$5 *)(void *)0);
+  pthread_mutex_init(&pool.mutex, (const union anonymous_5 *)(void *)0);
+  pthread_cond_init(&pool.cond, (const union anonymous_5 *)(void *)0);
+  pthread_cond_init(&pool.quit_wait, (const union anonymous_5 *)(void *)0);
   pool.max_workers = max_workers;
   i = 0;
   for( ; !(i >= min_workers); i = i + 1)
@@ -16648,15 +16648,15 @@ static void * thread_pool_worker(void *data)
   setup_task_aio(&task, main_task.use_aio, 2);
   snprintf(task.name, (unsigned long int)48, "worker%ld", (signed long int)data);
   pthread_mutex_lock(&pool.mutex);
-  signed int return_value_list_empty$1;
-  signed int return_value_list_empty$2;
-  struct cmd_args *tmp_statement_expression$3;
+  signed int return_value_list_empty_1;
+  signed int return_value_list_empty_2;
+  struct cmd_args *tmp_statement_expression_3;
   while((_Bool)1)
   {
     for( ; pool.quit == 0; pool.free_workers = pool.free_workers - 1)
     {
-      return_value_list_empty$1=list_empty(&pool.work_data);
-      if(return_value_list_empty$1 == 0)
+      return_value_list_empty_1=list_empty(&pool.work_data);
+      if(return_value_list_empty_1 == 0)
         break;
 
       pool.free_workers = pool.free_workers + 1;
@@ -16664,14 +16664,14 @@ static void * thread_pool_worker(void *data)
     }
     do
     {
-      return_value_list_empty$2=list_empty(&pool.work_data);
-      if(!(return_value_list_empty$2 == 0))
+      return_value_list_empty_2=list_empty(&pool.work_data);
+      if(!(return_value_list_empty_2 == 0))
         break;
 
       const struct list_head *__mptr = (&pool.work_data)->next;
-      tmp_statement_expression$3 = (struct cmd_args *)((char *)__mptr - (signed long int)0ul);
-      ca = tmp_statement_expression$3;
-      list_del$link1(&ca->list);
+      tmp_statement_expression_3 = (struct cmd_args *)((char *)__mptr - (signed long int)0ul);
+      ca = tmp_statement_expression_3;
+      list_del_link1(&ca->list);
       pthread_mutex_unlock(&pool.mutex);
       call_cmd_thread(&task, ca);
       free((void *)ca);
@@ -16807,23 +16807,23 @@ static signed int verify_dblock(struct token *token, struct paxos_dblock *pd)
   }
 }
 
-// verify_dblock$link1
+// verify_dblock_link1
 // file paxos_lease.c line 188
-static signed int verify_dblock$link1(struct token *token$link1, struct paxos_dblock *pd$link1)
+static signed int verify_dblock_link1(struct token *token_link1, struct paxos_dblock *pd_link1)
 {
-  unsigned int sum$link1;
-  if(pd$link1->checksum == 0u)
+  unsigned int sum_link1;
+  if(pd_link1->checksum == 0u)
   {
-    if(!(pd$link1->mbal == 0ul))
+    if(!(pd_link1->mbal == 0ul))
       goto __CPROVER_DUMP_L1;
 
-    if(!(pd$link1->bal == 0ul))
+    if(!(pd_link1->bal == 0ul))
       goto __CPROVER_DUMP_L1;
 
-    if(!(pd$link1->inp == 0ul))
+    if(!(pd_link1->inp == 0ul))
       goto __CPROVER_DUMP_L1;
 
-    if(!(pd$link1->lver == 0ul))
+    if(!(pd_link1->lver == 0ul))
       goto __CPROVER_DUMP_L1;
 
     return 1;
@@ -16834,10 +16834,10 @@ static signed int verify_dblock$link1(struct token *token$link1, struct paxos_db
 
   __CPROVER_DUMP_L1:
     ;
-    sum$link1=dblock_checksum$link1(pd$link1);
-    if(!(pd$link1->checksum == sum$link1))
+    sum_link1=dblock_checksum_link1(pd_link1);
+    if(!(pd_link1->checksum == sum_link1))
     {
-      log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "verify_dblock wrong checksum %x %x", pd$link1->checksum, sum$link1);
+      log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "verify_dblock wrong checksum %x %x", pd_link1->checksum, sum_link1);
       return -214;
     }
 
@@ -16852,7 +16852,7 @@ static signed int verify_leader(struct sync_disk *disk, char *space_name, unsign
 {
   unsigned int sum;
   signed int result;
-  signed int return_value_strncmp$1;
+  signed int return_value_strncmp_1;
   if(!(lr->magic == 304160784u))
   {
     log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "verify_leader %llu wrong magic %x %s", (unsigned long long int)host_id, lr->magic, (const void *)disk->path);
@@ -16875,8 +16875,8 @@ static signed int verify_leader(struct sync_disk *disk, char *space_name, unsign
 
       else
       {
-        return_value_strncmp$1=strncmp(lr->space_name, space_name, (unsigned long int)48);
-        if(!(return_value_strncmp$1 == 0))
+        return_value_strncmp_1=strncmp(lr->space_name, space_name, (unsigned long int)48);
+        if(!(return_value_strncmp_1 == 0))
         {
           log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "verify_leader %llu wrong space name %.48s %.48s %s", (unsigned long long int)host_id, (const void *)lr->space_name, space_name, (const void *)disk->path);
           result = -226;
@@ -16902,68 +16902,68 @@ fail:
   return result;
 }
 
-// verify_leader$link1
+// verify_leader_link1
 // file paxos_lease.c line 607
-static signed int verify_leader$link1(struct token *token, struct sync_disk *disk$link1, struct leader_record *lr$link1, const char *caller$link1)
+static signed int verify_leader_link1(struct token *token, struct sync_disk *disk_link1, struct leader_record *lr_link1, const char *caller_link1)
 {
   struct leader_record leader_rr;
-  unsigned int sum$link1;
-  signed int result$link1;
+  unsigned int sum_link1;
+  signed int result_link1;
   signed int rv;
-  signed int return_value_strncmp$1;
-  signed int return_value_strncmp$2;
-  if(!(lr$link1->magic == 102047760u))
+  signed int return_value_strncmp_1;
+  signed int return_value_strncmp_2;
+  if(!(lr_link1->magic == 102047760u))
   {
-    log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "verify_leader wrong magic %x %s", lr$link1->magic, (const void *)disk$link1->path);
-    result$link1 = -223;
+    log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "verify_leader wrong magic %x %s", lr_link1->magic, (const void *)disk_link1->path);
+    result_link1 = -223;
   }
 
   else
-    if(!((0xFFFF0000 & lr$link1->version) == 393216u))
+    if(!((0xFFFF0000 & lr_link1->version) == 393216u))
     {
-      log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "verify_leader wrong version %x %s", lr$link1->version, (const void *)disk$link1->path);
-      result$link1 = -224;
+      log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "verify_leader wrong version %x %s", lr_link1->version, (const void *)disk_link1->path);
+      result_link1 = -224;
     }
 
     else
-      if(!(lr$link1->sector_size == disk$link1->sector_size))
+      if(!(lr_link1->sector_size == disk_link1->sector_size))
       {
-        log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "verify_leader wrong sector size %d %d %s", lr$link1->sector_size, disk$link1->sector_size, (const void *)disk$link1->path);
-        result$link1 = -225;
+        log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "verify_leader wrong sector size %d %d %s", lr_link1->sector_size, disk_link1->sector_size, (const void *)disk_link1->path);
+        result_link1 = -225;
       }
 
       else
       {
-        return_value_strncmp$1=strncmp(lr$link1->space_name, token->r.lockspace_name, (unsigned long int)48);
-        if(!(return_value_strncmp$1 == 0))
+        return_value_strncmp_1=strncmp(lr_link1->space_name, token->r.lockspace_name, (unsigned long int)48);
+        if(!(return_value_strncmp_1 == 0))
         {
-          log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "verify_leader wrong space name %.48s %.48s %s", (const void *)lr$link1->space_name, (const void *)token->r.lockspace_name, (const void *)disk$link1->path);
-          result$link1 = -226;
+          log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "verify_leader wrong space name %.48s %.48s %s", (const void *)lr_link1->space_name, (const void *)token->r.lockspace_name, (const void *)disk_link1->path);
+          result_link1 = -226;
         }
 
         else
         {
-          return_value_strncmp$2=strncmp(lr$link1->resource_name, token->r.name, (unsigned long int)48);
-          if(!(return_value_strncmp$2 == 0))
+          return_value_strncmp_2=strncmp(lr_link1->resource_name, token->r.name, (unsigned long int)48);
+          if(!(return_value_strncmp_2 == 0))
           {
-            log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "verify_leader wrong resource name %.48s %.48s %s", (const void *)lr$link1->resource_name, (const void *)token->r.name, (const void *)disk$link1->path);
-            result$link1 = -227;
+            log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "verify_leader wrong resource name %.48s %.48s %s", (const void *)lr_link1->resource_name, (const void *)token->r.name, (const void *)disk_link1->path);
+            result_link1 = -227;
           }
 
           else
-            if(!(lr$link1->num_hosts >= token->host_id))
+            if(!(lr_link1->num_hosts >= token->host_id))
             {
-              log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "verify_leader num_hosts too small %llu %llu %s", (unsigned long long int)lr$link1->num_hosts, (unsigned long long int)token->host_id, (const void *)disk$link1->path);
-              result$link1 = -228;
+              log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "verify_leader num_hosts too small %llu %llu %s", (unsigned long long int)lr_link1->num_hosts, (unsigned long long int)token->host_id, (const void *)disk_link1->path);
+              result_link1 = -228;
             }
 
             else
             {
-              sum$link1=leader_checksum(lr$link1);
-              if(!(lr$link1->checksum == sum$link1))
+              sum_link1=leader_checksum(lr_link1);
+              if(!(lr_link1->checksum == sum_link1))
               {
-                log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "verify_leader wrong checksum %x %x %s", lr$link1->checksum, sum$link1, (const void *)disk$link1->path);
-                result$link1 = -229;
+                log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "verify_leader wrong checksum %x %x %s", lr_link1->checksum, sum_link1, (const void *)disk_link1->path);
+                result_link1 = -229;
               }
 
               else
@@ -16974,75 +16974,75 @@ static signed int verify_leader$link1(struct token *token, struct sync_disk *dis
 
 fail:
   ;
-  log_leader_error$link1(result$link1, token, disk$link1, lr$link1, caller$link1);
+  log_leader_error_link1(result_link1, token, disk_link1, lr_link1, caller_link1);
   memset((void *)&leader_rr, 0, sizeof(struct leader_record) /*200ul*/ );
-  rv=read_sectors(disk$link1, (unsigned long int)0, (unsigned int)1, (char *)&leader_rr, (signed int)sizeof(struct leader_record) /*200ul*/ , (struct task *)(void *)0, "paxos_verify");
-  log_leader_error$link1(rv, token, disk$link1, &leader_rr, "paxos_verify");
-  return result$link1;
+  rv=read_sectors(disk_link1, (unsigned long int)0, (unsigned int)1, (char *)&leader_rr, (signed int)sizeof(struct leader_record) /*200ul*/ , (struct task *)(void *)0, "paxos_verify");
+  log_leader_error_link1(rv, token, disk_link1, &leader_rr, "paxos_verify");
+  return result_link1;
 }
 
-// verify_leader$link1$link1
+// verify_leader_link1_link1
 // file paxos_lease.c line 607
-static signed int verify_leader$link1$link1(struct token *token$link1, struct sync_disk *disk$link1$link1, struct leader_record *lr$link1$link1, const char *caller$link1$link1)
+static signed int verify_leader_link1_link1(struct token *token_link1, struct sync_disk *disk_link1_link1, struct leader_record *lr_link1_link1, const char *caller_link1_link1)
 {
-  struct leader_record leader_rr$link1;
-  unsigned int sum$link1$link1;
-  signed int result$link1$link1;
-  signed int rv$link1;
-  signed int return_value_strncmp$1$link1;
-  signed int return_value_strncmp$2$link1;
-  if(!(lr$link1$link1->magic == 102047760u))
+  struct leader_record leader_rr_link1;
+  unsigned int sum_link1_link1;
+  signed int result_link1_link1;
+  signed int rv_link1;
+  signed int return_value_strncmp_1_link1;
+  signed int return_value_strncmp_2_link1;
+  if(!(lr_link1_link1->magic == 102047760u))
   {
-    log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "verify_leader wrong magic %x %s", lr$link1$link1->magic, (const void *)disk$link1$link1->path);
-    result$link1$link1 = -223;
+    log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "verify_leader wrong magic %x %s", lr_link1_link1->magic, (const void *)disk_link1_link1->path);
+    result_link1_link1 = -223;
   }
 
   else
-    if(!((0xFFFF0000 & lr$link1$link1->version) == 393216u))
+    if(!((0xFFFF0000 & lr_link1_link1->version) == 393216u))
     {
-      log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "verify_leader wrong version %x %s", lr$link1$link1->version, (const void *)disk$link1$link1->path);
-      result$link1$link1 = -224;
+      log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "verify_leader wrong version %x %s", lr_link1_link1->version, (const void *)disk_link1_link1->path);
+      result_link1_link1 = -224;
     }
 
     else
-      if(!(lr$link1$link1->sector_size == disk$link1$link1->sector_size))
+      if(!(lr_link1_link1->sector_size == disk_link1_link1->sector_size))
       {
-        log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "verify_leader wrong sector size %d %d %s", lr$link1$link1->sector_size, disk$link1$link1->sector_size, (const void *)disk$link1$link1->path);
-        result$link1$link1 = -225;
+        log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "verify_leader wrong sector size %d %d %s", lr_link1_link1->sector_size, disk_link1_link1->sector_size, (const void *)disk_link1_link1->path);
+        result_link1_link1 = -225;
       }
 
       else
       {
-        return_value_strncmp$1$link1=strncmp(lr$link1$link1->space_name, token$link1->r.lockspace_name, (unsigned long int)48);
-        if(!(return_value_strncmp$1$link1 == 0))
+        return_value_strncmp_1_link1=strncmp(lr_link1_link1->space_name, token_link1->r.lockspace_name, (unsigned long int)48);
+        if(!(return_value_strncmp_1_link1 == 0))
         {
-          log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "verify_leader wrong space name %.48s %.48s %s", (const void *)lr$link1$link1->space_name, (const void *)token$link1->r.lockspace_name, (const void *)disk$link1$link1->path);
-          result$link1$link1 = -226;
+          log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "verify_leader wrong space name %.48s %.48s %s", (const void *)lr_link1_link1->space_name, (const void *)token_link1->r.lockspace_name, (const void *)disk_link1_link1->path);
+          result_link1_link1 = -226;
         }
 
         else
         {
-          return_value_strncmp$2$link1=strncmp(lr$link1$link1->resource_name, token$link1->r.name, (unsigned long int)48);
-          if(!(return_value_strncmp$2$link1 == 0))
+          return_value_strncmp_2_link1=strncmp(lr_link1_link1->resource_name, token_link1->r.name, (unsigned long int)48);
+          if(!(return_value_strncmp_2_link1 == 0))
           {
-            log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "verify_leader wrong resource name %.48s %.48s %s", (const void *)lr$link1$link1->resource_name, (const void *)token$link1->r.name, (const void *)disk$link1$link1->path);
-            result$link1$link1 = -227;
+            log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "verify_leader wrong resource name %.48s %.48s %s", (const void *)lr_link1_link1->resource_name, (const void *)token_link1->r.name, (const void *)disk_link1_link1->path);
+            result_link1_link1 = -227;
           }
 
           else
-            if(!(lr$link1$link1->num_hosts >= token$link1->host_id))
+            if(!(lr_link1_link1->num_hosts >= token_link1->host_id))
             {
-              log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "verify_leader num_hosts too small %llu %llu %s", (unsigned long long int)lr$link1$link1->num_hosts, (unsigned long long int)token$link1->host_id, (const void *)disk$link1$link1->path);
-              result$link1$link1 = -228;
+              log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "verify_leader num_hosts too small %llu %llu %s", (unsigned long long int)lr_link1_link1->num_hosts, (unsigned long long int)token_link1->host_id, (const void *)disk_link1_link1->path);
+              result_link1_link1 = -228;
             }
 
             else
             {
-              sum$link1$link1=leader_checksum(lr$link1$link1);
-              if(!(lr$link1$link1->checksum == sum$link1$link1))
+              sum_link1_link1=leader_checksum(lr_link1_link1);
+              if(!(lr_link1_link1->checksum == sum_link1_link1))
               {
-                log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "verify_leader wrong checksum %x %x %s", lr$link1$link1->checksum, sum$link1$link1, (const void *)disk$link1$link1->path);
-                result$link1$link1 = -229;
+                log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "verify_leader wrong checksum %x %x %s", lr_link1_link1->checksum, sum_link1_link1, (const void *)disk_link1_link1->path);
+                result_link1_link1 = -229;
               }
 
               else
@@ -17053,56 +17053,56 @@ static signed int verify_leader$link1$link1(struct token *token$link1, struct sy
 
 fail:
   ;
-  log_leader_error$link1$link1(result$link1$link1, token$link1, disk$link1$link1, lr$link1$link1, caller$link1$link1);
-  memset((void *)&leader_rr$link1, 0, sizeof(struct leader_record) /*200ul*/ );
-  rv$link1=read_sectors(disk$link1$link1, (unsigned long int)0, (unsigned int)1, (char *)&leader_rr$link1, (signed int)sizeof(struct leader_record) /*200ul*/ , (struct task *)(void *)0, "paxos_verify");
-  log_leader_error$link1$link1(rv$link1, token$link1, disk$link1$link1, &leader_rr$link1, "paxos_verify");
-  return result$link1$link1;
+  log_leader_error_link1_link1(result_link1_link1, token_link1, disk_link1_link1, lr_link1_link1, caller_link1_link1);
+  memset((void *)&leader_rr_link1, 0, sizeof(struct leader_record) /*200ul*/ );
+  rv_link1=read_sectors(disk_link1_link1, (unsigned long int)0, (unsigned int)1, (char *)&leader_rr_link1, (signed int)sizeof(struct leader_record) /*200ul*/ , (struct task *)(void *)0, "paxos_verify");
+  log_leader_error_link1_link1(rv_link1, token_link1, disk_link1_link1, &leader_rr_link1, "paxos_verify");
+  return result_link1_link1;
 }
 
-// verify_leader$link2
+// verify_leader_link2
 // file delta_lease.c line 78
-static signed int verify_leader$link2(struct sync_disk *disk$link2, char *space_name$link1, unsigned long int host_id$link1, struct leader_record *lr$link2, const char *caller$link2)
+static signed int verify_leader_link2(struct sync_disk *disk_link2, char *space_name_link1, unsigned long int host_id_link1, struct leader_record *lr_link2, const char *caller_link2)
 {
-  unsigned int sum$link2;
-  signed int result$link2;
-  signed int return_value_strncmp$1$link1;
-  if(!(lr$link2->magic == 304160784u))
+  unsigned int sum_link2;
+  signed int result_link2;
+  signed int return_value_strncmp_1_link1;
+  if(!(lr_link2->magic == 304160784u))
   {
-    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "verify_leader %llu wrong magic %x %s", (unsigned long long int)host_id$link1, lr$link2->magic, (const void *)disk$link2->path);
-    result$link2 = -223;
+    log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "verify_leader %llu wrong magic %x %s", (unsigned long long int)host_id_link1, lr_link2->magic, (const void *)disk_link2->path);
+    result_link2 = -223;
   }
 
   else
-    if(!((0xFFFF0000 & lr$link2->version) == 196608u))
+    if(!((0xFFFF0000 & lr_link2->version) == 196608u))
     {
-      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "verify_leader %llu wrong version %x %s", (unsigned long long int)host_id$link1, lr$link2->version, (const void *)disk$link2->path);
-      result$link2 = -224;
+      log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "verify_leader %llu wrong version %x %s", (unsigned long long int)host_id_link1, lr_link2->version, (const void *)disk_link2->path);
+      result_link2 = -224;
     }
 
     else
-      if(!(lr$link2->sector_size == disk$link2->sector_size))
+      if(!(lr_link2->sector_size == disk_link2->sector_size))
       {
-        log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "verify_leader %llu wrong sector size %d %d %s", (unsigned long long int)host_id$link1, lr$link2->sector_size, disk$link2->sector_size, (const void *)disk$link2->path);
-        result$link2 = -225;
+        log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "verify_leader %llu wrong sector size %d %d %s", (unsigned long long int)host_id_link1, lr_link2->sector_size, disk_link2->sector_size, (const void *)disk_link2->path);
+        result_link2 = -225;
       }
 
       else
       {
-        return_value_strncmp$1$link1=strncmp(lr$link2->space_name, space_name$link1, (unsigned long int)48);
-        if(!(return_value_strncmp$1$link1 == 0))
+        return_value_strncmp_1_link1=strncmp(lr_link2->space_name, space_name_link1, (unsigned long int)48);
+        if(!(return_value_strncmp_1_link1 == 0))
         {
-          log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "verify_leader %llu wrong space name %.48s %.48s %s", (unsigned long long int)host_id$link1, (const void *)lr$link2->space_name, space_name$link1, (const void *)disk$link2->path);
-          result$link2 = -226;
+          log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "verify_leader %llu wrong space name %.48s %.48s %s", (unsigned long long int)host_id_link1, (const void *)lr_link2->space_name, space_name_link1, (const void *)disk_link2->path);
+          result_link2 = -226;
         }
 
         else
         {
-          sum$link2=leader_checksum(lr$link2);
-          if(!(lr$link2->checksum == sum$link2))
+          sum_link2=leader_checksum(lr_link2);
+          if(!(lr_link2->checksum == sum_link2))
           {
-            log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "verify_leader %llu wrong checksum %x %x %s", (unsigned long long int)host_id$link1, lr$link2->checksum, sum$link2, (const void *)disk$link2->path);
-            result$link2 = -229;
+            log_level((unsigned int)0, (unsigned int)0, (char *)(void *)0, 3, "verify_leader %llu wrong checksum %x %x %s", (unsigned long long int)host_id_link1, lr_link2->checksum, sum_link2, (const void *)disk_link2->path);
+            result_link2 = -229;
           }
 
           else
@@ -17112,8 +17112,8 @@ static signed int verify_leader$link2(struct sync_disk *disk$link2, char *space_
 
 fail:
   ;
-  log_leader_error$link2(result$link2, space_name$link1, host_id$link1, disk$link2, lr$link2, caller$link2);
-  return result$link2;
+  log_leader_error_link2(result_link2, space_name_link1, host_id_link1, disk_link2, lr_link2, caller_link2);
+  return result_link2;
 }
 
 // wdmd_connect
@@ -17124,11 +17124,11 @@ signed int wdmd_connect(void)
   signed int s;
   struct sockaddr_un addr;
   s=socket(1, 1, 0);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(!(s >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -17142,9 +17142,9 @@ signed int wdmd_connect(void)
       rv=connect(s, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
       if(!(rv >= 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        rv = -(*return_value___errno_location$2);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        rv = -(*return_value___errno_location_2);
         close(s);
         return rv;
       }
@@ -17158,18 +17158,18 @@ signed int wdmd_connect(void)
 // file ../wdmd/wdmd.h line 18
 signed int wdmd_refcount_clear(signed int con)
 {
-  signed int return_value_send_header$1;
-  return_value_send_header$1=send_header$link1(con, 3);
-  return return_value_send_header$1;
+  signed int return_value_send_header_1;
+  return_value_send_header_1=send_header_link1(con, 3);
+  return return_value_send_header_1;
 }
 
 // wdmd_refcount_set
 // file ../wdmd/wdmd.h line 17
 signed int wdmd_refcount_set(signed int con)
 {
-  signed int return_value_send_header$1;
-  return_value_send_header$1=send_header$link1(con, 2);
-  return return_value_send_header$1;
+  signed int return_value_send_header_1;
+  return_value_send_header_1=send_header_link1(con, 2);
+  return return_value_send_header_1;
 }
 
 // wdmd_register
@@ -17178,10 +17178,10 @@ signed int wdmd_register(signed int con, char *name)
 {
   struct wdmd_header h;
   signed int rv;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  signed int *return_value___errno_location$3;
-  if(return_value_strlen$1 >= 129ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  signed int *return_value___errno_location_3;
+  if(return_value_strlen_1 >= 129ul)
     return -36;
 
   else
@@ -17189,13 +17189,13 @@ signed int wdmd_register(signed int con, char *name)
     memset((void *)&h, 0, sizeof(struct wdmd_header) /*176ul*/ );
     h.cmd = (unsigned int)1;
     strncpy(h.name, name, (unsigned long int)128);
-    signed long int return_value_send$2;
-    return_value_send$2=send(con, (void *)&h, sizeof(struct wdmd_header) /*176ul*/ , 0);
-    rv = (signed int)return_value_send$2;
+    signed long int return_value_send_2;
+    return_value_send_2=send(con, (void *)&h, sizeof(struct wdmd_header) /*176ul*/ , 0);
+    rv = (signed int)return_value_send_2;
     if(!(rv >= 0))
     {
-      return_value___errno_location$3=__errno_location();
-      return -(*return_value___errno_location$3);
+      return_value___errno_location_3=__errno_location();
+      return -(*return_value___errno_location_3);
     }
 
     else
@@ -17219,20 +17219,20 @@ signed int wdmd_status(signed int con, signed int *test_interval, signed int *fi
 {
   struct wdmd_header h;
   signed int rv;
-  rv=send_header$link1(con, 5);
-  signed int *return_value___errno_location$2;
+  rv=send_header_link1(con, 5);
+  signed int *return_value___errno_location_2;
   if(!(rv >= 0))
     return rv;
 
   else
   {
-    signed long int return_value_recv$1;
-    return_value_recv$1=recv(con, (void *)&h, sizeof(struct wdmd_header) /*176ul*/ , 256);
-    rv = (signed int)return_value_recv$1;
+    signed long int return_value_recv_1;
+    return_value_recv_1=recv(con, (void *)&h, sizeof(struct wdmd_header) /*176ul*/ , 256);
+    rv = (signed int)return_value_recv_1;
     if(!(rv >= 0))
     {
-      return_value___errno_location$2=__errno_location();
-      return -(*return_value___errno_location$2);
+      return_value___errno_location_2=__errno_location();
+      return -(*return_value___errno_location_2);
     }
 
     else
@@ -17255,14 +17255,14 @@ signed int wdmd_test_live(signed int con, unsigned long int renewal_time, unsign
   h.cmd = (unsigned int)4;
   h.renewal_time = renewal_time;
   h.expire_time = expire_time;
-  signed long int return_value_send$1;
-  return_value_send$1=send(con, (void *)&h, sizeof(struct wdmd_header) /*176ul*/ , 0);
-  rv = (signed int)return_value_send$1;
-  signed int *return_value___errno_location$2;
+  signed long int return_value_send_1;
+  return_value_send_1=send(con, (void *)&h, sizeof(struct wdmd_header) /*176ul*/ , 0);
+  rv = (signed int)return_value_send_1;
+  signed int *return_value___errno_location_2;
   if(!(rv >= 0))
   {
-    return_value___errno_location$2=__errno_location();
-    return -(*return_value___errno_location$2);
+    return_value___errno_location_2=__errno_location();
+    return -(*return_value___errno_location_2);
   }
 
   else
@@ -17278,13 +17278,13 @@ static signed int write_dblock(struct task *task, struct sync_disk *disk, unsign
   return rv;
 }
 
-// write_dblock$link1
+// write_dblock_link1
 // file paxos_lease.c line 88
-static signed int write_dblock$link1(struct task *task$link1, struct sync_disk *disk$link1, unsigned long int host_id$link1, struct paxos_dblock *pd$link1)
+static signed int write_dblock_link1(struct task *task_link1, struct sync_disk *disk_link1, unsigned long int host_id_link1, struct paxos_dblock *pd_link1)
 {
-  signed int rv$link1;
-  rv$link1=write_sector(disk$link1, ((unsigned long int)2 + host_id$link1) - (unsigned long int)1, (char *)pd$link1, (signed int)sizeof(struct paxos_dblock) /*56ul*/ , task$link1, "dblock");
-  return rv$link1;
+  signed int rv_link1;
+  rv_link1=write_sector(disk_link1, ((unsigned long int)2 + host_id_link1) - (unsigned long int)1, (char *)pd_link1, (signed int)sizeof(struct paxos_dblock) /*56ul*/ , task_link1, "dblock");
+  return rv_link1;
 }
 
 // write_dropped
@@ -17315,39 +17315,39 @@ static void write_entry(signed int level, char *str)
 // file diskio.h line 23
 signed int write_iobuf(signed int fd, unsigned long int offset, char *iobuf, signed int iobuf_len, struct task *task)
 {
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if(!(task == ((struct task *)NULL)))
-    tmp_if_expr$5 = task->use_aio == 1 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_5 = task->use_aio == 1 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$5 = (_Bool)0;
-  signed int return_value_do_write_aio_linux$1;
-  _Bool tmp_if_expr$4;
-  signed int return_value_do_write_aio_posix$2;
-  signed int return_value_do_write$3;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = (_Bool)0;
+  signed int return_value_do_write_aio_linux_1;
+  _Bool tmp_if_expr_4;
+  signed int return_value_do_write_aio_posix_2;
+  signed int return_value_do_write_3;
+  if(tmp_if_expr_5)
   {
-    return_value_do_write_aio_linux$1=do_write_aio_linux(fd, offset, iobuf, iobuf_len, task);
-    return return_value_do_write_aio_linux$1;
+    return_value_do_write_aio_linux_1=do_write_aio_linux(fd, offset, iobuf, iobuf_len, task);
+    return return_value_do_write_aio_linux_1;
   }
 
   else
   {
     if(!(task == ((struct task *)NULL)))
-      tmp_if_expr$4 = task->use_aio == 2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = task->use_aio == 2 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
-      return_value_do_write_aio_posix$2=do_write_aio_posix(fd, offset, iobuf, iobuf_len, task);
-      return return_value_do_write_aio_posix$2;
+      return_value_do_write_aio_posix_2=do_write_aio_posix(fd, offset, iobuf, iobuf_len, task);
+      return return_value_do_write_aio_posix_2;
     }
 
     else
     {
-      return_value_do_write$3=do_write(fd, offset, iobuf, iobuf_len, task);
-      return return_value_do_write$3;
+      return_value_do_write_3=do_write(fd, offset, iobuf, iobuf_len, task);
+      return return_value_do_write_3;
     }
   }
 }
@@ -17361,13 +17361,13 @@ static signed int write_leader(struct task *task, struct sync_disk *disk, struct
   return rv;
 }
 
-// write_leader$link1
+// write_leader_link1
 // file paxos_lease.c line 103
-static signed int write_leader$link1(struct task *task$link1, struct sync_disk *disk$link1, struct leader_record *lr$link1)
+static signed int write_leader_link1(struct task *task_link1, struct sync_disk *disk_link1, struct leader_record *lr_link1)
 {
-  signed int rv$link1;
-  rv$link1=write_sector(disk$link1, (unsigned long int)0, (char *)lr$link1, (signed int)sizeof(struct leader_record) /*200ul*/ , task$link1, "leader");
-  return rv$link1;
+  signed int rv_link1;
+  rv_link1=write_sector(disk_link1, (unsigned long int)0, (char *)lr_link1, (signed int)sizeof(struct leader_record) /*200ul*/ , task_link1, "leader");
+  return rv_link1;
 }
 
 // write_new_leader
@@ -17386,9 +17386,9 @@ static signed int write_new_leader(struct task *task, struct token *token, struc
       num_writes = num_writes + 1;
 
   }
-  signed int return_value_majority_disks$1;
-  return_value_majority_disks$1=majority_disks(num_disks, num_writes);
-  if(return_value_majority_disks$1 == 0)
+  signed int return_value_majority_disks_1;
+  return_value_majority_disks_1=majority_disks(num_disks, num_writes);
+  if(return_value_majority_disks_1 == 0)
   {
     log_level((unsigned int)0, token->token_id, (char *)(void *)0, 3, "%s write_new_leader error %d owner %llu %llu %llu", caller, rv, (unsigned long long int)nl->owner_id, (unsigned long long int)nl->owner_generation, (unsigned long long int)nl->timestamp);
     error = -221;
@@ -17397,31 +17397,31 @@ static signed int write_new_leader(struct task *task, struct token *token, struc
   return error;
 }
 
-// write_new_leader$link1
+// write_new_leader_link1
 // file paxos_lease.c line 1040
-static signed int write_new_leader$link1(struct task *task$link1, struct token *token$link1, struct leader_record *nl$link1, const char *caller$link1)
+static signed int write_new_leader_link1(struct task *task_link1, struct token *token_link1, struct leader_record *nl_link1, const char *caller_link1)
 {
-  signed int num_disks$link1 = (signed int)token$link1->r.num_disks;
-  signed int num_writes$link1 = 0;
-  signed int error$link1 = 1;
-  signed int rv$link1 = 0;
-  signed int d$link1 = 0;
-  for( ; !(d$link1 >= num_disks$link1); d$link1 = d$link1 + 1)
+  signed int num_disks_link1 = (signed int)token_link1->r.num_disks;
+  signed int num_writes_link1 = 0;
+  signed int error_link1 = 1;
+  signed int rv_link1 = 0;
+  signed int d_link1 = 0;
+  for( ; !(d_link1 >= num_disks_link1); d_link1 = d_link1 + 1)
   {
-    rv$link1=write_leader$link1(task$link1, &token$link1->disks[(signed long int)d$link1], nl$link1);
-    if(rv$link1 >= 0)
-      num_writes$link1 = num_writes$link1 + 1;
+    rv_link1=write_leader_link1(task_link1, &token_link1->disks[(signed long int)d_link1], nl_link1);
+    if(rv_link1 >= 0)
+      num_writes_link1 = num_writes_link1 + 1;
 
   }
-  signed int return_value_majority_disks$1$link1;
-  return_value_majority_disks$1$link1=majority_disks(num_disks$link1, num_writes$link1);
-  if(return_value_majority_disks$1$link1 == 0)
+  signed int return_value_majority_disks_1_link1;
+  return_value_majority_disks_1_link1=majority_disks(num_disks_link1, num_writes_link1);
+  if(return_value_majority_disks_1_link1 == 0)
   {
-    log_level((unsigned int)0, token$link1->token_id, (char *)(void *)0, 3, "%s write_new_leader error %d owner %llu %llu %llu", caller$link1, rv$link1, (unsigned long long int)nl$link1->owner_id, (unsigned long long int)nl$link1->owner_generation, (unsigned long long int)nl$link1->timestamp);
-    error$link1 = -221;
+    log_level((unsigned int)0, token_link1->token_id, (char *)(void *)0, 3, "%s write_new_leader error %d owner %llu %llu %llu", caller_link1, rv_link1, (unsigned long long int)nl_link1->owner_id, (unsigned long long int)nl_link1->owner_generation, (unsigned long long int)nl_link1->timestamp);
+    error_link1 = -221;
   }
 
-  return error$link1;
+  return error_link1;
 }
 
 // write_sector
@@ -17437,9 +17437,9 @@ signed int write_sector(struct sync_disk *disk, unsigned long int sector_nr, con
 
   else
   {
-    signed int return_value__write_sectors$1;
-    return_value__write_sectors$1=_write_sectors(disk, sector_nr, (unsigned int)1, data, data_len, iobuf_len, task, blktype);
-    return return_value__write_sectors$1;
+    signed int return_value__write_sectors_1;
+    return_value__write_sectors_1=_write_sectors(disk, sector_nr, (unsigned int)1, data, data_len, iobuf_len, task, blktype);
+    return return_value__write_sectors_1;
   }
 }
 
@@ -17456,9 +17456,9 @@ signed int write_sectors(struct sync_disk *disk, unsigned long int sector_nr, un
 
   else
   {
-    signed int return_value__write_sectors$1;
-    return_value__write_sectors$1=_write_sectors(disk, sector_nr, sector_count, data, data_len, iobuf_len, task, blktype);
-    return return_value__write_sectors$1;
+    signed int return_value__write_sectors_1;
+    return_value__write_sectors_1=_write_sectors(disk, sector_nr, sector_count, data, data_len, iobuf_len, task, blktype);
+    return return_value__write_sectors_1;
   }
 }
 

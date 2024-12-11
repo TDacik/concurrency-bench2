@@ -1,90 +1,90 @@
-// #anon_enum$GNUTLS_CRD_CERTIFICATE=1$GNUTLS_CRD_ANON=2$GNUTLS_CRD_SRP=3$GNUTLS_CRD_PSK=4$GNUTLS_CRD_IA=5
+// #anon_enum_GNUTLS_CRD_CERTIFICATE=1_GNUTLS_CRD_ANON=2_GNUTLS_CRD_SRP=3_GNUTLS_CRD_PSK=4_GNUTLS_CRD_IA=5
 // file /usr/include/gnutls/gnutls.h line 222
-enum anonymous$4 { GNUTLS_CRD_CERTIFICATE=1, GNUTLS_CRD_ANON=2, GNUTLS_CRD_SRP=3, GNUTLS_CRD_PSK=4, GNUTLS_CRD_IA=5 };
+enum anonymous_4 { GNUTLS_CRD_CERTIFICATE=1, GNUTLS_CRD_ANON=2, GNUTLS_CRD_SRP=3, GNUTLS_CRD_PSK=4, GNUTLS_CRD_IA=5 };
 
-// #anon_enum$GNUTLS_SHUT_RDWR=0$GNUTLS_SHUT_WR=1
+// #anon_enum_GNUTLS_SHUT_RDWR=0_GNUTLS_SHUT_WR=1
 // file /usr/include/gnutls/gnutls.h line 554
-enum anonymous$2 { GNUTLS_SHUT_RDWR=0, GNUTLS_SHUT_WR=1 };
+enum anonymous_2 { GNUTLS_SHUT_RDWR=0, GNUTLS_SHUT_WR=1 };
 
-// #anon_enum$GNUTLS_X509_FMT_DER=0$GNUTLS_X509_FMT_PEM=1
+// #anon_enum_GNUTLS_X509_FMT_DER=0_GNUTLS_X509_FMT_PEM=1
 // file /usr/include/gnutls/gnutls.h line 613
-enum anonymous$15 { GNUTLS_X509_FMT_DER=0, GNUTLS_X509_FMT_PEM=1 };
+enum anonymous_15 { GNUTLS_X509_FMT_DER=0, GNUTLS_X509_FMT_PEM=1 };
 
-// #anon_enum$TP_UDP=0$TP_TCP=1$TP_TLS=2
+// #anon_enum_TP_UDP=0_TP_TCP=1_TP_TLS=2
 // file tcpflood.c line 185
-enum anonymous$20 { TP_UDP=0, TP_TCP=1, TP_TLS=2 };
+enum anonymous_20 { TP_UDP=0, TP_TCP=1, TP_TLS=2 };
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$1;
+struct anonymous_1;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$14;
+struct anonymous_14;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$0;
+struct anonymous_0;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$19;
+union anonymous_19;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
 union anonymous;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$3;
+union anonymous_3;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -237,7 +237,7 @@ void closeConnections(void);
 static void closeTLSSess(signed int i);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous$3, unsigned int);
+extern signed int connect(signed int, union anonymous_3, unsigned int);
 // endTiming
 // file tcpflood.c line 641
 static inline void endTiming(struct timeval *tvStart, struct runstats *stats);
@@ -273,16 +273,16 @@ extern signed int getopt(signed int, char * const *, const char *);
 extern signed int gettimeofday(struct timeval *, struct timezone *);
 // gnutls_bye
 // file /usr/include/gnutls/gnutls.h line 819
-signed int gnutls_bye(struct gnutls_session_int *, enum anonymous$2);
+signed int gnutls_bye(struct gnutls_session_int *, enum anonymous_2);
 // gnutls_certificate_allocate_credentials
 // file /usr/include/gnutls/gnutls.h line 1437
 signed int gnutls_certificate_allocate_credentials(struct gnutls_certificate_credentials_st **);
 // gnutls_certificate_set_x509_key_file
 // file /usr/include/gnutls/gnutls.h line 1519
-signed int gnutls_certificate_set_x509_key_file(struct gnutls_certificate_credentials_st *, const char *, const char *, enum anonymous$15);
+signed int gnutls_certificate_set_x509_key_file(struct gnutls_certificate_credentials_st *, const char *, const char *, enum anonymous_15);
 // gnutls_credentials_set
 // file /usr/include/gnutls/gnutls.h line 1367
-signed int gnutls_credentials_set(struct gnutls_session_int *, enum anonymous$4, void *);
+signed int gnutls_credentials_set(struct gnutls_session_int *, enum anonymous_4, void *);
 // gnutls_deinit
 // file /usr/include/gnutls/gnutls.h line 816
 void gnutls_deinit(struct gnutls_session_int *);
@@ -351,19 +351,19 @@ static inline void prepareGenerators();
 extern signed int printf(const char *, ...);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$10 *);
+extern signed int pthread_cond_broadcast(union anonymous_10 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$10 *);
+extern signed int pthread_cond_destroy(union anonymous_10 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$10 *, const union anonymous$5 *);
+extern signed int pthread_cond_init(union anonymous_10 *, const union anonymous_5 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$10 *);
+extern signed int pthread_cond_signal(union anonymous_10 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$10 *, union anonymous$12 *);
+extern signed int pthread_cond_wait(union anonymous_10 *, union anonymous_12 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -372,16 +372,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$12 *);
+extern signed int pthread_mutex_destroy(union anonymous_12 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$12 *, const union anonymous$5 *);
+extern signed int pthread_mutex_init(union anonymous_12 *, const union anonymous_5 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$12 *);
+extern signed int pthread_mutex_lock(union anonymous_12 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$12 *);
+extern signed int pthread_mutex_unlock(union anonymous_12 *);
 // rand
 // file /usr/include/stdlib.h line 374
 extern signed int rand(void);
@@ -405,7 +405,7 @@ signed int sendMessages(struct instdata *inst);
 static signed int sendTLS(signed int i, char *buf, signed int lenBuf);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous$3, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous_3, unsigned int);
 // setrlimit
 // file /usr/include/x86_64-linux-gnu/sys/resource.h line 69
 extern signed int setrlimit(enum __rlimit_resource, struct rlimit *);
@@ -423,7 +423,7 @@ extern signed int setvbuf(struct _IO_FILE *, char *, signed int, unsigned long i
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$9 *);
+extern signed int sigemptyset(struct anonymous_9 *);
 // sleep
 // file /usr/include/unistd.h line 444
 extern unsigned int sleep(unsigned int);
@@ -461,7 +461,7 @@ static inline void waitGenerators();
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$18
+struct anonymous_18
 {
   // _call_addr
   void *_call_addr;
@@ -471,7 +471,7 @@ struct anonymous$18
   unsigned int _arch;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // si_addr
   void *si_addr;
@@ -479,13 +479,13 @@ struct anonymous$16
   signed short int si_addr_lsb;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // __lock
   signed int __lock;
@@ -505,7 +505,7 @@ struct anonymous$1
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // si_pid
   signed int si_pid;
@@ -513,7 +513,7 @@ struct anonymous$13
   unsigned int si_uid;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // si_pid
   signed int si_pid;
@@ -535,7 +535,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // si_pid
   signed int si_pid;
@@ -545,7 +545,7 @@ struct anonymous$11
   union sigval si_sigval;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // si_tid
   signed int si_tid;
@@ -555,7 +555,7 @@ struct anonymous$8
   union sigval si_sigval;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // si_band
   signed long int si_band;
@@ -563,27 +563,27 @@ struct anonymous$17
   signed int si_fd;
 };
 
-union anonymous$19
+union anonymous_19
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$13 _kill;
+  struct anonymous_13 _kill;
   // _timer
-  struct anonymous$8 _timer;
+  struct anonymous_8 _timer;
   // _rt
-  struct anonymous$11 _rt;
+  struct anonymous_11 _rt;
   // _sigchld
-  struct anonymous$14 _sigchld;
+  struct anonymous_14 _sigchld;
   // _sigfault
-  struct anonymous$16 _sigfault;
+  struct anonymous_16 _sigfault;
   // _sigpoll
-  struct anonymous$17 _sigpoll;
+  struct anonymous_17 _sigpoll;
   // _sigsys
-  struct anonymous$18 _sigsys;
+  struct anonymous_18 _sigsys;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // si_signo
   signed int si_signo;
@@ -592,18 +592,18 @@ struct anonymous$0
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$19 _sifields;
+  union anonymous_19 _sifields;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$0 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_0 *, void *);
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -613,7 +613,7 @@ union anonymous$6
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __size
   char __size[4l];
@@ -621,10 +621,10 @@ union anonymous$5
   signed int __align;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // __data
-  struct anonymous$1 __data;
+  struct anonymous_1 __data;
   // __size
   char __size[48l];
   // __align
@@ -659,7 +659,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -699,7 +699,7 @@ union anonymous
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -804,7 +804,7 @@ struct _IO_marker
 struct in6_addr
 {
   // __in6_u
-  union anonymous$6 __in6_u;
+  union anonymous_6 __in6_u;
 };
 
 struct in_addr
@@ -866,9 +866,9 @@ struct runstats
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$7 __sigaction_handler;
+  union anonymous_7 __sigaction_handler;
   // sa_mask
-  struct anonymous$9 sa_mask;
+  struct anonymous_9 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -955,10 +955,10 @@ static signed int bStatsRecords = 0;
 static signed long long int batchsize = 100000000ll;
 // condDoRun
 // file tcpflood.c line 162
-union anonymous$10 condDoRun;
+union anonymous_10 condDoRun;
 // condStarted
 // file tcpflood.c line 161
-union anonymous$10 condStarted;
+union anonymous_10 condStarted;
 // dataFP
 // file tcpflood.c line 137
 struct _IO_FILE *dataFP = (struct _IO_FILE *)(void *)0;
@@ -1048,7 +1048,7 @@ static char *targetIP = "127.0.0.1";
 static signed int targetPort = 13514;
 // thrdMgmt
 // file tcpflood.c line 160
-union anonymous$12 thrdMgmt;
+union anonymous_12 thrdMgmt;
 // tlsCertFile
 // file tcpflood.c line 147
 static char *tlsCertFile = (char *)(void *)0;
@@ -1063,7 +1063,7 @@ static signed int tlsLogLevel = 0;
 static struct gnutls_certificate_credentials_st *tlscred;
 // transport
 // file tcpflood.c line 185
-static enum anonymous$20 transport = (enum anonymous$20)TP_TCP;
+static enum anonymous_20 transport = (enum anonymous_20)TP_TCP;
 // udpRcvr
 // file tcpflood.c line 183
 static struct sockaddr_in udpRcvr;
@@ -1085,11 +1085,11 @@ void closeConnections(void)
   unsigned long int lenMsg;
   struct linger ling;
   char msgBuf[128l];
-  signed long int return_value_write$1;
+  signed long int return_value_write_1;
   if(!((signed int)transport == TP_UDP))
   {
     if(!(bShowProgress == 0))
-      return_value_write$1=write(1, (const void *)"      close connections", sizeof(char [24l]) /*24ul*/  - (unsigned long int)1);
+      return_value_write_1=write(1, (const void *)"      close connections", sizeof(char [24l]) /*24ul*/  - (unsigned long int)1);
 
     i = 0;
     for( ; !(i >= numConnections); i = i + 1)
@@ -1098,11 +1098,11 @@ void closeConnections(void)
       {
         if(!(bShowProgress == 0))
         {
-          signed int return_value_sprintf$2;
-          return_value_sprintf$2=sprintf(msgBuf, "\r%5.5d", i);
-          lenMsg = (unsigned long int)return_value_sprintf$2;
-          signed long int return_value_write$3;
-          return_value_write$3=write(1, (const void *)msgBuf, lenMsg);
+          signed int return_value_sprintf_2;
+          return_value_sprintf_2=sprintf(msgBuf, "\r%5.5d", i);
+          lenMsg = (unsigned long int)return_value_sprintf_2;
+          signed long int return_value_write_3;
+          return_value_write_3=write(1, (const void *)msgBuf, lenMsg);
         }
 
       }
@@ -1121,11 +1121,11 @@ void closeConnections(void)
     }
     if(!(bShowProgress == 0))
     {
-      signed int return_value_sprintf$4;
-      return_value_sprintf$4=sprintf(msgBuf, "\r%5.5d close connections\n", i);
-      lenMsg = (unsigned long int)return_value_sprintf$4;
-      signed long int return_value_write$5;
-      return_value_write$5=write(1, (const void *)msgBuf, lenMsg);
+      signed int return_value_sprintf_4;
+      return_value_sprintf_4=sprintf(msgBuf, "\r%5.5d close connections\n", i);
+      lenMsg = (unsigned long int)return_value_sprintf_4;
+      signed long int return_value_write_5;
+      return_value_write_5=write(1, (const void *)msgBuf, lenMsg);
     }
 
   }
@@ -1136,7 +1136,7 @@ void closeConnections(void)
 // file tcpflood.c line 849
 static void closeTLSSess(signed int i)
 {
-  gnutls_bye(sessArray[(signed long int)i], (enum anonymous$2)GNUTLS_SHUT_RDWR);
+  gnutls_bye(sessArray[(signed long int)i], (enum anonymous_2)GNUTLS_SHUT_RDWR);
   gnutls_deinit(sessArray[(signed long int)i]);
 }
 
@@ -1184,14 +1184,14 @@ static inline void genMsg(char *buf, unsigned long int maxBuf, signed int *pLenB
   char extraData[102401l];
   char dynFileIDBuf[128l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   signed int done;
-  signed int return_value_rand$3;
+  signed int return_value_rand_3;
   if(!(dataFP == ((struct _IO_FILE *)NULL)))
     do
     {
       done = 1;
-      unsigned long int return_value_fread$1;
-      return_value_fread$1=fread((void *)buf, (unsigned long int)1, (unsigned long int)(100 * 1024 + 1024), dataFP);
-      *pLenBuf = (signed int)return_value_fread$1;
+      unsigned long int return_value_fread_1;
+      return_value_fread_1=fread((void *)buf, (unsigned long int)1, (unsigned long int)(100 * 1024 + 1024), dataFP);
+      *pLenBuf = (signed int)return_value_fread_1;
       if(*pLenBuf == 0)
       {
         numFileIterations = numFileIterations - 1;
@@ -1226,9 +1226,9 @@ static inline void genMsg(char *buf, unsigned long int maxBuf, signed int *pLenB
       {
         if(dynFileIDs >= 1)
         {
-          signed int return_value_rand$2;
-          return_value_rand$2=rand();
-          snprintf(dynFileIDBuf, sizeof(char [128l]) /*128ul*/ , "%d:", return_value_rand$2 % dynFileIDs);
+          signed int return_value_rand_2;
+          return_value_rand_2=rand();
+          snprintf(dynFileIDBuf, sizeof(char [128l]) /*128ul*/ , "%d:", return_value_rand_2 % dynFileIDs);
         }
 
         if(extraDataLen == 0)
@@ -1244,8 +1244,8 @@ static inline void genMsg(char *buf, unsigned long int maxBuf, signed int *pLenB
         {
           if(!(bRandomizeExtraData == 0))
           {
-            return_value_rand$3=rand();
-            edLen = (signed int)(((unsigned long int)return_value_rand$3 + (unsigned long int)extraDataLen) % (unsigned long int)extraDataLen + (unsigned long int)1);
+            return_value_rand_3=rand();
+            edLen = (signed int)(((unsigned long int)return_value_rand_3 + (unsigned long int)extraDataLen) % (unsigned long int)extraDataLen + (unsigned long int)1);
           }
 
           else
@@ -1311,7 +1311,7 @@ static void initTLS(void)
     exit(1);
   }
 
-  r=gnutls_certificate_set_x509_key_file(tlscred, tlsCertFile, tlsKeyFile, (enum anonymous$15)GNUTLS_X509_FMT_PEM);
+  r=gnutls_certificate_set_x509_key_file(tlscred, tlsCertFile, tlsKeyFile, (enum anonymous_15)GNUTLS_X509_FMT_PEM);
   if(!(r == 0))
   {
     printf("error setting certificate files -- have you mixed up key and certificate?\n");
@@ -1319,7 +1319,7 @@ static void initTLS(void)
     printf("Certifcate is: '%s'\n", tlsCertFile);
     printf("Key        is: '%s'\n", tlsKeyFile);
     gnutls_perror(r);
-    r=gnutls_certificate_set_x509_key_file(tlscred, tlsKeyFile, tlsCertFile, (enum anonymous$15)GNUTLS_X509_FMT_PEM);
+    r=gnutls_certificate_set_x509_key_file(tlscred, tlsKeyFile, tlsCertFile, (enum anonymous_15)GNUTLS_X509_FMT_PEM);
     if(r == 0)
       printf("Tried swapping files, this seems to work (but results may be unpredictable!)\n");
 
@@ -1336,7 +1336,7 @@ static void initTLSSess(signed int i)
   signed int r;
   gnutls_init(sessArray + (signed long int)i, (unsigned int)(1 << 1));
   gnutls_set_default_priority(sessArray[(signed long int)i]);
-  r=gnutls_credentials_set(sessArray[(signed long int)i], (enum anonymous$4)GNUTLS_CRD_CERTIFICATE, (void *)tlscred);
+  r=gnutls_credentials_set(sessArray[(signed long int)i], (enum anonymous_4)GNUTLS_CRD_CERTIFICATE, (void *)tlscred);
   if(!(r == 0))
   {
     fprintf(stderr, "Setting credentials failed\n");
@@ -1363,19 +1363,19 @@ signed int main(signed int argc, char **argv)
   signed int opt;
   struct sigaction sigAct;
   struct rlimit maxFiles;
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
-  srand((unsigned int)return_value_time$1);
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
+  srand((unsigned int)return_value_time_1);
   memset((void *)&sigAct, 0, sizeof(struct sigaction) /*152ul*/ );
   sigemptyset(&sigAct.sa_mask);
   sigAct.__sigaction_handler.sa_handler = (void (*)(signed int))1;
   sigaction(13, &sigAct, (struct sigaction *)(void *)0);
   static char buf[1024l];
   setvbuf(stdout, buf, 2, (unsigned long int)48);
-  signed int return_value_atoi$2;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
+  signed int return_value_atoi_2;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
   do
   {
     opt=getopt(argc, argv, "b:ef:F:t:p:c:C:m:i:I:P:d:Dn:l:L:M:rsBR:S:T:XW:yYz:Z:j:");
@@ -1474,8 +1474,8 @@ signed int main(signed int argc, char **argv)
       }
       case 70:
       {
-        return_value_atoi$2=atoi(optarg);
-        frameDelim = (char)return_value_atoi$2;
+        return_value_atoi_2=atoi(optarg);
+        frameDelim = (char)return_value_atoi_2;
         break;
       }
       case 76:
@@ -1526,21 +1526,21 @@ signed int main(signed int argc, char **argv)
       }
       case 84:
       {
-        return_value_strcmp$5=strcmp(optarg, "udp");
-        if(return_value_strcmp$5 == 0)
-          transport = (enum anonymous$20)TP_UDP;
+        return_value_strcmp_5=strcmp(optarg, "udp");
+        if(return_value_strcmp_5 == 0)
+          transport = (enum anonymous_20)TP_UDP;
 
         else
         {
-          return_value_strcmp$4=strcmp(optarg, "tcp");
-          if(return_value_strcmp$4 == 0)
-            transport = (enum anonymous$20)TP_TCP;
+          return_value_strcmp_4=strcmp(optarg, "tcp");
+          if(return_value_strcmp_4 == 0)
+            transport = (enum anonymous_20)TP_TCP;
 
           else
           {
-            return_value_strcmp$3=strcmp(optarg, "tls");
-            if(return_value_strcmp$3 == 0)
-              transport = (enum anonymous$20)TP_TLS;
+            return_value_strcmp_3=strcmp(optarg, "tls");
+            if(return_value_strcmp_3 == 0)
+              transport = (enum anonymous_20)TP_TLS;
 
             else
             {
@@ -1587,18 +1587,18 @@ signed int main(signed int argc, char **argv)
   if(!(bStatsRecords == 0) && !(waittime == 0))
     fprintf(stderr, "warning: generating performance stats and using a waittime is somewhat contradictory!\n");
 
-  signed int return_value_isatty$6;
-  return_value_isatty$6=isatty(1);
-  if(return_value_isatty$6 == 0 || !(bSilent == 0))
+  signed int return_value_isatty_6;
+  return_value_isatty_6=isatty(1);
+  if(return_value_isatty_6 == 0 || !(bSilent == 0))
     bShowProgress = 0;
 
   if(numConnections >= 21)
   {
     maxFiles.rlim_cur = (unsigned long int)(numConnections + 20);
     maxFiles.rlim_max = (unsigned long int)(numConnections + 20);
-    signed int return_value_setrlimit$7;
-    return_value_setrlimit$7=setrlimit((enum __rlimit_resource)RLIMIT_NOFILE, &maxFiles);
-    if(!(return_value_setrlimit$7 >= 0))
+    signed int return_value_setrlimit_7;
+    return_value_setrlimit_7=setrlimit((enum __rlimit_resource)RLIMIT_NOFILE, &maxFiles);
+    if(!(return_value_setrlimit_7 >= 0))
     {
       perror("setrlimit to increase file handles failed");
       fprintf(stderr, "could net set sufficiently large number of open files for required connection count!\n");
@@ -1621,17 +1621,17 @@ signed int main(signed int argc, char **argv)
   if((signed int)transport == TP_TLS)
     initTLS();
 
-  signed int return_value_openConnections$8;
-  return_value_openConnections$8=openConnections();
-  if(!(return_value_openConnections$8 == 0))
+  signed int return_value_openConnections_8;
+  return_value_openConnections_8=openConnections();
+  if(!(return_value_openConnections_8 == 0))
   {
     printf("error opening connections\n");
     exit(1);
   }
 
-  signed int return_value_runTests$9;
-  return_value_runTests$9=runTests();
-  if(!(return_value_runTests$9 == 0))
+  signed int return_value_runTests_9;
+  return_value_runTests_9=runTests();
+  if(!(return_value_runTests_9 == 0))
   {
     printf("error running tests\n");
     exit(1);
@@ -1657,7 +1657,7 @@ signed int openConn(signed int *fd)
   signed int retries = 0;
   signed int rnd;
   sock=socket(2, 1, 0);
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   if(sock == -1)
   {
     perror("\nsocket()");
@@ -1677,9 +1677,9 @@ signed int openConn(signed int *fd)
     memset((void *)(char *)&addr, 0, sizeof(struct sockaddr_in) /*16ul*/ );
     addr.sin_family = (unsigned short int)2;
     addr.sin_port=htons((unsigned short int)port);
-    signed int return_value_inet_aton$1;
-    return_value_inet_aton$1=inet_aton(targetIP, &addr.sin_addr);
-    if(return_value_inet_aton$1 == 0)
+    signed int return_value_inet_aton_1;
+    return_value_inet_aton_1=inet_aton(targetIP, &addr.sin_addr);
+    if(return_value_inet_aton_1 == 0)
     {
       fprintf(stderr, "inet_aton() failed\n");
       return 1;
@@ -1689,16 +1689,16 @@ signed int openConn(signed int *fd)
     {
       while((_Bool)1)
       {
-        signed int return_value_connect$3;
-        return_value_connect$3=connect(sock, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-        if(return_value_connect$3 == 0)
+        signed int return_value_connect_3;
+        return_value_connect_3=connect(sock, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+        if(return_value_connect_3 == 0)
           break;
 
         else
         {
-          tmp_post$2 = retries;
+          tmp_post_2 = retries;
           retries = retries + 1;
-          if(tmp_post$2 == 50)
+          if(tmp_post_2 == 50)
           {
             perror("connect()");
             fprintf(stderr, "connect() failed\n");
@@ -1722,25 +1722,25 @@ signed int openConnections(void)
   signed int i;
   char msgBuf[128l];
   unsigned long int lenMsg;
-  signed int return_value_setupUDP$1;
-  signed long int return_value_write$2;
+  signed int return_value_setupUDP_1;
+  signed long int return_value_write_2;
   if((signed int)transport == TP_UDP)
   {
-    return_value_setupUDP$1=setupUDP();
-    return return_value_setupUDP$1;
+    return_value_setupUDP_1=setupUDP();
+    return return_value_setupUDP_1;
   }
 
   else
   {
     if(!(bShowProgress == 0))
-      return_value_write$2=write(1, (const void *)"      open connections", sizeof(char [23l]) /*23ul*/  - (unsigned long int)1);
+      return_value_write_2=write(1, (const void *)"      open connections", sizeof(char [23l]) /*23ul*/  - (unsigned long int)1);
 
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)numConnections, sizeof(struct gnutls_session_int *) /*8ul*/ );
-    sessArray = (struct gnutls_session_int **)return_value_calloc$3;
-    void *return_value_calloc$4;
-    return_value_calloc$4=calloc((unsigned long int)numConnections, sizeof(signed int) /*4ul*/ );
-    sockArray = (signed int *)return_value_calloc$4;
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)numConnections, sizeof(struct gnutls_session_int *) /*8ul*/ );
+    sessArray = (struct gnutls_session_int **)return_value_calloc_3;
+    void *return_value_calloc_4;
+    return_value_calloc_4=calloc((unsigned long int)numConnections, sizeof(signed int) /*4ul*/ );
+    sockArray = (signed int *)return_value_calloc_4;
     i = 0;
     for( ; !(i >= numConnections); i = i + 1)
     {
@@ -1751,9 +1751,9 @@ signed int openConnections(void)
 
       }
 
-      signed int return_value_openConn$5;
-      return_value_openConn$5=openConn(&sockArray[(signed long int)i]);
-      if(!(return_value_openConn$5 == 0))
+      signed int return_value_openConn_5;
+      return_value_openConn_5=openConn(&sockArray[(signed long int)i]);
+      if(!(return_value_openConn_5 == 0))
       {
         printf("error in trying to open connection i=%d\n", i);
         if(!(softLimitConnections == 0))
@@ -1772,11 +1772,11 @@ signed int openConnections(void)
     }
     if(!(bShowProgress == 0))
     {
-      signed int return_value_sprintf$6;
-      return_value_sprintf$6=sprintf(msgBuf, "\r%5.5d open connections\n", i);
-      lenMsg = (unsigned long int)return_value_sprintf$6;
-      signed long int return_value_write$7;
-      return_value_write$7=write(1, (const void *)msgBuf, lenMsg);
+      signed int return_value_sprintf_6;
+      return_value_sprintf_6=sprintf(msgBuf, "\r%5.5d open connections\n", i);
+      lenMsg = (unsigned long int)return_value_sprintf_6;
+      signed long int return_value_write_7;
+      return_value_write_7=write(1, (const void *)msgBuf, lenMsg);
     }
 
     return 0;
@@ -1800,15 +1800,15 @@ static inline void prepareGenerators()
     numThrds = 1;
   runningThreads = 0;
   doRun = 0;
-  pthread_mutex_init(&thrdMgmt, (const union anonymous$5 *)(void *)0);
-  pthread_cond_init(&condStarted, (const union anonymous$5 *)(void *)0);
-  pthread_cond_init(&condDoRun, (const union anonymous$5 *)(void *)0);
+  pthread_mutex_init(&thrdMgmt, (const union anonymous_5 *)(void *)0);
+  pthread_cond_init(&condStarted, (const union anonymous_5 *)(void *)0);
+  pthread_cond_init(&condDoRun, (const union anonymous_5 *)(void *)0);
   if(!(instarray == ((struct instdata *)NULL)))
     free((void *)instarray);
 
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)numThrds, sizeof(struct instdata) /*40ul*/ );
-  instarray = (struct instdata *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)numThrds, sizeof(struct instdata) /*40ul*/ );
+  instarray = (struct instdata *)return_value_calloc_1;
   msgsThrd = (signed long long int)(numMsgsToSend / numThrds);
   i = 0;
   for( ; !(i >= numThrds); i = i + 1)
@@ -1927,9 +1927,9 @@ signed int sendMessages(struct instdata *inst)
     {
       if(sockArray[(signed long int)socknum] == -1)
       {
-        signed int return_value_openConn$1;
-        return_value_openConn$1=openConn(&sockArray[(signed long int)socknum]);
-        if(!(return_value_openConn$1 == 0))
+        signed int return_value_openConn_1;
+        return_value_openConn_1=openConn(&sockArray[(signed long int)socknum]);
+        if(!(return_value_openConn_1 == 0))
         {
           printf("error in trying to re-open connection %d\n", socknum);
           exit(1);
@@ -1937,17 +1937,17 @@ signed int sendMessages(struct instdata *inst)
 
       }
 
-      signed long int return_value_send$2;
-      return_value_send$2=send(sockArray[(signed long int)socknum], (const void *)buf, (unsigned long int)lenBuf, 0);
-      lenSend = (signed int)return_value_send$2;
+      signed long int return_value_send_2;
+      return_value_send_2=send(sockArray[(signed long int)socknum], (const void *)buf, (unsigned long int)lenBuf, 0);
+      lenSend = (signed int)return_value_send_2;
     }
 
     else
       if((signed int)transport == TP_UDP)
       {
-        signed long int return_value_sendto$3;
-        return_value_sendto$3=sendto(udpsock, (const void *)buf, (unsigned long int)lenBuf, 0, &udpRcvr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-        lenSend = (signed int)return_value_sendto$3;
+        signed long int return_value_sendto_3;
+        return_value_sendto_3=sendto(udpsock, (const void *)buf, (unsigned long int)lenBuf, 0, &udpRcvr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+        lenSend = (signed int)return_value_sendto_3;
       }
 
       else
@@ -1955,9 +1955,9 @@ signed int sendMessages(struct instdata *inst)
         {
           if(sockArray[(signed long int)socknum] == -1)
           {
-            signed int return_value_openConn$4;
-            return_value_openConn$4=openConn(&sockArray[(signed long int)socknum]);
-            if(!(return_value_openConn$4 == 0))
+            signed int return_value_openConn_4;
+            return_value_openConn_4=openConn(&sockArray[(signed long int)socknum]);
+            if(!(return_value_openConn_4 == 0))
             {
               printf("error in trying to re-open connection %d\n", socknum);
               exit(1);
@@ -2001,9 +2001,9 @@ signed int sendMessages(struct instdata *inst)
 
     if(runMultithreaded == 0 && !(bRandConnDrop == 0))
     {
-      signed int return_value_rand$5;
-      return_value_rand$5=rand();
-      if(!((signed int)(2.147484e+9 * dbRandConnDrop) >= return_value_rand$5))
+      signed int return_value_rand_5;
+      return_value_rand_5=rand();
+      if(!((signed int)(2.147484e+9 * dbRandConnDrop) >= return_value_rand_5))
       {
         nConnDrops = nConnDrops + 1l;
         close(sockArray[(signed long int)socknum]);
@@ -2035,9 +2035,9 @@ static signed int sendTLS(signed int i, char *buf, signed int lenBuf)
   lenSent = 0;
   while(!(lenSent == lenBuf))
   {
-    signed long int return_value_gnutls_record_send$1;
-    return_value_gnutls_record_send$1=gnutls_record_send(sessArray[(signed long int)i], (const void *)(buf + (signed long int)lenSent), (unsigned long int)(lenBuf - lenSent));
-    r = (signed int)return_value_gnutls_record_send$1;
+    signed long int return_value_gnutls_record_send_1;
+    return_value_gnutls_record_send_1=gnutls_record_send(sessArray[(signed long int)i], (const void *)(buf + (signed long int)lenSent), (unsigned long int)(lenBuf - lenSent));
+    r = (signed int)return_value_gnutls_record_send_1;
     if(!(r >= 0))
       break;
 
@@ -2059,9 +2059,9 @@ static inline signed int setupUDP(void)
     memset((void *)(char *)&udpRcvr, 0, sizeof(struct sockaddr_in) /*16ul*/ );
     udpRcvr.sin_family = (unsigned short int)2;
     udpRcvr.sin_port=htons((unsigned short int)targetPort);
-    signed int return_value_inet_aton$1;
-    return_value_inet_aton$1=inet_aton(targetIP, &udpRcvr.sin_addr);
-    if(return_value_inet_aton$1 == 0)
+    signed int return_value_inet_aton_1;
+    return_value_inet_aton_1=inet_aton(targetIP, &udpRcvr.sin_addr);
+    if(return_value_inet_aton_1 == 0)
     {
       fprintf(stderr, "inet_aton() failed\n");
       return 1;
@@ -2083,9 +2083,9 @@ static void * thrdStarter(void *arg)
   while(doRun == 0)
     pthread_cond_wait(&condDoRun, &thrdMgmt);
   pthread_mutex_unlock(&thrdMgmt);
-  signed int return_value_sendMessages$1;
-  return_value_sendMessages$1=sendMessages(inst);
-  if(!(return_value_sendMessages$1 == 0))
+  signed int return_value_sendMessages_1;
+  return_value_sendMessages_1=sendMessages(inst);
+  if(!(return_value_sendMessages_1 == 0))
     printf("error sending messages\n");
 
   return (void *)0;

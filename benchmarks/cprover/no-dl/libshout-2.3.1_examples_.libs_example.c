@@ -1,142 +1,142 @@
-// #anon_enum$OC_CS_UNSPECIFIED=0$OC_CS_ITU_REC_470M=1$OC_CS_ITU_REC_470BG=2$OC_CS_NSPACES=3
+// #anon_enum_OC_CS_UNSPECIFIED=0_OC_CS_ITU_REC_470M=1_OC_CS_ITU_REC_470BG=2_OC_CS_NSPACES=3
 // file /usr/include/theora/theora.h line 164
-enum anonymous$3 { OC_CS_UNSPECIFIED=0, OC_CS_ITU_REC_470M=1, OC_CS_ITU_REC_470BG=2, OC_CS_NSPACES=3 };
+enum anonymous_3 { OC_CS_UNSPECIFIED=0, OC_CS_ITU_REC_470M=1, OC_CS_ITU_REC_470BG=2, OC_CS_NSPACES=3 };
 
-// #anon_enum$OC_PF_420=0$OC_PF_RSVD=1$OC_PF_422=2$OC_PF_444=3
+// #anon_enum_OC_PF_420=0_OC_PF_RSVD=1_OC_PF_422=2_OC_PF_444=3
 // file /usr/include/theora/theora.h line 178
-enum anonymous$4 { OC_PF_420=0, OC_PF_RSVD=1, OC_PF_422=2, OC_PF_444=3 };
+enum anonymous_4 { OC_PF_420=0, OC_PF_RSVD=1, OC_PF_422=2, OC_PF_444=3 };
 
-// #anon_enum$SHOUT_STATE_UNCONNECTED=0$SHOUT_STATE_CONNECT_PENDING=1$SHOUT_STATE_REQ_PENDING=2$SHOUT_STATE_RESP_PENDING=3$SHOUT_STATE_CONNECTED=4
+// #anon_enum_SHOUT_STATE_UNCONNECTED=0_SHOUT_STATE_CONNECT_PENDING=1_SHOUT_STATE_REQ_PENDING=2_SHOUT_STATE_RESP_PENDING=3_SHOUT_STATE_CONNECTED=4
 // file shout_private.h line 49
-enum anonymous$9 { SHOUT_STATE_UNCONNECTED=0, SHOUT_STATE_CONNECT_PENDING=1, SHOUT_STATE_REQ_PENDING=2, SHOUT_STATE_RESP_PENDING=3, SHOUT_STATE_CONNECTED=4 };
+enum anonymous_9 { SHOUT_STATE_UNCONNECTED=0, SHOUT_STATE_CONNECT_PENDING=1, SHOUT_STATE_REQ_PENDING=2, SHOUT_STATE_RESP_PENDING=3, SHOUT_STATE_CONNECTED=4 };
 
-// tag-#anon#ST[*{SYM#tag-SpeexHeader#}$SYM#tag-SpeexHeader#$'sh'|]
+// tag-#anon#ST[*{SYM#tag-SpeexHeader#}_SYM#tag-SpeexHeader#_'sh'|]
 // file speex.c line 32
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[*{SYM#tag-_shout_buf#}$SYM#tag-_shout_buf#$'head'||U64'len'|]
+// tag-#anon#ST[*{SYM#tag-_shout_buf#}_SYM#tag-_shout_buf#_'head'||U64'len'|]
 // file shout_private.h line 44
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[*{U8}$U8$'body_data'||S64'body_storage'||S64'body_fill'||S64'body_returned'||*{S32}$S32$'lacing_vals'||*{S64}$S64$'granule_vals'||S64'lacing_storage'||S64'lacing_fill'||S64'lacing_packet'||S64'lacing_returned'||ARR282{U8}$U8$'header'||U16'$pad0'||S32'header_fill'||S32'e_o_s'||S32'b_o_s'||S64'serialno'||S64'pageno'||S64'packetno'||S64'granulepos'|]
+// tag-#anon#ST[*{U8}_U8_'body_data'||S64'body_storage'||S64'body_fill'||S64'body_returned'||*{S32}_S32_'lacing_vals'||*{S64}_S64_'granule_vals'||S64'lacing_storage'||S64'lacing_fill'||S64'lacing_packet'||S64'lacing_returned'||ARR282{U8}_U8_'header'||U16'_pad0'||S32'header_fill'||S32'e_o_s'||S32'b_o_s'||S64'serialno'||S64'pageno'||S64'packetno'||S64'granulepos'|]
 // file /usr/include/ogg/ogg.h line 53
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[*{U8}$U8$'data'||S32'storage'||S32'fill'||S32'returned'||S32'unsynced'||S32'headerbytes'||S32'bodybytes'|]
+// tag-#anon#ST[*{U8}_U8_'data'||S32'storage'||S32'fill'||S32'returned'||S32'unsynced'||S32'headerbytes'||S32'bodybytes'|]
 // file /usr/include/ogg/ogg.h line 105
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[*{U8}$U8$'header'||S64'header_len'||*{U8}$U8$'body'||S64'body_len'|]
+// tag-#anon#ST[*{U8}_U8_'header'||S64'header_len'||*{U8}_U8_'body'||S64'body_len'|]
 // file /usr/include/ogg/ogg.h line 43
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[*{U8}$U8$'packet'||S64'bytes'||S64'b_o_s'||S64'e_o_s'||S64'granulepos'||S64'packetno'|]
+// tag-#anon#ST[*{U8}_U8_'packet'||S64'bytes'||S64'b_o_s'||S64'e_o_s'||S64'granulepos'||S64'packetno'|]
 // file /usr/include/ogg/ogg.h line 90
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[*{cU8}$cU8$'data'||S32'maxlen'||S32'pos'|]
+// tag-#anon#ST[*{cU8}_cU8_'data'||S32'maxlen'||S32'pos'|]
 // file opus.c line 55
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]
+// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 177
-struct anonymous$21;
+struct anonymous_21;
 
 // tag-#anon#ST[S32'syncword'||S32'layer'||S32'version'||S32'error_protection'||S32'bitrate_index'||S32'samplerate_index'||S32'padding'||S32'extension'||S32'mode'||S32'mode_ext'||S32'copyright'||S32'original'||S32'emphasis'||S32'stereo'||S32'bitrate'||U32'samplerate'||U32'samples'||U32'framesize'|]
 // file mp3.c line 50
-struct anonymous$32;
+struct anonymous_32;
 
-// tag-#anon#ST[S32'version'||S32'channels'||S32'preskip'||U32'input_sample_rate'||S32'gain'||S32'channel_mapping'||S32'nb_streams'||S32'nb_coupled'||ARR255{U8}$U8$'stream_map'||U8'$pad0'|]
+// tag-#anon#ST[S32'version'||S32'channels'||S32'preskip'||U32'input_sample_rate'||S32'gain'||S32'channel_mapping'||S32'nb_streams'||S32'nb_coupled'||ARR255{U8}_U8_'stream_map'||U8'_pad0'|]
 // file opus.c line 37
 struct anonymous;
 
-// tag-#anon#ST[S64'thread_id'||*{S8}$S8$'name'||S64'create_time'||*{S8}$S8$'file'||S32'line'||S32'detached'||U64'sys_thread'|]
+// tag-#anon#ST[S64'thread_id'||*{S8}_S8_'name'||S64'create_time'||*{S8}_S8_'file'||S32'line'||S32'detached'||U64'sys_thread'|]
 // file ./../thread/thread.h line 28
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[*{U8}$U8$'data'||S32'storage'||S32'fill'||S32'returned'||S32'unsynced'||S32'headerbytes'||S32'bodybytes'|]#'oy'||*{SYM#tag-_ogg_codec_tag#}$SYM#tag-_ogg_codec_tag#$'codecs'||S8'bos'||U56'$pad0'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[*{U8}_U8_'data'||S32'storage'||S32'fill'||S32'returned'||S32'unsynced'||S32'headerbytes'||S32'bodybytes'|]#'oy'||*{SYM#tag-_ogg_codec_tag#}_SYM#tag-_ogg_codec_tag#_'codecs'||S8'bos'||U56'_pad0'|]
 // file ogg.c line 40
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[S32'version'||S32'channels'||S32'preskip'||U32'input_sample_rate'||S32'gain'||S32'channel_mapping'||S32'nb_streams'||S32'nb_coupled'||ARR255{U8}$U8$'stream_map'||U8'$pad0'|]#'oh'||S32'skipped'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[S32'version'||S32'channels'||S32'preskip'||U32'input_sample_rate'||S32'gain'||S32'channel_mapping'||S32'nb_streams'||S32'nb_coupled'||ARR255{U8}_U8_'stream_map'||U8'_pad0'|]#'oh'||S32'skipped'|]
 // file opus.c line 50
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[U32'width'||U32'height'||U32'frame_width'||U32'frame_height'||U32'offset_x'||U32'offset_y'||U32'fps_numerator'||U32'fps_denominator'||U32'aspect_numerator'||U32'aspect_denominator'||EN#anon_enum$OC_CS_UNSPECIFIED=0$OC_CS_ITU_REC_470M=1$OC_CS_ITU_REC_470BG=2$OC_CS_NSPACES=3#{U32}$U32$'colorspace'||S32'target_bitrate'||S32'quality'||S32'quick_p'||U8'version_major'||U8'version_minor'||U8'version_subminor'||U40'$pad0'||*{V}$V$'codec_setup'||S32'dropframes_p'||S32'keyframe_auto_p'||U32'keyframe_frequency'||U32'keyframe_frequency_force'||U32'keyframe_data_target_bitrate'||S32'keyframe_auto_threshold'||U32'keyframe_mindistance'||S32'noise_sensitivity'||S32'sharpness'||EN#anon_enum$OC_PF_420=0$OC_PF_RSVD=1$OC_PF_422=2$OC_PF_444=3#{U32}$U32$'pixelformat'|]#'ti'||SYM#tag-theora_comment#'tc'||U32'granule_shift'||U32'$pad0'||F64'per_frame'||U64'start_frame'||S32'initial_frames'||S32'get_start_frame'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[U32'width'||U32'height'||U32'frame_width'||U32'frame_height'||U32'offset_x'||U32'offset_y'||U32'fps_numerator'||U32'fps_denominator'||U32'aspect_numerator'||U32'aspect_denominator'||EN#anon_enum_OC_CS_UNSPECIFIED=0_OC_CS_ITU_REC_470M=1_OC_CS_ITU_REC_470BG=2_OC_CS_NSPACES=3#{U32}_U32_'colorspace'||S32'target_bitrate'||S32'quality'||S32'quick_p'||U8'version_major'||U8'version_minor'||U8'version_subminor'||U40'_pad0'||*{V}_V_'codec_setup'||S32'dropframes_p'||S32'keyframe_auto_p'||U32'keyframe_frequency'||U32'keyframe_frequency_force'||U32'keyframe_data_target_bitrate'||S32'keyframe_auto_threshold'||U32'keyframe_mindistance'||S32'noise_sensitivity'||S32'sharpness'||EN#anon_enum_OC_PF_420=0_OC_PF_RSVD=1_OC_PF_422=2_OC_PF_444=3#{U32}_U32_'pixelformat'|]#'ti'||SYM#tag-theora_comment#'tc'||U32'granule_shift'||U32'_pad0'||F64'per_frame'||U64'start_frame'||S32'initial_frames'||S32'get_start_frame'|]
 // file theora.c line 37
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]#'__data'||ARR56{S8}$S8$'__size'||S64'__align'|]#'sys_rwlock'|]
+// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]#'__data'||ARR56{S8}_S8_'__size'||S64'__align'|]#'sys_rwlock'|]
 // file ./thread/thread.h line 76
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'cond_mutex'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'sys_cond'|]
+// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'cond_mutex'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'sys_cond'|]
 // file ./../thread/thread.h line 66
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'sys_mutex'|]
+// tag-#anon#ST[SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'sys_mutex'|]
 // file ./../thread/thread.h line 47
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#ST[SYM#tag-vorbis_info#'vi'||SYM#tag-vorbis_comment#'vc'||S32'prevW'||U32'$pad0'|]
+// tag-#anon#ST[SYM#tag-vorbis_info#'vi'||SYM#tag-vorbis_comment#'vc'||S32'prevW'||U32'_pad0'|]
 // file vorbis.c line 37
-struct anonymous$30;
+struct anonymous_30;
 
-// tag-#anon#ST[U32'frames'||S32'frame_samples'||S32'frame_samplerate'||U32'frame_left'||S32'header_bridges'||ARR3{U8}$U8$'header_bridge'||U8'$pad0'|]
+// tag-#anon#ST[U32'frames'||S32'frame_samples'||S32'frame_samplerate'||U32'frame_left'||S32'header_bridges'||ARR3{U8}_U8_'header_bridge'||U8'_pad0'|]
 // file mp3.c line 36
-struct anonymous$33;
+struct anonymous_33;
 
-// tag-#anon#ST[U32'width'||U32'height'||U32'frame_width'||U32'frame_height'||U32'offset_x'||U32'offset_y'||U32'fps_numerator'||U32'fps_denominator'||U32'aspect_numerator'||U32'aspect_denominator'||EN#anon_enum$OC_CS_UNSPECIFIED=0$OC_CS_ITU_REC_470M=1$OC_CS_ITU_REC_470BG=2$OC_CS_NSPACES=3#{U32}$U32$'colorspace'||S32'target_bitrate'||S32'quality'||S32'quick_p'||U8'version_major'||U8'version_minor'||U8'version_subminor'||U40'$pad0'||*{V}$V$'codec_setup'||S32'dropframes_p'||S32'keyframe_auto_p'||U32'keyframe_frequency'||U32'keyframe_frequency_force'||U32'keyframe_data_target_bitrate'||S32'keyframe_auto_threshold'||U32'keyframe_mindistance'||S32'noise_sensitivity'||S32'sharpness'||EN#anon_enum$OC_PF_420=0$OC_PF_RSVD=1$OC_PF_422=2$OC_PF_444=3#{U32}$U32$'pixelformat'|]
+// tag-#anon#ST[U32'width'||U32'height'||U32'frame_width'||U32'frame_height'||U32'offset_x'||U32'offset_y'||U32'fps_numerator'||U32'fps_denominator'||U32'aspect_numerator'||U32'aspect_denominator'||EN#anon_enum_OC_CS_UNSPECIFIED=0_OC_CS_ITU_REC_470M=1_OC_CS_ITU_REC_470BG=2_OC_CS_NSPACES=3#{U32}_U32_'colorspace'||S32'target_bitrate'||S32'quality'||S32'quick_p'||U8'version_major'||U8'version_minor'||U8'version_subminor'||U40'_pad0'||*{V}_V_'codec_setup'||S32'dropframes_p'||S32'keyframe_auto_p'||U32'keyframe_frequency'||U32'keyframe_frequency_force'||U32'keyframe_data_target_bitrate'||S32'keyframe_auto_threshold'||U32'keyframe_mindistance'||S32'noise_sensitivity'||S32'sharpness'||EN#anon_enum_OC_PF_420=0_OC_PF_RSVD=1_OC_PF_422=2_OC_PF_444=3#{U32}_U32_'pixelformat'|]
 // file /usr/include/theora/theora.h line 206
-struct anonymous$5;
+struct anonymous_5;
 
 // tag-#anon#ST[vS32'lock'|]
 // file ./../thread/thread.h line 93
-struct anonymous$27;
+struct anonymous_27;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$13;
+union anonymous_13;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$28;
+union anonymous_28;
 
-// tag-#anon#UN[ARR8{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR8{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 224
-union anonymous$20;
+union anonymous_20;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$24;
+union anonymous_24;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]#'__data'||ARR56{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]#'__data'||ARR56{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 174
-union anonymous$22;
+union anonymous_22;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$25;
+union anonymous_25;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$29;
+union anonymous_29;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$14;
+union anonymous_14;
 
 // tag-SpeexHeader
 // file /usr/include/speex/speex_header.h line 59
@@ -339,19 +339,19 @@ static signed int _isip(const char *what);
 static char * _lowercase(char *str);
 // _mutex_create
 // file thread.c line 326
-static void _mutex_create(struct anonymous$31 *mutex);
+static void _mutex_create(struct anonymous_31 *mutex);
 // _mutex_lock
 // file thread.c line 717
-static void _mutex_lock(struct anonymous$31 *mutex);
+static void _mutex_lock(struct anonymous_31 *mutex);
 // _mutex_unlock
 // file thread.c line 722
-static void _mutex_unlock(struct anonymous$31 *mutex);
+static void _mutex_unlock(struct anonymous_31 *mutex);
 // _shout_avl_delete
 // file avl.c line 351
 signed int _shout_avl_delete(struct _avl_tree *tree, void *key, signed int (*free_key_fun)(void *));
-// _shout_avl_delete::free_key_fun$object
+// _shout_avl_delete::free_key_fun_object
 //
-signed int free_key_fun$object(void *);
+signed int free_key_fun_object(void *);
 // _shout_avl_get_by_index
 // file avl.c line 299
 signed int _shout_avl_get_by_index(struct _avl_tree *tree, unsigned long int index, void **value_address);
@@ -385,36 +385,36 @@ signed int _shout_avl_insert(struct _avl_tree *ob, void *key);
 // _shout_avl_iterate_index_range
 // file avl.c line 728
 signed int _shout_avl_iterate_index_range(struct _avl_tree *tree, signed int (*iter_fun)(unsigned long int, void *, void *), unsigned long int low, unsigned long int high, void *iter_arg);
-// _shout_avl_iterate_index_range::iter_fun$object
+// _shout_avl_iterate_index_range::iter_fun_object
 //
-signed int iter_fun$object(unsigned long int, void *, void *);
+signed int iter_fun_object(unsigned long int, void *, void *);
 // _shout_avl_iterate_inorder
 // file avl.c line 652
 signed int _shout_avl_iterate_inorder(struct _avl_tree *tree, signed int (*iter_fun)(void *, void *), void *iter_arg);
-// _shout_avl_iterate_inorder::iter_fun$object
+// _shout_avl_iterate_inorder::iter_fun_object
 //
-signed int iter_fun$object(void *, void *);
+signed int iter_fun_object(void *, void *);
 // _shout_avl_node_new
 // file avl.c line 42
 struct avl_node_tag * _shout_avl_node_new(void *key, struct avl_node_tag *parent);
 // _shout_avl_print_tree
 // file avl.c line 1150
 void _shout_avl_print_tree(struct _avl_tree *tree, signed int (*key_printer)(char *, void *));
-// _shout_avl_print_tree::key_printer$object
+// _shout_avl_print_tree::key_printer_object
 //
-signed int key_printer$object(char *, void *);
+signed int key_printer_object(char *, void *);
 // _shout_avl_tree_free
 // file avl.c line 107
 void _shout_avl_tree_free(struct _avl_tree *tree, signed int (*free_key_fun)(void *));
-// _shout_avl_tree_free::free_key_fun$object
+// _shout_avl_tree_free::free_key_fun_object
 //
-signed int free_key_fun$object(void *);
+signed int free_key_fun_object(void *);
 // _shout_avl_tree_new
 // file avl.c line 65
 struct _avl_tree * _shout_avl_tree_new(signed int (*compare_fun)(void *, void *, void *), void *compare_arg);
-// _shout_avl_tree_new::compare_fun$object
+// _shout_avl_tree_new::compare_fun_object
 //
-signed int compare_fun$object(void *, void *, void *);
+signed int compare_fun_object(void *, void *, void *);
 // _shout_avl_tree_rlock
 // file avl.c line 1164
 void _shout_avl_tree_rlock(struct _avl_tree *tree);
@@ -459,16 +459,16 @@ void _shout_httpp_set_query_param(struct http_parser_tag *parser, const char *na
 void _shout_httpp_setvar(struct http_parser_tag *parser, const char *name, const char *value);
 // _shout_open_opus
 // file shout_ogg.h line 54
-signed int _shout_open_opus(struct _ogg_codec_tag *codec, struct anonymous$7 *page);
+signed int _shout_open_opus(struct _ogg_codec_tag *codec, struct anonymous_7 *page);
 // _shout_open_speex
 // file shout_ogg.h line 52
-signed int _shout_open_speex(struct _ogg_codec_tag *codec, struct anonymous$7 *page);
+signed int _shout_open_speex(struct _ogg_codec_tag *codec, struct anonymous_7 *page);
 // _shout_open_theora
 // file shout_ogg.h line 49
-signed int _shout_open_theora(struct _ogg_codec_tag *codec, struct anonymous$7 *page);
+signed int _shout_open_theora(struct _ogg_codec_tag *codec, struct anonymous_7 *page);
 // _shout_open_vorbis
 // file shout_ogg.h line 47
-signed int _shout_open_vorbis(struct _ogg_codec_tag *codec, struct anonymous$7 *page);
+signed int _shout_open_vorbis(struct _ogg_codec_tag *codec, struct anonymous_7 *page);
 // _shout_resolver_getip
 // file resolver.h line 34
 char * _shout_resolver_getip(const char *name, char *buff, signed int len);
@@ -567,28 +567,28 @@ signed int _shout_sock_write_string(signed int sock, const char *buff);
 signed long int _shout_sock_writev(signed int sock, struct iovec *iov, unsigned long int count);
 // _shout_thread_cond_broadcast_c
 // file thread.c line 513
-void _shout_thread_cond_broadcast_c(struct anonymous$26 *cond, signed int line, char *file);
+void _shout_thread_cond_broadcast_c(struct anonymous_26 *cond, signed int line, char *file);
 // _shout_thread_cond_create_c
 // file thread.c line 496
-void _shout_thread_cond_create_c(struct anonymous$26 *cond, signed int line, char *file);
+void _shout_thread_cond_create_c(struct anonymous_26 *cond, signed int line, char *file);
 // _shout_thread_cond_destroy
 // file thread.c line 502
-void _shout_thread_cond_destroy(struct anonymous$26 *cond);
+void _shout_thread_cond_destroy(struct anonymous_26 *cond);
 // _shout_thread_cond_signal_c
 // file thread.c line 508
-void _shout_thread_cond_signal_c(struct anonymous$26 *cond, signed int line, char *file);
+void _shout_thread_cond_signal_c(struct anonymous_26 *cond, signed int line, char *file);
 // _shout_thread_cond_timedwait_c
 // file thread.c line 518
-void _shout_thread_cond_timedwait_c(struct anonymous$26 *cond, signed int millis, signed int line, char *file);
+void _shout_thread_cond_timedwait_c(struct anonymous_26 *cond, signed int millis, signed int line, char *file);
 // _shout_thread_cond_wait_c
 // file thread.c line 530
-void _shout_thread_cond_wait_c(struct anonymous$26 *cond, signed int line, char *file);
+void _shout_thread_cond_wait_c(struct anonymous_26 *cond, signed int line, char *file);
 // _shout_thread_create_c
 // file thread.c line 264
-struct anonymous$18 * _shout_thread_create_c(char *name, void * (*start_routine)(void *), void *arg, signed int detached, signed int line, char *file);
-// _shout_thread_create_c::start_routine$object
+struct anonymous_18 * _shout_thread_create_c(char *name, void * (*start_routine)(void *), void *arg, signed int detached, signed int line, char *file);
+// _shout_thread_create_c::start_routine_object
 //
-void * start_routine$object(void *);
+void * start_routine_object(void *);
 // _shout_thread_exit_c
 // file thread.c line 562
 void _shout_thread_exit_c(signed long int val, signed int line, char *file);
@@ -597,7 +597,7 @@ void _shout_thread_exit_c(signed long int val, signed int line, char *file);
 void _shout_thread_initialize(void);
 // _shout_thread_join
 // file thread.c line 738
-void _shout_thread_join(struct anonymous$18 *thread);
+void _shout_thread_join(struct anonymous_18 *thread);
 // _shout_thread_library_lock
 // file thread.c line 728
 void _shout_thread_library_lock(void);
@@ -606,37 +606,37 @@ void _shout_thread_library_lock(void);
 void _shout_thread_library_unlock(void);
 // _shout_thread_mutex_create
 // file ./../thread/thread.h line 168
-void _shout_thread_mutex_create(struct anonymous$31 *mutex, signed int line, char *file);
+void _shout_thread_mutex_create(struct anonymous_31 *mutex, signed int line, char *file);
 // _shout_thread_mutex_destroy
 // file ./../thread/thread.h line 171
-void _shout_thread_mutex_destroy(struct anonymous$31 *mutex);
+void _shout_thread_mutex_destroy(struct anonymous_31 *mutex);
 // _shout_thread_mutex_lock_c
 // file thread.c line 359
-void _shout_thread_mutex_lock_c(struct anonymous$31 *mutex, signed int line, char *file);
+void _shout_thread_mutex_lock_c(struct anonymous_31 *mutex, signed int line, char *file);
 // _shout_thread_mutex_unlock_c
 // file thread.c line 431
-void _shout_thread_mutex_unlock_c(struct anonymous$31 *mutex, signed int line, char *file);
+void _shout_thread_mutex_unlock_c(struct anonymous_31 *mutex, signed int line, char *file);
 // _shout_thread_rename
 // file thread.c line 707
 void _shout_thread_rename(const char *name);
 // _shout_thread_rwlock_create_c
 // file ./../thread/thread.h line 178
-void _shout_thread_rwlock_create_c(struct anonymous$8 *rwlock, signed int line, char *file);
+void _shout_thread_rwlock_create_c(struct anonymous_8 *rwlock, signed int line, char *file);
 // _shout_thread_rwlock_destroy
 // file ./../thread/thread.h line 182
-void _shout_thread_rwlock_destroy(struct anonymous$8 *rwlock);
+void _shout_thread_rwlock_destroy(struct anonymous_8 *rwlock);
 // _shout_thread_rwlock_rlock_c
 // file ./../thread/thread.h line 179
-void _shout_thread_rwlock_rlock_c(struct anonymous$8 *rwlock, signed int line, char *file);
+void _shout_thread_rwlock_rlock_c(struct anonymous_8 *rwlock, signed int line, char *file);
 // _shout_thread_rwlock_unlock_c
 // file ./../thread/thread.h line 181
-void _shout_thread_rwlock_unlock_c(struct anonymous$8 *rwlock, signed int line, char *file);
+void _shout_thread_rwlock_unlock_c(struct anonymous_8 *rwlock, signed int line, char *file);
 // _shout_thread_rwlock_wlock_c
 // file ./../thread/thread.h line 180
-void _shout_thread_rwlock_wlock_c(struct anonymous$8 *rwlock, signed int line, char *file);
+void _shout_thread_rwlock_wlock_c(struct anonymous_8 *rwlock, signed int line, char *file);
 // _shout_thread_self
 // file thread.c line 669
-struct anonymous$18 * _shout_thread_self(void);
+struct anonymous_18 * _shout_thread_self(void);
 // _shout_thread_shutdown
 // file thread.c line 187
 void _shout_thread_shutdown(void);
@@ -679,15 +679,15 @@ char * _shout_util_url_encode(const char *data);
 // _start_routine
 // file thread.c line 635
 static void * _start_routine(void *arg);
-// _start_routine::1::start_routine$object
+// _start_routine::1::start_routine_object
 //
-void * start_routine$object(void *);
+void * start_routine_object(void *);
 // abort
 // file /usr/include/stdlib.h line 515
 extern void abort(void);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous$14, unsigned int *);
+extern signed int accept(signed int, union anonymous_14, unsigned int *);
 // atoi
 // file /usr/include/stdlib.h line 147
 extern signed int atoi(const char *);
@@ -697,15 +697,15 @@ static struct avl_node_tag * avl_get_index_by_key(struct _avl_tree *tree, void *
 // avl_iterate_inorder_helper
 // file avl.c line 627
 static signed int avl_iterate_inorder_helper(struct avl_node_tag *node, signed int (*iter_fun)(void *, void *), void *iter_arg);
-// avl_iterate_inorder_helper::iter_fun$object
+// avl_iterate_inorder_helper::iter_fun_object
 //
-signed int iter_fun$object(void *, void *);
+signed int iter_fun_object(void *, void *);
 // avl_tree_free_helper
 // file avl.c line 90
 static void avl_tree_free_helper(struct avl_node_tag *node, signed int (*free_key_fun)(void *));
-// avl_tree_free_helper::free_key_fun$object
+// avl_tree_free_helper::free_key_fun_object
 //
-signed int free_key_fun$object(void *);
+signed int free_key_fun_object(void *);
 // avl_verify_balance
 // file avl.c line 995
 static signed long int avl_verify_balance(struct avl_node_tag *node);
@@ -717,7 +717,7 @@ static void avl_verify_parent(struct avl_node_tag *node, struct avl_node_tag *pa
 static signed long int avl_verify_rank(struct avl_node_tag *node);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$14, unsigned int);
+extern signed int bind(signed int, union anonymous_14, unsigned int);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -738,7 +738,7 @@ static void close_webm(struct shout *self);
 static signed int collect_queue(struct _shout_buf *queue, char **buf);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous$14, unsigned int);
+extern signed int connect(signed int, union anonymous_14, unsigned int);
 // create_http_request
 // file shout.c line 1111
 static signed int create_http_request(struct shout *self);
@@ -777,7 +777,7 @@ extern void free(void *);
 static void free_codec(struct _ogg_codec_tag *codec);
 // free_codecs
 // file ogg.c line 169
-static void free_codecs(struct anonymous$17 *ogg_data);
+static void free_codecs(struct anonymous_17 *ogg_data);
 // free_opus_data
 // file opus.c line 277
 static void free_opus_data(void *codec_data);
@@ -840,52 +840,52 @@ extern void * memcpy(void *, const void *, unsigned long int);
 extern void * memset(void *, signed int, unsigned long int);
 // mp3_header
 // file mp3.c line 290
-static signed int mp3_header(unsigned int head, struct anonymous$32 *mh);
+static signed int mp3_header(unsigned int head, struct anonymous_32 *mh);
 // nanosleep
 // file /usr/include/time.h line 334
 extern signed int nanosleep(struct timespec *, struct timespec *);
 // ogg_page_bos
 // file /usr/include/ogg/ogg.h line 196
-extern signed int ogg_page_bos(const struct anonymous$7 *);
+extern signed int ogg_page_bos(const struct anonymous_7 *);
 // ogg_page_granulepos
 // file /usr/include/ogg/ogg.h line 198
-extern signed long int ogg_page_granulepos(const struct anonymous$7 *);
+extern signed long int ogg_page_granulepos(const struct anonymous_7 *);
 // ogg_page_serialno
 // file /usr/include/ogg/ogg.h line 199
-extern signed int ogg_page_serialno(const struct anonymous$7 *);
+extern signed int ogg_page_serialno(const struct anonymous_7 *);
 // ogg_stream_clear
 // file /usr/include/ogg/ogg.h line 185
-extern signed int ogg_stream_clear(struct anonymous$15 *);
+extern signed int ogg_stream_clear(struct anonymous_15 *);
 // ogg_stream_init
 // file /usr/include/ogg/ogg.h line 184
-extern signed int ogg_stream_init(struct anonymous$15 *, signed int);
+extern signed int ogg_stream_init(struct anonymous_15 *, signed int);
 // ogg_stream_packetout
 // file /usr/include/ogg/ogg.h line 179
-extern signed int ogg_stream_packetout(struct anonymous$15 *, struct anonymous$2 *);
+extern signed int ogg_stream_packetout(struct anonymous_15 *, struct anonymous_2 *);
 // ogg_stream_pagein
 // file /usr/include/ogg/ogg.h line 178
-extern signed int ogg_stream_pagein(struct anonymous$15 *, struct anonymous$7 *);
+extern signed int ogg_stream_pagein(struct anonymous_15 *, struct anonymous_7 *);
 // ogg_sync_buffer
 // file /usr/include/ogg/ogg.h line 174
-extern char * ogg_sync_buffer(struct anonymous$16 *, signed long int);
+extern char * ogg_sync_buffer(struct anonymous_16 *, signed long int);
 // ogg_sync_clear
 // file /usr/include/ogg/ogg.h line 169
-extern signed int ogg_sync_clear(struct anonymous$16 *);
+extern signed int ogg_sync_clear(struct anonymous_16 *);
 // ogg_sync_init
 // file /usr/include/ogg/ogg.h line 168
-extern signed int ogg_sync_init(struct anonymous$16 *);
+extern signed int ogg_sync_init(struct anonymous_16 *);
 // ogg_sync_pageout
 // file /usr/include/ogg/ogg.h line 177
-extern signed int ogg_sync_pageout(struct anonymous$16 *, struct anonymous$7 *);
+extern signed int ogg_sync_pageout(struct anonymous_16 *, struct anonymous_7 *);
 // ogg_sync_wrote
 // file /usr/include/ogg/ogg.h line 175
-extern signed int ogg_sync_wrote(struct anonymous$16 *, signed long int);
+extern signed int ogg_sync_wrote(struct anonymous_16 *, signed long int);
 // open_codec
 // file ogg.c line 149
-static signed int open_codec(struct _ogg_codec_tag *codec, struct anonymous$7 *page);
-// open_codec::1::this_codec$object
+static signed int open_codec(struct _ogg_codec_tag *codec, struct anonymous_7 *page);
+// open_codec::1::this_codec_object
 //
-signed int this_codec$object(struct _ogg_codec_tag *, struct anonymous$7 *);
+signed int this_codec_object(struct _ogg_codec_tag *, struct anonymous_7 *);
 // opus_header_parse
 // file opus.c line 100
 static signed int opus_header_parse(const unsigned char *packet, signed int len, struct anonymous *h);
@@ -897,7 +897,7 @@ static signed int packet_get_nb_frames(const unsigned char *packet, signed int l
 static signed int packet_get_samples_per_frame(const unsigned char *data, signed int Fs);
 // parse_header
 // file mp3.c line 258
-static void parse_header(struct anonymous$32 *mh, unsigned int header);
+static void parse_header(struct anonymous_32 *mh, unsigned int header);
 // parse_headers
 // file httpp.c line 92
 static void parse_headers(struct http_parser_tag *parser, char **line, signed int lines);
@@ -919,9 +919,9 @@ static void print_connectors(struct _link_node *link);
 // print_node
 // file avl.c line 1115
 static void print_node(signed int (*key_printer)(char *, void *), struct avl_node_tag *node, struct _link_node *link);
-// print_node::key_printer$object
+// print_node::key_printer_object
 //
-signed int key_printer$object(char *, void *);
+signed int key_printer_object(char *, void *);
 // printf
 // file /usr/include/stdio.h line 362
 extern signed int printf(const char *, ...);
@@ -942,22 +942,22 @@ extern signed int pthread_attr_setinheritsched(union pthread_attr_t *, signed in
 extern signed int pthread_attr_setstacksize(union pthread_attr_t *, unsigned long int);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$24 *);
+extern signed int pthread_cond_broadcast(union anonymous_24 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$24 *);
+extern signed int pthread_cond_destroy(union anonymous_24 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$24 *, const union anonymous$28 *);
+extern signed int pthread_cond_init(union anonymous_24 *, const union anonymous_28 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$24 *);
+extern signed int pthread_cond_signal(union anonymous_24 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$24 *, union anonymous$25 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_24 *, union anonymous_25 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$24 *, union anonymous$25 *);
+extern signed int pthread_cond_wait(union anonymous_24 *, union anonymous_25 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -972,31 +972,31 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$25 *);
+extern signed int pthread_mutex_destroy(union anonymous_25 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$25 *, const union anonymous$28 *);
+extern signed int pthread_mutex_init(union anonymous_25 *, const union anonymous_28 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$25 *);
+extern signed int pthread_mutex_lock(union anonymous_25 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$25 *);
+extern signed int pthread_mutex_unlock(union anonymous_25 *);
 // pthread_rwlock_destroy
 // file /usr/include/pthread.h line 895
-extern signed int pthread_rwlock_destroy(union anonymous$22 *);
+extern signed int pthread_rwlock_destroy(union anonymous_22 *);
 // pthread_rwlock_init
 // file /usr/include/pthread.h line 890
-extern signed int pthread_rwlock_init(union anonymous$22 *, const union anonymous$20 *);
+extern signed int pthread_rwlock_init(union anonymous_22 *, const union anonymous_20 *);
 // pthread_rwlock_rdlock
 // file /usr/include/pthread.h line 899
-extern signed int pthread_rwlock_rdlock(union anonymous$22 *);
+extern signed int pthread_rwlock_rdlock(union anonymous_22 *);
 // pthread_rwlock_unlock
 // file /usr/include/pthread.h line 929
-extern signed int pthread_rwlock_unlock(union anonymous$22 *);
+extern signed int pthread_rwlock_unlock(union anonymous_22 *);
 // pthread_rwlock_wrlock
 // file /usr/include/pthread.h line 914
-extern signed int pthread_rwlock_wrlock(union anonymous$22 *);
+extern signed int pthread_rwlock_wrlock(union anonymous_22 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -1005,7 +1005,7 @@ extern unsigned long int pthread_self(void);
 extern signed int pthread_setcancelstate(signed int, signed int *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$19 *, struct anonymous$19 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_19 *, struct anonymous_19 *);
 // pthread_spin_destroy
 // file /usr/include/pthread.h line 1050
 extern signed int pthread_spin_destroy(volatile signed int *);
@@ -1020,10 +1020,10 @@ extern signed int pthread_spin_lock(volatile signed int *);
 extern signed int pthread_spin_unlock(volatile signed int *);
 // queue_data
 // file shout.c line 797
-static signed int queue_data(struct anonymous$10 *queue, const unsigned char *data, unsigned long int len);
+static signed int queue_data(struct anonymous_10 *queue, const unsigned char *data, unsigned long int len);
 // queue_free
 // file shout.c line 877
-static inline void queue_free(struct anonymous$10 *queue);
+static inline void queue_free(struct anonymous_10 *queue);
 // queue_printf
 // file shout.c line 842
 static signed int queue_printf(struct shout *self, const char *fmt, ...);
@@ -1032,25 +1032,25 @@ static signed int queue_printf(struct shout *self, const char *fmt, ...);
 static inline signed int queue_str(struct shout *self, const char *str);
 // read_chars
 // file opus.c line 90
-static signed int read_chars(struct anonymous$0 *p, unsigned char *str, signed int nb_chars);
+static signed int read_chars(struct anonymous_0 *p, unsigned char *str, signed int nb_chars);
 // read_opus_page
 // file opus.c line 235
-static signed int read_opus_page(struct _ogg_codec_tag *codec, struct anonymous$7 *page);
+static signed int read_opus_page(struct _ogg_codec_tag *codec, struct anonymous_7 *page);
 // read_speex_page
 // file speex.c line 64
-static signed int read_speex_page(struct _ogg_codec_tag *codec, struct anonymous$7 *page);
+static signed int read_speex_page(struct _ogg_codec_tag *codec, struct anonymous_7 *page);
 // read_theora_page
 // file theora.c line 81
-static signed int read_theora_page(struct _ogg_codec_tag *codec, struct anonymous$7 *page);
+static signed int read_theora_page(struct _ogg_codec_tag *codec, struct anonymous_7 *page);
 // read_uint16
 // file opus.c line 80
-static signed int read_uint16(struct anonymous$0 *p, unsigned short int *val);
+static signed int read_uint16(struct anonymous_0 *p, unsigned short int *val);
 // read_uint32
 // file opus.c line 68
-static signed int read_uint32(struct anonymous$0 *p, unsigned int *val);
+static signed int read_uint32(struct anonymous_0 *p, unsigned int *val);
 // read_vorbis_page
 // file vorbis.c line 75
-static signed int read_vorbis_page(struct _ogg_codec_tag *codec, struct anonymous$7 *page);
+static signed int read_vorbis_page(struct _ogg_codec_tag *codec, struct anonymous_7 *page);
 // realloc
 // file /usr/include/stdlib.h line 480
 extern void * realloc(void *, unsigned long int);
@@ -1059,7 +1059,7 @@ extern void * realloc(void *, unsigned long int);
 extern signed long int recv(signed int, void *, unsigned long int, signed int);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$12 *, struct anonymous$12 *, struct anonymous$12 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_12 *, struct anonymous_12 *, struct anonymous_12 *, struct timeval *);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
@@ -1071,7 +1071,7 @@ static signed int send_mp3(struct shout *self, const unsigned char *buff, unsign
 static signed int send_ogg(struct shout *self, const unsigned char *data, unsigned long int len);
 // send_page
 // file ogg.c line 193
-static signed int send_page(struct shout *self, struct anonymous$7 *page);
+static signed int send_page(struct shout *self, struct anonymous_7 *page);
 // send_queue
 // file shout.c line 1070
 static signed int send_queue(struct shout *self);
@@ -1248,16 +1248,16 @@ void shout_sync(struct shout *self);
 const char * shout_version(signed int *major, signed int *minor, signed int *patch);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$19 *, signed int);
+extern signed int sigaddset(struct anonymous_19 *, signed int);
 // sigdelset
 // file /usr/include/signal.h line 224
-extern signed int sigdelset(struct anonymous$19 *, signed int);
+extern signed int sigdelset(struct anonymous_19 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$19 *);
+extern signed int sigemptyset(struct anonymous_19 *);
 // sigfillset
 // file /usr/include/signal.h line 218
-extern signed int sigfillset(struct anonymous$19 *);
+extern signed int sigfillset(struct anonymous_19 *);
 // snprintf
 // file /usr/include/stdio.h line 386
 extern signed int snprintf(char *, unsigned long int, const char *, ...);
@@ -1308,28 +1308,28 @@ extern void theora_comment_clear(struct theora_comment *);
 extern void theora_comment_init(struct theora_comment *);
 // theora_decode_header
 // file /usr/include/theora/theora.h line 557
-extern signed int theora_decode_header(struct anonymous$5 *, struct theora_comment *, struct anonymous$2 *);
+extern signed int theora_decode_header(struct anonymous_5 *, struct theora_comment *, struct anonymous_2 *);
 // theora_ilog
 // file theora.c line 142
 static signed int theora_ilog(unsigned int v);
 // theora_info_clear
 // file /usr/include/theora/theora.h line 692
-extern void theora_info_clear(struct anonymous$5 *);
+extern void theora_info_clear(struct anonymous_5 *);
 // theora_info_init
 // file /usr/include/theora/theora.h line 685
-extern void theora_info_init(struct anonymous$5 *);
+extern void theora_info_init(struct anonymous_5 *);
 // thread_spin_create
 // file thread.c line 817
-void thread_spin_create(struct anonymous$27 *spin);
+void thread_spin_create(struct anonymous_27 *spin);
 // thread_spin_destroy
 // file thread.c line 824
-void thread_spin_destroy(struct anonymous$27 *spin);
+void thread_spin_destroy(struct anonymous_27 *spin);
 // thread_spin_lock
 // file thread.c line 829
-void thread_spin_lock(struct anonymous$27 *spin);
+void thread_spin_lock(struct anonymous_27 *spin);
 // thread_spin_unlock
 // file thread.c line 836
-void thread_spin_unlock(struct anonymous$27 *spin);
+void thread_spin_unlock(struct anonymous_27 *spin);
 // time
 // file /usr/include/time.h line 192
 extern signed long int time(signed long int *);
@@ -1347,7 +1347,7 @@ static signed int try_write(struct shout *self, const void *data_p, unsigned lon
 static char * url_escape(const char *src);
 // vorbis_blocksize
 // file vorbis.c line 108
-static signed int vorbis_blocksize(struct anonymous$30 *vd, struct anonymous$2 *p);
+static signed int vorbis_blocksize(struct anonymous_30 *vd, struct anonymous_2 *p);
 // vorbis_comment_clear
 // file /usr/include/vorbis/codec.h line 174
 extern void vorbis_comment_clear(struct vorbis_comment *);
@@ -1362,10 +1362,10 @@ extern void vorbis_info_clear(struct vorbis_info *);
 extern void vorbis_info_init(struct vorbis_info *);
 // vorbis_packet_blocksize
 // file /usr/include/vorbis/codec.h line 215
-extern signed long int vorbis_packet_blocksize(struct vorbis_info *, struct anonymous$2 *);
+extern signed long int vorbis_packet_blocksize(struct vorbis_info *, struct anonymous_2 *);
 // vorbis_synthesis_headerin
 // file /usr/include/vorbis/codec.h line 204
-extern signed int vorbis_synthesis_headerin(struct vorbis_info *, struct vorbis_comment *, struct anonymous$2 *);
+extern signed int vorbis_synthesis_headerin(struct vorbis_info *, struct vorbis_comment *, struct anonymous_2 *);
 // vsnprintf
 // file /usr/include/stdio.h line 390
 extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
@@ -1373,13 +1373,13 @@ extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 // file /usr/include/x86_64-linux-gnu/sys/uio.h line 50
 extern signed long int writev(signed int, struct iovec *, signed int);
 
-struct anonymous$11
+struct anonymous_11
 {
   // sh
   struct SpeexHeader *sh;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // head
   struct _shout_buf *head;
@@ -1387,7 +1387,7 @@ struct anonymous$10
   unsigned long int len;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // body_data
   unsigned char *body_data;
@@ -1427,7 +1427,7 @@ struct anonymous$15
   signed long int granulepos;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // data
   unsigned char *data;
@@ -1445,7 +1445,7 @@ struct anonymous$16
   signed int bodybytes;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // header
   unsigned char *header;
@@ -1457,7 +1457,7 @@ struct anonymous$7
   signed long int body_len;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // packet
   unsigned char *packet;
@@ -1473,7 +1473,7 @@ struct anonymous$2
   signed long int packetno;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // data
   const unsigned char *data;
@@ -1483,19 +1483,19 @@ struct anonymous$0
   signed int pos;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // fds_bits
   signed long int fds_bits[16l];
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // __lock
   signed int __lock;
@@ -1515,7 +1515,7 @@ struct anonymous$23
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // __lock
   signed int __lock;
@@ -1543,7 +1543,7 @@ struct anonymous$21
   unsigned int __flags;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // syncword
   signed int syncword;
@@ -1605,7 +1605,7 @@ struct anonymous
   unsigned char stream_map[255l];
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // thread_id
   signed long int thread_id;
@@ -1623,17 +1623,17 @@ struct anonymous$18
   unsigned long int sys_thread;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // oy
-  struct anonymous$16 oy;
+  struct anonymous_16 oy;
   // codecs
   struct _ogg_codec_tag *codecs;
   // bos
   char bos;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // oh
   struct anonymous oh;
@@ -1641,7 +1641,7 @@ struct anonymous$1
   signed int skipped;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // width
   unsigned int width;
@@ -1664,7 +1664,7 @@ struct anonymous$5
   // aspect_denominator
   unsigned int aspect_denominator;
   // colorspace
-  enum anonymous$3 colorspace;
+  enum anonymous_3 colorspace;
   // target_bitrate
   signed int target_bitrate;
   // quality
@@ -1698,7 +1698,7 @@ struct anonymous$5
   // sharpness
   signed int sharpness;
   // pixelformat
-  enum anonymous$4 pixelformat;
+  enum anonymous_4 pixelformat;
 };
 
 struct theora_comment
@@ -1713,10 +1713,10 @@ struct theora_comment
   char *vendor;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // ti
-  struct anonymous$5 ti;
+  struct anonymous_5 ti;
   // tc
   struct theora_comment tc;
   // granule_shift
@@ -1731,20 +1731,20 @@ struct anonymous$6
   signed int get_start_frame;
 };
 
-union anonymous$22
+union anonymous_22
 {
   // __data
-  struct anonymous$21 __data;
+  struct anonymous_21 __data;
   // __size
   char __size[56l];
   // __align
   signed long int __align;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // sys_rwlock
-  union anonymous$22 sys_rwlock;
+  union anonymous_22 sys_rwlock;
 };
 
 struct __pthread_internal_list
@@ -1775,7 +1775,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$25
+union anonymous_25
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1785,28 +1785,28 @@ union anonymous$25
   signed long int __align;
 };
 
-union anonymous$24
+union anonymous_24
 {
   // __data
-  struct anonymous$23 __data;
+  struct anonymous_23 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // cond_mutex
-  union anonymous$25 cond_mutex;
+  union anonymous_25 cond_mutex;
   // sys_cond
-  union anonymous$24 sys_cond;
+  union anonymous_24 sys_cond;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // sys_mutex
-  union anonymous$25 sys_mutex;
+  union anonymous_25 sys_mutex;
 };
 
 struct vorbis_info
@@ -1841,7 +1841,7 @@ struct vorbis_comment
   char *vendor;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // vi
   struct vorbis_info vi;
@@ -1851,7 +1851,7 @@ struct anonymous$30
   signed int prevW;
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // frames
   unsigned int frames;
@@ -1867,13 +1867,13 @@ struct anonymous$33
   unsigned char header_bridge[3l];
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // lock
   volatile signed int lock;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -1883,7 +1883,7 @@ union anonymous$13
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$28
+union anonymous_28
 {
   // __size
   char __size[4l];
@@ -1891,7 +1891,7 @@ union anonymous$28
   signed int __align;
 };
 
-union anonymous$20
+union anonymous_20
 {
   // __size
   char __size[8l];
@@ -1899,7 +1899,7 @@ union anonymous$20
   signed long int __align;
 };
 
-union anonymous$29
+union anonymous_29
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1929,7 +1929,7 @@ union anonymous$29
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$14
+union anonymous_14
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -2078,7 +2078,7 @@ struct _avl_tree
   // compare_arg
   void *compare_arg;
   // rwlock
-  struct anonymous$8 rwlock;
+  struct anonymous_8 rwlock;
 };
 
 struct _link_node
@@ -2094,7 +2094,7 @@ struct _link_node
 struct _ogg_codec_tag
 {
   // os
-  struct anonymous$15 os;
+  struct anonymous_15 os;
   // headers
   unsigned int headers;
   // senttime
@@ -2102,7 +2102,7 @@ struct _ogg_codec_tag
   // codec_data
   void *codec_data;
   // read_page
-  signed int (*read_page)(struct _ogg_codec_tag *, struct anonymous$7 *);
+  signed int (*read_page)(struct _ogg_codec_tag *, struct anonymous_7 *);
   // free_data
   void (*free_data)(void *);
   // next
@@ -2198,7 +2198,7 @@ struct http_varlist_tag
 struct in6_addr
 {
   // __in6_u
-  union anonymous$13 __in6_u;
+  union anonymous_13 __in6_u;
 };
 
 struct in_addr
@@ -2266,7 +2266,7 @@ struct shout
   // socket
   signed int socket;
   // state
-  enum anonymous$9 state;
+  enum anonymous_9 state;
   // nonblocking
   signed int nonblocking;
   // format_data
@@ -2276,9 +2276,9 @@ struct shout
   // close
   void (*close)(struct shout *);
   // rqueue
-  struct anonymous$10 rqueue;
+  struct anonymous_10 rqueue;
   // wqueue
-  struct anonymous$10 wqueue;
+  struct anonymous_10 wqueue;
   // starttime
   unsigned long int starttime;
   // senttime
@@ -2338,7 +2338,7 @@ struct thread_start_tag
   // arg
   void *arg;
   // thread
-  struct anonymous$18 *thread;
+  struct anonymous_18 *thread;
   // sys_thread
   unsigned long int sys_thread;
 };
@@ -2363,15 +2363,15 @@ struct timeval
 // _initialized
 // file shout.c line 70
 static signed int _initialized = 0;
-// _initialized$link1
+// _initialized_link1
 // file resolver.c line 59
-static signed int _initialized$link1 = 0;
-// _initialized$link2
+static signed int _initialized_link1 = 0;
+// _initialized_link2
 // file thread.c line 87
-static signed int _initialized$link2 = 0;
+static signed int _initialized_link2 = 0;
 // _library_mutex
 // file thread.c line 112
-static struct anonymous$31 _library_mutex = { .sys_mutex={ .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static struct anonymous_31 _library_mutex = { .sys_mutex={ .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } } };
 // _next_thread_id
@@ -2379,13 +2379,13 @@ static struct anonymous$31 _library_mutex = { .sys_mutex={ .__data={ .__lock=0, 
 static signed long int _next_thread_id = (signed long int)0;
 // _resolver_mutex
 // file resolver.c line 57
-static struct anonymous$31 _resolver_mutex;
+static struct anonymous_31 _resolver_mutex;
 // _threadtree
 // file thread.c line 88
 static struct _avl_tree *_threadtree = (struct _avl_tree *)(void *)0;
 // _threadtree_mutex
 // file thread.c line 94
-static struct anonymous$31 _threadtree_mutex = { .sys_mutex={ .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static struct anonymous_31 _threadtree_mutex = { .sys_mutex={ .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } } };
 // balance_chars
@@ -2407,10 +2407,10 @@ static const unsigned int bitrate[3l][3l][16l] = { { { (const unsigned int)0, (c
     { (const unsigned int)0, (const unsigned int)8, (const unsigned int)16, (const unsigned int)24, (const unsigned int)32, (const unsigned int)40, (const unsigned int)48, (const unsigned int)56, (const unsigned int)64, (const unsigned int)80, (const unsigned int)96, (const unsigned int)112, (const unsigned int)128, (const unsigned int)144, (const unsigned int)160, (const unsigned int)0 } } };
 // codecs
 // file ogg.c line 55
-static signed int (*codecs[5l])(struct _ogg_codec_tag *, struct anonymous$7 *);
+static signed int (*codecs[5l])(struct _ogg_codec_tag *, struct anonymous_7 *);
 // codecs
 // file ogg.c line 55
-static signed int (*codecs[5l])(struct _ogg_codec_tag *, struct anonymous$7 *) = { _shout_open_vorbis, _shout_open_theora, _shout_open_opus, _shout_open_speex, (signed int (*)(struct _ogg_codec_tag *, struct anonymous$7 *))(void *)0 };
+static signed int (*codecs[5l])(struct _ogg_codec_tag *, struct anonymous_7 *) = { _shout_open_vorbis, _shout_open_theora, _shout_open_opus, _shout_open_speex, (signed int (*)(struct _ogg_codec_tag *, struct anonymous_7 *))(void *)0 };
 // safechars
 // file util.c line 123
 static char safechars[256l] = { (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)1, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0, (char)0 };
@@ -2436,40 +2436,40 @@ static char urltable[16l] = { (char)48, (char)49, (char)50, (char)51, (char)52, 
 // file thread.c line 215
 static void _block_signals(void)
 {
-  struct anonymous$19 ss;
+  struct anonymous_19 ss;
   sigfillset(&ss);
   sigdelset(&ss, 9);
   sigdelset(&ss, 19);
   sigdelset(&ss, 11);
   sigdelset(&ss, 17);
   sigdelset(&ss, 7);
-  signed int return_value_pthread_sigmask$1;
-  return_value_pthread_sigmask$1=pthread_sigmask(0, &ss, (struct anonymous$19 *)(void *)0);
+  signed int return_value_pthread_sigmask_1;
+  return_value_pthread_sigmask_1=pthread_sigmask(0, &ss, (struct anonymous_19 *)(void *)0);
 }
 
 // _catch_signals
 // file thread.c line 241
 static void _catch_signals(void)
 {
-  struct anonymous$19 ss;
+  struct anonymous_19 ss;
   sigemptyset(&ss);
   sigaddset(&ss, 1);
   sigaddset(&ss, 17);
   sigaddset(&ss, 2);
   sigaddset(&ss, 13);
   sigaddset(&ss, 15);
-  signed int return_value_pthread_sigmask$1;
-  return_value_pthread_sigmask$1=pthread_sigmask(1, &ss, (struct anonymous$19 *)(void *)0);
+  signed int return_value_pthread_sigmask_1;
+  return_value_pthread_sigmask_1=pthread_sigmask(1, &ss, (struct anonymous_19 *)(void *)0);
 }
 
 // _compare_threads
 // file thread.c line 767
 static signed int _compare_threads(void *compare_arg, void *a, void *b)
 {
-  struct anonymous$18 *t1;
-  struct anonymous$18 *t2;
-  t1 = (struct anonymous$18 *)a;
-  t2 = (struct anonymous$18 *)b;
+  struct anonymous_18 *t1;
+  struct anonymous_18 *t2;
+  t1 = (struct anonymous_18 *)a;
+  t2 = (struct anonymous_18 *)b;
   if(!(t2->thread_id >= t1->thread_id))
     return 1;
 
@@ -2489,16 +2489,16 @@ static signed int _compare_vars(void *compare_arg, void *a, void *b)
   struct http_var_tag *varb;
   vara = (struct http_var_tag *)a;
   varb = (struct http_var_tag *)b;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(vara->name, varb->name);
-  return return_value_strcmp$1;
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(vara->name, varb->name);
+  return return_value_strcmp_1;
 }
 
 // _free_thread
 // file thread.c line 799
 static signed int _free_thread(void *key)
 {
-  struct anonymous$18 *t = (struct anonymous$18 *)key;
+  struct anonymous_18 *t = (struct anonymous_18 *)key;
   if(!(t->file == ((char *)NULL)))
     free((void *)t->file);
 
@@ -2529,7 +2529,7 @@ static signed int _free_vars(void *key)
 static signed int _isip(const char *what)
 {
   /* tag-#anon#lUN[lSYM#tag-in_addr#'v4addr'||lSYM#tag-in6_addr#'v6addr'|] */
-union anonymous$34
+union anonymous_34
 {
   // v4addr
   struct in_addr v4addr;
@@ -2539,14 +2539,14 @@ union anonymous$34
 
 /* */
   ;
-  union anonymous$34 addr_u;
-  signed int return_value_inet_pton$2;
-  return_value_inet_pton$2=inet_pton(2, what, (void *)&addr_u.v4addr);
-  signed int return_value_inet_pton$1;
-  if(!(return_value_inet_pton$2 >= 1))
+  union anonymous_34 addr_u;
+  signed int return_value_inet_pton_2;
+  return_value_inet_pton_2=inet_pton(2, what, (void *)&addr_u.v4addr);
+  signed int return_value_inet_pton_1;
+  if(!(return_value_inet_pton_2 >= 1))
   {
-    return_value_inet_pton$1=inet_pton(10, what, (void *)&addr_u.v6addr);
-    return return_value_inet_pton$1 > 0 ? 1 : 0;
+    return_value_inet_pton_1=inet_pton(10, what, (void *)&addr_u.v6addr);
+    return return_value_inet_pton_1 > 0 ? 1 : 0;
   }
 
   else
@@ -2558,32 +2558,32 @@ union anonymous$34
 static char * _lowercase(char *str)
 {
   char *p = str;
-  signed int return_value_tolower$1;
+  signed int return_value_tolower_1;
   for( ; !((signed int)*p == 0); p = p + 1l)
   {
-    return_value_tolower$1=tolower((signed int)*p);
-    *p = (char)return_value_tolower$1;
+    return_value_tolower_1=tolower((signed int)*p);
+    *p = (char)return_value_tolower_1;
   }
   return str;
 }
 
 // _mutex_create
 // file thread.c line 326
-static void _mutex_create(struct anonymous$31 *mutex)
+static void _mutex_create(struct anonymous_31 *mutex)
 {
-  pthread_mutex_init(&mutex->sys_mutex, (const union anonymous$28 *)(void *)0);
+  pthread_mutex_init(&mutex->sys_mutex, (const union anonymous_28 *)(void *)0);
 }
 
 // _mutex_lock
 // file thread.c line 717
-static void _mutex_lock(struct anonymous$31 *mutex)
+static void _mutex_lock(struct anonymous_31 *mutex)
 {
   pthread_mutex_lock(&mutex->sys_mutex);
 }
 
 // _mutex_unlock
 // file thread.c line 722
-static void _mutex_unlock(struct anonymous$31 *mutex)
+static void _mutex_unlock(struct anonymous_31 *mutex)
 {
   pthread_mutex_unlock(&mutex->sys_mutex);
 }
@@ -2945,13 +2945,13 @@ signed int _shout_avl_get_by_key(struct _avl_tree *tree, void *key, void **value
 struct avl_node_tag * _shout_avl_get_first(struct _avl_tree *tree)
 {
   struct avl_node_tag *node = tree->root->right;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(node == ((struct avl_node_tag *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = node->key == (void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = node->key == (void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return (struct avl_node_tag *)(void *)0;
 
   else
@@ -3289,14 +3289,14 @@ signed int _shout_avl_insert(struct _avl_tree *ob, void *key)
         q = p->left;
         if(q == ((struct avl_node_tag *)NULL))
         {
-          struct avl_node_tag *_shout_avl_insert$$1$$2$$1$$1$$1$$q_node;
-          _shout_avl_insert$$1$$2$$1$$1$$1$$q_node=_shout_avl_node_new(key, p);
-          if(_shout_avl_insert$$1$$2$$1$$1$$1$$q_node == ((struct avl_node_tag *)NULL))
+          struct avl_node_tag *_shout_avl_insert__1__2__1__1__1__q_node;
+          _shout_avl_insert__1__2__1__1__1__q_node=_shout_avl_node_new(key, p);
+          if(_shout_avl_insert__1__2__1__1__1__q_node == ((struct avl_node_tag *)NULL))
             return -1;
 
           else
           {
-            q = _shout_avl_insert$$1$$2$$1$$1$$1$$q_node;
+            q = _shout_avl_insert__1__2__1__1__1__q_node;
             p->left = q;
           }
         }
@@ -3557,9 +3557,9 @@ signed int _shout_avl_iterate_inorder(struct _avl_tree *tree, signed int (*iter_
 struct avl_node_tag * _shout_avl_node_new(void *key, struct avl_node_tag *parent)
 {
   struct avl_node_tag *node;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct avl_node_tag) /*40ul*/ );
-  node = (struct avl_node_tag *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct avl_node_tag) /*40ul*/ );
+  node = (struct avl_node_tag *)return_value_malloc_1;
   if(node == ((struct avl_node_tag *)NULL))
     return (struct avl_node_tag *)(void *)0;
 
@@ -3611,9 +3611,9 @@ void _shout_avl_tree_free(struct _avl_tree *tree, signed int (*free_key_fun)(voi
 struct _avl_tree * _shout_avl_tree_new(signed int (*compare_fun)(void *, void *, void *), void *compare_arg)
 {
   struct _avl_tree *t;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _avl_tree) /*88ul*/ );
-  t = (struct _avl_tree *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _avl_tree) /*88ul*/ );
+  t = (struct _avl_tree *)return_value_malloc_1;
   if(t == ((struct _avl_tree *)NULL))
     return (struct _avl_tree *)(void *)0;
 
@@ -3693,9 +3693,9 @@ void _shout_httpp_clear(struct http_parser_tag *parser)
 // file httpp/httpp.h line 60
 struct http_parser_tag * _shout_httpp_create_parser(void)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct http_parser_tag) /*32ul*/ );
-  return (struct http_parser_tag *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct http_parser_tag) /*32ul*/ );
+  return (struct http_parser_tag *)return_value_malloc_1;
 }
 
 // _shout_httpp_destroy
@@ -3715,9 +3715,9 @@ const char * _shout_httpp_get_query_param(struct http_parser_tag *parser, const 
   void *fp = (void *)&found;
   var.name = (char *)name;
   var.value = (char *)(void *)0;
-  signed int return_value__shout_avl_get_by_key$1;
-  return_value__shout_avl_get_by_key$1=_shout_avl_get_by_key(parser->queryvars, (void *)&var, (void **)fp);
-  if(return_value__shout_avl_get_by_key$1 == 0)
+  signed int return_value__shout_avl_get_by_key_1;
+  return_value__shout_avl_get_by_key_1=_shout_avl_get_by_key(parser->queryvars, (void *)&var, (void **)fp);
+  if(return_value__shout_avl_get_by_key_1 == 0)
     return found->value;
 
   else
@@ -3739,9 +3739,9 @@ const char * _shout_httpp_getvar(struct http_parser_tag *parser, const char *nam
     fp = (void *)&found;
     var.name = (char *)name;
     var.value = (char *)(void *)0;
-    signed int return_value__shout_avl_get_by_key$1;
-    return_value__shout_avl_get_by_key$1=_shout_avl_get_by_key(parser->vars, (void *)&var, (void **)fp);
-    if(return_value__shout_avl_get_by_key$1 == 0)
+    signed int return_value__shout_avl_get_by_key_1;
+    return_value__shout_avl_get_by_key_1=_shout_avl_get_by_key(parser->vars, (void *)&var, (void **)fp);
+    if(return_value__shout_avl_get_by_key_1 == 0)
       return found->value;
 
     else
@@ -3778,25 +3778,25 @@ signed int _shout_httpp_parse(struct http_parser_tag *parser, const char *http_d
   signed int whitespace;
   signed int where;
   signed int slen;
-  signed int return_value_strcasecmp$7;
-  signed int return_value_strcasecmp$6;
-  signed int return_value_strcasecmp$5;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_strcasecmp$3;
-  _Bool tmp_if_expr$10;
-  unsigned long int return_value_strlen$9;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$13;
-  unsigned long int return_value_strlen$12;
-  _Bool tmp_if_expr$15;
+  signed int return_value_strcasecmp_7;
+  signed int return_value_strcasecmp_6;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_strcasecmp_3;
+  _Bool tmp_if_expr_10;
+  unsigned long int return_value_strlen_9;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_13;
+  unsigned long int return_value_strlen_12;
+  _Bool tmp_if_expr_15;
   if(http_data == ((const char *)NULL))
     return 0;
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(len + (unsigned long int)1);
-    data = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(len + (unsigned long int)1);
+    data = (char *)return_value_malloc_1;
     if(data == ((char *)NULL))
       return 0;
 
@@ -3807,9 +3807,9 @@ signed int _shout_httpp_parse(struct http_parser_tag *parser, const char *http_d
       lines=split_headers(data, len, line);
       where = 0;
       whitespace = 0;
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(line[(signed long int)0]);
-      slen = (signed int)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(line[(signed long int)0]);
+      slen = (signed int)return_value_strlen_2;
       req_type = line[(signed long int)0];
       i = 0;
       for( ; !(i >= slen); i = i + 1)
@@ -3836,39 +3836,39 @@ signed int _shout_httpp_parse(struct http_parser_tag *parser, const char *http_d
             }
           }
 
-      signed int return_value_strcasecmp$8;
-      return_value_strcasecmp$8=strcasecmp("GET", req_type);
-      if(return_value_strcasecmp$8 == 0)
+      signed int return_value_strcasecmp_8;
+      return_value_strcasecmp_8=strcasecmp("GET", req_type);
+      if(return_value_strcasecmp_8 == 0)
         parser->req_type = (enum httpp_request_type_tag)httpp_req_get;
 
       else
       {
-        return_value_strcasecmp$7=strcasecmp("POST", req_type);
-        if(return_value_strcasecmp$7 == 0)
+        return_value_strcasecmp_7=strcasecmp("POST", req_type);
+        if(return_value_strcasecmp_7 == 0)
           parser->req_type = (enum httpp_request_type_tag)httpp_req_post;
 
         else
         {
-          return_value_strcasecmp$6=strcasecmp("HEAD", req_type);
-          if(return_value_strcasecmp$6 == 0)
+          return_value_strcasecmp_6=strcasecmp("HEAD", req_type);
+          if(return_value_strcasecmp_6 == 0)
             parser->req_type = (enum httpp_request_type_tag)httpp_req_head;
 
           else
           {
-            return_value_strcasecmp$5=strcasecmp("SOURCE", req_type);
-            if(return_value_strcasecmp$5 == 0)
+            return_value_strcasecmp_5=strcasecmp("SOURCE", req_type);
+            if(return_value_strcasecmp_5 == 0)
               parser->req_type = (enum httpp_request_type_tag)httpp_req_source;
 
             else
             {
-              return_value_strcasecmp$4=strcasecmp("PLAY", req_type);
-              if(return_value_strcasecmp$4 == 0)
+              return_value_strcasecmp_4=strcasecmp("PLAY", req_type);
+              if(return_value_strcasecmp_4 == 0)
                 parser->req_type = (enum httpp_request_type_tag)httpp_req_play;
 
               else
               {
-                return_value_strcasecmp$3=strcasecmp("STATS", req_type);
-                if(return_value_strcasecmp$3 == 0)
+                return_value_strcasecmp_3=strcasecmp("STATS", req_type);
+                if(return_value_strcasecmp_3 == 0)
                   parser->req_type = (enum httpp_request_type_tag)httpp_req_stats;
 
                 else
@@ -3880,13 +3880,13 @@ signed int _shout_httpp_parse(struct http_parser_tag *parser, const char *http_d
       }
       if(!(uri == ((char *)NULL)))
       {
-        return_value_strlen$9=strlen(uri);
-        tmp_if_expr$10 = return_value_strlen$9 > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+        return_value_strlen_9=strlen(uri);
+        tmp_if_expr_10 = return_value_strlen_9 > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$10 = (_Bool)0;
-      if(tmp_if_expr$10)
+        tmp_if_expr_10 = (_Bool)0;
+      if(tmp_if_expr_10)
       {
         char *query;
         query=strchr(uri, 63);
@@ -3910,25 +3910,25 @@ signed int _shout_httpp_parse(struct http_parser_tag *parser, const char *http_d
       if(!(version == ((char *)NULL)))
       {
         tmp=strchr(version, 47);
-        tmp_if_expr$14 = tmp != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_14 = tmp != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$14 = (_Bool)0;
-      if(tmp_if_expr$14)
+        tmp_if_expr_14 = (_Bool)0;
+      if(tmp_if_expr_14)
       {
         tmp[(signed long int)0] = (char)0;
-        unsigned long int return_value_strlen$11;
-        return_value_strlen$11=strlen(version);
-        if(return_value_strlen$11 >= 1ul)
+        unsigned long int return_value_strlen_11;
+        return_value_strlen_11=strlen(version);
+        if(return_value_strlen_11 >= 1ul)
         {
-          return_value_strlen$12=strlen(&tmp[(signed long int)1]);
-          tmp_if_expr$13 = return_value_strlen$12 > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+          return_value_strlen_12=strlen(&tmp[(signed long int)1]);
+          tmp_if_expr_13 = return_value_strlen_12 > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$13 = (_Bool)0;
-        if(tmp_if_expr$13)
+          tmp_if_expr_13 = (_Bool)0;
+        if(tmp_if_expr_13)
         {
           _shout_httpp_setvar(parser, "__protocol", version);
           _shout_httpp_setvar(parser, "__version", &tmp[(signed long int)1]);
@@ -3947,11 +3947,11 @@ signed int _shout_httpp_parse(struct http_parser_tag *parser, const char *http_d
         return 0;
       }
       if(!((signed int)parser->req_type == httpp_req_none))
-        tmp_if_expr$15 = (signed int)parser->req_type != httpp_req_unknown ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_15 = (signed int)parser->req_type != httpp_req_unknown ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$15 = (_Bool)0;
-      if(tmp_if_expr$15)
+        tmp_if_expr_15 = (_Bool)0;
+      if(tmp_if_expr_15)
         switch((signed int)parser->req_type)
         {
           case httpp_req_get:
@@ -4023,9 +4023,9 @@ signed int _shout_httpp_parse_response(struct http_parser_tag *parser, const cha
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(len + (unsigned long int)1);
-    data = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(len + (unsigned long int)1);
+    data = (char *)return_value_malloc_1;
     if(data == ((char *)NULL))
       return 0;
 
@@ -4034,9 +4034,9 @@ signed int _shout_httpp_parse_response(struct http_parser_tag *parser, const cha
       memcpy((void *)data, (const void *)http_data, len);
       data[(signed long int)len] = (char)0;
       lines=split_headers(data, len, line);
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(line[(signed long int)0]);
-      slen = (signed int)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(line[(signed long int)0]);
+      slen = (signed int)return_value_strlen_2;
       version = line[(signed long int)0];
       i = 0;
       for( ; !(i >= slen); i = i + 1)
@@ -4091,16 +4091,16 @@ void _shout_httpp_set_query_param(struct http_parser_tag *parser, const char *na
   struct http_var_tag *var;
   if(!(name == ((const char *)NULL)) && !(value == ((const char *)NULL)))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct http_var_tag) /*16ul*/ );
-    var = (struct http_var_tag *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct http_var_tag) /*16ul*/ );
+    var = (struct http_var_tag *)return_value_malloc_1;
     if(!(var == ((struct http_var_tag *)NULL)))
     {
       var->name=strdup(name);
       var->value=url_escape(value);
-      const char *return_value__shout_httpp_get_query_param$2;
-      return_value__shout_httpp_get_query_param$2=_shout_httpp_get_query_param(parser, name);
-      if(return_value__shout_httpp_get_query_param$2 == ((const char *)NULL))
+      const char *return_value__shout_httpp_get_query_param_2;
+      return_value__shout_httpp_get_query_param_2=_shout_httpp_get_query_param(parser, name);
+      if(return_value__shout_httpp_get_query_param_2 == ((const char *)NULL))
         _shout_avl_insert(parser->queryvars, (void *)var);
 
       else
@@ -4121,16 +4121,16 @@ void _shout_httpp_setvar(struct http_parser_tag *parser, const char *name, const
   struct http_var_tag *var;
   if(!(name == ((const char *)NULL)) && !(value == ((const char *)NULL)))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct http_var_tag) /*16ul*/ );
-    var = (struct http_var_tag *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct http_var_tag) /*16ul*/ );
+    var = (struct http_var_tag *)return_value_malloc_1;
     if(!(var == ((struct http_var_tag *)NULL)))
     {
       var->name=strdup(name);
       var->value=strdup(value);
-      const char *return_value__shout_httpp_getvar$2;
-      return_value__shout_httpp_getvar$2=_shout_httpp_getvar(parser, name);
-      if(return_value__shout_httpp_getvar$2 == ((const char *)NULL))
+      const char *return_value__shout_httpp_getvar_2;
+      return_value__shout_httpp_getvar_2=_shout_httpp_getvar(parser, name);
+      if(return_value__shout_httpp_getvar_2 == ((const char *)NULL))
         _shout_avl_insert(parser->vars, (void *)var);
 
       else
@@ -4146,22 +4146,22 @@ void _shout_httpp_setvar(struct http_parser_tag *parser, const char *name, const
 
 // _shout_open_opus
 // file shout_ogg.h line 54
-signed int _shout_open_opus(struct _ogg_codec_tag *codec, struct anonymous$7 *page)
+signed int _shout_open_opus(struct _ogg_codec_tag *codec, struct anonymous_7 *page)
 {
-  struct anonymous$1 *opus_data;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$1) /*292ul*/ );
-  opus_data = (struct anonymous$1 *)return_value_calloc$1;
-  struct anonymous$2 packet;
-  if(opus_data == ((struct anonymous$1 *)NULL))
+  struct anonymous_1 *opus_data;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_1) /*292ul*/ );
+  opus_data = (struct anonymous_1 *)return_value_calloc_1;
+  struct anonymous_2 packet;
+  if(opus_data == ((struct anonymous_1 *)NULL))
     return -5;
 
   else
   {
     ogg_stream_packetout(&codec->os, &packet);
-    signed int return_value_opus_header_parse$2;
-    return_value_opus_header_parse$2=opus_header_parse(packet.packet, (signed int)packet.bytes, &opus_data->oh);
-    if(return_value_opus_header_parse$2 == 0)
+    signed int return_value_opus_header_parse_2;
+    return_value_opus_header_parse_2=opus_header_parse(packet.packet, (signed int)packet.bytes, &opus_data->oh);
+    if(return_value_opus_header_parse_2 == 0)
     {
       free_opus_data((void *)opus_data);
       return -9;
@@ -4180,14 +4180,14 @@ signed int _shout_open_opus(struct _ogg_codec_tag *codec, struct anonymous$7 *pa
 
 // _shout_open_speex
 // file shout_ogg.h line 52
-signed int _shout_open_speex(struct _ogg_codec_tag *codec, struct anonymous$7 *page)
+signed int _shout_open_speex(struct _ogg_codec_tag *codec, struct anonymous_7 *page)
 {
-  struct anonymous$11 *speex_data;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$11) /*8ul*/ );
-  speex_data = (struct anonymous$11 *)return_value_calloc$1;
-  struct anonymous$2 packet;
-  if(speex_data == ((struct anonymous$11 *)NULL))
+  struct anonymous_11 *speex_data;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_11) /*8ul*/ );
+  speex_data = (struct anonymous_11 *)return_value_calloc_1;
+  struct anonymous_2 packet;
+  if(speex_data == ((struct anonymous_11 *)NULL))
     return -5;
 
   else
@@ -4212,14 +4212,14 @@ signed int _shout_open_speex(struct _ogg_codec_tag *codec, struct anonymous$7 *p
 
 // _shout_open_theora
 // file shout_ogg.h line 49
-signed int _shout_open_theora(struct _ogg_codec_tag *codec, struct anonymous$7 *page)
+signed int _shout_open_theora(struct _ogg_codec_tag *codec, struct anonymous_7 *page)
 {
-  struct anonymous$2 packet;
-  struct anonymous$6 *theora_data;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$6) /*176ul*/ );
-  theora_data = (struct anonymous$6 *)return_value_calloc$1;
-  if(theora_data == ((struct anonymous$6 *)NULL))
+  struct anonymous_2 packet;
+  struct anonymous_6 *theora_data;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_6) /*176ul*/ );
+  theora_data = (struct anonymous_6 *)return_value_calloc_1;
+  if(theora_data == ((struct anonymous_6 *)NULL))
     return -5;
 
   else
@@ -4227,9 +4227,9 @@ signed int _shout_open_theora(struct _ogg_codec_tag *codec, struct anonymous$7 *
     theora_info_init(&theora_data->ti);
     theora_comment_init(&theora_data->tc);
     ogg_stream_packetout(&codec->os, &packet);
-    signed int return_value_theora_decode_header$2;
-    return_value_theora_decode_header$2=theora_decode_header(&theora_data->ti, &theora_data->tc, &packet);
-    if(!(return_value_theora_decode_header$2 >= 0))
+    signed int return_value_theora_decode_header_2;
+    return_value_theora_decode_header_2=theora_decode_header(&theora_data->ti, &theora_data->tc, &packet);
+    if(!(return_value_theora_decode_header_2 >= 0))
     {
       free_theora_data((void *)theora_data);
       return -9;
@@ -4249,14 +4249,14 @@ signed int _shout_open_theora(struct _ogg_codec_tag *codec, struct anonymous$7 *
 
 // _shout_open_vorbis
 // file shout_ogg.h line 47
-signed int _shout_open_vorbis(struct _ogg_codec_tag *codec, struct anonymous$7 *page)
+signed int _shout_open_vorbis(struct _ogg_codec_tag *codec, struct anonymous_7 *page)
 {
-  struct anonymous$30 *vorbis_data;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$30) /*96ul*/ );
-  vorbis_data = (struct anonymous$30 *)return_value_calloc$1;
-  struct anonymous$2 packet;
-  if(vorbis_data == ((struct anonymous$30 *)NULL))
+  struct anonymous_30 *vorbis_data;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_30) /*96ul*/ );
+  vorbis_data = (struct anonymous_30 *)return_value_calloc_1;
+  struct anonymous_2 packet;
+  if(vorbis_data == ((struct anonymous_30 *)NULL))
     return -5;
 
   else
@@ -4264,9 +4264,9 @@ signed int _shout_open_vorbis(struct _ogg_codec_tag *codec, struct anonymous$7 *
     vorbis_info_init(&vorbis_data->vi);
     vorbis_comment_init(&vorbis_data->vc);
     ogg_stream_packetout(&codec->os, &packet);
-    signed int return_value_vorbis_synthesis_headerin$2;
-    return_value_vorbis_synthesis_headerin$2=vorbis_synthesis_headerin(&vorbis_data->vi, &vorbis_data->vc, &packet);
-    if(!(return_value_vorbis_synthesis_headerin$2 >= 0))
+    signed int return_value_vorbis_synthesis_headerin_2;
+    return_value_vorbis_synthesis_headerin_2=vorbis_synthesis_headerin(&vorbis_data->vi, &vorbis_data->vc, &packet);
+    if(!(return_value_vorbis_synthesis_headerin_2 >= 0))
     {
       free_vorbis_data((void *)vorbis_data);
       return -9;
@@ -4289,9 +4289,9 @@ char * _shout_resolver_getip(const char *name, char *buff, signed int len)
   struct addrinfo *head;
   struct addrinfo hints;
   char *ret = (char *)(void *)0;
-  signed int return_value__isip$1;
-  return_value__isip$1=_isip(name);
-  if(!(return_value__isip$1 == 0))
+  signed int return_value__isip_1;
+  return_value__isip_1=_isip(name);
+  if(!(return_value__isip_1 == 0))
   {
     strncpy(buff, name, (unsigned long int)len);
     buff[(signed long int)(len - 1)] = (char)0;
@@ -4303,18 +4303,18 @@ char * _shout_resolver_getip(const char *name, char *buff, signed int len)
     memset((void *)&hints, 0, sizeof(struct addrinfo) /*48ul*/ );
     hints.ai_family = 0;
     hints.ai_socktype = 1;
-    signed int return_value_getaddrinfo$2;
-    return_value_getaddrinfo$2=getaddrinfo(name, (const char *)(void *)0, &hints, &head);
-    if(!(return_value_getaddrinfo$2 == 0))
+    signed int return_value_getaddrinfo_2;
+    return_value_getaddrinfo_2=getaddrinfo(name, (const char *)(void *)0, &hints, &head);
+    if(!(return_value_getaddrinfo_2 == 0))
       return (char *)(void *)0;
 
     else
     {
       if(!(head == ((struct addrinfo *)NULL)))
       {
-        signed int return_value_getnameinfo$3;
-        return_value_getnameinfo$3=getnameinfo(head->ai_addr, head->ai_addrlen, buff, (unsigned int)len, (char *)(void *)0, (unsigned int)0, 1);
-        if(return_value_getnameinfo$3 == 0)
+        signed int return_value_getnameinfo_3;
+        return_value_getnameinfo_3=getnameinfo(head->ai_addr, head->ai_addrlen, buff, (unsigned int)len, (char *)(void *)0, (unsigned int)0, 1);
+        if(return_value_getnameinfo_3 == 0)
           ret = buff;
 
         freeaddrinfo(head);
@@ -4332,9 +4332,9 @@ char * _shout_resolver_getname(const char *ip, char *buff, signed int len)
   struct addrinfo *head = (struct addrinfo *)(void *)0;
   struct addrinfo hints;
   char *ret = (char *)(void *)0;
-  signed int return_value__isip$1;
-  return_value__isip$1=_isip(ip);
-  if(return_value__isip$1 == 0)
+  signed int return_value__isip_1;
+  return_value__isip_1=_isip(ip);
+  if(return_value__isip_1 == 0)
   {
     strncpy(buff, ip, (unsigned long int)len);
     buff[(signed long int)(len - 1)] = (char)0;
@@ -4347,18 +4347,18 @@ char * _shout_resolver_getname(const char *ip, char *buff, signed int len)
     hints.ai_family = 0;
     hints.ai_socktype = 1;
     hints.ai_flags = 0x0002;
-    signed int return_value_getaddrinfo$2;
-    return_value_getaddrinfo$2=getaddrinfo(ip, (const char *)(void *)0, &hints, &head);
-    if(!(return_value_getaddrinfo$2 == 0))
+    signed int return_value_getaddrinfo_2;
+    return_value_getaddrinfo_2=getaddrinfo(ip, (const char *)(void *)0, &hints, &head);
+    if(!(return_value_getaddrinfo_2 == 0))
       return (char *)(void *)0;
 
     else
     {
       if(!(head == ((struct addrinfo *)NULL)))
       {
-        signed int return_value_getnameinfo$3;
-        return_value_getnameinfo$3=getnameinfo(head->ai_addr, head->ai_addrlen, buff, (unsigned int)len, (char *)(void *)0, (unsigned int)0, 8);
-        if(return_value_getnameinfo$3 == 0)
+        signed int return_value_getnameinfo_3;
+        return_value_getnameinfo_3=getnameinfo(head->ai_addr, head->ai_addrlen, buff, (unsigned int)len, (char *)(void *)0, (unsigned int)0, 8);
+        if(return_value_getnameinfo_3 == 0)
           ret = buff;
 
         freeaddrinfo(head);
@@ -4373,9 +4373,9 @@ char * _shout_resolver_getname(const char *ip, char *buff, signed int len)
 // file resolver.h line 30
 void _shout_resolver_initialize(void)
 {
-  if(_initialized$link1 == 0)
+  if(_initialized_link1 == 0)
   {
-    _initialized$link1 = 1;
+    _initialized_link1 = 1;
     _shout_thread_mutex_create(&_resolver_mutex, 206, "resolver.c");
     sethostent(1);
   }
@@ -4386,10 +4386,10 @@ void _shout_resolver_initialize(void)
 // file resolver.h line 31
 void _shout_resolver_shutdown(void)
 {
-  if(!(_initialized$link1 == 0))
+  if(!(_initialized_link1 == 0))
   {
     _shout_thread_mutex_destroy(&_resolver_mutex);
-    _initialized$link1 = 0;
+    _initialized_link1 = 0;
     endhostent();
   }
 
@@ -4402,17 +4402,17 @@ signed int _shout_sock_accept(signed int serversock, char *ip, unsigned long int
   struct sockaddr_storage sa;
   signed int ret;
   unsigned int slen;
-  _Bool tmp_if_expr$2;
-  signed int return_value__shout_sock_valid_socket$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value__shout_sock_valid_socket_1;
   if(ip == ((char *)NULL) || len == 0ul)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value__shout_sock_valid_socket$1=_shout_sock_valid_socket(serversock);
-    tmp_if_expr$2 = !(return_value__shout_sock_valid_socket$1 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value__shout_sock_valid_socket_1=_shout_sock_valid_socket(serversock);
+    tmp_if_expr_2 = !(return_value__shout_sock_valid_socket_1 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     return (signed int)-1;
 
   else
@@ -4421,9 +4421,9 @@ signed int _shout_sock_accept(signed int serversock, char *ip, unsigned long int
     ret=accept(serversock, (struct sockaddr *)&sa, &slen);
     if(!(ret == -1))
     {
-      signed int return_value_getnameinfo$3;
-      return_value_getnameinfo$3=getnameinfo((struct sockaddr *)&sa, slen, ip, (unsigned int)len, (char *)(void *)0, (unsigned int)0, 1);
-      if(!(return_value_getnameinfo$3 == 0))
+      signed int return_value_getnameinfo_3;
+      return_value_getnameinfo_3=getnameinfo((struct sockaddr *)&sa, slen, ip, (unsigned int)len, (char *)(void *)0, (unsigned int)0, 1);
+      if(!(return_value_getnameinfo_3 == 0))
         snprintf(ip, len, "unknown");
 
       _shout_sock_set_nolinger(ret);
@@ -4438,9 +4438,9 @@ signed int _shout_sock_accept(signed int serversock, char *ip, unsigned long int
 // file ./net/sock.h line 117
 signed int _shout_sock_close(signed int sock)
 {
-  signed int return_value_close$1;
-  return_value_close$1=close(sock);
-  return return_value_close$1;
+  signed int return_value_close_1;
+  return_value_close_1=close(sock);
+  return return_value_close_1;
 }
 
 // _shout_sock_connect_non_blocking
@@ -4456,12 +4456,12 @@ signed int _shout_sock_connect_non_blocking(const char *hostname, unsigned int p
   hints.ai_family = 0;
   hints.ai_socktype = 1;
   snprintf(service, sizeof(char [8l]) /*8ul*/ , "%u", port);
-  signed int return_value_getaddrinfo$1;
-  return_value_getaddrinfo$1=getaddrinfo(hostname, service, &hints, &head);
-  _Bool tmp_if_expr$5;
-  signed int return_value__shout_sock_error$3;
-  signed int return_value_sock_connect_pending$4;
-  if(!(return_value_getaddrinfo$1 == 0))
+  signed int return_value_getaddrinfo_1;
+  return_value_getaddrinfo_1=getaddrinfo(hostname, service, &hints, &head);
+  _Bool tmp_if_expr_5;
+  signed int return_value__shout_sock_error_3;
+  signed int return_value_sock_connect_pending_4;
+  if(!(return_value_getaddrinfo_1 == 0))
     return (signed int)-1;
 
   else
@@ -4473,18 +4473,18 @@ signed int _shout_sock_connect_non_blocking(const char *hostname, unsigned int p
       if(sock >= 0)
       {
         _shout_sock_set_blocking(sock, 0);
-        signed int return_value_connect$2;
-        return_value_connect$2=connect(sock, ai->ai_addr, ai->ai_addrlen);
-        if(!(return_value_connect$2 >= 0))
+        signed int return_value_connect_2;
+        return_value_connect_2=connect(sock, ai->ai_addr, ai->ai_addrlen);
+        if(!(return_value_connect_2 >= 0))
         {
-          return_value__shout_sock_error$3=_shout_sock_error();
-          return_value_sock_connect_pending$4=sock_connect_pending(return_value__shout_sock_error$3);
-          tmp_if_expr$5 = !(return_value_sock_connect_pending$4 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value__shout_sock_error_3=_shout_sock_error();
+          return_value_sock_connect_pending_4=sock_connect_pending(return_value__shout_sock_error_3);
+          tmp_if_expr_5 = !(return_value_sock_connect_pending_4 != 0) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
         {
           _shout_sock_close(sock);
           sock = (signed int)-1;
@@ -4506,9 +4506,9 @@ signed int _shout_sock_connect_non_blocking(const char *hostname, unsigned int p
 // file ./net/sock.h line 120
 signed int _shout_sock_connect_wto(const char *hostname, signed int port, signed int timeout)
 {
-  signed int return_value__shout_sock_connect_wto_bind$1;
-  return_value__shout_sock_connect_wto_bind$1=_shout_sock_connect_wto_bind(hostname, port, (const char *)(void *)0, timeout);
-  return return_value__shout_sock_connect_wto_bind$1;
+  signed int return_value__shout_sock_connect_wto_bind_1;
+  return_value__shout_sock_connect_wto_bind_1=_shout_sock_connect_wto_bind(hostname, port, (const char *)(void *)0, timeout);
+  return return_value__shout_sock_connect_wto_bind_1;
 }
 
 // _shout_sock_connect_wto_bind
@@ -4525,11 +4525,11 @@ signed int _shout_sock_connect_wto_bind(const char *hostname, signed int port, c
   hints.ai_family = 0;
   hints.ai_socktype = 1;
   snprintf(service, sizeof(char [8l]) /*8ul*/ , "%u", port);
-  signed int return_value_getaddrinfo$1;
-  return_value_getaddrinfo$1=getaddrinfo(hostname, service, &hints, &head);
-  _Bool tmp_if_expr$4;
-  signed int return_value_bind$3;
-  if(!(return_value_getaddrinfo$1 == 0))
+  signed int return_value_getaddrinfo_1;
+  return_value_getaddrinfo_1=getaddrinfo(hostname, service, &hints, &head);
+  _Bool tmp_if_expr_4;
+  signed int return_value_bind_3;
+  if(!(return_value_getaddrinfo_1 == 0))
     return (signed int)-1;
 
   else
@@ -4550,17 +4550,17 @@ signed int _shout_sock_connect_wto_bind(const char *hostname, signed int port, c
           b_hints.ai_family = ai->ai_family;
           b_hints.ai_socktype = ai->ai_socktype;
           b_hints.ai_protocol = ai->ai_protocol;
-          signed int return_value_getaddrinfo$2;
-          return_value_getaddrinfo$2=getaddrinfo(bnd, (const char *)(void *)0, &b_hints, &b_head);
-          if(!(return_value_getaddrinfo$2 == 0))
-            tmp_if_expr$4 = (_Bool)1;
+          signed int return_value_getaddrinfo_2;
+          return_value_getaddrinfo_2=getaddrinfo(bnd, (const char *)(void *)0, &b_hints, &b_head);
+          if(!(return_value_getaddrinfo_2 == 0))
+            tmp_if_expr_4 = (_Bool)1;
 
           else
           {
-            return_value_bind$3=bind(sock, b_head->ai_addr, b_head->ai_addrlen);
-            tmp_if_expr$4 = return_value_bind$3 < 0 ? (_Bool)1 : (_Bool)0;
+            return_value_bind_3=bind(sock, b_head->ai_addr, b_head->ai_addrlen);
+            tmp_if_expr_4 = return_value_bind_3 < 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$4)
+          if(tmp_if_expr_4)
           {
             _shout_sock_close(sock);
             sock = (signed int)-1;
@@ -4569,18 +4569,18 @@ signed int _shout_sock_connect_wto_bind(const char *hostname, signed int port, c
 
         }
 
-        signed int return_value_connect$5;
-        return_value_connect$5=connect(sock, ai->ai_addr, ai->ai_addrlen);
-        if(return_value_connect$5 == 0)
+        signed int return_value_connect_5;
+        return_value_connect_5=connect(sock, ai->ai_addr, ai->ai_addrlen);
+        if(return_value_connect_5 == 0)
           break;
 
         while(!(sock == -1))
         {
-          signed int return_value__shout_sock_error$6;
-          return_value__shout_sock_error$6=_shout_sock_error();
-          signed int return_value__shout_sock_recoverable$7;
-          return_value__shout_sock_recoverable$7=_shout_sock_recoverable(return_value__shout_sock_error$6);
-          if(!(return_value__shout_sock_recoverable$7 == 0))
+          signed int return_value__shout_sock_error_6;
+          return_value__shout_sock_error_6=_shout_sock_error();
+          signed int return_value__shout_sock_recoverable_7;
+          return_value__shout_sock_recoverable_7=_shout_sock_recoverable(return_value__shout_sock_error_6);
+          if(!(return_value__shout_sock_recoverable_7 == 0))
           {
             signed int connected;
             connected=_shout_sock_connected(sock, timeout);
@@ -4618,7 +4618,7 @@ signed int _shout_sock_connect_wto_bind(const char *hostname, signed int port, c
 // file ./net/sock.h line 123
 signed int _shout_sock_connected(signed int sock, signed int timeout)
 {
-  struct anonymous$12 wfds;
+  struct anonymous_12 wfds;
   signed int val = (signed int)-1;
   unsigned int size = (unsigned int)sizeof(signed int) /*4ul*/ ;
   struct timeval tv;
@@ -4634,24 +4634,24 @@ signed int _shout_sock_connected(signed int sock, signed int timeout)
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$12) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&wfds)->fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_12) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&wfds)->fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   (&wfds)->fds_bits[(signed long int)(sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wfds)->fds_bits[(signed long int)(sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-  signed int return_value_select$1;
-  return_value_select$1=select(sock + 1, (struct anonymous$12 *)(void *)0, &wfds, (struct anonymous$12 *)(void *)0, timeval);
-  if(!(return_value_select$1 == 0))
+  signed int return_value_select_1;
+  return_value_select_1=select(sock + 1, (struct anonymous_12 *)(void *)0, &wfds, (struct anonymous_12 *)(void *)0, timeval);
+  if(!(return_value_select_1 == 0))
   {
-    if(return_value_select$1 == -1)
+    if(return_value_select_1 == -1)
       goto __CPROVER_DUMP_L5;
 
   }
 
   else
     return -2;
-  signed int return_value_getsockopt$2;
-  return_value_getsockopt$2=getsockopt(sock, 1, 4, (void *)&val, &size);
-  if(return_value_getsockopt$2 == 0)
+  signed int return_value_getsockopt_2;
+  return_value_getsockopt_2=getsockopt(sock, 1, 4, (void *)&val, &size);
+  if(return_value_getsockopt_2 == 0)
   {
     if(val == 0)
       return 1;
@@ -4662,11 +4662,11 @@ signed int _shout_sock_connected(signed int sock, signed int timeout)
 
 __CPROVER_DUMP_L5:
   ;
-  signed int return_value__shout_sock_error$3;
-  return_value__shout_sock_error$3=_shout_sock_error();
-  signed int return_value__shout_sock_recoverable$4;
-  return_value__shout_sock_recoverable$4=_shout_sock_recoverable(return_value__shout_sock_error$3);
-  if(!(return_value__shout_sock_recoverable$4 == 0))
+  signed int return_value__shout_sock_error_3;
+  return_value__shout_sock_error_3=_shout_sock_error();
+  signed int return_value__shout_sock_recoverable_4;
+  return_value__shout_sock_recoverable_4=_shout_sock_recoverable(return_value__shout_sock_error_3);
+  if(!(return_value__shout_sock_recoverable_4 == 0))
     return 0;
 
   else
@@ -4677,9 +4677,9 @@ __CPROVER_DUMP_L5:
 // file ./net/sock.h line 106
 signed int _shout_sock_error(void)
 {
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  return *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  return *return_value___errno_location_1;
 }
 
 // _shout_sock_get_localip
@@ -4687,16 +4687,16 @@ signed int _shout_sock_error(void)
 char * _shout_sock_get_localip(char *buff, signed int len)
 {
   char temp[1024l];
-  signed int return_value_gethostname$1;
-  return_value_gethostname$1=gethostname(temp, sizeof(char [1024l]) /*1024ul*/ );
-  if(!(return_value_gethostname$1 == 0))
+  signed int return_value_gethostname_1;
+  return_value_gethostname_1=gethostname(temp, sizeof(char [1024l]) /*1024ul*/ );
+  if(!(return_value_gethostname_1 == 0))
     return (char *)(void *)0;
 
   else
   {
-    char *return_value__shout_resolver_getip$2;
-    return_value__shout_resolver_getip$2=_shout_resolver_getip(temp, buff, len);
-    if(!(return_value__shout_resolver_getip$2 == ((char *)NULL)))
+    char *return_value__shout_resolver_getip_2;
+    return_value__shout_resolver_getip_2=_shout_resolver_getip(temp, buff, len);
+    if(!(return_value__shout_resolver_getip_2 == ((char *)NULL)))
       return buff;
 
     else
@@ -4725,9 +4725,9 @@ signed int _shout_sock_get_server_socket(signed int port, const char *sinterface
     hints.ai_flags = 0x0001 | 0x0020 | 0x0400 | 0x0004;
     hints.ai_socktype = 1;
     snprintf(service, sizeof(char [10l]) /*10ul*/ , "%d", port);
-    signed int return_value_getaddrinfo$1;
-    return_value_getaddrinfo$1=getaddrinfo(sinterface, service, &hints, &res);
-    if(!(return_value_getaddrinfo$1 == 0))
+    signed int return_value_getaddrinfo_1;
+    return_value_getaddrinfo_1=getaddrinfo(sinterface, service, &hints, &res);
+    if(!(return_value_getaddrinfo_1 == 0))
       return (signed int)-1;
 
     else
@@ -4742,9 +4742,9 @@ signed int _shout_sock_get_server_socket(signed int port, const char *sinterface
           setsockopt(sock, 1, 2, (const void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
           on = 0;
           setsockopt(sock, 41, 26, (const void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
-          signed int return_value_bind$2;
-          return_value_bind$2=bind(sock, ai->ai_addr, ai->ai_addrlen);
-          if(!(return_value_bind$2 >= 0))
+          signed int return_value_bind_2;
+          return_value_bind_2=bind(sock, ai->ai_addr, ai->ai_addrlen);
+          if(!(return_value_bind_2 >= 0))
             _shout_sock_close(sock);
 
           else
@@ -4774,9 +4774,9 @@ void _shout_sock_initialize(void)
 // file sock.c line 911
 signed int _shout_sock_listen(signed int serversock, signed int backlog)
 {
-  signed int return_value__shout_sock_valid_socket$1;
-  return_value__shout_sock_valid_socket$1=_shout_sock_valid_socket(serversock);
-  if(return_value__shout_sock_valid_socket$1 == 0)
+  signed int return_value__shout_sock_valid_socket_1;
+  return_value__shout_sock_valid_socket_1=_shout_sock_valid_socket(serversock);
+  if(return_value__shout_sock_valid_socket_1 == 0)
     return 0;
 
   else
@@ -4784,9 +4784,9 @@ signed int _shout_sock_listen(signed int serversock, signed int backlog)
     if(!(backlog >= 1))
       backlog = 10;
 
-    signed int return_value_listen$2;
-    return_value_listen$2=listen(serversock, backlog);
-    return (signed int)(return_value_listen$2 == 0);
+    signed int return_value_listen_2;
+    return_value_listen_2=listen(serversock, backlog);
+    return (signed int)(return_value_listen_2 == 0);
   }
 }
 
@@ -4803,9 +4803,9 @@ signed int _shout_sock_read_bytes(signed int sock, char *buff, unsigned long int
 
     else
     {
-      signed long int return_value_recv$1;
-      return_value_recv$1=recv(sock, (void *)buff, len, 0);
-      return (signed int)return_value_recv$1;
+      signed long int return_value_recv_1;
+      return_value_recv_1=recv(sock, (void *)buff, len, 0);
+      return (signed int)return_value_recv_1;
     }
 }
 
@@ -4824,10 +4824,10 @@ signed int _shout_sock_read_line(signed int sock, char *buff, const signed int l
       return 0;
 
   pos = 0;
-  signed long int return_value_recv$1;
-  return_value_recv$1=recv(sock, (void *)&c, (unsigned long int)1, 0);
-  read_bytes = (signed int)return_value_recv$1;
-  signed int tmp_post$2;
+  signed long int return_value_recv_1;
+  return_value_recv_1=recv(sock, (void *)&c, (unsigned long int)1, 0);
+  read_bytes = (signed int)return_value_recv_1;
+  signed int tmp_post_2;
   if(!(read_bytes >= 0))
     return 0;
 
@@ -4837,14 +4837,14 @@ signed int _shout_sock_read_line(signed int sock, char *buff, const signed int l
     {
       if(!((signed int)c == 13))
       {
-        tmp_post$2 = pos;
+        tmp_post_2 = pos;
         pos = pos + 1;
-        buff[(signed long int)tmp_post$2] = c;
+        buff[(signed long int)tmp_post_2] = c;
       }
 
-      signed long int return_value_recv$3;
-      return_value_recv$3=recv(sock, (void *)&c, (unsigned long int)1, 0);
-      read_bytes = (signed int)return_value_recv$3;
+      signed long int return_value_recv_3;
+      return_value_recv_3=recv(sock, (void *)&c, (unsigned long int)1, 0);
+      read_bytes = (signed int)return_value_recv_3;
     }
     if(read_bytes == 1)
     {
@@ -4871,16 +4871,16 @@ signed int _shout_sock_recoverable(signed int error)
 // file sock.c line 250
 signed int _shout_sock_set_blocking(signed int sock, signed int block)
 {
-  signed int return_value__shout_sock_valid_socket$1;
-  return_value__shout_sock_valid_socket$1=_shout_sock_valid_socket(sock);
-  if(return_value__shout_sock_valid_socket$1 == 0 || block >= 2 || !(block >= 0))
+  signed int return_value__shout_sock_valid_socket_1;
+  return_value__shout_sock_valid_socket_1=_shout_sock_valid_socket(sock);
+  if(return_value__shout_sock_valid_socket_1 == 0 || block >= 2 || !(block >= 0))
     return (signed int)-1;
 
   else
   {
-    signed int return_value_fcntl$2;
-    return_value_fcntl$2=fcntl(sock, 4, block != 0 ? 0 : 04000);
-    return return_value_fcntl$2;
+    signed int return_value_fcntl_2;
+    return_value_fcntl_2=fcntl(sock, 4, block != 0 ? 0 : 04000);
+    return return_value_fcntl_2;
   }
 }
 
@@ -4888,9 +4888,9 @@ signed int _shout_sock_set_blocking(signed int sock, signed int block)
 // file sock.c line 134
 void _shout_sock_set_error(signed int val)
 {
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = val;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = val;
 }
 
 // _shout_sock_set_keepalive
@@ -4898,9 +4898,9 @@ void _shout_sock_set_error(signed int val)
 signed int _shout_sock_set_keepalive(signed int sock)
 {
   signed int keepalive = 1;
-  signed int return_value_setsockopt$1;
-  return_value_setsockopt$1=setsockopt(sock, 1, 9, (void *)&keepalive, (unsigned int)sizeof(signed int) /*4ul*/ );
-  return return_value_setsockopt$1;
+  signed int return_value_setsockopt_1;
+  return_value_setsockopt_1=setsockopt(sock, 1, 9, (void *)&keepalive, (unsigned int)sizeof(signed int) /*4ul*/ );
+  return return_value_setsockopt_1;
 }
 
 // _shout_sock_set_nodelay
@@ -4908,9 +4908,9 @@ signed int _shout_sock_set_keepalive(signed int sock)
 signed int _shout_sock_set_nodelay(signed int sock)
 {
   signed int nodelay = 1;
-  signed int return_value_setsockopt$1;
-  return_value_setsockopt$1=setsockopt(sock, 6, 1, (void *)&nodelay, (unsigned int)sizeof(signed int) /*4ul*/ );
-  return return_value_setsockopt$1;
+  signed int return_value_setsockopt_1;
+  return_value_setsockopt_1=setsockopt(sock, 6, 1, (void *)&nodelay, (unsigned int)sizeof(signed int) /*4ul*/ );
+  return return_value_setsockopt_1;
 }
 
 // _shout_sock_set_nolinger
@@ -4918,9 +4918,9 @@ signed int _shout_sock_set_nodelay(signed int sock)
 signed int _shout_sock_set_nolinger(signed int sock)
 {
   struct linger lin = { .l_onoff=0, .l_linger=0 };
-  signed int return_value_setsockopt$1;
-  return_value_setsockopt$1=setsockopt(sock, 1, 13, (void *)&lin, (unsigned int)sizeof(struct linger) /*8ul*/ );
-  return return_value_setsockopt$1;
+  signed int return_value_setsockopt_1;
+  return_value_setsockopt_1=setsockopt(sock, 1, 13, (void *)&lin, (unsigned int)sizeof(struct linger) /*8ul*/ );
+  return return_value_setsockopt_1;
 }
 
 // _shout_sock_set_send_buffer
@@ -4980,9 +4980,9 @@ signed int _shout_sock_write_bytes(signed int sock, const void *buff, unsigned l
     if(!(len >= 1ul))
       return (signed int)-1;
 
-  signed long int return_value_send$1;
-  return_value_send$1=send(sock, buff, len, 0);
-  return (signed int)return_value_send$1;
+  signed long int return_value_send_1;
+  return_value_send_1=send(sock, buff, len, 0);
+  return (signed int)return_value_send_1;
 }
 
 // _shout_sock_write_fmt
@@ -5003,9 +5003,9 @@ signed int _shout_sock_write_fmt(signed int sock, const char *fmt, void **ap)
     else
     {
       len = len + 1;
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)len);
-      buff = (char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)len);
+      buff = (char *)return_value_malloc_1;
       if(!(buff == ((char *)NULL)))
       {
         len=vsnprintf(buff, (unsigned long int)len, fmt, ap_retry);
@@ -5026,40 +5026,40 @@ signed int _shout_sock_write_fmt(signed int sock, const char *fmt, void **ap)
 // file sock.c line 369
 signed int _shout_sock_write_string(signed int sock, const char *buff)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(buff);
-  signed int return_value__shout_sock_write_bytes$2;
-  return_value__shout_sock_write_bytes$2=_shout_sock_write_bytes(sock, (const void *)buff, return_value_strlen$1);
-  return (signed int)(return_value__shout_sock_write_bytes$2 > 0);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(buff);
+  signed int return_value__shout_sock_write_bytes_2;
+  return_value__shout_sock_write_bytes_2=_shout_sock_write_bytes(sock, (const void *)buff, return_value_strlen_1);
+  return (signed int)(return_value__shout_sock_write_bytes_2 > 0);
 }
 
 // _shout_sock_writev
 // file sock.c line 312
 signed long int _shout_sock_writev(signed int sock, struct iovec *iov, unsigned long int count)
 {
-  signed long int return_value_writev$1;
-  return_value_writev$1=writev(sock, iov, (signed int)count);
-  return return_value_writev$1;
+  signed long int return_value_writev_1;
+  return_value_writev_1=writev(sock, iov, (signed int)count);
+  return return_value_writev_1;
 }
 
 // _shout_thread_cond_broadcast_c
 // file thread.c line 513
-void _shout_thread_cond_broadcast_c(struct anonymous$26 *cond, signed int line, char *file)
+void _shout_thread_cond_broadcast_c(struct anonymous_26 *cond, signed int line, char *file)
 {
   pthread_cond_broadcast(&cond->sys_cond);
 }
 
 // _shout_thread_cond_create_c
 // file thread.c line 496
-void _shout_thread_cond_create_c(struct anonymous$26 *cond, signed int line, char *file)
+void _shout_thread_cond_create_c(struct anonymous_26 *cond, signed int line, char *file)
 {
-  pthread_cond_init(&cond->sys_cond, (const union anonymous$28 *)(void *)0);
-  pthread_mutex_init(&cond->cond_mutex, (const union anonymous$28 *)(void *)0);
+  pthread_cond_init(&cond->sys_cond, (const union anonymous_28 *)(void *)0);
+  pthread_mutex_init(&cond->cond_mutex, (const union anonymous_28 *)(void *)0);
 }
 
 // _shout_thread_cond_destroy
 // file thread.c line 502
-void _shout_thread_cond_destroy(struct anonymous$26 *cond)
+void _shout_thread_cond_destroy(struct anonymous_26 *cond)
 {
   pthread_mutex_destroy(&cond->cond_mutex);
   pthread_cond_destroy(&cond->sys_cond);
@@ -5067,26 +5067,26 @@ void _shout_thread_cond_destroy(struct anonymous$26 *cond)
 
 // _shout_thread_cond_signal_c
 // file thread.c line 508
-void _shout_thread_cond_signal_c(struct anonymous$26 *cond, signed int line, char *file)
+void _shout_thread_cond_signal_c(struct anonymous_26 *cond, signed int line, char *file)
 {
   pthread_cond_signal(&cond->sys_cond);
 }
 
 // _shout_thread_cond_timedwait_c
 // file thread.c line 518
-void _shout_thread_cond_timedwait_c(struct anonymous$26 *cond, signed int millis, signed int line, char *file)
+void _shout_thread_cond_timedwait_c(struct anonymous_26 *cond, signed int millis, signed int line, char *file)
 {
-  struct timespec _shout_thread_cond_timedwait_c$$1$$time;
-  _shout_thread_cond_timedwait_c$$1$$time.tv_sec = (signed long int)(millis / 1000);
-  _shout_thread_cond_timedwait_c$$1$$time.tv_nsec = ((signed long int)millis - _shout_thread_cond_timedwait_c$$1$$time.tv_sec * (signed long int)1000) * (signed long int)1000000;
+  struct timespec _shout_thread_cond_timedwait_c__1__time;
+  _shout_thread_cond_timedwait_c__1__time.tv_sec = (signed long int)(millis / 1000);
+  _shout_thread_cond_timedwait_c__1__time.tv_nsec = ((signed long int)millis - _shout_thread_cond_timedwait_c__1__time.tv_sec * (signed long int)1000) * (signed long int)1000000;
   pthread_mutex_lock(&cond->cond_mutex);
-  pthread_cond_timedwait(&cond->sys_cond, &cond->cond_mutex, &_shout_thread_cond_timedwait_c$$1$$time);
+  pthread_cond_timedwait(&cond->sys_cond, &cond->cond_mutex, &_shout_thread_cond_timedwait_c__1__time);
   pthread_mutex_unlock(&cond->cond_mutex);
 }
 
 // _shout_thread_cond_wait_c
 // file thread.c line 530
-void _shout_thread_cond_wait_c(struct anonymous$26 *cond, signed int line, char *file)
+void _shout_thread_cond_wait_c(struct anonymous_26 *cond, signed int line, char *file)
 {
   pthread_mutex_lock(&cond->cond_mutex);
   pthread_cond_wait(&cond->sys_cond, &cond->cond_mutex);
@@ -5095,35 +5095,35 @@ void _shout_thread_cond_wait_c(struct anonymous$26 *cond, signed int line, char 
 
 // _shout_thread_create_c
 // file thread.c line 264
-struct anonymous$18 * _shout_thread_create_c(char *name, void * (*start_routine)(void *), void *arg, signed int detached, signed int line, char *file)
+struct anonymous_18 * _shout_thread_create_c(char *name, void * (*start_routine)(void *), void *arg, signed int detached, signed int line, char *file)
 {
   signed int ok = 1;
-  struct anonymous$18 *thread = (struct anonymous$18 *)(void *)0;
+  struct anonymous_18 *thread = (struct anonymous_18 *)(void *)0;
   struct thread_start_tag *start = (struct thread_start_tag *)(void *)0;
   union pthread_attr_t attr;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$18) /*48ul*/ );
-  thread = (struct anonymous$18 *)return_value_calloc$1;
-  signed long int tmp_post$4;
-  while(!(thread == ((struct anonymous$18 *)NULL)))
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_18) /*48ul*/ );
+  thread = (struct anonymous_18 *)return_value_calloc_1;
+  signed long int tmp_post_4;
+  while(!(thread == ((struct anonymous_18 *)NULL)))
   {
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct thread_start_tag) /*32ul*/ );
-    start = (struct thread_start_tag *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct thread_start_tag) /*32ul*/ );
+    start = (struct thread_start_tag *)return_value_calloc_2;
     if(start == ((struct thread_start_tag *)NULL))
       break;
 
-    signed int return_value_pthread_attr_init$3;
-    return_value_pthread_attr_init$3=pthread_attr_init(&attr);
-    if(!(return_value_pthread_attr_init$3 >= 0))
+    signed int return_value_pthread_attr_init_3;
+    return_value_pthread_attr_init_3=pthread_attr_init(&attr);
+    if(!(return_value_pthread_attr_init_3 >= 0))
       break;
 
     thread->line = line;
     thread->file=strdup(file);
     _mutex_lock(&_threadtree_mutex);
-    tmp_post$4 = _next_thread_id;
+    tmp_post_4 = _next_thread_id;
     _next_thread_id = _next_thread_id + 1l;
-    thread->thread_id = tmp_post$4;
+    thread->thread_id = tmp_post_4;
     _mutex_unlock(&_threadtree_mutex);
     thread->name=strdup(name);
     thread->create_time=time((signed long int *)(void *)0);
@@ -5138,9 +5138,9 @@ struct anonymous$18 * _shout_thread_create_c(char *name, void * (*start_routine)
       thread->detached = 1;
     }
 
-    signed int return_value_pthread_create$5;
-    return_value_pthread_create$5=pthread_create(&thread->sys_thread, &attr, _start_routine, (void *)start);
-    if(return_value_pthread_create$5 == 0)
+    signed int return_value_pthread_create_5;
+    return_value_pthread_create_5=pthread_create(&thread->sys_thread, &attr, _start_routine, (void *)start);
+    if(return_value_pthread_create_5 == 0)
     {
       pthread_attr_destroy(&attr);
       return thread;
@@ -5153,19 +5153,19 @@ struct anonymous$18 * _shout_thread_create_c(char *name, void * (*start_routine)
   if(!(start == ((struct thread_start_tag *)NULL)))
     free((void *)start);
 
-  if(!(thread == ((struct anonymous$18 *)NULL)))
+  if(!(thread == ((struct anonymous_18 *)NULL)))
     free((void *)thread);
 
-  return (struct anonymous$18 *)(void *)0;
+  return (struct anonymous_18 *)(void *)0;
 }
 
 // _shout_thread_exit_c
 // file thread.c line 562
 void _shout_thread_exit_c(signed long int val, signed int line, char *file)
 {
-  struct anonymous$18 *th;
+  struct anonymous_18 *th;
   th=_shout_thread_self();
-  if(!(th == ((struct anonymous$18 *)NULL)))
+  if(!(th == ((struct anonymous_18 *)NULL)))
   {
     if(!(th->detached == 0))
     {
@@ -5183,16 +5183,16 @@ void _shout_thread_exit_c(signed long int val, signed int line, char *file)
 // file thread.c line 138
 void _shout_thread_initialize(void)
 {
-  struct anonymous$18 *thread;
+  struct anonymous_18 *thread;
   _shout_thread_mutex_create(&_threadtree_mutex, 164, "thread.c");
   _shout_thread_mutex_create(&_library_mutex, 165, "thread.c");
   _threadtree=_shout_avl_tree_new(_compare_threads, (void *)0);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$18) /*48ul*/ );
-  thread = (struct anonymous$18 *)return_value_malloc$1;
-  signed long int tmp_post$2 = _next_thread_id;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_18) /*48ul*/ );
+  thread = (struct anonymous_18 *)return_value_malloc_1;
+  signed long int tmp_post_2 = _next_thread_id;
   _next_thread_id = _next_thread_id + 1l;
-  thread->thread_id = tmp_post$2;
+  thread->thread_id = tmp_post_2;
   thread->line = 0;
   thread->file=strdup("main.c");
   thread->sys_thread=pthread_self();
@@ -5200,12 +5200,12 @@ void _shout_thread_initialize(void)
   thread->name=strdup("Main Thread");
   _shout_avl_insert(_threadtree, (void *)thread);
   _catch_signals();
-  _initialized$link2 = 1;
+  _initialized_link2 = 1;
 }
 
 // _shout_thread_join
 // file thread.c line 738
-void _shout_thread_join(struct anonymous$18 *thread)
+void _shout_thread_join(struct anonymous_18 *thread)
 {
   void *ret;
   signed int i;
@@ -5231,28 +5231,28 @@ void _shout_thread_library_unlock(void)
 
 // _shout_thread_mutex_create
 // file ./../thread/thread.h line 168
-void _shout_thread_mutex_create(struct anonymous$31 *mutex, signed int line, char *file)
+void _shout_thread_mutex_create(struct anonymous_31 *mutex, signed int line, char *file)
 {
   _mutex_create(mutex);
 }
 
 // _shout_thread_mutex_destroy
 // file ./../thread/thread.h line 171
-void _shout_thread_mutex_destroy(struct anonymous$31 *mutex)
+void _shout_thread_mutex_destroy(struct anonymous_31 *mutex)
 {
   pthread_mutex_destroy(&mutex->sys_mutex);
 }
 
 // _shout_thread_mutex_lock_c
 // file thread.c line 359
-void _shout_thread_mutex_lock_c(struct anonymous$31 *mutex, signed int line, char *file)
+void _shout_thread_mutex_lock_c(struct anonymous_31 *mutex, signed int line, char *file)
 {
   _mutex_lock(mutex);
 }
 
 // _shout_thread_mutex_unlock_c
 // file thread.c line 431
-void _shout_thread_mutex_unlock_c(struct anonymous$31 *mutex, signed int line, char *file)
+void _shout_thread_mutex_unlock_c(struct anonymous_31 *mutex, signed int line, char *file)
 {
   _mutex_unlock(mutex);
 }
@@ -5261,7 +5261,7 @@ void _shout_thread_mutex_unlock_c(struct anonymous$31 *mutex, signed int line, c
 // file thread.c line 707
 void _shout_thread_rename(const char *name)
 {
-  struct anonymous$18 *th;
+  struct anonymous_18 *th;
   th=_shout_thread_self();
   if(!(th->name == ((char *)NULL)))
     free((void *)th->name);
@@ -5271,53 +5271,53 @@ void _shout_thread_rename(const char *name)
 
 // _shout_thread_rwlock_create_c
 // file ./../thread/thread.h line 178
-void _shout_thread_rwlock_create_c(struct anonymous$8 *rwlock, signed int line, char *file)
+void _shout_thread_rwlock_create_c(struct anonymous_8 *rwlock, signed int line, char *file)
 {
-  pthread_rwlock_init(&rwlock->sys_rwlock, (const union anonymous$20 *)(void *)0);
+  pthread_rwlock_init(&rwlock->sys_rwlock, (const union anonymous_20 *)(void *)0);
 }
 
 // _shout_thread_rwlock_destroy
 // file ./../thread/thread.h line 182
-void _shout_thread_rwlock_destroy(struct anonymous$8 *rwlock)
+void _shout_thread_rwlock_destroy(struct anonymous_8 *rwlock)
 {
   pthread_rwlock_destroy(&rwlock->sys_rwlock);
 }
 
 // _shout_thread_rwlock_rlock_c
 // file ./../thread/thread.h line 179
-void _shout_thread_rwlock_rlock_c(struct anonymous$8 *rwlock, signed int line, char *file)
+void _shout_thread_rwlock_rlock_c(struct anonymous_8 *rwlock, signed int line, char *file)
 {
   pthread_rwlock_rdlock(&rwlock->sys_rwlock);
 }
 
 // _shout_thread_rwlock_unlock_c
 // file ./../thread/thread.h line 181
-void _shout_thread_rwlock_unlock_c(struct anonymous$8 *rwlock, signed int line, char *file)
+void _shout_thread_rwlock_unlock_c(struct anonymous_8 *rwlock, signed int line, char *file)
 {
   pthread_rwlock_unlock(&rwlock->sys_rwlock);
 }
 
 // _shout_thread_rwlock_wlock_c
 // file ./../thread/thread.h line 180
-void _shout_thread_rwlock_wlock_c(struct anonymous$8 *rwlock, signed int line, char *file)
+void _shout_thread_rwlock_wlock_c(struct anonymous_8 *rwlock, signed int line, char *file)
 {
   pthread_rwlock_wrlock(&rwlock->sys_rwlock);
 }
 
 // _shout_thread_self
 // file thread.c line 669
-struct anonymous$18 * _shout_thread_self(void)
+struct anonymous_18 * _shout_thread_self(void)
 {
   struct avl_node_tag *node;
-  struct anonymous$18 *th;
+  struct anonymous_18 *th;
   unsigned long int sys_thread;
   sys_thread=pthread_self();
   _mutex_lock(&_threadtree_mutex);
-  signed int return_value_pthread_equal$1;
+  signed int return_value_pthread_equal_1;
   if(_threadtree == ((struct _avl_tree *)NULL))
   {
     _mutex_unlock(&_threadtree_mutex);
-    return (struct anonymous$18 *)(void *)0;
+    return (struct anonymous_18 *)(void *)0;
   }
 
   else
@@ -5325,11 +5325,11 @@ struct anonymous$18 * _shout_thread_self(void)
     node=_shout_avl_get_first(_threadtree);
     while(!(node == ((struct avl_node_tag *)NULL)))
     {
-      th = (struct anonymous$18 *)node->key;
-      if(!(th == ((struct anonymous$18 *)NULL)))
+      th = (struct anonymous_18 *)node->key;
+      if(!(th == ((struct anonymous_18 *)NULL)))
       {
-        return_value_pthread_equal$1=pthread_equal(sys_thread, th->sys_thread);
-        if(!(return_value_pthread_equal$1 == 0))
+        return_value_pthread_equal_1=pthread_equal(sys_thread, th->sys_thread);
+        if(!(return_value_pthread_equal_1 == 0))
         {
           _mutex_unlock(&_threadtree_mutex);
           return th;
@@ -5340,7 +5340,7 @@ struct anonymous$18 * _shout_thread_self(void)
       node=_shout_avl_get_next(node);
     }
     _mutex_unlock(&_threadtree_mutex);
-    return (struct anonymous$18 *)(void *)0;
+    return (struct anonymous_18 *)(void *)0;
   }
 }
 
@@ -5348,7 +5348,7 @@ struct anonymous$18 * _shout_thread_self(void)
 // file thread.c line 187
 void _shout_thread_shutdown(void)
 {
-  if(_initialized$link2 == 1)
+  if(_initialized_link2 == 1)
   {
     _shout_thread_mutex_destroy(&_library_mutex);
     _shout_thread_mutex_destroy(&_threadtree_mutex);
@@ -5368,11 +5368,11 @@ void _shout_thread_sleep(unsigned long int len)
   time_sleep.tv_sec = (signed long int)(len / (unsigned long int)1000000);
   time_sleep.tv_nsec = (signed long int)((len % (unsigned long int)1000000) * (unsigned long int)1000);
   ret=nanosleep(&time_sleep, &time_remaining);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   while(!(ret == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 4))
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 4))
       break;
 
     time_sleep.tv_sec = time_remaining.tv_sec;
@@ -5397,7 +5397,7 @@ void _shout_timing_sleep(unsigned long int sleeptime)
   struct timeval sleeper;
   sleeper.tv_sec = (signed long int)(sleeptime / (unsigned long int)1000);
   sleeper.tv_usec = (signed long int)((sleeptime % (unsigned long int)1000) * (unsigned long int)1000);
-  select(1, (struct anonymous$12 *)(void *)0, (struct anonymous$12 *)(void *)0, (struct anonymous$12 *)(void *)0, &sleeper);
+  select(1, (struct anonymous_12 *)(void *)0, (struct anonymous_12 *)(void *)0, (struct anonymous_12 *)(void *)0, &sleeper);
 }
 
 // _shout_util_base64_encode
@@ -5405,62 +5405,62 @@ void _shout_timing_sleep(unsigned long int sleeptime)
 char * _shout_util_base64_encode(char *data)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(data);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(data);
+  len = (signed int)return_value_strlen_1;
   char *out;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)((len * 4) / 3 + 4));
-  out = (char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)((len * 4) / 3 + 4));
+  out = (char *)return_value_malloc_2;
   char *result = out;
   signed int chunk;
-  char *tmp_post$3;
-  char *tmp_post$4;
-  char *tmp_post$5;
-  char *tmp_post$6;
-  char *tmp_post$7;
-  char *tmp_post$8;
-  char *tmp_post$9;
-  char *tmp_post$10;
+  char *tmp_post_3;
+  char *tmp_post_4;
+  char *tmp_post_5;
+  char *tmp_post_6;
+  char *tmp_post_7;
+  char *tmp_post_8;
+  char *tmp_post_9;
+  char *tmp_post_10;
   for( ; len >= 1; len = len - chunk)
   {
     chunk = len > 3 ? 3 : len;
-    tmp_post$3 = out;
+    tmp_post_3 = out;
     out = out + 1l;
-    *tmp_post$3 = base64table[(signed long int)(((signed int)*data & 0xFC) >> 2)];
-    tmp_post$4 = out;
+    *tmp_post_3 = base64table[(signed long int)(((signed int)*data & 0xFC) >> 2)];
+    tmp_post_4 = out;
     out = out + 1l;
-    *tmp_post$4 = base64table[(signed long int)(((signed int)*data & 0x03) << 4 | ((signed int)data[(signed long int)1] & 0xF0) >> 4)];
+    *tmp_post_4 = base64table[(signed long int)(((signed int)*data & 0x03) << 4 | ((signed int)data[(signed long int)1] & 0xF0) >> 4)];
     switch(chunk)
     {
       case 3:
       {
-        tmp_post$5 = out;
+        tmp_post_5 = out;
         out = out + 1l;
-        *tmp_post$5 = base64table[(signed long int)(((signed int)data[(signed long int)1] & 0x0F) << 2 | ((signed int)data[(signed long int)2] & 0xC0) >> 6)];
-        tmp_post$6 = out;
+        *tmp_post_5 = base64table[(signed long int)(((signed int)data[(signed long int)1] & 0x0F) << 2 | ((signed int)data[(signed long int)2] & 0xC0) >> 6)];
+        tmp_post_6 = out;
         out = out + 1l;
-        *tmp_post$6 = base64table[(signed long int)((signed int)data[(signed long int)2] & 0x3F)];
+        *tmp_post_6 = base64table[(signed long int)((signed int)data[(signed long int)2] & 0x3F)];
         break;
       }
       case 2:
       {
-        tmp_post$7 = out;
+        tmp_post_7 = out;
         out = out + 1l;
-        *tmp_post$7 = base64table[(signed long int)(((signed int)data[(signed long int)1] & 0x0F) << 2)];
-        tmp_post$8 = out;
+        *tmp_post_7 = base64table[(signed long int)(((signed int)data[(signed long int)1] & 0x0F) << 2)];
+        tmp_post_8 = out;
         out = out + 1l;
-        *tmp_post$8 = (char)61;
+        *tmp_post_8 = (char)61;
         break;
       }
       case 1:
       {
-        tmp_post$9 = out;
+        tmp_post_9 = out;
         out = out + 1l;
-        *tmp_post$9 = (char)61;
-        tmp_post$10 = out;
+        *tmp_post_9 = (char)61;
+        tmp_post_10 = out;
         out = out + 1l;
-        *tmp_post$10 = (char)61;
+        *tmp_post_10 = (char)61;
       }
     }
     data = data + (signed long int)chunk;
@@ -5491,13 +5491,13 @@ void _shout_util_dict_free(struct _util_dict *dict)
 // file util.h line 20
 const char * _shout_util_dict_get(struct _util_dict *dict, const char *key)
 {
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   while(!(dict == ((struct _util_dict *)NULL)))
   {
     if(!(dict->key == ((char *)NULL)))
     {
-      return_value_strcmp$1=strcmp(key, dict->key);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(key, dict->key);
+      if(return_value_strcmp_1 == 0)
         return dict->val;
 
     }
@@ -5511,9 +5511,9 @@ const char * _shout_util_dict_get(struct _util_dict *dict, const char *key)
 // file util.h line 16
 struct _util_dict * _shout_util_dict_new(void)
 {
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct _util_dict) /*24ul*/ );
-  return (struct _util_dict *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct _util_dict) /*24ul*/ );
+  return (struct _util_dict *)return_value_calloc_1;
 }
 
 // _shout_util_dict_set
@@ -5521,8 +5521,8 @@ struct _util_dict * _shout_util_dict_new(void)
 signed int _shout_util_dict_set(struct _util_dict *dict, const char *key, const char *val)
 {
   struct _util_dict *prev;
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcmp$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcmp_1;
   if(key == ((const char *)NULL) || dict == ((struct _util_dict *)NULL))
     return -1;
 
@@ -5532,14 +5532,14 @@ signed int _shout_util_dict_set(struct _util_dict *dict, const char *key, const 
     while(!(dict == ((struct _util_dict *)NULL)))
     {
       if(dict->key == ((char *)NULL))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$1=strcmp(dict->key, key);
-        tmp_if_expr$2 = !(return_value_strcmp$1 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_1=strcmp(dict->key, key);
+        tmp_if_expr_2 = !(return_value_strcmp_1 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$2)
+      if(tmp_if_expr_2)
         break;
 
       prev = dict;
@@ -5604,11 +5604,11 @@ char * _shout_util_dict_urlencode(struct _util_dict *dict, char delim)
 
       if(!(start == 0))
       {
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(enc);
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)1);
-        res = (char *)return_value_malloc$2;
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(enc);
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)1);
+        res = (char *)return_value_malloc_2;
         if(res == ((char *)NULL))
         {
           free((void *)enc);
@@ -5622,13 +5622,13 @@ char * _shout_util_dict_urlencode(struct _util_dict *dict, char delim)
 
       else
       {
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(res);
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(enc);
-        void *return_value_realloc$5;
-        return_value_realloc$5=realloc((void *)res, return_value_strlen$3 + return_value_strlen$4 + (unsigned long int)2);
-        tmp = (char *)return_value_realloc$5;
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(res);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(enc);
+        void *return_value_realloc_5;
+        return_value_realloc_5=realloc((void *)res, return_value_strlen_3 + return_value_strlen_4 + (unsigned long int)2);
+        tmp = (char *)return_value_realloc_5;
         if(tmp == ((char *)NULL))
         {
           free((void *)enc);
@@ -5638,9 +5638,9 @@ char * _shout_util_dict_urlencode(struct _util_dict *dict, char delim)
 
         else
           res = tmp;
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(res);
-        sprintf(res + (signed long int)return_value_strlen$6, "%c%s", delim, enc);
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(res);
+        sprintf(res + (signed long int)return_value_strlen_6, "%c%s", delim, enc);
         free((void *)enc);
       }
       if(!(dict->val == ((char *)NULL)))
@@ -5652,13 +5652,13 @@ char * _shout_util_dict_urlencode(struct _util_dict *dict, char delim)
           return (char *)(void *)0;
         }
 
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen(res);
-        unsigned long int return_value_strlen$8;
-        return_value_strlen$8=strlen(enc);
-        void *return_value_realloc$9;
-        return_value_realloc$9=realloc((void *)res, return_value_strlen$7 + return_value_strlen$8 + (unsigned long int)2);
-        tmp = (char *)return_value_realloc$9;
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen(res);
+        unsigned long int return_value_strlen_8;
+        return_value_strlen_8=strlen(enc);
+        void *return_value_realloc_9;
+        return_value_realloc_9=realloc((void *)res, return_value_strlen_7 + return_value_strlen_8 + (unsigned long int)2);
+        tmp = (char *)return_value_realloc_9;
         if(tmp == ((char *)NULL))
         {
           free((void *)enc);
@@ -5668,9 +5668,9 @@ char * _shout_util_dict_urlencode(struct _util_dict *dict, char delim)
 
         else
           res = tmp;
-        unsigned long int return_value_strlen$10;
-        return_value_strlen$10=strlen(res);
-        sprintf(res + (signed long int)return_value_strlen$10, "=%s", enc);
+        unsigned long int return_value_strlen_10;
+        return_value_strlen_10=strlen(res);
+        sprintf(res + (signed long int)return_value_strlen_10, "=%s", enc);
         free((void *)enc);
       }
 
@@ -5690,20 +5690,20 @@ signed int _shout_util_read_header(signed int sock, char *buff, unsigned long in
   read_bytes = 1;
   pos = (unsigned long int)0;
   ret = 0;
-  unsigned long int tmp_post$1;
+  unsigned long int tmp_post_1;
   while(read_bytes == 1 && !(pos >= len + 18446744073709551615ul))
   {
     read_bytes = 0;
-    signed long int return_value_recv$2;
-    return_value_recv$2=recv(sock, (void *)&c, (unsigned long int)1, 0);
-    read_bytes = (signed int)return_value_recv$2;
+    signed long int return_value_recv_2;
+    return_value_recv_2=recv(sock, (void *)&c, (unsigned long int)1, 0);
+    read_bytes = (signed int)return_value_recv_2;
     if(!(read_bytes == 0))
     {
       if(!((signed int)c == 13))
       {
-        tmp_post$1 = pos;
+        tmp_post_1 = pos;
         pos = pos + 1ul;
-        buff[(signed long int)tmp_post$1] = c;
+        buff[(signed long int)tmp_post_1] = c;
       }
 
       if(pos >= 2ul)
@@ -5740,9 +5740,9 @@ char * _shout_util_strdup(const char *s)
 
   else
   {
-    char *return_value_strdup$1;
-    return_value_strdup$1=strdup(s);
-    return return_value_strdup$1;
+    char *return_value_strdup_1;
+    return_value_strdup_1=strdup(s);
+    return return_value_strdup_1;
   }
 }
 
@@ -5764,11 +5764,11 @@ char * _shout_util_url_encode(const char *data)
       n = n + (unsigned long int)2;
 
   }
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(n + (unsigned long int)1);
-  dest = (char *)return_value_malloc$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(n + (unsigned long int)1);
+  dest = (char *)return_value_malloc_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
   if(dest == ((char *)NULL))
     return (char *)(void *)0;
 
@@ -5783,13 +5783,13 @@ char * _shout_util_url_encode(const char *data)
 
       else
       {
-        tmp_post$2 = q;
+        tmp_post_2 = q;
         q = q + 1l;
-        *tmp_post$2 = (char)37;
+        *tmp_post_2 = (char)37;
         digit = (signed int)*p >> 4 & 0xF;
-        tmp_post$3 = q;
+        tmp_post_3 = q;
         q = q + 1l;
-        *tmp_post$3 = urltable[(signed long int)digit];
+        *tmp_post_3 = urltable[(signed long int)digit];
         digit = (signed int)*p & 0xf;
         *q = urltable[(signed long int)digit];
         n = n + (unsigned long int)2;
@@ -5808,7 +5808,7 @@ static void * _start_routine(void *arg)
   struct thread_start_tag *start = (struct thread_start_tag *)arg;
   void * (*start_routine)(void *) = start->start_routine;
   void *real_arg = start->arg;
-  struct anonymous$18 *thread = start->thread;
+  struct anonymous_18 *thread = start->thread;
   _block_signals();
   _mutex_lock(&_threadtree_mutex);
   thread->sys_thread=pthread_self();
@@ -5986,16 +5986,16 @@ static signed long int avl_verify_rank(struct avl_node_tag *node)
     unsigned long int num_right = (unsigned long int)0;
     if(!(node->left == ((struct avl_node_tag *)NULL)))
     {
-      signed long int return_value_avl_verify_rank$1;
-      return_value_avl_verify_rank$1=avl_verify_rank(node->left);
-      num_left = (unsigned long int)return_value_avl_verify_rank$1;
+      signed long int return_value_avl_verify_rank_1;
+      return_value_avl_verify_rank_1=avl_verify_rank(node->left);
+      num_left = (unsigned long int)return_value_avl_verify_rank_1;
     }
 
     if(!(node->right == ((struct avl_node_tag *)NULL)))
     {
-      signed long int return_value_avl_verify_rank$2;
-      return_value_avl_verify_rank$2=avl_verify_rank(node->right);
-      num_right = (unsigned long int)return_value_avl_verify_rank$2;
+      signed long int return_value_avl_verify_rank_2;
+      return_value_avl_verify_rank_2=avl_verify_rank(node->right);
+      num_right = (unsigned long int)return_value_avl_verify_rank_2;
     }
 
     if(!((unsigned long int)(node->rank_and_balance >> 2) == 1ul + num_left))
@@ -6012,7 +6012,7 @@ static signed long int avl_verify_rank(struct avl_node_tag *node)
 // file mp3.c line 314
 static void close_mp3(struct shout *self)
 {
-  struct anonymous$33 *mp3_data = (struct anonymous$33 *)self->format_data;
+  struct anonymous_33 *mp3_data = (struct anonymous_33 *)self->format_data;
   free((void *)mp3_data);
 }
 
@@ -6020,7 +6020,7 @@ static void close_mp3(struct shout *self)
 // file ogg.c line 141
 static void close_ogg(struct shout *self)
 {
-  struct anonymous$17 *ogg_data = (struct anonymous$17 *)self->format_data;
+  struct anonymous_17 *ogg_data = (struct anonymous_17 *)self->format_data;
   free_codecs(ogg_data);
   ogg_sync_clear(&ogg_data->oy);
   free((void *)ogg_data);
@@ -6043,9 +6043,9 @@ static signed int collect_queue(struct _shout_buf *queue, char **buf)
   node = queue;
   for( ; !(node == ((struct _shout_buf *)NULL)); node = node->next)
     len = len + (signed int)node->len;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)len);
-  *buf = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)len);
+  *buf = (char *)return_value_malloc_1;
   if(*buf == ((char *)NULL))
     return -5;
 
@@ -6068,19 +6068,19 @@ static signed int create_http_request(struct shout *self)
   char *auth;
   char *ai;
   signed int ret = -5;
-  signed int return_value_queue_printf$3;
-  signed int return_value_queue_printf$4;
-  signed int return_value_queue_printf$5;
-  signed int return_value_queue_printf$6;
-  char *tmp_if_expr$7;
-  signed int return_value_queue_printf$10;
-  signed int return_value_queue_printf$11;
-  signed int return_value_queue_printf$13;
+  signed int return_value_queue_printf_3;
+  signed int return_value_queue_printf_4;
+  signed int return_value_queue_printf_5;
+  signed int return_value_queue_printf_6;
+  char *tmp_if_expr_7;
+  signed int return_value_queue_printf_10;
+  signed int return_value_queue_printf_11;
+  signed int return_value_queue_printf_13;
   do
   {
-    signed int return_value_queue_printf$1;
-    return_value_queue_printf$1=queue_printf(self, "SOURCE %s HTTP/1.0\r\n", self->mount);
-    if(!(return_value_queue_printf$1 == 0))
+    signed int return_value_queue_printf_1;
+    return_value_queue_printf_1=queue_printf(self, "SOURCE %s HTTP/1.0\r\n", self->mount);
+    if(!(return_value_queue_printf_1 == 0))
       break;
 
     if(!(self->password == ((char *)NULL)))
@@ -6089,9 +6089,9 @@ static signed int create_http_request(struct shout *self)
       if(auth == ((char *)NULL))
         break;
 
-      signed int return_value_queue_str$2;
-      return_value_queue_str$2=queue_str(self, auth);
-      if(!(return_value_queue_str$2 == 0))
+      signed int return_value_queue_str_2;
+      return_value_queue_str_2=queue_str(self, auth);
+      if(!(return_value_queue_str_2 == 0))
       {
         free((void *)auth);
         break;
@@ -6102,63 +6102,63 @@ static signed int create_http_request(struct shout *self)
 
     if(!(self->useragent == ((char *)NULL)))
     {
-      return_value_queue_printf$3=queue_printf(self, "User-Agent: %s\r\n", self->useragent);
-      if(!(return_value_queue_printf$3 == 0))
+      return_value_queue_printf_3=queue_printf(self, "User-Agent: %s\r\n", self->useragent);
+      if(!(return_value_queue_printf_3 == 0))
         break;
 
     }
 
     if(self->format == 0u)
     {
-      return_value_queue_printf$4=queue_printf(self, "Content-Type: application/ogg\r\n");
-      if(!(return_value_queue_printf$4 == 0))
+      return_value_queue_printf_4=queue_printf(self, "Content-Type: application/ogg\r\n");
+      if(!(return_value_queue_printf_4 == 0))
         break;
 
     }
 
     if(self->format == 1u)
     {
-      return_value_queue_printf$5=queue_printf(self, "Content-Type: audio/mpeg\r\n");
-      if(!(return_value_queue_printf$5 == 0))
+      return_value_queue_printf_5=queue_printf(self, "Content-Type: audio/mpeg\r\n");
+      if(!(return_value_queue_printf_5 == 0))
         break;
 
     }
 
     if(self->format == 2u)
     {
-      return_value_queue_printf$6=queue_printf(self, "Content-Type: video/webm\r\n");
-      if(!(return_value_queue_printf$6 == 0))
+      return_value_queue_printf_6=queue_printf(self, "Content-Type: video/webm\r\n");
+      if(!(return_value_queue_printf_6 == 0))
         break;
 
     }
 
     if(!(self->name == ((char *)NULL)))
-      tmp_if_expr$7 = self->name;
+      tmp_if_expr_7 = self->name;
 
     else
-      tmp_if_expr$7 = "no name";
-    signed int return_value_queue_printf$8;
-    return_value_queue_printf$8=queue_printf(self, "ice-name: %s\r\n", tmp_if_expr$7);
-    if(!(return_value_queue_printf$8 == 0))
+      tmp_if_expr_7 = "no name";
+    signed int return_value_queue_printf_8;
+    return_value_queue_printf_8=queue_printf(self, "ice-name: %s\r\n", tmp_if_expr_7);
+    if(!(return_value_queue_printf_8 == 0))
       break;
 
-    signed int return_value_queue_printf$9;
-    return_value_queue_printf$9=queue_printf(self, "ice-public: %d\r\n", self->public);
-    if(!(return_value_queue_printf$9 == 0))
+    signed int return_value_queue_printf_9;
+    return_value_queue_printf_9=queue_printf(self, "ice-public: %d\r\n", self->public);
+    if(!(return_value_queue_printf_9 == 0))
       break;
 
     if(!(self->url == ((char *)NULL)))
     {
-      return_value_queue_printf$10=queue_printf(self, "ice-url: %s\r\n", self->url);
-      if(!(return_value_queue_printf$10 == 0))
+      return_value_queue_printf_10=queue_printf(self, "ice-url: %s\r\n", self->url);
+      if(!(return_value_queue_printf_10 == 0))
         break;
 
     }
 
     if(!(self->genre == ((char *)NULL)))
     {
-      return_value_queue_printf$11=queue_printf(self, "ice-genre: %s\r\n", self->genre);
-      if(!(return_value_queue_printf$11 == 0))
+      return_value_queue_printf_11=queue_printf(self, "ice-genre: %s\r\n", self->genre);
+      if(!(return_value_queue_printf_11 == 0))
         break;
 
     }
@@ -6166,9 +6166,9 @@ static signed int create_http_request(struct shout *self)
     ai=_shout_util_dict_urlencode(self->audio_info, (char)59);
     if(!(ai == ((char *)NULL)))
     {
-      signed int return_value_queue_printf$12;
-      return_value_queue_printf$12=queue_printf(self, "ice-audio-info: %s\r\n", ai);
-      if(!(return_value_queue_printf$12 == 0))
+      signed int return_value_queue_printf_12;
+      return_value_queue_printf_12=queue_printf(self, "ice-audio-info: %s\r\n", ai);
+      if(!(return_value_queue_printf_12 == 0))
       {
         free((void *)ai);
         break;
@@ -6179,15 +6179,15 @@ static signed int create_http_request(struct shout *self)
 
     if(!(self->description == ((char *)NULL)))
     {
-      return_value_queue_printf$13=queue_printf(self, "ice-description: %s\r\n", self->description);
-      if(!(return_value_queue_printf$13 == 0))
+      return_value_queue_printf_13=queue_printf(self, "ice-description: %s\r\n", self->description);
+      if(!(return_value_queue_printf_13 == 0))
         break;
 
     }
 
-    signed int return_value_queue_str$14;
-    return_value_queue_str$14=queue_str(self, "\r\n");
-    if(!(return_value_queue_str$14 == 0))
+    signed int return_value_queue_str_14;
+    return_value_queue_str_14=queue_str(self, "\r\n");
+    if(!(return_value_queue_str_14 == 0))
       break;
 
     ret = 0;
@@ -6200,66 +6200,66 @@ static signed int create_http_request(struct shout *self)
 // file shout.c line 1290
 static signed int create_icy_request(struct shout *self)
 {
-  const char *create_icy_request$$1$$bitrate;
+  const char *create_icy_request__1__bitrate;
   signed int ret;
-  create_icy_request$$1$$bitrate=shout_get_audio_info(self, "bitrate");
-  if(create_icy_request$$1$$bitrate == ((const char *)NULL))
-    create_icy_request$$1$$bitrate = "0";
+  create_icy_request__1__bitrate=shout_get_audio_info(self, "bitrate");
+  if(create_icy_request__1__bitrate == ((const char *)NULL))
+    create_icy_request__1__bitrate = "0";
 
   ret = -5;
-  char *tmp_if_expr$2;
-  char *tmp_if_expr$4;
-  char *tmp_if_expr$8;
+  char *tmp_if_expr_2;
+  char *tmp_if_expr_4;
+  char *tmp_if_expr_8;
   do
   {
-    signed int return_value_queue_printf$1;
-    return_value_queue_printf$1=queue_printf(self, "%s\n", self->password);
-    if(!(return_value_queue_printf$1 == 0))
+    signed int return_value_queue_printf_1;
+    return_value_queue_printf_1=queue_printf(self, "%s\n", self->password);
+    if(!(return_value_queue_printf_1 == 0))
       break;
 
     if(!(self->name == ((char *)NULL)))
-      tmp_if_expr$2 = self->name;
+      tmp_if_expr_2 = self->name;
 
     else
-      tmp_if_expr$2 = "unnamed";
-    signed int return_value_queue_printf$3;
-    return_value_queue_printf$3=queue_printf(self, "icy-name:%s\n", tmp_if_expr$2);
-    if(!(return_value_queue_printf$3 == 0))
+      tmp_if_expr_2 = "unnamed";
+    signed int return_value_queue_printf_3;
+    return_value_queue_printf_3=queue_printf(self, "icy-name:%s\n", tmp_if_expr_2);
+    if(!(return_value_queue_printf_3 == 0))
       break;
 
     if(!(self->url == ((char *)NULL)))
-      tmp_if_expr$4 = self->url;
+      tmp_if_expr_4 = self->url;
 
     else
-      tmp_if_expr$4 = "http://www.icecast.org/";
-    signed int return_value_queue_printf$5;
-    return_value_queue_printf$5=queue_printf(self, "icy-url:%s\n", tmp_if_expr$4);
-    if(!(return_value_queue_printf$5 == 0))
+      tmp_if_expr_4 = "http://www.icecast.org/";
+    signed int return_value_queue_printf_5;
+    return_value_queue_printf_5=queue_printf(self, "icy-url:%s\n", tmp_if_expr_4);
+    if(!(return_value_queue_printf_5 == 0))
       break;
 
-    signed int return_value_queue_str$6;
-    return_value_queue_str$6=queue_str(self, "icy-irc:\nicy-aim:\nicy-icq:\n");
-    if(!(return_value_queue_str$6 == 0))
+    signed int return_value_queue_str_6;
+    return_value_queue_str_6=queue_str(self, "icy-irc:\nicy-aim:\nicy-icq:\n");
+    if(!(return_value_queue_str_6 == 0))
       break;
 
-    signed int return_value_queue_printf$7;
-    return_value_queue_printf$7=queue_printf(self, "icy-pub:%i\n", self->public);
-    if(!(return_value_queue_printf$7 == 0))
+    signed int return_value_queue_printf_7;
+    return_value_queue_printf_7=queue_printf(self, "icy-pub:%i\n", self->public);
+    if(!(return_value_queue_printf_7 == 0))
       break;
 
     if(!(self->genre == ((char *)NULL)))
-      tmp_if_expr$8 = self->genre;
+      tmp_if_expr_8 = self->genre;
 
     else
-      tmp_if_expr$8 = "icecast";
-    signed int return_value_queue_printf$9;
-    return_value_queue_printf$9=queue_printf(self, "icy-genre:%s\n", tmp_if_expr$8);
-    if(!(return_value_queue_printf$9 == 0))
+      tmp_if_expr_8 = "icecast";
+    signed int return_value_queue_printf_9;
+    return_value_queue_printf_9=queue_printf(self, "icy-genre:%s\n", tmp_if_expr_8);
+    if(!(return_value_queue_printf_9 == 0))
       break;
 
-    signed int return_value_queue_printf$10;
-    return_value_queue_printf$10=queue_printf(self, "icy-br:%s\n\n", create_icy_request$$1$$bitrate);
-    if(!(return_value_queue_printf$10 == 0))
+    signed int return_value_queue_printf_10;
+    return_value_queue_printf_10=queue_printf(self, "icy-br:%s\n\n", create_icy_request__1__bitrate);
+    if(!(return_value_queue_printf_10 == 0))
       break;
 
     ret = 0;
@@ -6272,27 +6272,27 @@ static signed int create_icy_request(struct shout *self)
 // file shout.c line 1099
 static signed int create_request(struct shout *self)
 {
-  signed int return_value_create_http_request$1;
-  signed int return_value_create_xaudiocast_request$2;
-  signed int return_value_create_icy_request$3;
+  signed int return_value_create_http_request_1;
+  signed int return_value_create_xaudiocast_request_2;
+  signed int return_value_create_icy_request_3;
   if(self->protocol == 0u)
   {
-    return_value_create_http_request$1=create_http_request(self);
-    return return_value_create_http_request$1;
+    return_value_create_http_request_1=create_http_request(self);
+    return return_value_create_http_request_1;
   }
 
   else
     if(self->protocol == 1u)
     {
-      return_value_create_xaudiocast_request$2=create_xaudiocast_request(self);
-      return return_value_create_xaudiocast_request$2;
+      return_value_create_xaudiocast_request_2=create_xaudiocast_request(self);
+      return return_value_create_xaudiocast_request_2;
     }
 
     else
       if(self->protocol == 2u)
       {
-        return_value_create_icy_request$3=create_icy_request(self);
-        return return_value_create_icy_request$3;
+        return_value_create_icy_request_3=create_icy_request(self);
+        return return_value_create_icy_request_3;
       }
 
   self->error = -9;
@@ -6303,86 +6303,86 @@ static signed int create_request(struct shout *self)
 // file shout.c line 1237
 static signed int create_xaudiocast_request(struct shout *self)
 {
-  const char *create_xaudiocast_request$$1$$bitrate;
+  const char *create_xaudiocast_request__1__bitrate;
   signed int ret;
-  create_xaudiocast_request$$1$$bitrate=shout_get_audio_info(self, "bitrate");
-  if(create_xaudiocast_request$$1$$bitrate == ((const char *)NULL))
-    create_xaudiocast_request$$1$$bitrate = "0";
+  create_xaudiocast_request__1__bitrate=shout_get_audio_info(self, "bitrate");
+  if(create_xaudiocast_request__1__bitrate == ((const char *)NULL))
+    create_xaudiocast_request__1__bitrate = "0";
 
   ret = -5;
-  char *tmp_if_expr$2;
-  char *tmp_if_expr$4;
-  char *tmp_if_expr$6;
-  char *tmp_if_expr$10;
-  signed int return_value_queue_printf$12;
+  char *tmp_if_expr_2;
+  char *tmp_if_expr_4;
+  char *tmp_if_expr_6;
+  char *tmp_if_expr_10;
+  signed int return_value_queue_printf_12;
   do
   {
-    signed int return_value_queue_printf$1;
-    return_value_queue_printf$1=queue_printf(self, "SOURCE %s %s\n", self->password, self->mount);
-    if(!(return_value_queue_printf$1 == 0))
+    signed int return_value_queue_printf_1;
+    return_value_queue_printf_1=queue_printf(self, "SOURCE %s %s\n", self->password, self->mount);
+    if(!(return_value_queue_printf_1 == 0))
       break;
 
     if(!(self->name == ((char *)NULL)))
-      tmp_if_expr$2 = self->name;
+      tmp_if_expr_2 = self->name;
 
     else
-      tmp_if_expr$2 = "unnamed";
-    signed int return_value_queue_printf$3;
-    return_value_queue_printf$3=queue_printf(self, "x-audiocast-name: %s\n", tmp_if_expr$2);
-    if(!(return_value_queue_printf$3 == 0))
+      tmp_if_expr_2 = "unnamed";
+    signed int return_value_queue_printf_3;
+    return_value_queue_printf_3=queue_printf(self, "x-audiocast-name: %s\n", tmp_if_expr_2);
+    if(!(return_value_queue_printf_3 == 0))
       break;
 
     if(!(self->url == ((char *)NULL)))
-      tmp_if_expr$4 = self->url;
+      tmp_if_expr_4 = self->url;
 
     else
-      tmp_if_expr$4 = "http://www.icecast.org/";
-    signed int return_value_queue_printf$5;
-    return_value_queue_printf$5=queue_printf(self, "x-audiocast-url: %s\n", tmp_if_expr$4);
-    if(!(return_value_queue_printf$5 == 0))
+      tmp_if_expr_4 = "http://www.icecast.org/";
+    signed int return_value_queue_printf_5;
+    return_value_queue_printf_5=queue_printf(self, "x-audiocast-url: %s\n", tmp_if_expr_4);
+    if(!(return_value_queue_printf_5 == 0))
       break;
 
     if(!(self->genre == ((char *)NULL)))
-      tmp_if_expr$6 = self->genre;
+      tmp_if_expr_6 = self->genre;
 
     else
-      tmp_if_expr$6 = "icecast";
-    signed int return_value_queue_printf$7;
-    return_value_queue_printf$7=queue_printf(self, "x-audiocast-genre: %s\n", tmp_if_expr$6);
-    if(!(return_value_queue_printf$7 == 0))
+      tmp_if_expr_6 = "icecast";
+    signed int return_value_queue_printf_7;
+    return_value_queue_printf_7=queue_printf(self, "x-audiocast-genre: %s\n", tmp_if_expr_6);
+    if(!(return_value_queue_printf_7 == 0))
       break;
 
-    signed int return_value_queue_printf$8;
-    return_value_queue_printf$8=queue_printf(self, "x-audiocast-bitrate: %s\n", create_xaudiocast_request$$1$$bitrate);
-    if(!(return_value_queue_printf$8 == 0))
+    signed int return_value_queue_printf_8;
+    return_value_queue_printf_8=queue_printf(self, "x-audiocast-bitrate: %s\n", create_xaudiocast_request__1__bitrate);
+    if(!(return_value_queue_printf_8 == 0))
       break;
 
-    signed int return_value_queue_printf$9;
-    return_value_queue_printf$9=queue_printf(self, "x-audiocast-public: %i\n", self->public);
-    if(!(return_value_queue_printf$9 == 0))
+    signed int return_value_queue_printf_9;
+    return_value_queue_printf_9=queue_printf(self, "x-audiocast-public: %i\n", self->public);
+    if(!(return_value_queue_printf_9 == 0))
       break;
 
     if(!(self->description == ((char *)NULL)))
-      tmp_if_expr$10 = self->description;
+      tmp_if_expr_10 = self->description;
 
     else
-      tmp_if_expr$10 = "Broadcasting with the icecast streaming media server!";
-    signed int return_value_queue_printf$11;
-    return_value_queue_printf$11=queue_printf(self, "x-audiocast-description: %s\n", tmp_if_expr$10);
-    if(!(return_value_queue_printf$11 == 0))
+      tmp_if_expr_10 = "Broadcasting with the icecast streaming media server!";
+    signed int return_value_queue_printf_11;
+    return_value_queue_printf_11=queue_printf(self, "x-audiocast-description: %s\n", tmp_if_expr_10);
+    if(!(return_value_queue_printf_11 == 0))
       break;
 
     if(!(self->dumpfile == ((char *)NULL)))
     {
-      return_value_queue_printf$12=queue_printf(self, "x-audiocast-dumpfile: %s\n", self->dumpfile);
-      if(!(return_value_queue_printf$12 == 0))
+      return_value_queue_printf_12=queue_printf(self, "x-audiocast-dumpfile: %s\n", self->dumpfile);
+      if(!(return_value_queue_printf_12 == 0))
         break;
 
     }
 
-    signed int return_value_queue_str$13;
-    return_value_queue_str$13=queue_str(self, "\n");
-    if(!(return_value_queue_str$13 == 0))
+    signed int return_value_queue_str_13;
+    return_value_queue_str_13=queue_str(self, "\n");
+    if(!(return_value_queue_str_13 == 0))
       break;
 
     ret = 0;
@@ -6395,9 +6395,9 @@ static signed int create_xaudiocast_request(struct shout *self)
 // file avl.c line 1075
 static signed int default_key_printer(char *buffer, void *key)
 {
-  signed int return_value_sprintf$1;
-  return_value_sprintf$1=sprintf(buffer, "%p", key);
-  return return_value_sprintf$1;
+  signed int return_value_sprintf_1;
+  return_value_sprintf_1=sprintf(buffer, "%p", key);
+  return return_value_sprintf_1;
 }
 
 // free_codec
@@ -6413,11 +6413,11 @@ static void free_codec(struct _ogg_codec_tag *codec)
 
 // free_codecs
 // file ogg.c line 169
-static void free_codecs(struct anonymous$17 *ogg_data)
+static void free_codecs(struct anonymous_17 *ogg_data)
 {
   struct _ogg_codec_tag *codec;
   struct _ogg_codec_tag *next;
-  if(!(ogg_data == ((struct anonymous$17 *)NULL)))
+  if(!(ogg_data == ((struct anonymous_17 *)NULL)))
   {
     codec = ogg_data->codecs;
     for( ; !(codec == ((struct _ogg_codec_tag *)NULL)); codec = next)
@@ -6441,7 +6441,7 @@ static void free_opus_data(void *codec_data)
 // file speex.c line 78
 static void free_speex_data(void *codec_data)
 {
-  struct anonymous$11 *speex_data = (struct anonymous$11 *)codec_data;
+  struct anonymous_11 *speex_data = (struct anonymous_11 *)codec_data;
   if(!(speex_data->sh == ((struct SpeexHeader *)NULL)))
     free((void *)speex_data->sh);
 
@@ -6452,7 +6452,7 @@ static void free_speex_data(void *codec_data)
 // file theora.c line 133
 static void free_theora_data(void *codec_data)
 {
-  struct anonymous$6 *theora_data = (struct anonymous$6 *)codec_data;
+  struct anonymous_6 *theora_data = (struct anonymous_6 *)codec_data;
   theora_info_clear(&theora_data->ti);
   theora_comment_clear(&theora_data->tc);
   free((void *)theora_data);
@@ -6462,7 +6462,7 @@ static void free_theora_data(void *codec_data)
 // file vorbis.c line 99
 static void free_vorbis_data(void *codec_data)
 {
-  struct anonymous$30 *vorbis_data = (struct anonymous$30 *)codec_data;
+  struct anonymous_30 *vorbis_data = (struct anonymous_30 *)codec_data;
   vorbis_info_clear(&vorbis_data->vi);
   vorbis_comment_clear(&vorbis_data->vc);
   free((void *)vorbis_data);
@@ -6479,13 +6479,13 @@ static signed int get_response(struct shout *self)
   struct _shout_buf *queue;
   signed int newlines = 0;
   rc=_shout_sock_read_bytes(self->socket, buf, sizeof(char [1024l]) /*1024ul*/ );
-  signed int return_value__shout_sock_error$1;
-  signed int return_value__shout_sock_recoverable$2;
+  signed int return_value__shout_sock_error_1;
+  signed int return_value__shout_sock_recoverable_2;
   if(!(rc >= 0))
   {
-    return_value__shout_sock_error$1=_shout_sock_error();
-    return_value__shout_sock_recoverable$2=_shout_sock_recoverable(return_value__shout_sock_error$1);
-    if(return_value__shout_sock_recoverable$2 == 0)
+    return_value__shout_sock_error_1=_shout_sock_error();
+    return_value__shout_sock_recoverable_2=_shout_sock_recoverable(return_value__shout_sock_error_1);
+    if(return_value__shout_sock_recoverable_2 == 0)
       goto __CPROVER_DUMP_L1;
 
     return -10;
@@ -6570,31 +6570,31 @@ static char * http_basic_authorization(struct shout *self)
   char *out;
   char *in;
   signed int len;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(self == ((struct shout *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(self->user != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = !(self->user != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(self->password != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = !(self->password != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return (char *)(void *)0;
 
   else
   {
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(self->user);
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(self->password);
-    len = (signed int)(return_value_strlen$3 + return_value_strlen$4 + (unsigned long int)2);
-    void *return_value_malloc$5;
-    return_value_malloc$5=malloc((unsigned long int)len);
-    in = (char *)return_value_malloc$5;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(self->user);
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(self->password);
+    len = (signed int)(return_value_strlen_3 + return_value_strlen_4 + (unsigned long int)2);
+    void *return_value_malloc_5;
+    return_value_malloc_5=malloc((unsigned long int)len);
+    in = (char *)return_value_malloc_5;
     if(in == ((char *)NULL))
       return (char *)(void *)0;
 
@@ -6603,12 +6603,12 @@ static char * http_basic_authorization(struct shout *self)
       sprintf(in, "%s:%s", self->user, self->password);
       out=_shout_util_base64_encode(in);
       free((void *)in);
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen(out);
-      len = (signed int)(return_value_strlen$6 + (unsigned long int)24);
-      void *return_value_malloc$7;
-      return_value_malloc$7=malloc((unsigned long int)len);
-      in = (char *)return_value_malloc$7;
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen(out);
+      len = (signed int)(return_value_strlen_6 + (unsigned long int)24);
+      void *return_value_malloc_7;
+      return_value_malloc_7=malloc((unsigned long int)len);
+      in = (char *)return_value_malloc_7;
       if(in == ((char *)NULL))
       {
         free((void *)out);
@@ -6658,98 +6658,98 @@ signed int main()
 
   else
   {
-    signed int return_value_shout_set_host$2;
-    return_value_shout_set_host$2=shout_set_host(shout, "127.0.0.1");
-    if(!(return_value_shout_set_host$2 == 0))
+    signed int return_value_shout_set_host_2;
+    return_value_shout_set_host_2=shout_set_host(shout, "127.0.0.1");
+    if(!(return_value_shout_set_host_2 == 0))
     {
-      const char *return_value_shout_get_error$1;
-      return_value_shout_get_error$1=shout_get_error(shout);
-      printf("Error setting hostname: %s\n", return_value_shout_get_error$1);
+      const char *return_value_shout_get_error_1;
+      return_value_shout_get_error_1=shout_get_error(shout);
+      printf("Error setting hostname: %s\n", return_value_shout_get_error_1);
       return 1;
     }
 
-    signed int return_value_shout_set_protocol$4;
-    return_value_shout_set_protocol$4=shout_set_protocol(shout, (unsigned int)0);
-    if(!(return_value_shout_set_protocol$4 == 0))
+    signed int return_value_shout_set_protocol_4;
+    return_value_shout_set_protocol_4=shout_set_protocol(shout, (unsigned int)0);
+    if(!(return_value_shout_set_protocol_4 == 0))
     {
-      const char *return_value_shout_get_error$3;
-      return_value_shout_get_error$3=shout_get_error(shout);
-      printf("Error setting protocol: %s\n", return_value_shout_get_error$3);
+      const char *return_value_shout_get_error_3;
+      return_value_shout_get_error_3=shout_get_error(shout);
+      printf("Error setting protocol: %s\n", return_value_shout_get_error_3);
       return 1;
     }
 
-    signed int return_value_shout_set_port$6;
-    return_value_shout_set_port$6=shout_set_port(shout, (unsigned short int)8000);
-    if(!(return_value_shout_set_port$6 == 0))
+    signed int return_value_shout_set_port_6;
+    return_value_shout_set_port_6=shout_set_port(shout, (unsigned short int)8000);
+    if(!(return_value_shout_set_port_6 == 0))
     {
-      const char *return_value_shout_get_error$5;
-      return_value_shout_get_error$5=shout_get_error(shout);
-      printf("Error setting port: %s\n", return_value_shout_get_error$5);
+      const char *return_value_shout_get_error_5;
+      return_value_shout_get_error_5=shout_get_error(shout);
+      printf("Error setting port: %s\n", return_value_shout_get_error_5);
       return 1;
     }
 
-    signed int return_value_shout_set_password$8;
-    return_value_shout_set_password$8=shout_set_password(shout, "hackme");
-    if(!(return_value_shout_set_password$8 == 0))
+    signed int return_value_shout_set_password_8;
+    return_value_shout_set_password_8=shout_set_password(shout, "hackme");
+    if(!(return_value_shout_set_password_8 == 0))
     {
-      const char *return_value_shout_get_error$7;
-      return_value_shout_get_error$7=shout_get_error(shout);
-      printf("Error setting password: %s\n", return_value_shout_get_error$7);
+      const char *return_value_shout_get_error_7;
+      return_value_shout_get_error_7=shout_get_error(shout);
+      printf("Error setting password: %s\n", return_value_shout_get_error_7);
       return 1;
     }
 
-    signed int return_value_shout_set_mount$10;
-    return_value_shout_set_mount$10=shout_set_mount(shout, "/example.ogg");
-    if(!(return_value_shout_set_mount$10 == 0))
+    signed int return_value_shout_set_mount_10;
+    return_value_shout_set_mount_10=shout_set_mount(shout, "/example.ogg");
+    if(!(return_value_shout_set_mount_10 == 0))
     {
-      const char *return_value_shout_get_error$9;
-      return_value_shout_get_error$9=shout_get_error(shout);
-      printf("Error setting mount: %s\n", return_value_shout_get_error$9);
+      const char *return_value_shout_get_error_9;
+      return_value_shout_get_error_9=shout_get_error(shout);
+      printf("Error setting mount: %s\n", return_value_shout_get_error_9);
       return 1;
     }
 
-    signed int return_value_shout_set_user$12;
-    return_value_shout_set_user$12=shout_set_user(shout, "source");
-    if(!(return_value_shout_set_user$12 == 0))
+    signed int return_value_shout_set_user_12;
+    return_value_shout_set_user_12=shout_set_user(shout, "source");
+    if(!(return_value_shout_set_user_12 == 0))
     {
-      const char *return_value_shout_get_error$11;
-      return_value_shout_get_error$11=shout_get_error(shout);
-      printf("Error setting user: %s\n", return_value_shout_get_error$11);
+      const char *return_value_shout_get_error_11;
+      return_value_shout_get_error_11=shout_get_error(shout);
+      printf("Error setting user: %s\n", return_value_shout_get_error_11);
       return 1;
     }
 
-    signed int return_value_shout_set_format$14;
-    return_value_shout_set_format$14=shout_set_format(shout, (unsigned int)0);
-    if(!(return_value_shout_set_format$14 == 0))
+    signed int return_value_shout_set_format_14;
+    return_value_shout_set_format_14=shout_set_format(shout, (unsigned int)0);
+    if(!(return_value_shout_set_format_14 == 0))
     {
-      const char *return_value_shout_get_error$13;
-      return_value_shout_get_error$13=shout_get_error(shout);
-      printf("Error setting user: %s\n", return_value_shout_get_error$13);
+      const char *return_value_shout_get_error_13;
+      return_value_shout_get_error_13=shout_get_error(shout);
+      printf("Error setting user: %s\n", return_value_shout_get_error_13);
       return 1;
     }
 
-    signed int return_value_shout_open$19;
-    return_value_shout_open$19=shout_open(shout);
-    if(return_value_shout_open$19 == 0)
+    signed int return_value_shout_open_19;
+    return_value_shout_open_19=shout_open(shout);
+    if(return_value_shout_open_19 == 0)
     {
       printf("Connected to server...\n");
       total = (signed long int)0;
       while((_Bool)1)
       {
-        unsigned long int return_value_fread$15;
-        return_value_fread$15=fread((void *)buff, (unsigned long int)1, sizeof(char [4096l]) /*4096ul*/ , stdin);
-        read = (signed long int)return_value_fread$15;
+        unsigned long int return_value_fread_15;
+        return_value_fread_15=fread((void *)buff, (unsigned long int)1, sizeof(char [4096l]) /*4096ul*/ , stdin);
+        read = (signed long int)return_value_fread_15;
         total = total + read;
         if(read >= 1l)
         {
-          signed int return_value_shout_send$16;
-          return_value_shout_send$16=shout_send(shout, (const unsigned char *)buff, (unsigned long int)read);
-          ret = (signed long int)return_value_shout_send$16;
+          signed int return_value_shout_send_16;
+          return_value_shout_send_16=shout_send(shout, (const unsigned char *)buff, (unsigned long int)read);
+          ret = (signed long int)return_value_shout_send_16;
           if(!(ret == 0l))
           {
-            const char *return_value_shout_get_error$17;
-            return_value_shout_get_error$17=shout_get_error(shout);
-            printf("DEBUG: Send error: %s\n", return_value_shout_get_error$17);
+            const char *return_value_shout_get_error_17;
+            return_value_shout_get_error_17=shout_get_error(shout);
+            printf("DEBUG: Send error: %s\n", return_value_shout_get_error_17);
             break;
           }
 
@@ -6763,9 +6763,9 @@ signed int main()
 
     else
     {
-      const char *return_value_shout_get_error$18;
-      return_value_shout_get_error$18=shout_get_error(shout);
-      printf("Error connecting: %s\n", return_value_shout_get_error$18);
+      const char *return_value_shout_get_error_18;
+      return_value_shout_get_error_18=shout_get_error(shout);
+      printf("Error connecting: %s\n", return_value_shout_get_error_18);
     }
     shout_close(shout);
     shout_shutdown();
@@ -6775,7 +6775,7 @@ signed int main()
 
 // mp3_header
 // file mp3.c line 290
-static signed int mp3_header(unsigned int head, struct anonymous$32 *mh)
+static signed int mp3_header(unsigned int head, struct anonymous_32 *mh)
 {
   parse_header(mh, head);
   if(!((0x0ffe & mh->syncword) == 0x0ffe))
@@ -6799,16 +6799,16 @@ static signed int mp3_header(unsigned int head, struct anonymous$32 *mh)
 
 // open_codec
 // file ogg.c line 149
-static signed int open_codec(struct _ogg_codec_tag *codec, struct anonymous$7 *page)
+static signed int open_codec(struct _ogg_codec_tag *codec, struct anonymous_7 *page)
 {
-  signed int (*this_codec)(struct _ogg_codec_tag *, struct anonymous$7 *);
+  signed int (*this_codec)(struct _ogg_codec_tag *, struct anonymous_7 *);
   signed int i = 0;
   this_codec = codecs[(signed long int)i];
-  if(!(this_codec == ((signed int (*)(struct _ogg_codec_tag *, struct anonymous$7 *))NULL)))
+  if(!(this_codec == ((signed int (*)(struct _ogg_codec_tag *, struct anonymous_7 *))NULL)))
   {
-    signed int return_value_ogg_page_serialno$1;
-    return_value_ogg_page_serialno$1=ogg_page_serialno(page);
-    ogg_stream_init(&codec->os, return_value_ogg_page_serialno$1);
+    signed int return_value_ogg_page_serialno_1;
+    return_value_ogg_page_serialno_1=ogg_page_serialno(page);
+    ogg_stream_init(&codec->os, return_value_ogg_page_serialno_1);
     ogg_stream_pagein(&codec->os, page);
     signed int return_value;
     return_value=this_codec(codec, page);
@@ -6828,30 +6828,30 @@ static signed int opus_header_parse(const unsigned char *packet, signed int len,
 {
   signed int i;
   char str[9l];
-  struct anonymous$0 p;
+  struct anonymous_0 p;
   unsigned char ch;
   unsigned short int shortval;
   p.data = packet;
   p.maxlen = len;
   p.pos = 0;
   str[(signed long int)8] = (char)0;
-  _Bool tmp_if_expr$11;
+  _Bool tmp_if_expr_11;
   if(!(len >= 19))
     return 0;
 
   else
   {
     read_chars(&p, (unsigned char *)str, 8);
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(str, "OpusHead");
-    if(!(return_value_strcmp$1 == 0))
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(str, "OpusHead");
+    if(!(return_value_strcmp_1 == 0))
       return 0;
 
     else
     {
-      signed int return_value_read_chars$2;
-      return_value_read_chars$2=read_chars(&p, &ch, 1);
-      if(return_value_read_chars$2 == 0)
+      signed int return_value_read_chars_2;
+      return_value_read_chars_2=read_chars(&p, &ch, 1);
+      if(return_value_read_chars_2 == 0)
         return 0;
 
       else
@@ -6862,9 +6862,9 @@ static signed int opus_header_parse(const unsigned char *packet, signed int len,
 
         else
         {
-          signed int return_value_read_chars$3;
-          return_value_read_chars$3=read_chars(&p, &ch, 1);
-          if(return_value_read_chars$3 == 0)
+          signed int return_value_read_chars_3;
+          return_value_read_chars_3=read_chars(&p, &ch, 1);
+          if(return_value_read_chars_3 == 0)
             return 0;
 
           else
@@ -6875,32 +6875,32 @@ static signed int opus_header_parse(const unsigned char *packet, signed int len,
 
             else
             {
-              signed int return_value_read_uint16$4;
-              return_value_read_uint16$4=read_uint16(&p, &shortval);
-              if(return_value_read_uint16$4 == 0)
+              signed int return_value_read_uint16_4;
+              return_value_read_uint16_4=read_uint16(&p, &shortval);
+              if(return_value_read_uint16_4 == 0)
                 return 0;
 
               else
               {
                 h->preskip = (signed int)shortval;
-                signed int return_value_read_uint32$5;
-                return_value_read_uint32$5=read_uint32(&p, &h->input_sample_rate);
-                if(return_value_read_uint32$5 == 0)
+                signed int return_value_read_uint32_5;
+                return_value_read_uint32_5=read_uint32(&p, &h->input_sample_rate);
+                if(return_value_read_uint32_5 == 0)
                   return 0;
 
                 else
                 {
-                  signed int return_value_read_uint16$6;
-                  return_value_read_uint16$6=read_uint16(&p, &shortval);
-                  if(return_value_read_uint16$6 == 0)
+                  signed int return_value_read_uint16_6;
+                  return_value_read_uint16_6=read_uint16(&p, &shortval);
+                  if(return_value_read_uint16_6 == 0)
                     return 0;
 
                   else
                   {
                     h->gain = (signed int)(signed short int)shortval;
-                    signed int return_value_read_chars$7;
-                    return_value_read_chars$7=read_chars(&p, &ch, 1);
-                    if(return_value_read_chars$7 == 0)
+                    signed int return_value_read_chars_7;
+                    return_value_read_chars_7=read_chars(&p, &ch, 1);
+                    if(return_value_read_chars_7 == 0)
                       return 0;
 
                     else
@@ -6908,24 +6908,24 @@ static signed int opus_header_parse(const unsigned char *packet, signed int len,
                       h->channel_mapping = (signed int)ch;
                       if(!(h->channel_mapping == 0))
                       {
-                        signed int return_value_read_chars$8;
-                        return_value_read_chars$8=read_chars(&p, &ch, 1);
-                        if(return_value_read_chars$8 == 0)
+                        signed int return_value_read_chars_8;
+                        return_value_read_chars_8=read_chars(&p, &ch, 1);
+                        if(return_value_read_chars_8 == 0)
                           return 0;
 
                         h->nb_streams = (signed int)ch;
-                        signed int return_value_read_chars$9;
-                        return_value_read_chars$9=read_chars(&p, &ch, 1);
-                        if(return_value_read_chars$9 == 0)
+                        signed int return_value_read_chars_9;
+                        return_value_read_chars_9=read_chars(&p, &ch, 1);
+                        if(return_value_read_chars_9 == 0)
                           return 0;
 
                         h->nb_coupled = (signed int)ch;
                         i = 0;
                         for( ; !(i >= h->channels); i = i + 1)
                         {
-                          signed int return_value_read_chars$10;
-                          return_value_read_chars$10=read_chars(&p, &h->stream_map[(signed long int)i], 1);
-                          if(return_value_read_chars$10 == 0)
+                          signed int return_value_read_chars_10;
+                          return_value_read_chars_10=read_chars(&p, &h->stream_map[(signed long int)i], 1);
+                          if(return_value_read_chars_10 == 0)
                             return 0;
 
                         }
@@ -6939,11 +6939,11 @@ static signed int opus_header_parse(const unsigned char *packet, signed int len,
                         h->stream_map[(signed long int)1] = (unsigned char)1;
                       }
                       if(h->version == 0)
-                        tmp_if_expr$11 = (_Bool)1;
+                        tmp_if_expr_11 = (_Bool)1;
 
                       else
-                        tmp_if_expr$11 = h->version == 1 ? (_Bool)1 : (_Bool)0;
-                      if(tmp_if_expr$11)
+                        tmp_if_expr_11 = h->version == 1 ? (_Bool)1 : (_Bool)0;
+                      if(tmp_if_expr_11)
                       {
                         if(p.pos == len)
                           goto __CPROVER_DUMP_L20;
@@ -7026,7 +7026,7 @@ static signed int packet_get_samples_per_frame(const unsigned char *data, signed
 
 // parse_header
 // file mp3.c line 258
-static void parse_header(struct anonymous$32 *mh, unsigned int header)
+static void parse_header(struct anonymous_32 *mh, unsigned int header)
 {
   mh->syncword = (signed int)(header >> 20 & (unsigned int)0x0fff);
   mh->version = (header >> 19 & (unsigned int)0x01) != 0u ? 0 : 1;
@@ -7075,9 +7075,9 @@ static void parse_headers(struct http_parser_tag *parser, char **line, signed in
     whitespace = 0;
     name = line[(signed long int)l];
     value = (char *)(void *)0;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(line[(signed long int)l]);
-    slen = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(line[(signed long int)l]);
+    slen = (signed int)return_value_strlen_1;
     i = 0;
     for( ; !(i >= slen); i = i + 1)
       if((signed int)line[(signed long int)l][(signed long int)i] == 58)
@@ -7102,9 +7102,9 @@ static void parse_headers(struct http_parser_tag *parser, char **line, signed in
 
     if(!(name == ((char *)NULL)) && !(value == ((char *)NULL)))
     {
-      char *return_value__lowercase$2;
-      return_value__lowercase$2=_lowercase(name);
-      _shout_httpp_setvar(parser, return_value__lowercase$2, value);
+      char *return_value__lowercase_2;
+      return_value__lowercase_2=_lowercase(name);
+      _shout_httpp_setvar(parser, return_value__lowercase_2, value);
       name = (char *)(void *)0;
       value = (char *)(void *)0;
     }
@@ -7130,9 +7130,9 @@ static signed int parse_http_response(struct shout *self)
     queue_free(&self->rqueue);
     parser=_shout_httpp_create_parser();
     _shout_httpp_initialize(parser, (struct http_varlist_tag *)(void *)0);
-    signed int return_value__shout_httpp_parse_response$1;
-    return_value__shout_httpp_parse_response$1=_shout_httpp_parse_response(parser, header, (unsigned long int)hlen, self->mount);
-    if(!(return_value__shout_httpp_parse_response$1 == 0))
+    signed int return_value__shout_httpp_parse_response_1;
+    return_value__shout_httpp_parse_response_1=_shout_httpp_parse_response(parser, header, (unsigned long int)hlen, self->mount);
+    if(!(return_value__shout_httpp_parse_response_1 == 0))
     {
       retcode=_shout_httpp_getvar(parser, "__errorcode");
       code=atoi(retcode);
@@ -7165,17 +7165,17 @@ static void parse_query(struct http_parser_tag *parser, char *query)
   signed int i = 0;
   char *key = query;
   char *val = (char *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(query == ((char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*query != 0) ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = !(*query != 0) ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(query);
-    len = (signed int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(query);
+    len = (signed int)return_value_strlen_2;
     for( ; !(i >= len); i = i + 1)
       switch((signed int)query[(signed long int)i])
       {
@@ -7205,26 +7205,26 @@ static void parse_query(struct http_parser_tag *parser, char *query)
 // file shout.c line 1192
 static signed int parse_response(struct shout *self)
 {
-  signed int return_value_parse_http_response$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_parse_xaudiocast_response$2;
+  signed int return_value_parse_http_response_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_parse_xaudiocast_response_2;
   if(self->protocol == 0u)
   {
-    return_value_parse_http_response$1=parse_http_response(self);
-    return return_value_parse_http_response$1;
+    return_value_parse_http_response_1=parse_http_response(self);
+    return return_value_parse_http_response_1;
   }
 
   else
   {
     if(self->protocol == 1u)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = self->protocol == (unsigned int)2 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = self->protocol == (unsigned int)2 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
-      return_value_parse_xaudiocast_response$2=parse_xaudiocast_response(self);
-      return return_value_parse_xaudiocast_response$2;
+      return_value_parse_xaudiocast_response_2=parse_xaudiocast_response(self);
+      return return_value_parse_xaudiocast_response_2;
     }
 
   }
@@ -7237,17 +7237,17 @@ static signed int parse_response(struct shout *self)
 static signed int parse_xaudiocast_response(struct shout *self)
 {
   char *response;
-  signed int return_value_collect_queue$1;
-  return_value_collect_queue$1=collect_queue(self->rqueue.head, &response);
-  if(!(return_value_collect_queue$1 >= 1))
+  signed int return_value_collect_queue_1;
+  return_value_collect_queue_1=collect_queue(self->rqueue.head, &response);
+  if(!(return_value_collect_queue_1 >= 1))
     return -5;
 
   else
   {
     queue_free(&self->rqueue);
-    char *return_value_strstr$2;
-    return_value_strstr$2=strstr(response, "OK");
-    if(return_value_strstr$2 == ((char *)NULL))
+    char *return_value_strstr_2;
+    return_value_strstr_2=strstr(response, "OK");
+    if(return_value_strstr_2 == ((char *)NULL))
     {
       free((void *)response);
       return -3;
@@ -7268,24 +7268,24 @@ static void print_connectors(struct _link_node *link)
   if(!(link->parent == ((struct _link_node *)NULL)))
     print_connectors(link->parent);
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(link->parent == ((struct _link_node *)NULL)))
-    tmp_if_expr$1 = link->parent->direction != link->direction ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = link->parent->direction != link->direction ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = link->parent->parent != ((struct _link_node *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = link->parent->parent != ((struct _link_node *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
   {
-    signed int print_connectors$$1$$2$$i;
+    signed int print_connectors__1__2__i;
     fprintf(stdout, "|");
-    print_connectors$$1$$2$$i = 0;
-    for( ; !(print_connectors$$1$$2$$i >= link->width + -1); print_connectors$$1$$2$$i = print_connectors$$1$$2$$i + 1)
+    print_connectors__1__2__i = 0;
+    for( ; !(print_connectors__1__2__i >= link->width + -1); print_connectors__1__2__i = print_connectors__1__2__i + 1)
       fprintf(stdout, " ");
   }
 
@@ -7317,35 +7317,35 @@ static void print_node(signed int (*key_printer)(char *, void *), struct avl_nod
 
   print_connectors(link);
   fprintf(stdout, "+-[%c %s %03d]", balance_chars[(signed long int)((signed int)((node->rank_and_balance & (unsigned int)3) - (unsigned int)1) + 1)], (const void *)buffer, (signed int)(node->rank_and_balance >> 2));
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(node->left == ((struct avl_node_tag *)NULL)))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = node->right != ((struct avl_node_tag *)NULL) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = node->right != ((struct avl_node_tag *)NULL) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     fprintf(stdout, "-|\n");
 
   else
     fprintf(stdout, "\n");
   if(!(node->left == ((struct avl_node_tag *)NULL)))
   {
-    struct _link_node print_node$$1$$4$$here;
-    print_node$$1$$4$$here.parent = link;
-    print_node$$1$$4$$here.direction = (char)-1;
-    print_node$$1$$4$$here.width = (signed int)(width + (unsigned int)11);
-    print_node(key_printer, node->left, &print_node$$1$$4$$here);
+    struct _link_node print_node__1__4__here;
+    print_node__1__4__here.parent = link;
+    print_node__1__4__here.direction = (char)-1;
+    print_node__1__4__here.width = (signed int)(width + (unsigned int)11);
+    print_node(key_printer, node->left, &print_node__1__4__here);
   }
 
 }
 
 // queue_data
 // file shout.c line 797
-static signed int queue_data(struct anonymous$10 *queue, const unsigned char *data, unsigned long int len)
+static signed int queue_data(struct anonymous_10 *queue, const unsigned char *data, unsigned long int len)
 {
   struct _shout_buf *buf;
   unsigned long int plen;
-  unsigned long int tmp_if_expr$3;
+  unsigned long int tmp_if_expr_3;
   if(len == 0ul)
     return 0;
 
@@ -7353,9 +7353,9 @@ static signed int queue_data(struct anonymous$10 *queue, const unsigned char *da
   {
     if(queue->len == 0ul)
     {
-      void *return_value_calloc$1;
-      return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct _shout_buf) /*4120ul*/ );
-      queue->head = (struct _shout_buf *)return_value_calloc$1;
+      void *return_value_calloc_1;
+      return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct _shout_buf) /*4120ul*/ );
+      queue->head = (struct _shout_buf *)return_value_calloc_1;
       if(queue->head == ((struct _shout_buf *)NULL))
         return -5;
 
@@ -7368,9 +7368,9 @@ static signed int queue_data(struct anonymous$10 *queue, const unsigned char *da
     {
       if(buf->len == 4096u)
       {
-        void *return_value_calloc$2;
-        return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct _shout_buf) /*4120ul*/ );
-        buf->next = (struct _shout_buf *)return_value_calloc$2;
+        void *return_value_calloc_2;
+        return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct _shout_buf) /*4120ul*/ );
+        buf->next = (struct _shout_buf *)return_value_calloc_2;
         if(buf->next == ((struct _shout_buf *)NULL))
           return -5;
 
@@ -7379,11 +7379,11 @@ static signed int queue_data(struct anonymous$10 *queue, const unsigned char *da
       }
 
       if(!((unsigned long int)(4096u + -buf->len) >= len))
-        tmp_if_expr$3 = (unsigned long int)((unsigned int)4096 - buf->len);
+        tmp_if_expr_3 = (unsigned long int)((unsigned int)4096 - buf->len);
 
       else
-        tmp_if_expr$3 = len;
-      plen = tmp_if_expr$3;
+        tmp_if_expr_3 = len;
+      plen = tmp_if_expr_3;
       memcpy((void *)(buf->data + (signed long int)buf->len), (const void *)data, plen);
       buf->len = buf->len + (unsigned int)plen;
       data = data + (signed long int)plen;
@@ -7395,7 +7395,7 @@ static signed int queue_data(struct anonymous$10 *queue, const unsigned char *da
 
 // queue_free
 // file shout.c line 877
-static inline void queue_free(struct anonymous$10 *queue)
+static inline void queue_free(struct anonymous_10 *queue)
 {
   struct _shout_buf *prev;
   while(!(queue->head == ((struct _shout_buf *)NULL)))
@@ -7429,9 +7429,9 @@ static signed int queue_printf(struct shout *self, const char *fmt, ...)
     else
     {
       len = len + 1;
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)len);
-      buf = (char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)len);
+      buf = (char *)return_value_malloc_1;
       if(!(buf == ((char *)NULL)))
       {
         len=vsnprintf(buf, (unsigned long int)len, fmt, ap_retry);
@@ -7453,19 +7453,19 @@ static signed int queue_printf(struct shout *self, const char *fmt, ...)
 // file shout.c line 836
 static inline signed int queue_str(struct shout *self, const char *str)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  signed int return_value_queue_data$2;
-  return_value_queue_data$2=queue_data(&self->wqueue, (const unsigned char *)str, return_value_strlen$1);
-  return return_value_queue_data$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  signed int return_value_queue_data_2;
+  return_value_queue_data_2=queue_data(&self->wqueue, (const unsigned char *)str, return_value_strlen_1);
+  return return_value_queue_data_2;
 }
 
 // read_chars
 // file opus.c line 90
-static signed int read_chars(struct anonymous$0 *p, unsigned char *str, signed int nb_chars)
+static signed int read_chars(struct anonymous_0 *p, unsigned char *str, signed int nb_chars)
 {
   signed int i;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(!(p->maxlen + -nb_chars >= p->pos))
     return 0;
 
@@ -7474,9 +7474,9 @@ static signed int read_chars(struct anonymous$0 *p, unsigned char *str, signed i
     i = 0;
     for( ; !(i >= nb_chars); i = i + 1)
     {
-      tmp_post$1 = p->pos;
+      tmp_post_1 = p->pos;
       p->pos = p->pos + 1;
-      str[(signed long int)i] = p->data[(signed long int)tmp_post$1];
+      str[(signed long int)i] = p->data[(signed long int)tmp_post_1];
     }
     return 1;
   }
@@ -7484,23 +7484,23 @@ static signed int read_chars(struct anonymous$0 *p, unsigned char *str, signed i
 
 // read_opus_page
 // file opus.c line 235
-static signed int read_opus_page(struct _ogg_codec_tag *codec, struct anonymous$7 *page)
+static signed int read_opus_page(struct _ogg_codec_tag *codec, struct anonymous_7 *page)
 {
-  struct anonymous$2 packet;
-  struct anonymous$1 *opus_data = (struct anonymous$1 *)codec->codec_data;
-  signed int return_value_ogg_stream_packetout$1;
-  signed int return_value_memcmp$4;
-  signed int return_value_memcmp$3;
+  struct anonymous_2 packet;
+  struct anonymous_1 *opus_data = (struct anonymous_1 *)codec->codec_data;
+  signed int return_value_ogg_stream_packetout_1;
+  signed int return_value_memcmp_4;
+  signed int return_value_memcmp_3;
   do
   {
-    return_value_ogg_stream_packetout$1=ogg_stream_packetout(&codec->os, &packet);
-    if(!(return_value_ogg_stream_packetout$1 >= 1))
+    return_value_ogg_stream_packetout_1=ogg_stream_packetout(&codec->os, &packet);
+    if(!(return_value_ogg_stream_packetout_1 >= 1))
       break;
 
     if(packet.bytes >= 1l)
     {
-      return_value_memcmp$4=memcmp((const void *)packet.packet, (const void *)"Op", (unsigned long int)2);
-      if(!(return_value_memcmp$4 == 0))
+      return_value_memcmp_4=memcmp((const void *)packet.packet, (const void *)"Op", (unsigned long int)2);
+      if(!(return_value_memcmp_4 == 0))
       {
         signed int spf;
         spf=packet_get_samples_per_frame(packet.packet, 48000);
@@ -7527,12 +7527,12 @@ static signed int read_opus_page(struct _ogg_codec_tag *codec, struct anonymous$
         else
           if(packet.bytes >= 19l)
           {
-            return_value_memcmp$3=memcmp((const void *)packet.packet, (const void *)"OpusHead", (unsigned long int)8);
-            if(return_value_memcmp$3 == 0)
+            return_value_memcmp_3=memcmp((const void *)packet.packet, (const void *)"OpusHead", (unsigned long int)8);
+            if(return_value_memcmp_3 == 0)
             {
-              signed int return_value_opus_header_parse$2;
-              return_value_opus_header_parse$2=opus_header_parse(packet.packet, (signed int)packet.bytes, &opus_data->oh);
-              if(!(return_value_opus_header_parse$2 == 0))
+              signed int return_value_opus_header_parse_2;
+              return_value_opus_header_parse_2=opus_header_parse(packet.packet, (signed int)packet.bytes, &opus_data->oh);
+              if(!(return_value_opus_header_parse_2 == 0))
                 opus_data->skipped = 0;
 
             }
@@ -7550,16 +7550,16 @@ static signed int read_opus_page(struct _ogg_codec_tag *codec, struct anonymous$
 
 // read_speex_page
 // file speex.c line 64
-static signed int read_speex_page(struct _ogg_codec_tag *codec, struct anonymous$7 *page)
+static signed int read_speex_page(struct _ogg_codec_tag *codec, struct anonymous_7 *page)
 {
-  struct anonymous$2 packet;
-  struct anonymous$11 *speex_data = (struct anonymous$11 *)codec->codec_data;
+  struct anonymous_2 packet;
+  struct anonymous_11 *speex_data = (struct anonymous_11 *)codec->codec_data;
   unsigned long int samples = (unsigned long int)0;
-  signed int return_value_ogg_stream_packetout$1;
+  signed int return_value_ogg_stream_packetout_1;
   do
   {
-    return_value_ogg_stream_packetout$1=ogg_stream_packetout(&codec->os, &packet);
-    if(!(return_value_ogg_stream_packetout$1 >= 1))
+    return_value_ogg_stream_packetout_1=ogg_stream_packetout(&codec->os, &packet);
+    if(!(return_value_ogg_stream_packetout_1 >= 1))
       break;
 
     samples = samples + (unsigned long int)(speex_data->sh->frames_per_packet * speex_data->sh->frame_size);
@@ -7571,26 +7571,26 @@ static signed int read_speex_page(struct _ogg_codec_tag *codec, struct anonymous
 
 // read_theora_page
 // file theora.c line 81
-static signed int read_theora_page(struct _ogg_codec_tag *codec, struct anonymous$7 *page)
+static signed int read_theora_page(struct _ogg_codec_tag *codec, struct anonymous_7 *page)
 {
-  struct anonymous$6 *theora_data = (struct anonymous$6 *)codec->codec_data;
-  struct anonymous$2 packet;
+  struct anonymous_6 *theora_data = (struct anonymous_6 *)codec->codec_data;
+  struct anonymous_2 packet;
   signed long int granulepos;
   signed long int iframe;
   signed long int pframe;
   granulepos=ogg_page_granulepos(page);
-  signed int return_value_ogg_stream_packetout$1;
+  signed int return_value_ogg_stream_packetout_1;
   if(granulepos == 0l)
   {
     do
     {
-      return_value_ogg_stream_packetout$1=ogg_stream_packetout(&codec->os, &packet);
-      if(!(return_value_ogg_stream_packetout$1 >= 1))
+      return_value_ogg_stream_packetout_1=ogg_stream_packetout(&codec->os, &packet);
+      if(!(return_value_ogg_stream_packetout_1 >= 1))
         break;
 
-      signed int return_value_theora_decode_header$2;
-      return_value_theora_decode_header$2=theora_decode_header(&theora_data->ti, &theora_data->tc, &packet);
-      if(!(return_value_theora_decode_header$2 >= 0))
+      signed int return_value_theora_decode_header_2;
+      return_value_theora_decode_header_2=theora_decode_header(&theora_data->ti, &theora_data->tc, &packet);
+      if(!(return_value_theora_decode_header_2 >= 0))
         return -1;
 
       codec->headers = codec->headers + 1u;
@@ -7598,9 +7598,9 @@ static signed int read_theora_page(struct _ogg_codec_tag *codec, struct anonymou
     while((_Bool)1);
     if(codec->headers == 3u)
     {
-      signed int return_value_theora_ilog$3;
-      return_value_theora_ilog$3=theora_ilog(theora_data->ti.keyframe_frequency_force - (unsigned int)1);
-      theora_data->granule_shift = (unsigned int)return_value_theora_ilog$3;
+      signed int return_value_theora_ilog_3;
+      return_value_theora_ilog_3=theora_ilog(theora_data->ti.keyframe_frequency_force - (unsigned int)1);
+      theora_data->granule_shift = (unsigned int)return_value_theora_ilog_3;
       theora_data->per_frame = ((double)theora_data->ti.fps_denominator / (double)theora_data->ti.fps_numerator) * (double)1000000;
       theora_data->get_start_frame = 1;
     }
@@ -7608,11 +7608,11 @@ static signed int read_theora_page(struct _ogg_codec_tag *codec, struct anonymou
     return 0;
   }
 
-  signed int return_value_ogg_stream_packetout$4;
+  signed int return_value_ogg_stream_packetout_4;
   do
   {
-    return_value_ogg_stream_packetout$4=ogg_stream_packetout(&codec->os, &packet);
-    if(!(return_value_ogg_stream_packetout$4 >= 1))
+    return_value_ogg_stream_packetout_4=ogg_stream_packetout(&codec->os, &packet);
+    if(!(return_value_ogg_stream_packetout_4 >= 1))
       break;
 
     if(!(theora_data->get_start_frame == 0))
@@ -7647,7 +7647,7 @@ static signed int read_theora_page(struct _ogg_codec_tag *codec, struct anonymou
 
 // read_uint16
 // file opus.c line 80
-static signed int read_uint16(struct anonymous$0 *p, unsigned short int *val)
+static signed int read_uint16(struct anonymous_0 *p, unsigned short int *val)
 {
   if(!(p->maxlen + -2 >= p->pos))
     return 0;
@@ -7663,7 +7663,7 @@ static signed int read_uint16(struct anonymous$0 *p, unsigned short int *val)
 
 // read_uint32
 // file opus.c line 68
-static signed int read_uint32(struct anonymous$0 *p, unsigned int *val)
+static signed int read_uint32(struct anonymous_0 *p, unsigned int *val)
 {
   if(!(p->maxlen + -4 >= p->pos))
     return 0;
@@ -7681,23 +7681,23 @@ static signed int read_uint32(struct anonymous$0 *p, unsigned int *val)
 
 // read_vorbis_page
 // file vorbis.c line 75
-static signed int read_vorbis_page(struct _ogg_codec_tag *codec, struct anonymous$7 *page)
+static signed int read_vorbis_page(struct _ogg_codec_tag *codec, struct anonymous_7 *page)
 {
-  struct anonymous$2 packet;
-  struct anonymous$30 *vorbis_data = (struct anonymous$30 *)codec->codec_data;
+  struct anonymous_2 packet;
+  struct anonymous_30 *vorbis_data = (struct anonymous_30 *)codec->codec_data;
   unsigned long int samples = (unsigned long int)0;
-  signed int return_value_ogg_stream_packetout$1;
+  signed int return_value_ogg_stream_packetout_1;
   if(!(codec->headers >= 3u))
   {
     do
     {
-      return_value_ogg_stream_packetout$1=ogg_stream_packetout(&codec->os, &packet);
-      if(!(return_value_ogg_stream_packetout$1 >= 1))
+      return_value_ogg_stream_packetout_1=ogg_stream_packetout(&codec->os, &packet);
+      if(!(return_value_ogg_stream_packetout_1 >= 1))
         break;
 
-      signed int return_value_vorbis_synthesis_headerin$2;
-      return_value_vorbis_synthesis_headerin$2=vorbis_synthesis_headerin(&vorbis_data->vi, &vorbis_data->vc, &packet);
-      if(!(return_value_vorbis_synthesis_headerin$2 >= 0))
+      signed int return_value_vorbis_synthesis_headerin_2;
+      return_value_vorbis_synthesis_headerin_2=vorbis_synthesis_headerin(&vorbis_data->vi, &vorbis_data->vc, &packet);
+      if(!(return_value_vorbis_synthesis_headerin_2 >= 0))
         return -1;
 
       codec->headers = codec->headers + 1u;
@@ -7706,16 +7706,16 @@ static signed int read_vorbis_page(struct _ogg_codec_tag *codec, struct anonymou
     return 0;
   }
 
-  signed int return_value_ogg_stream_packetout$3;
-  signed int return_value_vorbis_blocksize$4;
+  signed int return_value_ogg_stream_packetout_3;
+  signed int return_value_vorbis_blocksize_4;
   do
   {
-    return_value_ogg_stream_packetout$3=ogg_stream_packetout(&codec->os, &packet);
-    if(!(return_value_ogg_stream_packetout$3 >= 1))
+    return_value_ogg_stream_packetout_3=ogg_stream_packetout(&codec->os, &packet);
+    if(!(return_value_ogg_stream_packetout_3 >= 1))
       break;
 
-    return_value_vorbis_blocksize$4=vorbis_blocksize(vorbis_data, &packet);
-    samples = samples + (unsigned long int)return_value_vorbis_blocksize$4;
+    return_value_vorbis_blocksize_4=vorbis_blocksize(vorbis_data, &packet);
+    samples = samples + (unsigned long int)return_value_vorbis_blocksize_4;
   }
   while((_Bool)1);
   codec->senttime = codec->senttime + (samples * (unsigned long int)1000000) / (unsigned long int)vorbis_data->vi.rate;
@@ -7726,7 +7726,7 @@ static signed int read_vorbis_page(struct _ogg_codec_tag *codec, struct anonymou
 // file mp3.c line 117
 static signed int send_mp3(struct shout *self, const unsigned char *buff, unsigned long int len)
 {
-  struct anonymous$33 *mp3_data = (struct anonymous$33 *)self->format_data;
+  struct anonymous_33 *mp3_data = (struct anonymous_33 *)self->format_data;
   unsigned long int pos;
   unsigned int head;
   signed int ret;
@@ -7736,13 +7736,13 @@ static signed int send_mp3(struct shout *self, const unsigned char *buff, unsign
   signed int error;
   signed int i;
   unsigned char *bridge_buff;
-  struct anonymous$32 mh;
+  struct anonymous_32 mh;
   bridge_buff = (unsigned char *)(void *)0;
   pos = (unsigned long int)0;
   start = 0;
   error = 0;
   end = (signed int)(len - (unsigned long int)1);
-  memset((void *)&mh, 0, sizeof(struct anonymous$32) /*72ul*/ );
+  memset((void *)&mh, 0, sizeof(struct anonymous_32) /*72ul*/ );
   if(mp3_data->frame_left >= 1u)
   {
     if(len >= (unsigned long int)mp3_data->frame_left)
@@ -7762,9 +7762,9 @@ static signed int send_mp3(struct shout *self, const unsigned char *buff, unsign
 
   if(!(mp3_data->header_bridges == 0))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(len + (unsigned long int)mp3_data->header_bridges);
-    bridge_buff = (unsigned char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(len + (unsigned long int)mp3_data->header_bridges);
+    bridge_buff = (unsigned char *)return_value_malloc_1;
     if(bridge_buff == ((unsigned char *)NULL))
     {
       self->error = -5;
@@ -7781,13 +7781,13 @@ static signed int send_mp3(struct shout *self, const unsigned char *buff, unsign
     mp3_data->header_bridges = 0;
   }
 
-  signed long int return_value_shout_send_raw$2;
+  signed long int return_value_shout_send_raw_2;
   while(len >= 4ul + pos)
   {
     head = (unsigned int)((signed int)buff[(signed long int)pos] << 24 | (signed int)buff[(signed long int)(pos + (unsigned long int)1)] << 16 | (signed int)buff[(signed long int)(pos + (unsigned long int)2)] << 8 | (signed int)buff[(signed long int)(pos + (unsigned long int)3)]);
-    signed int return_value_mp3_header$3;
-    return_value_mp3_header$3=mp3_header(head, &mh);
-    if(!(return_value_mp3_header$3 == 0))
+    signed int return_value_mp3_header_3;
+    return_value_mp3_header_3=mp3_header(head, &mh);
+    if(!(return_value_mp3_header_3 == 0))
     {
       if(!(error == 0))
       {
@@ -7821,8 +7821,8 @@ static signed int send_mp3(struct shout *self, const unsigned char *buff, unsign
         count = (end - start) + 1;
         if(count >= 1)
         {
-          return_value_shout_send_raw$2=shout_send_raw(self, (const unsigned char *)(char *)&buff[(signed long int)start], (unsigned long int)count);
-          ret = (signed int)return_value_shout_send_raw$2;
+          return_value_shout_send_raw_2=shout_send_raw(self, (const unsigned char *)(char *)&buff[(signed long int)start], (unsigned long int)count);
+          ret = (signed int)return_value_shout_send_raw_2;
         }
 
         else
@@ -7853,14 +7853,14 @@ static signed int send_mp3(struct shout *self, const unsigned char *buff, unsign
     mp3_data->header_bridges = i;
   }
 
-  signed long int return_value_shout_send_raw$4;
+  signed long int return_value_shout_send_raw_4;
   if(error == 0)
   {
     count = (end - start) + 1;
     if(count >= 1)
     {
-      return_value_shout_send_raw$4=shout_send_raw(self, (const unsigned char *)(char *)&buff[(signed long int)start], (unsigned long int)count);
-      ret = (signed int)return_value_shout_send_raw$4;
+      return_value_shout_send_raw_4=shout_send_raw(self, (const unsigned char *)(char *)&buff[(signed long int)start], (unsigned long int)count);
+      ret = (signed int)return_value_shout_send_raw_4;
     }
 
     else
@@ -7892,23 +7892,23 @@ static signed int send_mp3(struct shout *self, const unsigned char *buff, unsign
 // file ogg.c line 84
 static signed int send_ogg(struct shout *self, const unsigned char *data, unsigned long int len)
 {
-  struct anonymous$17 *ogg_data = (struct anonymous$17 *)self->format_data;
+  struct anonymous_17 *ogg_data = (struct anonymous_17 *)self->format_data;
   struct _ogg_codec_tag *codec;
   char *buffer;
-  struct anonymous$7 page;
+  struct anonymous_7 page;
   buffer=ogg_sync_buffer(&ogg_data->oy, (signed long int)len);
   memcpy((void *)buffer, (const void *)data, len);
   ogg_sync_wrote(&ogg_data->oy, (signed long int)len);
-  signed int return_value_ogg_sync_pageout$1;
+  signed int return_value_ogg_sync_pageout_1;
   do
   {
-    return_value_ogg_sync_pageout$1=ogg_sync_pageout(&ogg_data->oy, &page);
-    if(!(return_value_ogg_sync_pageout$1 == 1))
+    return_value_ogg_sync_pageout_1=ogg_sync_pageout(&ogg_data->oy, &page);
+    if(!(return_value_ogg_sync_pageout_1 == 1))
       break;
 
-    signed int return_value_ogg_page_bos$4;
-    return_value_ogg_page_bos$4=ogg_page_bos(&page);
-    if(!(return_value_ogg_page_bos$4 == 0))
+    signed int return_value_ogg_page_bos_4;
+    return_value_ogg_page_bos_4=ogg_page_bos(&page);
+    if(!(return_value_ogg_page_bos_4 == 0))
     {
       if(ogg_data->bos == 0)
       {
@@ -7916,9 +7916,9 @@ static signed int send_ogg(struct shout *self, const unsigned char *data, unsign
         ogg_data->bos = (char)1;
       }
 
-      void *return_value_calloc$2;
-      return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct _ogg_codec_tag) /*456ul*/ );
-      codec = (struct _ogg_codec_tag *)return_value_calloc$2;
+      void *return_value_calloc_2;
+      return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct _ogg_codec_tag) /*456ul*/ );
+      codec = (struct _ogg_codec_tag *)return_value_calloc_2;
       if(codec == ((struct _ogg_codec_tag *)NULL))
       {
         self->error = -5;
@@ -7941,11 +7941,11 @@ static signed int send_ogg(struct shout *self, const unsigned char *data, unsign
       codec = ogg_data->codecs;
       while(!(codec == ((struct _ogg_codec_tag *)NULL)))
       {
-        signed int return_value_ogg_page_serialno$3;
-        return_value_ogg_page_serialno$3=ogg_page_serialno(&page);
-        if((signed long int)return_value_ogg_page_serialno$3 == codec->os.serialno)
+        signed int return_value_ogg_page_serialno_3;
+        return_value_ogg_page_serialno_3=ogg_page_serialno(&page);
+        if((signed long int)return_value_ogg_page_serialno_3 == codec->os.serialno)
         {
-          if(!(codec->read_page == ((signed int (*)(struct _ogg_codec_tag *, struct anonymous$7 *))NULL)))
+          if(!(codec->read_page == ((signed int (*)(struct _ogg_codec_tag *, struct anonymous_7 *))NULL)))
           {
             ogg_stream_pagein(&codec->os, &page);
             codec->read_page(codec, &page);
@@ -7972,12 +7972,12 @@ static signed int send_ogg(struct shout *self, const unsigned char *data, unsign
 
 // send_page
 // file ogg.c line 193
-static signed int send_page(struct shout *self, struct anonymous$7 *page)
+static signed int send_page(struct shout *self, struct anonymous_7 *page)
 {
   signed int ret;
-  signed long int return_value_shout_send_raw$1;
-  return_value_shout_send_raw$1=shout_send_raw(self, page->header, (unsigned long int)page->header_len);
-  ret = (signed int)return_value_shout_send_raw$1;
+  signed long int return_value_shout_send_raw_1;
+  return_value_shout_send_raw_1=shout_send_raw(self, page->header, (unsigned long int)page->header_len);
+  ret = (signed int)return_value_shout_send_raw_1;
   if(!((signed long int)ret == page->header_len))
   {
     self->error = -4;
@@ -7986,9 +7986,9 @@ static signed int send_page(struct shout *self, struct anonymous$7 *page)
 
   else
   {
-    signed long int return_value_shout_send_raw$2;
-    return_value_shout_send_raw$2=shout_send_raw(self, page->body, (unsigned long int)page->body_len);
-    ret = (signed int)return_value_shout_send_raw$2;
+    signed long int return_value_shout_send_raw_2;
+    return_value_shout_send_raw_2=shout_send_raw(self, page->body, (unsigned long int)page->body_len);
+    ret = (signed int)return_value_shout_send_raw_2;
     if(!((signed long int)ret == page->body_len))
     {
       self->error = -4;
@@ -8043,9 +8043,9 @@ static signed int send_queue(struct shout *self)
 static signed int send_webm(struct shout *self, const unsigned char *data, unsigned long int len)
 {
   signed int ret;
-  signed long int return_value_shout_send_raw$1;
-  return_value_shout_send_raw$1=shout_send_raw(self, data, len);
-  ret = (signed int)return_value_shout_send_raw$1;
+  signed long int return_value_shout_send_raw_1;
+  return_value_shout_send_raw_1=shout_send_raw(self, data, len);
+  ret = (signed int)return_value_shout_send_raw_1;
   if(!((unsigned long int)ret == len))
   {
     self->error = -4;
@@ -8083,7 +8083,7 @@ signed int shout_close(struct shout *self)
       }
 
       _shout_sock_close(self->socket);
-      self->state = (enum anonymous$9)SHOUT_STATE_UNCONNECTED;
+      self->state = (enum anonymous_9)SHOUT_STATE_UNCONNECTED;
       self->starttime = (unsigned long int)0;
       self->senttime = (unsigned long int)0;
       queue_free(&self->rqueue);
@@ -8106,9 +8106,9 @@ signed int shout_delay(struct shout *self)
 
     else
     {
-      unsigned long int return_value__shout_timing_get_time$1;
-      return_value__shout_timing_get_time$1=_shout_timing_get_time();
-      return (signed int)(self->senttime / (unsigned long int)1000 - (return_value__shout_timing_get_time$1 - self->starttime));
+      unsigned long int return_value__shout_timing_get_time_1;
+      return_value__shout_timing_get_time_1=_shout_timing_get_time();
+      return (signed int)(self->senttime / (unsigned long int)1000 - (return_value__shout_timing_get_time_1 - self->starttime));
     }
 }
 
@@ -8168,9 +8168,9 @@ const char * shout_get_agent(struct shout *self)
 // file shout.c line 695
 const char * shout_get_audio_info(struct shout *self, const char *name)
 {
-  const char *return_value__shout_util_dict_get$1;
-  return_value__shout_util_dict_get$1=_shout_util_dict_get(self->audio_info, name);
-  return return_value__shout_util_dict_get$1;
+  const char *return_value__shout_util_dict_get_1;
+  return_value__shout_util_dict_get_1=_shout_util_dict_get(self->audio_info, name);
+  return return_value__shout_util_dict_get_1;
 }
 
 // shout_get_connected
@@ -8465,9 +8465,9 @@ signed int shout_metadata_add(struct _util_dict *self, const char *name, const c
 
   else
   {
-    signed int return_value__shout_util_dict_set$1;
-    return_value__shout_util_dict_set$1=_shout_util_dict_set(self, name, value);
-    return return_value__shout_util_dict_set$1;
+    signed int return_value__shout_util_dict_set_1;
+    return_value__shout_util_dict_set_1=_shout_util_dict_set(self, name, value);
+    return return_value__shout_util_dict_set_1;
   }
 }
 
@@ -8484,9 +8484,9 @@ void shout_metadata_free(struct _util_dict *self)
 // file shout.c line 277
 struct _util_dict * shout_metadata_new(void)
 {
-  struct _util_dict *return_value__shout_util_dict_new$1;
-  return_value__shout_util_dict_new$1=_shout_util_dict_new();
-  return return_value__shout_util_dict_new$1;
+  struct _util_dict *return_value__shout_util_dict_new_1;
+  return_value__shout_util_dict_new_1=_shout_util_dict_new();
+  return return_value__shout_util_dict_new_1;
 }
 
 // shout_new
@@ -8495,17 +8495,17 @@ struct shout * shout_new(void)
 {
   struct shout *self;
   shout_init();
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct shout) /*200ul*/ );
-  self = (struct shout *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct shout) /*200ul*/ );
+  self = (struct shout *)return_value_calloc_1;
   if(self == ((struct shout *)NULL))
     return (struct shout *)(void *)0;
 
   else
   {
-    signed int return_value_shout_set_host$2;
-    return_value_shout_set_host$2=shout_set_host(self, "localhost");
-    if(!(return_value_shout_set_host$2 == 0))
+    signed int return_value_shout_set_host_2;
+    return_value_shout_set_host_2=shout_set_host(self, "localhost");
+    if(!(return_value_shout_set_host_2 == 0))
     {
       shout_free(self);
       return (struct shout *)(void *)0;
@@ -8513,9 +8513,9 @@ struct shout * shout_new(void)
 
     else
     {
-      signed int return_value_shout_set_user$3;
-      return_value_shout_set_user$3=shout_set_user(self, "source");
-      if(!(return_value_shout_set_user$3 == 0))
+      signed int return_value_shout_set_user_3;
+      return_value_shout_set_user_3=shout_set_user(self, "source");
+      if(!(return_value_shout_set_user_3 == 0))
       {
         shout_free(self);
         return (struct shout *)(void *)0;
@@ -8523,9 +8523,9 @@ struct shout * shout_new(void)
 
       else
       {
-        signed int return_value_shout_set_agent$4;
-        return_value_shout_set_agent$4=shout_set_agent(self, "libshout/2.3.1");
-        if(!(return_value_shout_set_agent$4 == 0))
+        signed int return_value_shout_set_agent_4;
+        return_value_shout_set_agent_4=shout_set_agent(self, "libshout/2.3.1");
+        if(!(return_value_shout_set_agent_4 == 0))
         {
           shout_free(self);
           return (struct shout *)(void *)0;
@@ -8557,8 +8557,8 @@ struct shout * shout_new(void)
 // file ../include/shout/shout.h line 149
 signed int shout_open(struct shout *self)
 {
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(self == ((struct shout *)NULL))
     return -1;
 
@@ -8569,16 +8569,16 @@ signed int shout_open(struct shout *self)
     else
     {
       if(self->host == ((char *)NULL))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = !(self->password != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_1 = !(self->password != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = !(self->port != 0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = !(self->port != 0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
         self->error = -1;
         return self->error;
@@ -8609,11 +8609,11 @@ signed int shout_open(struct shout *self)
 // file shout_private.h line 111
 signed int shout_open_mp3(struct shout *self)
 {
-  struct anonymous$33 *mp3_data;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$33) /*24ul*/ );
-  mp3_data = (struct anonymous$33 *)return_value_calloc$1;
-  if(mp3_data == ((struct anonymous$33 *)NULL))
+  struct anonymous_33 *mp3_data;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_33) /*24ul*/ );
+  mp3_data = (struct anonymous_33 *)return_value_calloc_1;
+  if(mp3_data == ((struct anonymous_33 *)NULL))
     return -5;
 
   else
@@ -8629,11 +8629,11 @@ signed int shout_open_mp3(struct shout *self)
 // file shout_private.h line 110
 signed int shout_open_ogg(struct shout *self)
 {
-  struct anonymous$17 *ogg_data;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct anonymous$17) /*48ul*/ );
-  ogg_data = (struct anonymous$17 *)return_value_calloc$1;
-  if(ogg_data == ((struct anonymous$17 *)NULL))
+  struct anonymous_17 *ogg_data;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct anonymous_17) /*48ul*/ );
+  ogg_data = (struct anonymous_17 *)return_value_calloc_1;
+  if(ogg_data == ((struct anonymous_17 *)NULL))
   {
     self->error = -5;
     return self->error;
@@ -8675,7 +8675,7 @@ signed long int shout_queuelen(struct shout *self)
 // file ../include/shout/shout.h line 155
 signed int shout_send(struct shout *self, const unsigned char *data, unsigned long int len)
 {
-  signed int return_value_send_queue$1;
+  signed int return_value_send_queue_1;
   if(self == ((struct shout *)NULL))
     return -1;
 
@@ -8693,8 +8693,8 @@ signed int shout_send(struct shout *self, const unsigned char *data, unsigned lo
 
       if(len == 0ul)
       {
-        return_value_send_queue$1=send_queue(self);
-        return return_value_send_queue$1;
+        return_value_send_queue_1=send_queue(self);
+        return return_value_send_queue_1;
       }
 
       else
@@ -8725,9 +8725,9 @@ signed long int shout_send_raw(struct shout *self, const unsigned char *data, un
       {
         if(self->wqueue.len == 0ul)
         {
-          signed int return_value_try_write$1;
-          return_value_try_write$1=try_write(self, (const void *)data, len);
-          ret = (signed long int)return_value_try_write$1;
+          signed int return_value_try_write_1;
+          return_value_try_write_1=try_write(self, (const void *)data, len);
+          ret = (signed long int)return_value_try_write_1;
           if(!(ret >= 0l))
             return (signed long int)self->error;
 
@@ -8750,9 +8750,9 @@ signed long int shout_send_raw(struct shout *self, const unsigned char *data, un
 
       else
       {
-        signed int return_value_send_queue$2;
-        return_value_send_queue$2=send_queue(self);
-        ret = (signed long int)return_value_send_queue$2;
+        signed int return_value_send_queue_2;
+        return_value_send_queue_2=send_queue(self);
+        ret = (signed long int)return_value_send_queue_2;
         if(ret == 0l || ret == -10l && !(len == 0ul))
           return (signed long int)len;
 
@@ -8970,11 +8970,11 @@ signed int shout_set_host(struct shout *self, const char *host)
 // file shout.c line 300
 signed int shout_set_metadata(struct shout *self, struct _util_dict *metadata)
 {
-  signed int shout_set_metadata$$1$$socket;
+  signed int shout_set_metadata__1__socket;
   signed int rv;
   char *encvalue;
-  const char *return_value_shout_get_agent$1;
-  const char *return_value_shout_get_agent$3;
+  const char *return_value_shout_get_agent_1;
+  const char *return_value_shout_get_agent_3;
   if(metadata == ((struct _util_dict *)NULL) || self == ((struct shout *)NULL))
     return -1;
 
@@ -8986,16 +8986,16 @@ signed int shout_set_metadata(struct shout *self, struct _util_dict *metadata)
 
     else
     {
-      shout_set_metadata$$1$$socket=_shout_sock_connect_wto(self->host, self->port, 0);
-      if(!(shout_set_metadata$$1$$socket >= 1))
+      shout_set_metadata__1__socket=_shout_sock_connect_wto(self->host, self->port, 0);
+      if(!(shout_set_metadata__1__socket >= 1))
         return -2;
 
       else
       {
         if(self->protocol == 2u)
         {
-          return_value_shout_get_agent$1=shout_get_agent(self);
-          rv=_shout_sock_write(shout_set_metadata$$1$$socket, "GET /admin.cgi?mode=updinfo&pass=%s&%s HTTP/1.0\r\nUser-Agent: %s (Mozilla compatible)\r\n\r\n", self->password, encvalue, return_value_shout_get_agent$1);
+          return_value_shout_get_agent_1=shout_get_agent(self);
+          rv=_shout_sock_write(shout_set_metadata__1__socket, "GET /admin.cgi?mode=updinfo&pass=%s&%s HTTP/1.0\r\nUser-Agent: %s (Mozilla compatible)\r\n\r\n", self->password, encvalue, return_value_shout_get_agent_1);
         }
 
         else
@@ -9003,27 +9003,27 @@ signed int shout_set_metadata(struct shout *self, struct _util_dict *metadata)
           {
             char *auth;
             auth=http_basic_authorization(self);
-            const char *return_value_shout_get_agent$2;
-            return_value_shout_get_agent$2=shout_get_agent(self);
-            rv=_shout_sock_write(shout_set_metadata$$1$$socket, "GET /admin/metadata?mode=updinfo&mount=%s&%s HTTP/1.0\r\nUser-Agent: %s\r\n%s\r\n", self->mount, encvalue, return_value_shout_get_agent$2, auth != ((char *)NULL) ? auth : "");
+            const char *return_value_shout_get_agent_2;
+            return_value_shout_get_agent_2=shout_get_agent(self);
+            rv=_shout_sock_write(shout_set_metadata__1__socket, "GET /admin/metadata?mode=updinfo&mount=%s&%s HTTP/1.0\r\nUser-Agent: %s\r\n%s\r\n", self->mount, encvalue, return_value_shout_get_agent_2, auth != ((char *)NULL) ? auth : "");
             free((void *)auth);
           }
 
           else
           {
-            return_value_shout_get_agent$3=shout_get_agent(self);
-            rv=_shout_sock_write(shout_set_metadata$$1$$socket, "GET /admin.cgi?mode=updinfo&pass=%s&mount=%s&%s HTTP/1.0\r\nUser-Agent: %s\r\n\r\n", self->password, self->mount, encvalue, return_value_shout_get_agent$3);
+            return_value_shout_get_agent_3=shout_get_agent(self);
+            rv=_shout_sock_write(shout_set_metadata__1__socket, "GET /admin.cgi?mode=updinfo&pass=%s&mount=%s&%s HTTP/1.0\r\nUser-Agent: %s\r\n\r\n", self->password, self->mount, encvalue, return_value_shout_get_agent_3);
           }
         free((void *)encvalue);
         if(rv == 0)
         {
-          _shout_sock_close(shout_set_metadata$$1$$socket);
+          _shout_sock_close(shout_set_metadata__1__socket);
           return -4;
         }
 
         else
         {
-          _shout_sock_close(shout_set_metadata$$1$$socket);
+          _shout_sock_close(shout_set_metadata__1__socket);
           return 0;
         }
       }
@@ -9051,15 +9051,15 @@ signed int shout_set_mount(struct shout *self, const char *mount)
       if(!(self->mount == ((char *)NULL)))
         free((void *)self->mount);
 
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(mount);
-      len = return_value_strlen$1 + (unsigned long int)1;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(mount);
+      len = return_value_strlen_1 + (unsigned long int)1;
       if(!((signed int)*mount == 47))
         len = len + 1ul;
 
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(len);
-      self->mount = (char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(len);
+      self->mount = (char *)return_value_malloc_2;
       if(self->mount == ((char *)NULL))
       {
         self->error = -5;
@@ -9326,9 +9326,9 @@ void shout_sync(struct shout *self)
   {
     if(!(self->senttime == 0ul))
     {
-      unsigned long int return_value__shout_timing_get_time$1;
-      return_value__shout_timing_get_time$1=_shout_timing_get_time();
-      sleep = (signed long int)(self->senttime / (unsigned long int)1000 - (return_value__shout_timing_get_time$1 - self->starttime));
+      unsigned long int return_value__shout_timing_get_time_1;
+      return_value__shout_timing_get_time_1=_shout_timing_get_time();
+      sleep = (signed long int)(self->senttime / (unsigned long int)1000 - (return_value__shout_timing_get_time_1 - self->starttime));
       if(sleep >= 1l)
         _shout_timing_sleep((unsigned long int)sleep);
 
@@ -9360,20 +9360,20 @@ signed int sock_active(signed int sock)
 {
   char c;
   signed int l;
-  signed long int return_value_recv$1;
-  return_value_recv$1=recv(sock, (void *)&c, (unsigned long int)1, 2);
-  l = (signed int)return_value_recv$1;
-  signed int return_value__shout_sock_error$2;
-  signed int return_value__shout_sock_recoverable$3;
+  signed long int return_value_recv_1;
+  return_value_recv_1=recv(sock, (void *)&c, (unsigned long int)1, 2);
+  l = (signed int)return_value_recv_1;
+  signed int return_value__shout_sock_error_2;
+  signed int return_value__shout_sock_recoverable_3;
   if(l == 0)
     return 0;
 
   else
     if(l == -1)
     {
-      return_value__shout_sock_error$2=_shout_sock_error();
-      return_value__shout_sock_recoverable$3=_shout_sock_recoverable(return_value__shout_sock_error$2);
-      if(return_value__shout_sock_recoverable$3 == 0)
+      return_value__shout_sock_error_2=_shout_sock_error();
+      return_value__shout_sock_recoverable_3=_shout_sock_recoverable(return_value__shout_sock_error_2);
+      if(return_value__shout_sock_recoverable_3 == 0)
         goto __CPROVER_DUMP_L2;
 
       return 1;
@@ -9403,7 +9403,7 @@ static signed int split_headers(char *data, unsigned long int len, char **line)
   unsigned long int i;
   line[(signed long int)lines] = data;
   i = (unsigned long int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(lines >= 32) && !(i >= len); i = i + 1ul)
   {
     if((signed int)data[(signed long int)i] == 13)
@@ -9419,11 +9419,11 @@ static signed int split_headers(char *data, unsigned long int len, char **line)
       if(!(1ul + i >= len))
       {
         if((signed int)data[1l + (signed long int)i] == 10)
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = (signed int)data[(signed long int)(i + (unsigned long int)1)] == 13 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (signed int)data[(signed long int)(i + (unsigned long int)1)] == 13 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
           break;
 
         line[(signed long int)lines] = &data[(signed long int)(i + (unsigned long int)1)];
@@ -9452,7 +9452,7 @@ static signed int theora_ilog(unsigned int v)
 
 // thread_spin_create
 // file thread.c line 817
-void thread_spin_create(struct anonymous$27 *spin)
+void thread_spin_create(struct anonymous_27 *spin)
 {
   signed int x;
   x=pthread_spin_init(&spin->lock, 0);
@@ -9463,14 +9463,14 @@ void thread_spin_create(struct anonymous$27 *spin)
 
 // thread_spin_destroy
 // file thread.c line 824
-void thread_spin_destroy(struct anonymous$27 *spin)
+void thread_spin_destroy(struct anonymous_27 *spin)
 {
   pthread_spin_destroy(&spin->lock);
 }
 
 // thread_spin_lock
 // file thread.c line 829
-void thread_spin_lock(struct anonymous$27 *spin)
+void thread_spin_lock(struct anonymous_27 *spin)
 {
   signed int x;
   x=pthread_spin_lock(&spin->lock);
@@ -9481,7 +9481,7 @@ void thread_spin_lock(struct anonymous$27 *spin)
 
 // thread_spin_unlock
 // file thread.c line 836
-void thread_spin_unlock(struct anonymous$27 *spin)
+void thread_spin_unlock(struct anonymous_27 *spin)
 {
   pthread_spin_unlock(&spin->lock);
 }
@@ -9492,22 +9492,22 @@ static signed int try_connect(struct shout *self)
 {
   signed int rc;
   signed int port;
-  unsigned int return_value_shout_get_protocol$1;
-  unsigned int return_value_shout_get_nonblocking$2;
-  unsigned int return_value_shout_get_nonblocking$3;
-  unsigned int return_value_shout_get_nonblocking$4;
-  unsigned int return_value_shout_get_nonblocking$5;
+  unsigned int return_value_shout_get_protocol_1;
+  unsigned int return_value_shout_get_nonblocking_2;
+  unsigned int return_value_shout_get_nonblocking_3;
+  unsigned int return_value_shout_get_nonblocking_4;
+  unsigned int return_value_shout_get_nonblocking_5;
   switch((signed int)self->state)
   {
     case SHOUT_STATE_UNCONNECTED:
     {
       port = self->port;
-      return_value_shout_get_protocol$1=shout_get_protocol(self);
-      if(return_value_shout_get_protocol$1 == 2u)
+      return_value_shout_get_protocol_1=shout_get_protocol(self);
+      if(return_value_shout_get_protocol_1 == 2u)
         port = port + 1;
 
-      return_value_shout_get_nonblocking$2=shout_get_nonblocking(self);
-      if(!(return_value_shout_get_nonblocking$2 == 0u))
+      return_value_shout_get_nonblocking_2=shout_get_nonblocking(self);
+      if(!(return_value_shout_get_nonblocking_2 == 0u))
       {
         self->socket=_shout_sock_connect_non_blocking(self->host, (unsigned int)port);
         if(!(self->socket >= 0))
@@ -9516,7 +9516,7 @@ static signed int try_connect(struct shout *self)
           return self->error;
         }
 
-        self->state = (enum anonymous$9)SHOUT_STATE_CONNECT_PENDING;
+        self->state = (enum anonymous_9)SHOUT_STATE_CONNECT_PENDING;
       }
 
       else
@@ -9532,13 +9532,13 @@ static signed int try_connect(struct shout *self)
         if(!(rc == 0))
           return rc;
 
-        self->state = (enum anonymous$9)SHOUT_STATE_REQ_PENDING;
+        self->state = (enum anonymous_9)SHOUT_STATE_REQ_PENDING;
       }
     }
     case SHOUT_STATE_CONNECT_PENDING:
     {
-      return_value_shout_get_nonblocking$3=shout_get_nonblocking(self);
-      if(!(return_value_shout_get_nonblocking$3 == 0u))
+      return_value_shout_get_nonblocking_3=shout_get_nonblocking(self);
+      if(!(return_value_shout_get_nonblocking_3 == 0u))
       {
         rc=_shout_sock_connected(self->socket, 0);
         if(!(rc >= 1))
@@ -9559,32 +9559,32 @@ static signed int try_connect(struct shout *self)
 
       }
 
-      self->state = (enum anonymous$9)SHOUT_STATE_REQ_PENDING;
+      self->state = (enum anonymous_9)SHOUT_STATE_REQ_PENDING;
     }
     case SHOUT_STATE_REQ_PENDING:
     {
       do
       {
         rc=send_queue(self);
-        return_value_shout_get_nonblocking$4=shout_get_nonblocking(self);
+        return_value_shout_get_nonblocking_4=shout_get_nonblocking(self);
       }
-      while(rc == -10 && return_value_shout_get_nonblocking$4 == 0u);
+      while(rc == -10 && return_value_shout_get_nonblocking_4 == 0u);
       if(rc == -10)
         return rc;
 
       if(!(rc == 0))
         break;
 
-      self->state = (enum anonymous$9)SHOUT_STATE_RESP_PENDING;
+      self->state = (enum anonymous_9)SHOUT_STATE_RESP_PENDING;
     }
     case SHOUT_STATE_RESP_PENDING:
     {
       do
       {
         rc=get_response(self);
-        return_value_shout_get_nonblocking$5=shout_get_nonblocking(self);
+        return_value_shout_get_nonblocking_5=shout_get_nonblocking(self);
       }
-      while(rc == -10 && return_value_shout_get_nonblocking$5 == 0u);
+      while(rc == -10 && return_value_shout_get_nonblocking_5 == 0u);
       if(rc == -10)
         return rc;
 
@@ -9631,7 +9631,7 @@ static signed int try_connect(struct shout *self)
           }
     }
     case SHOUT_STATE_CONNECTED:
-      self->state = (enum anonymous$9)SHOUT_STATE_CONNECTED;
+      self->state = (enum anonymous_9)SHOUT_STATE_CONNECTED;
     default:
       return 0;
   }
@@ -9659,11 +9659,11 @@ static signed int try_write(struct shout *self, const void *data_p, unsigned lon
   while(ret >= 0 && !(pos >= len));
   if(!(ret >= 0))
   {
-    signed int return_value__shout_sock_error$1;
-    return_value__shout_sock_error$1=_shout_sock_error();
-    signed int return_value__shout_sock_recoverable$2;
-    return_value__shout_sock_recoverable$2=_shout_sock_recoverable(return_value__shout_sock_error$1);
-    if(!(return_value__shout_sock_recoverable$2 == 0))
+    signed int return_value__shout_sock_error_1;
+    return_value__shout_sock_error_1=_shout_sock_error();
+    signed int return_value__shout_sock_recoverable_2;
+    return_value__shout_sock_recoverable_2=_shout_sock_recoverable(return_value__shout_sock_error_1);
+    if(!(return_value__shout_sock_recoverable_2 == 0))
     {
       self->error = -10;
       return (signed int)pos;
@@ -9681,26 +9681,26 @@ static signed int try_write(struct shout *self, const void *data_p, unsigned lon
 static char * url_escape(const char *src)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(src);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(src);
+  len = (signed int)return_value_strlen_1;
   unsigned char *decoded;
   signed int i;
   char *dst;
   signed int done = 0;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)1, (unsigned long int)(len + 1));
-  decoded = (unsigned char *)return_value_calloc$2;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)1, (unsigned long int)(len + 1));
+  decoded = (unsigned char *)return_value_calloc_2;
   dst = (char *)decoded;
   i = 0;
-  signed int return_value_hex$3;
-  _Bool tmp_if_expr$5;
-  signed int return_value_hex$4;
-  char *tmp_post$6;
-  signed int return_value_hex$7;
-  signed int return_value_hex$8;
-  char *tmp_post$9;
-  char *tmp_post$10;
+  signed int return_value_hex_3;
+  _Bool tmp_if_expr_5;
+  signed int return_value_hex_4;
+  char *tmp_post_6;
+  signed int return_value_hex_7;
+  signed int return_value_hex_8;
+  char *tmp_post_9;
+  char *tmp_post_10;
   for( ; !(i >= len); i = i + 1)
   {
     switch((signed int)src[(signed long int)i])
@@ -9713,34 +9713,34 @@ static char * url_escape(const char *src)
           return (char *)(void *)0;
         }
 
-        return_value_hex$3=hex(src[(signed long int)(i + 1)]);
-        if(return_value_hex$3 == -1)
-          tmp_if_expr$5 = (_Bool)1;
+        return_value_hex_3=hex(src[(signed long int)(i + 1)]);
+        if(return_value_hex_3 == -1)
+          tmp_if_expr_5 = (_Bool)1;
 
         else
         {
-          return_value_hex$4=hex(src[(signed long int)(i + 2)]);
-          tmp_if_expr$5 = return_value_hex$4 == -1 ? (_Bool)1 : (_Bool)0;
+          return_value_hex_4=hex(src[(signed long int)(i + 2)]);
+          tmp_if_expr_5 = return_value_hex_4 == -1 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$5)
+        if(tmp_if_expr_5)
         {
           free((void *)decoded);
           return (char *)(void *)0;
         }
 
-        tmp_post$6 = dst;
+        tmp_post_6 = dst;
         dst = dst + 1l;
-        return_value_hex$7=hex(src[(signed long int)(i + 1)]);
-        return_value_hex$8=hex(src[(signed long int)(i + 2)]);
-        *tmp_post$6 = (char)(return_value_hex$7 * 16 + return_value_hex$8);
+        return_value_hex_7=hex(src[(signed long int)(i + 1)]);
+        return_value_hex_8=hex(src[(signed long int)(i + 2)]);
+        *tmp_post_6 = (char)(return_value_hex_7 * 16 + return_value_hex_8);
         i = i + 2;
         break;
       }
       case 43:
       {
-        tmp_post$9 = dst;
+        tmp_post_9 = dst;
         dst = dst + 1l;
-        *tmp_post$9 = (char)32;
+        *tmp_post_9 = (char)32;
         break;
       }
       case 35:
@@ -9755,9 +9755,9 @@ static char * url_escape(const char *src)
       }
       default:
       {
-        tmp_post$10 = dst;
+        tmp_post_10 = dst;
         dst = dst + 1l;
-        *tmp_post$10 = src[(signed long int)i];
+        *tmp_post_10 = src[(signed long int)i];
       }
     }
     if(!(done == 0))
@@ -9770,12 +9770,12 @@ static char * url_escape(const char *src)
 
 // vorbis_blocksize
 // file vorbis.c line 108
-static signed int vorbis_blocksize(struct anonymous$30 *vd, struct anonymous$2 *p)
+static signed int vorbis_blocksize(struct anonymous_30 *vd, struct anonymous_2 *p)
 {
   signed int this;
-  signed long int return_value_vorbis_packet_blocksize$1;
-  return_value_vorbis_packet_blocksize$1=vorbis_packet_blocksize(&vd->vi, p);
-  this = (signed int)return_value_vorbis_packet_blocksize$1;
+  signed long int return_value_vorbis_packet_blocksize_1;
+  return_value_vorbis_packet_blocksize_1=vorbis_packet_blocksize(&vd->vi, p);
+  this = (signed int)return_value_vorbis_packet_blocksize_1;
   signed int ret = (this + vd->prevW) / 4;
   if(vd->prevW == 0)
   {

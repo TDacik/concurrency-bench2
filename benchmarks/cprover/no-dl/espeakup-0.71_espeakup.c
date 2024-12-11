@@ -1,38 +1,38 @@
-// #anon_enum$AUDIO_OUTPUT_PLAYBACK=0$AUDIO_OUTPUT_RETRIEVAL=1$AUDIO_OUTPUT_SYNCHRONOUS=2$AUDIO_OUTPUT_SYNCH_PLAYBACK=3
+// #anon_enum_AUDIO_OUTPUT_PLAYBACK=0_AUDIO_OUTPUT_RETRIEVAL=1_AUDIO_OUTPUT_SYNCHRONOUS=2_AUDIO_OUTPUT_SYNCH_PLAYBACK=3
 // file /usr/include/espeak/speak_lib.h line 155
-enum anonymous$1 { AUDIO_OUTPUT_PLAYBACK=0, AUDIO_OUTPUT_RETRIEVAL=1, AUDIO_OUTPUT_SYNCHRONOUS=2, AUDIO_OUTPUT_SYNCH_PLAYBACK=3 };
+enum anonymous_1 { AUDIO_OUTPUT_PLAYBACK=0, AUDIO_OUTPUT_RETRIEVAL=1, AUDIO_OUTPUT_SYNCHRONOUS=2, AUDIO_OUTPUT_SYNCH_PLAYBACK=3 };
 
-// #anon_enum$EE_OK=0$EE_INTERNAL_ERROR=-1$EE_BUFFER_FULL=1$EE_NOT_FOUND=2
+// #anon_enum_EE_OK=0_EE_INTERNAL_ERROR=-1_EE_BUFFER_FULL=1_EE_NOT_FOUND=2
 // file /usr/include/espeak/speak_lib.h line 171
-enum anonymous$7 { EE_OK=0, EE_INTERNAL_ERROR=-1, EE_BUFFER_FULL=1, EE_NOT_FOUND=2 };
+enum anonymous_7 { EE_OK=0, EE_INTERNAL_ERROR=-1, EE_BUFFER_FULL=1, EE_NOT_FOUND=2 };
 
-// #anon_enum$POS_CHARACTER=1$POS_WORD=2$POS_SENTENCE=3
+// #anon_enum_POS_CHARACTER=1_POS_WORD=2_POS_SENTENCE=3
 // file /usr/include/espeak/speak_lib.h line 148
-enum anonymous$0 { POS_CHARACTER=1, POS_WORD=2, POS_SENTENCE=3 };
+enum anonymous_0 { POS_CHARACTER=1, POS_WORD=2, POS_SENTENCE=3 };
 
-// #anon_enum$espeakSILENCE=0$espeakRATE=1$espeakVOLUME=2$espeakPITCH=3$espeakRANGE=4$espeakPUNCTUATION=5$espeakCAPITALS=6$espeakWORDGAP=7$espeakOPTIONS=8$espeakINTONATION=9$espeakRESERVED1=10$espeakRESERVED2=11$espeakEMPHASIS=12$espeakLINELENGTH=13$espeakVOICETYPE=14$N_SPEECH_PARAM=15
+// #anon_enum_espeakSILENCE=0_espeakRATE=1_espeakVOLUME=2_espeakPITCH=3_espeakRANGE=4_espeakPUNCTUATION=5_espeakCAPITALS=6_espeakWORDGAP=7_espeakOPTIONS=8_espeakINTONATION=9_espeakRESERVED1=10_espeakRESERVED2=11_espeakEMPHASIS=12_espeakLINELENGTH=13_espeakVOICETYPE=14_N_SPEECH_PARAM=15
 // file /usr/include/espeak/speak_lib.h line 390
-enum anonymous$2 { espeakSILENCE=0, espeakRATE=1, espeakVOLUME=2, espeakPITCH=3, espeakRANGE=4, espeakPUNCTUATION=5, espeakCAPITALS=6, espeakWORDGAP=7, espeakOPTIONS=8, espeakINTONATION=9, espeakRESERVED1=10, espeakRESERVED2=11, espeakEMPHASIS=12, espeakLINELENGTH=13, espeakVOICETYPE=14, N_SPEECH_PARAM=15 };
+enum anonymous_2 { espeakSILENCE=0, espeakRATE=1, espeakVOLUME=2, espeakPITCH=3, espeakRANGE=4, espeakPUNCTUATION=5, espeakCAPITALS=6, espeakWORDGAP=7, espeakOPTIONS=8, espeakINTONATION=9, espeakRESERVED1=10, espeakRESERVED2=11, espeakEMPHASIS=12, espeakLINELENGTH=13, espeakVOICETYPE=14, N_SPEECH_PARAM=15 };
 
-// tag-#anon#ST[*{cS8}$cS8$'name'||*{cS8}$cS8$'languages'||*{cS8}$cS8$'identifier'||U8'gender'||U8'age'||U8'variant'||U8'xx1'||S32'score'||*{V}$V$'spare'|]
+// tag-#anon#ST[*{cS8}_cS8_'name'||*{cS8}_cS8_'languages'||*{cS8}_cS8_'identifier'||U8'gender'||U8'age'||U8'variant'||U8'xx1'||S32'score'||*{V}_V_'spare'|]
 // file /usr/include/espeak/speak_lib.h line 540
 struct anonymous;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$4;
+union anonymous_4;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -110,25 +110,25 @@ signed int create_pid_file(void);
 extern signed int daemon(signed int, signed int);
 // espeak_Cancel
 // file /usr/include/espeak/speak_lib.h line 629
-enum anonymous$7 espeak_Cancel(void);
+enum anonymous_7 espeak_Cancel(void);
 // espeak_Initialize
 // file /usr/include/espeak/speak_lib.h line 185
-signed int espeak_Initialize(enum anonymous$1, signed int, const char *, signed int);
+signed int espeak_Initialize(enum anonymous_1, signed int, const char *, signed int);
 // espeak_SetParameter
 // file /usr/include/espeak/speak_lib.h line 419
-enum anonymous$7 espeak_SetParameter(enum anonymous$2, signed int, signed int);
+enum anonymous_7 espeak_SetParameter(enum anonymous_2, signed int, signed int);
 // espeak_SetVoiceByName
 // file /usr/include/espeak/speak_lib.h line 588
-enum anonymous$7 espeak_SetVoiceByName(const char *);
+enum anonymous_7 espeak_SetVoiceByName(const char *);
 // espeak_SetVoiceByProperties
 // file /usr/include/espeak/speak_lib.h line 601
-enum anonymous$7 espeak_SetVoiceByProperties(struct anonymous *);
+enum anonymous_7 espeak_SetVoiceByProperties(struct anonymous *);
 // espeak_Synth
 // file /usr/include/espeak/speak_lib.h line 276
-enum anonymous$7 espeak_Synth(const void *, unsigned long int, unsigned int, enum anonymous$0, unsigned int, unsigned int, unsigned int *, void *);
+enum anonymous_7 espeak_Synth(const void *, unsigned long int, unsigned int, enum anonymous_0, unsigned int, unsigned int, unsigned int *, void *);
 // espeak_Terminate
 // file /usr/include/espeak/speak_lib.h line 658
-enum anonymous$7 espeak_Terminate(void);
+enum anonymous_7 espeak_Terminate(void);
 // espeakup_is_running
 // file espeakup.c line 45
 signed int espeakup_is_running(void);
@@ -200,19 +200,19 @@ extern void process_cli(signed int argc, char **argv);
 static signed int process_command(struct synth_t *s, char *buf, signed int start);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$6 *);
+extern signed int pthread_cond_signal(union anonymous_6 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$6 *, union anonymous$4 *);
+extern signed int pthread_cond_wait(union anonymous_6 *, union anonymous_4 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$4 *);
+extern signed int pthread_mutex_lock(union anonymous_4 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$4 *);
+extern signed int pthread_mutex_unlock(union anonymous_4 *);
 // queue_add
 // file queue.c line 43
 static void queue_add(struct queue_entry_t *entry);
@@ -239,25 +239,25 @@ extern void * queue_runner(void *arg);
 extern signed long int read(signed int, void *, unsigned long int);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$3 *, struct anonymous$3 *, struct anonymous$3 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_3 *, struct anonymous_3 *, struct anonymous_3 *, struct timeval *);
 // set_frequency
 // file espeakup.h line 64
-extern enum anonymous$7 set_frequency(struct synth_t *s, signed int freq, enum adjust_t adj);
+extern enum anonymous_7 set_frequency(struct synth_t *s, signed int freq, enum adjust_t adj);
 // set_pitch
 // file espeakup.h line 66
-extern enum anonymous$7 set_pitch(struct synth_t *s, signed int pitch, enum adjust_t adj);
+extern enum anonymous_7 set_pitch(struct synth_t *s, signed int pitch, enum adjust_t adj);
 // set_punctuation
 // file espeakup.h line 68
-extern enum anonymous$7 set_punctuation(struct synth_t *s, signed int punct, enum adjust_t adj);
+extern enum anonymous_7 set_punctuation(struct synth_t *s, signed int punct, enum adjust_t adj);
 // set_rate
 // file espeakup.h line 70
-extern enum anonymous$7 set_rate(struct synth_t *s, signed int rate, enum adjust_t adj);
+extern enum anonymous_7 set_rate(struct synth_t *s, signed int rate, enum adjust_t adj);
 // set_voice
 // file espeakup.h line 72
-extern enum anonymous$7 set_voice(struct synth_t *s, char *voice);
+extern enum anonymous_7 set_voice(struct synth_t *s, char *voice);
 // set_volume
 // file espeakup.h line 73
-extern enum anonymous$7 set_volume(struct synth_t *s, signed int vol, enum adjust_t adj);
+extern enum anonymous_7 set_volume(struct synth_t *s, signed int vol, enum adjust_t adj);
 // show_help
 // file cli.c line 43
 static void show_help();
@@ -269,10 +269,10 @@ static void show_version(void);
 extern void (*signal(signed int, void (*)(signed int)))(signed int);
 // speak_text
 // file espeakup.h line 76
-extern enum anonymous$7 speak_text(struct synth_t *s);
+extern enum anonymous_7 speak_text(struct synth_t *s);
 // stop_speech
 // file espeakup.h line 75
-extern enum anonymous$7 stop_speech(void);
+extern enum anonymous_7 stop_speech(void);
 // strcpy
 // file /usr/include/string.h line 129
 extern char * strcpy(char *, const char *);
@@ -314,13 +314,13 @@ struct anonymous
   void *spare;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // __lock
   signed int __lock;
@@ -340,10 +340,10 @@ struct anonymous$5
   unsigned int __broadcast_seq;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __data
-  struct anonymous$5 __data;
+  struct anonymous_5 __data;
   // __size
   char __size[48l];
   // __align
@@ -378,7 +378,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -577,7 +577,7 @@ const char *pidPath = "/var/run/espeakup.pid";
 const signed int pitchMultiplier = 11;
 // queue_guard
 // file queue.c line 29
-union anonymous$4 queue_guard = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_4 queue_guard = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // rateMultiplier
@@ -588,7 +588,7 @@ const signed int rateMultiplier = 34;
 const signed int rateOffset = 84;
 // runner_awake
 // file queue.c line 28
-union anonymous$6 runner_awake = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_6 runner_awake = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -623,9 +623,9 @@ signed int create_pid_file(void)
 
   else
   {
-    signed int return_value_getpid$1;
-    return_value_getpid$1=getpid();
-    fprintf(pidFile, "%d\n", return_value_getpid$1);
+    signed int return_value_getpid_1;
+    return_value_getpid_1=getpid();
+    fprintf(pidFile, "%d\n", return_value_getpid_1);
     fclose(pidFile);
     return 0;
   }
@@ -640,23 +640,23 @@ signed int espeakup_is_running(void)
   signed int pid;
   rc = 0;
   pidFile=fopen(pidPath, "r");
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   if(!(pidFile == ((struct _IO_FILE *)NULL)))
   {
     fscanf(pidFile, "%d", &pid);
     fclose(pidFile);
-    signed int return_value_kill$1;
-    return_value_kill$1=kill(pid, 0);
-    if(return_value_kill$1 == 0)
-      tmp_if_expr$3 = (_Bool)1;
+    signed int return_value_kill_1;
+    return_value_kill_1=kill(pid, 0);
+    if(return_value_kill_1 == 0)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$2=__errno_location();
-      tmp_if_expr$3 = *return_value___errno_location$2 != 3 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_2=__errno_location();
+      tmp_if_expr_3 = *return_value___errno_location_2 != 3 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       rc = 1;
 
   }
@@ -699,9 +699,9 @@ signed int main(signed int argc, char **argv)
     .volume=0,
     .buf=((char *)NULL), .len=0 };
   process_cli(argc, argv);
-  signed int return_value_espeakup_is_running$1;
-  return_value_espeakup_is_running$1=espeakup_is_running();
-  if(!(return_value_espeakup_is_running$1 == 0))
+  signed int return_value_espeakup_is_running_1;
+  return_value_espeakup_is_running_1=espeakup_is_running();
+  if(!(return_value_espeakup_is_running_1 == 0))
   {
     printf("Espeakup is already running!\n");
     return 1;
@@ -709,9 +709,9 @@ signed int main(signed int argc, char **argv)
 
   else
   {
-    signed int return_value_open_softsynth$2;
-    return_value_open_softsynth$2=open_softsynth();
-    if(return_value_open_softsynth$2 == 0)
+    signed int return_value_open_softsynth_2;
+    return_value_open_softsynth_2=open_softsynth();
+    if(return_value_open_softsynth_2 == 0)
     {
       perror("Unable to open the softsynth device");
       return 3;
@@ -724,7 +724,7 @@ signed int main(signed int argc, char **argv)
       if(debug == 0)
         daemon(0, 1);
 
-      espeak_Initialize((enum anonymous$1)AUDIO_OUTPUT_PLAYBACK, 0, (const char *)(void *)0, 0);
+      espeak_Initialize((enum anonymous_1)AUDIO_OUTPUT_PLAYBACK, 0, (const char *)(void *)0, 0);
       if(!(defaultVoice == ((char *)NULL)))
       {
         set_voice(&s, defaultVoice);
@@ -736,7 +736,7 @@ signed int main(signed int argc, char **argv)
       set_pitch(&s, defaultPitch, (enum adjust_t)ADJ_SET);
       set_rate(&s, defaultRate, (enum adjust_t)ADJ_SET);
       set_volume(&s, defaultVolume, (enum adjust_t)ADJ_SET);
-      espeak_SetParameter((enum anonymous$2)espeakCAPITALS, 0, 0);
+      espeak_SetParameter((enum anonymous_2)espeakCAPITALS, 0, 0);
       signed int err;
       err=pthread_create(&queue_thread_id, (const union pthread_attr_t *)(void *)0, queue_runner, (void *)&s);
       if(!(err == 0))
@@ -746,9 +746,9 @@ signed int main(signed int argc, char **argv)
       {
         if(debug == 0)
         {
-          signed int return_value_create_pid_file$3;
-          return_value_create_pid_file$3=create_pid_file();
-          if(!(return_value_create_pid_file$3 >= 0))
+          signed int return_value_create_pid_file_3;
+          return_value_create_pid_file_3=create_pid_file();
+          if(!(return_value_create_pid_file_3 >= 0))
           {
             perror("Unable to create pid file");
             return 2;
@@ -767,30 +767,30 @@ signed int main(signed int argc, char **argv)
 // file espeakup.h line 79
 extern void main_loop(struct synth_t *s)
 {
-  struct anonymous$3 set;
+  struct anonymous_3 set;
   signed long int length;
-  const signed long int length$array_size0 = (signed long int)maxBufferSize;
-  char buf[length$array_size0];
+  const signed long int length_array_size0 = (signed long int)maxBufferSize;
+  char buf[length_array_size0];
   char *cp;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
   while((_Bool)1)
   {
     do
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&set)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&set)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     (&set)->__fds_bits[(signed long int)(softFD / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&set)->__fds_bits[(signed long int)(softFD / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << softFD % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-    signed int return_value_select$2;
-    return_value_select$2=select(softFD + 1, &set, (struct anonymous$3 *)(void *)0, (struct anonymous$3 *)(void *)0, (struct timeval *)(void *)0);
-    if(!(return_value_select$2 >= 0))
+    signed int return_value_select_2;
+    return_value_select_2=select(softFD + 1, &set, (struct anonymous_3 *)(void *)0, (struct anonymous_3 *)(void *)0, (struct timeval *)(void *)0);
+    if(!(return_value_select_2 >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 4)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 4)
         continue;
 
       perror("Select failed");
@@ -802,17 +802,17 @@ extern void main_loop(struct synth_t *s)
       length=read(softFD, (void *)buf, maxBufferSize - (unsigned long int)1);
       if(!(length >= 0l))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        if(*return_value___errno_location$3 == 11)
-          tmp_if_expr$5 = (_Bool)1;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        if(*return_value___errno_location_3 == 11)
+          tmp_if_expr_5 = (_Bool)1;
 
         else
         {
-          return_value___errno_location$4=__errno_location();
-          tmp_if_expr$5 = *return_value___errno_location$4 == 4 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_4=__errno_location();
+          tmp_if_expr_5 = *return_value___errno_location_4 == 4 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$5)
+        if(tmp_if_expr_5)
           continue;
 
         perror("Read from softsynth failed");
@@ -825,12 +825,12 @@ extern void main_loop(struct synth_t *s)
       {
         queue_clear();
         stop_speech();
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(cp + (signed long int)1);
-        memmove((void *)buf, (const void *)(cp + (signed long int)1), return_value_strlen$6 + (unsigned long int)1);
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen(buf);
-        length = (signed long int)return_value_strlen$7;
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(cp + (signed long int)1);
+        memmove((void *)buf, (const void *)(cp + (signed long int)1), return_value_strlen_6 + (unsigned long int)1);
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen(buf);
+        length = (signed long int)return_value_strlen_7;
       }
 
       process_buffer(s, buf, length);
@@ -859,12 +859,12 @@ static void process_buffer(struct synth_t *s, char *buf, signed long int length)
 {
   signed int start;
   signed int end;
-  const signed long int end$array_size0 = (signed long int)maxBufferSize;
-  char txtBuf[end$array_size0];
+  const signed long int end_array_size0 = (signed long int)maxBufferSize;
+  char txtBuf[end_array_size0];
   unsigned long int txtLen;
   start = 0;
   end = 0;
-  signed int return_value_process_command$1;
+  signed int return_value_process_command_1;
   while(!((signed long int)start >= length))
   {
     for( ; (_Bool)1; end = end + 1)
@@ -897,8 +897,8 @@ static void process_buffer(struct synth_t *s, char *buf, signed long int length)
 
     if(!((signed long int)end >= length))
     {
-      return_value_process_command$1=process_command(s, buf, end);
-      end = end + return_value_process_command$1;
+      return_value_process_command_1=process_command(s, buf, end);
+      end = end + return_value_process_command_1;
       start = end;
     }
 
@@ -969,7 +969,7 @@ static signed int process_command(struct synth_t *s, char *buf, signed int start
   enum adjust_t adj;
   enum command_t cmd;
   cp = buf + (signed long int)start;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   if((signed int)*cp == 1)
   {
     cp = cp + 1l;
@@ -993,8 +993,8 @@ static signed int process_command(struct synth_t *s, char *buf, signed int start
     value = 0;
     do
     {
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*cp]) == 0)
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*cp]) == 0)
         break;
 
       value = value * 10 + ((signed int)*cp - 48);
@@ -1075,9 +1075,9 @@ static void queue_add(struct queue_entry_t *entry)
 extern void queue_add_cmd(enum command_t cmd, enum adjust_t adj, signed int value)
 {
   struct queue_entry_t *entry;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct queue_entry_t) /*40ul*/ );
-  entry = (struct queue_entry_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct queue_entry_t) /*40ul*/ );
+  entry = (struct queue_entry_t *)return_value_malloc_1;
   if(entry == ((struct queue_entry_t *)NULL))
     perror("unable to allocate memory for queue entry");
 
@@ -1095,9 +1095,9 @@ extern void queue_add_cmd(enum command_t cmd, enum adjust_t adj, signed int valu
 extern void queue_add_text(char *txt, unsigned long int length)
 {
   struct queue_entry_t *entry;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct queue_entry_t) /*40ul*/ );
-  entry = (struct queue_entry_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct queue_entry_t) /*40ul*/ );
+  entry = (struct queue_entry_t *)return_value_malloc_1;
   if(entry == ((struct queue_entry_t *)NULL))
     perror("unable to allocate memory for queue entry");
 
@@ -1140,7 +1140,7 @@ extern void queue_clear(void)
 // file queue.c line 133
 static void queue_process_entry(struct synth_t *s)
 {
-  enum anonymous$7 error;
+  enum anonymous_7 error;
   struct queue_entry_t *current;
   current=queue_remove();
   pthread_mutex_unlock(&queue_guard);
@@ -1224,16 +1224,16 @@ extern void * queue_runner(void *arg)
 
 // set_frequency
 // file espeakup.h line 64
-extern enum anonymous$7 set_frequency(struct synth_t *s, signed int freq, enum adjust_t adj)
+extern enum anonymous_7 set_frequency(struct synth_t *s, signed int freq, enum adjust_t adj)
 {
-  enum anonymous$7 rc;
+  enum anonymous_7 rc;
   if((signed int)adj == ADJ_DEC)
     freq = -freq;
 
   if(!((signed int)adj == ADJ_SET))
     freq = freq + s->frequency;
 
-  rc=espeak_SetParameter((enum anonymous$2)espeakRANGE, freq * frequencyMultiplier, 0);
+  rc=espeak_SetParameter((enum anonymous_2)espeakRANGE, freq * frequencyMultiplier, 0);
   if((signed int)rc == EE_OK)
     s->frequency = freq;
 
@@ -1242,16 +1242,16 @@ extern enum anonymous$7 set_frequency(struct synth_t *s, signed int freq, enum a
 
 // set_pitch
 // file espeakup.h line 66
-extern enum anonymous$7 set_pitch(struct synth_t *s, signed int pitch, enum adjust_t adj)
+extern enum anonymous_7 set_pitch(struct synth_t *s, signed int pitch, enum adjust_t adj)
 {
-  enum anonymous$7 rc;
+  enum anonymous_7 rc;
   if((signed int)adj == ADJ_DEC)
     pitch = -pitch;
 
   if(!((signed int)adj == ADJ_SET))
     pitch = pitch + s->pitch;
 
-  rc=espeak_SetParameter((enum anonymous$2)espeakPITCH, pitch * pitchMultiplier, 0);
+  rc=espeak_SetParameter((enum anonymous_2)espeakPITCH, pitch * pitchMultiplier, 0);
   if((signed int)rc == EE_OK)
     s->pitch = pitch;
 
@@ -1260,16 +1260,16 @@ extern enum anonymous$7 set_pitch(struct synth_t *s, signed int pitch, enum adju
 
 // set_punctuation
 // file espeakup.h line 68
-extern enum anonymous$7 set_punctuation(struct synth_t *s, signed int punct, enum adjust_t adj)
+extern enum anonymous_7 set_punctuation(struct synth_t *s, signed int punct, enum adjust_t adj)
 {
-  enum anonymous$7 rc;
+  enum anonymous_7 rc;
   if((signed int)adj == ADJ_DEC)
     punct = -punct;
 
   if(!((signed int)adj == ADJ_SET))
     punct = punct + s->punct;
 
-  rc=espeak_SetParameter((enum anonymous$2)espeakPUNCTUATION, punct, 0);
+  rc=espeak_SetParameter((enum anonymous_2)espeakPUNCTUATION, punct, 0);
   if((signed int)rc == EE_OK)
     s->punct = punct;
 
@@ -1278,16 +1278,16 @@ extern enum anonymous$7 set_punctuation(struct synth_t *s, signed int punct, enu
 
 // set_rate
 // file espeakup.h line 70
-extern enum anonymous$7 set_rate(struct synth_t *s, signed int rate, enum adjust_t adj)
+extern enum anonymous_7 set_rate(struct synth_t *s, signed int rate, enum adjust_t adj)
 {
-  enum anonymous$7 rc;
+  enum anonymous_7 rc;
   if((signed int)adj == ADJ_DEC)
     rate = -rate;
 
   if(!((signed int)adj == ADJ_SET))
     rate = rate + s->rate;
 
-  rc=espeak_SetParameter((enum anonymous$2)espeakRATE, rate * rateMultiplier + rateOffset, 0);
+  rc=espeak_SetParameter((enum anonymous_2)espeakRATE, rate * rateMultiplier + rateOffset, 0);
   if((signed int)rc == EE_OK)
     s->rate = rate;
 
@@ -1296,9 +1296,9 @@ extern enum anonymous$7 set_rate(struct synth_t *s, signed int rate, enum adjust
 
 // set_voice
 // file espeakup.h line 72
-extern enum anonymous$7 set_voice(struct synth_t *s, char *voice)
+extern enum anonymous_7 set_voice(struct synth_t *s, char *voice)
 {
-  enum anonymous$7 rc;
+  enum anonymous_7 rc;
   rc=espeak_SetVoiceByName(voice);
   if(!((signed int)rc == EE_OK))
   {
@@ -1316,16 +1316,16 @@ extern enum anonymous$7 set_voice(struct synth_t *s, char *voice)
 
 // set_volume
 // file espeakup.h line 73
-extern enum anonymous$7 set_volume(struct synth_t *s, signed int vol, enum adjust_t adj)
+extern enum anonymous_7 set_volume(struct synth_t *s, signed int vol, enum adjust_t adj)
 {
-  enum anonymous$7 rc;
+  enum anonymous_7 rc;
   if((signed int)adj == ADJ_DEC)
     vol = -vol;
 
   if(!((signed int)adj == ADJ_SET))
     vol = vol + s->volume;
 
-  rc=espeak_SetParameter((enum anonymous$2)espeakVOLUME, (vol + 1) * volumeMultiplier, 0);
+  rc=espeak_SetParameter((enum anonymous_2)espeakVOLUME, (vol + 1) * volumeMultiplier, 0);
   if((signed int)rc == EE_OK)
     s->volume = vol;
 
@@ -1358,35 +1358,35 @@ static void show_version(void)
 
 // speak_text
 // file espeakup.h line 76
-extern enum anonymous$7 speak_text(struct synth_t *s)
+extern enum anonymous_7 speak_text(struct synth_t *s)
 {
-  enum anonymous$7 rc;
+  enum anonymous_7 rc;
   if(s->len == 1)
   {
     char *buf;
     signed int n;
     n=asprintf(&buf, (const void *)"<say-as interpret-as=\"characters\">%c</say-as>", s->buf[(signed long int)0]);
     if(n == -1)
-      rc=espeak_Synth((const void *)s->buf, (unsigned long int)(s->len + 1), (unsigned int)0, (enum anonymous$0)POS_CHARACTER, (unsigned int)0, (unsigned int)0, (unsigned int *)(void *)0, (void *)0);
+      rc=espeak_Synth((const void *)s->buf, (unsigned long int)(s->len + 1), (unsigned int)0, (enum anonymous_0)POS_CHARACTER, (unsigned int)0, (unsigned int)0, (unsigned int *)(void *)0, (void *)0);
 
     else
     {
-      rc=espeak_Synth((const void *)buf, (unsigned long int)(n + 1), (unsigned int)0, (enum anonymous$0)POS_CHARACTER, (unsigned int)0, (unsigned int)0x10, (unsigned int *)(void *)0, (void *)0);
+      rc=espeak_Synth((const void *)buf, (unsigned long int)(n + 1), (unsigned int)0, (enum anonymous_0)POS_CHARACTER, (unsigned int)0, (unsigned int)0x10, (unsigned int *)(void *)0, (void *)0);
       free(buf);
     }
   }
 
   else
-    rc=espeak_Synth((const void *)s->buf, (unsigned long int)(s->len + 1), (unsigned int)0, (enum anonymous$0)POS_CHARACTER, (unsigned int)0, (unsigned int)0, (unsigned int *)(void *)0, (void *)0);
+    rc=espeak_Synth((const void *)s->buf, (unsigned long int)(s->len + 1), (unsigned int)0, (enum anonymous_0)POS_CHARACTER, (unsigned int)0, (unsigned int)0, (unsigned int *)(void *)0, (void *)0);
   return rc;
 }
 
 // stop_speech
 // file espeakup.h line 75
-extern enum anonymous$7 stop_speech(void)
+extern enum anonymous_7 stop_speech(void)
 {
-  enum anonymous$7 return_value_espeak_Cancel$1;
-  return_value_espeak_Cancel$1=espeak_Cancel();
-  return return_value_espeak_Cancel$1;
+  enum anonymous_7 return_value_espeak_Cancel_1;
+  return_value_espeak_Cancel_1=espeak_Cancel();
+  return return_value_espeak_Cancel_1;
 }
 

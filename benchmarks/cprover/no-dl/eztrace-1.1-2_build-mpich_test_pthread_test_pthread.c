@@ -1,34 +1,34 @@
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]
+// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 177
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 239
 union anonymous;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[ARR8{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR8{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 224
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]#'__data'||ARR56{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]#'__data'||ARR56{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 174
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$3;
+union anonymous_3;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -85,16 +85,16 @@ extern signed int gettimeofday(struct timeval *, struct timezone *);
 extern signed int pthread_barrier_destroy(union anonymous *);
 // pthread_barrier_init
 // file /usr/include/pthread.h line 1070
-extern signed int pthread_barrier_init(union anonymous *, const union anonymous$4 *, unsigned int);
+extern signed int pthread_barrier_init(union anonymous *, const union anonymous_4 *, unsigned int);
 // pthread_barrier_wait
 // file /usr/include/pthread.h line 1080
 extern signed int pthread_barrier_wait(union anonymous *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$6 *);
+extern signed int pthread_cond_destroy(union anonymous_6 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$6 *, const union anonymous$4 *);
+extern signed int pthread_cond_init(union anonymous_6 *, const union anonymous_4 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -103,31 +103,31 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$3 *);
+extern signed int pthread_mutex_destroy(union anonymous_3 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$3 *, const union anonymous$4 *);
+extern signed int pthread_mutex_init(union anonymous_3 *, const union anonymous_4 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$3 *);
+extern signed int pthread_mutex_lock(union anonymous_3 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$3 *);
+extern signed int pthread_mutex_unlock(union anonymous_3 *);
 // pthread_rwlock_destroy
 // file /usr/include/pthread.h line 895
-extern signed int pthread_rwlock_destroy(union anonymous$0 *);
+extern signed int pthread_rwlock_destroy(union anonymous_0 *);
 // pthread_rwlock_init
 // file /usr/include/pthread.h line 890
-extern signed int pthread_rwlock_init(union anonymous$0 *, const union anonymous$1 *);
+extern signed int pthread_rwlock_init(union anonymous_0 *, const union anonymous_1 *);
 // pthread_rwlock_rdlock
 // file /usr/include/pthread.h line 899
-extern signed int pthread_rwlock_rdlock(union anonymous$0 *);
+extern signed int pthread_rwlock_rdlock(union anonymous_0 *);
 // pthread_rwlock_unlock
 // file /usr/include/pthread.h line 929
-extern signed int pthread_rwlock_unlock(union anonymous$0 *);
+extern signed int pthread_rwlock_unlock(union anonymous_0 *);
 // pthread_rwlock_wrlock
 // file /usr/include/pthread.h line 914
-extern signed int pthread_rwlock_wrlock(union anonymous$0 *);
+extern signed int pthread_rwlock_wrlock(union anonymous_0 *);
 // pthread_spin_destroy
 // file /usr/include/pthread.h line 1050
 extern signed int pthread_spin_destroy(volatile signed int *);
@@ -153,7 +153,7 @@ extern signed int sem_wait(union anonymous *);
 // file /usr/include/stdio.h line 371
 extern signed int vfprintf(struct _IO_FILE *, const char *, void **);
 
-struct anonymous$5
+struct anonymous_5
 {
   // __lock
   signed int __lock;
@@ -173,7 +173,7 @@ struct anonymous$5
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __lock
   signed int __lock;
@@ -209,7 +209,7 @@ union anonymous
   signed long int __align;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __size
   char __size[4l];
@@ -217,7 +217,7 @@ union anonymous$4
   signed int __align;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __size
   char __size[8l];
@@ -225,20 +225,20 @@ union anonymous$1
   signed long int __align;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __data
-  struct anonymous$5 __data;
+  struct anonymous_5 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
-  struct anonymous$2 __data;
+  struct anonymous_2 __data;
   // __size
   char __size[56l];
   // __align
@@ -273,7 +273,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -388,13 +388,13 @@ signed int _debug = -77;
 union anonymous barrier;
 // cond
 // file ../../../test/pthread/test_pthread.c line 66
-union anonymous$6 cond;
+union anonymous_6 cond;
 // mutex
 // file ../../../test/pthread/test_pthread.c line 63
-union anonymous$3 mutex;
+union anonymous_3 mutex;
 // rwlock
 // file ../../../test/pthread/test_pthread.c line 67
-union anonymous$0 rwlock;
+union anonymous_0 rwlock;
 // sem
 // file ../../../test/pthread/test_pthread.c line 61
 union anonymous sem[2l];
@@ -490,11 +490,11 @@ signed int main(signed int argc, char **argv)
 {
   unsigned long int tid[2l];
   signed int i;
-  pthread_mutex_init(&mutex, (const union anonymous$4 *)(void *)0);
+  pthread_mutex_init(&mutex, (const union anonymous_4 *)(void *)0);
   pthread_spin_init(&spinlock, 0);
-  pthread_barrier_init(&barrier, (const union anonymous$4 *)(void *)0, (unsigned int)2);
-  pthread_cond_init(&cond, (const union anonymous$4 *)(void *)0);
-  pthread_rwlock_init(&rwlock, (const union anonymous$1 *)(void *)0);
+  pthread_barrier_init(&barrier, (const union anonymous_4 *)(void *)0, (unsigned int)2);
+  pthread_cond_init(&cond, (const union anonymous_4 *)(void *)0);
+  pthread_rwlock_init(&rwlock, (const union anonymous_1 *)(void *)0);
   sem_init(&thread_ready, 0, (unsigned int)0);
   i = 0;
   for( ; !(i >= 2); i = i + 1)

@@ -1,62 +1,62 @@
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__bits'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__bits'|]
 // file /usr/include/x86_64-linux-gnu/bits/sched.h line 125
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$11;
+struct anonymous_11;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
 struct anonymous;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$2;
+struct anonymous_2;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$9;
+struct anonymous_9;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$13;
+union anonymous_13;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -164,13 +164,13 @@ extern signed int printf(const char *, ...);
 void progressbar(char *label, unsigned int cur, unsigned int total);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$6 *);
+extern signed int pthread_cond_broadcast(union anonymous_6 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$6 *);
+extern signed int pthread_cond_signal(union anonymous_6 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$6 *, union anonymous$13 *);
+extern signed int pthread_cond_wait(union anonymous_6 *, union anonymous_13 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -179,22 +179,22 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$13 *);
+extern signed int pthread_mutex_lock(union anonymous_13 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$13 *);
+extern signed int pthread_mutex_unlock(union anonymous_13 *);
 // rand
 // file /usr/include/stdlib.h line 374
 extern signed int rand(void);
 // sched_setaffinity
 // file /usr/include/sched.h line 118
-extern signed int sched_setaffinity(signed int, unsigned long int, const struct anonymous$12 *);
+extern signed int sched_setaffinity(signed int, unsigned long int, const struct anonymous_12 *);
 // sigaction
 // file /usr/include/signal.h line 259
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$8 *);
+extern signed int sigemptyset(struct anonymous_8 *);
 // sleep
 // file /usr/include/unistd.h line 444
 extern unsigned int sleep(unsigned int);
@@ -217,7 +217,7 @@ extern signed int sysinfo(struct sysinfo *);
 // file ../../src/threaded_memtest.c line 253
 void usage(void);
 
-struct anonymous$5
+struct anonymous_5
 {
   // _call_addr
   void *_call_addr;
@@ -227,7 +227,7 @@ struct anonymous$5
   unsigned int _arch;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // si_addr
   void *si_addr;
@@ -235,19 +235,19 @@ struct anonymous$3
   signed short int si_addr_lsb;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // __bits
   unsigned long int __bits[16l];
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // __lock
   signed int __lock;
@@ -275,7 +275,7 @@ struct anonymous
   unsigned int si_uid;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // si_pid
   signed int si_pid;
@@ -297,7 +297,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // si_pid
   signed int si_pid;
@@ -307,7 +307,7 @@ struct anonymous$1
   union sigval si_sigval;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // si_tid
   signed int si_tid;
@@ -317,7 +317,7 @@ struct anonymous$0
   union sigval si_sigval;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // si_band
   signed long int si_band;
@@ -325,27 +325,27 @@ struct anonymous$4
   signed int si_fd;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // _pad
   signed int _pad[28l];
   // _kill
   struct anonymous _kill;
   // _timer
-  struct anonymous$0 _timer;
+  struct anonymous_0 _timer;
   // _rt
-  struct anonymous$1 _rt;
+  struct anonymous_1 _rt;
   // _sigchld
-  struct anonymous$2 _sigchld;
+  struct anonymous_2 _sigchld;
   // _sigfault
-  struct anonymous$3 _sigfault;
+  struct anonymous_3 _sigfault;
   // _sigpoll
-  struct anonymous$4 _sigpoll;
+  struct anonymous_4 _sigpoll;
   // _sigsys
-  struct anonymous$5 _sigsys;
+  struct anonymous_5 _sigsys;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // si_signo
   signed int si_signo;
@@ -354,21 +354,21 @@ struct anonymous$9
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$7 _sifields;
+  union anonymous_7 _sifields;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$9 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_9 *, void *);
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __data
-  struct anonymous$11 __data;
+  struct anonymous_11 __data;
   // __size
   char __size[48l];
   // __align
@@ -403,7 +403,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -496,9 +496,9 @@ union pthread_attr_t
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$10 __sigaction_handler;
+  union anonymous_10 __sigaction_handler;
   // sa_mask
-  struct anonymous$8 sa_mask;
+  struct anonymous_8 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -562,7 +562,7 @@ char *basename = (char *)(void *)0;
 unsigned int created_threads = (unsigned int)0;
 // ct_mutex
 // file ../../src/threaded_memtest.c line 72
-union anonymous$13 ct_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_13 ct_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // default_memsize
@@ -585,24 +585,24 @@ struct timeval duration = { .tv_sec=(signed long int)0, .tv_usec=(signed long in
 struct timeval finish = { .tv_sec=(signed long int)0, .tv_usec=(signed long int)0 };
 // finish_cond
 // file ../../src/threaded_memtest.c line 83
-union anonymous$6 finish_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_6 finish_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // finish_mutex
 // file ../../src/threaded_memtest.c line 82
-union anonymous$13 finish_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_13 finish_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // init_cond
 // file ../../src/threaded_memtest.c line 77
-union anonymous$6 init_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_6 init_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // init_mutex
 // file ../../src/threaded_memtest.c line 76
-union anonymous$13 init_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_13 init_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // live_threads
@@ -613,7 +613,7 @@ unsigned int live_threads = (unsigned int)0;
 unsigned long int *loop_counters = (unsigned long int *)(void *)0;
 // lt_mutex
 // file ../../src/threaded_memtest.c line 74
-union anonymous$13 lt_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_13 lt_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // memsize
@@ -624,7 +624,7 @@ unsigned long int memsize;
 char memsize_str[22l];
 // mmap_cond
 // file ../../src/threaded_memtest.c line 79
-union anonymous$6 mmap_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_6 mmap_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -633,7 +633,7 @@ union anonymous$6 mmap_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .
 unsigned int mmap_done = (unsigned int)0;
 // mmap_mutex
 // file ../../src/threaded_memtest.c line 78
-union anonymous$13 mmap_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_13 mmap_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // mmap_regions
@@ -671,12 +671,12 @@ extern struct _IO_FILE *stderr;
 extern struct _IO_FILE *stdout;
 // test_mutex
 // file ../../src/threaded_memtest.c line 80
-union anonymous$13 test_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_13 test_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // test_start
 // file ../../src/threaded_memtest.c line 81
-union anonymous$6 test_start = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_6 test_start = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -742,17 +742,17 @@ signed int main(signed int argc, char **argv)
 
   else
     basename = argv[(signed long int)0];
-  signed long int return_value_sysconf$1;
-  return_value_sysconf$1=sysconf(83);
-  num_cpus = (unsigned int)return_value_sysconf$1;
+  signed long int return_value_sysconf_1;
+  return_value_sysconf_1=sysconf(83);
+  num_cpus = (unsigned int)return_value_sysconf_1;
   if(!(default_threads >= 2u * num_cpus))
     default_threads = num_cpus * (unsigned int)2;
 
-  signed int return_value_sysinfo$2;
-  return_value_sysinfo$2=sysinfo(&info);
-  signed int return_value_atoi$3;
-  signed int return_value_atoi$4;
-  if(!(return_value_sysinfo$2 == 0))
+  signed int return_value_sysinfo_2;
+  return_value_sysinfo_2=sysinfo(&info);
+  signed int return_value_atoi_3;
+  signed int return_value_atoi_4;
+  if(!(return_value_sysinfo_2 == 0))
   {
     perror("sysinfo");
     return -1;
@@ -796,8 +796,8 @@ signed int main(signed int argc, char **argv)
         }
         case 116:
         {
-          return_value_atoi$3=atoi(optarg);
-          runtime = (unsigned int)return_value_atoi$3;
+          return_value_atoi_3=atoi(optarg);
+          runtime = (unsigned int)return_value_atoi_3;
           if(runtime == 0u)
           {
             printf("%s: error: bad runtime \"%s\"\n", basename, optarg);
@@ -808,8 +808,8 @@ signed int main(signed int argc, char **argv)
         }
         case 110:
         {
-          return_value_atoi$4=atoi(optarg);
-          num_threads = (unsigned int)return_value_atoi$4;
+          return_value_atoi_4=atoi(optarg);
+          num_threads = (unsigned int)return_value_atoi_4;
           if(num_threads == 0u)
           {
             printf("%s: error: bad thread count \"%s\"\n", basename, optarg);
@@ -843,33 +843,33 @@ signed int main(signed int argc, char **argv)
     if(!(verbose == 0))
     {
       printf("Detected %u processors.\n", num_cpus);
-      char *return_value_human_memsize$5;
-      return_value_human_memsize$5=human_memsize(free_mem);
-      printf("RAM: %.1f%% free (%s/", (100.0 * (double)free_mem) / (double)total_ram, return_value_human_memsize$5);
-      char *return_value_human_memsize$6;
-      return_value_human_memsize$6=human_memsize(total_ram);
-      printf("%s)\n", return_value_human_memsize$6);
+      char *return_value_human_memsize_5;
+      return_value_human_memsize_5=human_memsize(free_mem);
+      printf("RAM: %.1f%% free (%s/", (100.0 * (double)free_mem) / (double)total_ram, return_value_human_memsize_5);
+      char *return_value_human_memsize_6;
+      return_value_human_memsize_6=human_memsize(total_ram);
+      printf("%s)\n", return_value_human_memsize_6);
     }
 
-    char *return_value_human_memsize$7;
-    return_value_human_memsize$7=human_memsize(memsize);
-    printf("Testing %s RAM for %u seconds using %u threads:\n", return_value_human_memsize$7, runtime, num_threads);
-    void *return_value_malloc$8;
-    return_value_malloc$8=malloc((unsigned long int)num_threads * sizeof(unsigned long int) /*8ul*/ );
-    threads = (unsigned long int *)return_value_malloc$8;
-    void *return_value_malloc$9;
-    return_value_malloc$9=malloc((unsigned long int)num_threads * sizeof(char *) /*8ul*/ );
-    mmap_regions = (char **)return_value_malloc$9;
-    void *return_value_malloc$10;
-    return_value_malloc$10=malloc((unsigned long int)num_threads * sizeof(unsigned long int *) /*8ul*/ );
-    loop_counters = (unsigned long int *)return_value_malloc$10;
+    char *return_value_human_memsize_7;
+    return_value_human_memsize_7=human_memsize(memsize);
+    printf("Testing %s RAM for %u seconds using %u threads:\n", return_value_human_memsize_7, runtime, num_threads);
+    void *return_value_malloc_8;
+    return_value_malloc_8=malloc((unsigned long int)num_threads * sizeof(unsigned long int) /*8ul*/ );
+    threads = (unsigned long int *)return_value_malloc_8;
+    void *return_value_malloc_9;
+    return_value_malloc_9=malloc((unsigned long int)num_threads * sizeof(char *) /*8ul*/ );
+    mmap_regions = (char **)return_value_malloc_9;
+    void *return_value_malloc_10;
+    return_value_malloc_10=malloc((unsigned long int)num_threads * sizeof(unsigned long int *) /*8ul*/ );
+    loop_counters = (unsigned long int *)return_value_malloc_10;
     while(!(created_threads >= num_threads))
     {
       pthread_mutex_lock(&mmap_mutex);
       mmap_done = (unsigned int)0;
-      signed int return_value_pthread_create$11;
-      return_value_pthread_create$11=pthread_create(&threads[(signed long int)created_threads], (const union pthread_attr_t *)(void *)0, mem_twiddler, (void *)&mapsize);
-      if(!(return_value_pthread_create$11 == 0))
+      signed int return_value_pthread_create_11;
+      return_value_pthread_create_11=pthread_create(&threads[(signed long int)created_threads], (const union pthread_attr_t *)(void *)0, mem_twiddler, (void *)&mapsize);
+      if(!(return_value_pthread_create_11 == 0))
       {
         perror("pthread_create");
         exit(1);
@@ -902,9 +902,9 @@ signed int main(signed int argc, char **argv)
     i = 0;
     while(done == 0u && !((unsigned int)i >= runtime))
     {
-      unsigned int return_value_sleep$12;
-      return_value_sleep$12=sleep((unsigned int)1);
-      if(return_value_sleep$12 == 0u)
+      unsigned int return_value_sleep_12;
+      return_value_sleep_12=sleep((unsigned int)1);
+      if(return_value_sleep_12 == 0u)
         i = i + 1;
 
       if(quiet == 0)
@@ -968,9 +968,9 @@ void * mem_twiddler(void *arg)
   char *my_region;
   unsigned long int mapsize = *((unsigned long int *)arg);
   pthread_mutex_lock(&ct_mutex);
-  unsigned int tmp_post$1 = created_threads;
+  unsigned int tmp_post_1 = created_threads;
   created_threads = created_threads + 1u;
-  thread_id = (unsigned long int)tmp_post$1;
+  thread_id = (unsigned long int)tmp_post_1;
   pthread_mutex_unlock(&ct_mutex);
   if(!(parallel == 0))
   {
@@ -979,20 +979,20 @@ void * mem_twiddler(void *arg)
   }
 
   on_cpu((unsigned int)(thread_id % (unsigned long int)num_cpus));
-  signed int return_value_getpagesize$2;
-  return_value_getpagesize$2=getpagesize();
-  pagesize = (unsigned long int)return_value_getpagesize$2;
+  signed int return_value_getpagesize_2;
+  return_value_getpagesize_2=getpagesize();
+  pagesize = (unsigned long int)return_value_getpagesize_2;
   pages = mapsize / pagesize;
-  char *return_value_human_memsize$3;
+  char *return_value_human_memsize_3;
   if(!(verbose == 0))
   {
-    return_value_human_memsize$3=human_memsize(mapsize);
-    printf("thread %ld: mapping %s RAM\n", thread_id, return_value_human_memsize$3);
+    return_value_human_memsize_3=human_memsize(mapsize);
+    printf("thread %ld: mapping %s RAM\n", thread_id, return_value_human_memsize_3);
   }
 
-  void *return_value_mmap$4;
-  return_value_mmap$4=mmap((void *)0, mapsize, 0x1 | 0x2, 0x20 | 0x02, -1, (signed long int)0);
-  my_region = (char *)return_value_mmap$4;
+  void *return_value_mmap_4;
+  return_value_mmap_4=mmap((void *)0, mapsize, 0x1 | 0x2, 0x20 | 0x02, -1, (signed long int)0);
+  my_region = (char *)return_value_mmap_4;
   if(my_region == (char *)-1)
   {
     perror("mmap");
@@ -1033,44 +1033,44 @@ void * mem_twiddler(void *arg)
     printf("thread %lu: test start\n", thread_id);
 
   loop_counters[(signed long int)thread_id] = (unsigned long int)0;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
   while(done == 0u)
   {
-    signed int return_value_rand$5;
-    return_value_rand$5=rand();
-    t = (signed int)((unsigned int)return_value_rand$5 % num_threads);
-    signed int return_value_rand$6;
-    return_value_rand$6=rand();
-    p = (unsigned long int)return_value_rand$6 % pages;
+    signed int return_value_rand_5;
+    return_value_rand_5=rand();
+    t = (signed int)((unsigned int)return_value_rand_5 % num_threads);
+    signed int return_value_rand_6;
+    return_value_rand_6=rand();
+    p = (unsigned long int)return_value_rand_6 % pages;
     lp = (signed long int *)&mmap_regions[(signed long int)t][(signed long int)(p * pagesize)];
     if(!(*lp == 3735928559l))
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = lp[(signed long int)1] != (signed long int)t ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$7)
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_7 = lp[(signed long int)1] != (signed long int)t ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_7)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
-      tmp_if_expr$8 = (unsigned long int)lp[(signed long int)2] != p ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$8)
+      tmp_if_expr_8 = (unsigned long int)lp[(signed long int)2] != p ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_8)
     {
       fprintf(stderr, "MEMORY CORRUPTION DETECTED\n");
       fprintf(stderr, "thread %lu (CPU %lu) reading map %u, page %lu\n", thread_id, thread_id % (unsigned long int)num_cpus, t, p);
       fprintf(stderr, "read: %#lx %lu %lu  should be: %#x %i %lu\n", lp[(signed long int)0], lp[(signed long int)1], lp[(signed long int)2], 0xDEADBEEF, t, p);
     }
 
-    signed int return_value_rand$9;
-    return_value_rand$9=rand();
-    offset = (signed int)((unsigned long int)return_value_rand$9 % (pagesize / sizeof(signed long int) /*8ul*/  - (unsigned long int)3) + (unsigned long int)3);
-    signed int return_value_rand$11;
-    return_value_rand$11=rand();
-    if(!(return_value_rand$11 % 2 == 0))
+    signed int return_value_rand_9;
+    return_value_rand_9=rand();
+    offset = (signed int)((unsigned long int)return_value_rand_9 % (pagesize / sizeof(signed long int) /*8ul*/  - (unsigned long int)3) + (unsigned long int)3);
+    signed int return_value_rand_11;
+    return_value_rand_11=rand();
+    if(!(return_value_rand_11 % 2 == 0))
     {
-      signed int return_value_rand$10;
-      return_value_rand$10=rand();
-      lp[(signed long int)offset] = (signed long int)return_value_rand$10;
+      signed int return_value_rand_10;
+      return_value_rand_10=rand();
+      lp[(signed long int)offset] = (signed long int)return_value_rand_10;
     }
 
     else
@@ -1092,9 +1092,9 @@ void * mem_twiddler(void *arg)
   if(!(verbose == 0))
     printf("thread %lu unmapping and exiting\n", thread_id);
 
-  signed int return_value_munmap$12;
-  return_value_munmap$12=munmap((void *)my_region, mapsize);
-  if(!(return_value_munmap$12 == 0))
+  signed int return_value_munmap_12;
+  return_value_munmap_12=munmap((void *)my_region, mapsize);
+  if(!(return_value_munmap_12 == 0))
   {
     perror("munmap");
     exit(2);
@@ -1107,19 +1107,19 @@ void * mem_twiddler(void *arg)
 // file ../../src/threaded_memtest.c line 90
 signed int on_cpu(unsigned int cpu)
 {
-  struct anonymous$12 mask;
+  struct anonymous_12 mask;
   do
-    __builtin_memset((void *)&mask, 0, sizeof(struct anonymous$12) /*128ul*/ );
+    __builtin_memset((void *)&mask, 0, sizeof(struct anonymous_12) /*128ul*/ );
   while((_Bool)0);
   unsigned long int __cpu = (unsigned long int)cpu;
-  if(!(__cpu / 8ul >= sizeof(struct anonymous$12) /*128ul*/ ))
+  if(!(__cpu / 8ul >= sizeof(struct anonymous_12) /*128ul*/ ))
     ((unsigned long int *)(&mask)->__bits)[(signed long int)(__cpu / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ))] = ((unsigned long int *)(&mask)->__bits)[(signed long int)(__cpu / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ))] | (unsigned long int)1 << __cpu % ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ );
 
   else
     (unsigned long int)0;
-  signed int return_value_sched_setaffinity$1;
-  return_value_sched_setaffinity$1=sched_setaffinity(0, sizeof(struct anonymous$12) /*128ul*/ , &mask);
-  if(!(return_value_sched_setaffinity$1 >= 0))
+  signed int return_value_sched_setaffinity_1;
+  return_value_sched_setaffinity_1=sched_setaffinity(0, sizeof(struct anonymous_12) /*128ul*/ , &mask);
+  if(!(return_value_sched_setaffinity_1 >= 0))
   {
     perror("sched_setaffinity");
     return -1;
@@ -1136,15 +1136,15 @@ unsigned long int parse_memsize(const char *str)
   unsigned long int size;
   char okchars[8l] = { 'G', 'g', 'M', 'm', 'K', 'k', '%', 0 };
   char unit;
-  signed int return_value_atoi$1;
-  return_value_atoi$1=atoi(str);
-  size = (unsigned long int)return_value_atoi$1;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(str);
-  unit = str[(signed long int)(return_value_strlen$2 - (unsigned long int)1)];
-  char *return_value_index$3;
-  return_value_index$3=index(okchars, (signed int)unit);
-  if(!(return_value_index$3 == ((char *)NULL)))
+  signed int return_value_atoi_1;
+  return_value_atoi_1=atoi(str);
+  size = (unsigned long int)return_value_atoi_1;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(str);
+  unit = str[(signed long int)(return_value_strlen_2 - (unsigned long int)1)];
+  char *return_value_index_3;
+  return_value_index_3=index(okchars, (signed int)unit);
+  if(!(return_value_index_3 == ((char *)NULL)))
     switch((signed int)unit)
     {
       case 71:
@@ -1198,9 +1198,9 @@ void usage(void)
   printf("  -p: parallel thread startup\n");
   printf("  -t: test time, in seconds. default: %u\n", default_runtime);
   printf("  -n: number of threads. default: %u (2*num_cpus)\n", default_threads);
-  char *return_value_human_memsize$1;
-  return_value_human_memsize$1=human_memsize(default_memsize);
-  printf("  -m: memory usage. default: %s (%.0f%% of free RAM)\n", return_value_human_memsize$1, 0.95 * 100.0);
+  char *return_value_human_memsize_1;
+  return_value_human_memsize_1=human_memsize(default_memsize);
+  printf("  -m: memory usage. default: %s (%.0f%% of free RAM)\n", return_value_human_memsize_1, 0.95 * 100.0);
   printf("memory size may use k/m/g suffixes, or may be a percentage of total RAM.\n");
 }
 

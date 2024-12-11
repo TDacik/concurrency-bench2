@@ -1,30 +1,30 @@
-// #anon_enum$G_LOG_FLAG_RECURSION=1$G_LOG_FLAG_FATAL=2$G_LOG_LEVEL_ERROR=4$G_LOG_LEVEL_CRITICAL=8$G_LOG_LEVEL_WARNING=16$G_LOG_LEVEL_MESSAGE=32$G_LOG_LEVEL_INFO=64$G_LOG_LEVEL_DEBUG=128$G_LOG_LEVEL_MASK=-4
+// #anon_enum_G_LOG_FLAG_RECURSION=1_G_LOG_FLAG_FATAL=2_G_LOG_LEVEL_ERROR=4_G_LOG_LEVEL_CRITICAL=8_G_LOG_LEVEL_WARNING=16_G_LOG_LEVEL_MESSAGE=32_G_LOG_LEVEL_INFO=64_G_LOG_LEVEL_DEBUG=128_G_LOG_LEVEL_MASK=-4
 // file /usr/include/glib-2.0/glib/gmessages.h line 51
-enum anonymous$2 { G_LOG_FLAG_RECURSION=1, G_LOG_FLAG_FATAL=2, G_LOG_LEVEL_ERROR=4, G_LOG_LEVEL_CRITICAL=8, G_LOG_LEVEL_WARNING=16, G_LOG_LEVEL_MESSAGE=32, G_LOG_LEVEL_INFO=64, G_LOG_LEVEL_DEBUG=128, G_LOG_LEVEL_MASK=-4 };
+enum anonymous_2 { G_LOG_FLAG_RECURSION=1, G_LOG_FLAG_FATAL=2, G_LOG_LEVEL_ERROR=4, G_LOG_LEVEL_CRITICAL=8, G_LOG_LEVEL_WARNING=16, G_LOG_LEVEL_MESSAGE=32, G_LOG_LEVEL_INFO=64, G_LOG_LEVEL_DEBUG=128, G_LOG_LEVEL_MASK=-4 };
 
-// tag-#anon#ST[*{S8}$S8$'target_host'||*{S8}$S8$'target_port'||*{S8}$S8$'bitmap_image'||*{S8}$S8$'control_socket_path'||*{S8}$S8$'target_exportname'|]
+// tag-#anon#ST[*{S8}_S8_'target_host'||*{S8}_S8_'target_port'||*{S8}_S8_'bitmap_image'||*{S8}_S8_'control_socket_path'||*{S8}_S8_'target_exportname'|]
 // file xnbd_wrapper.c line 63
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$5;
+union anonymous_5;
 
 // tag-_GAsyncQueue
 // file /usr/include/glib-2.0/glib/gasyncqueue.h line 36
@@ -297,7 +297,7 @@ extern void _exit(signed int);
 static void about_to_execute(const char * const *argv);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous$5, unsigned int *);
+extern signed int accept(signed int, union anonymous_5, unsigned int *);
 // access
 // file /usr/include/unistd.h line 287
 extern signed int access(const char *, signed int);
@@ -315,7 +315,7 @@ extern signed int asprintf(char ** restrict , const char *, ...);
 extern signed int atoi(const char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$5, unsigned int);
+extern signed int bind(signed int, union anonymous_5, unsigned int);
 // bitmap_alloc
 // file bitmap.c line 43
 unsigned long int * bitmap_alloc(unsigned long int bits);
@@ -399,7 +399,7 @@ void compress_iovec_and_send(signed int csock, struct iovec *iov, signed int cou
 void compress_iovec_and_send_advanced(signed int csock, struct iovec *iov, const unsigned int count, signed int lzo_enabled);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous$5, unsigned int);
+extern signed int connect(signed int, union anonymous_5, unsigned int);
 // copy_disk_data
 // file xnbd_wrapper.c line 108
 static struct _t_disk_data * copy_disk_data(const struct _t_disk_data *source);
@@ -417,7 +417,7 @@ struct disk_stack * create_disk_stack(char *diskpath);
 static struct disk_stack_io * create_disk_stack_io(struct disk_stack *ds);
 // custom_log_handler
 // file lib/common.h line 91
-void custom_log_handler(const char *log_domain, enum anonymous$2 log_level, const char *message, void *data);
+void custom_log_handler(const char *log_domain, enum anonymous_2 log_level, const char *message, void *data);
 // daemon
 // file /usr/include/unistd.h line 937
 extern signed int daemon(signed int, signed int);
@@ -621,10 +621,10 @@ extern unsigned int g_list_length(struct _GList *);
 extern struct _GList * g_list_remove(struct _GList *, const void *);
 // g_log
 // file /usr/include/glib-2.0/glib/gmessages.h line 101
-extern void g_log(const char *, enum anonymous$2, const char *, ...);
+extern void g_log(const char *, enum anonymous_2, const char *, ...);
 // g_log_set_default_handler
 // file /usr/include/glib-2.0/glib/gmessages.h line 98
-extern void (*g_log_set_default_handler(void (*)(const char *, enum anonymous$2, const char *, void *), void *))(const char *, enum anonymous$2, const char *, void *);
+extern void (*g_log_set_default_handler(void (*)(const char *, enum anonymous_2, const char *, void *), void *))(const char *, enum anonymous_2, const char *, void *);
 // g_malloc
 // file /usr/include/glib-2.0/glib/gmem.h line 78
 extern void * g_malloc(unsigned long int);
@@ -1009,9 +1009,9 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 // pthread_create_or_abort
 // file lib/io.h line 44
 unsigned long int pthread_create_or_abort(void * (*start_routine)(void *), void *arg);
-// pthread_create_or_abort::start_routine$object
+// pthread_create_or_abort::start_routine_object
 //
-void * start_routine$object(void *);
+void * start_routine_object(void *);
 // pthread_detach
 // file /usr/include/pthread.h line 273
 extern signed int pthread_detach(unsigned long int);
@@ -1023,16 +1023,16 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$3 *);
+extern signed int pthread_mutex_lock(union anonymous_3 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$3 *);
+extern signed int pthread_mutex_unlock(union anonymous_3 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$0 *, struct anonymous$0 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_0 *, struct anonymous_0 *);
 // put_line
 // file io.c line 250
 signed int put_line(signed int fd, const char *msg);
@@ -1077,22 +1077,22 @@ extern signed int setsockopt(signed int, signed int, signed int, const void *, u
 extern signed int shutdown(signed int, signed int);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$0 *, signed int);
+extern signed int sigaddset(struct anonymous_0 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$0 *);
+extern signed int sigemptyset(struct anonymous_0 *);
 // sigfillset
 // file /usr/include/signal.h line 218
-extern signed int sigfillset(struct anonymous$0 *);
+extern signed int sigfillset(struct anonymous_0 *);
 // sigmask_all
 // file io.c line 270
 void sigmask_all(void);
 // signalfd
 // file /usr/include/x86_64-linux-gnu/sys/signalfd.h line 53
-extern signed int signalfd(signed int, const struct anonymous$0 *, signed int);
+extern signed int signalfd(signed int, const struct anonymous_0 *, signed int);
 // sigprocmask
 // file /usr/include/signal.h line 248
-extern signed int sigprocmask(signed int, const struct anonymous$0 *, struct anonymous$0 *);
+extern signed int sigprocmask(signed int, const struct anonymous_0 *, struct anonymous_0 *);
 // sleep
 // file /usr/include/unistd.h line 444
 extern unsigned int sleep(unsigned int);
@@ -1223,7 +1223,7 @@ void xnbd_proxy_start(struct xnbd_info *xnbd);
 // file xnbd_proxy.c line 754
 void xnbd_proxy_stop(struct xnbd_info *xnbd);
 
-struct anonymous$4
+struct anonymous_4
 {
   // target_host
   char *target_host;
@@ -1237,13 +1237,13 @@ struct anonymous$4
   char *target_exportname;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // __val
   unsigned long int __val[16l];
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -1281,7 +1281,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1291,7 +1291,7 @@ union anonymous$3
   signed long int __align;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1321,7 +1321,7 @@ union anonymous$1
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1460,7 +1460,7 @@ struct _t_disk_data
   // index
   unsigned int index;
   // proxy
-  struct anonymous$4 proxy;
+  struct anonymous_4 proxy;
 };
 
 struct _t_listing_state
@@ -1624,7 +1624,7 @@ struct exec_params
 struct in6_addr
 {
   // __in6_u
-  union anonymous$6 __in6_u;
+  union anonymous_6 __in6_u;
 };
 
 struct in_addr
@@ -2127,7 +2127,7 @@ unsigned int images_added_ever = (unsigned int)0;
 static signed int mgr_threads = 0;
 // mutex
 // file xnbd_wrapper.c line 53
-union anonymous$3 mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_3 mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // myhandle
@@ -2196,9 +2196,9 @@ extern struct _IO_FILE *stdout;
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 109
 static inline unsigned long int __bswap_64(unsigned long int __bsx)
 {
-  signed long long int return_value___builtin_bswap64$1;
-  return_value___builtin_bswap64$1=__builtin_bswap64((signed long long int)__bsx);
-  return (unsigned long int)return_value___builtin_bswap64$1;
+  signed long long int return_value___builtin_bswap64_1;
+  return_value___builtin_bswap64_1=__builtin_bswap64((signed long long int)__bsx);
+  return (unsigned long int)return_value___builtin_bswap64_1;
 }
 
 // about_to_execute
@@ -2214,7 +2214,7 @@ static signed int add_diskimg(struct _t_disk_data *p_disk_data)
 {
   signed int fd;
   fd=open(p_disk_data->disk_file_name, 00);
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   if(!(fd >= 0))
     return -1;
 
@@ -2223,16 +2223,16 @@ static signed int add_diskimg(struct _t_disk_data *p_disk_data)
     close(fd);
     pthread_mutex_lock(&mutex);
     signed int res = 0;
-    void *return_value_g_hash_table_lookup$2;
-    return_value_g_hash_table_lookup$2=g_hash_table_lookup(p_disk_dict, (const void *)p_disk_data->local_exportname);
-    if(!(return_value_g_hash_table_lookup$2 == NULL))
+    void *return_value_g_hash_table_lookup_2;
+    return_value_g_hash_table_lookup_2=g_hash_table_lookup(p_disk_dict, (const void *)p_disk_data->local_exportname);
+    if(!(return_value_g_hash_table_lookup_2 == NULL))
       res = -4;
 
     else
     {
-      tmp_post$1 = images_added_ever;
+      tmp_post_1 = images_added_ever;
       images_added_ever = images_added_ever + 1u;
-      p_disk_data->index = tmp_post$1;
+      p_disk_data->index = tmp_post_1;
       g_hash_table_insert(p_disk_dict, (void *)p_disk_data->local_exportname, (void *)p_disk_data);
     }
     pthread_mutex_unlock(&mutex);
@@ -2261,9 +2261,9 @@ void add_read_block_to_tail(struct proxy_priv *priv, unsigned long int i)
   priv->nreq = priv->nreq + 1;
   if(priv->nreq == 32)
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) bug, MAXNBLOCK is too small", return_value_pthread_self$1, (const void *)"add_read_block_to_tail");
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) bug, MAXNBLOCK is too small", return_value_pthread_self_1, (const void *)"add_read_block_to_tail");
 
   __CPROVER_DUMP_L4:
     ;
@@ -2281,9 +2281,9 @@ unsigned long int * bitmap_alloc(unsigned long int bits)
 {
   unsigned long int *bitmap_array;
   unsigned long int narrays = ((bits + (unsigned long int)8 * sizeof(signed long int) /*8ul*/ ) - (unsigned long int)1) / ((unsigned long int)8 * sizeof(signed long int) /*8ul*/ );
-  void *return_value_g_malloc0_n$1;
-  return_value_g_malloc0_n$1=g_malloc0_n(narrays, sizeof(unsigned long int) /*8ul*/ );
-  bitmap_array = (unsigned long int *)return_value_g_malloc0_n$1;
+  void *return_value_g_malloc0_n_1;
+  return_value_g_malloc0_n_1=g_malloc0_n(narrays, sizeof(unsigned long int) /*8ul*/ );
+  bitmap_array = (unsigned long int *)return_value_g_malloc0_n_1;
   return bitmap_array;
 }
 
@@ -2298,9 +2298,9 @@ __CPROVER_DUMP_L1:
   ret=msync((void *)bitmap, bitmaplen, 4);
   if(!(ret >= 0))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) msync bitmap failed", return_value_pthread_self$1, (const void *)"bitmap_close_file");
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) msync bitmap failed", return_value_pthread_self_1, (const void *)"bitmap_close_file");
 
   __CPROVER_DUMP_L3:
     ;
@@ -2315,16 +2315,16 @@ __CPROVER_DUMP_L1:
 unsigned long int * bitmap_create(char *bitmapfile, unsigned long int bits, signed int *cbitmapfd, unsigned long int *cbitmaplen)
 {
   signed int fd;
-  signed int bitmap_create$$1$$ret;
+  signed int bitmap_create__1__ret;
   void *buf = (void *)0;
   unsigned long int narrays = ((bits + (unsigned long int)8 * sizeof(signed long int) /*8ul*/ ) - (unsigned long int)1) / ((unsigned long int)8 * sizeof(signed long int) /*8ul*/ );
   unsigned long int buflen = sizeof(unsigned long int) /*8ul*/  * narrays;
   fd=open(bitmapfile, 02 | 0100 | 01000000, 0400 | 0200);
   if(!(fd >= 0))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) open bitmapfile", return_value_pthread_self$1, (const void *)"bitmap_create");
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) open bitmapfile", return_value_pthread_self_1, (const void *)"bitmap_create");
 
   __CPROVER_DUMP_L2:
     ;
@@ -2335,9 +2335,9 @@ unsigned long int * bitmap_create(char *bitmapfile, unsigned long int bits, sign
   ret=lseek(fd, (signed long int)buflen - (signed long int)1, 0);
   if(!(ret >= 0l))
   {
-    unsigned long int return_value_pthread_self$2;
-    return_value_pthread_self$2=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) lseek", return_value_pthread_self$2, (const void *)"bitmap_create");
+    unsigned long int return_value_pthread_self_2;
+    return_value_pthread_self_2=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) lseek", return_value_pthread_self_2, (const void *)"bitmap_create");
 
   __CPROVER_DUMP_L5:
     ;
@@ -2347,9 +2347,9 @@ unsigned long int * bitmap_create(char *bitmapfile, unsigned long int bits, sign
   ret=write(fd, (const void *)"\0", (unsigned long int)1);
   if(!(ret >= 0l))
   {
-    unsigned long int return_value_pthread_self$3;
-    return_value_pthread_self$3=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) write", return_value_pthread_self$3, (const void *)"bitmap_create");
+    unsigned long int return_value_pthread_self_3;
+    return_value_pthread_self_3=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) write", return_value_pthread_self_3, (const void *)"bitmap_create");
 
   __CPROVER_DUMP_L8:
     ;
@@ -2359,9 +2359,9 @@ unsigned long int * bitmap_create(char *bitmapfile, unsigned long int bits, sign
   buf=mmap((void *)0, buflen, 0x1 | 0x2, 0x01, fd, (signed long int)0);
   if(buf == (void *)-1)
   {
-    unsigned long int return_value_pthread_self$4;
-    return_value_pthread_self$4=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) bitmap mapping failed", return_value_pthread_self$4, (const void *)"bitmap_create");
+    unsigned long int return_value_pthread_self_4;
+    return_value_pthread_self_4=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) bitmap mapping failed", return_value_pthread_self_4, (const void *)"bitmap_create");
 
   __CPROVER_DUMP_L11:
     ;
@@ -2369,16 +2369,16 @@ unsigned long int * bitmap_create(char *bitmapfile, unsigned long int bits, sign
   }
 
   memset(buf, 0, buflen);
-  bitmap_create$$1$$ret=msync(buf, buflen, 4);
-  if(!(bitmap_create$$1$$ret >= 0))
+  bitmap_create__1__ret=msync(buf, buflen, 4);
+  if(!(bitmap_create__1__ret >= 0))
   {
-    unsigned long int return_value_pthread_self$5;
-    return_value_pthread_self$5=pthread_self();
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    char *return_value_strerror$7;
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) bitmap msync failed, %s", return_value_pthread_self$5, (const void *)"bitmap_create", return_value_strerror$7);
+    unsigned long int return_value_pthread_self_5;
+    return_value_pthread_self_5=pthread_self();
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    char *return_value_strerror_7;
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) bitmap msync failed, %s", return_value_pthread_self_5, (const void *)"bitmap_create", return_value_strerror_7);
 
   __CPROVER_DUMP_L14:
     ;
@@ -2386,7 +2386,7 @@ unsigned long int * bitmap_create(char *bitmapfile, unsigned long int bits, sign
   }
 
   do
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "bitmap %s, %lu arrays of %zu bytes, %lu nbits", bitmapfile, narrays, sizeof(unsigned long int) /*8ul*/ , bits);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "bitmap %s, %lu arrays of %zu bytes, %lu nbits", bitmapfile, narrays, sizeof(unsigned long int) /*8ul*/ , bits);
   while((_Bool)0);
   *cbitmapfd = fd;
   *cbitmaplen = buflen;
@@ -2416,16 +2416,16 @@ unsigned long int * bitmap_open_file(const char *bitmapfile, unsigned long int b
   ret=stat(bitmapfile, &st);
   if(!(ret >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(*return_value___errno_location$2 == 2)
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(*return_value___errno_location_2 == 2)
       open_flag = open_flag | 01000000;
 
     else
     {
-      unsigned long int return_value_pthread_self$1;
-      return_value_pthread_self$1=pthread_self();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) stat %s, %m", return_value_pthread_self$1, (const void *)"bitmap_open_file", bitmapfile);
+      unsigned long int return_value_pthread_self_1;
+      return_value_pthread_self_1=pthread_self();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) stat %s, %m", return_value_pthread_self_1, (const void *)"bitmap_open_file", bitmapfile);
 
     __CPROVER_DUMP_L2:
       ;
@@ -2435,9 +2435,9 @@ unsigned long int * bitmap_open_file(const char *bitmapfile, unsigned long int b
 
   else
   {
-    unsigned int return_value_geteuid$3;
-    return_value_geteuid$3=geteuid();
-    if(st.st_uid == return_value_geteuid$3)
+    unsigned int return_value_geteuid_3;
+    return_value_geteuid_3=geteuid();
+    if(st.st_uid == return_value_geteuid_3)
       open_flag = open_flag | 01000000;
 
   }
@@ -2445,9 +2445,9 @@ unsigned long int * bitmap_open_file(const char *bitmapfile, unsigned long int b
   fd=open(bitmapfile, open_flag, 0400 | 0200);
   if(!(fd >= 0))
   {
-    unsigned long int return_value_pthread_self$4;
-    return_value_pthread_self$4=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) bitmap open %s, %m", return_value_pthread_self$4, (const void *)"bitmap_open_file", bitmapfile);
+    unsigned long int return_value_pthread_self_4;
+    return_value_pthread_self_4=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) bitmap open %s, %m", return_value_pthread_self_4, (const void *)"bitmap_open_file", bitmapfile);
 
   __CPROVER_DUMP_L8:
     ;
@@ -2457,14 +2457,14 @@ unsigned long int * bitmap_open_file(const char *bitmapfile, unsigned long int b
   if(!(readonly == 0))
   {
     unsigned long int size;
-    signed long int return_value_get_disksize$5;
-    return_value_get_disksize$5=get_disksize(fd);
-    size = (unsigned long int)return_value_get_disksize$5;
+    signed long int return_value_get_disksize_5;
+    return_value_get_disksize_5=get_disksize(fd);
+    size = (unsigned long int)return_value_get_disksize_5;
     if(!(size == buflen))
     {
-      unsigned long int return_value_pthread_self$6;
-      return_value_pthread_self$6=pthread_self();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) bitmap size mismatch, %ju %zu", return_value_pthread_self$6, (const void *)"bitmap_open_file", size, buflen);
+      unsigned long int return_value_pthread_self_6;
+      return_value_pthread_self_6=pthread_self();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) bitmap size mismatch, %ju %zu", return_value_pthread_self_6, (const void *)"bitmap_open_file", size, buflen);
 
     __CPROVER_DUMP_L11:
       ;
@@ -2476,9 +2476,9 @@ unsigned long int * bitmap_open_file(const char *bitmapfile, unsigned long int b
   else
   {
     unsigned long int previous_size;
-    signed long int return_value_get_disksize$7;
-    return_value_get_disksize$7=get_disksize(fd);
-    previous_size = (const unsigned long int)return_value_get_disksize$7;
+    signed long int return_value_get_disksize_7;
+    return_value_get_disksize_7=get_disksize(fd);
+    previous_size = (const unsigned long int)return_value_get_disksize_7;
     if(previous_size == 0ul)
       zeroclear = 1;
 
@@ -2486,13 +2486,13 @@ unsigned long int * bitmap_open_file(const char *bitmapfile, unsigned long int b
     {
       if(!(zeroclear == 0))
       {
-        signed int bitmap_open_file$$1$$2$$3$$2$$1$$ret;
-        bitmap_open_file$$1$$2$$3$$2$$1$$ret=ftruncate(fd, (signed long int)buflen);
-        if(!(bitmap_open_file$$1$$2$$3$$2$$1$$ret >= 0))
+        signed int bitmap_open_file__1__2__3__2__1__ret;
+        bitmap_open_file__1__2__3__2__1__ret=ftruncate(fd, (signed long int)buflen);
+        if(!(bitmap_open_file__1__2__3__2__1__ret >= 0))
         {
-          unsigned long int return_value_pthread_self$8;
-          return_value_pthread_self$8=pthread_self();
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) ftruncate %m", return_value_pthread_self$8, (const void *)"bitmap_open_file");
+          unsigned long int return_value_pthread_self_8;
+          return_value_pthread_self_8=pthread_self();
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) ftruncate %m", return_value_pthread_self_8, (const void *)"bitmap_open_file");
 
         __CPROVER_DUMP_L16:
           ;
@@ -2503,9 +2503,9 @@ unsigned long int * bitmap_open_file(const char *bitmapfile, unsigned long int b
 
       else
       {
-        unsigned long int return_value_pthread_self$9;
-        return_value_pthread_self$9=pthread_self();
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) Denying to re-use existing bitmap file of different size with no --clear-bitmap given.", return_value_pthread_self$9, (const void *)"bitmap_open_file");
+        unsigned long int return_value_pthread_self_9;
+        return_value_pthread_self_9=pthread_self();
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) Denying to re-use existing bitmap file of different size with no --clear-bitmap given.", return_value_pthread_self_9, (const void *)"bitmap_open_file");
 
       __CPROVER_DUMP_L19:
         ;
@@ -2517,9 +2517,9 @@ unsigned long int * bitmap_open_file(const char *bitmapfile, unsigned long int b
   buf=mmap((void *)0, buflen, mmap_flag, 0x01, fd, (signed long int)0);
   if(buf == (void *)-1)
   {
-    unsigned long int return_value_pthread_self$10;
-    return_value_pthread_self$10=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) bitmap mapping failed", return_value_pthread_self$10, (const void *)"bitmap_open_file");
+    unsigned long int return_value_pthread_self_10;
+    return_value_pthread_self_10=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) bitmap mapping failed", return_value_pthread_self_10, (const void *)"bitmap_open_file");
 
   __CPROVER_DUMP_L23:
     ;
@@ -2528,33 +2528,33 @@ unsigned long int * bitmap_open_file(const char *bitmapfile, unsigned long int b
 
   close(fd);
   do
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "bitmap file %s (%zu bytes = %lu arrays of %zu bytes), %lu nbits", bitmapfile, buflen, narrays, sizeof(unsigned long int) /*8ul*/ , bits);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "bitmap file %s (%zu bytes = %lu arrays of %zu bytes), %lu nbits", bitmapfile, buflen, narrays, sizeof(unsigned long int) /*8ul*/ , bits);
   while((_Bool)0);
   if(readonly == 0)
   {
     if(!(zeroclear == 0))
     {
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "bitmap file %s zero-cleared", bitmapfile);
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "bitmap file %s zero-cleared", bitmapfile);
       while((_Bool)0);
       memset(buf, 0, buflen);
     }
 
     else
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "re-using previous state from bitmap file %s", bitmapfile);
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "re-using previous state from bitmap file %s", bitmapfile);
       while((_Bool)0);
-    signed int bitmap_open_file$$1$$4$$ret;
-    bitmap_open_file$$1$$4$$ret=msync(buf, buflen, 4);
-    if(!(bitmap_open_file$$1$$4$$ret >= 0))
+    signed int bitmap_open_file__1__4__ret;
+    bitmap_open_file__1__4__ret=msync(buf, buflen, 4);
+    if(!(bitmap_open_file__1__4__ret >= 0))
     {
-      unsigned long int return_value_pthread_self$11;
-      return_value_pthread_self$11=pthread_self();
-      signed int *return_value___errno_location$12;
-      return_value___errno_location$12=__errno_location();
-      char *return_value_strerror$13;
-      return_value_strerror$13=strerror(*return_value___errno_location$12);
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) bitmap msync failed, %s", return_value_pthread_self$11, (const void *)"bitmap_open_file", return_value_strerror$13);
+      unsigned long int return_value_pthread_self_11;
+      return_value_pthread_self_11=pthread_self();
+      signed int *return_value___errno_location_12;
+      return_value___errno_location_12=__errno_location();
+      char *return_value_strerror_13;
+      return_value_strerror_13=strerror(*return_value___errno_location_12);
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) bitmap msync failed, %s", return_value_pthread_self_11, (const void *)"bitmap_open_file", return_value_strerror_13);
 
     __CPROVER_DUMP_L30:
       ;
@@ -2593,26 +2593,26 @@ signed int bitmap_test(unsigned long int *bitmap_array, unsigned long int block_
 // file xnbd_proxy.c line 51
 void block_all_signals(void)
 {
-  struct anonymous$0 sig;
+  struct anonymous_0 sig;
   signed int ret;
   ret=sigfillset(&sig);
   if(!(ret >= 0))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) sigfillset", return_value_pthread_self$1, (const void *)"block_all_signals");
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) sigfillset", return_value_pthread_self_1, (const void *)"block_all_signals");
 
   __CPROVER_DUMP_L2:
     ;
     goto __CPROVER_DUMP_L2;
   }
 
-  ret=pthread_sigmask(2, &sig, (struct anonymous$0 *)(void *)0);
+  ret=pthread_sigmask(2, &sig, (struct anonymous_0 *)(void *)0);
   if(!(ret >= 0))
   {
-    unsigned long int return_value_pthread_self$2;
-    return_value_pthread_self$2=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) sigmask", return_value_pthread_self$2, (const void *)"block_all_signals");
+    unsigned long int return_value_pthread_self_2;
+    return_value_pthread_self_2=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) sigmask", return_value_pthread_self_2, (const void *)"block_all_signals");
 
   __CPROVER_DUMP_L5:
     ;
@@ -2651,31 +2651,31 @@ void cachestat_dump(char *path)
   fd=open(path, 00);
   if(!(fd >= 0))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) open cachestat file %s, %s", return_value_pthread_self$1, (const void *)"cachestat_dump", path, return_value_strerror$3);
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) open cachestat file %s, %s", return_value_pthread_self_1, (const void *)"cachestat_dump", path, return_value_strerror_3);
 
   __CPROVER_DUMP_L2:
     ;
     goto __CPROVER_DUMP_L2;
   }
 
-  void *return_value_mmap$4;
-  return_value_mmap$4=mmap((void *)0, (unsigned long int)PAGESIZE, 0x1, 0x01, fd, (signed long int)0);
-  buf = (char *)return_value_mmap$4;
+  void *return_value_mmap_4;
+  return_value_mmap_4=mmap((void *)0, (unsigned long int)PAGESIZE, 0x1, 0x01, fd, (signed long int)0);
+  buf = (char *)return_value_mmap_4;
   if(buf == (char *)-1)
   {
-    unsigned long int return_value_pthread_self$5;
-    return_value_pthread_self$5=pthread_self();
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    char *return_value_strerror$7;
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) disk mapping failed, %s", return_value_pthread_self$5, (const void *)"cachestat_dump", return_value_strerror$7);
+    unsigned long int return_value_pthread_self_5;
+    return_value_pthread_self_5=pthread_self();
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    char *return_value_strerror_7;
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) disk mapping failed, %s", return_value_pthread_self_5, (const void *)"cachestat_dump", return_value_strerror_7);
 
   __CPROVER_DUMP_L5:
     ;
@@ -2707,31 +2707,31 @@ void cachestat_dump_loop(char *path, unsigned int interval)
   fd=open(path, 00);
   if(!(fd >= 0))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) open cachestat file %s, %s", return_value_pthread_self$1, (const void *)"cachestat_dump_loop", path, return_value_strerror$3);
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) open cachestat file %s, %s", return_value_pthread_self_1, (const void *)"cachestat_dump_loop", path, return_value_strerror_3);
 
   __CPROVER_DUMP_L2:
     ;
     goto __CPROVER_DUMP_L2;
   }
 
-  void *return_value_mmap$4;
-  return_value_mmap$4=mmap((void *)0, (unsigned long int)PAGESIZE, 0x1, 0x01, fd, (signed long int)0);
-  buf = (char *)return_value_mmap$4;
+  void *return_value_mmap_4;
+  return_value_mmap_4=mmap((void *)0, (unsigned long int)PAGESIZE, 0x1, 0x01, fd, (signed long int)0);
+  buf = (char *)return_value_mmap_4;
   if(buf == (char *)-1)
   {
-    unsigned long int return_value_pthread_self$5;
-    return_value_pthread_self$5=pthread_self();
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    char *return_value_strerror$7;
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) disk mapping failed, %s", return_value_pthread_self$5, (const void *)"cachestat_dump_loop", return_value_strerror$7);
+    unsigned long int return_value_pthread_self_5;
+    return_value_pthread_self_5=pthread_self();
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    char *return_value_strerror_7;
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) disk mapping failed, %s", return_value_pthread_self_5, (const void *)"cachestat_dump_loop", return_value_strerror_7);
 
   __CPROVER_DUMP_L5:
     ;
@@ -2859,18 +2859,18 @@ void check_disksize(char *diskpath, signed long int disksize, _Bool force_cblock
   pgsize=getpagesize();
   if(!(disksize % 1024l == 0l))
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "disksize %jd is not a multiple of 1024 (nbd's default block size)", disksize);
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "disksize %jd is not a multiple of 1024 (nbd's default block size)", disksize);
     while((_Bool)0);
 
   if(!(disksize % (signed long int)pgsize == 0l))
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "disksize %jd is not a multiple of a page size (%d)", disksize, pgsize);
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "disksize %jd is not a multiple of a page size (%d)", disksize, pgsize);
     while((_Bool)0);
 
   if(!(disksize % (signed long int)CBLOCKSIZE == 0l))
   {
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "disksize %jd is not a multiple of %d (xnbd's cache block size)", disksize, CBLOCKSIZE);
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "disksize %jd is not a multiple of %d (xnbd's cache block size)", disksize, CBLOCKSIZE);
     while((_Bool)0);
     if(!(force_cblock == (_Bool)0))
       exit(1);
@@ -2878,7 +2878,7 @@ void check_disksize(char *diskpath, signed long int disksize, _Bool force_cblock
   }
 
   do
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "disk %s size %ju B (%ju MB)", diskpath, disksize, (disksize / (signed long int)1024) / (signed long int)1024);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "disk %s size %ju B (%ju MB)", diskpath, disksize, (disksize / (signed long int)1024) / (signed long int)1024);
   while((_Bool)0);
 }
 
@@ -2891,19 +2891,19 @@ void check_done(signed int ret, signed int errcode)
     if(errcode == 32 || errcode == 104)
     {
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "got RST. abort");
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "got RST. abort");
       while((_Bool)0);
       exit(0);
     }
 
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "unknown err");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "unknown err");
     while((_Bool)0);
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(errcode);
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) xmit: %s (%d)", return_value_pthread_self$1, (const void *)"check_done", return_value_strerror$2, errcode);
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(errcode);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) xmit: %s (%d)", return_value_pthread_self_1, (const void *)"check_done", return_value_strerror_2, errcode);
 
   __CPROVER_DUMP_L4:
     ;
@@ -2914,9 +2914,9 @@ void check_done(signed int ret, signed int errcode)
     if(ret >= 0)
       goto __CPROVER_DUMP_L8;
 
-  unsigned long int return_value_pthread_self$3;
-  return_value_pthread_self$3=pthread_self();
-  g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) not reached", return_value_pthread_self$3, (const void *)"check_done");
+  unsigned long int return_value_pthread_self_3;
+  return_value_pthread_self_3=pthread_self();
+  g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) not reached", return_value_pthread_self_3, (const void *)"check_done");
 
 __CPROVER_DUMP_L7:
   ;
@@ -2935,16 +2935,16 @@ signed int check_fin(signed int ret, signed int errcode, unsigned long int len)
     if(errcode == 32 || errcode == 104)
     {
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "got RST. abort");
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "got RST. abort");
       while((_Bool)0);
       exit(0);
     }
 
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(errcode);
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) xmit: %s (%d)", return_value_pthread_self$1, (const void *)"check_fin", return_value_strerror$2, errcode);
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(errcode);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) xmit: %s (%d)", return_value_pthread_self_1, (const void *)"check_fin", return_value_strerror_2, errcode);
 
   __CPROVER_DUMP_L3:
     ;
@@ -2959,9 +2959,9 @@ signed int check_fin(signed int ret, signed int errcode, unsigned long int len)
 
       else
       {
-        unsigned long int return_value_pthread_self$3;
-        return_value_pthread_self$3=pthread_self();
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) len must be larger than 0", return_value_pthread_self$3, (const void *)"check_fin");
+        unsigned long int return_value_pthread_self_3;
+        return_value_pthread_self_3=pthread_self();
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) len must be larger than 0", return_value_pthread_self_3, (const void *)"check_fin");
 
       __CPROVER_DUMP_L6:
         ;
@@ -2981,9 +2981,9 @@ signed int check_fin(signed int ret, signed int errcode, unsigned long int len)
 
           else
           {
-            unsigned long int return_value_pthread_self$4;
-            return_value_pthread_self$4=pthread_self();
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) len mismatch", return_value_pthread_self$4, (const void *)"check_fin");
+            unsigned long int return_value_pthread_self_4;
+            return_value_pthread_self_4=pthread_self();
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) len mismatch", return_value_pthread_self_4, (const void *)"check_fin");
 
           __CPROVER_DUMP_L11:
             ;
@@ -2991,9 +2991,9 @@ signed int check_fin(signed int ret, signed int errcode, unsigned long int len)
           }
       }
 
-  unsigned long int return_value_pthread_self$5;
-  return_value_pthread_self$5=pthread_self();
-  g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) not reached", return_value_pthread_self$5, (const void *)"check_fin");
+  unsigned long int return_value_pthread_self_5;
+  return_value_pthread_self_5=pthread_self();
+  g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) not reached", return_value_pthread_self_5, (const void *)"check_fin");
 
 __CPROVER_DUMP_L13:
   ;
@@ -3021,9 +3021,9 @@ static _Bool command_available(const char *command)
     }
 
     execvp_or_abort(argv);
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) should never get here", return_value_pthread_self$1, (const void *)"command_available");
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) should never get here", return_value_pthread_self_1, (const void *)"command_available");
 
   __CPROVER_DUMP_L3:
     ;
@@ -3036,9 +3036,9 @@ static _Bool command_available(const char *command)
   waitpid_res=waitpid(pid, &status, 0);
   if(!(waitpid_res == pid))
   {
-    unsigned long int return_value_pthread_self$2;
-    return_value_pthread_self$2=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) waitpid failed: %m", return_value_pthread_self$2, (const void *)"command_available");
+    unsigned long int return_value_pthread_self_2;
+    return_value_pthread_self_2=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) waitpid failed: %m", return_value_pthread_self_2, (const void *)"command_available");
 
   __CPROVER_DUMP_L6:
     ;
@@ -3065,9 +3065,9 @@ union anonymous
 // file xnbd_target_cow_lzo.c line 737
 void compress_iovec_and_send(signed int csock, struct iovec *iov, signed int count)
 {
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) lzo support was not compiled", return_value_pthread_self$1, (const void *)"compress_iovec_and_send");
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) lzo support was not compiled", return_value_pthread_self_1, (const void *)"compress_iovec_and_send");
 
 __CPROVER_DUMP_L2:
   ;
@@ -3078,9 +3078,9 @@ __CPROVER_DUMP_L2:
 // file xnbd_target_cow_lzo.c line 729
 void compress_iovec_and_send_advanced(signed int csock, struct iovec *iov, const unsigned int count, signed int lzo_enabled)
 {
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) compression support was not compiled", return_value_pthread_self$1, (const void *)"compress_iovec_and_send_advanced");
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) compression support was not compiled", return_value_pthread_self_1, (const void *)"compress_iovec_and_send_advanced");
 
 __CPROVER_DUMP_L2:
   ;
@@ -3093,9 +3093,9 @@ static struct _t_disk_data * copy_disk_data(const struct _t_disk_data *source)
 {
   signed int fine = 1;
   struct _t_disk_data *res;
-  void *return_value_g_try_malloc_n$1;
-  return_value_g_try_malloc_n$1=g_try_malloc_n((unsigned long int)1, sizeof(struct _t_disk_data) /*64ul*/ );
-  res = (struct _t_disk_data *)return_value_g_try_malloc_n$1;
+  void *return_value_g_try_malloc_n_1;
+  return_value_g_try_malloc_n_1=g_try_malloc_n((unsigned long int)1, sizeof(struct _t_disk_data) /*64ul*/ );
+  res = (struct _t_disk_data *)return_value_g_try_malloc_n_1;
   if(res == ((struct _t_disk_data *)NULL))
     fine = 0;
 
@@ -3247,9 +3247,9 @@ static struct _t_disk_data * create_disk_data(const char *local_exportname, cons
   source.proxy.bitmap_image = (char *)bitmap_image;
   source.proxy.control_socket_path = (char *)control_socket_path;
   source.proxy.target_exportname = (char *)target_exportname;
-  struct _t_disk_data *return_value_copy_disk_data$1;
-  return_value_copy_disk_data$1=copy_disk_data(&source);
-  return return_value_copy_disk_data$1;
+  struct _t_disk_data *return_value_copy_disk_data_1;
+  return_value_copy_disk_data_1=copy_disk_data(&source);
+  return return_value_copy_disk_data_1;
 }
 
 // create_disk_stack
@@ -3261,20 +3261,20 @@ struct disk_stack * create_disk_stack(char *diskpath)
   diskfd=open(diskpath, 00);
   if(!(diskfd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 75)
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 75)
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "enable large file support!");
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "enable large file support!");
       while((_Bool)0);
 
-    unsigned long int return_value_pthread_self$2;
-    return_value_pthread_self$2=pthread_self();
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) open, %s", return_value_pthread_self$2, (const void *)"create_disk_stack", return_value_strerror$4);
+    unsigned long int return_value_pthread_self_2;
+    return_value_pthread_self_2=pthread_self();
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) open, %s", return_value_pthread_self_2, (const void *)"create_disk_stack", return_value_strerror_4);
 
   __CPROVER_DUMP_L3:
     ;
@@ -3284,15 +3284,15 @@ struct disk_stack * create_disk_stack(char *diskpath)
   disksize=get_disksize(diskfd);
   check_disksize(diskpath, disksize, (_Bool)1);
   struct disk_stack *ds;
-  void *return_value_g_malloc0$5;
-  return_value_g_malloc0$5=g_malloc0(sizeof(struct disk_stack) /*96ul*/ );
-  ds = (struct disk_stack *)return_value_g_malloc0$5;
+  void *return_value_g_malloc0_5;
+  return_value_g_malloc0_5=g_malloc0(sizeof(struct disk_stack) /*96ul*/ );
+  ds = (struct disk_stack *)return_value_g_malloc0_5;
   ds->nlayers = 1;
   ds->disksize = disksize;
   struct disk_image *di;
-  void *return_value_g_malloc0$6;
-  return_value_g_malloc0$6=g_malloc0(sizeof(struct disk_image) /*40ul*/ );
-  di = (struct disk_image *)return_value_g_malloc0$6;
+  void *return_value_g_malloc0_6;
+  return_value_g_malloc0_6=g_malloc0(sizeof(struct disk_image) /*40ul*/ );
+  di = (struct disk_image *)return_value_g_malloc0_6;
   di->diskfd = diskfd;
   di->path=g_strdup(diskpath);
   unsigned long int nblocks;
@@ -3318,13 +3318,13 @@ struct disk_stack * create_disk_stack(char *diskpath)
   }
   while((_Bool)1);
   do
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "create new base bitmap %s", di->bmpath);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "create new base bitmap %s", di->bmpath);
   while((_Bool)0);
   unsigned long int tmp_bmlen;
   unsigned long int *tmp_bm;
   tmp_bm=bitmap_open_file(di->bmpath, nblocks, &tmp_bmlen, 0, 1);
   do
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "bitmap file %s filled by 1", di->bmpath);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "bitmap file %s filled by 1", di->bmpath);
   while((_Bool)0);
   memset((void *)tmp_bm, 0xff, tmp_bmlen);
   bitmap_close_file(tmp_bm, tmp_bmlen);
@@ -3332,7 +3332,7 @@ struct disk_stack * create_disk_stack(char *diskpath)
   unlink(di->bmpath);
   ds->image[(signed long int)0] = di;
   do
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "disk_stack[0] %s %s", di->path, di->bmpath);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "disk_stack[0] %s %s", di->path, di->bmpath);
   while((_Bool)0);
   return ds;
 }
@@ -3342,16 +3342,16 @@ struct disk_stack * create_disk_stack(char *diskpath)
 static struct disk_stack_io * create_disk_stack_io(struct disk_stack *ds)
 {
   struct disk_stack_io *io;
-  void *return_value_g_malloc0$1;
-  return_value_g_malloc0$1=g_malloc0(sizeof(struct disk_stack_io) /*112ul*/ );
-  io = (struct disk_stack_io *)return_value_g_malloc0$1;
+  void *return_value_g_malloc0_1;
+  return_value_g_malloc0_1=g_malloc0(sizeof(struct disk_stack_io) /*112ul*/ );
+  io = (struct disk_stack_io *)return_value_g_malloc0_1;
   io->ds = ds;
   return io;
 }
 
 // custom_log_handler
 // file lib/common.h line 91
-void custom_log_handler(const char *log_domain, enum anonymous$2 log_level, const char *message, void *data)
+void custom_log_handler(const char *log_domain, enum anonymous_2 log_level, const char *message, void *data)
 {
   struct custom_log_handler_params *params = (struct custom_log_handler_params *)data;
   struct _GString *gstring;
@@ -3366,9 +3366,9 @@ void custom_log_handler(const char *log_domain, enum anonymous$2 log_level, cons
   ret=prctl(16, (unsigned long int)name);
   if(!(ret >= 0))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) PR_GET_NAME, %m", return_value_pthread_self$1, (const void *)"custom_log_handler");
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) PR_GET_NAME, %m", return_value_pthread_self_1, (const void *)"custom_log_handler");
 
   __CPROVER_DUMP_L3:
     ;
@@ -3380,9 +3380,9 @@ void custom_log_handler(const char *log_domain, enum anonymous$2 log_level, cons
   signed int pid;
   pid=getpid();
   signed int tid;
-  signed long int return_value_syscall$2;
-  return_value_syscall$2=syscall((signed long int)186);
-  tid = (signed int)return_value_syscall$2;
+  signed long int return_value_syscall_2;
+  return_value_syscall_2=syscall((signed long int)186);
+  tid = (signed int)return_value_syscall_2;
   if(pid == tid)
     g_string_append_printf(gstring, "%d", pid);
 
@@ -3445,13 +3445,13 @@ void custom_log_handler(const char *log_domain, enum anonymous$2 log_level, cons
 
   else
     g_string_append(gstring, "\n");
-  signed int return_value_syslog_level$3;
+  signed int return_value_syslog_level_3;
   if(!(params == ((struct custom_log_handler_params *)NULL)))
   {
     if(!(params->use_syslog == 0))
     {
-      return_value_syslog_level$3=syslog_level((signed int)log_level);
-      syslog(return_value_syslog_level$3, "%s", gstring->str);
+      return_value_syslog_level_3=syslog_level((signed int)log_level);
+      syslog(return_value_syslog_level_3, "%s", gstring->str);
     }
 
     if(!(params->use_fd == 0))
@@ -3475,7 +3475,7 @@ void custom_log_handler(const char *log_domain, enum anonymous$2 log_level, cons
 // file xnbd_wrapper.c line 484
 static void decode_percent_encoding(char *text)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(text == ((char *)NULL)))
   {
     const char *read_head = text;
@@ -3483,11 +3483,11 @@ static void decode_percent_encoding(char *text)
     while(!(*read_head == 0))
     {
       if(!((signed int)*read_head == 37))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = !(read_head[(signed long int)1] != 0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = !(read_head[(signed long int)1] != 0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         do
         {
           if(!(write_head >= read_head))
@@ -3619,9 +3619,9 @@ void destroy_disk_stack(struct disk_stack *ds)
       ret=msync((void *)di->bm, di->bmlen, 4);
       if(!(ret >= 0))
       {
-        unsigned long int return_value_pthread_self$1;
-        return_value_pthread_self$1=pthread_self();
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) msync", return_value_pthread_self$1, (const void *)"destroy_disk_stack");
+        unsigned long int return_value_pthread_self_1;
+        return_value_pthread_self_1=pthread_self();
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) msync", return_value_pthread_self_1, (const void *)"destroy_disk_stack");
 
       __CPROVER_DUMP_L3:
         ;
@@ -3660,9 +3660,9 @@ void disk_stack_add_image(struct disk_stack *ds, char *diskpath, signed int newf
   signed long int disksize;
   if(ds->nlayers == 10)
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) no space", return_value_pthread_self$1, (const void *)"disk_stack_add_image");
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) no space", return_value_pthread_self_1, (const void *)"disk_stack_add_image");
 
   __CPROVER_DUMP_L2:
     ;
@@ -3672,20 +3672,20 @@ void disk_stack_add_image(struct disk_stack *ds, char *diskpath, signed int newf
   diskfd=open(diskpath, 02 | 0100, 0644);
   if(!(diskfd >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(*return_value___errno_location$2 == 75)
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(*return_value___errno_location_2 == 75)
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "enable large file support!");
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "enable large file support!");
       while((_Bool)0);
 
-    unsigned long int return_value_pthread_self$3;
-    return_value_pthread_self$3=pthread_self();
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) open, %s", return_value_pthread_self$3, (const void *)"disk_stack_add_image", return_value_strerror$5);
+    unsigned long int return_value_pthread_self_3;
+    return_value_pthread_self_3=pthread_self();
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) open, %s", return_value_pthread_self_3, (const void *)"disk_stack_add_image", return_value_strerror_5);
 
   __CPROVER_DUMP_L6:
     ;
@@ -3696,15 +3696,15 @@ void disk_stack_add_image(struct disk_stack *ds, char *diskpath, signed int newf
   if(!(disksize == ds->disksize))
   {
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "ftruncate %s (%ju -> %ju)", diskpath, disksize, ds->disksize);
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "ftruncate %s (%ju -> %ju)", diskpath, disksize, ds->disksize);
     while((_Bool)0);
     signed int ret;
     ret=ftruncate(diskfd, ds->disksize);
     if(!(ret >= 0))
     {
-      unsigned long int return_value_pthread_self$6;
-      return_value_pthread_self$6=pthread_self();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) ftruncate", return_value_pthread_self$6, (const void *)"disk_stack_add_image");
+      unsigned long int return_value_pthread_self_6;
+      return_value_pthread_self_6=pthread_self();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) ftruncate", return_value_pthread_self_6, (const void *)"disk_stack_add_image");
 
     __CPROVER_DUMP_L10:
       ;
@@ -3714,27 +3714,27 @@ void disk_stack_add_image(struct disk_stack *ds, char *diskpath, signed int newf
   }
 
   struct disk_image *di;
-  void *return_value_g_malloc0$7;
-  return_value_g_malloc0$7=g_malloc0(sizeof(struct disk_image) /*40ul*/ );
-  di = (struct disk_image *)return_value_g_malloc0$7;
+  void *return_value_g_malloc0_7;
+  return_value_g_malloc0_7=g_malloc0(sizeof(struct disk_image) /*40ul*/ );
+  di = (struct disk_image *)return_value_g_malloc0_7;
   di->diskfd = diskfd;
   di->path=g_strdup(diskpath);
   di->bmpath=g_strdup_printf("%s.bm", diskpath);
-  unsigned long int return_value_get_disk_nblocks$8;
-  unsigned long int return_value_get_disk_nblocks$9;
+  unsigned long int return_value_get_disk_nblocks_8;
+  unsigned long int return_value_get_disk_nblocks_9;
   if(!(newfile == 0))
   {
-    return_value_get_disk_nblocks$8=get_disk_nblocks(ds->disksize);
-    di->bm=bitmap_open_file(di->bmpath, return_value_get_disk_nblocks$8, &di->bmlen, 0, 1);
+    return_value_get_disk_nblocks_8=get_disk_nblocks(ds->disksize);
+    di->bm=bitmap_open_file(di->bmpath, return_value_get_disk_nblocks_8, &di->bmlen, 0, 1);
   }
 
   else
   {
-    return_value_get_disk_nblocks$9=get_disk_nblocks(ds->disksize);
-    di->bm=bitmap_open_file(di->bmpath, return_value_get_disk_nblocks$9, &di->bmlen, 1, 0);
+    return_value_get_disk_nblocks_9=get_disk_nblocks(ds->disksize);
+    di->bm=bitmap_open_file(di->bmpath, return_value_get_disk_nblocks_9, &di->bmlen, 1, 0);
   }
   do
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "disk_stack[%d] %s %s", ds->nlayers, di->path, di->bmpath);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "disk_stack[%d] %s %s", ds->nlayers, di->path, di->bmpath);
   while((_Bool)0);
   ds->image[(signed long int)ds->nlayers] = di;
   ds->nlayers = ds->nlayers + 1;
@@ -3760,22 +3760,22 @@ __CPROVER_DUMP_L3:
   ;
   struct disk_stack_io *io;
   io=create_disk_stack_io(ds);
-  signed int disk_stack_mmap$$1$$4$$i = 0;
-  for( ; !(disk_stack_mmap$$1$$4$$i >= ds->nlayers); disk_stack_mmap$$1$$4$$i = disk_stack_mmap$$1$$4$$i + 1)
+  signed int disk_stack_mmap__1__4__i = 0;
+  for( ; !(disk_stack_mmap__1__4__i >= ds->nlayers); disk_stack_mmap__1__4__i = disk_stack_mmap__1__4__i + 1)
   {
-    struct disk_image *di = ds->image[(signed long int)disk_stack_mmap$$1$$4$$i];
+    struct disk_image *di = ds->image[(signed long int)disk_stack_mmap__1__4__i];
     signed int flags = 0x1;
-    if(disk_stack_mmap$$1$$4$$i == ds->nlayers + -1)
+    if(disk_stack_mmap__1__4__i == ds->nlayers + -1)
       flags = flags | 0x2;
 
-    void *return_value_mmap$1;
-    return_value_mmap$1=mmap((void *)0, mapping_length, flags, 0x01, di->diskfd, mapping_start);
-    io->bufs[(signed long int)disk_stack_mmap$$1$$4$$i] = (char *)return_value_mmap$1;
-    if(io->bufs[(signed long int)disk_stack_mmap$$1$$4$$i] == (char *)-1)
+    void *return_value_mmap_1;
+    return_value_mmap_1=mmap((void *)0, mapping_length, flags, 0x01, di->diskfd, mapping_start);
+    io->bufs[(signed long int)disk_stack_mmap__1__4__i] = (char *)return_value_mmap_1;
+    if(io->bufs[(signed long int)disk_stack_mmap__1__4__i] == (char *)-1)
     {
-      unsigned long int return_value_pthread_self$2;
-      return_value_pthread_self$2=pthread_self();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) mmap, %m", return_value_pthread_self$2, (const void *)"disk_stack_mmap");
+      unsigned long int return_value_pthread_self_2;
+      return_value_pthread_self_2=pthread_self();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) mmap, %m", return_value_pthread_self_2, (const void *)"disk_stack_mmap");
 
     __CPROVER_DUMP_L7:
       ;
@@ -3789,8 +3789,8 @@ __CPROVER_DUMP_L3:
   }
   struct iovec *iov = (struct iovec *)(void *)0;
   unsigned int iov_size = (unsigned int)0;
-  signed int return_value_bitmap_test$7;
-  signed int return_value_bitmap_test$8;
+  signed int return_value_bitmap_test_7;
+  signed int return_value_bitmap_test_8;
   if(!(reading == 0))
   {
     do
@@ -3799,9 +3799,9 @@ __CPROVER_DUMP_L3:
 
     while((_Bool)0);
     iov_size = (unsigned int)((index_end - index_start) + (unsigned long int)1);
-    void *return_value_g_malloc0_n$3;
-    return_value_g_malloc0_n$3=g_malloc0_n((unsigned long int)iov_size, sizeof(struct iovec) /*16ul*/ );
-    iov = (struct iovec *)return_value_g_malloc0_n$3;
+    void *return_value_g_malloc0_n_3;
+    return_value_g_malloc0_n_3=g_malloc0_n((unsigned long int)iov_size, sizeof(struct iovec) /*16ul*/ );
+    iov = (struct iovec *)return_value_g_malloc0_n_3;
     unsigned long int index = index_start;
     for( ; index_end >= index; index = index + 1ul)
     {
@@ -3836,10 +3836,10 @@ __CPROVER_DUMP_L3:
       signed int i = ds->nlayers - 1;
       for( ; i >= 0; i = i - 1)
       {
-        struct disk_image *disk_stack_mmap$$1$$5$$2$$1$$4$$1$$di = ds->image[(signed long int)i];
-        signed int return_value_bitmap_test$4;
-        return_value_bitmap_test$4=bitmap_test(disk_stack_mmap$$1$$5$$2$$1$$4$$1$$di->bm, index);
-        if(!(return_value_bitmap_test$4 == 0))
+        struct disk_image *disk_stack_mmap__1__5__2__1__4__1__di = ds->image[(signed long int)i];
+        signed int return_value_bitmap_test_4;
+        return_value_bitmap_test_4=bitmap_test(disk_stack_mmap__1__5__2__1__4__1__di->bm, index);
+        if(!(return_value_bitmap_test_4 == 0))
         {
 
         __CPROVER_DUMP_L19:
@@ -3853,9 +3853,9 @@ __CPROVER_DUMP_L3:
       }
       if(found == 0)
       {
-        unsigned long int return_value_pthread_self$5;
-        return_value_pthread_self$5=pthread_self();
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) bug", return_value_pthread_self$5, (const void *)"disk_stack_mmap");
+        unsigned long int return_value_pthread_self_5;
+        return_value_pthread_self_5=pthread_self();
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) bug", return_value_pthread_self_5, (const void *)"disk_stack_mmap");
 
       __CPROVER_DUMP_L23:
         ;
@@ -3868,18 +3868,18 @@ __CPROVER_DUMP_L3:
   else
   {
     iov_size = (unsigned int)1;
-    void *return_value_g_malloc0$6;
-    return_value_g_malloc0$6=g_malloc0(sizeof(struct iovec) /*16ul*/ );
-    iov = (struct iovec *)return_value_g_malloc0$6;
-    unsigned long int disk_stack_mmap$$1$$6$$iofrom_inbuf = (unsigned long int)(iofrom - mapping_start);
-    (iov + (signed long int)0)->iov_base = (void *)(io->bufs[(signed long int)(ds->nlayers - 1)] + (signed long int)disk_stack_mmap$$1$$6$$iofrom_inbuf);
+    void *return_value_g_malloc0_6;
+    return_value_g_malloc0_6=g_malloc0(sizeof(struct iovec) /*16ul*/ );
+    iov = (struct iovec *)return_value_g_malloc0_6;
+    unsigned long int disk_stack_mmap__1__6__iofrom_inbuf = (unsigned long int)(iofrom - mapping_start);
+    (iov + (signed long int)0)->iov_base = (void *)(io->bufs[(signed long int)(ds->nlayers - 1)] + (signed long int)disk_stack_mmap__1__6__iofrom_inbuf);
     (iov + (signed long int)0)->iov_len = iolen;
     signed int get_start_block = 0;
     signed int get_end_block = 0;
     if(!(iofrom % (signed long int)CBLOCKSIZE == 0l))
     {
-      return_value_bitmap_test$7=bitmap_test(ds->image[(signed long int)(ds->nlayers - 1)]->bm, index_start);
-      if(return_value_bitmap_test$7 == 0)
+      return_value_bitmap_test_7=bitmap_test(ds->image[(signed long int)(ds->nlayers - 1)]->bm, index_start);
+      if(return_value_bitmap_test_7 == 0)
         get_start_block = 1;
 
     }
@@ -3888,8 +3888,8 @@ __CPROVER_DUMP_L3:
     {
       if(get_start_block == 0 && index_end == index_start || !(index_start >= index_end))
       {
-        return_value_bitmap_test$8=bitmap_test(ds->image[(signed long int)(ds->nlayers - 1)]->bm, index_end);
-        if(return_value_bitmap_test$8 == 0)
+        return_value_bitmap_test_8=bitmap_test(ds->image[(signed long int)(ds->nlayers - 1)]->bm, index_end);
+        if(return_value_bitmap_test_8 == 0)
           get_end_block = 1;
 
       }
@@ -3902,12 +3902,12 @@ __CPROVER_DUMP_L3:
     if(!(get_end_block == 0))
       update_block_with_found(ds, io, index_end, index_start);
 
-    unsigned long int disk_stack_mmap$$1$$6$$2$$index = index_start;
-    for( ; index_end >= disk_stack_mmap$$1$$6$$2$$index; disk_stack_mmap$$1$$6$$2$$index = disk_stack_mmap$$1$$6$$2$$index + 1ul)
-      bitmap_on(ds->image[(signed long int)(ds->nlayers - 1)]->bm, disk_stack_mmap$$1$$6$$2$$index);
+    unsigned long int disk_stack_mmap__1__6__2__index = index_start;
+    for( ; index_end >= disk_stack_mmap__1__6__2__index; disk_stack_mmap__1__6__2__index = disk_stack_mmap__1__6__2__index + 1ul)
+      bitmap_on(ds->image[(signed long int)(ds->nlayers - 1)]->bm, disk_stack_mmap__1__6__2__index);
   }
-  unsigned int disk_stack_mmap$$1$$7$$i = (unsigned int)0;
-  for( ; !(disk_stack_mmap$$1$$7$$i >= iov_size); disk_stack_mmap$$1$$7$$i = disk_stack_mmap$$1$$7$$i + 1u)
+  unsigned int disk_stack_mmap__1__7__i = (unsigned int)0;
+  for( ; !(disk_stack_mmap__1__7__i >= iov_size); disk_stack_mmap__1__7__i = disk_stack_mmap__1__7__i + 1u)
 
     __CPROVER_DUMP_L36:
       ;
@@ -3980,35 +3980,35 @@ static void ensure_command_available(const char *command)
 {
   /* assertion command */
   assert(command != ((const char *)NULL));
-  _Bool return_value_command_available$6;
-  return_value_command_available$6=command_available(command);
-  if(return_value_command_available$6 == (_Bool)0)
+  _Bool return_value_command_available_6;
+  return_value_command_available_6=command_available(command);
+  if(return_value_command_available_6 == (_Bool)0)
   {
-    char *return_value_strchr$5;
-    return_value_strchr$5=strchr(command, 47);
-    if(!(return_value_strchr$5 == ((char *)NULL)))
+    char *return_value_strchr_5;
+    return_value_strchr_5=strchr(command, 47);
+    if(!(return_value_strchr_5 == ((char *)NULL)))
     {
       struct stat buf;
       signed int statt_res;
       statt_res=stat(command, &buf);
       if(statt_res == 1)
       {
-        unsigned long int return_value_pthread_self$1;
-        return_value_pthread_self$1=pthread_self();
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) Cannot access file \"%s\": %m", return_value_pthread_self$1, (const void *)"ensure_command_available", command);
+        unsigned long int return_value_pthread_self_1;
+        return_value_pthread_self_1=pthread_self();
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) Cannot access file \"%s\": %m", return_value_pthread_self_1, (const void *)"ensure_command_available", command);
 
       __CPROVER_DUMP_L2:
         ;
         goto __CPROVER_DUMP_L2;
       }
 
-      signed int return_value_access$3;
-      return_value_access$3=access(command, 1);
-      if(!(return_value_access$3 == 0))
+      signed int return_value_access_3;
+      return_value_access_3=access(command, 1);
+      if(!(return_value_access_3 == 0))
       {
-        unsigned long int return_value_pthread_self$2;
-        return_value_pthread_self$2=pthread_self();
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) Will not be able to execute file \"%s\" later: %m", return_value_pthread_self$2, (const void *)"ensure_command_available", command);
+        unsigned long int return_value_pthread_self_2;
+        return_value_pthread_self_2=pthread_self();
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) Will not be able to execute file \"%s\" later: %m", return_value_pthread_self_2, (const void *)"ensure_command_available", command);
 
       __CPROVER_DUMP_L5:
         ;
@@ -4019,9 +4019,9 @@ static void ensure_command_available(const char *command)
 
     else
     {
-      unsigned long int return_value_pthread_self$4;
-      return_value_pthread_self$4=pthread_self();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) Command \"%s\" not found", return_value_pthread_self$4, (const void *)"ensure_command_available", command);
+      unsigned long int return_value_pthread_self_4;
+      return_value_pthread_self_4=pthread_self();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) Command \"%s\" not found", return_value_pthread_self_4, (const void *)"ensure_command_available", command);
 
     __CPROVER_DUMP_L8:
       ;
@@ -4120,7 +4120,7 @@ static void execvp_or_abort(const char * const *argv)
 {
   execvp(argv[(signed long int)0], (char **)argv);
   do
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "exec failed");
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "exec failed");
   while((_Bool)0);
   _exit(1);
 }
@@ -4177,9 +4177,9 @@ static signed int extract_decode_check_usage(char *buf, char ***p_argv, unsigned
 static signed int find_by_exportname(const char *key, const struct _t_disk_data *p_disk_data, const char *local_exportname)
 {
   (void)key;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(p_disk_data->local_exportname, local_exportname);
-  return (signed int)(return_value_strcmp$1 == 0);
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(p_disk_data->local_exportname, local_exportname);
+  return (signed int)(return_value_strcmp_1 == 0);
 }
 
 // find_by_file
@@ -4187,9 +4187,9 @@ static signed int find_by_exportname(const char *key, const struct _t_disk_data 
 static signed int find_by_file(const char *key, const struct _t_disk_data *p_disk_data, const char *filename)
 {
   (void)key;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(p_disk_data->disk_file_name, filename);
-  return (signed int)(return_value_strcmp$1 == 0);
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(p_disk_data->disk_file_name, filename);
+  return (signed int)(return_value_strcmp_1 == 0);
 }
 
 // find_by_index
@@ -4219,9 +4219,9 @@ signed int fork_or_abort(void)
   pid=fork();
   if(!(pid >= 0))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) fork() %m", return_value_pthread_self$1, (const void *)"fork_or_abort");
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) fork() %m", return_value_pthread_self_1, (const void *)"fork_or_abort");
 
   __CPROVER_DUMP_L2:
     ;
@@ -4241,9 +4241,9 @@ void * forwarder_rx_thread_main(void *arg)
   block_all_signals();
   do
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "create forwarder_rx thread %lu", return_value_pthread_self$1);
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "create forwarder_rx thread %lu", return_value_pthread_self_1);
   }
   while((_Bool)0);
   do
@@ -4256,7 +4256,7 @@ void * forwarder_rx_thread_main(void *arg)
   }
   while((_Bool)1);
   do
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "bye forwarder_rx thread");
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "bye forwarder_rx thread");
   while((_Bool)0);
   return (void *)0;
 }
@@ -4271,9 +4271,9 @@ signed int forwarder_rx_thread_mainloop(struct xnbd_proxy *proxy)
 
 __CPROVER_DUMP_L1:
   ;
-  void *return_value_g_async_queue_pop$1;
-  return_value_g_async_queue_pop$1=g_async_queue_pop(proxy->fwd_rx_queue);
-  priv = (struct proxy_priv *)return_value_g_async_queue_pop$1;
+  void *return_value_g_async_queue_pop_1;
+  return_value_g_async_queue_pop_1=g_async_queue_pop(proxy->fwd_rx_queue);
+  priv = (struct proxy_priv *)return_value_g_async_queue_pop_1;
 
 __CPROVER_DUMP_L2:
   ;
@@ -4282,7 +4282,7 @@ __CPROVER_DUMP_L2:
   unsigned long int mmaped_len;
   signed long int mmaped_offset;
   char *iobuf;
-  void *return_value_mmap_iorange$2;
+  void *return_value_mmap_iorange_2;
   if(priv == &priv_stop_forwarder)
     return -1;
 
@@ -4293,8 +4293,8 @@ __CPROVER_DUMP_L2:
       mmaped_len = (unsigned long int)0;
       mmaped_offset = (signed long int)0;
       iobuf = (char *)(void *)0;
-      return_value_mmap_iorange$2=mmap_iorange(xnbd->disksize, (const _Bool)0, proxy->cachefd, priv->iofrom, priv->iolen, &mmaped_buf, &mmaped_len, &mmaped_offset);
-      iobuf = (char *)return_value_mmap_iorange$2;
+      return_value_mmap_iorange_2=mmap_iorange(xnbd->disksize, (const _Bool)0, proxy->cachefd, priv->iofrom, priv->iolen, &mmaped_buf, &mmaped_len, &mmaped_offset);
+      iobuf = (char *)return_value_mmap_iorange_2;
 
     __CPROVER_DUMP_L4:
       ;
@@ -4318,7 +4318,7 @@ __CPROVER_DUMP_L2:
         if(!(ret >= 0))
         {
           do
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "forwarder: receiving a read reply failed, seqnum %lu", priv->seqnum);
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "forwarder: receiving a read reply failed, seqnum %lu", priv->seqnum);
           while((_Bool)0);
           receiving_failed = 1;
           break;
@@ -4372,18 +4372,18 @@ void * forwarder_tx_thread_main(void *arg)
   block_all_signals();
   do
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "create forwarder_tx thread %lu", return_value_pthread_self$1);
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "create forwarder_tx thread %lu", return_value_pthread_self_1);
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   do
   {
     struct proxy_priv *priv;
-    void *return_value_g_async_queue_pop$2;
-    return_value_g_async_queue_pop$2=g_async_queue_pop(proxy->fwd_tx_queue);
-    priv = (struct proxy_priv *)return_value_g_async_queue_pop$2;
+    void *return_value_g_async_queue_pop_2;
+    return_value_g_async_queue_pop_2=g_async_queue_pop(proxy->fwd_tx_queue);
+    priv = (struct proxy_priv *)return_value_g_async_queue_pop_2;
 
   __CPROVER_DUMP_L3:
     ;
@@ -4406,11 +4406,11 @@ void * forwarder_tx_thread_main(void *arg)
         else
         {
           if(priv->iotype == 0u)
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = priv->iotype == (unsigned int)3 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = priv->iotype == (unsigned int)3 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_3)
             prepare_read_priv(proxy, priv);
 
         }
@@ -4429,7 +4429,7 @@ void * forwarder_tx_thread_main(void *arg)
         if(!(ret >= 0))
         {
           do
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "sending read request failed, seqnum %lu", priv->seqnum);
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "sending read request failed, seqnum %lu", priv->seqnum);
           while((_Bool)0);
           sending_failed = 1;
           break;
@@ -4448,7 +4448,7 @@ void * forwarder_tx_thread_main(void *arg)
 
   out_of_loop:
     ;
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "bye forwarder_tx thread");
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "bye forwarder_tx thread");
   }
   while((_Bool)0);
   return (void *)0;
@@ -4479,9 +4479,9 @@ static struct _t_disk_data * get_disk_data_for(const char *local_exportname)
   struct _t_disk_data *res = (struct _t_disk_data *)(void *)0;
   pthread_mutex_lock(&mutex);
   const struct _t_disk_data *source;
-  void *return_value_g_hash_table_lookup$1;
-  return_value_g_hash_table_lookup$1=g_hash_table_lookup(p_disk_dict, (const void *)local_exportname);
-  source = (struct _t_disk_data *)return_value_g_hash_table_lookup$1;
+  void *return_value_g_hash_table_lookup_1;
+  return_value_g_hash_table_lookup_1=g_hash_table_lookup(p_disk_dict, (const void *)local_exportname);
+  source = (struct _t_disk_data *)return_value_g_hash_table_lookup_1;
   if(!(source == ((const struct _t_disk_data *)NULL)))
     res=copy_disk_data(source);
 
@@ -4495,7 +4495,7 @@ unsigned long int get_disk_nblocks(signed long int disksize)
 {
   if(!(disksize % (signed long int)CBLOCKSIZE == 0l))
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "disksize is not a multiple of CBLOCKSIZE");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "disksize is not a multiple of CBLOCKSIZE");
     while((_Bool)0);
 
   signed long int nblocks64 = disksize / (signed long int)CBLOCKSIZE + (signed long int)(disksize % (signed long int)CBLOCKSIZE != 0l ? 1U : 0U);
@@ -4512,13 +4512,13 @@ signed long int get_disksize(signed int fd)
   ret=fstat(fd, &st);
   if(!(ret >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(*return_value___errno_location$2 == 75)
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(*return_value___errno_location_2 == 75)
     {
-      unsigned long int return_value_pthread_self$1;
-      return_value_pthread_self$1=pthread_self();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) enable 64bit offset support", return_value_pthread_self$1, (const void *)"get_disksize");
+      unsigned long int return_value_pthread_self_1;
+      return_value_pthread_self_1=pthread_self();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) enable 64bit offset support", return_value_pthread_self_1, (const void *)"get_disksize");
 
     __CPROVER_DUMP_L2:
       ;
@@ -4527,7 +4527,7 @@ signed long int get_disksize(signed int fd)
 
   }
 
-  signed long int return_value_lseek$5;
+  signed long int return_value_lseek_5;
   if((61440u & st.st_mode) == 32768u)
   {
     disksize = st.st_size;
@@ -4540,11 +4540,11 @@ signed long int get_disksize(signed int fd)
       disksize=lseek(fd, (signed long int)0, 2);
       if(!(disksize >= 0l))
       {
-        unsigned long int return_value_pthread_self$3;
-        return_value_pthread_self$3=pthread_self();
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) lseek failed: %d", return_value_pthread_self$3, (const void *)"get_disksize", *return_value___errno_location$4);
+        unsigned long int return_value_pthread_self_3;
+        return_value_pthread_self_3=pthread_self();
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) lseek failed: %d", return_value_pthread_self_3, (const void *)"get_disksize", *return_value___errno_location_4);
 
       __CPROVER_DUMP_L7:
         ;
@@ -4557,29 +4557,29 @@ signed long int get_disksize(signed int fd)
     else
       if((61440u & st.st_mode) == 8192u)
       {
-        unsigned int return_value_gnu_dev_major$6;
-        return_value_gnu_dev_major$6=gnu_dev_major(st.st_rdev);
-        if(return_value_gnu_dev_major$6 == 259u)
+        unsigned int return_value_gnu_dev_major_6;
+        return_value_gnu_dev_major_6=gnu_dev_major(st.st_rdev);
+        if(return_value_gnu_dev_major_6 == 259u)
         {
-          return_value_lseek$5=lseek(fd, (signed long int)0, 2);
-          return return_value_lseek$5;
+          return_value_lseek_5=lseek(fd, (signed long int)0, 2);
+          return return_value_lseek_5;
         }
 
       }
 
       else
       {
-        unsigned long int return_value_pthread_self$7;
-        return_value_pthread_self$7=pthread_self();
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) file type %d not supported", return_value_pthread_self$7, (const void *)"get_disksize", st.st_mode);
+        unsigned long int return_value_pthread_self_7;
+        return_value_pthread_self_7=pthread_self();
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) file type %d not supported", return_value_pthread_self_7, (const void *)"get_disksize", st.st_mode);
 
       __CPROVER_DUMP_L12:
         ;
         goto __CPROVER_DUMP_L12;
       }
-  unsigned long int return_value_pthread_self$8;
-  return_value_pthread_self$8=pthread_self();
-  g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) failed to detect disk size", return_value_pthread_self$8, (const void *)"get_disksize");
+  unsigned long int return_value_pthread_self_8;
+  return_value_pthread_self_8=pthread_self();
+  g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) failed to detect disk size", return_value_pthread_self_8, (const void *)"get_disksize");
 
 __CPROVER_DUMP_L14:
   ;
@@ -4595,9 +4595,9 @@ signed long int get_disksize_of_path(const char *path)
   fd=open(path, 00);
   if(!(fd >= 0))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) disk open, %s", return_value_pthread_self$1, (const void *)"get_disksize_of_path", path);
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) disk open, %s", return_value_pthread_self_1, (const void *)"get_disksize_of_path", path);
 
   __CPROVER_DUMP_L2:
     ;
@@ -4630,9 +4630,9 @@ char * get_line(signed int fd)
 {
   signed int found_eol = 0;
   char *line;
-  void *return_value_g_malloc0$1;
-  return_value_g_malloc0$1=g_malloc0((unsigned long int)100);
-  line = (char *)return_value_g_malloc0$1;
+  void *return_value_g_malloc0_1;
+  return_value_g_malloc0_1=g_malloc0((unsigned long int)100);
+  line = (char *)return_value_g_malloc0_1;
 
 __CPROVER_DUMP_L1:
   ;
@@ -4641,13 +4641,13 @@ __CPROVER_DUMP_L1:
   {
     char ch = (char)48;
     signed int ret;
-    signed long int return_value_read$2;
-    return_value_read$2=read(fd, (void *)&ch, (unsigned long int)1);
-    ret = (signed int)return_value_read$2;
+    signed long int return_value_read_2;
+    return_value_read_2=read(fd, (void *)&ch, (unsigned long int)1);
+    ret = (signed int)return_value_read_2;
     if(ret == 0)
     {
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "get_line: peer closed");
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "get_line: peer closed");
       while((_Bool)0);
       goto err_eof;
     }
@@ -4655,19 +4655,19 @@ __CPROVER_DUMP_L1:
     else
       if(ret == -1)
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        if(*return_value___errno_location$4 == 104)
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        if(*return_value___errno_location_4 == 104)
           do
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "get_line: peer closed (%m)");
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "get_line: peer closed (%m)");
           while((_Bool)0);
 
         else
           do
           {
-            signed int *return_value___errno_location$3;
-            return_value___errno_location$3=__errno_location();
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "get_line: err %d (%m)", *return_value___errno_location$3);
+            signed int *return_value___errno_location_3;
+            return_value___errno_location_3=__errno_location();
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "get_line: err %d (%m)", *return_value___errno_location_3);
           }
           while((_Bool)0);
         goto err_eof;
@@ -4686,7 +4686,7 @@ __CPROVER_DUMP_L1:
   }
   if(found_eol == 0)
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "no eol found before MAX_LINE(%d)", 100);
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "no eol found before MAX_LINE(%d)", 100);
     while((_Bool)0);
 
   else
@@ -4713,9 +4713,9 @@ signed int get_log_fd(const char *path)
   fd=open(path, 01 | 0100 | 02000, 0400 | 0200);
   if(!(fd >= 0))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) open %s, %m", return_value_pthread_self$1, (const void *)"get_log_fd", path);
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) open %s, %m", return_value_pthread_self_1, (const void *)"get_log_fd", path);
 
   __CPROVER_DUMP_L2:
     ;
@@ -4736,9 +4736,9 @@ static char * get_nameinfo_string(struct addrinfo *ai)
   if(!(ret == 0))
     do
     {
-      const char *return_value_gai_strerror$1;
-      return_value_gai_strerror$1=gai_strerror(ret);
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "getnameinfo failed, %s", return_value_gai_strerror$1);
+      const char *return_value_gai_strerror_1;
+      return_value_gai_strerror_1=gai_strerror(ret);
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "getnameinfo failed, %s", return_value_gai_strerror_1);
     }
     while((_Bool)0);
 
@@ -4758,18 +4758,18 @@ static char * get_nameinfo_string(struct addrinfo *ai)
         if(ai->ai_protocol == 33)
           type = "DCCP";
 
-  char *return_value_g_strdup_printf$2;
-  char *return_value_g_strdup_printf$3;
+  char *return_value_g_strdup_printf_2;
+  char *return_value_g_strdup_printf_3;
   if(ai->ai_family == 2)
   {
-    return_value_g_strdup_printf$2=g_strdup_printf("%s:%s,%s", (const void *)hbuf, (const void *)sbuf, type);
-    return return_value_g_strdup_printf$2;
+    return_value_g_strdup_printf_2=g_strdup_printf("%s:%s,%s", (const void *)hbuf, (const void *)sbuf, type);
+    return return_value_g_strdup_printf_2;
   }
 
   else
   {
-    return_value_g_strdup_printf$3=g_strdup_printf("[%s]:%s,%s", (const void *)hbuf, (const void *)sbuf, type);
-    return return_value_g_strdup_printf$3;
+    return_value_g_strdup_printf_3=g_strdup_printf("[%s]:%s,%s", (const void *)hbuf, (const void *)sbuf, type);
+    return return_value_g_strdup_printf_3;
   }
 }
 
@@ -4779,18 +4779,18 @@ struct proxy_session * get_session_from_read_fd(struct _GList *list_head, signed
 {
   struct _GList *list;
   list=g_list_first(list_head);
-  struct _GList *tmp_if_expr$1;
-  for( ; !(list == ((struct _GList *)NULL)); list = tmp_if_expr$1)
+  struct _GList *tmp_if_expr_1;
+  for( ; !(list == ((struct _GList *)NULL)); list = tmp_if_expr_1)
   {
     struct proxy_session *ps = (struct proxy_session *)list->data;
     if(ps->pipe_read_fd == fd)
       return ps;
 
     if(!(list == ((struct _GList *)NULL)))
-      tmp_if_expr$1 = ((struct _GList *)list)->next;
+      tmp_if_expr_1 = ((struct _GList *)list)->next;
 
     else
-      tmp_if_expr$1 = (struct _GList *)(void *)0;
+      tmp_if_expr_1 = (struct _GList *)(void *)0;
   }
   return (struct proxy_session *)(void *)0;
 }
@@ -4804,14 +4804,14 @@ static signed int handle_bgctl_command(const char *usage, const char *mode, unsi
   unsigned int argc = (unsigned int)0;
   signed int res;
   res=extract_decode_check_usage(buf, &argv, &argc, expected_argc_min, expected_argc_max);
-  signed int return_value_access$8;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
-  signed int tmp_post$6;
-  signed int tmp_post$7;
+  signed int return_value_access_8;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
+  signed int tmp_post_6;
+  signed int tmp_post_7;
   if(res == 2)
     fprintf(fp, "usage: %s\n", usage);
 
@@ -4841,46 +4841,46 @@ static signed int handle_bgctl_command(const char *usage, const char *mode, unsi
 
           else
           {
-            return_value_access$8=access(p_disk_data->proxy.control_socket_path, 4);
-            if(return_value_access$8 == -1)
+            return_value_access_8=access(p_disk_data->proxy.control_socket_path, 4);
+            if(return_value_access_8 == -1)
               fprintf(fp, "Export \"%s\" not being served to any client at the moment.\n", local_exportname);
 
             else
             {
               const _Bool target_exportname_present = argc == expected_argc_max;
               const signed int positional_args_to_append = (const signed int)(((argc - (unsigned int)1) - (unsigned int)1) - (unsigned int)(target_exportname_present != (_Bool)0 ? 1 : 0));
-              const signed long int positional_args_to_append$array_size0 = (signed long int)(1 + (target_exportname_present != (_Bool)0 ? 2 : 0) + 1 + 1 + positional_args_to_append + 1);
-              const char *bgctl_argv[positional_args_to_append$array_size0];
+              const signed long int positional_args_to_append_array_size0 = (signed long int)(1 + (target_exportname_present != (_Bool)0 ? 2 : 0) + 1 + 1 + positional_args_to_append + 1);
+              const char *bgctl_argv[positional_args_to_append_array_size0];
               signed int bgctl_argc = 0;
-              tmp_post$1 = bgctl_argc;
+              tmp_post_1 = bgctl_argc;
               bgctl_argc = bgctl_argc + 1;
-              bgctl_argv[(signed long int)tmp_post$1] = xnbd_bgctl_command;
+              bgctl_argv[(signed long int)tmp_post_1] = xnbd_bgctl_command;
               if(!(target_exportname_present == (_Bool)0))
               {
-                tmp_post$2 = bgctl_argc;
+                tmp_post_2 = bgctl_argc;
                 bgctl_argc = bgctl_argc + 1;
-                bgctl_argv[(signed long int)tmp_post$2] = "--exportname";
-                tmp_post$3 = bgctl_argc;
+                bgctl_argv[(signed long int)tmp_post_2] = "--exportname";
+                tmp_post_3 = bgctl_argc;
                 bgctl_argc = bgctl_argc + 1;
-                bgctl_argv[(signed long int)tmp_post$3] = argv[(signed long int)(expected_argc_max - (unsigned int)1)];
+                bgctl_argv[(signed long int)tmp_post_3] = argv[(signed long int)(expected_argc_max - (unsigned int)1)];
               }
 
-              tmp_post$4 = bgctl_argc;
+              tmp_post_4 = bgctl_argc;
               bgctl_argc = bgctl_argc + 1;
-              bgctl_argv[(signed long int)tmp_post$4] = mode;
-              tmp_post$5 = bgctl_argc;
+              bgctl_argv[(signed long int)tmp_post_4] = mode;
+              tmp_post_5 = bgctl_argc;
               bgctl_argc = bgctl_argc + 1;
-              bgctl_argv[(signed long int)tmp_post$5] = p_disk_data->proxy.control_socket_path;
+              bgctl_argv[(signed long int)tmp_post_5] = p_disk_data->proxy.control_socket_path;
               signed int i = 0;
               for( ; !(i >= positional_args_to_append); i = i + 1)
               {
-                tmp_post$6 = bgctl_argc;
+                tmp_post_6 = bgctl_argc;
                 bgctl_argc = bgctl_argc + 1;
-                bgctl_argv[(signed long int)tmp_post$6] = argv[(signed long int)(1 + 1 + i)];
+                bgctl_argv[(signed long int)tmp_post_6] = argv[(signed long int)(1 + 1 + i)];
               }
-              tmp_post$7 = bgctl_argc;
+              tmp_post_7 = bgctl_argc;
               bgctl_argc = bgctl_argc + 1;
-              bgctl_argv[(signed long int)tmp_post$7] = (const char *)(void *)0;
+              bgctl_argv[(signed long int)tmp_post_7] = (const char *)(void *)0;
               signed int bgctl_pid;
               bgctl_pid=invoke_bgctl(fp, bgctl_argv);
               if(!(bgctl_pid == -1))
@@ -4888,7 +4888,7 @@ static signed int handle_bgctl_command(const char *usage, const char *mode, unsi
                 pthread_mutex_lock(&mutex);
                 *p_child_process_count = *p_child_process_count + 1;
                 do
-                  g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "child_process_count++ : %d  (forked to execute xnbd-bgctl)", *p_child_process_count);
+                  g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "child_process_count++ : %d  (forked to execute xnbd-bgctl)", *p_child_process_count);
                 while((_Bool)0);
                 pthread_mutex_unlock(&mutex);
               }
@@ -4903,13 +4903,13 @@ static signed int handle_bgctl_command(const char *usage, const char *mode, unsi
                 waitpid_res=waitpid(bgctl_pid, &status, 0);
                 if(!(waitpid_res == bgctl_pid))
                   do
-                    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "waiting for xnbd-bgctl(%d), waitpid : %m", bgctl_pid);
+                    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "waiting for xnbd-bgctl(%d), waitpid : %m", bgctl_pid);
                   while((_Bool)0);
 
                 pthread_mutex_lock(&mutex);
                 *p_child_process_count = *p_child_process_count - 1;
                 do
-                  g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "child_process_count-- : %d  (xnbd-bgctl terminated)", *p_child_process_count);
+                  g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "child_process_count-- : %d  (xnbd-bgctl terminated)", *p_child_process_count);
                 while((_Bool)0);
                 pthread_mutex_unlock(&mutex);
                 /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
@@ -5020,13 +5020,13 @@ union anonymous
   ;
   if((0x7f & status) == 0)
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "pid %ld : exit status %d", (signed long int)pid, (((union anonymous){ .__in=status }).__i & 0xff00) >> 8);
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "pid %ld : exit status %d", (signed long int)pid, (((union anonymous){ .__in=status }).__i & 0xff00) >> 8);
     while((_Bool)0);
 
   else
     if((signed int)((127 & (signed char)status) + 1) >> 1 >= 1)
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "pid %ld : terminated by signal %d", (signed long int)pid, ((union anonymous){ .__in=status }).__i & 0x7f);
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "pid %ld : terminated by signal %d", (signed long int)pid, ((union anonymous){ .__in=status }).__i & 0x7f);
       while((_Bool)0);
 
 }
@@ -5053,9 +5053,9 @@ static signed int invoke_bgctl(struct _IO_FILE *fp, const char **argv)
     }
 
     execvp_or_abort(argv);
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) should never get here", return_value_pthread_self$1, (const void *)"invoke_bgctl");
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) should never get here", return_value_pthread_self_1, (const void *)"invoke_bgctl");
 
   __CPROVER_DUMP_L4:
     ;
@@ -5072,36 +5072,36 @@ static void io_all(signed int fd, void *buf, unsigned long int len, signed int r
   char *next_buf = (char *)buf;
   const char *mode = read_ops != 0 ? "read" : "write";
   unsigned long int total = (unsigned long int)0;
-  signed long int return_value_read$1;
-  signed long int return_value_write$2;
+  signed long int return_value_read_1;
+  signed long int return_value_write_2;
   do
   {
     signed int ret = 0;
     if(!(read_ops == 0))
     {
-      return_value_read$1=read(fd, (void *)next_buf, (unsigned long int)next_len);
-      ret = (signed int)return_value_read$1;
+      return_value_read_1=read(fd, (void *)next_buf, (unsigned long int)next_len);
+      ret = (signed int)return_value_read_1;
     }
 
     else
     {
-      return_value_write$2=write(fd, (const void *)next_buf, (unsigned long int)next_len);
-      ret = (signed int)return_value_write$2;
+      return_value_write_2=write(fd, (const void *)next_buf, (unsigned long int)next_len);
+      ret = (signed int)return_value_write_2;
     }
     if(ret == 0)
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "%s() returned 0 (fd %d)", mode, fd);
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "%s() returned 0 (fd %d)", mode, fd);
 
     if(ret == -1)
     {
-      unsigned long int return_value_pthread_self$3;
-      return_value_pthread_self$3=pthread_self();
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) %s error %s (%d) (fd %d)", return_value_pthread_self$3, (const void *)"io_all", mode, return_value_strerror$5, *return_value___errno_location$6, fd);
+      unsigned long int return_value_pthread_self_3;
+      return_value_pthread_self_3=pthread_self();
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) %s error %s (%d) (fd %d)", return_value_pthread_self_3, (const void *)"io_all", mode, return_value_strerror_5, *return_value___errno_location_6, fd);
 
     __CPROVER_DUMP_L6:
       ;
@@ -5123,9 +5123,9 @@ static void io_all(signed int fd, void *buf, unsigned long int len, signed int r
 static void list_diskimg(struct _IO_FILE *fp)
 {
   pthread_mutex_lock(&mutex);
-  unsigned int return_value_g_hash_table_size$1;
-  return_value_g_hash_table_size$1=g_hash_table_size(p_disk_dict);
-  if(return_value_g_hash_table_size$1 >= 1u)
+  unsigned int return_value_g_hash_table_size_1;
+  return_value_g_hash_table_size_1=g_hash_table_size(p_disk_dict);
+  if(return_value_g_hash_table_size_1 >= 1u)
   {
     struct _t_listing_state listing_state;
     listing_state.index_to_print = (unsigned int)-1;
@@ -5149,18 +5149,18 @@ static void list_diskimg(struct _IO_FILE *fp)
 static void list_images_iterator(void *key, const struct _t_disk_data *p_disk_data, struct _t_listing_state *p_listing_state)
 {
   (void)key;
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(p_disk_data->index == p_listing_state->index_to_print)
   {
     unsigned int one_based_index = p_disk_data->index + (unsigned int)1;
     if(!(p_disk_data->proxy.target_host == ((char *)NULL)))
     {
       if(!(p_disk_data->proxy.target_exportname == ((char *)NULL)))
-        tmp_if_expr$1 = p_disk_data->proxy.target_exportname;
+        tmp_if_expr_1 = p_disk_data->proxy.target_exportname;
 
       else
-        tmp_if_expr$1 = "";
-      fprintf(p_listing_state->fp, "%d : %s  (%s:%s%s%s, %s, %s, %s)\n", one_based_index, p_disk_data->local_exportname, p_disk_data->proxy.target_host, p_disk_data->proxy.target_port, p_disk_data->proxy.target_exportname != ((char *)NULL) ? ":" : "", tmp_if_expr$1, p_disk_data->disk_file_name, p_disk_data->proxy.bitmap_image, p_disk_data->proxy.control_socket_path);
+        tmp_if_expr_1 = "";
+      fprintf(p_listing_state->fp, "%d : %s  (%s:%s%s%s, %s, %s, %s)\n", one_based_index, p_disk_data->local_exportname, p_disk_data->proxy.target_host, p_disk_data->proxy.target_port, p_disk_data->proxy.target_exportname != ((char *)NULL) ? ":" : "", tmp_if_expr_1, p_disk_data->disk_file_name, p_disk_data->proxy.bitmap_image, p_disk_data->proxy.control_socket_path);
     }
 
     else
@@ -5200,23 +5200,23 @@ signed int main(signed int argc, char **argv)
   const char default_server_target[9l] = { '-', '-', 't', 'a', 'r', 'g', 'e', 't', 0 };
   const char *server_target = (const char *)(void *)0;
   signed int daemonize = 0;
-  signed int main$$1$$syslog = 0;
+  signed int main__1__syslog = 0;
   const char *logpath = (const char *)(void *)0;
   struct exec_params exec_srv_params = { .binpath=((const char *)NULL), .target_mode=((const char *)NULL), .readonly=0,
     .syslog=0, .proxy_max_que_size_str=((const char *)NULL), .proxy_max_buf_size_str=((const char *)NULL) };
   const char *xnbd_bgctl_command = "xnbd-bgctl";
   p_disk_dict=g_hash_table_new_full(g_str_hash, g_str_equal, (void (*)(void *))(void *)0, (void (*)(void *))destroy_value);
   p_server_pid_set=g_hash_table_new(g_direct_hash, g_direct_equal);
-  struct anonymous$0 sigset;
+  struct anonymous_0 sigset;
   signed int sigfd;
   struct signalfd_siginfo sfd_siginfo;
   signed long int rbytes;
   const signed int MAX_EVENTS = 8;
-  const signed long int tcpfd_ev$array_size0 = (signed long int)MAX_EVENTS;
+  const signed long int tcpfd_ev_array_size0 = (signed long int)MAX_EVENTS;
   struct epoll_event sigfd_ev;
   struct epoll_event uxfd_ev;
   struct epoll_event tcpfd_ev;
-  struct epoll_event ep_events[tcpfd_ev$array_size0];
+  struct epoll_event ep_events[tcpfd_ev_array_size0];
   signed int epoll_fd;
   set_process_name("xnbd-wrapper");
   struct option longopts[17l] = { { .name="imgfile", .has_arg=1, .flag=(signed int *)(void *)0, .val=102 },
@@ -5238,9 +5238,9 @@ signed int main(signed int argc, char **argv)
     { .name=(const char *)(void *)0, .has_arg=0, .flag=(signed int *)(void *)0,
     .val=0 } };
   struct custom_log_handler_params log_params;
-  signed int return_value_fileno$1;
-  return_value_fileno$1=fileno(stderr);
-  log_params = (struct custom_log_handler_params){ .use_syslog=0, .use_fd=1, .fd=return_value_fileno$1 };
+  signed int return_value_fileno_1;
+  return_value_fileno_1=fileno(stderr);
+  log_params = (struct custom_log_handler_params){ .use_syslog=0, .use_fd=1, .fd=return_value_fileno_1 };
   g_log_set_default_handler(custom_log_handler, (void *)&log_params);
   const char *local_exportname;
   const char *filename;
@@ -5261,7 +5261,7 @@ signed int main(signed int argc, char **argv)
         log_params.use_fd = 1;
         log_params.fd=get_log_fd(logpath);
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "LOGFILE: %s", logpath);
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "LOGFILE: %s", logpath);
         while((_Bool)0);
         g_log_set_default_handler(custom_log_handler, (void *)&log_params);
         break;
@@ -5303,13 +5303,13 @@ signed int main(signed int argc, char **argv)
           {
             if(ret == -1)
               do
-                g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "cannot open %s", filename);
+                g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "cannot open %s", filename);
               while((_Bool)0);
 
             else
               if(ret == -4)
                 do
-                  g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "image cannot be added twice");
+                  g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "image cannot be added twice");
                 while((_Bool)0);
 
           }
@@ -5318,7 +5318,7 @@ signed int main(signed int argc, char **argv)
 
         else
           do
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "out of memory");
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "out of memory");
           while((_Bool)0);
         break;
       }
@@ -5339,14 +5339,14 @@ signed int main(signed int argc, char **argv)
       }
       case 83:
       {
-        main$$1$$syslog = 1;
+        main__1__syslog = 1;
         break;
       }
       case 81:
       {
         proxy_max_que_size=strtoul(optarg, (char ** restrict )(void *)0, 0);
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "max_queue_size %zu", proxy_max_que_size);
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "max_queue_size %zu", proxy_max_que_size);
         while((_Bool)0);
         exec_srv_params.proxy_max_que_size_str = optarg;
         break;
@@ -5355,7 +5355,7 @@ signed int main(signed int argc, char **argv)
       {
         proxy_max_buf_size=strtoul(optarg, (char ** restrict )(void *)0, 0);
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "max_buf_size %zu", proxy_max_buf_size);
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "max_buf_size %zu", proxy_max_buf_size);
         while((_Bool)0);
         exec_srv_params.proxy_max_buf_size_str = optarg;
         break;
@@ -5377,7 +5377,7 @@ signed int main(signed int argc, char **argv)
     }
   }
   while((_Bool)1);
-  if(logpath == ((const char *)NULL) && !(daemonize == 0) || !(main$$1$$syslog == 0))
+  if(logpath == ((const char *)NULL) && !(daemonize == 0) || !(main__1__syslog == 0))
   {
     log_params.use_syslog = 1;
     exec_srv_params.syslog = 1;
@@ -5392,23 +5392,23 @@ signed int main(signed int argc, char **argv)
   ensure_command_available(xnbd_bgctl_command);
   ensure_command_available(xnbd_server_command);
   do
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "xnbd-bgctl executable: %s", xnbd_bgctl_command);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "xnbd-bgctl executable: %s", xnbd_bgctl_command);
   while((_Bool)0);
   do
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "xnbd-server executable: %s", xnbd_server_command);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "xnbd-server executable: %s", xnbd_server_command);
   while((_Bool)0);
   exec_srv_params.binpath = xnbd_server_command;
   if(port == ((char *)NULL))
   {
-    signed int return_value_asprintf$2;
-    return_value_asprintf$2=asprintf(&port, "%d", XNBD_PORT);
-    if(return_value_asprintf$2 == -1)
+    signed int return_value_asprintf_2;
+    return_value_asprintf_2=asprintf(&port, "%d", XNBD_PORT);
+    if(return_value_asprintf_2 == -1)
       return 1;
 
   }
 
   do
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "port: %s", port);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "port: %s", port);
   while((_Bool)0);
   if(ctl_path == ((char *)NULL))
     ctl_path = (char *)default_ctl_path;
@@ -5417,15 +5417,15 @@ signed int main(signed int argc, char **argv)
     server_target = default_server_target;
 
   exec_srv_params.target_mode = server_target;
-  signed int return_value_daemon$4;
+  signed int return_value_daemon_4;
   if(!(daemonize == 0))
   {
-    return_value_daemon$4=daemon(0, 0);
-    if(return_value_daemon$4 == -1)
+    return_value_daemon_4=daemon(0, 0);
+    if(return_value_daemon_4 == -1)
     {
-      unsigned long int return_value_pthread_self$3;
-      return_value_pthread_self$3=pthread_self();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) daemon %m", return_value_pthread_self$3, (const void *)"main");
+      unsigned long int return_value_pthread_self_3;
+      return_value_pthread_self_3=pthread_self();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) daemon %m", return_value_pthread_self_3, (const void *)"main");
 
     __CPROVER_DUMP_L39:
       ;
@@ -5439,13 +5439,13 @@ signed int main(signed int argc, char **argv)
   sigaddset(&sigset, 15);
   sigaddset(&sigset, 17);
   sigaddset(&sigset, 13);
-  signed int return_value_sigprocmask$6;
-  return_value_sigprocmask$6=sigprocmask(0, &sigset, (struct anonymous$0 *)(void *)0);
-  if(return_value_sigprocmask$6 == -1)
+  signed int return_value_sigprocmask_6;
+  return_value_sigprocmask_6=sigprocmask(0, &sigset, (struct anonymous_0 *)(void *)0);
+  if(return_value_sigprocmask_6 == -1)
   {
-    unsigned long int return_value_pthread_self$5;
-    return_value_pthread_self$5=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) sigprocmask() : %m", return_value_pthread_self$5, (const void *)"main");
+    unsigned long int return_value_pthread_self_5;
+    return_value_pthread_self_5=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) sigprocmask() : %m", return_value_pthread_self_5, (const void *)"main");
 
   __CPROVER_DUMP_L42:
     ;
@@ -5455,9 +5455,9 @@ signed int main(signed int argc, char **argv)
   sigfd=signalfd(-1, &sigset, 0);
   if(sigfd == -1)
   {
-    unsigned long int return_value_pthread_self$7;
-    return_value_pthread_self$7=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) signalfd() : %m", return_value_pthread_self$7, (const void *)"main");
+    unsigned long int return_value_pthread_self_7;
+    return_value_pthread_self_7=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) signalfd() : %m", return_value_pthread_self_7, (const void *)"main");
 
   __CPROVER_DUMP_L45:
     ;
@@ -5467,9 +5467,9 @@ signed int main(signed int argc, char **argv)
   epoll_fd=epoll_create1(0);
   if(epoll_fd == -1)
   {
-    unsigned long int return_value_pthread_self$8;
-    return_value_pthread_self$8=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) epoll_create : %m", return_value_pthread_self$8, (const void *)"main");
+    unsigned long int return_value_pthread_self_8;
+    return_value_pthread_self_8=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) epoll_create : %m", return_value_pthread_self_8, (const void *)"main");
 
   __CPROVER_DUMP_L48:
     ;
@@ -5479,13 +5479,13 @@ signed int main(signed int argc, char **argv)
   memset((void *)&sigfd_ev, 0, sizeof(struct epoll_event) /*12ul*/ );
   sigfd_ev.events = (unsigned int)0x001;
   sigfd_ev.data.fd = sigfd;
-  signed int return_value_epoll_ctl$10;
-  return_value_epoll_ctl$10=epoll_ctl(epoll_fd, 1, sigfd, &sigfd_ev);
-  if(return_value_epoll_ctl$10 == -1)
+  signed int return_value_epoll_ctl_10;
+  return_value_epoll_ctl_10=epoll_ctl(epoll_fd, 1, sigfd, &sigfd_ev);
+  if(return_value_epoll_ctl_10 == -1)
   {
-    unsigned long int return_value_pthread_self$9;
-    return_value_pthread_self$9=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) epoll_ctl : %m", return_value_pthread_self$9, (const void *)"main");
+    unsigned long int return_value_pthread_self_9;
+    return_value_pthread_self_9=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) epoll_ctl : %m", return_value_pthread_self_9, (const void *)"main");
 
   __CPROVER_DUMP_L51:
     ;
@@ -5495,9 +5495,9 @@ signed int main(signed int argc, char **argv)
   sockfd=make_tcp_sock(laddr, port);
   if(sockfd == -1)
   {
-    unsigned long int return_value_pthread_self$11;
-    return_value_pthread_self$11=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) make_tcp_sock() returned %d", return_value_pthread_self$11, (const void *)"main", sockfd);
+    unsigned long int return_value_pthread_self_11;
+    return_value_pthread_self_11=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) make_tcp_sock() returned %d", return_value_pthread_self_11, (const void *)"main", sockfd);
 
   __CPROVER_DUMP_L54:
     ;
@@ -5507,13 +5507,13 @@ signed int main(signed int argc, char **argv)
   memset((void *)&tcpfd_ev, 0, sizeof(struct epoll_event) /*12ul*/ );
   tcpfd_ev.events = (unsigned int)0x001;
   tcpfd_ev.data.fd = sockfd;
-  signed int return_value_epoll_ctl$13;
-  return_value_epoll_ctl$13=epoll_ctl(epoll_fd, 1, sockfd, &tcpfd_ev);
-  if(return_value_epoll_ctl$13 == -1)
+  signed int return_value_epoll_ctl_13;
+  return_value_epoll_ctl_13=epoll_ctl(epoll_fd, 1, sockfd, &tcpfd_ev);
+  if(return_value_epoll_ctl_13 == -1)
   {
-    unsigned long int return_value_pthread_self$12;
-    return_value_pthread_self$12=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) epoll_ctl : %m", return_value_pthread_self$12, (const void *)"main");
+    unsigned long int return_value_pthread_self_12;
+    return_value_pthread_self_12=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) epoll_ctl : %m", return_value_pthread_self_12, (const void *)"main");
 
   __CPROVER_DUMP_L57:
     ;
@@ -5523,9 +5523,9 @@ signed int main(signed int argc, char **argv)
   ux_sockfd=make_unix_sock(ctl_path);
   if(!(ux_sockfd >= 0))
   {
-    unsigned long int return_value_pthread_self$14;
-    return_value_pthread_self$14=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) make_unix_sock() returned %d", return_value_pthread_self$14, (const void *)"main", ux_sockfd);
+    unsigned long int return_value_pthread_self_14;
+    return_value_pthread_self_14=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) make_unix_sock() returned %d", return_value_pthread_self_14, (const void *)"main", ux_sockfd);
 
   __CPROVER_DUMP_L60:
     ;
@@ -5535,13 +5535,13 @@ signed int main(signed int argc, char **argv)
   memset((void *)&uxfd_ev, 0, sizeof(struct epoll_event) /*12ul*/ );
   uxfd_ev.events = (unsigned int)0x001;
   uxfd_ev.data.fd = ux_sockfd;
-  signed int return_value_epoll_ctl$16;
-  return_value_epoll_ctl$16=epoll_ctl(epoll_fd, 1, ux_sockfd, &uxfd_ev);
-  if(return_value_epoll_ctl$16 == -1)
+  signed int return_value_epoll_ctl_16;
+  return_value_epoll_ctl_16=epoll_ctl(epoll_fd, 1, ux_sockfd, &uxfd_ev);
+  if(return_value_epoll_ctl_16 == -1)
   {
-    unsigned long int return_value_pthread_self$15;
-    return_value_pthread_self$15=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) epoll_ctl : %m", return_value_pthread_self$15, (const void *)"main");
+    unsigned long int return_value_pthread_self_15;
+    return_value_pthread_self_15=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) epoll_ctl : %m", return_value_pthread_self_15, (const void *)"main");
 
   __CPROVER_DUMP_L63:
     ;
@@ -5554,14 +5554,14 @@ signed int main(signed int argc, char **argv)
     num_of_fds=epoll_wait(epoll_fd, ep_events, MAX_EVENTS, -1);
     if(num_of_fds == -1)
     {
-      signed int *return_value___errno_location$17;
-      return_value___errno_location$17=__errno_location();
-      if(*return_value___errno_location$17 == 4)
+      signed int *return_value___errno_location_17;
+      return_value___errno_location_17=__errno_location();
+      if(*return_value___errno_location_17 == 4)
         continue;
 
-      unsigned long int return_value_pthread_self$18;
-      return_value_pthread_self$18=pthread_self();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) epoll_wait : %m", return_value_pthread_self$18, (const void *)"main");
+      unsigned long int return_value_pthread_self_18;
+      return_value_pthread_self_18=pthread_self();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) epoll_wait : %m", return_value_pthread_self_18, (const void *)"main");
 
     __CPROVER_DUMP_L66:
       ;
@@ -5575,9 +5575,9 @@ signed int main(signed int argc, char **argv)
         rbytes=read(sigfd, (void *)&sfd_siginfo, sizeof(struct signalfd_siginfo) /*128ul*/ );
         if(!((unsigned long int)rbytes == sizeof(struct signalfd_siginfo) /*128ul*/ ))
         {
-          unsigned long int return_value_pthread_self$19;
-          return_value_pthread_self$19=pthread_self();
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) read sigfd : %m", return_value_pthread_self$19, (const void *)"main");
+          unsigned long int return_value_pthread_self_19;
+          return_value_pthread_self_19=pthread_self();
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) read sigfd : %m", return_value_pthread_self_19, (const void *)"main");
 
         __CPROVER_DUMP_L70:
           ;
@@ -5604,12 +5604,12 @@ signed int main(signed int argc, char **argv)
         if(ep_events[(signed long int)c_ev].data.fd == ux_sockfd)
         {
           struct _t_thread_data *p_thread_data;
-          void *return_value_g_try_malloc_n$20;
-          return_value_g_try_malloc_n$20=g_try_malloc_n((unsigned long int)1, sizeof(struct _t_thread_data) /*24ul*/ );
-          p_thread_data = (struct _t_thread_data *)return_value_g_try_malloc_n$20;
+          void *return_value_g_try_malloc_n_20;
+          return_value_g_try_malloc_n_20=g_try_malloc_n((unsigned long int)1, sizeof(struct _t_thread_data) /*24ul*/ );
+          p_thread_data = (struct _t_thread_data *)return_value_g_try_malloc_n_20;
           if(p_thread_data == ((struct _t_thread_data *)NULL))
             do
-              g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "Could not start thread: %s", (const void *)"out of memory");
+              g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "Could not start thread: %s", (const void *)"out of memory");
             while((_Bool)0);
 
           else
@@ -5617,18 +5617,18 @@ signed int main(signed int argc, char **argv)
             p_thread_data->unix_sock_fd = ux_sockfd;
             p_thread_data->xnbd_bgctl_command = xnbd_bgctl_command;
             p_thread_data->p_child_process_count = &child_process_count;
-            signed int return_value_pthread_create$21;
-            return_value_pthread_create$21=pthread_create(&thread, (const union pthread_attr_t *)(void *)0, start_filemgr_thread, (void *)p_thread_data);
-            if(!(return_value_pthread_create$21 == 0))
+            signed int return_value_pthread_create_21;
+            return_value_pthread_create_21=pthread_create(&thread, (const union pthread_attr_t *)(void *)0, start_filemgr_thread, (void *)p_thread_data);
+            if(!(return_value_pthread_create_21 == 0))
               do
-                g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "pthread_create : %m");
+                g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "pthread_create : %m");
               while((_Bool)0);
 
-            signed int return_value_pthread_detach$22;
-            return_value_pthread_detach$22=pthread_detach(thread);
-            if(!(return_value_pthread_detach$22 == 0))
+            signed int return_value_pthread_detach_22;
+            return_value_pthread_detach_22=pthread_detach(thread);
+            if(!(return_value_pthread_detach_22 == 0))
               do
-                g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "pthread_detach : %m");
+                g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "pthread_detach : %m");
               while((_Bool)0);
 
           }
@@ -5641,18 +5641,18 @@ signed int main(signed int argc, char **argv)
             if(conn_sockfd == -1)
             {
               do
-                g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "accept : %m");
+                g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "accept : %m");
               while((_Bool)0);
               break;
             }
 
-            signed int return_value_asprintf$23;
-            return_value_asprintf$23=asprintf(&fd_num, "%d", conn_sockfd);
-            if(return_value_asprintf$23 == -1)
+            signed int return_value_asprintf_23;
+            return_value_asprintf_23=asprintf(&fd_num, "%d", conn_sockfd);
+            if(return_value_asprintf_23 == -1)
               break;
 
             do
-              g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "conn_sockfd: %d", conn_sockfd);
+              g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "conn_sockfd: %d", conn_sockfd);
             while((_Bool)0);
             pthread_mutex_lock(&mutex);
             const signed int child_process_limit_reached = (const signed int)(child_process_count >= MAX_NSRVS);
@@ -5661,7 +5661,7 @@ signed int main(signed int argc, char **argv)
             {
               close(conn_sockfd);
               do
-                g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "fork : reached the limit");
+                g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "fork : reached the limit");
               while((_Bool)0);
               break;
             }
@@ -5669,12 +5669,12 @@ signed int main(signed int argc, char **argv)
             pid=fork();
             if(pid == 0)
             {
-              signed int return_value_sigprocmask$24;
-              return_value_sigprocmask$24=sigprocmask(1, &sigset, (struct anonymous$0 *)(void *)0);
-              if(return_value_sigprocmask$24 == -1)
+              signed int return_value_sigprocmask_24;
+              return_value_sigprocmask_24=sigprocmask(1, &sigset, (struct anonymous_0 *)(void *)0);
+              if(return_value_sigprocmask_24 == -1)
               {
                 do
-                  g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "sigprocmask() : %m");
+                  g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "sigprocmask() : %m");
                 while((_Bool)0);
                 _exit(1);
               }
@@ -5687,24 +5687,24 @@ signed int main(signed int argc, char **argv)
               if(requested_img == ((char *)NULL))
               {
                 do
-                  g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "requested_img: NULL");
+                  g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "requested_img: NULL");
                 while((_Bool)0);
                 close(conn_sockfd);
                 _exit(1);
               }
 
               do
-                g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "requested_img: %s", requested_img);
+                g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "requested_img: %s", requested_img);
               while((_Bool)0);
               const struct _t_disk_data *disk_data;
               disk_data=get_disk_data_for(requested_img);
               if(disk_data == ((const struct _t_disk_data *)NULL))
               {
-                signed int return_value_close$25;
-                return_value_close$25=close(conn_sockfd);
-                if(!(return_value_close$25 == 0))
+                signed int return_value_close_25;
+                return_value_close_25=close(conn_sockfd);
+                if(!(return_value_close_25 == 0))
                   do
-                    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "close(p0)");
+                    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "close(p0)");
                   while((_Bool)0);
 
                 _exit(1);
@@ -5717,13 +5717,13 @@ signed int main(signed int argc, char **argv)
                 if(!(disk_size_bytes >= 0l))
                 {
                   do
-                    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "could query remote disk size for image: %s", disk_data->disk_file_name);
+                    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "could query remote disk size for image: %s", disk_data->disk_file_name);
                   while((_Bool)0);
-                  signed int return_value_close$26;
-                  return_value_close$26=close(conn_sockfd);
-                  if(!(return_value_close$26 == 0))
+                  signed int return_value_close_26;
+                  return_value_close_26=close(conn_sockfd);
+                  if(!(return_value_close_26 == 0))
                     do
-                      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "close(p1.1)");
+                      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "close(p1.1)");
                     while((_Bool)0);
 
                   _exit(1);
@@ -5738,13 +5738,13 @@ signed int main(signed int argc, char **argv)
                 if(fd == -1)
                 {
                   do
-                    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "stat failed: %s", disk_data->disk_file_name);
+                    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "stat failed: %s", disk_data->disk_file_name);
                   while((_Bool)0);
-                  signed int return_value_close$27;
-                  return_value_close$27=close(conn_sockfd);
-                  if(!(return_value_close$27 == 0))
+                  signed int return_value_close_27;
+                  return_value_close_27=close(conn_sockfd);
+                  if(!(return_value_close_27 == 0))
                     do
-                      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "close(p1.2)");
+                      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "close(p1.2)");
                     while((_Bool)0);
 
                   _exit(1);
@@ -5754,17 +5754,17 @@ signed int main(signed int argc, char **argv)
                 close(fd);
               }
               do
-                g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "disk_size_bytes: %jd", disk_size_bytes);
+                g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "disk_size_bytes: %jd", disk_size_bytes);
               while((_Bool)0);
-              signed int return_value_nbd_negotiate_with_client_new_phase_1$29;
-              return_value_nbd_negotiate_with_client_new_phase_1$29=nbd_negotiate_with_client_new_phase_1(conn_sockfd, disk_size_bytes, 0);
-              if(!(return_value_nbd_negotiate_with_client_new_phase_1$29 == 0))
+              signed int return_value_nbd_negotiate_with_client_new_phase_1_29;
+              return_value_nbd_negotiate_with_client_new_phase_1_29=nbd_negotiate_with_client_new_phase_1(conn_sockfd, disk_size_bytes, 0);
+              if(!(return_value_nbd_negotiate_with_client_new_phase_1_29 == 0))
               {
-                signed int return_value_close$28;
-                return_value_close$28=close(conn_sockfd);
-                if(!(return_value_close$28 == 0))
+                signed int return_value_close_28;
+                return_value_close_28=close(conn_sockfd);
+                if(!(return_value_close_28 == 0))
                   do
-                    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "close(p2)");
+                    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "close(p2)");
                   while((_Bool)0);
 
                 _exit(1);
@@ -5781,20 +5781,20 @@ signed int main(signed int argc, char **argv)
                 pthread_mutex_lock(&mutex);
                 child_process_count = child_process_count + 1;
                 do
-                  g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "child_process_count++ : %d  (forked to execute xnbd-server)", child_process_count);
+                  g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "child_process_count++ : %d  (forked to execute xnbd-server)", child_process_count);
                 while((_Bool)0);
                 pthread_mutex_unlock(&mutex);
                 do
-                  g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "fork: pid %ld", (signed long int)pid);
+                  g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "fork: pid %ld", (signed long int)pid);
                 while((_Bool)0);
                 close(conn_sockfd);
               }
 
               else
               {
-                unsigned long int return_value_pthread_self$30;
-                return_value_pthread_self$30=pthread_self();
-                g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) fork: %m", return_value_pthread_self$30, (const void *)"main");
+                unsigned long int return_value_pthread_self_30;
+                return_value_pthread_self_30=pthread_self();
+                g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) fork: %m", return_value_pthread_self_30, (const void *)"main");
 
               __CPROVER_DUMP_L112:
                 ;
@@ -5813,11 +5813,11 @@ signed int main(signed int argc, char **argv)
 signed int main_loop(struct xnbd_proxy *proxy, signed int unix_listen_fd, signed int master_fd)
 {
   signed int ret;
-  signed long int ret$array_size0;
-  unsigned int return_value_g_list_length$1;
-  return_value_g_list_length$1=g_list_length(conn_list);
-  ret$array_size0 = (signed long int)((unsigned int)2 + return_value_g_list_length$1);
-  struct pollfd eventfds[ret$array_size0];
+  signed long int ret_array_size0;
+  unsigned int return_value_g_list_length_1;
+  return_value_g_list_length_1=g_list_length(conn_list);
+  ret_array_size0 = (signed long int)((unsigned int)2 + return_value_g_list_length_1);
+  struct pollfd eventfds[ret_array_size0];
   unsigned long int neventfds = (unsigned long int)0;
   eventfds[(signed long int)neventfds].fd = unix_listen_fd;
   eventfds[(signed long int)neventfds].events = (signed short int)(0x040 | 0x2000);
@@ -5827,44 +5827,44 @@ signed int main_loop(struct xnbd_proxy *proxy, signed int unix_listen_fd, signed
   neventfds = neventfds + (unsigned long int)1;
   struct _GList *list;
   list=g_list_first(conn_list);
-  struct _GList *tmp_if_expr$2;
-  for( ; !(list == ((struct _GList *)NULL)); list = tmp_if_expr$2)
+  struct _GList *tmp_if_expr_2;
+  for( ; !(list == ((struct _GList *)NULL)); list = tmp_if_expr_2)
   {
-    struct proxy_session *main_loop$$1$$1$$1$$ps = (struct proxy_session *)list->data;
-    eventfds[(signed long int)neventfds].fd = main_loop$$1$$1$$1$$ps->pipe_read_fd;
+    struct proxy_session *main_loop__1__1__1__ps = (struct proxy_session *)list->data;
+    eventfds[(signed long int)neventfds].fd = main_loop__1__1__1__ps->pipe_read_fd;
     eventfds[(signed long int)neventfds].events = (signed short int)(0x040 | 0x2000);
     neventfds = neventfds + (unsigned long int)1;
     if(!(list == ((struct _GList *)NULL)))
-      tmp_if_expr$2 = ((struct _GList *)list)->next;
+      tmp_if_expr_2 = ((struct _GList *)list)->next;
 
     else
-      tmp_if_expr$2 = (struct _GList *)(void *)0;
+      tmp_if_expr_2 = (struct _GList *)(void *)0;
   }
   signed int nready;
   nready=poll(eventfds, neventfds, -1);
   if(nready == -1)
   {
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    if(*return_value___errno_location$7 == 4)
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    if(*return_value___errno_location_7 == 4)
     {
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "polling signal cached");
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "polling signal cached");
       while((_Bool)0);
       return -1;
     }
 
     else
     {
-      unsigned long int return_value_pthread_self$3;
-      return_value_pthread_self$3=pthread_self();
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) polling, %s, (%d)", return_value_pthread_self$3, (const void *)"main_loop", return_value_strerror$5, *return_value___errno_location$6);
+      unsigned long int return_value_pthread_self_3;
+      return_value_pthread_self_3=pthread_self();
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) polling, %s, (%d)", return_value_pthread_self_3, (const void *)"main_loop", return_value_strerror_5, *return_value___errno_location_6);
 
     __CPROVER_DUMP_L7:
       ;
@@ -5880,9 +5880,9 @@ signed int main_loop(struct xnbd_proxy *proxy, signed int unix_listen_fd, signed
     wrk_fd=accept(eventfds[(signed long int)0].fd, &cliaddr, &cliaddr_len);
     if(!(wrk_fd >= 0))
     {
-      unsigned long int return_value_pthread_self$8;
-      return_value_pthread_self$8=pthread_self();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) accept %m", return_value_pthread_self$8, (const void *)"main_loop");
+      unsigned long int return_value_pthread_self_8;
+      return_value_pthread_self_8=pthread_self();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) accept %m", return_value_pthread_self_8, (const void *)"main_loop");
 
     __CPROVER_DUMP_L11:
       ;
@@ -5912,7 +5912,7 @@ signed int main_loop(struct xnbd_proxy *proxy, signed int unix_listen_fd, signed
         query.max_use_que = proxy->xnbd->proxy_max_que_size;
         query.cur_use_que = proxy->cur_use_que;
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "send current status (wrk_fd %d)", wrk_fd);
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "send current status (wrk_fd %d)", wrk_fd);
         while((_Bool)0);
         net_send_all_or_error(wrk_fd, (const void *)&query, sizeof(struct xnbd_proxy_query) /*16432ul*/ );
         break;
@@ -5922,20 +5922,20 @@ signed int main_loop(struct xnbd_proxy *proxy, signed int unix_listen_fd, signed
         signed int nbd_fd;
         nbd_fd=unix_recv_fd(wrk_fd);
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "create proxy_session (nbd_fd %d wrk_fd %d)", nbd_fd, wrk_fd);
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "create proxy_session (nbd_fd %d wrk_fd %d)", nbd_fd, wrk_fd);
         while((_Bool)0);
-        struct proxy_session *main_loop$$1$$3$$2$$2$$ps;
-        void *return_value_g_malloc0$9;
-        return_value_g_malloc0$9=g_malloc0(sizeof(struct proxy_session) /*48ul*/ );
-        main_loop$$1$$3$$2$$2$$ps = (struct proxy_session *)return_value_g_malloc0$9;
-        main_loop$$1$$3$$2$$2$$ps->nbd_fd = nbd_fd;
-        main_loop$$1$$3$$2$$2$$ps->wrk_fd = wrk_fd;
-        main_loop$$1$$3$$2$$2$$ps->tx_queue=g_async_queue_new();
-        main_loop$$1$$3$$2$$2$$ps->proxy = proxy;
-        main_loop$$1$$3$$2$$2$$ps->tid_tx=pthread_create_or_abort(tx_thread_main, (void *)main_loop$$1$$3$$2$$2$$ps);
-        main_loop$$1$$3$$2$$2$$ps->tid_rx=pthread_create_or_abort(rx_thread_main, (void *)main_loop$$1$$3$$2$$2$$ps);
-        make_pipe(&main_loop$$1$$3$$2$$2$$ps->pipe_write_fd, &main_loop$$1$$3$$2$$2$$ps->pipe_read_fd);
-        conn_list=g_list_append(conn_list, (void *)main_loop$$1$$3$$2$$2$$ps);
+        struct proxy_session *main_loop__1__3__2__2__ps;
+        void *return_value_g_malloc0_9;
+        return_value_g_malloc0_9=g_malloc0(sizeof(struct proxy_session) /*48ul*/ );
+        main_loop__1__3__2__2__ps = (struct proxy_session *)return_value_g_malloc0_9;
+        main_loop__1__3__2__2__ps->nbd_fd = nbd_fd;
+        main_loop__1__3__2__2__ps->wrk_fd = wrk_fd;
+        main_loop__1__3__2__2__ps->tx_queue=g_async_queue_new();
+        main_loop__1__3__2__2__ps->proxy = proxy;
+        main_loop__1__3__2__2__ps->tid_tx=pthread_create_or_abort(tx_thread_main, (void *)main_loop__1__3__2__2__ps);
+        main_loop__1__3__2__2__ps->tid_rx=pthread_create_or_abort(rx_thread_main, (void *)main_loop__1__3__2__2__ps);
+        make_pipe(&main_loop__1__3__2__2__ps->pipe_write_fd, &main_loop__1__3__2__2__ps->pipe_read_fd);
+        conn_list=g_list_append(conn_list, (void *)main_loop__1__3__2__2__ps);
         close_wrk_fd = 0;
         break;
       }
@@ -5944,7 +5944,7 @@ signed int main_loop(struct xnbd_proxy *proxy, signed int unix_listen_fd, signed
         signed int fwd_fd;
         fwd_fd=unix_recv_fd(wrk_fd);
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "register forwarder fd (nbd_fd %d wrk_fd %d)", fwd_fd, wrk_fd);
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "register forwarder fd (nbd_fd %d wrk_fd %d)", fwd_fd, wrk_fd);
         while((_Bool)0);
         proxy_shutdown_forwarder(proxy);
         nbd_client_send_disc_request(proxy->remotefd);
@@ -5952,9 +5952,9 @@ signed int main_loop(struct xnbd_proxy *proxy, signed int unix_listen_fd, signed
         do
         {
           struct proxy_priv *priv;
-          void *return_value_g_async_queue_try_pop$10;
-          return_value_g_async_queue_try_pop$10=g_async_queue_try_pop(proxy->fwd_retry_queue);
-          priv = (struct proxy_priv *)return_value_g_async_queue_try_pop$10;
+          void *return_value_g_async_queue_try_pop_10;
+          return_value_g_async_queue_try_pop_10=g_async_queue_try_pop(proxy->fwd_retry_queue);
+          priv = (struct proxy_priv *)return_value_g_async_queue_try_pop_10;
           if(priv == ((struct proxy_priv *)NULL))
             break;
 
@@ -5969,7 +5969,7 @@ signed int main_loop(struct xnbd_proxy *proxy, signed int unix_listen_fd, signed
       {
         if(!(proxy->shared_buff == ((char *)NULL)))
           do
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "shared_buff was already assigned; do nothing");
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "shared_buff was already assigned; do nothing");
           while((_Bool)0);
 
         else
@@ -5977,16 +5977,16 @@ signed int main_loop(struct xnbd_proxy *proxy, signed int unix_listen_fd, signed
           signed int buf_fd;
           buf_fd=unix_recv_fd(wrk_fd);
           do
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "register shared buffer fd (buf_fd %d wrk_fd %d)", buf_fd, wrk_fd);
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "register shared buffer fd (buf_fd %d wrk_fd %d)", buf_fd, wrk_fd);
           while((_Bool)0);
-          void *return_value_mmap$11;
-          return_value_mmap$11=mmap((void *)0, (unsigned long int)(CBLOCKSIZE * (unsigned int)1000), 0x1, 0x01, buf_fd, (signed long int)0);
-          proxy->shared_buff = (char *)return_value_mmap$11;
+          void *return_value_mmap_11;
+          return_value_mmap_11=mmap((void *)0, (unsigned long int)(CBLOCKSIZE * (unsigned int)1000), 0x1, 0x01, buf_fd, (signed long int)0);
+          proxy->shared_buff = (char *)return_value_mmap_11;
           if(proxy->shared_buff == (char *)-1)
           {
-            unsigned long int return_value_pthread_self$12;
-            return_value_pthread_self$12=pthread_self();
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) mmap, %m", return_value_pthread_self$12, (const void *)"main_loop");
+            unsigned long int return_value_pthread_self_12;
+            return_value_pthread_self_12=pthread_self();
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) mmap, %m", return_value_pthread_self_12, (const void *)"main_loop");
 
           __CPROVER_DUMP_L28:
             ;
@@ -6006,7 +6006,7 @@ signed int main_loop(struct xnbd_proxy *proxy, signed int unix_listen_fd, signed
 
       default:
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "unknown proxy cmd %d (wrk_fd %d)", cmd, wrk_fd);
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "unknown proxy cmd %d (wrk_fd %d)", cmd, wrk_fd);
         while((_Bool)0);
     }
     if(!(close_wrk_fd == 0))
@@ -6014,27 +6014,27 @@ signed int main_loop(struct xnbd_proxy *proxy, signed int unix_listen_fd, signed
 
   }
 
-  _Bool tmp_if_expr$13;
+  _Bool tmp_if_expr_13;
   if(!((8256 & (signed int)eventfds[1l].revents) == 0))
   {
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "mainloop exit is requested");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "mainloop exit is requested");
     while((_Bool)0);
     unsigned int remaining_sessions;
     remaining_sessions=g_list_length(conn_list);
     if(remaining_sessions >= 1u)
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "terminate %u xnbd-bgctl session(s)", remaining_sessions);
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "terminate %u xnbd-bgctl session(s)", remaining_sessions);
       while((_Bool)0);
 
     if(!(proxy->cur_use_buf == 0ul))
-      tmp_if_expr$13 = (_Bool)1;
+      tmp_if_expr_13 = (_Bool)1;
 
     else
-      tmp_if_expr$13 = proxy->cur_use_que != (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$13)
+      tmp_if_expr_13 = proxy->cur_use_que != (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_13)
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "terminate pending requests");
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "terminate pending requests");
       while((_Bool)0);
 
     return -1;
@@ -6055,15 +6055,15 @@ signed int main_loop(struct xnbd_proxy *proxy, signed int unix_listen_fd, signed
 
         while((_Bool)0);
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "cleanup proxy_session (nbd_fd %d wrk_fd %d)", ps->nbd_fd, ps->wrk_fd);
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "cleanup proxy_session (nbd_fd %d wrk_fd %d)", ps->nbd_fd, ps->wrk_fd);
         while((_Bool)0);
         pthread_join(ps->tid_rx, (void **)(void *)0);
         pthread_join(ps->tid_tx, (void **)(void *)0);
         do
         {
-          signed int return_value_g_async_queue_length$14;
-          return_value_g_async_queue_length$14=g_async_queue_length(ps->tx_queue);
-          if(!(return_value_g_async_queue_length$14 == 0))
+          signed int return_value_g_async_queue_length_14;
+          return_value_g_async_queue_length_14=g_async_queue_length(ps->tx_queue);
+          if(!(return_value_g_async_queue_length_14 == 0))
             g_assertion_message_expr((char *)0, "xnbd_proxy.c", 730, (const char *)"main_loop", "g_async_queue_length(ps->tx_queue) == 0");
 
         }
@@ -6072,19 +6072,19 @@ signed int main_loop(struct xnbd_proxy *proxy, signed int unix_listen_fd, signed
         close(ps->pipe_read_fd);
         close(ps->pipe_write_fd);
         close(ps->nbd_fd);
-        signed long int return_value_write$15;
-        return_value_write$15=write(ps->wrk_fd, (const void *)"", (unsigned long int)1);
-        ret = (signed int)return_value_write$15;
+        signed long int return_value_write_15;
+        return_value_write_15=write(ps->wrk_fd, (const void *)"", (unsigned long int)1);
+        ret = (signed int)return_value_write_15;
         if(!(ret >= 0))
           do
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "notifying the worker process failed: %m");
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "notifying the worker process failed: %m");
           while((_Bool)0);
 
         close(ps->wrk_fd);
         conn_list=g_list_remove(conn_list, (const void *)ps);
         g_free((void *)ps);
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "cleanup proxy_session done");
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "cleanup proxy_session done");
         while((_Bool)0);
       }
 
@@ -6101,9 +6101,9 @@ void make_pipe(signed int *write_fd, signed int *read_fd)
   ret=pipe(pipefds);
   if(ret == -1)
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) pipe, %m", return_value_pthread_self$1, (const void *)"make_pipe");
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) pipe, %m", return_value_pthread_self_1, (const void *)"make_pipe");
 
   __CPROVER_DUMP_L2:
     ;
@@ -6123,9 +6123,9 @@ void make_sockpair(signed int *fd0, signed int *fd1)
   ret=socketpair(1, 1, 0, sockfds);
   if(ret == -1)
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) socketpair, %m", return_value_pthread_self$1, (const void *)"make_sockpair");
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) socketpair, %m", return_value_pthread_self_1, (const void *)"make_sockpair");
 
   __CPROVER_DUMP_L2:
     ;
@@ -6153,9 +6153,9 @@ static signed int make_tcp_sock(const char *addr_or_name, const char *port)
   {
     do
     {
-      const char *return_value_gai_strerror$1;
-      return_value_gai_strerror$1=gai_strerror(error);
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "%s: %s", port, return_value_gai_strerror$1);
+      const char *return_value_gai_strerror_1;
+      return_value_gai_strerror_1=gai_strerror(error);
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "%s: %s", port, return_value_gai_strerror_1);
     }
     while((_Bool)0);
     return -1;
@@ -6174,7 +6174,7 @@ static signed int make_tcp_sock(const char *addr_or_name, const char *port)
     if(rp == ((struct addrinfo *)NULL))
     {
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "rp is NULL\n");
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "rp is NULL\n");
       while((_Bool)0);
       return -1;
     }
@@ -6182,9 +6182,9 @@ static signed int make_tcp_sock(const char *addr_or_name, const char *port)
     else
     {
       signed int optval = 1;
-      signed int return_value_setsockopt$2;
-      return_value_setsockopt$2=setsockopt(tcp_sock, 1, 2, (const void *)&optval, (unsigned int)sizeof(signed int) /*4ul*/ );
-      if(!(return_value_setsockopt$2 == 0))
+      signed int return_value_setsockopt_2;
+      return_value_setsockopt_2=setsockopt(tcp_sock, 1, 2, (const void *)&optval, (unsigned int)sizeof(signed int) /*4ul*/ );
+      if(!(return_value_setsockopt_2 == 0))
       {
         perror("setsockopt");
         return -1;
@@ -6192,9 +6192,9 @@ static signed int make_tcp_sock(const char *addr_or_name, const char *port)
 
       else
       {
-        signed int return_value_bind$3;
-        return_value_bind$3=bind(tcp_sock, rp->ai_addr, rp->ai_addrlen);
-        if(!(return_value_bind$3 == 0))
+        signed int return_value_bind_3;
+        return_value_bind_3=bind(tcp_sock, rp->ai_addr, rp->ai_addrlen);
+        if(!(return_value_bind_3 == 0))
         {
           perror("bind");
           return -1;
@@ -6203,9 +6203,9 @@ static signed int make_tcp_sock(const char *addr_or_name, const char *port)
         else
         {
           freeaddrinfo(res);
-          signed int return_value_listen$4;
-          return_value_listen$4=listen(tcp_sock, 64);
-          if(!(return_value_listen$4 == 0))
+          signed int return_value_listen_4;
+          return_value_listen_4=listen(tcp_sock, 64);
+          if(!(return_value_listen_4 == 0))
           {
             perror("listen");
             return -1;
@@ -6228,7 +6228,7 @@ static signed int make_unix_sock(const char *uxsock_path)
   if(uxsock == -1)
   {
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "socket(AF_UNIX): %m");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "socket(AF_UNIX): %m");
     while((_Bool)0);
     return -1;
   }
@@ -6238,24 +6238,24 @@ static signed int make_unix_sock(const char *uxsock_path)
     struct sockaddr_un ux_saddr;
     strcpy(ux_saddr.sun_path, uxsock_path);
     ux_saddr.sun_family = (unsigned short int)1;
-    signed int return_value_bind$1;
-    return_value_bind$1=bind(uxsock, &ux_saddr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
-    if(!(return_value_bind$1 == 0))
+    signed int return_value_bind_1;
+    return_value_bind_1=bind(uxsock, &ux_saddr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
+    if(!(return_value_bind_1 == 0))
     {
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "bind(AF_UNIX), socket \"%s\": %m", uxsock_path);
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "bind(AF_UNIX), socket \"%s\": %m", uxsock_path);
       while((_Bool)0);
       return -2;
     }
 
     else
     {
-      signed int return_value_listen$2;
-      return_value_listen$2=listen(uxsock, 8);
-      if(!(return_value_listen$2 == 0))
+      signed int return_value_listen_2;
+      return_value_listen_2=listen(uxsock, 8);
+      if(!(return_value_listen_2 == 0))
       {
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "listen(AF_UNIX), socket \"%s\": %m", uxsock_path);
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "listen(AF_UNIX), socket \"%s\": %m", uxsock_path);
         while((_Bool)0);
         return -3;
       }
@@ -6272,9 +6272,9 @@ static void mark_proxy_mode_ended(const char *local_exportname)
 {
   pthread_mutex_lock(&mutex);
   struct _t_disk_data *p_disk_data;
-  void *return_value_g_hash_table_lookup$1;
-  return_value_g_hash_table_lookup$1=g_hash_table_lookup(p_disk_dict, (const void *)local_exportname);
-  p_disk_data = (struct _t_disk_data *)return_value_g_hash_table_lookup$1;
+  void *return_value_g_hash_table_lookup_1;
+  return_value_g_hash_table_lookup_1=g_hash_table_lookup(p_disk_dict, (const void *)local_exportname);
+  p_disk_data = (struct _t_disk_data *)return_value_g_hash_table_lookup_1;
   if(!(p_disk_data == ((struct _t_disk_data *)NULL)))
   {
     do
@@ -6316,30 +6316,30 @@ static void mark_proxy_mode_ended(const char *local_exportname)
 // file xnbd_proxy.c line 112
 static void mem_usage_add(struct xnbd_proxy *proxy, struct proxy_priv *priv)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(priv->write_buff == ((char *)NULL)))
-      tmp_if_expr$1 = priv->read_buff != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = priv->read_buff != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       g_assertion_message_expr((char *)0, "xnbd_proxy.c", 115, (const char *)"mem_usage_add", "(priv->write_buff != NULL && priv->read_buff != NULL) == false");
 
   }
   while((_Bool)0);
   g_mutex_lock(&proxy->curr_use_mutex);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(proxy->xnbd->proxy_max_buf_size == 0ul))
   {
     proxy->cur_use_buf = proxy->cur_use_buf + sizeof(struct proxy_priv) /*624ul*/ ;
     if(!(priv->write_buff == ((char *)NULL)))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = priv->read_buff != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = priv->read_buff != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       proxy->cur_use_buf = proxy->cur_use_buf + priv->iolen;
 
   }
@@ -6355,16 +6355,16 @@ static void mem_usage_add(struct xnbd_proxy *proxy, struct proxy_priv *priv)
 static void mem_usage_del(struct xnbd_proxy *proxy, struct proxy_priv *priv)
 {
   g_mutex_lock(&proxy->curr_use_mutex);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(proxy->xnbd->proxy_max_buf_size == 0ul))
   {
     proxy->cur_use_buf = proxy->cur_use_buf - sizeof(struct proxy_priv) /*624ul*/ ;
     if(!(priv->write_buff == ((char *)NULL)))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = priv->read_buff != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = priv->read_buff != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       proxy->cur_use_buf = proxy->cur_use_buf - priv->iolen;
 
   }
@@ -6429,33 +6429,33 @@ void * mmap_iorange(const signed long int disksize, const _Bool readonly, const 
   unsigned long int mapping_length = ((index_end - index_start) + (unsigned long int)1) * (unsigned long int)CBLOCKSIZE;
   if(!(disksize >= mapping_start + (signed long int)mapping_length))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) exceed disksize", return_value_pthread_self$1, (const void *)"mmap_iorange");
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) exceed disksize", return_value_pthread_self_1, (const void *)"mmap_iorange");
 
   __CPROVER_DUMP_L2:
     ;
     goto __CPROVER_DUMP_L2;
   }
 
-  void *return_value_mmap$2;
-  void *return_value_mmap$3;
+  void *return_value_mmap_2;
+  void *return_value_mmap_3;
   if(!(readonly == (_Bool)0))
   {
-    return_value_mmap$2=mmap((void *)0, mapping_length, 0x1, 0x01, fd, mapping_start);
-    buf = (char *)return_value_mmap$2;
+    return_value_mmap_2=mmap((void *)0, mapping_length, 0x1, 0x01, fd, mapping_start);
+    buf = (char *)return_value_mmap_2;
   }
 
   else
   {
-    return_value_mmap$3=mmap((void *)0, mapping_length, 0x1 | 0x2, 0x01, fd, mapping_start);
-    buf = (char *)return_value_mmap$3;
+    return_value_mmap_3=mmap((void *)0, mapping_length, 0x1 | 0x2, 0x01, fd, mapping_start);
+    buf = (char *)return_value_mmap_3;
   }
   if(buf == (char *)-1)
   {
-    unsigned long int return_value_pthread_self$4;
-    return_value_pthread_self$4=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) disk mapping failed (iofrom %ju iolen %zu), %m", return_value_pthread_self$4, (const void *)"mmap_iorange", iofrom, iolen);
+    unsigned long int return_value_pthread_self_4;
+    return_value_pthread_self_4=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) disk mapping failed (iofrom %ju iolen %zu), %m", return_value_pthread_self_4, (const void *)"mmap_iorange", iofrom, iolen);
 
   __CPROVER_DUMP_L7:
     ;
@@ -6488,9 +6488,9 @@ struct mmap_partial * mmap_partial_map(signed int fd, signed long int iofrom, co
   calc_block_index(PAGESIZE, iofrom, iolen_in, &inds, &inde);
   if(!((signed long int)PAGESIZE * (signed long int)inds == mmap_offset))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) check failed 0: %ju, %ju", return_value_pthread_self$1, (const void *)"mmap_partial_map", (signed long int)inds * (signed long int)PAGESIZE, mmap_offset);
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) check failed 0: %ju, %ju", return_value_pthread_self_1, (const void *)"mmap_partial_map", (signed long int)inds * (signed long int)PAGESIZE, mmap_offset);
 
   __CPROVER_DUMP_L4:
     ;
@@ -6500,9 +6500,9 @@ struct mmap_partial * mmap_partial_map(signed int fd, signed long int iofrom, co
   unsigned long int mmap_len2 = ((inde - inds) + (unsigned long int)1) * (unsigned long int)(unsigned int)PAGESIZE;
   if(!(mmap_len2 == mmap_length))
   {
-    unsigned long int return_value_pthread_self$2;
-    return_value_pthread_self$2=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) check failed 1: %zu, %zu", return_value_pthread_self$2, (const void *)"mmap_partial_map", mmap_len2, mmap_length);
+    unsigned long int return_value_pthread_self_2;
+    return_value_pthread_self_2=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) check failed 1: %zu, %zu", return_value_pthread_self_2, (const void *)"mmap_partial_map", mmap_len2, mmap_length);
 
   __CPROVER_DUMP_L7:
     ;
@@ -6510,24 +6510,24 @@ struct mmap_partial * mmap_partial_map(signed int fd, signed long int iofrom, co
   }
 
   char *buf = (char *)(void *)0;
-  void *return_value_mmap$3;
-  void *return_value_mmap$4;
+  void *return_value_mmap_3;
+  void *return_value_mmap_4;
   if(!(readonly == 0))
   {
-    return_value_mmap$3=mmap((void *)0, mmap_length, 0x1, 0x01, fd, mmap_offset);
-    buf = (char *)return_value_mmap$3;
+    return_value_mmap_3=mmap((void *)0, mmap_length, 0x1, 0x01, fd, mmap_offset);
+    buf = (char *)return_value_mmap_3;
   }
 
   else
   {
-    return_value_mmap$4=mmap((void *)0, mmap_length, 0x1 | 0x2, 0x01, fd, mmap_offset);
-    buf = (char *)return_value_mmap$4;
+    return_value_mmap_4=mmap((void *)0, mmap_length, 0x1 | 0x2, 0x01, fd, mmap_offset);
+    buf = (char *)return_value_mmap_4;
   }
   if(buf == (char *)-1)
   {
-    unsigned long int return_value_pthread_self$5;
-    return_value_pthread_self$5=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) disk mapping failed (iofrom %ju iolen %zu), %m", return_value_pthread_self$5, (const void *)"mmap_partial_map", iofrom, iolen);
+    unsigned long int return_value_pthread_self_5;
+    return_value_pthread_self_5=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) disk mapping failed (iofrom %ju iolen %zu), %m", return_value_pthread_self_5, (const void *)"mmap_partial_map", iofrom, iolen);
 
   __CPROVER_DUMP_L12:
     ;
@@ -6535,9 +6535,9 @@ struct mmap_partial * mmap_partial_map(signed int fd, signed long int iofrom, co
   }
 
   struct mmap_partial *mpinfo;
-  void *return_value_g_malloc$6;
-  return_value_g_malloc$6=g_malloc(sizeof(struct mmap_partial) /*32ul*/ );
-  mpinfo = (struct mmap_partial *)return_value_g_malloc$6;
+  void *return_value_g_malloc_6;
+  return_value_g_malloc_6=g_malloc(sizeof(struct mmap_partial) /*32ul*/ );
+  mpinfo = (struct mmap_partial *)return_value_g_malloc_6;
   mpinfo->buf = (void *)buf;
   mpinfo->len = mmap_length;
   mpinfo->offset = mmap_offset;
@@ -6561,9 +6561,9 @@ void munmap_or_abort(void *addr, unsigned long int len)
   ret=munmap(addr, len);
   if(!(ret >= 0))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) munmap %m", return_value_pthread_self$1, (const void *)"munmap_or_abort");
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) munmap %m", return_value_pthread_self_1, (const void *)"munmap_or_abort");
 
   __CPROVER_DUMP_L2:
     ;
@@ -6586,22 +6586,22 @@ __CPROVER_DUMP_L1:
   if(!(ret >= 0))
   {
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "proxy error: redirect tcp down");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "proxy error: redirect tcp down");
     while((_Bool)0);
     return -32;
   }
 
   else
   {
-    unsigned int return_value_ntohl$2;
-    return_value_ntohl$2=ntohl(reply.magic);
-    if(!(return_value_ntohl$2 == 1732535960u))
+    unsigned int return_value_ntohl_2;
+    return_value_ntohl_2=ntohl(reply.magic);
+    if(!(return_value_ntohl_2 == 1732535960u))
     {
       do
       {
-        unsigned int return_value_ntohl$1;
-        return_value_ntohl$1=ntohl(reply.magic);
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "proxy error: unknown reply magic, %x %x", reply.magic, return_value_ntohl$1);
+        unsigned int return_value_ntohl_1;
+        return_value_ntohl_1=ntohl(reply.magic);
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "proxy error: unknown reply magic, %x %x", reply.magic, return_value_ntohl_1);
       }
       while((_Bool)0);
       return -32;
@@ -6609,15 +6609,15 @@ __CPROVER_DUMP_L1:
 
     else
     {
-      unsigned long int return_value___bswap_64$4;
-      return_value___bswap_64$4=__bswap_64(myhandle);
-      if(!(reply.handle == return_value___bswap_64$4))
+      unsigned long int return_value___bswap_64_4;
+      return_value___bswap_64_4=__bswap_64(myhandle);
+      if(!(reply.handle == return_value___bswap_64_4))
       {
         do
         {
-          unsigned long int return_value___bswap_64$3;
-          return_value___bswap_64$3=__bswap_64(myhandle);
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "proxy error: unknown reply handle, %ju %ju", reply.handle, return_value___bswap_64$3);
+          unsigned long int return_value___bswap_64_3;
+          return_value___bswap_64_3=__bswap_64(myhandle);
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "proxy error: unknown reply handle, %ju %ju", reply.handle, return_value___bswap_64_3);
         }
         while((_Bool)0);
         return -32;
@@ -6630,7 +6630,7 @@ __CPROVER_DUMP_L1:
         if(!(error == 0u))
         {
           do
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "proxy error: remote internal, reply state %d", error);
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "proxy error: remote internal, reply state %d", error);
           while((_Bool)0);
           return (signed int)-error;
         }
@@ -6662,9 +6662,9 @@ __CPROVER_DUMP_L1:
   struct iovec iov[1l];
   iov[(signed long int)0].iov_base = (void *)buf;
   iov[(signed long int)0].iov_len = len;
-  signed int return_value_nbd_client_recv_read_reply_iov$1;
-  return_value_nbd_client_recv_read_reply_iov$1=nbd_client_recv_read_reply_iov(remotefd, iov, (unsigned int)1);
-  return return_value_nbd_client_recv_read_reply_iov$1;
+  signed int return_value_nbd_client_recv_read_reply_iov_1;
+  return_value_nbd_client_recv_read_reply_iov_1=nbd_client_recv_read_reply_iov(remotefd, iov, (unsigned int)1);
+  return return_value_nbd_client_recv_read_reply_iov_1;
 }
 
 // nbd_client_recv_read_reply_iov
@@ -6676,7 +6676,7 @@ signed int nbd_client_recv_read_reply_iov(signed int remotefd, struct iovec *iov
   if(!(ret >= 0))
   {
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "recv header");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "recv header");
     while((_Bool)0);
     return -32;
   }
@@ -6690,7 +6690,7 @@ signed int nbd_client_recv_read_reply_iov(signed int remotefd, struct iovec *iov
     if(!(ret >= 0))
     {
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "recv data");
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "recv data");
       while((_Bool)0);
       return -32;
     }
@@ -6709,12 +6709,12 @@ void nbd_client_send_disc_request(signed int remotefd)
   memset((void *)&request, 0, sizeof(struct nbd_request) /*28ul*/ );
   request.magic=htonl((unsigned int)0x25609513);
   request.type=htonl((unsigned int)2);
-  signed long int return_value_net_send_all$1;
-  return_value_net_send_all$1=net_send_all(remotefd, (const void *)&request, sizeof(struct nbd_request) /*28ul*/ );
-  ret = (signed int)return_value_net_send_all$1;
+  signed long int return_value_net_send_all_1;
+  return_value_net_send_all_1=net_send_all(remotefd, (const void *)&request, sizeof(struct nbd_request) /*28ul*/ );
+  ret = (signed int)return_value_net_send_all_1;
   if(!((signed long int)ret >= (signed long int)sizeof(struct nbd_request) /*28l*/ ))
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "sending NBD_DISC failed");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "sending NBD_DISC failed");
     while((_Bool)0);
 
 }
@@ -6726,9 +6726,9 @@ signed int nbd_client_send_read_request(signed int remotefd, signed long int iof
 
 __CPROVER_DUMP_L1:
   ;
-  signed int return_value_nbd_client_send_request_header$1;
-  return_value_nbd_client_send_request_header$1=nbd_client_send_request_header(remotefd, (unsigned int)0, iofrom, len, myhandle);
-  return return_value_nbd_client_send_request_header$1;
+  signed int return_value_nbd_client_send_request_header_1;
+  return_value_nbd_client_send_request_header_1=nbd_client_send_request_header(remotefd, (unsigned int)0, iofrom, len, myhandle);
+  return return_value_nbd_client_send_request_header_1;
 }
 
 // nbd_client_send_request_header
@@ -6765,7 +6765,7 @@ __CPROVER_DUMP_L10:
   if(!(ret >= (signed long int)sizeof(struct nbd_request) /*28l*/ ))
   {
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "sending a nbd client header failed");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "sending a nbd client header failed");
     while((_Bool)0);
     return -1;
   }
@@ -6790,9 +6790,9 @@ const char * nbd_get_iotype_string(unsigned int iotype)
 // file nbd.c line 573
 signed int nbd_negotiate_with_client(signed int sockfd, signed long int exportsize)
 {
-  signed int return_value_nbd_negotiate_with_client_common$1;
-  return_value_nbd_negotiate_with_client_common$1=nbd_negotiate_with_client_common(sockfd, exportsize, 0);
-  return return_value_nbd_negotiate_with_client_common$1;
+  signed int return_value_nbd_negotiate_with_client_common_1;
+  return_value_nbd_negotiate_with_client_common_1=nbd_negotiate_with_client_common(sockfd, exportsize, 0);
+  return return_value_nbd_negotiate_with_client_common_1;
 }
 
 // nbd_negotiate_with_client_common
@@ -6811,7 +6811,7 @@ static signed int nbd_negotiate_with_client_common(signed int sockfd, signed lon
   if(!(readonly == 0))
   {
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "nbd_negotiate: readonly");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "nbd_negotiate: readonly");
     while((_Bool)0);
     flags = flags | (unsigned int)(1 << 1);
   }
@@ -6836,7 +6836,7 @@ static signed int nbd_negotiate_with_client_common(signed int sockfd, signed lon
 
     err_out:
       ;
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "negotiation failed");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "negotiation failed");
     }
     while((_Bool)0);
     return -1;
@@ -6854,25 +6854,25 @@ char * nbd_negotiate_with_client_new_phase_0(signed int sockfd)
   pdu0.magic=__bswap_64(NBD_NEGOTIATE_MAGIC_NEW);
   pdu0.flag16 = (unsigned short int)0;
   ret=net_send_all_or_error(sockfd, (const void *)&pdu0, sizeof(struct nbd_negotiate_pdu_new_0) /*18ul*/ );
-  _Bool tmp_if_expr$3;
-  unsigned int return_value_ntohl$2;
+  _Bool tmp_if_expr_3;
+  unsigned int return_value_ntohl_2;
   if(ret >= 0)
   {
     struct nbd_negotiate_pdu_new_1 pdu1;
     ret=net_recv_all_or_error(sockfd, (void *)&pdu1, sizeof(struct nbd_negotiate_pdu_new_1) /*20ul*/ );
-    unsigned long int return_value___bswap_64$1;
-    return_value___bswap_64$1=__bswap_64(pdu1.opt_magic);
-    if(!(return_value___bswap_64$1 == NBD_NEGOTIATE_MAGIC_NEW))
-      tmp_if_expr$3 = (_Bool)1;
+    unsigned long int return_value___bswap_64_1;
+    return_value___bswap_64_1=__bswap_64(pdu1.opt_magic);
+    if(!(return_value___bswap_64_1 == NBD_NEGOTIATE_MAGIC_NEW))
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_ntohl$2=ntohl(pdu1.opt);
-      tmp_if_expr$3 = return_value_ntohl$2 != NBD_OPT_EXPORT_NAME ? (_Bool)1 : (_Bool)0;
+      return_value_ntohl_2=ntohl(pdu1.opt);
+      tmp_if_expr_3 = return_value_ntohl_2 != NBD_OPT_EXPORT_NAME ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "header mismatch");
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "header mismatch");
       while((_Bool)0);
 
     else
@@ -6881,20 +6881,20 @@ char * nbd_negotiate_with_client_new_phase_0(signed int sockfd)
       namesize=ntohl(pdu1.namesize);
       if(namesize >= 257u)
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "namesize error");
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "namesize error");
         while((_Bool)0);
 
       else
       {
         char *target_name;
-        void *return_value_g_malloc0$4;
-        return_value_g_malloc0$4=g_malloc0((unsigned long int)(namesize + (unsigned int)1));
-        target_name = (char *)return_value_g_malloc0$4;
+        void *return_value_g_malloc0_4;
+        return_value_g_malloc0_4=g_malloc0((unsigned long int)(namesize + (unsigned int)1));
+        target_name = (char *)return_value_g_malloc0_4;
         ret=net_recv_all_or_error(sockfd, (void *)target_name, (unsigned long int)namesize);
         if(ret >= 0)
         {
           do
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "requested target_name %s", target_name);
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "requested target_name %s", target_name);
           while((_Bool)0);
           return target_name;
         }
@@ -6925,15 +6925,15 @@ signed int nbd_negotiate_with_client_new_phase_1(signed int sockfd, signed long 
   if(!(readonly == 0))
   {
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "nbd_negotiate: readonly");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "nbd_negotiate: readonly");
     while((_Bool)0);
     flags = flags | (unsigned int)(1 << 1);
   }
 
   pdu2.size=__bswap_64((unsigned long int)exportsize);
-  unsigned int return_value_htonl$1;
-  return_value_htonl$1=htonl(flags);
-  pdu2.flags = (unsigned short int)return_value_htonl$1;
+  unsigned int return_value_htonl_1;
+  return_value_htonl_1=htonl(flags);
+  pdu2.flags = (unsigned short int)return_value_htonl_1;
   ret=net_send_all_or_error(sockfd, (const void *)&pdu2, sizeof(struct nbd_negotiate_pdu_new_2) /*134ul*/ );
   if(ret >= 0)
   {
@@ -6950,7 +6950,7 @@ signed int nbd_negotiate_with_client_new_phase_1(signed int sockfd, signed long 
 
     err_out:
       ;
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "negotiation failed");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "negotiation failed");
     }
     while((_Bool)0);
     return -1;
@@ -6961,9 +6961,9 @@ signed int nbd_negotiate_with_client_new_phase_1(signed int sockfd, signed long 
 // file nbd.c line 568
 signed int nbd_negotiate_with_client_readonly(signed int sockfd, signed long int exportsize)
 {
-  signed int return_value_nbd_negotiate_with_client_common$1;
-  return_value_nbd_negotiate_with_client_common$1=nbd_negotiate_with_client_common(sockfd, exportsize, 1);
-  return return_value_nbd_negotiate_with_client_common$1;
+  signed int return_value_nbd_negotiate_with_client_common_1;
+  return_value_nbd_negotiate_with_client_common_1=nbd_negotiate_with_client_common(sockfd, exportsize, 1);
+  return return_value_nbd_negotiate_with_client_common_1;
 }
 
 // nbd_negotiate_with_server
@@ -6975,9 +6975,9 @@ signed long int nbd_negotiate_with_server(signed int sockfd)
   ret=nbd_negotiate_with_server2(sockfd, &size, (unsigned int *)(void *)0);
   if(!(ret >= 0))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) negotiate with server", return_value_pthread_self$1, (const void *)"nbd_negotiate_with_server");
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) negotiate with server", return_value_pthread_self_1, (const void *)"nbd_negotiate_with_server");
 
   __CPROVER_DUMP_L2:
     ;
@@ -6998,31 +6998,31 @@ signed int nbd_negotiate_with_server2(signed int sockfd, signed long int *export
   if(!(ret >= 0))
   {
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "receiving negotiate header failed");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "receiving negotiate header failed");
     while((_Bool)0);
     return -1;
   }
 
   else
   {
-    unsigned long int return_value___bswap_64$1;
-    return_value___bswap_64$1=__bswap_64(pdu.passwd);
-    if(!(return_value___bswap_64$1 == NBD_PASSWD))
+    unsigned long int return_value___bswap_64_1;
+    return_value___bswap_64_1=__bswap_64(pdu.passwd);
+    if(!(return_value___bswap_64_1 == NBD_PASSWD))
     {
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "password mismatch");
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "password mismatch");
       while((_Bool)0);
       return -1;
     }
 
     else
     {
-      unsigned long int return_value___bswap_64$2;
-      return_value___bswap_64$2=__bswap_64(pdu.magic);
-      if(return_value___bswap_64$2 == NBD_NEGOTIATE_MAGIC_NEW)
+      unsigned long int return_value___bswap_64_2;
+      return_value___bswap_64_2=__bswap_64(pdu.magic);
+      if(return_value___bswap_64_2 == NBD_NEGOTIATE_MAGIC_NEW)
       {
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "plain server expected, wrapped server found");
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "plain server expected, wrapped server found");
         while((_Bool)0);
         return -1;
       }
@@ -7033,19 +7033,19 @@ signed int nbd_negotiate_with_server2(signed int sockfd, signed long int *export
         if(!(ret >= 0))
         {
           do
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "receiving negotiate header failed");
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "receiving negotiate header failed");
           while((_Bool)0);
           return -1;
         }
 
         else
         {
-          unsigned long int return_value___bswap_64$3;
-          return_value___bswap_64$3=__bswap_64(pdu.magic);
-          if(!(return_value___bswap_64$3 == NBD_NEGOTIATE_MAGIC_OLD))
+          unsigned long int return_value___bswap_64_3;
+          return_value___bswap_64_3=__bswap_64(pdu.magic);
+          if(!(return_value___bswap_64_3 == NBD_NEGOTIATE_MAGIC_OLD))
           {
             do
-              g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "negotiate magic mismatch");
+              g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "negotiate magic mismatch");
             while((_Bool)0);
             return -1;
           }
@@ -7057,12 +7057,12 @@ signed int nbd_negotiate_with_server2(signed int sockfd, signed long int *export
             unsigned int flags;
             flags=ntohl(pdu.flags);
             do
-              g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "remote size: %ju bytes (%ju MBytes)", size, (size / (unsigned long int)1024) / (unsigned long int)1024);
+              g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "remote size: %ju bytes (%ju MBytes)", size, (size / (unsigned long int)1024) / (unsigned long int)1024);
             while((_Bool)0);
             if(size >= 9223372036854775808ul)
             {
               do
-                g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "remote size exceeds a local off_t(%zd bytes) value", sizeof(signed long int) /*8ul*/ );
+                g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "remote size exceeds a local off_t(%zd bytes) value", sizeof(signed long int) /*8ul*/ );
               while((_Bool)0);
               return -1;
             }
@@ -7091,32 +7091,32 @@ signed int nbd_negotiate_with_server_new(signed int sockfd, signed long int *exp
   ret=net_recv_all_or_error(sockfd, (void *)&pdu0, sizeof(struct nbd_negotiate_pdu_new_0) /*18ul*/ );
   if(ret >= 0)
   {
-    unsigned long int return_value___bswap_64$1;
-    return_value___bswap_64$1=__bswap_64(pdu0.passwd);
-    if(!(return_value___bswap_64$1 == NBD_PASSWD))
+    unsigned long int return_value___bswap_64_1;
+    return_value___bswap_64_1=__bswap_64(pdu0.passwd);
+    if(!(return_value___bswap_64_1 == NBD_PASSWD))
     {
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "password mismatch");
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "password mismatch");
       while((_Bool)0);
       goto err_out;
     }
 
-    unsigned long int return_value___bswap_64$2;
-    return_value___bswap_64$2=__bswap_64(pdu0.magic);
-    if(return_value___bswap_64$2 == NBD_NEGOTIATE_MAGIC_OLD)
+    unsigned long int return_value___bswap_64_2;
+    return_value___bswap_64_2=__bswap_64(pdu0.magic);
+    if(return_value___bswap_64_2 == NBD_NEGOTIATE_MAGIC_OLD)
     {
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "wrapped server expected, plain server found");
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "wrapped server expected, plain server found");
       while((_Bool)0);
       goto err_out;
     }
 
-    unsigned long int return_value___bswap_64$3;
-    return_value___bswap_64$3=__bswap_64(pdu0.magic);
-    if(!(return_value___bswap_64$3 == NBD_NEGOTIATE_MAGIC_NEW))
+    unsigned long int return_value___bswap_64_3;
+    return_value___bswap_64_3=__bswap_64(pdu0.magic);
+    if(!(return_value___bswap_64_3 == NBD_NEGOTIATE_MAGIC_NEW))
     {
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "negotiate magic mismatch");
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "negotiate magic mismatch");
       while((_Bool)0);
       goto err_out;
     }
@@ -7144,12 +7144,12 @@ signed int nbd_negotiate_with_server_new(signed int sockfd, signed long int *exp
     unsigned int flags;
     flags=ntohl((unsigned int)pdu2.flags);
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "remote size: %ju bytes (%ju MBytes)", size, (size / (unsigned long int)1024) / (unsigned long int)1024);
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "remote size: %ju bytes (%ju MBytes)", size, (size / (unsigned long int)1024) / (unsigned long int)1024);
     while((_Bool)0);
     if(size >= 9223372036854775808ul)
     {
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "remote size exceeds a local off_t(%zd bytes) value", sizeof(signed long int) /*8ul*/ );
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "remote size exceeds a local off_t(%zd bytes) value", sizeof(signed long int) /*8ul*/ );
       while((_Bool)0);
       return -1;
     }
@@ -7175,27 +7175,27 @@ signed int nbd_negotiate_with_server_new(signed int sockfd, signed long int *exp
 void nbd_reply_dump(struct nbd_reply *reply)
 {
   do
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "nbd_reply %p", reply);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "nbd_reply %p", reply);
   while((_Bool)0);
   do
   {
-    unsigned int return_value_ntohl$1;
-    return_value_ntohl$1=ntohl(reply->magic);
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, " reply.magic  %x %x", reply->magic, return_value_ntohl$1);
+    unsigned int return_value_ntohl_1;
+    return_value_ntohl_1=ntohl(reply->magic);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, " reply.magic  %x %x", reply->magic, return_value_ntohl_1);
   }
   while((_Bool)0);
   do
   {
-    unsigned int return_value_ntohl$2;
-    return_value_ntohl$2=ntohl(reply->magic);
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, " reply.error  %u %u", reply->error, return_value_ntohl$2);
+    unsigned int return_value_ntohl_2;
+    return_value_ntohl_2=ntohl(reply->magic);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, " reply.error  %u %u", reply->error, return_value_ntohl_2);
   }
   while((_Bool)0);
   do
   {
-    unsigned long int return_value___bswap_64$3;
-    return_value___bswap_64$3=__bswap_64(reply->handle);
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, " reply.handle %ju %ju", reply->handle, return_value___bswap_64$3);
+    unsigned long int return_value___bswap_64_3;
+    return_value___bswap_64_3=__bswap_64(reply->handle);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, " reply.handle %ju %ju", reply->handle, return_value___bswap_64_3);
   }
   while((_Bool)0);
 }
@@ -7205,41 +7205,41 @@ void nbd_reply_dump(struct nbd_reply *reply)
 void nbd_request_dump(struct nbd_request *request)
 {
   do
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "nbd_request %p", request);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "nbd_request %p", request);
   while((_Bool)0);
   do
   {
-    unsigned int return_value_ntohl$1;
-    return_value_ntohl$1=ntohl(request->magic);
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, " request.magic  %x %x", request->magic, return_value_ntohl$1);
+    unsigned int return_value_ntohl_1;
+    return_value_ntohl_1=ntohl(request->magic);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, " request.magic  %x %x", request->magic, return_value_ntohl_1);
   }
   while((_Bool)0);
   do
   {
-    unsigned int return_value_ntohl$2;
-    return_value_ntohl$2=ntohl(request->type);
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, " request.type  %u %u", request->type, return_value_ntohl$2);
+    unsigned int return_value_ntohl_2;
+    return_value_ntohl_2=ntohl(request->type);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, " request.type  %u %u", request->type, return_value_ntohl_2);
   }
   while((_Bool)0);
   do
   {
-    unsigned long int return_value___bswap_64$3;
-    return_value___bswap_64$3=__bswap_64(request->from);
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, " request.from  %ju %ju", request->from, return_value___bswap_64$3);
+    unsigned long int return_value___bswap_64_3;
+    return_value___bswap_64_3=__bswap_64(request->from);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, " request.from  %ju %ju", request->from, return_value___bswap_64_3);
   }
   while((_Bool)0);
   do
   {
-    unsigned int return_value_ntohl$4;
-    return_value_ntohl$4=ntohl(request->len);
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, " request.len  %u %u", request->len, return_value_ntohl$4);
+    unsigned int return_value_ntohl_4;
+    return_value_ntohl_4=ntohl(request->len);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, " request.len  %u %u", request->len, return_value_ntohl_4);
   }
   while((_Bool)0);
   do
   {
-    unsigned long int return_value___bswap_64$5;
-    return_value___bswap_64$5=__bswap_64(request->handle);
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, " request.handle %ju %ju", request->handle, return_value___bswap_64$5);
+    unsigned long int return_value___bswap_64_5;
+    return_value___bswap_64_5=__bswap_64(request->handle);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, " request.handle %ju %ju", request->handle, return_value___bswap_64_5);
   }
   while((_Bool)0);
 }
@@ -7259,7 +7259,7 @@ signed int nbd_server_recv_request(signed int clientfd, signed long int disksize
   if(!(ret >= 0))
   {
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "recv_request: peer closed or error");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "recv_request: peer closed or error");
     while((_Bool)0);
     return -3;
   }
@@ -7273,7 +7273,7 @@ signed int nbd_server_recv_request(signed int clientfd, signed long int disksize
     if(iotype == 2u)
     {
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "recv_request: disconnect request");
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "recv_request: disconnect request");
       while((_Bool)0);
       return -3;
     }
@@ -7282,7 +7282,7 @@ signed int nbd_server_recv_request(signed int clientfd, signed long int disksize
       if(!(magic == 627086611u))
       {
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "recv_request: magic mismatch, %u %u", magic, 0x25609513);
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "recv_request: magic mismatch, %u %u", magic, 0x25609513);
         while((_Bool)0);
         nbd_request_dump(&request);
         dump_buffer((char *)&request, sizeof(struct nbd_request) /*28ul*/ );
@@ -7298,7 +7298,7 @@ signed int nbd_server_recv_request(signed int clientfd, signed long int disksize
         if(!((unsigned long int)disksize >= iofrom + (unsigned long int)iolen))
         {
           do
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "error offset exceeds the end of disk, offset %ju (iofrom %ju + iolen %u) disksize %jd", iofrom + (unsigned long int)iolen, iofrom, iolen, disksize);
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "error offset exceeds the end of disk, offset %ju (iofrom %ju + iolen %u) disksize %jd", iofrom + (unsigned long int)iolen, iofrom, iolen, disksize);
           while((_Bool)0);
           reply->error=htonl((unsigned int)22);
           return -1;
@@ -7331,13 +7331,13 @@ signed int net_accept(signed int lsock)
   {
     do
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "accept failed, fd %d, %s (%d)", csock, return_value_strerror$2, *return_value___errno_location$3);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "accept failed, fd %d, %s (%d)", csock, return_value_strerror_2, *return_value___errno_location_3);
     }
     while((_Bool)0);
     return -1;
@@ -7349,32 +7349,32 @@ signed int net_accept(signed int lsock)
     if(!(ret == 0))
       do
       {
-        const char *return_value_gai_strerror$4;
-        return_value_gai_strerror$4=gai_strerror(ret);
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "getnameinfo failed, %s", return_value_gai_strerror$4);
+        const char *return_value_gai_strerror_4;
+        return_value_gai_strerror_4=gai_strerror(ret);
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "getnameinfo failed, %s", return_value_gai_strerror_4);
       }
       while((_Bool)0);
 
     if((signed int)ss.ss_family == 2)
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "connected from %s:%s", (const void *)host, (const void *)port);
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "connected from %s:%s", (const void *)host, (const void *)port);
       while((_Bool)0);
 
     else
       if((signed int)ss.ss_family == 10)
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "connected from [%s]:%s", (const void *)host, (const void *)port);
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "connected from [%s]:%s", (const void *)host, (const void *)port);
         while((_Bool)0);
 
       else
         if((signed int)ss.ss_family == 1)
           do
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "connected (unix)");
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "connected (unix)");
           while((_Bool)0);
 
         else
           do
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "connected (unknown pf)");
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "connected (unknown pf)");
           while((_Bool)0);
     return csock;
   }
@@ -7397,9 +7397,9 @@ signed int net_connect(const char *hostname, const char *service, signed int soc
   {
     do
     {
-      const char *return_value_gai_strerror$1;
-      return_value_gai_strerror$1=gai_strerror(ret);
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "getaddrinfo failed, %s %s: %s", hostname, service, return_value_gai_strerror$1);
+      const char *return_value_gai_strerror_1;
+      return_value_gai_strerror_1=gai_strerror(ret);
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "getaddrinfo failed, %s %s: %s", hostname, service, return_value_gai_strerror_1);
     }
     while((_Bool)0);
     return -1;
@@ -7418,7 +7418,7 @@ signed int net_connect(const char *hostname, const char *service, signed int soc
       sockfd=socket(ai->ai_family, ai->ai_socktype, ai->ai_protocol);
       if(!(sockfd >= 0))
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "socket() failed, %m");
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "socket() failed, %m");
         while((_Bool)0);
 
       else
@@ -7442,7 +7442,7 @@ signed int net_connect(const char *hostname, const char *service, signed int soc
         {
           found = 1;
           do
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "connected to %s", nameinfo);
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "connected to %s", nameinfo);
           while((_Bool)0);
         }
       }
@@ -7475,15 +7475,15 @@ unsigned int net_create_server_sockets(struct addrinfo *ai_head, signed int *fds
   struct addrinfo *ai;
   unsigned long int index = (unsigned long int)0;
   ai = ai_head;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   for( ; !(ai == ((struct addrinfo *)NULL)); ai = ai->ai_next)
   {
     if(index >= nfds)
     {
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "skip other addresses");
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "skip other addresses");
       while((_Bool)0);
       break;
     }
@@ -7497,7 +7497,7 @@ unsigned int net_create_server_sockets(struct addrinfo *ai_head, signed int *fds
     if(!(sockfd >= 0))
     {
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "socket(%s) failed, %m", name);
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "socket(%s) failed, %m", name);
       while((_Bool)0);
       g_free((void *)name);
     }
@@ -7521,14 +7521,14 @@ unsigned int net_create_server_sockets(struct addrinfo *ai_head, signed int *fds
 
       if(sockfd >= 1024)
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "select/poll() may fail because sockfd (%d) >= FD_SETSIZE.", sockfd);
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "select/poll() may fail because sockfd (%d) >= FD_SETSIZE.", sockfd);
         while((_Bool)0);
 
       signed int ret;
       ret=bind(sockfd, ai->ai_addr, ai->ai_addrlen);
       if(!(ret >= 0))
       {
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "bind(%s) failed, %m", name);
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "bind(%s) failed, %m", name);
 
       __CPROVER_DUMP_L11:
         ;
@@ -7536,28 +7536,28 @@ unsigned int net_create_server_sockets(struct addrinfo *ai_head, signed int *fds
       }
 
       if(ai->ai_socktype == 1)
-        tmp_if_expr$1 = ai->ai_protocol == 6 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = ai->ai_protocol == 6 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
         if(ai->ai_socktype == 6)
-          tmp_if_expr$2 = ai->ai_protocol == 33 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = ai->ai_protocol == 33 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
       {
         ret=listen(sockfd, 128);
         if(!(ret >= 0))
         {
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "listen(%s) failed, %m", name);
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "listen(%s) failed, %m", name);
 
         __CPROVER_DUMP_L20:
           ;
@@ -7576,7 +7576,7 @@ unsigned int net_create_server_sockets(struct addrinfo *ai_head, signed int *fds
         g_string_append(gs, ",nodelay");
 
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "%s", gs->str);
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "%s", gs->str);
       while((_Bool)0);
       g_string_free(gs, (signed int)!(0 != 0));
       fds[(signed long int)index] = sockfd;
@@ -7586,7 +7586,7 @@ unsigned int net_create_server_sockets(struct addrinfo *ai_head, signed int *fds
   }
   if(index == 0ul)
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "no server sockets created");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "no server sockets created");
     while((_Bool)0);
 
   return (unsigned int)index;
@@ -7609,9 +7609,9 @@ struct addrinfo * net_getaddrinfo(char *host, signed int port, signed int ai_fam
   ret=getaddrinfo(host, portstr, &hints, &ai_head);
   if(!(ret == 0))
   {
-    const char *return_value_gai_strerror$1;
-    return_value_gai_strerror$1=gai_strerror(ret);
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "getaddrinfo() failed %s: %s", (const void *)portstr, return_value_gai_strerror$1);
+    const char *return_value_gai_strerror_1;
+    return_value_gai_strerror_1=gai_strerror(ret);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "getaddrinfo() failed %s: %s", (const void *)portstr, return_value_gai_strerror_1);
 
   __CPROVER_DUMP_L2:
     ;
@@ -7629,7 +7629,7 @@ static signed int net_iov_all(signed int fd, struct iovec *iov, signed int count
   struct iovec *next_iov = iov;
   const char *mode = reading != 0 ? "readv" : "writev";
   signed long int total = (signed long int)0;
-  signed int *return_value___errno_location$4;
+  signed int *return_value___errno_location_4;
   do
   {
     signed long int sent = (signed long int)0;
@@ -7646,38 +7646,38 @@ static signed int net_iov_all(signed int fd, struct iovec *iov, signed int count
     if(sent == 0l)
     {
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "%s() returned 0 (fd %d)", mode, fd);
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "%s() returned 0 (fd %d)", mode, fd);
       while((_Bool)0);
       return (signed int)total;
     }
 
     if(sent == -1l)
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      if(*return_value___errno_location$5 == 104)
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      if(*return_value___errno_location_5 == 104)
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "received TCP_RST (fd %d)", fd);
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "received TCP_RST (fd %d)", fd);
         while((_Bool)0);
 
       else
       {
-        return_value___errno_location$4=__errno_location();
-        if(*return_value___errno_location$4 == 32)
+        return_value___errno_location_4=__errno_location();
+        if(*return_value___errno_location_4 == 32)
           do
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "raised EPIPE (fd %d)", fd);
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "raised EPIPE (fd %d)", fd);
           while((_Bool)0);
 
         else
           do
           {
-            signed int *return_value___errno_location$1;
-            return_value___errno_location$1=__errno_location();
-            char *return_value_strerror$2;
-            return_value_strerror$2=strerror(*return_value___errno_location$1);
-            signed int *return_value___errno_location$3;
-            return_value___errno_location$3=__errno_location();
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "%s error %s (%d) (fd %d)", mode, return_value_strerror$2, *return_value___errno_location$3, fd);
+            signed int *return_value___errno_location_1;
+            return_value___errno_location_1=__errno_location();
+            char *return_value_strerror_2;
+            return_value_strerror_2=strerror(*return_value___errno_location_1);
+            signed int *return_value___errno_location_3;
+            return_value___errno_location_3=__errno_location();
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "%s error %s (%d) (fd %d)", mode, return_value_strerror_2, *return_value___errno_location_3, fd);
           }
           while((_Bool)0);
       }
@@ -7723,9 +7723,9 @@ signed int net_readv_all(signed int fd, struct iovec *iov, signed int count)
 
 __CPROVER_DUMP_L1:
   ;
-  signed int return_value_net_iov_all$1;
-  return_value_net_iov_all$1=net_iov_all(fd, iov, count, 1);
-  return return_value_net_iov_all$1;
+  signed int return_value_net_iov_all_1;
+  return_value_net_iov_all_1=net_iov_all(fd, iov, count, 1);
+  return return_value_net_iov_all_1;
 }
 
 // net_readv_all_or_abort
@@ -7738,15 +7738,15 @@ void net_readv_all_or_abort(signed int fd, struct iovec *iov, unsigned int count
     bufflen = bufflen + (iov + (signed long int)i)->iov_len;
   signed int ret;
   ret=net_readv_all(fd, iov, (signed int)count);
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  signed int return_value_check_fin$3;
-  return_value_check_fin$3=check_fin(ret, *return_value___errno_location$2, bufflen);
-  if(!(return_value_check_fin$3 == 0))
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  signed int return_value_check_fin_3;
+  return_value_check_fin_3=check_fin(ret, *return_value___errno_location_2, bufflen);
+  if(!(return_value_check_fin_3 == 0))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) sockfd (%d) closed", return_value_pthread_self$1, (const void *)"net_readv_all_or_abort", fd);
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) sockfd (%d) closed", return_value_pthread_self_1, (const void *)"net_readv_all_or_abort", fd);
 
   __CPROVER_DUMP_L4:
     ;
@@ -7779,9 +7779,9 @@ signed long int net_recv_all(signed int sockfd, void *buff, unsigned long int bu
   struct iovec iov[1l];
   iov[(signed long int)0].iov_base = buff;
   iov[(signed long int)0].iov_len = bufflen;
-  signed int return_value_net_iov_all$1;
-  return_value_net_iov_all$1=net_iov_all(sockfd, iov, 1, 1);
-  return (signed long int)return_value_net_iov_all$1;
+  signed int return_value_net_iov_all_1;
+  return_value_net_iov_all_1=net_iov_all(sockfd, iov, 1, 1);
+  return (signed long int)return_value_net_iov_all_1;
 }
 
 // net_recv_all_or_abort
@@ -7789,18 +7789,18 @@ signed long int net_recv_all(signed int sockfd, void *buff, unsigned long int bu
 void net_recv_all_or_abort(signed int sockfd, void *buff, unsigned long int bufflen)
 {
   signed int ret;
-  signed long int return_value_net_recv_all$1;
-  return_value_net_recv_all$1=net_recv_all(sockfd, buff, bufflen);
-  ret = (signed int)return_value_net_recv_all$1;
-  signed int *return_value___errno_location$3;
-  return_value___errno_location$3=__errno_location();
-  signed int return_value_check_fin$4;
-  return_value_check_fin$4=check_fin(ret, *return_value___errno_location$3, bufflen);
-  if(!(return_value_check_fin$4 == 0))
+  signed long int return_value_net_recv_all_1;
+  return_value_net_recv_all_1=net_recv_all(sockfd, buff, bufflen);
+  ret = (signed int)return_value_net_recv_all_1;
+  signed int *return_value___errno_location_3;
+  return_value___errno_location_3=__errno_location();
+  signed int return_value_check_fin_4;
+  return_value_check_fin_4=check_fin(ret, *return_value___errno_location_3, bufflen);
+  if(!(return_value_check_fin_4 == 0))
   {
-    unsigned long int return_value_pthread_self$2;
-    return_value_pthread_self$2=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) sockfd (%d) closed", return_value_pthread_self$2, (const void *)"net_recv_all_or_abort", sockfd);
+    unsigned long int return_value_pthread_self_2;
+    return_value_pthread_self_2=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) sockfd (%d) closed", return_value_pthread_self_2, (const void *)"net_recv_all_or_abort", sockfd);
 
   __CPROVER_DUMP_L2:
     ;
@@ -7814,9 +7814,9 @@ void net_recv_all_or_abort(signed int sockfd, void *buff, unsigned long int buff
 signed int net_recv_all_or_error(signed int sockfd, void *buff, unsigned long int bufflen)
 {
   signed int ret;
-  signed long int return_value_net_recv_all$1;
-  return_value_net_recv_all$1=net_recv_all(sockfd, buff, bufflen);
-  ret = (signed int)return_value_net_recv_all$1;
+  signed long int return_value_net_recv_all_1;
+  return_value_net_recv_all_1=net_recv_all(sockfd, buff, bufflen);
+  ret = (signed int)return_value_net_recv_all_1;
   if(!(ret == (signed int)bufflen))
     return -1;
 
@@ -7831,9 +7831,9 @@ signed long int net_send_all(signed int sockfd, const void *buff, unsigned long 
   struct iovec iov[1l];
   iov[(signed long int)0].iov_base = (void *)buff;
   iov[(signed long int)0].iov_len = bufflen;
-  signed int return_value_net_iov_all$1;
-  return_value_net_iov_all$1=net_iov_all(sockfd, iov, 1, 0);
-  return (signed long int)return_value_net_iov_all$1;
+  signed int return_value_net_iov_all_1;
+  return_value_net_iov_all_1=net_iov_all(sockfd, iov, 1, 0);
+  return (signed long int)return_value_net_iov_all_1;
 }
 
 // net_send_all_or_abort
@@ -7841,12 +7841,12 @@ signed long int net_send_all(signed int sockfd, const void *buff, unsigned long 
 void net_send_all_or_abort(signed int sockfd, const void *buff, unsigned long int bufflen)
 {
   signed int ret;
-  signed long int return_value_net_send_all$1;
-  return_value_net_send_all$1=net_send_all(sockfd, buff, bufflen);
-  ret = (signed int)return_value_net_send_all$1;
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  check_done(ret, *return_value___errno_location$2);
+  signed long int return_value_net_send_all_1;
+  return_value_net_send_all_1=net_send_all(sockfd, buff, bufflen);
+  ret = (signed int)return_value_net_send_all_1;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  check_done(ret, *return_value___errno_location_2);
 }
 
 // net_send_all_or_error
@@ -7854,9 +7854,9 @@ void net_send_all_or_abort(signed int sockfd, const void *buff, unsigned long in
 signed int net_send_all_or_error(signed int sockfd, const void *buff, unsigned long int bufflen)
 {
   signed int ret;
-  signed long int return_value_net_send_all$1;
-  return_value_net_send_all$1=net_send_all(sockfd, buff, bufflen);
-  ret = (signed int)return_value_net_send_all$1;
+  signed long int return_value_net_send_all_1;
+  return_value_net_send_all_1=net_send_all(sockfd, buff, bufflen);
+  ret = (signed int)return_value_net_send_all_1;
   if(!(ret == (signed int)bufflen))
     return -1;
 
@@ -7873,7 +7873,7 @@ signed int net_set_bindv6only(signed int sockfd)
   ret=setsockopt(sockfd, 41, 26, (const void *)&val, (unsigned int)sizeof(const signed int) /*4ul*/ );
   if(!(ret >= 0))
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "setsockopt IPV6_V6ONLY failed");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "setsockopt IPV6_V6ONLY failed");
     while((_Bool)0);
 
   return ret;
@@ -7888,7 +7888,7 @@ signed int net_set_keepalive(signed int sockfd)
   ret=setsockopt(sockfd, 1, 9, (const void *)&val, (unsigned int)sizeof(const signed int) /*4ul*/ );
   if(!(ret >= 0))
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "setsockopt SO_KEEPALIVE failed");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "setsockopt SO_KEEPALIVE failed");
     while((_Bool)0);
 
   return ret;
@@ -7903,7 +7903,7 @@ signed int net_set_nodelay(signed int sockfd)
   ret=setsockopt(sockfd, 6, 1, (const void *)&val, (unsigned int)sizeof(const signed int) /*4ul*/ );
   if(!(ret >= 0))
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "setsockopt TCP_NODELAY failed");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "setsockopt TCP_NODELAY failed");
     while((_Bool)0);
 
   return ret;
@@ -7918,7 +7918,7 @@ signed int net_set_reuseaddr(signed int sockfd)
   ret=setsockopt(sockfd, 1, 2, (const void *)&val, (unsigned int)sizeof(const signed int) /*4ul*/ );
   if(!(ret >= 0))
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "setsockopt SO_REUSEADDR failed");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "setsockopt SO_REUSEADDR failed");
     while((_Bool)0);
 
   return ret;
@@ -7931,9 +7931,9 @@ signed int net_writev_all(signed int fd, struct iovec *iov, signed int count)
 
 __CPROVER_DUMP_L1:
   ;
-  signed int return_value_net_iov_all$1;
-  return_value_net_iov_all$1=net_iov_all(fd, iov, count, 0);
-  return return_value_net_iov_all$1;
+  signed int return_value_net_iov_all_1;
+  return_value_net_iov_all_1=net_iov_all(fd, iov, count, 0);
+  return return_value_net_iov_all_1;
 }
 
 // net_writev_all_or_abort
@@ -7942,9 +7942,9 @@ void net_writev_all_or_abort(signed int fd, struct iovec *iov, unsigned int coun
 {
   signed int ret;
   ret=net_writev_all(fd, iov, (signed int)count);
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  check_done(ret, *return_value___errno_location$1);
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  check_done(ret, *return_value___errno_location_1);
 }
 
 // net_writev_all_or_error
@@ -7979,18 +7979,18 @@ static void perform_shutdown(struct _IO_FILE *fp)
 // file io.c line 317
 signed int poll_data_and_event(signed int datafd, signed int event_listener_fd)
 {
-  signed int return_value_wait_until_readable$1;
-  return_value_wait_until_readable$1=wait_until_readable(datafd, event_listener_fd);
-  return return_value_wait_until_readable$1;
+  signed int return_value_wait_until_readable_1;
+  return_value_wait_until_readable_1=wait_until_readable(datafd, event_listener_fd);
+  return return_value_wait_until_readable_1;
 }
 
 // poll_request_arrival
 // file xnbd_common.c line 155
 signed int poll_request_arrival(struct xnbd_session *ses)
 {
-  signed int return_value_wait_until_readable$1;
-  return_value_wait_until_readable$1=wait_until_readable(ses->clientfd, ses->pipe_worker_fd);
-  return return_value_wait_until_readable$1;
+  signed int return_value_wait_until_readable_1;
+  return_value_wait_until_readable_1=wait_until_readable(ses->clientfd, ses->pipe_worker_fd);
+  return return_value_wait_until_readable_1;
 }
 
 // prepare_read_priv
@@ -8003,9 +8003,9 @@ void prepare_read_priv(struct xnbd_proxy *proxy, struct proxy_priv *priv)
   for( ; block_index_end >= i; i = i + 1ul)
   {
     cachestat_read_block();
-    signed int return_value_bitmap_test$1;
-    return_value_bitmap_test$1=bitmap_test(proxy->cbitmap, i);
-    if(return_value_bitmap_test$1 == 0)
+    signed int return_value_bitmap_test_1;
+    return_value_bitmap_test_1=bitmap_test(proxy->cbitmap, i);
+    if(return_value_bitmap_test_1 == 0)
     {
       bitmap_on(proxy->cbitmap, i);
       cachestat_miss();
@@ -8028,22 +8028,22 @@ void prepare_write_priv(struct xnbd_proxy *proxy, struct proxy_priv *priv)
   unsigned long int iolen = priv->iolen;
   signed int get_start_block = 0;
   signed int get_end_block = 0;
-  signed int return_value_bitmap_test$1;
+  signed int return_value_bitmap_test_1;
   if(!(iofrom % (signed long int)CBLOCKSIZE == 0l))
   {
-    return_value_bitmap_test$1=bitmap_test(proxy->cbitmap, block_index_start);
-    if(return_value_bitmap_test$1 == 0)
+    return_value_bitmap_test_1=bitmap_test(proxy->cbitmap, block_index_start);
+    if(return_value_bitmap_test_1 == 0)
       get_start_block = 1;
 
   }
 
-  signed int return_value_bitmap_test$2;
+  signed int return_value_bitmap_test_2;
   if(!((iolen + (unsigned long int)iofrom) % (unsigned long int)CBLOCKSIZE == 0ul))
   {
     if(get_start_block == 0 && block_index_end == block_index_start || !(block_index_start >= block_index_end))
     {
-      return_value_bitmap_test$2=bitmap_test(proxy->cbitmap, block_index_end);
-      if(return_value_bitmap_test$2 == 0)
+      return_value_bitmap_test_2=bitmap_test(proxy->cbitmap, block_index_end);
+      if(return_value_bitmap_test_2 == 0)
         get_end_block = 1;
 
     }
@@ -8054,9 +8054,9 @@ void prepare_write_priv(struct xnbd_proxy *proxy, struct proxy_priv *priv)
   for( ; block_index_end >= i; i = i + 1ul)
   {
     cachestat_write_block();
-    signed int return_value_bitmap_test$3;
-    return_value_bitmap_test$3=bitmap_test(proxy->cbitmap, i);
-    if(return_value_bitmap_test$3 == 0)
+    signed int return_value_bitmap_test_3;
+    return_value_bitmap_test_3=bitmap_test(proxy->cbitmap, i);
+    if(return_value_bitmap_test_3 == 0)
     {
       bitmap_on(proxy->cbitmap, i);
       cachestat_cache_odwrite();
@@ -8086,9 +8086,9 @@ void prepare_write_priv(struct xnbd_proxy *proxy, struct proxy_priv *priv)
         g_assertion_message_expr((char *)0, "xnbd_proxy_forwarder.c", 181, (const char *)"prepare_write_priv", "priv->nreq + 1 <= MAXNBLOCK");
 
     while((_Bool)0);
-    signed int prepare_write_priv$$1$$4$$cur_nreq = priv->nreq;
-    priv->req[(signed long int)prepare_write_priv$$1$$4$$cur_nreq].bindex_iofrom = (signed long int)block_index_end;
-    priv->req[(signed long int)prepare_write_priv$$1$$4$$cur_nreq].bindex_iolen = (unsigned long int)1;
+    signed int prepare_write_priv__1__4__cur_nreq = priv->nreq;
+    priv->req[(signed long int)prepare_write_priv__1__4__cur_nreq].bindex_iofrom = (signed long int)block_index_end;
+    priv->req[(signed long int)prepare_write_priv__1__4__cur_nreq].bindex_iolen = (unsigned long int)1;
     priv->nreq = priv->nreq + 1;
     cachestat_miss();
   }
@@ -8110,9 +8110,9 @@ void proxy_initialize(struct xnbd_info *xnbd, struct xnbd_proxy *proxy)
   cachefd=open(xnbd->proxy_diskpath, 02 | 0100 | 01000000, 0400 | 0200);
   if(!(cachefd >= 0))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) open", return_value_pthread_self$1, (const void *)"proxy_initialize");
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) open", return_value_pthread_self_1, (const void *)"proxy_initialize");
 
   __CPROVER_DUMP_L2:
     ;
@@ -8124,18 +8124,18 @@ void proxy_initialize(struct xnbd_info *xnbd, struct xnbd_proxy *proxy)
   if(!(size == xnbd->disksize))
   {
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "cache disk size (%ju) != target disk size (%ju)", size, xnbd->disksize);
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "cache disk size (%ju) != target disk size (%ju)", size, xnbd->disksize);
     while((_Bool)0);
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "now ftruncate() it");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "now ftruncate() it");
     while((_Bool)0);
     signed int ret;
     ret=ftruncate(cachefd, xnbd->disksize);
     if(!(ret >= 0))
     {
-      unsigned long int return_value_pthread_self$2;
-      return_value_pthread_self$2=pthread_self();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) ftruncate", return_value_pthread_self$2, (const void *)"proxy_initialize");
+      unsigned long int return_value_pthread_self_2;
+      return_value_pthread_self_2=pthread_self();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) ftruncate", return_value_pthread_self_2, (const void *)"proxy_initialize");
 
     __CPROVER_DUMP_L7:
       ;
@@ -8225,15 +8225,15 @@ __CPROVER_DUMP_L19:
 void proxy_shutdown(struct xnbd_proxy *proxy)
 {
   g_mutex_clear(&proxy->curr_use_mutex);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(proxy->cur_use_buf == 0ul))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = proxy->cur_use_que != (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = proxy->cur_use_que != (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "cur_use_buf %zu cur_use_que %zu", proxy->cur_use_buf, proxy->cur_use_que);
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "cur_use_buf %zu cur_use_que %zu", proxy->cur_use_buf, proxy->cur_use_que);
     while((_Bool)0);
 
   g_async_queue_unref(proxy->fwd_retry_queue);
@@ -8253,11 +8253,11 @@ void proxy_shutdown_forwarder(struct xnbd_proxy *proxy)
   g_async_queue_push(proxy->fwd_tx_queue, (void *)&priv_stop_forwarder);
   pthread_join(proxy->tid_fwd_tx, (void **)(void *)0);
   do
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "forwarder_tx exited");
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "forwarder_tx exited");
   while((_Bool)0);
   pthread_join(proxy->tid_fwd_rx, (void **)(void *)0);
   do
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "forwarder_rx exited");
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "forwarder_rx exited");
   while((_Bool)0);
 }
 
@@ -8270,9 +8270,9 @@ unsigned long int pthread_create_or_abort(void * (*start_routine)(void *), void 
   ret=pthread_create(&tid, (const union pthread_attr_t *)(void *)0, start_routine, arg);
   if(!(ret >= 0))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) create thread", return_value_pthread_self$1, (const void *)"pthread_create_or_abort");
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) create thread", return_value_pthread_self_1, (const void *)"pthread_create_or_abort");
 
   __CPROVER_DUMP_L2:
     ;
@@ -8287,12 +8287,12 @@ unsigned long int pthread_create_or_abort(void * (*start_routine)(void *), void 
 signed int put_line(signed int fd, const char *msg)
 {
   char line[100l];
-  unsigned long int return_value_strnlen$1;
-  return_value_strnlen$1=strnlen(msg, (unsigned long int)(100 - 2));
-  if(return_value_strnlen$1 == 98ul)
+  unsigned long int return_value_strnlen_1;
+  return_value_strnlen_1=strnlen(msg, (unsigned long int)(100 - 2));
+  if(return_value_strnlen_1 == 98ul)
   {
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "too large msg for a line");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "too large msg for a line");
     while((_Bool)0);
     return -1;
   }
@@ -8304,9 +8304,9 @@ signed int put_line(signed int fd, const char *msg)
   __CPROVER_DUMP_L3:
     ;
     signed int ret;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(line);
-    ret=net_send_all_or_error(fd, (const void *)line, return_value_strlen$2);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(line);
+    ret=net_send_all_or_error(fd, (const void *)line, return_value_strlen_2);
     if(!(ret >= 0))
       return -1;
 
@@ -8323,10 +8323,10 @@ static void query_remote_disk_size(signed long int *p_disk_size_bytes, const cha
   assert(p_disk_size_bytes != ((signed long int *)NULL) && host != ((const char *)NULL) && port != ((const char *)NULL));
   signed int sockfd;
   sockfd=net_connect(host, port, 1, 6);
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(!(sockfd >= 0))
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "cannot connect to %s(%s)", host, port);
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "cannot connect to %s(%s)", host, port);
     while((_Bool)0);
 
   else
@@ -8334,8 +8334,8 @@ static void query_remote_disk_size(signed long int *p_disk_size_bytes, const cha
     signed int ret;
     if(!(exportname == ((const char *)NULL)))
     {
-      return_value_strlen$1=strlen(exportname);
-      ret=nbd_negotiate_with_server_new(sockfd, p_disk_size_bytes, (unsigned int *)(void *)0, return_value_strlen$1, exportname);
+      return_value_strlen_1=strlen(exportname);
+      ret=nbd_negotiate_with_server_new(sockfd, p_disk_size_bytes, (unsigned int *)(void *)0, return_value_strlen_1, exportname);
     }
 
     else
@@ -8343,7 +8343,7 @@ static void query_remote_disk_size(signed long int *p_disk_size_bytes, const cha
     close(sockfd);
     if(!(ret >= 0))
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "negotiation with %s:%s failed", host, port);
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "negotiation with %s:%s failed", host, port);
       while((_Bool)0);
 
   }
@@ -8363,9 +8363,9 @@ signed int recv_request(struct proxy_session *ps)
   struct xnbd_proxy *proxy = ps->proxy;
   signed int nbd_client_fd = ps->nbd_fd;
   struct proxy_priv *priv;
-  void *return_value_g_slice_alloc0$1;
-  return_value_g_slice_alloc0$1=g_slice_alloc0(sizeof(struct proxy_priv) /*624ul*/ );
-  priv = (struct proxy_priv *)return_value_g_slice_alloc0$1;
+  void *return_value_g_slice_alloc0_1;
+  return_value_g_slice_alloc0_1=g_slice_alloc0(sizeof(struct proxy_priv) /*624ul*/ );
+  priv = (struct proxy_priv *)return_value_g_slice_alloc0_1;
   unsigned int iotype = (unsigned int)0;
   signed long int iofrom = (signed long int)0;
   unsigned long int iolen = (unsigned long int)0;
@@ -8388,7 +8388,7 @@ signed int recv_request(struct proxy_session *ps)
       if(ret == -2)
       {
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "client bug: invalid header");
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "client bug: invalid header");
         while((_Bool)0);
         goto err_handle;
       }
@@ -8405,7 +8405,7 @@ signed int recv_request(struct proxy_session *ps)
       if(iotype == 1u)
       {
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "NBD_CMD_WRITE to a readonly server. disconnect.");
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "NBD_CMD_WRITE to a readonly server. disconnect.");
         while((_Bool)0);
         goto err_handle;
       }
@@ -8426,14 +8426,14 @@ signed int recv_request(struct proxy_session *ps)
     priv->block_index_end = block_index_end;
     if(iotype == 1u)
     {
-      void *return_value_g_malloc$2;
-      return_value_g_malloc$2=g_malloc(iolen);
-      priv->write_buff = (char *)return_value_g_malloc$2;
+      void *return_value_g_malloc_2;
+      return_value_g_malloc_2=g_malloc(iolen);
+      priv->write_buff = (char *)return_value_g_malloc_2;
       ret=net_recv_all_or_error(priv->clientfd, (void *)priv->write_buff, priv->iolen);
       if(!(ret >= 0))
       {
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "recv write data");
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "recv write data");
         while((_Bool)0);
         goto err_handle;
       }
@@ -8443,16 +8443,16 @@ signed int recv_request(struct proxy_session *ps)
     else
       if(iotype == 0u)
       {
-        void *return_value_g_malloc$3;
-        return_value_g_malloc$3=g_malloc(iolen);
-        priv->read_buff = (char *)return_value_g_malloc$3;
+        void *return_value_g_malloc_3;
+        return_value_g_malloc_3=g_malloc(iolen);
+        priv->read_buff = (char *)return_value_g_malloc_3;
       }
 
       else
         if(!(iotype == 3u))
         {
           do
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "client bug: unknown iotype");
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "client bug: unknown iotype");
           while((_Bool)0);
           goto err_handle;
         }
@@ -8470,7 +8470,7 @@ signed int recv_request(struct proxy_session *ps)
 
     err_handle:
       ;
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "start terminating session (nbd_fd %d wrk_fd %d)", ps->nbd_fd, ps->wrk_fd);
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "start terminating session (nbd_fd %d wrk_fd %d)", ps->nbd_fd, ps->wrk_fd);
     }
     while((_Bool)0);
     priv->need_exit = 1;
@@ -8501,9 +8501,9 @@ void * rx_thread_main(void *arg)
   block_all_signals();
   do
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "rx_thread %lu starts", return_value_pthread_self$1);
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "rx_thread %lu starts", return_value_pthread_self_1);
   }
   while((_Bool)0);
   do
@@ -8517,9 +8517,9 @@ void * rx_thread_main(void *arg)
   while((_Bool)1);
   do
   {
-    unsigned long int return_value_pthread_self$2;
-    return_value_pthread_self$2=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "rx_thread %lu exits", return_value_pthread_self$2);
+    unsigned long int return_value_pthread_self_2;
+    return_value_pthread_self_2=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "rx_thread %lu exits", return_value_pthread_self_2);
   }
   while((_Bool)0);
   return (void *)0;
@@ -8535,7 +8535,7 @@ void set_process_name(const char *name)
   ret=prctl(15, (unsigned long int)comm, 0l, 0l, 0l);
   if(!(ret >= 0))
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "set_name %m");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "set_name %m");
     while((_Bool)0);
 
 }
@@ -8544,26 +8544,26 @@ void set_process_name(const char *name)
 // file io.c line 270
 void sigmask_all(void)
 {
-  struct anonymous$0 sig;
+  struct anonymous_0 sig;
   signed int ret;
   ret=sigfillset(&sig);
   if(!(ret >= 0))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) sigfillset", return_value_pthread_self$1, (const void *)"sigmask_all");
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) sigfillset", return_value_pthread_self_1, (const void *)"sigmask_all");
 
   __CPROVER_DUMP_L2:
     ;
     goto __CPROVER_DUMP_L2;
   }
 
-  ret=pthread_sigmask(2, &sig, (struct anonymous$0 *)(void *)0);
+  ret=pthread_sigmask(2, &sig, (struct anonymous_0 *)(void *)0);
   if(!(ret >= 0))
   {
-    unsigned long int return_value_pthread_self$2;
-    return_value_pthread_self$2=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) sigmask", return_value_pthread_self$2, (const void *)"sigmask_all");
+    unsigned long int return_value_pthread_self_2;
+    return_value_pthread_self_2=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) sigmask", return_value_pthread_self_2, (const void *)"sigmask_all");
 
   __CPROVER_DUMP_L5:
     ;
@@ -8578,93 +8578,93 @@ static void * start_filemgr_thread(void *pointer)
 {
   struct _t_thread_data * const p_thread_data = (struct _t_thread_data *)pointer;
   const signed int rbufsize = 128 * 8;
-  const signed long int rbufsize$array_size0 = (signed long int)rbufsize;
-  char buf[rbufsize$array_size0];
-  const signed long int buf$array_size0 = (signed long int)rbufsize;
-  char cmd[buf$array_size0];
-  const signed long int cmd$array_size0 = (signed long int)rbufsize;
-  char arg[cmd$array_size0];
+  const signed long int rbufsize_array_size0 = (signed long int)rbufsize;
+  char buf[rbufsize_array_size0];
+  const signed long int buf_array_size0 = (signed long int)rbufsize;
+  char cmd[buf_array_size0];
+  const signed long int cmd_array_size0 = (signed long int)rbufsize;
+  char arg[cmd_array_size0];
   signed int ret;
   signed int conn_uxsock;
   conn_uxsock=accept(p_thread_data->unix_sock_fd, (void *)0, (unsigned int *)(void *)0);
   if(conn_uxsock == -1)
   {
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "accept(AF_UNIX): %m");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "accept(AF_UNIX): %m");
     while((_Bool)0);
     pthread_exit((void *)0);
   }
 
   struct _IO_FILE *fp;
   fp=fdopen(conn_uxsock, "r+");
-  signed int return_value_count_mgr_threads$23;
-  return_value_count_mgr_threads$23=count_mgr_threads(1);
-  signed int return_value_strcmp$19;
-  _Bool tmp_if_expr$21;
-  signed int return_value_strcmp$20;
-  char *tmp_if_expr$4;
-  char *tmp_if_expr$5;
-  signed int return_value_strcmp$18;
-  char *tmp_if_expr$6;
-  signed int return_value_strcmp$17;
-  signed int return_value_strcmp$16;
-  signed int return_value_strcmp$15;
-  signed int return_value_strcmp$14;
-  signed int return_value_strcmp$13;
-  signed int return_value_strcmp$12;
-  signed int return_value_strcmp$11;
-  signed int return_value_strcmp$10;
-  char *tmp_if_expr$7;
-  signed int return_value_strcmp$9;
-  signed int return_value_strcmp$8;
-  if(MAX_CTL_CONNS >= return_value_count_mgr_threads$23)
+  signed int return_value_count_mgr_threads_23;
+  return_value_count_mgr_threads_23=count_mgr_threads(1);
+  signed int return_value_strcmp_19;
+  _Bool tmp_if_expr_21;
+  signed int return_value_strcmp_20;
+  char *tmp_if_expr_4;
+  char *tmp_if_expr_5;
+  signed int return_value_strcmp_18;
+  char *tmp_if_expr_6;
+  signed int return_value_strcmp_17;
+  signed int return_value_strcmp_16;
+  signed int return_value_strcmp_15;
+  signed int return_value_strcmp_14;
+  signed int return_value_strcmp_13;
+  signed int return_value_strcmp_12;
+  signed int return_value_strcmp_11;
+  signed int return_value_strcmp_10;
+  char *tmp_if_expr_7;
+  signed int return_value_strcmp_9;
+  signed int return_value_strcmp_8;
+  if(MAX_CTL_CONNS >= return_value_count_mgr_threads_23)
   {
     fprintf(fp, "\"help\" command displays help for other commands\n");
     do
     {
-      signed int return_value_fputs$1;
-      return_value_fputs$1=fputs("(xnbd) ", fp);
-      if(return_value_fputs$1 == -1)
+      signed int return_value_fputs_1;
+      return_value_fputs_1=fputs("(xnbd) ", fp);
+      if(return_value_fputs_1 == -1)
       {
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "fputs : EOF");
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "fputs : EOF");
         while((_Bool)0);
         break;
       }
 
       fflush(fp);
-      char *return_value_fgets$2;
-      return_value_fgets$2=fgets(buf, rbufsize, fp);
-      if(return_value_fgets$2 == ((char *)NULL))
+      char *return_value_fgets_2;
+      return_value_fgets_2=fgets(buf, rbufsize, fp);
+      if(return_value_fgets_2 == ((char *)NULL))
         break;
 
-      signed int return_value_sscanf$3;
-      return_value_sscanf$3=sscanf(buf, "%s%s", (const void *)cmd, (const void *)arg);
-      if(return_value_sscanf$3 >= 1)
+      signed int return_value_sscanf_3;
+      return_value_sscanf_3=sscanf(buf, "%s%s", (const void *)cmd, (const void *)arg);
+      if(return_value_sscanf_3 >= 1)
       {
         signed int return_code = 0;
-        signed int return_value_strcmp$22;
-        return_value_strcmp$22=strcmp(cmd, "list");
-        if(return_value_strcmp$22 == 0)
+        signed int return_value_strcmp_22;
+        return_value_strcmp_22=strcmp(cmd, "list");
+        if(return_value_strcmp_22 == 0)
           list_diskimg(fp);
 
         else
         {
-          return_value_strcmp$19=strcmp(cmd, "add");
-          if(return_value_strcmp$19 == 0)
-            tmp_if_expr$21 = (_Bool)1;
+          return_value_strcmp_19=strcmp(cmd, "add");
+          if(return_value_strcmp_19 == 0)
+            tmp_if_expr_21 = (_Bool)1;
 
           else
           {
-            return_value_strcmp$20=strcmp(cmd, "add-target");
-            tmp_if_expr$21 = return_value_strcmp$20 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_20=strcmp(cmd, "add-target");
+            tmp_if_expr_21 = return_value_strcmp_20 == 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$21)
+          if(tmp_if_expr_21)
           {
-            char **start_filemgr_thread$$1$$2$$1$$1$$3$$argv = (char **)(void *)0;
-            unsigned int start_filemgr_thread$$1$$2$$1$$1$$3$$argc = (unsigned int)0;
+            char **start_filemgr_thread__1__2__1__1__3__argv = (char **)(void *)0;
+            unsigned int start_filemgr_thread__1__2__1__1__3__argc = (unsigned int)0;
             signed int res;
-            res=extract_decode_check_usage(buf, &start_filemgr_thread$$1$$2$$1$$1$$3$$argv, &start_filemgr_thread$$1$$2$$1$$1$$3$$argc, (unsigned int)2, (unsigned int)3);
+            res=extract_decode_check_usage(buf, &start_filemgr_thread__1__2__1__1__3__argv, &start_filemgr_thread__1__2__1__1__3__argc, (unsigned int)2, (unsigned int)3);
             if(res == 1)
             {
               fprintf(fp, "%s\n", (const void *)"out of memory");
@@ -8682,24 +8682,24 @@ static void * start_filemgr_thread(void *pointer)
                 if(res == 0)
                 {
                   const char *file;
-                  if(start_filemgr_thread$$1$$2$$1$$1$$3$$argc == 3u)
-                    tmp_if_expr$4 = start_filemgr_thread$$1$$2$$1$$1$$3$$argv[(signed long int)2];
+                  if(start_filemgr_thread__1__2__1__1__3__argc == 3u)
+                    tmp_if_expr_4 = start_filemgr_thread__1__2__1__1__3__argv[(signed long int)2];
 
                   else
-                    tmp_if_expr$4 = start_filemgr_thread$$1$$2$$1$$1$$3$$argv[(signed long int)1];
-                  file = tmp_if_expr$4;
+                    tmp_if_expr_4 = start_filemgr_thread__1__2__1__1__3__argv[(signed long int)1];
+                  file = tmp_if_expr_4;
                   const char *exportname;
-                  if(start_filemgr_thread$$1$$2$$1$$1$$3$$argc == 3u)
-                    tmp_if_expr$5 = start_filemgr_thread$$1$$2$$1$$1$$3$$argv[(signed long int)1];
+                  if(start_filemgr_thread__1__2__1__1__3__argc == 3u)
+                    tmp_if_expr_5 = start_filemgr_thread__1__2__1__1__3__argv[(signed long int)1];
 
                   else
-                    tmp_if_expr$5 = file;
-                  exportname = tmp_if_expr$5;
-                  struct _t_disk_data *start_filemgr_thread$$1$$2$$1$$1$$3$$3$$p_disk_data;
-                  start_filemgr_thread$$1$$2$$1$$1$$3$$3$$p_disk_data=create_disk_data(exportname, (const char *)(void *)0, (const char *)(void *)0, file, (const char *)(void *)0, (const char *)(void *)0, (const char *)(void *)0);
-                  if(!(start_filemgr_thread$$1$$2$$1$$1$$3$$3$$p_disk_data == ((struct _t_disk_data *)NULL)))
+                    tmp_if_expr_5 = file;
+                  exportname = tmp_if_expr_5;
+                  struct _t_disk_data *start_filemgr_thread__1__2__1__1__3__3__p_disk_data;
+                  start_filemgr_thread__1__2__1__1__3__3__p_disk_data=create_disk_data(exportname, (const char *)(void *)0, (const char *)(void *)0, file, (const char *)(void *)0, (const char *)(void *)0, (const char *)(void *)0);
+                  if(!(start_filemgr_thread__1__2__1__1__3__3__p_disk_data == ((struct _t_disk_data *)NULL)))
                   {
-                    ret=add_diskimg(start_filemgr_thread$$1$$2$$1$$1$$3$$3$$p_disk_data);
+                    ret=add_diskimg(start_filemgr_thread__1__2__1__1__3__3__p_disk_data);
                     if(ret == -1)
                       fprintf(fp, "cannot open %s\n", file);
 
@@ -8715,49 +8715,49 @@ static void * start_filemgr_thread(void *pointer)
                     fprintf(fp, "%s\n", (const void *)"out of memory");
                     return_code = 1;
                   }
-                  g_strfreev(start_filemgr_thread$$1$$2$$1$$1$$3$$argv);
+                  g_strfreev(start_filemgr_thread__1__2__1__1__3__argv);
                 }
 
           }
 
           else
           {
-            return_value_strcmp$18=strcmp(cmd, "add-proxy");
-            if(return_value_strcmp$18 == 0)
+            return_value_strcmp_18=strcmp(cmd, "add-proxy");
+            if(return_value_strcmp_18 == 0)
             {
-              char **start_filemgr_thread$$1$$2$$1$$1$$4$$argv = (char **)(void *)0;
-              unsigned int start_filemgr_thread$$1$$2$$1$$1$$4$$argc = (unsigned int)0;
-              signed int start_filemgr_thread$$1$$2$$1$$1$$4$$res;
-              start_filemgr_thread$$1$$2$$1$$1$$4$$res=extract_decode_check_usage(buf, &start_filemgr_thread$$1$$2$$1$$1$$4$$argv, &start_filemgr_thread$$1$$2$$1$$1$$4$$argc, (unsigned int)7, (unsigned int)8);
-              if(start_filemgr_thread$$1$$2$$1$$1$$4$$res == 1)
+              char **start_filemgr_thread__1__2__1__1__4__argv = (char **)(void *)0;
+              unsigned int start_filemgr_thread__1__2__1__1__4__argc = (unsigned int)0;
+              signed int start_filemgr_thread__1__2__1__1__4__res;
+              start_filemgr_thread__1__2__1__1__4__res=extract_decode_check_usage(buf, &start_filemgr_thread__1__2__1__1__4__argv, &start_filemgr_thread__1__2__1__1__4__argc, (unsigned int)7, (unsigned int)8);
+              if(start_filemgr_thread__1__2__1__1__4__res == 1)
               {
                 fprintf(fp, "%s\n", (const void *)"out of memory");
                 return_code = 1;
               }
 
               else
-                if(start_filemgr_thread$$1$$2$$1$$1$$4$$res == 2)
+                if(start_filemgr_thread__1__2__1__1__4__res == 2)
                 {
                   fprintf(fp, "usage: %s\n", (const void *)"add-proxy <LOCAL_EXPORTNAME> <TARGET_HOST> <TARGET_PORT> <CACHE_IMAGE> <BITMAP_IMAGE> <CONTROL_SOCKET_PATH> [<TARGET_EXPORTNAME>]");
                   return_code = 1;
                 }
 
                 else
-                  if(start_filemgr_thread$$1$$2$$1$$1$$4$$res == 0)
+                  if(start_filemgr_thread__1__2__1__1__4__res == 0)
                   {
-                    const char * const local_exportname = start_filemgr_thread$$1$$2$$1$$1$$4$$argv[(signed long int)1];
-                    const char * const target_host = start_filemgr_thread$$1$$2$$1$$1$$4$$argv[(signed long int)2];
-                    const char * const target_port = start_filemgr_thread$$1$$2$$1$$1$$4$$argv[(signed long int)3];
-                    const char * const cache_image = start_filemgr_thread$$1$$2$$1$$1$$4$$argv[(signed long int)4];
-                    const char * const bitmap_image = start_filemgr_thread$$1$$2$$1$$1$$4$$argv[(signed long int)5];
-                    const char * const control_socket_path = start_filemgr_thread$$1$$2$$1$$1$$4$$argv[(signed long int)6];
+                    const char * const local_exportname = start_filemgr_thread__1__2__1__1__4__argv[(signed long int)1];
+                    const char * const target_host = start_filemgr_thread__1__2__1__1__4__argv[(signed long int)2];
+                    const char * const target_port = start_filemgr_thread__1__2__1__1__4__argv[(signed long int)3];
+                    const char * const cache_image = start_filemgr_thread__1__2__1__1__4__argv[(signed long int)4];
+                    const char * const bitmap_image = start_filemgr_thread__1__2__1__1__4__argv[(signed long int)5];
+                    const char * const control_socket_path = start_filemgr_thread__1__2__1__1__4__argv[(signed long int)6];
                     const char *target_exportname;
-                    if(start_filemgr_thread$$1$$2$$1$$1$$4$$argc >= 8u)
-                      tmp_if_expr$6 = start_filemgr_thread$$1$$2$$1$$1$$4$$argv[(signed long int)7];
+                    if(start_filemgr_thread__1__2__1__1__4__argc >= 8u)
+                      tmp_if_expr_6 = start_filemgr_thread__1__2__1__1__4__argv[(signed long int)7];
 
                     else
-                      tmp_if_expr$6 = (char *)(void *)0;
-                    target_exportname = tmp_if_expr$6;
+                      tmp_if_expr_6 = (char *)(void *)0;
+                    target_exportname = tmp_if_expr_6;
                     struct _t_disk_data *p_disk_data;
                     p_disk_data=create_disk_data(local_exportname, target_host, target_port, cache_image, bitmap_image, control_socket_path, target_exportname);
                     if(p_disk_data == ((struct _t_disk_data *)NULL))
@@ -8778,15 +8778,15 @@ static void * start_filemgr_thread(void *pointer)
 
                       return_code = ret == 0 ? 0 : 1;
                     }
-                    g_strfreev(start_filemgr_thread$$1$$2$$1$$1$$4$$argv);
+                    g_strfreev(start_filemgr_thread__1__2__1__1__4__argv);
                   }
 
             }
 
             else
             {
-              return_value_strcmp$17=strcmp(cmd, "del");
-              if(return_value_strcmp$17 == 0)
+              return_value_strcmp_17=strcmp(cmd, "del");
+              if(return_value_strcmp_17 == 0)
               {
                 signed int number;
                 number=atoi(arg);
@@ -8798,8 +8798,8 @@ static void * start_filemgr_thread(void *pointer)
 
               else
               {
-                return_value_strcmp$16=strcmp(cmd, "del-file");
-                if(return_value_strcmp$16 == 0)
+                return_value_strcmp_16=strcmp(cmd, "del-file");
+                if(return_value_strcmp_16 == 0)
                 {
                   decode_percent_encoding(arg);
                   return_code=del_diskimg_by_file(arg);
@@ -8810,8 +8810,8 @@ static void * start_filemgr_thread(void *pointer)
 
                 else
                 {
-                  return_value_strcmp$15=strcmp(cmd, "del-exportname");
-                  if(return_value_strcmp$15 == 0)
+                  return_value_strcmp_15=strcmp(cmd, "del-exportname");
+                  if(return_value_strcmp_15 == 0)
                   {
                     decode_percent_encoding(arg);
                     return_code=del_diskimg_by_exportname(arg);
@@ -8822,28 +8822,28 @@ static void * start_filemgr_thread(void *pointer)
 
                   else
                   {
-                    return_value_strcmp$14=strcmp(cmd, "shutdown");
-                    if(return_value_strcmp$14 == 0)
+                    return_value_strcmp_14=strcmp(cmd, "shutdown");
+                    if(return_value_strcmp_14 == 0)
                       perform_shutdown(fp);
 
                     else
                     {
-                      return_value_strcmp$13=strcmp(cmd, "bgctl-query");
-                      if(return_value_strcmp$13 == 0)
+                      return_value_strcmp_13=strcmp(cmd, "bgctl-query");
+                      if(return_value_strcmp_13 == 0)
                         return_code=handle_bgctl_command("bgctl-query EXPORTNAME", "--query", (unsigned int)2, (unsigned int)2, buf, fp, p_thread_data->xnbd_bgctl_command, (unsigned int *)(void *)0, (char ***)(void *)0, p_thread_data->p_child_process_count);
 
                       else
                       {
-                        return_value_strcmp$12=strcmp(cmd, "bgctl-switch");
-                        if(return_value_strcmp$12 == 0)
+                        return_value_strcmp_12=strcmp(cmd, "bgctl-switch");
+                        if(return_value_strcmp_12 == 0)
                         {
                           unsigned int argc = (unsigned int)0;
                           char **argv = (char **)(void *)0;
                           return_code=handle_bgctl_command("bgctl-switch EXPORTNAME", "--switch", (unsigned int)2, (unsigned int)2, buf, fp, p_thread_data->xnbd_bgctl_command, &argc, &argv, p_thread_data->p_child_process_count);
                           if(return_code == 0)
                           {
-                            const char * const start_filemgr_thread$$1$$2$$1$$1$$10$$1$$local_exportname = argv[(signed long int)1];
-                            mark_proxy_mode_ended(start_filemgr_thread$$1$$2$$1$$1$$10$$1$$local_exportname);
+                            const char * const start_filemgr_thread__1__2__1__1__10__1__local_exportname = argv[(signed long int)1];
+                            mark_proxy_mode_ended(start_filemgr_thread__1__2__1__1__10__1__local_exportname);
                           }
 
                           g_strfreev(argv);
@@ -8851,46 +8851,46 @@ static void * start_filemgr_thread(void *pointer)
 
                         else
                         {
-                          return_value_strcmp$11=strcmp(cmd, "bgctl-cache-all");
-                          if(return_value_strcmp$11 == 0)
+                          return_value_strcmp_11=strcmp(cmd, "bgctl-cache-all");
+                          if(return_value_strcmp_11 == 0)
                             return_code=handle_bgctl_command("bgctl-cache-all EXPORTNAME", "--cache-all", (unsigned int)2, (unsigned int)2, buf, fp, p_thread_data->xnbd_bgctl_command, (unsigned int *)(void *)0, (char ***)(void *)0, p_thread_data->p_child_process_count);
 
                           else
                           {
-                            return_value_strcmp$10=strcmp(cmd, "bgctl-reconnect");
-                            if(return_value_strcmp$10 == 0)
+                            return_value_strcmp_10=strcmp(cmd, "bgctl-reconnect");
+                            if(return_value_strcmp_10 == 0)
                             {
-                              unsigned int start_filemgr_thread$$1$$2$$1$$1$$12$$argc = (unsigned int)0;
-                              char **start_filemgr_thread$$1$$2$$1$$1$$12$$argv = (char **)(void *)0;
-                              return_code=handle_bgctl_command("bgctl-reconnect LOCAL_EXPORTNAME HOST PORT [TARGET_EXPORTNAME]", "--reconnect", (unsigned int)4, (unsigned int)5, buf, fp, p_thread_data->xnbd_bgctl_command, &start_filemgr_thread$$1$$2$$1$$1$$12$$argc, &start_filemgr_thread$$1$$2$$1$$1$$12$$argv, p_thread_data->p_child_process_count);
+                              unsigned int start_filemgr_thread__1__2__1__1__12__argc = (unsigned int)0;
+                              char **start_filemgr_thread__1__2__1__1__12__argv = (char **)(void *)0;
+                              return_code=handle_bgctl_command("bgctl-reconnect LOCAL_EXPORTNAME HOST PORT [TARGET_EXPORTNAME]", "--reconnect", (unsigned int)4, (unsigned int)5, buf, fp, p_thread_data->xnbd_bgctl_command, &start_filemgr_thread__1__2__1__1__12__argc, &start_filemgr_thread__1__2__1__1__12__argv, p_thread_data->p_child_process_count);
                               if(return_code == 0)
                               {
-                                const char * const start_filemgr_thread$$1$$2$$1$$1$$12$$1$$local_exportname = start_filemgr_thread$$1$$2$$1$$1$$12$$argv[(signed long int)1];
-                                const char * const host = start_filemgr_thread$$1$$2$$1$$1$$12$$argv[(signed long int)2];
-                                const char * const port = start_filemgr_thread$$1$$2$$1$$1$$12$$argv[(signed long int)3];
-                                const char *start_filemgr_thread$$1$$2$$1$$1$$12$$1$$target_exportname;
-                                if(start_filemgr_thread$$1$$2$$1$$1$$12$$argc >= 5u)
-                                  tmp_if_expr$7 = start_filemgr_thread$$1$$2$$1$$1$$12$$argv[(signed long int)4];
+                                const char * const start_filemgr_thread__1__2__1__1__12__1__local_exportname = start_filemgr_thread__1__2__1__1__12__argv[(signed long int)1];
+                                const char * const host = start_filemgr_thread__1__2__1__1__12__argv[(signed long int)2];
+                                const char * const port = start_filemgr_thread__1__2__1__1__12__argv[(signed long int)3];
+                                const char *start_filemgr_thread__1__2__1__1__12__1__target_exportname;
+                                if(start_filemgr_thread__1__2__1__1__12__argc >= 5u)
+                                  tmp_if_expr_7 = start_filemgr_thread__1__2__1__1__12__argv[(signed long int)4];
 
                                 else
-                                  tmp_if_expr$7 = (char *)(void *)0;
-                                start_filemgr_thread$$1$$2$$1$$1$$12$$1$$target_exportname = tmp_if_expr$7;
-                                update_proxy_settings(start_filemgr_thread$$1$$2$$1$$1$$12$$1$$local_exportname, host, port, start_filemgr_thread$$1$$2$$1$$1$$12$$1$$target_exportname);
+                                  tmp_if_expr_7 = (char *)(void *)0;
+                                start_filemgr_thread__1__2__1__1__12__1__target_exportname = tmp_if_expr_7;
+                                update_proxy_settings(start_filemgr_thread__1__2__1__1__12__1__local_exportname, host, port, start_filemgr_thread__1__2__1__1__12__1__target_exportname);
                               }
 
-                              g_strfreev(start_filemgr_thread$$1$$2$$1$$1$$12$$argv);
+                              g_strfreev(start_filemgr_thread__1__2__1__1__12__argv);
                             }
 
                             else
                             {
-                              return_value_strcmp$9=strcmp(cmd, "help");
-                              if(return_value_strcmp$9 == 0)
+                              return_value_strcmp_9=strcmp(cmd, "help");
+                              if(return_value_strcmp_9 == 0)
                                 fprintf(fp, "  list                 : show list of disk images\n\n  add-target NAME PATH : add disk image in target mode\n  add-proxy ...        : add disk image in proxy mode\n (add [NAME] PATH)     : add disk image in target mode, deprecated\n\n  del-file FILE        : delete disk image by file name\n  del-exportname NAME  : delete disk image by export name\n (del INDEX)           : delete disk image by index, deprecated\n\n  bgctl-query NAME     : Query status of proxy\n  bgctl-switch NAME    : Switch from proxy to target mode\n  bgctl-cache-all NAME : Instruct proxy to cache all blocks\n  bgctl-reconnect ...  : Reconnect proxy to a given location\n\n  shutdown             : terminate all images and shutdown xnbd-wrapper instance\n  quit                 : quit (disconnect)\n");
 
                               else
                               {
-                                return_value_strcmp$8=strcmp(cmd, "quit");
-                                if(return_value_strcmp$8 == 0)
+                                return_value_strcmp_8=strcmp(cmd, "quit");
+                                if(return_value_strcmp_8 == 0)
                                   break;
 
                                 else
@@ -8987,7 +8987,7 @@ signed int target_mode_main_cow(struct xnbd_session *ses)
   reply.magic=htonl((unsigned int)0x67446698);
   reply.error = (unsigned int)0;
   ret=poll_request_arrival(ses);
-  unsigned long int return_value_pthread_self$3;
+  unsigned long int return_value_pthread_self_3;
   if(!(ret >= 0))
     return -1;
 
@@ -9003,9 +9003,9 @@ signed int target_mode_main_cow(struct xnbd_session *ses)
     else
       if(ret == -2)
       {
-        unsigned long int return_value_pthread_self$1;
-        return_value_pthread_self$1=pthread_self();
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) client bug: invalid header", return_value_pthread_self$1, (const void *)"target_mode_main_cow");
+        unsigned long int return_value_pthread_self_1;
+        return_value_pthread_self_1=pthread_self();
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) client bug: invalid header", return_value_pthread_self_1, (const void *)"target_mode_main_cow");
 
       __CPROVER_DUMP_L4:
         ;
@@ -9037,9 +9037,9 @@ signed int target_mode_main_cow(struct xnbd_session *ses)
     {
       if(iotype == 1u)
       {
-        unsigned long int return_value_pthread_self$2;
-        return_value_pthread_self$2=pthread_self();
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) NBD_CMD_WRITE to a readonly disk. disconnect.", return_value_pthread_self$2, (const void *)"target_mode_main_cow");
+        unsigned long int return_value_pthread_self_2;
+        return_value_pthread_self_2=pthread_self();
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) NBD_CMD_WRITE to a readonly disk. disconnect.", return_value_pthread_self_2, (const void *)"target_mode_main_cow");
 
       __CPROVER_DUMP_L12:
         ;
@@ -9079,8 +9079,8 @@ signed int target_mode_main_cow(struct xnbd_session *ses)
       }
       default:
       {
-        return_value_pthread_self$3=pthread_self();
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) unknown command %u", return_value_pthread_self$3, (const void *)"target_mode_main_cow", iotype);
+        return_value_pthread_self_3=pthread_self();
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) unknown command %u", return_value_pthread_self_3, (const void *)"target_mode_main_cow", iotype);
 
       __CPROVER_DUMP_L19:
         ;
@@ -9103,17 +9103,17 @@ void * tx_thread_main(void *arg)
   block_all_signals();
   do
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "tx_thread %lu starts", return_value_pthread_self$1);
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "tx_thread %lu starts", return_value_pthread_self_1);
   }
   while((_Bool)0);
   do
   {
     struct proxy_priv *priv;
-    void *return_value_g_async_queue_pop$2;
-    return_value_g_async_queue_pop$2=g_async_queue_pop(ps->tx_queue);
-    priv = (struct proxy_priv *)return_value_g_async_queue_pop$2;
+    void *return_value_g_async_queue_pop_2;
+    return_value_g_async_queue_pop_2=g_async_queue_pop(ps->tx_queue);
+    priv = (struct proxy_priv *)return_value_g_async_queue_pop_2;
     proxy_priv_dump(priv);
     if(!(priv->need_exit == 0))
       need_exit = 1;
@@ -9138,7 +9138,7 @@ void * tx_thread_main(void *arg)
         if(!(ret >= 0))
         {
           do
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "clientfd %d is dead", priv->clientfd);
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "clientfd %d is dead", priv->clientfd);
           while((_Bool)0);
           need_skip = 1;
         }
@@ -9163,9 +9163,9 @@ void * tx_thread_main(void *arg)
   net_send_all_or_abort(ps->pipe_write_fd, (const void *)"", (unsigned long int)1);
   do
   {
-    unsigned long int return_value_pthread_self$3;
-    return_value_pthread_self$3=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "tx_thread %lu exits", return_value_pthread_self$3);
+    unsigned long int return_value_pthread_self_3;
+    return_value_pthread_self_3=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "tx_thread %lu exits", return_value_pthread_self_3);
   }
   while((_Bool)0);
   return (void *)0;
@@ -9179,9 +9179,9 @@ signed int unix_connect(const char *path)
   fd=socket(1, 1, 0);
   if(!(fd >= 0))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) socket %m", return_value_pthread_self$1, (const void *)"unix_connect");
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) socket %m", return_value_pthread_self_1, (const void *)"unix_connect");
 
   __CPROVER_DUMP_L2:
     ;
@@ -9195,9 +9195,9 @@ signed int unix_connect(const char *path)
   ret=connect(fd, (struct sockaddr *)&cliaddr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
   if(!(ret >= 0))
   {
-    unsigned long int return_value_pthread_self$2;
-    return_value_pthread_self$2=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) connect %m", return_value_pthread_self$2, (const void *)"unix_connect");
+    unsigned long int return_value_pthread_self_2;
+    return_value_pthread_self_2=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) connect %m", return_value_pthread_self_2, (const void *)"unix_connect");
 
   __CPROVER_DUMP_L5:
     ;
@@ -9224,14 +9224,14 @@ signed int unix_recv_fd(signed int socket)
   msg.msg_control = (void *)data_buf;
   msg.msg_controllen = sizeof(char [24l]) /*24ul*/ ;
   signed int ret;
-  signed long int return_value_recvmsg$1;
-  return_value_recvmsg$1=recvmsg(socket, &msg, 0);
-  ret = (signed int)return_value_recvmsg$1;
+  signed long int return_value_recvmsg_1;
+  return_value_recvmsg_1=recvmsg(socket, &msg, 0);
+  ret = (signed int)return_value_recvmsg_1;
   if(ret == -1)
   {
-    unsigned long int return_value_pthread_self$2;
-    return_value_pthread_self$2=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) recv_fd, %m", return_value_pthread_self$2, (const void *)"unix_recv_fd");
+    unsigned long int return_value_pthread_self_2;
+    return_value_pthread_self_2=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) recv_fd, %m", return_value_pthread_self_2, (const void *)"unix_recv_fd");
 
   __CPROVER_DUMP_L2:
     ;
@@ -9241,9 +9241,9 @@ signed int unix_recv_fd(signed int socket)
   else
     if(ret == 0)
     {
-      unsigned long int return_value_pthread_self$3;
-      return_value_pthread_self$3=pthread_self();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) recv_fd, peer closed", return_value_pthread_self$3, (const void *)"unix_recv_fd");
+      unsigned long int return_value_pthread_self_3;
+      return_value_pthread_self_3=pthread_self();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) recv_fd, peer closed", return_value_pthread_self_3, (const void *)"unix_recv_fd");
 
     __CPROVER_DUMP_L5:
       ;
@@ -9251,37 +9251,37 @@ signed int unix_recv_fd(signed int socket)
     }
 
   struct cmsghdr *cmsg;
-  struct cmsghdr *tmp_if_expr$4;
+  struct cmsghdr *tmp_if_expr_4;
   if(msg.msg_controllen >= sizeof(struct cmsghdr) /*16ul*/ )
-    tmp_if_expr$4 = (struct cmsghdr *)(&msg)->msg_control;
+    tmp_if_expr_4 = (struct cmsghdr *)(&msg)->msg_control;
 
   else
-    tmp_if_expr$4 = (struct cmsghdr *)0;
-  cmsg = tmp_if_expr$4;
+    tmp_if_expr_4 = (struct cmsghdr *)0;
+  cmsg = tmp_if_expr_4;
   if(cmsg == ((struct cmsghdr *)NULL))
   {
-    unsigned long int return_value_pthread_self$5;
-    return_value_pthread_self$5=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) no cmsghdr", return_value_pthread_self$5, (const void *)"unix_recv_fd");
+    unsigned long int return_value_pthread_self_5;
+    return_value_pthread_self_5=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) no cmsghdr", return_value_pthread_self_5, (const void *)"unix_recv_fd");
 
   __CPROVER_DUMP_L10:
     ;
     goto __CPROVER_DUMP_L10;
   }
 
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_7;
   if(cmsg->cmsg_len == sizeof(signed int) * 5 /*20ul*/ )
-    tmp_if_expr$7 = cmsg->cmsg_level == 1 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_7 = cmsg->cmsg_level == 1 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$7 = (_Bool)0;
-  _Bool tmp_if_expr$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$8 = cmsg->cmsg_type == 1 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_7 = (_Bool)0;
+  _Bool tmp_if_expr_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_8 = cmsg->cmsg_type == 1 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$8 = (_Bool)0;
-  if(tmp_if_expr$8)
+    tmp_if_expr_8 = (_Bool)0;
+  if(tmp_if_expr_8)
   {
     signed int *fdptr = (signed int *)cmsg->__cmsg_data;
     fd = *fdptr;
@@ -9289,16 +9289,16 @@ signed int unix_recv_fd(signed int socket)
 
   else
   {
-    unsigned long int return_value_pthread_self$6;
-    return_value_pthread_self$6=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) no descriptor", return_value_pthread_self$6, (const void *)"unix_recv_fd");
+    unsigned long int return_value_pthread_self_6;
+    return_value_pthread_self_6=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) no descriptor", return_value_pthread_self_6, (const void *)"unix_recv_fd");
 
   __CPROVER_DUMP_L17:
     ;
     goto __CPROVER_DUMP_L17;
   }
   do
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "fd %d received", fd);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "fd %d received", fd);
   while((_Bool)0);
   return fd;
 }
@@ -9318,13 +9318,13 @@ signed int unix_send_fd(signed int socket, signed int fd)
   msg.msg_control = (void *)data_buf;
   msg.msg_controllen = sizeof(char [24l]) /*24ul*/ ;
   struct cmsghdr *cmsg;
-  struct cmsghdr *tmp_if_expr$1;
+  struct cmsghdr *tmp_if_expr_1;
   if(msg.msg_controllen >= sizeof(struct cmsghdr) /*16ul*/ )
-    tmp_if_expr$1 = (struct cmsghdr *)(&msg)->msg_control;
+    tmp_if_expr_1 = (struct cmsghdr *)(&msg)->msg_control;
 
   else
-    tmp_if_expr$1 = (struct cmsghdr *)0;
-  cmsg = tmp_if_expr$1;
+    tmp_if_expr_1 = (struct cmsghdr *)0;
+  cmsg = tmp_if_expr_1;
   cmsg->cmsg_level = 1;
   cmsg->cmsg_type = 1;
   cmsg->cmsg_len = ((sizeof(struct cmsghdr) /*16ul*/  + sizeof(unsigned long int) /*8ul*/ ) - (unsigned long int)1 & (unsigned long int)~(sizeof(unsigned long int) /*8ul*/  - (unsigned long int)1)) + sizeof(signed int) /*4ul*/ ;
@@ -9332,18 +9332,18 @@ signed int unix_send_fd(signed int socket, signed int fd)
   *fdptr = fd;
   msg.msg_controllen = cmsg->cmsg_len;
   signed int ret;
-  signed long int return_value_sendmsg$2;
-  return_value_sendmsg$2=sendmsg(socket, &msg, 0);
-  ret = (signed int)return_value_sendmsg$2;
+  signed long int return_value_sendmsg_2;
+  return_value_sendmsg_2=sendmsg(socket, &msg, 0);
+  ret = (signed int)return_value_sendmsg_2;
   if(ret == -1)
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "send_fd, %m");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "send_fd, %m");
     while((_Bool)0);
 
   else
     if(ret == 0)
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "send_fd, peer closed");
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "send_fd, peer closed");
       while((_Bool)0);
 
   return ret;
@@ -9365,9 +9365,9 @@ static void update_block_with_found(struct disk_stack *ds, struct disk_stack_io 
   for( ; i >= 0; i = i - 1)
   {
     struct disk_image *di = ds->image[(signed long int)i];
-    signed int return_value_bitmap_test$1;
-    return_value_bitmap_test$1=bitmap_test(di->bm, index);
-    if(!(return_value_bitmap_test$1 == 0))
+    signed int return_value_bitmap_test_1;
+    return_value_bitmap_test_1=bitmap_test(di->bm, index);
+    if(!(return_value_bitmap_test_1 == 0))
     {
 
     __CPROVER_DUMP_L2:
@@ -9382,9 +9382,9 @@ static void update_block_with_found(struct disk_stack *ds, struct disk_stack_io 
   }
   if(found == 0)
   {
-    unsigned long int return_value_pthread_self$2;
-    return_value_pthread_self$2=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) bug", return_value_pthread_self$2, (const void *)"update_block_with_found");
+    unsigned long int return_value_pthread_self_2;
+    return_value_pthread_self_2=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) bug", return_value_pthread_self_2, (const void *)"update_block_with_found");
 
   __CPROVER_DUMP_L6:
     ;
@@ -9399,9 +9399,9 @@ static void update_proxy_settings(const char *local_exportname, const char *host
 {
   pthread_mutex_lock(&mutex);
   struct _t_disk_data *p_disk_data;
-  void *return_value_g_hash_table_lookup$1;
-  return_value_g_hash_table_lookup$1=g_hash_table_lookup(p_disk_dict, (const void *)local_exportname);
-  p_disk_data = (struct _t_disk_data *)return_value_g_hash_table_lookup$1;
+  void *return_value_g_hash_table_lookup_1;
+  return_value_g_hash_table_lookup_1=g_hash_table_lookup(p_disk_dict, (const void *)local_exportname);
+  p_disk_data = (struct _t_disk_data *)return_value_g_hash_table_lookup_1;
   if(!(p_disk_data == ((struct _t_disk_data *)NULL)))
   {
     do
@@ -9443,27 +9443,27 @@ __CPROVER_DUMP_L1:
   nready=poll(eventfds, (unsigned long int)2, -1);
   if(nready == -1)
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    if(*return_value___errno_location$5 == 4)
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    if(*return_value___errno_location_5 == 4)
     {
       do
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "polling signal cached");
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "polling signal cached");
       while((_Bool)0);
       return -1;
     }
 
     else
     {
-      unsigned long int return_value_pthread_self$1;
-      return_value_pthread_self$1=pthread_self();
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) polling, %s, (%d)", return_value_pthread_self$1, (const void *)"wait_until_readable", return_value_strerror$3, *return_value___errno_location$4);
+      unsigned long int return_value_pthread_self_1;
+      return_value_pthread_self_1=pthread_self();
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) polling, %s, (%d)", return_value_pthread_self_1, (const void *)"wait_until_readable", return_value_strerror_3, *return_value___errno_location_4);
 
     __CPROVER_DUMP_L5:
       ;
@@ -9474,7 +9474,7 @@ __CPROVER_DUMP_L1:
   if(!((8256 & (signed int)eventfds[1l].revents) == 0))
   {
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "notified");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "notified");
     while((_Bool)0);
     return -1;
   }
@@ -9485,9 +9485,9 @@ __CPROVER_DUMP_L1:
 
     else
     {
-      unsigned long int return_value_pthread_self$6;
-      return_value_pthread_self$6=pthread_self();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) unknown ppoll events", return_value_pthread_self$6, (const void *)"wait_until_readable");
+      unsigned long int return_value_pthread_self_6;
+      return_value_pthread_self_6=pthread_self();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) unknown ppoll events", return_value_pthread_self_6, (const void *)"wait_until_readable");
 
     __CPROVER_DUMP_L11:
       ;
@@ -9514,7 +9514,7 @@ static signed int waitpid_nohang_ghrfunc(void *key, void *value, void *user_data
     pthread_mutex_lock(&mutex);
     *p_child_process_count = *p_child_process_count - 1;
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "child_process_count-- : %d  (xnbd-server terminated)", *p_child_process_count);
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "child_process_count-- : %d  (xnbd-server terminated)", *p_child_process_count);
     while((_Bool)0);
     pthread_mutex_unlock(&mutex);
     return (signed int)!(0 != 0);
@@ -9533,7 +9533,7 @@ void write_all(signed int fd, const void *buf, unsigned long int len)
 void xnbd_cow_target_close_disk(struct disk_stack *ds, signed int delete_cow)
 {
   do
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "close cow disk");
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "close cow disk");
   while((_Bool)0);
   do
     if(ds == ((struct disk_stack *)NULL))
@@ -9547,9 +9547,9 @@ void xnbd_cow_target_close_disk(struct disk_stack *ds, signed int delete_cow)
     ret=unlink(di_cow->path);
     if(!(ret >= 0))
     {
-      unsigned long int return_value_pthread_self$1;
-      return_value_pthread_self$1=pthread_self();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) unlink %m", return_value_pthread_self$1, (const void *)"xnbd_cow_target_close_disk");
+      unsigned long int return_value_pthread_self_1;
+      return_value_pthread_self_1=pthread_self();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) unlink %m", return_value_pthread_self_1, (const void *)"xnbd_cow_target_close_disk");
 
     __CPROVER_DUMP_L6:
       ;
@@ -9559,9 +9559,9 @@ void xnbd_cow_target_close_disk(struct disk_stack *ds, signed int delete_cow)
     ret=unlink(di_cow->bmpath);
     if(!(ret >= 0))
     {
-      unsigned long int return_value_pthread_self$2;
-      return_value_pthread_self$2=pthread_self();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) unlink %m", return_value_pthread_self$2, (const void *)"xnbd_cow_target_close_disk");
+      unsigned long int return_value_pthread_self_2;
+      return_value_pthread_self_2=pthread_self();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) unlink %m", return_value_pthread_self_2, (const void *)"xnbd_cow_target_close_disk");
 
     __CPROVER_DUMP_L9:
       ;
@@ -9635,9 +9635,9 @@ void xnbd_proxy_control_cache_block(signed int ctl_fd, unsigned long int index, 
   ret=nbd_client_send_request_header(ctl_fd, (unsigned int)3, iofrom, iolen, 18446744073709551615UL);
   if(!(ret >= 0))
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) send_read_request, %m", return_value_pthread_self$1, (const void *)"xnbd_proxy_control_cache_block");
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) send_read_request, %m", return_value_pthread_self_1, (const void *)"xnbd_proxy_control_cache_block");
 
   __CPROVER_DUMP_L2:
     ;
@@ -9647,9 +9647,9 @@ void xnbd_proxy_control_cache_block(signed int ctl_fd, unsigned long int index, 
   ret=nbd_client_recv_header(ctl_fd);
   if(!(ret >= 0))
   {
-    unsigned long int return_value_pthread_self$2;
-    return_value_pthread_self$2=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) recv header, %m", return_value_pthread_self$2, (const void *)"xnbd_proxy_control_cache_block");
+    unsigned long int return_value_pthread_self_2;
+    return_value_pthread_self_2=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) recv header, %m", return_value_pthread_self_2, (const void *)"xnbd_proxy_control_cache_block");
 
   __CPROVER_DUMP_L5:
     ;
@@ -9670,7 +9670,7 @@ signed int xnbd_proxy_session_server(struct xnbd_session *ses)
   net_send_all_or_abort(unix_fd, (const void *)&cmd, sizeof(enum xnbd_proxy_cmd_type) /*4ul*/ );
   unix_send_fd(unix_fd, ses->clientfd);
   do
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "proxy worker: send fd %d via unix_fd %d", ses->clientfd, unix_fd);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "proxy worker: send fd %d via unix_fd %d", ses->clientfd, unix_fd);
   while((_Bool)0);
   signed int ret;
   struct pollfd eventfds[2l];
@@ -9688,13 +9688,13 @@ signed int xnbd_proxy_session_server(struct xnbd_session *ses)
     nready=poll(eventfds, neventfds, -1);
     if(nready == -1)
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      if(*return_value___errno_location$6 == 4)
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      if(*return_value___errno_location_6 == 4)
       {
-        unsigned long int return_value_pthread_self$1;
-        return_value_pthread_self$1=pthread_self();
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) proxy worker: catch an unexpected signal", return_value_pthread_self$1, (const void *)"xnbd_proxy_session_server");
+        unsigned long int return_value_pthread_self_1;
+        return_value_pthread_self_1=pthread_self();
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) proxy worker: catch an unexpected signal", return_value_pthread_self_1, (const void *)"xnbd_proxy_session_server");
 
       __CPROVER_DUMP_L4:
         ;
@@ -9703,15 +9703,15 @@ signed int xnbd_proxy_session_server(struct xnbd_session *ses)
 
       else
       {
-        unsigned long int return_value_pthread_self$2;
-        return_value_pthread_self$2=pthread_self();
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        char *return_value_strerror$4;
-        return_value_strerror$4=strerror(*return_value___errno_location$3);
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) polling, %s, (%d)", return_value_pthread_self$2, (const void *)"xnbd_proxy_session_server", return_value_strerror$4, *return_value___errno_location$5);
+        unsigned long int return_value_pthread_self_2;
+        return_value_pthread_self_2=pthread_self();
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        char *return_value_strerror_4;
+        return_value_strerror_4=strerror(*return_value___errno_location_3);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) polling, %s, (%d)", return_value_pthread_self_2, (const void *)"xnbd_proxy_session_server", return_value_strerror_4, *return_value___errno_location_5);
 
       __CPROVER_DUMP_L6:
         ;
@@ -9725,12 +9725,12 @@ signed int xnbd_proxy_session_server(struct xnbd_session *ses)
       ret=net_recv_all_or_error(eventfds[(signed long int)0].fd, (void *)buf, (unsigned long int)1);
       if(!(ret >= 0))
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "proxy worker: detect the incorrect termination of xnbd_proxy");
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "proxy worker: detect the incorrect termination of xnbd_proxy");
         while((_Bool)0);
 
       else
         do
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "proxy worker: detect the session exited");
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "proxy worker: detect the session exited");
         while((_Bool)0);
       break;
     }
@@ -9738,13 +9738,13 @@ signed int xnbd_proxy_session_server(struct xnbd_session *ses)
     else
       if(!((8256 & (signed int)eventfds[1l].revents) == 0))
       {
-        char xnbd_proxy_session_server$$1$$2$$1$$3$$buf[1l];
-        ret=net_recv_all_or_error(eventfds[(signed long int)1].fd, (void *)xnbd_proxy_session_server$$1$$2$$1$$3$$buf, (unsigned long int)1);
+        char xnbd_proxy_session_server__1__2__1__3__buf[1l];
+        ret=net_recv_all_or_error(eventfds[(signed long int)1].fd, (void *)xnbd_proxy_session_server__1__2__1__3__buf, (unsigned long int)1);
         if(!(ret >= 0))
         {
-          unsigned long int return_value_pthread_self$7;
-          return_value_pthread_self$7=pthread_self();
-          g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) proxy worker: the master server was incorrectly terminated?", return_value_pthread_self$7, (const void *)"xnbd_proxy_session_server");
+          unsigned long int return_value_pthread_self_7;
+          return_value_pthread_self_7=pthread_self();
+          g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) proxy worker: the master server was incorrectly terminated?", return_value_pthread_self_7, (const void *)"xnbd_proxy_session_server");
 
         __CPROVER_DUMP_L14:
           ;
@@ -9753,21 +9753,21 @@ signed int xnbd_proxy_session_server(struct xnbd_session *ses)
 
         else
           do
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "proxy worker: be requested session termination");
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "proxy worker: be requested session termination");
           while((_Bool)0);
         ret=net_send_all_or_error(unix_fd, (const void *)"", (unsigned long int)1);
         if(!(ret >= 0))
           do
-            g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_WARNING, "proxy worker: sending session termination request failed");
+            g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_WARNING, "proxy worker: sending session termination request failed");
           while((_Bool)0);
 
       }
 
       else
       {
-        unsigned long int return_value_pthread_self$8;
-        return_value_pthread_self$8=pthread_self();
-        g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) not reached", return_value_pthread_self$8, (const void *)"xnbd_proxy_session_server");
+        unsigned long int return_value_pthread_self_8;
+        return_value_pthread_self_8=pthread_self();
+        g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) not reached", return_value_pthread_self_8, (const void *)"xnbd_proxy_session_server");
 
       __CPROVER_DUMP_L20:
         ;
@@ -9786,44 +9786,44 @@ void xnbd_proxy_start(struct xnbd_info *xnbd)
 
 __CPROVER_DUMP_L1:
   ;
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   do
   {
     if(!(xnbd->proxy_target_exportname == ((char *)NULL)))
-      tmp_if_expr$1 = xnbd->proxy_target_exportname;
+      tmp_if_expr_1 = xnbd->proxy_target_exportname;
 
     else
-      tmp_if_expr$1 = "";
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "proxymode mode %s %s (%s%s) cache %s cachebitmap %s", xnbd->proxy_rhost, xnbd->proxy_rport, xnbd->proxy_target_exportname != ((char *)NULL) ? "xnbd-wrapper:" : "xnbd-server", tmp_if_expr$1, xnbd->proxy_diskpath, xnbd->proxy_bmpath);
+      tmp_if_expr_1 = "";
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "proxymode mode %s %s (%s%s) cache %s cachebitmap %s", xnbd->proxy_rhost, xnbd->proxy_rport, xnbd->proxy_target_exportname != ((char *)NULL) ? "xnbd-wrapper:" : "xnbd-server", tmp_if_expr_1, xnbd->proxy_diskpath, xnbd->proxy_bmpath);
   }
   while((_Bool)0);
   signed int remotefd;
   remotefd=net_connect(xnbd->proxy_rhost, xnbd->proxy_rport, 1, 6);
   if(!(remotefd >= 0))
   {
-    unsigned long int return_value_pthread_self$2;
-    return_value_pthread_self$2=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) connecting %s:%s failed", return_value_pthread_self$2, (const void *)"xnbd_proxy_start", xnbd->proxy_rhost, xnbd->proxy_rport);
+    unsigned long int return_value_pthread_self_2;
+    return_value_pthread_self_2=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) connecting %s:%s failed", return_value_pthread_self_2, (const void *)"xnbd_proxy_start", xnbd->proxy_rhost, xnbd->proxy_rport);
 
   __CPROVER_DUMP_L6:
     ;
     goto __CPROVER_DUMP_L6;
   }
 
-  unsigned long int return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
   if(!(xnbd->proxy_target_exportname == ((char *)NULL)))
   {
-    return_value_strlen$3=strlen(xnbd->proxy_target_exportname);
-    ret=nbd_negotiate_with_server_new(remotefd, &xnbd->disksize, (unsigned int *)(void *)0, return_value_strlen$3, xnbd->proxy_target_exportname);
+    return_value_strlen_3=strlen(xnbd->proxy_target_exportname);
+    ret=nbd_negotiate_with_server_new(remotefd, &xnbd->disksize, (unsigned int *)(void *)0, return_value_strlen_3, xnbd->proxy_target_exportname);
   }
 
   else
     ret=nbd_negotiate_with_server2(remotefd, &xnbd->disksize, (unsigned int *)(void *)0);
   if(!(ret >= 0))
   {
-    unsigned long int return_value_pthread_self$4;
-    return_value_pthread_self$4=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) negotiation with %s:%s failed", return_value_pthread_self$4, (const void *)"xnbd_proxy_start", xnbd->proxy_rhost, xnbd->proxy_rport);
+    unsigned long int return_value_pthread_self_4;
+    return_value_pthread_self_4=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) negotiation with %s:%s failed", return_value_pthread_self_4, (const void *)"xnbd_proxy_start", xnbd->proxy_rhost, xnbd->proxy_rport);
 
   __CPROVER_DUMP_L11:
     ;
@@ -9840,18 +9840,18 @@ __CPROVER_DUMP_L1:
     close(xnbd->proxy_sockpair_master_fd);
     block_all_signals();
     struct xnbd_proxy *proxy;
-    void *return_value_g_malloc0$5;
-    return_value_g_malloc0$5=g_malloc0(sizeof(struct xnbd_proxy) /*104ul*/ );
-    proxy = (struct xnbd_proxy *)return_value_g_malloc0$5;
+    void *return_value_g_malloc0_5;
+    return_value_g_malloc0_5=g_malloc0(sizeof(struct xnbd_proxy) /*104ul*/ );
+    proxy = (struct xnbd_proxy *)return_value_g_malloc0_5;
     proxy_initialize(xnbd, proxy);
     proxy_initialize_forwarder(proxy, remotefd);
     signed int unix_listen_fd;
     unix_listen_fd=socket(1, 1, 0);
     if(!(unix_listen_fd >= 0))
     {
-      unsigned long int return_value_pthread_self$6;
-      return_value_pthread_self$6=pthread_self();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) socket %m", return_value_pthread_self$6, (const void *)"xnbd_proxy_start");
+      unsigned long int return_value_pthread_self_6;
+      return_value_pthread_self_6=pthread_self();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) socket %m", return_value_pthread_self_6, (const void *)"xnbd_proxy_start");
 
     __CPROVER_DUMP_L14:
       ;
@@ -9864,9 +9864,9 @@ __CPROVER_DUMP_L1:
     ret=bind(unix_listen_fd, &srvaddr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
     if(!(ret >= 0))
     {
-      unsigned long int return_value_pthread_self$7;
-      return_value_pthread_self$7=pthread_self();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) binding to %s: %m", return_value_pthread_self$7, (const void *)"xnbd_proxy_start", xnbd->proxy_unixpath);
+      unsigned long int return_value_pthread_self_7;
+      return_value_pthread_self_7=pthread_self();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) binding to %s: %m", return_value_pthread_self_7, (const void *)"xnbd_proxy_start", xnbd->proxy_unixpath);
 
     __CPROVER_DUMP_L17:
       ;
@@ -9876,9 +9876,9 @@ __CPROVER_DUMP_L1:
     ret=listen(unix_listen_fd, 10);
     if(!(ret >= 0))
     {
-      unsigned long int return_value_pthread_self$8;
-      return_value_pthread_self$8=pthread_self();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) listening to %s: %m", return_value_pthread_self$8, (const void *)"xnbd_proxy_start", xnbd->proxy_unixpath);
+      unsigned long int return_value_pthread_self_8;
+      return_value_pthread_self_8=pthread_self();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) listening to %s: %m", return_value_pthread_self_8, (const void *)"xnbd_proxy_start", xnbd->proxy_unixpath);
 
     __CPROVER_DUMP_L20:
       ;
@@ -9887,9 +9887,9 @@ __CPROVER_DUMP_L1:
 
     do
     {
-      signed int return_value_getpid$9;
-      return_value_getpid$9=getpid();
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "xnbd_proxy (pid %d) remote %s:%s, cache %s (%s), ctl %s", return_value_getpid$9, xnbd->proxy_rhost, xnbd->proxy_rport, xnbd->proxy_diskpath, xnbd->proxy_bmpath, xnbd->proxy_unixpath);
+      signed int return_value_getpid_9;
+      return_value_getpid_9=getpid();
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "xnbd_proxy (pid %d) remote %s:%s, cache %s (%s), ctl %s", return_value_getpid_9, xnbd->proxy_rhost, xnbd->proxy_rport, xnbd->proxy_diskpath, xnbd->proxy_bmpath, xnbd->proxy_unixpath);
     }
     while((_Bool)0);
     net_send_all_or_abort(xnbd->proxy_sockpair_proxy_fd, (const void *)"", (unsigned long int)1);
@@ -9910,7 +9910,7 @@ __CPROVER_DUMP_L1:
     close(unix_listen_fd);
     unlink(xnbd->proxy_unixpath);
     do
-      g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "xnbd_proxy successfully exits");
+      g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "xnbd_proxy successfully exits");
     while((_Bool)0);
     exit(0);
   }
@@ -9922,7 +9922,7 @@ __CPROVER_DUMP_L1:
   net_recv_all_or_abort(xnbd->proxy_sockpair_master_fd, (void *)buf, (unsigned long int)1);
   shutdown(xnbd->proxy_sockpair_master_fd, 0);
   do
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "xnbd_proxy gets ready");
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "xnbd_proxy gets ready");
   while((_Bool)0);
 }
 
@@ -9932,9 +9932,9 @@ void xnbd_proxy_stop(struct xnbd_info *xnbd)
 {
   do
   {
-    unsigned int return_value_g_list_length$1;
-    return_value_g_list_length$1=g_list_length(xnbd->sessions);
-    if(!(return_value_g_list_length$1 == 0u))
+    unsigned int return_value_g_list_length_1;
+    return_value_g_list_length_1=g_list_length(xnbd->sessions);
+    if(!(return_value_g_list_length_1 == 0u))
       g_assertion_message_expr((char *)0, "xnbd_proxy.c", 756, (const char *)"xnbd_proxy_stop", "g_list_length(xnbd->sessions) == 0");
 
   }
@@ -9945,9 +9945,9 @@ void xnbd_proxy_stop(struct xnbd_info *xnbd)
   ret=waitpid(xnbd->proxy_pid, (signed int *)(void *)0, 0);
   if(!(ret >= 0))
   {
-    unsigned long int return_value_pthread_self$2;
-    return_value_pthread_self$2=pthread_self();
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) waitpid %d, %m", return_value_pthread_self$2, (const void *)"xnbd_proxy_stop", xnbd->proxy_pid);
+    unsigned long int return_value_pthread_self_2;
+    return_value_pthread_self_2=pthread_self();
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_ERROR, "(tid:0x%lx) (%-12s) waitpid %d, %m", return_value_pthread_self_2, (const void *)"xnbd_proxy_stop", xnbd->proxy_pid);
 
   __CPROVER_DUMP_L5:
     ;
@@ -9955,7 +9955,7 @@ void xnbd_proxy_stop(struct xnbd_info *xnbd)
   }
 
   do
-    g_log((char *)0, (enum anonymous$2)G_LOG_LEVEL_MESSAGE, "xnbd_proxy (pid %d) exited", xnbd->proxy_pid);
+    g_log((char *)0, (enum anonymous_2)G_LOG_LEVEL_MESSAGE, "xnbd_proxy (pid %d) exited", xnbd->proxy_pid);
   while((_Bool)0);
 }
 

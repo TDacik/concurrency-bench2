@@ -1,8 +1,8 @@
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -173,9 +173,9 @@ extern void Links2Scaf(char *infile);
 // Mark1in1outNode
 // file cutTipPreGraph.c line 458
 static void Mark1in1outNode();
-// Mark1in1outNode$link1
+// Mark1in1outNode_link1
 // file prlHashReads.c line 589
-static void Mark1in1outNode$link1(unsigned char *thrdSignal);
+static void Mark1in1outNode_link1(unsigned char *thrdSignal);
 // MarkCtgOccu
 // file prlReadFillGap.c line 973
 static void MarkCtgOccu(unsigned int ctg);
@@ -194,9 +194,9 @@ extern signed int abs(signed int);
 // add1Arc
 // file loadGraph.c line 353
 static void add1Arc(unsigned int from_ed, unsigned int to_ed, unsigned int weight);
-// add1Arc$link1
+// add1Arc_link1
 // file loadPreGraph.c line 304
-static void add1Arc$link1(unsigned int from_ed$link1, unsigned int to_ed$link1, unsigned int weight$link1);
+static void add1Arc_link1(unsigned int from_ed_link1, unsigned int to_ed_link1, unsigned int weight_link1);
 // add1Connect
 // file attachPEinfo.c line 142
 extern struct connection * add1Connect(unsigned int e1, unsigned int e2, signed int gap, signed int weight, char inherit);
@@ -245,36 +245,36 @@ static void arrangeNodes_general();
 // atoi
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr);
-// atoi$link1
+// atoi_link1
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1(const char *__nptr$link1);
-// atoi$link10
+static inline signed int atoi_link1(const char *__nptr_link1);
+// atoi_link10
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link10(const char *__nptr$link10);
-// atoi$link2
+static inline signed int atoi_link10(const char *__nptr_link10);
+// atoi_link2
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link2(const char *__nptr$link2);
-// atoi$link3
+static inline signed int atoi_link2(const char *__nptr_link2);
+// atoi_link3
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link3(const char *__nptr$link3);
-// atoi$link4
+static inline signed int atoi_link3(const char *__nptr_link3);
+// atoi_link4
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link4(const char *__nptr$link4);
-// atoi$link5
+static inline signed int atoi_link4(const char *__nptr_link4);
+// atoi_link5
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link5(const char *__nptr$link5);
-// atoi$link6
+static inline signed int atoi_link5(const char *__nptr_link5);
+// atoi_link6
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link6(const char *__nptr$link6);
-// atoi$link7
+static inline signed int atoi_link6(const char *__nptr_link6);
+// atoi_link7
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link7(const char *__nptr$link7);
-// atoi$link8
+static inline signed int atoi_link7(const char *__nptr_link7);
+// atoi_link8
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link8(const char *__nptr$link8);
-// atoi$link9
+static inline signed int atoi_link8(const char *__nptr_link8);
+// atoi_link9
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link9(const char *__nptr$link9);
+static inline signed int atoi_link9(const char *__nptr_link9);
 // attach1PE
 // file attachPEinfo.c line 229
 signed int attach1PE(unsigned int e1, signed int pre_pos, unsigned int bal_e2, signed int pos, signed int insert_size);
@@ -329,9 +329,9 @@ static void catUsDsContig();
 // ceillog2
 // file dfib.c line 85
 static inline signed long long int ceillog2(signed long long int a);
-// ceillog2$link1
+// ceillog2_link1
 // file fib.c line 82
-static inline signed long long int ceillog2$link1(signed long long int a$link1);
+static inline signed long long int ceillog2_link1(signed long long int a_link1);
 // changeScafBegin
 // file orderContig.c line 4101
 static void changeScafBegin(struct stack *scafStack, unsigned int start);
@@ -389,18 +389,18 @@ static void chopKmer4Ctg(unsigned long long int *kmerCtg, signed int lenCtg, sig
 // chopKmer4read
 // file localAsm.c line 110
 static void chopKmer4read(signed int len_seq, signed int overlap, char *src_seq, char *bal_seq, unsigned long long int *kmerBuffer, char *prevcBuffer, char *nextcBuffer, signed int *kmer_c, unsigned long long int WORDF);
-// chopKmer4read$link1
+// chopKmer4read_link1
 // file prlHashCtg.c line 162
-static void chopKmer4read$link1(signed int t, signed int threadID);
-// chopKmer4read$link2
+static void chopKmer4read_link1(signed int t, signed int threadID);
+// chopKmer4read_link2
 // file prlHashReads.c line 149
-static void chopKmer4read$link2(signed int t$link1, signed int threadID$link1);
-// chopKmer4read$link3
+static void chopKmer4read_link2(signed int t_link1, signed int threadID_link1);
+// chopKmer4read_link3
 // file prlRead2Ctg.c line 146
-static void chopKmer4read$link3(signed int t$link2, signed int threadID$link2);
-// chopKmer4read$link4
+static void chopKmer4read_link3(signed int t_link2, signed int threadID_link2);
+// chopKmer4read_link4
 // file prlRead2path.c line 195
-static void chopKmer4read$link4(signed int t$link3, signed int threadID$link3);
+static void chopKmer4read_link4(signed int t_link3, signed int threadID_link3);
 // chopReadFillGap
 // file localAsm.c line 1464
 static char chopReadFillGap(signed int len_seq, signed int overlap, char *src_seq, char *bal_seq, struct kmerSet_st *kset, unsigned long long int WORDF, signed int *start, signed int *end, char *bal, unsigned long long int *KmerCtg1, signed int len1, unsigned long long int *KmerCtg2, signed int len2, signed int *index1, signed int *index2);
@@ -461,9 +461,9 @@ static void comparePaths(unsigned int destination, unsigned int origin);
 // compareSequences
 // file bubble.c line 384
 static char compareSequences(char *sequence1, char *sequence2, signed int length1, signed int length2);
-// compareSequences$link1
+// compareSequences_link1
 // file localAsm.c line 1368
-static signed int compareSequences$link1(char *sequence1$link1, char *sequence2$link1, signed int length1$link1, signed int length2$link1);
+static signed int compareSequences_link1(char *sequence1_link1, char *sequence2_link1, signed int length1_link1, signed int length2_link1);
 // compl_int_seq
 // file seq.c line 152
 char * compl_int_seq(char *seq, signed int len);
@@ -482,18 +482,18 @@ static char contigElligible(unsigned int contigno);
 // convertIndex
 // file prlReadFillGap.c line 75
 static void convertIndex();
-// convertIndex$link1
+// convertIndex_link1
 // file read2scaf.c line 37
-static void convertIndex$link1();
+static void convertIndex_link1();
 // copyEdge
 // file compactEdge.c line 28
 void copyEdge(unsigned int source, unsigned int target);
 // copySeq
 // file bubble.c line 322
 static void copySeq(char *targetS, char *sourceS, signed int pos, signed int length);
-// copySeq$link1
+// copySeq_link1
 // file concatenateEdge.c line 28
-void copySeq$link1(char *targetS$link1, char *sourceS$link1, signed int pos$link1, signed int length$link1);
+void copySeq_link1(char *targetS_link1, char *sourceS_link1, signed int pos_link1, signed int length_link1);
 // count_branch2next
 // file inc/newhash.h line 98
 extern signed int count_branch2next(struct kmer_st *node);
@@ -524,21 +524,21 @@ static signed int crc32(signed int crc, const char *buf, signed int len);
 // creatThrds
 // file cutTipPreGraph.c line 378
 static void creatThrds(unsigned long int *threads, struct parameter *paras);
-// creatThrds$link1
+// creatThrds_link1
 // file prlHashCtg.c line 135
-static void creatThrds$link1(unsigned long int *threads$link1, struct parameter *paras$link1);
-// creatThrds$link2
+static void creatThrds_link1(unsigned long int *threads_link1, struct parameter *paras_link1);
+// creatThrds_link2
 // file prlHashReads.c line 122
-static void creatThrds$link2(unsigned long int *threads$link2, struct parameter *paras$link2);
-// creatThrds$link3
+static void creatThrds_link2(unsigned long int *threads_link2, struct parameter *paras_link2);
+// creatThrds_link3
 // file prlRead2Ctg.c line 61
-static void creatThrds$link3(unsigned long int *threads$link3, struct parameter *paras$link3);
-// creatThrds$link4
+static void creatThrds_link3(unsigned long int *threads_link3, struct parameter *paras_link3);
+// creatThrds_link4
 // file prlRead2path.c line 65
-static void creatThrds$link4(unsigned long int *threads$link4, struct parameter *paras$link4);
-// creatThrds$link5
+static void creatThrds_link4(unsigned long int *threads_link4, struct parameter *paras_link4);
+// creatThrds_link5
 // file prlReadFillGap.c line 909
-static void creatThrds$link5(unsigned long int *threads$link5, struct parameter *paras$link5);
+static void creatThrds_link5(unsigned long int *threads_link5, struct parameter *paras_link5);
 // createAnalogousArc
 // file bubble.c line 784
 static void createAnalogousArc(unsigned int originNode, unsigned int destinationNode, struct arc *refArc);
@@ -887,12 +887,12 @@ unsigned int fh_replacekeydata(struct fibheap *h, struct fibheap_el *x, signed l
 // fh_setcmp
 // file fib.c line 168
 signed long long int (*fh_setcmp(struct fibheap *h, signed long long int (*fnct)(unsigned int, unsigned int)))(unsigned int, unsigned int);
-// fh_setcmp::1::oldfnct$object
+// fh_setcmp::1::oldfnct_object
 //
-signed long long int oldfnct$object(unsigned int, unsigned int);
-// fh_setcmp::fnct$object
+signed long long int oldfnct_object(unsigned int, unsigned int);
+// fh_setcmp::fnct_object
 //
-signed long long int fnct$object(unsigned int, unsigned int);
+signed long long int fnct_object(unsigned int, unsigned int);
 // fh_setneginf
 // file fib.c line 176
 unsigned int fh_setneginf(struct fibheap *h, unsigned int data);
@@ -950,9 +950,9 @@ void freeStack(struct stack *astack);
 // freeStackBuf
 // file prlReadFillGap.c line 873
 static void freeStackBuf(struct stack **ctgStackBuffer, signed int scafBufSize);
-// freeStackBuf$link1
+// freeStackBuf_link1
 // file read2scaf.c line 80
-static void freeStackBuf$link1(struct stack **ctgStackBuffer$link1, signed int scafBufSize$link1);
+static void freeStackBuf_link1(struct stack **ctgStackBuffer_link1, signed int scafBufSize_link1);
 // free_Sets
 // file inc/newhash.h line 92
 extern void free_Sets(struct kmerSet_st **sets, signed int num);
@@ -1073,24 +1073,24 @@ static void headTightStr(char *tightStr, signed int length, signed int start, si
 // initStackBuf
 // file prlReadFillGap.c line 863
 static void initStackBuf(struct stack **ctgStackBuffer, signed int scafBufSize);
-// initStackBuf$link1
+// initStackBuf_link1
 // file read2scaf.c line 73
-static void initStackBuf$link1(struct stack **ctgStackBuffer$link1, signed int scafBufSize$link1);
+static void initStackBuf_link1(struct stack **ctgStackBuffer_link1, signed int scafBufSize_link1);
 // init_kmerset
 // file inc/newhash.h line 88
 extern struct kmerSet_st * init_kmerset(unsigned long long int init_size, float load_factor);
 // initenv
 // file contig.c line 103
 static void initenv(signed int argc, char **argv);
-// initenv$link1
+// initenv_link1
 // file map.c line 96
-static void initenv$link1(signed int argc$link1, char **argv$link1);
-// initenv$link2
+static void initenv_link1(signed int argc_link1, char **argv_link1);
+// initenv_link2
 // file pregraph.c line 105
-static void initenv$link2(signed int argc$link2, char **argv$link2);
-// initenv$link3
+static void initenv_link2(signed int argc_link2, char **argv_link2);
+// initenv_link3
 // file scaffold.c line 79
-static void initenv$link3(signed int argc$link3, char **argv$link3);
+static void initenv_link3(signed int argc_link3, char **argv_link3);
 // initiateCtgInScaf
 // file prlReadFillGap.c line 226
 static void initiateCtgInScaf(struct ctg4scaf *actg);
@@ -1238,9 +1238,9 @@ static void maskRepeatNode(struct kmerSet_st *kset, unsigned long long int *kmer
 // max
 // file bubble.c line 378
 static signed int max(signed int A, signed int B, signed int C);
-// max$link1
+// max_link1
 // file localAsm.c line 1362
-static signed int max$link1(signed int A$link1, signed int B$link1, signed int C$link1);
+static signed int max_link1(signed int A_link1, signed int B_link1, signed int C_link1);
 // maxKmer
 // file prlReadFillGap.c line 803
 static unsigned long long int maxKmer();
@@ -1301,15 +1301,15 @@ static void ordering(char deWeak, char downS, char nonlinear, char *infile);
 // output1gap
 // file orderContig.c line 2082
 void output1gap(struct _IO_FILE *fo, signed int max_steps);
-// output1gap$link1
+// output1gap_link1
 // file prlReadFillGap.c line 429
-static void output1gap$link1(struct _IO_FILE *fo$link1, signed int scafIndex, struct ctg4scaf *prevCtg, struct ctg4scaf *actg, struct dynamic_array *gapSeqArray);
+static void output1gap_link1(struct _IO_FILE *fo_link1, signed int scafIndex, struct ctg4scaf *prevCtg, struct ctg4scaf *actg, struct dynamic_array *gapSeqArray);
 // output1read
 // file prlRead2Ctg.c line 384
 static void output1read(signed int t, struct _IO_FILE *outfp);
-// output1read$link1
+// output1read_link1
 // file read2scaf.c line 237
-static void output1read$link1(struct _IO_FILE *fo, signed long long int readno, unsigned int contigno, signed int pos);
+static void output1read_link1(struct _IO_FILE *fo, signed long long int readno, unsigned int contigno, signed int pos);
 // output1vt
 // file output_pregraph.c line 31
 static void output1vt(struct kmer_st *node1, struct _IO_FILE *fp);
@@ -1376,9 +1376,9 @@ extern void output_vertex(char *outfile);
 // parse1read
 // file prlRead2Ctg.c line 227
 static void parse1read(signed int t, signed int threadID);
-// parse1read$link1
+// parse1read_link1
 // file prlRead2path.c line 430
-static void parse1read$link1(signed int t$link1, signed int threadID$link1);
+static void parse1read_link1(signed int t_link1, signed int threadID_link1);
 // pclose
 // file /usr/include/stdio.h line 878
 extern signed int pclose(struct _IO_FILE *);
@@ -1444,7 +1444,7 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$0 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_0 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -1643,9 +1643,9 @@ extern unsigned long long int reverseComplementVerbose(unsigned long long int wo
 // reverseStack
 // file prlReadFillGap.c line 744
 static void reverseStack(struct stack *dStack, struct stack *sStack);
-// reverseStack$link1
+// reverseStack_link1
 // file read2scaf.c line 57
-static void reverseStack$link1(struct stack *dStack$link1, struct stack *sStack$link1);
+static void reverseStack_link1(struct stack *dStack_link1, struct stack *sStack_link1);
 // rewind
 // file /usr/include/stdio.h line 759
 extern void rewind(struct _IO_FILE *);
@@ -1667,9 +1667,9 @@ static signed int searchFgap(struct kmerSet_st *kset, struct ctg4scaf *ctg1, str
 // searchKmer
 // file prlRead2Ctg.c line 216
 static void searchKmer(signed int t, struct kmerSet_st *kset);
-// searchKmer$link1
+// searchKmer_link1
 // file prlRead2path.c line 261
-static void searchKmer$link1(signed int t$link1, struct kmerSet_st *kset$link1);
+static void searchKmer_link1(signed int t_link1, struct kmerSet_st *kset_link1);
 // searchKmerOnCtg
 // file localAsm.c line 374
 static signed int searchKmerOnCtg(unsigned long long int currW, unsigned long long int *kmerDest, signed int num);
@@ -1682,21 +1682,21 @@ extern signed int search_kmerset(struct kmerSet_st *set, unsigned long long int 
 // sendWorkSignal
 // file cutTipPreGraph.c line 438
 static void sendWorkSignal(unsigned char SIG, unsigned char *thrdSignals);
-// sendWorkSignal$link1
+// sendWorkSignal_link1
 // file prlHashCtg.c line 227
-static void sendWorkSignal$link1(unsigned char SIG$link1, unsigned char *thrdSignals$link1);
-// sendWorkSignal$link2
+static void sendWorkSignal_link1(unsigned char SIG_link1, unsigned char *thrdSignals_link1);
+// sendWorkSignal_link2
 // file prlHashReads.c line 228
-static void sendWorkSignal$link2(unsigned char SIG$link2, unsigned char *thrdSignals$link2);
-// sendWorkSignal$link3
+static void sendWorkSignal_link2(unsigned char SIG_link2, unsigned char *thrdSignals_link2);
+// sendWorkSignal_link3
 // file prlRead2Ctg.c line 328
-static void sendWorkSignal$link3(unsigned char SIG$link3, unsigned char *thrdSignals$link3);
-// sendWorkSignal$link4
+static void sendWorkSignal_link3(unsigned char SIG_link3, unsigned char *thrdSignals_link3);
+// sendWorkSignal_link4
 // file prlRead2path.c line 539
-static void sendWorkSignal$link4(unsigned char SIG$link4, unsigned char *thrdSignals$link4);
-// sendWorkSignal$link5
+static void sendWorkSignal_link4(unsigned char SIG_link4, unsigned char *thrdSignals_link4);
+// sendWorkSignal_link5
 // file prlReadFillGap.c line 926
-static void sendWorkSignal$link5(unsigned char SIG$link5, unsigned char *thrdSignals$link5);
+static void sendWorkSignal_link5(unsigned char SIG_link5, unsigned char *thrdSignals_link5);
 // setBreakPoints
 // file orderContig.c line 4045
 static void setBreakPoints(struct dynamic_array *ctgArray, signed int count, signed int weakest, signed int *start, signed int *finish);
@@ -1736,12 +1736,12 @@ static void simplifyCnt();
 // singleKmer
 // file localAsm.c line 56
 static void singleKmer(signed int t, struct kmerSet_st *kset, signed int flag, unsigned long long int *kmerBuffer, char *prevcBuffer, char *nextcBuffer);
-// singleKmer$link1
+// singleKmer_link1
 // file prlHashCtg.c line 112
-static void singleKmer$link1(signed int t$link1, struct kmerSet_st *kset$link1, unsigned int seq_index, unsigned int pos);
-// singleKmer$link2
+static void singleKmer_link1(signed int t_link1, struct kmerSet_st *kset_link1, unsigned int seq_index, unsigned int pos);
+// singleKmer_link2
 // file prlHashReads.c line 116
-static void singleKmer$link2(signed int t$link2, struct kmerSet_st *kset$link2);
+static void singleKmer_link2(signed int t_link2, struct kmerSet_st *kset_link2);
 // smallScaf
 // file orderContig.c line 3795
 static void smallScaf();
@@ -1811,21 +1811,21 @@ static void switch2twin(struct stack *scafStack);
 // threadRoutine
 // file cutTipPreGraph.c line 353
 static void threadRoutine(void *para);
-// threadRoutine$link1
+// threadRoutine_link1
 // file prlHashCtg.c line 53
-static void threadRoutine$link1(void *para$link1);
-// threadRoutine$link2
+static void threadRoutine_link1(void *para_link1);
+// threadRoutine_link2
 // file prlHashReads.c line 58
-static void threadRoutine$link2(void *para$link2);
-// threadRoutine$link3
+static void threadRoutine_link2(void *para_link2);
+// threadRoutine_link3
 // file prlRead2Ctg.c line 79
-static void threadRoutine$link3(void *para$link3);
-// threadRoutine$link4
+static void threadRoutine_link3(void *para_link3);
+// threadRoutine_link4
 // file prlRead2path.c line 83
-static void threadRoutine$link4(void *para$link4);
-// threadRoutine$link5
+static void threadRoutine_link4(void *para_link4);
+// threadRoutine_link5
 // file prlReadFillGap.c line 881
-static void threadRoutine$link5(void *para$link5);
+static void threadRoutine_link5(void *para_link5);
 // thread_add1preArc
 // file prlRead2path.c line 288
 static void thread_add1preArc(unsigned int from_ed, unsigned int to_ed, unsigned int thrdID);
@@ -1835,27 +1835,27 @@ static void thread_delow(struct kmerSet_st *set, unsigned char thrdID);
 // thread_mark
 // file cutTipPreGraph.c line 395
 static void thread_mark(struct kmerSet_st *set, unsigned char thrdID);
-// thread_mark$link1
+// thread_mark_link1
 // file prlHashReads.c line 534
-static void thread_mark$link1(struct kmerSet_st *set$link1, unsigned char thrdID$link1);
+static void thread_mark_link1(struct kmerSet_st *set_link1, unsigned char thrdID_link1);
 // thread_wait
 // file cutTipPreGraph.c line 429
 static void thread_wait(unsigned long int *threads);
-// thread_wait$link1
+// thread_wait_link1
 // file prlHashCtg.c line 153
-static void thread_wait$link1(unsigned long int *threads$link1);
-// thread_wait$link2
+static void thread_wait_link1(unsigned long int *threads_link1);
+// thread_wait_link2
 // file prlHashReads.c line 140
-static void thread_wait$link2(unsigned long int *threads$link2);
-// thread_wait$link3
+static void thread_wait_link2(unsigned long int *threads_link2);
+// thread_wait_link3
 // file prlRead2Ctg.c line 713
-static void thread_wait$link3(unsigned long int *threads$link3);
-// thread_wait$link4
+static void thread_wait_link3(unsigned long int *threads_link3);
+// thread_wait_link4
 // file prlRead2path.c line 796
-static void thread_wait$link4(unsigned long int *threads$link4);
-// thread_wait$link5
+static void thread_wait_link4(unsigned long int *threads_link4);
+// thread_wait_link5
 // file prlReadFillGap.c line 946
-static void thread_wait$link5(unsigned long int *threads$link5);
+static void thread_wait_link5(unsigned long int *threads_link5);
 // time
 // file /usr/include/time.h line 192
 extern signed long int time(signed long int *);
@@ -1920,7 +1920,7 @@ static char workOnUheap(struct fibheap *dheap, struct fibheap *uheap, char *Dwai
 // file inc/extfunc.h line 130
 extern void writeChar2tightString(char nt, char *tightSeq, signed int pos);
 
-union anonymous$0
+union anonymous_0
 {
   // __size
   char __size[4l];
@@ -2589,9 +2589,9 @@ static signed int DIFF;
 // Fmatrix
 // file bubble.c line 74
 static signed int Fmatrix[101l][101l];
-// Fmatrix$link1
+// Fmatrix_link1
 // file localAsm.c line 1358
-static signed int Fmatrix$link1[101l][101l];
+static signed int Fmatrix_link1[101l][101l];
 // GLDiff
 // file inc/global.h line 82
 signed int GLDiff = 50;
@@ -2601,9 +2601,9 @@ static char HasChanged;
 // INDEL
 // file bubble.c line 50
 static const signed int INDEL = 0;
-// INDEL$link1
+// INDEL_link1
 // file localAsm.c line 1347
-static const signed int INDEL$link1 = 0;
+static const signed int INDEL_link1 = 0;
 // KmerSets
 // file inc/global.h line 74
 struct kmerSet_st **KmerSets = (struct kmerSet_st **)(void *)0;
@@ -2625,9 +2625,9 @@ static signed int MAXNODELENGTH;
 // Ncounter
 // file prlReadFillGap.c line 32
 static signed int Ncounter;
-// Ncounter$link1
+// Ncounter_link1
 // file read2scaf.c line 28
-static signed int Ncounter$link1;
+static signed int Ncounter_link1;
 // OverlapPercent
 // file orderContig.c line 40
 static double OverlapPercent = 0.05;
@@ -2637,9 +2637,9 @@ static char SCAFF;
 // SIM
 // file bubble.c line 51
 static const signed int SIM[4l][4l] = { { 1, 0, 0, 0 }, { 0, 1, 0, 0 }, { 0, 0, 1, 0 }, { 0, 0, 0, 1 } };
-// SIM$link1
+// SIM_link1
 // file localAsm.c line 1348
-static const signed int SIM$link1[4l][4l] = { { 1, 0, 0, 0 }, { 0, 1, 0, 0 }, { 0, 0, 1, 0 }, { 0, 0, 0, 1 } };
+static const signed int SIM_link1[4l][4l] = { { 1, 0, 0, 0 }, { 0, 1, 0, 0 }, { 0, 0, 1, 0 }, { 0, 0, 0, 1 } };
 // WORDFILTER
 // file inc/global.h line 38
 unsigned long long int WORDFILTER;
@@ -2649,9 +2649,9 @@ static unsigned int activeNode;
 // allGaps
 // file prlReadFillGap.c line 33
 static signed int allGaps;
-// allGaps$link1
+// allGaps_link1
 // file read2scaf.c line 29
-static signed int allGaps$link1;
+static signed int allGaps_link1;
 // arcCounter
 // file inc/global.h line 52
 signed long long int arcCounter;
@@ -2676,39 +2676,39 @@ static signed long long int btCounter;
 // buffer_size
 // file prlHashCtg.c line 42
 static unsigned int buffer_size = (unsigned int)10000000;
-// buffer_size$link1
+// buffer_size_link1
 // file prlHashReads.c line 43
-static signed int buffer_size$link1 = 10000000;
-// buffer_size$link2
+static signed int buffer_size_link1 = 10000000;
+// buffer_size_link2
 // file prlRead2Ctg.c line 32
-static signed int buffer_size$link2 = 10000000;
-// buffer_size$link3
+static signed int buffer_size_link2 = 10000000;
+// buffer_size_link3
 // file prlRead2path.c line 31
-static signed int buffer_size$link3 = 10000000;
+static signed int buffer_size_link3 = 10000000;
 // caseA
 // file bubble.c line 89
 static signed long long int caseA;
-// caseA$link1
+// caseA_link1
 // file cutTip_graph.c line 29
-static signed int caseA$link1;
+static signed int caseA_link1;
 // caseB
 // file bubble.c line 89
 static signed long long int caseB;
-// caseB$link1
+// caseB_link1
 // file cutTip_graph.c line 29
-static signed int caseB$link1;
+static signed int caseB_link1;
 // caseC
 // file bubble.c line 89
 static signed long long int caseC;
-// caseC$link1
+// caseC_link1
 // file cutTip_graph.c line 29
-static signed int caseC$link1;
+static signed int caseC_link1;
 // caseD
 // file bubble.c line 89
 static signed long long int caseD;
-// caseD$link1
+// caseD_link1
 // file cutTip_graph.c line 29
-static signed int caseD$link1;
+static signed int caseD_link1;
 // caseE
 // file cutTip_graph.c line 29
 static signed int caseE;
@@ -2736,15 +2736,15 @@ static struct ctg4heap ctg4heapArray[10001l];
 // ctgIdArray
 // file prlHashCtg.c line 38
 static signed int *ctgIdArray;
-// ctgIdArray$link1
+// ctgIdArray_link1
 // file prlRead2Ctg.c line 41
-static unsigned int *ctgIdArray$link1;
+static unsigned int *ctgIdArray_link1;
 // ctgStackBuffer
 // file prlReadFillGap.c line 41
 static struct stack **ctgStackBuffer;
-// ctgStackBuffer$link1
+// ctgStackBuffer_link1
 // file read2scaf.c line 33
-static struct stack **ctgStackBuffer$link1;
+static struct stack **ctgStackBuffer_link1;
 // ctg_short
 // file inc/global.h line 71
 unsigned int ctg_short = (unsigned int)0;
@@ -2769,9 +2769,9 @@ char deLowKmer = (char)0;
 // deletion
 // file prlRead2Ctg.c line 53
 static signed int *deletion;
-// deletion$link1
+// deletion_link1
 // file prlRead2path.c line 55
-static signed int *deletion$link1;
+static signed int *deletion_link1;
 // dheap
 // file bubble.c line 79
 static struct dfibheap *dheap;
@@ -2834,9 +2834,9 @@ static signed int fastSeqLength;
 // fastSequence
 // file bubble.c line 62
 static char fastSequence[100l];
-// fastSequence$link1
+// fastSequence_link1
 // file localAsm.c line 1355
-static char fastSequence$link1[100l];
+static char fastSequence_link1[100l];
 // fastToSlowMapping
 // file bubble.c line 76
 static signed int fastToSlowMapping[101l];
@@ -2897,27 +2897,27 @@ signed int gradsCounter;
 // graphfile
 // file contig.c line 30
 char graphfile[256l];
-// graphfile$link1
+// graphfile_link1
 // file map.c line 30
-static char graphfile$link1[256l];
-// graphfile$link2
+static char graphfile_link1[256l];
+// graphfile_link2
 // file pregraph.c line 30
-static char graphfile$link2[256l];
-// graphfile$link3
+static char graphfile_link2[256l];
+// graphfile_link3
 // file scaffold.c line 32
-static char graphfile$link3[256l];
+static char graphfile_link3[256l];
 // hashBanBuffer
 // file prlHashCtg.c line 46
 static unsigned long long int *hashBanBuffer;
-// hashBanBuffer$link1
+// hashBanBuffer_link1
 // file prlHashReads.c line 45
-static unsigned long long int *hashBanBuffer$link1;
-// hashBanBuffer$link2
+static unsigned long long int *hashBanBuffer_link1;
+// hashBanBuffer_link2
 // file prlRead2Ctg.c line 48
-static unsigned long long int *hashBanBuffer$link2;
-// hashBanBuffer$link3
+static unsigned long long int *hashBanBuffer_link2;
+// hashBanBuffer_link3
 // file prlRead2path.c line 50
-static unsigned long long int *hashBanBuffer$link3;
+static unsigned long long int *hashBanBuffer_link3;
 // ignorePE1
 // file attachPEinfo.c line 31
 static signed int ignorePE1;
@@ -2933,15 +2933,15 @@ signed int inGraph;
 // indexArray
 // file prlHashCtg.c line 36
 static unsigned int *indexArray;
-// indexArray$link1
+// indexArray_link1
 // file prlHashReads.c line 40
-static signed int *indexArray$link1;
-// indexArray$link2
+static signed int *indexArray_link1;
+// indexArray_link2
 // file prlRead2Ctg.c line 51
-static unsigned int *indexArray$link2;
-// indexArray$link3
+static unsigned int *indexArray_link2;
+// indexArray_link3
 // file prlRead2path.c line 53
-static signed int *indexArray$link3;
+static signed int *indexArray_link3;
 // index_array
 // file inc/global.h line 45
 unsigned int *index_array = (unsigned int *)(void *)0;
@@ -2960,21 +2960,21 @@ static struct stack *isStack;
 // kmerBuffer
 // file prlHashCtg.c line 46
 static unsigned long long int *kmerBuffer;
-// kmerBuffer$link1
+// kmerBuffer_link1
 // file prlHashReads.c line 45
-static unsigned long long int *kmerBuffer$link1;
-// kmerBuffer$link2
+static unsigned long long int *kmerBuffer_link1;
+// kmerBuffer_link2
 // file prlRead2Ctg.c line 48
-static unsigned long long int *kmerBuffer$link2;
-// kmerBuffer$link3
+static unsigned long long int *kmerBuffer_link2;
+// kmerBuffer_link3
 // file prlRead2path.c line 50
-static unsigned long long int *kmerBuffer$link3;
+static unsigned long long int *kmerBuffer_link3;
 // kmerCounter
 // file prlHashCtg.c line 29
 static signed long long int *kmerCounter;
-// kmerCounter$link1
+// kmerCounter_link1
 // file prlHashReads.c line 31
-static signed long long int *kmerCounter$link1;
+static signed long long int *kmerCounter_link1;
 // kmerFreq
 // file prlHashReads.c line 33
 static signed long long int **kmerFreq;
@@ -2984,30 +2984,30 @@ static char *kmerSeq;
 // kmer_c
 // file prlHashCtg.c line 45
 static volatile unsigned int kmer_c;
-// kmer_c$link1
+// kmer_c_link1
 // file prlHashReads.c line 44
-static volatile signed int kmer_c$link1;
-// kmer_c$link2
+static volatile signed int kmer_c_link1;
+// kmer_c_link2
 // file prlRead2Ctg.c line 47
-static signed int kmer_c$link2;
-// kmer_c$link3
+static signed int kmer_c_link2;
+// kmer_c_link3
 // file prlRead2path.c line 49
-static signed int kmer_c$link3;
+static signed int kmer_c_link3;
 // lefts
 // file splitReps.c line 29
 static unsigned int lefts[4l];
 // lenBuffer
 // file prlHashCtg.c line 35
 static signed int *lenBuffer;
-// lenBuffer$link1
+// lenBuffer_link1
 // file prlHashReads.c line 39
-static signed int *lenBuffer$link1;
-// lenBuffer$link2
+static signed int *lenBuffer_link1;
+// lenBuffer_link2
 // file prlRead2Ctg.c line 40
-static signed int *lenBuffer$link2;
-// lenBuffer$link3
+static signed int *lenBuffer_link2;
+// lenBuffer_link3
 // file prlRead2path.c line 39
-static signed int *lenBuffer$link3;
+static signed int *lenBuffer_link3;
 // len_bar
 // file inc/global.h line 48
 signed int len_bar = 100;
@@ -3080,15 +3080,15 @@ static char *nextcBuffer;
 // nodeBuffer
 // file prlRead2Ctg.c line 49
 static struct kmer_st **nodeBuffer;
-// nodeBuffer$link1
+// nodeBuffer_link1
 // file prlRead2path.c line 51
-static struct kmer_st **nodeBuffer$link1;
+static struct kmer_st **nodeBuffer_link1;
 // nodeCounter
 // file node2edge.c line 32
 static signed int nodeCounter;
-// nodeCounter$link1
+// nodeCounter_link1
 // file orderContig.c line 55
-static signed int nodeCounter$link1;
+static signed int nodeCounter_link1;
 // nodeDistance
 // file orderContig.c line 54
 static signed int nodeDistance[10000l];
@@ -3188,15 +3188,15 @@ static signed int progress;
 // rcSeq
 // file prlHashCtg.c line 33
 static char **rcSeq;
-// rcSeq$link1
+// rcSeq_link1
 // file prlHashReads.c line 37
-static char **rcSeq$link1;
-// rcSeq$link2
+static char **rcSeq_link1;
+// rcSeq_link2
 // file prlRead2Ctg.c line 38
-static char **rcSeq$link2;
-// rcSeq$link3
+static char **rcSeq_link2;
+// rcSeq_link3
 // file prlRead2path.c line 37
-static char **rcSeq$link3;
+static char **rcSeq_link3;
 // readCounter
 // file prlRead2Ctg.c line 33
 static signed long long int readCounter;
@@ -3209,15 +3209,15 @@ struct dynamic_array *readSeqInGap = (struct dynamic_array *)(void *)0;
 // read_c
 // file prlHashCtg.c line 32
 static unsigned int read_c;
-// read_c$link1
+// read_c_link1
 // file prlHashReads.c line 36
-static signed int read_c$link1;
-// read_c$link2
+static signed int read_c_link1;
+// read_c_link2
 // file prlRead2Ctg.c line 37
-static signed int read_c$link2;
-// read_c$link3
+static signed int read_c_link2;
+// read_c_link3
 // file prlRead2path.c line 36
-static signed int read_c$link3;
+static signed int read_c_link3;
 // readsInGap
 // file prlRead2Ctg.c line 30
 static signed long long int readsInGap = (signed long long int)0;
@@ -3248,48 +3248,48 @@ static struct dynamic_array *scaf5;
 // scafBufSize
 // file prlReadFillGap.c line 38
 static signed int scafBufSize = 100;
-// scafBufSize$link1
+// scafBufSize_link1
 // file read2scaf.c line 32
-static signed int scafBufSize$link1 = 100;
+static signed int scafBufSize_link1 = 100;
 // scafCounter
 // file prlReadFillGap.c line 42
 static signed int scafCounter;
-// scafCounter$link1
+// scafCounter_link1
 // file read2scaf.c line 34
-static signed int scafCounter$link1;
+static signed int scafCounter_link1;
 // scafInBuf
 // file prlReadFillGap.c line 43
 static signed int scafInBuf;
-// scafInBuf$link1
+// scafInBuf_link1
 // file read2scaf.c line 35
-static signed int scafInBuf$link1;
+static signed int scafInBuf_link1;
 // seqBreakers
 // file prlHashCtg.c line 37
 static unsigned int *seqBreakers;
 // seqBuffer
 // file prlHashCtg.c line 34
 static char *seqBuffer;
-// seqBuffer$link1
+// seqBuffer_link1
 // file prlHashReads.c line 38
-static char **seqBuffer$link1;
-// seqBuffer$link2
+static char **seqBuffer_link1;
+// seqBuffer_link2
 // file prlRead2Ctg.c line 39
-static char **seqBuffer$link2;
-// seqBuffer$link3
+static char **seqBuffer_link2;
+// seqBuffer_link3
 // file prlRead2path.c line 38
-static char **seqBuffer$link3;
+static char **seqBuffer_link3;
 // seq_buffer_size
 // file prlHashCtg.c line 43
 static unsigned int seq_buffer_size;
 // shortrdsfile
 // file contig.c line 30
 char shortrdsfile[256l];
-// shortrdsfile$link1
+// shortrdsfile_link1
 // file map.c line 29
-static char shortrdsfile$link1[256l];
-// shortrdsfile$link2
+static char shortrdsfile_link1[256l];
+// shortrdsfile_link2
 // file pregraph.c line 29
-static char shortrdsfile$link2[256l];
+static char shortrdsfile_link2[256l];
 // simiCounter
 // file bubble.c line 94
 static signed long long int simiCounter;
@@ -3302,21 +3302,21 @@ static signed int slowSeqLength;
 // slowSequence
 // file bubble.c line 63
 static char slowSequence[100l];
-// slowSequence$link1
+// slowSequence_link1
 // file localAsm.c line 1356
-static char slowSequence$link1[100l];
+static char slowSequence_link1[100l];
 // slowToFastMapping
 // file bubble.c line 75
 static signed int slowToFastMapping[101l];
 // smallerBuffer
 // file prlHashCtg.c line 47
 static char *smallerBuffer;
-// smallerBuffer$link1
+// smallerBuffer_link1
 // file prlRead2Ctg.c line 50
-static char *smallerBuffer$link1;
-// smallerBuffer$link2
+static char *smallerBuffer_link1;
+// smallerBuffer_link2
 // file prlRead2path.c line 52
-static char *smallerBuffer$link2;
+static char *smallerBuffer_link2;
 // so_far
 // file inc/global.h line 35
 unsigned int *so_far = (unsigned int *)(void *)0;
@@ -3423,9 +3423,9 @@ char HasMin(struct dfibheap *h)
 // file fibHeap.c line 58
 char IsHeapEmpty(struct fibheap *heap)
 {
-  char return_value_fh_isempty$1;
-  return_value_fh_isempty$1=fh_isempty(heap);
-  return return_value_fh_isempty$1;
+  char return_value_fh_isempty_1;
+  return_value_fh_isempty_1=fh_isempty(heap);
+  return return_value_fh_isempty_1;
 }
 
 // KmerPlus
@@ -3464,34 +3464,34 @@ extern void Links2Scaf(char *infile)
   createCntMemManager();
   createCntLookupTable();
   lineLen = 1024;
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)lineLen * sizeof(char) /*1ul*/ );
-  line = (char *)return_value_ckalloc$1;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)lineLen * sizeof(char) /*1ul*/ );
+  line = (char *)return_value_ckalloc_1;
   fgets(line, lineLen, fp);
   line[(signed long int)0] = (char)0;
-  struct dynamic_array *return_value_createDarray$2;
-  return_value_createDarray$2=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
-  solidArray = (struct dynamic_array *)return_value_createDarray$2;
-  struct dynamic_array *return_value_createDarray$3;
-  return_value_createDarray$3=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
-  tempArray = (struct dynamic_array *)return_value_createDarray$3;
-  struct dynamic_array *return_value_createDarray$4;
-  return_value_createDarray$4=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
-  scaf3 = (struct dynamic_array *)return_value_createDarray$4;
-  struct dynamic_array *return_value_createDarray$5;
-  return_value_createDarray$5=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
-  scaf5 = (struct dynamic_array *)return_value_createDarray$5;
-  struct dynamic_array *return_value_createDarray$6;
-  return_value_createDarray$6=createDarray(1000, sizeof(signed int) /*4ul*/ );
-  gap3 = (struct dynamic_array *)return_value_createDarray$6;
-  struct dynamic_array *return_value_createDarray$7;
-  return_value_createDarray$7=createDarray(1000, sizeof(signed int) /*4ul*/ );
-  gap5 = (struct dynamic_array *)return_value_createDarray$7;
+  struct dynamic_array *return_value_createDarray_2;
+  return_value_createDarray_2=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
+  solidArray = (struct dynamic_array *)return_value_createDarray_2;
+  struct dynamic_array *return_value_createDarray_3;
+  return_value_createDarray_3=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
+  tempArray = (struct dynamic_array *)return_value_createDarray_3;
+  struct dynamic_array *return_value_createDarray_4;
+  return_value_createDarray_4=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
+  scaf3 = (struct dynamic_array *)return_value_createDarray_4;
+  struct dynamic_array *return_value_createDarray_5;
+  return_value_createDarray_5=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
+  scaf5 = (struct dynamic_array *)return_value_createDarray_5;
+  struct dynamic_array *return_value_createDarray_6;
+  return_value_createDarray_6=createDarray(1000, sizeof(signed int) /*4ul*/ );
+  gap3 = (struct dynamic_array *)return_value_createDarray_6;
+  struct dynamic_array *return_value_createDarray_7;
+  return_value_createDarray_7=createDarray(1000, sizeof(signed int) /*4ul*/ );
+  gap5 = (struct dynamic_array *)return_value_createDarray_7;
   weakPE = 3;
   printf("\n");
   i = 0;
-  _Bool tmp_if_expr$9;
-  signed int tmp_post$8;
+  _Bool tmp_if_expr_9;
+  signed int tmp_post_8;
   for( ; !(i >= gradsCounter); i = i + 1)
   {
     if(!((pes + (signed long int)i)->insertS >= 1000))
@@ -3523,11 +3523,11 @@ extern void Links2Scaf(char *infile)
     else
     {
       if(i == gradsCounter + -1)
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_9 = (_Bool)1;
 
       else
-        tmp_if_expr$9 = (pes + (signed long int)(i + 1))->rank != (pes + (signed long int)i)->rank ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$9)
+        tmp_if_expr_9 = (pes + (signed long int)(i + 1))->rank != (pes + (signed long int)i)->rank ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_9)
       {
         markSmall = (char)0;
         downS = markSmall;
@@ -3584,9 +3584,9 @@ extern void Links2Scaf(char *infile)
 
         else
         {
-          tmp_post$8 = j;
+          tmp_post_8 = j;
           j = j + 1;
-          printf("\nthe %d rank", tmp_post$8);
+          printf("\nthe %d rank", tmp_post_8);
           scaffold_count((unsigned int)100);
           printf("\n");
         }
@@ -3611,12 +3611,12 @@ static void Mark1in1outNode()
 {
   signed int i;
   signed long long int counter = (signed long long int)0;
-  const signed long int counter$array_size0 = (signed long int)thrd_num;
-  unsigned long int threads[counter$array_size0];
-  const signed long int threads$array_size0 = (signed long int)(thrd_num + 1);
-  unsigned char thrdSignal[threads$array_size0];
-  const signed long int thrdSignal$array_size0 = (signed long int)thrd_num;
-  struct parameter paras[thrdSignal$array_size0];
+  const signed long int counter_array_size0 = (signed long int)thrd_num;
+  unsigned long int threads[counter_array_size0];
+  const signed long int threads_array_size0 = (signed long int)(thrd_num + 1);
+  unsigned char thrdSignal[threads_array_size0];
+  const signed long int thrdSignal_array_size0 = (signed long int)thrd_num;
+  struct parameter paras[thrdSignal_array_size0];
   i = 0;
   for( ; !(i >= thrd_num); i = i + 1)
   {
@@ -3627,9 +3627,9 @@ static void Mark1in1outNode()
   }
   creatThrds(threads, paras);
   thrdSignal[(signed long int)0] = (unsigned char)0;
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)thrd_num * sizeof(signed long long int) /*8ul*/ );
-  linearCounter = (signed long long int *)return_value_ckalloc$1;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)thrd_num * sizeof(signed long long int) /*8ul*/ );
+  linearCounter = (signed long long int *)return_value_ckalloc_1;
   i = 0;
   for( ; !(i >= thrd_num); i = i + 1)
     linearCounter[(signed long int)i] = (signed long long int)0;
@@ -3643,33 +3643,33 @@ static void Mark1in1outNode()
   printf("%lld linear nodes\n", counter);
 }
 
-// Mark1in1outNode$link1
+// Mark1in1outNode_link1
 // file prlHashReads.c line 589
-static void Mark1in1outNode$link1(unsigned char *thrdSignal)
+static void Mark1in1outNode_link1(unsigned char *thrdSignal)
 {
-  signed int i$link1;
-  signed long long int counter$link1 = (signed long long int)0;
-  void *return_value_ckalloc$1$link1;
-  return_value_ckalloc$1$link1=ckalloc((unsigned long int)thrd_num * sizeof(signed long long int *) /*8ul*/ );
-  kmerFreq = (signed long long int **)return_value_ckalloc$1$link1;
-  void *return_value_ckalloc$2;
-  return_value_ckalloc$2=ckalloc((unsigned long int)thrd_num * sizeof(signed long long int) /*8ul*/ );
-  tips = (signed long long int *)return_value_ckalloc$2;
-  i$link1 = 0;
-  for( ; !(i$link1 >= thrd_num); i$link1 = i$link1 + 1)
+  signed int i_link1;
+  signed long long int counter_link1 = (signed long long int)0;
+  void *return_value_ckalloc_1_link1;
+  return_value_ckalloc_1_link1=ckalloc((unsigned long int)thrd_num * sizeof(signed long long int *) /*8ul*/ );
+  kmerFreq = (signed long long int **)return_value_ckalloc_1_link1;
+  void *return_value_ckalloc_2;
+  return_value_ckalloc_2=ckalloc((unsigned long int)thrd_num * sizeof(signed long long int) /*8ul*/ );
+  tips = (signed long long int *)return_value_ckalloc_2;
+  i_link1 = 0;
+  for( ; !(i_link1 >= thrd_num); i_link1 = i_link1 + 1)
   {
-    void *return_value_ckalloc$3;
-    return_value_ckalloc$3=ckalloc((unsigned long int)257 * sizeof(signed long long int) /*8ul*/ );
-    kmerFreq[(signed long int)i$link1] = (signed long long int *)return_value_ckalloc$3;
-    memset((void *)kmerFreq[(signed long int)i$link1], 0, (unsigned long int)257 * sizeof(signed long long int) /*8ul*/ );
-    tips[(signed long int)i$link1] = (signed long long int)0;
+    void *return_value_ckalloc_3;
+    return_value_ckalloc_3=ckalloc((unsigned long int)257 * sizeof(signed long long int) /*8ul*/ );
+    kmerFreq[(signed long int)i_link1] = (signed long long int *)return_value_ckalloc_3;
+    memset((void *)kmerFreq[(signed long int)i_link1], 0, (unsigned long int)257 * sizeof(signed long long int) /*8ul*/ );
+    tips[(signed long int)i_link1] = (signed long long int)0;
   }
-  sendWorkSignal$link2((unsigned char)4, thrdSignal);
-  i$link1 = 0;
-  for( ; !(i$link1 >= thrd_num); i$link1 = i$link1 + 1)
-    counter$link1 = counter$link1 + tips[(signed long int)i$link1];
+  sendWorkSignal_link2((unsigned char)4, thrdSignal);
+  i_link1 = 0;
+  for( ; !(i_link1 >= thrd_num); i_link1 = i_link1 + 1)
+    counter_link1 = counter_link1 + tips[(signed long int)i_link1];
   free((void *)tips);
-  printf("%lld linear nodes\n", counter$link1);
+  printf("%lld linear nodes\n", counter_link1);
 }
 
 // MarkCtgOccu
@@ -3677,9 +3677,9 @@ static void Mark1in1outNode$link1(unsigned char *thrdSignal)
 static void MarkCtgOccu(unsigned int ctg)
 {
   (contig_array + (signed long int)ctg)->flag = (unsigned char)1;
-  unsigned int return_value_getTwinCtg$1;
-  return_value_getTwinCtg$1=getTwinCtg(ctg);
-  (contig_array + (signed long int)return_value_getTwinCtg$1)->flag = (unsigned char)1;
+  unsigned int return_value_getTwinCtg_1;
+  return_value_getTwinCtg_1=getTwinCtg(ctg);
+  (contig_array + (signed long int)return_value_getTwinCtg_1)->flag = (unsigned char)1;
 }
 
 // MaskContig
@@ -3687,9 +3687,9 @@ static void MarkCtgOccu(unsigned int ctg)
 static void MaskContig(unsigned int ctg)
 {
   (contig_array + (signed long int)ctg)->mask = (unsigned char)1;
-  unsigned int return_value_getTwinCtg$1;
-  return_value_getTwinCtg$1=getTwinCtg(ctg);
-  (contig_array + (signed long int)return_value_getTwinCtg$1)->mask = (unsigned char)1;
+  unsigned int return_value_getTwinCtg_1;
+  return_value_getTwinCtg_1=getTwinCtg(ctg);
+  (contig_array + (signed long int)return_value_getTwinCtg_1)->mask = (unsigned char)1;
 }
 
 // PE2Links
@@ -3711,9 +3711,9 @@ extern void PE2Links(char *infile)
   sprintf(name, "%s.readOnContig", infile);
   fp=ckopen(name, "r");
   lineLen = 1024;
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)lineLen * sizeof(char) /*1ul*/ );
-  line = (char *)return_value_ckalloc$1;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)lineLen * sizeof(char) /*1ul*/ );
+  line = (char *)return_value_ckalloc_1;
   fgets(line, lineLen, fp);
   line[(signed long int)0] = (char)0;
   printf("\n");
@@ -3723,9 +3723,9 @@ extern void PE2Links(char *infile)
     createCntMemManager();
     createCntLookupTable();
     newCntCounter = (signed long long int)0;
-    signed int return_value_connectByPE_grad$2;
-    return_value_connectByPE_grad$2=connectByPE_grad(fp, i, line);
-    flag = flag + return_value_connectByPE_grad$2;
+    signed int return_value_connectByPE_grad_2;
+    return_value_connectByPE_grad_2=connectByPE_grad(fp, i, line);
+    flag = flag + return_value_connectByPE_grad_2;
     printf("%lld new connections\n", newCntCounter / (signed long int)2);
     if(flag == 0)
     {
@@ -3767,56 +3767,56 @@ static void add1Arc(unsigned int from_ed, unsigned int to_ed, unsigned int weigh
   (contig_array + (signed long int)from_c)->arcs = parc;
 }
 
-// add1Arc$link1
+// add1Arc_link1
 // file loadPreGraph.c line 304
-static void add1Arc$link1(unsigned int from_ed$link1, unsigned int to_ed$link1, unsigned int weight$link1)
+static void add1Arc_link1(unsigned int from_ed_link1, unsigned int to_ed_link1, unsigned int weight_link1)
 {
-  if((edge_array + (signed long int)from_ed$link1)->to_vt == (edge_array + (signed long int)to_ed$link1)->from_vt)
+  if((edge_array + (signed long int)from_ed_link1)->to_vt == (edge_array + (signed long int)to_ed_link1)->from_vt)
   {
     unsigned int bal_fe;
-    bal_fe=getTwinEdge(from_ed$link1);
+    bal_fe=getTwinEdge(from_ed_link1);
     unsigned int bal_te;
-    bal_te=getTwinEdge(to_ed$link1);
-    if(num_ed >= bal_fe && num_ed >= bal_te && num_ed >= from_ed$link1 && num_ed >= to_ed$link1)
+    bal_te=getTwinEdge(to_ed_link1);
+    if(num_ed >= bal_fe && num_ed >= bal_te && num_ed >= from_ed_link1 && num_ed >= to_ed_link1)
     {
-      struct arc *parc$link1;
+      struct arc *parc_link1;
       struct arc *bal_parc;
-      parc$link1=getArcBetween(from_ed$link1, to_ed$link1);
-      if(!(parc$link1 == ((struct arc *)NULL)))
+      parc_link1=getArcBetween(from_ed_link1, to_ed_link1);
+      if(!(parc_link1 == ((struct arc *)NULL)))
       {
-        bal_parc = parc$link1->bal_arc;
-        parc$link1->multiplicity = parc$link1->multiplicity + weight$link1;
-        bal_parc->multiplicity = bal_parc->multiplicity + weight$link1;
+        bal_parc = parc_link1->bal_arc;
+        parc_link1->multiplicity = parc_link1->multiplicity + weight_link1;
+        bal_parc->multiplicity = bal_parc->multiplicity + weight_link1;
       }
 
       else
       {
-        parc$link1=allocateArc(to_ed$link1);
-        parc$link1->multiplicity = weight$link1;
-        parc$link1->prev = (struct arc *)(void *)0;
-        if(!((edge_array + (signed long int)from_ed$link1)->arcs == ((struct arc *)NULL)))
-          (edge_array + (signed long int)from_ed$link1)->arcs->prev = parc$link1;
+        parc_link1=allocateArc(to_ed_link1);
+        parc_link1->multiplicity = weight_link1;
+        parc_link1->prev = (struct arc *)(void *)0;
+        if(!((edge_array + (signed long int)from_ed_link1)->arcs == ((struct arc *)NULL)))
+          (edge_array + (signed long int)from_ed_link1)->arcs->prev = parc_link1;
 
-        parc$link1->next = (edge_array + (signed long int)from_ed$link1)->arcs;
-        (edge_array + (signed long int)from_ed$link1)->arcs = parc$link1;
-        if(bal_te == from_ed$link1)
+        parc_link1->next = (edge_array + (signed long int)from_ed_link1)->arcs;
+        (edge_array + (signed long int)from_ed_link1)->arcs = parc_link1;
+        if(bal_te == from_ed_link1)
         {
-          parc$link1->bal_arc = parc$link1;
-          parc$link1->multiplicity = parc$link1->multiplicity + weight$link1;
+          parc_link1->bal_arc = parc_link1;
+          parc_link1->multiplicity = parc_link1->multiplicity + weight_link1;
         }
 
         else
         {
           bal_parc=allocateArc(bal_fe);
-          bal_parc->multiplicity = weight$link1;
+          bal_parc->multiplicity = weight_link1;
           bal_parc->prev = (struct arc *)(void *)0;
           if(!((edge_array + (signed long int)bal_te)->arcs == ((struct arc *)NULL)))
             (edge_array + (signed long int)bal_te)->arcs->prev = bal_parc;
 
           bal_parc->next = (edge_array + (signed long int)bal_te)->arcs;
           (edge_array + (signed long int)bal_te)->arcs = bal_parc;
-          parc$link1->bal_arc = bal_parc;
-          bal_parc->bal_arc = parc$link1;
+          parc_link1->bal_arc = bal_parc;
+          bal_parc->bal_arc = parc_link1;
         }
       }
     }
@@ -3829,19 +3829,19 @@ static void add1Arc$link1(unsigned int from_ed$link1, unsigned int to_ed$link1, 
 // file attachPEinfo.c line 142
 extern struct connection * add1Connect(unsigned int e1, unsigned int e2, signed int gap, signed int weight, char inherit)
 {
-  _Bool tmp_if_expr$2;
-  unsigned int return_value_getTwinCtg$1;
+  _Bool tmp_if_expr_2;
+  unsigned int return_value_getTwinCtg_1;
   if(e1 == e2)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_getTwinCtg$1=getTwinCtg(e2);
-    tmp_if_expr$2 = e1 == return_value_getTwinCtg$1 ? (_Bool)1 : (_Bool)0;
+    return_value_getTwinCtg_1=getTwinCtg(e2);
+    tmp_if_expr_2 = e1 == return_value_getTwinCtg_1 ? (_Bool)1 : (_Bool)0;
   }
-  signed int tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$2)
+  signed int tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_2)
     return (struct connection *)(void *)0;
 
   else
@@ -3880,11 +3880,11 @@ extern struct connection * add1Connect(unsigned int e1, unsigned int e2, signed 
 
         connect->inherit = (unsigned char)1;
         if(!(weight >= (signed int)connect->maxSingleWeight))
-          tmp_if_expr$3 = (signed int)connect->maxSingleWeight;
+          tmp_if_expr_3 = (signed int)connect->maxSingleWeight;
 
         else
-          tmp_if_expr$3 = weight;
-        connect->maxSingleWeight = (unsigned char)tmp_if_expr$3;
+          tmp_if_expr_3 = weight;
+        connect->maxSingleWeight = (unsigned char)tmp_if_expr_3;
       }
       if(!(weight + (signed int)connect->weight >= 256))
         connect->weight = connect->weight + (unsigned char)weight;
@@ -3904,11 +3904,11 @@ extern struct connection * add1Connect(unsigned int e1, unsigned int e2, signed 
 
       connect->weight = (unsigned char)weight;
       if(!((contig_array + (signed long int)e1)->mask == 0))
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (contig_array + (signed long int)e2)->mask != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (contig_array + (signed long int)e2)->mask != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
         connect->mask = (unsigned char)1;
 
       connect->next = (contig_array + (signed long int)e1)->downwardConnect;
@@ -3931,13 +3931,13 @@ extern struct connection * add1Connect(unsigned int e1, unsigned int e2, signed 
 // file orderContig.c line 159
 static void add1LongPEcov(unsigned int fromCtg, unsigned int toCtg, signed int weight)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((contig_array + (signed long int)fromCtg)->from_vt == (contig_array + (signed long int)toCtg)->from_vt))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (contig_array + (signed long int)fromCtg)->to_vt != (contig_array + (signed long int)toCtg)->to_vt ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (contig_array + (signed long int)fromCtg)->to_vt != (contig_array + (signed long int)toCtg)->to_vt ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     printf("Warning from add1LongPEcov: contig %d and %d not on the same scaffold\n", fromCtg, toCtg);
 
   else
@@ -3996,20 +3996,20 @@ __CPROVER_DUMP_L16:
 // file loadPath.c line 28
 static void add1marker2edge(unsigned int edgeno, signed long long int readid)
 {
-  unsigned short int tmp_post$1;
-  unsigned short int tmp_post$2;
+  unsigned short int tmp_post_1;
+  unsigned short int tmp_post_2;
   if(!((signed int)(edge_array + (signed long int)edgeno)->multi == 255))
   {
     unsigned int bal_ed;
     bal_ed=getTwinEdge(edgeno);
     unsigned char counter;
-    tmp_post$1 = (unsigned short int)(edge_array + (signed long int)edgeno)->multi;
+    tmp_post_1 = (unsigned short int)(edge_array + (signed long int)edgeno)->multi;
     (edge_array + (signed long int)edgeno)->multi = (unsigned short int)(edge_array + (signed long int)edgeno)->multi + 1;
-    counter = (unsigned char)tmp_post$1;
+    counter = (unsigned char)tmp_post_1;
     (edge_array + (signed long int)edgeno)->markers[(signed long int)counter] = readid;
-    tmp_post$2 = (unsigned short int)(edge_array + (signed long int)bal_ed)->multi;
+    tmp_post_2 = (unsigned short int)(edge_array + (signed long int)bal_ed)->multi;
     (edge_array + (signed long int)bal_ed)->multi = (unsigned short int)(edge_array + (signed long int)bal_ed)->multi + 1;
-    counter = (unsigned char)tmp_post$2;
+    counter = (unsigned char)tmp_post_2;
     (edge_array + (signed long int)bal_ed)->markers[(signed long int)counter] = -readid;
   }
 
@@ -4034,9 +4034,9 @@ extern void alloc_pe_mem(signed int gradsCounter)
 {
   if(!(gradsCounter == 0))
   {
-    void *return_value_ckalloc$1;
-    return_value_ckalloc$1=ckalloc((unsigned long int)gradsCounter * sizeof(struct pe_info) /*24ul*/ );
-    pes = (struct pe_info *)return_value_ckalloc$1;
+    void *return_value_ckalloc_1;
+    return_value_ckalloc_1=ckalloc((unsigned long int)gradsCounter * sizeof(struct pe_info) /*24ul*/ );
+    pes = (struct pe_info *)return_value_ckalloc_1;
   }
 
 }
@@ -4047,9 +4047,9 @@ extern struct arc * allocateArc(unsigned int edgeid)
 {
   arcCounter = arcCounter + 1ll;
   struct arc *newArc;
-  void *return_value_getItem$1;
-  return_value_getItem$1=getItem(arc_mem_manager);
-  newArc = (struct arc *)return_value_getItem$1;
+  void *return_value_getItem_1;
+  return_value_getItem_1=getItem(arc_mem_manager);
+  newArc = (struct arc *)return_value_getItem_1;
   newArc->to_ed = edgeid;
   newArc->multiplicity = (unsigned int)1;
   newArc->prev = (struct arc *)(void *)0;
@@ -4062,9 +4062,9 @@ extern struct arc * allocateArc(unsigned int edgeid)
 extern struct connection * allocateCN(unsigned int contigId, signed int gap)
 {
   struct connection *newCN;
-  void *return_value_getItem$1;
-  return_value_getItem$1=getItem(cn_mem_manager);
-  newCN = (struct connection *)return_value_getItem$1;
+  void *return_value_getItem_1;
+  return_value_getItem_1=getItem(cn_mem_manager);
+  newCN = (struct connection *)return_value_getItem_1;
   newCN->contigID = contigId;
   newCN->gapLen = gap;
   newCN->minGap = (unsigned char)0;
@@ -4088,18 +4088,18 @@ extern struct connection * allocateCN(unsigned int contigId, signed int gap)
 // file dfib.c line 60
 static struct dfibheap_el * allocateDFibHeapNode(struct dfibheap *heap)
 {
-  void *return_value_getItem$1;
-  return_value_getItem$1=getItem(heap->nodeMemory);
-  return (struct dfibheap_el *)return_value_getItem$1;
+  void *return_value_getItem_1;
+  return_value_getItem_1=getItem(heap->nodeMemory);
+  return (struct dfibheap_el *)return_value_getItem_1;
 }
 
 // allocateFibHeapEl
 // file fib.c line 62
 static struct fibheap_el * allocateFibHeapEl(struct fibheap *heap)
 {
-  void *return_value_getItem$1;
-  return_value_getItem$1=getItem(heap->nodeMemory);
-  return (struct fibheap_el *)return_value_getItem$1;
+  void *return_value_getItem_1;
+  return_value_getItem_1=getItem(heap->nodeMemory);
+  return (struct fibheap_el *)return_value_getItem_1;
 }
 
 // allocatePreArc
@@ -4108,9 +4108,9 @@ extern struct prearc * allocatePreArc(unsigned int edgeid)
 {
   arcCounter = arcCounter + 1ll;
   struct prearc *newArc;
-  void *return_value_getItem$1;
-  return_value_getItem$1=getItem(prearc_mem_manager);
-  newArc = (struct prearc *)return_value_getItem$1;
+  void *return_value_getItem_1;
+  return_value_getItem_1=getItem(prearc_mem_manager);
+  newArc = (struct prearc *)return_value_getItem_1;
   newArc->to_ed = edgeid;
   newArc->multiplicity = (unsigned int)1;
   newArc->next = (struct prearc *)(void *)0;
@@ -4122,9 +4122,9 @@ extern struct prearc * allocatePreArc(unsigned int edgeid)
 extern struct readinterval * allocateRV(signed int readid, signed int edgeid)
 {
   struct readinterval *newRV;
-  void *return_value_getItem$1;
-  return_value_getItem$1=getItem(rv_mem_manager);
-  newRV = (struct readinterval *)return_value_getItem$1;
+  void *return_value_getItem_1;
+  return_value_getItem_1=getItem(rv_mem_manager);
+  newRV = (struct readinterval *)return_value_getItem_1;
   newRV->readid = readid;
   newRV->edgeid = (unsigned int)edgeid;
   newRV->nextInRead = (struct readinterval *)(void *)0;
@@ -4150,15 +4150,15 @@ void allpathUpdateEdge(unsigned int e1, unsigned int e2, signed int indicate)
   tightLen = (edge_array + (signed long int)e1)->length + (edge_array + (signed long int)e2)->length;
   if(!(tightLen == 0))
   {
-    void *return_value_ckalloc$1;
-    return_value_ckalloc$1=ckalloc((unsigned long int)(tightLen / 4 + 1) * sizeof(char) /*1ul*/ );
-    tightSeq = (char *)return_value_ckalloc$1;
+    void *return_value_ckalloc_1;
+    return_value_ckalloc_1=ckalloc((unsigned long int)(tightLen / 4 + 1) * sizeof(char) /*1ul*/ );
+    tightSeq = (char *)return_value_ckalloc_1;
   }
 
   tightLen = 0;
   if(!((edge_array + (signed long int)e1)->length == 0))
   {
-    copySeq$link1(tightSeq, (edge_array + (signed long int)e1)->seq, 0, (edge_array + (signed long int)e1)->length);
+    copySeq_link1(tightSeq, (edge_array + (signed long int)e1)->seq, 0, (edge_array + (signed long int)e1)->length);
     tightLen = (edge_array + (signed long int)e1)->length;
     if(!((edge_array + (signed long int)e1)->seq == ((char *)NULL)))
     {
@@ -4172,7 +4172,7 @@ void allpathUpdateEdge(unsigned int e1, unsigned int e2, signed int indicate)
 
   if(!((edge_array + (signed long int)e2)->length == 0))
   {
-    copySeq$link1(tightSeq, (edge_array + (signed long int)e2)->seq, tightLen, (edge_array + (signed long int)e2)->length);
+    copySeq_link1(tightSeq, (edge_array + (signed long int)e2)->seq, tightLen, (edge_array + (signed long int)e2)->length);
     tightLen = tightLen + (edge_array + (signed long int)e2)->length;
     if(!((edge_array + (signed long int)e2)->seq == ((char *)NULL)))
     {
@@ -4184,8 +4184,8 @@ void allpathUpdateEdge(unsigned int e1, unsigned int e2, signed int indicate)
       printf("allpathUpdateEdge: edge %d with length %d, but without seq\n", e2, (edge_array + (signed long int)e2)->length);
   }
 
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$3;
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_3;
   if(indicate == 0)
   {
     (edge_array + (signed long int)e2)->length = 0;
@@ -4196,11 +4196,11 @@ void allpathUpdateEdge(unsigned int e1, unsigned int e2, signed int indicate)
       (edge_array + (signed long int)e1)->cvg = (unsigned short int)(cvgsum / (unsigned int)tightLen);
 
     if((signed int)(edge_array + (signed long int)e1)->cvg >= 1)
-      tmp_if_expr$2 = (signed int)(edge_array + (signed long int)e1)->cvg;
+      tmp_if_expr_2 = (signed int)(edge_array + (signed long int)e1)->cvg;
 
     else
-      tmp_if_expr$2 = 1;
-    (edge_array + (signed long int)e1)->cvg = (unsigned short int)tmp_if_expr$2;
+      tmp_if_expr_2 = 1;
+    (edge_array + (signed long int)e1)->cvg = (unsigned short int)tmp_if_expr_2;
   }
 
   else
@@ -4213,11 +4213,11 @@ void allpathUpdateEdge(unsigned int e1, unsigned int e2, signed int indicate)
       (edge_array + (signed long int)e2)->cvg = (unsigned short int)(cvgsum / (unsigned int)tightLen);
 
     if((signed int)(edge_array + (signed long int)e2)->cvg >= 1)
-      tmp_if_expr$3 = (signed int)(edge_array + (signed long int)e2)->cvg;
+      tmp_if_expr_3 = (signed int)(edge_array + (signed long int)e2)->cvg;
 
     else
-      tmp_if_expr$3 = 1;
-    (edge_array + (signed long int)e2)->cvg = (unsigned short int)tmp_if_expr$3;
+      tmp_if_expr_3 = 1;
+    (edge_array + (signed long int)e2)->cvg = (unsigned short int)tmp_if_expr_3;
   }
 }
 
@@ -4286,28 +4286,28 @@ static void arrangeNodes_general()
   unsigned int bal_nd1;
   unsigned int bal_nd2;
   i = 1;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_getTwinCtg$4;
-  for( ; nodeCounter$link1 >= i; i = i + 1)
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_getTwinCtg_4;
+  for( ; nodeCounter_link1 >= i; i = i + 1)
   {
     node1 = ctg4heapArray[(signed long int)i].ctgID;
     ite_cnt = (contig_array + (signed long int)node1)->downwardConnect;
     while(!(ite_cnt == ((struct connection *)NULL)))
     {
       if(!(ite_cnt->mask == 0))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = ite_cnt->deleted != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_1 = ite_cnt->deleted != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = !((contig_array + (signed long int)ite_cnt->contigID)->inSubGraph != 0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = !((contig_array + (signed long int)ite_cnt->contigID)->inSubGraph != 0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         ite_cnt = ite_cnt->next;
 
       else
@@ -4323,19 +4323,19 @@ static void arrangeNodes_general()
     while(!(ite_cnt == ((struct connection *)NULL)))
     {
       if(!(ite_cnt->mask == 0))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = ite_cnt->deleted != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_3 = ite_cnt->deleted != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_getTwinCtg$4=getTwinCtg(ite_cnt->contigID);
-        tmp_if_expr$5 = !((contig_array + (signed long int)return_value_getTwinCtg$4)->inSubGraph != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_getTwinCtg_4=getTwinCtg(ite_cnt->contigID);
+        tmp_if_expr_5 = !((contig_array + (signed long int)return_value_getTwinCtg_4)->inSubGraph != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
+      if(tmp_if_expr_5)
         ite_cnt = ite_cnt->next;
 
       else
@@ -4350,7 +4350,7 @@ static void arrangeNodes_general()
   next_cnt = (struct connection *)(void *)0;
   prev_cnt = next_cnt;
   i = 1;
-  for( ; !(i >= nodeCounter$link1); i = i + 1)
+  for( ; !(i >= nodeCounter_link1); i = i + 1)
   {
     node1 = ctg4heapArray[(signed long int)i].ctgID;
     node2 = ctg4heapArray[(signed long int)(i + 1)].ctgID;
@@ -4399,15 +4399,15 @@ static void arrangeNodes_general()
   }
   bal_nd2=getTwinCtg(ctg4heapArray[(signed long int)1].ctgID);
   ite_cnt = (contig_array + (signed long int)bal_nd2)->downwardConnect;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_6;
   while(!(ite_cnt == ((struct connection *)NULL)))
   {
     if(!(ite_cnt->deleted == 0))
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = ite_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = ite_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
       ite_cnt = ite_cnt->next;
 
     else
@@ -4426,11 +4426,11 @@ static void arrangeNodes_general()
     temp_cnt=checkConnect(node1, node2);
     bal_cnt = ite_cnt;
     next_cnt=checkConnect(ctg4heapArray[(signed long int)1].ctgID, ctg4heapArray[(signed long int)2].ctgID);
-    unsigned int return_value_getTwinCtg$7;
-    return_value_getTwinCtg$7=getTwinCtg(ctg4heapArray[(signed long int)2].ctgID);
-    unsigned int return_value_getTwinCtg$8;
-    return_value_getTwinCtg$8=getTwinCtg(ctg4heapArray[(signed long int)1].ctgID);
-    prev_cnt=checkConnect(return_value_getTwinCtg$7, return_value_getTwinCtg$8);
+    unsigned int return_value_getTwinCtg_7;
+    return_value_getTwinCtg_7=getTwinCtg(ctg4heapArray[(signed long int)2].ctgID);
+    unsigned int return_value_getTwinCtg_8;
+    return_value_getTwinCtg_8=getTwinCtg(ctg4heapArray[(signed long int)1].ctgID);
+    prev_cnt=checkConnect(return_value_getTwinCtg_7, return_value_getTwinCtg_8);
     if(!(temp_cnt == ((struct connection *)NULL)))
     {
       setNextInScaf(temp_cnt, next_cnt);
@@ -4441,17 +4441,17 @@ static void arrangeNodes_general()
 
   }
 
-  node1 = ctg4heapArray[(signed long int)nodeCounter$link1].ctgID;
+  node1 = ctg4heapArray[(signed long int)nodeCounter_link1].ctgID;
   ite_cnt = (contig_array + (signed long int)node1)->downwardConnect;
-  _Bool tmp_if_expr$9;
+  _Bool tmp_if_expr_9;
   while(!(ite_cnt == ((struct connection *)NULL)))
   {
     if(!(ite_cnt->deleted == 0))
-      tmp_if_expr$9 = (_Bool)1;
+      tmp_if_expr_9 = (_Bool)1;
 
     else
-      tmp_if_expr$9 = ite_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$9)
+      tmp_if_expr_9 = ite_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_9)
       ite_cnt = ite_cnt->next;
 
     else
@@ -4469,12 +4469,12 @@ static void arrangeNodes_general()
     bal_nd2=getTwinCtg(node2);
     temp_cnt = ite_cnt;
     bal_cnt=checkConnect(bal_nd2, bal_nd1);
-    unsigned int return_value_getTwinCtg$10;
-    return_value_getTwinCtg$10=getTwinCtg(ctg4heapArray[(signed long int)nodeCounter$link1].ctgID);
-    unsigned int return_value_getTwinCtg$11;
-    return_value_getTwinCtg$11=getTwinCtg(ctg4heapArray[(signed long int)(nodeCounter$link1 - 1)].ctgID);
-    next_cnt=checkConnect(return_value_getTwinCtg$10, return_value_getTwinCtg$11);
-    prev_cnt=checkConnect(ctg4heapArray[(signed long int)(nodeCounter$link1 - 1)].ctgID, ctg4heapArray[(signed long int)nodeCounter$link1].ctgID);
+    unsigned int return_value_getTwinCtg_10;
+    return_value_getTwinCtg_10=getTwinCtg(ctg4heapArray[(signed long int)nodeCounter_link1].ctgID);
+    unsigned int return_value_getTwinCtg_11;
+    return_value_getTwinCtg_11=getTwinCtg(ctg4heapArray[(signed long int)(nodeCounter_link1 - 1)].ctgID);
+    next_cnt=checkConnect(return_value_getTwinCtg_10, return_value_getTwinCtg_11);
+    prev_cnt=checkConnect(ctg4heapArray[(signed long int)(nodeCounter_link1 - 1)].ctgID, ctg4heapArray[(signed long int)nodeCounter_link1].ctgID);
     setNextInScaf(prev_cnt, temp_cnt);
     setNextInScaf(bal_cnt, next_cnt);
     setPrevInScaf(next_cnt, (char)1);
@@ -4486,99 +4486,99 @@ static void arrangeNodes_general()
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
-// atoi$link1
+// atoi_link1
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1(const char *__nptr$link1)
+static inline signed int atoi_link1(const char *__nptr_link1)
 {
-  signed long int return_value_strtol$1$link1;
-  return_value_strtol$1$link1=strtol(__nptr$link1, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link1;
+  signed long int return_value_strtol_1_link1;
+  return_value_strtol_1_link1=strtol(__nptr_link1, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link1;
 }
 
-// atoi$link10
+// atoi_link10
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link10(const char *__nptr$link10)
+static inline signed int atoi_link10(const char *__nptr_link10)
 {
-  signed long int return_value_strtol$1$link10;
-  return_value_strtol$1$link10=strtol(__nptr$link10, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link10;
+  signed long int return_value_strtol_1_link10;
+  return_value_strtol_1_link10=strtol(__nptr_link10, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link10;
 }
 
-// atoi$link2
+// atoi_link2
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link2(const char *__nptr$link2)
+static inline signed int atoi_link2(const char *__nptr_link2)
 {
-  signed long int return_value_strtol$1$link2;
-  return_value_strtol$1$link2=strtol(__nptr$link2, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link2;
+  signed long int return_value_strtol_1_link2;
+  return_value_strtol_1_link2=strtol(__nptr_link2, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link2;
 }
 
-// atoi$link3
+// atoi_link3
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link3(const char *__nptr$link3)
+static inline signed int atoi_link3(const char *__nptr_link3)
 {
-  signed long int return_value_strtol$1$link3;
-  return_value_strtol$1$link3=strtol(__nptr$link3, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link3;
+  signed long int return_value_strtol_1_link3;
+  return_value_strtol_1_link3=strtol(__nptr_link3, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link3;
 }
 
-// atoi$link4
+// atoi_link4
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link4(const char *__nptr$link4)
+static inline signed int atoi_link4(const char *__nptr_link4)
 {
-  signed long int return_value_strtol$1$link4;
-  return_value_strtol$1$link4=strtol(__nptr$link4, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link4;
+  signed long int return_value_strtol_1_link4;
+  return_value_strtol_1_link4=strtol(__nptr_link4, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link4;
 }
 
-// atoi$link5
+// atoi_link5
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link5(const char *__nptr$link5)
+static inline signed int atoi_link5(const char *__nptr_link5)
 {
-  signed long int return_value_strtol$1$link5;
-  return_value_strtol$1$link5=strtol(__nptr$link5, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link5;
+  signed long int return_value_strtol_1_link5;
+  return_value_strtol_1_link5=strtol(__nptr_link5, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link5;
 }
 
-// atoi$link6
+// atoi_link6
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link6(const char *__nptr$link6)
+static inline signed int atoi_link6(const char *__nptr_link6)
 {
-  signed long int return_value_strtol$1$link6;
-  return_value_strtol$1$link6=strtol(__nptr$link6, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link6;
+  signed long int return_value_strtol_1_link6;
+  return_value_strtol_1_link6=strtol(__nptr_link6, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link6;
 }
 
-// atoi$link7
+// atoi_link7
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link7(const char *__nptr$link7)
+static inline signed int atoi_link7(const char *__nptr_link7)
 {
-  signed long int return_value_strtol$1$link7;
-  return_value_strtol$1$link7=strtol(__nptr$link7, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link7;
+  signed long int return_value_strtol_1_link7;
+  return_value_strtol_1_link7=strtol(__nptr_link7, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link7;
 }
 
-// atoi$link8
+// atoi_link8
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link8(const char *__nptr$link8)
+static inline signed int atoi_link8(const char *__nptr_link8)
 {
-  signed long int return_value_strtol$1$link8;
-  return_value_strtol$1$link8=strtol(__nptr$link8, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link8;
+  signed long int return_value_strtol_1_link8;
+  return_value_strtol_1_link8=strtol(__nptr_link8, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link8;
 }
 
-// atoi$link9
+// atoi_link9
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link9(const char *__nptr$link9)
+static inline signed int atoi_link9(const char *__nptr_link9)
 {
-  signed long int return_value_strtol$1$link9;
-  return_value_strtol$1$link9=strtol(__nptr$link9, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link9;
+  signed long int return_value_strtol_1_link9;
+  return_value_strtol_1_link9=strtol(__nptr_link9, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link9;
 }
 
 // attach1PE
@@ -4609,9 +4609,9 @@ signed int attach1PE(unsigned int e1, signed int pre_pos, unsigned int bal_e2, s
         if(!(insert_size >= (signed int)(contig_array + (signed long int)e1)->length))
         {
           signed int *item;
-          void *return_value_stackPush$1;
-          return_value_stackPush$1=stackPush(isStack);
-          item = (signed int *)return_value_stackPush$1;
+          void *return_value_stackPush_1;
+          return_value_stackPush_1=stackPush(isStack);
+          item = (signed int *)return_value_stackPush_1;
           *item = realpeSize;
         }
 
@@ -4651,9 +4651,9 @@ signed int attach1PE(unsigned int e1, signed int pre_pos, unsigned int bal_e2, s
 static void attach1read2contig(unsigned int ctgID, signed int len, signed int pos, signed long long int starter)
 {
   unsigned int ctg = index_array[(signed long int)ctgID];
-  char return_value_isLargerThanTwin$1;
-  return_value_isLargerThanTwin$1=isLargerThanTwin(ctg);
-  if(!(return_value_isLargerThanTwin$1 == 0))
+  char return_value_isLargerThanTwin_1;
+  return_value_isLargerThanTwin_1=isLargerThanTwin(ctg);
+  if(!(return_value_isLargerThanTwin_1 == 0))
   {
     ctg=getTwinCtg(ctg);
     pos = (signed int)((((contig_array + (signed long int)ctg)->length + (unsigned int)overlaplen) - (unsigned int)pos) - (unsigned int)len);
@@ -4661,15 +4661,15 @@ static void attach1read2contig(unsigned int ctgID, signed int len, signed int po
 
   if((contig_array + (signed long int)ctg)->closeReads == ((struct stack *)NULL))
   {
-    struct stack *return_value_createStack$2;
-    return_value_createStack$2=createStack(50, sizeof(struct read_nearby) /*16ul*/ );
-    (contig_array + (signed long int)ctg)->closeReads = (struct stack *)return_value_createStack$2;
+    struct stack *return_value_createStack_2;
+    return_value_createStack_2=createStack(50, sizeof(struct read_nearby) /*16ul*/ );
+    (contig_array + (signed long int)ctg)->closeReads = (struct stack *)return_value_createStack_2;
   }
 
   struct read_nearby *rd;
-  void *return_value_stackPush$3;
-  return_value_stackPush$3=stackPush((contig_array + (signed long int)ctg)->closeReads);
-  rd = (struct read_nearby *)return_value_stackPush$3;
+  void *return_value_stackPush_3;
+  return_value_stackPush_3=stackPush((contig_array + (signed long int)ctg)->closeReads);
+  rd = (struct read_nearby *)return_value_stackPush_3;
   rd->len = len;
   rd->dis = pos;
   rd->seqStarter = starter;
@@ -4720,16 +4720,16 @@ extern void basicContigInfo(char *infile)
   sscanf(lldne + (signed long int)8, "%d %d", &num_all, &num_long);
   printf("%d edges in graph\n", num_all);
   num_ctg = (unsigned int)num_all;
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)(num_all + 1) * sizeof(struct contig) /*48ul*/ );
-  contig_array = (struct contig *)return_value_ckalloc$1;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)(num_all + 1) * sizeof(struct contig) /*48ul*/ );
+  contig_array = (struct contig *)return_value_ckalloc_1;
   fgets(lldne, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
   num_long = 0;
-  char *return_value_fgets$2;
+  char *return_value_fgets_2;
   do
   {
-    return_value_fgets$2=fgets(lldne, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
-    if(return_value_fgets$2 == ((char *)NULL))
+    return_value_fgets_2=fgets(lldne, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
+    if(return_value_fgets_2 == ((char *)NULL))
       break;
 
     sscanf(lldne, "%d %d %d", &index, &length, &bal_ed);
@@ -4786,7 +4786,7 @@ extern void bubblePinch(double simiCutoff, char *outfile, signed int M)
 {
   unsigned int index;
   unsigned int counter = (unsigned int)0;
-  unsigned int bubblePinch$$1$$startingNode;
+  unsigned int bubblePinch__1__startingNode;
   char temp[256l];
   sprintf(temp, "%s.pathpair", outfile);
   caseD = (signed long long int)0;
@@ -4824,18 +4824,18 @@ extern void bubblePinch(double simiCutoff, char *outfile, signed int M)
     }
   printf("start to pinch bubbles, cutoff %f, MAX NODE NUM %d, MAX DIFF %d\n", cutoff, MAXNODELENGTH, DIFF);
   createRVmemo();
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)(num_ed + (unsigned int)1) * sizeof(double) /*8ul*/ );
-  times = (double *)return_value_ckalloc$1;
-  void *return_value_ckalloc$2;
-  return_value_ckalloc$2=ckalloc((unsigned long int)(num_ed + (unsigned int)1) * sizeof(unsigned int) /*4ul*/ );
-  previous = (unsigned int *)return_value_ckalloc$2;
-  void *return_value_ckalloc$3;
-  return_value_ckalloc$3=ckalloc((unsigned long int)(num_ed + (unsigned int)1) * sizeof(unsigned int) /*4ul*/ );
-  expanded = (unsigned int *)return_value_ckalloc$3;
-  void *return_value_ckalloc$4;
-  return_value_ckalloc$4=ckalloc((unsigned long int)(num_ed + (unsigned int)1) * sizeof(struct dfibheap_el *) /*8ul*/ );
-  dheapNodes = (struct dfibheap_el **)return_value_ckalloc$4;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)(num_ed + (unsigned int)1) * sizeof(double) /*8ul*/ );
+  times = (double *)return_value_ckalloc_1;
+  void *return_value_ckalloc_2;
+  return_value_ckalloc_2=ckalloc((unsigned long int)(num_ed + (unsigned int)1) * sizeof(unsigned int) /*4ul*/ );
+  previous = (unsigned int *)return_value_ckalloc_2;
+  void *return_value_ckalloc_3;
+  return_value_ckalloc_3=ckalloc((unsigned long int)(num_ed + (unsigned int)1) * sizeof(unsigned int) /*4ul*/ );
+  expanded = (unsigned int *)return_value_ckalloc_3;
+  void *return_value_ckalloc_4;
+  return_value_ckalloc_4=ckalloc((unsigned long int)(num_ed + (unsigned int)1) * sizeof(struct dfibheap_el *) /*8ul*/ );
+  dheapNodes = (struct dfibheap_el **)return_value_ckalloc_4;
   WORDFILTER = ((unsigned long long int)1 << 2 * overlaplen) - (unsigned long int)1;
   index = (unsigned int)1;
   for( ; num_ed >= index; index = index + 1u)
@@ -4845,21 +4845,21 @@ extern void bubblePinch(double simiCutoff, char *outfile, signed int M)
     dheapNodes[(signed long int)index] = (struct dfibheap_el *)(void *)0;
   }
   dheap=newDFibHeap();
-  void *return_value_ckalloc$5;
-  return_value_ckalloc$5=ckalloc((unsigned long int)(num_ed + (unsigned int)1) * sizeof(unsigned int) /*4ul*/ );
-  eligibleStartingPoints = (unsigned int *)return_value_ckalloc$5;
+  void *return_value_ckalloc_5;
+  return_value_ckalloc_5=ckalloc((unsigned long int)(num_ed + (unsigned int)1) * sizeof(unsigned int) /*4ul*/ );
+  eligibleStartingPoints = (unsigned int *)return_value_ckalloc_5;
   resetNodeStatus();
   createArcLookupTable();
   recordArcsInLookupTable();
   do
   {
-    bubblePinch$$1$$startingNode=nextStartingPoint();
-    if(!(bubblePinch$$1$$startingNode >= 1u))
+    bubblePinch__1__startingNode=nextStartingPoint();
+    if(!(bubblePinch__1__startingNode >= 1u))
       break;
 
     counter = counter + 1u;
     expCounter = (unsigned int)0;
-    tourBus(bubblePinch$$1$$startingNode);
+    tourBus(bubblePinch__1__startingNode);
     updateNodeStatus();
   }
   while((_Bool)1);
@@ -4889,9 +4889,9 @@ static void buildReverseComplementEdge(unsigned int edgeno)
   char ch;
   char *tightSeq;
   unsigned long long int kmer = (vt_array + (signed long int)(edge_array + (signed long int)edgeno)->from_vt)->kmer;
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)(overlaplen + length) * sizeof(char) /*1ul*/ );
-  sequence = (char *)return_value_ckalloc$1;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)(overlaplen + length) * sizeof(char) /*1ul*/ );
+  sequence = (char *)return_value_ckalloc_1;
   i = overlaplen - 1;
   for( ; i >= 0; i = i - 1)
   {
@@ -4902,31 +4902,31 @@ static void buildReverseComplementEdge(unsigned int edgeno)
   i = 0;
   for( ; !(i >= length); i = i + 1)
     sequence[(signed long int)(i + overlaplen)]=getCharInTightString((edge_array + (signed long int)edgeno)->seq, i);
-  void *return_value_ckalloc$2;
-  return_value_ckalloc$2=ckalloc((unsigned long int)(length / 4 + 1) * sizeof(char) /*1ul*/ );
-  tightSeq = (char *)return_value_ckalloc$2;
+  void *return_value_ckalloc_2;
+  return_value_ckalloc_2=ckalloc((unsigned long int)(length / 4 + 1) * sizeof(char) /*1ul*/ );
+  tightSeq = (char *)return_value_ckalloc_2;
   i = length - 1;
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   for( ; i >= 0; i = i - 1)
   {
-    tmp_post$3 = index;
+    tmp_post_3 = index;
     index = index + 1;
-    writeChar2tightString((char)((signed int)sequence[(signed long int)i] ^ 0x02), tightSeq, tmp_post$3);
+    writeChar2tightString((char)((signed int)sequence[(signed long int)i] ^ 0x02), tightSeq, tmp_post_3);
   }
   (edge_array + (signed long int)(edgeno + (unsigned int)1))->length = length;
   (edge_array + (signed long int)(edgeno + (unsigned int)1))->cvg = (unsigned short int)(edge_array + (signed long int)edgeno)->cvg;
   kmer = (vt_array + (signed long int)(edge_array + (signed long int)edgeno)->from_vt)->kmer;
-  unsigned long long int return_value_reverseComplement$4;
-  return_value_reverseComplement$4=reverseComplement(kmer, overlaplen);
-  signed int return_value_kmer2vt$5;
-  return_value_kmer2vt$5=kmer2vt(return_value_reverseComplement$4);
-  (edge_array + (signed long int)(edgeno + (unsigned int)1))->to_vt = (unsigned int)return_value_kmer2vt$5;
+  unsigned long long int return_value_reverseComplement_4;
+  return_value_reverseComplement_4=reverseComplement(kmer, overlaplen);
+  signed int return_value_kmer2vt_5;
+  return_value_kmer2vt_5=kmer2vt(return_value_reverseComplement_4);
+  (edge_array + (signed long int)(edgeno + (unsigned int)1))->to_vt = (unsigned int)return_value_kmer2vt_5;
   kmer = (vt_array + (signed long int)(edge_array + (signed long int)edgeno)->to_vt)->kmer;
-  unsigned long long int return_value_reverseComplement$6;
-  return_value_reverseComplement$6=reverseComplement(kmer, overlaplen);
-  signed int return_value_kmer2vt$7;
-  return_value_kmer2vt$7=kmer2vt(return_value_reverseComplement$6);
-  (edge_array + (signed long int)(edgeno + (unsigned int)1))->from_vt = (unsigned int)return_value_kmer2vt$7;
+  unsigned long long int return_value_reverseComplement_6;
+  return_value_reverseComplement_6=reverseComplement(kmer, overlaplen);
+  signed int return_value_kmer2vt_7;
+  return_value_kmer2vt_7=kmer2vt(return_value_reverseComplement_6);
+  (edge_array + (signed long int)(edgeno + (unsigned int)1))->from_vt = (unsigned int)return_value_kmer2vt_7;
   (edge_array + (signed long int)(edgeno + (unsigned int)1))->seq = tightSeq;
   (edge_array + (signed long int)(edgeno + (unsigned int)1))->bal_edge = (unsigned short int)0;
   (edge_array + (signed long int)(edgeno + (unsigned int)1))->rv = (struct readinterval *)(void *)0;
@@ -4944,10 +4944,10 @@ static signed int calcuIS(struct stack *intStack)
   signed int avg = 0;
   signed int *item;
   signed int num = intStack->item_c;
-  void *return_value_stackPop$1;
-  void *return_value_stackPop$2;
-  void *return_value_stackPop$4;
-  signed int return_value_abs$5;
+  void *return_value_stackPop_1;
+  void *return_value_stackPop_2;
+  void *return_value_stackPop_4;
+  signed int return_value_abs_5;
   if(!(num >= 100))
     return avg;
 
@@ -4956,8 +4956,8 @@ static signed int calcuIS(struct stack *intStack)
     stackBackup(intStack);
     do
     {
-      return_value_stackPop$1=stackPop(intStack);
-      item = (signed int *)return_value_stackPop$1;
+      return_value_stackPop_1=stackPop(intStack);
+      item = (signed int *)return_value_stackPop_1;
       if(item == ((signed int *)NULL))
         break;
 
@@ -4971,8 +4971,8 @@ static signed int calcuIS(struct stack *intStack)
     stackBackup(intStack);
     do
     {
-      return_value_stackPop$2=stackPop(intStack);
-      item = (signed int *)return_value_stackPop$2;
+      return_value_stackPop_2=stackPop(intStack);
+      item = (signed int *)return_value_stackPop_2;
       if(item == ((signed int *)NULL))
         break;
 
@@ -4980,9 +4980,9 @@ static signed int calcuIS(struct stack *intStack)
     }
     while((_Bool)1);
     signed int SD;
-    double return_value_sqrt$3;
-    return_value_sqrt$3=sqrt((double)(sum / (signed long int)(num - 1)));
-    SD = (signed int)return_value_sqrt$3;
+    double return_value_sqrt_3;
+    return_value_sqrt_3=sqrt((double)(sum / (signed long int)(num - 1)));
+    SD = (signed int)return_value_sqrt_3;
     if(SD == 0)
     {
       printf("SD=%d, ", SD);
@@ -4996,13 +4996,13 @@ static signed int calcuIS(struct stack *intStack)
       sum = (signed long long int)num;
       do
       {
-        return_value_stackPop$4=stackPop(intStack);
-        item = (signed int *)return_value_stackPop$4;
+        return_value_stackPop_4=stackPop(intStack);
+        item = (signed int *)return_value_stackPop_4;
         if(item == ((signed int *)NULL))
           break;
 
-        return_value_abs$5=abs(*item - avg);
-        if(!(return_value_abs$5 >= 3 * SD))
+        return_value_abs_5=abs(*item - avg);
+        if(!(return_value_abs_5 >= 3 * SD))
         {
           sum = sum + (signed long long int)*item;
           num = num + 1;
@@ -5026,21 +5026,21 @@ signed int call_align(signed int argc, char **argv)
   signed long int time_bef;
   signed long int time_aft;
   time(&start_t);
-  initenv$link1(argc, argv);
-  overlaplen=getMinOverlap(graphfile$link1);
+  initenv_link1(argc, argv);
+  overlaplen=getMinOverlap(graphfile_link1);
   printf("K = %d\n", overlaplen);
   time(&time_bef);
   ctg_short = (unsigned int)(overlaplen + 2);
   printf("contig len cutoff: %d\n", ctg_short);
-  prlContig2nodes(graphfile$link1, (signed int)ctg_short);
+  prlContig2nodes(graphfile_link1, (signed int)ctg_short);
   time(&time_aft);
   printf("time spent on De bruijn graph construction: %ds\n\n", (signed int)(time_aft - time_bef));
   time(&time_bef);
-  prlLongRead2Ctg(shortrdsfile$link1, graphfile$link1);
+  prlLongRead2Ctg(shortrdsfile_link1, graphfile_link1);
   time(&time_aft);
   printf("time spent on mapping long reads: %ds\n\n", (signed int)(time_aft - time_bef));
   time(&time_bef);
-  prlRead2Ctg(shortrdsfile$link1, graphfile$link1);
+  prlRead2Ctg(shortrdsfile_link1, graphfile_link1);
   time(&time_aft);
   printf("time spent on mapping reads: %ds\n\n", (signed int)(time_aft - time_bef));
   free_Sets(KmerSets, thrd_num);
@@ -5120,7 +5120,7 @@ signed int call_pregraph(signed int argc, char **argv)
   signed long int time_bef;
   signed long int time_aft;
   time(&start_t);
-  initenv$link2(argc, argv);
+  initenv_link2(argc, argv);
   if(overlaplen % 2 == 0)
   {
     overlaplen = overlaplen + 1;
@@ -5141,7 +5141,7 @@ signed int call_pregraph(signed int argc, char **argv)
     }
 
   time(&time_bef);
-  prlRead2HashTable(shortrdsfile$link2, graphfile$link2);
+  prlRead2HashTable(shortrdsfile_link2, graphfile_link2);
   time(&time_aft);
   printf("time spent on pre-graph construction: %ds\n\n", (signed int)(time_aft - time_bef));
   printf("deLowKmer %d, deLowEdge %d\n", deLowKmer, deLowEdge);
@@ -5163,14 +5163,14 @@ signed int call_pregraph(signed int argc, char **argv)
   }
   initKmerSetSize = 0;
   time(&time_bef);
-  kmer2edges(graphfile$link2);
+  kmer2edges(graphfile_link2);
   time(&time_aft);
   printf("time spent on making edges: %ds\n\n", (signed int)(time_aft - time_bef));
   time(&time_bef);
-  prlRead2edge(shortrdsfile$link2, graphfile$link2);
+  prlRead2edge(shortrdsfile_link2, graphfile_link2);
   time(&time_aft);
   printf("time spent on mapping reads: %ds\n\n", (signed int)(time_aft - time_bef));
-  output_vertex(graphfile$link2);
+  output_vertex(graphfile_link2);
   free_Sets(KmerSets, thrd_num);
   free_Sets(KmerSetsPatch, thrd_num);
   time(&stop_t);
@@ -5187,26 +5187,26 @@ signed int call_scaffold(signed int argc, char **argv)
   signed long int time_bef;
   signed long int time_aft;
   time(&start_t);
-  initenv$link3(argc, argv);
-  loadPEgrads(graphfile$link3);
+  initenv_link3(argc, argv);
+  loadPEgrads(graphfile_link3);
   time(&time_bef);
-  loadUpdatedEdges(graphfile$link3);
+  loadUpdatedEdges(graphfile_link3);
   time(&time_aft);
   printf("time spent on loading edges %ds\n", (signed int)(time_aft - time_bef));
   if(SCAFF == 0)
   {
     time(&time_bef);
-    PE2Links(graphfile$link3);
+    PE2Links(graphfile_link3);
     time(&time_aft);
     printf("time spent on loading pair end info %ds\n", (signed int)(time_aft - time_bef));
     time(&time_bef);
-    Links2Scaf(graphfile$link3);
+    Links2Scaf(graphfile_link3);
     time(&time_aft);
     printf("time spent on creating scaffolds %ds\n", (signed int)(time_aft - time_bef));
-    scaffolding((unsigned int)100, graphfile$link3);
+    scaffolding((unsigned int)100, graphfile_link3);
   }
 
-  prlReadsCloseGap(graphfile$link3);
+  prlReadsCloseGap(graphfile_link3);
   free_pe_mem();
   if(!(index_array == ((unsigned int *)NULL)))
     free((void *)index_array);
@@ -5250,19 +5250,19 @@ static void catUsDsContig()
   signed int i = 0;
   for( ; !(i >= dsCtgCounter); i = i + 1)
   {
-    void *return_value_darrayPut$1;
-    return_value_darrayPut$1=darrayPut(solidArray, (signed long long int)i);
-    *((unsigned int *)return_value_darrayPut$1) = downstreamCTG[(signed long int)i];
+    void *return_value_darrayPut_1;
+    return_value_darrayPut_1=darrayPut(solidArray, (signed long long int)i);
+    *((unsigned int *)return_value_darrayPut_1) = downstreamCTG[(signed long int)i];
   }
   i = usCtgCounter - 1;
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   for( ; i >= 0; i = i - 1)
   {
-    tmp_post$2 = dsCtgCounter;
+    tmp_post_2 = dsCtgCounter;
     dsCtgCounter = dsCtgCounter + 1;
-    void *return_value_darrayPut$3;
-    return_value_darrayPut$3=darrayPut(solidArray, (signed long long int)tmp_post$2);
-    *((unsigned int *)return_value_darrayPut$3)=getTwinCtg(upstreamCTG[(signed long int)i]);
+    void *return_value_darrayPut_3;
+    return_value_darrayPut_3=darrayPut(solidArray, (signed long long int)tmp_post_2);
+    *((unsigned int *)return_value_darrayPut_3)=getTwinCtg(upstreamCTG[(signed long int)i]);
   }
   solidCounter = dsCtgCounter;
 }
@@ -5298,35 +5298,35 @@ static inline signed long long int ceillog2(signed long long int a)
     return i + (signed long int)1;
 }
 
-// ceillog2$link1
+// ceillog2_link1
 // file fib.c line 82
-static inline signed long long int ceillog2$link1(signed long long int a$link1)
+static inline signed long long int ceillog2_link1(signed long long int a_link1)
 {
-  signed long long int oa$link1;
-  signed long long int i$link1;
-  signed long long int b$link1;
-  signed long long int cons$link1;
-  oa$link1 = a$link1;
-  b$link1 = (signed long long int)((sizeof(signed long long int) /*8ul*/  * (unsigned long int)8) / (unsigned long int)2);
-  i$link1 = (signed long long int)0;
-  for( ; !(b$link1 == 0ll); b$link1 = b$link1 / (signed long long int)2)
+  signed long long int oa_link1;
+  signed long long int i_link1;
+  signed long long int b_link1;
+  signed long long int cons_link1;
+  oa_link1 = a_link1;
+  b_link1 = (signed long long int)((sizeof(signed long long int) /*8ul*/  * (unsigned long int)8) / (unsigned long int)2);
+  i_link1 = (signed long long int)0;
+  for( ; !(b_link1 == 0ll); b_link1 = b_link1 / (signed long long int)2)
   {
-    i$link1 = i$link1 << 1;
-    cons$link1 = (signed long long int)1 << b$link1;
-    if(a$link1 >= cons$link1)
+    i_link1 = i_link1 << 1;
+    cons_link1 = (signed long long int)1 << b_link1;
+    if(a_link1 >= cons_link1)
     {
-      a$link1 = a$link1 / cons$link1;
-      i$link1 = i$link1 | (signed long int)1;
+      a_link1 = a_link1 / cons_link1;
+      i_link1 = i_link1 | (signed long int)1;
     }
 
     else
-      a$link1 = a$link1 & cons$link1 - (signed long int)1;
+      a_link1 = a_link1 & cons_link1 - (signed long int)1;
   }
-  if(1ll << i$link1 == oa$link1)
-    return i$link1;
+  if(1ll << i_link1 == oa_link1)
+    return i_link1;
 
   else
-    return i$link1 + (signed long int)1;
+    return i_link1 + (signed long int)1;
 }
 
 // changeScafBegin
@@ -5338,19 +5338,19 @@ static void changeScafBegin(struct stack *scafStack, unsigned int start)
   unsigned int end;
   end=getTwinCtg(start);
   stackRecover(scafStack);
-  void *return_value_stackPop$1;
+  void *return_value_stackPop_1;
   do
   {
-    return_value_stackPop$1=stackPop(scafStack);
-    pt = (unsigned int *)return_value_stackPop$1;
+    return_value_stackPop_1=stackPop(scafStack);
+    pt = (unsigned int *)return_value_stackPop_1;
     if(pt == ((unsigned int *)NULL))
       break;
 
     ctg = *pt;
     (contig_array + (signed long int)ctg)->from_vt = start;
-    unsigned int return_value_getTwinCtg$2;
-    return_value_getTwinCtg$2=getTwinCtg(ctg);
-    (contig_array + (signed long int)return_value_getTwinCtg$2)->to_vt = end;
+    unsigned int return_value_getTwinCtg_2;
+    return_value_getTwinCtg_2=getTwinCtg(ctg);
+    (contig_array + (signed long int)return_value_getTwinCtg_2)->to_vt = end;
   }
   while((_Bool)1);
 }
@@ -5364,19 +5364,19 @@ static void changeScafEnd(struct stack *scafStack, unsigned int end)
   unsigned int start;
   start=getTwinCtg(end);
   stackRecover(scafStack);
-  void *return_value_stackPop$1;
+  void *return_value_stackPop_1;
   do
   {
-    return_value_stackPop$1=stackPop(scafStack);
-    pt = (unsigned int *)return_value_stackPop$1;
+    return_value_stackPop_1=stackPop(scafStack);
+    pt = (unsigned int *)return_value_stackPop_1;
     if(pt == ((unsigned int *)NULL))
       break;
 
     ctg = *pt;
     (contig_array + (signed long int)ctg)->to_vt = end;
-    unsigned int return_value_getTwinCtg$2;
-    return_value_getTwinCtg$2=getTwinCtg(ctg);
-    (contig_array + (signed long int)return_value_getTwinCtg$2)->from_vt = start;
+    unsigned int return_value_getTwinCtg_2;
+    return_value_getTwinCtg_2=getTwinCtg(ctg);
+    (contig_array + (signed long int)return_value_getTwinCtg_2)->from_vt = start;
   }
   while((_Bool)1);
 }
@@ -5417,26 +5417,26 @@ static void checkCircle()
   struct connection *cn_temp1;
   signed int counter = 0;
   i = (unsigned int)1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; num_ctg >= i; i = i + 1u)
   {
     cn_temp1 = (contig_array + (signed long int)i)->downwardConnect;
     while(!(cn_temp1 == ((struct connection *)NULL)))
     {
       if(!(cn_temp1->weak == 0))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = cn_temp1->deleted != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = cn_temp1->deleted != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         cn_temp1 = cn_temp1->next;
 
       else
       {
         ctg = cn_temp1->contigID;
-        struct connection *return_value_checkConnect$2;
-        return_value_checkConnect$2=checkConnect(ctg, i);
-        if(!(return_value_checkConnect$2 == ((struct connection *)NULL)))
+        struct connection *return_value_checkConnect_2;
+        return_value_checkConnect_2=checkConnect(ctg, i);
+        if(!(return_value_checkConnect_2 == ((struct connection *)NULL)))
         {
           counter = counter + 1;
           maskContig(i, (char)1);
@@ -5460,10 +5460,10 @@ static char checkConflictCnt_general(double tolerance)
   signed int objectCounter = 0;
   struct connection *cnt;
   i = 1;
-  for( ; !(i >= nodeCounter$link1); i = i + 1)
+  for( ; !(i >= nodeCounter_link1); i = i + 1)
   {
     j = i + 1;
-    for( ; nodeCounter$link1 >= j; j = j + 1)
+    for( ; nodeCounter_link1 >= j; j = j + 1)
     {
       cnt=checkConnect(ctg4heapArray[(signed long int)i].ctgID, ctg4heapArray[(signed long int)j].ctgID);
       if(!(cnt == ((struct connection *)NULL)))
@@ -5523,15 +5523,15 @@ static char checkEligible()
   char flag = (char)0;
   twin=getTwinCtg(firstNode);
   struct connection *ite_cnt = (contig_array + (signed long int)twin)->downwardConnect;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while(!(ite_cnt == ((struct connection *)NULL)))
   {
     if(!(ite_cnt->deleted == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = ite_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = ite_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       ite_cnt = ite_cnt->next;
 
     else
@@ -5550,18 +5550,18 @@ static char checkEligible()
       ite_cnt = ite_cnt->next;
     }
   }
-  unsigned int lastNode = ctg4heapArray[(signed long int)nodeCounter$link1].ctgID;
+  unsigned int lastNode = ctg4heapArray[(signed long int)nodeCounter_link1].ctgID;
   ite_cnt = (contig_array + (signed long int)lastNode)->downwardConnect;
   flag = (char)0;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   while(!(ite_cnt == ((struct connection *)NULL)))
   {
     if(!(ite_cnt->deleted == 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = ite_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = ite_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       ite_cnt = ite_cnt->next;
 
     else
@@ -5582,18 +5582,18 @@ static char checkEligible()
     }
   }
   i = 1;
-  _Bool tmp_if_expr$3;
-  for( ; !(i >= nodeCounter$link1); i = i + 1)
+  _Bool tmp_if_expr_3;
+  for( ; !(i >= nodeCounter_link1); i = i + 1)
   {
     ite_cnt = (contig_array + (signed long int)ctg4heapArray[(signed long int)i].ctgID)->downwardConnect;
     while(!(ite_cnt == ((struct connection *)NULL)))
     {
       if(!(ite_cnt->deleted == 0))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = ite_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = ite_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
         ite_cnt = ite_cnt->next;
 
       else
@@ -5606,26 +5606,26 @@ static char checkEligible()
     }
   }
   i = 2;
-  _Bool tmp_if_expr$4;
-  for( ; nodeCounter$link1 >= i; i = i + 1)
+  _Bool tmp_if_expr_4;
+  for( ; nodeCounter_link1 >= i; i = i + 1)
   {
     twin=getTwinCtg(ctg4heapArray[(signed long int)i].ctgID);
     ite_cnt = (contig_array + (signed long int)twin)->downwardConnect;
     while(!(ite_cnt == ((struct connection *)NULL)))
     {
       if(!(ite_cnt->deleted == 0))
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = ite_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = ite_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
         ite_cnt = ite_cnt->next;
 
       else
       {
-        unsigned int return_value_getTwinCtg$5;
-        return_value_getTwinCtg$5=getTwinCtg(ite_cnt->contigID);
-        if((contig_array + (signed long int)return_value_getTwinCtg$5)->inSubGraph == 0)
+        unsigned int return_value_getTwinCtg_5;
+        return_value_getTwinCtg_5=getTwinCtg(ite_cnt->contigID);
+        if((contig_array + (signed long int)return_value_getTwinCtg_5)->inSubGraph == 0)
           return (char)0;
 
         ite_cnt = ite_cnt->next;
@@ -5647,7 +5647,7 @@ static char checkOverlapInBetween(double tolerance)
   signed int lenOlp = 0;
   lenSum = lenOlp;
   i = 0;
-  for( ; !(i >= nodeCounter$link1); i = i + 1)
+  for( ; !(i >= nodeCounter_link1); i = i + 1)
   {
     node = nodesInSubInOrder[(signed long int)i];
     lenSum = lenSum + (signed int)(contig_array + (signed long int)node)->length;
@@ -5660,7 +5660,7 @@ static char checkOverlapInBetween(double tolerance)
   else
   {
     i = 0;
-    for( ; !(i >= nodeCounter$link1 + -1); i = i + 1)
+    for( ; !(i >= nodeCounter_link1 + -1); i = i + 1)
     {
       gap = (signed int)((unsigned int)(nodeDistanceInOrder[(signed long int)(i + 1)] - nodeDistanceInOrder[(signed long int)i]) - (contig_array + (signed long int)nodesInSubInOrder[(signed long int)(i + 1)])->length);
       if(-gap >= 1)
@@ -5685,7 +5685,7 @@ char checkOverlapInBetween_general(double tolerance)
   signed int lenOlp = 0;
   lenSum = lenOlp;
   i = 1;
-  for( ; nodeCounter$link1 >= i; i = i + 1)
+  for( ; nodeCounter_link1 >= i; i = i + 1)
   {
     node = ctg4heapArray[(signed long int)i].ctgID;
     lenSum = lenSum + (signed int)(contig_array + (signed long int)node)->length;
@@ -5696,7 +5696,7 @@ char checkOverlapInBetween_general(double tolerance)
   else
   {
     i = 1;
-    for( ; !(i >= nodeCounter$link1); i = i + 1)
+    for( ; !(i >= nodeCounter_link1); i = i + 1)
     {
       gap = (signed int)((unsigned int)(ctg4heapArray[(signed long int)(i + 1)].dis - ctg4heapArray[(signed long int)i].dis) - (contig_array + (signed long int)ctg4heapArray[(signed long int)(i + 1)].ctgID)->length);
       if(-gap >= 1)
@@ -5715,21 +5715,21 @@ char checkOverlapInBetween_general(double tolerance)
 static char checkScafConsist(struct stack *scafStack1, struct stack *scafStack2)
 {
   struct dynamic_array *downwardTo1;
-  struct dynamic_array *return_value_createDarray$1;
-  return_value_createDarray$1=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
-  downwardTo1 = (struct dynamic_array *)return_value_createDarray$1;
+  struct dynamic_array *return_value_createDarray_1;
+  return_value_createDarray_1=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
+  downwardTo1 = (struct dynamic_array *)return_value_createDarray_1;
   struct dynamic_array *downwardTo2;
-  struct dynamic_array *return_value_createDarray$2;
-  return_value_createDarray$2=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
-  downwardTo2 = (struct dynamic_array *)return_value_createDarray$2;
+  struct dynamic_array *return_value_createDarray_2;
+  return_value_createDarray_2=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
+  downwardTo2 = (struct dynamic_array *)return_value_createDarray_2;
   struct dynamic_array *downwardWt1;
-  struct dynamic_array *return_value_createDarray$3;
-  return_value_createDarray$3=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
-  downwardWt1 = (struct dynamic_array *)return_value_createDarray$3;
+  struct dynamic_array *return_value_createDarray_3;
+  return_value_createDarray_3=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
+  downwardWt1 = (struct dynamic_array *)return_value_createDarray_3;
   struct dynamic_array *downwardWt2;
-  struct dynamic_array *return_value_createDarray$4;
-  return_value_createDarray$4=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
-  downwardWt2 = (struct dynamic_array *)return_value_createDarray$4;
+  struct dynamic_array *return_value_createDarray_4;
+  return_value_createDarray_4=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
+  downwardWt2 = (struct dynamic_array *)return_value_createDarray_4;
   signed int linkCount1;
   linkCount1=getDSLink2Scaf(scafStack1, downwardTo1, downwardWt1);
   signed int linkCount2;
@@ -5768,14 +5768,14 @@ static char checkScafConsist(struct stack *scafStack1, struct stack *scafStack2)
       i = 0;
       for( ; !(i >= linkCount1); i = i + 1)
       {
-        void *return_value_darrayGet$5;
-        return_value_darrayGet$5=darrayGet(downwardWt1, (signed long long int)i);
-        wt1 = *((signed int *)return_value_darrayGet$5);
+        void *return_value_darrayGet_5;
+        return_value_darrayGet_5=darrayGet(downwardWt1, (signed long long int)i);
+        wt1 = *((signed int *)return_value_darrayGet_5);
         if(wt1 >= weakPE)
         {
-          void *return_value_darrayGet$6;
-          return_value_darrayGet$6=darrayGet(downwardTo1, (signed long long int)i);
-          scaf = *((unsigned int *)return_value_darrayGet$6);
+          void *return_value_darrayGet_6;
+          return_value_darrayGet_6=darrayGet(downwardTo1, (signed long long int)i);
+          scaf = *((unsigned int *)return_value_darrayGet_6);
           wt2=getWtFromSarray(downwardTo2, downwardWt2, linkCount2, scaf);
           if(!(wt2 >= 1))
           {
@@ -5804,27 +5804,27 @@ static char checkSimple(struct dynamic_array *ctgArray, signed int count)
   i = 0;
   for( ; !(i >= count); i = i + 1)
   {
-    void *return_value_darrayGet$1;
-    return_value_darrayGet$1=darrayGet(ctgArray, (signed long long int)i);
-    ctg = *((unsigned int *)return_value_darrayGet$1);
+    void *return_value_darrayGet_1;
+    return_value_darrayGet_1=darrayGet(ctgArray, (signed long long int)i);
+    ctg = *((unsigned int *)return_value_darrayGet_1);
     (contig_array + (signed long int)ctg)->flag = (unsigned char)0;
-    unsigned int return_value_getTwinCtg$2;
-    return_value_getTwinCtg$2=getTwinCtg(ctg);
-    (contig_array + (signed long int)return_value_getTwinCtg$2)->flag = (unsigned char)0;
+    unsigned int return_value_getTwinCtg_2;
+    return_value_getTwinCtg_2=getTwinCtg(ctg);
+    (contig_array + (signed long int)return_value_getTwinCtg_2)->flag = (unsigned char)0;
   }
   i = 0;
   for( ; !(i >= count); i = i + 1)
   {
-    void *return_value_darrayGet$3;
-    return_value_darrayGet$3=darrayGet(ctgArray, (signed long long int)i);
-    ctg = *((unsigned int *)return_value_darrayGet$3);
+    void *return_value_darrayGet_3;
+    return_value_darrayGet_3=darrayGet(ctgArray, (signed long long int)i);
+    ctg = *((unsigned int *)return_value_darrayGet_3);
     if(!((contig_array + (signed long int)ctg)->flag == 0))
       return (char)0;
 
     (contig_array + (signed long int)ctg)->flag = (unsigned char)1;
-    unsigned int return_value_getTwinCtg$4;
-    return_value_getTwinCtg$4=getTwinCtg(ctg);
-    (contig_array + (signed long int)return_value_getTwinCtg$4)->flag = (unsigned char)1;
+    unsigned int return_value_getTwinCtg_4;
+    return_value_getTwinCtg_4=getTwinCtg(ctg);
+    (contig_array + (signed long int)return_value_getTwinCtg_4)->flag = (unsigned char)1;
   }
   return (char)1;
 }
@@ -5842,24 +5842,24 @@ static char checkUnique(unsigned int node, double tolerance)
   struct fibheap *heap;
   heap=newFibHeap();
   putNodeIntoSubgraph(heap, 0, currNode, 0);
-  nodeCounter$link1 = 1;
+  nodeCounter_link1 = 1;
   ite_cnt = (contig_array + (signed long int)currNode)->downwardConnect;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while(!(ite_cnt == ((struct connection *)NULL)))
   {
     if(!(ite_cnt->deleted == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = ite_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = ite_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       ite_cnt = ite_cnt->next;
 
     else
     {
       currNode = ite_cnt->contigID;
       distance = (signed int)((unsigned int)ite_cnt->gapLen + (contig_array + (signed long int)currNode)->length);
-      flag=putNodeIntoSubgraph(heap, distance, currNode, nodeCounter$link1);
+      flag=putNodeIntoSubgraph(heap, distance, currNode, nodeCounter_link1);
       if(!((signed int)flag >= 0))
       {
         destroyHeap(heap);
@@ -5867,9 +5867,9 @@ static char checkUnique(unsigned int node, double tolerance)
       }
 
       if((signed int)flag >= 1)
-        nodeCounter$link1 = nodeCounter$link1 + 1;
+        nodeCounter_link1 = nodeCounter_link1 + 1;
 
-      flag=putChainIntoSubgraph(heap, distance, currNode, &nodeCounter$link1, ite_cnt);
+      flag=putChainIntoSubgraph(heap, distance, currNode, &nodeCounter_link1, ite_cnt);
       if(flag == 0)
       {
         destroyHeap(heap);
@@ -5879,8 +5879,8 @@ static char checkUnique(unsigned int node, double tolerance)
       ite_cnt = ite_cnt->next;
     }
   }
-  signed int tmp_post$2;
-  if(!(nodeCounter$link1 >= 3))
+  signed int tmp_post_2;
+  if(!(nodeCounter_link1 >= 3))
   {
     destroyHeap(heap);
     return (char)1;
@@ -5894,9 +5894,9 @@ static char checkUnique(unsigned int node, double tolerance)
       if(currNode == 0u)
         break;
 
-      tmp_post$2 = popCounter;
+      tmp_post_2 = popCounter;
       popCounter = popCounter + 1;
-      nodesInSubInOrder[(signed long int)tmp_post$2] = currNode;
+      nodesInSubInOrder[(signed long int)tmp_post_2] = currNode;
     }
     while((_Bool)1);
     destroyHeap(heap);
@@ -5911,29 +5911,29 @@ static signed int check_iden_kmerList(struct stack *stack1, struct stack *stack2
 {
   struct kmer_pt *ite1;
   struct kmer_pt *ite2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(stack1->item_c == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(stack2->item_c != 0) ? (_Bool)1 : (_Bool)0;
-  void *return_value_stackPop$2;
-  void *return_value_stackPop$3;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(stack2->item_c != 0) ? (_Bool)1 : (_Bool)0;
+  void *return_value_stackPop_2;
+  void *return_value_stackPop_3;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
     do
     {
-      return_value_stackPop$2=stackPop(stack1);
-      ite1 = (struct kmer_pt *)return_value_stackPop$2;
+      return_value_stackPop_2=stackPop(stack1);
+      ite1 = (struct kmer_pt *)return_value_stackPop_2;
       if(ite1 == ((struct kmer_pt *)NULL))
         break;
 
-      return_value_stackPop$3=stackPop(stack2);
-      ite2 = (struct kmer_pt *)return_value_stackPop$3;
+      return_value_stackPop_3=stackPop(stack2);
+      ite2 = (struct kmer_pt *)return_value_stackPop_3;
       if(ite2 == ((struct kmer_pt *)NULL))
         break;
 
@@ -5943,11 +5943,11 @@ static signed int check_iden_kmerList(struct stack *stack1, struct stack *stack2
     }
     while((_Bool)1);
     if(!(stack1->item_c == 0))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = stack2->item_c != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = stack2->item_c != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
       return 0;
 
     else
@@ -5997,17 +5997,17 @@ static void chopKmer4Ctg(unsigned long long int *kmerCtg, signed int lenCtg, sig
     word = word + (unsigned long long int)src_seq[(signed long int)index];
   }
   index = 0;
-  signed int tmp_post$1 = index;
+  signed int tmp_post_1 = index;
   index = index + 1;
-  kmerCtg[(signed long int)tmp_post$1] = word;
+  kmerCtg[(signed long int)tmp_post_1] = word;
   j = 1;
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   for( ; lenCtg + -overlap >= j; j = j + 1)
   {
     word=nextKmerLocal(word, src_seq[(signed long int)((j - 1) + overlap)], WORDF);
-    tmp_post$2 = index;
+    tmp_post_2 = index;
     index = index + 1;
-    kmerCtg[(signed long int)tmp_post$2] = word;
+    kmerCtg[(signed long int)tmp_post_2] = word;
   }
 }
 
@@ -6021,11 +6021,11 @@ static void chopKmer4read(signed int len_seq, signed int overlap, char *src_seq,
   unsigned long long int bal_word;
   signed int index;
   char InvalidCh = (char)4;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
   if(!(len_seq >= 1 + overlap))
     *kmer_c = 0;
 
@@ -6046,18 +6046,18 @@ static void chopKmer4read(signed int len_seq, signed int overlap, char *src_seq,
     {
       kmerBuffer[(signed long int)index] = word;
       prevcBuffer[(signed long int)index] = InvalidCh;
-      tmp_post$1 = index;
+      tmp_post_1 = index;
       index = index + 1;
-      nextcBuffer[(signed long int)tmp_post$1] = src_seq[(signed long int)(0 + overlap)];
+      nextcBuffer[(signed long int)tmp_post_1] = src_seq[(signed long int)(0 + overlap)];
     }
 
     else
     {
       kmerBuffer[(signed long int)index] = bal_word;
       prevcBuffer[(signed long int)index] = bal_seq[(signed long int)(bal_j - 1)];
-      tmp_post$2 = index;
+      tmp_post_2 = index;
       index = index + 1;
-      nextcBuffer[(signed long int)tmp_post$2] = InvalidCh;
+      nextcBuffer[(signed long int)tmp_post_2] = InvalidCh;
     }
     j = 1;
     for( ; len_seq + -overlap >= j; j = j + 1)
@@ -6071,16 +6071,16 @@ static void chopKmer4read(signed int len_seq, signed int overlap, char *src_seq,
         prevcBuffer[(signed long int)index] = src_seq[(signed long int)(j - 1)];
         if(!(j >= len_seq + -overlap))
         {
-          tmp_post$3 = index;
+          tmp_post_3 = index;
           index = index + 1;
-          nextcBuffer[(signed long int)tmp_post$3] = src_seq[(signed long int)(j + overlap)];
+          nextcBuffer[(signed long int)tmp_post_3] = src_seq[(signed long int)(j + overlap)];
         }
 
         else
         {
-          tmp_post$4 = index;
+          tmp_post_4 = index;
           index = index + 1;
-          nextcBuffer[(signed long int)tmp_post$4] = InvalidCh;
+          nextcBuffer[(signed long int)tmp_post_4] = InvalidCh;
         }
       }
 
@@ -6092,339 +6092,339 @@ static void chopKmer4read(signed int len_seq, signed int overlap, char *src_seq,
 
         else
           prevcBuffer[(signed long int)index] = InvalidCh;
-        tmp_post$5 = index;
+        tmp_post_5 = index;
         index = index + 1;
-        nextcBuffer[(signed long int)tmp_post$5] = bal_seq[(signed long int)(bal_j + overlap)];
+        nextcBuffer[(signed long int)tmp_post_5] = bal_seq[(signed long int)(bal_j + overlap)];
       }
     }
     *kmer_c = index;
   }
 }
 
-// chopKmer4read$link1
+// chopKmer4read_link1
 // file prlHashCtg.c line 162
-static void chopKmer4read$link1(signed int t, signed int threadID)
+static void chopKmer4read_link1(signed int t, signed int threadID)
 {
   char *src_seq = seqBuffer + (signed long int)seqBreakers[(signed long int)t];
   char *bal_seq = rcSeq[(signed long int)threadID];
   signed int len_seq = lenBuffer[(signed long int)t];
-  signed int j$link1;
-  signed int bal_j$link1;
+  signed int j_link1;
+  signed int bal_j_link1;
   unsigned long long int hash_ban;
   unsigned long long int bal_hash_ban;
-  unsigned long long int word$link1;
-  unsigned long long int bal_word$link1;
-  signed int index$link1;
-  word$link1 = (unsigned long long int)0;
-  index$link1 = 0;
-  for( ; !(index$link1 >= overlaplen); index$link1 = index$link1 + 1)
+  unsigned long long int word_link1;
+  unsigned long long int bal_word_link1;
+  signed int index_link1;
+  word_link1 = (unsigned long long int)0;
+  index_link1 = 0;
+  for( ; !(index_link1 >= overlaplen); index_link1 = index_link1 + 1)
   {
-    word$link1 = word$link1 << 2;
-    word$link1 = word$link1 + (unsigned long long int)src_seq[(signed long int)index$link1];
+    word_link1 = word_link1 << 2;
+    word_link1 = word_link1 + (unsigned long long int)src_seq[(signed long int)index_link1];
   }
   reverseComplementSeq(src_seq, len_seq, bal_seq);
-  bal_word$link1=reverseComplement(word$link1, overlaplen);
-  bal_j$link1 = (len_seq - 0) - overlaplen;
-  index$link1 = (signed int)indexArray[(signed long int)t];
-  signed int tmp_post$1$link1;
-  signed int tmp_post$2$link1;
-  if(!(word$link1 >= bal_word$link1))
+  bal_word_link1=reverseComplement(word_link1, overlaplen);
+  bal_j_link1 = (len_seq - 0) - overlaplen;
+  index_link1 = (signed int)indexArray[(signed long int)t];
+  signed int tmp_post_1_link1;
+  signed int tmp_post_2_link1;
+  if(!(word_link1 >= bal_word_link1))
   {
-    hash_ban=hash_kmer(word$link1);
-    kmerBuffer[(signed long int)index$link1] = word$link1;
-    hashBanBuffer[(signed long int)index$link1] = hash_ban;
-    tmp_post$1$link1 = index$link1;
-    index$link1 = index$link1 + 1;
-    smallerBuffer[(signed long int)tmp_post$1$link1] = (char)1;
+    hash_ban=hash_kmer(word_link1);
+    kmerBuffer[(signed long int)index_link1] = word_link1;
+    hashBanBuffer[(signed long int)index_link1] = hash_ban;
+    tmp_post_1_link1 = index_link1;
+    index_link1 = index_link1 + 1;
+    smallerBuffer[(signed long int)tmp_post_1_link1] = (char)1;
   }
 
   else
   {
-    bal_hash_ban=hash_kmer(bal_word$link1);
-    kmerBuffer[(signed long int)index$link1] = bal_word$link1;
-    hashBanBuffer[(signed long int)index$link1] = bal_hash_ban;
-    tmp_post$2$link1 = index$link1;
-    index$link1 = index$link1 + 1;
-    smallerBuffer[(signed long int)tmp_post$2$link1] = (char)0;
+    bal_hash_ban=hash_kmer(bal_word_link1);
+    kmerBuffer[(signed long int)index_link1] = bal_word_link1;
+    hashBanBuffer[(signed long int)index_link1] = bal_hash_ban;
+    tmp_post_2_link1 = index_link1;
+    index_link1 = index_link1 + 1;
+    smallerBuffer[(signed long int)tmp_post_2_link1] = (char)0;
   }
-  j$link1 = 1;
-  signed int tmp_post$3$link1;
-  signed int tmp_post$4$link1;
-  for( ; len_seq + -overlaplen >= j$link1; j$link1 = j$link1 + 1)
+  j_link1 = 1;
+  signed int tmp_post_3_link1;
+  signed int tmp_post_4_link1;
+  for( ; len_seq + -overlaplen >= j_link1; j_link1 = j_link1 + 1)
   {
-    word$link1=nextKmer(word$link1, src_seq[(signed long int)((j$link1 - 1) + overlaplen)]);
-    bal_j$link1 = (len_seq - j$link1) - overlaplen;
-    bal_word$link1=prevKmer(bal_word$link1, bal_seq[(signed long int)bal_j$link1]);
-    if(!(word$link1 >= bal_word$link1))
+    word_link1=nextKmer(word_link1, src_seq[(signed long int)((j_link1 - 1) + overlaplen)]);
+    bal_j_link1 = (len_seq - j_link1) - overlaplen;
+    bal_word_link1=prevKmer(bal_word_link1, bal_seq[(signed long int)bal_j_link1]);
+    if(!(word_link1 >= bal_word_link1))
     {
-      hash_ban=hash_kmer(word$link1);
-      kmerBuffer[(signed long int)index$link1] = word$link1;
-      hashBanBuffer[(signed long int)index$link1] = hash_ban;
-      tmp_post$3$link1 = index$link1;
-      index$link1 = index$link1 + 1;
-      smallerBuffer[(signed long int)tmp_post$3$link1] = (char)1;
+      hash_ban=hash_kmer(word_link1);
+      kmerBuffer[(signed long int)index_link1] = word_link1;
+      hashBanBuffer[(signed long int)index_link1] = hash_ban;
+      tmp_post_3_link1 = index_link1;
+      index_link1 = index_link1 + 1;
+      smallerBuffer[(signed long int)tmp_post_3_link1] = (char)1;
     }
 
     else
     {
-      bal_hash_ban=hash_kmer(bal_word$link1);
-      kmerBuffer[(signed long int)index$link1] = bal_word$link1;
-      hashBanBuffer[(signed long int)index$link1] = bal_hash_ban;
-      tmp_post$4$link1 = index$link1;
-      index$link1 = index$link1 + 1;
-      smallerBuffer[(signed long int)tmp_post$4$link1] = (char)0;
+      bal_hash_ban=hash_kmer(bal_word_link1);
+      kmerBuffer[(signed long int)index_link1] = bal_word_link1;
+      hashBanBuffer[(signed long int)index_link1] = bal_hash_ban;
+      tmp_post_4_link1 = index_link1;
+      index_link1 = index_link1 + 1;
+      smallerBuffer[(signed long int)tmp_post_4_link1] = (char)0;
     }
   }
 }
 
-// chopKmer4read$link2
+// chopKmer4read_link2
 // file prlHashReads.c line 149
-static void chopKmer4read$link2(signed int t$link1, signed int threadID$link1)
+static void chopKmer4read_link2(signed int t_link1, signed int threadID_link1)
 {
-  char *src_seq$link1 = seqBuffer$link1[(signed long int)t$link1];
-  char *bal_seq$link1 = rcSeq$link1[(signed long int)threadID$link1];
-  signed int len_seq$link1 = lenBuffer$link1[(signed long int)t$link1];
-  signed int j$link2;
-  signed int bal_j$link2;
-  unsigned long long int hash_ban$link1;
-  unsigned long long int bal_hash_ban$link1;
-  unsigned long long int word$link2;
-  unsigned long long int bal_word$link2;
-  signed int index$link2;
-  char InvalidCh$link1 = (char)4;
-  word$link2 = (unsigned long long int)0;
-  index$link2 = 0;
-  for( ; !(index$link2 >= overlaplen); index$link2 = index$link2 + 1)
+  char *src_seq_link1 = seqBuffer_link1[(signed long int)t_link1];
+  char *bal_seq_link1 = rcSeq_link1[(signed long int)threadID_link1];
+  signed int len_seq_link1 = lenBuffer_link1[(signed long int)t_link1];
+  signed int j_link2;
+  signed int bal_j_link2;
+  unsigned long long int hash_ban_link1;
+  unsigned long long int bal_hash_ban_link1;
+  unsigned long long int word_link2;
+  unsigned long long int bal_word_link2;
+  signed int index_link2;
+  char InvalidCh_link1 = (char)4;
+  word_link2 = (unsigned long long int)0;
+  index_link2 = 0;
+  for( ; !(index_link2 >= overlaplen); index_link2 = index_link2 + 1)
   {
-    word$link2 = word$link2 << 2;
-    word$link2 = word$link2 + (unsigned long long int)src_seq$link1[(signed long int)index$link2];
+    word_link2 = word_link2 << 2;
+    word_link2 = word_link2 + (unsigned long long int)src_seq_link1[(signed long int)index_link2];
   }
-  reverseComplementSeq(src_seq$link1, len_seq$link1, bal_seq$link1);
-  bal_word$link2=reverseComplement(word$link2, overlaplen);
-  bal_j$link2 = (len_seq$link1 - 0) - overlaplen;
-  index$link2 = indexArray$link1[(signed long int)t$link1];
-  signed int tmp_post$1$link2;
-  signed int tmp_post$2$link2;
-  if(!(word$link2 >= bal_word$link2))
+  reverseComplementSeq(src_seq_link1, len_seq_link1, bal_seq_link1);
+  bal_word_link2=reverseComplement(word_link2, overlaplen);
+  bal_j_link2 = (len_seq_link1 - 0) - overlaplen;
+  index_link2 = indexArray_link1[(signed long int)t_link1];
+  signed int tmp_post_1_link2;
+  signed int tmp_post_2_link2;
+  if(!(word_link2 >= bal_word_link2))
   {
-    hash_ban$link1=hash_kmer(word$link2);
-    hashBanBuffer$link1[(signed long int)index$link2] = hash_ban$link1;
-    kmerBuffer$link1[(signed long int)index$link2] = word$link2;
-    prevcBuffer[(signed long int)index$link2] = InvalidCh$link1;
-    tmp_post$1$link2 = index$link2;
-    index$link2 = index$link2 + 1;
-    nextcBuffer[(signed long int)tmp_post$1$link2] = src_seq$link1[(signed long int)(0 + overlaplen)];
+    hash_ban_link1=hash_kmer(word_link2);
+    hashBanBuffer_link1[(signed long int)index_link2] = hash_ban_link1;
+    kmerBuffer_link1[(signed long int)index_link2] = word_link2;
+    prevcBuffer[(signed long int)index_link2] = InvalidCh_link1;
+    tmp_post_1_link2 = index_link2;
+    index_link2 = index_link2 + 1;
+    nextcBuffer[(signed long int)tmp_post_1_link2] = src_seq_link1[(signed long int)(0 + overlaplen)];
   }
 
   else
   {
-    bal_hash_ban$link1=hash_kmer(bal_word$link2);
-    hashBanBuffer$link1[(signed long int)index$link2] = bal_hash_ban$link1;
-    kmerBuffer$link1[(signed long int)index$link2] = bal_word$link2;
-    prevcBuffer[(signed long int)index$link2] = bal_seq$link1[(signed long int)(bal_j$link2 - 1)];
-    tmp_post$2$link2 = index$link2;
-    index$link2 = index$link2 + 1;
-    nextcBuffer[(signed long int)tmp_post$2$link2] = InvalidCh$link1;
+    bal_hash_ban_link1=hash_kmer(bal_word_link2);
+    hashBanBuffer_link1[(signed long int)index_link2] = bal_hash_ban_link1;
+    kmerBuffer_link1[(signed long int)index_link2] = bal_word_link2;
+    prevcBuffer[(signed long int)index_link2] = bal_seq_link1[(signed long int)(bal_j_link2 - 1)];
+    tmp_post_2_link2 = index_link2;
+    index_link2 = index_link2 + 1;
+    nextcBuffer[(signed long int)tmp_post_2_link2] = InvalidCh_link1;
   }
-  j$link2 = 1;
-  signed int tmp_post$3$link2;
-  signed int tmp_post$4$link2;
-  signed int tmp_post$5$link1;
-  for( ; len_seq$link1 + -overlaplen >= j$link2; j$link2 = j$link2 + 1)
+  j_link2 = 1;
+  signed int tmp_post_3_link2;
+  signed int tmp_post_4_link2;
+  signed int tmp_post_5_link1;
+  for( ; len_seq_link1 + -overlaplen >= j_link2; j_link2 = j_link2 + 1)
   {
-    word$link2=nextKmer(word$link2, src_seq$link1[(signed long int)((j$link2 - 1) + overlaplen)]);
-    bal_j$link2 = (len_seq$link1 - j$link2) - overlaplen;
-    bal_word$link2=prevKmer(bal_word$link2, bal_seq$link1[(signed long int)bal_j$link2]);
-    if(!(word$link2 >= bal_word$link2))
+    word_link2=nextKmer(word_link2, src_seq_link1[(signed long int)((j_link2 - 1) + overlaplen)]);
+    bal_j_link2 = (len_seq_link1 - j_link2) - overlaplen;
+    bal_word_link2=prevKmer(bal_word_link2, bal_seq_link1[(signed long int)bal_j_link2]);
+    if(!(word_link2 >= bal_word_link2))
     {
-      hash_ban$link1=hash_kmer(word$link2);
-      hashBanBuffer$link1[(signed long int)index$link2] = hash_ban$link1;
-      kmerBuffer$link1[(signed long int)index$link2] = word$link2;
-      prevcBuffer[(signed long int)index$link2] = src_seq$link1[(signed long int)(j$link2 - 1)];
-      if(!(j$link2 >= len_seq$link1 + -overlaplen))
+      hash_ban_link1=hash_kmer(word_link2);
+      hashBanBuffer_link1[(signed long int)index_link2] = hash_ban_link1;
+      kmerBuffer_link1[(signed long int)index_link2] = word_link2;
+      prevcBuffer[(signed long int)index_link2] = src_seq_link1[(signed long int)(j_link2 - 1)];
+      if(!(j_link2 >= len_seq_link1 + -overlaplen))
       {
-        tmp_post$3$link2 = index$link2;
-        index$link2 = index$link2 + 1;
-        nextcBuffer[(signed long int)tmp_post$3$link2] = src_seq$link1[(signed long int)(j$link2 + overlaplen)];
+        tmp_post_3_link2 = index_link2;
+        index_link2 = index_link2 + 1;
+        nextcBuffer[(signed long int)tmp_post_3_link2] = src_seq_link1[(signed long int)(j_link2 + overlaplen)];
       }
 
       else
       {
-        tmp_post$4$link2 = index$link2;
-        index$link2 = index$link2 + 1;
-        nextcBuffer[(signed long int)tmp_post$4$link2] = InvalidCh$link1;
+        tmp_post_4_link2 = index_link2;
+        index_link2 = index_link2 + 1;
+        nextcBuffer[(signed long int)tmp_post_4_link2] = InvalidCh_link1;
       }
     }
 
     else
     {
-      bal_hash_ban$link1=hash_kmer(bal_word$link2);
-      hashBanBuffer$link1[(signed long int)index$link2] = bal_hash_ban$link1;
-      kmerBuffer$link1[(signed long int)index$link2] = bal_word$link2;
-      if(bal_j$link2 >= 1)
-        prevcBuffer[(signed long int)index$link2] = bal_seq$link1[(signed long int)(bal_j$link2 - 1)];
+      bal_hash_ban_link1=hash_kmer(bal_word_link2);
+      hashBanBuffer_link1[(signed long int)index_link2] = bal_hash_ban_link1;
+      kmerBuffer_link1[(signed long int)index_link2] = bal_word_link2;
+      if(bal_j_link2 >= 1)
+        prevcBuffer[(signed long int)index_link2] = bal_seq_link1[(signed long int)(bal_j_link2 - 1)];
 
       else
-        prevcBuffer[(signed long int)index$link2] = InvalidCh$link1;
-      tmp_post$5$link1 = index$link2;
-      index$link2 = index$link2 + 1;
-      nextcBuffer[(signed long int)tmp_post$5$link1] = bal_seq$link1[(signed long int)(bal_j$link2 + overlaplen)];
+        prevcBuffer[(signed long int)index_link2] = InvalidCh_link1;
+      tmp_post_5_link1 = index_link2;
+      index_link2 = index_link2 + 1;
+      nextcBuffer[(signed long int)tmp_post_5_link1] = bal_seq_link1[(signed long int)(bal_j_link2 + overlaplen)];
     }
   }
 }
 
-// chopKmer4read$link3
+// chopKmer4read_link3
 // file prlRead2Ctg.c line 146
-static void chopKmer4read$link3(signed int t$link2, signed int threadID$link2)
+static void chopKmer4read_link3(signed int t_link2, signed int threadID_link2)
 {
-  signed int len_seq$link2 = lenBuffer$link2[(signed long int)t$link2];
-  signed int tmp_post$1$link3;
-  signed int tmp_post$2$link3;
-  signed int tmp_post$3$link3;
-  signed int tmp_post$4$link3;
-  if(len_seq$link2 >= 1 + overlaplen)
+  signed int len_seq_link2 = lenBuffer_link2[(signed long int)t_link2];
+  signed int tmp_post_1_link3;
+  signed int tmp_post_2_link3;
+  signed int tmp_post_3_link3;
+  signed int tmp_post_4_link3;
+  if(len_seq_link2 >= 1 + overlaplen)
   {
-    char *src_seq$link2 = seqBuffer$link2[(signed long int)t$link2];
-    char *bal_seq$link2 = rcSeq$link2[(signed long int)threadID$link2];
-    signed int j$link3;
-    signed int bal_j$link3;
-    unsigned long long int hash_ban$link2;
-    unsigned long long int bal_hash_ban$link2;
-    unsigned long long int word$link3;
-    unsigned long long int bal_word$link3;
-    signed int index$link3;
-    word$link3 = (unsigned long long int)0;
-    index$link3 = 0;
-    for( ; !(index$link3 >= overlaplen); index$link3 = index$link3 + 1)
+    char *src_seq_link2 = seqBuffer_link2[(signed long int)t_link2];
+    char *bal_seq_link2 = rcSeq_link2[(signed long int)threadID_link2];
+    signed int j_link3;
+    signed int bal_j_link3;
+    unsigned long long int hash_ban_link2;
+    unsigned long long int bal_hash_ban_link2;
+    unsigned long long int word_link3;
+    unsigned long long int bal_word_link3;
+    signed int index_link3;
+    word_link3 = (unsigned long long int)0;
+    index_link3 = 0;
+    for( ; !(index_link3 >= overlaplen); index_link3 = index_link3 + 1)
     {
-      word$link3 = word$link3 << 2;
-      word$link3 = word$link3 + (unsigned long long int)src_seq$link2[(signed long int)index$link3];
+      word_link3 = word_link3 << 2;
+      word_link3 = word_link3 + (unsigned long long int)src_seq_link2[(signed long int)index_link3];
     }
-    reverseComplementSeq(src_seq$link2, len_seq$link2, bal_seq$link2);
-    bal_word$link3=reverseComplement(word$link3, overlaplen);
-    bal_j$link3 = (len_seq$link2 - 0) - overlaplen;
-    index$link3 = (signed int)indexArray$link2[(signed long int)t$link2];
-    if(!(word$link3 >= bal_word$link3))
+    reverseComplementSeq(src_seq_link2, len_seq_link2, bal_seq_link2);
+    bal_word_link3=reverseComplement(word_link3, overlaplen);
+    bal_j_link3 = (len_seq_link2 - 0) - overlaplen;
+    index_link3 = (signed int)indexArray_link2[(signed long int)t_link2];
+    if(!(word_link3 >= bal_word_link3))
     {
-      hash_ban$link2=hash_kmer(word$link3);
-      kmerBuffer$link2[(signed long int)index$link3] = word$link3;
-      smallerBuffer$link1[(signed long int)index$link3] = (char)1;
-      tmp_post$1$link3 = index$link3;
-      index$link3 = index$link3 + 1;
-      hashBanBuffer$link2[(signed long int)tmp_post$1$link3] = hash_ban$link2;
+      hash_ban_link2=hash_kmer(word_link3);
+      kmerBuffer_link2[(signed long int)index_link3] = word_link3;
+      smallerBuffer_link1[(signed long int)index_link3] = (char)1;
+      tmp_post_1_link3 = index_link3;
+      index_link3 = index_link3 + 1;
+      hashBanBuffer_link2[(signed long int)tmp_post_1_link3] = hash_ban_link2;
     }
 
     else
     {
-      bal_hash_ban$link2=hash_kmer(bal_word$link3);
-      kmerBuffer$link2[(signed long int)index$link3] = bal_word$link3;
-      smallerBuffer$link1[(signed long int)index$link3] = (char)0;
-      tmp_post$2$link3 = index$link3;
-      index$link3 = index$link3 + 1;
-      hashBanBuffer$link2[(signed long int)tmp_post$2$link3] = bal_hash_ban$link2;
+      bal_hash_ban_link2=hash_kmer(bal_word_link3);
+      kmerBuffer_link2[(signed long int)index_link3] = bal_word_link3;
+      smallerBuffer_link1[(signed long int)index_link3] = (char)0;
+      tmp_post_2_link3 = index_link3;
+      index_link3 = index_link3 + 1;
+      hashBanBuffer_link2[(signed long int)tmp_post_2_link3] = bal_hash_ban_link2;
     }
-    j$link3 = 1;
-    for( ; len_seq$link2 + -overlaplen >= j$link3; j$link3 = j$link3 + 1)
+    j_link3 = 1;
+    for( ; len_seq_link2 + -overlaplen >= j_link3; j_link3 = j_link3 + 1)
     {
-      word$link3=nextKmer(word$link3, src_seq$link2[(signed long int)((j$link3 - 1) + overlaplen)]);
-      bal_j$link3 = (len_seq$link2 - j$link3) - overlaplen;
-      bal_word$link3=prevKmer(bal_word$link3, bal_seq$link2[(signed long int)bal_j$link3]);
-      if(!(word$link3 >= bal_word$link3))
+      word_link3=nextKmer(word_link3, src_seq_link2[(signed long int)((j_link3 - 1) + overlaplen)]);
+      bal_j_link3 = (len_seq_link2 - j_link3) - overlaplen;
+      bal_word_link3=prevKmer(bal_word_link3, bal_seq_link2[(signed long int)bal_j_link3]);
+      if(!(word_link3 >= bal_word_link3))
       {
-        hash_ban$link2=hash_kmer(word$link3);
-        kmerBuffer$link2[(signed long int)index$link3] = word$link3;
-        smallerBuffer$link1[(signed long int)index$link3] = (char)1;
-        tmp_post$3$link3 = index$link3;
-        index$link3 = index$link3 + 1;
-        hashBanBuffer$link2[(signed long int)tmp_post$3$link3] = hash_ban$link2;
+        hash_ban_link2=hash_kmer(word_link3);
+        kmerBuffer_link2[(signed long int)index_link3] = word_link3;
+        smallerBuffer_link1[(signed long int)index_link3] = (char)1;
+        tmp_post_3_link3 = index_link3;
+        index_link3 = index_link3 + 1;
+        hashBanBuffer_link2[(signed long int)tmp_post_3_link3] = hash_ban_link2;
       }
 
       else
       {
-        bal_hash_ban$link2=hash_kmer(bal_word$link3);
-        kmerBuffer$link2[(signed long int)index$link3] = bal_word$link3;
-        smallerBuffer$link1[(signed long int)index$link3] = (char)0;
-        tmp_post$4$link3 = index$link3;
-        index$link3 = index$link3 + 1;
-        hashBanBuffer$link2[(signed long int)tmp_post$4$link3] = bal_hash_ban$link2;
+        bal_hash_ban_link2=hash_kmer(bal_word_link3);
+        kmerBuffer_link2[(signed long int)index_link3] = bal_word_link3;
+        smallerBuffer_link1[(signed long int)index_link3] = (char)0;
+        tmp_post_4_link3 = index_link3;
+        index_link3 = index_link3 + 1;
+        hashBanBuffer_link2[(signed long int)tmp_post_4_link3] = bal_hash_ban_link2;
       }
     }
   }
 
 }
 
-// chopKmer4read$link4
+// chopKmer4read_link4
 // file prlRead2path.c line 195
-static void chopKmer4read$link4(signed int t$link3, signed int threadID$link3)
+static void chopKmer4read_link4(signed int t_link3, signed int threadID_link3)
 {
-  char *src_seq$link3 = seqBuffer$link3[(signed long int)t$link3];
-  char *bal_seq$link3 = rcSeq$link3[(signed long int)threadID$link3];
-  signed int len_seq$link3 = lenBuffer$link3[(signed long int)t$link3];
-  signed int j$link4;
-  signed int bal_j$link4;
-  unsigned long long int hash_ban$link3;
-  unsigned long long int bal_hash_ban$link3;
-  unsigned long long int word$link4;
-  unsigned long long int bal_word$link4;
-  signed int index$link4;
-  word$link4 = (unsigned long long int)0;
-  index$link4 = 0;
-  for( ; !(index$link4 >= overlaplen); index$link4 = index$link4 + 1)
+  char *src_seq_link3 = seqBuffer_link3[(signed long int)t_link3];
+  char *bal_seq_link3 = rcSeq_link3[(signed long int)threadID_link3];
+  signed int len_seq_link3 = lenBuffer_link3[(signed long int)t_link3];
+  signed int j_link4;
+  signed int bal_j_link4;
+  unsigned long long int hash_ban_link3;
+  unsigned long long int bal_hash_ban_link3;
+  unsigned long long int word_link4;
+  unsigned long long int bal_word_link4;
+  signed int index_link4;
+  word_link4 = (unsigned long long int)0;
+  index_link4 = 0;
+  for( ; !(index_link4 >= overlaplen); index_link4 = index_link4 + 1)
   {
-    word$link4 = word$link4 << 2;
-    word$link4 = word$link4 + (unsigned long long int)src_seq$link3[(signed long int)index$link4];
+    word_link4 = word_link4 << 2;
+    word_link4 = word_link4 + (unsigned long long int)src_seq_link3[(signed long int)index_link4];
   }
-  reverseComplementSeq(src_seq$link3, len_seq$link3, bal_seq$link3);
-  bal_word$link4=reverseComplement(word$link4, overlaplen);
-  bal_j$link4 = (len_seq$link3 - 0) - overlaplen;
-  index$link4 = indexArray$link3[(signed long int)t$link3];
-  signed int tmp_post$1$link4;
-  signed int tmp_post$2$link4;
-  if(!(word$link4 >= bal_word$link4))
+  reverseComplementSeq(src_seq_link3, len_seq_link3, bal_seq_link3);
+  bal_word_link4=reverseComplement(word_link4, overlaplen);
+  bal_j_link4 = (len_seq_link3 - 0) - overlaplen;
+  index_link4 = indexArray_link3[(signed long int)t_link3];
+  signed int tmp_post_1_link4;
+  signed int tmp_post_2_link4;
+  if(!(word_link4 >= bal_word_link4))
   {
-    hash_ban$link3=hash_kmer(word$link4);
-    kmerBuffer$link3[(signed long int)index$link4] = word$link4;
-    smallerBuffer$link2[(signed long int)index$link4] = (char)1;
-    tmp_post$1$link4 = index$link4;
-    index$link4 = index$link4 + 1;
-    hashBanBuffer$link3[(signed long int)tmp_post$1$link4] = hash_ban$link3;
+    hash_ban_link3=hash_kmer(word_link4);
+    kmerBuffer_link3[(signed long int)index_link4] = word_link4;
+    smallerBuffer_link2[(signed long int)index_link4] = (char)1;
+    tmp_post_1_link4 = index_link4;
+    index_link4 = index_link4 + 1;
+    hashBanBuffer_link3[(signed long int)tmp_post_1_link4] = hash_ban_link3;
   }
 
   else
   {
-    bal_hash_ban$link3=hash_kmer(bal_word$link4);
-    kmerBuffer$link3[(signed long int)index$link4] = bal_word$link4;
-    smallerBuffer$link2[(signed long int)index$link4] = (char)0;
-    tmp_post$2$link4 = index$link4;
-    index$link4 = index$link4 + 1;
-    hashBanBuffer$link3[(signed long int)tmp_post$2$link4] = bal_hash_ban$link3;
+    bal_hash_ban_link3=hash_kmer(bal_word_link4);
+    kmerBuffer_link3[(signed long int)index_link4] = bal_word_link4;
+    smallerBuffer_link2[(signed long int)index_link4] = (char)0;
+    tmp_post_2_link4 = index_link4;
+    index_link4 = index_link4 + 1;
+    hashBanBuffer_link3[(signed long int)tmp_post_2_link4] = bal_hash_ban_link3;
   }
-  j$link4 = 1;
-  signed int tmp_post$3$link4;
-  signed int tmp_post$4$link4;
-  for( ; len_seq$link3 + -overlaplen >= j$link4; j$link4 = j$link4 + 1)
+  j_link4 = 1;
+  signed int tmp_post_3_link4;
+  signed int tmp_post_4_link4;
+  for( ; len_seq_link3 + -overlaplen >= j_link4; j_link4 = j_link4 + 1)
   {
-    word$link4=nextKmer(word$link4, src_seq$link3[(signed long int)((j$link4 - 1) + overlaplen)]);
-    bal_j$link4 = (len_seq$link3 - j$link4) - overlaplen;
-    bal_word$link4=prevKmer(bal_word$link4, bal_seq$link3[(signed long int)bal_j$link4]);
-    if(!(word$link4 >= bal_word$link4))
+    word_link4=nextKmer(word_link4, src_seq_link3[(signed long int)((j_link4 - 1) + overlaplen)]);
+    bal_j_link4 = (len_seq_link3 - j_link4) - overlaplen;
+    bal_word_link4=prevKmer(bal_word_link4, bal_seq_link3[(signed long int)bal_j_link4]);
+    if(!(word_link4 >= bal_word_link4))
     {
-      hash_ban$link3=hash_kmer(word$link4);
-      kmerBuffer$link3[(signed long int)index$link4] = word$link4;
-      smallerBuffer$link2[(signed long int)index$link4] = (char)1;
-      tmp_post$3$link4 = index$link4;
-      index$link4 = index$link4 + 1;
-      hashBanBuffer$link3[(signed long int)tmp_post$3$link4] = hash_ban$link3;
+      hash_ban_link3=hash_kmer(word_link4);
+      kmerBuffer_link3[(signed long int)index_link4] = word_link4;
+      smallerBuffer_link2[(signed long int)index_link4] = (char)1;
+      tmp_post_3_link4 = index_link4;
+      index_link4 = index_link4 + 1;
+      hashBanBuffer_link3[(signed long int)tmp_post_3_link4] = hash_ban_link3;
     }
 
     else
     {
-      bal_hash_ban$link3=hash_kmer(bal_word$link4);
-      kmerBuffer$link3[(signed long int)index$link4] = bal_word$link4;
-      smallerBuffer$link2[(signed long int)index$link4] = (char)0;
-      tmp_post$4$link4 = index$link4;
-      index$link4 = index$link4 + 1;
-      hashBanBuffer$link3[(signed long int)tmp_post$4$link4] = bal_hash_ban$link3;
+      bal_hash_ban_link3=hash_kmer(bal_word_link4);
+      kmerBuffer_link3[(signed long int)index_link4] = bal_word_link4;
+      smallerBuffer_link2[(signed long int)index_link4] = (char)0;
+      tmp_post_4_link4 = index_link4;
+      index_link4 = index_link4 + 1;
+      hashBanBuffer_link3[(signed long int)tmp_post_4_link4] = bal_hash_ban_link3;
     }
   }
 }
@@ -6450,10 +6450,10 @@ static char chopReadFillGap(signed int len_seq, signed int overlap, char *src_se
   signed int bal_end;
   struct kmer_st *node;
   char found;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
   if(!(len_seq >= 1 + overlap))
     return (char)0;
 
@@ -6473,16 +6473,16 @@ static char chopReadFillGap(signed int len_seq, signed int overlap, char *src_se
     flag = bal_flag;
     if(!(word >= bal_word))
     {
-      signed int return_value_search_kmerset$1;
-      return_value_search_kmerset$1=search_kmerset(kset, word, &node);
-      found = (char)return_value_search_kmerset$1;
+      signed int return_value_search_kmerset_1;
+      return_value_search_kmerset_1=search_kmerset(kset, word, &node);
+      found = (char)return_value_search_kmerset_1;
     }
 
     else
     {
-      signed int return_value_search_kmerset$2;
-      return_value_search_kmerset$2=search_kmerset(kset, bal_word, &node);
-      found = (char)return_value_search_kmerset$2;
+      signed int return_value_search_kmerset_2;
+      return_value_search_kmerset_2=search_kmerset(kset, bal_word, &node);
+      found = (char)return_value_search_kmerset_2;
     }
     if(!(found == 0))
     {
@@ -6534,16 +6534,16 @@ static char chopReadFillGap(signed int len_seq, signed int overlap, char *src_se
       bal_word=prevKmerLocal(bal_word, bal_seq[(signed long int)bal_j], overlap);
       if(!(word >= bal_word))
       {
-        signed int return_value_search_kmerset$3;
-        return_value_search_kmerset$3=search_kmerset(kset, word, &node);
-        found = (char)return_value_search_kmerset$3;
+        signed int return_value_search_kmerset_3;
+        return_value_search_kmerset_3=search_kmerset(kset, word, &node);
+        found = (char)return_value_search_kmerset_3;
       }
 
       else
       {
-        signed int return_value_search_kmerset$4;
-        return_value_search_kmerset$4=search_kmerset(kset, bal_word, &node);
-        found = (char)return_value_search_kmerset$4;
+        signed int return_value_search_kmerset_4;
+        return_value_search_kmerset_4=search_kmerset(kset, bal_word, &node);
+        found = (char)return_value_search_kmerset_4;
       }
       if(!(found == 0))
       {
@@ -6552,11 +6552,11 @@ static char chopReadFillGap(signed int len_seq, signed int overlap, char *src_se
           if(node->checked == 0u)
           {
             if(flag == 0)
-              tmp_if_expr$6 = (signed int)node->inEdge == 1 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_6 = (signed int)node->inEdge == 1 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$6 = (_Bool)0;
-            if(tmp_if_expr$6)
+              tmp_if_expr_6 = (_Bool)0;
+            if(tmp_if_expr_6)
             {
               ctg1start=searchKmerOnCtg(word, KmerCtg1, len1);
               if(ctg1start >= 0)
@@ -6570,11 +6570,11 @@ static char chopReadFillGap(signed int len_seq, signed int overlap, char *src_se
             else
             {
               if(flag == 1)
-                tmp_if_expr$5 = (signed int)node->inEdge == 1 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_5 = (signed int)node->inEdge == 1 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$5 = (_Bool)0;
-              if(tmp_if_expr$5)
+                tmp_if_expr_5 = (_Bool)0;
+              if(tmp_if_expr_5)
               {
                 index=searchKmerOnCtg(word, KmerCtg1, len1);
                 if(index >= 0 && !(ctg1start >= index))
@@ -6604,11 +6604,11 @@ static char chopReadFillGap(signed int len_seq, signed int overlap, char *src_se
 
             }
             if(bal_flag == 0)
-              tmp_if_expr$8 = (signed int)node->inEdge == 2 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_8 = (signed int)node->inEdge == 2 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$8 = (_Bool)0;
-            if(tmp_if_expr$8)
+              tmp_if_expr_8 = (_Bool)0;
+            if(tmp_if_expr_8)
             {
               bal_ctg2end=searchKmerOnCtg(bal_word, KmerCtg2, len2);
               if(bal_ctg2end >= 0)
@@ -6622,11 +6622,11 @@ static char chopReadFillGap(signed int len_seq, signed int overlap, char *src_se
             else
             {
               if(bal_flag == 2)
-                tmp_if_expr$7 = (signed int)node->inEdge == 2 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_7 = (signed int)node->inEdge == 2 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$7 = (_Bool)0;
-              if(tmp_if_expr$7)
+                tmp_if_expr_7 = (_Bool)0;
+              if(tmp_if_expr_7)
               {
                 index=searchKmerOnCtg(bal_word, KmerCtg2, len2);
                 if(index >= 0 && !(index >= bal_ctg2end))
@@ -6692,9 +6692,9 @@ static char chopReadFillGap(signed int len_seq, signed int overlap, char *src_se
 void * ckalloc(unsigned long long int amount)
 {
   void *p;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, (unsigned long long int)amount);
-  p = (void *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, (unsigned long long int)amount);
+  p = (void *)return_value_calloc_1;
   if(p == NULL)
   {
     if(!(amount == 0ul))
@@ -6765,9 +6765,9 @@ static char cleanUpRedundancy()
   finalLength=mapDistancesOntoPaths();
   fastLength = 0;
   slowLength = fastLength;
-  unsigned int return_value_getTwinEdge$3;
-  char return_value_markerLeadsToNode$2;
-  char return_value_markerLeadsToNode$1;
+  unsigned int return_value_getTwinEdge_3;
+  char return_value_markerLeadsToNode_2;
+  char return_value_markerLeadsToNode_1;
   while(!(fastMarker == ((struct readinterval *)NULL)) && !(slowMarker == ((struct readinterval *)NULL)))
   {
     if(slowMarker->nextInRead == ((struct readinterval *)NULL))
@@ -6798,8 +6798,8 @@ static char cleanUpRedundancy()
 
     else
     {
-      return_value_getTwinEdge$3=getTwinEdge(fastNode);
-      if(slowNode == return_value_getTwinEdge$3)
+      return_value_getTwinEdge_3=getTwinEdge(fastNode);
+      if(slowNode == return_value_getTwinEdge_3)
       {
         if(!(slowLength >= fastLength))
           slowConstraint = fastLength;
@@ -6811,8 +6811,8 @@ static char cleanUpRedundancy()
 
       else
       {
-        return_value_markerLeadsToNode$2=markerLeadsToNode(slowMarker, fastNode);
-        if(!(return_value_markerLeadsToNode$2 == 0))
+        return_value_markerLeadsToNode_2=markerLeadsToNode(slowMarker, fastNode);
+        if(!(return_value_markerLeadsToNode_2 == 0))
         {
           reduceSlowNodes(slowMarker, fastNode);
           remapEmptyPathOntoMiddlePath(fastMarker, slowMarker, (char)0);
@@ -6822,8 +6822,8 @@ static char cleanUpRedundancy()
 
         else
         {
-          return_value_markerLeadsToNode$1=markerLeadsToNode(fastMarker, slowNode);
-          if(!(return_value_markerLeadsToNode$1 == 0))
+          return_value_markerLeadsToNode_1=markerLeadsToNode(fastMarker, slowNode);
+          if(!(return_value_markerLeadsToNode_1 == 0))
           {
             remapEmptyPathOntoMiddlePath(slowMarker, fastMarker, (char)1);
             for( ; !(fastMarker->edgeid == slowNode); fastMarker = fastMarker->nextInRead)
@@ -6883,15 +6883,15 @@ static signed int clipTipFromNode(struct kmer_st *node1, signed int cut_len, cha
   signed int setPicker;
   unsigned int max_links;
   unsigned int singleCvg;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(node1->linear == 0u))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = node1->deleted != 0u ? (_Bool)1 : (_Bool)0;
-  signed int return_value_count_branch2next$8;
-  signed int return_value_count_branch2next$10;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = node1->deleted != 0u ? (_Bool)1 : (_Bool)0;
+  signed int return_value_count_branch2next_8;
+  signed int return_value_count_branch2next_10;
+  if(tmp_if_expr_1)
     return (signed int)ret;
 
   else
@@ -6908,12 +6908,12 @@ static signed int clipTipFromNode(struct kmer_st *node1, signed int cut_len, cha
 
     __CPROVER_DUMP_L4:
       ;
-      signed int return_value_count_branch2prev$2;
-      return_value_count_branch2prev$2=count_branch2prev(node1);
-      in_num = (unsigned char)return_value_count_branch2prev$2;
-      signed int return_value_count_branch2next$3;
-      return_value_count_branch2next$3=count_branch2next(node1);
-      out_num = (unsigned char)return_value_count_branch2next$3;
+      signed int return_value_count_branch2prev_2;
+      return_value_count_branch2prev_2=count_branch2prev(node1);
+      in_num = (unsigned char)return_value_count_branch2prev_2;
+      signed int return_value_count_branch2next_3;
+      return_value_count_branch2next_3=count_branch2next(node1);
+      out_num = (unsigned char)return_value_count_branch2next_3;
       if((signed int)in_num == 0 && (signed int)out_num == 1)
       {
         pre_word = node1->seq;
@@ -6959,9 +6959,9 @@ static signed int clipTipFromNode(struct kmer_st *node1, signed int cut_len, cha
         smaller = (char)1;
       hash_ban=hash_kmer(word);
       setPicker = (signed int)(hash_ban % (unsigned long int)thrd_num);
-      signed int return_value_search_kmerset$4;
-      return_value_search_kmerset$4=search_kmerset(KmerSets[(signed long int)setPicker], word, &out_node);
-      found = (char)return_value_search_kmerset$4;
+      signed int return_value_search_kmerset_4;
+      return_value_search_kmerset_4=search_kmerset(KmerSets[(signed long int)setPicker], word, &out_node);
+      found = (char)return_value_search_kmerset_4;
       if(found == 0)
       {
         printf("kmer %llx not found, node1 %llx\n", word, node1->seq);
@@ -7006,9 +7006,9 @@ static signed int clipTipFromNode(struct kmer_st *node1, signed int cut_len, cha
             smaller = (char)1;
           hash_ban=hash_kmer(word);
           setPicker = (signed int)(hash_ban % (unsigned long int)thrd_num);
-          signed int return_value_search_kmerset$5;
-          return_value_search_kmerset$5=search_kmerset(KmerSets[(signed long int)setPicker], word, &out_node);
-          found = (char)return_value_search_kmerset$5;
+          signed int return_value_search_kmerset_5;
+          return_value_search_kmerset_5=search_kmerset(KmerSets[(signed long int)setPicker], word, &out_node);
+          found = (char)return_value_search_kmerset_5;
           if(found == 0)
           {
             printf("kmer %llx not found, node1 %llx\n", word, node1->seq);
@@ -7043,25 +7043,25 @@ static signed int clipTipFromNode(struct kmer_st *node1, signed int cut_len, cha
             smaller = (char)1;
           hash_ban=hash_kmer(word);
           setPicker = (signed int)(hash_ban % (unsigned long int)thrd_num);
-          signed int return_value_search_kmerset$6;
-          return_value_search_kmerset$6=search_kmerset(KmerSets[(signed long int)setPicker], word, &out_node);
-          found = (char)return_value_search_kmerset$6;
+          signed int return_value_search_kmerset_6;
+          return_value_search_kmerset_6=search_kmerset(KmerSets[(signed long int)setPicker], word, &out_node);
+          found = (char)return_value_search_kmerset_6;
           if(found == 0)
           {
             printf("kmer %llx not found, node1 %llx\n", word, node1->seq);
-            unsigned long long int return_value_reverseComplement$7;
-            return_value_reverseComplement$7=reverseComplement(pre_word, overlaplen);
-            printf("pre_word %llx with %d(larger)\n", return_value_reverseComplement$7, (char)((signed int)ch ^ 0x02));
+            unsigned long long int return_value_reverseComplement_7;
+            return_value_reverseComplement_7=reverseComplement(pre_word, overlaplen);
+            printf("pre_word %llx with %d(larger)\n", return_value_reverseComplement_7, (char)((signed int)ch ^ 0x02));
             exit(1);
           }
 
         }
       }
-      signed int return_value_count_branch2next$12;
-      return_value_count_branch2next$12=count_branch2next(out_node);
-      signed int return_value_count_branch2prev$13;
-      return_value_count_branch2prev$13=count_branch2prev(out_node);
-      sum = return_value_count_branch2next$12 + return_value_count_branch2prev$13;
+      signed int return_value_count_branch2next_12;
+      return_value_count_branch2next_12=count_branch2next(out_node);
+      signed int return_value_count_branch2prev_13;
+      return_value_count_branch2prev_13=count_branch2prev(out_node);
+      sum = return_value_count_branch2next_12 + return_value_count_branch2prev_13;
       if(sum == 1)
       {
         tip_c = tip_c + 1;
@@ -7107,12 +7107,12 @@ static signed int clipTipFromNode(struct kmer_st *node1, signed int cut_len, cha
             tip_c = tip_c + 1;
             node1->deleted = (unsigned int)1;
             dislink2prevUncertain(out_node, ch, smaller);
-            signed int return_value_count_branch2prev$9;
-            return_value_count_branch2prev$9=count_branch2prev(out_node);
-            if(return_value_count_branch2prev$9 == 1)
+            signed int return_value_count_branch2prev_9;
+            return_value_count_branch2prev_9=count_branch2prev(out_node);
+            if(return_value_count_branch2prev_9 == 1)
             {
-              return_value_count_branch2next$8=count_branch2next(out_node);
-              if(return_value_count_branch2next$8 == 1)
+              return_value_count_branch2next_8=count_branch2next(out_node);
+              if(return_value_count_branch2next_8 == 1)
                 out_node->linear = (unsigned int)1;
 
             }
@@ -7129,12 +7129,12 @@ static signed int clipTipFromNode(struct kmer_st *node1, signed int cut_len, cha
             tip_c = tip_c + 1;
             node1->deleted = (unsigned int)1;
             dislink2prevUncertain(out_node, ch, smaller);
-            signed int return_value_count_branch2prev$11;
-            return_value_count_branch2prev$11=count_branch2prev(out_node);
-            if(return_value_count_branch2prev$11 == 1)
+            signed int return_value_count_branch2prev_11;
+            return_value_count_branch2prev_11=count_branch2prev(out_node);
+            if(return_value_count_branch2prev_11 == 1)
             {
-              return_value_count_branch2next$10=count_branch2next(out_node);
-              if(return_value_count_branch2next$10 == 1)
+              return_value_count_branch2next_10=count_branch2next(out_node);
+              if(return_value_count_branch2next_10 == 1)
                 out_node->linear = (unsigned int)1;
 
             }
@@ -7177,25 +7177,25 @@ static void closeFp1InLab(signed int libNo)
 
           else
             goto __CPROVER_DUMP_L11;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(fname);
-  _Bool tmp_if_expr$5;
-  signed int tmp_statement_expression$2;
-  if(return_value_strlen$1 >= 4ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(fname);
+  _Bool tmp_if_expr_5;
+  signed int tmp_statement_expression_2;
+  if(return_value_strlen_1 >= 4ul)
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(fname);
-    signed int return_value___builtin_strcmp$4;
-    return_value___builtin_strcmp$4=__builtin_strcmp((fname + (signed long int)return_value_strlen$3) - (signed long int)3, ".gz");
-    tmp_statement_expression$2 = return_value___builtin_strcmp$4;
-    tmp_if_expr$5 = tmp_statement_expression$2 == 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(fname);
+    signed int return_value___builtin_strcmp_4;
+    return_value___builtin_strcmp_4=__builtin_strcmp((fname + (signed long int)return_value_strlen_3) - (signed long int)3, ".gz");
+    tmp_statement_expression_2 = return_value___builtin_strcmp_4;
+    tmp_if_expr_5 = tmp_statement_expression_2 == 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$5 = (_Bool)0;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = (_Bool)0;
+  if(tmp_if_expr_5)
     pclose((lib_array + (signed long int)libNo)->fp1);
 
   else
@@ -7221,25 +7221,25 @@ static void closeFp2InLab(signed int libNo)
 
     else
       goto __CPROVER_DUMP_L8;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(fname);
-  _Bool tmp_if_expr$5;
-  signed int tmp_statement_expression$2;
-  if(return_value_strlen$1 >= 4ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(fname);
+  _Bool tmp_if_expr_5;
+  signed int tmp_statement_expression_2;
+  if(return_value_strlen_1 >= 4ul)
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(fname);
-    signed int return_value___builtin_strcmp$4;
-    return_value___builtin_strcmp$4=__builtin_strcmp((fname + (signed long int)return_value_strlen$3) - (signed long int)3, ".gz");
-    tmp_statement_expression$2 = return_value___builtin_strcmp$4;
-    tmp_if_expr$5 = tmp_statement_expression$2 == 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(fname);
+    signed int return_value___builtin_strcmp_4;
+    return_value___builtin_strcmp_4=__builtin_strcmp((fname + (signed long int)return_value_strlen_3) - (signed long int)3, ".gz");
+    tmp_statement_expression_2 = return_value___builtin_strcmp_4;
+    tmp_if_expr_5 = tmp_statement_expression_2 == 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$5 = (_Bool)0;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = (_Bool)0;
+  if(tmp_if_expr_5)
     pclose((lib_array + (signed long int)libNo)->fp2);
 
   else
@@ -7399,16 +7399,16 @@ static signed long long int cntByReads(unsigned int left, unsigned int middle, u
   signed int index;
   signed long long int readid;
   index = 0;
-  char return_value_readOnEdge$1;
+  char return_value_readOnEdge_1;
   for( ; !(index >= markNum); index = index + 1)
   {
     readid = marklist[(signed long int)index];
-    char return_value_readOnEdge$2;
-    return_value_readOnEdge$2=readOnEdge(readid, middle);
-    if(!(return_value_readOnEdge$2 == 0))
+    char return_value_readOnEdge_2;
+    return_value_readOnEdge_2=readOnEdge(readid, middle);
+    if(!(return_value_readOnEdge_2 == 0))
     {
-      return_value_readOnEdge$1=readOnEdge(readid, right);
-      if(!(return_value_readOnEdge$1 == 0))
+      return_value_readOnEdge_1=readOnEdge(readid, right);
+      if(!(return_value_readOnEdge_1 == 0))
         return readid;
 
     }
@@ -7425,9 +7425,9 @@ static void combineCOV(unsigned int source, signed int len_s, unsigned int targe
   {
     signed int cov = (len_s * (signed int)(edge_array + (signed long int)source)->cvg + len_t * (signed int)(edge_array + (signed long int)target)->cvg) / len_t;
     (edge_array + (signed long int)target)->cvg = (unsigned short int)(cov > 16000 ? 16000 : cov);
-    unsigned int return_value_getTwinEdge$1;
-    return_value_getTwinEdge$1=getTwinEdge(target);
-    (edge_array + (signed long int)return_value_getTwinEdge$1)->cvg = (unsigned short int)(cov > 16000 ? 16000 : cov);
+    unsigned int return_value_getTwinEdge_1;
+    return_value_getTwinEdge_1=getTwinEdge(target);
+    (edge_array + (signed long int)return_value_getTwinEdge_1)->cvg = (unsigned short int)(cov > 16000 ? 16000 : cov);
   }
 
 }
@@ -7478,8 +7478,8 @@ static void comparePaths(unsigned int destination, unsigned int origin)
   fastNode = destination;
   slowNode = origin;
   btCounter = btCounter + 1ll;
-  char return_value_isPreviousToNode$2;
-  char return_value_isPreviousToNode$1;
+  char return_value_isPreviousToNode_2;
+  char return_value_isPreviousToNode_1;
   while(!(fastNode == slowNode))
   {
     if(times[(signed long int)fastNode] > times[(signed long int)slowNode])
@@ -7497,15 +7497,15 @@ static void comparePaths(unsigned int destination, unsigned int origin)
 
       else
       {
-        return_value_isPreviousToNode$2=isPreviousToNode(slowNode, fastNode);
-        if(!(return_value_isPreviousToNode$2 == 0))
+        return_value_isPreviousToNode_2=isPreviousToNode(slowNode, fastNode);
+        if(!(return_value_isPreviousToNode_2 == 0))
           for( ; !(fastNode == slowNode); fastNode = previous[(signed long int)fastNode])
             fastLength = fastLength + 1;
 
         else
         {
-          return_value_isPreviousToNode$1=isPreviousToNode(fastNode, slowNode);
-          if(!(return_value_isPreviousToNode$1 == 0))
+          return_value_isPreviousToNode_1=isPreviousToNode(fastNode, slowNode);
+          if(!(return_value_isPreviousToNode_1 == 0))
             for( ; !(slowNode == fastNode); slowNode = previous[(signed long int)slowNode])
               slowLength = slowLength + 1;
 
@@ -7559,9 +7559,9 @@ static void comparePaths(unsigned int destination, unsigned int origin)
     else
     {
       cmpCounter = cmpCounter + 1ll;
-      char return_value_compareSequences$3;
-      return_value_compareSequences$3=compareSequences(fastSequence, slowSequence, fastSeqLength, slowSeqLength);
-      if(return_value_compareSequences$3 == 0)
+      char return_value_compareSequences_3;
+      return_value_compareSequences_3=compareSequences(fastSequence, slowSequence, fastSeqLength, slowSeqLength);
+      if(return_value_compareSequences_3 == 0)
       {
         detachPathSingle(slowPath);
         detachPathSingle(fastPath);
@@ -7570,9 +7570,9 @@ static void comparePaths(unsigned int destination, unsigned int origin)
       else
       {
         simiCounter = simiCounter + 1ll;
-        char return_value_cleanUpRedundancy$4;
-        return_value_cleanUpRedundancy$4=cleanUpRedundancy();
-        pinCounter = pinCounter + (signed long long int)return_value_cleanUpRedundancy$4;
+        char return_value_cleanUpRedundancy_4;
+        return_value_cleanUpRedundancy_4=cleanUpRedundancy();
+        pinCounter = pinCounter + (signed long long int)return_value_cleanUpRedundancy_4;
         if(pinCounter % 100000l == 0l)
           printf(".............%lld\n", pinCounter);
 
@@ -7605,9 +7605,9 @@ static char compareSequences(char *sequence1, char *sequence2, signed int length
 
   else
   {
-    signed int return_value_abs$1;
-    return_value_abs$1=abs((signed int)length1 - (signed int)length2);
-    if(return_value_abs$1 >= 3)
+    signed int return_value_abs_1;
+    return_value_abs_1=abs((signed int)length1 - (signed int)length2);
+    if(return_value_abs_1 >= 3)
     {
       caseB = caseB + 1ll;
       return (char)0;
@@ -7661,41 +7661,41 @@ static char compareSequences(char *sequence1, char *sequence2, signed int length
   }
 }
 
-// compareSequences$link1
+// compareSequences_link1
 // file localAsm.c line 1368
-static signed int compareSequences$link1(char *sequence1$link1, char *sequence2$link1, signed int length1$link1, signed int length2$link1)
+static signed int compareSequences_link1(char *sequence1_link1, char *sequence2_link1, signed int length1_link1, signed int length2_link1)
 {
-  if(length1$link1 >= 101 || length2$link1 >= 101 || !(length1$link1 >= 1) || !(length2$link1 >= 1))
+  if(length1_link1 >= 101 || length2_link1 >= 101 || !(length1_link1 >= 1) || !(length2_link1 >= 1))
     return 0;
 
   else
   {
-    signed int i$link1;
-    signed int j$link1;
-    signed int Choice1$link1;
-    signed int Choice2$link1;
-    signed int Choice3$link1;
-    signed int maxScore$link1;
-    i$link1 = 0;
-    for( ; length1$link1 >= i$link1; i$link1 = i$link1 + 1)
-      Fmatrix$link1[(signed long int)i$link1][(signed long int)0] = 0;
-    j$link1 = 0;
-    for( ; length2$link1 >= j$link1; j$link1 = j$link1 + 1)
-      Fmatrix$link1[(signed long int)0][(signed long int)j$link1] = 0;
-    i$link1 = 1;
-    for( ; length1$link1 >= i$link1; i$link1 = i$link1 + 1)
+    signed int i_link1;
+    signed int j_link1;
+    signed int Choice1_link1;
+    signed int Choice2_link1;
+    signed int Choice3_link1;
+    signed int maxScore_link1;
+    i_link1 = 0;
+    for( ; length1_link1 >= i_link1; i_link1 = i_link1 + 1)
+      Fmatrix_link1[(signed long int)i_link1][(signed long int)0] = 0;
+    j_link1 = 0;
+    for( ; length2_link1 >= j_link1; j_link1 = j_link1 + 1)
+      Fmatrix_link1[(signed long int)0][(signed long int)j_link1] = 0;
+    i_link1 = 1;
+    for( ; length1_link1 >= i_link1; i_link1 = i_link1 + 1)
     {
-      j$link1 = 1;
-      for( ; length2$link1 >= j$link1; j$link1 = j$link1 + 1)
+      j_link1 = 1;
+      for( ; length2_link1 >= j_link1; j_link1 = j_link1 + 1)
       {
-        Choice1$link1 = Fmatrix$link1[(signed long int)(i$link1 - 1)][(signed long int)(j$link1 - 1)] + SIM$link1[(signed long int)(signed int)sequence1$link1[(signed long int)(i$link1 - 1)]][(signed long int)(signed int)sequence2$link1[(signed long int)(j$link1 - 1)]];
-        Choice2$link1 = Fmatrix$link1[(signed long int)(i$link1 - 1)][(signed long int)j$link1] + INDEL$link1;
-        Choice3$link1 = Fmatrix$link1[(signed long int)i$link1][(signed long int)(j$link1 - 1)] + INDEL$link1;
-        Fmatrix$link1[(signed long int)i$link1][(signed long int)j$link1]=max$link1(Choice1$link1, Choice2$link1, Choice3$link1);
+        Choice1_link1 = Fmatrix_link1[(signed long int)(i_link1 - 1)][(signed long int)(j_link1 - 1)] + SIM_link1[(signed long int)(signed int)sequence1_link1[(signed long int)(i_link1 - 1)]][(signed long int)(signed int)sequence2_link1[(signed long int)(j_link1 - 1)]];
+        Choice2_link1 = Fmatrix_link1[(signed long int)(i_link1 - 1)][(signed long int)j_link1] + INDEL_link1;
+        Choice3_link1 = Fmatrix_link1[(signed long int)i_link1][(signed long int)(j_link1 - 1)] + INDEL_link1;
+        Fmatrix_link1[(signed long int)i_link1][(signed long int)j_link1]=max_link1(Choice1_link1, Choice2_link1, Choice3_link1);
       }
     }
-    maxScore$link1 = Fmatrix$link1[(signed long int)length1$link1][(signed long int)length2$link1];
-    return maxScore$link1;
+    maxScore_link1 = Fmatrix_link1[(signed long int)length1_link1][(signed long int)length2_link1];
+    return maxScore_link1;
   }
 }
 
@@ -7708,15 +7708,15 @@ char * compl_int_seq(char *seq, signed int len)
   char bal_c;
   signed int i;
   signed int index;
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   if(!(len >= 1))
     return bal_seq;
 
   else
   {
-    void *return_value_ckalloc$1;
-    return_value_ckalloc$1=ckalloc((unsigned long int)len * sizeof(char) /*1ul*/ );
-    bal_seq = (char *)return_value_ckalloc$1;
+    void *return_value_ckalloc_1;
+    return_value_ckalloc_1=ckalloc((unsigned long int)len * sizeof(char) /*1ul*/ );
+    bal_seq = (char *)return_value_ckalloc_1;
     index = 0;
     i = len - 1;
     for( ; i >= 0; i = i - 1)
@@ -7727,9 +7727,9 @@ char * compl_int_seq(char *seq, signed int len)
 
       else
         bal_c = c;
-      tmp_post$2 = index;
+      tmp_post_2 = index;
       index = index + 1;
-      bal_seq[(signed long int)tmp_post$2] = bal_c;
+      bal_seq[(signed long int)tmp_post_2] = bal_c;
     }
     return bal_seq;
   }
@@ -7751,7 +7751,7 @@ extern signed int connectByPE_grad(struct _IO_FILE *fp, signed int peGrad, char 
   unsigned int pre_contigno;
   unsigned int contigno;
   unsigned int newIndex;
-  char *return_value_fgets$3;
+  char *return_value_fgets_3;
   if(!(peGrad >= 0) || !(gradsCounter >= peGrad))
   {
     printf("specified pe grad is out of bound\n");
@@ -7769,9 +7769,9 @@ extern signed int connectByPE_grad(struct _IO_FILE *fp, signed int peGrad, char 
     peSUM = (unsigned long long int)0;
     onsameCtgPE = (signed int)peSUM;
     PE = (pes + (signed long int)peGrad)->insertS;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(line);
-    if(!(return_value_strlen$1 == 0ul))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(line);
+    if(!(return_value_strlen_1 == 0ul))
     {
       sscanf(line, "%lld %d %d", &pre_readno, &pre_contigno, &pre_pos);
       if(minno >= pre_readno)
@@ -7785,13 +7785,13 @@ extern signed int connectByPE_grad(struct _IO_FILE *fp, signed int peGrad, char 
     ignorePE2 = ignorePE3;
     ignorePE1 = ignorePE2;
     static_flag = 1;
-    struct stack *return_value_createStack$2;
-    return_value_createStack$2=createStack(10000, sizeof(signed int) /*4ul*/ );
-    isStack = (struct stack *)return_value_createStack$2;
+    struct stack *return_value_createStack_2;
+    return_value_createStack_2=createStack(10000, sizeof(signed int) /*4ul*/ );
+    isStack = (struct stack *)return_value_createStack_2;
     do
     {
-      return_value_fgets$3=fgets(line, lineLen, fp);
-      if(return_value_fgets$3 == ((char *)NULL))
+      return_value_fgets_3=fgets(line, lineLen, fp);
+      if(return_value_fgets_3 == ((char *)NULL))
         break;
 
       sscanf(line, "%lld %d %d", &readno, &contigno, &pos);
@@ -7801,9 +7801,9 @@ extern signed int connectByPE_grad(struct _IO_FILE *fp, signed int peGrad, char 
       if(!(minno >= readno))
       {
         newIndex = index_array[(signed long int)contigno];
-        char return_value_isSameAsTwin$4;
-        return_value_isSameAsTwin$4=isSameAsTwin(newIndex);
-        if(return_value_isSameAsTwin$4 == 0)
+        char return_value_isSameAsTwin_4;
+        return_value_isSameAsTwin_4=isSameAsTwin(newIndex);
+        if(return_value_isSameAsTwin_4 == 0)
         {
           if(readno % 2l == 0l && pre_readno == readno + -1l && !(PE == 0))
           {
@@ -7827,9 +7827,9 @@ extern signed int connectByPE_grad(struct _IO_FILE *fp, signed int peGrad, char 
       printf("estimated PE size %lli, by %d pairs\n", peSUM / (unsigned long int)onsameCtgPE, onsameCtgPE);
 
     printf("on contigs longer than %d, %d pairs found,", PE, isStack->item_c);
-    signed int return_value_calcuIS$5;
-    return_value_calcuIS$5=calcuIS(isStack);
-    printf("insert_size estimated: %d\n", return_value_calcuIS$5);
+    signed int return_value_calcuIS_5;
+    return_value_calcuIS_5=calcuIS(isStack);
+    printf("insert_size estimated: %d\n", return_value_calcuIS_5);
     freeStack(isStack);
     return count;
   }
@@ -7871,15 +7871,15 @@ static void consolidate()
   struct connection *cnt;
   unsigned int to_ctg;
   unsigned int from_ctg;
-  void *return_value_darrayGet$1;
-  return_value_darrayGet$1=darrayGet(solidArray, (signed long long int)0);
-  from_ctg = *((unsigned int *)return_value_darrayGet$1);
+  void *return_value_darrayGet_1;
+  return_value_darrayGet_1=darrayGet(solidArray, (signed long long int)0);
+  from_ctg = *((unsigned int *)return_value_darrayGet_1);
   i = 1;
   for( ; !(i >= solidCounter); i = i + 1)
   {
-    void *return_value_darrayGet$2;
-    return_value_darrayGet$2=darrayGet(solidArray, (signed long long int)i);
-    to_ctg = *((unsigned int *)return_value_darrayGet$2);
+    void *return_value_darrayGet_2;
+    return_value_darrayGet_2=darrayGet(solidArray, (signed long long int)i);
+    to_ctg = *((unsigned int *)return_value_darrayGet_2);
     cnt=checkConnect(from_ctg, to_ctg);
     if(cnt == ((struct connection *)NULL))
     {
@@ -7887,9 +7887,9 @@ static void consolidate()
       j = 0;
       for( ; !(j >= solidCounter); j = j + 1)
       {
-        void *return_value_darrayGet$3;
-        return_value_darrayGet$3=darrayGet(solidArray, (signed long long int)j);
-        printf("%d-->", *((unsigned int *)return_value_darrayGet$3));
+        void *return_value_darrayGet_3;
+        return_value_darrayGet_3=darrayGet(solidArray, (signed long long int)j);
+        printf("%d-->", *((unsigned int *)return_value_darrayGet_3));
       }
       printf("\n");
       goto __CPROVER_DUMP_L11;
@@ -7905,16 +7905,16 @@ static void consolidate()
     prevCNT = cnt;
     from_ctg = to_ctg;
   }
-  void *return_value_darrayGet$4;
-  return_value_darrayGet$4=darrayGet(solidArray, (signed long long int)(solidCounter - 1));
-  from_ctg=getTwinCtg(*((unsigned int *)return_value_darrayGet$4));
+  void *return_value_darrayGet_4;
+  return_value_darrayGet_4=darrayGet(solidArray, (signed long long int)(solidCounter - 1));
+  from_ctg=getTwinCtg(*((unsigned int *)return_value_darrayGet_4));
   prevCNT = (struct connection *)(void *)0;
   i = solidCounter - 2;
   for( ; i >= 0; i = i - 1)
   {
-    void *return_value_darrayGet$5;
-    return_value_darrayGet$5=darrayGet(solidArray, (signed long long int)i);
-    to_ctg=getTwinCtg(*((unsigned int *)return_value_darrayGet$5));
+    void *return_value_darrayGet_5;
+    return_value_darrayGet_5=darrayGet(solidArray, (signed long long int)i);
+    to_ctg=getTwinCtg(*((unsigned int *)return_value_darrayGet_5));
     cnt=checkConnect(from_ctg, to_ctg);
     if(cnt == ((struct connection *)NULL))
     {
@@ -7942,13 +7942,13 @@ __CPROVER_DUMP_L11:
 static char contigElligible(unsigned int contigno)
 {
   unsigned int ctg = index_array[(signed long int)contigno];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((contig_array + (signed long int)ctg)->from_vt == 0u)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)(contig_array + (signed long int)ctg)->multi == 1 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)(contig_array + (signed long int)ctg)->multi == 1 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return (char)0;
 
   else
@@ -7960,9 +7960,9 @@ static char contigElligible(unsigned int contigno)
 static void convertIndex()
 {
   signed int *length_array;
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)(num_ctg + (unsigned int)1) * sizeof(signed int) /*4ul*/ );
-  length_array = (signed int *)return_value_ckalloc$1;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)(num_ctg + (unsigned int)1) * sizeof(signed int) /*4ul*/ );
+  length_array = (signed int *)return_value_ckalloc_1;
   unsigned int i = (unsigned int)1;
   for( ; num_ctg >= i; i = i + 1u)
     length_array[(signed long int)i] = 0;
@@ -7977,26 +7977,26 @@ static void convertIndex()
   free((void *)length_array);
 }
 
-// convertIndex$link1
+// convertIndex_link1
 // file read2scaf.c line 37
-static void convertIndex$link1()
+static void convertIndex_link1()
 {
-  signed int *length_array$link1;
-  void *return_value_ckalloc$1$link1;
-  return_value_ckalloc$1$link1=ckalloc((unsigned long int)(num_ctg + (unsigned int)1) * sizeof(signed int) /*4ul*/ );
-  length_array$link1 = (signed int *)return_value_ckalloc$1$link1;
-  unsigned int i$link1 = (unsigned int)1;
-  for( ; num_ctg >= i$link1; i$link1 = i$link1 + 1u)
-    length_array$link1[(signed long int)i$link1] = 0;
-  i$link1 = (unsigned int)1;
-  for( ; num_ctg >= i$link1; i$link1 = i$link1 + 1u)
-    if(index_array[(signed long int)i$link1] >= 1u)
-      length_array$link1[(signed long int)index_array[(signed long int)i$link1]] = (signed int)i$link1;
+  signed int *length_array_link1;
+  void *return_value_ckalloc_1_link1;
+  return_value_ckalloc_1_link1=ckalloc((unsigned long int)(num_ctg + (unsigned int)1) * sizeof(signed int) /*4ul*/ );
+  length_array_link1 = (signed int *)return_value_ckalloc_1_link1;
+  unsigned int i_link1 = (unsigned int)1;
+  for( ; num_ctg >= i_link1; i_link1 = i_link1 + 1u)
+    length_array_link1[(signed long int)i_link1] = 0;
+  i_link1 = (unsigned int)1;
+  for( ; num_ctg >= i_link1; i_link1 = i_link1 + 1u)
+    if(index_array[(signed long int)i_link1] >= 1u)
+      length_array_link1[(signed long int)index_array[(signed long int)i_link1]] = (signed int)i_link1;
 
-  i$link1 = (unsigned int)1;
-  for( ; num_ctg >= i$link1; i$link1 = i$link1 + 1u)
-    index_array[(signed long int)i$link1] = (unsigned int)length_array$link1[(signed long int)i$link1];
-  free((void *)length_array$link1);
+  i_link1 = (unsigned int)1;
+  for( ; num_ctg >= i_link1; i_link1 = i_link1 + 1u)
+    index_array[(signed long int)i_link1] = (unsigned int)length_array_link1[(signed long int)i_link1];
+  free((void *)length_array_link1);
 }
 
 // copyEdge
@@ -8026,31 +8026,31 @@ static void copySeq(char *targetS, char *sourceS, signed int pos, signed int len
   signed int i;
   signed int index = pos;
   i = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   for( ; !(i >= length); i = i + 1)
   {
     ch=getCharInTightString(sourceS, i);
-    tmp_post$1 = index;
+    tmp_post_1 = index;
     index = index + 1;
-    targetS[(signed long int)tmp_post$1] = ch;
+    targetS[(signed long int)tmp_post_1] = ch;
   }
 }
 
-// copySeq$link1
+// copySeq_link1
 // file concatenateEdge.c line 28
-void copySeq$link1(char *targetS$link1, char *sourceS$link1, signed int pos$link1, signed int length$link1)
+void copySeq_link1(char *targetS_link1, char *sourceS_link1, signed int pos_link1, signed int length_link1)
 {
-  char ch$link1;
-  signed int i$link1;
-  signed int index$link1 = pos$link1;
-  i$link1 = 0;
-  signed int tmp_post$1$link1;
-  for( ; !(i$link1 >= length$link1); i$link1 = i$link1 + 1)
+  char ch_link1;
+  signed int i_link1;
+  signed int index_link1 = pos_link1;
+  i_link1 = 0;
+  signed int tmp_post_1_link1;
+  for( ; !(i_link1 >= length_link1); i_link1 = i_link1 + 1)
   {
-    ch$link1=getCharInTightString(sourceS$link1, i$link1);
-    tmp_post$1$link1 = index$link1;
-    index$link1 = index$link1 + 1;
-    writeChar2tightString(ch$link1, targetS$link1, tmp_post$1$link1);
+    ch_link1=getCharInTightString(sourceS_link1, i_link1);
+    tmp_post_1_link1 = index_link1;
+    index_link1 = index_link1 + 1;
+    writeChar2tightString(ch_link1, targetS_link1, tmp_post_1_link1);
   }
 }
 
@@ -8171,9 +8171,9 @@ static unsigned int cp1edge(unsigned int source, unsigned int target)
     bal_target = target;
     target = target + (unsigned int)1;
   }
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)(length / 4 + 1) * sizeof(char) /*1ul*/ );
-  tightSeq = (char *)return_value_ckalloc$1;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)(length / 4 + 1) * sizeof(char) /*1ul*/ );
+  tightSeq = (char *)return_value_ckalloc_1;
   index = 0;
   for( ; !(index >= length / 4 + 1); index = index + 1)
     tightSeq[(signed long int)index] = (edge_array + (signed long int)source)->seq[(signed long int)index];
@@ -8188,9 +8188,9 @@ static unsigned int cp1edge(unsigned int source, unsigned int target)
   (edge_array + (signed long int)target)->markers = (signed long long int *)(void *)0;
   (edge_array + (signed long int)target)->flag = (unsigned short int)0;
   (edge_array + (signed long int)target)->deleted = (unsigned short int)0;
-  void *return_value_ckalloc$2;
-  return_value_ckalloc$2=ckalloc((unsigned long int)(length / 4 + 1) * sizeof(char) /*1ul*/ );
-  tightSeq = (char *)return_value_ckalloc$2;
+  void *return_value_ckalloc_2;
+  return_value_ckalloc_2=ckalloc((unsigned long int)(length / 4 + 1) * sizeof(char) /*1ul*/ );
+  tightSeq = (char *)return_value_ckalloc_2;
   index = 0;
   for( ; !(index >= length / 4 + 1); index = index + 1)
     tightSeq[(signed long int)index] = (edge_array + (signed long int)bal_source)->seq[(signed long int)index];
@@ -8212,8 +8212,8 @@ static unsigned int cp1edge(unsigned int source, unsigned int target)
 // file hashFunction.c line 85
 static signed int crc32(signed int crc, const char *buf, signed int len)
 {
-  signed int tmp_post$1;
-  const char *tmp_post$2;
+  signed int tmp_post_1;
+  const char *tmp_post_2;
   if(buf == ((const char *)NULL))
     return 0;
 
@@ -8222,14 +8222,14 @@ static signed int crc32(signed int crc, const char *buf, signed int len)
     crc = (signed int)((unsigned int)crc ^ 0xffffffff);
     do
     {
-      tmp_post$1 = len;
+      tmp_post_1 = len;
       len = len - 1;
-      if(tmp_post$1 == 0)
+      if(tmp_post_1 == 0)
         break;
 
-      tmp_post$2 = buf;
+      tmp_post_2 = buf;
       buf = buf + 1l;
-      crc = crc_table[(signed long int)(((signed int)crc ^ (signed int)*tmp_post$2) & 0xff)] ^ crc >> 8;
+      crc = crc_table[(signed long int)(((signed int)crc ^ (signed int)*tmp_post_2) & 0xff)] ^ crc >> 8;
     }
     while((_Bool)1);
     return (signed int)((unsigned int)crc ^ 0xffffffff);
@@ -8256,17 +8256,17 @@ static void creatThrds(unsigned long int *threads, struct parameter *paras)
   printf("%d thread created\n", thrd_num);
 }
 
-// creatThrds$link1
+// creatThrds_link1
 // file prlHashCtg.c line 135
-static void creatThrds$link1(unsigned long int *threads$link1, struct parameter *paras$link1)
+static void creatThrds_link1(unsigned long int *threads_link1, struct parameter *paras_link1)
 {
-  unsigned char i$link1;
-  signed int temp$link1;
-  i$link1 = (unsigned char)0;
-  for( ; !((signed int)i$link1 >= thrd_num); i$link1 = i$link1 + 1)
+  unsigned char i_link1;
+  signed int temp_link1;
+  i_link1 = (unsigned char)0;
+  for( ; !((signed int)i_link1 >= thrd_num); i_link1 = i_link1 + 1)
   {
-    temp$link1=pthread_create(&threads$link1[(signed long int)i$link1], (const union pthread_attr_t *)(void *)0, (void * (*)(void *))(void *)threadRoutine$link1, (void *)&paras$link1[(signed long int)i$link1]);
-    if(!(temp$link1 == 0))
+    temp_link1=pthread_create(&threads_link1[(signed long int)i_link1], (const union pthread_attr_t *)(void *)0, (void * (*)(void *))(void *)threadRoutine_link1, (void *)&paras_link1[(signed long int)i_link1]);
+    if(!(temp_link1 == 0))
     {
       printf("create threads failed\n");
       exit(1);
@@ -8276,17 +8276,17 @@ static void creatThrds$link1(unsigned long int *threads$link1, struct parameter 
   printf("%d thread created\n", thrd_num);
 }
 
-// creatThrds$link2
+// creatThrds_link2
 // file prlHashReads.c line 122
-static void creatThrds$link2(unsigned long int *threads$link2, struct parameter *paras$link2)
+static void creatThrds_link2(unsigned long int *threads_link2, struct parameter *paras_link2)
 {
-  unsigned char i$link2;
-  signed int temp$link2;
-  i$link2 = (unsigned char)0;
-  for( ; !((signed int)i$link2 >= thrd_num); i$link2 = i$link2 + 1)
+  unsigned char i_link2;
+  signed int temp_link2;
+  i_link2 = (unsigned char)0;
+  for( ; !((signed int)i_link2 >= thrd_num); i_link2 = i_link2 + 1)
   {
-    temp$link2=pthread_create(&threads$link2[(signed long int)i$link2], (const union pthread_attr_t *)(void *)0, (void * (*)(void *))(void *)threadRoutine$link2, (void *)&paras$link2[(signed long int)i$link2]);
-    if(!(temp$link2 == 0))
+    temp_link2=pthread_create(&threads_link2[(signed long int)i_link2], (const union pthread_attr_t *)(void *)0, (void * (*)(void *))(void *)threadRoutine_link2, (void *)&paras_link2[(signed long int)i_link2]);
+    if(!(temp_link2 == 0))
     {
       printf("create threads failed\n");
       exit(1);
@@ -8296,17 +8296,17 @@ static void creatThrds$link2(unsigned long int *threads$link2, struct parameter 
   printf("%d thread created\n", thrd_num);
 }
 
-// creatThrds$link3
+// creatThrds_link3
 // file prlRead2Ctg.c line 61
-static void creatThrds$link3(unsigned long int *threads$link3, struct parameter *paras$link3)
+static void creatThrds_link3(unsigned long int *threads_link3, struct parameter *paras_link3)
 {
-  unsigned char i$link3;
-  signed int temp$link3;
-  i$link3 = (unsigned char)0;
-  for( ; !((signed int)i$link3 >= thrd_num); i$link3 = i$link3 + 1)
+  unsigned char i_link3;
+  signed int temp_link3;
+  i_link3 = (unsigned char)0;
+  for( ; !((signed int)i_link3 >= thrd_num); i_link3 = i_link3 + 1)
   {
-    temp$link3=pthread_create(&threads$link3[(signed long int)i$link3], (const union pthread_attr_t *)(void *)0, (void * (*)(void *))(void *)threadRoutine$link3, (void *)&paras$link3[(signed long int)i$link3]);
-    if(!(temp$link3 == 0))
+    temp_link3=pthread_create(&threads_link3[(signed long int)i_link3], (const union pthread_attr_t *)(void *)0, (void * (*)(void *))(void *)threadRoutine_link3, (void *)&paras_link3[(signed long int)i_link3]);
+    if(!(temp_link3 == 0))
     {
       printf("create threads failed\n");
       exit(1);
@@ -8316,17 +8316,17 @@ static void creatThrds$link3(unsigned long int *threads$link3, struct parameter 
   printf("%d thread created\n", thrd_num);
 }
 
-// creatThrds$link4
+// creatThrds_link4
 // file prlRead2path.c line 65
-static void creatThrds$link4(unsigned long int *threads$link4, struct parameter *paras$link4)
+static void creatThrds_link4(unsigned long int *threads_link4, struct parameter *paras_link4)
 {
-  unsigned char i$link4;
-  signed int temp$link4;
-  i$link4 = (unsigned char)0;
-  for( ; !((signed int)i$link4 >= thrd_num); i$link4 = i$link4 + 1)
+  unsigned char i_link4;
+  signed int temp_link4;
+  i_link4 = (unsigned char)0;
+  for( ; !((signed int)i_link4 >= thrd_num); i_link4 = i_link4 + 1)
   {
-    temp$link4=pthread_create(&threads$link4[(signed long int)i$link4], (const union pthread_attr_t *)(void *)0, (void * (*)(void *))(void *)threadRoutine$link4, (void *)&paras$link4[(signed long int)i$link4]);
-    if(!(temp$link4 == 0))
+    temp_link4=pthread_create(&threads_link4[(signed long int)i_link4], (const union pthread_attr_t *)(void *)0, (void * (*)(void *))(void *)threadRoutine_link4, (void *)&paras_link4[(signed long int)i_link4]);
+    if(!(temp_link4 == 0))
     {
       printf("create threads failed\n");
       exit(1);
@@ -8336,17 +8336,17 @@ static void creatThrds$link4(unsigned long int *threads$link4, struct parameter 
   printf("%d thread created\n", thrd_num);
 }
 
-// creatThrds$link5
+// creatThrds_link5
 // file prlReadFillGap.c line 909
-static void creatThrds$link5(unsigned long int *threads$link5, struct parameter *paras$link5)
+static void creatThrds_link5(unsigned long int *threads_link5, struct parameter *paras_link5)
 {
-  unsigned char i$link5;
-  signed int temp$link5;
-  i$link5 = (unsigned char)0;
-  for( ; !((signed int)i$link5 >= thrd_num); i$link5 = i$link5 + 1)
+  unsigned char i_link5;
+  signed int temp_link5;
+  i_link5 = (unsigned char)0;
+  for( ; !((signed int)i_link5 >= thrd_num); i_link5 = i_link5 + 1)
   {
-    temp$link5=pthread_create(&threads$link5[(signed long int)i$link5], (const union pthread_attr_t *)(void *)0, (void * (*)(void *))(void *)threadRoutine$link5, (void *)&paras$link5[(signed long int)i$link5]);
-    if(!(temp$link5 == 0))
+    temp_link5=pthread_create(&threads_link5[(signed long int)i_link5], (const union pthread_attr_t *)(void *)0, (void * (*)(void *))(void *)threadRoutine_link5, (void *)&paras_link5[(signed long int)i_link5]);
+    if(!(temp_link5 == 0))
     {
       printf("create threads failed\n");
       exit(1);
@@ -8401,9 +8401,9 @@ static void createAnalogousArc(unsigned int originNode, unsigned int destination
 
     else
     {
-      unsigned int return_value_getTwinEdge$1;
-      return_value_getTwinEdge$1=getTwinEdge(originNode);
-      twinArc=allocateArc(return_value_getTwinEdge$1);
+      unsigned int return_value_getTwinEdge_1;
+      return_value_getTwinEdge_1=getTwinEdge(originNode);
+      twinArc=allocateArc(return_value_getTwinEdge_1);
       arc->bal_arc = twinArc;
       twinArc->bal_arc = arc;
       twinArc->multiplicity = refArc->multiplicity;
@@ -8456,9 +8456,9 @@ extern void createArcLookupTable()
 {
   if(arcLookupTable == ((struct arc **)NULL))
   {
-    void *return_value_ckalloc$1;
-    return_value_ckalloc$1=ckalloc((unsigned long int)((unsigned int)3 * num_ed + (unsigned int)1) * sizeof(struct arc *) /*8ul*/ );
-    arcLookupTable = (struct arc **)return_value_ckalloc$1;
+    void *return_value_ckalloc_1;
+    return_value_ckalloc_1=ckalloc((unsigned long int)((unsigned int)3 * num_ed + (unsigned int)1) * sizeof(struct arc *) /*8ul*/ );
+    arcLookupTable = (struct arc **)return_value_ckalloc_1;
   }
 
 }
@@ -8480,9 +8480,9 @@ extern void createCntLookupTable()
 {
   if(cntLookupTable == ((struct connection **)NULL))
   {
-    void *return_value_ckalloc$1;
-    return_value_ckalloc$1=ckalloc((unsigned long int)((unsigned int)3 * num_ctg + (unsigned int)1) * sizeof(struct connection *) /*8ul*/ );
-    cntLookupTable = (struct connection **)return_value_ckalloc$1;
+    void *return_value_ckalloc_1;
+    return_value_ckalloc_1=ckalloc((unsigned long int)((unsigned int)3 * num_ctg + (unsigned int)1) * sizeof(struct connection *) /*8ul*/ );
+    cntLookupTable = (struct connection **)return_value_ckalloc_1;
   }
 
 }
@@ -8503,15 +8503,15 @@ extern void createCntMemManager()
 struct dynamic_array * createDarray(signed int num_items, unsigned long int unit_size)
 {
   struct dynamic_array *newDarray;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)1 * sizeof(struct dynamic_array) /*32ul*/ );
-  newDarray = (struct dynamic_array *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)1 * sizeof(struct dynamic_array) /*32ul*/ );
+  newDarray = (struct dynamic_array *)return_value_malloc_1;
   newDarray->array_size = (signed long long int)num_items;
   newDarray->item_size = unit_size;
   newDarray->item_c = (signed long long int)0;
-  void *return_value_ckalloc$2;
-  return_value_ckalloc$2=ckalloc((unsigned long int)num_items * unit_size);
-  newDarray->array = (void *)return_value_ckalloc$2;
+  void *return_value_ckalloc_2;
+  return_value_ckalloc_2=ckalloc((unsigned long int)num_items * unit_size);
+  newDarray->array = (void *)return_value_ckalloc_2;
   return newDarray;
 }
 
@@ -8520,9 +8520,9 @@ struct dynamic_array * createDarray(signed int num_items, unsigned long int unit
 extern struct mem_manager * createMem_manager(signed int num_items, unsigned long int unit_size)
 {
   struct mem_manager *mem_Manager;
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)1 * sizeof(struct mem_manager) /*40ul*/ );
-  mem_Manager = (struct mem_manager *)return_value_ckalloc$1;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)1 * sizeof(struct mem_manager) /*40ul*/ );
+  mem_Manager = (struct mem_manager *)return_value_ckalloc_1;
   mem_Manager->block_list = (struct block_start *)(void *)0;
   mem_Manager->items_per_block = num_items;
   mem_Manager->item_size = unit_size;
@@ -8554,9 +8554,9 @@ extern void createRVmemo()
 struct stack * createStack(signed int num_items, unsigned long int unit_size)
 {
   struct stack *newStack;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)1 * sizeof(struct stack) /*48ul*/ );
-  newStack = (struct stack *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)1 * sizeof(struct stack) /*48ul*/ );
+  newStack = (struct stack *)return_value_malloc_1;
   newStack->block_list = (struct block_starter *)(void *)0;
   newStack->items_per_block = num_items;
   newStack->item_size = unit_size;
@@ -8571,7 +8571,7 @@ static void cutRdArray(struct read_nearby *rdArray, signed int gapStart, signed 
   signed int i;
   signed int num = 0;
   i = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   for( ; !(i >= arrayLen); i = i + 1)
   {
     if(!(gapEnd >= (rdArray + (signed long int)i)->dis))
@@ -8581,9 +8581,9 @@ static void cutRdArray(struct read_nearby *rdArray, signed int gapStart, signed 
     {
       (cutArray + (signed long int)num)->dis = (rdArray + (signed long int)i)->dis;
       (cutArray + (signed long int)num)->len = (rdArray + (signed long int)i)->len;
-      tmp_post$1 = num;
+      tmp_post_1 = num;
       num = num + 1;
-      (cutArray + (signed long int)tmp_post$1)->seqStarter = (rdArray + (signed long int)i)->seqStarter;
+      (cutArray + (signed long int)tmp_post_1)->seqStarter = (rdArray + (signed long int)i)->seqStarter;
     }
 
   }
@@ -8604,16 +8604,16 @@ static signed int cutSeqFromCtg(unsigned int ctgID, signed int start, signed int
     signed int length = (signed int)((contig_array + (signed long int)ctgID)->length + (unsigned int)originOverlap);
     if(!((contig_array + (signed long int)ctgID)->seq == ((char *)NULL)))
     {
-      signed int return_value_cutSeqFromTightStr$1;
-      return_value_cutSeqFromTightStr$1=cutSeqFromTightStr((contig_array + (signed long int)ctgID)->seq, length, start, end, 0, sequence);
-      return return_value_cutSeqFromTightStr$1;
+      signed int return_value_cutSeqFromTightStr_1;
+      return_value_cutSeqFromTightStr_1=cutSeqFromTightStr((contig_array + (signed long int)ctgID)->seq, length, start, end, 0, sequence);
+      return return_value_cutSeqFromTightStr_1;
     }
 
     else
     {
-      signed int return_value_cutSeqFromTightStr$2;
-      return_value_cutSeqFromTightStr$2=cutSeqFromTightStr((contig_array + (signed long int)bal_ctg)->seq, length, start, end, 1, sequence);
-      return return_value_cutSeqFromTightStr$2;
+      signed int return_value_cutSeqFromTightStr_2;
+      return_value_cutSeqFromTightStr_2=cutSeqFromTightStr((contig_array + (signed long int)bal_ctg)->seq, length, start, end, 1, sequence);
+      return return_value_cutSeqFromTightStr_2;
     }
   }
 }
@@ -8641,16 +8641,16 @@ static signed int cutSeqFromTightStr(char *tightStr, signed int length, signed i
   signed int index = 0;
   end = end < length ? end : length - 1;
   start = start >= 0 ? start : 0;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
   if(revS == 0)
   {
     i = start;
     for( ; end >= i; i = i + 1)
     {
-      tmp_post$1 = index;
+      tmp_post_1 = index;
       index = index + 1;
-      src_seq[(signed long int)tmp_post$1]=getCharInTightString(tightStr, i);
+      src_seq[(signed long int)tmp_post_1]=getCharInTightString(tightStr, i);
     }
   }
 
@@ -8659,11 +8659,11 @@ static signed int cutSeqFromTightStr(char *tightStr, signed int length, signed i
     i = (length - 1) - start;
     for( ; i >= length + -end + -1; i = i - 1)
     {
-      tmp_post$2 = index;
+      tmp_post_2 = index;
       index = index + 1;
-      char return_value_getCharInTightString$3;
-      return_value_getCharInTightString$3=getCharInTightString(tightStr, i);
-      src_seq[(signed long int)tmp_post$2] = (char)((signed int)return_value_getCharInTightString$3 ^ 0x02);
+      char return_value_getCharInTightString_3;
+      return_value_getCharInTightString_3=getCharInTightString(tightStr, i);
+      src_seq[(signed long int)tmp_post_2] = (char)((signed int)return_value_getCharInTightString_3 ^ 0x02);
     }
   }
   return (end - start) + 1;
@@ -8683,10 +8683,10 @@ extern void cutTipsInGraph(signed int cutLen, char strict)
     linearConcatenate();
 
   caseE = 0;
-  caseD$link1 = caseE;
-  caseC$link1 = caseD$link1;
-  caseB$link1 = caseC$link1;
-  caseA$link1 = caseB$link1;
+  caseD_link1 = caseE;
+  caseC_link1 = caseD_link1;
+  caseB_link1 = caseC_link1;
+  caseA_link1 = caseB_link1;
   while(!(flag == 0))
   {
     flag = 0;
@@ -8694,9 +8694,9 @@ extern void cutTipsInGraph(signed int cutLen, char strict)
     for( ; num_ed >= i; i = i + 1u)
       if((edge_array + (signed long int)i)->deleted == 0)
       {
-        char return_value_isUnreliableTip$1;
-        return_value_isUnreliableTip$1=isUnreliableTip(i, cutLen, strict);
-        if(!(return_value_isUnreliableTip$1 == 0))
+        char return_value_isUnreliableTip_1;
+        return_value_isUnreliableTip_1=isUnreliableTip(i, cutLen, strict);
+        if(!(return_value_isUnreliableTip_1 == 0))
         {
           destroyEdge(i);
           flag = flag + 1;
@@ -8708,7 +8708,7 @@ extern void cutTipsInGraph(signed int cutLen, char strict)
   }
   removeDeadArcs();
   if(!(strict == 0))
-    printf("case A %d, B %d C %d D %d E %d\n", caseA$link1, caseB$link1, caseC$link1, caseD$link1, caseE);
+    printf("case A %d, B %d C %d D %d E %d\n", caseA_link1, caseB_link1, caseC_link1, caseD_link1, caseE);
 
   linearConcatenate();
   compactEdgeArray();
@@ -8743,9 +8743,9 @@ void * darrayPut(struct dynamic_array *darray, signed long long int index)
   {
     for( ; !(darray->array_size * (signed long int)i >= index); i = i + 1)
       ;
-    void *return_value_ckrealloc$1;
-    return_value_ckrealloc$1=ckrealloc(darray->array, (unsigned long int)((signed long int)i * darray->array_size) * darray->item_size, (unsigned long int)darray->array_size * darray->item_size);
-    darray->array = (void *)return_value_ckrealloc$1;
+    void *return_value_ckrealloc_1;
+    return_value_ckrealloc_1=ckrealloc(darray->array, (unsigned long int)((signed long int)i * darray->array_size) * darray->item_size, (unsigned long int)darray->array_size * darray->item_size);
+    darray->array = (void *)return_value_ckrealloc_1;
     darray->array_size = darray->array_size * (signed long long int)i;
     return (void *)((void *)darray->array + (signed long int)(darray->item_size * (unsigned long int)index));
   }
@@ -8757,13 +8757,13 @@ static void deLowCov(unsigned char *thrdSignal)
 {
   signed int i;
   signed long long int counter = (signed long long int)0;
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)thrd_num * sizeof(signed long long int) /*8ul*/ );
-  tips = (signed long long int *)return_value_ckalloc$1;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)thrd_num * sizeof(signed long long int) /*8ul*/ );
+  tips = (signed long long int *)return_value_ckalloc_1;
   i = 0;
   for( ; !(i >= thrd_num); i = i + 1)
     tips[(signed long int)i] = (signed long long int)0;
-  sendWorkSignal$link2((unsigned char)5, thrdSignal);
+  sendWorkSignal_link2((unsigned char)5, thrdSignal);
   i = 0;
   for( ; !(i >= thrd_num); i = i + 1)
     counter = counter + tips[(signed long int)i];
@@ -8881,8 +8881,8 @@ static void deleteWeakCnt(signed int cut_off)
   signed int weaks = 0;
   signed int counter = 0;
   i = (unsigned int)1;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   for( ; num_ctg >= i; i = i + 1u)
   {
     cn_temp1 = (contig_array + (signed long int)i)->downwardConnect;
@@ -8908,16 +8908,16 @@ static void deleteWeakCnt(signed int cut_off)
       }
 
       if(!(cn_temp1->weak == 0))
-        tmp_if_expr$1 = cn_temp1->deleted != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = cn_temp1->deleted != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$2 = (signed int)cn_temp1->weight >= cut_off ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_2 = (signed int)cn_temp1->weight >= cut_off ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
       {
         cn_temp1->deleted = (unsigned char)0;
         cn_temp1->weak = (unsigned char)0;
@@ -8972,9 +8972,9 @@ static void destroyArc(unsigned int from_ed, struct arc *arc)
     (edge_array + (signed long int)from_ed)->arcs=deleteArc((edge_array + (signed long int)from_ed)->arcs, arc);
     if(!(bal_dest == from_ed))
     {
-      unsigned int return_value_getTwinEdge$1;
-      return_value_getTwinEdge$1=getTwinEdge(from_ed);
-      removeArcInLookupTable(bal_dest, return_value_getTwinEdge$1);
+      unsigned int return_value_getTwinEdge_1;
+      return_value_getTwinEdge_1=getTwinEdge(from_ed);
+      removeArcInLookupTable(bal_dest, return_value_getTwinEdge_1);
       (edge_array + (signed long int)bal_dest)->arcs=deleteArc((edge_array + (signed long int)bal_dest)->arcs, twinArc);
     }
 
@@ -9135,46 +9135,46 @@ static void detectBreakScaf()
   struct connection *cnt;
   struct connection *weakCnt;
   struct stack *scafStack1;
-  struct stack *return_value_createStack$1;
-  return_value_createStack$1=createStack(1000, sizeof(unsigned int) /*4ul*/ );
-  scafStack1 = (struct stack *)return_value_createStack$1;
+  struct stack *return_value_createStack_1;
+  return_value_createStack_1=createStack(1000, sizeof(unsigned int) /*4ul*/ );
+  scafStack1 = (struct stack *)return_value_createStack_1;
   struct stack *scafStack2;
-  struct stack *return_value_createStack$2;
-  return_value_createStack$2=createStack(1000, sizeof(unsigned int) /*4ul*/ );
-  scafStack2 = (struct stack *)return_value_createStack$2;
+  struct stack *return_value_createStack_2;
+  return_value_createStack_2=createStack(1000, sizeof(unsigned int) /*4ul*/ );
+  scafStack2 = (struct stack *)return_value_createStack_2;
   i = (unsigned int)1;
   for( ; num_ctg >= i; i = i + 1u)
     (contig_array + (signed long int)i)->flag = (unsigned char)0;
   i = (unsigned int)1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  signed int tmp_post$5;
-  signed int tmp_post$8;
-  signed int tmp_post$10;
-  signed int tmp_post$12;
-  void *return_value_darrayPut$13;
-  void *return_value_darrayGet$14;
-  signed int tmp_post$15;
-  void *return_value_darrayPut$16;
-  void *return_value_darrayGet$17;
-  _Bool tmp_if_expr$20;
-  _Bool tmp_if_expr$21;
-  _Bool tmp_if_expr$23;
-  _Bool tmp_if_expr$22;
-  _Bool tmp_if_expr$26;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  signed int tmp_post_5;
+  signed int tmp_post_8;
+  signed int tmp_post_10;
+  signed int tmp_post_12;
+  void *return_value_darrayPut_13;
+  void *return_value_darrayGet_14;
+  signed int tmp_post_15;
+  void *return_value_darrayPut_16;
+  void *return_value_darrayGet_17;
+  _Bool tmp_if_expr_20;
+  _Bool tmp_if_expr_21;
+  _Bool tmp_if_expr_23;
+  _Bool tmp_if_expr_22;
+  _Bool tmp_if_expr_26;
   for( ; num_ctg >= i; i = i + 1u)
   {
     if(!((contig_array + (signed long int)i)->flag == 0))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (contig_array + (signed long int)i)->mask != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_3 = (contig_array + (signed long int)i)->mask != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = !((contig_array + (signed long int)i)->downwardConnect != ((struct connection *)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$4)
+      tmp_if_expr_4 = !((contig_array + (signed long int)i)->downwardConnect != ((struct connection *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_4)
     {
       bindCnt=getBindCnt(i);
       if(!(bindCnt == ((struct connection *)NULL)))
@@ -9185,15 +9185,15 @@ static void detectBreakScaf()
         num5 = num3;
         scafLen = (contig_array + (signed long int)i)->length;
         ctg = i;
-        tmp_post$5 = num5;
+        tmp_post_5 = num5;
         num5 = num5 + 1;
-        void *return_value_darrayPut$6;
-        return_value_darrayPut$6=darrayPut(scaf5, (signed long long int)tmp_post$5);
-        *((unsigned int *)return_value_darrayPut$6) = i;
+        void *return_value_darrayPut_6;
+        return_value_darrayPut_6=darrayPut(scaf5, (signed long long int)tmp_post_5);
+        *((unsigned int *)return_value_darrayPut_6) = i;
         (contig_array + (signed long int)i)->flag = (unsigned char)1;
-        unsigned int return_value_getTwinCtg$7;
-        return_value_getTwinCtg$7=getTwinCtg(i);
-        (contig_array + (signed long int)return_value_getTwinCtg$7)->flag = (unsigned char)1;
+        unsigned int return_value_getTwinCtg_7;
+        return_value_getTwinCtg_7=getTwinCtg(i);
+        (contig_array + (signed long int)return_value_getTwinCtg_7)->flag = (unsigned char)1;
         while(!(bindCnt == ((struct connection *)NULL)))
         {
           if(bindCnt->bySmall == 0)
@@ -9203,11 +9203,11 @@ static void detectBreakScaf()
           peCounter = peCounter + (signed long long int)bindCnt->maxGap;
           ctg = bindCnt->contigID;
           scafLen = scafLen + (contig_array + (signed long int)ctg)->length;
-          tmp_post$8 = num5;
+          tmp_post_8 = num5;
           num5 = num5 + 1;
-          void *return_value_darrayPut$9;
-          return_value_darrayPut$9=darrayPut(scaf5, (signed long long int)tmp_post$8);
-          *((unsigned int *)return_value_darrayPut$9) = ctg;
+          void *return_value_darrayPut_9;
+          return_value_darrayPut_9=darrayPut(scaf5, (signed long long int)tmp_post_8);
+          *((unsigned int *)return_value_darrayPut_9) = ctg;
           bal_ctg=getTwinCtg(ctg);
           (contig_array + (signed long int)ctg)->flag = (unsigned char)1;
           (contig_array + (signed long int)bal_ctg)->flag = (unsigned char)1;
@@ -9227,11 +9227,11 @@ static void detectBreakScaf()
           bal_ctg=getTwinCtg(ctg);
           (contig_array + (signed long int)ctg)->flag = (unsigned char)1;
           (contig_array + (signed long int)bal_ctg)->flag = (unsigned char)1;
-          tmp_post$10 = num3;
+          tmp_post_10 = num3;
           num3 = num3 + 1;
-          void *return_value_darrayPut$11;
-          return_value_darrayPut$11=darrayPut(scaf3, (signed long long int)tmp_post$10);
-          *((unsigned int *)return_value_darrayPut$11) = bal_ctg;
+          void *return_value_darrayPut_11;
+          return_value_darrayPut_11=darrayPut(scaf3, (signed long long int)tmp_post_10);
+          *((unsigned int *)return_value_darrayPut_11) = bal_ctg;
           bindCnt = bindCnt->nextInScaf;
         }
         if(linkCounter >= 1l && scafLen >= 5000u)
@@ -9243,33 +9243,33 @@ static void detectBreakScaf()
             j = num3 - 1;
             for( ; j >= 0; j = j - 1)
             {
-              tmp_post$12 = tempCounter;
+              tmp_post_12 = tempCounter;
               tempCounter = tempCounter + 1;
-              return_value_darrayPut$13=darrayPut(tempArray, (signed long long int)tmp_post$12);
-              return_value_darrayGet$14=darrayGet(scaf3, (signed long long int)j);
-              *((unsigned int *)return_value_darrayPut$13) = *((unsigned int *)return_value_darrayGet$14);
+              return_value_darrayPut_13=darrayPut(tempArray, (signed long long int)tmp_post_12);
+              return_value_darrayGet_14=darrayGet(scaf3, (signed long long int)j);
+              *((unsigned int *)return_value_darrayPut_13) = *((unsigned int *)return_value_darrayGet_14);
             }
             j = 0;
             for( ; !(j >= num5); j = j + 1)
             {
-              tmp_post$15 = tempCounter;
+              tmp_post_15 = tempCounter;
               tempCounter = tempCounter + 1;
-              return_value_darrayPut$16=darrayPut(tempArray, (signed long long int)tmp_post$15);
-              return_value_darrayGet$17=darrayGet(scaf5, (signed long long int)j);
-              *((unsigned int *)return_value_darrayPut$16) = *((unsigned int *)return_value_darrayGet$17);
+              return_value_darrayPut_16=darrayPut(tempArray, (signed long long int)tmp_post_15);
+              return_value_darrayGet_17=darrayGet(scaf5, (signed long long int)j);
+              *((unsigned int *)return_value_darrayPut_16) = *((unsigned int *)return_value_darrayGet_17);
             }
-            void *return_value_darrayGet$18;
-            return_value_darrayGet$18=darrayGet(tempArray, (signed long long int)0);
-            prevCtg = *((unsigned int *)return_value_darrayGet$18);
+            void *return_value_darrayGet_18;
+            return_value_darrayGet_18=darrayGet(tempArray, (signed long long int)0);
+            prevCtg = *((unsigned int *)return_value_darrayGet_18);
             weakCnt = (struct connection *)(void *)0;
             weakPoint = 0;
             len = (contig_array + (signed long int)prevCtg)->length;
             t = 1;
             for( ; !(t >= tempCounter); t = t + 1)
             {
-              void *return_value_darrayGet$19;
-              return_value_darrayGet$19=darrayGet(tempArray, (signed long long int)t);
-              thisCtg = *((unsigned int *)return_value_darrayGet$19);
+              void *return_value_darrayGet_19;
+              return_value_darrayGet_19=darrayGet(tempArray, (signed long long int)t);
+              thisCtg = *((unsigned int *)return_value_darrayGet_19);
               if(!(len >= 2000u))
               {
                 len = len + (contig_array + (signed long int)thisCtg)->length;
@@ -9283,22 +9283,22 @@ static void detectBreakScaf()
 
               len = len + (contig_array + (signed long int)thisCtg)->length;
               if(!((contig_array + (signed long int)prevCtg)->from_vt == (contig_array + (signed long int)thisCtg)->from_vt))
-                tmp_if_expr$20 = (_Bool)1;
+                tmp_if_expr_20 = (_Bool)1;
 
               else
-                tmp_if_expr$20 = (signed int)(contig_array + (signed long int)prevCtg)->indexInScaf > (signed int)(contig_array + (signed long int)thisCtg)->indexInScaf ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$20)
+                tmp_if_expr_20 = (signed int)(contig_array + (signed long int)prevCtg)->indexInScaf > (signed int)(contig_array + (signed long int)thisCtg)->indexInScaf ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_20)
                 prevCtg = thisCtg;
 
               else
               {
                 cnt=getCntBetween(prevCtg, thisCtg);
                 if(weakCnt == ((struct connection *)NULL))
-                  tmp_if_expr$21 = (_Bool)1;
+                  tmp_if_expr_21 = (_Bool)1;
 
                 else
-                  tmp_if_expr$21 = (signed int)weakCnt->maxGap > (signed int)cnt->maxGap ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$21)
+                  tmp_if_expr_21 = (signed int)weakCnt->maxGap > (signed int)cnt->maxGap ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_21)
                 {
                   weakCnt = cnt;
                   weakPoint = t;
@@ -9311,31 +9311,31 @@ static void detectBreakScaf()
               ;
             }
             if(weakCnt == ((struct connection *)NULL))
-              tmp_if_expr$23 = (_Bool)1;
+              tmp_if_expr_23 = (_Bool)1;
 
             else
             {
               if((signed int)weakCnt->maxGap >= 3)
-                tmp_if_expr$22 = (unsigned int)weakCnt->maxGap > avgPE / (unsigned int)5 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_22 = (unsigned int)weakCnt->maxGap > avgPE / (unsigned int)5 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$22 = (_Bool)0;
-              tmp_if_expr$23 = tmp_if_expr$22 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_22 = (_Bool)0;
+              tmp_if_expr_23 = tmp_if_expr_22 ? (_Bool)1 : (_Bool)0;
             }
-            if(!tmp_if_expr$23)
+            if(!tmp_if_expr_23)
             {
-              void *return_value_darrayGet$24;
-              return_value_darrayGet$24=darrayGet(tempArray, (signed long long int)(weakPoint - 1));
-              prevCtg = *((unsigned int *)return_value_darrayGet$24);
-              void *return_value_darrayGet$25;
-              return_value_darrayGet$25=darrayGet(tempArray, (signed long long int)weakPoint);
-              thisCtg = *((unsigned int *)return_value_darrayGet$25);
+              void *return_value_darrayGet_24;
+              return_value_darrayGet_24=darrayGet(tempArray, (signed long long int)(weakPoint - 1));
+              prevCtg = *((unsigned int *)return_value_darrayGet_24);
+              void *return_value_darrayGet_25;
+              return_value_darrayGet_25=darrayGet(tempArray, (signed long long int)weakPoint);
+              thisCtg = *((unsigned int *)return_value_darrayGet_25);
               if(!((contig_array + (signed long int)prevCtg)->from_vt == (contig_array + (signed long int)thisCtg)->from_vt))
-                tmp_if_expr$26 = (_Bool)1;
+                tmp_if_expr_26 = (_Bool)1;
 
               else
-                tmp_if_expr$26 = (signed int)(contig_array + (signed long int)prevCtg)->indexInScaf > (signed int)(contig_array + (signed long int)thisCtg)->indexInScaf ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$26)
+                tmp_if_expr_26 = (signed int)(contig_array + (signed long int)prevCtg)->indexInScaf > (signed int)(contig_array + (signed long int)thisCtg)->indexInScaf ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_26)
                 printf("contig %d and %d not on the same scaff\n", prevCtg, thisCtg);
 
               else
@@ -9345,52 +9345,52 @@ static void detectBreakScaf()
                 signed int index2;
                 setBreakPoints(tempArray, tempCounter, weakPoint - 1, &index1, &index2);
                 unsigned int start;
-                void *return_value_darrayGet$27;
-                return_value_darrayGet$27=darrayGet(tempArray, (signed long long int)index1);
-                start = *((unsigned int *)return_value_darrayGet$27);
+                void *return_value_darrayGet_27;
+                return_value_darrayGet_27=darrayGet(tempArray, (signed long long int)index1);
+                start = *((unsigned int *)return_value_darrayGet_27);
                 unsigned int finish;
-                void *return_value_darrayGet$28;
-                return_value_darrayGet$28=darrayGet(tempArray, (signed long long int)index2);
-                finish = *((unsigned int *)return_value_darrayGet$28);
+                void *return_value_darrayGet_28;
+                return_value_darrayGet_28=darrayGet(tempArray, (signed long long int)index2);
+                finish = *((unsigned int *)return_value_darrayGet_28);
                 signed int len1;
-                unsigned int return_value_getTwinCtg$29;
-                return_value_getTwinCtg$29=getTwinCtg(start);
-                len1=getScaffold(return_value_getTwinCtg$29, scafStack1);
+                unsigned int return_value_getTwinCtg_29;
+                return_value_getTwinCtg_29=getTwinCtg(start);
+                len1=getScaffold(return_value_getTwinCtg_29, scafStack1);
                 signed int len2;
                 len2=getScaffold(finish, scafStack2);
                 if(len1 >= 2000 && len2 >= 2000)
                 {
                   switch2twin(scafStack1);
                   signed int flag1;
-                  char return_value_checkScafConsist$30;
-                  return_value_checkScafConsist$30=checkScafConsist(scafStack1, scafStack2);
-                  flag1 = (signed int)return_value_checkScafConsist$30;
+                  char return_value_checkScafConsist_30;
+                  return_value_checkScafConsist_30=checkScafConsist(scafStack1, scafStack2);
+                  flag1 = (signed int)return_value_checkScafConsist_30;
                   switch2twin(scafStack1);
                   switch2twin(scafStack2);
                   signed int flag2;
-                  char return_value_checkScafConsist$31;
-                  return_value_checkScafConsist$31=checkScafConsist(scafStack2, scafStack1);
-                  flag2 = (signed int)return_value_checkScafConsist$31;
+                  char return_value_checkScafConsist_31;
+                  return_value_checkScafConsist_31=checkScafConsist(scafStack2, scafStack1);
+                  flag2 = (signed int)return_value_checkScafConsist_31;
                   if(flag1 == 0 || flag2 == 0)
                   {
-                    unsigned int return_value_getTwinCtg$32;
-                    return_value_getTwinCtg$32=getTwinCtg(start);
-                    changeScafBegin(scafStack1, return_value_getTwinCtg$32);
-                    unsigned int return_value_getTwinCtg$33;
-                    return_value_getTwinCtg$33=getTwinCtg(finish);
-                    changeScafEnd(scafStack2, return_value_getTwinCtg$33);
+                    unsigned int return_value_getTwinCtg_32;
+                    return_value_getTwinCtg_32=getTwinCtg(start);
+                    changeScafBegin(scafStack1, return_value_getTwinCtg_32);
+                    unsigned int return_value_getTwinCtg_33;
+                    return_value_getTwinCtg_33=getTwinCtg(finish);
+                    changeScafEnd(scafStack2, return_value_getTwinCtg_33);
                     unsigned int nextCtg;
-                    void *return_value_darrayGet$34;
-                    return_value_darrayGet$34=darrayGet(tempArray, (signed long long int)(index1 + 1));
-                    nextCtg = *((unsigned int *)return_value_darrayGet$34);
-                    void *return_value_darrayGet$35;
-                    return_value_darrayGet$35=darrayGet(tempArray, (signed long long int)index1);
-                    thisCtg = *((unsigned int *)return_value_darrayGet$35);
-                    unsigned int return_value_getTwinCtg$36;
-                    return_value_getTwinCtg$36=getTwinCtg(nextCtg);
-                    unsigned int return_value_getTwinCtg$37;
-                    return_value_getTwinCtg$37=getTwinCtg(thisCtg);
-                    cnt=getCntBetween(return_value_getTwinCtg$36, return_value_getTwinCtg$37);
+                    void *return_value_darrayGet_34;
+                    return_value_darrayGet_34=darrayGet(tempArray, (signed long long int)(index1 + 1));
+                    nextCtg = *((unsigned int *)return_value_darrayGet_34);
+                    void *return_value_darrayGet_35;
+                    return_value_darrayGet_35=darrayGet(tempArray, (signed long long int)index1);
+                    thisCtg = *((unsigned int *)return_value_darrayGet_35);
+                    unsigned int return_value_getTwinCtg_36;
+                    return_value_getTwinCtg_36=getTwinCtg(nextCtg);
+                    unsigned int return_value_getTwinCtg_37;
+                    return_value_getTwinCtg_37=getTwinCtg(thisCtg);
+                    cnt=getCntBetween(return_value_getTwinCtg_36, return_value_getTwinCtg_37);
                     if(!(cnt->nextInScaf == ((struct connection *)NULL)))
                     {
                       prevCtg=getTwinCtg(cnt->nextInScaf->contigID);
@@ -9399,43 +9399,43 @@ static void detectBreakScaf()
                       cnt->nextInScaf = (struct connection *)(void *)0;
                     }
 
-                    void *return_value_darrayGet$38;
-                    return_value_darrayGet$38=darrayGet(tempArray, (signed long long int)(index2 - 1));
-                    prevCtg = *((unsigned int *)return_value_darrayGet$38);
-                    void *return_value_darrayGet$39;
-                    return_value_darrayGet$39=darrayGet(tempArray, (signed long long int)index2);
-                    thisCtg = *((unsigned int *)return_value_darrayGet$39);
+                    void *return_value_darrayGet_38;
+                    return_value_darrayGet_38=darrayGet(tempArray, (signed long long int)(index2 - 1));
+                    prevCtg = *((unsigned int *)return_value_darrayGet_38);
+                    void *return_value_darrayGet_39;
+                    return_value_darrayGet_39=darrayGet(tempArray, (signed long long int)index2);
+                    thisCtg = *((unsigned int *)return_value_darrayGet_39);
                     cnt=getCntBetween(prevCtg, thisCtg);
                     if(!(cnt->nextInScaf == ((struct connection *)NULL)))
                     {
                       nextCtg = cnt->nextInScaf->contigID;
                       cnt->nextInScaf->prevInScaf = (unsigned char)0;
-                      unsigned int return_value_getTwinCtg$40;
-                      return_value_getTwinCtg$40=getTwinCtg(nextCtg);
-                      unsigned int return_value_getTwinCtg$41;
-                      return_value_getTwinCtg$41=getTwinCtg(thisCtg);
-                      cnt=getCntBetween(return_value_getTwinCtg$40, return_value_getTwinCtg$41);
+                      unsigned int return_value_getTwinCtg_40;
+                      return_value_getTwinCtg_40=getTwinCtg(nextCtg);
+                      unsigned int return_value_getTwinCtg_41;
+                      return_value_getTwinCtg_41=getTwinCtg(thisCtg);
+                      cnt=getCntBetween(return_value_getTwinCtg_40, return_value_getTwinCtg_41);
                       cnt->nextInScaf = (struct connection *)(void *)0;
                     }
 
-                    void *return_value_darrayGet$42;
-                    return_value_darrayGet$42=darrayGet(tempArray, (signed long long int)index1);
-                    prevCtg = *((unsigned int *)return_value_darrayGet$42);
+                    void *return_value_darrayGet_42;
+                    return_value_darrayGet_42=darrayGet(tempArray, (signed long long int)index1);
+                    prevCtg = *((unsigned int *)return_value_darrayGet_42);
                     t = index1 + 1;
                     for( ; index2 >= t; t = t + 1)
                     {
-                      void *return_value_darrayGet$43;
-                      return_value_darrayGet$43=darrayGet(tempArray, (signed long long int)t);
-                      thisCtg = *((unsigned int *)return_value_darrayGet$43);
+                      void *return_value_darrayGet_43;
+                      return_value_darrayGet_43=darrayGet(tempArray, (signed long long int)t);
+                      thisCtg = *((unsigned int *)return_value_darrayGet_43);
                       cnt=getCntBetween(prevCtg, thisCtg);
                       cnt->mask = (unsigned char)1;
                       cnt->nextInScaf = (struct connection *)(void *)0;
                       cnt->prevInScaf = (unsigned char)0;
-                      unsigned int return_value_getTwinCtg$44;
-                      return_value_getTwinCtg$44=getTwinCtg(thisCtg);
-                      unsigned int return_value_getTwinCtg$45;
-                      return_value_getTwinCtg$45=getTwinCtg(prevCtg);
-                      cnt=getCntBetween(return_value_getTwinCtg$44, return_value_getTwinCtg$45);
+                      unsigned int return_value_getTwinCtg_44;
+                      return_value_getTwinCtg_44=getTwinCtg(thisCtg);
+                      unsigned int return_value_getTwinCtg_45;
+                      return_value_getTwinCtg_45=getTwinCtg(prevCtg);
+                      cnt=getCntBetween(return_value_getTwinCtg_44, return_value_getTwinCtg_45);
                       cnt->mask = (unsigned char)1;
                       cnt->nextInScaf = (struct connection *)(void *)0;
                       cnt->prevInScaf = (unsigned char)0;
@@ -9497,26 +9497,26 @@ __CPROVER_DUMP_L5:
 static void dfh_checkcons(struct dfibheap *h)
 {
   signed long long int oDl;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(h->dfh_Dl == -1l)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = h->dfh_n > (signed long int)(1 << h->dfh_Dl) ? (_Bool)1 : (_Bool)0;
-  void *return_value_realloc$2;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = h->dfh_n > (signed long int)(1 << h->dfh_Dl) ? (_Bool)1 : (_Bool)0;
+  void *return_value_realloc_2;
+  if(tmp_if_expr_3)
   {
     oDl = h->dfh_Dl;
-    signed long long int return_value_ceillog2$1;
-    return_value_ceillog2$1=ceillog2(h->dfh_n);
-    h->dfh_Dl = return_value_ceillog2$1 + (signed long int)1;
+    signed long long int return_value_ceillog2_1;
+    return_value_ceillog2_1=ceillog2(h->dfh_n);
+    h->dfh_Dl = return_value_ceillog2_1 + (signed long int)1;
     if(!(h->dfh_Dl >= 8l))
       h->dfh_Dl = (signed long long int)8;
 
     if(!(oDl == h->dfh_Dl))
     {
-      return_value_realloc$2=realloc((void *)h->dfh_cons, sizeof(struct dfibheap_el *) /*8ul*/  * (unsigned long int)(h->dfh_Dl + (signed long int)1));
-      h->dfh_cons = (struct dfibheap_el **)return_value_realloc$2;
+      return_value_realloc_2=realloc((void *)h->dfh_cons, sizeof(struct dfibheap_el *) /*8ul*/  * (unsigned long int)(h->dfh_Dl + (signed long int)1));
+      h->dfh_cons = (struct dfibheap_el **)return_value_realloc_2;
     }
 
     if(h->dfh_cons == ((struct dfibheap_el **)NULL))
@@ -9548,9 +9548,9 @@ static signed int dfh_comparedata(struct dfibheap *h, double key, unsigned int d
   struct dfibheap_el a;
   a.dfhe_key = key;
   a.dfhe_data = data;
-  signed int return_value_dfh_compare$1;
-  return_value_dfh_compare$1=dfh_compare(h, &a, b);
-  return return_value_dfh_compare$1;
+  signed int return_value_dfh_compare_1;
+  return_value_dfh_compare_1=dfh_compare(h, &a, b);
+  return return_value_dfh_compare_1;
 }
 
 // dfh_consolidate
@@ -9582,9 +9582,9 @@ static void dfh_consolidate(struct dfibheap *h)
     while(!(a[d] == ((struct dfibheap_el *)NULL)))
     {
       y = a[d];
-      signed int return_value_dfh_compare$1;
-      return_value_dfh_compare$1=dfh_compare(h, x, y);
-      if(return_value_dfh_compare$1 >= 1)
+      signed int return_value_dfh_compare_1;
+      return_value_dfh_compare_1=dfh_compare(h, x, y);
+      if(return_value_dfh_compare_1 >= 1)
         do
         {
           struct dfibheap_el *c = x;
@@ -9602,21 +9602,21 @@ static void dfh_consolidate(struct dfibheap *h)
   while((_Bool)1);
   h->dfh_min = (struct dfibheap_el *)(void *)0;
   i = (signed long long int)0;
-  _Bool tmp_if_expr$3;
-  signed int return_value_dfh_compare$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_dfh_compare_2;
   for( ; !(i >= D); i = i + 1ll)
     if(!(a[i] == ((struct dfibheap_el *)NULL)))
     {
       dfh_insertrootlist(h, a[i]);
       if(h->dfh_min == ((struct dfibheap_el *)NULL))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value_dfh_compare$2=dfh_compare(h, a[i], h->dfh_min);
-        tmp_if_expr$3 = return_value_dfh_compare$2 < 0 ? (_Bool)1 : (_Bool)0;
+        return_value_dfh_compare_2=dfh_compare(h, a[i], h->dfh_min);
+        tmp_if_expr_3 = return_value_dfh_compare_2 < 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
         h->dfh_min = a[i];
 
     }
@@ -9725,13 +9725,13 @@ static void dfh_heaplink(struct dfibheap *h, struct dfibheap_el *y, struct dfibh
 static void dfh_insertel(struct dfibheap *h, struct dfibheap_el *x)
 {
   dfh_insertrootlist(h, x);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(h->dfh_min == ((struct dfibheap_el *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = x->dfhe_key < h->dfh_min->dfhe_key ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = x->dfhe_key < h->dfh_min->dfhe_key ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     h->dfh_min = x;
 
   h->dfh_n = h->dfh_n + 1ll;
@@ -9775,9 +9775,9 @@ static void dfh_insertrootlist(struct dfibheap *h, struct dfibheap_el *x)
 struct dfibheap * dfh_makekeyheap(void)
 {
   struct dfibheap *n;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dfibheap) /*48ul*/ );
-  n = (struct dfibheap *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dfibheap) /*48ul*/ );
+  n = (struct dfibheap *)return_value_malloc_1;
   if(n == ((struct dfibheap *)NULL))
     return (struct dfibheap *)(void *)0;
 
@@ -9838,7 +9838,7 @@ unsigned int dfh_replacekeydata(struct dfibheap *h, struct dfibheap_el *x, doubl
 
   x->dfhe_data = data;
   x->dfhe_key = key;
-  signed int return_value_dfh_compare$1;
+  signed int return_value_dfh_compare_1;
   if(r == 0)
     return odata;
 
@@ -9852,8 +9852,8 @@ unsigned int dfh_replacekeydata(struct dfibheap *h, struct dfibheap_el *x, doubl
     {
       if(!(y == ((struct dfibheap_el *)NULL)))
       {
-        return_value_dfh_compare$1=dfh_compare(h, x, y);
-        if(!(return_value_dfh_compare$1 >= 1))
+        return_value_dfh_compare_1=dfh_compare(h, x, y);
+        if(!(return_value_dfh_compare_1 >= 1))
         {
           dfh_cut(h, x, y);
           dfh_cascading_cut(h, y);
@@ -9861,9 +9861,9 @@ unsigned int dfh_replacekeydata(struct dfibheap *h, struct dfibheap_el *x, doubl
 
       }
 
-      signed int return_value_dfh_compare$2;
-      return_value_dfh_compare$2=dfh_compare(h, x, h->dfh_min);
-      if(!(return_value_dfh_compare$2 >= 1))
+      signed int return_value_dfh_compare_2;
+      return_value_dfh_compare_2=dfh_compare(h, x, h->dfh_min);
+      if(!(return_value_dfh_compare_2 >= 1))
         h->dfh_min = x;
 
       return odata;
@@ -10003,12 +10003,12 @@ static char dispatch1node(signed int dis, unsigned int tempNode, signed int maxN
   char ret;
   if(dis >= 0)
   {
-    nodeCounter$link1 = nodeCounter$link1 + 1;
+    nodeCounter_link1 = nodeCounter_link1 + 1;
     ret=putNodeInArray(tempNode, maxNodes, dis);
     if(ret == 0)
       return (char)0;
 
-    insertNodeIntoHeap(dheap, (signed long long int)dis, (unsigned int)nodeCounter$link1);
+    insertNodeIntoHeap(dheap, (signed long long int)dis, (unsigned int)nodeCounter_link1);
     if(!(*DmaxDis >= dis))
       *DmaxDis = dis;
 
@@ -10017,12 +10017,12 @@ static char dispatch1node(signed int dis, unsigned int tempNode, signed int maxN
 
   else
   {
-    nodeCounter$link1 = nodeCounter$link1 + 1;
+    nodeCounter_link1 = nodeCounter_link1 + 1;
     ret=putNodeInArray(tempNode, maxNodes, dis);
     if(ret == 0)
       return (char)0;
 
-    insertNodeIntoHeap(uheap, (signed long long int)-dis, (unsigned int)nodeCounter$link1);
+    insertNodeIntoHeap(uheap, (signed long long int)-dis, (unsigned int)nodeCounter_link1);
     signed int temp_len = (signed int)(contig_array + (signed long int)tempNode)->length;
     if(!(*UmaxDis >= temp_len + -dis))
       *UmaxDis = (signed int)((unsigned int)-dis + (contig_array + (signed long int)tempNode)->length);
@@ -10135,21 +10135,21 @@ static void downSlide()
   throughCounter = 0;
   orienCounter = throughCounter;
   i = (unsigned int)1;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
   for( ; num_ctg >= i; i = i + 1u)
   {
     if(!((contig_array + (signed long int)i)->mask == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !((contig_array + (signed long int)i)->downwardConnect != ((struct connection *)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = !((contig_array + (signed long int)i)->downwardConnect != ((struct connection *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
     {
       bindCnt=getBindCnt(i);
       if(!(bindCnt == ((struct connection *)NULL)))
@@ -10179,31 +10179,31 @@ static void downSlide()
         while(!(ite_cnt == ((struct connection *)NULL)))
         {
           if(!(ite_cnt->deleted == 0))
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = ite_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$2)
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_2 = ite_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_2)
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = ite_cnt->singleInScaf != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$3)
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_3 = ite_cnt->singleInScaf != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_3)
+            tmp_if_expr_4 = (_Bool)1;
 
           else
-            tmp_if_expr$4 = ite_cnt->nextInScaf != ((struct connection *)NULL) ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$4)
-            tmp_if_expr$5 = (_Bool)1;
+            tmp_if_expr_4 = ite_cnt->nextInScaf != ((struct connection *)NULL) ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_4)
+            tmp_if_expr_5 = (_Bool)1;
 
           else
-            tmp_if_expr$5 = ite_cnt->prevInScaf != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$5)
-            tmp_if_expr$6 = (_Bool)1;
+            tmp_if_expr_5 = ite_cnt->prevInScaf != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_5)
+            tmp_if_expr_6 = (_Bool)1;
 
           else
-            tmp_if_expr$6 = ite_cnt->inherit != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$6)
+            tmp_if_expr_6 = ite_cnt->inherit != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_6)
             ite_cnt = ite_cnt->next;
 
           else
@@ -10311,11 +10311,11 @@ static void downSlide()
                   {
                     createAnalogousCnt(i, ite_cnt, gap, bottomCtg, topCtg);
                     if(!((contig_array + (signed long int)bottomCtg)->mask == 0))
-                      tmp_if_expr$7 = (_Bool)1;
+                      tmp_if_expr_7 = (_Bool)1;
 
                     else
-                      tmp_if_expr$7 = (contig_array + (signed long int)topCtg)->mask != 0 ? (_Bool)1 : (_Bool)0;
-                    if(tmp_if_expr$7)
+                      tmp_if_expr_7 = (contig_array + (signed long int)topCtg)->mask != 0 ? (_Bool)1 : (_Bool)0;
+                    if(tmp_if_expr_7)
                       printf("downSlide to masked contig\n");
 
                   }
@@ -10380,13 +10380,13 @@ void emptyDarray(struct dynamic_array *darray)
 void emptyStack(struct stack *astack)
 {
   struct block_starter *block;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(astack == ((struct stack *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(astack->block_list != ((struct block_starter *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = !(astack->block_list != ((struct block_starter *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     block = astack->block_list;
     if(!(block->next == ((struct block_starter *)NULL)))
@@ -10403,7 +10403,7 @@ void emptyStack(struct stack *astack)
 // file newhash.c line 175
 static inline void encap_kmerset(struct kmerSet_st *set, unsigned long long int num)
 {
-  unsigned int *encap_kmerset$$1$$flags;
+  unsigned int *encap_kmerset__1__flags;
   unsigned int *f;
   unsigned long long int i;
   unsigned long long int n;
@@ -10411,7 +10411,7 @@ static inline void encap_kmerset(struct kmerSet_st *set, unsigned long long int 
   unsigned long long int hc;
   struct kmer_st key;
   struct kmer_st tmp;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(set->max >= set->count + num))
   {
     if(!(initKmerSetSize == 0))
@@ -10443,31 +10443,31 @@ static inline void encap_kmerset(struct kmerSet_st *set, unsigned long long int 
         break;
 
     }
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)set->array, n * sizeof(struct kmer_st) /*16ul*/ );
-    set->array = (struct kmer_st *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)set->array, n * sizeof(struct kmer_st) /*16ul*/ );
+    set->array = (struct kmer_st *)return_value_realloc_1;
     if(set->array == ((struct kmer_st *)NULL))
     {
       fprintf(stderr, "-- Out of memory --\n");
       abort();
     }
 
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(((n + (unsigned long int)15) / (unsigned long int)16) * (unsigned long int)4);
-    encap_kmerset$$1$$flags = (unsigned int *)return_value_malloc$2;
-    memset((void *)encap_kmerset$$1$$flags, 0x55, ((n + (unsigned long int)15) / (unsigned long int)16) * (unsigned long int)4);
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(((n + (unsigned long int)15) / (unsigned long int)16) * (unsigned long int)4);
+    encap_kmerset__1__flags = (unsigned int *)return_value_malloc_2;
+    memset((void *)encap_kmerset__1__flags, 0x55, ((n + (unsigned long int)15) / (unsigned long int)16) * (unsigned long int)4);
     size = set->size;
     set->size = n;
     set->max = (unsigned long long int)((double)n * set->load_factor);
     f = set->flags;
-    set->flags = encap_kmerset$$1$$flags;
-    encap_kmerset$$1$$flags = f;
+    set->flags = encap_kmerset__1__flags;
+    encap_kmerset__1__flags = f;
     i = (unsigned long long int)0;
     for( ; !(i >= size); i = i + 1ull)
-      if((3u & encap_kmerset$$1$$flags[(signed long int)(i >> 4)] >> ((15ul & i) << 1)) == 0u)
+      if((3u & encap_kmerset__1__flags[(signed long int)(i >> 4)] >> ((15ul & i) << 1)) == 0u)
       {
         key = set->array[(signed long int)i];
-        encap_kmerset$$1$$flags[(signed long int)(i >> 4)] = encap_kmerset$$1$$flags[(signed long int)(i >> 4)] | 0x02u << ((i & (unsigned long int)0x0f) << 1);
+        encap_kmerset__1__flags[(signed long int)(i >> 4)] = encap_kmerset__1__flags[(signed long int)(i >> 4)] | 0x02u << ((i & (unsigned long int)0x0f) << 1);
         while((_Bool)1)
         {
           hc = key.seq % set->size;
@@ -10480,16 +10480,16 @@ static inline void encap_kmerset(struct kmerSet_st *set, unsigned long long int 
           }
           set->flags[(signed long int)(hc >> 4)] = set->flags[(signed long int)(hc >> 4)] & ~(0x01u << ((hc & (unsigned long int)0x0f) << 1));
           if(!(hc >= size))
-            tmp_if_expr$3 = !((encap_kmerset$$1$$flags[(signed long int)(hc >> 4)] >> ((hc & (unsigned long int)0x0f) << 1) & (unsigned int)0x03) != 0u) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = !((encap_kmerset__1__flags[(signed long int)(hc >> 4)] >> ((hc & (unsigned long int)0x0f) << 1) & (unsigned int)0x03) != 0u) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = (_Bool)0;
+          if(tmp_if_expr_3)
           {
             tmp = key;
             key = set->array[(signed long int)hc];
             set->array[(signed long int)hc] = tmp;
-            encap_kmerset$$1$$flags[(signed long int)(hc >> 4)] = encap_kmerset$$1$$flags[(signed long int)(hc >> 4)] | 0x02u << ((hc & (unsigned long int)0x0f) << 1);
+            encap_kmerset__1__flags[(signed long int)(hc >> 4)] = encap_kmerset__1__flags[(signed long int)(hc >> 4)] | 0x02u << ((hc & (unsigned long int)0x0f) << 1);
           }
 
           else
@@ -10500,7 +10500,7 @@ static inline void encap_kmerset(struct kmerSet_st *set, unsigned long long int 
         }
       }
 
-    free((void *)encap_kmerset$$1$$flags);
+    free((void *)encap_kmerset__1__flags);
   }
 
 
@@ -10592,26 +10592,26 @@ __CPROVER_DUMP_L5:
 static void fh_checkcons(struct fibheap *h)
 {
   signed long long int oDl;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(h->fh_Dl == -1l)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = h->fh_n > (signed long int)(1 << h->fh_Dl) ? (_Bool)1 : (_Bool)0;
-  void *return_value_realloc$2;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = h->fh_n > (signed long int)(1 << h->fh_Dl) ? (_Bool)1 : (_Bool)0;
+  void *return_value_realloc_2;
+  if(tmp_if_expr_3)
   {
     oDl = h->fh_Dl;
-    signed long long int return_value_ceillog2$1;
-    return_value_ceillog2$1=ceillog2$link1(h->fh_n);
-    h->fh_Dl = return_value_ceillog2$1 + (signed long int)1;
+    signed long long int return_value_ceillog2_1;
+    return_value_ceillog2_1=ceillog2_link1(h->fh_n);
+    h->fh_Dl = return_value_ceillog2_1 + (signed long int)1;
     if(!(h->fh_Dl >= 8l))
       h->fh_Dl = (signed long long int)8;
 
     if(!(oDl == h->fh_Dl))
     {
-      return_value_realloc$2=realloc((void *)h->fh_cons, sizeof(struct fibheap_el *) /*8ul*/  * (unsigned long int)(h->fh_Dl + (signed long int)1));
-      h->fh_cons = (struct fibheap_el **)return_value_realloc$2;
+      return_value_realloc_2=realloc((void *)h->fh_cons, sizeof(struct fibheap_el *) /*8ul*/  * (unsigned long int)(h->fh_Dl + (signed long int)1));
+      h->fh_cons = (struct fibheap_el **)return_value_realloc_2;
     }
 
     if(h->fh_cons == ((struct fibheap_el **)NULL))
@@ -10643,9 +10643,9 @@ static signed int fh_comparedata(struct fibheap *h, signed long long int key, un
   struct fibheap_el a;
   a.fhe_key = key;
   a.fhe_data = data;
-  signed int return_value_fh_compare$1;
-  return_value_fh_compare$1=fh_compare(h, &a, b);
-  return return_value_fh_compare$1;
+  signed int return_value_fh_compare_1;
+  return_value_fh_compare_1=fh_compare(h, &a, b);
+  return return_value_fh_compare_1;
 }
 
 // fh_consolidate
@@ -10677,9 +10677,9 @@ static void fh_consolidate(struct fibheap *h)
     while(!(a[d] == ((struct fibheap_el *)NULL)))
     {
       y = a[d];
-      signed int return_value_fh_compare$1;
-      return_value_fh_compare$1=fh_compare(h, x, y);
-      if(return_value_fh_compare$1 >= 1)
+      signed int return_value_fh_compare_1;
+      return_value_fh_compare_1=fh_compare(h, x, y);
+      if(return_value_fh_compare_1 >= 1)
         do
         {
           struct fibheap_el *c = x;
@@ -10697,21 +10697,21 @@ static void fh_consolidate(struct fibheap *h)
   while((_Bool)1);
   h->fh_min = (struct fibheap_el *)(void *)0;
   i = (signed long long int)0;
-  _Bool tmp_if_expr$3;
-  signed int return_value_fh_compare$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_fh_compare_2;
   for( ; !(i >= D); i = i + 1ll)
     if(!(a[i] == ((struct fibheap_el *)NULL)))
     {
       fh_insertrootlist(h, a[i]);
       if(h->fh_min == ((struct fibheap_el *)NULL))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value_fh_compare$2=fh_compare(h, a[i], h->fh_min);
-        tmp_if_expr$3 = return_value_fh_compare$2 < 0 ? (_Bool)1 : (_Bool)0;
+        return_value_fh_compare_2=fh_compare(h, a[i], h->fh_min);
+        tmp_if_expr_3 = return_value_fh_compare_2 < 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
         h->fh_min = a[i];
 
     }
@@ -10865,25 +10865,25 @@ struct fibheap_el * fh_insert(struct fibheap *h, unsigned int data)
 static void fh_insertel(struct fibheap *h, struct fibheap_el *x)
 {
   fh_insertrootlist(h, x);
-  _Bool tmp_if_expr$2;
-  signed int tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  signed int tmp_if_expr_1;
   signed long long int return_value;
   if(h->fh_min == ((struct fibheap_el *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     if(!(h->fh_keys == 0))
-      tmp_if_expr$1 = (signed int)(x->fhe_key < h->fh_min->fhe_key);
+      tmp_if_expr_1 = (signed int)(x->fhe_key < h->fh_min->fhe_key);
 
     else
     {
       return_value=h->fh_cmp_fnct(x->fhe_data, h->fh_min->fhe_data);
-      tmp_if_expr$1 = (signed int)(return_value < (signed long int)0);
+      tmp_if_expr_1 = (signed int)(return_value < (signed long int)0);
     }
-    tmp_if_expr$2 = tmp_if_expr$1 != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = tmp_if_expr_1 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     h->fh_min = x;
 
   h->fh_n = h->fh_n + 1ll;
@@ -10938,9 +10938,9 @@ char fh_isempty(struct fibheap *h)
 struct fibheap * fh_makeheap(void)
 {
   struct fibheap *n;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct fibheap) /*64ul*/ );
-  n = (struct fibheap *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct fibheap) /*64ul*/ );
+  n = (struct fibheap *)return_value_malloc_1;
   if(n == ((struct fibheap *)NULL))
     return (struct fibheap *)(void *)0;
 
@@ -10956,9 +10956,9 @@ struct fibheap * fh_makeheap(void)
 struct fibheap * fh_makekeyheap(void)
 {
   struct fibheap *n;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct fibheap) /*64ul*/ );
-  n = (struct fibheap *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct fibheap) /*64ul*/ );
+  n = (struct fibheap *)return_value_malloc_1;
   if(n == ((struct fibheap *)NULL))
     return (struct fibheap *)(void *)0;
 
@@ -11037,7 +11037,7 @@ unsigned int fh_replacekeydata(struct fibheap *h, struct fibheap_el *x, signed l
 
   x->fhe_data = data;
   x->fhe_key = key;
-  signed int return_value_fh_compare$1;
+  signed int return_value_fh_compare_1;
   if(r == 0)
     return odata;
 
@@ -11059,8 +11059,8 @@ unsigned int fh_replacekeydata(struct fibheap *h, struct fibheap_el *x, signed l
       ;
       if(!(y == ((struct fibheap_el *)NULL)))
       {
-        return_value_fh_compare$1=fh_compare(h, x, y);
-        if(!(return_value_fh_compare$1 >= 1))
+        return_value_fh_compare_1=fh_compare(h, x, y);
+        if(!(return_value_fh_compare_1 >= 1))
         {
           fh_cut(h, x, y);
           fh_cascading_cut(h, y);
@@ -11068,9 +11068,9 @@ unsigned int fh_replacekeydata(struct fibheap *h, struct fibheap_el *x, signed l
 
       }
 
-      signed int return_value_fh_compare$2;
-      return_value_fh_compare$2=fh_compare(h, x, h->fh_min);
-      if(!(return_value_fh_compare$2 >= 1))
+      signed int return_value_fh_compare_2;
+      return_value_fh_compare_2=fh_compare(h, x, h->fh_min);
+      if(!(return_value_fh_compare_2 >= 1))
         h->fh_min = x;
 
       return odata;
@@ -11101,13 +11101,13 @@ unsigned int fh_setneginf(struct fibheap *h, unsigned int data)
 struct fibheap * fh_union(struct fibheap *ha, struct fibheap *hb)
 {
   struct fibheap_el *x;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(ha->fh_root == ((struct fibheap_el *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = hb->fh_root == (struct fibheap_el *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = hb->fh_root == (struct fibheap_el *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(ha->fh_root == ((struct fibheap_el *)NULL))
     {
@@ -11127,9 +11127,9 @@ struct fibheap * fh_union(struct fibheap *ha, struct fibheap *hb)
     ha->fh_root->fhe_left = hb->fh_root->fhe_left;
     hb->fh_root->fhe_left = x;
     ha->fh_n = ha->fh_n + hb->fh_n;
-    signed int return_value_fh_compare$2;
-    return_value_fh_compare$2=fh_compare(ha, hb->fh_min, ha->fh_min);
-    if(!(return_value_fh_compare$2 >= 0))
+    signed int return_value_fh_compare_2;
+    return_value_fh_compare_2=fh_compare(ha, hb->fh_min, ha->fh_min);
+    if(!(return_value_fh_compare_2 >= 0))
       ha->fh_min = hb->fh_min;
 
     fh_destroyheap(hb);
@@ -11234,23 +11234,23 @@ static void fill1scaf(signed int index, struct stack *ctgsStack, signed int thrd
   unsigned int ctg;
   unsigned int bal_ctg;
   struct stack *rdStack;
-  void *return_value_stackPop$1;
-  signed int tmp_if_expr$2;
+  void *return_value_stackPop_1;
+  signed int tmp_if_expr_2;
   do
   {
-    return_value_stackPop$1=stackPop(ctgsStack);
-    actg = (struct ctg4scaf *)return_value_stackPop$1;
+    return_value_stackPop_1=stackPop(ctgsStack);
+    actg = (struct ctg4scaf *)return_value_stackPop_1;
     if(actg == ((struct ctg4scaf *)NULL))
       break;
 
     if(!(prevCtg == ((struct ctg4scaf *)NULL)))
     {
       if(!(maxGLen >= actg->start + -prevCtg->end))
-        tmp_if_expr$2 = actg->start - prevCtg->end;
+        tmp_if_expr_2 = actg->start - prevCtg->end;
 
       else
-        tmp_if_expr$2 = maxGLen;
-      maxGLen = tmp_if_expr$2;
+        tmp_if_expr_2 = maxGLen;
+      maxGLen = tmp_if_expr_2;
     }
 
     ctg = actg->ctgID;
@@ -11271,26 +11271,26 @@ static void fill1scaf(signed int index, struct stack *ctgsStack, signed int thrd
     }
   }
   while((_Bool)1);
-  void *return_value_stackPop$5;
-  void *return_value_stackPop$6;
-  signed int tmp_post$7;
-  signed int tmp_post$8;
-  void *return_value_stackPop$15;
-  _Bool tmp_if_expr$16;
+  void *return_value_stackPop_5;
+  void *return_value_stackPop_6;
+  signed int tmp_post_7;
+  signed int tmp_post_8;
+  void *return_value_stackPop_15;
+  _Bool tmp_if_expr_16;
   if(numRd >= 1)
   {
-    void *return_value_ckalloc$3;
-    return_value_ckalloc$3=ckalloc((unsigned long int)numRd * sizeof(struct read_nearby) /*16ul*/ );
-    rdArray = (struct read_nearby *)return_value_ckalloc$3;
-    void *return_value_ckalloc$4;
-    return_value_ckalloc$4=ckalloc((unsigned long int)numRd * sizeof(struct read_nearby) /*16ul*/ );
-    rdArray4gap = (struct read_nearby *)return_value_ckalloc$4;
+    void *return_value_ckalloc_3;
+    return_value_ckalloc_3=ckalloc((unsigned long int)numRd * sizeof(struct read_nearby) /*16ul*/ );
+    rdArray = (struct read_nearby *)return_value_ckalloc_3;
+    void *return_value_ckalloc_4;
+    return_value_ckalloc_4=ckalloc((unsigned long int)numRd * sizeof(struct read_nearby) /*16ul*/ );
+    rdArray4gap = (struct read_nearby *)return_value_ckalloc_4;
     signed int numRd2 = 0;
     stackRecover(ctgsStack);
     do
     {
-      return_value_stackPop$5=stackPop(ctgsStack);
-      actg = (struct ctg4scaf *)return_value_stackPop$5;
+      return_value_stackPop_5=stackPop(ctgsStack);
+      actg = (struct ctg4scaf *)return_value_stackPop_5;
       if(actg == ((struct ctg4scaf *)NULL))
         break;
 
@@ -11310,27 +11310,27 @@ static void fill1scaf(signed int index, struct stack *ctgsStack, signed int thrd
         stackBackup(rdStack);
         do
         {
-          return_value_stackPop$6=stackPop(rdStack);
-          rd = (struct read_nearby *)return_value_stackPop$6;
+          return_value_stackPop_6=stackPop(rdStack);
+          rd = (struct read_nearby *)return_value_stackPop_6;
           if(rd == ((struct read_nearby *)NULL))
             break;
 
           (rdArray + (signed long int)numRd2)->len = rd->len;
           (rdArray + (signed long int)numRd2)->seqStarter = rd->seqStarter;
-          char return_value_isSmallerThanTwin$9;
-          return_value_isSmallerThanTwin$9=isSmallerThanTwin(ctg);
-          if(!(return_value_isSmallerThanTwin$9 == 0))
+          char return_value_isSmallerThanTwin_9;
+          return_value_isSmallerThanTwin_9=isSmallerThanTwin(ctg);
+          if(!(return_value_isSmallerThanTwin_9 == 0))
           {
-            tmp_post$7 = numRd2;
+            tmp_post_7 = numRd2;
             numRd2 = numRd2 + 1;
-            (rdArray + (signed long int)tmp_post$7)->dis = (actg->start - overlaplen) + rd->dis;
+            (rdArray + (signed long int)tmp_post_7)->dis = (actg->start - overlaplen) + rd->dis;
           }
 
           else
           {
-            tmp_post$8 = numRd2;
+            tmp_post_8 = numRd2;
             numRd2 = numRd2 + 1;
-            (rdArray + (signed long int)tmp_post$8)->dis = (signed int)((((unsigned int)(actg->start - overlaplen) + (contig_array + (signed long int)ctg)->length) - (unsigned int)rd->len) - (unsigned int)rd->dis);
+            (rdArray + (signed long int)tmp_post_8)->dis = (signed int)((((unsigned int)(actg->start - overlaplen) + (contig_array + (signed long int)ctg)->length) - (unsigned int)rd->len) - (unsigned int)rd->dis);
           }
         }
         while((_Bool)1);
@@ -11347,43 +11347,43 @@ static void fill1scaf(signed int index, struct stack *ctgsStack, signed int thrd
     signed int gapEnd;
     signed int numIn = 0;
     char flag;
-    signed int fill1scaf$$1$$buffer_size = maxReadLen > 100 ? maxReadLen : 100;
+    signed int fill1scaf__1__buffer_size = maxReadLen > 100 ? maxReadLen : 100;
     signed int maxGSLen = maxGLen + GLDiff < 10 ? 10 : maxGLen + GLDiff;
     char *seqGap;
-    void *return_value_ckalloc$10;
-    return_value_ckalloc$10=ckalloc((unsigned long int)maxGSLen * sizeof(char) /*1ul*/ );
-    seqGap = (char *)return_value_ckalloc$10;
+    void *return_value_ckalloc_10;
+    return_value_ckalloc_10=ckalloc((unsigned long int)maxGSLen * sizeof(char) /*1ul*/ );
+    seqGap = (char *)return_value_ckalloc_10;
     unsigned long long int *kmerCtg1;
-    void *return_value_ckalloc$11;
-    return_value_ckalloc$11=ckalloc((unsigned long int)fill1scaf$$1$$buffer_size * sizeof(unsigned long long int) /*8ul*/ );
-    kmerCtg1 = (unsigned long long int *)return_value_ckalloc$11;
+    void *return_value_ckalloc_11;
+    return_value_ckalloc_11=ckalloc((unsigned long int)fill1scaf__1__buffer_size * sizeof(unsigned long long int) /*8ul*/ );
+    kmerCtg1 = (unsigned long long int *)return_value_ckalloc_11;
     unsigned long long int *kmerCtg2;
-    void *return_value_ckalloc$12;
-    return_value_ckalloc$12=ckalloc((unsigned long int)fill1scaf$$1$$buffer_size * sizeof(unsigned long long int) /*8ul*/ );
-    kmerCtg2 = (unsigned long long int *)return_value_ckalloc$12;
+    void *return_value_ckalloc_12;
+    return_value_ckalloc_12=ckalloc((unsigned long int)fill1scaf__1__buffer_size * sizeof(unsigned long long int) /*8ul*/ );
+    kmerCtg2 = (unsigned long long int *)return_value_ckalloc_12;
     char *seqCtg1;
-    void *return_value_ckalloc$13;
-    return_value_ckalloc$13=ckalloc((unsigned long int)fill1scaf$$1$$buffer_size * sizeof(char) /*1ul*/ );
-    seqCtg1 = (char *)return_value_ckalloc$13;
+    void *return_value_ckalloc_13;
+    return_value_ckalloc_13=ckalloc((unsigned long int)fill1scaf__1__buffer_size * sizeof(char) /*1ul*/ );
+    seqCtg1 = (char *)return_value_ckalloc_13;
     char *seqCtg2;
-    void *return_value_ckalloc$14;
-    return_value_ckalloc$14=ckalloc((unsigned long int)fill1scaf$$1$$buffer_size * sizeof(char) /*1ul*/ );
-    seqCtg2 = (char *)return_value_ckalloc$14;
+    void *return_value_ckalloc_14;
+    return_value_ckalloc_14=ckalloc((unsigned long int)fill1scaf__1__buffer_size * sizeof(char) /*1ul*/ );
+    seqCtg2 = (char *)return_value_ckalloc_14;
     prevCtg = (struct ctg4scaf *)(void *)0;
     stackRecover(ctgsStack);
     do
     {
-      return_value_stackPop$15=stackPop(ctgsStack);
-      actg = (struct ctg4scaf *)return_value_stackPop$15;
+      return_value_stackPop_15=stackPop(ctgsStack);
+      actg = (struct ctg4scaf *)return_value_stackPop_15;
       if(actg == ((struct ctg4scaf *)NULL))
         break;
 
       if(prevCtg == ((struct ctg4scaf *)NULL))
-        tmp_if_expr$16 = (_Bool)1;
+        tmp_if_expr_16 = (_Bool)1;
 
       else
-        tmp_if_expr$16 = !(actg->scaftig_start != 0u) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$16)
+        tmp_if_expr_16 = !(actg->scaftig_start != 0u) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_16)
         prevCtg = actg;
 
       else
@@ -11395,9 +11395,9 @@ static void fill1scaf(signed int index, struct stack *ctgsStack, signed int thrd
         signed int overlap = overlaplen;
         for( ; overlap >= 15; overlap = overlap - 2)
         {
-          signed int return_value_localGraph$17;
-          return_value_localGraph$17=localGraph(rdArray4gap, count, prevCtg, actg, overlaplen, kmerCtg1, kmerCtg2, overlap, darrayBuf[(signed long int)thrdID], seqCtg1, seqCtg2, seqGap);
-          flag = (char)return_value_localGraph$17;
+          signed int return_value_localGraph_17;
+          return_value_localGraph_17=localGraph(rdArray4gap, count, prevCtg, actg, overlaplen, kmerCtg1, kmerCtg2, overlap, darrayBuf[(signed long int)thrdID], seqCtg1, seqCtg2, seqGap);
+          flag = (char)return_value_localGraph_17;
           if((signed int)flag == 1)
             break;
 
@@ -11426,9 +11426,9 @@ static inline unsigned long long int find_next_prime_kh(unsigned long long int n
 
   while((_Bool)1)
   {
-    signed int return_value_is_prime_kh$1;
-    return_value_is_prime_kh$1=is_prime_kh(num);
-    if(!(return_value_is_prime_kh$1 == 0))
+    signed int return_value_is_prime_kh_1;
+    return_value_is_prime_kh_1=is_prime_kh(num);
+    if(!(return_value_is_prime_kh_1 == 0))
       return num;
 
     num = num + (unsigned long long int)2;
@@ -11531,13 +11531,13 @@ static void freeStackBuf(struct stack **ctgStackBuffer, signed int scafBufSize)
     freeStack(ctgStackBuffer[(signed long int)i]);
 }
 
-// freeStackBuf$link1
+// freeStackBuf_link1
 // file read2scaf.c line 80
-static void freeStackBuf$link1(struct stack **ctgStackBuffer$link1, signed int scafBufSize$link1)
+static void freeStackBuf_link1(struct stack **ctgStackBuffer_link1, signed int scafBufSize_link1)
 {
-  signed int i$link1 = 0;
-  for( ; !(i$link1 >= scafBufSize$link1); i$link1 = i$link1 + 1)
-    freeStack(ctgStackBuffer$link1[(signed long int)i$link1]);
+  signed int i_link1 = 0;
+  for( ; !(i_link1 >= scafBufSize_link1); i_link1 = i_link1 + 1)
+    freeStack(ctgStackBuffer_link1[(signed long int)i_link1]);
 }
 
 // free_Sets
@@ -11664,7 +11664,7 @@ static void freezing()
 {
   signed int num5;
   signed int num3;
-  unsigned int freezing$$1$$ctg;
+  unsigned int freezing__1__ctg;
   unsigned int bal_ctg;
   unsigned int i;
   signed int j;
@@ -11688,110 +11688,110 @@ static void freezing()
     }
   }
   i = (unsigned int)1;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_validConnect$2;
-  signed int tmp_post$4;
-  signed int tmp_post$7;
-  signed int tmp_post$11;
-  signed int tmp_post$13;
-  void *return_value_darrayPut$14;
-  void *return_value_darrayGet$15;
-  signed int tmp_post$16;
-  void *return_value_darrayPut$17;
-  void *return_value_darrayGet$18;
-  void *return_value_darrayGet$20;
-  void *return_value_darrayGet$22;
-  void *return_value_darrayGet$23;
-  void *return_value_darrayGet$24;
-  void *return_value_darrayGet$25;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_validConnect_2;
+  signed int tmp_post_4;
+  signed int tmp_post_7;
+  signed int tmp_post_11;
+  signed int tmp_post_13;
+  void *return_value_darrayPut_14;
+  void *return_value_darrayGet_15;
+  signed int tmp_post_16;
+  void *return_value_darrayPut_17;
+  void *return_value_darrayGet_18;
+  void *return_value_darrayGet_20;
+  void *return_value_darrayGet_22;
+  void *return_value_darrayGet_23;
+  void *return_value_darrayGet_24;
+  void *return_value_darrayGet_25;
   for( ; num_ctg >= i; i = i + 1u)
   {
     if(!((contig_array + (signed long int)i)->flag == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (contig_array + (signed long int)i)->mask != 0 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (contig_array + (signed long int)i)->mask != 0 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
     {
       if((contig_array + (signed long int)i)->downwardConnect == ((struct connection *)NULL))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value_validConnect$2=validConnect(i, (struct connection *)(void *)0);
-        tmp_if_expr$3 = !(return_value_validConnect$2 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_validConnect_2=validConnect(i, (struct connection *)(void *)0);
+        tmp_if_expr_3 = !(return_value_validConnect_2 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$3)
+      if(!tmp_if_expr_3)
       {
         num3 = 0;
         num5 = num3;
-        freezing$$1$$ctg = i;
-        tmp_post$4 = num5;
+        freezing__1__ctg = i;
+        tmp_post_4 = num5;
         num5 = num5 + 1;
-        void *return_value_darrayPut$5;
-        return_value_darrayPut$5=darrayPut(scaf5, (signed long long int)tmp_post$4);
-        *((unsigned int *)return_value_darrayPut$5) = i;
+        void *return_value_darrayPut_5;
+        return_value_darrayPut_5=darrayPut(scaf5, (signed long long int)tmp_post_4);
+        *((unsigned int *)return_value_darrayPut_5) = i;
         (contig_array + (signed long int)i)->flag = (unsigned char)1;
-        unsigned int return_value_getTwinCtg$6;
-        return_value_getTwinCtg$6=getTwinCtg(i);
-        (contig_array + (signed long int)return_value_getTwinCtg$6)->flag = (unsigned char)1;
+        unsigned int return_value_getTwinCtg_6;
+        return_value_getTwinCtg_6=getTwinCtg(i);
+        (contig_array + (signed long int)return_value_getTwinCtg_6)->flag = (unsigned char)1;
         prevCNT = (struct connection *)(void *)0;
-        cnt=getNextContig(freezing$$1$$ctg, prevCNT, &excep);
+        cnt=getNextContig(freezing__1__ctg, prevCNT, &excep);
         while(!(cnt == ((struct connection *)NULL)))
         {
           if(!((contig_array + (signed long int)cnt->contigID)->flag == 0))
           {
-            unBindLink(freezing$$1$$ctg, cnt->contigID);
+            unBindLink(freezing__1__ctg, cnt->contigID);
             break;
           }
 
           nextCnt=getNextContig(cnt->contigID, cnt, &excep);
-          setConnectUsed(freezing$$1$$ctg, cnt->contigID, (char)1);
-          freezing$$1$$ctg = cnt->contigID;
-          tmp_post$7 = num5;
+          setConnectUsed(freezing__1__ctg, cnt->contigID, (char)1);
+          freezing__1__ctg = cnt->contigID;
+          tmp_post_7 = num5;
           num5 = num5 + 1;
-          void *return_value_darrayPut$8;
-          return_value_darrayPut$8=darrayPut(scaf5, (signed long long int)tmp_post$7);
-          *((unsigned int *)return_value_darrayPut$8) = freezing$$1$$ctg;
-          bal_ctg=getTwinCtg(freezing$$1$$ctg);
-          (contig_array + (signed long int)freezing$$1$$ctg)->flag = (unsigned char)1;
+          void *return_value_darrayPut_8;
+          return_value_darrayPut_8=darrayPut(scaf5, (signed long long int)tmp_post_7);
+          *((unsigned int *)return_value_darrayPut_8) = freezing__1__ctg;
+          bal_ctg=getTwinCtg(freezing__1__ctg);
+          (contig_array + (signed long int)freezing__1__ctg)->flag = (unsigned char)1;
           (contig_array + (signed long int)bal_ctg)->flag = (unsigned char)1;
           prevCNT = cnt;
           cnt = nextCnt;
         }
-        freezing$$1$$ctg=getTwinCtg(i);
+        freezing__1__ctg=getTwinCtg(i);
         if(num5 >= 2)
         {
-          void *return_value_darrayGet$9;
-          return_value_darrayGet$9=darrayGet(scaf5, (signed long long int)1);
-          unsigned int return_value_getTwinCtg$10;
-          return_value_getTwinCtg$10=getTwinCtg(*((unsigned int *)return_value_darrayGet$9));
-          prevCNT=checkConnect(return_value_getTwinCtg$10, freezing$$1$$ctg);
+          void *return_value_darrayGet_9;
+          return_value_darrayGet_9=darrayGet(scaf5, (signed long long int)1);
+          unsigned int return_value_getTwinCtg_10;
+          return_value_getTwinCtg_10=getTwinCtg(*((unsigned int *)return_value_darrayGet_9));
+          prevCNT=checkConnect(return_value_getTwinCtg_10, freezing__1__ctg);
         }
 
         else
           prevCNT = (struct connection *)(void *)0;
-        cnt=getNextContig(freezing$$1$$ctg, prevCNT, &excep);
+        cnt=getNextContig(freezing__1__ctg, prevCNT, &excep);
         while(!(cnt == ((struct connection *)NULL)))
         {
           if(!((contig_array + (signed long int)cnt->contigID)->flag == 0))
           {
-            unBindLink(freezing$$1$$ctg, cnt->contigID);
+            unBindLink(freezing__1__ctg, cnt->contigID);
             break;
           }
 
           nextCnt=getNextContig(cnt->contigID, cnt, &excep);
-          setConnectUsed(freezing$$1$$ctg, cnt->contigID, (char)1);
-          freezing$$1$$ctg = cnt->contigID;
-          bal_ctg=getTwinCtg(freezing$$1$$ctg);
-          (contig_array + (signed long int)freezing$$1$$ctg)->flag = (unsigned char)1;
+          setConnectUsed(freezing__1__ctg, cnt->contigID, (char)1);
+          freezing__1__ctg = cnt->contigID;
+          bal_ctg=getTwinCtg(freezing__1__ctg);
+          (contig_array + (signed long int)freezing__1__ctg)->flag = (unsigned char)1;
           (contig_array + (signed long int)bal_ctg)->flag = (unsigned char)1;
-          tmp_post$11 = num3;
+          tmp_post_11 = num3;
           num3 = num3 + 1;
-          void *return_value_darrayPut$12;
-          return_value_darrayPut$12=darrayPut(scaf3, (signed long long int)tmp_post$11);
-          *((unsigned int *)return_value_darrayPut$12) = bal_ctg;
+          void *return_value_darrayPut_12;
+          return_value_darrayPut_12=darrayPut(scaf3, (signed long long int)tmp_post_11);
+          *((unsigned int *)return_value_darrayPut_12) = bal_ctg;
           prevCNT = cnt;
           cnt = nextCnt;
         }
@@ -11801,20 +11801,20 @@ static void freezing()
           j = num3 - 1;
           for( ; j >= 0; j = j - 1)
           {
-            tmp_post$13 = solidCounter;
+            tmp_post_13 = solidCounter;
             solidCounter = solidCounter + 1;
-            return_value_darrayPut$14=darrayPut(solidArray, (signed long long int)tmp_post$13);
-            return_value_darrayGet$15=darrayGet(scaf3, (signed long long int)j);
-            *((unsigned int *)return_value_darrayPut$14) = *((unsigned int *)return_value_darrayGet$15);
+            return_value_darrayPut_14=darrayPut(solidArray, (signed long long int)tmp_post_13);
+            return_value_darrayGet_15=darrayGet(scaf3, (signed long long int)j);
+            *((unsigned int *)return_value_darrayPut_14) = *((unsigned int *)return_value_darrayGet_15);
           }
           j = 0;
           for( ; !(j >= num5); j = j + 1)
           {
-            tmp_post$16 = solidCounter;
+            tmp_post_16 = solidCounter;
             solidCounter = solidCounter + 1;
-            return_value_darrayPut$17=darrayPut(solidArray, (signed long long int)tmp_post$16);
-            return_value_darrayGet$18=darrayGet(scaf5, (signed long long int)j);
-            *((unsigned int *)return_value_darrayPut$17) = *((unsigned int *)return_value_darrayGet$18);
+            return_value_darrayPut_17=darrayPut(solidArray, (signed long long int)tmp_post_16);
+            return_value_darrayGet_18=darrayGet(scaf5, (signed long long int)j);
+            *((unsigned int *)return_value_darrayPut_17) = *((unsigned int *)return_value_darrayGet_18);
           }
           unsigned int firstCtg = (unsigned int)0;
           unsigned int lastCtg = (unsigned int)0;
@@ -11823,12 +11823,12 @@ static void freezing()
           t = 0;
           for( ; !(t >= solidCounter); t = t + 1)
           {
-            return_value_darrayGet$20=darrayGet(solidArray, (signed long long int)t);
-            if((contig_array + (signed long int)*((unsigned int *)return_value_darrayGet$20))->mask == 0)
+            return_value_darrayGet_20=darrayGet(solidArray, (signed long long int)t);
+            if((contig_array + (signed long int)*((unsigned int *)return_value_darrayGet_20))->mask == 0)
             {
-              void *return_value_darrayGet$19;
-              return_value_darrayGet$19=darrayGet(solidArray, (signed long long int)t);
-              firstCtg = *((unsigned int *)return_value_darrayGet$19);
+              void *return_value_darrayGet_19;
+              return_value_darrayGet_19=darrayGet(solidArray, (signed long long int)t);
+              firstCtg = *((unsigned int *)return_value_darrayGet_19);
               break;
             }
 
@@ -11836,12 +11836,12 @@ static void freezing()
           t = solidCounter - 1;
           for( ; t >= 0; t = t - 1)
           {
-            return_value_darrayGet$22=darrayGet(solidArray, (signed long long int)t);
-            if((contig_array + (signed long int)*((unsigned int *)return_value_darrayGet$22))->mask == 0)
+            return_value_darrayGet_22=darrayGet(solidArray, (signed long long int)t);
+            if((contig_array + (signed long int)*((unsigned int *)return_value_darrayGet_22))->mask == 0)
             {
-              void *return_value_darrayGet$21;
-              return_value_darrayGet$21=darrayGet(solidArray, (signed long long int)t);
-              lastCtg = *((unsigned int *)return_value_darrayGet$21);
+              void *return_value_darrayGet_21;
+              return_value_darrayGet_21=darrayGet(solidArray, (signed long long int)t);
+              lastCtg = *((unsigned int *)return_value_darrayGet_21);
               break;
             }
 
@@ -11852,10 +11852,10 @@ static void freezing()
             j = 0;
             for( ; !(j >= solidCounter); j = j + 1)
             {
-              return_value_darrayGet$23=darrayGet(solidArray, (signed long long int)j);
-              return_value_darrayGet$24=darrayGet(solidArray, (signed long long int)j);
-              return_value_darrayGet$25=darrayGet(solidArray, (signed long long int)j);
-              printf("->%d(%d %d)", *((unsigned int *)return_value_darrayGet$23), (contig_array + (signed long int)*((unsigned int *)return_value_darrayGet$24))->mask, (contig_array + (signed long int)*((unsigned int *)return_value_darrayGet$25))->flag);
+              return_value_darrayGet_23=darrayGet(solidArray, (signed long long int)j);
+              return_value_darrayGet_24=darrayGet(solidArray, (signed long long int)j);
+              return_value_darrayGet_25=darrayGet(solidArray, (signed long long int)j);
+              printf("->%d(%d %d)", *((unsigned int *)return_value_darrayGet_23), (contig_array + (signed long int)*((unsigned int *)return_value_darrayGet_24))->mask, (contig_array + (signed long int)*((unsigned int *)return_value_darrayGet_25))->flag);
             }
             printf("\n");
           }
@@ -11869,18 +11869,18 @@ static void freezing()
           for( ; !(t >= solidCounter); t = t + 1)
           {
             unsigned int ctg;
-            void *return_value_darrayGet$26;
-            return_value_darrayGet$26=darrayGet(solidArray, (signed long long int)t);
-            ctg = *((unsigned int *)return_value_darrayGet$26);
+            void *return_value_darrayGet_26;
+            return_value_darrayGet_26=darrayGet(solidArray, (signed long long int)t);
+            ctg = *((unsigned int *)return_value_darrayGet_26);
             if((contig_array + (signed long int)ctg)->from_vt >= 1u)
             {
               (contig_array + (signed long int)ctg)->mask = (unsigned char)1;
-              unsigned int return_value_getTwinCtg$27;
-              return_value_getTwinCtg$27=getTwinCtg(ctg);
-              (contig_array + (signed long int)return_value_getTwinCtg$27)->mask = (unsigned char)1;
-              unsigned int return_value_getTwinCtg$28;
-              return_value_getTwinCtg$28=getTwinCtg(ctg);
-              printf("Repeat: contig %d (%d) appears more than once\n", ctg, return_value_getTwinCtg$28);
+              unsigned int return_value_getTwinCtg_27;
+              return_value_getTwinCtg_27=getTwinCtg(ctg);
+              (contig_array + (signed long int)return_value_getTwinCtg_27)->mask = (unsigned char)1;
+              unsigned int return_value_getTwinCtg_28;
+              return_value_getTwinCtg_28=getTwinCtg(ctg);
+              printf("Repeat: contig %d (%d) appears more than once\n", ctg, return_value_getTwinCtg_28);
             }
 
             else
@@ -11888,15 +11888,15 @@ static void freezing()
               (contig_array + (signed long int)ctg)->from_vt = firstCtg;
               (contig_array + (signed long int)ctg)->to_vt = lastCtg;
               (contig_array + (signed long int)ctg)->indexInScaf = (unsigned short int)(t + 1);
-              unsigned int return_value_getTwinCtg$29;
-              return_value_getTwinCtg$29=getTwinCtg(ctg);
-              (contig_array + (signed long int)return_value_getTwinCtg$29)->from_vt = lastTwin;
-              unsigned int return_value_getTwinCtg$30;
-              return_value_getTwinCtg$30=getTwinCtg(ctg);
-              (contig_array + (signed long int)return_value_getTwinCtg$30)->to_vt = firstTwin;
-              unsigned int return_value_getTwinCtg$31;
-              return_value_getTwinCtg$31=getTwinCtg(ctg);
-              (contig_array + (signed long int)return_value_getTwinCtg$31)->indexInScaf = (unsigned short int)(solidCounter - t);
+              unsigned int return_value_getTwinCtg_29;
+              return_value_getTwinCtg_29=getTwinCtg(ctg);
+              (contig_array + (signed long int)return_value_getTwinCtg_29)->from_vt = lastTwin;
+              unsigned int return_value_getTwinCtg_30;
+              return_value_getTwinCtg_30=getTwinCtg(ctg);
+              (contig_array + (signed long int)return_value_getTwinCtg_30)->to_vt = firstTwin;
+              unsigned int return_value_getTwinCtg_31;
+              return_value_getTwinCtg_31=getTwinCtg(ctg);
+              (contig_array + (signed long int)return_value_getTwinCtg_31)->indexInScaf = (unsigned short int)(solidCounter - t);
             }
           }
           consolidate();
@@ -11981,7 +11981,7 @@ static void general_linearization(char strict)
         if(!(flag == 0))
         {
           subCounter = subCounter + 1;
-          qsort((void *)&ctg4heapArray[(signed long int)1], (unsigned long int)nodeCounter$link1, sizeof(struct ctg4heap) /*12ul*/ , cmp_ctg);
+          qsort((void *)&ctg4heapArray[(signed long int)1], (unsigned long int)nodeCounter_link1, sizeof(struct ctg4heap) /*12ul*/ , cmp_ctg);
           flag=checkEligible();
           if(flag == 0)
           {
@@ -12176,9 +12176,9 @@ static struct connection * getCntInLookupTable(unsigned int from_c, unsigned int
 // file dfibHeap.c line 30
 signed long long int getDFibHeapSize(struct dfibheap *heap)
 {
-  signed long long int return_value_dfibheap_getSize$1;
-  return_value_dfibheap_getSize$1=dfibheap_getSize(heap);
-  return return_value_dfibheap_getSize$1;
+  signed long long int return_value_dfibheap_getSize_1;
+  return_value_dfibheap_getSize_1=dfibheap_getSize(heap);
+  return return_value_dfibheap_getSize_1;
 }
 
 // getDSLink2Scaf
@@ -12192,57 +12192,57 @@ static signed int getDSLink2Scaf(struct stack *scafStack, struct dynamic_array *
   signed int counter = 0;
   char inc;
   stackRecover(scafStack);
-  void *return_value_stackPop$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
+  void *return_value_stackPop_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
   do
   {
-    return_value_stackPop$1=stackPop(scafStack);
-    pt = (unsigned int *)return_value_stackPop$1;
+    return_value_stackPop_1=stackPop(scafStack);
+    pt = (unsigned int *)return_value_stackPop_1;
     if(pt == ((unsigned int *)NULL))
       break;
 
     ctg = *pt;
     if(!((contig_array + (signed long int)ctg)->mask == 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = !((contig_array + (signed long int)ctg)->downwardConnect != ((struct connection *)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = !((contig_array + (signed long int)ctg)->downwardConnect != ((struct connection *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_2)
     {
       ite_cnt = (contig_array + (signed long int)ctg)->downwardConnect;
       while(!(ite_cnt == ((struct connection *)NULL)))
       {
         if(!(ite_cnt->deleted == 0))
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = ite_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_3 = ite_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = ite_cnt->singleInScaf != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_4 = ite_cnt->singleInScaf != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = ite_cnt->nextInScaf != ((struct connection *)NULL) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$5)
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_5 = ite_cnt->nextInScaf != ((struct connection *)NULL) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_5)
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = ite_cnt->prevInScaf != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_6 = ite_cnt->prevInScaf != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = ite_cnt->inherit != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = ite_cnt->inherit != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_7)
           ite_cnt = ite_cnt->next;
 
         else
@@ -12272,17 +12272,17 @@ static signed int getDSLink2Scaf(struct stack *scafStack, struct dynamic_array *
 // file prlHashCtg.c line 247
 static signed int getID(char *name)
 {
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if((signed int)*name >= 48)
-    tmp_if_expr$2 = (signed int)name[(signed long int)0] <= 57 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = (signed int)name[(signed long int)0] <= 57 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
   {
-    signed int return_value_atoi$1;
-    return_value_atoi$1=atoi$link8(&name[(signed long int)0]);
-    return return_value_atoi$1;
+    signed int return_value_atoi_1;
+    return_value_atoi_1=atoi_link8(&name[(signed long int)0]);
+    return return_value_atoi_1;
   }
 
   else
@@ -12294,7 +12294,7 @@ static signed int getID(char *name)
 static signed int getIndexInArray(unsigned int node)
 {
   signed int index = 0;
-  for( ; !(index >= nodeCounter$link1); index = index + 1)
+  for( ; !(index >= nodeCounter_link1); index = index + 1)
     if(nodesInSub[(signed long int)index] == node)
       return index;
 
@@ -12307,8 +12307,8 @@ extern void * getItem(struct mem_manager *mem_Manager)
 {
   struct recycle_mark *mark;
   struct block_start *block;
-  _Bool tmp_if_expr$2;
-  signed int tmp_post$3;
+  _Bool tmp_if_expr_2;
+  signed int tmp_post_3;
   if(mem_Manager == ((struct mem_manager *)NULL))
     return (void *)0;
 
@@ -12324,15 +12324,15 @@ extern void * getItem(struct mem_manager *mem_Manager)
     {
       mem_Manager->counter = mem_Manager->counter + 1ull;
       if(mem_Manager->block_list == ((struct block_start *)NULL))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = mem_Manager->index_in_block == mem_Manager->items_per_block ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = mem_Manager->index_in_block == mem_Manager->items_per_block ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
-        void *return_value_ckalloc$1;
-        return_value_ckalloc$1=ckalloc(sizeof(struct block_start) /*8ul*/  + (unsigned long int)mem_Manager->items_per_block * mem_Manager->item_size);
-        block = (struct block_start *)return_value_ckalloc$1;
+        void *return_value_ckalloc_1;
+        return_value_ckalloc_1=ckalloc(sizeof(struct block_start) /*8ul*/  + (unsigned long int)mem_Manager->items_per_block * mem_Manager->item_size);
+        block = (struct block_start *)return_value_ckalloc_1;
         block->next = mem_Manager->block_list;
         mem_Manager->block_list = block;
         mem_Manager->index_in_block = 1;
@@ -12340,9 +12340,9 @@ extern void * getItem(struct mem_manager *mem_Manager)
       }
 
       block = mem_Manager->block_list;
-      tmp_post$3 = mem_Manager->index_in_block;
+      tmp_post_3 = mem_Manager->index_in_block;
       mem_Manager->index_in_block = mem_Manager->index_in_block + 1;
-      return (void *)(struct recycle_mark *)((void *)block + (signed long int)sizeof(struct block_start) /*8ul*/  + (signed long int)(mem_Manager->item_size * (unsigned long int)tmp_post$3));
+      return (void *)(struct recycle_mark *)((void *)block + (signed long int)sizeof(struct block_start) /*8ul*/  + (signed long int)(mem_Manager->item_size * (unsigned long int)tmp_post_3));
     }
 }
 
@@ -12350,9 +12350,9 @@ extern void * getItem(struct mem_manager *mem_Manager)
 // file inc/dfibHeap.h line 44
 double getKey(struct dfibheap_el *node)
 {
-  double return_value_dfibheap_el_getKey$1;
-  return_value_dfibheap_el_getKey$1=dfibheap_el_getKey(node);
-  return return_value_dfibheap_el_getKey$1;
+  double return_value_dfibheap_el_getKey_1;
+  return_value_dfibheap_el_getKey_1=dfibheap_el_getKey(node);
+  return return_value_dfibheap_el_getKey_1;
 }
 
 // getMaxLongReadLen
@@ -12363,17 +12363,17 @@ extern signed int getMaxLongReadLen(signed int num_libs)
   signed int maxLong = 0;
   char Has = (char)0;
   i = 0;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   for( ; !(i >= num_libs); i = i + 1)
     if((lib_array + (signed long int)i)->asm_flag == 4)
     {
       Has = (char)1;
       if(!(maxLong >= (lib_array + (signed long int)i)->rd_len_cutoff))
-        tmp_if_expr$1 = (lib_array + (signed long int)i)->rd_len_cutoff;
+        tmp_if_expr_1 = (lib_array + (signed long int)i)->rd_len_cutoff;
 
       else
-        tmp_if_expr$1 = maxLong;
-      maxLong = tmp_if_expr$1;
+        tmp_if_expr_1 = maxLong;
+      maxLong = tmp_if_expr_1;
     }
 
   if(Has == 0)
@@ -12391,24 +12391,24 @@ static signed int getMinOverlap(char *gfile)
   char ch;
   struct _IO_FILE *fp;
   signed int num_kmer;
-  signed int getMinOverlap$$1$$overlaplen = 23;
+  signed int getMinOverlap__1__overlaplen = 23;
   char line[1024l];
   sprintf(name, "%s.preGraphBasic", gfile);
   fp=fopen(name, "r");
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   if(fp == ((struct _IO_FILE *)NULL))
-    return getMinOverlap$$1$$overlaplen;
+    return getMinOverlap__1__overlaplen;
 
   else
   {
     do
     {
-      return_value_fgets$1=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       if((signed int)line[0l] == 86)
-        sscanf(line + (signed long int)6, "%d %c %d", &num_kmer, &ch, &getMinOverlap$$1$$overlaplen);
+        sscanf(line + (signed long int)6, "%d %c %d", &num_kmer, &ch, &getMinOverlap__1__overlaplen);
 
       else
         if((signed int)line[0l] == 77)
@@ -12417,7 +12417,7 @@ static signed int getMinOverlap(char *gfile)
     }
     while((_Bool)1);
     fclose(fp);
-    return getMinOverlap$$1$$overlaplen;
+    return getMinOverlap__1__overlaplen;
   }
 }
 
@@ -12432,9 +12432,9 @@ static struct connection * getNextContig(unsigned int ctg, struct connection *pr
   unsigned int nextCtg;
   unsigned int bal_ctg;
   *exception = (char)0;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_7;
   if(!(preCNT == ((struct connection *)NULL)))
   {
     if(preCNT->nextInScaf == ((struct connection *)NULL))
@@ -12448,30 +12448,30 @@ static struct connection * getNextContig(unsigned int ctg, struct connection *pr
     if(!(cn_temp == ((struct connection *)NULL)))
     {
       if(!(cn_temp->mask == 0))
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = cn_temp->deleted != 0 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = cn_temp->deleted != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (_Bool)0;
+    if(tmp_if_expr_6)
     {
-      unsigned int return_value_getTwinCtg$1;
-      return_value_getTwinCtg$1=getTwinCtg(nextCtg);
-      unsigned int return_value_getTwinCtg$2;
-      return_value_getTwinCtg$2=getTwinCtg(ctg);
-      printf("getNextContig: arc(%d %d) twin (%d %d) with mask %d deleted %d\n", ctg, nextCtg, return_value_getTwinCtg$1, return_value_getTwinCtg$2, cn_temp->mask, cn_temp->deleted);
+      unsigned int return_value_getTwinCtg_1;
+      return_value_getTwinCtg_1=getTwinCtg(nextCtg);
+      unsigned int return_value_getTwinCtg_2;
+      return_value_getTwinCtg_2=getTwinCtg(ctg);
+      printf("getNextContig: arc(%d %d) twin (%d %d) with mask %d deleted %d\n", ctg, nextCtg, return_value_getTwinCtg_1, return_value_getTwinCtg_2, cn_temp->mask, cn_temp->deleted);
       if(cn_temp->prevInScaf == 0)
         printf("not even has a prevInScaf\n");
 
-      unsigned int return_value_getTwinCtg$3;
-      return_value_getTwinCtg$3=getTwinCtg(nextCtg);
-      unsigned int return_value_getTwinCtg$4;
-      return_value_getTwinCtg$4=getTwinCtg(ctg);
-      cn_temp=getCntBetween(return_value_getTwinCtg$3, return_value_getTwinCtg$4);
+      unsigned int return_value_getTwinCtg_3;
+      return_value_getTwinCtg_3=getTwinCtg(nextCtg);
+      unsigned int return_value_getTwinCtg_4;
+      return_value_getTwinCtg_4=getTwinCtg(ctg);
+      cn_temp=getCntBetween(return_value_getTwinCtg_3, return_value_getTwinCtg_4);
       if(cn_temp->nextInScaf == ((struct connection *)NULL))
         printf("its twin cnt not  has a nextInScaf\n");
 
@@ -12503,11 +12503,11 @@ static struct connection * getNextContig(unsigned int ctg, struct connection *pr
         while(!(cn_temp == ((struct connection *)NULL)))
         {
           if(!(cn_temp->mask == 0))
-            tmp_if_expr$7 = (_Bool)1;
+            tmp_if_expr_7 = (_Bool)1;
 
           else
-            tmp_if_expr$7 = cn_temp->deleted != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$7)
+            tmp_if_expr_7 = cn_temp->deleted != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_7)
             cn_temp = cn_temp->next;
 
           else
@@ -12558,10 +12558,10 @@ static struct prearc * getPreArcBetween(unsigned int from_ed, unsigned int to_ed
 // file prlReadFillGap.c line 95
 static signed long long int getRead1by1(struct _IO_FILE *fp, struct dynamic_array *readSeqInGap)
 {
-  signed long long int getRead1by1$$1$$readCounter = (signed long long int)0;
-  unsigned long int return_value_fread$2;
+  signed long long int getRead1by1__1__readCounter = (signed long long int)0;
+  unsigned long int return_value_fread_2;
   if(fp == ((struct _IO_FILE *)NULL))
-    return getRead1by1$$1$$readCounter;
+    return getRead1by1__1__readCounter;
 
   else
   {
@@ -12571,46 +12571,46 @@ static signed long long int getRead1by1(struct _IO_FILE *fp, struct dynamic_arra
     signed long long int starter;
     char *pt;
     char *freadBuf;
-    void *return_value_ckalloc$1;
-    return_value_ckalloc$1=ckalloc((unsigned long int)(maxReadLen / 4 + 1) * sizeof(char) /*1ul*/ );
-    freadBuf = (char *)return_value_ckalloc$1;
+    void *return_value_ckalloc_1;
+    return_value_ckalloc_1=ckalloc((unsigned long int)(maxReadLen / 4 + 1) * sizeof(char) /*1ul*/ );
+    freadBuf = (char *)return_value_ckalloc_1;
     do
     {
-      return_value_fread$2=fread((void *)&len, sizeof(signed int) /*4ul*/ , (unsigned long int)1, fp);
-      if(!(return_value_fread$2 == 1ul))
+      return_value_fread_2=fread((void *)&len, sizeof(signed int) /*4ul*/ , (unsigned long int)1, fp);
+      if(!(return_value_fread_2 == 1ul))
         break;
 
-      unsigned long int return_value_fread$3;
-      return_value_fread$3=fread((void *)&ctgID, sizeof(signed int) /*4ul*/ , (unsigned long int)1, fp);
-      if(!(return_value_fread$3 == 1ul))
+      unsigned long int return_value_fread_3;
+      return_value_fread_3=fread((void *)&ctgID, sizeof(signed int) /*4ul*/ , (unsigned long int)1, fp);
+      if(!(return_value_fread_3 == 1ul))
         break;
 
-      unsigned long int return_value_fread$4;
-      return_value_fread$4=fread((void *)&pos, sizeof(signed int) /*4ul*/ , (unsigned long int)1, fp);
-      if(!(return_value_fread$4 == 1ul))
+      unsigned long int return_value_fread_4;
+      return_value_fread_4=fread((void *)&pos, sizeof(signed int) /*4ul*/ , (unsigned long int)1, fp);
+      if(!(return_value_fread_4 == 1ul))
         break;
 
-      unsigned long int return_value_fread$5;
-      return_value_fread$5=fread((void *)freadBuf, sizeof(char) /*1ul*/ , (unsigned long int)(len / 4 + 1), fp);
-      if(!(return_value_fread$5 == (unsigned long int)(1u + (unsigned int)(len / 4))))
+      unsigned long int return_value_fread_5;
+      return_value_fread_5=fread((void *)freadBuf, sizeof(char) /*1ul*/ , (unsigned long int)(len / 4 + 1), fp);
+      if(!(return_value_fread_5 == (unsigned long int)(1u + (unsigned int)(len / 4))))
         break;
 
       starter = readSeqInGap->item_c;
-      void *return_value_darrayPut$6;
-      return_value_darrayPut$6=darrayPut(readSeqInGap, starter + (signed long int)(len / 4));
-      if(return_value_darrayPut$6 == NULL)
+      void *return_value_darrayPut_6;
+      return_value_darrayPut_6=darrayPut(readSeqInGap, starter + (signed long int)(len / 4));
+      if(return_value_darrayPut_6 == NULL)
         break;
 
-      void *return_value_darrayPut$7;
-      return_value_darrayPut$7=darrayPut(readSeqInGap, starter);
-      pt = (char *)return_value_darrayPut$7;
+      void *return_value_darrayPut_7;
+      return_value_darrayPut_7=darrayPut(readSeqInGap, starter);
+      pt = (char *)return_value_darrayPut_7;
       bcopy((const void *)freadBuf, (void *)pt, (unsigned long int)(len / 4 + 1));
       attach1read2contig((unsigned int)ctgID, len, pos, starter);
-      getRead1by1$$1$$readCounter = getRead1by1$$1$$readCounter + 1ll;
+      getRead1by1__1__readCounter = getRead1by1__1__readCounter + 1ll;
     }
     while((_Bool)1);
     free((void *)freadBuf);
-    return getRead1by1$$1$$readCounter;
+    return getRead1by1__1__readCounter;
   }
 }
 
@@ -12624,8 +12624,8 @@ static void getReadIngap(signed int t, signed int insSize, struct _IO_FILE *outf
   {
     read1 = t;
     read2 = t + 1;
-    ctgIdArray$link1[(signed long int)read1] = ctgIdArray$link1[(signed long int)read2];
-    posArray[(signed long int)read1] = (posArray[(signed long int)read2] + insSize) - lenBuffer$link2[(signed long int)read1];
+    ctgIdArray_link1[(signed long int)read1] = ctgIdArray_link1[(signed long int)read2];
+    posArray[(signed long int)read1] = (posArray[(signed long int)read2] + insSize) - lenBuffer_link2[(signed long int)read1];
     output1read(read1, outfp);
   }
 
@@ -12633,8 +12633,8 @@ static void getReadIngap(signed int t, signed int insSize, struct _IO_FILE *outf
   {
     read2 = t;
     read1 = t - 1;
-    ctgIdArray$link1[(signed long int)read2] = ctgIdArray$link1[(signed long int)read1];
-    posArray[(signed long int)read2] = (posArray[(signed long int)read1] + insSize) - lenBuffer$link2[(signed long int)read2];
+    ctgIdArray_link1[(signed long int)read2] = ctgIdArray_link1[(signed long int)read1];
+    posArray[(signed long int)read2] = (posArray[(signed long int)read1] + insSize) - lenBuffer_link2[(signed long int)read2];
     output1read(read2, outfp);
   }
 }
@@ -12647,18 +12647,18 @@ static signed int getScaffold(unsigned int start, struct stack *scafStack)
   unsigned int *pt;
   unsigned int ctg;
   emptyStack(scafStack);
-  void *return_value_stackPush$1;
-  return_value_stackPush$1=stackPush(scafStack);
-  pt = (unsigned int *)return_value_stackPush$1;
+  void *return_value_stackPush_1;
+  return_value_stackPush_1=stackPush(scafStack);
+  pt = (unsigned int *)return_value_stackPush_1;
   *pt = start;
   struct connection *bindCnt;
   bindCnt=getBindCnt(start);
   while(!(bindCnt == ((struct connection *)NULL)))
   {
     ctg = bindCnt->contigID;
-    void *return_value_stackPush$2;
-    return_value_stackPush$2=stackPush(scafStack);
-    pt = (unsigned int *)return_value_stackPush$2;
+    void *return_value_stackPush_2;
+    return_value_stackPush_2=stackPush(scafStack);
+    pt = (unsigned int *)return_value_stackPush_2;
     *pt = ctg;
     len = len + (signed int)(contig_array + (signed long int)ctg)->length;
     bindCnt = bindCnt->nextInScaf;
@@ -12707,9 +12707,9 @@ static void getSeqFromRead(struct read_nearby read, char *src_seq)
   signed int len_seq = read.len;
   signed int j;
   char *tightSeq;
-  void *return_value_darrayGet$1;
-  return_value_darrayGet$1=darrayGet(readSeqInGap, read.seqStarter);
-  tightSeq = (char *)return_value_darrayGet$1;
+  void *return_value_darrayGet_1;
+  return_value_darrayGet_1=darrayGet(readSeqInGap, read.seqStarter);
+  tightSeq = (char *)return_value_darrayGet_1;
   j = 0;
   for( ; !(j >= len_seq); j = j + 1)
     src_seq[(signed long int)j]=getCharInTightString(tightSeq, j);
@@ -12734,15 +12734,15 @@ extern unsigned int getTwinEdge(unsigned int edgeno)
 static signed int getWtFromSarray(struct dynamic_array *SCAF, struct dynamic_array *WT, signed int count, unsigned int scaf)
 {
   signed int i = 0;
-  void *return_value_darrayGet$2;
+  void *return_value_darrayGet_2;
   for( ; !(i >= count); i = i + 1)
   {
-    return_value_darrayGet$2=darrayGet(SCAF, (signed long long int)i);
-    if(*((unsigned int *)return_value_darrayGet$2) == scaf)
+    return_value_darrayGet_2=darrayGet(SCAF, (signed long long int)i);
+    if(*((unsigned int *)return_value_darrayGet_2) == scaf)
     {
-      void *return_value_darrayGet$1;
-      return_value_darrayGet$1=darrayGet(WT, (signed long long int)i);
-      return *((signed int *)return_value_darrayGet$1);
+      void *return_value_darrayGet_1;
+      return_value_darrayGet_1=darrayGet(WT, (signed long long int)i);
+      return *((signed int *)return_value_darrayGet_1);
     }
 
   }
@@ -12754,9 +12754,9 @@ static signed int getWtFromSarray(struct dynamic_array *SCAF, struct dynamic_arr
 unsigned long long int hash_kmer(unsigned long long int kmer)
 {
   unsigned long long int hash = kmer;
-  signed int return_value_crc32$1;
-  return_value_crc32$1=crc32(0, (char *)&kmer, (signed int)sizeof(unsigned long long int) /*8ul*/ );
-  hash = (unsigned long long int)return_value_crc32$1;
+  signed int return_value_crc32_1;
+  return_value_crc32_1=crc32(0, (char *)&kmer, (signed int)sizeof(unsigned long long int) /*8ul*/ );
+  hash = (unsigned long long int)return_value_crc32_1;
   hash = hash & (unsigned long long int)0x0000000000ffffffL;
   return hash;
 }
@@ -12767,16 +12767,16 @@ static void headTightStr(char *tightStr, signed int length, signed int start, si
 {
   signed int i;
   signed int index = 0;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
   if(revS == 0)
   {
     i = start;
     for( ; !(i >= headLen + start); i = i + 1)
     {
-      tmp_post$1 = index;
+      tmp_post_1 = index;
       index = index + 1;
-      src_seq[(signed long int)tmp_post$1]=getCharInTightString(tightStr, i);
+      src_seq[(signed long int)tmp_post_1]=getCharInTightString(tightStr, i);
     }
   }
 
@@ -12785,11 +12785,11 @@ static void headTightStr(char *tightStr, signed int length, signed int start, si
     i = (length - 1) - start;
     for( ; i >= length + -headLen + -start; i = i - 1)
     {
-      tmp_post$2 = index;
+      tmp_post_2 = index;
       index = index + 1;
-      char return_value_getCharInTightString$3;
-      return_value_getCharInTightString$3=getCharInTightString(tightStr, i);
-      src_seq[(signed long int)tmp_post$2] = (char)((signed int)return_value_getCharInTightString$3 ^ 0x02);
+      char return_value_getCharInTightString_3;
+      return_value_getCharInTightString_3=getCharInTightString(tightStr, i);
+      src_seq[(signed long int)tmp_post_2] = (char)((signed int)return_value_getCharInTightString_3 ^ 0x02);
     }
   }
 }
@@ -12802,22 +12802,22 @@ static void initStackBuf(struct stack **ctgStackBuffer, signed int scafBufSize)
   for( ; !(i >= scafBufSize); i = i + 1)
   {
     flagBuf[(signed long int)i] = (char)1;
-    struct stack *return_value_createStack$1;
-    return_value_createStack$1=createStack(100, sizeof(struct ctg4scaf) /*20ul*/ );
-    ctgStackBuffer[(signed long int)i] = (struct stack *)return_value_createStack$1;
+    struct stack *return_value_createStack_1;
+    return_value_createStack_1=createStack(100, sizeof(struct ctg4scaf) /*20ul*/ );
+    ctgStackBuffer[(signed long int)i] = (struct stack *)return_value_createStack_1;
   }
 }
 
-// initStackBuf$link1
+// initStackBuf_link1
 // file read2scaf.c line 73
-static void initStackBuf$link1(struct stack **ctgStackBuffer$link1, signed int scafBufSize$link1)
+static void initStackBuf_link1(struct stack **ctgStackBuffer_link1, signed int scafBufSize_link1)
 {
-  signed int i$link1 = 0;
-  for( ; !(i$link1 >= scafBufSize$link1); i$link1 = i$link1 + 1)
+  signed int i_link1 = 0;
+  for( ; !(i_link1 >= scafBufSize_link1); i_link1 = i_link1 + 1)
   {
-    struct stack *return_value_createStack$1$link1;
-    return_value_createStack$1$link1=createStack(100, sizeof(struct ctg4scaf) /*20ul*/ );
-    ctgStackBuffer$link1[(signed long int)i$link1] = (struct stack *)return_value_createStack$1$link1;
+    struct stack *return_value_createStack_1_link1;
+    return_value_createStack_1_link1=createStack(100, sizeof(struct ctg4scaf) /*20ul*/ );
+    ctgStackBuffer_link1[(signed long int)i_link1] = (struct stack *)return_value_createStack_1_link1;
   }
 }
 
@@ -12831,9 +12831,9 @@ extern struct kmerSet_st * init_kmerset(unsigned long long int init_size, float 
 
   else
     init_size=find_next_prime_kh(init_size);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct kmerSet_st) /*56ul*/ );
-  set = (struct kmerSet_st *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct kmerSet_st) /*56ul*/ );
+  set = (struct kmerSet_st *)return_value_malloc_1;
   set->size = init_size;
   set->count = (unsigned long long int)0;
   set->max = (unsigned long long int)((float)set->size * load_factor);
@@ -12846,12 +12846,12 @@ extern struct kmerSet_st * init_kmerset(unsigned long long int init_size, float 
 
   set->load_factor = (double)load_factor;
   set->iter_ptr = (unsigned long long int)0;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc(set->size, sizeof(struct kmer_st) /*16ul*/ );
-  set->array = (struct kmer_st *)return_value_calloc$2;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(((set->size + (unsigned long int)15) / (unsigned long int)16) * (unsigned long int)4);
-  set->flags = (unsigned int *)return_value_malloc$3;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc(set->size, sizeof(struct kmer_st) /*16ul*/ );
+  set->array = (struct kmer_st *)return_value_calloc_2;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(((set->size + (unsigned long int)15) / (unsigned long int)16) * (unsigned long int)4);
+  set->flags = (unsigned int *)return_value_malloc_3;
   memset((void *)set->flags, 0x55, ((set->size + (unsigned long int)15) / (unsigned long int)16) * (unsigned long int)4);
   return set;
 }
@@ -12868,9 +12868,9 @@ static void initenv(signed int argc, char **argv)
   outseq = (signed int)repeatSolve;
   inpseq = outseq;
   optind = 1;
-  signed int return_value_atoi$1;
-  signed int tmp_if_expr$3;
-  signed int return_value_atoi$2;
+  signed int return_value_atoi_1;
+  signed int tmp_if_expr_3;
+  signed int return_value_atoi_2;
   do
   {
     copt=getopt(argc, argv, "g:M:D:R");
@@ -12888,16 +12888,16 @@ static void initenv(signed int argc, char **argv)
       case 68:
       {
         sscanf(optarg, "%s", (const void *)temp);
-        return_value_atoi$1=atoi(temp);
-        if(return_value_atoi$1 >= 0)
+        return_value_atoi_1=atoi(temp);
+        if(return_value_atoi_1 >= 0)
         {
-          return_value_atoi$2=atoi(temp);
-          tmp_if_expr$3 = return_value_atoi$2;
+          return_value_atoi_2=atoi(temp);
+          tmp_if_expr_3 = return_value_atoi_2;
         }
 
         else
-          tmp_if_expr$3 = 0;
-        deLowEdge = (char)tmp_if_expr$3;
+          tmp_if_expr_3 = 0;
+        deLowEdge = (char)tmp_if_expr_3;
         break;
       }
       case 103:
@@ -12929,51 +12929,51 @@ static void initenv(signed int argc, char **argv)
 
 }
 
-// initenv$link1
+// initenv_link1
 // file map.c line 96
-static void initenv$link1(signed int argc$link1, char **argv$link1)
+static void initenv_link1(signed int argc_link1, char **argv_link1)
 {
-  signed int copt$link1;
-  signed int inpseq$link1;
-  signed int outseq$link1;
-  char temp$link1[100l];
+  signed int copt_link1;
+  signed int inpseq_link1;
+  signed int outseq_link1;
+  char temp_link1[100l];
   optind = 1;
-  outseq$link1 = 0;
-  inpseq$link1 = outseq$link1;
+  outseq_link1 = 0;
+  inpseq_link1 = outseq_link1;
   do
   {
-    copt$link1=getopt(argc$link1, argv$link1, "s:g:K:p:");
-    if(copt$link1 == -1)
+    copt_link1=getopt(argc_link1, argv_link1, "s:g:K:p:");
+    if(copt_link1 == -1)
       break;
 
-    switch(copt$link1)
+    switch(copt_link1)
     {
       case 115:
       {
-        inpseq$link1 = 1;
-        sscanf(optarg, "%s", (const void *)shortrdsfile$link1);
+        inpseq_link1 = 1;
+        sscanf(optarg, "%s", (const void *)shortrdsfile_link1);
         break;
       }
       case 103:
       {
-        outseq$link1 = 1;
-        sscanf(optarg, "%s", (const void *)graphfile$link1);
+        outseq_link1 = 1;
+        sscanf(optarg, "%s", (const void *)graphfile_link1);
         break;
       }
       case 75:
       {
-        sscanf(optarg, "%s", (const void *)temp$link1);
-        overlaplen=atoi$link6(temp$link1);
+        sscanf(optarg, "%s", (const void *)temp_link1);
+        overlaplen=atoi_link6(temp_link1);
         break;
       }
       case 112:
       {
-        sscanf(optarg, "%s", (const void *)temp$link1);
-        thrd_num=atoi$link6(temp$link1);
+        sscanf(optarg, "%s", (const void *)temp_link1);
+        thrd_num=atoi_link6(temp_link1);
         break;
       }
       default:
-        if(inpseq$link1 == 0 || outseq$link1 == 0)
+        if(inpseq_link1 == 0 || outseq_link1 == 0)
         {
           display_map_usage();
           exit(1);
@@ -12982,7 +12982,7 @@ static void initenv$link1(signed int argc$link1, char **argv$link1)
     }
   }
   while((_Bool)1);
-  if(inpseq$link1 == 0 || outseq$link1 == 0)
+  if(inpseq_link1 == 0 || outseq_link1 == 0)
   {
     display_map_usage();
     exit(1);
@@ -12990,50 +12990,50 @@ static void initenv$link1(signed int argc$link1, char **argv$link1)
 
 }
 
-// initenv$link2
+// initenv_link2
 // file pregraph.c line 105
-static void initenv$link2(signed int argc$link2, char **argv$link2)
+static void initenv_link2(signed int argc_link2, char **argv_link2)
 {
-  signed int copt$link2;
-  signed int inpseq$link2;
-  signed int outseq$link2;
-  char temp$link2[100l];
+  signed int copt_link2;
+  signed int inpseq_link2;
+  signed int outseq_link2;
+  char temp_link2[100l];
   optind = 1;
-  outseq$link2 = 0;
-  inpseq$link2 = outseq$link2;
-  signed int return_value_atoi$1$link1;
-  signed int tmp_if_expr$3$link1;
-  signed int return_value_atoi$2$link1;
+  outseq_link2 = 0;
+  inpseq_link2 = outseq_link2;
+  signed int return_value_atoi_1_link1;
+  signed int tmp_if_expr_3_link1;
+  signed int return_value_atoi_2_link1;
   do
   {
-    copt$link2=getopt(argc$link2, argv$link2, "a:s:o:K:p:d:DR");
-    if(copt$link2 == -1)
+    copt_link2=getopt(argc_link2, argv_link2, "a:s:o:K:p:d:DR");
+    if(copt_link2 == -1)
       break;
 
-    switch(copt$link2)
+    switch(copt_link2)
     {
       case 115:
       {
-        inpseq$link2 = 1;
-        sscanf(optarg, "%s", (const void *)shortrdsfile$link2);
+        inpseq_link2 = 1;
+        sscanf(optarg, "%s", (const void *)shortrdsfile_link2);
         break;
       }
       case 111:
       {
-        outseq$link2 = 1;
-        sscanf(optarg, "%s", (const void *)graphfile$link2);
+        outseq_link2 = 1;
+        sscanf(optarg, "%s", (const void *)graphfile_link2);
         break;
       }
       case 75:
       {
-        sscanf(optarg, "%s", (const void *)temp$link2);
-        overlaplen=atoi$link7(temp$link2);
+        sscanf(optarg, "%s", (const void *)temp_link2);
+        overlaplen=atoi_link7(temp_link2);
         break;
       }
       case 112:
       {
-        sscanf(optarg, "%s", (const void *)temp$link2);
-        thrd_num=atoi$link7(temp$link2);
+        sscanf(optarg, "%s", (const void *)temp_link2);
+        thrd_num=atoi_link7(temp_link2);
         break;
       }
       case 82:
@@ -13043,17 +13043,17 @@ static void initenv$link2(signed int argc$link2, char **argv$link2)
       }
       case 100:
       {
-        sscanf(optarg, "%s", (const void *)temp$link2);
-        return_value_atoi$1$link1=atoi$link7(temp$link2);
-        if(return_value_atoi$1$link1 >= 0)
+        sscanf(optarg, "%s", (const void *)temp_link2);
+        return_value_atoi_1_link1=atoi_link7(temp_link2);
+        if(return_value_atoi_1_link1 >= 0)
         {
-          return_value_atoi$2$link1=atoi$link7(temp$link2);
-          tmp_if_expr$3$link1 = return_value_atoi$2$link1;
+          return_value_atoi_2_link1=atoi_link7(temp_link2);
+          tmp_if_expr_3_link1 = return_value_atoi_2_link1;
         }
 
         else
-          tmp_if_expr$3$link1 = 0;
-        deLowKmer = (char)tmp_if_expr$3$link1;
+          tmp_if_expr_3_link1 = 0;
+        deLowKmer = (char)tmp_if_expr_3_link1;
         break;
       }
       case 68:
@@ -13063,11 +13063,11 @@ static void initenv$link2(signed int argc$link2, char **argv$link2)
       }
       case 97:
       {
-        initKmerSetSize=atoi$link7(optarg);
+        initKmerSetSize=atoi_link7(optarg);
         break;
       }
       default:
-        if(inpseq$link2 == 0 || outseq$link2 == 0)
+        if(inpseq_link2 == 0 || outseq_link2 == 0)
         {
           display_pregraph_usage();
           exit(-1);
@@ -13076,7 +13076,7 @@ static void initenv$link2(signed int argc$link2, char **argv$link2)
     }
   }
   while((_Bool)1);
-  if(inpseq$link2 == 0 || outseq$link2 == 0)
+  if(inpseq_link2 == 0 || outseq_link2 == 0)
   {
     display_pregraph_usage();
     exit(-1);
@@ -13084,43 +13084,43 @@ static void initenv$link2(signed int argc$link2, char **argv$link2)
 
 }
 
-// initenv$link3
+// initenv_link3
 // file scaffold.c line 79
-static void initenv$link3(signed int argc$link3, char **argv$link3)
+static void initenv_link3(signed int argc_link3, char **argv_link3)
 {
-  signed int copt$link3;
-  signed int inpseq$link3;
-  char temp$link3[256l];
-  inpseq$link3 = 0;
+  signed int copt_link3;
+  signed int inpseq_link3;
+  char temp_link3[256l];
+  inpseq_link3 = 0;
   LINK = (char)0;
   SCAFF = (char)0;
   optind = 1;
-  signed int return_value_atoi$1$link2;
+  signed int return_value_atoi_1_link2;
   do
   {
-    copt$link3=getopt(argc$link3, argv$link3, "g:L:p:G:FuS");
-    if(copt$link3 == -1)
+    copt_link3=getopt(argc_link3, argv_link3, "g:L:p:G:FuS");
+    if(copt_link3 == -1)
       break;
 
-    switch(copt$link3)
+    switch(copt_link3)
     {
       case 103:
       {
         inGraph = 1;
-        sscanf(optarg, "%s", (const void *)graphfile$link3);
+        sscanf(optarg, "%s", (const void *)graphfile_link3);
         break;
       }
       case 71:
       {
-        sscanf(optarg, "%s", (const void *)temp$link3);
-        GLDiff=atoi$link10(temp$link3);
+        sscanf(optarg, "%s", (const void *)temp_link3);
+        GLDiff=atoi_link10(temp_link3);
         break;
       }
       case 76:
       {
-        sscanf(optarg, "%s", (const void *)temp$link3);
-        return_value_atoi$1$link2=atoi$link10(temp$link3);
-        ctg_short = (unsigned int)return_value_atoi$1$link2;
+        sscanf(optarg, "%s", (const void *)temp_link3);
+        return_value_atoi_1_link2=atoi_link10(temp_link3);
+        ctg_short = (unsigned int)return_value_atoi_1_link2;
         break;
       }
       case 70:
@@ -13140,8 +13140,8 @@ static void initenv$link3(signed int argc$link3, char **argv$link3)
       }
       case 112:
       {
-        sscanf(optarg, "%s", (const void *)temp$link3);
-        thrd_num=atoi$link10(temp$link3);
+        sscanf(optarg, "%s", (const void *)temp_link3);
+        thrd_num=atoi_link10(temp_link3);
         break;
       }
       default:
@@ -13185,10 +13185,10 @@ static signed int inputLinks(struct _IO_FILE *fp, signed int insertS, char *line
   unsigned int counter = (unsigned int)0;
   unsigned int onScafCounter = (unsigned int)0;
   unsigned int maskCounter = (unsigned int)0;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(line);
-  _Bool tmp_if_expr$1;
-  if(!(return_value_strlen$2 == 0ul))
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(line);
+  _Bool tmp_if_expr_1;
+  if(!(return_value_strlen_2 == 0ul))
   {
     sscanf(line, "%d %d %d %d %d", &ctg, &toCtg, &gap, &wt, &ins);
     if(!(ins == insertS))
@@ -13200,11 +13200,11 @@ static signed int inputLinks(struct _IO_FILE *fp, signed int insertS, char *line
     add1Connect(bal_toCtg, bal_ctg, gap, wt, (char)0);
     counter = counter + 1u;
     if(!((contig_array + (signed long int)ctg)->mask == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (contig_array + (signed long int)toCtg)->mask != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (contig_array + (signed long int)toCtg)->mask != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       maskCounter = maskCounter + 1u;
 
     if(insertS >= 1001)
@@ -13223,12 +13223,12 @@ static signed int inputLinks(struct _IO_FILE *fp, signed int insertS, char *line
 
   }
 
-  char *return_value_fgets$3;
-  _Bool tmp_if_expr$4;
+  char *return_value_fgets_3;
+  _Bool tmp_if_expr_4;
   do
   {
-    return_value_fgets$3=fgets(line, lineLen, fp);
-    if(return_value_fgets$3 == ((char *)NULL))
+    return_value_fgets_3=fgets(line, lineLen, fp);
+    if(return_value_fgets_3 == ((char *)NULL))
       break;
 
     sscanf(line, "%d %d %d %d %d", &ctg, &toCtg, &gap, &wt, &ins);
@@ -13255,11 +13255,11 @@ static signed int inputLinks(struct _IO_FILE *fp, signed int insertS, char *line
     add1Connect(bal_toCtg, bal_ctg, gap, wt, (char)0);
     counter = counter + 1u;
     if(!((contig_array + (signed long int)ctg)->mask == 0))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (contig_array + (signed long int)toCtg)->mask != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (contig_array + (signed long int)toCtg)->mask != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
       maskCounter = maskCounter + 1u;
 
   }
@@ -13281,9 +13281,9 @@ struct dfibheap_el * insertNodeIntoDHeap(struct dfibheap *heap, double key, unsi
 // file fibHeap.c line 33
 struct fibheap_el * insertNodeIntoHeap(struct fibheap *heap, signed long long int key, unsigned int node)
 {
-  struct fibheap_el *return_value_fh_insertkey$1;
-  return_value_fh_insertkey$1=fh_insertkey(heap, key, node);
-  return return_value_fh_insertkey$1;
+  struct fibheap_el *return_value_fh_insertkey_1;
+  return_value_fh_insertkey_1=fh_insertkey(heap, key, node);
+  return return_value_fh_insertkey_1;
 }
 
 // interferingCheck
@@ -13297,20 +13297,20 @@ static char interferingCheck(unsigned int edgeno, signed int repTimes)
   involved[(signed long int)0] = edgeno;
   i = 1;
   j = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   for( ; !(j >= repTimes); j = j + 1)
   {
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i + 1;
-    involved[(signed long int)tmp_post$1] = lefts[(signed long int)j];
+    involved[(signed long int)tmp_post_1] = lefts[(signed long int)j];
   }
   j = 0;
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   for( ; !(j >= repTimes); j = j + 1)
   {
-    tmp_post$2 = i;
+    tmp_post_2 = i;
     i = i + 1;
-    involved[(signed long int)tmp_post$2] = rights[(signed long int)j];
+    involved[(signed long int)tmp_post_2] = rights[(signed long int)j];
   }
   j = 0;
   for( ; !(j >= i + -1); j = j + 1)
@@ -13346,11 +13346,11 @@ extern char isLargerThanTwin(unsigned int ctg)
 static char isLinkReliable(struct dynamic_array *WT, signed int count)
 {
   signed int i = 0;
-  void *return_value_darrayGet$1;
+  void *return_value_darrayGet_1;
   for( ; !(i >= count); i = i + 1)
   {
-    return_value_darrayGet$1=darrayGet(WT, (signed long long int)i);
-    if(*((signed int *)return_value_darrayGet$1) >= weakPE)
+    return_value_darrayGet_1=darrayGet(WT, (signed long long int)i);
+    if(*((signed int *)return_value_darrayGet_1) >= weakPE)
       return (char)1;
 
   }
@@ -13449,7 +13449,7 @@ char isUnreliableTip(unsigned int edgeid, signed int cutLen, char strict)
         else
           if(currentEd == 0u)
           {
-            caseB$link1 = caseB$link1 + 1;
+            caseB_link1 = caseB_link1 + 1;
             return (char)1;
           }
 
@@ -13462,7 +13462,7 @@ char isUnreliableTip(unsigned int edgeid, signed int cutLen, char strict)
               if(length >= cutLen)
                 return (char)0;
 
-              caseC$link1 = caseC$link1 + 1;
+              caseC_link1 = caseC_link1 + 1;
               return (char)1;
             }
 
@@ -13477,7 +13477,7 @@ char isUnreliableTip(unsigned int edgeid, signed int cutLen, char strict)
 
                 if(activeArc->multiplicity == 1u)
                 {
-                  caseD$link1 = caseD$link1 + 1;
+                  caseD_link1 = caseD_link1 + 1;
                   return (char)1;
                 }
 
@@ -13558,7 +13558,7 @@ char isUnreliableTip_strict(unsigned int edgeid, signed int cutLen)
         }
         if(currentEd == 0u)
         {
-          caseA$link1 = caseA$link1 + 1;
+          caseA_link1 = caseA_link1 + 1;
           return (char)1;
         }
 
@@ -13569,7 +13569,7 @@ char isUnreliableTip_strict(unsigned int edgeid, signed int cutLen)
 
           if(activeArc->multiplicity == 1u)
           {
-            caseB$link1 = caseB$link1 + 1;
+            caseB_link1 = caseB_link1 + 1;
             return (char)1;
           }
 
@@ -13581,7 +13581,7 @@ char isUnreliableTip_strict(unsigned int edgeid, signed int cutLen)
                 mult = arc->multiplicity;
 
             if(!(activeArc->multiplicity >= mult))
-              caseC$link1 = caseC$link1 + 1;
+              caseC_link1 = caseC_link1 + 1;
 
             return (char)(mult > activeArc->multiplicity);
           }
@@ -13596,7 +13596,7 @@ char isUnreliableTip_strict(unsigned int edgeid, signed int cutLen)
 static inline signed int is_prime_kh(unsigned long long int num)
 {
   unsigned long long int i;
-  unsigned long long int is_prime_kh$$1$$max;
+  unsigned long long int is_prime_kh__1__max;
   if(!(num >= 4ul))
     return 1;
 
@@ -13606,11 +13606,11 @@ static inline signed int is_prime_kh(unsigned long long int num)
 
     else
     {
-      double return_value_sqrt$1;
-      return_value_sqrt$1=sqrt((double)(float)num);
-      is_prime_kh$$1$$max = (unsigned long long int)return_value_sqrt$1;
+      double return_value_sqrt_1;
+      return_value_sqrt_1=sqrt((double)(float)num);
+      is_prime_kh__1__max = (unsigned long long int)return_value_sqrt_1;
       i = (unsigned long long int)3;
-      for( ; !(i >= is_prime_kh$$1$$max); i = i + (unsigned long long int)2)
+      for( ; !(i >= is_prime_kh__1__max); i = i + (unsigned long long int)2)
         if(num % i == 0ul)
           return 0;
 
@@ -13638,9 +13638,9 @@ char * kmer2seq(unsigned long long int word)
   signed int i;
   char *seq;
   unsigned long long int charMask = (unsigned long long int)3;
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)overlaplen * sizeof(char) /*1ul*/ );
-  seq = (char *)return_value_ckalloc$1;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)overlaplen * sizeof(char) /*1ul*/ );
+  seq = (char *)return_value_ckalloc_1;
   i = overlaplen - 1;
   for( ; i >= 0; i = i - 1)
   {
@@ -13662,9 +13662,9 @@ extern signed int kmer2vt(unsigned long long int kmer)
     vt_id=bisearch(&vt_array[(signed long int)0], (signed int)num_vt, kmer);
     if(!(vt_id >= 0))
     {
-      unsigned long long int return_value_reverseComplement$1;
-      return_value_reverseComplement$1=reverseComplement(kmer, overlaplen);
-      printf("no vt found for kmer %llx, its twin %llx\n", kmer, return_value_reverseComplement$1);
+      unsigned long long int return_value_reverseComplement_1;
+      return_value_reverseComplement_1=reverseComplement(kmer, overlaplen);
+      printf("no vt found for kmer %llx, its twin %llx\n", kmer, return_value_reverseComplement_1);
     }
 
     return vt_id;
@@ -13678,9 +13678,9 @@ extern signed int kmer2vt(unsigned long long int kmer)
 
     else
     {
-      unsigned long long int return_value_reverseComplement$2;
-      return_value_reverseComplement$2=reverseComplement(kmer, overlaplen);
-      printf("no vt found for kmer %llx, its twin %llx\n", kmer, return_value_reverseComplement$2);
+      unsigned long long int return_value_reverseComplement_2;
+      return_value_reverseComplement_2=reverseComplement(kmer, overlaplen);
+      printf("no vt found for kmer %llx, its twin %llx\n", kmer, return_value_reverseComplement_2);
     }
     return vt_id;
   }
@@ -13754,7 +13754,7 @@ signed int lengthSearch(unsigned int *len_array, unsigned int *flag_array, signe
       else
         high = mid - 1;
   }
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(high >= low))
     return -1;
 
@@ -13765,11 +13765,11 @@ signed int lengthSearch(unsigned int *len_array, unsigned int *flag_array, signe
       for( ; i >= 1; i = i - 1)
       {
         if(!(len_array[(signed long int)i] == len_array[(signed long int)mid]))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = flag_array[(signed long int)i] != 0u ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = flag_array[(signed long int)i] != 0u ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
           break;
 
       }
@@ -13807,10 +13807,10 @@ static signed int linearC2C(unsigned int starter, struct connection *cnt2c1, uns
   bal_start=getTwinCtg(starter);
   char excep;
   c1 = cnt2c1->contigID;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
   if(c1 == c2)
   {
     printf("linearC2C: c1(%d) and c2(%d) are the same contig\n", c1, c2);
@@ -13828,13 +13828,13 @@ static signed int linearC2C(unsigned int starter, struct connection *cnt2c1, uns
     {
       dsCtgCounter = 1;
       usCtgCounter = 0;
-      tmp_post$1 = dsCtgCounter;
+      tmp_post_1 = dsCtgCounter;
       dsCtgCounter = dsCtgCounter + 1;
-      downstreamCTG[(signed long int)tmp_post$1] = c1;
+      downstreamCTG[(signed long int)tmp_post_1] = c1;
       bal_c2=getTwinCtg(c2);
-      tmp_post$2 = usCtgCounter;
+      tmp_post_2 = usCtgCounter;
       usCtgCounter = usCtgCounter + 1;
-      upstreamCTG[(signed long int)tmp_post$2] = bal_c2;
+      upstreamCTG[(signed long int)tmp_post_2] = bal_c2;
       prevCNT = cnt2c1;
       cnt = prevCNT;
       do
@@ -13851,9 +13851,9 @@ static signed int linearC2C(unsigned int starter, struct connection *cnt2c1, uns
         if(c1 == bal_start || c1 == starter || !(max_dis >= len))
           return 0;
 
-        tmp_post$3 = dsCtgCounter;
+        tmp_post_3 = dsCtgCounter;
         dsCtgCounter = dsCtgCounter + 1;
-        downstreamCTG[(signed long int)tmp_post$3] = c1;
+        downstreamCTG[(signed long int)tmp_post_3] = c1;
         if(dsCtgCounter >= 200)
         {
           printf("%d downstream contigs, start at %d, max_dis %d, current dis %d\n", dsCtgCounter, starter, max_dis, len);
@@ -13884,9 +13884,9 @@ static signed int linearC2C(unsigned int starter, struct connection *cnt2c1, uns
             return 0;
 
           prevCNT = cnt;
-          tmp_post$4 = usCtgCounter;
+          tmp_post_4 = usCtgCounter;
           usCtgCounter = usCtgCounter + 1;
-          upstreamCTG[(signed long int)tmp_post$4] = ctg;
+          upstreamCTG[(signed long int)tmp_post_4] = ctg;
           if(usCtgCounter >= 200)
           {
             printf("%d upstream contigs, start at %d, max_dis %d, current dis %d\n", usCtgCounter, starter, max_dis, len);
@@ -13967,10 +13967,10 @@ extern void linearConcatenate()
   struct arc *parc;
   struct arc *parc2;
   unsigned int bal_fe;
-  _Bool tmp_if_expr$2;
-  char return_value_EdSameAsTwin$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_2;
+  char return_value_EdSameAsTwin_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   while(!(conc_c == 0))
   {
     conc_c = 0;
@@ -13979,35 +13979,35 @@ extern void linearConcatenate()
     for( ; num_ed >= i; i = i + 1u)
     {
       if(!((edge_array + (signed long int)i)->deleted == 0))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
       {
-        return_value_EdSameAsTwin$1=EdSameAsTwin(i);
-        tmp_if_expr$2 = return_value_EdSameAsTwin$1 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_EdSameAsTwin_1=EdSameAsTwin(i);
+        tmp_if_expr_2 = return_value_EdSameAsTwin_1 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$2)
+      if(!tmp_if_expr_2)
       {
         if((edge_array + (signed long int)i)->length >= 1)
           counter = counter + 1;
 
         parc = (edge_array + (signed long int)i)->arcs;
         if(parc == ((struct arc *)NULL))
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = parc->next != ((struct arc *)NULL) ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$3)
+          tmp_if_expr_3 = parc->next != ((struct arc *)NULL) ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_3)
         {
           to_ed = parc->to_ed;
           bal_ed=getTwinEdge(to_ed);
           parc2 = (edge_array + (signed long int)bal_ed)->arcs;
           if(parc2 == ((struct arc *)NULL) || bal_ed == to_ed)
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_4 = (_Bool)1;
 
           else
-            tmp_if_expr$4 = parc2->next != ((struct arc *)NULL) ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$4)
+            tmp_if_expr_4 = parc2->next != ((struct arc *)NULL) ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_4)
           {
             from_ed = i;
             if(!(from_ed == bal_ed) && !(from_ed == to_ed))
@@ -14038,8 +14038,8 @@ void linearUpdateConnection(unsigned int e1, unsigned int e2, signed int indicat
 {
   unsigned int bal_ed;
   struct arc *parc;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
   if(indicate == 0)
   {
     (edge_array + (signed long int)e1)->to_vt = (edge_array + (signed long int)e2)->to_vt;
@@ -14050,11 +14050,11 @@ void linearUpdateConnection(unsigned int e1, unsigned int e2, signed int indicat
     (edge_array + (signed long int)e1)->arcs = (edge_array + (signed long int)e2)->arcs;
     (edge_array + (signed long int)e2)->arcs = (struct arc *)(void *)0;
     if(!((edge_array + (signed long int)e1)->length == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (edge_array + (signed long int)e2)->length != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (edge_array + (signed long int)e2)->length != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       (edge_array + (signed long int)e1)->cvg = (unsigned short int)(((signed int)(edge_array + (signed long int)e1)->cvg * (edge_array + (signed long int)e1)->length + (signed int)(edge_array + (signed long int)e2)->cvg * (edge_array + (signed long int)e2)->length) / ((edge_array + (signed long int)e1)->length + (edge_array + (signed long int)e2)->length));
 
     (edge_array + (signed long int)e2)->deleted = (unsigned short int)1;
@@ -14062,19 +14062,19 @@ void linearUpdateConnection(unsigned int e1, unsigned int e2, signed int indicat
 
   else
   {
-    unsigned int return_value_getTwinEdge$2;
-    return_value_getTwinEdge$2=getTwinEdge(e1);
-    parc = (edge_array + (signed long int)return_value_getTwinEdge$2)->arcs;
+    unsigned int return_value_getTwinEdge_2;
+    return_value_getTwinEdge_2=getTwinEdge(e1);
+    parc = (edge_array + (signed long int)return_value_getTwinEdge_2)->arcs;
     for( ; !(parc == ((struct arc *)NULL)); parc = parc->next)
       parc->bal_arc->to_ed = e2;
     (edge_array + (signed long int)e1)->arcs = (struct arc *)(void *)0;
     (edge_array + (signed long int)e2)->from_vt = (edge_array + (signed long int)e1)->from_vt;
     if(!((edge_array + (signed long int)e1)->length == 0))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (edge_array + (signed long int)e2)->length != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (edge_array + (signed long int)e2)->length != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
       (edge_array + (signed long int)e2)->cvg = (unsigned short int)(((signed int)(edge_array + (signed long int)e1)->cvg * (edge_array + (signed long int)e1)->length + (signed int)(edge_array + (signed long int)e2)->cvg * (edge_array + (signed long int)e2)->length) / ((edge_array + (signed long int)e1)->length + (edge_array + (signed long int)e2)->length));
 
     (edge_array + (signed long int)e1)->deleted = (unsigned short int)1;
@@ -14118,30 +14118,30 @@ static void loadArcs(char *graphfile)
   fp=ckopen(name, "r");
   createPreArcMemManager();
   arcCounter = (signed long long int)0;
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   do
   {
-    return_value_fgets$1=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     seg=strtok(line, " ");
-    signed int return_value_atoi$2;
-    return_value_atoi$2=atoi$link2(seg);
-    from_ed = (unsigned int)return_value_atoi$2;
+    signed int return_value_atoi_2;
+    return_value_atoi_2=atoi_link2(seg);
+    from_ed = (unsigned int)return_value_atoi_2;
     do
     {
       seg=strtok((char *)(void *)0, " ");
       if(seg == ((char *)NULL))
         break;
 
-      signed int return_value_atoi$3;
-      return_value_atoi$3=atoi$link2(seg);
-      target = (unsigned int)return_value_atoi$3;
+      signed int return_value_atoi_3;
+      return_value_atoi_3=atoi_link2(seg);
+      target = (unsigned int)return_value_atoi_3;
       seg=strtok((char *)(void *)0, " ");
-      signed int return_value_atoi$4;
-      return_value_atoi$4=atoi$link2(seg);
-      weight = (unsigned int)return_value_atoi$4;
+      signed int return_value_atoi_4;
+      return_value_atoi_4=atoi_link2(seg);
+      weight = (unsigned int)return_value_atoi_4;
       add1Arc(from_ed, target, weight);
     }
     while((_Bool)1);
@@ -14168,15 +14168,15 @@ static void loadContig(char *graphfile)
   unsigned int newIndex;
   sprintf(name, "%s.contig", graphfile);
   fp=ckopen(name, "r");
-  char *return_value_fgets$1;
-  unsigned long int return_value_strlen$3;
-  _Bool tmp_if_expr$6;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
+  char *return_value_fgets_1;
+  unsigned long int return_value_strlen_3;
+  _Bool tmp_if_expr_6;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
   do
   {
-    return_value_fgets$1=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     if((signed int)line[0l] == 62)
@@ -14190,9 +14190,9 @@ static void loadContig(char *graphfile)
       n = 0;
       index = index + 1;
       sscanf(line + (signed long int)1, "%d %s %d", &edgeno, (const void *)name, &length);
-      void *return_value_ckalloc$2;
-      return_value_ckalloc$2=ckalloc((unsigned long int)(length / 4 + 1) * sizeof(char) /*1ul*/ );
-      tightSeq = (char *)return_value_ckalloc$2;
+      void *return_value_ckalloc_2;
+      return_value_ckalloc_2=ckalloc((unsigned long int)(length / 4 + 1) * sizeof(char) /*1ul*/ );
+      tightSeq = (char *)return_value_ckalloc_2;
     }
 
     else
@@ -14200,21 +14200,21 @@ static void loadContig(char *graphfile)
       i = (unsigned int)0;
       do
       {
-        return_value_strlen$3=strlen(line);
-        if((unsigned long int)i >= return_value_strlen$3)
+        return_value_strlen_3=strlen(line);
+        if((unsigned long int)i >= return_value_strlen_3)
           break;
 
         if((signed int)line[(signed long int)i] >= 97)
-          tmp_if_expr$6 = (signed int)line[(signed long int)i] <= 122 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = (signed int)line[(signed long int)i] <= 122 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
         {
           c = (char)((((signed int)line[(signed long int)i] - 97) + 65 & 0x06) >> 1);
-          tmp_post$4 = n;
+          tmp_post_4 = n;
           n = n + 1;
-          writeChar2tightString(c, tightSeq, tmp_post$4);
+          writeChar2tightString(c, tightSeq, tmp_post_4);
         }
 
         else
@@ -14223,9 +14223,9 @@ static void loadContig(char *graphfile)
             if(!((signed int)line[(signed long int)i] >= 91))
             {
               c = (char)(((signed int)line[(signed long int)i] & 0x06) >> 1);
-              tmp_post$5 = n;
+              tmp_post_5 = n;
               n = n + 1;
-              writeChar2tightString(c, tightSeq, tmp_post$5);
+              writeChar2tightString(c, tightSeq, tmp_post_5);
             }
 
           }
@@ -14270,20 +14270,20 @@ extern void loadEdge(char *graphfile)
   sprintf(name, "%s.edge", graphfile);
   fp=ckopen(name, "r");
   num_ed_limit = (unsigned int)(1.2 * (double)num_ed);
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)(num_ed_limit + (unsigned int)1) * sizeof(struct edge) /*48ul*/ );
-  edge_array = (struct edge *)return_value_ckalloc$1;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)(num_ed_limit + (unsigned int)1) * sizeof(struct edge) /*48ul*/ );
+  edge_array = (struct edge *)return_value_ckalloc_1;
   j = num_ed + (unsigned int)1;
   for( ; num_ed_limit >= j; j = j + 1u)
     (edge_array + (signed long int)j)->seq = (char *)(void *)0;
-  char *return_value_fgets$2;
-  _Bool tmp_if_expr$9;
-  signed int tmp_post$7;
-  signed int tmp_post$8;
+  char *return_value_fgets_2;
+  _Bool tmp_if_expr_9;
+  signed int tmp_post_7;
+  signed int tmp_post_8;
   do
   {
-    return_value_fgets$2=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
-    if(return_value_fgets$2 == ((char *)NULL))
+    return_value_fgets_2=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
+    if(return_value_fgets_2 == ((char *)NULL))
       break;
 
     if((signed int)line[0l] == 62)
@@ -14293,12 +14293,12 @@ extern void loadEdge(char *graphfile)
         edgeno = index + 1;
         (edge_array + (signed long int)edgeno)->length = length;
         (edge_array + (signed long int)edgeno)->cvg = (unsigned short int)cvg;
-        signed int return_value_kmer2vt$3;
-        return_value_kmer2vt$3=kmer2vt(from_kmer);
-        (edge_array + (signed long int)edgeno)->from_vt = (unsigned int)return_value_kmer2vt$3;
-        signed int return_value_kmer2vt$4;
-        return_value_kmer2vt$4=kmer2vt(to_kmer);
-        (edge_array + (signed long int)edgeno)->to_vt = (unsigned int)return_value_kmer2vt$4;
+        signed int return_value_kmer2vt_3;
+        return_value_kmer2vt_3=kmer2vt(from_kmer);
+        (edge_array + (signed long int)edgeno)->from_vt = (unsigned int)return_value_kmer2vt_3;
+        signed int return_value_kmer2vt_4;
+        return_value_kmer2vt_4=kmer2vt(to_kmer);
+        (edge_array + (signed long int)edgeno)->to_vt = (unsigned int)return_value_kmer2vt_4;
         (edge_array + (signed long int)edgeno)->seq = tightSeq;
         (edge_array + (signed long int)edgeno)->bal_edge = (unsigned short int)(bal_ed + 1);
         (edge_array + (signed long int)edgeno)->rv = (struct readinterval *)(void *)0;
@@ -14316,30 +14316,30 @@ extern void loadEdge(char *graphfile)
       n = 0;
       index = index + 1;
       sscanf(line + (signed long int)7, "%d,%llx,%llx,%s %d,%d", &length, &from_kmer, &to_kmer, (const void *)str, &cvg, &bal_ed);
-      void *return_value_ckalloc$5;
-      return_value_ckalloc$5=ckalloc((unsigned long int)(length / 4 + 1) * sizeof(char) /*1ul*/ );
-      tightSeq = (char *)return_value_ckalloc$5;
+      void *return_value_ckalloc_5;
+      return_value_ckalloc_5=ckalloc((unsigned long int)(length / 4 + 1) * sizeof(char) /*1ul*/ );
+      tightSeq = (char *)return_value_ckalloc_5;
     }
 
     else
     {
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen(line);
-      linelen = (signed int)return_value_strlen$6;
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen(line);
+      linelen = (signed int)return_value_strlen_6;
       i = 0;
       for( ; !(i >= linelen); i = i + 1)
       {
         if((signed int)line[(signed long int)i] >= 97)
-          tmp_if_expr$9 = (signed int)line[(signed long int)i] <= 122 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_9 = (signed int)line[(signed long int)i] <= 122 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        if(tmp_if_expr$9)
+          tmp_if_expr_9 = (_Bool)0;
+        if(tmp_if_expr_9)
         {
           c = (char)((((signed int)line[(signed long int)i] - 97) + 65 & 0x06) >> 1);
-          tmp_post$7 = n;
+          tmp_post_7 = n;
           n = n + 1;
-          writeChar2tightString(c, tightSeq, tmp_post$7);
+          writeChar2tightString(c, tightSeq, tmp_post_7);
         }
 
         else
@@ -14348,9 +14348,9 @@ extern void loadEdge(char *graphfile)
             if(!((signed int)line[(signed long int)i] >= 91))
             {
               c = (char)(((signed int)line[(signed long int)i] & 0x06) >> 1);
-              tmp_post$8 = n;
+              tmp_post_8 = n;
               n = n + 1;
-              writeChar2tightString(c, tightSeq, tmp_post$8);
+              writeChar2tightString(c, tightSeq, tmp_post_8);
             }
 
           }
@@ -14364,12 +14364,12 @@ extern void loadEdge(char *graphfile)
     edgeno = index + 1;
     (edge_array + (signed long int)edgeno)->length = length;
     (edge_array + (signed long int)edgeno)->cvg = (unsigned short int)cvg;
-    signed int return_value_kmer2vt$10;
-    return_value_kmer2vt$10=kmer2vt(from_kmer);
-    (edge_array + (signed long int)edgeno)->from_vt = (unsigned int)return_value_kmer2vt$10;
-    signed int return_value_kmer2vt$11;
-    return_value_kmer2vt$11=kmer2vt(to_kmer);
-    (edge_array + (signed long int)edgeno)->to_vt = (unsigned int)return_value_kmer2vt$11;
+    signed int return_value_kmer2vt_10;
+    return_value_kmer2vt_10=kmer2vt(from_kmer);
+    (edge_array + (signed long int)edgeno)->from_vt = (unsigned int)return_value_kmer2vt_10;
+    signed int return_value_kmer2vt_11;
+    return_value_kmer2vt_11=kmer2vt(to_kmer);
+    (edge_array + (signed long int)edgeno)->to_vt = (unsigned int)return_value_kmer2vt_11;
     (edge_array + (signed long int)edgeno)->seq = tightSeq;
     (edge_array + (signed long int)edgeno)->bal_edge = (unsigned short int)(bal_ed + 1);
     if(!(bal_ed == 0))
@@ -14397,7 +14397,7 @@ extern void loadPEgrads(char *infile)
   char rankSet = (char)1;
   sprintf(name, "%s.peGrads", infile);
   fp=fopen(name, "r");
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   if(fp == ((struct _IO_FILE *)NULL))
   {
     printf("can not open file %s\n", (const void *)name);
@@ -14408,8 +14408,8 @@ extern void loadPEgrads(char *infile)
   {
     do
     {
-      return_value_fgets$1=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       if((signed int)line[0l] == 103)
@@ -14515,12 +14515,12 @@ extern char loadPath(char *graphfile)
   unsigned int num1;
   unsigned int edgeno;
   unsigned int num2;
-  signed long long int loadPath$$1$$markCounter = (signed long long int)0;
+  signed long long int loadPath__1__markCounter = (signed long long int)0;
   signed long long int readid = (signed long long int)0;
   char *seg;
   sprintf(name, "%s.markOnEdge", graphfile);
   fp=fopen(name, "r");
-  char *return_value_fgets$3;
+  char *return_value_fgets_3;
   if(fp == ((struct _IO_FILE *)NULL))
     return (char)0;
 
@@ -14533,9 +14533,9 @@ extern char loadPath(char *graphfile)
     for( ; num_ed >= i; i = i + 1u)
     {
       fscanf(fp, "%d", &num1);
-      char return_value_EdSmallerThanTwin$1;
-      return_value_EdSmallerThanTwin$1=EdSmallerThanTwin(i);
-      if(!(return_value_EdSmallerThanTwin$1 == 0))
+      char return_value_EdSmallerThanTwin_1;
+      return_value_EdSmallerThanTwin_1=EdSmallerThanTwin(i);
+      if(!(return_value_EdSmallerThanTwin_1 == 0))
       {
         fscanf(fp, "%d", &num2);
         bal_ed=getTwinEdge(i);
@@ -14549,7 +14549,7 @@ extern char loadPath(char *graphfile)
         {
           (edge_array + (signed long int)i)->multi = (unsigned short int)(num1 + num2);
           (edge_array + (signed long int)bal_ed)->multi = (unsigned short int)(num1 + num2);
-          loadPath$$1$$markCounter = loadPath$$1$$markCounter + (signed long long int)((unsigned int)2 * (num1 + num2));
+          loadPath__1__markCounter = loadPath__1__markCounter + (signed long long int)((unsigned int)2 * (num1 + num2));
         }
         i = i + 1u;
       }
@@ -14561,21 +14561,21 @@ extern char loadPath(char *graphfile)
         else
         {
           (edge_array + (signed long int)i)->multi = (unsigned short int)((unsigned int)2 * num1);
-          loadPath$$1$$markCounter = loadPath$$1$$markCounter + (signed long long int)((unsigned int)2 * num1);
+          loadPath__1__markCounter = loadPath__1__markCounter + (signed long long int)((unsigned int)2 * num1);
         }
     }
     fclose(fp);
-    printf("%lld markers overall\n", loadPath$$1$$markCounter);
-    void *return_value_ckalloc$2;
-    return_value_ckalloc$2=ckalloc((unsigned long int)loadPath$$1$$markCounter * sizeof(signed long long int) /*8ul*/ );
-    markersArray = (signed long long int *)return_value_ckalloc$2;
-    loadPath$$1$$markCounter = (signed long long int)0;
+    printf("%lld markers overall\n", loadPath__1__markCounter);
+    void *return_value_ckalloc_2;
+    return_value_ckalloc_2=ckalloc((unsigned long int)loadPath__1__markCounter * sizeof(signed long long int) /*8ul*/ );
+    markersArray = (signed long long int *)return_value_ckalloc_2;
+    loadPath__1__markCounter = (signed long long int)0;
     i = (unsigned int)1;
     for( ; num_ed >= i; i = i + 1u)
       if(!((signed int)(edge_array + (signed long int)i)->multi == 255))
       {
-        (edge_array + (signed long int)i)->markers = markersArray + loadPath$$1$$markCounter;
-        loadPath$$1$$markCounter = loadPath$$1$$markCounter + (signed long long int)(edge_array + (signed long int)i)->multi;
+        (edge_array + (signed long int)i)->markers = markersArray + loadPath__1__markCounter;
+        loadPath__1__markCounter = loadPath__1__markCounter + (signed long long int)(edge_array + (signed long int)i)->multi;
         (edge_array + (signed long int)i)->multi = (unsigned short int)0;
       }
 
@@ -14588,30 +14588,30 @@ extern char loadPath(char *graphfile)
     {
       do
       {
-        return_value_fgets$3=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
-        if(return_value_fgets$3 == ((char *)NULL))
+        return_value_fgets_3=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
+        if(return_value_fgets_3 == ((char *)NULL))
           break;
 
         readid = readid + 1ll;
         seg=strtok(line, " ");
         while(!(seg == ((char *)NULL)))
         {
-          signed int return_value_atoi$4;
-          return_value_atoi$4=atoi$link3(seg);
-          edgeno = (unsigned int)return_value_atoi$4;
+          signed int return_value_atoi_4;
+          return_value_atoi_4=atoi_link3(seg);
+          edgeno = (unsigned int)return_value_atoi_4;
           add1marker2edge(edgeno, readid);
           seg=strtok((char *)(void *)0, " ");
         }
       }
       while((_Bool)1);
       fclose(fp);
-      loadPath$$1$$markCounter = (signed long long int)0;
+      loadPath__1__markCounter = (signed long long int)0;
       i = (unsigned int)1;
       for( ; num_ed >= i; i = i + 1u)
         if(!((signed int)(edge_array + (signed long int)i)->multi == 255))
-          loadPath$$1$$markCounter = loadPath$$1$$markCounter + (signed long long int)(edge_array + (signed long int)i)->multi;
+          loadPath__1__markCounter = loadPath__1__markCounter + (signed long long int)(edge_array + (signed long int)i)->multi;
 
-      printf("%lld marks loaded\n", loadPath$$1$$markCounter);
+      printf("%lld marks loaded\n", loadPath__1__markCounter);
       return (char)1;
     }
   }
@@ -14627,14 +14627,14 @@ extern char loadPathBin(char *graphfile)
   unsigned int bal_ed;
   unsigned int num1;
   unsigned int num2;
-  signed long long int loadPathBin$$1$$markCounter = (signed long long int)0;
+  signed long long int loadPathBin__1__markCounter = (signed long long int)0;
   signed long long int readid = (signed long long int)0;
   unsigned char seg;
   unsigned char ch;
   unsigned int *freadBuf;
   sprintf(name, "%s.markOnEdge", graphfile);
   fp=fopen(name, "r");
-  unsigned long int return_value_fread$4;
+  unsigned long int return_value_fread_4;
   if(fp == ((struct _IO_FILE *)NULL))
     return (char)0;
 
@@ -14650,9 +14650,9 @@ extern char loadPathBin(char *graphfile)
     for( ; num_ed >= i; i = i + 1u)
     {
       fscanf(fp, "%d", &num1);
-      char return_value_EdSmallerThanTwin$1;
-      return_value_EdSmallerThanTwin$1=EdSmallerThanTwin(i);
-      if(!(return_value_EdSmallerThanTwin$1 == 0))
+      char return_value_EdSmallerThanTwin_1;
+      return_value_EdSmallerThanTwin_1=EdSmallerThanTwin(i);
+      if(!(return_value_EdSmallerThanTwin_1 == 0))
       {
         fscanf(fp, "%d", &num2);
         bal_ed=getTwinEdge(i);
@@ -14666,7 +14666,7 @@ extern char loadPathBin(char *graphfile)
         {
           (edge_array + (signed long int)i)->multi = (unsigned short int)(num1 + num2);
           (edge_array + (signed long int)bal_ed)->multi = (unsigned short int)(num1 + num2);
-          loadPathBin$$1$$markCounter = loadPathBin$$1$$markCounter + (signed long long int)((unsigned int)2 * (num1 + num2));
+          loadPathBin__1__markCounter = loadPathBin__1__markCounter + (signed long long int)((unsigned int)2 * (num1 + num2));
         }
         i = i + 1u;
       }
@@ -14678,21 +14678,21 @@ extern char loadPathBin(char *graphfile)
         else
         {
           (edge_array + (signed long int)i)->multi = (unsigned short int)((unsigned int)2 * num1);
-          loadPathBin$$1$$markCounter = loadPathBin$$1$$markCounter + (signed long long int)((unsigned int)2 * num1);
+          loadPathBin__1__markCounter = loadPathBin__1__markCounter + (signed long long int)((unsigned int)2 * num1);
         }
     }
     fclose(fp);
-    printf("%lld markers overall\n", loadPathBin$$1$$markCounter);
-    void *return_value_ckalloc$2;
-    return_value_ckalloc$2=ckalloc((unsigned long int)loadPathBin$$1$$markCounter * sizeof(signed long long int) /*8ul*/ );
-    markersArray = (signed long long int *)return_value_ckalloc$2;
-    loadPathBin$$1$$markCounter = (signed long long int)0;
+    printf("%lld markers overall\n", loadPathBin__1__markCounter);
+    void *return_value_ckalloc_2;
+    return_value_ckalloc_2=ckalloc((unsigned long int)loadPathBin__1__markCounter * sizeof(signed long long int) /*8ul*/ );
+    markersArray = (signed long long int *)return_value_ckalloc_2;
+    loadPathBin__1__markCounter = (signed long long int)0;
     i = (unsigned int)1;
     for( ; num_ed >= i; i = i + 1u)
       if(!((signed int)(edge_array + (signed long int)i)->multi == 255))
       {
-        (edge_array + (signed long int)i)->markers = markersArray + loadPathBin$$1$$markCounter;
-        loadPathBin$$1$$markCounter = loadPathBin$$1$$markCounter + (signed long long int)(edge_array + (signed long int)i)->multi;
+        (edge_array + (signed long int)i)->markers = markersArray + loadPathBin__1__markCounter;
+        loadPathBin__1__markCounter = loadPathBin__1__markCounter + (signed long long int)(edge_array + (signed long int)i)->multi;
         (edge_array + (signed long int)i)->multi = (unsigned short int)0;
       }
 
@@ -14703,18 +14703,18 @@ extern char loadPathBin(char *graphfile)
 
     else
     {
-      void *return_value_ckalloc$3;
-      return_value_ckalloc$3=ckalloc((unsigned long int)((maxReadLen - overlaplen) + 1) * sizeof(unsigned int) /*4ul*/ );
-      freadBuf = (unsigned int *)return_value_ckalloc$3;
+      void *return_value_ckalloc_3;
+      return_value_ckalloc_3=ckalloc((unsigned long int)((maxReadLen - overlaplen) + 1) * sizeof(unsigned int) /*4ul*/ );
+      freadBuf = (unsigned int *)return_value_ckalloc_3;
       do
       {
-        return_value_fread$4=fread((void *)&ch, sizeof(char) /*1ul*/ , (unsigned long int)1, fp);
-        if(!(return_value_fread$4 == 1ul))
+        return_value_fread_4=fread((void *)&ch, sizeof(char) /*1ul*/ , (unsigned long int)1, fp);
+        if(!(return_value_fread_4 == 1ul))
           break;
 
-        unsigned long int return_value_fread$5;
-        return_value_fread$5=fread((void *)freadBuf, sizeof(unsigned int) /*4ul*/ , (unsigned long int)ch, fp);
-        if(!(return_value_fread$5 == (unsigned long int)ch))
+        unsigned long int return_value_fread_5;
+        return_value_fread_5=fread((void *)freadBuf, sizeof(unsigned int) /*4ul*/ , (unsigned long int)ch, fp);
+        if(!(return_value_fread_5 == (unsigned long int)ch))
           break;
 
         readid = readid + 1ll;
@@ -14724,13 +14724,13 @@ extern char loadPathBin(char *graphfile)
       }
       while((_Bool)1);
       fclose(fp);
-      loadPathBin$$1$$markCounter = (signed long long int)0;
+      loadPathBin__1__markCounter = (signed long long int)0;
       i = (unsigned int)1;
       for( ; num_ed >= i; i = i + 1u)
         if(!((signed int)(edge_array + (signed long int)i)->multi == 255))
-          loadPathBin$$1$$markCounter = loadPathBin$$1$$markCounter + (signed long long int)(edge_array + (signed long int)i)->multi;
+          loadPathBin__1__markCounter = loadPathBin__1__markCounter + (signed long long int)(edge_array + (signed long int)i)->multi;
 
-      printf("%lld markers loaded\n", loadPathBin$$1$$markCounter);
+      printf("%lld markers loaded\n", loadPathBin__1__markCounter);
       free((void *)freadBuf);
       return (char)1;
     }
@@ -14751,31 +14751,31 @@ static void loadPreArcs(char *graphfile)
   sprintf(name, "%s.preArc", graphfile);
   fp=ckopen(name, "r");
   arcCounter = (signed long long int)0;
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   do
   {
-    return_value_fgets$1=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     seg=strtok(line, " ");
-    signed int return_value_atoi$2;
-    return_value_atoi$2=atoi$link4(seg);
-    from_ed = (unsigned int)return_value_atoi$2;
+    signed int return_value_atoi_2;
+    return_value_atoi_2=atoi_link4(seg);
+    from_ed = (unsigned int)return_value_atoi_2;
     do
     {
       seg=strtok((char *)(void *)0, " ");
       if(seg == ((char *)NULL))
         break;
 
-      signed int return_value_atoi$3;
-      return_value_atoi$3=atoi$link4(seg);
-      target = (unsigned int)return_value_atoi$3;
+      signed int return_value_atoi_3;
+      return_value_atoi_3=atoi_link4(seg);
+      target = (unsigned int)return_value_atoi_3;
       seg=strtok((char *)(void *)0, " ");
-      signed int return_value_atoi$4;
-      return_value_atoi$4=atoi$link4(seg);
-      weight = (unsigned int)return_value_atoi$4;
-      add1Arc$link1(from_ed, target, weight);
+      signed int return_value_atoi_4;
+      return_value_atoi_4=atoi_link4(seg);
+      weight = (unsigned int)return_value_atoi_4;
+      add1Arc_link1(from_ed, target, weight);
     }
     while((_Bool)1);
   }
@@ -14791,7 +14791,7 @@ static char loadReads4gap(char *graphfile)
   struct _IO_FILE *fp;
   struct _IO_FILE *fp2;
   char name[1024l];
-  signed long long int loadReads4gap$$1$$readCounter;
+  signed long long int loadReads4gap__1__readCounter;
   sprintf(name, "%s.readInGap", graphfile);
   fp=fopen(name, "rb");
   sprintf(name, "%s.longReadInGap", graphfile);
@@ -14807,20 +14807,20 @@ static char loadReads4gap(char *graphfile)
       orig2new = (char)1;
     }
 
-    struct dynamic_array *return_value_createDarray$1;
-    return_value_createDarray$1=createDarray(1000000, sizeof(char) /*1ul*/ );
-    readSeqInGap = (struct dynamic_array *)return_value_createDarray$1;
+    struct dynamic_array *return_value_createDarray_1;
+    return_value_createDarray_1=createDarray(1000000, sizeof(char) /*1ul*/ );
+    readSeqInGap = (struct dynamic_array *)return_value_createDarray_1;
     if(!(fp == ((struct _IO_FILE *)NULL)))
     {
-      loadReads4gap$$1$$readCounter=getRead1by1(fp, readSeqInGap);
-      printf("Loaded %lld reads from %s.readInGap\n", loadReads4gap$$1$$readCounter, graphfile);
+      loadReads4gap__1__readCounter=getRead1by1(fp, readSeqInGap);
+      printf("Loaded %lld reads from %s.readInGap\n", loadReads4gap__1__readCounter, graphfile);
       fclose(fp);
     }
 
     if(!(fp2 == ((struct _IO_FILE *)NULL)))
     {
-      loadReads4gap$$1$$readCounter=getRead1by1(fp2, readSeqInGap);
-      printf("Loaded %lld reads from %s.LongReadInGap\n", loadReads4gap$$1$$readCounter, graphfile);
+      loadReads4gap__1__readCounter=getRead1by1(fp2, readSeqInGap);
+      printf("Loaded %lld reads from %s.LongReadInGap\n", loadReads4gap__1__readCounter, graphfile);
       fclose(fp2);
     }
 
@@ -14856,11 +14856,11 @@ extern void loadUpdatedEdges(char *graphfile)
   signed long long int counter = (signed long long int)0;
   sprintf(name, "%s.preGraphBasic", graphfile);
   fp=ckopen(name, "r");
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   do
   {
-    return_value_fgets$1=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     if((signed int)line[0l] == 86)
@@ -14880,11 +14880,11 @@ extern void loadUpdatedEdges(char *graphfile)
   fp=ckopen(name, "r");
   sprintf(name, "%s.newContigIndex", outfile);
   out_fp=ckopen(name, "w");
-  char *return_value_fgets$2;
+  char *return_value_fgets_2;
   do
   {
-    return_value_fgets$2=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
-    if(return_value_fgets$2 == ((char *)NULL))
+    return_value_fgets_2=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
+    if(return_value_fgets_2 == ((char *)NULL))
       break;
 
     if((signed int)line[0l] == 69)
@@ -14896,20 +14896,20 @@ extern void loadUpdatedEdges(char *graphfile)
 
   }
   while((_Bool)1);
-  void *return_value_ckalloc$3;
-  return_value_ckalloc$3=ckalloc((unsigned long int)(num_ctgge + (unsigned int)1) * sizeof(unsigned int) /*4ul*/ );
-  index_array = (unsigned int *)return_value_ckalloc$3;
-  void *return_value_ckalloc$4;
-  return_value_ckalloc$4=ckalloc((unsigned long int)(num_ctgge + (unsigned int)1) * sizeof(unsigned int) /*4ul*/ );
-  length_array = (unsigned int *)return_value_ckalloc$4;
-  void *return_value_ckalloc$5;
-  return_value_ckalloc$5=ckalloc((unsigned long int)(num_ctgge + (unsigned int)1) * sizeof(unsigned int) /*4ul*/ );
-  flag_array = (unsigned int *)return_value_ckalloc$5;
-  char *return_value_fgets$6;
+  void *return_value_ckalloc_3;
+  return_value_ckalloc_3=ckalloc((unsigned long int)(num_ctgge + (unsigned int)1) * sizeof(unsigned int) /*4ul*/ );
+  index_array = (unsigned int *)return_value_ckalloc_3;
+  void *return_value_ckalloc_4;
+  return_value_ckalloc_4=ckalloc((unsigned long int)(num_ctgge + (unsigned int)1) * sizeof(unsigned int) /*4ul*/ );
+  length_array = (unsigned int *)return_value_ckalloc_4;
+  void *return_value_ckalloc_5;
+  return_value_ckalloc_5=ckalloc((unsigned long int)(num_ctgge + (unsigned int)1) * sizeof(unsigned int) /*4ul*/ );
+  flag_array = (unsigned int *)return_value_ckalloc_5;
+  char *return_value_fgets_6;
   do
   {
-    return_value_fgets$6=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
-    if(return_value_fgets$6 == ((char *)NULL))
+    return_value_fgets_6=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
+    if(return_value_fgets_6 == ((char *)NULL))
       break;
 
     if((signed int)line[0l] == 62)
@@ -14940,16 +14940,16 @@ extern void loadUpdatedEdges(char *graphfile)
     flag_array[(signed long int)diff_len] = i;
     i = j - (unsigned int)1;
   }
-  void *return_value_ckalloc$7;
-  return_value_ckalloc$7=ckalloc((unsigned long int)(num_ctg + (unsigned int)1) * sizeof(struct contig) /*48ul*/ );
-  contig_array = (struct contig *)return_value_ckalloc$7;
+  void *return_value_ckalloc_7;
+  return_value_ckalloc_7=ckalloc((unsigned long int)(num_ctg + (unsigned int)1) * sizeof(struct contig) /*48ul*/ );
+  contig_array = (struct contig *)return_value_ckalloc_7;
   index = (unsigned int)0;
   rewind(fp);
-  char *return_value_fgets$8;
+  char *return_value_fgets_8;
   do
   {
-    return_value_fgets$8=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
-    if(return_value_fgets$8 == ((char *)NULL))
+    return_value_fgets_8=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
+    if(return_value_fgets_8 == ((char *)NULL))
       break;
 
     if((signed int)line[0l] == 62)
@@ -14989,9 +14989,9 @@ extern void loadUpdatedEdges(char *graphfile)
     i = (unsigned int)1;
     for( ; num_ctg >= i; i = i + 1u)
     {
-      unsigned int return_value_getTwinCtg$9;
-      return_value_getTwinCtg$9=getTwinCtg(i);
-      bal_i = (signed int)return_value_getTwinCtg$9;
+      unsigned int return_value_getTwinCtg_9;
+      return_value_getTwinCtg_9=getTwinCtg(i);
+      bal_i = (signed int)return_value_getTwinCtg_9;
       if(!(4 * cvgAvg >= (signed int)(contig_array + (signed long int)bal_i)->cvg + (signed int)(contig_array + (signed long int)i)->cvg))
       {
         (contig_array + (signed long int)i)->mask = (unsigned char)1;
@@ -14999,9 +14999,9 @@ extern void loadUpdatedEdges(char *graphfile)
         counter = counter + (signed long long int)2;
       }
 
-      char return_value_isSmallerThanTwin$10;
-      return_value_isSmallerThanTwin$10=isSmallerThanTwin(i);
-      if(!(return_value_isSmallerThanTwin$10 == 0))
+      char return_value_isSmallerThanTwin_10;
+      return_value_isSmallerThanTwin_10=isSmallerThanTwin(i);
+      if(!(return_value_isSmallerThanTwin_10 == 0))
         i = i + 1u;
 
     }
@@ -15013,9 +15013,9 @@ extern void loadUpdatedEdges(char *graphfile)
   for( ; num_ctg >= i; i = i + 1u)
     if((contig_array + (signed long int)i)->mask == 0)
     {
-      unsigned int return_value_getTwinCtg$11;
-      return_value_getTwinCtg$11=getTwinCtg(i);
-      bal_i = (signed int)return_value_getTwinCtg$11;
+      unsigned int return_value_getTwinCtg_11;
+      return_value_getTwinCtg_11=getTwinCtg(i);
+      bal_i = (signed int)return_value_getTwinCtg_11;
       if(!((contig_array + (signed long int)i)->length >= ctg_short))
       {
         (contig_array + (signed long int)i)->mask = (unsigned char)1;
@@ -15023,9 +15023,9 @@ extern void loadUpdatedEdges(char *graphfile)
         counter = counter + (signed long long int)2;
       }
 
-      char return_value_isSmallerThanTwin$12;
-      return_value_isSmallerThanTwin$12=isSmallerThanTwin(i);
-      if(!(return_value_isSmallerThanTwin$12 == 0))
+      char return_value_isSmallerThanTwin_12;
+      return_value_isSmallerThanTwin_12=isSmallerThanTwin(i);
+      if(!(return_value_isSmallerThanTwin_12 == 0))
         i = i + 1u;
 
     }
@@ -15055,11 +15055,11 @@ extern void loadUpdatedVertex(char *graphfile)
   char ch;
   sprintf(name, "%s.updated.vertex", graphfile);
   fp=ckopen(name, "r");
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   do
   {
-    return_value_fgets$1=fgets(line, (signed int)sizeof(char [256l]) /*256ul*/ , fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(line, (signed int)sizeof(char [256l]) /*256ul*/ , fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     if((signed int)line[0l] == 86)
@@ -15071,9 +15071,9 @@ extern void loadUpdatedVertex(char *graphfile)
 
   }
   while((_Bool)1);
-  void *return_value_ckalloc$2;
-  return_value_ckalloc$2=ckalloc((unsigned long int)(2 * num_kmer) * sizeof(struct vertex) /*8ul*/ );
-  vt_array = (struct vertex *)return_value_ckalloc$2;
+  void *return_value_ckalloc_2;
+  return_value_ckalloc_2=ckalloc((unsigned long int)(2 * num_kmer) * sizeof(struct vertex) /*8ul*/ );
+  vt_array = (struct vertex *)return_value_ckalloc_2;
   i = 0;
   for( ; !(i >= num_kmer); i = i + 1)
   {
@@ -15105,11 +15105,11 @@ extern void loadVertex(char *graphfile)
   char ch;
   sprintf(name, "%s.preGraphBasic", graphfile);
   fp=ckopen(name, "r");
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   do
   {
-    return_value_fgets$1=fgets(line, (signed int)sizeof(char [256l]) /*256ul*/ , fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(line, (signed int)sizeof(char [256l]) /*256ul*/ , fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     if((signed int)line[0l] == 86)
@@ -15132,9 +15132,9 @@ extern void loadVertex(char *graphfile)
   }
   while((_Bool)1);
   fclose(fp);
-  void *return_value_ckalloc$2;
-  return_value_ckalloc$2=ckalloc((unsigned long int)(2 * num_kmer) * sizeof(struct vertex) /*8ul*/ );
-  vt_array = (struct vertex *)return_value_ckalloc$2;
+  void *return_value_ckalloc_2;
+  return_value_ckalloc_2=ckalloc((unsigned long int)(2 * num_kmer) * sizeof(struct vertex) /*8ul*/ );
+  vt_array = (struct vertex *)return_value_ckalloc_2;
   sprintf(name, "%s.vertex", graphfile);
   fp=ckopen(name, "r");
   i = 0;
@@ -15172,23 +15172,23 @@ extern signed int localGraph(struct read_nearby *rdArray, signed int num, struct
   time(&tt);
   signed int gapLen = ((ctg2->start - ctg1->end) - origOverlap) + overlap;
   signed int min = gapLen - GLDiff > 0 ? gapLen - GLDiff : 0;
-  signed int localGraph$$1$$max = gapLen + GLDiff < 10 ? 10 : gapLen + GLDiff;
+  signed int localGraph__1__max = gapLen + GLDiff < 10 ? 10 : gapLen + GLDiff;
   signed int len1;
   signed int len2;
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   if((contig_array + (signed long int)ctg1->ctgID)->length + (unsigned int)origOverlap >= 36u)
-    tmp_if_expr$1 = (unsigned int)35;
+    tmp_if_expr_1 = (unsigned int)35;
 
   else
-    tmp_if_expr$1 = (contig_array + (signed long int)ctg1->ctgID)->length + (unsigned int)origOverlap;
-  len1 = (signed int)tmp_if_expr$1;
-  unsigned int tmp_if_expr$2;
+    tmp_if_expr_1 = (contig_array + (signed long int)ctg1->ctgID)->length + (unsigned int)origOverlap;
+  len1 = (signed int)tmp_if_expr_1;
+  unsigned int tmp_if_expr_2;
   if((contig_array + (signed long int)ctg2->ctgID)->length + (unsigned int)origOverlap >= 36u)
-    tmp_if_expr$2 = (unsigned int)35;
+    tmp_if_expr_2 = (unsigned int)35;
 
   else
-    tmp_if_expr$2 = (contig_array + (signed long int)ctg2->ctgID)->length + (unsigned int)origOverlap;
-  len2 = (signed int)tmp_if_expr$2;
+    tmp_if_expr_2 = (contig_array + (signed long int)ctg2->ctgID)->length + (unsigned int)origOverlap;
+  len2 = (signed int)tmp_if_expr_2;
   len1 = len1 - (overlap - 1);
   len2 = len2 - (overlap - 1);
   signed int offset1 = 0;
@@ -15210,9 +15210,9 @@ extern signed int localGraph(struct read_nearby *rdArray, signed int num, struct
       return 1;
     }
 
-  maskRepeatNode(kmerSet, kmerCtg1, kmerCtg2, overlap, len1, len2, localGraph$$1$$max, WordFilter);
+  maskRepeatNode(kmerSet, kmerCtg1, kmerCtg2, overlap, len1, len2, localGraph__1__max, WordFilter);
   char found;
-  found=readsCrossGap(rdArray, num, origOverlap, gapSeqArray, kmerCtg1, kmerCtg2, overlap, ctg1, ctg2, kmerSet, WordFilter, min, localGraph$$1$$max, offset1, offset2, seqGap, seqCtg1, seqCtg2, cut1, cut2);
+  found=readsCrossGap(rdArray, num, origOverlap, gapSeqArray, kmerCtg1, kmerCtg2, overlap, ctg1, ctg2, kmerSet, WordFilter, min, localGraph__1__max, offset1, offset2, seqGap, seqCtg1, seqCtg2, cut1, cut2);
   if(!(found == 0))
   {
     free_kmerset(kmerSet);
@@ -15250,40 +15250,40 @@ static void locateContigOnscaff(char *graphfile)
     (contig_array + (signed long int)ctg)->from_vt = (unsigned int)0;
     (contig_array + (signed long int)ctg)->multi = (unsigned char)0;
   }
-  struct stack *return_value_createStack$1;
-  return_value_createStack$1=createStack(1000, sizeof(struct ctg4scaf) /*20ul*/ );
-  ctgStack = (struct stack *)return_value_createStack$1;
+  struct stack *return_value_createStack_1;
+  return_value_createStack_1=createStack(1000, sizeof(struct ctg4scaf) /*20ul*/ );
+  ctgStack = (struct stack *)return_value_createStack_1;
   sprintf(line, "%s.scaf_gap", graphfile);
   fp=ckopen(line, "r");
-  void *return_value_ckalloc$2;
-  return_value_ckalloc$2=ckalloc((unsigned long int)scafBufSize$link1 * sizeof(struct stack *) /*8ul*/ );
-  ctgStackBuffer$link1 = (struct stack **)return_value_ckalloc$2;
-  initStackBuf$link1(ctgStackBuffer$link1, scafBufSize$link1);
-  allGaps$link1 = 0;
-  scafInBuf$link1 = allGaps$link1;
-  scafCounter$link1 = scafInBuf$link1;
-  Ncounter$link1 = scafCounter$link1;
-  char *return_value_fgets$3;
-  signed int tmp_post$4;
+  void *return_value_ckalloc_2;
+  return_value_ckalloc_2=ckalloc((unsigned long int)scafBufSize_link1 * sizeof(struct stack *) /*8ul*/ );
+  ctgStackBuffer_link1 = (struct stack **)return_value_ckalloc_2;
+  initStackBuf_link1(ctgStackBuffer_link1, scafBufSize_link1);
+  allGaps_link1 = 0;
+  scafInBuf_link1 = allGaps_link1;
+  scafCounter_link1 = scafInBuf_link1;
+  Ncounter_link1 = scafCounter_link1;
+  char *return_value_fgets_3;
+  signed int tmp_post_4;
   do
   {
-    return_value_fgets$3=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
-    if(return_value_fgets$3 == ((char *)NULL))
+    return_value_fgets_3=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
+    if(return_value_fgets_3 == ((char *)NULL))
       break;
 
     if((signed int)line[0l] == 62)
     {
       if(!(index == 0))
       {
-        tmp_post$4 = scafInBuf$link1;
-        scafInBuf$link1 = scafInBuf$link1 + 1;
-        aStack = ctgStackBuffer$link1[(signed long int)tmp_post$4];
-        reverseStack$link1(aStack, ctgStack);
-        if(scafInBuf$link1 == scafBufSize$link1)
+        tmp_post_4 = scafInBuf_link1;
+        scafInBuf_link1 = scafInBuf_link1 + 1;
+        aStack = ctgStackBuffer_link1[(signed long int)tmp_post_4];
+        reverseStack_link1(aStack, ctgStack);
+        if(scafInBuf_link1 == scafBufSize_link1)
         {
-          mapCtg2Scaf(scafInBuf$link1);
-          scafCounter$link1 = scafCounter$link1 + scafInBuf$link1;
-          scafInBuf$link1 = 0;
+          mapCtg2Scaf(scafInBuf_link1);
+          scafCounter_link1 = scafCounter_link1 + scafInBuf_link1;
+          scafInBuf_link1 = 0;
         }
 
         if(index % 1000 == 0)
@@ -15306,9 +15306,9 @@ static void locateContigOnscaff(char *graphfile)
           if(!((signed int)line[0l] >= 58))
           {
             sscanf(line, "%d %d", &ctg, &starter);
-            void *return_value_stackPush$5;
-            return_value_stackPush$5=stackPush(ctgStack);
-            actg = (struct ctg4scaf *)return_value_stackPush$5;
+            void *return_value_stackPush_5;
+            return_value_stackPush_5=stackPush(ctgStack);
+            actg = (struct ctg4scaf *)return_value_stackPush_5;
             actg->ctgID = ctg;
             if(prev_ctg == 0u)
             {
@@ -15335,35 +15335,35 @@ static void locateContigOnscaff(char *graphfile)
 
   }
   while((_Bool)1);
-  signed int tmp_post$6;
+  signed int tmp_post_6;
   if(!(index == 0))
   {
-    tmp_post$6 = scafInBuf$link1;
-    scafInBuf$link1 = scafInBuf$link1 + 1;
-    aStack = ctgStackBuffer$link1[(signed long int)tmp_post$6];
-    reverseStack$link1(aStack, ctgStack);
-    mapCtg2Scaf(scafInBuf$link1);
+    tmp_post_6 = scafInBuf_link1;
+    scafInBuf_link1 = scafInBuf_link1 + 1;
+    aStack = ctgStackBuffer_link1[(signed long int)tmp_post_6];
+    reverseStack_link1(aStack, ctgStack);
+    mapCtg2Scaf(scafInBuf_link1);
   }
 
   gapN = 0;
   ctg = (unsigned int)1;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_7;
   for( ; num_ctg >= ctg; ctg = ctg + 1u)
   {
     if((contig_array + (signed long int)ctg)->from_vt == 0u)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = (signed int)(contig_array + (signed long int)ctg)->multi == 1 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$7)
+      tmp_if_expr_7 = (signed int)(contig_array + (signed long int)ctg)->multi == 1 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_7)
       gapN = gapN + 1;
 
   }
   printf("\nDone with %d scaffolds, %d contigs in Scaffolld\n", index, gapN);
   fclose(fp);
   freeStack(ctgStack);
-  freeStackBuf$link1(ctgStackBuffer$link1, scafBufSize$link1);
-  free((void *)ctgStackBuffer$link1);
+  freeStackBuf_link1(ctgStackBuffer_link1, scafBufSize_link1);
+  free((void *)ctgStackBuffer_link1);
 }
 
 // locateReadOnScaf
@@ -15388,31 +15388,31 @@ extern void locateReadOnScaf(char *graphfile)
   fo=ckopen(name, "w");
   if(orig2new == 0)
   {
-    convertIndex$link1();
+    convertIndex_link1();
     orig2new = (char)1;
   }
 
   fgets(line, 1024, fp);
-  char *return_value_fgets$1;
-  char return_value_contigElligible$3;
-  char return_value_contigElligible$2;
+  char *return_value_fgets_1;
+  char return_value_contigElligible_3;
+  char return_value_contigElligible_2;
   do
   {
-    return_value_fgets$1=fgets(line, 1024, fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(line, 1024, fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     sscanf(line, "%lld %d %d", &readno, &contigno, &pos);
     if(readno % 2l == 0l && pre_readno == readno + -1l)
     {
-      return_value_contigElligible$3=contigElligible(pre_contigno);
-      if(!(return_value_contigElligible$3 == 0))
+      return_value_contigElligible_3=contigElligible(pre_contigno);
+      if(!(return_value_contigElligible_3 == 0))
       {
-        return_value_contigElligible$2=contigElligible(contigno);
-        if(!(return_value_contigElligible$2 == 0))
+        return_value_contigElligible_2=contigElligible(contigno);
+        if(!(return_value_contigElligible_2 == 0))
         {
-          output1read$link1(fo, pre_readno, pre_contigno, pre_pos);
-          output1read$link1(fo, readno, contigno, pos);
+          output1read_link1(fo, pre_readno, pre_contigno, pre_pos);
+          output1read_link1(fo, readno, contigno, pos);
           counter = counter + 1ll;
         }
 
@@ -15437,11 +15437,11 @@ signed int main(signed int argc, char **argv)
   printf("\nVersion 1.05: released on July 29th, 2010\n\n");
   argc = argc - 1;
   argv = argv + 1l;
-  signed int tmp_statement_expression$9;
-  signed int tmp_statement_expression$7;
-  signed int tmp_statement_expression$5;
-  signed int tmp_statement_expression$3;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_9;
+  signed int tmp_statement_expression_7;
+  signed int tmp_statement_expression_5;
+  signed int tmp_statement_expression_3;
+  signed int tmp_statement_expression_1;
   if(argc == 0)
   {
     display_usage();
@@ -15450,52 +15450,52 @@ signed int main(signed int argc, char **argv)
 
   else
   {
-    unsigned long int main$$1$$2$$__s1_len;
-    unsigned long int main$$1$$2$$__s2_len;
-    signed int return_value___builtin_strcmp$10;
-    return_value___builtin_strcmp$10=__builtin_strcmp("pregraph", argv[(signed long int)0]);
-    tmp_statement_expression$9 = return_value___builtin_strcmp$10;
-    if(tmp_statement_expression$9 == 0)
+    unsigned long int main__1__2____s1_len;
+    unsigned long int main__1__2____s2_len;
+    signed int return_value___builtin_strcmp_10;
+    return_value___builtin_strcmp_10=__builtin_strcmp("pregraph", argv[(signed long int)0]);
+    tmp_statement_expression_9 = return_value___builtin_strcmp_10;
+    if(tmp_statement_expression_9 == 0)
       call_pregraph(argc, argv);
 
     else
     {
-      unsigned long int main$$1$$4$$__s1_len;
-      unsigned long int main$$1$$4$$__s2_len;
-      signed int return_value___builtin_strcmp$8;
-      return_value___builtin_strcmp$8=__builtin_strcmp("contig", argv[(signed long int)0]);
-      tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-      if(tmp_statement_expression$7 == 0)
+      unsigned long int main__1__4____s1_len;
+      unsigned long int main__1__4____s2_len;
+      signed int return_value___builtin_strcmp_8;
+      return_value___builtin_strcmp_8=__builtin_strcmp("contig", argv[(signed long int)0]);
+      tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+      if(tmp_statement_expression_7 == 0)
         call_heavygraph(argc, argv);
 
       else
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$6;
-        return_value___builtin_strcmp$6=__builtin_strcmp("map", argv[(signed long int)0]);
-        tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-        if(tmp_statement_expression$5 == 0)
+        signed int return_value___builtin_strcmp_6;
+        return_value___builtin_strcmp_6=__builtin_strcmp("map", argv[(signed long int)0]);
+        tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+        if(tmp_statement_expression_5 == 0)
           call_align(argc, argv);
 
         else
         {
-          unsigned long int main$$1$$8$$__s1_len;
-          unsigned long int main$$1$$8$$__s2_len;
-          signed int return_value___builtin_strcmp$4;
-          return_value___builtin_strcmp$4=__builtin_strcmp("scaff", argv[(signed long int)0]);
-          tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-          if(tmp_statement_expression$3 == 0)
+          unsigned long int main__1__8____s1_len;
+          unsigned long int main__1__8____s2_len;
+          signed int return_value___builtin_strcmp_4;
+          return_value___builtin_strcmp_4=__builtin_strcmp("scaff", argv[(signed long int)0]);
+          tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+          if(tmp_statement_expression_3 == 0)
             call_scaffold(argc, argv);
 
           else
           {
-            unsigned long int main$$1$$10$$__s1_len;
-            unsigned long int main$$1$$10$$__s2_len;
-            signed int return_value___builtin_strcmp$2;
-            return_value___builtin_strcmp$2=__builtin_strcmp("all", argv[(signed long int)0]);
-            tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-            if(tmp_statement_expression$1 == 0)
+            unsigned long int main__1__10____s1_len;
+            unsigned long int main__1__10____s2_len;
+            signed int return_value___builtin_strcmp_2;
+            return_value___builtin_strcmp_2=__builtin_strcmp("all", argv[(signed long int)0]);
+            tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+            if(tmp_statement_expression_1 == 0)
               pipeline(argc, argv);
 
             else
@@ -15515,18 +15515,18 @@ static void make_edge(struct _IO_FILE *fp)
   signed int i = 0;
   struct kmer_st *node1;
   struct kmerSet_st *set;
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)thrd_num * sizeof(struct kmerSet_st *) /*8ul*/ );
-  KmerSetsPatch = (struct kmerSet_st **)return_value_ckalloc$1;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)thrd_num * sizeof(struct kmerSet_st *) /*8ul*/ );
+  KmerSetsPatch = (struct kmerSet_st **)return_value_ckalloc_1;
   i = 0;
   for( ; !(i >= thrd_num); i = i + 1)
     KmerSetsPatch[(signed long int)i]=init_kmerset((unsigned long long int)1000, (float)0.75);
-  struct stack *return_value_createStack$2;
-  return_value_createStack$2=createStack(1000, sizeof(struct kmer_pt) /*32ul*/ );
-  nodeStack = (struct stack *)return_value_createStack$2;
-  struct stack *return_value_createStack$3;
-  return_value_createStack$3=createStack(1000, sizeof(struct kmer_pt) /*32ul*/ );
-  bal_nodeStack = (struct stack *)return_value_createStack$3;
+  struct stack *return_value_createStack_2;
+  return_value_createStack_2=createStack(1000, sizeof(struct kmer_pt) /*32ul*/ );
+  nodeStack = (struct stack *)return_value_createStack_2;
+  struct stack *return_value_createStack_3;
+  return_value_createStack_3=createStack(1000, sizeof(struct kmer_pt) /*32ul*/ );
+  bal_nodeStack = (struct stack *)return_value_createStack_3;
   nodeCounter = 0;
   edge_c = nodeCounter;
   edgeCounter = 0;
@@ -15559,15 +15559,15 @@ static void mapCtg2Scaf(signed int scafInBuf)
   unsigned int ctg;
   unsigned int bal_ctg;
   i = 0;
-  void *return_value_stackPop$1;
+  void *return_value_stackPop_1;
   for( ; !(i >= scafInBuf); i = i + 1)
   {
-    scafID = scafCounter$link1 + i + 1;
-    ctgsStack = ctgStackBuffer$link1[(signed long int)i];
+    scafID = scafCounter_link1 + i + 1;
+    ctgsStack = ctgStackBuffer_link1[(signed long int)i];
     do
     {
-      return_value_stackPop$1=stackPop(ctgsStack);
-      actg = (struct ctg4scaf *)return_value_stackPop$1;
+      return_value_stackPop_1=stackPop(ctgsStack);
+      actg = (struct ctg4scaf *)return_value_stackPop_1;
       if(actg == ((struct ctg4scaf *)NULL))
         break;
 
@@ -15625,14 +15625,14 @@ static void mapSlowOntoFast()
   signed int fastIndex = fastSeqLength;
   signed int fastn;
   signed int slown;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
   if(slowIndex == 0)
   {
     slowToFastMapping[(signed long int)0] = fastIndex;
-    for( ; fastIndex >= 0; fastToSlowMapping[(signed long int)tmp_post$1] = 0)
+    for( ; fastIndex >= 0; fastToSlowMapping[(signed long int)tmp_post_1] = 0)
     {
-      tmp_post$1 = fastIndex;
+      tmp_post_1 = fastIndex;
       fastIndex = fastIndex - 1;
     }
   }
@@ -15640,9 +15640,9 @@ static void mapSlowOntoFast()
   else
     if(fastIndex == 0)
     {
-      for( ; slowIndex >= 0; slowToFastMapping[(signed long int)tmp_post$2] = 0)
+      for( ; slowIndex >= 0; slowToFastMapping[(signed long int)tmp_post_2] = 0)
       {
-        tmp_post$2 = slowIndex;
+        tmp_post_2 = slowIndex;
         slowIndex = slowIndex - 1;
       }
       fastToSlowMapping[(signed long int)0] = slowIndex;
@@ -15746,27 +15746,27 @@ static void maskContig(unsigned int ctg, char flag)
   struct connection *cn_temp;
   bal_ctg=getTwinCtg(ctg);
   cn_temp = (contig_array + (signed long int)ctg)->downwardConnect;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   while(!(cn_temp == ((struct connection *)NULL)))
   {
     if(!(cn_temp->mask == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = cn_temp->prevInScaf != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = cn_temp->prevInScaf != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = cn_temp->nextInScaf != ((struct connection *)NULL) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = cn_temp->nextInScaf != ((struct connection *)NULL) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = cn_temp->singleInScaf != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = cn_temp->singleInScaf != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
       cn_temp = cn_temp->next;
 
     else
@@ -15777,27 +15777,27 @@ static void maskContig(unsigned int ctg, char flag)
     }
   }
   cn_temp = (contig_array + (signed long int)bal_ctg)->downwardConnect;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
   while(!(cn_temp == ((struct connection *)NULL)))
   {
     if(!(cn_temp->mask == 0))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = cn_temp->prevInScaf != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_4 = cn_temp->prevInScaf != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = cn_temp->nextInScaf != ((struct connection *)NULL) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_5 = cn_temp->nextInScaf != ((struct connection *)NULL) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = cn_temp->singleInScaf != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = cn_temp->singleInScaf != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
       cn_temp = cn_temp->next;
 
     else
@@ -15847,9 +15847,9 @@ static signed int maskPuzzle(signed int num_connect, unsigned int contigLen)
       if(in_num >= 2 || out_num >= 2)
         puzzleCounter = puzzleCounter + 1;
 
-      char return_value_isSmallerThanTwin$1;
-      return_value_isSmallerThanTwin$1=isSmallerThanTwin(i);
-      if(!(return_value_isSmallerThanTwin$1 == 0))
+      char return_value_isSmallerThanTwin_1;
+      return_value_isSmallerThanTwin_1=isSmallerThanTwin(i);
+      if(!(return_value_isSmallerThanTwin_1 == 0))
         i = i + 1u;
 
     }
@@ -15884,9 +15884,9 @@ static void maskRepeat()
 
       else
       {
-        char return_value_isSmallerThanTwin$1;
-        return_value_isSmallerThanTwin$1=isSmallerThanTwin(i);
-        if(!(return_value_isSmallerThanTwin$1 == 0))
+        char return_value_isSmallerThanTwin_1;
+        return_value_isSmallerThanTwin_1=isSmallerThanTwin(i);
+        if(!(return_value_isSmallerThanTwin_1 == 0))
           i = i + 1u;
 
         goto __CPROVER_DUMP_L13;
@@ -15895,9 +15895,9 @@ static void maskRepeat()
       {
         counter = counter + 1;
         maskContig(i, (char)1);
-        char return_value_isSmallerThanTwin$2;
-        return_value_isSmallerThanTwin$2=isSmallerThanTwin(i);
-        if(!(return_value_isSmallerThanTwin$2 == 0))
+        char return_value_isSmallerThanTwin_2;
+        return_value_isSmallerThanTwin_2=isSmallerThanTwin(i);
+        if(!(return_value_isSmallerThanTwin_2 == 0))
           i = i + 1u;
 
         goto __CPROVER_DUMP_L13;
@@ -15905,18 +15905,18 @@ static void maskRepeat()
 
       if(in_num >= 2)
       {
-        char return_value_checkUnique$3;
-        return_value_checkUnique$3=checkUnique(bal_i, OverlapPercent);
-        flagA = (signed int)return_value_checkUnique$3;
+        char return_value_checkUnique_3;
+        return_value_checkUnique_3=checkUnique(bal_i, OverlapPercent);
+        flagA = (signed int)return_value_checkUnique_3;
       }
 
       else
         flagA = 1;
       if(out_num >= 2)
       {
-        char return_value_checkUnique$4;
-        return_value_checkUnique$4=checkUnique(i, OverlapPercent);
-        flagB = (signed int)return_value_checkUnique$4;
+        char return_value_checkUnique_4;
+        return_value_checkUnique_4=checkUnique(i, OverlapPercent);
+        flagB = (signed int)return_value_checkUnique_4;
       }
 
       else
@@ -15927,9 +15927,9 @@ static void maskRepeat()
         maskContig(i, (char)1);
       }
 
-      char return_value_isSmallerThanTwin$5;
-      return_value_isSmallerThanTwin$5=isSmallerThanTwin(i);
-      if(!(return_value_isSmallerThanTwin$5 == 0))
+      char return_value_isSmallerThanTwin_5;
+      return_value_isSmallerThanTwin_5=isSmallerThanTwin(i);
+      if(!(return_value_isSmallerThanTwin_5 == 0))
         i = i + 1u;
 
     }
@@ -15957,7 +15957,7 @@ static void maskRepeatNode(struct kmerSet_st *kset, unsigned long long int *kmer
   char found;
   signed int counter = 0;
   i = 0;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   for( ; !(i >= len1); i = i + 1)
   {
     word = kmerCtg1[(signed long int)i];
@@ -15965,15 +15965,15 @@ static void maskRepeatNode(struct kmerSet_st *kset, unsigned long long int *kmer
     if(!(bal_word >= word))
       word = bal_word;
 
-    signed int return_value_search_kmerset$1;
-    return_value_search_kmerset$1=search_kmerset(kset, word, &node);
-    found = (char)return_value_search_kmerset$1;
+    signed int return_value_search_kmerset_1;
+    return_value_search_kmerset_1=search_kmerset(kset, word, &node);
+    found = (char)return_value_search_kmerset_1;
     if(found == 0)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = node->linear != 0u ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = node->linear != 0u ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_2)
     {
       traceCounter = 0;
       num_route = traceCounter;
@@ -15989,7 +15989,7 @@ static void maskRepeatNode(struct kmerSet_st *kset, unsigned long long int *kmer
 
   }
   i = 0;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   for( ; !(i >= len2); i = i + 1)
   {
     word = kmerCtg2[(signed long int)i];
@@ -15997,15 +15997,15 @@ static void maskRepeatNode(struct kmerSet_st *kset, unsigned long long int *kmer
     if(!(bal_word >= word))
       word = bal_word;
 
-    signed int return_value_search_kmerset$3;
-    return_value_search_kmerset$3=search_kmerset(kset, word, &node);
-    found = (char)return_value_search_kmerset$3;
+    signed int return_value_search_kmerset_3;
+    return_value_search_kmerset_3=search_kmerset(kset, word, &node);
+    found = (char)return_value_search_kmerset_3;
     if(found == 0)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = node->linear != 0u ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$4)
+      tmp_if_expr_4 = node->linear != 0u ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_4)
     {
       traceCounter = 0;
       num_route = traceCounter;
@@ -16030,12 +16030,12 @@ static signed int max(signed int A, signed int B, signed int C)
   return A >= C ? A : C;
 }
 
-// max$link1
+// max_link1
 // file localAsm.c line 1362
-static signed int max$link1(signed int A$link1, signed int B$link1, signed int C$link1)
+static signed int max_link1(signed int A_link1, signed int B_link1, signed int C_link1)
 {
-  A$link1 = A$link1 >= B$link1 ? A$link1 : B$link1;
-  return A$link1 >= C$link1 ? A$link1 : C$link1;
+  A_link1 = A_link1 >= B_link1 ? A_link1 : B_link1;
+  return A_link1 >= C_link1 ? A_link1 : C_link1;
 }
 
 // maxKmer
@@ -16057,9 +16057,9 @@ static unsigned long long int maxKmer()
 static void memoAlloc4preArc()
 {
   unsigned int i;
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)(num_ed + (unsigned int)1) * sizeof(struct prearc *) /*8ul*/ );
-  preArc_array = (struct prearc **)return_value_ckalloc$1;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)(num_ed + (unsigned int)1) * sizeof(struct prearc *) /*8ul*/ );
+  preArc_array = (struct prearc **)return_value_ckalloc_1;
   i = (unsigned int)0;
   for( ; num_ed >= i; i = i + 1u)
     preArc_array[(signed long int)i] = (struct prearc *)(void *)0;
@@ -16092,13 +16092,13 @@ static void merge_linearV2(char bal_edge, struct stack *nStack, signed int count
   unsigned long long int bal_wordplus;
   unsigned long long int hash_ban;
   struct kmer_pt *last_np;
-  void *return_value_stackPop$1;
-  return_value_stackPop$1=stackPop(nStack);
-  last_np = (struct kmer_pt *)return_value_stackPop$1;
+  void *return_value_stackPop_1;
+  return_value_stackPop_1=stackPop(nStack);
+  last_np = (struct kmer_pt *)return_value_stackPop_1;
   struct kmer_pt *second_last_np;
-  void *return_value_stackPop$2;
-  return_value_stackPop$2=stackPop(nStack);
-  second_last_np = (struct kmer_pt *)return_value_stackPop$2;
+  void *return_value_stackPop_2;
+  return_value_stackPop_2=stackPop(nStack);
+  second_last_np = (struct kmer_pt *)return_value_stackPop_2;
   struct kmer_pt *first_np;
   struct kmer_pt *second_np = (struct kmer_pt *)(void *)0;
   struct kmer_pt *temp;
@@ -16108,9 +16108,9 @@ static void merge_linearV2(char bal_edge, struct stack *nStack, signed int count
   len_tSeq = length;
   if(len_tSeq >= edge_length_limit)
   {
-    void *return_value_ckalloc$3;
-    return_value_ckalloc$3=ckalloc((unsigned long int)len_tSeq * sizeof(char) /*1ul*/ );
-    tightSeq = (char *)return_value_ckalloc$3;
+    void *return_value_ckalloc_3;
+    return_value_ckalloc_3=ckalloc((unsigned long int)len_tSeq * sizeof(char) /*1ul*/ );
+    tightSeq = (char *)return_value_ckalloc_3;
   }
 
   else
@@ -16120,21 +16120,21 @@ static void merge_linearV2(char bal_edge, struct stack *nStack, signed int count
   newedge->to_node = last_np->kmer;
   newedge->length = length;
   newedge->bal_edge = (unsigned short int)bal_edge;
-  signed int tmp_post$4 = char_index;
+  signed int tmp_post_4 = char_index;
   char_index = char_index - 1;
-  tightSeq[(signed long int)tmp_post$4] = (char)(last_np->kmer & (unsigned long int)3);
+  tightSeq[(signed long int)tmp_post_4] = (char)(last_np->kmer & (unsigned long int)3);
   firstCh=firstCharInKmer(second_last_np->kmer);
   dislink2prevUncertain(last_np->node, firstCh, last_np->isSmaller);
   stackRecover(nStack);
   while(nStack->item_c >= 2)
   {
-    void *return_value_stackPop$5;
-    return_value_stackPop$5=stackPop(nStack);
-    second_np = (struct kmer_pt *)return_value_stackPop$5;
+    void *return_value_stackPop_5;
+    return_value_stackPop_5=stackPop(nStack);
+    second_np = (struct kmer_pt *)return_value_stackPop_5;
   }
-  void *return_value_stackPop$6;
-  return_value_stackPop$6=stackPop(nStack);
-  first_np = (struct kmer_pt *)return_value_stackPop$6;
+  void *return_value_stackPop_6;
+  return_value_stackPop_6=stackPop(nStack);
+  first_np = (struct kmer_pt *)return_value_stackPop_6;
   dislink2nextUncertain(first_np->node, (char)(second_np->kmer & (unsigned long int)3), first_np->isSmaller);
   newedge->from_node = first_np->kmer;
   if(length == 1)
@@ -16148,9 +16148,9 @@ static void merge_linearV2(char bal_edge, struct stack *nStack, signed int count
     {
       hash_ban=hash_kmer(wordplus);
       setPicker = (signed int)(hash_ban % (unsigned long int)thrd_num);
-      signed int return_value_put_kmerset$7;
-      return_value_put_kmerset$7=put_kmerset(KmerSetsPatch[(signed long int)setPicker], wordplus, (unsigned char)4, (unsigned char)4, &longNode);
-      found = (char)return_value_put_kmerset$7;
+      signed int return_value_put_kmerset_7;
+      return_value_put_kmerset_7=put_kmerset(KmerSetsPatch[(signed long int)setPicker], wordplus, (unsigned char)4, (unsigned char)4, &longNode);
+      found = (char)return_value_put_kmerset_7;
       if(!(found == 0))
         printf("longNode %llx already exist\n", wordplus);
 
@@ -16162,9 +16162,9 @@ static void merge_linearV2(char bal_edge, struct stack *nStack, signed int count
     {
       hash_ban=hash_kmer(bal_wordplus);
       setPicker = (signed int)(hash_ban % (unsigned long int)thrd_num);
-      signed int return_value_put_kmerset$8;
-      return_value_put_kmerset$8=put_kmerset(KmerSetsPatch[(signed long int)setPicker], bal_wordplus, (unsigned char)4, (unsigned char)4, &longNode);
-      found = (char)return_value_put_kmerset$8;
+      signed int return_value_put_kmerset_8;
+      return_value_put_kmerset_8=put_kmerset(KmerSetsPatch[(signed long int)setPicker], bal_wordplus, (unsigned char)4, (unsigned char)4, &longNode);
+      found = (char)return_value_put_kmerset_8;
       if(!(found == 0))
         printf("longNode %llx already exist\n", bal_wordplus);
 
@@ -16179,15 +16179,15 @@ static void merge_linearV2(char bal_edge, struct stack *nStack, signed int count
     edgeCounter = edgeCounter + 1;
   }
   stackRecover(nStack);
-  void *return_value_stackPop$9;
-  return_value_stackPop$9=stackPop(nStack);
-  temp = (struct kmer_pt *)return_value_stackPop$9;
-  signed int tmp_post$11;
+  void *return_value_stackPop_9;
+  return_value_stackPop_9=stackPop(nStack);
+  temp = (struct kmer_pt *)return_value_stackPop_9;
+  signed int tmp_post_11;
   while(nStack->item_c >= 2)
   {
-    void *return_value_stackPop$10;
-    return_value_stackPop$10=stackPop(nStack);
-    temp = (struct kmer_pt *)return_value_stackPop$10;
+    void *return_value_stackPop_10;
+    return_value_stackPop_10=stackPop(nStack);
+    temp = (struct kmer_pt *)return_value_stackPop_10;
     del_node = temp->node;
     del_node->inEdge = (unsigned int)1;
     symbol = symbol + (signed long long int)((del_node->l_links >> 0 * 6 & 0x3FU) + (del_node->l_links >> 1 * 6 & 0x3FU) + (del_node->l_links >> 2 * 6 & 0x3FU) + (del_node->l_links >> 3 * 6 & 0x3FU));
@@ -16202,9 +16202,9 @@ static void merge_linearV2(char bal_edge, struct stack *nStack, signed int count
       del_node->l_links = (unsigned int)(edge_c + (signed int)bal_edge);
       del_node->twin = (unsigned int)(unsigned char)(-((signed int)bal_edge) + 1);
     }
-    tmp_post$11 = char_index;
+    tmp_post_11 = char_index;
     char_index = char_index - 1;
-    tightSeq[(signed long int)tmp_post$11] = (char)(temp->kmer & (unsigned long int)3);
+    tightSeq[(signed long int)tmp_post_11] = (char)(temp->kmer & (unsigned long int)3);
   }
   newedge->seq = tightSeq;
   if(length >= 2)
@@ -16241,9 +16241,9 @@ unsigned int minInDHeap(struct dfibheap *h)
 // file fibHeap.c line 40
 signed long long int minKeyOfHeap(struct fibheap *heap)
 {
-  signed long long int return_value_fh_minkey$1;
-  return_value_fh_minkey$1=fh_minkey(heap);
-  return return_value_fh_minkey$1;
+  signed long long int return_value_fh_minkey_1;
+  return_value_fh_minkey_1=fh_minkey(heap);
+  return return_value_fh_minkey_1;
 }
 
 // moveArc2cp
@@ -16312,21 +16312,21 @@ extern signed long long int multiFileParse(signed int *max_leg, signed int *min_
   *max_leg = 1;
   *max_name_leg = *max_leg;
   *min_leg = 1000;
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   do
   {
-    return_value_fgets$1=fgets(str, 4950, fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(str, 4950, fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(str);
-    slen = (signed int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(str);
+    slen = (signed int)return_value_strlen_2;
     str[(signed long int)(slen - 1)] = str[(signed long int)slen];
     freads=ckopen(str, "r");
-    signed long long int return_value_readseqpar$3;
-    return_value_readseqpar$3=readseqpar(max_leg, min_leg, max_name_leg, freads);
-    counter = counter + return_value_readseqpar$3;
+    signed long long int return_value_readseqpar_3;
+    return_value_readseqpar_3=readseqpar(max_leg, min_leg, max_name_leg, freads);
+    counter = counter + return_value_readseqpar_3;
     fclose(freads);
   }
   while((_Bool)1);
@@ -16351,18 +16351,18 @@ static signed int nPick1(signed int *array, signed int n)
 // file inc/dfibHeap.h line 26
 struct dfibheap * newDFibHeap()
 {
-  struct dfibheap *return_value_dfh_makekeyheap$1;
-  return_value_dfh_makekeyheap$1=dfh_makekeyheap();
-  return return_value_dfh_makekeyheap$1;
+  struct dfibheap *return_value_dfh_makekeyheap_1;
+  return_value_dfh_makekeyheap_1=dfh_makekeyheap();
+  return return_value_dfh_makekeyheap_1;
 }
 
 // newFibHeap
 // file fibHeap.c line 27
 struct fibheap * newFibHeap()
 {
-  struct fibheap *return_value_fh_makekeyheap$1;
-  return_value_fh_makekeyheap$1=fh_makekeyheap();
-  return return_value_fh_makekeyheap$1;
+  struct fibheap *return_value_fh_makekeyheap_1;
+  return_value_fh_makekeyheap_1=fh_makekeyheap();
+  return return_value_fh_makekeyheap_1;
 }
 
 // nextKmer
@@ -16394,16 +16394,16 @@ static unsigned int nextStartingPoint()
   unsigned int index = (unsigned int)1;
   unsigned int result = (unsigned int)0;
   index = (unsigned int)(progress + 1);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(index >= num_ed); index = index + 1u)
   {
     result = index;
     if(!((edge_array + (signed long int)index)->deleted == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (edge_array + (signed long int)index)->length < 1 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (edge_array + (signed long int)index)->length < 1 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
     {
       if(result == 0u)
         return (unsigned int)0;
@@ -16425,25 +16425,25 @@ static unsigned int nextStartingPoint()
 static signed int nextValidIndex(signed int libNo, char pair, unsigned char asm_ctg)
 {
   signed int i = libNo;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   while(!(i >= num_libs))
   {
     if((signed int)asm_ctg == 1)
     {
       if(!((lib_array + (signed long int)i)->asm_flag == 1))
-        tmp_if_expr$3 = (lib_array + (signed long int)i)->asm_flag != 3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (lib_array + (signed long int)i)->asm_flag != 3 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
       i = i + 1;
       continue;
@@ -16454,16 +16454,16 @@ static signed int nextValidIndex(signed int libNo, char pair, unsigned char asm_
       if((signed int)asm_ctg == 0)
       {
         if(!((lib_array + (signed long int)i)->asm_flag == 2))
-          tmp_if_expr$1 = (lib_array + (signed long int)i)->asm_flag != 3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (lib_array + (signed long int)i)->asm_flag != 3 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
       {
         i = i + 1;
         continue;
@@ -16548,32 +16548,32 @@ static signed int nextValidIndex(signed int libNo, char pair, unsigned char asm_
 static struct _IO_FILE * openFile4read(char *fname)
 {
   struct _IO_FILE *fp;
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(fname);
-  _Bool tmp_if_expr$8;
-  signed int tmp_statement_expression$5;
-  if(return_value_strlen$4 >= 4ul)
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(fname);
+  _Bool tmp_if_expr_8;
+  signed int tmp_statement_expression_5;
+  if(return_value_strlen_4 >= 4ul)
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(fname);
-    signed int return_value___builtin_strcmp$7;
-    return_value___builtin_strcmp$7=__builtin_strcmp((fname + (signed long int)return_value_strlen$6) - (signed long int)3, ".gz");
-    tmp_statement_expression$5 = return_value___builtin_strcmp$7;
-    tmp_if_expr$8 = tmp_statement_expression$5 == 0 ? (_Bool)1 : (_Bool)0;
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(fname);
+    signed int return_value___builtin_strcmp_7;
+    return_value___builtin_strcmp_7=__builtin_strcmp((fname + (signed long int)return_value_strlen_6) - (signed long int)3, ".gz");
+    tmp_statement_expression_5 = return_value___builtin_strcmp_7;
+    tmp_if_expr_8 = tmp_statement_expression_5 == 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$8 = (_Bool)0;
-  if(tmp_if_expr$8)
+    tmp_if_expr_8 = (_Bool)0;
+  if(tmp_if_expr_8)
   {
     char *cmd;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(fname);
-    void *return_value_ckalloc$2;
-    return_value_ckalloc$2=ckalloc((return_value_strlen$1 + (unsigned long int)20) * sizeof(char) /*1ul*/ );
-    cmd = (char *)return_value_ckalloc$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(fname);
+    void *return_value_ckalloc_2;
+    return_value_ckalloc_2=ckalloc((return_value_strlen_1 + (unsigned long int)20) * sizeof(char) /*1ul*/ );
+    cmd = (char *)return_value_ckalloc_2;
     sprintf(cmd, "gzip -dc %s", fname);
     fp=popen(cmd, "r");
     free((void *)cmd);
@@ -16582,9 +16582,9 @@ static struct _IO_FILE * openFile4read(char *fname)
 
   else
   {
-    struct _IO_FILE *return_value_ckopen$3;
-    return_value_ckopen$3=ckopen(fname, "r");
-    return return_value_ckopen$3;
+    struct _IO_FILE *return_value_ckopen_3;
+    return_value_ckopen_3=ckopen(fname, "r");
+    return return_value_ckopen_3;
   }
 }
 
@@ -16709,9 +16709,9 @@ void output1gap(struct _IO_FILE *fo, signed int max_steps)
   fprintf(fo, "\n");
 }
 
-// output1gap$link1
+// output1gap_link1
 // file prlReadFillGap.c line 429
-static void output1gap$link1(struct _IO_FILE *fo$link1, signed int scafIndex, struct ctg4scaf *prevCtg, struct ctg4scaf *actg, struct dynamic_array *gapSeqArray)
+static void output1gap_link1(struct _IO_FILE *fo_link1, signed int scafIndex, struct ctg4scaf *prevCtg, struct ctg4scaf *actg, struct dynamic_array *gapSeqArray)
 {
   unsigned int ctg1;
   unsigned int bal_ctg1;
@@ -16746,60 +16746,60 @@ static void output1gap$link1(struct _IO_FILE *fo$link1, signed int scafIndex, st
 
   else
     outputlen2 = (signed int)((length2 - (unsigned int)actg->cutTail) - (unsigned int)start2);
-  char return_value_isLargerThanTwin$1;
-  return_value_isLargerThanTwin$1=isLargerThanTwin(ctg1);
-  if(!(return_value_isLargerThanTwin$1 == 0))
-    fprintf(fo$link1, ">S%d_C%d_L%d_G%d", scafIndex, index_array[(signed long int)bal_ctg1], outputlen1, prevCtg->gapSeqLen);
+  char return_value_isLargerThanTwin_1;
+  return_value_isLargerThanTwin_1=isLargerThanTwin(ctg1);
+  if(!(return_value_isLargerThanTwin_1 == 0))
+    fprintf(fo_link1, ">S%d_C%d_L%d_G%d", scafIndex, index_array[(signed long int)bal_ctg1], outputlen1, prevCtg->gapSeqLen);
 
   else
-    fprintf(fo$link1, ">S%d_C%d_L%d_G%d", scafIndex, index_array[(signed long int)ctg1], outputlen1, prevCtg->gapSeqLen);
-  char return_value_isLargerThanTwin$2;
-  return_value_isLargerThanTwin$2=isLargerThanTwin(ctg2);
-  if(!(return_value_isLargerThanTwin$2 == 0))
-    fprintf(fo$link1, "_C%d_L%d\n", index_array[(signed long int)bal_ctg2], outputlen2);
+    fprintf(fo_link1, ">S%d_C%d_L%d_G%d", scafIndex, index_array[(signed long int)ctg1], outputlen1, prevCtg->gapSeqLen);
+  char return_value_isLargerThanTwin_2;
+  return_value_isLargerThanTwin_2=isLargerThanTwin(ctg2);
+  if(!(return_value_isLargerThanTwin_2 == 0))
+    fprintf(fo_link1, "_C%d_L%d\n", index_array[(signed long int)bal_ctg2], outputlen2);
 
   else
-    fprintf(fo$link1, "_C%d_L%d\n", index_array[(signed long int)ctg2], outputlen2);
+    fprintf(fo_link1, "_C%d_L%d\n", index_array[(signed long int)ctg2], outputlen2);
   if(!((contig_array + (signed long int)ctg1)->seq == ((char *)NULL)))
-    outputTightStr(fo$link1, (contig_array + (signed long int)ctg1)->seq, start1, (signed int)length1, outputlen1, 0, &column);
+    outputTightStr(fo_link1, (contig_array + (signed long int)ctg1)->seq, start1, (signed int)length1, outputlen1, 0, &column);
 
   else
     if(!((contig_array + (signed long int)bal_ctg1)->seq == ((char *)NULL)))
-      outputTightStr(fo$link1, (contig_array + (signed long int)bal_ctg1)->seq, start1, (signed int)length1, outputlen1, 1, &column);
+      outputTightStr(fo_link1, (contig_array + (signed long int)bal_ctg1)->seq, start1, (signed int)length1, outputlen1, 1, &column);
 
-  void *return_value_darrayPut$3;
-  return_value_darrayPut$3=darrayPut(gapSeqArray, (signed long long int)prevCtg->gapSeqOffset);
-  pt = (char *)return_value_darrayPut$3;
-  outputTightStrLowerCase(fo$link1, pt, 0, (signed int)prevCtg->gapSeqLen, (signed int)prevCtg->gapSeqLen, 0, &column);
+  void *return_value_darrayPut_3;
+  return_value_darrayPut_3=darrayPut(gapSeqArray, (signed long long int)prevCtg->gapSeqOffset);
+  pt = (char *)return_value_darrayPut_3;
+  outputTightStrLowerCase(fo_link1, pt, 0, (signed int)prevCtg->gapSeqLen, (signed int)prevCtg->gapSeqLen, 0, &column);
   if(!((contig_array + (signed long int)ctg2)->seq == ((char *)NULL)))
-    outputTightStr(fo$link1, (contig_array + (signed long int)ctg2)->seq, start2, (signed int)length2, outputlen2, 0, &column);
+    outputTightStr(fo_link1, (contig_array + (signed long int)ctg2)->seq, start2, (signed int)length2, outputlen2, 0, &column);
 
   else
     if(!((contig_array + (signed long int)bal_ctg2)->seq == ((char *)NULL)))
-      outputTightStr(fo$link1, (contig_array + (signed long int)bal_ctg2)->seq, start2, (signed int)length2, outputlen2, 1, &column);
+      outputTightStr(fo_link1, (contig_array + (signed long int)bal_ctg2)->seq, start2, (signed int)length2, outputlen2, 1, &column);
 
-  fprintf(fo$link1, "\n");
+  fprintf(fo_link1, "\n");
 }
 
 // output1read
 // file prlRead2Ctg.c line 384
 static void output1read(signed int t, struct _IO_FILE *outfp)
 {
-  signed int len = lenBuffer$link2[(signed long int)t];
+  signed int len = lenBuffer_link2[(signed long int)t];
   signed int index;
   readsInGap = readsInGap + 1ll;
   index = 0;
   for( ; !(index >= len); index = index + 1)
-    writeChar2tightString(seqBuffer$link2[(signed long int)t][(signed long int)index], rcSeq$link2[(signed long int)1], index);
+    writeChar2tightString(seqBuffer_link2[(signed long int)t][(signed long int)index], rcSeq_link2[(signed long int)1], index);
   fwrite((const void *)&len, sizeof(signed int) /*4ul*/ , (unsigned long int)1, outfp);
-  fwrite((const void *)&ctgIdArray$link1[(signed long int)t], sizeof(signed int) /*4ul*/ , (unsigned long int)1, outfp);
+  fwrite((const void *)&ctgIdArray_link1[(signed long int)t], sizeof(signed int) /*4ul*/ , (unsigned long int)1, outfp);
   fwrite((const void *)&posArray[(signed long int)t], sizeof(signed int) /*4ul*/ , (unsigned long int)1, outfp);
-  fwrite((const void *)rcSeq$link2[(signed long int)1], sizeof(char) /*1ul*/ , (unsigned long int)(len / 4 + 1), outfp);
+  fwrite((const void *)rcSeq_link2[(signed long int)1], sizeof(char) /*1ul*/ , (unsigned long int)(len / 4 + 1), outfp);
 }
 
-// output1read$link1
+// output1read_link1
 // file read2scaf.c line 237
-static void output1read$link1(struct _IO_FILE *fo, signed long long int readno, unsigned int contigno, signed int pos)
+static void output1read_link1(struct _IO_FILE *fo, signed long long int readno, unsigned int contigno, signed int pos)
 {
   unsigned int ctg = index_array[(signed long int)contigno];
   signed int posOnScaf;
@@ -16849,18 +16849,18 @@ static void outputGapSeq(struct _IO_FILE *fo, signed int index, struct stack *ct
   struct ctg4scaf *actg;
   struct ctg4scaf *prevCtg = (struct ctg4scaf *)(void *)0;
   stackRecover(ctgsStack);
-  void *return_value_stackPop$1;
+  void *return_value_stackPop_1;
   do
   {
-    return_value_stackPop$1=stackPop(ctgsStack);
-    actg = (struct ctg4scaf *)return_value_stackPop$1;
+    return_value_stackPop_1=stackPop(ctgsStack);
+    actg = (struct ctg4scaf *)return_value_stackPop_1;
     if(actg == ((struct ctg4scaf *)NULL))
       break;
 
     if(!(prevCtg == ((struct ctg4scaf *)NULL)))
     {
       if((signed int)prevCtg->gapSeqLen >= 1)
-        output1gap$link1(fo, index, prevCtg, actg, gapSeqArray);
+        output1gap_link1(fo, index, prevCtg, actg, gapSeqArray);
 
     }
 
@@ -16936,11 +16936,11 @@ static void outputScafSeq(struct _IO_FILE *fo, signed int index, struct stack *c
   signed long long int cvgSum = (signed long long int)0;
   signed int lenSum = 0;
   stackRecover(ctgsStack);
-  void *return_value_stackPop$1;
+  void *return_value_stackPop_1;
   do
   {
-    return_value_stackPop$1=stackPop(ctgsStack);
-    actg = (struct ctg4scaf *)return_value_stackPop$1;
+    return_value_stackPop_1=stackPop(ctgsStack);
+    actg = (struct ctg4scaf *)return_value_stackPop_1;
     if(actg == ((struct ctg4scaf *)NULL))
       break;
 
@@ -16958,11 +16958,11 @@ static void outputScafSeq(struct _IO_FILE *fo, signed int index, struct stack *c
   else
     fprintf(fo, ">scaffold%d 0.0\n", index);
   stackRecover(ctgsStack);
-  void *return_value_stackPop$2;
+  void *return_value_stackPop_2;
   do
   {
-    return_value_stackPop$2=stackPop(ctgsStack);
-    actg = (struct ctg4scaf *)return_value_stackPop$2;
+    return_value_stackPop_2=stackPop(ctgsStack);
+    actg = (struct ctg4scaf *)return_value_stackPop_2;
     if(actg == ((struct ctg4scaf *)NULL))
       break;
 
@@ -16999,9 +16999,9 @@ static void outputScafSeq(struct _IO_FILE *fo, signed int index, struct stack *c
 
     else
     {
-      void *return_value_darrayPut$3;
-      return_value_darrayPut$3=darrayPut(gapSeqArray, (signed long long int)actg->gapSeqOffset);
-      pt = (char *)return_value_darrayPut$3;
+      void *return_value_darrayPut_3;
+      return_value_darrayPut_3=darrayPut(gapSeqArray, (signed long long int)actg->gapSeqOffset);
+      pt = (char *)return_value_darrayPut_3;
       outputTightStrLowerCase(fo, pt, 0, (signed int)actg->gapSeqLen, (signed int)actg->gapSeqLen, 0, &column);
       prevCtg = actg;
     }
@@ -17038,9 +17038,9 @@ static void outputTightStr(struct _IO_FILE *fp, char *tightStr, signed int start
     i = start;
     for( ; !(i >= end); i = i + 1)
     {
-      char return_value_getCharInTightString$1;
-      return_value_getCharInTightString$1=getCharInTightString(tightStr, i);
-      fprintf(fp, "%c", "ACTG"[(signed long int)(signed int)return_value_getCharInTightString$1]);
+      char return_value_getCharInTightString_1;
+      return_value_getCharInTightString_1=getCharInTightString(tightStr, i);
+      fprintf(fp, "%c", "ACTG"[(signed long int)(signed int)return_value_getCharInTightString_1]);
       column = column + 1;
       if(column % 100 == 0)
         fprintf(fp, "\n");
@@ -17054,9 +17054,9 @@ static void outputTightStr(struct _IO_FILE *fp, char *tightStr, signed int start
     i = (length - 1) - start;
     for( ; i >= end; i = i - 1)
     {
-      char return_value_getCharInTightString$2;
-      return_value_getCharInTightString$2=getCharInTightString(tightStr, i);
-      fprintf(fp, "%c", "TGAC"[(signed long int)(signed int)return_value_getCharInTightString$2]);
+      char return_value_getCharInTightString_2;
+      return_value_getCharInTightString_2=getCharInTightString(tightStr, i);
+      fprintf(fp, "%c", "TGAC"[(signed long int)(signed int)return_value_getCharInTightString_2]);
       column = column + 1;
       if(column % 100 == 0)
         fprintf(fp, "\n");
@@ -17079,9 +17079,9 @@ static void outputTightStrLowerCase(struct _IO_FILE *fp, char *tightStr, signed 
     i = start;
     for( ; !(i >= end); i = i + 1)
     {
-      char return_value_getCharInTightString$1;
-      return_value_getCharInTightString$1=getCharInTightString(tightStr, i);
-      fprintf(fp, "%c", "actg"[(signed long int)(signed int)return_value_getCharInTightString$1]);
+      char return_value_getCharInTightString_1;
+      return_value_getCharInTightString_1=getCharInTightString(tightStr, i);
+      fprintf(fp, "%c", "actg"[(signed long int)(signed int)return_value_getCharInTightString_1]);
       column = column + 1;
       if(column % 100 == 0)
         fprintf(fp, "\n");
@@ -17095,9 +17095,9 @@ static void outputTightStrLowerCase(struct _IO_FILE *fp, char *tightStr, signed 
     i = (length - 1) - start;
     for( ; i >= end; i = i - 1)
     {
-      char return_value_getCharInTightString$2;
-      return_value_getCharInTightString$2=getCharInTightString(tightStr, i);
-      fprintf(fp, "%c", "tgac"[(signed long int)(signed int)return_value_getCharInTightString$2]);
+      char return_value_getCharInTightString_2;
+      return_value_getCharInTightString_2=getCharInTightString(tightStr, i);
+      fprintf(fp, "%c", "tgac"[(signed long int)(signed int)return_value_getCharInTightString_2]);
       column = column + 1;
       if(column % 100 == 0)
         fprintf(fp, "\n");
@@ -17129,9 +17129,9 @@ static void output_1contig(signed int id, struct edge *edge, struct _IO_FILE *fp
   i = 0;
   for( ; !(i >= edge->length); i = i + 1)
   {
-    char return_value_getCharInTightString$1;
-    return_value_getCharInTightString$1=getCharInTightString(edge->seq, i);
-    fprintf(fp, "%c", "ACTG"[(signed long int)(signed int)return_value_getCharInTightString$1]);
+    char return_value_getCharInTightString_1;
+    return_value_getCharInTightString_1=getCharInTightString(edge->seq, i);
+    fprintf(fp, "%c", "ACTG"[(signed long int)(signed int)return_value_getCharInTightString_1]);
     if((1 + i + overlaplen) % 100 == 0)
       fprintf(fp, "\n");
 
@@ -17251,7 +17251,7 @@ extern void output_cntGVZ(char *outfile)
   fprintf(fp, "digraph G{\n");
   fprintf(fp, "\tsize=\"512,512\";\n");
   i = num_ctg;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; i >= 1u; i = i - 1u)
     if(!((contig_array + (signed long int)i)->downwardConnect == ((struct connection *)NULL)))
     {
@@ -17263,11 +17263,11 @@ extern void output_cntGVZ(char *outfile)
         else
         {
           if(!(connect->prevInScaf == 0))
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = connect->nextInScaf != ((struct connection *)NULL) ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = connect->nextInScaf != ((struct connection *)NULL) ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
             flag = (char)1;
 
           else
@@ -17305,37 +17305,37 @@ extern void output_contig(struct edge *ed_array, unsigned int ed_num, char *outf
   sprintf(temp, "%s.contig", outfile);
   fp=ckopen(temp, "w");
   qsort((void *)&ed_array[(signed long int)1], (unsigned long int)ed_num, sizeof(struct edge) /*48ul*/ , cmp_edge);
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)ed_num * sizeof(unsigned int) /*4ul*/ );
-  length_array = (unsigned int *)return_value_ckalloc$1;
-  void *return_value_ckalloc$2;
-  return_value_ckalloc$2=ckalloc((unsigned long int)overlaplen * sizeof(char) /*1ul*/ );
-  kmerSeq = (char *)return_value_ckalloc$2;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)ed_num * sizeof(unsigned int) /*4ul*/ );
+  length_array = (unsigned int *)return_value_ckalloc_1;
+  void *return_value_ckalloc_2;
+  return_value_ckalloc_2=ckalloc((unsigned long int)overlaplen * sizeof(char) /*1ul*/ );
+  kmerSeq = (char *)return_value_ckalloc_2;
   len_c = 0;
   count = len_c;
   i = (unsigned int)1;
-  signed int tmp_post$3;
-  _Bool tmp_if_expr$4;
+  signed int tmp_post_3;
+  _Bool tmp_if_expr_4;
   for( ; ed_num >= i; i = i + 1u)
   {
     if((ed_array + (signed long int)i)->length + overlaplen >= len_bar)
     {
-      tmp_post$3 = len_c;
+      tmp_post_3 = len_c;
       len_c = len_c + 1;
-      length_array[(signed long int)tmp_post$3] = (unsigned int)((ed_array + (signed long int)i)->length + overlaplen);
+      length_array[(signed long int)tmp_post_3] = (unsigned int)((ed_array + (signed long int)i)->length + overlaplen);
     }
 
     if(!((ed_array + (signed long int)i)->length >= 1))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (ed_array + (signed long int)i)->deleted != 0 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$4)
+      tmp_if_expr_4 = (ed_array + (signed long int)i)->deleted != 0 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_4)
     {
       count = count + 1;
-      char return_value_EdSmallerThanTwin$5;
-      return_value_EdSmallerThanTwin$5=EdSmallerThanTwin(i);
-      if(!(return_value_EdSmallerThanTwin$5 == 0))
+      char return_value_EdSmallerThanTwin_5;
+      return_value_EdSmallerThanTwin_5=EdSmallerThanTwin(i);
+      if(!(return_value_EdSmallerThanTwin_5 == 0))
         i = i + 1u;
 
     }
@@ -17372,35 +17372,35 @@ extern void output_contig(struct edge *ed_array, unsigned int ed_num, char *outf
 
   }
   i = (unsigned int)1;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
-  unsigned int return_value_getTwinEdge$7;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
+  unsigned int return_value_getTwinEdge_7;
   for( ; ed_num >= i; i = i + 1u)
   {
     if(!((ed_array + (signed long int)i)->deleted == 0))
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (ed_array + (signed long int)i)->length < 1 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$6)
+      tmp_if_expr_6 = (ed_array + (signed long int)i)->length < 1 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_6)
     {
       if(!((ed_array + (signed long int)i)->arcs == ((struct arc *)NULL)))
       {
-        return_value_getTwinEdge$7=getTwinEdge(i);
-        tmp_if_expr$8 = (ed_array + (signed long int)return_value_getTwinEdge$7)->arcs != ((struct arc *)NULL) ? (_Bool)1 : (_Bool)0;
+        return_value_getTwinEdge_7=getTwinEdge(i);
+        tmp_if_expr_8 = (ed_array + (signed long int)return_value_getTwinEdge_7)->arcs != ((struct arc *)NULL) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$8 = (_Bool)0;
-      if(tmp_if_expr$8)
+        tmp_if_expr_8 = (_Bool)0;
+      if(tmp_if_expr_8)
         tip = (char)0;
 
       else
         tip = (char)1;
       output_1contig((signed int)i, &ed_array[(signed long int)i], fp, tip);
-      char return_value_EdSmallerThanTwin$9;
-      return_value_EdSmallerThanTwin$9=EdSmallerThanTwin(i);
-      if(!(return_value_EdSmallerThanTwin$9 == 0))
+      char return_value_EdSmallerThanTwin_9;
+      return_value_EdSmallerThanTwin_9=EdSmallerThanTwin(i);
+      if(!(return_value_EdSmallerThanTwin_9 == 0))
         i = i + 1u;
 
     }
@@ -17415,13 +17415,13 @@ extern void output_contig(struct edge *ed_array, unsigned int ed_num, char *outf
   fprintf(fp_contig, "Edge_num %d %d\n", ed_num, count);
   fprintf(fp_contig, "index\tlength\treverseComplement\n");
   i = (unsigned int)1;
-  char return_value_EdLargerThanTwin$10;
+  char return_value_EdLargerThanTwin_10;
   for( ; num_ed >= i; i = i + 1u)
   {
     fprintf(fp_contig, "%d\t%d\t", i, (edge_array + (signed long int)i)->length + overlaplen);
-    char return_value_EdSmallerThanTwin$11;
-    return_value_EdSmallerThanTwin$11=EdSmallerThanTwin(i);
-    if(!(return_value_EdSmallerThanTwin$11 == 0))
+    char return_value_EdSmallerThanTwin_11;
+    return_value_EdSmallerThanTwin_11=EdSmallerThanTwin(i);
+    if(!(return_value_EdSmallerThanTwin_11 == 0))
     {
       fprintf(fp_contig, "1\n");
       i = i + 1u;
@@ -17429,8 +17429,8 @@ extern void output_contig(struct edge *ed_array, unsigned int ed_num, char *outf
 
     else
     {
-      return_value_EdLargerThanTwin$10=EdLargerThanTwin(i);
-      if(!(return_value_EdLargerThanTwin$10 == 0))
+      return_value_EdLargerThanTwin_10=EdLargerThanTwin(i);
+      if(!(return_value_EdLargerThanTwin_10 == 0))
         fprintf(fp_contig, "-1\n");
 
       else
@@ -17561,7 +17561,7 @@ void output_scaf(char *outfile)
   fprintf(fp, "digraph G{\n");
   fprintf(fp, "\tsize=\"512,512\";\n");
   i = num_ctg;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; i >= 1u; i = i - 1u)
     if(!((contig_array + (signed long int)i)->downwardConnect == ((struct connection *)NULL)))
     {
@@ -17573,11 +17573,11 @@ void output_scaf(char *outfile)
         else
         {
           if(!(connect->prevInScaf == 0))
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = connect->nextInScaf != ((struct connection *)NULL) ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = connect->nextInScaf != ((struct connection *)NULL) ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
             flag = (char)1;
 
           else
@@ -17612,22 +17612,22 @@ extern void output_updated_edges(char *outfile)
   fprintf(fp, "EDGEs %d\n", validCounter);
   validCounter = (unsigned int)0;
   i = (unsigned int)1;
-  char return_value_EdLargerThanTwin$1;
+  char return_value_EdLargerThanTwin_1;
   for( ; num_ed >= i; i = i + 1u)
   {
     edge = &edge_array[(signed long int)i];
     fprintf(fp, ">length %d,", edge->length);
     print_kmer(fp, (vt_array + (signed long int)edge->from_vt)->kmer, (char)44);
     print_kmer(fp, (vt_array + (signed long int)edge->to_vt)->kmer, (char)44);
-    char return_value_EdSmallerThanTwin$2;
-    return_value_EdSmallerThanTwin$2=EdSmallerThanTwin(i);
-    if(!(return_value_EdSmallerThanTwin$2 == 0))
+    char return_value_EdSmallerThanTwin_2;
+    return_value_EdSmallerThanTwin_2=EdSmallerThanTwin(i);
+    if(!(return_value_EdSmallerThanTwin_2 == 0))
       fprintf(fp, "1,");
 
     else
     {
-      return_value_EdLargerThanTwin$1=EdLargerThanTwin(i);
-      if(!(return_value_EdLargerThanTwin$1 == 0))
+      return_value_EdLargerThanTwin_1=EdLargerThanTwin(i);
+      if(!(return_value_EdLargerThanTwin_1 == 0))
         fprintf(fp, "-1,");
 
       else
@@ -17691,22 +17691,22 @@ static void parse1read(signed int t, signed int threadID)
   signed int maxOcc = 0;
   struct kmer_st *maxNode = (struct kmer_st *)(void *)0;
   signed int alldgnLen;
-  signed int tmp_if_expr$1;
-  if(!(ALIGNLEN >= lenBuffer$link2[(signed long int)t]))
-    tmp_if_expr$1 = ALIGNLEN;
+  signed int tmp_if_expr_1;
+  if(!(ALIGNLEN >= lenBuffer_link2[(signed long int)t]))
+    tmp_if_expr_1 = ALIGNLEN;
 
   else
-    tmp_if_expr$1 = lenBuffer$link2[(signed long int)t];
-  alldgnLen = tmp_if_expr$1;
+    tmp_if_expr_1 = lenBuffer_link2[(signed long int)t];
+  alldgnLen = tmp_if_expr_1;
   signed int multi = (alldgnLen - overlaplen) + 1 < 5 ? 5 : (alldgnLen - overlaplen) + 1;
   unsigned int start;
   unsigned int finish;
   footprint[(signed long int)t] = (char)0;
-  start = indexArray$link2[(signed long int)t];
-  finish = indexArray$link2[(signed long int)(t + 1)];
+  start = indexArray_link2[(signed long int)t];
+  finish = indexArray_link2[(signed long int)(t + 1)];
   if(finish == start)
   {
-    ctgIdArray$link1[(signed long int)t] = (unsigned int)0;
+    ctgIdArray_link1[(signed long int)t] = (unsigned int)0;
     deletion[(signed long int)threadID] = deletion[(signed long int)threadID] + 1;
   }
 
@@ -17763,7 +17763,7 @@ static void parse1read(signed int t, signed int threadID)
       ;
     }
     if(counter == 0)
-      ctgIdArray$link1[(signed long int)t] = (unsigned int)0;
+      ctgIdArray_link1[(signed long int)t] = (unsigned int)0;
 
     else
     {
@@ -17773,74 +17773,74 @@ static void parse1read(signed int t, signed int threadID)
       j = pos;
       i = (pos - start) + (unsigned int)1;
       node = nodeBuffer[(signed long int)j];
-      isSmaller = smallerBuffer$link1[(signed long int)j];
+      isSmaller = smallerBuffer_link1[(signed long int)j];
       contigID = node->l_links;
       ctgLen = (contig_array + (signed long int)contigID)->length;
       pos = (unsigned int)node->r_links;
       if((signed int)node->twin == (signed int)isSmaller)
       {
         orienArray[(signed long int)t] = (char)45;
-        ctgIdArray$link1[(signed long int)t]=getTwinCtg(contigID);
+        ctgIdArray_link1[(signed long int)t]=getTwinCtg(contigID);
         posArray[(signed long int)t] = (signed int)((((ctgLen - pos) - (unsigned int)overlaplen) - i) + (unsigned int)1);
       }
 
       else
       {
         orienArray[(signed long int)t] = (char)43;
-        ctgIdArray$link1[(signed long int)t] = contigID;
+        ctgIdArray_link1[(signed long int)t] = contigID;
         posArray[(signed long int)t] = (signed int)((pos - i) + (unsigned int)1);
       }
     }
   }
 }
 
-// parse1read$link1
+// parse1read_link1
 // file prlRead2path.c line 430
-static void parse1read$link1(signed int t$link1, signed int threadID$link1)
+static void parse1read_link1(signed int t_link1, signed int threadID_link1)
 {
-  unsigned int j$link1;
+  unsigned int j_link1;
   unsigned int retain = (unsigned int)0;
   unsigned int edge_index = (unsigned int)0;
-  struct kmer_st *node$link1;
-  char isSmaller$link1;
+  struct kmer_st *node_link1;
+  char isSmaller_link1;
   unsigned long long int wordplus;
   unsigned long long int bal_wordplus;
-  unsigned int start$link1;
-  unsigned int finish$link1;
-  unsigned int pos$link1;
-  unsigned long long int parse1read$$1$$prevKmer;
+  unsigned int start_link1;
+  unsigned int finish_link1;
+  unsigned int pos_link1;
+  unsigned long long int parse1read__1__prevKmer;
   unsigned long long int currentKmer;
   char IsPrevKmer = (char)0;
-  start$link1 = (unsigned int)indexArray$link3[(signed long int)t$link1];
-  finish$link1 = (unsigned int)indexArray$link3[(signed long int)(t$link1 + 1)];
-  pos$link1 = start$link1;
-  j$link1 = start$link1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1$link1;
-  unsigned int tmp_post$3;
-  unsigned int tmp_post$4;
-  unsigned int tmp_post$5;
-  for( ; !(j$link1 >= finish$link1); j$link1 = j$link1 + 1u)
+  start_link1 = (unsigned int)indexArray_link3[(signed long int)t_link1];
+  finish_link1 = (unsigned int)indexArray_link3[(signed long int)(t_link1 + 1)];
+  pos_link1 = start_link1;
+  j_link1 = start_link1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1_link1;
+  unsigned int tmp_post_3;
+  unsigned int tmp_post_4;
+  unsigned int tmp_post_5;
+  for( ; !(j_link1 >= finish_link1); j_link1 = j_link1 + 1u)
   {
-    node$link1 = nodeBuffer$link1[(signed long int)j$link1];
-    if(!(node$link1->deleted == 0u))
-      tmp_if_expr$2 = (_Bool)1;
+    node_link1 = nodeBuffer_link1[(signed long int)j_link1];
+    if(!(node_link1->deleted == 0u))
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
-      if(!(node$link1->linear == 0u))
-        tmp_if_expr$1$link1 = !(node$link1->inEdge != 0u) ? (_Bool)1 : (_Bool)0;
+      if(!(node_link1->linear == 0u))
+        tmp_if_expr_1_link1 = !(node_link1->inEdge != 0u) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1$link1 = (_Bool)0;
-      tmp_if_expr$2 = tmp_if_expr$1$link1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1_link1 = (_Bool)0;
+      tmp_if_expr_2 = tmp_if_expr_1_link1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
     {
       if(!(retain >= 2u))
       {
         retain = (unsigned int)0;
-        pos$link1 = start$link1;
+        pos_link1 = start_link1;
       }
 
       else
@@ -17849,89 +17849,89 @@ static void parse1read$link1(signed int t$link1, signed int threadID$link1)
 
     else
     {
-      isSmaller$link1 = smallerBuffer$link2[(signed long int)j$link1];
-      if(!(node$link1->linear == 0u))
+      isSmaller_link1 = smallerBuffer_link2[(signed long int)j_link1];
+      if(!(node_link1->linear == 0u))
       {
-        if(!(isSmaller$link1 == 0))
-          edge_index = node$link1->l_links;
+        if(!(isSmaller_link1 == 0))
+          edge_index = node_link1->l_links;
 
         else
-          edge_index = (node$link1->l_links + (unsigned int)node$link1->twin) - (unsigned int)1;
+          edge_index = (node_link1->l_links + (unsigned int)node_link1->twin) - (unsigned int)1;
         if(retain == 0u || !(IsPrevKmer == 0))
         {
           retain = retain + 1u;
-          mixBuffer[(signed long int)pos$link1] = (unsigned long long int)edge_index;
-          tmp_post$3 = pos$link1;
-          pos$link1 = pos$link1 + 1u;
-          flagArray[(signed long int)tmp_post$3] = (char)0;
+          mixBuffer[(signed long int)pos_link1] = (unsigned long long int)edge_index;
+          tmp_post_3 = pos_link1;
+          pos_link1 = pos_link1 + 1u;
+          flagArray[(signed long int)tmp_post_3] = (char)0;
           IsPrevKmer = (char)0;
         }
 
         else
-          if(!((unsigned long int)edge_index == mixBuffer[(signed long int)(pos$link1 + 4294967295u)]))
+          if(!((unsigned long int)edge_index == mixBuffer[(signed long int)(pos_link1 + 4294967295u)]))
           {
             retain = retain + 1u;
-            mixBuffer[(signed long int)pos$link1] = (unsigned long long int)edge_index;
-            tmp_post$4 = pos$link1;
-            pos$link1 = pos$link1 + 1u;
-            flagArray[(signed long int)tmp_post$4] = (char)0;
+            mixBuffer[(signed long int)pos_link1] = (unsigned long long int)edge_index;
+            tmp_post_4 = pos_link1;
+            pos_link1 = pos_link1 + 1u;
+            flagArray[(signed long int)tmp_post_4] = (char)0;
           }
 
       }
 
       else
       {
-        if(!(isSmaller$link1 == 0))
-          currentKmer = node$link1->seq;
+        if(!(isSmaller_link1 == 0))
+          currentKmer = node_link1->seq;
 
         else
-          currentKmer=reverseComplement(node$link1->seq, overlaplen);
+          currentKmer=reverseComplement(node_link1->seq, overlaplen);
         if(!(IsPrevKmer == 0))
         {
           retain = retain + 1u;
-          wordplus=KmerPlus(parse1read$$1$$prevKmer, (char)(currentKmer & (unsigned long int)3));
+          wordplus=KmerPlus(parse1read__1__prevKmer, (char)(currentKmer & (unsigned long int)3));
           bal_wordplus=reverseComplementVerbose(wordplus, overlaplen + 1);
           if(bal_wordplus >= wordplus)
           {
-            smallerBuffer$link2[(signed long int)pos$link1] = (char)1;
-            hashBanBuffer$link3[(signed long int)pos$link1]=hash_kmer(wordplus);
-            mixBuffer[(signed long int)pos$link1] = wordplus;
+            smallerBuffer_link2[(signed long int)pos_link1] = (char)1;
+            hashBanBuffer_link3[(signed long int)pos_link1]=hash_kmer(wordplus);
+            mixBuffer[(signed long int)pos_link1] = wordplus;
           }
 
           else
           {
-            smallerBuffer$link2[(signed long int)pos$link1] = (char)0;
-            hashBanBuffer$link3[(signed long int)pos$link1]=hash_kmer(bal_wordplus);
-            mixBuffer[(signed long int)pos$link1] = bal_wordplus;
+            smallerBuffer_link2[(signed long int)pos_link1] = (char)0;
+            hashBanBuffer_link3[(signed long int)pos_link1]=hash_kmer(bal_wordplus);
+            mixBuffer[(signed long int)pos_link1] = bal_wordplus;
           }
-          tmp_post$5 = pos$link1;
-          pos$link1 = pos$link1 + 1u;
-          flagArray[(signed long int)tmp_post$5] = (char)1;
+          tmp_post_5 = pos_link1;
+          pos_link1 = pos_link1 + 1u;
+          flagArray[(signed long int)tmp_post_5] = (char)1;
         }
 
         IsPrevKmer = (char)1;
-        parse1read$$1$$prevKmer = currentKmer;
+        parse1read__1__prevKmer = currentKmer;
       }
     }
   }
   if(!(retain >= 1u))
-    deletion$link1[(signed long int)threadID$link1] = deletion$link1[(signed long int)threadID$link1] + 1;
+    deletion_link1[(signed long int)threadID_link1] = deletion_link1[(signed long int)threadID_link1] + 1;
 
   if(!(retain >= 2u))
   {
-    flagArray[(signed long int)start$link1] = (char)0;
-    mixBuffer[(signed long int)start$link1] = (unsigned long long int)0;
+    flagArray[(signed long int)start_link1] = (char)0;
+    mixBuffer[(signed long int)start_link1] = (unsigned long long int)0;
   }
 
   else
   {
-    if(!(pos$link1 + -start$link1 == retain))
-      printf("read %d, %d vs %d\n", t$link1, retain, edge_index - start$link1);
+    if(!(pos_link1 + -start_link1 == retain))
+      printf("read %d, %d vs %d\n", t_link1, retain, edge_index - start_link1);
 
-    if(!(pos$link1 >= finish$link1))
+    if(!(pos_link1 >= finish_link1))
     {
-      flagArray[(signed long int)pos$link1] = (char)0;
-      mixBuffer[(signed long int)pos$link1] = (unsigned long long int)0;
+      flagArray[(signed long int)pos_link1] = (char)0;
+      mixBuffer[(signed long int)pos_link1] = (unsigned long long int)0;
     }
 
   }
@@ -17952,14 +17952,14 @@ static char pickUpGeneralSubgraph(unsigned int node1, signed int maxNodes)
   signed int dis;
   char ret;
   dis = 0;
-  nodeCounter$link1 = 1;
+  nodeCounter_link1 = 1;
   putNodeInArray(node1, maxNodes, dis);
-  insertNodeIntoHeap(Dheap, (signed long long int)dis, (unsigned int)nodeCounter$link1);
-  ctg4heapArray[(signed long int)nodeCounter$link1].us_shut4dheap = (unsigned char)1;
+  insertNodeIntoHeap(Dheap, (signed long long int)dis, (unsigned int)nodeCounter_link1);
+  ctg4heapArray[(signed long int)nodeCounter_link1].us_shut4dheap = (unsigned char)1;
   Dwait = (char)0;
   DmaxDis = 0;
-  insertNodeIntoHeap(Uheap, (signed long long int)dis, (unsigned int)nodeCounter$link1);
-  ctg4heapArray[(signed long int)nodeCounter$link1].ds_shut4uheap = (unsigned char)1;
+  insertNodeIntoHeap(Uheap, (signed long long int)dis, (unsigned int)nodeCounter_link1);
+  ctg4heapArray[(signed long int)nodeCounter_link1].ds_shut4uheap = (unsigned char)1;
   Uwait = (char)1;
   UmaxDis = (signed int)(contig_array + (signed long int)node1)->length;
   while((_Bool)1)
@@ -18024,7 +18024,7 @@ static void pipeline(signed int argc, char **argv)
   signed int i;
   signed int copt;
   signed int index;
-  signed int pipeline$$1$$M = 1;
+  signed int pipeline__1__M = 1;
   signed long int start_t;
   signed long int stop_t;
   time(&start_t);
@@ -18061,33 +18061,33 @@ static void pipeline(signed int argc, char **argv)
       {
         getK = (unsigned char)1;
         sscanf(optarg, "%s", (const void *)temp);
-        kmer=atoi$link5(temp);
+        kmer=atoi_link5(temp);
         break;
       }
       case 71:
       {
         sscanf(optarg, "%s", (const void *)temp);
-        GLDiff=atoi$link5(temp);
+        GLDiff=atoi_link5(temp);
         break;
       }
       case 77:
       {
         sscanf(optarg, "%s", (const void *)temp);
-        pipeline$$1$$M=atoi$link5(temp);
+        pipeline__1__M=atoi_link5(temp);
         break;
       }
       case 112:
       {
         getP = (unsigned char)1;
         sscanf(optarg, "%s", (const void *)temp);
-        ncpu=atoi$link5(temp);
+        ncpu=atoi_link5(temp);
         break;
       }
       case 76:
       {
         getL = (unsigned char)1;
         sscanf(optarg, "%s", (const void *)temp);
-        cutoff_len=atoi$link5(temp);
+        cutoff_len=atoi_link5(temp);
         break;
       }
       case 82:
@@ -18104,19 +18104,19 @@ static void pipeline(signed int argc, char **argv)
       {
         getD = (unsigned char)1;
         sscanf(optarg, "%s", (const void *)temp);
-        lowK=atoi$link5(temp);
+        lowK=atoi_link5(temp);
         break;
       }
       case 68:
       {
         getDD = (unsigned char)1;
         sscanf(optarg, "%s", (const void *)temp);
-        lowC=atoi$link5(temp);
+        lowC=atoi_link5(temp);
         break;
       }
       case 97:
       {
-        initKmerSetSize=atoi$link5(optarg);
+        initKmerSetSize=atoi_link5(optarg);
         break;
       }
       case 70:
@@ -18145,68 +18145,68 @@ static void pipeline(signed int argc, char **argv)
 
   name = "pregraph";
   index = 0;
-  signed int tmp_post$1 = index;
+  signed int tmp_post_1 = index;
   index = index + 1;
-  options[(signed long int)tmp_post$1] = name;
-  signed int tmp_post$2 = index;
+  options[(signed long int)tmp_post_1] = name;
+  signed int tmp_post_2 = index;
   index = index + 1;
-  options[(signed long int)tmp_post$2] = "-s";
-  signed int tmp_post$3 = index;
+  options[(signed long int)tmp_post_2] = "-s";
+  signed int tmp_post_3 = index;
   index = index + 1;
-  options[(signed long int)tmp_post$3] = readfile;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
+  options[(signed long int)tmp_post_3] = readfile;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
   if(!(getK == 0))
   {
-    tmp_post$4 = index;
+    tmp_post_4 = index;
     index = index + 1;
-    options[(signed long int)tmp_post$4] = "-K";
+    options[(signed long int)tmp_post_4] = "-K";
     sprintf(kmer_s, "%d", kmer);
-    tmp_post$5 = index;
+    tmp_post_5 = index;
     index = index + 1;
-    options[(signed long int)tmp_post$5] = kmer_s;
+    options[(signed long int)tmp_post_5] = kmer_s;
   }
 
-  signed int tmp_post$6;
-  signed int tmp_post$7;
+  signed int tmp_post_6;
+  signed int tmp_post_7;
   if(!(getP == 0))
   {
-    tmp_post$6 = index;
+    tmp_post_6 = index;
     index = index + 1;
-    options[(signed long int)tmp_post$6] = "-p";
+    options[(signed long int)tmp_post_6] = "-p";
     sprintf(ncpu_s, "%d", ncpu);
-    tmp_post$7 = index;
+    tmp_post_7 = index;
     index = index + 1;
-    options[(signed long int)tmp_post$7] = ncpu_s;
+    options[(signed long int)tmp_post_7] = ncpu_s;
   }
 
-  signed int tmp_post$8;
-  signed int tmp_post$9;
+  signed int tmp_post_8;
+  signed int tmp_post_9;
   if(!(getD == 0))
   {
-    tmp_post$8 = index;
+    tmp_post_8 = index;
     index = index + 1;
-    options[(signed long int)tmp_post$8] = "-d";
+    options[(signed long int)tmp_post_8] = "-d";
     sprintf(lowK_s, "%d", lowK);
-    tmp_post$9 = index;
+    tmp_post_9 = index;
     index = index + 1;
-    options[(signed long int)tmp_post$9] = lowK_s;
+    options[(signed long int)tmp_post_9] = lowK_s;
   }
 
-  signed int tmp_post$10;
+  signed int tmp_post_10;
   if(!(getR == 0))
   {
-    tmp_post$10 = index;
+    tmp_post_10 = index;
     index = index + 1;
-    options[(signed long int)tmp_post$10] = "-R";
+    options[(signed long int)tmp_post_10] = "-R";
   }
 
-  signed int tmp_post$11 = index;
+  signed int tmp_post_11 = index;
   index = index + 1;
-  options[(signed long int)tmp_post$11] = "-o";
-  signed int tmp_post$12 = index;
+  options[(signed long int)tmp_post_11] = "-o";
+  signed int tmp_post_12 = index;
   index = index + 1;
-  options[(signed long int)tmp_post$12] = outfile;
+  options[(signed long int)tmp_post_12] = outfile;
   i = 0;
   for( ; !(i >= index); i = i + 1)
     printf("%s ", options[(signed long int)i]);
@@ -18214,41 +18214,41 @@ static void pipeline(signed int argc, char **argv)
   call_pregraph(index, options);
   name = "contig";
   index = 0;
-  signed int tmp_post$13 = index;
+  signed int tmp_post_13 = index;
   index = index + 1;
-  options[(signed long int)tmp_post$13] = name;
-  signed int tmp_post$14 = index;
+  options[(signed long int)tmp_post_13] = name;
+  signed int tmp_post_14 = index;
   index = index + 1;
-  options[(signed long int)tmp_post$14] = "-g";
-  signed int tmp_post$15 = index;
+  options[(signed long int)tmp_post_14] = "-g";
+  signed int tmp_post_15 = index;
   index = index + 1;
-  options[(signed long int)tmp_post$15] = outfile;
-  signed int tmp_post$16 = index;
+  options[(signed long int)tmp_post_15] = outfile;
+  signed int tmp_post_16 = index;
   index = index + 1;
-  options[(signed long int)tmp_post$16] = "-M";
-  sprintf(M_s, "%d", pipeline$$1$$M);
-  signed int tmp_post$17 = index;
+  options[(signed long int)tmp_post_16] = "-M";
+  sprintf(M_s, "%d", pipeline__1__M);
+  signed int tmp_post_17 = index;
   index = index + 1;
-  options[(signed long int)tmp_post$17] = M_s;
-  signed int tmp_post$18;
+  options[(signed long int)tmp_post_17] = M_s;
+  signed int tmp_post_18;
   if(!(getR == 0))
   {
-    tmp_post$18 = index;
+    tmp_post_18 = index;
     index = index + 1;
-    options[(signed long int)tmp_post$18] = "-R";
+    options[(signed long int)tmp_post_18] = "-R";
   }
 
-  signed int tmp_post$19;
-  signed int tmp_post$20;
+  signed int tmp_post_19;
+  signed int tmp_post_20;
   if(!(getDD == 0))
   {
-    tmp_post$19 = index;
+    tmp_post_19 = index;
     index = index + 1;
-    options[(signed long int)tmp_post$19] = "-D";
+    options[(signed long int)tmp_post_19] = "-D";
     sprintf(lowC_s, "%d", lowC);
-    tmp_post$20 = index;
+    tmp_post_20 = index;
     index = index + 1;
-    options[(signed long int)tmp_post$20] = lowC_s;
+    options[(signed long int)tmp_post_20] = lowC_s;
   }
 
   i = 0;
@@ -18258,32 +18258,32 @@ static void pipeline(signed int argc, char **argv)
   call_heavygraph(index, options);
   name = "map";
   index = 0;
-  signed int tmp_post$21 = index;
+  signed int tmp_post_21 = index;
   index = index + 1;
-  options[(signed long int)tmp_post$21] = name;
-  signed int tmp_post$22 = index;
+  options[(signed long int)tmp_post_21] = name;
+  signed int tmp_post_22 = index;
   index = index + 1;
-  options[(signed long int)tmp_post$22] = "-s";
-  signed int tmp_post$23 = index;
+  options[(signed long int)tmp_post_22] = "-s";
+  signed int tmp_post_23 = index;
   index = index + 1;
-  options[(signed long int)tmp_post$23] = readfile;
-  signed int tmp_post$24 = index;
+  options[(signed long int)tmp_post_23] = readfile;
+  signed int tmp_post_24 = index;
   index = index + 1;
-  options[(signed long int)tmp_post$24] = "-g";
-  signed int tmp_post$25 = index;
+  options[(signed long int)tmp_post_24] = "-g";
+  signed int tmp_post_25 = index;
   index = index + 1;
-  options[(signed long int)tmp_post$25] = outfile;
-  signed int tmp_post$26;
-  signed int tmp_post$27;
+  options[(signed long int)tmp_post_25] = outfile;
+  signed int tmp_post_26;
+  signed int tmp_post_27;
   if(!(getP == 0))
   {
-    tmp_post$26 = index;
+    tmp_post_26 = index;
     index = index + 1;
-    options[(signed long int)tmp_post$26] = "-p";
+    options[(signed long int)tmp_post_26] = "-p";
     sprintf(ncpu_s, "%d", ncpu);
-    tmp_post$27 = index;
+    tmp_post_27 = index;
     index = index + 1;
-    options[(signed long int)tmp_post$27] = ncpu_s;
+    options[(signed long int)tmp_post_27] = ncpu_s;
   }
 
   i = 0;
@@ -18293,47 +18293,47 @@ static void pipeline(signed int argc, char **argv)
   call_align(index, options);
   name = "scaff";
   index = 0;
-  signed int tmp_post$28 = index;
+  signed int tmp_post_28 = index;
   index = index + 1;
-  options[(signed long int)tmp_post$28] = name;
-  signed int tmp_post$29 = index;
+  options[(signed long int)tmp_post_28] = name;
+  signed int tmp_post_29 = index;
   index = index + 1;
-  options[(signed long int)tmp_post$29] = "-g";
-  signed int tmp_post$30 = index;
+  options[(signed long int)tmp_post_29] = "-g";
+  signed int tmp_post_30 = index;
   index = index + 1;
-  options[(signed long int)tmp_post$30] = outfile;
-  signed int tmp_post$31;
+  options[(signed long int)tmp_post_30] = outfile;
+  signed int tmp_post_31;
   if(!(getF == 0))
   {
-    tmp_post$31 = index;
+    tmp_post_31 = index;
     index = index + 1;
-    options[(signed long int)tmp_post$31] = "-F";
+    options[(signed long int)tmp_post_31] = "-F";
   }
 
-  signed int tmp_post$32;
-  signed int tmp_post$33;
+  signed int tmp_post_32;
+  signed int tmp_post_33;
   if(!(getP == 0))
   {
-    tmp_post$32 = index;
+    tmp_post_32 = index;
     index = index + 1;
-    options[(signed long int)tmp_post$32] = "-p";
+    options[(signed long int)tmp_post_32] = "-p";
     sprintf(ncpu_s, "%d", ncpu);
-    tmp_post$33 = index;
+    tmp_post_33 = index;
     index = index + 1;
-    options[(signed long int)tmp_post$33] = ncpu_s;
+    options[(signed long int)tmp_post_33] = ncpu_s;
   }
 
-  signed int tmp_post$34;
-  signed int tmp_post$35;
+  signed int tmp_post_34;
+  signed int tmp_post_35;
   if(!(getL == 0))
   {
-    tmp_post$34 = index;
+    tmp_post_34 = index;
     index = index + 1;
-    options[(signed long int)tmp_post$34] = "-L";
+    options[(signed long int)tmp_post_34] = "-L";
     sprintf(len_s, "%d", cutoff_len);
-    tmp_post$35 = index;
+    tmp_post_35 = index;
     index = index + 1;
-    options[(signed long int)tmp_post$35] = len_s;
+    options[(signed long int)tmp_post_35] = len_s;
   }
 
   i = 0;
@@ -18375,9 +18375,9 @@ static char printCnts(struct _IO_FILE *fp, unsigned int ctg)
   unsigned int bal_ctg;
   bal_ctg=getTwinCtg(ctg);
   unsigned int linkCtg;
-  char return_value_isSameAsTwin$1;
-  return_value_isSameAsTwin$1=isSameAsTwin(ctg);
-  if(!(return_value_isSameAsTwin$1 == 0))
+  char return_value_isSameAsTwin_1;
+  return_value_isSameAsTwin_1=isSameAsTwin(ctg);
+  if(!(return_value_isSameAsTwin_1 == 0))
     return ret;
 
   else
@@ -18411,9 +18411,9 @@ static char printCnts(struct _IO_FILE *fp, unsigned int ctg)
           }
 
           linkCtg = cnt->contigID;
-          char return_value_isLargerThanTwin$2;
-          return_value_isLargerThanTwin$2=isLargerThanTwin(linkCtg);
-          if(!(return_value_isLargerThanTwin$2 == 0))
+          char return_value_isLargerThanTwin_2;
+          return_value_isLargerThanTwin_2=isLargerThanTwin(linkCtg);
+          if(!(return_value_isLargerThanTwin_2 == 0))
             linkCtg=getTwinCtg(linkCtg);
 
           fprintf(fp, "%d:%d:%d ", index_array[(signed long int)linkCtg], cnt->weight, cnt->gapLen);
@@ -18435,9 +18435,9 @@ static char printCnts(struct _IO_FILE *fp, unsigned int ctg)
           }
 
           linkCtg = cnt->contigID;
-          char return_value_isLargerThanTwin$3;
-          return_value_isLargerThanTwin$3=isLargerThanTwin(linkCtg);
-          if(!(return_value_isLargerThanTwin$3 == 0))
+          char return_value_isLargerThanTwin_3;
+          return_value_isLargerThanTwin_3=isLargerThanTwin(linkCtg);
+          if(!(return_value_isLargerThanTwin_3 == 0))
             linkCtg=getTwinCtg(linkCtg);
 
           fprintf(fp, "%d:%d:%d ", index_array[(signed long int)linkCtg], cnt->weight, cnt->gapLen);
@@ -18457,9 +18457,9 @@ extern void printTightString(char *tightSeq, signed int len)
   signed int i = 0;
   for( ; !(i >= len); i = i + 1)
   {
-    char return_value_getCharInTightString$1;
-    return_value_getCharInTightString$1=getCharInTightString(tightSeq, i);
-    printf("%c", "ACTG"[(signed long int)(signed int)return_value_getCharInTightString$1]);
+    char return_value_getCharInTightString_1;
+    return_value_getCharInTightString_1=getCharInTightString(tightSeq, i);
+    printf("%c", "ACTG"[(signed long int)(signed int)return_value_getCharInTightString_1]);
     if((1 + i) % 100 == 0)
       printf("\n");
 
@@ -18484,9 +18484,9 @@ extern void print_kmer(struct _IO_FILE *fp, unsigned long long int kmer, char c)
 extern struct prearc * prlAllocatePreArc(unsigned int edgeid, struct mem_manager *manager)
 {
   struct prearc *newArc;
-  void *return_value_getItem$1;
-  return_value_getItem$1=getItem(manager);
-  newArc = (struct prearc *)return_value_getItem$1;
+  void *return_value_getItem_1;
+  return_value_getItem_1=getItem(manager);
+  newArc = (struct prearc *)return_value_getItem_1;
   newArc->to_ed = edgeid;
   newArc->multiplicity = (unsigned int)1;
   newArc->next = (struct prearc *)(void *)0;
@@ -18502,14 +18502,14 @@ extern char prlContig2nodes(char *grapfile, signed int len_cut)
   char name[256l];
   char *next_name;
   struct _IO_FILE *fp;
-  const signed long int fp$array_size0 = (signed long int)thrd_num;
-  unsigned long int threads[fp$array_size0];
+  const signed long int fp_array_size0 = (signed long int)thrd_num;
+  unsigned long int threads[fp_array_size0];
   signed long int start_t;
   signed long int stop_t;
-  const signed long int stop_t$array_size0 = (signed long int)(thrd_num + 1);
-  unsigned char thrdSignal[stop_t$array_size0];
-  const signed long int thrdSignal$array_size0 = (signed long int)thrd_num;
-  struct parameter paras[thrdSignal$array_size0];
+  const signed long int stop_t_array_size0 = (signed long int)(thrd_num + 1);
+  unsigned char thrdSignal[stop_t_array_size0];
+  const signed long int thrdSignal_array_size0 = (signed long int)thrd_num;
+  struct parameter paras[thrdSignal_array_size0];
   signed int maxCtgLen;
   signed int minCtgLen;
   signed int nameLen;
@@ -18528,46 +18528,46 @@ extern char prlContig2nodes(char *grapfile, signed int len_cut)
   fclose(fp);
   time(&stop_t);
   printf("time spent on parse contigs file %ds\n", (signed int)(stop_t - start_t));
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)(maxNameLen + 1) * sizeof(char) /*1ul*/ );
-  next_name = (char *)return_value_ckalloc$1;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)(maxNameLen + 1) * sizeof(char) /*1ul*/ );
+  next_name = (char *)return_value_ckalloc_1;
   seq_buffer_size = buffer_size * (unsigned int)2;
   max_read_c = seq_buffer_size / (unsigned int)20;
-  void *return_value_ckalloc$2;
-  return_value_ckalloc$2=ckalloc((unsigned long int)buffer_size * sizeof(unsigned long long int) /*8ul*/ );
-  kmerBuffer = (unsigned long long int *)return_value_ckalloc$2;
-  void *return_value_ckalloc$3;
-  return_value_ckalloc$3=ckalloc((unsigned long int)buffer_size * sizeof(unsigned long long int) /*8ul*/ );
-  hashBanBuffer = (unsigned long long int *)return_value_ckalloc$3;
-  void *return_value_ckalloc$4;
-  return_value_ckalloc$4=ckalloc((unsigned long int)buffer_size * sizeof(char) /*1ul*/ );
-  smallerBuffer = (char *)return_value_ckalloc$4;
-  void *return_value_ckalloc$5;
-  return_value_ckalloc$5=ckalloc((unsigned long int)seq_buffer_size * sizeof(char) /*1ul*/ );
-  seqBuffer = (char *)return_value_ckalloc$5;
-  void *return_value_ckalloc$6;
-  return_value_ckalloc$6=ckalloc((unsigned long int)max_read_c * sizeof(signed int) /*4ul*/ );
-  lenBuffer = (signed int *)return_value_ckalloc$6;
-  void *return_value_ckalloc$7;
-  return_value_ckalloc$7=ckalloc((unsigned long int)(max_read_c + (unsigned int)1) * sizeof(unsigned int) /*4ul*/ );
-  indexArray = (unsigned int *)return_value_ckalloc$7;
-  void *return_value_ckalloc$8;
-  return_value_ckalloc$8=ckalloc((unsigned long int)(max_read_c + (unsigned int)1) * sizeof(unsigned int) /*4ul*/ );
-  seqBreakers = (unsigned int *)return_value_ckalloc$8;
-  void *return_value_ckalloc$9;
-  return_value_ckalloc$9=ckalloc((unsigned long int)max_read_c * sizeof(signed int) /*4ul*/ );
-  ctgIdArray = (signed int *)return_value_ckalloc$9;
+  void *return_value_ckalloc_2;
+  return_value_ckalloc_2=ckalloc((unsigned long int)buffer_size * sizeof(unsigned long long int) /*8ul*/ );
+  kmerBuffer = (unsigned long long int *)return_value_ckalloc_2;
+  void *return_value_ckalloc_3;
+  return_value_ckalloc_3=ckalloc((unsigned long int)buffer_size * sizeof(unsigned long long int) /*8ul*/ );
+  hashBanBuffer = (unsigned long long int *)return_value_ckalloc_3;
+  void *return_value_ckalloc_4;
+  return_value_ckalloc_4=ckalloc((unsigned long int)buffer_size * sizeof(char) /*1ul*/ );
+  smallerBuffer = (char *)return_value_ckalloc_4;
+  void *return_value_ckalloc_5;
+  return_value_ckalloc_5=ckalloc((unsigned long int)seq_buffer_size * sizeof(char) /*1ul*/ );
+  seqBuffer = (char *)return_value_ckalloc_5;
+  void *return_value_ckalloc_6;
+  return_value_ckalloc_6=ckalloc((unsigned long int)max_read_c * sizeof(signed int) /*4ul*/ );
+  lenBuffer = (signed int *)return_value_ckalloc_6;
+  void *return_value_ckalloc_7;
+  return_value_ckalloc_7=ckalloc((unsigned long int)(max_read_c + (unsigned int)1) * sizeof(unsigned int) /*4ul*/ );
+  indexArray = (unsigned int *)return_value_ckalloc_7;
+  void *return_value_ckalloc_8;
+  return_value_ckalloc_8=ckalloc((unsigned long int)(max_read_c + (unsigned int)1) * sizeof(unsigned int) /*4ul*/ );
+  seqBreakers = (unsigned int *)return_value_ckalloc_8;
+  void *return_value_ckalloc_9;
+  return_value_ckalloc_9=ckalloc((unsigned long int)max_read_c * sizeof(signed int) /*4ul*/ );
+  ctgIdArray = (signed int *)return_value_ckalloc_9;
   fp=ckopen(name, "r");
-  void *return_value_ckalloc$10;
-  return_value_ckalloc$10=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(char *) /*8ul*/ );
-  rcSeq = (char **)return_value_ckalloc$10;
+  void *return_value_ckalloc_10;
+  return_value_ckalloc_10=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(char *) /*8ul*/ );
+  rcSeq = (char **)return_value_ckalloc_10;
   {
-    void *return_value_ckalloc$11;
-    return_value_ckalloc$11=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(signed long long int) /*8ul*/ );
-    kmerCounter = (signed long long int *)return_value_ckalloc$11;
-    void *return_value_ckalloc$12;
-    return_value_ckalloc$12=ckalloc((unsigned long int)thrd_num * sizeof(struct kmerSet_st *) /*8ul*/ );
-    KmerSets = (struct kmerSet_st **)return_value_ckalloc$12;
+    void *return_value_ckalloc_11;
+    return_value_ckalloc_11=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(signed long long int) /*8ul*/ );
+    kmerCounter = (signed long long int *)return_value_ckalloc_11;
+    void *return_value_ckalloc_12;
+    return_value_ckalloc_12=ckalloc((unsigned long int)thrd_num * sizeof(struct kmerSet_st *) /*8ul*/ );
+    KmerSets = (struct kmerSet_st **)return_value_ckalloc_12;
     i = (signed long long int)0;
     for( ; !(i >= (signed long int)thrd_num); i = i + 1ll)
     {
@@ -18577,11 +18577,11 @@ extern char prlContig2nodes(char *grapfile, signed int len_cut)
       paras[i].mainSignal = &thrdSignal[(signed long int)0];
       paras[i].selfSignal = &thrdSignal[i + (signed long int)1];
       kmerCounter[i + (signed long int)1] = (signed long long int)0;
-      void *return_value_ckalloc$13;
-      return_value_ckalloc$13=ckalloc((unsigned long int)maxCtgLen * sizeof(char) /*1ul*/ );
-      rcSeq[i + (signed long int)1] = (char *)return_value_ckalloc$13;
+      void *return_value_ckalloc_13;
+      return_value_ckalloc_13=ckalloc((unsigned long int)maxCtgLen * sizeof(char) /*1ul*/ );
+      rcSeq[i + (signed long int)1] = (char *)return_value_ckalloc_13;
     }
-    creatThrds$link1(threads, paras);
+    creatThrds_link1(threads, paras);
   }
   kmerCounter[(signed long int)0] = (signed long long int)0;
   thrdSignal[(signed long int)0] = (unsigned char)kmerCounter[(signed long int)0];
@@ -18593,32 +18593,32 @@ extern char prlContig2nodes(char *grapfile, signed int len_cut)
   lenSum = (unsigned int)i;
   read_c = lenSum;
   readseq1by1(seqBuffer + (signed long int)seqBreakers[(signed long int)read_c], next_name, &lenBuffer[(signed long int)read_c], fp, (signed long long int)-1);
-  signed int return_value_feof$14;
-  _Bool tmp_if_expr$17;
+  signed int return_value_feof_14;
+  _Bool tmp_if_expr_17;
   do
   {
-    return_value_feof$14=feof(fp);
-    if(!(return_value_feof$14 == 0))
+    return_value_feof_14=feof(fp);
+    if(!(return_value_feof_14 == 0))
       break;
 
-    signed int return_value_getID$15;
-    return_value_getID$15=getID(next_name);
-    contigId = (unsigned int)return_value_getID$15;
+    signed int return_value_getID_15;
+    return_value_getID_15=getID(next_name);
+    contigId = (unsigned int)return_value_getID_15;
     readseq1by1(seqBuffer + (signed long int)seqBreakers[(signed long int)read_c], next_name, &lenBuffer[(signed long int)read_c], fp, (signed long long int)1);
     i = i + 1ll;
     if(i % 10000000l == 0l)
       printf("--- %lldth contigs\n", i);
 
     if(!(lenBuffer[(signed long int)read_c] >= 1 + overlaplen))
-      tmp_if_expr$17 = (_Bool)1;
+      tmp_if_expr_17 = (_Bool)1;
 
     else
-      tmp_if_expr$17 = lenBuffer[(signed long int)read_c] < len_cut ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$17)
+      tmp_if_expr_17 = lenBuffer[(signed long int)read_c] < len_cut ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_17)
     {
-      signed int return_value_getID$16;
-      return_value_getID$16=getID(next_name);
-      contigId = (unsigned int)return_value_getID$16;
+      signed int return_value_getID_16;
+      return_value_getID_16=getID(next_name);
+      contigId = (unsigned int)return_value_getID_16;
       continue;
     }
 
@@ -18631,8 +18631,8 @@ extern char prlContig2nodes(char *grapfile, signed int len_cut)
     if(read_c == max_read_c || !(buffer_size >= kmer_c + (unsigned int)maxCtgLen + 1u + -((unsigned int)overlaplen)) || !(seq_buffer_size >= lenSum + (unsigned int)maxCtgLen))
     {
       kmerCounter[(signed long int)0] = kmerCounter[(signed long int)0] + (signed long long int)kmer_c;
-      sendWorkSignal$link1((unsigned char)2, thrdSignal);
-      sendWorkSignal$link1((unsigned char)1, thrdSignal);
+      sendWorkSignal_link1((unsigned char)2, thrdSignal);
+      sendWorkSignal_link1((unsigned char)1, thrdSignal);
       lenSum = (unsigned int)0;
       read_c = lenSum;
       kmer_c = read_c;
@@ -18643,12 +18643,12 @@ extern char prlContig2nodes(char *grapfile, signed int len_cut)
   if(!(read_c == 0u))
   {
     kmerCounter[(signed long int)0] = kmerCounter[(signed long int)0] + (signed long long int)kmer_c;
-    sendWorkSignal$link1((unsigned char)2, thrdSignal);
-    sendWorkSignal$link1((unsigned char)1, thrdSignal);
+    sendWorkSignal_link1((unsigned char)2, thrdSignal);
+    sendWorkSignal_link1((unsigned char)1, thrdSignal);
   }
 
-  sendWorkSignal$link1((unsigned char)3, thrdSignal);
-  thread_wait$link1(threads);
+  sendWorkSignal_link1((unsigned char)3, thrdSignal);
+  thread_wait_link1(threads);
   time(&stop_t);
   printf("time spent on hash reads: %ds\n", (signed int)(stop_t - start_t));
   {
@@ -18657,9 +18657,9 @@ extern char prlContig2nodes(char *grapfile, signed int len_cut)
     i = (signed long long int)0;
     for( ; !(i >= (signed long int)thrd_num); i = i + 1ll)
     {
-      signed long long int return_value_count_kmerset$18;
-      return_value_count_kmerset$18=count_kmerset(KmerSets[i]);
-      alloCounter = alloCounter + (unsigned long long int)return_value_count_kmerset$18;
+      signed long long int return_value_count_kmerset_18;
+      return_value_count_kmerset_18=count_kmerset(KmerSets[i]);
+      alloCounter = alloCounter + (unsigned long long int)return_value_count_kmerset_18;
       allKmerCounter = allKmerCounter + (unsigned long long int)kmerCounter[i + (signed long int)1];
       free((void *)rcSeq[i + (signed long int)1]);
     }
@@ -18705,16 +18705,16 @@ extern void prlLongRead2Ctg(char *libfile, char *outfile)
   char name[256l];
   struct _IO_FILE *outfp2;
   signed int maxReadNum;
-  signed int prlLongRead2Ctg$$1$$libNo;
+  signed int prlLongRead2Ctg__1__libNo;
   signed int prevLibNo;
   char flag;
   char pairs = (char)0;
-  const signed long int pairs$array_size0 = (signed long int)thrd_num;
-  unsigned long int threads[pairs$array_size0];
-  const signed long int threads$array_size0 = (signed long int)(thrd_num + 1);
-  unsigned char thrdSignal[threads$array_size0];
-  const signed long int thrdSignal$array_size0 = (signed long int)thrd_num;
-  struct parameter paras[thrdSignal$array_size0];
+  const signed long int pairs_array_size0 = (signed long int)thrd_num;
+  unsigned long int threads[pairs_array_size0];
+  const signed long int threads_array_size0 = (signed long int)(thrd_num + 1);
+  unsigned char thrdSignal[threads_array_size0];
+  const signed long int thrdSignal_array_size0 = (signed long int)thrd_num;
+  struct parameter paras[thrdSignal_array_size0];
   maxReadLen = 0;
   maxNameLen = 256;
   scan_libInfo(libfile);
@@ -18728,96 +18728,96 @@ extern void prlLongRead2Ctg(char *libfile, char *outfile)
     maxReadLen4all = maxReadLen < longReadLen ? longReadLen : maxReadLen;
     printf("In file: %s, long read len %d, max name len %d\n\n", libfile, longReadLen, maxNameLen);
     maxReadLen = longReadLen;
-    void *return_value_ckalloc$1;
-    return_value_ckalloc$1=ckalloc((unsigned long int)(maxNameLen + 1) * sizeof(char) /*1ul*/ );
-    src_name = (char *)return_value_ckalloc$1;
-    void *return_value_ckalloc$2;
-    return_value_ckalloc$2=ckalloc((unsigned long int)(maxNameLen + 1) * sizeof(char) /*1ul*/ );
-    next_name = (char *)return_value_ckalloc$2;
-    void *return_value_ckalloc$3;
-    return_value_ckalloc$3=ckalloc((unsigned long int)buffer_size$link2 * sizeof(unsigned long long int) /*8ul*/ );
-    kmerBuffer$link2 = (unsigned long long int *)return_value_ckalloc$3;
-    void *return_value_ckalloc$4;
-    return_value_ckalloc$4=ckalloc((unsigned long int)buffer_size$link2 * sizeof(unsigned long long int) /*8ul*/ );
-    hashBanBuffer$link2 = (unsigned long long int *)return_value_ckalloc$4;
-    void *return_value_ckalloc$5;
-    return_value_ckalloc$5=ckalloc((unsigned long int)buffer_size$link2 * sizeof(struct kmer_st *) /*8ul*/ );
-    nodeBuffer = (struct kmer_st **)return_value_ckalloc$5;
-    void *return_value_ckalloc$6;
-    return_value_ckalloc$6=ckalloc((unsigned long int)buffer_size$link2 * sizeof(char) /*1ul*/ );
-    smallerBuffer$link1 = (char *)return_value_ckalloc$6;
-    maxReadNum = buffer_size$link2 / ((maxReadLen - overlaplen) + 1);
+    void *return_value_ckalloc_1;
+    return_value_ckalloc_1=ckalloc((unsigned long int)(maxNameLen + 1) * sizeof(char) /*1ul*/ );
+    src_name = (char *)return_value_ckalloc_1;
+    void *return_value_ckalloc_2;
+    return_value_ckalloc_2=ckalloc((unsigned long int)(maxNameLen + 1) * sizeof(char) /*1ul*/ );
+    next_name = (char *)return_value_ckalloc_2;
+    void *return_value_ckalloc_3;
+    return_value_ckalloc_3=ckalloc((unsigned long int)buffer_size_link2 * sizeof(unsigned long long int) /*8ul*/ );
+    kmerBuffer_link2 = (unsigned long long int *)return_value_ckalloc_3;
+    void *return_value_ckalloc_4;
+    return_value_ckalloc_4=ckalloc((unsigned long int)buffer_size_link2 * sizeof(unsigned long long int) /*8ul*/ );
+    hashBanBuffer_link2 = (unsigned long long int *)return_value_ckalloc_4;
+    void *return_value_ckalloc_5;
+    return_value_ckalloc_5=ckalloc((unsigned long int)buffer_size_link2 * sizeof(struct kmer_st *) /*8ul*/ );
+    nodeBuffer = (struct kmer_st **)return_value_ckalloc_5;
+    void *return_value_ckalloc_6;
+    return_value_ckalloc_6=ckalloc((unsigned long int)buffer_size_link2 * sizeof(char) /*1ul*/ );
+    smallerBuffer_link1 = (char *)return_value_ckalloc_6;
+    maxReadNum = buffer_size_link2 / ((maxReadLen - overlaplen) + 1);
     maxReadNum = maxReadNum % 2 == 0 ? maxReadNum : maxReadNum - 1;
-    void *return_value_ckalloc$7;
-    return_value_ckalloc$7=ckalloc((unsigned long int)maxReadNum * sizeof(char *) /*8ul*/ );
-    seqBuffer$link2 = (char **)return_value_ckalloc$7;
-    void *return_value_ckalloc$8;
-    return_value_ckalloc$8=ckalloc((unsigned long int)maxReadNum * sizeof(signed int) /*4ul*/ );
-    lenBuffer$link2 = (signed int *)return_value_ckalloc$8;
-    void *return_value_ckalloc$9;
-    return_value_ckalloc$9=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(unsigned int) /*4ul*/ );
-    indexArray$link2 = (unsigned int *)return_value_ckalloc$9;
-    void *return_value_ckalloc$10;
-    return_value_ckalloc$10=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(unsigned int) /*4ul*/ );
-    ctgIdArray$link1 = (unsigned int *)return_value_ckalloc$10;
-    void *return_value_ckalloc$11;
-    return_value_ckalloc$11=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(signed int) /*4ul*/ );
-    posArray = (signed int *)return_value_ckalloc$11;
-    void *return_value_ckalloc$12;
-    return_value_ckalloc$12=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(char) /*1ul*/ );
-    orienArray = (char *)return_value_ckalloc$12;
-    void *return_value_ckalloc$13;
-    return_value_ckalloc$13=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(char) /*1ul*/ );
-    footprint = (char *)return_value_ckalloc$13;
+    void *return_value_ckalloc_7;
+    return_value_ckalloc_7=ckalloc((unsigned long int)maxReadNum * sizeof(char *) /*8ul*/ );
+    seqBuffer_link2 = (char **)return_value_ckalloc_7;
+    void *return_value_ckalloc_8;
+    return_value_ckalloc_8=ckalloc((unsigned long int)maxReadNum * sizeof(signed int) /*4ul*/ );
+    lenBuffer_link2 = (signed int *)return_value_ckalloc_8;
+    void *return_value_ckalloc_9;
+    return_value_ckalloc_9=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(unsigned int) /*4ul*/ );
+    indexArray_link2 = (unsigned int *)return_value_ckalloc_9;
+    void *return_value_ckalloc_10;
+    return_value_ckalloc_10=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(unsigned int) /*4ul*/ );
+    ctgIdArray_link1 = (unsigned int *)return_value_ckalloc_10;
+    void *return_value_ckalloc_11;
+    return_value_ckalloc_11=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(signed int) /*4ul*/ );
+    posArray = (signed int *)return_value_ckalloc_11;
+    void *return_value_ckalloc_12;
+    return_value_ckalloc_12=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(char) /*1ul*/ );
+    orienArray = (char *)return_value_ckalloc_12;
+    void *return_value_ckalloc_13;
+    return_value_ckalloc_13=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(char) /*1ul*/ );
+    footprint = (char *)return_value_ckalloc_13;
     i = (signed long long int)0;
     for( ; !(i >= (signed long int)maxReadNum); i = i + 1ll)
     {
-      void *return_value_ckalloc$14;
-      return_value_ckalloc$14=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
-      seqBuffer$link2[i] = (char *)return_value_ckalloc$14;
+      void *return_value_ckalloc_14;
+      return_value_ckalloc_14=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
+      seqBuffer_link2[i] = (char *)return_value_ckalloc_14;
     }
-    void *return_value_ckalloc$15;
-    return_value_ckalloc$15=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(char *) /*8ul*/ );
-    rcSeq$link2 = (char **)return_value_ckalloc$15;
-    void *return_value_ckalloc$16;
-    return_value_ckalloc$16=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(signed int) /*4ul*/ );
-    deletion = (signed int *)return_value_ckalloc$16;
+    void *return_value_ckalloc_15;
+    return_value_ckalloc_15=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(char *) /*8ul*/ );
+    rcSeq_link2 = (char **)return_value_ckalloc_15;
+    void *return_value_ckalloc_16;
+    return_value_ckalloc_16=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(signed int) /*4ul*/ );
+    deletion = (signed int *)return_value_ckalloc_16;
     thrdSignal[(signed long int)0] = (unsigned char)0;
     deletion[(signed long int)0] = 0;
     i = (signed long long int)0;
     for( ; !(i >= (signed long int)thrd_num); i = i + 1ll)
     {
-      void *return_value_ckalloc$17;
-      return_value_ckalloc$17=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
-      rcSeq$link2[i + (signed long int)1] = (char *)return_value_ckalloc$17;
+      void *return_value_ckalloc_17;
+      return_value_ckalloc_17=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
+      rcSeq_link2[i + (signed long int)1] = (char *)return_value_ckalloc_17;
       deletion[i + (signed long int)1] = 0;
       thrdSignal[i + (signed long int)1] = (unsigned char)0;
       paras[i].threadID = (unsigned char)i;
       paras[i].mainSignal = &thrdSignal[(signed long int)0];
       paras[i].selfSignal = &thrdSignal[i + (signed long int)1];
     }
-    creatThrds$link3(threads, paras);
+    creatThrds_link3(threads, paras);
     if(contig_array == ((struct contig *)NULL))
       basicContigInfo(outfile);
 
     sprintf(name, "%s.longReadInGap", outfile);
     outfp2=ckopen(name, "wb");
     readCounter = (signed long long int)0;
-    i = (signed long long int)prlLongRead2Ctg$$1$$libNo;
-    read_c$link2 = (signed int)i;
-    n_solexa = (signed long long int)read_c$link2;
-    kmer_c$link2 = (signed int)n_solexa;
+    i = (signed long long int)prlLongRead2Ctg__1__libNo;
+    read_c_link2 = (signed int)i;
+    n_solexa = (signed long long int)read_c_link2;
+    kmer_c_link2 = (signed int)n_solexa;
     prevLibNo = -1;
     do
     {
-      flag=read1seqInLib(seqBuffer$link2[(signed long int)read_c$link2], next_name, &lenBuffer$link2[(signed long int)read_c$link2], &prlLongRead2Ctg$$1$$libNo, pairs, (unsigned char)4);
+      flag=read1seqInLib(seqBuffer_link2[(signed long int)read_c_link2], next_name, &lenBuffer_link2[(signed long int)read_c_link2], &prlLongRead2Ctg__1__libNo, pairs, (unsigned char)4);
       if((signed int)flag == 0)
         break;
 
-      if(!(prlLongRead2Ctg$$1$$libNo == prevLibNo))
+      if(!(prlLongRead2Ctg__1__libNo == prevLibNo))
       {
-        prevLibNo = prlLongRead2Ctg$$1$$libNo;
-        ALIGNLEN = (lib_array + (signed long int)prlLongRead2Ctg$$1$$libNo)->map_len;
+        prevLibNo = prlLongRead2Ctg__1__libNo;
+        ALIGNLEN = (lib_array + (signed long int)prlLongRead2Ctg__1__libNo)->map_len;
         ALIGNLEN = ALIGNLEN < 35 ? 35 : ALIGNLEN;
         printf("Map_len %d\n", ALIGNLEN);
       }
@@ -18826,58 +18826,58 @@ extern void prlLongRead2Ctg(char *libfile, char *outfile)
       if(i % 100000000l == 0l)
         printf("--- %lldth reads\n", i);
 
-      indexArray$link2[(signed long int)read_c$link2] = (unsigned int)kmer_c$link2;
-      if(lenBuffer$link2[(signed long int)read_c$link2] >= 1 + overlaplen)
-        kmer_c$link2 = kmer_c$link2 + (lenBuffer$link2[(signed long int)read_c$link2] - overlaplen) + 1;
+      indexArray_link2[(signed long int)read_c_link2] = (unsigned int)kmer_c_link2;
+      if(lenBuffer_link2[(signed long int)read_c_link2] >= 1 + overlaplen)
+        kmer_c_link2 = kmer_c_link2 + (lenBuffer_link2[(signed long int)read_c_link2] - overlaplen) + 1;
 
-      read_c$link2 = read_c$link2 + 1;
-      if(read_c$link2 == maxReadNum)
+      read_c_link2 = read_c_link2 + 1;
+      if(read_c_link2 == maxReadNum)
       {
-        indexArray$link2[(signed long int)read_c$link2] = (unsigned int)kmer_c$link2;
-        sendWorkSignal$link3((unsigned char)2, thrdSignal);
-        sendWorkSignal$link3((unsigned char)1, thrdSignal);
-        sendWorkSignal$link3((unsigned char)3, thrdSignal);
+        indexArray_link2[(signed long int)read_c_link2] = (unsigned int)kmer_c_link2;
+        sendWorkSignal_link3((unsigned char)2, thrdSignal);
+        sendWorkSignal_link3((unsigned char)1, thrdSignal);
+        sendWorkSignal_link3((unsigned char)3, thrdSignal);
         recordLongRead(outfp2);
-        kmer_c$link2 = 0;
-        read_c$link2 = 0;
+        kmer_c_link2 = 0;
+        read_c_link2 = 0;
       }
 
     }
     while((_Bool)1);
-    if(!(read_c$link2 == 0))
+    if(!(read_c_link2 == 0))
     {
-      indexArray$link2[(signed long int)read_c$link2] = (unsigned int)kmer_c$link2;
-      sendWorkSignal$link3((unsigned char)2, thrdSignal);
-      sendWorkSignal$link3((unsigned char)1, thrdSignal);
-      sendWorkSignal$link3((unsigned char)3, thrdSignal);
+      indexArray_link2[(signed long int)read_c_link2] = (unsigned int)kmer_c_link2;
+      sendWorkSignal_link3((unsigned char)2, thrdSignal);
+      sendWorkSignal_link3((unsigned char)1, thrdSignal);
+      sendWorkSignal_link3((unsigned char)3, thrdSignal);
       recordLongRead(outfp2);
       printf("Output %lld out of %lld (%.1f)%% reads in gaps\n", readsInGap, readCounter, ((float)readsInGap / (float)readCounter) * (float)100);
     }
 
-    sendWorkSignal$link3((unsigned char)5, thrdSignal);
-    thread_wait$link3(threads);
+    sendWorkSignal_link3((unsigned char)5, thrdSignal);
+    thread_wait_link3(threads);
     fclose(outfp2);
     free_libs();
     i = (signed long long int)0;
     for( ; !(i >= (signed long int)thrd_num); i = i + 1ll)
     {
       deletion[(signed long int)0] = deletion[(signed long int)0] + deletion[i + (signed long int)1];
-      free((void *)rcSeq$link2[i + (signed long int)1]);
+      free((void *)rcSeq_link2[i + (signed long int)1]);
     }
     printf("%d reads deleted\n", deletion[(signed long int)0]);
-    free((void *)rcSeq$link2);
+    free((void *)rcSeq_link2);
     free((void *)deletion);
     i = (signed long long int)0;
     for( ; !(i >= (signed long int)maxReadNum); i = i + 1ll)
-      free((void *)seqBuffer$link2[i]);
-    free((void *)seqBuffer$link2);
-    free((void *)lenBuffer$link2);
-    free((void *)indexArray$link2);
-    free((void *)kmerBuffer$link2);
-    free((void *)smallerBuffer$link1);
-    free((void *)hashBanBuffer$link2);
+      free((void *)seqBuffer_link2[i]);
+    free((void *)seqBuffer_link2);
+    free((void *)lenBuffer_link2);
+    free((void *)indexArray_link2);
+    free((void *)kmerBuffer_link2);
+    free((void *)smallerBuffer_link1);
+    free((void *)hashBanBuffer_link2);
     free((void *)nodeBuffer);
-    free((void *)ctgIdArray$link1);
+    free((void *)ctgIdArray_link1);
     free((void *)posArray);
     free((void *)orienArray);
     free((void *)footprint);
@@ -18898,17 +18898,17 @@ extern void prlRead2Ctg(char *libfile, char *outfile)
   struct _IO_FILE *fo;
   struct _IO_FILE *outfp2 = (struct _IO_FILE *)(void *)0;
   signed int maxReadNum;
-  signed int prlRead2Ctg$$1$$libNo;
+  signed int prlRead2Ctg__1__libNo;
   signed int prevLibNo;
   signed int insSize;
   char flag;
   char pairs = (char)1;
-  const signed long int pairs$array_size0 = (signed long int)thrd_num;
-  unsigned long int threads[pairs$array_size0];
-  const signed long int threads$array_size0 = (signed long int)(thrd_num + 1);
-  unsigned char thrdSignal[threads$array_size0];
-  const signed long int thrdSignal$array_size0 = (signed long int)thrd_num;
-  struct parameter paras[thrdSignal$array_size0];
+  const signed long int pairs_array_size0 = (signed long int)thrd_num;
+  unsigned long int threads[pairs_array_size0];
+  const signed long int threads_array_size0 = (signed long int)(thrd_num + 1);
+  unsigned char thrdSignal[threads_array_size0];
+  const signed long int thrdSignal_array_size0 = (signed long int)thrd_num;
+  struct parameter paras[thrdSignal_array_size0];
   maxReadLen = 0;
   maxNameLen = 256;
   scan_libInfo(libfile);
@@ -18920,75 +18920,75 @@ extern void prlRead2Ctg(char *libfile, char *outfile)
   if(!(maxReadLen4all >= maxReadLen))
     maxReadLen4all = maxReadLen;
 
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)(maxNameLen + 1) * sizeof(char) /*1ul*/ );
-  src_name = (char *)return_value_ckalloc$1;
-  void *return_value_ckalloc$2;
-  return_value_ckalloc$2=ckalloc((unsigned long int)(maxNameLen + 1) * sizeof(char) /*1ul*/ );
-  next_name = (char *)return_value_ckalloc$2;
-  void *return_value_ckalloc$3;
-  return_value_ckalloc$3=ckalloc((unsigned long int)buffer_size$link2 * sizeof(unsigned long long int) /*8ul*/ );
-  kmerBuffer$link2 = (unsigned long long int *)return_value_ckalloc$3;
-  void *return_value_ckalloc$4;
-  return_value_ckalloc$4=ckalloc((unsigned long int)buffer_size$link2 * sizeof(unsigned long long int) /*8ul*/ );
-  hashBanBuffer$link2 = (unsigned long long int *)return_value_ckalloc$4;
-  void *return_value_ckalloc$5;
-  return_value_ckalloc$5=ckalloc((unsigned long int)buffer_size$link2 * sizeof(struct kmer_st *) /*8ul*/ );
-  nodeBuffer = (struct kmer_st **)return_value_ckalloc$5;
-  void *return_value_ckalloc$6;
-  return_value_ckalloc$6=ckalloc((unsigned long int)buffer_size$link2 * sizeof(char) /*1ul*/ );
-  smallerBuffer$link1 = (char *)return_value_ckalloc$6;
-  maxReadNum = buffer_size$link2 / ((maxReadLen - overlaplen) + 1);
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)(maxNameLen + 1) * sizeof(char) /*1ul*/ );
+  src_name = (char *)return_value_ckalloc_1;
+  void *return_value_ckalloc_2;
+  return_value_ckalloc_2=ckalloc((unsigned long int)(maxNameLen + 1) * sizeof(char) /*1ul*/ );
+  next_name = (char *)return_value_ckalloc_2;
+  void *return_value_ckalloc_3;
+  return_value_ckalloc_3=ckalloc((unsigned long int)buffer_size_link2 * sizeof(unsigned long long int) /*8ul*/ );
+  kmerBuffer_link2 = (unsigned long long int *)return_value_ckalloc_3;
+  void *return_value_ckalloc_4;
+  return_value_ckalloc_4=ckalloc((unsigned long int)buffer_size_link2 * sizeof(unsigned long long int) /*8ul*/ );
+  hashBanBuffer_link2 = (unsigned long long int *)return_value_ckalloc_4;
+  void *return_value_ckalloc_5;
+  return_value_ckalloc_5=ckalloc((unsigned long int)buffer_size_link2 * sizeof(struct kmer_st *) /*8ul*/ );
+  nodeBuffer = (struct kmer_st **)return_value_ckalloc_5;
+  void *return_value_ckalloc_6;
+  return_value_ckalloc_6=ckalloc((unsigned long int)buffer_size_link2 * sizeof(char) /*1ul*/ );
+  smallerBuffer_link1 = (char *)return_value_ckalloc_6;
+  maxReadNum = buffer_size_link2 / ((maxReadLen - overlaplen) + 1);
   maxReadNum = maxReadNum % 2 == 0 ? maxReadNum : maxReadNum - 1;
-  void *return_value_ckalloc$7;
-  return_value_ckalloc$7=ckalloc((unsigned long int)maxReadNum * sizeof(char *) /*8ul*/ );
-  seqBuffer$link2 = (char **)return_value_ckalloc$7;
-  void *return_value_ckalloc$8;
-  return_value_ckalloc$8=ckalloc((unsigned long int)maxReadNum * sizeof(signed int) /*4ul*/ );
-  lenBuffer$link2 = (signed int *)return_value_ckalloc$8;
-  void *return_value_ckalloc$9;
-  return_value_ckalloc$9=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(unsigned int) /*4ul*/ );
-  indexArray$link2 = (unsigned int *)return_value_ckalloc$9;
-  void *return_value_ckalloc$10;
-  return_value_ckalloc$10=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(unsigned int) /*4ul*/ );
-  ctgIdArray$link1 = (unsigned int *)return_value_ckalloc$10;
-  void *return_value_ckalloc$11;
-  return_value_ckalloc$11=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(signed int) /*4ul*/ );
-  posArray = (signed int *)return_value_ckalloc$11;
-  void *return_value_ckalloc$12;
-  return_value_ckalloc$12=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(char) /*1ul*/ );
-  orienArray = (char *)return_value_ckalloc$12;
-  void *return_value_ckalloc$13;
-  return_value_ckalloc$13=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(char) /*1ul*/ );
-  footprint = (char *)return_value_ckalloc$13;
+  void *return_value_ckalloc_7;
+  return_value_ckalloc_7=ckalloc((unsigned long int)maxReadNum * sizeof(char *) /*8ul*/ );
+  seqBuffer_link2 = (char **)return_value_ckalloc_7;
+  void *return_value_ckalloc_8;
+  return_value_ckalloc_8=ckalloc((unsigned long int)maxReadNum * sizeof(signed int) /*4ul*/ );
+  lenBuffer_link2 = (signed int *)return_value_ckalloc_8;
+  void *return_value_ckalloc_9;
+  return_value_ckalloc_9=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(unsigned int) /*4ul*/ );
+  indexArray_link2 = (unsigned int *)return_value_ckalloc_9;
+  void *return_value_ckalloc_10;
+  return_value_ckalloc_10=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(unsigned int) /*4ul*/ );
+  ctgIdArray_link1 = (unsigned int *)return_value_ckalloc_10;
+  void *return_value_ckalloc_11;
+  return_value_ckalloc_11=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(signed int) /*4ul*/ );
+  posArray = (signed int *)return_value_ckalloc_11;
+  void *return_value_ckalloc_12;
+  return_value_ckalloc_12=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(char) /*1ul*/ );
+  orienArray = (char *)return_value_ckalloc_12;
+  void *return_value_ckalloc_13;
+  return_value_ckalloc_13=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(char) /*1ul*/ );
+  footprint = (char *)return_value_ckalloc_13;
   i = (signed long long int)0;
   for( ; !(i >= (signed long int)maxReadNum); i = i + 1ll)
   {
-    void *return_value_ckalloc$14;
-    return_value_ckalloc$14=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
-    seqBuffer$link2[i] = (char *)return_value_ckalloc$14;
+    void *return_value_ckalloc_14;
+    return_value_ckalloc_14=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
+    seqBuffer_link2[i] = (char *)return_value_ckalloc_14;
   }
-  void *return_value_ckalloc$15;
-  return_value_ckalloc$15=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(char *) /*8ul*/ );
-  rcSeq$link2 = (char **)return_value_ckalloc$15;
-  void *return_value_ckalloc$16;
-  return_value_ckalloc$16=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(signed int) /*4ul*/ );
-  deletion = (signed int *)return_value_ckalloc$16;
+  void *return_value_ckalloc_15;
+  return_value_ckalloc_15=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(char *) /*8ul*/ );
+  rcSeq_link2 = (char **)return_value_ckalloc_15;
+  void *return_value_ckalloc_16;
+  return_value_ckalloc_16=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(signed int) /*4ul*/ );
+  deletion = (signed int *)return_value_ckalloc_16;
   thrdSignal[(signed long int)0] = (unsigned char)0;
   deletion[(signed long int)0] = 0;
   i = (signed long long int)0;
   for( ; !(i >= (signed long int)thrd_num); i = i + 1ll)
   {
-    void *return_value_ckalloc$17;
-    return_value_ckalloc$17=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
-    rcSeq$link2[i + (signed long int)1] = (char *)return_value_ckalloc$17;
+    void *return_value_ckalloc_17;
+    return_value_ckalloc_17=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
+    rcSeq_link2[i + (signed long int)1] = (char *)return_value_ckalloc_17;
     deletion[i + (signed long int)1] = 0;
     thrdSignal[i + (signed long int)1] = (unsigned char)0;
     paras[i].threadID = (unsigned char)i;
     paras[i].mainSignal = &thrdSignal[(signed long int)0];
     paras[i].selfSignal = &thrdSignal[i + (signed long int)1];
   }
-  creatThrds$link3(threads, paras);
+  creatThrds_link3(threads, paras);
   if(contig_array == ((struct contig *)NULL))
     basicContigInfo(outfile);
 
@@ -19002,24 +19002,24 @@ extern void prlRead2Ctg(char *libfile, char *outfile)
   readsInGap = (signed long long int)0;
   gradsCounter = (signed int)readsInGap;
   readNumBack = (signed long long int)gradsCounter;
-  prlRead2Ctg$$1$$libNo = (signed int)readNumBack;
-  i = (signed long long int)prlRead2Ctg$$1$$libNo;
-  read_c$link2 = (signed int)i;
-  n_solexa = (signed long long int)read_c$link2;
-  kmer_c$link2 = (signed int)n_solexa;
+  prlRead2Ctg__1__libNo = (signed int)readNumBack;
+  i = (signed long long int)prlRead2Ctg__1__libNo;
+  read_c_link2 = (signed int)i;
+  n_solexa = (signed long long int)read_c_link2;
+  kmer_c_link2 = (signed int)n_solexa;
   prevLibNo = -1;
-  signed int tmp_if_expr$18;
+  signed int tmp_if_expr_18;
   do
   {
-    flag=read1seqInLib(seqBuffer$link2[(signed long int)read_c$link2], next_name, &lenBuffer$link2[(signed long int)read_c$link2], &prlRead2Ctg$$1$$libNo, pairs, (unsigned char)0);
+    flag=read1seqInLib(seqBuffer_link2[(signed long int)read_c_link2], next_name, &lenBuffer_link2[(signed long int)read_c_link2], &prlRead2Ctg__1__libNo, pairs, (unsigned char)0);
     if((signed int)flag == 0)
       break;
 
-    if(!(prlRead2Ctg$$1$$libNo == prevLibNo))
+    if(!(prlRead2Ctg__1__libNo == prevLibNo))
     {
-      prevLibNo = prlRead2Ctg$$1$$libNo;
-      insSize = (lib_array + (signed long int)prlRead2Ctg$$1$$libNo)->avg_ins;
-      ALIGNLEN = (lib_array + (signed long int)prlRead2Ctg$$1$$libNo)->map_len;
+      prevLibNo = prlRead2Ctg__1__libNo;
+      insSize = (lib_array + (signed long int)prlRead2Ctg__1__libNo)->avg_ins;
+      ALIGNLEN = (lib_array + (signed long int)prlRead2Ctg__1__libNo)->map_len;
       if(insSize >= 1001)
         ALIGNLEN = ALIGNLEN < 35 ? 35 : ALIGNLEN;
 
@@ -19030,42 +19030,42 @@ extern void prlRead2Ctg(char *libfile, char *outfile)
 
     if(insSize >= 1001)
     {
-      if(!(ALIGNLEN >= lenBuffer$link2[(signed long int)read_c$link2] / 2 + 1))
-        tmp_if_expr$18 = lenBuffer$link2[(signed long int)read_c$link2] / 2 + 1;
+      if(!(ALIGNLEN >= lenBuffer_link2[(signed long int)read_c_link2] / 2 + 1))
+        tmp_if_expr_18 = lenBuffer_link2[(signed long int)read_c_link2] / 2 + 1;
 
       else
-        tmp_if_expr$18 = ALIGNLEN;
-      ALIGNLEN = tmp_if_expr$18;
+        tmp_if_expr_18 = ALIGNLEN;
+      ALIGNLEN = tmp_if_expr_18;
     }
 
     i = i + 1ll;
     if(i % 100000000l == 0l)
       printf("--- %lldth reads\n", i);
 
-    indexArray$link2[(signed long int)read_c$link2] = (unsigned int)kmer_c$link2;
-    if(lenBuffer$link2[(signed long int)read_c$link2] >= 1 + overlaplen)
-      kmer_c$link2 = kmer_c$link2 + (lenBuffer$link2[(signed long int)read_c$link2] - overlaplen) + 1;
+    indexArray_link2[(signed long int)read_c_link2] = (unsigned int)kmer_c_link2;
+    if(lenBuffer_link2[(signed long int)read_c_link2] >= 1 + overlaplen)
+      kmer_c_link2 = kmer_c_link2 + (lenBuffer_link2[(signed long int)read_c_link2] - overlaplen) + 1;
 
-    read_c$link2 = read_c$link2 + 1;
-    if(read_c$link2 == maxReadNum)
+    read_c_link2 = read_c_link2 + 1;
+    if(read_c_link2 == maxReadNum)
     {
-      indexArray$link2[(signed long int)read_c$link2] = (unsigned int)kmer_c$link2;
-      sendWorkSignal$link3((unsigned char)2, thrdSignal);
-      sendWorkSignal$link3((unsigned char)1, thrdSignal);
-      sendWorkSignal$link3((unsigned char)3, thrdSignal);
+      indexArray_link2[(signed long int)read_c_link2] = (unsigned int)kmer_c_link2;
+      sendWorkSignal_link3((unsigned char)2, thrdSignal);
+      sendWorkSignal_link3((unsigned char)1, thrdSignal);
+      sendWorkSignal_link3((unsigned char)3, thrdSignal);
       recordAlldgn(fo, insSize, outfp2);
-      kmer_c$link2 = 0;
-      read_c$link2 = 0;
+      kmer_c_link2 = 0;
+      read_c_link2 = 0;
     }
 
   }
   while((_Bool)1);
-  if(!(read_c$link2 == 0))
+  if(!(read_c_link2 == 0))
   {
-    indexArray$link2[(signed long int)read_c$link2] = (unsigned int)kmer_c$link2;
-    sendWorkSignal$link3((unsigned char)2, thrdSignal);
-    sendWorkSignal$link3((unsigned char)1, thrdSignal);
-    sendWorkSignal$link3((unsigned char)3, thrdSignal);
+    indexArray_link2[(signed long int)read_c_link2] = (unsigned int)kmer_c_link2;
+    sendWorkSignal_link3((unsigned char)2, thrdSignal);
+    sendWorkSignal_link3((unsigned char)1, thrdSignal);
+    sendWorkSignal_link3((unsigned char)3, thrdSignal);
     recordAlldgn(fo, insSize, outfp2);
     printf("Output %lld out of %lld (%.1f)%% reads in gaps\n", readsInGap, readCounter, ((float)readsInGap / (float)readCounter) * (float)100);
   }
@@ -19073,8 +19073,8 @@ extern void prlRead2Ctg(char *libfile, char *outfile)
   if(!(readCounter == 0ll))
     printf("%lld out of %lld (%.1f)%% reads mapped to contigs\n", mapCounter, readCounter, ((float)mapCounter / (float)readCounter) * (float)100);
 
-  sendWorkSignal$link3((unsigned char)5, thrdSignal);
-  thread_wait$link3(threads);
+  sendWorkSignal_link3((unsigned char)5, thrdSignal);
+  thread_wait_link3(threads);
   fclose(fo);
   sprintf(name, "%s.peGrads", outfile);
   fo=ckopen(name, "w");
@@ -19099,22 +19099,22 @@ extern void prlRead2Ctg(char *libfile, char *outfile)
   for( ; !(i >= (signed long int)thrd_num); i = i + 1ll)
   {
     deletion[(signed long int)0] = deletion[(signed long int)0] + deletion[i + (signed long int)1];
-    free((void *)rcSeq$link2[i + (signed long int)1]);
+    free((void *)rcSeq_link2[i + (signed long int)1]);
   }
   printf("%d reads deleted\n", deletion[(signed long int)0]);
-  free((void *)rcSeq$link2);
+  free((void *)rcSeq_link2);
   free((void *)deletion);
   i = (signed long long int)0;
   for( ; !(i >= (signed long int)maxReadNum); i = i + 1ll)
-    free((void *)seqBuffer$link2[i]);
-  free((void *)seqBuffer$link2);
-  free((void *)lenBuffer$link2);
-  free((void *)indexArray$link2);
-  free((void *)kmerBuffer$link2);
-  free((void *)smallerBuffer$link1);
-  free((void *)hashBanBuffer$link2);
+    free((void *)seqBuffer_link2[i]);
+  free((void *)seqBuffer_link2);
+  free((void *)lenBuffer_link2);
+  free((void *)indexArray_link2);
+  free((void *)kmerBuffer_link2);
+  free((void *)smallerBuffer_link1);
+  free((void *)hashBanBuffer_link2);
   free((void *)nodeBuffer);
-  free((void *)ctgIdArray$link1);
+  free((void *)ctgIdArray_link1);
   free((void *)posArray);
   free((void *)orienArray);
   free((void *)footprint);
@@ -19139,13 +19139,13 @@ extern char prlRead2HashTable(char *libfile, char *outfile)
   signed long int start_t;
   signed long int stop_t;
   signed int maxReadNum;
-  signed int prlRead2HashTable$$1$$libNo;
-  const signed long int libNo$array_size0 = (signed long int)thrd_num;
-  unsigned long int threads[libNo$array_size0];
-  const signed long int threads$array_size0 = (signed long int)(thrd_num + 1);
-  unsigned char thrdSignal[threads$array_size0];
-  const signed long int thrdSignal$array_size0 = (signed long int)thrd_num;
-  struct parameter paras[thrdSignal$array_size0];
+  signed int prlRead2HashTable__1__libNo;
+  const signed long int libNo_array_size0 = (signed long int)thrd_num;
+  unsigned long int threads[libNo_array_size0];
+  const signed long int threads_array_size0 = (signed long int)(thrd_num + 1);
+  unsigned char thrdSignal[threads_array_size0];
+  const signed long int thrdSignal_array_size0 = (signed long int)thrd_num;
+  struct parameter paras[thrdSignal_array_size0];
   char flag;
   char pairs = (char)0;
   WORDFILTER = ((unsigned long long int)1 << 2 * overlaplen) - (unsigned long int)1;
@@ -19158,48 +19158,48 @@ extern char prlRead2HashTable(char *libfile, char *outfile)
 
   maxReadLen4all = maxReadLen;
   printf("In %s, %d libs, max seq len %d, max name len %d\n\n", libfile, num_libs, maxReadLen, maxNameLen);
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)(maxNameLen + 1) * sizeof(char) /*1ul*/ );
-  next_name = (char *)return_value_ckalloc$1;
-  void *return_value_ckalloc$2;
-  return_value_ckalloc$2=ckalloc((unsigned long int)buffer_size$link1 * sizeof(unsigned long long int) /*8ul*/ );
-  kmerBuffer$link1 = (unsigned long long int *)return_value_ckalloc$2;
-  void *return_value_ckalloc$3;
-  return_value_ckalloc$3=ckalloc((unsigned long int)buffer_size$link1 * sizeof(unsigned long long int) /*8ul*/ );
-  hashBanBuffer$link1 = (unsigned long long int *)return_value_ckalloc$3;
-  void *return_value_ckalloc$4;
-  return_value_ckalloc$4=ckalloc((unsigned long int)buffer_size$link1 * sizeof(char) /*1ul*/ );
-  prevcBuffer = (char *)return_value_ckalloc$4;
-  void *return_value_ckalloc$5;
-  return_value_ckalloc$5=ckalloc((unsigned long int)buffer_size$link1 * sizeof(char) /*1ul*/ );
-  nextcBuffer = (char *)return_value_ckalloc$5;
-  maxReadNum = buffer_size$link1 / ((maxReadLen - overlaplen) + 1);
-  void *return_value_ckalloc$6;
-  return_value_ckalloc$6=ckalloc((unsigned long int)maxReadNum * sizeof(char *) /*8ul*/ );
-  seqBuffer$link1 = (char **)return_value_ckalloc$6;
-  void *return_value_ckalloc$7;
-  return_value_ckalloc$7=ckalloc((unsigned long int)maxReadNum * sizeof(signed int) /*4ul*/ );
-  lenBuffer$link1 = (signed int *)return_value_ckalloc$7;
-  void *return_value_ckalloc$8;
-  return_value_ckalloc$8=ckalloc((unsigned long int)maxReadNum * sizeof(signed int) /*4ul*/ );
-  indexArray$link1 = (signed int *)return_value_ckalloc$8;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)(maxNameLen + 1) * sizeof(char) /*1ul*/ );
+  next_name = (char *)return_value_ckalloc_1;
+  void *return_value_ckalloc_2;
+  return_value_ckalloc_2=ckalloc((unsigned long int)buffer_size_link1 * sizeof(unsigned long long int) /*8ul*/ );
+  kmerBuffer_link1 = (unsigned long long int *)return_value_ckalloc_2;
+  void *return_value_ckalloc_3;
+  return_value_ckalloc_3=ckalloc((unsigned long int)buffer_size_link1 * sizeof(unsigned long long int) /*8ul*/ );
+  hashBanBuffer_link1 = (unsigned long long int *)return_value_ckalloc_3;
+  void *return_value_ckalloc_4;
+  return_value_ckalloc_4=ckalloc((unsigned long int)buffer_size_link1 * sizeof(char) /*1ul*/ );
+  prevcBuffer = (char *)return_value_ckalloc_4;
+  void *return_value_ckalloc_5;
+  return_value_ckalloc_5=ckalloc((unsigned long int)buffer_size_link1 * sizeof(char) /*1ul*/ );
+  nextcBuffer = (char *)return_value_ckalloc_5;
+  maxReadNum = buffer_size_link1 / ((maxReadLen - overlaplen) + 1);
+  void *return_value_ckalloc_6;
+  return_value_ckalloc_6=ckalloc((unsigned long int)maxReadNum * sizeof(char *) /*8ul*/ );
+  seqBuffer_link1 = (char **)return_value_ckalloc_6;
+  void *return_value_ckalloc_7;
+  return_value_ckalloc_7=ckalloc((unsigned long int)maxReadNum * sizeof(signed int) /*4ul*/ );
+  lenBuffer_link1 = (signed int *)return_value_ckalloc_7;
+  void *return_value_ckalloc_8;
+  return_value_ckalloc_8=ckalloc((unsigned long int)maxReadNum * sizeof(signed int) /*4ul*/ );
+  indexArray_link1 = (signed int *)return_value_ckalloc_8;
   i = (signed long long int)0;
   for( ; !(i >= (signed long int)maxReadNum); i = i + 1ll)
   {
-    void *return_value_ckalloc$9;
-    return_value_ckalloc$9=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
-    seqBuffer$link1[i] = (char *)return_value_ckalloc$9;
+    void *return_value_ckalloc_9;
+    return_value_ckalloc_9=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
+    seqBuffer_link1[i] = (char *)return_value_ckalloc_9;
   }
-  void *return_value_ckalloc$10;
-  return_value_ckalloc$10=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(char *) /*8ul*/ );
-  rcSeq$link1 = (char **)return_value_ckalloc$10;
+  void *return_value_ckalloc_10;
+  return_value_ckalloc_10=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(char *) /*8ul*/ );
+  rcSeq_link1 = (char **)return_value_ckalloc_10;
   {
-    void *return_value_ckalloc$11;
-    return_value_ckalloc$11=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(signed long long int) /*8ul*/ );
-    kmerCounter$link1 = (signed long long int *)return_value_ckalloc$11;
-    void *return_value_ckalloc$12;
-    return_value_ckalloc$12=ckalloc((unsigned long int)thrd_num * sizeof(struct kmerSet_st *) /*8ul*/ );
-    KmerSets = (struct kmerSet_st **)return_value_ckalloc$12;
+    void *return_value_ckalloc_11;
+    return_value_ckalloc_11=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(signed long long int) /*8ul*/ );
+    kmerCounter_link1 = (signed long long int *)return_value_ckalloc_11;
+    void *return_value_ckalloc_12;
+    return_value_ckalloc_12=ckalloc((unsigned long int)thrd_num * sizeof(struct kmerSet_st *) /*8ul*/ );
+    KmerSets = (struct kmerSet_st **)return_value_ckalloc_12;
     unsigned long long int init_size = (unsigned long long int)1024;
     unsigned long long int k = (unsigned long long int)0;
     if(!(initKmerSetSize == 0))
@@ -19219,26 +19219,26 @@ extern char prlRead2HashTable(char *libfile, char *outfile)
       paras[i].threadID = (unsigned char)i;
       paras[i].mainSignal = &thrdSignal[(signed long int)0];
       paras[i].selfSignal = &thrdSignal[i + (signed long int)1];
-      kmerCounter$link1[i + (signed long int)1] = (signed long long int)0;
-      void *return_value_ckalloc$13;
-      return_value_ckalloc$13=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
-      rcSeq$link1[i + (signed long int)1] = (char *)return_value_ckalloc$13;
+      kmerCounter_link1[i + (signed long int)1] = (signed long long int)0;
+      void *return_value_ckalloc_13;
+      return_value_ckalloc_13=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
+      rcSeq_link1[i + (signed long int)1] = (char *)return_value_ckalloc_13;
     }
-    creatThrds$link2(threads, paras);
+    creatThrds_link2(threads, paras);
   }
-  kmerCounter$link1[(signed long int)0] = (signed long long int)0;
-  thrdSignal[(signed long int)0] = (unsigned char)kmerCounter$link1[(signed long int)0];
+  kmerCounter_link1[(signed long int)0] = (signed long long int)0;
+  thrdSignal[(signed long int)0] = (unsigned char)kmerCounter_link1[(signed long int)0];
   time(&start_t);
   gradsCounter = 0;
   readNumBack = (signed long long int)gradsCounter;
-  prlRead2HashTable$$1$$libNo = (signed int)readNumBack;
-  i = (signed long long int)prlRead2HashTable$$1$$libNo;
-  read_c$link1 = (signed int)i;
-  n_solexa = (signed long long int)read_c$link1;
-  kmer_c$link1 = (volatile signed int)n_solexa;
+  prlRead2HashTable__1__libNo = (signed int)readNumBack;
+  i = (signed long long int)prlRead2HashTable__1__libNo;
+  read_c_link1 = (signed int)i;
+  n_solexa = (signed long long int)read_c_link1;
+  kmer_c_link1 = (volatile signed int)n_solexa;
   do
   {
-    flag=read1seqInLib(seqBuffer$link1[(signed long int)read_c$link1], next_name, &lenBuffer$link1[(signed long int)read_c$link1], &prlRead2HashTable$$1$$libNo, pairs, (unsigned char)1);
+    flag=read1seqInLib(seqBuffer_link1[(signed long int)read_c_link1], next_name, &lenBuffer_link1[(signed long int)read_c_link1], &prlRead2HashTable__1__libNo, pairs, (unsigned char)1);
     if((signed int)flag == 0)
       break;
 
@@ -19246,32 +19246,32 @@ extern char prlRead2HashTable(char *libfile, char *outfile)
     if(i % 100000000l == 0l)
       printf("--- %lldth reads\n", i);
 
-    if(!(lenBuffer$link1[(signed long int)read_c$link1] >= 0))
-      printf("read len %d\n", lenBuffer$link1[(signed long int)read_c$link1]);
+    if(!(lenBuffer_link1[(signed long int)read_c_link1] >= 0))
+      printf("read len %d\n", lenBuffer_link1[(signed long int)read_c_link1]);
 
-    if(lenBuffer$link1[(signed long int)read_c$link1] >= 1 + overlaplen)
+    if(lenBuffer_link1[(signed long int)read_c_link1] >= 1 + overlaplen)
     {
-      indexArray$link1[(signed long int)read_c$link1] = kmer_c$link1;
-      kmer_c$link1 = kmer_c$link1 + (lenBuffer$link1[(signed long int)read_c$link1] - overlaplen) + 1;
-      read_c$link1 = read_c$link1 + 1;
-      if(read_c$link1 == maxReadNum)
+      indexArray_link1[(signed long int)read_c_link1] = kmer_c_link1;
+      kmer_c_link1 = kmer_c_link1 + (lenBuffer_link1[(signed long int)read_c_link1] - overlaplen) + 1;
+      read_c_link1 = read_c_link1 + 1;
+      if(read_c_link1 == maxReadNum)
       {
-        kmerCounter$link1[(signed long int)0] = kmerCounter$link1[(signed long int)0] + (signed long long int)kmer_c$link1;
-        sendWorkSignal$link2((unsigned char)2, thrdSignal);
-        sendWorkSignal$link2((unsigned char)1, thrdSignal);
-        read_c$link1 = 0;
-        kmer_c$link1 = read_c$link1;
+        kmerCounter_link1[(signed long int)0] = kmerCounter_link1[(signed long int)0] + (signed long long int)kmer_c_link1;
+        sendWorkSignal_link2((unsigned char)2, thrdSignal);
+        sendWorkSignal_link2((unsigned char)1, thrdSignal);
+        read_c_link1 = 0;
+        kmer_c_link1 = read_c_link1;
       }
 
     }
 
   }
   while((_Bool)1);
-  if(!(read_c$link1 == 0))
+  if(!(read_c_link1 == 0))
   {
-    kmerCounter$link1[(signed long int)0] = kmerCounter$link1[(signed long int)0] + (signed long long int)kmer_c$link1;
-    sendWorkSignal$link2((unsigned char)2, thrdSignal);
-    sendWorkSignal$link2((unsigned char)1, thrdSignal);
+    kmerCounter_link1[(signed long int)0] = kmerCounter_link1[(signed long int)0] + (signed long long int)kmer_c_link1;
+    sendWorkSignal_link2((unsigned char)2, thrdSignal);
+    sendWorkSignal_link2((unsigned char)1, thrdSignal);
   }
 
   time(&stop_t);
@@ -19300,25 +19300,25 @@ extern char prlRead2HashTable(char *libfile, char *outfile)
     i = (signed long long int)0;
     for( ; !(i >= (signed long int)thrd_num); i = i + 1ll)
     {
-      signed long long int return_value_count_kmerset$14;
-      return_value_count_kmerset$14=count_kmerset(KmerSets[i]);
-      alloCounter = alloCounter + (unsigned long long int)return_value_count_kmerset$14;
-      allKmerCounter = allKmerCounter + (unsigned long long int)kmerCounter$link1[i + (signed long int)1];
-      free((void *)rcSeq$link1[i + (signed long int)1]);
+      signed long long int return_value_count_kmerset_14;
+      return_value_count_kmerset_14=count_kmerset(KmerSets[i]);
+      alloCounter = alloCounter + (unsigned long long int)return_value_count_kmerset_14;
+      allKmerCounter = allKmerCounter + (unsigned long long int)kmerCounter_link1[i + (signed long int)1];
+      free((void *)rcSeq_link1[i + (signed long int)1]);
     }
-    printf("%lli nodes allocated, %lli kmer in reads, %lli kmer processed\n", alloCounter, kmerCounter$link1[(signed long int)0], allKmerCounter);
+    printf("%lli nodes allocated, %lli kmer in reads, %lli kmer processed\n", alloCounter, kmerCounter_link1[(signed long int)0], allKmerCounter);
     fflush(stdout);
   }
-  free((void *)rcSeq$link1);
-  free((void *)kmerCounter$link1);
+  free((void *)rcSeq_link1);
+  free((void *)kmerCounter_link1);
   i = (signed long long int)0;
   for( ; !(i >= (signed long int)maxReadNum); i = i + 1ll)
-    free((void *)seqBuffer$link1[i]);
-  free((void *)seqBuffer$link1);
-  free((void *)lenBuffer$link1);
-  free((void *)indexArray$link1);
-  free((void *)kmerBuffer$link1);
-  free((void *)hashBanBuffer$link1);
+    free((void *)seqBuffer_link1[i]);
+  free((void *)seqBuffer_link1);
+  free((void *)lenBuffer_link1);
+  free((void *)indexArray_link1);
+  free((void *)kmerBuffer_link1);
+  free((void *)hashBanBuffer_link1);
   free((void *)nextcBuffer);
   free((void *)prevcBuffer);
   free((void *)next_name);
@@ -19331,13 +19331,13 @@ extern char prlRead2HashTable(char *libfile, char *outfile)
   }
 
   time(&start_t);
-  Mark1in1outNode$link1(thrdSignal);
+  Mark1in1outNode_link1(thrdSignal);
   freqStat(outfile);
   time(&stop_t);
   printf("time spent on marking linear nodes %ds\n", (signed int)(stop_t - start_t));
   fflush(stdout);
-  sendWorkSignal$link2((unsigned char)3, thrdSignal);
-  thread_wait$link2(threads);
+  sendWorkSignal_link2((unsigned char)3, thrdSignal);
+  thread_wait_link2(threads);
   return (char)1;
 }
 
@@ -19351,15 +19351,15 @@ extern void prlRead2edge(char *libfile, char *outfile)
   char *next_name;
   struct _IO_FILE *outfp = (struct _IO_FILE *)(void *)0;
   signed int maxReadNum;
-  signed int prlRead2edge$$1$$libNo;
+  signed int prlRead2edge__1__libNo;
   char flag;
   char pairs = (char)0;
-  const signed long int pairs$array_size0 = (signed long int)thrd_num;
-  unsigned long int threads[pairs$array_size0];
-  const signed long int threads$array_size0 = (signed long int)(thrd_num + 1);
-  unsigned char thrdSignal[threads$array_size0];
-  const signed long int thrdSignal$array_size0 = (signed long int)thrd_num;
-  struct parameter paras[thrdSignal$array_size0];
+  const signed long int pairs_array_size0 = (signed long int)thrd_num;
+  unsigned long int threads[pairs_array_size0];
+  const signed long int threads_array_size0 = (signed long int)(thrd_num + 1);
+  unsigned char thrdSignal[threads_array_size0];
+  const signed long int thrdSignal_array_size0 = (signed long int)thrd_num;
+  struct parameter paras[thrdSignal_array_size0];
   maxReadLen = 0;
   maxNameLen = 256;
   scan_libInfo(libfile);
@@ -19375,122 +19375,122 @@ extern void prlRead2edge(char *libfile, char *outfile)
     outfp=ckopen(name, "wb");
   }
 
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)(maxNameLen + 1) * sizeof(char) /*1ul*/ );
-  src_name = (char *)return_value_ckalloc$1;
-  void *return_value_ckalloc$2;
-  return_value_ckalloc$2=ckalloc((unsigned long int)(maxNameLen + 1) * sizeof(char) /*1ul*/ );
-  next_name = (char *)return_value_ckalloc$2;
-  void *return_value_ckalloc$3;
-  return_value_ckalloc$3=ckalloc((unsigned long int)buffer_size$link3 * sizeof(unsigned long long int) /*8ul*/ );
-  kmerBuffer$link3 = (unsigned long long int *)return_value_ckalloc$3;
-  void *return_value_ckalloc$4;
-  return_value_ckalloc$4=ckalloc((unsigned long int)buffer_size$link3 * sizeof(unsigned long long int) /*8ul*/ );
-  mixBuffer = (unsigned long long int *)return_value_ckalloc$4;
-  void *return_value_ckalloc$5;
-  return_value_ckalloc$5=ckalloc((unsigned long int)buffer_size$link3 * sizeof(unsigned long long int) /*8ul*/ );
-  hashBanBuffer$link3 = (unsigned long long int *)return_value_ckalloc$5;
-  void *return_value_ckalloc$6;
-  return_value_ckalloc$6=ckalloc((unsigned long int)buffer_size$link3 * sizeof(struct kmer_st *) /*8ul*/ );
-  nodeBuffer$link1 = (struct kmer_st **)return_value_ckalloc$6;
-  void *return_value_ckalloc$7;
-  return_value_ckalloc$7=ckalloc((unsigned long int)buffer_size$link3 * sizeof(char) /*1ul*/ );
-  smallerBuffer$link2 = (char *)return_value_ckalloc$7;
-  void *return_value_ckalloc$8;
-  return_value_ckalloc$8=ckalloc((unsigned long int)buffer_size$link3 * sizeof(char) /*1ul*/ );
-  flagArray = (char *)return_value_ckalloc$8;
-  maxReadNum = buffer_size$link3 / ((maxReadLen - overlaplen) + 1);
-  void *return_value_ckalloc$9;
-  return_value_ckalloc$9=ckalloc((unsigned long int)maxReadNum * sizeof(char *) /*8ul*/ );
-  seqBuffer$link3 = (char **)return_value_ckalloc$9;
-  void *return_value_ckalloc$10;
-  return_value_ckalloc$10=ckalloc((unsigned long int)maxReadNum * sizeof(signed int) /*4ul*/ );
-  lenBuffer$link3 = (signed int *)return_value_ckalloc$10;
-  void *return_value_ckalloc$11;
-  return_value_ckalloc$11=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(signed int) /*4ul*/ );
-  indexArray$link3 = (signed int *)return_value_ckalloc$11;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)(maxNameLen + 1) * sizeof(char) /*1ul*/ );
+  src_name = (char *)return_value_ckalloc_1;
+  void *return_value_ckalloc_2;
+  return_value_ckalloc_2=ckalloc((unsigned long int)(maxNameLen + 1) * sizeof(char) /*1ul*/ );
+  next_name = (char *)return_value_ckalloc_2;
+  void *return_value_ckalloc_3;
+  return_value_ckalloc_3=ckalloc((unsigned long int)buffer_size_link3 * sizeof(unsigned long long int) /*8ul*/ );
+  kmerBuffer_link3 = (unsigned long long int *)return_value_ckalloc_3;
+  void *return_value_ckalloc_4;
+  return_value_ckalloc_4=ckalloc((unsigned long int)buffer_size_link3 * sizeof(unsigned long long int) /*8ul*/ );
+  mixBuffer = (unsigned long long int *)return_value_ckalloc_4;
+  void *return_value_ckalloc_5;
+  return_value_ckalloc_5=ckalloc((unsigned long int)buffer_size_link3 * sizeof(unsigned long long int) /*8ul*/ );
+  hashBanBuffer_link3 = (unsigned long long int *)return_value_ckalloc_5;
+  void *return_value_ckalloc_6;
+  return_value_ckalloc_6=ckalloc((unsigned long int)buffer_size_link3 * sizeof(struct kmer_st *) /*8ul*/ );
+  nodeBuffer_link1 = (struct kmer_st **)return_value_ckalloc_6;
+  void *return_value_ckalloc_7;
+  return_value_ckalloc_7=ckalloc((unsigned long int)buffer_size_link3 * sizeof(char) /*1ul*/ );
+  smallerBuffer_link2 = (char *)return_value_ckalloc_7;
+  void *return_value_ckalloc_8;
+  return_value_ckalloc_8=ckalloc((unsigned long int)buffer_size_link3 * sizeof(char) /*1ul*/ );
+  flagArray = (char *)return_value_ckalloc_8;
+  maxReadNum = buffer_size_link3 / ((maxReadLen - overlaplen) + 1);
+  void *return_value_ckalloc_9;
+  return_value_ckalloc_9=ckalloc((unsigned long int)maxReadNum * sizeof(char *) /*8ul*/ );
+  seqBuffer_link3 = (char **)return_value_ckalloc_9;
+  void *return_value_ckalloc_10;
+  return_value_ckalloc_10=ckalloc((unsigned long int)maxReadNum * sizeof(signed int) /*4ul*/ );
+  lenBuffer_link3 = (signed int *)return_value_ckalloc_10;
+  void *return_value_ckalloc_11;
+  return_value_ckalloc_11=ckalloc((unsigned long int)(maxReadNum + 1) * sizeof(signed int) /*4ul*/ );
+  indexArray_link3 = (signed int *)return_value_ckalloc_11;
   i = (signed long long int)0;
   for( ; !(i >= (signed long int)maxReadNum); i = i + 1ll)
   {
-    void *return_value_ckalloc$12;
-    return_value_ckalloc$12=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
-    seqBuffer$link3[i] = (char *)return_value_ckalloc$12;
+    void *return_value_ckalloc_12;
+    return_value_ckalloc_12=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
+    seqBuffer_link3[i] = (char *)return_value_ckalloc_12;
   }
   memoAlloc4preArc();
-  void *return_value_ckalloc$13;
-  return_value_ckalloc$13=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(char *) /*8ul*/ );
-  flags = (char **)return_value_ckalloc$13;
-  void *return_value_ckalloc$14;
-  return_value_ckalloc$14=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(unsigned long long int *) /*8ul*/ );
-  edge_no = (unsigned long long int **)return_value_ckalloc$14;
-  void *return_value_ckalloc$15;
-  return_value_ckalloc$15=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(signed int) /*4ul*/ );
-  deletion$link1 = (signed int *)return_value_ckalloc$15;
-  void *return_value_ckalloc$16;
-  return_value_ckalloc$16=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(char *) /*8ul*/ );
-  rcSeq$link3 = (char **)return_value_ckalloc$16;
+  void *return_value_ckalloc_13;
+  return_value_ckalloc_13=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(char *) /*8ul*/ );
+  flags = (char **)return_value_ckalloc_13;
+  void *return_value_ckalloc_14;
+  return_value_ckalloc_14=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(unsigned long long int *) /*8ul*/ );
+  edge_no = (unsigned long long int **)return_value_ckalloc_14;
+  void *return_value_ckalloc_15;
+  return_value_ckalloc_15=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(signed int) /*4ul*/ );
+  deletion_link1 = (signed int *)return_value_ckalloc_15;
+  void *return_value_ckalloc_16;
+  return_value_ckalloc_16=ckalloc((unsigned long int)(thrd_num + 1) * sizeof(char *) /*8ul*/ );
+  rcSeq_link3 = (char **)return_value_ckalloc_16;
   if(!(repsTie == 0))
   {
-    void *return_value_ckalloc$17;
-    return_value_ckalloc$17=ckalloc((unsigned long int)(num_ed + (unsigned int)1) * sizeof(unsigned char) /*1ul*/ );
-    markerOnEdge = (unsigned char *)return_value_ckalloc$17;
+    void *return_value_ckalloc_17;
+    return_value_ckalloc_17=ckalloc((unsigned long int)(num_ed + (unsigned int)1) * sizeof(unsigned char) /*1ul*/ );
+    markerOnEdge = (unsigned char *)return_value_ckalloc_17;
     i = (signed long long int)1;
     for( ; (signed long int)num_ed >= i; i = i + 1ll)
       markerOnEdge[i] = (unsigned char)0;
-    void *return_value_ckalloc$18;
-    return_value_ckalloc$18=ckalloc((unsigned long int)((maxReadLen - overlaplen) + 1) * sizeof(unsigned int) /*4ul*/ );
-    fwriteBuf = (unsigned int *)return_value_ckalloc$18;
+    void *return_value_ckalloc_18;
+    return_value_ckalloc_18=ckalloc((unsigned long int)((maxReadLen - overlaplen) + 1) * sizeof(unsigned int) /*4ul*/ );
+    fwriteBuf = (unsigned int *)return_value_ckalloc_18;
   }
 
   thrdSignal[(signed long int)0] = (unsigned char)0;
   {
-    void *return_value_ckalloc$19;
-    return_value_ckalloc$19=ckalloc((unsigned long int)thrd_num * sizeof(struct mem_manager *) /*8ul*/ );
-    preArc_mem_managers = (struct mem_manager **)return_value_ckalloc$19;
-    void *return_value_ckalloc$20;
-    return_value_ckalloc$20=ckalloc((unsigned long int)thrd_num * sizeof(unsigned int) /*4ul*/ );
-    arcCounters = (unsigned int *)return_value_ckalloc$20;
+    void *return_value_ckalloc_19;
+    return_value_ckalloc_19=ckalloc((unsigned long int)thrd_num * sizeof(struct mem_manager *) /*8ul*/ );
+    preArc_mem_managers = (struct mem_manager **)return_value_ckalloc_19;
+    void *return_value_ckalloc_20;
+    return_value_ckalloc_20=ckalloc((unsigned long int)thrd_num * sizeof(unsigned int) /*4ul*/ );
+    arcCounters = (unsigned int *)return_value_ckalloc_20;
     i = (signed long long int)0;
     for( ; !(i >= (signed long int)thrd_num); i = i + 1ll)
     {
       arcCounters[i] = (unsigned int)0;
       preArc_mem_managers[i]=createMem_manager(100000, sizeof(struct prearc) /*16ul*/ );
-      deletion$link1[i + (signed long int)1] = 0;
-      void *return_value_ckalloc$21;
-      return_value_ckalloc$21=ckalloc((unsigned long int)(2 * maxReadLen) * sizeof(char) /*1ul*/ );
-      flags[i + (signed long int)1] = (char *)return_value_ckalloc$21;
-      void *return_value_ckalloc$22;
-      return_value_ckalloc$22=ckalloc((unsigned long int)(2 * maxReadLen) * sizeof(unsigned long long int) /*8ul*/ );
-      edge_no[i + (signed long int)1] = (unsigned long long int *)return_value_ckalloc$22;
-      void *return_value_ckalloc$23;
-      return_value_ckalloc$23=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
-      rcSeq$link3[i + (signed long int)1] = (char *)return_value_ckalloc$23;
+      deletion_link1[i + (signed long int)1] = 0;
+      void *return_value_ckalloc_21;
+      return_value_ckalloc_21=ckalloc((unsigned long int)(2 * maxReadLen) * sizeof(char) /*1ul*/ );
+      flags[i + (signed long int)1] = (char *)return_value_ckalloc_21;
+      void *return_value_ckalloc_22;
+      return_value_ckalloc_22=ckalloc((unsigned long int)(2 * maxReadLen) * sizeof(unsigned long long int) /*8ul*/ );
+      edge_no[i + (signed long int)1] = (unsigned long long int *)return_value_ckalloc_22;
+      void *return_value_ckalloc_23;
+      return_value_ckalloc_23=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
+      rcSeq_link3[i + (signed long int)1] = (char *)return_value_ckalloc_23;
       thrdSignal[i + (signed long int)1] = (unsigned char)0;
       paras[i].threadID = (unsigned char)i;
       paras[i].mainSignal = &thrdSignal[(signed long int)0];
       paras[i].selfSignal = &thrdSignal[i + (signed long int)1];
     }
-    creatThrds$link4(threads, paras);
+    creatThrds_link4(threads, paras);
   }
   {
-    deletion$link1[(signed long int)0] = 0;
-    void *return_value_ckalloc$24;
-    return_value_ckalloc$24=ckalloc((unsigned long int)(2 * maxReadLen) * sizeof(char) /*1ul*/ );
-    flags[(signed long int)0] = (char *)return_value_ckalloc$24;
-    void *return_value_ckalloc$25;
-    return_value_ckalloc$25=ckalloc((unsigned long int)(2 * maxReadLen) * sizeof(unsigned long long int) /*8ul*/ );
-    edge_no[(signed long int)0] = (unsigned long long int *)return_value_ckalloc$25;
-    void *return_value_ckalloc$26;
-    return_value_ckalloc$26=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
-    rcSeq$link3[(signed long int)0] = (char *)return_value_ckalloc$26;
+    deletion_link1[(signed long int)0] = 0;
+    void *return_value_ckalloc_24;
+    return_value_ckalloc_24=ckalloc((unsigned long int)(2 * maxReadLen) * sizeof(char) /*1ul*/ );
+    flags[(signed long int)0] = (char *)return_value_ckalloc_24;
+    void *return_value_ckalloc_25;
+    return_value_ckalloc_25=ckalloc((unsigned long int)(2 * maxReadLen) * sizeof(unsigned long long int) /*8ul*/ );
+    edge_no[(signed long int)0] = (unsigned long long int *)return_value_ckalloc_25;
+    void *return_value_ckalloc_26;
+    return_value_ckalloc_26=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
+    rcSeq_link3[(signed long int)0] = (char *)return_value_ckalloc_26;
   }
   gradsCounter = 0;
   readNumBack = (signed long long int)gradsCounter;
-  prlRead2edge$$1$$libNo = (signed int)readNumBack;
-  i = (signed long long int)prlRead2edge$$1$$libNo;
-  read_c$link3 = (signed int)i;
-  n_solexa = (signed long long int)read_c$link3;
-  kmer_c$link3 = (signed int)n_solexa;
+  prlRead2edge__1__libNo = (signed int)readNumBack;
+  i = (signed long long int)prlRead2edge__1__libNo;
+  read_c_link3 = (signed int)i;
+  n_solexa = (signed long long int)read_c_link3;
+  kmer_c_link3 = (signed int)n_solexa;
   signed int t0;
   signed int t1;
   signed int t2;
@@ -19511,7 +19511,7 @@ extern void prlRead2edge(char *libfile, char *outfile)
   time(&read_start);
   do
   {
-    flag=read1seqInLib(seqBuffer$link3[(signed long int)read_c$link3], next_name, &lenBuffer$link3[(signed long int)read_c$link3], &prlRead2edge$$1$$libNo, pairs, (unsigned char)1);
+    flag=read1seqInLib(seqBuffer_link3[(signed long int)read_c_link3], next_name, &lenBuffer_link3[(signed long int)read_c_link3], &prlRead2edge__1__libNo, pairs, (unsigned char)1);
     if((signed int)flag == 0)
       break;
 
@@ -19519,34 +19519,34 @@ extern void prlRead2edge(char *libfile, char *outfile)
     if(i % 100000000l == 0l)
       printf("--- %lldth reads\n", i);
 
-    if(lenBuffer$link3[(signed long int)read_c$link3] >= 1 + overlaplen)
+    if(lenBuffer_link3[(signed long int)read_c_link3] >= 1 + overlaplen)
     {
-      indexArray$link3[(signed long int)read_c$link3] = kmer_c$link3;
-      kmer_c$link3 = kmer_c$link3 + (lenBuffer$link3[(signed long int)read_c$link3] - overlaplen) + 1;
-      read_c$link3 = read_c$link3 + 1;
-      if(read_c$link3 == maxReadNum)
+      indexArray_link3[(signed long int)read_c_link3] = kmer_c_link3;
+      kmer_c_link3 = kmer_c_link3 + (lenBuffer_link3[(signed long int)read_c_link3] - overlaplen) + 1;
+      read_c_link3 = read_c_link3 + 1;
+      if(read_c_link3 == maxReadNum)
       {
-        indexArray$link3[(signed long int)read_c$link3] = kmer_c$link3;
+        indexArray_link3[(signed long int)read_c_link3] = kmer_c_link3;
         time(&read_end);
         t0 = t0 + (signed int)(read_end - read_start);
         time(&time_bef);
-        sendWorkSignal$link4((unsigned char)2, thrdSignal);
+        sendWorkSignal_link4((unsigned char)2, thrdSignal);
         time(&time_aft);
         t1 = t1 + (signed int)(time_aft - time_bef);
         time(&time_bef);
-        sendWorkSignal$link4((unsigned char)1, thrdSignal);
+        sendWorkSignal_link4((unsigned char)1, thrdSignal);
         time(&time_aft);
         t2 = t2 + (signed int)(time_aft - time_bef);
         time(&time_bef);
-        sendWorkSignal$link4((unsigned char)3, thrdSignal);
+        sendWorkSignal_link4((unsigned char)3, thrdSignal);
         time(&time_aft);
         t3 = t3 + (signed int)(time_aft - time_bef);
         time(&time_bef);
-        sendWorkSignal$link4((unsigned char)4, thrdSignal);
+        sendWorkSignal_link4((unsigned char)4, thrdSignal);
         time(&time_aft);
         t4 = t4 + (signed int)(time_aft - time_bef);
         time(&time_bef);
-        sendWorkSignal$link4((unsigned char)6, thrdSignal);
+        sendWorkSignal_link4((unsigned char)6, thrdSignal);
         time(&time_aft);
         t5 = t5 + (signed int)(time_aft - time_bef);
         time(&time_bef);
@@ -19555,8 +19555,8 @@ extern void prlRead2edge(char *libfile, char *outfile)
 
         time(&time_aft);
         t6 = t6 + (signed int)(time_aft - time_bef);
-        kmer_c$link3 = 0;
-        read_c$link3 = 0;
+        kmer_c_link3 = 0;
+        read_c_link3 = 0;
         time(&read_start);
       }
 
@@ -19566,22 +19566,22 @@ extern void prlRead2edge(char *libfile, char *outfile)
   while((_Bool)1);
   printf("%lld reads processed\n", i);
   printf("time %d,%d,%d,%d,%d,%d,%d\n", t0, t1, t2, t3, t4, t5, t6);
-  if(!(read_c$link3 == 0))
+  if(!(read_c_link3 == 0))
   {
-    indexArray$link3[(signed long int)read_c$link3] = kmer_c$link3;
-    sendWorkSignal$link4((unsigned char)2, thrdSignal);
-    sendWorkSignal$link4((unsigned char)1, thrdSignal);
-    sendWorkSignal$link4((unsigned char)3, thrdSignal);
-    sendWorkSignal$link4((unsigned char)4, thrdSignal);
-    sendWorkSignal$link4((unsigned char)6, thrdSignal);
+    indexArray_link3[(signed long int)read_c_link3] = kmer_c_link3;
+    sendWorkSignal_link4((unsigned char)2, thrdSignal);
+    sendWorkSignal_link4((unsigned char)1, thrdSignal);
+    sendWorkSignal_link4((unsigned char)3, thrdSignal);
+    sendWorkSignal_link4((unsigned char)4, thrdSignal);
+    sendWorkSignal_link4((unsigned char)6, thrdSignal);
     if(!(repsTie == 0))
       recordPathBin(outfp);
 
   }
 
   printf("%lld markers outputed\n", markCounter);
-  sendWorkSignal$link4((unsigned char)5, thrdSignal);
-  thread_wait$link4(threads);
+  sendWorkSignal_link4((unsigned char)5, thrdSignal);
+  thread_wait_link4(threads);
   output_arcs(outfile);
   memoFree4preArc();
   arcCounter = (signed long long int)0;
@@ -19591,13 +19591,13 @@ extern void prlRead2edge(char *libfile, char *outfile)
     arcCounter = arcCounter + (signed long long int)arcCounters[i];
     free((void *)flags[i + (signed long int)1]);
     free((void *)edge_no[i + (signed long int)1]);
-    deletion$link1[(signed long int)0] = deletion$link1[(signed long int)0] + deletion$link1[i + (signed long int)1];
-    free((void *)rcSeq$link3[i + (signed long int)1]);
+    deletion_link1[(signed long int)0] = deletion_link1[(signed long int)0] + deletion_link1[i + (signed long int)1];
+    free((void *)rcSeq_link3[i + (signed long int)1]);
   }
   free((void *)flags[(signed long int)0]);
   free((void *)edge_no[(signed long int)0]);
-  free((void *)rcSeq$link3[(signed long int)0]);
-  printf("done mapping reads, %d reads deleted, %lld arcs created\n", deletion$link1[(signed long int)0], arcCounter);
+  free((void *)rcSeq_link3[(signed long int)0]);
+  printf("done mapping reads, %d reads deleted, %lld arcs created\n", deletion_link1[(signed long int)0], arcCounter);
   if(!(repsTie == 0))
   {
     free((void *)markerOnEdge);
@@ -19605,22 +19605,22 @@ extern void prlRead2edge(char *libfile, char *outfile)
   }
 
   free((void *)arcCounters);
-  free((void *)rcSeq$link3);
+  free((void *)rcSeq_link3);
   i = (signed long long int)0;
   for( ; !(i >= (signed long int)maxReadNum); i = i + 1ll)
-    free((void *)seqBuffer$link3[i]);
-  free((void *)seqBuffer$link3);
-  free((void *)lenBuffer$link3);
-  free((void *)indexArray$link3);
+    free((void *)seqBuffer_link3[i]);
+  free((void *)seqBuffer_link3);
+  free((void *)lenBuffer_link3);
+  free((void *)indexArray_link3);
   free((void *)flags);
-  free((void *)deletion$link1);
+  free((void *)deletion_link1);
   free((void *)edge_no);
-  free((void *)kmerBuffer$link3);
+  free((void *)kmerBuffer_link3);
   free((void *)mixBuffer);
-  free((void *)smallerBuffer$link2);
+  free((void *)smallerBuffer_link2);
   free((void *)flagArray);
-  free((void *)hashBanBuffer$link3);
-  free((void *)nodeBuffer$link1);
+  free((void *)hashBanBuffer_link3);
+  free((void *)nodeBuffer_link1);
   free((void *)src_name);
   free((void *)next_name);
   if(!(repsTie == 0))
@@ -19670,69 +19670,69 @@ extern void prlReadsCloseGap(char *graphfile)
   unsigned int ctg;
   unsigned int prev_ctg = (unsigned int)0;
   char IsPrevGap;
-  const signed long int IsPrevGap$array_size0 = (signed long int)thrd_num;
-  unsigned long int threads[IsPrevGap$array_size0];
-  const signed long int threads$array_size0 = (signed long int)(thrd_num + 1);
-  unsigned char thrdSignal[threads$array_size0];
-  const signed long int thrdSignal$array_size0 = (signed long int)thrd_num;
-  struct parameter paras[thrdSignal$array_size0];
+  const signed long int IsPrevGap_array_size0 = (signed long int)thrd_num;
+  unsigned long int threads[IsPrevGap_array_size0];
+  const signed long int threads_array_size0 = (signed long int)(thrd_num + 1);
+  unsigned char thrdSignal[threads_array_size0];
+  const signed long int thrdSignal_array_size0 = (signed long int)thrd_num;
+  struct parameter paras[thrdSignal_array_size0];
   ctg = (unsigned int)1;
   for( ; num_ctg >= ctg; ctg = ctg + 1u)
     (contig_array + (signed long int)ctg)->flag = (unsigned char)0;
   MAXKMER=maxKmer();
-  struct stack *return_value_createStack$1;
-  return_value_createStack$1=createStack(1000, sizeof(struct ctg4scaf) /*20ul*/ );
-  ctgStack = (struct stack *)return_value_createStack$1;
+  struct stack *return_value_createStack_1;
+  return_value_createStack_1=createStack(1000, sizeof(struct ctg4scaf) /*20ul*/ );
+  ctgStack = (struct stack *)return_value_createStack_1;
   sprintf(line, "%s.scaf_gap", graphfile);
   fp=ckopen(line, "r");
   sprintf(line, "%s.scafSeq", graphfile);
   fo=ckopen(line, "w");
   sprintf(line, "%s.gapSeq", graphfile);
   fo2=ckopen(line, "w");
-  pthread_mutex_init(&mutex, (const union anonymous$0 *)(void *)0);
-  void *return_value_ckalloc$2;
-  return_value_ckalloc$2=ckalloc((unsigned long int)scafBufSize * sizeof(char) /*1ul*/ );
-  flagBuf = (char *)return_value_ckalloc$2;
-  void *return_value_ckalloc$3;
-  return_value_ckalloc$3=ckalloc((unsigned long int)scafBufSize * sizeof(unsigned char) /*1ul*/ );
-  thrdNoBuf = (unsigned char *)return_value_ckalloc$3;
+  pthread_mutex_init(&mutex, (const union anonymous_0 *)(void *)0);
+  void *return_value_ckalloc_2;
+  return_value_ckalloc_2=ckalloc((unsigned long int)scafBufSize * sizeof(char) /*1ul*/ );
+  flagBuf = (char *)return_value_ckalloc_2;
+  void *return_value_ckalloc_3;
+  return_value_ckalloc_3=ckalloc((unsigned long int)scafBufSize * sizeof(unsigned char) /*1ul*/ );
+  thrdNoBuf = (unsigned char *)return_value_ckalloc_3;
   memset((void *)thrdNoBuf, 0, (unsigned long int)scafBufSize * sizeof(char) /*1ul*/ );
-  void *return_value_ckalloc$4;
-  return_value_ckalloc$4=ckalloc((unsigned long int)scafBufSize * sizeof(struct stack *) /*8ul*/ );
-  ctgStackBuffer = (struct stack **)return_value_ckalloc$4;
+  void *return_value_ckalloc_4;
+  return_value_ckalloc_4=ckalloc((unsigned long int)scafBufSize * sizeof(struct stack *) /*8ul*/ );
+  ctgStackBuffer = (struct stack **)return_value_ckalloc_4;
   initStackBuf(ctgStackBuffer, scafBufSize);
-  void *return_value_ckalloc$5;
-  return_value_ckalloc$5=ckalloc((unsigned long int)thrd_num * sizeof(struct dynamic_array *) /*8ul*/ );
-  darrayBuf = (struct dynamic_array **)return_value_ckalloc$5;
-  void *return_value_ckalloc$6;
-  return_value_ckalloc$6=ckalloc((unsigned long int)thrd_num * sizeof(signed int) /*4ul*/ );
-  counters = (signed int *)return_value_ckalloc$6;
+  void *return_value_ckalloc_5;
+  return_value_ckalloc_5=ckalloc((unsigned long int)thrd_num * sizeof(struct dynamic_array *) /*8ul*/ );
+  darrayBuf = (struct dynamic_array **)return_value_ckalloc_5;
+  void *return_value_ckalloc_6;
+  return_value_ckalloc_6=ckalloc((unsigned long int)thrd_num * sizeof(signed int) /*4ul*/ );
+  counters = (signed int *)return_value_ckalloc_6;
   i = 0;
   for( ; !(i >= thrd_num); i = i + 1)
   {
     counters[(signed long int)i] = 0;
-    struct dynamic_array *return_value_createDarray$7;
-    return_value_createDarray$7=createDarray(100000, sizeof(char) /*1ul*/ );
-    darrayBuf[(signed long int)i] = (struct dynamic_array *)return_value_createDarray$7;
+    struct dynamic_array *return_value_createDarray_7;
+    return_value_createDarray_7=createDarray(100000, sizeof(char) /*1ul*/ );
+    darrayBuf[(signed long int)i] = (struct dynamic_array *)return_value_createDarray_7;
     thrdSignal[(signed long int)(i + 1)] = (unsigned char)0;
     paras[(signed long int)i].threadID = (unsigned char)i;
     paras[(signed long int)i].mainSignal = &thrdSignal[(signed long int)0];
     paras[(signed long int)i].selfSignal = &thrdSignal[(signed long int)(i + 1)];
   }
   if(!(fillGap == 0))
-    creatThrds$link5(threads, paras);
+    creatThrds_link5(threads, paras);
 
   allGaps = 0;
   scafInBuf = allGaps;
   scafCounter = scafInBuf;
   Ncounter = scafCounter;
-  char *return_value_fgets$8;
-  signed int tmp_post$9;
-  _Bool tmp_if_expr$11;
+  char *return_value_fgets_8;
+  signed int tmp_post_9;
+  _Bool tmp_if_expr_11;
   do
   {
-    return_value_fgets$8=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
-    if(return_value_fgets$8 == ((char *)NULL))
+    return_value_fgets_8=fgets(line, (signed int)sizeof(char [1024l]) /*1024ul*/ , fp);
+    if(return_value_fgets_8 == ((char *)NULL))
       break;
 
     if((signed int)line[0l] == 62)
@@ -19740,14 +19740,14 @@ extern void prlReadsCloseGap(char *graphfile)
       if(!(index == 0))
       {
         aStack = ctgStackBuffer[(signed long int)scafInBuf];
-        tmp_post$9 = scafInBuf;
+        tmp_post_9 = scafInBuf;
         scafInBuf = scafInBuf + 1;
-        flagBuf[(signed long int)tmp_post$9] = (char)0;
+        flagBuf[(signed long int)tmp_post_9] = (char)0;
         reverseStack(aStack, ctgStack);
         if(scafInBuf == scafBufSize)
         {
           if(!(fillGap == 0))
-            sendWorkSignal$link5((unsigned char)1, thrdSignal);
+            sendWorkSignal_link5((unsigned char)1, thrdSignal);
 
           outputSeqs(fo, fo2, scafInBuf);
           scafCounter = scafCounter + scafInBuf;
@@ -19783,9 +19783,9 @@ extern void prlReadsCloseGap(char *graphfile)
           if(!((signed int)line[0l] >= 58))
           {
             sscanf(line, "%d %d", &ctg, &starter);
-            void *return_value_stackPush$10;
-            return_value_stackPush$10=stackPush(ctgStack);
-            actg = (struct ctg4scaf *)return_value_stackPush$10;
+            void *return_value_stackPush_10;
+            return_value_stackPush_10=stackPush(ctgStack);
+            actg = (struct ctg4scaf *)return_value_stackPush_10;
             actg->ctgID = ctg;
             if(!((contig_array + (signed long int)ctg)->flag == 0))
               MaskContig(ctg);
@@ -19803,11 +19803,11 @@ extern void prlReadsCloseGap(char *graphfile)
             if(IsPrevGap == 0)
             {
               if(!(prev_ctg == 0u))
-                tmp_if_expr$11 = (starter - prev_start) - (signed int)(contig_array + (signed long int)prev_ctg)->length < (signed int)overlaplen * 4 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_11 = (starter - prev_start) - (signed int)(contig_array + (signed long int)prev_ctg)->length < (signed int)overlaplen * 4 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$11 = (_Bool)0;
-              if(tmp_if_expr$11)
+                tmp_if_expr_11 = (_Bool)0;
+              if(tmp_if_expr_11)
               {
                 catchable = 0;
                 if(!(catchable == 0))
@@ -19843,36 +19843,36 @@ extern void prlReadsCloseGap(char *graphfile)
 
   }
   while((_Bool)1);
-  signed int tmp_post$12;
+  signed int tmp_post_12;
   if(!(index == 0))
   {
     aStack = ctgStackBuffer[(signed long int)scafInBuf];
-    tmp_post$12 = scafInBuf;
+    tmp_post_12 = scafInBuf;
     scafInBuf = scafInBuf + 1;
-    flagBuf[(signed long int)tmp_post$12] = (char)0;
+    flagBuf[(signed long int)tmp_post_12] = (char)0;
     reverseStack(aStack, ctgStack);
     if(!(fillGap == 0))
-      sendWorkSignal$link5((unsigned char)1, thrdSignal);
+      sendWorkSignal_link5((unsigned char)1, thrdSignal);
 
     outputSeqs(fo, fo2, scafInBuf);
   }
 
   if(!(fillGap == 0))
   {
-    sendWorkSignal$link5((unsigned char)2, thrdSignal);
-    thread_wait$link5(threads);
+    sendWorkSignal_link5((unsigned char)2, thrdSignal);
+    thread_wait_link5(threads);
   }
 
   ctg = (unsigned int)1;
-  _Bool tmp_if_expr$13;
+  _Bool tmp_if_expr_13;
   for( ; num_ctg >= ctg; ctg = ctg + 1u)
   {
     if(!((contig_array + (signed long int)ctg)->length + (unsigned int)overlaplen >= 100u))
-      tmp_if_expr$13 = (_Bool)1;
+      tmp_if_expr_13 = (_Bool)1;
 
     else
-      tmp_if_expr$13 = (contig_array + (signed long int)ctg)->flag != 0 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$13)
+      tmp_if_expr_13 = (contig_array + (signed long int)ctg)->flag != 0 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_13)
       output_ctg(ctg, fo);
 
   }
@@ -19916,9 +19916,9 @@ static signed int procGap(char *line, struct stack *ctgsStack)
   struct ctg4scaf *ctgPt;
   tp=strtok(line, " ");
   tp=strtok((char *)(void *)0, " ");
-  length=atoi$link9(tp);
+  length=atoi_link9(tp);
   tp=strtok((char *)(void *)0, " ");
-  seg=atoi$link9(tp);
+  seg=atoi_link9(tp);
   if(seg == 0)
     return length;
 
@@ -19928,13 +19928,13 @@ static signed int procGap(char *line, struct stack *ctgsStack)
     for( ; !(i >= seg); i = i + 1)
     {
       tp=strtok((char *)(void *)0, " ");
-      signed int return_value_atoi$1;
-      return_value_atoi$1=atoi$link9(tp);
-      ctg = (unsigned int)return_value_atoi$1;
+      signed int return_value_atoi_1;
+      return_value_atoi_1=atoi_link9(tp);
+      ctg = (unsigned int)return_value_atoi_1;
       MarkCtgOccu(ctg);
-      void *return_value_stackPush$2;
-      return_value_stackPush$2=stackPush(ctgsStack);
-      ctgPt = (struct ctg4scaf *)return_value_stackPush$2;
+      void *return_value_stackPush_2;
+      return_value_stackPush_2=stackPush(ctgsStack);
+      ctgPt = (struct ctg4scaf *)return_value_stackPush_2;
       initiateCtgInScaf(ctgPt);
       ctgPt->ctgID = ctg;
       ctgPt->start = 0;
@@ -20012,25 +20012,25 @@ static char putItem2Sarray(unsigned int scaf, signed int wt, struct dynamic_arra
   i = 0;
   for( ; !(i >= counter); i = i + 1)
   {
-    void *return_value_darrayGet$1;
-    return_value_darrayGet$1=darrayGet(SCAF, (signed long long int)i);
-    scafP = (unsigned int *)return_value_darrayGet$1;
+    void *return_value_darrayGet_1;
+    return_value_darrayGet_1=darrayGet(SCAF, (signed long long int)i);
+    scafP = (unsigned int *)return_value_darrayGet_1;
     if(*scafP == scaf)
     {
-      void *return_value_darrayGet$2;
-      return_value_darrayGet$2=darrayGet(WT, (signed long long int)i);
-      wtP = (unsigned int *)return_value_darrayGet$2;
+      void *return_value_darrayGet_2;
+      return_value_darrayGet_2=darrayGet(WT, (signed long long int)i);
+      wtP = (unsigned int *)return_value_darrayGet_2;
       *wtP = *wtP + (unsigned int)wt;
       return (char)0;
     }
 
   }
-  void *return_value_darrayPut$3;
-  return_value_darrayPut$3=darrayPut(SCAF, (signed long long int)counter);
-  scafP = (unsigned int *)return_value_darrayPut$3;
-  void *return_value_darrayPut$4;
-  return_value_darrayPut$4=darrayPut(WT, (signed long long int)counter);
-  wtP = (unsigned int *)return_value_darrayPut$4;
+  void *return_value_darrayPut_3;
+  return_value_darrayPut_3=darrayPut(SCAF, (signed long long int)counter);
+  scafP = (unsigned int *)return_value_darrayPut_3;
+  void *return_value_darrayPut_4;
+  return_value_darrayPut_4=darrayPut(WT, (signed long long int)counter);
+  wtP = (unsigned int *)return_value_darrayPut_4;
   *scafP = scaf;
   *wtP = (unsigned int)wt;
   return (char)1;
@@ -20054,15 +20054,15 @@ static char putNodeInArray(unsigned int node, signed int maxNodes, signed int di
 
   else
   {
-    signed int index = nodeCounter$link1;
+    signed int index = nodeCounter_link1;
     if(!(maxNodes >= index))
       return (char)0;
 
     else
     {
-      unsigned int return_value_getTwinCtg$1;
-      return_value_getTwinCtg$1=getTwinCtg(node);
-      if(!((contig_array + (signed long int)return_value_getTwinCtg$1)->inSubGraph == 0))
+      unsigned int return_value_getTwinCtg_1;
+      return_value_getTwinCtg_1=getTwinCtg(node);
+      if(!((contig_array + (signed long int)return_value_getTwinCtg_1)->inSubGraph == 0))
         return (char)0;
 
       else
@@ -20145,8 +20145,8 @@ void quick_sort_int(unsigned int *length_array, signed int low, signed int high)
   signed int i;
   signed int j;
   unsigned long long int pivot;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
   if(!(low >= high))
   {
     pivot = (unsigned long long int)length_array[(signed long int)low];
@@ -20160,9 +20160,9 @@ void quick_sort_int(unsigned int *length_array, signed int low, signed int high)
 
       if(!(i >= j))
       {
-        tmp_post$1 = i;
+        tmp_post_1 = i;
         i = i + 1;
-        length_array[(signed long int)tmp_post$1] = length_array[(signed long int)j];
+        length_array[(signed long int)tmp_post_1] = length_array[(signed long int)j];
       }
 
       for( ; !(i >= j); i = i + 1)
@@ -20171,9 +20171,9 @@ void quick_sort_int(unsigned int *length_array, signed int low, signed int high)
 
       if(!(i >= j))
       {
-        tmp_post$2 = j;
+        tmp_post_2 = j;
         j = j - 1;
-        length_array[(signed long int)tmp_post$2] = length_array[(signed long int)i];
+        length_array[(signed long int)tmp_post_2] = length_array[(signed long int)i];
       }
 
     }
@@ -20190,71 +20190,71 @@ extern char read1seqInLib(char *src_seq, char *src_name, signed int *len_seq, si
 {
   signed int i = *libNo;
   signed int prevLib = i;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  signed int return_value_feof$6;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  signed int return_value_feof_6;
   if((lib_array + (signed long int)i)->fp1 == ((struct _IO_FILE *)NULL))
-    tmp_if_expr$8 = (_Bool)1;
+    tmp_if_expr_8 = (_Bool)1;
 
   else
   {
     if(!((lib_array + (signed long int)i)->curr_type == 1))
     {
-      return_value_feof$6=feof((lib_array + (signed long int)i)->fp1);
-      tmp_if_expr$7 = return_value_feof$6 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_feof_6=feof((lib_array + (signed long int)i)->fp1);
+      tmp_if_expr_7 = return_value_feof_6 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_7 = (_Bool)0;
+    tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$10;
-  signed int return_value_feof$9;
-  _Bool tmp_if_expr$12;
-  signed int return_value_feof$11;
-  if(tmp_if_expr$8)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_10;
+  signed int return_value_feof_9;
+  _Bool tmp_if_expr_12;
+  signed int return_value_feof_11;
+  if(tmp_if_expr_8)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
     if((lib_array + (signed long int)i)->curr_type == 1)
     {
-      return_value_feof$9=feof((lib_array + (signed long int)i)->fp1);
-      tmp_if_expr$10 = return_value_feof$9 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_feof_9=feof((lib_array + (signed long int)i)->fp1);
+      tmp_if_expr_10 = return_value_feof_9 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$10 = (_Bool)0;
-    if(tmp_if_expr$10)
+      tmp_if_expr_10 = (_Bool)0;
+    if(tmp_if_expr_10)
     {
-      return_value_feof$11=feof((lib_array + (signed long int)i)->fp2);
-      tmp_if_expr$12 = return_value_feof$11 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_feof_11=feof((lib_array + (signed long int)i)->fp2);
+      tmp_if_expr_12 = return_value_feof_11 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$12 = (_Bool)0;
-    tmp_if_expr$13 = tmp_if_expr$12 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_12 = (_Bool)0;
+    tmp_if_expr_13 = tmp_if_expr_12 ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_feof$1;
-  signed int return_value_feof$2;
-  signed int tmp_if_expr$3;
-  signed int tmp_post$4;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$13)
+  signed int return_value_feof_1;
+  signed int return_value_feof_2;
+  signed int tmp_if_expr_3;
+  signed int tmp_post_4;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_13)
   {
     if(!((lib_array + (signed long int)i)->fp1 == ((struct _IO_FILE *)NULL)))
     {
-      return_value_feof$1=feof((lib_array + (signed long int)i)->fp1);
-      if(!(return_value_feof$1 == 0))
+      return_value_feof_1=feof((lib_array + (signed long int)i)->fp1);
+      if(!(return_value_feof_1 == 0))
         closeFp1InLab(i);
 
     }
 
     if(!((lib_array + (signed long int)i)->fp2 == ((struct _IO_FILE *)NULL)))
     {
-      return_value_feof$2=feof((lib_array + (signed long int)i)->fp2);
-      if(!(return_value_feof$2 == 0))
+      return_value_feof_2=feof((lib_array + (signed long int)i)->fp2);
+      if(!(return_value_feof_2 == 0))
         closeFp2InLab(i);
 
     }
@@ -20264,11 +20264,11 @@ extern char read1seqInLib(char *src_seq, char *src_name, signed int *len_seq, si
     if((lib_array + (signed long int)i)->rd_len_cutoff >= 1)
     {
       if(!((lib_array + (signed long int)i)->rd_len_cutoff >= maxReadLen4all))
-        tmp_if_expr$3 = (lib_array + (signed long int)i)->rd_len_cutoff;
+        tmp_if_expr_3 = (lib_array + (signed long int)i)->rd_len_cutoff;
 
       else
-        tmp_if_expr$3 = maxReadLen4all;
-      maxReadLen = tmp_if_expr$3;
+        tmp_if_expr_3 = maxReadLen4all;
+      maxReadLen = tmp_if_expr_3;
     }
 
     else
@@ -20280,9 +20280,9 @@ extern char read1seqInLib(char *src_seq, char *src_name, signed int *len_seq, si
         (pes + (signed long int)gradsCounter)->PE_bound = n_solexa;
         (pes + (signed long int)gradsCounter)->rank = (lib_array + (signed long int)prevLib)->rank;
         (pes + (signed long int)gradsCounter)->pair_num_cut = (lib_array + (signed long int)prevLib)->pair_num_cut;
-        tmp_post$4 = gradsCounter;
+        tmp_post_4 = gradsCounter;
         gradsCounter = gradsCounter + 1;
-        (pes + (signed long int)tmp_post$4)->insertS = (lib_array + (signed long int)prevLib)->avg_ins;
+        (pes + (signed long int)tmp_post_4)->insertS = (lib_array + (signed long int)prevLib)->avg_ins;
         readNumBack = n_solexa;
       }
 
@@ -20301,22 +20301,22 @@ extern char read1seqInLib(char *src_seq, char *src_name, signed int *len_seq, si
     else
     {
       if((lib_array + (signed long int)i)->curr_type == 3)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (lib_array + (signed long int)i)->curr_type == 4 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (lib_array + (signed long int)i)->curr_type == 4 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
         readseq1by1(src_seq, src_name, len_seq, (lib_array + (signed long int)i)->fp1, (signed long long int)-1);
 
     }
   }
 
-  _Bool tmp_if_expr$16;
-  signed int return_value_feof$15;
-  _Bool tmp_if_expr$19;
-  signed int return_value_feof$18;
-  _Bool tmp_if_expr$22;
-  signed int return_value_feof$21;
+  _Bool tmp_if_expr_16;
+  signed int return_value_feof_15;
+  _Bool tmp_if_expr_19;
+  signed int return_value_feof_18;
+  _Bool tmp_if_expr_22;
+  signed int return_value_feof_21;
   if((lib_array + (signed long int)i)->curr_type == 1)
   {
     if((lib_array + (signed long int)i)->paired == 1)
@@ -20327,14 +20327,14 @@ extern char read1seqInLib(char *src_seq, char *src_name, signed int *len_seq, si
 
       (lib_array + (signed long int)i)->paired = 2;
       if(*len_seq >= 1)
-        tmp_if_expr$16 = (_Bool)1;
+        tmp_if_expr_16 = (_Bool)1;
 
       else
       {
-        return_value_feof$15=feof((lib_array + (signed long int)i)->fp1);
-        tmp_if_expr$16 = !(return_value_feof$15 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_feof_15=feof((lib_array + (signed long int)i)->fp1);
+        tmp_if_expr_16 = !(return_value_feof_15 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$16)
+      if(tmp_if_expr_16)
       {
         n_solexa = n_solexa + 1ll;
         return (char)1;
@@ -20342,9 +20342,9 @@ extern char read1seqInLib(char *src_seq, char *src_name, signed int *len_seq, si
 
       else
       {
-        char return_value_read1seqInLib$14;
-        return_value_read1seqInLib$14=read1seqInLib(src_seq, src_name, len_seq, libNo, pair, asm_ctg);
-        return return_value_read1seqInLib$14;
+        char return_value_read1seqInLib_14;
+        return_value_read1seqInLib_14=read1seqInLib(src_seq, src_name, len_seq, libNo, pair, asm_ctg);
+        return return_value_read1seqInLib_14;
       }
     }
 
@@ -20368,14 +20368,14 @@ extern char read1seqInLib(char *src_seq, char *src_name, signed int *len_seq, si
 
         (lib_array + (signed long int)i)->paired = 2;
         if(*len_seq >= 1)
-          tmp_if_expr$19 = (_Bool)1;
+          tmp_if_expr_19 = (_Bool)1;
 
         else
         {
-          return_value_feof$18=feof((lib_array + (signed long int)i)->fp1);
-          tmp_if_expr$19 = !(return_value_feof$18 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_feof_18=feof((lib_array + (signed long int)i)->fp1);
+          tmp_if_expr_19 = !(return_value_feof_18 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$19)
+        if(tmp_if_expr_19)
         {
           n_solexa = n_solexa + 1ll;
           return (char)1;
@@ -20383,9 +20383,9 @@ extern char read1seqInLib(char *src_seq, char *src_name, signed int *len_seq, si
 
         else
         {
-          char return_value_read1seqInLib$17;
-          return_value_read1seqInLib$17=read1seqInLib(src_seq, src_name, len_seq, libNo, pair, asm_ctg);
-          return return_value_read1seqInLib$17;
+          char return_value_read1seqInLib_17;
+          return_value_read1seqInLib_17=read1seqInLib(src_seq, src_name, len_seq, libNo, pair, asm_ctg);
+          return return_value_read1seqInLib_17;
         }
       }
 
@@ -20409,14 +20409,14 @@ extern char read1seqInLib(char *src_seq, char *src_name, signed int *len_seq, si
         reverse2k(src_seq, *len_seq);
 
       if(*len_seq >= 1)
-        tmp_if_expr$22 = (_Bool)1;
+        tmp_if_expr_22 = (_Bool)1;
 
       else
       {
-        return_value_feof$21=feof((lib_array + (signed long int)i)->fp1);
-        tmp_if_expr$22 = !(return_value_feof$21 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_feof_21=feof((lib_array + (signed long int)i)->fp1);
+        tmp_if_expr_22 = !(return_value_feof_21 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$22)
+      if(tmp_if_expr_22)
       {
         n_solexa = n_solexa + 1ll;
         return (char)1;
@@ -20424,9 +20424,9 @@ extern char read1seqInLib(char *src_seq, char *src_name, signed int *len_seq, si
 
       else
       {
-        char return_value_read1seqInLib$20;
-        return_value_read1seqInLib$20=read1seqInLib(src_seq, src_name, len_seq, libNo, pair, asm_ctg);
-        return return_value_read1seqInLib$20;
+        char return_value_read1seqInLib_20;
+        return_value_read1seqInLib_20=read1seqInLib(src_seq, src_name, len_seq, libNo, pair, asm_ctg);
+        return return_value_read1seqInLib_20;
       }
     }
 }
@@ -20441,11 +20441,11 @@ void read1seqfq(char *src_seq, char *src_name, signed int *len_seq, struct _IO_F
   char c;
   char str[5000l];
   char flag = (char)0;
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   do
   {
-    return_value_fgets$1=fgets(str, 4950, fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(str, 4950, fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     if((signed int)str[0l] == 64)
@@ -20457,12 +20457,12 @@ void read1seqfq(char *src_seq, char *src_name, signed int *len_seq, struct _IO_F
 
   }
   while((_Bool)1);
-  char *return_value_fgets$2;
-  _Bool tmp_if_expr$8;
-  signed int tmp_post$4;
-  _Bool tmp_if_expr$7;
-  signed int tmp_post$5;
-  signed int tmp_post$6;
+  char *return_value_fgets_2;
+  _Bool tmp_if_expr_8;
+  signed int tmp_post_4;
+  _Bool tmp_if_expr_7;
+  signed int tmp_post_5;
+  signed int tmp_post_6;
   if(flag == 0)
     *len_seq = 0;
 
@@ -20471,8 +20471,8 @@ void read1seqfq(char *src_seq, char *src_name, signed int *len_seq, struct _IO_F
     n = 0;
     do
     {
-      return_value_fgets$2=fgets(str, 4950, fp);
-      if(return_value_fgets$2 == ((char *)NULL))
+      return_value_fgets_2=fgets(str, 4950, fp);
+      if(return_value_fgets_2 == ((char *)NULL))
         break;
 
       if((signed int)str[0l] == 43)
@@ -20484,9 +20484,9 @@ void read1seqfq(char *src_seq, char *src_name, signed int *len_seq, struct _IO_F
 
       else
       {
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(str);
-        strL = (signed int)return_value_strlen$3;
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(str);
+        strL = (signed int)return_value_strlen_3;
         if(!(maxReadLen >= n + strL))
           strL = maxReadLen - n;
 
@@ -20494,40 +20494,40 @@ void read1seqfq(char *src_seq, char *src_name, signed int *len_seq, struct _IO_F
         for( ; !(i >= strL); i = i + 1)
         {
           if((signed int)str[(signed long int)i] >= 97)
-            tmp_if_expr$8 = (signed int)str[(signed long int)i] <= 122 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_8 = (signed int)str[(signed long int)i] <= 122 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$8 = (_Bool)0;
-          if(tmp_if_expr$8)
+            tmp_if_expr_8 = (_Bool)0;
+          if(tmp_if_expr_8)
           {
             c = (char)((((signed int)str[(signed long int)i] - 97) + 65 & 0x06) >> 1);
-            tmp_post$4 = n;
+            tmp_post_4 = n;
             n = n + 1;
-            src_seq[(signed long int)tmp_post$4] = c;
+            src_seq[(signed long int)tmp_post_4] = c;
           }
 
           else
           {
             if((signed int)str[(signed long int)i] >= 65)
-              tmp_if_expr$7 = (signed int)str[(signed long int)i] <= 90 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_7 = (signed int)str[(signed long int)i] <= 90 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$7 = (_Bool)0;
-            if(tmp_if_expr$7)
+              tmp_if_expr_7 = (_Bool)0;
+            if(tmp_if_expr_7)
             {
               c = (char)(((signed int)str[(signed long int)i] & 0x06) >> 1);
-              tmp_post$5 = n;
+              tmp_post_5 = n;
               n = n + 1;
-              src_seq[(signed long int)tmp_post$5] = c;
+              src_seq[(signed long int)tmp_post_5] = c;
             }
 
             else
               if((signed int)str[(signed long int)i] == 46)
               {
                 c = (char)((65 & 0x06) >> 1);
-                tmp_post$6 = n;
+                tmp_post_6 = n;
                 n = n + 1;
-                src_seq[(signed long int)tmp_post$6] = c;
+                src_seq[(signed long int)tmp_post_6] = c;
               }
 
           }
@@ -20576,9 +20576,9 @@ extern void read_one_sequence(struct _IO_FILE *fp, signed long long int *T, char
   signed int len;
   signed int name_len;
   signed int min_len;
-  signed long long int return_value_readseqpar$1;
-  return_value_readseqpar$1=readseqpar(&len, &min_len, &name_len, fp);
-  num_seq = (signed int)return_value_readseqpar$1;
+  signed long long int return_value_readseqpar_1;
+  return_value_readseqpar_1=readseqpar(&len, &min_len, &name_len, fp);
+  num_seq = (signed int)return_value_readseqpar_1;
   if(!(num_seq >= 1))
   {
     printf("no fasta sequence in file\n");
@@ -20587,12 +20587,12 @@ extern void read_one_sequence(struct _IO_FILE *fp, signed long long int *T, char
 
   else
   {
-    void *return_value_ckalloc$2;
-    return_value_ckalloc$2=ckalloc((unsigned long int)len * sizeof(char) /*1ul*/ );
-    fasta = (char *)return_value_ckalloc$2;
-    void *return_value_ckalloc$3;
-    return_value_ckalloc$3=ckalloc((unsigned long int)(name_len + 1) * sizeof(char) /*1ul*/ );
-    src_name = (char *)return_value_ckalloc$3;
+    void *return_value_ckalloc_2;
+    return_value_ckalloc_2=ckalloc((unsigned long int)len * sizeof(char) /*1ul*/ );
+    fasta = (char *)return_value_ckalloc_2;
+    void *return_value_ckalloc_3;
+    return_value_ckalloc_3=ckalloc((unsigned long int)(name_len + 1) * sizeof(char) /*1ul*/ );
+    src_name = (char *)return_value_ckalloc_3;
     rewind(fp);
     readseq1by1(fasta, src_name, &len, fp, (signed long long int)-1);
     readseq1by1(fasta, src_name, &len, fp, (signed long long int)0);
@@ -20622,11 +20622,11 @@ static char readsCrossGap(struct read_nearby *rdArray, signed int num, signed in
   signed int maxIndex;
   signed int lenCtg1;
   signed int lenCtg2;
-  signed int readsCrossGap$$1$$buffer_size = maxReadLen > 100 ? maxReadLen : 100;
+  signed int readsCrossGap__1__buffer_size = maxReadLen > 100 ? maxReadLen : 100;
   signed int length = (signed int)((contig_array + (signed long int)ctg1->ctgID)->length + (unsigned int)originOverlap);
-  if(!(offset1 >= readsCrossGap$$1$$buffer_size))
+  if(!(offset1 >= readsCrossGap__1__buffer_size))
   {
-    lenCtg1=cutSeqFromCtg(ctg1->ctgID, (length - cut1) - (readsCrossGap$$1$$buffer_size - offset1), (length - 1) - cut1, seqCtg1, originOverlap);
+    lenCtg1=cutSeqFromCtg(ctg1->ctgID, (length - cut1) - (readsCrossGap__1__buffer_size - offset1), (length - 1) - cut1, seqCtg1, originOverlap);
     i = 0;
     for( ; !(i >= offset1); i = i + 1)
       seqCtg1[(signed long int)(lenCtg1 + i)] = seqGap[(signed long int)i];
@@ -20635,15 +20635,15 @@ static char readsCrossGap(struct read_nearby *rdArray, signed int num, signed in
 
   else
   {
-    i = offset1 - readsCrossGap$$1$$buffer_size;
+    i = offset1 - readsCrossGap__1__buffer_size;
     for( ; !(i >= offset1); i = i + 1)
-      seqCtg1[(signed long int)((i + readsCrossGap$$1$$buffer_size) - offset1)] = seqGap[(signed long int)i];
-    lenCtg1 = readsCrossGap$$1$$buffer_size;
+      seqCtg1[(signed long int)((i + readsCrossGap__1__buffer_size) - offset1)] = seqGap[(signed long int)i];
+    lenCtg1 = readsCrossGap__1__buffer_size;
   }
   length = (signed int)((contig_array + (signed long int)ctg2->ctgID)->length + (unsigned int)originOverlap);
-  if(!(offset2 >= readsCrossGap$$1$$buffer_size))
+  if(!(offset2 >= readsCrossGap__1__buffer_size))
   {
-    lenCtg2=cutSeqFromCtg(ctg2->ctgID, cut2, ((readsCrossGap$$1$$buffer_size - offset2) - 1) + cut2, &seqCtg2[(signed long int)offset2], originOverlap);
+    lenCtg2=cutSeqFromCtg(ctg2->ctgID, cut2, ((readsCrossGap__1__buffer_size - offset2) - 1) + cut2, &seqCtg2[(signed long int)offset2], originOverlap);
     i = 0;
     for( ; !(i >= offset2); i = i + 1)
       seqCtg2[(signed long int)i] = seqGap[(signed long int)(i + offset1)];
@@ -20653,9 +20653,9 @@ static char readsCrossGap(struct read_nearby *rdArray, signed int num, signed in
   else
   {
     i = 0;
-    for( ; !(i >= readsCrossGap$$1$$buffer_size); i = i + 1)
+    for( ; !(i >= readsCrossGap__1__buffer_size); i = i + 1)
       seqCtg2[(signed long int)i] = seqGap[(signed long int)(i + offset1)];
-    lenCtg2 = readsCrossGap$$1$$buffer_size;
+    lenCtg2 = readsCrossGap__1__buffer_size;
   }
   signed int len1;
   signed int len2;
@@ -20665,40 +20665,40 @@ static char readsCrossGap(struct read_nearby *rdArray, signed int num, signed in
   chopKmer4Ctg(kmerCtg2, len2, overlap, seqCtg2, WordFilter);
   len1 = len1 - (overlap - 1);
   len2 = len2 - (overlap - 1);
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
-  src_seq = (char *)return_value_ckalloc$1;
-  void *return_value_ckalloc$2;
-  return_value_ckalloc$2=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
-  bal_seq = (char *)return_value_ckalloc$2;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
+  src_seq = (char *)return_value_ckalloc_1;
+  void *return_value_ckalloc_2;
+  return_value_ckalloc_2=ckalloc((unsigned long int)maxReadLen * sizeof(char) /*1ul*/ );
+  bal_seq = (char *)return_value_ckalloc_2;
   signed int *START;
-  void *return_value_ckalloc$3;
-  return_value_ckalloc$3=ckalloc((unsigned long int)num * sizeof(signed int) /*4ul*/ );
-  START = (signed int *)return_value_ckalloc$3;
+  void *return_value_ckalloc_3;
+  return_value_ckalloc_3=ckalloc((unsigned long int)num * sizeof(signed int) /*4ul*/ );
+  START = (signed int *)return_value_ckalloc_3;
   signed int *END;
-  void *return_value_ckalloc$4;
-  return_value_ckalloc$4=ckalloc((unsigned long int)num * sizeof(signed int) /*4ul*/ );
-  END = (signed int *)return_value_ckalloc$4;
+  void *return_value_ckalloc_4;
+  return_value_ckalloc_4=ckalloc((unsigned long int)num * sizeof(signed int) /*4ul*/ );
+  END = (signed int *)return_value_ckalloc_4;
   signed int *INDEX1;
-  void *return_value_ckalloc$5;
-  return_value_ckalloc$5=ckalloc((unsigned long int)num * sizeof(signed int) /*4ul*/ );
-  INDEX1 = (signed int *)return_value_ckalloc$5;
+  void *return_value_ckalloc_5;
+  return_value_ckalloc_5=ckalloc((unsigned long int)num * sizeof(signed int) /*4ul*/ );
+  INDEX1 = (signed int *)return_value_ckalloc_5;
   signed int *INDEX2;
-  void *return_value_ckalloc$6;
-  return_value_ckalloc$6=ckalloc((unsigned long int)num * sizeof(signed int) /*4ul*/ );
-  INDEX2 = (signed int *)return_value_ckalloc$6;
+  void *return_value_ckalloc_6;
+  return_value_ckalloc_6=ckalloc((unsigned long int)num * sizeof(signed int) /*4ul*/ );
+  INDEX2 = (signed int *)return_value_ckalloc_6;
   double *SCORE;
-  void *return_value_ckalloc$7;
-  return_value_ckalloc$7=ckalloc((unsigned long int)num * sizeof(double) /*8ul*/ );
-  SCORE = (double *)return_value_ckalloc$7;
+  void *return_value_ckalloc_7;
+  return_value_ckalloc_7=ckalloc((unsigned long int)num * sizeof(double) /*8ul*/ );
+  SCORE = (double *)return_value_ckalloc_7;
   char *BAL;
-  void *return_value_ckalloc$8;
-  return_value_ckalloc$8=ckalloc((unsigned long int)num * sizeof(char) /*1ul*/ );
-  BAL = (char *)return_value_ckalloc$8;
+  void *return_value_ckalloc_8;
+  return_value_ckalloc_8=ckalloc((unsigned long int)num * sizeof(char) /*1ul*/ );
+  BAL = (char *)return_value_ckalloc_8;
   memset((void *)SCORE, 0, (unsigned long int)num * sizeof(double) /*8ul*/ );
   i = 0;
-  signed int tmp_if_expr$9;
-  signed int tmp_if_expr$10;
+  signed int tmp_if_expr_9;
+  signed int tmp_if_expr_10;
   for( ; !(i >= num); i = i + 1)
   {
     getSeqFromRead(rdArray[(signed long int)i], src_seq);
@@ -20719,60 +20719,60 @@ static char readsCrossGap(struct read_nearby *rdArray, signed int num, signed in
         signed int readLeft = (start - overlap) + 1;
         signed int cmpLen = ctgLeft < readLeft ? ctgLeft : readLeft;
         cmpLen = cmpLen <= 100 ? cmpLen : 100;
-        cutSeqFromRead(seqCtg1, lenCtg1, ctgLeft - cmpLen, ctgLeft - 1, fastSequence$link1);
+        cutSeqFromRead(seqCtg1, lenCtg1, ctgLeft - cmpLen, ctgLeft - 1, fastSequence_link1);
         if(bal == 0)
-          cutSeqFromRead(src_seq, (rdArray + (signed long int)i)->len, readLeft - cmpLen, readLeft - 1, slowSequence$link1);
+          cutSeqFromRead(src_seq, (rdArray + (signed long int)i)->len, readLeft - cmpLen, readLeft - 1, slowSequence_link1);
 
         else
-          cutSeqFromRead(bal_seq, (rdArray + (signed long int)i)->len, readLeft - cmpLen, readLeft - 1, slowSequence$link1);
-        match=compareSequences$link1(fastSequence$link1, slowSequence$link1, cmpLen, cmpLen);
+          cutSeqFromRead(bal_seq, (rdArray + (signed long int)i)->len, readLeft - cmpLen, readLeft - 1, slowSequence_link1);
+        match=compareSequences_link1(fastSequence_link1, slowSequence_link1, cmpLen, cmpLen);
         alignLen = alignLen + cmpLen;
         matchLen = matchLen + match;
         signed int ctgRight = (len1 - startOnCtg1) - 1;
         if(!(ctgRight >= (rdArray + (signed long int)i)->len + -start + -1))
-          tmp_if_expr$9 = ctgRight;
+          tmp_if_expr_9 = ctgRight;
 
         else
-          tmp_if_expr$9 = ((rdArray + (signed long int)i)->len - start) - 1;
-        cmpLen = tmp_if_expr$9;
+          tmp_if_expr_9 = ((rdArray + (signed long int)i)->len - start) - 1;
+        cmpLen = tmp_if_expr_9;
         cmpLen = cmpLen <= 100 ? cmpLen : 100;
-        cutSeqFromRead(seqCtg1, lenCtg1, ctgLeft + overlap, (ctgLeft + overlap + cmpLen) - 1, fastSequence$link1);
+        cutSeqFromRead(seqCtg1, lenCtg1, ctgLeft + overlap, (ctgLeft + overlap + cmpLen) - 1, fastSequence_link1);
         if(bal == 0)
-          cutSeqFromRead(src_seq, (rdArray + (signed long int)i)->len, start + 1, start + cmpLen, slowSequence$link1);
+          cutSeqFromRead(src_seq, (rdArray + (signed long int)i)->len, start + 1, start + cmpLen, slowSequence_link1);
 
         else
-          cutSeqFromRead(bal_seq, (rdArray + (signed long int)i)->len, start + 1, start + cmpLen, slowSequence$link1);
-        match=compareSequences$link1(fastSequence$link1, slowSequence$link1, cmpLen, cmpLen);
+          cutSeqFromRead(bal_seq, (rdArray + (signed long int)i)->len, start + 1, start + cmpLen, slowSequence_link1);
+        match=compareSequences_link1(fastSequence_link1, slowSequence_link1, cmpLen, cmpLen);
         alignLen = alignLen + cmpLen;
         matchLen = matchLen + match;
         ctgLeft = endOnCtg2;
         readLeft = (end - overlap) + 1;
         cmpLen = ctgLeft < readLeft ? ctgLeft : readLeft;
         cmpLen = ctgLeft <= 100 ? ctgLeft : 100;
-        cutSeqFromRead(seqCtg2, lenCtg2, endOnCtg2 - cmpLen, endOnCtg2 - 1, fastSequence$link1);
+        cutSeqFromRead(seqCtg2, lenCtg2, endOnCtg2 - cmpLen, endOnCtg2 - 1, fastSequence_link1);
         if(bal == 0)
-          cutSeqFromRead(src_seq, (rdArray + (signed long int)i)->len, readLeft - cmpLen, readLeft - 1, slowSequence$link1);
+          cutSeqFromRead(src_seq, (rdArray + (signed long int)i)->len, readLeft - cmpLen, readLeft - 1, slowSequence_link1);
 
         else
-          cutSeqFromRead(bal_seq, (rdArray + (signed long int)i)->len, readLeft - cmpLen, readLeft - 1, slowSequence$link1);
-        match=compareSequences$link1(fastSequence$link1, slowSequence$link1, cmpLen, cmpLen);
+          cutSeqFromRead(bal_seq, (rdArray + (signed long int)i)->len, readLeft - cmpLen, readLeft - 1, slowSequence_link1);
+        match=compareSequences_link1(fastSequence_link1, slowSequence_link1, cmpLen, cmpLen);
         alignLen = alignLen + cmpLen;
         matchLen = matchLen + match;
         ctgRight = (lenCtg2 - endOnCtg2) - overlap;
         if(!(ctgRight >= (rdArray + (signed long int)i)->len + -end + -1))
-          tmp_if_expr$10 = ctgRight;
+          tmp_if_expr_10 = ctgRight;
 
         else
-          tmp_if_expr$10 = ((rdArray + (signed long int)i)->len - end) - 1;
-        cmpLen = tmp_if_expr$10;
+          tmp_if_expr_10 = ((rdArray + (signed long int)i)->len - end) - 1;
+        cmpLen = tmp_if_expr_10;
         cmpLen = cmpLen <= 100 ? cmpLen : 100;
-        cutSeqFromRead(seqCtg2, lenCtg2, endOnCtg2 + overlap, (endOnCtg2 + overlap + cmpLen) - 1, fastSequence$link1);
+        cutSeqFromRead(seqCtg2, lenCtg2, endOnCtg2 + overlap, (endOnCtg2 + overlap + cmpLen) - 1, fastSequence_link1);
         if(bal == 0)
-          cutSeqFromRead(src_seq, (rdArray + (signed long int)i)->len, end + 1, end + cmpLen, slowSequence$link1);
+          cutSeqFromRead(src_seq, (rdArray + (signed long int)i)->len, end + 1, end + cmpLen, slowSequence_link1);
 
         else
-          cutSeqFromRead(bal_seq, (rdArray + (signed long int)i)->len, end + 1, end + cmpLen, slowSequence$link1);
-        match=compareSequences$link1(fastSequence$link1, slowSequence$link1, cmpLen, cmpLen);
+          cutSeqFromRead(bal_seq, (rdArray + (signed long int)i)->len, end + 1, end + cmpLen, slowSequence_link1);
+        match=compareSequences_link1(fastSequence_link1, slowSequence_link1, cmpLen, cmpLen);
         alignLen = alignLen + cmpLen;
         matchLen = matchLen + match;
         double score = (double)matchLen / (double)alignLen;
@@ -20788,37 +20788,37 @@ static char readsCrossGap(struct read_nearby *rdArray, signed int num, signed in
     }
 
   }
-  signed int tmp_if_expr$11;
-  signed int tmp_if_expr$12;
-  signed int tmp_if_expr$14;
-  signed int tmp_if_expr$15;
+  signed int tmp_if_expr_11;
+  signed int tmp_if_expr_12;
+  signed int tmp_if_expr_14;
+  signed int tmp_if_expr_15;
   if(maxScore > 0.9)
   {
     getSeqFromRead(rdArray[(signed long int)maxIndex], src_seq);
     reverseComplementSeq(src_seq, (rdArray + (signed long int)maxIndex)->len, bal_seq);
     signed int leftRemain;
     if(offset1 + -(len1 + -INDEX1[(signed long int)maxIndex] + -1) >= 1)
-      tmp_if_expr$11 = offset1 - ((len1 - INDEX1[(signed long int)maxIndex]) - 1);
+      tmp_if_expr_11 = offset1 - ((len1 - INDEX1[(signed long int)maxIndex]) - 1);
 
     else
-      tmp_if_expr$11 = 0;
-    leftRemain = tmp_if_expr$11;
+      tmp_if_expr_11 = 0;
+    leftRemain = tmp_if_expr_11;
     signed int rightRemain;
     if(offset2 + -(INDEX2[(signed long int)maxIndex] + overlap) >= 1)
-      tmp_if_expr$12 = offset2 - (overlap + INDEX2[(signed long int)maxIndex]);
+      tmp_if_expr_12 = offset2 - (overlap + INDEX2[(signed long int)maxIndex]);
 
     else
-      tmp_if_expr$12 = 0;
-    rightRemain = tmp_if_expr$12;
+      tmp_if_expr_12 = 0;
+    rightRemain = tmp_if_expr_12;
     ctg1->gapSeqOffset = (signed int)gapSeqArray->item_c;
     ctg1->gapSeqLen = (unsigned int)((END[(signed long int)maxIndex] - START[(signed long int)maxIndex]) + leftRemain + rightRemain);
-    void *return_value_darrayPut$16;
-    return_value_darrayPut$16=darrayPut(gapSeqArray, (signed long long int)(ctg1->gapSeqOffset + ((END[(signed long int)maxIndex] - START[(signed long int)maxIndex]) + leftRemain + rightRemain) / 4));
-    if(!(return_value_darrayPut$16 == NULL))
+    void *return_value_darrayPut_16;
+    return_value_darrayPut_16=darrayPut(gapSeqArray, (signed long long int)(ctg1->gapSeqOffset + ((END[(signed long int)maxIndex] - START[(signed long int)maxIndex]) + leftRemain + rightRemain) / 4));
+    if(!(return_value_darrayPut_16 == NULL))
     {
-      void *return_value_darrayPut$13;
-      return_value_darrayPut$13=darrayPut(gapSeqArray, (signed long long int)ctg1->gapSeqOffset);
-      pt = (char *)return_value_darrayPut$13;
+      void *return_value_darrayPut_13;
+      return_value_darrayPut_13=darrayPut(gapSeqArray, (signed long long int)ctg1->gapSeqOffset);
+      pt = (char *)return_value_darrayPut_13;
       j = 0;
       for( ; !(j >= leftRemain); j = j + 1)
       {
@@ -20846,17 +20846,17 @@ static char readsCrossGap(struct read_nearby *rdArray, signed int num, signed in
       }
       fprintf(stderr, ": GAPSEQ (%d+%d)(%d+%d)(%d+%d)(%d+%d) B %d\n", offset1, offset2, cut1, cut2, (len1 - INDEX1[(signed long int)maxIndex]) - 1, INDEX2[(signed long int)maxIndex], START[(signed long int)maxIndex], END[(signed long int)maxIndex], BAL[(signed long int)maxIndex]);
       if(!(cut1 >= len1 + -INDEX1[(signed long int)maxIndex] + -1 + cut1 + -offset1))
-        tmp_if_expr$14 = (((len1 - INDEX1[(signed long int)maxIndex]) - 1) - offset1) + cut1;
+        tmp_if_expr_14 = (((len1 - INDEX1[(signed long int)maxIndex]) - 1) - offset1) + cut1;
 
       else
-        tmp_if_expr$14 = cut1;
-      ctg1->cutTail = (unsigned int)tmp_if_expr$14;
+        tmp_if_expr_14 = cut1;
+      ctg1->cutTail = (unsigned int)tmp_if_expr_14;
       if(!(cut2 >= INDEX2[(signed long int)maxIndex] + overlap + cut2 + -offset2))
-        tmp_if_expr$15 = ((overlap + INDEX2[(signed long int)maxIndex]) - offset2) + cut2;
+        tmp_if_expr_15 = ((overlap + INDEX2[(signed long int)maxIndex]) - offset2) + cut2;
 
       else
-        tmp_if_expr$15 = cut2;
-      ctg2->cutHead = (unsigned int)tmp_if_expr$15;
+        tmp_if_expr_15 = cut2;
+      ctg2->cutHead = (unsigned int)tmp_if_expr_15;
       ctg2->scaftig_start = (unsigned int)0;
       ret = (char)1;
     }
@@ -20878,54 +20878,54 @@ static char readsCrossGap(struct read_nearby *rdArray, signed int num, signed in
 // file localAsm.c line 233
 static struct kmerSet_st * readsInGap2DBgraph(struct read_nearby *rdArray, signed int num, struct ctg4scaf *ctg1, struct ctg4scaf *ctg2, signed int originOverlap, unsigned long long int *kmerCtg1, unsigned long long int *kmerCtg2, signed int overlap, unsigned long long int WordFilter)
 {
-  signed int readsInGap2DBgraph$$1$$kmer_c;
-  unsigned long long int *readsInGap2DBgraph$$1$$kmerBuffer;
-  char *readsInGap2DBgraph$$1$$nextcBuffer;
-  char *readsInGap2DBgraph$$1$$prevcBuffer;
+  signed int readsInGap2DBgraph__1__kmer_c;
+  unsigned long long int *readsInGap2DBgraph__1__kmerBuffer;
+  char *readsInGap2DBgraph__1__nextcBuffer;
+  char *readsInGap2DBgraph__1__prevcBuffer;
   signed int i;
-  signed int readsInGap2DBgraph$$1$$buffer_size = maxReadLen > 35 ? maxReadLen : 35;
+  signed int readsInGap2DBgraph__1__buffer_size = maxReadLen > 35 ? maxReadLen : 35;
   struct kmerSet_st *kmerS = (struct kmerSet_st *)(void *)0;
   signed int lenCtg1;
   signed int lenCtg2;
   char *bal_seq;
   char *src_seq;
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)readsInGap2DBgraph$$1$$buffer_size * sizeof(char) /*1ul*/ );
-  src_seq = (char *)return_value_ckalloc$1;
-  void *return_value_ckalloc$2;
-  return_value_ckalloc$2=ckalloc((unsigned long int)readsInGap2DBgraph$$1$$buffer_size * sizeof(char) /*1ul*/ );
-  bal_seq = (char *)return_value_ckalloc$2;
-  void *return_value_ckalloc$3;
-  return_value_ckalloc$3=ckalloc((unsigned long int)readsInGap2DBgraph$$1$$buffer_size * sizeof(unsigned long long int) /*8ul*/ );
-  readsInGap2DBgraph$$1$$kmerBuffer = (unsigned long long int *)return_value_ckalloc$3;
-  void *return_value_ckalloc$4;
-  return_value_ckalloc$4=ckalloc((unsigned long int)readsInGap2DBgraph$$1$$buffer_size * sizeof(char) /*1ul*/ );
-  readsInGap2DBgraph$$1$$prevcBuffer = (char *)return_value_ckalloc$4;
-  void *return_value_ckalloc$5;
-  return_value_ckalloc$5=ckalloc((unsigned long int)readsInGap2DBgraph$$1$$buffer_size * sizeof(char) /*1ul*/ );
-  readsInGap2DBgraph$$1$$nextcBuffer = (char *)return_value_ckalloc$5;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)readsInGap2DBgraph__1__buffer_size * sizeof(char) /*1ul*/ );
+  src_seq = (char *)return_value_ckalloc_1;
+  void *return_value_ckalloc_2;
+  return_value_ckalloc_2=ckalloc((unsigned long int)readsInGap2DBgraph__1__buffer_size * sizeof(char) /*1ul*/ );
+  bal_seq = (char *)return_value_ckalloc_2;
+  void *return_value_ckalloc_3;
+  return_value_ckalloc_3=ckalloc((unsigned long int)readsInGap2DBgraph__1__buffer_size * sizeof(unsigned long long int) /*8ul*/ );
+  readsInGap2DBgraph__1__kmerBuffer = (unsigned long long int *)return_value_ckalloc_3;
+  void *return_value_ckalloc_4;
+  return_value_ckalloc_4=ckalloc((unsigned long int)readsInGap2DBgraph__1__buffer_size * sizeof(char) /*1ul*/ );
+  readsInGap2DBgraph__1__prevcBuffer = (char *)return_value_ckalloc_4;
+  void *return_value_ckalloc_5;
+  return_value_ckalloc_5=ckalloc((unsigned long int)readsInGap2DBgraph__1__buffer_size * sizeof(char) /*1ul*/ );
+  readsInGap2DBgraph__1__nextcBuffer = (char *)return_value_ckalloc_5;
   kmerS=init_kmerset((unsigned long long int)1024, 0.77f);
   i = 0;
   for( ; !(i >= num); i = i + 1)
   {
     getSeqFromRead(rdArray[(signed long int)i], src_seq);
-    chopKmer4read((rdArray + (signed long int)i)->len, overlap, src_seq, bal_seq, readsInGap2DBgraph$$1$$kmerBuffer, readsInGap2DBgraph$$1$$prevcBuffer, readsInGap2DBgraph$$1$$nextcBuffer, &readsInGap2DBgraph$$1$$kmer_c, WordFilter);
-    putKmer2DBgraph(kmerS, 0, readsInGap2DBgraph$$1$$kmer_c, readsInGap2DBgraph$$1$$kmerBuffer, readsInGap2DBgraph$$1$$prevcBuffer, readsInGap2DBgraph$$1$$nextcBuffer);
+    chopKmer4read((rdArray + (signed long int)i)->len, overlap, src_seq, bal_seq, readsInGap2DBgraph__1__kmerBuffer, readsInGap2DBgraph__1__prevcBuffer, readsInGap2DBgraph__1__nextcBuffer, &readsInGap2DBgraph__1__kmer_c, WordFilter);
+    putKmer2DBgraph(kmerS, 0, readsInGap2DBgraph__1__kmer_c, readsInGap2DBgraph__1__kmerBuffer, readsInGap2DBgraph__1__prevcBuffer, readsInGap2DBgraph__1__nextcBuffer);
   }
   lenCtg1=getSeqFromCtg(ctg1, (char)0, (unsigned int)35, originOverlap, src_seq);
   chopKmer4Ctg(kmerCtg1, lenCtg1, overlap, src_seq, WordFilter);
-  chopKmer4read(lenCtg1, overlap, src_seq, bal_seq, readsInGap2DBgraph$$1$$kmerBuffer, readsInGap2DBgraph$$1$$prevcBuffer, readsInGap2DBgraph$$1$$nextcBuffer, &readsInGap2DBgraph$$1$$kmer_c, WordFilter);
-  putKmer2DBgraph(kmerS, 1, readsInGap2DBgraph$$1$$kmer_c, readsInGap2DBgraph$$1$$kmerBuffer, readsInGap2DBgraph$$1$$prevcBuffer, readsInGap2DBgraph$$1$$nextcBuffer);
+  chopKmer4read(lenCtg1, overlap, src_seq, bal_seq, readsInGap2DBgraph__1__kmerBuffer, readsInGap2DBgraph__1__prevcBuffer, readsInGap2DBgraph__1__nextcBuffer, &readsInGap2DBgraph__1__kmer_c, WordFilter);
+  putKmer2DBgraph(kmerS, 1, readsInGap2DBgraph__1__kmer_c, readsInGap2DBgraph__1__kmerBuffer, readsInGap2DBgraph__1__prevcBuffer, readsInGap2DBgraph__1__nextcBuffer);
   lenCtg2=getSeqFromCtg(ctg2, (char)1, (unsigned int)35, originOverlap, src_seq);
   chopKmer4Ctg(kmerCtg2, lenCtg2, overlap, src_seq, WordFilter);
-  chopKmer4read(lenCtg2, overlap, src_seq, bal_seq, readsInGap2DBgraph$$1$$kmerBuffer, readsInGap2DBgraph$$1$$prevcBuffer, readsInGap2DBgraph$$1$$nextcBuffer, &readsInGap2DBgraph$$1$$kmer_c, WordFilter);
-  putKmer2DBgraph(kmerS, 2, readsInGap2DBgraph$$1$$kmer_c, readsInGap2DBgraph$$1$$kmerBuffer, readsInGap2DBgraph$$1$$prevcBuffer, readsInGap2DBgraph$$1$$nextcBuffer);
+  chopKmer4read(lenCtg2, overlap, src_seq, bal_seq, readsInGap2DBgraph__1__kmerBuffer, readsInGap2DBgraph__1__prevcBuffer, readsInGap2DBgraph__1__nextcBuffer, &readsInGap2DBgraph__1__kmer_c, WordFilter);
+  putKmer2DBgraph(kmerS, 2, readsInGap2DBgraph__1__kmer_c, readsInGap2DBgraph__1__kmerBuffer, readsInGap2DBgraph__1__prevcBuffer, readsInGap2DBgraph__1__nextcBuffer);
   kmerSet_mark(kmerS);
   free((void *)src_seq);
   free((void *)bal_seq);
-  free((void *)readsInGap2DBgraph$$1$$kmerBuffer);
-  free((void *)readsInGap2DBgraph$$1$$nextcBuffer);
-  free((void *)readsInGap2DBgraph$$1$$prevcBuffer);
+  free((void *)readsInGap2DBgraph__1__kmerBuffer);
+  free((void *)readsInGap2DBgraph__1__nextcBuffer);
+  free((void *)readsInGap2DBgraph__1__prevcBuffer);
   fflush(stdout);
   return kmerS;
 }
@@ -20942,16 +20942,16 @@ extern void readseq1by1(char *src_seq, char *src_name, signed int *len_seq, stru
   char str[5000l];
   n = 0;
   k = (signed int)num_seq;
-  char *return_value_fgets$1;
-  _Bool tmp_if_expr$7;
-  signed int tmp_post$3;
-  _Bool tmp_if_expr$6;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
+  char *return_value_fgets_1;
+  _Bool tmp_if_expr_7;
+  signed int tmp_post_3;
+  _Bool tmp_if_expr_6;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
   do
   {
-    return_value_fgets$1=fgets(str, 4950, fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(str, 4950, fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     if(!((signed int)str[0l] == 35))
@@ -20966,9 +20966,9 @@ extern void readseq1by1(char *src_seq, char *src_name, signed int *len_seq, stru
 
       else
       {
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(str);
-        strL = (signed int)return_value_strlen$2;
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(str);
+        strL = (signed int)return_value_strlen_2;
         if(!(maxReadLen >= n + strL))
           strL = maxReadLen - n;
 
@@ -20976,40 +20976,40 @@ extern void readseq1by1(char *src_seq, char *src_name, signed int *len_seq, stru
         for( ; !(i >= strL); i = i + 1)
         {
           if((signed int)str[(signed long int)i] >= 97)
-            tmp_if_expr$7 = (signed int)str[(signed long int)i] <= 122 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_7 = (signed int)str[(signed long int)i] <= 122 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$7 = (_Bool)0;
-          if(tmp_if_expr$7)
+            tmp_if_expr_7 = (_Bool)0;
+          if(tmp_if_expr_7)
           {
             c = (char)((((signed int)str[(signed long int)i] - 97) + 65 & 0x06) >> 1);
-            tmp_post$3 = n;
+            tmp_post_3 = n;
             n = n + 1;
-            src_seq[(signed long int)tmp_post$3] = c;
+            src_seq[(signed long int)tmp_post_3] = c;
           }
 
           else
           {
             if((signed int)str[(signed long int)i] >= 65)
-              tmp_if_expr$6 = (signed int)str[(signed long int)i] <= 90 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_6 = (signed int)str[(signed long int)i] <= 90 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$6 = (_Bool)0;
-            if(tmp_if_expr$6)
+              tmp_if_expr_6 = (_Bool)0;
+            if(tmp_if_expr_6)
             {
               c = (char)(((signed int)str[(signed long int)i] & 0x06) >> 1);
-              tmp_post$4 = n;
+              tmp_post_4 = n;
               n = n + 1;
-              src_seq[(signed long int)tmp_post$4] = c;
+              src_seq[(signed long int)tmp_post_4] = c;
             }
 
             else
               if((signed int)str[(signed long int)i] == 46)
               {
                 c = (char)((65 & 0x06) >> 1);
-                tmp_post$5 = n;
+                tmp_post_5 = n;
                 n = n + 1;
-                src_seq[(signed long int)tmp_post$5] = c;
+                src_seq[(signed long int)tmp_post_5] = c;
               }
 
           }
@@ -21040,11 +21040,11 @@ extern signed long long int readseqpar(signed int *max_leg, signed int *min_leg,
   char src_name[5000l];
   n = 0;
   k = (signed long long int)-1;
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   do
   {
-    return_value_fgets$1=fgets(str, 4950, fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(str, 4950, fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     if((signed int)str[0l] == 62)
@@ -21062,9 +21062,9 @@ extern signed long long int readseqpar(signed int *max_leg, signed int *min_leg,
       n = 0;
       k = k + 1ll;
       sscanf(&str[(signed long int)1], "%s", (const void *)src_name);
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(src_name);
-      l = (signed int)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(src_name);
+      l = (signed int)return_value_strlen_2;
       if(!(*max_name_leg >= l))
         *max_name_leg = l;
 
@@ -21072,9 +21072,9 @@ extern signed long long int readseqpar(signed int *max_leg, signed int *min_leg,
 
     else
     {
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(str);
-      n = n + (signed int)(return_value_strlen$3 - (unsigned long int)1);
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(str);
+      n = n + (signed int)(return_value_strlen_3 - (unsigned long int)1);
     }
   }
   while((_Bool)1);
@@ -21097,30 +21097,30 @@ static void recordAlldgn(struct _IO_FILE *outfp, signed int insSize, struct _IO_
   char rd1gap;
   char rd2gap;
   t = 0;
-  _Bool tmp_if_expr$1;
-  for( ; !(t >= read_c$link2); t = t + 1)
+  _Bool tmp_if_expr_1;
+  for( ; !(t >= read_c_link2); t = t + 1)
   {
     readCounter = readCounter + 1ll;
     rd2gap = (char)0;
     rd1gap = rd2gap;
-    ctgId = (signed int)ctgIdArray$link1[(signed long int)t];
+    ctgId = (signed int)ctgIdArray_link1[(signed long int)t];
     if(t % 2 == 1 && !(outfp2 == ((struct _IO_FILE *)NULL)))
     {
-      if(!(ctgIdArray$link1[(signed long int)t] >= 1u))
-        tmp_if_expr$1 = ctgIdArray$link1[(signed long int)(t - 1)] > (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+      if(!(ctgIdArray_link1[(signed long int)t] >= 1u))
+        tmp_if_expr_1 = ctgIdArray_link1[(signed long int)(t - 1)] > (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
       {
         getReadIngap(t, insSize, outfp2, (char)0);
         rd2gap = (char)1;
       }
 
       else
-        if(ctgIdArray$link1[(signed long int)t] >= 1u)
+        if(ctgIdArray_link1[(signed long int)t] >= 1u)
         {
-          if(!(ctgIdArray$link1[(signed long int)(t + -1)] >= 1u))
+          if(!(ctgIdArray_link1[(signed long int)(t + -1)] >= 1u))
           {
             getReadIngap(t - 1, insSize, outfp2, (char)1);
             rd1gap = (char)1;
@@ -21133,7 +21133,7 @@ static void recordAlldgn(struct _IO_FILE *outfp, signed int insSize, struct _IO_
     if(ctgId >= 1)
     {
       mapCounter = mapCounter + 1ll;
-      fprintf(outfp, "%lld\t%u\t%d\t%c\n", readCounter, ctgIdArray$link1[(signed long int)t], posArray[(signed long int)t], orienArray[(signed long int)t]);
+      fprintf(outfp, "%lld\t%u\t%d\t%c\n", readCounter, ctgIdArray_link1[(signed long int)t], posArray[(signed long int)t], orienArray[(signed long int)t]);
       if(!(t % 2 == 0))
       {
         if(!(outfp2 == ((struct _IO_FILE *)NULL)))
@@ -21185,7 +21185,7 @@ extern void recordArcsInLookupTable()
 static void recordLongRead(struct _IO_FILE *outfp)
 {
   signed int t = 0;
-  for( ; !(t >= read_c$link2); t = t + 1)
+  for( ; !(t >= read_c_link2); t = t + 1)
   {
     readCounter = readCounter + 1ll;
     if(!(footprint[(signed long int)t] == 0))
@@ -21204,30 +21204,30 @@ static void recordPathBin(struct _IO_FILE *outfp)
   signed int finish;
   unsigned char counter;
   t = 0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  unsigned char tmp_post$4;
-  for( ; !(t >= read_c$link3); t = t + 1)
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  unsigned char tmp_post_4;
+  for( ; !(t >= read_c_link3); t = t + 1)
   {
-    start = indexArray$link3[(signed long int)t];
-    finish = indexArray$link3[(signed long int)(t + 1)];
+    start = indexArray_link3[(signed long int)t];
+    finish = indexArray_link3[(signed long int)(t + 1)];
     if(!(finish + -start >= 3))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = mixBuffer[(signed long int)start] == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = mixBuffer[(signed long int)start] == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = mixBuffer[(signed long int)(start + 1)] == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = mixBuffer[(signed long int)(start + 1)] == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = mixBuffer[(signed long int)(start + 2)] == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$3)
+      tmp_if_expr_3 = mixBuffer[(signed long int)(start + 2)] == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_3)
     {
       counter = (unsigned char)0;
       j = start;
@@ -21236,9 +21236,9 @@ static void recordPathBin(struct _IO_FILE *outfp)
         if(mixBuffer[(signed long int)j] == 0ul)
           break;
 
-        tmp_post$4 = counter;
+        tmp_post_4 = counter;
         counter = counter + 1;
-        fwriteBuf[(signed long int)tmp_post$4] = (unsigned int)mixBuffer[(signed long int)j];
+        fwriteBuf[(signed long int)tmp_post_4] = (unsigned int)mixBuffer[(signed long int)j];
         if(!((signed int)markerOnEdge[(signed long int)mixBuffer[(signed long int)j]] >= 255))
           markerOnEdge[(signed long int)mixBuffer[(signed long int)j]] = markerOnEdge[(signed long int)mixBuffer[(signed long int)j]] + 1;
 
@@ -21267,7 +21267,7 @@ static void recoverMask()
   struct connection *bindCnt;
   struct connection *cnt;
   signed int min;
-  signed int recoverMask$$1$$max;
+  signed int recoverMask__1__max;
   signed int max_steps = 5;
   signed int num_route;
   signed int length;
@@ -21278,48 +21278,48 @@ static void recoverMask()
   i = (unsigned int)1;
   for( ; num_ctg >= i; i = i + 1u)
     (contig_array + (signed long int)i)->flag = (unsigned char)0;
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)max_n_routes * sizeof(unsigned int) /*4ul*/ );
-  so_far = (unsigned int *)return_value_ckalloc$1;
-  void *return_value_ckalloc$2;
-  return_value_ckalloc$2=ckalloc((unsigned long int)max_n_routes * sizeof(unsigned int *) /*8ul*/ );
-  found_routes = (unsigned int **)return_value_ckalloc$2;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)max_n_routes * sizeof(unsigned int) /*4ul*/ );
+  so_far = (unsigned int *)return_value_ckalloc_1;
+  void *return_value_ckalloc_2;
+  return_value_ckalloc_2=ckalloc((unsigned long int)max_n_routes * sizeof(unsigned int *) /*8ul*/ );
+  found_routes = (unsigned int **)return_value_ckalloc_2;
   j = 0;
   for( ; !(j >= max_n_routes); j = j + 1)
   {
-    void *return_value_ckalloc$3;
-    return_value_ckalloc$3=ckalloc((unsigned long int)max_steps * sizeof(unsigned int) /*4ul*/ );
-    found_routes[(signed long int)j] = (unsigned int *)return_value_ckalloc$3;
+    void *return_value_ckalloc_3;
+    return_value_ckalloc_3=ckalloc((unsigned long int)max_steps * sizeof(unsigned int) /*4ul*/ );
+    found_routes[(signed long int)j] = (unsigned int *)return_value_ckalloc_3;
   }
   i = (unsigned int)1;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  signed int tmp_post$6;
-  signed int tmp_post$9;
-  signed int tmp_post$11;
-  signed int tmp_post$13;
-  void *return_value_darrayPut$14;
-  void *return_value_darrayGet$15;
-  signed int tmp_post$16;
-  void *return_value_darrayPut$17;
-  void *return_value_darrayGet$18;
-  signed int tmp_post$19;
-  _Bool tmp_if_expr$25;
-  signed int tmp_post$26;
-  signed int tmp_post$29;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  signed int tmp_post_6;
+  signed int tmp_post_9;
+  signed int tmp_post_11;
+  signed int tmp_post_13;
+  void *return_value_darrayPut_14;
+  void *return_value_darrayGet_15;
+  signed int tmp_post_16;
+  void *return_value_darrayPut_17;
+  void *return_value_darrayGet_18;
+  signed int tmp_post_19;
+  _Bool tmp_if_expr_25;
+  signed int tmp_post_26;
+  signed int tmp_post_29;
   for( ; num_ctg >= i; i = i + 1u)
   {
     if(!((contig_array + (signed long int)i)->flag == 0))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (contig_array + (signed long int)i)->mask != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_4 = (contig_array + (signed long int)i)->mask != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = !((contig_array + (signed long int)i)->downwardConnect != ((struct connection *)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$5)
+      tmp_if_expr_5 = !((contig_array + (signed long int)i)->downwardConnect != ((struct connection *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_5)
     {
       bindCnt=getBindCnt(i);
       if(!(bindCnt == ((struct connection *)NULL)))
@@ -21327,15 +21327,15 @@ static void recoverMask()
         num3 = 0;
         num5 = num3;
         ctg = i;
-        tmp_post$6 = num5;
+        tmp_post_6 = num5;
         num5 = num5 + 1;
-        void *return_value_darrayPut$7;
-        return_value_darrayPut$7=darrayPut(scaf5, (signed long long int)tmp_post$6);
-        *((unsigned int *)return_value_darrayPut$7) = i;
+        void *return_value_darrayPut_7;
+        return_value_darrayPut_7=darrayPut(scaf5, (signed long long int)tmp_post_6);
+        *((unsigned int *)return_value_darrayPut_7) = i;
         (contig_array + (signed long int)i)->flag = (unsigned char)1;
-        unsigned int return_value_getTwinCtg$8;
-        return_value_getTwinCtg$8=getTwinCtg(i);
-        (contig_array + (signed long int)return_value_getTwinCtg$8)->flag = (unsigned char)1;
+        unsigned int return_value_getTwinCtg_8;
+        return_value_getTwinCtg_8=getTwinCtg(i);
+        (contig_array + (signed long int)return_value_getTwinCtg_8)->flag = (unsigned char)1;
         while(!(bindCnt == ((struct connection *)NULL)))
         {
           if(bindCnt->used != 0)
@@ -21343,11 +21343,11 @@ static void recoverMask()
 
           setConnectUsed(ctg, bindCnt->contigID, (char)1);
           ctg = bindCnt->contigID;
-          tmp_post$9 = num5;
+          tmp_post_9 = num5;
           num5 = num5 + 1;
-          void *return_value_darrayPut$10;
-          return_value_darrayPut$10=darrayPut(scaf5, (signed long long int)tmp_post$9);
-          *((unsigned int *)return_value_darrayPut$10) = ctg;
+          void *return_value_darrayPut_10;
+          return_value_darrayPut_10=darrayPut(scaf5, (signed long long int)tmp_post_9);
+          *((unsigned int *)return_value_darrayPut_10) = ctg;
           bal_ctg=getTwinCtg(ctg);
           (contig_array + (signed long int)ctg)->flag = (unsigned char)1;
           (contig_array + (signed long int)bal_ctg)->flag = (unsigned char)1;
@@ -21365,11 +21365,11 @@ static void recoverMask()
           bal_ctg=getTwinCtg(ctg);
           (contig_array + (signed long int)ctg)->flag = (unsigned char)1;
           (contig_array + (signed long int)bal_ctg)->flag = (unsigned char)1;
-          tmp_post$11 = num3;
+          tmp_post_11 = num3;
           num3 = num3 + 1;
-          void *return_value_darrayPut$12;
-          return_value_darrayPut$12=darrayPut(scaf3, (signed long long int)tmp_post$11);
-          *((unsigned int *)return_value_darrayPut$12) = bal_ctg;
+          void *return_value_darrayPut_12;
+          return_value_darrayPut_12=darrayPut(scaf3, (signed long long int)tmp_post_11);
+          *((unsigned int *)return_value_darrayPut_12) = bal_ctg;
           bindCnt = bindCnt->nextInScaf;
         }
         if(num3 + num5 >= 2)
@@ -21379,38 +21379,38 @@ static void recoverMask()
           j = num3 - 1;
           for( ; j >= 0; j = j - 1)
           {
-            tmp_post$13 = tempCounter;
+            tmp_post_13 = tempCounter;
             tempCounter = tempCounter + 1;
-            return_value_darrayPut$14=darrayPut(tempArray, (signed long long int)tmp_post$13);
-            return_value_darrayGet$15=darrayGet(scaf3, (signed long long int)j);
-            *((unsigned int *)return_value_darrayPut$14) = *((unsigned int *)return_value_darrayGet$15);
+            return_value_darrayPut_14=darrayPut(tempArray, (signed long long int)tmp_post_13);
+            return_value_darrayGet_15=darrayGet(scaf3, (signed long long int)j);
+            *((unsigned int *)return_value_darrayPut_14) = *((unsigned int *)return_value_darrayGet_15);
           }
           j = 0;
           for( ; !(j >= num5); j = j + 1)
           {
-            tmp_post$16 = tempCounter;
+            tmp_post_16 = tempCounter;
             tempCounter = tempCounter + 1;
-            return_value_darrayPut$17=darrayPut(tempArray, (signed long long int)tmp_post$16);
-            return_value_darrayGet$18=darrayGet(scaf5, (signed long long int)j);
-            *((unsigned int *)return_value_darrayPut$17) = *((unsigned int *)return_value_darrayGet$18);
+            return_value_darrayPut_17=darrayPut(tempArray, (signed long long int)tmp_post_16);
+            return_value_darrayGet_18=darrayGet(scaf5, (signed long long int)j);
+            *((unsigned int *)return_value_darrayPut_17) = *((unsigned int *)return_value_darrayGet_18);
           }
           change = (char)0;
           t = 0;
           for( ; !(t >= tempCounter + -1); t = t + 1)
           {
-            tmp_post$19 = solidCounter;
+            tmp_post_19 = solidCounter;
             solidCounter = solidCounter + 1;
-            void *return_value_darrayPut$20;
-            return_value_darrayPut$20=darrayPut(solidArray, (signed long long int)tmp_post$19);
-            void *return_value_darrayGet$21;
-            return_value_darrayGet$21=darrayGet(tempArray, (signed long long int)t);
-            *((unsigned int *)return_value_darrayPut$20) = *((unsigned int *)return_value_darrayGet$21);
-            void *return_value_darrayGet$22;
-            return_value_darrayGet$22=darrayGet(tempArray, (signed long long int)t);
-            start = *((unsigned int *)return_value_darrayGet$22);
-            void *return_value_darrayGet$23;
-            return_value_darrayGet$23=darrayGet(tempArray, (signed long long int)(t + 1));
-            finish = *((unsigned int *)return_value_darrayGet$23);
+            void *return_value_darrayPut_20;
+            return_value_darrayPut_20=darrayPut(solidArray, (signed long long int)tmp_post_19);
+            void *return_value_darrayGet_21;
+            return_value_darrayGet_21=darrayGet(tempArray, (signed long long int)t);
+            *((unsigned int *)return_value_darrayPut_20) = *((unsigned int *)return_value_darrayGet_21);
+            void *return_value_darrayGet_22;
+            return_value_darrayGet_22=darrayGet(tempArray, (signed long long int)t);
+            start = *((unsigned int *)return_value_darrayGet_22);
+            void *return_value_darrayGet_23;
+            return_value_darrayGet_23=darrayGet(tempArray, (signed long long int)(t + 1));
+            finish = *((unsigned int *)return_value_darrayGet_23);
             num_trace = 0;
             num_route = num_trace;
             cnt=checkConnect(start, finish);
@@ -21427,16 +21427,16 @@ static void recoverMask()
             {
               length = (signed int)((unsigned int)cnt->gapLen + (contig_array + (signed long int)finish)->length);
               min = (signed int)((double)length - 1.5 * (double)ins_size_var);
-              recoverMask$$1$$max = (signed int)((double)length + 1.5 * (double)ins_size_var);
-              traceAlongMaskedCnt(finish, start, max_steps, min, recoverMask$$1$$max, 0, 0, &num_route);
+              recoverMask__1__max = (signed int)((double)length + 1.5 * (double)ins_size_var);
+              traceAlongMaskedCnt(finish, start, max_steps, min, recoverMask__1__max, 0, 0, &num_route);
               if(finish == start)
               {
                 j = 0;
                 for( ; !(j >= tempCounter); j = j + 1)
                 {
-                  void *return_value_darrayGet$24;
-                  return_value_darrayGet$24=darrayGet(tempArray, (signed long long int)j);
-                  printf("->%d", *((unsigned int *)return_value_darrayGet$24));
+                  void *return_value_darrayGet_24;
+                  return_value_darrayGet_24=darrayGet(tempArray, (signed long long int)j);
+                  printf("->%d", *((unsigned int *)return_value_darrayGet_24));
                 }
                 printf(": start at %d\n", i);
               }
@@ -21459,22 +21459,22 @@ static void recoverMask()
                 for( ; !(j >= max_steps); j = j + 1)
                 {
                   if(1 + j == max_steps)
-                    tmp_if_expr$25 = (_Bool)1;
+                    tmp_if_expr_25 = (_Bool)1;
 
                   else
-                    tmp_if_expr$25 = found_routes[(signed long int)0][(signed long int)(j + 1)] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$25)
+                    tmp_if_expr_25 = found_routes[(signed long int)0][(signed long int)(j + 1)] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_25)
                     break;
 
-                  tmp_post$26 = solidCounter;
+                  tmp_post_26 = solidCounter;
                   solidCounter = solidCounter + 1;
-                  void *return_value_darrayPut$27;
-                  return_value_darrayPut$27=darrayPut(solidArray, (signed long long int)tmp_post$26);
-                  *((unsigned int *)return_value_darrayPut$27) = found_routes[(signed long int)0][(signed long int)j];
+                  void *return_value_darrayPut_27;
+                  return_value_darrayPut_27=darrayPut(solidArray, (signed long long int)tmp_post_26);
+                  *((unsigned int *)return_value_darrayPut_27) = found_routes[(signed long int)0][(signed long int)j];
                   (contig_array + (signed long int)found_routes[(signed long int)0][(signed long int)j])->flag = (unsigned char)1;
-                  unsigned int return_value_getTwinCtg$28;
-                  return_value_getTwinCtg$28=getTwinCtg(found_routes[(signed long int)0][(signed long int)j]);
-                  (contig_array + (signed long int)return_value_getTwinCtg$28)->flag = (unsigned char)1;
+                  unsigned int return_value_getTwinCtg_28;
+                  return_value_getTwinCtg_28=getTwinCtg(found_routes[(signed long int)0][(signed long int)j]);
+                  (contig_array + (signed long int)return_value_getTwinCtg_28)->flag = (unsigned char)1;
                 }
                 recoverCounter = recoverCounter + j;
                 setConnectDelete(start, finish, (char)1, (char)1);
@@ -21486,13 +21486,13 @@ static void recoverMask()
           __CPROVER_DUMP_L31:
             ;
           }
-          tmp_post$29 = solidCounter;
+          tmp_post_29 = solidCounter;
           solidCounter = solidCounter + 1;
-          void *return_value_darrayPut$30;
-          return_value_darrayPut$30=darrayPut(solidArray, (signed long long int)tmp_post$29);
-          void *return_value_darrayGet$31;
-          return_value_darrayGet$31=darrayGet(tempArray, (signed long long int)(tempCounter - 1));
-          *((unsigned int *)return_value_darrayPut$30) = *((unsigned int *)return_value_darrayGet$31);
+          void *return_value_darrayPut_30;
+          return_value_darrayPut_30=darrayPut(solidArray, (signed long long int)tmp_post_29);
+          void *return_value_darrayGet_31;
+          return_value_darrayGet_31=darrayGet(tempArray, (signed long long int)(tempCounter - 1));
+          *((unsigned int *)return_value_darrayPut_30) = *((unsigned int *)return_value_darrayGet_31);
           if(!(change == 0))
             consolidate();
 
@@ -21546,11 +21546,11 @@ static void reduceSlowNodes(struct readinterval *slowMarker, unsigned int finish
 static void remapBackOfNodeArcsOntoNeighbour(unsigned int source, unsigned int target)
 {
   struct arc *arc;
-  unsigned int return_value_getTwinEdge$1;
-  return_value_getTwinEdge$1=getTwinEdge(source);
-  unsigned int return_value_getTwinEdge$2;
-  return_value_getTwinEdge$2=getTwinEdge(target);
-  remapNodeArcsOntoTarget(return_value_getTwinEdge$1, return_value_getTwinEdge$2);
+  unsigned int return_value_getTwinEdge_1;
+  return_value_getTwinEdge_1=getTwinEdge(source);
+  unsigned int return_value_getTwinEdge_2;
+  return_value_getTwinEdge_2=getTwinEdge(target);
+  remapNodeArcsOntoTarget(return_value_getTwinEdge_1, return_value_getTwinEdge_2);
   arc = (edge_array + (signed long int)source)->arcs;
   for( ; !(arc == ((struct arc *)NULL)); arc = arc->next)
     createAnalogousArc(target, source, arc);
@@ -21664,14 +21664,14 @@ static void remapBackOfNodeOntoNeighbour(unsigned int source, struct readinterva
   combineCOV(source, (edge_array + (signed long int)target)->length, target, (edge_array + (signed long int)target)->length);
   remapBackOfNodeTimesOntoNeighbour(source, target);
   remapBackOfNodeArcsOntoNeighbour(source, target);
-  unsigned int return_value_getTwinEdge$1;
-  return_value_getTwinEdge$1=getTwinEdge(source);
-  unsigned int return_value_getTwinEdge$2;
-  return_value_getTwinEdge$2=getTwinEdge(target);
-  remapNodeFibHeapReferencesOntoNode(return_value_getTwinEdge$1, return_value_getTwinEdge$2);
-  unsigned int return_value_getTwinEdge$3;
-  return_value_getTwinEdge$3=getTwinEdge(source);
-  if(return_value_getTwinEdge$3 == startingNode)
+  unsigned int return_value_getTwinEdge_1;
+  return_value_getTwinEdge_1=getTwinEdge(source);
+  unsigned int return_value_getTwinEdge_2;
+  return_value_getTwinEdge_2=getTwinEdge(target);
+  remapNodeFibHeapReferencesOntoNode(return_value_getTwinEdge_1, return_value_getTwinEdge_2);
+  unsigned int return_value_getTwinEdge_3;
+  return_value_getTwinEdge_3=getTwinEdge(source);
+  if(return_value_getTwinEdge_3 == startingNode)
     startingNode=getTwinEdge(target);
 
 }
@@ -21687,9 +21687,9 @@ static void remapBackOfNodeTimesOntoNeighbour(unsigned int source, unsigned int 
   unsigned int twinSource;
   twinSource=getTwinEdge(source);
   unsigned int previousNode;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  char return_value_isPreviousToNode$1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  char return_value_isPreviousToNode_1;
   if(IEEE_FLOAT_NOTEQUAL(nodeTime, -1.000000))
   {
     previousNode = previous[(signed long int)source];
@@ -21702,21 +21702,21 @@ static void remapBackOfNodeTimesOntoNeighbour(unsigned int source, unsigned int 
     else
     {
       if(targetTime > nodeTime || IEEE_FLOAT_EQUAL(targetTime, -1.000000))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
         if(IEEE_FLOAT_EQUAL(targetTime, nodeTime))
         {
-          return_value_isPreviousToNode$1=isPreviousToNode(target, previousNode);
-          tmp_if_expr$2 = !(return_value_isPreviousToNode$1 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_isPreviousToNode_1=isPreviousToNode(target, previousNode);
+          tmp_if_expr_2 = !(return_value_isPreviousToNode_1 != 0) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
       {
         times[(signed long int)target] = nodeTime;
         if(!(previousNode == twinSource))
@@ -21732,27 +21732,27 @@ static void remapBackOfNodeTimesOntoNeighbour(unsigned int source, unsigned int 
 
   targetTime = times[(signed long int)twinTarget];
   nodeTime = times[(signed long int)twinSource];
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  char return_value_isPreviousToNode$4;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  char return_value_isPreviousToNode_4;
   if(IEEE_FLOAT_NOTEQUAL(nodeTime, -1.000000))
   {
     if(targetTime > nodeTime || IEEE_FLOAT_EQUAL(targetTime, -1.000000))
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
       if(IEEE_FLOAT_EQUAL(targetTime, nodeTime))
       {
-        return_value_isPreviousToNode$4=isPreviousToNode(twinTarget, twinSource);
-        tmp_if_expr$5 = !(return_value_isPreviousToNode$4 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_isPreviousToNode_4=isPreviousToNode(twinTarget, twinSource);
+        tmp_if_expr_5 = !(return_value_isPreviousToNode_4 != 0) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (_Bool)0;
+      tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
     {
       times[(signed long int)twinTarget] = nodeTime;
       previous[(signed long int)twinTarget] = twinSource;
@@ -21816,9 +21816,9 @@ static void remapEmptyPathMarkersOntoMiddlePathSimple(struct readinterval *empty
   unsigned int markerStart;
   unsigned int bal_ed;
   struct readinterval *oldMarker = (edge_array + (signed long int)finish)->rv;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   while(!(oldMarker == ((struct readinterval *)NULL)))
   {
     marker = oldMarker;
@@ -21827,23 +21827,23 @@ static void remapEmptyPathMarkersOntoMiddlePathSimple(struct readinterval *empty
     if(newMarker->edgeid == start)
     {
       if(!(slowToFast == 0))
-        tmp_if_expr$1 = marker->readid != 2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = marker->readid != 2 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
         if(slowToFast == 0)
-          tmp_if_expr$2 = marker->readid != 1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = marker->readid != 1 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$3)
+      if(!tmp_if_expr_3)
       {
         markerStart = (unsigned int)marker->start;
         pathMarker = targetPath;
@@ -21875,24 +21875,24 @@ static void remapEmptyPathOntoMiddlePath(struct readinterval *emptyPath, struct 
 {
   unsigned int start = emptyPath->prevInRead->edgeid;
   unsigned int finish = emptyPath->edgeid;
-  char return_value_markerLeadsToArc$1;
-  return_value_markerLeadsToArc$1=markerLeadsToArc(targetPath, start, finish);
-  if(return_value_markerLeadsToArc$1 == 0)
+  char return_value_markerLeadsToArc_1;
+  return_value_markerLeadsToArc_1=markerLeadsToArc(targetPath, start, finish);
+  if(return_value_markerLeadsToArc_1 == 0)
     remapEmptyPathArcsOntoMiddlePathSimple(emptyPath, targetPath);
 
   remapEmptyPathMarkersOntoMiddlePathSimple(emptyPath, targetPath, slowToFast);
-  unsigned int return_value_getNodePrevious$2;
-  return_value_getNodePrevious$2=getNodePrevious(finish);
-  if(return_value_getNodePrevious$2 == start)
+  unsigned int return_value_getNodePrevious_2;
+  return_value_getNodePrevious_2=getNodePrevious(finish);
+  if(return_value_getNodePrevious_2 == start)
     remapNodeTimesOntoForwardMiddlePath(finish, targetPath);
 
-  unsigned int return_value_getTwinEdge$3;
-  return_value_getTwinEdge$3=getTwinEdge(start);
-  unsigned int return_value_getNodePrevious$4;
-  return_value_getNodePrevious$4=getNodePrevious(return_value_getTwinEdge$3);
-  unsigned int return_value_getTwinEdge$5;
-  return_value_getTwinEdge$5=getTwinEdge(finish);
-  if(return_value_getNodePrevious$4 == return_value_getTwinEdge$5)
+  unsigned int return_value_getTwinEdge_3;
+  return_value_getTwinEdge_3=getTwinEdge(start);
+  unsigned int return_value_getNodePrevious_4;
+  return_value_getNodePrevious_4=getNodePrevious(return_value_getTwinEdge_3);
+  unsigned int return_value_getTwinEdge_5;
+  return_value_getTwinEdge_5=getTwinEdge(finish);
+  if(return_value_getNodePrevious_4 == return_value_getTwinEdge_5)
     remapNodeTimesOntoTwinMiddlePath(finish, targetPath);
 
 }
@@ -21902,11 +21902,11 @@ static void remapEmptyPathOntoMiddlePath(struct readinterval *emptyPath, struct 
 static void remapNodeArcsOntoNeighbour(unsigned int source, unsigned int target)
 {
   remapNodeArcsOntoTarget(source, target);
-  unsigned int return_value_getTwinEdge$1;
-  return_value_getTwinEdge$1=getTwinEdge(source);
-  unsigned int return_value_getTwinEdge$2;
-  return_value_getTwinEdge$2=getTwinEdge(target);
-  remapNodeArcsOntoTarget(return_value_getTwinEdge$1, return_value_getTwinEdge$2);
+  unsigned int return_value_getTwinEdge_1;
+  return_value_getTwinEdge_1=getTwinEdge(source);
+  unsigned int return_value_getTwinEdge_2;
+  return_value_getTwinEdge_2=getTwinEdge(target);
+  remapNodeArcsOntoTarget(return_value_getTwinEdge_1, return_value_getTwinEdge_2);
 }
 
 // remapNodeArcsOntoTarget
@@ -21935,8 +21935,8 @@ static void remapNodeFibHeapReferencesOntoNode(unsigned int source, unsigned int
   sourceDHeapNode=getNodeDHeapNode(source);
   struct dfibheap_el *targetDHeapNode;
   targetDHeapNode=getNodeDHeapNode(target);
-  double return_value_getKey$1;
-  double return_value_getKey$2;
+  double return_value_getKey_1;
+  double return_value_getKey_2;
   if(!(sourceDHeapNode == ((struct dfibheap_el *)NULL)))
   {
     if(targetDHeapNode == ((struct dfibheap_el *)NULL))
@@ -21947,9 +21947,9 @@ static void remapNodeFibHeapReferencesOntoNode(unsigned int source, unsigned int
 
     else
     {
-      return_value_getKey$1=getKey(targetDHeapNode);
-      return_value_getKey$2=getKey(sourceDHeapNode);
-      if(return_value_getKey$1 > return_value_getKey$2)
+      return_value_getKey_1=getKey(targetDHeapNode);
+      return_value_getKey_2=getKey(sourceDHeapNode);
+      if(return_value_getKey_1 > return_value_getKey_2)
       {
         setNodeDHeapNode(target, sourceDHeapNode);
         replaceValueInDHeap(sourceDHeapNode, target);
@@ -22020,27 +22020,27 @@ static void remapNodeOntoNeighbour(unsigned int source, unsigned int target)
   remapNodeTimesOntoNeighbour(source, target);
   remapNodeArcsOntoNeighbour(source, target);
   remapNodeFibHeapReferencesOntoNode(source, target);
-  unsigned int return_value_getTwinEdge$1;
-  return_value_getTwinEdge$1=getTwinEdge(source);
-  unsigned int return_value_getTwinEdge$2;
-  return_value_getTwinEdge$2=getTwinEdge(target);
-  remapNodeFibHeapReferencesOntoNode(return_value_getTwinEdge$1, return_value_getTwinEdge$2);
+  unsigned int return_value_getTwinEdge_1;
+  return_value_getTwinEdge_1=getTwinEdge(source);
+  unsigned int return_value_getTwinEdge_2;
+  return_value_getTwinEdge_2=getTwinEdge(target);
+  remapNodeFibHeapReferencesOntoNode(return_value_getTwinEdge_1, return_value_getTwinEdge_2);
   (edge_array + (signed long int)source)->deleted = (unsigned short int)1;
-  unsigned int return_value_getTwinEdge$3;
-  return_value_getTwinEdge$3=getTwinEdge(source);
-  (edge_array + (signed long int)return_value_getTwinEdge$3)->deleted = (unsigned short int)1;
+  unsigned int return_value_getTwinEdge_3;
+  return_value_getTwinEdge_3=getTwinEdge(source);
+  (edge_array + (signed long int)return_value_getTwinEdge_3)->deleted = (unsigned short int)1;
   if(startingNode == source)
     startingNode = target;
 
-  unsigned int return_value_getTwinEdge$4;
-  return_value_getTwinEdge$4=getTwinEdge(source);
-  if(startingNode == return_value_getTwinEdge$4)
+  unsigned int return_value_getTwinEdge_4;
+  return_value_getTwinEdge_4=getTwinEdge(source);
+  if(startingNode == return_value_getTwinEdge_4)
     startingNode=getTwinEdge(target);
 
   (edge_array + (signed long int)source)->length = 0;
-  unsigned int return_value_getTwinEdge$5;
-  return_value_getTwinEdge$5=getTwinEdge(source);
-  (edge_array + (signed long int)return_value_getTwinEdge$5)->length = 0;
+  unsigned int return_value_getTwinEdge_5;
+  return_value_getTwinEdge_5=getTwinEdge(source);
+  (edge_array + (signed long int)return_value_getTwinEdge_5)->length = 0;
 }
 
 // remapNodeTimesOntoForwardMiddlePath
@@ -22053,29 +22053,29 @@ static void remapNodeTimesOntoForwardMiddlePath(unsigned int source, struct read
   unsigned int previousNode = previous[(signed long int)source];
   double targetTime;
   marker = path;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  char return_value_isPreviousToNode$1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  char return_value_isPreviousToNode_1;
   for( ; !(marker->edgeid == source); marker = marker->nextInRead)
   {
     target = marker->edgeid;
     targetTime = times[(signed long int)target];
     if(targetTime > nodeTime || IEEE_FLOAT_EQUAL(targetTime, -1.000000))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       if(IEEE_FLOAT_EQUAL(targetTime, nodeTime))
       {
-        return_value_isPreviousToNode$1=isPreviousToNode(target, previousNode);
-        tmp_if_expr$2 = !(return_value_isPreviousToNode$1 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_isPreviousToNode_1=isPreviousToNode(target, previousNode);
+        tmp_if_expr_2 = !(return_value_isPreviousToNode_1 != 0) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
     {
       times[(signed long int)target] = nodeTime;
       previous[(signed long int)target] = previousNode;
@@ -22091,11 +22091,11 @@ static void remapNodeTimesOntoForwardMiddlePath(unsigned int source, struct read
 static void remapNodeTimesOntoNeighbour(unsigned int source, unsigned int target)
 {
   remapNodeTimesOntoTargetNode(source, target);
-  unsigned int return_value_getTwinEdge$1;
-  return_value_getTwinEdge$1=getTwinEdge(source);
-  unsigned int return_value_getTwinEdge$2;
-  return_value_getTwinEdge$2=getTwinEdge(target);
-  remapNodeTimesOntoTargetNode(return_value_getTwinEdge$1, return_value_getTwinEdge$2);
+  unsigned int return_value_getTwinEdge_1;
+  return_value_getTwinEdge_1=getTwinEdge(source);
+  unsigned int return_value_getTwinEdge_2;
+  return_value_getTwinEdge_2=getTwinEdge(target);
+  remapNodeTimesOntoTargetNode(return_value_getTwinEdge_1, return_value_getTwinEdge_2);
 }
 
 // remapNodeTimesOntoTargetNode
@@ -22105,9 +22105,9 @@ static void remapNodeTimesOntoTargetNode(unsigned int source, unsigned int targe
   double nodeTime = times[(signed long int)source];
   unsigned int prevNode = previous[(signed long int)source];
   double targetTime = times[(signed long int)target];
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  char return_value_isPreviousToNode$2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  char return_value_isPreviousToNode_2;
   if(!IEEE_FLOAT_EQUAL(nodeTime, -1.000000))
   {
     if(prevNode == source)
@@ -22119,26 +22119,26 @@ static void remapNodeTimesOntoTargetNode(unsigned int source, unsigned int targe
     else
     {
       if(targetTime > nodeTime || IEEE_FLOAT_EQUAL(targetTime, -1.000000))
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
         if(IEEE_FLOAT_EQUAL(targetTime, nodeTime))
         {
-          return_value_isPreviousToNode$2=isPreviousToNode(target, prevNode);
-          tmp_if_expr$3 = !(return_value_isPreviousToNode$2 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_isPreviousToNode_2=isPreviousToNode(target, prevNode);
+          tmp_if_expr_3 = !(return_value_isPreviousToNode_2 != 0) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
+      if(tmp_if_expr_4)
       {
         times[(signed long int)target] = nodeTime;
-        unsigned int return_value_getTwinEdge$1;
-        return_value_getTwinEdge$1=getTwinEdge(source);
-        if(!(prevNode == return_value_getTwinEdge$1))
+        unsigned int return_value_getTwinEdge_1;
+        return_value_getTwinEdge_1=getTwinEdge(source);
+        if(!(prevNode == return_value_getTwinEdge_1))
           previous[(signed long int)target] = prevNode;
 
         else
@@ -22167,30 +22167,30 @@ static void remapNodeTimesOntoTwinMiddlePath(unsigned int source, struct readint
   for( ; !(marker->edgeid == source); marker = marker->nextInRead)
     ;
   marker = marker->bal_rv;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  char return_value_isPreviousToNode$1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  char return_value_isPreviousToNode_1;
   while(!(marker == limit))
   {
     marker = marker->nextInRead;
     target = marker->edgeid;
     targetTime = times[(signed long int)target];
     if(targetTime > nodeTime || IEEE_FLOAT_EQUAL(targetTime, -1.000000))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       if(IEEE_FLOAT_EQUAL(targetTime, nodeTime))
       {
-        return_value_isPreviousToNode$1=isPreviousToNode(target, previousNode);
-        tmp_if_expr$2 = !(return_value_isPreviousToNode$1 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_isPreviousToNode_1=isPreviousToNode(target, previousNode);
+        tmp_if_expr_2 = !(return_value_isPreviousToNode_1 != 0) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
     {
       times[(signed long int)target] = nodeTime;
       previous[(signed long int)target] = previousNode;
@@ -22276,43 +22276,43 @@ extern void removeLowCovEdges(signed int lenCutoff, unsigned short int covCutoff
   unsigned int i;
   signed int counter = 0;
   i = (unsigned int)1;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  char return_value_EdSameAsTwin$4;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  char return_value_EdSameAsTwin_4;
+  _Bool tmp_if_expr_6;
   for( ; num_ed >= i; i = i + 1u)
   {
     if(!((edge_array + (signed long int)i)->deleted == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)(edge_array + (signed long int)i)->cvg == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = (signed int)(edge_array + (signed long int)i)->cvg == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)(edge_array + (signed long int)i)->cvg > (signed int)covCutoff * 10 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = (signed int)(edge_array + (signed long int)i)->cvg > (signed int)covCutoff * 10 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (edge_array + (signed long int)i)->length >= lenCutoff ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_3 = (edge_array + (signed long int)i)->length >= lenCutoff ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_EdSameAsTwin$4=EdSameAsTwin(i);
-      tmp_if_expr$5 = return_value_EdSameAsTwin$4 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_EdSameAsTwin_4=EdSameAsTwin(i);
+      tmp_if_expr_5 = return_value_EdSameAsTwin_4 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = (_Bool)1;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (edge_array + (signed long int)i)->length == 0 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$6)
+      tmp_if_expr_6 = (edge_array + (signed long int)i)->length == 0 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_6)
     {
       bal_ed=getTwinEdge(i);
       arcRight=arcCount(i, &arcRight_n);
@@ -22357,9 +22357,9 @@ extern void removeMinorTips()
         if((1u & set->flags[(signed long int)(set->iter_ptr >> 4)] >> ((15ul & set->iter_ptr) << 1)) == 0u)
         {
           rs = set->array + (signed long int)set->iter_ptr;
-          signed int return_value_clipTipFromNode$1;
-          return_value_clipTipFromNode$1=clipTipFromNode(rs, cut_len_tip, (char)0);
-          flag = flag + return_value_clipTipFromNode$1;
+          signed int return_value_clipTipFromNode_1;
+          return_value_clipTipFromNode_1=clipTipFromNode(rs, cut_len_tip, (char)0);
+          flag = flag + return_value_clipTipFromNode_1;
         }
 
     }
@@ -22374,9 +22374,9 @@ extern void removeMinorTips()
 unsigned int removeNextNodeFromDHeap(struct dfibheap *heap)
 {
   unsigned int node;
-  unsigned int return_value_dfh_extractmin$1;
-  return_value_dfh_extractmin$1=dfh_extractmin(heap);
-  node = (unsigned int)return_value_dfh_extractmin$1;
+  unsigned int return_value_dfh_extractmin_1;
+  return_value_dfh_extractmin_1=dfh_extractmin(heap);
+  node = (unsigned int)return_value_dfh_extractmin_1;
   return node;
 }
 
@@ -22384,9 +22384,9 @@ unsigned int removeNextNodeFromDHeap(struct dfibheap *heap)
 // file fibHeap.c line 53
 unsigned int removeNextNodeFromHeap(struct fibheap *heap)
 {
-  unsigned int return_value_fh_extractmin$1;
-  return_value_fh_extractmin$1=fh_extractmin(heap);
-  return (unsigned int)return_value_fh_extractmin$1;
+  unsigned int return_value_fh_extractmin_1;
+  return_value_fh_extractmin_1=fh_extractmin(heap);
+  return (unsigned int)return_value_fh_extractmin_1;
 }
 
 // removeSingleTips
@@ -22410,9 +22410,9 @@ extern void removeSingleTips()
       if((1u & set->flags[(signed long int)(set->iter_ptr >> 4)] >> ((15ul & set->iter_ptr) << 1)) == 0u)
       {
         rs = set->array + (signed long int)set->iter_ptr;
-        signed int return_value_clipTipFromNode$1;
-        return_value_clipTipFromNode$1=clipTipFromNode(rs, cut_len_tip, (char)1);
-        flag = flag + return_value_clipTipFromNode$1;
+        signed int return_value_clipTipFromNode_1;
+        return_value_clipTipFromNode_1=clipTipFromNode(rs, cut_len_tip, (char)1);
+        flag = flag + return_value_clipTipFromNode_1;
       }
 
   }
@@ -22431,14 +22431,14 @@ static void removeTransitive()
   signed int in_num;
   signed int count;
   signed int min;
-  signed int removeTransitive$$1$$max;
+  signed int removeTransitive__1__max;
   signed int linear;
   struct connection *cn_temp;
   struct connection *cn1 = (struct connection *)(void *)0;
   struct connection *cn2 = (struct connection *)(void *)0;
-  _Bool tmp_if_expr$1;
-  void *return_value_darrayGet$5;
-  void *return_value_darrayGet$6;
+  _Bool tmp_if_expr_1;
+  void *return_value_darrayGet_5;
+  void *return_value_darrayGet_6;
   while(!(flag == 0))
   {
     flag = 0;
@@ -22455,11 +22455,11 @@ static void removeTransitive()
           while(!(cn_temp == ((struct connection *)NULL)))
           {
             if(!(cn_temp->deleted == 0))
-              tmp_if_expr$1 = (_Bool)1;
+              tmp_if_expr_1 = (_Bool)1;
 
             else
-              tmp_if_expr$1 = cn_temp->mask != 0 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$1)
+              tmp_if_expr_1 = cn_temp->mask != 0 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_1)
               cn_temp = cn_temp->next;
 
             else
@@ -22501,11 +22501,11 @@ static void removeTransitive()
             if(!(in_num >= 3))
             {
               min = (signed int)(((unsigned int)(cn2->gapLen - cn1->gapLen) - (contig_array + (signed long int)cn1->contigID)->length) - (unsigned int)(ins_size_var / 2));
-              removeTransitive$$1$$max = (signed int)(((unsigned int)(cn2->gapLen - cn1->gapLen) - (contig_array + (signed long int)cn1->contigID)->length) + (unsigned int)(ins_size_var / 2));
-              if(removeTransitive$$1$$max >= 0)
+              removeTransitive__1__max = (signed int)(((unsigned int)(cn2->gapLen - cn1->gapLen) - (contig_array + (signed long int)cn1->contigID)->length) + (unsigned int)(ins_size_var / 2));
+              if(removeTransitive__1__max >= 0)
               {
                 setConnectDelete(i, cn2->contigID, (char)1, (char)0);
-                linear=linearC2C(i, cn1, cn2->contigID, min, removeTransitive$$1$$max);
+                linear=linearC2C(i, cn1, cn2->contigID, min, removeTransitive__1__max);
                 if(!(linear == 1))
                 {
                   setConnectDelete(i, cn2->contigID, (char)0, (char)0);
@@ -22516,15 +22516,15 @@ static void removeTransitive()
                 {
                   downstreamCTG[(signed long int)0] = i;
                   catUsDsContig();
-                  char return_value_checkSimple$2;
-                  return_value_checkSimple$2=checkSimple(solidArray, solidCounter);
-                  if(!(return_value_checkSimple$2 == 0))
+                  char return_value_checkSimple_2;
+                  return_value_checkSimple_2=checkSimple(solidArray, solidCounter);
+                  if(!(return_value_checkSimple_2 == 0))
                   {
-                    void *return_value_darrayGet$3;
-                    return_value_darrayGet$3=darrayGet(solidArray, (signed long long int)(solidCounter - 2));
-                    void *return_value_darrayGet$4;
-                    return_value_darrayGet$4=darrayGet(solidArray, (signed long long int)(solidCounter - 1));
-                    cn1=getCntBetween(*((unsigned int *)return_value_darrayGet$3), *((unsigned int *)return_value_darrayGet$4));
+                    void *return_value_darrayGet_3;
+                    return_value_darrayGet_3=darrayGet(solidArray, (signed long long int)(solidCounter - 2));
+                    void *return_value_darrayGet_4;
+                    return_value_darrayGet_4=darrayGet(solidArray, (signed long long int)(solidCounter - 1));
+                    cn1=getCntBetween(*((unsigned int *)return_value_darrayGet_3), *((unsigned int *)return_value_darrayGet_4));
                     if(!(cn1 == ((struct connection *)NULL)))
                     {
                       if(cn1->nextInScaf == ((struct connection *)NULL))
@@ -22544,16 +22544,16 @@ static void removeTransitive()
                       consolidate();
                       if(!(cn2->prevInScaf == 0))
                       {
-                        return_value_darrayGet$5=darrayGet(solidArray, (signed long long int)0);
-                        return_value_darrayGet$6=darrayGet(solidArray, (signed long long int)1);
-                        substitueDSinScaf(cn2, *((unsigned int *)return_value_darrayGet$5), *((unsigned int *)return_value_darrayGet$6));
+                        return_value_darrayGet_5=darrayGet(solidArray, (signed long long int)0);
+                        return_value_darrayGet_6=darrayGet(solidArray, (signed long long int)1);
+                        substitueDSinScaf(cn2, *((unsigned int *)return_value_darrayGet_5), *((unsigned int *)return_value_darrayGet_6));
                       }
 
                       if(!(cn2->nextInScaf == ((struct connection *)NULL)))
                       {
-                        void *return_value_darrayGet$7;
-                        return_value_darrayGet$7=darrayGet(solidArray, (signed long long int)(solidCounter - 2));
-                        substitueUSinScaf(cn2, *((unsigned int *)return_value_darrayGet$7));
+                        void *return_value_darrayGet_7;
+                        return_value_darrayGet_7=darrayGet(solidArray, (signed long long int)(solidCounter - 2));
+                        substitueUSinScaf(cn2, *((unsigned int *)return_value_darrayGet_7));
                       }
 
                       flag = flag + 1;
@@ -22590,50 +22590,50 @@ extern void removeWeakEdges(signed int lenCutoff, unsigned int multiCutoff)
   unsigned int i;
   signed int counter = 0;
   i = (unsigned int)1;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  char return_value_EdSameAsTwin$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  char return_value_EdSameAsTwin_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
   for( ; num_ed >= i; i = i + 1u)
   {
     if(!((edge_array + (signed long int)i)->deleted == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (edge_array + (signed long int)i)->length == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = (edge_array + (signed long int)i)->length == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (edge_array + (signed long int)i)->length > lenCutoff ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_2 = (edge_array + (signed long int)i)->length > lenCutoff ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_EdSameAsTwin$3=EdSameAsTwin(i);
-      tmp_if_expr$4 = return_value_EdSameAsTwin$3 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_EdSameAsTwin_3=EdSameAsTwin(i);
+      tmp_if_expr_4 = return_value_EdSameAsTwin_3 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$4)
+    if(!tmp_if_expr_4)
     {
       bal_ed=getTwinEdge(i);
       arcRight=arcCount(i, &arcRight_n);
       if(arcRight == ((struct arc *)NULL) || arcRight_n >= 2u)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = arcRight->multiplicity > multiCutoff ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$5)
+        tmp_if_expr_5 = arcRight->multiplicity > multiCutoff ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_5)
       {
         arcLeft=arcCount(bal_ed, &arcLeft_n);
         if(arcLeft == ((struct arc *)NULL) || arcLeft_n >= 2u)
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = arcLeft->multiplicity > multiCutoff ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$6)
+          tmp_if_expr_6 = arcLeft->multiplicity > multiCutoff ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_6)
         {
           destroyEdge(i);
           counter = counter + 1;
@@ -22661,9 +22661,9 @@ double replaceKeyInDHeap(struct dfibheap *heap, struct dfibheap_el *node, double
 // file fibHeap.c line 46
 signed long long int replaceKeyInHeap(struct fibheap *heap, struct fibheap_el *node, signed long long int newKey)
 {
-  signed long long int return_value_fh_replacekey$1;
-  return_value_fh_replacekey$1=fh_replacekey(heap, node, newKey);
-  return return_value_fh_replacekey$1;
+  signed long long int return_value_fh_replacekey_1;
+  return_value_fh_replacekey_1=fh_replacekey(heap, node, newKey);
+  return return_value_fh_replacekey_1;
 }
 
 // replaceValueInDHeap
@@ -22690,9 +22690,9 @@ static void resetNodeStatus()
   index = (unsigned int)1;
   for( ; num_ed >= index; index = index + 1u)
   {
-    char return_value_EdSameAsTwin$1;
-    return_value_EdSameAsTwin$1=EdSameAsTwin(index);
-    if(!(return_value_EdSameAsTwin$1 == 0))
+    char return_value_EdSameAsTwin_1;
+    return_value_EdSameAsTwin_1=EdSameAsTwin(index);
+    if(!(return_value_EdSameAsTwin_1 == 0))
       (edge_array + (signed long int)index)->multi = (unsigned short int)1;
 
     else
@@ -22762,9 +22762,9 @@ static void reverse2k(char *src_seq, signed int len_seq)
 // file inc/extfunc.h line 32
 extern unsigned long long int reverseComplement(unsigned long long int word, signed int overlap)
 {
-  unsigned long long int return_value_fastReverseComp$1;
-  return_value_fastReverseComp$1=fastReverseComp(word, (char)overlap);
-  return return_value_fastReverseComp$1;
+  unsigned long long int return_value_fastReverseComp_1;
+  return_value_fastReverseComp_1=fastReverseComp(word, (char)overlap);
+  return return_value_fastReverseComp_1;
 }
 
 // reverseComplementSeq
@@ -22773,15 +22773,15 @@ extern void reverseComplementSeq(char *seq, signed int len, char *bal_seq)
 {
   signed int i;
   signed int index = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(len >= 1)
   {
     i = len - 1;
     for( ; i >= 0; i = i - 1)
     {
-      tmp_post$1 = index;
+      tmp_post_1 = index;
       index = index + 1;
-      bal_seq[(signed long int)tmp_post$1] = (char)((signed int)seq[(signed long int)i] ^ 0x02);
+      bal_seq[(signed long int)tmp_post_1] = (char)((signed int)seq[(signed long int)i] ^ 0x02);
     }
     goto __CPROVER_DUMP_L4;
   }
@@ -22795,9 +22795,9 @@ __CPROVER_DUMP_L4:
 // file inc/extfunc.h line 131
 extern unsigned long long int reverseComplementVerbose(unsigned long long int word, signed int overlap)
 {
-  unsigned long long int return_value_fastReverseComp$1;
-  return_value_fastReverseComp$1=fastReverseComp(word, (char)overlap);
-  return return_value_fastReverseComp$1;
+  unsigned long long int return_value_fastReverseComp_1;
+  return_value_fastReverseComp_1=fastReverseComp(word, (char)overlap);
+  return return_value_fastReverseComp_1;
 }
 
 // reverseStack
@@ -22807,17 +22807,17 @@ static void reverseStack(struct stack *dStack, struct stack *sStack)
   struct ctg4scaf *actg;
   struct ctg4scaf *ctgPt;
   emptyStack(dStack);
-  void *return_value_stackPop$1;
+  void *return_value_stackPop_1;
   do
   {
-    return_value_stackPop$1=stackPop(sStack);
-    actg = (struct ctg4scaf *)return_value_stackPop$1;
+    return_value_stackPop_1=stackPop(sStack);
+    actg = (struct ctg4scaf *)return_value_stackPop_1;
     if(actg == ((struct ctg4scaf *)NULL))
       break;
 
-    void *return_value_stackPush$2;
-    return_value_stackPush$2=stackPush(dStack);
-    ctgPt = (struct ctg4scaf *)return_value_stackPush$2;
+    void *return_value_stackPush_2;
+    return_value_stackPush_2=stackPush(dStack);
+    ctgPt = (struct ctg4scaf *)return_value_stackPush_2;
     ctgPt->ctgID = actg->ctgID;
     ctgPt->start = actg->start;
     ctgPt->end = actg->end;
@@ -22832,30 +22832,30 @@ static void reverseStack(struct stack *dStack, struct stack *sStack)
   stackBackup(dStack);
 }
 
-// reverseStack$link1
+// reverseStack_link1
 // file read2scaf.c line 57
-static void reverseStack$link1(struct stack *dStack$link1, struct stack *sStack$link1)
+static void reverseStack_link1(struct stack *dStack_link1, struct stack *sStack_link1)
 {
-  struct ctg4scaf *actg$link1;
-  struct ctg4scaf *ctgPt$link1;
-  emptyStack(dStack$link1);
-  void *return_value_stackPop$1$link1;
+  struct ctg4scaf *actg_link1;
+  struct ctg4scaf *ctgPt_link1;
+  emptyStack(dStack_link1);
+  void *return_value_stackPop_1_link1;
   do
   {
-    return_value_stackPop$1$link1=stackPop(sStack$link1);
-    actg$link1 = (struct ctg4scaf *)return_value_stackPop$1$link1;
-    if(actg$link1 == ((struct ctg4scaf *)NULL))
+    return_value_stackPop_1_link1=stackPop(sStack_link1);
+    actg_link1 = (struct ctg4scaf *)return_value_stackPop_1_link1;
+    if(actg_link1 == ((struct ctg4scaf *)NULL))
       break;
 
-    void *return_value_stackPush$2$link1;
-    return_value_stackPush$2$link1=stackPush(dStack$link1);
-    ctgPt$link1 = (struct ctg4scaf *)return_value_stackPush$2$link1;
-    ctgPt$link1->ctgID = actg$link1->ctgID;
-    ctgPt$link1->start = actg$link1->start;
-    ctgPt$link1->end = actg$link1->end;
+    void *return_value_stackPush_2_link1;
+    return_value_stackPush_2_link1=stackPush(dStack_link1);
+    ctgPt_link1 = (struct ctg4scaf *)return_value_stackPush_2_link1;
+    ctgPt_link1->ctgID = actg_link1->ctgID;
+    ctgPt_link1->start = actg_link1->start;
+    ctgPt_link1->end = actg_link1->end;
   }
   while((_Bool)1);
-  stackBackup(dStack$link1);
+  stackBackup(dStack_link1);
 }
 
 // scaffold_count
@@ -22885,22 +22885,22 @@ void scaffold_count(unsigned int len_cut)
   struct connection *prevCNT;
   struct connection *nextCnt;
   char excep;
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)max_n_routes * sizeof(unsigned int) /*4ul*/ );
-  so_far = (unsigned int *)return_value_ckalloc$1;
-  void *return_value_ckalloc$2;
-  return_value_ckalloc$2=ckalloc((unsigned long int)max_n_routes * sizeof(unsigned int *) /*8ul*/ );
-  found_routes = (unsigned int **)return_value_ckalloc$2;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)max_n_routes * sizeof(unsigned int) /*4ul*/ );
+  so_far = (unsigned int *)return_value_ckalloc_1;
+  void *return_value_ckalloc_2;
+  return_value_ckalloc_2=ckalloc((unsigned long int)max_n_routes * sizeof(unsigned int *) /*8ul*/ );
+  found_routes = (unsigned int **)return_value_ckalloc_2;
   j = 0;
   for( ; !(j >= max_n_routes); j = j + 1)
   {
-    void *return_value_ckalloc$3;
-    return_value_ckalloc$3=ckalloc((unsigned long int)max_steps * sizeof(unsigned int) /*4ul*/ );
-    found_routes[(signed long int)j] = (unsigned int *)return_value_ckalloc$3;
+    void *return_value_ckalloc_3;
+    return_value_ckalloc_3=ckalloc((unsigned long int)max_steps * sizeof(unsigned int) /*4ul*/ );
+    found_routes[(signed long int)j] = (unsigned int *)return_value_ckalloc_3;
   }
-  void *return_value_ckalloc$4;
-  return_value_ckalloc$4=ckalloc((unsigned long int)(num_ctg + (unsigned int)1) * sizeof(unsigned int) /*4ul*/ );
-  length_array = (unsigned int *)return_value_ckalloc$4;
+  void *return_value_ckalloc_4;
+  return_value_ckalloc_4=ckalloc((unsigned long int)(num_ctg + (unsigned int)1) * sizeof(unsigned int) /*4ul*/ );
+  length_array = (unsigned int *)return_value_ckalloc_4;
   i = (unsigned int)1;
   for( ; num_ctg >= i; i = i + 1u)
     length_array[(signed long int)i] = (unsigned int)0;
@@ -22913,38 +22913,38 @@ void scaffold_count(unsigned int len_cut)
   for( ; num_ctg >= i; i = i + 1u)
     index_array[(signed long int)i] = length_array[(signed long int)i];
   orig2new = (char)0;
-  struct dynamic_array *return_value_createDarray$5;
-  return_value_createDarray$5=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
-  static struct dynamic_array *scaffold_count$$1$$scaf3;
-  scaffold_count$$1$$scaf3 = (struct dynamic_array *)return_value_createDarray$5;
-  struct dynamic_array *return_value_createDarray$6;
-  return_value_createDarray$6=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
-  static struct dynamic_array *scaffold_count$$1$$scaf5;
-  scaffold_count$$1$$scaf5 = (struct dynamic_array *)return_value_createDarray$6;
-  struct dynamic_array *return_value_createDarray$7;
-  return_value_createDarray$7=createDarray(1000, sizeof(signed int) /*4ul*/ );
-  static struct dynamic_array *scaffold_count$$1$$gap3;
-  scaffold_count$$1$$gap3 = (struct dynamic_array *)return_value_createDarray$7;
-  struct dynamic_array *return_value_createDarray$8;
-  return_value_createDarray$8=createDarray(1000, sizeof(signed int) /*4ul*/ );
-  static struct dynamic_array *scaffold_count$$1$$gap5;
-  scaffold_count$$1$$gap5 = (struct dynamic_array *)return_value_createDarray$8;
+  struct dynamic_array *return_value_createDarray_5;
+  return_value_createDarray_5=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
+  static struct dynamic_array *scaffold_count__1__scaf3;
+  scaffold_count__1__scaf3 = (struct dynamic_array *)return_value_createDarray_5;
+  struct dynamic_array *return_value_createDarray_6;
+  return_value_createDarray_6=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
+  static struct dynamic_array *scaffold_count__1__scaf5;
+  scaffold_count__1__scaf5 = (struct dynamic_array *)return_value_createDarray_6;
+  struct dynamic_array *return_value_createDarray_7;
+  return_value_createDarray_7=createDarray(1000, sizeof(signed int) /*4ul*/ );
+  static struct dynamic_array *scaffold_count__1__gap3;
+  scaffold_count__1__gap3 = (struct dynamic_array *)return_value_createDarray_7;
+  struct dynamic_array *return_value_createDarray_8;
+  return_value_createDarray_8=createDarray(1000, sizeof(signed int) /*4ul*/ );
+  static struct dynamic_array *scaffold_count__1__gap5;
+  scaffold_count__1__gap5 = (struct dynamic_array *)return_value_createDarray_8;
   i = (unsigned int)1;
   for( ; num_ctg >= i; i = i + 1u)
     (contig_array + (signed long int)i)->flag = (unsigned char)0;
   i = (unsigned int)1;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$12;
-  signed int return_value_validConnect$11;
-  signed int tmp_post$13;
-  signed int tmp_post$16;
-  signed int tmp_post$21;
-  unsigned int tmp_post$23;
-  signed int tmp_if_expr$30;
-  void *return_value_darrayGet$29;
-  signed int tmp_if_expr$37;
-  void *return_value_darrayGet$36;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_12;
+  signed int return_value_validConnect_11;
+  signed int tmp_post_13;
+  signed int tmp_post_16;
+  signed int tmp_post_21;
+  unsigned int tmp_post_23;
+  signed int tmp_if_expr_30;
+  void *return_value_darrayGet_29;
+  signed int tmp_if_expr_37;
+  void *return_value_darrayGet_36;
   for( ; num_ctg >= i; i = i + 1u)
   {
     if((contig_array + (signed long int)i)->length + (unsigned int)overlaplen >= len_cut)
@@ -22953,33 +22953,33 @@ void scaffold_count(unsigned int len_cut)
     else
       goto __CPROVER_DUMP_L45;
     if(!((contig_array + (signed long int)i)->flag == 0))
-      tmp_if_expr$9 = (_Bool)1;
+      tmp_if_expr_9 = (_Bool)1;
 
     else
-      tmp_if_expr$9 = (contig_array + (signed long int)i)->mask != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$9)
-      tmp_if_expr$10 = (_Bool)1;
+      tmp_if_expr_9 = (contig_array + (signed long int)i)->mask != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_9)
+      tmp_if_expr_10 = (_Bool)1;
 
     else
-      tmp_if_expr$10 = !((contig_array + (signed long int)i)->downwardConnect != ((struct connection *)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$10)
-      tmp_if_expr$12 = (_Bool)1;
+      tmp_if_expr_10 = !((contig_array + (signed long int)i)->downwardConnect != ((struct connection *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_10)
+      tmp_if_expr_12 = (_Bool)1;
 
     else
     {
-      return_value_validConnect$11=validConnect(i, (struct connection *)(void *)0);
-      tmp_if_expr$12 = !(return_value_validConnect$11 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_validConnect_11=validConnect(i, (struct connection *)(void *)0);
+      tmp_if_expr_12 = !(return_value_validConnect_11 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$12)
+    if(!tmp_if_expr_12)
     {
       num3 = 0;
       num5 = num3;
       ctg = i;
-      tmp_post$13 = num5;
+      tmp_post_13 = num5;
       num5 = num5 + 1;
-      void *return_value_darrayPut$14;
-      return_value_darrayPut$14=darrayPut(scaffold_count$$1$$scaf5, (signed long long int)tmp_post$13);
-      *((unsigned int *)return_value_darrayPut$14) = i;
+      void *return_value_darrayPut_14;
+      return_value_darrayPut_14=darrayPut(scaffold_count__1__scaf5, (signed long long int)tmp_post_13);
+      *((unsigned int *)return_value_darrayPut_14) = i;
       (contig_array + (signed long int)i)->flag = (unsigned char)1;
       bal_ctg=getTwinCtg(ctg);
       (contig_array + (signed long int)bal_ctg)->flag = (unsigned char)1;
@@ -23000,15 +23000,15 @@ void scaffold_count(unsigned int len_cut)
         }
 
         setConnectUsed(ctg, cnt->contigID, (char)1);
-        void *return_value_darrayPut$15;
-        return_value_darrayPut$15=darrayPut(scaffold_count$$1$$gap5, (signed long long int)(num5 - 1));
-        *((signed int *)return_value_darrayPut$15) = cnt->gapLen;
+        void *return_value_darrayPut_15;
+        return_value_darrayPut_15=darrayPut(scaffold_count__1__gap5, (signed long long int)(num5 - 1));
+        *((signed int *)return_value_darrayPut_15) = cnt->gapLen;
         ctg = cnt->contigID;
-        tmp_post$16 = num5;
+        tmp_post_16 = num5;
         num5 = num5 + 1;
-        void *return_value_darrayPut$17;
-        return_value_darrayPut$17=darrayPut(scaffold_count$$1$$scaf5, (signed long long int)tmp_post$16);
-        *((unsigned int *)return_value_darrayPut$17) = ctg;
+        void *return_value_darrayPut_17;
+        return_value_darrayPut_17=darrayPut(scaffold_count__1__scaf5, (signed long long int)tmp_post_16);
+        *((unsigned int *)return_value_darrayPut_17) = ctg;
         len = len + (signed int)((unsigned int)cnt->gapLen + (contig_array + (signed long int)ctg)->length);
         bal_ctg=getTwinCtg(ctg);
         (contig_array + (signed long int)ctg)->flag = (unsigned char)1;
@@ -23019,11 +23019,11 @@ void scaffold_count(unsigned int len_cut)
       ctg=getTwinCtg(i);
       if(num5 >= 2)
       {
-        void *return_value_darrayGet$18;
-        return_value_darrayGet$18=darrayGet(scaffold_count$$1$$scaf5, (signed long long int)1);
-        unsigned int return_value_getTwinCtg$19;
-        return_value_getTwinCtg$19=getTwinCtg(*((unsigned int *)return_value_darrayGet$18));
-        prevCNT=checkConnect(return_value_getTwinCtg$19, ctg);
+        void *return_value_darrayGet_18;
+        return_value_darrayGet_18=darrayGet(scaffold_count__1__scaf5, (signed long long int)1);
+        unsigned int return_value_getTwinCtg_19;
+        return_value_getTwinCtg_19=getTwinCtg(*((unsigned int *)return_value_darrayGet_18));
+        prevCNT=checkConnect(return_value_getTwinCtg_19, ctg);
       }
 
       else
@@ -23048,22 +23048,22 @@ void scaffold_count(unsigned int len_cut)
         bal_ctg=getTwinCtg(ctg);
         (contig_array + (signed long int)ctg)->flag = (unsigned char)1;
         (contig_array + (signed long int)bal_ctg)->flag = (unsigned char)1;
-        void *return_value_darrayPut$20;
-        return_value_darrayPut$20=darrayPut(scaffold_count$$1$$gap3, (signed long long int)num3);
-        *((signed int *)return_value_darrayPut$20) = cnt->gapLen;
-        tmp_post$21 = num3;
+        void *return_value_darrayPut_20;
+        return_value_darrayPut_20=darrayPut(scaffold_count__1__gap3, (signed long long int)num3);
+        *((signed int *)return_value_darrayPut_20) = cnt->gapLen;
+        tmp_post_21 = num3;
         num3 = num3 + 1;
-        void *return_value_darrayPut$22;
-        return_value_darrayPut$22=darrayPut(scaffold_count$$1$$scaf3, (signed long long int)tmp_post$21);
-        *((unsigned int *)return_value_darrayPut$22) = bal_ctg;
+        void *return_value_darrayPut_22;
+        return_value_darrayPut_22=darrayPut(scaffold_count__1__scaf3, (signed long long int)tmp_post_21);
+        *((unsigned int *)return_value_darrayPut_22) = bal_ctg;
         prevCNT = cnt;
         cnt = nextCnt;
       }
       len = len + overlaplen;
       sum = sum + (signed long long int)len;
-      tmp_post$23 = count;
+      tmp_post_23 = count;
       count = count + 1u;
-      length_array[(signed long int)tmp_post$23] = (unsigned int)len;
+      length_array[(signed long int)tmp_post_23] = (unsigned int)len;
       if(!(num3 + num5 >= 1))
         printf("no scaffold created for contig %d\n", i);
 
@@ -23078,33 +23078,33 @@ void scaffold_count(unsigned int len_cut)
           {
             num_trace = 0;
             num_route = num_trace;
-            void *return_value_darrayGet$24;
-            return_value_darrayGet$24=darrayGet(scaffold_count$$1$$scaf3, (signed long long int)j);
-            traceAlongArc(*((unsigned int *)return_value_darrayGet$24), prev_ctg, (signed int)max_steps, (signed int)gap - ins_size_var, (signed int)gap + ins_size_var, 0, 0, &num_route);
+            void *return_value_darrayGet_24;
+            return_value_darrayGet_24=darrayGet(scaffold_count__1__scaf3, (signed long long int)j);
+            traceAlongArc(*((unsigned int *)return_value_darrayGet_24), prev_ctg, (signed int)max_steps, (signed int)gap - ins_size_var, (signed int)gap + ins_size_var, 0, 0, &num_route);
             if(num_route == 1)
               gap_c = gap_c + 1;
 
           }
 
-          void *return_value_darrayGet$25;
-          return_value_darrayGet$25=darrayGet(scaffold_count$$1$$scaf3, (signed long long int)j);
-          void *return_value_darrayGet$26;
-          return_value_darrayGet$26=darrayGet(scaffold_count$$1$$gap3, (signed long long int)j);
-          len = len + (signed int)((contig_array + (signed long int)*((unsigned int *)return_value_darrayGet$25))->length + (unsigned int)*((signed int *)return_value_darrayGet$26));
-          void *return_value_darrayGet$27;
-          return_value_darrayGet$27=darrayGet(scaffold_count$$1$$scaf3, (signed long long int)j);
-          prev_ctg = *((unsigned int *)return_value_darrayGet$27);
-          void *return_value_darrayGet$28;
-          return_value_darrayGet$28=darrayGet(scaffold_count$$1$$gap3, (signed long long int)j);
-          if(*((signed int *)return_value_darrayGet$28) >= 1)
+          void *return_value_darrayGet_25;
+          return_value_darrayGet_25=darrayGet(scaffold_count__1__scaf3, (signed long long int)j);
+          void *return_value_darrayGet_26;
+          return_value_darrayGet_26=darrayGet(scaffold_count__1__gap3, (signed long long int)j);
+          len = len + (signed int)((contig_array + (signed long int)*((unsigned int *)return_value_darrayGet_25))->length + (unsigned int)*((signed int *)return_value_darrayGet_26));
+          void *return_value_darrayGet_27;
+          return_value_darrayGet_27=darrayGet(scaffold_count__1__scaf3, (signed long long int)j);
+          prev_ctg = *((unsigned int *)return_value_darrayGet_27);
+          void *return_value_darrayGet_28;
+          return_value_darrayGet_28=darrayGet(scaffold_count__1__gap3, (signed long long int)j);
+          if(*((signed int *)return_value_darrayGet_28) >= 1)
           {
-            return_value_darrayGet$29=darrayGet(scaffold_count$$1$$gap3, (signed long long int)j);
-            tmp_if_expr$30 = *((signed int *)return_value_darrayGet$29);
+            return_value_darrayGet_29=darrayGet(scaffold_count__1__gap3, (signed long long int)j);
+            tmp_if_expr_30 = *((signed int *)return_value_darrayGet_29);
           }
 
           else
-            tmp_if_expr$30 = 0;
-          gap = (signed short int)tmp_if_expr$30;
+            tmp_if_expr_30 = 0;
+          gap = (signed short int)tmp_if_expr_30;
         }
         j = 0;
         for( ; !(j >= num5); j = j + 1)
@@ -23113,9 +23113,9 @@ void scaffold_count(unsigned int len_cut)
           {
             num_trace = 0;
             num_route = num_trace;
-            void *return_value_darrayGet$31;
-            return_value_darrayGet$31=darrayGet(scaffold_count$$1$$scaf5, (signed long long int)j);
-            traceAlongArc(*((unsigned int *)return_value_darrayGet$31), prev_ctg, (signed int)max_steps, (signed int)gap - ins_size_var, (signed int)gap + ins_size_var, 0, 0, &num_route);
+            void *return_value_darrayGet_31;
+            return_value_darrayGet_31=darrayGet(scaffold_count__1__scaf5, (signed long long int)j);
+            traceAlongArc(*((unsigned int *)return_value_darrayGet_31), prev_ctg, (signed int)max_steps, (signed int)gap - ins_size_var, (signed int)gap + ins_size_var, 0, 0, &num_route);
             if(num_route == 1)
               gap_c = gap_c + 1;
 
@@ -23123,25 +23123,25 @@ void scaffold_count(unsigned int len_cut)
 
           if(!(j >= num5 + -1))
           {
-            void *return_value_darrayGet$32;
-            return_value_darrayGet$32=darrayGet(scaffold_count$$1$$scaf5, (signed long long int)j);
-            void *return_value_darrayGet$33;
-            return_value_darrayGet$33=darrayGet(scaffold_count$$1$$gap5, (signed long long int)j);
-            len = len + (signed int)((contig_array + (signed long int)*((unsigned int *)return_value_darrayGet$32))->length + (unsigned int)*((signed int *)return_value_darrayGet$33));
-            void *return_value_darrayGet$34;
-            return_value_darrayGet$34=darrayGet(scaffold_count$$1$$scaf5, (signed long long int)j);
-            prev_ctg = *((unsigned int *)return_value_darrayGet$34);
-            void *return_value_darrayGet$35;
-            return_value_darrayGet$35=darrayGet(scaffold_count$$1$$gap5, (signed long long int)j);
-            if(*((signed int *)return_value_darrayGet$35) >= 1)
+            void *return_value_darrayGet_32;
+            return_value_darrayGet_32=darrayGet(scaffold_count__1__scaf5, (signed long long int)j);
+            void *return_value_darrayGet_33;
+            return_value_darrayGet_33=darrayGet(scaffold_count__1__gap5, (signed long long int)j);
+            len = len + (signed int)((contig_array + (signed long int)*((unsigned int *)return_value_darrayGet_32))->length + (unsigned int)*((signed int *)return_value_darrayGet_33));
+            void *return_value_darrayGet_34;
+            return_value_darrayGet_34=darrayGet(scaffold_count__1__scaf5, (signed long long int)j);
+            prev_ctg = *((unsigned int *)return_value_darrayGet_34);
+            void *return_value_darrayGet_35;
+            return_value_darrayGet_35=darrayGet(scaffold_count__1__gap5, (signed long long int)j);
+            if(*((signed int *)return_value_darrayGet_35) >= 1)
             {
-              return_value_darrayGet$36=darrayGet(scaffold_count$$1$$gap5, (signed long long int)j);
-              tmp_if_expr$37 = *((signed int *)return_value_darrayGet$36);
+              return_value_darrayGet_36=darrayGet(scaffold_count__1__gap5, (signed long long int)j);
+              tmp_if_expr_37 = *((signed int *)return_value_darrayGet_36);
             }
 
             else
-              tmp_if_expr$37 = 0;
-            gap = (signed short int)tmp_if_expr$37;
+              tmp_if_expr_37 = 0;
+            gap = (signed short int)tmp_if_expr_37;
           }
 
         }
@@ -23152,30 +23152,30 @@ void scaffold_count(unsigned int len_cut)
   __CPROVER_DUMP_L45:
     ;
   }
-  freeDarray(scaffold_count$$1$$scaf3);
-  freeDarray(scaffold_count$$1$$scaf5);
-  freeDarray(scaffold_count$$1$$gap3);
-  freeDarray(scaffold_count$$1$$gap5);
+  freeDarray(scaffold_count__1__scaf3);
+  freeDarray(scaffold_count__1__scaf5);
+  freeDarray(scaffold_count__1__gap3);
+  freeDarray(scaffold_count__1__gap5);
   printf("\n%d scaffolds from %d contigs sum up %lldbp, with average length %lld, %d gaps filled\n", count, num_lctg / (unsigned int)2, sum, sum / (signed long int)count, gap_c);
   i = (unsigned int)1;
-  _Bool tmp_if_expr$38;
-  unsigned int tmp_post$39;
+  _Bool tmp_if_expr_38;
+  unsigned int tmp_post_39;
   for( ; num_ctg >= i; i = i + 1u)
   {
     if(!((contig_array + (signed long int)i)->length + (unsigned int)overlaplen >= len_cut))
-      tmp_if_expr$38 = (_Bool)1;
+      tmp_if_expr_38 = (_Bool)1;
 
     else
-      tmp_if_expr$38 = (contig_array + (signed long int)i)->flag != 0 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$38)
+      tmp_if_expr_38 = (contig_array + (signed long int)i)->flag != 0 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_38)
     {
-      tmp_post$39 = count;
+      tmp_post_39 = count;
       count = count + 1u;
-      length_array[(signed long int)tmp_post$39] = (contig_array + (signed long int)i)->length;
+      length_array[(signed long int)tmp_post_39] = (contig_array + (signed long int)i)->length;
       sum = sum + (signed long long int)(contig_array + (signed long int)i)->length;
-      char return_value_isSmallerThanTwin$40;
-      return_value_isSmallerThanTwin$40=isSmallerThanTwin(i);
-      if(!(return_value_isSmallerThanTwin$40 == 0))
+      char return_value_isSmallerThanTwin_40;
+      return_value_isSmallerThanTwin_40=isSmallerThanTwin(i);
+      if(!(return_value_isSmallerThanTwin_40 == 0))
         i = i + 1u;
 
     }
@@ -23246,22 +23246,22 @@ extern void scaffolding(unsigned int len_cut, char *outfile)
   char excep;
   char weak;
   weakCounter = 0;
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)max_n_routes * sizeof(unsigned int) /*4ul*/ );
-  so_far = (unsigned int *)return_value_ckalloc$1;
-  void *return_value_ckalloc$2;
-  return_value_ckalloc$2=ckalloc((unsigned long int)max_n_routes * sizeof(unsigned int *) /*8ul*/ );
-  found_routes = (unsigned int **)return_value_ckalloc$2;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)max_n_routes * sizeof(unsigned int) /*4ul*/ );
+  so_far = (unsigned int *)return_value_ckalloc_1;
+  void *return_value_ckalloc_2;
+  return_value_ckalloc_2=ckalloc((unsigned long int)max_n_routes * sizeof(unsigned int *) /*8ul*/ );
+  found_routes = (unsigned int **)return_value_ckalloc_2;
   j = 0;
   for( ; !(j >= max_n_routes); j = j + 1)
   {
-    void *return_value_ckalloc$3;
-    return_value_ckalloc$3=ckalloc((unsigned long int)max_steps * sizeof(unsigned int) /*4ul*/ );
-    found_routes[(signed long int)j] = (unsigned int *)return_value_ckalloc$3;
+    void *return_value_ckalloc_3;
+    return_value_ckalloc_3=ckalloc((unsigned long int)max_steps * sizeof(unsigned int) /*4ul*/ );
+    found_routes[(signed long int)j] = (unsigned int *)return_value_ckalloc_3;
   }
-  void *return_value_ckalloc$4;
-  return_value_ckalloc$4=ckalloc((unsigned long int)(num_ctg + (unsigned int)1) * sizeof(unsigned int) /*4ul*/ );
-  length_array = (unsigned int *)return_value_ckalloc$4;
+  void *return_value_ckalloc_4;
+  return_value_ckalloc_4=ckalloc((unsigned long int)(num_ctg + (unsigned int)1) * sizeof(unsigned int) /*4ul*/ );
+  length_array = (unsigned int *)return_value_ckalloc_4;
   i = (unsigned int)1;
   for( ; num_ctg >= i; i = i + 1u)
     length_array[(signed long int)i] = (unsigned int)0;
@@ -23278,34 +23278,34 @@ extern void scaffolding(unsigned int len_cut, char *outfile)
   fp=ckopen(name, "w");
   sprintf(name, "%s.scaf_gap", outfile);
   fo=ckopen(name, "w");
-  struct dynamic_array *return_value_createDarray$5;
-  return_value_createDarray$5=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
-  scaf3 = (struct dynamic_array *)return_value_createDarray$5;
-  struct dynamic_array *return_value_createDarray$6;
-  return_value_createDarray$6=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
-  scaf5 = (struct dynamic_array *)return_value_createDarray$6;
-  struct dynamic_array *return_value_createDarray$7;
-  return_value_createDarray$7=createDarray(1000, sizeof(signed int) /*4ul*/ );
-  gap3 = (struct dynamic_array *)return_value_createDarray$7;
-  struct dynamic_array *return_value_createDarray$8;
-  return_value_createDarray$8=createDarray(1000, sizeof(signed int) /*4ul*/ );
-  gap5 = (struct dynamic_array *)return_value_createDarray$8;
+  struct dynamic_array *return_value_createDarray_5;
+  return_value_createDarray_5=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
+  scaf3 = (struct dynamic_array *)return_value_createDarray_5;
+  struct dynamic_array *return_value_createDarray_6;
+  return_value_createDarray_6=createDarray(1000, sizeof(unsigned int) /*4ul*/ );
+  scaf5 = (struct dynamic_array *)return_value_createDarray_6;
+  struct dynamic_array *return_value_createDarray_7;
+  return_value_createDarray_7=createDarray(1000, sizeof(signed int) /*4ul*/ );
+  gap3 = (struct dynamic_array *)return_value_createDarray_7;
+  struct dynamic_array *return_value_createDarray_8;
+  return_value_createDarray_8=createDarray(1000, sizeof(signed int) /*4ul*/ );
+  gap5 = (struct dynamic_array *)return_value_createDarray_8;
   i = (unsigned int)1;
   for( ; num_ctg >= i; i = i + 1u)
     (contig_array + (signed long int)i)->flag = (unsigned char)0;
   i = (unsigned int)1;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$12;
-  signed int return_value_validConnect$11;
-  signed int tmp_post$13;
-  signed int tmp_post$16;
-  signed int tmp_post$21;
-  unsigned int tmp_post$23;
-  signed int tmp_if_expr$40;
-  void *return_value_darrayGet$39;
-  signed int tmp_if_expr$57;
-  void *return_value_darrayGet$56;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_12;
+  signed int return_value_validConnect_11;
+  signed int tmp_post_13;
+  signed int tmp_post_16;
+  signed int tmp_post_21;
+  unsigned int tmp_post_23;
+  signed int tmp_if_expr_40;
+  void *return_value_darrayGet_39;
+  signed int tmp_if_expr_57;
+  void *return_value_darrayGet_56;
   for( ; num_ctg >= i; i = i + 1u)
   {
     if((contig_array + (signed long int)i)->length + (unsigned int)overlaplen >= len_cut)
@@ -23314,33 +23314,33 @@ extern void scaffolding(unsigned int len_cut, char *outfile)
     else
       goto __CPROVER_DUMP_L49;
     if(!((contig_array + (signed long int)i)->flag == 0))
-      tmp_if_expr$9 = (_Bool)1;
+      tmp_if_expr_9 = (_Bool)1;
 
     else
-      tmp_if_expr$9 = (contig_array + (signed long int)i)->mask != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$9)
-      tmp_if_expr$10 = (_Bool)1;
+      tmp_if_expr_9 = (contig_array + (signed long int)i)->mask != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_9)
+      tmp_if_expr_10 = (_Bool)1;
 
     else
-      tmp_if_expr$10 = !((contig_array + (signed long int)i)->downwardConnect != ((struct connection *)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$10)
-      tmp_if_expr$12 = (_Bool)1;
+      tmp_if_expr_10 = !((contig_array + (signed long int)i)->downwardConnect != ((struct connection *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_10)
+      tmp_if_expr_12 = (_Bool)1;
 
     else
     {
-      return_value_validConnect$11=validConnect(i, (struct connection *)(void *)0);
-      tmp_if_expr$12 = !(return_value_validConnect$11 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_validConnect_11=validConnect(i, (struct connection *)(void *)0);
+      tmp_if_expr_12 = !(return_value_validConnect_11 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$12)
+    if(!tmp_if_expr_12)
     {
       num3 = 0;
       num5 = num3;
       ctg = i;
-      tmp_post$13 = num5;
+      tmp_post_13 = num5;
       num5 = num5 + 1;
-      void *return_value_darrayPut$14;
-      return_value_darrayPut$14=darrayPut(scaf5, (signed long long int)tmp_post$13);
-      *((unsigned int *)return_value_darrayPut$14) = i;
+      void *return_value_darrayPut_14;
+      return_value_darrayPut_14=darrayPut(scaf5, (signed long long int)tmp_post_13);
+      *((unsigned int *)return_value_darrayPut_14) = i;
       (contig_array + (signed long int)i)->flag = (unsigned char)1;
       bal_ctg=getTwinCtg(ctg);
       (contig_array + (signed long int)bal_ctg)->flag = (unsigned char)1;
@@ -23361,15 +23361,15 @@ extern void scaffolding(unsigned int len_cut, char *outfile)
         }
 
         setConnectUsed(ctg, cnt->contigID, (char)1);
-        void *return_value_darrayPut$15;
-        return_value_darrayPut$15=darrayPut(gap5, (signed long long int)(num5 - 1));
-        *((signed int *)return_value_darrayPut$15) = cnt->gapLen;
+        void *return_value_darrayPut_15;
+        return_value_darrayPut_15=darrayPut(gap5, (signed long long int)(num5 - 1));
+        *((signed int *)return_value_darrayPut_15) = cnt->gapLen;
         ctg = cnt->contigID;
-        tmp_post$16 = num5;
+        tmp_post_16 = num5;
         num5 = num5 + 1;
-        void *return_value_darrayPut$17;
-        return_value_darrayPut$17=darrayPut(scaf5, (signed long long int)tmp_post$16);
-        *((unsigned int *)return_value_darrayPut$17) = ctg;
+        void *return_value_darrayPut_17;
+        return_value_darrayPut_17=darrayPut(scaf5, (signed long long int)tmp_post_16);
+        *((unsigned int *)return_value_darrayPut_17) = ctg;
         len = len + (signed int)((unsigned int)cnt->gapLen + (contig_array + (signed long int)ctg)->length);
         bal_ctg=getTwinCtg(ctg);
         (contig_array + (signed long int)ctg)->flag = (unsigned char)1;
@@ -23380,11 +23380,11 @@ extern void scaffolding(unsigned int len_cut, char *outfile)
       ctg=getTwinCtg(i);
       if(num5 >= 2)
       {
-        void *return_value_darrayGet$18;
-        return_value_darrayGet$18=darrayGet(scaf5, (signed long long int)1);
-        unsigned int return_value_getTwinCtg$19;
-        return_value_getTwinCtg$19=getTwinCtg(*((unsigned int *)return_value_darrayGet$18));
-        prevCNT=checkConnect(return_value_getTwinCtg$19, ctg);
+        void *return_value_darrayGet_18;
+        return_value_darrayGet_18=darrayGet(scaf5, (signed long long int)1);
+        unsigned int return_value_getTwinCtg_19;
+        return_value_getTwinCtg_19=getTwinCtg(*((unsigned int *)return_value_darrayGet_18));
+        prevCNT=checkConnect(return_value_getTwinCtg_19, ctg);
       }
 
       else
@@ -23409,22 +23409,22 @@ extern void scaffolding(unsigned int len_cut, char *outfile)
         bal_ctg=getTwinCtg(ctg);
         (contig_array + (signed long int)ctg)->flag = (unsigned char)1;
         (contig_array + (signed long int)bal_ctg)->flag = (unsigned char)1;
-        void *return_value_darrayPut$20;
-        return_value_darrayPut$20=darrayPut(gap3, (signed long long int)num3);
-        *((signed int *)return_value_darrayPut$20) = cnt->gapLen;
-        tmp_post$21 = num3;
+        void *return_value_darrayPut_20;
+        return_value_darrayPut_20=darrayPut(gap3, (signed long long int)num3);
+        *((signed int *)return_value_darrayPut_20) = cnt->gapLen;
+        tmp_post_21 = num3;
         num3 = num3 + 1;
-        void *return_value_darrayPut$22;
-        return_value_darrayPut$22=darrayPut(scaf3, (signed long long int)tmp_post$21);
-        *((unsigned int *)return_value_darrayPut$22) = bal_ctg;
+        void *return_value_darrayPut_22;
+        return_value_darrayPut_22=darrayPut(scaf3, (signed long long int)tmp_post_21);
+        *((unsigned int *)return_value_darrayPut_22) = bal_ctg;
         prevCNT = cnt;
         cnt = nextCnt;
       }
       len = len + overlaplen;
       sum = sum + (signed long long int)len;
-      tmp_post$23 = count;
+      tmp_post_23 = count;
       count = count + 1u;
-      length_array[(signed long int)tmp_post$23] = (unsigned int)len;
+      length_array[(signed long int)tmp_post_23] = (unsigned int)len;
       if(!(num3 + num5 >= 1))
         printf("no scaffold created for contig %d\n", i);
 
@@ -23437,42 +23437,42 @@ extern void scaffolding(unsigned int len_cut, char *outfile)
         j = num3 - 1;
         for( ; j >= 0; j = j - 1)
         {
-          void *return_value_darrayGet$31;
-          return_value_darrayGet$31=darrayGet(scaf3, (signed long long int)j);
-          char return_value_isLargerThanTwin$32;
-          return_value_isLargerThanTwin$32=isLargerThanTwin(*((unsigned int *)return_value_darrayGet$31));
-          if(return_value_isLargerThanTwin$32 == 0)
+          void *return_value_darrayGet_31;
+          return_value_darrayGet_31=darrayGet(scaf3, (signed long long int)j);
+          char return_value_isLargerThanTwin_32;
+          return_value_isLargerThanTwin_32=isLargerThanTwin(*((unsigned int *)return_value_darrayGet_31));
+          if(return_value_isLargerThanTwin_32 == 0)
           {
-            void *return_value_darrayGet$24;
-            return_value_darrayGet$24=darrayGet(scaf3, (signed long long int)j);
-            void *return_value_darrayGet$25;
-            return_value_darrayGet$25=darrayGet(scaf3, (signed long long int)j);
-            fprintf(fp, "%-10d %-10d +   %d ", index_array[(signed long int)*((unsigned int *)return_value_darrayGet$24)], len, (contig_array + (signed long int)*((unsigned int *)return_value_darrayGet$25))->length + (unsigned int)overlaplen);
-            void *return_value_darrayGet$26;
-            return_value_darrayGet$26=darrayGet(scaf3, (signed long long int)j);
-            weak=printCnts(fp, *((unsigned int *)return_value_darrayGet$26));
+            void *return_value_darrayGet_24;
+            return_value_darrayGet_24=darrayGet(scaf3, (signed long long int)j);
+            void *return_value_darrayGet_25;
+            return_value_darrayGet_25=darrayGet(scaf3, (signed long long int)j);
+            fprintf(fp, "%-10d %-10d +   %d ", index_array[(signed long int)*((unsigned int *)return_value_darrayGet_24)], len, (contig_array + (signed long int)*((unsigned int *)return_value_darrayGet_25))->length + (unsigned int)overlaplen);
+            void *return_value_darrayGet_26;
+            return_value_darrayGet_26=darrayGet(scaf3, (signed long long int)j);
+            weak=printCnts(fp, *((unsigned int *)return_value_darrayGet_26));
           }
 
           else
           {
-            void *return_value_darrayGet$27;
-            return_value_darrayGet$27=darrayGet(scaf3, (signed long long int)j);
-            unsigned int return_value_getTwinCtg$28;
-            return_value_getTwinCtg$28=getTwinCtg(*((unsigned int *)return_value_darrayGet$27));
-            void *return_value_darrayGet$29;
-            return_value_darrayGet$29=darrayGet(scaf3, (signed long long int)j);
-            fprintf(fp, "%-10d %-10d -   %d ", index_array[(signed long int)return_value_getTwinCtg$28], len, (contig_array + (signed long int)*((unsigned int *)return_value_darrayGet$29))->length + (unsigned int)overlaplen);
-            void *return_value_darrayGet$30;
-            return_value_darrayGet$30=darrayGet(scaf3, (signed long long int)j);
-            weak=printCnts(fp, *((unsigned int *)return_value_darrayGet$30));
+            void *return_value_darrayGet_27;
+            return_value_darrayGet_27=darrayGet(scaf3, (signed long long int)j);
+            unsigned int return_value_getTwinCtg_28;
+            return_value_getTwinCtg_28=getTwinCtg(*((unsigned int *)return_value_darrayGet_27));
+            void *return_value_darrayGet_29;
+            return_value_darrayGet_29=darrayGet(scaf3, (signed long long int)j);
+            fprintf(fp, "%-10d %-10d -   %d ", index_array[(signed long int)return_value_getTwinCtg_28], len, (contig_array + (signed long int)*((unsigned int *)return_value_darrayGet_29))->length + (unsigned int)overlaplen);
+            void *return_value_darrayGet_30;
+            return_value_darrayGet_30=darrayGet(scaf3, (signed long long int)j);
+            weak=printCnts(fp, *((unsigned int *)return_value_darrayGet_30));
           }
           if(!(prev_ctg == 0u))
           {
             num_trace = 0;
             num_route = num_trace;
-            void *return_value_darrayGet$33;
-            return_value_darrayGet$33=darrayGet(scaf3, (signed long long int)j);
-            traceAlongArc(*((unsigned int *)return_value_darrayGet$33), prev_ctg, (signed int)max_steps, (signed int)gap - ins_size_var, (signed int)gap + ins_size_var, 0, 0, &num_route);
+            void *return_value_darrayGet_33;
+            return_value_darrayGet_33=darrayGet(scaf3, (signed long long int)j);
+            traceAlongArc(*((unsigned int *)return_value_darrayGet_33), prev_ctg, (signed int)max_steps, (signed int)gap - ins_size_var, (signed int)gap + ins_size_var, 0, 0, &num_route);
             if(num_route == 1)
             {
               output1gap(fo, (signed int)max_steps);
@@ -23481,68 +23481,68 @@ extern void scaffolding(unsigned int len_cut, char *outfile)
 
           }
 
-          void *return_value_darrayGet$34;
-          return_value_darrayGet$34=darrayGet(scaf3, (signed long long int)j);
-          fprintf(fo, "%-10d %-10d\n", *((unsigned int *)return_value_darrayGet$34), len);
-          void *return_value_darrayGet$35;
-          return_value_darrayGet$35=darrayGet(scaf3, (signed long long int)j);
-          void *return_value_darrayGet$36;
-          return_value_darrayGet$36=darrayGet(gap3, (signed long long int)j);
-          len = len + (signed int)((contig_array + (signed long int)*((unsigned int *)return_value_darrayGet$35))->length + (unsigned int)*((signed int *)return_value_darrayGet$36));
-          void *return_value_darrayGet$37;
-          return_value_darrayGet$37=darrayGet(scaf3, (signed long long int)j);
-          prev_ctg = *((unsigned int *)return_value_darrayGet$37);
-          void *return_value_darrayGet$38;
-          return_value_darrayGet$38=darrayGet(gap3, (signed long long int)j);
-          if(*((signed int *)return_value_darrayGet$38) >= 1)
+          void *return_value_darrayGet_34;
+          return_value_darrayGet_34=darrayGet(scaf3, (signed long long int)j);
+          fprintf(fo, "%-10d %-10d\n", *((unsigned int *)return_value_darrayGet_34), len);
+          void *return_value_darrayGet_35;
+          return_value_darrayGet_35=darrayGet(scaf3, (signed long long int)j);
+          void *return_value_darrayGet_36;
+          return_value_darrayGet_36=darrayGet(gap3, (signed long long int)j);
+          len = len + (signed int)((contig_array + (signed long int)*((unsigned int *)return_value_darrayGet_35))->length + (unsigned int)*((signed int *)return_value_darrayGet_36));
+          void *return_value_darrayGet_37;
+          return_value_darrayGet_37=darrayGet(scaf3, (signed long long int)j);
+          prev_ctg = *((unsigned int *)return_value_darrayGet_37);
+          void *return_value_darrayGet_38;
+          return_value_darrayGet_38=darrayGet(gap3, (signed long long int)j);
+          if(*((signed int *)return_value_darrayGet_38) >= 1)
           {
-            return_value_darrayGet$39=darrayGet(gap3, (signed long long int)j);
-            tmp_if_expr$40 = *((signed int *)return_value_darrayGet$39);
+            return_value_darrayGet_39=darrayGet(gap3, (signed long long int)j);
+            tmp_if_expr_40 = *((signed int *)return_value_darrayGet_39);
           }
 
           else
-            tmp_if_expr$40 = 0;
-          gap = (signed short int)tmp_if_expr$40;
+            tmp_if_expr_40 = 0;
+          gap = (signed short int)tmp_if_expr_40;
         }
         j = 0;
         for( ; !(j >= num5); j = j + 1)
         {
-          void *return_value_darrayGet$48;
-          return_value_darrayGet$48=darrayGet(scaf5, (signed long long int)j);
-          char return_value_isLargerThanTwin$49;
-          return_value_isLargerThanTwin$49=isLargerThanTwin(*((unsigned int *)return_value_darrayGet$48));
-          if(return_value_isLargerThanTwin$49 == 0)
+          void *return_value_darrayGet_48;
+          return_value_darrayGet_48=darrayGet(scaf5, (signed long long int)j);
+          char return_value_isLargerThanTwin_49;
+          return_value_isLargerThanTwin_49=isLargerThanTwin(*((unsigned int *)return_value_darrayGet_48));
+          if(return_value_isLargerThanTwin_49 == 0)
           {
-            void *return_value_darrayGet$41;
-            return_value_darrayGet$41=darrayGet(scaf5, (signed long long int)j);
-            void *return_value_darrayGet$42;
-            return_value_darrayGet$42=darrayGet(scaf5, (signed long long int)j);
-            fprintf(fp, "%-10d %-10d +   %d ", index_array[(signed long int)*((unsigned int *)return_value_darrayGet$41)], len, (contig_array + (signed long int)*((unsigned int *)return_value_darrayGet$42))->length + (unsigned int)overlaplen);
-            void *return_value_darrayGet$43;
-            return_value_darrayGet$43=darrayGet(scaf5, (signed long long int)j);
-            weak=printCnts(fp, *((unsigned int *)return_value_darrayGet$43));
+            void *return_value_darrayGet_41;
+            return_value_darrayGet_41=darrayGet(scaf5, (signed long long int)j);
+            void *return_value_darrayGet_42;
+            return_value_darrayGet_42=darrayGet(scaf5, (signed long long int)j);
+            fprintf(fp, "%-10d %-10d +   %d ", index_array[(signed long int)*((unsigned int *)return_value_darrayGet_41)], len, (contig_array + (signed long int)*((unsigned int *)return_value_darrayGet_42))->length + (unsigned int)overlaplen);
+            void *return_value_darrayGet_43;
+            return_value_darrayGet_43=darrayGet(scaf5, (signed long long int)j);
+            weak=printCnts(fp, *((unsigned int *)return_value_darrayGet_43));
           }
 
           else
           {
-            void *return_value_darrayGet$44;
-            return_value_darrayGet$44=darrayGet(scaf5, (signed long long int)j);
-            unsigned int return_value_getTwinCtg$45;
-            return_value_getTwinCtg$45=getTwinCtg(*((unsigned int *)return_value_darrayGet$44));
-            void *return_value_darrayGet$46;
-            return_value_darrayGet$46=darrayGet(scaf5, (signed long long int)j);
-            fprintf(fp, "%-10d %-10d -   %d ", index_array[(signed long int)return_value_getTwinCtg$45], len, (contig_array + (signed long int)*((unsigned int *)return_value_darrayGet$46))->length + (unsigned int)overlaplen);
-            void *return_value_darrayGet$47;
-            return_value_darrayGet$47=darrayGet(scaf5, (signed long long int)j);
-            weak=printCnts(fp, *((unsigned int *)return_value_darrayGet$47));
+            void *return_value_darrayGet_44;
+            return_value_darrayGet_44=darrayGet(scaf5, (signed long long int)j);
+            unsigned int return_value_getTwinCtg_45;
+            return_value_getTwinCtg_45=getTwinCtg(*((unsigned int *)return_value_darrayGet_44));
+            void *return_value_darrayGet_46;
+            return_value_darrayGet_46=darrayGet(scaf5, (signed long long int)j);
+            fprintf(fp, "%-10d %-10d -   %d ", index_array[(signed long int)return_value_getTwinCtg_45], len, (contig_array + (signed long int)*((unsigned int *)return_value_darrayGet_46))->length + (unsigned int)overlaplen);
+            void *return_value_darrayGet_47;
+            return_value_darrayGet_47=darrayGet(scaf5, (signed long long int)j);
+            weak=printCnts(fp, *((unsigned int *)return_value_darrayGet_47));
           }
           if(!(prev_ctg == 0u))
           {
             num_trace = 0;
             num_route = num_trace;
-            void *return_value_darrayGet$50;
-            return_value_darrayGet$50=darrayGet(scaf5, (signed long long int)j);
-            traceAlongArc(*((unsigned int *)return_value_darrayGet$50), prev_ctg, (signed int)max_steps, (signed int)gap - ins_size_var, (signed int)gap + ins_size_var, 0, 0, &num_route);
+            void *return_value_darrayGet_50;
+            return_value_darrayGet_50=darrayGet(scaf5, (signed long long int)j);
+            traceAlongArc(*((unsigned int *)return_value_darrayGet_50), prev_ctg, (signed int)max_steps, (signed int)gap - ins_size_var, (signed int)gap + ins_size_var, 0, 0, &num_route);
             if(num_route == 1)
             {
               output1gap(fo, (signed int)max_steps);
@@ -23551,30 +23551,30 @@ extern void scaffolding(unsigned int len_cut, char *outfile)
 
           }
 
-          void *return_value_darrayGet$51;
-          return_value_darrayGet$51=darrayGet(scaf5, (signed long long int)j);
-          fprintf(fo, "%-10d %-10d\n", *((unsigned int *)return_value_darrayGet$51), len);
+          void *return_value_darrayGet_51;
+          return_value_darrayGet_51=darrayGet(scaf5, (signed long long int)j);
+          fprintf(fo, "%-10d %-10d\n", *((unsigned int *)return_value_darrayGet_51), len);
           if(!(j >= num5 + -1))
           {
-            void *return_value_darrayGet$52;
-            return_value_darrayGet$52=darrayGet(scaf5, (signed long long int)j);
-            void *return_value_darrayGet$53;
-            return_value_darrayGet$53=darrayGet(gap5, (signed long long int)j);
-            len = len + (signed int)((contig_array + (signed long int)*((unsigned int *)return_value_darrayGet$52))->length + (unsigned int)*((signed int *)return_value_darrayGet$53));
-            void *return_value_darrayGet$54;
-            return_value_darrayGet$54=darrayGet(scaf5, (signed long long int)j);
-            prev_ctg = *((unsigned int *)return_value_darrayGet$54);
-            void *return_value_darrayGet$55;
-            return_value_darrayGet$55=darrayGet(gap5, (signed long long int)j);
-            if(*((signed int *)return_value_darrayGet$55) >= 1)
+            void *return_value_darrayGet_52;
+            return_value_darrayGet_52=darrayGet(scaf5, (signed long long int)j);
+            void *return_value_darrayGet_53;
+            return_value_darrayGet_53=darrayGet(gap5, (signed long long int)j);
+            len = len + (signed int)((contig_array + (signed long int)*((unsigned int *)return_value_darrayGet_52))->length + (unsigned int)*((signed int *)return_value_darrayGet_53));
+            void *return_value_darrayGet_54;
+            return_value_darrayGet_54=darrayGet(scaf5, (signed long long int)j);
+            prev_ctg = *((unsigned int *)return_value_darrayGet_54);
+            void *return_value_darrayGet_55;
+            return_value_darrayGet_55=darrayGet(gap5, (signed long long int)j);
+            if(*((signed int *)return_value_darrayGet_55) >= 1)
             {
-              return_value_darrayGet$56=darrayGet(gap5, (signed long long int)j);
-              tmp_if_expr$57 = *((signed int *)return_value_darrayGet$56);
+              return_value_darrayGet_56=darrayGet(gap5, (signed long long int)j);
+              tmp_if_expr_57 = *((signed int *)return_value_darrayGet_56);
             }
 
             else
-              tmp_if_expr$57 = 0;
-            gap = (signed short int)tmp_if_expr$57;
+              tmp_if_expr_57 = 0;
+            gap = (signed short int)tmp_if_expr_57;
           }
 
         }
@@ -23594,24 +23594,24 @@ extern void scaffolding(unsigned int len_cut, char *outfile)
   printf("\nthe final rank");
   printf("\n%d scaffolds from %d contigs sum up %lldbp, with average length %lld, %d gaps filled\n", count, num_lctg / (unsigned int)2, sum, sum / (signed long int)count, gap_c);
   i = (unsigned int)1;
-  _Bool tmp_if_expr$58;
-  unsigned int tmp_post$59;
+  _Bool tmp_if_expr_58;
+  unsigned int tmp_post_59;
   for( ; num_ctg >= i; i = i + 1u)
   {
     if(!((contig_array + (signed long int)i)->length + (unsigned int)overlaplen >= len_cut))
-      tmp_if_expr$58 = (_Bool)1;
+      tmp_if_expr_58 = (_Bool)1;
 
     else
-      tmp_if_expr$58 = (contig_array + (signed long int)i)->flag != 0 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$58)
+      tmp_if_expr_58 = (contig_array + (signed long int)i)->flag != 0 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_58)
     {
-      tmp_post$59 = count;
+      tmp_post_59 = count;
       count = count + 1u;
-      length_array[(signed long int)tmp_post$59] = (contig_array + (signed long int)i)->length;
+      length_array[(signed long int)tmp_post_59] = (contig_array + (signed long int)i)->length;
       sum = sum + (signed long long int)(contig_array + (signed long int)i)->length;
-      char return_value_isSmallerThanTwin$60;
-      return_value_isSmallerThanTwin$60=isSmallerThanTwin(i);
-      if(!(return_value_isSmallerThanTwin$60 == 0))
+      char return_value_isSmallerThanTwin_60;
+      return_value_isSmallerThanTwin_60=isSmallerThanTwin(i);
+      if(!(return_value_isSmallerThanTwin_60 == 0))
         i = i + 1u;
 
     }
@@ -23665,23 +23665,23 @@ extern void scan_libInfo(char *libfile)
   char flag;
   fp=ckopen(libfile, "r");
   num_libs = 0;
-  char *return_value_fgets$1;
-  signed int tmp_statement_expression$2;
-  signed int tmp_statement_expression$4;
+  char *return_value_fgets_1;
+  signed int tmp_statement_expression_2;
+  signed int tmp_statement_expression_4;
   do
   {
-    return_value_fgets$1=fgets(line, 1024, fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(line, 1024, fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     ch = line[(signed long int)5];
     line[(signed long int)5] = (char)0;
-    unsigned long int scan_libInfo$$1$$1$$1$$__s1_len;
-    unsigned long int scan_libInfo$$1$$1$$1$$__s2_len;
-    signed int return_value___builtin_strcmp$3;
-    return_value___builtin_strcmp$3=__builtin_strcmp(line, "[LIB]");
-    tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-    if(tmp_statement_expression$2 == 0)
+    unsigned long int scan_libInfo__1__1__1____s1_len;
+    unsigned long int scan_libInfo__1__1__1____s2_len;
+    signed int return_value___builtin_strcmp_3;
+    return_value___builtin_strcmp_3=__builtin_strcmp(line, "[LIB]");
+    tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+    if(tmp_statement_expression_2 == 0)
       num_libs = num_libs + 1;
 
     if(num_libs == 0)
@@ -23690,13 +23690,13 @@ extern void scan_libInfo(char *libfile)
       flag=splitColumn(line);
       if(!(flag == 0))
       {
-        unsigned long int scan_libInfo$$1$$1$$3$$2$$__s1_len;
-        unsigned long int scan_libInfo$$1$$1$$3$$2$$__s2_len;
-        signed int return_value___builtin_strcmp$5;
-        return_value___builtin_strcmp$5=__builtin_strcmp(tabs[(signed long int)0], "max_rd_len");
-        tmp_statement_expression$4 = return_value___builtin_strcmp$5;
-        if(tmp_statement_expression$4 == 0)
-          maxReadLen=atoi$link1(tabs[(signed long int)1]);
+        unsigned long int scan_libInfo__1__1__3__2____s1_len;
+        unsigned long int scan_libInfo__1__1__3__2____s2_len;
+        signed int return_value___builtin_strcmp_5;
+        return_value___builtin_strcmp_5=__builtin_strcmp(tabs[(signed long int)0], "max_rd_len");
+        tmp_statement_expression_4 = return_value___builtin_strcmp_5;
+        if(tmp_statement_expression_4 == 0)
+          maxReadLen=atoi_link1(tabs[(signed long int)1]);
 
       }
 
@@ -23704,9 +23704,9 @@ extern void scan_libInfo(char *libfile)
 
   }
   while((_Bool)1);
-  void *return_value_ckalloc$6;
-  return_value_ckalloc$6=ckalloc((unsigned long int)num_libs * sizeof(struct lib_info) /*168ul*/ );
-  lib_array = (struct lib_info *)return_value_ckalloc$6;
+  void *return_value_ckalloc_6;
+  return_value_ckalloc_6=ckalloc((unsigned long int)num_libs * sizeof(struct lib_info) /*168ul*/ );
+  lib_array = (struct lib_info *)return_value_ckalloc_6;
   i = 0;
   for( ; !(i >= num_libs); i = i + 1)
   {
@@ -23726,29 +23726,29 @@ extern void scan_libInfo(char *libfile)
   libCounter = -1;
   rewind(fp);
   i = -1;
-  char *return_value_fgets$7;
-  signed int tmp_statement_expression$8;
-  signed int tmp_statement_expression$22;
-  signed int tmp_statement_expression$20;
-  signed int tmp_statement_expression$18;
-  signed int tmp_statement_expression$16;
-  signed int tmp_statement_expression$14;
-  signed int tmp_statement_expression$12;
-  signed int tmp_statement_expression$10;
+  char *return_value_fgets_7;
+  signed int tmp_statement_expression_8;
+  signed int tmp_statement_expression_22;
+  signed int tmp_statement_expression_20;
+  signed int tmp_statement_expression_18;
+  signed int tmp_statement_expression_16;
+  signed int tmp_statement_expression_14;
+  signed int tmp_statement_expression_12;
+  signed int tmp_statement_expression_10;
   do
   {
-    return_value_fgets$7=fgets(line, 1024, fp);
-    if(return_value_fgets$7 == ((char *)NULL))
+    return_value_fgets_7=fgets(line, 1024, fp);
+    if(return_value_fgets_7 == ((char *)NULL))
       break;
 
     ch = line[(signed long int)5];
     line[(signed long int)5] = (char)0;
-    unsigned long int scan_libInfo$$1$$3$$1$$__s1_len;
-    unsigned long int scan_libInfo$$1$$3$$1$$__s2_len;
-    signed int return_value___builtin_strcmp$9;
-    return_value___builtin_strcmp$9=__builtin_strcmp(line, "[LIB]");
-    tmp_statement_expression$8 = return_value___builtin_strcmp$9;
-    if(tmp_statement_expression$8 == 0)
+    unsigned long int scan_libInfo__1__3__1____s1_len;
+    unsigned long int scan_libInfo__1__3__1____s2_len;
+    signed int return_value___builtin_strcmp_9;
+    return_value___builtin_strcmp_9=__builtin_strcmp(line, "[LIB]");
+    tmp_statement_expression_8 = return_value___builtin_strcmp_9;
+    if(tmp_statement_expression_8 == 0)
       i = i + 1;
 
     else
@@ -23757,72 +23757,72 @@ extern void scan_libInfo(char *libfile)
       flag=splitColumn(line);
       if(!(flag == 0))
       {
-        unsigned long int scan_libInfo$$1$$3$$4$$__s1_len;
-        unsigned long int scan_libInfo$$1$$3$$4$$__s2_len;
-        signed int return_value___builtin_strcmp$23;
-        return_value___builtin_strcmp$23=__builtin_strcmp(tabs[(signed long int)0], "f1");
-        tmp_statement_expression$22 = return_value___builtin_strcmp$23;
-        if(tmp_statement_expression$22 == 0)
+        unsigned long int scan_libInfo__1__3__4____s1_len;
+        unsigned long int scan_libInfo__1__3__4____s2_len;
+        signed int return_value___builtin_strcmp_23;
+        return_value___builtin_strcmp_23=__builtin_strcmp(tabs[(signed long int)0], "f1");
+        tmp_statement_expression_22 = return_value___builtin_strcmp_23;
+        if(tmp_statement_expression_22 == 0)
           (lib_array + (signed long int)i)->num_a1_file = (lib_array + (signed long int)i)->num_a1_file + 1;
 
         else
         {
-          unsigned long int scan_libInfo$$1$$3$$6$$__s1_len;
-          unsigned long int scan_libInfo$$1$$3$$6$$__s2_len;
-          signed int return_value___builtin_strcmp$21;
-          return_value___builtin_strcmp$21=__builtin_strcmp(tabs[(signed long int)0], "q1");
-          tmp_statement_expression$20 = return_value___builtin_strcmp$21;
-          if(tmp_statement_expression$20 == 0)
+          unsigned long int scan_libInfo__1__3__6____s1_len;
+          unsigned long int scan_libInfo__1__3__6____s2_len;
+          signed int return_value___builtin_strcmp_21;
+          return_value___builtin_strcmp_21=__builtin_strcmp(tabs[(signed long int)0], "q1");
+          tmp_statement_expression_20 = return_value___builtin_strcmp_21;
+          if(tmp_statement_expression_20 == 0)
             (lib_array + (signed long int)i)->num_q1_file = (lib_array + (signed long int)i)->num_q1_file + 1;
 
           else
           {
-            unsigned long int scan_libInfo$$1$$3$$8$$__s1_len;
-            unsigned long int scan_libInfo$$1$$3$$8$$__s2_len;
-            signed int return_value___builtin_strcmp$19;
-            return_value___builtin_strcmp$19=__builtin_strcmp(tabs[(signed long int)0], "f2");
-            tmp_statement_expression$18 = return_value___builtin_strcmp$19;
-            if(tmp_statement_expression$18 == 0)
+            unsigned long int scan_libInfo__1__3__8____s1_len;
+            unsigned long int scan_libInfo__1__3__8____s2_len;
+            signed int return_value___builtin_strcmp_19;
+            return_value___builtin_strcmp_19=__builtin_strcmp(tabs[(signed long int)0], "f2");
+            tmp_statement_expression_18 = return_value___builtin_strcmp_19;
+            if(tmp_statement_expression_18 == 0)
               (lib_array + (signed long int)i)->num_a2_file = (lib_array + (signed long int)i)->num_a2_file + 1;
 
             else
             {
-              unsigned long int scan_libInfo$$1$$3$$10$$__s1_len;
-              unsigned long int scan_libInfo$$1$$3$$10$$__s2_len;
-              signed int return_value___builtin_strcmp$17;
-              return_value___builtin_strcmp$17=__builtin_strcmp(tabs[(signed long int)0], "q2");
-              tmp_statement_expression$16 = return_value___builtin_strcmp$17;
-              if(tmp_statement_expression$16 == 0)
+              unsigned long int scan_libInfo__1__3__10____s1_len;
+              unsigned long int scan_libInfo__1__3__10____s2_len;
+              signed int return_value___builtin_strcmp_17;
+              return_value___builtin_strcmp_17=__builtin_strcmp(tabs[(signed long int)0], "q2");
+              tmp_statement_expression_16 = return_value___builtin_strcmp_17;
+              if(tmp_statement_expression_16 == 0)
                 (lib_array + (signed long int)i)->num_q2_file = (lib_array + (signed long int)i)->num_q2_file + 1;
 
               else
               {
-                unsigned long int scan_libInfo$$1$$3$$12$$__s1_len;
-                unsigned long int scan_libInfo$$1$$3$$12$$__s2_len;
-                signed int return_value___builtin_strcmp$15;
-                return_value___builtin_strcmp$15=__builtin_strcmp(tabs[(signed long int)0], "f");
-                tmp_statement_expression$14 = return_value___builtin_strcmp$15;
-                if(tmp_statement_expression$14 == 0)
+                unsigned long int scan_libInfo__1__3__12____s1_len;
+                unsigned long int scan_libInfo__1__3__12____s2_len;
+                signed int return_value___builtin_strcmp_15;
+                return_value___builtin_strcmp_15=__builtin_strcmp(tabs[(signed long int)0], "f");
+                tmp_statement_expression_14 = return_value___builtin_strcmp_15;
+                if(tmp_statement_expression_14 == 0)
                   (lib_array + (signed long int)i)->num_s_a_file = (lib_array + (signed long int)i)->num_s_a_file + 1;
 
                 else
                 {
-                  unsigned long int scan_libInfo$$1$$3$$14$$__s1_len;
-                  unsigned long int scan_libInfo$$1$$3$$14$$__s2_len;
-                  signed int return_value___builtin_strcmp$13;
-                  return_value___builtin_strcmp$13=__builtin_strcmp(tabs[(signed long int)0], "q");
-                  tmp_statement_expression$12 = return_value___builtin_strcmp$13;
-                  if(tmp_statement_expression$12 == 0)
+                  unsigned long int scan_libInfo__1__3__14____s1_len;
+                  unsigned long int scan_libInfo__1__3__14____s2_len;
+                  signed int return_value___builtin_strcmp_13;
+                  return_value___builtin_strcmp_13=__builtin_strcmp(tabs[(signed long int)0], "q");
+                  tmp_statement_expression_12 = return_value___builtin_strcmp_13;
+                  if(tmp_statement_expression_12 == 0)
                     (lib_array + (signed long int)i)->num_s_q_file = (lib_array + (signed long int)i)->num_s_q_file + 1;
 
                   else
                   {
-                    unsigned long int scan_libInfo$$1$$3$$16$$__s1_len;
-                    unsigned long int scan_libInfo$$1$$3$$16$$__s2_len;
-                    signed int return_value___builtin_strcmp$11;
-                    return_value___builtin_strcmp$11=__builtin_strcmp(tabs[(signed long int)0], "p");
-                    tmp_statement_expression$10 = return_value___builtin_strcmp$11;
-                    if(tmp_statement_expression$10 == 0)
+                    unsigned long int scan_libInfo__1__3__16____s1_len;
+                    unsigned long int scan_libInfo__1__3__16____s2_len;
+                    signed int return_value___builtin_strcmp_11;
+                    return_value___builtin_strcmp_11=__builtin_strcmp(tabs[(signed long int)0], "p");
+                    tmp_statement_expression_10 = return_value___builtin_strcmp_11;
+                    if(tmp_statement_expression_10 == 0)
                       (lib_array + (signed long int)i)->num_p_file = (lib_array + (signed long int)i)->num_p_file + 1;
 
                   }
@@ -23841,99 +23841,99 @@ extern void scan_libInfo(char *libfile)
   {
     if(!((lib_array + (signed long int)i)->num_s_a_file == 0))
     {
-      void *return_value_ckalloc$24;
-      return_value_ckalloc$24=ckalloc((unsigned long int)(lib_array + (signed long int)i)->num_s_a_file * sizeof(char *) /*8ul*/ );
-      (lib_array + (signed long int)i)->s_a_fname = (char **)return_value_ckalloc$24;
+      void *return_value_ckalloc_24;
+      return_value_ckalloc_24=ckalloc((unsigned long int)(lib_array + (signed long int)i)->num_s_a_file * sizeof(char *) /*8ul*/ );
+      (lib_array + (signed long int)i)->s_a_fname = (char **)return_value_ckalloc_24;
       j = 0;
       for( ; !(j >= (lib_array + (signed long int)i)->num_s_a_file); j = j + 1)
       {
-        void *return_value_ckalloc$25;
-        return_value_ckalloc$25=ckalloc((unsigned long int)1024 * sizeof(char) /*1ul*/ );
-        (lib_array + (signed long int)i)->s_a_fname[(signed long int)j] = (char *)return_value_ckalloc$25;
+        void *return_value_ckalloc_25;
+        return_value_ckalloc_25=ckalloc((unsigned long int)1024 * sizeof(char) /*1ul*/ );
+        (lib_array + (signed long int)i)->s_a_fname[(signed long int)j] = (char *)return_value_ckalloc_25;
       }
     }
 
     if(!((lib_array + (signed long int)i)->num_s_q_file == 0))
     {
-      void *return_value_ckalloc$26;
-      return_value_ckalloc$26=ckalloc((unsigned long int)(lib_array + (signed long int)i)->num_s_q_file * sizeof(char *) /*8ul*/ );
-      (lib_array + (signed long int)i)->s_q_fname = (char **)return_value_ckalloc$26;
+      void *return_value_ckalloc_26;
+      return_value_ckalloc_26=ckalloc((unsigned long int)(lib_array + (signed long int)i)->num_s_q_file * sizeof(char *) /*8ul*/ );
+      (lib_array + (signed long int)i)->s_q_fname = (char **)return_value_ckalloc_26;
       j = 0;
       for( ; !(j >= (lib_array + (signed long int)i)->num_s_q_file); j = j + 1)
       {
-        void *return_value_ckalloc$27;
-        return_value_ckalloc$27=ckalloc((unsigned long int)1024 * sizeof(char) /*1ul*/ );
-        (lib_array + (signed long int)i)->s_q_fname[(signed long int)j] = (char *)return_value_ckalloc$27;
+        void *return_value_ckalloc_27;
+        return_value_ckalloc_27=ckalloc((unsigned long int)1024 * sizeof(char) /*1ul*/ );
+        (lib_array + (signed long int)i)->s_q_fname[(signed long int)j] = (char *)return_value_ckalloc_27;
       }
     }
 
     if(!((lib_array + (signed long int)i)->num_p_file == 0))
     {
-      void *return_value_ckalloc$28;
-      return_value_ckalloc$28=ckalloc((unsigned long int)(lib_array + (signed long int)i)->num_p_file * sizeof(char *) /*8ul*/ );
-      (lib_array + (signed long int)i)->p_fname = (char **)return_value_ckalloc$28;
+      void *return_value_ckalloc_28;
+      return_value_ckalloc_28=ckalloc((unsigned long int)(lib_array + (signed long int)i)->num_p_file * sizeof(char *) /*8ul*/ );
+      (lib_array + (signed long int)i)->p_fname = (char **)return_value_ckalloc_28;
       j = 0;
       for( ; !(j >= (lib_array + (signed long int)i)->num_p_file); j = j + 1)
       {
-        void *return_value_ckalloc$29;
-        return_value_ckalloc$29=ckalloc((unsigned long int)1024 * sizeof(char) /*1ul*/ );
-        (lib_array + (signed long int)i)->p_fname[(signed long int)j] = (char *)return_value_ckalloc$29;
+        void *return_value_ckalloc_29;
+        return_value_ckalloc_29=ckalloc((unsigned long int)1024 * sizeof(char) /*1ul*/ );
+        (lib_array + (signed long int)i)->p_fname[(signed long int)j] = (char *)return_value_ckalloc_29;
       }
     }
 
     if(!((lib_array + (signed long int)i)->num_a1_file == 0))
     {
-      void *return_value_ckalloc$30;
-      return_value_ckalloc$30=ckalloc((unsigned long int)(lib_array + (signed long int)i)->num_a1_file * sizeof(char *) /*8ul*/ );
-      (lib_array + (signed long int)i)->a1_fname = (char **)return_value_ckalloc$30;
+      void *return_value_ckalloc_30;
+      return_value_ckalloc_30=ckalloc((unsigned long int)(lib_array + (signed long int)i)->num_a1_file * sizeof(char *) /*8ul*/ );
+      (lib_array + (signed long int)i)->a1_fname = (char **)return_value_ckalloc_30;
       j = 0;
       for( ; !(j >= (lib_array + (signed long int)i)->num_a1_file); j = j + 1)
       {
-        void *return_value_ckalloc$31;
-        return_value_ckalloc$31=ckalloc((unsigned long int)1024 * sizeof(char) /*1ul*/ );
-        (lib_array + (signed long int)i)->a1_fname[(signed long int)j] = (char *)return_value_ckalloc$31;
+        void *return_value_ckalloc_31;
+        return_value_ckalloc_31=ckalloc((unsigned long int)1024 * sizeof(char) /*1ul*/ );
+        (lib_array + (signed long int)i)->a1_fname[(signed long int)j] = (char *)return_value_ckalloc_31;
       }
     }
 
     if(!((lib_array + (signed long int)i)->num_a2_file == 0))
     {
-      void *return_value_ckalloc$32;
-      return_value_ckalloc$32=ckalloc((unsigned long int)(lib_array + (signed long int)i)->num_a2_file * sizeof(char *) /*8ul*/ );
-      (lib_array + (signed long int)i)->a2_fname = (char **)return_value_ckalloc$32;
+      void *return_value_ckalloc_32;
+      return_value_ckalloc_32=ckalloc((unsigned long int)(lib_array + (signed long int)i)->num_a2_file * sizeof(char *) /*8ul*/ );
+      (lib_array + (signed long int)i)->a2_fname = (char **)return_value_ckalloc_32;
       j = 0;
       for( ; !(j >= (lib_array + (signed long int)i)->num_a2_file); j = j + 1)
       {
-        void *return_value_ckalloc$33;
-        return_value_ckalloc$33=ckalloc((unsigned long int)1024 * sizeof(char) /*1ul*/ );
-        (lib_array + (signed long int)i)->a2_fname[(signed long int)j] = (char *)return_value_ckalloc$33;
+        void *return_value_ckalloc_33;
+        return_value_ckalloc_33=ckalloc((unsigned long int)1024 * sizeof(char) /*1ul*/ );
+        (lib_array + (signed long int)i)->a2_fname[(signed long int)j] = (char *)return_value_ckalloc_33;
       }
     }
 
     if(!((lib_array + (signed long int)i)->num_q1_file == 0))
     {
-      void *return_value_ckalloc$34;
-      return_value_ckalloc$34=ckalloc((unsigned long int)(lib_array + (signed long int)i)->num_q1_file * sizeof(char *) /*8ul*/ );
-      (lib_array + (signed long int)i)->q1_fname = (char **)return_value_ckalloc$34;
+      void *return_value_ckalloc_34;
+      return_value_ckalloc_34=ckalloc((unsigned long int)(lib_array + (signed long int)i)->num_q1_file * sizeof(char *) /*8ul*/ );
+      (lib_array + (signed long int)i)->q1_fname = (char **)return_value_ckalloc_34;
       j = 0;
       for( ; !(j >= (lib_array + (signed long int)i)->num_q1_file); j = j + 1)
       {
-        void *return_value_ckalloc$35;
-        return_value_ckalloc$35=ckalloc((unsigned long int)1024 * sizeof(char) /*1ul*/ );
-        (lib_array + (signed long int)i)->q1_fname[(signed long int)j] = (char *)return_value_ckalloc$35;
+        void *return_value_ckalloc_35;
+        return_value_ckalloc_35=ckalloc((unsigned long int)1024 * sizeof(char) /*1ul*/ );
+        (lib_array + (signed long int)i)->q1_fname[(signed long int)j] = (char *)return_value_ckalloc_35;
       }
     }
 
     if(!((lib_array + (signed long int)i)->num_q2_file == 0))
     {
-      void *return_value_ckalloc$36;
-      return_value_ckalloc$36=ckalloc((unsigned long int)(lib_array + (signed long int)i)->num_q2_file * sizeof(char *) /*8ul*/ );
-      (lib_array + (signed long int)i)->q2_fname = (char **)return_value_ckalloc$36;
+      void *return_value_ckalloc_36;
+      return_value_ckalloc_36=ckalloc((unsigned long int)(lib_array + (signed long int)i)->num_q2_file * sizeof(char *) /*8ul*/ );
+      (lib_array + (signed long int)i)->q2_fname = (char **)return_value_ckalloc_36;
       j = 0;
       for( ; !(j >= (lib_array + (signed long int)i)->num_q2_file); j = j + 1)
       {
-        void *return_value_ckalloc$37;
-        return_value_ckalloc$37=ckalloc((unsigned long int)1024 * sizeof(char) /*1ul*/ );
-        (lib_array + (signed long int)i)->q2_fname[(signed long int)j] = (char *)return_value_ckalloc$37;
+        void *return_value_ckalloc_37;
+        return_value_ckalloc_37=ckalloc((unsigned long int)1024 * sizeof(char) /*1ul*/ );
+        (lib_array + (signed long int)i)->q2_fname[(signed long int)j] = (char *)return_value_ckalloc_37;
       }
     }
 
@@ -23956,46 +23956,46 @@ extern void scan_libInfo(char *libfile)
   libCounter = -1;
   rewind(fp);
   i = -1;
-  char *return_value_fgets$38;
-  signed int tmp_statement_expression$39;
-  signed int tmp_statement_expression$80;
-  signed int tmp_post$41;
-  signed int tmp_statement_expression$78;
-  signed int tmp_post$42;
-  signed int tmp_statement_expression$76;
-  signed int tmp_post$43;
-  signed int tmp_statement_expression$74;
-  signed int tmp_post$44;
-  signed int tmp_statement_expression$72;
-  signed int tmp_post$45;
-  signed int tmp_statement_expression$70;
-  signed int tmp_post$46;
-  signed int tmp_statement_expression$68;
-  signed int tmp_post$47;
-  signed int tmp_statement_expression$66;
-  signed int tmp_statement_expression$64;
-  signed int tmp_statement_expression$62;
-  signed int tmp_statement_expression$60;
-  signed int tmp_statement_expression$58;
-  signed int tmp_statement_expression$56;
-  signed int tmp_statement_expression$54;
-  signed int tmp_statement_expression$52;
-  signed int tmp_statement_expression$50;
-  signed int tmp_statement_expression$48;
+  char *return_value_fgets_38;
+  signed int tmp_statement_expression_39;
+  signed int tmp_statement_expression_80;
+  signed int tmp_post_41;
+  signed int tmp_statement_expression_78;
+  signed int tmp_post_42;
+  signed int tmp_statement_expression_76;
+  signed int tmp_post_43;
+  signed int tmp_statement_expression_74;
+  signed int tmp_post_44;
+  signed int tmp_statement_expression_72;
+  signed int tmp_post_45;
+  signed int tmp_statement_expression_70;
+  signed int tmp_post_46;
+  signed int tmp_statement_expression_68;
+  signed int tmp_post_47;
+  signed int tmp_statement_expression_66;
+  signed int tmp_statement_expression_64;
+  signed int tmp_statement_expression_62;
+  signed int tmp_statement_expression_60;
+  signed int tmp_statement_expression_58;
+  signed int tmp_statement_expression_56;
+  signed int tmp_statement_expression_54;
+  signed int tmp_statement_expression_52;
+  signed int tmp_statement_expression_50;
+  signed int tmp_statement_expression_48;
   do
   {
-    return_value_fgets$38=fgets(line, 1024, fp);
-    if(return_value_fgets$38 == ((char *)NULL))
+    return_value_fgets_38=fgets(line, 1024, fp);
+    if(return_value_fgets_38 == ((char *)NULL))
       break;
 
     ch = line[(signed long int)5];
     line[(signed long int)5] = (char)0;
-    unsigned long int scan_libInfo$$1$$6$$1$$__s1_len;
-    unsigned long int scan_libInfo$$1$$6$$1$$__s2_len;
-    signed int return_value___builtin_strcmp$40;
-    return_value___builtin_strcmp$40=__builtin_strcmp(line, "[LIB]");
-    tmp_statement_expression$39 = return_value___builtin_strcmp$40;
-    if(tmp_statement_expression$39 == 0)
+    unsigned long int scan_libInfo__1__6__1____s1_len;
+    unsigned long int scan_libInfo__1__6__1____s2_len;
+    signed int return_value___builtin_strcmp_40;
+    return_value___builtin_strcmp_40=__builtin_strcmp(line, "[LIB]");
+    tmp_statement_expression_39 = return_value___builtin_strcmp_40;
+    if(tmp_statement_expression_39 == 0)
       i = i + 1;
 
     else
@@ -24004,208 +24004,208 @@ extern void scan_libInfo(char *libfile)
       flag=splitColumn(line);
       if(!(flag == 0))
       {
-        unsigned long int scan_libInfo$$1$$6$$4$$__s1_len;
-        unsigned long int scan_libInfo$$1$$6$$4$$__s2_len;
-        signed int return_value___builtin_strcmp$81;
-        return_value___builtin_strcmp$81=__builtin_strcmp(tabs[(signed long int)0], "f1");
-        tmp_statement_expression$80 = return_value___builtin_strcmp$81;
-        if(tmp_statement_expression$80 == 0)
+        unsigned long int scan_libInfo__1__6__4____s1_len;
+        unsigned long int scan_libInfo__1__6__4____s2_len;
+        signed int return_value___builtin_strcmp_81;
+        return_value___builtin_strcmp_81=__builtin_strcmp(tabs[(signed long int)0], "f1");
+        tmp_statement_expression_80 = return_value___builtin_strcmp_81;
+        if(tmp_statement_expression_80 == 0)
         {
-          tmp_post$41 = (lib_array + (signed long int)i)->num_a1_file;
+          tmp_post_41 = (lib_array + (signed long int)i)->num_a1_file;
           (lib_array + (signed long int)i)->num_a1_file = (lib_array + (signed long int)i)->num_a1_file + 1;
-          index = tmp_post$41;
+          index = tmp_post_41;
           strcpy((lib_array + (signed long int)i)->a1_fname[(signed long int)index], tabs[(signed long int)1]);
         }
 
         else
         {
-          unsigned long int scan_libInfo$$1$$6$$6$$__s1_len;
-          unsigned long int scan_libInfo$$1$$6$$6$$__s2_len;
-          signed int return_value___builtin_strcmp$79;
-          return_value___builtin_strcmp$79=__builtin_strcmp(tabs[(signed long int)0], "q1");
-          tmp_statement_expression$78 = return_value___builtin_strcmp$79;
-          if(tmp_statement_expression$78 == 0)
+          unsigned long int scan_libInfo__1__6__6____s1_len;
+          unsigned long int scan_libInfo__1__6__6____s2_len;
+          signed int return_value___builtin_strcmp_79;
+          return_value___builtin_strcmp_79=__builtin_strcmp(tabs[(signed long int)0], "q1");
+          tmp_statement_expression_78 = return_value___builtin_strcmp_79;
+          if(tmp_statement_expression_78 == 0)
           {
-            tmp_post$42 = (lib_array + (signed long int)i)->num_q1_file;
+            tmp_post_42 = (lib_array + (signed long int)i)->num_q1_file;
             (lib_array + (signed long int)i)->num_q1_file = (lib_array + (signed long int)i)->num_q1_file + 1;
-            index = tmp_post$42;
+            index = tmp_post_42;
             strcpy((lib_array + (signed long int)i)->q1_fname[(signed long int)index], tabs[(signed long int)1]);
           }
 
           else
           {
-            unsigned long int scan_libInfo$$1$$6$$8$$__s1_len;
-            unsigned long int scan_libInfo$$1$$6$$8$$__s2_len;
-            signed int return_value___builtin_strcmp$77;
-            return_value___builtin_strcmp$77=__builtin_strcmp(tabs[(signed long int)0], "f2");
-            tmp_statement_expression$76 = return_value___builtin_strcmp$77;
-            if(tmp_statement_expression$76 == 0)
+            unsigned long int scan_libInfo__1__6__8____s1_len;
+            unsigned long int scan_libInfo__1__6__8____s2_len;
+            signed int return_value___builtin_strcmp_77;
+            return_value___builtin_strcmp_77=__builtin_strcmp(tabs[(signed long int)0], "f2");
+            tmp_statement_expression_76 = return_value___builtin_strcmp_77;
+            if(tmp_statement_expression_76 == 0)
             {
-              tmp_post$43 = (lib_array + (signed long int)i)->num_a2_file;
+              tmp_post_43 = (lib_array + (signed long int)i)->num_a2_file;
               (lib_array + (signed long int)i)->num_a2_file = (lib_array + (signed long int)i)->num_a2_file + 1;
-              index = tmp_post$43;
+              index = tmp_post_43;
               strcpy((lib_array + (signed long int)i)->a2_fname[(signed long int)index], tabs[(signed long int)1]);
             }
 
             else
             {
-              unsigned long int scan_libInfo$$1$$6$$10$$__s1_len;
-              unsigned long int scan_libInfo$$1$$6$$10$$__s2_len;
-              signed int return_value___builtin_strcmp$75;
-              return_value___builtin_strcmp$75=__builtin_strcmp(tabs[(signed long int)0], "q2");
-              tmp_statement_expression$74 = return_value___builtin_strcmp$75;
-              if(tmp_statement_expression$74 == 0)
+              unsigned long int scan_libInfo__1__6__10____s1_len;
+              unsigned long int scan_libInfo__1__6__10____s2_len;
+              signed int return_value___builtin_strcmp_75;
+              return_value___builtin_strcmp_75=__builtin_strcmp(tabs[(signed long int)0], "q2");
+              tmp_statement_expression_74 = return_value___builtin_strcmp_75;
+              if(tmp_statement_expression_74 == 0)
               {
-                tmp_post$44 = (lib_array + (signed long int)i)->num_q2_file;
+                tmp_post_44 = (lib_array + (signed long int)i)->num_q2_file;
                 (lib_array + (signed long int)i)->num_q2_file = (lib_array + (signed long int)i)->num_q2_file + 1;
-                index = tmp_post$44;
+                index = tmp_post_44;
                 strcpy((lib_array + (signed long int)i)->q2_fname[(signed long int)index], tabs[(signed long int)1]);
               }
 
               else
               {
-                unsigned long int scan_libInfo$$1$$6$$12$$__s1_len;
-                unsigned long int scan_libInfo$$1$$6$$12$$__s2_len;
-                signed int return_value___builtin_strcmp$73;
-                return_value___builtin_strcmp$73=__builtin_strcmp(tabs[(signed long int)0], "f");
-                tmp_statement_expression$72 = return_value___builtin_strcmp$73;
-                if(tmp_statement_expression$72 == 0)
+                unsigned long int scan_libInfo__1__6__12____s1_len;
+                unsigned long int scan_libInfo__1__6__12____s2_len;
+                signed int return_value___builtin_strcmp_73;
+                return_value___builtin_strcmp_73=__builtin_strcmp(tabs[(signed long int)0], "f");
+                tmp_statement_expression_72 = return_value___builtin_strcmp_73;
+                if(tmp_statement_expression_72 == 0)
                 {
-                  tmp_post$45 = (lib_array + (signed long int)i)->num_s_a_file;
+                  tmp_post_45 = (lib_array + (signed long int)i)->num_s_a_file;
                   (lib_array + (signed long int)i)->num_s_a_file = (lib_array + (signed long int)i)->num_s_a_file + 1;
-                  index = tmp_post$45;
+                  index = tmp_post_45;
                   strcpy((lib_array + (signed long int)i)->s_a_fname[(signed long int)index], tabs[(signed long int)1]);
                 }
 
                 else
                 {
-                  unsigned long int scan_libInfo$$1$$6$$14$$__s1_len;
-                  unsigned long int scan_libInfo$$1$$6$$14$$__s2_len;
-                  signed int return_value___builtin_strcmp$71;
-                  return_value___builtin_strcmp$71=__builtin_strcmp(tabs[(signed long int)0], "q");
-                  tmp_statement_expression$70 = return_value___builtin_strcmp$71;
-                  if(tmp_statement_expression$70 == 0)
+                  unsigned long int scan_libInfo__1__6__14____s1_len;
+                  unsigned long int scan_libInfo__1__6__14____s2_len;
+                  signed int return_value___builtin_strcmp_71;
+                  return_value___builtin_strcmp_71=__builtin_strcmp(tabs[(signed long int)0], "q");
+                  tmp_statement_expression_70 = return_value___builtin_strcmp_71;
+                  if(tmp_statement_expression_70 == 0)
                   {
-                    tmp_post$46 = (lib_array + (signed long int)i)->num_s_q_file;
+                    tmp_post_46 = (lib_array + (signed long int)i)->num_s_q_file;
                     (lib_array + (signed long int)i)->num_s_q_file = (lib_array + (signed long int)i)->num_s_q_file + 1;
-                    index = tmp_post$46;
+                    index = tmp_post_46;
                     strcpy((lib_array + (signed long int)i)->s_q_fname[(signed long int)index], tabs[(signed long int)1]);
                   }
 
                   else
                   {
-                    unsigned long int scan_libInfo$$1$$6$$16$$__s1_len;
-                    unsigned long int scan_libInfo$$1$$6$$16$$__s2_len;
-                    signed int return_value___builtin_strcmp$69;
-                    return_value___builtin_strcmp$69=__builtin_strcmp(tabs[(signed long int)0], "p");
-                    tmp_statement_expression$68 = return_value___builtin_strcmp$69;
-                    if(tmp_statement_expression$68 == 0)
+                    unsigned long int scan_libInfo__1__6__16____s1_len;
+                    unsigned long int scan_libInfo__1__6__16____s2_len;
+                    signed int return_value___builtin_strcmp_69;
+                    return_value___builtin_strcmp_69=__builtin_strcmp(tabs[(signed long int)0], "p");
+                    tmp_statement_expression_68 = return_value___builtin_strcmp_69;
+                    if(tmp_statement_expression_68 == 0)
                     {
-                      tmp_post$47 = (lib_array + (signed long int)i)->num_p_file;
+                      tmp_post_47 = (lib_array + (signed long int)i)->num_p_file;
                       (lib_array + (signed long int)i)->num_p_file = (lib_array + (signed long int)i)->num_p_file + 1;
-                      index = tmp_post$47;
+                      index = tmp_post_47;
                       strcpy((lib_array + (signed long int)i)->p_fname[(signed long int)index], tabs[(signed long int)1]);
                     }
 
                     else
                     {
-                      unsigned long int scan_libInfo$$1$$6$$18$$__s1_len;
-                      unsigned long int scan_libInfo$$1$$6$$18$$__s2_len;
-                      signed int return_value___builtin_strcmp$67;
-                      return_value___builtin_strcmp$67=__builtin_strcmp(tabs[(signed long int)0], "min_ins");
-                      tmp_statement_expression$66 = return_value___builtin_strcmp$67;
-                      if(tmp_statement_expression$66 == 0)
-                        (lib_array + (signed long int)i)->min_ins=atoi$link1(tabs[(signed long int)1]);
+                      unsigned long int scan_libInfo__1__6__18____s1_len;
+                      unsigned long int scan_libInfo__1__6__18____s2_len;
+                      signed int return_value___builtin_strcmp_67;
+                      return_value___builtin_strcmp_67=__builtin_strcmp(tabs[(signed long int)0], "min_ins");
+                      tmp_statement_expression_66 = return_value___builtin_strcmp_67;
+                      if(tmp_statement_expression_66 == 0)
+                        (lib_array + (signed long int)i)->min_ins=atoi_link1(tabs[(signed long int)1]);
 
                       else
                       {
                         unsigned long int __s1_len;
                         unsigned long int __s2_len;
-                        signed int return_value___builtin_strcmp$65;
-                        return_value___builtin_strcmp$65=__builtin_strcmp(tabs[(signed long int)0], "max_ins");
-                        tmp_statement_expression$64 = return_value___builtin_strcmp$65;
-                        if(tmp_statement_expression$64 == 0)
-                          (lib_array + (signed long int)i)->max_ins=atoi$link1(tabs[(signed long int)1]);
+                        signed int return_value___builtin_strcmp_65;
+                        return_value___builtin_strcmp_65=__builtin_strcmp(tabs[(signed long int)0], "max_ins");
+                        tmp_statement_expression_64 = return_value___builtin_strcmp_65;
+                        if(tmp_statement_expression_64 == 0)
+                          (lib_array + (signed long int)i)->max_ins=atoi_link1(tabs[(signed long int)1]);
 
                         else
                         {
-                          unsigned long int scan_libInfo$$1$$6$$22$$__s1_len;
-                          unsigned long int scan_libInfo$$1$$6$$22$$__s2_len;
-                          signed int return_value___builtin_strcmp$63;
-                          return_value___builtin_strcmp$63=__builtin_strcmp(tabs[(signed long int)0], "avg_ins");
-                          tmp_statement_expression$62 = return_value___builtin_strcmp$63;
-                          if(tmp_statement_expression$62 == 0)
-                            (lib_array + (signed long int)i)->avg_ins=atoi$link1(tabs[(signed long int)1]);
+                          unsigned long int scan_libInfo__1__6__22____s1_len;
+                          unsigned long int scan_libInfo__1__6__22____s2_len;
+                          signed int return_value___builtin_strcmp_63;
+                          return_value___builtin_strcmp_63=__builtin_strcmp(tabs[(signed long int)0], "avg_ins");
+                          tmp_statement_expression_62 = return_value___builtin_strcmp_63;
+                          if(tmp_statement_expression_62 == 0)
+                            (lib_array + (signed long int)i)->avg_ins=atoi_link1(tabs[(signed long int)1]);
 
                           else
                           {
-                            unsigned long int scan_libInfo$$1$$6$$24$$__s1_len;
-                            unsigned long int scan_libInfo$$1$$6$$24$$__s2_len;
-                            signed int return_value___builtin_strcmp$61;
-                            return_value___builtin_strcmp$61=__builtin_strcmp(tabs[(signed long int)0], "rd_len_cutoff");
-                            tmp_statement_expression$60 = return_value___builtin_strcmp$61;
-                            if(tmp_statement_expression$60 == 0)
-                              (lib_array + (signed long int)i)->rd_len_cutoff=atoi$link1(tabs[(signed long int)1]);
+                            unsigned long int scan_libInfo__1__6__24____s1_len;
+                            unsigned long int scan_libInfo__1__6__24____s2_len;
+                            signed int return_value___builtin_strcmp_61;
+                            return_value___builtin_strcmp_61=__builtin_strcmp(tabs[(signed long int)0], "rd_len_cutoff");
+                            tmp_statement_expression_60 = return_value___builtin_strcmp_61;
+                            if(tmp_statement_expression_60 == 0)
+                              (lib_array + (signed long int)i)->rd_len_cutoff=atoi_link1(tabs[(signed long int)1]);
 
                             else
                             {
-                              unsigned long int scan_libInfo$$1$$6$$26$$__s1_len;
-                              unsigned long int scan_libInfo$$1$$6$$26$$__s2_len;
-                              signed int return_value___builtin_strcmp$59;
-                              return_value___builtin_strcmp$59=__builtin_strcmp(tabs[(signed long int)0], "reverse_seq");
-                              tmp_statement_expression$58 = return_value___builtin_strcmp$59;
-                              if(tmp_statement_expression$58 == 0)
-                                (lib_array + (signed long int)i)->reverse=atoi$link1(tabs[(signed long int)1]);
+                              unsigned long int scan_libInfo__1__6__26____s1_len;
+                              unsigned long int scan_libInfo__1__6__26____s2_len;
+                              signed int return_value___builtin_strcmp_59;
+                              return_value___builtin_strcmp_59=__builtin_strcmp(tabs[(signed long int)0], "reverse_seq");
+                              tmp_statement_expression_58 = return_value___builtin_strcmp_59;
+                              if(tmp_statement_expression_58 == 0)
+                                (lib_array + (signed long int)i)->reverse=atoi_link1(tabs[(signed long int)1]);
 
                               else
                               {
-                                unsigned long int scan_libInfo$$1$$6$$28$$__s1_len;
-                                unsigned long int scan_libInfo$$1$$6$$28$$__s2_len;
-                                signed int return_value___builtin_strcmp$57;
-                                return_value___builtin_strcmp$57=__builtin_strcmp(tabs[(signed long int)0], "asm_flags");
-                                tmp_statement_expression$56 = return_value___builtin_strcmp$57;
-                                if(tmp_statement_expression$56 == 0)
-                                  (lib_array + (signed long int)i)->asm_flag=atoi$link1(tabs[(signed long int)1]);
+                                unsigned long int scan_libInfo__1__6__28____s1_len;
+                                unsigned long int scan_libInfo__1__6__28____s2_len;
+                                signed int return_value___builtin_strcmp_57;
+                                return_value___builtin_strcmp_57=__builtin_strcmp(tabs[(signed long int)0], "asm_flags");
+                                tmp_statement_expression_56 = return_value___builtin_strcmp_57;
+                                if(tmp_statement_expression_56 == 0)
+                                  (lib_array + (signed long int)i)->asm_flag=atoi_link1(tabs[(signed long int)1]);
 
                                 else
                                 {
-                                  unsigned long int scan_libInfo$$1$$6$$30$$__s1_len;
-                                  unsigned long int scan_libInfo$$1$$6$$30$$__s2_len;
-                                  signed int return_value___builtin_strcmp$55;
-                                  return_value___builtin_strcmp$55=__builtin_strcmp(tabs[(signed long int)0], "rank");
-                                  tmp_statement_expression$54 = return_value___builtin_strcmp$55;
-                                  if(tmp_statement_expression$54 == 0)
-                                    (lib_array + (signed long int)i)->rank=atoi$link1(tabs[(signed long int)1]);
+                                  unsigned long int scan_libInfo__1__6__30____s1_len;
+                                  unsigned long int scan_libInfo__1__6__30____s2_len;
+                                  signed int return_value___builtin_strcmp_55;
+                                  return_value___builtin_strcmp_55=__builtin_strcmp(tabs[(signed long int)0], "rank");
+                                  tmp_statement_expression_54 = return_value___builtin_strcmp_55;
+                                  if(tmp_statement_expression_54 == 0)
+                                    (lib_array + (signed long int)i)->rank=atoi_link1(tabs[(signed long int)1]);
 
                                   else
                                   {
-                                    unsigned long int scan_libInfo$$1$$6$$32$$__s1_len;
-                                    unsigned long int scan_libInfo$$1$$6$$32$$__s2_len;
-                                    signed int return_value___builtin_strcmp$53;
-                                    return_value___builtin_strcmp$53=__builtin_strcmp(tabs[(signed long int)0], "pair_num_cutoff");
-                                    tmp_statement_expression$52 = return_value___builtin_strcmp$53;
-                                    if(tmp_statement_expression$52 == 0)
-                                      (lib_array + (signed long int)i)->pair_num_cut=atoi$link1(tabs[(signed long int)1]);
+                                    unsigned long int scan_libInfo__1__6__32____s1_len;
+                                    unsigned long int scan_libInfo__1__6__32____s2_len;
+                                    signed int return_value___builtin_strcmp_53;
+                                    return_value___builtin_strcmp_53=__builtin_strcmp(tabs[(signed long int)0], "pair_num_cutoff");
+                                    tmp_statement_expression_52 = return_value___builtin_strcmp_53;
+                                    if(tmp_statement_expression_52 == 0)
+                                      (lib_array + (signed long int)i)->pair_num_cut=atoi_link1(tabs[(signed long int)1]);
 
                                     else
                                     {
-                                      unsigned long int scan_libInfo$$1$$6$$34$$__s1_len;
-                                      unsigned long int scan_libInfo$$1$$6$$34$$__s2_len;
-                                      signed int return_value___builtin_strcmp$51;
-                                      return_value___builtin_strcmp$51=__builtin_strcmp(tabs[(signed long int)0], "rd_len_cutoff");
-                                      tmp_statement_expression$50 = return_value___builtin_strcmp$51;
-                                      if(tmp_statement_expression$50 == 0)
-                                        (lib_array + (signed long int)i)->rd_len_cutoff=atoi$link1(tabs[(signed long int)1]);
+                                      unsigned long int scan_libInfo__1__6__34____s1_len;
+                                      unsigned long int scan_libInfo__1__6__34____s2_len;
+                                      signed int return_value___builtin_strcmp_51;
+                                      return_value___builtin_strcmp_51=__builtin_strcmp(tabs[(signed long int)0], "rd_len_cutoff");
+                                      tmp_statement_expression_50 = return_value___builtin_strcmp_51;
+                                      if(tmp_statement_expression_50 == 0)
+                                        (lib_array + (signed long int)i)->rd_len_cutoff=atoi_link1(tabs[(signed long int)1]);
 
                                       else
                                       {
-                                        unsigned long int scan_libInfo$$1$$6$$36$$__s1_len;
-                                        unsigned long int scan_libInfo$$1$$6$$36$$__s2_len;
-                                        signed int return_value___builtin_strcmp$49;
-                                        return_value___builtin_strcmp$49=__builtin_strcmp(tabs[(signed long int)0], "map_len");
-                                        tmp_statement_expression$48 = return_value___builtin_strcmp$49;
-                                        if(tmp_statement_expression$48 == 0)
-                                          (lib_array + (signed long int)i)->map_len=atoi$link1(tabs[(signed long int)1]);
+                                        unsigned long int scan_libInfo__1__6__36____s1_len;
+                                        unsigned long int scan_libInfo__1__6__36____s2_len;
+                                        signed int return_value___builtin_strcmp_49;
+                                        return_value___builtin_strcmp_49=__builtin_strcmp(tabs[(signed long int)0], "map_len");
+                                        tmp_statement_expression_48 = return_value___builtin_strcmp_49;
+                                        if(tmp_statement_expression_48 == 0)
+                                          (lib_array + (signed long int)i)->map_len=atoi_link1(tabs[(signed long int)1]);
 
                                       }
                                     }
@@ -24238,14 +24238,14 @@ static void search1kmerPlus(signed int j, unsigned char thrdID)
 {
   struct kmer_st *node;
   char found;
-  signed int return_value_search_kmerset$1;
-  return_value_search_kmerset$1=search_kmerset(KmerSetsPatch[(signed long int)thrdID], mixBuffer[(signed long int)j], &node);
-  found = (char)return_value_search_kmerset$1;
+  signed int return_value_search_kmerset_1;
+  return_value_search_kmerset_1=search_kmerset(KmerSetsPatch[(signed long int)thrdID], mixBuffer[(signed long int)j], &node);
+  found = (char)return_value_search_kmerset_1;
   if(found == 0)
     mixBuffer[(signed long int)j] = (unsigned long long int)0;
 
   else
-    if(!(smallerBuffer$link2[(signed long int)j] == 0))
+    if(!(smallerBuffer_link2[(signed long int)j] == 0))
       mixBuffer[(signed long int)j] = (unsigned long long int)node->l_links;
 
     else
@@ -24263,7 +24263,7 @@ static signed int searchFgap(struct kmerSet_st *kset, struct ctg4scaf *ctg1, str
   signed int num_route;
   signed int gapLen = (signed int)(((unsigned int)(ctg2->start - ctg1->end) - origOverlap) + (unsigned int)overlap);
   signed int min = gapLen - GLDiff > 0 ? gapLen - GLDiff : 0;
-  signed int searchFgap$$1$$max = gapLen + GLDiff < 10 ? 10 : gapLen + GLDiff;
+  signed int searchFgap__1__max = gapLen + GLDiff < 10 ? 10 : gapLen + GLDiff;
   char **foundRoutes;
   char *soFarSeq;
   signed int traceCounter;
@@ -24272,54 +24272,54 @@ static signed int searchFgap(struct kmerSet_st *kset, struct ctg4scaf *ctg1, str
   char *multiOccu;
   signed long long int soFarLinks;
   double *avgLinks;
-  void *return_value_ckalloc$1;
-  return_value_ckalloc$1=ckalloc((unsigned long int)10 * sizeof(signed int) /*4ul*/ );
-  routeEndOnCtg2 = (signed int *)return_value_ckalloc$1;
-  void *return_value_ckalloc$2;
-  return_value_ckalloc$2=ckalloc((unsigned long int)10 * sizeof(signed int) /*4ul*/ );
-  routeLens = (signed int *)return_value_ckalloc$2;
-  void *return_value_ckalloc$3;
-  return_value_ckalloc$3=ckalloc((unsigned long int)10 * sizeof(char) /*1ul*/ );
-  multiOccu = (char *)return_value_ckalloc$3;
+  void *return_value_ckalloc_1;
+  return_value_ckalloc_1=ckalloc((unsigned long int)10 * sizeof(signed int) /*4ul*/ );
+  routeEndOnCtg2 = (signed int *)return_value_ckalloc_1;
+  void *return_value_ckalloc_2;
+  return_value_ckalloc_2=ckalloc((unsigned long int)10 * sizeof(signed int) /*4ul*/ );
+  routeLens = (signed int *)return_value_ckalloc_2;
+  void *return_value_ckalloc_3;
+  return_value_ckalloc_3=ckalloc((unsigned long int)10 * sizeof(char) /*1ul*/ );
+  multiOccu = (char *)return_value_ckalloc_3;
   signed short int *MULTI1;
-  void *return_value_ckalloc$4;
-  return_value_ckalloc$4=ckalloc((unsigned long int)10 * sizeof(signed short int) /*2ul*/ );
-  MULTI1 = (signed short int *)return_value_ckalloc$4;
+  void *return_value_ckalloc_4;
+  return_value_ckalloc_4=ckalloc((unsigned long int)10 * sizeof(signed short int) /*2ul*/ );
+  MULTI1 = (signed short int *)return_value_ckalloc_4;
   signed short int *MULTI2;
-  void *return_value_ckalloc$5;
-  return_value_ckalloc$5=ckalloc((unsigned long int)10 * sizeof(signed short int) /*2ul*/ );
-  MULTI2 = (signed short int *)return_value_ckalloc$5;
-  void *return_value_ckalloc$6;
-  return_value_ckalloc$6=ckalloc((unsigned long int)searchFgap$$1$$max * sizeof(char) /*1ul*/ );
-  soFarSeq = (char *)return_value_ckalloc$6;
-  void *return_value_ckalloc$7;
-  return_value_ckalloc$7=ckalloc((unsigned long int)(searchFgap$$1$$max + 1) * sizeof(struct kmer_st *) /*8ul*/ );
-  soFarNode = (struct kmer_st **)return_value_ckalloc$7;
-  void *return_value_ckalloc$8;
-  return_value_ckalloc$8=ckalloc((unsigned long int)10 * sizeof(char *) /*8ul*/ );
-  foundRoutes = (char **)return_value_ckalloc$8;
-  void *return_value_ckalloc$9;
-  return_value_ckalloc$9=ckalloc((unsigned long int)10 * sizeof(double) /*8ul*/ );
-  avgLinks = (double *)return_value_ckalloc$9;
+  void *return_value_ckalloc_5;
+  return_value_ckalloc_5=ckalloc((unsigned long int)10 * sizeof(signed short int) /*2ul*/ );
+  MULTI2 = (signed short int *)return_value_ckalloc_5;
+  void *return_value_ckalloc_6;
+  return_value_ckalloc_6=ckalloc((unsigned long int)searchFgap__1__max * sizeof(char) /*1ul*/ );
+  soFarSeq = (char *)return_value_ckalloc_6;
+  void *return_value_ckalloc_7;
+  return_value_ckalloc_7=ckalloc((unsigned long int)(searchFgap__1__max + 1) * sizeof(struct kmer_st *) /*8ul*/ );
+  soFarNode = (struct kmer_st **)return_value_ckalloc_7;
+  void *return_value_ckalloc_8;
+  return_value_ckalloc_8=ckalloc((unsigned long int)10 * sizeof(char *) /*8ul*/ );
+  foundRoutes = (char **)return_value_ckalloc_8;
+  void *return_value_ckalloc_9;
+  return_value_ckalloc_9=ckalloc((unsigned long int)10 * sizeof(double) /*8ul*/ );
+  avgLinks = (double *)return_value_ckalloc_9;
   i = 0;
   for( ; !(i >= 10); i = i + 1)
   {
-    void *return_value_ckalloc$10;
-    return_value_ckalloc$10=ckalloc((unsigned long int)searchFgap$$1$$max * sizeof(char) /*1ul*/ );
-    foundRoutes[(signed long int)i] = (char *)return_value_ckalloc$10;
+    void *return_value_ckalloc_10;
+    return_value_ckalloc_10=ckalloc((unsigned long int)searchFgap__1__max * sizeof(char) /*1ul*/ );
+    foundRoutes[(signed long int)i] = (char *)return_value_ckalloc_10;
   }
   i = len1 - 1;
-  signed int tmp_if_expr$11;
-  signed int tmp_if_expr$12;
-  signed int tmp_post$13;
-  _Bool tmp_if_expr$14;
+  signed int tmp_if_expr_11;
+  signed int tmp_if_expr_12;
+  signed int tmp_post_13;
+  _Bool tmp_if_expr_14;
   for( ; i >= 0; i = i - 1)
   {
     soFarLinks = (signed long long int)0;
     traceCounter = (signed int)soFarLinks;
     num_route = traceCounter;
     signed int steps = 0;
-    traceAlongDBgraph(kmerCtg1[(signed long int)i], steps, min, searchFgap$$1$$max, &num_route, kset, kmerCtg2, len2, overlap, WordFilter, foundRoutes, routeEndOnCtg2, routeLens, soFarSeq, &traceCounter, 10, soFarNode, multiOccu, &soFarLinks, avgLinks);
+    traceAlongDBgraph(kmerCtg1[(signed long int)i], steps, min, searchFgap__1__max, &num_route, kset, kmerCtg2, len2, overlap, WordFilter, foundRoutes, routeEndOnCtg2, routeLens, soFarSeq, &traceCounter, 10, soFarNode, multiOccu, &soFarLinks, avgLinks);
     if(num_route >= 1)
     {
       signed int m;
@@ -24337,7 +24337,7 @@ static signed int searchFgap(struct kmerSet_st *kset, struct ctg4scaf *ctg1, str
       traceCounter = (signed int)soFarLinks;
       num_route = traceCounter;
       steps = 0;
-      trace4Repeat(kmerCtg1[(signed long int)i], steps, min, searchFgap$$1$$max, &num_route, kset, kmerCtg2[(signed long int)minEnd], overlap, WordFilter, &traceCounter, 10, soFarNode, MULTI1, MULTI2, routeLens, foundRoutes, soFarSeq, &soFarLinks, avgLinks);
+      trace4Repeat(kmerCtg1[(signed long int)i], steps, min, searchFgap__1__max, &num_route, kset, kmerCtg2[(signed long int)minEnd], overlap, WordFilter, &traceCounter, 10, soFarNode, MULTI1, MULTI2, routeLens, foundRoutes, soFarSeq, &soFarLinks, avgLinks);
       signed int j;
       signed int best = 0;
       signed int maxLen = routeLens[(signed long int)0];
@@ -24345,8 +24345,8 @@ static signed int searchFgap(struct kmerSet_st *kset, struct ctg4scaf *ctg1, str
       char *pt;
       char repeat = (char)0;
       char sameLen = (char)1;
-      signed int leftMost = searchFgap$$1$$max;
-      signed int rightMost = searchFgap$$1$$max;
+      signed int leftMost = searchFgap__1__max;
+      signed int rightMost = searchFgap__1__max;
       if(!(num_route >= 1))
       {
         fprintf(stderr, "After trace4Repeat: non route was found\n");
@@ -24365,17 +24365,17 @@ static signed int searchFgap(struct kmerSet_st *kset, struct ctg4scaf *ctg1, str
               {
                 repeat = (char)1;
                 if(!((signed int)MULTI1[(signed long int)m] >= leftMost))
-                  tmp_if_expr$11 = (signed int)MULTI1[(signed long int)m];
+                  tmp_if_expr_11 = (signed int)MULTI1[(signed long int)m];
 
                 else
-                  tmp_if_expr$11 = leftMost;
-                leftMost = tmp_if_expr$11;
+                  tmp_if_expr_11 = leftMost;
+                leftMost = tmp_if_expr_11;
                 if(!((signed int)MULTI2[(signed long int)m] >= rightMost))
-                  tmp_if_expr$12 = (signed int)MULTI2[(signed long int)m];
+                  tmp_if_expr_12 = (signed int)MULTI2[(signed long int)m];
 
                 else
-                  tmp_if_expr$12 = rightMost;
-                rightMost = tmp_if_expr$12;
+                  tmp_if_expr_12 = rightMost;
+                rightMost = tmp_if_expr_12;
               }
 
             }
@@ -24423,9 +24423,9 @@ static signed int searchFgap(struct kmerSet_st *kset, struct ctg4scaf *ctg1, str
 
           if(m == num_route)
           {
-            tmp_post$13 = index;
+            tmp_post_13 = index;
             index = index + 1;
-            seqGap[(signed long int)tmp_post$13] = ch;
+            seqGap[(signed long int)tmp_post_13] = ch;
           }
 
           else
@@ -24461,11 +24461,11 @@ static signed int searchFgap(struct kmerSet_st *kset, struct ctg4scaf *ctg1, str
         for( ; !(j >= *offset2); j = j + 1)
           seqGap[(signed long int)(((*offset1 + *offset2) - 1) - j)] = foundRoutes[(signed long int)0][(signed long int)(((routeLens[(signed long int)0] - overlap) - 1) - j)];
         if(*offset1 >= 1)
-          tmp_if_expr$14 = (_Bool)1;
+          tmp_if_expr_14 = (_Bool)1;
 
         else
-          tmp_if_expr$14 = *offset2 > 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$14)
+          tmp_if_expr_14 = *offset2 > 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_14)
         {
           *cut1 = (len1 - i) - 1;
           *cut2 = minEnd;
@@ -24473,7 +24473,7 @@ static signed int searchFgap(struct kmerSet_st *kset, struct ctg4scaf *ctg1, str
           for( ; !(m >= num_route); m = m + 1)
           {
             j = 0;
-            for( ; !(j >= searchFgap$$1$$max); j = j + 1)
+            for( ; !(j >= searchFgap__1__max); j = j + 1)
               if((signed int)foundRoutes[(signed long int)m][(signed long int)j] >= 4)
                 break;
 
@@ -24489,16 +24489,16 @@ static signed int searchFgap(struct kmerSet_st *kset, struct ctg4scaf *ctg1, str
 
       ctg1->gapSeqOffset = (signed int)gapSeqArray->item_c;
       ctg1->gapSeqLen = (unsigned int)routeLens[(signed long int)best];
-      void *return_value_darrayPut$15;
-      return_value_darrayPut$15=darrayPut(gapSeqArray, (signed long long int)(ctg1->gapSeqOffset + maxLen / 4));
-      if(return_value_darrayPut$15 == NULL)
+      void *return_value_darrayPut_15;
+      return_value_darrayPut_15=darrayPut(gapSeqArray, (signed long long int)(ctg1->gapSeqOffset + maxLen / 4));
+      if(return_value_darrayPut_15 == NULL)
         goto __CPROVER_DUMP_L49;
 
-      void *return_value_darrayPut$16;
-      return_value_darrayPut$16=darrayPut(gapSeqArray, (signed long long int)ctg1->gapSeqOffset);
-      pt = (char *)return_value_darrayPut$16;
+      void *return_value_darrayPut_16;
+      return_value_darrayPut_16=darrayPut(gapSeqArray, (signed long long int)ctg1->gapSeqOffset);
+      pt = (char *)return_value_darrayPut_16;
       j = 0;
-      for( ; !(j >= searchFgap$$1$$max); j = j + 1)
+      for( ; !(j >= searchFgap__1__max); j = j + 1)
       {
         if((signed int)foundRoutes[(signed long int)best][(signed long int)j] >= 4)
           break;
@@ -24543,35 +24543,35 @@ static void searchKmer(signed int t, struct kmerSet_st *kset)
 {
   struct kmer_st *node;
   char found;
-  signed int return_value_search_kmerset$1;
-  return_value_search_kmerset$1=search_kmerset(kset, kmerBuffer$link2[(signed long int)t], &node);
-  found = (char)return_value_search_kmerset$1;
-  _Bool tmp_if_expr$2;
+  signed int return_value_search_kmerset_1;
+  return_value_search_kmerset_1=search_kmerset(kset, kmerBuffer_link2[(signed long int)t], &node);
+  found = (char)return_value_search_kmerset_1;
+  _Bool tmp_if_expr_2;
   if(!(found == 0))
-    tmp_if_expr$2 = !(node->deleted != 0u) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = !(node->deleted != 0u) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     nodeBuffer[(signed long int)t] = node;
 
   else
     nodeBuffer[(signed long int)t] = (struct kmer_st *)(void *)0;
 }
 
-// searchKmer$link1
+// searchKmer_link1
 // file prlRead2path.c line 261
-static void searchKmer$link1(signed int t$link1, struct kmerSet_st *kset$link1)
+static void searchKmer_link1(signed int t_link1, struct kmerSet_st *kset_link1)
 {
-  struct kmer_st *node$link1;
-  char found$link1;
-  signed int return_value_search_kmerset$1$link1;
-  return_value_search_kmerset$1$link1=search_kmerset(kset$link1, kmerBuffer$link3[(signed long int)t$link1], &node$link1);
-  found$link1 = (char)return_value_search_kmerset$1$link1;
-  if(found$link1 == 0)
-    printf("searchKmer: kmer %llx is not found\n", kmerBuffer$link3[(signed long int)t$link1]);
+  struct kmer_st *node_link1;
+  char found_link1;
+  signed int return_value_search_kmerset_1_link1;
+  return_value_search_kmerset_1_link1=search_kmerset(kset_link1, kmerBuffer_link3[(signed long int)t_link1], &node_link1);
+  found_link1 = (char)return_value_search_kmerset_1_link1;
+  if(found_link1 == 0)
+    printf("searchKmer: kmer %llx is not found\n", kmerBuffer_link3[(signed long int)t_link1]);
 
-  nodeBuffer$link1[(signed long int)t$link1] = node$link1;
+  nodeBuffer_link1[(signed long int)t_link1] = node_link1;
 }
 
 // searchKmerOnCtg
@@ -24596,16 +24596,16 @@ static struct kmer_st * searchNode(unsigned long long int word, struct kmerSet_s
   char found;
   if(!(word >= bal_word))
   {
-    signed int return_value_search_kmerset$1;
-    return_value_search_kmerset$1=search_kmerset(kset, word, &node);
-    found = (char)return_value_search_kmerset$1;
+    signed int return_value_search_kmerset_1;
+    return_value_search_kmerset_1=search_kmerset(kset, word, &node);
+    found = (char)return_value_search_kmerset_1;
   }
 
   else
   {
-    signed int return_value_search_kmerset$2;
-    return_value_search_kmerset$2=search_kmerset(kset, bal_word, &node);
-    found = (char)return_value_search_kmerset$2;
+    signed int return_value_search_kmerset_2;
+    return_value_search_kmerset_2=search_kmerset(kset, bal_word, &node);
+    found = (char)return_value_search_kmerset_2;
   }
   if(!(found == 0))
     return node;
@@ -24660,106 +24660,106 @@ static void sendWorkSignal(unsigned char SIG, unsigned char *thrdSignals)
   }
 }
 
-// sendWorkSignal$link1
+// sendWorkSignal_link1
 // file prlHashCtg.c line 227
-static void sendWorkSignal$link1(unsigned char SIG$link1, unsigned char *thrdSignals$link1)
+static void sendWorkSignal_link1(unsigned char SIG_link1, unsigned char *thrdSignals_link1)
 {
-  signed int t$link1 = 0;
-  for( ; !(t$link1 >= thrd_num); t$link1 = t$link1 + 1)
-    thrdSignals$link1[(signed long int)(t$link1 + 1)] = SIG$link1;
+  signed int t_link1 = 0;
+  for( ; !(t_link1 >= thrd_num); t_link1 = t_link1 + 1)
+    thrdSignals_link1[(signed long int)(t_link1 + 1)] = SIG_link1;
   while((_Bool)1)
   {
     usleep((unsigned int)10);
-    t$link1 = 0;
-    for( ; !(t$link1 >= thrd_num); t$link1 = t$link1 + 1)
-      if(!(thrdSignals$link1[(signed long int)(1 + t$link1)] == 0))
+    t_link1 = 0;
+    for( ; !(t_link1 >= thrd_num); t_link1 = t_link1 + 1)
+      if(!(thrdSignals_link1[(signed long int)(1 + t_link1)] == 0))
         break;
 
-    if(t$link1 == thrd_num)
+    if(t_link1 == thrd_num)
       break;
 
   }
 }
 
-// sendWorkSignal$link2
+// sendWorkSignal_link2
 // file prlHashReads.c line 228
-static void sendWorkSignal$link2(unsigned char SIG$link2, unsigned char *thrdSignals$link2)
+static void sendWorkSignal_link2(unsigned char SIG_link2, unsigned char *thrdSignals_link2)
 {
-  signed int t$link2 = 0;
-  for( ; !(t$link2 >= thrd_num); t$link2 = t$link2 + 1)
-    thrdSignals$link2[(signed long int)(t$link2 + 1)] = SIG$link2;
+  signed int t_link2 = 0;
+  for( ; !(t_link2 >= thrd_num); t_link2 = t_link2 + 1)
+    thrdSignals_link2[(signed long int)(t_link2 + 1)] = SIG_link2;
   while((_Bool)1)
   {
     usleep((unsigned int)10);
-    t$link2 = 0;
-    for( ; !(t$link2 >= thrd_num); t$link2 = t$link2 + 1)
-      if(!(thrdSignals$link2[(signed long int)(1 + t$link2)] == 0))
+    t_link2 = 0;
+    for( ; !(t_link2 >= thrd_num); t_link2 = t_link2 + 1)
+      if(!(thrdSignals_link2[(signed long int)(1 + t_link2)] == 0))
         break;
 
-    if(t$link2 == thrd_num)
+    if(t_link2 == thrd_num)
       break;
 
   }
 }
 
-// sendWorkSignal$link3
+// sendWorkSignal_link3
 // file prlRead2Ctg.c line 328
-static void sendWorkSignal$link3(unsigned char SIG$link3, unsigned char *thrdSignals$link3)
+static void sendWorkSignal_link3(unsigned char SIG_link3, unsigned char *thrdSignals_link3)
 {
-  signed int t$link3 = 0;
-  for( ; !(t$link3 >= thrd_num); t$link3 = t$link3 + 1)
-    thrdSignals$link3[(signed long int)(t$link3 + 1)] = SIG$link3;
+  signed int t_link3 = 0;
+  for( ; !(t_link3 >= thrd_num); t_link3 = t_link3 + 1)
+    thrdSignals_link3[(signed long int)(t_link3 + 1)] = SIG_link3;
   while((_Bool)1)
   {
     usleep((unsigned int)10);
-    t$link3 = 0;
-    for( ; !(t$link3 >= thrd_num); t$link3 = t$link3 + 1)
-      if(!(thrdSignals$link3[(signed long int)(1 + t$link3)] == 0))
+    t_link3 = 0;
+    for( ; !(t_link3 >= thrd_num); t_link3 = t_link3 + 1)
+      if(!(thrdSignals_link3[(signed long int)(1 + t_link3)] == 0))
         break;
 
-    if(t$link3 == thrd_num)
+    if(t_link3 == thrd_num)
       break;
 
   }
 }
 
-// sendWorkSignal$link4
+// sendWorkSignal_link4
 // file prlRead2path.c line 539
-static void sendWorkSignal$link4(unsigned char SIG$link4, unsigned char *thrdSignals$link4)
+static void sendWorkSignal_link4(unsigned char SIG_link4, unsigned char *thrdSignals_link4)
 {
-  signed int t$link4 = 0;
-  for( ; !(t$link4 >= thrd_num); t$link4 = t$link4 + 1)
-    thrdSignals$link4[(signed long int)(t$link4 + 1)] = SIG$link4;
+  signed int t_link4 = 0;
+  for( ; !(t_link4 >= thrd_num); t_link4 = t_link4 + 1)
+    thrdSignals_link4[(signed long int)(t_link4 + 1)] = SIG_link4;
   while((_Bool)1)
   {
     usleep((unsigned int)10);
-    t$link4 = 0;
-    for( ; !(t$link4 >= thrd_num); t$link4 = t$link4 + 1)
-      if(!(thrdSignals$link4[(signed long int)(1 + t$link4)] == 0))
+    t_link4 = 0;
+    for( ; !(t_link4 >= thrd_num); t_link4 = t_link4 + 1)
+      if(!(thrdSignals_link4[(signed long int)(1 + t_link4)] == 0))
         break;
 
-    if(t$link4 == thrd_num)
+    if(t_link4 == thrd_num)
       break;
 
   }
 }
 
-// sendWorkSignal$link5
+// sendWorkSignal_link5
 // file prlReadFillGap.c line 926
-static void sendWorkSignal$link5(unsigned char SIG$link5, unsigned char *thrdSignals$link5)
+static void sendWorkSignal_link5(unsigned char SIG_link5, unsigned char *thrdSignals_link5)
 {
-  signed int t$link5 = 0;
-  for( ; !(t$link5 >= thrd_num); t$link5 = t$link5 + 1)
-    thrdSignals$link5[(signed long int)(t$link5 + 1)] = SIG$link5;
+  signed int t_link5 = 0;
+  for( ; !(t_link5 >= thrd_num); t_link5 = t_link5 + 1)
+    thrdSignals_link5[(signed long int)(t_link5 + 1)] = SIG_link5;
   while((_Bool)1)
   {
     usleep((unsigned int)10);
-    t$link5 = 0;
-    for( ; !(t$link5 >= thrd_num); t$link5 = t$link5 + 1)
-      if(!(thrdSignals$link5[(signed long int)(1 + t$link5)] == 0))
+    t_link5 = 0;
+    for( ; !(t_link5 >= thrd_num); t_link5 = t_link5 + 1)
+      if(!(thrdSignals_link5[(signed long int)(1 + t_link5)] == 0))
         break;
 
-    if(t$link5 == thrd_num)
+    if(t_link5 == thrd_num)
       break;
 
   }
@@ -24772,16 +24772,16 @@ static void setBreakPoints(struct dynamic_array *ctgArray, signed int count, sig
   signed int index = weakest - 1;
   unsigned int thisCtg;
   unsigned int nextCtg;
-  void *return_value_darrayGet$1;
-  return_value_darrayGet$1=darrayGet(ctgArray, (signed long long int)weakest);
-  nextCtg = *((unsigned int *)return_value_darrayGet$1);
+  void *return_value_darrayGet_1;
+  return_value_darrayGet_1=darrayGet(ctgArray, (signed long long int)weakest);
+  nextCtg = *((unsigned int *)return_value_darrayGet_1);
   struct connection *cnt;
   *start = weakest;
   while(index >= 0)
   {
-    void *return_value_darrayGet$2;
-    return_value_darrayGet$2=darrayGet(ctgArray, (signed long long int)index);
-    thisCtg = *((unsigned int *)return_value_darrayGet$2);
+    void *return_value_darrayGet_2;
+    return_value_darrayGet_2=darrayGet(ctgArray, (signed long long int)index);
+    thisCtg = *((unsigned int *)return_value_darrayGet_2);
     cnt=getCntBetween(thisCtg, nextCtg);
     if((signed int)cnt->maxGap >= 3)
       break;
@@ -24792,16 +24792,16 @@ static void setBreakPoints(struct dynamic_array *ctgArray, signed int count, sig
     index = index - 1;
   }
   unsigned int prevCtg;
-  void *return_value_darrayGet$3;
-  return_value_darrayGet$3=darrayGet(ctgArray, (signed long long int)(weakest + 1));
-  prevCtg = *((unsigned int *)return_value_darrayGet$3);
+  void *return_value_darrayGet_3;
+  return_value_darrayGet_3=darrayGet(ctgArray, (signed long long int)(weakest + 1));
+  prevCtg = *((unsigned int *)return_value_darrayGet_3);
   *finish = weakest + 1;
   index = weakest + 2;
   while(!(index >= count))
   {
-    void *return_value_darrayGet$4;
-    return_value_darrayGet$4=darrayGet(ctgArray, (signed long long int)index);
-    thisCtg = *((unsigned int *)return_value_darrayGet$4);
+    void *return_value_darrayGet_4;
+    return_value_darrayGet_4=darrayGet(ctgArray, (signed long long int)index);
+    thisCtg = *((unsigned int *)return_value_darrayGet_4);
     cnt=getCntBetween(prevCtg, thisCtg);
     if((signed int)cnt->maxGap >= 3)
       break;
@@ -24957,9 +24957,9 @@ static void setInGraph(char flag)
 {
   signed int i;
   signed int node;
-  nodeCounter$link1 = nodeCounter$link1 > 10000 ? 10000 : nodeCounter$link1;
+  nodeCounter_link1 = nodeCounter_link1 > 10000 ? 10000 : nodeCounter_link1;
   i = 1;
-  for( ; nodeCounter$link1 >= i; i = i + 1)
+  for( ; nodeCounter_link1 >= i; i = i + 1)
   {
     node = (signed int)ctg4heapArray[(signed long int)i].ctgID;
     if(node >= 1)
@@ -24972,8 +24972,8 @@ static void setInGraph(char flag)
 // file orderContig.c line 422
 static char setNextInScaf(struct connection *cnt, struct connection *nextCnt)
 {
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(cnt == ((struct connection *)NULL))
   {
     printf("setNextInScaf: empty pointer\n");
@@ -24990,11 +24990,11 @@ static char setNextInScaf(struct connection *cnt, struct connection *nextCnt)
     else
     {
       if(!(cnt->mask == 0))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = cnt->deleted != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = cnt->deleted != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         printf("setNextInScaf: cnt is masked or deleted\n");
         return (char)0;
@@ -25003,11 +25003,11 @@ static char setNextInScaf(struct connection *cnt, struct connection *nextCnt)
       else
       {
         if(!(nextCnt->deleted == 0))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = nextCnt->mask != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = nextCnt->mask != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
         {
           printf("setNextInScaf: nextCnt is masked or deleted\n");
           return (char)0;
@@ -25033,7 +25033,7 @@ static void setNodeDHeapNode(unsigned int node, struct dfibheap_el *dheapNode)
 // file orderContig.c line 452
 static char setPrevInScaf(struct connection *cnt, char flag)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(cnt == ((struct connection *)NULL))
   {
     printf("setPrevInScaf: empty pointer\n");
@@ -25050,11 +25050,11 @@ static char setPrevInScaf(struct connection *cnt, char flag)
     else
     {
       if(!(cnt->mask == 0))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = cnt->deleted != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = cnt->deleted != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         printf("setPrevInScaf: cnt is masked or deleted\n");
         return (char)0;
@@ -25080,9 +25080,9 @@ static char setUsed(unsigned int start, unsigned int *array, signed int max_step
   char usedFlag = (char)0;
   prevCtg = start;
   j = 0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   for( ; !(j >= max_steps); j = j + 1)
   {
     if(array[(signed long int)j] == 0u)
@@ -25098,21 +25098,21 @@ static char setUsed(unsigned int start, unsigned int *array, signed int max_step
     else
     {
       if((signed int)cnt->used == (signed int)flag)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = cnt->nextInScaf != ((struct connection *)NULL) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_1 = cnt->nextInScaf != ((struct connection *)NULL) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = cnt->prevInScaf != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_2 = cnt->prevInScaf != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = cnt->singleInScaf != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = cnt->singleInScaf != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
         return (char)1;
 
       cnt->checking = (unsigned char)cnt->used;
@@ -25241,18 +25241,18 @@ __CPROVER_DUMP_L5:
   ;
 }
 
-// singleKmer$link1
+// singleKmer_link1
 // file prlHashCtg.c line 112
-static void singleKmer$link1(signed int t$link1, struct kmerSet_st *kset$link1, unsigned int seq_index, unsigned int pos)
+static void singleKmer_link1(signed int t_link1, struct kmerSet_st *kset_link1, unsigned int seq_index, unsigned int pos)
 {
   char flag;
   struct kmer_st *node;
-  signed int return_value_put_kmerset$1;
-  return_value_put_kmerset$1=put_kmerset(kset$link1, kmerBuffer[(signed long int)t$link1], (unsigned char)4, (unsigned char)4, &node);
-  flag = (char)return_value_put_kmerset$1;
+  signed int return_value_put_kmerset_1;
+  return_value_put_kmerset_1=put_kmerset(kset_link1, kmerBuffer[(signed long int)t_link1], (unsigned char)4, (unsigned char)4, &node);
+  flag = (char)return_value_put_kmerset_1;
   if(flag == 0)
   {
-    if(!(smallerBuffer[(signed long int)t$link1] == 0))
+    if(!(smallerBuffer[(signed long int)t_link1] == 0))
       node->twin = (unsigned int)0;
 
     else
@@ -25265,12 +25265,12 @@ static void singleKmer$link1(signed int t$link1, struct kmerSet_st *kset$link1, 
     node->deleted = (unsigned int)1;
 }
 
-// singleKmer$link2
+// singleKmer_link2
 // file prlHashReads.c line 116
-static void singleKmer$link2(signed int t$link2, struct kmerSet_st *kset$link2)
+static void singleKmer_link2(signed int t_link2, struct kmerSet_st *kset_link2)
 {
-  struct kmer_st *pos$link1;
-  put_kmerset(kset$link2, kmerBuffer$link1[(signed long int)t$link2], (unsigned char)prevcBuffer[(signed long int)t$link2], (unsigned char)nextcBuffer[(signed long int)t$link2], &pos$link1);
+  struct kmer_st *pos_link1;
+  put_kmerset(kset_link2, kmerBuffer_link1[(signed long int)t_link2], (unsigned char)prevcBuffer[(signed long int)t_link2], (unsigned char)nextcBuffer[(signed long int)t_link2], &pos_link1);
 }
 
 // smallScaf
@@ -25288,30 +25288,30 @@ static void smallScaf()
   for( ; num_ctg >= i; i = i + 1u)
     (contig_array + (signed long int)i)->flag = (unsigned char)0;
   i = (unsigned int)1;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   for( ; num_ctg >= i; i = i + 1u)
   {
     if(!((contig_array + (signed long int)i)->flag == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (contig_array + (signed long int)i)->mask != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = (contig_array + (signed long int)i)->mask != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = !((contig_array + (signed long int)i)->downwardConnect != ((struct connection *)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = !((contig_array + (signed long int)i)->downwardConnect != ((struct connection *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_2)
     {
       bindCnt=getBindCnt(i);
       if(!(bindCnt == ((struct connection *)NULL)))
       {
         counter = counter + 1;
         (contig_array + (signed long int)i)->flag = (unsigned char)1;
-        unsigned int return_value_getTwinCtg$3;
-        return_value_getTwinCtg$3=getTwinCtg(i);
-        (contig_array + (signed long int)return_value_getTwinCtg$3)->flag = (unsigned char)1;
+        unsigned int return_value_getTwinCtg_3;
+        return_value_getTwinCtg_3=getTwinCtg(i);
+        (contig_array + (signed long int)return_value_getTwinCtg_3)->flag = (unsigned char)1;
         prevCtg=getTwinCtg(i);
         for( ; !(bindCnt == ((struct connection *)NULL)); bindCnt = bindCnt->nextInScaf)
         {
@@ -25354,19 +25354,19 @@ static void smallScaf()
 // file splitReps.c line 147
 unsigned int solvable(unsigned int edgeno)
 {
-  char return_value_EdSameAsTwin$1;
-  return_value_EdSameAsTwin$1=EdSameAsTwin(edgeno);
-  _Bool tmp_if_expr$2;
-  if(!(return_value_EdSameAsTwin$1 == 0))
-    tmp_if_expr$2 = (_Bool)1;
+  char return_value_EdSameAsTwin_1;
+  return_value_EdSameAsTwin_1=EdSameAsTwin(edgeno);
+  _Bool tmp_if_expr_2;
+  if(!(return_value_EdSameAsTwin_1 == 0))
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)(edge_array + (signed long int)edgeno)->multi == 255 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  unsigned int tmp_post$5;
-  _Bool tmp_if_expr$7;
-  unsigned int tmp_post$8;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)(edge_array + (signed long int)edgeno)->multi == 255 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  unsigned int tmp_post_5;
+  _Bool tmp_if_expr_7;
+  unsigned int tmp_post_8;
+  if(tmp_if_expr_2)
     return (unsigned int)0;
 
   else
@@ -25402,19 +25402,19 @@ unsigned int solvable(unsigned int edgeno)
           else
           {
             branch = parcR->to_ed;
-            char return_value_EdSameAsTwin$3;
-            return_value_EdSameAsTwin$3=EdSameAsTwin(branch);
-            if(!(return_value_EdSameAsTwin$3 == 0))
-              tmp_if_expr$4 = (_Bool)1;
+            char return_value_EdSameAsTwin_3;
+            return_value_EdSameAsTwin_3=EdSameAsTwin(branch);
+            if(!(return_value_EdSameAsTwin_3 == 0))
+              tmp_if_expr_4 = (_Bool)1;
 
             else
-              tmp_if_expr$4 = (signed int)(edge_array + (signed long int)branch)->multi == 255 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$4)
+              tmp_if_expr_4 = (signed int)(edge_array + (signed long int)branch)->multi == 255 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_4)
               return (unsigned int)0;
 
-            tmp_post$5 = arcRight_n;
+            tmp_post_5 = arcRight_n;
             arcRight_n = arcRight_n + 1u;
-            rights[(signed long int)tmp_post$5] = branch;
+            rights[(signed long int)tmp_post_5] = branch;
             bal_branch=getTwinEdge(branch);
             arcCounts(bal_branch, &counter);
             if(!(counter == 1u))
@@ -25430,20 +25430,20 @@ unsigned int solvable(unsigned int edgeno)
           else
           {
             branch = parcL->to_ed;
-            char return_value_EdSameAsTwin$6;
-            return_value_EdSameAsTwin$6=EdSameAsTwin(branch);
-            if(!(return_value_EdSameAsTwin$6 == 0))
-              tmp_if_expr$7 = (_Bool)1;
+            char return_value_EdSameAsTwin_6;
+            return_value_EdSameAsTwin_6=EdSameAsTwin(branch);
+            if(!(return_value_EdSameAsTwin_6 == 0))
+              tmp_if_expr_7 = (_Bool)1;
 
             else
-              tmp_if_expr$7 = (signed int)(edge_array + (signed long int)branch)->multi == 255 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$7)
+              tmp_if_expr_7 = (signed int)(edge_array + (signed long int)branch)->multi == 255 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_7)
               return (unsigned int)0;
 
             bal_branch=getTwinEdge(branch);
-            tmp_post$8 = arcLeft_n;
+            tmp_post_8 = arcLeft_n;
             arcLeft_n = arcLeft_n + 1u;
-            lefts[(signed long int)tmp_post$8] = bal_branch;
+            lefts[(signed long int)tmp_post_8] = bal_branch;
             arcCounts(bal_branch, &counter);
             if(!(counter == 1u))
               return (unsigned int)0;
@@ -25457,9 +25457,9 @@ unsigned int solvable(unsigned int edgeno)
           j = (unsigned int)0;
           for( ; !(j >= arcRight_n); j = j + 1u)
           {
-            signed long long int return_value_cntByReads$9;
-            return_value_cntByReads$9=cntByReads(lefts[(signed long int)i], edgeno, rights[(signed long int)j]);
-            gothrough[(signed long int)i][(signed long int)j] = (unsigned char)(return_value_cntByReads$9 == (signed long int)0 ? 0 : 1);
+            signed long long int return_value_cntByReads_9;
+            return_value_cntByReads_9=cntByReads(lefts[(signed long int)i], edgeno, rights[(signed long int)j]);
+            gothrough[(signed long int)i][(signed long int)j] = (unsigned char)(return_value_cntByReads_9 == (signed long int)0 ? 0 : 1);
             counter = counter + (unsigned int)gothrough[(signed long int)i][(signed long int)j];
             if(counter >= 2u)
               return (unsigned int)0;
@@ -25506,9 +25506,9 @@ extern void solveReps()
       {
         split1edge(i, (signed int)repTime);
         counter = counter + 1;
-        char return_value_EdSmallerThanTwin$1;
-        return_value_EdSmallerThanTwin$1=EdSmallerThanTwin(i);
-        if(!(return_value_EdSmallerThanTwin$1 == 0))
+        char return_value_EdSmallerThanTwin_1;
+        return_value_EdSmallerThanTwin_1=EdSmallerThanTwin(i);
+        if(!(return_value_EdSmallerThanTwin_1 == 0))
           i = i + 1u;
 
       }
@@ -25553,13 +25553,13 @@ static void split1edge(unsigned int edgeno, signed int repTimes)
 static char splitColumn(char *line)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(line);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(line);
+  len = (signed int)return_value_strlen_1;
   signed int i = 0;
   signed int j;
   signed int tabs_n = 0;
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   for( ; !(i >= len); i = i + 1)
     if((signed int)line[(signed long int)i] >= 32)
     {
@@ -25579,9 +25579,9 @@ static char splitColumn(char *line)
             if((signed int)line[(signed long int)i] == 61)
               break;
 
-            tmp_post$2 = j;
+            tmp_post_2 = j;
             j = j + 1;
-            tabs[(signed long int)tabs_n][(signed long int)tmp_post$2] = line[(signed long int)i];
+            tabs[(signed long int)tabs_n][(signed long int)tmp_post_2] = line[(signed long int)i];
           }
           tabs[(signed long int)tabs_n][(signed long int)j] = (char)0;
           tabs_n = tabs_n + 1;
@@ -25638,9 +25638,9 @@ static void splitNodeDescriptor(unsigned int source, unsigned int target, signed
     {
       (edge_array + (signed long int)target)->flag = (unsigned short int)1;
       (edge_array + (signed long int)bal_target)->flag = (unsigned short int)1;
-      void *return_value_ckalloc$1;
-      return_value_ckalloc$1=ckalloc((unsigned long int)seqLen * sizeof(char) /*1ul*/ );
-      newSeq = (char *)return_value_ckalloc$1;
+      void *return_value_ckalloc_1;
+      return_value_ckalloc_1=ckalloc((unsigned long int)seqLen * sizeof(char) /*1ul*/ );
+      newSeq = (char *)return_value_ckalloc_1;
       (edge_array + (signed long int)target)->seq = newSeq;
       index = 0;
       for( ; !(index >= backLength); index = index + 1)
@@ -25659,9 +25659,9 @@ static void splitNodeDescriptor(unsigned int source, unsigned int target, signed
     if(!(target == 0u))
     {
       tightSeq = (edge_array + (signed long int)bal_source)->seq;
-      void *return_value_ckalloc$2;
-      return_value_ckalloc$2=ckalloc((unsigned long int)seqLen * sizeof(char) /*1ul*/ );
-      newSeq = (char *)return_value_ckalloc$2;
+      void *return_value_ckalloc_2;
+      return_value_ckalloc_2=ckalloc((unsigned long int)seqLen * sizeof(char) /*1ul*/ );
+      newSeq = (char *)return_value_ckalloc_2;
       (edge_array + (signed long int)bal_target)->seq = newSeq;
       index = offset;
       for( ; !(index >= originalLength); index = index + 1)
@@ -25689,19 +25689,19 @@ void stackBackup(struct stack *astack)
 void * stackPop(struct stack *astack)
 {
   struct block_starter *block;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(astack == ((struct stack *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(astack->block_list != ((struct block_starter *)NULL)) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = !(astack->block_list != ((struct block_starter *)NULL)) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(astack->item_c != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = !(astack->item_c != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return (void *)0;
 
   else
@@ -25737,9 +25737,9 @@ void * stackPop(struct stack *astack)
 void * stackPush(struct stack *astack)
 {
   struct block_starter *block;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  signed int tmp_post$4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  signed int tmp_post_4;
   if(astack == ((struct stack *)NULL))
     return (void *)0;
 
@@ -25747,22 +25747,22 @@ void * stackPush(struct stack *astack)
   {
     astack->item_c = astack->item_c + 1;
     if(astack->block_list == ((struct block_starter *)NULL))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       if(astack->index_in_block == astack->items_per_block)
-        tmp_if_expr$2 = !(astack->block_list->prev != ((struct block_starter *)NULL)) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = !(astack->block_list->prev != ((struct block_starter *)NULL)) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct block_starter) /*16ul*/  + (unsigned long int)astack->items_per_block * astack->item_size);
-      block = (struct block_starter *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct block_starter) /*16ul*/  + (unsigned long int)astack->items_per_block * astack->item_size);
+      block = (struct block_starter *)return_value_malloc_1;
       block->prev = (struct block_starter *)(void *)0;
       if(!(astack->block_list == ((struct block_starter *)NULL)))
         astack->block_list->prev = block;
@@ -25786,9 +25786,9 @@ void * stackPush(struct stack *astack)
       }
 
     block = astack->block_list;
-    tmp_post$4 = astack->index_in_block;
+    tmp_post_4 = astack->index_in_block;
     astack->index_in_block = astack->index_in_block + 1;
-    return (void *)((void *)block + (signed long int)sizeof(struct block_starter) /*16ul*/  + (signed long int)(astack->item_size * (unsigned long int)tmp_post$4));
+    return (void *)((void *)block + (signed long int)sizeof(struct block_starter) /*16ul*/  + (signed long int)(astack->item_size * (unsigned long int)tmp_post_4));
   }
 }
 
@@ -25813,15 +25813,15 @@ static signed int startEdgeFromNode(struct kmer_st *node1, struct _IO_FILE *fp)
   unsigned long long int word1;
   unsigned long long int bal_word1;
   char ch1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(node1->linear == 0u))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = node1->deleted != 0u ? (_Bool)1 : (_Bool)0;
-  void *return_value_stackPop$3;
-  void *return_value_stackPop$6;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = node1->deleted != 0u ? (_Bool)1 : (_Bool)0;
+  void *return_value_stackPop_3;
+  void *return_value_stackPop_6;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -25835,9 +25835,9 @@ static signed int startEdgeFromNode(struct kmer_st *node1, struct _IO_FILE *fp)
       if(!(flag == 0))
       {
         emptyStack(nodeStack);
-        void *return_value_stackPush$2;
-        return_value_stackPush$2=stackPush(nodeStack);
-        temp_pt = (struct kmer_pt *)return_value_stackPush$2;
+        void *return_value_stackPush_2;
+        return_value_stackPush_2=stackPush(nodeStack);
+        temp_pt = (struct kmer_pt *)return_value_stackPush_2;
         temp_pt->node = node1;
         temp_pt->isSmaller = (char)1;
         temp_pt->kmer = word1;
@@ -25851,14 +25851,14 @@ static signed int startEdgeFromNode(struct kmer_st *node1, struct _IO_FILE *fp)
           emptyStack(bal_nodeStack);
           do
           {
-            return_value_stackPop$3=stackPop(nodeStack);
-            ite_pt = (struct kmer_pt *)return_value_stackPop$3;
+            return_value_stackPop_3=stackPop(nodeStack);
+            ite_pt = (struct kmer_pt *)return_value_stackPop_3;
             if(ite_pt == ((struct kmer_pt *)NULL))
               break;
 
-            void *return_value_stackPush$4;
-            return_value_stackPush$4=stackPush(bal_nodeStack);
-            temp_pt = (struct kmer_pt *)return_value_stackPush$4;
+            void *return_value_stackPush_4;
+            return_value_stackPush_4=stackPush(bal_nodeStack);
+            temp_pt = (struct kmer_pt *)return_value_stackPush_4;
             temp_pt->kmer=reverseComplement(ite_pt->kmer, overlaplen);
           }
           while((_Bool)1);
@@ -25881,9 +25881,9 @@ static signed int startEdgeFromNode(struct kmer_st *node1, struct _IO_FILE *fp)
       if(!(flag == 0))
       {
         emptyStack(nodeStack);
-        void *return_value_stackPush$5;
-        return_value_stackPush$5=stackPush(nodeStack);
-        temp_pt = (struct kmer_pt *)return_value_stackPush$5;
+        void *return_value_stackPush_5;
+        return_value_stackPush_5=stackPush(nodeStack);
+        temp_pt = (struct kmer_pt *)return_value_stackPush_5;
         temp_pt->node = node1;
         temp_pt->isSmaller = (char)0;
         temp_pt->kmer = bal_word1;
@@ -25897,14 +25897,14 @@ static signed int startEdgeFromNode(struct kmer_st *node1, struct _IO_FILE *fp)
           emptyStack(bal_nodeStack);
           do
           {
-            return_value_stackPop$6=stackPop(nodeStack);
-            ite_pt = (struct kmer_pt *)return_value_stackPop$6;
+            return_value_stackPop_6=stackPop(nodeStack);
+            ite_pt = (struct kmer_pt *)return_value_stackPop_6;
             if(ite_pt == ((struct kmer_pt *)NULL))
               break;
 
-            void *return_value_stackPush$7;
-            return_value_stackPush$7=stackPush(bal_nodeStack);
-            temp_pt = (struct kmer_pt *)return_value_stackPush$7;
+            void *return_value_stackPush_7;
+            return_value_stackPush_7=stackPush(bal_nodeStack);
+            temp_pt = (struct kmer_pt *)return_value_stackPush_7;
             temp_pt->kmer=reverseComplement(ite_pt->kmer, overlaplen);
           }
           while((_Bool)1);
@@ -25935,14 +25935,14 @@ static void stringBeads(struct kmer_pt *firstBead, char nextch, signed int *node
   unsigned long long int word = firstBead->kmer;
   unsigned long long int hash_ban;
   struct kmer_st *outgoing_node;
-  signed int stringBeads$$1$$nodeCounter = 1;
+  signed int stringBeads__1__nodeCounter = 1;
   signed int setPicker;
   char ch;
   unsigned char flag;
   struct kmer_pt *temp_pt;
   struct kmer_pt *prev_pt = firstBead;
   word = prev_pt->kmer;
-  stringBeads$$1$$nodeCounter = 1;
+  stringBeads__1__nodeCounter = 1;
   word=nextKmer(word, nextch);
   bal_word=reverseComplement(word, overlaplen);
   if(!(bal_word >= word))
@@ -25957,18 +25957,18 @@ static void stringBeads(struct kmer_pt *firstBead, char nextch, signed int *node
     smaller = (char)1;
   hash_ban=hash_kmer(word);
   setPicker = (signed int)(hash_ban % (unsigned long int)thrd_num);
-  signed int return_value_search_kmerset$1;
-  return_value_search_kmerset$1=search_kmerset(KmerSets[(signed long int)setPicker], word, &outgoing_node);
-  found = (char)return_value_search_kmerset$1;
+  signed int return_value_search_kmerset_1;
+  return_value_search_kmerset_1=search_kmerset(KmerSets[(signed long int)setPicker], word, &outgoing_node);
+  found = (char)return_value_search_kmerset_1;
   while(!(found == 0))
   {
     if(outgoing_node->linear == 0u)
       break;
 
-    stringBeads$$1$$nodeCounter = stringBeads$$1$$nodeCounter + 1;
-    void *return_value_stackPush$2;
-    return_value_stackPush$2=stackPush(nodeStack);
-    temp_pt = (struct kmer_pt *)return_value_stackPush$2;
+    stringBeads__1__nodeCounter = stringBeads__1__nodeCounter + 1;
+    void *return_value_stackPush_2;
+    return_value_stackPush_2=stackPush(nodeStack);
+    temp_pt = (struct kmer_pt *)return_value_stackPush_2;
     temp_pt->node = outgoing_node;
     temp_pt->isSmaller = smaller;
     if(!(smaller == 0))
@@ -26001,9 +26001,9 @@ static void stringBeads(struct kmer_pt *firstBead, char nextch, signed int *node
         smaller = (char)1;
       hash_ban=hash_kmer(word);
       setPicker = (signed int)(hash_ban % (unsigned long int)thrd_num);
-      signed int return_value_search_kmerset$3;
-      return_value_search_kmerset$3=search_kmerset(KmerSets[(signed long int)setPicker], word, &outgoing_node);
-      found = (char)return_value_search_kmerset$3;
+      signed int return_value_search_kmerset_3;
+      return_value_search_kmerset_3=search_kmerset(KmerSets[(signed long int)setPicker], word, &outgoing_node);
+      found = (char)return_value_search_kmerset_3;
     }
 
     else
@@ -26030,17 +26030,17 @@ static void stringBeads(struct kmer_pt *firstBead, char nextch, signed int *node
         smaller = (char)1;
       hash_ban=hash_kmer(word);
       setPicker = (signed int)(hash_ban % (unsigned long int)thrd_num);
-      signed int return_value_search_kmerset$4;
-      return_value_search_kmerset$4=search_kmerset(KmerSets[(signed long int)setPicker], word, &outgoing_node);
-      found = (char)return_value_search_kmerset$4;
+      signed int return_value_search_kmerset_4;
+      return_value_search_kmerset_4=search_kmerset(KmerSets[(signed long int)setPicker], word, &outgoing_node);
+      found = (char)return_value_search_kmerset_4;
     }
   }
   if(!(outgoing_node == ((struct kmer_st *)NULL)))
   {
-    stringBeads$$1$$nodeCounter = stringBeads$$1$$nodeCounter + 1;
-    void *return_value_stackPush$5;
-    return_value_stackPush$5=stackPush(nodeStack);
-    temp_pt = (struct kmer_pt *)return_value_stackPush$5;
+    stringBeads__1__nodeCounter = stringBeads__1__nodeCounter + 1;
+    void *return_value_stackPush_5;
+    return_value_stackPush_5=stackPush(nodeStack);
+    temp_pt = (struct kmer_pt *)return_value_stackPush_5;
     temp_pt->node = outgoing_node;
     temp_pt->isSmaller = smaller;
     if(!(smaller == 0))
@@ -26050,20 +26050,20 @@ static void stringBeads(struct kmer_pt *firstBead, char nextch, signed int *node
       temp_pt->kmer = bal_word;
   }
 
-  *node_c = stringBeads$$1$$nodeCounter;
+  *node_c = stringBeads__1__nodeCounter;
 }
 
 // substitueDSinScaf
 // file orderContig.c line 520
 static void substitueDSinScaf(struct connection *origin, unsigned int branch_c, unsigned int to_c_new)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(origin == ((struct connection *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(origin->prevInScaf != 0) ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = !(origin->prevInScaf != 0) ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     unsigned int to_c;
     unsigned int bal_branch_c;
@@ -26106,13 +26106,13 @@ static void substitueDSinScaf(struct connection *origin, unsigned int branch_c, 
 // file orderContig.c line 482
 static void substitueUSinScaf(struct connection *origin, unsigned int from_c_new)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(origin == ((struct connection *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(origin->nextInScaf != ((struct connection *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = !(origin->nextInScaf != ((struct connection *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     unsigned int branch_c;
     unsigned int to_c;
@@ -26154,11 +26154,11 @@ static void switch2twin(struct stack *scafStack)
 {
   unsigned int *pt;
   stackRecover(scafStack);
-  void *return_value_stackPop$1;
+  void *return_value_stackPop_1;
   do
   {
-    return_value_stackPop$1=stackPop(scafStack);
-    pt = (unsigned int *)return_value_stackPop$1;
+    return_value_stackPop_1=stackPop(scafStack);
+    pt = (unsigned int *)return_value_stackPop_1;
     if(pt == ((unsigned int *)NULL))
       break;
 
@@ -26194,19 +26194,19 @@ static void threadRoutine(void *para)
   }
 }
 
-// threadRoutine$link1
+// threadRoutine_link1
 // file prlHashCtg.c line 53
-static void threadRoutine$link1(void *para$link1)
+static void threadRoutine_link1(void *para_link1)
 {
-  struct parameter *prm$link1;
+  struct parameter *prm_link1;
   unsigned int i;
-  unsigned char id$link1;
-  prm$link1 = (struct parameter *)para$link1;
-  id$link1 = prm$link1->threadID;
-  unsigned int tmp_post$1;
+  unsigned char id_link1;
+  prm_link1 = (struct parameter *)para_link1;
+  id_link1 = prm_link1->threadID;
+  unsigned int tmp_post_1;
   while((_Bool)1)
   {
-    if((signed int)*prm$link1->selfSignal == 1)
+    if((signed int)*prm_link1->selfSignal == 1)
     {
       unsigned int seq_index = (unsigned int)0;
       unsigned int pos = (unsigned int)0;
@@ -26223,35 +26223,35 @@ static void threadRoutine$link1(void *para$link1)
 
         }
 
-        if(!((unsigned char)(hashBanBuffer[(signed long int)i] % (unsigned long int)thrd_num) == id$link1))
+        if(!((unsigned char)(hashBanBuffer[(signed long int)i] % (unsigned long int)thrd_num) == id_link1))
           pos = pos + 1u;
 
         else
         {
-          kmerCounter[(signed long int)((signed int)id$link1 + 1)] = kmerCounter[(signed long int)((signed int)id$link1 + 1)] + 1ll;
-          tmp_post$1 = pos;
+          kmerCounter[(signed long int)((signed int)id_link1 + 1)] = kmerCounter[(signed long int)((signed int)id_link1 + 1)] + 1ll;
+          tmp_post_1 = pos;
           pos = pos + 1u;
-          singleKmer$link1((signed int)i, KmerSets[(signed long int)id$link1], seq_index, tmp_post$1);
+          singleKmer_link1((signed int)i, KmerSets[(signed long int)id_link1], seq_index, tmp_post_1);
         }
       }
-      *prm$link1->selfSignal = (unsigned char)0;
+      *prm_link1->selfSignal = (unsigned char)0;
     }
 
     else
-      if((signed int)*prm$link1->selfSignal == 2)
+      if((signed int)*prm_link1->selfSignal == 2)
       {
         i = (unsigned int)0;
         for( ; !(i >= read_c); i = i + 1u)
-          if(i % (unsigned int)thrd_num == (unsigned int)id$link1)
-            chopKmer4read$link1((signed int)i, (signed int)id$link1 + 1);
+          if(i % (unsigned int)thrd_num == (unsigned int)id_link1)
+            chopKmer4read_link1((signed int)i, (signed int)id_link1 + 1);
 
-        *prm$link1->selfSignal = (unsigned char)0;
+        *prm_link1->selfSignal = (unsigned char)0;
       }
 
       else
-        if((signed int)*prm$link1->selfSignal == 3)
+        if((signed int)*prm_link1->selfSignal == 3)
         {
-          *prm$link1->selfSignal = (unsigned char)0;
+          *prm_link1->selfSignal = (unsigned char)0;
           break;
         }
 
@@ -26259,114 +26259,114 @@ static void threadRoutine$link1(void *para$link1)
   }
 }
 
-// threadRoutine$link2
+// threadRoutine_link2
 // file prlHashReads.c line 58
-static void threadRoutine$link2(void *para$link2)
+static void threadRoutine_link2(void *para_link2)
 {
-  struct parameter *prm$link2;
-  signed int i$link1;
-  unsigned char id$link2;
-  prm$link2 = (struct parameter *)para$link2;
-  id$link2 = prm$link2->threadID;
+  struct parameter *prm_link2;
+  signed int i_link1;
+  unsigned char id_link2;
+  prm_link2 = (struct parameter *)para_link2;
+  id_link2 = prm_link2->threadID;
   while((_Bool)1)
   {
-    if((signed int)*prm$link2->selfSignal == 1)
+    if((signed int)*prm_link2->selfSignal == 1)
     {
-      i$link1 = 0;
-      for( ; !(i$link1 >= kmer_c$link1); i$link1 = i$link1 + 1)
-        if(hashBanBuffer$link1[(signed long int)i$link1] % (unsigned long int)thrd_num == (unsigned long int)id$link2)
+      i_link1 = 0;
+      for( ; !(i_link1 >= kmer_c_link1); i_link1 = i_link1 + 1)
+        if(hashBanBuffer_link1[(signed long int)i_link1] % (unsigned long int)thrd_num == (unsigned long int)id_link2)
         {
-          kmerCounter$link1[(signed long int)((signed int)id$link2 + 1)] = kmerCounter$link1[(signed long int)((signed int)id$link2 + 1)] + 1ll;
-          singleKmer$link2(i$link1, KmerSets[(signed long int)id$link2]);
+          kmerCounter_link1[(signed long int)((signed int)id_link2 + 1)] = kmerCounter_link1[(signed long int)((signed int)id_link2 + 1)] + 1ll;
+          singleKmer_link2(i_link1, KmerSets[(signed long int)id_link2]);
         }
 
-      *prm$link2->selfSignal = (unsigned char)0;
+      *prm_link2->selfSignal = (unsigned char)0;
     }
 
     else
-      if((signed int)*prm$link2->selfSignal == 2)
+      if((signed int)*prm_link2->selfSignal == 2)
       {
-        i$link1 = 0;
-        for( ; !(i$link1 >= read_c$link1); i$link1 = i$link1 + 1)
-          if(i$link1 % thrd_num == (signed int)id$link2)
-            chopKmer4read$link2(i$link1, (signed int)id$link2 + 1);
+        i_link1 = 0;
+        for( ; !(i_link1 >= read_c_link1); i_link1 = i_link1 + 1)
+          if(i_link1 % thrd_num == (signed int)id_link2)
+            chopKmer4read_link2(i_link1, (signed int)id_link2 + 1);
 
-        *prm$link2->selfSignal = (unsigned char)0;
+        *prm_link2->selfSignal = (unsigned char)0;
       }
 
       else
-        if((signed int)*prm$link2->selfSignal == 3)
+        if((signed int)*prm_link2->selfSignal == 3)
         {
-          *prm$link2->selfSignal = (unsigned char)0;
+          *prm_link2->selfSignal = (unsigned char)0;
           break;
         }
 
         else
-          if((signed int)*prm$link2->selfSignal == 4)
+          if((signed int)*prm_link2->selfSignal == 4)
           {
-            thread_mark$link1(KmerSets[(signed long int)id$link2], id$link2);
-            *prm$link2->selfSignal = (unsigned char)0;
+            thread_mark_link1(KmerSets[(signed long int)id_link2], id_link2);
+            *prm_link2->selfSignal = (unsigned char)0;
           }
 
           else
-            if((signed int)*prm$link2->selfSignal == 5)
+            if((signed int)*prm_link2->selfSignal == 5)
             {
-              thread_delow(KmerSets[(signed long int)id$link2], id$link2);
-              *prm$link2->selfSignal = (unsigned char)0;
+              thread_delow(KmerSets[(signed long int)id_link2], id_link2);
+              *prm_link2->selfSignal = (unsigned char)0;
             }
 
     usleep((unsigned int)1);
   }
 }
 
-// threadRoutine$link3
+// threadRoutine_link3
 // file prlRead2Ctg.c line 79
-static void threadRoutine$link3(void *para$link3)
+static void threadRoutine_link3(void *para_link3)
 {
-  struct parameter *prm$link3;
-  signed int i$link2;
+  struct parameter *prm_link3;
+  signed int i_link2;
   signed int t;
-  unsigned char id$link3;
-  prm$link3 = (struct parameter *)para$link3;
-  id$link3 = prm$link3->threadID;
+  unsigned char id_link3;
+  prm_link3 = (struct parameter *)para_link3;
+  id_link3 = prm_link3->threadID;
   while((_Bool)1)
   {
-    if((signed int)*prm$link3->selfSignal == 1)
+    if((signed int)*prm_link3->selfSignal == 1)
     {
-      i$link2 = 0;
-      for( ; !(i$link2 >= kmer_c$link2); i$link2 = i$link2 + 1)
-        if(hashBanBuffer$link2[(signed long int)i$link2] % (unsigned long int)thrd_num == (unsigned long int)id$link3)
-          searchKmer(i$link2, KmerSets[(signed long int)id$link3]);
+      i_link2 = 0;
+      for( ; !(i_link2 >= kmer_c_link2); i_link2 = i_link2 + 1)
+        if(hashBanBuffer_link2[(signed long int)i_link2] % (unsigned long int)thrd_num == (unsigned long int)id_link3)
+          searchKmer(i_link2, KmerSets[(signed long int)id_link3]);
 
-      *prm$link3->selfSignal = (unsigned char)0;
+      *prm_link3->selfSignal = (unsigned char)0;
     }
 
     else
-      if((signed int)*prm$link3->selfSignal == 2)
+      if((signed int)*prm_link3->selfSignal == 2)
       {
-        i$link2 = 0;
-        for( ; !(i$link2 >= read_c$link2); i$link2 = i$link2 + 1)
-          if(i$link2 % thrd_num == (signed int)id$link3)
-            chopKmer4read$link3(i$link2, (signed int)id$link3 + 1);
+        i_link2 = 0;
+        for( ; !(i_link2 >= read_c_link2); i_link2 = i_link2 + 1)
+          if(i_link2 % thrd_num == (signed int)id_link3)
+            chopKmer4read_link3(i_link2, (signed int)id_link3 + 1);
 
-        *prm$link3->selfSignal = (unsigned char)0;
+        *prm_link3->selfSignal = (unsigned char)0;
       }
 
       else
-        if((signed int)*prm$link3->selfSignal == 3)
+        if((signed int)*prm_link3->selfSignal == 3)
         {
           t = 0;
-          for( ; !(t >= read_c$link2); t = t + 1)
-            if(t % thrd_num == (signed int)id$link3)
-              parse1read(t, (signed int)id$link3 + 1);
+          for( ; !(t >= read_c_link2); t = t + 1)
+            if(t % thrd_num == (signed int)id_link3)
+              parse1read(t, (signed int)id_link3 + 1);
 
-          *prm$link3->selfSignal = (unsigned char)0;
+          *prm_link3->selfSignal = (unsigned char)0;
         }
 
         else
-          if((signed int)*prm$link3->selfSignal == 5)
+          if((signed int)*prm_link3->selfSignal == 5)
           {
-            *prm$link3->selfSignal = (unsigned char)0;
+            *prm_link3->selfSignal = (unsigned char)0;
             break;
           }
 
@@ -26374,62 +26374,62 @@ static void threadRoutine$link3(void *para$link3)
   }
 }
 
-// threadRoutine$link4
+// threadRoutine_link4
 // file prlRead2path.c line 83
-static void threadRoutine$link4(void *para$link4)
+static void threadRoutine_link4(void *para_link4)
 {
-  struct parameter *prm$link4;
-  signed int i$link3;
-  signed int t$link1;
+  struct parameter *prm_link4;
+  signed int i_link3;
+  signed int t_link1;
   signed int j;
   signed int start;
   signed int finish;
-  unsigned char id$link4;
-  prm$link4 = (struct parameter *)para$link4;
-  id$link4 = prm$link4->threadID;
-  _Bool tmp_if_expr$1;
+  unsigned char id_link4;
+  prm_link4 = (struct parameter *)para_link4;
+  id_link4 = prm_link4->threadID;
+  _Bool tmp_if_expr_1;
   while((_Bool)1)
   {
-    if((signed int)*prm$link4->selfSignal == 1)
+    if((signed int)*prm_link4->selfSignal == 1)
     {
-      i$link3 = 0;
-      for( ; !(i$link3 >= kmer_c$link3); i$link3 = i$link3 + 1)
-        if(hashBanBuffer$link3[(signed long int)i$link3] % (unsigned long int)thrd_num == (unsigned long int)id$link4)
-          searchKmer$link1(i$link3, KmerSets[(signed long int)id$link4]);
+      i_link3 = 0;
+      for( ; !(i_link3 >= kmer_c_link3); i_link3 = i_link3 + 1)
+        if(hashBanBuffer_link3[(signed long int)i_link3] % (unsigned long int)thrd_num == (unsigned long int)id_link4)
+          searchKmer_link1(i_link3, KmerSets[(signed long int)id_link4]);
 
-      *prm$link4->selfSignal = (unsigned char)0;
+      *prm_link4->selfSignal = (unsigned char)0;
     }
 
     else
-      if((signed int)*prm$link4->selfSignal == 2)
+      if((signed int)*prm_link4->selfSignal == 2)
       {
-        i$link3 = 0;
-        for( ; !(i$link3 >= read_c$link3); i$link3 = i$link3 + 1)
-          if(i$link3 % thrd_num == (signed int)id$link4)
-            chopKmer4read$link4(i$link3, (signed int)id$link4 + 1);
+        i_link3 = 0;
+        for( ; !(i_link3 >= read_c_link3); i_link3 = i_link3 + 1)
+          if(i_link3 % thrd_num == (signed int)id_link4)
+            chopKmer4read_link4(i_link3, (signed int)id_link4 + 1);
 
-        *prm$link4->selfSignal = (unsigned char)0;
+        *prm_link4->selfSignal = (unsigned char)0;
       }
 
       else
-        if((signed int)*prm$link4->selfSignal == 3)
+        if((signed int)*prm_link4->selfSignal == 3)
         {
-          t$link1 = 0;
-          for( ; !(t$link1 >= read_c$link3); t$link1 = t$link1 + 1)
-            if(t$link1 % thrd_num == (signed int)id$link4)
-              parse1read$link1(t$link1, (signed int)id$link4 + 1);
+          t_link1 = 0;
+          for( ; !(t_link1 >= read_c_link3); t_link1 = t_link1 + 1)
+            if(t_link1 % thrd_num == (signed int)id_link4)
+              parse1read_link1(t_link1, (signed int)id_link4 + 1);
 
-          *prm$link4->selfSignal = (unsigned char)0;
+          *prm_link4->selfSignal = (unsigned char)0;
         }
 
         else
-          if((signed int)*prm$link4->selfSignal == 4)
+          if((signed int)*prm_link4->selfSignal == 4)
           {
-            t$link1 = 0;
-            for( ; !(t$link1 >= read_c$link3); t$link1 = t$link1 + 1)
+            t_link1 = 0;
+            for( ; !(t_link1 >= read_c_link3); t_link1 = t_link1 + 1)
             {
-              start = indexArray$link3[(signed long int)t$link1];
-              finish = indexArray$link3[(signed long int)(t$link1 + 1)];
+              start = indexArray_link3[(signed long int)t_link1];
+              finish = indexArray_link3[(signed long int)(t_link1 + 1)];
               j = start;
               for( ; !(j >= finish); j = j + 1)
                 if((signed int)flagArray[(signed long int)j] == 0)
@@ -26440,44 +26440,44 @@ static void threadRoutine$link4(void *para$link4)
                 }
 
                 else
-                  if(hashBanBuffer$link3[(signed long int)j] % (unsigned long int)thrd_num == (unsigned long int)id$link4)
-                    search1kmerPlus(j, id$link4);
+                  if(hashBanBuffer_link3[(signed long int)j] % (unsigned long int)thrd_num == (unsigned long int)id_link4)
+                    search1kmerPlus(j, id_link4);
 
             }
-            *prm$link4->selfSignal = (unsigned char)0;
+            *prm_link4->selfSignal = (unsigned char)0;
           }
 
           else
-            if((signed int)*prm$link4->selfSignal == 6)
+            if((signed int)*prm_link4->selfSignal == 6)
             {
-              t$link1 = 0;
-              for( ; !(t$link1 >= read_c$link3); t$link1 = t$link1 + 1)
+              t_link1 = 0;
+              for( ; !(t_link1 >= read_c_link3); t_link1 = t_link1 + 1)
               {
-                start = indexArray$link3[(signed long int)t$link1];
-                finish = indexArray$link3[(signed long int)(t$link1 + 1)];
+                start = indexArray_link3[(signed long int)t_link1];
+                finish = indexArray_link3[(signed long int)(t_link1 + 1)];
                 j = start;
                 for( ; !(j >= finish + -1); j = j + 1)
                 {
                   if(mixBuffer[(signed long int)j] == 0ul)
-                    tmp_if_expr$1 = (_Bool)1;
+                    tmp_if_expr_1 = (_Bool)1;
 
                   else
-                    tmp_if_expr$1 = mixBuffer[(signed long int)(j + 1)] == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$1)
+                    tmp_if_expr_1 = mixBuffer[(signed long int)(j + 1)] == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_1)
                     break;
 
-                  if(mixBuffer[(signed long int)j] % (unsigned long int)thrd_num == (unsigned long int)id$link4)
-                    thread_add1preArc((unsigned int)mixBuffer[(signed long int)j], (unsigned int)mixBuffer[(signed long int)(j + 1)], (unsigned int)id$link4);
+                  if(mixBuffer[(signed long int)j] % (unsigned long int)thrd_num == (unsigned long int)id_link4)
+                    thread_add1preArc((unsigned int)mixBuffer[(signed long int)j], (unsigned int)mixBuffer[(signed long int)(j + 1)], (unsigned int)id_link4);
 
                 }
               }
-              *prm$link4->selfSignal = (unsigned char)0;
+              *prm_link4->selfSignal = (unsigned char)0;
             }
 
             else
-              if((signed int)*prm$link4->selfSignal == 5)
+              if((signed int)*prm_link4->selfSignal == 5)
               {
-                *prm$link4->selfSignal = (unsigned char)0;
+                *prm_link4->selfSignal = (unsigned char)0;
                 break;
               }
 
@@ -26485,28 +26485,28 @@ static void threadRoutine$link4(void *para$link4)
   }
 }
 
-// threadRoutine$link5
+// threadRoutine_link5
 // file prlReadFillGap.c line 881
-static void threadRoutine$link5(void *para$link5)
+static void threadRoutine_link5(void *para_link5)
 {
-  struct parameter *prm$link5;
-  signed int i$link4;
-  prm$link5 = (struct parameter *)para$link5;
+  struct parameter *prm_link5;
+  signed int i_link4;
+  prm_link5 = (struct parameter *)para_link5;
   while((_Bool)1)
   {
-    if((signed int)*prm$link5->selfSignal == 1)
+    if((signed int)*prm_link5->selfSignal == 1)
     {
-      emptyDarray(darrayBuf[(signed long int)prm$link5->threadID]);
-      i$link4 = 0;
-      for( ; !(i$link4 >= scafInBuf); i$link4 = i$link4 + 1)
-        check1scaf(i$link4, (signed int)prm$link5->threadID);
-      *prm$link5->selfSignal = (unsigned char)0;
+      emptyDarray(darrayBuf[(signed long int)prm_link5->threadID]);
+      i_link4 = 0;
+      for( ; !(i_link4 >= scafInBuf); i_link4 = i_link4 + 1)
+        check1scaf(i_link4, (signed int)prm_link5->threadID);
+      *prm_link5->selfSignal = (unsigned char)0;
     }
 
     else
-      if((signed int)*prm$link5->selfSignal == 2)
+      if((signed int)*prm_link5->selfSignal == 2)
       {
-        *prm$link5->selfSignal = (unsigned char)0;
+        *prm_link5->selfSignal = (unsigned char)0;
         break;
       }
 
@@ -26586,18 +26586,18 @@ static void thread_mark(struct kmerSet_st *set, unsigned char thrdID)
   signed int out_num;
   struct kmer_st *rs;
   set->iter_ptr = (unsigned long long int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while(!(set->iter_ptr >= set->size))
   {
     if((1u & set->flags[(signed long int)(set->iter_ptr >> 4)] >> ((15ul & set->iter_ptr) << 1)) == 0u)
     {
       rs = set->array + (signed long int)set->iter_ptr;
       if(!(rs->deleted == 0u))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = rs->linear != 0u ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = rs->linear != 0u ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         set->iter_ptr = set->iter_ptr + 1ull;
         continue;
@@ -26617,57 +26617,57 @@ static void thread_mark(struct kmerSet_st *set, unsigned char thrdID)
   }
 }
 
-// thread_mark$link1
+// thread_mark_link1
 // file prlHashReads.c line 534
-static void thread_mark$link1(struct kmerSet_st *set$link1, unsigned char thrdID$link1)
+static void thread_mark_link1(struct kmerSet_st *set_link1, unsigned char thrdID_link1)
 {
   signed int i;
-  signed int in_num$link1;
-  signed int out_num$link1;
+  signed int in_num_link1;
+  signed int out_num_link1;
   signed int cvgSingle;
   signed int l_cvg;
   signed int r_cvg;
-  struct kmer_st *rs$link1;
+  struct kmer_st *rs_link1;
   signed long long int counter = (signed long long int)0;
-  set$link1->iter_ptr = (unsigned long long int)0;
-  for( ; !(set$link1->iter_ptr >= set$link1->size); set$link1->iter_ptr = set$link1->iter_ptr + 1ull)
-    if((1u & set$link1->flags[(signed long int)(set$link1->iter_ptr >> 4)] >> ((15ul & set$link1->iter_ptr) << 1)) == 0u)
+  set_link1->iter_ptr = (unsigned long long int)0;
+  for( ; !(set_link1->iter_ptr >= set_link1->size); set_link1->iter_ptr = set_link1->iter_ptr + 1ull)
+    if((1u & set_link1->flags[(signed long int)(set_link1->iter_ptr >> 4)] >> ((15ul & set_link1->iter_ptr) << 1)) == 0u)
     {
       r_cvg = 0;
       l_cvg = r_cvg;
-      out_num$link1 = l_cvg;
-      in_num$link1 = out_num$link1;
-      rs$link1 = set$link1->array + (signed long int)set$link1->iter_ptr;
+      out_num_link1 = l_cvg;
+      in_num_link1 = out_num_link1;
+      rs_link1 = set_link1->array + (signed long int)set_link1->iter_ptr;
       i = 0;
       for( ; !(i >= 4); i = i + 1)
       {
-        cvgSingle = (signed int)(rs$link1->l_links >> i * 6 & 0x3FU);
+        cvgSingle = (signed int)(rs_link1->l_links >> i * 6 & 0x3FU);
         if(cvgSingle >= 1)
         {
-          in_num$link1 = in_num$link1 + 1;
+          in_num_link1 = in_num_link1 + 1;
           l_cvg = l_cvg + cvgSingle;
         }
 
-        cvgSingle = (signed int)((unsigned int)((signed int)rs$link1->r_links >> i * 6) & 0x3FU);
+        cvgSingle = (signed int)((unsigned int)((signed int)rs_link1->r_links >> i * 6) & 0x3FU);
         if(cvgSingle >= 1)
         {
-          out_num$link1 = out_num$link1 + 1;
+          out_num_link1 = out_num_link1 + 1;
           r_cvg = r_cvg + cvgSingle;
         }
 
       }
-      if(!(rs$link1->single == 0u))
+      if(!(rs_link1->single == 0u))
       {
-        kmerFreq[(signed long int)thrdID$link1][(signed long int)1] = kmerFreq[(signed long int)thrdID$link1][(signed long int)1] + 1ll;
+        kmerFreq[(signed long int)thrdID_link1][(signed long int)1] = kmerFreq[(signed long int)thrdID_link1][(signed long int)1] + 1ll;
         counter = counter + 1ll;
       }
 
       else
-        kmerFreq[(signed long int)thrdID$link1][(signed long int)(l_cvg > r_cvg ? l_cvg : r_cvg)] = kmerFreq[(signed long int)thrdID$link1][(signed long int)(l_cvg > r_cvg ? l_cvg : r_cvg)] + 1ll;
-      if(in_num$link1 == 1 && out_num$link1 == 1)
+        kmerFreq[(signed long int)thrdID_link1][(signed long int)(l_cvg > r_cvg ? l_cvg : r_cvg)] = kmerFreq[(signed long int)thrdID_link1][(signed long int)(l_cvg > r_cvg ? l_cvg : r_cvg)] + 1ll;
+      if(in_num_link1 == 1 && out_num_link1 == 1)
       {
-        rs$link1->linear = (unsigned int)1;
-        tips[(signed long int)thrdID$link1] = tips[(signed long int)thrdID$link1] + 1ll;
+        rs_link1->linear = (unsigned int)1;
+        tips[(signed long int)thrdID_link1] = tips[(signed long int)thrdID_link1] + 1ll;
       }
 
     }
@@ -26685,58 +26685,58 @@ static void thread_wait(unsigned long int *threads)
 
 }
 
-// thread_wait$link1
+// thread_wait_link1
 // file prlHashCtg.c line 153
-static void thread_wait$link1(unsigned long int *threads$link1)
+static void thread_wait_link1(unsigned long int *threads_link1)
 {
-  signed int i$link1 = 0;
-  for( ; !(i$link1 >= thrd_num); i$link1 = i$link1 + 1)
-    if(!(threads$link1[(signed long int)i$link1] == 0ul))
-      pthread_join(threads$link1[(signed long int)i$link1], (void **)(void *)0);
+  signed int i_link1 = 0;
+  for( ; !(i_link1 >= thrd_num); i_link1 = i_link1 + 1)
+    if(!(threads_link1[(signed long int)i_link1] == 0ul))
+      pthread_join(threads_link1[(signed long int)i_link1], (void **)(void *)0);
 
 }
 
-// thread_wait$link2
+// thread_wait_link2
 // file prlHashReads.c line 140
-static void thread_wait$link2(unsigned long int *threads$link2)
+static void thread_wait_link2(unsigned long int *threads_link2)
 {
-  signed int i$link2 = 0;
-  for( ; !(i$link2 >= thrd_num); i$link2 = i$link2 + 1)
-    if(!(threads$link2[(signed long int)i$link2] == 0ul))
-      pthread_join(threads$link2[(signed long int)i$link2], (void **)(void *)0);
+  signed int i_link2 = 0;
+  for( ; !(i_link2 >= thrd_num); i_link2 = i_link2 + 1)
+    if(!(threads_link2[(signed long int)i_link2] == 0ul))
+      pthread_join(threads_link2[(signed long int)i_link2], (void **)(void *)0);
 
 }
 
-// thread_wait$link3
+// thread_wait_link3
 // file prlRead2Ctg.c line 713
-static void thread_wait$link3(unsigned long int *threads$link3)
+static void thread_wait_link3(unsigned long int *threads_link3)
 {
-  signed int i$link3 = 0;
-  for( ; !(i$link3 >= thrd_num); i$link3 = i$link3 + 1)
-    if(!(threads$link3[(signed long int)i$link3] == 0ul))
-      pthread_join(threads$link3[(signed long int)i$link3], (void **)(void *)0);
+  signed int i_link3 = 0;
+  for( ; !(i_link3 >= thrd_num); i_link3 = i_link3 + 1)
+    if(!(threads_link3[(signed long int)i_link3] == 0ul))
+      pthread_join(threads_link3[(signed long int)i_link3], (void **)(void *)0);
 
 }
 
-// thread_wait$link4
+// thread_wait_link4
 // file prlRead2path.c line 796
-static void thread_wait$link4(unsigned long int *threads$link4)
+static void thread_wait_link4(unsigned long int *threads_link4)
 {
-  signed int i$link4 = 0;
-  for( ; !(i$link4 >= thrd_num); i$link4 = i$link4 + 1)
-    if(!(threads$link4[(signed long int)i$link4] == 0ul))
-      pthread_join(threads$link4[(signed long int)i$link4], (void **)(void *)0);
+  signed int i_link4 = 0;
+  for( ; !(i_link4 >= thrd_num); i_link4 = i_link4 + 1)
+    if(!(threads_link4[(signed long int)i_link4] == 0ul))
+      pthread_join(threads_link4[(signed long int)i_link4], (void **)(void *)0);
 
 }
 
-// thread_wait$link5
+// thread_wait_link5
 // file prlReadFillGap.c line 946
-static void thread_wait$link5(unsigned long int *threads$link5)
+static void thread_wait_link5(unsigned long int *threads_link5)
 {
-  signed int i$link5 = 0;
-  for( ; !(i$link5 >= thrd_num); i$link5 = i$link5 + 1)
-    if(!(threads$link5[(signed long int)i$link5] == 0ul))
-      pthread_join(threads$link5[(signed long int)i$link5], (void **)(void *)0);
+  signed int i_link5 = 0;
+  for( ; !(i_link5 >= thrd_num); i_link5 = i_link5 + 1)
+    if(!(threads_link5[(signed long int)i_link5] == 0ul))
+      pthread_join(threads_link5[(signed long int)i_link5], (void **)(void *)0);
 
 }
 
@@ -26766,14 +26766,14 @@ static void tourBusArc(unsigned int origin, unsigned int destination, unsigned i
   double totalTime;
   double destinationTime;
   unsigned int oldPrevious = previous[(signed long int)destination];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(oldPrevious == origin)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)(edge_array + (signed long int)destination)->multi == 1 ? (_Bool)1 : (_Bool)0;
-  char return_value_isPreviousToNode$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)(edge_array + (signed long int)destination)->multi == 1 ? (_Bool)1 : (_Bool)0;
+  char return_value_isPreviousToNode_2;
+  if(!tmp_if_expr_1)
   {
     arcCounter = arcCounter + 1ll;
     if(arcMulti >= 1u)
@@ -26814,8 +26814,8 @@ static void tourBusArc(unsigned int origin, unsigned int destination, unsigned i
       {
         if(IEEE_FLOAT_EQUAL(destinationTime, times[(signed long int)origin]))
         {
-          return_value_isPreviousToNode$2=isPreviousToNode(destination, origin);
-          if(!(return_value_isPreviousToNode$2 == 0))
+          return_value_isPreviousToNode_2=isPreviousToNode(destination, origin);
+          if(!(return_value_isPreviousToNode_2 == 0))
             goto __CPROVER_DUMP_L11;
 
         }
@@ -26836,18 +26836,18 @@ static void tourBusNode(unsigned int node)
   struct arc *parc;
   signed int index = 0;
   signed int outNodeNum;
-  unsigned int tmp_post$1 = expCounter;
+  unsigned int tmp_post_1 = expCounter;
   expCounter = expCounter + 1u;
-  expanded[(signed long int)tmp_post$1] = node;
+  expanded[(signed long int)tmp_post_1] = node;
   activeNode = node;
   parc = (edge_array + (signed long int)activeNode)->arcs;
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   for( ; !(parc == ((struct arc *)NULL)); parc = parc->next)
   {
     outArcArray[(signed long int)index] = parc;
-    tmp_post$2 = index;
+    tmp_post_2 = index;
     index = index + 1;
-    outNodeArray[(signed long int)tmp_post$2] = parc->to_ed;
+    outNodeArray[(signed long int)tmp_post_2] = parc->to_ed;
     if(index >= 100)
       break;
 
@@ -26876,15 +26876,15 @@ static void tourBusNode(unsigned int node)
 static void trace4Repeat(unsigned long long int currW, signed int steps, signed int min, signed int max, signed int *num_route, struct kmerSet_st *kset, unsigned long long int kmerDest, signed int overlap, unsigned long long int WORDF, signed int *traceCounter, signed int maxRoute, struct kmer_st **soFarNode, signed short int *multiOccu1, signed short int *multiOccu2, signed int *routeLens, char **foundRoutes, char *soFarSeq, signed long long int *soFarLinks, double *avgLinks)
 {
   *traceCounter = *traceCounter + 1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(*traceCounter >= 5001))
   {
     if(!(max >= steps))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = *num_route >= maxRoute ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = *num_route >= maxRoute ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
     {
       unsigned long long int word;
       word=reverseComplement(currW, overlap);
@@ -26898,14 +26898,14 @@ static void trace4Repeat(unsigned long long int currW, signed int steps, signed 
 
       struct kmer_st *node;
       char found;
-      signed int return_value_search_kmerset$2;
-      return_value_search_kmerset$2=search_kmerset(kset, word, &node);
-      found = (char)return_value_search_kmerset$2;
+      signed int return_value_search_kmerset_2;
+      return_value_search_kmerset_2=search_kmerset(kset, word, &node);
+      found = (char)return_value_search_kmerset_2;
       if(found == 0)
       {
-        unsigned long long int return_value_reverseComplement$3;
-        return_value_reverseComplement$3=reverseComplement(word, overlap);
-        printf("Trace: can't find kmer %llx (rc %llx, input %llx) at step %d\n", word, return_value_reverseComplement$3, currW, steps);
+        unsigned long long int return_value_reverseComplement_3;
+        return_value_reverseComplement_3=reverseComplement(word, overlap);
+        printf("Trace: can't find kmer %llx (rc %llx, input %llx) at step %d\n", word, return_value_reverseComplement_3, currW, steps);
         goto __CPROVER_DUMP_L41;
       }
 
@@ -26993,13 +26993,13 @@ static void trace4Repeat(unsigned long long int currW, signed int steps, signed 
       steps = steps + 1;
       if(!(isSmaller == 0))
       {
-        signed int trace4Repeat$$1$$9$$array[4l] = { 0, 1, 2, 3 };
+        signed int trace4Repeat__1__9__array[4l] = { 0, 1, 2, 3 };
         i = 4;
         for( ; i >= 1; i = i - 1)
         {
-          signed int return_value_nPick1$4;
-          return_value_nPick1$4=nPick1(trace4Repeat$$1$$9$$array, i);
-          ch = (char)return_value_nPick1$4;
+          signed int return_value_nPick1_4;
+          return_value_nPick1_4=nPick1(trace4Repeat__1__9__array, i);
+          ch = (char)return_value_nPick1_4;
           links = (unsigned char)((unsigned int)((signed int)node->r_links >> (signed int)ch * 6) & 0x3FU);
           if(!(links == 0))
           {
@@ -27015,13 +27015,13 @@ static void trace4Repeat(unsigned long long int currW, signed int steps, signed 
 
       else
       {
-        signed int trace4Repeat$$1$$10$$array[4l] = { 0, 1, 2, 3 };
+        signed int trace4Repeat__1__10__array[4l] = { 0, 1, 2, 3 };
         i = 4;
         for( ; i >= 1; i = i - 1)
         {
-          signed int return_value_nPick1$5;
-          return_value_nPick1$5=nPick1(trace4Repeat$$1$$10$$array, i);
-          ch = (char)return_value_nPick1$5;
+          signed int return_value_nPick1_5;
+          return_value_nPick1_5=nPick1(trace4Repeat__1__10__array, i);
+          ch = (char)return_value_nPick1_5;
           links = (unsigned char)(node->l_links >> (signed int)ch * 6 & 0x3FU);
           if(!(links == 0))
           {
@@ -27048,14 +27048,14 @@ __CPROVER_DUMP_L41:
 extern void traceAlongArc(unsigned int destE, unsigned int currE, signed int max_steps, signed int min, signed int max, signed int index, signed int len, signed int *num_route)
 {
   num_trace = num_trace + 1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(trace_limit >= num_trace))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = *num_route >= max_n_routes ? (_Bool)1 : (_Bool)0;
-  signed int tmp_post$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = *num_route >= max_n_routes ? (_Bool)1 : (_Bool)0;
+  signed int tmp_post_2;
+  if(!tmp_if_expr_1)
   {
     unsigned int *array;
     unsigned int out_ed;
@@ -27092,9 +27092,9 @@ extern void traceAlongArc(unsigned int destE, unsigned int currE, signed int max
 
         if(!(pos == max_steps) && !(len == max))
         {
-          tmp_post$2 = pos;
+          tmp_post_2 = pos;
           pos = pos + 1;
-          if(tmp_post$2 >= 1)
+          if(tmp_post_2 >= 1)
             length = (signed int)((unsigned int)len + (contig_array + (signed long int)currE)->length);
 
           else
@@ -27120,14 +27120,14 @@ extern void traceAlongArc(unsigned int destE, unsigned int currE, signed int max
 void traceAlongConnect(unsigned int destE, struct connection *currCNT, signed int max_steps, signed int min, signed int max, signed int index, signed int len, signed int *num_route)
 {
   num_trace = num_trace + 1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(trace_limit >= num_trace))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = *num_route >= max_n_routes ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = *num_route >= max_n_routes ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(!tmp_if_expr_1)
   {
     unsigned int *array;
     unsigned int currE;
@@ -27169,11 +27169,11 @@ void traceAlongConnect(unsigned int destE, struct connection *currCNT, signed in
           while(!(ite_cnt == ((struct connection *)NULL)))
           {
             if(!(ite_cnt->mask == 0))
-              tmp_if_expr$2 = (_Bool)1;
+              tmp_if_expr_2 = (_Bool)1;
 
             else
-              tmp_if_expr$2 = ite_cnt->deleted != 0 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$2)
+              tmp_if_expr_2 = ite_cnt->deleted != 0 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_2)
               ite_cnt = ite_cnt->next;
 
             else
@@ -27195,15 +27195,15 @@ void traceAlongConnect(unsigned int destE, struct connection *currCNT, signed in
 static void traceAlongDBgraph(unsigned long long int currW, signed int steps, signed int min, signed int max, signed int *num_route, struct kmerSet_st *kset, unsigned long long int *kmerDest, signed int num, signed int overlap, unsigned long long int WORDF, char **foundRoutes, signed int *routeEndOnCtg2, signed int *routeLens, char *soFarSeq, signed int *traceCounter, signed int maxRoute, struct kmer_st **soFarNode, char *multiOccu, signed long long int *soFarLinks, double *avgLinks)
 {
   *traceCounter = *traceCounter + 1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(*traceCounter >= 5001))
   {
     if(!(max >= steps))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = *num_route >= maxRoute ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = *num_route >= maxRoute ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
     {
       unsigned long long int word;
       word=reverseComplement(currW, overlap);
@@ -27216,14 +27216,14 @@ static void traceAlongDBgraph(unsigned long long int currW, signed int steps, si
 
       struct kmer_st *node;
       char found;
-      signed int return_value_search_kmerset$2;
-      return_value_search_kmerset$2=search_kmerset(kset, word, &node);
-      found = (char)return_value_search_kmerset$2;
+      signed int return_value_search_kmerset_2;
+      return_value_search_kmerset_2=search_kmerset(kset, word, &node);
+      found = (char)return_value_search_kmerset_2;
       if(found == 0)
       {
-        unsigned long long int return_value_reverseComplement$3;
-        return_value_reverseComplement$3=reverseComplement(word, overlap);
-        printf("Trace: can't find kmer %llx (rc %llx, input %llx) at step %d\n", word, return_value_reverseComplement$3, currW, steps);
+        unsigned long long int return_value_reverseComplement_3;
+        return_value_reverseComplement_3=reverseComplement(word, overlap);
+        printf("Trace: can't find kmer %llx (rc %llx, input %llx) at step %d\n", word, return_value_reverseComplement_3, currW, steps);
         goto __CPROVER_DUMP_L29;
       }
 
@@ -27287,13 +27287,13 @@ static void traceAlongDBgraph(unsigned long long int currW, signed int steps, si
         steps = steps + 1;
         if(!(isSmaller == 0))
         {
-          signed int traceAlongDBgraph$$1$$9$$array[4l] = { 0, 1, 2, 3 };
+          signed int traceAlongDBgraph__1__9__array[4l] = { 0, 1, 2, 3 };
           i = 4;
           for( ; i >= 1; i = i - 1)
           {
-            signed int return_value_nPick1$4;
-            return_value_nPick1$4=nPick1(traceAlongDBgraph$$1$$9$$array, i);
-            ch = (char)return_value_nPick1$4;
+            signed int return_value_nPick1_4;
+            return_value_nPick1_4=nPick1(traceAlongDBgraph__1__9__array, i);
+            ch = (char)return_value_nPick1_4;
             links = (unsigned char)((unsigned int)((signed int)node->r_links >> (signed int)ch * 6) & 0x3FU);
             if(!(links == 0))
             {
@@ -27307,13 +27307,13 @@ static void traceAlongDBgraph(unsigned long long int currW, signed int steps, si
 
         else
         {
-          signed int traceAlongDBgraph$$1$$10$$array[4l] = { 0, 1, 2, 3 };
+          signed int traceAlongDBgraph__1__10__array[4l] = { 0, 1, 2, 3 };
           i = 4;
           for( ; i >= 1; i = i - 1)
           {
-            signed int return_value_nPick1$5;
-            return_value_nPick1$5=nPick1(traceAlongDBgraph$$1$$10$$array, i);
-            ch = (char)return_value_nPick1$5;
+            signed int return_value_nPick1_5;
+            return_value_nPick1_5=nPick1(traceAlongDBgraph__1__10__array, i);
+            ch = (char)return_value_nPick1_5;
             links = (unsigned char)(node->l_links >> (signed int)ch * 6 & 0x3FU);
             if(!(links == 0))
             {
@@ -27340,14 +27340,14 @@ __CPROVER_DUMP_L29:
 extern void traceAlongMaskedCnt(unsigned int destE, unsigned int currE, signed int max_steps, signed int min, signed int max, signed int index, signed int len, signed int *num_route)
 {
   num_trace = num_trace + 1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(trace_limit >= num_trace))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = *num_route >= max_n_routes ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = *num_route >= max_n_routes ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(!tmp_if_expr_1)
   {
     unsigned int *array;
     signed int num;
@@ -27387,11 +27387,11 @@ extern void traceAlongMaskedCnt(unsigned int destE, unsigned int currE, signed i
         while(!(ite_cnt == ((struct connection *)NULL)))
         {
           if(ite_cnt->mask == 0)
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = ite_cnt->deleted != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$2)
+            tmp_if_expr_2 = ite_cnt->deleted != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_2)
             ite_cnt = ite_cnt->next;
 
           else
@@ -27431,11 +27431,11 @@ static void unBindLink(unsigned int CB, unsigned int CC)
       cnt1->singleInScaf = (unsigned char)0;
 
     struct connection *cnt2;
-    unsigned int return_value_getTwinCtg$1;
-    return_value_getTwinCtg$1=getTwinCtg(CC);
-    unsigned int return_value_getTwinCtg$2;
-    return_value_getTwinCtg$2=getTwinCtg(CB);
-    cnt2=getCntBetween(return_value_getTwinCtg$1, return_value_getTwinCtg$2);
+    unsigned int return_value_getTwinCtg_1;
+    return_value_getTwinCtg_1=getTwinCtg(CC);
+    unsigned int return_value_getTwinCtg_2;
+    return_value_getTwinCtg_2=getTwinCtg(CB);
+    cnt2=getCntBetween(return_value_getTwinCtg_1, return_value_getTwinCtg_2);
     if(!(cnt2 == ((struct connection *)NULL)))
     {
       if(!(cnt2->singleInScaf == 0))
@@ -27447,11 +27447,11 @@ static void unBindLink(unsigned int CB, unsigned int CC)
         cnt1->nextInScaf->prevInScaf = (unsigned char)0;
         cnt1->nextInScaf = (struct connection *)(void *)0;
         struct connection *cnt3;
-        unsigned int return_value_getTwinCtg$3;
-        return_value_getTwinCtg$3=getTwinCtg(CD);
-        unsigned int return_value_getTwinCtg$4;
-        return_value_getTwinCtg$4=getTwinCtg(CC);
-        cnt3=getCntBetween(return_value_getTwinCtg$3, return_value_getTwinCtg$4);
+        unsigned int return_value_getTwinCtg_3;
+        return_value_getTwinCtg_3=getTwinCtg(CD);
+        unsigned int return_value_getTwinCtg_4;
+        return_value_getTwinCtg_4=getTwinCtg(CC);
+        cnt3=getCntBetween(return_value_getTwinCtg_3, return_value_getTwinCtg_4);
         if(!(cnt3 == ((struct connection *)NULL)))
           cnt3->nextInScaf = (struct connection *)(void *)0;
 
@@ -27464,9 +27464,9 @@ static void unBindLink(unsigned int CB, unsigned int CC)
         cnt2->nextInScaf->prevInScaf = (unsigned char)0;
         cnt2->nextInScaf = (struct connection *)(void *)0;
         struct connection *cnt4;
-        unsigned int return_value_getTwinCtg$5;
-        return_value_getTwinCtg$5=getTwinCtg(bal_CA);
-        cnt4=getCntBetween(return_value_getTwinCtg$5, CB);
+        unsigned int return_value_getTwinCtg_5;
+        return_value_getTwinCtg_5=getTwinCtg(bal_CA);
+        cnt4=getCntBetween(return_value_getTwinCtg_5, CB);
         if(!(cnt4 == ((struct connection *)NULL)))
           cnt4->nextInScaf = (struct connection *)(void *)0;
 
@@ -27501,15 +27501,15 @@ extern signed int uniqueLenSearch(unsigned int *len_array, unsigned int *flag_ar
       else
         high = mid - 1;
   }
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   if(!(high >= low))
     return -1;
 
   else
   {
-    tmp_post$1 = flag_array[(signed long int)mid];
+    tmp_post_1 = flag_array[(signed long int)mid];
     flag_array[(signed long int)mid] = flag_array[(signed long int)mid] + 1u;
-    return (signed int)tmp_post$1;
+    return (signed int)tmp_post_1;
   }
 }
 
@@ -27538,9 +27538,9 @@ static void updateNodeStatus()
   {
     node = expanded[(signed long int)i];
     (edge_array + (signed long int)node)->multi = (unsigned short int)1;
-    unsigned int return_value_getTwinEdge$1;
-    return_value_getTwinEdge$1=getTwinEdge(node);
-    (edge_array + (signed long int)return_value_getTwinEdge$1)->multi = (unsigned short int)1;
+    unsigned int return_value_getTwinEdge_1;
+    return_value_getTwinEdge_1=getTwinEdge(node);
+    (edge_array + (signed long int)return_value_getTwinEdge_1)->multi = (unsigned short int)1;
   }
 }
 
@@ -27609,14 +27609,14 @@ static signed int validConnect(unsigned int ctg, struct connection *preCNT)
 // file orderContig.c line 3086
 static char workOnDheap(struct fibheap *dheap, struct fibheap *uheap, char *Dwait, char *Uwait, signed int *DmaxDis, signed int *UmaxDis, signed int maxNodes)
 {
-  unsigned int return_value_removeNextNodeFromHeap$1;
-  struct connection *tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_getTwinCtg$4;
-  struct connection *tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
+  unsigned int return_value_removeNextNodeFromHeap_1;
+  struct connection *tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_getTwinCtg_4;
+  struct connection *tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
   if(!(*Dwait == 0))
     return (char)1;
 
@@ -27635,8 +27635,8 @@ static char workOnDheap(struct fibheap *dheap, struct fibheap *uheap, char *Dwai
     char isEmpty;
     do
     {
-      return_value_removeNextNodeFromHeap$1=removeNextNodeFromHeap(dheap);
-      indexInArray = (signed int)return_value_removeNextNodeFromHeap$1;
+      return_value_removeNextNodeFromHeap_1=removeNextNodeFromHeap(dheap);
+      indexInArray = (signed int)return_value_removeNextNodeFromHeap_1;
       if(indexInArray == 0)
         break;
 
@@ -27646,27 +27646,27 @@ static char workOnDheap(struct fibheap *dheap, struct fibheap *uheap, char *Dwai
       isEmpty=IsHeapEmpty(dheap);
       twin=getTwinCtg(currNode);
       if(!(ctgInHeap->us_shut4dheap == 0))
-        tmp_if_expr$2 = (struct connection *)(void *)0;
+        tmp_if_expr_2 = (struct connection *)(void *)0;
 
       else
-        tmp_if_expr$2 = (contig_array + (signed long int)twin)->downwardConnect;
-      us_cnt = tmp_if_expr$2;
+        tmp_if_expr_2 = (contig_array + (signed long int)twin)->downwardConnect;
+      us_cnt = tmp_if_expr_2;
       while(!(us_cnt == ((struct connection *)NULL)))
       {
         if(!(us_cnt->deleted == 0))
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = us_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_3 = us_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_5 = (_Bool)1;
 
         else
         {
-          return_value_getTwinCtg$4=getTwinCtg(us_cnt->contigID);
-          tmp_if_expr$5 = (contig_array + (signed long int)return_value_getTwinCtg$4)->inSubGraph != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_getTwinCtg_4=getTwinCtg(us_cnt->contigID);
+          tmp_if_expr_5 = (contig_array + (signed long int)return_value_getTwinCtg_4)->inSubGraph != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$5)
+        if(tmp_if_expr_5)
           us_cnt = us_cnt->next;
 
         else
@@ -27690,7 +27690,7 @@ static char workOnDheap(struct fibheap *dheap, struct fibheap *uheap, char *Dwai
           }
         }
       }
-      if(nodeCounter$link1 >= 2 && !(isEmpty == 0))
+      if(nodeCounter_link1 >= 2 && !(isEmpty == 0))
       {
         *Dwait=canDheapWait(currNode, dis0, *DmaxDis);
         if(*Dwait == 0)
@@ -27710,24 +27710,24 @@ static char workOnDheap(struct fibheap *dheap, struct fibheap *uheap, char *Dwai
       __CPROVER_DUMP_L17:
         ;
         if(!(ctgInHeap->ds_shut4dheap == 0))
-          tmp_if_expr$6 = (struct connection *)(void *)0;
+          tmp_if_expr_6 = (struct connection *)(void *)0;
 
         else
-          tmp_if_expr$6 = (contig_array + (signed long int)currNode)->downwardConnect;
-        ds_cnt = tmp_if_expr$6;
+          tmp_if_expr_6 = (contig_array + (signed long int)currNode)->downwardConnect;
+        ds_cnt = tmp_if_expr_6;
         while(!(ds_cnt == ((struct connection *)NULL)))
         {
           if(!(ds_cnt->deleted == 0))
-            tmp_if_expr$7 = (_Bool)1;
+            tmp_if_expr_7 = (_Bool)1;
 
           else
-            tmp_if_expr$7 = ds_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$7)
-            tmp_if_expr$8 = (_Bool)1;
+            tmp_if_expr_7 = ds_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_7)
+            tmp_if_expr_8 = (_Bool)1;
 
           else
-            tmp_if_expr$8 = (contig_array + (signed long int)ds_cnt->contigID)->inSubGraph != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$8)
+            tmp_if_expr_8 = (contig_array + (signed long int)ds_cnt->contigID)->inSubGraph != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_8)
             ds_cnt = ds_cnt->next;
 
           else
@@ -27756,14 +27756,14 @@ static char workOnDheap(struct fibheap *dheap, struct fibheap *uheap, char *Dwai
 // file orderContig.c line 3188
 static char workOnUheap(struct fibheap *dheap, struct fibheap *uheap, char *Dwait, char *Uwait, signed int *DmaxDis, signed int *UmaxDis, signed int maxNodes)
 {
-  unsigned int return_value_removeNextNodeFromHeap$1;
-  struct connection *tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  struct connection *tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
-  unsigned int return_value_getTwinCtg$7;
+  unsigned int return_value_removeNextNodeFromHeap_1;
+  struct connection *tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  struct connection *tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
+  unsigned int return_value_getTwinCtg_7;
   if(!(*Uwait == 0))
     return (char)1;
 
@@ -27782,8 +27782,8 @@ static char workOnUheap(struct fibheap *dheap, struct fibheap *uheap, char *Dwai
     char isEmpty;
     do
     {
-      return_value_removeNextNodeFromHeap$1=removeNextNodeFromHeap(uheap);
-      indexInArray = (signed int)return_value_removeNextNodeFromHeap$1;
+      return_value_removeNextNodeFromHeap_1=removeNextNodeFromHeap(uheap);
+      indexInArray = (signed int)return_value_removeNextNodeFromHeap_1;
       if(indexInArray == 0)
         break;
 
@@ -27792,24 +27792,24 @@ static char workOnUheap(struct fibheap *dheap, struct fibheap *uheap, char *Dwai
       dis0 = ctgInHeap->dis;
       isEmpty=IsHeapEmpty(uheap);
       if(!(ctgInHeap->ds_shut4uheap == 0))
-        tmp_if_expr$2 = (struct connection *)(void *)0;
+        tmp_if_expr_2 = (struct connection *)(void *)0;
 
       else
-        tmp_if_expr$2 = (contig_array + (signed long int)currNode)->downwardConnect;
-      ds_cnt = tmp_if_expr$2;
+        tmp_if_expr_2 = (contig_array + (signed long int)currNode)->downwardConnect;
+      ds_cnt = tmp_if_expr_2;
       while(!(ds_cnt == ((struct connection *)NULL)))
       {
         if(!(ds_cnt->deleted == 0))
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = ds_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_3 = ds_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = (contig_array + (signed long int)ds_cnt->contigID)->inSubGraph != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (contig_array + (signed long int)ds_cnt->contigID)->inSubGraph != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
           ds_cnt = ds_cnt->next;
 
         else
@@ -27826,7 +27826,7 @@ static char workOnUheap(struct fibheap *dheap, struct fibheap *uheap, char *Dwai
 
         }
       }
-      if(nodeCounter$link1 >= 2 && !(isEmpty == 0))
+      if(nodeCounter_link1 >= 2 && !(isEmpty == 0))
       {
         *Uwait=canUheapWait(currNode, dis0, *UmaxDis);
         if(*Uwait == 0)
@@ -27847,27 +27847,27 @@ static char workOnUheap(struct fibheap *dheap, struct fibheap *uheap, char *Dwai
         ;
         twin=getTwinCtg(currNode);
         if(!(ctgInHeap->us_shut4uheap == 0))
-          tmp_if_expr$5 = (struct connection *)(void *)0;
+          tmp_if_expr_5 = (struct connection *)(void *)0;
 
         else
-          tmp_if_expr$5 = (contig_array + (signed long int)twin)->downwardConnect;
-        us_cnt = tmp_if_expr$5;
+          tmp_if_expr_5 = (contig_array + (signed long int)twin)->downwardConnect;
+        us_cnt = tmp_if_expr_5;
         while(!(us_cnt == ((struct connection *)NULL)))
         {
           if(!(us_cnt->deleted == 0))
-            tmp_if_expr$6 = (_Bool)1;
+            tmp_if_expr_6 = (_Bool)1;
 
           else
-            tmp_if_expr$6 = us_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$6)
-            tmp_if_expr$8 = (_Bool)1;
+            tmp_if_expr_6 = us_cnt->mask != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_6)
+            tmp_if_expr_8 = (_Bool)1;
 
           else
           {
-            return_value_getTwinCtg$7=getTwinCtg(us_cnt->contigID);
-            tmp_if_expr$8 = (contig_array + (signed long int)return_value_getTwinCtg$7)->inSubGraph != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_getTwinCtg_7=getTwinCtg(us_cnt->contigID);
+            tmp_if_expr_8 = (contig_array + (signed long int)return_value_getTwinCtg_7)->inSubGraph != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$8)
+          if(tmp_if_expr_8)
             us_cnt = us_cnt->next;
 
           else

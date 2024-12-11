@@ -1,16 +1,16 @@
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[U32'piece_length'||U32'$pad0'||*{SYM#tag-llist_s#}$SYM#tag-llist_s#$'announce_list'||*{S8}$S8$'comment'||*{cS8}$cS8$'torrent_name'||*{S8}$S8$'metainfo_file_path'||*{SYM#tag-slist_s#}$SYM#tag-slist_s#$'web_seed_list'||S32'target_is_directory'||S32'no_creation_date'||S32'private'||S32'verbose'||U32'threads'||U32'$pad1'||S64'size'||*{SYM#tag-flist_s#}$SYM#tag-flist_s#$'file_list'||U32'pieces'||U32'$pad2'|]
+// tag-#anon#ST[U32'piece_length'||U32'_pad0'||*{SYM#tag-llist_s#}_SYM#tag-llist_s#_'announce_list'||*{S8}_S8_'comment'||*{cS8}_cS8_'torrent_name'||*{S8}_S8_'metainfo_file_path'||*{SYM#tag-slist_s#}_SYM#tag-slist_s#_'web_seed_list'||S32'target_is_directory'||S32'no_creation_date'||S32'private'||S32'verbose'||U32'threads'||U32'_pad1'||S64'size'||*{SYM#tag-flist_s#}_SYM#tag-flist_s#_'file_list'||U32'pieces'||U32'_pad2'|]
 // file mktorrent.h line 37
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -148,7 +148,7 @@ static unsigned int dir_state_open(struct dir_state *ds, const char *name, unsig
 static unsigned int dir_state_reopen(struct dir_state *ds, char *name);
 // dump_options
 // file init.c line 361
-static void dump_options(struct anonymous$2 *m);
+static void dump_options(struct anonymous_2 *m);
 // exit
 // file /usr/include/stdlib.h line 543
 extern void exit(signed int);
@@ -164,9 +164,9 @@ extern signed int fflush(struct _IO_FILE *);
 // file_tree_walk
 // file ftw.c line 133
 signed int file_tree_walk(const char *dirname, unsigned int nfds, signed int (*callback)(const char *, struct stat *, void *), void *data);
-// file_tree_walk::callback$object
+// file_tree_walk::callback_object
 //
-signed int callback$object(const char *, struct stat *, void *);
+signed int callback_object(const char *, struct stat *, void *);
 // fprintf
 // file /usr/include/stdio.h line 356
 extern signed int fprintf(struct _IO_FILE *, const char *, ...);
@@ -196,13 +196,13 @@ extern char * getcwd(char *, unsigned long int);
 extern signed int getopt_long(signed int, char * const *, const char *, struct option *, signed int *);
 // init
 // file init.c line 394
-void init(struct anonymous$2 *m, signed int argc, char **argv);
+void init(struct anonymous_2 *m, signed int argc, char **argv);
 // is_dir
 // file init.c line 174
-static signed int is_dir(struct anonymous$2 *m, char *target);
+static signed int is_dir(struct anonymous_2 *m, char *target);
 // make_hash
 // file hash_pthreads.c line 286
-unsigned char * make_hash(struct anonymous$2 *m);
+unsigned char * make_hash(struct anonymous_2 *m);
 // malloc
 // file /usr/include/stdlib.h line 466
 extern void * malloc(unsigned long int);
@@ -241,16 +241,16 @@ static signed int process_node(const char *path, struct stat *sb, void *data);
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$0 *);
+extern signed int pthread_cond_broadcast(union anonymous_0 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$0 *);
+extern signed int pthread_cond_destroy(union anonymous_0 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$0 *);
+extern signed int pthread_cond_signal(union anonymous_0 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$0 *, union anonymous *);
+extern signed int pthread_cond_wait(union anonymous_0 *, union anonymous *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -280,7 +280,7 @@ static void put_full(struct queue_s *q, struct piece_s *p);
 extern signed long int read(signed int, void *, unsigned long int);
 // read_files
 // file hash_pthreads.c line 205
-static void read_files(struct anonymous$2 *m, struct queue_s *q, unsigned char *pos);
+static void read_files(struct anonymous_2 *m, struct queue_s *q, unsigned char *pos);
 // readdir
 // file /usr/include/dirent.h line 165
 extern struct dirent * readdir(struct __dirstream *);
@@ -292,7 +292,7 @@ extern void * realloc(void *, unsigned long int);
 extern void seekdir(struct __dirstream *, signed long int);
 // set_absolute_file_path
 // file init.c line 68
-static void set_absolute_file_path(struct anonymous$2 *m);
+static void set_absolute_file_path(struct anonymous_2 *m);
 // set_done
 // file hash_pthreads.c line 142
 static void set_done(struct queue_s *q);
@@ -302,9 +302,9 @@ extern signed int sprintf(char *, const char *, ...);
 // stat
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf);
-// stat$link1
+// stat_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
-static inline signed int stat$link1(const char *__path$link1, struct stat *__statbuf$link1);
+static inline signed int stat_link1(const char *__path_link1, struct stat *__statbuf_link1);
 // strerror
 // file /usr/include/string.h line 412
 extern char * strerror(signed int);
@@ -337,12 +337,12 @@ static void write_announce_list(struct _IO_FILE *f, struct llist_s *list);
 static void write_file_list(struct _IO_FILE *f, struct flist_s *list);
 // write_metainfo
 // file output.c line 116
-void write_metainfo(struct _IO_FILE *f, struct anonymous$2 *m, unsigned char *hash_string);
+void write_metainfo(struct _IO_FILE *f, struct anonymous_2 *m, unsigned char *hash_string);
 // write_web_seed_list
 // file output.c line 101
 static void write_web_seed_list(struct _IO_FILE *f, struct slist_s *list);
 
-struct anonymous$1
+struct anonymous_1
 {
   // __lock
   signed int __lock;
@@ -362,7 +362,7 @@ struct anonymous$1
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // piece_length
   unsigned int piece_length;
@@ -394,10 +394,10 @@ struct anonymous$2
   unsigned int pieces;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
-  struct anonymous$1 __data;
+  struct anonymous_1 __data;
   // __size
   char __size[48l];
   // __align
@@ -629,9 +629,9 @@ struct queue_s
   // mutex_full
   union anonymous mutex_full;
   // cond_empty
-  union anonymous$0 cond_empty;
+  union anonymous_0 cond_empty;
   // cond_full
-  union anonymous$0 cond_full;
+  union anonymous_0 cond_full;
   // done
   unsigned int done;
   // pieces
@@ -708,9 +708,9 @@ extern struct _IO_FILE *stdout;
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // basename
@@ -753,15 +753,15 @@ static unsigned int cleanup(struct dir_state *ds, char *path, signed int ret)
 // file main.c line 121
 static void close_file(struct _IO_FILE *f)
 {
-  signed int return_value_fclose$3;
-  return_value_fclose$3=fclose(f);
-  if(!(return_value_fclose$3 == 0))
+  signed int return_value_fclose_3;
+  return_value_fclose_3=fclose(f);
+  if(!(return_value_fclose_3 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "Error closing stream: %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "Error closing stream: %s\n", return_value_strerror_2);
     exit(1);
   }
 
@@ -774,23 +774,23 @@ static unsigned int dir_state_close(struct dir_state *ds)
   ds->offset=telldir(ds->dir);
   if(!(ds->offset >= 0l))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "Error getting dir offset: %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "Error getting dir offset: %s\n", return_value_strerror_2);
     return (unsigned int)1;
   }
 
-  signed int return_value_closedir$5;
-  return_value_closedir$5=closedir(ds->dir);
-  if(!(return_value_closedir$5 == 0))
+  signed int return_value_closedir_5;
+  return_value_closedir_5=closedir(ds->dir);
+  if(!(return_value_closedir_5 == 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fprintf(stderr, "Error closing directory: %s\n", return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fprintf(stderr, "Error closing directory: %s\n", return_value_strerror_4);
     return (unsigned int)1;
   }
 
@@ -803,9 +803,9 @@ static unsigned int dir_state_close(struct dir_state *ds)
 static struct dir_state * dir_state_new(struct dir_state *prev, struct dir_state *next)
 {
   struct dir_state *ds;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dir_state) /*40ul*/ );
-  ds = (struct dir_state *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dir_state) /*40ul*/ );
+  ds = (struct dir_state *)return_value_malloc_1;
   if(ds == ((struct dir_state *)NULL))
   {
     fprintf(stderr, "Out of memory.\n");
@@ -827,11 +827,11 @@ static unsigned int dir_state_open(struct dir_state *ds, const char *name, unsig
   ds->dir=opendir(name);
   if(ds->dir == ((struct __dirstream *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "Error opening '%s': %s\n", name, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "Error opening '%s': %s\n", name, return_value_strerror_2);
     return (unsigned int)1;
   }
 
@@ -847,11 +847,11 @@ static unsigned int dir_state_reopen(struct dir_state *ds, char *name)
   ds->dir=opendir(name);
   if(ds->dir == ((struct __dirstream *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "Error opening '%s': %s\n", name, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "Error opening '%s': %s\n", name, return_value_strerror_2);
     return (unsigned int)1;
   }
 
@@ -862,7 +862,7 @@ static unsigned int dir_state_reopen(struct dir_state *ds, char *name)
 
 // dump_options
 // file init.c line 361
-static void dump_options(struct anonymous$2 *m)
+static void dump_options(struct anonymous_2 *m)
 {
   printf("Options:\n  Announce URLs:\n");
   print_announce_list(m->announce_list);
@@ -894,28 +894,28 @@ signed int file_tree_walk(const char *dirname, unsigned int nfds, signed int (*c
   ds=dir_state_new((struct dir_state *)(void *)0, (struct dir_state *)(void *)0);
   struct dir_state *first_open;
   unsigned int nopen;
-  unsigned int return_value_cleanup$5;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  unsigned int return_value_cleanup$15;
-  unsigned int return_value_cleanup$16;
-  unsigned int return_value_cleanup$17;
-  unsigned int return_value_cleanup$19;
-  unsigned int return_value_cleanup$25;
+  unsigned int return_value_cleanup_5;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  unsigned int return_value_cleanup_15;
+  unsigned int return_value_cleanup_16;
+  unsigned int return_value_cleanup_17;
+  unsigned int return_value_cleanup_19;
+  unsigned int return_value_cleanup_25;
   if(ds == ((struct dir_state *)NULL))
     return -1;
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(path_size);
-    path = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(path_size);
+    path = (char *)return_value_malloc_1;
     if(path == ((char *)NULL))
     {
       fprintf(stderr, "Out of memory.\n");
-      unsigned int return_value_cleanup$2;
-      return_value_cleanup$2=cleanup(ds, (char *)(void *)0, -1);
-      return (signed int)return_value_cleanup$2;
+      unsigned int return_value_cleanup_2;
+      return_value_cleanup_2=cleanup(ds, (char *)(void *)0, -1);
+      return (signed int)return_value_cleanup_2;
     }
 
     path_max = path + (signed long int)path_size;
@@ -930,21 +930,21 @@ signed int file_tree_walk(const char *dirname, unsigned int nfds, signed int (*c
       end = end + 1l;
       if(end == path_max)
       {
-        char *file_tree_walk$$1$$2$$1$$new_path;
-        void *return_value_realloc$3;
-        return_value_realloc$3=realloc((void *)path, (unsigned long int)2 * path_size);
-        file_tree_walk$$1$$2$$1$$new_path = (char *)return_value_realloc$3;
-        if(file_tree_walk$$1$$2$$1$$new_path == ((char *)NULL))
+        char *file_tree_walk__1__2__1__new_path;
+        void *return_value_realloc_3;
+        return_value_realloc_3=realloc((void *)path, (unsigned long int)2 * path_size);
+        file_tree_walk__1__2__1__new_path = (char *)return_value_realloc_3;
+        if(file_tree_walk__1__2__1__new_path == ((char *)NULL))
         {
           fprintf(stderr, "Out of memory.\n");
-          unsigned int return_value_cleanup$4;
-          return_value_cleanup$4=cleanup(ds, path, -1);
-          return (signed int)return_value_cleanup$4;
+          unsigned int return_value_cleanup_4;
+          return_value_cleanup_4=cleanup(ds, path, -1);
+          return (signed int)return_value_cleanup_4;
         }
 
-        end = file_tree_walk$$1$$2$$1$$new_path + (signed long int)path_size;
+        end = file_tree_walk__1__2__1__new_path + (signed long int)path_size;
         path_size = path_size * (unsigned long int)2;
-        path = file_tree_walk$$1$$2$$1$$new_path;
+        path = file_tree_walk__1__2__1__new_path;
         path_max = path + (signed long int)path_size;
       }
 
@@ -957,12 +957,12 @@ signed int file_tree_walk(const char *dirname, unsigned int nfds, signed int (*c
 
       end = end - 1l;
     }
-    unsigned int return_value_dir_state_open$6;
-    return_value_dir_state_open$6=dir_state_open(ds, path, (unsigned long int)(end - path));
-    if(!(return_value_dir_state_open$6 == 0u))
+    unsigned int return_value_dir_state_open_6;
+    return_value_dir_state_open_6=dir_state_open(ds, path, (unsigned long int)(end - path));
+    if(!(return_value_dir_state_open_6 == 0u))
     {
-      return_value_cleanup$5=cleanup(ds, path, -1);
-      return (signed int)return_value_cleanup$5;
+      return_value_cleanup_5=cleanup(ds, path, -1);
+      return (signed int)return_value_cleanup_5;
     }
 
     else
@@ -982,18 +982,18 @@ signed int file_tree_walk(const char *dirname, unsigned int nfds, signed int (*c
           if((signed int)de->d_name[0l] == 46)
           {
             if((signed int)de->d_name[1l] == 0)
-              tmp_if_expr$8 = (_Bool)1;
+              tmp_if_expr_8 = (_Bool)1;
 
             else
             {
               if((signed int)de->d_name[1l] == 46)
-                tmp_if_expr$7 = (signed int)de->d_name[(signed long int)2] == 0 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_7 = (signed int)de->d_name[(signed long int)2] == 0 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$7 = (_Bool)0;
-              tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_7 = (_Bool)0;
+              tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$8)
+            if(tmp_if_expr_8)
               continue;
 
           }
@@ -1011,15 +1011,15 @@ signed int file_tree_walk(const char *dirname, unsigned int nfds, signed int (*c
             if(end == path_max)
             {
               char *new_path;
-              void *return_value_realloc$9;
-              return_value_realloc$9=realloc((void *)path, (unsigned long int)2 * path_size);
-              new_path = (char *)return_value_realloc$9;
+              void *return_value_realloc_9;
+              return_value_realloc_9=realloc((void *)path, (unsigned long int)2 * path_size);
+              new_path = (char *)return_value_realloc_9;
               if(new_path == ((char *)NULL))
               {
                 fprintf(stderr, "Out of memory.\n");
-                unsigned int return_value_cleanup$10;
-                return_value_cleanup$10=cleanup(ds, path, -1);
-                return (signed int)return_value_cleanup$10;
+                unsigned int return_value_cleanup_10;
+                return_value_cleanup_10=cleanup(ds, path, -1);
+                return (signed int)return_value_cleanup_10;
               }
 
               end = new_path + (signed long int)path_size;
@@ -1030,25 +1030,25 @@ signed int file_tree_walk(const char *dirname, unsigned int nfds, signed int (*c
 
           }
           while((_Bool)1);
-          signed int return_value_stat$14;
-          return_value_stat$14=stat(path, &sbuf);
-          if(!(return_value_stat$14 == 0))
+          signed int return_value_stat_14;
+          return_value_stat_14=stat(path, &sbuf);
+          if(!(return_value_stat_14 == 0))
           {
-            signed int *return_value___errno_location$11;
-            return_value___errno_location$11=__errno_location();
-            char *return_value_strerror$12;
-            return_value_strerror$12=strerror(*return_value___errno_location$11);
-            fprintf(stderr, "Error stat'ing '%s': %s\n", path, return_value_strerror$12);
-            unsigned int return_value_cleanup$13;
-            return_value_cleanup$13=cleanup(ds, path, -1);
-            return (signed int)return_value_cleanup$13;
+            signed int *return_value___errno_location_11;
+            return_value___errno_location_11=__errno_location();
+            char *return_value_strerror_12;
+            return_value_strerror_12=strerror(*return_value___errno_location_11);
+            fprintf(stderr, "Error stat'ing '%s': %s\n", path, return_value_strerror_12);
+            unsigned int return_value_cleanup_13;
+            return_value_cleanup_13=cleanup(ds, path, -1);
+            return (signed int)return_value_cleanup_13;
           }
 
           r=callback(path, &sbuf, data);
           if(!(r == 0))
           {
-            return_value_cleanup$15=cleanup(ds, path, r);
-            return (signed int)return_value_cleanup$15;
+            return_value_cleanup_15=cleanup(ds, path, r);
+            return (signed int)return_value_cleanup_15;
           }
 
           if((61440u & sbuf.st_mode) == 16384u)
@@ -1058,8 +1058,8 @@ signed int file_tree_walk(const char *dirname, unsigned int nfds, signed int (*c
               ds->next=dir_state_new(ds, (struct dir_state *)(void *)0);
               if(ds->next == ((struct dir_state *)NULL))
               {
-                return_value_cleanup$16=cleanup(ds, path, -1);
-                return (signed int)return_value_cleanup$16;
+                return_value_cleanup_16=cleanup(ds, path, -1);
+                return (signed int)return_value_cleanup_16;
               }
 
             }
@@ -1067,24 +1067,24 @@ signed int file_tree_walk(const char *dirname, unsigned int nfds, signed int (*c
             ds = ds->next;
             if(nopen == nfds)
             {
-              unsigned int return_value_dir_state_close$18;
-              return_value_dir_state_close$18=dir_state_close(first_open);
-              if(!(return_value_dir_state_close$18 == 0u))
+              unsigned int return_value_dir_state_close_18;
+              return_value_dir_state_close_18=dir_state_close(first_open);
+              if(!(return_value_dir_state_close_18 == 0u))
               {
-                return_value_cleanup$17=cleanup(ds, path, -1);
-                return (signed int)return_value_cleanup$17;
+                return_value_cleanup_17=cleanup(ds, path, -1);
+                return (signed int)return_value_cleanup_17;
               }
 
               first_open = first_open->next;
               nopen = nopen - 1u;
             }
 
-            unsigned int return_value_dir_state_open$20;
-            return_value_dir_state_open$20=dir_state_open(ds, path, (unsigned long int)(end - path));
-            if(!(return_value_dir_state_open$20 == 0u))
+            unsigned int return_value_dir_state_open_20;
+            return_value_dir_state_open_20=dir_state_open(ds, path, (unsigned long int)(end - path));
+            if(!(return_value_dir_state_open_20 == 0u))
             {
-              return_value_cleanup$19=cleanup(ds, path, -1);
-              return (signed int)return_value_cleanup$19;
+              return_value_cleanup_19=cleanup(ds, path, -1);
+              return (signed int)return_value_cleanup_19;
             }
 
             nopen = nopen + 1u;
@@ -1095,19 +1095,19 @@ signed int file_tree_walk(const char *dirname, unsigned int nfds, signed int (*c
 
         else
         {
-          signed int return_value_closedir$24;
-          return_value_closedir$24=closedir(ds->dir);
-          if(!(return_value_closedir$24 == 0))
+          signed int return_value_closedir_24;
+          return_value_closedir_24=closedir(ds->dir);
+          if(!(return_value_closedir_24 == 0))
           {
             path[(signed long int)ds->length] = (char)0;
-            signed int *return_value___errno_location$21;
-            return_value___errno_location$21=__errno_location();
-            char *return_value_strerror$22;
-            return_value_strerror$22=strerror(*return_value___errno_location$21);
-            fprintf(stderr, "Error closing '%s': %s\n", path, return_value_strerror$22);
-            unsigned int return_value_cleanup$23;
-            return_value_cleanup$23=cleanup(ds, path, -1);
-            return (signed int)return_value_cleanup$23;
+            signed int *return_value___errno_location_21;
+            return_value___errno_location_21=__errno_location();
+            char *return_value_strerror_22;
+            return_value_strerror_22=strerror(*return_value___errno_location_21);
+            fprintf(stderr, "Error closing '%s': %s\n", path, return_value_strerror_22);
+            unsigned int return_value_cleanup_23;
+            return_value_cleanup_23=cleanup(ds, path, -1);
+            return (signed int)return_value_cleanup_23;
           }
 
           if(ds->prev == ((struct dir_state *)NULL))
@@ -1117,12 +1117,12 @@ signed int file_tree_walk(const char *dirname, unsigned int nfds, signed int (*c
           nopen = nopen - 1u;
           if(ds->dir == ((struct __dirstream *)NULL))
           {
-            unsigned int return_value_dir_state_reopen$26;
-            return_value_dir_state_reopen$26=dir_state_reopen(ds, path);
-            if(!(return_value_dir_state_reopen$26 == 0u))
+            unsigned int return_value_dir_state_reopen_26;
+            return_value_dir_state_reopen_26=dir_state_reopen(ds, path);
+            if(!(return_value_dir_state_reopen_26 == 0u))
             {
-              return_value_cleanup$25=cleanup(ds, path, -1);
-              return (signed int)return_value_cleanup$25;
+              return_value_cleanup_25=cleanup(ds, path, -1);
+              return (signed int)return_value_cleanup_25;
             }
 
             first_open = ds;
@@ -1131,9 +1131,9 @@ signed int file_tree_walk(const char *dirname, unsigned int nfds, signed int (*c
 
         }
       }
-      unsigned int return_value_cleanup$27;
-      return_value_cleanup$27=cleanup(ds, path, 0);
-      return (signed int)return_value_cleanup$27;
+      unsigned int return_value_cleanup_27;
+      return_value_cleanup_27=cleanup(ds, path, 0);
+      return (signed int)return_value_cleanup_27;
     }
   }
 }
@@ -1167,9 +1167,9 @@ static struct piece_s * get_free(struct queue_s *q, unsigned long int piece_leng
   else
     if(!(q->buffers >= q->buffers_max))
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((sizeof(struct piece_s) /*32ul*/  - (unsigned long int)1) + piece_length);
-      r = (struct piece_s *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((sizeof(struct piece_s) /*32ul*/  - (unsigned long int)1) + piece_length);
+      r = (struct piece_s *)return_value_malloc_1;
       if(r == ((struct piece_s *)NULL))
       {
         fprintf(stderr, "Out of memory.\n");
@@ -1230,9 +1230,9 @@ static struct slist_s * get_slist(char *s)
   struct slist_s *list;
   struct slist_s *last;
   char *e;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct slist_s) /*16ul*/ );
-  last = (struct slist_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct slist_s) /*16ul*/ );
+  last = (struct slist_s *)return_value_malloc_1;
   list = last;
   if(list == ((struct slist_s *)NULL))
   {
@@ -1240,20 +1240,20 @@ static struct slist_s * get_slist(char *s)
     exit(1);
   }
 
-  char *return_value___builtin_strchr$2;
+  char *return_value___builtin_strchr_2;
   do
   {
-    return_value___builtin_strchr$2=__builtin_strchr(s, 44);
-    e = return_value___builtin_strchr$2;
+    return_value___builtin_strchr_2=__builtin_strchr(s, 44);
+    e = return_value___builtin_strchr_2;
     if(e == ((char *)NULL))
       break;
 
     *e = (char)0;
     last->s = s;
     s = e + (signed long int)1;
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(sizeof(struct slist_s) /*16ul*/ );
-    last->next = (struct slist_s *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(sizeof(struct slist_s) /*16ul*/ );
+    last->next = (struct slist_s *)return_value_malloc_3;
     last = last->next;
     if(last == ((struct slist_s *)NULL))
     {
@@ -1270,13 +1270,13 @@ static struct slist_s * get_slist(char *s)
 
 // init
 // file init.c line 394
-void init(struct anonymous$2 *m, signed int argc, char **argv)
+void init(struct anonymous_2 *m, signed int argc, char **argv)
 {
   signed int c;
   struct llist_s *announce_last = (struct llist_s *)(void *)0;
   struct slist_s *web_seed_last = (struct slist_s *)(void *)0;
-  signed int return_value_atoi$3;
-  signed int return_value_atoi$4;
+  signed int return_value_atoi_3;
+  signed int return_value_atoi_4;
   do
   {
     static struct option long_options[12l] = { { .name="announce", .has_arg=1, .flag=(signed int *)(void *)0, .val=97 },
@@ -1302,17 +1302,17 @@ void init(struct anonymous$2 *m, signed int argc, char **argv)
       {
         if(announce_last == ((struct llist_s *)NULL))
         {
-          void *return_value_malloc$1;
-          return_value_malloc$1=malloc(sizeof(struct llist_s) /*16ul*/ );
-          announce_last = (struct llist_s *)return_value_malloc$1;
+          void *return_value_malloc_1;
+          return_value_malloc_1=malloc(sizeof(struct llist_s) /*16ul*/ );
+          announce_last = (struct llist_s *)return_value_malloc_1;
           m->announce_list = announce_last;
         }
 
         else
         {
-          void *return_value_malloc$2;
-          return_value_malloc$2=malloc(sizeof(struct llist_s) /*16ul*/ );
-          announce_last->next = (struct llist_s *)return_value_malloc$2;
+          void *return_value_malloc_2;
+          return_value_malloc_2=malloc(sizeof(struct llist_s) /*16ul*/ );
+          announce_last->next = (struct llist_s *)return_value_malloc_2;
           announce_last = announce_last->next;
         }
         if(announce_last == ((struct llist_s *)NULL))
@@ -1341,8 +1341,8 @@ void init(struct anonymous$2 *m, signed int argc, char **argv)
       }
       case 108:
       {
-        return_value_atoi$3=atoi(optarg);
-        m->piece_length = (unsigned int)return_value_atoi$3;
+        return_value_atoi_3=atoi(optarg);
+        m->piece_length = (unsigned int)return_value_atoi_3;
         break;
       }
       case 110:
@@ -1362,8 +1362,8 @@ void init(struct anonymous$2 *m, signed int argc, char **argv)
       }
       case 116:
       {
-        return_value_atoi$4=atoi(optarg);
-        m->threads = (unsigned int)return_value_atoi$4;
+        return_value_atoi_4=atoi(optarg);
+        m->threads = (unsigned int)return_value_atoi_4;
         break;
       }
       case 118:
@@ -1396,13 +1396,13 @@ void init(struct anonymous$2 *m, signed int argc, char **argv)
     }
   }
   while((_Bool)1);
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if(!(m->piece_length >= 15u))
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = m->piece_length > (unsigned int)28 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = m->piece_length > (unsigned int)28 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_5)
   {
     fprintf(stderr, "The piece length must be a number between 15 and 28.\n");
     exit(1);
@@ -1422,13 +1422,13 @@ void init(struct anonymous$2 *m, signed int argc, char **argv)
     exit(1);
   }
 
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_6;
   if(!(m->threads >= 1u))
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_6 = (_Bool)1;
 
   else
-    tmp_if_expr$6 = m->threads > (unsigned int)20 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$6)
+    tmp_if_expr_6 = m->threads > (unsigned int)20 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_6)
   {
     fprintf(stderr, "The number of threads must be a numberbetween 1 and 20\n");
     exit(1);
@@ -1445,21 +1445,21 @@ void init(struct anonymous$2 *m, signed int argc, char **argv)
   m->target_is_directory=is_dir(m, argv[(signed long int)optind]);
   if(!(m->target_is_directory == 0))
   {
-    signed int return_value_chdir$9;
-    return_value_chdir$9=chdir(argv[(signed long int)optind]);
-    if(!(return_value_chdir$9 == 0))
+    signed int return_value_chdir_9;
+    return_value_chdir_9=chdir(argv[(signed long int)optind]);
+    if(!(return_value_chdir_9 == 0))
     {
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      char *return_value_strerror$8;
-      return_value_strerror$8=strerror(*return_value___errno_location$7);
-      fprintf(stderr, "Error changing directory to '%s': %s\n", argv[(signed long int)optind], return_value_strerror$8);
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      char *return_value_strerror_8;
+      return_value_strerror_8=strerror(*return_value___errno_location_7);
+      fprintf(stderr, "Error changing directory to '%s': %s\n", argv[(signed long int)optind], return_value_strerror_8);
       exit(1);
     }
 
-    signed int return_value_file_tree_walk$10;
-    return_value_file_tree_walk$10=file_tree_walk("./", (unsigned int)100, process_node, (void *)m);
-    if(!(return_value_file_tree_walk$10 == 0))
+    signed int return_value_file_tree_walk_10;
+    return_value_file_tree_walk_10=file_tree_walk("./", (unsigned int)100, process_node, (void *)m);
+    if(!(return_value_file_tree_walk_10 == 0))
       exit(1);
 
   }
@@ -1472,18 +1472,18 @@ void init(struct anonymous$2 *m, signed int argc, char **argv)
 
 // is_dir
 // file init.c line 174
-static signed int is_dir(struct anonymous$2 *m, char *target)
+static signed int is_dir(struct anonymous_2 *m, char *target)
 {
   struct stat s;
-  signed int return_value_stat$3;
-  return_value_stat$3=stat$link1(target, &s);
-  if(!(return_value_stat$3 == 0))
+  signed int return_value_stat_3;
+  return_value_stat_3=stat_link1(target, &s);
+  if(!(return_value_stat_3 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "Error stat'ing '%s': %s\n", target, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "Error stat'ing '%s': %s\n", target, return_value_strerror_2);
     exit(1);
   }
 
@@ -1498,9 +1498,9 @@ static signed int is_dir(struct anonymous$2 *m, char *target)
       exit(1);
     }
 
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc(sizeof(struct flist_s) /*24ul*/ );
-    m->file_list = (struct flist_s *)return_value_malloc$4;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc(sizeof(struct flist_s) /*24ul*/ );
+    m->file_list = (struct flist_s *)return_value_malloc_4;
     if(m->file_list == ((struct flist_s *)NULL))
     {
       fprintf(stderr, "Out of memory.\n");
@@ -1520,7 +1520,7 @@ static signed int is_dir(struct anonymous$2 *m, char *target)
 signed int main(signed int argc, char **argv)
 {
   struct _IO_FILE *file;
-  struct anonymous$2 m = { .piece_length=(unsigned int)18, .announce_list=(struct llist_s *)(void *)0, .comment=(char *)(void *)0,
+  struct anonymous_2 m = { .piece_length=(unsigned int)18, .announce_list=(struct llist_s *)(void *)0, .comment=(char *)(void *)0,
     .torrent_name=(const char *)(void *)0, .metainfo_file_path=(char *)(void *)0,
     .web_seed_list=(struct slist_s *)(void *)0,
     .target_is_directory=0,
@@ -1530,16 +1530,16 @@ signed int main(signed int argc, char **argv)
   printf("mktorrent 1.0 (c) 2007, 2009 Emil Renner Berthing\n\n");
   init(&m, argc, argv);
   file=open_file(m.metainfo_file_path);
-  unsigned char *return_value_make_hash$1;
-  return_value_make_hash$1=make_hash(&m);
-  write_metainfo(file, &m, return_value_make_hash$1);
+  unsigned char *return_value_make_hash_1;
+  return_value_make_hash_1=make_hash(&m);
+  write_metainfo(file, &m, return_value_make_hash_1);
   close_file(file);
   return 0;
 }
 
 // make_hash
 // file hash_pthreads.c line 286
-unsigned char * make_hash(struct anonymous$2 *m)
+unsigned char * make_hash(struct anonymous_2 *m)
 {
   struct queue_s q = { .free=(struct piece_s *)(void *)0, .full=(struct piece_s *)(void *)0, .buffers_max=(unsigned int)0,
     .buffers=(unsigned int)0, .mutex_free={ .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
@@ -1563,12 +1563,12 @@ unsigned char * make_hash(struct anonymous$2 *m)
   unsigned char *hash_string;
   unsigned int i;
   signed int err;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)m->threads * sizeof(unsigned long int) /*8ul*/ );
-  workers = (unsigned long int *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(m->pieces * (unsigned int)20));
-  hash_string = (unsigned char *)return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)m->threads * sizeof(unsigned long int) /*8ul*/ );
+  workers = (unsigned long int *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(m->pieces * (unsigned int)20));
+  hash_string = (unsigned char *)return_value_malloc_2;
   if(workers == ((unsigned long int *)NULL) || hash_string == ((unsigned char *)NULL))
     return (unsigned char *)(void *)0;
 
@@ -1582,9 +1582,9 @@ unsigned char * make_hash(struct anonymous$2 *m)
       err=pthread_create(&workers[(signed long int)i], (const union pthread_attr_t *)(void *)0, worker, (void *)&q);
       if(!(err == 0))
       {
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(err);
-        fprintf(stderr, "Error creating thread: %s\n", return_value_strerror$3);
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(err);
+        fprintf(stderr, "Error creating thread: %s\n", return_value_strerror_3);
         exit(1);
       }
 
@@ -1592,9 +1592,9 @@ unsigned char * make_hash(struct anonymous$2 *m)
     err=pthread_create(&print_progress_thread, (const union pthread_attr_t *)(void *)0, print_progress, (void *)&q);
     if(!(err == 0))
     {
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(err);
-      fprintf(stderr, "Error creating thread: %s\n", return_value_strerror$4);
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(err);
+      fprintf(stderr, "Error creating thread: %s\n", return_value_strerror_4);
       exit(1);
     }
 
@@ -1602,9 +1602,9 @@ unsigned char * make_hash(struct anonymous$2 *m)
     err=pthread_cancel(print_progress_thread);
     if(!(err == 0))
     {
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(err);
-      fprintf(stderr, "Error cancelling thread: %s\n", return_value_strerror$5);
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(err);
+      fprintf(stderr, "Error cancelling thread: %s\n", return_value_strerror_5);
       exit(1);
     }
 
@@ -1615,9 +1615,9 @@ unsigned char * make_hash(struct anonymous$2 *m)
       err=pthread_join(workers[(signed long int)i], (void **)(void *)0);
       if(!(err == 0))
       {
-        char *return_value_strerror$6;
-        return_value_strerror$6=strerror(err);
-        fprintf(stderr, "Error joining thread: %s\n", return_value_strerror$6);
+        char *return_value_strerror_6;
+        return_value_strerror_6=strerror(err);
+        fprintf(stderr, "Error joining thread: %s\n", return_value_strerror_6);
         exit(1);
       }
 
@@ -1626,9 +1626,9 @@ unsigned char * make_hash(struct anonymous$2 *m)
     err=pthread_join(print_progress_thread, (void **)(void *)0);
     if(!(err == 0))
     {
-      char *return_value_strerror$7;
-      return_value_strerror$7=strerror(err);
-      fprintf(stderr, "Error joining thread: %s\n", return_value_strerror$7);
+      char *return_value_strerror_7;
+      return_value_strerror_7=strerror(err);
+      fprintf(stderr, "Error joining thread: %s\n", return_value_strerror_7);
       exit(1);
     }
 
@@ -1651,22 +1651,22 @@ static struct _IO_FILE * open_file(const char *path)
   fd=open(path, 01 | 0 | 0100 | 0200, 0400 | 0200 | 0400 >> 3 | (0400 >> 3) >> 3);
   if(!(fd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "Error creating '%s': %s\n", path, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "Error creating '%s': %s\n", path, return_value_strerror_2);
     exit(1);
   }
 
   f=fdopen(fd, "wb");
   if(f == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fprintf(stderr, "Error creating stream for '%s': %s\n", path, return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fprintf(stderr, "Error creating stream for '%s': %s\n", path, return_value_strerror_4);
     exit(1);
   }
 
@@ -1705,9 +1705,9 @@ static void * print_progress(void *data)
   err=pthread_setcanceltype(1, (signed int *)(void *)0);
   if(!(err == 0))
   {
-    char *return_value_strerror$1;
-    return_value_strerror$1=strerror(err);
-    fprintf(stderr, "Error setting thread cancel type: %s\n", return_value_strerror$1);
+    char *return_value_strerror_1;
+    return_value_strerror_1=strerror(err);
+    fprintf(stderr, "Error setting thread cancel type: %s\n", return_value_strerror_1);
     exit(1);
   }
 
@@ -1743,19 +1743,19 @@ static signed int process_node(const char *path, struct stat *sb, void *data)
 {
   struct flist_s **p;
   struct flist_s *new_node;
-  struct anonymous$2 *m = (struct anonymous$2 *)data;
-  signed int tmp_statement_expression$2;
-  _Bool tmp_if_expr$6;
-  char *return_value___strdup$5;
+  struct anonymous_2 *m = (struct anonymous_2 *)data;
+  signed int tmp_statement_expression_2;
+  _Bool tmp_if_expr_6;
+  char *return_value___strdup_5;
   if(!((61440u & sb->st_mode) == 32768u))
     return 0;
 
   else
   {
     path = path + (signed long int)2;
-    signed int return_value_access$1;
-    return_value_access$1=access(path, 4);
-    if(!(return_value_access$1 == 0))
+    signed int return_value_access_1;
+    return_value_access_1=access(path, 4);
+    if(!(return_value_access_1 == 0))
     {
       fprintf(stderr, "Warning: Cannot read '%s', skipping.\n", path);
       return 0;
@@ -1772,26 +1772,26 @@ static signed int process_node(const char *path, struct stat *sb, void *data)
       {
         unsigned long int __s1_len;
         unsigned long int __s2_len;
-        signed int return_value___builtin_strcmp$3;
-        return_value___builtin_strcmp$3=__builtin_strcmp(path, (*p)->path);
-        tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-        if(!(tmp_statement_expression$2 >= 1))
+        signed int return_value___builtin_strcmp_3;
+        return_value___builtin_strcmp_3=__builtin_strcmp(path, (*p)->path);
+        tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+        if(!(tmp_statement_expression_2 >= 1))
           break;
 
       }
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc(sizeof(struct flist_s) /*24ul*/ );
-      new_node = (struct flist_s *)return_value_malloc$4;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc(sizeof(struct flist_s) /*24ul*/ );
+      new_node = (struct flist_s *)return_value_malloc_4;
       if(new_node == ((struct flist_s *)NULL))
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_6 = (_Bool)1;
 
       else
       {
-        return_value___strdup$5=__strdup(path);
-        new_node->path = return_value___strdup$5;
-        tmp_if_expr$6 = new_node->path == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        return_value___strdup_5=__strdup(path);
+        new_node->path = return_value___strdup_5;
+        tmp_if_expr_6 = new_node->path == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$6)
+      if(tmp_if_expr_6)
       {
         fprintf(stderr, "Out of memory.\n");
         return -1;
@@ -1833,7 +1833,7 @@ static void put_full(struct queue_s *q, struct piece_s *p)
 
 // read_files
 // file hash_pthreads.c line 205
-static void read_files(struct anonymous$2 *m, struct queue_s *q, unsigned char *pos)
+static void read_files(struct anonymous_2 *m, struct queue_s *q, unsigned char *pos)
 {
   signed int fd;
   struct flist_s *f;
@@ -1847,11 +1847,11 @@ static void read_files(struct anonymous$2 *m, struct queue_s *q, unsigned char *
     fd=open(f->path, 00 | 0);
     if(fd == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fprintf(stderr, "Error opening '%s' for reading: %s\n", f->path, return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fprintf(stderr, "Error opening '%s' for reading: %s\n", f->path, return_value_strerror_2);
       exit(1);
     }
 
@@ -1861,11 +1861,11 @@ static void read_files(struct anonymous$2 *m, struct queue_s *q, unsigned char *
       d=read(fd, (void *)(p->data + r), (unsigned long int)((signed long int)m->piece_length - r));
       if(!(d >= 0l))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        char *return_value_strerror$4;
-        return_value_strerror$4=strerror(*return_value___errno_location$3);
-        fprintf(stderr, "Error reading from '%s': %s\n", f->path, return_value_strerror$4);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        char *return_value_strerror_4;
+        return_value_strerror_4=strerror(*return_value___errno_location_3);
+        fprintf(stderr, "Error reading from '%s': %s\n", f->path, return_value_strerror_4);
         exit(1);
       }
 
@@ -1885,15 +1885,15 @@ static void read_files(struct anonymous$2 *m, struct queue_s *q, unsigned char *
       }
 
     }
-    signed int return_value_close$7;
-    return_value_close$7=close(fd);
-    if(!(return_value_close$7 == 0))
+    signed int return_value_close_7;
+    return_value_close_7=close(fd);
+    if(!(return_value_close_7 == 0))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      char *return_value_strerror$6;
-      return_value_strerror$6=strerror(*return_value___errno_location$5);
-      fprintf(stderr, "Error closing '%s': %s\n", f->path, return_value_strerror$6);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      char *return_value_strerror_6;
+      return_value_strerror_6=strerror(*return_value___errno_location_5);
+      fprintf(stderr, "Error closing '%s': %s\n", f->path, return_value_strerror_6);
       exit(1);
     }
 
@@ -1918,11 +1918,11 @@ static void read_files(struct anonymous$2 *m, struct queue_s *q, unsigned char *
 
 // set_absolute_file_path
 // file init.c line 68
-static void set_absolute_file_path(struct anonymous$2 *m)
+static void set_absolute_file_path(struct anonymous_2 *m)
 {
   char *string;
   unsigned long int length = (unsigned long int)32;
-  char *return_value_getcwd$2;
+  char *return_value_getcwd_2;
   if(!(m->metainfo_file_path == ((char *)NULL)))
   {
     if(!((signed int)*m->metainfo_file_path == 47))
@@ -1935,9 +1935,9 @@ static void set_absolute_file_path(struct anonymous$2 *m)
 
   __CPROVER_DUMP_L1:
     ;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(length);
-    string = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(length);
+    string = (char *)return_value_malloc_1;
     if(string == ((char *)NULL))
     {
       fprintf(stderr, "Out of memory.\n");
@@ -1946,15 +1946,15 @@ static void set_absolute_file_path(struct anonymous$2 *m)
 
     do
     {
-      return_value_getcwd$2=getcwd(string, length);
-      if(!(return_value_getcwd$2 == ((char *)NULL)))
+      return_value_getcwd_2=getcwd(string, length);
+      if(!(return_value_getcwd_2 == ((char *)NULL)))
         break;
 
       length = length * (unsigned long int)2;
       free((void *)string);
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(length);
-      string = (char *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(length);
+      string = (char *)return_value_malloc_3;
       if(string == ((char *)NULL))
       {
         fprintf(stderr, "Out of memory.\n");
@@ -1966,11 +1966,11 @@ static void set_absolute_file_path(struct anonymous$2 *m)
     length=strlen(string);
     if(m->metainfo_file_path == ((char *)NULL))
     {
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(m->torrent_name);
-      void *return_value_realloc$5;
-      return_value_realloc$5=realloc((void *)string, length + return_value_strlen$4 + (unsigned long int)10);
-      string = (char *)return_value_realloc$5;
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(m->torrent_name);
+      void *return_value_realloc_5;
+      return_value_realloc_5=realloc((void *)string, length + return_value_strlen_4 + (unsigned long int)10);
+      string = (char *)return_value_realloc_5;
       if(string == ((char *)NULL))
       {
         fprintf(stderr, "Out of memory.\n");
@@ -1982,11 +1982,11 @@ static void set_absolute_file_path(struct anonymous$2 *m)
 
     else
     {
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen(m->metainfo_file_path);
-      void *return_value_realloc$7;
-      return_value_realloc$7=realloc((void *)string, length + return_value_strlen$6 + (unsigned long int)2);
-      string = (char *)return_value_realloc$7;
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen(m->metainfo_file_path);
+      void *return_value_realloc_7;
+      return_value_realloc_7=realloc((void *)string, length + return_value_strlen_6 + (unsigned long int)2);
+      string = (char *)return_value_realloc_7;
       if(string == ((char *)NULL))
       {
         fprintf(stderr, "Out of memory.\n");
@@ -2013,18 +2013,18 @@ static void set_done(struct queue_s *q)
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___xstat$1;
-  return_value___xstat$1=__xstat(1, __path, __statbuf);
-  return return_value___xstat$1;
+  signed int return_value___xstat_1;
+  return_value___xstat_1=__xstat(1, __path, __statbuf);
+  return return_value___xstat_1;
 }
 
-// stat$link1
+// stat_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
-static inline signed int stat$link1(const char *__path$link1, struct stat *__statbuf$link1)
+static inline signed int stat_link1(const char *__path_link1, struct stat *__statbuf_link1)
 {
-  signed int return_value___xstat$1$link1;
-  return_value___xstat$1$link1=__xstat(1, __path$link1, __statbuf$link1);
-  return return_value___xstat$1$link1;
+  signed int return_value___xstat_1_link1;
+  return_value___xstat_1_link1=__xstat(1, __path_link1, __statbuf_link1);
+  return return_value___xstat_1_link1;
 }
 
 // strip_ending_dirseps
@@ -2070,7 +2070,7 @@ static void * worker(void *data)
 static void write_announce_list(struct _IO_FILE *f, struct llist_s *list)
 {
   fprintf(f, "13:announce-listl");
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   for( ; !(list == ((struct llist_s *)NULL)); list = list->next)
   {
     struct slist_s *l;
@@ -2078,8 +2078,8 @@ static void write_announce_list(struct _IO_FILE *f, struct llist_s *list)
     l = list->l;
     for( ; !(l == ((struct slist_s *)NULL)); l = l->next)
     {
-      return_value_strlen$1=strlen(l->s);
-      fprintf(f, "%lu:%s", (unsigned long int)return_value_strlen$1, l->s);
+      return_value_strlen_1=strlen(l->s);
+      fprintf(f, "%lu:%s", (unsigned long int)return_value_strlen_1, l->s);
     }
     fprintf(f, "e");
   }
@@ -2093,64 +2093,64 @@ static void write_file_list(struct _IO_FILE *f, struct flist_s *list)
   char *a;
   char *b;
   fprintf(f, "5:filesl");
-  char *return_value___builtin_strchr$1;
+  char *return_value___builtin_strchr_1;
   for( ; !(list == ((struct flist_s *)NULL)); list = list->next)
   {
     fprintf(f, "d6:lengthi%lde4:pathl", list->size);
     a = list->path;
     do
     {
-      return_value___builtin_strchr$1=__builtin_strchr(a, 47);
-      b = return_value___builtin_strchr$1;
+      return_value___builtin_strchr_1=__builtin_strchr(a, 47);
+      b = return_value___builtin_strchr_1;
       if(b == ((char *)NULL))
         break;
 
       *b = (char)0;
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(a);
-      fprintf(f, "%lu:%s", (unsigned long int)return_value_strlen$2, a);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(a);
+      fprintf(f, "%lu:%s", (unsigned long int)return_value_strlen_2, a);
       *b = (char)47;
       a = b + (signed long int)1;
     }
     while((_Bool)1);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(a);
-    fprintf(f, "%lu:%see", (unsigned long int)return_value_strlen$3, a);
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(a);
+    fprintf(f, "%lu:%see", (unsigned long int)return_value_strlen_3, a);
   }
   fprintf(f, "e");
 }
 
 // write_metainfo
 // file output.c line 116
-void write_metainfo(struct _IO_FILE *f, struct anonymous$2 *m, unsigned char *hash_string)
+void write_metainfo(struct _IO_FILE *f, struct anonymous_2 *m, unsigned char *hash_string)
 {
   printf("Writing metainfo file... ");
   fflush(stdout);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(m->announce_list->l->s);
-  fprintf(f, "d8:announce%lu:%s", (unsigned long int)return_value_strlen$1, m->announce_list->l->s);
-  _Bool tmp_if_expr$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(m->announce_list->l->s);
+  fprintf(f, "d8:announce%lu:%s", (unsigned long int)return_value_strlen_1, m->announce_list->l->s);
+  _Bool tmp_if_expr_2;
   if(!(m->announce_list->next == ((struct llist_s *)NULL)))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = m->announce_list->l->next != ((struct slist_s *)NULL) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = m->announce_list->l->next != ((struct slist_s *)NULL) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     write_announce_list(f, m->announce_list);
 
-  unsigned long int return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
   if(!(m->comment == ((char *)NULL)))
   {
-    return_value_strlen$3=strlen(m->comment);
-    fprintf(f, "7:comment%lu:%s", (unsigned long int)return_value_strlen$3, m->comment);
+    return_value_strlen_3=strlen(m->comment);
+    fprintf(f, "7:comment%lu:%s", (unsigned long int)return_value_strlen_3, m->comment);
   }
 
   fprintf(f, "10:created by13:mktorrent 1.0");
-  signed long int return_value_time$4;
+  signed long int return_value_time_4;
   if(m->no_creation_date == 0)
   {
-    return_value_time$4=time((signed long int *)(void *)0);
-    fprintf(f, "13:creation datei%lde", (signed long int)return_value_time$4);
+    return_value_time_4=time((signed long int *)(void *)0);
+    fprintf(f, "13:creation datei%lde", (signed long int)return_value_time_4);
   }
 
   fprintf(f, "4:infod");
@@ -2159,21 +2159,21 @@ void write_metainfo(struct _IO_FILE *f, struct anonymous$2 *m, unsigned char *ha
 
   else
     write_file_list(f, m->file_list);
-  unsigned long int return_value_strlen$5;
-  return_value_strlen$5=strlen(m->torrent_name);
-  fprintf(f, "4:name%lu:%s12:piece lengthi%ue6:pieces%u:", (unsigned long int)return_value_strlen$5, m->torrent_name, m->piece_length, m->pieces * (unsigned int)20);
+  unsigned long int return_value_strlen_5;
+  return_value_strlen_5=strlen(m->torrent_name);
+  fprintf(f, "4:name%lu:%s12:piece lengthi%ue6:pieces%u:", (unsigned long int)return_value_strlen_5, m->torrent_name, m->piece_length, m->pieces * (unsigned int)20);
   fwrite((const void *)hash_string, (unsigned long int)1, (unsigned long int)(m->pieces * (unsigned int)20), f);
   if(!(m->private == 0))
     fprintf(f, "7:privatei1e");
 
   fprintf(f, "e");
-  unsigned long int return_value_strlen$6;
+  unsigned long int return_value_strlen_6;
   if(!(m->web_seed_list == ((struct slist_s *)NULL)))
   {
     if(m->web_seed_list->next == ((struct slist_s *)NULL))
     {
-      return_value_strlen$6=strlen(m->web_seed_list->s);
-      fprintf(f, "8:url-list%lu:%s", (unsigned long int)return_value_strlen$6, m->web_seed_list->s);
+      return_value_strlen_6=strlen(m->web_seed_list->s);
+      fprintf(f, "8:url-list%lu:%s", (unsigned long int)return_value_strlen_6, m->web_seed_list->s);
     }
 
     else
@@ -2190,11 +2190,11 @@ void write_metainfo(struct _IO_FILE *f, struct anonymous$2 *m, unsigned char *ha
 static void write_web_seed_list(struct _IO_FILE *f, struct slist_s *list)
 {
   fprintf(f, "8:url-listl");
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   for( ; !(list == ((struct slist_s *)NULL)); list = list->next)
   {
-    return_value_strlen$1=strlen(list->s);
-    fprintf(f, "%lu:%s", (unsigned long int)return_value_strlen$1, list->s);
+    return_value_strlen_1=strlen(list->s);
+    fprintf(f, "%lu:%s", (unsigned long int)return_value_strlen_1, list->s);
   }
   fprintf(f, "e");
 }

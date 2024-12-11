@@ -1,70 +1,70 @@
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$2;
+struct anonymous_2;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$12;
+struct anonymous_12;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$7;
+struct anonymous_7;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$16;
+union anonymous_16;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
 union anonymous;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -224,39 +224,39 @@ extern char * __strdup(const char *);
 // __strsep_1c
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1199
 static inline char * __strsep_1c(char **__s, char __reject);
-// __strsep_1c$link1
+// __strsep_1c_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1199
-static inline char * __strsep_1c$link1(char **__s$link1, char __reject$link1);
-// __strsep_1c$link2
+static inline char * __strsep_1c_link1(char **__s_link1, char __reject_link1);
+// __strsep_1c_link2
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1199
-static inline char * __strsep_1c$link2(char **__s$link2, char __reject$link2);
-// __strsep_1c$link3
+static inline char * __strsep_1c_link2(char **__s_link2, char __reject_link2);
+// __strsep_1c_link3
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1199
-static inline char * __strsep_1c$link3(char **__s$link3, char __reject$link3);
+static inline char * __strsep_1c_link3(char **__s_link3, char __reject_link3);
 // __strsep_2c
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1209
 static inline char * __strsep_2c(char **__s, char __reject1, char __reject2);
-// __strsep_2c$link1
+// __strsep_2c_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1209
-static inline char * __strsep_2c$link1(char **__s$link1, char __reject1$link1, char __reject2$link1);
-// __strsep_2c$link2
+static inline char * __strsep_2c_link1(char **__s_link1, char __reject1_link1, char __reject2_link1);
+// __strsep_2c_link2
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1209
-static inline char * __strsep_2c$link2(char **__s$link2, char __reject1$link2, char __reject2$link2);
-// __strsep_2c$link3
+static inline char * __strsep_2c_link2(char **__s_link2, char __reject1_link2, char __reject2_link2);
+// __strsep_2c_link3
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1209
-static inline char * __strsep_2c$link3(char **__s$link3, char __reject1$link3, char __reject2$link3);
+static inline char * __strsep_2c_link3(char **__s_link3, char __reject1_link3, char __reject2_link3);
 // __strsep_3c
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1237
 static inline char * __strsep_3c(char **__s, char __reject1, char __reject2, char __reject3);
-// __strsep_3c$link1
+// __strsep_3c_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1237
-static inline char * __strsep_3c$link1(char **__s$link1, char __reject1$link1, char __reject2$link1, char __reject3$link1);
-// __strsep_3c$link2
+static inline char * __strsep_3c_link1(char **__s_link1, char __reject1_link1, char __reject2_link1, char __reject3_link1);
+// __strsep_3c_link2
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1237
-static inline char * __strsep_3c$link2(char **__s$link2, char __reject1$link2, char __reject2$link2, char __reject3$link2);
-// __strsep_3c$link3
+static inline char * __strsep_3c_link2(char **__s_link2, char __reject1_link2, char __reject2_link2, char __reject3_link2);
+// __strsep_3c_link3
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1237
-static inline char * __strsep_3c$link3(char **__s$link3, char __reject1$link3, char __reject2$link3, char __reject3$link3);
+static inline char * __strsep_3c_link3(char **__s_link3, char __reject1_link3, char __reject2_link3, char __reject3_link3);
 // __strsep_g
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1179
 extern char * __strsep_g(char **, const char *);
@@ -337,7 +337,7 @@ void config_update_range(const char *key, signed int min, signed int max);
 void config_update_string(const char *key, char *string);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous$0, unsigned int);
+extern signed int connect(signed int, union anonymous_0, unsigned int);
 // dump_cpu_infos
 // file dump.c line 63
 void dump_cpu_infos(void);
@@ -445,16 +445,16 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$4 *);
+extern signed int pthread_mutex_destroy(union anonymous_4 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$4 *, const union anonymous$5 *);
+extern signed int pthread_mutex_init(union anonymous_4 *, const union anonymous_5 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$4 *);
+extern signed int pthread_mutex_lock(union anonymous_4 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$4 *);
+extern signed int pthread_mutex_unlock(union anonymous_4 *);
 // readline
 // file /usr/include/readline/readline.h line 288
 extern char * readline(const char *);
@@ -463,10 +463,10 @@ extern char * readline(const char *);
 extern void * realloc(void *, unsigned long int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, union anonymous$0, unsigned int *);
-// rl_attempted_completion_function$object
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, union anonymous_0, unsigned int *);
+// rl_attempted_completion_function_object
 //
-char ** rl_attempted_completion_function$object(const char *, signed int, signed int);
+char ** rl_attempted_completion_function_object(const char *, signed int, signed int);
 // rl_completion_matches
 // file /usr/include/readline/readline.h line 457
 extern char ** rl_completion_matches(const char *, char * (*)(const char *, signed int));
@@ -490,7 +490,7 @@ extern void rl_redisplay(void);
 extern signed int rl_set_prompt(const char *);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$3 *, struct anonymous$3 *, struct anonymous$3 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_3 *, struct anonymous_3 *, struct anonymous_3 *, struct timeval *);
 // select_thread
 // file network.c line 915
 static void * select_thread(void *data);
@@ -514,7 +514,7 @@ static void show_version(void);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$2 *);
+extern signed int sigemptyset(struct anonymous_2 *);
 // signal
 // file /usr/include/signal.h line 102
 extern void (*signal(signed int, void (*)(signed int)))(signed int);
@@ -606,7 +606,7 @@ void xine_config_update_entry(struct xine_s *, const struct xine_cfg_entry_s *);
 // file utils.c line 44
 signed int xine_system(signed int dont_run_as_root, char *command);
 
-struct anonymous$15
+struct anonymous_15
 {
   // _call_addr
   void *_call_addr;
@@ -616,7 +616,7 @@ struct anonymous$15
   unsigned int _arch;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // si_addr
   void *si_addr;
@@ -624,19 +624,19 @@ struct anonymous$13
   signed short int si_addr_lsb;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // fds_bits
   signed long int fds_bits[16l];
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // si_pid
   signed int si_pid;
@@ -644,7 +644,7 @@ struct anonymous$9
   unsigned int si_uid;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // si_pid
   signed int si_pid;
@@ -666,7 +666,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // si_pid
   signed int si_pid;
@@ -676,7 +676,7 @@ struct anonymous$11
   union sigval si_sigval;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // si_tid
   signed int si_tid;
@@ -686,7 +686,7 @@ struct anonymous$10
   union sigval si_sigval;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // si_band
   signed long int si_band;
@@ -694,27 +694,27 @@ struct anonymous$14
   signed int si_fd;
 };
 
-union anonymous$16
+union anonymous_16
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$9 _kill;
+  struct anonymous_9 _kill;
   // _timer
-  struct anonymous$10 _timer;
+  struct anonymous_10 _timer;
   // _rt
-  struct anonymous$11 _rt;
+  struct anonymous_11 _rt;
   // _sigchld
-  struct anonymous$12 _sigchld;
+  struct anonymous_12 _sigchld;
   // _sigfault
-  struct anonymous$13 _sigfault;
+  struct anonymous_13 _sigfault;
   // _sigpoll
-  struct anonymous$14 _sigpoll;
+  struct anonymous_14 _sigpoll;
   // _sigsys
-  struct anonymous$15 _sigsys;
+  struct anonymous_15 _sigsys;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // si_signo
   signed int si_signo;
@@ -723,18 +723,18 @@ struct anonymous$7
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$16 _sifields;
+  union anonymous_16 _sifields;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$7 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_7 *, void *);
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -744,7 +744,7 @@ union anonymous$6
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __size
   char __size[4l];
@@ -780,7 +780,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -820,7 +820,7 @@ union anonymous
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -939,7 +939,7 @@ struct hostent
 struct in6_addr
 {
   // __in6_u
-  union anonymous$6 __in6_u;
+  union anonymous_6 __in6_u;
 };
 
 struct in_addr
@@ -1019,15 +1019,15 @@ struct session_s
   // thread
   unsigned long int thread;
   // console_mutex
-  union anonymous$4 console_mutex;
+  union anonymous_4 console_mutex;
 };
 
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$1 __sigaction_handler;
+  union anonymous_1 __sigaction_handler;
   // sa_mask
-  struct anonymous$2 sa_mask;
+  struct anonymous_2 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -1248,26 +1248,26 @@ static signed int __sock_write(signed int socket, signed int cr, char *msg, ...)
   void **args = (void **)&msg;
   vsnprintf(buf, (unsigned long int)20480, msg, args);
   args = ((void **)NULL);
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(!(cr == 0))
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(buf);
-    if((signed int)buf[(signed long int)return_value_strlen$2] == 0)
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(buf);
+    if((signed int)buf[(signed long int)return_value_strlen_2] == 0)
     {
-      return_value_strlen$1=strlen(buf);
-      if(!((signed int)buf[-1l + (signed long int)return_value_strlen$1] == 10))
+      return_value_strlen_1=strlen(buf);
+      if(!((signed int)buf[-1l + (signed long int)return_value_strlen_1] == 10))
         strlcat(buf, "\n", sizeof(char [20480l]) /*20480ul*/ );
 
     }
 
   }
 
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(buf);
-  signed int return_value__sock_write$4;
-  return_value__sock_write$4=_sock_write(socket, buf, (signed int)return_value_strlen$3);
-  return return_value__sock_write$4;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(buf);
+  signed int return_value__sock_write_4;
+  return_value__sock_write_4=_sock_write(socket, buf, (signed int)return_value_strlen_3);
+  return return_value__sock_write_4;
 }
 
 // __strsep_1c
@@ -1275,17 +1275,17 @@ static signed int __sock_write(signed int socket, signed int cr, char *msg, ...)
 static inline char * __strsep_1c(char **__s, char __reject)
 {
   char *__retval = *__s;
-  char *return_value___builtin_strchr$2;
-  char *tmp_post$1;
+  char *return_value___builtin_strchr_2;
+  char *tmp_post_1;
   if(!(__retval == ((char *)NULL)))
   {
-    return_value___builtin_strchr$2=__builtin_strchr(__retval, (signed int)__reject);
-    *__s = return_value___builtin_strchr$2;
+    return_value___builtin_strchr_2=__builtin_strchr(__retval, (signed int)__reject);
+    *__s = return_value___builtin_strchr_2;
     if(!(*__s == ((char *)NULL)))
     {
-      tmp_post$1 = *__s;
+      tmp_post_1 = *__s;
       *__s = *__s + 1l;
-      *tmp_post$1 = (char)0;
+      *tmp_post_1 = (char)0;
     }
 
   }
@@ -1293,73 +1293,73 @@ static inline char * __strsep_1c(char **__s, char __reject)
   return __retval;
 }
 
-// __strsep_1c$link1
+// __strsep_1c_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1199
-static inline char * __strsep_1c$link1(char **__s$link1, char __reject$link1)
+static inline char * __strsep_1c_link1(char **__s_link1, char __reject_link1)
 {
-  char *__retval$link1 = *__s$link1;
-  char *return_value___builtin_strchr$2$link1;
-  char *tmp_post$1$link1;
-  if(!(__retval$link1 == ((char *)NULL)))
+  char *__retval_link1 = *__s_link1;
+  char *return_value___builtin_strchr_2_link1;
+  char *tmp_post_1_link1;
+  if(!(__retval_link1 == ((char *)NULL)))
   {
-    return_value___builtin_strchr$2$link1=__builtin_strchr(__retval$link1, (signed int)__reject$link1);
-    *__s$link1 = return_value___builtin_strchr$2$link1;
-    if(!(*__s$link1 == ((char *)NULL)))
+    return_value___builtin_strchr_2_link1=__builtin_strchr(__retval_link1, (signed int)__reject_link1);
+    *__s_link1 = return_value___builtin_strchr_2_link1;
+    if(!(*__s_link1 == ((char *)NULL)))
     {
-      tmp_post$1$link1 = *__s$link1;
-      *__s$link1 = *__s$link1 + 1l;
-      *tmp_post$1$link1 = (char)0;
+      tmp_post_1_link1 = *__s_link1;
+      *__s_link1 = *__s_link1 + 1l;
+      *tmp_post_1_link1 = (char)0;
     }
 
   }
 
-  return __retval$link1;
+  return __retval_link1;
 }
 
-// __strsep_1c$link2
+// __strsep_1c_link2
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1199
-static inline char * __strsep_1c$link2(char **__s$link2, char __reject$link2)
+static inline char * __strsep_1c_link2(char **__s_link2, char __reject_link2)
 {
-  char *__retval$link2 = *__s$link2;
-  char *return_value___builtin_strchr$2$link2;
-  char *tmp_post$1$link2;
-  if(!(__retval$link2 == ((char *)NULL)))
+  char *__retval_link2 = *__s_link2;
+  char *return_value___builtin_strchr_2_link2;
+  char *tmp_post_1_link2;
+  if(!(__retval_link2 == ((char *)NULL)))
   {
-    return_value___builtin_strchr$2$link2=__builtin_strchr(__retval$link2, (signed int)__reject$link2);
-    *__s$link2 = return_value___builtin_strchr$2$link2;
-    if(!(*__s$link2 == ((char *)NULL)))
+    return_value___builtin_strchr_2_link2=__builtin_strchr(__retval_link2, (signed int)__reject_link2);
+    *__s_link2 = return_value___builtin_strchr_2_link2;
+    if(!(*__s_link2 == ((char *)NULL)))
     {
-      tmp_post$1$link2 = *__s$link2;
-      *__s$link2 = *__s$link2 + 1l;
-      *tmp_post$1$link2 = (char)0;
+      tmp_post_1_link2 = *__s_link2;
+      *__s_link2 = *__s_link2 + 1l;
+      *tmp_post_1_link2 = (char)0;
     }
 
   }
 
-  return __retval$link2;
+  return __retval_link2;
 }
 
-// __strsep_1c$link3
+// __strsep_1c_link3
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1199
-static inline char * __strsep_1c$link3(char **__s$link3, char __reject$link3)
+static inline char * __strsep_1c_link3(char **__s_link3, char __reject_link3)
 {
-  char *__retval$link3 = *__s$link3;
-  char *return_value___builtin_strchr$2$link3;
-  char *tmp_post$1$link3;
-  if(!(__retval$link3 == ((char *)NULL)))
+  char *__retval_link3 = *__s_link3;
+  char *return_value___builtin_strchr_2_link3;
+  char *tmp_post_1_link3;
+  if(!(__retval_link3 == ((char *)NULL)))
   {
-    return_value___builtin_strchr$2$link3=__builtin_strchr(__retval$link3, (signed int)__reject$link3);
-    *__s$link3 = return_value___builtin_strchr$2$link3;
-    if(!(*__s$link3 == ((char *)NULL)))
+    return_value___builtin_strchr_2_link3=__builtin_strchr(__retval_link3, (signed int)__reject_link3);
+    *__s_link3 = return_value___builtin_strchr_2_link3;
+    if(!(*__s_link3 == ((char *)NULL)))
     {
-      tmp_post$1$link3 = *__s$link3;
-      *__s$link3 = *__s$link3 + 1l;
-      *tmp_post$1$link3 = (char)0;
+      tmp_post_1_link3 = *__s_link3;
+      *__s_link3 = *__s_link3 + 1l;
+      *tmp_post_1_link3 = (char)0;
     }
 
   }
 
-  return __retval$link3;
+  return __retval_link3;
 }
 
 // __strsep_2c
@@ -1367,8 +1367,8 @@ static inline char * __strsep_1c$link3(char **__s$link3, char __reject$link3)
 static inline char * __strsep_2c(char **__s, char __reject1, char __reject2)
 {
   char *__retval = *__s;
-  _Bool tmp_if_expr$2;
-  char *tmp_post$1;
+  _Bool tmp_if_expr_2;
+  char *tmp_post_1;
   if(!(__retval == ((char *)NULL)))
   {
     char *__cp = __retval;
@@ -1381,15 +1381,15 @@ static inline char * __strsep_2c(char **__s, char __reject1, char __reject2)
       }
 
       if(*__cp == __reject1)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = *__cp == __reject2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = *__cp == __reject2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
-        tmp_post$1 = __cp;
+        tmp_post_1 = __cp;
         __cp = __cp + 1l;
-        *tmp_post$1 = (char)0;
+        *tmp_post_1 = (char)0;
         break;
       }
 
@@ -1400,118 +1400,118 @@ static inline char * __strsep_2c(char **__s, char __reject1, char __reject2)
   return __retval;
 }
 
-// __strsep_2c$link1
+// __strsep_2c_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1209
-static inline char * __strsep_2c$link1(char **__s$link1, char __reject1$link1, char __reject2$link1)
+static inline char * __strsep_2c_link1(char **__s_link1, char __reject1_link1, char __reject2_link1)
 {
-  char *__retval$link1 = *__s$link1;
-  _Bool tmp_if_expr$2$link1;
-  char *tmp_post$1$link1;
-  if(!(__retval$link1 == ((char *)NULL)))
+  char *__retval_link1 = *__s_link1;
+  _Bool tmp_if_expr_2_link1;
+  char *tmp_post_1_link1;
+  if(!(__retval_link1 == ((char *)NULL)))
   {
-    char *__cp$link1 = __retval$link1;
-    for( ; (_Bool)1; __cp$link1 = __cp$link1 + 1l)
+    char *__cp_link1 = __retval_link1;
+    for( ; (_Bool)1; __cp_link1 = __cp_link1 + 1l)
     {
-      if((signed int)*__cp$link1 == 0)
+      if((signed int)*__cp_link1 == 0)
       {
-        __cp$link1 = (char *)(void *)0;
+        __cp_link1 = (char *)(void *)0;
         break;
       }
 
-      if(*__cp$link1 == __reject1$link1)
-        tmp_if_expr$2$link1 = (_Bool)1;
+      if(*__cp_link1 == __reject1_link1)
+        tmp_if_expr_2_link1 = (_Bool)1;
 
       else
-        tmp_if_expr$2$link1 = *__cp$link1 == __reject2$link1 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2$link1)
+        tmp_if_expr_2_link1 = *__cp_link1 == __reject2_link1 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2_link1)
       {
-        tmp_post$1$link1 = __cp$link1;
-        __cp$link1 = __cp$link1 + 1l;
-        *tmp_post$1$link1 = (char)0;
+        tmp_post_1_link1 = __cp_link1;
+        __cp_link1 = __cp_link1 + 1l;
+        *tmp_post_1_link1 = (char)0;
         break;
       }
 
     }
-    *__s$link1 = __cp$link1;
+    *__s_link1 = __cp_link1;
   }
 
-  return __retval$link1;
+  return __retval_link1;
 }
 
-// __strsep_2c$link2
+// __strsep_2c_link2
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1209
-static inline char * __strsep_2c$link2(char **__s$link2, char __reject1$link2, char __reject2$link2)
+static inline char * __strsep_2c_link2(char **__s_link2, char __reject1_link2, char __reject2_link2)
 {
-  char *__retval$link2 = *__s$link2;
-  _Bool tmp_if_expr$2$link2;
-  char *tmp_post$1$link2;
-  if(!(__retval$link2 == ((char *)NULL)))
+  char *__retval_link2 = *__s_link2;
+  _Bool tmp_if_expr_2_link2;
+  char *tmp_post_1_link2;
+  if(!(__retval_link2 == ((char *)NULL)))
   {
-    char *__cp$link2 = __retval$link2;
-    for( ; (_Bool)1; __cp$link2 = __cp$link2 + 1l)
+    char *__cp_link2 = __retval_link2;
+    for( ; (_Bool)1; __cp_link2 = __cp_link2 + 1l)
     {
-      if((signed int)*__cp$link2 == 0)
+      if((signed int)*__cp_link2 == 0)
       {
-        __cp$link2 = (char *)(void *)0;
+        __cp_link2 = (char *)(void *)0;
         break;
       }
 
-      if(*__cp$link2 == __reject1$link2)
-        tmp_if_expr$2$link2 = (_Bool)1;
+      if(*__cp_link2 == __reject1_link2)
+        tmp_if_expr_2_link2 = (_Bool)1;
 
       else
-        tmp_if_expr$2$link2 = *__cp$link2 == __reject2$link2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2$link2)
+        tmp_if_expr_2_link2 = *__cp_link2 == __reject2_link2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2_link2)
       {
-        tmp_post$1$link2 = __cp$link2;
-        __cp$link2 = __cp$link2 + 1l;
-        *tmp_post$1$link2 = (char)0;
+        tmp_post_1_link2 = __cp_link2;
+        __cp_link2 = __cp_link2 + 1l;
+        *tmp_post_1_link2 = (char)0;
         break;
       }
 
     }
-    *__s$link2 = __cp$link2;
+    *__s_link2 = __cp_link2;
   }
 
-  return __retval$link2;
+  return __retval_link2;
 }
 
-// __strsep_2c$link3
+// __strsep_2c_link3
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1209
-static inline char * __strsep_2c$link3(char **__s$link3, char __reject1$link3, char __reject2$link3)
+static inline char * __strsep_2c_link3(char **__s_link3, char __reject1_link3, char __reject2_link3)
 {
-  char *__retval$link3 = *__s$link3;
-  _Bool tmp_if_expr$2$link3;
-  char *tmp_post$1$link3;
-  if(!(__retval$link3 == ((char *)NULL)))
+  char *__retval_link3 = *__s_link3;
+  _Bool tmp_if_expr_2_link3;
+  char *tmp_post_1_link3;
+  if(!(__retval_link3 == ((char *)NULL)))
   {
-    char *__cp$link3 = __retval$link3;
-    for( ; (_Bool)1; __cp$link3 = __cp$link3 + 1l)
+    char *__cp_link3 = __retval_link3;
+    for( ; (_Bool)1; __cp_link3 = __cp_link3 + 1l)
     {
-      if((signed int)*__cp$link3 == 0)
+      if((signed int)*__cp_link3 == 0)
       {
-        __cp$link3 = (char *)(void *)0;
+        __cp_link3 = (char *)(void *)0;
         break;
       }
 
-      if(*__cp$link3 == __reject1$link3)
-        tmp_if_expr$2$link3 = (_Bool)1;
+      if(*__cp_link3 == __reject1_link3)
+        tmp_if_expr_2_link3 = (_Bool)1;
 
       else
-        tmp_if_expr$2$link3 = *__cp$link3 == __reject2$link3 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2$link3)
+        tmp_if_expr_2_link3 = *__cp_link3 == __reject2_link3 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2_link3)
       {
-        tmp_post$1$link3 = __cp$link3;
-        __cp$link3 = __cp$link3 + 1l;
-        *tmp_post$1$link3 = (char)0;
+        tmp_post_1_link3 = __cp_link3;
+        __cp_link3 = __cp_link3 + 1l;
+        *tmp_post_1_link3 = (char)0;
         break;
       }
 
     }
-    *__s$link3 = __cp$link3;
+    *__s_link3 = __cp_link3;
   }
 
-  return __retval$link3;
+  return __retval_link3;
 }
 
 // __strsep_3c
@@ -1519,9 +1519,9 @@ static inline char * __strsep_2c$link3(char **__s$link3, char __reject1$link3, c
 static inline char * __strsep_3c(char **__s, char __reject1, char __reject2, char __reject3)
 {
   char *__retval = *__s;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  char *tmp_post$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  char *tmp_post_1;
   if(!(__retval == ((char *)NULL)))
   {
     char *__cp = __retval;
@@ -1534,20 +1534,20 @@ static inline char * __strsep_3c(char **__s, char __reject1, char __reject2, cha
       }
 
       if(*__cp == __reject1)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = *__cp == __reject2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_2 = *__cp == __reject2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = *__cp == __reject3 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = *__cp == __reject3 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
-        tmp_post$1 = __cp;
+        tmp_post_1 = __cp;
         __cp = __cp + 1l;
-        *tmp_post$1 = (char)0;
+        *tmp_post_1 = (char)0;
         break;
       }
 
@@ -1558,136 +1558,136 @@ static inline char * __strsep_3c(char **__s, char __reject1, char __reject2, cha
   return __retval;
 }
 
-// __strsep_3c$link1
+// __strsep_3c_link1
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1237
-static inline char * __strsep_3c$link1(char **__s$link1, char __reject1$link1, char __reject2$link1, char __reject3$link1)
+static inline char * __strsep_3c_link1(char **__s_link1, char __reject1_link1, char __reject2_link1, char __reject3_link1)
 {
-  char *__retval$link1 = *__s$link1;
-  _Bool tmp_if_expr$2$link1;
-  _Bool tmp_if_expr$3$link1;
-  char *tmp_post$1$link1;
-  if(!(__retval$link1 == ((char *)NULL)))
+  char *__retval_link1 = *__s_link1;
+  _Bool tmp_if_expr_2_link1;
+  _Bool tmp_if_expr_3_link1;
+  char *tmp_post_1_link1;
+  if(!(__retval_link1 == ((char *)NULL)))
   {
-    char *__cp$link1 = __retval$link1;
-    for( ; (_Bool)1; __cp$link1 = __cp$link1 + 1l)
+    char *__cp_link1 = __retval_link1;
+    for( ; (_Bool)1; __cp_link1 = __cp_link1 + 1l)
     {
-      if((signed int)*__cp$link1 == 0)
+      if((signed int)*__cp_link1 == 0)
       {
-        __cp$link1 = (char *)(void *)0;
+        __cp_link1 = (char *)(void *)0;
         break;
       }
 
-      if(*__cp$link1 == __reject1$link1)
-        tmp_if_expr$2$link1 = (_Bool)1;
+      if(*__cp_link1 == __reject1_link1)
+        tmp_if_expr_2_link1 = (_Bool)1;
 
       else
-        tmp_if_expr$2$link1 = *__cp$link1 == __reject2$link1 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2$link1)
-        tmp_if_expr$3$link1 = (_Bool)1;
+        tmp_if_expr_2_link1 = *__cp_link1 == __reject2_link1 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2_link1)
+        tmp_if_expr_3_link1 = (_Bool)1;
 
       else
-        tmp_if_expr$3$link1 = *__cp$link1 == __reject3$link1 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3$link1)
+        tmp_if_expr_3_link1 = *__cp_link1 == __reject3_link1 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3_link1)
       {
-        tmp_post$1$link1 = __cp$link1;
-        __cp$link1 = __cp$link1 + 1l;
-        *tmp_post$1$link1 = (char)0;
+        tmp_post_1_link1 = __cp_link1;
+        __cp_link1 = __cp_link1 + 1l;
+        *tmp_post_1_link1 = (char)0;
         break;
       }
 
     }
-    *__s$link1 = __cp$link1;
+    *__s_link1 = __cp_link1;
   }
 
-  return __retval$link1;
+  return __retval_link1;
 }
 
-// __strsep_3c$link2
+// __strsep_3c_link2
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1237
-static inline char * __strsep_3c$link2(char **__s$link2, char __reject1$link2, char __reject2$link2, char __reject3$link2)
+static inline char * __strsep_3c_link2(char **__s_link2, char __reject1_link2, char __reject2_link2, char __reject3_link2)
 {
-  char *__retval$link2 = *__s$link2;
-  _Bool tmp_if_expr$2$link2;
-  _Bool tmp_if_expr$3$link2;
-  char *tmp_post$1$link2;
-  if(!(__retval$link2 == ((char *)NULL)))
+  char *__retval_link2 = *__s_link2;
+  _Bool tmp_if_expr_2_link2;
+  _Bool tmp_if_expr_3_link2;
+  char *tmp_post_1_link2;
+  if(!(__retval_link2 == ((char *)NULL)))
   {
-    char *__cp$link2 = __retval$link2;
-    for( ; (_Bool)1; __cp$link2 = __cp$link2 + 1l)
+    char *__cp_link2 = __retval_link2;
+    for( ; (_Bool)1; __cp_link2 = __cp_link2 + 1l)
     {
-      if((signed int)*__cp$link2 == 0)
+      if((signed int)*__cp_link2 == 0)
       {
-        __cp$link2 = (char *)(void *)0;
+        __cp_link2 = (char *)(void *)0;
         break;
       }
 
-      if(*__cp$link2 == __reject1$link2)
-        tmp_if_expr$2$link2 = (_Bool)1;
+      if(*__cp_link2 == __reject1_link2)
+        tmp_if_expr_2_link2 = (_Bool)1;
 
       else
-        tmp_if_expr$2$link2 = *__cp$link2 == __reject2$link2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2$link2)
-        tmp_if_expr$3$link2 = (_Bool)1;
+        tmp_if_expr_2_link2 = *__cp_link2 == __reject2_link2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2_link2)
+        tmp_if_expr_3_link2 = (_Bool)1;
 
       else
-        tmp_if_expr$3$link2 = *__cp$link2 == __reject3$link2 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3$link2)
+        tmp_if_expr_3_link2 = *__cp_link2 == __reject3_link2 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3_link2)
       {
-        tmp_post$1$link2 = __cp$link2;
-        __cp$link2 = __cp$link2 + 1l;
-        *tmp_post$1$link2 = (char)0;
+        tmp_post_1_link2 = __cp_link2;
+        __cp_link2 = __cp_link2 + 1l;
+        *tmp_post_1_link2 = (char)0;
         break;
       }
 
     }
-    *__s$link2 = __cp$link2;
+    *__s_link2 = __cp_link2;
   }
 
-  return __retval$link2;
+  return __retval_link2;
 }
 
-// __strsep_3c$link3
+// __strsep_3c_link3
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 1237
-static inline char * __strsep_3c$link3(char **__s$link3, char __reject1$link3, char __reject2$link3, char __reject3$link3)
+static inline char * __strsep_3c_link3(char **__s_link3, char __reject1_link3, char __reject2_link3, char __reject3_link3)
 {
-  char *__retval$link3 = *__s$link3;
-  _Bool tmp_if_expr$2$link3;
-  _Bool tmp_if_expr$3$link3;
-  char *tmp_post$1$link3;
-  if(!(__retval$link3 == ((char *)NULL)))
+  char *__retval_link3 = *__s_link3;
+  _Bool tmp_if_expr_2_link3;
+  _Bool tmp_if_expr_3_link3;
+  char *tmp_post_1_link3;
+  if(!(__retval_link3 == ((char *)NULL)))
   {
-    char *__cp$link3 = __retval$link3;
-    for( ; (_Bool)1; __cp$link3 = __cp$link3 + 1l)
+    char *__cp_link3 = __retval_link3;
+    for( ; (_Bool)1; __cp_link3 = __cp_link3 + 1l)
     {
-      if((signed int)*__cp$link3 == 0)
+      if((signed int)*__cp_link3 == 0)
       {
-        __cp$link3 = (char *)(void *)0;
+        __cp_link3 = (char *)(void *)0;
         break;
       }
 
-      if(*__cp$link3 == __reject1$link3)
-        tmp_if_expr$2$link3 = (_Bool)1;
+      if(*__cp_link3 == __reject1_link3)
+        tmp_if_expr_2_link3 = (_Bool)1;
 
       else
-        tmp_if_expr$2$link3 = *__cp$link3 == __reject2$link3 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2$link3)
-        tmp_if_expr$3$link3 = (_Bool)1;
+        tmp_if_expr_2_link3 = *__cp_link3 == __reject2_link3 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2_link3)
+        tmp_if_expr_3_link3 = (_Bool)1;
 
       else
-        tmp_if_expr$3$link3 = *__cp$link3 == __reject3$link3 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3$link3)
+        tmp_if_expr_3_link3 = *__cp_link3 == __reject3_link3 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3_link3)
       {
-        tmp_post$1$link3 = __cp$link3;
-        __cp$link3 = __cp$link3 + 1l;
-        *tmp_post$1$link3 = (char)0;
+        tmp_post_1_link3 = __cp_link3;
+        __cp_link3 = __cp_link3 + 1l;
+        *tmp_post_1_link3 = (char)0;
         break;
       }
 
     }
-    *__s$link3 = __cp$link3;
+    *__s_link3 = __cp_link3;
   }
 
-  return __retval$link3;
+  return __retval_link3;
 }
 
 // _atoa
@@ -1747,19 +1747,19 @@ static signed int _mkdir_safe(char *path)
 
   else
   {
-    signed int return_value_stat$5;
-    return_value_stat$5=stat(path, &pstat);
-    if(!(return_value_stat$5 >= 0))
+    signed int return_value_stat_5;
+    return_value_stat_5=stat(path, &pstat);
+    if(!(return_value_stat_5 >= 0))
     {
-      signed int return_value_mkdir$3;
-      return_value_mkdir$3=mkdir(path, (unsigned int)0755);
-      if(!(return_value_mkdir$3 >= 0))
+      signed int return_value_mkdir_3;
+      return_value_mkdir_3=mkdir(path, (unsigned int)0755);
+      if(!(return_value_mkdir_3 >= 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        fprintf(stderr, "mkdir(%s) failed: %s\n", path, return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        fprintf(stderr, "mkdir(%s) failed: %s\n", path, return_value_strerror_2);
         return 0;
       }
 
@@ -1769,9 +1769,9 @@ static signed int _mkdir_safe(char *path)
       if(!((61440u & pstat.st_mode) == 16384u))
       {
         fprintf(stderr, "%s is not a directory.\n", path);
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        *return_value___errno_location$4 = 17;
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        *return_value___errno_location_4 = 17;
         return 0;
       }
 
@@ -1790,9 +1790,9 @@ static signed int _sock_write(signed int socket, char *buf, signed int len)
 
   else
   {
-    signed int return_value_sock_check_opened$1;
-    return_value_sock_check_opened$1=sock_check_opened(socket);
-    if(return_value_sock_check_opened$1 == 0)
+    signed int return_value_sock_check_opened_1;
+    return_value_sock_check_opened_1=sock_check_opened(socket);
+    if(return_value_sock_check_opened_1 == 0)
       return -1;
 
     else
@@ -1852,27 +1852,27 @@ char * atoa(char *str)
 
     *pbuf = (char)0;
   }
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(quote == 0))
-    tmp_if_expr$1 = (signed int)*pbuf == 39 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)*pbuf == 39 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
     if(!(dblquote == 0))
-      tmp_if_expr$2 = (signed int)*pbuf == 34 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)*pbuf == 34 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
   {
     *pbuf = (char)0;
     pbuf = pbuf - 1l;
@@ -1890,27 +1890,27 @@ char * atoa(char *str)
 
 __CPROVER_DUMP_L20:
   ;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(!(quote == 0))
-    tmp_if_expr$4 = (signed int)*pbuf == 39 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = (signed int)*pbuf == 39 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)0;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
   {
     if(!(dblquote == 0))
-      tmp_if_expr$5 = (signed int)*pbuf == 34 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (signed int)*pbuf == 34 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (_Bool)0;
+    tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$6)
+  if(tmp_if_expr_6)
     pbuf = pbuf + 1l;
 
   return pbuf;
@@ -1920,9 +1920,9 @@ __CPROVER_DUMP_L20:
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // client_close
@@ -1956,27 +1956,27 @@ static void client_handle_command(struct session_s *session, const char *command
   signed int found;
   char cmd[20480l];
   char *p;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(command == ((const char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strlen$1=strlen(command);
-    tmp_if_expr$2 = return_value_strlen$1 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_1=strlen(command);
+    tmp_if_expr_2 = return_value_strlen_1 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
   }
-  char *tmp_post$4;
-  char *tmp_post$5;
-  _Bool tmp_if_expr$13;
-  unsigned long int return_value_strlen$11;
-  signed int return_value_strncasecmp$12;
-  if(!tmp_if_expr$2)
+  char *tmp_post_4;
+  char *tmp_post_5;
+  _Bool tmp_if_expr_13;
+  unsigned long int return_value_strlen_11;
+  signed int return_value_strncasecmp_12;
+  if(!tmp_if_expr_2)
   {
     strlcpy(cmd, command, sizeof(char [20480l]) /*20480ul*/ );
-    char *return_value___builtin_strchr$3;
-    return_value___builtin_strchr$3=__builtin_strchr(cmd, 32);
-    p = return_value___builtin_strchr$3;
+    char *return_value___builtin_strchr_3;
+    return_value___builtin_strchr_3=__builtin_strchr(cmd, 32);
+    p = return_value___builtin_strchr_3;
     if(!(p == ((char *)NULL)))
       *p = (char)0;
 
@@ -1989,11 +1989,11 @@ static void client_handle_command(struct session_s *session, const char *command
 
       if(!(session_commands[(signed long int)i]->enable == 0))
       {
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen(cmd);
-        signed int return_value_strncasecmp$8;
-        return_value_strncasecmp$8=strncasecmp(cmd, session_commands[(signed long int)i]->command, return_value_strlen$7);
-        if(return_value_strncasecmp$8 == 0)
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen(cmd);
+        signed int return_value_strncasecmp_8;
+        return_value_strncasecmp_8=strncasecmp(cmd, session_commands[(signed long int)i]->command, return_value_strlen_7);
+        if(return_value_strncasecmp_8 == 0)
         {
           found = found + 1;
           if(session_commands[(signed long int)i]->origin == 2)
@@ -2005,38 +2005,38 @@ static void client_handle_command(struct session_s *session, const char *command
 
           else
           {
-            char *client_handle_command$$1$$1$$1$$1$$2$$p;
+            char *client_handle_command__1__1__1__1__2__p;
             char *pp;
             char buf[20480l];
-            client_handle_command$$1$$1$$1$$1$$2$$p = (char *)command;
+            client_handle_command__1__1__1__1__2__p = (char *)command;
             pp = buf;
-            for( ; !((signed int)*client_handle_command$$1$$1$$1$$1$$2$$p == 0); client_handle_command$$1$$1$$1$$1$$2$$p = client_handle_command$$1$$1$$1$$1$$2$$p + 1l)
+            for( ; !((signed int)*client_handle_command__1__1__1__1__2__p == 0); client_handle_command__1__1__1__1__2__p = client_handle_command__1__1__1__1__2__p + 1l)
             {
-              if((signed int)*client_handle_command$$1$$1$$1$$1$$2$$p == 37)
+              if((signed int)*client_handle_command__1__1__1__1__2__p == 37)
               {
-                if(!((signed int)client_handle_command$$1$$1$$1$$1$$2$$p[1l] == 37))
+                if(!((signed int)client_handle_command__1__1__1__1__2__p[1l] == 37))
                 {
-                  tmp_post$4 = pp;
+                  tmp_post_4 = pp;
                   pp = pp + 1l;
-                  *tmp_post$4 = (char)37;
-                  tmp_post$5 = pp;
+                  *tmp_post_4 = (char)37;
+                  tmp_post_5 = pp;
                   pp = pp + 1l;
-                  *tmp_post$5 = (char)37;
+                  *tmp_post_5 = (char)37;
                 }
 
                 goto __CPROVER_DUMP_L12;
               }
 
-              *pp = *client_handle_command$$1$$1$$1$$1$$2$$p;
+              *pp = *client_handle_command__1__1__1__1__2__p;
               pp = pp + 1l;
 
             __CPROVER_DUMP_L12:
               ;
             }
             *pp = (char)0;
-            signed int return_value___sock_write$6;
-            return_value___sock_write$6=__sock_write(session->socket, 1, "%s", (const void *)buf);
-            if(return_value___sock_write$6 == -1)
+            signed int return_value___sock_write_6;
+            return_value___sock_write_6=__sock_write(session->socket, 1, "%s", (const void *)buf);
+            if(return_value___sock_write_6 == -1)
               session->running = 0;
 
           }
@@ -2048,20 +2048,20 @@ static void client_handle_command(struct session_s *session, const char *command
     if(found == 0)
       __sock_write(session->socket, 1, "%s", (char *)command);
 
-    unsigned long int return_value_strlen$9;
-    return_value_strlen$9=strlen(cmd);
-    signed int return_value_strncasecmp$10;
-    return_value_strncasecmp$10=strncasecmp(cmd, "exit", return_value_strlen$9);
-    if(return_value_strncasecmp$10 == 0)
-      tmp_if_expr$13 = (_Bool)1;
+    unsigned long int return_value_strlen_9;
+    return_value_strlen_9=strlen(cmd);
+    signed int return_value_strncasecmp_10;
+    return_value_strncasecmp_10=strncasecmp(cmd, "exit", return_value_strlen_9);
+    if(return_value_strncasecmp_10 == 0)
+      tmp_if_expr_13 = (_Bool)1;
 
     else
     {
-      return_value_strlen$11=strlen(cmd);
-      return_value_strncasecmp$12=strncasecmp(cmd, "halt", return_value_strlen$11);
-      tmp_if_expr$13 = !(return_value_strncasecmp$12 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strlen_11=strlen(cmd);
+      return_value_strncasecmp_12=strncasecmp(cmd, "halt", return_value_strlen_11);
+      tmp_if_expr_13 = !(return_value_strncasecmp_12 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$13)
+    if(tmp_if_expr_13)
     {
       session_create_commands(session);
       session->socket = -1;
@@ -2080,15 +2080,15 @@ static void client_help(struct session_s *session, struct session_commands_s *co
   unsigned long int j;
   signed int curpos = 0;
   char buf[20480l] = { 'A', 'v', 'a', 'i', 'l', 'a', 'b', 'l', 'e', ' ', 'c', 'o', 'm', 'm', 'a', 'n', 'd', 's', ' ', 'a', 'r', 'e', ':', '\n', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-  unsigned long int return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
   if(!(command == ((struct session_commands_s *)NULL)) && !(session == ((struct session_s *)NULL)))
   {
     for( ; !(session_commands[(signed long int)i]->command == ((char *)NULL)); i = i + 1)
       if(!(session_commands[(signed long int)i]->enable == 0))
       {
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(session_commands[(signed long int)i]->command);
-        if(!(maxlen >= return_value_strlen$1))
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(session_commands[(signed long int)i]->command);
+        if(!(maxlen >= return_value_strlen_1))
           maxlen=strlen(session_commands[(signed long int)i]->command);
 
       }
@@ -2106,14 +2106,14 @@ static void client_help(struct session_s *session, struct session_commands_s *co
         }
 
         strlcat(buf, session_commands[(signed long int)i]->command, sizeof(char [20480l]) /*20480ul*/ );
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(session_commands[(signed long int)i]->command);
-        curpos = curpos + (signed int)return_value_strlen$2;
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(session_commands[(signed long int)i]->command);
+        curpos = curpos + (signed int)return_value_strlen_2;
         j = (unsigned long int)0;
         do
         {
-          return_value_strlen$3=strlen(session_commands[(signed long int)i]->command);
-          if(j >= maxlen + -return_value_strlen$3)
+          return_value_strlen_3=strlen(session_commands[(signed long int)i]->command);
+          if(j >= maxlen + -return_value_strlen_3)
             break;
 
           strlcat(buf, " ", sizeof(char [20480l]) /*20480ul*/ );
@@ -2154,18 +2154,18 @@ static void client_open(struct session_s *session, struct session_commands_s *co
       {
         strlcpy(buf, cmd, sizeof(char [20480l]) /*20480ul*/ );
         pbuf = buf;
-        char *return_value___builtin_strchr$2;
-        return_value___builtin_strchr$2=__builtin_strchr(pbuf, 32);
-        p = return_value___builtin_strchr$2;
+        char *return_value___builtin_strchr_2;
+        return_value___builtin_strchr_2=__builtin_strchr(pbuf, 32);
+        p = return_value___builtin_strchr_2;
         if(!(p == ((char *)NULL)))
         {
           host=_atoa(p);
           port=strrchr(p, 58);
           if(!(port == ((char *)NULL)))
           {
-            unsigned long int return_value_strlen$1;
-            return_value_strlen$1=strlen(port);
-            if(return_value_strlen$1 >= 2ul)
+            unsigned long int return_value_strlen_1;
+            return_value_strlen_1=strlen(port);
+            if(return_value_strlen_1 >= 2ul)
             {
               *port = (char)0;
               port = port + 1l;
@@ -2190,11 +2190,11 @@ static void client_open(struct session_s *session, struct session_commands_s *co
           session->socket=sock_client(session->host, session->port, "tcp");
           if(!(session->socket >= 0))
           {
-            signed int *return_value___errno_location$3;
-            return_value___errno_location$3=__errno_location();
-            char *return_value_strerror$4;
-            return_value_strerror$4=strerror(*return_value___errno_location$3);
-            write_to_console(session, "opening server '%s' failed: %s.\nExiting.\n", (const void *)session->host, return_value_strerror$4);
+            signed int *return_value___errno_location_3;
+            return_value___errno_location_3=__errno_location();
+            char *return_value_strerror_4;
+            return_value_strerror_4=strerror(*return_value___errno_location_3);
+            write_to_console(session, "opening server '%s' failed: %s.\nExiting.\n", (const void *)session->host, return_value_strerror_4);
             session->running = 0;
           }
 
@@ -2238,9 +2238,9 @@ static char * command_generator(const char *text, signed int state)
   if(state == 0)
   {
     index = 0;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(text);
-    len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(text);
+    len = (signed int)return_value_strlen_1;
   }
 
   if(!(len == 0))
@@ -2253,13 +2253,13 @@ static char * command_generator(const char *text, signed int state)
       index = index + 1;
       if(!(session_commands[(signed long int)(index + -1)]->enable == 0))
       {
-        signed int return_value_strncasecmp$3;
-        return_value_strncasecmp$3=strncasecmp(cmd, text, (unsigned long int)len);
-        if(return_value_strncasecmp$3 == 0)
+        signed int return_value_strncasecmp_3;
+        return_value_strncasecmp_3=strncasecmp(cmd, text, (unsigned long int)len);
+        if(return_value_strncasecmp_3 == 0)
         {
-          char *return_value___strdup$2;
-          return_value___strdup$2=__strdup(cmd);
-          retcmd = return_value___strdup$2;
+          char *return_value___strdup_2;
+          return_value___strdup_2=__strdup(cmd);
+          retcmd = return_value___strdup_2;
           return retcmd;
         }
 
@@ -2290,30 +2290,30 @@ void config_mrl(const char *mrl)
   char *key;
   char *config;
   char *_mrl;
-  signed int return_value_xine_config_lookup_entry$1;
-  return_value_xine_config_lookup_entry$1=xine_config_lookup_entry(__xineui_global_xine_instance, "misc.implicit_config", &entry);
-  unsigned long int return_value_strlen$4;
-  char *tmp_statement_expression$5;
-  unsigned long int return_value_strlen$9;
-  char *tmp_post$8;
-  unsigned long int return_value_strlen$13;
-  signed long int return_value_strtol$10;
-  signed int return_value_get_bool_value$11;
-  if(entry.num_value == 0 || return_value_xine_config_lookup_entry$1 == 0 || !(entry.type == 5))
+  signed int return_value_xine_config_lookup_entry_1;
+  return_value_xine_config_lookup_entry_1=xine_config_lookup_entry(__xineui_global_xine_instance, "misc.implicit_config", &entry);
+  unsigned long int return_value_strlen_4;
+  char *tmp_statement_expression_5;
+  unsigned long int return_value_strlen_9;
+  char *tmp_post_8;
+  unsigned long int return_value_strlen_13;
+  signed long int return_value_strtol_10;
+  signed int return_value_get_bool_value_11;
+  if(entry.num_value == 0 || return_value_xine_config_lookup_entry_1 == 0 || !(entry.type == 5))
     fprintf(stderr, "You tried to change the configuration with a cfg: MRL.\nThis is not allowed unless you enable the 'misc.implicit_config' setting after reading and understanding its help text.");
 
   else
   {
-    char *return_value___strdup$2;
-    return_value___strdup$2=__strdup(mrl);
-    _mrl = return_value___strdup$2;
-    char *return_value___builtin_strchr$3;
-    return_value___builtin_strchr$3=__builtin_strchr(_mrl, 47);
-    config = return_value___builtin_strchr$3;
+    char *return_value___strdup_2;
+    return_value___strdup_2=__strdup(mrl);
+    _mrl = return_value___strdup_2;
+    char *return_value___builtin_strchr_3;
+    return_value___builtin_strchr_3=__builtin_strchr(_mrl, 47);
+    config = return_value___builtin_strchr_3;
     if(!(config == ((char *)NULL)))
     {
-      return_value_strlen$4=strlen(config);
-      if(!(return_value_strlen$4 == 0ul))
+      return_value_strlen_4=strlen(config);
+      if(!(return_value_strlen_4 == 0ul))
         config = config + 1l;
 
     }
@@ -2323,37 +2323,37 @@ void config_mrl(const char *mrl)
       char __r0;
       char __r1;
       char __r2;
-      char *return_value___strsep_g$6;
-      return_value___strsep_g$6=__strsep_g(&config, ",");
-      tmp_statement_expression$5 = return_value___strsep_g$6;
-      key = tmp_statement_expression$5;
+      char *return_value___strsep_g_6;
+      return_value___strsep_g_6=__strsep_g(&config, ",");
+      tmp_statement_expression_5 = return_value___strsep_g_6;
+      key = tmp_statement_expression_5;
       if(key == ((char *)NULL))
         break;
 
       char *str_value;
-      char *return_value___builtin_strchr$7;
-      return_value___builtin_strchr$7=__builtin_strchr(key, 58);
-      str_value = return_value___builtin_strchr$7;
+      char *return_value___builtin_strchr_7;
+      return_value___builtin_strchr_7=__builtin_strchr(key, 58);
+      str_value = return_value___builtin_strchr_7;
       if(!(str_value == ((char *)NULL)))
       {
-        return_value_strlen$9=strlen(str_value);
-        if(!(return_value_strlen$9 == 0ul))
+        return_value_strlen_9=strlen(str_value);
+        if(!(return_value_strlen_9 == 0ul))
         {
-          tmp_post$8 = str_value;
+          tmp_post_8 = str_value;
           str_value = str_value + 1l;
-          *tmp_post$8 = (char)0;
+          *tmp_post_8 = (char)0;
         }
 
       }
 
       if(!(str_value == ((char *)NULL)))
       {
-        return_value_strlen$13=strlen(str_value);
-        if(!(return_value_strlen$13 == 0ul))
+        return_value_strlen_13=strlen(str_value);
+        if(!(return_value_strlen_13 == 0ul))
         {
-          signed int return_value_xine_config_lookup_entry$12;
-          return_value_xine_config_lookup_entry$12=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
-          if(!(return_value_xine_config_lookup_entry$12 == 0))
+          signed int return_value_xine_config_lookup_entry_12;
+          return_value_xine_config_lookup_entry_12=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
+          if(!(return_value_xine_config_lookup_entry_12 == 0))
           {
             if(entry.exp_level >= 30)
             {
@@ -2374,14 +2374,14 @@ void config_mrl(const char *mrl)
 
               case 4:
               {
-                return_value_strtol$10=strtol(str_value, &str_value, 10);
-                config_update(&entry, entry.type == 1 ? 4 : entry.type, 0, 0, (signed int)return_value_strtol$10, (char *)(void *)0);
+                return_value_strtol_10=strtol(str_value, &str_value, 10);
+                config_update(&entry, entry.type == 1 ? 4 : entry.type, 0, 0, (signed int)return_value_strtol_10, (char *)(void *)0);
                 break;
               }
               case 5:
               {
-                return_value_get_bool_value$11=get_bool_value(str_value);
-                config_update(&entry, entry.type, 0, 0, return_value_get_bool_value$11, (char *)(void *)0);
+                return_value_get_bool_value_11=get_bool_value(str_value);
+                config_update(&entry, entry.type, 0, 0, return_value_get_bool_value_11, (char *)(void *)0);
                 break;
               }
               case 0:
@@ -2449,9 +2449,9 @@ __CPROVER_DUMP_L7:
 void config_update_bool(const char *key, signed int value)
 {
   struct xine_cfg_entry_s entry;
-  signed int return_value_xine_config_lookup_entry$1;
-  return_value_xine_config_lookup_entry$1=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
-  if(!(return_value_xine_config_lookup_entry$1 == 0))
+  signed int return_value_xine_config_lookup_entry_1;
+  return_value_xine_config_lookup_entry_1=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
+  if(!(return_value_xine_config_lookup_entry_1 == 0))
     config_update(&entry, 5, 0, 0, value > 0 ? 1 : 0, (char *)(void *)0);
 
   else
@@ -2463,9 +2463,9 @@ void config_update_bool(const char *key, signed int value)
 void config_update_enum(const char *key, signed int value)
 {
   struct xine_cfg_entry_s entry;
-  signed int return_value_xine_config_lookup_entry$1;
-  return_value_xine_config_lookup_entry$1=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
-  if(!(return_value_xine_config_lookup_entry$1 == 0))
+  signed int return_value_xine_config_lookup_entry_1;
+  return_value_xine_config_lookup_entry_1=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
+  if(!(return_value_xine_config_lookup_entry_1 == 0))
     config_update(&entry, 3, 0, 0, value, (char *)(void *)0);
 
   else
@@ -2477,9 +2477,9 @@ void config_update_enum(const char *key, signed int value)
 void config_update_num(const char *key, signed int value)
 {
   struct xine_cfg_entry_s entry;
-  signed int return_value_xine_config_lookup_entry$1;
-  return_value_xine_config_lookup_entry$1=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
-  if(!(return_value_xine_config_lookup_entry$1 == 0))
+  signed int return_value_xine_config_lookup_entry_1;
+  return_value_xine_config_lookup_entry_1=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
+  if(!(return_value_xine_config_lookup_entry_1 == 0))
     config_update(&entry, 4, 0, 0, value, (char *)(void *)0);
 
   else
@@ -2491,9 +2491,9 @@ void config_update_num(const char *key, signed int value)
 void config_update_range(const char *key, signed int min, signed int max)
 {
   struct xine_cfg_entry_s entry;
-  signed int return_value_xine_config_lookup_entry$1;
-  return_value_xine_config_lookup_entry$1=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
-  if(!(return_value_xine_config_lookup_entry$1 == 0))
+  signed int return_value_xine_config_lookup_entry_1;
+  return_value_xine_config_lookup_entry_1=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
+  if(!(return_value_xine_config_lookup_entry_1 == 0))
     config_update(&entry, 1, min, max, 0, (char *)(void *)0);
 
   else
@@ -2505,9 +2505,9 @@ void config_update_range(const char *key, signed int min, signed int max)
 void config_update_string(const char *key, char *string)
 {
   struct xine_cfg_entry_s entry;
-  signed int return_value_xine_config_lookup_entry$1;
-  return_value_xine_config_lookup_entry$1=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
-  if(!(string == ((char *)NULL)) && !(return_value_xine_config_lookup_entry$1 == 0))
+  signed int return_value_xine_config_lookup_entry_1;
+  return_value_xine_config_lookup_entry_1=xine_config_lookup_entry(__xineui_global_xine_instance, key, &entry);
+  if(!(string == ((char *)NULL)) && !(return_value_xine_config_lookup_entry_1 == 0))
     config_update(&entry, 2, 0, 0, 0, string);
 
   else
@@ -2525,11 +2525,11 @@ void dump_cpu_infos(void)
   struct _IO_FILE *stream;
   char buffer[2048l];
   stream=fopen("/proc/cpuinfo", "r");
-  unsigned long int return_value_fread$1;
-  char *tmp_statement_expression$2;
-  unsigned long int return_value_strlen$4;
-  signed int *return_value___errno_location$5;
-  char *return_value_strerror$6;
+  unsigned long int return_value_fread_1;
+  char *tmp_statement_expression_2;
+  unsigned long int return_value_strlen_4;
+  signed int *return_value___errno_location_5;
+  char *return_value_strerror_6;
   if(!(stream == ((struct _IO_FILE *)NULL)))
   {
     printf("   CPU information:\n");
@@ -2537,8 +2537,8 @@ void dump_cpu_infos(void)
     memset((void *)&buffer, 0, sizeof(char [2048l]) /*2048ul*/ );
     do
     {
-      return_value_fread$1=fread((void *)&buffer, (unsigned long int)1, (unsigned long int)2047, stream);
-      if(return_value_fread$1 == 0ul)
+      return_value_fread_1=fread((void *)&buffer, (unsigned long int)1, (unsigned long int)2047, stream);
+      if(return_value_fread_1 == 0ul)
         break;
 
       char *p;
@@ -2548,17 +2548,17 @@ void dump_cpu_infos(void)
         char __r0;
         char __r1;
         char __r2;
-        char *return_value___strsep_g$3;
-        return_value___strsep_g$3=__strsep_g(&pp, "\n");
-        tmp_statement_expression$2 = return_value___strsep_g$3;
-        p = tmp_statement_expression$2;
+        char *return_value___strsep_g_3;
+        return_value___strsep_g_3=__strsep_g(&pp, "\n");
+        tmp_statement_expression_2 = return_value___strsep_g_3;
+        p = tmp_statement_expression_2;
         if(p == ((char *)NULL))
           break;
 
         if(!(p == ((char *)NULL)))
         {
-          return_value_strlen$4=strlen(p);
-          if(!(return_value_strlen$4 == 0ul))
+          return_value_strlen_4=strlen(p);
+          if(!(return_value_strlen_4 == 0ul))
             printf("\t%s\n", p);
 
         }
@@ -2574,9 +2574,9 @@ void dump_cpu_infos(void)
 
   else
   {
-    return_value___errno_location$5=__errno_location();
-    return_value_strerror$6=strerror(*return_value___errno_location$5);
-    printf("   Unable to open '/proc/cpuinfo': '%s'.\n", return_value_strerror$6);
+    return_value___errno_location_5=__errno_location();
+    return_value_strerror_6=strerror(*return_value___errno_location_5);
+    printf("   Unable to open '/proc/cpuinfo': '%s'.\n", return_value_strerror_6);
   }
 }
 
@@ -2598,15 +2598,15 @@ void dump_error(const char *msg)
 void dump_host_info(void)
 {
   struct utsname uts;
-  signed int return_value_uname$3;
-  return_value_uname$3=uname(&uts);
-  if(return_value_uname$3 == -1)
+  signed int return_value_uname_3;
+  return_value_uname_3=uname(&uts);
+  if(return_value_uname_3 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    printf("uname() failed: %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    printf("uname() failed: %s\n", return_value_strerror_2);
   }
 
   else
@@ -2644,9 +2644,9 @@ signed int get_bool_value(const char *val)
     i = 0;
     for( ; !((unsigned long int)i >= 8ul); i = i + 1)
     {
-      signed int return_value_strcasecmp$1;
-      /* tag-#anon#clST[lARR7{S8}$S8$'str'||S8'value'|] */
-struct anonymous$17
+      signed int return_value_strcasecmp_1;
+      /* tag-#anon#clST[lARR7{S8}_S8_'str'||S8'value'|] */
+struct anonymous_17
 {
   // str
   char str[7l];
@@ -2656,7 +2656,7 @@ struct anonymous$17
 
 /* */
       ;
-      static struct anonymous$17 bools[8l] = { { .str={ '1', 0, 0, 0, 0, 0, 0 }, .value=(char)1 },
+      static struct anonymous_17 bools[8l] = { { .str={ '1', 0, 0, 0, 0, 0, 0 }, .value=(char)1 },
     { .str={ 't', 'r', 'u', 'e', 0, 0, 0 }, .value=(char)1 },
     { .str={ 'y', 'e', 's', 0, 0, 0, 0 }, .value=(char)1 },
     { .str={ 'o', 'n', 0, 0, 0, 0, 0 }, .value=(char)1 },
@@ -2664,8 +2664,8 @@ struct anonymous$17
     { .str={ 'f', 'a', 'l', 's', 'e', 0, 0 }, .value=(char)0 },
     { .str={ 'n', 'o', 0, 0, 0, 0, 0 }, .value=(char)0 },
     { .str={ 'o', 'f', 'f', 0, 0, 0, 0 }, .value=(char)0 } };
-      return_value_strcasecmp$1=strcasecmp(bools[(signed long int)i].str, val);
-      if(return_value_strcasecmp$1 == 0)
+      return_value_strcasecmp_1=strcasecmp(bools[(signed long int)i].str, val);
+      if(return_value_strcasecmp_1 == 0)
         return (signed int)bools[(signed long int)i].value;
 
     }
@@ -2679,11 +2679,11 @@ struct anonymous$17
 const char * get_last_double_semicolon(const char *str)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(!(str == ((const char *)NULL)))
   {
-    return_value_strlen$1=strlen(str);
-    len = (signed int)return_value_strlen$1;
+    return_value_strlen_1=strlen(str);
+    len = (signed int)return_value_strlen_1;
     if(!(len == 0))
     {
       const char *p = str + (signed long int)(len - 1);
@@ -2707,9 +2707,9 @@ const char * get_last_double_semicolon(const char *str)
 signed int is_a_dir(char *filename)
 {
   struct stat pstat;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(filename, &pstat);
-  if(!(return_value_stat$1 >= 0))
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(filename, &pstat);
+  if(!(return_value_stat_1 >= 0))
     return 0;
 
   else
@@ -2721,9 +2721,9 @@ signed int is_a_dir(char *filename)
 signed int is_a_file(char *filename)
 {
   struct stat pstat;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(filename, &pstat);
-  if(!(return_value_stat$1 >= 0))
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(filename, &pstat);
+  if(!(return_value_stat_1 >= 0))
     return 0;
 
   else
@@ -2734,21 +2734,21 @@ signed int is_a_file(char *filename)
 // file utils.c line 314
 signed int is_downloadable(char *filename)
 {
-  signed int return_value_strncasecmp$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strncasecmp$2;
+  signed int return_value_strncasecmp_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strncasecmp_2;
   if(!(filename == ((char *)NULL)))
   {
-    return_value_strncasecmp$1=strncasecmp(filename, "http://", (unsigned long int)7);
-    if(return_value_strncasecmp$1 == 0)
-      tmp_if_expr$3 = (_Bool)1;
+    return_value_strncasecmp_1=strncasecmp(filename, "http://", (unsigned long int)7);
+    if(return_value_strncasecmp_1 == 0)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_strncasecmp$2=strncasecmp(filename, "ftp://", (unsigned long int)6);
-      tmp_if_expr$3 = !(return_value_strncasecmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strncasecmp_2=strncasecmp(filename, "ftp://", (unsigned long int)6);
+      tmp_if_expr_3 = !(return_value_strncasecmp_2 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$3)
+    if(!tmp_if_expr_3)
       goto __CPROVER_DUMP_L3;
 
     return 1;
@@ -2767,13 +2767,13 @@ signed int is_downloadable(char *filename)
 // file utils.c line 230
 signed int is_ipv6_last_double_semicolon(const char *str)
 {
-  unsigned long int return_value_strlen$3;
-  const unsigned short int **return_value___ctype_b_loc$1;
-  const unsigned short int **return_value___ctype_b_loc$2;
+  unsigned long int return_value_strlen_3;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  const unsigned short int **return_value___ctype_b_loc_2;
   if(!(str == ((const char *)NULL)))
   {
-    return_value_strlen$3=strlen(str);
-    if(!(return_value_strlen$3 == 0ul))
+    return_value_strlen_3=strlen(str);
+    if(!(return_value_strlen_3 == 0ul))
     {
       const char *d_semic;
       d_semic=get_last_double_semicolon(str);
@@ -2822,8 +2822,8 @@ signed int is_ipv6_last_double_semicolon(const char *str)
                         return 1;
                       default:
                       {
-                        return_value___ctype_b_loc$1=__ctype_b_loc();
-                        if((4096 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*p]) == 0)
+                        return_value___ctype_b_loc_1=__ctype_b_loc();
+                        if((4096 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*p]) == 0)
                           return 0;
 
                       }
@@ -2832,8 +2832,8 @@ signed int is_ipv6_last_double_semicolon(const char *str)
                 }
                 default:
                 {
-                  return_value___ctype_b_loc$2=__ctype_b_loc();
-                  if((4096 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*p]) == 0)
+                  return_value___ctype_b_loc_2=__ctype_b_loc();
+                  if((4096 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*p]) == 0)
                     return 0;
 
                 }
@@ -2867,104 +2867,104 @@ signed int main(signed int argc, char **argv)
   action.__sigaction_handler.sa_handler = signals_handler;
   sigemptyset(&action.sa_mask);
   action.sa_flags = 0;
-  signed int return_value_sigaction$3;
-  return_value_sigaction$3=sigaction(1, &action, (struct sigaction *)(void *)0);
-  if(!(return_value_sigaction$3 == 0))
+  signed int return_value_sigaction_3;
+  return_value_sigaction_3=sigaction(1, &action, (struct sigaction *)(void *)0);
+  if(!(return_value_sigaction_3 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "sigaction(SIGHUP) failed: %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "sigaction(SIGHUP) failed: %s\n", return_value_strerror_2);
   }
 
   action.__sigaction_handler.sa_handler = signals_handler;
   sigemptyset(&action.sa_mask);
   action.sa_flags = 0;
-  signed int return_value_sigaction$6;
-  return_value_sigaction$6=sigaction(10, &action, (struct sigaction *)(void *)0);
-  if(!(return_value_sigaction$6 == 0))
+  signed int return_value_sigaction_6;
+  return_value_sigaction_6=sigaction(10, &action, (struct sigaction *)(void *)0);
+  if(!(return_value_sigaction_6 == 0))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    fprintf(stderr, "sigaction(SIGUSR1) failed: %s\n", return_value_strerror$5);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    fprintf(stderr, "sigaction(SIGUSR1) failed: %s\n", return_value_strerror_5);
   }
 
   action.__sigaction_handler.sa_handler = signals_handler;
   sigemptyset(&action.sa_mask);
   action.sa_flags = 0;
-  signed int return_value_sigaction$9;
-  return_value_sigaction$9=sigaction(12, &action, (struct sigaction *)(void *)0);
-  if(!(return_value_sigaction$9 == 0))
+  signed int return_value_sigaction_9;
+  return_value_sigaction_9=sigaction(12, &action, (struct sigaction *)(void *)0);
+  if(!(return_value_sigaction_9 == 0))
   {
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    char *return_value_strerror$8;
-    return_value_strerror$8=strerror(*return_value___errno_location$7);
-    fprintf(stderr, "sigaction(SIGUSR2) failed: %s\n", return_value_strerror$8);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    char *return_value_strerror_8;
+    return_value_strerror_8=strerror(*return_value___errno_location_7);
+    fprintf(stderr, "sigaction(SIGUSR2) failed: %s\n", return_value_strerror_8);
   }
 
   action.__sigaction_handler.sa_handler = signals_handler;
   sigemptyset(&action.sa_mask);
   action.sa_flags = 0;
-  signed int return_value_sigaction$12;
-  return_value_sigaction$12=sigaction(2, &action, (struct sigaction *)(void *)0);
-  if(!(return_value_sigaction$12 == 0))
+  signed int return_value_sigaction_12;
+  return_value_sigaction_12=sigaction(2, &action, (struct sigaction *)(void *)0);
+  if(!(return_value_sigaction_12 == 0))
   {
-    signed int *return_value___errno_location$10;
-    return_value___errno_location$10=__errno_location();
-    char *return_value_strerror$11;
-    return_value_strerror$11=strerror(*return_value___errno_location$10);
-    fprintf(stderr, "sigaction(SIGINT) failed: %s\n", return_value_strerror$11);
+    signed int *return_value___errno_location_10;
+    return_value___errno_location_10=__errno_location();
+    char *return_value_strerror_11;
+    return_value_strerror_11=strerror(*return_value___errno_location_10);
+    fprintf(stderr, "sigaction(SIGINT) failed: %s\n", return_value_strerror_11);
   }
 
   action.__sigaction_handler.sa_handler = signals_handler;
   sigemptyset(&action.sa_mask);
   action.sa_flags = 0;
-  signed int return_value_sigaction$15;
-  return_value_sigaction$15=sigaction(15, &action, (struct sigaction *)(void *)0);
-  if(!(return_value_sigaction$15 == 0))
+  signed int return_value_sigaction_15;
+  return_value_sigaction_15=sigaction(15, &action, (struct sigaction *)(void *)0);
+  if(!(return_value_sigaction_15 == 0))
   {
-    signed int *return_value___errno_location$13;
-    return_value___errno_location$13=__errno_location();
-    char *return_value_strerror$14;
-    return_value_strerror$14=strerror(*return_value___errno_location$13);
-    fprintf(stderr, "sigaction(SIGTERM) failed: %s\n", return_value_strerror$14);
+    signed int *return_value___errno_location_13;
+    return_value___errno_location_13=__errno_location();
+    char *return_value_strerror_14;
+    return_value_strerror_14=strerror(*return_value___errno_location_13);
+    fprintf(stderr, "sigaction(SIGTERM) failed: %s\n", return_value_strerror_14);
   }
 
   action.__sigaction_handler.sa_handler = signals_handler;
   sigemptyset(&action.sa_mask);
   action.sa_flags = 0;
-  signed int return_value_sigaction$18;
-  return_value_sigaction$18=sigaction(3, &action, (struct sigaction *)(void *)0);
-  if(!(return_value_sigaction$18 == 0))
+  signed int return_value_sigaction_18;
+  return_value_sigaction_18=sigaction(3, &action, (struct sigaction *)(void *)0);
+  if(!(return_value_sigaction_18 == 0))
   {
-    signed int *return_value___errno_location$16;
-    return_value___errno_location$16=__errno_location();
-    char *return_value_strerror$17;
-    return_value_strerror$17=strerror(*return_value___errno_location$16);
-    fprintf(stderr, "sigaction(SIGQUIT) failed: %s\n", return_value_strerror$17);
+    signed int *return_value___errno_location_16;
+    return_value___errno_location_16=__errno_location();
+    char *return_value_strerror_17;
+    return_value_strerror_17=strerror(*return_value___errno_location_16);
+    fprintf(stderr, "sigaction(SIGQUIT) failed: %s\n", return_value_strerror_17);
   }
 
   action.__sigaction_handler.sa_handler = signals_handler;
   sigemptyset(&action.sa_mask);
   action.sa_flags = 0;
-  signed int return_value_sigaction$21;
-  return_value_sigaction$21=sigaction(14, &action, (struct sigaction *)(void *)0);
-  if(!(return_value_sigaction$21 == 0))
+  signed int return_value_sigaction_21;
+  return_value_sigaction_21=sigaction(14, &action, (struct sigaction *)(void *)0);
+  if(!(return_value_sigaction_21 == 0))
   {
-    signed int *return_value___errno_location$19;
-    return_value___errno_location$19=__errno_location();
-    char *return_value_strerror$20;
-    return_value_strerror$20=strerror(*return_value___errno_location$19);
-    fprintf(stderr, "sigaction(SIGALRM) failed: %s\n", return_value_strerror$20);
+    signed int *return_value___errno_location_19;
+    return_value___errno_location_19=__errno_location();
+    char *return_value_strerror_20;
+    return_value_strerror_20=strerror(*return_value___errno_location_19);
+    fprintf(stderr, "sigaction(SIGALRM) failed: %s\n", return_value_strerror_20);
   }
 
   grabbed_line = (char *)(void *)0;
   session.socket = -1;
-  pthread_mutex_init(&session.console_mutex, (const union anonymous$5 *)(void *)0);
+  pthread_mutex_init(&session.console_mutex, (const union anonymous_5 *)(void *)0);
   strcpy(session.host, "localhost");
   strcpy(session.port, "6789");
   opterr = 0;
@@ -3036,7 +3036,7 @@ signed int main(signed int argc, char **argv)
   rl_initialize();
   rl_attempted_completion_function = completion_function;
   signal(13, (void (*)(signed int))1);
-  unsigned short int tmp_statement_expression$22;
+  unsigned short int tmp_statement_expression_22;
   if(port_set == 0)
   {
     serv_ent=getservbyname("xinectl", "tcp");
@@ -3044,9 +3044,9 @@ signed int main(signed int argc, char **argv)
     {
       unsigned short int __v;
       unsigned short int __x = (unsigned short int)serv_ent->s_port;
-      asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-      tmp_statement_expression$22 = __v;
-      snprintf(session.port, sizeof(char [256l]) /*256ul*/ , "%u", tmp_statement_expression$22);
+      asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+      tmp_statement_expression_22 = __v;
+      snprintf(session.port, sizeof(char [256l]) /*256ul*/ , "%u", tmp_statement_expression_22);
     }
 
   }
@@ -3057,11 +3057,11 @@ signed int main(signed int argc, char **argv)
     session.socket=sock_client(session.host, session.port, "tcp");
     if(!(session.socket >= 0))
     {
-      signed int *return_value___errno_location$23;
-      return_value___errno_location$23=__errno_location();
-      char *return_value_strerror$24;
-      return_value_strerror$24=strerror(*return_value___errno_location$23);
-      fprintf(stderr, "opening server '%s' failed: %s\n", (const void *)session.host, return_value_strerror$24);
+      signed int *return_value___errno_location_23;
+      return_value___errno_location_23=__errno_location();
+      char *return_value_strerror_24;
+      return_value_strerror_24=strerror(*return_value___errno_location_23);
+      fprintf(stderr, "opening server '%s' failed: %s\n", (const void *)session.host, return_value_strerror_24);
       exit(1);
     }
 
@@ -3071,8 +3071,8 @@ signed int main(signed int argc, char **argv)
   write_to_console(&session, "? for help.\n");
   session.running = 1;
   pthread_create(&session.thread, (const union pthread_attr_t *)(void *)0, select_thread, (void *)&session);
-  _Bool tmp_if_expr$27;
-  signed int *return_value___errno_location$26;
+  _Bool tmp_if_expr_27;
+  signed int *return_value___errno_location_26;
   if(!(single_shot == 0))
   {
     session_single_shot(&session, argc - optind, &argv[(signed long int)optind]);
@@ -3086,24 +3086,24 @@ signed int main(signed int argc, char **argv)
       grabbed_line=readline(session.prompt);
       if(grabbed_line == ((char *)NULL))
       {
-        signed int *return_value___errno_location$25;
-        return_value___errno_location$25=__errno_location();
-        if(*return_value___errno_location$25 == 0)
-          tmp_if_expr$27 = (_Bool)1;
+        signed int *return_value___errno_location_25;
+        return_value___errno_location_25=__errno_location();
+        if(*return_value___errno_location_25 == 0)
+          tmp_if_expr_27 = (_Bool)1;
 
         else
         {
-          return_value___errno_location$26=__errno_location();
-          tmp_if_expr$27 = *return_value___errno_location$26 == 25 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_26=__errno_location();
+          tmp_if_expr_27 = *return_value___errno_location_26 == 25 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$27)
+        if(tmp_if_expr_27)
           exit(0);
 
-        signed int *return_value___errno_location$28;
-        return_value___errno_location$28=__errno_location();
-        char *return_value_strerror$29;
-        return_value_strerror$29=strerror(*return_value___errno_location$28);
-        fprintf(stderr, "%s(%d): readline() failed: %s\n", (const void *)"main", 1301, return_value_strerror$29);
+        signed int *return_value___errno_location_28;
+        return_value___errno_location_28=__errno_location();
+        char *return_value_strerror_29;
+        return_value_strerror_29=strerror(*return_value___errno_location_28);
+        fprintf(stderr, "%s(%d): readline() failed: %s\n", (const void *)"main", 1301, return_value_strerror_29);
         exit(1);
       }
 
@@ -3111,9 +3111,9 @@ signed int main(signed int argc, char **argv)
       {
         char *line;
         line=_atoa(grabbed_line);
-        unsigned long int return_value_strlen$30;
-        return_value_strlen$30=strlen(line);
-        if(!(return_value_strlen$30 == 0ul))
+        unsigned long int return_value_strlen_30;
+        return_value_strlen_30=strlen(line);
+        if(!(return_value_strlen_30 == 0ul))
         {
           add_history(line);
           client_handle_command(&session, line);
@@ -3147,8 +3147,8 @@ signed int mkdir_safe(char *path)
   char *pp;
   char buf[4352l];
   char buf2[4352l];
-  char *tmp_statement_expression$1;
-  unsigned long int return_value_strlen$5;
+  char *tmp_statement_expression_1;
+  unsigned long int return_value_strlen_5;
   if(path == ((char *)NULL))
     return 0;
 
@@ -3163,24 +3163,24 @@ signed int mkdir_safe(char *path)
       char __r0;
       char __r1;
       char __r2;
-      char *return_value___strsep_g$2;
-      return_value___strsep_g$2=__strsep_g(&pp, "/");
-      tmp_statement_expression$1 = return_value___strsep_g$2;
-      p = tmp_statement_expression$1;
+      char *return_value___strsep_g_2;
+      return_value___strsep_g_2=__strsep_g(&pp, "/");
+      tmp_statement_expression_1 = return_value___strsep_g_2;
+      p = tmp_statement_expression_1;
       if(p == ((char *)NULL))
         break;
 
       if(!(p == ((char *)NULL)))
       {
-        return_value_strlen$5=strlen(p);
-        if(!(return_value_strlen$5 == 0ul))
+        return_value_strlen_5=strlen(p);
+        if(!(return_value_strlen_5 == 0ul))
         {
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(buf2);
-          sprintf(buf2 + (signed long int)return_value_strlen$3, "/%s", p);
-          signed int return_value__mkdir_safe$4;
-          return_value__mkdir_safe$4=_mkdir_safe(buf2);
-          if(return_value__mkdir_safe$4 == 0)
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(buf2);
+          sprintf(buf2 + (signed long int)return_value_strlen_3, "/%s", p);
+          signed int return_value__mkdir_safe_4;
+          return_value__mkdir_safe_4=_mkdir_safe(buf2);
+          if(return_value__mkdir_safe_4 == 0)
             return 0;
 
         }
@@ -3197,24 +3197,24 @@ signed int mkdir_safe(char *path)
 // file network.c line 915
 static void * select_thread(void *data)
 {
-  struct session_s *select_thread$$1$$session = (struct session_s *)data;
-  struct anonymous$3 readfds;
+  struct session_s *select_thread__1__session = (struct session_s *)data;
+  struct anonymous_3 readfds;
   struct timeval timeout;
   char obuffer[20480l];
   signed int ocount;
   char buffer[20480l];
   signed int size;
-  signed int select_thread$$1$$i;
+  signed int select_thread__1__i;
   char c;
   signed int was_down = 1;
   memset((void *)&buffer, 0, sizeof(char [20480l]) /*20480ul*/ );
   memset((void *)&obuffer, 0, sizeof(char [20480l]) /*20480ul*/ );
   ocount = 0;
-  signed int tmp_post$2;
-  char *tmp_statement_expression$5;
-  signed int tmp_post$14;
-  while(!(select_thread$$1$$session->running == 0))
-    if(select_thread$$1$$session->socket >= 0)
+  signed int tmp_post_2;
+  char *tmp_statement_expression_5;
+  signed int tmp_post_14;
+  while(!(select_thread__1__session->running == 0))
+    if(select_thread__1__session->socket >= 0)
     {
       if(!(was_down == 0))
       {
@@ -3222,42 +3222,42 @@ static void * select_thread(void *data)
         {
           signed int __d0;
           signed int __d1;
-          asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->fds_bits[(signed long int)0]) : "memory");
+          asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->fds_bits[(signed long int)0]) : "memory");
         }
         while((_Bool)0);
-        (&readfds)->fds_bits[(signed long int)(select_thread$$1$$session->socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&readfds)->fds_bits[(signed long int)(select_thread$$1$$session->socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << select_thread$$1$$session->socket % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+        (&readfds)->fds_bits[(signed long int)(select_thread__1__session->socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&readfds)->fds_bits[(signed long int)(select_thread__1__session->socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << select_thread__1__session->socket % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
         timeout.tv_sec = (signed long int)0;
         timeout.tv_usec = (signed long int)200000;
-        select(select_thread$$1$$session->socket + 1, &readfds, (struct anonymous$3 *)0, (struct anonymous$3 *)0, &timeout);
+        select(select_thread__1__session->socket + 1, &readfds, (struct anonymous_3 *)0, (struct anonymous_3 *)0, &timeout);
         was_down = 0;
       }
 
-      if(!((readfds.fds_bits[(signed long int)(select_thread$$1$$session->socket / 8)] & (signed long int)(1UL << select_thread$$1$$session->socket % 8)) == 0l))
+      if(!((readfds.fds_bits[(signed long int)(select_thread__1__session->socket / 8)] & (signed long int)(1UL << select_thread__1__session->socket % 8)) == 0l))
       {
-        signed long int return_value_recvfrom$1;
-        return_value_recvfrom$1=recvfrom(select_thread$$1$$session->socket, (void *)buffer, sizeof(char [20480l]) /*20480ul*/ , 16384, (void *)0, (unsigned int *)(void *)0);
-        size = (signed int)return_value_recvfrom$1;
+        signed long int return_value_recvfrom_1;
+        return_value_recvfrom_1=recvfrom(select_thread__1__session->socket, (void *)buffer, sizeof(char [20480l]) /*20480ul*/ , 16384, (void *)0, (unsigned int *)(void *)0);
+        size = (signed int)return_value_recvfrom_1;
         if(size >= 1)
         {
-          select_thread$$1$$i = 0;
-          for( ; !(select_thread$$1$$i >= size); select_thread$$1$$i = select_thread$$1$$i + 1)
+          select_thread__1__i = 0;
+          for( ; !(select_thread__1__i >= size); select_thread__1__i = select_thread__1__i + 1)
           {
-            c = buffer[(signed long int)select_thread$$1$$i];
+            c = buffer[(signed long int)select_thread__1__i];
             switch((signed int)c)
             {
               case 13:
                 break;
               case 10:
               {
-                tmp_post$2 = ocount;
+                tmp_post_2 = ocount;
                 ocount = ocount + 1;
-                obuffer[(signed long int)tmp_post$2] = c;
-                if(select_thread$$1$$i == size + -1)
+                obuffer[(signed long int)tmp_post_2] = c;
+                if(select_thread__1__i == size + -1)
                 {
                   signed int pos;
-                  unsigned long int return_value_strlen$3;
-                  return_value_strlen$3=strlen(select_thread$$1$$session->prompt);
-                  pos = (signed int)(return_value_strlen$3 + (unsigned long int)rl_end);
+                  unsigned long int return_value_strlen_3;
+                  return_value_strlen_3=strlen(select_thread__1__session->prompt);
+                  pos = (signed int)(return_value_strlen_3 + (unsigned long int)rl_end);
                   char *special;
                   special=strstr(obuffer, "/ÿ€COMMANDS");
                   if(!(special == ((char *)NULL)))
@@ -3265,9 +3265,9 @@ static void * select_thread(void *data)
                     char *p;
                     char *pp;
                     signed int special_length;
-                    unsigned long int return_value_strlen$4;
-                    return_value_strlen$4=strlen(special);
-                    special_length = (signed int)return_value_strlen$4;
+                    unsigned long int return_value_strlen_4;
+                    return_value_strlen_4=strlen(special);
+                    special_length = (signed int)return_value_strlen_4;
                     unsigned long int i = sizeof(struct session_commands_s [6l]) /*144ul*/  / sizeof(struct session_commands_s) /*24ul*/  - (unsigned long int)1;
                     pp = special + (signed long int)11;
                     do
@@ -3275,16 +3275,16 @@ static void * select_thread(void *data)
                       char __r0;
                       char __r1;
                       char __r2;
-                      char *return_value___strsep_g$6;
-                      return_value___strsep_g$6=__strsep_g(&pp, "\t");
-                      tmp_statement_expression$5 = return_value___strsep_g$6;
-                      p = tmp_statement_expression$5;
+                      char *return_value___strsep_g_6;
+                      return_value___strsep_g_6=__strsep_g(&pp, "\t");
+                      tmp_statement_expression_5 = return_value___strsep_g_6;
+                      p = tmp_statement_expression_5;
                       if(p == ((char *)NULL))
                         break;
 
-                      unsigned long int return_value_strlen$10;
-                      return_value_strlen$10=strlen(p);
-                      if(!(return_value_strlen$10 == 0ul))
+                      unsigned long int return_value_strlen_10;
+                      return_value_strlen_10=strlen(p);
+                      if(!(return_value_strlen_10 == 0ul))
                       {
                         for( ; (_Bool)1; p = p + 1l)
                           if(!((signed int)*p == 32))
@@ -3297,15 +3297,15 @@ static void * select_thread(void *data)
 
                       __CPROVER_DUMP_L11:
                         ;
-                        void *return_value_realloc$7;
-                        return_value_realloc$7=realloc((void *)session_commands, (i + (unsigned long int)2) * sizeof(struct session_commands_s *) /*8ul*/ );
-                        session_commands = (struct session_commands_s **)return_value_realloc$7;
-                        void *return_value_malloc$8;
-                        return_value_malloc$8=malloc(sizeof(struct session_commands_s) /*24ul*/ );
-                        session_commands[(signed long int)i] = (struct session_commands_s *)return_value_malloc$8;
-                        char *return_value___strdup$9;
-                        return_value___strdup$9=__strdup(p);
-                        session_commands[(signed long int)i]->command = return_value___strdup$9;
+                        void *return_value_realloc_7;
+                        return_value_realloc_7=realloc((void *)session_commands, (i + (unsigned long int)2) * sizeof(struct session_commands_s *) /*8ul*/ );
+                        session_commands = (struct session_commands_s **)return_value_realloc_7;
+                        void *return_value_malloc_8;
+                        return_value_malloc_8=malloc(sizeof(struct session_commands_s) /*24ul*/ );
+                        session_commands[(signed long int)i] = (struct session_commands_s *)return_value_malloc_8;
+                        char *return_value___strdup_9;
+                        return_value___strdup_9=__strdup(p);
+                        session_commands[(signed long int)i]->command = return_value___strdup_9;
                         session_commands[(signed long int)i]->origin = 1;
                         session_commands[(signed long int)i]->enable = 1;
                         session_commands[(signed long int)i]->function = client_noop;
@@ -3314,15 +3314,15 @@ static void * select_thread(void *data)
 
                     }
                     while((_Bool)1);
-                    unsigned long int return_value_strlen$11;
-                    return_value_strlen$11=strlen(session_commands[(signed long int)(i - (unsigned long int)1)]->command);
-                    session_commands[(signed long int)(i - (unsigned long int)1)]->command[(signed long int)(return_value_strlen$11 - (unsigned long int)1)] = (char)0;
-                    unsigned long int return_value_strlen$12;
-                    return_value_strlen$12=strlen(session_commands[(signed long int)(i - (unsigned long int)1)]->command);
-                    session_commands[(signed long int)(i - (unsigned long int)1)]->command[(signed long int)(return_value_strlen$12 - (unsigned long int)1)] = (char)0;
-                    void *return_value_malloc$13;
-                    return_value_malloc$13=malloc(sizeof(struct session_commands_s) /*24ul*/ );
-                    session_commands[(signed long int)i] = (struct session_commands_s *)return_value_malloc$13;
+                    unsigned long int return_value_strlen_11;
+                    return_value_strlen_11=strlen(session_commands[(signed long int)(i - (unsigned long int)1)]->command);
+                    session_commands[(signed long int)(i - (unsigned long int)1)]->command[(signed long int)(return_value_strlen_11 - (unsigned long int)1)] = (char)0;
+                    unsigned long int return_value_strlen_12;
+                    return_value_strlen_12=strlen(session_commands[(signed long int)(i - (unsigned long int)1)]->command);
+                    session_commands[(signed long int)(i - (unsigned long int)1)]->command[(signed long int)(return_value_strlen_12 - (unsigned long int)1)] = (char)0;
+                    void *return_value_malloc_13;
+                    return_value_malloc_13=malloc(sizeof(struct session_commands_s) /*24ul*/ );
+                    session_commands[(signed long int)i] = (struct session_commands_s *)return_value_malloc_13;
                     session_commands[(signed long int)i]->command = (char *)(void *)0;
                     session_commands[(signed long int)i]->origin = 2;
                     session_commands[(signed long int)i]->enable = 1;
@@ -3331,13 +3331,13 @@ static void * select_thread(void *data)
                     obuffer[(signed long int)ocount] = (char)0;
                   }
 
-                  pthread_mutex_lock(&select_thread$$1$$session->console_mutex);
+                  pthread_mutex_lock(&select_thread__1__session->console_mutex);
                   for( ; !(pos == 0); pos = pos - 1)
-                    __sock_write(select_thread$$1$$session->console, 0, "\b \b");
-                  __sock_write(select_thread$$1$$session->console, 1, "%s", (const void *)obuffer);
+                    __sock_write(select_thread__1__session->console, 0, "\b \b");
+                  __sock_write(select_thread__1__session->console, 1, "%s", (const void *)obuffer);
                   rl_crlf();
                   rl_forced_update_display();
-                  pthread_mutex_unlock(&select_thread$$1$$session->console_mutex);
+                  pthread_mutex_unlock(&select_thread__1__session->console_mutex);
                   memset((void *)&obuffer, 0, sizeof(char [20480l]) /*20480ul*/ );
                   ocount = 0;
                 }
@@ -3346,9 +3346,9 @@ static void * select_thread(void *data)
               }
               default:
               {
-                tmp_post$14 = ocount;
+                tmp_post_14 = ocount;
                 ocount = ocount + 1;
-                obuffer[(signed long int)tmp_post$14] = c;
+                obuffer[(signed long int)tmp_post_14] = c;
               }
             }
           }
@@ -3382,26 +3382,26 @@ static void session_create_commands(struct session_s *session)
       free((void *)session_commands);
     }
 
-    void *return_value_calloc$1;
+    void *return_value_calloc_1;
     static const unsigned long int num_commands = sizeof(struct session_commands_s [6l]) /*144ul*/  / sizeof(struct session_commands_s) /*24ul*/ ;
-    return_value_calloc$1=calloc(num_commands, sizeof(struct session_commands_s *) /*8ul*/ );
-    session_commands = (struct session_commands_s **)return_value_calloc$1;
+    return_value_calloc_1=calloc(num_commands, sizeof(struct session_commands_s *) /*8ul*/ );
+    session_commands = (struct session_commands_s **)return_value_calloc_1;
     i = 0;
     for( ; !(client_commands[(signed long int)i].command == ((char *)NULL)); i = i + 1)
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct session_commands_s) /*24ul*/ );
-      session_commands[(signed long int)i] = (struct session_commands_s *)return_value_malloc$2;
-      char *return_value___strdup$3;
-      return_value___strdup$3=__strdup(client_commands[(signed long int)i].command);
-      session_commands[(signed long int)i]->command = return_value___strdup$3;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct session_commands_s) /*24ul*/ );
+      session_commands[(signed long int)i] = (struct session_commands_s *)return_value_malloc_2;
+      char *return_value___strdup_3;
+      return_value___strdup_3=__strdup(client_commands[(signed long int)i].command);
+      session_commands[(signed long int)i]->command = return_value___strdup_3;
       session_commands[(signed long int)i]->origin = client_commands[(signed long int)i].origin;
       session_commands[(signed long int)i]->enable = client_commands[(signed long int)i].enable;
       session_commands[(signed long int)i]->function = client_commands[(signed long int)i].function;
     }
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc(sizeof(struct session_commands_s) /*24ul*/ );
-    session_commands[(signed long int)i] = (struct session_commands_s *)return_value_malloc$4;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc(sizeof(struct session_commands_s) /*24ul*/ );
+    session_commands[(signed long int)i] = (struct session_commands_s *)return_value_malloc_4;
     session_commands[(signed long int)i]->command = (char *)(void *)0;
     session_commands[(signed long int)i]->origin = 2;
     session_commands[(signed long int)i]->enable = 0;
@@ -3418,12 +3418,12 @@ static void session_single_shot(struct session_s *session, signed int num_comman
   char buf[20480l];
   buf[(signed long int)0] = (char)0;
   i = 0;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   for( ; !(i >= num_commands); i = i + 1)
     if(!(buf[0l] == 0))
     {
-      return_value_strlen$1=strlen(buf);
-      sprintf(buf + (signed long int)return_value_strlen$1, " %s", commands[(signed long int)i]);
+      return_value_strlen_1=strlen(buf);
+      sprintf(buf + (signed long int)return_value_strlen_1, " %s", commands[(signed long int)i]);
     }
 
     else
@@ -3499,33 +3499,33 @@ static void signals_handler(signed int sig)
 // file network.c line 496
 static signed int sock_check_opened(signed int socket)
 {
-  struct anonymous$3 readfds;
-  struct anonymous$3 writefds;
-  struct anonymous$3 exceptfds;
+  struct anonymous_3 readfds;
+  struct anonymous_3 writefds;
+  struct anonymous_3 exceptfds;
   signed int retval;
   struct timeval timeout;
-  signed int *return_value___errno_location$2;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_2;
+  signed int *return_value___errno_location_1;
   do
   {
 
   __CPROVER_DUMP_L1:
     ;
-    signed int sock_check_opened$$1$$1$$1$$1$$__d0;
+    signed int sock_check_opened__1__1__1__1____d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(sock_check_opened$$1$$1$$1$$1$$__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(sock_check_opened__1__1__1__1____d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->fds_bits[(signed long int)0]) : "memory");
     do
     {
-      signed int sock_check_opened$$1$$1$$1$$2$$__d0;
-      signed int sock_check_opened$$1$$1$$1$$2$$__d1;
-      asm("cld; rep; stosq" : "=c"(sock_check_opened$$1$$1$$1$$2$$__d0), "=D"(sock_check_opened$$1$$1$$1$$2$$__d1) : "a"(0), "0"(sizeof(struct anonymous$3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&writefds)->fds_bits[(signed long int)0]) : "memory");
+      signed int sock_check_opened__1__1__1__2____d0;
+      signed int sock_check_opened__1__1__1__2____d1;
+      asm("cld; rep; stosq" : "=c"(sock_check_opened__1__1__1__2____d0), "=D"(sock_check_opened__1__1__1__2____d1) : "a"(0), "0"(sizeof(struct anonymous_3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&writefds)->fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     do
     {
       signed int __d0;
-      signed int sock_check_opened$$1$$1$$1$$3$$__d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(sock_check_opened$$1$$1$$1$$3$$__d1) : "a"(0), "0"(sizeof(struct anonymous$3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&exceptfds)->fds_bits[(signed long int)0]) : "memory");
+      signed int sock_check_opened__1__1__1__3____d1;
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(sock_check_opened__1__1__1__3____d1) : "a"(0), "0"(sizeof(struct anonymous_3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&exceptfds)->fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     (&exceptfds)->fds_bits[(signed long int)(socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&exceptfds)->fds_bits[(signed long int)(socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << socket % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
@@ -3534,11 +3534,11 @@ static signed int sock_check_opened(signed int socket)
     retval=select(socket + 1, &readfds, &writefds, &exceptfds, &timeout);
     if(retval == -1)
     {
-      return_value___errno_location$2=__errno_location();
-      if(!(*return_value___errno_location$2 == 11))
+      return_value___errno_location_2=__errno_location();
+      if(!(*return_value___errno_location_2 == 11))
       {
-        return_value___errno_location$1=__errno_location();
-        if(!(*return_value___errno_location$1 == 4))
+        return_value___errno_location_1=__errno_location();
+        if(!(*return_value___errno_location_1 == 4))
           return 0;
 
       }
@@ -3558,7 +3558,7 @@ static signed int sock_check_opened(signed int socket)
 static signed int sock_client(const char *host, const char *service, const char *transport)
 {
   /* tag-#anon#lUN[lSYM#tag-sockaddr_in#'in'||lSYM#tag-sockaddr#'sa'|] */
-union anonymous$8
+union anonymous_8
 {
   // in
   struct sockaddr_in in;
@@ -3568,7 +3568,7 @@ union anonymous$8
 
 /* */
   ;
-  union anonymous$8 fsin;
+  union anonymous_8 fsin;
   struct hostent *ihost;
   signed int sock;
   sock=sock_create(service, transport, &fsin.in);
@@ -3585,23 +3585,23 @@ union anonymous$8
     memcpy((void *)&fsin.in.sin_addr, (const void *)ihost->h_addr_list[(signed long int)0], (unsigned long int)ihost->h_length);
   }
 
-  signed int return_value_connect$5;
-  return_value_connect$5=connect(sock, &fsin.sa, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-  if(!(return_value_connect$5 >= 0))
+  signed int return_value_connect_5;
+  return_value_connect_5=connect(sock, &fsin.sa, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+  if(!(return_value_connect_5 >= 0))
   {
     signed int err;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    err = *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    err = *return_value___errno_location_1;
     close(sock);
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = err;
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    sock_err("Unable to connect %s[%s]: %s\n", host, service, return_value_strerror$4);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = err;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    sock_err("Unable to connect %s[%s]: %s\n", host, service, return_value_strerror_4);
     return -1;
   }
 
@@ -3619,15 +3619,15 @@ static signed int sock_create(const char *service, const char *transport, struct
   signed int proto;
   memset((void *)sin, 0, sizeof(struct sockaddr_in) /*16ul*/ );
   sin->sin_family = (unsigned short int)2;
-  unsigned short int tmp_statement_expression$1;
+  unsigned short int tmp_statement_expression_1;
   unsigned short int __v;
   unsigned short int __x;
-  signed int return_value_atoi$2;
-  return_value_atoi$2=atoi(service);
-  __x = (unsigned short int)return_value_atoi$2;
-  asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-  tmp_statement_expression$1 = __v;
-  sin->sin_port = tmp_statement_expression$1;
+  signed int return_value_atoi_2;
+  return_value_atoi_2=atoi(service);
+  __x = (unsigned short int)return_value_atoi_2;
+  asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+  tmp_statement_expression_1 = __v;
+  sin->sin_port = tmp_statement_expression_1;
   if(sin->sin_port == 0)
   {
     iservice=getservbyname(service, "tcp");
@@ -3642,13 +3642,13 @@ static signed int sock_create(const char *service, const char *transport, struct
     sock_err("Protocol not registered: %s\n", transport);
 
   proto = itransport->p_proto;
-  signed int tmp_statement_expression$3;
+  signed int tmp_statement_expression_3;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$4;
-  return_value___builtin_strcmp$4=__builtin_strcmp(transport, "udp");
-  tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-  if(tmp_statement_expression$3 == 0)
+  signed int return_value___builtin_strcmp_4;
+  return_value___builtin_strcmp_4=__builtin_strcmp(transport, "udp");
+  tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+  if(tmp_statement_expression_3 == 0)
     type = 2;
 
   else
@@ -3656,23 +3656,23 @@ static signed int sock_create(const char *service, const char *transport, struct
   sock=socket(2, type, proto);
   if(!(sock >= 0))
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    char *return_value_strerror$6;
-    return_value_strerror$6=strerror(*return_value___errno_location$5);
-    sock_err("Cannot create socket: %s\n", return_value_strerror$6);
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    char *return_value_strerror_6;
+    return_value_strerror_6=strerror(*return_value___errno_location_5);
+    sock_err("Cannot create socket: %s\n", return_value_strerror_6);
     return -1;
   }
 
-  signed int return_value_fcntl$9;
-  return_value_fcntl$9=fcntl(sock, 2, 1);
-  if(!(return_value_fcntl$9 >= 0))
+  signed int return_value_fcntl_9;
+  return_value_fcntl_9=fcntl(sock, 2, 1);
+  if(!(return_value_fcntl_9 >= 0))
   {
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    char *return_value_strerror$8;
-    return_value_strerror$8=strerror(*return_value___errno_location$7);
-    sock_err("** socket cannot be made uninheritable (%s)\n", return_value_strerror$8);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    char *return_value_strerror_8;
+    return_value_strerror_8=strerror(*return_value___errno_location_7);
+    sock_err("** socket cannot be made uninheritable (%s)\n", return_value_strerror_8);
   }
 
   return sock;
@@ -3691,9 +3691,9 @@ static void sock_err(const char *error_msg, ...)
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___xstat$1;
-  return_value___xstat$1=__xstat(1, __path, __statbuf);
-  return return_value___xstat$1;
+  signed int return_value___xstat_1;
+  return_value___xstat_1=__xstat(1, __path, __statbuf);
+  return return_value___xstat_1;
 }
 
 // strlcat
@@ -3704,12 +3704,12 @@ unsigned long int strlcat(char *dst, const char *src, unsigned long int siz)
   const char *s = src;
   unsigned long int n = siz;
   unsigned long int dlen;
-  unsigned long int tmp_post$1;
+  unsigned long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1ul;
-    if(tmp_post$1 == 0ul)
+    if(tmp_post_1 == 0ul)
       break;
 
     if((signed int)*d == 0)
@@ -3720,12 +3720,12 @@ unsigned long int strlcat(char *dst, const char *src, unsigned long int siz)
   while((_Bool)1);
   dlen = (unsigned long int)(d - dst);
   n = siz - dlen;
-  unsigned long int return_value_strlen$2;
-  char *tmp_post$3;
+  unsigned long int return_value_strlen_2;
+  char *tmp_post_3;
   if(n == 0ul)
   {
-    return_value_strlen$2=strlen(s);
-    return dlen + return_value_strlen$2;
+    return_value_strlen_2=strlen(s);
+    return dlen + return_value_strlen_2;
   }
 
   else
@@ -3733,9 +3733,9 @@ unsigned long int strlcat(char *dst, const char *src, unsigned long int siz)
     for( ; !((signed int)*s == 0); s = s + 1l)
       if(!(n == 1ul))
       {
-        tmp_post$3 = d;
+        tmp_post_3 = d;
         d = d + 1l;
-        *tmp_post$3 = *s;
+        *tmp_post_3 = *s;
         n = n - 1ul;
       }
 
@@ -3751,8 +3751,8 @@ unsigned long int strlcpy(char *dst, const char *src, unsigned long int siz)
   char *d = dst;
   const char *s = src;
   unsigned long int n = siz;
-  char *tmp_post$1;
-  const char *tmp_post$2;
+  char *tmp_post_1;
+  const char *tmp_post_2;
   if(!(n == 0ul))
     do
     {
@@ -3760,18 +3760,18 @@ unsigned long int strlcpy(char *dst, const char *src, unsigned long int siz)
       if(n == 0ul)
         break;
 
-      tmp_post$1 = d;
+      tmp_post_1 = d;
       d = d + 1l;
-      tmp_post$2 = s;
+      tmp_post_2 = s;
       s = s + 1l;
-      *tmp_post$1 = *tmp_post$2;
-      if((signed int)*tmp_post$1 == 0)
+      *tmp_post_1 = *tmp_post_2;
+      if((signed int)*tmp_post_1 == 0)
         break;
 
     }
     while((_Bool)1);
 
-  const char *tmp_post$3;
+  const char *tmp_post_3;
   if(n == 0ul)
   {
     if(!(siz == 0ul))
@@ -3779,9 +3779,9 @@ unsigned long int strlcpy(char *dst, const char *src, unsigned long int siz)
 
     do
     {
-      tmp_post$3 = s;
+      tmp_post_3 = s;
       s = s + 1l;
-      if(*tmp_post$3 == 0)
+      if(*tmp_post_3 == 0)
         break;
 
     }
@@ -3815,9 +3815,9 @@ signed int xine_system(signed int dont_run_as_root, char *command)
   signed int status;
   if(!(dont_run_as_root == 0))
   {
-    unsigned int return_value_getuid$1;
-    return_value_getuid$1=getuid();
-    if(return_value_getuid$1 == 0u)
+    unsigned int return_value_getuid_1;
+    return_value_getuid_1=getuid();
+    if(return_value_getuid_1 == 0u)
       return -1;
 
   }
@@ -3846,10 +3846,10 @@ signed int xine_system(signed int dont_run_as_root, char *command)
 
       do
       {
-        signed int return_value_waitpid$3;
-        return_value_waitpid$3=waitpid(pid, &status, 0);
+        signed int return_value_waitpid_3;
+        return_value_waitpid_3=waitpid(pid, &status, 0);
         /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$18
+union anonymous_18
 {
   // __in
   signed int __in;
@@ -3859,17 +3859,17 @@ union anonymous$18
 
 /* */
         ;
-        if(return_value_waitpid$3 == -1)
+        if(return_value_waitpid_3 == -1)
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          if(!(*return_value___errno_location$2 == 4))
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          if(!(*return_value___errno_location_2 == 4))
             return -1;
 
         }
 
         else
-          return (((union anonymous$18){ .__in=status }).__i & 0xff00) >> 8;
+          return (((union anonymous_18){ .__in=status }).__i & 0xff00) >> 8;
       }
       while((_Bool)1);
       return -1;

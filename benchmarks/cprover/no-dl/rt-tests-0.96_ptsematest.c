@@ -1,16 +1,16 @@
-// tag-#anon#ST[ARR16{U64}$U64$'__bits'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__bits'|]
 // file /usr/include/x86_64-linux-gnu/bits/sched.h line 125
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -210,7 +210,7 @@ extern signed int pthread_kill(unsigned long int, signed int);
 extern signed int pthread_mutex_destroy(union anonymous *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$0 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_0 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -219,7 +219,7 @@ extern signed int pthread_mutex_lock(union anonymous *);
 extern signed int pthread_mutex_unlock(union anonymous *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$2 *, struct anonymous$2 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_2 *, struct anonymous_2 *);
 // puts
 // file /usr/include/stdio.h line 695
 extern signed int puts(const char *);
@@ -237,7 +237,7 @@ extern signed int sched_getparam(signed int, struct sched_param *);
 extern signed int sched_getscheduler(signed int);
 // sched_setaffinity
 // file /usr/include/sched.h line 118
-extern signed int sched_setaffinity(signed int, unsigned long int, const struct anonymous$1 *);
+extern signed int sched_setaffinity(signed int, unsigned long int, const struct anonymous_1 *);
 // sched_setattr
 // file src/lib/rt-sched.c line 30
 signed int sched_setattr(signed int pid, struct sched_attr *attr, unsigned int flags);
@@ -252,10 +252,10 @@ void * semathread(void *param);
 signed int setevent(char *event, char *val);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$2 *, signed int);
+extern signed int sigaddset(struct anonymous_2 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$2 *);
+extern signed int sigemptyset(struct anonymous_2 *);
 // sighand
 // file src/ptsematest/ptsematest.c line 293
 static void sighand(signed int sig);
@@ -317,19 +317,19 @@ void warn(char *fmt, ...);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$1
+struct anonymous_1
 {
   // __bits
   unsigned long int __bits[16l];
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __val
   unsigned long int __val[16l];
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __size
   char __size[4l];
@@ -663,9 +663,9 @@ static char **tracer_list;
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // check_privs
@@ -681,9 +681,9 @@ signed int check_privs(void)
 
   else
   {
-    signed int return_value_sched_getparam$1;
-    return_value_sched_getparam$1=sched_getparam(0, &old_param);
-    if(!(return_value_sched_getparam$1 == 0))
+    signed int return_value_sched_getparam_1;
+    return_value_sched_getparam_1=sched_getparam(0, &old_param);
+    if(!(return_value_sched_getparam_1 == 0))
     {
       fprintf(stderr, "unable to get scheduler parameters\n");
       return 1;
@@ -693,9 +693,9 @@ signed int check_privs(void)
     {
       param = old_param;
       param.__sched_priority = 1;
-      signed int return_value_sched_setscheduler$2;
-      return_value_sched_setscheduler$2=sched_setscheduler(0, 1, &param);
-      if(!(return_value_sched_setscheduler$2 == 0))
+      signed int return_value_sched_setscheduler_2;
+      return_value_sched_setscheduler_2=sched_setscheduler(0, 1, &param);
+      if(!(return_value_sched_setscheduler_2 == 0))
       {
         fprintf(stderr, "Unable to change scheduling policy!\n");
         fprintf(stderr, "Probably missing capabilities, either run as root or increase RLIMIT_RTPRIO limits.\n");
@@ -704,9 +704,9 @@ signed int check_privs(void)
 
       else
       {
-        signed int return_value_sched_setscheduler$3;
-        return_value_sched_setscheduler$3=sched_setscheduler(0, policy, &old_param);
-        return return_value_sched_setscheduler$3;
+        signed int return_value_sched_setscheduler_3;
+        return_value_sched_setscheduler_3=sched_setscheduler(0, policy, &old_param);
+        return return_value_sched_setscheduler_3;
       }
     }
   }
@@ -738,11 +738,11 @@ static void display_help(void)
 void err_doit(signed int err, const char *fmt, void **ap)
 {
   vfprintf(stderr, fmt, ap);
-  char *return_value_strerror$1;
+  char *return_value_strerror_1;
   if(!(err == 0))
   {
-    return_value_strerror$1=strerror(err);
-    fprintf(stderr, ": %s\n", return_value_strerror$1);
+    return_value_strerror_1=strerror(err);
+    fprintf(stderr, ": %s\n", return_value_strerror_1);
   }
 
   goto __CPROVER_DUMP_L2;
@@ -803,18 +803,18 @@ signed int event_disable(char *event)
 {
   char path[256l];
   sprintf(path, "events/%s/enable", event);
-  signed int return_value_setevent$1;
-  return_value_setevent$1=setevent(path, "0");
-  return return_value_setevent$1;
+  signed int return_value_setevent_1;
+  return_value_setevent_1=setevent(path, "0");
+  return return_value_setevent_1;
 }
 
 // event_disable_all
 // file src/lib/rt-utils.c line 230
 signed int event_disable_all(void)
 {
-  signed int return_value_setevent$1;
-  return_value_setevent$1=setevent("events/enable", "0");
-  return return_value_setevent$1;
+  signed int return_value_setevent_1;
+  return_value_setevent_1=setevent("events/enable", "0");
+  return return_value_setevent_1;
 }
 
 // event_enable
@@ -823,18 +823,18 @@ signed int event_enable(char *event)
 {
   char path[256l];
   sprintf(path, "events/%s/enable", event);
-  signed int return_value_setevent$1;
-  return_value_setevent$1=setevent(path, "1");
-  return return_value_setevent$1;
+  signed int return_value_setevent_1;
+  return_value_setevent_1=setevent(path, "1");
+  return return_value_setevent_1;
 }
 
 // event_enable_all
 // file src/lib/rt-utils.c line 225
 signed int event_enable_all(void)
 {
-  signed int return_value_setevent$1;
-  return_value_setevent$1=setevent("events/enable", "1");
-  return return_value_setevent$1;
+  signed int return_value_setevent_1;
+  return_value_setevent_1=setevent("events/enable", "1");
+  return return_value_setevent_1;
 }
 
 // fatal
@@ -854,9 +854,9 @@ static inline signed int get_cpu(void)
 {
   signed int c;
   signed int s;
-  signed long int return_value_syscall$1;
-  return_value_syscall$1=syscall((signed long int)309, &c, (void *)0, (void *)0);
-  s = (signed int)return_value_syscall$1;
+  signed long int return_value_syscall_1;
+  return_value_syscall_1=syscall((signed long int)309, &c, (void *)0, (void *)0);
+  s = (signed int)return_value_syscall_1;
   return s == -1 ? s : c;
 }
 
@@ -869,17 +869,17 @@ char * get_debugfileprefix(void)
   signed int size;
   signed int found = 0;
   struct stat s;
-  signed int return_value_stat$1;
-  signed int return_value_stat$2;
-  signed int return_value_fscanf$3;
-  signed int tmp_statement_expression$4;
-  signed int tmp_statement_expression$8;
-  signed int tmp_statement_expression$6;
-  unsigned long int return_value_strlen$10;
+  signed int return_value_stat_1;
+  signed int return_value_stat_2;
+  signed int return_value_fscanf_3;
+  signed int tmp_statement_expression_4;
+  signed int tmp_statement_expression_8;
+  signed int tmp_statement_expression_6;
+  unsigned long int return_value_strlen_10;
   if((signed int)debugfileprefix[0l] == 0)
   {
-    return_value_stat$1=stat("/sys/kernel/debug/tracing", &s);
-    if(return_value_stat$1 == 0)
+    return_value_stat_1=stat("/sys/kernel/debug/tracing", &s);
+    if(return_value_stat_1 == 0)
     {
       if(!((61440u & s.st_mode) == 16384u))
         goto __CPROVER_DUMP_L1;
@@ -892,8 +892,8 @@ char * get_debugfileprefix(void)
 
     __CPROVER_DUMP_L1:
       ;
-      return_value_stat$2=stat("/debug/tracing", &s);
-      if(return_value_stat$2 == 0)
+      return_value_stat_2=stat("/debug/tracing", &s);
+      if(return_value_stat_2 == 0)
       {
         if(!((61440u & s.st_mode) == 16384u))
           goto __CPROVER_DUMP_L2;
@@ -911,34 +911,34 @@ char * get_debugfileprefix(void)
         {
           do
           {
-            return_value_fscanf$3=fscanf(fp, "%*s %256s %99s %*s %*d %*d\n", (const void *)debugfileprefix, (const void *)type);
-            if(!(return_value_fscanf$3 == 2))
+            return_value_fscanf_3=fscanf(fp, "%*s %256s %99s %*s %*d %*d\n", (const void *)debugfileprefix, (const void *)type);
+            if(!(return_value_fscanf_3 == 2))
               break;
 
-            unsigned long int get_debugfileprefix$$1$$3$$1$$__s1_len;
-            unsigned long int get_debugfileprefix$$1$$3$$1$$__s2_len;
-            signed int return_value___builtin_strcmp$5;
-            return_value___builtin_strcmp$5=__builtin_strcmp(type, "debugfs");
-            tmp_statement_expression$4 = return_value___builtin_strcmp$5;
-            if(tmp_statement_expression$4 == 0)
+            unsigned long int get_debugfileprefix__1__3__1____s1_len;
+            unsigned long int get_debugfileprefix__1__3__1____s2_len;
+            signed int return_value___builtin_strcmp_5;
+            return_value___builtin_strcmp_5=__builtin_strcmp(type, "debugfs");
+            tmp_statement_expression_4 = return_value___builtin_strcmp_5;
+            if(tmp_statement_expression_4 == 0)
             {
               found = 1;
               break;
             }
 
-            unsigned long int get_debugfileprefix$$1$$3$$3$$__s1_len;
-            unsigned long int get_debugfileprefix$$1$$3$$3$$__s2_len;
-            signed int return_value___builtin_strcmp$9;
-            return_value___builtin_strcmp$9=__builtin_strcmp(debugfileprefix, "/sys/kernel/debug");
-            tmp_statement_expression$8 = return_value___builtin_strcmp$9;
-            if(tmp_statement_expression$8 == 0)
+            unsigned long int get_debugfileprefix__1__3__3____s1_len;
+            unsigned long int get_debugfileprefix__1__3__3____s2_len;
+            signed int return_value___builtin_strcmp_9;
+            return_value___builtin_strcmp_9=__builtin_strcmp(debugfileprefix, "/sys/kernel/debug");
+            tmp_statement_expression_8 = return_value___builtin_strcmp_9;
+            if(tmp_statement_expression_8 == 0)
             {
               unsigned long int __s1_len;
               unsigned long int __s2_len;
-              signed int return_value___builtin_strcmp$7;
-              return_value___builtin_strcmp$7=__builtin_strcmp(type, "systemd");
-              tmp_statement_expression$6 = return_value___builtin_strcmp$7;
-              if(tmp_statement_expression$6 == 0)
+              signed int return_value___builtin_strcmp_7;
+              return_value___builtin_strcmp_7=__builtin_strcmp(type, "systemd");
+              tmp_statement_expression_6 = return_value___builtin_strcmp_7;
+              if(tmp_statement_expression_6 == 0)
               {
                 found = 1;
                 break;
@@ -954,8 +954,8 @@ char * get_debugfileprefix(void)
 
           else
           {
-            return_value_strlen$10=strlen(debugfileprefix);
-            size = (signed int)(sizeof(char [256l]) /*256ul*/  - return_value_strlen$10);
+            return_value_strlen_10=strlen(debugfileprefix);
+            size = (signed int)(sizeof(char [256l]) /*256ul*/  - return_value_strlen_10);
             __builtin_strncat(debugfileprefix, "/tracing/", (unsigned long int)size);
           }
         }
@@ -982,8 +982,8 @@ signed int get_tracers(char ***list)
   char *tmpbuf = (char *)(void *)0;
   char *ptr;
   signed int tmpsz = 0;
-  unsigned long int return_value_fread$2;
-  signed int tmp_post$5;
+  unsigned long int return_value_fread_2;
+  signed int tmp_post_5;
   if(!(tracer_list == ((char **)NULL)))
   {
     *list = tracer_list;
@@ -997,25 +997,25 @@ signed int get_tracers(char ***list)
     if(fp == ((struct _IO_FILE *)NULL))
       fatal("Can't open %s for reading\n", (const void *)buffer);
 
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)1024);
-    tmpbuf = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)1024);
+    tmpbuf = (char *)return_value_malloc_1;
     ptr = tmpbuf;
     if(ptr == ((char *)NULL))
       fatal("error allocating initial space for tracer list\n");
 
     do
     {
-      return_value_fread$2=fread((void *)buffer, sizeof(char) /*1ul*/ , (unsigned long int)1024, fp);
-      ret = (signed int)return_value_fread$2;
+      return_value_fread_2=fread((void *)buffer, sizeof(char) /*1ul*/ , (unsigned long int)1024, fp);
+      ret = (signed int)return_value_fread_2;
       if(ret == 0)
         break;
 
       if(!(tmpbuf + (signed long int)tmpsz >= ptr + (signed long int)ret + 1l))
       {
-        void *return_value_realloc$3;
-        return_value_realloc$3=realloc((void *)tmpbuf, (unsigned long int)(tmpsz + 1024));
-        tmpbuf = (char *)return_value_realloc$3;
+        void *return_value_realloc_3;
+        return_value_realloc_3=realloc((void *)tmpbuf, (unsigned long int)(tmpsz + 1024));
+        tmpbuf = (char *)return_value_realloc_3;
         if(tmpbuf == ((char *)NULL))
           fatal("error allocating space for list of valid tracers\n");
 
@@ -1031,21 +1031,21 @@ signed int get_tracers(char ***list)
       fatal("error reading available tracers\n");
 
     tracer_buffer = tmpbuf;
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc(sizeof(char *) /*8ul*/ );
-    tracer_list = (char **)return_value_malloc$4;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc(sizeof(char *) /*8ul*/ );
+    tracer_list = (char **)return_value_malloc_4;
     if(tracer_list == ((char **)NULL))
       fatal("error allocatinging tracer list buffer\n");
 
     ptr=strtok(tmpbuf, " \t\n\r");
     do
     {
-      tmp_post$5 = num_tracers;
+      tmp_post_5 = num_tracers;
       num_tracers = num_tracers + 1;
-      tracer_list[(signed long int)tmp_post$5] = ptr;
-      void *return_value_realloc$6;
-      return_value_realloc$6=realloc((void *)tracer_list, sizeof(char *) /*8ul*/  * (unsigned long int)(num_tracers + 1));
-      tracer_list = (char **)return_value_realloc$6;
+      tracer_list[(signed long int)tmp_post_5] = ptr;
+      void *return_value_realloc_6;
+      return_value_realloc_6=realloc((void *)tracer_list, sizeof(char *) /*8ul*/  * (unsigned long int)(num_tracers + 1));
+      tracer_list = (char **)return_value_realloc_6;
       tracer_list[(signed long int)num_tracers] = (char *)(void *)0;
       ptr=strtok((char *)(void *)0, " \t\n\r");
     }
@@ -1059,9 +1059,9 @@ signed int get_tracers(char ***list)
 // file src/lib/rt-utils.c line 320
 signed int gettid(void)
 {
-  signed long int return_value_syscall$1;
-  return_value_syscall$1=syscall((signed long int)186);
-  return (signed int)return_value_syscall$1;
+  signed long int return_value_syscall_1;
+  return_value_syscall_1=syscall((signed long int)186);
+  return (signed int)return_value_syscall_1;
 }
 
 // info
@@ -1080,27 +1080,27 @@ signed int main(signed int argc, char **argv)
 {
   signed int i;
   signed int max_cpus;
-  signed long int return_value_sysconf$1;
-  return_value_sysconf$1=sysconf(83);
-  max_cpus = (signed int)return_value_sysconf$1;
+  signed long int return_value_sysconf_1;
+  return_value_sysconf_1=sysconf(83);
+  max_cpus = (signed int)return_value_sysconf_1;
   signed int oldsamples = 1;
   struct params *receiver = (struct params *)(void *)0;
   struct params *sender = (struct params *)(void *)0;
-  struct anonymous$2 sigset;
+  struct anonymous_2 sigset;
   struct timespec maindelay;
   process_options(argc, argv);
-  signed int return_value_check_privs$2;
-  return_value_check_privs$2=check_privs();
-  void *return_value_calloc$6;
-  void *return_value_calloc$7;
-  if(!(return_value_check_privs$2 == 0))
+  signed int return_value_check_privs_2;
+  return_value_check_privs_2=check_privs();
+  void *return_value_calloc_6;
+  void *return_value_calloc_7;
+  if(!(return_value_check_privs_2 == 0))
     return 1;
 
   else
   {
-    signed int return_value_mlockall$3;
-    return_value_mlockall$3=mlockall(1 | 2);
-    if(return_value_mlockall$3 == -1)
+    signed int return_value_mlockall_3;
+    return_value_mlockall_3=mlockall(1 | 2);
+    if(return_value_mlockall_3 == -1)
     {
       perror("mlockall");
       return 1;
@@ -1110,18 +1110,18 @@ signed int main(signed int argc, char **argv)
     {
       signal(2, sighand);
       signal(15, sighand);
-      void *return_value_calloc$4;
-      return_value_calloc$4=calloc((unsigned long int)num_threads, sizeof(struct params) /*656ul*/ );
-      receiver = (struct params *)return_value_calloc$4;
-      void *return_value_calloc$5;
-      return_value_calloc$5=calloc((unsigned long int)num_threads, sizeof(struct params) /*656ul*/ );
-      sender = (struct params *)return_value_calloc$5;
+      void *return_value_calloc_4;
+      return_value_calloc_4=calloc((unsigned long int)num_threads, sizeof(struct params) /*656ul*/ );
+      receiver = (struct params *)return_value_calloc_4;
+      void *return_value_calloc_5;
+      return_value_calloc_5=calloc((unsigned long int)num_threads, sizeof(struct params) /*656ul*/ );
+      sender = (struct params *)return_value_calloc_5;
       if(!(receiver == ((struct params *)NULL)) && !(sender == ((struct params *)NULL)))
       {
-        return_value_calloc$6=calloc((unsigned long int)num_threads, sizeof(union anonymous) /*40ul*/ );
-        testmutex = (union anonymous *)return_value_calloc$6;
-        return_value_calloc$7=calloc((unsigned long int)num_threads, sizeof(union anonymous) /*40ul*/ );
-        syncmutex = (union anonymous *)return_value_calloc$7;
+        return_value_calloc_6=calloc((unsigned long int)num_threads, sizeof(union anonymous) /*40ul*/ );
+        testmutex = (union anonymous *)return_value_calloc_6;
+        return_value_calloc_7=calloc((unsigned long int)num_threads, sizeof(union anonymous) /*40ul*/ );
+        syncmutex = (union anonymous *)return_value_calloc_7;
         if(!(syncmutex == ((union anonymous *)NULL)) && !(testmutex == ((union anonymous *)NULL)))
         {
           i = 0;
@@ -1130,8 +1130,8 @@ signed int main(signed int argc, char **argv)
             (receiver + (signed long int)i)->mindiff = (unsigned int)0x7fffffff * 2U + 1U;
             (receiver + (signed long int)i)->maxdiff = (unsigned int)0;
             (receiver + (signed long int)i)->sumdiff = 0.0;
-            pthread_mutex_init(&testmutex[(signed long int)i], (const union anonymous$0 *)(void *)0);
-            pthread_mutex_init(&syncmutex[(signed long int)i], (const union anonymous$0 *)(void *)0);
+            pthread_mutex_init(&testmutex[(signed long int)i], (const union anonymous_0 *)(void *)0);
+            pthread_mutex_init(&syncmutex[(signed long int)i], (const union anonymous_0 *)(void *)0);
             pthread_mutex_lock(&testmutex[(signed long int)i]);
             (receiver + (signed long int)i)->num = i;
             (receiver + (signed long int)i)->cpu = i;
@@ -1208,10 +1208,10 @@ signed int main(signed int argc, char **argv)
             sigemptyset(&sigset);
             sigaddset(&sigset, 15);
             sigaddset(&sigset, 2);
-            pthread_sigmask(2, &sigset, (struct anonymous$2 *)(void *)0);
+            pthread_sigmask(2, &sigset, (struct anonymous_2 *)(void *)0);
             nanosleep(&maindelay, (struct timespec *)(void *)0);
             sigemptyset(&sigset);
-            pthread_sigmask(2, &sigset, (struct anonymous$2 *)(void *)0);
+            pthread_sigmask(2, &sigset, (struct anonymous_2 *)(void *)0);
             if(shutdown == 0 && !(printed == 0))
               printf("\033[%dA", num_threads * 2 + errorlines);
 
@@ -1262,9 +1262,9 @@ signed int mount_debugfs(char *path)
   char *prefix;
   signed int ret;
   prefix=get_debugfileprefix();
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(prefix);
-  if(!(return_value_strlen$1 == 0ul))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(prefix);
+  if(!(return_value_strlen_1 == 0ul))
   {
     info("debugfs mountpoint: %s\n", prefix);
     return 0;
@@ -1279,11 +1279,11 @@ signed int mount_debugfs(char *path)
     ret=system(cmd);
     if(!(ret == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      fprintf(stderr, "Error mounting debugfs at %s: %s\n", mountpoint, return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      fprintf(stderr, "Error mounting debugfs at %s: %s\n", mountpoint, return_value_strerror_3);
       return -1;
     }
 
@@ -1320,13 +1320,13 @@ static void process_options(signed int argc, char **argv)
 {
   signed int error = 0;
   signed int max_cpus;
-  signed long int return_value_sysconf$1;
-  return_value_sysconf$1=sysconf(83);
-  max_cpus = (signed int)return_value_sysconf$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_atoi$2;
-  _Bool tmp_if_expr$5;
-  signed int return_value_atoi$4;
+  signed long int return_value_sysconf_1;
+  return_value_sysconf_1=sysconf(83);
+  max_cpus = (signed int)return_value_sysconf_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_atoi_2;
+  _Bool tmp_if_expr_5;
+  signed int return_value_atoi_4;
   do
   {
     signed int option_index = 0;
@@ -1366,13 +1366,13 @@ static void process_options(signed int argc, char **argv)
         {
           if(!(optind >= argc))
           {
-            return_value_atoi$2=atoi(argv[(signed long int)optind]);
-            tmp_if_expr$3 = return_value_atoi$2 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_atoi_2=atoi(argv[(signed long int)optind]);
+            tmp_if_expr_3 = return_value_atoi_2 != 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = (_Bool)0;
+          if(tmp_if_expr_3)
           {
             affinity=atoi(argv[(signed long int)optind]);
             setaffinity = 1;
@@ -1430,13 +1430,13 @@ static void process_options(signed int argc, char **argv)
         {
           if(!(optind >= argc))
           {
-            return_value_atoi$4=atoi(argv[(signed long int)optind]);
-            tmp_if_expr$5 = return_value_atoi$4 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_atoi_4=atoi(argv[(signed long int)optind]);
+            tmp_if_expr_5 = return_value_atoi_4 != 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          if(tmp_if_expr$5)
+            tmp_if_expr_5 = (_Bool)0;
+          if(tmp_if_expr_5)
             num_threads=atoi(argv[(signed long int)optind]);
 
           else
@@ -1483,18 +1483,18 @@ static void process_options(signed int argc, char **argv)
 // file src/lib/rt-sched.c line 37
 signed int sched_getattr(signed int pid, struct sched_attr *attr, unsigned int size, unsigned int flags)
 {
-  signed long int return_value_syscall$1;
-  return_value_syscall$1=syscall((signed long int)315, pid, attr, size, flags);
-  return (signed int)return_value_syscall$1;
+  signed long int return_value_syscall_1;
+  return_value_syscall_1=syscall((signed long int)315, pid, attr, size, flags);
+  return (signed int)return_value_syscall_1;
 }
 
 // sched_setattr
 // file src/lib/rt-sched.c line 30
 signed int sched_setattr(signed int pid, struct sched_attr *attr, unsigned int flags)
 {
-  signed long int return_value_syscall$1;
-  return_value_syscall$1=syscall((signed long int)314, pid, attr, flags);
-  return (signed int)return_value_syscall$1;
+  signed long int return_value_syscall_1;
+  return_value_syscall_1=syscall((signed long int)314, pid, attr, flags);
+  return (signed int)return_value_syscall_1;
 }
 
 // semathread
@@ -1504,7 +1504,7 @@ void * semathread(void *param)
   signed int mustgetcpu = 0;
   signed int first = 1;
   struct params *par = (struct params *)param;
-  struct anonymous$1 mask;
+  struct anonymous_1 mask;
   signed int policy = 1;
   struct sched_param schedp;
   memset((void *)&schedp, 0, sizeof(struct sched_param) /*4ul*/ );
@@ -1513,26 +1513,26 @@ void * semathread(void *param)
   if(!(par->cpu == -1))
   {
     do
-      __builtin_memset((void *)&mask, 0, sizeof(struct anonymous$1) /*128ul*/ );
+      __builtin_memset((void *)&mask, 0, sizeof(struct anonymous_1) /*128ul*/ );
     while((_Bool)0);
     unsigned long int __cpu = (unsigned long int)par->cpu;
-    if(!(__cpu / 8ul >= sizeof(struct anonymous$1) /*128ul*/ ))
+    if(!(__cpu / 8ul >= sizeof(struct anonymous_1) /*128ul*/ ))
       ((unsigned long int *)(&mask)->__bits)[(signed long int)(__cpu / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ))] = ((unsigned long int *)(&mask)->__bits)[(signed long int)(__cpu / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ))] | (unsigned long int)1 << __cpu % ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ );
 
     else
       (unsigned long int)0;
-    signed int return_value_sched_setaffinity$1;
-    return_value_sched_setaffinity$1=sched_setaffinity(0, sizeof(struct anonymous$1) /*128ul*/ , &mask);
-    if(return_value_sched_setaffinity$1 == -1)
+    signed int return_value_sched_setaffinity_1;
+    return_value_sched_setaffinity_1=sched_setaffinity(0, sizeof(struct anonymous_1) /*128ul*/ , &mask);
+    if(return_value_sched_setaffinity_1 == -1)
       fprintf(stderr, "WARNING: Could not set CPU affinity to CPU #%d\n", par->cpu);
 
   }
 
   else
     mustgetcpu = 1;
-  signed long int return_value_syscall$2;
-  return_value_syscall$2=syscall((signed long int)186);
-  par->tid = (signed int)return_value_syscall$2;
+  signed long int return_value_syscall_2;
+  return_value_syscall_2=syscall((signed long int)186);
+  par->tid = (signed int)return_value_syscall_2;
   while(par->shutdown == 0)
     if(!(par->sender == 0))
     {
@@ -1587,9 +1587,9 @@ void * semathread(void *param)
         if(!((unsigned int)par->tracelimit >= par->maxdiff))
         {
           char tracing_enabled_file[256l];
-          char *return_value_get_debugfileprefix$3;
-          return_value_get_debugfileprefix$3=get_debugfileprefix();
-          strcpy(tracing_enabled_file, return_value_get_debugfileprefix$3);
+          char *return_value_get_debugfileprefix_3;
+          return_value_get_debugfileprefix_3=get_debugfileprefix();
+          strcpy(tracing_enabled_file, return_value_get_debugfileprefix_3);
           strcat(tracing_enabled_file, "tracing_enabled");
           signed int tracing_enabled;
           tracing_enabled=open(tracing_enabled_file, 01);
@@ -1643,11 +1643,11 @@ signed int setevent(char *event, char *val)
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(val);
-    signed long int return_value_write$2;
-    return_value_write$2=write(fd, (const void *)val, return_value_strlen$1);
-    ret = (signed int)return_value_write$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(val);
+    signed long int return_value_write_2;
+    return_value_write_2=write(fd, (const void *)val, return_value_strlen_1);
+    ret = (signed int)return_value_write_2;
     if(!(ret >= 0))
     {
       warn("unable to write %s to %s\n", val, (const void *)buffer);
@@ -1674,77 +1674,77 @@ static void sighand(signed int sig)
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___xstat$1;
-  return_value___xstat$1=__xstat(1, __path, __statbuf);
-  return return_value___xstat$1;
+  signed int return_value___xstat_1;
+  return_value___xstat_1=__xstat(1, __path, __statbuf);
+  return return_value___xstat_1;
 }
 
 // string_to_policy
 // file src/lib/rt-utils.c line 302
 unsigned int string_to_policy(const char *str)
 {
-  signed int tmp_statement_expression$11;
-  unsigned long int string_to_policy$$1$$1$$__s1_len;
-  unsigned long int string_to_policy$$1$$1$$__s2_len;
-  signed int return_value___builtin_strcmp$12;
-  return_value___builtin_strcmp$12=__builtin_strcmp(str, "other");
-  tmp_statement_expression$11 = return_value___builtin_strcmp$12;
-  signed int tmp_statement_expression$9;
-  signed int tmp_statement_expression$7;
-  signed int tmp_statement_expression$5;
-  signed int tmp_statement_expression$3;
-  signed int tmp_statement_expression$1;
-  if(tmp_statement_expression$11 == 0)
+  signed int tmp_statement_expression_11;
+  unsigned long int string_to_policy__1__1____s1_len;
+  unsigned long int string_to_policy__1__1____s2_len;
+  signed int return_value___builtin_strcmp_12;
+  return_value___builtin_strcmp_12=__builtin_strcmp(str, "other");
+  tmp_statement_expression_11 = return_value___builtin_strcmp_12;
+  signed int tmp_statement_expression_9;
+  signed int tmp_statement_expression_7;
+  signed int tmp_statement_expression_5;
+  signed int tmp_statement_expression_3;
+  signed int tmp_statement_expression_1;
+  if(tmp_statement_expression_11 == 0)
     return (unsigned int)0;
 
   else
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$10;
-    return_value___builtin_strcmp$10=__builtin_strcmp(str, "fifo");
-    tmp_statement_expression$9 = return_value___builtin_strcmp$10;
-    if(tmp_statement_expression$9 == 0)
+    signed int return_value___builtin_strcmp_10;
+    return_value___builtin_strcmp_10=__builtin_strcmp(str, "fifo");
+    tmp_statement_expression_9 = return_value___builtin_strcmp_10;
+    if(tmp_statement_expression_9 == 0)
       return (unsigned int)1;
 
     else
     {
-      unsigned long int string_to_policy$$1$$3$$__s1_len;
-      unsigned long int string_to_policy$$1$$3$$__s2_len;
-      signed int return_value___builtin_strcmp$8;
-      return_value___builtin_strcmp$8=__builtin_strcmp(str, "rr");
-      tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-      if(tmp_statement_expression$7 == 0)
+      unsigned long int string_to_policy__1__3____s1_len;
+      unsigned long int string_to_policy__1__3____s2_len;
+      signed int return_value___builtin_strcmp_8;
+      return_value___builtin_strcmp_8=__builtin_strcmp(str, "rr");
+      tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+      if(tmp_statement_expression_7 == 0)
         return (unsigned int)2;
 
       else
       {
-        unsigned long int string_to_policy$$1$$4$$__s1_len;
-        unsigned long int string_to_policy$$1$$4$$__s2_len;
-        signed int return_value___builtin_strcmp$6;
-        return_value___builtin_strcmp$6=__builtin_strcmp(str, "batch");
-        tmp_statement_expression$5 = return_value___builtin_strcmp$6;
-        if(tmp_statement_expression$5 == 0)
+        unsigned long int string_to_policy__1__4____s1_len;
+        unsigned long int string_to_policy__1__4____s2_len;
+        signed int return_value___builtin_strcmp_6;
+        return_value___builtin_strcmp_6=__builtin_strcmp(str, "batch");
+        tmp_statement_expression_5 = return_value___builtin_strcmp_6;
+        if(tmp_statement_expression_5 == 0)
           return (unsigned int)3;
 
         else
         {
-          unsigned long int string_to_policy$$1$$5$$__s1_len;
-          unsigned long int string_to_policy$$1$$5$$__s2_len;
-          signed int return_value___builtin_strcmp$4;
-          return_value___builtin_strcmp$4=__builtin_strcmp(str, "idle");
-          tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-          if(tmp_statement_expression$3 == 0)
+          unsigned long int string_to_policy__1__5____s1_len;
+          unsigned long int string_to_policy__1__5____s2_len;
+          signed int return_value___builtin_strcmp_4;
+          return_value___builtin_strcmp_4=__builtin_strcmp(str, "idle");
+          tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+          if(tmp_statement_expression_3 == 0)
             return (unsigned int)5;
 
           else
           {
-            unsigned long int string_to_policy$$1$$6$$__s1_len;
-            unsigned long int string_to_policy$$1$$6$$__s2_len;
-            signed int return_value___builtin_strcmp$2;
-            return_value___builtin_strcmp$2=__builtin_strcmp(str, "deadline");
-            tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-            if(tmp_statement_expression$1 == 0)
+            unsigned long int string_to_policy__1__6____s1_len;
+            unsigned long int string_to_policy__1__6____s2_len;
+            signed int return_value___builtin_strcmp_2;
+            return_value___builtin_strcmp_2=__builtin_strcmp(str, "deadline");
+            tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+            if(tmp_statement_expression_1 == 0)
               return (unsigned int)6;
 
           }
@@ -1763,8 +1763,8 @@ signed int valid_tracer(char *tracername)
   signed int ntracers;
   signed int i;
   ntracers=get_tracers(&list);
-  unsigned long int return_value_strlen$1;
-  signed int return_value_strncmp$2;
+  unsigned long int return_value_strlen_1;
+  signed int return_value_strncmp_2;
   if(tracername == ((char *)NULL) || ntracers == 0)
     return 0;
 
@@ -1773,9 +1773,9 @@ signed int valid_tracer(char *tracername)
     i = 0;
     for( ; !(i >= ntracers); i = i + 1)
     {
-      return_value_strlen$1=strlen(list[(signed long int)i]);
-      return_value_strncmp$2=strncmp(list[(signed long int)i], tracername, return_value_strlen$1);
-      if(return_value_strncmp$2 == 0)
+      return_value_strlen_1=strlen(list[(signed long int)i]);
+      return_value_strncmp_2=strncmp(list[(signed long int)i], tracername, return_value_strlen_1);
+      if(return_value_strncmp_2 == 0)
         return 1;
 
     }

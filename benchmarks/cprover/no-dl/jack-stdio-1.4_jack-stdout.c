@@ -1,16 +1,16 @@
-// tag-#anon#ST[*{S8}$S8$'buf'||vU64'write_ptr'||vU64'read_ptr'||U64'size'||U64'size_mask'||S32'mlocked'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'buf'||vU64'write_ptr'||vU64'read_ptr'||U64'size'||U64'size_mask'||S32'mlocked'||U32'_pad0'|]
 // file /usr/include/jack/ringbuffer.h line 51
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -124,22 +124,22 @@ const char * jack_port_name(const struct _jack_port *);
 struct _jack_port * jack_port_register(struct _jack_client *, const char *, const char *, unsigned long int, unsigned long int);
 // jack_ringbuffer_create
 // file /usr/include/jack/ringbuffer.h line 72
-struct anonymous$0 * jack_ringbuffer_create(unsigned long int);
+struct anonymous_0 * jack_ringbuffer_create(unsigned long int);
 // jack_ringbuffer_free
 // file /usr/include/jack/ringbuffer.h line 80
-void jack_ringbuffer_free(struct anonymous$0 *);
+void jack_ringbuffer_free(struct anonymous_0 *);
 // jack_ringbuffer_read
 // file /usr/include/jack/ringbuffer.h line 137
-unsigned long int jack_ringbuffer_read(struct anonymous$0 *, char *, unsigned long int);
+unsigned long int jack_ringbuffer_read(struct anonymous_0 *, char *, unsigned long int);
 // jack_ringbuffer_read_space
 // file /usr/include/jack/ringbuffer.h line 176
-unsigned long int jack_ringbuffer_read_space(const struct anonymous$0 *);
+unsigned long int jack_ringbuffer_read_space(const struct anonymous_0 *);
 // jack_ringbuffer_write
 // file /usr/include/jack/ringbuffer.h line 205
-unsigned long int jack_ringbuffer_write(struct anonymous$0 *, const char *, unsigned long int);
+unsigned long int jack_ringbuffer_write(struct anonymous_0 *, const char *, unsigned long int);
 // jack_ringbuffer_write_space
 // file /usr/include/jack/ringbuffer.h line 228
-unsigned long int jack_ringbuffer_write_space(const struct anonymous$0 *);
+unsigned long int jack_ringbuffer_write_space(const struct anonymous_0 *);
 // jack_set_process_callback
 // file /usr/include/jack/jack.h line 342
 signed int jack_set_process_callback(struct _jack_client *, signed int (*)(unsigned int, void *), void *);
@@ -157,10 +157,10 @@ extern void * memset(void *, signed int, unsigned long int);
 signed int process(unsigned int nframes, void *arg);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$2 *);
+extern signed int pthread_cond_signal(union anonymous_2 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$2 *, union anonymous *);
+extern signed int pthread_cond_wait(union anonymous_2 *, union anonymous *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -210,7 +210,7 @@ static void usage(const char *name, signed int status);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$0
+struct anonymous_0
 {
   // buf
   char *buf;
@@ -226,7 +226,7 @@ struct anonymous$0
   signed int mlocked;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // __lock
   signed int __lock;
@@ -246,10 +246,10 @@ struct anonymous$1
   unsigned int __broadcast_seq;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
-  struct anonymous$1 __data;
+  struct anonymous_1 __data;
   // __size
   char __size[48l];
   // __align
@@ -411,7 +411,7 @@ union pthread_attr_t
 
 // data_ready
 // file jack-stdout.c line 91
-union anonymous$2 data_ready = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_2 data_ready = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -440,7 +440,7 @@ signed long int overruns = (signed long int)0;
 struct _jack_port **ports;
 // rb
 // file jack-stdout.c line 89
-struct anonymous$0 *rb;
+struct anonymous_0 *rb;
 // run
 // file jack-stdout.c line 95
 volatile signed int run = 1;
@@ -458,9 +458,9 @@ signed int want_quiet = 0;
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // catchsig
@@ -484,30 +484,30 @@ void * io_thread(void *arg)
   struct _thread_info *info = (struct _thread_info *)arg;
   unsigned int total_captured = (unsigned int)0;
   unsigned long int bytes_per_frame;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((2 & info->format) == 0))
-    tmp_if_expr$1 = (info->format & 1) != 0 ? 4 : 1;
+    tmp_if_expr_1 = (info->format & 1) != 0 ? 4 : 1;
 
   else
-    tmp_if_expr$1 = (info->format & 1) != 0 ? 3 : 2;
-  bytes_per_frame = (const unsigned long int)(info->channels * (unsigned int)tmp_if_expr$1);
+    tmp_if_expr_1 = (info->format & 1) != 0 ? 3 : 2;
+  bytes_per_frame = (const unsigned long int)(info->channels * (unsigned int)tmp_if_expr_1);
   void *framebuf;
   framebuf=malloc(bytes_per_frame);
   pthread_setcanceltype(1, (signed int *)(void *)0);
   pthread_mutex_lock(&io_thread_lock);
   signed int writerrors = 0;
-  unsigned long int return_value_jack_ringbuffer_read_space$2;
-  signed int return_value_fileno$3;
-  signed int *return_value___errno_location$7;
-  signed int *return_value___errno_location$6;
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
+  unsigned long int return_value_jack_ringbuffer_read_space_2;
+  signed int return_value_fileno_3;
+  signed int *return_value___errno_location_7;
+  signed int *return_value___errno_location_6;
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
   while(!(run == 0))
   {
     while(!(info->can_capture == 0))
     {
-      return_value_jack_ringbuffer_read_space$2=jack_ringbuffer_read_space(rb);
-      if(!(return_value_jack_ringbuffer_read_space$2 >= bytes_per_frame))
+      return_value_jack_ringbuffer_read_space_2=jack_ringbuffer_read_space(rb);
+      if(!(return_value_jack_ringbuffer_read_space_2 >= bytes_per_frame))
         break;
 
       if(info->duration >= 1u)
@@ -527,28 +527,28 @@ void * io_thread(void *arg)
       signed long int rv;
       do
       {
-        return_value_fileno$3=fileno(stdout);
-        rv=write(return_value_fileno$3, framebuf + (signed long int)woff, bytes_per_frame);
+        return_value_fileno_3=fileno(stdout);
+        rv=write(return_value_fileno_3, framebuf + (signed long int)woff, bytes_per_frame);
         if((unsigned long int)rv == bytes_per_frame)
           break;
 
         if(!(rv >= 0l))
         {
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          if(!(*return_value___errno_location$8 == 11))
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          if(!(*return_value___errno_location_8 == 11))
           {
-            return_value___errno_location$7=__errno_location();
-            if(!(*return_value___errno_location$7 == 11))
+            return_value___errno_location_7=__errno_location();
+            if(!(*return_value___errno_location_7 == 11))
             {
-              return_value___errno_location$6=__errno_location();
-              if(!(*return_value___errno_location$6 == 4))
+              return_value___errno_location_6=__errno_location();
+              if(!(*return_value___errno_location_6 == 4))
               {
                 if(want_quiet == 0)
                 {
-                  return_value___errno_location$4=__errno_location();
-                  return_value_strerror$5=strerror(*return_value___errno_location$4);
-                  fprintf(stderr, "FATAL: write error: %s\n", return_value_strerror$5);
+                  return_value___errno_location_4=__errno_location();
+                  return_value_strerror_5=strerror(*return_value___errno_location_4);
+                  fprintf(stderr, "FATAL: write error: %s\n", return_value_strerror_5);
                 }
 
                 goto done;
@@ -618,18 +618,18 @@ signed int main(signed int argc, char **argv)
     { .name="bufsize", .has_arg=1, .flag=((signed int *)NULL), .val=83 },
     { .name=((const char *)NULL), .has_arg=0, .flag=((signed int *)NULL),
     .val=0 } };
-  signed int return_value_atoi$1;
-  unsigned long int return_value_strlen$6;
-  signed int return_value_strncmp$7;
-  unsigned long int return_value_strlen$4;
-  signed int return_value_strncmp$5;
-  unsigned long int return_value_strlen$2;
-  signed int return_value_strncmp$3;
-  signed int return_value_atoi$11;
-  signed int return_value_atoi$10;
-  signed int return_value_atoi$9;
-  signed int return_value_atoi$8;
-  signed int return_value_atoi$12;
+  signed int return_value_atoi_1;
+  unsigned long int return_value_strlen_6;
+  signed int return_value_strncmp_7;
+  unsigned long int return_value_strlen_4;
+  signed int return_value_strncmp_5;
+  unsigned long int return_value_strlen_2;
+  signed int return_value_strncmp_3;
+  signed int return_value_atoi_11;
+  signed int return_value_atoi_10;
+  signed int return_value_atoi_9;
+  signed int return_value_atoi_8;
+  signed int return_value_atoi_12;
   do
   {
     c=getopt_long(argc, argv, optstring, long_options, (signed int *)(void *)0);
@@ -650,30 +650,30 @@ signed int main(signed int argc, char **argv)
       }
       case 100:
       {
-        return_value_atoi$1=atoi(optarg);
-        thread_info.duration = (unsigned int)return_value_atoi$1;
+        return_value_atoi_1=atoi(optarg);
+        thread_info.duration = (unsigned int)return_value_atoi_1;
         break;
       }
       case 101:
       {
         thread_info.format = thread_info.format & ~0x30;
-        return_value_strlen$6=strlen(optarg);
-        return_value_strncmp$7=strncmp(optarg, "floating-point", return_value_strlen$6);
-        if(return_value_strncmp$7 == 0)
+        return_value_strlen_6=strlen(optarg);
+        return_value_strncmp_7=strncmp(optarg, "floating-point", return_value_strlen_6);
+        if(return_value_strncmp_7 == 0)
           thread_info.format = thread_info.format | 0x23;
 
         else
         {
-          return_value_strlen$4=strlen(optarg);
-          return_value_strncmp$5=strncmp(optarg, "unsigned-integer", return_value_strlen$4);
-          if(return_value_strncmp$5 == 0)
+          return_value_strlen_4=strlen(optarg);
+          return_value_strncmp_5=strncmp(optarg, "unsigned-integer", return_value_strlen_4);
+          if(return_value_strncmp_5 == 0)
             thread_info.format = thread_info.format | 0x10;
 
           else
           {
-            return_value_strlen$2=strlen(optarg);
-            return_value_strncmp$3=strncmp(optarg, "signed-integer", return_value_strlen$2);
-            if(!(return_value_strncmp$3 == 0))
+            return_value_strlen_2=strlen(optarg);
+            return_value_strncmp_3=strncmp(optarg, "signed-integer", return_value_strlen_2);
+            if(!(return_value_strncmp_3 == 0))
             {
               fprintf(stderr, "invalid encoding.\n");
               usage(argv[(signed long int)0], 1);
@@ -686,26 +686,26 @@ signed int main(signed int argc, char **argv)
       case 98:
       {
         thread_info.format = thread_info.format & ~3;
-        return_value_atoi$11=atoi(optarg);
-        if(return_value_atoi$11 == 24)
+        return_value_atoi_11=atoi(optarg);
+        if(return_value_atoi_11 == 24)
           thread_info.format = thread_info.format | 1;
 
         else
         {
-          return_value_atoi$10=atoi(optarg);
-          if(return_value_atoi$10 == 8)
+          return_value_atoi_10=atoi(optarg);
+          if(return_value_atoi_10 == 8)
             thread_info.format = thread_info.format | 2;
 
           else
           {
-            return_value_atoi$9=atoi(optarg);
-            if(return_value_atoi$9 == 32)
+            return_value_atoi_9=atoi(optarg);
+            if(return_value_atoi_9 == 32)
               thread_info.format = thread_info.format | 3;
 
             else
             {
-              return_value_atoi$8=atoi(optarg);
-              if(!(return_value_atoi$8 == 16))
+              return_value_atoi_8=atoi(optarg);
+              if(!(return_value_atoi_8 == 16))
               {
                 fprintf(stderr, "invalid integer bit-depth. valid values: 8, 16, 24, 32.\n");
                 usage(argv[(signed long int)0], 1);
@@ -728,8 +728,8 @@ signed int main(signed int argc, char **argv)
       }
       case 83:
       {
-        return_value_atoi$12=atoi(optarg);
-        thread_info.rb_size = (unsigned int)return_value_atoi$12;
+        return_value_atoi_12=atoi(optarg);
+        thread_info.rb_size = (unsigned int)return_value_atoi_12;
         break;
       }
       default:
@@ -761,14 +761,14 @@ signed int main(signed int argc, char **argv)
   thread_info.channels = (unsigned int)(argc - optind);
   if(thread_info.duration >= 1u)
   {
-    unsigned int return_value_jack_get_sample_rate$13;
-    return_value_jack_get_sample_rate$13=jack_get_sample_rate(thread_info.client);
-    thread_info.duration = thread_info.duration * return_value_jack_get_sample_rate$13;
+    unsigned int return_value_jack_get_sample_rate_13;
+    return_value_jack_get_sample_rate_13=jack_get_sample_rate(thread_info.client);
+    thread_info.duration = thread_info.duration * return_value_jack_get_sample_rate_13;
   }
 
-  unsigned int return_value_jack_get_buffer_size$14;
-  return_value_jack_get_buffer_size$14=jack_get_buffer_size(thread_info.client);
-  if(!(thread_info.rb_size >> 1 >= return_value_jack_get_buffer_size$14))
+  unsigned int return_value_jack_get_buffer_size_14;
+  return_value_jack_get_buffer_size_14=jack_get_buffer_size(thread_info.client);
+  if(!(thread_info.rb_size >> 1 >= return_value_jack_get_buffer_size_14))
   {
     fprintf(stderr, "Ringbuffer size needs to be at least twice jack period size\n");
     jack_client_close(thread_info.client);
@@ -777,9 +777,9 @@ signed int main(signed int argc, char **argv)
 
   jack_set_process_callback(client, process, (void *)&thread_info);
   jack_on_shutdown(client, jack_shutdown, (void *)&thread_info);
-  signed int return_value_jack_activate$15;
-  return_value_jack_activate$15=jack_activate(client);
-  if(!(return_value_jack_activate$15 == 0))
+  signed int return_value_jack_activate_15;
+  return_value_jack_activate_15=jack_activate(client);
+  if(!(return_value_jack_activate_15 == 0))
     fprintf(stderr, "cannot activate client");
 
   setup_ports((signed int)thread_info.channels, &argv[(signed long int)optind], &thread_info);
@@ -787,9 +787,9 @@ signed int main(signed int argc, char **argv)
   signal(1, catchsig);
   if(want_quiet == 0)
   {
-    unsigned int return_value_jack_get_sample_rate$16;
-    return_value_jack_get_sample_rate$16=jack_get_sample_rate(thread_info.client);
-    fprintf(stderr, "%i channel%s, %s %sbit %s%s %s @%iSPS.\n", thread_info.channels, thread_info.channels > (unsigned int)1 ? "s" : "", thread_info.channels > (unsigned int)1 ? "interleaved" : "", (thread_info.format & 2) != 0 ? ((thread_info.format & 1) != 0 ? "32" : "8") : ((thread_info.format & 1) != 0 ? "24" : "16"), (thread_info.format & 0x20) != 0 ? "" : ((thread_info.format & 0x10) != 0 ? "unsigned-" : "signed-"), (thread_info.format & 0x20) != 0 ? "float" : "integer", (thread_info.format & 0x20) != 0 ? ((thread_info.format & 0x40) != 0 ? "non-native-endian" : "native-endian") : ((thread_info.format & 0x40) != 0 ? "big-endian" : "little-endian"), return_value_jack_get_sample_rate$16);
+    unsigned int return_value_jack_get_sample_rate_16;
+    return_value_jack_get_sample_rate_16=jack_get_sample_rate(thread_info.client);
+    fprintf(stderr, "%i channel%s, %s %sbit %s%s %s @%iSPS.\n", thread_info.channels, thread_info.channels > (unsigned int)1 ? "s" : "", thread_info.channels > (unsigned int)1 ? "interleaved" : "", (thread_info.format & 2) != 0 ? ((thread_info.format & 1) != 0 ? "32" : "8") : ((thread_info.format & 1) != 0 ? "24" : "16"), (thread_info.format & 0x20) != 0 ? "" : ((thread_info.format & 0x10) != 0 ? "unsigned-" : "signed-"), (thread_info.format & 0x20) != 0 ? "float" : "integer", (thread_info.format & 0x20) != 0 ? ((thread_info.format & 0x40) != 0 ? "non-native-endian" : "native-endian") : ((thread_info.format & 0x40) != 0 ? "big-endian" : "little-endian"), return_value_jack_get_sample_rate_16);
   }
 
   thread_info.can_capture = 1;
@@ -810,37 +810,37 @@ signed int process(unsigned int nframes, void *arg)
   unsigned long int i;
   struct _thread_info *info = (struct _thread_info *)arg;
   unsigned long int bytes_per_frame;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((2 & info->format) == 0))
-    tmp_if_expr$1 = (info->format & 1) != 0 ? 4 : 1;
+    tmp_if_expr_1 = (info->format & 1) != 0 ? 4 : 1;
 
   else
-    tmp_if_expr$1 = (info->format & 1) != 0 ? 3 : 2;
-  bytes_per_frame = (const unsigned long int)(info->channels * (unsigned int)tmp_if_expr$1);
-  _Bool tmp_if_expr$2;
+    tmp_if_expr_1 = (info->format & 1) != 0 ? 3 : 2;
+  bytes_per_frame = (const unsigned long int)(info->channels * (unsigned int)tmp_if_expr_1);
+  _Bool tmp_if_expr_2;
   if(info->can_process == 0)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(info->can_capture != 0) ? (_Bool)1 : (_Bool)0;
-  void *return_value_jack_port_get_buffer$3;
-  signed int tmp_if_expr$5;
-  double tmp_if_expr$6;
-  double tmp_if_expr$9;
-  signed int tmp_if_expr$8;
-  signed int tmp_if_expr$11;
-  signed int tmp_if_expr$10;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$15;
-  signed int tmp_if_expr$13;
-  signed int tmp_if_expr$12;
-  _Bool tmp_if_expr$18;
-  signed int tmp_if_expr$17;
-  signed int tmp_if_expr$16;
-  signed int tmp_if_expr$20;
-  signed int tmp_if_expr$19;
-  signed int tmp_if_expr$21;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = !(info->can_capture != 0) ? (_Bool)1 : (_Bool)0;
+  void *return_value_jack_port_get_buffer_3;
+  signed int tmp_if_expr_5;
+  double tmp_if_expr_6;
+  double tmp_if_expr_9;
+  signed int tmp_if_expr_8;
+  signed int tmp_if_expr_11;
+  signed int tmp_if_expr_10;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_15;
+  signed int tmp_if_expr_13;
+  signed int tmp_if_expr_12;
+  _Bool tmp_if_expr_18;
+  signed int tmp_if_expr_17;
+  signed int tmp_if_expr_16;
+  signed int tmp_if_expr_20;
+  signed int tmp_if_expr_19;
+  signed int tmp_if_expr_21;
+  if(tmp_if_expr_2)
     return 0;
 
   else
@@ -848,15 +848,15 @@ signed int process(unsigned int nframes, void *arg)
     chn = 0;
     for( ; !((unsigned int)chn >= info->channels); chn = chn + 1)
     {
-      return_value_jack_port_get_buffer$3=jack_port_get_buffer(ports[(signed long int)chn], nframes);
-      in[(signed long int)chn] = (float *)return_value_jack_port_get_buffer$3;
+      return_value_jack_port_get_buffer_3=jack_port_get_buffer(ports[(signed long int)chn], nframes);
+      in[(signed long int)chn] = (float *)return_value_jack_port_get_buffer_3;
     }
     i = (unsigned long int)0;
     for( ; !(i >= (unsigned long int)nframes); i = i + 1ul)
     {
-      unsigned long int return_value_jack_ringbuffer_write_space$4;
-      return_value_jack_ringbuffer_write_space$4=jack_ringbuffer_write_space(rb);
-      if(!(return_value_jack_ringbuffer_write_space$4 >= bytes_per_frame))
+      unsigned long int return_value_jack_ringbuffer_write_space_4;
+      return_value_jack_ringbuffer_write_space_4=jack_ringbuffer_write_space(rb);
+      if(!(return_value_jack_ringbuffer_write_space_4 >= bytes_per_frame))
       {
         overruns = overruns + 1l;
         break;
@@ -868,11 +868,11 @@ signed int process(unsigned int nframes, void *arg)
         const float js = in[(signed long int)chn][(signed long int)i];
         if(!((0x20 & info->format) == 0))
         {
-          float process$$1$$2$$1$$2$$1$$1$$d;
+          float process__1__2__1__2__1__1__d;
           if(!((0x40 & info->format) == 0))
           {
             char *flin = (char *)&js;
-            char *fout = (char *)&process$$1$$2$$1$$2$$1$$1$$d;
+            char *fout = (char *)&process__1__2__1__2__1__1__d;
             fout[(signed long int)0] = flin[(signed long int)3];
             fout[(signed long int)1] = flin[(signed long int)2];
             fout[(signed long int)2] = flin[(signed long int)1];
@@ -880,99 +880,99 @@ signed int process(unsigned int nframes, void *arg)
           }
 
           else
-            process$$1$$2$$1$$2$$1$$1$$d = js;
+            process__1__2__1__2__1__1__d = js;
           if(!((2 & info->format) == 0))
-            tmp_if_expr$5 = (info->format & 1) != 0 ? 4 : 1;
+            tmp_if_expr_5 = (info->format & 1) != 0 ? 4 : 1;
 
           else
-            tmp_if_expr$5 = (info->format & 1) != 0 ? 3 : 2;
-          jack_ringbuffer_write(rb, (const char *)(void *)&process$$1$$2$$1$$2$$1$$1$$d, (unsigned long int)tmp_if_expr$5);
+            tmp_if_expr_5 = (info->format & 1) != 0 ? 3 : 2;
+          jack_ringbuffer_write(rb, (const char *)(void *)&process__1__2__1__2__1__1__d, (unsigned long int)tmp_if_expr_5);
         }
 
         else
         {
           signed int d;
           if(!((2 & info->format) == 0))
-            tmp_if_expr$6 = (info->format & 1) != 0 ? 2147483648.0 : 128.0;
+            tmp_if_expr_6 = (info->format & 1) != 0 ? 2147483648.0 : 128.0;
 
           else
-            tmp_if_expr$6 = (info->format & 1) != 0 ? 8388608.0 : 32768.0;
-          float return_value_rintf$7;
-          return_value_rintf$7=rintf((float)((double)js * tmp_if_expr$6));
+            tmp_if_expr_6 = (info->format & 1) != 0 ? 8388608.0 : 32768.0;
+          float return_value_rintf_7;
+          return_value_rintf_7=rintf((float)((double)js * tmp_if_expr_6));
           if((0x10 & info->format) == 0)
-            tmp_if_expr$9 = 0.0;
+            tmp_if_expr_9 = 0.0;
 
           else
           {
             if(!((2 & info->format) == 0))
-              tmp_if_expr$8 = (info->format & 1) != 0 ? 2147483647 : 127;
+              tmp_if_expr_8 = (info->format & 1) != 0 ? 2147483647 : 127;
 
             else
-              tmp_if_expr$8 = (info->format & 1) != 0 ? 8388607 : 32767;
-            tmp_if_expr$9 = (double)tmp_if_expr$8;
+              tmp_if_expr_8 = (info->format & 1) != 0 ? 8388607 : 32767;
+            tmp_if_expr_9 = (double)tmp_if_expr_8;
           }
-          d = (const signed int)((double)(signed int)return_value_rintf$7 + tmp_if_expr$9);
+          d = (const signed int)((double)(signed int)return_value_rintf_7 + tmp_if_expr_9);
           char bytes[4l];
           if(!((0x40 & info->format) == 0))
           {
             if(!((2 & info->format) == 0))
-              tmp_if_expr$10 = (info->format & 1) != 0 ? 4 : 1;
+              tmp_if_expr_10 = (info->format & 1) != 0 ? 4 : 1;
 
             else
-              tmp_if_expr$10 = (info->format & 1) != 0 ? 3 : 2;
-            tmp_if_expr$11 = (tmp_if_expr$10 - 0) - 1;
+              tmp_if_expr_10 = (info->format & 1) != 0 ? 3 : 2;
+            tmp_if_expr_11 = (tmp_if_expr_10 - 0) - 1;
           }
 
           else
-            tmp_if_expr$11 = 0;
-          bytes[(signed long int)tmp_if_expr$11] = (char)(unsigned char)(d & 0xff);
+            tmp_if_expr_11 = 0;
+          bytes[(signed long int)tmp_if_expr_11] = (char)(unsigned char)(d & 0xff);
           if((3 & info->format) == 0)
-            tmp_if_expr$14 = (_Bool)1;
+            tmp_if_expr_14 = (_Bool)1;
 
           else
-            tmp_if_expr$14 = (info->format & 3) == 1 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$14)
-            tmp_if_expr$15 = (_Bool)1;
+            tmp_if_expr_14 = (info->format & 3) == 1 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_14)
+            tmp_if_expr_15 = (_Bool)1;
 
           else
-            tmp_if_expr$15 = (info->format & 0x23) == 3 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$15)
+            tmp_if_expr_15 = (info->format & 0x23) == 3 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_15)
           {
             if(!((0x40 & info->format) == 0))
             {
               if(!((2 & info->format) == 0))
-                tmp_if_expr$12 = (info->format & 1) != 0 ? 4 : 1;
+                tmp_if_expr_12 = (info->format & 1) != 0 ? 4 : 1;
 
               else
-                tmp_if_expr$12 = (info->format & 1) != 0 ? 3 : 2;
-              tmp_if_expr$13 = (tmp_if_expr$12 - 1) - 1;
+                tmp_if_expr_12 = (info->format & 1) != 0 ? 3 : 2;
+              tmp_if_expr_13 = (tmp_if_expr_12 - 1) - 1;
             }
 
             else
-              tmp_if_expr$13 = 1;
-            bytes[(signed long int)tmp_if_expr$13] = (char)(unsigned char)((d & 0xff00) >> 8 & 0xff);
+              tmp_if_expr_13 = 1;
+            bytes[(signed long int)tmp_if_expr_13] = (char)(unsigned char)((d & 0xff00) >> 8 & 0xff);
           }
 
           if((3 & info->format) == 1)
-            tmp_if_expr$18 = (_Bool)1;
+            tmp_if_expr_18 = (_Bool)1;
 
           else
-            tmp_if_expr$18 = (info->format & 0x23) == 3 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$18)
+            tmp_if_expr_18 = (info->format & 0x23) == 3 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_18)
           {
             if(!((0x40 & info->format) == 0))
             {
               if(!((2 & info->format) == 0))
-                tmp_if_expr$16 = (info->format & 1) != 0 ? 4 : 1;
+                tmp_if_expr_16 = (info->format & 1) != 0 ? 4 : 1;
 
               else
-                tmp_if_expr$16 = (info->format & 1) != 0 ? 3 : 2;
-              tmp_if_expr$17 = (tmp_if_expr$16 - 2) - 1;
+                tmp_if_expr_16 = (info->format & 1) != 0 ? 3 : 2;
+              tmp_if_expr_17 = (tmp_if_expr_16 - 2) - 1;
             }
 
             else
-              tmp_if_expr$17 = 2;
-            bytes[(signed long int)tmp_if_expr$17] = (char)(unsigned char)((d & 0xff0000) >> 16 & 0xff);
+              tmp_if_expr_17 = 2;
+            bytes[(signed long int)tmp_if_expr_17] = (char)(unsigned char)((d & 0xff0000) >> 16 & 0xff);
           }
 
           if((0x23 & info->format) == 3)
@@ -980,30 +980,30 @@ signed int process(unsigned int nframes, void *arg)
             if(!((0x40 & info->format) == 0))
             {
               if(!((2 & info->format) == 0))
-                tmp_if_expr$19 = (info->format & 1) != 0 ? 4 : 1;
+                tmp_if_expr_19 = (info->format & 1) != 0 ? 4 : 1;
 
               else
-                tmp_if_expr$19 = (info->format & 1) != 0 ? 3 : 2;
-              tmp_if_expr$20 = (tmp_if_expr$19 - 3) - 1;
+                tmp_if_expr_19 = (info->format & 1) != 0 ? 3 : 2;
+              tmp_if_expr_20 = (tmp_if_expr_19 - 3) - 1;
             }
 
             else
-              tmp_if_expr$20 = 3;
-            bytes[(signed long int)tmp_if_expr$20] = (char)(unsigned char)(((unsigned int)d & 0xff000000) >> 24 & (unsigned int)0xff);
+              tmp_if_expr_20 = 3;
+            bytes[(signed long int)tmp_if_expr_20] = (char)(unsigned char)(((unsigned int)d & 0xff000000) >> 24 & (unsigned int)0xff);
           }
 
           if(!((2 & info->format) == 0))
-            tmp_if_expr$21 = (info->format & 1) != 0 ? 4 : 1;
+            tmp_if_expr_21 = (info->format & 1) != 0 ? 4 : 1;
 
           else
-            tmp_if_expr$21 = (info->format & 1) != 0 ? 3 : 2;
-          jack_ringbuffer_write(rb, (const char *)(void *)&bytes, (unsigned long int)tmp_if_expr$21);
+            tmp_if_expr_21 = (info->format & 1) != 0 ? 3 : 2;
+          jack_ringbuffer_write(rb, (const char *)(void *)&bytes, (unsigned long int)tmp_if_expr_21);
         }
       }
     }
-    signed int return_value_pthread_mutex_trylock$22;
-    return_value_pthread_mutex_trylock$22=pthread_mutex_trylock(&io_thread_lock);
-    if(return_value_pthread_mutex_trylock$22 == 0)
+    signed int return_value_pthread_mutex_trylock_22;
+    return_value_pthread_mutex_trylock_22=pthread_mutex_trylock(&io_thread_lock);
+    if(return_value_pthread_mutex_trylock_22 == 0)
     {
       pthread_cond_signal(&data_ready);
       pthread_mutex_unlock(&io_thread_lock);
@@ -1019,19 +1019,19 @@ void setup_ports(signed int nports, char **source_names, struct _thread_info *in
 {
   unsigned int i;
   const unsigned long int in_size = (unsigned long int)nports * sizeof(float *) /*8ul*/ ;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _jack_port *) /*8ul*/  * (unsigned long int)nports);
-  ports = (struct _jack_port **)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(in_size);
-  in = (float **)return_value_malloc$2;
-  signed int tmp_if_expr$3;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _jack_port *) /*8ul*/  * (unsigned long int)nports);
+  ports = (struct _jack_port **)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(in_size);
+  in = (float **)return_value_malloc_2;
+  signed int tmp_if_expr_3;
   if(!((2 & info->format) == 0))
-    tmp_if_expr$3 = (info->format & 1) != 0 ? 4 : 1;
+    tmp_if_expr_3 = (info->format & 1) != 0 ? 4 : 1;
 
   else
-    tmp_if_expr$3 = (info->format & 1) != 0 ? 3 : 2;
-  rb=jack_ringbuffer_create((unsigned long int)((unsigned int)(nports * tmp_if_expr$3) * info->rb_size));
+    tmp_if_expr_3 = (info->format & 1) != 0 ? 3 : 2;
+  rb=jack_ringbuffer_create((unsigned long int)((unsigned int)(nports * tmp_if_expr_3) * info->rb_size));
   memset((void *)in, 0, in_size);
   memset((void *)rb->buf, 0, rb->size);
   i = (unsigned int)0;
@@ -1051,15 +1051,15 @@ void setup_ports(signed int nports, char **source_names, struct _thread_info *in
   i = (unsigned int)0;
   for( ; !(i >= (unsigned int)nports); i = i + 1u)
   {
-    const char *return_value_jack_port_name$5;
-    return_value_jack_port_name$5=jack_port_name(ports[(signed long int)i]);
-    signed int return_value_jack_connect$6;
-    return_value_jack_connect$6=jack_connect(info->client, source_names[(signed long int)i], return_value_jack_port_name$5);
-    if(!(return_value_jack_connect$6 == 0))
+    const char *return_value_jack_port_name_5;
+    return_value_jack_port_name_5=jack_port_name(ports[(signed long int)i]);
+    signed int return_value_jack_connect_6;
+    return_value_jack_connect_6=jack_connect(info->client, source_names[(signed long int)i], return_value_jack_port_name_5);
+    if(!(return_value_jack_connect_6 == 0))
     {
-      const char *return_value_jack_port_name$4;
-      return_value_jack_port_name$4=jack_port_name(ports[(signed long int)i]);
-      fprintf(stderr, "cannot connect input port %s to %s\n", return_value_jack_port_name$4, source_names[(signed long int)i]);
+      const char *return_value_jack_port_name_4;
+      return_value_jack_port_name_4=jack_port_name(ports[(signed long int)i]);
+      fprintf(stderr, "cannot connect input port %s to %s\n", return_value_jack_port_name_4, source_names[(signed long int)i]);
     }
 
   }

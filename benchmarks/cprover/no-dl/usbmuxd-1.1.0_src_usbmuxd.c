@@ -1,90 +1,90 @@
-// #anon_enum$IDEVICE_E_SUCCESS=0$IDEVICE_E_INVALID_ARG=-1$IDEVICE_E_UNKNOWN_ERROR=-2$IDEVICE_E_NO_DEVICE=-3$IDEVICE_E_NOT_ENOUGH_DATA=-4$IDEVICE_E_BAD_HEADER=-5$IDEVICE_E_SSL_ERROR=-6
+// #anon_enum_IDEVICE_E_SUCCESS=0_IDEVICE_E_INVALID_ARG=-1_IDEVICE_E_UNKNOWN_ERROR=-2_IDEVICE_E_NO_DEVICE=-3_IDEVICE_E_NOT_ENOUGH_DATA=-4_IDEVICE_E_BAD_HEADER=-5_IDEVICE_E_SSL_ERROR=-6
 // file /usr/include/libimobiledevice/libimobiledevice.h line 38
-enum anonymous$16 { IDEVICE_E_SUCCESS=0, IDEVICE_E_INVALID_ARG=-1, IDEVICE_E_UNKNOWN_ERROR=-2, IDEVICE_E_NO_DEVICE=-3, IDEVICE_E_NOT_ENOUGH_DATA=-4, IDEVICE_E_BAD_HEADER=-5, IDEVICE_E_SSL_ERROR=-6 };
+enum anonymous_16 { IDEVICE_E_SUCCESS=0, IDEVICE_E_INVALID_ARG=-1, IDEVICE_E_UNKNOWN_ERROR=-2, IDEVICE_E_NO_DEVICE=-3, IDEVICE_E_NOT_ENOUGH_DATA=-4, IDEVICE_E_BAD_HEADER=-5, IDEVICE_E_SSL_ERROR=-6 };
 
-// #anon_enum$LOCKDOWN_E_SUCCESS=0$LOCKDOWN_E_INVALID_ARG=-1$LOCKDOWN_E_INVALID_CONF=-2$LOCKDOWN_E_PLIST_ERROR=-3$LOCKDOWN_E_PAIRING_FAILED=-4$LOCKDOWN_E_SSL_ERROR=-5$LOCKDOWN_E_DICT_ERROR=-6$LOCKDOWN_E_NOT_ENOUGH_DATA=-7$LOCKDOWN_E_MUX_ERROR=-8$LOCKDOWN_E_NO_RUNNING_SESSION=-9$LOCKDOWN_E_INVALID_RESPONSE=-10$LOCKDOWN_E_MISSING_KEY=-11$LOCKDOWN_E_MISSING_VALUE=-12$LOCKDOWN_E_GET_PROHIBITED=-13$LOCKDOWN_E_SET_PROHIBITED=-14$LOCKDOWN_E_REMOVE_PROHIBITED=-15$LOCKDOWN_E_IMMUTABLE_VALUE=-16$LOCKDOWN_E_PASSWORD_PROTECTED=-17$LOCKDOWN_E_USER_DENIED_PAIRING=-18$LOCKDOWN_E_PAIRING_DIALOG_RESPONSE_PENDING=-19$LOCKDOWN_E_MISSING_HOST_ID=-20$LOCKDOWN_E_INVALID_HOST_ID=-21$LOCKDOWN_E_SESSION_ACTIVE=-22$LOCKDOWN_E_SESSION_INACTIVE=-23$LOCKDOWN_E_MISSING_SESSION_ID=-24$LOCKDOWN_E_INVALID_SESSION_ID=-25$LOCKDOWN_E_MISSING_SERVICE=-26$LOCKDOWN_E_INVALID_SERVICE=-27$LOCKDOWN_E_SERVICE_LIMIT=-28$LOCKDOWN_E_MISSING_PAIR_RECORD=-29$LOCKDOWN_E_SAVE_PAIR_RECORD_FAILED=-30$LOCKDOWN_E_INVALID_PAIR_RECORD=-31$LOCKDOWN_E_INVALID_ACTIVATION_RECORD=-32$LOCKDOWN_E_MISSING_ACTIVATION_RECORD=-33$LOCKDOWN_E_SERVICE_PROHIBITED=-34$LOCKDOWN_E_ESCROW_LOCKED=-35$LOCKDOWN_E_UNKNOWN_ERROR=-256
+// #anon_enum_LOCKDOWN_E_SUCCESS=0_LOCKDOWN_E_INVALID_ARG=-1_LOCKDOWN_E_INVALID_CONF=-2_LOCKDOWN_E_PLIST_ERROR=-3_LOCKDOWN_E_PAIRING_FAILED=-4_LOCKDOWN_E_SSL_ERROR=-5_LOCKDOWN_E_DICT_ERROR=-6_LOCKDOWN_E_NOT_ENOUGH_DATA=-7_LOCKDOWN_E_MUX_ERROR=-8_LOCKDOWN_E_NO_RUNNING_SESSION=-9_LOCKDOWN_E_INVALID_RESPONSE=-10_LOCKDOWN_E_MISSING_KEY=-11_LOCKDOWN_E_MISSING_VALUE=-12_LOCKDOWN_E_GET_PROHIBITED=-13_LOCKDOWN_E_SET_PROHIBITED=-14_LOCKDOWN_E_REMOVE_PROHIBITED=-15_LOCKDOWN_E_IMMUTABLE_VALUE=-16_LOCKDOWN_E_PASSWORD_PROTECTED=-17_LOCKDOWN_E_USER_DENIED_PAIRING=-18_LOCKDOWN_E_PAIRING_DIALOG_RESPONSE_PENDING=-19_LOCKDOWN_E_MISSING_HOST_ID=-20_LOCKDOWN_E_INVALID_HOST_ID=-21_LOCKDOWN_E_SESSION_ACTIVE=-22_LOCKDOWN_E_SESSION_INACTIVE=-23_LOCKDOWN_E_MISSING_SESSION_ID=-24_LOCKDOWN_E_INVALID_SESSION_ID=-25_LOCKDOWN_E_MISSING_SERVICE=-26_LOCKDOWN_E_INVALID_SERVICE=-27_LOCKDOWN_E_SERVICE_LIMIT=-28_LOCKDOWN_E_MISSING_PAIR_RECORD=-29_LOCKDOWN_E_SAVE_PAIR_RECORD_FAILED=-30_LOCKDOWN_E_INVALID_PAIR_RECORD=-31_LOCKDOWN_E_INVALID_ACTIVATION_RECORD=-32_LOCKDOWN_E_MISSING_ACTIVATION_RECORD=-33_LOCKDOWN_E_SERVICE_PROHIBITED=-34_LOCKDOWN_E_ESCROW_LOCKED=-35_LOCKDOWN_E_UNKNOWN_ERROR=-256
 // file /usr/include/libimobiledevice/lockdown.h line 37
-enum anonymous$13 { LOCKDOWN_E_SUCCESS=0, LOCKDOWN_E_INVALID_ARG=-1, LOCKDOWN_E_INVALID_CONF=-2, LOCKDOWN_E_PLIST_ERROR=-3, LOCKDOWN_E_PAIRING_FAILED=-4, LOCKDOWN_E_SSL_ERROR=-5, LOCKDOWN_E_DICT_ERROR=-6, LOCKDOWN_E_NOT_ENOUGH_DATA=-7, LOCKDOWN_E_MUX_ERROR=-8, LOCKDOWN_E_NO_RUNNING_SESSION=-9, LOCKDOWN_E_INVALID_RESPONSE=-10, LOCKDOWN_E_MISSING_KEY=-11, LOCKDOWN_E_MISSING_VALUE=-12, LOCKDOWN_E_GET_PROHIBITED=-13, LOCKDOWN_E_SET_PROHIBITED=-14, LOCKDOWN_E_REMOVE_PROHIBITED=-15, LOCKDOWN_E_IMMUTABLE_VALUE=-16, LOCKDOWN_E_PASSWORD_PROTECTED=-17, LOCKDOWN_E_USER_DENIED_PAIRING=-18, LOCKDOWN_E_PAIRING_DIALOG_RESPONSE_PENDING=-19, LOCKDOWN_E_MISSING_HOST_ID=-20, LOCKDOWN_E_INVALID_HOST_ID=-21, LOCKDOWN_E_SESSION_ACTIVE=-22, LOCKDOWN_E_SESSION_INACTIVE=-23, LOCKDOWN_E_MISSING_SESSION_ID=-24, LOCKDOWN_E_INVALID_SESSION_ID=-25, LOCKDOWN_E_MISSING_SERVICE=-26, LOCKDOWN_E_INVALID_SERVICE=-27, LOCKDOWN_E_SERVICE_LIMIT=-28, LOCKDOWN_E_MISSING_PAIR_RECORD=-29, LOCKDOWN_E_SAVE_PAIR_RECORD_FAILED=-30, LOCKDOWN_E_INVALID_PAIR_RECORD=-31, LOCKDOWN_E_INVALID_ACTIVATION_RECORD=-32, LOCKDOWN_E_MISSING_ACTIVATION_RECORD=-33, LOCKDOWN_E_SERVICE_PROHIBITED=-34, LOCKDOWN_E_ESCROW_LOCKED=-35, LOCKDOWN_E_UNKNOWN_ERROR=-256 };
+enum anonymous_13 { LOCKDOWN_E_SUCCESS=0, LOCKDOWN_E_INVALID_ARG=-1, LOCKDOWN_E_INVALID_CONF=-2, LOCKDOWN_E_PLIST_ERROR=-3, LOCKDOWN_E_PAIRING_FAILED=-4, LOCKDOWN_E_SSL_ERROR=-5, LOCKDOWN_E_DICT_ERROR=-6, LOCKDOWN_E_NOT_ENOUGH_DATA=-7, LOCKDOWN_E_MUX_ERROR=-8, LOCKDOWN_E_NO_RUNNING_SESSION=-9, LOCKDOWN_E_INVALID_RESPONSE=-10, LOCKDOWN_E_MISSING_KEY=-11, LOCKDOWN_E_MISSING_VALUE=-12, LOCKDOWN_E_GET_PROHIBITED=-13, LOCKDOWN_E_SET_PROHIBITED=-14, LOCKDOWN_E_REMOVE_PROHIBITED=-15, LOCKDOWN_E_IMMUTABLE_VALUE=-16, LOCKDOWN_E_PASSWORD_PROTECTED=-17, LOCKDOWN_E_USER_DENIED_PAIRING=-18, LOCKDOWN_E_PAIRING_DIALOG_RESPONSE_PENDING=-19, LOCKDOWN_E_MISSING_HOST_ID=-20, LOCKDOWN_E_INVALID_HOST_ID=-21, LOCKDOWN_E_SESSION_ACTIVE=-22, LOCKDOWN_E_SESSION_INACTIVE=-23, LOCKDOWN_E_MISSING_SESSION_ID=-24, LOCKDOWN_E_INVALID_SESSION_ID=-25, LOCKDOWN_E_MISSING_SERVICE=-26, LOCKDOWN_E_INVALID_SERVICE=-27, LOCKDOWN_E_SERVICE_LIMIT=-28, LOCKDOWN_E_MISSING_PAIR_RECORD=-29, LOCKDOWN_E_SAVE_PAIR_RECORD_FAILED=-30, LOCKDOWN_E_INVALID_PAIR_RECORD=-31, LOCKDOWN_E_INVALID_ACTIVATION_RECORD=-32, LOCKDOWN_E_MISSING_ACTIVATION_RECORD=-33, LOCKDOWN_E_SERVICE_PROHIBITED=-34, LOCKDOWN_E_ESCROW_LOCKED=-35, LOCKDOWN_E_UNKNOWN_ERROR=-256 };
 
-// #anon_enum$NP_E_SUCCESS=0$NP_E_INVALID_ARG=-1$NP_E_PLIST_ERROR=-2$NP_E_CONN_FAILED=-3$NP_E_UNKNOWN_ERROR=-256
+// #anon_enum_NP_E_SUCCESS=0_NP_E_INVALID_ARG=-1_NP_E_PLIST_ERROR=-2_NP_E_CONN_FAILED=-3_NP_E_UNKNOWN_ERROR=-256
 // file /usr/include/libimobiledevice/notification_proxy.h line 37
-enum anonymous$17 { NP_E_SUCCESS=0, NP_E_INVALID_ARG=-1, NP_E_PLIST_ERROR=-2, NP_E_CONN_FAILED=-3, NP_E_UNKNOWN_ERROR=-256 };
+enum anonymous_17 { NP_E_SUCCESS=0, NP_E_INVALID_ARG=-1, NP_E_PLIST_ERROR=-2, NP_E_CONN_FAILED=-3, NP_E_UNKNOWN_ERROR=-256 };
 
-// #anon_enum$PLIST_BOOLEAN=0$PLIST_UINT=1$PLIST_REAL=2$PLIST_STRING=3$PLIST_ARRAY=4$PLIST_DICT=5$PLIST_DATE=6$PLIST_DATA=7$PLIST_KEY=8$PLIST_UID=9$PLIST_NONE=10
+// #anon_enum_PLIST_BOOLEAN=0_PLIST_UINT=1_PLIST_REAL=2_PLIST_STRING=3_PLIST_ARRAY=4_PLIST_DICT=5_PLIST_DATE=6_PLIST_DATA=7_PLIST_KEY=8_PLIST_UID=9_PLIST_NONE=10
 // file /usr/include/plist/plist.h line 98
-enum anonymous$14 { PLIST_BOOLEAN=0, PLIST_UINT=1, PLIST_REAL=2, PLIST_STRING=3, PLIST_ARRAY=4, PLIST_DICT=5, PLIST_DATE=6, PLIST_DATA=7, PLIST_KEY=8, PLIST_UID=9, PLIST_NONE=10 };
+enum anonymous_14 { PLIST_BOOLEAN=0, PLIST_UINT=1, PLIST_REAL=2, PLIST_STRING=3, PLIST_ARRAY=4, PLIST_DICT=5, PLIST_DATE=6, PLIST_DATA=7, PLIST_KEY=8, PLIST_UID=9, PLIST_NONE=10 };
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$0;
+struct anonymous_0;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$8;
+struct anonymous_8;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$3;
+struct anonymous_3;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[U16'source'||U16'dest'||U32'seq'||U32'ack_seq'||BF{U16}$U16$'res1'||BF{U16}$U16$'doff'||BF{U16}$U16$'fin'||BF{U16}$U16$'syn'||BF{U16}$U16$'rst'||BF{U16}$U16$'psh'||BF{U16}$U16$'ack'||BF{U16}$U16$'urg'||BF{U16}$U16$'res2'||U16'window'||U16'check'||U16'urg_ptr'|]
+// tag-#anon#ST[U16'source'||U16'dest'||U32'seq'||U32'ack_seq'||BF{U16}_U16_'res1'||BF{U16}_U16_'doff'||BF{U16}_U16_'fin'||BF{U16}_U16_'syn'||BF{U16}_U16_'rst'||BF{U16}_U16_'psh'||BF{U16}_U16_'ack'||BF{U16}_U16_'urg'||BF{U16}_U16_'res2'||U16'window'||U16'check'||U16'urg_ptr'|]
 // file /usr/include/netinet/tcp.h line 103
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[U16'th_sport'||U16'th_dport'||U32'th_seq'||U32'th_ack'||BF{U8}$U8$'th_x2'||BF{U8}$U8$'th_off'||U8'th_flags'||U16'th_win'||U16'th_sum'||U16'th_urp'|]
+// tag-#anon#ST[U16'th_sport'||U16'th_dport'||U32'th_seq'||U32'th_ack'||BF{U8}_U8_'th_x2'||BF{U8}_U8_'th_off'||U8'th_flags'||U16'th_win'||U16'th_sum'||U16'th_urp'|]
 // file /usr/include/netinet/tcp.h line 78
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U16'th_sport'||U16'th_dport'||U32'th_seq'||U32'th_ack'||BF{U8}$U8$'th_x2'||BF{U8}$U8$'th_off'||U8'th_flags'||U16'th_win'||U16'th_sum'||U16'th_urp'|]#'$anon0'||SYM#tag-#anon#ST[U16'source'||U16'dest'||U32'seq'||U32'ack_seq'||BF{U16}$U16$'res1'||BF{U16}$U16$'doff'||BF{U16}$U16$'fin'||BF{U16}$U16$'syn'||BF{U16}$U16$'rst'||BF{U16}$U16$'psh'||BF{U16}$U16$'ack'||BF{U16}$U16$'urg'||BF{U16}$U16$'res2'||U16'window'||U16'check'||U16'urg_ptr'|]#'$anon1'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U16'th_sport'||U16'th_dport'||U32'th_seq'||U32'th_ack'||BF{U8}_U8_'th_x2'||BF{U8}_U8_'th_off'||U8'th_flags'||U16'th_win'||U16'th_sum'||U16'th_urp'|]#'_anon0'||SYM#tag-#anon#ST[U16'source'||U16'dest'||U32'seq'||U32'ack_seq'||BF{U16}_U16_'res1'||BF{U16}_U16_'doff'||BF{U16}_U16_'fin'||BF{U16}_U16_'syn'||BF{U16}_U16_'rst'||BF{U16}_U16_'psh'||BF{U16}_U16_'ack'||BF{U16}_U16_'urg'||BF{U16}_U16_'res2'||U16'window'||U16'check'||U16'urg_ptr'|]#'_anon1'|]
 // file /usr/include/netinet/tcp.h line 76
-union anonymous$20;
+union anonymous_20;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$2;
+union anonymous_2;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -391,7 +391,7 @@ static signed int __mkdir(const char *dir, signed int mode);
 extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$2, unsigned int);
+extern signed int bind(signed int, union anonymous_2, unsigned int);
 // buffer_read_from_filename
 // file utils.c line 213
 void buffer_read_from_filename(const char *filename, char **buffer, unsigned long int *length);
@@ -691,7 +691,7 @@ extern unsigned int htonl(unsigned int);
 extern unsigned short int htons(unsigned short int);
 // idevice_free
 // file /usr/include/libimobiledevice/libimobiledevice.h line 148
-enum anonymous$16 idevice_free(struct idevice_private *);
+enum anonymous_16 idevice_free(struct idevice_private *);
 // initgroups
 // file /usr/include/grp.h line 200
 extern signed int initgroups(const char *, unsigned int);
@@ -728,9 +728,9 @@ void libusb_exit(struct libusb_context *);
 // libusb_fill_bulk_transfer
 // file /usr/include/libusb-1.0/libusb.h line 1545
 static inline void libusb_fill_bulk_transfer(struct libusb_transfer *transfer, struct libusb_device_handle *dev_handle, unsigned char endpoint, unsigned char *buffer, signed int length, void (*callback)(struct libusb_transfer *), void *user_data, unsigned int timeout);
-// libusb_fill_bulk_transfer::callback$object
+// libusb_fill_bulk_transfer::callback_object
 //
-void callback$object(struct libusb_transfer *);
+void callback_object(struct libusb_transfer *);
 // libusb_free_config_descriptor
 // file /usr/include/libusb-1.0/libusb.h line 1329
 void libusb_free_config_descriptor(struct libusb_config_descriptor *);
@@ -799,37 +799,37 @@ extern signed int listen(signed int, signed int);
 extern struct tm * localtime(const signed long int *);
 // lockdownd_client_free
 // file /usr/include/libimobiledevice/lockdown.h line 144
-enum anonymous$13 lockdownd_client_free(struct lockdownd_client_private *);
+enum anonymous_13 lockdownd_client_free(struct lockdownd_client_private *);
 // lockdownd_client_new
 // file /usr/include/libimobiledevice/lockdown.h line 115
-enum anonymous$13 lockdownd_client_new(struct idevice_private *, struct lockdownd_client_private **, const char *);
+enum anonymous_13 lockdownd_client_new(struct idevice_private *, struct lockdownd_client_private **, const char *);
 // lockdownd_get_value
 // file /usr/include/libimobiledevice/lockdown.h line 168
-enum anonymous$13 lockdownd_get_value(struct lockdownd_client_private *, const char *, const char *, void **);
+enum anonymous_13 lockdownd_get_value(struct lockdownd_client_private *, const char *, const char *, void **);
 // lockdownd_pair
 // file /usr/include/libimobiledevice/lockdown.h line 292
-enum anonymous$13 lockdownd_pair(struct lockdownd_client_private *, struct lockdownd_pair_record *);
+enum anonymous_13 lockdownd_pair(struct lockdownd_client_private *, struct lockdownd_pair_record *);
 // lockdownd_query_type
 // file /usr/include/libimobiledevice/lockdown.h line 156
-enum anonymous$13 lockdownd_query_type(struct lockdownd_client_private *, char **);
+enum anonymous_13 lockdownd_query_type(struct lockdownd_client_private *, char **);
 // lockdownd_service_descriptor_free
 // file /usr/include/libimobiledevice/lockdown.h line 442
-enum anonymous$13 lockdownd_service_descriptor_free(struct lockdownd_service_descriptor *);
+enum anonymous_13 lockdownd_service_descriptor_free(struct lockdownd_service_descriptor *);
 // lockdownd_set_untrusted_host_buid
 // file preflight.c line 62
 static void lockdownd_set_untrusted_host_buid(struct lockdownd_client_private *lockdown);
 // lockdownd_set_value
 // file /usr/include/libimobiledevice/lockdown.h line 181
-enum anonymous$13 lockdownd_set_value(struct lockdownd_client_private *, const char *, const char *, void *);
+enum anonymous_13 lockdownd_set_value(struct lockdownd_client_private *, const char *, const char *, void *);
 // lockdownd_start_service
 // file /usr/include/libimobiledevice/lockdown.h line 208
-enum anonymous$13 lockdownd_start_service(struct lockdownd_client_private *, const char *, struct lockdownd_service_descriptor **);
+enum anonymous_13 lockdownd_start_service(struct lockdownd_client_private *, const char *, struct lockdownd_service_descriptor **);
 // lockdownd_start_session
 // file /usr/include/libimobiledevice/lockdown.h line 239
-enum anonymous$13 lockdownd_start_session(struct lockdownd_client_private *, const char *, char **, signed int *);
+enum anonymous_13 lockdownd_start_session(struct lockdownd_client_private *, const char *, char **, signed int *);
 // lockdownd_validate_pair
 // file /usr/include/libimobiledevice/lockdown.h line 311
-enum anonymous$13 lockdownd_validate_pair(struct lockdownd_client_private *, struct lockdownd_pair_record *);
+enum anonymous_13 lockdownd_validate_pair(struct lockdownd_client_private *, struct lockdownd_pair_record *);
 // log_disable_syslog
 // file log.c line 47
 void log_disable_syslog();
@@ -877,16 +877,16 @@ static signed int notify_parent(signed int status);
 static void np_callback(const char *notification, void *userdata);
 // np_client_free
 // file /usr/include/libimobiledevice/notification_proxy.h line 131
-enum anonymous$17 np_client_free(struct np_client_private *);
+enum anonymous_17 np_client_free(struct np_client_private *);
 // np_client_new
 // file /usr/include/libimobiledevice/notification_proxy.h line 106
-enum anonymous$17 np_client_new(struct idevice_private *, struct lockdownd_service_descriptor *, struct np_client_private **);
+enum anonymous_17 np_client_new(struct idevice_private *, struct lockdownd_service_descriptor *, struct np_client_private **);
 // np_observe_notifications
 // file /usr/include/libimobiledevice/notification_proxy.h line 166
-enum anonymous$17 np_observe_notifications(struct np_client_private *, const char **);
+enum anonymous_17 np_observe_notifications(struct np_client_private *, const char **);
 // np_set_notify_callback
 // file /usr/include/libimobiledevice/notification_proxy.h line 190
-enum anonymous$17 np_set_notify_callback(struct np_client_private *, void (*)(const char *, void *), void *);
+enum anonymous_17 np_set_notify_callback(struct np_client_private *, void (*)(const char *, void *), void *);
 // ntohl
 // file /usr/include/netinet/in.h line 374
 extern unsigned int ntohl(unsigned int);
@@ -937,7 +937,7 @@ void plist_from_xml(const char *, unsigned int, void **);
 void plist_get_data_val(void *, char **, unsigned long int *);
 // plist_get_node_type
 // file /usr/include/plist/plist.h line 399
-enum anonymous$14 plist_get_node_type(void *);
+enum anonymous_14 plist_get_node_type(void *);
 // plist_get_string_val
 // file /usr/include/plist/plist.h line 419
 void plist_get_string_val(void *, char **);
@@ -973,7 +973,7 @@ void plist_to_xml(void *, char **, unsigned int *);
 signed int plist_write_to_filename(void *plist, const char *filename, enum plist_format_t format);
 // ppoll
 // file /usr/include/x86_64-linux-gnu/sys/poll.h line 66
-extern signed int ppoll(struct pollfd *, unsigned long int, struct timespec *, const struct anonymous$0 *);
+extern signed int ppoll(struct pollfd *, unsigned long int, struct timespec *, const struct anonymous_0 *);
 // preflight_device_remove_cb
 // file preflight.h line 28
 void preflight_device_remove_cb(void *data);
@@ -1006,7 +1006,7 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_mutex_destroy(union anonymous *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$15 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_15 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -1090,16 +1090,16 @@ extern signed int setuid(unsigned int);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$0 *, signed int);
+extern signed int sigaddset(struct anonymous_0 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$0 *);
+extern signed int sigemptyset(struct anonymous_0 *);
 // signal
 // file /usr/include/signal.h line 102
 extern void (*signal(signed int, void (*)(signed int)))(signed int);
 // sigprocmask
 // file /usr/include/signal.h line 248
-extern signed int sigprocmask(signed int, const struct anonymous$0 *, struct anonymous$0 *);
+extern signed int sigprocmask(signed int, const struct anonymous_0 *, struct anonymous_0 *);
 // sleep
 // file /usr/include/unistd.h line 444
 extern unsigned int sleep(unsigned int);
@@ -1218,7 +1218,7 @@ extern void vsyslog(signed int, const char *, void **);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$11
+struct anonymous_11
 {
   // _call_addr
   void *_call_addr;
@@ -1228,7 +1228,7 @@ struct anonymous$11
   unsigned int _arch;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // si_addr
   void *si_addr;
@@ -1236,13 +1236,13 @@ struct anonymous$9
   signed short int si_addr_lsb;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // si_pid
   signed int si_pid;
@@ -1250,7 +1250,7 @@ struct anonymous$5
   unsigned int si_uid;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // si_pid
   signed int si_pid;
@@ -1272,7 +1272,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // si_pid
   signed int si_pid;
@@ -1282,7 +1282,7 @@ struct anonymous$7
   union sigval si_sigval;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // si_tid
   signed int si_tid;
@@ -1292,7 +1292,7 @@ struct anonymous$6
   union sigval si_sigval;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // si_band
   signed long int si_band;
@@ -1300,27 +1300,27 @@ struct anonymous$10
   signed int si_fd;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$5 _kill;
+  struct anonymous_5 _kill;
   // _timer
-  struct anonymous$6 _timer;
+  struct anonymous_6 _timer;
   // _rt
-  struct anonymous$7 _rt;
+  struct anonymous_7 _rt;
   // _sigchld
-  struct anonymous$8 _sigchld;
+  struct anonymous_8 _sigchld;
   // _sigfault
-  struct anonymous$9 _sigfault;
+  struct anonymous_9 _sigfault;
   // _sigpoll
-  struct anonymous$10 _sigpoll;
+  struct anonymous_10 _sigpoll;
   // _sigsys
-  struct anonymous$11 _sigsys;
+  struct anonymous_11 _sigsys;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // si_signo
   signed int si_signo;
@@ -1329,10 +1329,10 @@ struct anonymous$3
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$12 _sifields;
+  union anonymous_12 _sifields;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // source
   unsigned short int source;
@@ -1368,7 +1368,7 @@ struct anonymous$19
   unsigned short int urg_ptr;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // th_sport
   unsigned short int th_sport;
@@ -1392,15 +1392,15 @@ struct anonymous$18
   unsigned short int th_urp;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$3 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_3 *, void *);
 };
 
-union anonymous$15
+union anonymous_15
 {
   // __size
   char __size[4l];
@@ -1408,12 +1408,12 @@ union anonymous$15
   signed int __align;
 };
 
-union anonymous$20
+union anonymous_20
 {
-  // $anon0
-  struct anonymous$18 $anon0;
-  // $anon1
-  struct anonymous$19 $anon1;
+  // _anon0
+  struct anonymous_18 _anon0;
+  // _anon1
+  struct anonymous_19 _anon1;
 };
 
 struct __pthread_internal_list
@@ -1454,7 +1454,7 @@ union anonymous
   signed long int __align;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1484,7 +1484,7 @@ union anonymous$4
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -2021,9 +2021,9 @@ struct rlimit
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$1 __sigaction_handler;
+  union anonymous_1 __sigaction_handler;
   // sa_mask
-  struct anonymous$0 sa_mask;
+  struct anonymous_0 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -2090,8 +2090,8 @@ struct stat
 
 struct tcphdr
 {
-  // $anon0
-  union anonymous$20 $anon0;
+  // _anon0
+  union anonymous_20 _anon0;
 };
 
 struct timeval
@@ -2230,9 +2230,9 @@ static signed int daemon_pipe;
 // device_list
 // file device.c line 128
 static struct collection device_list;
-// device_list$link1
+// device_list_link1
 // file usb-linux.c line 60
-static struct collection device_list$link1;
+static struct collection device_list_link1;
 // device_list_mutex
 // file device.c line 129
 union anonymous device_list_mutex;
@@ -2313,9 +2313,9 @@ static signed int verbose = 0;
 // file conf.c line 148
 static signed int __mkdir(const char *dir, signed int mode)
 {
-  signed int return_value_mkdir$1;
-  return_value_mkdir$1=mkdir(dir, (unsigned int)mode);
-  return return_value_mkdir$1;
+  signed int return_value_mkdir_1;
+  return_value_mkdir_1=mkdir(dir, (unsigned int)mode);
+  return return_value_mkdir_1;
 }
 
 // buffer_read_from_filename
@@ -2329,21 +2329,21 @@ void buffer_read_from_filename(const char *filename, char **buffer, unsigned lon
   if(!(f == ((struct _IO_FILE *)NULL)))
   {
     fseek(f, (signed long int)0, 2);
-    signed long int return_value_ftell$1;
-    return_value_ftell$1=ftell(f);
-    size = (unsigned long int)return_value_ftell$1;
+    signed long int return_value_ftell_1;
+    return_value_ftell_1=ftell(f);
+    size = (unsigned long int)return_value_ftell_1;
     rewind(f);
     if(size == 0ul)
       fclose(f);
 
     else
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(char) /*1ul*/  * (size + (unsigned long int)1));
-      *buffer = (char *)return_value_malloc$2;
-      unsigned long int return_value_fread$3;
-      return_value_fread$3=fread((void *)*buffer, sizeof(char) /*1ul*/ , size, f);
-      if(!(return_value_fread$3 == size))
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(char) /*1ul*/  * (size + (unsigned long int)1));
+      *buffer = (char *)return_value_malloc_2;
+      unsigned long int return_value_fread_3;
+      return_value_fread_3=fread((void *)*buffer, sizeof(char) /*1ul*/ , size, f);
+      if(!(return_value_fread_3 == size))
         usbmuxd_log((enum loglevel)LL_ERROR, "%s: ERROR: couldn't read %d bytes from %s", (const void *)"buffer_read_from_filename", (signed int)size, filename);
 
       fclose(f);
@@ -2377,28 +2377,28 @@ signed int client_accept(signed int listenfd)
   cfd=accept(listenfd, (struct sockaddr *)&addr, &len);
   if(!(cfd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    usbmuxd_log((enum loglevel)LL_ERROR, "accept() failed (%s)", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    usbmuxd_log((enum loglevel)LL_ERROR, "accept() failed (%s)", return_value_strerror_2);
     return cfd;
   }
 
   struct mux_client *client;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(struct mux_client) /*64ul*/ );
-  client = (struct mux_client *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(struct mux_client) /*64ul*/ );
+  client = (struct mux_client *)return_value_malloc_3;
   memset((void *)client, 0, sizeof(struct mux_client) /*64ul*/ );
   client->fd = cfd;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc((unsigned long int)0x10000);
-  client->ob_buf = (unsigned char *)return_value_malloc$4;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc((unsigned long int)0x10000);
+  client->ob_buf = (unsigned char *)return_value_malloc_4;
   client->ob_size = (unsigned int)0;
   client->ob_capacity = (unsigned int)0x10000;
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc((unsigned long int)0x10000);
-  client->ib_buf = (unsigned char *)return_value_malloc$5;
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc((unsigned long int)0x10000);
+  client->ib_buf = (unsigned char *)return_value_malloc_5;
   client->ib_size = (unsigned int)0;
   client->ib_capacity = (unsigned int)0x10000;
   client->state = (enum client_state)CLIENT_COMMAND;
@@ -2415,13 +2415,13 @@ signed int client_accept(signed int listenfd)
 void client_close(struct mux_client *client)
 {
   usbmuxd_log((enum loglevel)LL_INFO, "Disconnecting client fd %d", client->fd);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)client->state == CLIENT_CONNECTING1)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)client->state == CLIENT_CONNECTING2 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)client->state == CLIENT_CONNECTING2 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     usbmuxd_log((enum loglevel)LL_INFO, "Client died mid-connect, aborting device %d connection", client->connect_device);
     client->state = (enum client_state)CLIENT_DEAD;
@@ -2450,9 +2450,9 @@ static signed int client_command(struct mux_client *client, struct usbmuxd_heade
   if(!((signed int)client->state == CLIENT_COMMAND))
   {
     usbmuxd_log((enum loglevel)LL_ERROR, "Client %d command received in the wrong state", client->fd);
-    signed int return_value_send_result$1;
-    return_value_send_result$1=send_result(client, hdr->tag, (unsigned int)RESULT_BADCOMMAND);
-    if(!(return_value_send_result$1 >= 0))
+    signed int return_value_send_result_1;
+    return_value_send_result_1=send_result(client, hdr->tag, (unsigned int)RESULT_BADCOMMAND);
+    if(!(return_value_send_result_1 >= 0))
       return -1;
 
     client_close(client);
@@ -2462,22 +2462,22 @@ static signed int client_command(struct mux_client *client, struct usbmuxd_heade
   void *dict;
   char *message;
   void *node;
-  _Bool tmp_if_expr$3;
-  enum anonymous$14 return_value_plist_get_node_type$2;
-  signed int return_value_strcmp$23;
-  signed int return_value_strcmp$22;
-  signed int return_value_strcmp$21;
-  signed int return_value_strcmp$20;
-  signed int return_value_strcmp$19;
-  signed int return_value_strcmp$18;
-  enum anonymous$14 return_value_plist_get_node_type$13;
-  signed int return_value_strcmp$17;
-  signed int return_value_send_result$16;
-  signed int return_value_send_result$24;
-  signed int return_value_start_listen$25;
-  unsigned short int return_value_ntohs$26;
-  unsigned short int return_value_ntohs$27;
-  signed int return_value_send_result$29;
+  _Bool tmp_if_expr_3;
+  enum anonymous_14 return_value_plist_get_node_type_2;
+  signed int return_value_strcmp_23;
+  signed int return_value_strcmp_22;
+  signed int return_value_strcmp_21;
+  signed int return_value_strcmp_20;
+  signed int return_value_strcmp_19;
+  signed int return_value_strcmp_18;
+  enum anonymous_14 return_value_plist_get_node_type_13;
+  signed int return_value_strcmp_17;
+  signed int return_value_send_result_16;
+  signed int return_value_send_result_24;
+  signed int return_value_start_listen_25;
+  unsigned short int return_value_ntohs_26;
+  unsigned short int return_value_ntohs_27;
+  signed int return_value_send_result_29;
   if(!(hdr->version == 0u))
   {
     if(hdr->version == 1u)
@@ -2514,14 +2514,14 @@ static signed int client_command(struct mux_client *client, struct usbmuxd_heade
         message = (char *)(void *)0;
         node=plist_dict_get_item(dict, "MessageType");
         if(node == NULL)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
-          return_value_plist_get_node_type$2=plist_get_node_type(node);
-          tmp_if_expr$3 = (signed int)return_value_plist_get_node_type$2 != PLIST_STRING ? (_Bool)1 : (_Bool)0;
+          return_value_plist_get_node_type_2=plist_get_node_type(node);
+          tmp_if_expr_3 = (signed int)return_value_plist_get_node_type_2 != PLIST_STRING ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
+        if(tmp_if_expr_3)
         {
           usbmuxd_log((enum loglevel)LL_ERROR, "Could not read valid MessageType node from plist!");
           plist_free(dict);
@@ -2536,24 +2536,24 @@ static signed int client_command(struct mux_client *client, struct usbmuxd_heade
           return -1;
         }
 
-        return_value_strcmp$23=strcmp(message, "Listen");
-        if(return_value_strcmp$23 == 0)
+        return_value_strcmp_23=strcmp(message, "Listen");
+        if(return_value_strcmp_23 == 0)
         {
           free((void *)message);
           plist_free(dict);
-          signed int return_value_send_result$4;
-          return_value_send_result$4=send_result(client, hdr->tag, (unsigned int)0);
-          if(!(return_value_send_result$4 >= 0))
+          signed int return_value_send_result_4;
+          return_value_send_result_4=send_result(client, hdr->tag, (unsigned int)0);
+          if(!(return_value_send_result_4 >= 0))
             return -1;
 
           usbmuxd_log((enum loglevel)LL_DEBUG, "Client %d now LISTENING", client->fd);
-          signed int return_value_start_listen$5;
-          return_value_start_listen$5=start_listen(client);
-          return return_value_start_listen$5;
+          signed int return_value_start_listen_5;
+          return_value_start_listen_5=start_listen(client);
+          return return_value_start_listen_5;
         }
 
-        return_value_strcmp$22=strcmp(message, "Connect");
-        if(return_value_strcmp$22 == 0)
+        return_value_strcmp_22=strcmp(message, "Connect");
+        if(return_value_strcmp_22 == 0)
         {
           unsigned long int val;
           unsigned short int portnum = (unsigned short int)0;
@@ -2564,9 +2564,9 @@ static signed int client_command(struct mux_client *client, struct usbmuxd_heade
           {
             usbmuxd_log((enum loglevel)LL_ERROR, "Received connect request without device_id!");
             plist_free(dict);
-            signed int return_value_send_result$6;
-            return_value_send_result$6=send_result(client, hdr->tag, (unsigned int)RESULT_BADDEV);
-            if(!(return_value_send_result$6 >= 0))
+            signed int return_value_send_result_6;
+            return_value_send_result_6=send_result(client, hdr->tag, (unsigned int)RESULT_BADDEV);
+            if(!(return_value_send_result_6 >= 0))
               return -1;
 
             return 0;
@@ -2580,9 +2580,9 @@ static signed int client_command(struct mux_client *client, struct usbmuxd_heade
           {
             usbmuxd_log((enum loglevel)LL_ERROR, "Received connect request without port number!");
             plist_free(dict);
-            signed int return_value_send_result$7;
-            return_value_send_result$7=send_result(client, hdr->tag, (unsigned int)RESULT_BADCOMMAND);
-            if(!(return_value_send_result$7 >= 0))
+            signed int return_value_send_result_7;
+            return_value_send_result_7=send_result(client, hdr->tag, (unsigned int)RESULT_BADCOMMAND);
+            if(!(return_value_send_result_7 >= 0))
               return -1;
 
             return 0;
@@ -2592,17 +2592,17 @@ static signed int client_command(struct mux_client *client, struct usbmuxd_heade
           plist_get_uint_val(node, &val);
           portnum = (unsigned short int)val;
           plist_free(dict);
-          unsigned short int return_value_ntohs$8;
-          return_value_ntohs$8=ntohs(portnum);
-          usbmuxd_log((enum loglevel)LL_DEBUG, "Client %d connection request to device %d port %d", client->fd, device_id, return_value_ntohs$8);
-          unsigned short int return_value_ntohs$9;
-          return_value_ntohs$9=ntohs(portnum);
-          res=device_start_connect((signed int)device_id, return_value_ntohs$9, client);
+          unsigned short int return_value_ntohs_8;
+          return_value_ntohs_8=ntohs(portnum);
+          usbmuxd_log((enum loglevel)LL_DEBUG, "Client %d connection request to device %d port %d", client->fd, device_id, return_value_ntohs_8);
+          unsigned short int return_value_ntohs_9;
+          return_value_ntohs_9=ntohs(portnum);
+          res=device_start_connect((signed int)device_id, return_value_ntohs_9, client);
           if(!(res >= 0))
           {
-            signed int return_value_send_result$10;
-            return_value_send_result$10=send_result(client, hdr->tag, (unsigned int)-res);
-            if(!(return_value_send_result$10 >= 0))
+            signed int return_value_send_result_10;
+            return_value_send_result_10=send_result(client, hdr->tag, (unsigned int)-res);
+            if(!(return_value_send_result_10 >= 0))
               return -1;
 
           }
@@ -2616,42 +2616,42 @@ static signed int client_command(struct mux_client *client, struct usbmuxd_heade
           return 0;
         }
 
-        return_value_strcmp$21=strcmp(message, "ListDevices");
-        if(return_value_strcmp$21 == 0)
+        return_value_strcmp_21=strcmp(message, "ListDevices");
+        if(return_value_strcmp_21 == 0)
         {
           free((void *)message);
           plist_free(dict);
-          signed int return_value_send_device_list$11;
-          return_value_send_device_list$11=send_device_list(client, hdr->tag);
-          if(!(return_value_send_device_list$11 >= 0))
+          signed int return_value_send_device_list_11;
+          return_value_send_device_list_11=send_device_list(client, hdr->tag);
+          if(!(return_value_send_device_list_11 >= 0))
             return -1;
 
           return 0;
         }
 
-        return_value_strcmp$20=strcmp(message, "ReadBUID");
-        if(return_value_strcmp$20 == 0)
+        return_value_strcmp_20=strcmp(message, "ReadBUID");
+        if(return_value_strcmp_20 == 0)
         {
           free((void *)message);
           plist_free(dict);
-          signed int return_value_send_system_buid$12;
-          return_value_send_system_buid$12=send_system_buid(client, hdr->tag);
-          if(!(return_value_send_system_buid$12 >= 0))
+          signed int return_value_send_system_buid_12;
+          return_value_send_system_buid_12=send_system_buid(client, hdr->tag);
+          if(!(return_value_send_system_buid_12 >= 0))
             return -1;
 
           return 0;
         }
 
-        return_value_strcmp$19=strcmp(message, "ReadPairRecord");
-        if(return_value_strcmp$19 == 0)
+        return_value_strcmp_19=strcmp(message, "ReadPairRecord");
+        if(return_value_strcmp_19 == 0)
         {
           free((void *)message);
-          char *client_command$$1$$3$$2$$7$$record_id;
-          client_command$$1$$3$$2$$7$$record_id=plist_dict_get_string_val(dict, "PairRecordID");
+          char *client_command__1__3__2__7__record_id;
+          client_command__1__3__2__7__record_id=plist_dict_get_string_val(dict, "PairRecordID");
           plist_free(dict);
-          res=send_pair_record(client, hdr->tag, client_command$$1$$3$$2$$7$$record_id);
-          if(!(client_command$$1$$3$$2$$7$$record_id == ((char *)NULL)))
-            free((void *)client_command$$1$$3$$2$$7$$record_id);
+          res=send_pair_record(client, hdr->tag, client_command__1__3__2__7__record_id);
+          if(!(client_command__1__3__2__7__record_id == ((char *)NULL)))
+            free((void *)client_command__1__3__2__7__record_id);
 
           if(!(res >= 0))
             return -1;
@@ -2659,8 +2659,8 @@ static signed int client_command(struct mux_client *client, struct usbmuxd_heade
           return 0;
         }
 
-        return_value_strcmp$18=strcmp(message, "SavePairRecord");
-        if(return_value_strcmp$18 == 0)
+        return_value_strcmp_18=strcmp(message, "SavePairRecord");
+        if(return_value_strcmp_18 == 0)
         {
           unsigned int rval = (unsigned int)RESULT_OK;
           free((void *)message);
@@ -2672,8 +2672,8 @@ static signed int client_command(struct mux_client *client, struct usbmuxd_heade
           rdata=plist_dict_get_item(dict, "PairRecordData");
           if(!(rdata == NULL))
           {
-            return_value_plist_get_node_type$13=plist_get_node_type(rdata);
-            if((signed int)return_value_plist_get_node_type$13 == PLIST_DATA)
+            return_value_plist_get_node_type_13=plist_get_node_type(rdata);
+            if((signed int)return_value_plist_get_node_type_13 == PLIST_DATA)
               plist_get_data_val(rdata, &record_data, &record_size);
 
           }
@@ -2690,36 +2690,36 @@ static signed int client_command(struct mux_client *client, struct usbmuxd_heade
 
           else
             rval = (unsigned int)22;
-          signed int return_value_send_result$14;
-          return_value_send_result$14=send_result(client, hdr->tag, rval);
-          if(!(return_value_send_result$14 >= 0))
+          signed int return_value_send_result_14;
+          return_value_send_result_14=send_result(client, hdr->tag, rval);
+          if(!(return_value_send_result_14 >= 0))
             return -1;
 
           return 0;
         }
 
-        return_value_strcmp$17=strcmp(message, "DeletePairRecord");
-        if(return_value_strcmp$17 == 0)
+        return_value_strcmp_17=strcmp(message, "DeletePairRecord");
+        if(return_value_strcmp_17 == 0)
         {
-          unsigned int client_command$$1$$3$$2$$9$$rval = (unsigned int)RESULT_OK;
+          unsigned int client_command__1__3__2__9__rval = (unsigned int)RESULT_OK;
           free((void *)message);
-          char *client_command$$1$$3$$2$$9$$record_id;
-          client_command$$1$$3$$2$$9$$record_id=plist_dict_get_string_val(dict, "PairRecordID");
+          char *client_command__1__3__2__9__record_id;
+          client_command__1__3__2__9__record_id=plist_dict_get_string_val(dict, "PairRecordID");
           plist_free(dict);
-          if(!(client_command$$1$$3$$2$$9$$record_id == ((char *)NULL)))
+          if(!(client_command__1__3__2__9__record_id == ((char *)NULL)))
           {
-            res=config_remove_device_record(client_command$$1$$3$$2$$9$$record_id);
+            res=config_remove_device_record(client_command__1__3__2__9__record_id);
             if(!(res >= 0))
-              client_command$$1$$3$$2$$9$$rval = (unsigned int)-res;
+              client_command__1__3__2__9__rval = (unsigned int)-res;
 
-            free((void *)client_command$$1$$3$$2$$9$$record_id);
+            free((void *)client_command__1__3__2__9__record_id);
           }
 
           else
-            client_command$$1$$3$$2$$9$$rval = (unsigned int)22;
-          signed int return_value_send_result$15;
-          return_value_send_result$15=send_result(client, hdr->tag, client_command$$1$$3$$2$$9$$rval);
-          if(!(return_value_send_result$15 >= 0))
+            client_command__1__3__2__9__rval = (unsigned int)22;
+          signed int return_value_send_result_15;
+          return_value_send_result_15=send_result(client, hdr->tag, client_command__1__3__2__9__rval);
+          if(!(return_value_send_result_15 >= 0))
             return -1;
 
           return 0;
@@ -2728,34 +2728,34 @@ static signed int client_command(struct mux_client *client, struct usbmuxd_heade
         usbmuxd_log((enum loglevel)LL_ERROR, "Unexpected command '%s' received!", message);
         free((void *)message);
         plist_free(dict);
-        return_value_send_result$16=send_result(client, hdr->tag, (unsigned int)RESULT_BADCOMMAND);
-        if(!(return_value_send_result$16 >= 0))
+        return_value_send_result_16=send_result(client, hdr->tag, (unsigned int)RESULT_BADCOMMAND);
+        if(!(return_value_send_result_16 >= 0))
           return -1;
 
         return 0;
       }
       case (unsigned int)MESSAGE_LISTEN:
       {
-        return_value_send_result$24=send_result(client, hdr->tag, (unsigned int)0);
-        if(!(return_value_send_result$24 >= 0))
+        return_value_send_result_24=send_result(client, hdr->tag, (unsigned int)0);
+        if(!(return_value_send_result_24 >= 0))
           return -1;
 
         usbmuxd_log((enum loglevel)LL_DEBUG, "Client %d now LISTENING", client->fd);
-        return_value_start_listen$25=start_listen(client);
-        return return_value_start_listen$25;
+        return_value_start_listen_25=start_listen(client);
+        return return_value_start_listen_25;
       }
       case (unsigned int)MESSAGE_CONNECT:
       {
         ch = (struct usbmuxd_connect_request *)(void *)hdr;
-        return_value_ntohs$26=ntohs(ch->port);
-        usbmuxd_log((enum loglevel)LL_DEBUG, "Client %d connection request to device %d port %d", client->fd, ch->device_id, return_value_ntohs$26);
-        return_value_ntohs$27=ntohs(ch->port);
-        res=device_start_connect((signed int)ch->device_id, return_value_ntohs$27, client);
+        return_value_ntohs_26=ntohs(ch->port);
+        usbmuxd_log((enum loglevel)LL_DEBUG, "Client %d connection request to device %d port %d", client->fd, ch->device_id, return_value_ntohs_26);
+        return_value_ntohs_27=ntohs(ch->port);
+        res=device_start_connect((signed int)ch->device_id, return_value_ntohs_27, client);
         if(!(res >= 0))
         {
-          signed int return_value_send_result$28;
-          return_value_send_result$28=send_result(client, hdr->tag, (unsigned int)-res);
-          if(!(return_value_send_result$28 >= 0))
+          signed int return_value_send_result_28;
+          return_value_send_result_28=send_result(client, hdr->tag, (unsigned int)-res);
+          if(!(return_value_send_result_28 >= 0))
             return -1;
 
         }
@@ -2771,8 +2771,8 @@ static signed int client_command(struct mux_client *client, struct usbmuxd_heade
       default:
       {
         usbmuxd_log((enum loglevel)LL_ERROR, "Client %d invalid command %d", client->fd, hdr->message);
-        return_value_send_result$29=send_result(client, hdr->tag, (unsigned int)RESULT_BADCOMMAND);
-        if(!(return_value_send_result$29 >= 0))
+        return_value_send_result_29=send_result(client, hdr->tag, (unsigned int)RESULT_BADCOMMAND);
+        if(!(return_value_send_result_29 >= 0))
           return -1;
 
         return 0;
@@ -2856,7 +2856,7 @@ void client_init(void)
 {
   usbmuxd_log((enum loglevel)LL_DEBUG, "client_init");
   collection_init(&client_list);
-  pthread_mutex_init(&client_list_mutex, (const union anonymous$15 *)(void *)0);
+  pthread_mutex_init(&client_list_mutex, (const union anonymous_15 *)(void *)0);
 }
 
 // client_notify_connect
@@ -2876,9 +2876,9 @@ signed int client_notify_connect(struct mux_client *client, enum usbmuxd_result 
 
     else
     {
-      signed int return_value_send_result$1;
-      return_value_send_result$1=send_result(client, client->connect_tag, (unsigned int)result);
-      if(!(return_value_send_result$1 >= 0))
+      signed int return_value_send_result_1;
+      return_value_send_result_1=send_result(client, client->connect_tag, (unsigned int)result);
+      if(!(return_value_send_result_1 >= 0))
         return -1;
 
       else
@@ -2955,9 +2955,9 @@ signed int client_read(struct mux_client *client, void *buffer, unsigned int len
 
   else
   {
-    signed long int return_value_recv$1;
-    return_value_recv$1=recv(client->fd, buffer, (unsigned long int)len, 0);
-    return (signed int)return_value_recv$1;
+    signed long int return_value_recv_1;
+    return_value_recv_1=recv(client->fd, buffer, (unsigned long int)len, 0);
+    return (signed int)return_value_recv_1;
   }
 }
 
@@ -3021,9 +3021,9 @@ signed int client_write(struct mux_client *client, void *buffer, unsigned int le
 
   else
   {
-    signed long int return_value_send$1;
-    return_value_send$1=send(client->fd, buffer, (unsigned long int)len, 0);
-    return (signed int)return_value_send$1;
+    signed long int return_value_send_1;
+    return_value_send_1=send(client->fd, buffer, (unsigned long int)len, 0);
+    return (signed int)return_value_send_1;
   }
 }
 
@@ -3039,9 +3039,9 @@ void collection_add(struct collection *col, void *element)
       goto __CPROVER_DUMP_L4;
     }
 
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)col->list, sizeof(void *) /*8ul*/  * (unsigned long int)(col->capacity + 8));
-  col->list = (void **)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)col->list, sizeof(void *) /*8ul*/  * (unsigned long int)(col->capacity + 8));
+  col->list = (void **)return_value_realloc_1;
   memset((void *)&col->list[(signed long int)col->capacity], 0, sizeof(void *) /*8ul*/  * (unsigned long int)8);
   col->list[(signed long int)col->capacity] = element;
   col->capacity = col->capacity + 8;
@@ -3057,9 +3057,9 @@ void collection_copy(struct collection *dest, struct collection *src)
   if(!(dest == ((struct collection *)NULL)) && !(src == ((struct collection *)NULL)))
   {
     dest->capacity = src->capacity;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(void *) /*8ul*/  * (unsigned long int)src->capacity);
-    dest->list = (void **)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(void *) /*8ul*/  * (unsigned long int)src->capacity);
+    dest->list = (void **)return_value_malloc_1;
     memcpy((void *)dest->list, (const void *)src->list, sizeof(void *) /*8ul*/  * (unsigned long int)src->capacity);
   }
 
@@ -3092,9 +3092,9 @@ void collection_free(struct collection *col)
 // file utils.h line 51
 void collection_init(struct collection *col)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(void *) /*8ul*/  * (unsigned long int)8);
-  col->list = (void **)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(void *) /*8ul*/  * (unsigned long int)8);
+  col->list = (void **)return_value_malloc_1;
   memset((void *)col->list, 0, sizeof(void *) /*8ul*/  * (unsigned long int)8);
   col->capacity = 8;
 }
@@ -3124,9 +3124,9 @@ static void config_create_config_dir(void)
   const char *config_path;
   config_path=config_get_config_dir();
   struct stat st;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(config_path, &st);
-  if(!(return_value_stat$1 == 0))
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(config_path, &st);
+  if(!(return_value_stat_1 == 0))
     mkdir_with_parents(config_path, 0755);
 
 }
@@ -3137,11 +3137,11 @@ void config_device_record_get_host_id(const char *udid, char **host_id)
 {
   void *value = (void *)0;
   config_device_record_get_value(udid, "HostID", &value);
-  enum anonymous$14 return_value_plist_get_node_type$1;
+  enum anonymous_14 return_value_plist_get_node_type_1;
   if(!(value == NULL))
   {
-    return_value_plist_get_node_type$1=plist_get_node_type(value);
-    if((signed int)return_value_plist_get_node_type$1 == PLIST_STRING)
+    return_value_plist_get_node_type_1=plist_get_node_type(value);
+    if((signed int)return_value_plist_get_node_type_1 == PLIST_STRING)
       plist_get_string_val(value, host_id);
 
   }
@@ -3172,9 +3172,9 @@ static signed int config_device_record_get_value(const char *udid, const char *k
 // file conf.c line 220
 static char * config_generate_system_buid()
 {
-  char *return_value_config_generate_uuid$1;
-  return_value_config_generate_uuid$1=config_generate_uuid(1);
-  return return_value_config_generate_uuid$1;
+  char *return_value_config_generate_uuid_1;
+  return_value_config_generate_uuid_1=config_generate_uuid(1);
+  return return_value_config_generate_uuid_1;
 }
 
 // config_generate_uuid
@@ -3182,13 +3182,13 @@ static char * config_generate_system_buid()
 static char * config_generate_uuid(signed int idx)
 {
   char *uuid;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(char) /*1ul*/  * (unsigned long int)37);
-  uuid = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(char) /*1ul*/  * (unsigned long int)37);
+  uuid = (char *)return_value_malloc_1;
   const char *chars = "ABCDEF0123456789";
-  signed long int return_value_time$2;
-  return_value_time$2=time((signed long int *)(void *)0);
-  srand((unsigned int)(return_value_time$2 - (signed long int)idx));
+  signed long int return_value_time_2;
+  return_value_time_2=time((signed long int *)(void *)0);
+  srand((unsigned int)(return_value_time_2 - (signed long int)idx));
   signed int i = 0;
   i = 0;
   for( ; !(i >= 36); i = i + 1)
@@ -3201,9 +3201,9 @@ static char * config_generate_uuid(signed int idx)
 
     else
     {
-      signed int return_value_get_rand$3;
-      return_value_get_rand$3=get_rand(0, 16);
-      uuid[(signed long int)i] = chars[(signed long int)return_value_get_rand$3];
+      signed int return_value_get_rand_3;
+      return_value_get_rand_3=get_rand(0, 16);
+      uuid[(signed long int)i] = chars[(signed long int)return_value_get_rand_3];
     }
 
   __CPROVER_DUMP_L3:
@@ -3218,7 +3218,7 @@ static char * config_generate_uuid(signed int idx)
 const char * config_get_config_dir()
 {
   char *base_config_dir = (char *)(void *)0;
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   if(!(__config_dir == ((char *)NULL)))
     return __config_dir;
 
@@ -3229,15 +3229,15 @@ const char * config_get_config_dir()
     if(!(__config_dir == ((char *)NULL)))
     {
       signed int i;
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(__config_dir);
-      i = (signed int)(return_value_strlen$1 - (unsigned long int)1);
-      for( ; i >= 1; __config_dir[(signed long int)tmp_post$2] = (char)0)
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(__config_dir);
+      i = (signed int)(return_value_strlen_1 - (unsigned long int)1);
+      for( ; i >= 1; __config_dir[(signed long int)tmp_post_2] = (char)0)
       {
         if(!((signed int)__config_dir[(signed long int)i] == 47))
           break;
 
-        tmp_post$2 = i;
+        tmp_post_2 = i;
         i = i - 1;
       }
     }
@@ -3261,11 +3261,11 @@ signed int config_get_device_record(const char *udid, char **record_data, unsign
   buffer_read_from_filename(device_record_file, record_data, record_size);
   if(*record_data == ((char *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    usbmuxd_log((enum loglevel)LL_ERROR, "%s: failed to read '%s': %s", (const void *)"config_get_device_record", device_record_file, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    usbmuxd_log((enum loglevel)LL_ERROR, "%s: failed to read '%s': %s", (const void *)"config_get_device_record", device_record_file, return_value_strerror_2);
     res = -2;
   }
 
@@ -3279,11 +3279,11 @@ void config_get_system_buid(char **system_buid)
 {
   void *value = (void *)0;
   config_get_value("SystemBUID", &value);
-  enum anonymous$14 return_value_plist_get_node_type$1;
+  enum anonymous_14 return_value_plist_get_node_type_1;
   if(!(value == NULL))
   {
-    return_value_plist_get_node_type$1=plist_get_node_type(value);
-    if((signed int)return_value_plist_get_node_type$1 == PLIST_STRING)
+    return_value_plist_get_node_type_1=plist_get_node_type(value);
+    if((signed int)return_value_plist_get_node_type_1 == PLIST_STRING)
     {
       plist_get_string_val(value, system_buid);
       usbmuxd_log((enum loglevel)LL_DEBUG, "got %s %s", (const void *)"SystemBUID", *system_buid);
@@ -3334,9 +3334,9 @@ signed int config_has_device_record(const char *udid)
     char *device_record_file;
     device_record_file=string_concat(config_path, (const void *)"/", udid, (const void *)".plist", (void *)0);
     struct stat st;
-    signed int return_value_stat$1;
-    return_value_stat$1=stat(device_record_file, &st);
-    if(return_value_stat$1 == 0)
+    signed int return_value_stat_1;
+    return_value_stat_1=stat(device_record_file, &st);
+    if(return_value_stat_1 == 0)
     {
       if((61440u & st.st_mode) == 32768u)
         res = 1;
@@ -3357,18 +3357,18 @@ signed int config_remove_device_record(const char *udid)
   config_path=config_get_config_dir();
   char *device_record_file;
   device_record_file=string_concat(config_path, (const void *)"/", udid, (const void *)".plist", (void *)0);
-  signed int return_value_remove$4;
-  return_value_remove$4=remove(device_record_file);
-  if(!(return_value_remove$4 == 0))
+  signed int return_value_remove_4;
+  return_value_remove_4=remove(device_record_file);
+  if(!(return_value_remove_4 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    res = -(*return_value___errno_location$1);
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    usbmuxd_log((enum loglevel)LL_DEBUG, "could not remove %s: %s", device_record_file, return_value_strerror$3);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    res = -(*return_value___errno_location_1);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    usbmuxd_log((enum loglevel)LL_DEBUG, "could not remove %s: %s", device_record_file, return_value_strerror_3);
   }
 
   free((void *)device_record_file);
@@ -3380,30 +3380,30 @@ signed int config_remove_device_record(const char *udid)
 signed int config_set_device_record(const char *udid, char *record_data, unsigned long int record_size)
 {
   signed int res = 0;
-  _Bool tmp_if_expr$3;
-  enum anonymous$14 return_value_plist_get_node_type$2;
+  _Bool tmp_if_expr_3;
+  enum anonymous_14 return_value_plist_get_node_type_2;
   if(record_data == ((char *)NULL) || udid == ((const char *)NULL) || !(record_size >= 8ul))
     return -22;
 
   else
   {
     void *plist = (void *)0;
-    signed int return_value_memcmp$1;
-    return_value_memcmp$1=memcmp((const void *)record_data, (const void *)"bplist00", (unsigned long int)8);
-    if(return_value_memcmp$1 == 0)
+    signed int return_value_memcmp_1;
+    return_value_memcmp_1=memcmp((const void *)record_data, (const void *)"bplist00", (unsigned long int)8);
+    if(return_value_memcmp_1 == 0)
       plist_from_bin(record_data, (unsigned int)record_size, &plist);
 
     else
       plist_from_xml(record_data, (unsigned int)record_size, &plist);
     if(plist == NULL)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_plist_get_node_type$2=plist_get_node_type(plist);
-      tmp_if_expr$3 = (signed int)return_value_plist_get_node_type$2 != PLIST_DICT ? (_Bool)1 : (_Bool)0;
+      return_value_plist_get_node_type_2=plist_get_node_type(plist);
+      tmp_if_expr_3 = (signed int)return_value_plist_get_node_type_2 != PLIST_DICT ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
     {
       if(!(plist == NULL))
         plist_free(plist);
@@ -3419,15 +3419,15 @@ signed int config_set_device_record(const char *udid, char *record_data, unsigne
       char *device_record_file;
       device_record_file=string_concat(config_path, (const void *)"/", udid, (const void *)".plist", (void *)0);
       remove(device_record_file);
-      signed int return_value_plist_write_to_filename$6;
-      return_value_plist_write_to_filename$6=plist_write_to_filename(plist, device_record_file, (enum plist_format_t)PLIST_FORMAT_XML);
-      if(return_value_plist_write_to_filename$6 == 0)
+      signed int return_value_plist_write_to_filename_6;
+      return_value_plist_write_to_filename_6=plist_write_to_filename(plist, device_record_file, (enum plist_format_t)PLIST_FORMAT_XML);
+      if(return_value_plist_write_to_filename_6 == 0)
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        char *return_value_strerror$5;
-        return_value_strerror$5=strerror(*return_value___errno_location$4);
-        usbmuxd_log((enum loglevel)LL_DEBUG, "could not open '%s' for writing: %s", device_record_file, return_value_strerror$5);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        char *return_value_strerror_5;
+        return_value_strerror_5=strerror(*return_value___errno_location_4);
+        usbmuxd_log((enum loglevel)LL_DEBUG, "could not open '%s' for writing: %s", device_record_file, return_value_strerror_5);
         res = -2;
       }
 
@@ -3444,11 +3444,11 @@ signed int config_set_device_record(const char *udid, char *record_data, unsigne
 // file conf.c line 322
 static signed int config_set_system_buid(const char *system_buid)
 {
-  void *return_value_plist_new_string$1;
-  return_value_plist_new_string$1=plist_new_string(system_buid);
-  signed int return_value_config_set_value$2;
-  return_value_config_set_value$2=config_set_value("SystemBUID", return_value_plist_new_string$1);
-  return return_value_config_set_value$2;
+  void *return_value_plist_new_string_1;
+  return_value_plist_new_string_1=plist_new_string(system_buid);
+  signed int return_value_config_set_value_2;
+  return_value_config_set_value_2=config_set_value("SystemBUID", return_value_plist_new_string_1);
+  return return_value_config_set_value_2;
 }
 
 // config_set_value
@@ -3491,7 +3491,7 @@ static void connection_teardown(struct mux_connection *conn)
 {
   signed int res;
   signed int size;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((signed int)conn->state == CONN_DEAD))
   {
     usbmuxd_log((enum loglevel)LL_DEBUG, "connection_teardown dev %d sport %d dport %d", conn->dev->id, conn->sport, conn->dport);
@@ -3514,11 +3514,11 @@ static void connection_teardown(struct mux_connection *conn)
     if(!(conn->client == ((struct mux_client *)NULL)))
     {
       if((signed int)conn->state == CONN_REFUSED)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)conn->state == CONN_CONNECTING ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)conn->state == CONN_CONNECTING ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         client_notify_connect(conn->client, (enum usbmuxd_result)RESULT_CONNREFUSED);
 
       else
@@ -3570,32 +3570,32 @@ static void * create_device_attached_plist(struct device_info *dev)
 {
   void *dict;
   dict=plist_new_dict();
-  void *return_value_plist_new_string$1;
-  return_value_plist_new_string$1=plist_new_string("Attached");
-  plist_dict_set_item(dict, "MessageType", return_value_plist_new_string$1);
-  void *return_value_plist_new_uint$2;
-  return_value_plist_new_uint$2=plist_new_uint((unsigned long int)dev->id);
-  plist_dict_set_item(dict, "DeviceID", return_value_plist_new_uint$2);
+  void *return_value_plist_new_string_1;
+  return_value_plist_new_string_1=plist_new_string("Attached");
+  plist_dict_set_item(dict, "MessageType", return_value_plist_new_string_1);
+  void *return_value_plist_new_uint_2;
+  return_value_plist_new_uint_2=plist_new_uint((unsigned long int)dev->id);
+  plist_dict_set_item(dict, "DeviceID", return_value_plist_new_uint_2);
   void *props;
   props=plist_new_dict();
-  void *return_value_plist_new_uint$3;
-  return_value_plist_new_uint$3=plist_new_uint((unsigned long int)480000000);
-  plist_dict_set_item(props, "ConnectionSpeed", return_value_plist_new_uint$3);
-  void *return_value_plist_new_string$4;
-  return_value_plist_new_string$4=plist_new_string("USB");
-  plist_dict_set_item(props, "ConnectionType", return_value_plist_new_string$4);
-  void *return_value_plist_new_uint$5;
-  return_value_plist_new_uint$5=plist_new_uint((unsigned long int)dev->id);
-  plist_dict_set_item(props, "DeviceID", return_value_plist_new_uint$5);
-  void *return_value_plist_new_uint$6;
-  return_value_plist_new_uint$6=plist_new_uint((unsigned long int)dev->location);
-  plist_dict_set_item(props, "LocationID", return_value_plist_new_uint$6);
-  void *return_value_plist_new_uint$7;
-  return_value_plist_new_uint$7=plist_new_uint((unsigned long int)dev->pid);
-  plist_dict_set_item(props, "ProductID", return_value_plist_new_uint$7);
-  void *return_value_plist_new_string$8;
-  return_value_plist_new_string$8=plist_new_string(dev->serial);
-  plist_dict_set_item(props, "SerialNumber", return_value_plist_new_string$8);
+  void *return_value_plist_new_uint_3;
+  return_value_plist_new_uint_3=plist_new_uint((unsigned long int)480000000);
+  plist_dict_set_item(props, "ConnectionSpeed", return_value_plist_new_uint_3);
+  void *return_value_plist_new_string_4;
+  return_value_plist_new_string_4=plist_new_string("USB");
+  plist_dict_set_item(props, "ConnectionType", return_value_plist_new_string_4);
+  void *return_value_plist_new_uint_5;
+  return_value_plist_new_uint_5=plist_new_uint((unsigned long int)dev->id);
+  plist_dict_set_item(props, "DeviceID", return_value_plist_new_uint_5);
+  void *return_value_plist_new_uint_6;
+  return_value_plist_new_uint_6=plist_new_uint((unsigned long int)dev->location);
+  plist_dict_set_item(props, "LocationID", return_value_plist_new_uint_6);
+  void *return_value_plist_new_uint_7;
+  return_value_plist_new_uint_7=plist_new_uint((unsigned long int)dev->pid);
+  plist_dict_set_item(props, "ProductID", return_value_plist_new_uint_7);
+  void *return_value_plist_new_string_8;
+  return_value_plist_new_string_8=plist_new_string(dev->serial);
+  plist_dict_set_item(props, "SerialNumber", return_value_plist_new_string_8);
   plist_dict_set_item(dict, "Properties", props);
   return dict;
 }
@@ -3606,19 +3606,19 @@ static signed int create_socket(void)
 {
   struct sockaddr_un bind_addr;
   signed int listenfd;
-  signed int return_value_unlink$4;
-  return_value_unlink$4=unlink(socket_path);
-  signed int *return_value___errno_location$3;
-  if(return_value_unlink$4 == -1)
+  signed int return_value_unlink_4;
+  return_value_unlink_4=unlink(socket_path);
+  signed int *return_value___errno_location_3;
+  if(return_value_unlink_4 == -1)
   {
-    return_value___errno_location$3=__errno_location();
-    if(!(*return_value___errno_location$3 == 2))
+    return_value___errno_location_3=__errno_location();
+    if(!(*return_value___errno_location_3 == 2))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      usbmuxd_log((enum loglevel)LL_FATAL, "unlink(%s) failed: %s", socket_path, return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      usbmuxd_log((enum loglevel)LL_FATAL, "unlink(%s) failed: %s", socket_path, return_value_strerror_2);
       return -1;
     }
 
@@ -3627,38 +3627,38 @@ static signed int create_socket(void)
   listenfd=socket(1, 1, 0);
   if(listenfd == -1)
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    char *return_value_strerror$6;
-    return_value_strerror$6=strerror(*return_value___errno_location$5);
-    usbmuxd_log((enum loglevel)LL_FATAL, "socket() failed: %s", return_value_strerror$6);
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    char *return_value_strerror_6;
+    return_value_strerror_6=strerror(*return_value___errno_location_5);
+    usbmuxd_log((enum loglevel)LL_FATAL, "socket() failed: %s", return_value_strerror_6);
     return -1;
   }
 
   bzero((void *)&bind_addr, sizeof(struct sockaddr_un) /*110ul*/ );
   bind_addr.sun_family = (unsigned short int)1;
   strcpy(bind_addr.sun_path, socket_path);
-  signed int return_value_bind$9;
-  return_value_bind$9=bind(listenfd, (struct sockaddr *)&bind_addr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
-  if(!(return_value_bind$9 == 0))
+  signed int return_value_bind_9;
+  return_value_bind_9=bind(listenfd, (struct sockaddr *)&bind_addr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
+  if(!(return_value_bind_9 == 0))
   {
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    char *return_value_strerror$8;
-    return_value_strerror$8=strerror(*return_value___errno_location$7);
-    usbmuxd_log((enum loglevel)LL_FATAL, "bind() failed: %s", return_value_strerror$8);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    char *return_value_strerror_8;
+    return_value_strerror_8=strerror(*return_value___errno_location_7);
+    usbmuxd_log((enum loglevel)LL_FATAL, "bind() failed: %s", return_value_strerror_8);
     return -1;
   }
 
-  signed int return_value_listen$12;
-  return_value_listen$12=listen(listenfd, 5);
-  if(!(return_value_listen$12 == 0))
+  signed int return_value_listen_12;
+  return_value_listen_12=listen(listenfd, 5);
+  if(!(return_value_listen_12 == 0))
   {
-    signed int *return_value___errno_location$10;
-    return_value___errno_location$10=__errno_location();
-    char *return_value_strerror$11;
-    return_value_strerror$11=strerror(*return_value___errno_location$10);
-    usbmuxd_log((enum loglevel)LL_FATAL, "listen() failed: %s", return_value_strerror$11);
+    signed int *return_value___errno_location_10;
+    return_value___errno_location_10=__errno_location();
+    char *return_value_strerror_11;
+    return_value_strerror_11=strerror(*return_value___errno_location_10);
+    usbmuxd_log((enum loglevel)LL_FATAL, "listen() failed: %s", return_value_strerror_11);
     return -1;
   }
 
@@ -3674,9 +3674,9 @@ static signed int daemonize(void)
   signed int sid;
   signed int pfd[2l];
   signed int res;
-  signed int return_value_getppid$1;
-  return_value_getppid$1=getppid();
-  if(return_value_getppid$1 == 1)
+  signed int return_value_getppid_1;
+  return_value_getppid_1=getppid();
+  if(return_value_getppid_1 == 1)
     return 0;
 
   else
@@ -3703,9 +3703,9 @@ static signed int daemonize(void)
         {
           signed int status;
           close(pfd[(signed long int)1]);
-          signed long int return_value_read$2;
-          return_value_read$2=read(pfd[(signed long int)0], (void *)&status, sizeof(signed int) /*4ul*/ );
-          res = (signed int)return_value_read$2;
+          signed long int return_value_read_2;
+          return_value_read_2=read(pfd[(signed long int)0], (void *)&status, sizeof(signed int) /*4ul*/ );
+          res = (signed int)return_value_read_2;
           if(!((unsigned long int)res == sizeof(signed int) /*4ul*/ ))
           {
             fprintf(stderr, "usbmuxd: ERROR: Failed to get init status from child, check syslog for messages.\n");
@@ -3745,9 +3745,9 @@ static signed int daemonize(void)
               exit(0);
             }
 
-            signed int return_value_chdir$3;
-            return_value_chdir$3=chdir("/");
-            if(!(return_value_chdir$3 >= 0))
+            signed int return_value_chdir_3;
+            return_value_chdir_3=chdir("/");
+            if(!(return_value_chdir_3 >= 0))
             {
               usbmuxd_log((enum loglevel)LL_FATAL, "chdir() failed");
               return -2;
@@ -3755,9 +3755,9 @@ static signed int daemonize(void)
 
             else
             {
-              struct _IO_FILE *return_value_freopen$4;
-              return_value_freopen$4=freopen("/dev/null", "r", stdin);
-              if(return_value_freopen$4 == ((struct _IO_FILE *)NULL))
+              struct _IO_FILE *return_value_freopen_4;
+              return_value_freopen_4=freopen("/dev/null", "r", stdin);
+              if(return_value_freopen_4 == ((struct _IO_FILE *)NULL))
               {
                 usbmuxd_log((enum loglevel)LL_FATAL, "Redirection of stdin failed.");
                 return -3;
@@ -3765,9 +3765,9 @@ static signed int daemonize(void)
 
               else
               {
-                struct _IO_FILE *return_value_freopen$5;
-                return_value_freopen$5=freopen("/dev/null", "w", stdout);
-                if(return_value_freopen$5 == ((struct _IO_FILE *)NULL))
+                struct _IO_FILE *return_value_freopen_5;
+                return_value_freopen_5=freopen("/dev/null", "w", stdout);
+                if(return_value_freopen_5 == ((struct _IO_FILE *)NULL))
                 {
                   usbmuxd_log((enum loglevel)LL_FATAL, "Redirection of stdout failed.");
                   return -3;
@@ -3827,20 +3827,20 @@ signed int device_add(struct usb_device *usbdev)
   signed int id;
   id=get_next_device_id();
   struct mux_device *dev;
-  unsigned int return_value_usb_get_location$1;
-  return_value_usb_get_location$1=usb_get_location(usbdev);
-  usbmuxd_log((enum loglevel)LL_NOTICE, "Connecting to new device on location 0x%x as ID %d", return_value_usb_get_location$1, id);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct mux_device) /*80ul*/ );
-  dev = (struct mux_device *)return_value_malloc$2;
+  unsigned int return_value_usb_get_location_1;
+  return_value_usb_get_location_1=usb_get_location(usbdev);
+  usbmuxd_log((enum loglevel)LL_NOTICE, "Connecting to new device on location 0x%x as ID %d", return_value_usb_get_location_1, id);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct mux_device) /*80ul*/ );
+  dev = (struct mux_device *)return_value_malloc_2;
   dev->id = id;
   dev->usbdev = usbdev;
   dev->state = (enum mux_dev_state)MUXDEV_INIT;
   dev->visible = 0;
   dev->next_sport = (unsigned short int)1;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)65536);
-  dev->pktbuf = (unsigned char *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)65536);
+  dev->pktbuf = (unsigned char *)return_value_malloc_3;
   dev->pktlen = (unsigned int)0;
   dev->preflight_cb_data = (void *)0;
   dev->version = 0;
@@ -3996,14 +3996,14 @@ static void device_control_input(struct mux_device *dev, unsigned char *payload,
       {
         if(payload_length >= 2u)
         {
-          char *device_control_input$$1$$1$$1$$1$$buf;
-          void *return_value_malloc$1;
-          return_value_malloc$1=malloc((unsigned long int)payload_length);
-          device_control_input$$1$$1$$1$$1$$buf = (char *)return_value_malloc$1;
-          strncpy(device_control_input$$1$$1$$1$$1$$buf, (char *)payload + (signed long int)1, (unsigned long int)(payload_length - (unsigned int)1));
-          device_control_input$$1$$1$$1$$1$$buf[(signed long int)(payload_length - (unsigned int)1)] = (char)0;
-          usbmuxd_log((enum loglevel)LL_ERROR, "%s: ERROR: %s", (const void *)"device_control_input", device_control_input$$1$$1$$1$$1$$buf);
-          free((void *)device_control_input$$1$$1$$1$$1$$buf);
+          char *device_control_input__1__1__1__1__buf;
+          void *return_value_malloc_1;
+          return_value_malloc_1=malloc((unsigned long int)payload_length);
+          device_control_input__1__1__1__1__buf = (char *)return_value_malloc_1;
+          strncpy(device_control_input__1__1__1__1__buf, (char *)payload + (signed long int)1, (unsigned long int)(payload_length - (unsigned int)1));
+          device_control_input__1__1__1__1__buf[(signed long int)(payload_length - (unsigned int)1)] = (char)0;
+          usbmuxd_log((enum loglevel)LL_ERROR, "%s: ERROR: %s", (const void *)"device_control_input", device_control_input__1__1__1__1__buf);
+          free((void *)device_control_input__1__1__1__1__buf);
         }
 
         else
@@ -4014,9 +4014,9 @@ static void device_control_input(struct mux_device *dev, unsigned char *payload,
         if(payload_length >= 2u)
         {
           char *buf;
-          void *return_value_malloc$2;
-          return_value_malloc$2=malloc((unsigned long int)payload_length);
-          buf = (char *)return_value_malloc$2;
+          void *return_value_malloc_2;
+          return_value_malloc_2=malloc((unsigned long int)payload_length);
+          buf = (char *)return_value_malloc_2;
           strncpy(buf, (char *)payload + (signed long int)1, (unsigned long int)(payload_length - (unsigned int)1));
           buf[(signed long int)(payload_length - (unsigned int)1)] = (char)0;
           usbmuxd_log((enum loglevel)LL_INFO, "%s: %s", (const void *)"device_control_input", buf);
@@ -4055,16 +4055,16 @@ void device_data_input(struct usb_device *usbdev, unsigned char *buffer, unsigne
   pthread_mutex_unlock(&device_list_mutex);
   if(dev == ((struct mux_device *)NULL))
   {
-    unsigned int return_value_usb_get_location$1;
-    return_value_usb_get_location$1=usb_get_location(usbdev);
-    usbmuxd_log((enum loglevel)LL_WARNING, "Cannot find device entry for RX input from USB device %p on location 0x%x", usbdev, return_value_usb_get_location$1);
+    unsigned int return_value_usb_get_location_1;
+    return_value_usb_get_location_1=usb_get_location(usbdev);
+    usbmuxd_log((enum loglevel)LL_WARNING, "Cannot find device entry for RX input from USB device %p on location 0x%x", usbdev, return_value_usb_get_location_1);
     goto __CPROVER_DUMP_L26;
   }
 
-  _Bool tmp_if_expr$3;
-  unsigned int return_value_ntohl$2;
-  unsigned int return_value_ntohl$4;
-  unsigned int return_value_ntohl$8;
+  _Bool tmp_if_expr_3;
+  unsigned int return_value_ntohl_2;
+  unsigned int return_value_ntohl_4;
+  unsigned int return_value_ntohl_8;
   if(!(length == 0u))
   {
     if(length >= 16385u || length >= 65537u)
@@ -4083,16 +4083,16 @@ void device_data_input(struct usb_device *usbdev, unsigned char *buffer, unsigne
         }
 
         memcpy((void *)(dev->pktbuf + (signed long int)dev->pktlen), (const void *)buffer, (unsigned long int)length);
-        struct mux_header *device_data_input$$1$$4$$mhdr = (struct mux_header *)dev->pktbuf;
+        struct mux_header *device_data_input__1__4__mhdr = (struct mux_header *)dev->pktbuf;
         if(!(length >= 16384u))
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
-          return_value_ntohl$2=ntohl(device_data_input$$1$$4$$mhdr->length);
-          tmp_if_expr$3 = return_value_ntohl$2 == length + dev->pktlen ? (_Bool)1 : (_Bool)0;
+          return_value_ntohl_2=ntohl(device_data_input__1__4__mhdr->length);
+          tmp_if_expr_3 = return_value_ntohl_2 == length + dev->pktlen ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
+        if(tmp_if_expr_3)
         {
           buffer = dev->pktbuf;
           length = length + dev->pktlen;
@@ -4110,11 +4110,11 @@ void device_data_input(struct usb_device *usbdev, unsigned char *buffer, unsigne
 
       else
       {
-        struct mux_header *device_data_input$$1$$5$$mhdr = (struct mux_header *)buffer;
+        struct mux_header *device_data_input__1__5__mhdr = (struct mux_header *)buffer;
         if(length == 16384u)
         {
-          return_value_ntohl$4=ntohl(device_data_input$$1$$5$$mhdr->length);
-          if(!(length >= return_value_ntohl$4))
+          return_value_ntohl_4=ntohl(device_data_input__1__5__mhdr->length);
+          if(!(length >= return_value_ntohl_4))
           {
             memcpy((void *)dev->pktbuf, (const void *)buffer, (unsigned long int)length);
             dev->pktlen = length;
@@ -4127,13 +4127,13 @@ void device_data_input(struct usb_device *usbdev, unsigned char *buffer, unsigne
       }
       struct mux_header *mhdr = (struct mux_header *)buffer;
       signed int mux_header_size = (signed int)(dev->version < 2 ? (unsigned long int)8 : sizeof(struct mux_header) /*16ul*/ );
-      unsigned int return_value_ntohl$6;
-      return_value_ntohl$6=ntohl(mhdr->length);
-      if(!(return_value_ntohl$6 == length))
+      unsigned int return_value_ntohl_6;
+      return_value_ntohl_6=ntohl(mhdr->length);
+      if(!(return_value_ntohl_6 == length))
       {
-        unsigned int return_value_ntohl$5;
-        return_value_ntohl$5=ntohl(mhdr->length);
-        usbmuxd_log((enum loglevel)LL_ERROR, "Incoming packet size mismatch (dev %d, expected %d, got %d)", dev->id, return_value_ntohl$5, length);
+        unsigned int return_value_ntohl_5;
+        return_value_ntohl_5=ntohl(mhdr->length);
+        usbmuxd_log((enum loglevel)LL_ERROR, "Incoming packet size mismatch (dev %d, expected %d, got %d)", dev->id, return_value_ntohl_5, length);
         goto __CPROVER_DUMP_L26;
       }
 
@@ -4143,9 +4143,9 @@ void device_data_input(struct usb_device *usbdev, unsigned char *buffer, unsigne
       if(dev->version >= 2)
         dev->rx_seq=ntohs(mhdr->rx_seq);
 
-      unsigned int return_value_ntohl$7;
-      return_value_ntohl$7=ntohl(mhdr->protocol);
-      switch(return_value_ntohl$7)
+      unsigned int return_value_ntohl_7;
+      return_value_ntohl_7=ntohl(mhdr->protocol);
+      switch(return_value_ntohl_7)
       {
         case (unsigned int)MUX_PROTO_VERSION:
         {
@@ -4181,8 +4181,8 @@ void device_data_input(struct usb_device *usbdev, unsigned char *buffer, unsigne
         }
         default:
         {
-          return_value_ntohl$8=ntohl(mhdr->protocol);
-          usbmuxd_log((enum loglevel)LL_ERROR, "Incoming packet for device %d has unknown protocol 0x%x)", dev->id, return_value_ntohl$8);
+          return_value_ntohl_8=ntohl(mhdr->protocol);
+          usbmuxd_log((enum loglevel)LL_ERROR, "Incoming packet for device %d has unknown protocol 0x%x)", dev->id, return_value_ntohl_8);
         }
       }
     }
@@ -4202,7 +4202,7 @@ signed int device_get_count(signed int include_hidden)
   pthread_mutex_lock(&device_list_mutex);
   collection_copy(&dev_list, &device_list);
   pthread_mutex_unlock(&device_list_mutex);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     signed int _iter_902 = 0;
@@ -4213,11 +4213,11 @@ signed int device_get_count(signed int include_hidden)
         if((signed int)dev->state == MUXDEV_ACTIVE)
         {
           if(!(include_hidden == 0))
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = dev->visible != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = dev->visible != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
             count = count + 1;
 
         }
@@ -4239,11 +4239,11 @@ signed int device_get_list(signed int include_hidden, struct device_info **devic
   pthread_mutex_lock(&device_list_mutex);
   collection_copy(&dev_list, &device_list);
   pthread_mutex_unlock(&device_list_mutex);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct device_info) /*24ul*/  * (unsigned long int)dev_list.capacity);
-  *devices = (struct device_info *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct device_info) /*24ul*/  * (unsigned long int)dev_list.capacity);
+  *devices = (struct device_info *)return_value_malloc_1;
   struct device_info *p = *devices;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   do
   {
     signed int _iter_922 = 0;
@@ -4254,11 +4254,11 @@ signed int device_get_list(signed int include_hidden, struct device_info **devic
         if((signed int)dev->state == MUXDEV_ACTIVE)
         {
           if(!(include_hidden == 0))
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = dev->visible != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$2)
+            tmp_if_expr_2 = dev->visible != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_2)
           {
             p->id = dev->id;
             p->serial=usb_get_serial(dev->usbdev);
@@ -4339,7 +4339,7 @@ void device_init(void)
 {
   usbmuxd_log((enum loglevel)LL_DEBUG, "device_init");
   collection_init(&device_list);
-  pthread_mutex_init(&device_list_mutex, (const union anonymous$15 *)(void *)0);
+  pthread_mutex_init(&device_list_mutex, (const union anonymous_15 *)(void *)0);
   next_device_id = 1;
 }
 
@@ -4390,9 +4390,9 @@ void device_remove(struct usb_device *usbdev)
         struct mux_device *dev = (struct mux_device *)(&device_list)->list[(signed long int)_iter_844];
         if(dev->usbdev == usbdev)
         {
-          unsigned int return_value_usb_get_location$1;
-          return_value_usb_get_location$1=usb_get_location(usbdev);
-          usbmuxd_log((enum loglevel)LL_NOTICE, "Removed device %d on location 0x%x", dev->id, return_value_usb_get_location$1);
+          unsigned int return_value_usb_get_location_1;
+          return_value_usb_get_location_1=usb_get_location(usbdev);
+          usbmuxd_log((enum loglevel)LL_NOTICE, "Removed device %d on location 0x%x", dev->id, return_value_usb_get_location_1);
           if((signed int)dev->state == MUXDEV_ACTIVE)
           {
             dev->state = (enum mux_dev_state)MUXDEV_DEAD;
@@ -4427,9 +4427,9 @@ void device_remove(struct usb_device *usbdev)
   }
   while((_Bool)0);
   pthread_mutex_unlock(&device_list_mutex);
-  unsigned int return_value_usb_get_location$2;
-  return_value_usb_get_location$2=usb_get_location(usbdev);
-  usbmuxd_log((enum loglevel)LL_WARNING, "Cannot find device entry while removing USB device %p on location 0x%x", usbdev, return_value_usb_get_location$2);
+  unsigned int return_value_usb_get_location_2;
+  return_value_usb_get_location_2=usb_get_location(usbdev);
+  usbmuxd_log((enum loglevel)LL_WARNING, "Cannot find device entry while removing USB device %p on location 0x%x", usbdev, return_value_usb_get_location_2);
 
 __CPROVER_DUMP_L12:
   ;
@@ -4547,9 +4547,9 @@ signed int device_start_connect(signed int device_id, unsigned short int dport, 
     else
     {
       struct mux_connection *conn;
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct mux_connection) /*112ul*/ );
-      conn = (struct mux_connection *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct mux_connection) /*112ul*/ );
+      conn = (struct mux_connection *)return_value_malloc_1;
       memset((void *)conn, 0, sizeof(struct mux_connection) /*112ul*/ );
       conn->dev = dev;
       conn->client = client;
@@ -4563,13 +4563,13 @@ signed int device_start_connect(signed int device_id, unsigned short int dport, 
       conn->rx_recvd = (unsigned int)0;
       conn->flags = 0;
       conn->max_payload = (unsigned int)(((unsigned long int)(3 * 16384) - sizeof(struct mux_header) /*16ul*/ ) - sizeof(struct tcphdr) /*20ul*/ );
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)65536);
-      conn->ob_buf = (unsigned char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)65536);
+      conn->ob_buf = (unsigned char *)return_value_malloc_2;
       conn->ob_capacity = (unsigned int)65536;
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc((unsigned long int)262144);
-      conn->ib_buf = (unsigned char *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc((unsigned long int)262144);
+      conn->ib_buf = (unsigned char *)return_value_malloc_3;
       conn->ib_capacity = (unsigned int)262144;
       conn->ib_size = (unsigned int)0;
       signed int res;
@@ -4595,19 +4595,19 @@ signed int device_start_connect(signed int device_id, unsigned short int dport, 
 static void device_tcp_input(struct mux_device *dev, struct tcphdr *th, unsigned char *payload, unsigned int payload_length)
 {
   unsigned short int sport;
-  sport=ntohs(th->$anon0.$anon0.th_dport);
+  sport=ntohs(th->_anon0._anon0.th_dport);
   unsigned short int dport;
-  dport=ntohs(th->$anon0.$anon0.th_sport);
+  dport=ntohs(th->_anon0._anon0.th_sport);
   struct mux_connection *conn = (struct mux_connection *)(void *)0;
-  unsigned int return_value_ntohl$1;
-  return_value_ntohl$1=ntohl(th->$anon0.$anon0.th_seq);
-  unsigned int return_value_ntohl$2;
-  return_value_ntohl$2=ntohl(th->$anon0.$anon0.th_ack);
-  unsigned short int return_value_ntohs$3;
-  return_value_ntohs$3=ntohs(th->$anon0.$anon0.th_win);
-  unsigned short int return_value_ntohs$4;
-  return_value_ntohs$4=ntohs(th->$anon0.$anon0.th_win);
-  usbmuxd_log((enum loglevel)LL_DEBUG, "[IN] dev=%d sport=%d dport=%d seq=%d ack=%d flags=0x%x window=%d[%d] len=%d", dev->id, dport, sport, return_value_ntohl$1, return_value_ntohl$2, th->$anon0.$anon0.th_flags, (signed int)return_value_ntohs$3 << 8, return_value_ntohs$4, payload_length);
+  unsigned int return_value_ntohl_1;
+  return_value_ntohl_1=ntohl(th->_anon0._anon0.th_seq);
+  unsigned int return_value_ntohl_2;
+  return_value_ntohl_2=ntohl(th->_anon0._anon0.th_ack);
+  unsigned short int return_value_ntohs_3;
+  return_value_ntohs_3=ntohs(th->_anon0._anon0.th_win);
+  unsigned short int return_value_ntohs_4;
+  return_value_ntohs_4=ntohs(th->_anon0._anon0.th_win);
+  usbmuxd_log((enum loglevel)LL_DEBUG, "[IN] dev=%d sport=%d dport=%d seq=%d ack=%d flags=0x%x window=%d[%d] len=%d", dev->id, dport, sport, return_value_ntohl_1, return_value_ntohl_2, th->_anon0._anon0.th_flags, (signed int)return_value_ntohs_3 << 8, return_value_ntohs_4, payload_length);
   if(!((signed int)dev->state == MUXDEV_ACTIVE))
     usbmuxd_log((enum loglevel)LL_ERROR, "Received TCP packet from device %d but the device isn't active yet, discarding", dev->id);
 
@@ -4636,14 +4636,14 @@ static void device_tcp_input(struct mux_device *dev, struct tcphdr *th, unsigned
     while((_Bool)0);
     if(conn == ((struct mux_connection *)NULL))
     {
-      if((0x04 & (signed int)th->$anon0.$anon0.th_flags) == 0)
+      if((0x04 & (signed int)th->_anon0._anon0.th_flags) == 0)
       {
         usbmuxd_log((enum loglevel)LL_INFO, "No connection for device %d incoming packet %d->%d", dev->id, dport, sport);
-        unsigned int return_value_ntohl$5;
-        return_value_ntohl$5=ntohl(th->$anon0.$anon0.th_seq);
-        signed int return_value_send_anon_rst$6;
-        return_value_send_anon_rst$6=send_anon_rst(dev, sport, dport, return_value_ntohl$5);
-        if(!(return_value_send_anon_rst$6 >= 0))
+        unsigned int return_value_ntohl_5;
+        return_value_ntohl_5=ntohl(th->_anon0._anon0.th_seq);
+        signed int return_value_send_anon_rst_6;
+        return_value_send_anon_rst_6=send_anon_rst(dev, sport, dport, return_value_ntohl_5);
+        if(!(return_value_send_anon_rst_6 >= 0))
           usbmuxd_log((enum loglevel)LL_ERROR, "Error sending TCP RST to device %d (%d->%d)", conn->dev->id, sport, dport);
 
       }
@@ -4652,17 +4652,17 @@ static void device_tcp_input(struct mux_device *dev, struct tcphdr *th, unsigned
 
     else
     {
-      conn->rx_seq=ntohl(th->$anon0.$anon0.th_seq);
-      conn->rx_ack=ntohl(th->$anon0.$anon0.th_ack);
-      unsigned short int return_value_ntohs$7;
-      return_value_ntohs$7=ntohs(th->$anon0.$anon0.th_win);
-      conn->rx_win = (unsigned int)((signed int)return_value_ntohs$7 << 8);
-      if(!((0x04 & (signed int)th->$anon0.$anon0.th_flags) == 0))
+      conn->rx_seq=ntohl(th->_anon0._anon0.th_seq);
+      conn->rx_ack=ntohl(th->_anon0._anon0.th_ack);
+      unsigned short int return_value_ntohs_7;
+      return_value_ntohs_7=ntohs(th->_anon0._anon0.th_win);
+      conn->rx_win = (unsigned int)((signed int)return_value_ntohs_7 << 8);
+      if(!((0x04 & (signed int)th->_anon0._anon0.th_flags) == 0))
       {
         char *buf;
-        void *return_value_malloc$8;
-        return_value_malloc$8=malloc((unsigned long int)(payload_length + (unsigned int)1));
-        buf = (char *)return_value_malloc$8;
+        void *return_value_malloc_8;
+        return_value_malloc_8=malloc((unsigned long int)(payload_length + (unsigned int)1));
+        buf = (char *)return_value_malloc_8;
         memcpy((void *)buf, (const void *)payload, (unsigned long int)payload_length);
         if(!(payload_length == 0u))
         {
@@ -4678,9 +4678,9 @@ static void device_tcp_input(struct mux_device *dev, struct tcphdr *th, unsigned
 
       if((signed int)conn->state == CONN_CONNECTING)
       {
-        if(!((signed int)th->$anon0.$anon0.th_flags == 18))
+        if(!((signed int)th->_anon0._anon0.th_flags == 18))
         {
-          if(!((0x04 & (signed int)th->$anon0.$anon0.th_flags) == 0))
+          if(!((0x04 & (signed int)th->_anon0._anon0.th_flags) == 0))
             conn->state = (enum mux_conn_state)CONN_REFUSED;
 
           usbmuxd_log((enum loglevel)LL_INFO, "Connection refused by device %d (%d->%d)", dev->id, sport, dport);
@@ -4692,9 +4692,9 @@ static void device_tcp_input(struct mux_device *dev, struct tcphdr *th, unsigned
           conn->tx_seq = conn->tx_seq + 1u;
           conn->tx_ack = conn->tx_ack + 1u;
           conn->rx_recvd = conn->rx_seq;
-          signed int return_value_send_tcp$9;
-          return_value_send_tcp$9=send_tcp(conn, (unsigned char)0x10, (const unsigned char *)(void *)0, 0);
-          if(!(return_value_send_tcp$9 >= 0))
+          signed int return_value_send_tcp_9;
+          return_value_send_tcp_9=send_tcp(conn, (unsigned char)0x10, (const unsigned char *)(void *)0, 0);
+          if(!(return_value_send_tcp_9 >= 0))
           {
             usbmuxd_log((enum loglevel)LL_ERROR, "Error sending TCP ACK to device %d (%d->%d)", dev->id, sport, dport);
             connection_teardown(conn);
@@ -4702,9 +4702,9 @@ static void device_tcp_input(struct mux_device *dev, struct tcphdr *th, unsigned
           }
 
           conn->state = (enum mux_conn_state)CONN_CONNECTED;
-          signed int return_value_client_notify_connect$10;
-          return_value_client_notify_connect$10=client_notify_connect(conn->client, (enum usbmuxd_result)RESULT_OK);
-          if(!(return_value_client_notify_connect$10 >= 0))
+          signed int return_value_client_notify_connect_10;
+          return_value_client_notify_connect_10=client_notify_connect(conn->client, (enum usbmuxd_result)RESULT_OK);
+          if(!(return_value_client_notify_connect_10 >= 0))
           {
             conn->client = (struct mux_client *)(void *)0;
             connection_teardown(conn);
@@ -4717,10 +4717,10 @@ static void device_tcp_input(struct mux_device *dev, struct tcphdr *th, unsigned
       else
         if((signed int)conn->state == CONN_CONNECTED)
         {
-          if(!((signed int)th->$anon0.$anon0.th_flags == 0x10))
+          if(!((signed int)th->_anon0._anon0.th_flags == 0x10))
           {
             usbmuxd_log((enum loglevel)LL_INFO, "Connection reset by device %d (%d->%d)", dev->id, sport, dport);
-            if(!((0x04 & (signed int)th->$anon0.$anon0.th_flags) == 0))
+            if(!((0x04 & (signed int)th->_anon0._anon0.th_flags) == 0))
               conn->state = (enum mux_conn_state)CONN_DYING;
 
             connection_teardown(conn);
@@ -4772,11 +4772,11 @@ static void device_version_input(struct mux_device *dev, struct version_header *
       if(dev->version >= 2)
         send_packet(dev, (enum mux_protocol)MUX_PROTO_SETUP, (void *)0, (const void *)"\a", 1);
 
-      unsigned int return_value_usb_get_location$1;
-      return_value_usb_get_location$1=usb_get_location(dev->usbdev);
-      const char *return_value_usb_get_serial$2;
-      return_value_usb_get_serial$2=usb_get_serial(dev->usbdev);
-      usbmuxd_log((enum loglevel)LL_NOTICE, "Connected to v%d.%d device %d on location 0x%x with serial number %s", dev->version, vh->minor, dev->id, return_value_usb_get_location$1, return_value_usb_get_serial$2);
+      unsigned int return_value_usb_get_location_1;
+      return_value_usb_get_location_1=usb_get_location(dev->usbdev);
+      const char *return_value_usb_get_serial_2;
+      return_value_usb_get_serial_2=usb_get_serial(dev->usbdev);
+      usbmuxd_log((enum loglevel)LL_NOTICE, "Connected to v%d.%d device %d on location 0x%x with serial number %s", dev->version, vh->minor, dev->id, return_value_usb_get_location_1, return_value_usb_get_serial_2);
       dev->state = (enum mux_dev_state)MUXDEV_ACTIVE;
       collection_init(&dev->connections);
       struct device_info info;
@@ -4796,12 +4796,12 @@ void fdlist_add(struct fdlist *list, enum fdowner owner, signed int fd, signed s
   if(list->count == list->capacity)
   {
     list->capacity = list->capacity * 2;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)list->owners, sizeof(enum fdowner) /*4ul*/  * (unsigned long int)list->capacity);
-    list->owners = (enum fdowner *)return_value_realloc$1;
-    void *return_value_realloc$2;
-    return_value_realloc$2=realloc((void *)list->fds, sizeof(struct pollfd) /*8ul*/  * (unsigned long int)list->capacity);
-    list->fds = (struct pollfd *)return_value_realloc$2;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)list->owners, sizeof(enum fdowner) /*4ul*/  * (unsigned long int)list->capacity);
+    list->owners = (enum fdowner *)return_value_realloc_1;
+    void *return_value_realloc_2;
+    return_value_realloc_2=realloc((void *)list->fds, sizeof(struct pollfd) /*8ul*/  * (unsigned long int)list->capacity);
+    list->fds = (struct pollfd *)return_value_realloc_2;
   }
 
   list->owners[(signed long int)list->count] = owner;
@@ -4817,12 +4817,12 @@ void fdlist_create(struct fdlist *list)
 {
   list->count = 0;
   list->capacity = 4;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(enum fdowner) /*4ul*/  * (unsigned long int)list->capacity);
-  list->owners = (enum fdowner *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct pollfd) /*8ul*/  * (unsigned long int)list->capacity);
-  list->fds = (struct pollfd *)return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(enum fdowner) /*4ul*/  * (unsigned long int)list->capacity);
+  list->owners = (enum fdowner *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct pollfd) /*8ul*/  * (unsigned long int)list->capacity);
+  list->fds = (struct pollfd *)return_value_malloc_2;
 }
 
 // fdlist_free
@@ -4848,10 +4848,10 @@ void fdlist_reset(struct fdlist *list)
 // file device.c line 241
 static unsigned short int find_sport(struct mux_device *dev)
 {
-  signed int return_value_collection_count$1;
-  return_value_collection_count$1=collection_count(&dev->connections);
-  unsigned short int tmp_post$2;
-  if(return_value_collection_count$1 >= 65535)
+  signed int return_value_collection_count_1;
+  return_value_collection_count_1=collection_count(&dev->connections);
+  unsigned short int tmp_post_2;
+  if(return_value_collection_count_1 >= 65535)
     return (unsigned short int)0;
 
   else
@@ -4878,9 +4878,9 @@ static unsigned short int find_sport(struct mux_device *dev)
       while((_Bool)0);
       if(!(ok == 0))
       {
-        tmp_post$2 = dev->next_sport;
+        tmp_post_2 = dev->next_sport;
         dev->next_sport = dev->next_sport + 1;
-        return tmp_post$2;
+        return tmp_post_2;
       }
 
     }
@@ -4960,7 +4960,7 @@ static struct mux_device * get_mux_device_for_id(signed int device_id)
 // file device.c line 166
 static signed int get_next_device_id(void)
 {
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   while((_Bool)1)
   {
     signed int ok = 1;
@@ -4986,9 +4986,9 @@ static signed int get_next_device_id(void)
     pthread_mutex_unlock(&device_list_mutex);
     if(!(ok == 0))
     {
-      tmp_post$1 = next_device_id;
+      tmp_post_1 = next_device_id;
       next_device_id = next_device_id + 1;
-      return tmp_post$1;
+      return tmp_post_1;
     }
 
   }
@@ -4999,9 +4999,9 @@ static signed int get_next_device_id(void)
 static signed int get_rand(signed int min, signed int max)
 {
   signed int retval;
-  signed int return_value_rand$1;
-  return_value_rand$1=rand();
-  retval = return_value_rand$1 % (max - min) + min;
+  signed int return_value_rand_1;
+  return_value_rand_1=rand();
+  retval = return_value_rand_1 % (max - min) + min;
   return retval;
 }
 
@@ -5021,9 +5021,9 @@ static void handle_signal(signed int sig)
       if(sig == 10)
       {
         usbmuxd_log((enum loglevel)LL_INFO, "Caught SIGUSR1, checking if we can terminate (no more devices attached)...");
-        signed int return_value_device_get_count$1;
-        return_value_device_get_count$1=device_get_count(1);
-        if(return_value_device_get_count$1 >= 1)
+        signed int return_value_device_get_count_1;
+        return_value_device_get_count_1=device_get_count(1);
+        if(return_value_device_get_count_1 >= 1)
           usbmuxd_log((enum loglevel)LL_NOTICE, "Refusing to terminate, there are still devices attached. Kill me with signal 15 (TERM) to force quit.");
 
         else
@@ -5049,9 +5049,9 @@ static signed int internal_get_value(const char *config_file, const char *key, v
 {
   *value = (void *)0;
   void *config = (void *)0;
-  signed int return_value_plist_read_from_filename$1;
-  return_value_plist_read_from_filename$1=plist_read_from_filename(&config, config_file);
-  if(!(return_value_plist_read_from_filename$1 == 0))
+  signed int return_value_plist_read_from_filename_1;
+  return_value_plist_read_from_filename_1=plist_read_from_filename(&config, config_file);
+  if(!(return_value_plist_read_from_filename_1 == 0))
   {
     usbmuxd_log((enum loglevel)LL_DEBUG, "reading key %s from config_file %s", key, config_file);
     void *n;
@@ -5097,9 +5097,9 @@ static signed int internal_set_value(const char *config_file, const char *key, v
       remove(config_file);
     }
     char *value_string = (char *)(void *)0;
-    enum anonymous$14 return_value_plist_get_node_type$1;
-    return_value_plist_get_node_type$1=plist_get_node_type(value);
-    if((signed int)return_value_plist_get_node_type$1 == PLIST_STRING)
+    enum anonymous_14 return_value_plist_get_node_type_1;
+    return_value_plist_get_node_type_1=plist_get_node_type(value);
+    if((signed int)return_value_plist_get_node_type_1 == PLIST_STRING)
     {
       plist_get_string_val(value, &value_string);
       usbmuxd_log((enum loglevel)LL_DEBUG, "setting key %s to %s in config_file %s", key, value_string, config_file);
@@ -5148,9 +5148,9 @@ static void lockdownd_set_untrusted_host_buid(struct lockdownd_client_private *l
   char *system_buid = (char *)(void *)0;
   config_get_system_buid(&system_buid);
   usbmuxd_log((enum loglevel)LL_DEBUG, "%s: Setting UntrustedHostBUID to %s", (const void *)"lockdownd_set_untrusted_host_buid", system_buid);
-  void *return_value_plist_new_string$1;
-  return_value_plist_new_string$1=plist_new_string(system_buid);
-  lockdownd_set_value(lockdown, (const char *)(void *)0, "UntrustedHostBUID", return_value_plist_new_string$1);
+  void *return_value_plist_new_string_1;
+  return_value_plist_new_string_1=plist_new_string(system_buid);
+  lockdownd_set_value(lockdown, (const char *)(void *)0, "UntrustedHostBUID", return_value_plist_new_string_1);
   free((void *)system_buid);
 }
 
@@ -5203,24 +5203,24 @@ signed int main(signed int argc, char **argv)
   signal(13, (void (*)(signed int))1);
   lfd=open(lockfile, 01 | 0100, 0644);
   res = lfd;
-  _Bool tmp_if_expr$3;
-  signed int return_value_kill$2;
-  _Bool tmp_if_expr$6;
-  signed int return_value_kill$5;
-  signed int return_value_getpid$7;
-  unsigned long int return_value_strlen$8;
-  signed long int return_value_write$9;
-  unsigned long int return_value_strlen$10;
+  _Bool tmp_if_expr_3;
+  signed int return_value_kill_2;
+  _Bool tmp_if_expr_6;
+  signed int return_value_kill_5;
+  signed int return_value_getpid_7;
+  unsigned long int return_value_strlen_8;
+  signed long int return_value_write_9;
+  unsigned long int return_value_strlen_10;
   struct rlimit rlim;
   const char *userprefdir;
   struct stat fst;
-  signed int return_value_stat$17;
-  unsigned int return_value_getuid$29;
-  _Bool tmp_if_expr$31;
-  unsigned int return_value_geteuid$30;
-  _Bool tmp_if_expr$24;
-  _Bool tmp_if_expr$28;
-  unsigned int return_value_getgid$27;
+  signed int return_value_stat_17;
+  unsigned int return_value_getuid_29;
+  _Bool tmp_if_expr_31;
+  unsigned int return_value_geteuid_30;
+  _Bool tmp_if_expr_24;
+  _Bool tmp_if_expr_28;
+  unsigned int return_value_getgid_27;
   if(res == -1)
     usbmuxd_log((enum loglevel)LL_FATAL, "Could not open lockfile");
 
@@ -5239,19 +5239,19 @@ signed int main(signed int argc, char **argv)
       {
         if(!(lock.l_pid == 0))
         {
-          return_value_kill$2=kill(lock.l_pid, 0);
-          tmp_if_expr$3 = !(return_value_kill$2 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_kill_2=kill(lock.l_pid, 0);
+          tmp_if_expr_3 = !(return_value_kill_2 != 0) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
         {
           usbmuxd_log((enum loglevel)LL_NOTICE, "Sending signal %d to instance with pid %d", exit_signal, lock.l_pid);
           res = 0;
-          signed int return_value_kill$1;
-          return_value_kill$1=kill(lock.l_pid, exit_signal);
-          if(!(return_value_kill$1 >= 0))
+          signed int return_value_kill_1;
+          return_value_kill_1=kill(lock.l_pid, exit_signal);
+          if(!(return_value_kill_1 >= 0))
           {
             usbmuxd_log((enum loglevel)LL_FATAL, "Could not deliver signal %d to pid %d", exit_signal, lock.l_pid);
             res = -1;
@@ -5279,19 +5279,19 @@ signed int main(signed int argc, char **argv)
         usbmuxd_log((enum loglevel)LL_NOTICE, "Another instance is already running (pid %d). Telling it to check for devices.", lock.l_pid);
         if(!(lock.l_pid == 0))
         {
-          return_value_kill$5=kill(lock.l_pid, 0);
-          tmp_if_expr$6 = !(return_value_kill$5 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_kill_5=kill(lock.l_pid, 0);
+          tmp_if_expr_6 = !(return_value_kill_5 != 0) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
         {
           usbmuxd_log((enum loglevel)LL_NOTICE, "Sending signal SIGUSR2 to instance with pid %d", lock.l_pid);
           res = 0;
-          signed int return_value_kill$4;
-          return_value_kill$4=kill(lock.l_pid, 12);
-          if(!(return_value_kill$4 >= 0))
+          signed int return_value_kill_4;
+          return_value_kill_4=kill(lock.l_pid, 12);
+          if(!(return_value_kill_4 >= 0))
           {
             usbmuxd_log((enum loglevel)LL_FATAL, "Could not deliver SIGUSR2 to pid %d", lock.l_pid);
             res = -1;
@@ -5346,13 +5346,13 @@ signed int main(signed int argc, char **argv)
 
             else
             {
-              return_value_getpid$7=getpid();
-              sprintf(pids, "%d", return_value_getpid$7);
-              return_value_strlen$8=strlen(pids);
-              return_value_write$9=write(lfd, (const void *)pids, return_value_strlen$8);
-              res = (signed int)return_value_write$9;
-              return_value_strlen$10=strlen(pids);
-              if(!((unsigned long int)res == return_value_strlen$10))
+              return_value_getpid_7=getpid();
+              sprintf(pids, "%d", return_value_getpid_7);
+              return_value_strlen_8=strlen(pids);
+              return_value_write_9=write(lfd, (const void *)pids, return_value_strlen_8);
+              res = (signed int)return_value_write_9;
+              return_value_strlen_10=strlen(pids);
+              if(!((unsigned long int)res == return_value_strlen_10))
               {
                 usbmuxd_log((enum loglevel)LL_FATAL, "Could not write pidfile!");
                 if(res >= 0)
@@ -5372,31 +5372,31 @@ signed int main(signed int argc, char **argv)
                 {
                   userprefdir=config_get_config_dir();
                   memset((void *)&fst, 0, sizeof(struct stat) /*144ul*/ );
-                  return_value_stat$17=stat(userprefdir, &fst);
-                  if(!(return_value_stat$17 >= 0))
+                  return_value_stat_17=stat(userprefdir, &fst);
+                  if(!(return_value_stat_17 >= 0))
                   {
-                    signed int return_value_mkdir$13;
-                    return_value_mkdir$13=mkdir(userprefdir, (unsigned int)0775);
-                    if(!(return_value_mkdir$13 >= 0))
+                    signed int return_value_mkdir_13;
+                    return_value_mkdir_13=mkdir(userprefdir, (unsigned int)0775);
+                    if(!(return_value_mkdir_13 >= 0))
                     {
-                      signed int *return_value___errno_location$11;
-                      return_value___errno_location$11=__errno_location();
-                      char *return_value_strerror$12;
-                      return_value_strerror$12=strerror(*return_value___errno_location$11);
-                      usbmuxd_log((enum loglevel)LL_FATAL, "Failed to create required directory '%s': %s", userprefdir, return_value_strerror$12);
+                      signed int *return_value___errno_location_11;
+                      return_value___errno_location_11=__errno_location();
+                      char *return_value_strerror_12;
+                      return_value_strerror_12=strerror(*return_value___errno_location_11);
+                      usbmuxd_log((enum loglevel)LL_FATAL, "Failed to create required directory '%s': %s", userprefdir, return_value_strerror_12);
                       res = -1;
                       goto terminate;
                     }
 
-                    signed int return_value_stat$16;
-                    return_value_stat$16=stat(userprefdir, &fst);
-                    if(!(return_value_stat$16 >= 0))
+                    signed int return_value_stat_16;
+                    return_value_stat_16=stat(userprefdir, &fst);
+                    if(!(return_value_stat_16 >= 0))
                     {
-                      signed int *return_value___errno_location$14;
-                      return_value___errno_location$14=__errno_location();
-                      char *return_value_strerror$15;
-                      return_value_strerror$15=strerror(*return_value___errno_location$14);
-                      usbmuxd_log((enum loglevel)LL_FATAL, "stat() failed after creating directory '%s': %s", userprefdir, return_value_strerror$15);
+                      signed int *return_value___errno_location_14;
+                      return_value___errno_location_14=__errno_location();
+                      char *return_value_strerror_15;
+                      return_value_strerror_15=strerror(*return_value___errno_location_14);
+                      usbmuxd_log((enum loglevel)LL_FATAL, "stat() failed after creating directory '%s': %s", userprefdir, return_value_strerror_15);
                       res = -1;
                       goto terminate;
                     }
@@ -5405,31 +5405,31 @@ signed int main(signed int argc, char **argv)
 
                   if(!(fst.st_mode == 1533u))
                   {
-                    signed int return_value_chmod$20;
-                    return_value_chmod$20=chmod(userprefdir, (unsigned int)02775);
-                    if(!(return_value_chmod$20 >= 0))
+                    signed int return_value_chmod_20;
+                    return_value_chmod_20=chmod(userprefdir, (unsigned int)02775);
+                    if(!(return_value_chmod_20 >= 0))
                     {
-                      signed int *return_value___errno_location$18;
-                      return_value___errno_location$18=__errno_location();
-                      char *return_value_strerror$19;
-                      return_value_strerror$19=strerror(*return_value___errno_location$18);
-                      usbmuxd_log((enum loglevel)LL_WARNING, "chmod(%s, 02775) failed: %s", userprefdir, return_value_strerror$19);
+                      signed int *return_value___errno_location_18;
+                      return_value___errno_location_18=__errno_location();
+                      char *return_value_strerror_19;
+                      return_value_strerror_19=strerror(*return_value___errno_location_18);
+                      usbmuxd_log((enum loglevel)LL_WARNING, "chmod(%s, 02775) failed: %s", userprefdir, return_value_strerror_19);
                     }
 
                   }
 
                   if(!(drop_privileges == 0))
                   {
-                    return_value_getuid$29=getuid();
-                    if(return_value_getuid$29 == 0u)
-                      tmp_if_expr$31 = (_Bool)1;
+                    return_value_getuid_29=getuid();
+                    if(return_value_getuid_29 == 0u)
+                      tmp_if_expr_31 = (_Bool)1;
 
                     else
                     {
-                      return_value_geteuid$30=geteuid();
-                      tmp_if_expr$31 = return_value_geteuid$30 == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+                      return_value_geteuid_30=geteuid();
+                      tmp_if_expr_31 = return_value_geteuid_30 == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
                     }
-                    if(tmp_if_expr$31)
+                    if(tmp_if_expr_31)
                     {
                       struct passwd *pw;
                       if(drop_user == ((const char *)NULL))
@@ -5453,21 +5453,21 @@ signed int main(signed int argc, char **argv)
                       else
                       {
                         if(!(fst.st_uid == pw->pw_uid))
-                          tmp_if_expr$24 = (_Bool)1;
+                          tmp_if_expr_24 = (_Bool)1;
 
                         else
-                          tmp_if_expr$24 = fst.st_gid != pw->pw_gid ? (_Bool)1 : (_Bool)0;
-                        if(tmp_if_expr$24)
+                          tmp_if_expr_24 = fst.st_gid != pw->pw_gid ? (_Bool)1 : (_Bool)0;
+                        if(tmp_if_expr_24)
                         {
-                          signed int return_value_chown$23;
-                          return_value_chown$23=chown(userprefdir, pw->pw_uid, pw->pw_gid);
-                          if(!(return_value_chown$23 >= 0))
+                          signed int return_value_chown_23;
+                          return_value_chown_23=chown(userprefdir, pw->pw_uid, pw->pw_gid);
+                          if(!(return_value_chown_23 >= 0))
                           {
-                            signed int *return_value___errno_location$21;
-                            return_value___errno_location$21=__errno_location();
-                            char *return_value_strerror$22;
-                            return_value_strerror$22=strerror(*return_value___errno_location$21);
-                            usbmuxd_log((enum loglevel)LL_WARNING, "chown(%s, %d, %d) failed: %s", userprefdir, pw->pw_uid, pw->pw_gid, return_value_strerror$22);
+                            signed int *return_value___errno_location_21;
+                            return_value___errno_location_21=__errno_location();
+                            char *return_value_strerror_22;
+                            return_value_strerror_22=strerror(*return_value___errno_location_21);
+                            usbmuxd_log((enum loglevel)LL_WARNING, "chown(%s, %d, %d) failed: %s", userprefdir, pw->pw_uid, pw->pw_gid, return_value_strerror_22);
                           }
 
                         }
@@ -5493,26 +5493,26 @@ signed int main(signed int argc, char **argv)
                           goto terminate;
                         }
 
-                        signed int return_value_setuid$25;
-                        return_value_setuid$25=setuid((unsigned int)0);
-                        if(!(return_value_setuid$25 == -1))
+                        signed int return_value_setuid_25;
+                        return_value_setuid_25=setuid((unsigned int)0);
+                        if(!(return_value_setuid_25 == -1))
                         {
                           usbmuxd_log((enum loglevel)LL_FATAL, "Failed to drop privileges properly!");
                           res = -1;
                           goto terminate;
                         }
 
-                        unsigned int return_value_getuid$26;
-                        return_value_getuid$26=getuid();
-                        if(!(return_value_getuid$26 == pw->pw_uid))
-                          tmp_if_expr$28 = (_Bool)1;
+                        unsigned int return_value_getuid_26;
+                        return_value_getuid_26=getuid();
+                        if(!(return_value_getuid_26 == pw->pw_uid))
+                          tmp_if_expr_28 = (_Bool)1;
 
                         else
                         {
-                          return_value_getgid$27=getgid();
-                          tmp_if_expr$28 = return_value_getgid$27 != pw->pw_gid ? (_Bool)1 : (_Bool)0;
+                          return_value_getgid_27=getgid();
+                          tmp_if_expr_28 = return_value_getgid_27 != pw->pw_gid ? (_Bool)1 : (_Bool)0;
                         }
-                        if(tmp_if_expr$28)
+                        if(tmp_if_expr_28)
                         {
                           usbmuxd_log((enum loglevel)LL_FATAL, "Failed to drop privileges properly!");
                           res = -1;
@@ -5595,7 +5595,7 @@ static signed int main_loop(signed int listenfd)
   signed int dto;
   struct fdlist pollfds;
   struct timespec tspec;
-  struct anonymous$0 empty_sigset;
+  struct anonymous_0 empty_sigset;
   sigemptyset(&empty_sigset);
   fdlist_create(&pollfds);
   while(should_exit == 0)
@@ -5619,9 +5619,9 @@ static signed int main_loop(signed int listenfd)
     usbmuxd_log((enum loglevel)LL_FLOOD, "poll() returned %d", cnt);
     if(cnt == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 4)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 4)
       {
         if(!(should_exit == 0))
         {
@@ -5643,9 +5643,9 @@ static signed int main_loop(signed int listenfd)
     else
       if(cnt == 0)
       {
-        signed int return_value_usb_process$2;
-        return_value_usb_process$2=usb_process();
-        if(!(return_value_usb_process$2 >= 0))
+        signed int return_value_usb_process_2;
+        return_value_usb_process_2=usb_process();
+        if(!(return_value_usb_process_2 >= 0))
         {
           usbmuxd_log((enum loglevel)LL_FATAL, "usb_process() failed");
           fdlist_free(&pollfds);
@@ -5666,9 +5666,9 @@ static signed int main_loop(signed int listenfd)
             {
               if((signed int)pollfds.owners[(signed long int)i] == FD_USB)
               {
-                signed int return_value_usb_process$3;
-                return_value_usb_process$3=usb_process();
-                if(!(return_value_usb_process$3 >= 0))
+                signed int return_value_usb_process_3;
+                return_value_usb_process_3=usb_process();
+                if(!(return_value_usb_process_3 >= 0))
                 {
                   usbmuxd_log((enum loglevel)LL_FATAL, "usb_process() failed");
                   fdlist_free(&pollfds);
@@ -5682,9 +5682,9 @@ static signed int main_loop(signed int listenfd)
 
             if((signed int)pollfds.owners[(signed long int)i] == FD_LISTEN)
             {
-              signed int return_value_client_accept$4;
-              return_value_client_accept$4=client_accept(listenfd);
-              if(!(return_value_client_accept$4 >= 0))
+              signed int return_value_client_accept_4;
+              return_value_client_accept_4=client_accept(listenfd);
+              if(!(return_value_client_accept_4 >= 0))
               {
                 usbmuxd_log((enum loglevel)LL_FATAL, "client_accept() failed");
                 fdlist_free(&pollfds);
@@ -5713,16 +5713,16 @@ static signed int mkdir_with_parents(const char *dir, signed int mode)
 
   else
   {
-    signed int return_value___mkdir$2;
-    return_value___mkdir$2=__mkdir(dir, mode);
-    if(return_value___mkdir$2 == 0)
+    signed int return_value___mkdir_2;
+    return_value___mkdir_2=__mkdir(dir, mode);
+    if(return_value___mkdir_2 == 0)
       return 0;
 
     else
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 17)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 17)
         return 0;
 
     }
@@ -5786,12 +5786,12 @@ static signed int notify_device_remove(struct mux_client *client, unsigned int d
   {
     void *dict;
     dict=plist_new_dict();
-    void *return_value_plist_new_string$1;
-    return_value_plist_new_string$1=plist_new_string("Detached");
-    plist_dict_set_item(dict, "MessageType", return_value_plist_new_string$1);
-    void *return_value_plist_new_uint$2;
-    return_value_plist_new_uint$2=plist_new_uint((unsigned long int)device_id);
-    plist_dict_set_item(dict, "DeviceID", return_value_plist_new_uint$2);
+    void *return_value_plist_new_string_1;
+    return_value_plist_new_string_1=plist_new_string("Detached");
+    plist_dict_set_item(dict, "MessageType", return_value_plist_new_string_1);
+    void *return_value_plist_new_uint_2;
+    return_value_plist_new_uint_2=plist_new_uint((unsigned long int)device_id);
+    plist_dict_set_item(dict, "DeviceID", return_value_plist_new_uint_2);
     res=send_plist_pkt(client, (unsigned int)0, dict);
     plist_free(dict);
   }
@@ -5807,9 +5807,9 @@ static signed int notify_parent(signed int status)
 {
   signed int res;
   report_to_parent = 0;
-  signed long int return_value_write$1;
-  return_value_write$1=write(daemon_pipe, (const void *)&status, sizeof(signed int) /*4ul*/ );
-  res = (signed int)return_value_write$1;
+  signed long int return_value_write_1;
+  return_value_write_1=write(daemon_pipe, (const void *)&status, sizeof(signed int) /*4ul*/ );
+  res = (signed int)return_value_write_1;
   if(!((unsigned long int)res == sizeof(signed int) /*4ul*/ ))
   {
     usbmuxd_log((enum loglevel)LL_FATAL, "Could not notify parent!");
@@ -5822,9 +5822,9 @@ static signed int notify_parent(signed int status)
   else
   {
     close(daemon_pipe);
-    struct _IO_FILE *return_value_freopen$2;
-    return_value_freopen$2=freopen("/dev/null", "w", stderr);
-    if(return_value_freopen$2 == ((struct _IO_FILE *)NULL))
+    struct _IO_FILE *return_value_freopen_2;
+    return_value_freopen_2=freopen("/dev/null", "w", stderr);
+    if(return_value_freopen_2 == ((struct _IO_FILE *)NULL))
     {
       usbmuxd_log((enum loglevel)LL_FATAL, "Redirection of stderr failed.");
       return -1;
@@ -5843,18 +5843,18 @@ static void np_callback(const char *notification, void *userdata)
   struct idevice_private *dev = cbdata->dev;
   struct idevice_private *_dev = (struct idevice_private *)dev;
   struct lockdownd_client_private *lockdown = (struct lockdownd_client_private *)(void *)0;
-  enum anonymous$13 lerr;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(notification);
-  signed int return_value_strcmp$2;
-  if(return_value_strlen$1 == 0ul)
+  enum anonymous_13 lerr;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(notification);
+  signed int return_value_strcmp_2;
+  if(return_value_strlen_1 == 0ul)
     cbdata->np = (struct np_client_private *)(void *)0;
 
   else
   {
-    signed int return_value_strcmp$3;
-    return_value_strcmp$3=strcmp(notification, "com.apple.mobile.lockdown.request_pair");
-    if(return_value_strcmp$3 == 0)
+    signed int return_value_strcmp_3;
+    return_value_strcmp_3=strcmp(notification, "com.apple.mobile.lockdown.request_pair");
+    if(return_value_strcmp_3 == 0)
     {
       usbmuxd_log((enum loglevel)LL_INFO, "%s: user trusted this computer on device %s, pairing now", (const void *)"np_callback", _dev->udid);
       lerr=lockdownd_client_new(dev, &lockdown, "usbmuxd");
@@ -5877,8 +5877,8 @@ static void np_callback(const char *notification, void *userdata)
 
     else
     {
-      return_value_strcmp$2=strcmp(notification, "com.apple.mobile.lockdown.request_host_buid");
-      if(return_value_strcmp$2 == 0)
+      return_value_strcmp_2=strcmp(notification, "com.apple.mobile.lockdown.request_host_buid");
+      if(return_value_strcmp_2 == 0)
       {
         lerr=lockdownd_client_new(cbdata->dev, &lockdown, "usbmuxd");
         if(!((signed int)lerr == LOCKDOWN_E_SUCCESS))
@@ -5998,19 +5998,19 @@ static void parse_opts(signed int argc, char **argv)
 // file client.c line 430
 static char * plist_dict_get_string_val(void *dict, const char *key)
 {
-  _Bool tmp_if_expr$2;
-  enum anonymous$14 return_value_plist_get_node_type$1;
+  _Bool tmp_if_expr_2;
+  enum anonymous_14 return_value_plist_get_node_type_1;
   if(dict == NULL)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_plist_get_node_type$1=plist_get_node_type(dict);
-    tmp_if_expr$2 = (signed int)return_value_plist_get_node_type$1 != PLIST_DICT ? (_Bool)1 : (_Bool)0;
+    return_value_plist_get_node_type_1=plist_get_node_type(dict);
+    tmp_if_expr_2 = (signed int)return_value_plist_get_node_type_1 != PLIST_DICT ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$4;
-  enum anonymous$14 return_value_plist_get_node_type$3;
-  if(tmp_if_expr$2)
+  _Bool tmp_if_expr_4;
+  enum anonymous_14 return_value_plist_get_node_type_3;
+  if(tmp_if_expr_2)
     return (char *)(void *)0;
 
   else
@@ -6018,14 +6018,14 @@ static char * plist_dict_get_string_val(void *dict, const char *key)
     void *item;
     item=plist_dict_get_item(dict, key);
     if(item == NULL)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_plist_get_node_type$3=plist_get_node_type(item);
-      tmp_if_expr$4 = (signed int)return_value_plist_get_node_type$3 != PLIST_STRING ? (_Bool)1 : (_Bool)0;
+      return_value_plist_get_node_type_3=plist_get_node_type(item);
+      tmp_if_expr_4 = (signed int)return_value_plist_get_node_type_3 != PLIST_STRING ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
       return (char *)(void *)0;
 
     else
@@ -6043,8 +6043,8 @@ signed int plist_read_from_filename(void **plist, const char *filename)
 {
   char *buffer = (char *)(void *)0;
   unsigned long int length;
-  _Bool tmp_if_expr$2;
-  signed int return_value_memcmp$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_memcmp_1;
   if(filename == ((const char *)NULL))
     return 0;
 
@@ -6058,13 +6058,13 @@ signed int plist_read_from_filename(void **plist, const char *filename)
     {
       if(length >= 9ul)
       {
-        return_value_memcmp$1=memcmp((const void *)buffer, (const void *)"bplist00", (unsigned long int)8);
-        tmp_if_expr$2 = return_value_memcmp$1 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_memcmp_1=memcmp((const void *)buffer, (const void *)"bplist00", (unsigned long int)8);
+        tmp_if_expr_2 = return_value_memcmp_1 == 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
         plist_from_bin(buffer, (unsigned int)length, plist);
 
       else
@@ -6118,9 +6118,9 @@ void preflight_device_remove_cb(void *data)
 void preflight_worker_device_add(struct device_info *info)
 {
   struct device_info *infocopy;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct device_info) /*24ul*/ );
-  infocopy = (struct device_info *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct device_info) /*24ul*/ );
+  infocopy = (struct device_info *)return_value_malloc_1;
   memcpy((void *)infocopy, (const void *)info, sizeof(struct device_info) /*24ul*/ );
   unsigned long int th;
   union pthread_attr_t attr;
@@ -6131,9 +6131,9 @@ void preflight_worker_device_add(struct device_info *info)
   if(!(perr == 0))
   {
     free((void *)infocopy);
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(perr);
-    usbmuxd_log((enum loglevel)LL_ERROR, "ERROR: failed to start preflight worker thread for device %s: %s (%d). Invoking client_device_add() directly but things might not work as expected.", info->serial, return_value_strerror$2, perr);
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(perr);
+    usbmuxd_log((enum loglevel)LL_ERROR, "ERROR: failed to start preflight worker thread for device %s: %s (%d). Invoking client_device_add() directly but things might not work as expected.", info->serial, return_value_strerror_2, perr);
     client_device_add(info);
   }
 
@@ -6145,24 +6145,24 @@ static void * preflight_worker_handle_device_add(void *userdata)
 {
   struct device_info *info = (struct device_info *)userdata;
   struct idevice_private *_dev;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct idevice_private) /*24ul*/ );
-  _dev = (struct idevice_private *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct idevice_private) /*24ul*/ );
+  _dev = (struct idevice_private *)return_value_malloc_1;
   _dev->udid=strdup(info->serial);
   _dev->conn_type = (enum connection_type)CONNECTION_USBMUXD;
   _dev->conn_data = (void *)(signed long int)info->id;
   struct idevice_private *dev = (struct idevice_private *)_dev;
   struct lockdownd_client_private *lockdown = (struct lockdownd_client_private *)(void *)0;
-  enum anonymous$13 lerr;
+  enum anonymous_13 lerr;
   void *value = (void *)0;
   char *version_str = (char *)(void *)0;
   usbmuxd_log((enum loglevel)LL_INFO, "%s: Starting preflight on device %s...", (const void *)"preflight_worker_handle_device_add", _dev->udid);
   char *type;
-  signed int return_value_strcmp$2;
+  signed int return_value_strcmp_2;
   signed int is_device_paired;
   char *host_id;
-  signed int return_value_config_has_device_record$3;
-  signed int return_value_config_remove_device_record$4;
+  signed int return_value_config_has_device_record_3;
+  signed int return_value_config_remove_device_record_4;
   do
   {
 
@@ -6183,8 +6183,8 @@ static void * preflight_worker_handle_device_add(void *userdata)
       goto leave;
     }
 
-    return_value_strcmp$2=strcmp(type, "com.apple.mobile.lockdown");
-    if(!(return_value_strcmp$2 == 0))
+    return_value_strcmp_2=strcmp(type, "com.apple.mobile.lockdown");
+    if(!(return_value_strcmp_2 == 0))
     {
       free((void *)type);
       usbmuxd_log((enum loglevel)LL_INFO, "%s: Finished preflight on device %s", (const void *)"preflight_worker_handle_device_add", _dev->udid);
@@ -6195,8 +6195,8 @@ static void * preflight_worker_handle_device_add(void *userdata)
     free((void *)type);
     is_device_paired = 0;
     host_id = (char *)(void *)0;
-    return_value_config_has_device_record$3=config_has_device_record(dev->udid);
-    if(!(return_value_config_has_device_record$3 == 0))
+    return_value_config_has_device_record_3=config_has_device_record(dev->udid);
+    if(!(return_value_config_has_device_record_3 == 0))
     {
       config_device_record_get_host_id(dev->udid, &host_id);
       lerr=lockdownd_start_session(lockdown, host_id, (char **)(void *)0, (signed int *)(void *)0);
@@ -6215,7 +6215,7 @@ static void * preflight_worker_handle_device_add(void *userdata)
     }
 
     else
-      lerr = (enum anonymous$13)LOCKDOWN_E_INVALID_HOST_ID;
+      lerr = (enum anonymous_13)LOCKDOWN_E_INVALID_HOST_ID;
     if(!((signed int)lerr == LOCKDOWN_E_INVALID_HOST_ID))
     {
       if((signed int)lerr == LOCKDOWN_E_SSL_ERROR)
@@ -6230,8 +6230,8 @@ static void * preflight_worker_handle_device_add(void *userdata)
   __CPROVER_DUMP_L10:
     ;
     usbmuxd_log((enum loglevel)LL_ERROR, "%s: The stored pair record for device %s is invalid. Removing.", (const void *)"preflight_worker_handle_device_add", _dev->udid);
-    return_value_config_remove_device_record$4=config_remove_device_record(_dev->udid);
-    if(!(return_value_config_remove_device_record$4 == 0))
+    return_value_config_remove_device_record_4=config_remove_device_record(_dev->udid);
+    if(!(return_value_config_remove_device_record_4 == 0))
       break;
 
     lockdownd_client_free(lockdown);
@@ -6249,9 +6249,9 @@ __CPROVER_DUMP_L13:
 __CPROVER_DUMP_L14:
   ;
   lerr=lockdownd_get_value(lockdown, (const char *)(void *)0, "ProductVersion", &value);
-  enum anonymous$14 return_value_plist_get_node_type$5;
+  enum anonymous_14 return_value_plist_get_node_type_5;
   signed int version_major;
-  signed long int return_value_strtol$6;
+  signed long int return_value_strtol_6;
   if(!((signed int)lerr == LOCKDOWN_E_SUCCESS))
     usbmuxd_log((enum loglevel)LL_ERROR, "%s: ERROR: Could not get ProductVersion from device %s, lockdown error %d", (const void *)"preflight_worker_handle_device_add", _dev->udid, lerr);
 
@@ -6259,8 +6259,8 @@ __CPROVER_DUMP_L14:
   {
     if(!(value == NULL))
     {
-      return_value_plist_get_node_type$5=plist_get_node_type(value);
-      if((signed int)return_value_plist_get_node_type$5 == PLIST_STRING)
+      return_value_plist_get_node_type_5=plist_get_node_type(value);
+      if((signed int)return_value_plist_get_node_type_5 == PLIST_STRING)
         plist_get_string_val(value, &version_str);
 
     }
@@ -6270,17 +6270,17 @@ __CPROVER_DUMP_L14:
 
     else
     {
-      return_value_strtol$6=strtol(version_str, (char ** restrict )(void *)0, 10);
-      version_major = (signed int)return_value_strtol$6;
+      return_value_strtol_6=strtol(version_str, (char ** restrict )(void *)0, 10);
+      version_major = (signed int)return_value_strtol_6;
       if(version_major >= 7)
       {
         usbmuxd_log((enum loglevel)LL_INFO, "%s: Found ProductVersion %s device %s", (const void *)"preflight_worker_handle_device_add", version_str, _dev->udid);
         lockdownd_set_untrusted_host_buid(lockdown);
         if(is_device_paired == 0)
         {
-          enum anonymous$13 return_value_lockdownd_pair$7;
-          return_value_lockdownd_pair$7=lockdownd_pair(lockdown, (struct lockdownd_pair_record *)(void *)0);
-          if((signed int)return_value_lockdownd_pair$7 == LOCKDOWN_E_SUCCESS)
+          enum anonymous_13 return_value_lockdownd_pair_7;
+          return_value_lockdownd_pair_7=lockdownd_pair(lockdown, (struct lockdownd_pair_record *)(void *)0);
+          if((signed int)return_value_lockdownd_pair_7 == LOCKDOWN_E_SUCCESS)
           {
             usbmuxd_log((enum loglevel)LL_INFO, "%s: Pair success for device %s", (const void *)"preflight_worker_handle_device_add", _dev->udid);
             usbmuxd_log((enum loglevel)LL_INFO, "%s: Finished preflight on device %s", (const void *)"preflight_worker_handle_device_add", _dev->udid);
@@ -6389,20 +6389,20 @@ static void process_recv(struct mux_client *client)
 {
   signed int res;
   signed int did_read = 0;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   if(!((unsigned long int)client->ib_size >= sizeof(struct usbmuxd_header) /*16ul*/ ))
   {
-    signed long int return_value_recv$1;
-    return_value_recv$1=recv(client->fd, (void *)(client->ib_buf + (signed long int)client->ib_size), sizeof(struct usbmuxd_header) /*16ul*/  - (unsigned long int)client->ib_size, 0);
-    res = (signed int)return_value_recv$1;
+    signed long int return_value_recv_1;
+    return_value_recv_1=recv(client->fd, (void *)(client->ib_buf + (signed long int)client->ib_size), sizeof(struct usbmuxd_header) /*16ul*/  - (unsigned long int)client->ib_size, 0);
+    res = (signed int)return_value_recv_1;
     if(!(res >= 1))
     {
       if(!(res >= 0))
       {
-        return_value___errno_location$2=__errno_location();
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        usbmuxd_log((enum loglevel)LL_ERROR, "Receive from client fd %d failed: %s", client->fd, return_value_strerror$3);
+        return_value___errno_location_2=__errno_location();
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        usbmuxd_log((enum loglevel)LL_ERROR, "Receive from client fd %d failed: %s", client->fd, return_value_strerror_3);
       }
 
       else
@@ -6439,16 +6439,16 @@ static void process_recv(struct mux_client *client)
         if(!(did_read == 0))
           goto __CPROVER_DUMP_L13;
 
-        signed long int return_value_recv$4;
-        return_value_recv$4=recv(client->fd, (void *)(client->ib_buf + (signed long int)client->ib_size), (unsigned long int)(hdr->length - client->ib_size), 0);
-        res = (signed int)return_value_recv$4;
+        signed long int return_value_recv_4;
+        return_value_recv_4=recv(client->fd, (void *)(client->ib_buf + (signed long int)client->ib_size), (unsigned long int)(hdr->length - client->ib_size), 0);
+        res = (signed int)return_value_recv_4;
         if(!(res >= 0))
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          char *return_value_strerror$6;
-          return_value_strerror$6=strerror(*return_value___errno_location$5);
-          usbmuxd_log((enum loglevel)LL_ERROR, "Receive from client fd %d failed: %s", client->fd, return_value_strerror$6);
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          char *return_value_strerror_6;
+          return_value_strerror_6=strerror(*return_value___errno_location_5);
+          usbmuxd_log((enum loglevel)LL_ERROR, "Receive from client fd %d failed: %s", client->fd, return_value_strerror_6);
           client_close(client);
           goto __CPROVER_DUMP_L13;
         }
@@ -6488,16 +6488,16 @@ static void process_send(struct mux_client *client)
 
   else
   {
-    signed long int return_value_send$1;
-    return_value_send$1=send(client->fd, (const void *)client->ob_buf, (unsigned long int)client->ob_size, 0);
-    res = (signed int)return_value_send$1;
+    signed long int return_value_send_1;
+    return_value_send_1=send(client->fd, (const void *)client->ob_buf, (unsigned long int)client->ob_size, 0);
+    res = (signed int)return_value_send_1;
     if(!(res >= 1))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      usbmuxd_log((enum loglevel)LL_ERROR, "Send to client fd %d failed: %d %s", client->fd, res, return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      usbmuxd_log((enum loglevel)LL_ERROR, "Send to client fd %d failed: %d %s", client->fd, res, return_value_strerror_3);
       client_close(client);
       goto __CPROVER_DUMP_L6;
     }
@@ -6535,10 +6535,10 @@ static void reap_dead_devices(void)
   do
   {
     signed int _iter_108 = 0;
-    for( ; !(_iter_108 >= device_list$link1.capacity); _iter_108 = _iter_108 + 1)
-      if(!(device_list$link1.list[(signed long int)_iter_108] == NULL))
+    for( ; !(_iter_108 >= device_list_link1.capacity); _iter_108 = _iter_108 + 1)
+      if(!(device_list_link1.list[(signed long int)_iter_108] == NULL))
       {
-        struct usb_device *usbdev = (struct usb_device *)(&device_list$link1)->list[(signed long int)_iter_108];
+        struct usb_device *usbdev = (struct usb_device *)(&device_list_link1)->list[(signed long int)_iter_108];
         if(usbdev->alive == 0)
         {
           device_remove(usbdev);
@@ -6610,12 +6610,12 @@ static signed int send_anon_rst(struct mux_device *dev, unsigned short int sport
 {
   struct tcphdr th;
   memset((void *)&th, 0, sizeof(struct tcphdr) /*20ul*/ );
-  th.$anon0.$anon0.th_sport=htons(sport);
-  th.$anon0.$anon0.th_dport=htons(dport);
-  th.$anon0.$anon0.th_ack=htonl(ack);
-  th.$anon0.$anon0.th_flags = (unsigned char)0x04;
-  th.$anon0.$anon0.th_off = (unsigned char)(sizeof(struct tcphdr) /*20ul*/  / (unsigned long int)4);
-  usbmuxd_log((enum loglevel)LL_DEBUG, "[OUT] dev=%d sport=%d dport=%d flags=0x%x", dev->id, sport, dport, th.$anon0.$anon0.th_flags);
+  th._anon0._anon0.th_sport=htons(sport);
+  th._anon0._anon0.th_dport=htons(dport);
+  th._anon0._anon0.th_ack=htonl(ack);
+  th._anon0._anon0.th_flags = (unsigned char)0x04;
+  th._anon0._anon0.th_off = (unsigned char)(sizeof(struct tcphdr) /*20ul*/  / (unsigned long int)4);
+  usbmuxd_log((enum loglevel)LL_DEBUG, "[OUT] dev=%d sport=%d dport=%d flags=0x%x", dev->id, sport, dport, th._anon0._anon0.th_flags);
   signed int res;
   res=send_packet(dev, (enum mux_protocol)MUX_PROTO_TCP, (void *)&th, (void *)0, 0);
   return res;
@@ -6637,13 +6637,13 @@ static signed int send_device_list(struct mux_client *client, unsigned int tag)
   count=device_get_list(0, &devs);
   dev = devs;
   i = 0;
-  struct device_info *tmp_post$1;
+  struct device_info *tmp_post_1;
   for( ; !(devs == ((struct device_info *)NULL)) && !(i >= count); i = i + 1)
   {
     void *device;
-    tmp_post$1 = dev;
+    tmp_post_1 = dev;
     dev = dev + 1l;
-    device=create_device_attached_plist(tmp_post$1);
+    device=create_device_attached_plist(tmp_post_1);
     if(!(device == NULL))
       plist_array_append_item(devices, device);
 
@@ -6698,9 +6698,9 @@ static signed int send_packet(struct mux_device *dev, enum mux_protocol proto, v
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)total);
-    buffer = (unsigned char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)total);
+    buffer = (unsigned char *)return_value_malloc_1;
     struct mux_header *mhdr = (struct mux_header *)buffer;
     mhdr->protocol=htonl((unsigned int)proto);
     mhdr->length=htonl((unsigned int)total);
@@ -6744,9 +6744,9 @@ static signed int send_pair_record(struct mux_client *client, unsigned int tag, 
   unsigned long int record_size = (unsigned long int)0;
   if(record_id == ((const char *)NULL))
   {
-    signed int return_value_send_result$1;
-    return_value_send_result$1=send_result(client, tag, (unsigned int)22);
-    return return_value_send_result$1;
+    signed int return_value_send_result_1;
+    return_value_send_result_1=send_result(client, tag, (unsigned int)22);
+    return return_value_send_result_1;
   }
 
   config_get_device_record(record_id, &record_data, &record_size);
@@ -6754,9 +6754,9 @@ static signed int send_pair_record(struct mux_client *client, unsigned int tag, 
   {
     void *dict;
     dict=plist_new_dict();
-    void *return_value_plist_new_data$2;
-    return_value_plist_new_data$2=plist_new_data(record_data, record_size);
-    plist_dict_set_item(dict, "PairRecordData", return_value_plist_new_data$2);
+    void *return_value_plist_new_data_2;
+    return_value_plist_new_data_2=plist_new_data(record_data, record_size);
+    plist_dict_set_item(dict, "PairRecordData", return_value_plist_new_data_2);
     free((void *)record_data);
     res=send_plist_pkt(client, tag, dict);
     plist_free(dict);
@@ -6783,9 +6783,9 @@ static signed int send_pkt(struct mux_client *client, unsigned int tag, enum usb
     unsigned char *new_buf;
     unsigned int new_size = ((client->ob_capacity + hdr.length + (unsigned int)4096) / (unsigned int)4096) * (unsigned int)4096;
     usbmuxd_log((enum loglevel)LL_DEBUG, "%s: Enlarging client %d output buffer %d -> %d", (const void *)"send_pkt", client->fd, client->ob_capacity, new_size);
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)client->ob_buf, (unsigned long int)new_size);
-    new_buf = (unsigned char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)client->ob_buf, (unsigned long int)new_size);
+    new_buf = (unsigned char *)return_value_realloc_1;
     if(new_buf == ((unsigned char *)NULL))
     {
       usbmuxd_log((enum loglevel)LL_FATAL, "%s: Failed to realloc.\n", (const void *)"send_pkt");
@@ -6833,12 +6833,12 @@ static signed int send_result(struct mux_client *client, unsigned int tag, unsig
   {
     void *dict;
     dict=plist_new_dict();
-    void *return_value_plist_new_string$1;
-    return_value_plist_new_string$1=plist_new_string("Result");
-    plist_dict_set_item(dict, "MessageType", return_value_plist_new_string$1);
-    void *return_value_plist_new_uint$2;
-    return_value_plist_new_uint$2=plist_new_uint((unsigned long int)result);
-    plist_dict_set_item(dict, "Number", return_value_plist_new_uint$2);
+    void *return_value_plist_new_string_1;
+    return_value_plist_new_string_1=plist_new_string("Result");
+    plist_dict_set_item(dict, "MessageType", return_value_plist_new_string_1);
+    void *return_value_plist_new_uint_2;
+    return_value_plist_new_uint_2=plist_new_uint((unsigned long int)result);
+    plist_dict_set_item(dict, "Number", return_value_plist_new_uint_2);
     res=send_plist_pkt(client, tag, dict);
     plist_free(dict);
   }
@@ -6857,9 +6857,9 @@ static signed int send_system_buid(struct mux_client *client, unsigned int tag)
   config_get_system_buid(&buid);
   void *dict;
   dict=plist_new_dict();
-  void *return_value_plist_new_string$1;
-  return_value_plist_new_string$1=plist_new_string(buid);
-  plist_dict_set_item(dict, "BUID", return_value_plist_new_string$1);
+  void *return_value_plist_new_string_1;
+  return_value_plist_new_string_1=plist_new_string(buid);
+  plist_dict_set_item(dict, "BUID", return_value_plist_new_string_1);
   res=send_plist_pkt(client, tag, dict);
   plist_free(dict);
   return res;
@@ -6871,13 +6871,13 @@ static signed int send_tcp(struct mux_connection *conn, unsigned char flags, con
 {
   struct tcphdr th;
   memset((void *)&th, 0, sizeof(struct tcphdr) /*20ul*/ );
-  th.$anon0.$anon0.th_sport=htons(conn->sport);
-  th.$anon0.$anon0.th_dport=htons(conn->dport);
-  th.$anon0.$anon0.th_seq=htonl(conn->tx_seq);
-  th.$anon0.$anon0.th_ack=htonl(conn->tx_ack);
-  th.$anon0.$anon0.th_flags = flags;
-  th.$anon0.$anon0.th_off = (unsigned char)(sizeof(struct tcphdr) /*20ul*/  / (unsigned long int)4);
-  th.$anon0.$anon0.th_win=htons((unsigned short int)(conn->tx_win >> 8));
+  th._anon0._anon0.th_sport=htons(conn->sport);
+  th._anon0._anon0.th_dport=htons(conn->dport);
+  th._anon0._anon0.th_seq=htonl(conn->tx_seq);
+  th._anon0._anon0.th_ack=htonl(conn->tx_ack);
+  th._anon0._anon0.th_flags = flags;
+  th._anon0._anon0.th_off = (unsigned char)(sizeof(struct tcphdr) /*20ul*/  / (unsigned long int)4);
+  th._anon0._anon0.th_win=htons((unsigned short int)(conn->tx_win >> 8));
   usbmuxd_log((enum loglevel)LL_DEBUG, "[OUT] dev=%d sport=%d dport=%d seq=%d ack=%d flags=0x%x window=%d[%d] len=%d", conn->dev->id, conn->sport, conn->dport, conn->tx_seq, conn->tx_ack, flags, conn->tx_win, conn->tx_win >> 8, length);
   signed int res;
   res=send_packet(conn->dev, (enum mux_protocol)MUX_PROTO_TCP, (void *)&th, (const void *)data, length);
@@ -6895,9 +6895,9 @@ static signed int send_tcp(struct mux_connection *conn, unsigned char flags, con
 // file device.c line 432
 static signed int send_tcp_ack(struct mux_connection *conn)
 {
-  signed int return_value_send_tcp$1;
-  return_value_send_tcp$1=send_tcp(conn, (unsigned char)0x10, (const unsigned char *)(void *)0, 0);
-  if(!(return_value_send_tcp$1 >= 0))
+  signed int return_value_send_tcp_1;
+  return_value_send_tcp_1=send_tcp(conn, (unsigned char)0x10, (const unsigned char *)(void *)0, 0);
+  if(!(return_value_send_tcp_1 >= 0))
   {
     usbmuxd_log((enum loglevel)LL_ERROR, "Error sending TCP ACK (%d->%d)", conn->sport, conn->dport);
     connection_teardown(conn);
@@ -6916,14 +6916,14 @@ static signed int send_tcp_ack(struct mux_connection *conn)
 static void set_signal_handlers(void)
 {
   struct sigaction sa;
-  struct anonymous$0 set;
+  struct anonymous_0 set;
   sigemptyset(&set);
   sigaddset(&set, 2);
   sigaddset(&set, 3);
   sigaddset(&set, 15);
   sigaddset(&set, 10);
   sigaddset(&set, 12);
-  sigprocmask(2, &set, (struct anonymous$0 *)(void *)0);
+  sigprocmask(2, &set, (struct anonymous_0 *)(void *)0);
   memset((void *)&sa, 0, sizeof(struct sigaction) /*152ul*/ );
   sa.__sigaction_handler.sa_handler = handle_signal;
   sigaction(2, &sa, (struct sigaction *)(void *)0);
@@ -6945,14 +6945,14 @@ static signed int start_listen(struct mux_client *client)
   count=device_get_list(0, &devs);
   dev = devs;
   i = 0;
-  struct device_info *tmp_post$1;
+  struct device_info *tmp_post_1;
   for( ; !(devs == ((struct device_info *)NULL)) && !(i >= count); i = i + 1)
   {
-    tmp_post$1 = dev;
+    tmp_post_1 = dev;
     dev = dev + 1l;
-    signed int return_value_notify_device_add$2;
-    return_value_notify_device_add$2=notify_device_add(client, tmp_post$1);
-    if(!(return_value_notify_device_add$2 >= 0))
+    signed int return_value_notify_device_add_2;
+    return_value_notify_device_add_2=notify_device_add(client, tmp_post_1);
+    if(!(return_value_notify_device_add_2 >= 0))
     {
       free((void *)devs);
       return -1;
@@ -7004,22 +7004,22 @@ char * string_concat(const char *str, ...)
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(str);
-    len = return_value_strlen$1 + (unsigned long int)1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(str);
+    len = return_value_strlen_1 + (unsigned long int)1;
     va_start(args, str);
     s=va_arg(args, __typeof__(s));
     while(!(s == ((char *)NULL)))
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(s);
-      len = len + return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(s);
+      len = len + return_value_strlen_2;
       s=va_arg(args, __typeof__(s));
     }
     va_end(args);
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(len);
-    result = (char *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(len);
+    result = (char *)return_value_malloc_3;
     if(result == ((char *)NULL))
       return (char *)(void *)0;
 
@@ -7161,8 +7161,8 @@ void usb_autodiscover(signed int enable)
 // file usb-linux.c line 67
 static void usb_disconnect(struct usb_device *dev)
 {
-  signed int return_value_collection_count$1;
-  signed int return_value_collection_count$2;
+  signed int return_value_collection_count_1;
+  signed int return_value_collection_count_2;
   if(!(dev->dev == ((struct libusb_device_handle *)NULL)))
   {
     do
@@ -7171,9 +7171,9 @@ static void usb_disconnect(struct usb_device *dev)
       for( ; !(_iter_75 >= dev->rx_xfers.capacity); _iter_75 = _iter_75 + 1)
         if(!(dev->rx_xfers.list[(signed long int)_iter_75] == NULL))
         {
-          struct libusb_transfer *usb_disconnect$$1$$2$$1$$1$$xfer = (struct libusb_transfer *)(&dev->rx_xfers)->list[(signed long int)_iter_75];
-          usbmuxd_log((enum loglevel)LL_DEBUG, "usb_disconnect: cancelling RX xfer %p", usb_disconnect$$1$$2$$1$$1$$xfer);
-          libusb_cancel_transfer(usb_disconnect$$1$$2$$1$$1$$xfer);
+          struct libusb_transfer *usb_disconnect__1__2__1__1__xfer = (struct libusb_transfer *)(&dev->rx_xfers)->list[(signed long int)_iter_75];
+          usbmuxd_log((enum loglevel)LL_DEBUG, "usb_disconnect: cancelling RX xfer %p", usb_disconnect__1__2__1__1__xfer);
+          libusb_cancel_transfer(usb_disconnect__1__2__1__1__xfer);
         }
 
     }
@@ -7193,11 +7193,11 @@ static void usb_disconnect(struct usb_device *dev)
     while((_Bool)0);
     do
     {
-      return_value_collection_count$1=collection_count(&dev->rx_xfers);
-      if(return_value_collection_count$1 == 0)
+      return_value_collection_count_1=collection_count(&dev->rx_xfers);
+      if(return_value_collection_count_1 == 0)
       {
-        return_value_collection_count$2=collection_count(&dev->tx_xfers);
-        if(return_value_collection_count$2 == 0)
+        return_value_collection_count_2=collection_count(&dev->tx_xfers);
+        if(return_value_collection_count_2 == 0)
           break;
 
       }
@@ -7220,7 +7220,7 @@ static void usb_disconnect(struct usb_device *dev)
     libusb_release_interface(dev->dev, (signed int)dev->interface);
     libusb_close(dev->dev);
     dev->dev = (struct libusb_device_handle *)(void *)0;
-    collection_remove(&device_list$link1, (void *)dev);
+    collection_remove(&device_list_link1, (void *)dev);
     free((void *)dev);
   }
 
@@ -7236,13 +7236,13 @@ signed int usb_discover(void)
   signed int res;
   signed int valid_count = 0;
   struct libusb_device **devs;
-  signed long int return_value_libusb_get_device_list$1;
-  return_value_libusb_get_device_list$1=libusb_get_device_list((struct libusb_context *)(void *)0, &devs);
-  cnt = (signed int)return_value_libusb_get_device_list$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
+  signed long int return_value_libusb_get_device_list_1;
+  return_value_libusb_get_device_list_1=libusb_get_device_list((struct libusb_context *)(void *)0, &devs);
+  cnt = (signed int)return_value_libusb_get_device_list_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
   if(!(cnt >= 0))
   {
     usbmuxd_log((enum loglevel)LL_WARNING, "Could not get device list: %d", cnt);
@@ -7267,11 +7267,11 @@ signed int usb_discover(void)
     do
     {
       signed int _iter_282 = 0;
-      for( ; !(_iter_282 >= device_list$link1.capacity); _iter_282 = _iter_282 + 1)
-        if(!(device_list$link1.list[(signed long int)_iter_282] == NULL))
+      for( ; !(_iter_282 >= device_list_link1.capacity); _iter_282 = _iter_282 + 1)
+        if(!(device_list_link1.list[(signed long int)_iter_282] == NULL))
         {
-          struct usb_device *usb_discover$$1$$2$$1$$1$$usbdev = (struct usb_device *)(&device_list$link1)->list[(signed long int)_iter_282];
-          usb_discover$$1$$2$$1$$1$$usbdev->alive = 0;
+          struct usb_device *usb_discover__1__2__1__1__usbdev = (struct usb_device *)(&device_list_link1)->list[(signed long int)_iter_282];
+          usb_discover__1__2__1__1__usbdev->alive = 0;
         }
 
     }
@@ -7289,16 +7289,16 @@ signed int usb_discover(void)
       do
       {
         signed int _iter_295 = 0;
-        for( ; !(_iter_295 >= device_list$link1.capacity); _iter_295 = _iter_295 + 1)
-          if(!(device_list$link1.list[(signed long int)_iter_295] == NULL))
+        for( ; !(_iter_295 >= device_list_link1.capacity); _iter_295 = _iter_295 + 1)
+          if(!(device_list_link1.list[(signed long int)_iter_295] == NULL))
           {
-            struct usb_device *usb_discover$$1$$3$$1$$1$$1$$1$$usbdev = (struct usb_device *)(&device_list$link1)->list[(signed long int)_iter_295];
-            if(usb_discover$$1$$3$$1$$1$$1$$1$$usbdev->bus == bus)
+            struct usb_device *usb_discover__1__3__1__1__1__1__usbdev = (struct usb_device *)(&device_list_link1)->list[(signed long int)_iter_295];
+            if(usb_discover__1__3__1__1__1__1__usbdev->bus == bus)
             {
-              if(usb_discover$$1$$3$$1$$1$$1$$1$$usbdev->address == address)
+              if(usb_discover__1__3__1__1__1__1__usbdev->address == address)
               {
                 valid_count = valid_count + 1;
-                usb_discover$$1$$3$$1$$1$$1$$1$$usbdev->alive = 1;
+                usb_discover__1__3__1__1__1__1__usbdev->alive = 1;
                 found = 1;
                 break;
               }
@@ -7340,26 +7340,26 @@ signed int usb_discover(void)
                 {
                   if(!(current_config == (signed int)devdesc.bNumConfigurations))
                   {
-                    struct libusb_config_descriptor *usb_discover$$1$$3$$1$$5$$config;
-                    res=libusb_get_active_config_descriptor(dev, &usb_discover$$1$$3$$1$$5$$config);
+                    struct libusb_config_descriptor *usb_discover__1__3__1__5__config;
+                    res=libusb_get_active_config_descriptor(dev, &usb_discover__1__3__1__5__config);
                     if(!(res == 0))
                       usbmuxd_log((enum loglevel)LL_NOTICE, "Could not get old configuration descriptor for device %d-%d: %d", bus, address, res);
 
                     else
                     {
                       j = 0;
-                      for( ; !(j >= (signed int)usb_discover$$1$$3$$1$$5$$config->bNumInterfaces); j = j + 1)
+                      for( ; !(j >= (signed int)usb_discover__1__3__1__5__config->bNumInterfaces); j = j + 1)
                       {
-                        struct libusb_interface_descriptor *usb_discover$$1$$3$$1$$5$$2$$1$$1$$intf = &(usb_discover$$1$$3$$1$$5$$config->interface + (signed long int)j)->altsetting[(signed long int)0];
-                        res=libusb_kernel_driver_active(handle, (signed int)usb_discover$$1$$3$$1$$5$$2$$1$$1$$intf->bInterfaceNumber);
+                        struct libusb_interface_descriptor *usb_discover__1__3__1__5__2__1__1__intf = &(usb_discover__1__3__1__5__config->interface + (signed long int)j)->altsetting[(signed long int)0];
+                        res=libusb_kernel_driver_active(handle, (signed int)usb_discover__1__3__1__5__2__1__1__intf->bInterfaceNumber);
                         if(!(res >= 0))
-                          usbmuxd_log((enum loglevel)LL_NOTICE, "Could not check kernel ownership of interface %d for device %d-%d: %d", usb_discover$$1$$3$$1$$5$$2$$1$$1$$intf->bInterfaceNumber, bus, address, res);
+                          usbmuxd_log((enum loglevel)LL_NOTICE, "Could not check kernel ownership of interface %d for device %d-%d: %d", usb_discover__1__3__1__5__2__1__1__intf->bInterfaceNumber, bus, address, res);
 
                         else
                           if(res == 1)
                           {
-                            usbmuxd_log((enum loglevel)LL_INFO, "Detaching kernel driver for device %d-%d, interface %d", bus, address, usb_discover$$1$$3$$1$$5$$2$$1$$1$$intf->bInterfaceNumber);
-                            res=libusb_detach_kernel_driver(handle, (signed int)usb_discover$$1$$3$$1$$5$$2$$1$$1$$intf->bInterfaceNumber);
+                            usbmuxd_log((enum loglevel)LL_INFO, "Detaching kernel driver for device %d-%d, interface %d", bus, address, usb_discover__1__3__1__5__2__1__1__intf->bInterfaceNumber);
+                            res=libusb_detach_kernel_driver(handle, (signed int)usb_discover__1__3__1__5__2__1__1__intf->bInterfaceNumber);
                             if(res >= 0)
                               goto __CPROVER_DUMP_L19;
 
@@ -7371,7 +7371,7 @@ signed int usb_discover(void)
                             __CPROVER_DUMP_L19:
                               ;
                       }
-                      libusb_free_config_descriptor(usb_discover$$1$$3$$1$$5$$config);
+                      libusb_free_config_descriptor(usb_discover__1__3__1__5__config);
                     }
                     usbmuxd_log((enum loglevel)LL_INFO, "Setting configuration for device %d-%d, from %d to %d", bus, address, current_config, devdesc.bNumConfigurations);
                     res=libusb_set_configuration(handle, (signed int)devdesc.bNumConfigurations);
@@ -7395,25 +7395,25 @@ signed int usb_discover(void)
                   else
                   {
                     struct usb_device *usbdev;
-                    void *return_value_malloc$2;
-                    return_value_malloc$2=malloc(sizeof(struct usb_device) /*320ul*/ );
-                    usbdev = (struct usb_device *)return_value_malloc$2;
+                    void *return_value_malloc_2;
+                    return_value_malloc_2=malloc(sizeof(struct usb_device) /*320ul*/ );
+                    usbdev = (struct usb_device *)return_value_malloc_2;
                     memset((void *)usbdev, 0, sizeof(struct usb_device) /*320ul*/ );
                     j = 0;
                     for( ; !(j >= (signed int)config->bNumInterfaces); j = j + 1)
                     {
                       struct libusb_interface_descriptor *intf = &(config->interface + (signed long int)j)->altsetting[(signed long int)0];
                       if(!((signed int)intf->bInterfaceClass == 255))
-                        tmp_if_expr$3 = (_Bool)1;
+                        tmp_if_expr_3 = (_Bool)1;
 
                       else
-                        tmp_if_expr$3 = (signed int)intf->bInterfaceSubClass != 254 ? (_Bool)1 : (_Bool)0;
-                      if(tmp_if_expr$3)
-                        tmp_if_expr$4 = (_Bool)1;
+                        tmp_if_expr_3 = (signed int)intf->bInterfaceSubClass != 254 ? (_Bool)1 : (_Bool)0;
+                      if(tmp_if_expr_3)
+                        tmp_if_expr_4 = (_Bool)1;
 
                       else
-                        tmp_if_expr$4 = (signed int)intf->bInterfaceProtocol != 2 ? (_Bool)1 : (_Bool)0;
-                      if(!tmp_if_expr$4)
+                        tmp_if_expr_4 = (signed int)intf->bInterfaceProtocol != 2 ? (_Bool)1 : (_Bool)0;
+                      if(!tmp_if_expr_4)
                       {
                         if(!((signed int)intf->bNumEndpoints == 2))
                           usbmuxd_log((enum loglevel)LL_WARNING, "Endpoint count mismatch for interface %d of device %d-%d", intf->bInterfaceNumber, bus, address);
@@ -7421,11 +7421,11 @@ signed int usb_discover(void)
                         else
                         {
                           if((0x80 & (signed int)intf->endpoint->bEndpointAddress) == 0)
-                            tmp_if_expr$6 = ((signed int)(intf->endpoint + (signed long int)1)->bEndpointAddress & 0x80) == 128 ? (_Bool)1 : (_Bool)0;
+                            tmp_if_expr_6 = ((signed int)(intf->endpoint + (signed long int)1)->bEndpointAddress & 0x80) == 128 ? (_Bool)1 : (_Bool)0;
 
                           else
-                            tmp_if_expr$6 = (_Bool)0;
-                          if(tmp_if_expr$6)
+                            tmp_if_expr_6 = (_Bool)0;
+                          if(tmp_if_expr_6)
                           {
                             usbdev->interface = intf->bInterfaceNumber;
                             usbdev->ep_out = (intf->endpoint + (signed long int)0)->bEndpointAddress;
@@ -7437,11 +7437,11 @@ signed int usb_discover(void)
                           else
                           {
                             if((0x80 & (signed int)(intf->endpoint + 1l)->bEndpointAddress) == 0)
-                              tmp_if_expr$5 = ((signed int)(intf->endpoint + (signed long int)0)->bEndpointAddress & 0x80) == 128 ? (_Bool)1 : (_Bool)0;
+                              tmp_if_expr_5 = ((signed int)(intf->endpoint + (signed long int)0)->bEndpointAddress & 0x80) == 128 ? (_Bool)1 : (_Bool)0;
 
                             else
-                              tmp_if_expr$5 = (_Bool)0;
-                            if(tmp_if_expr$5)
+                              tmp_if_expr_5 = (_Bool)0;
+                            if(tmp_if_expr_5)
                             {
                               usbdev->interface = intf->bInterfaceNumber;
                               usbdev->ep_out = (intf->endpoint + (signed long int)1)->bEndpointAddress;
@@ -7507,10 +7507,10 @@ signed int usb_discover(void)
                             usbmuxd_log((enum loglevel)LL_INFO, "Using wMaxPacketSize=%d for device %d-%d", usbdev->wMaxPacketSize, usbdev->bus, usbdev->address);
                           collection_init(&usbdev->tx_xfers);
                           collection_init(&usbdev->rx_xfers);
-                          collection_add(&device_list$link1, (void *)usbdev);
-                          signed int return_value_device_add$7;
-                          return_value_device_add$7=device_add(usbdev);
-                          if(!(return_value_device_add$7 >= 0))
+                          collection_add(&device_list_link1, (void *)usbdev);
+                          signed int return_value_device_add_7;
+                          return_value_device_add_7=device_add(usbdev);
+                          if(!(return_value_device_add_7 >= 0))
                             usb_disconnect(usbdev);
 
                           else
@@ -7519,9 +7519,9 @@ signed int usb_discover(void)
                             rx_loops = 3;
                             for( ; rx_loops >= 1; rx_loops = rx_loops - 1)
                             {
-                              signed int return_value_start_rx_loop$8;
-                              return_value_start_rx_loop$8=start_rx_loop(usbdev);
-                              if(!(return_value_start_rx_loop$8 >= 0))
+                              signed int return_value_start_rx_loop_8;
+                              return_value_start_rx_loop_8=start_rx_loop(usbdev);
+                              if(!(return_value_start_rx_loop_8 >= 0))
                                 usbmuxd_log((enum loglevel)LL_WARNING, "Failed to start RX loop number %d", 3 - rx_loops);
 
                             }
@@ -7668,10 +7668,10 @@ signed int usb_init(void)
 
   else
   {
-    collection_init(&device_list$link1);
-    signed int return_value_usb_discover$1;
-    return_value_usb_discover$1=usb_discover();
-    return return_value_usb_discover$1;
+    collection_init(&device_list_link1);
+    signed int return_value_usb_discover_1;
+    return_value_usb_discover_1=usb_discover();
+    return return_value_usb_discover_1;
   }
 }
 
@@ -7693,9 +7693,9 @@ signed int usb_process(void)
   else
   {
     reap_dead_devices();
-    signed int return_value_dev_poll_remain_ms$1;
-    return_value_dev_poll_remain_ms$1=dev_poll_remain_ms();
-    if(!(return_value_dev_poll_remain_ms$1 >= 1))
+    signed int return_value_dev_poll_remain_ms_1;
+    return_value_dev_poll_remain_ms_1=dev_poll_remain_ms();
+    if(!(return_value_dev_poll_remain_ms_1 >= 1))
     {
       res=usb_discover();
       if(res >= 0)
@@ -7800,17 +7800,17 @@ void usb_shutdown(void)
   do
   {
     signed int _iter_644 = 0;
-    for( ; !(_iter_644 >= device_list$link1.capacity); _iter_644 = _iter_644 + 1)
-      if(!(device_list$link1.list[(signed long int)_iter_644] == NULL))
+    for( ; !(_iter_644 >= device_list_link1.capacity); _iter_644 = _iter_644 + 1)
+      if(!(device_list_link1.list[(signed long int)_iter_644] == NULL))
       {
-        struct usb_device *usbdev = (struct usb_device *)(&device_list$link1)->list[(signed long int)_iter_644];
+        struct usb_device *usbdev = (struct usb_device *)(&device_list_link1)->list[(signed long int)_iter_644];
         device_remove(usbdev);
         usb_disconnect(usbdev);
       }
 
   }
   while((_Bool)0);
-  collection_free(&device_list$link1);
+  collection_free(&device_list_link1);
   libusb_exit((struct libusb_context *)(void *)0);
 }
 
@@ -7826,11 +7826,11 @@ void usbmuxd_log(enum loglevel level, const char *fmt, ...)
   {
     gettimeofday(&ts, (struct timezone *)(void *)0);
     tp=localtime(&ts.tv_sec);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(fmt);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)20 + return_value_strlen$1);
-    fs = (char *)return_value_malloc$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(fmt);
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)20 + return_value_strlen_1);
+    fs = (char *)return_value_malloc_2;
     if(!(log_syslog == 0))
       sprintf(fs, "[%d] %s\n", level, fmt);
 
@@ -7842,9 +7842,9 @@ void usbmuxd_log(enum loglevel level, const char *fmt, ...)
     ap = (void **)&fmt;
     if(!(log_syslog == 0))
     {
-      signed int return_value_level_to_syslog_level$3;
-      return_value_level_to_syslog_level$3=level_to_syslog_level((signed int)level);
-      vsyslog(return_value_level_to_syslog_level$3, fs, ap);
+      signed int return_value_level_to_syslog_level_3;
+      return_value_level_to_syslog_level_3=level_to_syslog_level((signed int)level);
+      vsyslog(return_value_level_to_syslog_level_3, fs, ap);
     }
 
     else

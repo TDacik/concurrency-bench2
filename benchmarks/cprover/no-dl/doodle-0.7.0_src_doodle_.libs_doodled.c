@@ -1,82 +1,82 @@
-// tag-#anon#ST[*{S8}$S8$'filename'||U32'mod_time'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'filename'||U32'mod_time'||U32'_pad0'|]
 // file doodle.h line 67
 struct anonymous;
 
-// tag-#anon#ST[*{SYM#tag-EXTRACT_Process#}$SYM#tag-EXTRACT_Process#$'elist'||*{SYM#tag-DOODLE_SuffixTree#}$SYM#tag-DOODLE_SuffixTree#$'tree'||SYM#tag-FAMConnection#'fc'||*{SYM#tag-FAMRequest#}$SYM#tag-FAMRequest#$'fr'||*{*{S8}$S8$}$*{S8}$S8$$'frNames'||U32'frPos'||U32'frSize'||*{V(*{V}$V$|U32|*{cS8}$cS8$|...)->V}$V(*{V}$V$|U32|*{cS8}$cS8$|...)->V$'log'||*{V}$V$'logContext'||*{S8}$S8$'ename'||U32'treePresent'||U32'argc'||*{*{S8}$S8$}$*{S8}$S8$$'argv'||SYM#tag-Mutex#'lock'||U32'eventCount'||U32'$pad0'||*{*{S8}$S8$}$*{S8}$S8$$'events'||S32'continueRunning'||U32'deferredCount'||*{*{S8}$S8$}$*{S8}$S8$$'deferredTruncations'||*{SYM#tag-Semaphore#}$SYM#tag-Semaphore#$'signal'|]
+// tag-#anon#ST[*{SYM#tag-EXTRACT_Process#}_SYM#tag-EXTRACT_Process#_'elist'||*{SYM#tag-DOODLE_SuffixTree#}_SYM#tag-DOODLE_SuffixTree#_'tree'||SYM#tag-FAMConnection#'fc'||*{SYM#tag-FAMRequest#}_SYM#tag-FAMRequest#_'fr'||*{*{S8}_S8_}_*{S8}_S8__'frNames'||U32'frPos'||U32'frSize'||*{V(*{V}_V_|U32|*{cS8}_cS8_|...)->V}_V(*{V}_V_|U32|*{cS8}_cS8_|...)->V_'log'||*{V}_V_'logContext'||*{S8}_S8_'ename'||U32'treePresent'||U32'argc'||*{*{S8}_S8_}_*{S8}_S8__'argv'||SYM#tag-Mutex#'lock'||U32'eventCount'||U32'_pad0'||*{*{S8}_S8_}_*{S8}_S8__'events'||S32'continueRunning'||U32'deferredCount'||*{*{S8}_S8_}_*{S8}_S8__'deferredTruncations'||*{SYM#tag-Semaphore#}_SYM#tag-Semaphore#_'signal'|]
 // file doodled.c line 146
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[*{V(*{V}$V$|U32|*{cS8}$cS8$|...)->V}$V(*{V}$V$|U32|*{cS8}$cS8$|...)->V$'log'||*{V}$V$'context'||S32'fd'||U32'$pad0'||U64'off'||U64'fsize'||U64'bstart'||U64'bsize'||*{S8}$S8$'buffer'||U64'dirty'|]
+// tag-#anon#ST[*{V(*{V}_V_|U32|*{cS8}_cS8_|...)->V}_V(*{V}_V_|U32|*{cS8}_cS8_|...)->V_'log'||*{V}_V_'context'||S32'fd'||U32'_pad0'||U64'off'||U64'fsize'||U64'bstart'||U64'bsize'||*{S8}_S8_'buffer'||U64'dirty'|]
 // file tree.c line 159
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$2;
+struct anonymous_2;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$13;
+struct anonymous_13;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$8;
+struct anonymous_8;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[S8'shortArg'||U56'$pad0'||*{S8}$S8$'longArg'||*{S8}$S8$'mandatoryArg'||*{S8}$S8$'description'|]
+// tag-#anon#ST[S8'shortArg'||U56'_pad0'||*{S8}_S8_'longArg'||*{S8}_S8_'mandatoryArg'||*{S8}_S8_'description'|]
 // file helper2.h line 48
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$5;
+union anonymous_5;
 
 // tag-AccuCtx
 // file index.c line 120
@@ -207,15 +207,15 @@ unsigned int DOODLE_getFileCount(struct DOODLE_SuffixTree *tree);
 // DOODLE_tree_create
 // file doodle.h line 89
 struct DOODLE_SuffixTree * DOODLE_tree_create(void (*log)(void *, unsigned int, const char *, ...), void *context, const char *database);
-// DOODLE_tree_create::log$object
+// DOODLE_tree_create::log_object
 //
-void log$object(void *, unsigned int, const char *, ...);
+void log_object(void *, unsigned int, const char *, ...);
 // DOODLE_tree_create_internal
 // file tree.c line 1553
 struct DOODLE_SuffixTree * DOODLE_tree_create_internal(void (*log)(void *, unsigned int, const char *, ...), void *context, const char *database, signed int flags);
-// DOODLE_tree_create_internal::log$object
+// DOODLE_tree_create_internal::log_object
 //
-void log$object(void *, unsigned int, const char *, ...);
+void log_object(void *, unsigned int, const char *, ...);
 // DOODLE_tree_destroy
 // file doodle.h line 104
 void DOODLE_tree_destroy(struct DOODLE_SuffixTree *tree);
@@ -228,21 +228,21 @@ signed int DOODLE_tree_expand(struct DOODLE_SuffixTree *tree, const char *search
 // DOODLE_tree_open_RDONLY
 // file tree.c line 1864
 struct DOODLE_SuffixTree * DOODLE_tree_open_RDONLY(void (*log)(void *, unsigned int, const char *, ...), void *context, const char *database);
-// DOODLE_tree_open_RDONLY::log$object
+// DOODLE_tree_open_RDONLY::log_object
 //
-void log$object(void *, unsigned int, const char *, ...);
+void log_object(void *, unsigned int, const char *, ...);
 // DOODLE_tree_search
 // file tree.c line 3150
 signed int DOODLE_tree_search(struct DOODLE_SuffixTree *tree, const char *substring, void (*callback)(const struct anonymous *, void *), void *arg);
-// DOODLE_tree_search::callback$object
+// DOODLE_tree_search::callback_object
 //
-void callback$object(const struct anonymous *, void *);
+void callback_object(const struct anonymous *, void *);
 // DOODLE_tree_search_approx
 // file tree.c line 3304
 signed int DOODLE_tree_search_approx(struct DOODLE_SuffixTree *tree, const unsigned int approx, const signed int ignore_case, const char *ss, void (*callback)(const struct anonymous *, void *), void *arg);
-// DOODLE_tree_search_approx::callback$object
+// DOODLE_tree_search_approx::callback_object
 //
-void callback$object(const struct anonymous *, void *);
+void callback_object(const struct anonymous *, void *);
 // DOODLE_tree_set_memory_limit
 // file doodle.h line 195
 void DOODLE_tree_set_memory_limit(struct DOODLE_SuffixTree *tree, unsigned long int limit);
@@ -252,15 +252,15 @@ signed int DOODLE_tree_truncate(struct DOODLE_SuffixTree *tree, const char *file
 // DOODLE_tree_truncate_deleted
 // file tree.c line 2975
 void DOODLE_tree_truncate_deleted(struct DOODLE_SuffixTree *tree, void (*log)(void *, unsigned int, const char *, ...), void *logContext);
-// DOODLE_tree_truncate_deleted::log$object
+// DOODLE_tree_truncate_deleted::log_object
 //
-void log$object(void *, unsigned int, const char *, ...);
+void log_object(void *, unsigned int, const char *, ...);
 // DOODLE_tree_truncate_modified
 // file tree.c line 3036
 void DOODLE_tree_truncate_modified(struct DOODLE_SuffixTree *tree, void (*log)(void *, unsigned int, const char *, ...), void *logContext);
-// DOODLE_tree_truncate_modified::log$object
+// DOODLE_tree_truncate_modified::log_object
 //
-void log$object(void *, unsigned int, const char *, ...);
+void log_object(void *, unsigned int, const char *, ...);
 // DOODLE_tree_truncate_multiple
 // file doodle.h line 124
 signed int DOODLE_tree_truncate_multiple(struct DOODLE_SuffixTree *tree, const char **fileNames);
@@ -296,25 +296,25 @@ extern signed int FAMOpen2(struct FAMConnection *, const char *);
 extern signed int FAMPending(struct FAMConnection *);
 // IO_FREE
 // file tree.c line 398
-static void IO_FREE(struct anonymous$0 *bio);
+static void IO_FREE(struct anonymous_0 *bio);
 // IO_WRAP
 // file tree.c line 232
-static struct anonymous$0 * IO_WRAP(void (*log)(void *, unsigned int, const char *, ...), void *context, signed int fd);
-// IO_WRAP::log$object
+static struct anonymous_0 * IO_WRAP(void (*log)(void *, unsigned int, const char *, ...), void *context, signed int fd);
+// IO_WRAP::log_object
 //
-void log$object(void *, unsigned int, const char *, ...);
+void log_object(void *, unsigned int, const char *, ...);
 // LSEEK
 // file tree.c line 380
-static unsigned long long int LSEEK(struct anonymous$0 *bio, unsigned long long int off, signed int whence);
+static unsigned long long int LSEEK(struct anonymous_0 *bio, unsigned long long int off, signed int whence);
 // MALLOC
 // file helper1.h line 39
 void * MALLOC(unsigned long int size);
 // PTHREAD_CREATE
 // file semaphore.h line 147
 signed int PTHREAD_CREATE(struct PTHREAD_T *pt, void * (*main)(void *), void *arg, unsigned long int stackSize);
-// PTHREAD_CREATE::main$object
+// PTHREAD_CREATE::main_object
 //
-void * main$object(void *);
+void * main_object(void *);
 // PTHREAD_DETACH
 // file semaphore.c line 431
 void PTHREAD_DETACH(struct PTHREAD_T *pt);
@@ -335,43 +335,43 @@ void PTHREAD_REL_SELF(struct PTHREAD_T *pt);
 signed int PTHREAD_SELF_TEST(struct PTHREAD_T *pt);
 // READALL
 // file tree.c line 295
-static signed int READALL(struct anonymous$0 *bio, void *buf, unsigned long long int len);
+static signed int READALL(struct anonymous_0 *bio, void *buf, unsigned long long int len);
 // READUINT
 // file tree.c line 405
-static signed int READUINT(struct anonymous$0 *fd, unsigned int *val);
+static signed int READUINT(struct anonymous_0 *fd, unsigned int *val);
 // READUINTPAIR
 // file tree.c line 461
-static signed int READUINTPAIR(struct anonymous$0 *fd, unsigned int *val1, unsigned int *val2);
+static signed int READUINTPAIR(struct anonymous_0 *fd, unsigned int *val1, unsigned int *val2);
 // READULONG
 // file tree.c line 427
-static signed int READULONG(struct anonymous$0 *fd, unsigned long long int *val);
+static signed int READULONG(struct anonymous_0 *fd, unsigned long long int *val);
 // READULONGFULL
 // file tree.c line 449
-static signed int READULONGFULL(struct anonymous$0 *fd, unsigned long long int *val);
+static signed int READULONGFULL(struct anonymous_0 *fd, unsigned long long int *val);
 // READULONGPAIR
 // file tree.c line 490
-static signed int READULONGPAIR(struct anonymous$0 *fd, unsigned long long int *val1, unsigned long long int *val2);
+static signed int READULONGPAIR(struct anonymous_0 *fd, unsigned long long int *val1, unsigned long long int *val2);
 // STRDUP
 // file helper1.h line 41
 char * STRDUP(const char *str);
 // WRITEALL
 // file tree.c line 340
-static void WRITEALL(struct anonymous$0 *bio, const void *buf, unsigned long long int len);
+static void WRITEALL(struct anonymous_0 *bio, const void *buf, unsigned long long int len);
 // WRITEUINT
 // file tree.c line 577
-static void WRITEUINT(struct anonymous$0 *fd, unsigned int val);
+static void WRITEUINT(struct anonymous_0 *fd, unsigned int val);
 // WRITEUINTPAIR
 // file tree.c line 519
-static void WRITEUINTPAIR(struct anonymous$0 *fd, unsigned int val1, unsigned int val2);
+static void WRITEUINTPAIR(struct anonymous_0 *fd, unsigned int val1, unsigned int val2);
 // WRITEULONG
 // file tree.c line 596
-static void WRITEULONG(struct anonymous$0 *fd, unsigned long long int val);
+static void WRITEULONG(struct anonymous_0 *fd, unsigned long long int val);
 // WRITEULONGFULL
 // file tree.c line 615
-static void WRITEULONGFULL(struct anonymous$0 *fd, unsigned long long int val);
+static void WRITEULONGFULL(struct anonymous_0 *fd, unsigned long long int val);
 // WRITEULONGPAIR
 // file tree.c line 548
-static void WRITEULONGPAIR(struct anonymous$0 *fd, unsigned long long int val1, unsigned long long int val2);
+static void WRITEULONGPAIR(struct anonymous_0 *fd, unsigned long long int val1, unsigned long long int val2);
 // __ctype_b_loc
 // file /usr/include/ctype.h line 79
 extern const unsigned short int ** __ctype_b_loc(void);
@@ -422,7 +422,7 @@ static void detachFromTerminalComplete(signed int *filedes);
 static signed int do_fork(struct EXTRACT_Process *proc);
 // do_index
 // file doodled.c line 280
-static signed int do_index(const char *filename, struct anonymous$17 *dic);
+static signed int do_index(const char *filename, struct anonymous_17 *dic);
 // do_read
 // file index.c line 91
 static signed int do_read(signed int fd, void *d, unsigned long int len);
@@ -452,7 +452,7 @@ extern signed int fflush(struct _IO_FILE *);
 extern signed int flock(signed int, signed int);
 // flush_buffer
 // file tree.c line 257
-static void flush_buffer(struct anonymous$0 *bio);
+static void flush_buffer(struct anonymous_0 *bio);
 // fopen
 // file /usr/include/stdio.h line 272
 extern struct _IO_FILE * fopen(const char *, const char *);
@@ -462,12 +462,12 @@ extern signed int fork(void);
 // forkExtractor
 // file helper2.h line 101
 struct EXTRACT_Process * forkExtractor(signed int do_default, const char *libraries, void (*logger)(void *, unsigned int, const char *, ...), void *log_ct);
-// forkExtractor::logger$object
+// forkExtractor::logger_object
 //
-void logger$object(void *, unsigned int, const char *, ...);
+void logger_object(void *, unsigned int, const char *, ...);
 // formatHelp
 // file helper2.h line 55
-void formatHelp(const char *general, const char *description, const struct anonymous$1 *opt);
+void formatHelp(const char *general, const char *description, const struct anonymous_1 *opt);
 // fprintf
 // file /usr/include/stdio.h line 356
 extern signed int fprintf(struct _IO_FILE *, const char *, ...);
@@ -587,16 +587,16 @@ extern signed int pthread_attr_init(union pthread_attr_t *);
 extern signed int pthread_attr_setstacksize(union pthread_attr_t *, unsigned long int);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$3 *);
+extern signed int pthread_cond_destroy(union anonymous_3 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$3 *, const union anonymous$4 *);
+extern signed int pthread_cond_init(union anonymous_3 *, const union anonymous_4 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$3 *);
+extern signed int pthread_cond_signal(union anonymous_3 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$3 *, union anonymous$5 *);
+extern signed int pthread_cond_wait(union anonymous_3 *, union anonymous_5 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -611,22 +611,22 @@ extern signed int pthread_join(unsigned long int, void **);
 extern signed int pthread_kill(unsigned long int, signed int);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$5 *);
+extern signed int pthread_mutex_destroy(union anonymous_5 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$5 *, const union anonymous$4 *);
+extern signed int pthread_mutex_init(union anonymous_5 *, const union anonymous_4 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$5 *);
+extern signed int pthread_mutex_lock(union anonymous_5 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$5 *);
+extern signed int pthread_mutex_unlock(union anonymous_5 *);
 // pthread_mutexattr_init
 // file /usr/include/pthread.h line 808
-extern signed int pthread_mutexattr_init(union anonymous$4 *);
+extern signed int pthread_mutexattr_init(union anonymous_4 *);
 // pthread_mutexattr_setkind_np
 // file semaphore.c line 126
-extern signed int pthread_mutexattr_setkind_np(union anonymous$4 *, signed int);
+extern signed int pthread_mutexattr_setkind_np(union anonymous_4 *, signed int);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -635,16 +635,16 @@ extern unsigned long int pthread_self(void);
 extern signed long int read(signed int, void *, unsigned long int);
 // readFN
 // file tree.c line 649
-static char * readFN(struct anonymous$0 *fd, char * const *pathTab, const unsigned int ptc);
+static char * readFN(struct anonymous_0 *fd, char * const *pathTab, const unsigned int ptc);
 // readZT
 // file tree.c line 625
-static char * readZT(struct anonymous$0 *fd);
+static char * readZT(struct anonymous_0 *fd);
 // read_buf
 // file tree.c line 171
 static signed int read_buf(void (*log)(void *, unsigned int, const char *, ...), void *context, signed int fd, unsigned long long int off, char *buf, unsigned long long int cnt);
-// read_buf::log$object
+// read_buf::log_object
 //
-void log$object(void *, unsigned int, const char *, ...);
+void log_object(void *, unsigned int, const char *, ...);
 // readdir
 // file /usr/include/dirent.h line 162
 extern struct dirent * readdir(struct __dirstream *);
@@ -656,25 +656,25 @@ extern void * realloc(void *, unsigned long int);
 extern signed int rename(const char *, const char *);
 // retarget_buffer
 // file tree.c line 269
-static signed int retarget_buffer(struct anonymous$0 *bio, unsigned long long int off, unsigned long long int len);
+static signed int retarget_buffer(struct anonymous_0 *bio, unsigned long long int off, unsigned long long int len);
 // run_shutdown
 // file shutdown.h line 36
 void run_shutdown(signed int signum);
 // scanDirectory
 // file files.c line 54
 signed int scanDirectory(char *dirName, void (*logger)(void *, unsigned int, const char *, ...), void *context, signed int (*pruner)(const char *, void *), void *pr_arg, signed int (*callback)(const char *, void *), void *cb_arg);
-// scanDirectory::callback$object
+// scanDirectory::callback_object
 //
-signed int callback$object(const char *, void *);
-// scanDirectory::logger$object
+signed int callback_object(const char *, void *);
+// scanDirectory::logger_object
 //
-void logger$object(void *, unsigned int, const char *, ...);
-// scanDirectory::pruner$object
+void logger_object(void *, unsigned int, const char *, ...);
+// scanDirectory::pruner_object
 //
-signed int pruner$object(const char *, void *);
+signed int pruner_object(const char *, void *);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$18 *, struct anonymous$18 *, struct anonymous$18 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_18 *, struct anonymous_18 *, struct anonymous_18 *, struct timeval *);
 // semaphore_down_
 // file semaphore.h line 181
 signed int semaphore_down_(struct Semaphore *s, const char *filename, const signed int linenumber);
@@ -704,7 +704,7 @@ static void shrinkMemoryFootprint(struct DOODLE_SuffixTree *tree, struct DOODLE_
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$6 *);
+extern signed int sigemptyset(struct anonymous_6 *);
 // sleep
 // file /usr/include/unistd.h line 444
 extern unsigned int sleep(unsigned int);
@@ -756,18 +756,18 @@ extern signed int tolower(signed int);
 // tree_iterate_internal
 // file tree.c line 3104
 static signed int tree_iterate_internal(signed int do_links, struct DOODLE_SuffixTree *tree, struct DOODLE_Node *node, void (*callback)(const struct anonymous *, void *), void *arg);
-// tree_iterate_internal::callback$object
+// tree_iterate_internal::callback_object
 //
-void callback$object(const struct anonymous *, void *);
+void callback_object(const struct anonymous *, void *);
 // tree_normalize
 // file tree.c line 2071
 static void tree_normalize(struct DOODLE_SuffixTree *tree, struct DOODLE_Node *pos);
 // tree_search_approx_internal
 // file tree.c line 3175
 static signed int tree_search_approx_internal(struct DOODLE_Node *pos, const unsigned int approx, const signed int ignore_case, struct DOODLE_SuffixTree *tree, const char *ss, void (*callback)(const struct anonymous *, void *), void *arg);
-// tree_search_approx_internal::callback$object
+// tree_search_approx_internal::callback_object
 //
-void callback$object(const struct anonymous *, void *);
+void callback_object(const struct anonymous *, void *);
 // tree_search_internal
 // file tree.c line 2180
 static struct DOODLE_Node * tree_search_internal(struct DOODLE_SuffixTree *tree, const char *substring);
@@ -797,19 +797,19 @@ static void * worker(void *arg);
 extern signed long int write(signed int, const void *, unsigned long int);
 // writeFN
 // file tree.c line 684
-static void writeFN(struct anonymous$0 *fd, char * const *pathTab, const unsigned int ptc, const char *fn);
+static void writeFN(struct anonymous_0 *fd, char * const *pathTab, const unsigned int ptc, const char *fn);
 // writeNode
 // file tree.c line 1337
-static unsigned long long int writeNode(struct anonymous$0 *fd, struct DOODLE_SuffixTree *tree, struct DOODLE_Node *node);
+static unsigned long long int writeNode(struct anonymous_0 *fd, struct DOODLE_SuffixTree *tree, struct DOODLE_Node *node);
 // writeZT
 // file tree.c line 640
-static void writeZT(struct anonymous$0 *fd, const char *buf);
+static void writeZT(struct anonymous_0 *fd, const char *buf);
 // write_buf
 // file tree.c line 202
 static void write_buf(void (*log)(void *, unsigned int, const char *, ...), void *context, signed int fd, unsigned long long int off, const void *buf, unsigned long long int cnt);
-// write_buf::log$object
+// write_buf::log_object
 //
-void log$object(void *, unsigned int, const char *, ...);
+void log_object(void *, unsigned int, const char *, ...);
 // xgrow_
 // file helper1.h line 43
 void xgrow_(void **old, unsigned long int elementSize, unsigned int *oldCount, unsigned int newCount, const char *filename, const signed int linenumber);
@@ -836,7 +836,7 @@ struct Mutex
   void *internal;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // elist
   struct EXTRACT_Process *elist;
@@ -880,7 +880,7 @@ struct anonymous$17
   struct Semaphore *signal;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // log
   void (*log)(void *, unsigned int, const char *, ...);
@@ -902,7 +902,7 @@ struct anonymous$0
   unsigned long long int dirty;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // _call_addr
   void *_call_addr;
@@ -912,7 +912,7 @@ struct anonymous$16
   unsigned int _arch;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // si_addr
   void *si_addr;
@@ -920,19 +920,19 @@ struct anonymous$14
   signed short int si_addr_lsb;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // fds_bits
   signed long int fds_bits[16l];
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __lock
   signed int __lock;
@@ -952,7 +952,7 @@ struct anonymous$2
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // si_pid
   signed int si_pid;
@@ -960,7 +960,7 @@ struct anonymous$10
   unsigned int si_uid;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // si_pid
   signed int si_pid;
@@ -982,7 +982,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // si_pid
   signed int si_pid;
@@ -992,7 +992,7 @@ struct anonymous$12
   union sigval si_sigval;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // si_tid
   signed int si_tid;
@@ -1002,7 +1002,7 @@ struct anonymous$11
   union sigval si_sigval;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // si_band
   signed long int si_band;
@@ -1010,27 +1010,27 @@ struct anonymous$15
   signed int si_fd;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$10 _kill;
+  struct anonymous_10 _kill;
   // _timer
-  struct anonymous$11 _timer;
+  struct anonymous_11 _timer;
   // _rt
-  struct anonymous$12 _rt;
+  struct anonymous_12 _rt;
   // _sigchld
-  struct anonymous$13 _sigchld;
+  struct anonymous_13 _sigchld;
   // _sigfault
-  struct anonymous$14 _sigfault;
+  struct anonymous_14 _sigfault;
   // _sigpoll
-  struct anonymous$15 _sigpoll;
+  struct anonymous_15 _sigpoll;
   // _sigsys
-  struct anonymous$16 _sigsys;
+  struct anonymous_16 _sigsys;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // si_signo
   signed int si_signo;
@@ -1039,10 +1039,10 @@ struct anonymous$8
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$7 _sifields;
+  union anonymous_7 _sifields;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // shortArg
   char shortArg;
@@ -1054,15 +1054,15 @@ struct anonymous$1
   char *description;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$8 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_8 *, void *);
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __size
   char __size[4l];
@@ -1070,10 +1070,10 @@ union anonymous$4
   signed int __align;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
-  struct anonymous$2 __data;
+  struct anonymous_2 __data;
   // __size
   char __size[48l];
   // __align
@@ -1108,7 +1108,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1171,7 +1171,7 @@ struct DOODLE_SuffixTree
   // database
   char *database;
   // fd
-  struct anonymous$0 *fd;
+  struct anonymous_0 *fd;
   // fns
   unsigned int fns;
   // fnc
@@ -1377,9 +1377,9 @@ union pthread_attr_t
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$9 __sigaction_handler;
+  union anonymous_9 __sigaction_handler;
   // sa_mask
-  struct anonymous$6 sa_mask;
+  struct anonymous_6 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -1507,9 +1507,9 @@ unsigned int DOODLE_getFileCount(struct DOODLE_SuffixTree *tree)
 // file doodle.h line 89
 struct DOODLE_SuffixTree * DOODLE_tree_create(void (*log)(void *, unsigned int, const char *, ...), void *context, const char *database)
 {
-  struct DOODLE_SuffixTree *return_value_DOODLE_tree_create_internal$1;
-  return_value_DOODLE_tree_create_internal$1=DOODLE_tree_create_internal(log, context, database, 02);
-  return return_value_DOODLE_tree_create_internal$1;
+  struct DOODLE_SuffixTree *return_value_DOODLE_tree_create_internal_1;
+  return_value_DOODLE_tree_create_internal_1=DOODLE_tree_create_internal(log, context, database, 02);
+  return return_value_DOODLE_tree_create_internal_1;
 }
 
 // DOODLE_tree_create_internal
@@ -1517,7 +1517,7 @@ struct DOODLE_SuffixTree * DOODLE_tree_create(void (*log)(void *, unsigned int, 
 struct DOODLE_SuffixTree * DOODLE_tree_create_internal(void (*log)(void *, unsigned int, const char *, ...), void *context, const char *database, signed int flags)
 {
   signed int ifd;
-  struct anonymous$0 *fd;
+  struct anonymous_0 *fd;
   struct DOODLE_SuffixTree *ret;
   struct stat buf;
   signed int i;
@@ -1525,9 +1525,9 @@ struct DOODLE_SuffixTree * DOODLE_tree_create_internal(void (*log)(void *, unsig
   char **pathTab;
   unsigned int ptc;
   signed char magic[8l];
-  void *return_value_MALLOC$1;
-  return_value_MALLOC$1=MALLOC(sizeof(struct DOODLE_SuffixTree) /*112ul*/ );
-  ret = (struct DOODLE_SuffixTree *)return_value_MALLOC$1;
+  void *return_value_MALLOC_1;
+  return_value_MALLOC_1=MALLOC(sizeof(struct DOODLE_SuffixTree) /*112ul*/ );
+  ret = (struct DOODLE_SuffixTree *)return_value_MALLOC_1;
   ret->log = log;
   ret->context = context;
   ret->database=STRDUP(database);
@@ -1538,81 +1538,81 @@ struct DOODLE_SuffixTree * DOODLE_tree_create_internal(void (*log)(void *, unsig
   ret->mutationCount = (unsigned int)0;
   ret->force_dump = 0;
   ret->read_only = (signed int)(flags == 00);
-  signed int return_value_stat$34;
-  return_value_stat$34=stat(database, &buf);
-  char *return_value_gettext$11;
-  signed int *return_value___errno_location$12;
-  char *return_value_strerror$13;
-  void *return_value_MALLOC$24;
-  if(return_value_stat$34 == 0)
+  signed int return_value_stat_34;
+  return_value_stat_34=stat(database, &buf);
+  char *return_value_gettext_11;
+  signed int *return_value___errno_location_12;
+  char *return_value_strerror_13;
+  void *return_value_MALLOC_24;
+  if(return_value_stat_34 == 0)
   {
     ifd=open(database, flags | 0, 0400 | 0200 | 0400 >> 3);
     if(ifd == -1)
     {
-      char *return_value_gettext$2;
-      return_value_gettext$2=gettext("Could not open '%s': %s\n");
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      log(context, (unsigned int)0, return_value_gettext$2, database, return_value_strerror$4);
+      char *return_value_gettext_2;
+      return_value_gettext_2=gettext("Could not open '%s': %s\n");
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      log(context, (unsigned int)0, return_value_gettext_2, database, return_value_strerror_4);
       free((void *)ret->database);
       free((void *)ret);
       return (struct DOODLE_SuffixTree *)(void *)0;
     }
 
-    signed int return_value_flock$8;
-    return_value_flock$8=flock(ifd, flags == 02 ? 2 : 1);
-    if(!(return_value_flock$8 == 0))
+    signed int return_value_flock_8;
+    return_value_flock_8=flock(ifd, flags == 02 ? 2 : 1);
+    if(!(return_value_flock_8 == 0))
     {
-      char *return_value_gettext$5;
-      return_value_gettext$5=gettext("Could not lock database '%s': %s\n");
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      char *return_value_strerror$7;
-      return_value_strerror$7=strerror(*return_value___errno_location$6);
-      log(context, (unsigned int)0, return_value_gettext$5, database, return_value_strerror$7);
+      char *return_value_gettext_5;
+      return_value_gettext_5=gettext("Could not lock database '%s': %s\n");
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      char *return_value_strerror_7;
+      return_value_strerror_7=strerror(*return_value___errno_location_6);
+      log(context, (unsigned int)0, return_value_gettext_5, database, return_value_strerror_7);
       free((void *)ret->database);
       free((void *)ret);
       return (struct DOODLE_SuffixTree *)(void *)0;
     }
 
     fd=IO_WRAP(log, context, ifd);
-    signed int return_value_READALL$9;
-    return_value_READALL$9=READALL(fd, (void *)magic, (unsigned long long int)8);
-    if(return_value_READALL$9 == -1)
+    signed int return_value_READALL_9;
+    return_value_READALL_9=READALL(fd, (void *)magic, (unsigned long long int)8);
+    if(return_value_READALL_9 == -1)
       memcpy((void *)magic, (const void *)"garbage!", (unsigned long int)8);
 
-    signed int return_value_memcmp$17;
-    return_value_memcmp$17=memcmp((const void *)magic, (const void *)MAGIC, (unsigned long int)8);
-    if(!(return_value_memcmp$17 == 0))
+    signed int return_value_memcmp_17;
+    return_value_memcmp_17=memcmp((const void *)magic, (const void *)MAGIC, (unsigned long int)8);
+    if(!(return_value_memcmp_17 == 0))
     {
-      signed int return_value_memcmp$16;
-      return_value_memcmp$16=memcmp((const void *)magic, (const void *)TRAGIC, (unsigned long int)8);
-      if(return_value_memcmp$16 == 0)
+      signed int return_value_memcmp_16;
+      return_value_memcmp_16=memcmp((const void *)magic, (const void *)TRAGIC, (unsigned long int)8);
+      if(return_value_memcmp_16 == 0)
       {
-        char *return_value_gettext$10;
-        return_value_gettext$10=gettext("Database file '%s' is from incomplete database build.  I will remove it and rebuild the database.\n");
-        log(context, (unsigned int)0, return_value_gettext$10, database);
+        char *return_value_gettext_10;
+        return_value_gettext_10=gettext("Database file '%s' is from incomplete database build.  I will remove it and rebuild the database.\n");
+        log(context, (unsigned int)0, return_value_gettext_10, database);
         IO_FREE(fd);
-        signed int return_value_unlink$14;
-        return_value_unlink$14=unlink(database);
-        if(!(return_value_unlink$14 == 0))
+        signed int return_value_unlink_14;
+        return_value_unlink_14=unlink(database);
+        if(!(return_value_unlink_14 == 0))
         {
-          return_value_gettext$11=gettext("Could not unlink '%s': %s\n");
-          return_value___errno_location$12=__errno_location();
-          return_value_strerror$13=strerror(*return_value___errno_location$12);
-          log(context, (unsigned int)0, return_value_gettext$11, database, return_value_strerror$13);
+          return_value_gettext_11=gettext("Could not unlink '%s': %s\n");
+          return_value___errno_location_12=__errno_location();
+          return_value_strerror_13=strerror(*return_value___errno_location_12);
+          log(context, (unsigned int)0, return_value_gettext_11, database, return_value_strerror_13);
         }
 
-        fd = (struct anonymous$0 *)(void *)0;
+        fd = (struct anonymous_0 *)(void *)0;
       }
 
       else
       {
-        char *return_value_gettext$15;
-        return_value_gettext$15=gettext("Database file '%s' has wrong magic code.\n");
-        log(context, (unsigned int)0, return_value_gettext$15, database);
+        char *return_value_gettext_15;
+        return_value_gettext_15=gettext("Database file '%s' has wrong magic code.\n");
+        log(context, (unsigned int)0, return_value_gettext_15, database);
         IO_FREE(fd);
         free((void *)ret->database);
         free((void *)ret);
@@ -1620,9 +1620,9 @@ struct DOODLE_SuffixTree * DOODLE_tree_create_internal(void (*log)(void *, unsig
       }
     }
 
-    signed int return_value_READUINT$18;
-    return_value_READUINT$18=READUINT(fd, &ptc);
-    if(return_value_READUINT$18 == -1)
+    signed int return_value_READUINT_18;
+    return_value_READUINT_18=READUINT(fd, &ptc);
+    if(return_value_READUINT_18 == -1)
     {
       free((void *)ret->database);
       free((void *)ret);
@@ -1632,9 +1632,9 @@ struct DOODLE_SuffixTree * DOODLE_tree_create_internal(void (*log)(void *, unsig
 
     if(!(ptc == 0u))
     {
-      void *return_value_MALLOC$19;
-      return_value_MALLOC$19=MALLOC((unsigned long int)ptc * sizeof(char *) /*8ul*/ );
-      pathTab = (char **)return_value_MALLOC$19;
+      void *return_value_MALLOC_19;
+      return_value_MALLOC_19=MALLOC((unsigned long int)ptc * sizeof(char *) /*8ul*/ );
+      pathTab = (char **)return_value_MALLOC_19;
       i = (signed int)(ptc - (unsigned int)1);
       for( ; i >= 0; i = i - 1)
       {
@@ -1660,9 +1660,9 @@ struct DOODLE_SuffixTree * DOODLE_tree_create_internal(void (*log)(void *, unsig
       pathTab = (char **)(void *)0;
     ret->fns = (unsigned int)0;
     ret->filenames = (struct anonymous *)(void *)0;
-    signed int return_value_READUINT$20;
-    return_value_READUINT$20=READUINT(fd, &ret->fnc);
-    if(return_value_READUINT$20 == -1)
+    signed int return_value_READUINT_20;
+    return_value_READUINT_20=READUINT(fd, &ret->fnc);
+    if(return_value_READUINT_20 == -1)
     {
       i = (signed int)(ptc - (unsigned int)1);
       for( ; i >= 0; i = i - 1)
@@ -1695,15 +1695,15 @@ struct DOODLE_SuffixTree * DOODLE_tree_create_internal(void (*log)(void *, unsig
           free((void *)ret->database);
           free((void *)ret);
           IO_FREE(fd);
-          char *return_value_gettext$21;
-          return_value_gettext$21=gettext("Error reading database '%s' at %s.%d.\n");
-          log(context, (unsigned int)0, return_value_gettext$21, database, (const void *)"tree.c", 1710);
+          char *return_value_gettext_21;
+          return_value_gettext_21=gettext("Error reading database '%s' at %s.%d.\n");
+          log(context, (unsigned int)0, return_value_gettext_21, database, (const void *)"tree.c", 1710);
           return (struct DOODLE_SuffixTree *)(void *)0;
         }
 
-        signed int return_value_READUINT$22;
-        return_value_READUINT$22=READUINT(fd, &(ret->filenames + (signed long int)i)->mod_time);
-        if(return_value_READUINT$22 == -1)
+        signed int return_value_READUINT_22;
+        return_value_READUINT_22=READUINT(fd, &(ret->filenames + (signed long int)i)->mod_time);
+        if(return_value_READUINT_22 == -1)
         {
           while(!((unsigned int)i >= ret->fnc + 4294967295u))
           {
@@ -1732,9 +1732,9 @@ struct DOODLE_SuffixTree * DOODLE_tree_create_internal(void (*log)(void *, unsig
       free((void *)pathTab);
     }
 
-    signed int return_value_READUINT$23;
-    return_value_READUINT$23=READUINT(fd, &ret->cisPos);
-    if(return_value_READUINT$23 == -1)
+    signed int return_value_READUINT_23;
+    return_value_READUINT_23=READUINT(fd, &ret->cisPos);
+    if(return_value_READUINT_23 == -1)
     {
       xgrow_((void **)&ret->filenames, sizeof(struct anonymous) /*16ul*/ , &ret->fns, (unsigned int)0, "tree.c", 1739);
       free((void *)ret->database);
@@ -1745,8 +1745,8 @@ struct DOODLE_SuffixTree * DOODLE_tree_create_internal(void (*log)(void *, unsig
     ret->cisLen = ret->cisPos;
     if(ret->cisLen >= 1u)
     {
-      return_value_MALLOC$24=MALLOC((unsigned long int)ret->cisLen * sizeof(signed char *) /*8ul*/ );
-      ret->cis = (char **)return_value_MALLOC$24;
+      return_value_MALLOC_24=MALLOC((unsigned long int)ret->cisLen * sizeof(signed char *) /*8ul*/ );
+      ret->cis = (char **)return_value_MALLOC_24;
     }
 
     else
@@ -1771,9 +1771,9 @@ struct DOODLE_SuffixTree * DOODLE_tree_create_internal(void (*log)(void *, unsig
       }
 
     }
-    signed int return_value_READULONGFULL$25;
-    return_value_READULONGFULL$25=READULONGFULL(fd, &off);
-    if(return_value_READULONGFULL$25 == -1)
+    signed int return_value_READULONGFULL_25;
+    return_value_READULONGFULL_25=READULONGFULL(fd, &off);
+    if(return_value_READULONGFULL_25 == -1)
     {
       i = (signed int)(ret->cisPos - (unsigned int)1);
       for( ; i >= 0; i = i - 1)
@@ -1800,9 +1800,9 @@ struct DOODLE_SuffixTree * DOODLE_tree_create_internal(void (*log)(void *, unsig
     ;
     if(flags == 00)
     {
-      char *return_value_gettext$26;
-      return_value_gettext$26=gettext("Database '%s' does not exist.\n");
-      log(context, (unsigned int)0, return_value_gettext$26, database);
+      char *return_value_gettext_26;
+      return_value_gettext_26=gettext("Database '%s' does not exist.\n");
+      log(context, (unsigned int)0, return_value_gettext_26, database);
       free((void *)ret->database);
       free((void *)ret);
       return (struct DOODLE_SuffixTree *)(void *)0;
@@ -1811,29 +1811,29 @@ struct DOODLE_SuffixTree * DOODLE_tree_create_internal(void (*log)(void *, unsig
     ifd=open(database, 0100 | flags | 0, 0400 | 0200 | 0400 >> 3);
     if(ifd == -1)
     {
-      char *return_value_gettext$27;
-      return_value_gettext$27=gettext("Error creating database '%s' at %s:%d: %s\n");
-      signed int *return_value___errno_location$28;
-      return_value___errno_location$28=__errno_location();
-      char *return_value_strerror$29;
-      return_value_strerror$29=strerror(*return_value___errno_location$28);
-      log(context, (unsigned int)0, return_value_gettext$27, database, (const void *)"tree.c", 1803, return_value_strerror$29);
+      char *return_value_gettext_27;
+      return_value_gettext_27=gettext("Error creating database '%s' at %s:%d: %s\n");
+      signed int *return_value___errno_location_28;
+      return_value___errno_location_28=__errno_location();
+      char *return_value_strerror_29;
+      return_value_strerror_29=strerror(*return_value___errno_location_28);
+      log(context, (unsigned int)0, return_value_gettext_27, database, (const void *)"tree.c", 1803, return_value_strerror_29);
       free((void *)ret->database);
       free((void *)ret);
       return (struct DOODLE_SuffixTree *)(void *)0;
     }
 
-    signed int return_value_flock$33;
-    return_value_flock$33=flock(ifd, flags == 02 ? 2 : 1);
-    if(!(return_value_flock$33 == 0))
+    signed int return_value_flock_33;
+    return_value_flock_33=flock(ifd, flags == 02 ? 2 : 1);
+    if(!(return_value_flock_33 == 0))
     {
-      char *return_value_gettext$30;
-      return_value_gettext$30=gettext("Could not lock database '%s': %s\n");
-      signed int *return_value___errno_location$31;
-      return_value___errno_location$31=__errno_location();
-      char *return_value_strerror$32;
-      return_value_strerror$32=strerror(*return_value___errno_location$31);
-      log(context, (unsigned int)0, return_value_gettext$30, database, return_value_strerror$32);
+      char *return_value_gettext_30;
+      return_value_gettext_30=gettext("Could not lock database '%s': %s\n");
+      signed int *return_value___errno_location_31;
+      return_value___errno_location_31=__errno_location();
+      char *return_value_strerror_32;
+      return_value_strerror_32=strerror(*return_value___errno_location_31);
+      log(context, (unsigned int)0, return_value_gettext_30, database, return_value_strerror_32);
       free((void *)ret->database);
       free((void *)ret);
       return (struct DOODLE_SuffixTree *)(void *)0;
@@ -1861,7 +1861,7 @@ struct DOODLE_SuffixTree * DOODLE_tree_create_internal(void (*log)(void *, unsig
 // file doodle.h line 104
 void DOODLE_tree_destroy(struct DOODLE_SuffixTree *tree)
 {
-  struct anonymous$0 *fd;
+  struct anonymous_0 *fd;
   signed int i;
   signed int j;
   unsigned long long int off;
@@ -1871,60 +1871,60 @@ void DOODLE_tree_destroy(struct DOODLE_SuffixTree *tree)
   struct DOODLE_Node *tmp;
   while((_Bool)0)
     ;
-  _Bool tmp_if_expr$21;
-  _Bool tmp_if_expr$20;
-  signed int return_value_strncmp$9;
-  unsigned long int return_value_strlen$8;
-  char *return_value_gettext$12;
-  signed int *return_value___errno_location$13;
-  char *return_value_strerror$14;
-  char *return_value_gettext$16;
-  signed int *return_value___errno_location$17;
-  char *return_value_strerror$18;
+  _Bool tmp_if_expr_21;
+  _Bool tmp_if_expr_20;
+  signed int return_value_strncmp_9;
+  unsigned long int return_value_strlen_8;
+  char *return_value_gettext_12;
+  signed int *return_value___errno_location_13;
+  char *return_value_strerror_14;
+  char *return_value_gettext_16;
+  signed int *return_value___errno_location_17;
+  char *return_value_strerror_18;
   if(tree->read_only == 0)
   {
     if(!(tree->modified == 0))
-      tmp_if_expr$21 = (_Bool)1;
+      tmp_if_expr_21 = (_Bool)1;
 
     else
     {
       if(!(tree->root == ((struct DOODLE_Node *)NULL)))
-        tmp_if_expr$20 = (signed int)tree->root->modified != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_20 = (signed int)tree->root->modified != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$20 = (_Bool)0;
-      tmp_if_expr$21 = tmp_if_expr$20 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_20 = (_Bool)0;
+      tmp_if_expr_21 = tmp_if_expr_20 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$21)
+    if(tmp_if_expr_21)
     {
       signed int fdt;
       char *tdatabase;
       tree->force_dump = 1;
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(tree->database);
-      void *return_value_MALLOC$2;
-      return_value_MALLOC$2=MALLOC(return_value_strlen$1 + (unsigned long int)2);
-      tdatabase = (char *)return_value_MALLOC$2;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(tree->database);
+      void *return_value_MALLOC_2;
+      return_value_MALLOC_2=MALLOC(return_value_strlen_1 + (unsigned long int)2);
+      tdatabase = (char *)return_value_MALLOC_2;
       strcpy(tdatabase, tree->database);
       strcat(tdatabase, "~");
       fdt=open(tdatabase, 0100 | 01000 | 02 | 0, 0400 | 0200 | 0400 >> 3);
       if(fdt == -1)
       {
-        char *return_value_gettext$3;
-        return_value_gettext$3=gettext("Could not open temporary file '%s': %s\n");
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        char *return_value_strerror$5;
-        return_value_strerror$5=strerror(*return_value___errno_location$4);
-        tree->log(tree->context, (unsigned int)0, return_value_gettext$3, tdatabase, return_value_strerror$5);
+        char *return_value_gettext_3;
+        return_value_gettext_3=gettext("Could not open temporary file '%s': %s\n");
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        char *return_value_strerror_5;
+        return_value_strerror_5=strerror(*return_value___errno_location_4);
+        tree->log(tree->context, (unsigned int)0, return_value_gettext_3, tdatabase, return_value_strerror_5);
         free((void *)tdatabase);
       }
 
       fd=IO_WRAP(tree->log, tree->context, fdt);
       WRITEALL(fd, (const void *)MAGIC, (unsigned long long int)8);
-      char *return_value_gettext$6;
-      return_value_gettext$6=gettext("Writing doodle database to temporary file '%s'.\n");
-      tree->log(tree->context, (unsigned int)2, return_value_gettext$6, tdatabase);
+      char *return_value_gettext_6;
+      return_value_gettext_6=gettext("Writing doodle database to temporary file '%s'.\n");
+      tree->log(tree->context, (unsigned int)2, return_value_gettext_6, tdatabase);
       ptc = (unsigned int)0;
       pathTab = (char **)(void *)0;
       i = (signed int)(tree->fnc - (unsigned int)1);
@@ -1934,9 +1934,9 @@ void DOODLE_tree_destroy(struct DOODLE_SuffixTree *tree)
         signed int slen;
         signed int xslen;
         fn = (tree->filenames + (signed long int)i)->filename;
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen(fn);
-        slen = (signed int)return_value_strlen$7;
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen(fn);
+        slen = (signed int)return_value_strlen_7;
         xslen = slen;
         if(!((signed int)fn[(signed long int)slen] == 47))
         {
@@ -1948,9 +1948,9 @@ void DOODLE_tree_destroy(struct DOODLE_SuffixTree *tree)
         j = (signed int)(ptc - (unsigned int)1);
         if(j >= 0)
         {
-          return_value_strncmp$9=strncmp(fn, pathTab[(signed long int)j], (unsigned long int)slen);
-          if(return_value_strncmp$9 == 0)
-            return_value_strlen$8=strlen(pathTab[(signed long int)j]);
+          return_value_strncmp_9=strncmp(fn, pathTab[(signed long int)j], (unsigned long int)slen);
+          if(return_value_strncmp_9 == 0)
+            return_value_strlen_8=strlen(pathTab[(signed long int)j]);
 
           j = j - 1;
         }
@@ -1958,9 +1958,9 @@ void DOODLE_tree_destroy(struct DOODLE_SuffixTree *tree)
         if(!(j >= 0))
         {
           xgrow_((void **)&pathTab, sizeof(char *) /*8ul*/ , &ptc, ptc + (unsigned int)1, "tree.c", 1966);
-          void *return_value_MALLOC$10;
-          return_value_MALLOC$10=MALLOC((unsigned long int)(slen + 1));
-          pathTab[(signed long int)(ptc - (unsigned int)1)] = (char *)return_value_MALLOC$10;
+          void *return_value_MALLOC_10;
+          return_value_MALLOC_10=MALLOC((unsigned long int)(slen + 1));
+          pathTab[(signed long int)(ptc - (unsigned int)1)] = (char *)return_value_MALLOC_10;
           memcpy((void *)pathTab[(signed long int)(ptc - (unsigned int)1)], (const void *)fn, (unsigned long int)slen);
           pathTab[(signed long int)(ptc - (unsigned int)1)][(signed long int)slen] = (char)0;
         }
@@ -2005,35 +2005,35 @@ void DOODLE_tree_destroy(struct DOODLE_SuffixTree *tree)
         i = i - 1;
       }
 
-      unsigned long long int return_value_LSEEK$11;
-      return_value_LSEEK$11=LSEEK(fd, (unsigned long long int)0, 1);
-      wpos = (signed long int)return_value_LSEEK$11;
+      unsigned long long int return_value_LSEEK_11;
+      return_value_LSEEK_11=LSEEK(fd, (unsigned long long int)0, 1);
+      wpos = (signed long int)return_value_LSEEK_11;
       off = (unsigned long long int)0;
       WRITEULONGFULL(fd, off);
       off=writeNode(fd, tree, tree->root);
       LSEEK(fd, (unsigned long long int)wpos, 0);
       WRITEULONGFULL(fd, off);
       IO_FREE(tree->fd);
-      tree->fd = (struct anonymous$0 *)(void *)0;
+      tree->fd = (struct anonymous_0 *)(void *)0;
       IO_FREE(fd);
-      signed int return_value_unlink$15;
-      return_value_unlink$15=unlink(tree->database);
-      if(!(return_value_unlink$15 == 0))
+      signed int return_value_unlink_15;
+      return_value_unlink_15=unlink(tree->database);
+      if(!(return_value_unlink_15 == 0))
       {
-        return_value_gettext$12=gettext("Could not remove old database '%s': %s\n");
-        return_value___errno_location$13=__errno_location();
-        return_value_strerror$14=strerror(*return_value___errno_location$13);
-        tree->log(tree->context, (unsigned int)1, return_value_gettext$12, tree->database, return_value_strerror$14);
+        return_value_gettext_12=gettext("Could not remove old database '%s': %s\n");
+        return_value___errno_location_13=__errno_location();
+        return_value_strerror_14=strerror(*return_value___errno_location_13);
+        tree->log(tree->context, (unsigned int)1, return_value_gettext_12, tree->database, return_value_strerror_14);
       }
 
-      signed int return_value_rename$19;
-      return_value_rename$19=rename(tdatabase, tree->database);
-      if(!(return_value_rename$19 == 0))
+      signed int return_value_rename_19;
+      return_value_rename_19=rename(tdatabase, tree->database);
+      if(!(return_value_rename_19 == 0))
       {
-        return_value_gettext$16=gettext("Could not rename temporary file '%s' to '%s: %s\n");
-        return_value___errno_location$17=__errno_location();
-        return_value_strerror$18=strerror(*return_value___errno_location$17);
-        tree->log(tree->context, (unsigned int)0, return_value_gettext$16, tdatabase, tree->database, return_value_strerror$18);
+        return_value_gettext_16=gettext("Could not rename temporary file '%s' to '%s: %s\n");
+        return_value___errno_location_17=__errno_location();
+        return_value_strerror_18=strerror(*return_value___errno_location_17);
+        tree->log(tree->context, (unsigned int)0, return_value_gettext_16, tdatabase, tree->database, return_value_strerror_18);
       }
 
       free((void *)tdatabase);
@@ -2044,10 +2044,10 @@ void DOODLE_tree_destroy(struct DOODLE_SuffixTree *tree)
 
 CLEANUP:
   ;
-  if(!(tree->fd == ((struct anonymous$0 *)NULL)))
+  if(!(tree->fd == ((struct anonymous_0 *)NULL)))
   {
     IO_FREE(tree->fd);
-    tree->fd = (struct anonymous$0 *)(void *)0;
+    tree->fd = (struct anonymous_0 *)(void *)0;
   }
 
   i = (signed int)(tree->cisPos - (unsigned int)1);
@@ -2078,9 +2078,9 @@ signed int DOODLE_tree_dump(struct _IO_FILE *stream, struct DOODLE_SuffixTree *t
 
   else
   {
-    signed int return_value_print_internal$1;
-    return_value_print_internal$1=print_internal(tree, tree->root, stream, 2);
-    return return_value_print_internal$1;
+    signed int return_value_print_internal_1;
+    return_value_print_internal_1=print_internal(tree, tree->root, stream, 2);
+    return return_value_print_internal_1;
   }
 }
 
@@ -2097,56 +2097,56 @@ signed int DOODLE_tree_expand(struct DOODLE_SuffixTree *tree, const char *search
   signed int cix;
   struct stat sbuf;
   unsigned int sharedNameIndex;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(searchString == ((const char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strlen$1=strlen(searchString);
-    tmp_if_expr$2 = return_value_strlen$1 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_1=strlen(searchString);
+    tmp_if_expr_2 = return_value_strlen_1 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$10;
-  signed int return_value_strcmp$9;
-  unsigned long int return_value_strlen$11;
-  unsigned long int return_value_strlen$12;
-  unsigned long int return_value_strlen$21;
-  _Bool tmp_if_expr$22;
-  if(tmp_if_expr$2)
+  _Bool tmp_if_expr_10;
+  signed int return_value_strcmp_9;
+  unsigned long int return_value_strlen_11;
+  unsigned long int return_value_strlen_12;
+  unsigned long int return_value_strlen_21;
+  _Bool tmp_if_expr_22;
+  if(tmp_if_expr_2)
     return 1;
 
   else
   {
     while((_Bool)0)
       ;
-    signed int return_value_stat$6;
-    return_value_stat$6=stat(fileName, &sbuf);
-    if(!(return_value_stat$6 == 0))
+    signed int return_value_stat_6;
+    return_value_stat_6=stat(fileName, &sbuf);
+    if(!(return_value_stat_6 == 0))
     {
-      char *return_value_gettext$3;
-      return_value_gettext$3=gettext("Call to '%s' for file '%s' failed: %s\n");
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      tree->log(tree->context, (unsigned int)0, return_value_gettext$3, (const void *)"stat", fileName, return_value_strerror$5);
+      char *return_value_gettext_3;
+      return_value_gettext_3=gettext("Call to '%s' for file '%s' failed: %s\n");
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      tree->log(tree->context, (unsigned int)0, return_value_gettext_3, (const void *)"stat", fileName, return_value_strerror_5);
       return 1;
     }
 
     tree->mutationCount = tree->mutationCount + 1u;
-    char *return_value_gettext$7;
-    return_value_gettext$7=gettext("Adding keyword '%s' for file '%s'.\n");
-    tree->log(tree->context, (unsigned int)3, return_value_gettext$7, searchString, fileName);
+    char *return_value_gettext_7;
+    return_value_gettext_7=gettext("Adding keyword '%s' for file '%s'.\n");
+    tree->log(tree->context, (unsigned int)3, return_value_gettext_7, searchString, fileName);
     if(tree->fnc >= 1u)
     {
-      return_value_strcmp$9=strcmp(fileName, (tree->filenames + (signed long int)(tree->fnc - (unsigned int)1))->filename);
-      tmp_if_expr$10 = 0 == return_value_strcmp$9 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_9=strcmp(fileName, (tree->filenames + (signed long int)(tree->fnc - (unsigned int)1))->filename);
+      tmp_if_expr_10 = 0 == return_value_strcmp_9 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$10 = (_Bool)0;
-    if(tmp_if_expr$10)
+      tmp_if_expr_10 = (_Bool)0;
+    if(tmp_if_expr_10)
     {
       sharedName = (tree->filenames + (signed long int)(tree->fnc - (unsigned int)1))->filename;
       sharedNameIndex = tree->fnc - (unsigned int)1;
@@ -2158,9 +2158,9 @@ signed int DOODLE_tree_expand(struct DOODLE_SuffixTree *tree, const char *search
       i = (signed int)(tree->fnc - (unsigned int)2);
       if(i >= 0)
       {
-        signed int return_value_strcmp$8;
-        return_value_strcmp$8=strcmp(fileName, (tree->filenames + (signed long int)i)->filename);
-        if(return_value_strcmp$8 == 0)
+        signed int return_value_strcmp_8;
+        return_value_strcmp_8=strcmp(fileName, (tree->filenames + (signed long int)i)->filename);
+        if(return_value_strcmp_8 == 0)
         {
           sharedName = (tree->filenames + (signed long int)i)->filename;
           sharedNameIndex = (unsigned int)i;
@@ -2188,24 +2188,24 @@ signed int DOODLE_tree_expand(struct DOODLE_SuffixTree *tree, const char *search
     if(tree->cisPos >= 1u)
     {
       cisp = tree->cis[(signed long int)(tree->cisPos - (unsigned int)1)];
-      unsigned long int return_value_strlen$13;
-      return_value_strlen$13=strlen(cisp);
-      unsigned long int return_value_strlen$14;
-      return_value_strlen$14=strlen(searchString);
-      if(!(return_value_strlen$14 >= return_value_strlen$13))
+      unsigned long int return_value_strlen_13;
+      return_value_strlen_13=strlen(cisp);
+      unsigned long int return_value_strlen_14;
+      return_value_strlen_14=strlen(searchString);
+      if(!(return_value_strlen_14 >= return_value_strlen_13))
       {
-        return_value_strlen$11=strlen(cisp);
-        return_value_strlen$12=strlen(searchString);
-        cisp = &cisp[(signed long int)(return_value_strlen$11 - return_value_strlen$12)];
+        return_value_strlen_11=strlen(cisp);
+        return_value_strlen_12=strlen(searchString);
+        cisp = &cisp[(signed long int)(return_value_strlen_11 - return_value_strlen_12)];
       }
 
       else
         cisp = "";
     }
 
-    signed int return_value_strcmp$15;
-    return_value_strcmp$15=strcmp(cisp, searchString);
-    if(!(return_value_strcmp$15 == 0))
+    signed int return_value_strcmp_15;
+    return_value_strcmp_15=strcmp(cisp, searchString);
+    if(!(return_value_strcmp_15 == 0))
     {
       cix = -1;
       spos=tree_search_internal(tree, searchString);
@@ -2238,13 +2238,13 @@ signed int DOODLE_tree_expand(struct DOODLE_SuffixTree *tree, const char *search
 
     else
       cix = (signed int)(tree->cisPos - (unsigned int)1);
-    unsigned long int return_value_strlen$17;
-    return_value_strlen$17=strlen(cisp);
-    if(return_value_strlen$17 == 0ul)
+    unsigned long int return_value_strlen_17;
+    return_value_strlen_17=strlen(cisp);
+    if(return_value_strlen_17 == 0ul)
     {
-      char *return_value_gettext$16;
-      return_value_gettext$16=gettext("Assertion failed at %s:%d.\n");
-      tree->log(tree->context, (unsigned int)0, return_value_gettext$16, (const void *)"tree.c", 2386);
+      char *return_value_gettext_16;
+      return_value_gettext_16=gettext("Assertion failed at %s:%d.\n");
+      tree->log(tree->context, (unsigned int)0, return_value_gettext_16, (const void *)"tree.c", 2386);
       return 1;
     }
 
@@ -2252,18 +2252,18 @@ signed int DOODLE_tree_expand(struct DOODLE_SuffixTree *tree, const char *search
     pos = tree->root;
     if(pos == ((struct DOODLE_Node *)NULL))
     {
-      void *return_value_MALLOC$18;
-      return_value_MALLOC$18=MALLOC(sizeof(struct DOODLE_Node) /*80ul*/ );
-      pos = (struct DOODLE_Node *)return_value_MALLOC$18;
+      void *return_value_MALLOC_18;
+      return_value_MALLOC_18=MALLOC(sizeof(struct DOODLE_Node) /*80ul*/ );
+      pos = (struct DOODLE_Node *)return_value_MALLOC_18;
       pos->mls_size = (unsigned char)1;
       pos->useCounter = (unsigned int)0;
       tree->used_memory = tree->used_memory + sizeof(struct DOODLE_Node) /*80ul*/ ;
       pos->parent = (struct DOODLE_Node *)(void *)0;
       pos->c = cisp;
       pos->cix = cix;
-      unsigned long int return_value_strlen$19;
-      return_value_strlen$19=strlen(cisp0);
-      pos->clength = (unsigned char)return_value_strlen$19;
+      unsigned long int return_value_strlen_19;
+      return_value_strlen_19=strlen(cisp0);
+      pos->clength = (unsigned char)return_value_strlen_19;
       tree->root = pos;
       cisp0 = "";
       markModified(pos);
@@ -2278,9 +2278,9 @@ signed int DOODLE_tree_expand(struct DOODLE_SuffixTree *tree, const char *search
       if(!((signed int)*cisp0 >= (signed int)*pos->c))
       {
         struct DOODLE_Node *insert;
-        void *return_value_MALLOC$20;
-        return_value_MALLOC$20=MALLOC(sizeof(struct DOODLE_Node) /*80ul*/ );
-        insert = (struct DOODLE_Node *)return_value_MALLOC$20;
+        void *return_value_MALLOC_20;
+        return_value_MALLOC_20=MALLOC(sizeof(struct DOODLE_Node) /*80ul*/ );
+        insert = (struct DOODLE_Node *)return_value_MALLOC_20;
         insert->mls_size = (unsigned char)1;
         insert->useCounter = (unsigned int)0;
         insert->link = pos;
@@ -2315,8 +2315,8 @@ signed int DOODLE_tree_expand(struct DOODLE_SuffixTree *tree, const char *search
           i = 1;
           if(!(i >= (signed int)pos->clength))
           {
-            return_value_strlen$21=strlen(cisp0);
-            if(!((unsigned long int)i >= return_value_strlen$21))
+            return_value_strlen_21=strlen(cisp0);
+            if(!((unsigned long int)i >= return_value_strlen_21))
             {
               if(pos->c[(signed long int)i] == cisp0[(signed long int)i])
                 i = i + 1;
@@ -2326,11 +2326,11 @@ signed int DOODLE_tree_expand(struct DOODLE_SuffixTree *tree, const char *search
           }
 
           if(i >= 2)
-            tmp_if_expr$22 = i < (signed int)pos->clength ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_22 = i < (signed int)pos->clength ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$22 = (_Bool)0;
-          if(tmp_if_expr$22)
+            tmp_if_expr_22 = (_Bool)0;
+          if(tmp_if_expr_22)
           {
             tree_split(tree, pos, (unsigned int)i);
             cisp0 = &cisp0[(signed long int)i];
@@ -2354,9 +2354,9 @@ signed int DOODLE_tree_expand(struct DOODLE_SuffixTree *tree, const char *search
           {
             if(!(pos->next_off == 0ul))
             {
-              signed int return_value_loadChild$23;
-              return_value_loadChild$23=loadChild(tree, pos);
-              if(return_value_loadChild$23 == -1)
+              signed int return_value_loadChild_23;
+              return_value_loadChild_23=loadChild(tree, pos);
+              if(return_value_loadChild_23 == -1)
                 return 1;
 
             }
@@ -2364,9 +2364,9 @@ signed int DOODLE_tree_expand(struct DOODLE_SuffixTree *tree, const char *search
             else
             {
               tree->modified = 1;
-              void *return_value_MALLOC$24;
-              return_value_MALLOC$24=MALLOC(sizeof(struct DOODLE_Node) /*80ul*/ );
-              pos->child = (struct DOODLE_Node *)return_value_MALLOC$24;
+              void *return_value_MALLOC_24;
+              return_value_MALLOC_24=MALLOC(sizeof(struct DOODLE_Node) /*80ul*/ );
+              pos->child = (struct DOODLE_Node *)return_value_MALLOC_24;
               pos->child->mls_size = (unsigned char)1;
               pos->child->useCounter = (unsigned int)0;
               tree->used_memory = tree->used_memory + sizeof(struct DOODLE_Node) /*80ul*/ ;
@@ -2387,9 +2387,9 @@ signed int DOODLE_tree_expand(struct DOODLE_SuffixTree *tree, const char *search
           {
             if(!(pos->link_off == 0ul))
             {
-              signed int return_value_loadLink$25;
-              return_value_loadLink$25=loadLink(tree, pos);
-              if(return_value_loadLink$25 == -1)
+              signed int return_value_loadLink_25;
+              return_value_loadLink_25=loadLink(tree, pos);
+              if(return_value_loadLink_25 == -1)
                 return 1;
 
             }
@@ -2397,9 +2397,9 @@ signed int DOODLE_tree_expand(struct DOODLE_SuffixTree *tree, const char *search
             else
             {
               tree->modified = 1;
-              void *return_value_MALLOC$26;
-              return_value_MALLOC$26=MALLOC(sizeof(struct DOODLE_Node) /*80ul*/ );
-              pos->link = (struct DOODLE_Node *)return_value_MALLOC$26;
+              void *return_value_MALLOC_26;
+              return_value_MALLOC_26=MALLOC(sizeof(struct DOODLE_Node) /*80ul*/ );
+              pos->link = (struct DOODLE_Node *)return_value_MALLOC_26;
               pos->link->mls_size = (unsigned char)1;
               pos->link->useCounter = (unsigned int)0;
               tree->used_memory = tree->used_memory + sizeof(struct DOODLE_Node) /*80ul*/ ;
@@ -2446,9 +2446,9 @@ signed int DOODLE_tree_expand(struct DOODLE_SuffixTree *tree, const char *search
                 if(!((signed int)pos->link->clength == 1))
                   tree_split(tree, pos->link, (unsigned int)1);
 
-                void *return_value_MALLOC$27;
-                return_value_MALLOC$27=MALLOC(sizeof(struct DOODLE_Node) /*80ul*/  * (unsigned long int)((signed int)mlsroot->mls_size + (signed int)pos->link->mls_size + 1));
-                mlsnew = (struct DOODLE_Node *)return_value_MALLOC$27;
+                void *return_value_MALLOC_27;
+                return_value_MALLOC_27=MALLOC(sizeof(struct DOODLE_Node) /*80ul*/  * (unsigned long int)((signed int)mlsroot->mls_size + (signed int)pos->link->mls_size + 1));
+                mlsnew = (struct DOODLE_Node *)return_value_MALLOC_27;
                 memcpy((void *)mlsnew, (const void *)mlsroot, sizeof(struct DOODLE_Node) /*80ul*/  * (unsigned long int)mlsroot->mls_size);
                 (mlsnew + (signed long int)mlsroot->mls_size)->clength = (unsigned char)1;
                 memcpy((void *)&mlsnew[(signed long int)((signed int)mlsroot->mls_size + 1)], (const void *)pos->link, sizeof(struct DOODLE_Node) /*80ul*/  * (unsigned long int)pos->link->mls_size);
@@ -2495,9 +2495,9 @@ signed int DOODLE_tree_expand(struct DOODLE_SuffixTree *tree, const char *search
 
               else
               {
-                void *return_value_MALLOC$28;
-                return_value_MALLOC$28=MALLOC(sizeof(struct DOODLE_Node) /*80ul*/  * (unsigned long int)((signed int)mlsroot->mls_size + 1));
-                mlsnew = (struct DOODLE_Node *)return_value_MALLOC$28;
+                void *return_value_MALLOC_28;
+                return_value_MALLOC_28=MALLOC(sizeof(struct DOODLE_Node) /*80ul*/  * (unsigned long int)((signed int)mlsroot->mls_size + 1));
+                mlsnew = (struct DOODLE_Node *)return_value_MALLOC_28;
                 memcpy((void *)mlsnew, (const void *)mlsroot, sizeof(struct DOODLE_Node) /*80ul*/  * (unsigned long int)mlsroot->mls_size);
                 (mlsnew + (signed long int)mlsroot->mls_size)->clength = (unsigned char)1;
                 (mlsnew + (signed long int)0)->mls_size = (unsigned char)((signed int)mlsroot->mls_size + 1);
@@ -2553,21 +2553,21 @@ signed int DOODLE_tree_expand(struct DOODLE_SuffixTree *tree, const char *search
 
             else
             {
-              struct DOODLE_Node *DOODLE_tree_expand$$1$$10$$2$$2$$3$$2$$insert;
-              void *return_value_MALLOC$29;
-              return_value_MALLOC$29=MALLOC(sizeof(struct DOODLE_Node) /*80ul*/ );
-              DOODLE_tree_expand$$1$$10$$2$$2$$3$$2$$insert = (struct DOODLE_Node *)return_value_MALLOC$29;
-              DOODLE_tree_expand$$1$$10$$2$$2$$3$$2$$insert->mls_size = (unsigned char)1;
-              DOODLE_tree_expand$$1$$10$$2$$2$$3$$2$$insert->useCounter = (unsigned int)0;
-              DOODLE_tree_expand$$1$$10$$2$$2$$3$$2$$insert->link = pos->link;
-              DOODLE_tree_expand$$1$$10$$2$$2$$3$$2$$insert->link_off = pos->link_off;
-              pos->link = DOODLE_tree_expand$$1$$10$$2$$2$$3$$2$$insert;
+              struct DOODLE_Node *DOODLE_tree_expand__1__10__2__2__3__2__insert;
+              void *return_value_MALLOC_29;
+              return_value_MALLOC_29=MALLOC(sizeof(struct DOODLE_Node) /*80ul*/ );
+              DOODLE_tree_expand__1__10__2__2__3__2__insert = (struct DOODLE_Node *)return_value_MALLOC_29;
+              DOODLE_tree_expand__1__10__2__2__3__2__insert->mls_size = (unsigned char)1;
+              DOODLE_tree_expand__1__10__2__2__3__2__insert->useCounter = (unsigned int)0;
+              DOODLE_tree_expand__1__10__2__2__3__2__insert->link = pos->link;
+              DOODLE_tree_expand__1__10__2__2__3__2__insert->link_off = pos->link_off;
+              pos->link = DOODLE_tree_expand__1__10__2__2__3__2__insert;
               pos->link_off = (unsigned long long int)0;
-              DOODLE_tree_expand$$1$$10$$2$$2$$3$$2$$insert->parent = pos;
-              DOODLE_tree_expand$$1$$10$$2$$2$$3$$2$$insert->link->parent = DOODLE_tree_expand$$1$$10$$2$$2$$3$$2$$insert;
+              DOODLE_tree_expand__1__10__2__2__3__2__insert->parent = pos;
+              DOODLE_tree_expand__1__10__2__2__3__2__insert->link->parent = DOODLE_tree_expand__1__10__2__2__3__2__insert;
               tree->modified = 1;
               tree->used_memory = tree->used_memory + sizeof(struct DOODLE_Node) /*80ul*/ ;
-              pos = DOODLE_tree_expand$$1$$10$$2$$2$$3$$2$$insert;
+              pos = DOODLE_tree_expand__1__10__2__2__3__2__insert;
               pos->c = &CIS[(signed long int)(unsigned char)cisp[(signed long int)0]];
               pos->clength = (unsigned char)1;
               markModified(pos);
@@ -2579,13 +2579,13 @@ signed int DOODLE_tree_expand(struct DOODLE_SuffixTree *tree, const char *search
         }
     }
 
-    unsigned long int return_value_strlen$33;
-    return_value_strlen$33=strlen(cisp0);
-    if(return_value_strlen$33 >= 1ul)
+    unsigned long int return_value_strlen_33;
+    return_value_strlen_33=strlen(cisp0);
+    if(return_value_strlen_33 >= 1ul)
     {
-      unsigned long int return_value_strlen$32;
-      return_value_strlen$32=strlen(cisp0);
-      if(return_value_strlen$32 == 1ul)
+      unsigned long int return_value_strlen_32;
+      return_value_strlen_32=strlen(cisp0);
+      if(return_value_strlen_32 == 1ul)
       {
         pos->c = &CIS[(signed long int)(unsigned char)cisp[(signed long int)0]];
         pos->clength = (unsigned char)1;
@@ -2593,9 +2593,9 @@ signed int DOODLE_tree_expand(struct DOODLE_SuffixTree *tree, const char *search
 
       else
       {
-        unsigned long int return_value_strlen$31;
-        return_value_strlen$31=strlen(cisp0);
-        if(return_value_strlen$31 >= 256ul)
+        unsigned long int return_value_strlen_31;
+        return_value_strlen_31=strlen(cisp0);
+        if(return_value_strlen_31 >= 256ul)
         {
           pos->c = cisp;
           pos->cix = cix;
@@ -2608,9 +2608,9 @@ signed int DOODLE_tree_expand(struct DOODLE_SuffixTree *tree, const char *search
         {
           pos->c = cisp;
           pos->cix = cix;
-          unsigned long int return_value_strlen$30;
-          return_value_strlen$30=strlen(cisp0);
-          pos->clength = (unsigned char)return_value_strlen$30;
+          unsigned long int return_value_strlen_30;
+          return_value_strlen_30=strlen(cisp0);
+          pos->clength = (unsigned char)return_value_strlen_30;
         }
       }
     }
@@ -2636,9 +2636,9 @@ signed int DOODLE_tree_expand(struct DOODLE_SuffixTree *tree, const char *search
 // file tree.c line 1864
 struct DOODLE_SuffixTree * DOODLE_tree_open_RDONLY(void (*log)(void *, unsigned int, const char *, ...), void *context, const char *database)
 {
-  struct DOODLE_SuffixTree *return_value_DOODLE_tree_create_internal$1;
-  return_value_DOODLE_tree_create_internal$1=DOODLE_tree_create_internal(log, context, database, 00);
-  return return_value_DOODLE_tree_create_internal$1;
+  struct DOODLE_SuffixTree *return_value_DOODLE_tree_create_internal_1;
+  return_value_DOODLE_tree_create_internal_1=DOODLE_tree_create_internal(log, context, database, 00);
+  return return_value_DOODLE_tree_create_internal_1;
 }
 
 // DOODLE_tree_search
@@ -2647,18 +2647,18 @@ signed int DOODLE_tree_search(struct DOODLE_SuffixTree *tree, const char *substr
 {
   struct DOODLE_Node *pos;
   pos=tree_search_internal(tree, substring);
-  signed int return_value_tree_iterate_internal$1;
-  return_value_tree_iterate_internal$1=tree_iterate_internal(0, tree, pos, callback, arg);
-  return return_value_tree_iterate_internal$1;
+  signed int return_value_tree_iterate_internal_1;
+  return_value_tree_iterate_internal_1=tree_iterate_internal(0, tree, pos, callback, arg);
+  return return_value_tree_iterate_internal_1;
 }
 
 // DOODLE_tree_search_approx
 // file tree.c line 3304
 signed int DOODLE_tree_search_approx(struct DOODLE_SuffixTree *tree, const unsigned int approx, const signed int ignore_case, const char *ss, void (*callback)(const struct anonymous *, void *), void *arg)
 {
-  signed int return_value_tree_search_approx_internal$1;
-  return_value_tree_search_approx_internal$1=tree_search_approx_internal(tree->root, approx, ignore_case, tree, ss, callback, arg);
-  return return_value_tree_search_approx_internal$1;
+  signed int return_value_tree_search_approx_internal_1;
+  return_value_tree_search_approx_internal_1=tree_search_approx_internal(tree->root, approx, ignore_case, tree, ss, callback, arg);
+  return return_value_tree_search_approx_internal_1;
 }
 
 // DOODLE_tree_set_memory_limit
@@ -2678,9 +2678,9 @@ signed int DOODLE_tree_truncate(struct DOODLE_SuffixTree *tree, const char *file
   const char *filenames[2l];
   filenames[(signed long int)0] = fileName;
   filenames[(signed long int)1] = (const char *)(void *)0;
-  signed int return_value_DOODLE_tree_truncate_multiple$1;
-  return_value_DOODLE_tree_truncate_multiple$1=DOODLE_tree_truncate_multiple(tree, filenames);
-  return return_value_DOODLE_tree_truncate_multiple$1;
+  signed int return_value_DOODLE_tree_truncate_multiple_1;
+  return_value_DOODLE_tree_truncate_multiple_1=DOODLE_tree_truncate_multiple(tree, filenames);
+  return return_value_DOODLE_tree_truncate_multiple_1;
 }
 
 // DOODLE_tree_truncate_deleted
@@ -2690,82 +2690,82 @@ void DOODLE_tree_truncate_deleted(struct DOODLE_SuffixTree *tree, void (*log)(vo
   signed int i;
   unsigned int killCount;
   const char **killNames;
-  char *return_value_gettext$1;
-  return_value_gettext$1=gettext("Scanning filesystem in order to remove obsolete entries from existing database.\n");
-  log(logContext, (unsigned int)1, return_value_gettext$1);
+  char *return_value_gettext_1;
+  return_value_gettext_1=gettext("Scanning filesystem in order to remove obsolete entries from existing database.\n");
+  log(logContext, (unsigned int)1, return_value_gettext_1);
   killCount = (unsigned int)0;
   killNames = (const char **)(void *)0;
-  unsigned int return_value_DOODLE_getFileCount$2;
-  return_value_DOODLE_getFileCount$2=DOODLE_getFileCount(tree);
-  i = (signed int)(return_value_DOODLE_getFileCount$2 - (unsigned int)1);
-  _Bool tmp_if_expr$16;
-  signed int *return_value___errno_location$9;
-  _Bool tmp_if_expr$11;
-  signed int *return_value___errno_location$10;
-  _Bool tmp_if_expr$13;
-  signed int *return_value___errno_location$12;
-  _Bool tmp_if_expr$15;
-  signed int *return_value___errno_location$14;
+  unsigned int return_value_DOODLE_getFileCount_2;
+  return_value_DOODLE_getFileCount_2=DOODLE_getFileCount(tree);
+  i = (signed int)(return_value_DOODLE_getFileCount_2 - (unsigned int)1);
+  _Bool tmp_if_expr_16;
+  signed int *return_value___errno_location_9;
+  _Bool tmp_if_expr_11;
+  signed int *return_value___errno_location_10;
+  _Bool tmp_if_expr_13;
+  signed int *return_value___errno_location_12;
+  _Bool tmp_if_expr_15;
+  signed int *return_value___errno_location_14;
   if(i >= 0)
   {
     struct stat sbuf;
     char *fn;
     signed int keep = 1;
-    const struct anonymous *return_value_DOODLE_getFileAt$3;
-    return_value_DOODLE_getFileAt$3=DOODLE_getFileAt(tree, (unsigned int)i);
-    fn = return_value_DOODLE_getFileAt$3->filename;
-    signed int return_value_lstat$8;
-    return_value_lstat$8=lstat(fn, &sbuf);
-    if(!(return_value_lstat$8 == 0))
+    const struct anonymous *return_value_DOODLE_getFileAt_3;
+    return_value_DOODLE_getFileAt_3=DOODLE_getFileAt(tree, (unsigned int)i);
+    fn = return_value_DOODLE_getFileAt_3->filename;
+    signed int return_value_lstat_8;
+    return_value_lstat_8=lstat(fn, &sbuf);
+    if(!(return_value_lstat_8 == 0))
     {
-      return_value___errno_location$9=__errno_location();
-      if(*return_value___errno_location$9 == 2)
-        tmp_if_expr$11 = (_Bool)1;
+      return_value___errno_location_9=__errno_location();
+      if(*return_value___errno_location_9 == 2)
+        tmp_if_expr_11 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$10=__errno_location();
-        tmp_if_expr$11 = *return_value___errno_location$10 == 20 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_10=__errno_location();
+        tmp_if_expr_11 = *return_value___errno_location_10 == 20 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$11)
-        tmp_if_expr$13 = (_Bool)1;
+      if(tmp_if_expr_11)
+        tmp_if_expr_13 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$12=__errno_location();
-        tmp_if_expr$13 = *return_value___errno_location$12 == 40 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_12=__errno_location();
+        tmp_if_expr_13 = *return_value___errno_location_12 == 40 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$13)
-        tmp_if_expr$15 = (_Bool)1;
+      if(tmp_if_expr_13)
+        tmp_if_expr_15 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$14=__errno_location();
-        tmp_if_expr$15 = *return_value___errno_location$14 == 13 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_14=__errno_location();
+        tmp_if_expr_15 = *return_value___errno_location_14 == 13 ? (_Bool)1 : (_Bool)0;
       }
-      tmp_if_expr$16 = tmp_if_expr$15 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_16 = tmp_if_expr_15 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$16 = (_Bool)0;
-    if(tmp_if_expr$16)
+      tmp_if_expr_16 = (_Bool)0;
+    if(tmp_if_expr_16)
     {
-      char *return_value_gettext$4;
-      return_value_gettext$4=gettext("File '%s' could not be accessed: %s. Removing file from index.\n");
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      char *return_value_strerror$6;
-      return_value_strerror$6=strerror(*return_value___errno_location$5);
-      log(logContext, (unsigned int)1, return_value_gettext$4, fn, return_value_strerror$6);
+      char *return_value_gettext_4;
+      return_value_gettext_4=gettext("File '%s' could not be accessed: %s. Removing file from index.\n");
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      char *return_value_strerror_6;
+      return_value_strerror_6=strerror(*return_value___errno_location_5);
+      log(logContext, (unsigned int)1, return_value_gettext_4, fn, return_value_strerror_6);
       keep = 0;
     }
 
     else
       if(!((61440u & sbuf.st_mode) == 32768u))
       {
-        char *return_value_gettext$7;
-        return_value_gettext$7=gettext("File '%s' is not a regular file. Removing file from index.\n");
-        log(logContext, (unsigned int)2, return_value_gettext$7, fn);
+        char *return_value_gettext_7;
+        return_value_gettext_7=gettext("File '%s' is not a regular file. Removing file from index.\n");
+        log(logContext, (unsigned int)2, return_value_gettext_7, fn);
         keep = 0;
       }
 
@@ -2790,90 +2790,90 @@ void DOODLE_tree_truncate_modified(struct DOODLE_SuffixTree *tree, void (*log)(v
   signed int i;
   unsigned int killCount;
   const char **killNames;
-  char *return_value_gettext$1;
-  return_value_gettext$1=gettext("Scanning filesystem in order to remove obsolete entries from existing database.\n");
-  log(logContext, (unsigned int)1, return_value_gettext$1);
+  char *return_value_gettext_1;
+  return_value_gettext_1=gettext("Scanning filesystem in order to remove obsolete entries from existing database.\n");
+  log(logContext, (unsigned int)1, return_value_gettext_1);
   killCount = (unsigned int)0;
   killNames = (const char **)(void *)0;
-  unsigned int return_value_DOODLE_getFileCount$2;
-  return_value_DOODLE_getFileCount$2=DOODLE_getFileCount(tree);
-  i = (signed int)(return_value_DOODLE_getFileCount$2 - (unsigned int)1);
-  _Bool tmp_if_expr$17;
-  signed int *return_value___errno_location$10;
-  _Bool tmp_if_expr$12;
-  signed int *return_value___errno_location$11;
-  _Bool tmp_if_expr$14;
-  signed int *return_value___errno_location$13;
-  _Bool tmp_if_expr$16;
-  signed int *return_value___errno_location$15;
-  const struct anonymous *return_value_DOODLE_getFileAt$8;
+  unsigned int return_value_DOODLE_getFileCount_2;
+  return_value_DOODLE_getFileCount_2=DOODLE_getFileCount(tree);
+  i = (signed int)(return_value_DOODLE_getFileCount_2 - (unsigned int)1);
+  _Bool tmp_if_expr_17;
+  signed int *return_value___errno_location_10;
+  _Bool tmp_if_expr_12;
+  signed int *return_value___errno_location_11;
+  _Bool tmp_if_expr_14;
+  signed int *return_value___errno_location_13;
+  _Bool tmp_if_expr_16;
+  signed int *return_value___errno_location_15;
+  const struct anonymous *return_value_DOODLE_getFileAt_8;
   if(i >= 0)
   {
     struct stat sbuf;
     char *fn;
     signed int keep = 1;
-    const struct anonymous *return_value_DOODLE_getFileAt$3;
-    return_value_DOODLE_getFileAt$3=DOODLE_getFileAt(tree, (unsigned int)i);
-    fn = return_value_DOODLE_getFileAt$3->filename;
-    signed int return_value_lstat$9;
-    return_value_lstat$9=lstat(fn, &sbuf);
-    if(!(return_value_lstat$9 == 0))
+    const struct anonymous *return_value_DOODLE_getFileAt_3;
+    return_value_DOODLE_getFileAt_3=DOODLE_getFileAt(tree, (unsigned int)i);
+    fn = return_value_DOODLE_getFileAt_3->filename;
+    signed int return_value_lstat_9;
+    return_value_lstat_9=lstat(fn, &sbuf);
+    if(!(return_value_lstat_9 == 0))
     {
-      return_value___errno_location$10=__errno_location();
-      if(*return_value___errno_location$10 == 2)
-        tmp_if_expr$12 = (_Bool)1;
+      return_value___errno_location_10=__errno_location();
+      if(*return_value___errno_location_10 == 2)
+        tmp_if_expr_12 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$11=__errno_location();
-        tmp_if_expr$12 = *return_value___errno_location$11 == 20 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_11=__errno_location();
+        tmp_if_expr_12 = *return_value___errno_location_11 == 20 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$12)
-        tmp_if_expr$14 = (_Bool)1;
+      if(tmp_if_expr_12)
+        tmp_if_expr_14 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$13=__errno_location();
-        tmp_if_expr$14 = *return_value___errno_location$13 == 40 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_13=__errno_location();
+        tmp_if_expr_14 = *return_value___errno_location_13 == 40 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$14)
-        tmp_if_expr$16 = (_Bool)1;
+      if(tmp_if_expr_14)
+        tmp_if_expr_16 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$15=__errno_location();
-        tmp_if_expr$16 = *return_value___errno_location$15 == 13 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_15=__errno_location();
+        tmp_if_expr_16 = *return_value___errno_location_15 == 13 ? (_Bool)1 : (_Bool)0;
       }
-      tmp_if_expr$17 = tmp_if_expr$16 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_17 = tmp_if_expr_16 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$17 = (_Bool)0;
-    if(tmp_if_expr$17)
+      tmp_if_expr_17 = (_Bool)0;
+    if(tmp_if_expr_17)
     {
-      char *return_value_gettext$4;
-      return_value_gettext$4=gettext("File '%s' could not be accessed: %s. Removing file from index.\n");
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      char *return_value_strerror$6;
-      return_value_strerror$6=strerror(*return_value___errno_location$5);
-      log(logContext, (unsigned int)1, return_value_gettext$4, fn, return_value_strerror$6);
+      char *return_value_gettext_4;
+      return_value_gettext_4=gettext("File '%s' could not be accessed: %s. Removing file from index.\n");
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      char *return_value_strerror_6;
+      return_value_strerror_6=strerror(*return_value___errno_location_5);
+      log(logContext, (unsigned int)1, return_value_gettext_4, fn, return_value_strerror_6);
       keep = 0;
     }
 
     else
       if(!((61440u & sbuf.st_mode) == 32768u))
       {
-        char *return_value_gettext$7;
-        return_value_gettext$7=gettext("File '%s' is not a regular file. Removing file from index.\n");
-        log(logContext, (unsigned int)2, return_value_gettext$7, fn);
+        char *return_value_gettext_7;
+        return_value_gettext_7=gettext("File '%s' is not a regular file. Removing file from index.\n");
+        log(logContext, (unsigned int)2, return_value_gettext_7, fn);
         keep = 0;
       }
 
       else
       {
-        return_value_DOODLE_getFileAt$8=DOODLE_getFileAt(tree, (unsigned int)i);
-        if(!(return_value_DOODLE_getFileAt$8->mod_time == (unsigned int)sbuf.st_mtim.tv_sec))
+        return_value_DOODLE_getFileAt_8=DOODLE_getFileAt(tree, (unsigned int)i);
+        if(!(return_value_DOODLE_getFileAt_8->mod_time == (unsigned int)sbuf.st_mtim.tv_sec))
           keep = 0;
 
       }
@@ -2905,25 +2905,25 @@ signed int DOODLE_tree_truncate_multiple(struct DOODLE_SuffixTree *tree, const c
   while((_Bool)0)
     ;
   max = 0;
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   if(!(fileNames[(signed long int)max] == ((const char *)NULL)))
   {
-    char *return_value_gettext$1;
-    return_value_gettext$1=gettext("Removing the keywords for file '%s'.\n");
-    tmp_post$2 = max;
+    char *return_value_gettext_1;
+    return_value_gettext_1=gettext("Removing the keywords for file '%s'.\n");
+    tmp_post_2 = max;
     max = max + 1;
-    tree->log(tree->context, (unsigned int)1, return_value_gettext$1, fileNames[(signed long int)tmp_post$2]);
+    tree->log(tree->context, (unsigned int)1, return_value_gettext_1, fileNames[(signed long int)tmp_post_2]);
   }
 
-  signed int tmp_post$4;
+  signed int tmp_post_4;
   if(max == 0)
     return 0;
 
   else
   {
-    void *return_value_MALLOC$3;
-    return_value_MALLOC$3=MALLOC(sizeof(signed int) /*4ul*/  * (unsigned long int)max);
-    delOff = (unsigned int *)return_value_MALLOC$3;
+    void *return_value_MALLOC_3;
+    return_value_MALLOC_3=MALLOC(sizeof(signed int) /*4ul*/  * (unsigned long int)max);
+    delOff = (unsigned int *)return_value_MALLOC_3;
     rep = (signed int)tree->fnc;
     err = 0;
     pos = 0;
@@ -2933,14 +2933,14 @@ signed int DOODLE_tree_truncate_multiple(struct DOODLE_SuffixTree *tree, const c
       i = 0;
       for( ; !(i >= max); i = i + 1)
       {
-        signed int return_value_strcmp$5;
-        return_value_strcmp$5=strcmp((tree->filenames + (signed long int)off)->filename, fileNames[(signed long int)i]);
-        if(return_value_strcmp$5 == 0)
+        signed int return_value_strcmp_5;
+        return_value_strcmp_5=strcmp((tree->filenames + (signed long int)off)->filename, fileNames[(signed long int)i]);
+        if(return_value_strcmp_5 == 0)
         {
           tree->modified = 1;
-          tmp_post$4 = pos;
+          tmp_post_4 = pos;
           pos = pos + 1;
-          delOff[(signed long int)tmp_post$4] = (unsigned int)off;
+          delOff[(signed long int)tmp_post_4] = (unsigned int)off;
         }
 
       }
@@ -2976,7 +2976,7 @@ signed int DOODLE_tree_truncate_multiple(struct DOODLE_SuffixTree *tree, const c
 
 // IO_FREE
 // file tree.c line 398
-static void IO_FREE(struct anonymous$0 *bio)
+static void IO_FREE(struct anonymous_0 *bio)
 {
   flush_buffer(bio);
   close(bio->fd);
@@ -2986,33 +2986,33 @@ static void IO_FREE(struct anonymous$0 *bio)
 
 // IO_WRAP
 // file tree.c line 232
-static struct anonymous$0 * IO_WRAP(void (*log)(void *, unsigned int, const char *, ...), void *context, signed int fd)
+static struct anonymous_0 * IO_WRAP(void (*log)(void *, unsigned int, const char *, ...), void *context, signed int fd)
 {
-  struct anonymous$0 *bio;
+  struct anonymous_0 *bio;
   struct stat buf;
-  signed int return_value_fstat$4;
-  return_value_fstat$4=fstat(fd, &buf);
-  char *return_value_gettext$1;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
-  if(!(return_value_fstat$4 == 0))
+  signed int return_value_fstat_4;
+  return_value_fstat_4=fstat(fd, &buf);
+  char *return_value_gettext_1;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
+  if(!(return_value_fstat_4 == 0))
   {
-    return_value_gettext$1=gettext("Call to '%s' failed: %s\n");
-    return_value___errno_location$2=__errno_location();
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    log(context, (unsigned int)0, return_value_gettext$1, (const void *)"fstat", return_value_strerror$3);
+    return_value_gettext_1=gettext("Call to '%s' failed: %s\n");
+    return_value___errno_location_2=__errno_location();
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    log(context, (unsigned int)0, return_value_gettext_1, (const void *)"fstat", return_value_strerror_3);
   }
 
-  void *return_value_MALLOC$5;
-  return_value_MALLOC$5=MALLOC(sizeof(struct anonymous$0) /*72ul*/ );
-  bio = (struct anonymous$0 *)return_value_MALLOC$5;
+  void *return_value_MALLOC_5;
+  return_value_MALLOC_5=MALLOC(sizeof(struct anonymous_0) /*72ul*/ );
+  bio = (struct anonymous_0 *)return_value_MALLOC_5;
   bio->log = log;
   bio->context = context;
   bio->fd = fd;
   bio->off = (unsigned long long int)0;
-  void *return_value_MALLOC$6;
-  return_value_MALLOC$6=MALLOC((unsigned long int)4096);
-  bio->buffer = (char *)return_value_MALLOC$6;
+  void *return_value_MALLOC_6;
+  return_value_MALLOC_6=MALLOC((unsigned long int)4096);
+  bio->buffer = (char *)return_value_MALLOC_6;
   bio->bsize = (unsigned long long int)0;
   bio->bstart = (unsigned long long int)0;
   bio->fsize = (unsigned long long int)buf.st_size;
@@ -3022,7 +3022,7 @@ static struct anonymous$0 * IO_WRAP(void (*log)(void *, unsigned int, const char
 
 // LSEEK
 // file tree.c line 380
-static unsigned long long int LSEEK(struct anonymous$0 *bio, unsigned long long int off, signed int whence)
+static unsigned long long int LSEEK(struct anonymous_0 *bio, unsigned long long int off, signed int whence)
 {
   switch(whence)
   {
@@ -3053,22 +3053,22 @@ void * MALLOC(unsigned long int size)
   void *ret;
   if(size == 0ul)
   {
-    char *return_value_gettext$1;
-    return_value_gettext$1=gettext("FATAL: MALLOC called with size 0!\n");
-    fprintf(stderr, return_value_gettext$1);
+    char *return_value_gettext_1;
+    return_value_gettext_1=gettext("FATAL: MALLOC called with size 0!\n");
+    fprintf(stderr, return_value_gettext_1);
     abort();
   }
 
   ret=malloc(size);
   if(ret == NULL)
   {
-    char *return_value_gettext$3;
-    return_value_gettext$3=gettext("FATAL: %s\n");
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    fprintf(stderr, return_value_gettext$3, return_value_strerror$5);
+    char *return_value_gettext_3;
+    return_value_gettext_3=gettext("FATAL: %s\n");
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    fprintf(stderr, return_value_gettext_3, return_value_strerror_5);
     abort();
   }
 
@@ -3083,9 +3083,9 @@ signed int PTHREAD_CREATE(struct PTHREAD_T *pt, void * (*main)(void *), void *ar
   unsigned long int *handle;
   union pthread_attr_t stack_size_custom_attr;
   signed int ret;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(unsigned long int) /*8ul*/ );
-  handle = (unsigned long int *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(unsigned long int) /*8ul*/ );
+  handle = (unsigned long int *)return_value_malloc_1;
   pthread_attr_init(&stack_size_custom_attr);
   pthread_attr_setstacksize(&stack_size_custom_attr, stackSize);
   ret=pthread_create(handle, &stack_size_custom_attr, main, arg);
@@ -3193,9 +3193,9 @@ signed int PTHREAD_SELF_TEST(struct PTHREAD_T *pt)
 
   else
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    if(*handle == return_value_pthread_self$1)
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    if(*handle == return_value_pthread_self_1)
       return 1;
 
     else
@@ -3205,11 +3205,11 @@ signed int PTHREAD_SELF_TEST(struct PTHREAD_T *pt)
 
 // READALL
 // file tree.c line 295
-static signed int READALL(struct anonymous$0 *bio, void *buf, unsigned long long int len)
+static signed int READALL(struct anonymous_0 *bio, void *buf, unsigned long long int len)
 {
   signed int ret;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
   if(len >= 4097ul)
   {
     flush_buffer(bio);
@@ -3222,23 +3222,23 @@ static signed int READALL(struct anonymous$0 *bio, void *buf, unsigned long long
   {
     ret = 0;
     if(!(bio->off >= bio->bstart))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = bio->off + len > bio->bstart + bio->bsize ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = bio->off + len > bio->bstart + bio->bsize ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       ret=retarget_buffer(bio, bio->off, len);
 
     if(!(bio->off >= bio->bstart))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = bio->off + len > bio->bstart + bio->bsize ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = bio->off + len > bio->bstart + bio->bsize ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
-      char *return_value_gettext$2;
-      return_value_gettext$2=gettext("Assertion failed at %s:%d.\n");
-      bio->log(bio->context, (unsigned int)0, return_value_gettext$2, (const void *)"tree.c", 329);
+      char *return_value_gettext_2;
+      return_value_gettext_2=gettext("Assertion failed at %s:%d.\n");
+      bio->log(bio->context, (unsigned int)0, return_value_gettext_2, (const void *)"tree.c", 329);
       return -1;
     }
 
@@ -3250,30 +3250,30 @@ static signed int READALL(struct anonymous$0 *bio, void *buf, unsigned long long
 
 // READUINT
 // file tree.c line 405
-static signed int READUINT(struct anonymous$0 *fd, unsigned int *val)
+static signed int READUINT(struct anonymous_0 *fd, unsigned int *val)
 {
   signed char c;
   signed char d;
   unsigned char v[4l];
-  signed int return_value_READALL$1;
-  return_value_READALL$1=READALL(fd, (void *)&c, sizeof(signed char) /*1ul*/ );
-  if(return_value_READALL$1 == -1)
+  signed int return_value_READALL_1;
+  return_value_READALL_1=READALL(fd, (void *)&c, sizeof(signed char) /*1ul*/ );
+  if(return_value_READALL_1 == -1)
     return -1;
 
   else
   {
     if((signed int)c >= 5 || !((signed int)c >= 0))
     {
-      char *return_value_gettext$2;
-      return_value_gettext$2=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
-      fd->log(fd->context, (unsigned int)0, return_value_gettext$2, (const void *)"tree.c", 416);
+      char *return_value_gettext_2;
+      return_value_gettext_2=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
+      fd->log(fd->context, (unsigned int)0, return_value_gettext_2, (const void *)"tree.c", 416);
       return -1;
     }
 
     *val = (unsigned int)0;
-    signed int return_value_READALL$3;
-    return_value_READALL$3=READALL(fd, (void *)&v[(signed long int)0], (unsigned long long int)(signed int)c);
-    if(return_value_READALL$3 == -1)
+    signed int return_value_READALL_3;
+    return_value_READALL_3=READALL(fd, (void *)&v[(signed long int)0], (unsigned long long int)(signed int)c);
+    if(return_value_READALL_3 == -1)
       return -1;
 
     else
@@ -3288,31 +3288,31 @@ static signed int READUINT(struct anonymous$0 *fd, unsigned int *val)
 
 // READUINTPAIR
 // file tree.c line 461
-static signed int READUINTPAIR(struct anonymous$0 *fd, unsigned int *val1, unsigned int *val2)
+static signed int READUINTPAIR(struct anonymous_0 *fd, unsigned int *val1, unsigned int *val2)
 {
   unsigned char c;
   signed char d;
   unsigned char v[4l];
-  signed int return_value_READALL$1;
-  return_value_READALL$1=READALL(fd, (void *)&c, sizeof(unsigned char) /*1ul*/ );
-  if(return_value_READALL$1 == -1)
+  signed int return_value_READALL_1;
+  return_value_READALL_1=READALL(fd, (void *)&c, sizeof(unsigned char) /*1ul*/ );
+  if(return_value_READALL_1 == -1)
     return -1;
 
   else
   {
     if((signed int)c >> 4 >= 5 || (15 & (signed int)c) >= 5)
     {
-      char *return_value_gettext$2;
-      return_value_gettext$2=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
-      fd->log(fd->context, (unsigned int)0, return_value_gettext$2, (const void *)"tree.c", 474);
+      char *return_value_gettext_2;
+      return_value_gettext_2=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
+      fd->log(fd->context, (unsigned int)0, return_value_gettext_2, (const void *)"tree.c", 474);
       return -1;
     }
 
     *val1 = (unsigned int)0;
     *val2 = (unsigned int)0;
-    signed int return_value_READALL$3;
-    return_value_READALL$3=READALL(fd, (void *)&v[(signed long int)0], (unsigned long long int)((signed int)(unsigned char)c & 15));
-    if(return_value_READALL$3 == -1)
+    signed int return_value_READALL_3;
+    return_value_READALL_3=READALL(fd, (void *)&v[(signed long int)0], (unsigned long long int)((signed int)(unsigned char)c & 15));
+    if(return_value_READALL_3 == -1)
       return -1;
 
     else
@@ -3320,9 +3320,9 @@ static signed int READUINTPAIR(struct anonymous$0 *fd, unsigned int *val1, unsig
       d = (signed char)(((signed int)c & 15) - 1);
       for( ; (signed int)d >= 0; d = d - 1)
         *val2 = *val2 + (unsigned int)((signed int)v[(signed long int)(unsigned char)d] << 8 * (signed int)d);
-      signed int return_value_READALL$4;
-      return_value_READALL$4=READALL(fd, (void *)&v[(signed long int)0], (unsigned long long int)((signed int)(unsigned char)c >> 4));
-      if(return_value_READALL$4 == -1)
+      signed int return_value_READALL_4;
+      return_value_READALL_4=READALL(fd, (void *)&v[(signed long int)0], (unsigned long long int)((signed int)(unsigned char)c >> 4));
+      if(return_value_READALL_4 == -1)
         return -1;
 
       else
@@ -3338,30 +3338,30 @@ static signed int READUINTPAIR(struct anonymous$0 *fd, unsigned int *val1, unsig
 
 // READULONG
 // file tree.c line 427
-static signed int READULONG(struct anonymous$0 *fd, unsigned long long int *val)
+static signed int READULONG(struct anonymous_0 *fd, unsigned long long int *val)
 {
   signed char c;
   signed char d;
   unsigned char v[8l];
-  signed int return_value_READALL$1;
-  return_value_READALL$1=READALL(fd, (void *)&c, sizeof(signed char) /*1ul*/ );
-  if(return_value_READALL$1 == -1)
+  signed int return_value_READALL_1;
+  return_value_READALL_1=READALL(fd, (void *)&c, sizeof(signed char) /*1ul*/ );
+  if(return_value_READALL_1 == -1)
     return -1;
 
   else
   {
     if((signed int)c >= 9 || !((signed int)c >= 0))
     {
-      char *return_value_gettext$2;
-      return_value_gettext$2=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
-      fd->log(fd->context, (unsigned int)0, return_value_gettext$2, (const void *)"tree.c", 438);
+      char *return_value_gettext_2;
+      return_value_gettext_2=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
+      fd->log(fd->context, (unsigned int)0, return_value_gettext_2, (const void *)"tree.c", 438);
       return -1;
     }
 
     *val = (unsigned long long int)0;
-    signed int return_value_READALL$3;
-    return_value_READALL$3=READALL(fd, (void *)&v[(signed long int)0], (unsigned long long int)(signed int)c);
-    if(return_value_READALL$3 == -1)
+    signed int return_value_READALL_3;
+    return_value_READALL_3=READALL(fd, (void *)&v[(signed long int)0], (unsigned long long int)(signed int)c);
+    if(return_value_READALL_3 == -1)
       return -1;
 
     else
@@ -3376,15 +3376,15 @@ static signed int READULONG(struct anonymous$0 *fd, unsigned long long int *val)
 
 // READULONGFULL
 // file tree.c line 449
-static signed int READULONGFULL(struct anonymous$0 *fd, unsigned long long int *val)
+static signed int READULONGFULL(struct anonymous_0 *fd, unsigned long long int *val)
 {
   unsigned int d;
   unsigned int e;
   unsigned char v[8l];
   *val = (unsigned long long int)0;
-  signed int return_value_READALL$1;
-  return_value_READALL$1=READALL(fd, (void *)&v[(signed long int)0], (unsigned long long int)8);
-  if(return_value_READALL$1 == -1)
+  signed int return_value_READALL_1;
+  return_value_READALL_1=READALL(fd, (void *)&v[(signed long int)0], (unsigned long long int)8);
+  if(return_value_READALL_1 == -1)
     return -1;
 
   else
@@ -3402,31 +3402,31 @@ static signed int READULONGFULL(struct anonymous$0 *fd, unsigned long long int *
 
 // READULONGPAIR
 // file tree.c line 490
-static signed int READULONGPAIR(struct anonymous$0 *fd, unsigned long long int *val1, unsigned long long int *val2)
+static signed int READULONGPAIR(struct anonymous_0 *fd, unsigned long long int *val1, unsigned long long int *val2)
 {
   unsigned char c;
   signed char d;
   unsigned char v[8l];
-  signed int return_value_READALL$1;
-  return_value_READALL$1=READALL(fd, (void *)&c, sizeof(unsigned char) /*1ul*/ );
-  if(return_value_READALL$1 == -1)
+  signed int return_value_READALL_1;
+  return_value_READALL_1=READALL(fd, (void *)&c, sizeof(unsigned char) /*1ul*/ );
+  if(return_value_READALL_1 == -1)
     return -1;
 
   else
   {
     if((signed int)c >> 4 >= 9 || (15 & (signed int)c) >= 9)
     {
-      char *return_value_gettext$2;
-      return_value_gettext$2=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
-      fd->log(fd->context, (unsigned int)0, return_value_gettext$2, (const void *)"tree.c", 503);
+      char *return_value_gettext_2;
+      return_value_gettext_2=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
+      fd->log(fd->context, (unsigned int)0, return_value_gettext_2, (const void *)"tree.c", 503);
       return -1;
     }
 
     *val1 = (unsigned long long int)0;
     *val2 = (unsigned long long int)0;
-    signed int return_value_READALL$3;
-    return_value_READALL$3=READALL(fd, (void *)&v[(signed long int)0], (unsigned long long int)((signed int)(unsigned char)c & 15));
-    if(return_value_READALL$3 == -1)
+    signed int return_value_READALL_3;
+    return_value_READALL_3=READALL(fd, (void *)&v[(signed long int)0], (unsigned long long int)((signed int)(unsigned char)c & 15));
+    if(return_value_READALL_3 == -1)
       return -1;
 
     else
@@ -3434,9 +3434,9 @@ static signed int READULONGPAIR(struct anonymous$0 *fd, unsigned long long int *
       d = (signed char)(((signed int)c & 15) - 1);
       for( ; (signed int)d >= 0; d = d - 1)
         *val2 = *val2 + ((unsigned long long int)v[(signed long int)(unsigned char)d] << 8 * (signed int)d);
-      signed int return_value_READALL$4;
-      return_value_READALL$4=READALL(fd, (void *)&v[(signed long int)0], (unsigned long long int)((signed int)(unsigned char)c >> 4));
-      if(return_value_READALL$4 == -1)
+      signed int return_value_READALL_4;
+      return_value_READALL_4=READALL(fd, (void *)&v[(signed long int)0], (unsigned long long int)((signed int)(unsigned char)c >> 4));
+      if(return_value_READALL_4 == -1)
         return -1;
 
       else
@@ -3457,22 +3457,22 @@ char * STRDUP(const char *str)
   char *ret;
   if(str == ((const char *)NULL))
   {
-    char *return_value_gettext$1;
-    return_value_gettext$1=gettext("FATAL: STRDUP called with str NULL!\n");
-    fprintf(stderr, return_value_gettext$1);
+    char *return_value_gettext_1;
+    return_value_gettext_1=gettext("FATAL: STRDUP called with str NULL!\n");
+    fprintf(stderr, return_value_gettext_1);
     abort();
   }
 
   ret=strdup(str);
   if(ret == ((char *)NULL))
   {
-    char *return_value_gettext$2;
-    return_value_gettext$2=gettext("FATAL: %s\n");
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fprintf(stderr, return_value_gettext$2, return_value_strerror$4);
+    char *return_value_gettext_2;
+    return_value_gettext_2=gettext("FATAL: %s\n");
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fprintf(stderr, return_value_gettext_2, return_value_strerror_4);
     abort();
   }
 
@@ -3481,10 +3481,10 @@ char * STRDUP(const char *str)
 
 // WRITEALL
 // file tree.c line 340
-static void WRITEALL(struct anonymous$0 *bio, const void *buf, unsigned long long int len)
+static void WRITEALL(struct anonymous_0 *bio, const void *buf, unsigned long long int len)
 {
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(len >= 4097ul)
   {
     flush_buffer(bio);
@@ -3495,16 +3495,16 @@ static void WRITEALL(struct anonymous$0 *bio, const void *buf, unsigned long lon
   else
   {
     if(!(bio->off >= bio->bstart))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = bio->off != bio->bstart + bio->dirty ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = bio->off != bio->bstart + bio->dirty ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = bio->off + len > bio->bstart + (unsigned long int)4096 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = bio->off + len > bio->bstart + (unsigned long int)4096 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       flush_buffer(bio);
       bio->bsize = len;
@@ -3522,7 +3522,7 @@ static void WRITEALL(struct anonymous$0 *bio, const void *buf, unsigned long lon
 
 // WRITEUINT
 // file tree.c line 577
-static void WRITEUINT(struct anonymous$0 *fd, unsigned int val)
+static void WRITEUINT(struct anonymous_0 *fd, unsigned int val)
 {
   signed char c;
   signed char d;
@@ -3540,7 +3540,7 @@ static void WRITEUINT(struct anonymous$0 *fd, unsigned int val)
 
 // WRITEUINTPAIR
 // file tree.c line 519
-static void WRITEUINTPAIR(struct anonymous$0 *fd, unsigned int val1, unsigned int val2)
+static void WRITEUINTPAIR(struct anonymous_0 *fd, unsigned int val1, unsigned int val2)
 {
   unsigned char c;
   signed char d;
@@ -3566,7 +3566,7 @@ static void WRITEUINTPAIR(struct anonymous$0 *fd, unsigned int val1, unsigned in
 
 // WRITEULONG
 // file tree.c line 596
-static void WRITEULONG(struct anonymous$0 *fd, unsigned long long int val)
+static void WRITEULONG(struct anonymous_0 *fd, unsigned long long int val)
 {
   signed char c;
   signed char d;
@@ -3584,7 +3584,7 @@ static void WRITEULONG(struct anonymous$0 *fd, unsigned long long int val)
 
 // WRITEULONGFULL
 // file tree.c line 615
-static void WRITEULONGFULL(struct anonymous$0 *fd, unsigned long long int val)
+static void WRITEULONGFULL(struct anonymous_0 *fd, unsigned long long int val)
 {
   unsigned int d;
   unsigned int e;
@@ -3601,7 +3601,7 @@ static void WRITEULONGFULL(struct anonymous$0 *fd, unsigned long long int val)
 
 // WRITEULONGPAIR
 // file tree.c line 548
-static void WRITEULONGPAIR(struct anonymous$0 *fd, unsigned long long int val1, unsigned long long int val2)
+static void WRITEULONGPAIR(struct anonymous_0 *fd, unsigned long long int val1, unsigned long long int val2)
 {
   unsigned char c;
   signed char d;
@@ -3631,7 +3631,7 @@ static signed int accumulator(void *cls, const char *plugin_name, enum EXTRACTOR
 {
   struct AccuCtx *ac = (struct AccuCtx *)cls;
   unsigned int nsize;
-  unsigned int tmp_post$3;
+  unsigned int tmp_post_3;
   if(!((signed int)format == EXTRACTOR_METAFORMAT_UTF8) && !((signed int)format == EXTRACTOR_METAFORMAT_C_STRING))
     return 0;
 
@@ -3640,19 +3640,19 @@ static signed int accumulator(void *cls, const char *plugin_name, enum EXTRACTOR
     if(ac->size == ac->count)
     {
       nsize = (unsigned int)4 + (unsigned int)2 * ac->size;
-      void *return_value_realloc$1;
-      return_value_realloc$1=realloc((void *)ac->types, (unsigned long int)nsize * sizeof(enum EXTRACTOR_MetaType) /*4ul*/ );
-      ac->types = (enum EXTRACTOR_MetaType *)return_value_realloc$1;
-      void *return_value_realloc$2;
-      return_value_realloc$2=realloc((void *)ac->keywords, (unsigned long int)nsize * sizeof(char *) /*8ul*/ );
-      ac->keywords = (char **)return_value_realloc$2;
+      void *return_value_realloc_1;
+      return_value_realloc_1=realloc((void *)ac->types, (unsigned long int)nsize * sizeof(enum EXTRACTOR_MetaType) /*4ul*/ );
+      ac->types = (enum EXTRACTOR_MetaType *)return_value_realloc_1;
+      void *return_value_realloc_2;
+      return_value_realloc_2=realloc((void *)ac->keywords, (unsigned long int)nsize * sizeof(char *) /*8ul*/ );
+      ac->keywords = (char **)return_value_realloc_2;
       ac->size = nsize;
     }
 
     ac->types[(signed long int)ac->count] = type;
-    tmp_post$3 = ac->count;
+    tmp_post_3 = ac->count;
     ac->count = ac->count + 1u;
-    ac->keywords[(signed long int)tmp_post$3]=strdup(data);
+    ac->keywords[(signed long int)tmp_post_3]=strdup(data);
     return 0;
   }
 }
@@ -3663,7 +3663,7 @@ static signed int build(const char *libraries, const char *dbName, unsigned long
 {
   signed int i;
   unsigned int ret;
-  struct anonymous$17 cls;
+  struct anonymous_17 cls;
   char *ename;
   struct _IO_FILE *logfile;
   struct PTHREAD_T workerThread;
@@ -3673,18 +3673,18 @@ static signed int build(const char *libraries, const char *dbName, unsigned long
   cls.deferredCount = (unsigned int)0;
   cls.deferredTruncations = (char **)(void *)0;
   logfile = (struct _IO_FILE *)(void *)0;
-  char *return_value_gettext$1;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  char *return_value_gettext_1;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   if(!(log == ((const char *)NULL)))
   {
     logfile=fopen(log, "w+");
     if(logfile == ((struct _IO_FILE *)NULL))
     {
-      return_value_gettext$1=gettext("Could not open '%s' for logging: %s.\n");
-      return_value___errno_location$2=__errno_location();
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      my_log((void *)stderr, (unsigned int)0, return_value_gettext$1, log, return_value_strerror$3);
+      return_value_gettext_1=gettext("Could not open '%s' for logging: %s.\n");
+      return_value___errno_location_2=__errno_location();
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      my_log((void *)stderr, (unsigned int)0, return_value_gettext_1, log, return_value_strerror_3);
     }
 
   }
@@ -3693,21 +3693,21 @@ static signed int build(const char *libraries, const char *dbName, unsigned long
   cls.log = my_log;
   if(dbName == ((const char *)NULL))
   {
-    char *return_value_gettext$4;
-    return_value_gettext$4=gettext("No database specified.  Aborting.\n");
-    my_log((void *)logfile, (unsigned int)0, return_value_gettext$4);
+    char *return_value_gettext_4;
+    return_value_gettext_4=gettext("No database specified.  Aborting.\n");
+    my_log((void *)logfile, (unsigned int)0, return_value_gettext_4);
     return -1;
   }
 
-  unsigned long int return_value_strlen$5;
-  return_value_strlen$5=strlen(dbName);
-  i = (signed int)return_value_strlen$5;
+  unsigned long int return_value_strlen_5;
+  return_value_strlen_5=strlen(dbName);
+  i = (signed int)return_value_strlen_5;
   for( ; i >= 0; i = i - 1)
     if((signed int)dbName[(signed long int)i] == 58)
     {
-      char *return_value_gettext$6;
-      return_value_gettext$6=gettext("'%s' is an invalid database filename (has a colon) for building database (option '%s').\n");
-      my_log((void *)logfile, (unsigned int)0, return_value_gettext$6, dbName, (const void *)"-b");
+      char *return_value_gettext_6;
+      return_value_gettext_6=gettext("'%s' is an invalid database filename (has a colon) for building database (option '%s').\n");
+      my_log((void *)logfile, (unsigned int)0, return_value_gettext_6, dbName, (const void *)"-b");
       return -1;
     }
 
@@ -3737,13 +3737,13 @@ static signed int build(const char *libraries, const char *dbName, unsigned long
 
       else
       {
-        signed int return_value_FAMOpen2$8;
-        return_value_FAMOpen2$8=FAMOpen2(&cls.fc, "doodled");
-        if(!(return_value_FAMOpen2$8 == 0))
+        signed int return_value_FAMOpen2_8;
+        return_value_FAMOpen2_8=FAMOpen2(&cls.fc, "doodled");
+        if(!(return_value_FAMOpen2_8 == 0))
         {
-          char *return_value_gettext$7;
-          return_value_gettext$7=gettext("Failed to connect to fam.  Aborting.\n");
-          my_log((void *)logfile, (unsigned int)0, return_value_gettext$7);
+          char *return_value_gettext_7;
+          return_value_gettext_7=gettext("Failed to connect to fam.  Aborting.\n");
+          my_log((void *)logfile, (unsigned int)0, return_value_gettext_7);
           DOODLE_tree_destroy(cls.tree);
           return -1;
         }
@@ -3757,17 +3757,17 @@ static signed int build(const char *libraries, const char *dbName, unsigned long
         xgrow_((void **)&cls.frNames, sizeof(char *) /*8ul*/ , &ret, (unsigned int)128, "doodled.c", 647);
         ret = (unsigned int)0;
         create_mutex_(&cls.lock);
-        signed int return_value_PTHREAD_CREATE$12;
-        return_value_PTHREAD_CREATE$12=PTHREAD_CREATE(&workerThread, worker, (void *)&cls, (unsigned long int)(64 * 1024));
-        if(!(return_value_PTHREAD_CREATE$12 == 0))
+        signed int return_value_PTHREAD_CREATE_12;
+        return_value_PTHREAD_CREATE_12=PTHREAD_CREATE(&workerThread, worker, (void *)&cls, (unsigned long int)(64 * 1024));
+        if(!(return_value_PTHREAD_CREATE_12 == 0))
         {
-          char *return_value_gettext$9;
-          return_value_gettext$9=gettext("Failed to create worker thread: %s");
-          signed int *return_value___errno_location$10;
-          return_value___errno_location$10=__errno_location();
-          char *return_value_strerror$11;
-          return_value_strerror$11=strerror(*return_value___errno_location$10);
-          my_log((void *)logfile, (unsigned int)0, return_value_gettext$9, return_value_strerror$11);
+          char *return_value_gettext_9;
+          return_value_gettext_9=gettext("Failed to create worker thread: %s");
+          signed int *return_value___errno_location_10;
+          return_value___errno_location_10=__errno_location();
+          char *return_value_strerror_11;
+          return_value_strerror_11=strerror(*return_value___errno_location_10);
+          my_log((void *)logfile, (unsigned int)0, return_value_gettext_9, return_value_strerror_11);
           ret = (unsigned int)-1;
         }
 
@@ -3779,23 +3779,23 @@ static signed int build(const char *libraries, const char *dbName, unsigned long
           PTHREAD_JOIN(&workerThread, &unused);
         }
         destroy_mutex_(&cls.lock);
-        char *return_value_gettext$13;
-        return_value_gettext$13=gettext("doodled is shutting down.\n");
-        my_log((void *)logfile, (unsigned int)1, return_value_gettext$13);
+        char *return_value_gettext_13;
+        return_value_gettext_13=gettext("doodled is shutting down.\n");
+        my_log((void *)logfile, (unsigned int)1, return_value_gettext_13);
         if(cls.frPos == 0u)
         {
-          char *return_value_gettext$14;
-          return_value_gettext$14=gettext("No files exist that doodled would monitor for changes.  Exiting.\n");
-          my_log((void *)logfile, (unsigned int)0, return_value_gettext$14);
+          char *return_value_gettext_14;
+          return_value_gettext_14=gettext("No files exist that doodled would monitor for changes.  Exiting.\n");
+          my_log((void *)logfile, (unsigned int)0, return_value_gettext_14);
         }
 
         i = 0;
         for( ; !((unsigned int)i >= cls.frSize); i = i + 1)
           if(!(cls.frNames[(signed long int)i] == ((char *)NULL)))
           {
-            char *return_value_gettext$15;
-            return_value_gettext$15=gettext("Cancelling fam monitor '%s'.\n");
-            my_log((void *)logfile, (unsigned int)1, return_value_gettext$15, cls.frNames[(signed long int)i]);
+            char *return_value_gettext_15;
+            return_value_gettext_15=gettext("Cancelling fam monitor '%s'.\n");
+            my_log((void *)logfile, (unsigned int)1, return_value_gettext_15, cls.frNames[(signed long int)i]);
             free((void *)cls.frNames[(signed long int)i]);
           }
 
@@ -3807,9 +3807,9 @@ static signed int build(const char *libraries, const char *dbName, unsigned long
         xgrow_((void **)&cls.fr, sizeof(struct FAMRequest) /*4ul*/ , &cls.frSize, (unsigned int)0, "doodled.c", 697);
         cls.frSize = (unsigned int)i;
         xgrow_((void **)&cls.frNames, sizeof(char *) /*8ul*/ , &cls.frSize, (unsigned int)0, "doodled.c", 701);
-        char *return_value_gettext$16;
-        return_value_gettext$16=gettext("Unloading libextractor plugins.\n");
-        my_log((void *)logfile, (unsigned int)1, return_value_gettext$16);
+        char *return_value_gettext_16;
+        return_value_gettext_16=gettext("Unloading libextractor plugins.\n");
+        my_log((void *)logfile, (unsigned int)1, return_value_gettext_16);
         joinExtractor(cls.elist);
         free((void *)ename);
         if(!(logfile == ((struct _IO_FILE *)NULL)))
@@ -3831,13 +3831,13 @@ signed int buildIndex(struct EXTRACT_Process *eproc, struct _IO_FILE *logFile, c
   pos = head;
   while(!(pos == ((struct KeywordList *)NULL)))
   {
-    char *buildIndex$$1$$1$$cpos;
+    char *buildIndex__1__1__cpos;
     unsigned long int slen;
-    buildIndex$$1$$1$$cpos = pos->keyword;
+    buildIndex__1__1__cpos = pos->keyword;
     if(!(logFile == ((struct _IO_FILE *)NULL)))
-      fprintf(logFile, "%s\n", buildIndex$$1$$1$$cpos);
+      fprintf(logFile, "%s\n", buildIndex__1__1__cpos);
 
-    slen=strlen(buildIndex$$1$$1$$cpos);
+    slen=strlen(buildIndex__1__1__cpos);
     if(slen >= 129ul)
     {
       char section[129l];
@@ -3847,13 +3847,13 @@ signed int buildIndex(struct EXTRACT_Process *eproc, struct _IO_FILE *logFile, c
       j = 0;
       for( ; !((unsigned long int)j >= slen); j = j + 128 / 2)
       {
-        strncpy(section, &buildIndex$$1$$1$$cpos[(signed long int)j], (unsigned long int)128);
+        strncpy(section, &buildIndex__1__1__cpos[(signed long int)j], (unsigned long int)128);
         xpos = &section[(signed long int)0];
         while(!((signed int)*xpos == 0))
         {
-          signed int return_value_DOODLE_tree_expand$1;
-          return_value_DOODLE_tree_expand$1=DOODLE_tree_expand(tree, xpos, filename);
-          if(!(return_value_DOODLE_tree_expand$1 == 0))
+          signed int return_value_DOODLE_tree_expand_1;
+          return_value_DOODLE_tree_expand_1=DOODLE_tree_expand(tree, xpos, filename);
+          if(!(return_value_DOODLE_tree_expand_1 == 0))
           {
             freeKeywords(head);
             return 0;
@@ -3865,17 +3865,17 @@ signed int buildIndex(struct EXTRACT_Process *eproc, struct _IO_FILE *logFile, c
     }
 
     else
-      while(!((signed int)*buildIndex$$1$$1$$cpos == 0))
+      while(!((signed int)*buildIndex__1__1__cpos == 0))
       {
-        signed int return_value_DOODLE_tree_expand$2;
-        return_value_DOODLE_tree_expand$2=DOODLE_tree_expand(tree, buildIndex$$1$$1$$cpos, filename);
-        if(!(return_value_DOODLE_tree_expand$2 == 0))
+        signed int return_value_DOODLE_tree_expand_2;
+        return_value_DOODLE_tree_expand_2=DOODLE_tree_expand(tree, buildIndex__1__1__cpos, filename);
+        if(!(return_value_DOODLE_tree_expand_2 == 0))
         {
           freeKeywords(head);
           return 0;
         }
 
-        buildIndex$$1$$1$$cpos = buildIndex$$1$$1$$cpos + 1l;
+        buildIndex__1__1__cpos = buildIndex__1__1__cpos + 1l;
       }
     pos = pos->next;
   }
@@ -3885,9 +3885,9 @@ signed int buildIndex(struct EXTRACT_Process *eproc, struct _IO_FILE *logFile, c
     const char *cpos = filename;
     while(!((signed int)*cpos == 0))
     {
-      signed int return_value_DOODLE_tree_expand$3;
-      return_value_DOODLE_tree_expand$3=DOODLE_tree_expand(tree, cpos, filename);
-      if(!(return_value_DOODLE_tree_expand$3 == 0))
+      signed int return_value_DOODLE_tree_expand_3;
+      return_value_DOODLE_tree_expand_3=DOODLE_tree_expand(tree, cpos, filename);
+      if(!(return_value_DOODLE_tree_expand_3 == 0))
         return 0;
 
       cpos = cpos + 1l;
@@ -3901,19 +3901,19 @@ signed int buildIndex(struct EXTRACT_Process *eproc, struct _IO_FILE *logFile, c
 // file semaphore.h line 165
 void create_mutex_(struct Mutex *mutex)
 {
-  union anonymous$4 attr;
-  union anonymous$5 *mut;
+  union anonymous_4 attr;
+  union anonymous_5 *mut;
   pthread_mutexattr_init(&attr);
   pthread_mutexattr_setkind_np(&attr, 2);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(union anonymous$5) /*40ul*/ );
-  mut = (union anonymous$5 *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(union anonymous_5) /*40ul*/ );
+  mut = (union anonymous_5 *)return_value_malloc_1;
   mutex->internal = (void *)mut;
   do
   {
-    signed int return_value_pthread_mutex_init$2;
-    return_value_pthread_mutex_init$2=pthread_mutex_init(mut, &attr);
-    if(!(return_value_pthread_mutex_init$2 == 0))
+    signed int return_value_pthread_mutex_init_2;
+    return_value_pthread_mutex_init_2=pthread_mutex_init(mut, &attr);
+    if(!(return_value_pthread_mutex_init_2 == 0))
       abort();
 
   }
@@ -3924,27 +3924,27 @@ void create_mutex_(struct Mutex *mutex)
 // file semaphore.c line 153
 void create_recursive_mutex_(struct Mutex *mutex)
 {
-  union anonymous$4 attr;
-  union anonymous$5 *mut;
+  union anonymous_4 attr;
+  union anonymous_5 *mut;
   pthread_mutexattr_init(&attr);
   do
   {
-    signed int return_value_pthread_mutexattr_setkind_np$1;
-    return_value_pthread_mutexattr_setkind_np$1=pthread_mutexattr_setkind_np(&attr, 1);
-    if(!(return_value_pthread_mutexattr_setkind_np$1 == 0))
+    signed int return_value_pthread_mutexattr_setkind_np_1;
+    return_value_pthread_mutexattr_setkind_np_1=pthread_mutexattr_setkind_np(&attr, 1);
+    if(!(return_value_pthread_mutexattr_setkind_np_1 == 0))
       abort();
 
   }
   while((_Bool)0);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(union anonymous$5) /*40ul*/ );
-  mut = (union anonymous$5 *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(union anonymous_5) /*40ul*/ );
+  mut = (union anonymous_5 *)return_value_malloc_2;
   mutex->internal = (void *)mut;
   do
   {
-    signed int return_value_pthread_mutex_init$3;
-    return_value_pthread_mutex_init$3=pthread_mutex_init(mut, &attr);
-    if(!(return_value_pthread_mutex_init$3 == 0))
+    signed int return_value_pthread_mutex_init_3;
+    return_value_pthread_mutex_init_3=pthread_mutex_init(mut, &attr);
+    if(!(return_value_pthread_mutex_init_3 == 0))
       abort();
 
   }
@@ -3955,21 +3955,21 @@ void create_recursive_mutex_(struct Mutex *mutex)
 // file semaphore.h line 168
 void destroy_mutex_(struct Mutex *mutex)
 {
-  union anonymous$5 *mut = (union anonymous$5 *)mutex->internal;
-  if(mut == ((union anonymous$5 *)NULL))
+  union anonymous_5 *mut = (union anonymous_5 *)mutex->internal;
+  if(mut == ((union anonymous_5 *)NULL))
     abort();
 
   else
   {
     mutex->internal = (void *)0;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 0;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 0;
     do
     {
-      signed int return_value_pthread_mutex_destroy$2;
-      return_value_pthread_mutex_destroy$2=pthread_mutex_destroy(mut);
-      if(!(return_value_pthread_mutex_destroy$2 == 0))
+      signed int return_value_pthread_mutex_destroy_2;
+      return_value_pthread_mutex_destroy_2=pthread_mutex_destroy(mut);
+      if(!(return_value_pthread_mutex_destroy_2 == 0))
         abort();
 
     }
@@ -3984,9 +3984,9 @@ static void detachFromTerminal(signed int *filedes)
 {
   signed int pid;
   signed int nullfd;
-  signed int return_value_chdir$1;
-  return_value_chdir$1=chdir("/");
-  if(!(return_value_chdir$1 >= 0))
+  signed int return_value_chdir_1;
+  return_value_chdir_1=chdir("/");
+  if(!(return_value_chdir_1 >= 0))
   {
     perror("chdir");
     exit(1);
@@ -4000,7 +4000,7 @@ static void detachFromTerminal(signed int *filedes)
     exit(1);
   }
 
-  signed long int return_value_read$2;
+  signed long int return_value_read_2;
   if(!(pid == 0))
   {
     signed int ok;
@@ -4009,8 +4009,8 @@ static void detachFromTerminal(signed int *filedes)
     ok = -1;
     do
     {
-      return_value_read$2=read(filedes[(signed long int)0], (void *)&c, sizeof(char) /*1ul*/ );
-      if(!(return_value_read$2 >= 1l))
+      return_value_read_2=read(filedes[(signed long int)0], (void *)&c, sizeof(char) /*1ul*/ );
+      if(!(return_value_read_2 >= 1l))
         break;
 
       if((signed int)c == 46)
@@ -4034,29 +4034,29 @@ static void detachFromTerminal(signed int *filedes)
     exit(1);
   }
 
-  signed int return_value_dup2$3;
-  return_value_dup2$3=dup2(nullfd, 0);
-  _Bool tmp_if_expr$5;
-  signed int return_value_dup2$4;
-  if(!(return_value_dup2$3 >= 0))
-    tmp_if_expr$5 = (_Bool)1;
+  signed int return_value_dup2_3;
+  return_value_dup2_3=dup2(nullfd, 0);
+  _Bool tmp_if_expr_5;
+  signed int return_value_dup2_4;
+  if(!(return_value_dup2_3 >= 0))
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_dup2$4=dup2(nullfd, 1);
-    tmp_if_expr$5 = return_value_dup2$4 < 0 ? (_Bool)1 : (_Bool)0;
+    return_value_dup2_4=dup2(nullfd, 1);
+    tmp_if_expr_5 = return_value_dup2_4 < 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed int return_value_dup2$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed int return_value_dup2_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_dup2$6=dup2(nullfd, 2);
-    tmp_if_expr$7 = return_value_dup2$6 < 0 ? (_Bool)1 : (_Bool)0;
+    return_value_dup2_6=dup2(nullfd, 2);
+    tmp_if_expr_7 = return_value_dup2_6 < 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$7)
+  if(tmp_if_expr_7)
   {
     perror("dup2");
     exit(1);
@@ -4087,60 +4087,60 @@ static signed int do_fork(struct EXTRACT_Process *proc)
   struct EXTRACTOR_PluginList *list;
   char *filename;
   struct AccuCtx acc_ctx;
-  signed int return_value_pipe$4;
-  return_value_pipe$4=pipe(filedes1);
-  if(!(return_value_pipe$4 == 0))
+  signed int return_value_pipe_4;
+  return_value_pipe_4=pipe(filedes1);
+  if(!(return_value_pipe_4 == 0))
   {
-    char *return_value_gettext$1;
-    return_value_gettext$1=gettext("Call to '%s' failed: %s\n");
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    proc->my_log(proc->log_ctx, (unsigned int)0, return_value_gettext$1, (const void *)"pipe", return_value_strerror$3);
+    char *return_value_gettext_1;
+    return_value_gettext_1=gettext("Call to '%s' failed: %s\n");
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    proc->my_log(proc->log_ctx, (unsigned int)0, return_value_gettext_1, (const void *)"pipe", return_value_strerror_3);
     return 1;
   }
 
-  signed int return_value_pipe$8;
-  return_value_pipe$8=pipe(filedes2);
-  if(!(return_value_pipe$8 == 0))
+  signed int return_value_pipe_8;
+  return_value_pipe_8=pipe(filedes2);
+  if(!(return_value_pipe_8 == 0))
   {
-    char *return_value_gettext$5;
-    return_value_gettext$5=gettext("Call to '%s' failed: %s\n");
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    char *return_value_strerror$7;
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    proc->my_log(proc->log_ctx, (unsigned int)0, return_value_gettext$5, (const void *)"pipe", return_value_strerror$7);
+    char *return_value_gettext_5;
+    return_value_gettext_5=gettext("Call to '%s' failed: %s\n");
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    char *return_value_strerror_7;
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    proc->my_log(proc->log_ctx, (unsigned int)0, return_value_gettext_5, (const void *)"pipe", return_value_strerror_7);
     close(filedes1[(signed long int)0]);
     close(filedes1[(signed long int)1]);
     return 1;
   }
 
-  char *return_value_gettext$9;
+  char *return_value_gettext_9;
   if(!(proc->do_default == 0))
   {
-    return_value_gettext$9=gettext("Loading default set of libextractor plugins.\n");
-    proc->my_log(proc->log_ctx, (unsigned int)2, return_value_gettext$9);
+    return_value_gettext_9=gettext("Loading default set of libextractor plugins.\n");
+    proc->my_log(proc->log_ctx, (unsigned int)2, return_value_gettext_9);
   }
 
-  char *return_value_gettext$10;
+  char *return_value_gettext_10;
   if(!(proc->libs == ((char *)NULL)))
   {
-    return_value_gettext$10=gettext("Loading libextractor plugins: '%s'\n");
-    proc->my_log(proc->log_ctx, (unsigned int)2, return_value_gettext$10, proc->libs);
+    return_value_gettext_10=gettext("Loading libextractor plugins: '%s'\n");
+    proc->my_log(proc->log_ctx, (unsigned int)2, return_value_gettext_10, proc->libs);
   }
 
   proc->pid=fork();
   if(proc->pid == -1)
   {
-    char *return_value_gettext$11;
-    return_value_gettext$11=gettext("Call to '%s' failed: %s\n");
-    signed int *return_value___errno_location$12;
-    return_value___errno_location$12=__errno_location();
-    char *return_value_strerror$13;
-    return_value_strerror$13=strerror(*return_value___errno_location$12);
-    proc->my_log(proc->log_ctx, (unsigned int)0, return_value_gettext$11, (const void *)"fork", return_value_strerror$13);
+    char *return_value_gettext_11;
+    return_value_gettext_11=gettext("Call to '%s' failed: %s\n");
+    signed int *return_value___errno_location_12;
+    return_value___errno_location_12=__errno_location();
+    char *return_value_strerror_13;
+    return_value_strerror_13=strerror(*return_value___errno_location_12);
+    proc->my_log(proc->log_ctx, (unsigned int)0, return_value_gettext_11, (const void *)"fork", return_value_strerror_13);
     close(filedes1[(signed long int)0]);
     close(filedes1[(signed long int)1]);
     close(filedes2[(signed long int)0]);
@@ -4148,7 +4148,7 @@ static signed int do_fork(struct EXTRACT_Process *proc)
     return 1;
   }
 
-  unsigned int tmp_post$16;
+  unsigned int tmp_post_16;
   if(!(proc->pid == 0))
   {
     close(filedes1[(signed long int)1]);
@@ -4175,9 +4175,9 @@ static signed int do_fork(struct EXTRACT_Process *proc)
     while(!(ret == 0l) && !(ret == -1l))
     {
       pos = pos + (unsigned long int)ret;
-      unsigned long int return_value_strlen$14;
-      return_value_strlen$14=strlen(buffer);
-      slen = return_value_strlen$14 + (unsigned long int)1;
+      unsigned long int return_value_strlen_14;
+      return_value_strlen_14=strlen(buffer);
+      slen = return_value_strlen_14 + (unsigned long int)1;
       if(pos >= slen)
       {
         filename=strdup(buffer);
@@ -4188,35 +4188,35 @@ static signed int do_fork(struct EXTRACT_Process *proc)
         acc_ctx.keywords = (char **)(void *)0;
         acc_ctx.types = (enum EXTRACTOR_MetaType *)(void *)0;
         EXTRACTOR_extract(list, filename, (void *)0, (unsigned long int)0, accumulator, (void *)&acc_ctx);
-        signed long int return_value_write$15;
-        return_value_write$15=write(filedes1[(signed long int)1], (const void *)&acc_ctx.count, sizeof(unsigned int) /*4ul*/ );
-        if(!((unsigned long int)return_value_write$15 == sizeof(unsigned int) /*4ul*/ ))
+        signed long int return_value_write_15;
+        return_value_write_15=write(filedes1[(signed long int)1], (const void *)&acc_ctx.count, sizeof(unsigned int) /*4ul*/ );
+        if(!((unsigned long int)return_value_write_15 == sizeof(unsigned int) /*4ul*/ ))
           break;
 
         do
         {
-          tmp_post$16 = acc_ctx.count;
+          tmp_post_16 = acc_ctx.count;
           acc_ctx.count = acc_ctx.count - 1u;
-          if(tmp_post$16 == 0u)
+          if(tmp_post_16 == 0u)
             break;
 
-          signed long int return_value_write$17;
-          return_value_write$17=write(filedes1[(signed long int)1], (const void *)&acc_ctx.types[(signed long int)acc_ctx.count], sizeof(enum EXTRACTOR_MetaType) /*4ul*/ );
-          if(!((unsigned long int)return_value_write$17 == sizeof(enum EXTRACTOR_MetaType) /*4ul*/ ))
+          signed long int return_value_write_17;
+          return_value_write_17=write(filedes1[(signed long int)1], (const void *)&acc_ctx.types[(signed long int)acc_ctx.count], sizeof(enum EXTRACTOR_MetaType) /*4ul*/ );
+          if(!((unsigned long int)return_value_write_17 == sizeof(enum EXTRACTOR_MetaType) /*4ul*/ ))
             goto ERROR;
 
           slen=strlen(acc_ctx.keywords[(signed long int)acc_ctx.count]);
           if(slen >= 16777217ul)
             slen = (unsigned long int)(16 * 1024 * 1024);
 
-          signed long int return_value_write$18;
-          return_value_write$18=write(filedes1[(signed long int)1], (const void *)&slen, sizeof(unsigned long int) /*8ul*/ );
-          if(!((unsigned long int)return_value_write$18 == sizeof(unsigned long int) /*8ul*/ ))
+          signed long int return_value_write_18;
+          return_value_write_18=write(filedes1[(signed long int)1], (const void *)&slen, sizeof(unsigned long int) /*8ul*/ );
+          if(!((unsigned long int)return_value_write_18 == sizeof(unsigned long int) /*8ul*/ ))
             goto ERROR;
 
-          signed long int return_value_write$19;
-          return_value_write$19=write(filedes1[(signed long int)1], (const void *)acc_ctx.keywords[(signed long int)acc_ctx.count], slen);
-          if(!(slen == (unsigned long int)return_value_write$19))
+          signed long int return_value_write_19;
+          return_value_write_19=write(filedes1[(signed long int)1], (const void *)acc_ctx.keywords[(signed long int)acc_ctx.count], slen);
+          if(!(slen == (unsigned long int)return_value_write_19))
             goto ERROR;
 
           free((void *)acc_ctx.keywords[(signed long int)acc_ctx.count]);
@@ -4246,24 +4246,24 @@ static signed int do_fork(struct EXTRACT_Process *proc)
 
 // do_index
 // file doodled.c line 280
-static signed int do_index(const char *filename, struct anonymous$17 *dic)
+static signed int do_index(const char *filename, struct anonymous_17 *dic)
 {
   signed int i;
   signed int j;
   signed int k;
   struct stat sbuf;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(dic->ename);
-  signed int return_value_strncmp$2;
-  return_value_strncmp$2=strncmp(filename, dic->ename, return_value_strlen$1);
-  if(return_value_strncmp$2 == 0)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(dic->ename);
+  signed int return_value_strncmp_2;
+  return_value_strncmp_2=strncmp(filename, dic->ename, return_value_strlen_1);
+  if(return_value_strncmp_2 == 0)
     return 0;
 
   else
   {
-    signed int return_value_isPruned$3;
-    return_value_isPruned$3=isPruned(filename);
-    if(!(return_value_isPruned$3 == 0))
+    signed int return_value_isPruned_3;
+    return_value_isPruned_3=isPruned(filename);
+    if(!(return_value_isPruned_3 == 0))
       return 0;
 
     else
@@ -4271,9 +4271,9 @@ static signed int do_index(const char *filename, struct anonymous$17 *dic)
       i = (signed int)(dic->deferredCount - (unsigned int)1);
       for( ; i >= 0; i = i - 1)
       {
-        signed int return_value_strcmp$4;
-        return_value_strcmp$4=strcmp(filename, dic->deferredTruncations[(signed long int)i]);
-        if(return_value_strcmp$4 == 0)
+        signed int return_value_strcmp_4;
+        return_value_strcmp_4=strcmp(filename, dic->deferredTruncations[(signed long int)i]);
+        if(return_value_strcmp_4 == 0)
         {
           free((void *)dic->deferredTruncations[(signed long int)i]);
           dic->deferredTruncations[(signed long int)i] = dic->deferredTruncations[(signed long int)(dic->deferredCount - (unsigned int)1)];
@@ -4282,16 +4282,16 @@ static signed int do_index(const char *filename, struct anonymous$17 *dic)
 
       }
       j = -1;
-      unsigned int return_value_DOODLE_getFileCount$5;
-      return_value_DOODLE_getFileCount$5=DOODLE_getFileCount(dic->tree);
-      i = (signed int)(return_value_DOODLE_getFileCount$5 - (unsigned int)1);
+      unsigned int return_value_DOODLE_getFileCount_5;
+      return_value_DOODLE_getFileCount_5=DOODLE_getFileCount(dic->tree);
+      i = (signed int)(return_value_DOODLE_getFileCount_5 - (unsigned int)1);
       for( ; i >= 0; i = i - 1)
       {
-        const struct anonymous *return_value_DOODLE_getFileAt$6;
-        return_value_DOODLE_getFileAt$6=DOODLE_getFileAt(dic->tree, (unsigned int)i);
-        signed int return_value_strcmp$7;
-        return_value_strcmp$7=strcmp(filename, return_value_DOODLE_getFileAt$6->filename);
-        if(return_value_strcmp$7 == 0)
+        const struct anonymous *return_value_DOODLE_getFileAt_6;
+        return_value_DOODLE_getFileAt_6=DOODLE_getFileAt(dic->tree, (unsigned int)i);
+        signed int return_value_strcmp_7;
+        return_value_strcmp_7=strcmp(filename, return_value_DOODLE_getFileAt_6->filename);
+        if(return_value_strcmp_7 == 0)
         {
           j = i;
           break;
@@ -4302,26 +4302,26 @@ static signed int do_index(const char *filename, struct anonymous$17 *dic)
       i = 0;
       for( ; !((unsigned int)i >= dic->frPos); i = i + 1)
       {
-        signed int return_value_strcmp$8;
-        return_value_strcmp$8=strcmp(filename, dic->frNames[(signed long int)i]);
-        if(return_value_strcmp$8 == 0)
+        signed int return_value_strcmp_8;
+        return_value_strcmp_8=strcmp(filename, dic->frNames[(signed long int)i]);
+        if(return_value_strcmp_8 == 0)
         {
           k = i;
           break;
         }
 
       }
-      signed int return_value_lstat$14;
-      return_value_lstat$14=lstat(filename, &sbuf);
-      if(!(return_value_lstat$14 == 0))
+      signed int return_value_lstat_14;
+      return_value_lstat_14=lstat(filename, &sbuf);
+      if(!(return_value_lstat_14 == 0))
       {
-        char *return_value_gettext$9;
-        return_value_gettext$9=gettext("Call to '%s' for file '%s' failed: %s\n");
-        signed int *return_value___errno_location$10;
-        return_value___errno_location$10=__errno_location();
-        char *return_value_strerror$11;
-        return_value_strerror$11=strerror(*return_value___errno_location$10);
-        dic->log(dic->logContext, (unsigned int)2, return_value_gettext$9, (const void *)"stat", filename, return_value_strerror$11);
+        char *return_value_gettext_9;
+        return_value_gettext_9=gettext("Call to '%s' for file '%s' failed: %s\n");
+        signed int *return_value___errno_location_10;
+        return_value___errno_location_10=__errno_location();
+        char *return_value_strerror_11;
+        return_value_strerror_11=strerror(*return_value___errno_location_10);
+        dic->log(dic->logContext, (unsigned int)2, return_value_gettext_9, (const void *)"stat", filename, return_value_strerror_11);
         if(!(j == -1))
         {
           xgrow_((void **)&dic->deferredTruncations, sizeof(char *) /*8ul*/ , &dic->deferredCount, dic->deferredCount + (unsigned int)1, "doodled.c", 336);
@@ -4330,13 +4330,13 @@ static signed int do_index(const char *filename, struct anonymous$17 *dic)
 
         if(!(k == -1))
         {
-          signed int return_value_FAMCancelMonitor$13;
-          return_value_FAMCancelMonitor$13=FAMCancelMonitor(&dic->fc, &dic->fr[(signed long int)k]);
-          if(return_value_FAMCancelMonitor$13 == -1)
+          signed int return_value_FAMCancelMonitor_13;
+          return_value_FAMCancelMonitor_13=FAMCancelMonitor(&dic->fc, &dic->fr[(signed long int)k]);
+          if(return_value_FAMCancelMonitor_13 == -1)
           {
-            char *return_value_gettext$12;
-            return_value_gettext$12=gettext("Call to '%s' for file '%s' failed: %s\n");
-            dic->log(dic->logContext, (unsigned int)0, return_value_gettext$12, (const void *)"FAMCancelMonitor", filename, FamErrlist[(signed long int)FAMErrno]);
+            char *return_value_gettext_12;
+            return_value_gettext_12=gettext("Call to '%s' for file '%s' failed: %s\n");
+            dic->log(dic->logContext, (unsigned int)0, return_value_gettext_12, (const void *)"FAMCancelMonitor", filename, FamErrlist[(signed long int)FAMErrno]);
           }
 
           free((void *)dic->frNames[(signed long int)k]);
@@ -4359,13 +4359,13 @@ static signed int do_index(const char *filename, struct anonymous$17 *dic)
           xgrow_((void **)&dic->frNames, sizeof(char *) /*8ul*/ , &s, s * (unsigned int)2, "doodled.c", 375);
         }
 
-        char *return_value_gettext$15;
-        return_value_gettext$15=gettext("Will monitor directory '%s' for changes.\n");
-        dic->log(dic->logContext, (unsigned int)2, return_value_gettext$15, filename);
+        char *return_value_gettext_15;
+        return_value_gettext_15=gettext("Will monitor directory '%s' for changes.\n");
+        dic->log(dic->logContext, (unsigned int)2, return_value_gettext_15, filename);
         fn=STRDUP(filename);
-        signed int return_value_FAMMonitorDirectory$17;
-        return_value_FAMMonitorDirectory$17=FAMMonitorDirectory(&dic->fc, filename, &dic->fr[(signed long int)dic->frPos], (void *)fn);
-        if(return_value_FAMMonitorDirectory$17 == 0)
+        signed int return_value_FAMMonitorDirectory_17;
+        return_value_FAMMonitorDirectory_17=FAMMonitorDirectory(&dic->fc, filename, &dic->fr[(signed long int)dic->frPos], (void *)fn);
+        if(return_value_FAMMonitorDirectory_17 == 0)
         {
           dic->frNames[(signed long int)dic->frPos] = fn;
           dic->frPos = dic->frPos + 1u;
@@ -4373,18 +4373,18 @@ static signed int do_index(const char *filename, struct anonymous$17 *dic)
 
         else
         {
-          char *return_value_gettext$16;
-          return_value_gettext$16=gettext("Call to '%s' for file '%s' failed: %s\n");
-          dic->log(dic->logContext, (unsigned int)0, return_value_gettext$16, (const void *)"FAMMonitorDirectory", filename, FamErrlist[(signed long int)FAMErrno]);
+          char *return_value_gettext_16;
+          return_value_gettext_16=gettext("Call to '%s' for file '%s' failed: %s\n");
+          dic->log(dic->logContext, (unsigned int)0, return_value_gettext_16, (const void *)"FAMMonitorDirectory", filename, FamErrlist[(signed long int)FAMErrno]);
           free((void *)fn);
         }
       }
 
       if(!(j == -1))
       {
-        const struct anonymous *return_value_DOODLE_getFileAt$18;
-        return_value_DOODLE_getFileAt$18=DOODLE_getFileAt(dic->tree, (unsigned int)j);
-        if(return_value_DOODLE_getFileAt$18->mod_time == (unsigned int)sbuf.st_mtim.tv_sec)
+        const struct anonymous *return_value_DOODLE_getFileAt_18;
+        return_value_DOODLE_getFileAt_18=DOODLE_getFileAt(dic->tree, (unsigned int)j);
+        if(return_value_DOODLE_getFileAt_18->mod_time == (unsigned int)sbuf.st_mtim.tv_sec)
           return 0;
 
         else
@@ -4401,12 +4401,12 @@ static signed int do_index(const char *filename, struct anonymous$17 *dic)
 
       if((61440u & sbuf.st_mode) == 32768u)
       {
-        char *return_value_gettext$19;
-        return_value_gettext$19=gettext("Processing file '%s'.\n");
-        dic->log(dic->logContext, (unsigned int)2, return_value_gettext$19, filename);
-        signed int return_value_buildIndex$20;
-        return_value_buildIndex$20=buildIndex(dic->elist, (struct _IO_FILE *)(void *)0, filename, dic->tree, do_filenames);
-        return return_value_buildIndex$20;
+        char *return_value_gettext_19;
+        return_value_gettext_19=gettext("Processing file '%s'.\n");
+        dic->log(dic->logContext, (unsigned int)2, return_value_gettext_19, filename);
+        signed int return_value_buildIndex_20;
+        return_value_buildIndex_20=buildIndex(dic->elist, (struct _IO_FILE *)(void *)0, filename, dic->tree, do_filenames);
+        return return_value_buildIndex_20;
       }
 
       return 0;
@@ -4468,16 +4468,16 @@ char * expandFileName(const char *fil)
   {
     if((signed int)*fil == 47)
     {
-      char *return_value_STRDUP$1;
-      return_value_STRDUP$1=STRDUP(fil);
-      return return_value_STRDUP$1;
+      char *return_value_STRDUP_1;
+      return_value_STRDUP_1=STRDUP(fil);
+      return return_value_STRDUP_1;
     }
 
     if((signed int)*fil == 126)
     {
       fm=getenv("HOME");
       if(fm == ((char *)NULL))
-        fm = "$HOME";
+        fm = "_HOME";
 
       fil_ptr = fil + (signed long int)1;
       if((signed int)*fil_ptr == 47)
@@ -4488,21 +4488,21 @@ char * expandFileName(const char *fil)
     else
     {
       fil_ptr = fil;
-      char *return_value_getcwd$2;
-      return_value_getcwd$2=getcwd(buffer, (unsigned long int)512);
-      if(!(return_value_getcwd$2 == ((char *)NULL)))
+      char *return_value_getcwd_2;
+      return_value_getcwd_2=getcwd(buffer, (unsigned long int)512);
+      if(!(return_value_getcwd_2 == ((char *)NULL)))
         fm = buffer;
 
       else
-        fm = "$PWD";
+        fm = "_PWD";
     }
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(fm);
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(fil_ptr);
-    void *return_value_MALLOC$5;
-    return_value_MALLOC$5=MALLOC(return_value_strlen$3 + (unsigned long int)1 + return_value_strlen$4 + (unsigned long int)1);
-    fn = (char *)return_value_MALLOC$5;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(fm);
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(fil_ptr);
+    void *return_value_MALLOC_5;
+    return_value_MALLOC_5=MALLOC(return_value_strlen_3 + (unsigned long int)1 + return_value_strlen_4 + (unsigned long int)1);
+    fn = (char *)return_value_MALLOC_5;
     sprintf(fn, "%s/%s", fm, fil_ptr);
     return fn;
   }
@@ -4510,7 +4510,7 @@ char * expandFileName(const char *fil)
 
 // flush_buffer
 // file tree.c line 257
-static void flush_buffer(struct anonymous$0 *bio)
+static void flush_buffer(struct anonymous_0 *bio)
 {
   if(!(bio->dirty == 0ull))
   {
@@ -4525,9 +4525,9 @@ static void flush_buffer(struct anonymous$0 *bio)
 struct EXTRACT_Process * forkExtractor(signed int do_default, const char *libraries, void (*logger)(void *, unsigned int, const char *, ...), void *log_ct)
 {
   struct EXTRACT_Process *ret;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct EXTRACT_Process) /*40ul*/ );
-  ret = (struct EXTRACT_Process *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct EXTRACT_Process) /*40ul*/ );
+  ret = (struct EXTRACT_Process *)return_value_malloc_1;
   if(!(libraries == ((const char *)NULL)))
     ret->libs=strdup(libraries);
 
@@ -4544,7 +4544,7 @@ struct EXTRACT_Process * forkExtractor(signed int do_default, const char *librar
 
 // formatHelp
 // file helper2.h line 55
-void formatHelp(const char *general, const char *description, const struct anonymous$1 *opt)
+void formatHelp(const char *general, const char *description, const struct anonymous_1 *opt)
 {
   signed int slen;
   signed int i;
@@ -4553,16 +4553,16 @@ void formatHelp(const char *general, const char *description, const struct anony
   signed int p;
   char *scp;
   const char *trans;
-  char *return_value_gettext$1;
-  return_value_gettext$1=gettext("Usage: %s\n%s\n\n");
-  char *return_value_gettext$2;
-  return_value_gettext$2=gettext(general);
-  char *return_value_gettext$3;
-  return_value_gettext$3=gettext(description);
-  printf(return_value_gettext$1, return_value_gettext$2, return_value_gettext$3);
-  char *return_value_gettext$4;
-  return_value_gettext$4=gettext("Arguments mandatory for long options are also mandatory for short options.\n");
-  printf(return_value_gettext$4);
+  char *return_value_gettext_1;
+  return_value_gettext_1=gettext("Usage: %s\n%s\n\n");
+  char *return_value_gettext_2;
+  return_value_gettext_2=gettext(general);
+  char *return_value_gettext_3;
+  return_value_gettext_3=gettext(description);
+  printf(return_value_gettext_1, return_value_gettext_2, return_value_gettext_3);
+  char *return_value_gettext_4;
+  return_value_gettext_4=gettext("Arguments mandatory for long options are also mandatory for short options.\n");
+  printf(return_value_gettext_4);
   slen = 0;
   i = 0;
   while(!((opt + (signed long int)i)->description == ((char *)NULL)))
@@ -4573,15 +4573,15 @@ void formatHelp(const char *general, const char *description, const struct anony
     else
       printf("  -%c, ", (opt + (signed long int)i)->shortArg);
     printf("--%s", (opt + (signed long int)i)->longArg);
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen((opt + (signed long int)i)->longArg);
-    slen = (signed int)((unsigned long int)8 + return_value_strlen$5);
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen((opt + (signed long int)i)->longArg);
+    slen = (signed int)((unsigned long int)8 + return_value_strlen_5);
     if(!((opt + (signed long int)i)->mandatoryArg == ((char *)NULL)))
     {
       printf("=%s", (opt + (signed long int)i)->mandatoryArg);
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen((opt + (signed long int)i)->mandatoryArg);
-      slen = slen + (signed int)((unsigned long int)1 + return_value_strlen$6);
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen((opt + (signed long int)i)->mandatoryArg);
+      slen = slen + (signed int)((unsigned long int)1 + return_value_strlen_6);
     }
 
     if(slen >= 30)
@@ -4597,9 +4597,9 @@ void formatHelp(const char *general, const char *description, const struct anony
     }
 
     trans=gettext((opt + (signed long int)i)->description);
-    unsigned long int return_value_strlen$7;
-    return_value_strlen$7=strlen(trans);
-    ml = (signed int)return_value_strlen$7;
+    unsigned long int return_value_strlen_7;
+    return_value_strlen_7=strlen(trans);
+    ml = (signed int)return_value_strlen_7;
     p = 0;
 
   OUTER:
@@ -4609,13 +4609,13 @@ void formatHelp(const char *general, const char *description, const struct anony
       j = (p + 78) - slen;
       for( ; !(p >= j); j = j - 1)
       {
-        const unsigned short int **return_value___ctype_b_loc$9;
-        return_value___ctype_b_loc$9=__ctype_b_loc();
-        if(!((8192 & (signed int)(*return_value___ctype_b_loc$9)[(signed long int)(signed int)trans[(signed long int)j]]) == 0))
+        const unsigned short int **return_value___ctype_b_loc_9;
+        return_value___ctype_b_loc_9=__ctype_b_loc();
+        if(!((8192 & (signed int)(*return_value___ctype_b_loc_9)[(signed long int)(signed int)trans[(signed long int)j]]) == 0))
         {
-          void *return_value_MALLOC$8;
-          return_value_MALLOC$8=MALLOC((unsigned long int)((j - p) + 1));
-          scp = (char *)return_value_MALLOC$8;
+          void *return_value_MALLOC_8;
+          return_value_MALLOC_8=MALLOC((unsigned long int)((j - p) + 1));
+          scp = (char *)return_value_MALLOC_8;
           memcpy((void *)scp, (const void *)&trans[(signed long int)p], (unsigned long int)(j - p));
           scp[(signed long int)(j - p)] = (char)0;
           printf("%s\n%*s", scp, 29 + 2, (const void *)"");
@@ -4626,9 +4626,9 @@ void formatHelp(const char *general, const char *description, const struct anony
         }
 
       }
-      void *return_value_MALLOC$10;
-      return_value_MALLOC$10=MALLOC((unsigned long int)((78 - slen) + 1));
-      scp = (char *)return_value_MALLOC$10;
+      void *return_value_MALLOC_10;
+      return_value_MALLOC_10=MALLOC((unsigned long int)((78 - slen) + 1));
+      scp = (char *)return_value_MALLOC_10;
       memcpy((void *)scp, (const void *)&trans[(signed long int)p], (unsigned long int)(78 - slen));
       scp[(signed long int)(78 - slen)] = (char)0;
       printf("%s\n%*s", scp, 29 + 2, (const void *)"");
@@ -4697,13 +4697,13 @@ static struct KeywordList * getKeywords(struct EXTRACT_Process *eproc, const cha
   unsigned int count;
   unsigned long int slen;
   signed int status;
-  signed int return_value_do_fork$1;
-  signed int return_value_do_read$5;
-  unsigned int tmp_post$6;
+  signed int return_value_do_fork_1;
+  signed int return_value_do_read_5;
+  unsigned int tmp_post_6;
   if(eproc->pid == -1)
   {
-    return_value_do_fork$1=do_fork(eproc);
-    if(return_value_do_fork$1 == 0)
+    return_value_do_fork_1=do_fork(eproc);
+    if(return_value_do_fork_1 == 0)
       goto __CPROVER_DUMP_L1;
 
     return (struct KeywordList *)(void *)0;
@@ -4723,36 +4723,36 @@ static struct KeywordList * getKeywords(struct EXTRACT_Process *eproc, const cha
       head = (struct KeywordList *)(void *)0;
       pos = (struct KeywordList *)(void *)0;
       next = (struct KeywordList *)(void *)0;
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(filename);
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(filename);
-      signed long int return_value_write$4;
-      return_value_write$4=write(eproc->send_pipe, (const void *)filename, return_value_strlen$3 + (unsigned long int)1);
-      if(1ul + return_value_strlen$2 == (unsigned long int)return_value_write$4)
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(filename);
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(filename);
+      signed long int return_value_write_4;
+      return_value_write_4=write(eproc->send_pipe, (const void *)filename, return_value_strlen_3 + (unsigned long int)1);
+      if(1ul + return_value_strlen_2 == (unsigned long int)return_value_write_4)
       {
-        return_value_do_read$5=do_read(eproc->read_pipe, (void *)&count, sizeof(unsigned int) /*4ul*/ );
-        if(!(return_value_do_read$5 == 0))
+        return_value_do_read_5=do_read(eproc->read_pipe, (void *)&count, sizeof(unsigned int) /*4ul*/ );
+        if(!(return_value_do_read_5 == 0))
           goto ERROR;
 
         do
         {
-          tmp_post$6 = count;
+          tmp_post_6 = count;
           count = count - 1u;
-          if(!(tmp_post$6 >= 1u))
+          if(!(tmp_post_6 >= 1u))
             break;
 
-          void *return_value_malloc$7;
-          return_value_malloc$7=malloc(sizeof(struct KeywordList) /*24ul*/ );
-          next = (struct KeywordList *)return_value_malloc$7;
-          signed int return_value_do_read$8;
-          return_value_do_read$8=do_read(eproc->read_pipe, (void *)&next->keywordType, sizeof(enum EXTRACTOR_MetaType) /*4ul*/ );
-          if(!(return_value_do_read$8 == 0))
+          void *return_value_malloc_7;
+          return_value_malloc_7=malloc(sizeof(struct KeywordList) /*24ul*/ );
+          next = (struct KeywordList *)return_value_malloc_7;
+          signed int return_value_do_read_8;
+          return_value_do_read_8=do_read(eproc->read_pipe, (void *)&next->keywordType, sizeof(enum EXTRACTOR_MetaType) /*4ul*/ );
+          if(!(return_value_do_read_8 == 0))
             goto ERROR;
 
-          signed int return_value_do_read$9;
-          return_value_do_read$9=do_read(eproc->read_pipe, (void *)&slen, sizeof(unsigned long int) /*8ul*/ );
-          if(!(return_value_do_read$9 == 0))
+          signed int return_value_do_read_9;
+          return_value_do_read_9=do_read(eproc->read_pipe, (void *)&slen, sizeof(unsigned long int) /*8ul*/ );
+          if(!(return_value_do_read_9 == 0))
             goto ERROR;
 
           if(slen == 0ul)
@@ -4780,13 +4780,13 @@ static struct KeywordList * getKeywords(struct EXTRACT_Process *eproc, const cha
               pos = pos->next;
             }
             pos->next = (struct KeywordList *)(void *)0;
-            void *return_value_malloc$10;
-            return_value_malloc$10=malloc(slen + (unsigned long int)1);
-            pos->keyword = (char *)return_value_malloc$10;
+            void *return_value_malloc_10;
+            return_value_malloc_10=malloc(slen + (unsigned long int)1);
+            pos->keyword = (char *)return_value_malloc_10;
             pos->keyword[(signed long int)slen] = (char)0;
-            signed int return_value_do_read$11;
-            return_value_do_read$11=do_read(eproc->read_pipe, (void *)pos->keyword, slen);
-            if(!(return_value_do_read$11 == 0))
+            signed int return_value_do_read_11;
+            return_value_do_read_11=do_read(eproc->read_pipe, (void *)pos->keyword, slen);
+            if(!(return_value_do_read_11 == 0))
               goto ERROR;
 
           }
@@ -4850,9 +4850,9 @@ static signed int isPruned(const char *filename)
 {
   signed int i;
   signed int last;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(prunepaths);
-  i = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(prunepaths);
+  i = (signed int)return_value_strlen_1;
   last = i;
   while(i >= 1)
   {
@@ -4860,9 +4860,9 @@ static signed int isPruned(const char *filename)
       if(!(i >= 0))
         break;
 
-    signed int return_value_strncmp$2;
-    return_value_strncmp$2=strncmp(&prunepaths[(signed long int)(i + 1)], filename, (unsigned long int)(last - (i + 1)));
-    if(return_value_strncmp$2 == 0)
+    signed int return_value_strncmp_2;
+    return_value_strncmp_2=strncmp(&prunepaths[(signed long int)(i + 1)], filename, (unsigned long int)(last - (i + 1)));
+    if(return_value_strncmp_2 == 0)
       return 1;
 
     last = i;
@@ -4905,34 +4905,34 @@ static struct DOODLE_Node * lazyReadNode(struct DOODLE_SuffixTree *tree, unsigne
   unsigned char c_length;
   unsigned char mls_size;
   signed int mls;
-  _Bool tmp_if_expr$9;
-  unsigned long int return_value_strlen$8;
-  _Bool tmp_if_expr$15;
+  _Bool tmp_if_expr_9;
+  unsigned long int return_value_strlen_8;
+  _Bool tmp_if_expr_15;
   if(off == 0ul)
     return (struct DOODLE_Node *)(void *)0;
 
   else
   {
     LSEEK(tree->fd, off, 0);
-    signed int return_value_READALL$1;
-    return_value_READALL$1=READALL(tree->fd, (void *)&c_length, sizeof(signed char) /*1ul*/ );
-    if(return_value_READALL$1 == -1)
+    signed int return_value_READALL_1;
+    return_value_READALL_1=READALL(tree->fd, (void *)&c_length, sizeof(signed char) /*1ul*/ );
+    if(return_value_READALL_1 == -1)
       return (struct DOODLE_Node *)(void *)0;
 
     else
     {
       if((signed int)c_length == 0)
       {
-        signed int return_value_READALL$2;
-        return_value_READALL$2=READALL(tree->fd, (void *)&mls_size, sizeof(signed char) /*1ul*/ );
-        if(return_value_READALL$2 == -1)
+        signed int return_value_READALL_2;
+        return_value_READALL_2=READALL(tree->fd, (void *)&mls_size, sizeof(signed char) /*1ul*/ );
+        if(return_value_READALL_2 == -1)
           return (struct DOODLE_Node *)(void *)0;
 
         if((signed int)mls_size == 0)
         {
-          char *return_value_gettext$3;
-          return_value_gettext$3=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
-          tree->log(tree->context, (unsigned int)0, return_value_gettext$3, (const void *)"tree.c", 1120);
+          char *return_value_gettext_3;
+          return_value_gettext_3=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
+          tree->log(tree->context, (unsigned int)0, return_value_gettext_3, (const void *)"tree.c", 1120);
           return (struct DOODLE_Node *)(void *)0;
         }
 
@@ -4940,9 +4940,9 @@ static struct DOODLE_Node * lazyReadNode(struct DOODLE_SuffixTree *tree, unsigne
 
       else
         mls_size = (unsigned char)1;
-      void *return_value_MALLOC$4;
-      return_value_MALLOC$4=MALLOC(sizeof(struct DOODLE_Node) /*80ul*/  * (unsigned long int)mls_size);
-      ret = (struct DOODLE_Node *)return_value_MALLOC$4;
+      void *return_value_MALLOC_4;
+      return_value_MALLOC_4=MALLOC(sizeof(struct DOODLE_Node) /*80ul*/  * (unsigned long int)mls_size);
+      ret = (struct DOODLE_Node *)return_value_MALLOC_4;
       (ret + (signed long int)0)->pos = off;
       mls = 0;
       for( ; !(mls >= (signed int)mls_size); mls = mls + 1)
@@ -4961,9 +4961,9 @@ static struct DOODLE_Node * lazyReadNode(struct DOODLE_SuffixTree *tree, unsigne
           char c;
           if(mls == 0)
           {
-            signed int return_value_READALL$5;
-            return_value_READALL$5=READALL(tree->fd, (void *)&c, sizeof(unsigned char) /*1ul*/ );
-            if(return_value_READALL$5 == -1)
+            signed int return_value_READALL_5;
+            return_value_READALL_5=READALL(tree->fd, (void *)&c, sizeof(unsigned char) /*1ul*/ );
+            if(return_value_READALL_5 == -1)
               goto ERROR_ABORT;
 
           }
@@ -4978,24 +4978,24 @@ static struct DOODLE_Node * lazyReadNode(struct DOODLE_SuffixTree *tree, unsigne
         {
           unsigned int cix;
           unsigned int ciy;
-          signed int return_value_READUINTPAIR$6;
-          return_value_READUINTPAIR$6=READUINTPAIR(tree->fd, &cix, &ciy);
-          if(return_value_READUINTPAIR$6 == -1)
+          signed int return_value_READUINTPAIR_6;
+          return_value_READUINTPAIR_6=READUINTPAIR(tree->fd, &cix, &ciy);
+          if(return_value_READUINTPAIR_6 == -1)
             goto ERROR_ABORT;
 
           if(cix >= tree->cisLen)
-            tmp_if_expr$9 = (_Bool)1;
+            tmp_if_expr_9 = (_Bool)1;
 
           else
           {
-            return_value_strlen$8=strlen(tree->cis[(signed long int)cix]);
-            tmp_if_expr$9 = (unsigned long int)ciy >= return_value_strlen$8 ? (_Bool)1 : (_Bool)0;
+            return_value_strlen_8=strlen(tree->cis[(signed long int)cix]);
+            tmp_if_expr_9 = (unsigned long int)ciy >= return_value_strlen_8 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$9)
+          if(tmp_if_expr_9)
           {
-            char *return_value_gettext$7;
-            return_value_gettext$7=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
-            tree->log(tree->context, (unsigned int)0, return_value_gettext$7, (const void *)"tree.c", 1161);
+            char *return_value_gettext_7;
+            return_value_gettext_7=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
+            tree->log(tree->context, (unsigned int)0, return_value_gettext_7, (const void *)"tree.c", 1161);
           }
 
           (ret + (signed long int)mls)->c = &tree->cis[(signed long int)cix][(signed long int)ciy];
@@ -5003,16 +5003,16 @@ static struct DOODLE_Node * lazyReadNode(struct DOODLE_SuffixTree *tree, unsigne
         }
         if(mls == (signed int)mls_size + -1)
         {
-          signed int return_value_READULONGPAIR$10;
-          return_value_READULONGPAIR$10=READULONGPAIR(tree->fd, &off_link, &off_child);
-          if(return_value_READULONGPAIR$10 == -1)
+          signed int return_value_READULONGPAIR_10;
+          return_value_READULONGPAIR_10=READULONGPAIR(tree->fd, &off_link, &off_child);
+          if(return_value_READULONGPAIR_10 == -1)
             goto ERROR_ABORT;
 
           if(!(off >= off_child) || !(off >= off_link))
           {
-            char *return_value_gettext$11;
-            return_value_gettext$11=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
-            tree->log(tree->context, (unsigned int)0, return_value_gettext$11, (const void *)"tree.c", 1182);
+            char *return_value_gettext_11;
+            return_value_gettext_11=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
+            tree->log(tree->context, (unsigned int)0, return_value_gettext_11, (const void *)"tree.c", 1182);
           }
 
           if(!(off_link == 0ul))
@@ -5026,16 +5026,16 @@ static struct DOODLE_Node * lazyReadNode(struct DOODLE_SuffixTree *tree, unsigne
         else
         {
           off_link = (unsigned long long int)0;
-          signed int return_value_READULONG$12;
-          return_value_READULONG$12=READULONG(tree->fd, &off_child);
-          if(return_value_READULONG$12 == -1)
+          signed int return_value_READULONG_12;
+          return_value_READULONG_12=READULONG(tree->fd, &off_child);
+          if(return_value_READULONG_12 == -1)
             goto ERROR_ABORT;
 
           if(!(off >= off_child))
           {
-            char *return_value_gettext$13;
-            return_value_gettext$13=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
-            tree->log(tree->context, (unsigned int)0, return_value_gettext$13, (const void *)"tree.c", 1201);
+            char *return_value_gettext_13;
+            return_value_gettext_13=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
+            tree->log(tree->context, (unsigned int)0, return_value_gettext_13, (const void *)"tree.c", 1201);
           }
 
           off_child = off - off_child;
@@ -5043,20 +5043,20 @@ static struct DOODLE_Node * lazyReadNode(struct DOODLE_SuffixTree *tree, unsigne
         (ret + (signed long int)mls)->link_off = off_link;
         (ret + (signed long int)mls)->next_off = off_child;
         if(!(tree->fd->fsize >= (ret + (signed long int)mls)->link_off))
-          tmp_if_expr$15 = (_Bool)1;
+          tmp_if_expr_15 = (_Bool)1;
 
         else
-          tmp_if_expr$15 = (ret + (signed long int)mls)->next_off > tree->fd->fsize ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$15)
+          tmp_if_expr_15 = (ret + (signed long int)mls)->next_off > tree->fd->fsize ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_15)
         {
-          char *return_value_gettext$14;
-          return_value_gettext$14=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
-          tree->log(tree->context, (unsigned int)0, return_value_gettext$14, (const void *)"tree.c", 1214);
+          char *return_value_gettext_14;
+          return_value_gettext_14=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
+          tree->log(tree->context, (unsigned int)0, return_value_gettext_14, (const void *)"tree.c", 1214);
         }
 
-        signed int return_value_READUINT$16;
-        return_value_READUINT$16=READUINT(tree->fd, &(ret + (signed long int)mls)->matchCount);
-        if(return_value_READUINT$16 == -1)
+        signed int return_value_READUINT_16;
+        return_value_READUINT_16=READUINT(tree->fd, &(ret + (signed long int)mls)->matchCount);
+        if(return_value_READUINT_16 == -1)
           goto ERROR_ABORT;
 
         if((ret + (signed long int)mls)->matchCount == 0u)
@@ -5064,31 +5064,31 @@ static struct DOODLE_Node * lazyReadNode(struct DOODLE_SuffixTree *tree, unsigne
 
         else
         {
-          void *return_value_MALLOC$17;
-          return_value_MALLOC$17=MALLOC((unsigned long int)(ret + (signed long int)mls)->matchCount * sizeof(unsigned int) /*4ul*/ );
-          (ret + (signed long int)mls)->matches = (unsigned int *)return_value_MALLOC$17;
+          void *return_value_MALLOC_17;
+          return_value_MALLOC_17=MALLOC((unsigned long int)(ret + (signed long int)mls)->matchCount * sizeof(unsigned int) /*4ul*/ );
+          (ret + (signed long int)mls)->matches = (unsigned int *)return_value_MALLOC_17;
           i = (signed int)((ret + (signed long int)mls)->matchCount / (unsigned int)2 - (unsigned int)1);
           for( ; i >= 0; i = i - 1)
           {
             unsigned int idx1;
             unsigned int idx2;
-            signed int return_value_READUINTPAIR$18;
-            return_value_READUINTPAIR$18=READUINTPAIR(tree->fd, &idx1, &idx2);
-            if(return_value_READUINTPAIR$18 == -1)
+            signed int return_value_READUINTPAIR_18;
+            return_value_READUINTPAIR_18=READUINTPAIR(tree->fd, &idx1, &idx2);
+            if(return_value_READUINTPAIR_18 == -1)
               goto ERROR_ABORT;
 
             if(idx1 >= tree->fnc)
             {
-              char *return_value_gettext$19;
-              return_value_gettext$19=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
-              tree->log(tree->context, (unsigned int)0, return_value_gettext$19, (const void *)"tree.c", 1236);
+              char *return_value_gettext_19;
+              return_value_gettext_19=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
+              tree->log(tree->context, (unsigned int)0, return_value_gettext_19, (const void *)"tree.c", 1236);
             }
 
             if(idx2 >= tree->fnc)
             {
-              char *return_value_gettext$20;
-              return_value_gettext$20=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
-              tree->log(tree->context, (unsigned int)0, return_value_gettext$20, (const void *)"tree.c", 1243);
+              char *return_value_gettext_20;
+              return_value_gettext_20=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
+              tree->log(tree->context, (unsigned int)0, return_value_gettext_20, (const void *)"tree.c", 1243);
             }
 
             (ret + (signed long int)mls)->matches[(signed long int)(i * 2 + 1)] = idx1;
@@ -5097,16 +5097,16 @@ static struct DOODLE_Node * lazyReadNode(struct DOODLE_SuffixTree *tree, unsigne
           if((1u & (ret + (signed long int)mls)->matchCount) == 1u)
           {
             unsigned int idx;
-            signed int return_value_READUINT$21;
-            return_value_READUINT$21=READUINT(tree->fd, &idx);
-            if(return_value_READUINT$21 == -1)
+            signed int return_value_READUINT_21;
+            return_value_READUINT_21=READUINT(tree->fd, &idx);
+            if(return_value_READUINT_21 == -1)
               goto ERROR_ABORT;
 
             if(idx >= tree->fnc)
             {
-              char *return_value_gettext$22;
-              return_value_gettext$22=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
-              tree->log(tree->context, (unsigned int)0, return_value_gettext$22, (const void *)"tree.c", 1257);
+              char *return_value_gettext_22;
+              return_value_gettext_22=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
+              tree->log(tree->context, (unsigned int)0, return_value_gettext_22, (const void *)"tree.c", 1257);
             }
 
             (ret + (signed long int)mls)->matches[(signed long int)((ret + (signed long int)mls)->matchCount - (unsigned int)1)] = idx;
@@ -5208,9 +5208,9 @@ signed int main(signed int argc, char **argv)
   if(!(tmp == ((char *)NULL)))
     prunepaths = tmp;
 
-  signed int return_value_sscanf$2;
-  char *return_value_gettext$4;
-  char *return_value_gettext$5;
+  signed int return_value_sscanf_2;
+  char *return_value_gettext_4;
+  char *return_value_gettext_5;
   while((_Bool)1)
   {
     option_index = 0;
@@ -5265,20 +5265,20 @@ signed int main(signed int argc, char **argv)
       }
       case 109:
       {
-        return_value_sscanf$2=sscanf(optarg, "%ud", &mem_limit);
-        if(!(return_value_sscanf$2 == 1))
+        return_value_sscanf_2=sscanf(optarg, "%ud", &mem_limit);
+        if(!(return_value_sscanf_2 == 1))
         {
-          char *return_value_gettext$1;
-          return_value_gettext$1=gettext("You must pass a number to the '%s' option.\n");
-          printf(return_value_gettext$1, (const void *)"-m");
+          char *return_value_gettext_1;
+          return_value_gettext_1=gettext("You must pass a number to the '%s' option.\n");
+          printf(return_value_gettext_1, (const void *)"-m");
           return -1;
         }
 
         if(mem_limit >= 4096ul)
         {
-          char *return_value_gettext$3;
-          return_value_gettext$3=gettext("Specified memory limit is too high.\n");
-          printf(return_value_gettext$3);
+          char *return_value_gettext_3;
+          return_value_gettext_3=gettext("Specified memory limit is too high.\n");
+          printf(return_value_gettext_3);
           return -1;
         }
 
@@ -5305,23 +5305,23 @@ signed int main(signed int argc, char **argv)
       }
       case 118:
       {
-        return_value_gettext$4=gettext("Version %s\n");
-        printf(return_value_gettext$4, (const void *)"0.7.0");
+        return_value_gettext_4=gettext("Version %s\n");
+        printf(return_value_gettext_4, (const void *)"0.7.0");
         return 0;
       }
       default:
       {
-        return_value_gettext$5=gettext("Use '--help' to get a list of options.\n");
-        fprintf(stderr, return_value_gettext$5);
+        return_value_gettext_5=gettext("Use '--help' to get a list of options.\n");
+        fprintf(stderr, return_value_gettext_5);
         return -1;
       }
     }
   }
   if(!(argc + -optind >= 1))
   {
-    char *return_value_gettext$6;
-    return_value_gettext$6=gettext("Invoke with filenames or directories to monitor!\n");
-    fprintf(stderr, return_value_gettext$6);
+    char *return_value_gettext_6;
+    return_value_gettext_6=gettext("Invoke with filenames or directories to monitor!\n");
+    fprintf(stderr, return_value_gettext_6);
     return -1;
   }
 
@@ -5360,10 +5360,10 @@ static void markModified(struct DOODLE_Node *pos)
 // file semaphore.h line 169
 void mutex_lock_(struct Mutex *mutex, const char *filename, const signed int line)
 {
-  union anonymous$5 *mut;
+  union anonymous_5 *mut;
   signed int ret;
-  mut = (union anonymous$5 *)mutex->internal;
-  if(mut == ((union anonymous$5 *)NULL))
+  mut = (union anonymous_5 *)mutex->internal;
+  if(mut == ((union anonymous_5 *)NULL))
     abort();
 
   else
@@ -5389,10 +5389,10 @@ void mutex_lock_(struct Mutex *mutex, const char *filename, const signed int lin
 // file semaphore.h line 172
 void mutex_unlock_(struct Mutex *mutex, const char *filename, const signed int line)
 {
-  union anonymous$5 *mut;
+  union anonymous_5 *mut;
   signed int ret;
-  mut = (union anonymous$5 *)mutex->internal;
-  if(mut == ((union anonymous$5 *)NULL))
+  mut = (union anonymous_5 *)mutex->internal;
+  if(mut == ((union anonymous_5 *)NULL))
     abort();
 
   else
@@ -5446,11 +5446,11 @@ static void my_log(void *ctx, unsigned int level, const char *msg, ...)
 // file doodled.c line 58
 static void printHelp()
 {
-  char *return_value_gettext$1;
-  return_value_gettext$1=gettext("doodled [OPTIONS] [FILENAMES]");
-  char *return_value_gettext$2;
-  return_value_gettext$2=gettext("Continuously index files in the background.");
-  static struct anonymous$1 help[12l] = { { .shortArg=(char)100, .longArg="database", .mandatoryArg="FILENAME",
+  char *return_value_gettext_1;
+  return_value_gettext_1=gettext("doodled [OPTIONS] [FILENAMES]");
+  char *return_value_gettext_2;
+  return_value_gettext_2=gettext("Continuously index files in the background.");
+  static struct anonymous_1 help[12l] = { { .shortArg=(char)100, .longArg="database", .mandatoryArg="FILENAME",
     .description="use location FILENAME to store doodle database" },
     { .shortArg=(char)68, .longArg="debug", .mandatoryArg=(char *)(void *)0, .description="run in debug mode, do not daemonize" },
     { .shortArg=(char)102, .longArg="filenames", .mandatoryArg=(char *)(void *)0,
@@ -5471,7 +5471,7 @@ static void printHelp()
     .description="be verbose" },
     { .shortArg=(char)0, .longArg=(char *)(void *)0, .mandatoryArg=(char *)(void *)0,
     .description=(char *)(void *)0 } };
-  formatHelp(return_value_gettext$1, return_value_gettext$2, help);
+  formatHelp(return_value_gettext_1, return_value_gettext_2, help);
 }
 
 // print_internal
@@ -5481,8 +5481,8 @@ static signed int print_internal(struct DOODLE_SuffixTree *tree, struct DOODLE_N
   signed int i;
   while((_Bool)0)
     ;
-  signed int return_value_loadChild$1;
-  signed int return_value_loadLink$2;
+  signed int return_value_loadChild_1;
+  signed int return_value_loadLink_2;
   while(!(node == ((struct DOODLE_Node *)NULL)))
   {
     fprintf(stream, "%*c%.*s:\n", ident, 32, (signed int)node->clength, node->c);
@@ -5493,8 +5493,8 @@ static signed int print_internal(struct DOODLE_SuffixTree *tree, struct DOODLE_N
     {
       if(!(node->next_off == 0ul))
       {
-        return_value_loadChild$1=loadChild(tree, node);
-        if(return_value_loadChild$1 == -1)
+        return_value_loadChild_1=loadChild(tree, node);
+        if(return_value_loadChild_1 == -1)
           return -1;
 
       }
@@ -5506,8 +5506,8 @@ static signed int print_internal(struct DOODLE_SuffixTree *tree, struct DOODLE_N
     {
       if(!(node->link_off == 0ul))
       {
-        return_value_loadLink$2=loadLink(tree, node);
-        if(return_value_loadLink$2 == -1)
+        return_value_loadLink_2=loadLink(tree, node);
+        if(return_value_loadLink_2 == -1)
           return -1;
 
       }
@@ -5523,98 +5523,98 @@ static signed int print_internal(struct DOODLE_SuffixTree *tree, struct DOODLE_N
 // file doodled.c line 175
 static void * processEvents(void *arg)
 {
-  struct anonymous$17 *cls = (struct anonymous$17 *)arg;
+  struct anonymous_17 *cls = (struct anonymous_17 *)arg;
   struct FAMEvent fe;
-  struct anonymous$18 r;
-  struct anonymous$18 w;
-  struct anonymous$18 e;
+  struct anonymous_18 r;
+  struct anonymous_18 w;
+  struct anonymous_18 e;
   signed int fd = cls->fc.fd;
   signed int i;
-  char *return_value_gettext$1;
-  return_value_gettext$1=gettext("Event processing thread created.\n");
-  cls->log(cls->logContext, (unsigned int)2, return_value_gettext$1);
-  signed int return_value_testShutdown$2;
-  return_value_testShutdown$2=testShutdown();
-  unsigned long int return_value_strlen$13;
-  if(return_value_testShutdown$2 == 0)
+  char *return_value_gettext_1;
+  return_value_gettext_1=gettext("Event processing thread created.\n");
+  cls->log(cls->logContext, (unsigned int)2, return_value_gettext_1);
+  signed int return_value_testShutdown_2;
+  return_value_testShutdown_2=testShutdown();
+  unsigned long int return_value_strlen_13;
+  if(return_value_testShutdown_2 == 0)
   {
     if(!(cls->continueRunning == 0))
     {
       char *name;
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$18) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&r)->fds_bits[(signed long int)0]) : "memory");
-      signed int processEvents$$1$$1$$2$$__d0;
-      signed int processEvents$$1$$1$$2$$__d1;
-      asm("cld; rep; stosq" : "=c"(processEvents$$1$$1$$2$$__d0), "=D"(processEvents$$1$$1$$2$$__d1) : "a"(0), "0"(sizeof(struct anonymous$18) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&w)->fds_bits[(signed long int)0]) : "memory");
-      signed int processEvents$$1$$1$$3$$__d0;
-      signed int processEvents$$1$$1$$3$$__d1;
-      asm("cld; rep; stosq" : "=c"(processEvents$$1$$1$$3$$__d0), "=D"(processEvents$$1$$1$$3$$__d1) : "a"(0), "0"(sizeof(struct anonymous$18) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&e)->fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_18) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&r)->fds_bits[(signed long int)0]) : "memory");
+      signed int processEvents__1__1__2____d0;
+      signed int processEvents__1__1__2____d1;
+      asm("cld; rep; stosq" : "=c"(processEvents__1__1__2____d0), "=D"(processEvents__1__1__2____d1) : "a"(0), "0"(sizeof(struct anonymous_18) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&w)->fds_bits[(signed long int)0]) : "memory");
+      signed int processEvents__1__1__3____d0;
+      signed int processEvents__1__1__3____d1;
+      asm("cld; rep; stosq" : "=c"(processEvents__1__1__3____d0), "=D"(processEvents__1__1__3____d1) : "a"(0), "0"(sizeof(struct anonymous_18) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&e)->fds_bits[(signed long int)0]) : "memory");
       (&r)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&r)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
       i=select(fd + 1, &r, &w, &e, (struct timeval *)(void *)0);
       if(i == -1)
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        char *return_value_gettext$4;
-        return_value_gettext$4=gettext("Call to '%s' failed: %s\n");
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        char *return_value_strerror$6;
-        return_value_strerror$6=strerror(*return_value___errno_location$5);
-        cls->log(cls->logContext, (unsigned int)0, return_value_gettext$4, (const void *)"select", return_value_strerror$6);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        char *return_value_gettext_4;
+        return_value_gettext_4=gettext("Call to '%s' failed: %s\n");
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        char *return_value_strerror_6;
+        return_value_strerror_6=strerror(*return_value___errno_location_5);
+        cls->log(cls->logContext, (unsigned int)0, return_value_gettext_4, (const void *)"select", return_value_strerror_6);
       }
 
       if(!((r.fds_bits[(signed long int)(fd / 8)] & (signed long int)(1UL << fd % 8)) == 0l))
       {
-        signed int return_value_FAMPending$7;
-        return_value_FAMPending$7=FAMPending(&cls->fc);
-        if(return_value_FAMPending$7 == 0)
+        signed int return_value_FAMPending_7;
+        return_value_FAMPending_7=FAMPending(&cls->fc);
+        if(return_value_FAMPending_7 == 0)
           sleep((unsigned int)1);
 
         else
         {
           mutex_lock_(&cls->lock, "doodled.c", 216);
-          signed int return_value_FAMNextEvent$9;
-          return_value_FAMNextEvent$9=FAMNextEvent(&cls->fc, &fe);
-          if(return_value_FAMNextEvent$9 == -1)
+          signed int return_value_FAMNextEvent_9;
+          return_value_FAMNextEvent_9=FAMNextEvent(&cls->fc, &fe);
+          if(return_value_FAMNextEvent_9 == -1)
           {
-            char *return_value_gettext$8;
-            return_value_gettext$8=gettext("Call to '%s' failed: %s\n");
-            cls->log(cls->logContext, (unsigned int)0, return_value_gettext$8, (const void *)"FAMNextEvent", FamErrlist[(signed long int)FAMErrno]);
+            char *return_value_gettext_8;
+            return_value_gettext_8=gettext("Call to '%s' failed: %s\n");
+            cls->log(cls->logContext, (unsigned int)0, return_value_gettext_8, (const void *)"FAMNextEvent", FamErrlist[(signed long int)FAMErrno]);
             sleep((unsigned int)1);
           }
 
-          unsigned long int return_value_strlen$10;
-          return_value_strlen$10=strlen(fe.filename);
-          unsigned long int return_value_strlen$11;
-          return_value_strlen$11=strlen((char *)fe.userdata);
-          void *return_value_malloc$12;
-          return_value_malloc$12=malloc(return_value_strlen$10 + return_value_strlen$11 + (unsigned long int)2);
-          name = (char *)return_value_malloc$12;
+          unsigned long int return_value_strlen_10;
+          return_value_strlen_10=strlen(fe.filename);
+          unsigned long int return_value_strlen_11;
+          return_value_strlen_11=strlen((char *)fe.userdata);
+          void *return_value_malloc_12;
+          return_value_malloc_12=malloc(return_value_strlen_10 + return_value_strlen_11 + (unsigned long int)2);
+          name = (char *)return_value_malloc_12;
           if((signed int)fe.filename[0l] == 47)
             strcpy(name, fe.filename);
 
           else
           {
             strcpy(name, (char *)fe.userdata);
-            unsigned long int return_value_strlen$14;
-            return_value_strlen$14=strlen((char *)fe.userdata);
-            if(return_value_strlen$14 >= 1ul)
+            unsigned long int return_value_strlen_14;
+            return_value_strlen_14=strlen((char *)fe.userdata);
+            if(return_value_strlen_14 >= 1ul)
             {
-              return_value_strlen$13=strlen((const char *)fe.userdata);
-              if(!((signed int)((char *)fe.userdata)[-1l + (signed long int)return_value_strlen$13] == 47))
+              return_value_strlen_13=strlen((const char *)fe.userdata);
+              if(!((signed int)((char *)fe.userdata)[-1l + (signed long int)return_value_strlen_13] == 47))
                 strcat(name, "/");
 
             }
 
             strcat(name, fe.filename);
           }
-          unsigned long int return_value_strlen$15;
-          return_value_strlen$15=strlen(cls->ename);
-          signed int return_value_strncmp$16;
-          return_value_strncmp$16=strncmp(name, cls->ename, return_value_strlen$15);
-          if(return_value_strncmp$16 == 0)
+          unsigned long int return_value_strlen_15;
+          return_value_strlen_15=strlen(cls->ename);
+          signed int return_value_strncmp_16;
+          return_value_strncmp_16=strncmp(name, cls->ename, return_value_strlen_15);
+          if(return_value_strncmp_16 == 0)
           {
             free((void *)name);
             mutex_unlock_(&cls->lock, "doodled.c", 242);
@@ -5651,16 +5651,16 @@ static void processShrink(struct DOODLE_SuffixTree *tree, struct DOODLE_Node **k
 {
   signed int mark;
   struct DOODLE_Node *next;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
   while(!(pos == ((struct DOODLE_Node *)NULL)))
   {
     *kept = *kept + 1u;
@@ -5677,42 +5677,42 @@ static void processShrink(struct DOODLE_SuffixTree *tree, struct DOODLE_Node **k
     }
 
     if((1 & mark) == 0)
-      tmp_if_expr$4 = pos->link != (struct DOODLE_Node *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = pos->link != (struct DOODLE_Node *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = (signed int)pos->link->mls_size == 1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = (signed int)pos->link->mls_size == 1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = (signed int)pos->mls_size == 1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = (signed int)pos->mls_size == 1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (_Bool)0;
+    if(tmp_if_expr_6)
     {
       if(tree->swapLimit >= pos->link->useCounter)
       {
         if(tree->read_only == 0)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = (signed int)pos->link->modified == 0 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)pos->link->modified == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
       {
         if(!(tree->force_dump == 0))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = (signed int)pos->link->modified != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (signed int)pos->link->modified != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
           pos->link_off=writeNode(tree->fd, tree, pos->link);
 
         freeNode(tree, pos->link);
@@ -5736,32 +5736,32 @@ static void processShrink(struct DOODLE_SuffixTree *tree, struct DOODLE_Node **k
       continue;
     }
     if((2 & mark) == 0)
-      tmp_if_expr$10 = pos->child != (struct DOODLE_Node *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_10 = pos->child != (struct DOODLE_Node *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$10 = (_Bool)0;
-    if(tmp_if_expr$10)
+      tmp_if_expr_10 = (_Bool)0;
+    if(tmp_if_expr_10)
     {
       if(tree->swapLimit >= pos->child->useCounter)
       {
         if(tree->read_only == 0)
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
-          tmp_if_expr$8 = (signed int)pos->child->modified == 0 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$9 = tmp_if_expr$8 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = (signed int)pos->child->modified == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_9 = tmp_if_expr_8 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$9 = (_Bool)0;
-      if(tmp_if_expr$9)
+        tmp_if_expr_9 = (_Bool)0;
+      if(tmp_if_expr_9)
       {
         if(!(tree->force_dump == 0))
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = (signed int)pos->child->modified != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = (signed int)pos->child->modified != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_7)
           pos->next_off=writeNode(tree->fd, tree, pos->child);
 
         freeNode(tree, pos->child);
@@ -5790,45 +5790,45 @@ static void processShrink(struct DOODLE_SuffixTree *tree, struct DOODLE_Node **k
 
 // readFN
 // file tree.c line 649
-static char * readFN(struct anonymous$0 *fd, char * const *pathTab, const unsigned int ptc)
+static char * readFN(struct anonymous_0 *fd, char * const *pathTab, const unsigned int ptc)
 {
   unsigned int pid;
   unsigned int fnl;
   signed int slen;
   char *buf;
-  signed int return_value_READUINT$1;
-  return_value_READUINT$1=READUINT(fd, &pid);
-  if(return_value_READUINT$1 == -1)
+  signed int return_value_READUINT_1;
+  return_value_READUINT_1=READUINT(fd, &pid);
+  if(return_value_READUINT_1 == -1)
     return (char *)(void *)0;
 
   else
   {
-    signed int return_value_READUINT$2;
-    return_value_READUINT$2=READUINT(fd, &fnl);
-    if(return_value_READUINT$2 == -1)
+    signed int return_value_READUINT_2;
+    return_value_READUINT_2=READUINT(fd, &fnl);
+    if(return_value_READUINT_2 == -1)
       return (char *)(void *)0;
 
     else
     {
       if(pid >= ptc)
       {
-        char *return_value_gettext$3;
-        return_value_gettext$3=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
-        fd->log(fd->context, (unsigned int)0, return_value_gettext$3, pid, ptc);
+        char *return_value_gettext_3;
+        return_value_gettext_3=gettext("Assertion failed at %s:%d.\nDatabase format error!\n");
+        fd->log(fd->context, (unsigned int)0, return_value_gettext_3, pid, ptc);
         return (char *)(void *)0;
       }
 
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(pathTab[(signed long int)pid]);
-      slen = (signed int)return_value_strlen$4;
-      void *return_value_MALLOC$5;
-      return_value_MALLOC$5=MALLOC((unsigned long int)(fnl + (unsigned int)slen + (unsigned int)2));
-      buf = (char *)return_value_MALLOC$5;
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(pathTab[(signed long int)pid]);
+      slen = (signed int)return_value_strlen_4;
+      void *return_value_MALLOC_5;
+      return_value_MALLOC_5=MALLOC((unsigned long int)(fnl + (unsigned int)slen + (unsigned int)2));
+      buf = (char *)return_value_MALLOC_5;
       strcpy(buf, pathTab[(signed long int)pid]);
       strcat(buf, "/");
-      signed int return_value_READALL$6;
-      return_value_READALL$6=READALL(fd, (void *)&buf[(signed long int)(slen + 1)], (unsigned long long int)fnl);
-      if(return_value_READALL$6 == -1)
+      signed int return_value_READALL_6;
+      return_value_READALL_6=READALL(fd, (void *)&buf[(signed long int)(slen + 1)], (unsigned long long int)fnl);
+      if(return_value_READALL_6 == -1)
       {
         free((void *)buf);
         return (char *)(void *)0;
@@ -5845,23 +5845,23 @@ static char * readFN(struct anonymous$0 *fd, char * const *pathTab, const unsign
 
 // readZT
 // file tree.c line 625
-static char * readZT(struct anonymous$0 *fd)
+static char * readZT(struct anonymous_0 *fd)
 {
   unsigned int len;
   char *buf;
-  signed int return_value_READUINT$1;
-  return_value_READUINT$1=READUINT(fd, &len);
-  if(return_value_READUINT$1 == -1)
+  signed int return_value_READUINT_1;
+  return_value_READUINT_1=READUINT(fd, &len);
+  if(return_value_READUINT_1 == -1)
     return (char *)(void *)0;
 
   else
   {
-    void *return_value_MALLOC$2;
-    return_value_MALLOC$2=MALLOC((unsigned long int)(len + (unsigned int)1));
-    buf = (char *)return_value_MALLOC$2;
-    signed int return_value_READALL$3;
-    return_value_READALL$3=READALL(fd, (void *)buf, (unsigned long long int)len);
-    if(return_value_READALL$3 == -1)
+    void *return_value_MALLOC_2;
+    return_value_MALLOC_2=MALLOC((unsigned long int)(len + (unsigned int)1));
+    buf = (char *)return_value_MALLOC_2;
+    signed int return_value_READALL_3;
+    return_value_READALL_3=READALL(fd, (void *)buf, (unsigned long long int)len);
+    if(return_value_READALL_3 == -1)
     {
       free((void *)buf);
       return (char *)(void *)0;
@@ -5880,40 +5880,40 @@ static char * readZT(struct anonymous$0 *fd)
 static signed int read_buf(void (*log)(void *, unsigned int, const char *, ...), void *context, signed int fd, unsigned long long int off, char *buf, unsigned long long int cnt)
 {
   signed int ret;
-  signed long int return_value_lseek$4;
-  return_value_lseek$4=lseek(fd, (signed long int)off, 0);
-  if(!(off == (unsigned long int)return_value_lseek$4))
+  signed long int return_value_lseek_4;
+  return_value_lseek_4=lseek(fd, (signed long int)off, 0);
+  if(!(off == (unsigned long int)return_value_lseek_4))
   {
-    char *return_value_gettext$1;
-    return_value_gettext$1=gettext("Call to '%s' failed: %s\n");
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    log(context, (unsigned int)0, return_value_gettext$1, (const void *)"lseek", return_value_strerror$3);
+    char *return_value_gettext_1;
+    return_value_gettext_1=gettext("Call to '%s' failed: %s\n");
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    log(context, (unsigned int)0, return_value_gettext_1, (const void *)"lseek", return_value_strerror_3);
   }
 
-  signed long int return_value_read$5;
-  return_value_read$5=read(fd, (void *)buf, cnt);
-  ret = (signed int)return_value_read$5;
+  signed long int return_value_read_5;
+  return_value_read_5=read(fd, (void *)buf, cnt);
+  ret = (signed int)return_value_read_5;
   if(!(cnt == (unsigned long int)ret))
   {
     if(ret == -1)
     {
-      char *return_value_gettext$6;
-      return_value_gettext$6=gettext("Call to '%s' failed: %s\n");
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      char *return_value_strerror$8;
-      return_value_strerror$8=strerror(*return_value___errno_location$7);
-      log(context, (unsigned int)0, return_value_gettext$6, (const void *)"read", return_value_strerror$8);
+      char *return_value_gettext_6;
+      return_value_gettext_6=gettext("Call to '%s' failed: %s\n");
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      char *return_value_strerror_8;
+      return_value_strerror_8=strerror(*return_value___errno_location_7);
+      log(context, (unsigned int)0, return_value_gettext_6, (const void *)"read", return_value_strerror_8);
     }
 
     else
     {
-      char *return_value_gettext$9;
-      return_value_gettext$9=gettext("Short read at offset %llu (attempted to read %llu bytes).\n");
-      log(context, (unsigned int)0, return_value_gettext$9, off, cnt);
+      char *return_value_gettext_9;
+      return_value_gettext_9=gettext("Short read at offset %llu (attempted to read %llu bytes).\n");
+      log(context, (unsigned int)0, return_value_gettext_9, off, cnt);
     }
     return -1;
   }
@@ -5924,7 +5924,7 @@ static signed int read_buf(void (*log)(void *, unsigned int, const char *, ...),
 
 // retarget_buffer
 // file tree.c line 269
-static signed int retarget_buffer(struct anonymous$0 *bio, unsigned long long int off, unsigned long long int len)
+static signed int retarget_buffer(struct anonymous_0 *bio, unsigned long long int off, unsigned long long int len)
 {
   unsigned long long int min;
   signed int ret;
@@ -5933,13 +5933,13 @@ static signed int retarget_buffer(struct anonymous$0 *bio, unsigned long long in
     off = (unsigned long long int)opt_off;
 
   flush_buffer(bio);
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(bio->fsize + -off >= 4097ul)
-    tmp_if_expr$1 = (unsigned long int)4096;
+    tmp_if_expr_1 = (unsigned long int)4096;
 
   else
-    tmp_if_expr$1 = bio->fsize - off;
-  min = tmp_if_expr$1;
+    tmp_if_expr_1 = bio->fsize - off;
+  min = tmp_if_expr_1;
   bio->bsize = min;
   bio->bstart = off;
   ret=read_buf(bio->log, bio->context, bio->fd, bio->bstart, bio->buffer, min);
@@ -5966,39 +5966,39 @@ signed int scanDirectory(char *dirName, void (*logger)(void *, unsigned int, con
   struct dirent *finfo;
   struct stat istat;
   signed int count = 0;
-  char *return_value_gettext$1;
+  char *return_value_gettext_1;
   if(dirName == ((char *)NULL))
   {
     if(!(logger == ((void (*)(void *, unsigned int, const char *, ...))NULL)))
     {
-      return_value_gettext$1=gettext("Assertion failed at %s:%d.\n");
-      logger(context, (unsigned int)0, return_value_gettext$1, (const void *)"files.c", 72);
+      return_value_gettext_1=gettext("Assertion failed at %s:%d.\n");
+      logger(context, (unsigned int)0, return_value_gettext_1, (const void *)"files.c", 72);
     }
 
     return -1;
   }
 
-  signed int return_value_lstat$5;
-  return_value_lstat$5=lstat(dirName, &istat);
-  char *return_value_gettext$2;
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  if(!(return_value_lstat$5 == 0))
+  signed int return_value_lstat_5;
+  return_value_lstat_5=lstat(dirName, &istat);
+  char *return_value_gettext_2;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  if(!(return_value_lstat_5 == 0))
   {
     if(!(logger == ((void (*)(void *, unsigned int, const char *, ...))NULL)))
     {
-      return_value_gettext$2=gettext("Call to '%s' for file '%s' failed: %s\n");
-      return_value___errno_location$3=__errno_location();
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      logger(context, (unsigned int)1, return_value_gettext$2, (const void *)"lstat", dirName, return_value_strerror$4);
+      return_value_gettext_2=gettext("Call to '%s' for file '%s' failed: %s\n");
+      return_value___errno_location_3=__errno_location();
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      logger(context, (unsigned int)1, return_value_gettext_2, (const void *)"lstat", dirName, return_value_strerror_4);
     }
 
     return 0;
   }
 
   signed int return_value;
-  char *return_value_gettext$6;
-  char *return_value_gettext$8;
+  char *return_value_gettext_6;
+  char *return_value_gettext_8;
   if((61440u & istat.st_mode) == 40960u)
     return 0;
 
@@ -6025,26 +6025,26 @@ signed int scanDirectory(char *dirName, void (*logger)(void *, unsigned int, con
           {
             if(!(logger == ((void (*)(void *, unsigned int, const char *, ...))NULL)))
             {
-              return_value_gettext$6=gettext("Scanning '%s'\n");
-              logger(context, (unsigned int)1, return_value_gettext$6, dirName);
+              return_value_gettext_6=gettext("Scanning '%s'\n");
+              logger(context, (unsigned int)1, return_value_gettext_6, dirName);
             }
 
-            signed int *return_value___errno_location$7;
-            return_value___errno_location$7=__errno_location();
-            *return_value___errno_location$7 = 0;
+            signed int *return_value___errno_location_7;
+            return_value___errno_location_7=__errno_location();
+            *return_value___errno_location_7 = 0;
             dinfo=opendir(dirName);
-            signed int *return_value___errno_location$10;
-            return_value___errno_location$10=__errno_location();
-            if(*return_value___errno_location$10 == 13 || dinfo == ((struct __dirstream *)NULL))
+            signed int *return_value___errno_location_10;
+            return_value___errno_location_10=__errno_location();
+            if(*return_value___errno_location_10 == 13 || dinfo == ((struct __dirstream *)NULL))
             {
-              signed int *return_value___errno_location$9;
-              return_value___errno_location$9=__errno_location();
-              if(*return_value___errno_location$9 == 13)
+              signed int *return_value___errno_location_9;
+              return_value___errno_location_9=__errno_location();
+              if(*return_value___errno_location_9 == 13)
               {
                 if(!(logger == ((void (*)(void *, unsigned int, const char *, ...))NULL)))
                 {
-                  return_value_gettext$8=gettext("Access to directory '%s' was denied.\n");
-                  logger(context, (unsigned int)1, return_value_gettext$8, dirName);
+                  return_value_gettext_8=gettext("Access to directory '%s' was denied.\n");
+                  logger(context, (unsigned int)1, return_value_gettext_8, dirName);
                 }
 
               }
@@ -6062,17 +6062,17 @@ signed int scanDirectory(char *dirName, void (*logger)(void *, unsigned int, con
               signed int ret;
               if(!((signed int)finfo->d_name[0l] == 46))
               {
-                unsigned long int return_value_strlen$11;
-                return_value_strlen$11=strlen(dirName);
-                unsigned long int return_value_strlen$12;
-                return_value_strlen$12=strlen(finfo->d_name);
-                void *return_value_MALLOC$13;
-                return_value_MALLOC$13=MALLOC(return_value_strlen$11 + return_value_strlen$12 + (unsigned long int)2);
-                dn = (char *)return_value_MALLOC$13;
+                unsigned long int return_value_strlen_11;
+                return_value_strlen_11=strlen(dirName);
+                unsigned long int return_value_strlen_12;
+                return_value_strlen_12=strlen(finfo->d_name);
+                void *return_value_MALLOC_13;
+                return_value_MALLOC_13=MALLOC(return_value_strlen_11 + return_value_strlen_12 + (unsigned long int)2);
+                dn = (char *)return_value_MALLOC_13;
                 strcpy(dn, dirName);
-                unsigned long int return_value_strlen$14;
-                return_value_strlen$14=strlen(dirName);
-                if(!((signed int)dirName[-1l + (signed long int)return_value_strlen$14] == 47))
+                unsigned long int return_value_strlen_14;
+                return_value_strlen_14=strlen(dirName);
+                if(!((signed int)dirName[-1l + (signed long int)return_value_strlen_14] == 47))
                   strcat(dn, "/");
 
                 strcat(dn, finfo->d_name);
@@ -6104,11 +6104,11 @@ signed int semaphore_down_(struct Semaphore *s, const char *filename, const sign
 {
   signed int value_after_op;
   signed int return_value;
-  union anonymous$3 *cond = (union anonymous$3 *)s->cond;
+  union anonymous_3 *cond = (union anonymous_3 *)s->cond;
   mutex_lock_(&s->mutex, "semaphore.c", 301);
   while(!(s->v >= 1))
   {
-    return_value=pthread_cond_wait(cond, (union anonymous$5 *)s->mutex.internal);
+    return_value=pthread_cond_wait(cond, (union anonymous_5 *)s->mutex.internal);
     if(!(return_value == 0))
       abort();
 
@@ -6142,14 +6142,14 @@ signed int semaphore_down_nonblocking_(struct Semaphore *s, const char *filename
 // file semaphore.h line 178
 void semaphore_free_(struct Semaphore *s, const char *filename, const signed int linenumber)
 {
-  union anonymous$3 *cond;
+  union anonymous_3 *cond;
   destroy_mutex_(&s->mutex);
-  cond = (union anonymous$3 *)s->cond;
+  cond = (union anonymous_3 *)s->cond;
   do
   {
-    signed int return_value_pthread_cond_destroy$1;
-    return_value_pthread_cond_destroy$1=pthread_cond_destroy(cond);
-    if(!(return_value_pthread_cond_destroy$1 == 0))
+    signed int return_value_pthread_cond_destroy_1;
+    return_value_pthread_cond_destroy_1=pthread_cond_destroy(cond);
+    if(!(return_value_pthread_cond_destroy_1 == 0))
       abort();
 
   }
@@ -6162,18 +6162,18 @@ void semaphore_free_(struct Semaphore *s, const char *filename, const signed int
 // file semaphore.h line 175
 struct Semaphore * semaphore_new_(signed int value, const char *filename, const signed int linenumber)
 {
-  union anonymous$3 *cond;
+  union anonymous_3 *cond;
   struct Semaphore *s;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct Semaphore) /*24ul*/ );
-  s = (struct Semaphore *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct Semaphore) /*24ul*/ );
+  s = (struct Semaphore *)return_value_malloc_1;
   s->v = value;
   create_mutex_(&s->mutex);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(union anonymous$3) /*48ul*/ );
-  cond = (union anonymous$3 *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(union anonymous_3) /*48ul*/ );
+  cond = (union anonymous_3 *)return_value_malloc_2;
   s->cond = (void *)cond;
-  pthread_cond_init(cond, (const union anonymous$4 *)(void *)0);
+  pthread_cond_init(cond, (const union anonymous_4 *)(void *)0);
   return s;
 }
 
@@ -6182,15 +6182,15 @@ struct Semaphore * semaphore_new_(signed int value, const char *filename, const 
 signed int semaphore_up_(struct Semaphore *s, const char *filename, const signed int linenumber)
 {
   signed int value_after_op;
-  union anonymous$3 *cond = (union anonymous$3 *)s->cond;
+  union anonymous_3 *cond = (union anonymous_3 *)s->cond;
   mutex_lock_(&s->mutex, "semaphore.c", 281);
   s->v = s->v + 1;
   value_after_op = s->v;
   do
   {
-    signed int return_value_pthread_cond_signal$1;
-    return_value_pthread_cond_signal$1=pthread_cond_signal(cond);
-    if(!(return_value_pthread_cond_signal$1 == 0))
+    signed int return_value_pthread_cond_signal_1;
+    return_value_pthread_cond_signal_1=pthread_cond_signal(cond);
+    if(!(return_value_pthread_cond_signal_1 == 0))
       abort();
 
   }
@@ -6213,9 +6213,9 @@ static void shrinkMemoryFootprint(struct DOODLE_SuffixTree *tree, struct DOODLE_
     ;
   tree->swapLimit = tree->mutationCount / (unsigned int)2 + (unsigned int)1;
   tree->mutationCount = (unsigned int)0;
-  char *return_value_gettext$1;
-  return_value_gettext$1=gettext("Memory limit (%u bytes) hit, serializing some data.\n");
-  tree->log(tree->context, (unsigned int)2, return_value_gettext$1, tree->used_memory);
+  char *return_value_gettext_1;
+  return_value_gettext_1=gettext("Memory limit (%u bytes) hit, serializing some data.\n");
+  tree->log(tree->context, (unsigned int)2, return_value_gettext_1, tree->used_memory);
   pos = keep;
   keepThese = (struct DOODLE_Node **)(void *)0;
   ktC = (unsigned int)0;
@@ -6229,9 +6229,9 @@ static void shrinkMemoryFootprint(struct DOODLE_SuffixTree *tree, struct DOODLE_
   kept = (unsigned int)0;
   processShrink(tree, keepThese, (signed int)ktC, (signed int)(ktC - (unsigned int)2), tree->root, &kept);
   xgrow_((void **)&keepThese, sizeof(struct DOODLE_Node *) /*8ul*/ , &ktC, (unsigned int)0, "tree.c", 1081);
-  char *return_value_gettext$2;
-  return_value_gettext$2=gettext("Reduced memory consumption for suffix tree to %u bytes.\n");
-  tree->log(tree->context, (unsigned int)2, return_value_gettext$2, tree->used_memory);
+  char *return_value_gettext_2;
+  return_value_gettext_2=gettext("Reduced memory consumption for suffix tree to %u bytes.\n");
+  tree->log(tree->context, (unsigned int)2, return_value_gettext_2, tree->used_memory);
   tree->force_dump = force_dump;
 }
 
@@ -6262,18 +6262,18 @@ static signed int tree_iterate_internal(signed int do_links, struct DOODLE_Suffi
     {
       if(!(node->next_off == 0ul))
       {
-        signed int return_value_loadChild$1;
-        return_value_loadChild$1=loadChild(tree, node);
-        if(return_value_loadChild$1 == -1)
+        signed int return_value_loadChild_1;
+        return_value_loadChild_1=loadChild(tree, node);
+        if(return_value_loadChild_1 == -1)
           return -1;
 
       }
 
     }
 
-    signed int return_value_tree_iterate_internal$2;
-    return_value_tree_iterate_internal$2=tree_iterate_internal(1, tree, node->child, callback, arg);
-    ret = ret + return_value_tree_iterate_internal$2;
+    signed int return_value_tree_iterate_internal_2;
+    return_value_tree_iterate_internal_2=tree_iterate_internal(1, tree, node->child, callback, arg);
+    ret = ret + return_value_tree_iterate_internal_2;
     if(do_links == 0)
       return ret;
 
@@ -6281,9 +6281,9 @@ static signed int tree_iterate_internal(signed int do_links, struct DOODLE_Suffi
     {
       if(!(node->link_off == 0ul))
       {
-        signed int return_value_loadLink$3;
-        return_value_loadLink$3=loadLink(tree, node);
-        if(return_value_loadLink$3 == -1)
+        signed int return_value_loadLink_3;
+        return_value_loadLink_3=loadLink(tree, node);
+        if(return_value_loadLink_3 == -1)
           return -1;
 
       }
@@ -6306,9 +6306,9 @@ static void tree_normalize(struct DOODLE_SuffixTree *tree, struct DOODLE_Node *p
   if(!((signed int)pos->clength == 1))
   {
     grandchild = pos->child;
-    void *return_value_MALLOC$1;
-    return_value_MALLOC$1=MALLOC(sizeof(struct DOODLE_Node) /*80ul*/ );
-    insert = (struct DOODLE_Node *)return_value_MALLOC$1;
+    void *return_value_MALLOC_1;
+    return_value_MALLOC_1=MALLOC(sizeof(struct DOODLE_Node) /*80ul*/ );
+    insert = (struct DOODLE_Node *)return_value_MALLOC_1;
     insert->mls_size = (unsigned char)1;
     insert->useCounter = (unsigned int)0;
     tree->used_memory = tree->used_memory + sizeof(struct DOODLE_Node) /*80ul*/ ;
@@ -6358,19 +6358,19 @@ static signed int tree_search_approx_internal(struct DOODLE_Node *pos, const uns
     ;
   if((signed int)*ss == 0)
   {
-    char *return_value_gettext$1;
-    return_value_gettext$1=gettext("Assertion failed at %s:%d!\n");
-    tree->log(tree->context, (unsigned int)0, return_value_gettext$1, (const void *)"tree.c", 3192);
+    char *return_value_gettext_1;
+    return_value_gettext_1=gettext("Assertion failed at %s:%d!\n");
+    tree->log(tree->context, (unsigned int)0, return_value_gettext_1, (const void *)"tree.c", 3192);
     return -1;
   }
 
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  signed int return_value_tolower$5;
-  signed int return_value_tolower$6;
-  signed int return_value_loadChild$2;
-  signed int return_value_loadChild$4;
-  signed int return_value_loadLink$9;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  signed int return_value_tolower_5;
+  signed int return_value_tolower_6;
+  signed int return_value_loadChild_2;
+  signed int return_value_loadChild_4;
+  signed int return_value_loadLink_9;
   if(pos == ((struct DOODLE_Node *)NULL))
     return 0;
 
@@ -6382,22 +6382,22 @@ static signed int tree_search_approx_internal(struct DOODLE_Node *pos, const uns
     while(!(pos == ((struct DOODLE_Node *)NULL)))
     {
       if(*pos->c == *ss)
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_8 = (_Bool)1;
 
       else
       {
         if(ignore_case == 1)
         {
-          return_value_tolower$5=tolower((signed int)pos->c[(signed long int)0]);
-          return_value_tolower$6=tolower((signed int)ss[(signed long int)0]);
-          tmp_if_expr$7 = return_value_tolower$5 == return_value_tolower$6 ? (_Bool)1 : (_Bool)0;
+          return_value_tolower_5=tolower((signed int)pos->c[(signed long int)0]);
+          return_value_tolower_6=tolower((signed int)ss[(signed long int)0]);
+          tmp_if_expr_7 = return_value_tolower_5 == return_value_tolower_6 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = (_Bool)0;
+        tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$8)
+      if(tmp_if_expr_8)
       {
         tree_normalize(tree, pos);
         if((signed int)ss[1l] == 0)
@@ -6415,8 +6415,8 @@ static signed int tree_search_approx_internal(struct DOODLE_Node *pos, const uns
           {
             if(!(pos->next_off == 0ul))
             {
-              return_value_loadChild$2=loadChild(tree, pos);
-              if(return_value_loadChild$2 == -1)
+              return_value_loadChild_2=loadChild(tree, pos);
+              if(return_value_loadChild_2 == -1)
                 return -1;
 
             }
@@ -6436,9 +6436,9 @@ static signed int tree_search_approx_internal(struct DOODLE_Node *pos, const uns
         {
           if((signed int)ss[1l] == 0)
           {
-            signed int return_value_tree_iterate_internal$3;
-            return_value_tree_iterate_internal$3=tree_iterate_internal(0, tree, pos, callback, arg);
-            ret = ret + return_value_tree_iterate_internal$3;
+            signed int return_value_tree_iterate_internal_3;
+            return_value_tree_iterate_internal_3=tree_iterate_internal(0, tree, pos, callback, arg);
+            ret = ret + return_value_tree_iterate_internal_3;
             return ret;
           }
 
@@ -6447,8 +6447,8 @@ static signed int tree_search_approx_internal(struct DOODLE_Node *pos, const uns
           {
             if(!(pos->next_off == 0ul))
             {
-              return_value_loadChild$4=loadChild(tree, pos);
-              if(return_value_loadChild$4 == -1)
+              return_value_loadChild_4=loadChild(tree, pos);
+              if(return_value_loadChild_4 == -1)
                 return -1;
 
             }
@@ -6476,8 +6476,8 @@ static signed int tree_search_approx_internal(struct DOODLE_Node *pos, const uns
       {
         if(!(pos->link_off == 0ul))
         {
-          return_value_loadLink$9=loadLink(tree, pos);
-          if(return_value_loadLink$9 == -1)
+          return_value_loadLink_9=loadLink(tree, pos);
+          if(return_value_loadLink_9 == -1)
             return -1;
 
         }
@@ -6503,16 +6503,16 @@ static struct DOODLE_Node * tree_search_internal(struct DOODLE_SuffixTree *tree,
     ;
   ss = substring;
   pos = tree->root;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_4;
   while(!((signed int)*ss == 0))
   {
     if(pos == ((struct DOODLE_Node *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = pos->c == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = pos->c == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return (struct DOODLE_Node *)(void *)0;
 
     if(!((signed int)*ss >= (signed int)*pos->c))
@@ -6539,9 +6539,9 @@ static struct DOODLE_Node * tree_search_internal(struct DOODLE_SuffixTree *tree,
       {
         if(!(pos->next_off == 0ul))
         {
-          signed int return_value_loadChild$2;
-          return_value_loadChild$2=loadChild(tree, pos);
-          if(return_value_loadChild$2 == -1)
+          signed int return_value_loadChild_2;
+          return_value_loadChild_2=loadChild(tree, pos);
+          if(return_value_loadChild_2 == -1)
             return (struct DOODLE_Node *)(void *)0;
 
         }
@@ -6556,11 +6556,11 @@ static struct DOODLE_Node * tree_search_internal(struct DOODLE_SuffixTree *tree,
     else
     {
       if((signed int)pos->clength == 1)
-        tmp_if_expr$4 = (signed int)pos->mls_size > (signed int)ss[(signed long int)0] - (signed int)pos->c[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (signed int)pos->mls_size > (signed int)ss[(signed long int)0] - (signed int)pos->c[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
         pos = &pos[(signed long int)((signed int)ss[(signed long int)0] - (signed int)pos->c[(signed long int)0])];
 
       else
@@ -6569,9 +6569,9 @@ static struct DOODLE_Node * tree_search_internal(struct DOODLE_SuffixTree *tree,
         {
           if(!(pos->link_off == 0ul))
           {
-            signed int return_value_loadLink$3;
-            return_value_loadLink$3=loadLink(tree, pos);
-            if(return_value_loadLink$3 == -1)
+            signed int return_value_loadLink_3;
+            return_value_loadLink_3=loadLink(tree, pos);
+            if(return_value_loadLink_3 == -1)
               return (struct DOODLE_Node *)(void *)0;
 
           }
@@ -6593,9 +6593,9 @@ static void tree_split(struct DOODLE_SuffixTree *tree, struct DOODLE_Node *pos, 
 {
   struct DOODLE_Node *insert;
   struct DOODLE_Node *grandchild = pos->child;
-  void *return_value_MALLOC$1;
-  return_value_MALLOC$1=MALLOC(sizeof(struct DOODLE_Node) /*80ul*/ );
-  insert = (struct DOODLE_Node *)return_value_MALLOC$1;
+  void *return_value_MALLOC_1;
+  return_value_MALLOC_1=MALLOC(sizeof(struct DOODLE_Node) /*80ul*/ );
+  insert = (struct DOODLE_Node *)return_value_MALLOC_1;
   insert->mls_size = (unsigned char)1;
   insert->useCounter = (unsigned int)0;
   tree->used_memory = tree->used_memory + sizeof(struct DOODLE_Node) /*80ul*/ ;
@@ -6642,13 +6642,13 @@ static signed int truncate_internal(struct DOODLE_SuffixTree *tree, struct DOODL
   signed int i;
   signed int j;
   signed int k;
-  signed int return_value_loadChild$1;
-  signed int return_value_loadLink$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
+  signed int return_value_loadChild_1;
+  signed int return_value_loadLink_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
   if(node == ((struct DOODLE_Node *)NULL))
     return 0;
 
@@ -6690,25 +6690,25 @@ static signed int truncate_internal(struct DOODLE_SuffixTree *tree, struct DOODL
       {
         if(!(node->next_off == 0ul))
         {
-          return_value_loadChild$1=loadChild(tree, node);
-          if(return_value_loadChild$1 == -1)
+          return_value_loadChild_1=loadChild(tree, node);
+          if(return_value_loadChild_1 == -1)
             return -1;
 
         }
 
       }
 
-      signed int return_value_truncate_internal$2;
-      return_value_truncate_internal$2=truncate_internal(tree, node->child, fileNameIndex, max);
-      if(!(return_value_truncate_internal$2 == 0))
+      signed int return_value_truncate_internal_2;
+      return_value_truncate_internal_2=truncate_internal(tree, node->child, fileNameIndex, max);
+      if(!(return_value_truncate_internal_2 == 0))
         return -1;
 
       if(node->link == ((struct DOODLE_Node *)NULL))
       {
         if(!(node->link_off == 0ul))
         {
-          return_value_loadLink$3=loadLink(tree, node);
-          if(return_value_loadLink$3 == -1)
+          return_value_loadLink_3=loadLink(tree, node);
+          if(return_value_loadLink_3 == -1)
             return -1;
 
         }
@@ -6719,33 +6719,33 @@ static signed int truncate_internal(struct DOODLE_SuffixTree *tree, struct DOODL
         ;
       next = node->link;
       if(node->matchCount == 0u)
-        tmp_if_expr$4 = node->child == (struct DOODLE_Node *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = node->child == (struct DOODLE_Node *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = (signed int)node->mls_size == 1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = (signed int)node->mls_size == 1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
       {
         if(node->parent == ((struct DOODLE_Node *)NULL))
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = (signed int)node->parent->mls_size == 1 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_6 = (signed int)node->parent->mls_size == 1 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = node->parent->link != node ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = node->parent->link != node ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$8 = (_Bool)0;
-      if(tmp_if_expr$8)
+        tmp_if_expr_8 = (_Bool)0;
+      if(tmp_if_expr_8)
       {
         tree->used_memory = tree->used_memory - sizeof(struct DOODLE_Node) /*80ul*/ ;
         if(!(parent == ((struct DOODLE_Node *)NULL)))
@@ -6795,7 +6795,7 @@ void wait_for_shutdown()
 // file doodled.c line 442
 static void * worker(void *arg)
 {
-  struct anonymous$17 *cls = (struct anonymous$17 *)arg;
+  struct anonymous_17 *cls = (struct anonymous_17 *)arg;
   signed int i;
   signed int more;
   signed int wasMore;
@@ -6803,38 +6803,38 @@ static void * worker(void *arg)
   void *unused;
   char *fn;
   struct PTHREAD_T helperThread;
-  char *return_value_gettext$1;
-  return_value_gettext$1=gettext("Main worker thread created.\n");
-  cls->log(cls->logContext, (unsigned int)2, return_value_gettext$1);
+  char *return_value_gettext_1;
+  return_value_gettext_1=gettext("Main worker thread created.\n");
+  cls->log(cls->logContext, (unsigned int)2, return_value_gettext_1);
   cls->eventCount = (unsigned int)0;
   cls->continueRunning = 1;
   cls->events = (char **)(void *)0;
   cls->signal=semaphore_new_(0, "doodled.c", 458);
-  signed int return_value_PTHREAD_CREATE$3;
-  return_value_PTHREAD_CREATE$3=PTHREAD_CREATE(&helperThread, processEvents, (void *)cls, (unsigned long int)(64 * 1024));
-  if(!(return_value_PTHREAD_CREATE$3 == 0))
+  signed int return_value_PTHREAD_CREATE_3;
+  return_value_PTHREAD_CREATE_3=PTHREAD_CREATE(&helperThread, processEvents, (void *)cls, (unsigned long int)(64 * 1024));
+  if(!(return_value_PTHREAD_CREATE_3 == 0))
   {
-    char *return_value_gettext$2;
-    return_value_gettext$2=gettext("Failed to spawn event processing thread.\n");
-    cls->log(cls->logContext, (unsigned int)0, return_value_gettext$2);
+    char *return_value_gettext_2;
+    return_value_gettext_2=gettext("Failed to spawn event processing thread.\n");
+    cls->log(cls->logContext, (unsigned int)0, return_value_gettext_2);
     run_shutdown(0);
     return (void *)0;
   }
 
-  char *return_value_gettext$4;
-  return_value_gettext$4=gettext("Registering with FAM for file system events.\n");
-  cls->log(cls->logContext, (unsigned int)1, return_value_gettext$4);
+  char *return_value_gettext_4;
+  return_value_gettext_4=gettext("Registering with FAM for file system events.\n");
+  cls->log(cls->logContext, (unsigned int)1, return_value_gettext_4);
   i = 0;
   if(!((unsigned int)i >= cls->argc))
   {
     char *exp;
-    char *return_value_gettext$5;
-    return_value_gettext$5=gettext("Indexing '%s'\n");
-    cls->log(cls->logContext, (unsigned int)2, return_value_gettext$5, cls->argv[(signed long int)i]);
+    char *return_value_gettext_5;
+    return_value_gettext_5=gettext("Indexing '%s'\n");
+    cls->log(cls->logContext, (unsigned int)2, return_value_gettext_5, cls->argv[(signed long int)i]);
     exp=expandFileName(cls->argv[(signed long int)i]);
-    signed int return_value_do_index$6;
-    return_value_do_index$6=do_index(exp, cls);
-    if(return_value_do_index$6 == -1)
+    signed int return_value_do_index_6;
+    return_value_do_index_6=do_index(exp, cls);
+    if(return_value_do_index_6 == -1)
     {
       ret = -1;
       free((void *)exp);
@@ -6850,15 +6850,15 @@ static void * worker(void *arg)
   DOODLE_tree_destroy(cls->tree);
   cls->treePresent = (unsigned int)0;
   cls->tree = (struct DOODLE_SuffixTree *)(void *)0;
-  char *return_value_gettext$7;
-  return_value_gettext$7=gettext("doodled startup complete.  Now waiting for FAM events.\n");
-  cls->log(cls->logContext, (unsigned int)1, return_value_gettext$7);
+  char *return_value_gettext_7;
+  return_value_gettext_7=gettext("doodled startup complete.  Now waiting for FAM events.\n");
+  cls->log(cls->logContext, (unsigned int)1, return_value_gettext_7);
   wasMore = 0;
-  signed int return_value_testShutdown$8;
+  signed int return_value_testShutdown_8;
   if(!(cls->continueRunning == 0))
   {
-    return_value_testShutdown$8=testShutdown();
-    if(return_value_testShutdown$8 == 0)
+    return_value_testShutdown_8=testShutdown();
+    if(return_value_testShutdown_8 == 0)
     {
       semaphore_down_(cls->signal, "doodled.c", 500);
       cls->log(cls->logContext, (unsigned int)3, "Received signal to process fam event.\n");
@@ -6907,13 +6907,13 @@ static void * worker(void *arg)
   }
 
   cls->continueRunning = 0;
-  signed int return_value_FAMClose$10;
-  return_value_FAMClose$10=FAMClose(&cls->fc);
-  if(!(return_value_FAMClose$10 == 0))
+  signed int return_value_FAMClose_10;
+  return_value_FAMClose_10=FAMClose(&cls->fc);
+  if(!(return_value_FAMClose_10 == 0))
   {
-    char *return_value_gettext$9;
-    return_value_gettext$9=gettext("Error disconnecting from fam.\n");
-    cls->log(cls->logContext, (unsigned int)0, return_value_gettext$9);
+    char *return_value_gettext_9;
+    return_value_gettext_9=gettext("Error disconnecting from fam.\n");
+    cls->log(cls->logContext, (unsigned int)0, return_value_gettext_9);
   }
 
   PTHREAD_KILL(&helperThread, 15);
@@ -6927,29 +6927,29 @@ static void * worker(void *arg)
 
 // writeFN
 // file tree.c line 684
-static void writeFN(struct anonymous$0 *fd, char * const *pathTab, const unsigned int ptc, const char *fn)
+static void writeFN(struct anonymous_0 *fd, char * const *pathTab, const unsigned int ptc, const char *fn)
 {
   signed int i;
   signed int slen;
   signed int xslen;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(fn);
-  slen = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(fn);
+  slen = (signed int)return_value_strlen_1;
   xslen = slen;
   for( ; !((signed int)fn[(signed long int)slen] == 47); slen = slen - 1)
     if(!(slen >= 1))
       break;
 
   i = (signed int)(ptc - (unsigned int)1);
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
   for( ; i >= 0; i = i - 1)
   {
-    signed int return_value_strncmp$3;
-    return_value_strncmp$3=strncmp(fn, pathTab[(signed long int)i], (unsigned long int)slen);
-    if(return_value_strncmp$3 == 0)
+    signed int return_value_strncmp_3;
+    return_value_strncmp_3=strncmp(fn, pathTab[(signed long int)i], (unsigned long int)slen);
+    if(return_value_strncmp_3 == 0)
     {
-      return_value_strlen$2=strlen(pathTab[(signed long int)i]);
-      if((unsigned long int)slen == return_value_strlen$2)
+      return_value_strlen_2=strlen(pathTab[(signed long int)i]);
+      if((unsigned long int)slen == return_value_strlen_2)
       {
         WRITEUINT(fd, (unsigned int)i);
         WRITEUINT(fd, (unsigned int)((xslen - slen) - 1));
@@ -6960,9 +6960,9 @@ static void writeFN(struct anonymous$0 *fd, char * const *pathTab, const unsigne
     }
 
   }
-  char *return_value_gettext$4;
-  return_value_gettext$4=gettext("Assertion failed at %s:%d.\n");
-  fd->log(fd->context, (unsigned int)0, return_value_gettext$4);
+  char *return_value_gettext_4;
+  return_value_gettext_4=gettext("Assertion failed at %s:%d.\n");
+  fd->log(fd->context, (unsigned int)0, return_value_gettext_4);
 
 __CPROVER_DUMP_L6:
   ;
@@ -6970,16 +6970,16 @@ __CPROVER_DUMP_L6:
 
 // writeNode
 // file tree.c line 1337
-static unsigned long long int writeNode(struct anonymous$0 *fd, struct DOODLE_SuffixTree *tree, struct DOODLE_Node *node)
+static unsigned long long int writeNode(struct anonymous_0 *fd, struct DOODLE_SuffixTree *tree, struct DOODLE_Node *node)
 {
   unsigned long long int ret;
   unsigned long long int linkRel;
   unsigned long long int nextRel;
   signed int i;
   signed int mls;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_5;
   if(node == ((struct DOODLE_Node *)NULL))
     return (unsigned long long int)0;
 
@@ -7006,11 +7006,11 @@ static unsigned long long int writeNode(struct anonymous$0 *fd, struct DOODLE_Su
       if(!((node + (signed long int)mls)->child == ((struct DOODLE_Node *)NULL)))
       {
         if(!((signed int)(node + (signed long int)mls)->child->modified == 0))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = tree->force_dump != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = tree->force_dump != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
           (node + (signed long int)mls)->next_off=writeNode(fd, tree, (node + (signed long int)mls)->child);
 
       }
@@ -7030,29 +7030,29 @@ static unsigned long long int writeNode(struct anonymous$0 *fd, struct DOODLE_Su
     if(!((node + (signed long int)((signed int)node->mls_size + -1))->link == ((struct DOODLE_Node *)NULL)))
     {
       if(!((signed int)(node + (signed long int)((signed int)node->mls_size + -1))->link->modified == 0))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = tree->force_dump != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = tree->force_dump != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         (node + (signed long int)((signed int)node->mls_size - 1))->link_off=writeNode(fd, tree, (node + (signed long int)((signed int)node->mls_size - 1))->link);
 
     }
 
     ret=LSEEK(fd, (unsigned long long int)0, 2);
     if(!(fd->fsize >= (node + (signed long int)((signed int)node->mls_size + -1))->link_off))
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = node->next_off > fd->fsize ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = node->next_off > fd->fsize ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
     {
-      char *return_value_gettext$3;
-      return_value_gettext$3=gettext("Assertion failed at %s:%d: %llu > %llu or %llu > %llu.\n");
-      tree->log(tree->context, (unsigned int)0, return_value_gettext$3, (const void *)"tree.c", 1395, (node + (signed long int)((signed int)node->mls_size - 1))->link_off, fd->fsize, node->next_off, fd->fsize);
-      char *return_value_gettext$4;
-      return_value_gettext$4=gettext("Assertion failed at %s:%d.\n");
-      tree->log(tree->context, (unsigned int)0, return_value_gettext$4, (const void *)"tree.c", 1401);
+      char *return_value_gettext_3;
+      return_value_gettext_3=gettext("Assertion failed at %s:%d: %llu > %llu or %llu > %llu.\n");
+      tree->log(tree->context, (unsigned int)0, return_value_gettext_3, (const void *)"tree.c", 1395, (node + (signed long int)((signed int)node->mls_size - 1))->link_off, fd->fsize, node->next_off, fd->fsize);
+      char *return_value_gettext_4;
+      return_value_gettext_4=gettext("Assertion failed at %s:%d.\n");
+      tree->log(tree->context, (unsigned int)0, return_value_gettext_4, (const void *)"tree.c", 1401);
       abort();
       return (unsigned long long int)0;
     }
@@ -7116,9 +7116,9 @@ static unsigned long long int writeNode(struct anonymous$0 *fd, struct DOODLE_Su
     }
     if(!(fd->fsize >= ret))
     {
-      char *return_value_gettext$6;
-      return_value_gettext$6=gettext("Assertion failed at %s:%d: %llu > %llu.\n");
-      tree->log(tree->context, (unsigned int)0, return_value_gettext$6, (const void *)"tree.c", 1515, ret, fd->fsize);
+      char *return_value_gettext_6;
+      return_value_gettext_6=gettext("Assertion failed at %s:%d: %llu > %llu.\n");
+      tree->log(tree->context, (unsigned int)0, return_value_gettext_6, (const void *)"tree.c", 1515, ret, fd->fsize);
     }
 
     return ret;
@@ -7127,16 +7127,16 @@ static unsigned long long int writeNode(struct anonymous$0 *fd, struct DOODLE_Su
 
 // writeZT
 // file tree.c line 640
-static void writeZT(struct anonymous$0 *fd, const char *buf)
+static void writeZT(struct anonymous_0 *fd, const char *buf)
 {
   unsigned int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(buf);
-  len = (unsigned int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(buf);
+  len = (unsigned int)return_value_strlen_1;
   WRITEUINT(fd, len);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(buf);
-  WRITEALL(fd, (const void *)buf, return_value_strlen$2);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(buf);
+  WRITEALL(fd, (const void *)buf, return_value_strlen_2);
 }
 
 // write_buf
@@ -7144,40 +7144,40 @@ static void writeZT(struct anonymous$0 *fd, const char *buf)
 static void write_buf(void (*log)(void *, unsigned int, const char *, ...), void *context, signed int fd, unsigned long long int off, const void *buf, unsigned long long int cnt)
 {
   signed int ret;
-  signed long int return_value_lseek$4;
-  return_value_lseek$4=lseek(fd, (signed long int)off, 0);
-  if(!(off == (unsigned long int)return_value_lseek$4))
+  signed long int return_value_lseek_4;
+  return_value_lseek_4=lseek(fd, (signed long int)off, 0);
+  if(!(off == (unsigned long int)return_value_lseek_4))
   {
-    char *return_value_gettext$1;
-    return_value_gettext$1=gettext("'%s' failed: %s\n");
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    log(context, (unsigned int)0, return_value_gettext$1, (const void *)"lseek", return_value_strerror$3);
+    char *return_value_gettext_1;
+    return_value_gettext_1=gettext("'%s' failed: %s\n");
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    log(context, (unsigned int)0, return_value_gettext_1, (const void *)"lseek", return_value_strerror_3);
   }
 
-  signed long int return_value_write$5;
-  return_value_write$5=write(fd, buf, cnt);
-  ret = (signed int)return_value_write$5;
+  signed long int return_value_write_5;
+  return_value_write_5=write(fd, buf, cnt);
+  ret = (signed int)return_value_write_5;
   if(!(cnt == (unsigned long int)ret))
   {
     if(ret == -1)
     {
-      char *return_value_gettext$6;
-      return_value_gettext$6=gettext("Call to '%s' failed: %s\n");
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      char *return_value_strerror$8;
-      return_value_strerror$8=strerror(*return_value___errno_location$7);
-      log(context, (unsigned int)0, return_value_gettext$6, (const void *)"write", return_value_strerror$8);
+      char *return_value_gettext_6;
+      return_value_gettext_6=gettext("Call to '%s' failed: %s\n");
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      char *return_value_strerror_8;
+      return_value_strerror_8=strerror(*return_value___errno_location_7);
+      log(context, (unsigned int)0, return_value_gettext_6, (const void *)"write", return_value_strerror_8);
     }
 
     else
     {
-      char *return_value_gettext$9;
-      return_value_gettext$9=gettext("Short write at offset %llu (wanted to write %llu bytes).\n");
-      log(context, (unsigned int)0, return_value_gettext$9, off, cnt);
+      char *return_value_gettext_9;
+      return_value_gettext_9=gettext("Short write at offset %llu (wanted to write %llu bytes).\n");
+      log(context, (unsigned int)0, return_value_gettext_9, off, cnt);
     }
   }
 
@@ -7191,9 +7191,9 @@ void xgrow_(void **old, unsigned long int elementSize, unsigned int *oldCount, u
   unsigned long int size;
   if((unsigned long int)newCount >= 2147483647ul / elementSize)
   {
-    char *return_value_gettext$1;
-    return_value_gettext$1=gettext("FATAL: can not allocate %u * %d elements (number too large) at %s:%d.\n");
-    fprintf(stderr, return_value_gettext$1, (unsigned int)elementSize, (signed int)newCount, filename, linenumber);
+    char *return_value_gettext_1;
+    return_value_gettext_1=gettext("FATAL: can not allocate %u * %d elements (number too large) at %s:%d.\n");
+    fprintf(stderr, return_value_gettext_1, (unsigned int)elementSize, (signed int)newCount, filename, linenumber);
     abort();
   }
 

@@ -1,42 +1,42 @@
-// #anon_enum$LZMA_MF_HC3=3$LZMA_MF_HC4=4$LZMA_MF_BT2=18$LZMA_MF_BT3=19$LZMA_MF_BT4=20
+// #anon_enum_LZMA_MF_HC3=3_LZMA_MF_HC4=4_LZMA_MF_BT2=18_LZMA_MF_BT3=19_LZMA_MF_BT4=20
 // file /usr/include/lzma/lzma.h line 58
-enum anonymous$1 { LZMA_MF_HC3=3, LZMA_MF_HC4=4, LZMA_MF_BT2=18, LZMA_MF_BT3=19, LZMA_MF_BT4=20 };
+enum anonymous_1 { LZMA_MF_HC3=3, LZMA_MF_HC4=4, LZMA_MF_BT2=18, LZMA_MF_BT3=19, LZMA_MF_BT4=20 };
 
-// #anon_enum$LZMA_MODE_FAST=1$LZMA_MODE_NORMAL=2
+// #anon_enum_LZMA_MODE_FAST=1_LZMA_MODE_NORMAL=2
 // file /usr/include/lzma/lzma.h line 138
-enum anonymous$0 { LZMA_MODE_FAST=1, LZMA_MODE_NORMAL=2 };
+enum anonymous_0 { LZMA_MODE_FAST=1, LZMA_MODE_NORMAL=2 };
 
-// #anon_enum$LZMA_OK=0$LZMA_STREAM_END=1$LZMA_NO_CHECK=2$LZMA_UNSUPPORTED_CHECK=3$LZMA_GET_CHECK=4$LZMA_MEM_ERROR=5$LZMA_MEMLIMIT_ERROR=6$LZMA_FORMAT_ERROR=7$LZMA_OPTIONS_ERROR=8$LZMA_DATA_ERROR=9$LZMA_BUF_ERROR=10$LZMA_PROG_ERROR=11
+// #anon_enum_LZMA_OK=0_LZMA_STREAM_END=1_LZMA_NO_CHECK=2_LZMA_UNSUPPORTED_CHECK=3_LZMA_GET_CHECK=4_LZMA_MEM_ERROR=5_LZMA_MEMLIMIT_ERROR=6_LZMA_FORMAT_ERROR=7_LZMA_OPTIONS_ERROR=8_LZMA_DATA_ERROR=9_LZMA_BUF_ERROR=10_LZMA_PROG_ERROR=11
 // file /usr/include/lzma/base.h line 57
-enum anonymous$7 { LZMA_OK=0, LZMA_STREAM_END=1, LZMA_NO_CHECK=2, LZMA_UNSUPPORTED_CHECK=3, LZMA_GET_CHECK=4, LZMA_MEM_ERROR=5, LZMA_MEMLIMIT_ERROR=6, LZMA_FORMAT_ERROR=7, LZMA_OPTIONS_ERROR=8, LZMA_DATA_ERROR=9, LZMA_BUF_ERROR=10, LZMA_PROG_ERROR=11 };
+enum anonymous_7 { LZMA_OK=0, LZMA_STREAM_END=1, LZMA_NO_CHECK=2, LZMA_UNSUPPORTED_CHECK=3, LZMA_GET_CHECK=4, LZMA_MEM_ERROR=5, LZMA_MEMLIMIT_ERROR=6, LZMA_FORMAT_ERROR=7, LZMA_OPTIONS_ERROR=8, LZMA_DATA_ERROR=9, LZMA_BUF_ERROR=10, LZMA_PROG_ERROR=11 };
 
-// #anon_enum$LZMA_RESERVED_ENUM=0
+// #anon_enum_LZMA_RESERVED_ENUM=0
 // file /usr/include/lzma/base.h line 44
-enum anonymous$2 { LZMA_RESERVED_ENUM=0 };
+enum anonymous_2 { LZMA_RESERVED_ENUM=0 };
 
-// #anon_enum$LZMA_RUN=0$LZMA_SYNC_FLUSH=1$LZMA_FULL_FLUSH=2$LZMA_FINISH=3
+// #anon_enum_LZMA_RUN=0_LZMA_SYNC_FLUSH=1_LZMA_FULL_FLUSH=2_LZMA_FINISH=3
 // file /usr/include/lzma/base.h line 250
-enum anonymous$9 { LZMA_RUN=0, LZMA_SYNC_FLUSH=1, LZMA_FULL_FLUSH=2, LZMA_FINISH=3 };
+enum anonymous_9 { LZMA_RUN=0, LZMA_SYNC_FLUSH=1, LZMA_FULL_FLUSH=2, LZMA_FINISH=3 };
 
-// tag-#anon#ST[*{*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$}$*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$$'alloc'||*{V(*{V}$V$|*{V}$V$)->V}$V(*{V}$V$|*{V}$V$)->V$'free'||*{V}$V$'opaque'|]
+// tag-#anon#ST[*{*{V}_V_(*{V}_V_|U64|U64)->*{V}_V_}_*{V}_V_(*{V}_V_|U64|U64)->*{V}_V__'alloc'||*{V(*{V}_V_|*{V}_V_)->V}_V(*{V}_V_|*{V}_V_)->V_'free'||*{V}_V_'opaque'|]
 // file /usr/include/lzma/base.h line 349
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[*{cU8}$cU8$'next_in'||U64'avail_in'||U64'total_in'||*{U8}$U8$'next_out'||U64'avail_out'||U64'total_out'||*{SYM#tag-#anon#ST[*{*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$}$*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$$'alloc'||*{V(*{V}$V$|*{V}$V$)->V}$V(*{V}$V$|*{V}$V$)->V$'free'||*{V}$V$'opaque'|]#}$SYM#tag-#anon#ST[*{*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$}$*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$$'alloc'||*{V(*{V}$V$|*{V}$V$)->V}$V(*{V}$V$|*{V}$V$)->V$'free'||*{V}$V$'opaque'|]#$'allocator'||*{SYM#tag-lzma_internal_s#}$SYM#tag-lzma_internal_s#$'internal'||*{V}$V$'reserved_ptr1'||*{V}$V$'reserved_ptr2'||*{V}$V$'reserved_ptr3'||*{V}$V$'reserved_ptr4'||U64'reserved_int1'||U64'reserved_int2'||U64'reserved_int3'||U64'reserved_int4'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum1'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum2'|]
+// tag-#anon#ST[*{cU8}_cU8_'next_in'||U64'avail_in'||U64'total_in'||*{U8}_U8_'next_out'||U64'avail_out'||U64'total_out'||*{SYM#tag-#anon#ST[*{*{V}_V_(*{V}_V_|U64|U64)->*{V}_V_}_*{V}_V_(*{V}_V_|U64|U64)->*{V}_V__'alloc'||*{V(*{V}_V_|*{V}_V_)->V}_V(*{V}_V_|*{V}_V_)->V_'free'||*{V}_V_'opaque'|]#}_SYM#tag-#anon#ST[*{*{V}_V_(*{V}_V_|U64|U64)->*{V}_V_}_*{V}_V_(*{V}_V_|U64|U64)->*{V}_V__'alloc'||*{V(*{V}_V_|*{V}_V_)->V}_V(*{V}_V_|*{V}_V_)->V_'free'||*{V}_V_'opaque'|]#_'allocator'||*{SYM#tag-lzma_internal_s#}_SYM#tag-lzma_internal_s#_'internal'||*{V}_V_'reserved_ptr1'||*{V}_V_'reserved_ptr2'||*{V}_V_'reserved_ptr3'||*{V}_V_'reserved_ptr4'||U64'reserved_int1'||U64'reserved_int2'||U64'reserved_int3'||U64'reserved_int4'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum1'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum2'|]
 // file /usr/include/lzma/base.h line 461
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[U32'dict_size'||U32'$pad0'||*{cU8}$cU8$'preset_dict'||U32'preset_dict_size'||U32'lc'||U32'lp'||U32'pb'||EN#anon_enum$LZMA_MODE_FAST=1$LZMA_MODE_NORMAL=2#{U32}$U32$'mode'||U32'nice_len'||EN#anon_enum$LZMA_MF_HC3=3$LZMA_MF_HC4=4$LZMA_MF_BT2=18$LZMA_MF_BT3=19$LZMA_MF_BT4=20#{U32}$U32$'mf'||U32'depth'||U32'reserved_int1'||U32'reserved_int2'||U32'reserved_int3'||U32'reserved_int4'||U32'reserved_int5'||U32'reserved_int6'||U32'reserved_int7'||U32'reserved_int8'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum1'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum2'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum3'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum4'||*{V}$V$'reserved_ptr1'||*{V}$V$'reserved_ptr2'|]
+// tag-#anon#ST[U32'dict_size'||U32'_pad0'||*{cU8}_cU8_'preset_dict'||U32'preset_dict_size'||U32'lc'||U32'lp'||U32'pb'||EN#anon_enum_LZMA_MODE_FAST=1_LZMA_MODE_NORMAL=2#{U32}_U32_'mode'||U32'nice_len'||EN#anon_enum_LZMA_MF_HC3=3_LZMA_MF_HC4=4_LZMA_MF_BT2=18_LZMA_MF_BT3=19_LZMA_MF_BT4=20#{U32}_U32_'mf'||U32'depth'||U32'reserved_int1'||U32'reserved_int2'||U32'reserved_int3'||U32'reserved_int4'||U32'reserved_int5'||U32'reserved_int6'||U32'reserved_int7'||U32'reserved_int8'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum1'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum2'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum3'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum4'||*{V}_V_'reserved_ptr1'||*{V}_V_'reserved_ptr2'|]
 // file /usr/include/lzma/lzma.h line 185
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$3;
+union anonymous_3;
 
 // tag-XDR
 // file /usr/include/rpc/xdr.h line 109
@@ -214,19 +214,19 @@ extern signed int gzread(struct gzFile_s *, void *, unsigned int);
 static signed int is_big_endian(void);
 // lzma_alone_decoder
 // file /usr/include/lzma/container.h line 377
-extern enum anonymous$7 lzma_alone_decoder(struct anonymous$6 *, unsigned long int);
+extern enum anonymous_7 lzma_alone_decoder(struct anonymous_6 *, unsigned long int);
 // lzma_alone_encoder
 // file /usr/include/lzma/container.h line 213
-extern enum anonymous$7 lzma_alone_encoder(struct anonymous$6 *, const struct anonymous$4 *);
+extern enum anonymous_7 lzma_alone_encoder(struct anonymous_6 *, const struct anonymous_4 *);
 // lzma_code
 // file /usr/include/lzma/base.h line 537
-extern enum anonymous$7 lzma_code(struct anonymous$6 *, enum anonymous$9);
+extern enum anonymous_7 lzma_code(struct anonymous_6 *, enum anonymous_9);
 // lzma_end
 // file /usr/include/lzma/base.h line 554
-extern void lzma_end(struct anonymous$6 *);
+extern void lzma_end(struct anonymous_6 *);
 // lzma_lzma_preset
 // file /usr/include/lzma/lzma.h line 419
-extern unsigned char lzma_lzma_preset(struct anonymous$4 *, unsigned int);
+extern unsigned char lzma_lzma_preset(struct anonymous_4 *, unsigned int);
 // malloc
 // file /usr/include/stdlib.h line 466
 extern void * malloc(unsigned long int);
@@ -253,16 +253,16 @@ extern signed int pthread_attr_setdetachstate(union pthread_attr_t *, signed int
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$3 *);
+extern signed int pthread_mutex_destroy(union anonymous_3 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$3 *, const union anonymous$8 *);
+extern signed int pthread_mutex_init(union anonymous_3 *, const union anonymous_8 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$3 *);
+extern signed int pthread_mutex_lock(union anonymous_3 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$3 *);
+extern signed int pthread_mutex_unlock(union anonymous_3 *);
 // read
 // file /usr/include/unistd.h line 360
 extern signed long int read(signed int, void *, unsigned long int);
@@ -380,9 +380,9 @@ struct vzt_rd_trace * vzt_rd_init_smp(const char *name, unsigned int num_cpus);
 // vzt_rd_iter_blocks
 // file vzt_read.h line 281
 signed int vzt_rd_iter_blocks(struct vzt_rd_trace *lt, void (*value_change_callback)(struct vzt_rd_trace **, unsigned long int *, unsigned int *, char **), void *user_callback_data_pointer);
-// vzt_rd_iter_blocks::value_change_callback$object
+// vzt_rd_iter_blocks::value_change_callback_object
 //
-void value_change_callback$object(struct vzt_rd_trace **, unsigned long int *, unsigned int *, char **);
+void value_change_callback_object(struct vzt_rd_trace **, unsigned long int *, unsigned int *, char **);
 // vzt_rd_limit_time_range
 // file vzt_read.c line 1571
 unsigned int vzt_rd_limit_time_range(struct vzt_rd_trace *lt, unsigned long int strt_time, unsigned long int end_time);
@@ -413,21 +413,21 @@ void vzt_rd_process_blocks_linearly(struct vzt_rd_trace *lt, signed int doit);
 // vzt_rd_pthread_create
 // file vzt_read.c line 95
 static inline void vzt_rd_pthread_create(struct vzt_rd_trace *lt, unsigned long int *thread, union pthread_attr_t *attr, void * (*start_routine)(void *), void *arg);
-// vzt_rd_pthread_create::start_routine$object
+// vzt_rd_pthread_create::start_routine_object
 //
-void * start_routine$object(void *);
+void * start_routine_object(void *);
 // vzt_rd_pthread_mutex_destroy
 // file vzt_read.c line 90
-static inline void vzt_rd_pthread_mutex_destroy(struct vzt_rd_trace *lt, union anonymous$3 *mutex);
+static inline void vzt_rd_pthread_mutex_destroy(struct vzt_rd_trace *lt, union anonymous_3 *mutex);
 // vzt_rd_pthread_mutex_init
 // file vzt_read.c line 74
-static inline signed int vzt_rd_pthread_mutex_init(struct vzt_rd_trace *lt, union anonymous$3 *mutex, const union anonymous$8 *mutexattr);
+static inline signed int vzt_rd_pthread_mutex_init(struct vzt_rd_trace *lt, union anonymous_3 *mutex, const union anonymous_8 *mutexattr);
 // vzt_rd_pthread_mutex_lock
 // file vzt_read.c line 80
-static inline void vzt_rd_pthread_mutex_lock(struct vzt_rd_trace *lt, union anonymous$3 *mx);
+static inline void vzt_rd_pthread_mutex_lock(struct vzt_rd_trace *lt, union anonymous_3 *mx);
 // vzt_rd_pthread_mutex_unlock
 // file vzt_read.c line 85
-static inline void vzt_rd_pthread_mutex_unlock(struct vzt_rd_trace *lt, union anonymous$3 *mx);
+static inline void vzt_rd_pthread_mutex_unlock(struct vzt_rd_trace *lt, union anonymous_3 *mx);
 // vzt_rd_set_fac_process_mask_all
 // file vzt_read.h line 277
 signed int vzt_rd_set_fac_process_mask_all(struct vzt_rd_trace *);
@@ -456,7 +456,7 @@ extern signed int xdr_double(struct XDR *, double *);
 // file /usr/include/rpc/xdr.h line 350
 extern void xdrmem_create(struct XDR *, char *, unsigned int, enum xdr_op);
 
-struct anonymous$5
+struct anonymous_5
 {
   // alloc
   void * (*alloc)(void *, unsigned long int, unsigned long int);
@@ -466,7 +466,7 @@ struct anonymous$5
   void *opaque;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // next_in
   const unsigned char *next_in;
@@ -481,7 +481,7 @@ struct anonymous$6
   // total_out
   unsigned long int total_out;
   // allocator
-  struct anonymous$5 *allocator;
+  struct anonymous_5 *allocator;
   // internal
   struct lzma_internal_s *internal;
   // reserved_ptr1
@@ -501,12 +501,12 @@ struct anonymous$6
   // reserved_int4
   unsigned long int reserved_int4;
   // reserved_enum1
-  enum anonymous$2 reserved_enum1;
+  enum anonymous_2 reserved_enum1;
   // reserved_enum2
-  enum anonymous$2 reserved_enum2;
+  enum anonymous_2 reserved_enum2;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // dict_size
   unsigned int dict_size;
@@ -521,11 +521,11 @@ struct anonymous$4
   // pb
   unsigned int pb;
   // mode
-  enum anonymous$0 mode;
+  enum anonymous_0 mode;
   // nice_len
   unsigned int nice_len;
   // mf
-  enum anonymous$1 mf;
+  enum anonymous_1 mf;
   // depth
   unsigned int depth;
   // reserved_int1
@@ -545,20 +545,20 @@ struct anonymous$4
   // reserved_int8
   unsigned int reserved_int8;
   // reserved_enum1
-  enum anonymous$2 reserved_enum1;
+  enum anonymous_2 reserved_enum1;
   // reserved_enum2
-  enum anonymous$2 reserved_enum2;
+  enum anonymous_2 reserved_enum2;
   // reserved_enum3
-  enum anonymous$2 reserved_enum3;
+  enum anonymous_2 reserved_enum3;
   // reserved_enum4
-  enum anonymous$2 reserved_enum4;
+  enum anonymous_2 reserved_enum4;
   // reserved_ptr1
   void *reserved_ptr1;
   // reserved_ptr2
   void *reserved_ptr2;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // __size
   char __size[4l];
@@ -594,7 +594,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -815,7 +815,7 @@ struct vzt_rd_block
   // pth_attr
   union pthread_attr_t pth_attr;
   // mutex
-  union anonymous$3 mutex;
+  union anonymous_3 mutex;
   // last_rd_value_simtime
   unsigned long int last_rd_value_simtime;
   // last_rd_value_idx
@@ -927,7 +927,7 @@ struct vzt_rd_trace
   // block_mem_max
   unsigned long int block_mem_max;
   // mutex
-  union anonymous$3 mutex;
+  union anonymous_3 mutex;
   // pthreads
   unsigned int pthreads;
   // process_linear
@@ -1027,34 +1027,34 @@ void LZMA_close(void *handle)
 void * LZMA_fdopen(signed int fd, const char *mode)
 {
   struct lzma_handle_t *h;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct lzma_handle_t) /*56ul*/ );
-  h = (struct lzma_handle_t *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct lzma_handle_t) /*56ul*/ );
+  h = (struct lzma_handle_t *)return_value_calloc_1;
   h->fd = fd;
   h->offs = (unsigned int)0;
   h->depth = (unsigned int)4;
   if((signed int)*mode == 119)
   {
     h->blksiz = (unsigned int)(4 * 1024 * 1024);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)h->blksiz);
-    h->mem = (unsigned char *)return_value_malloc$2;
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)h->blksiz);
-    h->dmem = (unsigned char *)return_value_malloc$3;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)h->blksiz);
+    h->mem = (unsigned char *)return_value_malloc_2;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)h->blksiz);
+    h->dmem = (unsigned char *)return_value_malloc_3;
     if(!(mode[1l] == 0))
     {
-      const unsigned short int **return_value___ctype_b_loc$5;
-      return_value___ctype_b_loc$5=__ctype_b_loc();
-      if(!((2048 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)(unsigned char)mode[1l]]) == 0))
+      const unsigned short int **return_value___ctype_b_loc_5;
+      return_value___ctype_b_loc_5=__ctype_b_loc();
+      if(!((2048 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)(unsigned char)mode[1l]]) == 0))
         h->depth = (unsigned int)((signed int)mode[(signed long int)1] - 48);
 
       else
         if(!(mode[2l] == 0))
         {
-          const unsigned short int **return_value___ctype_b_loc$4;
-          return_value___ctype_b_loc$4=__ctype_b_loc();
-          if(!((2048 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)(unsigned char)mode[2l]]) == 0))
+          const unsigned short int **return_value___ctype_b_loc_4;
+          return_value___ctype_b_loc_4=__ctype_b_loc();
+          if(!((2048 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)(unsigned char)mode[2l]]) == 0))
             h->depth = (unsigned int)((signed int)mode[(signed long int)2] - 48);
 
         }
@@ -1062,10 +1062,10 @@ void * LZMA_fdopen(signed int fd, const char *mode)
     }
 
     h->state = (enum lzma_state_t)LZMA_STATE_WRITE;
-    signed long int return_value_write$6;
+    signed long int return_value_write_6;
     static const char z7[3l] = { 'z', '7', 0 };
-    return_value_write$6=write(h->fd, (const void *)z7, (unsigned long int)2);
-    h->write_cnt = h->write_cnt + (unsigned long int)return_value_write$6;
+    return_value_write_6=write(h->fd, (const void *)z7, (unsigned long int)2);
+    h->write_cnt = h->write_cnt + (unsigned long int)return_value_write_6;
     return (void *)h;
   }
 
@@ -1116,11 +1116,11 @@ unsigned long int LZMA_read(void *handle, void *mem, unsigned long int len)
   char hdr[2l] = { (char)0, (char)0 };
   unsigned long int srclen;
   unsigned long int dstlen;
-  signed long int return_value_read$1;
-  _Bool tmp_if_expr$2;
-  struct anonymous$6 strm;
-  enum anonymous$7 lrc;
-  signed long int return_value_read$6;
+  signed long int return_value_read_1;
+  _Bool tmp_if_expr_2;
+  struct anonymous_6 strm;
+  enum anonymous_7 lrc;
+  signed long int return_value_read_6;
   if(!(h == ((struct lzma_handle_t *)NULL)))
   {
 
@@ -1142,14 +1142,14 @@ unsigned long int LZMA_read(void *handle, void *mem, unsigned long int len)
         goto __CPROVER_DUMP_L23;
       }
 
-      return_value_read$1=read(h->fd, (void *)hdr, (unsigned long int)2);
-      h->read_cnt = h->read_cnt + (unsigned long int)return_value_read$1;
+      return_value_read_1=read(h->fd, (void *)hdr, (unsigned long int)2);
+      h->read_cnt = h->read_cnt + (unsigned long int)return_value_read_1;
       if((signed int)hdr[0l] == 122)
-        tmp_if_expr$2 = (signed int)hdr[(signed long int)1] == 55 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)hdr[(signed long int)1] == 55 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
         h->state = (enum lzma_state_t)LZMA_STATE_READ_GETBLOCK;
 
       else
@@ -1171,30 +1171,30 @@ unsigned long int LZMA_read(void *handle, void *mem, unsigned long int len)
           free((void *)h->mem);
 
         h->blksiz = (unsigned int)dstlen;
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc((unsigned long int)h->blksiz);
-        h->mem = (unsigned char *)return_value_malloc$3;
-        void *return_value_malloc$4;
-        return_value_malloc$4=malloc((unsigned long int)h->blksiz);
-        h->dmem = (unsigned char *)return_value_malloc$4;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc((unsigned long int)h->blksiz);
+        h->mem = (unsigned char *)return_value_malloc_3;
+        void *return_value_malloc_4;
+        return_value_malloc_4=malloc((unsigned long int)h->blksiz);
+        h->dmem = (unsigned char *)return_value_malloc_4;
       }
 
       srclen=LZMA_read_varint(h);
       if(srclen == 0ul)
       {
-        signed long int return_value_read$5;
-        return_value_read$5=read(h->fd, (void *)h->mem, dstlen);
-        rc = (unsigned long int)return_value_read$5;
+        signed long int return_value_read_5;
+        return_value_read_5=read(h->fd, (void *)h->mem, dstlen);
+        rc = (unsigned long int)return_value_read_5;
         h->read_cnt = h->read_cnt + rc;
         h->blklen = (unsigned int)rc;
         h->offs = (unsigned int)0;
         goto __CPROVER_DUMP_L16;
       }
 
-      strm = (struct anonymous$6){ .next_in=(const unsigned char *)(void *)0, .avail_in=(unsigned long int)0,
+      strm = (struct anonymous_6){ .next_in=(const unsigned char *)(void *)0, .avail_in=(unsigned long int)0,
     .total_in=(unsigned long int)0, .next_out=(unsigned char *)(void *)0,
     .avail_out=(unsigned long int)0,
-    .total_out=(unsigned long int)0, .allocator=(struct anonymous$5 *)(void *)0,
+    .total_out=(unsigned long int)0, .allocator=(struct anonymous_5 *)(void *)0,
     .internal=(struct lzma_internal_s *)(void *)0,
     .reserved_ptr1=(void *)0,
     .reserved_ptr2=(void *)0, .reserved_ptr3=(void *)0,
@@ -1202,10 +1202,10 @@ unsigned long int LZMA_read(void *handle, void *mem, unsigned long int len)
     .reserved_int2=(unsigned long int)0,
     .reserved_int3=(unsigned long int)0,
     .reserved_int4=(unsigned long int)0,
-    .reserved_enum1=(enum anonymous$2)LZMA_RESERVED_ENUM,
-    .reserved_enum2=(enum anonymous$2)LZMA_RESERVED_ENUM };
-      return_value_read$6=read(h->fd, (void *)h->dmem, srclen);
-      rc = (unsigned long int)return_value_read$6;
+    .reserved_enum1=(enum anonymous_2)LZMA_RESERVED_ENUM,
+    .reserved_enum2=(enum anonymous_2)LZMA_RESERVED_ENUM };
+      return_value_read_6=read(h->fd, (void *)h->dmem, srclen);
+      rc = (unsigned long int)return_value_read_6;
       h->read_cnt = h->read_cnt + rc;
       lrc=lzma_alone_decoder(&strm, (unsigned long int)(256 * 1024 * 1024));
       if(!((signed int)lrc == LZMA_OK))
@@ -1218,7 +1218,7 @@ unsigned long int LZMA_read(void *handle, void *mem, unsigned long int len)
       strm.avail_in = srclen;
       strm.next_out = h->mem;
       strm.avail_out = (unsigned long int)h->blksiz;
-      lrc=lzma_code(&strm, (enum anonymous$9)LZMA_RUN);
+      lrc=lzma_code(&strm, (enum anonymous_9)LZMA_RUN);
       lzma_end(&strm);
       if((signed int)lrc == LZMA_OK || (signed int)lrc == LZMA_STREAM_END)
       {
@@ -1243,9 +1243,9 @@ unsigned long int LZMA_read(void *handle, void *mem, unsigned long int len)
     else
     {
       memcpy(mem, (const void *)h->mem, dstlen);
-      unsigned long int return_value_LZMA_read$7;
-      return_value_LZMA_read$7=LZMA_read((void *)h, (void *)((char *)mem + (signed long int)dstlen), len - dstlen);
-      rc = dstlen + return_value_LZMA_read$7;
+      unsigned long int return_value_LZMA_read_7;
+      return_value_LZMA_read_7=LZMA_read((void *)h, (void *)((char *)mem + (signed long int)dstlen), len - dstlen);
+      rc = dstlen + return_value_LZMA_read_7;
     }
     goto __CPROVER_DUMP_L24;
 
@@ -1272,9 +1272,9 @@ unsigned long int LZMA_read(void *handle, void *mem, unsigned long int len)
         unsigned long int cpylen = (unsigned long int)(h->blklen - h->offs);
         memcpy(mem, (const void *)(h->mem + (signed long int)h->offs), cpylen);
         h->state = (enum lzma_state_t)LZMA_STATE_READ_GETBLOCK;
-        unsigned long int return_value_LZMA_read$8;
-        return_value_LZMA_read$8=LZMA_read((void *)h, (void *)((char *)mem + (signed long int)cpylen), len - cpylen);
-        rc = cpylen + return_value_LZMA_read$8;
+        unsigned long int return_value_LZMA_read_8;
+        return_value_LZMA_read_8=LZMA_read((void *)h, (void *)((char *)mem + (signed long int)cpylen), len - cpylen);
+        rc = cpylen + return_value_LZMA_read_8;
       }
     goto __CPROVER_DUMP_L24;
 
@@ -1296,15 +1296,15 @@ static unsigned long int LZMA_read_varint(struct lzma_handle_t *h)
   unsigned char buf[16l];
   signed int idx = 0;
   unsigned long int rc = (unsigned long int)0;
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   do
   {
-    signed long int return_value_read$1;
-    return_value_read$1=read(h->fd, (void *)(buf + (signed long int)idx), (unsigned long int)1);
-    h->read_cnt = h->read_cnt + (unsigned long int)return_value_read$1;
-    tmp_post$2 = idx;
+    signed long int return_value_read_1;
+    return_value_read_1=read(h->fd, (void *)(buf + (signed long int)idx), (unsigned long int)1);
+    h->read_cnt = h->read_cnt + (unsigned long int)return_value_read_1;
+    tmp_post_2 = idx;
     idx = idx + 1;
-    if(!((0x80 & (signed int)buf[(signed long int)tmp_post$2]) == 0))
+    if(!((0x80 & (signed int)buf[(signed long int)tmp_post_2]) == 0))
       break;
 
   }
@@ -1354,10 +1354,10 @@ static unsigned long int LZMA_write_compress(struct lzma_handle_t *h, unsigned c
 {
   unsigned long int srclen = len;
   unsigned long int destlen = (unsigned long int)h->blksiz;
-  struct anonymous$6 strm = { .next_in=(const unsigned char *)(void *)0, .avail_in=(unsigned long int)0,
+  struct anonymous_6 strm = { .next_in=(const unsigned char *)(void *)0, .avail_in=(unsigned long int)0,
     .total_in=(unsigned long int)0, .next_out=(unsigned char *)(void *)0,
     .avail_out=(unsigned long int)0,
-    .total_out=(unsigned long int)0, .allocator=(struct anonymous$5 *)(void *)0,
+    .total_out=(unsigned long int)0, .allocator=(struct anonymous_5 *)(void *)0,
     .internal=(struct lzma_internal_s *)(void *)0,
     .reserved_ptr1=(void *)0,
     .reserved_ptr2=(void *)0, .reserved_ptr3=(void *)0,
@@ -1365,10 +1365,10 @@ static unsigned long int LZMA_write_compress(struct lzma_handle_t *h, unsigned c
     .reserved_int2=(unsigned long int)0,
     .reserved_int3=(unsigned long int)0,
     .reserved_int4=(unsigned long int)0,
-    .reserved_enum1=(enum anonymous$2)LZMA_RESERVED_ENUM,
-    .reserved_enum2=(enum anonymous$2)LZMA_RESERVED_ENUM };
-  struct anonymous$4 preset;
-  enum anonymous$7 lrc;
+    .reserved_enum1=(enum anonymous_2)LZMA_RESERVED_ENUM,
+    .reserved_enum2=(enum anonymous_2)LZMA_RESERVED_ENUM };
+  struct anonymous_4 preset;
+  enum anonymous_7 lrc;
   unsigned long int wcnt;
   lzma_lzma_preset(&preset, h->depth);
   lrc=lzma_alone_encoder(&strm, &preset);
@@ -1382,15 +1382,15 @@ static unsigned long int LZMA_write_compress(struct lzma_handle_t *h, unsigned c
   strm.avail_in = len;
   strm.next_out = h->dmem;
   strm.avail_out = destlen;
-  lrc=lzma_code(&strm, (enum anonymous$9)LZMA_FINISH);
+  lrc=lzma_code(&strm, (enum anonymous_9)LZMA_FINISH);
   lzma_end(&strm);
   if(!(strm.total_out >= srclen) && ((signed int)lrc == LZMA_OK || (signed int)lrc == LZMA_STREAM_END))
   {
     LZMA_write_varint(h, srclen);
     LZMA_write_varint(h, strm.total_out);
-    signed long int return_value_write$1;
-    return_value_write$1=write(h->fd, (const void *)h->dmem, strm.total_out);
-    wcnt = (unsigned long int)return_value_write$1;
+    signed long int return_value_write_1;
+    return_value_write_1=write(h->fd, (const void *)h->dmem, strm.total_out);
+    wcnt = (unsigned long int)return_value_write_1;
     h->write_cnt = h->write_cnt + wcnt;
     return wcnt;
   }
@@ -1399,9 +1399,9 @@ static unsigned long int LZMA_write_compress(struct lzma_handle_t *h, unsigned c
   {
     LZMA_write_varint(h, srclen);
     LZMA_write_varint(h, (unsigned long int)0);
-    signed long int return_value_write$2;
-    return_value_write$2=write(h->fd, (const void *)mem, len);
-    wcnt = (unsigned long int)return_value_write$2;
+    signed long int return_value_write_2;
+    return_value_write_2=write(h->fd, (const void *)mem, len);
+    wcnt = (unsigned long int)return_value_write_2;
     h->write_cnt = h->write_cnt + wcnt;
     return wcnt;
   }
@@ -1414,32 +1414,32 @@ static void LZMA_write_varint(struct lzma_handle_t *h, unsigned long int v)
   unsigned long int nxt;
   unsigned char buf[16l];
   unsigned char *pnt = buf;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   do
   {
     nxt = v >> 7;
     if(nxt == 0ul)
       break;
 
-    tmp_post$1 = pnt;
+    tmp_post_1 = pnt;
     pnt = pnt + 1l;
-    *tmp_post$1 = (unsigned char)(v & (unsigned long int)0x7f);
+    *tmp_post_1 = (unsigned char)(v & (unsigned long int)0x7f);
     v = nxt;
   }
   while((_Bool)1);
-  unsigned char *tmp_post$2 = pnt;
+  unsigned char *tmp_post_2 = pnt;
   pnt = pnt + 1l;
-  *tmp_post$2 = (unsigned char)(v & (unsigned long int)0x7f | (unsigned long int)0x80);
-  signed long int return_value_write$3;
-  return_value_write$3=write(h->fd, (const void *)buf, (unsigned long int)(pnt - buf));
-  h->write_cnt = h->write_cnt + (unsigned long int)return_value_write$3;
+  *tmp_post_2 = (unsigned char)(v & (unsigned long int)0x7f | (unsigned long int)0x80);
+  signed long int return_value_write_3;
+  return_value_write_3=write(h->fd, (const void *)buf, (unsigned long int)(pnt - buf));
+  h->write_cnt = h->write_cnt + (unsigned long int)return_value_write_3;
 }
 
 // is_big_endian
 // file vzt_read.c line 41
 static signed int is_big_endian(void)
 {
-  /* tag-#anon#lUN[U32'u32'||lARR4{U8}$U8$'c'|] */
+  /* tag-#anon#lUN[U32'u32'||lARR4{U8}_U8_'c'|] */
 union anonymous
 {
   // u32
@@ -1471,9 +1471,9 @@ signed int main(signed int argc, char **argv)
   wlve=getenv("LANG");
   if(!(wlve == ((char *)NULL)))
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(wlve, "C");
-    if(!(return_value_strcmp$1 == 0))
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(wlve, "C");
+    if(!(return_value_strcmp_1 == 0))
     {
       setenv("LC_NUMERIC", "C", 1);
       setenv("LC_COLLATE", "C", 1);
@@ -1485,19 +1485,19 @@ signed int main(signed int argc, char **argv)
   wlve=getenv("LC_ALL");
   if(!(wlve == ((char *)NULL)))
   {
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(wlve, "C");
-    if(!(return_value_strcmp$2 == 0))
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(wlve, "C");
+    if(!(return_value_strcmp_2 == 0))
       unsetenv("LC_ALL");
 
   }
 
-  unsigned long int return_value_strlen$3;
-  void *return_value_malloc$4;
-  unsigned long int return_value_strlen$5;
-  void *return_value_malloc$6;
-  unsigned long int return_value_strlen$7;
-  void *return_value_malloc$8;
+  unsigned long int return_value_strlen_3;
+  void *return_value_malloc_4;
+  unsigned long int return_value_strlen_5;
+  void *return_value_malloc_6;
+  unsigned long int return_value_strlen_7;
+  void *return_value_malloc_8;
   while((_Bool)1)
   {
     signed int option_index = 0;
@@ -1530,9 +1530,9 @@ signed int main(signed int argc, char **argv)
         if(!(lxname == ((char *)NULL)))
           free((void *)lxname);
 
-        return_value_strlen$3=strlen(optarg);
-        return_value_malloc$4=malloc(return_value_strlen$3 + (unsigned long int)1);
-        lxname = (char *)return_value_malloc$4;
+        return_value_strlen_3=strlen(optarg);
+        return_value_malloc_4=malloc(return_value_strlen_3 + (unsigned long int)1);
+        lxname = (char *)return_value_malloc_4;
         strcpy(lxname, optarg);
         break;
       }
@@ -1541,10 +1541,10 @@ signed int main(signed int argc, char **argv)
         if(!(match == ((char *)NULL)))
           free((void *)match);
 
-        return_value_strlen$5=strlen(optarg);
-        matchlen = (unsigned int)return_value_strlen$5;
-        return_value_malloc$6=malloc((unsigned long int)(matchlen + (unsigned int)1));
-        match = (char *)return_value_malloc$6;
+        return_value_strlen_5=strlen(optarg);
+        matchlen = (unsigned int)return_value_strlen_5;
+        return_value_malloc_6=malloc((unsigned long int)(matchlen + (unsigned int)1));
+        match = (char *)return_value_malloc_6;
         strcpy(match, optarg);
         break;
       }
@@ -1553,10 +1553,10 @@ signed int main(signed int argc, char **argv)
         if(!(match == ((char *)NULL)))
           free((void *)match);
 
-        return_value_strlen$7=strlen(optarg);
-        matchlen = (unsigned int)((unsigned long int)4 * return_value_strlen$7);
-        return_value_malloc$8=malloc((unsigned long int)(matchlen + (unsigned int)1));
-        match = (char *)return_value_malloc$8;
+        return_value_strlen_7=strlen(optarg);
+        matchlen = (unsigned int)((unsigned long int)4 * return_value_strlen_7);
+        return_value_malloc_8=malloc((unsigned long int)(matchlen + (unsigned int)1));
+        match = (char *)return_value_malloc_8;
         i = (unsigned int)0;
         k = (unsigned int)0;
         for( ; !(i >= matchlen); k = k + 1u)
@@ -1619,21 +1619,21 @@ signed int main(signed int argc, char **argv)
   if(!(opt_errors_encountered == 0))
     print_help(argv[(signed long int)0]);
 
-  signed int tmp_post$11;
+  signed int tmp_post_11;
   if(!(optind >= argc))
     while(!(optind >= argc))
     {
       if(!(lxname == ((char *)NULL)))
         free((void *)lxname);
 
-      unsigned long int return_value_strlen$9;
-      return_value_strlen$9=strlen(argv[(signed long int)optind]);
-      void *return_value_malloc$10;
-      return_value_malloc$10=malloc(return_value_strlen$9 + (unsigned long int)1);
-      lxname = (char *)return_value_malloc$10;
-      tmp_post$11 = optind;
+      unsigned long int return_value_strlen_9;
+      return_value_strlen_9=strlen(argv[(signed long int)optind]);
+      void *return_value_malloc_10;
+      return_value_malloc_10=malloc(return_value_strlen_9 + (unsigned long int)1);
+      lxname = (char *)return_value_malloc_10;
+      tmp_post_11 = optind;
       optind = optind + 1;
-      strcpy(lxname, argv[(signed long int)tmp_post$11]);
+      strcpy(lxname, argv[(signed long int)tmp_post_11]);
     }
 
   if(lxname == ((char *)NULL))
@@ -1662,12 +1662,12 @@ signed int process_vzt(char *fname)
   {
     signed int numfacs;
     vzt_rd_vectorize(lt);
-    unsigned int return_value_vzt_rd_get_num_facs$1;
-    return_value_vzt_rd_get_num_facs$1=vzt_rd_get_num_facs(lt);
-    numfacs = (signed int)return_value_vzt_rd_get_num_facs$1;
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)numfacs, sizeof(char) /*1ul*/ );
-    killed_list = (char *)return_value_calloc$2;
+    unsigned int return_value_vzt_rd_get_num_facs_1;
+    return_value_vzt_rd_get_num_facs_1=vzt_rd_get_num_facs(lt);
+    numfacs = (signed int)return_value_vzt_rd_get_num_facs_1;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)numfacs, sizeof(char) /*1ul*/ );
+    killed_list = (char *)return_value_calloc_2;
     vzt_rd_set_fac_process_mask_all(lt);
     vzt_rd_set_max_block_mem_usage(lt, (unsigned long int)0);
     vzt_rd_iter_blocks(lt, vcd_callback, (void *)0);
@@ -1701,36 +1701,36 @@ void vcd_callback(struct vzt_rd_trace **lt, unsigned long int *pnt_time, unsigne
     if(!(vcd_blackout == 0))
       vcd_blackout = (char)0;
 
-  _Bool tmp_if_expr$8;
-  char *return_value_strstr$7;
+  _Bool tmp_if_expr_8;
+  char *return_value_strstr_7;
   if(g->len >= matchlen)
   {
     if(killed_list[(signed long int)*pnt_facidx] == 0)
     {
       if(match == ((char *)NULL))
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_8 = (_Bool)1;
 
       else
       {
-        return_value_strstr$7=strstr(*pnt_value, match);
-        tmp_if_expr$8 = return_value_strstr$7 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+        return_value_strstr_7=strstr(*pnt_value, match);
+        tmp_if_expr_8 = return_value_strstr_7 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$8)
+      if(tmp_if_expr_8)
       {
         if(g->len >= 2u)
         {
           if(names_only == 0)
           {
-            char *return_value_vzt_rd_get_facname$1;
-            return_value_vzt_rd_get_facname$1=vzt_rd_get_facname(*lt, *pnt_facidx);
-            printf("#%ld %s[%d:%d] %s\n", *pnt_time, return_value_vzt_rd_get_facname$1, g->msb, g->lsb, *pnt_value);
+            char *return_value_vzt_rd_get_facname_1;
+            return_value_vzt_rd_get_facname_1=vzt_rd_get_facname(*lt, *pnt_facidx);
+            printf("#%ld %s[%d:%d] %s\n", *pnt_time, return_value_vzt_rd_get_facname_1, g->msb, g->lsb, *pnt_value);
           }
 
           else
           {
-            char *return_value_vzt_rd_get_facname$2;
-            return_value_vzt_rd_get_facname$2=vzt_rd_get_facname(*lt, *pnt_facidx);
-            printf("%s[%d:%d]\n", return_value_vzt_rd_get_facname$2, g->msb, g->lsb);
+            char *return_value_vzt_rd_get_facname_2;
+            return_value_vzt_rd_get_facname_2=vzt_rd_get_facname(*lt, *pnt_facidx);
+            printf("%s[%d:%d]\n", return_value_vzt_rd_get_facname_2, g->msb, g->lsb);
           }
         }
 
@@ -1739,32 +1739,32 @@ void vcd_callback(struct vzt_rd_trace **lt, unsigned long int *pnt_time, unsigne
           {
             if(names_only == 0)
             {
-              char *return_value_vzt_rd_get_facname$3;
-              return_value_vzt_rd_get_facname$3=vzt_rd_get_facname(*lt, *pnt_facidx);
-              printf("#%ld %s %s\n", *pnt_time, return_value_vzt_rd_get_facname$3, *pnt_value);
+              char *return_value_vzt_rd_get_facname_3;
+              return_value_vzt_rd_get_facname_3=vzt_rd_get_facname(*lt, *pnt_facidx);
+              printf("#%ld %s %s\n", *pnt_time, return_value_vzt_rd_get_facname_3, *pnt_value);
             }
 
             else
             {
-              char *return_value_vzt_rd_get_facname$4;
-              return_value_vzt_rd_get_facname$4=vzt_rd_get_facname(*lt, *pnt_facidx);
-              printf("%s\n", return_value_vzt_rd_get_facname$4);
+              char *return_value_vzt_rd_get_facname_4;
+              return_value_vzt_rd_get_facname_4=vzt_rd_get_facname(*lt, *pnt_facidx);
+              printf("%s\n", return_value_vzt_rd_get_facname_4);
             }
           }
 
           else
             if(names_only == 0)
             {
-              char *return_value_vzt_rd_get_facname$5;
-              return_value_vzt_rd_get_facname$5=vzt_rd_get_facname(*lt, *pnt_facidx);
-              printf("#%ld %s[%d] %s\n", *pnt_time, return_value_vzt_rd_get_facname$5, g->msb, *pnt_value);
+              char *return_value_vzt_rd_get_facname_5;
+              return_value_vzt_rd_get_facname_5=vzt_rd_get_facname(*lt, *pnt_facidx);
+              printf("#%ld %s[%d] %s\n", *pnt_time, return_value_vzt_rd_get_facname_5, g->msb, *pnt_value);
             }
 
             else
             {
-              char *return_value_vzt_rd_get_facname$6;
-              return_value_vzt_rd_get_facname$6=vzt_rd_get_facname(*lt, *pnt_facidx);
-              printf("%s[%d]\n", return_value_vzt_rd_get_facname$6, g->msb);
+              char *return_value_vzt_rd_get_facname_6;
+              return_value_vzt_rd_get_facname_6=vzt_rd_get_facname(*lt, *pnt_facidx);
+              printf("%s[%d]\n", return_value_vzt_rd_get_facname_6, g->msb);
             }
         if(!(killed_value == 0))
         {
@@ -1788,8 +1788,8 @@ __CPROVER_DUMP_L16:
 static void vzt_rd_block_vch_decode(struct vzt_rd_trace *lt, struct vzt_rd_block *b)
 {
   vzt_rd_pthread_mutex_lock(lt, &b->mutex);
-  unsigned long int tmp_post$3;
-  unsigned int tmp_post$9;
+  unsigned long int tmp_post_3;
+  unsigned int tmp_post_9;
   if(b->times == ((unsigned long int *)NULL))
   {
     if(!(b->mem == ((char *)NULL)))
@@ -1811,19 +1811,19 @@ static void vzt_rd_block_vch_decode(struct vzt_rd_trace *lt, struct vzt_rd_block
       num_time_ticks=vzt_rd_get_v32(&pnt);
       if(!(num_time_ticks == 0u))
       {
-        unsigned long int vzt_rd_block_vch_decode$$1$$1$$1$$cur_time;
-        void *return_value_malloc$1;
-        return_value_malloc$1=malloc((unsigned long int)num_time_ticks * sizeof(unsigned long int) /*8ul*/ );
-        times = (unsigned long int *)return_value_malloc$1;
-        vzt_rd_block_vch_decode$$1$$1$$1$$cur_time=vzt_rd_get_v64(&pnt);
-        times[(signed long int)0] = vzt_rd_block_vch_decode$$1$$1$$1$$cur_time;
+        unsigned long int vzt_rd_block_vch_decode__1__1__1__cur_time;
+        void *return_value_malloc_1;
+        return_value_malloc_1=malloc((unsigned long int)num_time_ticks * sizeof(unsigned long int) /*8ul*/ );
+        times = (unsigned long int *)return_value_malloc_1;
+        vzt_rd_block_vch_decode__1__1__1__cur_time=vzt_rd_get_v64(&pnt);
+        times[(signed long int)0] = vzt_rd_block_vch_decode__1__1__1__cur_time;
         i = (unsigned int)1;
         for( ; !(i >= num_time_ticks); i = i + 1u)
         {
           unsigned long int delta;
           delta=vzt_rd_get_v64(&pnt);
-          vzt_rd_block_vch_decode$$1$$1$$1$$cur_time = vzt_rd_block_vch_decode$$1$$1$$1$$cur_time + delta;
-          times[(signed long int)i] = vzt_rd_block_vch_decode$$1$$1$$1$$cur_time;
+          vzt_rd_block_vch_decode__1__1__1__cur_time = vzt_rd_block_vch_decode__1__1__1__cur_time + delta;
+          times[(signed long int)i] = vzt_rd_block_vch_decode__1__1__1__cur_time;
         }
       }
 
@@ -1831,15 +1831,15 @@ static void vzt_rd_block_vch_decode(struct vzt_rd_trace *lt, struct vzt_rd_block
       {
         unsigned long int cur_time = b->start;
         num_time_ticks = (unsigned int)((b->end - b->start) + (unsigned long int)1);
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc((unsigned long int)num_time_ticks * sizeof(unsigned long int) /*8ul*/ );
-        times = (unsigned long int *)return_value_malloc$2;
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc((unsigned long int)num_time_ticks * sizeof(unsigned long int) /*8ul*/ );
+        times = (unsigned long int *)return_value_malloc_2;
         i = (unsigned int)0;
         for( ; !(i >= num_time_ticks); i = i + 1u)
         {
-          tmp_post$3 = cur_time;
+          tmp_post_3 = cur_time;
           cur_time = cur_time + 1ul;
-          times[(signed long int)i] = tmp_post$3;
+          times[(signed long int)i] = tmp_post_3;
         }
       }
       num_sections=vzt_rd_get_v32(&pnt);
@@ -1854,9 +1854,9 @@ static void vzt_rd_block_vch_decode(struct vzt_rd_trace *lt, struct vzt_rd_block
         unsigned int runlen;
         num_dict_words = num_sections * num_dict_entries;
         b->num_rle_bytes = (unsigned int)((unsigned long int)num_dict_words * sizeof(unsigned int) /*4ul*/ );
-        void *return_value_calloc$4;
-        return_value_calloc$4=calloc((unsigned long int)1, (unsigned long int)b->num_rle_bytes);
-        val_dict = (unsigned int *)return_value_calloc$4;
+        void *return_value_calloc_4;
+        return_value_calloc_4=calloc((unsigned long int)1, (unsigned long int)b->num_rle_bytes);
+        val_dict = (unsigned int *)return_value_calloc_4;
         curr_dec_dict = val_dict;
         vzt_rd_pthread_mutex_lock(lt, &lt->mutex);
         lt->block_mem_consumed = lt->block_mem_consumed + (unsigned long int)b->num_rle_bytes;
@@ -1916,9 +1916,9 @@ static void vzt_rd_block_vch_decode(struct vzt_rd_trace *lt, struct vzt_rd_block
       padskip = (unsigned long int)pnt & (unsigned long int)3;
       pnt = pnt + (signed long int)(padskip != 0ul ? (unsigned long int)4 - padskip : (unsigned long int)0);
       b->vindex = (unsigned int *)pnt;
-      signed int return_value_is_big_endian$5;
-      return_value_is_big_endian$5=is_big_endian();
-      if(!(return_value_is_big_endian$5 == 0))
+      signed int return_value_is_big_endian_5;
+      return_value_is_big_endian_5=is_big_endian();
+      if(!(return_value_is_big_endian_5 == 0))
       {
         if(b->rle == 0u)
         {
@@ -1944,23 +1944,23 @@ static void vzt_rd_block_vch_decode(struct vzt_rd_trace *lt, struct vzt_rd_block
       b->num_str_entries=vzt_rd_get_v32(&pnt);
       if(!(b->num_str_entries == 0u))
       {
-        void *return_value_calloc$6;
-        return_value_calloc$6=calloc((unsigned long int)b->num_str_entries, sizeof(char *) /*8ul*/ );
-        b->sindex = (char **)return_value_calloc$6;
+        void *return_value_calloc_6;
+        return_value_calloc_6=calloc((unsigned long int)b->num_str_entries, sizeof(char *) /*8ul*/ );
+        b->sindex = (char **)return_value_calloc_6;
         i = (unsigned int)0;
         for( ; !(i >= b->num_str_entries); i = i + 1u)
         {
           b->sindex[(signed long int)i] = pnt;
-          unsigned long int return_value_strlen$7;
-          return_value_strlen$7=strlen(pnt);
-          pnt = pnt + (signed long int)(return_value_strlen$7 + (unsigned long int)1);
+          unsigned long int return_value_strlen_7;
+          return_value_strlen_7=strlen(pnt);
+          pnt = pnt + (signed long int)(return_value_strlen_7 + (unsigned long int)1);
         }
       }
 
       num_dict_words = (unsigned int)((unsigned long int)(num_sections * num_dict_entries) * sizeof(unsigned int) /*4ul*/ );
-      void *return_value_malloc$8;
-      return_value_malloc$8=malloc(num_dict_words != 0u ? (unsigned long int)num_dict_words : sizeof(unsigned int) /*4ul*/ );
-      change_dict = (unsigned int *)return_value_malloc$8;
+      void *return_value_malloc_8;
+      return_value_malloc_8=malloc(num_dict_words != 0u ? (unsigned long int)num_dict_words : sizeof(unsigned int) /*4ul*/ );
+      change_dict = (unsigned int *)return_value_malloc_8;
       m = (unsigned int)0;
       i = (unsigned int)0;
       for( ; !(i >= num_dict_entries); i = i + 1u)
@@ -1971,9 +1971,9 @@ static void vzt_rd_block_vch_decode(struct vzt_rd_trace *lt, struct vzt_rd_block
         {
           unsigned int k = val_dict[(signed long int)m];
           unsigned int l = k ^ k << 1 ^ pbit;
-          tmp_post$9 = m;
+          tmp_post_9 = m;
           m = m + 1u;
-          change_dict[(signed long int)tmp_post$9] = l;
+          change_dict[(signed long int)tmp_post_9] = l;
           pbit = k >> 31;
         }
       }
@@ -2173,43 +2173,43 @@ static void vzt_rd_decompress_blk(struct vzt_rd_trace *lt, struct vzt_rd_block *
     handle = lt->handle;
   fseeko(handle, b->filepos, 0);
   vzt_rd_pthread_mutex_lock(lt, &b->mutex);
-  signed int return_value_fileno$2;
-  signed int return_value_dup$3;
-  struct gzFile_s *return_value_gzdopen$4;
-  signed int return_value_gzread$5;
-  signed int return_value_fileno$6;
-  signed int return_value_dup$7;
-  signed int return_value_BZ2_bzread$8;
-  signed int return_value_fileno$9;
-  signed int return_value_dup$10;
-  unsigned long int return_value_LZMA_read$11;
+  signed int return_value_fileno_2;
+  signed int return_value_dup_3;
+  struct gzFile_s *return_value_gzdopen_4;
+  signed int return_value_gzread_5;
+  signed int return_value_fileno_6;
+  signed int return_value_dup_7;
+  signed int return_value_BZ2_bzread_8;
+  signed int return_value_fileno_9;
+  signed int return_value_dup_10;
+  unsigned long int return_value_LZMA_read_11;
   if(b->killed == 0u)
   {
     if(b->mem == ((char *)NULL))
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)b->uncompressed_siz);
-      b->mem = (char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)b->uncompressed_siz);
+      b->mem = (char *)return_value_malloc_1;
       switch((signed int)b->ztype)
       {
         case 0:
         {
-          return_value_fileno$2=fileno(handle);
-          return_value_dup$3=dup(return_value_fileno$2);
-          return_value_gzdopen$4=gzdopen(return_value_dup$3, "rb");
-          zhandle = (void *)return_value_gzdopen$4;
-          return_value_gzread$5=gzread((struct gzFile_s *)zhandle, (void *)b->mem, b->uncompressed_siz);
-          rc = (unsigned int)return_value_gzread$5;
+          return_value_fileno_2=fileno(handle);
+          return_value_dup_3=dup(return_value_fileno_2);
+          return_value_gzdopen_4=gzdopen(return_value_dup_3, "rb");
+          zhandle = (void *)return_value_gzdopen_4;
+          return_value_gzread_5=gzread((struct gzFile_s *)zhandle, (void *)b->mem, b->uncompressed_siz);
+          rc = (unsigned int)return_value_gzread_5;
           gzclose((struct gzFile_s *)zhandle);
           break;
         }
         case 1:
         {
-          return_value_fileno$6=fileno(handle);
-          return_value_dup$7=dup(return_value_fileno$6);
-          zhandle=BZ2_bzdopen(return_value_dup$7, "rb");
-          return_value_BZ2_bzread$8=BZ2_bzread(zhandle, (void *)b->mem, (signed int)b->uncompressed_siz);
-          rc = (unsigned int)return_value_BZ2_bzread$8;
+          return_value_fileno_6=fileno(handle);
+          return_value_dup_7=dup(return_value_fileno_6);
+          zhandle=BZ2_bzdopen(return_value_dup_7, "rb");
+          return_value_BZ2_bzread_8=BZ2_bzread(zhandle, (void *)b->mem, (signed int)b->uncompressed_siz);
+          rc = (unsigned int)return_value_BZ2_bzread_8;
           BZ2_bzclose(zhandle);
           break;
         }
@@ -2217,11 +2217,11 @@ static void vzt_rd_decompress_blk(struct vzt_rd_trace *lt, struct vzt_rd_block *
 
         default:
         {
-          return_value_fileno$9=fileno(handle);
-          return_value_dup$10=dup(return_value_fileno$9);
-          zhandle=LZMA_fdopen(return_value_dup$10, "rb");
-          return_value_LZMA_read$11=LZMA_read(zhandle, (void *)b->mem, (unsigned long int)b->uncompressed_siz);
-          rc = (unsigned int)return_value_LZMA_read$11;
+          return_value_fileno_9=fileno(handle);
+          return_value_dup_10=dup(return_value_fileno_9);
+          zhandle=LZMA_fdopen(return_value_dup_10, "rb");
+          return_value_LZMA_read_11=LZMA_read(zhandle, (void *)b->mem, (unsigned long int)b->uncompressed_siz);
+          rc = (unsigned int)return_value_LZMA_read_11;
           LZMA_close(zhandle);
         }
       }
@@ -2254,9 +2254,9 @@ static void vzt_rd_decompress_blk(struct vzt_rd_trace *lt, struct vzt_rd_block *
 static void vzt_rd_decompress_blk_pth(struct vzt_rd_trace *lt, struct vzt_rd_block *b)
 {
   struct vzt_pth_args *vpa;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct vzt_pth_args) /*16ul*/ );
-  vpa = (struct vzt_pth_args *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct vzt_pth_args) /*16ul*/ );
+  vpa = (struct vzt_pth_args *)return_value_malloc_1;
   vpa->lt = lt;
   vpa->b = b;
   vzt_rd_pthread_create(lt, &b->pth, &b->pth_attr, vzt_rd_decompress_blk_pth_actual, (void *)vpa);
@@ -2280,9 +2280,9 @@ static signed int vzt_rd_det_gzip_type(struct _IO_FILE *handle)
   unsigned char cbuf[2l] = { (unsigned char)0, (unsigned char)0 };
   signed long int off;
   off=ftello(handle);
-  unsigned long int return_value_fread$1;
-  return_value_fread$1=fread((void *)cbuf, (unsigned long int)1, (unsigned long int)2, handle);
-  if(return_value_fread$1 == 0ul)
+  unsigned long int return_value_fread_1;
+  return_value_fread_1=fread((void *)cbuf, (unsigned long int)1, (unsigned long int)2, handle);
+  if(return_value_fread_1 == 0ul)
   {
     cbuf[(signed long int)1] = (unsigned char)0;
     cbuf[(signed long int)0] = cbuf[(signed long int)1];
@@ -2370,16 +2370,16 @@ signed int vzt_rd_fac_value(struct vzt_rd_trace *lt, struct vzt_rd_block *b, uns
   signed int row_size = (signed int)b->num_sections;
   unsigned int *valpnt;
   unsigned int *val_base;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(b->num_time_ticks >= time_offset))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = facidx > lt->numrealfacs ? (_Bool)1 : (_Bool)0;
-  unsigned int tmp_post$2;
-  unsigned int tmp_post$3;
-  unsigned int tmp_post$4;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = facidx > lt->numrealfacs ? (_Bool)1 : (_Bool)0;
+  unsigned int tmp_post_2;
+  unsigned int tmp_post_3;
+  unsigned int tmp_post_4;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -2390,18 +2390,18 @@ signed int vzt_rd_fac_value(struct vzt_rd_trace *lt, struct vzt_rd_block *b, uns
       unsigned int vindex_offset = lt->vindex_offset[(signed long int)facidx];
       if(!(b->multi_state == 0u))
       {
-        unsigned int vzt_rd_fac_value$$1$$1$$1$$vindex_offset_x = vindex_offset + lt->total_values;
+        unsigned int vzt_rd_fac_value__1__1__1__vindex_offset_x = vindex_offset + lt->total_values;
         unsigned int *valpnt_x;
         signed int which;
         i = (unsigned int)0;
         for( ; !(i >= len); i = i + 1u)
         {
-          tmp_post$2 = vindex_offset;
+          tmp_post_2 = vindex_offset;
           vindex_offset = vindex_offset + 1u;
-          valpnt = val_base + (signed long int)(b->vindex[(signed long int)tmp_post$2] * (unsigned int)row_size);
-          tmp_post$3 = vzt_rd_fac_value$$1$$1$$1$$vindex_offset_x;
-          vzt_rd_fac_value$$1$$1$$1$$vindex_offset_x = vzt_rd_fac_value$$1$$1$$1$$vindex_offset_x + 1u;
-          valpnt_x = val_base + (signed long int)(b->vindex[(signed long int)tmp_post$3] * (unsigned int)row_size);
+          valpnt = val_base + (signed long int)(b->vindex[(signed long int)tmp_post_2] * (unsigned int)row_size);
+          tmp_post_3 = vzt_rd_fac_value__1__1__1__vindex_offset_x;
+          vzt_rd_fac_value__1__1__1__vindex_offset_x = vzt_rd_fac_value__1__1__1__vindex_offset_x + 1u;
+          valpnt_x = val_base + (signed long int)(b->vindex[(signed long int)tmp_post_3] * (unsigned int)row_size);
           which = (signed int)((*valpnt_x >> bit & (unsigned int)1) << 1 | *valpnt >> bit & (unsigned int)1);
           value[(signed long int)i] = "01xz"[(signed long int)which];
         }
@@ -2412,9 +2412,9 @@ signed int vzt_rd_fac_value(struct vzt_rd_trace *lt, struct vzt_rd_block *b, uns
         i = (unsigned int)0;
         for( ; !(i >= len); i = i + 1u)
         {
-          tmp_post$4 = vindex_offset;
+          tmp_post_4 = vindex_offset;
           vindex_offset = vindex_offset + 1u;
-          valpnt = val_base + (signed long int)(b->vindex[(signed long int)tmp_post$4] * (unsigned int)row_size);
+          valpnt = val_base + (signed long int)(b->vindex[(signed long int)tmp_post_4] * (unsigned int)row_size);
           value[(signed long int)i] = (char)((unsigned int)48 | *valpnt >> bit & (unsigned int)1);
         }
       }
@@ -2422,24 +2422,24 @@ signed int vzt_rd_fac_value(struct vzt_rd_trace *lt, struct vzt_rd_block *b, uns
 
     else
     {
-      unsigned int vzt_rd_fac_value$$1$$2$$vindex_offset;
+      unsigned int vzt_rd_fac_value__1__2__vindex_offset;
       if(!(b->multi_state == 0u))
       {
         unsigned int vindex_offset_x;
-        unsigned int *vzt_rd_fac_value$$1$$2$$1$$valpnt_x;
-        signed int vzt_rd_fac_value$$1$$2$$1$$which;
+        unsigned int *vzt_rd_fac_value__1__2__1__valpnt_x;
+        signed int vzt_rd_fac_value__1__2__1__which;
         i = (unsigned int)0;
         for( ; !(i >= len); i = i + 1u)
         {
           if(i + facidx >= lt->numfacs)
             break;
 
-          vzt_rd_fac_value$$1$$2$$vindex_offset = lt->vindex_offset[(signed long int)(facidx + i)];
-          vindex_offset_x = vzt_rd_fac_value$$1$$2$$vindex_offset + lt->total_values;
-          valpnt = val_base + (signed long int)(b->vindex[(signed long int)vzt_rd_fac_value$$1$$2$$vindex_offset] * (unsigned int)row_size);
-          vzt_rd_fac_value$$1$$2$$1$$valpnt_x = val_base + (signed long int)(b->vindex[(signed long int)vindex_offset_x] * (unsigned int)row_size);
-          vzt_rd_fac_value$$1$$2$$1$$which = (signed int)((*vzt_rd_fac_value$$1$$2$$1$$valpnt_x >> bit & (unsigned int)1) << 1 | *valpnt >> bit & (unsigned int)1);
-          value[(signed long int)i] = "01xz"[(signed long int)vzt_rd_fac_value$$1$$2$$1$$which];
+          vzt_rd_fac_value__1__2__vindex_offset = lt->vindex_offset[(signed long int)(facidx + i)];
+          vindex_offset_x = vzt_rd_fac_value__1__2__vindex_offset + lt->total_values;
+          valpnt = val_base + (signed long int)(b->vindex[(signed long int)vzt_rd_fac_value__1__2__vindex_offset] * (unsigned int)row_size);
+          vzt_rd_fac_value__1__2__1__valpnt_x = val_base + (signed long int)(b->vindex[(signed long int)vindex_offset_x] * (unsigned int)row_size);
+          vzt_rd_fac_value__1__2__1__which = (signed int)((*vzt_rd_fac_value__1__2__1__valpnt_x >> bit & (unsigned int)1) << 1 | *valpnt >> bit & (unsigned int)1);
+          value[(signed long int)i] = "01xz"[(signed long int)vzt_rd_fac_value__1__2__1__which];
         }
       }
 
@@ -2451,8 +2451,8 @@ signed int vzt_rd_fac_value(struct vzt_rd_trace *lt, struct vzt_rd_block *b, uns
           if(i + facidx >= lt->numfacs)
             break;
 
-          vzt_rd_fac_value$$1$$2$$vindex_offset = lt->vindex_offset[(signed long int)(facidx + i)];
-          valpnt = val_base + (signed long int)(b->vindex[(signed long int)vzt_rd_fac_value$$1$$2$$vindex_offset] * (unsigned int)row_size);
+          vzt_rd_fac_value__1__2__vindex_offset = lt->vindex_offset[(signed long int)(facidx + i)];
+          valpnt = val_base + (signed long int)(b->vindex[(signed long int)vzt_rd_fac_value__1__2__vindex_offset] * (unsigned int)row_size);
           value[(signed long int)i] = (char)((unsigned int)48 | *valpnt >> bit & (unsigned int)1);
         }
       }
@@ -2468,9 +2468,9 @@ static unsigned int vzt_rd_get_16(void *mm, signed int offset)
 {
   unsigned char *nn = (unsigned char *)mm + (signed long int)offset;
   unsigned int m1;
-  unsigned char *tmp_post$1 = nn;
+  unsigned char *tmp_post_1 = nn;
   nn = nn + 1l;
-  m1 = (unsigned int)*((unsigned char *)tmp_post$1);
+  m1 = (unsigned int)*((unsigned char *)tmp_post_1);
   unsigned int m2 = (unsigned int)*((unsigned char *)nn);
   return m1 << 8 | m2;
 }
@@ -2481,17 +2481,17 @@ static unsigned int vzt_rd_get_32(void *mm, signed int offset)
 {
   unsigned char *nn = (unsigned char *)mm + (signed long int)offset;
   unsigned int m1;
-  unsigned char *tmp_post$1 = nn;
+  unsigned char *tmp_post_1 = nn;
   nn = nn + 1l;
-  m1 = (unsigned int)*((unsigned char *)tmp_post$1);
+  m1 = (unsigned int)*((unsigned char *)tmp_post_1);
   unsigned int m2;
-  unsigned char *tmp_post$2 = nn;
+  unsigned char *tmp_post_2 = nn;
   nn = nn + 1l;
-  m2 = (unsigned int)*((unsigned char *)tmp_post$2);
+  m2 = (unsigned int)*((unsigned char *)tmp_post_2);
   unsigned int m3;
-  unsigned char *tmp_post$3 = nn;
+  unsigned char *tmp_post_3 = nn;
   nn = nn + 1l;
-  m3 = (unsigned int)*((unsigned char *)tmp_post$3);
+  m3 = (unsigned int)*((unsigned char *)tmp_post_3);
   unsigned int m4 = (unsigned int)*((unsigned char *)nn);
   return m1 << 24 | m2 << 16 | m3 << 8 | m4;
 }
@@ -2502,17 +2502,17 @@ static unsigned int vzt_rd_get_32r(void *mm, signed int offset)
 {
   unsigned char *nn = (unsigned char *)mm + (signed long int)offset;
   unsigned int m4;
-  unsigned char *tmp_post$1 = nn;
+  unsigned char *tmp_post_1 = nn;
   nn = nn + 1l;
-  m4 = (unsigned int)*((unsigned char *)tmp_post$1);
+  m4 = (unsigned int)*((unsigned char *)tmp_post_1);
   unsigned int m3;
-  unsigned char *tmp_post$2 = nn;
+  unsigned char *tmp_post_2 = nn;
   nn = nn + 1l;
-  m3 = (unsigned int)*((unsigned char *)tmp_post$2);
+  m3 = (unsigned int)*((unsigned char *)tmp_post_2);
   unsigned int m2;
-  unsigned char *tmp_post$3 = nn;
+  unsigned char *tmp_post_3 = nn;
   nn = nn + 1l;
-  m2 = (unsigned int)*((unsigned char *)tmp_post$3);
+  m2 = (unsigned int)*((unsigned char *)tmp_post_3);
   unsigned int m1 = (unsigned int)*((unsigned char *)nn);
   return m1 << 24 | m2 << 16 | m3 << 8 | m4;
 }
@@ -2521,24 +2521,24 @@ static unsigned int vzt_rd_get_32r(void *mm, signed int offset)
 // file vzt_read.c line 153
 static unsigned long int vzt_rd_get_64(void *mm, signed int offset)
 {
-  unsigned int return_value_vzt_rd_get_32$1;
-  return_value_vzt_rd_get_32$1=vzt_rd_get_32(mm, offset);
-  unsigned int return_value_vzt_rd_get_32$2;
-  return_value_vzt_rd_get_32$2=vzt_rd_get_32(mm, offset + 4);
-  return (unsigned long int)return_value_vzt_rd_get_32$1 << 32 | (unsigned long int)return_value_vzt_rd_get_32$2;
+  unsigned int return_value_vzt_rd_get_32_1;
+  return_value_vzt_rd_get_32_1=vzt_rd_get_32(mm, offset);
+  unsigned int return_value_vzt_rd_get_32_2;
+  return_value_vzt_rd_get_32_2=vzt_rd_get_32(mm, offset + 4);
+  return (unsigned long int)return_value_vzt_rd_get_32_1 << 32 | (unsigned long int)return_value_vzt_rd_get_32_2;
 }
 
 // vzt_rd_get_alias_root
 // file vzt_read.c line 1060
 static inline unsigned int vzt_rd_get_alias_root(struct vzt_rd_trace *lt, unsigned int facidx)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lt == ((struct vzt_rd_trace *)NULL)))
-    tmp_if_expr$1 = facidx < lt->numfacs ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = facidx < lt->numfacs ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     for( ; !((8u & lt->flags[(signed long int)facidx]) == 0u); facidx = lt->rows[(signed long int)facidx])
       ;
@@ -2564,13 +2564,13 @@ unsigned long int vzt_rd_get_block_mem_usage(struct vzt_rd_trace *lt)
 // file vzt_read.h line 261
 struct vzt_rd_geometry * vzt_rd_get_fac_geometry(struct vzt_rd_trace *lt, unsigned int facidx)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lt == ((struct vzt_rd_trace *)NULL)))
-    tmp_if_expr$1 = facidx < lt->numfacs ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = facidx < lt->numfacs ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     lt->geometry.rows = lt->rows[(signed long int)facidx];
     lt->geometry.msb = lt->msb[(signed long int)facidx];
@@ -2591,9 +2591,9 @@ char * vzt_rd_get_facname(struct vzt_rd_trace *lt, unsigned int facidx)
   char *pnt;
   unsigned int clonecnt;
   unsigned int j;
-  char *tmp_post$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
   if(!(lt == ((struct vzt_rd_trace *)NULL)))
   {
     if(facidx == 1u + lt->faccache->old_facidx || facidx == 0u)
@@ -2616,18 +2616,18 @@ char * vzt_rd_get_facname(struct vzt_rd_trace *lt, unsigned int facidx)
         j = (unsigned int)0;
         for( ; !(j >= clonecnt); j = j + 1u)
         {
-          tmp_post$1 = pnt;
+          tmp_post_1 = pnt;
           pnt = pnt + 1l;
-          *tmp_post$1 = lt->faccache->bufprev[(signed long int)j];
+          *tmp_post_1 = lt->faccache->bufprev[(signed long int)j];
         }
         do
         {
-          tmp_post$2 = pnt;
+          tmp_post_2 = pnt;
           pnt = pnt + 1l;
-          tmp_post$3 = lt->faccache->n;
+          tmp_post_3 = lt->faccache->n;
           lt->faccache->n = lt->faccache->n + 1l;
-          *tmp_post$2 = (char)(unsigned int)((unsigned char *)tmp_post$3)[(signed long int)0];
-          if(*tmp_post$2 == 0)
+          *tmp_post_2 = (char)(unsigned int)((unsigned char *)tmp_post_3)[(signed long int)0];
+          if(*tmp_post_2 == 0)
             break;
 
         }
@@ -2655,9 +2655,9 @@ char * vzt_rd_get_facname(struct vzt_rd_trace *lt, unsigned int facidx)
         j = (unsigned int)strt;
         for( ; !(j >= facidx); j = j + 1u)
           vzt_rd_get_facname(lt, j);
-        char *return_value_vzt_rd_get_facname$4;
-        return_value_vzt_rd_get_facname$4=vzt_rd_get_facname(lt, j);
-        return return_value_vzt_rd_get_facname$4;
+        char *return_value_vzt_rd_get_facname_4;
+        return_value_vzt_rd_get_facname_4=vzt_rd_get_facname(lt, j);
+        return return_value_vzt_rd_get_facname_4;
       }
 
   }
@@ -2756,9 +2756,9 @@ static unsigned long int vzt_rd_get_v64(char **mmx)
 // file vzt_read.h line 250
 struct vzt_rd_trace * vzt_rd_init(const char *name)
 {
-  struct vzt_rd_trace *return_value_vzt_rd_init_smp$1;
-  return_value_vzt_rd_init_smp$1=vzt_rd_init_smp(name, (unsigned int)1);
-  return return_value_vzt_rd_init_smp$1;
+  struct vzt_rd_trace *return_value_vzt_rd_init_smp_1;
+  return_value_vzt_rd_init_smp_1=vzt_rd_init_smp(name, (unsigned int)1);
+  return return_value_vzt_rd_init_smp_1;
 }
 
 // vzt_rd_init_smp
@@ -2766,70 +2766,70 @@ struct vzt_rd_trace * vzt_rd_init(const char *name)
 struct vzt_rd_trace * vzt_rd_init_smp(const char *name, unsigned int num_cpus)
 {
   struct vzt_rd_trace *lt;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct vzt_rd_trace) /*328ul*/ );
-  lt = (struct vzt_rd_trace *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct vzt_rd_trace) /*328ul*/ );
+  lt = (struct vzt_rd_trace *)return_value_calloc_1;
   unsigned int i;
   unsigned int vindex_offset;
   lt->handle=fopen(name, "rb");
-  unsigned int return_value_vzt_rd_get_16$81;
-  unsigned int tmp_if_expr$6;
-  unsigned int return_value_vzt_rd_get_32$5;
-  unsigned int tmp_if_expr$8;
-  unsigned int return_value_vzt_rd_get_32$7;
-  unsigned int tmp_if_expr$10;
-  unsigned int return_value_vzt_rd_get_32$9;
-  unsigned long int tmp_if_expr$12;
-  unsigned long int return_value_vzt_rd_get_64$11;
-  unsigned int tmp_if_expr$14;
-  unsigned int return_value_vzt_rd_get_32$13;
-  unsigned int tmp_if_expr$16;
-  unsigned int return_value_vzt_rd_get_32$15;
-  unsigned int tmp_if_expr$18;
-  unsigned int return_value_vzt_rd_get_32$17;
-  unsigned int tmp_if_expr$20;
-  unsigned int return_value_vzt_rd_get_32$19;
-  unsigned int tmp_if_expr$22;
-  unsigned int return_value_vzt_rd_get_32$21;
-  signed int return_value_fileno$25;
-  signed int return_value_dup$26;
-  struct gzFile_s *return_value_gzdopen$27;
-  void *return_value_malloc$28;
-  signed int return_value_gzread$29;
-  signed int return_value_fileno$30;
-  signed int return_value_dup$31;
-  void *return_value_malloc$32;
-  signed int return_value_BZ2_bzread$33;
-  signed int return_value_fileno$34;
-  signed int return_value_dup$35;
-  void *return_value_malloc$36;
-  unsigned long int return_value_LZMA_read$37;
-  signed int return_value_fileno$42;
-  signed int return_value_dup$43;
-  struct gzFile_s *return_value_gzdopen$44;
-  void *return_value_malloc$45;
-  signed int return_value_gzread$46;
-  signed int return_value_fileno$47;
-  signed int return_value_dup$48;
-  void *return_value_malloc$49;
-  signed int return_value_BZ2_bzread$50;
-  signed int return_value_fileno$51;
-  signed int return_value_dup$52;
-  void *return_value_malloc$53;
-  unsigned long int return_value_LZMA_read$54;
-  unsigned int tmp_if_expr$65;
-  unsigned int return_value_vzt_rd_get_alias_root$64;
-  signed int tmp_if_expr$66;
-  unsigned int tmp_if_expr$71;
-  unsigned int return_value_vzt_rd_get_32$70;
-  unsigned int tmp_if_expr$73;
-  unsigned int return_value_vzt_rd_get_32$72;
-  unsigned long int tmp_if_expr$75;
-  unsigned long int return_value_vzt_rd_get_64$74;
-  unsigned long int tmp_if_expr$77;
-  unsigned long int return_value_vzt_rd_get_64$76;
-  _Bool tmp_if_expr$79;
-  _Bool tmp_if_expr$80;
+  unsigned int return_value_vzt_rd_get_16_81;
+  unsigned int tmp_if_expr_6;
+  unsigned int return_value_vzt_rd_get_32_5;
+  unsigned int tmp_if_expr_8;
+  unsigned int return_value_vzt_rd_get_32_7;
+  unsigned int tmp_if_expr_10;
+  unsigned int return_value_vzt_rd_get_32_9;
+  unsigned long int tmp_if_expr_12;
+  unsigned long int return_value_vzt_rd_get_64_11;
+  unsigned int tmp_if_expr_14;
+  unsigned int return_value_vzt_rd_get_32_13;
+  unsigned int tmp_if_expr_16;
+  unsigned int return_value_vzt_rd_get_32_15;
+  unsigned int tmp_if_expr_18;
+  unsigned int return_value_vzt_rd_get_32_17;
+  unsigned int tmp_if_expr_20;
+  unsigned int return_value_vzt_rd_get_32_19;
+  unsigned int tmp_if_expr_22;
+  unsigned int return_value_vzt_rd_get_32_21;
+  signed int return_value_fileno_25;
+  signed int return_value_dup_26;
+  struct gzFile_s *return_value_gzdopen_27;
+  void *return_value_malloc_28;
+  signed int return_value_gzread_29;
+  signed int return_value_fileno_30;
+  signed int return_value_dup_31;
+  void *return_value_malloc_32;
+  signed int return_value_BZ2_bzread_33;
+  signed int return_value_fileno_34;
+  signed int return_value_dup_35;
+  void *return_value_malloc_36;
+  unsigned long int return_value_LZMA_read_37;
+  signed int return_value_fileno_42;
+  signed int return_value_dup_43;
+  struct gzFile_s *return_value_gzdopen_44;
+  void *return_value_malloc_45;
+  signed int return_value_gzread_46;
+  signed int return_value_fileno_47;
+  signed int return_value_dup_48;
+  void *return_value_malloc_49;
+  signed int return_value_BZ2_bzread_50;
+  signed int return_value_fileno_51;
+  signed int return_value_dup_52;
+  void *return_value_malloc_53;
+  unsigned long int return_value_LZMA_read_54;
+  unsigned int tmp_if_expr_65;
+  unsigned int return_value_vzt_rd_get_alias_root_64;
+  signed int tmp_if_expr_66;
+  unsigned int tmp_if_expr_71;
+  unsigned int return_value_vzt_rd_get_32_70;
+  unsigned int tmp_if_expr_73;
+  unsigned int return_value_vzt_rd_get_32_72;
+  unsigned long int tmp_if_expr_75;
+  unsigned long int return_value_vzt_rd_get_64_74;
+  unsigned long int tmp_if_expr_77;
+  unsigned long int return_value_vzt_rd_get_64_76;
+  _Bool tmp_if_expr_79;
+  _Bool tmp_if_expr_80;
   if(lt->handle == ((struct _IO_FILE *)NULL))
   {
     vzt_rd_close(lt);
@@ -2850,24 +2850,24 @@ struct vzt_rd_trace * vzt_rd_init_smp(const char *name, unsigned int num_cpus)
 
     lt->pthreads = num_cpus - (unsigned int)1;
     setvbuf(lt->handle, (char *)(void *)0, 2, (unsigned long int)0);
-    unsigned long int return_value_fread$2;
-    return_value_fread$2=fread((void *)&id, (unsigned long int)2, (unsigned long int)1, lt->handle);
-    if(return_value_fread$2 == 0ul)
+    unsigned long int return_value_fread_2;
+    return_value_fread_2=fread((void *)&id, (unsigned long int)2, (unsigned long int)1, lt->handle);
+    if(return_value_fread_2 == 0ul)
       id = (unsigned short int)0;
 
-    unsigned long int return_value_fread$3;
-    return_value_fread$3=fread((void *)&version, (unsigned long int)2, (unsigned long int)1, lt->handle);
-    if(return_value_fread$3 == 0ul)
+    unsigned long int return_value_fread_3;
+    return_value_fread_3=fread((void *)&version, (unsigned long int)2, (unsigned long int)1, lt->handle);
+    if(return_value_fread_3 == 0ul)
       id = (unsigned short int)0;
 
-    unsigned long int return_value_fread$4;
-    return_value_fread$4=fread((void *)&lt->granule_size, (unsigned long int)1, (unsigned long int)1, lt->handle);
-    if(return_value_fread$4 == 0ul)
+    unsigned long int return_value_fread_4;
+    return_value_fread_4=fread((void *)&lt->granule_size, (unsigned long int)1, (unsigned long int)1, lt->handle);
+    if(return_value_fread_4 == 0ul)
       id = (unsigned short int)0;
 
-    unsigned int return_value_vzt_rd_get_16$82;
-    return_value_vzt_rd_get_16$82=vzt_rd_get_16((void *)&id, 0);
-    if(!(return_value_vzt_rd_get_16$82 == 22106u))
+    unsigned int return_value_vzt_rd_get_16_82;
+    return_value_vzt_rd_get_16_82=vzt_rd_get_16((void *)&id, 0);
+    if(!(return_value_vzt_rd_get_16_82 == 22106u))
     {
       fprintf(stderr, "VZTLOAD | *** Not a vzt file ***\n");
       vzt_rd_close(lt);
@@ -2876,8 +2876,8 @@ struct vzt_rd_trace * vzt_rd_init_smp(const char *name, unsigned int num_cpus)
 
     else
     {
-      return_value_vzt_rd_get_16$81=vzt_rd_get_16((void *)&version, 0);
-      version = (unsigned short int)return_value_vzt_rd_get_16$81;
+      return_value_vzt_rd_get_16_81=vzt_rd_get_16((void *)&version, 0);
+      version = (unsigned short int)return_value_vzt_rd_get_16_81;
       if((signed int)version >= 2)
       {
         fprintf(stderr, "VZTLOAD | *** Version %d vzt not supported ***\n", version);
@@ -2902,52 +2902,52 @@ struct vzt_rd_trace * vzt_rd_init_smp(const char *name, unsigned int num_cpus)
           signed long int fend;
           unsigned int t;
           struct vzt_rd_block *b;
-          vzt_rd_pthread_mutex_init(lt, &lt->mutex, (const union anonymous$8 *)(void *)0);
+          vzt_rd_pthread_mutex_init(lt, &lt->mutex, (const union anonymous_8 *)(void *)0);
           rcf=fread((void *)&lt->numfacs, (unsigned long int)4, (unsigned long int)1, lt->handle);
           if(!(rcf == 0ul))
           {
-            return_value_vzt_rd_get_32$5=vzt_rd_get_32((void *)&lt->numfacs, 0);
-            tmp_if_expr$6 = return_value_vzt_rd_get_32$5;
+            return_value_vzt_rd_get_32_5=vzt_rd_get_32((void *)&lt->numfacs, 0);
+            tmp_if_expr_6 = return_value_vzt_rd_get_32_5;
           }
 
           else
-            tmp_if_expr$6 = (unsigned int)0;
-          lt->numfacs = tmp_if_expr$6;
+            tmp_if_expr_6 = (unsigned int)0;
+          lt->numfacs = tmp_if_expr_6;
           if(lt->numfacs == 0u)
           {
             unsigned int num_expansion_bytes;
             rcf=fread((void *)&num_expansion_bytes, (unsigned long int)4, (unsigned long int)1, lt->handle);
             if(!(rcf == 0ul))
             {
-              return_value_vzt_rd_get_32$7=vzt_rd_get_32((void *)&num_expansion_bytes, 0);
-              tmp_if_expr$8 = return_value_vzt_rd_get_32$7;
+              return_value_vzt_rd_get_32_7=vzt_rd_get_32((void *)&num_expansion_bytes, 0);
+              tmp_if_expr_8 = return_value_vzt_rd_get_32_7;
             }
 
             else
-              tmp_if_expr$8 = (unsigned int)0;
-            num_expansion_bytes = tmp_if_expr$8;
+              tmp_if_expr_8 = (unsigned int)0;
+            num_expansion_bytes = tmp_if_expr_8;
             rcf=fread((void *)&lt->numfacs, (unsigned long int)4, (unsigned long int)1, lt->handle);
             if(!(rcf == 0ul))
             {
-              return_value_vzt_rd_get_32$9=vzt_rd_get_32((void *)&lt->numfacs, 0);
-              tmp_if_expr$10 = return_value_vzt_rd_get_32$9;
+              return_value_vzt_rd_get_32_9=vzt_rd_get_32((void *)&lt->numfacs, 0);
+              tmp_if_expr_10 = return_value_vzt_rd_get_32_9;
             }
 
             else
-              tmp_if_expr$10 = (unsigned int)0;
-            lt->numfacs = tmp_if_expr$10;
+              tmp_if_expr_10 = (unsigned int)0;
+            lt->numfacs = tmp_if_expr_10;
             if(num_expansion_bytes >= 8u)
             {
               rcf=fread((void *)&lt->timezero, (unsigned long int)8, (unsigned long int)1, lt->handle);
               if(!(rcf == 0ul))
               {
-                return_value_vzt_rd_get_64$11=vzt_rd_get_64((void *)&lt->timezero, 0);
-                tmp_if_expr$12 = return_value_vzt_rd_get_64$11;
+                return_value_vzt_rd_get_64_11=vzt_rd_get_64((void *)&lt->timezero, 0);
+                tmp_if_expr_12 = return_value_vzt_rd_get_64_11;
               }
 
               else
-                tmp_if_expr$12 = (unsigned long int)0;
-              lt->timezero = (signed long int)tmp_if_expr$12;
+                tmp_if_expr_12 = (unsigned long int)0;
+              lt->timezero = (signed long int)tmp_if_expr_12;
               if(num_expansion_bytes >= 9u)
                 fseeko(lt->handle, (signed long int)(num_expansion_bytes - (unsigned int)8), 1);
 
@@ -2960,89 +2960,89 @@ struct vzt_rd_trace * vzt_rd_init_smp(const char *name, unsigned int num_cpus)
           rcf=fread((void *)&lt->numfacbytes, (unsigned long int)4, (unsigned long int)1, lt->handle);
           if(!(rcf == 0ul))
           {
-            return_value_vzt_rd_get_32$13=vzt_rd_get_32((void *)&lt->numfacbytes, 0);
-            tmp_if_expr$14 = return_value_vzt_rd_get_32$13;
+            return_value_vzt_rd_get_32_13=vzt_rd_get_32((void *)&lt->numfacbytes, 0);
+            tmp_if_expr_14 = return_value_vzt_rd_get_32_13;
           }
 
           else
-            tmp_if_expr$14 = (unsigned int)0;
-          lt->numfacbytes = tmp_if_expr$14;
+            tmp_if_expr_14 = (unsigned int)0;
+          lt->numfacbytes = tmp_if_expr_14;
           rcf=fread((void *)&lt->longestname, (unsigned long int)4, (unsigned long int)1, lt->handle);
           if(!(rcf == 0ul))
           {
-            return_value_vzt_rd_get_32$15=vzt_rd_get_32((void *)&lt->longestname, 0);
-            tmp_if_expr$16 = return_value_vzt_rd_get_32$15;
+            return_value_vzt_rd_get_32_15=vzt_rd_get_32((void *)&lt->longestname, 0);
+            tmp_if_expr_16 = return_value_vzt_rd_get_32_15;
           }
 
           else
-            tmp_if_expr$16 = (unsigned int)0;
-          lt->longestname = tmp_if_expr$16;
+            tmp_if_expr_16 = (unsigned int)0;
+          lt->longestname = tmp_if_expr_16;
           rcf=fread((void *)&lt->zfacnamesize, (unsigned long int)4, (unsigned long int)1, lt->handle);
           if(!(rcf == 0ul))
           {
-            return_value_vzt_rd_get_32$17=vzt_rd_get_32((void *)&lt->zfacnamesize, 0);
-            tmp_if_expr$18 = return_value_vzt_rd_get_32$17;
+            return_value_vzt_rd_get_32_17=vzt_rd_get_32((void *)&lt->zfacnamesize, 0);
+            tmp_if_expr_18 = return_value_vzt_rd_get_32_17;
           }
 
           else
-            tmp_if_expr$18 = (unsigned int)0;
-          lt->zfacnamesize = tmp_if_expr$18;
+            tmp_if_expr_18 = (unsigned int)0;
+          lt->zfacnamesize = tmp_if_expr_18;
           rcf=fread((void *)&lt->zfacname_predec_size, (unsigned long int)4, (unsigned long int)1, lt->handle);
           if(!(rcf == 0ul))
           {
-            return_value_vzt_rd_get_32$19=vzt_rd_get_32((void *)&lt->zfacname_predec_size, 0);
-            tmp_if_expr$20 = return_value_vzt_rd_get_32$19;
+            return_value_vzt_rd_get_32_19=vzt_rd_get_32((void *)&lt->zfacname_predec_size, 0);
+            tmp_if_expr_20 = return_value_vzt_rd_get_32_19;
           }
 
           else
-            tmp_if_expr$20 = (unsigned int)0;
-          lt->zfacname_predec_size = tmp_if_expr$20;
+            tmp_if_expr_20 = (unsigned int)0;
+          lt->zfacname_predec_size = tmp_if_expr_20;
           rcf=fread((void *)&lt->zfacgeometrysize, (unsigned long int)4, (unsigned long int)1, lt->handle);
           if(!(rcf == 0ul))
           {
-            return_value_vzt_rd_get_32$21=vzt_rd_get_32((void *)&lt->zfacgeometrysize, 0);
-            tmp_if_expr$22 = return_value_vzt_rd_get_32$21;
+            return_value_vzt_rd_get_32_21=vzt_rd_get_32((void *)&lt->zfacgeometrysize, 0);
+            tmp_if_expr_22 = return_value_vzt_rd_get_32_21;
           }
 
           else
-            tmp_if_expr$22 = (unsigned int)0;
-          lt->zfacgeometrysize = tmp_if_expr$22;
+            tmp_if_expr_22 = (unsigned int)0;
+          lt->zfacgeometrysize = tmp_if_expr_22;
           rcf=fread((void *)&lt->timescale, (unsigned long int)1, (unsigned long int)1, lt->handle);
           if(rcf == 0ul)
             lt->timescale = (unsigned char)0;
 
           fprintf(stderr, "VZTLOAD | %d facilities\n", lt->numfacs);
           pos=ftello(lt->handle);
-          void *return_value_calloc$23;
-          return_value_calloc$23=calloc((unsigned long int)1, (unsigned long int)(lt->numfacs / (unsigned int)8 + (unsigned int)1));
-          lt->process_mask = (char *)return_value_calloc$23;
-          signed int return_value_vzt_rd_det_gzip_type$24;
-          return_value_vzt_rd_det_gzip_type$24=vzt_rd_det_gzip_type(lt->handle);
-          switch(return_value_vzt_rd_det_gzip_type$24)
+          void *return_value_calloc_23;
+          return_value_calloc_23=calloc((unsigned long int)1, (unsigned long int)(lt->numfacs / (unsigned int)8 + (unsigned int)1));
+          lt->process_mask = (char *)return_value_calloc_23;
+          signed int return_value_vzt_rd_det_gzip_type_24;
+          return_value_vzt_rd_det_gzip_type_24=vzt_rd_det_gzip_type(lt->handle);
+          switch(return_value_vzt_rd_det_gzip_type_24)
           {
             case 0:
             {
-              return_value_fileno$25=fileno(lt->handle);
-              return_value_dup$26=dup(return_value_fileno$25);
-              return_value_gzdopen$27=gzdopen(return_value_dup$26, "rb");
-              lt->zhandle = (void *)return_value_gzdopen$27;
-              return_value_malloc$28=malloc((unsigned long int)lt->zfacname_predec_size);
-              m = (char *)return_value_malloc$28;
-              return_value_gzread$29=gzread((struct gzFile_s *)lt->zhandle, (void *)m, lt->zfacname_predec_size);
-              rc = (unsigned int)return_value_gzread$29;
+              return_value_fileno_25=fileno(lt->handle);
+              return_value_dup_26=dup(return_value_fileno_25);
+              return_value_gzdopen_27=gzdopen(return_value_dup_26, "rb");
+              lt->zhandle = (void *)return_value_gzdopen_27;
+              return_value_malloc_28=malloc((unsigned long int)lt->zfacname_predec_size);
+              m = (char *)return_value_malloc_28;
+              return_value_gzread_29=gzread((struct gzFile_s *)lt->zhandle, (void *)m, lt->zfacname_predec_size);
+              rc = (unsigned int)return_value_gzread_29;
               gzclose((struct gzFile_s *)lt->zhandle);
               lt->zhandle = (void *)0;
               break;
             }
             case 1:
             {
-              return_value_fileno$30=fileno(lt->handle);
-              return_value_dup$31=dup(return_value_fileno$30);
-              lt->zhandle=BZ2_bzdopen(return_value_dup$31, "rb");
-              return_value_malloc$32=malloc((unsigned long int)lt->zfacname_predec_size);
-              m = (char *)return_value_malloc$32;
-              return_value_BZ2_bzread$33=BZ2_bzread(lt->zhandle, (void *)m, (signed int)lt->zfacname_predec_size);
-              rc = (unsigned int)return_value_BZ2_bzread$33;
+              return_value_fileno_30=fileno(lt->handle);
+              return_value_dup_31=dup(return_value_fileno_30);
+              lt->zhandle=BZ2_bzdopen(return_value_dup_31, "rb");
+              return_value_malloc_32=malloc((unsigned long int)lt->zfacname_predec_size);
+              m = (char *)return_value_malloc_32;
+              return_value_BZ2_bzread_33=BZ2_bzread(lt->zhandle, (void *)m, (signed int)lt->zfacname_predec_size);
+              rc = (unsigned int)return_value_BZ2_bzread_33;
               BZ2_bzclose(lt->zhandle);
               lt->zhandle = (void *)0;
               break;
@@ -3051,13 +3051,13 @@ struct vzt_rd_trace * vzt_rd_init_smp(const char *name, unsigned int num_cpus)
 
             default:
             {
-              return_value_fileno$34=fileno(lt->handle);
-              return_value_dup$35=dup(return_value_fileno$34);
-              lt->zhandle=LZMA_fdopen(return_value_dup$35, "rb");
-              return_value_malloc$36=malloc((unsigned long int)lt->zfacname_predec_size);
-              m = (char *)return_value_malloc$36;
-              return_value_LZMA_read$37=LZMA_read(lt->zhandle, (void *)m, (unsigned long int)lt->zfacname_predec_size);
-              rc = (unsigned int)return_value_LZMA_read$37;
+              return_value_fileno_34=fileno(lt->handle);
+              return_value_dup_35=dup(return_value_fileno_34);
+              lt->zhandle=LZMA_fdopen(return_value_dup_35, "rb");
+              return_value_malloc_36=malloc((unsigned long int)lt->zfacname_predec_size);
+              m = (char *)return_value_malloc_36;
+              return_value_LZMA_read_37=LZMA_read(lt->zhandle, (void *)m, (unsigned long int)lt->zfacname_predec_size);
+              rc = (unsigned int)return_value_LZMA_read_37;
               LZMA_close(lt->zhandle);
               lt->zhandle = (void *)0;
             }
@@ -3072,47 +3072,47 @@ struct vzt_rd_trace * vzt_rd_init_smp(const char *name, unsigned int num_cpus)
           }
 
           lt->zfacnames = m;
-          void *return_value_calloc$38;
-          return_value_calloc$38=calloc((unsigned long int)1, sizeof(struct vzt_rd_facname_cache) /*32ul*/ );
-          lt->faccache = (struct vzt_rd_facname_cache *)return_value_calloc$38;
+          void *return_value_calloc_38;
+          return_value_calloc_38=calloc((unsigned long int)1, sizeof(struct vzt_rd_facname_cache) /*32ul*/ );
+          lt->faccache = (struct vzt_rd_facname_cache *)return_value_calloc_38;
           lt->faccache->old_facidx = lt->numfacs;
-          void *return_value_malloc$39;
-          return_value_malloc$39=malloc((unsigned long int)(lt->longestname + (unsigned int)1));
-          lt->faccache->bufcurr = (char *)return_value_malloc$39;
-          void *return_value_malloc$40;
-          return_value_malloc$40=malloc((unsigned long int)(lt->longestname + (unsigned int)1));
-          lt->faccache->bufprev = (char *)return_value_malloc$40;
+          void *return_value_malloc_39;
+          return_value_malloc_39=malloc((unsigned long int)(lt->longestname + (unsigned int)1));
+          lt->faccache->bufcurr = (char *)return_value_malloc_39;
+          void *return_value_malloc_40;
+          return_value_malloc_40=malloc((unsigned long int)(lt->longestname + (unsigned int)1));
+          lt->faccache->bufprev = (char *)return_value_malloc_40;
           pos = pos + (signed long int)lt->zfacnamesize;
           fseeko(lt->handle, pos, 0);
-          signed int return_value_vzt_rd_det_gzip_type$41;
-          return_value_vzt_rd_det_gzip_type$41=vzt_rd_det_gzip_type(lt->handle);
-          switch(return_value_vzt_rd_det_gzip_type$41)
+          signed int return_value_vzt_rd_det_gzip_type_41;
+          return_value_vzt_rd_det_gzip_type_41=vzt_rd_det_gzip_type(lt->handle);
+          switch(return_value_vzt_rd_det_gzip_type_41)
           {
             case 0:
             {
-              return_value_fileno$42=fileno(lt->handle);
-              return_value_dup$43=dup(return_value_fileno$42);
-              return_value_gzdopen$44=gzdopen(return_value_dup$43, "rb");
-              lt->zhandle = (void *)return_value_gzdopen$44;
+              return_value_fileno_42=fileno(lt->handle);
+              return_value_dup_43=dup(return_value_fileno_42);
+              return_value_gzdopen_44=gzdopen(return_value_dup_43, "rb");
+              lt->zhandle = (void *)return_value_gzdopen_44;
               t = (unsigned int)((unsigned long int)(lt->numfacs * (unsigned int)4) * sizeof(unsigned int) /*4ul*/ );
-              return_value_malloc$45=malloc((unsigned long int)t);
-              m = (char *)return_value_malloc$45;
-              return_value_gzread$46=gzread((struct gzFile_s *)lt->zhandle, (void *)m, t);
-              rc = (unsigned int)return_value_gzread$46;
+              return_value_malloc_45=malloc((unsigned long int)t);
+              m = (char *)return_value_malloc_45;
+              return_value_gzread_46=gzread((struct gzFile_s *)lt->zhandle, (void *)m, t);
+              rc = (unsigned int)return_value_gzread_46;
               gzclose((struct gzFile_s *)lt->zhandle);
               lt->zhandle = (void *)0;
               break;
             }
             case 1:
             {
-              return_value_fileno$47=fileno(lt->handle);
-              return_value_dup$48=dup(return_value_fileno$47);
-              lt->zhandle=BZ2_bzdopen(return_value_dup$48, "rb");
+              return_value_fileno_47=fileno(lt->handle);
+              return_value_dup_48=dup(return_value_fileno_47);
+              lt->zhandle=BZ2_bzdopen(return_value_dup_48, "rb");
               t = (unsigned int)((unsigned long int)(lt->numfacs * (unsigned int)4) * sizeof(unsigned int) /*4ul*/ );
-              return_value_malloc$49=malloc((unsigned long int)t);
-              m = (char *)return_value_malloc$49;
-              return_value_BZ2_bzread$50=BZ2_bzread(lt->zhandle, (void *)m, (signed int)t);
-              rc = (unsigned int)return_value_BZ2_bzread$50;
+              return_value_malloc_49=malloc((unsigned long int)t);
+              m = (char *)return_value_malloc_49;
+              return_value_BZ2_bzread_50=BZ2_bzread(lt->zhandle, (void *)m, (signed int)t);
+              rc = (unsigned int)return_value_BZ2_bzread_50;
               BZ2_bzclose(lt->zhandle);
               lt->zhandle = (void *)0;
               break;
@@ -3121,14 +3121,14 @@ struct vzt_rd_trace * vzt_rd_init_smp(const char *name, unsigned int num_cpus)
 
             default:
             {
-              return_value_fileno$51=fileno(lt->handle);
-              return_value_dup$52=dup(return_value_fileno$51);
-              lt->zhandle=LZMA_fdopen(return_value_dup$52, "rb");
+              return_value_fileno_51=fileno(lt->handle);
+              return_value_dup_52=dup(return_value_fileno_51);
+              lt->zhandle=LZMA_fdopen(return_value_dup_52, "rb");
               t = (unsigned int)((unsigned long int)(lt->numfacs * (unsigned int)4) * sizeof(unsigned int) /*4ul*/ );
-              return_value_malloc$53=malloc((unsigned long int)t);
-              m = (char *)return_value_malloc$53;
-              return_value_LZMA_read$54=LZMA_read(lt->zhandle, (void *)m, (unsigned long int)t);
-              rc = (unsigned int)return_value_LZMA_read$54;
+              return_value_malloc_53=malloc((unsigned long int)t);
+              m = (char *)return_value_malloc_53;
+              return_value_LZMA_read_54=LZMA_read(lt->zhandle, (void *)m, (unsigned long int)t);
+              rc = (unsigned int)return_value_LZMA_read_54;
               LZMA_close(lt->zhandle);
               lt->zhandle = (void *)0;
             }
@@ -3143,56 +3143,56 @@ struct vzt_rd_trace * vzt_rd_init_smp(const char *name, unsigned int num_cpus)
           }
 
           pos = pos + (signed long int)lt->zfacgeometrysize;
-          void *return_value_malloc$55;
-          return_value_malloc$55=malloc((unsigned long int)lt->numfacs * sizeof(unsigned int) /*4ul*/ );
-          lt->rows = (unsigned int *)return_value_malloc$55;
-          void *return_value_malloc$56;
-          return_value_malloc$56=malloc((unsigned long int)lt->numfacs * sizeof(signed int) /*4ul*/ );
-          lt->msb = (signed int *)return_value_malloc$56;
-          void *return_value_malloc$57;
-          return_value_malloc$57=malloc((unsigned long int)lt->numfacs * sizeof(signed int) /*4ul*/ );
-          lt->lsb = (signed int *)return_value_malloc$57;
-          void *return_value_malloc$58;
-          return_value_malloc$58=malloc((unsigned long int)lt->numfacs * sizeof(unsigned int) /*4ul*/ );
-          lt->flags = (unsigned int *)return_value_malloc$58;
-          void *return_value_malloc$59;
-          return_value_malloc$59=malloc((unsigned long int)lt->numfacs * sizeof(unsigned int) /*4ul*/ );
-          lt->len = (unsigned int *)return_value_malloc$59;
-          void *return_value_malloc$60;
-          return_value_malloc$60=malloc((unsigned long int)lt->numfacs * sizeof(unsigned int) /*4ul*/ );
-          lt->vindex_offset = (unsigned int *)return_value_malloc$60;
+          void *return_value_malloc_55;
+          return_value_malloc_55=malloc((unsigned long int)lt->numfacs * sizeof(unsigned int) /*4ul*/ );
+          lt->rows = (unsigned int *)return_value_malloc_55;
+          void *return_value_malloc_56;
+          return_value_malloc_56=malloc((unsigned long int)lt->numfacs * sizeof(signed int) /*4ul*/ );
+          lt->msb = (signed int *)return_value_malloc_56;
+          void *return_value_malloc_57;
+          return_value_malloc_57=malloc((unsigned long int)lt->numfacs * sizeof(signed int) /*4ul*/ );
+          lt->lsb = (signed int *)return_value_malloc_57;
+          void *return_value_malloc_58;
+          return_value_malloc_58=malloc((unsigned long int)lt->numfacs * sizeof(unsigned int) /*4ul*/ );
+          lt->flags = (unsigned int *)return_value_malloc_58;
+          void *return_value_malloc_59;
+          return_value_malloc_59=malloc((unsigned long int)lt->numfacs * sizeof(unsigned int) /*4ul*/ );
+          lt->len = (unsigned int *)return_value_malloc_59;
+          void *return_value_malloc_60;
+          return_value_malloc_60=malloc((unsigned long int)lt->numfacs * sizeof(unsigned int) /*4ul*/ );
+          lt->vindex_offset = (unsigned int *)return_value_malloc_60;
           lt->longest_len = (unsigned int)32;
           i = (unsigned int)0;
           for( ; !(i >= lt->numfacs); i = i + 1u)
           {
             signed int j;
             lt->rows[(signed long int)i]=vzt_rd_get_32((void *)(m + (signed long int)(i * (unsigned int)16)), 0);
-            unsigned int return_value_vzt_rd_get_32$61;
-            return_value_vzt_rd_get_32$61=vzt_rd_get_32((void *)(m + (signed long int)(i * (unsigned int)16)), 4);
-            lt->msb[(signed long int)i] = (signed int)return_value_vzt_rd_get_32$61;
-            unsigned int return_value_vzt_rd_get_32$62;
-            return_value_vzt_rd_get_32$62=vzt_rd_get_32((void *)(m + (signed long int)(i * (unsigned int)16)), 8);
-            lt->lsb[(signed long int)i] = (signed int)return_value_vzt_rd_get_32$62;
-            unsigned int return_value_vzt_rd_get_32$63;
-            return_value_vzt_rd_get_32$63=vzt_rd_get_32((void *)(m + (signed long int)(i * (unsigned int)16)), 12);
-            lt->flags[(signed long int)i] = return_value_vzt_rd_get_32$63 & (unsigned int)(0 | 1 << 0 | 1 << 1 | 1 << 2 | 1 << 2 | 1 << 3 | 1 << 4 | 1 << 5 | 1 << 6 | 1 << 0 | 1 << 7 | 1 << 0 | 1 << 8 | 1 << 9 | 1 << 10 | 1 << 11 | 1 << 12 | 1 << 13 | 1 << 14 | 1 << 15 | 1 << 16);
+            unsigned int return_value_vzt_rd_get_32_61;
+            return_value_vzt_rd_get_32_61=vzt_rd_get_32((void *)(m + (signed long int)(i * (unsigned int)16)), 4);
+            lt->msb[(signed long int)i] = (signed int)return_value_vzt_rd_get_32_61;
+            unsigned int return_value_vzt_rd_get_32_62;
+            return_value_vzt_rd_get_32_62=vzt_rd_get_32((void *)(m + (signed long int)(i * (unsigned int)16)), 8);
+            lt->lsb[(signed long int)i] = (signed int)return_value_vzt_rd_get_32_62;
+            unsigned int return_value_vzt_rd_get_32_63;
+            return_value_vzt_rd_get_32_63=vzt_rd_get_32((void *)(m + (signed long int)(i * (unsigned int)16)), 12);
+            lt->flags[(signed long int)i] = return_value_vzt_rd_get_32_63 & (unsigned int)(0 | 1 << 0 | 1 << 1 | 1 << 2 | 1 << 2 | 1 << 3 | 1 << 4 | 1 << 5 | 1 << 6 | 1 << 0 | 1 << 7 | 1 << 0 | 1 << 8 | 1 << 9 | 1 << 10 | 1 << 11 | 1 << 12 | 1 << 13 | 1 << 14 | 1 << 15 | 1 << 16);
             if((8u & lt->flags[(signed long int)i]) == 0u)
-              tmp_if_expr$65 = i;
+              tmp_if_expr_65 = i;
 
             else
             {
-              return_value_vzt_rd_get_alias_root$64=vzt_rd_get_alias_root(lt, i);
-              tmp_if_expr$65 = return_value_vzt_rd_get_alias_root$64;
+              return_value_vzt_rd_get_alias_root_64=vzt_rd_get_alias_root(lt, i);
+              tmp_if_expr_65 = return_value_vzt_rd_get_alias_root_64;
             }
-            j = (signed int)tmp_if_expr$65;
+            j = (signed int)tmp_if_expr_65;
             if((7u & lt->flags[(signed long int)i]) == 0u)
             {
               if(lt->lsb[(signed long int)j] >= lt->msb[(signed long int)j])
-                tmp_if_expr$66 = (lt->lsb[(signed long int)j] - lt->msb[(signed long int)j]) + 1;
+                tmp_if_expr_66 = (lt->lsb[(signed long int)j] - lt->msb[(signed long int)j]) + 1;
 
               else
-                tmp_if_expr$66 = (lt->msb[(signed long int)j] - lt->lsb[(signed long int)j]) + 1;
-              lt->len[(signed long int)i] = (unsigned int)tmp_if_expr$66;
+                tmp_if_expr_66 = (lt->msb[(signed long int)j] - lt->lsb[(signed long int)j]) + 1;
+              lt->len[(signed long int)i] = (unsigned int)tmp_if_expr_66;
             }
 
             else
@@ -3216,12 +3216,12 @@ struct vzt_rd_trace * vzt_rd_init_smp(const char *name, unsigned int num_cpus)
           if(!(lt->numfacs >= lt->numrealfacs))
             lt->numrealfacs = lt->numfacs;
 
-          void *return_value_malloc$67;
-          return_value_malloc$67=malloc((unsigned long int)(lt->longest_len + (unsigned int)1));
-          lt->value_current_sector = (char *)return_value_malloc$67;
-          void *return_value_malloc$68;
-          return_value_malloc$68=malloc((unsigned long int)(lt->longest_len + (unsigned int)1));
-          lt->value_previous_sector = (char *)return_value_malloc$68;
+          void *return_value_malloc_67;
+          return_value_malloc_67=malloc((unsigned long int)(lt->longest_len + (unsigned int)1));
+          lt->value_current_sector = (char *)return_value_malloc_67;
+          void *return_value_malloc_68;
+          return_value_malloc_68=malloc((unsigned long int)(lt->longest_len + (unsigned int)1));
+          lt->value_previous_sector = (char *)return_value_malloc_68;
           free((void *)m);
           do
           {
@@ -3231,50 +3231,50 @@ struct vzt_rd_trace * vzt_rd_init_smp(const char *name, unsigned int num_cpus)
               break;
 
             fseeko(lt->handle, pos, 0);
-            void *return_value_calloc$69;
-            return_value_calloc$69=calloc((unsigned long int)1, sizeof(struct vzt_rd_block) /*248ul*/ );
-            b = (struct vzt_rd_block *)return_value_calloc$69;
+            void *return_value_calloc_69;
+            return_value_calloc_69=calloc((unsigned long int)1, sizeof(struct vzt_rd_block) /*248ul*/ );
+            b = (struct vzt_rd_block *)return_value_calloc_69;
             b->last_rd_value_idx = (unsigned int)~0;
             rcf=fread((void *)&b->uncompressed_siz, (unsigned long int)4, (unsigned long int)1, lt->handle);
             if(!(rcf == 0ul))
             {
-              return_value_vzt_rd_get_32$70=vzt_rd_get_32((void *)&b->uncompressed_siz, 0);
-              tmp_if_expr$71 = return_value_vzt_rd_get_32$70;
+              return_value_vzt_rd_get_32_70=vzt_rd_get_32((void *)&b->uncompressed_siz, 0);
+              tmp_if_expr_71 = return_value_vzt_rd_get_32_70;
             }
 
             else
-              tmp_if_expr$71 = (unsigned int)0;
-            b->uncompressed_siz = tmp_if_expr$71;
+              tmp_if_expr_71 = (unsigned int)0;
+            b->uncompressed_siz = tmp_if_expr_71;
             rcf=fread((void *)&b->compressed_siz, (unsigned long int)4, (unsigned long int)1, lt->handle);
             if(!(rcf == 0ul))
             {
-              return_value_vzt_rd_get_32$72=vzt_rd_get_32((void *)&b->compressed_siz, 0);
-              tmp_if_expr$73 = return_value_vzt_rd_get_32$72;
+              return_value_vzt_rd_get_32_72=vzt_rd_get_32((void *)&b->compressed_siz, 0);
+              tmp_if_expr_73 = return_value_vzt_rd_get_32_72;
             }
 
             else
-              tmp_if_expr$73 = (unsigned int)0;
-            b->compressed_siz = tmp_if_expr$73;
+              tmp_if_expr_73 = (unsigned int)0;
+            b->compressed_siz = tmp_if_expr_73;
             rcf=fread((void *)&b->start, (unsigned long int)8, (unsigned long int)1, lt->handle);
             if(!(rcf == 0ul))
             {
-              return_value_vzt_rd_get_64$74=vzt_rd_get_64((void *)&b->start, 0);
-              tmp_if_expr$75 = return_value_vzt_rd_get_64$74;
+              return_value_vzt_rd_get_64_74=vzt_rd_get_64((void *)&b->start, 0);
+              tmp_if_expr_75 = return_value_vzt_rd_get_64_74;
             }
 
             else
-              tmp_if_expr$75 = (unsigned long int)0;
-            b->start = tmp_if_expr$75;
+              tmp_if_expr_75 = (unsigned long int)0;
+            b->start = tmp_if_expr_75;
             rcf=fread((void *)&b->end, (unsigned long int)8, (unsigned long int)1, lt->handle);
             if(!(rcf == 0ul))
             {
-              return_value_vzt_rd_get_64$76=vzt_rd_get_64((void *)&b->end, 0);
-              tmp_if_expr$77 = return_value_vzt_rd_get_64$76;
+              return_value_vzt_rd_get_64_76=vzt_rd_get_64((void *)&b->end, 0);
+              tmp_if_expr_77 = return_value_vzt_rd_get_64_76;
             }
 
             else
-              tmp_if_expr$77 = (unsigned long int)0;
-            b->end = tmp_if_expr$77;
+              tmp_if_expr_77 = (unsigned long int)0;
+            b->end = tmp_if_expr_77;
             pos=ftello(lt->handle);
             b->rle = (unsigned int)(b->start > b->end);
             if(!((unsigned int)b->rle == 0u))
@@ -3284,9 +3284,9 @@ struct vzt_rd_trace * vzt_rd_init_smp(const char *name, unsigned int num_cpus)
               b->end = tb;
             }
 
-            signed int return_value_vzt_rd_det_gzip_type$78;
-            return_value_vzt_rd_det_gzip_type$78=vzt_rd_det_gzip_type(lt->handle);
-            b->ztype = (unsigned int)return_value_vzt_rd_det_gzip_type$78;
+            signed int return_value_vzt_rd_det_gzip_type_78;
+            return_value_vzt_rd_det_gzip_type_78=vzt_rd_det_gzip_type(lt->handle);
+            b->ztype = (unsigned int)return_value_vzt_rd_det_gzip_type_78;
             if(pos >= fend)
             {
               free((void *)b);
@@ -3295,22 +3295,22 @@ struct vzt_rd_trace * vzt_rd_init_smp(const char *name, unsigned int num_cpus)
 
             b->filepos = pos;
             if(!(b->uncompressed_siz == 0u))
-              tmp_if_expr$79 = b->compressed_siz != 0u ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_79 = b->compressed_siz != 0u ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$79 = (_Bool)0;
-            if(tmp_if_expr$79)
-              tmp_if_expr$80 = b->end != 0ul ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_79 = (_Bool)0;
+            if(tmp_if_expr_79)
+              tmp_if_expr_80 = b->end != 0ul ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$80 = (_Bool)0;
-            if(tmp_if_expr$80)
+              tmp_if_expr_80 = (_Bool)0;
+            if(tmp_if_expr_80)
             {
               fseeko(lt->handle, (signed long int)b->compressed_siz, 1);
               lt->numblocks = lt->numblocks + 1u;
               if(lt->pthreads >= lt->numblocks)
               {
-                vzt_rd_pthread_mutex_init(lt, &b->mutex, (const union anonymous$8 *)(void *)0);
+                vzt_rd_pthread_mutex_init(lt, &b->mutex, (const union anonymous_8 *)(void *)0);
                 vzt_rd_decompress_blk_pth(lt, b);
               }
 
@@ -3370,7 +3370,7 @@ signed int vzt_rd_iter_blocks(struct vzt_rd_trace *lt, void (*value_change_callb
   signed int processed = 0;
   struct vzt_rd_block *bcutoff = (struct vzt_rd_block *)(void *)0;
   struct vzt_rd_block *bfinal = (struct vzt_rd_block *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lt == ((struct vzt_rd_trace *)NULL)))
   {
     lt->value_change_callback = value_change_callback != ((void (*)(struct vzt_rd_trace **, unsigned long int *, unsigned int *, char **))NULL) ? value_change_callback : vzt_rd_null_callback;
@@ -3389,11 +3389,11 @@ signed int vzt_rd_iter_blocks(struct vzt_rd_trace *lt, void (*value_change_callb
             {
               signed int gate;
               if(processed == 4)
-                tmp_if_expr$1 = b->next != ((struct vzt_rd_block *)NULL) ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_1 = b->next != ((struct vzt_rd_block *)NULL) ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$1 = (_Bool)0;
-              gate = (signed int)tmp_if_expr$1;
+                tmp_if_expr_1 = (_Bool)0;
+              gate = (signed int)tmp_if_expr_1;
               fprintf(stderr, "VZTLOAD | block [%d] processing %ld / %ld%s\n", blk, b->start, b->end, gate != 0 ? " ..." : "");
               if(!(gate == 0))
                 bcutoff = b;
@@ -3479,7 +3479,7 @@ unsigned int vzt_rd_limit_time_range(struct vzt_rd_trace *lt, unsigned long int 
 {
   unsigned long int tmp_time;
   signed int blk = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(lt == ((struct vzt_rd_trace *)NULL)))
   {
     struct vzt_rd_block *b = lt->block_head;
@@ -3521,11 +3521,11 @@ unsigned int vzt_rd_limit_time_range(struct vzt_rd_trace *lt, unsigned long int 
 
       }
       if(state == 1)
-        tmp_if_expr$1 = !(b->short_read_ignore != 0u) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = !(b->short_read_ignore != 0u) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
       {
         b->exclude_block = (unsigned int)0;
         blk = blk + 1;
@@ -3569,15 +3569,15 @@ unsigned int vzt_rd_next_value_chg_time(struct vzt_rd_trace *lt, struct vzt_rd_b
   unsigned int *valpnt;
   unsigned int *valpnt_x;
   unsigned int change_msk;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(time_offset >= b->num_time_ticks + 4294967295u)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = facidx > lt->numrealfacs ? (_Bool)1 : (_Bool)0;
-  unsigned int tmp_if_expr$3;
-  unsigned int return_value_vzt_rd_tzc$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = facidx > lt->numrealfacs ? (_Bool)1 : (_Bool)0;
+  unsigned int tmp_if_expr_3;
+  unsigned int return_value_vzt_rd_tzc_2;
+  if(tmp_if_expr_1)
     return time_offset;
 
   else
@@ -3648,14 +3648,14 @@ unsigned int vzt_rd_next_value_chg_time(struct vzt_rd_trace *lt, struct vzt_rd_b
         if(!(change_msk == 0u))
         {
           if(!((1u & change_msk) == 0u))
-            tmp_if_expr$3 = (unsigned int)0;
+            tmp_if_expr_3 = (unsigned int)0;
 
           else
           {
-            return_value_vzt_rd_tzc$2=vzt_rd_tzc(change_msk);
-            tmp_if_expr$3 = return_value_vzt_rd_tzc$2;
+            return_value_vzt_rd_tzc_2=vzt_rd_tzc(change_msk);
+            tmp_if_expr_3 = return_value_vzt_rd_tzc_2;
           }
-          return tmp_if_expr$3 + time_offset + (unsigned int)bit;
+          return tmp_if_expr_3 + time_offset + (unsigned int)bit;
         }
 
       }
@@ -3701,22 +3701,22 @@ signed int vzt_rd_process_block(struct vzt_rd_trace *lt, struct vzt_rd_block *b)
   struct vzt_ncycle_autosort **autosort;
   struct vzt_ncycle_autosort *deadlist = (struct vzt_ncycle_autosort *)(void *)0;
   struct vzt_ncycle_autosort *autofacs;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)lt->numrealfacs, sizeof(struct vzt_ncycle_autosort) /*8ul*/ );
-  autofacs = (struct vzt_ncycle_autosort *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)lt->numrealfacs, sizeof(struct vzt_ncycle_autosort) /*8ul*/ );
+  autofacs = (struct vzt_ncycle_autosort *)return_value_calloc_1;
   vzt_rd_block_vch_decode(lt, b);
   vzt_rd_pthread_mutex_lock(lt, &b->mutex);
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)b->num_time_ticks, sizeof(struct vzt_ncycle_autosort *) /*8ul*/ );
-  autosort = (struct vzt_ncycle_autosort **)return_value_calloc$2;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)b->num_time_ticks, sizeof(struct vzt_ncycle_autosort *) /*8ul*/ );
+  autosort = (struct vzt_ncycle_autosort **)return_value_calloc_2;
   i = (unsigned int)0;
   for( ; !(i >= b->num_time_ticks); i = i + 1u)
     autosort[(signed long int)i] = (struct vzt_ncycle_autosort *)(void *)0;
   deadlist = (struct vzt_ncycle_autosort *)(void *)0;
   idx = (unsigned int)0;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  char *tmp_if_expr$4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  char *tmp_if_expr_4;
   for( ; !(idx >= lt->numrealfacs); idx = idx + 1u)
   {
     signed int process_idx = (signed int)(idx / (unsigned int)8);
@@ -3726,21 +3726,21 @@ signed int vzt_rd_process_block(struct vzt_rd_trace *lt, struct vzt_rd_block *b)
       i = (unsigned int)0;
       vzt_rd_fac_value(lt, b, i, idx, pnt);
       if(i == 0u)
-        tmp_if_expr$5 = b->prev != ((struct vzt_rd_block *)NULL) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = b->prev != ((struct vzt_rd_block *)NULL) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = !(b->prev->exclude_block != 0u) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = !(b->prev->exclude_block != 0u) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(tmp_if_expr$6)
+        tmp_if_expr_6 = (_Bool)0;
+      if(tmp_if_expr_6)
       {
         vzt_rd_fac_value(lt, b->prev, b->prev->num_time_ticks - (unsigned int)1, idx, pnt2);
-        signed int return_value_strcmp$3;
-        return_value_strcmp$3=strcmp(pnt, pnt2);
-        if(!(return_value_strcmp$3 == 0))
+        signed int return_value_strcmp_3;
+        return_value_strcmp_3=strcmp(pnt, pnt2);
+        if(!(return_value_strcmp_3 == 0))
           goto do_vch_0;
 
       }
@@ -3763,37 +3763,37 @@ signed int vzt_rd_process_block(struct vzt_rd_trace *lt, struct vzt_rd_block *b)
 
           else
           {
-            unsigned int vzt_rd_process_block$$1$$2$$1$$1$$2$$2$$2$$spnt;
-            vzt_rd_process_block$$1$$2$$1$$1$$2$$2$$2$$spnt=vzt_rd_make_sindex(pnt);
-            char *vzt_rd_process_block$$1$$2$$1$$1$$2$$2$$2$$msg;
+            unsigned int vzt_rd_process_block__1__2__1__1__2__2__2__spnt;
+            vzt_rd_process_block__1__2__1__1__2__2__2__spnt=vzt_rd_make_sindex(pnt);
+            char *vzt_rd_process_block__1__2__1__1__2__2__2__msg;
             if(b->prev == ((struct vzt_rd_block *)NULL) && i == 0u)
-              tmp_if_expr$4 = "UNDEF";
+              tmp_if_expr_4 = "UNDEF";
 
             else
-              tmp_if_expr$4 = b->sindex[(signed long int)vzt_rd_process_block$$1$$2$$1$$1$$2$$2$$2$$spnt];
-            vzt_rd_process_block$$1$$2$$1$$1$$2$$2$$2$$msg = tmp_if_expr$4;
-            lt->value_change_callback(&lt, &b->times[(signed long int)i], &idx, &vzt_rd_process_block$$1$$2$$1$$1$$2$$2$$2$$msg);
+              tmp_if_expr_4 = b->sindex[(signed long int)vzt_rd_process_block__1__2__1__1__2__2__2__spnt];
+            vzt_rd_process_block__1__2__1__1__2__2__2__msg = tmp_if_expr_4;
+            lt->value_change_callback(&lt, &b->times[(signed long int)i], &idx, &vzt_rd_process_block__1__2__1__1__2__2__2__msg);
           }
       }
       i2=vzt_rd_next_value_chg_time(lt, b, i, idx);
       if(!(i2 == 0u))
       {
-        struct vzt_ncycle_autosort *vzt_rd_process_block$$1$$2$$1$$1$$3$$t = autosort[(signed long int)i2];
-        (autofacs + (signed long int)idx)->next = vzt_rd_process_block$$1$$2$$1$$1$$3$$t;
+        struct vzt_ncycle_autosort *vzt_rd_process_block__1__2__1__1__3__t = autosort[(signed long int)i2];
+        (autofacs + (signed long int)idx)->next = vzt_rd_process_block__1__2__1__1__3__t;
         autosort[(signed long int)i2] = autofacs + (signed long int)idx;
       }
 
       else
       {
-        struct vzt_ncycle_autosort *vzt_rd_process_block$$1$$2$$1$$1$$4$$t = deadlist;
-        (autofacs + (signed long int)idx)->next = vzt_rd_process_block$$1$$2$$1$$1$$4$$t;
+        struct vzt_ncycle_autosort *vzt_rd_process_block__1__2__1__1__4__t = deadlist;
+        (autofacs + (signed long int)idx)->next = vzt_rd_process_block__1__2__1__1__4__t;
         deadlist = autofacs + (signed long int)idx;
       }
     }
 
   }
   i = (unsigned int)1;
-  char *tmp_if_expr$7;
+  char *tmp_if_expr_7;
   for( ; !(i >= b->num_time_ticks); i = i + 1u)
   {
     struct vzt_ncycle_autosort *t = autosort[(signed long int)i];
@@ -3821,11 +3821,11 @@ signed int vzt_rd_process_block(struct vzt_rd_trace *lt, struct vzt_rd_block *b)
             spnt=vzt_rd_make_sindex(pnt);
             char *msg;
             if(b->prev == ((struct vzt_rd_block *)NULL) && i == 0u)
-              tmp_if_expr$7 = "UNDEF";
+              tmp_if_expr_7 = "UNDEF";
 
             else
-              tmp_if_expr$7 = b->sindex[(signed long int)spnt];
-            msg = tmp_if_expr$7;
+              tmp_if_expr_7 = b->sindex[(signed long int)spnt];
+            msg = tmp_if_expr_7;
             lt->value_change_callback(&lt, &b->times[(signed long int)i], &idx, &msg);
           }
         i2=vzt_rd_next_value_chg_time(lt, b, i, idx);
@@ -3838,8 +3838,8 @@ signed int vzt_rd_process_block(struct vzt_rd_trace *lt, struct vzt_rd_block *b)
 
         else
         {
-          struct vzt_ncycle_autosort *vzt_rd_process_block$$1$$3$$1$$1$$1$$4$$ta = deadlist;
-          (autofacs + (signed long int)idx)->next = vzt_rd_process_block$$1$$3$$1$$1$$1$$4$$ta;
+          struct vzt_ncycle_autosort *vzt_rd_process_block__1__3__1__1__1__4__ta = deadlist;
+          (autofacs + (signed long int)idx)->next = vzt_rd_process_block__1__3__1__1__1__4__ta;
           deadlist = autofacs + (signed long int)idx;
         }
         t = tn;
@@ -3868,9 +3868,9 @@ signed int vzt_rd_process_block_linear(struct vzt_rd_trace *lt, struct vzt_rd_bl
   vzt_rd_block_vch_decode(lt, b);
   vzt_rd_pthread_mutex_lock(lt, &b->mutex);
   idx = (unsigned int)0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  char *tmp_if_expr$2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  char *tmp_if_expr_2;
   for( ; !(idx >= lt->numrealfacs); idx = idx + 1u)
   {
     signed int process_idx = (signed int)(idx / (unsigned int)8);
@@ -3882,21 +3882,21 @@ signed int vzt_rd_process_block_linear(struct vzt_rd_trace *lt, struct vzt_rd_bl
       {
         vzt_rd_fac_value(lt, b, (unsigned int)i, idx, pnt);
         if(i == 0)
-          tmp_if_expr$3 = b->prev != ((struct vzt_rd_block *)NULL) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = b->prev != ((struct vzt_rd_block *)NULL) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = !(b->prev->exclude_block != 0u) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = !(b->prev->exclude_block != 0u) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
         {
           vzt_rd_fac_value(lt, b->prev, b->prev->num_time_ticks - (unsigned int)1, idx, pnt2);
-          signed int return_value_strcmp$1;
-          return_value_strcmp$1=strcmp(pnt, pnt2);
-          if(!(return_value_strcmp$1 == 0))
+          signed int return_value_strcmp_1;
+          return_value_strcmp_1=strcmp(pnt, pnt2);
+          if(!(return_value_strcmp_1 == 0))
             goto do_vch;
 
         }
@@ -3923,17 +3923,17 @@ signed int vzt_rd_process_block_linear(struct vzt_rd_trace *lt, struct vzt_rd_bl
               spnt=vzt_rd_make_sindex(pnt);
               char *msg;
               if(b->prev == ((struct vzt_rd_block *)NULL) && i == 0)
-                tmp_if_expr$2 = "UNDEF";
+                tmp_if_expr_2 = "UNDEF";
 
               else
-                tmp_if_expr$2 = b->sindex[(signed long int)spnt];
-              msg = tmp_if_expr$2;
+                tmp_if_expr_2 = b->sindex[(signed long int)spnt];
+              msg = tmp_if_expr_2;
               lt->value_change_callback(&lt, &b->times[(signed long int)i], &idx, &msg);
             }
         }
-        unsigned int return_value_vzt_rd_next_value_chg_time$5;
-        return_value_vzt_rd_next_value_chg_time$5=vzt_rd_next_value_chg_time(lt, b, (unsigned int)i, idx);
-        i2 = (signed int)return_value_vzt_rd_next_value_chg_time$5;
+        unsigned int return_value_vzt_rd_next_value_chg_time_5;
+        return_value_vzt_rd_next_value_chg_time_5=vzt_rd_next_value_chg_time(lt, b, (unsigned int)i, idx);
+        i2 = (signed int)return_value_vzt_rd_next_value_chg_time_5;
         if(i == i2)
           break;
 
@@ -3957,13 +3957,13 @@ static char * vzt_rd_process_block_single_factime(struct vzt_rd_trace *lt, struc
   char *rcval = (char *)(void *)0;
   vzt_rd_block_vch_decode(lt, b);
   vzt_rd_pthread_mutex_lock(lt, &b->mutex);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(b->last_rd_value_simtime == simtime)
-    tmp_if_expr$1 = b->last_rd_value_idx != (unsigned int)~0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = b->last_rd_value_idx != (unsigned int)~0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     i = b->last_rd_value_idx;
 
   else
@@ -4031,7 +4031,7 @@ static inline void vzt_rd_pthread_create(struct vzt_rd_trace *lt, unsigned long 
 
 // vzt_rd_pthread_mutex_destroy
 // file vzt_read.c line 90
-static inline void vzt_rd_pthread_mutex_destroy(struct vzt_rd_trace *lt, union anonymous$3 *mutex)
+static inline void vzt_rd_pthread_mutex_destroy(struct vzt_rd_trace *lt, union anonymous_3 *mutex)
 {
   if(!(lt->pthreads == 0u))
     pthread_mutex_destroy(mutex);
@@ -4040,7 +4040,7 @@ static inline void vzt_rd_pthread_mutex_destroy(struct vzt_rd_trace *lt, union a
 
 // vzt_rd_pthread_mutex_init
 // file vzt_read.c line 74
-static inline signed int vzt_rd_pthread_mutex_init(struct vzt_rd_trace *lt, union anonymous$3 *mutex, const union anonymous$8 *mutexattr)
+static inline signed int vzt_rd_pthread_mutex_init(struct vzt_rd_trace *lt, union anonymous_3 *mutex, const union anonymous_8 *mutexattr)
 {
   if(!(lt->pthreads == 0u))
     pthread_mutex_init(mutex, mutexattr);
@@ -4050,7 +4050,7 @@ static inline signed int vzt_rd_pthread_mutex_init(struct vzt_rd_trace *lt, unio
 
 // vzt_rd_pthread_mutex_lock
 // file vzt_read.c line 80
-static inline void vzt_rd_pthread_mutex_lock(struct vzt_rd_trace *lt, union anonymous$3 *mx)
+static inline void vzt_rd_pthread_mutex_lock(struct vzt_rd_trace *lt, union anonymous_3 *mx)
 {
   if(!(lt->pthreads == 0u))
     pthread_mutex_lock(mx);
@@ -4059,7 +4059,7 @@ static inline void vzt_rd_pthread_mutex_lock(struct vzt_rd_trace *lt, union anon
 
 // vzt_rd_pthread_mutex_unlock
 // file vzt_read.c line 85
-static inline void vzt_rd_pthread_mutex_unlock(struct vzt_rd_trace *lt, union anonymous$3 *mx)
+static inline void vzt_rd_pthread_mutex_unlock(struct vzt_rd_trace *lt, union anonymous_3 *mx)
 {
   if(!(lt->pthreads == 0u))
     pthread_mutex_unlock(mx);
@@ -4070,9 +4070,9 @@ static inline void vzt_rd_pthread_mutex_unlock(struct vzt_rd_trace *lt, union an
 // file vzt_read.c line 277
 static inline unsigned int vzt_rd_tzc(unsigned int x)
 {
-  unsigned int return_value_vzt_rd_ones_cnt$1;
-  return_value_vzt_rd_ones_cnt$1=vzt_rd_ones_cnt((x & -x) - (unsigned int)1);
-  return return_value_vzt_rd_ones_cnt$1;
+  unsigned int return_value_vzt_rd_ones_cnt_1;
+  return_value_vzt_rd_ones_cnt_1=vzt_rd_ones_cnt((x & -x) - (unsigned int)1);
+  return return_value_vzt_rd_ones_cnt_1;
 }
 
 // vzt_rd_unlimit_time_range
@@ -4102,17 +4102,17 @@ char * vzt_rd_value(struct vzt_rd_trace *lt, unsigned long int simtime, unsigned
   struct vzt_rd_block *b;
   struct vzt_rd_block *b2;
   char *rcval = (char *)(void *)0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!(lt == ((struct vzt_rd_trace *)NULL)))
   {
     b = lt->block_head;
     if(simtime == lt->last_rd_value_simtime)
-      tmp_if_expr$1 = lt->last_rd_value_block != ((struct vzt_rd_block *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = lt->last_rd_value_block != ((struct vzt_rd_block *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
     {
       b = lt->last_rd_value_block;
       goto b_chk;
@@ -4126,11 +4126,11 @@ char * vzt_rd_value(struct vzt_rd_trace *lt, unsigned long int simtime, unsigned
     if(!(b == ((struct vzt_rd_block *)NULL)))
     {
       if(!(simtime >= b->start))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = b->end < simtime ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = b->end < simtime ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         b = b->next;
 
       else
@@ -4201,25 +4201,25 @@ __CPROVER_DUMP_L12:
 // file vzt_read.h line 295
 void vzt_rd_vectorize(struct vzt_rd_trace *lt)
 {
-  _Bool tmp_if_expr$17;
+  _Bool tmp_if_expr_17;
   if(lt == ((struct vzt_rd_trace *)NULL))
-    tmp_if_expr$17 = (_Bool)1;
+    tmp_if_expr_17 = (_Bool)1;
 
   else
-    tmp_if_expr$17 = lt->vectorize != 0u ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$18;
-  if(tmp_if_expr$17)
-    tmp_if_expr$18 = (_Bool)1;
+    tmp_if_expr_17 = lt->vectorize != 0u ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_18;
+  if(tmp_if_expr_17)
+    tmp_if_expr_18 = (_Bool)1;
 
   else
-    tmp_if_expr$18 = lt->numfacs < (unsigned int)2 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$7;
-  signed int return_value_strcmp$6;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$9;
-  unsigned int tmp_post$13;
-  if(tmp_if_expr$18)
+    tmp_if_expr_18 = lt->numfacs < (unsigned int)2 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_7;
+  signed int return_value_strcmp_6;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_9;
+  unsigned int tmp_post_13;
+  if(tmp_if_expr_18)
     goto __CPROVER_DUMP_L47;
 
   else
@@ -4227,9 +4227,9 @@ void vzt_rd_vectorize(struct vzt_rd_trace *lt)
     unsigned int old_longest_len = lt->longest_len;
     signed int pmxlen = 31;
     char *pbuff;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)(pmxlen + 1));
-    pbuff = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)(pmxlen + 1));
+    pbuff = (char *)return_value_malloc_1;
     char *pname;
     signed int plen;
     signed int plen2;
@@ -4239,9 +4239,9 @@ void vzt_rd_vectorize(struct vzt_rd_trace *lt)
     signed int num_synvecs = 0;
     signed int num_synalias = 0;
     struct vzt_synvec_chain **synvec_chain;
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)lt->numfacs, sizeof(struct vzt_synvec_chain *) /*8ul*/ );
-    synvec_chain = (struct vzt_synvec_chain **)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)lt->numfacs, sizeof(struct vzt_synvec_chain *) /*8ul*/ );
+    synvec_chain = (struct vzt_synvec_chain **)return_value_calloc_2;
     i = (unsigned int)0;
     for( ; !(i >= lt->numfacs + 4294967295u); i = i + 1u)
     {
@@ -4249,15 +4249,15 @@ void vzt_rd_vectorize(struct vzt_rd_trace *lt)
       if(lt->len[(signed long int)i] == 1u)
       {
         pname=vzt_rd_get_facname(lt, i);
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(pname);
-        plen = (signed int)return_value_strlen$3;
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(pname);
+        plen = (signed int)return_value_strlen_3;
         if(!(pmxlen >= plen))
         {
           free((void *)pbuff);
-          void *return_value_malloc$4;
-          return_value_malloc$4=malloc((unsigned long int)(plen + 1));
-          pbuff = (char *)return_value_malloc$4;
+          void *return_value_malloc_4;
+          return_value_malloc_4=malloc((unsigned long int)(plen + 1));
+          pbuff = (char *)return_value_malloc_4;
         }
 
         memcpy((void *)pbuff, (const void *)pname, (unsigned long int)plen);
@@ -4267,35 +4267,35 @@ void vzt_rd_vectorize(struct vzt_rd_trace *lt)
         for( ; !(j >= lt->numfacs + 4294967295u); j = j + 1u)
         {
           pname=vzt_rd_get_facname(lt, j);
-          unsigned long int return_value_strlen$5;
-          return_value_strlen$5=strlen(pname);
-          plen2 = (signed int)return_value_strlen$5;
+          unsigned long int return_value_strlen_5;
+          return_value_strlen_5=strlen(pname);
+          plen2 = (signed int)return_value_strlen_5;
           if(!(plen == plen2))
-            tmp_if_expr$7 = (_Bool)1;
+            tmp_if_expr_7 = (_Bool)1;
 
           else
           {
-            return_value_strcmp$6=strcmp(pbuff, pname);
-            tmp_if_expr$7 = return_value_strcmp$6 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_6=strcmp(pbuff, pname);
+            tmp_if_expr_7 = return_value_strcmp_6 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$7)
-            tmp_if_expr$8 = (_Bool)1;
+          if(tmp_if_expr_7)
+            tmp_if_expr_8 = (_Bool)1;
 
           else
-            tmp_if_expr$8 = lt->len[(signed long int)j] != (unsigned int)1 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$8)
-            tmp_if_expr$10 = (_Bool)1;
+            tmp_if_expr_8 = lt->len[(signed long int)j] != (unsigned int)1 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_8)
+            tmp_if_expr_10 = (_Bool)1;
 
           else
           {
             if(!(pidx == lt->msb[(signed long int)j] + -1))
-              tmp_if_expr$9 = pidx != lt->msb[(signed long int)j] + 1 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_9 = pidx != lt->msb[(signed long int)j] + 1 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$9 = (_Bool)0;
-            tmp_if_expr$10 = tmp_if_expr$9 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_9 = (_Bool)0;
+            tmp_if_expr_10 = tmp_if_expr_9 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$10)
+          if(tmp_if_expr_10)
           {
             i = j - (unsigned int)1;
             break;
@@ -4319,27 +4319,27 @@ void vzt_rd_vectorize(struct vzt_rd_trace *lt)
     {
       if(!((8u & lt->flags[(signed long int)i]) == 0u))
       {
-        unsigned int vzt_rd_vectorize$$1$$2$$2$$1$$1$$j;
-        vzt_rd_vectorize$$1$$2$$2$$1$$1$$j=vzt_rd_get_alias_root(lt, i);
+        unsigned int vzt_rd_vectorize__1__2__2__1__1__j;
+        vzt_rd_vectorize__1__2__2__1__1__j=vzt_rd_get_alias_root(lt, i);
         unsigned int k;
         unsigned int l;
         if(!(lt->len[(signed long int)i] == 0u))
         {
           if(lt->len[(signed long int)i] == 1u)
           {
-            if(lt->len[(signed long int)vzt_rd_vectorize$$1$$2$$2$$1$$1$$j] == 1u)
+            if(lt->len[(signed long int)vzt_rd_vectorize__1__2__2__1__1__j] == 1u)
               goto __CPROVER_DUMP_L40;
 
           }
 
-          if(lt->len[(signed long int)i] == lt->len[(signed long int)vzt_rd_vectorize$$1$$2$$2$$1$$1$$j])
+          if(lt->len[(signed long int)i] == lt->len[(signed long int)vzt_rd_vectorize__1__2__2__1__1__j])
           {
             unsigned int nfm1 = lt->numfacs - (unsigned int)1;
-            if(!(vzt_rd_vectorize$$1$$2$$2$$1$$1$$j == nfm1) && !(i == nfm1))
+            if(!(vzt_rd_vectorize__1__2__2__1__1__j == nfm1) && !(i == nfm1))
             {
               if(!(lt->len[(signed long int)(1u + i)] == 0u))
               {
-                if(!(lt->len[(signed long int)(1u + vzt_rd_vectorize$$1$$2$$2$$1$$1$$j)] == 0u))
+                if(!(lt->len[(signed long int)(1u + vzt_rd_vectorize__1__2__2__1__1__j)] == 0u))
                   goto __CPROVER_DUMP_L40;
 
               }
@@ -4348,23 +4348,23 @@ void vzt_rd_vectorize(struct vzt_rd_trace *lt)
 
           }
 
-          lt->vindex_offset[(signed long int)i] = lt->vindex_offset[(signed long int)vzt_rd_vectorize$$1$$2$$2$$1$$1$$j];
+          lt->vindex_offset[(signed long int)i] = lt->vindex_offset[(signed long int)vzt_rd_vectorize__1__2__2__1__1__j];
           k = (unsigned int)1;
           for( ; !(k >= lt->len[(signed long int)i]); k = k + 1u)
             if(lt->numfacs + 4294967295u >= k + i)
             {
-              unsigned int return_value_vzt_rd_get_alias_root$11;
-              return_value_vzt_rd_get_alias_root$11=vzt_rd_get_alias_root(lt, k + i);
-              lt->vindex_offset[(signed long int)(k + i)] = lt->vindex_offset[(signed long int)return_value_vzt_rd_get_alias_root$11];
+              unsigned int return_value_vzt_rd_get_alias_root_11;
+              return_value_vzt_rd_get_alias_root_11=vzt_rd_get_alias_root(lt, k + i);
+              lt->vindex_offset[(signed long int)(k + i)] = lt->vindex_offset[(signed long int)return_value_vzt_rd_get_alias_root_11];
             }
 
-          if(!(synvec_chain[(signed long int)vzt_rd_vectorize$$1$$2$$2$$1$$1$$j] == ((struct vzt_synvec_chain *)NULL)))
+          if(!(synvec_chain[(signed long int)vzt_rd_vectorize__1__2__2__1__1__j] == ((struct vzt_synvec_chain *)NULL)))
           {
             signed int alias_found = 0;
             k = (unsigned int)0;
-            for( ; !(k >= synvec_chain[(signed long int)vzt_rd_vectorize$$1$$2$$2$$1$$1$$j]->num_entries); k = k + 1u)
+            for( ; !(k >= synvec_chain[(signed long int)vzt_rd_vectorize__1__2__2__1__1__j]->num_entries); k = k + 1u)
             {
-              unsigned int idx = synvec_chain[(signed long int)vzt_rd_vectorize$$1$$2$$2$$1$$1$$j]->chain[(signed long int)k];
+              unsigned int idx = synvec_chain[(signed long int)vzt_rd_vectorize__1__2__2__1__1__j]->chain[(signed long int)k];
               if(lt->len[(signed long int)i] == lt->len[(signed long int)idx])
               {
                 l = (unsigned int)0;
@@ -4389,12 +4389,12 @@ void vzt_rd_vectorize(struct vzt_rd_trace *lt)
             }
             if(alias_found == 0)
             {
-              void *return_value_realloc$12;
-              return_value_realloc$12=realloc((void *)synvec_chain[(signed long int)vzt_rd_vectorize$$1$$2$$2$$1$$1$$j], sizeof(struct vzt_synvec_chain) /*8ul*/  + (unsigned long int)synvec_chain[(signed long int)vzt_rd_vectorize$$1$$2$$2$$1$$1$$j]->num_entries * sizeof(unsigned int) /*4ul*/ );
-              synvec_chain[(signed long int)vzt_rd_vectorize$$1$$2$$2$$1$$1$$j] = (struct vzt_synvec_chain *)return_value_realloc$12;
-              tmp_post$13 = synvec_chain[(signed long int)vzt_rd_vectorize$$1$$2$$2$$1$$1$$j]->num_entries;
-              synvec_chain[(signed long int)vzt_rd_vectorize$$1$$2$$2$$1$$1$$j]->num_entries = synvec_chain[(signed long int)vzt_rd_vectorize$$1$$2$$2$$1$$1$$j]->num_entries + 1u;
-              synvec_chain[(signed long int)vzt_rd_vectorize$$1$$2$$2$$1$$1$$j]->chain[(signed long int)tmp_post$13] = i;
+              void *return_value_realloc_12;
+              return_value_realloc_12=realloc((void *)synvec_chain[(signed long int)vzt_rd_vectorize__1__2__2__1__1__j], sizeof(struct vzt_synvec_chain) /*8ul*/  + (unsigned long int)synvec_chain[(signed long int)vzt_rd_vectorize__1__2__2__1__1__j]->num_entries * sizeof(unsigned int) /*4ul*/ );
+              synvec_chain[(signed long int)vzt_rd_vectorize__1__2__2__1__1__j] = (struct vzt_synvec_chain *)return_value_realloc_12;
+              tmp_post_13 = synvec_chain[(signed long int)vzt_rd_vectorize__1__2__2__1__1__j]->num_entries;
+              synvec_chain[(signed long int)vzt_rd_vectorize__1__2__2__1__1__j]->num_entries = synvec_chain[(signed long int)vzt_rd_vectorize__1__2__2__1__1__j]->num_entries + 1u;
+              synvec_chain[(signed long int)vzt_rd_vectorize__1__2__2__1__1__j]->chain[(signed long int)tmp_post_13] = i;
               lt->flags[(signed long int)i] = lt->flags[(signed long int)i] | (unsigned int)(1 << 17);
               lt->flags[(signed long int)i] = lt->flags[(signed long int)i] & (unsigned int)~(1 << 3);
               lt->numrealfacs = i + (unsigned int)1;
@@ -4405,13 +4405,13 @@ void vzt_rd_vectorize(struct vzt_rd_trace *lt)
 
           else
           {
-            void *return_value_malloc$14;
-            return_value_malloc$14=malloc(sizeof(struct vzt_synvec_chain) /*8ul*/ );
-            synvec_chain[(signed long int)vzt_rd_vectorize$$1$$2$$2$$1$$1$$j] = (struct vzt_synvec_chain *)return_value_malloc$14;
-            if(!(synvec_chain[(signed long int)vzt_rd_vectorize$$1$$2$$2$$1$$1$$j] == ((struct vzt_synvec_chain *)NULL)))
+            void *return_value_malloc_14;
+            return_value_malloc_14=malloc(sizeof(struct vzt_synvec_chain) /*8ul*/ );
+            synvec_chain[(signed long int)vzt_rd_vectorize__1__2__2__1__1__j] = (struct vzt_synvec_chain *)return_value_malloc_14;
+            if(!(synvec_chain[(signed long int)vzt_rd_vectorize__1__2__2__1__1__j] == ((struct vzt_synvec_chain *)NULL)))
             {
-              synvec_chain[(signed long int)vzt_rd_vectorize$$1$$2$$2$$1$$1$$j]->num_entries = (unsigned int)1;
-              synvec_chain[(signed long int)vzt_rd_vectorize$$1$$2$$2$$1$$1$$j]->chain[(signed long int)0] = i;
+              synvec_chain[(signed long int)vzt_rd_vectorize__1__2__2__1__1__j]->num_entries = (unsigned int)1;
+              synvec_chain[(signed long int)vzt_rd_vectorize__1__2__2__1__1__j]->chain[(signed long int)0] = i;
             }
 
             lt->flags[(signed long int)i] = lt->flags[(signed long int)i] | (unsigned int)(1 << 17);
@@ -4447,12 +4447,12 @@ void vzt_rd_vectorize(struct vzt_rd_trace *lt)
     {
       free((void *)lt->value_current_sector);
       free((void *)lt->value_previous_sector);
-      void *return_value_malloc$15;
-      return_value_malloc$15=malloc((unsigned long int)(lt->longest_len + (unsigned int)1));
-      lt->value_current_sector = (char *)return_value_malloc$15;
-      void *return_value_malloc$16;
-      return_value_malloc$16=malloc((unsigned long int)(lt->longest_len + (unsigned int)1));
-      lt->value_previous_sector = (char *)return_value_malloc$16;
+      void *return_value_malloc_15;
+      return_value_malloc_15=malloc((unsigned long int)(lt->longest_len + (unsigned int)1));
+      lt->value_current_sector = (char *)return_value_malloc_15;
+      void *return_value_malloc_16;
+      return_value_malloc_16=malloc((unsigned long int)(lt->longest_len + (unsigned int)1));
+      lt->value_previous_sector = (char *)return_value_malloc_16;
     }
 
   }

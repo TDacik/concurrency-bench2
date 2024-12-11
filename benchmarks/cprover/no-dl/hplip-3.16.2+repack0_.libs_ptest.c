@@ -1,194 +1,194 @@
-// tag-#anon#ST[*{S8}$S8$'name'|*{S8}$S8$'incFile'|S32'valueSize'|U32'$pad0'|*{S8}$S8$'value'|SYM#tag-list_head#'list']
+// tag-#anon#ST[*{S8}_S8_'name'|*{S8}_S8_'incFile'|S32'valueSize'|U32'_pad0'|*{S8}_S8_'value'|SYM#tag-list_head#'list']
 // file io/hpmud/model.c line 44
-struct anonymous$39;
+struct anonymous_39;
 
-// tag-#anon#ST[*{SYM#tag-libusb_device_handle#}$SYM#tag-libusb_device_handle#$'hd'|SYM#tag-FD_ID#'fd'|S32'config'|S32'interface'|S32'alt_setting'|S32'write_active'|U32'$pad0'|*{cV}$cV$'write_buf'|S32'write_size'|S32'write_return'|U64'tid'|SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']#'mutex'|SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}$S8$'__size'|S64'__align']#'write_done_cond'|ARR16384{U8}$U8$'ubuf'|S32'uindex'|S32'ucnt']
+// tag-#anon#ST[*{SYM#tag-libusb_device_handle#}_SYM#tag-libusb_device_handle#_'hd'|SYM#tag-FD_ID#'fd'|S32'config'|S32'interface'|S32'alt_setting'|S32'write_active'|U32'_pad0'|*{cV}_cV_'write_buf'|S32'write_size'|S32'write_return'|U64'tid'|SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']#'mutex'|SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}_S8_'__size'|S64'__align']#'write_done_cond'|ARR16384{U8}_U8_'ubuf'|S32'uindex'|S32'ucnt']
 // file io/hpmud/musb.h line 69
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits']
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits']
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$41;
+struct anonymous_41;
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits']
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits']
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[ARR16{S8}$S8$'Name'|S32'StartCluster'|S32'StartSector'|S32'CurrSector'|S32'NumEntries']
+// tag-#anon#ST[ARR16{S8}_S8_'Name'|S32'StartCluster'|S32'StartSector'|S32'CurrSector'|S32'NumEntries']
 // file pcard/fat.c line 55
-struct anonymous$44;
+struct anonymous_44;
 
-// tag-#anon#ST[ARR16{S8}$S8$'Name'|S8'Attr'|U24'$pad0'|S32'Size']
+// tag-#anon#ST[ARR16{S8}_S8_'Name'|S8'Attr'|U24'_pad0'|S32'Size']
 // file pcard/fat.h line 32
 struct anonymous;
 
-// tag-#anon#ST[ARR16{S8}$S8$'Name'|S8'Attr'|U24'$pad0'|S32'StartCluster'|S32'CurrCluster'|S32'Size'|S32'CurrSector'|S32'CurrSectorNumInCluster'|S32'CurrByte'|S32'DirSectorNum'|S32'DirEntryNum']
+// tag-#anon#ST[ARR16{S8}_S8_'Name'|S8'Attr'|U24'_pad0'|S32'StartCluster'|S32'CurrCluster'|S32'Size'|S32'CurrSector'|S32'CurrSectorNumInCluster'|S32'CurrByte'|S32'DirSectorNum'|S32'DirEntryNum']
 // file pcard/fat.c line 64
-struct anonymous$45;
+struct anonymous_45;
 
-// tag-#anon#ST[ARR2{SYM#tag-_mud_device#}$SYM#tag-_mud_device#$'device'|SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']#'mutex']
+// tag-#anon#ST[ARR2{SYM#tag-_mud_device#}_SYM#tag-_mud_device#_'device'|SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']#'mutex']
 // file io/hpmud/hpmudi.h line 198
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[ARR3{S8}$S8$'JumpInstruction'|ARR8{S8}$S8$'OEMID'|U16'BytesPerSector'|U8'SectorsPerCluster'|U16'ReservedSectors'|U8'Fats'|U16'RootEntries'|U16'SmallSectors'|U8'Media'|U16'SectorsPerFat'|U16'SectorsPerTrack'|U16'Heads'|U32'HiddenSectors'|U32'LargeSectors'|U8'DriveNumber'|U8'CurrentHead'|U8'Signature'|U32'ID'|ARR11{U8}$U8$'VolumeLabel'|ARR8{U8}$U8$'SystemID'|ARR448{U8}$U8$'LoadInstructions'|U16'EndSignature']
+// tag-#anon#ST[ARR3{S8}_S8_'JumpInstruction'|ARR8{S8}_S8_'OEMID'|U16'BytesPerSector'|U8'SectorsPerCluster'|U16'ReservedSectors'|U8'Fats'|U16'RootEntries'|U16'SmallSectors'|U8'Media'|U16'SectorsPerFat'|U16'SectorsPerTrack'|U16'Heads'|U32'HiddenSectors'|U32'LargeSectors'|U8'DriveNumber'|U8'CurrentHead'|U8'Signature'|U32'ID'|ARR11{U8}_U8_'VolumeLabel'|ARR8{U8}_U8_'SystemID'|ARR448{U8}_U8_'LoadInstructions'|U16'EndSignature']
 // file pcard/fat.c line 78
-struct anonymous$42;
+struct anonymous_42;
 
-// tag-#anon#ST[ARR8{S8}$S8$'Name'|ARR3{S8}$S8$'Ext'|U8'Attributes'|ARR10{U8}$U8$'Reserved'|U16'Time'|U16'Date'|U16'StartCluster'|U32'Size']
+// tag-#anon#ST[ARR8{S8}_S8_'Name'|ARR3{S8}_S8_'Ext'|U8'Attributes'|ARR10{U8}_U8_'Reserved'|U16'Time'|U16'Date'|U16'StartCluster'|U32'Size']
 // file pcard/fat.c line 104
-struct anonymous$46;
+struct anonymous_46;
 
-// tag-#anon#ST[ARR8{S8}$S8$'OEMID'|S32'BytesPerSector'|S32'SectorsPerCluster'|S32'ReservedSectors'|S32'RootEntries'|S32'SectorsPerFat'|ARR11{S8}$S8$'VolumeLabel'|ARR8{S8}$S8$'SystemID'|U8'$pad0'|S32'WriteProtect']
+// tag-#anon#ST[ARR8{S8}_S8_'OEMID'|S32'BytesPerSector'|S32'SectorsPerCluster'|S32'ReservedSectors'|S32'RootEntries'|S32'SectorsPerFat'|ARR11{S8}_S8_'VolumeLabel'|ARR8{S8}_S8_'SystemID'|U8'_pad0'|S32'WriteProtect']
 // file pcard/fat.h line 39
-struct anonymous$35;
+struct anonymous_35;
 
 // tag-#anon#ST[S16'cmd'|U16'nsector']
 // file pcard/ptest.c line 47
-struct anonymous$36;
+struct anonymous_36;
 
 // tag-#anon#ST[S16'cmd'|U16'nsector'|S16'cs']
 // file pcard/ptest.c line 53
-struct anonymous$37;
+struct anonymous_37;
 
 // tag-#anon#ST[S16'cmd'|U32'nsector'|S16'ver']
 // file pcard/ptest.c line 59
-struct anonymous$38;
+struct anonymous_38;
 
-// tag-#anon#ST[S32'FatStartSector'|S32'DataStartSector'|S32'RootDirStartSector'|S32'RootDirNumSectors'|*{U8}$U8$'Fat'|S32'FatSize'|U32'$pad0'|*{U8}$U8$'Fat12'|S32'Fat12Size'|U32'$pad1'|*{U8}$U8$'Fat16'|S32'WriteProtect'|U32'$pad2']
+// tag-#anon#ST[S32'FatStartSector'|S32'DataStartSector'|S32'RootDirStartSector'|S32'RootDirNumSectors'|*{U8}_U8_'Fat'|S32'FatSize'|U32'_pad0'|*{U8}_U8_'Fat12'|S32'Fat12Size'|U32'_pad1'|*{U8}_U8_'Fat16'|S32'WriteProtect'|U32'_pad2']
 // file pcard/fat.c line 41
-struct anonymous$43;
+struct anonymous_43;
 
-// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
+// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$33;
+struct anonymous_33;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'hsid'|U8'psid'|U16'length'|U8'credit'|U8'status']#'h'|U8'cmd']
 // file io/hpmud/mlc.h line 67
-struct anonymous$30;
+struct anonymous_30;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'hsid'|U8'psid'|U16'length'|U8'credit'|U8'status']#'h'|U8'cmd'|U8'hsocket'|U8'psocket']
 // file io/hpmud/mlc.h line 117
-struct anonymous$28;
+struct anonymous_28;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'hsid'|U8'psid'|U16'length'|U8'credit'|U8'status']#'h'|U8'cmd'|U8'hsocket'|U8'psocket'|U16'credit']
 // file io/hpmud/mlc.h line 100
-struct anonymous$26;
+struct anonymous_26;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'hsid'|U8'psid'|U16'length'|U8'credit'|U8'status']#'h'|U8'cmd'|U8'result']
 // file io/hpmud/mlc.h line 73
-struct anonymous$23;
+struct anonymous_23;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'hsid'|U8'psid'|U16'length'|U8'credit'|U8'status']#'h'|U8'cmd'|U8'result'|U16'credit']
 // file io/hpmud/mlc.h line 109
-struct anonymous$27;
+struct anonymous_27;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'hsid'|U8'psid'|U16'length'|U8'credit'|U8'status']#'h'|U8'cmd'|U8'result'|U16'h2psize'|U16'p2hsize'|U8'status']
 // file io/hpmud/mlc.h line 90
-struct anonymous$25;
+struct anonymous_25;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'hsid'|U8'psid'|U16'length'|U8'credit'|U8'status']#'h'|U8'cmd'|U8'result'|U8'rev']
 // file io/hpmud/mlc.h line 59
-struct anonymous$34;
+struct anonymous_34;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'hsid'|U8'psid'|U16'length'|U8'credit'|U8'status']#'h'|U8'cmd'|U8'rev']
 // file io/hpmud/mlc.h line 52
-struct anonymous$32;
+struct anonymous_32;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'hsid'|U8'psid'|U16'length'|U8'credit'|U8'status']#'h'|U8'cmd'|U8'socket'|U16'h2psize'|U16'p2hsize'|U8'status']
 // file io/hpmud/mlc.h line 80
-struct anonymous$24;
+struct anonymous_24;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'psid'|U8'ssid'|U16'length'|U8'credit'|U8'control']#'h'|U8'cmd']
 // file io/hpmud/dot4.h line 72
-struct anonymous$3;
+struct anonymous_3;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'psid'|U8'ssid'|U16'length'|U8'credit'|U8'control']#'h'|U8'cmd'|U8'psocket'|U8'ssocket']
 // file io/hpmud/dot4.h line 109
-struct anonymous$7;
+struct anonymous_7;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'psid'|U8'ssid'|U16'length'|U8'credit'|U8'control']#'h'|U8'cmd'|U8'psocket'|U8'ssocket'|U16'credit']
 // file io/hpmud/dot4.h line 134
-struct anonymous$10;
+struct anonymous_10;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'psid'|U8'ssid'|U16'length'|U8'credit'|U8'control']#'h'|U8'cmd'|U8'psocket'|U8'ssocket'|U16'maxcredit']
 // file io/hpmud/dot4.h line 143
-struct anonymous$11;
+struct anonymous_11;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'psid'|U8'ssid'|U16'length'|U8'credit'|U8'control']#'h'|U8'cmd'|U8'psocket'|U8'ssocket'|U16'maxp2s'|U16'maxs2p'|U16'maxcredit']
 // file io/hpmud/dot4.h line 85
-struct anonymous$5;
+struct anonymous_5;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'psid'|U8'ssid'|U16'length'|U8'credit'|U8'control']#'h'|U8'cmd'|U8'psocket'|U8'ssocket'|U8'error']
 // file io/hpmud/dot4.h line 162
-struct anonymous$13;
+struct anonymous_13;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'psid'|U8'ssid'|U16'length'|U8'credit'|U8'control']#'h'|U8'cmd'|U8'result']
 // file io/hpmud/dot4.h line 78
-struct anonymous$4;
+struct anonymous_4;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'psid'|U8'ssid'|U16'length'|U8'credit'|U8'control']#'h'|U8'cmd'|U8'result'|U8'psocket'|U8'ssocket']
 // file io/hpmud/dot4.h line 117
-struct anonymous$8;
+struct anonymous_8;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'psid'|U8'ssid'|U16'length'|U8'credit'|U8'control']#'h'|U8'cmd'|U8'result'|U8'psocket'|U8'ssocket'|U16'credit']
 // file io/hpmud/dot4.h line 152
-struct anonymous$12;
+struct anonymous_12;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'psid'|U8'ssid'|U16'length'|U8'credit'|U8'control']#'h'|U8'cmd'|U8'result'|U8'psocket'|U8'ssocket'|U16'maxp2s'|U16'maxs2p'|U16'maxcredit'|U16'credit']
 // file io/hpmud/dot4.h line 96
-struct anonymous$6;
+struct anonymous_6;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'psid'|U8'ssid'|U16'length'|U8'credit'|U8'control']#'h'|U8'cmd'|U8'result'|U8'rev']
 // file io/hpmud/dot4.h line 64
-struct anonymous$2;
+struct anonymous_2;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'psid'|U8'ssid'|U16'length'|U8'credit'|U8'control']#'h'|U8'cmd'|U8'result'|U8'socket']
 // file io/hpmud/dot4.h line 126
-struct anonymous$9;
+struct anonymous_9;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[U8'psid'|U8'ssid'|U16'length'|U8'credit'|U8'control']#'h'|U8'cmd'|U8'rev']
 // file io/hpmud/dot4.h line 57
-struct anonymous$1;
+struct anonymous_1;
 
 // tag-#anon#ST[U16'h2pcredit'|U16'p2hcredit'|U16'h2psize'|U16'p2hsize']
 // file io/hpmud/hpmudi.h line 124
-struct anonymous$19;
+struct anonymous_19;
 
 // tag-#anon#ST[U8'hsid'|U8'psid'|U16'length'|U8'credit'|U8'status']
 // file io/hpmud/mlc.h line 43
-struct anonymous$22;
+struct anonymous_22;
 
 // tag-#anon#ST[U8'psid'|U8'ssid'|U16'length'|U8'credit'|U8'control']
 // file io/hpmud/dot4.h line 48
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#UN[*{S64}$S64$'integer'|*{U8}$U8$'string'|*{U64}$U64$'objid'|*{U8}$U8$'bitstring'|*{SYM#tag-counter64#}$SYM#tag-counter64#$'counter64'|*{F32}$F32$'floatVal'|*{F64}$F64$'doubleVal']
+// tag-#anon#UN[*{S64}_S64_'integer'|*{U8}_U8_'string'|*{U64}_U64_'objid'|*{U8}_U8_'bitstring'|*{SYM#tag-counter64#}_SYM#tag-counter64#_'counter64'|*{F32}_F32_'floatVal'|*{F64}_F64_'doubleVal']
 // file /usr/include/net-snmp/types.h line 114
-union anonymous$40;
+union anonymous_40;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'|ARR8{U16}$U16$'__u6_addr16'|ARR4{U32}$U32$'__u6_addr32']
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'|ARR8{U16}_U16_'__u6_addr16'|ARR4{U32}_U32_'__u6_addr32']
 // file /usr/include/netinet/in.h line 211
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'|S32'__align']
+// tag-#anon#UN[ARR4{S8}_S8_'__size'|S32'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$31;
+union anonymous_31;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$17;
+union anonymous_17;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$18;
+union anonymous_18;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'|r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__']
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'|r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__']
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$16;
+union anonymous_16;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'|r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__']$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'|r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'|r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'|r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'|r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'|r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'|r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'|r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'|r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'|r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'|r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'|r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'|r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__']_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$20;
+union anonymous_20;
 
 // tag-FD_ID
 // file io/hpmud/musb.h line 42
@@ -519,7 +519,7 @@ signed int FatDirBegin(struct anonymous *a);
 signed int FatDirNext(struct anonymous *a);
 // FatDiskAttributes
 // file pcard/fat.h line 62
-signed int FatDiskAttributes(struct anonymous$35 *pa);
+signed int FatDiskAttributes(struct anonymous_35 *pa);
 // FatFreeSpace
 // file pcard/fat.c line 515
 signed int FatFreeSpace(void);
@@ -550,9 +550,9 @@ signed int GetNextCluster(signed int cluster);
 // GetPair
 // file io/hpmud/model.c line 56
 static signed int GetPair(char *buf, signed int buf_len, char *key, char *value, char **tail);
-// GetPair$link1
+// GetPair_link1
 // file common/utils.c line 10
-static signed int GetPair$link1(char *buf$link1, signed int buf_len$link1, char *key$link1, char *value$link1, char **tail$link1);
+static signed int GetPair_link1(char *buf_link1, signed int buf_len_link1, char *key_link1, char *value_link1, char **tail_link1);
 // GetSnmp
 // file io/hpmud/pml.c line 212
 signed int GetSnmp(const char *ip, signed int port, const char *szoid, void *buffer, unsigned int size, signed int *type, signed int *pml_result, signed int *result);
@@ -642,7 +642,7 @@ static signed int SnmpErrorToPml(signed int snmp_error);
 static signed int SnmpToPml(const char *snmp_oid, unsigned char *oid, signed int oidSize);
 // UnRegisterLabel
 // file io/hpmud/model.c line 325
-static signed int UnRegisterLabel(struct anonymous$39 *pl);
+static signed int UnRegisterLabel(struct anonymous_39 *pl);
 // UpdateFat
 // file pcard/fat.c line 214
 signed int UpdateFat(void);
@@ -672,10 +672,10 @@ char * basename(const char *path);
 extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bridge_chip_down
 // file io/hpmud/musb.c line 319
-static signed int bridge_chip_down(struct anonymous$21 *pfd);
+static signed int bridge_chip_down(struct anonymous_21 *pfd);
 // bridge_chip_up
 // file io/hpmud/musb.c line 221
-static signed int bridge_chip_up(struct anonymous$21 *pfd);
+static signed int bridge_chip_up(struct anonymous_21 *pfd);
 // bug
 // file pcard/ptest.c line 70
 signed int bug(const char *fmt, ...);
@@ -687,7 +687,7 @@ extern void bzero(void *, unsigned long int);
 static signed int claim_id_interface(struct libusb_device *dev);
 // claim_interface
 // file io/hpmud/musb.c line 496
-static signed int claim_interface(struct libusb_device *dev, struct anonymous$21 *pfd);
+static signed int claim_interface(struct libusb_device *dev, struct anonymous_21 *pfd);
 // claim_pp
 // file io/hpmud/pp.c line 578
 static signed int claim_pp(signed int fd);
@@ -702,7 +702,7 @@ static signed int compat_write(signed int fd, const void *buffer, signed int siz
 static signed int compat_write_data(signed int fd, unsigned char data);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous$20, unsigned int);
+extern signed int connect(signed int, union anonymous_20, unsigned int);
 // createTempFile
 // file common/utils.c line 223
 signed int createTempFile(char *szFileName, struct _IO_FILE **pFilePtr);
@@ -712,12 +712,12 @@ signed int cut_buf(struct _mud_channel *pc, char *buf, signed int size);
 // del_channel
 // file io/hpmud/jd.c line 140
 static signed int del_channel(struct _mud_device *pd, struct _mud_channel *pc);
-// del_channel$link1
+// del_channel_link1
 // file io/hpmud/pp.c line 711
-static signed int del_channel$link1(struct _mud_device *pd$link1, struct _mud_channel *pc$link1);
-// del_channel$link2
+static signed int del_channel_link1(struct _mud_device *pd_link1, struct _mud_channel *pc_link1);
+// del_channel_link2
 // file io/hpmud/musb.c line 967
-static signed int del_channel$link2(struct _mud_device *pd$link2, struct _mud_channel *pc$link2);
+static signed int del_channel_link2(struct _mud_device *pd_link2, struct _mud_channel *pc_link2);
 // del_device
 // file io/hpmud/hpmud.c line 352
 static signed int del_device(signed int index);
@@ -726,22 +726,22 @@ static signed int del_device(signed int index);
 static signed int detach(struct libusb_device_handle *hd, signed int interface);
 // device_cleanup
 // file io/hpmud/hpmud.c line 364
-signed int device_cleanup(struct anonymous$29 *ps);
+signed int device_cleanup(struct anonymous_29 *ps);
 // device_id
 // file io/hpmud/jd.c line 82
 static signed int device_id(const char *iporhostname, signed int port, char *buffer, signed int size);
-// device_id$link1
+// device_id_link1
 // file io/hpmud/pp.c line 618
-static signed int device_id$link1(signed int fd, char *buffer$link1, signed int size$link1);
-// device_id$link2
+static signed int device_id_link1(signed int fd, char *buffer_link1, signed int size_link1);
+// device_id_link2
 // file io/hpmud/musb.c line 741
-static signed int device_id$link2(signed int fd$link1, unsigned char *buffer$link2, signed int size$link2);
+static signed int device_id_link2(signed int fd_link1, unsigned char *buffer_link2, signed int size_link2);
 // device_status
 // file io/hpmud/pp.c line 644
 static signed int device_status(signed int fd, unsigned int *status);
-// device_status$link1
+// device_status_link1
 // file io/hpmud/musb.c line 786
-static signed int device_status$link1(signed int fd$link1, unsigned int *status$link1);
+static signed int device_status_link1(signed int fd_link1, unsigned int *status_link1);
 // dirname
 // file pcard/ptest.c line 132
 signed int dirname(const char *path, char *dir);
@@ -843,7 +843,7 @@ static signed int get_ep(struct libusb_device *dev, signed int config, signed in
 static signed int get_in_ep(struct libusb_device *dev, signed int config, signed int interface, signed int altset, enum libusb_transfer_type type);
 // get_interface
 // file io/hpmud/musb.c line 401
-static signed int get_interface(struct libusb_device *dev, enum FD_ID index, struct anonymous$21 *pfd);
+static signed int get_interface(struct libusb_device *dev, enum FD_ID index, struct anonymous_21 *pfd);
 // get_key_value
 // file common/utils.c line 56
 enum UTILS_CONF_RESULT get_key_value(const char *file, const char *section, const char *key, char *value, signed int value_size);
@@ -1219,12 +1219,12 @@ signed int musb_write(signed int fd, const void *buf, signed int size, signed in
 // new_channel
 // file io/hpmud/jd.c line 101
 static signed int new_channel(struct _mud_device *pd, signed int index, const char *sn);
-// new_channel$link1
+// new_channel_link1
 // file io/hpmud/pp.c line 667
-static signed int new_channel$link1(struct _mud_device *pd$link1, signed int index$link1, const char *sn$link1);
-// new_channel$link2
+static signed int new_channel_link1(struct _mud_device *pd_link1, signed int index_link1, const char *sn_link1);
+// new_channel_link2
 // file io/hpmud/musb.c line 922
-static signed int new_channel$link2(struct _mud_device *pd$link2, signed int index$link2, const char *sn$link2);
+static signed int new_channel_link2(struct _mud_device *pd_link2, signed int index_link2, const char *sn_link2);
 // new_device
 // file io/hpmud/hpmud.c line 296
 static signed int new_device(const char *uri, enum HPMUD_IO_MODE mode, signed int *result);
@@ -1299,16 +1299,16 @@ signed int pp_write(signed int fd, const void *buf, signed int size, signed int 
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$17 *);
+extern signed int pthread_cond_destroy(union anonymous_17 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$17 *, const union anonymous$31 *);
+extern signed int pthread_cond_init(union anonymous_17 *, const union anonymous_31 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$17 *);
+extern signed int pthread_cond_signal(union anonymous_17 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$17 *, union anonymous$18 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_17 *, union anonymous_18 *, struct timespec *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1317,16 +1317,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_detach(unsigned long int);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$18 *);
+extern signed int pthread_mutex_destroy(union anonymous_18 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$18 *, const union anonymous$31 *);
+extern signed int pthread_mutex_init(union anonymous_18 *, const union anonymous_31 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$18 *);
+extern signed int pthread_mutex_lock(union anonymous_18 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$18 *);
+extern signed int pthread_mutex_unlock(union anonymous_18 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -1347,13 +1347,13 @@ extern signed long int recv(signed int, void *, unsigned long int, signed int);
 extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
 // release_interface
 // file io/hpmud/musb.c line 543
-static signed int release_interface(struct anonymous$21 *pfd);
+static signed int release_interface(struct anonymous_21 *pfd);
 // release_pp
 // file io/hpmud/pp.c line 597
 static signed int release_pp(signed int fd);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$14 *, struct anonymous$14 *, struct anonymous$14 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_14 *, struct anonymous_14 *, struct anonymous_14 *, struct timeval *);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
@@ -1491,13 +1491,13 @@ static signed int wait_status(signed int fd, unsigned char mask, unsigned char v
 extern signed long int write(signed int, const void *, unsigned long int);
 // write_ecp_channel
 // file io/hpmud/musb.c line 186
-static signed int write_ecp_channel(struct anonymous$21 *pfd, signed int value);
+static signed int write_ecp_channel(struct anonymous_21 *pfd, signed int value);
 // write_phoenix_setup
 // file io/hpmud/musb.c line 351
-static signed int write_phoenix_setup(struct anonymous$21 *pfd);
+static signed int write_phoenix_setup(struct anonymous_21 *pfd);
 // write_thread
 // file io/hpmud/musb.c line 979
-static void write_thread(struct anonymous$21 *pfd);
+static void write_thread(struct anonymous_21 *pfd);
 // writesect
 // file pcard/fat.c line 194
 signed int writesect(signed int sector, signed int nsector, void *buf, signed int size);
@@ -1510,7 +1510,7 @@ struct list_head
   struct list_head *prev;
 };
 
-struct anonymous$39
+struct anonymous_39
 {
   // name
   char *name;
@@ -1552,7 +1552,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$18
+union anonymous_18
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1562,7 +1562,7 @@ union anonymous$18
   signed long int __align;
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // __lock
   signed int __lock;
@@ -1582,17 +1582,17 @@ struct anonymous$33
   unsigned int __broadcast_seq;
 };
 
-union anonymous$17
+union anonymous_17
 {
   // __data
-  struct anonymous$33 __data;
+  struct anonymous_33 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // hd
   struct libusb_device_handle *hd;
@@ -1615,9 +1615,9 @@ struct anonymous$21
   // tid
   unsigned long int tid;
   // mutex
-  union anonymous$18 mutex;
+  union anonymous_18 mutex;
   // write_done_cond
-  union anonymous$17 write_done_cond;
+  union anonymous_17 write_done_cond;
   // ubuf
   unsigned char ubuf[16384l];
   // uindex
@@ -1626,19 +1626,19 @@ struct anonymous$21
   signed int ucnt;
 };
 
-struct anonymous$41
+struct anonymous_41
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // fds_bits
   signed long int fds_bits[16l];
 };
 
-struct anonymous$44
+struct anonymous_44
 {
   // Name
   char Name[16l];
@@ -1662,7 +1662,7 @@ struct anonymous
   signed int Size;
 };
 
-struct anonymous$45
+struct anonymous_45
 {
   // Name
   char Name[16l];
@@ -1686,7 +1686,7 @@ struct anonymous$45
   signed int DirEntryNum;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // h2pcredit
   unsigned short int h2pcredit;
@@ -1727,7 +1727,7 @@ struct _mud_channel
   // dindex
   signed int dindex;
   // ta
-  struct anonymous$19 ta;
+  struct anonymous_19 ta;
   // rbuf
   unsigned char rbuf[16384l];
   // rindex
@@ -1791,18 +1791,18 @@ struct _mud_device
   // vf
   struct _mud_device_vf vf;
   // mutex
-  union anonymous$18 mutex;
+  union anonymous_18 mutex;
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // device
   struct _mud_device device[2l];
   // mutex
-  union anonymous$18 mutex;
+  union anonymous_18 mutex;
 };
 
-struct anonymous$42
+struct anonymous_42
 {
   // JumpInstruction
   char JumpInstruction[3l];
@@ -1850,7 +1850,7 @@ struct anonymous$42
   unsigned short int EndSignature;
 } __attribute__ ((__packed__));
 
-struct anonymous$46
+struct anonymous_46
 {
   // Name
   char Name[8l];
@@ -1870,7 +1870,7 @@ struct anonymous$46
   unsigned int Size;
 } __attribute__ ((__packed__));
 
-struct anonymous$35
+struct anonymous_35
 {
   // OEMID
   char OEMID[8l];
@@ -1892,7 +1892,7 @@ struct anonymous$35
   signed int WriteProtect;
 };
 
-struct anonymous$36
+struct anonymous_36
 {
   // cmd
   signed short int cmd;
@@ -1900,7 +1900,7 @@ struct anonymous$36
   unsigned short int nsector;
 } __attribute__ ((__packed__));
 
-struct anonymous$37
+struct anonymous_37
 {
   // cmd
   signed short int cmd;
@@ -1910,7 +1910,7 @@ struct anonymous$37
   signed short int cs;
 } __attribute__ ((__packed__));
 
-struct anonymous$38
+struct anonymous_38
 {
   // cmd
   signed short int cmd;
@@ -1920,7 +1920,7 @@ struct anonymous$38
   signed short int ver;
 } __attribute__ ((__packed__));
 
-struct anonymous$43
+struct anonymous_43
 {
   // FatStartSector
   signed int FatStartSector;
@@ -1944,7 +1944,7 @@ struct anonymous$43
   signed int WriteProtect;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // hsid
   unsigned char hsid;
@@ -1958,18 +1958,18 @@ struct anonymous$22
   unsigned char status;
 } __attribute__ ((__packed__));
 
-struct anonymous$30
+struct anonymous_30
 {
   // h
-  struct anonymous$22 h;
+  struct anonymous_22 h;
   // cmd
   unsigned char cmd;
 } __attribute__ ((__packed__));
 
-struct anonymous$28
+struct anonymous_28
 {
   // h
-  struct anonymous$22 h;
+  struct anonymous_22 h;
   // cmd
   unsigned char cmd;
   // hsocket
@@ -1978,10 +1978,10 @@ struct anonymous$28
   unsigned char psocket;
 } __attribute__ ((__packed__));
 
-struct anonymous$26
+struct anonymous_26
 {
   // h
-  struct anonymous$22 h;
+  struct anonymous_22 h;
   // cmd
   unsigned char cmd;
   // hsocket
@@ -1992,20 +1992,20 @@ struct anonymous$26
   unsigned short int credit;
 } __attribute__ ((__packed__));
 
-struct anonymous$23
+struct anonymous_23
 {
   // h
-  struct anonymous$22 h;
+  struct anonymous_22 h;
   // cmd
   unsigned char cmd;
   // result
   unsigned char result;
 } __attribute__ ((__packed__));
 
-struct anonymous$27
+struct anonymous_27
 {
   // h
-  struct anonymous$22 h;
+  struct anonymous_22 h;
   // cmd
   unsigned char cmd;
   // result
@@ -2014,10 +2014,10 @@ struct anonymous$27
   unsigned short int credit;
 } __attribute__ ((__packed__));
 
-struct anonymous$25
+struct anonymous_25
 {
   // h
-  struct anonymous$22 h;
+  struct anonymous_22 h;
   // cmd
   unsigned char cmd;
   // result
@@ -2030,10 +2030,10 @@ struct anonymous$25
   unsigned char status;
 } __attribute__ ((__packed__));
 
-struct anonymous$34
+struct anonymous_34
 {
   // h
-  struct anonymous$22 h;
+  struct anonymous_22 h;
   // cmd
   unsigned char cmd;
   // result
@@ -2042,20 +2042,20 @@ struct anonymous$34
   unsigned char rev;
 } __attribute__ ((__packed__));
 
-struct anonymous$32
+struct anonymous_32
 {
   // h
-  struct anonymous$22 h;
+  struct anonymous_22 h;
   // cmd
   unsigned char cmd;
   // rev
   unsigned char rev;
 } __attribute__ ((__packed__));
 
-struct anonymous$24
+struct anonymous_24
 {
   // h
-  struct anonymous$22 h;
+  struct anonymous_22 h;
   // cmd
   unsigned char cmd;
   // socket
@@ -2068,7 +2068,7 @@ struct anonymous$24
   unsigned char status;
 } __attribute__ ((__packed__));
 
-struct anonymous$0
+struct anonymous_0
 {
   // psid
   unsigned char psid;
@@ -2082,18 +2082,18 @@ struct anonymous$0
   unsigned char control;
 } __attribute__ ((__packed__));
 
-struct anonymous$3
+struct anonymous_3
 {
   // h
-  struct anonymous$0 h;
+  struct anonymous_0 h;
   // cmd
   unsigned char cmd;
 } __attribute__ ((__packed__));
 
-struct anonymous$7
+struct anonymous_7
 {
   // h
-  struct anonymous$0 h;
+  struct anonymous_0 h;
   // cmd
   unsigned char cmd;
   // psocket
@@ -2102,10 +2102,10 @@ struct anonymous$7
   unsigned char ssocket;
 } __attribute__ ((__packed__));
 
-struct anonymous$10
+struct anonymous_10
 {
   // h
-  struct anonymous$0 h;
+  struct anonymous_0 h;
   // cmd
   unsigned char cmd;
   // psocket
@@ -2116,10 +2116,10 @@ struct anonymous$10
   unsigned short int credit;
 } __attribute__ ((__packed__));
 
-struct anonymous$11
+struct anonymous_11
 {
   // h
-  struct anonymous$0 h;
+  struct anonymous_0 h;
   // cmd
   unsigned char cmd;
   // psocket
@@ -2130,10 +2130,10 @@ struct anonymous$11
   unsigned short int maxcredit;
 } __attribute__ ((__packed__));
 
-struct anonymous$5
+struct anonymous_5
 {
   // h
-  struct anonymous$0 h;
+  struct anonymous_0 h;
   // cmd
   unsigned char cmd;
   // psocket
@@ -2148,10 +2148,10 @@ struct anonymous$5
   unsigned short int maxcredit;
 } __attribute__ ((__packed__));
 
-struct anonymous$13
+struct anonymous_13
 {
   // h
-  struct anonymous$0 h;
+  struct anonymous_0 h;
   // cmd
   unsigned char cmd;
   // psocket
@@ -2162,20 +2162,20 @@ struct anonymous$13
   unsigned char error;
 } __attribute__ ((__packed__));
 
-struct anonymous$4
+struct anonymous_4
 {
   // h
-  struct anonymous$0 h;
+  struct anonymous_0 h;
   // cmd
   unsigned char cmd;
   // result
   unsigned char result;
 } __attribute__ ((__packed__));
 
-struct anonymous$8
+struct anonymous_8
 {
   // h
-  struct anonymous$0 h;
+  struct anonymous_0 h;
   // cmd
   unsigned char cmd;
   // result
@@ -2186,10 +2186,10 @@ struct anonymous$8
   unsigned char ssocket;
 } __attribute__ ((__packed__));
 
-struct anonymous$12
+struct anonymous_12
 {
   // h
-  struct anonymous$0 h;
+  struct anonymous_0 h;
   // cmd
   unsigned char cmd;
   // result
@@ -2202,10 +2202,10 @@ struct anonymous$12
   unsigned short int credit;
 } __attribute__ ((__packed__));
 
-struct anonymous$6
+struct anonymous_6
 {
   // h
-  struct anonymous$0 h;
+  struct anonymous_0 h;
   // cmd
   unsigned char cmd;
   // result
@@ -2224,10 +2224,10 @@ struct anonymous$6
   unsigned short int credit;
 } __attribute__ ((__packed__));
 
-struct anonymous$2
+struct anonymous_2
 {
   // h
-  struct anonymous$0 h;
+  struct anonymous_0 h;
   // cmd
   unsigned char cmd;
   // result
@@ -2236,10 +2236,10 @@ struct anonymous$2
   unsigned char rev;
 } __attribute__ ((__packed__));
 
-struct anonymous$9
+struct anonymous_9
 {
   // h
-  struct anonymous$0 h;
+  struct anonymous_0 h;
   // cmd
   unsigned char cmd;
   // result
@@ -2248,17 +2248,17 @@ struct anonymous$9
   unsigned char socket;
 } __attribute__ ((__packed__));
 
-struct anonymous$1
+struct anonymous_1
 {
   // h
-  struct anonymous$0 h;
+  struct anonymous_0 h;
   // cmd
   unsigned char cmd;
   // rev
   unsigned char rev;
 } __attribute__ ((__packed__));
 
-union anonymous$40
+union anonymous_40
 {
   // integer
   signed long int *integer;
@@ -2276,7 +2276,7 @@ union anonymous$40
   double *doubleVal;
 };
 
-union anonymous$15
+union anonymous_15
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -2286,7 +2286,7 @@ union anonymous$15
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$31
+union anonymous_31
 {
   // __size
   char __size[4l];
@@ -2294,7 +2294,7 @@ union anonymous$31
   signed int __align;
 };
 
-union anonymous$16
+union anonymous_16
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -2324,7 +2324,7 @@ union anonymous$16
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$20
+union anonymous_20
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -2513,7 +2513,7 @@ struct hpmud_model_attributes
 struct in6_addr
 {
   // __in6_u
-  union anonymous$15 __in6_u;
+  union anonymous_15 __in6_u;
 };
 
 struct in_addr
@@ -2993,7 +2993,7 @@ struct variable_list
   // type
   unsigned char type;
   // val
-  union anonymous$40 val;
+  union anonymous_40 val;
   // val_len
   unsigned long int val_len;
   // name_loc
@@ -3029,19 +3029,19 @@ static const signed int ScanPort1[5l] = { 0, 8290, 8290, 0, 0 };
 static const char *SnmpPort[5l] = { "", "public", "public.1", "public.2", "public.3" };
 // bpb
 // file pcard/fat.c line 123
-static struct anonymous$42 bpb;
+static struct anonymous_42 bpb;
 // channel
 // file pcard/ptest.c line 66
 static signed int channel = -1;
 // cwd
 // file pcard/fat.c line 125
-static struct anonymous$44 cwd;
+static struct anonymous_44 cwd;
 // da
 // file pcard/fat.c line 124
-static struct anonymous$43 da;
+static struct anonymous_43 da;
 // fa
 // file pcard/fat.c line 126
-static struct anonymous$45 fa;
+static struct anonymous_45 fa;
 // fatdir_filenum
 // file pcard/fat.c line 564
 static signed int fatdir_filenum = 0;
@@ -3059,13 +3059,13 @@ static signed int fd_protocol[14l] = { 0, 0x2, 0x3, 0x4, 0x1, 0x1, 0x1, 0xff, 0,
 static signed int fd_subclass[14l] = { 0, 0x1, 0x1, 0x1, 0x1, 0x2, 0x3, 0xff, 0xd4, 0x4, 0x1, 0xcc, 0x2, 0x9 };
 // fd_table
 // file io/hpmud/musb.c line 125
-static struct anonymous$21 fd_table[14l];
+static struct anonymous_21 fd_table[14l];
 // hd
 // file pcard/ptest.c line 66
 static signed int hd = -1;
 // head
 // file io/hpmud/model.c line 53
-static struct anonymous$39 head;
+static struct anonymous_39 head;
 // homedir
 // file io/hpmud/model.c line 54
 static char homedir[255l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
@@ -3101,13 +3101,13 @@ static struct libusb_device *libusb_dev = (struct libusb_device *)(void *)0;
 static struct libusb_device **libusb_dev_list = (struct libusb_device **)(void *)0;
 // ms
 // file io/hpmud/hpmud.c line 32
-struct anonymous$29 ms;
+struct anonymous_29 ms;
 // msp
 // file io/hpmud/hpmud.c line 33
-struct anonymous$29 *msp;
+struct anonymous_29 *msp;
 // msp
 // file io/hpmud/hpmud.c line 33
-struct anonymous$29 *msp = &ms;
+struct anonymous_29 *msp = &ms;
 // musb_comp_channel_vf
 // file io/hpmud/musb.c line 57
 static struct _mud_channel_vf musb_comp_channel_vf;
@@ -3213,17 +3213,17 @@ signed int ConvertFat12to16(unsigned char *dest, unsigned char *src, signed int 
   for( ; !(i >= maxentry); i = i + 1)
     if(!((1 & i) == 0))
     {
-      unsigned short int *tmp_post$1 = p16;
+      unsigned short int *tmp_post_1 = p16;
       p16 = p16 + 1l;
-      *tmp_post$1 = (unsigned short int)((signed int)*((unsigned short int *)p12) >> 4);
+      *tmp_post_1 = (unsigned short int)((signed int)*((unsigned short int *)p12) >> 4);
       p12 = p12 + (signed long int)2;
     }
 
     else
     {
-      unsigned short int *tmp_post$2 = p16;
+      unsigned short int *tmp_post_2 = p16;
       p16 = p16 + 1l;
-      *tmp_post$2 = (unsigned short int)((signed int)*((unsigned short int *)p12) & 0xfff);
+      *tmp_post_2 = (unsigned short int)((signed int)*((unsigned short int *)p12) & 0xfff);
       p12 = p12 + 1l;
     }
   return 0;
@@ -3259,16 +3259,16 @@ signed int ConvertFat16to12(unsigned char *dest, unsigned char *src, signed int 
 static signed int CopyLabel(char *label, char *buf, signed int bufSize)
 {
   struct list_head *p;
-  struct anonymous$39 *pl;
+  struct anonymous_39 *pl;
   signed int i = 0;
   signed int found = 0;
   p = (&head.list)->next;
   for( ; !(p == &head.list); p = p->next)
   {
-    pl = (struct anonymous$39 *)((char *)p - (signed long int)(unsigned long int)&((struct anonymous$39 *)0)->list);
-    signed int return_value_strcasecmp$1;
-    return_value_strcasecmp$1=strcasecmp(pl->name, label);
-    if(return_value_strcasecmp$1 == 0)
+    pl = (struct anonymous_39 *)((char *)p - (signed long int)(unsigned long int)&((struct anonymous_39 *)0)->list);
+    signed int return_value_strcasecmp_1;
+    return_value_strcasecmp_1=strcasecmp(pl->name, label);
+    if(return_value_strcasecmp_1 == 0)
     {
       found = 1;
       break;
@@ -3299,12 +3299,12 @@ static signed int DelList()
 {
   struct list_head *p;
   struct list_head *n;
-  struct anonymous$39 *pl;
+  struct anonymous_39 *pl;
   p = (&head.list)->next;
   n = p->next;
   for( ; !(p == &head.list); n = p->next)
   {
-    pl = (struct anonymous$39 *)((char *)p - (signed long int)(unsigned long int)&((struct anonymous$39 *)0)->list);
+    pl = (struct anonymous_39 *)((char *)p - (signed long int)(unsigned long int)&((struct anonymous_39 *)0)->list);
     UnRegisterLabel(pl);
     p = n;
   }
@@ -3320,11 +3320,11 @@ signed int Dot4CloseChannel(struct _mud_channel *pc, signed int fd)
   signed int stat = 0;
   signed int len;
   signed int n;
-  struct anonymous$7 *pCmd;
-  struct anonymous$8 *pReply;
-  memset((void *)buf, 0, sizeof(struct anonymous$7) /*9ul*/ );
-  pCmd = (struct anonymous$7 *)buf;
-  n = (signed int)sizeof(struct anonymous$7) /*9ul*/ ;
+  struct anonymous_7 *pCmd;
+  struct anonymous_8 *pReply;
+  memset((void *)buf, 0, sizeof(struct anonymous_7) /*9ul*/ );
+  pCmd = (struct anonymous_7 *)buf;
+  n = (signed int)sizeof(struct anonymous_7) /*9ul*/ ;
   pCmd->h.length=htons((unsigned short int)n);
   pCmd->h.credit = (unsigned char)1;
   pCmd->cmd = (unsigned char)2;
@@ -3340,20 +3340,20 @@ signed int Dot4CloseChannel(struct _mud_channel *pc, signed int fd)
   else
   {
     stat=Dot4ReverseReply(pc, fd, buf, (signed int)sizeof(unsigned char [16384l]) /*16384ul*/ );
-    pReply = (struct anonymous$8 *)buf;
-    _Bool tmp_if_expr$1;
+    pReply = (struct anonymous_8 *)buf;
+    _Bool tmp_if_expr_1;
     if(!(stat == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)pReply->cmd != (0x80 | 2) ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$2;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = (signed int)pReply->cmd != (0x80 | 2) ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_2;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       syslog(3, "io/hpmud/dot4.c 659: invalid Dot4CloseChannelReply: cmd=%x, result=%x\n", pReply->cmd, pReply->result);
       stat = 1;
@@ -3375,11 +3375,11 @@ signed int Dot4Credit(struct _mud_channel *pc, signed int fd, unsigned short int
   signed int stat = 0;
   signed int len;
   signed int n;
-  struct anonymous$10 *pCmd;
-  struct anonymous$8 *pReply;
-  memset((void *)buf, 0, sizeof(struct anonymous$10) /*11ul*/ );
-  pCmd = (struct anonymous$10 *)buf;
-  n = (signed int)sizeof(struct anonymous$10) /*11ul*/ ;
+  struct anonymous_10 *pCmd;
+  struct anonymous_8 *pReply;
+  memset((void *)buf, 0, sizeof(struct anonymous_10) /*11ul*/ );
+  pCmd = (struct anonymous_10 *)buf;
+  n = (signed int)sizeof(struct anonymous_10) /*11ul*/ ;
   pCmd->h.length=htons((unsigned short int)n);
   pCmd->h.credit = (unsigned char)1;
   pCmd->cmd = (unsigned char)3;
@@ -3396,20 +3396,20 @@ signed int Dot4Credit(struct _mud_channel *pc, signed int fd, unsigned short int
   else
   {
     stat=Dot4ReverseReply(pc, fd, buf, (signed int)sizeof(unsigned char [16384l]) /*16384ul*/ );
-    pReply = (struct anonymous$8 *)buf;
-    _Bool tmp_if_expr$1;
+    pReply = (struct anonymous_8 *)buf;
+    _Bool tmp_if_expr_1;
     if(!(stat == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)pReply->cmd != (0x80 | 3) ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$2;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = (signed int)pReply->cmd != (0x80 | 3) ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_2;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       syslog(3, "io/hpmud/dot4.c 698: invalid Dot4CreditReply: cmd=%x, result=%x\n", pReply->cmd, pReply->result);
       stat = 1;
@@ -3433,11 +3433,11 @@ signed int Dot4CreditRequest(struct _mud_channel *pc, signed int fd, unsigned sh
   signed int stat = 0;
   signed int len;
   signed int n;
-  struct anonymous$11 *pCmd;
-  struct anonymous$12 *pReply;
-  memset((void *)buf, 0, sizeof(struct anonymous$11) /*11ul*/ );
-  pCmd = (struct anonymous$11 *)buf;
-  n = (signed int)sizeof(struct anonymous$11) /*11ul*/ ;
+  struct anonymous_11 *pCmd;
+  struct anonymous_12 *pReply;
+  memset((void *)buf, 0, sizeof(struct anonymous_11) /*11ul*/ );
+  pCmd = (struct anonymous_11 *)buf;
+  n = (signed int)sizeof(struct anonymous_11) /*11ul*/ ;
   pCmd->h.length=htons((unsigned short int)n);
   pCmd->h.credit = (unsigned char)1;
   pCmd->cmd = (unsigned char)4;
@@ -3445,7 +3445,7 @@ signed int Dot4CreditRequest(struct _mud_channel *pc, signed int fd, unsigned sh
   pCmd->ssocket = pc->sockid;
   pCmd->maxcredit=htons((unsigned short int)0xffff);
   len=pd->vf.write(fd, (const void *)pCmd, n, 45000000);
-  unsigned short int return_value_ntohs$3;
+  unsigned short int return_value_ntohs_3;
   if(!(len == n))
   {
     syslog(3, "io/hpmud/dot4.c 730: unable to write Dot4CreditRequest: %m\n");
@@ -3455,20 +3455,20 @@ signed int Dot4CreditRequest(struct _mud_channel *pc, signed int fd, unsigned sh
   else
   {
     stat=Dot4ReverseReply(pc, fd, buf, (signed int)sizeof(unsigned char [16384l]) /*16384ul*/ );
-    pReply = (struct anonymous$12 *)buf;
-    _Bool tmp_if_expr$1;
+    pReply = (struct anonymous_12 *)buf;
+    _Bool tmp_if_expr_1;
     if(!(stat == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)pReply->cmd != (0x80 | 4) ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$2;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = (signed int)pReply->cmd != (0x80 | 4) ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_2;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       syslog(3, "io/hpmud/dot4.c 740: invalid Dot4CreditRequestReply: cmd=%x, result=%x\n", pReply->cmd, pReply->result);
       stat = 1;
@@ -3476,8 +3476,8 @@ signed int Dot4CreditRequest(struct _mud_channel *pc, signed int fd, unsigned sh
 
     else
     {
-      return_value_ntohs$3=ntohs(pReply->credit);
-      pc->ta.h2pcredit = pc->ta.h2pcredit + return_value_ntohs$3;
+      return_value_ntohs_3=ntohs(pReply->credit);
+      pc->ta.h2pcredit = pc->ta.h2pcredit + return_value_ntohs_3;
     }
   }
 
@@ -3492,26 +3492,26 @@ static signed int Dot4ExecReverseCmd(struct _mud_channel *pc, signed int fd, uns
 {
   struct _mud_device *pd = &msp->device[(signed long int)pc->dindex];
   struct _mud_channel *out_of_bound_channel;
-  struct anonymous$3 *pCmd;
-  struct anonymous$4 *pReply;
-  struct anonymous$10 *pCredit;
-  struct anonymous$8 *pCreditReply;
-  struct anonymous$11 *pCreditReq;
-  struct anonymous$12 *pCreditReqReply;
-  struct anonymous$13 *pError;
+  struct anonymous_3 *pCmd;
+  struct anonymous_4 *pReply;
+  struct anonymous_10 *pCredit;
+  struct anonymous_8 *pCreditReply;
+  struct anonymous_11 *pCreditReq;
+  struct anonymous_12 *pCreditReqReply;
+  struct anonymous_13 *pError;
   signed int len;
   signed int size;
-  unsigned char Dot4ExecReverseCmd$$1$$socket;
-  pCmd = (struct anonymous$3 *)buf;
-  _Bool tmp_if_expr$3;
+  unsigned char Dot4ExecReverseCmd__1__socket;
+  pCmd = (struct anonymous_3 *)buf;
+  _Bool tmp_if_expr_3;
   if((signed int)pCmd->h.psid == 0)
-    tmp_if_expr$3 = (signed int)pCmd->h.ssid == 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = (signed int)pCmd->h.ssid == 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  unsigned short int return_value_ntohs$4;
-  unsigned short int return_value_ntohs$5;
-  if(!tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  unsigned short int return_value_ntohs_4;
+  unsigned short int return_value_ntohs_5;
+  if(!tmp_if_expr_3)
   {
     if(pCmd->h.psid == pCmd->h.ssid)
     {
@@ -3522,16 +3522,16 @@ static signed int Dot4ExecReverseCmd(struct _mud_channel *pc, signed int fd, uns
         return 0;
       }
 
-      unsigned short int return_value_ntohs$1;
-      return_value_ntohs$1=ntohs(pCmd->h.length);
-      size = (signed int)((unsigned long int)return_value_ntohs$1 - sizeof(struct anonymous$0) /*6ul*/ );
+      unsigned short int return_value_ntohs_1;
+      return_value_ntohs_1=ntohs(pCmd->h.length);
+      size = (signed int)((unsigned long int)return_value_ntohs_1 - sizeof(struct anonymous_0) /*6ul*/ );
       if(!(16384 + -out_of_bound_channel->rcnt >= size))
       {
         syslog(3, "io/hpmud/dot4.c 81: invalid data packet size=%d\n", size);
         return 0;
       }
 
-      memcpy((void *)&out_of_bound_channel->rbuf[(signed long int)out_of_bound_channel->rcnt], (const void *)(buf + (signed long int)sizeof(struct anonymous$22) /*6ul*/ ), (unsigned long int)size);
+      memcpy((void *)&out_of_bound_channel->rbuf[(signed long int)out_of_bound_channel->rcnt], (const void *)(buf + (signed long int)sizeof(struct anonymous_22) /*6ul*/ ), (unsigned long int)size);
       out_of_bound_channel->rcnt = out_of_bound_channel->rcnt + size;
       if(!(pCmd->h.credit == 0))
         out_of_bound_channel->ta.h2pcredit = out_of_bound_channel->ta.h2pcredit + (unsigned short int)pCmd->h.credit;
@@ -3541,9 +3541,9 @@ static signed int Dot4ExecReverseCmd(struct _mud_channel *pc, signed int fd, uns
 
     else
     {
-      unsigned short int return_value_ntohs$2;
-      return_value_ntohs$2=ntohs(pCmd->h.length);
-      len = (signed int)return_value_ntohs$2;
+      unsigned short int return_value_ntohs_2;
+      return_value_ntohs_2=ntohs(pCmd->h.length);
+      len = (signed int)return_value_ntohs_2;
       syslog(3, "io/hpmud/dot4.c 94: unsolicited data packet: psid=%x, ssid=%x, length=%d, credit=%d, status=%x\n", pCmd->h.psid, pCmd->h.ssid, len, pCmd->h.credit, pCmd->h.control);
     }
     return 0;
@@ -3555,62 +3555,62 @@ static signed int Dot4ExecReverseCmd(struct _mud_channel *pc, signed int fd, uns
     {
       case 3:
       {
-        pCredit = (struct anonymous$10 *)buf;
+        pCredit = (struct anonymous_10 *)buf;
         out_of_bound_channel = &pd->channel[(signed long int)pCredit->psocket];
-        return_value_ntohs$4=ntohs(pCredit->credit);
-        out_of_bound_channel->ta.h2pcredit = out_of_bound_channel->ta.h2pcredit + return_value_ntohs$4;
-        pCreditReply = (struct anonymous$8 *)buf;
-        pCreditReply->h.length=htons((unsigned short int)sizeof(struct anonymous$8) /*10ul*/ );
+        return_value_ntohs_4=ntohs(pCredit->credit);
+        out_of_bound_channel->ta.h2pcredit = out_of_bound_channel->ta.h2pcredit + return_value_ntohs_4;
+        pCreditReply = (struct anonymous_8 *)buf;
+        pCreditReply->h.length=htons((unsigned short int)sizeof(struct anonymous_8) /*10ul*/ );
         pCreditReply->h.credit = (unsigned char)1;
         pCreditReply->h.control = (unsigned char)0;
         pCreditReply->cmd = pCreditReply->cmd | (unsigned char)0x80;
         pCreditReply->result = (unsigned char)0;
         pCreditReply->psocket = out_of_bound_channel->sockid;
         pCreditReply->ssocket = out_of_bound_channel->sockid;
-        Dot4ForwardReply(pc, fd, (unsigned char *)pCreditReply, (signed int)sizeof(struct anonymous$8) /*10ul*/ );
+        Dot4ForwardReply(pc, fd, (unsigned char *)pCreditReply, (signed int)sizeof(struct anonymous_8) /*10ul*/ );
         break;
       }
       case 4:
       {
-        pCreditReq = (struct anonymous$11 *)buf;
+        pCreditReq = (struct anonymous_11 *)buf;
         static signed int cnt;
-        signed int tmp_post$6 = cnt;
+        signed int tmp_post_6 = cnt;
         cnt = cnt + 1;
-        if(!(tmp_post$6 >= 5))
+        if(!(tmp_post_6 >= 5))
         {
-          return_value_ntohs$5=ntohs(pCreditReq->maxcredit);
-          syslog(3, "io/hpmud/dot4.c 121: unexpected DOT4CreditRequest: cmd=%x, hid=%x, pid=%x, maxcredit=%d\n", pCreditReq->cmd, pCreditReq->psocket, pCreditReq->ssocket, return_value_ntohs$5);
+          return_value_ntohs_5=ntohs(pCreditReq->maxcredit);
+          syslog(3, "io/hpmud/dot4.c 121: unexpected DOT4CreditRequest: cmd=%x, hid=%x, pid=%x, maxcredit=%d\n", pCreditReq->cmd, pCreditReq->psocket, pCreditReq->ssocket, return_value_ntohs_5);
         }
 
-        Dot4ExecReverseCmd$$1$$socket = pCreditReq->ssocket;
-        pCreditReqReply = (struct anonymous$12 *)buf;
-        pCreditReqReply->h.length=htons((unsigned short int)sizeof(struct anonymous$12) /*12ul*/ );
+        Dot4ExecReverseCmd__1__socket = pCreditReq->ssocket;
+        pCreditReqReply = (struct anonymous_12 *)buf;
+        pCreditReqReply->h.length=htons((unsigned short int)sizeof(struct anonymous_12) /*12ul*/ );
         pCreditReqReply->h.credit = (unsigned char)1;
         pCreditReqReply->h.control = (unsigned char)0;
         pCreditReqReply->cmd = pCreditReqReply->cmd | (unsigned char)0x80;
         pCreditReqReply->result = (unsigned char)0;
-        pCreditReqReply->psocket = Dot4ExecReverseCmd$$1$$socket;
-        pCreditReqReply->ssocket = Dot4ExecReverseCmd$$1$$socket;
+        pCreditReqReply->psocket = Dot4ExecReverseCmd__1__socket;
+        pCreditReqReply->ssocket = Dot4ExecReverseCmd__1__socket;
         pCreditReqReply->credit = (unsigned short int)0;
-        Dot4ForwardReply(pc, fd, (unsigned char *)pCreditReqReply, (signed int)sizeof(struct anonymous$12) /*12ul*/ );
+        Dot4ForwardReply(pc, fd, (unsigned char *)pCreditReqReply, (signed int)sizeof(struct anonymous_12) /*12ul*/ );
         break;
       }
       case 127:
       {
-        pError = (struct anonymous$13 *)buf;
+        pError = (struct anonymous_13 *)buf;
         syslog(3, "io/hpmud/dot4.c 136: unexpected DOT4Error: cmd=%x, psocket=%d, ssocket=%d, error=%x\n", pError->cmd, pError->psocket, pError->ssocket, pError->error);
         return 1;
       }
       default:
       {
-        pReply = (struct anonymous$4 *)buf;
+        pReply = (struct anonymous_4 *)buf;
         syslog(3, "io/hpmud/dot4.c 140: unexpected command: cmd=%x, result=%x\n", pReply->cmd, pReply->result);
-        pReply->h.length=htons((unsigned short int)sizeof(struct anonymous$4) /*8ul*/ );
+        pReply->h.length=htons((unsigned short int)sizeof(struct anonymous_4) /*8ul*/ );
         pReply->h.credit = (unsigned char)1;
         pReply->h.control = (unsigned char)0;
         pReply->cmd = pReply->cmd | (unsigned char)0x80;
         pReply->result = (unsigned char)1;
-        Dot4ForwardReply(pc, fd, (unsigned char *)pReply, (signed int)sizeof(struct anonymous$4) /*8ul*/ );
+        Dot4ForwardReply(pc, fd, (unsigned char *)pReply, (signed int)sizeof(struct anonymous_4) /*8ul*/ );
       }
     }
     return 0;
@@ -3626,11 +3626,11 @@ signed int Dot4Exit(struct _mud_channel *pc, signed int fd)
   signed int stat = 0;
   signed int len;
   signed int n;
-  struct anonymous$3 *pCmd;
-  struct anonymous$4 *pReply;
-  memset((void *)buf, 0, sizeof(struct anonymous$3) /*7ul*/ );
-  pCmd = (struct anonymous$3 *)buf;
-  n = (signed int)sizeof(struct anonymous$3) /*7ul*/ ;
+  struct anonymous_3 *pCmd;
+  struct anonymous_4 *pReply;
+  memset((void *)buf, 0, sizeof(struct anonymous_3) /*7ul*/ );
+  pCmd = (struct anonymous_3 *)buf;
+  n = (signed int)sizeof(struct anonymous_3) /*7ul*/ ;
   pCmd->h.length=htons((unsigned short int)n);
   pCmd->h.credit = (unsigned char)1;
   pCmd->cmd = (unsigned char)8;
@@ -3644,20 +3644,20 @@ signed int Dot4Exit(struct _mud_channel *pc, signed int fd)
   else
   {
     stat=Dot4ReverseReply(pc, fd, buf, (signed int)sizeof(unsigned char [16384l]) /*16384ul*/ );
-    pReply = (struct anonymous$4 *)buf;
-    _Bool tmp_if_expr$1;
+    pReply = (struct anonymous_4 *)buf;
+    _Bool tmp_if_expr_1;
     if(!(stat == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)pReply->cmd != (0x80 | 8) ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$2;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = (signed int)pReply->cmd != (0x80 | 8) ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_2;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       syslog(3, "io/hpmud/dot4.c 368: invalid DOT4ExitReply: cmd=%x, result=%x\n", pReply->cmd, pReply->result);
       stat = 1;
@@ -3678,14 +3678,14 @@ signed int Dot4ForwardData(struct _mud_channel *pc, signed int fd, const void *b
   signed int stat = 0;
   signed int len;
   signed int n;
-  struct anonymous$0 h;
-  memset((void *)&h, 0, sizeof(struct anonymous$0) /*6ul*/ );
-  n = (signed int)(sizeof(struct anonymous$0) /*6ul*/  + (unsigned long int)size);
+  struct anonymous_0 h;
+  memset((void *)&h, 0, sizeof(struct anonymous_0) /*6ul*/ );
+  n = (signed int)(sizeof(struct anonymous_0) /*6ul*/  + (unsigned long int)size);
   h.length=htons((unsigned short int)n);
   h.psid = pc->sockid;
   h.ssid = pc->sockid;
-  len=pd->vf.write(fd, (const void *)&h, (signed int)sizeof(struct anonymous$0) /*6ul*/ , usec_timeout);
-  if(!((unsigned long int)len == sizeof(struct anonymous$0) /*6ul*/ ))
+  len=pd->vf.write(fd, (const void *)&h, (signed int)sizeof(struct anonymous_0) /*6ul*/ , usec_timeout);
+  if(!((unsigned long int)len == sizeof(struct anonymous_0) /*6ul*/ ))
   {
     syslog(3, "io/hpmud/dot4.c 436: unable to write Dot4ForwardData header: %m\n");
     stat = 1;
@@ -3729,15 +3729,15 @@ signed int Dot4GetSocket(struct _mud_channel *pc, signed int fd)
   signed int stat = 0;
   signed int len;
   signed int n;
-  struct anonymous$3 *pCmd;
-  struct anonymous$9 *pReply;
-  memset((void *)buf, 0, sizeof(struct anonymous$3) /*7ul*/ );
-  pCmd = (struct anonymous$3 *)buf;
-  n = (signed int)sizeof(struct anonymous$3) /*7ul*/ ;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(pc->sn);
-  len = (signed int)return_value_strlen$1;
-  memcpy((void *)(buf + (signed long int)sizeof(struct anonymous$3) /*7ul*/ ), (const void *)pc->sn, (unsigned long int)len);
+  struct anonymous_3 *pCmd;
+  struct anonymous_9 *pReply;
+  memset((void *)buf, 0, sizeof(struct anonymous_3) /*7ul*/ );
+  pCmd = (struct anonymous_3 *)buf;
+  n = (signed int)sizeof(struct anonymous_3) /*7ul*/ ;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(pc->sn);
+  len = (signed int)return_value_strlen_1;
+  memcpy((void *)(buf + (signed long int)sizeof(struct anonymous_3) /*7ul*/ ), (const void *)pc->sn, (unsigned long int)len);
   n = n + len;
   pCmd->h.length=htons((unsigned short int)n);
   pCmd->h.credit = (unsigned char)1;
@@ -3752,20 +3752,20 @@ signed int Dot4GetSocket(struct _mud_channel *pc, signed int fd)
   else
   {
     stat=Dot4ReverseReply(pc, fd, buf, (signed int)sizeof(unsigned char [16384l]) /*16384ul*/ );
-    pReply = (struct anonymous$9 *)buf;
-    _Bool tmp_if_expr$2;
+    pReply = (struct anonymous_9 *)buf;
+    _Bool tmp_if_expr_2;
     if(!(stat == 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)pReply->cmd != (0x80 | 9) ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$3;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = (signed int)pReply->cmd != (0x80 | 9) ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_3;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       syslog(3, "io/hpmud/dot4.c 407: invalid DOT4GetSocketReply: cmd=%x, result=%x\n", pReply->cmd, pReply->result);
       stat = 1;
@@ -3795,11 +3795,11 @@ signed int Dot4Init(struct _mud_channel *pc, signed int fd)
   signed int len;
   signed int n;
   signed int cnt;
-  struct anonymous$1 *pCmd;
-  struct anonymous$2 *pReply;
-  memset((void *)buf, 0, sizeof(struct anonymous$1) /*8ul*/ );
-  pCmd = (struct anonymous$1 *)buf;
-  n = (signed int)sizeof(struct anonymous$1) /*8ul*/ ;
+  struct anonymous_1 *pCmd;
+  struct anonymous_2 *pReply;
+  memset((void *)buf, 0, sizeof(struct anonymous_1) /*8ul*/ );
+  pCmd = (struct anonymous_1 *)buf;
+  n = (signed int)sizeof(struct anonymous_1) /*8ul*/ ;
   pCmd->h.length=htons((unsigned short int)n);
   pCmd->h.credit = (unsigned char)1;
   pCmd->cmd = (unsigned char)0;
@@ -3816,24 +3816,24 @@ signed int Dot4Init(struct _mud_channel *pc, signed int fd)
     cnt = 0;
     {
       stat=Dot4ReverseReply(pc, fd, buf, (signed int)sizeof(unsigned char [16384l]) /*16384ul*/ );
-      pReply = (struct anonymous$2 *)buf;
-      _Bool tmp_if_expr$2;
+      pReply = (struct anonymous_2 *)buf;
+      _Bool tmp_if_expr_2;
       if(!(stat == 0))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)pReply->cmd != (0x80 | 0) ? (_Bool)1 : (_Bool)0;
-      _Bool tmp_if_expr$3;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_2 = (signed int)pReply->cmd != (0x80 | 0) ? (_Bool)1 : (_Bool)0;
+      _Bool tmp_if_expr_3;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        if(*return_value___errno_location$1 == 5)
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        if(*return_value___errno_location_1 == 5)
         {
           if(!(cnt >= 1))
           {
@@ -3847,8 +3847,8 @@ signed int Dot4Init(struct _mud_channel *pc, signed int fd)
         if(stat == 2 && !(cnt >= 1))
         {
           syslog(3, "io/hpmud/dot4.c 319: invalid DOT4InitReply retrying command...\n");
-          memset((void *)buf, 0, sizeof(struct anonymous$1) /*8ul*/ );
-          n = (signed int)sizeof(struct anonymous$1) /*8ul*/ ;
+          memset((void *)buf, 0, sizeof(struct anonymous_1) /*8ul*/ );
+          n = (signed int)sizeof(struct anonymous_1) /*8ul*/ ;
           pCmd->h.length=htons((unsigned short int)n);
           pCmd->h.credit = (unsigned char)1;
           pCmd->cmd = (unsigned char)0;
@@ -3878,11 +3878,11 @@ signed int Dot4OpenChannel(struct _mud_channel *pc, signed int fd)
   signed int stat = 0;
   signed int len;
   signed int n;
-  struct anonymous$5 *pCmd;
-  struct anonymous$6 *pReply;
-  memset((void *)buf, 0, sizeof(struct anonymous$5) /*15ul*/ );
-  pCmd = (struct anonymous$5 *)buf;
-  n = (signed int)sizeof(struct anonymous$5) /*15ul*/ ;
+  struct anonymous_5 *pCmd;
+  struct anonymous_6 *pReply;
+  memset((void *)buf, 0, sizeof(struct anonymous_5) /*15ul*/ );
+  pCmd = (struct anonymous_5 *)buf;
+  n = (signed int)sizeof(struct anonymous_5) /*15ul*/ ;
   pCmd->h.length=htons((unsigned short int)n);
   pCmd->h.credit = (unsigned char)1;
   pCmd->cmd = (unsigned char)1;
@@ -3901,20 +3901,20 @@ signed int Dot4OpenChannel(struct _mud_channel *pc, signed int fd)
   else
   {
     stat=Dot4ReverseReply(pc, fd, buf, (signed int)sizeof(unsigned char [16384l]) /*16384ul*/ );
-    pReply = (struct anonymous$6 *)buf;
-    _Bool tmp_if_expr$1;
+    pReply = (struct anonymous_6 *)buf;
+    _Bool tmp_if_expr_1;
     if(!(stat == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)pReply->cmd != (0x80 | 1) ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$2;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = (signed int)pReply->cmd != (0x80 | 1) ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_2;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       syslog(3, "io/hpmud/dot4.c 617: invalid Dot4OpenChannelReply: cmd=%x, result=%x\n", pReply->cmd, pReply->result);
       stat = 1;
@@ -3944,9 +3944,9 @@ signed int Dot4ReverseCmd(struct _mud_channel *pc, signed int fd)
   signed int size;
   unsigned int pklen;
   unsigned char *pBuf;
-  struct anonymous$4 *pPk = (struct anonymous$4 *)buf;
+  struct anonymous_4 *pPk = (struct anonymous_4 *)buf;
   pBuf = buf;
-  size = (signed int)sizeof(struct anonymous$0) /*6ul*/ ;
+  size = (signed int)sizeof(struct anonymous_0) /*6ul*/ ;
   if(size >= 1)
   {
     len=pd->vf.read(fd, (void *)pBuf, size, 45000000);
@@ -3960,9 +3960,9 @@ signed int Dot4ReverseCmd(struct _mud_channel *pc, signed int fd)
     pBuf = pBuf + (signed long int)len;
   }
 
-  unsigned short int return_value_ntohs$1;
-  return_value_ntohs$1=ntohs(pPk->h.length);
-  pklen = (unsigned int)return_value_ntohs$1;
+  unsigned short int return_value_ntohs_1;
+  return_value_ntohs_1=ntohs(pPk->h.length);
+  pklen = (unsigned int)return_value_ntohs_1;
   if((unsigned long int)pklen >= 16385ul)
   {
     syslog(3, "io/hpmud/dot4.c 183: invalid Dot4ReverseCmd packet size: size=%d\n", pklen);
@@ -3971,13 +3971,13 @@ signed int Dot4ReverseCmd(struct _mud_channel *pc, signed int fd)
 
   else
   {
-    size = (signed int)((unsigned long int)pklen - sizeof(struct anonymous$0) /*6ul*/ );
+    size = (signed int)((unsigned long int)pklen - sizeof(struct anonymous_0) /*6ul*/ );
     if(size >= 1)
     {
       len=pd->vf.read(fd, (void *)pBuf, size, 45000000);
       if(!(len >= 0))
       {
-        syslog(3, "io/hpmud/dot4.c 194: unable to read Dot4ReverseCmd data: %m exp=%zd act=%zd\n", (unsigned long int)pklen - sizeof(struct anonymous$0) /*6ul*/ , ((unsigned long int)pklen - sizeof(struct anonymous$0) /*6ul*/ ) - (unsigned long int)size);
+        syslog(3, "io/hpmud/dot4.c 194: unable to read Dot4ReverseCmd data: %m exp=%zd act=%zd\n", (unsigned long int)pklen - sizeof(struct anonymous_0) /*6ul*/ , ((unsigned long int)pklen - sizeof(struct anonymous_0) /*6ul*/ ) - (unsigned long int)size);
         stat = 1;
       }
 
@@ -4002,11 +4002,11 @@ signed int Dot4ReverseData(struct _mud_channel *pc, signed int fd, void *buf, si
   signed int len;
   signed int size;
   signed int total;
-  struct anonymous$0 *pPk = (struct anonymous$0 *)buf;
+  struct anonymous_0 *pPk = (struct anonymous_0 *)buf;
   while((_Bool)1)
   {
     total = 0;
-    size = (signed int)sizeof(struct anonymous$0) /*6ul*/ ;
+    size = (signed int)sizeof(struct anonymous_0) /*6ul*/ ;
     if(size >= 1)
     {
       if(total == 0)
@@ -4026,9 +4026,9 @@ signed int Dot4ReverseData(struct _mud_channel *pc, signed int fd, void *buf, si
       total = total + len;
     }
 
-    unsigned short int return_value_ntohs$1;
-    return_value_ntohs$1=ntohs(pPk->length);
-    size = (signed int)((unsigned long int)return_value_ntohs$1 - sizeof(struct anonymous$0) /*6ul*/ );
+    unsigned short int return_value_ntohs_1;
+    return_value_ntohs_1=ntohs(pPk->length);
+    size = (signed int)((unsigned long int)return_value_ntohs_1 - sizeof(struct anonymous_0) /*6ul*/ );
     if(!(length >= size))
     {
       syslog(3, "io/hpmud/dot4.c 492: invalid Dot4ReverseData size: size=%d, buf=%d\n", size, length);
@@ -4039,13 +4039,13 @@ signed int Dot4ReverseData(struct _mud_channel *pc, signed int fd, void *buf, si
     {
       if(!(pPk->ssid == pc->sockid))
       {
-        _Bool tmp_if_expr$2;
+        _Bool tmp_if_expr_2;
         if((signed int)pPk->psid == 0)
-          tmp_if_expr$2 = (signed int)pPk->ssid == 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)pPk->ssid == 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
         {
           if(size >= 1)
           {
@@ -4106,7 +4106,7 @@ signed int Dot4ReverseData(struct _mud_channel *pc, signed int fd, void *buf, si
 
           else
           {
-            struct anonymous$3 *pCmd = (struct anonymous$3 *)buf;
+            struct anonymous_3 *pCmd = (struct anonymous_3 *)buf;
             syslog(3, "io/hpmud/dot4.c 555: invalid Dot4ReverseData state: unexpected packet psid=%x, ssid=%x, cmd=%x\n", pPk->psid, pPk->ssid, pCmd->cmd);
             break;
           }
@@ -4149,17 +4149,17 @@ static signed int Dot4ReverseReply(struct _mud_channel *pc, signed int fd, unsig
   signed int size;
   signed int pklen;
   unsigned char *pBuf;
-  struct anonymous$4 *pPk = (struct anonymous$4 *)buf;
+  struct anonymous_4 *pPk = (struct anonymous_4 *)buf;
   while((_Bool)1)
   {
     pBuf = buf;
-    size = (signed int)sizeof(struct anonymous$0) /*6ul*/ ;
+    size = (signed int)sizeof(struct anonymous_0) /*6ul*/ ;
     if(size >= 1)
     {
       len=pd->vf.read(fd, (void *)pBuf, size, 4000000);
       if(!(len >= 0))
       {
-        syslog(3, "io/hpmud/dot4.c 231: unable to read Dot4ReverseReply header: %m bytesRead=%zd\n", sizeof(struct anonymous$0) /*6ul*/  - (unsigned long int)size);
+        syslog(3, "io/hpmud/dot4.c 231: unable to read Dot4ReverseReply header: %m bytesRead=%zd\n", sizeof(struct anonymous_0) /*6ul*/  - (unsigned long int)size);
         stat = 2;
         break;
       }
@@ -4168,9 +4168,9 @@ static signed int Dot4ReverseReply(struct _mud_channel *pc, signed int fd, unsig
       pBuf = pBuf + (signed long int)len;
     }
 
-    unsigned short int return_value_ntohs$1;
-    return_value_ntohs$1=ntohs(pPk->h.length);
-    pklen = (signed int)return_value_ntohs$1;
+    unsigned short int return_value_ntohs_1;
+    return_value_ntohs_1=ntohs(pPk->h.length);
+    pklen = (signed int)return_value_ntohs_1;
     if(!(pklen >= 1) || !(bufsize >= pklen))
     {
       syslog(3, "io/hpmud/dot4.c 243: invalid Dot4ReverseReply packet size: size=%d, buf=%d\n", pklen, bufsize);
@@ -4178,13 +4178,13 @@ static signed int Dot4ReverseReply(struct _mud_channel *pc, signed int fd, unsig
       break;
     }
 
-    size = (signed int)((unsigned long int)pklen - sizeof(struct anonymous$0) /*6ul*/ );
+    size = (signed int)((unsigned long int)pklen - sizeof(struct anonymous_0) /*6ul*/ );
     if(size >= 1)
     {
       len=pd->vf.read(fd, (void *)pBuf, size, 45000000);
       if(!(len >= 0))
       {
-        syslog(3, "io/hpmud/dot4.c 254: unable to read Dot4ReverseReply data: %m exp=%zd act=%zd\n", (unsigned long int)pklen - sizeof(struct anonymous$0) /*6ul*/ , ((unsigned long int)pklen - sizeof(struct anonymous$0) /*6ul*/ ) - (unsigned long int)size);
+        syslog(3, "io/hpmud/dot4.c 254: unable to read Dot4ReverseReply data: %m exp=%zd act=%zd\n", (unsigned long int)pklen - sizeof(struct anonymous_0) /*6ul*/ , ((unsigned long int)pklen - sizeof(struct anonymous_0) /*6ul*/ ) - (unsigned long int)size);
         stat = 1;
         break;
       }
@@ -4217,11 +4217,11 @@ signed int FatDeleteFile(char *name)
   signed int next_cluster;
   signed int filenum;
   signed int stat = 1;
-  signed int return_value_LoadFileWithName$1;
-  return_value_LoadFileWithName$1=LoadFileWithName(name);
-  signed int return_value_writesect$2;
-  signed int return_value_UpdateFat$3;
-  if(return_value_LoadFileWithName$1 == 0)
+  signed int return_value_LoadFileWithName_1;
+  return_value_LoadFileWithName_1=LoadFileWithName(name);
+  signed int return_value_writesect_2;
+  signed int return_value_UpdateFat_3;
+  if(return_value_LoadFileWithName_1 == 0)
   {
     cluster = fa.StartCluster;
     for( ; !(cluster == 0x0000) && !(cluster >= 65529); cluster = next_cluster)
@@ -4233,11 +4233,11 @@ signed int FatDeleteFile(char *name)
     filenum = fa.DirEntryNum & 0x000F;
     filenum = filenum << 4;
     buf[(signed long int)(filenum * 2)] = (unsigned char)0xe5;
-    return_value_writesect$2=writesect(fa.DirSectorNum, 1, (void *)buf, (signed int)sizeof(unsigned char [512l]) /*512ul*/ );
-    if(return_value_writesect$2 == 0)
+    return_value_writesect_2=writesect(fa.DirSectorNum, 1, (void *)buf, (signed int)sizeof(unsigned char [512l]) /*512ul*/ );
+    if(return_value_writesect_2 == 0)
     {
-      return_value_UpdateFat$3=UpdateFat();
-      if(return_value_UpdateFat$3 == 0)
+      return_value_UpdateFat_3=UpdateFat();
+      if(return_value_UpdateFat_3 == 0)
         stat = 0;
 
     }
@@ -4255,9 +4255,9 @@ bugout:
 signed int FatDirBegin(struct anonymous *a)
 {
   fatdir_filenum = 0;
-  signed int return_value_FatDirNext$1;
-  return_value_FatDirNext$1=FatDirNext(a);
-  return return_value_FatDirNext$1;
+  signed int return_value_FatDirNext_1;
+  return_value_FatDirNext_1=FatDirNext(a);
+  return return_value_FatDirNext_1;
 }
 
 // FatDirNext
@@ -4295,7 +4295,7 @@ signed int FatDirNext(struct anonymous *a)
 
 // FatDiskAttributes
 // file pcard/fat.h line 62
-signed int FatDiskAttributes(struct anonymous$35 *pa)
+signed int FatDiskAttributes(struct anonymous_35 *pa)
 {
   strncpy(pa->OEMID, bpb.OEMID, (unsigned long int)8);
   pa->BytesPerSector = (signed int)bpb.BytesPerSector;
@@ -4313,9 +4313,9 @@ signed int FatDiskAttributes(struct anonymous$35 *pa)
 // file pcard/fat.c line 515
 signed int FatFreeSpace(void)
 {
-  signed int return_value_FindFreeClusters$1;
-  return_value_FindFreeClusters$1=FindFreeClusters();
-  return return_value_FindFreeClusters$1 * (signed int)bpb.SectorsPerCluster * 512;
+  signed int return_value_FindFreeClusters_1;
+  return_value_FindFreeClusters_1=FindFreeClusters();
+  return return_value_FindFreeClusters_1 * (signed int)bpb.SectorsPerCluster * 512;
 }
 
 // FatInit
@@ -4335,12 +4335,12 @@ signed int FatInit(void)
   da.Fat = (unsigned char *)(void *)0;
   da.Fat12 = (unsigned char *)(void *)0;
   bootsector_startsector = 0;
-  signed int return_value_readsect$1;
-  return_value_readsect$1=readsect(bootsector_startsector, 1, (void *)&bpb, (signed int)sizeof(struct anonymous$42) /*512ul*/ );
-  signed int return_value_strcmp$8;
-  signed int return_value_readsect$10;
-  signed int return_value_writesect$9;
-  if(return_value_readsect$1 == 0)
+  signed int return_value_readsect_1;
+  return_value_readsect_1=readsect(bootsector_startsector, 1, (void *)&bpb, (signed int)sizeof(struct anonymous_42) /*512ul*/ );
+  signed int return_value_strcmp_8;
+  signed int return_value_readsect_10;
+  signed int return_value_writesect_9;
+  if(return_value_readsect_1 == 0)
   {
     if((signed int)bpb.BytesPerSector == 512)
     {
@@ -4363,25 +4363,25 @@ signed int FatInit(void)
       da.DataStartSector = da.RootDirStartSector + da.RootDirNumSectors;
       RootSetCWD();
       fatsize = (signed int)bpb.SectorsPerFat * 512;
-      return_value_strcmp$8=strcmp((char *)bpb.SystemID, "FAT12");
-      if(return_value_strcmp$8 == 0)
+      return_value_strcmp_8=strcmp((char *)bpb.SystemID, "FAT12");
+      if(return_value_strcmp_8 == 0)
       {
         da.Fat12Size = fatsize;
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc((unsigned long int)da.Fat12Size);
-        da.Fat12 = (unsigned char *)return_value_malloc$2;
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc((unsigned long int)da.Fat12Size);
+        da.Fat12 = (unsigned char *)return_value_malloc_2;
         if(da.Fat12 == ((unsigned char *)NULL))
           goto bugout;
 
-        signed int return_value_readsect$3;
-        return_value_readsect$3=readsect(da.FatStartSector, (signed int)bpb.SectorsPerFat, (void *)da.Fat12, da.Fat12Size);
-        if(!(return_value_readsect$3 == 0))
+        signed int return_value_readsect_3;
+        return_value_readsect_3=readsect(da.FatStartSector, (signed int)bpb.SectorsPerFat, (void *)da.Fat12, da.Fat12Size);
+        if(!(return_value_readsect_3 == 0))
           goto bugout;
 
         da.FatSize = (signed int)(((double)da.Fat12Size / 1.5) * (double)2);
-        void *return_value_malloc$4;
-        return_value_malloc$4=malloc((unsigned long int)da.FatSize);
-        da.Fat = (unsigned char *)return_value_malloc$4;
+        void *return_value_malloc_4;
+        return_value_malloc_4=malloc((unsigned long int)da.FatSize);
+        da.Fat = (unsigned char *)return_value_malloc_4;
         if(da.Fat == ((unsigned char *)NULL))
           goto bugout;
 
@@ -4391,20 +4391,20 @@ signed int FatInit(void)
       else
       {
         da.FatSize = fatsize;
-        void *return_value_malloc$5;
-        return_value_malloc$5=malloc((unsigned long int)da.FatSize);
-        da.Fat16 = (unsigned char *)return_value_malloc$5;
+        void *return_value_malloc_5;
+        return_value_malloc_5=malloc((unsigned long int)da.FatSize);
+        da.Fat16 = (unsigned char *)return_value_malloc_5;
         if(da.Fat16 == ((unsigned char *)NULL))
           goto bugout;
 
-        signed int return_value_readsect$6;
-        return_value_readsect$6=readsect(da.FatStartSector, (signed int)bpb.SectorsPerFat, (void *)da.Fat16, da.FatSize);
-        if(!(return_value_readsect$6 == 0))
+        signed int return_value_readsect_6;
+        return_value_readsect_6=readsect(da.FatStartSector, (signed int)bpb.SectorsPerFat, (void *)da.Fat16, da.FatSize);
+        if(!(return_value_readsect_6 == 0))
           goto bugout;
 
-        void *return_value_malloc$7;
-        return_value_malloc$7=malloc((unsigned long int)da.FatSize);
-        da.Fat = (unsigned char *)return_value_malloc$7;
+        void *return_value_malloc_7;
+        return_value_malloc_7=malloc((unsigned long int)da.FatSize);
+        da.Fat = (unsigned char *)return_value_malloc_7;
         if(da.Fat == ((unsigned char *)NULL))
           goto bugout;
 
@@ -4419,11 +4419,11 @@ signed int FatInit(void)
       }
 
       da.WriteProtect = 1;
-      return_value_readsect$10=readsect((da.RootDirStartSector + da.RootDirNumSectors) - 1, 1, (void *)dummy, (signed int)sizeof(char [512l]) /*512ul*/ );
-      if(return_value_readsect$10 == 0)
+      return_value_readsect_10=readsect((da.RootDirStartSector + da.RootDirNumSectors) - 1, 1, (void *)dummy, (signed int)sizeof(char [512l]) /*512ul*/ );
+      if(return_value_readsect_10 == 0)
       {
-        return_value_writesect$9=writesect((da.RootDirStartSector + da.RootDirNumSectors) - 1, 1, (void *)dummy, (signed int)sizeof(char [512l]) /*512ul*/ );
-        if(return_value_writesect$9 == 0)
+        return_value_writesect_9=writesect((da.RootDirStartSector + da.RootDirNumSectors) - 1, 1, (void *)dummy, (signed int)sizeof(char [512l]) /*512ul*/ );
+        if(return_value_writesect_9 == 0)
           da.WriteProtect = 0;
 
       }
@@ -4494,23 +4494,23 @@ signed int FatReadFile(char *name, signed int fd)
   signed int i;
   signed int n;
   signed int total = 0;
-  signed int return_value_LoadFileWithName$1;
-  return_value_LoadFileWithName$1=LoadFileWithName(name);
-  void *return_value_malloc$2;
-  if(return_value_LoadFileWithName$1 == 0)
+  signed int return_value_LoadFileWithName_1;
+  return_value_LoadFileWithName_1=LoadFileWithName(name);
+  void *return_value_malloc_2;
+  if(return_value_LoadFileWithName_1 == 0)
   {
     cluster = fa.StartCluster;
     sector=ConvertClusterToSector(cluster);
-    return_value_malloc$2=malloc((unsigned long int)block);
-    buf = (unsigned char *)return_value_malloc$2;
+    return_value_malloc_2=malloc((unsigned long int)block);
+    buf = (unsigned char *)return_value_malloc_2;
     if(!(buf == ((unsigned char *)NULL)))
     {
       i = 0;
       for( ; !(i >= fa.Size); i = i + n)
       {
-        signed int return_value_readsect$3;
-        return_value_readsect$3=readsect(sector, (signed int)bpb.SectorsPerCluster, (void *)buf, block);
-        if(!(return_value_readsect$3 == 0))
+        signed int return_value_readsect_3;
+        return_value_readsect_3=readsect(sector, (signed int)bpb.SectorsPerCluster, (void *)buf, block);
+        if(!(return_value_readsect_3 == 0))
         {
           total = -1;
           break;
@@ -4557,15 +4557,15 @@ signed int FatReadFileExt(char *name, signed int offset, signed int len, void *o
   signed int blen;
   signed int b1 = offset / block;
   signed int b2 = (offset + len) / block;
-  signed int return_value_LoadFileWithName$1;
-  return_value_LoadFileWithName$1=LoadFileWithName(name);
-  void *return_value_malloc$2;
-  if(return_value_LoadFileWithName$1 == 0)
+  signed int return_value_LoadFileWithName_1;
+  return_value_LoadFileWithName_1=LoadFileWithName(name);
+  void *return_value_malloc_2;
+  if(return_value_LoadFileWithName_1 == 0)
   {
     cluster = fa.StartCluster;
     sector=ConvertClusterToSector(cluster);
-    return_value_malloc$2=malloc((unsigned long int)block);
-    buf = (unsigned char *)return_value_malloc$2;
+    return_value_malloc_2=malloc((unsigned long int)block);
+    buf = (unsigned char *)return_value_malloc_2;
     if(!(buf == ((unsigned char *)NULL)))
     {
       i = 0;
@@ -4575,9 +4575,9 @@ signed int FatReadFileExt(char *name, signed int offset, signed int len, void *o
         n = fa.Size - i > block ? block : fa.Size - i;
         if(bn >= b1)
         {
-          signed int return_value_readsect$3;
-          return_value_readsect$3=readsect(sector, (signed int)bpb.SectorsPerCluster, (void *)buf, block);
-          if(!(return_value_readsect$3 == 0))
+          signed int return_value_readsect_3;
+          return_value_readsect_3=readsect(sector, (signed int)bpb.SectorsPerCluster, (void *)buf, block);
+          if(!(return_value_readsect_3 == 0))
           {
             total = -1;
             break;
@@ -4642,9 +4642,9 @@ signed int FatSetCWD(char *dir)
 
     else
     {
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(cwd.Name, dir);
-      if(return_value_strcmp$1 == 0)
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(cwd.Name, dir);
+      if(return_value_strcmp_1 == 0)
         return 0;
 
       else
@@ -4680,9 +4680,9 @@ signed int FindFreeClusters(void)
   i = 0;
   for( ; !(i >= max_entry); i = i + 1)
   {
-    signed short int *tmp_post$1 = pfat;
+    signed short int *tmp_post_1 = pfat;
     pfat = pfat + 1l;
-    if((signed int)*tmp_post$1 == 0x0)
+    if((signed int)*tmp_post_1 == 0x0)
       freeclusters = freeclusters + 1;
 
   }
@@ -4695,7 +4695,7 @@ signed int GetDir(char *path, char *dir, char **tail)
 {
   signed int i = 0;
   dir[(signed long int)0] = (char)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)*path == 0)
   {
     strcpy(dir, ".");
@@ -4704,13 +4704,13 @@ signed int GetDir(char *path, char *dir, char **tail)
 
   else
   {
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if((signed int)*path == 47)
-      tmp_if_expr$2 = *tail != path ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = *tail != path ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       strcpy(dir, "/");
       i = 1;
@@ -4722,11 +4722,11 @@ signed int GetDir(char *path, char *dir, char **tail)
       do
       {
         if(!(path[(signed long int)i] == 0))
-          tmp_if_expr$1 = (signed int)path[(signed long int)i] != 47 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (signed int)path[(signed long int)i] != 47 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(i >= 256 || !tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(i >= 256 || !tmp_if_expr_1)
           break;
 
         dir[(signed long int)i] = path[(signed long int)i];
@@ -4783,11 +4783,11 @@ static signed int GetPair(char *buf, signed int buf_len, char *key, char *value,
     if(j >= 256)
       break;
 
-    signed int tmp_post$1 = j;
+    signed int tmp_post_1 = j;
     j = j + 1;
-    signed int tmp_post$2 = i;
+    signed int tmp_post_2 = i;
     i = i + 1;
-    key[(signed long int)tmp_post$1] = buf[(signed long int)tmp_post$2];
+    key[(signed long int)tmp_post_1] = buf[(signed long int)tmp_post_2];
   }
   j = j - 1;
   for( ; (signed int)key[(signed long int)j] == 32 && j >= 1; j = j - 1)
@@ -4810,11 +4810,11 @@ static signed int GetPair(char *buf, signed int buf_len, char *key, char *value,
     if(j >= 256)
       break;
 
-    signed int tmp_post$3 = j;
+    signed int tmp_post_3 = j;
     j = j + 1;
-    signed int tmp_post$4 = i;
+    signed int tmp_post_4 = i;
     i = i + 1;
-    value[(signed long int)tmp_post$3] = buf[(signed long int)tmp_post$4];
+    value[(signed long int)tmp_post_3] = buf[(signed long int)tmp_post_4];
   }
   j = j - 1;
   for( ; (signed int)value[(signed long int)j] == 32 && j >= 1; j = j - 1)
@@ -4830,77 +4830,77 @@ static signed int GetPair(char *buf, signed int buf_len, char *key, char *value,
   return i;
 }
 
-// GetPair$link1
+// GetPair_link1
 // file common/utils.c line 10
-static signed int GetPair$link1(char *buf$link1, signed int buf_len$link1, char *key$link1, char *value$link1, char **tail$link1)
+static signed int GetPair_link1(char *buf_link1, signed int buf_len_link1, char *key_link1, char *value_link1, char **tail_link1)
 {
-  signed int i$link1 = 0;
-  signed int j$link1;
-  key$link1[(signed long int)0] = (char)0;
-  value$link1[(signed long int)0] = (char)0;
-  if((signed int)buf$link1[(signed long int)i$link1] == 35)
+  signed int i_link1 = 0;
+  signed int j_link1;
+  key_link1[(signed long int)0] = (char)0;
+  value_link1[(signed long int)0] = (char)0;
+  if((signed int)buf_link1[(signed long int)i_link1] == 35)
   {
-    for( ; !((signed int)buf$link1[(signed long int)i$link1] == 10) && !(i$link1 >= buf_len$link1); i$link1 = i$link1 + 1)
+    for( ; !((signed int)buf_link1[(signed long int)i_link1] == 10) && !(i_link1 >= buf_len_link1); i_link1 = i_link1 + 1)
       ;
-    if((signed int)buf$link1[(signed long int)i$link1] == 10)
-      i$link1 = i$link1 + 1;
+    if((signed int)buf_link1[(signed long int)i_link1] == 10)
+      i_link1 = i_link1 + 1;
 
   }
 
-  j$link1 = 0;
-  while(!((signed int)buf$link1[(signed long int)i$link1] == 61))
+  j_link1 = 0;
+  while(!((signed int)buf_link1[(signed long int)i_link1] == 61))
   {
-    if(i$link1 >= buf_len$link1)
+    if(i_link1 >= buf_len_link1)
       break;
 
-    if(j$link1 >= 256)
+    if(j_link1 >= 256)
       break;
 
-    signed int tmp_post$1$link1 = j$link1;
-    j$link1 = j$link1 + 1;
-    signed int tmp_post$2$link1 = i$link1;
-    i$link1 = i$link1 + 1;
-    key$link1[(signed long int)tmp_post$1$link1] = buf$link1[(signed long int)tmp_post$2$link1];
+    signed int tmp_post_1_link1 = j_link1;
+    j_link1 = j_link1 + 1;
+    signed int tmp_post_2_link1 = i_link1;
+    i_link1 = i_link1 + 1;
+    key_link1[(signed long int)tmp_post_1_link1] = buf_link1[(signed long int)tmp_post_2_link1];
   }
-  j$link1 = j$link1 - 1;
-  for( ; (signed int)key$link1[(signed long int)j$link1] == 32 && j$link1 >= 1; j$link1 = j$link1 - 1)
+  j_link1 = j_link1 - 1;
+  for( ; (signed int)key_link1[(signed long int)j_link1] == 32 && j_link1 >= 1; j_link1 = j_link1 - 1)
     ;
-  j$link1 = j$link1 + 1;
-  key$link1[(signed long int)j$link1] = (char)0;
-  if((signed int)buf$link1[(signed long int)i$link1] == 61)
+  j_link1 = j_link1 + 1;
+  key_link1[(signed long int)j_link1] = (char)0;
+  if((signed int)buf_link1[(signed long int)i_link1] == 61)
   {
-    i$link1 = i$link1 + 1;
-    for( ; (signed int)buf$link1[(signed long int)i$link1] == 32 && !(i$link1 >= buf_len$link1); i$link1 = i$link1 + 1)
+    i_link1 = i_link1 + 1;
+    for( ; (signed int)buf_link1[(signed long int)i_link1] == 32 && !(i_link1 >= buf_len_link1); i_link1 = i_link1 + 1)
       ;
   }
 
-  j$link1 = 0;
-  while(!((signed int)buf$link1[(signed long int)i$link1] == 10))
+  j_link1 = 0;
+  while(!((signed int)buf_link1[(signed long int)i_link1] == 10))
   {
-    if(i$link1 >= buf_len$link1)
+    if(i_link1 >= buf_len_link1)
       break;
 
-    if(j$link1 >= 256)
+    if(j_link1 >= 256)
       break;
 
-    signed int tmp_post$3$link1 = j$link1;
-    j$link1 = j$link1 + 1;
-    signed int tmp_post$4$link1 = i$link1;
-    i$link1 = i$link1 + 1;
-    value$link1[(signed long int)tmp_post$3$link1] = buf$link1[(signed long int)tmp_post$4$link1];
+    signed int tmp_post_3_link1 = j_link1;
+    j_link1 = j_link1 + 1;
+    signed int tmp_post_4_link1 = i_link1;
+    i_link1 = i_link1 + 1;
+    value_link1[(signed long int)tmp_post_3_link1] = buf_link1[(signed long int)tmp_post_4_link1];
   }
-  j$link1 = j$link1 - 1;
-  for( ; (signed int)value$link1[(signed long int)j$link1] == 32 && j$link1 >= 1; j$link1 = j$link1 - 1)
+  j_link1 = j_link1 - 1;
+  for( ; (signed int)value_link1[(signed long int)j_link1] == 32 && j_link1 >= 1; j_link1 = j_link1 - 1)
     ;
-  j$link1 = j$link1 + 1;
-  value$link1[(signed long int)j$link1] = (char)0;
-  if((signed int)buf$link1[(signed long int)i$link1] == 10)
-    i$link1 = i$link1 + 1;
+  j_link1 = j_link1 + 1;
+  value_link1[(signed long int)j_link1] = (char)0;
+  if((signed int)buf_link1[(signed long int)i_link1] == 10)
+    i_link1 = i_link1 + 1;
 
-  if(!(tail$link1 == ((char **)NULL)))
-    *tail$link1 = buf$link1 + (signed long int)i$link1;
+  if(!(tail_link1 == ((char **)NULL)))
+    *tail_link1 = buf_link1 + (signed long int)i_link1;
 
-  return i$link1;
+  return i_link1;
 }
 
 // GetSnmp
@@ -4930,14 +4930,14 @@ signed int GetSnmp(const char *ip, signed int port, const char *szoid, void *buf
   session.retries = 1;
   session.timeout = (signed long int)1000000;
   ss=snmp_open(&session);
-  signed int return_value_snmp_synch_response$1;
+  signed int return_value_snmp_synch_response_1;
   if(!(ss == ((struct snmp_session *)NULL)))
   {
     pdu=snmp_pdu_create((signed int)(unsigned char)0x80 | (signed int)(unsigned char)0x20 | 0x0);
     read_objid(szoid, anOID, &anOID_len);
     snmp_add_null_var(pdu, anOID, anOID_len);
-    return_value_snmp_synch_response$1=snmp_synch_response(ss, pdu, &response);
-    if(return_value_snmp_synch_response$1 == 0)
+    return_value_snmp_synch_response_1=snmp_synch_response(ss, pdu, &response);
+    if(return_value_snmp_synch_response_1 == 0)
     {
       if(response->errstat == 0l)
       {
@@ -4969,13 +4969,13 @@ signed int GetSnmp(const char *ip, signed int port, const char *szoid, void *buf
           case (signed int)(unsigned char)0x04:
           {
             *type = 16;
-            unsigned long int tmp_if_expr$2;
+            unsigned long int tmp_if_expr_2;
             if(!(vars->val_len >= (unsigned long int)size))
-              tmp_if_expr$2 = vars->val_len;
+              tmp_if_expr_2 = vars->val_len;
 
             else
-              tmp_if_expr$2 = (unsigned long int)size;
-            len = (unsigned int)tmp_if_expr$2;
+              tmp_if_expr_2 = (unsigned long int)size;
+            len = (unsigned int)tmp_if_expr_2;
             memcpy(buffer, (const void *)vars->val.string, (unsigned long int)len);
             goto __CPROVER_DUMP_L10;
           }
@@ -5013,14 +5013,14 @@ bugout:
 signed int LoadFileInCWD(signed int filenumber)
 {
   unsigned char buf[512l];
-  struct anonymous$46 *pde = (struct anonymous$46 *)buf;
+  struct anonymous_46 *pde = (struct anonymous_46 *)buf;
   signed int i;
   signed int j;
   signed int fn;
   signed int sector;
   signed int cluster;
   signed int cluster_cnt;
-  signed int de_per_sector = (signed int)((unsigned long int)512 / sizeof(struct anonymous$46) /*32ul*/ );
+  signed int de_per_sector = (signed int)((unsigned long int)512 / sizeof(struct anonymous_46) /*32ul*/ );
   unsigned char c;
   sector = filenumber / de_per_sector;
   fn = filenumber - sector * de_per_sector;
@@ -5052,8 +5052,8 @@ signed int LoadFileInCWD(signed int filenumber)
   pde->Name[(signed long int)0] = (char)0;
   readsect(fa.DirSectorNum, 1, (void *)buf, (signed int)sizeof(unsigned char [512l]) /*512ul*/ );
   c = (unsigned char)pde->Name[(signed long int)0];
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if((signed int)c == 0x0)
     return 0x2;
 
@@ -5067,16 +5067,16 @@ signed int LoadFileInCWD(signed int filenumber)
       do
       {
         if(!((unsigned long int)i >= sizeof(char [8l]) /*8ul*/ ))
-          tmp_if_expr$1 = pde->Name[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = pde->Name[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
-          tmp_if_expr$2 = (signed int)pde->Name[(signed long int)i] != 32 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
+          tmp_if_expr_2 = (signed int)pde->Name[(signed long int)i] != 32 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(!tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(!tmp_if_expr_2)
           break;
 
         fa.Name[(signed long int)i] = pde->Name[(signed long int)i];
@@ -5087,9 +5087,9 @@ signed int LoadFileInCWD(signed int filenumber)
       {
         if(!((signed int)pde->Ext[0l] == 32))
         {
-          signed int tmp_post$3 = i;
+          signed int tmp_post_3 = i;
           i = i + 1;
-          fa.Name[(signed long int)tmp_post$3] = (char)46;
+          fa.Name[(signed long int)tmp_post_3] = (char)46;
           j = 0;
           for( ; !((signed int)pde->Ext[(signed long int)j] == 32) && !((unsigned long int)j >= sizeof(char [3l]) /*3ul*/ ); i = i + 1)
           {
@@ -5132,9 +5132,9 @@ signed int LoadFileWithName(char *filename)
 
     if(!(ret == 0x3) && !(ret == 0xe5))
     {
-      signed int return_value_strcasecmp$1;
-      return_value_strcasecmp$1=strcasecmp(fa.Name, filename);
-      if(return_value_strcasecmp$1 == 0)
+      signed int return_value_strcasecmp_1;
+      return_value_strcasecmp_1=strcasecmp(fa.Name, filename);
+      if(return_value_strcasecmp_1 == 0)
       {
         stat = 0;
         break;
@@ -5155,11 +5155,11 @@ signed int MlcCloseChannel(struct _mud_channel *pc, signed int fd)
   signed int stat = 0;
   signed int len;
   signed int n;
-  struct anonymous$28 *pCmd;
-  struct anonymous$23 *pReply;
-  memset((void *)buf, 0, sizeof(struct anonymous$28) /*9ul*/ );
-  pCmd = (struct anonymous$28 *)buf;
-  n = (signed int)sizeof(struct anonymous$28) /*9ul*/ ;
+  struct anonymous_28 *pCmd;
+  struct anonymous_23 *pReply;
+  memset((void *)buf, 0, sizeof(struct anonymous_28) /*9ul*/ );
+  pCmd = (struct anonymous_28 *)buf;
+  n = (signed int)sizeof(struct anonymous_28) /*9ul*/ ;
   pCmd->h.length=htons((unsigned short int)n);
   pCmd->cmd = (unsigned char)2;
   pCmd->hsocket = pc->sockid;
@@ -5174,20 +5174,20 @@ signed int MlcCloseChannel(struct _mud_channel *pc, signed int fd)
   else
   {
     stat=MlcReverseReply(pc, fd, buf, (signed int)sizeof(unsigned char [16384l]) /*16384ul*/ );
-    pReply = (struct anonymous$23 *)buf;
-    _Bool tmp_if_expr$1;
+    pReply = (struct anonymous_23 *)buf;
+    _Bool tmp_if_expr_1;
     if(!(stat == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)pReply->cmd != (0x80 | 2) ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$2;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = (signed int)pReply->cmd != (0x80 | 2) ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_2;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       syslog(3, "io/hpmud/mlc.c 682: invalid MlcCloseChannelReply: cmd=%x, result=%x\n", pReply->cmd, pReply->result);
       stat = 1;
@@ -5209,16 +5209,16 @@ signed int MlcConfigSocket(struct _mud_channel *pc, signed int fd)
   signed int stat = 0;
   signed int len;
   signed int n;
-  struct anonymous$24 *pCmd;
-  struct anonymous$25 *pReply;
+  struct anonymous_24 *pCmd;
+  struct anonymous_25 *pReply;
   if((signed int)pc->ta.h2psize >= 1)
     return stat;
 
   else
   {
-    memset((void *)buf, 0, sizeof(struct anonymous$24) /*13ul*/ );
-    pCmd = (struct anonymous$24 *)buf;
-    n = (signed int)sizeof(struct anonymous$24) /*13ul*/ ;
+    memset((void *)buf, 0, sizeof(struct anonymous_24) /*13ul*/ );
+    pCmd = (struct anonymous_24 *)buf;
+    n = (signed int)sizeof(struct anonymous_24) /*13ul*/ ;
     pCmd->h.length=htons((unsigned short int)n);
     pCmd->cmd = (unsigned char)7;
     pCmd->socket = pc->sockid;
@@ -5235,20 +5235,20 @@ signed int MlcConfigSocket(struct _mud_channel *pc, signed int fd)
     else
     {
       stat=MlcReverseReply(pc, fd, buf, (signed int)sizeof(unsigned char [16384l]) /*16384ul*/ );
-      pReply = (struct anonymous$25 *)buf;
-      _Bool tmp_if_expr$1;
+      pReply = (struct anonymous_25 *)buf;
+      _Bool tmp_if_expr_1;
       if(!(stat == 0))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)pReply->cmd != (0x80 | 7) ? (_Bool)1 : (_Bool)0;
-      _Bool tmp_if_expr$2;
-      if(tmp_if_expr$1)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_1 = (signed int)pReply->cmd != (0x80 | 7) ? (_Bool)1 : (_Bool)0;
+      _Bool tmp_if_expr_2;
+      if(tmp_if_expr_1)
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
         syslog(3, "io/hpmud/mlc.c 436: invalid MLCConfigSocketReply: cmd=%x, result=%x\n", pReply->cmd, pReply->result);
         stat = 1;
@@ -5276,11 +5276,11 @@ signed int MlcCredit(struct _mud_channel *pc, signed int fd, unsigned short int 
   signed int stat = 0;
   signed int len;
   signed int n;
-  struct anonymous$26 *pCmd;
-  struct anonymous$23 *pReply;
-  memset((void *)buf, 0, sizeof(struct anonymous$26) /*11ul*/ );
-  pCmd = (struct anonymous$26 *)buf;
-  n = (signed int)sizeof(struct anonymous$26) /*11ul*/ ;
+  struct anonymous_26 *pCmd;
+  struct anonymous_23 *pReply;
+  memset((void *)buf, 0, sizeof(struct anonymous_26) /*11ul*/ );
+  pCmd = (struct anonymous_26 *)buf;
+  n = (signed int)sizeof(struct anonymous_26) /*11ul*/ ;
   pCmd->h.length=htons((unsigned short int)n);
   pCmd->cmd = (unsigned char)3;
   pCmd->hsocket = pc->sockid;
@@ -5296,20 +5296,20 @@ signed int MlcCredit(struct _mud_channel *pc, signed int fd, unsigned short int 
   else
   {
     stat=MlcReverseReply(pc, fd, buf, (signed int)sizeof(unsigned char [16384l]) /*16384ul*/ );
-    pReply = (struct anonymous$23 *)buf;
-    _Bool tmp_if_expr$1;
+    pReply = (struct anonymous_23 *)buf;
+    _Bool tmp_if_expr_1;
     if(!(stat == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)pReply->cmd != (0x80 | 3) ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$2;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = (signed int)pReply->cmd != (0x80 | 3) ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_2;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       syslog(3, "io/hpmud/mlc.c 720: invalid MlcCreditReply: cmd=%x, result=%x\n", pReply->cmd, pReply->result);
       stat = 1;
@@ -5333,18 +5333,18 @@ signed int MlcCreditRequest(struct _mud_channel *pc, signed int fd, unsigned sho
   signed int stat = 0;
   signed int len;
   signed int n;
-  struct anonymous$26 *pCmd;
-  struct anonymous$27 *pReply;
-  memset((void *)buf, 0, sizeof(struct anonymous$26) /*11ul*/ );
-  pCmd = (struct anonymous$26 *)buf;
-  n = (signed int)sizeof(struct anonymous$26) /*11ul*/ ;
+  struct anonymous_26 *pCmd;
+  struct anonymous_27 *pReply;
+  memset((void *)buf, 0, sizeof(struct anonymous_26) /*11ul*/ );
+  pCmd = (struct anonymous_26 *)buf;
+  n = (signed int)sizeof(struct anonymous_26) /*11ul*/ ;
   pCmd->h.length=htons((unsigned short int)n);
   pCmd->cmd = (unsigned char)4;
   pCmd->hsocket = pc->sockid;
   pCmd->psocket = pc->sockid;
   pCmd->credit=htons(credit);
   len=pd->vf.write(fd, (const void *)pCmd, n, 45000000);
-  unsigned short int return_value_ntohs$3;
+  unsigned short int return_value_ntohs_3;
   if(!(len == n))
   {
     syslog(3, "io/hpmud/mlc.c 750: unable to write MlcCreditRequest: %m\n");
@@ -5354,20 +5354,20 @@ signed int MlcCreditRequest(struct _mud_channel *pc, signed int fd, unsigned sho
   else
   {
     stat=MlcReverseReply(pc, fd, buf, (signed int)sizeof(unsigned char [16384l]) /*16384ul*/ );
-    pReply = (struct anonymous$27 *)buf;
-    _Bool tmp_if_expr$1;
+    pReply = (struct anonymous_27 *)buf;
+    _Bool tmp_if_expr_1;
     if(!(stat == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)pReply->cmd != (0x80 | 4) ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$2;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = (signed int)pReply->cmd != (0x80 | 4) ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_2;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       syslog(3, "io/hpmud/mlc.c 760: invalid MlcCreditRequestReply: cmd=%x, result=%x\n", pReply->cmd, pReply->result);
       stat = 1;
@@ -5375,8 +5375,8 @@ signed int MlcCreditRequest(struct _mud_channel *pc, signed int fd, unsigned sho
 
     else
     {
-      return_value_ntohs$3=ntohs(pReply->credit);
-      pc->ta.h2pcredit = pc->ta.h2pcredit + return_value_ntohs$3;
+      return_value_ntohs_3=ntohs(pReply->credit);
+      pc->ta.h2pcredit = pc->ta.h2pcredit + return_value_ntohs_3;
     }
   }
 
@@ -5391,25 +5391,25 @@ static signed int MlcExecReverseCmd(struct _mud_channel *pc, signed int fd, unsi
 {
   struct _mud_device *pd = &msp->device[(signed long int)pc->dindex];
   struct _mud_channel *out_of_bound_channel;
-  struct anonymous$30 *pCmd;
-  struct anonymous$23 *pReply;
-  struct anonymous$26 *pCredit;
-  struct anonymous$23 *pCreditReply;
-  struct anonymous$26 *pCreditReq;
-  struct anonymous$27 *pCreditReqReply;
-  struct anonymous$23 *pError;
+  struct anonymous_30 *pCmd;
+  struct anonymous_23 *pReply;
+  struct anonymous_26 *pCredit;
+  struct anonymous_23 *pCreditReply;
+  struct anonymous_26 *pCreditReq;
+  struct anonymous_27 *pCreditReqReply;
+  struct anonymous_23 *pError;
   signed int len;
   signed int size;
-  pCmd = (struct anonymous$30 *)buf;
-  _Bool tmp_if_expr$3;
+  pCmd = (struct anonymous_30 *)buf;
+  _Bool tmp_if_expr_3;
   if((signed int)pCmd->h.hsid == 0)
-    tmp_if_expr$3 = (signed int)pCmd->h.psid == 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = (signed int)pCmd->h.psid == 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  unsigned short int return_value_ntohs$4;
-  unsigned short int return_value_ntohs$5;
-  if(!tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  unsigned short int return_value_ntohs_4;
+  unsigned short int return_value_ntohs_5;
+  if(!tmp_if_expr_3)
   {
     if(pCmd->h.hsid == pCmd->h.psid)
     {
@@ -5420,16 +5420,16 @@ static signed int MlcExecReverseCmd(struct _mud_channel *pc, signed int fd, unsi
         return 0;
       }
 
-      unsigned short int return_value_ntohs$1;
-      return_value_ntohs$1=ntohs(pCmd->h.length);
-      size = (signed int)((unsigned long int)return_value_ntohs$1 - sizeof(struct anonymous$22) /*6ul*/ );
+      unsigned short int return_value_ntohs_1;
+      return_value_ntohs_1=ntohs(pCmd->h.length);
+      size = (signed int)((unsigned long int)return_value_ntohs_1 - sizeof(struct anonymous_22) /*6ul*/ );
       if(!(16384 + -out_of_bound_channel->rcnt >= size))
       {
         syslog(3, "io/hpmud/mlc.c 99: invalid data packet size=%d\n", size);
         return 0;
       }
 
-      memcpy((void *)&out_of_bound_channel->rbuf[(signed long int)out_of_bound_channel->rcnt], (const void *)(buf + (signed long int)sizeof(struct anonymous$22) /*6ul*/ ), (unsigned long int)size);
+      memcpy((void *)&out_of_bound_channel->rbuf[(signed long int)out_of_bound_channel->rcnt], (const void *)(buf + (signed long int)sizeof(struct anonymous_22) /*6ul*/ ), (unsigned long int)size);
       out_of_bound_channel->rcnt = out_of_bound_channel->rcnt + size;
       if(!(pCmd->h.credit == 0))
         out_of_bound_channel->ta.h2pcredit = out_of_bound_channel->ta.h2pcredit + (unsigned short int)pCmd->h.credit;
@@ -5439,9 +5439,9 @@ static signed int MlcExecReverseCmd(struct _mud_channel *pc, signed int fd, unsi
 
     else
     {
-      unsigned short int return_value_ntohs$2;
-      return_value_ntohs$2=ntohs(pCmd->h.length);
-      len = (signed int)return_value_ntohs$2;
+      unsigned short int return_value_ntohs_2;
+      return_value_ntohs_2=ntohs(pCmd->h.length);
+      len = (signed int)return_value_ntohs_2;
       syslog(3, "io/hpmud/mlc.c 112: unsolicited data packet: hsid=%x, psid=%x, length=%d, credit=%d, status=%x\n", pCmd->h.hsid, pCmd->h.psid, len, pCmd->h.credit, pCmd->h.status);
     }
     return 0;
@@ -5453,51 +5453,51 @@ static signed int MlcExecReverseCmd(struct _mud_channel *pc, signed int fd, unsi
     {
       case 3:
       {
-        pCredit = (struct anonymous$26 *)buf;
+        pCredit = (struct anonymous_26 *)buf;
         out_of_bound_channel = &pd->channel[(signed long int)pCredit->hsocket];
-        return_value_ntohs$4=ntohs(pCredit->credit);
-        out_of_bound_channel->ta.h2pcredit = out_of_bound_channel->ta.h2pcredit + return_value_ntohs$4;
-        pCreditReply = (struct anonymous$23 *)buf;
-        pCreditReply->h.length=htons((unsigned short int)sizeof(struct anonymous$23) /*8ul*/ );
+        return_value_ntohs_4=ntohs(pCredit->credit);
+        out_of_bound_channel->ta.h2pcredit = out_of_bound_channel->ta.h2pcredit + return_value_ntohs_4;
+        pCreditReply = (struct anonymous_23 *)buf;
+        pCreditReply->h.length=htons((unsigned short int)sizeof(struct anonymous_23) /*8ul*/ );
         pCreditReply->cmd = pCreditReply->cmd | (unsigned char)0x80;
         pCreditReply->result = (unsigned char)0;
-        MlcForwardReply(pc, fd, (unsigned char *)pCreditReply, (signed int)sizeof(struct anonymous$23) /*8ul*/ );
+        MlcForwardReply(pc, fd, (unsigned char *)pCreditReply, (signed int)sizeof(struct anonymous_23) /*8ul*/ );
         break;
       }
       case 4:
       {
-        pCreditReq = (struct anonymous$26 *)buf;
+        pCreditReq = (struct anonymous_26 *)buf;
         static signed int cnt;
-        signed int tmp_post$6 = cnt;
+        signed int tmp_post_6 = cnt;
         cnt = cnt + 1;
-        if(!(tmp_post$6 >= 5))
+        if(!(tmp_post_6 >= 5))
         {
-          return_value_ntohs$5=ntohs(pCreditReq->credit);
-          syslog(3, "io/hpmud/mlc.c 135: unexpected MLCCreditRequest: cmd=%x, hid=%x, pid=%x, credit=%d\n", pCreditReq->cmd, pCreditReq->hsocket, pCreditReq->psocket, return_value_ntohs$5);
+          return_value_ntohs_5=ntohs(pCreditReq->credit);
+          syslog(3, "io/hpmud/mlc.c 135: unexpected MLCCreditRequest: cmd=%x, hid=%x, pid=%x, credit=%d\n", pCreditReq->cmd, pCreditReq->hsocket, pCreditReq->psocket, return_value_ntohs_5);
         }
 
-        pCreditReqReply = (struct anonymous$27 *)buf;
-        pCreditReqReply->h.length=htons((unsigned short int)sizeof(struct anonymous$27) /*10ul*/ );
+        pCreditReqReply = (struct anonymous_27 *)buf;
+        pCreditReqReply->h.length=htons((unsigned short int)sizeof(struct anonymous_27) /*10ul*/ );
         pCreditReqReply->cmd = pCreditReqReply->cmd | (unsigned char)0x80;
         pCreditReqReply->result = (unsigned char)0;
         pCreditReqReply->credit = (unsigned short int)0;
-        MlcForwardReply(pc, fd, (unsigned char *)pCreditReqReply, (signed int)sizeof(struct anonymous$27) /*10ul*/ );
+        MlcForwardReply(pc, fd, (unsigned char *)pCreditReqReply, (signed int)sizeof(struct anonymous_27) /*10ul*/ );
         break;
       }
       case 127:
       {
-        pError = (struct anonymous$23 *)buf;
+        pError = (struct anonymous_23 *)buf;
         syslog(3, "io/hpmud/mlc.c 145: unexpected MLCError: cmd=%x, result=%x\n", pError->cmd, pError->result);
         return 1;
       }
       default:
       {
-        pReply = (struct anonymous$23 *)buf;
+        pReply = (struct anonymous_23 *)buf;
         syslog(3, "io/hpmud/mlc.c 149: unexpected command: cmd=%x, result=%x\n", pReply->cmd, pReply->result);
-        pReply->h.length=htons((unsigned short int)sizeof(struct anonymous$23) /*8ul*/ );
+        pReply->h.length=htons((unsigned short int)sizeof(struct anonymous_23) /*8ul*/ );
         pReply->cmd = pReply->cmd | (unsigned char)0x80;
         pReply->result = (unsigned char)1;
-        MlcForwardReply(pc, fd, (unsigned char *)pReply, (signed int)sizeof(struct anonymous$23) /*8ul*/ );
+        MlcForwardReply(pc, fd, (unsigned char *)pReply, (signed int)sizeof(struct anonymous_23) /*8ul*/ );
       }
     }
     return 0;
@@ -5513,11 +5513,11 @@ signed int MlcExit(struct _mud_channel *pc, signed int fd)
   signed int stat = 0;
   signed int len;
   signed int n;
-  struct anonymous$30 *pCmd;
-  struct anonymous$23 *pReply;
-  memset((void *)buf, 0, sizeof(struct anonymous$30) /*7ul*/ );
-  pCmd = (struct anonymous$30 *)buf;
-  n = (signed int)sizeof(struct anonymous$30) /*7ul*/ ;
+  struct anonymous_30 *pCmd;
+  struct anonymous_23 *pReply;
+  memset((void *)buf, 0, sizeof(struct anonymous_30) /*7ul*/ );
+  pCmd = (struct anonymous_30 *)buf;
+  n = (signed int)sizeof(struct anonymous_30) /*7ul*/ ;
   pCmd->h.length=htons((unsigned short int)n);
   pCmd->cmd = (unsigned char)8;
   len=pd->vf.write(fd, (const void *)pCmd, n, 45000000);
@@ -5530,20 +5530,20 @@ signed int MlcExit(struct _mud_channel *pc, signed int fd)
   else
   {
     stat=MlcReverseReply(pc, fd, buf, (signed int)sizeof(unsigned char [16384l]) /*16384ul*/ );
-    pReply = (struct anonymous$23 *)buf;
-    _Bool tmp_if_expr$1;
+    pReply = (struct anonymous_23 *)buf;
+    _Bool tmp_if_expr_1;
     if(!(stat == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)pReply->cmd != (0x80 | 8) ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$2;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = (signed int)pReply->cmd != (0x80 | 8) ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_2;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       syslog(3, "io/hpmud/mlc.c 394: invalid MLCExitReply: cmd=%x, result=%x\n", pReply->cmd, pReply->result);
       stat = 1;
@@ -5564,14 +5564,14 @@ signed int MlcForwardData(struct _mud_channel *pc, signed int fd, const void *bu
   signed int stat = 0;
   signed int len;
   signed int n;
-  struct anonymous$22 h;
-  memset((void *)&h, 0, sizeof(struct anonymous$22) /*6ul*/ );
-  n = (signed int)(sizeof(struct anonymous$22) /*6ul*/  + (unsigned long int)size);
+  struct anonymous_22 h;
+  memset((void *)&h, 0, sizeof(struct anonymous_22) /*6ul*/ );
+  n = (signed int)(sizeof(struct anonymous_22) /*6ul*/  + (unsigned long int)size);
   h.length=htons((unsigned short int)n);
   h.hsid = pc->sockid;
   h.psid = pc->sockid;
-  len=pd->vf.write(fd, (const void *)&h, (signed int)sizeof(struct anonymous$22) /*6ul*/ , usec_timeout);
-  if(!((unsigned long int)len == sizeof(struct anonymous$22) /*6ul*/ ))
+  len=pd->vf.write(fd, (const void *)&h, (signed int)sizeof(struct anonymous_22) /*6ul*/ , usec_timeout);
+  if(!((unsigned long int)len == sizeof(struct anonymous_22) /*6ul*/ ))
   {
     syslog(3, "io/hpmud/mlc.c 463: unable to write MlcForwardData header: %m\n");
     stat = 1;
@@ -5616,11 +5616,11 @@ signed int MlcInit(struct _mud_channel *pc, signed int fd)
   signed int len;
   signed int n;
   signed int cnt;
-  struct anonymous$32 *pCmd;
-  struct anonymous$34 *pReply;
-  memset((void *)buf, 0, sizeof(struct anonymous$32) /*8ul*/ );
-  pCmd = (struct anonymous$32 *)buf;
-  n = (signed int)sizeof(struct anonymous$32) /*8ul*/ ;
+  struct anonymous_32 *pCmd;
+  struct anonymous_34 *pReply;
+  memset((void *)buf, 0, sizeof(struct anonymous_32) /*8ul*/ );
+  pCmd = (struct anonymous_32 *)buf;
+  n = (signed int)sizeof(struct anonymous_32) /*8ul*/ ;
   pCmd->h.length=htons((unsigned short int)n);
   pCmd->cmd = (unsigned char)0;
   pCmd->rev = (unsigned char)3;
@@ -5636,24 +5636,24 @@ signed int MlcInit(struct _mud_channel *pc, signed int fd)
     cnt = 0;
     {
       stat=MlcReverseReply(pc, fd, buf, (signed int)sizeof(unsigned char [16384l]) /*16384ul*/ );
-      pReply = (struct anonymous$34 *)buf;
-      _Bool tmp_if_expr$2;
+      pReply = (struct anonymous_34 *)buf;
+      _Bool tmp_if_expr_2;
       if(!(stat == 0))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)pReply->cmd != (0x80 | 0) ? (_Bool)1 : (_Bool)0;
-      _Bool tmp_if_expr$3;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_2 = (signed int)pReply->cmd != (0x80 | 0) ? (_Bool)1 : (_Bool)0;
+      _Bool tmp_if_expr_3;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        if(*return_value___errno_location$1 == 5)
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        if(*return_value___errno_location_1 == 5)
         {
           if(!(cnt >= 1))
           {
@@ -5667,8 +5667,8 @@ signed int MlcInit(struct _mud_channel *pc, signed int fd)
         if(stat == 2 && !(cnt >= 1))
         {
           syslog(3, "io/hpmud/mlc.c 347: invalid MLCInitReply retrying command...\n");
-          memset((void *)buf, 0, sizeof(struct anonymous$32) /*8ul*/ );
-          n = (signed int)sizeof(struct anonymous$32) /*8ul*/ ;
+          memset((void *)buf, 0, sizeof(struct anonymous_32) /*8ul*/ );
+          n = (signed int)sizeof(struct anonymous_32) /*8ul*/ ;
           pCmd->h.length=htons((unsigned short int)n);
           pCmd->cmd = (unsigned char)0;
           pCmd->rev = (unsigned char)3;
@@ -5697,11 +5697,11 @@ signed int MlcOpenChannel(struct _mud_channel *pc, signed int fd)
   signed int stat = 0;
   signed int len;
   signed int n;
-  struct anonymous$26 *pCmd;
-  struct anonymous$27 *pReply;
-  memset((void *)buf, 0, sizeof(struct anonymous$26) /*11ul*/ );
-  pCmd = (struct anonymous$26 *)buf;
-  n = (signed int)sizeof(struct anonymous$26) /*11ul*/ ;
+  struct anonymous_26 *pCmd;
+  struct anonymous_27 *pReply;
+  memset((void *)buf, 0, sizeof(struct anonymous_26) /*11ul*/ );
+  pCmd = (struct anonymous_26 *)buf;
+  n = (signed int)sizeof(struct anonymous_26) /*11ul*/ ;
   pCmd->h.length=htons((unsigned short int)n);
   pCmd->cmd = (unsigned char)1;
   pCmd->hsocket = pc->sockid;
@@ -5717,20 +5717,20 @@ signed int MlcOpenChannel(struct _mud_channel *pc, signed int fd)
   else
   {
     stat=MlcReverseReply(pc, fd, buf, (signed int)sizeof(unsigned char [16384l]) /*16384ul*/ );
-    pReply = (struct anonymous$27 *)buf;
-    _Bool tmp_if_expr$1;
+    pReply = (struct anonymous_27 *)buf;
+    _Bool tmp_if_expr_1;
     if(!(stat == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)pReply->cmd != (0x80 | 1) ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$2;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = (signed int)pReply->cmd != (0x80 | 1) ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_2;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)pReply->result != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       syslog(3, "io/hpmud/mlc.c 643: invalid MlcOpenChannelReply: cmd=%x, result=%x\n", pReply->cmd, pReply->result);
       stat = 1;
@@ -5756,9 +5756,9 @@ signed int MlcReverseCmd(struct _mud_channel *pc, signed int fd)
   signed int size;
   unsigned int pklen;
   unsigned char *pBuf;
-  struct anonymous$23 *pPk = (struct anonymous$23 *)buf;
+  struct anonymous_23 *pPk = (struct anonymous_23 *)buf;
   pBuf = buf;
-  size = (signed int)sizeof(struct anonymous$22) /*6ul*/ ;
+  size = (signed int)sizeof(struct anonymous_22) /*6ul*/ ;
   if(size >= 1)
   {
     len=pd->vf.read(fd, (void *)pBuf, size, 45000000);
@@ -5772,9 +5772,9 @@ signed int MlcReverseCmd(struct _mud_channel *pc, signed int fd)
     pBuf = pBuf + (signed long int)len;
   }
 
-  unsigned short int return_value_ntohs$1;
-  return_value_ntohs$1=ntohs(pPk->h.length);
-  pklen = (unsigned int)return_value_ntohs$1;
+  unsigned short int return_value_ntohs_1;
+  return_value_ntohs_1=ntohs(pPk->h.length);
+  pklen = (unsigned int)return_value_ntohs_1;
   if((unsigned long int)pklen >= 16385ul)
   {
     syslog(3, "io/hpmud/mlc.c 190: invalid MlcReverseCmd packet size: size=%d\n", pklen);
@@ -5783,7 +5783,7 @@ signed int MlcReverseCmd(struct _mud_channel *pc, signed int fd)
 
   else
   {
-    size = (signed int)((unsigned long int)pklen - sizeof(struct anonymous$22) /*6ul*/ );
+    size = (signed int)((unsigned long int)pklen - sizeof(struct anonymous_22) /*6ul*/ );
     if(size >= 1)
     {
       len=pd->vf.read(fd, (void *)pBuf, size, 45000000);
@@ -5814,11 +5814,11 @@ signed int MlcReverseData(struct _mud_channel *pc, signed int fd, void *buf, sig
   signed int len;
   signed int size;
   signed int total;
-  struct anonymous$22 *pPk = (struct anonymous$22 *)buf;
+  struct anonymous_22 *pPk = (struct anonymous_22 *)buf;
   while((_Bool)1)
   {
     total = 0;
-    size = (signed int)sizeof(struct anonymous$22) /*6ul*/ ;
+    size = (signed int)sizeof(struct anonymous_22) /*6ul*/ ;
     if(size >= 1)
     {
       if(total == 0)
@@ -5838,9 +5838,9 @@ signed int MlcReverseData(struct _mud_channel *pc, signed int fd, void *buf, sig
       total = total + len;
     }
 
-    unsigned short int return_value_ntohs$1;
-    return_value_ntohs$1=ntohs(pPk->length);
-    size = (signed int)((unsigned long int)return_value_ntohs$1 - sizeof(struct anonymous$22) /*6ul*/ );
+    unsigned short int return_value_ntohs_1;
+    return_value_ntohs_1=ntohs(pPk->length);
+    size = (signed int)((unsigned long int)return_value_ntohs_1 - sizeof(struct anonymous_22) /*6ul*/ );
     if(!(length >= size))
     {
       syslog(3, "io/hpmud/mlc.c 519: invalid MlcReverseData size: size=%d, buf=%d\n", size, length);
@@ -5851,13 +5851,13 @@ signed int MlcReverseData(struct _mud_channel *pc, signed int fd, void *buf, sig
     {
       if(!(pPk->psid == pc->sockid))
       {
-        _Bool tmp_if_expr$3;
+        _Bool tmp_if_expr_3;
         if((signed int)pPk->hsid == 0)
-          tmp_if_expr$3 = (signed int)pPk->psid == 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (signed int)pPk->psid == 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
         {
           if(size >= 1)
           {
@@ -5918,10 +5918,10 @@ signed int MlcReverseData(struct _mud_channel *pc, signed int fd, void *buf, sig
 
           else
           {
-            struct anonymous$30 *pCmd = (struct anonymous$30 *)buf;
-            unsigned short int return_value_ntohs$2;
-            return_value_ntohs$2=ntohs(pPk->length);
-            syslog(3, "io/hpmud/mlc.c 583: invalid MlcReverseData state: exp hsid=%x, act hsid=%x, psid=%x, length=%d, credit=%d, status=%x, cmd=%x\n", pc->sockid, pPk->hsid, pPk->psid, return_value_ntohs$2, pPk->credit, pPk->status, pCmd->cmd);
+            struct anonymous_30 *pCmd = (struct anonymous_30 *)buf;
+            unsigned short int return_value_ntohs_2;
+            return_value_ntohs_2=ntohs(pPk->length);
+            syslog(3, "io/hpmud/mlc.c 583: invalid MlcReverseData state: exp hsid=%x, act hsid=%x, psid=%x, length=%d, credit=%d, status=%x, cmd=%x\n", pc->sockid, pPk->hsid, pPk->psid, return_value_ntohs_2, pPk->credit, pPk->status, pCmd->cmd);
             break;
           }
       }
@@ -5963,17 +5963,17 @@ static signed int MlcReverseReply(struct _mud_channel *pc, signed int fd, unsign
   signed int size;
   signed int pklen;
   unsigned char *pBuf;
-  struct anonymous$23 *pPk = (struct anonymous$23 *)buf;
+  struct anonymous_23 *pPk = (struct anonymous_23 *)buf;
   while((_Bool)1)
   {
     pBuf = buf;
-    size = (signed int)sizeof(struct anonymous$22) /*6ul*/ ;
+    size = (signed int)sizeof(struct anonymous_22) /*6ul*/ ;
     if(size >= 1)
     {
       len=pd->vf.read(fd, (void *)pBuf, size, 4000000);
       if(!(len >= 0))
       {
-        syslog(3, "io/hpmud/mlc.c 238: unable to read MlcReverseReply header: %m bytesRead=%zd\n", sizeof(struct anonymous$22) /*6ul*/  - (unsigned long int)size);
+        syslog(3, "io/hpmud/mlc.c 238: unable to read MlcReverseReply header: %m bytesRead=%zd\n", sizeof(struct anonymous_22) /*6ul*/  - (unsigned long int)size);
         stat = 2;
         break;
       }
@@ -5982,9 +5982,9 @@ static signed int MlcReverseReply(struct _mud_channel *pc, signed int fd, unsign
       pBuf = pBuf + (signed long int)len;
     }
 
-    unsigned short int return_value_ntohs$1;
-    return_value_ntohs$1=ntohs(pPk->h.length);
-    pklen = (signed int)return_value_ntohs$1;
+    unsigned short int return_value_ntohs_1;
+    return_value_ntohs_1=ntohs(pPk->h.length);
+    pklen = (signed int)return_value_ntohs_1;
     if(!(pklen >= 0) || !(bufsize >= pklen))
     {
       syslog(3, "io/hpmud/mlc.c 250: invalid MlcReverseReply packet size: size=%d, buf=%d\n", pklen, bufsize);
@@ -5995,10 +5995,10 @@ static signed int MlcReverseReply(struct _mud_channel *pc, signed int fd, unsign
     if(pklen == 0)
     {
       syslog(3, "io/hpmud/mlc.c 258: trying MlcReverseReply firmware hack\n");
-      memcpy((void *)buf, (const void *)&buf[(signed long int)1], sizeof(struct anonymous$22) /*6ul*/  - (unsigned long int)1);
-      unsigned short int return_value_ntohs$2;
-      return_value_ntohs$2=ntohs(pPk->h.length);
-      pklen = (signed int)return_value_ntohs$2;
+      memcpy((void *)buf, (const void *)&buf[(signed long int)1], sizeof(struct anonymous_22) /*6ul*/  - (unsigned long int)1);
+      unsigned short int return_value_ntohs_2;
+      return_value_ntohs_2=ntohs(pPk->h.length);
+      pklen = (signed int)return_value_ntohs_2;
       if(!(pklen >= 1) || !(bufsize >= pklen))
       {
         syslog(3, "io/hpmud/mlc.c 263: invalid MlcReverseReply packet size: size=%d, buf=%d\n", pklen, bufsize);
@@ -6018,13 +6018,13 @@ static signed int MlcReverseReply(struct _mud_channel *pc, signed int fd, unsign
       pBuf = pBuf + 1l;
     }
 
-    size = (signed int)((unsigned long int)pklen - sizeof(struct anonymous$22) /*6ul*/ );
+    size = (signed int)((unsigned long int)pklen - sizeof(struct anonymous_22) /*6ul*/ );
     if(size >= 1)
     {
       len=pd->vf.read(fd, (void *)pBuf, size, 45000000);
       if(!(len >= 0))
       {
-        syslog(3, "io/hpmud/mlc.c 283: unable to read MlcReverseReply data: %m exp=%zd act=%zd\n", (unsigned long int)pklen - sizeof(struct anonymous$22) /*6ul*/ , ((unsigned long int)pklen - sizeof(struct anonymous$22) /*6ul*/ ) - (unsigned long int)size);
+        syslog(3, "io/hpmud/mlc.c 283: unable to read MlcReverseReply data: %m exp=%zd act=%zd\n", (unsigned long int)pklen - sizeof(struct anonymous_22) /*6ul*/ , ((unsigned long int)pklen - sizeof(struct anonymous_22) /*6ul*/ ) - (unsigned long int)size);
         stat = 1;
         break;
       }
@@ -6058,27 +6058,27 @@ static signed int ParseFile(char *datFile, char *model, char *attr, signed int a
   signed int found = 0;
   signed int n;
   fp=fopen(datFile, "r");
-  char *return_value_fgets$1;
-  signed int return_value_strncmp$6;
+  char *return_value_fgets_1;
+  signed int return_value_strncmp_6;
   if(!(fp == ((struct _IO_FILE *)NULL)))
   {
     section[(signed long int)0] = (char)0;
     do
     {
-      return_value_fgets$1=fgets(rcbuf, (signed int)sizeof(char [255l]) /*255ul*/ , fp);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(rcbuf, (signed int)sizeof(char [255l]) /*255ul*/ , fp);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       if((signed int)rcbuf[0l] == 91)
       {
         strncpy(section, rcbuf + (signed long int)1, sizeof(char [128l]) /*128ul*/ );
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(section);
-        n = (signed int)return_value_strlen$2;
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(section);
+        n = (signed int)return_value_strlen_2;
         section[(signed long int)(n - 2)] = (char)0;
-        signed int return_value_strcasecmp$3;
-        return_value_strcasecmp$3=strcasecmp(model, section);
-        if(return_value_strcasecmp$3 == 0)
+        signed int return_value_strcasecmp_3;
+        return_value_strcasecmp_3=strcasecmp(model, section);
+        if(return_value_strcasecmp_3 == 0)
         {
           *bytes_read=ResolveAttributes(fp, attr, attrSize);
           found = 1;
@@ -6089,17 +6089,17 @@ static signed int ParseFile(char *datFile, char *model, char *attr, signed int a
 
       else
       {
-        return_value_strncmp$6=strncmp(rcbuf, "%include", (unsigned long int)8);
-        if(return_value_strncmp$6 == 0)
+        return_value_strncmp_6=strncmp(rcbuf, "%include", (unsigned long int)8);
+        if(return_value_strncmp_6 == 0)
         {
           strncpy(file, datFile, sizeof(char [128l]) /*128ul*/ );
-          char *return_value_strrstr$4;
-          return_value_strrstr$4=strrstr(file, "/");
-          n = (signed int)((return_value_strrstr$4 - file) + (signed long int)1);
+          char *return_value_strrstr_4;
+          return_value_strrstr_4=strrstr(file, "/");
+          n = (signed int)((return_value_strrstr_4 - file) + (signed long int)1);
           strncpy(file + (signed long int)n, rcbuf + (signed long int)9, sizeof(char [128l]) /*128ul*/  - (unsigned long int)n);
-          unsigned long int return_value_strlen$5;
-          return_value_strlen$5=strlen(file);
-          n = (signed int)return_value_strlen$5;
+          unsigned long int return_value_strlen_5;
+          return_value_strlen_5=strlen(file);
+          n = (signed int)return_value_strlen_5;
           file[(signed long int)(n - 1)] = (char)0;
           ParseInc(file);
         }
@@ -6124,7 +6124,7 @@ static signed int ParseInc(char *incFile)
 {
   struct _IO_FILE *fp = (struct _IO_FILE *)(void *)0;
   struct list_head *p;
-  struct anonymous$39 *pl;
+  struct anonymous_39 *pl;
   char rcbuf[255l];
   char section[128l];
   signed int stat = 1;
@@ -6132,10 +6132,10 @@ static signed int ParseInc(char *incFile)
   p = (&head.list)->next;
   for( ; !(p == &head.list); p = p->next)
   {
-    pl = (struct anonymous$39 *)((char *)p - (signed long int)(unsigned long int)&((struct anonymous$39 *)0)->list);
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(pl->incFile, incFile);
-    if(return_value_strcmp$1 == 0)
+    pl = (struct anonymous_39 *)((char *)p - (signed long int)(unsigned long int)&((struct anonymous_39 *)0)->list);
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(pl->incFile, incFile);
+    if(return_value_strcmp_1 == 0)
     {
       syslog(3, "io/hpmud/model.c 368: error duplicate include file %s\n", incFile);
       goto bugout;
@@ -6143,7 +6143,7 @@ static signed int ParseInc(char *incFile)
 
   }
   fp=fopen(incFile, "r");
-  char *return_value_fgets$2;
+  char *return_value_fgets_2;
   if(fp == ((struct _IO_FILE *)NULL))
     syslog(3, "io/hpmud/model.c 375: open %s failed: %m\n", incFile);
 
@@ -6152,16 +6152,16 @@ static signed int ParseInc(char *incFile)
     section[(signed long int)0] = (char)0;
     do
     {
-      return_value_fgets$2=fgets(rcbuf, (signed int)sizeof(char [255l]) /*255ul*/ , fp);
-      if(return_value_fgets$2 == ((char *)NULL))
+      return_value_fgets_2=fgets(rcbuf, (signed int)sizeof(char [255l]) /*255ul*/ , fp);
+      if(return_value_fgets_2 == ((char *)NULL))
         break;
 
       if((signed int)rcbuf[0l] == 91)
       {
         strncpy(section, rcbuf + (signed long int)1, sizeof(char [128l]) /*128ul*/ );
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(section);
-        n = (signed int)return_value_strlen$3;
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(section);
+        n = (signed int)return_value_strlen_3;
         section[(signed long int)(n - 2)] = (char)0;
         RegisterLabel(fp, incFile, section);
       }
@@ -6186,11 +6186,11 @@ static signed int PmlOidToHex(const char *szoid, unsigned char *oid, signed int 
   char *tail;
   signed int i = 0;
   signed int val;
-  signed long int return_value_strtol$1;
+  signed long int return_value_strtol_1;
   if(!((signed int)*szoid == 0))
   {
-    return_value_strtol$1=strtol(szoid, &tail, 10);
-    val = (signed int)return_value_strtol$1;
+    return_value_strtol_1=strtol(szoid, &tail, 10);
+    val = (signed int)return_value_strtol_1;
     while(!(i >= oidSize))
     {
       if(val >= 129)
@@ -6199,15 +6199,15 @@ static signed int PmlOidToHex(const char *szoid, unsigned char *oid, signed int 
         break;
       }
 
-      signed int tmp_post$2 = i;
+      signed int tmp_post_2 = i;
       i = i + 1;
-      oid[(signed long int)tmp_post$2] = (unsigned char)val;
+      oid[(signed long int)tmp_post_2] = (unsigned char)val;
       if((signed int)*tail == 0)
         break;
 
-      signed long int return_value_strtol$3;
-      return_value_strtol$3=strtol(tail + (signed long int)1, &tail, 10);
-      val = (signed int)return_value_strtol$3;
+      signed long int return_value_strtol_3;
+      return_value_strtol_3=strtol(tail + (signed long int)1, &tail, 10);
+      val = (signed int)return_value_strtol_3;
     }
   }
 
@@ -6221,9 +6221,9 @@ bugout:
 // file pcard/fat.c line 403
 void PrintCurrFileInfo(void)
 {
-  signed int return_value_ConvertClusterToSector$1;
-  return_value_ConvertClusterToSector$1=ConvertClusterToSector(fa.StartCluster);
-  fprintf(stdout, "%s   %d bytes (cluster %d, sector %d)", (const void *)fa.Name, fa.Size, fa.StartCluster, return_value_ConvertClusterToSector$1);
+  signed int return_value_ConvertClusterToSector_1;
+  return_value_ConvertClusterToSector_1=ConvertClusterToSector(fa.StartCluster);
+  fprintf(stdout, "%s   %d bytes (cluster %d, sector %d)", (const void *)fa.Name, fa.Size, fa.StartCluster, return_value_ConvertClusterToSector_1);
   if(!((0x10 & (signed int)fa.Attr) == 0))
     fputs(" <DIR>\n", stdout);
 
@@ -6244,8 +6244,8 @@ static signed int ReadConfig()
   signed int stat = 1;
   homedir[(signed long int)0] = (char)0;
   inFile=fopen("/etc/hp/hplip.conf", "r");
-  char *return_value_fgets$1;
-  signed int return_value_strcasecmp$3;
+  char *return_value_fgets_1;
+  signed int return_value_strcasecmp_3;
   if(inFile == ((struct _IO_FILE *)NULL))
     syslog(3, "io/hpmud/model.c 108: unable to open %s: %m\n", (const void *)"/etc/hp/hplip.conf");
 
@@ -6254,8 +6254,8 @@ static signed int ReadConfig()
     section[(signed long int)0] = (char)0;
     do
     {
-      return_value_fgets$1=fgets(rcbuf, (signed int)sizeof(char [255l]) /*255ul*/ , inFile);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(rcbuf, (signed int)sizeof(char [255l]) /*255ul*/ , inFile);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       if((signed int)rcbuf[0l] == 91)
@@ -6263,15 +6263,15 @@ static signed int ReadConfig()
 
       else
       {
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(rcbuf);
-        GetPair(rcbuf, (signed int)return_value_strlen$2, key, value, &tail);
-        signed int return_value_strncasecmp$4;
-        return_value_strncasecmp$4=strncasecmp(section, "[dirs]", (unsigned long int)6);
-        if(return_value_strncasecmp$4 == 0)
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(rcbuf);
+        GetPair(rcbuf, (signed int)return_value_strlen_2, key, value, &tail);
+        signed int return_value_strncasecmp_4;
+        return_value_strncasecmp_4=strncasecmp(section, "[dirs]", (unsigned long int)6);
+        if(return_value_strncasecmp_4 == 0)
         {
-          return_value_strcasecmp$3=strcasecmp(key, "home");
-          if(return_value_strcasecmp$3 == 0)
+          return_value_strcasecmp_3=strcasecmp(key, "home");
+          if(return_value_strcasecmp_3 == 0)
           {
             strncpy(homedir, value, sizeof(char [255l]) /*255ul*/ );
             break;
@@ -6321,54 +6321,54 @@ extern signed int ReadSector(signed int sector, signed int nsector, void *buf, s
   signed int wlen;
   signed int stat = 1;
   signed int total = 0;
-  struct anonymous$36 *pC;
-  struct anonymous$38 *pR;
+  struct anonymous_36 *pC;
+  struct anonymous_38 *pR;
   unsigned int *pSect;
   signed short int cmd = (signed short int)0x0010;
-  unsigned short int return_value_htons$1;
-  unsigned short int return_value_ntohs$4;
-  unsigned short int return_value_ntohs$5;
+  unsigned short int return_value_htons_1;
+  unsigned short int return_value_ntohs_4;
+  unsigned short int return_value_ntohs_5;
   if(!(nsector >= 1) || !(size >= 512 * nsector))
     bug("ReadSector invalid sector count=%d\n", nsector);
 
   else
   {
-    pC = (struct anonymous$36 *)message;
-    return_value_htons$1=htons((unsigned short int)cmd);
-    pC->cmd = (signed short int)return_value_htons$1;
+    pC = (struct anonymous_36 *)message;
+    return_value_htons_1=htons((unsigned short int)cmd);
+    pC->cmd = (signed short int)return_value_htons_1;
     pC->nsector=htons((unsigned short int)nsector);
-    pSect = (unsigned int *)(message + (signed long int)sizeof(struct anonymous$36) /*4ul*/ );
+    pSect = (unsigned int *)(message + (signed long int)sizeof(struct anonymous_36) /*4ul*/ );
     i = 0;
     for( ; !(i >= nsector); i = i + 1)
     {
-      unsigned int *tmp_post$2 = pSect;
+      unsigned int *tmp_post_2 = pSect;
       pSect = pSect + 1l;
-      *tmp_post$2=htonl((unsigned int)(sector + i));
+      *tmp_post_2=htonl((unsigned int)(sector + i));
     }
-    wlen = (signed int)(sizeof(struct anonymous$36) /*4ul*/  + (unsigned long int)(4 * nsector));
+    wlen = (signed int)(sizeof(struct anonymous_36) /*4ul*/  + (unsigned long int)(4 * nsector));
     hpmud_write_channel(hd, channel, (const void *)message, wlen, 45, &len);
-    memset((void *)message, 0, sizeof(struct anonymous$38) /*8ul*/ );
-    rlen = (signed int)sizeof(struct anonymous$38) /*8ul*/ ;
+    memset((void *)message, 0, sizeof(struct anonymous_38) /*8ul*/ );
+    rlen = (signed int)sizeof(struct anonymous_38) /*8ul*/ ;
     hpmud_read_channel(hd, channel, (void *)message, rlen, 45, &len);
-    pR = (struct anonymous$38 *)message;
-    return_value_ntohs$4=ntohs((unsigned short int)pR->cmd);
-    if(!((signed int)return_value_ntohs$4 == (0x0100 | (signed int)cmd)))
+    pR = (struct anonymous_38 *)message;
+    return_value_ntohs_4=ntohs((unsigned short int)pR->cmd);
+    if(!((signed int)return_value_ntohs_4 == (0x0100 | (signed int)cmd)))
     {
-      unsigned short int return_value_ntohs$3;
-      return_value_ntohs$3=ntohs((unsigned short int)pR->cmd);
-      bug("ReadSector invalid response header cmd=%x expected=%x\n", return_value_ntohs$3, (signed int)cmd | 0x0100);
+      unsigned short int return_value_ntohs_3;
+      return_value_ntohs_3=ntohs((unsigned short int)pR->cmd);
+      bug("ReadSector invalid response header cmd=%x expected=%x\n", return_value_ntohs_3, (signed int)cmd | 0x0100);
       goto bugout;
     }
 
     if(verbose >= 1)
     {
       static signed int cnt = 0;
-      signed int tmp_post$6 = cnt;
+      signed int tmp_post_6 = cnt;
       cnt = cnt + 1;
-      if(!(tmp_post$6 >= 1))
+      if(!(tmp_post_6 >= 1))
       {
-        return_value_ntohs$5=ntohs((unsigned short int)pR->ver);
-        fprintf(stderr, "photo card firmware version=%x\n", return_value_ntohs$5);
+        return_value_ntohs_5=ntohs((unsigned short int)pR->ver);
+        fprintf(stderr, "photo card firmware version=%x\n", return_value_ntohs_5);
       }
 
     }
@@ -6398,7 +6398,7 @@ bugout:
 static signed int RegisterLabel(struct _IO_FILE *fp, char *incFile, char *label)
 {
   struct list_head *p;
-  struct anonymous$39 *pl;
+  struct anonymous_39 *pl;
   char buf[4096l];
   signed int i = 0;
   signed int stat = 1;
@@ -6406,20 +6406,20 @@ static signed int RegisterLabel(struct _IO_FILE *fp, char *incFile, char *label)
   p = (&head.list)->next;
   for( ; !(p == &head.list); p = p->next)
   {
-    pl = (struct anonymous$39 *)((char *)p - (signed long int)(unsigned long int)&((struct anonymous$39 *)0)->list);
-    signed int return_value_strcasecmp$1;
-    return_value_strcasecmp$1=strcasecmp(pl->name, label);
-    if(return_value_strcasecmp$1 == 0)
+    pl = (struct anonymous_39 *)((char *)p - (signed long int)(unsigned long int)&((struct anonymous_39 *)0)->list);
+    signed int return_value_strcasecmp_1;
+    return_value_strcasecmp_1=strcasecmp(pl->name, label);
+    if(return_value_strcasecmp_1 == 0)
     {
       syslog(3, "io/hpmud/model.c 262: error duplicate label %s\n", label);
       goto bugout;
     }
 
   }
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct anonymous$39) /*48ul*/ );
-  pl = (struct anonymous$39 *)return_value_malloc$2;
-  if(pl == ((struct anonymous$39 *)NULL))
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct anonymous_39) /*48ul*/ );
+  pl = (struct anonymous_39 *)return_value_malloc_2;
+  if(pl == ((struct anonymous_39 *)NULL))
     syslog(3, "io/hpmud/model.c 269: unable to creat label record: %m\n");
 
   else
@@ -6453,9 +6453,9 @@ static signed int RegisterLabel(struct _IO_FILE *fp, char *incFile, char *label)
         {
           if(!(i >= 4096))
           {
-            signed int tmp_post$3 = i;
+            signed int tmp_post_3 = i;
             i = i + 1;
-            buf[(signed long int)tmp_post$3] = (char)ch;
+            buf[(signed long int)tmp_post_3] = (char)ch;
           }
 
           do
@@ -6469,18 +6469,18 @@ static signed int RegisterLabel(struct _IO_FILE *fp, char *incFile, char *label)
 
             if(!(i >= 4096))
             {
-              signed int tmp_post$4 = i;
+              signed int tmp_post_4 = i;
               i = i + 1;
-              buf[(signed long int)tmp_post$4] = (char)ch;
+              buf[(signed long int)tmp_post_4] = (char)ch;
             }
 
           }
           while((_Bool)1);
           if(!(i >= 4096))
           {
-            signed int tmp_post$5 = i;
+            signed int tmp_post_5 = i;
             i = i + 1;
-            buf[(signed long int)tmp_post$5] = (char)10;
+            buf[(signed long int)tmp_post_5] = (char)10;
           }
 
         }
@@ -6548,26 +6548,26 @@ static signed int ResolveAttributes(struct _IO_FILE *fp, char *attr, signed int 
 
             if(!((unsigned long int)j >= 127ul))
             {
-              signed int tmp_post$1 = j;
+              signed int tmp_post_1 = j;
               j = j + 1;
-              label[(signed long int)tmp_post$1] = (char)ch;
+              label[(signed long int)tmp_post_1] = (char)ch;
             }
 
           }
           while((_Bool)1);
           label[(signed long int)(j - 1)] = (char)0;
-          signed int return_value_CopyLabel$2;
-          return_value_CopyLabel$2=CopyLabel(label, attr + (signed long int)i, attrSize - i);
-          i = i + return_value_CopyLabel$2;
+          signed int return_value_CopyLabel_2;
+          return_value_CopyLabel_2=CopyLabel(label, attr + (signed long int)i, attrSize - i);
+          i = i + return_value_CopyLabel_2;
         }
 
         else
         {
           if(!(i >= attrSize + -1))
           {
-            signed int tmp_post$3 = i;
+            signed int tmp_post_3 = i;
             i = i + 1;
-            attr[(signed long int)tmp_post$3] = (char)ch;
+            attr[(signed long int)tmp_post_3] = (char)ch;
           }
 
           do
@@ -6581,18 +6581,18 @@ static signed int ResolveAttributes(struct _IO_FILE *fp, char *attr, signed int 
 
             if(!(i >= attrSize + -1))
             {
-              signed int tmp_post$4 = i;
+              signed int tmp_post_4 = i;
               i = i + 1;
-              attr[(signed long int)tmp_post$4] = (char)ch;
+              attr[(signed long int)tmp_post_4] = (char)ch;
             }
 
           }
           while((_Bool)1);
           if(!(i >= attrSize + -1))
           {
-            signed int tmp_post$5 = i;
+            signed int tmp_post_5 = i;
             i = i + 1;
-            attr[(signed long int)tmp_post$5] = (char)10;
+            attr[(signed long int)tmp_post_5] = (char)10;
           }
 
         }
@@ -6641,7 +6641,7 @@ static signed int SetSnmp(const char *ip, signed int port, const char *szoid, si
   session.community = (unsigned char *)SnmpPort[(signed long int)port];
   session.community_len=strlen((const char *)session.community);
   ss=snmp_open(&session);
-  signed int return_value_snmp_synch_response$1;
+  signed int return_value_snmp_synch_response_1;
   if(!(ss == ((struct snmp_session *)NULL)))
   {
     pdu=snmp_pdu_create((signed int)(unsigned char)0x80 | (signed int)(unsigned char)0x20 | 0x3);
@@ -6669,8 +6669,8 @@ static signed int SetSnmp(const char *ip, signed int port, const char *szoid, si
 
   __CPROVER_DUMP_L5:
     ;
-    return_value_snmp_synch_response$1=snmp_synch_response(ss, pdu, &response);
-    if(return_value_snmp_synch_response$1 == 0)
+    return_value_snmp_synch_response_1=snmp_synch_response(ss, pdu, &response);
+    if(return_value_snmp_synch_response_1 == 0)
     {
       if(response->errstat == 0l)
         len = size;
@@ -6738,44 +6738,44 @@ static signed int SnmpErrorToPml(signed int snmp_error)
 static signed int SnmpToPml(const char *snmp_oid, unsigned char *oid, signed int oidSize)
 {
   signed int len = 0;
-  signed int return_value_strncmp$6;
+  signed int return_value_strncmp_6;
   static const char hp_pml_mib_prefix[25l] = { '1', '.', '3', '.', '6', '.', '1', '.', '4', '.', '1', '.', '1', '1', '.', '2', '.', '3', '.', '9', '.', '4', '.', '2', 0 };
-  return_value_strncmp$6=strncmp(snmp_oid, hp_pml_mib_prefix, sizeof(const char [25l]) /*25ul*/  - (unsigned long int)1);
-  signed int return_value_strncmp$5;
-  signed int return_value_strncmp$4;
-  if(return_value_strncmp$6 == 0)
+  return_value_strncmp_6=strncmp(snmp_oid, hp_pml_mib_prefix, sizeof(const char [25l]) /*25ul*/  - (unsigned long int)1);
+  signed int return_value_strncmp_5;
+  signed int return_value_strncmp_4;
+  if(return_value_strncmp_6 == 0)
   {
     len = 0;
-    signed int return_value_PmlOidToHex$1;
-    return_value_PmlOidToHex$1=PmlOidToHex(&snmp_oid[(signed long int)sizeof(const char [25l]) /*25ul*/ ], &oid[(signed long int)0], oidSize);
-    len = len + return_value_PmlOidToHex$1;
+    signed int return_value_PmlOidToHex_1;
+    return_value_PmlOidToHex_1=PmlOidToHex(&snmp_oid[(signed long int)sizeof(const char [25l]) /*25ul*/ ], &oid[(signed long int)0], oidSize);
+    len = len + return_value_PmlOidToHex_1;
     len = len - 1;
   }
 
   else
   {
     static const char standard_printer_mib_prefix[15l] = { '1', '.', '3', '.', '6', '.', '1', '.', '2', '.', '1', '.', '4', '3', 0 };
-    return_value_strncmp$5=strncmp(snmp_oid, standard_printer_mib_prefix, sizeof(const char [15l]) /*15ul*/  - (unsigned long int)1);
-    if(return_value_strncmp$5 == 0)
+    return_value_strncmp_5=strncmp(snmp_oid, standard_printer_mib_prefix, sizeof(const char [15l]) /*15ul*/  - (unsigned long int)1);
+    if(return_value_strncmp_5 == 0)
     {
       len = 1;
       oid[(signed long int)0] = (unsigned char)0x2;
-      signed int return_value_PmlOidToHex$2;
-      return_value_PmlOidToHex$2=PmlOidToHex(&snmp_oid[(signed long int)sizeof(const char [15l]) /*15ul*/ ], &oid[(signed long int)1], oidSize);
-      len = len + return_value_PmlOidToHex$2;
+      signed int return_value_PmlOidToHex_2;
+      return_value_PmlOidToHex_2=PmlOidToHex(&snmp_oid[(signed long int)sizeof(const char [15l]) /*15ul*/ ], &oid[(signed long int)1], oidSize);
+      len = len + return_value_PmlOidToHex_2;
     }
 
     else
     {
       static const char host_resource_mib_prefix[15l] = { '1', '.', '3', '.', '6', '.', '1', '.', '2', '.', '1', '.', '2', '5', 0 };
-      return_value_strncmp$4=strncmp(snmp_oid, host_resource_mib_prefix, sizeof(const char [15l]) /*15ul*/  - (unsigned long int)1);
-      if(return_value_strncmp$4 == 0)
+      return_value_strncmp_4=strncmp(snmp_oid, host_resource_mib_prefix, sizeof(const char [15l]) /*15ul*/  - (unsigned long int)1);
+      if(return_value_strncmp_4 == 0)
       {
         len = 1;
         oid[(signed long int)0] = (unsigned char)0x3;
-        signed int return_value_PmlOidToHex$3;
-        return_value_PmlOidToHex$3=PmlOidToHex(&snmp_oid[(signed long int)sizeof(const char [15l]) /*15ul*/ ], &oid[(signed long int)1], oidSize);
-        len = len + return_value_PmlOidToHex$3;
+        signed int return_value_PmlOidToHex_3;
+        return_value_PmlOidToHex_3=PmlOidToHex(&snmp_oid[(signed long int)sizeof(const char [15l]) /*15ul*/ ], &oid[(signed long int)1], oidSize);
+        len = len + return_value_PmlOidToHex_3;
       }
 
       else
@@ -6787,7 +6787,7 @@ static signed int SnmpToPml(const char *snmp_oid, unsigned char *oid, signed int
 
 // UnRegisterLabel
 // file io/hpmud/model.c line 325
-static signed int UnRegisterLabel(struct anonymous$39 *pl)
+static signed int UnRegisterLabel(struct anonymous_39 *pl)
 {
   if(!(pl->incFile == ((char *)NULL)))
     free((void *)pl->incFile);
@@ -6811,15 +6811,15 @@ signed int UpdateFat(void)
   unsigned char *p12 = (unsigned char *)(void *)0;
   signed int i;
   signed int total = 0;
-  signed int return_value_strcmp$6;
-  return_value_strcmp$6=strcmp((char *)bpb.SystemID, "FAT12");
-  signed int return_value_writesect$2;
-  signed int return_value_writesect$4;
-  if(return_value_strcmp$6 == 0)
+  signed int return_value_strcmp_6;
+  return_value_strcmp_6=strcmp((char *)bpb.SystemID, "FAT12");
+  signed int return_value_writesect_2;
+  signed int return_value_writesect_4;
+  if(return_value_strcmp_6 == 0)
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)da.Fat12Size);
-    p12 = (unsigned char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)da.Fat12Size);
+    p12 = (unsigned char *)return_value_malloc_1;
     if(p12 == ((unsigned char *)NULL))
       goto bugout;
 
@@ -6827,12 +6827,12 @@ signed int UpdateFat(void)
     i = 0;
     for( ; !(i >= (signed int)bpb.SectorsPerFat); i = i + 1)
     {
-      signed int return_value_memcmp$3;
-      return_value_memcmp$3=memcmp((const void *)(p12 + (signed long int)total), (const void *)(da.Fat12 + (signed long int)total), (unsigned long int)512);
-      if(!(return_value_memcmp$3 == 0))
+      signed int return_value_memcmp_3;
+      return_value_memcmp_3=memcmp((const void *)(p12 + (signed long int)total), (const void *)(da.Fat12 + (signed long int)total), (unsigned long int)512);
+      if(!(return_value_memcmp_3 == 0))
       {
-        return_value_writesect$2=writesect(da.FatStartSector + i, 1, (void *)(p12 + (signed long int)total), 512);
-        if(!(return_value_writesect$2 == 0))
+        return_value_writesect_2=writesect(da.FatStartSector + i, 1, (void *)(p12 + (signed long int)total), 512);
+        if(!(return_value_writesect_2 == 0))
           goto bugout;
 
       }
@@ -6846,12 +6846,12 @@ signed int UpdateFat(void)
     i = 0;
     for( ; !(i >= (signed int)bpb.SectorsPerFat); i = i + 1)
     {
-      signed int return_value_memcmp$5;
-      return_value_memcmp$5=memcmp((const void *)(da.Fat + (signed long int)total), (const void *)(da.Fat16 + (signed long int)total), (unsigned long int)512);
-      if(!(return_value_memcmp$5 == 0))
+      signed int return_value_memcmp_5;
+      return_value_memcmp_5=memcmp((const void *)(da.Fat + (signed long int)total), (const void *)(da.Fat16 + (signed long int)total), (unsigned long int)512);
+      if(!(return_value_memcmp_5 == 0))
       {
-        return_value_writesect$4=writesect(da.FatStartSector + i, 1, (void *)(da.Fat + (signed long int)total), 512);
-        if(!(return_value_writesect$4 == 0))
+        return_value_writesect_4=writesect(da.FatStartSector + i, 1, (void *)(da.Fat + (signed long int)total), 512);
+        if(!(return_value_writesect_4 == 0))
           goto bugout;
 
       }
@@ -6878,40 +6878,40 @@ extern signed int WriteSector(signed int sector, signed int nsector, void *buf, 
   signed int len;
   signed int wlen;
   signed int stat = 1;
-  struct anonymous$37 *pC;
+  struct anonymous_37 *pC;
   unsigned int *pSect;
   signed short int response = (signed short int)0;
   signed short int cmd = (signed short int)0x0020;
-  unsigned short int return_value_htons$1;
-  unsigned short int return_value_ntohs$4;
+  unsigned short int return_value_htons_1;
+  unsigned short int return_value_ntohs_4;
   if(!(nsector >= 1) || !(size >= 512 * nsector))
     bug("WriteSector invalid sector count=%d\n", nsector);
 
   else
   {
-    pC = (struct anonymous$37 *)message;
-    return_value_htons$1=htons((unsigned short int)cmd);
-    pC->cmd = (signed short int)return_value_htons$1;
+    pC = (struct anonymous_37 *)message;
+    return_value_htons_1=htons((unsigned short int)cmd);
+    pC->cmd = (signed short int)return_value_htons_1;
     pC->nsector=htons((unsigned short int)nsector);
     pC->cs = (signed short int)0;
-    pSect = (unsigned int *)(message + (signed long int)sizeof(struct anonymous$37) /*6ul*/ );
+    pSect = (unsigned int *)(message + (signed long int)sizeof(struct anonymous_37) /*6ul*/ );
     i = 0;
     for( ; !(i >= nsector); i = i + 1)
     {
-      unsigned int *tmp_post$2 = pSect;
+      unsigned int *tmp_post_2 = pSect;
       pSect = pSect + 1l;
-      *tmp_post$2=htonl((unsigned int)(sector + i));
+      *tmp_post_2=htonl((unsigned int)(sector + i));
     }
-    wlen = (signed int)(sizeof(struct anonymous$37) /*6ul*/  + (unsigned long int)(4 * nsector));
+    wlen = (signed int)(sizeof(struct anonymous_37) /*6ul*/  + (unsigned long int)(4 * nsector));
     hpmud_write_channel(hd, channel, (const void *)message, wlen, 45, &len);
     hpmud_write_channel(hd, channel, buf, size, 45, &len);
     hpmud_read_channel(hd, channel, (void *)&response, (signed int)sizeof(signed short int) /*2ul*/ , 45, &len);
-    return_value_ntohs$4=ntohs((unsigned short int)response);
-    if(!((signed int)return_value_ntohs$4 == 0x0100))
+    return_value_ntohs_4=ntohs((unsigned short int)response);
+    if(!((signed int)return_value_ntohs_4 == 0x0100))
     {
-      unsigned short int return_value_ntohs$3;
-      return_value_ntohs$3=ntohs((unsigned short int)response);
-      bug("WriteSector invalid response cmd=%x expected=%x\n", return_value_ntohs$3, 0x0100);
+      unsigned short int return_value_ntohs_3;
+      return_value_ntohs_3=ntohs((unsigned short int)response);
+      bug("WriteSector invalid response cmd=%x expected=%x\n", return_value_ntohs_3, 0x0100);
       goto bugout;
     }
 
@@ -6954,9 +6954,9 @@ char * basename(const char *path)
 
 // bridge_chip_down
 // file io/hpmud/musb.c line 319
-static signed int bridge_chip_down(struct anonymous$21 *pfd)
+static signed int bridge_chip_down(struct anonymous_21 *pfd)
 {
-  struct libusb_device_handle *bridge_chip_down$$1$$hd;
+  struct libusb_device_handle *bridge_chip_down__1__hd;
   signed int len;
   signed int stat = 1;
   if(pfd->hd == ((struct libusb_device_handle *)NULL))
@@ -6964,8 +6964,8 @@ static signed int bridge_chip_down(struct anonymous$21 *pfd)
 
   else
   {
-    bridge_chip_down$$1$$hd = pfd->hd;
-    len=libusb_control_transfer(bridge_chip_down$$1$$hd, (unsigned char)(LIBUSB_ENDPOINT_OUT | 64 | 0), (unsigned char)0x04, (unsigned short int)0x080f, (unsigned short int)0, (unsigned char *)(void *)0, (unsigned short int)0, (unsigned int)5000);
+    bridge_chip_down__1__hd = pfd->hd;
+    len=libusb_control_transfer(bridge_chip_down__1__hd, (unsigned char)(LIBUSB_ENDPOINT_OUT | 64 | 0), (unsigned char)0x04, (unsigned short int)0x080f, (unsigned short int)0, (unsigned char *)(void *)0, (unsigned short int)0, (unsigned int)5000);
     if(!(len >= 0))
       syslog(3, "io/hpmud/musb.c 340: invalid write_bridge_up: %m\n");
 
@@ -6980,9 +6980,9 @@ bugout:
 
 // bridge_chip_up
 // file io/hpmud/musb.c line 221
-static signed int bridge_chip_up(struct anonymous$21 *pfd)
+static signed int bridge_chip_up(struct anonymous_21 *pfd)
 {
-  struct libusb_device_handle *bridge_chip_up$$1$$hd;
+  struct libusb_device_handle *bridge_chip_up__1__hd;
   signed int len;
   signed int stat = 1;
   unsigned char buf[9l];
@@ -6992,9 +6992,9 @@ static signed int bridge_chip_up(struct anonymous$21 *pfd)
 
   else
   {
-    bridge_chip_up$$1$$hd = pfd->hd;
+    bridge_chip_up__1__hd = pfd->hd;
     memset((void *)buf, 0, sizeof(unsigned char [9l]) /*9ul*/ );
-    len=libusb_control_transfer(bridge_chip_up$$1$$hd, (unsigned char)(LIBUSB_ENDPOINT_IN | 64 | 0), (unsigned char)3, (unsigned short int)0, (unsigned short int)0, buf, (unsigned short int)sizeof(unsigned char [9l]) /*9ul*/ , (unsigned int)5000);
+    len=libusb_control_transfer(bridge_chip_up__1__hd, (unsigned char)(LIBUSB_ENDPOINT_IN | 64 | 0), (unsigned char)3, (unsigned short int)0, (unsigned short int)0, buf, (unsigned short int)sizeof(unsigned char [9l]) /*9ul*/ , (unsigned int)5000);
     if(!(len >= 0))
       syslog(3, "io/hpmud/musb.c 247: invalid write_bridge_up: %m\n");
 
@@ -7002,19 +7002,19 @@ static signed int bridge_chip_up(struct anonymous$21 *pfd)
     {
       if(!((signed int)buf[2l] == 0x43))
       {
-        len=libusb_control_transfer(bridge_chip_up$$1$$hd, (unsigned char)(LIBUSB_ENDPOINT_OUT | 64 | 0), (unsigned char)0x04, (unsigned short int)0x0758, (unsigned short int)0, (unsigned char *)(void *)0, (unsigned short int)0, (unsigned int)5000);
-        len=libusb_control_transfer(bridge_chip_up$$1$$hd, (unsigned char)(LIBUSB_ENDPOINT_OUT | 64 | 0), (unsigned char)0x04, (unsigned short int)0x0a1d, (unsigned short int)0, (unsigned char *)(void *)0, (unsigned short int)0, (unsigned int)5000);
-        len=libusb_control_transfer(bridge_chip_up$$1$$hd, (unsigned char)(LIBUSB_ENDPOINT_OUT | 64 | 0), (unsigned char)0x04, (unsigned short int)0x0759, (unsigned short int)0, (unsigned char *)(void *)0, (unsigned short int)0, (unsigned int)5000);
-        len=libusb_control_transfer(bridge_chip_up$$1$$hd, (unsigned char)(LIBUSB_ENDPOINT_OUT | 64 | 0), (unsigned char)0x04, (unsigned short int)0x0817, (unsigned short int)0, (unsigned char *)(void *)0, (unsigned short int)0, (unsigned int)5000);
-        len=libusb_control_transfer(bridge_chip_up$$1$$hd, (unsigned char)(LIBUSB_ENDPOINT_IN | 64 | 0), (unsigned char)3, (unsigned short int)0, (unsigned short int)0, buf, (unsigned short int)sizeof(unsigned char [9l]) /*9ul*/ , (unsigned int)5000);
+        len=libusb_control_transfer(bridge_chip_up__1__hd, (unsigned char)(LIBUSB_ENDPOINT_OUT | 64 | 0), (unsigned char)0x04, (unsigned short int)0x0758, (unsigned short int)0, (unsigned char *)(void *)0, (unsigned short int)0, (unsigned int)5000);
+        len=libusb_control_transfer(bridge_chip_up__1__hd, (unsigned char)(LIBUSB_ENDPOINT_OUT | 64 | 0), (unsigned char)0x04, (unsigned short int)0x0a1d, (unsigned short int)0, (unsigned char *)(void *)0, (unsigned short int)0, (unsigned int)5000);
+        len=libusb_control_transfer(bridge_chip_up__1__hd, (unsigned char)(LIBUSB_ENDPOINT_OUT | 64 | 0), (unsigned char)0x04, (unsigned short int)0x0759, (unsigned short int)0, (unsigned char *)(void *)0, (unsigned short int)0, (unsigned int)5000);
+        len=libusb_control_transfer(bridge_chip_up__1__hd, (unsigned char)(LIBUSB_ENDPOINT_OUT | 64 | 0), (unsigned char)0x04, (unsigned short int)0x0817, (unsigned short int)0, (unsigned char *)(void *)0, (unsigned short int)0, (unsigned int)5000);
+        len=libusb_control_transfer(bridge_chip_up__1__hd, (unsigned char)(LIBUSB_ENDPOINT_IN | 64 | 0), (unsigned char)3, (unsigned short int)0, (unsigned short int)0, buf, (unsigned short int)sizeof(unsigned char [9l]) /*9ul*/ , (unsigned int)5000);
         if(!((signed int)buf[2l] == 0x43))
           syslog(3, "io/hpmud/musb.c 291: invalid auto ecp mode mode=%d\n", buf[(signed long int)2]);
 
       }
 
-      len=libusb_control_transfer(bridge_chip_up$$1$$hd, (unsigned char)(LIBUSB_ENDPOINT_OUT | 64 | 0), (unsigned char)0x04, (unsigned short int)0x05ce, (unsigned short int)0, (unsigned char *)(void *)0, (unsigned short int)0, (unsigned int)5000);
+      len=libusb_control_transfer(bridge_chip_up__1__hd, (unsigned char)(LIBUSB_ENDPOINT_OUT | 64 | 0), (unsigned char)0x04, (unsigned short int)0x05ce, (unsigned short int)0, (unsigned char *)(void *)0, (unsigned short int)0, (unsigned int)5000);
       musb_write((signed int)pfd->fd, (const void *)&nullByte, 1, 45000000);
-      len=libusb_control_transfer(bridge_chip_up$$1$$hd, (unsigned char)(LIBUSB_ENDPOINT_OUT | 64 | 0), (unsigned char)0x04, (unsigned short int)0x05cd, (unsigned short int)0, (unsigned char *)(void *)0, (unsigned short int)0, (unsigned int)5000);
+      len=libusb_control_transfer(bridge_chip_up__1__hd, (unsigned char)(LIBUSB_ENDPOINT_OUT | 64 | 0), (unsigned char)0x04, (unsigned short int)0x05cd, (unsigned short int)0, (unsigned char *)(void *)0, (unsigned short int)0, (unsigned int)5000);
       stat = 0;
     }
   }
@@ -7050,13 +7050,13 @@ static signed int claim_id_interface(struct libusb_device *dev)
   enum FD_ID i = (enum FD_ID)FD_7_1_2;
   for( ; !((signed int)i == MAX_FD); i = (enum FD_ID)((signed int)i + 1))
   {
-    signed int return_value_get_interface$2;
-    return_value_get_interface$2=get_interface(dev, i, &fd_table[(signed long int)i]);
-    if(return_value_get_interface$2 == 0)
+    signed int return_value_get_interface_2;
+    return_value_get_interface_2=get_interface(dev, i, &fd_table[(signed long int)i]);
+    if(return_value_get_interface_2 == 0)
     {
-      signed int return_value_claim_interface$1;
-      return_value_claim_interface$1=claim_interface(dev, &fd_table[(signed long int)i]);
-      if(!(return_value_claim_interface$1 == 0))
+      signed int return_value_claim_interface_1;
+      return_value_claim_interface_1=claim_interface(dev, &fd_table[(signed long int)i]);
+      if(!(return_value_claim_interface_1 == 0))
         goto __CPROVER_DUMP_L3;
 
       break;
@@ -7071,10 +7071,10 @@ static signed int claim_id_interface(struct libusb_device *dev)
 
 // claim_interface
 // file io/hpmud/musb.c line 496
-static signed int claim_interface(struct libusb_device *dev, struct anonymous$21 *pfd)
+static signed int claim_interface(struct libusb_device *dev, struct anonymous_21 *pfd)
 {
   signed int stat = 1;
-  signed int return_value_libusb_claim_interface$1;
+  signed int return_value_libusb_claim_interface_1;
   if(!(pfd->hd == ((struct libusb_device_handle *)NULL)))
     return 0;
 
@@ -7087,8 +7087,8 @@ static signed int claim_interface(struct libusb_device *dev, struct anonymous$21
     else
     {
       detach(pfd->hd, pfd->interface);
-      return_value_libusb_claim_interface$1=libusb_claim_interface(pfd->hd, pfd->interface);
-      if(!(return_value_libusb_claim_interface$1 == 0))
+      return_value_libusb_claim_interface_1=libusb_claim_interface(pfd->hd, pfd->interface);
+      if(!(return_value_libusb_claim_interface_1 == 0))
       {
         libusb_close(pfd->hd);
         pfd->hd = (struct libusb_device_handle *)(void *)0;
@@ -7099,9 +7099,9 @@ static signed int claim_interface(struct libusb_device *dev, struct anonymous$21
       {
         if(!(pfd->alt_setting == 0))
         {
-          signed int return_value_libusb_set_interface_alt_setting$2;
-          return_value_libusb_set_interface_alt_setting$2=libusb_set_interface_alt_setting(pfd->hd, pfd->interface, pfd->alt_setting);
-          if(!(return_value_libusb_set_interface_alt_setting$2 == 0))
+          signed int return_value_libusb_set_interface_alt_setting_2;
+          return_value_libusb_set_interface_alt_setting_2=libusb_set_interface_alt_setting(pfd->hd, pfd->interface, pfd->alt_setting);
+          if(!(return_value_libusb_set_interface_alt_setting_2 == 0))
           {
             libusb_release_interface(pfd->hd, pfd->interface);
             libusb_close(pfd->hd);
@@ -7113,8 +7113,8 @@ static signed int claim_interface(struct libusb_device *dev, struct anonymous$21
         }
 
         pfd->write_active = 0;
-        pthread_mutex_init(&pfd->mutex, (const union anonymous$31 *)(void *)0);
-        pthread_cond_init(&pfd->write_done_cond, (const union anonymous$31 *)(void *)0);
+        pthread_mutex_init(&pfd->mutex, (const union anonymous_31 *)(void *)0);
+        pthread_cond_init(&pfd->write_done_cond, (const union anonymous_31 *)(void *)0);
         syslog(6, "io/hpmud/musb.c 535: claimed %s interface\n", fd_name[(signed long int)pfd->fd]);
         stat = 0;
       }
@@ -7131,9 +7131,9 @@ static signed int claim_interface(struct libusb_device *dev, struct anonymous$21
 static signed int claim_pp(signed int fd)
 {
   signed int stat = 1;
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x8b << 0) | (unsigned int)(0 << 0 + 8 + 8)));
-  if(!(return_value_ioctl$1 == 0))
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x8b << 0) | (unsigned int)(0 << 0 + 8 + 8)));
+  if(!(return_value_ioctl_1 == 0))
     syslog(3, "io/hpmud/pp.c 585: failed claim_pp fd=%d: %m\n", fd);
 
   else
@@ -7160,9 +7160,9 @@ static signed int compat_write(signed int fd, const void *buffer, signed int siz
 
   else
   {
-    signed int return_value_ioctl$1;
-    return_value_ioctl$1=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x91 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &m);
-    if(!(return_value_ioctl$1 == 0))
+    signed int return_value_ioctl_1;
+    return_value_ioctl_1=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x91 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &m);
+    if(!(return_value_ioctl_1 == 0))
       syslog(3, "io/hpmud/pp.c 558: compat_write failed: %m\n");
 
     else
@@ -7170,9 +7170,9 @@ static signed int compat_write(signed int fd, const void *buffer, signed int siz
       i = 0;
       for( ; !(i >= size); i = i + 1)
       {
-        signed int return_value_compat_write_data$2;
-        return_value_compat_write_data$2=compat_write_data(fd, p[(signed long int)i]);
-        if(!(return_value_compat_write_data$2 == 1))
+        signed int return_value_compat_write_data_2;
+        return_value_compat_write_data_2=compat_write_data(fd, p[(signed long int)i]);
+        if(!(return_value_compat_write_data_2 == 1))
         {
           if(!(i == 0))
             timeout = 1;
@@ -7196,10 +7196,10 @@ static signed int compat_write(signed int fd, const void *buffer, signed int siz
 static signed int compat_write_data(signed int fd, unsigned char data)
 {
   signed int len = 0;
-  signed int return_value_wait_status$1;
-  return_value_wait_status$1=wait_status(fd, (unsigned char)0x80, (unsigned char)0, 30000000);
-  signed int return_value_wait_status$2;
-  if(!(return_value_wait_status$1 == 0))
+  signed int return_value_wait_status_1;
+  return_value_wait_status_1=wait_status(fd, (unsigned char)0x80, (unsigned char)0, 30000000);
+  signed int return_value_wait_status_2;
+  if(!(return_value_wait_status_1 == 0))
     syslog(3, "io/hpmud/pp.c 517: compat_write_data transfer stalled\n");
 
   else
@@ -7207,8 +7207,8 @@ static signed int compat_write_data(signed int fd, unsigned char data)
     ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x86 << 0)) | sizeof(unsigned char) /*1ul*/  << 0 + 8 + 8, &data);
     wait(10);
     frob_control(fd, (unsigned char)0x1, (unsigned char)0);
-    return_value_wait_status$2=wait_status(fd, (unsigned char)0x80, (unsigned char)0x80, 100000);
-    if(!(return_value_wait_status$2 == 0))
+    return_value_wait_status_2=wait_status(fd, (unsigned char)0x80, (unsigned char)0x80, 100000);
+    if(!(return_value_wait_status_2 == 0))
       syslog(3, "io/hpmud/pp.c 530: compat_write_data transfer stalled\n");
 
     else
@@ -7228,13 +7228,13 @@ bugout:
 signed int createTempFile(char *szFileName, struct _IO_FILE **pFilePtr)
 {
   signed int iFD = -1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(szFileName == ((char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)szFileName[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  if(pFilePtr == ((struct _IO_FILE **)NULL) || tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)szFileName[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  if(pFilePtr == ((struct _IO_FILE **)NULL) || tmp_if_expr_1)
   {
     syslog(3, "common/utils.c 229: Invalid Filename/ pointer\n");
     return 0;
@@ -7242,21 +7242,21 @@ signed int createTempFile(char *szFileName, struct _IO_FILE **pFilePtr)
 
   else
   {
-    char *return_value_strstr$2;
-    return_value_strstr$2=strstr(szFileName, "XXXXXX");
-    if(return_value_strstr$2 == ((char *)NULL))
+    char *return_value_strstr_2;
+    return_value_strstr_2=strstr(szFileName, "XXXXXX");
+    if(return_value_strstr_2 == ((char *)NULL))
       strcat(szFileName, "_XXXXXX");
 
     iFD=mkstemp(szFileName);
     if(iFD == -1)
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      syslog(3, "common/utils.c 239: Failed to create the temp file Name[%s] errno[%d : %s]\n", szFileName, *return_value___errno_location$3, return_value_strerror$5);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      syslog(3, "common/utils.c 239: Failed to create the temp file Name[%s] errno[%d : %s]\n", szFileName, *return_value___errno_location_3, return_value_strerror_5);
       return 0;
     }
 
@@ -7300,26 +7300,26 @@ static signed int del_channel(struct _mud_device *pd, struct _mud_channel *pc)
   return 0;
 }
 
-// del_channel$link1
+// del_channel_link1
 // file io/hpmud/pp.c line 711
-static signed int del_channel$link1(struct _mud_device *pd$link1, struct _mud_channel *pc$link1)
+static signed int del_channel_link1(struct _mud_device *pd_link1, struct _mud_channel *pc_link1)
 {
-  pc$link1->client_cnt = pc$link1->client_cnt - 1;
-  if(!(pc$link1->client_cnt >= 1))
-    pd$link1->channel_cnt = pd$link1->channel_cnt - 1;
+  pc_link1->client_cnt = pc_link1->client_cnt - 1;
+  if(!(pc_link1->client_cnt >= 1))
+    pd_link1->channel_cnt = pd_link1->channel_cnt - 1;
 
   return 0;
 }
 
-// del_channel$link2
+// del_channel_link2
 // file io/hpmud/musb.c line 967
-static signed int del_channel$link2(struct _mud_device *pd$link2, struct _mud_channel *pc$link2)
+static signed int del_channel_link2(struct _mud_device *pd_link2, struct _mud_channel *pc_link2)
 {
-  pc$link2->client_cnt = pc$link2->client_cnt - 1;
-  if(!(pc$link2->client_cnt >= 1))
-    pd$link2->channel_cnt = pd$link2->channel_cnt - 1;
+  pc_link2->client_cnt = pc_link2->client_cnt - 1;
+  if(!(pc_link2->client_cnt >= 1))
+    pd_link2->channel_cnt = pd_link2->channel_cnt - 1;
 
-  syslog(6, "io/hpmud/musb.c 975: removed %s channel=%d clientCnt=%d channelCnt=%d\n", (const void *)pc$link2->sn, pc$link2->index, pc$link2->client_cnt, pd$link2->channel_cnt);
+  syslog(6, "io/hpmud/musb.c 975: removed %s channel=%d clientCnt=%d channelCnt=%d\n", (const void *)pc_link2->sn, pc_link2->index, pc_link2->client_cnt, pd_link2->channel_cnt);
   return 0;
 }
 
@@ -7354,11 +7354,11 @@ static signed int detach(struct libusb_device_handle *hd, signed int interface)
 
 // device_cleanup
 // file io/hpmud/hpmud.c line 364
-signed int device_cleanup(struct anonymous$29 *ps)
+signed int device_cleanup(struct anonymous_29 *ps)
 {
   signed int i;
   signed int dd = 1;
-  if(ps == ((struct anonymous$29 *)NULL))
+  if(ps == ((struct anonymous_29 *)NULL))
     return 0;
 
   else
@@ -7406,81 +7406,81 @@ static signed int device_id(const char *iporhostname, signed int port, char *buf
   return len;
 }
 
-// device_id$link1
+// device_id_link1
 // file io/hpmud/pp.c line 618
-static signed int device_id$link1(signed int fd, char *buffer$link1, signed int size$link1)
+static signed int device_id_link1(signed int fd, char *buffer_link1, signed int size_link1)
 {
-  signed int len$link1 = 0;
-  signed int maxSize$link1 = size$link1 > 1024 ? 1024 : size$link1;
-  len$link1=nibble_read(fd, 1 << 2, (void *)buffer$link1, maxSize$link1, 0);
-  if(!(len$link1 >= 0))
+  signed int len_link1 = 0;
+  signed int maxSize_link1 = size_link1 > 1024 ? 1024 : size_link1;
+  len_link1=nibble_read(fd, 1 << 2, (void *)buffer_link1, maxSize_link1, 0);
+  if(!(len_link1 >= 0))
   {
-    syslog(3, "io/hpmud/pp.c 627: unable to read device-id ret=%d\n", len$link1);
-    len$link1 = 0;
+    syslog(3, "io/hpmud/pp.c 627: unable to read device-id ret=%d\n", len_link1);
+    len_link1 = 0;
   }
 
   else
   {
-    if(!(size$link1 + -1 >= len$link1))
-      len$link1 = size$link1 - 1;
+    if(!(size_link1 + -1 >= len_link1))
+      len_link1 = size_link1 - 1;
 
-    if(len$link1 >= 3)
-      len$link1 = len$link1 - 2;
+    if(len_link1 >= 3)
+      len_link1 = len_link1 - 2;
 
-    memcpy((void *)buffer$link1, (const void *)(buffer$link1 + (signed long int)2), (unsigned long int)len$link1);
-    buffer$link1[(signed long int)len$link1] = (char)0;
+    memcpy((void *)buffer_link1, (const void *)(buffer_link1 + (signed long int)2), (unsigned long int)len_link1);
+    buffer_link1[(signed long int)len_link1] = (char)0;
   }
 
 bugout:
   ;
-  return len$link1;
+  return len_link1;
 }
 
-// device_id$link2
+// device_id_link2
 // file io/hpmud/musb.c line 741
-static signed int device_id$link2(signed int fd$link1, unsigned char *buffer$link2, signed int size$link2)
+static signed int device_id_link2(signed int fd_link1, unsigned char *buffer_link2, signed int size_link2)
 {
-  struct libusb_device_handle *device_id$$1$$hd;
+  struct libusb_device_handle *device_id__1__hd;
   signed int config;
   signed int interface;
   signed int alt;
-  signed int len$link2 = 0;
+  signed int len_link2 = 0;
   signed int rlen;
-  signed int maxSize$link2;
-  device_id$$1$$hd = fd_table[(signed long int)fd$link1].hd;
-  config = fd_table[(signed long int)fd$link1].config;
-  interface = fd_table[(signed long int)fd$link1].interface;
-  alt = fd_table[(signed long int)fd$link1].alt_setting;
-  unsigned short int return_value_ntohs$1;
-  if(device_id$$1$$hd == ((struct libusb_device_handle *)NULL))
+  signed int maxSize_link2;
+  device_id__1__hd = fd_table[(signed long int)fd_link1].hd;
+  config = fd_table[(signed long int)fd_link1].config;
+  interface = fd_table[(signed long int)fd_link1].interface;
+  alt = fd_table[(signed long int)fd_link1].alt_setting;
+  unsigned short int return_value_ntohs_1;
+  if(device_id__1__hd == ((struct libusb_device_handle *)NULL))
     syslog(3, "io/hpmud/musb.c 754: invalid device_id state\n");
 
   else
   {
-    maxSize$link2 = size$link2 > 1024 ? 1024 : size$link2;
-    rlen=libusb_control_transfer(device_id$$1$$hd, (unsigned char)(LIBUSB_ENDPOINT_IN | 32 | 1), (unsigned char)0, (unsigned short int)config, (unsigned short int)interface, buffer$link2, (unsigned short int)maxSize$link2, (unsigned int)5000);
+    maxSize_link2 = size_link2 > 1024 ? 1024 : size_link2;
+    rlen=libusb_control_transfer(device_id__1__hd, (unsigned char)(LIBUSB_ENDPOINT_IN | 32 | 1), (unsigned char)0, (unsigned short int)config, (unsigned short int)interface, buffer_link2, (unsigned short int)maxSize_link2, (unsigned int)5000);
     if(!(rlen >= 0))
       syslog(3, "io/hpmud/musb.c 769: invalid deviceid ret=%d: %m\n", rlen);
 
     else
     {
-      return_value_ntohs$1=ntohs((unsigned short int)*((signed short int *)buffer$link2));
-      len$link2 = (signed int)return_value_ntohs$1;
-      if(!(size$link2 + -1 >= len$link2))
-        len$link2 = size$link2 - 1;
+      return_value_ntohs_1=ntohs((unsigned short int)*((signed short int *)buffer_link2));
+      len_link2 = (signed int)return_value_ntohs_1;
+      if(!(size_link2 + -1 >= len_link2))
+        len_link2 = size_link2 - 1;
 
-      if(len$link2 >= 3)
-        len$link2 = len$link2 - 2;
+      if(len_link2 >= 3)
+        len_link2 = len_link2 - 2;
 
-      memcpy((void *)buffer$link2, (const void *)(buffer$link2 + (signed long int)2), (unsigned long int)len$link2);
-      buffer$link2[(signed long int)len$link2] = (unsigned char)0;
-      syslog(6, "io/hpmud/musb.c 780: read actual device_id successfully fd=%d len=%d\n", fd$link1, len$link2);
+      memcpy((void *)buffer_link2, (const void *)(buffer_link2 + (signed long int)2), (unsigned long int)len_link2);
+      buffer_link2[(signed long int)len_link2] = (unsigned char)0;
+      syslog(6, "io/hpmud/musb.c 780: read actual device_id successfully fd=%d len=%d\n", fd_link1, len_link2);
     }
   }
 
 bugout:
   ;
-  return len$link2;
+  return len_link2;
 }
 
 // device_status
@@ -7491,9 +7491,9 @@ static signed int device_status(signed int fd, unsigned int *status)
   signed int stat = 1;
   unsigned char byte = (unsigned char)0x08;
   m = 1 << 8;
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x91 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &m);
-  if(!(return_value_ioctl$1 == 0))
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x91 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &m);
+  if(!(return_value_ioctl_1 == 0))
   {
     syslog(3, "io/hpmud/pp.c 652: unable to read device_status: %m\n");
     stat = HPMUD_R_IO_ERROR;
@@ -7511,37 +7511,37 @@ bugout:
   return stat;
 }
 
-// device_status$link1
+// device_status_link1
 // file io/hpmud/musb.c line 786
-static signed int device_status$link1(signed int fd$link1, unsigned int *status$link1)
+static signed int device_status_link1(signed int fd_link1, unsigned int *status_link1)
 {
-  struct libusb_device_handle *device_status$$1$$hd;
+  struct libusb_device_handle *device_status__1__hd;
   signed int interface;
   signed int len;
-  signed int stat$link1 = 1;
-  unsigned char byte$link1;
-  device_status$$1$$hd = fd_table[(signed long int)fd$link1].hd;
-  interface = fd_table[(signed long int)fd$link1].interface;
-  if(device_status$$1$$hd == ((struct libusb_device_handle *)NULL))
+  signed int stat_link1 = 1;
+  unsigned char byte_link1;
+  device_status__1__hd = fd_table[(signed long int)fd_link1].hd;
+  interface = fd_table[(signed long int)fd_link1].interface;
+  if(device_status__1__hd == ((struct libusb_device_handle *)NULL))
     syslog(3, "io/hpmud/musb.c 798: invalid device_status state\n");
 
   else
   {
-    len=libusb_control_transfer(device_status$$1$$hd, (unsigned char)(LIBUSB_ENDPOINT_IN | 32 | 1), (unsigned char)1, (unsigned short int)0, (unsigned short int)interface, &byte$link1, (unsigned short int)1, (unsigned int)5000);
+    len=libusb_control_transfer(device_status__1__hd, (unsigned char)(LIBUSB_ENDPOINT_IN | 32 | 1), (unsigned char)1, (unsigned short int)0, (unsigned short int)interface, &byte_link1, (unsigned short int)1, (unsigned int)5000);
     if(!(len >= 0))
       syslog(3, "io/hpmud/musb.c 811: invalid device_status: %m\n");
 
     else
     {
-      *status$link1 = (unsigned int)byte$link1;
-      stat$link1 = 0;
-      syslog(6, "io/hpmud/musb.c 817: read actual device_status successfully fd=%d\n", fd$link1);
+      *status_link1 = (unsigned int)byte_link1;
+      stat_link1 = 0;
+      syslog(6, "io/hpmud/musb.c 817: read actual device_status successfully fd=%d\n", fd_link1);
     }
   }
 
 bugout:
   ;
-  return stat$link1;
+  return stat_link1;
 }
 
 // dirname
@@ -7580,9 +7580,9 @@ signed int dirname(const char *path, char *dir)
 static signed int ecp_fwd_to_rev(signed int fd)
 {
   signed int dir = 1;
-  signed int return_value_ecp_is_rev$1;
-  return_value_ecp_is_rev$1=ecp_is_rev(fd);
-  if(!(return_value_ecp_is_rev$1 == 0))
+  signed int return_value_ecp_is_rev_1;
+  return_value_ecp_is_rev_1=ecp_is_rev(fd);
+  if(!(return_value_ecp_is_rev_1 == 0))
     return 0;
 
   else
@@ -7632,9 +7632,9 @@ static signed int ecp_read(signed int fd, void *buffer, signed int size, signed 
   ecp_fwd_to_rev(fd);
   while(!(i >= size))
   {
-    signed int return_value_ecp_read_data$1;
-    return_value_ecp_read_data$1=ecp_read_data(fd, p + (signed long int)i);
-    if(!(return_value_ecp_read_data$1 == 1))
+    signed int return_value_ecp_read_data_1;
+    return_value_ecp_read_data_1=ecp_read_data(fd, p + (signed long int)i);
+    if(!(return_value_ecp_read_data_1 == 1))
     {
       usec = usec - 100000;
       if(usec >= 1)
@@ -7653,9 +7653,9 @@ static signed int ecp_read(signed int fd, void *buffer, signed int size, signed 
 static signed int ecp_read_data(signed int fd, unsigned char *data)
 {
   signed int len = 0;
-  signed int return_value_wait_status$1;
-  return_value_wait_status$1=wait_status(fd, (unsigned char)0x40, (unsigned char)0, 100000);
-  if(!(return_value_wait_status$1 == 0))
+  signed int return_value_wait_status_1;
+  return_value_wait_status_1=wait_status(fd, (unsigned char)0x40, (unsigned char)0, 100000);
+  if(!(return_value_wait_status_1 == 0))
     len = -1;
 
   else
@@ -7677,9 +7677,9 @@ bugout:
 static signed int ecp_rev_to_fwd(signed int fd)
 {
   signed int dir = 0;
-  signed int return_value_ecp_is_fwd$1;
-  return_value_ecp_is_fwd$1=ecp_is_fwd(fd);
-  if(!(return_value_ecp_is_fwd$1 == 0))
+  signed int return_value_ecp_is_fwd_1;
+  return_value_ecp_is_fwd_1=ecp_is_fwd(fd);
+  if(!(return_value_ecp_is_fwd_1 == 0))
     return 0;
 
   else
@@ -7710,9 +7710,9 @@ static signed int ecp_write(signed int fd, const void *buffer, signed int size)
     i = 0;
     for( ; !(i >= size); i = i + 1)
     {
-      signed int return_value_ecp_write_data$1;
-      return_value_ecp_write_data$1=ecp_write_data(fd, p[(signed long int)i]);
-      if(!(return_value_ecp_write_data$1 == 1))
+      signed int return_value_ecp_write_data_1;
+      return_value_ecp_write_data_1=ecp_write_data(fd, p[(signed long int)i]);
+      if(!(return_value_ecp_write_data_1 == 1))
       {
         if(!(i == 0))
           timeout = 1;
@@ -7735,9 +7735,9 @@ static signed int ecp_write_addr(signed int fd, unsigned char data)
   signed int len = 0;
   unsigned int d = (unsigned int)((signed int)data | 0x80);
   ecp_rev_to_fwd(fd);
-  signed int return_value_wait_status$1;
-  return_value_wait_status$1=wait_status(fd, (unsigned char)0x80, (unsigned char)0, 100000);
-  if(!(return_value_wait_status$1 == 0))
+  signed int return_value_wait_status_1;
+  return_value_wait_status_1=wait_status(fd, (unsigned char)0x80, (unsigned char)0, 100000);
+  if(!(return_value_wait_status_1 == 0))
     syslog(3, "io/hpmud/pp.c 221: ecp_write_addr transfer stalled\n");
 
   else
@@ -7747,9 +7747,9 @@ static signed int ecp_write_addr(signed int fd, unsigned char data)
       frob_control(fd, (unsigned char)0x2, (unsigned char)0);
       ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x86 << 0)) | sizeof(unsigned char) /*1ul*/  << 0 + 8 + 8, &d);
       frob_control(fd, (unsigned char)0x1, (unsigned char)0);
-      signed int return_value_wait_status$2;
-      return_value_wait_status$2=wait_status(fd, (unsigned char)0x80, (unsigned char)0x80, 100000);
-      if(!(return_value_wait_status$2 == 0))
+      signed int return_value_wait_status_2;
+      return_value_wait_status_2=wait_status(fd, (unsigned char)0x80, (unsigned char)0x80, 100000);
+      if(!(return_value_wait_status_2 == 0))
       {
         frob_control(fd, (unsigned char)0x4, (unsigned char)0);
         wait_status(fd, (unsigned char)0x20, (unsigned char)0, 100000);
@@ -7783,9 +7783,9 @@ static signed int ecp_write_data(signed int fd, unsigned char data)
 {
   signed int cnt = 0;
   signed int len = 0;
-  signed int return_value_wait_status$1;
-  return_value_wait_status$1=wait_status(fd, (unsigned char)0x80, (unsigned char)0, 100000);
-  if(!(return_value_wait_status$1 == 0))
+  signed int return_value_wait_status_1;
+  return_value_wait_status_1=wait_status(fd, (unsigned char)0x80, (unsigned char)0, 100000);
+  if(!(return_value_wait_status_1 == 0))
     syslog(3, "io/hpmud/pp.c 281: ecp_write_data transfer stalled\n");
 
   else
@@ -7795,9 +7795,9 @@ static signed int ecp_write_data(signed int fd, unsigned char data)
       frob_control(fd, (unsigned char)0x2, (unsigned char)0x2);
       ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x86 << 0)) | sizeof(unsigned char) /*1ul*/  << 0 + 8 + 8, &data);
       frob_control(fd, (unsigned char)0x1, (unsigned char)0);
-      signed int return_value_wait_status$2;
-      return_value_wait_status$2=wait_status(fd, (unsigned char)0x80, (unsigned char)0x80, 100000);
-      if(!(return_value_wait_status$2 == 0))
+      signed int return_value_wait_status_2;
+      return_value_wait_status_2=wait_status(fd, (unsigned char)0x80, (unsigned char)0x80, 100000);
+      if(!(return_value_wait_status_2 == 0))
       {
         frob_control(fd, (unsigned char)0x4, (unsigned char)0);
         wait_status(fd, (unsigned char)0x20, (unsigned char)0, 100000);
@@ -7832,9 +7832,9 @@ static signed int frob_control(signed int fd, unsigned char mask, unsigned char 
   struct ppdev_frob_struct frob;
   frob.val = (unsigned char)((signed int)val ^ (signed int)mask & (0x1 | 0x2 | 0x8));
   frob.mask = mask;
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x8e << 0)) | sizeof(struct ppdev_frob_struct) /*2ul*/  << 0 + 8 + 8, &frob);
-  return return_value_ioctl$1;
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x8e << 0)) | sizeof(struct ppdev_frob_struct) /*2ul*/  << 0 + 8 + 8, &frob);
+  return return_value_ioctl_1;
 }
 
 // generalize_model
@@ -7845,14 +7845,14 @@ signed int generalize_model(const char *sz, char *buf, signed int bufSize)
   signed int i;
   signed int j;
   signed int dd = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(sz == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)sz[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)sz[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -7864,26 +7864,26 @@ signed int generalize_model(const char *sz, char *buf, signed int bufSize)
     do
     {
       if(!((signed int)pMd[(signed long int)i] == 0))
-        tmp_if_expr$2 = (signed int)pMd[(signed long int)i] != 59 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)pMd[(signed long int)i] != 59 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(j >= bufSize || !tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(j >= bufSize || !tmp_if_expr_2)
         break;
 
-      _Bool tmp_if_expr$5;
+      _Bool tmp_if_expr_5;
       if((signed int)pMd[(signed long int)i] == 32)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (signed int)pMd[(signed long int)i] == 47 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (signed int)pMd[(signed long int)i] == 47 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
       {
         if(dd == 0)
         {
-          signed int tmp_post$3 = j;
+          signed int tmp_post_3 = j;
           j = j + 1;
-          buf[(signed long int)tmp_post$3] = (char)95;
+          buf[(signed long int)tmp_post_3] = (char)95;
           dd = 1;
         }
 
@@ -7891,9 +7891,9 @@ signed int generalize_model(const char *sz, char *buf, signed int bufSize)
 
       else
       {
-        signed int tmp_post$4 = j;
+        signed int tmp_post_4 = j;
         j = j + 1;
-        buf[(signed long int)tmp_post$4] = pMd[(signed long int)i];
+        buf[(signed long int)tmp_post_4] = pMd[(signed long int)i];
         dd = 0;
       }
       i = i + 1;
@@ -7915,13 +7915,13 @@ signed int generalize_serial(const char *sz, char *buf, signed int bufSize)
   const char *pMd = sz;
   signed int i;
   signed int j;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(sz == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)sz[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)sz[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -7932,9 +7932,9 @@ signed int generalize_serial(const char *sz, char *buf, signed int bufSize)
     j = 0;
     for( ; !((signed int)pMd[(signed long int)i] == 0) && !(i >= bufSize); i = i + 1)
     {
-      signed int tmp_post$2 = j;
+      signed int tmp_post_2 = j;
       j = j + 1;
-      buf[(signed long int)tmp_post$2] = pMd[(signed long int)i];
+      buf[(signed long int)tmp_post_2] = pMd[(signed long int)i];
     }
     i = i - 1;
     for( ; (signed int)buf[(signed long int)i] == 32 && i >= 1; i = i - 1)
@@ -7954,7 +7954,7 @@ signed int getHPLogLevel()
   char *p;
   signed int iLogLevel = 0;
   fp=fopen("/etc/cups/cupsd.conf", "r");
-  signed int return_value_feof$1;
+  signed int return_value_feof_1;
   if(fp == ((struct _IO_FILE *)NULL))
     return 0;
 
@@ -7962,21 +7962,21 @@ signed int getHPLogLevel()
   {
     do
     {
-      return_value_feof$1=feof(fp);
-      if(!(return_value_feof$1 == 0))
+      return_value_feof_1=feof(fp);
+      if(!(return_value_feof_1 == 0))
         break;
 
-      char *return_value_fgets$2;
-      return_value_fgets$2=fgets(str, 256, fp);
-      if(return_value_fgets$2 == ((char *)NULL))
+      char *return_value_fgets_2;
+      return_value_fgets_2=fgets(str, 256, fp);
+      if(return_value_fgets_2 == ((char *)NULL))
         break;
 
       p=strstr(str, "hpLogLevel");
       if(!(p == ((char *)NULL)))
       {
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen("hpLogLevel");
-        p = p + (signed long int)(return_value_strlen$3 + (unsigned long int)1);
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen("hpLogLevel");
+        p = p + (signed long int)(return_value_strlen_3 + (unsigned long int)1);
         iLogLevel=atoi(p);
         break;
       }
@@ -7992,9 +7992,9 @@ signed int getHPLogLevel()
 // file common/utils.c line 50
 enum UTILS_CONF_RESULT get_conf(const char *section, const char *key, char *value, signed int value_size)
 {
-  enum UTILS_CONF_RESULT return_value_get_key_value$1;
-  return_value_get_key_value$1=get_key_value("/etc/hp/hplip.conf", section, key, value, value_size);
-  return return_value_get_key_value$1;
+  enum UTILS_CONF_RESULT return_value_get_key_value_1;
+  return_value_get_key_value_1=get_key_value("/etc/hp/hplip.conf", section, key, value, value_size);
+  return return_value_get_key_value_1;
 }
 
 // get_ep
@@ -8005,23 +8005,23 @@ static signed int get_ep(struct libusb_device *dev, signed int config, signed in
   struct libusb_interface_descriptor *pi;
   signed int i;
   signed int endpoint = -1;
-  signed int return_value_libusb_get_config_descriptor$1;
-  return_value_libusb_get_config_descriptor$1=libusb_get_config_descriptor(dev, (unsigned char)config, &confptr);
-  if(return_value_libusb_get_config_descriptor$1 == 0)
+  signed int return_value_libusb_get_config_descriptor_1;
+  return_value_libusb_get_config_descriptor_1=libusb_get_config_descriptor(dev, (unsigned char)config, &confptr);
+  if(return_value_libusb_get_config_descriptor_1 == 0)
   {
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if(confptr == ((struct libusb_config_descriptor *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = confptr->interface == (struct libusb_interface *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    _Bool tmp_if_expr$3;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = confptr->interface == (struct libusb_interface *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    _Bool tmp_if_expr_3;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (confptr->interface + (signed long int)interface)->altsetting == (struct libusb_interface_descriptor *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$3)
+      tmp_if_expr_3 = (confptr->interface + (signed long int)interface)->altsetting == (struct libusb_interface_descriptor *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_3)
     {
       pi = &(confptr->interface + (signed long int)interface)->altsetting[(signed long int)altset];
       i = 0;
@@ -8074,14 +8074,14 @@ bugout:
 // file io/hpmud/musb.c line 485
 static signed int get_in_ep(struct libusb_device *dev, signed int config, signed int interface, signed int altset, enum libusb_transfer_type type)
 {
-  signed int return_value_get_ep$1;
-  return_value_get_ep$1=get_ep(dev, config, interface, altset, type, (enum libusb_endpoint_direction)LIBUSB_ENDPOINT_IN);
-  return return_value_get_ep$1;
+  signed int return_value_get_ep_1;
+  return_value_get_ep_1=get_ep(dev, config, interface, altset, type, (enum libusb_endpoint_direction)LIBUSB_ENDPOINT_IN);
+  return return_value_get_ep_1;
 }
 
 // get_interface
 // file io/hpmud/musb.c line 401
-static signed int get_interface(struct libusb_device *dev, enum FD_ID index, struct anonymous$21 *pfd)
+static signed int get_interface(struct libusb_device *dev, enum FD_ID index, struct anonymous_21 *pfd)
 {
   struct libusb_device_descriptor device_desc;
   struct libusb_config_descriptor *confptr = (struct libusb_config_descriptor *)(void *)0;
@@ -8094,9 +8094,9 @@ static signed int get_interface(struct libusb_device *dev, enum FD_ID index, str
   conf = 0;
   for( ; !(conf >= (signed int)device_desc.bNumConfigurations); conf = conf + 1)
   {
-    signed int return_value_libusb_get_config_descriptor$1;
-    return_value_libusb_get_config_descriptor$1=libusb_get_config_descriptor(dev, (unsigned char)conf, &confptr);
-    if(return_value_libusb_get_config_descriptor$1 == 0)
+    signed int return_value_libusb_get_config_descriptor_1;
+    return_value_libusb_get_config_descriptor_1=libusb_get_config_descriptor(dev, (unsigned char)conf, &confptr);
+    if(return_value_libusb_get_config_descriptor_1 == 0)
     {
       iface = 0;
       ifaceptr = confptr->interface;
@@ -8154,8 +8154,8 @@ enum UTILS_CONF_RESULT get_key_value(const char *file, const char *section, cons
   signed int i;
   signed int j;
   inFile=fopen(file, "r");
-  char *return_value_fgets$1;
-  signed int return_value_strcasecmp$7;
+  char *return_value_fgets_1;
+  signed int return_value_strcasecmp_7;
   if(inFile == ((struct _IO_FILE *)NULL))
     syslog(3, "common/utils.c 69: unable to open %s: %m\n", file);
 
@@ -8164,8 +8164,8 @@ enum UTILS_CONF_RESULT get_key_value(const char *file, const char *section, cons
     new_section[(signed long int)0] = (char)0;
     do
     {
-      return_value_fgets$1=fgets(rcbuf, (signed int)sizeof(char [255l]) /*255ul*/ , inFile);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(rcbuf, (signed int)sizeof(char [255l]) /*255ul*/ , inFile);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       if((signed int)rcbuf[0l] == 91)
@@ -8177,31 +8177,31 @@ enum UTILS_CONF_RESULT get_key_value(const char *file, const char *section, cons
           if((unsigned long int)j >= 30ul)
             break;
 
-          signed int tmp_post$2 = j;
+          signed int tmp_post_2 = j;
           j = j + 1;
-          signed int tmp_post$3 = i;
+          signed int tmp_post_3 = i;
           i = i + 1;
-          new_section[(signed long int)tmp_post$2] = rcbuf[(signed long int)tmp_post$3];
+          new_section[(signed long int)tmp_post_2] = rcbuf[(signed long int)tmp_post_3];
         }
-        signed int tmp_post$4 = j;
+        signed int tmp_post_4 = j;
         j = j + 1;
-        signed int tmp_post$5 = i;
+        signed int tmp_post_5 = i;
         i = i + 1;
-        new_section[(signed long int)tmp_post$4] = rcbuf[(signed long int)tmp_post$5];
+        new_section[(signed long int)tmp_post_4] = rcbuf[(signed long int)tmp_post_5];
         new_section[(signed long int)j] = (char)0;
       }
 
       else
       {
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(rcbuf);
-        GetPair$link1(rcbuf, (signed int)return_value_strlen$6, new_key, new_value, &tail);
-        signed int return_value_strcasecmp$8;
-        return_value_strcasecmp$8=strcasecmp(new_section, section);
-        if(return_value_strcasecmp$8 == 0)
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(rcbuf);
+        GetPair_link1(rcbuf, (signed int)return_value_strlen_6, new_key, new_value, &tail);
+        signed int return_value_strcasecmp_8;
+        return_value_strcasecmp_8=strcasecmp(new_section, section);
+        if(return_value_strcasecmp_8 == 0)
         {
-          return_value_strcasecmp$7=strcasecmp(new_key, key);
-          if(return_value_strcasecmp$7 == 0)
+          return_value_strcasecmp_7=strcasecmp(new_key, key);
+          if(return_value_strcasecmp_7 == 0)
           {
             strncpy(value, new_value, (unsigned long int)value_size);
             stat = (enum UTILS_CONF_RESULT)UTILS_CONF_OK;
@@ -8231,7 +8231,7 @@ bugout:
 void * get_library_symbol(void *pLibHandler, const char *szSymbol)
 {
   void *pSymHandler = (void *)0;
-  char *return_value_dlerror$2;
+  char *return_value_dlerror_2;
   if(pLibHandler == NULL)
   {
     syslog(3, "common/utils.c 198: Invalid Library hanlder\n");
@@ -8240,13 +8240,13 @@ void * get_library_symbol(void *pLibHandler, const char *szSymbol)
 
   else
   {
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(szSymbol == ((const char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)szSymbol[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)szSymbol[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       syslog(3, "common/utils.c 204: Invalid Library symbol\n");
       return (void *)0;
@@ -8257,8 +8257,8 @@ void * get_library_symbol(void *pLibHandler, const char *szSymbol)
       pSymHandler=dlsym(pLibHandler, szSymbol);
       if(pSymHandler == NULL)
       {
-        return_value_dlerror$2=dlerror();
-        syslog(3, "common/utils.c 210: Can't find %s symbol in Library:%s\n", szSymbol, return_value_dlerror$2);
+        return_value_dlerror_2=dlerror();
+        syslog(3, "common/utils.c 210: Can't find %s symbol in Library:%s\n", szSymbol, return_value_dlerror_2);
       }
 
       return pSymHandler;
@@ -8281,11 +8281,11 @@ static struct libusb_device * get_libusb_device(const char *uri)
   signed int iface;
   signed int altset;
   i=libusb_init(&libusb_ctx);
-  signed long int return_value_libusb_get_device_list$1;
+  signed long int return_value_libusb_get_device_list_1;
   if(i == 0)
   {
-    return_value_libusb_get_device_list$1=libusb_get_device_list(libusb_ctx, &libusb_dev_list);
-    numdevs = (signed int)return_value_libusb_get_device_list$1;
+    return_value_libusb_get_device_list_1=libusb_get_device_list(libusb_ctx, &libusb_dev_list);
+    numdevs = (signed int)return_value_libusb_get_device_list_1;
     i = 0;
     for( ; !(i >= numdevs); i = i + 1)
     {
@@ -8299,9 +8299,9 @@ static struct libusb_device * get_libusb_device(const char *uri)
           conf = 0;
           for( ; !(conf >= (signed int)devdesc.bNumConfigurations); conf = conf + 1)
           {
-            signed int return_value_libusb_get_config_descriptor$2;
-            return_value_libusb_get_config_descriptor$2=libusb_get_config_descriptor(dev, (unsigned char)conf, &confptr);
-            if(return_value_libusb_get_config_descriptor$2 >= 0)
+            signed int return_value_libusb_get_config_descriptor_2;
+            return_value_libusb_get_config_descriptor_2=libusb_get_config_descriptor(dev, (unsigned char)conf, &confptr);
+            if(return_value_libusb_get_config_descriptor_2 >= 0)
             {
               iface = 0;
               ifaceptr = confptr->interface;
@@ -8315,9 +8315,9 @@ static struct libusb_device * get_libusb_device(const char *uri)
                   {
                     if((signed int)altptr->bInterfaceSubClass == 1)
                     {
-                      signed int return_value_is_uri$3;
-                      return_value_is_uri$3=is_uri(dev, uri);
-                      if(!(return_value_is_uri$3 == 0))
+                      signed int return_value_is_uri_3;
+                      return_value_is_uri_3=is_uri(dev, uri);
+                      if(!(return_value_is_uri_3 == 0))
                       {
                         libusb_free_config_descriptor(confptr);
                         return dev;
@@ -8356,9 +8356,9 @@ bugout:
 // file io/hpmud/musb.c line 490
 static signed int get_out_ep(struct libusb_device *dev, signed int config, signed int interface, signed int altset, enum libusb_transfer_type type)
 {
-  signed int return_value_get_ep$1;
-  return_value_get_ep$1=get_ep(dev, config, interface, altset, type, (enum libusb_endpoint_direction)LIBUSB_ENDPOINT_OUT);
-  return return_value_get_ep$1;
+  signed int return_value_get_ep_1;
+  return_value_get_ep_1=get_ep(dev, config, interface, altset, type, (enum libusb_endpoint_direction)LIBUSB_ENDPOINT_OUT);
+  return return_value_get_ep_1;
 }
 
 // get_string_descriptor
@@ -8370,12 +8370,12 @@ static signed int get_string_descriptor(struct libusb_device_handle *dev_handle,
   signed int si;
   signed int di;
   signed int cnt = 5;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = cnt;
+    tmp_post_1 = cnt;
     cnt = cnt - 1;
-    if(tmp_post$1 == 0)
+    if(tmp_post_1 == 0)
       break;
 
     ret=libusb_control_transfer(dev_handle, (unsigned char)LIBUSB_ENDPOINT_IN, (unsigned char)6, (unsigned short int)((3 << 8) + index), (unsigned short int)0x409, tbuf, (unsigned short int)sizeof(unsigned char [255l]) /*255ul*/ , (unsigned int)5000);
@@ -8417,16 +8417,16 @@ static signed int get_string_descriptor(struct libusb_device_handle *dev_handle,
 
           if(!(tbuf[(signed long int)(1 + si)] == 0))
           {
-            signed int tmp_post$2 = di;
+            signed int tmp_post_2 = di;
             di = di + 1;
-            buf[(signed long int)tmp_post$2] = (char)48;
+            buf[(signed long int)tmp_post_2] = (char)48;
           }
 
           else
           {
-            signed int tmp_post$3 = di;
+            signed int tmp_post_3 = di;
             di = di + 1;
-            buf[(signed long int)tmp_post$3] = (char)tbuf[(signed long int)si];
+            buf[(signed long int)tmp_post_3] = (char)tbuf[(signed long int)si];
           }
         }
         buf[(signed long int)di] = (char)0;
@@ -8466,14 +8466,14 @@ signed int get_uri_serial(const char *uri, char *buf, signed int bufSize)
 {
   char *p;
   signed int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(uri == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)uri[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)uri[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -8489,11 +8489,11 @@ signed int get_uri_serial(const char *uri, char *buf, signed int bufSize)
     do
     {
       if(!((signed int)p[(signed long int)i] == 0))
-        tmp_if_expr$2 = (signed int)p[(signed long int)i] != 43 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)p[(signed long int)i] != 43 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(i >= bufSize || !tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(i >= bufSize || !tmp_if_expr_2)
         break;
 
       buf[(signed long int)i] = p[(signed long int)i];
@@ -8510,19 +8510,19 @@ signed int get_uri_serial(const char *uri, char *buf, signed int bufSize)
 enum HPMUD_RESULT hpmud_close_channel(signed int dd, signed int cd)
 {
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_INVALID_STATE;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(dd >= 3 || !(dd >= 1))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = msp->device[(signed long int)dd].index != dd ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(cd >= 48 || !(cd >= 1) || tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = msp->device[(signed long int)dd].index != dd ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(cd >= 48 || !(cd >= 1) || tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = msp->device[(signed long int)dd].channel[(signed long int)cd].client_cnt == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = msp->device[(signed long int)dd].channel[(signed long int)cd].client_cnt == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     syslog(3, "io/hpmud/hpmud.c 702: invalid channel_close state\n");
 
   else
@@ -8538,13 +8538,13 @@ bugout:
 enum HPMUD_RESULT hpmud_close_device(signed int dd)
 {
   enum HPMUD_RESULT stat;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(dd >= 3 || !(dd >= 1))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = msp->device[(signed long int)dd].index != dd ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = msp->device[(signed long int)dd].index != dd ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     syslog(3, "io/hpmud/hpmud.c 569: invalid device_close state\n");
     stat = (enum HPMUD_RESULT)HPMUD_R_INVALID_STATE;
@@ -8563,13 +8563,13 @@ enum HPMUD_RESULT hpmud_close_device(signed int dd)
 enum HPMUD_RESULT hpmud_get_device_id(signed int dd, char *buf, signed int size, signed int *bytes_read)
 {
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_INVALID_STATE;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(dd >= 3 || !(dd >= 1))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = msp->device[(signed long int)dd].index != dd ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = msp->device[(signed long int)dd].index != dd ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     syslog(3, "io/hpmud/hpmud.c 588: invalid get_device_id state\n");
 
   else
@@ -8585,13 +8585,13 @@ bugout:
 enum HPMUD_RESULT hpmud_get_device_status(signed int dd, unsigned int *status)
 {
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_INVALID_STATE;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(dd >= 3 || !(dd >= 1))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = msp->device[(signed long int)dd].index != dd ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = msp->device[(signed long int)dd].index != dd ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     syslog(3, "io/hpmud/hpmud.c 606: invalid get_device_status state\n");
 
   else
@@ -8629,13 +8629,13 @@ bugout:
 signed int hpmud_get_model(const char *id, char *buf, signed int buf_size)
 {
   char *pMd;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(id == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)id[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)id[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -8654,9 +8654,9 @@ signed int hpmud_get_model(const char *id, char *buf, signed int buf_size)
       else
         return 0;
     }
-    signed int return_value_generalize_model$2;
-    return_value_generalize_model$2=generalize_model(pMd, buf, buf_size);
-    return return_value_generalize_model$2;
+    signed int return_value_generalize_model_2;
+    return_value_generalize_model_2=generalize_model(pMd, buf, buf_size);
+    return return_value_generalize_model_2;
   }
 }
 
@@ -8720,25 +8720,25 @@ enum HPMUD_RESULT hpmud_get_pml(signed int device, signed int channel, const cha
   signed int port;
   struct hpmud_dstat ds;
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_IO_ERROR;
-  enum HPMUD_RESULT return_value_hpmud_get_dstat$1;
-  return_value_hpmud_get_dstat$1=hpmud_get_dstat(device, &ds);
-  result = (signed int)return_value_hpmud_get_dstat$1;
-  char *return_value_strcasestr$13;
-  signed long int return_value_strtol$2;
+  enum HPMUD_RESULT return_value_hpmud_get_dstat_1;
+  return_value_hpmud_get_dstat_1=hpmud_get_dstat(device, &ds);
+  result = (signed int)return_value_hpmud_get_dstat_1;
+  char *return_value_strcasestr_13;
+  signed long int return_value_strtol_2;
   if(!(result == HPMUD_R_OK))
     stat = (enum HPMUD_RESULT)result;
 
   else
   {
-    return_value_strcasestr$13=strcasestr(ds.uri, "net/");
-    if(!(return_value_strcasestr$13 == ((char *)NULL)))
+    return_value_strcasestr_13=strcasestr(ds.uri, "net/");
+    if(!(return_value_strcasestr_13 == ((char *)NULL)))
     {
       hpmud_get_uri_datalink(ds.uri, ip, (signed int)sizeof(char [256l]) /*256ul*/ );
       psz=strstr(ds.uri, "port=");
       if(!(psz == ((char *)NULL)))
       {
-        return_value_strtol$2=strtol(psz + (signed long int)5, &tail, 10);
-        port = (signed int)return_value_strtol$2;
+        return_value_strtol_2=strtol(psz + (signed long int)5, &tail, 10);
+        port = (signed int)return_value_strtol_2;
       }
 
       else
@@ -8762,19 +8762,19 @@ enum HPMUD_RESULT hpmud_get_pml(signed int device, signed int channel, const cha
     else
     {
       dLen=SnmpToPml(snmp_oid, oid, (signed int)sizeof(unsigned char [256l]) /*256ul*/ );
-      unsigned char *tmp_post$3 = p;
+      unsigned char *tmp_post_3 = p;
       p = p + 1l;
-      *tmp_post$3 = (unsigned char)0;
-      unsigned char *tmp_post$4 = p;
+      *tmp_post_3 = (unsigned char)0;
+      unsigned char *tmp_post_4 = p;
       p = p + 1l;
-      *tmp_post$4 = (unsigned char)0;
-      unsigned char *tmp_post$5 = p;
+      *tmp_post_4 = (unsigned char)0;
+      unsigned char *tmp_post_5 = p;
       p = p + 1l;
-      *tmp_post$5 = (unsigned char)dLen;
+      *tmp_post_5 = (unsigned char)dLen;
       memcpy((void *)p, (const void *)oid, (unsigned long int)dLen);
-      enum HPMUD_RESULT return_value_hpmud_write_channel$6;
-      return_value_hpmud_write_channel$6=hpmud_write_channel(device, channel, (const void *)message, dLen + 3, 45, &len);
-      result = (signed int)return_value_hpmud_write_channel$6;
+      enum HPMUD_RESULT return_value_hpmud_write_channel_6;
+      return_value_hpmud_write_channel_6=hpmud_write_channel(device, channel, (const void *)message, dLen + 3, 45, &len);
+      result = (signed int)return_value_hpmud_write_channel_6;
       if(!(result == HPMUD_R_OK))
       {
         syslog(3, "io/hpmud/pml.c 466: GetPml channel_write failed ret=%d\n", result);
@@ -8782,9 +8782,9 @@ enum HPMUD_RESULT hpmud_get_pml(signed int device, signed int channel, const cha
         goto bugout;
       }
 
-      enum HPMUD_RESULT return_value_hpmud_read_channel$7;
-      return_value_hpmud_read_channel$7=hpmud_read_channel(device, channel, (void *)message, (signed int)sizeof(unsigned char [16384l]) /*16384ul*/ , 45, &len);
-      result = (signed int)return_value_hpmud_read_channel$7;
+      enum HPMUD_RESULT return_value_hpmud_read_channel_7;
+      return_value_hpmud_read_channel_7=hpmud_read_channel(device, channel, (void *)message, (signed int)sizeof(unsigned char [16384l]) /*16384ul*/ , 45, &len);
+      result = (signed int)return_value_hpmud_read_channel_7;
       if(len == 0 || !(result == HPMUD_R_OK))
       {
         syslog(3, "io/hpmud/pml.c 474: GetPml channel_read failed ret=%d len=%d\n", result, len);
@@ -8792,27 +8792,27 @@ enum HPMUD_RESULT hpmud_get_pml(signed int device, signed int channel, const cha
       }
 
       p = message;
-      unsigned char *tmp_post$8 = p;
+      unsigned char *tmp_post_8 = p;
       p = p + 1l;
-      reply = (signed int)*tmp_post$8;
-      unsigned char *tmp_post$9 = p;
+      reply = (signed int)*tmp_post_8;
+      unsigned char *tmp_post_9 = p;
       p = p + 1l;
-      status = (signed int)*tmp_post$9;
+      status = (signed int)*tmp_post_9;
       if(!((0x80 & status) == 0) && !(reply == 128))
       {
         syslog(3, "io/hpmud/pml.c 484: GetPml failed reply=%x outcome=%x\n", reply, status);
         goto bugout;
       }
 
-      unsigned char *tmp_post$10 = p;
+      unsigned char *tmp_post_10 = p;
       p = p + 1l;
-      dt = (signed int)*tmp_post$10;
+      dt = (signed int)*tmp_post_10;
       if(dt == 24)
       {
         p = p + (signed long int)2;
-        unsigned char *tmp_post$11 = p;
+        unsigned char *tmp_post_11 = p;
         p = p + 1l;
-        dt = (signed int)*tmp_post$11;
+        dt = (signed int)*tmp_post_11;
       }
 
       if(!(dt == 0))
@@ -8821,9 +8821,9 @@ enum HPMUD_RESULT hpmud_get_pml(signed int device, signed int channel, const cha
         goto bugout;
       }
 
-      unsigned char *tmp_post$12 = p;
+      unsigned char *tmp_post_12 = p;
       p = p + 1l;
-      dLen = (signed int)*tmp_post$12;
+      dLen = (signed int)*tmp_post_12;
       p = p + (signed long int)dLen;
       dt = (signed int)*p;
       dLen = ((signed int)*p & 0x3) << 8 | (signed int)p[(signed long int)1];
@@ -8850,13 +8850,13 @@ signed int hpmud_get_raw_model(char *id, char *raw, signed int rawSize)
 {
   char *pMd;
   signed int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(id == ((char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)id[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)id[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -8891,14 +8891,14 @@ signed int hpmud_get_uri_datalink(const char *uri, char *buf, signed int buf_siz
   signed int i;
   signed int zc = 0;
   char ip[256l];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(uri == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)uri[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)uri[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -8936,9 +8936,9 @@ signed int hpmud_get_uri_datalink(const char *uri, char *buf, signed int buf_siz
     }
     if(!(zc == 0))
     {
-      signed int return_value_mdns_lookup$2;
-      return_value_mdns_lookup$2=mdns_lookup(p, (unsigned char *)ip);
-      if(!(return_value_mdns_lookup$2 == 0))
+      signed int return_value_mdns_lookup_2;
+      return_value_mdns_lookup_2=mdns_lookup(p, (unsigned char *)ip);
+      if(!(return_value_mdns_lookup_2 == 0))
         return 0;
 
       i = 0;
@@ -8952,11 +8952,11 @@ signed int hpmud_get_uri_datalink(const char *uri, char *buf, signed int buf_siz
       do
       {
         if(!((signed int)p[(signed long int)i] == 0))
-          tmp_if_expr$3 = (signed int)p[(signed long int)i] != 38 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (signed int)p[(signed long int)i] != 38 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(i >= buf_size || !tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(i >= buf_size || !tmp_if_expr_3)
           break;
 
         buf[(signed long int)i] = p[(signed long int)i];
@@ -8975,13 +8975,13 @@ signed int hpmud_get_uri_model(const char *uri, char *buf, signed int buf_size)
 {
   char *p;
   signed int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(uri == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)uri[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)uri[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -9020,16 +9020,16 @@ enum HPMUD_RESULT hpmud_make_mdns_uri(const char *host, signed int port, char *u
   enum HPMUD_RESULT stat;
   *bytes_read = 0;
   uri[(signed long int)0] = (char)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(host == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)host[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  signed int return_value_mdns_lookup$2;
-  signed int return_value_device_id$3;
-  signed int return_value_is_hp$4;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)host[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  signed int return_value_mdns_lookup_2;
+  signed int return_value_device_id_3;
+  signed int return_value_is_hp_4;
+  if(tmp_if_expr_1)
   {
     syslog(3, "io/hpmud/jd.c 755: invalid host %s\n", host);
     stat = (enum HPMUD_RESULT)HPMUD_R_INVALID_MDNS;
@@ -9037,8 +9037,8 @@ enum HPMUD_RESULT hpmud_make_mdns_uri(const char *host, signed int port, char *u
 
   else
   {
-    return_value_mdns_lookup$2=mdns_lookup(host, (unsigned char *)ip);
-    if(!(return_value_mdns_lookup$2 == 0))
+    return_value_mdns_lookup_2=mdns_lookup(host, (unsigned char *)ip);
+    if(!(return_value_mdns_lookup_2 == 0))
     {
       syslog(3, "io/hpmud/jd.c 762: invalid host %s, check firewall UDP/5353 or try using IP\n", host);
       stat = (enum HPMUD_RESULT)HPMUD_R_INVALID_MDNS;
@@ -9046,17 +9046,17 @@ enum HPMUD_RESULT hpmud_make_mdns_uri(const char *host, signed int port, char *u
 
     else
     {
-      return_value_device_id$3=device_id(ip, port, id, (signed int)sizeof(char [1024l]) /*1024ul*/ );
-      _Bool tmp_if_expr$5;
-      if(return_value_device_id$3 >= 1)
+      return_value_device_id_3=device_id(ip, port, id, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+      _Bool tmp_if_expr_5;
+      if(return_value_device_id_3 >= 1)
       {
-        return_value_is_hp$4=is_hp(id);
-        tmp_if_expr$5 = return_value_is_hp$4 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_is_hp_4=is_hp(id);
+        tmp_if_expr_5 = return_value_is_hp_4 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
       {
         hpmud_get_model(id, model, (signed int)sizeof(char [128l]) /*128ul*/ );
         if(port == 1)
@@ -9090,15 +9090,15 @@ enum HPMUD_RESULT hpmud_make_net_uri(const char *ip, signed int port, char *uri,
   enum HPMUD_RESULT stat;
   *bytes_read = 0;
   uri[(signed long int)0] = (char)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(ip == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)ip[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  signed int return_value_device_id$2;
-  signed int return_value_is_hp$3;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)ip[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  signed int return_value_device_id_2;
+  signed int return_value_is_hp_3;
+  if(tmp_if_expr_1)
   {
     syslog(3, "io/hpmud/jd.c 714: invalid ip %s\n", ip);
     stat = (enum HPMUD_RESULT)HPMUD_R_INVALID_IP;
@@ -9106,17 +9106,17 @@ enum HPMUD_RESULT hpmud_make_net_uri(const char *ip, signed int port, char *uri,
 
   else
   {
-    return_value_device_id$2=device_id(ip, port, id, (signed int)sizeof(char [1024l]) /*1024ul*/ );
-    _Bool tmp_if_expr$4;
-    if(return_value_device_id$2 >= 1)
+    return_value_device_id_2=device_id(ip, port, id, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+    _Bool tmp_if_expr_4;
+    if(return_value_device_id_2 >= 1)
     {
-      return_value_is_hp$3=is_hp(id);
-      tmp_if_expr$4 = return_value_is_hp$3 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_is_hp_3=is_hp(id);
+      tmp_if_expr_4 = return_value_is_hp_3 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
       hpmud_get_model(id, model, (signed int)sizeof(char [128l]) /*128ul*/ );
       if(port == 1)
@@ -9152,32 +9152,32 @@ enum HPMUD_RESULT hpmud_make_par_uri(const char *dnode, char *uri, signed int ur
   *bytes_read = 0;
   uri[(signed long int)0] = (char)0;
   fd=open(dnode, 00 | 0400);
-  signed int return_value_ioctl$1;
-  signed int return_value_claim_pp$2;
-  signed int return_value_device_id$4;
-  signed int return_value_is_hp$3;
+  signed int return_value_ioctl_1;
+  signed int return_value_claim_pp_2;
+  signed int return_value_device_id_4;
+  signed int return_value_is_hp_3;
   if(!(fd >= 0))
     syslog(3, "io/hpmud/pp.c 1281: unable to open %s: %m\n", dnode);
 
   else
   {
-    return_value_ioctl$1=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x97 << 0)) | sizeof(unsigned int) /*4ul*/  << 0 + 8 + 8, &m);
-    if(!(return_value_ioctl$1 == 0))
+    return_value_ioctl_1=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x97 << 0)) | sizeof(unsigned int) /*4ul*/  << 0 + 8 + 8, &m);
+    if(!(return_value_ioctl_1 == 0))
       syslog(3, "io/hpmud/pp.c 1287: unable to make uri %s: %m\n", dnode);
 
     else
     {
-      return_value_claim_pp$2=claim_pp(fd);
-      if(!(return_value_claim_pp$2 == 0))
+      return_value_claim_pp_2=claim_pp(fd);
+      if(!(return_value_claim_pp_2 == 0))
         syslog(3, "io/hpmud/pp.c 1293: unable to make uri %s: %m\n", dnode);
 
       else
       {
-        return_value_device_id$4=device_id$link1(fd, id, (signed int)sizeof(char [1024l]) /*1024ul*/ );
-        if(return_value_device_id$4 >= 1)
+        return_value_device_id_4=device_id_link1(fd, id, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+        if(return_value_device_id_4 >= 1)
         {
-          return_value_is_hp$3=is_hp(id);
-          if(!(return_value_is_hp$3 == 0))
+          return_value_is_hp_3=is_hp(id);
+          if(!(return_value_is_hp_3 == 0))
           {
             hpmud_get_model(id, model, (signed int)sizeof(char [128l]) /*128ul*/ );
             *bytes_read=snprintf(uri, (unsigned long int)uri_size, "hp:/par/%s?device=%s", (const void *)model, dnode);
@@ -9211,25 +9211,25 @@ enum HPMUD_RESULT hpmud_make_usb_serial_uri(const char *sn, char *uri, signed in
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_INVALID_DEVICE_NODE;
   signed int i;
   signed int numdevs;
-  signed int return_value_getpid$1;
-  return_value_getpid$1=getpid();
-  syslog(6, "io/hpmud/musb.c 2309: [%d] hpmud_make_usb_serial_uri() sn=%s\n", return_value_getpid$1, sn);
+  signed int return_value_getpid_1;
+  return_value_getpid_1=getpid();
+  syslog(6, "io/hpmud/musb.c 2309: [%d] hpmud_make_usb_serial_uri() sn=%s\n", return_value_getpid_1, sn);
   *bytes_read = 0;
   i=libusb_init(&ctx);
-  signed long int return_value_libusb_get_device_list$2;
+  signed long int return_value_libusb_get_device_list_2;
   if(i == 0)
   {
-    return_value_libusb_get_device_list$2=libusb_get_device_list(ctx, &list);
-    numdevs = (signed int)return_value_libusb_get_device_list$2;
+    return_value_libusb_get_device_list_2=libusb_get_device_list(ctx, &list);
+    numdevs = (signed int)return_value_libusb_get_device_list_2;
     if(numdevs >= 1)
     {
       i = 0;
       for( ; !(i >= numdevs); i = i + 1)
       {
         dev = list[(signed long int)i];
-        signed int return_value_is_serial$3;
-        return_value_is_serial$3=is_serial(dev, sn, model, (signed int)sizeof(char [128l]) /*128ul*/ );
-        if(!(return_value_is_serial$3 == 0))
+        signed int return_value_is_serial_3;
+        return_value_is_serial_3=is_serial(dev, sn, model, (signed int)sizeof(char [128l]) /*128ul*/ );
+        if(!(return_value_is_serial_3 == 0))
         {
           found_dev = dev;
           break;
@@ -9268,7 +9268,7 @@ enum HPMUD_RESULT hpmud_make_usb_uri(const char *busnum, const char *devnum, cha
   struct libusb_device **list;
   struct libusb_device *dev = (struct libusb_device *)(void *)0;
   struct libusb_device *found_dev = (struct libusb_device *)(void *)0;
-  struct libusb_device_handle *hpmud_make_usb_uri$$1$$hd = (struct libusb_device_handle *)(void *)0;
+  struct libusb_device_handle *hpmud_make_usb_uri__1__hd = (struct libusb_device_handle *)(void *)0;
   struct libusb_device_descriptor devdesc;
   struct libusb_config_descriptor *confptr = (struct libusb_config_descriptor *)(void *)0;
   struct libusb_interface *ifaceptr = (struct libusb_interface *)(void *)0;
@@ -9287,35 +9287,35 @@ enum HPMUD_RESULT hpmud_make_usb_uri(const char *busnum, const char *devnum, cha
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_INVALID_DEVICE_NODE;
   signed int isSmartInstall_enabled = 0;
   signed int isPrinter = 0;
-  signed int return_value_getpid$1;
-  return_value_getpid$1=getpid();
-  syslog(6, "io/hpmud/musb.c 2183: [%d] hpmud_make_usb_uri() bus=%s dev=%s\n", return_value_getpid$1, busnum, devnum);
+  signed int return_value_getpid_1;
+  return_value_getpid_1=getpid();
+  syslog(6, "io/hpmud/musb.c 2183: [%d] hpmud_make_usb_uri() bus=%s dev=%s\n", return_value_getpid_1, busnum, devnum);
   *bytes_read = 0;
   i=libusb_init(&ctx);
-  signed long int return_value_libusb_get_device_list$2;
+  signed long int return_value_libusb_get_device_list_2;
   if(i == 0)
   {
-    return_value_libusb_get_device_list$2=libusb_get_device_list(ctx, &list);
-    numdevs = (signed int)return_value_libusb_get_device_list$2;
+    return_value_libusb_get_device_list_2=libusb_get_device_list(ctx, &list);
+    numdevs = (signed int)return_value_libusb_get_device_list_2;
     if(numdevs >= 1)
     {
       i = 0;
       for( ; !(i >= numdevs); i = i + 1)
       {
         dev = list[(signed long int)i];
-        unsigned char return_value_libusb_get_bus_number$3;
-        return_value_libusb_get_bus_number$3=libusb_get_bus_number(dev);
-        bus_num = (signed int)return_value_libusb_get_bus_number$3;
-        signed int return_value_atoi$4;
-        return_value_atoi$4=atoi(busnum);
-        if(bus_num == return_value_atoi$4)
+        unsigned char return_value_libusb_get_bus_number_3;
+        return_value_libusb_get_bus_number_3=libusb_get_bus_number(dev);
+        bus_num = (signed int)return_value_libusb_get_bus_number_3;
+        signed int return_value_atoi_4;
+        return_value_atoi_4=atoi(busnum);
+        if(bus_num == return_value_atoi_4)
         {
-          unsigned char return_value_libusb_get_device_address$5;
-          return_value_libusb_get_device_address$5=libusb_get_device_address(dev);
-          dev_num = (signed int)return_value_libusb_get_device_address$5;
-          signed int return_value_atoi$6;
-          return_value_atoi$6=atoi(devnum);
-          if(dev_num == return_value_atoi$6)
+          unsigned char return_value_libusb_get_device_address_5;
+          return_value_libusb_get_device_address_5=libusb_get_device_address(dev);
+          dev_num = (signed int)return_value_libusb_get_device_address_5;
+          signed int return_value_atoi_6;
+          return_value_atoi_6=atoi(devnum);
+          if(dev_num == return_value_atoi_6)
             found_dev = dev;
 
         }
@@ -9327,8 +9327,8 @@ enum HPMUD_RESULT hpmud_make_usb_uri(const char *busnum, const char *devnum, cha
       else
       {
         dev = found_dev;
-        libusb_open(dev, &hpmud_make_usb_uri$$1$$hd);
-        if(hpmud_make_usb_uri$$1$$hd == ((struct libusb_device_handle *)NULL))
+        libusb_open(dev, &hpmud_make_usb_uri__1__hd);
+        if(hpmud_make_usb_uri__1__hd == ((struct libusb_device_handle *)NULL))
           syslog(3, "io/hpmud/musb.c 2219: invalid libusb_open: %m\n");
 
         else
@@ -9339,13 +9339,13 @@ enum HPMUD_RESULT hpmud_make_usb_uri(const char *busnum, const char *devnum, cha
           libusb_get_device_descriptor(dev, &devdesc);
           if((signed int)devdesc.idVendor == 0x3f0)
           {
-            r=get_string_descriptor(hpmud_make_usb_uri$$1$$hd, (signed int)devdesc.iProduct, sz, sizeof(char [256l]) /*256ul*/ );
+            r=get_string_descriptor(hpmud_make_usb_uri__1__hd, (signed int)devdesc.iProduct, sz, sizeof(char [256l]) /*256ul*/ );
             if(!(r >= 0))
               syslog(3, "io/hpmud/musb.c 2231: invalid product id string ret=%d\n", r);
 
             else
               generalize_model(sz, model, (signed int)sizeof(char [128l]) /*128ul*/ );
-            r=get_string_descriptor(hpmud_make_usb_uri$$1$$hd, (signed int)devdesc.iSerialNumber, sz, sizeof(char [256l]) /*256ul*/ );
+            r=get_string_descriptor(hpmud_make_usb_uri__1__hd, (signed int)devdesc.iSerialNumber, sz, sizeof(char [256l]) /*256ul*/ );
             if(!(r >= 0))
               syslog(3, "io/hpmud/musb.c 2236: invalid serial id string ret=%d\n", r);
 
@@ -9357,9 +9357,9 @@ enum HPMUD_RESULT hpmud_make_usb_uri(const char *busnum, const char *devnum, cha
             conf = 0;
             for( ; !(conf >= (signed int)devdesc.bNumConfigurations); conf = conf + 1)
             {
-              signed int return_value_libusb_get_config_descriptor$7;
-              return_value_libusb_get_config_descriptor$7=libusb_get_config_descriptor(dev, (unsigned char)conf, &confptr);
-              if(return_value_libusb_get_config_descriptor$7 >= 0)
+              signed int return_value_libusb_get_config_descriptor_7;
+              return_value_libusb_get_config_descriptor_7=libusb_get_config_descriptor(dev, (unsigned char)conf, &confptr);
+              if(return_value_libusb_get_config_descriptor_7 >= 0)
               {
                 iface = 0;
                 ifaceptr = confptr->interface;
@@ -9369,13 +9369,13 @@ enum HPMUD_RESULT hpmud_make_usb_uri(const char *busnum, const char *devnum, cha
                   altptr = ifaceptr->altsetting;
                   for( ; !(altset >= ifaceptr->num_altsetting); altptr = altptr + 1l)
                   {
-                    _Bool tmp_if_expr$8;
+                    _Bool tmp_if_expr_8;
                     if((signed int)confptr->bNumInterfaces == 1)
-                      tmp_if_expr$8 = (signed int)altptr->bInterfaceClass == 8 ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_8 = (signed int)altptr->bInterfaceClass == 8 ? (_Bool)1 : (_Bool)0;
 
                     else
-                      tmp_if_expr$8 = (_Bool)0;
-                    if(tmp_if_expr$8)
+                      tmp_if_expr_8 = (_Bool)0;
+                    if(tmp_if_expr_8)
                     {
                       strcpy(serial, "SMART_INSTALL_ENABLED");
                       isSmartInstall_enabled = 1;
@@ -9405,13 +9405,13 @@ enum HPMUD_RESULT hpmud_make_usb_uri(const char *busnum, const char *devnum, cha
             syslog(3, "io/hpmud/musb.c 2271: invalid vendor id: %d\n", devdesc.idVendor);
             goto bugout;
           }
-          _Bool tmp_if_expr$9;
+          _Bool tmp_if_expr_9;
           if(model[0l] == 0)
-            tmp_if_expr$9 = (_Bool)1;
+            tmp_if_expr_9 = (_Bool)1;
 
           else
-            tmp_if_expr$9 = !(serial[(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$9)
+            tmp_if_expr_9 = !(serial[(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_9)
           {
             if(isPrinter == 1 || isSmartInstall_enabled == 1)
             {
@@ -9433,8 +9433,8 @@ enum HPMUD_RESULT hpmud_make_usb_uri(const char *busnum, const char *devnum, cha
 
 bugout:
   ;
-  if(!(hpmud_make_usb_uri$$1$$hd == ((struct libusb_device_handle *)NULL)))
-    libusb_close(hpmud_make_usb_uri$$1$$hd);
+  if(!(hpmud_make_usb_uri__1__hd == ((struct libusb_device_handle *)NULL)))
+    libusb_close(hpmud_make_usb_uri__1__hd);
 
   if(!(list == ((struct libusb_device **)NULL)))
     libusb_free_device_list(list, 1);
@@ -9450,13 +9450,13 @@ bugout:
 enum HPMUD_RESULT hpmud_open_channel(signed int dd, const char *channel_name, signed int *cd)
 {
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_INVALID_STATE;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(dd >= 3 || !(dd >= 1))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = msp->device[(signed long int)dd].index != dd ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = msp->device[(signed long int)dd].index != dd ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     syslog(3, "io/hpmud/hpmud.c 683: invalid channel_open state\n");
 
   else
@@ -9522,9 +9522,9 @@ enum HPMUD_RESULT hpmud_probe_devices(enum HPMUD_BUS_ID bus, char *buf, signed i
         if((signed int)bus == HPMUD_BUS_ALL)
         {
           len=musb_probe_devices(buf, buf_size, cnt, (enum HPMUD_DEVICE_TYPE)HPMUD_AIO);
-          signed int return_value_pp_probe_devices$1;
-          return_value_pp_probe_devices$1=pp_probe_devices(buf + (signed long int)len, buf_size - len, cnt);
-          len = len + return_value_pp_probe_devices$1;
+          signed int return_value_pp_probe_devices_1;
+          return_value_pp_probe_devices_1=pp_probe_devices(buf + (signed long int)len, buf_size - len, cnt);
+          len = len + return_value_pp_probe_devices_1;
         }
 
     *bytes_read = len;
@@ -9547,9 +9547,9 @@ enum HPMUD_RESULT hpmud_probe_printers(enum HPMUD_BUS_ID bus, char *buf, signed 
     if((signed int)bus == HPMUD_BUS_ALL)
     {
       len=musb_probe_devices(buf, buf_size, cnt, (enum HPMUD_DEVICE_TYPE)HPMUD_PRINTER);
-      signed int return_value_pp_probe_devices$1;
-      return_value_pp_probe_devices$1=pp_probe_devices(buf + (signed long int)len, buf_size - len, cnt);
-      len = len + return_value_pp_probe_devices$1;
+      signed int return_value_pp_probe_devices_1;
+      return_value_pp_probe_devices_1=pp_probe_devices(buf + (signed long int)len, buf_size - len, cnt);
+      len = len + return_value_pp_probe_devices_1;
     }
 
     *bytes_read = len;
@@ -9565,9 +9565,9 @@ enum HPMUD_RESULT hpmud_query_model(char *uri, struct hpmud_model_attributes *ma
   signed int len;
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_DATFILE_ERROR;
   parse_key_value_pair((char *)(void *)0, 0, ma);
-  enum HPMUD_RESULT return_value_hpmud_get_model_attributes$1;
-  return_value_hpmud_get_model_attributes$1=hpmud_get_model_attributes(uri, buf, (signed int)sizeof(char [4096l]) /*4096ul*/ , &len);
-  if((signed int)return_value_hpmud_get_model_attributes$1 == 0)
+  enum HPMUD_RESULT return_value_hpmud_get_model_attributes_1;
+  return_value_hpmud_get_model_attributes_1=hpmud_get_model_attributes(uri, buf, (signed int)sizeof(char [4096l]) /*4096ul*/ , &len);
+  if((signed int)return_value_hpmud_get_model_attributes_1 == 0)
   {
     parse_key_value_pair(buf, len, ma);
     stat = (enum HPMUD_RESULT)HPMUD_R_OK;
@@ -9584,19 +9584,19 @@ bugout:
 enum HPMUD_RESULT hpmud_read_channel(signed int dd, signed int cd, void *buf, signed int size, signed int sec_timeout, signed int *bytes_read)
 {
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_INVALID_STATE;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(dd >= 3 || !(dd >= 1))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = msp->device[(signed long int)dd].index != dd ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(cd >= 48 || !(cd >= 1) || tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = msp->device[(signed long int)dd].index != dd ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(cd >= 48 || !(cd >= 1) || tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = msp->device[(signed long int)dd].channel[(signed long int)cd].client_cnt == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = msp->device[(signed long int)dd].channel[(signed long int)cd].client_cnt == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     syslog(3, "io/hpmud/hpmud.c 739: invalid channel_read state\n");
 
   else
@@ -9625,25 +9625,25 @@ enum HPMUD_RESULT hpmud_set_pml(signed int device, signed int channel, const cha
   signed int port;
   struct hpmud_dstat ds;
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_IO_ERROR;
-  enum HPMUD_RESULT return_value_hpmud_get_dstat$1;
-  return_value_hpmud_get_dstat$1=hpmud_get_dstat(device, &ds);
-  result = (signed int)return_value_hpmud_get_dstat$1;
-  char *return_value_strcasestr$10;
-  signed long int return_value_strtol$2;
+  enum HPMUD_RESULT return_value_hpmud_get_dstat_1;
+  return_value_hpmud_get_dstat_1=hpmud_get_dstat(device, &ds);
+  result = (signed int)return_value_hpmud_get_dstat_1;
+  char *return_value_strcasestr_10;
+  signed long int return_value_strtol_2;
   if(!(result == HPMUD_R_OK))
     stat = (enum HPMUD_RESULT)result;
 
   else
   {
-    return_value_strcasestr$10=strcasestr(ds.uri, "net/");
-    if(!(return_value_strcasestr$10 == ((char *)NULL)))
+    return_value_strcasestr_10=strcasestr(ds.uri, "net/");
+    if(!(return_value_strcasestr_10 == ((char *)NULL)))
     {
       hpmud_get_uri_datalink(ds.uri, ip, (signed int)sizeof(char [256l]) /*256ul*/ );
       psz=strstr(ds.uri, "port=");
       if(!(psz == ((char *)NULL)))
       {
-        return_value_strtol$2=strtol(psz + (signed long int)5, &tail, 10);
-        port = (signed int)return_value_strtol$2;
+        return_value_strtol_2=strtol(psz + (signed long int)5, &tail, 10);
+        port = (signed int)return_value_strtol_2;
       }
 
       else
@@ -9661,15 +9661,15 @@ enum HPMUD_RESULT hpmud_set_pml(signed int device, signed int channel, const cha
     else
     {
       dLen=SnmpToPml(snmp_oid, oid, (signed int)sizeof(unsigned char [256l]) /*256ul*/ );
-      unsigned char *tmp_post$3 = p;
+      unsigned char *tmp_post_3 = p;
       p = p + 1l;
-      *tmp_post$3 = (unsigned char)4;
-      unsigned char *tmp_post$4 = p;
+      *tmp_post_3 = (unsigned char)4;
+      unsigned char *tmp_post_4 = p;
       p = p + 1l;
-      *tmp_post$4 = (unsigned char)0;
-      unsigned char *tmp_post$5 = p;
+      *tmp_post_4 = (unsigned char)0;
+      unsigned char *tmp_post_5 = p;
       p = p + 1l;
-      *tmp_post$5 = (unsigned char)dLen;
+      *tmp_post_5 = (unsigned char)dLen;
       memcpy((void *)p, (const void *)oid, (unsigned long int)dLen);
       p = p + (signed long int)dLen;
       *p = (unsigned char)type;
@@ -9677,9 +9677,9 @@ enum HPMUD_RESULT hpmud_set_pml(signed int device, signed int channel, const cha
       p[(signed long int)1] = (unsigned char)(data_size & 0xff);
       p = p + (signed long int)2;
       memcpy((void *)p, data, (unsigned long int)data_size);
-      enum HPMUD_RESULT return_value_hpmud_write_channel$6;
-      return_value_hpmud_write_channel$6=hpmud_write_channel(device, channel, (const void *)message, dLen + data_size + 3 + 2, 45, &len);
-      result = (signed int)return_value_hpmud_write_channel$6;
+      enum HPMUD_RESULT return_value_hpmud_write_channel_6;
+      return_value_hpmud_write_channel_6=hpmud_write_channel(device, channel, (const void *)message, dLen + data_size + 3 + 2, 45, &len);
+      result = (signed int)return_value_hpmud_write_channel_6;
       if(!(result == HPMUD_R_OK))
       {
         syslog(3, "io/hpmud/pml.c 374: SetPml channel_write failed ret=%d\n", result);
@@ -9687,9 +9687,9 @@ enum HPMUD_RESULT hpmud_set_pml(signed int device, signed int channel, const cha
         goto bugout;
       }
 
-      enum HPMUD_RESULT return_value_hpmud_read_channel$7;
-      return_value_hpmud_read_channel$7=hpmud_read_channel(device, channel, (void *)message, (signed int)sizeof(unsigned char [16384l]) /*16384ul*/ , 45, &len);
-      result = (signed int)return_value_hpmud_read_channel$7;
+      enum HPMUD_RESULT return_value_hpmud_read_channel_7;
+      return_value_hpmud_read_channel_7=hpmud_read_channel(device, channel, (void *)message, (signed int)sizeof(unsigned char [16384l]) /*16384ul*/ , 45, &len);
+      result = (signed int)return_value_hpmud_read_channel_7;
       if(len == 0 || !(result == HPMUD_R_OK))
       {
         syslog(3, "io/hpmud/pml.c 382: SetPml channel_read failed ret=%d len=%d\n", result, len);
@@ -9697,12 +9697,12 @@ enum HPMUD_RESULT hpmud_set_pml(signed int device, signed int channel, const cha
       }
 
       p = message;
-      unsigned char *tmp_post$8 = p;
+      unsigned char *tmp_post_8 = p;
       p = p + 1l;
-      reply = (signed int)*tmp_post$8;
-      unsigned char *tmp_post$9 = p;
+      reply = (signed int)*tmp_post_8;
+      unsigned char *tmp_post_9 = p;
       p = p + 1l;
-      status = (signed int)*tmp_post$9;
+      status = (signed int)*tmp_post_9;
       if(!((0x80 & status) == 0) && !(reply == 132))
       {
         syslog(3, "io/hpmud/pml.c 392: SetPml failed reply=%x outcome=%x\n", reply, status);
@@ -9724,19 +9724,19 @@ bugout:
 enum HPMUD_RESULT hpmud_write_channel(signed int dd, signed int cd, const void *buf, signed int size, signed int sec_timeout, signed int *bytes_wrote)
 {
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_INVALID_STATE;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(dd >= 3 || !(dd >= 1))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = msp->device[(signed long int)dd].index != dd ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(cd >= 48 || !(cd >= 1) || tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = msp->device[(signed long int)dd].index != dd ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(cd >= 48 || !(cd >= 1) || tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = msp->device[(signed long int)dd].channel[(signed long int)cd].client_cnt == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = msp->device[(signed long int)dd].channel[(signed long int)cd].client_cnt == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     syslog(3, "io/hpmud/hpmud.c 721: invalid channel_write state\n");
 
   else
@@ -9752,15 +9752,15 @@ bugout:
 signed int is_hp(const char *id)
 {
   char *pMf;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(id == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)id[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  signed int return_value_strncasecmp$3;
-  signed int return_value_strncasecmp$5;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)id[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  signed int return_value_strncasecmp_3;
+  signed int return_value_strncasecmp_5;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -9778,27 +9778,27 @@ signed int is_hp(const char *id)
       else
         return 0;
     }
-    signed int return_value_strncasecmp$2;
-    return_value_strncasecmp$2=strncasecmp(pMf, "HEWLETT-PACKARD", (unsigned long int)15);
-    _Bool tmp_if_expr$4;
-    if(return_value_strncasecmp$2 == 0)
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value_strncasecmp_2;
+    return_value_strncasecmp_2=strncasecmp(pMf, "HEWLETT-PACKARD", (unsigned long int)15);
+    _Bool tmp_if_expr_4;
+    if(return_value_strncasecmp_2 == 0)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_strncasecmp$3=strncasecmp(pMf, "APOLLO", (unsigned long int)6);
-      tmp_if_expr$4 = return_value_strncasecmp$3 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strncasecmp_3=strncasecmp(pMf, "APOLLO", (unsigned long int)6);
+      tmp_if_expr_4 = return_value_strncasecmp_3 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    _Bool tmp_if_expr$6;
-    if(tmp_if_expr$4)
-      tmp_if_expr$6 = (_Bool)1;
+    _Bool tmp_if_expr_6;
+    if(tmp_if_expr_4)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_strncasecmp$5=strncasecmp(pMf, "HP", (unsigned long int)2);
-      tmp_if_expr$6 = return_value_strncasecmp$5 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strncasecmp_5=strncasecmp(pMf, "HP", (unsigned long int)2);
+      tmp_if_expr_6 = return_value_strncasecmp_5 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
       return 1;
 
     else
@@ -9810,15 +9810,15 @@ signed int is_hp(const char *id)
 // file io/hpmud/musb.c line 640
 static signed int is_serial(struct libusb_device *dev, const char *sn, char *model, signed int model_size)
 {
-  struct libusb_device_handle *is_serial$$1$$hd = (struct libusb_device_handle *)(void *)0;
+  struct libusb_device_handle *is_serial__1__hd = (struct libusb_device_handle *)(void *)0;
   struct libusb_device_descriptor devdesc;
   char sz[128l];
   char gen[128l];
   signed int r;
   signed int stat = 0;
-  libusb_open(dev, &is_serial$$1$$hd);
-  signed int return_value_strncmp$1;
-  if(is_serial$$1$$hd == ((struct libusb_device_handle *)NULL))
+  libusb_open(dev, &is_serial__1__hd);
+  signed int return_value_strncmp_1;
+  if(is_serial__1__hd == ((struct libusb_device_handle *)NULL))
     syslog(3, "io/hpmud/musb.c 651: invalid usb_open: %m\n");
 
   else
@@ -9826,7 +9826,7 @@ static signed int is_serial(struct libusb_device *dev, const char *sn, char *mod
     libusb_get_device_descriptor(dev, &devdesc);
     if((signed int)devdesc.idVendor == 0x3f0)
     {
-      r=get_string_descriptor(is_serial$$1$$hd, (signed int)devdesc.iSerialNumber, sz, sizeof(char [128l]) /*128ul*/ );
+      r=get_string_descriptor(is_serial__1__hd, (signed int)devdesc.iSerialNumber, sz, sizeof(char [128l]) /*128ul*/ );
       if(!(r >= 0))
         syslog(3, "io/hpmud/musb.c 661: invalid serial id string ret=%d\n", r);
 
@@ -9837,10 +9837,10 @@ static signed int is_serial(struct libusb_device *dev, const char *sn, char *mod
 
         else
           strcpy(gen, "0");
-        return_value_strncmp$1=strncmp(sn, gen, sizeof(char [128l]) /*128ul*/ );
-        if(return_value_strncmp$1 == 0)
+        return_value_strncmp_1=strncmp(sn, gen, sizeof(char [128l]) /*128ul*/ );
+        if(return_value_strncmp_1 == 0)
         {
-          r=get_string_descriptor(is_serial$$1$$hd, (signed int)devdesc.iProduct, sz, sizeof(char [128l]) /*128ul*/ );
+          r=get_string_descriptor(is_serial__1__hd, (signed int)devdesc.iProduct, sz, sizeof(char [128l]) /*128ul*/ );
           if(!(r >= 0))
             syslog(3, "io/hpmud/musb.c 674: invalid product id string ret=%d\n", r);
 
@@ -9858,8 +9858,8 @@ static signed int is_serial(struct libusb_device *dev, const char *sn, char *mod
 
 bugout:
   ;
-  if(!(is_serial$$1$$hd == ((struct libusb_device_handle *)NULL)))
-    libusb_close(is_serial$$1$$hd);
+  if(!(is_serial__1__hd == ((struct libusb_device_handle *)NULL)))
+    libusb_close(is_serial__1__hd);
 
   return stat;
 }
@@ -9868,7 +9868,7 @@ bugout:
 // file io/hpmud/musb.c line 585
 static signed int is_uri(struct libusb_device *dev, const char *uri)
 {
-  struct libusb_device_handle *is_uri$$1$$hd = (struct libusb_device_handle *)(void *)0;
+  struct libusb_device_handle *is_uri__1__hd = (struct libusb_device_handle *)(void *)0;
   struct libusb_device_descriptor devdesc;
   char sz[128l];
   char uriModel[128l];
@@ -9876,10 +9876,10 @@ static signed int is_uri(struct libusb_device *dev, const char *uri)
   char gen[128l];
   signed int r;
   signed int stat = 0;
-  libusb_open(dev, &is_uri$$1$$hd);
-  signed int return_value_strcasecmp$1;
-  signed int return_value_strcmp$2;
-  if(is_uri$$1$$hd == ((struct libusb_device_handle *)NULL))
+  libusb_open(dev, &is_uri__1__hd);
+  signed int return_value_strcasecmp_1;
+  signed int return_value_strcmp_2;
+  if(is_uri__1__hd == ((struct libusb_device_handle *)NULL))
     syslog(3, "io/hpmud/musb.c 595: invalid usb_open: %m\n");
 
   else
@@ -9887,7 +9887,7 @@ static signed int is_uri(struct libusb_device *dev, const char *uri)
     libusb_get_device_descriptor(dev, &devdesc);
     if((signed int)devdesc.idVendor == 0x3f0)
     {
-      r=get_string_descriptor(is_uri$$1$$hd, (signed int)devdesc.iProduct, sz, sizeof(char [128l]) /*128ul*/ );
+      r=get_string_descriptor(is_uri__1__hd, (signed int)devdesc.iProduct, sz, sizeof(char [128l]) /*128ul*/ );
       if(!(r >= 0))
         syslog(3, "io/hpmud/musb.c 605: invalid product id string ret=%d\n", r);
 
@@ -9895,10 +9895,10 @@ static signed int is_uri(struct libusb_device *dev, const char *uri)
       {
         generalize_model(sz, gen, (signed int)sizeof(char [128l]) /*128ul*/ );
         hpmud_get_uri_model(uri, uriModel, (signed int)sizeof(char [128l]) /*128ul*/ );
-        return_value_strcasecmp$1=strcasecmp(uriModel, gen);
-        if(return_value_strcasecmp$1 == 0)
+        return_value_strcasecmp_1=strcasecmp(uriModel, gen);
+        if(return_value_strcasecmp_1 == 0)
         {
-          r=get_string_descriptor(is_uri$$1$$hd, (signed int)devdesc.iSerialNumber, sz, sizeof(char [128l]) /*128ul*/ );
+          r=get_string_descriptor(is_uri__1__hd, (signed int)devdesc.iSerialNumber, sz, sizeof(char [128l]) /*128ul*/ );
           if(!(r >= 0))
             syslog(3, "io/hpmud/musb.c 617: invalid serial id string ret=%d\n", r);
 
@@ -9910,8 +9910,8 @@ static signed int is_uri(struct libusb_device *dev, const char *uri)
             else
               strcpy(gen, "0");
             get_uri_serial(uri, uriSerial, (signed int)sizeof(char [128l]) /*128ul*/ );
-            return_value_strcmp$2=strcmp(uriSerial, gen);
-            if(return_value_strcmp$2 == 0)
+            return_value_strcmp_2=strcmp(uriSerial, gen);
+            if(return_value_strcmp_2 == 0)
               stat = 1;
 
           }
@@ -9924,8 +9924,8 @@ static signed int is_uri(struct libusb_device *dev, const char *uri)
 
 bugout:
   ;
-  if(!(is_uri$$1$$hd == ((struct libusb_device_handle *)NULL)))
-    libusb_close(is_uri$$1$$hd);
+  if(!(is_uri__1__hd == ((struct libusb_device_handle *)NULL)))
+    libusb_close(is_uri__1__hd);
 
   return stat;
 }
@@ -9949,12 +9949,12 @@ enum HPMUD_RESULT jd_channel_open(struct _mud_device *pd, const char *sn, signed
   signed int index;
   enum HPMUD_RESULT stat;
   stat=service_to_channel(pd, sn, &index);
-  signed int return_value_new_channel$1;
+  signed int return_value_new_channel_1;
   if((signed int)stat == HPMUD_R_OK)
   {
     pthread_mutex_lock(&pd->mutex);
-    return_value_new_channel$1=new_channel(pd, index, sn);
-    if(!(return_value_new_channel$1 == 0))
+    return_value_new_channel_1=new_channel(pd, index, sn);
+    if(!(return_value_new_channel_1 == 0))
       stat = (enum HPMUD_RESULT)HPMUD_R_DEVICE_BUSY;
 
     else
@@ -10024,13 +10024,13 @@ enum HPMUD_RESULT jd_get_device_id(struct _mud_device *pd, char *buf, signed int
   *len=device_id(pd->ip, pd->port, pd->id, (signed int)sizeof(char [1024l]) /*1024ul*/ );
   if(!(*len == 0))
   {
-    signed int tmp_if_expr$1;
+    signed int tmp_if_expr_1;
     if(!(size >= *len))
-      tmp_if_expr$1 = size;
+      tmp_if_expr_1 = size;
 
     else
-      tmp_if_expr$1 = *len;
-    memcpy((void *)buf, (const void *)pd->id, (unsigned long int)tmp_if_expr$1);
+      tmp_if_expr_1 = *len;
+    memcpy((void *)buf, (const void *)pd->id, (unsigned long int)tmp_if_expr_1);
     stat = (enum HPMUD_RESULT)HPMUD_R_OK;
   }
 
@@ -10058,12 +10058,12 @@ enum HPMUD_RESULT jd_open(struct _mud_device *pd)
   signed int printqueue = 0;
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_IO_ERROR;
   pthread_mutex_lock(&pd->mutex);
-  char *return_value_strstr$1;
-  return_value_strstr$1=strstr(pd->uri, "queue=false");
-  printqueue = return_value_strstr$1 != ((char *)NULL) ? 0 : 1;
-  char *return_value_strstr$2;
-  return_value_strstr$2=strstr(pd->uri, "scanjet");
-  if(!(return_value_strstr$2 == ((char *)NULL)))
+  char *return_value_strstr_1;
+  return_value_strstr_1=strstr(pd->uri, "queue=false");
+  printqueue = return_value_strstr_1 != ((char *)NULL) ? 0 : 1;
+  char *return_value_strstr_2;
+  return_value_strstr_2=strstr(pd->uri, "scanjet");
+  if(!(return_value_strstr_2 == ((char *)NULL)))
     printqueue = 0;
 
   if((signed int)pd->id[0l] == 0)
@@ -10101,9 +10101,9 @@ enum HPMUD_RESULT jd_open(struct _mud_device *pd)
     {
       hpmud_get_uri_model(pd->uri, uri_model, (signed int)sizeof(char [128l]) /*128ul*/ );
       hpmud_get_model(pd->id, model, (signed int)sizeof(char [128l]) /*128ul*/ );
-      signed int return_value_strcasecmp$3;
-      return_value_strcasecmp$3=strcasecmp(uri_model, model);
-      if(!(return_value_strcasecmp$3 == 0))
+      signed int return_value_strcasecmp_3;
+      return_value_strcasecmp_3=strcasecmp(uri_model, model);
+      if(!(return_value_strcasecmp_3 == 0))
       {
         stat = (enum HPMUD_RESULT)HPMUD_R_INVALID_URI;
         syslog(3, "io/hpmud/jd.c 214: invalid uri model %s != %s\n", (const void *)uri_model, (const void *)model);
@@ -10151,9 +10151,9 @@ enum HPMUD_RESULT jd_s_channel_open(struct _mud_channel *pc)
   bzero((void *)&tmp_pin, sizeof(struct sockaddr_in) /*16ul*/ );
   bzero((void *)&pin, sizeof(struct sockaddr_in) /*16ul*/ );
   pin.sin_family = (unsigned short int)2;
-  signed int return_value_inet_pton$1;
-  return_value_inet_pton$1=inet_pton(2, pd->ip, (void *)&tmp_pin.sin_addr);
-  if(!(return_value_inet_pton$1 == 0))
+  signed int return_value_inet_pton_1;
+  return_value_inet_pton_1=inet_pton(2, pd->ip, (void *)&tmp_pin.sin_addr);
+  if(!(return_value_inet_pton_1 == 0))
     pin.sin_addr.s_addr=inet_addr(pd->ip);
 
   else
@@ -10167,16 +10167,16 @@ enum HPMUD_RESULT jd_s_channel_open(struct _mud_channel *pc)
 
     pin.sin_addr = *((struct in_addr *)he->h_addr_list[(signed long int)0]);
   }
-  signed int return_value_connect$2;
-  signed int return_value_connect$4;
-  signed int return_value_connect$5;
-  signed int return_value_connect$6;
-  signed int return_value_connect$7;
-  signed int return_value_connect$8;
-  signed int return_value_connect$9;
-  signed int return_value_connect$10;
-  signed int return_value_connect$11;
-  signed int return_value_connect$12;
+  signed int return_value_connect_2;
+  signed int return_value_connect_4;
+  signed int return_value_connect_5;
+  signed int return_value_connect_6;
+  signed int return_value_connect_7;
+  signed int return_value_connect_8;
+  signed int return_value_connect_9;
+  signed int return_value_connect_10;
+  signed int return_value_connect_11;
+  signed int return_value_connect_12;
   switch(pc->index)
   {
     case 2:
@@ -10190,8 +10190,8 @@ enum HPMUD_RESULT jd_s_channel_open(struct _mud_channel *pc)
         goto bugout;
       }
 
-      return_value_connect$2=connect(pc->socket, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(return_value_connect$2 == -1)
+      return_value_connect_2=connect(pc->socket, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(return_value_connect_2 == -1)
       {
         syslog(3, "io/hpmud/jd.c 373: unable to connect to print port %d: %m %s\n", port, (const void *)pd->uri);
         goto bugout;
@@ -10214,12 +10214,12 @@ enum HPMUD_RESULT jd_s_channel_open(struct _mud_channel *pc)
         goto bugout;
       }
 
-      return_value_connect$4=connect(pc->socket, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(return_value_connect$4 == -1)
+      return_value_connect_4=connect(pc->socket, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(return_value_connect_4 == -1)
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        syslog(3, "io/hpmud/jd.c 391: unable to connect to scan err=%d port %d: %m %s\n", *return_value___errno_location$3, port, (const void *)pd->uri);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        syslog(3, "io/hpmud/jd.c 391: unable to connect to scan err=%d port %d: %m %s\n", *return_value___errno_location_3, port, (const void *)pd->uri);
         goto bugout;
       }
 
@@ -10257,8 +10257,8 @@ enum HPMUD_RESULT jd_s_channel_open(struct _mud_channel *pc)
         goto bugout;
       }
 
-      return_value_connect$5=connect(pc->socket, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(return_value_connect$5 == -1)
+      return_value_connect_5=connect(pc->socket, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(return_value_connect_5 == -1)
       {
         syslog(3, "io/hpmud/jd.c 420: unable to connect to port %d: %m %s\n", port, (const void *)pd->uri);
         goto bugout;
@@ -10306,8 +10306,8 @@ enum HPMUD_RESULT jd_s_channel_open(struct _mud_channel *pc)
         goto bugout;
       }
 
-      return_value_connect$6=connect(pc->socket, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(return_value_connect$6 == -1)
+      return_value_connect_6=connect(pc->socket, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(return_value_connect_6 == -1)
       {
         syslog(3, "io/hpmud/jd.c 461: unable to connect to ews port %d: %m %s\n", port, (const void *)pd->uri);
         goto bugout;
@@ -10326,8 +10326,8 @@ enum HPMUD_RESULT jd_s_channel_open(struct _mud_channel *pc)
         goto bugout;
       }
 
-      return_value_connect$7=connect(pc->socket, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(return_value_connect$7 == -1)
+      return_value_connect_7=connect(pc->socket, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(return_value_connect_7 == -1)
       {
         syslog(3, "io/hpmud/jd.c 475: unable to connect to soap-scan port %d: %m %s\n", port, (const void *)pd->uri);
         goto bugout;
@@ -10346,8 +10346,8 @@ enum HPMUD_RESULT jd_s_channel_open(struct _mud_channel *pc)
         goto bugout;
       }
 
-      return_value_connect$8=connect(pc->socket, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(return_value_connect$8 == -1)
+      return_value_connect_8=connect(pc->socket, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(return_value_connect_8 == -1)
       {
         syslog(3, "io/hpmud/jd.c 489: unable to connect to soap-fax port %d: %m %s\n", port, (const void *)pd->uri);
         goto bugout;
@@ -10366,8 +10366,8 @@ enum HPMUD_RESULT jd_s_channel_open(struct _mud_channel *pc)
         goto bugout;
       }
 
-      return_value_connect$9=connect(pc->socket, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(return_value_connect$9 == -1)
+      return_value_connect_9=connect(pc->socket, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(return_value_connect_9 == -1)
       {
         syslog(3, "io/hpmud/jd.c 503: unable to connect to marvell-scan port %d: %m %s\n", port, (const void *)pd->uri);
         goto bugout;
@@ -10390,8 +10390,8 @@ enum HPMUD_RESULT jd_s_channel_open(struct _mud_channel *pc)
         goto bugout;
       }
 
-      return_value_connect$10=connect(pc->socket, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(return_value_connect$10 == -1)
+      return_value_connect_10=connect(pc->socket, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(return_value_connect_10 == -1)
       {
         syslog(3, "io/hpmud/jd.c 519: unable to connect to ledm-scan port %d: %m %s\n", port, (const void *)pd->uri);
         goto bugout;
@@ -10410,8 +10410,8 @@ enum HPMUD_RESULT jd_s_channel_open(struct _mud_channel *pc)
         goto bugout;
       }
 
-      return_value_connect$11=connect(pc->socket, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(return_value_connect$11 == -1)
+      return_value_connect_11=connect(pc->socket, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(return_value_connect_11 == -1)
       {
         syslog(3, "io/hpmud/jd.c 533: unable to connect to ipp port %d: %m %s\n", port, (const void *)pd->uri);
         goto bugout;
@@ -10430,8 +10430,8 @@ enum HPMUD_RESULT jd_s_channel_open(struct _mud_channel *pc)
         goto bugout;
       }
 
-      return_value_connect$12=connect(pc->socket, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(return_value_connect$12 == -1)
+      return_value_connect_12=connect(pc->socket, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(return_value_connect_12 == -1)
       {
         syslog(3, "io/hpmud/jd.c 547: unable to connect to marvell-fax port %d: %m %s\n", port, (const void *)pd->uri);
         goto bugout;
@@ -10462,8 +10462,8 @@ enum HPMUD_RESULT jd_s_channel_read(struct _mud_channel *pc, void *buf, signed i
   struct _mud_device *pd = &msp->device[(signed long int)pc->dindex];
   signed int len = 0;
   struct timeval tmo;
-  struct anonymous$14 master;
-  struct anonymous$14 readfd;
+  struct anonymous_14 master;
+  struct anonymous_14 readfd;
   signed int maxfd;
   signed int ret;
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_IO_ERROR;
@@ -10480,7 +10480,7 @@ enum HPMUD_RESULT jd_s_channel_read(struct _mud_channel *pc, void *buf, signed i
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$14) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&master)->fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_14) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&master)->fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     (&master)->fds_bits[(signed long int)(pc->socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&master)->fds_bits[(signed long int)(pc->socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << pc->socket % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
@@ -10488,7 +10488,7 @@ enum HPMUD_RESULT jd_s_channel_read(struct _mud_channel *pc, void *buf, signed i
     tmo.tv_sec = (signed long int)sec_timeout;
     tmo.tv_usec = (signed long int)0;
     readfd = master;
-    ret=select(maxfd + 1, &readfd, (struct anonymous$14 *)(void *)0, (struct anonymous$14 *)(void *)0, &tmo);
+    ret=select(maxfd + 1, &readfd, (struct anonymous_14 *)(void *)0, (struct anonymous_14 *)(void *)0, &tmo);
     if(!(ret >= 0))
       syslog(3, "io/hpmud/jd.c 671: unable to read_channel: %m %s\n", (const void *)pd->uri);
 
@@ -10503,9 +10503,9 @@ enum HPMUD_RESULT jd_s_channel_read(struct _mud_channel *pc, void *buf, signed i
 
       else
       {
-        signed long int return_value_recv$1;
-        return_value_recv$1=recv(pc->socket, buf, (unsigned long int)length, 0);
-        len = (signed int)return_value_recv$1;
+        signed long int return_value_recv_1;
+        return_value_recv_1=recv(pc->socket, buf, (unsigned long int)length, 0);
+        len = (signed int)return_value_recv_1;
         if(!(len >= 0))
         {
           syslog(3, "io/hpmud/jd.c 685: unable to read_channel: %m %s\n", (const void *)pd->uri);
@@ -10532,8 +10532,8 @@ enum HPMUD_RESULT jd_s_channel_write(struct _mud_channel *pc, const void *buf, s
   signed int size;
   signed int total = 0;
   struct timeval tmo;
-  struct anonymous$14 master;
-  struct anonymous$14 writefd;
+  struct anonymous_14 master;
+  struct anonymous_14 writefd;
   signed int maxfd;
   signed int ret;
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_IO_ERROR;
@@ -10551,7 +10551,7 @@ enum HPMUD_RESULT jd_s_channel_write(struct _mud_channel *pc, const void *buf, s
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$14) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&master)->fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_14) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&master)->fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     (&master)->fds_bits[(signed long int)(pc->socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&master)->fds_bits[(signed long int)(pc->socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << pc->socket % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
@@ -10562,7 +10562,7 @@ enum HPMUD_RESULT jd_s_channel_write(struct _mud_channel *pc, const void *buf, s
       tmo.tv_sec = (signed long int)45;
       tmo.tv_usec = (signed long int)0;
       writefd = master;
-      ret=select(maxfd + 1, (struct anonymous$14 *)(void *)0, &writefd, (struct anonymous$14 *)(void *)0, &tmo);
+      ret=select(maxfd + 1, (struct anonymous_14 *)(void *)0, &writefd, (struct anonymous_14 *)(void *)0, &tmo);
       if(ret == 0)
       {
         stat = (enum HPMUD_RESULT)HPMUD_R_IO_TIMEOUT;
@@ -10570,9 +10570,9 @@ enum HPMUD_RESULT jd_s_channel_write(struct _mud_channel *pc, const void *buf, s
         goto bugout;
       }
 
-      signed long int return_value_send$1;
-      return_value_send$1=send(pc->socket, buf + (signed long int)total, (unsigned long int)size, 0);
-      len = (signed int)return_value_send$1;
+      signed long int return_value_send_1;
+      return_value_send_1=send(pc->socket, buf + (signed long int)total, (unsigned long int)size, 0);
+      len = (signed int)return_value_send_1;
       if(!(len >= 0))
       {
         syslog(3, "io/hpmud/jd.c 621: unable to write_channel: %m %s\n", (const void *)pd->uri);
@@ -10650,14 +10650,14 @@ static inline void list_del(struct list_head *entry)
 void * load_library(const char *szLibraryFile)
 {
   void *pHandler = (void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(szLibraryFile == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)szLibraryFile[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  char *return_value_dlerror$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)szLibraryFile[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  char *return_value_dlerror_2;
+  if(tmp_if_expr_1)
   {
     syslog(3, "common/utils.c 183: Invalid Library name\n");
     return pHandler;
@@ -10668,8 +10668,8 @@ void * load_library(const char *szLibraryFile)
     pHandler=dlopen(szLibraryFile, 0x00002 | 0x00100);
     if(pHandler == NULL)
     {
-      return_value_dlerror$2=dlerror();
-      syslog(3, "common/utils.c 188: unable to load library %s: %s\n", szLibraryFile, return_value_dlerror$2);
+      return_value_dlerror_2=dlerror();
+      syslog(3, "common/utils.c 188: unable to load library %s: %s\n", szLibraryFile, return_value_dlerror_2);
     }
 
     return pHandler;
@@ -10683,13 +10683,13 @@ void * load_plugin_library(enum UTILS_PLUGIN_LIBRARY_TYPE eLibraryType, const ch
   void *pHandler = (void *)0;
   char szHome[256l];
   char szLibraryFile[256l];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(szPluginName == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)szPluginName[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)szPluginName[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     syslog(3, "common/utils.c 145: Invalid Library name\n");
     return pHandler;
@@ -10697,9 +10697,9 @@ void * load_plugin_library(enum UTILS_PLUGIN_LIBRARY_TYPE eLibraryType, const ch
 
   else
   {
-    enum UTILS_CONF_RESULT return_value_get_conf$2;
-    return_value_get_conf$2=get_conf("[dirs]", "home", szHome, (signed int)sizeof(char [256l]) /*256ul*/ );
-    if(!((signed int)return_value_get_conf$2 == UTILS_CONF_OK))
+    enum UTILS_CONF_RESULT return_value_get_conf_2;
+    return_value_get_conf_2=get_conf("[dirs]", "home", szHome, (signed int)sizeof(char [256l]) /*256ul*/ );
+    if(!((signed int)return_value_get_conf_2 == UTILS_CONF_OK))
     {
       syslog(3, "common/utils.c 151: Failed to find the home directory from hplip.conf file\n");
       return pHandler;
@@ -10707,9 +10707,9 @@ void * load_plugin_library(enum UTILS_PLUGIN_LIBRARY_TYPE eLibraryType, const ch
 
     else
     {
-      enum UTILS_PLUGIN_STATUS return_value_validate_plugin_version$3;
-      return_value_validate_plugin_version$3=validate_plugin_version();
-      if(!((signed int)return_value_validate_plugin_version$3 == UTILS_PLUGIN_STATUS_OK))
+      enum UTILS_PLUGIN_STATUS return_value_validate_plugin_version_3;
+      return_value_validate_plugin_version_3=validate_plugin_version();
+      if(!((signed int)return_value_validate_plugin_version_3 == UTILS_PLUGIN_STATUS_OK))
       {
         syslog(3, "common/utils.c 157: Plugin version is not matching \n");
         return pHandler;
@@ -10733,9 +10733,9 @@ void * load_plugin_library(enum UTILS_PLUGIN_LIBRARY_TYPE eLibraryType, const ch
               syslog(3, "common/utils.c 169: Invalid Library Type =%d \n", eLibraryType);
               return pHandler;
             }
-        void *return_value_load_library$4;
-        return_value_load_library$4=load_library(szLibraryFile);
-        return return_value_load_library$4;
+        void *return_value_load_library_4;
+        return_value_load_library_4=load_library(szLibraryFile);
+        return return_value_load_library_4;
       }
     }
   }
@@ -10753,7 +10753,7 @@ signed int main(signed int argc, char **argv)
   char *tail;
   signed int i;
   signed int stat = -1;
-  struct anonymous$35 pa;
+  struct anonymous_35 pa;
   struct hpmud_model_attributes ma;
   do
   {
@@ -10800,32 +10800,32 @@ signed int main(signed int argc, char **argv)
   if((signed int)uri[0l] == 0)
     get_uri(uri, (signed int)sizeof(char [256l]) /*256ul*/ );
 
-  enum HPMUD_RESULT return_value_hpmud_open_device$1;
-  enum HPMUD_RESULT return_value_hpmud_open_channel$2;
-  signed int return_value_FatInit$3;
-  signed int return_value_strcasecmp$11;
-  signed int return_value_strcasecmp$10;
-  signed int return_value_strcasecmp$9;
+  enum HPMUD_RESULT return_value_hpmud_open_device_1;
+  enum HPMUD_RESULT return_value_hpmud_open_channel_2;
+  signed int return_value_FatInit_3;
+  signed int return_value_strcasecmp_11;
+  signed int return_value_strcasecmp_10;
+  signed int return_value_strcasecmp_9;
   if((signed int)uri[0l] == 0)
     bug("no uri found\n");
 
   else
   {
     hpmud_query_model(uri, &ma);
-    return_value_hpmud_open_device$1=hpmud_open_device(uri, ma.mfp_mode, &hd);
-    if(!((signed int)return_value_hpmud_open_device$1 == HPMUD_R_OK))
+    return_value_hpmud_open_device_1=hpmud_open_device(uri, ma.mfp_mode, &hd);
+    if(!((signed int)return_value_hpmud_open_device_1 == HPMUD_R_OK))
       bug("unable to open device %s\n", (const void *)uri);
 
     else
     {
-      return_value_hpmud_open_channel$2=hpmud_open_channel(hd, "HP-CARD-ACCESS", &channel);
-      if(!((signed int)return_value_hpmud_open_channel$2 == HPMUD_R_OK))
+      return_value_hpmud_open_channel_2=hpmud_open_channel(hd, "HP-CARD-ACCESS", &channel);
+      if(!((signed int)return_value_hpmud_open_channel_2 == HPMUD_R_OK))
         bug("unable to open hp-card-access channel %s\n", (const void *)uri);
 
       else
       {
-        return_value_FatInit$3=FatInit();
-        if(!(return_value_FatInit$3 == 0))
+        return_value_FatInit_3=FatInit();
+        if(!(return_value_FatInit_3 == 0))
           bug("unable to read photo card %s\n", (const void *)uri);
 
         else
@@ -10834,9 +10834,9 @@ signed int main(signed int argc, char **argv)
           if(!(pa.WriteProtect == 0))
           {
             hpmud_close_channel(hd, channel);
-            enum HPMUD_RESULT return_value_hpmud_open_channel$4;
-            return_value_hpmud_open_channel$4=hpmud_open_channel(hd, "HP-CARD-ACCESS", &channel);
-            if(!((signed int)return_value_hpmud_open_channel$4 == HPMUD_R_OK))
+            enum HPMUD_RESULT return_value_hpmud_open_channel_4;
+            return_value_hpmud_open_channel_4=hpmud_open_channel(hd, "HP-CARD-ACCESS", &channel);
+            if(!((signed int)return_value_hpmud_open_channel_4 == HPMUD_R_OK))
             {
               bug("unable to open hp-card-access channel %s\n", (const void *)uri);
               goto bugout;
@@ -10844,8 +10844,8 @@ signed int main(signed int argc, char **argv)
 
           }
 
-          return_value_strcasecmp$11=strcasecmp(cmd, "ls");
-          if(return_value_strcasecmp$11 == 0)
+          return_value_strcasecmp_11=strcasecmp(cmd, "ls");
+          if(return_value_strcasecmp_11 == 0)
           {
             GetDir(path, dir, &tail);
             FatSetCWD(dir);
@@ -10859,8 +10859,8 @@ signed int main(signed int argc, char **argv)
 
           else
           {
-            return_value_strcasecmp$10=strcasecmp(cmd, "read");
-            if(return_value_strcasecmp$10 == 0)
+            return_value_strcasecmp_10=strcasecmp(cmd, "read");
+            if(return_value_strcasecmp_10 == 0)
             {
               dirname(path, spath);
               GetDir(spath, dir, &tail);
@@ -10870,11 +10870,11 @@ signed int main(signed int argc, char **argv)
                 GetDir(tail, dir, &tail);
                 FatSetCWD(dir);
               }
-              char *return_value_basename$5;
-              return_value_basename$5=basename(path);
-              signed int return_value_FatReadFile$6;
-              return_value_FatReadFile$6=FatReadFile(return_value_basename$5, 1);
-              if(!(return_value_FatReadFile$6 >= 1))
+              char *return_value_basename_5;
+              return_value_basename_5=basename(path);
+              signed int return_value_FatReadFile_6;
+              return_value_FatReadFile_6=FatReadFile(return_value_basename_5, 1);
+              if(!(return_value_FatReadFile_6 >= 1))
               {
                 bug("unable to locate file %s\n", (const void *)path);
                 goto bugout;
@@ -10884,8 +10884,8 @@ signed int main(signed int argc, char **argv)
 
             else
             {
-              return_value_strcasecmp$9=strcasecmp(cmd, "rm");
-              if(return_value_strcasecmp$9 == 0)
+              return_value_strcasecmp_9=strcasecmp(cmd, "rm");
+              if(return_value_strcasecmp_9 == 0)
               {
                 dirname(path, spath);
                 GetDir(spath, dir, &tail);
@@ -10895,11 +10895,11 @@ signed int main(signed int argc, char **argv)
                   GetDir(tail, dir, &tail);
                   FatSetCWD(dir);
                 }
-                char *return_value_basename$7;
-                return_value_basename$7=basename(path);
-                signed int return_value_FatDeleteFile$8;
-                return_value_FatDeleteFile$8=FatDeleteFile(return_value_basename$7);
-                if(!(return_value_FatDeleteFile$8 == 0))
+                char *return_value_basename_7;
+                return_value_basename_7=basename(path);
+                signed int return_value_FatDeleteFile_8;
+                return_value_FatDeleteFile_8=FatDeleteFile(return_value_basename_7);
+                if(!(return_value_FatDeleteFile_8 == 0))
                 {
                   bug("unable to locate file %s\n", (const void *)path);
                   goto bugout;
@@ -10938,14 +10938,14 @@ static signed int mdns_convert_name_to_dns(const char *name, signed int name_siz
   signed int i;
   signed int x = 0;
   char *p = dns_name;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(name == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)name[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)name[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -10954,23 +10954,23 @@ static signed int mdns_convert_name_to_dns(const char *name, signed int name_siz
     do
     {
       if(!(i >= name_size))
-        tmp_if_expr$2 = name[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = name[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         break;
 
       if((signed int)name[(signed long int)i] == 46)
       {
-        char *tmp_post$3 = p;
+        char *tmp_post_3 = p;
         p = p + 1l;
-        *tmp_post$3 = (char)(i - x);
+        *tmp_post_3 = (char)(i - x);
         for( ; !(x >= i); x = x + 1)
         {
-          char *tmp_post$4 = p;
+          char *tmp_post_4 = p;
           p = p + 1l;
-          *tmp_post$4 = name[(signed long int)x];
+          *tmp_post_4 = name[(signed long int)x];
         }
         x = x + 1;
       }
@@ -10980,21 +10980,21 @@ static signed int mdns_convert_name_to_dns(const char *name, signed int name_siz
     while((_Bool)1);
     if(!(i == 0))
     {
-      char *tmp_post$5 = p;
+      char *tmp_post_5 = p;
       p = p + 1l;
-      *tmp_post$5 = (char)(i - x);
+      *tmp_post_5 = (char)(i - x);
       for( ; !(x >= i); x = x + 1)
       {
-        char *tmp_post$6 = p;
+        char *tmp_post_6 = p;
         p = p + 1l;
-        *tmp_post$6 = name[(signed long int)x];
+        *tmp_post_6 = name[(signed long int)x];
       }
       x = x + 1;
     }
 
-    signed int tmp_post$7 = x;
+    signed int tmp_post_7 = x;
     x = x + 1;
-    p[(signed long int)tmp_post$7] = (char)0;
+    p[(signed long int)tmp_post_7] = (char)0;
     return x;
   }
 }
@@ -11007,23 +11007,23 @@ static void mdns_create_query_packet(char *fqdn, signed int query_type, char *qu
   char header[12l] = { (char)0x00, (char)0x00, (char)0x00, (char)0x00, (char)0x00, (char)0x01, (char)0x00, (char)0x00, (char)0x00, (char)0x00, (char)0x00, (char)0x00 };
   memcpy((void *)querybuf, (const void *)header, sizeof(char [12l]) /*12ul*/ );
   n = (signed int)sizeof(char [12l]) /*12ul*/ ;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(fqdn);
-  signed int return_value_mdns_convert_name_to_dns$2;
-  return_value_mdns_convert_name_to_dns$2=mdns_convert_name_to_dns(fqdn, (signed int)return_value_strlen$1, querybuf + (signed long int)n);
-  n = n + return_value_mdns_convert_name_to_dns$2;
-  signed int tmp_post$3 = n;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(fqdn);
+  signed int return_value_mdns_convert_name_to_dns_2;
+  return_value_mdns_convert_name_to_dns_2=mdns_convert_name_to_dns(fqdn, (signed int)return_value_strlen_1, querybuf + (signed long int)n);
+  n = n + return_value_mdns_convert_name_to_dns_2;
+  signed int tmp_post_3 = n;
   n = n + 1;
-  querybuf[(signed long int)tmp_post$3] = (char)0x00;
-  signed int tmp_post$4 = n;
+  querybuf[(signed long int)tmp_post_3] = (char)0x00;
+  signed int tmp_post_4 = n;
   n = n + 1;
-  querybuf[(signed long int)tmp_post$4] = (char)query_type;
-  signed int tmp_post$5 = n;
+  querybuf[(signed long int)tmp_post_4] = (char)query_type;
+  signed int tmp_post_5 = n;
   n = n + 1;
-  querybuf[(signed long int)tmp_post$5] = (char)0x00;
-  signed int tmp_post$6 = n;
+  querybuf[(signed long int)tmp_post_5] = (char)0x00;
+  signed int tmp_post_6 = n;
   n = n + 1;
-  querybuf[(signed long int)tmp_post$6] = (char)1;
+  querybuf[(signed long int)tmp_post_6] = (char)1;
   *length = n;
 }
 
@@ -11035,9 +11035,9 @@ signed int mdns_lookup(char *hostname, unsigned char *ip)
   signed int stat = 1;
   char fqdn[256l] = { (char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   struct _DNS_RECORD *rr_list = (struct _DNS_RECORD *)(void *)0;
-  signed int return_value_mdns_open_socket$1;
-  return_value_mdns_open_socket$1=mdns_open_socket(&udp_socket);
-  if(return_value_mdns_open_socket$1 == 0)
+  signed int return_value_mdns_open_socket_1;
+  return_value_mdns_open_socket_1=mdns_open_socket(&udp_socket);
+  if(return_value_mdns_open_socket_1 == 0)
   {
     sprintf((const void *)fqdn, (const void *)"%s.local", hostname);
     mdns_send_query(udp_socket, fqdn, 1);
@@ -11073,18 +11073,18 @@ static signed int mdns_open_socket(signed int *psocket)
   struct sockaddr_in addr;
   struct ip_mreq mreq;
   udp_socket=socket(2, 2, 0);
-  signed int return_value_setsockopt$1;
-  signed int return_value_bind$2;
-  signed int return_value_setsockopt$3;
-  signed int return_value_setsockopt$4;
-  signed int return_value_setsockopt$5;
+  signed int return_value_setsockopt_1;
+  signed int return_value_bind_2;
+  signed int return_value_setsockopt_3;
+  signed int return_value_setsockopt_4;
+  signed int return_value_setsockopt_5;
   if(udp_socket == -1)
     syslog(3, "protocol/discovery/mdns.c 82: unable to create udp socket: %m\n");
 
   else
   {
-    return_value_setsockopt$1=setsockopt(udp_socket, 1, 2, (const void *)&yes, (unsigned int)sizeof(signed int) /*4ul*/ );
-    if(return_value_setsockopt$1 == -1)
+    return_value_setsockopt_1=setsockopt(udp_socket, 1, 2, (const void *)&yes, (unsigned int)sizeof(signed int) /*4ul*/ );
+    if(return_value_setsockopt_1 == -1)
       syslog(3, "protocol/discovery/mdns.c 89: unable to setsockopt: %m\n");
 
     else
@@ -11093,28 +11093,28 @@ static signed int mdns_open_socket(signed int *psocket)
       recv_addr.sin_family = (unsigned short int)2;
       recv_addr.sin_addr.s_addr=htonl((unsigned int)0x00000000);
       recv_addr.sin_port=htons((unsigned short int)5353);
-      return_value_bind$2=bind(udp_socket, (struct sockaddr *)&recv_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(return_value_bind$2 == -1)
+      return_value_bind_2=bind(udp_socket, (struct sockaddr *)&recv_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(return_value_bind_2 == -1)
         syslog(3, "protocol/discovery/mdns.c 100: unable to bind udp socket: %m\n");
 
       else
       {
-        return_value_setsockopt$3=setsockopt(udp_socket, 0, 34, (const void *)&loop, (unsigned int)sizeof(char) /*1ul*/ );
-        if(return_value_setsockopt$3 == -1)
+        return_value_setsockopt_3=setsockopt(udp_socket, 0, 34, (const void *)&loop, (unsigned int)sizeof(char) /*1ul*/ );
+        if(return_value_setsockopt_3 == -1)
           syslog(3, "protocol/discovery/mdns.c 107: unable to setsockopt: %m\n");
 
         else
         {
-          return_value_setsockopt$4=setsockopt(udp_socket, 0, 33, (const void *)&ttl, (unsigned int)sizeof(char) /*1ul*/ );
-          if(return_value_setsockopt$4 == -1)
+          return_value_setsockopt_4=setsockopt(udp_socket, 0, 33, (const void *)&ttl, (unsigned int)sizeof(char) /*1ul*/ );
+          if(return_value_setsockopt_4 == -1)
             syslog(3, "protocol/discovery/mdns.c 114: unable to setsockopt: %m\n");
 
           else
           {
             mreq.imr_multiaddr.s_addr=inet_addr("224.0.0.251");
             mreq.imr_interface.s_addr=htonl((unsigned int)0x00000000);
-            return_value_setsockopt$5=setsockopt(udp_socket, 0, 35, (const void *)&mreq, (unsigned int)sizeof(struct ip_mreq) /*8ul*/ );
-            if(return_value_setsockopt$5 == -1)
+            return_value_setsockopt_5=setsockopt(udp_socket, 0, 35, (const void *)&mreq, (unsigned int)sizeof(struct ip_mreq) /*8ul*/ );
+            if(return_value_setsockopt_5 == -1)
             {
               syslog(3, "protocol/discovery/mdns.c 122: unable to add to multicast group: %m\n");
               close(udp_socket);
@@ -11150,17 +11150,17 @@ static void mdns_parse_respponse(unsigned char *Response, struct _DNS_RECORD *rr
   i = 0;
   for( ; !(i >= (signed int)h.questions); i = i + 1)
   {
-    signed int return_value_mdns_readName$1;
-    return_value_mdns_readName$1=mdns_readName(Response, p, rr->name);
-    p = p + (signed long int)return_value_mdns_readName$1;
+    signed int return_value_mdns_readName_1;
+    return_value_mdns_readName_1=mdns_readName(Response, p, rr->name);
+    p = p + (signed long int)return_value_mdns_readName_1;
     p = p + (signed long int)4;
   }
   i = 0;
   for( ; !(i >= (signed int)h.additionals + (signed int)h.answers); i = i + 1)
   {
-    signed int return_value_mdns_readName$2;
-    return_value_mdns_readName$2=mdns_readName(Response, p, rr->name);
-    p = p + (signed long int)return_value_mdns_readName$2;
+    signed int return_value_mdns_readName_2;
+    return_value_mdns_readName_2=mdns_readName(Response, p, rr->name);
+    p = p + (signed long int)return_value_mdns_readName_2;
     type = (unsigned short int)((signed int)*p << 8 | (signed int)p[(signed long int)1]);
     p = p + (signed long int)8;
     data_len = (unsigned short int)((signed int)*p << 8 | (signed int)p[(signed long int)1]);
@@ -11188,9 +11188,9 @@ signed int mdns_probe_nw_scanners(char *uris_buf, signed int buf_size, signed in
   signed int udp_socket = 0;
   signed int stat = 1;
   struct _DNS_RECORD *rr_list = (struct _DNS_RECORD *)(void *)0;
-  signed int return_value_mdns_open_socket$1;
-  return_value_mdns_open_socket$1=mdns_open_socket(&udp_socket);
-  if(return_value_mdns_open_socket$1 == 0)
+  signed int return_value_mdns_open_socket_1;
+  return_value_mdns_open_socket_1=mdns_open_socket(&udp_socket);
+  if(return_value_mdns_open_socket_1 == 0)
   {
     mdns_send_query(udp_socket, "_scanner._tcp.local", 12);
     rr_list=mdns_read_responses(udp_socket, 0);
@@ -11215,36 +11215,36 @@ static unsigned char * mdns_readMDL(unsigned char *p, unsigned char *normalized_
   signed int j = 0;
   signed int size = 0;
   unsigned char *mdl = normalized_mdl;
-  signed int return_value_tolower$4;
+  signed int return_value_tolower_4;
   while(!(i >= len))
   {
-    unsigned char *tmp_post$1 = p;
+    unsigned char *tmp_post_1 = p;
     p = p + 1l;
-    size = (signed int)*tmp_post$1;
+    size = (signed int)*tmp_post_1;
     i = i + size + 1;
-    signed int return_value_strncmp$6;
-    return_value_strncmp$6=strncmp((const char *)p, "mdl=", (unsigned long int)4);
-    if(return_value_strncmp$6 == 0)
+    signed int return_value_strncmp_6;
+    return_value_strncmp_6=strncmp((const char *)p, "mdl=", (unsigned long int)4);
+    if(return_value_strncmp_6 == 0)
     {
       j = 4;
       for( ; !(j >= size); j = j + 1)
         if((signed int)p[(signed long int)j] == 32)
         {
-          unsigned char *tmp_post$2 = mdl;
+          unsigned char *tmp_post_2 = mdl;
           mdl = mdl + 1l;
-          *tmp_post$2 = (unsigned char)95;
+          *tmp_post_2 = (unsigned char)95;
         }
 
         else
         {
-          unsigned char *tmp_post$3 = mdl;
+          unsigned char *tmp_post_3 = mdl;
           mdl = mdl + 1l;
-          return_value_tolower$4=tolower(p[(signed long int)j]);
-          *tmp_post$3 = (unsigned char)return_value_tolower$4;
+          return_value_tolower_4=tolower(p[(signed long int)j]);
+          *tmp_post_3 = (unsigned char)return_value_tolower_4;
         }
-      unsigned char *tmp_post$5 = mdl;
+      unsigned char *tmp_post_5 = mdl;
       mdl = mdl + 1l;
-      *tmp_post$5 = (unsigned char)0;
+      *tmp_post_5 = (unsigned char)0;
       break;
     }
 
@@ -11260,12 +11260,12 @@ static signed int mdns_readName(unsigned char *start, unsigned char *Response, c
   signed int size = 0;
   char *name = buf;
   unsigned char *p = Response;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   do
   {
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p + 1l;
-    size = (signed int)*tmp_post$1;
+    size = (signed int)*tmp_post_1;
     if(size == 0)
       break;
 
@@ -11305,26 +11305,26 @@ static struct _DNS_RECORD * mdns_read_responses(signed int udp_socket, signed in
   signed int ret = 0;
   char recvbuffer[2048l] = { (char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   struct _DNS_RECORD *rr = (struct _DNS_RECORD *)(void *)0;
-  struct _DNS_RECORD *mdns_read_responses$$1$$head = (struct _DNS_RECORD *)(void *)0;
+  struct _DNS_RECORD *mdns_read_responses__1__head = (struct _DNS_RECORD *)(void *)0;
   struct _DNS_RECORD *temp = (struct _DNS_RECORD *)(void *)0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   while((_Bool)1)
   {
     memset((void *)recvbuffer, 0, sizeof(char [2048l]) /*2048ul*/ );
     ret=mdns_read_single_response(udp_socket, recvbuffer, (signed int)sizeof(char [2048l]) /*2048ul*/ );
     if(!(ret >= 1))
     {
-      _Bool tmp_if_expr$2;
+      _Bool tmp_if_expr_2;
       if(ret == 0)
       {
-        tmp_post$1 = retries;
+        tmp_post_1 = retries;
         retries = retries - 1;
-        tmp_if_expr$2 = tmp_post$1 != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = tmp_post_1 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
         continue;
 
       else
@@ -11333,16 +11333,16 @@ static struct _DNS_RECORD * mdns_read_responses(signed int udp_socket, signed in
 
     else
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(struct _DNS_RECORD) /*536ul*/ );
-      temp = (struct _DNS_RECORD *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(struct _DNS_RECORD) /*536ul*/ );
+      temp = (struct _DNS_RECORD *)return_value_malloc_3;
       if(!(temp == ((struct _DNS_RECORD *)NULL)))
       {
         temp->next = (struct _DNS_RECORD *)(void *)0;
-        if(mdns_read_responses$$1$$head == ((struct _DNS_RECORD *)NULL))
+        if(mdns_read_responses__1__head == ((struct _DNS_RECORD *)NULL))
         {
-          mdns_read_responses$$1$$head = temp;
-          rr = mdns_read_responses$$1$$head;
+          mdns_read_responses__1__head = temp;
+          rr = mdns_read_responses__1__head;
         }
 
         else
@@ -11359,7 +11359,7 @@ static struct _DNS_RECORD * mdns_read_responses(signed int udp_socket, signed in
 
     }
   }
-  return mdns_read_responses$$1$$head;
+  return mdns_read_responses__1__head;
 }
 
 // mdns_read_single_response
@@ -11369,8 +11369,8 @@ static signed int mdns_read_single_response(signed int udp_socket, char *recvbuf
   struct timeval tmo;
   struct sockaddr_in addr;
   unsigned int addrlen = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
-  struct anonymous$41 master;
-  struct anonymous$41 readfd;
+  struct anonymous_41 master;
+  struct anonymous_41 readfd;
   signed int len = 0;
   signed int maxfd = 0;
   signed int ret = 0;
@@ -11378,7 +11378,7 @@ static signed int mdns_read_single_response(signed int udp_socket, char *recvbuf
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$41) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&master)->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_41) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&master)->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   (&master)->__fds_bits[(signed long int)(udp_socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&master)->__fds_bits[(signed long int)(udp_socket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << udp_socket % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
@@ -11386,13 +11386,13 @@ static signed int mdns_read_single_response(signed int udp_socket, char *recvbuf
   tmo.tv_sec = (signed long int)0;
   tmo.tv_usec = (signed long int)300000;
   readfd = master;
-  ret=select(maxfd + 1, &readfd, (struct anonymous$41 *)(void *)0, (struct anonymous$41 *)(void *)0, &tmo);
+  ret=select(maxfd + 1, &readfd, (struct anonymous_41 *)(void *)0, (struct anonymous_41 *)(void *)0, &tmo);
   if(ret >= 1)
   {
     bzero((void *)&addr, sizeof(struct sockaddr_in) /*16ul*/ );
-    signed long int return_value_recvfrom$1;
-    return_value_recvfrom$1=recvfrom(udp_socket, (void *)recvbuffer, (unsigned long int)recvbufsize, 0, (struct sockaddr *)&addr, &addrlen);
-    len = (signed int)return_value_recvfrom$1;
+    signed long int return_value_recvfrom_1;
+    return_value_recvfrom_1=recvfrom(udp_socket, (void *)recvbuffer, (unsigned long int)recvbufsize, 0, (struct sockaddr *)&addr, &addrlen);
+    len = (signed int)return_value_recvfrom_1;
     if(!(len >= 0))
     {
       syslog(3, "protocol/discovery/mdns.c 317: recvfrom error: (%m)\n");
@@ -11429,9 +11429,9 @@ static signed int mdns_send_query(signed int udp_socket, char *fqdn, signed int 
   send_addr.sin_family = (unsigned short int)2;
   send_addr.sin_addr.s_addr=inet_addr("224.0.0.251");
   send_addr.sin_port=htons((unsigned short int)5353);
-  signed long int return_value_sendto$1;
-  return_value_sendto$1=sendto(udp_socket, (const void *)querybuf, (unsigned long int)length, 0, (struct sockaddr *)&send_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-  if(!(return_value_sendto$1 >= 0l))
+  signed long int return_value_sendto_1;
+  return_value_sendto_1=sendto(udp_socket, (const void *)querybuf, (unsigned long int)length, 0, (struct sockaddr *)&send_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+  if(!(return_value_sendto_1 >= 0l))
     stat = 1;
 
   return stat;
@@ -11445,7 +11445,7 @@ static signed int mdns_update_uris(struct _DNS_RECORD *rr, char *uris_buf, signe
   signed int bytes_read = 0;
   *count = 0;
   memset((void *)uris_buf, 0, (unsigned long int)buf_size);
-  char *return_value_strstr$2;
+  char *return_value_strstr_2;
   for( ; !(rr == ((struct _DNS_RECORD *)NULL)); rr = rr->next)
     if(!(rr->mdl[0l] == 0))
     {
@@ -11455,12 +11455,12 @@ static signed int mdns_update_uris(struct _DNS_RECORD *rr, char *uris_buf, signe
         sprintf((const void *)tempuri, (const void *)"hp:/net/%s?ip=%s&queue=false", (const void *)rr->mdl, (const void *)rr->ip);
         if(!(sizeof(char [256l]) /*256ul*/  + (unsigned long int)bytes_read >= (unsigned long int)buf_size))
         {
-          return_value_strstr$2=strstr(uris_buf, tempuri);
-          if(return_value_strstr$2 == ((char *)NULL))
+          return_value_strstr_2=strstr(uris_buf, tempuri);
+          if(return_value_strstr_2 == ((char *)NULL))
           {
-            signed int return_value_sprintf$1;
-            return_value_sprintf$1=sprintf(uris_buf + (signed long int)bytes_read, (const void *)"%s;", (const void *)tempuri);
-            bytes_read = bytes_read + return_value_sprintf$1;
+            signed int return_value_sprintf_1;
+            return_value_sprintf_1=sprintf(uris_buf + (signed long int)bytes_read, (const void *)"%s;", (const void *)tempuri);
+            bytes_read = bytes_read + return_value_sprintf_1;
             *count = *count + 1;
             uris_buf[(signed long int)bytes_read] = (char)0;
           }
@@ -11481,7 +11481,7 @@ enum HPMUD_RESULT musb_channel_close(struct _mud_device *pd, struct _mud_channel
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_OK;
   pthread_mutex_lock(&pd->mutex);
   stat=pc->vf.close(pc);
-  del_channel$link2(pd, pc);
+  del_channel_link2(pd, pc);
   pthread_mutex_unlock(&pd->mutex);
   return stat;
 }
@@ -11493,19 +11493,19 @@ enum HPMUD_RESULT musb_channel_open(struct _mud_device *pd, const char *sn, sign
   signed int index;
   enum HPMUD_RESULT stat;
   stat=service_to_channel(pd, sn, &index);
-  signed int return_value_new_channel$1;
+  signed int return_value_new_channel_1;
   if((signed int)stat == HPMUD_R_OK)
   {
     pthread_mutex_lock(&pd->mutex);
-    return_value_new_channel$1=new_channel$link2(pd, index, sn);
-    if(!(return_value_new_channel$1 == 0))
+    return_value_new_channel_1=new_channel_link2(pd, index, sn);
+    if(!(return_value_new_channel_1 == 0))
       stat = (enum HPMUD_RESULT)HPMUD_R_DEVICE_BUSY;
 
     else
     {
       stat=pd->channel[(signed long int)index].vf.open(&pd->channel[(signed long int)index]);
       if(!((signed int)stat == HPMUD_R_OK))
-        del_channel$link2(pd, &pd->channel[(signed long int)index]);
+        del_channel_link2(pd, &pd->channel[(signed long int)index]);
 
       else
         *cd = index;
@@ -11646,10 +11646,10 @@ enum HPMUD_RESULT musb_comp_channel_open(struct _mud_channel *pc)
       goto bugout;
     }
   }
-  signed int return_value_get_interface$1;
-  return_value_get_interface$1=get_interface(libusb_dev, (enum FD_ID)fd, &fd_table[(signed long int)fd]);
-  signed int return_value_claim_interface$2;
-  if(!(return_value_get_interface$1 == 0))
+  signed int return_value_get_interface_1;
+  return_value_get_interface_1=get_interface(libusb_dev, (enum FD_ID)fd, &fd_table[(signed long int)fd]);
+  signed int return_value_claim_interface_2;
+  if(!(return_value_get_interface_1 == 0))
   {
     stat = (enum HPMUD_RESULT)HPMUD_R_INVALID_SN;
     syslog(3, "io/hpmud/musb.c 1561: invalid %s channel=%d\n", (const void *)pc->sn, pc->index);
@@ -11657,8 +11657,8 @@ enum HPMUD_RESULT musb_comp_channel_open(struct _mud_channel *pc)
 
   else
   {
-    return_value_claim_interface$2=claim_interface(libusb_dev, &fd_table[(signed long int)fd]);
-    if(return_value_claim_interface$2 == 0)
+    return_value_claim_interface_2=claim_interface(libusb_dev, &fd_table[(signed long int)fd]);
+    if(return_value_claim_interface_2 == 0)
     {
       pc->fd = fd;
       stat = (enum HPMUD_RESULT)HPMUD_R_OK;
@@ -11679,9 +11679,9 @@ enum HPMUD_RESULT musb_dot4_channel_close(struct _mud_channel *pc)
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_OK;
   if(!(pd->mlc_up == 0))
   {
-    signed int return_value_Dot4CloseChannel$1;
-    return_value_Dot4CloseChannel$1=Dot4CloseChannel(pc, pd->mlc_fd);
-    if(!(return_value_Dot4CloseChannel$1 == 0))
+    signed int return_value_Dot4CloseChannel_1;
+    return_value_Dot4CloseChannel_1=Dot4CloseChannel(pc, pd->mlc_fd);
+    if(!(return_value_Dot4CloseChannel_1 == 0))
       stat = (enum HPMUD_RESULT)HPMUD_R_IO_ERROR;
 
   }
@@ -11690,9 +11690,9 @@ enum HPMUD_RESULT musb_dot4_channel_close(struct _mud_channel *pc)
   {
     if(!(pd->mlc_up == 0))
     {
-      signed int return_value_Dot4Exit$2;
-      return_value_Dot4Exit$2=Dot4Exit(pc, pd->mlc_fd);
-      if(!(return_value_Dot4Exit$2 == 0))
+      signed int return_value_Dot4Exit_2;
+      return_value_Dot4Exit_2=Dot4Exit(pc, pd->mlc_fd);
+      if(!(return_value_Dot4Exit_2 == 0))
         stat = (enum HPMUD_RESULT)HPMUD_R_IO_ERROR;
 
     }
@@ -11724,72 +11724,72 @@ enum HPMUD_RESULT musb_dot4_channel_open(struct _mud_channel *pc)
   struct _mud_device *pd = &msp->device[(signed long int)pc->dindex];
   enum FD_ID fd;
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_IO_ERROR;
-  signed int return_value_claim_interface$11;
-  signed int return_value_get_interface$7;
-  signed int return_value_claim_interface$8;
-  signed int return_value_get_interface$4;
-  signed int return_value_claim_interface$5;
-  signed int return_value_get_interface$1;
-  signed int return_value_claim_interface$2;
+  signed int return_value_claim_interface_11;
+  signed int return_value_get_interface_7;
+  signed int return_value_claim_interface_8;
+  signed int return_value_get_interface_4;
+  signed int return_value_claim_interface_5;
+  signed int return_value_get_interface_1;
+  signed int return_value_claim_interface_2;
   if(pd->channel_cnt == 1)
   {
-    signed int return_value_get_interface$10;
-    return_value_get_interface$10=get_interface(libusb_dev, (enum FD_ID)FD_7_1_3, &fd_table[(signed long int)FD_7_1_3]);
-    _Bool tmp_if_expr$12;
-    if(return_value_get_interface$10 == 0)
+    signed int return_value_get_interface_10;
+    return_value_get_interface_10=get_interface(libusb_dev, (enum FD_ID)FD_7_1_3, &fd_table[(signed long int)FD_7_1_3]);
+    _Bool tmp_if_expr_12;
+    if(return_value_get_interface_10 == 0)
     {
-      return_value_claim_interface$11=claim_interface(libusb_dev, &fd_table[(signed long int)FD_7_1_3]);
-      tmp_if_expr$12 = return_value_claim_interface$11 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_claim_interface_11=claim_interface(libusb_dev, &fd_table[(signed long int)FD_7_1_3]);
+      tmp_if_expr_12 = return_value_claim_interface_11 == 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$12 = (_Bool)0;
-    if(tmp_if_expr$12)
+      tmp_if_expr_12 = (_Bool)0;
+    if(tmp_if_expr_12)
       fd = (enum FD_ID)FD_7_1_3;
 
     else
     {
-      return_value_get_interface$7=get_interface(libusb_dev, (enum FD_ID)FD_ff_ff_ff, &fd_table[(signed long int)FD_ff_ff_ff]);
-      _Bool tmp_if_expr$9;
-      if(return_value_get_interface$7 == 0)
+      return_value_get_interface_7=get_interface(libusb_dev, (enum FD_ID)FD_ff_ff_ff, &fd_table[(signed long int)FD_ff_ff_ff]);
+      _Bool tmp_if_expr_9;
+      if(return_value_get_interface_7 == 0)
       {
-        return_value_claim_interface$8=claim_interface(libusb_dev, &fd_table[(signed long int)FD_ff_ff_ff]);
-        tmp_if_expr$9 = return_value_claim_interface$8 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_claim_interface_8=claim_interface(libusb_dev, &fd_table[(signed long int)FD_ff_ff_ff]);
+        tmp_if_expr_9 = return_value_claim_interface_8 == 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$9 = (_Bool)0;
-      if(tmp_if_expr$9)
+        tmp_if_expr_9 = (_Bool)0;
+      if(tmp_if_expr_9)
         fd = (enum FD_ID)FD_ff_ff_ff;
 
       else
       {
-        return_value_get_interface$4=get_interface(libusb_dev, (enum FD_ID)FD_ff_d4_0, &fd_table[(signed long int)FD_ff_d4_0]);
-        _Bool tmp_if_expr$6;
-        if(return_value_get_interface$4 == 0)
+        return_value_get_interface_4=get_interface(libusb_dev, (enum FD_ID)FD_ff_d4_0, &fd_table[(signed long int)FD_ff_d4_0]);
+        _Bool tmp_if_expr_6;
+        if(return_value_get_interface_4 == 0)
         {
-          return_value_claim_interface$5=claim_interface(libusb_dev, &fd_table[(signed long int)FD_ff_d4_0]);
-          tmp_if_expr$6 = return_value_claim_interface$5 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_claim_interface_5=claim_interface(libusb_dev, &fd_table[(signed long int)FD_ff_d4_0]);
+          tmp_if_expr_6 = return_value_claim_interface_5 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
           fd = (enum FD_ID)FD_ff_d4_0;
 
         else
         {
-          return_value_get_interface$1=get_interface(libusb_dev, (enum FD_ID)FD_7_1_2, &fd_table[(signed long int)FD_7_1_2]);
-          _Bool tmp_if_expr$3;
-          if(return_value_get_interface$1 == 0)
+          return_value_get_interface_1=get_interface(libusb_dev, (enum FD_ID)FD_7_1_2, &fd_table[(signed long int)FD_7_1_2]);
+          _Bool tmp_if_expr_3;
+          if(return_value_get_interface_1 == 0)
           {
-            return_value_claim_interface$2=claim_interface(libusb_dev, &fd_table[(signed long int)FD_7_1_2]);
-            tmp_if_expr$3 = return_value_claim_interface$2 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_claim_interface_2=claim_interface(libusb_dev, &fd_table[(signed long int)FD_7_1_2]);
+            tmp_if_expr_3 = return_value_claim_interface_2 == 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = (_Bool)0;
+          if(tmp_if_expr_3)
             fd = (enum FD_ID)FD_7_1_2;
 
           else
@@ -11804,18 +11804,18 @@ enum HPMUD_RESULT musb_dot4_channel_open(struct _mud_channel *pc)
     {
       if((signed int)pd->io_mode == HPMUD_DOT4_BRIDGE_MODE)
       {
-        signed int return_value_bridge_chip_up$13;
-        return_value_bridge_chip_up$13=bridge_chip_up(&fd_table[(signed long int)fd]);
-        if(!(return_value_bridge_chip_up$13 == 0))
+        signed int return_value_bridge_chip_up_13;
+        return_value_bridge_chip_up_13=bridge_chip_up(&fd_table[(signed long int)fd]);
+        if(!(return_value_bridge_chip_up_13 == 0))
           goto bugout;
 
       }
 
       else
       {
-        signed int return_value_write_ecp_channel$14;
-        return_value_write_ecp_channel$14=write_ecp_channel(&fd_table[(signed long int)fd], 77);
-        if(!(return_value_write_ecp_channel$14 == 0))
+        signed int return_value_write_ecp_channel_14;
+        return_value_write_ecp_channel_14=write_ecp_channel(&fd_table[(signed long int)fd], 77);
+        if(!(return_value_write_ecp_channel_14 == 0))
           goto bugout;
 
       }
@@ -11825,31 +11825,31 @@ enum HPMUD_RESULT musb_dot4_channel_open(struct _mud_channel *pc)
       write_phoenix_setup(&fd_table[(signed long int)fd]);
 
     unsigned int i;
-    signed int return_value_Dot4Init$15;
-    return_value_Dot4Init$15=Dot4Init(pc, (signed int)fd);
-    if(!(return_value_Dot4Init$15 == 0))
+    signed int return_value_Dot4Init_15;
+    return_value_Dot4Init_15=Dot4Init(pc, (signed int)fd);
+    if(!(return_value_Dot4Init_15 == 0))
       goto bugout;
 
     i = (unsigned int)0;
     for( ; !(i >= 47u); i = i + 1u)
-      memset((void *)&pd->channel[(signed long int)i].ta, 0, sizeof(struct anonymous$19) /*8ul*/ );
+      memset((void *)&pd->channel[(signed long int)i].ta, 0, sizeof(struct anonymous_19) /*8ul*/ );
     pd->mlc_fd = (signed int)fd;
     pd->mlc_up = 1;
   }
 
-  signed int return_value_Dot4GetSocket$16;
-  return_value_Dot4GetSocket$16=Dot4GetSocket(pc, pd->mlc_fd);
-  signed int return_value_Dot4OpenChannel$17;
-  if(return_value_Dot4GetSocket$16 == 0)
+  signed int return_value_Dot4GetSocket_16;
+  return_value_Dot4GetSocket_16=Dot4GetSocket(pc, pd->mlc_fd);
+  signed int return_value_Dot4OpenChannel_17;
+  if(return_value_Dot4GetSocket_16 == 0)
   {
-    return_value_Dot4OpenChannel$17=Dot4OpenChannel(pc, pd->mlc_fd);
-    if(return_value_Dot4OpenChannel$17 == 0)
+    return_value_Dot4OpenChannel_17=Dot4OpenChannel(pc, pd->mlc_fd);
+    if(return_value_Dot4OpenChannel_17 == 0)
     {
       if((signed int)pd->io_mode == HPMUD_DOT4_PHOENIX_MODE)
       {
-        signed int return_value_Dot4Credit$18;
-        return_value_Dot4Credit$18=Dot4Credit(pc, pd->mlc_fd, (unsigned short int)2);
-        if(!(return_value_Dot4Credit$18 == 0))
+        signed int return_value_Dot4Credit_18;
+        return_value_Dot4Credit_18=Dot4Credit(pc, pd->mlc_fd, (unsigned short int)2);
+        if(!(return_value_Dot4Credit_18 == 0))
         {
           syslog(3, "io/hpmud/musb.c 1859: invalid Dot4Credit to peripheral\n");
           goto bugout;
@@ -11891,9 +11891,9 @@ enum HPMUD_RESULT musb_dot4_channel_read(struct _mud_channel *pc, void *buf, sig
     {
       if((signed int)pc->ta.p2hcredit == 0)
       {
-        signed int return_value_Dot4Credit$1;
-        return_value_Dot4Credit$1=Dot4Credit(pc, pd->mlc_fd, (unsigned short int)1);
-        if(!(return_value_Dot4Credit$1 == 0))
+        signed int return_value_Dot4Credit_1;
+        return_value_Dot4Credit_1=Dot4Credit(pc, pd->mlc_fd, (unsigned short int)1);
+        if(!(return_value_Dot4Credit_1 == 0))
           goto bugout;
 
       }
@@ -11925,7 +11925,7 @@ enum HPMUD_RESULT musb_dot4_channel_write(struct _mud_channel *pc, const void *b
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_IO_ERROR;
   *bytes_wrote = 0;
   size = length;
-  dlen = (signed int)((unsigned long int)pc->ta.h2psize - sizeof(struct anonymous$0) /*6ul*/ );
+  dlen = (signed int)((unsigned long int)pc->ta.h2psize - sizeof(struct anonymous_0) /*6ul*/ );
   while(size >= 1)
   {
     len = size > dlen ? dlen : size;
@@ -11933,9 +11933,9 @@ enum HPMUD_RESULT musb_dot4_channel_write(struct _mud_channel *pc, const void *b
     {
       if((signed int)pd->io_mode == HPMUD_DOT4_PHOENIX_MODE)
       {
-        signed int return_value_Dot4CreditRequest$1;
-        return_value_Dot4CreditRequest$1=Dot4CreditRequest(pc, pd->mlc_fd, (unsigned short int)1);
-        if(!(return_value_Dot4CreditRequest$1 == 0))
+        signed int return_value_Dot4CreditRequest_1;
+        return_value_Dot4CreditRequest_1=Dot4CreditRequest(pc, pd->mlc_fd, (unsigned short int)1);
+        if(!(return_value_Dot4CreditRequest_1 == 0))
         {
           syslog(3, "io/hpmud/musb.c 1932: invalid Dot4CreditRequest from peripheral\n");
           goto bugout;
@@ -11943,9 +11943,9 @@ enum HPMUD_RESULT musb_dot4_channel_write(struct _mud_channel *pc, const void *b
 
         if((signed int)pc->ta.h2pcredit == 0)
         {
-          signed int tmp_post$2 = cnt;
+          signed int tmp_post_2 = cnt;
           cnt = cnt + 1;
-          if(tmp_post$2 >= 46)
+          if(tmp_post_2 >= 46)
           {
             syslog(3, "io/hpmud/musb.c 1939: invalid Dot4CreditRequest from peripheral\n");
             goto bugout;
@@ -11973,9 +11973,9 @@ enum HPMUD_RESULT musb_dot4_channel_write(struct _mud_channel *pc, const void *b
 
     }
 
-    signed int return_value_Dot4ForwardData$3;
-    return_value_Dot4ForwardData$3=Dot4ForwardData(pc, pd->mlc_fd, buf + (signed long int)total, len, sec_timeout * 1000000);
-    if(!(return_value_Dot4ForwardData$3 == 0))
+    signed int return_value_Dot4ForwardData_3;
+    return_value_Dot4ForwardData_3=Dot4ForwardData(pc, pd->mlc_fd, buf + (signed long int)total, len, sec_timeout * 1000000);
+    if(!(return_value_Dot4ForwardData_3 == 0))
       goto bugout;
 
     pc->ta.h2pcredit = pc->ta.h2pcredit - 1;
@@ -12000,17 +12000,17 @@ enum HPMUD_RESULT musb_get_device_id(struct _mud_device *pd, char *buf, signed i
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_DEVICE_BUSY;
   *len = 0;
   pthread_mutex_lock(&pd->mutex);
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if((signed int)pd->io_mode == HPMUD_DOT4_BRIDGE_MODE)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = (signed int)pd->io_mode == HPMUD_UNI_MODE ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (signed int)pd->io_mode == HPMUD_UNI_MODE ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(pd->id);
-    *len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(pd->id);
+    *len = (signed int)return_value_strlen_1;
   }
 
   else
@@ -12028,30 +12028,30 @@ enum HPMUD_RESULT musb_get_device_id(struct _mud_device *pd, char *buf, signed i
       fd=claim_id_interface(libusb_dev);
       if(!(fd == MAX_FD))
       {
-        *len=device_id$link2(fd, (unsigned char *)pd->id, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+        *len=device_id_link2(fd, (unsigned char *)pd->id, (signed int)sizeof(char [1024l]) /*1024ul*/ );
         release_interface(&fd_table[(signed long int)fd]);
       }
 
       else
       {
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(pd->id);
-        *len = (signed int)return_value_strlen$2;
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(pd->id);
+        *len = (signed int)return_value_strlen_2;
       }
     }
 
     else
-      *len=device_id$link2(fd, (unsigned char *)pd->id, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+      *len=device_id_link2(fd, (unsigned char *)pd->id, (signed int)sizeof(char [1024l]) /*1024ul*/ );
   }
   if(!(*len == 0))
   {
-    signed int tmp_if_expr$4;
+    signed int tmp_if_expr_4;
     if(!(size >= *len))
-      tmp_if_expr$4 = size;
+      tmp_if_expr_4 = size;
 
     else
-      tmp_if_expr$4 = *len;
-    memcpy((void *)buf, (const void *)pd->id, (unsigned long int)tmp_if_expr$4);
+      tmp_if_expr_4 = *len;
+    memcpy((void *)buf, (const void *)pd->id, (unsigned long int)tmp_if_expr_4);
     stat = (enum HPMUD_RESULT)HPMUD_R_OK;
   }
 
@@ -12068,13 +12068,13 @@ enum HPMUD_RESULT musb_get_device_status(struct _mud_device *pd, unsigned int *s
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_DEVICE_BUSY;
   signed int r = 1;
   pthread_mutex_lock(&pd->mutex);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)pd->io_mode == HPMUD_DOT4_BRIDGE_MODE)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)pd->io_mode == HPMUD_UNI_MODE ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)pd->io_mode == HPMUD_UNI_MODE ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     *status = (unsigned int)0x08;
 
   else
@@ -12092,14 +12092,14 @@ enum HPMUD_RESULT musb_get_device_status(struct _mud_device *pd, unsigned int *s
       fd=claim_id_interface(libusb_dev);
       if(!(fd == MAX_FD))
       {
-        r=device_status$link1(fd, status);
+        r=device_status_link1(fd, status);
         release_interface(&fd_table[(signed long int)fd]);
       }
 
     }
 
     else
-      r=device_status$link1(fd, status);
+      r=device_status_link1(fd, status);
   }
   pthread_mutex_unlock(&pd->mutex);
   if(r == 0)
@@ -12120,9 +12120,9 @@ enum HPMUD_RESULT musb_mlc_channel_close(struct _mud_channel *pc)
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_OK;
   if(!(pd->mlc_up == 0))
   {
-    signed int return_value_MlcCloseChannel$1;
-    return_value_MlcCloseChannel$1=MlcCloseChannel(pc, pd->mlc_fd);
-    if(!(return_value_MlcCloseChannel$1 == 0))
+    signed int return_value_MlcCloseChannel_1;
+    return_value_MlcCloseChannel_1=MlcCloseChannel(pc, pd->mlc_fd);
+    if(!(return_value_MlcCloseChannel_1 == 0))
       stat = (enum HPMUD_RESULT)HPMUD_R_IO_ERROR;
 
   }
@@ -12131,9 +12131,9 @@ enum HPMUD_RESULT musb_mlc_channel_close(struct _mud_channel *pc)
   {
     if(!(pd->mlc_up == 0))
     {
-      signed int return_value_MlcExit$2;
-      return_value_MlcExit$2=MlcExit(pc, pd->mlc_fd);
-      if(!(return_value_MlcExit$2 == 0))
+      signed int return_value_MlcExit_2;
+      return_value_MlcExit_2=MlcExit(pc, pd->mlc_fd);
+      if(!(return_value_MlcExit_2 == 0))
         stat = (enum HPMUD_RESULT)HPMUD_R_IO_ERROR;
 
     }
@@ -12160,72 +12160,72 @@ enum HPMUD_RESULT musb_mlc_channel_open(struct _mud_channel *pc)
   struct _mud_device *pd = &msp->device[(signed long int)pc->dindex];
   enum FD_ID fd;
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_IO_ERROR;
-  signed int return_value_claim_interface$11;
-  signed int return_value_get_interface$7;
-  signed int return_value_claim_interface$8;
-  signed int return_value_get_interface$4;
-  signed int return_value_claim_interface$5;
-  signed int return_value_get_interface$1;
-  signed int return_value_claim_interface$2;
+  signed int return_value_claim_interface_11;
+  signed int return_value_get_interface_7;
+  signed int return_value_claim_interface_8;
+  signed int return_value_get_interface_4;
+  signed int return_value_claim_interface_5;
+  signed int return_value_get_interface_1;
+  signed int return_value_claim_interface_2;
   if(pd->channel_cnt == 1)
   {
-    signed int return_value_get_interface$10;
-    return_value_get_interface$10=get_interface(libusb_dev, (enum FD_ID)FD_7_1_3, &fd_table[(signed long int)FD_7_1_3]);
-    _Bool tmp_if_expr$12;
-    if(return_value_get_interface$10 == 0)
+    signed int return_value_get_interface_10;
+    return_value_get_interface_10=get_interface(libusb_dev, (enum FD_ID)FD_7_1_3, &fd_table[(signed long int)FD_7_1_3]);
+    _Bool tmp_if_expr_12;
+    if(return_value_get_interface_10 == 0)
     {
-      return_value_claim_interface$11=claim_interface(libusb_dev, &fd_table[(signed long int)FD_7_1_3]);
-      tmp_if_expr$12 = return_value_claim_interface$11 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_claim_interface_11=claim_interface(libusb_dev, &fd_table[(signed long int)FD_7_1_3]);
+      tmp_if_expr_12 = return_value_claim_interface_11 == 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$12 = (_Bool)0;
-    if(tmp_if_expr$12)
+      tmp_if_expr_12 = (_Bool)0;
+    if(tmp_if_expr_12)
       fd = (enum FD_ID)FD_7_1_3;
 
     else
     {
-      return_value_get_interface$7=get_interface(libusb_dev, (enum FD_ID)FD_ff_ff_ff, &fd_table[(signed long int)FD_ff_ff_ff]);
-      _Bool tmp_if_expr$9;
-      if(return_value_get_interface$7 == 0)
+      return_value_get_interface_7=get_interface(libusb_dev, (enum FD_ID)FD_ff_ff_ff, &fd_table[(signed long int)FD_ff_ff_ff]);
+      _Bool tmp_if_expr_9;
+      if(return_value_get_interface_7 == 0)
       {
-        return_value_claim_interface$8=claim_interface(libusb_dev, &fd_table[(signed long int)FD_ff_ff_ff]);
-        tmp_if_expr$9 = return_value_claim_interface$8 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_claim_interface_8=claim_interface(libusb_dev, &fd_table[(signed long int)FD_ff_ff_ff]);
+        tmp_if_expr_9 = return_value_claim_interface_8 == 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$9 = (_Bool)0;
-      if(tmp_if_expr$9)
+        tmp_if_expr_9 = (_Bool)0;
+      if(tmp_if_expr_9)
         fd = (enum FD_ID)FD_ff_ff_ff;
 
       else
       {
-        return_value_get_interface$4=get_interface(libusb_dev, (enum FD_ID)FD_ff_d4_0, &fd_table[(signed long int)FD_ff_d4_0]);
-        _Bool tmp_if_expr$6;
-        if(return_value_get_interface$4 == 0)
+        return_value_get_interface_4=get_interface(libusb_dev, (enum FD_ID)FD_ff_d4_0, &fd_table[(signed long int)FD_ff_d4_0]);
+        _Bool tmp_if_expr_6;
+        if(return_value_get_interface_4 == 0)
         {
-          return_value_claim_interface$5=claim_interface(libusb_dev, &fd_table[(signed long int)FD_ff_d4_0]);
-          tmp_if_expr$6 = return_value_claim_interface$5 == 0 ? (_Bool)1 : (_Bool)0;
+          return_value_claim_interface_5=claim_interface(libusb_dev, &fd_table[(signed long int)FD_ff_d4_0]);
+          tmp_if_expr_6 = return_value_claim_interface_5 == 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
           fd = (enum FD_ID)FD_ff_d4_0;
 
         else
         {
-          return_value_get_interface$1=get_interface(libusb_dev, (enum FD_ID)FD_7_1_2, &fd_table[(signed long int)FD_7_1_2]);
-          _Bool tmp_if_expr$3;
-          if(return_value_get_interface$1 == 0)
+          return_value_get_interface_1=get_interface(libusb_dev, (enum FD_ID)FD_7_1_2, &fd_table[(signed long int)FD_7_1_2]);
+          _Bool tmp_if_expr_3;
+          if(return_value_get_interface_1 == 0)
           {
-            return_value_claim_interface$2=claim_interface(libusb_dev, &fd_table[(signed long int)FD_7_1_2]);
-            tmp_if_expr$3 = return_value_claim_interface$2 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_claim_interface_2=claim_interface(libusb_dev, &fd_table[(signed long int)FD_7_1_2]);
+            tmp_if_expr_3 = return_value_claim_interface_2 == 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = (_Bool)0;
+          if(tmp_if_expr_3)
             fd = (enum FD_ID)FD_7_1_2;
 
           else
@@ -12238,33 +12238,33 @@ enum HPMUD_RESULT musb_mlc_channel_open(struct _mud_channel *pc)
     }
     if((signed int)fd == FD_7_1_2)
     {
-      signed int return_value_write_ecp_channel$13;
-      return_value_write_ecp_channel$13=write_ecp_channel(&fd_table[(signed long int)fd], 77);
-      if(!(return_value_write_ecp_channel$13 == 0))
+      signed int return_value_write_ecp_channel_13;
+      return_value_write_ecp_channel_13=write_ecp_channel(&fd_table[(signed long int)fd], 77);
+      if(!(return_value_write_ecp_channel_13 == 0))
         goto bugout;
 
     }
 
     unsigned int i;
-    signed int return_value_MlcInit$14;
-    return_value_MlcInit$14=MlcInit(pc, (signed int)fd);
-    if(!(return_value_MlcInit$14 == 0))
+    signed int return_value_MlcInit_14;
+    return_value_MlcInit_14=MlcInit(pc, (signed int)fd);
+    if(!(return_value_MlcInit_14 == 0))
       goto bugout;
 
     i = (unsigned int)0;
     for( ; !(i >= 47u); i = i + 1u)
-      memset((void *)&pd->channel[(signed long int)i].ta, 0, sizeof(struct anonymous$19) /*8ul*/ );
+      memset((void *)&pd->channel[(signed long int)i].ta, 0, sizeof(struct anonymous_19) /*8ul*/ );
     pd->mlc_fd = (signed int)fd;
     pd->mlc_up = 1;
   }
 
-  signed int return_value_MlcConfigSocket$15;
-  return_value_MlcConfigSocket$15=MlcConfigSocket(pc, pd->mlc_fd);
-  signed int return_value_MlcOpenChannel$16;
-  if(return_value_MlcConfigSocket$15 == 0)
+  signed int return_value_MlcConfigSocket_15;
+  return_value_MlcConfigSocket_15=MlcConfigSocket(pc, pd->mlc_fd);
+  signed int return_value_MlcOpenChannel_16;
+  if(return_value_MlcConfigSocket_15 == 0)
   {
-    return_value_MlcOpenChannel$16=MlcOpenChannel(pc, pd->mlc_fd);
-    if(return_value_MlcOpenChannel$16 == 0)
+    return_value_MlcOpenChannel_16=MlcOpenChannel(pc, pd->mlc_fd);
+    if(return_value_MlcOpenChannel_16 == 0)
     {
       pc->rindex = 0;
       pc->rcnt = pc->rindex;
@@ -12300,9 +12300,9 @@ enum HPMUD_RESULT musb_mlc_channel_read(struct _mud_channel *pc, void *buf, sign
     {
       if((signed int)pc->ta.p2hcredit == 0)
       {
-        signed int return_value_MlcCredit$1;
-        return_value_MlcCredit$1=MlcCredit(pc, pd->mlc_fd, (unsigned short int)1);
-        if(!(return_value_MlcCredit$1 == 0))
+        signed int return_value_MlcCredit_1;
+        return_value_MlcCredit_1=MlcCredit(pc, pd->mlc_fd, (unsigned short int)1);
+        if(!(return_value_MlcCredit_1 == 0))
           goto bugout;
 
       }
@@ -12333,7 +12333,7 @@ enum HPMUD_RESULT musb_mlc_channel_write(struct _mud_channel *pc, const void *bu
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_IO_ERROR;
   *bytes_wrote = 0;
   size = length;
-  dlen = (signed int)((unsigned long int)pc->ta.h2psize - sizeof(struct anonymous$22) /*6ul*/ );
+  dlen = (signed int)((unsigned long int)pc->ta.h2psize - sizeof(struct anonymous_22) /*6ul*/ );
   while(size >= 1)
   {
     len = size > dlen ? dlen : size;
@@ -12341,9 +12341,9 @@ enum HPMUD_RESULT musb_mlc_channel_write(struct _mud_channel *pc, const void *bu
     {
       if((signed int)pd->io_mode == HPMUD_MLC_MISER_MODE)
       {
-        signed int return_value_MlcCreditRequest$1;
-        return_value_MlcCreditRequest$1=MlcCreditRequest(pc, pd->mlc_fd, (unsigned short int)1);
-        if(!(return_value_MlcCreditRequest$1 == 0))
+        signed int return_value_MlcCreditRequest_1;
+        return_value_MlcCreditRequest_1=MlcCreditRequest(pc, pd->mlc_fd, (unsigned short int)1);
+        if(!(return_value_MlcCreditRequest_1 == 0))
         {
           syslog(3, "io/hpmud/musb.c 1694: invalid MlcCreditRequest from peripheral\n");
           goto bugout;
@@ -12374,9 +12374,9 @@ enum HPMUD_RESULT musb_mlc_channel_write(struct _mud_channel *pc, const void *bu
 
     }
 
-    signed int return_value_MlcForwardData$2;
-    return_value_MlcForwardData$2=MlcForwardData(pc, pd->mlc_fd, buf + (signed long int)total, len, sec_timeout * 1000000);
-    if(!(return_value_MlcForwardData$2 == 0))
+    signed int return_value_MlcForwardData_2;
+    return_value_MlcForwardData_2=MlcForwardData(pc, pd->mlc_fd, buf + (signed long int)total, len, sec_timeout * 1000000);
+    if(!(return_value_MlcForwardData_2 == 0))
       goto bugout;
 
     pc->ta.h2pcredit = pc->ta.h2pcredit - 1;
@@ -12399,7 +12399,7 @@ enum HPMUD_RESULT musb_open(struct _mud_device *pd)
   signed int fd = 0;
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_IO_ERROR;
   libusb_dev=get_libusb_device(pd->uri);
-  signed int return_value_is_hp$1;
+  signed int return_value_is_hp_1;
   if(libusb_dev == ((struct libusb_device *)NULL))
     syslog(3, "io/hpmud/musb.c 1151: unable to open %s\n", (const void *)pd->uri);
 
@@ -12415,11 +12415,11 @@ enum HPMUD_RESULT musb_open(struct _mud_device *pd)
         goto blackout;
       }
 
-      len=device_id$link2(fd, (unsigned char *)pd->id, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+      len=device_id_link2(fd, (unsigned char *)pd->id, (signed int)sizeof(char [1024l]) /*1024ul*/ );
       if(len >= 1)
       {
-        return_value_is_hp$1=is_hp(pd->id);
-        if(!(return_value_is_hp$1 == 0))
+        return_value_is_hp_1=is_hp(pd->id);
+        if(!(return_value_is_hp_1 == 0))
           power_up(pd, fd);
 
       }
@@ -12454,7 +12454,7 @@ signed int musb_probe_devices(char *lst, signed int lst_size, signed int *cnt, e
   struct libusb_config_descriptor *confptr = (struct libusb_config_descriptor *)(void *)0;
   struct libusb_interface *ifaceptr = (struct libusb_interface *)(void *)0;
   struct libusb_interface_descriptor *altptr = (struct libusb_interface_descriptor *)(void *)0;
-  struct libusb_device_handle *musb_probe_devices$$1$$hd = (struct libusb_device_handle *)(void *)0;
+  struct libusb_device_handle *musb_probe_devices__1__hd = (struct libusb_device_handle *)(void *)0;
   signed int numdevs = 0;
   signed int i;
   signed int conf;
@@ -12471,14 +12471,14 @@ signed int musb_probe_devices(char *lst, signed int lst_size, signed int *cnt, e
   signed int r;
   signed int size = 0;
   i=libusb_init(&ctx);
-  signed long int return_value_libusb_get_device_list$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_snprintf$4;
-  signed int return_value_snprintf$5;
+  signed long int return_value_libusb_get_device_list_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_snprintf_4;
+  signed int return_value_snprintf_5;
   if(i == 0)
   {
-    return_value_libusb_get_device_list$1=libusb_get_device_list(ctx, &list);
-    numdevs = (signed int)return_value_libusb_get_device_list$1;
+    return_value_libusb_get_device_list_1=libusb_get_device_list(ctx, &list);
+    numdevs = (signed int)return_value_libusb_get_device_list_1;
     if(numdevs >= 1)
     {
       mfg[(signed long int)0] = (char)0;
@@ -12500,20 +12500,20 @@ signed int musb_probe_devices(char *lst, signed int lst_size, signed int *cnt, e
             conf = 0;
             for( ; dev_already_counted == 0 && !(conf >= (signed int)devdesc.bNumConfigurations); conf = conf + 1)
             {
-              signed int return_value_libusb_get_config_descriptor$2;
-              return_value_libusb_get_config_descriptor$2=libusb_get_config_descriptor(dev, (unsigned char)conf, &confptr);
-              if(return_value_libusb_get_config_descriptor$2 >= 0)
+              signed int return_value_libusb_get_config_descriptor_2;
+              return_value_libusb_get_config_descriptor_2=libusb_get_config_descriptor(dev, (unsigned char)conf, &confptr);
+              if(return_value_libusb_get_config_descriptor_2 >= 0)
               {
                 iface = 0;
                 ifaceptr = confptr->interface;
                 do
                 {
                   if(dev_already_counted == 0)
-                    tmp_if_expr$3 = iface < (signed int)confptr->bNumInterfaces ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_3 = iface < (signed int)confptr->bNumInterfaces ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$3 = (_Bool)0;
-                  if(!tmp_if_expr$3)
+                    tmp_if_expr_3 = (_Bool)0;
+                  if(!tmp_if_expr_3)
                     break;
 
                   altset = 0;
@@ -12529,25 +12529,25 @@ signed int musb_probe_devices(char *lst, signed int lst_size, signed int *cnt, e
 
                       }
 
-                      libusb_open(dev, &musb_probe_devices$$1$$hd);
-                      if(musb_probe_devices$$1$$hd == ((struct libusb_device_handle *)NULL))
+                      libusb_open(dev, &musb_probe_devices__1__hd);
+                      if(musb_probe_devices__1__hd == ((struct libusb_device_handle *)NULL))
                         syslog(3, "io/hpmud/musb.c 2095: Invalid usb_open: %m\n");
 
                       else
                       {
-                        r=get_string_descriptor(musb_probe_devices$$1$$hd, (signed int)devdesc.iProduct, rmodel, sizeof(char [128l]) /*128ul*/ );
+                        r=get_string_descriptor(musb_probe_devices__1__hd, (signed int)devdesc.iProduct, rmodel, sizeof(char [128l]) /*128ul*/ );
                         if(!(r >= 0))
                           syslog(3, "io/hpmud/musb.c 2100: invalid product id string ret=%d\n", r);
 
                         else
                           generalize_model(rmodel, model, (signed int)sizeof(char [128l]) /*128ul*/ );
-                        r=get_string_descriptor(musb_probe_devices$$1$$hd, (signed int)devdesc.iSerialNumber, rserial, sizeof(char [128l]) /*128ul*/ );
+                        r=get_string_descriptor(musb_probe_devices__1__hd, (signed int)devdesc.iSerialNumber, rserial, sizeof(char [128l]) /*128ul*/ );
                         if(!(r >= 0))
                           syslog(3, "io/hpmud/musb.c 2105: invalid serial id string ret=%d\n", r);
 
                         else
                           generalize_serial(rserial, serial, (signed int)sizeof(char [128l]) /*128ul*/ );
-                        r=get_string_descriptor(musb_probe_devices$$1$$hd, (signed int)devdesc.iManufacturer, sz, sizeof(char [256l]) /*256ul*/ );
+                        r=get_string_descriptor(musb_probe_devices__1__hd, (signed int)devdesc.iManufacturer, sz, sizeof(char [256l]) /*256ul*/ );
                         if(!(r >= 0))
                           syslog(3, "io/hpmud/musb.c 2110: invalid manufacturer string ret=%d\n", r);
 
@@ -12566,24 +12566,24 @@ signed int musb_probe_devices(char *lst, signed int lst_size, signed int *cnt, e
                             goto __CPROVER_DUMP_L20;
                           }
 
-                          signed int return_value_strncasecmp$6;
-                          return_value_strncasecmp$6=strncasecmp(rmodel, "hp ", (unsigned long int)3);
-                          if(return_value_strncasecmp$6 == 0)
+                          signed int return_value_strncasecmp_6;
+                          return_value_strncasecmp_6=strncasecmp(rmodel, "hp ", (unsigned long int)3);
+                          if(return_value_strncasecmp_6 == 0)
                           {
-                            return_value_snprintf$4=snprintf(lst + (signed long int)size, (unsigned long int)(lst_size - size), "direct %s \"HP %s\" \"HP %s USB %s HPLIP\" \"MFG:%s;MDL:%s;CLS:PRINTER;DES:%s;SN:%s;\"\n", (const void *)sz, &rmodel[(signed long int)3], &rmodel[(signed long int)3], (const void *)serial, (const void *)mfg, (const void *)rmodel, (const void *)rmodel, (const void *)rserial);
-                            size = size + return_value_snprintf$4;
+                            return_value_snprintf_4=snprintf(lst + (signed long int)size, (unsigned long int)(lst_size - size), "direct %s \"HP %s\" \"HP %s USB %s HPLIP\" \"MFG:%s;MDL:%s;CLS:PRINTER;DES:%s;SN:%s;\"\n", (const void *)sz, &rmodel[(signed long int)3], &rmodel[(signed long int)3], (const void *)serial, (const void *)mfg, (const void *)rmodel, (const void *)rmodel, (const void *)rserial);
+                            size = size + return_value_snprintf_4;
                           }
 
                           else
                           {
-                            return_value_snprintf$5=snprintf(lst + (signed long int)size, (unsigned long int)(lst_size - size), "direct %s \"HP %s\" \"HP %s USB %s HPLIP\" \"MFG:%s;MDL:%s;CLS:PRINTER;DES:%s;SN:%s;\"\n", (const void *)sz, (const void *)rmodel, (const void *)rmodel, (const void *)serial, (const void *)mfg, (const void *)rmodel, (const void *)rmodel, (const void *)rserial);
-                            size = size + return_value_snprintf$5;
+                            return_value_snprintf_5=snprintf(lst + (signed long int)size, (unsigned long int)(lst_size - size), "direct %s \"HP %s\" \"HP %s USB %s HPLIP\" \"MFG:%s;MDL:%s;CLS:PRINTER;DES:%s;SN:%s;\"\n", (const void *)sz, (const void *)rmodel, (const void *)rmodel, (const void *)serial, (const void *)mfg, (const void *)rmodel, (const void *)rmodel, (const void *)rserial);
+                            size = size + return_value_snprintf_5;
                           }
                           *cnt = *cnt + 1;
                         }
 
-                        libusb_close(musb_probe_devices$$1$$hd);
-                        musb_probe_devices$$1$$hd = (struct libusb_device_handle *)(void *)0;
+                        libusb_close(musb_probe_devices__1__hd);
+                        musb_probe_devices__1__hd = (struct libusb_device_handle *)(void *)0;
                         dev_already_counted = 1;
                         break;
                       }
@@ -12615,8 +12615,8 @@ signed int musb_probe_devices(char *lst, signed int lst_size, signed int *cnt, e
 
 bugout:
   ;
-  if(!(musb_probe_devices$$1$$hd == ((struct libusb_device_handle *)NULL)))
-    libusb_close(musb_probe_devices$$1$$hd);
+  if(!(musb_probe_devices__1__hd == ((struct libusb_device_handle *)NULL)))
+    libusb_close(musb_probe_devices__1__hd);
 
   if(!(confptr == ((struct libusb_config_descriptor *)NULL)))
     libusb_free_config_descriptor(confptr);
@@ -12650,9 +12650,9 @@ enum HPMUD_RESULT musb_raw_channel_open(struct _mud_channel *pc)
   signed int fd = FD_7_1_2;
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_DEVICE_BUSY;
   get_interface(libusb_dev, (enum FD_ID)fd, &fd_table[(signed long int)fd]);
-  signed int return_value_claim_interface$1;
-  return_value_claim_interface$1=claim_interface(libusb_dev, &fd_table[(signed long int)fd]);
-  if(return_value_claim_interface$1 == 0)
+  signed int return_value_claim_interface_1;
+  return_value_claim_interface_1=claim_interface(libusb_dev, &fd_table[(signed long int)fd]);
+  if(return_value_claim_interface_1 == 0)
   {
     pc->fd = fd;
     stat = (enum HPMUD_RESULT)HPMUD_R_OK;
@@ -12817,9 +12817,9 @@ signed int musb_write(signed int fd, const void *buf, signed int size, signed in
       fd_table[(signed long int)fd].write_active = 1;
       fd_table[(signed long int)fd].write_buf = buf;
       fd_table[(signed long int)fd].write_size = size;
-      signed int return_value_pthread_create$1;
-      return_value_pthread_create$1=pthread_create(&fd_table[(signed long int)fd].tid, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))write_thread, (void *)&fd_table[(signed long int)fd]);
-      if(!(return_value_pthread_create$1 == 0))
+      signed int return_value_pthread_create_1;
+      return_value_pthread_create_1=pthread_create(&fd_table[(signed long int)fd].tid, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))write_thread, (void *)&fd_table[(signed long int)fd]);
+      if(!(return_value_pthread_create_1 == 0))
       {
         syslog(3, "io/hpmud/musb.c 1033: unable to creat write_thread: %m\n");
         goto bugout;
@@ -12889,109 +12889,109 @@ bugout:
   return stat;
 }
 
-// new_channel$link1
+// new_channel_link1
 // file io/hpmud/pp.c line 667
-static signed int new_channel$link1(struct _mud_device *pd$link1, signed int index$link1, const char *sn$link1)
+static signed int new_channel_link1(struct _mud_device *pd_link1, signed int index_link1, const char *sn_link1)
 {
-  signed int stat$link1 = 1;
-  if(!(pd$link1->channel[(signed long int)index$link1].client_cnt == 0))
-    syslog(3, "io/hpmud/pp.c 683: %s channel=%d is busy, used by [%d], clientCnt=%d channelCnt=%d\n", sn$link1, index$link1, pd$link1->channel[(signed long int)index$link1].pid, pd$link1->channel[(signed long int)index$link1].client_cnt, pd$link1->channel_cnt);
+  signed int stat_link1 = 1;
+  if(!(pd_link1->channel[(signed long int)index_link1].client_cnt == 0))
+    syslog(3, "io/hpmud/pp.c 683: %s channel=%d is busy, used by [%d], clientCnt=%d channelCnt=%d\n", sn_link1, index_link1, pd_link1->channel[(signed long int)index_link1].pid, pd_link1->channel[(signed long int)index_link1].client_cnt, pd_link1->channel_cnt);
 
   else
   {
-    _Bool tmp_if_expr$2;
-    if((signed int)pd$link1->io_mode == HPMUD_RAW_MODE)
-      tmp_if_expr$2 = (_Bool)1;
+    _Bool tmp_if_expr_2;
+    if((signed int)pd_link1->io_mode == HPMUD_RAW_MODE)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)pd$link1->io_mode == HPMUD_UNI_MODE ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
-      pd$link1->channel[(signed long int)index$link1].vf = pp_raw_channel_vf;
+      tmp_if_expr_2 = (signed int)pd_link1->io_mode == HPMUD_UNI_MODE ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
+      pd_link1->channel[(signed long int)index_link1].vf = pp_raw_channel_vf;
 
     else
     {
-      _Bool tmp_if_expr$1;
-      if((signed int)pd$link1->io_mode == HPMUD_MLC_GUSHER_MODE)
-        tmp_if_expr$1 = (_Bool)1;
+      _Bool tmp_if_expr_1;
+      if((signed int)pd_link1->io_mode == HPMUD_MLC_GUSHER_MODE)
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)pd$link1->io_mode == HPMUD_MLC_MISER_MODE ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
-        pd$link1->channel[(signed long int)index$link1].vf = pp_mlc_channel_vf;
+        tmp_if_expr_1 = (signed int)pd_link1->io_mode == HPMUD_MLC_MISER_MODE ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
+        pd_link1->channel[(signed long int)index_link1].vf = pp_mlc_channel_vf;
 
       else
-        pd$link1->channel[(signed long int)index$link1].vf = pp_dot4_channel_vf;
+        pd_link1->channel[(signed long int)index_link1].vf = pp_dot4_channel_vf;
     }
-    pd$link1->channel[(signed long int)index$link1].index = index$link1;
-    pd$link1->channel[(signed long int)index$link1].client_cnt = 1;
-    pd$link1->channel[(signed long int)index$link1].sockid = (unsigned char)index$link1;
-    pd$link1->channel[(signed long int)index$link1].pid=getpid();
-    pd$link1->channel[(signed long int)index$link1].dindex = pd$link1->index;
-    pd$link1->channel[(signed long int)index$link1].fd = -1;
-    strcpy(pd$link1->channel[(signed long int)index$link1].sn, sn$link1);
-    pd$link1->channel_cnt = pd$link1->channel_cnt + 1;
-    stat$link1 = 0;
+    pd_link1->channel[(signed long int)index_link1].index = index_link1;
+    pd_link1->channel[(signed long int)index_link1].client_cnt = 1;
+    pd_link1->channel[(signed long int)index_link1].sockid = (unsigned char)index_link1;
+    pd_link1->channel[(signed long int)index_link1].pid=getpid();
+    pd_link1->channel[(signed long int)index_link1].dindex = pd_link1->index;
+    pd_link1->channel[(signed long int)index_link1].fd = -1;
+    strcpy(pd_link1->channel[(signed long int)index_link1].sn, sn_link1);
+    pd_link1->channel_cnt = pd_link1->channel_cnt + 1;
+    stat_link1 = 0;
   }
 
 bugout:
   ;
-  return stat$link1;
+  return stat_link1;
 }
 
-// new_channel$link2
+// new_channel_link2
 // file io/hpmud/musb.c line 922
-static signed int new_channel$link2(struct _mud_device *pd$link2, signed int index$link2, const char *sn$link2)
+static signed int new_channel_link2(struct _mud_device *pd_link2, signed int index_link2, const char *sn_link2)
 {
-  signed int stat$link2 = 1;
-  if(!(pd$link2->channel[(signed long int)index$link2].client_cnt == 0))
-    syslog(3, "io/hpmud/musb.c 929: %s channel=%d is busy, used by [%d], clientCnt=%d channelCnt=%d\n", sn$link2, index$link2, pd$link2->channel[(signed long int)index$link2].pid, pd$link2->channel[(signed long int)index$link2].client_cnt, pd$link2->channel_cnt);
+  signed int stat_link2 = 1;
+  if(!(pd_link2->channel[(signed long int)index_link2].client_cnt == 0))
+    syslog(3, "io/hpmud/musb.c 929: %s channel=%d is busy, used by [%d], clientCnt=%d channelCnt=%d\n", sn_link2, index_link2, pd_link2->channel[(signed long int)index_link2].pid, pd_link2->channel[(signed long int)index_link2].client_cnt, pd_link2->channel_cnt);
 
   else
   {
-    if(index$link2 == 18 || index$link2 == 19 || index$link2 == 20 || index$link2 == 21 || index$link2 == 22 || index$link2 == 23 || index$link2 == 24 || index$link2 == 25 || index$link2 == 26 || index$link2 == 45 || index$link2 == 46)
-      pd$link2->channel[(signed long int)index$link2].vf = musb_comp_channel_vf;
+    if(index_link2 == 18 || index_link2 == 19 || index_link2 == 20 || index_link2 == 21 || index_link2 == 22 || index_link2 == 23 || index_link2 == 24 || index_link2 == 25 || index_link2 == 26 || index_link2 == 45 || index_link2 == 46)
+      pd_link2->channel[(signed long int)index_link2].vf = musb_comp_channel_vf;
 
     else
     {
-      _Bool tmp_if_expr$2$link1;
-      if((signed int)pd$link2->io_mode == HPMUD_RAW_MODE)
-        tmp_if_expr$2$link1 = (_Bool)1;
+      _Bool tmp_if_expr_2_link1;
+      if((signed int)pd_link2->io_mode == HPMUD_RAW_MODE)
+        tmp_if_expr_2_link1 = (_Bool)1;
 
       else
-        tmp_if_expr$2$link1 = (signed int)pd$link2->io_mode == HPMUD_UNI_MODE ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2$link1)
-        pd$link2->channel[(signed long int)index$link2].vf = musb_raw_channel_vf;
+        tmp_if_expr_2_link1 = (signed int)pd_link2->io_mode == HPMUD_UNI_MODE ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2_link1)
+        pd_link2->channel[(signed long int)index_link2].vf = musb_raw_channel_vf;
 
       else
       {
-        _Bool tmp_if_expr$1$link1;
-        if((signed int)pd$link2->io_mode == HPMUD_MLC_GUSHER_MODE)
-          tmp_if_expr$1$link1 = (_Bool)1;
+        _Bool tmp_if_expr_1_link1;
+        if((signed int)pd_link2->io_mode == HPMUD_MLC_GUSHER_MODE)
+          tmp_if_expr_1_link1 = (_Bool)1;
 
         else
-          tmp_if_expr$1$link1 = (signed int)pd$link2->io_mode == HPMUD_MLC_MISER_MODE ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1$link1)
-          pd$link2->channel[(signed long int)index$link2].vf = musb_mlc_channel_vf;
+          tmp_if_expr_1_link1 = (signed int)pd_link2->io_mode == HPMUD_MLC_MISER_MODE ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1_link1)
+          pd_link2->channel[(signed long int)index_link2].vf = musb_mlc_channel_vf;
 
         else
-          pd$link2->channel[(signed long int)index$link2].vf = musb_dot4_channel_vf;
+          pd_link2->channel[(signed long int)index_link2].vf = musb_dot4_channel_vf;
       }
     }
-    pd$link2->channel[(signed long int)index$link2].index = index$link2;
-    pd$link2->channel[(signed long int)index$link2].client_cnt = 1;
-    pd$link2->channel[(signed long int)index$link2].sockid = (unsigned char)index$link2;
-    pd$link2->channel[(signed long int)index$link2].pid=getpid();
-    pd$link2->channel[(signed long int)index$link2].dindex = pd$link2->index;
-    pd$link2->channel[(signed long int)index$link2].fd = 0;
-    strcpy(pd$link2->channel[(signed long int)index$link2].sn, sn$link2);
-    pd$link2->channel_cnt = pd$link2->channel_cnt + 1;
-    stat$link2 = 0;
-    syslog(6, "io/hpmud/musb.c 960: new %s channel=%d clientCnt=%d channelCnt=%d\n", sn$link2, index$link2, pd$link2->channel[(signed long int)index$link2].client_cnt, pd$link2->channel_cnt);
+    pd_link2->channel[(signed long int)index_link2].index = index_link2;
+    pd_link2->channel[(signed long int)index_link2].client_cnt = 1;
+    pd_link2->channel[(signed long int)index_link2].sockid = (unsigned char)index_link2;
+    pd_link2->channel[(signed long int)index_link2].pid=getpid();
+    pd_link2->channel[(signed long int)index_link2].dindex = pd_link2->index;
+    pd_link2->channel[(signed long int)index_link2].fd = 0;
+    strcpy(pd_link2->channel[(signed long int)index_link2].sn, sn_link2);
+    pd_link2->channel_cnt = pd_link2->channel_cnt + 1;
+    stat_link2 = 0;
+    syslog(6, "io/hpmud/musb.c 960: new %s channel=%d clientCnt=%d channelCnt=%d\n", sn_link2, index_link2, pd_link2->channel[(signed long int)index_link2].client_cnt, pd_link2->channel_cnt);
   }
 
 bugout:
   ;
-  return stat$link2;
+  return stat_link2;
 }
 
 // new_device
@@ -13000,16 +13000,16 @@ static signed int new_device(const char *uri, enum HPMUD_IO_MODE mode, signed in
 {
   signed int index = 0;
   signed int i = 1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(uri == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)uri[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  char *return_value_strcasestr$4;
-  char *return_value_strcasestr$3;
-  char *return_value_strcasestr$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)uri[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  char *return_value_strcasestr_4;
+  char *return_value_strcasestr_3;
+  char *return_value_strcasestr_2;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -13024,20 +13024,20 @@ static signed int new_device(const char *uri, enum HPMUD_IO_MODE mode, signed in
     else
     {
       index = i;
-      return_value_strcasestr$4=strcasestr(uri, ":/usb");
-      if(!(return_value_strcasestr$4 == ((char *)NULL)))
+      return_value_strcasestr_4=strcasestr(uri, ":/usb");
+      if(!(return_value_strcasestr_4 == ((char *)NULL)))
         msp->device[(signed long int)i].vf = musb_mud_device_vf;
 
       else
       {
-        return_value_strcasestr$3=strcasestr(uri, ":/net");
-        if(!(return_value_strcasestr$3 == ((char *)NULL)))
+        return_value_strcasestr_3=strcasestr(uri, ":/net");
+        if(!(return_value_strcasestr_3 == ((char *)NULL)))
           msp->device[(signed long int)i].vf = jd_mud_device_vf;
 
         else
         {
-          return_value_strcasestr$2=strcasestr(uri, ":/par");
-          if(!(return_value_strcasestr$2 == ((char *)NULL)))
+          return_value_strcasestr_2=strcasestr(uri, ":/par");
+          if(!(return_value_strcasestr_2 == ((char *)NULL)))
             msp->device[(signed long int)i].vf = pp_mud_device_vf;
 
           else
@@ -13074,18 +13074,18 @@ static signed int nibble_read(signed int fd, signed int flag, void *buffer, sign
   signed int mc = 1 << 8;
   unsigned char status;
   ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x91 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &mc);
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x91 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &m);
-  if(!(return_value_ioctl$1 == 0))
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x91 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &m);
+  if(!(return_value_ioctl_1 == 0))
     return -1;
 
   else
   {
     while(!(i >= size))
     {
-      signed int return_value_nibble_read_data$2;
-      return_value_nibble_read_data$2=nibble_read_data(fd, p + (signed long int)i);
-      if(!(return_value_nibble_read_data$2 == 1))
+      signed int return_value_nibble_read_data_2;
+      return_value_nibble_read_data_2=nibble_read_data(fd, p + (signed long int)i);
+      if(!(return_value_nibble_read_data_2 == 1))
       {
         usec = usec - 100000;
         if(usec >= 1)
@@ -13114,31 +13114,31 @@ static signed int nibble_read_data(signed int fd, unsigned char *data)
   signed int len = 0;
   unsigned char nibble;
   frob_control(fd, (unsigned char)0x2, (unsigned char)0);
-  signed int return_value_wait_status$1;
-  return_value_wait_status$1=wait_status(fd, (unsigned char)0x40, (unsigned char)0, 100000);
-  unsigned char return_value_read_status$2;
-  signed int return_value_wait_status$3;
-  unsigned char return_value_read_status$4;
-  if(!(return_value_wait_status$1 == 0))
+  signed int return_value_wait_status_1;
+  return_value_wait_status_1=wait_status(fd, (unsigned char)0x40, (unsigned char)0, 100000);
+  unsigned char return_value_read_status_2;
+  signed int return_value_wait_status_3;
+  unsigned char return_value_read_status_4;
+  if(!(return_value_wait_status_1 == 0))
     len = -1;
 
   else
   {
-    return_value_read_status$2=read_status(fd);
-    nibble = (unsigned char)((signed int)return_value_read_status$2 >> 3);
+    return_value_read_status_2=read_status(fd);
+    nibble = (unsigned char)((signed int)return_value_read_status_2 >> 3);
     nibble = (unsigned char)(((signed int)nibble & 0x10) >> 1 | (signed int)nibble & 0x7);
     *data = nibble;
     frob_control(fd, (unsigned char)0x2, (unsigned char)0x2);
     wait_status(fd, (unsigned char)0x40, (unsigned char)0x40, 100000);
     frob_control(fd, (unsigned char)0x2, (unsigned char)0);
-    return_value_wait_status$3=wait_status(fd, (unsigned char)0x40, (unsigned char)0, 100000);
-    if(!(return_value_wait_status$3 == 0))
+    return_value_wait_status_3=wait_status(fd, (unsigned char)0x40, (unsigned char)0, 100000);
+    if(!(return_value_wait_status_3 == 0))
       len = -1;
 
     else
     {
-      return_value_read_status$4=read_status(fd);
-      nibble = (unsigned char)((signed int)return_value_read_status$4 >> 3);
+      return_value_read_status_4=read_status(fd);
+      nibble = (unsigned char)((signed int)return_value_read_status_4 >> 3);
       nibble = (unsigned char)(((signed int)nibble & 0x10) >> 1 | (signed int)nibble & 0x7);
       *data = *data | (unsigned char)((signed int)nibble << 4);
       frob_control(fd, (unsigned char)0x2, (unsigned char)0x2);
@@ -13188,12 +13188,12 @@ static signed int parse_key_value_pair(char *buf, signed int len, struct hpmud_m
   ma->scantype = (enum HPMUD_SCANTYPE)0;
   ma->statustype = (enum HPMUD_STATUSTYPE)HPMUD_STATUSTYPE_SFIELD;
   ma->support = (enum HPMUD_SUPPORT_TYPE)HPMUD_SUPPORT_TYPE_NONE;
-  signed int return_value_strcasecmp$14;
-  signed int return_value_strcasecmp$13;
-  signed int return_value_strcasecmp$12;
-  signed int return_value_strcasecmp$11;
-  signed int return_value_strcasecmp$10;
-  signed int return_value_strcasecmp$9;
+  signed int return_value_strcasecmp_14;
+  signed int return_value_strcasecmp_13;
+  signed int return_value_strcasecmp_12;
+  signed int return_value_strcasecmp_11;
+  signed int return_value_strcasecmp_10;
+  signed int return_value_strcasecmp_9;
   if(buf == ((char *)NULL))
     return HPMUD_R_OK;
 
@@ -13202,76 +13202,76 @@ static signed int parse_key_value_pair(char *buf, signed int len, struct hpmud_m
     tail = buf;
     while(!(i >= len))
     {
-      signed int return_value_GetPair$1;
-      return_value_GetPair$1=GetPair(tail, len - i, key, value, &tail);
-      i = i + return_value_GetPair$1;
-      signed int return_value_strcasecmp$15;
-      return_value_strcasecmp$15=strcasecmp(key, "io-mode");
-      if(return_value_strcasecmp$15 == 0)
+      signed int return_value_GetPair_1;
+      return_value_GetPair_1=GetPair(tail, len - i, key, value, &tail);
+      i = i + return_value_GetPair_1;
+      signed int return_value_strcasecmp_15;
+      return_value_strcasecmp_15=strcasecmp(key, "io-mode");
+      if(return_value_strcasecmp_15 == 0)
       {
-        signed long int return_value_strtol$2;
-        return_value_strtol$2=strtol(value, &tail2, 10);
-        ma->prt_mode = (enum HPMUD_IO_MODE)return_value_strtol$2;
+        signed long int return_value_strtol_2;
+        return_value_strtol_2=strtol(value, &tail2, 10);
+        ma->prt_mode = (enum HPMUD_IO_MODE)return_value_strtol_2;
       }
 
       else
       {
-        return_value_strcasecmp$14=strcasecmp(key, "io-mfp-mode");
-        if(return_value_strcasecmp$14 == 0)
+        return_value_strcasecmp_14=strcasecmp(key, "io-mfp-mode");
+        if(return_value_strcasecmp_14 == 0)
         {
-          signed long int return_value_strtol$3;
-          return_value_strtol$3=strtol(value, &tail2, 10);
-          ma->mfp_mode = (enum HPMUD_IO_MODE)return_value_strtol$3;
+          signed long int return_value_strtol_3;
+          return_value_strtol_3=strtol(value, &tail2, 10);
+          ma->mfp_mode = (enum HPMUD_IO_MODE)return_value_strtol_3;
         }
 
         else
         {
-          return_value_strcasecmp$13=strcasecmp(key, "scan-type");
-          if(return_value_strcasecmp$13 == 0)
+          return_value_strcasecmp_13=strcasecmp(key, "scan-type");
+          if(return_value_strcasecmp_13 == 0)
           {
-            signed long int return_value_strtol$4;
-            return_value_strtol$4=strtol(value, &tail2, 10);
-            ma->scantype = (enum HPMUD_SCANTYPE)return_value_strtol$4;
+            signed long int return_value_strtol_4;
+            return_value_strtol_4=strtol(value, &tail2, 10);
+            ma->scantype = (enum HPMUD_SCANTYPE)return_value_strtol_4;
           }
 
           else
           {
-            return_value_strcasecmp$12=strcasecmp(key, "scan-src");
-            if(return_value_strcasecmp$12 == 0)
+            return_value_strcasecmp_12=strcasecmp(key, "scan-src");
+            if(return_value_strcasecmp_12 == 0)
             {
-              signed long int return_value_strtol$5;
-              return_value_strtol$5=strtol(value, &tail2, 10);
-              ma->scansrc = (enum HPMUD_SCANSRC)return_value_strtol$5;
+              signed long int return_value_strtol_5;
+              return_value_strtol_5=strtol(value, &tail2, 10);
+              ma->scansrc = (enum HPMUD_SCANSRC)return_value_strtol_5;
             }
 
             else
             {
-              return_value_strcasecmp$11=strcasecmp(key, "status-type");
-              if(return_value_strcasecmp$11 == 0)
+              return_value_strcasecmp_11=strcasecmp(key, "status-type");
+              if(return_value_strcasecmp_11 == 0)
               {
-                signed long int return_value_strtol$6;
-                return_value_strtol$6=strtol(value, &tail2, 10);
-                ma->statustype = (enum HPMUD_STATUSTYPE)return_value_strtol$6;
+                signed long int return_value_strtol_6;
+                return_value_strtol_6=strtol(value, &tail2, 10);
+                ma->statustype = (enum HPMUD_STATUSTYPE)return_value_strtol_6;
               }
 
               else
               {
-                return_value_strcasecmp$10=strcasecmp(key, "support-type");
-                if(return_value_strcasecmp$10 == 0)
+                return_value_strcasecmp_10=strcasecmp(key, "support-type");
+                if(return_value_strcasecmp_10 == 0)
                 {
-                  signed long int return_value_strtol$7;
-                  return_value_strtol$7=strtol(value, &tail2, 10);
-                  ma->support = (enum HPMUD_SUPPORT_TYPE)return_value_strtol$7;
+                  signed long int return_value_strtol_7;
+                  return_value_strtol_7=strtol(value, &tail2, 10);
+                  ma->support = (enum HPMUD_SUPPORT_TYPE)return_value_strtol_7;
                 }
 
                 else
                 {
-                  return_value_strcasecmp$9=strcasecmp(key, "plugin");
-                  if(return_value_strcasecmp$9 == 0)
+                  return_value_strcasecmp_9=strcasecmp(key, "plugin");
+                  if(return_value_strcasecmp_9 == 0)
                   {
-                    signed long int return_value_strtol$8;
-                    return_value_strtol$8=strtol(value, &tail2, 10);
-                    ma->plugin = (enum HPMUD_PLUGIN_TYPE)return_value_strtol$8;
+                    signed long int return_value_strtol_8;
+                    return_value_strtol_8=strtol(value, &tail2, 10);
+                    ma->plugin = (enum HPMUD_PLUGIN_TYPE)return_value_strtol_8;
                   }
 
                 }
@@ -13291,8 +13291,8 @@ signed int power_up(struct _mud_device *pd, signed int fd)
 {
   const char *pSf;
   pSf=strstr(pd->id, "CMD:LDL");
-  char *return_value_strstr$3;
-  char *return_value_strstr$5;
+  char *return_value_strstr_3;
+  char *return_value_strstr_5;
   if(!(pSf == ((const char *)NULL)))
     return 0;
 
@@ -13301,9 +13301,9 @@ signed int power_up(struct _mud_device *pd, signed int fd)
     pSf=strstr(pd->id, ";S:");
     if(!(pSf == ((const char *)NULL)))
     {
-      signed int return_value_sfield_printer_state$1;
-      return_value_sfield_printer_state$1=sfield_printer_state(pd->id);
-      if(!(return_value_sfield_printer_state$1 == 3))
+      signed int return_value_sfield_printer_state_1;
+      return_value_sfield_printer_state_1=sfield_printer_state(pd->id);
+      if(!(return_value_sfield_printer_state_1 == 3))
         return 0;
 
     }
@@ -13313,27 +13313,27 @@ signed int power_up(struct _mud_device *pd, signed int fd)
       pSf=strstr(pd->id, "VSTATUS:");
       if(!(pSf == ((const char *)NULL)))
       {
-        char *return_value_strstr$2;
-        return_value_strstr$2=strstr(pSf + (signed long int)8, "OFFF");
-        _Bool tmp_if_expr$4;
-        if(!(return_value_strstr$2 == ((char *)NULL)))
-          tmp_if_expr$4 = (_Bool)1;
+        char *return_value_strstr_2;
+        return_value_strstr_2=strstr(pSf + (signed long int)8, "OFFF");
+        _Bool tmp_if_expr_4;
+        if(!(return_value_strstr_2 == ((char *)NULL)))
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
-          return_value_strstr$3=strstr(pSf + (signed long int)8, "PWDN");
-          tmp_if_expr$4 = return_value_strstr$3 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          return_value_strstr_3=strstr(pSf + (signed long int)8, "PWDN");
+          tmp_if_expr_4 = return_value_strstr_3 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
         }
-        _Bool tmp_if_expr$6;
-        if(tmp_if_expr$4)
-          tmp_if_expr$6 = (_Bool)1;
+        _Bool tmp_if_expr_6;
+        if(tmp_if_expr_4)
+          tmp_if_expr_6 = (_Bool)1;
 
         else
         {
-          return_value_strstr$5=strstr(pSf + (signed long int)8, "$X");
-          tmp_if_expr$6 = return_value_strstr$5 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          return_value_strstr_5=strstr(pSf + (signed long int)8, "_X");
+          tmp_if_expr_6 = return_value_strstr_5 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
         }
-        if(!tmp_if_expr$6)
+        if(!tmp_if_expr_6)
           return 0;
 
       }
@@ -13354,7 +13354,7 @@ enum HPMUD_RESULT pp_channel_close(struct _mud_device *pd, struct _mud_channel *
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_OK;
   pthread_mutex_lock(&pd->mutex);
   stat=pc->vf.close(pc);
-  del_channel$link1(pd, pc);
+  del_channel_link1(pd, pc);
   pthread_mutex_unlock(&pd->mutex);
   return stat;
 }
@@ -13366,19 +13366,19 @@ enum HPMUD_RESULT pp_channel_open(struct _mud_device *pd, const char *sn, signed
   signed int index;
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_DEVICE_BUSY;
   stat=service_to_channel(pd, sn, &index);
-  signed int return_value_new_channel$1;
+  signed int return_value_new_channel_1;
   if((signed int)stat == HPMUD_R_OK)
   {
     pthread_mutex_lock(&pd->mutex);
-    return_value_new_channel$1=new_channel$link1(pd, index, sn);
-    if(!(return_value_new_channel$1 == 0))
+    return_value_new_channel_1=new_channel_link1(pd, index, sn);
+    if(!(return_value_new_channel_1 == 0))
       stat = (enum HPMUD_RESULT)HPMUD_R_DEVICE_BUSY;
 
     else
     {
       stat=pd->channel[(signed long int)index].vf.open(&pd->channel[(signed long int)index]);
       if(!((signed int)stat == HPMUD_R_OK))
-        del_channel$link1(pd, &pd->channel[(signed long int)index]);
+        del_channel_link1(pd, &pd->channel[(signed long int)index]);
 
       else
         *cd = index;
@@ -13416,9 +13416,9 @@ enum HPMUD_RESULT pp_dot4_channel_close(struct _mud_channel *pc)
   signed int m;
   if(!(pd->mlc_up == 0))
   {
-    signed int return_value_Dot4CloseChannel$1;
-    return_value_Dot4CloseChannel$1=Dot4CloseChannel(pc, pd->mlc_fd);
-    if(!(return_value_Dot4CloseChannel$1 == 0))
+    signed int return_value_Dot4CloseChannel_1;
+    return_value_Dot4CloseChannel_1=Dot4CloseChannel(pc, pd->mlc_fd);
+    if(!(return_value_Dot4CloseChannel_1 == 0))
       stat = (enum HPMUD_RESULT)HPMUD_R_IO_ERROR;
 
   }
@@ -13427,9 +13427,9 @@ enum HPMUD_RESULT pp_dot4_channel_close(struct _mud_channel *pc)
   {
     if(!(pd->mlc_up == 0))
     {
-      signed int return_value_Dot4Exit$2;
-      return_value_Dot4Exit$2=Dot4Exit(pc, pd->mlc_fd);
-      if(!(return_value_Dot4Exit$2 == 0))
+      signed int return_value_Dot4Exit_2;
+      return_value_Dot4Exit_2=Dot4Exit(pc, pd->mlc_fd);
+      if(!(return_value_Dot4Exit_2 == 0))
         stat = (enum HPMUD_RESULT)HPMUD_R_IO_ERROR;
 
     }
@@ -13456,15 +13456,15 @@ enum HPMUD_RESULT pp_dot4_channel_open(struct _mud_channel *pc)
   signed int m;
   if(pd->channel_cnt == 1)
   {
-    signed int return_value_claim_pp$1;
-    return_value_claim_pp$1=claim_pp(pd->open_fd);
-    if(!(return_value_claim_pp$1 == 0))
+    signed int return_value_claim_pp_1;
+    return_value_claim_pp_1=claim_pp(pd->open_fd);
+    if(!(return_value_claim_pp_1 == 0))
       goto bugout;
 
     m = 1 << 10;
-    signed int return_value_ioctl$2;
-    return_value_ioctl$2=ioctl(pd->open_fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x91 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &m);
-    if(!(return_value_ioctl$2 == 0))
+    signed int return_value_ioctl_2;
+    return_value_ioctl_2=ioctl(pd->open_fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x91 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &m);
+    if(!(return_value_ioctl_2 == 0))
     {
       syslog(3, "io/hpmud/pp.c 1135: unable to negotiate %s ECP mode: %m\n", (const void *)pd->uri);
       goto bugout;
@@ -13473,25 +13473,25 @@ enum HPMUD_RESULT pp_dot4_channel_open(struct _mud_channel *pc)
     ecp_write_addr(pd->open_fd, (unsigned char)78);
     ecp_write(pd->open_fd, (const void *)"\0", 1);
     ecp_write_addr(pd->open_fd, (unsigned char)77);
-    signed int return_value_Dot4Init$3;
-    return_value_Dot4Init$3=Dot4Init(pc, pd->open_fd);
-    if(!(return_value_Dot4Init$3 == 0))
+    signed int return_value_Dot4Init_3;
+    return_value_Dot4Init_3=Dot4Init(pc, pd->open_fd);
+    if(!(return_value_Dot4Init_3 == 0))
       goto bugout;
 
     i = 0;
     for( ; !(i >= 47); i = i + 1)
-      memset((void *)&pd->channel[(signed long int)i].ta, 0, sizeof(struct anonymous$19) /*8ul*/ );
+      memset((void *)&pd->channel[(signed long int)i].ta, 0, sizeof(struct anonymous_19) /*8ul*/ );
     pd->mlc_fd = pd->open_fd;
     pd->mlc_up = 1;
   }
 
-  signed int return_value_Dot4GetSocket$4;
-  return_value_Dot4GetSocket$4=Dot4GetSocket(pc, pd->mlc_fd);
-  signed int return_value_Dot4OpenChannel$5;
-  if(return_value_Dot4GetSocket$4 == 0)
+  signed int return_value_Dot4GetSocket_4;
+  return_value_Dot4GetSocket_4=Dot4GetSocket(pc, pd->mlc_fd);
+  signed int return_value_Dot4OpenChannel_5;
+  if(return_value_Dot4GetSocket_4 == 0)
   {
-    return_value_Dot4OpenChannel$5=Dot4OpenChannel(pc, pd->mlc_fd);
-    if(return_value_Dot4OpenChannel$5 == 0)
+    return_value_Dot4OpenChannel_5=Dot4OpenChannel(pc, pd->mlc_fd);
+    if(return_value_Dot4OpenChannel_5 == 0)
     {
       pc->rindex = 0;
       pc->rcnt = pc->rindex;
@@ -13525,9 +13525,9 @@ enum HPMUD_RESULT pp_get_device_id(struct _mud_device *pd, char *buf, signed int
   {
     if((signed int)pd->io_mode == HPMUD_UNI_MODE)
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(pd->id);
-      *len = (signed int)return_value_strlen$1;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(pd->id);
+      *len = (signed int)return_value_strlen_1;
     }
 
     else
@@ -13535,35 +13535,35 @@ enum HPMUD_RESULT pp_get_device_id(struct _mud_device *pd, char *buf, signed int
       ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x98 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &m);
       if(!((1040 & m) == 0))
       {
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(pd->id);
-        *len = (signed int)return_value_strlen$2;
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(pd->id);
+        *len = (signed int)return_value_strlen_2;
       }
 
       else
         if(pd->channel_cnt == 0)
         {
-          signed int return_value_claim_pp$3;
-          return_value_claim_pp$3=claim_pp(fd);
-          if(!(return_value_claim_pp$3 == 0))
+          signed int return_value_claim_pp_3;
+          return_value_claim_pp_3=claim_pp(fd);
+          if(!(return_value_claim_pp_3 == 0))
             goto bugout;
 
-          *len=device_id$link1(fd, pd->id, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+          *len=device_id_link1(fd, pd->id, (signed int)sizeof(char [1024l]) /*1024ul*/ );
           release_pp(fd);
         }
 
         else
-          *len=device_id$link1(fd, pd->id, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+          *len=device_id_link1(fd, pd->id, (signed int)sizeof(char [1024l]) /*1024ul*/ );
     }
     if(!(*len == 0))
     {
-      signed int tmp_if_expr$4;
+      signed int tmp_if_expr_4;
       if(!(size >= *len))
-        tmp_if_expr$4 = size;
+        tmp_if_expr_4 = size;
 
       else
-        tmp_if_expr$4 = *len;
-      memcpy((void *)buf, (const void *)pd->id, (unsigned long int)tmp_if_expr$4);
+        tmp_if_expr_4 = *len;
+      memcpy((void *)buf, (const void *)pd->id, (unsigned long int)tmp_if_expr_4);
       stat = (enum HPMUD_RESULT)HPMUD_R_OK;
     }
 
@@ -13604,9 +13604,9 @@ enum HPMUD_RESULT pp_get_device_status(struct _mud_device *pd, unsigned int *sta
       else
         if(pd->channel_cnt == 0)
         {
-          signed int return_value_claim_pp$1;
-          return_value_claim_pp$1=claim_pp(fd);
-          if(!(return_value_claim_pp$1 == 0))
+          signed int return_value_claim_pp_1;
+          return_value_claim_pp_1=claim_pp(fd);
+          if(!(return_value_claim_pp_1 == 0))
             goto bugout;
 
           r=device_status(fd, status);
@@ -13636,9 +13636,9 @@ enum HPMUD_RESULT pp_mlc_channel_close(struct _mud_channel *pc)
   signed int m;
   if(!(pd->mlc_up == 0))
   {
-    signed int return_value_MlcCloseChannel$1;
-    return_value_MlcCloseChannel$1=MlcCloseChannel(pc, pd->mlc_fd);
-    if(!(return_value_MlcCloseChannel$1 == 0))
+    signed int return_value_MlcCloseChannel_1;
+    return_value_MlcCloseChannel_1=MlcCloseChannel(pc, pd->mlc_fd);
+    if(!(return_value_MlcCloseChannel_1 == 0))
       stat = (enum HPMUD_RESULT)HPMUD_R_IO_ERROR;
 
   }
@@ -13647,9 +13647,9 @@ enum HPMUD_RESULT pp_mlc_channel_close(struct _mud_channel *pc)
   {
     if(!(pd->mlc_up == 0))
     {
-      signed int return_value_MlcExit$2;
-      return_value_MlcExit$2=MlcExit(pc, pd->mlc_fd);
-      if(!(return_value_MlcExit$2 == 0))
+      signed int return_value_MlcExit_2;
+      return_value_MlcExit_2=MlcExit(pc, pd->mlc_fd);
+      if(!(return_value_MlcExit_2 == 0))
         stat = (enum HPMUD_RESULT)HPMUD_R_IO_ERROR;
 
     }
@@ -13676,15 +13676,15 @@ enum HPMUD_RESULT pp_mlc_channel_open(struct _mud_channel *pc)
   signed int m;
   if(pd->channel_cnt == 1)
   {
-    signed int return_value_claim_pp$1;
-    return_value_claim_pp$1=claim_pp(pd->open_fd);
-    if(!(return_value_claim_pp$1 == 0))
+    signed int return_value_claim_pp_1;
+    return_value_claim_pp_1=claim_pp(pd->open_fd);
+    if(!(return_value_claim_pp_1 == 0))
       goto bugout;
 
     m = 1 << 10;
-    signed int return_value_ioctl$2;
-    return_value_ioctl$2=ioctl(pd->open_fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x91 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &m);
-    if(!(return_value_ioctl$2 == 0))
+    signed int return_value_ioctl_2;
+    return_value_ioctl_2=ioctl(pd->open_fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x91 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &m);
+    if(!(return_value_ioctl_2 == 0))
     {
       syslog(3, "io/hpmud/pp.c 1043: unable to negotiate %s ECP mode: %m\n", (const void *)pd->uri);
       goto bugout;
@@ -13693,25 +13693,25 @@ enum HPMUD_RESULT pp_mlc_channel_open(struct _mud_channel *pc)
     ecp_write_addr(pd->open_fd, (unsigned char)78);
     ecp_write(pd->open_fd, (const void *)"\0", 1);
     ecp_write_addr(pd->open_fd, (unsigned char)77);
-    signed int return_value_MlcInit$3;
-    return_value_MlcInit$3=MlcInit(pc, pd->open_fd);
-    if(!(return_value_MlcInit$3 == 0))
+    signed int return_value_MlcInit_3;
+    return_value_MlcInit_3=MlcInit(pc, pd->open_fd);
+    if(!(return_value_MlcInit_3 == 0))
       goto bugout;
 
     i = 0;
     for( ; !(i >= 47); i = i + 1)
-      memset((void *)&pd->channel[(signed long int)i].ta, 0, sizeof(struct anonymous$19) /*8ul*/ );
+      memset((void *)&pd->channel[(signed long int)i].ta, 0, sizeof(struct anonymous_19) /*8ul*/ );
     pd->mlc_fd = pd->open_fd;
     pd->mlc_up = 1;
   }
 
-  signed int return_value_MlcConfigSocket$4;
-  return_value_MlcConfigSocket$4=MlcConfigSocket(pc, pd->mlc_fd);
-  signed int return_value_MlcOpenChannel$5;
-  if(return_value_MlcConfigSocket$4 == 0)
+  signed int return_value_MlcConfigSocket_4;
+  return_value_MlcConfigSocket_4=MlcConfigSocket(pc, pd->mlc_fd);
+  signed int return_value_MlcOpenChannel_5;
+  if(return_value_MlcConfigSocket_4 == 0)
   {
-    return_value_MlcOpenChannel$5=MlcOpenChannel(pc, pd->mlc_fd);
-    if(return_value_MlcOpenChannel$5 == 0)
+    return_value_MlcOpenChannel_5=MlcOpenChannel(pc, pd->mlc_fd);
+    if(return_value_MlcOpenChannel_5 == 0)
     {
       pc->rindex = 0;
       pc->rcnt = pc->rindex;
@@ -13739,7 +13739,7 @@ enum HPMUD_RESULT pp_open(struct _mud_device *pd)
   enum HPMUD_RESULT stat = (enum HPMUD_RESULT)HPMUD_R_IO_ERROR;
   pthread_mutex_lock(&pd->mutex);
   hpmud_get_uri_model(pd->uri, uriModel, (signed int)sizeof(char [128l]) /*128ul*/ );
-  signed int return_value_is_hp$3;
+  signed int return_value_is_hp_3;
   if((signed int)pd->id[0l] == 0)
   {
     hpmud_get_uri_datalink(pd->uri, dev, (signed int)sizeof(char [255l]) /*255ul*/ );
@@ -13750,24 +13750,24 @@ enum HPMUD_RESULT pp_open(struct _mud_device *pd)
       goto bugout;
     }
 
-    signed int return_value_ioctl$1;
-    return_value_ioctl$1=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x97 << 0)) | sizeof(unsigned int) /*4ul*/  << 0 + 8 + 8, &m);
-    if(!(return_value_ioctl$1 == 0))
+    signed int return_value_ioctl_1;
+    return_value_ioctl_1=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x97 << 0)) | sizeof(unsigned int) /*4ul*/  << 0 + 8 + 8, &m);
+    if(!(return_value_ioctl_1 == 0))
     {
       syslog(3, "io/hpmud/pp.c 793: unable to open %s: %m\n", (const void *)pd->uri);
       goto bugout;
     }
 
-    signed int return_value_claim_pp$2;
-    return_value_claim_pp$2=claim_pp(fd);
-    if(!(return_value_claim_pp$2 == 0))
+    signed int return_value_claim_pp_2;
+    return_value_claim_pp_2=claim_pp(fd);
+    if(!(return_value_claim_pp_2 == 0))
       goto bugout;
 
-    len=device_id$link1(fd, pd->id, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+    len=device_id_link1(fd, pd->id, (signed int)sizeof(char [1024l]) /*1024ul*/ );
     if(len >= 1)
     {
-      return_value_is_hp$3=is_hp(pd->id);
-      if(!(return_value_is_hp$3 == 0))
+      return_value_is_hp_3=is_hp(pd->id);
+      if(!(return_value_is_hp_3 == 0))
         power_up(pd, fd);
 
     }
@@ -13780,9 +13780,9 @@ enum HPMUD_RESULT pp_open(struct _mud_device *pd)
   }
 
   hpmud_get_model(pd->id, model, (signed int)sizeof(char [128l]) /*128ul*/ );
-  signed int return_value_strcmp$4;
-  return_value_strcmp$4=strcmp(uriModel, model);
-  if(!(return_value_strcmp$4 == 0))
+  signed int return_value_strcmp_4;
+  return_value_strcmp_4=strcmp(uriModel, model);
+  if(!(return_value_strcmp_4 == 0))
   {
     stat = (enum HPMUD_RESULT)HPMUD_R_INVALID_DEVICE_NODE;
     syslog(3, "io/hpmud/pp.c 819: invalid model %s != %s\n", (const void *)uriModel, (const void *)model);
@@ -13811,29 +13811,29 @@ signed int pp_probe_devices(char *lst, signed int lst_size, signed int *cnt)
   signed int fd;
   signed int m;
   i = 0;
-  signed int return_value_is_hp$4;
-  signed int return_value_sprintf$1;
-  signed int return_value_sprintf$2;
+  signed int return_value_is_hp_4;
+  signed int return_value_sprintf_1;
+  signed int return_value_sprintf_2;
   for( ; !(i >= 4); i = i + 1)
   {
     sprintf(dev, "/dev/parport%d", i);
     fd=open(dev, 00 | 0400);
     if(fd >= 0)
     {
-      signed int return_value_ioctl$7;
-      return_value_ioctl$7=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x97 << 0)) | sizeof(unsigned int) /*4ul*/  << 0 + 8 + 8, &m);
-      if(return_value_ioctl$7 == 0)
+      signed int return_value_ioctl_7;
+      return_value_ioctl_7=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x97 << 0)) | sizeof(unsigned int) /*4ul*/  << 0 + 8 + 8, &m);
+      if(return_value_ioctl_7 == 0)
       {
-        signed int return_value_claim_pp$6;
-        return_value_claim_pp$6=claim_pp(fd);
-        if(return_value_claim_pp$6 == 0)
+        signed int return_value_claim_pp_6;
+        return_value_claim_pp_6=claim_pp(fd);
+        if(return_value_claim_pp_6 == 0)
         {
-          signed int return_value_device_id$5;
-          return_value_device_id$5=device_id$link1(fd, id, (signed int)sizeof(char [1024l]) /*1024ul*/ );
-          if(return_value_device_id$5 >= 1)
+          signed int return_value_device_id_5;
+          return_value_device_id_5=device_id_link1(fd, id, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+          if(return_value_device_id_5 >= 1)
           {
-            return_value_is_hp$4=is_hp(id);
-            if(!(return_value_is_hp$4 == 0))
+            return_value_is_hp_4=is_hp(id);
+            if(!(return_value_is_hp_4 == 0))
             {
               hpmud_get_model(id, model, (signed int)sizeof(char [128l]) /*128ul*/ );
               hpmud_get_raw_model(id, rmodel, (signed int)sizeof(char [128l]) /*128ul*/ );
@@ -13847,18 +13847,18 @@ signed int pp_probe_devices(char *lst, signed int lst_size, signed int *cnt)
                 goto __CPROVER_DUMP_L10;
               }
 
-              signed int return_value_strncasecmp$3;
-              return_value_strncasecmp$3=strncasecmp(rmodel, "hp ", (unsigned long int)3);
-              if(return_value_strncasecmp$3 == 0)
+              signed int return_value_strncasecmp_3;
+              return_value_strncasecmp_3=strncasecmp(rmodel, "hp ", (unsigned long int)3);
+              if(return_value_strncasecmp_3 == 0)
               {
-                return_value_sprintf$1=sprintf(lst + (signed long int)size, "direct %s \"HP %s\" \"HP %s LPT parport%d HPLIP\" \"%s\"\n", (const void *)dev, &rmodel[(signed long int)3], &rmodel[(signed long int)3], i, (const void *)id);
-                size = size + return_value_sprintf$1;
+                return_value_sprintf_1=sprintf(lst + (signed long int)size, "direct %s \"HP %s\" \"HP %s LPT parport%d HPLIP\" \"%s\"\n", (const void *)dev, &rmodel[(signed long int)3], &rmodel[(signed long int)3], i, (const void *)id);
+                size = size + return_value_sprintf_1;
               }
 
               else
               {
-                return_value_sprintf$2=sprintf(lst + (signed long int)size, "direct %s \"HP %s\" \"HP %s LPT parport%d HPLIP\" \"%s\"\n", (const void *)dev, (const void *)rmodel, (const void *)rmodel, i, (const void *)id);
-                size = size + return_value_sprintf$2;
+                return_value_sprintf_2=sprintf(lst + (signed long int)size, "direct %s \"HP %s\" \"HP %s LPT parport%d HPLIP\" \"%s\"\n", (const void *)dev, (const void *)rmodel, (const void *)rmodel, i, (const void *)id);
+                size = size + return_value_sprintf_2;
               }
               *cnt = *cnt + 1;
             }
@@ -13898,9 +13898,9 @@ enum HPMUD_RESULT pp_raw_channel_close(struct _mud_channel *pc)
 enum HPMUD_RESULT pp_raw_channel_open(struct _mud_channel *pc)
 {
   struct _mud_device *pd = &msp->device[(signed long int)pc->dindex];
-  signed int return_value_claim_pp$1;
-  return_value_claim_pp$1=claim_pp(pd->open_fd);
-  if(!(return_value_claim_pp$1 == 0))
+  signed int return_value_claim_pp_1;
+  return_value_claim_pp_1=claim_pp(pd->open_fd);
+  if(!(return_value_claim_pp_1 == 0))
     return (enum HPMUD_RESULT)HPMUD_R_IO_ERROR;
 
   else
@@ -13945,9 +13945,9 @@ signed int pp_write(signed int fd, const void *buf, signed int size, signed int 
 static unsigned char read_status(signed int fd)
 {
   unsigned char status;
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x81 << 0)) | sizeof(unsigned char) /*1ul*/  << 0 + 8 + 8, &status);
-  if(!(return_value_ioctl$1 == 0))
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x81 << 0)) | sizeof(unsigned char) /*1ul*/  << 0 + 8 + 8, &status);
+  if(!(return_value_ioctl_1 == 0))
     syslog(3, "io/hpmud/pp.c 85: read_status error: %m\n");
 
   return (unsigned char)((signed int)status ^ 0x80);
@@ -13966,9 +13966,9 @@ signed int readsect(signed int sector, signed int nsector, void *buf, signed int
   for( ; !(i >= nsector); len = len - n)
   {
     n = len > 3 ? 3 : len;
-    signed int return_value_ReadSector$1;
-    return_value_ReadSector$1=ReadSector(sector + i, n, buf + (signed long int)total, size - total);
-    if(!(return_value_ReadSector$1 == 0))
+    signed int return_value_ReadSector_1;
+    return_value_ReadSector_1=ReadSector(sector + i, n, buf + (signed long int)total, size - total);
+    if(!(return_value_ReadSector_1 == 0))
       goto bugout;
 
     total = total + n * 512;
@@ -13983,7 +13983,7 @@ bugout:
 
 // release_interface
 // file io/hpmud/musb.c line 543
-static signed int release_interface(struct anonymous$21 *pfd)
+static signed int release_interface(struct anonymous_21 *pfd)
 {
   if(pfd->hd == ((struct libusb_device_handle *)NULL))
     return 0;
@@ -14013,9 +14013,9 @@ static signed int release_pp(signed int fd)
 {
   signed int stat = 1;
   signed int m = 1 << 8;
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x91 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &m);
-  if(!(return_value_ioctl$1 == 0))
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(112 << 0 + 8) | (unsigned int)(0x91 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, &m);
+  if(!(return_value_ioctl_1 == 0))
     syslog(3, "io/hpmud/pp.c 604: failed release_pp fd=%d: %m\n", fd);
 
   else
@@ -14035,85 +14035,85 @@ enum HPMUD_RESULT service_to_channel(struct _mud_device *pd, const char *sn, sig
 {
   enum HPMUD_RESULT stat;
   *index = -1;
-  signed int return_value_strncasecmp$21;
-  return_value_strncasecmp$21=strncasecmp(sn, "print", (unsigned long int)5);
-  signed int return_value_strncasecmp$20;
-  signed int return_value_strncasecmp$19;
-  signed int return_value_strncasecmp$18;
-  signed int return_value_strncasecmp$17;
-  signed int return_value_strncasecmp$16;
-  signed int return_value_strncasecmp$15;
-  signed int return_value_strncasecmp$14;
-  signed int return_value_strncasecmp$13;
-  signed int return_value_strncasecmp$12;
-  signed int return_value_strncasecmp$11;
-  signed int return_value_strncasecmp$9;
-  signed int return_value_strncasecmp$8;
-  signed int return_value_strncasecmp$7;
-  signed int return_value_strncasecmp$6;
-  signed int return_value_strncasecmp$5;
-  signed int return_value_strncasecmp$4;
-  signed int return_value_strncasecmp$3;
-  signed int return_value_strncasecmp$2;
-  if(return_value_strncasecmp$21 == 0)
+  signed int return_value_strncasecmp_21;
+  return_value_strncasecmp_21=strncasecmp(sn, "print", (unsigned long int)5);
+  signed int return_value_strncasecmp_20;
+  signed int return_value_strncasecmp_19;
+  signed int return_value_strncasecmp_18;
+  signed int return_value_strncasecmp_17;
+  signed int return_value_strncasecmp_16;
+  signed int return_value_strncasecmp_15;
+  signed int return_value_strncasecmp_14;
+  signed int return_value_strncasecmp_13;
+  signed int return_value_strncasecmp_12;
+  signed int return_value_strncasecmp_11;
+  signed int return_value_strncasecmp_9;
+  signed int return_value_strncasecmp_8;
+  signed int return_value_strncasecmp_7;
+  signed int return_value_strncasecmp_6;
+  signed int return_value_strncasecmp_5;
+  signed int return_value_strncasecmp_4;
+  signed int return_value_strncasecmp_3;
+  signed int return_value_strncasecmp_2;
+  if(return_value_strncasecmp_21 == 0)
     *index = 2;
 
   else
   {
-    return_value_strncasecmp$20=strncasecmp(sn, "hp-ews-ledm", (unsigned long int)11);
-    if(return_value_strncasecmp$20 == 0)
+    return_value_strncasecmp_20=strncasecmp(sn, "hp-ews-ledm", (unsigned long int)11);
+    if(return_value_strncasecmp_20 == 0)
       *index = 23;
 
     else
     {
-      return_value_strncasecmp$19=strncasecmp(sn, "hp-ews", (unsigned long int)6);
-      if(return_value_strncasecmp$19 == 0)
+      return_value_strncasecmp_19=strncasecmp(sn, "hp-ews", (unsigned long int)6);
+      if(return_value_strncasecmp_19 == 0)
         *index = 18;
 
       else
       {
-        return_value_strncasecmp$18=strncasecmp(sn, "hp-soap-scan", (unsigned long int)12);
-        if(return_value_strncasecmp$18 == 0)
+        return_value_strncasecmp_18=strncasecmp(sn, "hp-soap-scan", (unsigned long int)12);
+        if(return_value_strncasecmp_18 == 0)
           *index = 19;
 
         else
         {
-          return_value_strncasecmp$17=strncasecmp(sn, "hp-soap-fax", (unsigned long int)11);
-          if(return_value_strncasecmp$17 == 0)
+          return_value_strncasecmp_17=strncasecmp(sn, "hp-soap-fax", (unsigned long int)11);
+          if(return_value_strncasecmp_17 == 0)
             *index = 20;
 
           else
           {
-            return_value_strncasecmp$16=strncasecmp(sn, "hp-marvell-scan", (unsigned long int)15);
-            if(return_value_strncasecmp$16 == 0)
+            return_value_strncasecmp_16=strncasecmp(sn, "hp-marvell-scan", (unsigned long int)15);
+            if(return_value_strncasecmp_16 == 0)
               *index = 21;
 
             else
             {
-              return_value_strncasecmp$15=strncasecmp(sn, "hp-marvell-fax", (unsigned long int)14);
-              if(return_value_strncasecmp$15 == 0)
+              return_value_strncasecmp_15=strncasecmp(sn, "hp-marvell-fax", (unsigned long int)14);
+              if(return_value_strncasecmp_15 == 0)
                 *index = 22;
 
               else
               {
-                return_value_strncasecmp$14=strncasecmp(sn, "hp-ledm-scan", (unsigned long int)12);
-                if(return_value_strncasecmp$14 == 0)
+                return_value_strncasecmp_14=strncasecmp(sn, "hp-ledm-scan", (unsigned long int)12);
+                if(return_value_strncasecmp_14 == 0)
                   *index = 24;
 
                 else
                 {
-                  return_value_strncasecmp$13=strncasecmp(sn, "hp-marvell-ews", (unsigned long int)11);
-                  if(return_value_strncasecmp$13 == 0)
+                  return_value_strncasecmp_13=strncasecmp(sn, "hp-marvell-ews", (unsigned long int)11);
+                  if(return_value_strncasecmp_13 == 0)
                     *index = 25;
 
                   else
                   {
-                    return_value_strncasecmp$12=strncasecmp(sn, "hp-ipp", (unsigned long int)6);
-                    if(return_value_strncasecmp$12 == 0)
+                    return_value_strncasecmp_12=strncasecmp(sn, "hp-ipp", (unsigned long int)6);
+                    if(return_value_strncasecmp_12 == 0)
                     {
-                      signed int return_value_strncasecmp$1;
-                      return_value_strncasecmp$1=strncasecmp(sn, "hp-ipp2", (unsigned long int)7);
-                      if(return_value_strncasecmp$1 == 0)
+                      signed int return_value_strncasecmp_1;
+                      return_value_strncasecmp_1=strncasecmp(sn, "hp-ipp2", (unsigned long int)7);
+                      if(return_value_strncasecmp_1 == 0)
                         *index = 46;
 
                       else
@@ -14122,19 +14122,19 @@ enum HPMUD_RESULT service_to_channel(struct _mud_device *pd, const char *sn, sig
 
                     else
                     {
-                      return_value_strncasecmp$11=strncasecmp(sn, "hp-escl-scan", (unsigned long int)12);
-                      if(return_value_strncasecmp$11 == 0)
+                      return_value_strncasecmp_11=strncasecmp(sn, "hp-escl-scan", (unsigned long int)12);
+                      if(return_value_strncasecmp_11 == 0)
                         *index = 26;
 
                       else
                       {
-                        _Bool tmp_if_expr$10;
+                        _Bool tmp_if_expr_10;
                         if((signed int)pd->io_mode == HPMUD_RAW_MODE)
-                          tmp_if_expr$10 = (_Bool)1;
+                          tmp_if_expr_10 = (_Bool)1;
 
                         else
-                          tmp_if_expr$10 = (signed int)pd->io_mode == HPMUD_UNI_MODE ? (_Bool)1 : (_Bool)0;
-                        if(tmp_if_expr$10)
+                          tmp_if_expr_10 = (signed int)pd->io_mode == HPMUD_UNI_MODE ? (_Bool)1 : (_Bool)0;
+                        if(tmp_if_expr_10)
                         {
                           syslog(3, "io/hpmud/hpmud.c 246: invalid channel_open state, current io_mode=raw/uni service=%s %s\n", sn, (const void *)pd->uri);
                           stat = (enum HPMUD_RESULT)HPMUD_R_INVALID_STATE;
@@ -14143,50 +14143,50 @@ enum HPMUD_RESULT service_to_channel(struct _mud_device *pd, const char *sn, sig
 
                         else
                         {
-                          return_value_strncasecmp$9=strncasecmp(sn, "hp-message", (unsigned long int)10);
-                          if(return_value_strncasecmp$9 == 0)
+                          return_value_strncasecmp_9=strncasecmp(sn, "hp-message", (unsigned long int)10);
+                          if(return_value_strncasecmp_9 == 0)
                             *index = 1;
 
                           else
                           {
-                            return_value_strncasecmp$8=strncasecmp(sn, "hp-scan", (unsigned long int)7);
-                            if(return_value_strncasecmp$8 == 0)
+                            return_value_strncasecmp_8=strncasecmp(sn, "hp-scan", (unsigned long int)7);
+                            if(return_value_strncasecmp_8 == 0)
                               *index = 4;
 
                             else
                             {
-                              return_value_strncasecmp$7=strncasecmp(sn, "hp-fax-send", (unsigned long int)11);
-                              if(return_value_strncasecmp$7 == 0)
+                              return_value_strncasecmp_7=strncasecmp(sn, "hp-fax-send", (unsigned long int)11);
+                              if(return_value_strncasecmp_7 == 0)
                                 *index = 7;
 
                               else
                               {
-                                return_value_strncasecmp$6=strncasecmp(sn, "hp-card-access", (unsigned long int)14);
-                                if(return_value_strncasecmp$6 == 0)
+                                return_value_strncasecmp_6=strncasecmp(sn, "hp-card-access", (unsigned long int)14);
+                                if(return_value_strncasecmp_6 == 0)
                                   *index = 17;
 
                                 else
                                 {
-                                  return_value_strncasecmp$5=strncasecmp(sn, "hp-configuration-upload", (unsigned long int)23);
-                                  if(return_value_strncasecmp$5 == 0)
+                                  return_value_strncasecmp_5=strncasecmp(sn, "hp-configuration-upload", (unsigned long int)23);
+                                  if(return_value_strncasecmp_5 == 0)
                                     *index = 14;
 
                                   else
                                   {
-                                    return_value_strncasecmp$4=strncasecmp(sn, "hp-configuration-download", (unsigned long int)25);
-                                    if(return_value_strncasecmp$4 == 0)
+                                    return_value_strncasecmp_4=strncasecmp(sn, "hp-configuration-download", (unsigned long int)25);
+                                    if(return_value_strncasecmp_4 == 0)
                                       *index = 15;
 
                                     else
                                     {
-                                      return_value_strncasecmp$3=strncasecmp(sn, "hp-devmgmt", (unsigned long int)10);
-                                      if(return_value_strncasecmp$3 == 0)
+                                      return_value_strncasecmp_3=strncasecmp(sn, "hp-devmgmt", (unsigned long int)10);
+                                      if(return_value_strncasecmp_3 == 0)
                                         *index = 44;
 
                                       else
                                       {
-                                        return_value_strncasecmp$2=strncasecmp(sn, "hp-wificonfig", (unsigned long int)13);
-                                        if(return_value_strncasecmp$2 == 0)
+                                        return_value_strncasecmp_2=strncasecmp(sn, "hp-wificonfig", (unsigned long int)13);
+                                        if(return_value_strncasecmp_2 == 0)
                                           *index = 43;
 
                                         else
@@ -14239,24 +14239,24 @@ static signed int sfield_printer_state(const char *id)
   {
     pSf = pSf + (signed long int)3;
     ver = 0;
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if((signed int)*pSf >= 48)
-      tmp_if_expr$2 = (signed int)*pSf <= 57 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)*pSf <= 57 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
       ver = ver | (signed int)*pSf - 48;
 
     else
     {
-      _Bool tmp_if_expr$1;
+      _Bool tmp_if_expr_1;
       if((signed int)*pSf >= 65)
-        tmp_if_expr$1 = (signed int)*pSf <= 70 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)*pSf <= 70 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
         ver = ver | (0xA + (signed int)*pSf) - 65;
 
       else
@@ -14270,24 +14270,24 @@ static signed int sfield_printer_state(const char *id)
     }
     pSf = pSf + 1l;
     ver = ver << 4;
-    _Bool tmp_if_expr$4;
+    _Bool tmp_if_expr_4;
     if((signed int)*pSf >= 48)
-      tmp_if_expr$4 = (signed int)*pSf <= 57 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (signed int)*pSf <= 57 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
       ver = ver | (signed int)*pSf - 48;
 
     else
     {
-      _Bool tmp_if_expr$3;
+      _Bool tmp_if_expr_3;
       if((signed int)*pSf >= 65)
-        tmp_if_expr$3 = (signed int)*pSf <= 70 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)*pSf <= 70 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
         ver = ver | (0xA + (signed int)*pSf) - 65;
 
       else
@@ -14328,24 +14328,24 @@ static signed int sfield_printer_state(const char *id)
       }
     }
     vstatus = 0;
-    _Bool tmp_if_expr$6;
+    _Bool tmp_if_expr_6;
     if((signed int)*pSf >= 48)
-      tmp_if_expr$6 = (signed int)*pSf <= 57 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = (signed int)*pSf <= 57 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (_Bool)0;
+    if(tmp_if_expr_6)
       vstatus = vstatus | (signed int)*pSf - 48;
 
     else
     {
-      _Bool tmp_if_expr$5;
+      _Bool tmp_if_expr_5;
       if((signed int)*pSf >= 65)
-        tmp_if_expr$5 = (signed int)*pSf <= 70 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (signed int)*pSf <= 70 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
         vstatus = vstatus | (0xA + (signed int)*pSf) - 65;
 
       else
@@ -14359,24 +14359,24 @@ static signed int sfield_printer_state(const char *id)
     }
     pSf = pSf + 1l;
     vstatus = vstatus << 4;
-    _Bool tmp_if_expr$8;
+    _Bool tmp_if_expr_8;
     if((signed int)*pSf >= 48)
-      tmp_if_expr$8 = (signed int)*pSf <= 57 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_8 = (signed int)*pSf <= 57 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    if(tmp_if_expr$8)
+      tmp_if_expr_8 = (_Bool)0;
+    if(tmp_if_expr_8)
       vstatus = vstatus | (signed int)*pSf - 48;
 
     else
     {
-      _Bool tmp_if_expr$7;
+      _Bool tmp_if_expr_7;
       if((signed int)*pSf >= 65)
-        tmp_if_expr$7 = (signed int)*pSf <= 70 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = (signed int)*pSf <= 70 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = (_Bool)0;
+      if(tmp_if_expr_7)
         vstatus = vstatus | (0xA + (signed int)*pSf) - 65;
 
       else
@@ -14398,11 +14398,11 @@ static char * strrstr(const char *x, const char *y)
 {
   char *prev = (char *)(void *)0;
   char *next;
-  char *return_value_strchr$1;
+  char *return_value_strchr_1;
   if((signed int)*y == 0)
   {
-    return_value_strchr$1=strchr(x, 0);
-    return return_value_strchr$1;
+    return_value_strchr_1=strchr(x, 0);
+    return return_value_strchr_1;
   }
 
   do
@@ -14436,19 +14436,19 @@ void sysdump(const void *data, signed int size)
       snprintf(addrstr, sizeof(char [10l]) /*10ul*/ , "%.4d", (signed int)(p - (unsigned char *)data & (signed long int)0xffff));
 
     c = *p;
-    const unsigned short int **return_value___ctype_b_loc$1;
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((16384 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)c]) == 0)
+    const unsigned short int **return_value___ctype_b_loc_1;
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((16384 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)c]) == 0)
       c = (unsigned char)46;
 
     snprintf(bytestr, sizeof(char [4l]) /*4ul*/ , "%02X ", *p);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(hexstr);
-    strncat(hexstr, bytestr, (sizeof(char [53l]) /*53ul*/  - return_value_strlen$2) - (unsigned long int)1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(hexstr);
+    strncat(hexstr, bytestr, (sizeof(char [53l]) /*53ul*/  - return_value_strlen_2) - (unsigned long int)1);
     snprintf(bytestr, sizeof(char [4l]) /*4ul*/ , "%c", c);
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(charstr);
-    strncat(charstr, bytestr, (sizeof(char [21l]) /*21ul*/  - return_value_strlen$3) - (unsigned long int)1);
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(charstr);
+    strncat(charstr, bytestr, (sizeof(char [21l]) /*21ul*/  - return_value_strlen_3) - (unsigned long int)1);
     if(n % 16 == 0)
     {
       hexstr[(signed long int)0] = (char)0;
@@ -14457,8 +14457,8 @@ void sysdump(const void *data, signed int size)
 
     p = p + 1l;
   }
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(hexstr);
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(hexstr);
 }
 
 // unload_library
@@ -14489,16 +14489,16 @@ enum UTILS_PLUGIN_STATUS validate_plugin_version()
 {
   char hplip_version[128l];
   char plugin_version[128l];
-  enum UTILS_CONF_RESULT return_value_get_conf$1;
-  return_value_get_conf$1=get_conf("[hplip]", "version", hplip_version, (signed int)sizeof(char [128l]) /*128ul*/ );
-  if(!((signed int)return_value_get_conf$1 == UTILS_CONF_OK))
+  enum UTILS_CONF_RESULT return_value_get_conf_1;
+  return_value_get_conf_1=get_conf("[hplip]", "version", hplip_version, (signed int)sizeof(char [128l]) /*128ul*/ );
+  if(!((signed int)return_value_get_conf_1 == UTILS_CONF_OK))
     return (enum UTILS_PLUGIN_STATUS)UTILS_PLUGIN_STATUS_NOT_INSTALLED;
 
   else
   {
-    enum UTILS_CONF_RESULT return_value_get_key_value$2;
-    return_value_get_key_value$2=get_key_value("/var/lib/hp/hplip.state", "[plugin]", "version", plugin_version, (signed int)sizeof(char [128l]) /*128ul*/ );
-    if(!((signed int)return_value_get_key_value$2 == UTILS_CONF_OK))
+    enum UTILS_CONF_RESULT return_value_get_key_value_2;
+    return_value_get_key_value_2=get_key_value("/var/lib/hp/hplip.state", "[plugin]", "version", plugin_version, (signed int)sizeof(char [128l]) /*128ul*/ );
+    if(!((signed int)return_value_get_key_value_2 == UTILS_CONF_OK))
     {
       syslog(3, "common/utils.c 119: validate_plugin_version() Failed to get Plugin version from [%s]\n", (const void *)"/var/lib/hp/hplip.state");
       return (enum UTILS_PLUGIN_STATUS)UTILS_PLUGIN_STATUS_NOT_INSTALLED;
@@ -14506,9 +14506,9 @@ enum UTILS_PLUGIN_STATUS validate_plugin_version()
 
     else
     {
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(hplip_version, plugin_version);
-      if(return_value_strcmp$3 == 0)
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(hplip_version, plugin_version);
+      if(return_value_strcmp_3 == 0)
         return (enum UTILS_PLUGIN_STATUS)UTILS_PLUGIN_STATUS_OK;
 
       else
@@ -14573,9 +14573,9 @@ static signed int wait_status(signed int fd, unsigned char mask, unsigned char v
 
 // write_ecp_channel
 // file io/hpmud/musb.c line 186
-static signed int write_ecp_channel(struct anonymous$21 *pfd, signed int value)
+static signed int write_ecp_channel(struct anonymous_21 *pfd, signed int value)
 {
-  struct libusb_device_handle *write_ecp_channel$$1$$hd;
+  struct libusb_device_handle *write_ecp_channel__1__hd;
   signed int interface = pfd->interface;
   signed int len;
   signed int stat = 1;
@@ -14585,8 +14585,8 @@ static signed int write_ecp_channel(struct anonymous$21 *pfd, signed int value)
 
   else
   {
-    write_ecp_channel$$1$$hd = pfd->hd;
-    len=libusb_control_transfer(write_ecp_channel$$1$$hd, (unsigned char)(LIBUSB_ENDPOINT_IN | 64 | 1), (unsigned char)0, (unsigned short int)value, (unsigned short int)interface, &byte, (unsigned short int)1, (unsigned int)5000);
+    write_ecp_channel__1__hd = pfd->hd;
+    len=libusb_control_transfer(write_ecp_channel__1__hd, (unsigned char)(LIBUSB_ENDPOINT_IN | 64 | 1), (unsigned char)0, (unsigned short int)value, (unsigned short int)interface, &byte, (unsigned short int)1, (unsigned int)5000);
     if(!(len == 1))
       syslog(3, "io/hpmud/musb.c 210: invalid write_ecp_channel: %m\n");
 
@@ -14601,9 +14601,9 @@ bugout:
 
 // write_phoenix_setup
 // file io/hpmud/musb.c line 351
-static signed int write_phoenix_setup(struct anonymous$21 *pfd)
+static signed int write_phoenix_setup(struct anonymous_21 *pfd)
 {
-  struct libusb_device_handle *write_phoenix_setup$$1$$hd;
+  struct libusb_device_handle *write_phoenix_setup__1__hd;
   signed int len;
   signed int stat = 1;
   if(pfd->hd == ((struct libusb_device_handle *)NULL))
@@ -14611,8 +14611,8 @@ static signed int write_phoenix_setup(struct anonymous$21 *pfd)
 
   else
   {
-    write_phoenix_setup$$1$$hd = pfd->hd;
-    len=libusb_control_transfer(write_phoenix_setup$$1$$hd, (unsigned char)(LIBUSB_ENDPOINT_OUT | 32 | 3), (unsigned char)0x02, (unsigned short int)0, (unsigned short int)0, (unsigned char *)(void *)0, (unsigned short int)0, (unsigned int)5000);
+    write_phoenix_setup__1__hd = pfd->hd;
+    len=libusb_control_transfer(write_phoenix_setup__1__hd, (unsigned char)(LIBUSB_ENDPOINT_OUT | 32 | 3), (unsigned char)0x02, (unsigned short int)0, (unsigned short int)0, (unsigned char *)(void *)0, (unsigned short int)0, (unsigned int)5000);
     if(!(len >= 0))
       syslog(3, "io/hpmud/musb.c 373: invalid write_phoenix_setup: %m\n");
 
@@ -14627,12 +14627,12 @@ bugout:
 
 // write_thread
 // file io/hpmud/musb.c line 979
-static void write_thread(struct anonymous$21 *pfd)
+static void write_thread(struct anonymous_21 *pfd)
 {
   signed int ep = -1;
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  pthread_detach(return_value_pthread_self$1);
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  pthread_detach(return_value_pthread_self_1);
   ep=get_out_ep(libusb_dev, pfd->config, pfd->interface, pfd->alt_setting, (enum libusb_transfer_type)LIBUSB_TRANSFER_TYPE_BULK);
   if(!(ep >= 0))
   {
@@ -14668,9 +14668,9 @@ signed int writesect(signed int sector, signed int nsector, void *buf, signed in
   for( ; !(i >= nsector); len = len - n)
   {
     n = len > 3 ? 3 : len;
-    signed int return_value_WriteSector$1;
-    return_value_WriteSector$1=WriteSector(sector + i, n, buf + (signed long int)total, size - total);
-    if(!(return_value_WriteSector$1 == 0))
+    signed int return_value_WriteSector_1;
+    return_value_WriteSector_1=WriteSector(sector + i, n, buf + (signed long int)total, size - total);
+    if(!(return_value_WriteSector_1 == 0))
       goto bugout;
 
     total = total + n * 512;

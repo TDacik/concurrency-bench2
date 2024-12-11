@@ -1,162 +1,162 @@
-// #anon_enum$SDP_ATTR_REQ_INDIVIDUAL=1$SDP_ATTR_REQ_RANGE=2
+// #anon_enum_SDP_ATTR_REQ_INDIVIDUAL=1_SDP_ATTR_REQ_RANGE=2
 // file /usr/include/bluetooth/sdp_lib.h line 98
-enum anonymous$34 { SDP_ATTR_REQ_INDIVIDUAL=1, SDP_ATTR_REQ_RANGE=2 };
+enum anonymous_34 { SDP_ATTR_REQ_INDIVIDUAL=1, SDP_ATTR_REQ_RANGE=2 };
 
-// #anon_enum$XML_ATTRIBUTE_CDATA=1$XML_ATTRIBUTE_ID=2$XML_ATTRIBUTE_IDREF=3$XML_ATTRIBUTE_IDREFS=4$XML_ATTRIBUTE_ENTITY=5$XML_ATTRIBUTE_ENTITIES=6$XML_ATTRIBUTE_NMTOKEN=7$XML_ATTRIBUTE_NMTOKENS=8$XML_ATTRIBUTE_ENUMERATION=9$XML_ATTRIBUTE_NOTATION=10
+// #anon_enum_XML_ATTRIBUTE_CDATA=1_XML_ATTRIBUTE_ID=2_XML_ATTRIBUTE_IDREF=3_XML_ATTRIBUTE_IDREFS=4_XML_ATTRIBUTE_ENTITY=5_XML_ATTRIBUTE_ENTITIES=6_XML_ATTRIBUTE_NMTOKEN=7_XML_ATTRIBUTE_NMTOKENS=8_XML_ATTRIBUTE_ENUMERATION=9_XML_ATTRIBUTE_NOTATION=10
 // file /usr/include/libxml2/libxml/tree.h line 206
-enum anonymous$11 { XML_ATTRIBUTE_CDATA=1, XML_ATTRIBUTE_ID=2, XML_ATTRIBUTE_IDREF=3, XML_ATTRIBUTE_IDREFS=4, XML_ATTRIBUTE_ENTITY=5, XML_ATTRIBUTE_ENTITIES=6, XML_ATTRIBUTE_NMTOKEN=7, XML_ATTRIBUTE_NMTOKENS=8, XML_ATTRIBUTE_ENUMERATION=9, XML_ATTRIBUTE_NOTATION=10 };
+enum anonymous_11 { XML_ATTRIBUTE_CDATA=1, XML_ATTRIBUTE_ID=2, XML_ATTRIBUTE_IDREF=3, XML_ATTRIBUTE_IDREFS=4, XML_ATTRIBUTE_ENTITY=5, XML_ATTRIBUTE_ENTITIES=6, XML_ATTRIBUTE_NMTOKEN=7, XML_ATTRIBUTE_NMTOKENS=8, XML_ATTRIBUTE_ENUMERATION=9, XML_ATTRIBUTE_NOTATION=10 };
 
-// #anon_enum$XML_ELEMENT_CONTENT_ONCE=1$XML_ELEMENT_CONTENT_OPT=2$XML_ELEMENT_CONTENT_MULT=3$XML_ELEMENT_CONTENT_PLUS=4
+// #anon_enum_XML_ELEMENT_CONTENT_ONCE=1_XML_ELEMENT_CONTENT_OPT=2_XML_ELEMENT_CONTENT_MULT=3_XML_ELEMENT_CONTENT_PLUS=4
 // file /usr/include/libxml2/libxml/tree.h line 290
-enum anonymous$27 { XML_ELEMENT_CONTENT_ONCE=1, XML_ELEMENT_CONTENT_OPT=2, XML_ELEMENT_CONTENT_MULT=3, XML_ELEMENT_CONTENT_PLUS=4 };
+enum anonymous_27 { XML_ELEMENT_CONTENT_ONCE=1, XML_ELEMENT_CONTENT_OPT=2, XML_ELEMENT_CONTENT_MULT=3, XML_ELEMENT_CONTENT_PLUS=4 };
 
-// #anon_enum$XML_ELEMENT_CONTENT_PCDATA=1$XML_ELEMENT_CONTENT_ELEMENT=2$XML_ELEMENT_CONTENT_SEQ=3$XML_ELEMENT_CONTENT_OR=4
+// #anon_enum_XML_ELEMENT_CONTENT_PCDATA=1_XML_ELEMENT_CONTENT_ELEMENT=2_XML_ELEMENT_CONTENT_SEQ=3_XML_ELEMENT_CONTENT_OR=4
 // file /usr/include/libxml2/libxml/tree.h line 278
-enum anonymous$26 { XML_ELEMENT_CONTENT_PCDATA=1, XML_ELEMENT_CONTENT_ELEMENT=2, XML_ELEMENT_CONTENT_SEQ=3, XML_ELEMENT_CONTENT_OR=4 };
+enum anonymous_26 { XML_ELEMENT_CONTENT_PCDATA=1, XML_ELEMENT_CONTENT_ELEMENT=2, XML_ELEMENT_CONTENT_SEQ=3, XML_ELEMENT_CONTENT_OR=4 };
 
-// #anon_enum$XML_ELEMENT_NODE=1$XML_ATTRIBUTE_NODE=2$XML_TEXT_NODE=3$XML_CDATA_SECTION_NODE=4$XML_ENTITY_REF_NODE=5$XML_ENTITY_NODE=6$XML_PI_NODE=7$XML_COMMENT_NODE=8$XML_DOCUMENT_NODE=9$XML_DOCUMENT_TYPE_NODE=10$XML_DOCUMENT_FRAG_NODE=11$XML_NOTATION_NODE=12$XML_HTML_DOCUMENT_NODE=13$XML_DTD_NODE=14$XML_ELEMENT_DECL=15$XML_ATTRIBUTE_DECL=16$XML_ENTITY_DECL=17$XML_NAMESPACE_DECL=18$XML_XINCLUDE_START=19$XML_XINCLUDE_END=20$XML_DOCB_DOCUMENT_NODE=21
+// #anon_enum_XML_ELEMENT_NODE=1_XML_ATTRIBUTE_NODE=2_XML_TEXT_NODE=3_XML_CDATA_SECTION_NODE=4_XML_ENTITY_REF_NODE=5_XML_ENTITY_NODE=6_XML_PI_NODE=7_XML_COMMENT_NODE=8_XML_DOCUMENT_NODE=9_XML_DOCUMENT_TYPE_NODE=10_XML_DOCUMENT_FRAG_NODE=11_XML_NOTATION_NODE=12_XML_HTML_DOCUMENT_NODE=13_XML_DTD_NODE=14_XML_ELEMENT_DECL=15_XML_ATTRIBUTE_DECL=16_XML_ENTITY_DECL=17_XML_NAMESPACE_DECL=18_XML_XINCLUDE_START=19_XML_XINCLUDE_END=20_XML_DOCB_DOCUMENT_NODE=21
 // file /usr/include/libxml2/libxml/tree.h line 159
-enum anonymous$9 { XML_ELEMENT_NODE=1, XML_ATTRIBUTE_NODE=2, XML_TEXT_NODE=3, XML_CDATA_SECTION_NODE=4, XML_ENTITY_REF_NODE=5, XML_ENTITY_NODE=6, XML_PI_NODE=7, XML_COMMENT_NODE=8, XML_DOCUMENT_NODE=9, XML_DOCUMENT_TYPE_NODE=10, XML_DOCUMENT_FRAG_NODE=11, XML_NOTATION_NODE=12, XML_HTML_DOCUMENT_NODE=13, XML_DTD_NODE=14, XML_ELEMENT_DECL=15, XML_ATTRIBUTE_DECL=16, XML_ENTITY_DECL=17, XML_NAMESPACE_DECL=18, XML_XINCLUDE_START=19, XML_XINCLUDE_END=20, XML_DOCB_DOCUMENT_NODE=21 };
+enum anonymous_9 { XML_ELEMENT_NODE=1, XML_ATTRIBUTE_NODE=2, XML_TEXT_NODE=3, XML_CDATA_SECTION_NODE=4, XML_ENTITY_REF_NODE=5, XML_ENTITY_NODE=6, XML_PI_NODE=7, XML_COMMENT_NODE=8, XML_DOCUMENT_NODE=9, XML_DOCUMENT_TYPE_NODE=10, XML_DOCUMENT_FRAG_NODE=11, XML_NOTATION_NODE=12, XML_HTML_DOCUMENT_NODE=13, XML_DTD_NODE=14, XML_ELEMENT_DECL=15, XML_ATTRIBUTE_DECL=16, XML_ENTITY_DECL=17, XML_NAMESPACE_DECL=18, XML_XINCLUDE_START=19, XML_XINCLUDE_END=20, XML_DOCB_DOCUMENT_NODE=21 };
 
-// #anon_enum$XML_ERR_NONE=0$XML_ERR_WARNING=1$XML_ERR_ERROR=2$XML_ERR_FATAL=3
+// #anon_enum_XML_ERR_NONE=0_XML_ERR_WARNING=1_XML_ERR_ERROR=2_XML_ERR_FATAL=3
 // file /usr/include/libxml2/libxml/xmlerror.h line 24
-enum anonymous$12 { XML_ERR_NONE=0, XML_ERR_WARNING=1, XML_ERR_ERROR=2, XML_ERR_FATAL=3 };
+enum anonymous_12 { XML_ERR_NONE=0, XML_ERR_WARNING=1, XML_ERR_ERROR=2, XML_ERR_FATAL=3 };
 
-// #anon_enum$XML_INTERNAL_GENERAL_ENTITY=1$XML_EXTERNAL_GENERAL_PARSED_ENTITY=2$XML_EXTERNAL_GENERAL_UNPARSED_ENTITY=3$XML_INTERNAL_PARAMETER_ENTITY=4$XML_EXTERNAL_PARAMETER_ENTITY=5$XML_INTERNAL_PREDEFINED_ENTITY=6
+// #anon_enum_XML_INTERNAL_GENERAL_ENTITY=1_XML_EXTERNAL_GENERAL_PARSED_ENTITY=2_XML_EXTERNAL_GENERAL_UNPARSED_ENTITY=3_XML_INTERNAL_PARAMETER_ENTITY=4_XML_EXTERNAL_PARAMETER_ENTITY=5_XML_INTERNAL_PREDEFINED_ENTITY=6
 // file /usr/include/libxml2/libxml/entities.h line 24
-enum anonymous$35 { XML_INTERNAL_GENERAL_ENTITY=1, XML_EXTERNAL_GENERAL_PARSED_ENTITY=2, XML_EXTERNAL_GENERAL_UNPARSED_ENTITY=3, XML_INTERNAL_PARAMETER_ENTITY=4, XML_EXTERNAL_PARAMETER_ENTITY=5, XML_INTERNAL_PREDEFINED_ENTITY=6 };
+enum anonymous_35 { XML_INTERNAL_GENERAL_ENTITY=1, XML_EXTERNAL_GENERAL_PARSED_ENTITY=2, XML_EXTERNAL_GENERAL_UNPARSED_ENTITY=3, XML_INTERNAL_PARAMETER_ENTITY=4, XML_EXTERNAL_PARAMETER_ENTITY=5, XML_INTERNAL_PREDEFINED_ENTITY=6 };
 
-// #anon_enum$XML_PARSER_EOF=-1$XML_PARSER_START=0$XML_PARSER_MISC=1$XML_PARSER_PI=2$XML_PARSER_DTD=3$XML_PARSER_PROLOG=4$XML_PARSER_COMMENT=5$XML_PARSER_START_TAG=6$XML_PARSER_CONTENT=7$XML_PARSER_CDATA_SECTION=8$XML_PARSER_END_TAG=9$XML_PARSER_ENTITY_DECL=10$XML_PARSER_ENTITY_VALUE=11$XML_PARSER_ATTRIBUTE_VALUE=12$XML_PARSER_SYSTEM_LITERAL=13$XML_PARSER_EPILOG=14$XML_PARSER_IGNORE=15$XML_PARSER_PUBLIC_LITERAL=16
+// #anon_enum_XML_PARSER_EOF=-1_XML_PARSER_START=0_XML_PARSER_MISC=1_XML_PARSER_PI=2_XML_PARSER_DTD=3_XML_PARSER_PROLOG=4_XML_PARSER_COMMENT=5_XML_PARSER_START_TAG=6_XML_PARSER_CONTENT=7_XML_PARSER_CDATA_SECTION=8_XML_PARSER_END_TAG=9_XML_PARSER_ENTITY_DECL=10_XML_PARSER_ENTITY_VALUE=11_XML_PARSER_ATTRIBUTE_VALUE=12_XML_PARSER_SYSTEM_LITERAL=13_XML_PARSER_EPILOG=14_XML_PARSER_IGNORE=15_XML_PARSER_PUBLIC_LITERAL=16
 // file /usr/include/libxml2/libxml/parser.h line 112
-enum anonymous$16 { XML_PARSER_EOF=-1, XML_PARSER_START=0, XML_PARSER_MISC=1, XML_PARSER_PI=2, XML_PARSER_DTD=3, XML_PARSER_PROLOG=4, XML_PARSER_COMMENT=5, XML_PARSER_START_TAG=6, XML_PARSER_CONTENT=7, XML_PARSER_CDATA_SECTION=8, XML_PARSER_END_TAG=9, XML_PARSER_ENTITY_DECL=10, XML_PARSER_ENTITY_VALUE=11, XML_PARSER_ATTRIBUTE_VALUE=12, XML_PARSER_SYSTEM_LITERAL=13, XML_PARSER_EPILOG=14, XML_PARSER_IGNORE=15, XML_PARSER_PUBLIC_LITERAL=16 };
+enum anonymous_16 { XML_PARSER_EOF=-1, XML_PARSER_START=0, XML_PARSER_MISC=1, XML_PARSER_PI=2, XML_PARSER_DTD=3, XML_PARSER_PROLOG=4, XML_PARSER_COMMENT=5, XML_PARSER_START_TAG=6, XML_PARSER_CONTENT=7, XML_PARSER_CDATA_SECTION=8, XML_PARSER_END_TAG=9, XML_PARSER_ENTITY_DECL=10, XML_PARSER_ENTITY_VALUE=11, XML_PARSER_ATTRIBUTE_VALUE=12, XML_PARSER_SYSTEM_LITERAL=13, XML_PARSER_EPILOG=14, XML_PARSER_IGNORE=15, XML_PARSER_PUBLIC_LITERAL=16 };
 
-// #anon_enum$XML_PARSE_UNKNOWN=0$XML_PARSE_DOM=1$XML_PARSE_SAX=2$XML_PARSE_PUSH_DOM=3$XML_PARSE_PUSH_SAX=4$XML_PARSE_READER=5
+// #anon_enum_XML_PARSE_UNKNOWN=0_XML_PARSE_DOM=1_XML_PARSE_SAX=2_XML_PARSE_PUSH_DOM=3_XML_PARSE_PUSH_SAX=4_XML_PARSE_READER=5
 // file /usr/include/libxml2/libxml/parser.h line 163
-enum anonymous$21 { XML_PARSE_UNKNOWN=0, XML_PARSE_DOM=1, XML_PARSE_SAX=2, XML_PARSE_PUSH_DOM=3, XML_PARSE_PUSH_SAX=4, XML_PARSE_READER=5 };
+enum anonymous_21 { XML_PARSE_UNKNOWN=0, XML_PARSE_DOM=1, XML_PARSE_SAX=2, XML_PARSE_PUSH_DOM=3, XML_PARSE_PUSH_SAX=4, XML_PARSE_READER=5 };
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[*{cS8}$cS8$'str'||U16'length'||U48'$pad0'|]
+// tag-#anon#ST[*{cS8}_cS8_'str'||U16'length'||U48'_pad0'|]
 // file /usr/include/menu.h line 63
 struct anonymous;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[ARR16{U8}$U8$'data'|]
+// tag-#anon#ST[ARR16{U8}_U8_'data'|]
 // file /usr/include/bluetooth/bluetooth.h line 342
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[ARR6{U8}$U8$'b'|]
+// tag-#anon#ST[ARR6{U8}_U8_'b'|]
 // file /usr/include/bluetooth/bluetooth.h line 300
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[ENtag-screen_types#{U32}$U32$'type'||U32'$pad0'||*{V()->V}$V()->V$'title'||*{S32()->S32}$S32()->S32$'changed'||*{S32(S32)->S32}$S32(S32)->S32$'get_content'||*{SYM#tag-screen_keys#}$SYM#tag-screen_keys#$'keymap'|]
+// tag-#anon#ST[ENtag-screen_types#{U32}_U32_'type'||U32'_pad0'||*{V()->V}_V()->V_'title'||*{S32()->S32}_S32()->S32_'changed'||*{S32(S32)->S32}_S32(S32)->S32_'get_content'||*{SYM#tag-screen_keys#}_SYM#tag-screen_keys#_'keymap'|]
 // file screen.c line 503
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[ENtag-threader_scan_types#{U32}$U32$'what'||U32'$pad0'||*{cS8}$cS8$'desc'||*{*{V}$V$(*{V}$V$)->*{V}$V$}$*{V}$V$(*{V}$V$)->*{V}$V$$'func'|]
+// tag-#anon#ST[ENtag-threader_scan_types#{U32}_U32_'what'||U32'_pad0'||*{cS8}_cS8_'desc'||*{*{V}_V_(*{V}_V_)->*{V}_V_}_*{V}_V_(*{V}_V_)->*{V}_V__'func'|]
 // file threader.c line 83
-struct anonymous$6;
+struct anonymous_6;
 
 // tag-#anon#ST[S16'pmin'||S16'pmax'||S16'smin'||S16'smax'|]
 // file /usr/include/form.h line 61
-struct anonymous$38;
+struct anonymous_38;
 
-// tag-#anon#ST[S32'num_items'||U32'$pad0'||*{U64}$U64$'ids'||U64'selected'||*{*{S8}$S8$}$*{S8}$S8$$'labels'||*{*{SYM#tag-tagITEM#}$SYM#tag-tagITEM#$}$*{SYM#tag-tagITEM#}$SYM#tag-tagITEM#$$'items'||*{SYM#tag-tagMENU#}$SYM#tag-tagMENU#$'m'||*{SYM#tag-_win_st#}$SYM#tag-_win_st#$'sw'|]
+// tag-#anon#ST[S32'num_items'||U32'_pad0'||*{U64}_U64_'ids'||U64'selected'||*{*{S8}_S8_}_*{S8}_S8__'labels'||*{*{SYM#tag-tagITEM#}_SYM#tag-tagITEM#_}_*{SYM#tag-tagITEM#}_SYM#tag-tagITEM#__'items'||*{SYM#tag-tagMENU#}_SYM#tag-tagMENU#_'m'||*{SYM#tag-_win_st#}_SYM#tag-_win_st#_'sw'|]
 // file screen.c line 170
-struct anonymous$32;
+struct anonymous_32;
 
 // tag-#anon#ST[S32'rm_so'||S32'rm_eo'|]
 // file /usr/include/regex.h line 452
-struct anonymous$23;
+struct anonymous_23;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$15;
+struct anonymous_15;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$22;
+struct anonymous_22;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[S32'sock'||S32'state'||S32'local'||S32'flags'||U16'tid'||U48'$pad0'||*{V}$V$'priv'|]
+// tag-#anon#ST[S32'sock'||S32'state'||S32'local'||S32'flags'||U16'tid'||U48'_pad0'||*{V}_V_'priv'|]
 // file /usr/include/bluetooth/sdp_lib.h line 89
-struct anonymous$33;
+struct anonymous_33;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[ARR6{U8}$U8$'b'|]#'bdaddr'||U8'pscan_rep_mode'||U8'pscan_period_mode'||U8'pscan_mode'||ARR3{U8}$U8$'dev_class'||U16'clock_offset'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[ARR6{U8}_U8_'b'|]#'bdaddr'||U8'pscan_rep_mode'||U8'pscan_period_mode'||U8'pscan_mode'||ARR3{U8}_U8_'dev_class'||U16'clock_offset'|]
 // file /usr/include/bluetooth/hci.h line 1748
-struct anonymous$36;
+struct anonymous_36;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[U8'type'||U24'$pad0'||SYM#tag-#anon#UN[U16'uuid16'||U32'uuid32'||SYM#tag-#anon#ST[ARR16{U8}$U8$'data'|]#'uuid128'|]#'value'|]#'uuid'||U16'version'||U16'$pad0'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[U8'type'||U24'_pad0'||SYM#tag-#anon#UN[U16'uuid16'||U32'uuid32'||SYM#tag-#anon#ST[ARR16{U8}_U8_'data'|]#'uuid128'|]#'value'|]#'uuid'||U16'version'||U16'_pad0'|]
 // file /usr/include/bluetooth/sdp.h line 489
-struct anonymous$8;
+struct anonymous_8;
 
 // tag-#anon#ST[U16'code_ISO639'||U16'encoding'||U16'base_offset'|]
 // file /usr/include/bluetooth/sdp.h line 477
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[U32'handle'||U32'$pad0'||*{SYM#tag-_sdp_list#}$SYM#tag-_sdp_list#$'pattern'||*{SYM#tag-_sdp_list#}$SYM#tag-_sdp_list#$'attrlist'||SYM#tag-#anon#ST[U8'type'||U24'$pad0'||SYM#tag-#anon#UN[U16'uuid16'||U32'uuid32'||SYM#tag-#anon#ST[ARR16{U8}$U8$'data'|]#'uuid128'|]#'value'|]#'svclass'||U32'$pad1'|]
+// tag-#anon#ST[U32'handle'||U32'_pad0'||*{SYM#tag-_sdp_list#}_SYM#tag-_sdp_list#_'pattern'||*{SYM#tag-_sdp_list#}_SYM#tag-_sdp_list#_'attrlist'||SYM#tag-#anon#ST[U8'type'||U24'_pad0'||SYM#tag-#anon#UN[U16'uuid16'||U32'uuid32'||SYM#tag-#anon#ST[ARR16{U8}_U8_'data'|]#'uuid128'|]#'value'|]#'svclass'||U32'_pad1'|]
 // file /usr/include/bluetooth/sdp.h line 505
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[U64'attr'||ARR5{S32}$S32$'chars'||U32'$pad0'|]
+// tag-#anon#ST[U64'attr'||ARR5{S32}_S32_'chars'||U32'_pad0'|]
 // file /usr/include/curses.h line 397
-struct anonymous$29;
+struct anonymous_29;
 
 // tag-#anon#ST[U64'sx'||U64'sy'||U64'mcols'||U64'mrows'||SYM#tag-cbuf#'text'||S64'updated'|]
 // file screen.c line 160
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#ST[U64'x'||U64'y'||U64'rows'||U64'cols'||*{SYM#tag-_win_st#}$SYM#tag-_win_st#$'w'|]
+// tag-#anon#ST[U64'x'||U64'y'||U64'rows'||U64'cols'||*{SYM#tag-_win_st#}_SYM#tag-_win_st#_'w'|]
 // file screen.c line 151
-struct anonymous$30;
+struct anonymous_30;
 
-// tag-#anon#ST[U8'type'||U24'$pad0'||SYM#tag-#anon#UN[U16'uuid16'||U32'uuid32'||SYM#tag-#anon#ST[ARR16{U8}$U8$'data'|]#'uuid128'|]#'value'|]
+// tag-#anon#ST[U8'type'||U24'_pad0'||SYM#tag-#anon#UN[U16'uuid16'||U32'uuid32'||SYM#tag-#anon#ST[ARR16{U8}_U8_'data'|]#'uuid128'|]#'value'|]
 // file /usr/include/bluetooth/sdp.h line 445
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$24;
+union anonymous_24;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$20;
+union anonymous_20;
 
-// tag-#anon#UN[S8'int8'||S16'int16'||S32'int32'||S64'int64'||SYM#tag-#anon#ST[ARR16{U8}$U8$'data'|]#'int128'||U8'uint8'||U16'uint16'||U32'uint32'||U64'uint64'||SYM#tag-#anon#ST[ARR16{U8}$U8$'data'|]#'uint128'||SYM#tag-#anon#ST[U8'type'||U24'$pad0'||SYM#tag-#anon#UN[U16'uuid16'||U32'uuid32'||SYM#tag-#anon#ST[ARR16{U8}$U8$'data'|]#'uuid128'|]#'value'|]#'uuid'||*{S8}$S8$'str'||*{SYM#tag-sdp_data_struct#}$SYM#tag-sdp_data_struct#$'dataseq'||U192'$pad'|]
+// tag-#anon#UN[S8'int8'||S16'int16'||S32'int32'||S64'int64'||SYM#tag-#anon#ST[ARR16{U8}_U8_'data'|]#'int128'||U8'uint8'||U16'uint16'||U32'uint32'||U64'uint64'||SYM#tag-#anon#ST[ARR16{U8}_U8_'data'|]#'uint128'||SYM#tag-#anon#ST[U8'type'||U24'_pad0'||SYM#tag-#anon#UN[U16'uuid16'||U32'uuid32'||SYM#tag-#anon#ST[ARR16{U8}_U8_'data'|]#'uuid128'|]#'value'|]#'uuid'||*{S8}_S8_'str'||*{SYM#tag-sdp_data_struct#}_SYM#tag-sdp_data_struct#_'dataseq'||U192'_pad'|]
 // file /usr/include/bluetooth/sdp.h line 520
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$37;
+union anonymous_37;
 
-// tag-#anon#UN[U16'uuid16'||U32'uuid32'||SYM#tag-#anon#ST[ARR16{U8}$U8$'data'|]#'uuid128'|]
+// tag-#anon#UN[U16'uuid16'||U32'uuid32'||SYM#tag-#anon#ST[ARR16{U8}_U8_'data'|]#'uuid128'|]
 // file /usr/include/bluetooth/sdp.h line 447
-union anonymous$5;
+union anonymous_5;
 
 // tag-UConverter
 // file /usr/include/x86_64-linux-gnu/unicode/ucnv_err.h line 91
@@ -437,25 +437,25 @@ signed int applog(signed int level, const char *fmt, ...);
 extern signed int assume_default_colors(signed int, signed int);
 // ba2int
 // file oui.c line 84
-unsigned int ba2int(struct anonymous$28 *ba);
+unsigned int ba2int(struct anonymous_28 *ba);
 // ba2str
 // file /usr/include/bluetooth/bluetooth.h line 326
-signed int ba2str(const struct anonymous$28 *, char *);
+signed int ba2str(const struct anonymous_28 *, char *);
 // bacmp
 // file /usr/include/bluetooth/bluetooth.h line 314
-static inline signed int bacmp(const struct anonymous$28 *ba1, const struct anonymous$28 *ba2);
+static inline signed int bacmp(const struct anonymous_28 *ba1, const struct anonymous_28 *ba2);
 // bacpy
 // file /usr/include/bluetooth/bluetooth.h line 318
-static inline void bacpy(struct anonymous$28 *dst, const struct anonymous$28 *src);
-// bacpy$link1
+static inline void bacpy(struct anonymous_28 *dst, const struct anonymous_28 *src);
+// bacpy_link1
 // file /usr/include/bluetooth/bluetooth.h line 318
-static inline void bacpy$link1(struct anonymous$28 *dst$link1, const struct anonymous$28 *src$link1);
-// bacpy$link2
+static inline void bacpy_link1(struct anonymous_28 *dst_link1, const struct anonymous_28 *src_link1);
+// bacpy_link2
 // file /usr/include/bluetooth/bluetooth.h line 318
-static inline void bacpy$link2(struct anonymous$28 *dst$link2, const struct anonymous$28 *src$link2);
+static inline void bacpy_link2(struct anonymous_28 *dst_link2, const struct anonymous_28 *src_link2);
 // bd2int
 // file ./misc.h line 40
-unsigned long int bd2int(struct anonymous$28 *bd);
+unsigned long int bd2int(struct anonymous_28 *bd);
 // bf_run
 // file ./scan.h line 34
 void * bf_run(void *arg);
@@ -548,7 +548,7 @@ extern char * field_buffer(const struct fieldnode *, signed int);
 extern signed int field_opts_off(struct fieldnode *, signed int);
 // find_conn
 // file scan.c line 129
-unsigned short int find_conn(signed int dev_id, struct anonymous$28 *bdaddr);
+unsigned short int find_conn(signed int dev_id, struct anonymous_28 *bdaddr);
 // fopen
 // file /usr/include/stdio.h line 272
 extern struct _IO_FILE * fopen(const char *, const char *);
@@ -599,7 +599,7 @@ extern _Bool has_colors(void);
 signed int hci_close_dev(signed int);
 // hci_create_connection
 // file /usr/include/bluetooth/hci_lib.h line 56
-signed int hci_create_connection(signed int, const struct anonymous$28 *, unsigned short int, unsigned short int, unsigned char, unsigned short int *, signed int);
+signed int hci_create_connection(signed int, const struct anonymous_28 *, unsigned short int, unsigned short int, unsigned char, unsigned short int *, signed int);
 // hci_devices_append
 // file main.c line 131
 void hci_devices_append(struct hcicfg *h, struct hcicfg *n);
@@ -611,7 +611,7 @@ void hci_devices_free(struct hcicfg *h);
 signed int hci_disconnect(signed int, unsigned short int, unsigned char, signed int);
 // hci_inquiry
 // file /usr/include/bluetooth/hci_lib.h line 59
-signed int hci_inquiry(signed int, signed int, signed int, const unsigned char *, struct anonymous$36 **, signed long int);
+signed int hci_inquiry(signed int, signed int, signed int, const unsigned char *, struct anonymous_36 **, signed long int);
 // hci_open_dev
 // file /usr/include/bluetooth/hci_lib.h line 51
 signed int hci_open_dev(signed int);
@@ -623,7 +623,7 @@ signed int hci_read_link_quality(signed int, unsigned short int, unsigned char *
 signed int hci_read_remote_features(signed int, unsigned short int, unsigned char *, signed int);
 // hci_read_remote_name
 // file /usr/include/bluetooth/hci_lib.h line 66
-signed int hci_read_remote_name(signed int, const struct anonymous$28 *, signed int, char *, signed int);
+signed int hci_read_remote_name(signed int, const struct anonymous_28 *, signed int, char *, signed int);
 // hci_read_remote_version
 // file /usr/include/bluetooth/hci_lib.h line 69
 signed int hci_read_remote_version(signed int, unsigned short int, struct hci_version *, signed int);
@@ -647,7 +647,7 @@ extern signed int init_pair(signed short int, signed short int, signed short int
 extern struct _win_st * initscr(void);
 // int2bd
 // file misc.c line 77
-signed int int2bd(unsigned long int i, struct anonymous$28 *bd);
+signed int int2bd(unsigned long int i, struct anonymous_28 *bd);
 // intrflush
 // file /usr/include/curses.h line 649
 extern signed int intrflush(struct _win_st *, _Bool);
@@ -707,7 +707,7 @@ signed int ll_init(void);
 signed int ll_ischanged(void);
 // ll_lock_device
 // file ll.c line 143
-struct device * ll_lock_device(struct anonymous$28 *bdaddr);
+struct device * ll_lock_device(struct anonymous_28 *bdaddr);
 // ll_lock_list
 // file ./ll.h line 104
 signed int ll_lock_list(void);
@@ -812,7 +812,7 @@ signed int ouidb_close(void);
 signed int ouidb_init(const char *filename);
 // ouidb_query
 // file oui.c line 167
-char * ouidb_query(struct anonymous$28 *ba);
+char * ouidb_query(struct anonymous_28 *ba);
 // pnoutrefresh
 // file /usr/include/curses.h line 728
 extern signed int pnoutrefresh(struct _win_st *, signed int, signed int, signed int, signed int, signed int, signed int);
@@ -848,19 +848,19 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$37 *);
+extern signed int pthread_mutex_destroy(union anonymous_37 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$37 *);
+extern signed int pthread_mutex_lock(union anonymous_37 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$37 *);
+extern signed int pthread_mutex_unlock(union anonymous_37 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$25 *, struct anonymous$25 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_25 *, struct anonymous_25 *);
 // realloc
 // file /usr/include/stdlib.h line 480
 extern void * realloc(void *, unsigned long int);
@@ -869,7 +869,7 @@ extern void * realloc(void *, unsigned long int);
 extern signed int regcomp(struct re_pattern_buffer *, const char *, signed int);
 // regexec
 // file /usr/include/regex.h line 566
-extern signed int regexec(const struct re_pattern_buffer *, const char *, unsigned long int, struct anonymous$23 *, signed int);
+extern signed int regexec(const struct re_pattern_buffer *, const char *, unsigned long int, struct anonymous_23 *, signed int);
 // regfree
 // file /usr/include/regex.h line 574
 extern void regfree(struct re_pattern_buffer *);
@@ -878,16 +878,16 @@ extern void regfree(struct re_pattern_buffer *);
 extern signed int scale_menu(const struct tagMENU *, signed int *, signed int *);
 // scan_bf_getcurr
 // file scan.c line 753
-signed int scan_bf_getcurr(struct anonymous$28 *bd);
+signed int scan_bf_getcurr(struct anonymous_28 *bd);
 // scan_bf_getnext
 // file scan.c line 728
-signed int scan_bf_getnext(struct anonymous$28 *bd);
+signed int scan_bf_getnext(struct anonymous_28 *bd);
 // scan_bf_getpercentage
 // file scan.c line 766
 signed int scan_bf_getpercentage(void);
 // scan_bf_init
 // file ./scan.h line 36
-signed int scan_bf_init(struct anonymous$28 *start, struct anonymous$28 *end);
+signed int scan_bf_init(struct anonymous_28 *start, struct anonymous_28 *end);
 // scan_inquiry
 // file scan.c line 271
 signed int scan_inquiry(struct hcicfg *hci);
@@ -974,76 +974,76 @@ signed int screen_textbox(const char *label, const char *re, struct cbuf *cb);
 extern signed int scrollok(struct _win_st *, _Bool);
 // sdp_close
 // file /usr/include/bluetooth/sdp_lib.h line 133
-signed int sdp_close(struct anonymous$33 *);
+signed int sdp_close(struct anonymous_33 *);
 // sdp_connect
 // file /usr/include/bluetooth/sdp_lib.h line 132
-struct anonymous$33 * sdp_connect(const struct anonymous$28 *, const struct anonymous$28 *, unsigned int);
+struct anonymous_33 * sdp_connect(const struct anonymous_28 *, const struct anonymous_28 *, unsigned int);
 // sdp_data_free
 // file /usr/include/bluetooth/sdp_lib.h line 164
 void sdp_data_free(struct sdp_data_struct *);
 // sdp_data_get
 // file /usr/include/bluetooth/sdp_lib.h line 165
-struct sdp_data_struct * sdp_data_get(const struct anonymous$2 *, unsigned short int);
+struct sdp_data_struct * sdp_data_get(const struct anonymous_2 *, unsigned short int);
 // sdp_format_classes
 // file ./sdp.h line 33
 signed int sdp_format_classes(struct device *p, char *buf, signed int sz, signed int len);
 // sdp_get_access_protos
 // file /usr/include/bluetooth/sdp_lib.h line 511
-signed int sdp_get_access_protos(const struct anonymous$2 *, struct _sdp_list **);
+signed int sdp_get_access_protos(const struct anonymous_2 *, struct _sdp_list **);
 // sdp_get_group_id
 // file /usr/include/bluetooth/sdp_lib.h line 553
-signed int sdp_get_group_id(const struct anonymous$2 *, struct anonymous$1 *);
+signed int sdp_get_group_id(const struct anonymous_2 *, struct anonymous_1 *);
 // sdp_get_lang_attr
 // file /usr/include/bluetooth/sdp_lib.h line 532
-signed int sdp_get_lang_attr(const struct anonymous$2 *, struct _sdp_list **);
+signed int sdp_get_lang_attr(const struct anonymous_2 *, struct _sdp_list **);
 // sdp_get_profile_descs
 // file /usr/include/bluetooth/sdp_lib.h line 541
-signed int sdp_get_profile_descs(const struct anonymous$2 *, struct _sdp_list **);
+signed int sdp_get_profile_descs(const struct anonymous_2 *, struct _sdp_list **);
 // sdp_get_service_classes
 // file /usr/include/bluetooth/sdp_lib.h line 215
-static inline signed int sdp_get_service_classes(const struct anonymous$2 *rec, struct _sdp_list **seqp);
+static inline signed int sdp_get_service_classes(const struct anonymous_2 *rec, struct _sdp_list **seqp);
 // sdp_get_uuidseq_attr
 // file /usr/include/bluetooth/sdp_lib.h line 175
-signed int sdp_get_uuidseq_attr(const struct anonymous$2 *, unsigned short int, struct _sdp_list **);
+signed int sdp_get_uuidseq_attr(const struct anonymous_2 *, unsigned short int, struct _sdp_list **);
 // sdp_list_append
 // file /usr/include/bluetooth/sdp_lib.h line 45
 struct _sdp_list * sdp_list_append(struct _sdp_list *, void *);
 // sdp_list_foreach
 // file /usr/include/bluetooth/sdp_lib.h line 66
 static inline void sdp_list_foreach(struct _sdp_list *list, void (*f)(void *, void *), void *u);
-// sdp_list_foreach::f$object
+// sdp_list_foreach::f_object
 //
-void f$object(void *, void *);
+void f_object(void *, void *);
 // sdp_list_free
 // file /usr/include/bluetooth/sdp_lib.h line 48
 void sdp_list_free(struct _sdp_list *, void (*)(void *));
 // sdp_profile_uuid2strn
 // file /usr/include/bluetooth/sdp_lib.h line 494
-signed int sdp_profile_uuid2strn(const struct anonymous$1 *, char *, unsigned long int);
+signed int sdp_profile_uuid2strn(const struct anonymous_1 *, char *, unsigned long int);
 // sdp_proto_uuid2strn
 // file /usr/include/bluetooth/sdp_lib.h line 492
-signed int sdp_proto_uuid2strn(const struct anonymous$1 *, char *, unsigned long int);
+signed int sdp_proto_uuid2strn(const struct anonymous_1 *, char *, unsigned long int);
 // sdp_record_free
 // file /usr/include/bluetooth/sdp_lib.h line 435
-void sdp_record_free(struct anonymous$2 *);
+void sdp_record_free(struct anonymous_2 *);
 // sdp_service_search_attr_req
 // file /usr/include/bluetooth/sdp_lib.h line 429
-signed int sdp_service_search_attr_req(struct anonymous$33 *, const struct _sdp_list *, enum anonymous$34, const struct _sdp_list *, struct _sdp_list **);
+signed int sdp_service_search_attr_req(struct anonymous_33 *, const struct _sdp_list *, enum anonymous_34, const struct _sdp_list *, struct _sdp_list **);
 // sdp_sprint_service_attr
 // file sdp.c line 477
-signed int sdp_sprint_service_attr(struct cbuf *str, struct anonymous$2 *rec);
+signed int sdp_sprint_service_attr(struct cbuf *str, struct anonymous_2 *rec);
 // sdp_svclass_uuid2strn
 // file /usr/include/bluetooth/sdp_lib.h line 493
-signed int sdp_svclass_uuid2strn(const struct anonymous$1 *, char *, unsigned long int);
+signed int sdp_svclass_uuid2strn(const struct anonymous_1 *, char *, unsigned long int);
 // sdp_uuid16_create
 // file /usr/include/bluetooth/sdp_lib.h line 472
-struct anonymous$1 * sdp_uuid16_create(struct anonymous$1 *, unsigned short int);
+struct anonymous_1 * sdp_uuid16_create(struct anonymous_1 *, unsigned short int);
 // sdp_uuid2strn
 // file /usr/include/bluetooth/sdp_lib.h line 491
-signed int sdp_uuid2strn(const struct anonymous$1 *, char *, unsigned long int);
+signed int sdp_uuid2strn(const struct anonymous_1 *, char *, unsigned long int);
 // sdp_uuid_to_proto
 // file /usr/include/bluetooth/sdp_lib.h line 482
-signed int sdp_uuid_to_proto(struct anonymous$1 *);
+signed int sdp_uuid_to_proto(struct anonymous_1 *);
 // set_current_item
 // file /usr/include/menu.h line 219
 extern signed int set_current_item(struct tagMENU *, struct tagITEM *);
@@ -1079,13 +1079,13 @@ extern signed int shutdown(signed int, signed int);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigdelset
 // file /usr/include/signal.h line 224
-extern signed int sigdelset(struct anonymous$25 *, signed int);
+extern signed int sigdelset(struct anonymous_25 *, signed int);
 // sigfillset
 // file /usr/include/signal.h line 218
-extern signed int sigfillset(struct anonymous$25 *);
+extern signed int sigfillset(struct anonymous_25 *);
 // sigprocmask
 // file /usr/include/signal.h line 248
-extern signed int sigprocmask(signed int, const struct anonymous$25 *, struct anonymous$25 *);
+extern signed int sigprocmask(signed int, const struct anonymous_25 *, struct anonymous_25 *);
 // sleep
 // file /usr/include/unistd.h line 444
 extern unsigned int sleep(unsigned int);
@@ -1124,7 +1124,7 @@ signed int store_timestamp(struct device *dev);
 signed int store_writefile(char *fn, unsigned long int fn_len, struct cbuf *cb);
 // str2ba
 // file /usr/include/bluetooth/bluetooth.h line 327
-signed int str2ba(const char *, struct anonymous$28 *);
+signed int str2ba(const char *, struct anonymous_28 *);
 // strdup
 // file /usr/include/string.h line 175
 extern char * strdup(const char *);
@@ -1230,9 +1230,9 @@ struct _xmlDoc * xmlCtxtReadFile(struct _xmlParserCtxt *, const char *, const ch
 // xmlDocGetRootElement
 // file /usr/include/libxml2/libxml/tree.h line 920
 struct _xmlNode * xmlDocGetRootElement(const struct _xmlDoc *);
-// xmlFree$object
+// xmlFree_object
 //
-void xmlFree$object(void *);
+void xmlFree_object(void *);
 // xmlFreeDoc
 // file /usr/include/libxml2/libxml/tree.h line 782
 void xmlFreeDoc(struct _xmlDoc *);
@@ -1255,7 +1255,7 @@ void xmlSetStructuredErrorFunc(void *, void (*)(void *, struct _xmlError *));
 // file /usr/include/libxml2/libxml/xmlstring.h line 67
 signed int xmlStrncmp(const unsigned char *, const unsigned char *, signed int);
 
-struct anonymous$19
+struct anonymous_19
 {
   // _call_addr
   void *_call_addr;
@@ -1265,7 +1265,7 @@ struct anonymous$19
   unsigned int _arch;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // si_addr
   void *si_addr;
@@ -1281,25 +1281,25 @@ struct anonymous
   unsigned short int length;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // data
   unsigned char data[16l];
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // b
   unsigned char b[6l];
 } __attribute__ ((__packed__));
 
-struct anonymous$0
+struct anonymous_0
 {
   // type
   enum screen_types type;
@@ -1313,7 +1313,7 @@ struct anonymous$0
   struct screen_keys *keymap;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // what
   enum threader_scan_types what;
@@ -1323,7 +1323,7 @@ struct anonymous$6
   void * (*func)(void *);
 };
 
-struct anonymous$38
+struct anonymous_38
 {
   // pmin
   signed short int pmin;
@@ -1335,7 +1335,7 @@ struct anonymous$38
   signed short int smax;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // num_items
   signed int num_items;
@@ -1353,7 +1353,7 @@ struct anonymous$32
   struct _win_st *sw;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // rm_so
   signed int rm_so;
@@ -1361,7 +1361,7 @@ struct anonymous$23
   signed int rm_eo;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // si_pid
   signed int si_pid;
@@ -1369,7 +1369,7 @@ struct anonymous$10
   unsigned int si_uid;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // si_pid
   signed int si_pid;
@@ -1391,7 +1391,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // si_pid
   signed int si_pid;
@@ -1401,7 +1401,7 @@ struct anonymous$14
   union sigval si_sigval;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // si_tid
   signed int si_tid;
@@ -1411,7 +1411,7 @@ struct anonymous$13
   union sigval si_sigval;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // si_band
   signed long int si_band;
@@ -1419,27 +1419,27 @@ struct anonymous$18
   signed int si_fd;
 };
 
-union anonymous$20
+union anonymous_20
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$10 _kill;
+  struct anonymous_10 _kill;
   // _timer
-  struct anonymous$13 _timer;
+  struct anonymous_13 _timer;
   // _rt
-  struct anonymous$14 _rt;
+  struct anonymous_14 _rt;
   // _sigchld
-  struct anonymous$15 _sigchld;
+  struct anonymous_15 _sigchld;
   // _sigfault
-  struct anonymous$17 _sigfault;
+  struct anonymous_17 _sigfault;
   // _sigpoll
-  struct anonymous$18 _sigpoll;
+  struct anonymous_18 _sigpoll;
   // _sigsys
-  struct anonymous$19 _sigsys;
+  struct anonymous_19 _sigsys;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // si_signo
   signed int si_signo;
@@ -1448,10 +1448,10 @@ struct anonymous$22
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$20 _sifields;
+  union anonymous_20 _sifields;
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // sock
   signed int sock;
@@ -1467,10 +1467,10 @@ struct anonymous$33
   void *priv;
 };
 
-struct anonymous$36
+struct anonymous_36
 {
   // bdaddr
-  struct anonymous$28 bdaddr;
+  struct anonymous_28 bdaddr;
   // pscan_rep_mode
   unsigned char pscan_rep_mode;
   // pscan_period_mode
@@ -1483,33 +1483,33 @@ struct anonymous$36
   unsigned short int clock_offset;
 } __attribute__ ((__packed__));
 
-union anonymous$5
+union anonymous_5
 {
   // uuid16
   unsigned short int uuid16;
   // uuid32
   unsigned int uuid32;
   // uuid128
-  struct anonymous$4 uuid128;
+  struct anonymous_4 uuid128;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // type
   unsigned char type;
   // value
-  union anonymous$5 value;
+  union anonymous_5 value;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // uuid
-  struct anonymous$1 uuid;
+  struct anonymous_1 uuid;
   // version
   unsigned short int version;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // code_ISO639
   unsigned short int code_ISO639;
@@ -1519,7 +1519,7 @@ struct anonymous$7
   unsigned short int base_offset;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // handle
   unsigned int handle;
@@ -1528,10 +1528,10 @@ struct anonymous$2
   // attrlist
   struct _sdp_list *attrlist;
   // svclass
-  struct anonymous$1 svclass;
+  struct anonymous_1 svclass;
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // attr
   unsigned long int attr;
@@ -1549,7 +1549,7 @@ struct cbuf
   unsigned long int len;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // sx
   unsigned long int sx;
@@ -1565,7 +1565,7 @@ struct anonymous$31
   signed long int updated;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // x
   unsigned long int x;
@@ -1579,15 +1579,15 @@ struct anonymous$30
   struct _win_st *w;
 };
 
-union anonymous$24
+union anonymous_24
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$22 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_22 *, void *);
 };
 
-union anonymous$3
+union anonymous_3
 {
   // int8
   signed char int8;
@@ -1598,7 +1598,7 @@ union anonymous$3
   // int64
   signed long int int64;
   // int128
-  struct anonymous$4 int128;
+  struct anonymous_4 int128;
   // uint8
   unsigned char uint8;
   // uint16
@@ -1608,9 +1608,9 @@ union anonymous$3
   // uint64
   unsigned long int uint64;
   // uint128
-  struct anonymous$4 uint128;
+  struct anonymous_4 uint128;
   // uuid
-  struct anonymous$1 uuid;
+  struct anonymous_1 uuid;
   // str
   char *str;
   // dataseq
@@ -1645,7 +1645,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$37
+union anonymous_37
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1816,7 +1816,7 @@ struct _win_st
   // _yoffset
   signed short int _yoffset;
   // _bkgrnd
-  struct anonymous$29 _bkgrnd;
+  struct anonymous_29 _bkgrnd;
 };
 
 struct _xmlAttr
@@ -1824,7 +1824,7 @@ struct _xmlAttr
   // _private
   void *_private;
   // type
-  enum anonymous$9 type;
+  enum anonymous_9 type;
   // name
   const unsigned char *name;
   // children
@@ -1842,7 +1842,7 @@ struct _xmlAttr
   // ns
   struct _xmlNs *ns;
   // atype
-  enum anonymous$11 atype;
+  enum anonymous_11 atype;
   // psvi
   void *psvi;
 };
@@ -1870,7 +1870,7 @@ struct _xmlDoc
   // _private
   void *_private;
   // type
-  enum anonymous$9 type;
+  enum anonymous_9 type;
   // name
   char *name;
   // children
@@ -1922,7 +1922,7 @@ struct _xmlDtd
   // _private
   void *_private;
   // type
-  enum anonymous$9 type;
+  enum anonymous_9 type;
   // name
   const unsigned char *name;
   // children
@@ -1956,9 +1956,9 @@ struct _xmlDtd
 struct _xmlElementContent
 {
   // type
-  enum anonymous$26 type;
+  enum anonymous_26 type;
   // ocur
-  enum anonymous$27 ocur;
+  enum anonymous_27 ocur;
   // name
   const unsigned char *name;
   // c1
@@ -1976,7 +1976,7 @@ struct _xmlEntity
   // _private
   void *_private;
   // type
-  enum anonymous$9 type;
+  enum anonymous_9 type;
   // name
   const unsigned char *name;
   // children
@@ -1998,7 +1998,7 @@ struct _xmlEntity
   // length
   signed int length;
   // etype
-  enum anonymous$35 etype;
+  enum anonymous_35 etype;
   // ExternalID
   const unsigned char *ExternalID;
   // SystemID
@@ -2030,7 +2030,7 @@ struct _xmlError
   // message
   char *message;
   // level
-  enum anonymous$12 level;
+  enum anonymous_12 level;
   // file
   char *file;
   // line
@@ -2056,7 +2056,7 @@ struct _xmlNode
   // _private
   void *_private;
   // type
-  enum anonymous$9 type;
+  enum anonymous_9 type;
   // name
   const unsigned char *name;
   // children
@@ -2092,7 +2092,7 @@ struct _xmlNs
   // next
   struct _xmlNs *next;
   // type
-  enum anonymous$9 type;
+  enum anonymous_9 type;
   // href
   const unsigned char *href;
   // prefix
@@ -2204,7 +2204,7 @@ struct _xmlParserCtxt
   // vctxt
   struct _xmlValidCtxt vctxt;
   // instate
-  enum anonymous$16 instate;
+  enum anonymous_16 instate;
   // token
   signed int token;
   // directory
@@ -2312,7 +2312,7 @@ struct _xmlParserCtxt
   // lastError
   struct _xmlError lastError;
   // parseMode
-  enum anonymous$21 parseMode;
+  enum anonymous_21 parseMode;
   // nbentities
   unsigned long int nbentities;
   // sizeentities
@@ -2524,7 +2524,7 @@ struct device
   // updated
   unsigned char updated;
   // bdaddr
-  struct anonymous$28 bdaddr;
+  struct anonymous_28 bdaddr;
   // clk_off
   unsigned short int clk_off;
   // got_class
@@ -2564,7 +2564,7 @@ struct device
   // sdp
   char *sdp;
   // bd_scan
-  struct anonymous$28 bd_scan;
+  struct anonymous_28 bd_scan;
   // scan_count
   unsigned int scan_count;
   // last_scanned
@@ -2662,7 +2662,7 @@ struct formnode
   // current
   struct fieldnode *current;
   // page
-  struct anonymous$38 *page;
+  struct anonymous_38 *page;
   // usrptr
   void *usrptr;
   // forminit
@@ -2680,7 +2680,7 @@ struct hci_conn_info
   // handle
   unsigned short int handle;
   // bdaddr
-  struct anonymous$28 bdaddr;
+  struct anonymous_28 bdaddr;
   // type
   unsigned char type;
   // out
@@ -2732,7 +2732,7 @@ struct hci_dev_info
   // name
   char name[8l];
   // bdaddr
-  struct anonymous$28 bdaddr;
+  struct anonymous_28 bdaddr;
   // flags
   unsigned int flags;
   // type
@@ -2778,7 +2778,7 @@ struct hcicfg
   // id
   signed int id;
   // bdaddr
-  struct anonymous$28 bdaddr;
+  struct anonymous_28 bdaddr;
   // enabled
   char enabled;
   // tid
@@ -2878,7 +2878,7 @@ struct sdp_data_struct
   // attrId
   unsigned short int attrId;
   // val
-  union anonymous$3 val;
+  union anonymous_3 val;
   // next
   struct sdp_data_struct *next;
   // unitSize
@@ -2890,7 +2890,7 @@ struct search_context
   // svc
   char *svc;
   // group
-  struct anonymous$1 group;
+  struct anonymous_1 group;
   // tree
   signed int tree;
   // handle
@@ -2900,9 +2900,9 @@ struct search_context
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$24 __sigaction_handler;
+  union anonymous_24 __sigaction_handler;
   // sa_mask
-  struct anonymous$25 sa_mask;
+  struct anonymous_25 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -3240,7 +3240,7 @@ struct sub_classes class_phone[7l] = { { .class_id=(unsigned int)0x00, .class_na
 static struct device *devhead = (struct device *)(void *)0;
 // devhead_mutex
 // file ll.c line 82
-static union anonymous$37 devhead_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_37 devhead_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // hcihead
@@ -3263,7 +3263,7 @@ static signed int log_fd = -1;
 static struct _IO_FILE *log_fp = (struct _IO_FILE *)(void *)0;
 // log_smux
 // file log.c line 84
-static union anonymous$37 log_smux = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_37 log_smux = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // log_sum_fd
@@ -3334,7 +3334,7 @@ static unsigned long int scan_bf_curr;
 static unsigned long int scan_bf_end;
 // scan_bf_mutex
 // file scan.c line 717
-union anonymous$37 scan_bf_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_37 scan_bf_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // scan_bf_perc
@@ -3345,7 +3345,7 @@ static signed int scan_bf_perc;
 static unsigned long int scan_bf_start;
 // screen_block_info
 // file screen.c line 167
-static struct anonymous$31 screen_block_info;
+static struct anonymous_31 screen_block_info;
 // screen_info_keys
 // file screen.c line 491
 static struct screen_keys screen_info_keys[8l];
@@ -3354,13 +3354,13 @@ static struct screen_keys screen_info_keys[8l];
 static struct screen_keys screen_info_keys[8l] = { { .key=0403, .func=screen_block_move }, { .key=107, .func=screen_block_move }, { .key=0402, .func=screen_block_move }, { .key=106, .func=screen_block_move }, { .key=0522, .func=screen_block_move }, { .key=0523, .func=screen_block_move }, { .key=113, .func=screen_info_quit }, { .key=-1, .func=(signed int (*)(signed int))(void *)0 } };
 // screen_line_info
 // file screen.c line 178
-static struct anonymous$32 screen_line_info;
+static struct anonymous_32 screen_line_info;
 // screen_log_lines
 // file screen.c line 91
 struct cbuf screen_log_lines[4l];
 // screen_log_mux
 // file screen.c line 90
-static union anonymous$37 screen_log_mux = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_37 screen_log_mux = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // screen_main_keys
@@ -3376,16 +3376,16 @@ static struct screen_keys screen_main_keys[9l] = { { .key=0403, .func=screen_lin
 static const char *screen_mm = "";
 // screen_sizes
 // file screen.c line 157
-static struct anonymous$30 screen_sizes[3l];
+static struct anonymous_30 screen_sizes[3l];
 // screen_sort
 // file screen.c line 89
 static signed int screen_sort = 0x00;
 // screens_cfg
 // file screen.c line 509
-static struct anonymous$0 screens_cfg[2l];
+static struct anonymous_0 screens_cfg[2l];
 // screens_cfg
 // file screen.c line 509
-static struct anonymous$0 screens_cfg[2l] = { { .type=(enum screen_types)0, .title=screen_main_print_title, .changed=ll_ischanged,
+static struct anonymous_0 screens_cfg[2l] = { { .type=(enum screen_types)0, .title=screen_main_print_title, .changed=ll_ischanged,
     .get_content=screen_main_get_content, .keymap=screen_main_keys },
     { .type=(enum screen_types)1, .title=screen_info_print_title, .changed=screen_info_is_changed,
     .get_content=screen_info_get_content, .keymap=screen_info_keys } };
@@ -3420,10 +3420,10 @@ extern struct _IO_FILE *stdout;
 extern struct _win_st *stdscr;
 // thread_starter
 // file threader.c line 88
-struct anonymous$6 thread_starter[3l];
+struct anonymous_6 thread_starter[3l];
 // thread_starter
 // file threader.c line 88
-struct anonymous$6 thread_starter[3l] = { { .what=(enum threader_scan_types)SCAN_INQ, .desc="inquiry scan",
+struct anonymous_6 thread_starter[3l] = { { .what=(enum threader_scan_types)SCAN_INQ, .desc="inquiry scan",
     .func=scan_run },
     { .what=(enum threader_scan_types)SCAN_BF, .desc="brute force scan",
     .func=bf_run },
@@ -3487,7 +3487,7 @@ signed int applog(signed int level, const char *fmt, ...)
 
 // ba2int
 // file oui.c line 84
-unsigned int ba2int(struct anonymous$28 *ba)
+unsigned int ba2int(struct anonymous_28 *ba)
 {
   unsigned int oui = (unsigned int)ba->b[(signed long int)5];
   oui = oui << 8;
@@ -3499,37 +3499,37 @@ unsigned int ba2int(struct anonymous$28 *ba)
 
 // bacmp
 // file /usr/include/bluetooth/bluetooth.h line 314
-static inline signed int bacmp(const struct anonymous$28 *ba1, const struct anonymous$28 *ba2)
+static inline signed int bacmp(const struct anonymous_28 *ba1, const struct anonymous_28 *ba2)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)ba1, (const void *)ba2, sizeof(struct anonymous$28) /*6ul*/ );
-  return return_value_memcmp$1;
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)ba1, (const void *)ba2, sizeof(struct anonymous_28) /*6ul*/ );
+  return return_value_memcmp_1;
 }
 
 // bacpy
 // file /usr/include/bluetooth/bluetooth.h line 318
-static inline void bacpy(struct anonymous$28 *dst, const struct anonymous$28 *src)
+static inline void bacpy(struct anonymous_28 *dst, const struct anonymous_28 *src)
 {
-  memcpy((void *)dst, (const void *)src, sizeof(struct anonymous$28) /*6ul*/ );
+  memcpy((void *)dst, (const void *)src, sizeof(struct anonymous_28) /*6ul*/ );
 }
 
-// bacpy$link1
+// bacpy_link1
 // file /usr/include/bluetooth/bluetooth.h line 318
-static inline void bacpy$link1(struct anonymous$28 *dst$link1, const struct anonymous$28 *src$link1)
+static inline void bacpy_link1(struct anonymous_28 *dst_link1, const struct anonymous_28 *src_link1)
 {
-  memcpy((void *)dst$link1, (const void *)src$link1, sizeof(struct anonymous$28) /*6ul*/ );
+  memcpy((void *)dst_link1, (const void *)src_link1, sizeof(struct anonymous_28) /*6ul*/ );
 }
 
-// bacpy$link2
+// bacpy_link2
 // file /usr/include/bluetooth/bluetooth.h line 318
-static inline void bacpy$link2(struct anonymous$28 *dst$link2, const struct anonymous$28 *src$link2)
+static inline void bacpy_link2(struct anonymous_28 *dst_link2, const struct anonymous_28 *src_link2)
 {
-  memcpy((void *)dst$link2, (const void *)src$link2, sizeof(struct anonymous$28) /*6ul*/ );
+  memcpy((void *)dst_link2, (const void *)src_link2, sizeof(struct anonymous_28) /*6ul*/ );
 }
 
 // bd2int
 // file ./misc.h line 40
-unsigned long int bd2int(struct anonymous$28 *bd)
+unsigned long int bd2int(struct anonymous_28 *bd)
 {
   unsigned long int ret = (unsigned long int)0;
   ret = (unsigned long int)bd->b[(signed long int)5];
@@ -3550,9 +3550,9 @@ unsigned long int bd2int(struct anonymous$28 *bd)
 // file ./scan.h line 34
 void * bf_run(void *arg)
 {
-  struct anonymous$25 sset;
+  struct anonymous_25 sset;
   struct hcicfg *hci = (struct hcicfg *)arg;
-  memset((void *)&sset, 0, sizeof(struct anonymous$25) /*128ul*/ );
+  memset((void *)&sset, 0, sizeof(struct anonymous_25) /*128ul*/ );
   sigfillset(&sset);
   sigdelset(&sset, 9);
   sigdelset(&sset, 19);
@@ -3560,13 +3560,13 @@ void * bf_run(void *arg)
   sigdelset(&sset, 2);
   sigdelset(&sset, 11);
   sigdelset(&sset, 10);
-  signed int return_value_pthread_sigmask$1;
-  return_value_pthread_sigmask$1=pthread_sigmask(2, &sset, (struct anonymous$25 *)(void *)0);
-  signed int return_value_scan_reset_device$2;
-  if(return_value_pthread_sigmask$1 == 0)
+  signed int return_value_pthread_sigmask_1;
+  return_value_pthread_sigmask_1=pthread_sigmask(2, &sset, (struct anonymous_25 *)(void *)0);
+  signed int return_value_scan_reset_device_2;
+  if(return_value_pthread_sigmask_1 == 0)
   {
-    return_value_scan_reset_device$2=scan_reset_device(hci->id);
-    if(return_value_scan_reset_device$2 == 0)
+    return_value_scan_reset_device_2=scan_reset_device(hci->id);
+    if(return_value_scan_reset_device_2 == 0)
       scan_probe_bf(hci);
 
   }
@@ -3612,13 +3612,13 @@ char * cfg_copy_content(struct _xmlNode *node)
   char *h;
   unsigned long int hlen;
   unsigned long int len;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(node->children == ((struct _xmlNode *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(node->children->content != ((unsigned char *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(node->children->content != ((unsigned char *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     fprintf(stderr, "%s(): 'log' item found but no content\n", (const void *)"cfg_copy_content");
     return (char *)(void *)0;
@@ -3631,24 +3631,24 @@ char * cfg_copy_content(struct _xmlNode *node)
       h=getenv("HOME");
       if(h == ((char *)NULL))
       {
-        fprintf(stderr, "%s(): cannot expand '~', $HOME not defined\n", (const void *)"cfg_copy_content");
+        fprintf(stderr, "%s(): cannot expand '~', _HOME not defined\n", (const void *)"cfg_copy_content");
         return (char *)(void *)0;
       }
 
       hlen=strlen(h);
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen((char *)node->children->content);
-      len = return_value_strlen$2 + hlen;
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(char) /*1ul*/  * (len + (unsigned long int)1));
-      s = (char *)return_value_malloc$3;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen((char *)node->children->content);
+      len = return_value_strlen_2 + hlen;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(char) /*1ul*/  * (len + (unsigned long int)1));
+      s = (char *)return_value_malloc_3;
       if(s == ((char *)NULL))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        char *return_value_strerror$5;
-        return_value_strerror$5=strerror(*return_value___errno_location$4);
-        fprintf(stderr, "%s::malloc(): %s\n", (const void *)"cfg_copy_content", return_value_strerror$5);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        char *return_value_strerror_5;
+        return_value_strerror_5=strerror(*return_value___errno_location_4);
+        fprintf(stderr, "%s::malloc(): %s\n", (const void *)"cfg_copy_content", return_value_strerror_5);
         return (char *)(void *)0;
       }
 
@@ -3664,11 +3664,11 @@ char * cfg_copy_content(struct _xmlNode *node)
       s=strdup((char *)node->children->content);
       if(s == ((char *)NULL))
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        char *return_value_strerror$7;
-        return_value_strerror$7=strerror(*return_value___errno_location$6);
-        fprintf(stderr, "%s::xmlCharStrdup(): %s\n", (const void *)"cfg_copy_content", return_value_strerror$7);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        char *return_value_strerror_7;
+        return_value_strerror_7=strerror(*return_value___errno_location_6);
+        fprintf(stderr, "%s::xmlCharStrdup(): %s\n", (const void *)"cfg_copy_content", return_value_strerror_7);
         return (char *)(void *)0;
       }
 
@@ -3683,15 +3683,15 @@ struct rangedef * cfg_get_range(unsigned long int did)
 {
   struct rangedef *ret = (struct rangedef *)(void *)0;
   unsigned long int i = (unsigned long int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(i >= cfg_ranges_sz); i = i + 1ul)
   {
     if(!(did >= (cfg_ranges + (signed long int)i)->start))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (cfg_ranges + (signed long int)i)->end < did ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (cfg_ranges + (signed long int)i)->end < did ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
     {
       if(ret == ((struct rangedef *)NULL))
         ret = &cfg_ranges[(signed long int)i];
@@ -3725,15 +3725,15 @@ const char * cfg_oui_filename(void)
 signed int cfg_parse_files(struct _xmlNode *node)
 {
   struct _xmlNode *n;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(node == ((struct _xmlNode *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(node->children != ((struct _xmlNode *)NULL)) ? (_Bool)1 : (_Bool)0;
-  signed int return_value_xmlStrncmp$3;
-  signed int return_value_xmlStrncmp$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(node->children != ((struct _xmlNode *)NULL)) ? (_Bool)1 : (_Bool)0;
+  signed int return_value_xmlStrncmp_3;
+  signed int return_value_xmlStrncmp_2;
+  if(tmp_if_expr_1)
     return 1;
 
   else
@@ -3742,21 +3742,21 @@ signed int cfg_parse_files(struct _xmlNode *node)
     for( ; !(n == ((struct _xmlNode *)NULL)); n = n->next)
       if((signed int)n->type == XML_ELEMENT_NODE)
       {
-        signed int return_value_xmlStrncmp$4;
-        return_value_xmlStrncmp$4=xmlStrncmp((const unsigned char *)"log", n->name, 3);
-        if(return_value_xmlStrncmp$4 == 0)
+        signed int return_value_xmlStrncmp_4;
+        return_value_xmlStrncmp_4=xmlStrncmp((const unsigned char *)"log", n->name, 3);
+        if(return_value_xmlStrncmp_4 == 0)
           cfg_log=cfg_copy_content(n);
 
         else
         {
-          return_value_xmlStrncmp$3=xmlStrncmp((const unsigned char *)"oui", n->name, 3);
-          if(return_value_xmlStrncmp$3 == 0)
+          return_value_xmlStrncmp_3=xmlStrncmp((const unsigned char *)"oui", n->name, 3);
+          if(return_value_xmlStrncmp_3 == 0)
             cfg_oui=cfg_copy_content(n);
 
           else
           {
-            return_value_xmlStrncmp$2=xmlStrncmp((const unsigned char *)"store", n->name, 5);
-            if(return_value_xmlStrncmp$2 == 0)
+            return_value_xmlStrncmp_2=xmlStrncmp((const unsigned char *)"store", n->name, 5);
+            if(return_value_xmlStrncmp_2 == 0)
               cfg_store=cfg_copy_content(n);
 
           }
@@ -3781,20 +3781,20 @@ signed int cfg_parse_rangedef(struct _xmlNode *node, struct rangedef *rd)
   signed int ret;
   unsigned char *p;
   struct _xmlNode *n;
-  struct anonymous$28 bd;
-  _Bool tmp_if_expr$1;
+  struct anonymous_28 bd;
+  _Bool tmp_if_expr_1;
   if(node == ((struct _xmlNode *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(node->children != ((struct _xmlNode *)NULL)) ? (_Bool)1 : (_Bool)0;
-  signed int return_value_xmlStrncmp$9;
-  signed int return_value_xmlStrncmp$8;
-  signed int return_value_xmlStrncmp$7;
-  signed int return_value_xmlStrncmp$6;
-  signed int return_value_xmlStrncmp$5;
-  signed int return_value_xmlStrncmp$4;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(node->children != ((struct _xmlNode *)NULL)) ? (_Bool)1 : (_Bool)0;
+  signed int return_value_xmlStrncmp_9;
+  signed int return_value_xmlStrncmp_8;
+  signed int return_value_xmlStrncmp_7;
+  signed int return_value_xmlStrncmp_6;
+  signed int return_value_xmlStrncmp_5;
+  signed int return_value_xmlStrncmp_4;
+  if(tmp_if_expr_1)
     return 1;
 
   else
@@ -3829,20 +3829,20 @@ signed int cfg_parse_rangedef(struct _xmlNode *node, struct rangedef *rd)
           {
             if((signed int)n->type == XML_ELEMENT_NODE)
             {
-              signed int return_value_xmlStrncmp$10;
-              return_value_xmlStrncmp$10=xmlStrncmp((const unsigned char *)"vulnerabilities", n->name, 15);
-              if(return_value_xmlStrncmp$10 == 0)
+              signed int return_value_xmlStrncmp_10;
+              return_value_xmlStrncmp_10=xmlStrncmp((const unsigned char *)"vulnerabilities", n->name, 15);
+              if(return_value_xmlStrncmp_10 == 0)
               {
                 if(!(n->children == ((struct _xmlNode *)NULL)))
                 {
                   rd->vulns=strdup((char *)n->children->content);
                   if(rd->vulns == ((char *)NULL))
                   {
-                    signed int *return_value___errno_location$2;
-                    return_value___errno_location$2=__errno_location();
-                    char *return_value_strerror$3;
-                    return_value_strerror$3=strerror(*return_value___errno_location$2);
-                    fprintf(stderr, "%s::xmlCharStrdup(): %s\n", (const void *)"cfg_parse_rangedef", return_value_strerror$3);
+                    signed int *return_value___errno_location_2;
+                    return_value___errno_location_2=__errno_location();
+                    char *return_value_strerror_3;
+                    return_value_strerror_3=strerror(*return_value___errno_location_2);
+                    fprintf(stderr, "%s::xmlCharStrdup(): %s\n", (const void *)"cfg_parse_rangedef", return_value_strerror_3);
                   }
 
                 }
@@ -3851,38 +3851,38 @@ signed int cfg_parse_rangedef(struct _xmlNode *node, struct rangedef *rd)
 
               else
               {
-                return_value_xmlStrncmp$9=xmlStrncmp((const unsigned char *)"name", n->name, 4);
-                if(return_value_xmlStrncmp$9 == 0)
+                return_value_xmlStrncmp_9=xmlStrncmp((const unsigned char *)"name", n->name, 4);
+                if(return_value_xmlStrncmp_9 == 0)
                   rd->sf = rd->sf | (unsigned char)0x01;
 
                 else
                 {
-                  return_value_xmlStrncmp$8=xmlStrncmp((const unsigned char *)"hci", n->name, 3);
-                  if(return_value_xmlStrncmp$8 == 0)
+                  return_value_xmlStrncmp_8=xmlStrncmp((const unsigned char *)"hci", n->name, 3);
+                  if(return_value_xmlStrncmp_8 == 0)
                     rd->sf = rd->sf | (unsigned char)0x02;
 
                   else
                   {
-                    return_value_xmlStrncmp$7=xmlStrncmp((const unsigned char *)"rssi", n->name, 4);
-                    if(return_value_xmlStrncmp$7 == 0)
+                    return_value_xmlStrncmp_7=xmlStrncmp((const unsigned char *)"rssi", n->name, 4);
+                    if(return_value_xmlStrncmp_7 == 0)
                       rd->sf = rd->sf | (unsigned char)0x04;
 
                     else
                     {
-                      return_value_xmlStrncmp$6=xmlStrncmp((const unsigned char *)"lq", n->name, 2);
-                      if(return_value_xmlStrncmp$6 == 0)
+                      return_value_xmlStrncmp_6=xmlStrncmp((const unsigned char *)"lq", n->name, 2);
+                      if(return_value_xmlStrncmp_6 == 0)
                         rd->sf = rd->sf | (unsigned char)0x08;
 
                       else
                       {
-                        return_value_xmlStrncmp$5=xmlStrncmp((const unsigned char *)"txpwr", n->name, 5);
-                        if(return_value_xmlStrncmp$5 == 0)
+                        return_value_xmlStrncmp_5=xmlStrncmp((const unsigned char *)"txpwr", n->name, 5);
+                        if(return_value_xmlStrncmp_5 == 0)
                           rd->sf = rd->sf | (unsigned char)0x10;
 
                         else
                         {
-                          return_value_xmlStrncmp$4=xmlStrncmp((const unsigned char *)"sdp", n->name, 3);
-                          if(return_value_xmlStrncmp$4 == 0)
+                          return_value_xmlStrncmp_4=xmlStrncmp((const unsigned char *)"sdp", n->name, 3);
+                          if(return_value_xmlStrncmp_4 == 0)
                             rd->sf = rd->sf | (unsigned char)0x20;
 
                         }
@@ -3914,13 +3914,13 @@ signed int cfg_parse_root(struct _xmlNode *node)
   struct _xmlNode *n;
   signed int ret = 0;
   n = node;
-  signed int return_value_xmlStrncmp$4;
+  signed int return_value_xmlStrncmp_4;
   for( ; !(n == ((struct _xmlNode *)NULL)); n = n->next)
     if((signed int)n->type == XML_ELEMENT_NODE)
     {
-      signed int return_value_xmlStrncmp$5;
-      return_value_xmlStrncmp$5=xmlStrncmp((const unsigned char *)"files", n->name, 5);
-      if(return_value_xmlStrncmp$5 == 0)
+      signed int return_value_xmlStrncmp_5;
+      return_value_xmlStrncmp_5=xmlStrncmp((const unsigned char *)"files", n->name, 5);
+      if(return_value_xmlStrncmp_5 == 0)
       {
         ret=cfg_parse_files(n);
         if(!(ret == 0))
@@ -3930,20 +3930,20 @@ signed int cfg_parse_root(struct _xmlNode *node)
 
       else
       {
-        return_value_xmlStrncmp$4=xmlStrncmp((const unsigned char *)"rangedef", n->name, 8);
-        if(return_value_xmlStrncmp$4 == 0)
+        return_value_xmlStrncmp_4=xmlStrncmp((const unsigned char *)"rangedef", n->name, 8);
+        if(return_value_xmlStrncmp_4 == 0)
         {
           cfg_ranges_sz = cfg_ranges_sz + 1ul;
-          void *return_value_realloc$1;
-          return_value_realloc$1=realloc((void *)cfg_ranges, sizeof(struct rangedef) /*32ul*/  * cfg_ranges_sz);
-          cfg_ranges = (struct rangedef *)return_value_realloc$1;
+          void *return_value_realloc_1;
+          return_value_realloc_1=realloc((void *)cfg_ranges, sizeof(struct rangedef) /*32ul*/  * cfg_ranges_sz);
+          cfg_ranges = (struct rangedef *)return_value_realloc_1;
           if(cfg_ranges == ((struct rangedef *)NULL))
           {
-            signed int *return_value___errno_location$2;
-            return_value___errno_location$2=__errno_location();
-            char *return_value_strerror$3;
-            return_value_strerror$3=strerror(*return_value___errno_location$2);
-            fprintf(stderr, "%s::realloc(): %s\n", (const void *)"cfg_parse_root", return_value_strerror$3);
+            signed int *return_value___errno_location_2;
+            return_value___errno_location_2=__errno_location();
+            char *return_value_strerror_3;
+            return_value_strerror_3=strerror(*return_value___errno_location_2);
+            fprintf(stderr, "%s::realloc(): %s\n", (const void *)"cfg_parse_root", return_value_strerror_3);
             ret = 1;
             break;
           }
@@ -3973,15 +3973,15 @@ signed int cfg_parse_xml(char *filename)
   if(!(filename == ((char *)NULL)))
     cfg_file = filename;
 
-  signed int return_value_stat$3;
-  return_value_stat$3=stat(cfg_file, &sbuf);
-  if(!(return_value_stat$3 == 0))
+  signed int return_value_stat_3;
+  return_value_stat_3=stat(cfg_file, &sbuf);
+  if(!(return_value_stat_3 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "%s::stat(): %s\n", (const void *)"cfg_parse_xml", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "%s::stat(): %s\n", (const void *)"cfg_parse_xml", return_value_strerror_2);
     return 1;
   }
 
@@ -4020,9 +4020,9 @@ signed int cfg_parse_xml(char *filename)
             for( ; !(n == ((struct _xmlNode *)NULL)); n = n->next)
               if((signed int)n->type == XML_ELEMENT_NODE)
               {
-                signed int return_value_xmlStrncmp$4;
-                return_value_xmlStrncmp$4=xmlStrncmp((const unsigned char *)"btscanner", n->name, 9);
-                if(return_value_xmlStrncmp$4 == 0)
+                signed int return_value_xmlStrncmp_4;
+                return_value_xmlStrncmp_4=xmlStrncmp((const unsigned char *)"btscanner", n->name, 9);
+                if(return_value_xmlStrncmp_4 == 0)
                 {
                   ret=cfg_parse_root(n->children);
                   if(!(ret == 0))
@@ -4056,9 +4056,9 @@ signed int cfg_parsefile(char *filename)
   unsigned long int cv = (unsigned long int)0xffffffffffff;
   xmlSetGenericErrorFunc((void *)stdout, (void (*)(void *, const char *, ...))(void *)0);
   xmlSetStructuredErrorFunc((void *)stdout, (void (*)(void *, struct _xmlError *))(void *)0);
-  signed int return_value_cfg_parse_xml$1;
-  return_value_cfg_parse_xml$1=cfg_parse_xml(filename);
-  if(!(return_value_cfg_parse_xml$1 == 0))
+  signed int return_value_cfg_parse_xml_1;
+  return_value_cfg_parse_xml_1=cfg_parse_xml(filename);
+  if(!(return_value_cfg_parse_xml_1 == 0))
   {
     fprintf(stderr, "%s::cfg_parse_xml(): parse failed\n", (const void *)"cfg_parsefile");
     return 1;
@@ -4113,37 +4113,37 @@ static void dointerrupt(signed int sig)
 
 // find_conn
 // file scan.c line 129
-unsigned short int find_conn(signed int dev_id, struct anonymous$28 *bdaddr)
+unsigned short int find_conn(signed int dev_id, struct anonymous_28 *bdaddr)
 {
   struct hci_conn_list_req *cl;
   struct hci_conn_info *ci;
   signed int i;
   signed int s;
   unsigned short int rv = (unsigned short int)-1;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   s=socket(31, 3, 1);
   if(s == -1)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    applog(4, "%s::socket(): %s", (const void *)"find_conn", return_value_strerror$3);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    applog(4, "%s::socket(): %s", (const void *)"find_conn", return_value_strerror_3);
     return (unsigned short int)-1;
   }
 
-  void *return_value_malloc$6;
-  return_value_malloc$6=malloc((unsigned long int)10 * sizeof(struct hci_conn_info) /*16ul*/  + sizeof(struct hci_conn_list_req) /*4ul*/ );
-  cl = (struct hci_conn_list_req *)return_value_malloc$6;
+  void *return_value_malloc_6;
+  return_value_malloc_6=malloc((unsigned long int)10 * sizeof(struct hci_conn_info) /*16ul*/  + sizeof(struct hci_conn_list_req) /*4ul*/ );
+  cl = (struct hci_conn_list_req *)return_value_malloc_6;
   if(cl == ((struct hci_conn_list_req *)NULL))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    applog(4, "%s::malloc(): %s", (const void *)"find_conn", return_value_strerror$5);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    applog(4, "%s::malloc(): %s", (const void *)"find_conn", return_value_strerror_5);
     close(s);
     return (unsigned short int)-1;
   }
@@ -4151,15 +4151,15 @@ unsigned short int find_conn(signed int dev_id, struct anonymous$28 *bdaddr)
   cl->dev_id = (unsigned short int)dev_id;
   cl->conn_num = (unsigned short int)10;
   ci = cl->conn_info;
-  signed int return_value_ioctl$9;
-  return_value_ioctl$9=ioctl(s, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(72 << 0 + 8) | (unsigned int)(212 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, (void *)cl);
-  if(!(return_value_ioctl$9 == 0))
+  signed int return_value_ioctl_9;
+  return_value_ioctl_9=ioctl(s, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(72 << 0 + 8) | (unsigned int)(212 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, (void *)cl);
+  if(!(return_value_ioctl_9 == 0))
   {
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    char *return_value_strerror$8;
-    return_value_strerror$8=strerror(*return_value___errno_location$7);
-    applog(4, "%s::ioctl(): %s", (const void *)"find_conn", return_value_strerror$8);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    char *return_value_strerror_8;
+    return_value_strerror_8=strerror(*return_value___errno_location_7);
+    applog(4, "%s::ioctl(): %s", (const void *)"find_conn", return_value_strerror_8);
     free((void *)cl);
     close(s);
     return (unsigned short int)-1;
@@ -4168,9 +4168,9 @@ unsigned short int find_conn(signed int dev_id, struct anonymous$28 *bdaddr)
   i = 0;
   for( ; !(i >= (signed int)cl->conn_num); ci = ci + 1l)
   {
-    signed int return_value_bacmp$10;
-    return_value_bacmp$10=bacmp(bdaddr, &ci->bdaddr);
-    if(return_value_bacmp$10 == 0)
+    signed int return_value_bacmp_10;
+    return_value_bacmp_10=bacmp(bdaddr, &ci->bdaddr);
+    if(return_value_bacmp_10 == 0)
     {
       if((signed int)ci->type == 0x01)
       {
@@ -4182,9 +4182,9 @@ unsigned short int find_conn(signed int dev_id, struct anonymous$28 *bdaddr)
 
     i = i + 1;
   }
-  signed int *return_value___errno_location$11;
-  return_value___errno_location$11=__errno_location();
-  *return_value___errno_location$11 = 0;
+  signed int *return_value___errno_location_11;
+  return_value___errno_location_11=__errno_location();
+  *return_value___errno_location_11 = 0;
   free((void *)cl);
   close(s);
   return rv;
@@ -4202,31 +4202,31 @@ signed int get_max_devices(signed int s)
   signed int up;
   struct hcicfg *hci;
   ret = 1;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)16 * sizeof(struct hci_dev_req) /*8ul*/  + sizeof(unsigned short int) /*2ul*/ );
-  dl = (struct hci_dev_list_req *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)16 * sizeof(struct hci_dev_req) /*8ul*/  + sizeof(unsigned short int) /*2ul*/ );
+  dl = (struct hci_dev_list_req *)return_value_malloc_1;
   if(dl == ((struct hci_dev_list_req *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    applog(3, "%s::malloc(): %s", (const void *)"get_max_devices", return_value_strerror$3);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    applog(3, "%s::malloc(): %s", (const void *)"get_max_devices", return_value_strerror_3);
     goto get_max_devices_leave;
   }
 
   memset((void *)dl, 0, (unsigned long int)16 * sizeof(struct hci_dev_req) /*8ul*/  + sizeof(unsigned short int) /*2ul*/ );
   dl->dev_num = (unsigned short int)16;
   dr = dl->dev_req;
-  signed int return_value_ioctl$6;
-  return_value_ioctl$6=ioctl(s, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(72 << 0 + 8) | (unsigned int)(210 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, (void *)dl);
-  if(!(return_value_ioctl$6 == 0))
+  signed int return_value_ioctl_6;
+  return_value_ioctl_6=ioctl(s, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(72 << 0 + 8) | (unsigned int)(210 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, (void *)dl);
+  if(!(return_value_ioctl_6 == 0))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    applog(3, "%s::ioctl(): %s", (const void *)"get_max_devices", return_value_strerror$5);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    applog(3, "%s::ioctl(): %s", (const void *)"get_max_devices", return_value_strerror_5);
     goto get_max_devices_leave;
   }
 
@@ -4236,30 +4236,30 @@ signed int get_max_devices(signed int s)
   for( ; !(i >= (signed int)dl->dev_num); dr = dr + 1l)
   {
     di.dev_id = dr->dev_id;
-    signed int return_value_ioctl$7;
-    return_value_ioctl$7=ioctl(s, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(72 << 0 + 8) | (unsigned int)(211 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, (void *)&di);
-    if(return_value_ioctl$7 == 0)
+    signed int return_value_ioctl_7;
+    return_value_ioctl_7=ioctl(s, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(72 << 0 + 8) | (unsigned int)(211 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, (void *)&di);
+    if(return_value_ioctl_7 == 0)
     {
-      void *return_value_malloc$8;
-      return_value_malloc$8=malloc(sizeof(struct hcicfg) /*40ul*/ );
-      hci = (struct hcicfg *)return_value_malloc$8;
+      void *return_value_malloc_8;
+      return_value_malloc_8=malloc(sizeof(struct hcicfg) /*40ul*/ );
+      hci = (struct hcicfg *)return_value_malloc_8;
       if(hci == ((struct hcicfg *)NULL))
       {
         ret = 1;
-        signed int *return_value___errno_location$9;
-        return_value___errno_location$9=__errno_location();
-        char *return_value_strerror$10;
-        return_value_strerror$10=strerror(*return_value___errno_location$9);
-        applog(3, "%s::malloc(): %s", (const void *)"get_max_devices", return_value_strerror$10);
+        signed int *return_value___errno_location_9;
+        return_value___errno_location_9=__errno_location();
+        char *return_value_strerror_10;
+        return_value_strerror_10=strerror(*return_value___errno_location_9);
+        applog(3, "%s::malloc(): %s", (const void *)"get_max_devices", return_value_strerror_10);
         break;
       }
 
       memset((void *)hci, 0, sizeof(struct hcicfg) /*40ul*/ );
       hci->id = (signed int)di.dev_id;
       bacpy(&hci->bdaddr, &di.bdaddr);
-      signed int return_value_hci_test_bit$11;
-      return_value_hci_test_bit$11=hci_test_bit(0, (void *)&dr->dev_opt);
-      if(!(return_value_hci_test_bit$11 == 0))
+      signed int return_value_hci_test_bit_11;
+      return_value_hci_test_bit_11=hci_test_bit(0, (void *)&dr->dev_opt);
+      if(!(return_value_hci_test_bit_11 == 0))
       {
         hci->enabled = (char)0x01;
         up = up + 1;
@@ -4330,7 +4330,7 @@ static inline signed int hci_test_bit(signed int nr, void *addr)
 
 // int2bd
 // file misc.c line 77
-signed int int2bd(unsigned long int i, struct anonymous$28 *bd)
+signed int int2bd(unsigned long int i, struct anonymous_28 *bd)
 {
   bd->b[(signed long int)0] = (unsigned char)(i & (unsigned long int)0xff);
   i = i >> 8;
@@ -4413,12 +4413,12 @@ signed int ll_copy_name(struct device *td, char *name)
   if(!(td->name == ((char *)NULL)))
     free((void *)td->name);
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  i = return_value_strlen$1 + (unsigned long int)1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((i + (unsigned long int)1) * sizeof(char) /*1ul*/ );
-  td->name = (char *)return_value_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  i = return_value_strlen_1 + (unsigned long int)1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((i + (unsigned long int)1) * sizeof(char) /*1ul*/ );
+  td->name = (char *)return_value_malloc_2;
   if(td->name == ((char *)NULL))
     return 1;
 
@@ -4455,19 +4455,19 @@ void ll_do_swap(struct device *pdev, struct device *dev)
 struct device * ll_find_device(unsigned long int did)
 {
   struct device *dev = devhead;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_bd2int$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_bd2int_1;
   do
   {
     if(!(dev == ((struct device *)NULL)))
     {
-      return_value_bd2int$1=bd2int(&dev->bdaddr);
-      tmp_if_expr$2 = did != return_value_bd2int$1 ? (_Bool)1 : (_Bool)0;
+      return_value_bd2int_1=bd2int(&dev->bdaddr);
+      tmp_if_expr_2 = did != return_value_bd2int_1 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     dev = dev->next;
@@ -4559,7 +4559,7 @@ signed int ll_ischanged(void)
 
 // ll_lock_device
 // file ll.c line 143
-struct device * ll_lock_device(struct anonymous$28 *bdaddr)
+struct device * ll_lock_device(struct anonymous_28 *bdaddr)
 {
   struct device *p;
   unsigned long int dc;
@@ -4575,22 +4575,22 @@ struct device * ll_lock_device(struct anonymous$28 *bdaddr)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct device) /*144ul*/ );
-    p = (struct device *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct device) /*144ul*/ );
+    p = (struct device *)return_value_malloc_1;
     if(p == ((struct device *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      applog(3, "%s::malloc(): %s", (const void *)"ll_lock_device", return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      applog(3, "%s::malloc(): %s", (const void *)"ll_lock_device", return_value_strerror_3);
     }
 
     else
     {
       memset((void *)p, 0, sizeof(struct device) /*144ul*/ );
-      bacpy$link1(&p->bdaddr, bdaddr);
+      bacpy_link1(&p->bdaddr, bdaddr);
       time(&p->first_scanned);
       p->next = devhead;
       devhead = p;
@@ -4611,9 +4611,9 @@ struct device * ll_lock_device(struct anonymous$28 *bdaddr)
 // file ./ll.h line 104
 signed int ll_lock_list(void)
 {
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&devhead_mutex);
-  return return_value_pthread_mutex_lock$1;
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&devhead_mutex);
+  return return_value_pthread_mutex_lock_1;
 }
 
 // ll_need_swap
@@ -4621,24 +4621,24 @@ signed int ll_lock_list(void)
 signed int ll_need_swap(struct device *dev, signed int sort)
 {
   signed int ret = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(dev == ((struct device *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (struct device *)(void *)0 == dev->next ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (struct device *)(void *)0 == dev->next ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
     if((0x01 & sort) == 0x01)
     {
-      unsigned long int return_value_bd2int$2;
-      return_value_bd2int$2=bd2int(&dev->bdaddr);
-      unsigned long int return_value_bd2int$3;
-      return_value_bd2int$3=bd2int(&dev->next->bdaddr);
-      if(!(return_value_bd2int$3 >= return_value_bd2int$2))
+      unsigned long int return_value_bd2int_2;
+      return_value_bd2int_2=bd2int(&dev->bdaddr);
+      unsigned long int return_value_bd2int_3;
+      return_value_bd2int_3=bd2int(&dev->next->bdaddr);
+      if(!(return_value_bd2int_3 >= return_value_bd2int_2))
         ret = 1;
 
     }
@@ -4690,9 +4690,9 @@ signed int ll_print_dev_info(unsigned long int did, struct cbuf *cb)
   ll_lock_list();
   dev=ll_find_device(did);
   ll_unlock_list();
-  const char *tmp_if_expr$4;
-  char *tmp_if_expr$5;
-  char *tmp_if_expr$6;
+  const char *tmp_if_expr_4;
+  char *tmp_if_expr_5;
+  char *tmp_if_expr_6;
   if(dev == ((struct device *)NULL))
     return 1;
 
@@ -4711,16 +4711,16 @@ signed int ll_print_dev_info(unsigned long int did, struct cbuf *cb)
       {
         cb->len = initial;
         cb->sz = cb->sz + (unsigned long int)inc;
-        void *return_value_realloc$1;
-        return_value_realloc$1=realloc((void *)cb->buf, sizeof(char) /*1ul*/  * cb->sz);
-        cb->buf = (char *)return_value_realloc$1;
+        void *return_value_realloc_1;
+        return_value_realloc_1=realloc((void *)cb->buf, sizeof(char) /*1ul*/  * cb->sz);
+        cb->buf = (char *)return_value_realloc_1;
         if(cb->buf == ((char *)NULL))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          char *return_value_strerror$3;
-          return_value_strerror$3=strerror(*return_value___errno_location$2);
-          applog(3, "%s::realloc(): %s", (const void *)"ll_print_dev_info", return_value_strerror$3);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          char *return_value_strerror_3;
+          return_value_strerror_3=strerror(*return_value___errno_location_2);
+          applog(3, "%s::realloc(): %s", (const void *)"ll_print_dev_info", return_value_strerror_3);
           return 1;
         }
 
@@ -4730,30 +4730,30 @@ signed int ll_print_dev_info(unsigned long int did, struct cbuf *cb)
       ba2str(&dev->bdaddr, tmp);
       ba2str(&dev->bd_scan, foundby);
       if(!(dev->oui == ((const char *)NULL)))
-        tmp_if_expr$4 = dev->oui;
+        tmp_if_expr_4 = dev->oui;
 
       else
-        tmp_if_expr$4 = "";
+        tmp_if_expr_4 = "";
       if(!(dev->name == ((char *)NULL)))
-        tmp_if_expr$5 = dev->name;
+        tmp_if_expr_5 = dev->name;
 
       else
-        tmp_if_expr$5 = "unknown";
+        tmp_if_expr_5 = "unknown";
       if(!(range->vulns == ((char *)NULL)))
-        tmp_if_expr$6 = range->vulns;
+        tmp_if_expr_6 = range->vulns;
 
       else
-        tmp_if_expr$6 = "";
-      signed int return_value_snprintf$7;
-      return_value_snprintf$7=snprintf(cb->buf, cb->sz, "Address:       %s\nFound by:      %s\nOUI owner:     %s\nFirst seen:    %04d/%02d/%02d %02d:%02d:%02d\nLast seen:     %04d/%02d/%02d %02d:%02d:%02d\nName:          %s\nVulnerable to: %s\nClk off:       0x%4.4x\nClass:         0x%6.6x\n               ", (const void *)tmp, (const void *)foundby, tmp_if_expr$4, fs.tm_year + 1900, fs.tm_mon + 1, fs.tm_mday, fs.tm_hour, fs.tm_min, fs.tm_sec, ls.tm_year + 1900, ls.tm_mon + 1, ls.tm_mday, ls.tm_hour, ls.tm_min, ls.tm_sec, tmp_if_expr$5, tmp_if_expr$6, dev->clk_off, dev->class);
-      cb->len = (unsigned long int)return_value_snprintf$7;
+        tmp_if_expr_6 = "";
+      signed int return_value_snprintf_7;
+      return_value_snprintf_7=snprintf(cb->buf, cb->sz, "Address:       %s\nFound by:      %s\nOUI owner:     %s\nFirst seen:    %04d/%02d/%02d %02d:%02d:%02d\nLast seen:     %04d/%02d/%02d %02d:%02d:%02d\nName:          %s\nVulnerable to: %s\nClk off:       0x%4.4x\nClass:         0x%6.6x\n               ", (const void *)tmp, (const void *)foundby, tmp_if_expr_4, fs.tm_year + 1900, fs.tm_mon + 1, fs.tm_mday, fs.tm_hour, fs.tm_min, fs.tm_sec, ls.tm_year + 1900, ls.tm_mon + 1, ls.tm_mday, ls.tm_hour, ls.tm_min, ls.tm_sec, tmp_if_expr_5, tmp_if_expr_6, dev->clk_off, dev->class);
+      cb->len = (unsigned long int)return_value_snprintf_7;
       ll_unlock_list();
       if(!(cb->len >= cb->sz))
       {
         ll_lock_list();
-        signed int return_value_sdp_format_classes$8;
-        return_value_sdp_format_classes$8=sdp_format_classes(dev, cb->buf, (signed int)cb->sz, (signed int)cb->len);
-        cb->len = (unsigned long int)return_value_sdp_format_classes$8;
+        signed int return_value_sdp_format_classes_8;
+        return_value_sdp_format_classes_8=sdp_format_classes(dev, cb->buf, (signed int)cb->sz, (signed int)cb->len);
+        cb->len = (unsigned long int)return_value_sdp_format_classes_8;
         ll_unlock_list();
         if(!(cb->len >= cb->sz))
         {
@@ -4761,11 +4761,11 @@ signed int ll_print_dev_info(unsigned long int did, struct cbuf *cb)
           if(!(dev->got_version == 0))
           {
             lmpi=lmp_vertostr((unsigned int)dev->version.lmp_ver);
-            const char *return_value_bt_compidtostr$9;
-            return_value_bt_compidtostr$9=bt_compidtostr((signed int)dev->version.manufacturer);
-            signed int return_value_snprintf$10;
-            return_value_snprintf$10=snprintf(cb->buf + (signed long int)cb->len, cb->sz - cb->len, "\nHCI Version\n-----------\nLMP Version: %s (0x%x) LMP Subversion: 0x%x\nManufacturer: %s (%d)\n", lmpi != ((char *)NULL) ? lmpi : "", dev->version.lmp_ver, dev->version.lmp_subver, return_value_bt_compidtostr$9, dev->version.manufacturer);
-            cb->len = cb->len + (unsigned long int)return_value_snprintf$10;
+            const char *return_value_bt_compidtostr_9;
+            return_value_bt_compidtostr_9=bt_compidtostr((signed int)dev->version.manufacturer);
+            signed int return_value_snprintf_10;
+            return_value_snprintf_10=snprintf(cb->buf + (signed long int)cb->len, cb->sz - cb->len, "\nHCI Version\n-----------\nLMP Version: %s (0x%x) LMP Subversion: 0x%x\nManufacturer: %s (%d)\n", lmpi != ((char *)NULL) ? lmpi : "", dev->version.lmp_ver, dev->version.lmp_subver, return_value_bt_compidtostr_9, dev->version.manufacturer);
+            cb->len = cb->len + (unsigned long int)return_value_snprintf_10;
             if(!(lmpi == ((char *)NULL)))
               free((void *)lmpi);
 
@@ -4774,9 +4774,9 @@ signed int ll_print_dev_info(unsigned long int did, struct cbuf *cb)
 
           else
           {
-            signed int return_value_snprintf$11;
-            return_value_snprintf$11=snprintf(cb->buf + (signed long int)cb->len, cb->sz - cb->len, "\nHCI Version\n-----------\nLMP Version:  n/a (n/a) LMP Subversion: n/a\nManufacturer: n/a (n/a)\n");
-            cb->len = cb->len + (unsigned long int)return_value_snprintf$11;
+            signed int return_value_snprintf_11;
+            return_value_snprintf_11=snprintf(cb->buf + (signed long int)cb->len, cb->sz - cb->len, "\nHCI Version\n-----------\nLMP Version:  n/a (n/a) LMP Subversion: n/a\nManufacturer: n/a (n/a)\n");
+            cb->len = cb->len + (unsigned long int)return_value_snprintf_11;
           }
           ll_unlock_list();
           if(!(cb->len >= cb->sz))
@@ -4785,9 +4785,9 @@ signed int ll_print_dev_info(unsigned long int did, struct cbuf *cb)
             if(!(dev->got_features == 0))
             {
               lmpi=lmp_featurestostr(dev->features, "    ", 70);
-              signed int return_value_snprintf$12;
-              return_value_snprintf$12=snprintf(cb->buf + (signed long int)cb->len, cb->sz - cb->len, "\nHCI Features\n------------\nFeatures:     0x%2.2x 0x%2.2x 0x%2.2x 0x%2.2x\n%s\n", dev->features[(signed long int)0], dev->features[(signed long int)1], dev->features[(signed long int)2], dev->features[(signed long int)3], lmpi != ((char *)NULL) ? lmpi : "");
-              cb->len = cb->len + (unsigned long int)return_value_snprintf$12;
+              signed int return_value_snprintf_12;
+              return_value_snprintf_12=snprintf(cb->buf + (signed long int)cb->len, cb->sz - cb->len, "\nHCI Features\n------------\nFeatures:     0x%2.2x 0x%2.2x 0x%2.2x 0x%2.2x\n%s\n", dev->features[(signed long int)0], dev->features[(signed long int)1], dev->features[(signed long int)2], dev->features[(signed long int)3], lmpi != ((char *)NULL) ? lmpi : "");
+              cb->len = cb->len + (unsigned long int)return_value_snprintf_12;
               if(!(lmpi == ((char *)NULL)))
                 free((void *)lmpi);
 
@@ -4796,9 +4796,9 @@ signed int ll_print_dev_info(unsigned long int did, struct cbuf *cb)
 
             else
             {
-              signed int return_value_snprintf$13;
-              return_value_snprintf$13=snprintf(cb->buf + (signed long int)cb->len, cb->sz - cb->len, "\nHCI Features\n------------\nFeatures:     n/a n/a n/a n/a\n");
-              cb->len = cb->len + (unsigned long int)return_value_snprintf$13;
+              signed int return_value_snprintf_13;
+              return_value_snprintf_13=snprintf(cb->buf + (signed long int)cb->len, cb->sz - cb->len, "\nHCI Features\n------------\nFeatures:     n/a n/a n/a n/a\n");
+              cb->len = cb->len + (unsigned long int)return_value_snprintf_13;
             }
             ll_unlock_list();
             if(!(cb->len >= cb->sz))
@@ -4806,9 +4806,9 @@ signed int ll_print_dev_info(unsigned long int did, struct cbuf *cb)
               ll_lock_list();
               if(!(dev->sdp == ((char *)NULL)))
               {
-                signed int return_value_snprintf$14;
-                return_value_snprintf$14=snprintf(cb->buf + (signed long int)cb->len, cb->sz - cb->len, "\nSDP probe\n---------\n%s", dev->sdp);
-                cb->len = cb->len + (unsigned long int)return_value_snprintf$14;
+                signed int return_value_snprintf_14;
+                return_value_snprintf_14=snprintf(cb->buf + (signed long int)cb->len, cb->sz - cb->len, "\nSDP probe\n---------\n%s", dev->sdp);
+                cb->len = cb->len + (unsigned long int)return_value_snprintf_14;
               }
 
               ll_unlock_list();
@@ -4835,7 +4835,7 @@ signed int ll_print_dev_line(struct device *item, unsigned long int *id, char *s
   signed int i;
   struct tm tm;
   char tmp[32l];
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(s == ((char *)NULL) || item == ((struct device *)NULL))
     return 0;
 
@@ -4847,11 +4847,11 @@ signed int ll_print_dev_line(struct device *item, unsigned long int *id, char *s
     tm.tm_mon = tm.tm_mon + 1;
     ba2str(&item->bdaddr, tmp);
     if(!(item->name == ((char *)NULL)))
-      tmp_if_expr$1 = item->name;
+      tmp_if_expr_1 = item->name;
 
     else
-      tmp_if_expr$1 = "(unknown)";
-    i=snprintf(s, (unsigned long int)len, "%04d/%02d/%02d %02d:%02d:%02d  %s  0x%4.4x   0x%6.6x  %s", tm.tm_year, tm.tm_mon, tm.tm_mday, tm.tm_hour, tm.tm_min, tm.tm_sec, (const void *)tmp, item->clk_off, item->class, tmp_if_expr$1);
+      tmp_if_expr_1 = "(unknown)";
+    i=snprintf(s, (unsigned long int)len, "%04d/%02d/%02d %02d:%02d:%02d  %s  0x%4.4x   0x%6.6x  %s", tm.tm_year, tm.tm_mon, tm.tm_mday, tm.tm_hour, tm.tm_min, tm.tm_sec, (const void *)tmp, item->clk_off, item->class, tmp_if_expr_1);
     for( ; !(i >= len); i = i + 1)
       s[(signed long int)i] = (char)32;
     s[(signed long int)len] = (char)0;
@@ -4888,24 +4888,24 @@ signed int ll_print_timestamp(struct device *dev, struct cbuf *cb)
     {
       cb->len = initial;
       cb->sz = cb->sz + (unsigned long int)inc;
-      void *return_value_realloc$1;
-      return_value_realloc$1=realloc((void *)cb->buf, sizeof(char) /*1ul*/  * cb->sz);
-      cb->buf = (char *)return_value_realloc$1;
+      void *return_value_realloc_1;
+      return_value_realloc_1=realloc((void *)cb->buf, sizeof(char) /*1ul*/  * cb->sz);
+      cb->buf = (char *)return_value_realloc_1;
       if(cb->buf == ((char *)NULL))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        applog(3, "%s::realloc(): %s", (const void *)"ll_print_timestamp", return_value_strerror$3);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        applog(3, "%s::realloc(): %s", (const void *)"ll_print_timestamp", return_value_strerror_3);
         return 1;
       }
 
     }
 
-    signed int return_value_snprintf$4;
-    return_value_snprintf$4=snprintf(cb->buf, cb->sz, "%04d/%02d/%02d %02d:%02d:%02d\n", ls.tm_year + 1900, ls.tm_mon + 1, ls.tm_mday, ls.tm_hour, ls.tm_min, ls.tm_sec);
-    cb->len = (unsigned long int)return_value_snprintf$4;
+    signed int return_value_snprintf_4;
+    return_value_snprintf_4=snprintf(cb->buf, cb->sz, "%04d/%02d/%02d %02d:%02d:%02d\n", ls.tm_year + 1900, ls.tm_mon + 1, ls.tm_mday, ls.tm_hour, ls.tm_min, ls.tm_sec);
+    cb->len = (unsigned long int)return_value_snprintf_4;
     if(!(cb->len >= cb->sz))
       break;
 
@@ -4922,13 +4922,13 @@ signed int ll_save_summary(const char *filename)
   struct tm l;
   char tmp[32l];
   signed long int now;
-  signed int return_value_log_sum_open$2;
-  return_value_log_sum_open$2=log_sum_open(filename);
-  if(!(return_value_log_sum_open$2 == 0))
+  signed int return_value_log_sum_open_2;
+  return_value_log_sum_open_2=log_sum_open(filename);
+  if(!(return_value_log_sum_open_2 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 17)
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 17)
       screen_log("File already exists");
 
     else
@@ -4943,7 +4943,7 @@ signed int ll_save_summary(const char *filename)
   summary("Summary saved at %04d/%02d/%02d %02d:%02d:%02d", f.tm_year, f.tm_mon, f.tm_mday, f.tm_hour, f.tm_min, f.tm_sec);
   ll_lock_list();
   dev = devhead;
-  char *tmp_if_expr$3;
+  char *tmp_if_expr_3;
   for( ; !(dev == ((struct device *)NULL)); dev = dev->next)
     if(dev->last_scanned >= ll_last_summary)
     {
@@ -4955,11 +4955,11 @@ signed int ll_save_summary(const char *filename)
       l.tm_mon = l.tm_mon + 1;
       ba2str(&dev->bdaddr, tmp);
       if(!(dev->name == ((char *)NULL)))
-        tmp_if_expr$3 = dev->name;
+        tmp_if_expr_3 = dev->name;
 
       else
-        tmp_if_expr$3 = "";
-      summary("%04d/%02d/%02d %02d:%02d:%02d,%04d/%02d/%02d %02d:%02d:%02d,%s,%s", f.tm_year, f.tm_mon, f.tm_mday, f.tm_hour, f.tm_min, f.tm_sec, l.tm_year, l.tm_mon, l.tm_mday, l.tm_hour, l.tm_min, l.tm_sec, (const void *)tmp, tmp_if_expr$3);
+        tmp_if_expr_3 = "";
+      summary("%04d/%02d/%02d %02d:%02d:%02d,%04d/%02d/%02d %02d:%02d:%02d,%s,%s", f.tm_year, f.tm_mon, f.tm_mday, f.tm_hour, f.tm_min, f.tm_sec, l.tm_year, l.tm_mon, l.tm_mday, l.tm_hour, l.tm_min, l.tm_sec, (const void *)tmp, tmp_if_expr_3);
     }
 
   time(&ll_last_summary);
@@ -4975,7 +4975,7 @@ signed int ll_sortlist(signed int sort)
   struct device *dev;
   struct device *pdev;
   signed int swaps;
-  signed int return_value_ll_need_swap$1;
+  signed int return_value_ll_need_swap_1;
   if(sort == 0x00 || sort == 0x80)
     return 0;
 
@@ -4988,8 +4988,8 @@ signed int ll_sortlist(signed int sort)
       dev = devhead;
       for( ; !(dev == ((struct device *)NULL)); dev = dev->next)
       {
-        return_value_ll_need_swap$1=ll_need_swap(dev, sort);
-        if(!(return_value_ll_need_swap$1 == 0))
+        return_value_ll_need_swap_1=ll_need_swap(dev, sort);
+        if(!(return_value_ll_need_swap_1 == 0))
         {
           ll_do_swap(pdev, dev);
           swaps = swaps + 1;
@@ -5007,7 +5007,7 @@ signed int ll_sortlist(signed int sort)
 // file ll.c line 186
 signed int ll_unlock_device(struct device *dev)
 {
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   if(dev == ((struct device *)NULL))
     return 1;
 
@@ -5016,8 +5016,8 @@ signed int ll_unlock_device(struct device *dev)
     ll_lock_list();
     if(!(dev->locked == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      if(dev->locked_by == return_value_pthread_self$1)
+      return_value_pthread_self_1=pthread_self();
+      if(dev->locked_by == return_value_pthread_self_1)
       {
         dev->locked = (unsigned char)0;
         dev->locked_by = (unsigned long int)0;
@@ -5040,9 +5040,9 @@ signed int ll_unlock_device(struct device *dev)
 // file ./ll.h line 105
 signed int ll_unlock_list(void)
 {
-  signed int return_value_pthread_mutex_unlock$1;
-  return_value_pthread_mutex_unlock$1=pthread_mutex_unlock(&devhead_mutex);
-  return return_value_pthread_mutex_unlock$1;
+  signed int return_value_pthread_mutex_unlock_1;
+  return_value_pthread_mutex_unlock_1=pthread_mutex_unlock(&devhead_mutex);
+  return return_value_pthread_mutex_unlock_1;
 }
 
 // log_close
@@ -5078,22 +5078,22 @@ signed int log_init(void)
     log_fd=open(s, 01 | 0100 | 02000, 0400 | 0200);
     if(log_fd == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fprintf(stderr, "%s::open(): %s\n", (const void *)"log_init", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fprintf(stderr, "%s::open(): %s\n", (const void *)"log_init", return_value_strerror_2);
       return 1;
     }
 
     log_fp=fdopen(log_fd, "w");
     if(log_fp == ((struct _IO_FILE *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      fprintf(stderr, "%s::open(): %s\n", (const void *)"log_init", return_value_strerror$4);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      fprintf(stderr, "%s::open(): %s\n", (const void *)"log_init", return_value_strerror_4);
       return 1;
     }
 
@@ -5149,7 +5149,7 @@ signed int main(signed int argc, char **argv)
   signed int opt;
   signed int ctl;
   struct sigaction act;
-  struct anonymous$25 sset;
+  struct anonymous_25 sset;
   char *cfg_filename = (char *)(void *)0;
   opterr = 0;
   do
@@ -5176,23 +5176,23 @@ signed int main(signed int argc, char **argv)
     exit(0);
   }
 
-  signed int return_value_cfg_parsefile$1;
-  return_value_cfg_parsefile$1=cfg_parsefile(cfg_filename);
-  if(!(return_value_cfg_parsefile$1 == 0))
+  signed int return_value_cfg_parsefile_1;
+  return_value_cfg_parsefile_1=cfg_parsefile(cfg_filename);
+  if(!(return_value_cfg_parsefile_1 == 0))
   {
     fprintf(stderr, "Config file validation error\n");
     exit(1);
   }
 
-  signed int return_value_log_init$2;
-  return_value_log_init$2=log_init();
-  if(!(return_value_log_init$2 == 0))
+  signed int return_value_log_init_2;
+  return_value_log_init_2=log_init();
+  if(!(return_value_log_init_2 == 0))
   {
     fprintf(stderr, "Logging failed to initialise\n");
     exit(1);
   }
 
-  memset((void *)&sset, 0, sizeof(struct anonymous$25) /*128ul*/ );
+  memset((void *)&sset, 0, sizeof(struct anonymous_25) /*128ul*/ );
   sigfillset(&sset);
   sigdelset(&sset, 9);
   sigdelset(&sset, 19);
@@ -5200,27 +5200,27 @@ signed int main(signed int argc, char **argv)
   sigdelset(&sset, 2);
   sigdelset(&sset, 11);
   sigdelset(&sset, 28);
-  signed int return_value_sigprocmask$5;
-  return_value_sigprocmask$5=sigprocmask(2, &sset, (struct anonymous$25 *)(void *)0);
-  if(return_value_sigprocmask$5 == -1)
+  signed int return_value_sigprocmask_5;
+  return_value_sigprocmask_5=sigprocmask(2, &sset, (struct anonymous_25 *)(void *)0);
+  if(return_value_sigprocmask_5 == -1)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    applog(3, "%s::sigprocmask(): %s", (const void *)"main", return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    applog(3, "%s::sigprocmask(): %s", (const void *)"main", return_value_strerror_4);
     exit(0);
   }
 
-  signed int return_value_pthread_sigmask$8;
-  return_value_pthread_sigmask$8=pthread_sigmask(2, &sset, (struct anonymous$25 *)(void *)0);
-  if(!(return_value_pthread_sigmask$8 == 0))
+  signed int return_value_pthread_sigmask_8;
+  return_value_pthread_sigmask_8=pthread_sigmask(2, &sset, (struct anonymous_25 *)(void *)0);
+  if(!(return_value_pthread_sigmask_8 == 0))
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    char *return_value_strerror$7;
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    applog(3, "%s::sigprocmask(): %s", (const void *)"main", return_value_strerror$7);
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    char *return_value_strerror_7;
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    applog(3, "%s::sigprocmask(): %s", (const void *)"main", return_value_strerror_7);
     exit(0);
   }
 
@@ -5229,66 +5229,66 @@ signed int main(signed int argc, char **argv)
   sigfillset(&act.sa_mask);
   sigdelset(&act.sa_mask, 9);
   sigdelset(&act.sa_mask, 19);
-  signed int return_value_sigaction$11;
-  return_value_sigaction$11=sigaction(15, &act, (struct sigaction *)(void *)0);
-  if(return_value_sigaction$11 == -1)
+  signed int return_value_sigaction_11;
+  return_value_sigaction_11=sigaction(15, &act, (struct sigaction *)(void *)0);
+  if(return_value_sigaction_11 == -1)
   {
-    signed int *return_value___errno_location$9;
-    return_value___errno_location$9=__errno_location();
-    char *return_value_strerror$10;
-    return_value_strerror$10=strerror(*return_value___errno_location$9);
-    applog(3, "%s::sigaction(): %s", (const void *)"main", return_value_strerror$10);
+    signed int *return_value___errno_location_9;
+    return_value___errno_location_9=__errno_location();
+    char *return_value_strerror_10;
+    return_value_strerror_10=strerror(*return_value___errno_location_9);
+    applog(3, "%s::sigaction(): %s", (const void *)"main", return_value_strerror_10);
     exit(0);
   }
 
-  signed int return_value_sigaction$14;
-  return_value_sigaction$14=sigaction(2, &act, (struct sigaction *)(void *)0);
-  if(return_value_sigaction$14 == -1)
+  signed int return_value_sigaction_14;
+  return_value_sigaction_14=sigaction(2, &act, (struct sigaction *)(void *)0);
+  if(return_value_sigaction_14 == -1)
   {
-    signed int *return_value___errno_location$12;
-    return_value___errno_location$12=__errno_location();
-    char *return_value_strerror$13;
-    return_value_strerror$13=strerror(*return_value___errno_location$12);
-    applog(3, "%s::sigaction(): %s", (const void *)"main", return_value_strerror$13);
+    signed int *return_value___errno_location_12;
+    return_value___errno_location_12=__errno_location();
+    char *return_value_strerror_13;
+    return_value_strerror_13=strerror(*return_value___errno_location_12);
+    applog(3, "%s::sigaction(): %s", (const void *)"main", return_value_strerror_13);
     exit(0);
   }
 
   act.__sigaction_handler.sa_handler = dointerrupt;
-  signed int return_value_sigaction$17;
-  return_value_sigaction$17=sigaction(10, &act, (struct sigaction *)(void *)0);
-  if(return_value_sigaction$17 == -1)
+  signed int return_value_sigaction_17;
+  return_value_sigaction_17=sigaction(10, &act, (struct sigaction *)(void *)0);
+  if(return_value_sigaction_17 == -1)
   {
-    signed int *return_value___errno_location$15;
-    return_value___errno_location$15=__errno_location();
-    char *return_value_strerror$16;
-    return_value_strerror$16=strerror(*return_value___errno_location$15);
-    applog(3, "%s::sigaction(): %s", (const void *)"main", return_value_strerror$16);
+    signed int *return_value___errno_location_15;
+    return_value___errno_location_15=__errno_location();
+    char *return_value_strerror_16;
+    return_value_strerror_16=strerror(*return_value___errno_location_15);
+    applog(3, "%s::sigaction(): %s", (const void *)"main", return_value_strerror_16);
     exit(0);
   }
 
-  const char *return_value_cfg_oui_filename$18;
-  return_value_cfg_oui_filename$18=cfg_oui_filename();
-  signed int return_value_ouidb_init$19;
-  return_value_ouidb_init$19=ouidb_init(return_value_cfg_oui_filename$18);
-  if(!(return_value_ouidb_init$19 == 0))
+  const char *return_value_cfg_oui_filename_18;
+  return_value_cfg_oui_filename_18=cfg_oui_filename();
+  signed int return_value_ouidb_init_19;
+  return_value_ouidb_init_19=ouidb_init(return_value_cfg_oui_filename_18);
+  if(!(return_value_ouidb_init_19 == 0))
     exit(0);
 
   ll_init();
   ctl=socket(31, 3, 1);
   if(!(ctl >= 0))
   {
-    signed int *return_value___errno_location$20;
-    return_value___errno_location$20=__errno_location();
-    char *return_value_strerror$21;
-    return_value_strerror$21=strerror(*return_value___errno_location$20);
-    applog(3, "%s::socket(): %s", (const void *)"main", return_value_strerror$21);
+    signed int *return_value___errno_location_20;
+    return_value___errno_location_20=__errno_location();
+    char *return_value_strerror_21;
+    return_value_strerror_21=strerror(*return_value___errno_location_20);
+    applog(3, "%s::socket(): %s", (const void *)"main", return_value_strerror_21);
     exit(0);
   }
 
   hcihead = (struct hcicfg *)(void *)0;
-  signed int return_value_get_max_devices$22;
-  return_value_get_max_devices$22=get_max_devices(ctl);
-  if(!(return_value_get_max_devices$22 == 0))
+  signed int return_value_get_max_devices_22;
+  return_value_get_max_devices_22=get_max_devices(ctl);
+  if(!(return_value_get_max_devices_22 == 0))
     fprintf(stderr, "No Bluetooth devices available\n");
 
   else
@@ -5341,17 +5341,17 @@ signed int ouidb_init(const char *filename)
   char buf[128l];
   char *s;
   struct re_pattern_buffer preg;
-  struct anonymous$23 pmatch[4l];
+  struct anonymous_23 pmatch[4l];
   signed int i;
   struct oui *ouitail;
   struct oui *ouinew;
   ouitail = (struct oui *)(void *)0;
   ouihead = ouitail;
-  i=regcomp(&preg, "^([0-9a-zA-Z]{6}) (.*)[\n\r \t]+$", 1);
-  char *return_value_fgets$3;
+  i=regcomp(&preg, "^([0-9a-zA-Z]{6}) (.*)[\n\r \t]+_", 1);
+  char *return_value_fgets_3;
   if(!(i == 0))
   {
-    fprintf(stderr, "Unable to compile re: \"%s\"\n", (const void *)"^([0-9a-zA-Z]{6}) (.*)[\n\r \t]+$");
+    fprintf(stderr, "Unable to compile re: \"%s\"\n", (const void *)"^([0-9a-zA-Z]{6}) (.*)[\n\r \t]+_");
     return 1;
   }
 
@@ -5361,55 +5361,55 @@ signed int ouidb_init(const char *filename)
     f=fopen(filename, "r");
     if(f == ((struct _IO_FILE *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fprintf(stdout, "Error opening the OUI database: %s\n", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fprintf(stdout, "Error opening the OUI database: %s\n", return_value_strerror_2);
       return 1;
     }
 
     fprintf(stdout, "Reading the OUI database\n");
     do
     {
-      return_value_fgets$3=fgets(buf, 128, f);
-      if(return_value_fgets$3 == ((char *)NULL))
+      return_value_fgets_3=fgets(buf, 128, f);
+      if(return_value_fgets_3 == ((char *)NULL))
         break;
 
-      signed int return_value_regexec$4;
-      return_value_regexec$4=regexec(&preg, buf, (unsigned long int)4, pmatch, 0);
-      if(return_value_regexec$4 == 0)
+      signed int return_value_regexec_4;
+      return_value_regexec_4=regexec(&preg, buf, (unsigned long int)4, pmatch, 0);
+      if(return_value_regexec_4 == 0)
       {
         buf[(signed long int)pmatch[(signed long int)1].rm_eo] = (char)0;
         buf[(signed long int)pmatch[(signed long int)2].rm_eo] = (char)0;
-        void *return_value_malloc$5;
-        return_value_malloc$5=malloc(sizeof(struct oui) /*24ul*/ );
-        ouinew = (struct oui *)return_value_malloc$5;
+        void *return_value_malloc_5;
+        return_value_malloc_5=malloc(sizeof(struct oui) /*24ul*/ );
+        ouinew = (struct oui *)return_value_malloc_5;
         if(ouinew == ((struct oui *)NULL))
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          char *return_value_strerror$7;
-          return_value_strerror$7=strerror(*return_value___errno_location$6);
-          fprintf(stderr, "%s:malloc(): %s\n", (const void *)"ouidb_init", return_value_strerror$7);
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          char *return_value_strerror_7;
+          return_value_strerror_7=strerror(*return_value___errno_location_6);
+          fprintf(stderr, "%s:malloc(): %s\n", (const void *)"ouidb_init", return_value_strerror_7);
           return 1;
         }
 
         memset((void *)ouinew, 0, sizeof(struct oui) /*24ul*/ );
-        signed long int return_value_strtol$8;
-        return_value_strtol$8=strtol(buf + (signed long int)pmatch[(signed long int)1].rm_so, (char **)(void *)0, 16);
-        ouinew->id = (unsigned int)return_value_strtol$8;
+        signed long int return_value_strtol_8;
+        return_value_strtol_8=strtol(buf + (signed long int)pmatch[(signed long int)1].rm_so, (char **)(void *)0, 16);
+        ouinew->id = (unsigned int)return_value_strtol_8;
         i = pmatch[(signed long int)2].rm_eo - pmatch[(signed long int)2].rm_so;
-        void *return_value_malloc$9;
-        return_value_malloc$9=malloc(sizeof(char) /*1ul*/  * (unsigned long int)(i + 1));
-        s = (char *)return_value_malloc$9;
+        void *return_value_malloc_9;
+        return_value_malloc_9=malloc(sizeof(char) /*1ul*/  * (unsigned long int)(i + 1));
+        s = (char *)return_value_malloc_9;
         if(s == ((char *)NULL))
         {
-          signed int *return_value___errno_location$10;
-          return_value___errno_location$10=__errno_location();
-          char *return_value_strerror$11;
-          return_value_strerror$11=strerror(*return_value___errno_location$10);
-          fprintf(stderr, "%s:malloc(): %s\n", (const void *)"ouidb_init", return_value_strerror$11);
+          signed int *return_value___errno_location_10;
+          return_value___errno_location_10=__errno_location();
+          char *return_value_strerror_11;
+          return_value_strerror_11=strerror(*return_value___errno_location_10);
+          fprintf(stderr, "%s:malloc(): %s\n", (const void *)"ouidb_init", return_value_strerror_11);
           return 1;
         }
 
@@ -5435,7 +5435,7 @@ signed int ouidb_init(const char *filename)
 
 // ouidb_query
 // file oui.c line 167
-char * ouidb_query(struct anonymous$28 *ba)
+char * ouidb_query(struct anonymous_28 *ba)
 {
   struct oui *curr;
   unsigned int id;
@@ -5460,23 +5460,23 @@ void print_access_protos(void *value, void *userData)
 // file sdp.c line 318
 void print_lang_attr(void *value, void *user)
 {
-  struct anonymous$7 *lang = (struct anonymous$7 *)value;
+  struct anonymous_7 *lang = (struct anonymous_7 *)value;
   struct cbuf *str = (struct cbuf *)user;
   if(!(str->len >= str->sz))
   {
-    signed int return_value_snprintf$1;
-    return_value_snprintf$1=snprintf(str->buf + (signed long int)str->len, str->sz, "  code_ISO639: 0x%02x\n", lang->code_ISO639);
-    str->len = str->len + (unsigned long int)return_value_snprintf$1;
+    signed int return_value_snprintf_1;
+    return_value_snprintf_1=snprintf(str->buf + (signed long int)str->len, str->sz, "  code_ISO639: 0x%02x\n", lang->code_ISO639);
+    str->len = str->len + (unsigned long int)return_value_snprintf_1;
     if(!(str->len >= str->sz))
     {
-      signed int return_value_snprintf$2;
-      return_value_snprintf$2=snprintf(str->buf + (signed long int)str->len, str->sz, "  encoding:    0x%02x\n", lang->encoding);
-      str->len = str->len + (unsigned long int)return_value_snprintf$2;
+      signed int return_value_snprintf_2;
+      return_value_snprintf_2=snprintf(str->buf + (signed long int)str->len, str->sz, "  encoding:    0x%02x\n", lang->encoding);
+      str->len = str->len + (unsigned long int)return_value_snprintf_2;
       if(!(str->len >= str->sz))
       {
-        signed int return_value_snprintf$3;
-        return_value_snprintf$3=snprintf(str->buf + (signed long int)str->len, str->sz, "  base_offset: 0x%02x\n", lang->base_offset);
-        str->len = str->len + (unsigned long int)return_value_snprintf$3;
+        signed int return_value_snprintf_3;
+        return_value_snprintf_3=snprintf(str->buf + (signed long int)str->len, str->sz, "  base_offset: 0x%02x\n", lang->base_offset);
+        str->len = str->len + (unsigned long int)return_value_snprintf_3;
       }
 
     }
@@ -5490,22 +5490,22 @@ void print_lang_attr(void *value, void *user)
 void print_profile_desc(void *value, void *userData)
 {
   struct cbuf *str = (struct cbuf *)userData;
-  struct anonymous$8 *desc = (struct anonymous$8 *)value;
+  struct anonymous_8 *desc = (struct anonymous_8 *)value;
   char pstr[28l];
   if(!(str->len >= str->sz))
   {
     sdp_uuid2strn(&desc->uuid, UUID_str, (unsigned long int)37);
     sdp_profile_uuid2strn(&desc->uuid, pstr, (unsigned long int)28);
-    signed int return_value_snprintf$1;
-    return_value_snprintf$1=snprintf(str->buf + (signed long int)str->len, str->sz, "  \"%s\" (0x%s)\n", (const void *)pstr, (const void *)UUID_str);
-    str->len = str->len + (unsigned long int)return_value_snprintf$1;
+    signed int return_value_snprintf_1;
+    return_value_snprintf_1=snprintf(str->buf + (signed long int)str->len, str->sz, "  \"%s\" (0x%s)\n", (const void *)pstr, (const void *)UUID_str);
+    str->len = str->len + (unsigned long int)return_value_snprintf_1;
     if(!(str->len >= str->sz))
     {
       if(!(desc->version == 0))
       {
-        signed int return_value_snprintf$2;
-        return_value_snprintf$2=snprintf(str->buf + (signed long int)str->len, str->sz, "    Version: 0x%04x\n", desc->version);
-        str->len = str->len + (unsigned long int)return_value_snprintf$2;
+        signed int return_value_snprintf_2;
+        return_value_snprintf_2=snprintf(str->buf + (signed long int)str->len, str->sz, "    Version: 0x%04x\n", desc->version);
+        str->len = str->len + (unsigned long int)return_value_snprintf_2;
         if(str->len >= str->sz)
           goto __CPROVER_DUMP_L5;
 
@@ -5525,15 +5525,15 @@ __CPROVER_DUMP_L5:
 static void print_service_class(void *value, void *userData)
 {
   char ServiceClassUUID_str[28l];
-  struct anonymous$1 *uuid = (struct anonymous$1 *)value;
+  struct anonymous_1 *uuid = (struct anonymous_1 *)value;
   struct cbuf *str = (struct cbuf *)userData;
   if(!(str->len >= str->sz))
   {
     sdp_uuid2strn(uuid, UUID_str, (unsigned long int)37);
     sdp_svclass_uuid2strn(uuid, ServiceClassUUID_str, (unsigned long int)28);
-    signed int return_value_snprintf$1;
-    return_value_snprintf$1=snprintf(str->buf + (signed long int)str->len, str->sz, "  \"%s\" (0x%s)\n", (const void *)ServiceClassUUID_str, (const void *)UUID_str);
-    str->len = str->len + (unsigned long int)return_value_snprintf$1;
+    signed int return_value_snprintf_1;
+    return_value_snprintf_1=snprintf(str->buf + (signed long int)str->len, str->sz, "  \"%s\" (0x%s)\n", (const void *)ServiceClassUUID_str, (const void *)UUID_str);
+    str->len = str->len + (unsigned long int)return_value_snprintf_1;
   }
 
 }
@@ -5548,13 +5548,13 @@ static void print_service_desc(void *value, void *user)
   signed int i = 0;
   signed int proto = 0;
   struct cbuf *str = (struct cbuf *)user;
-  signed int return_value_snprintf$1;
-  signed int return_value_snprintf$4;
-  signed int return_value_snprintf$5;
-  signed int return_value_snprintf$6;
-  signed int return_value_snprintf$7;
-  signed int return_value_snprintf$8;
-  signed int return_value_snprintf$11;
+  signed int return_value_snprintf_1;
+  signed int return_value_snprintf_4;
+  signed int return_value_snprintf_5;
+  signed int return_value_snprintf_6;
+  signed int return_value_snprintf_7;
+  signed int return_value_snprintf_8;
+  signed int return_value_snprintf_11;
   if(!(str->len >= str->sz))
     for( ; !(p == ((struct sdp_data_struct *)NULL)); i = i + 1)
     {
@@ -5569,8 +5569,8 @@ static void print_service_desc(void *value, void *user)
           sdp_uuid2strn(&p->val.uuid, UUID_str, (unsigned long int)37);
           sdp_proto_uuid2strn(&p->val.uuid, uustr, sizeof(char [8l]) /*8ul*/ );
           proto=sdp_uuid_to_proto(&p->val.uuid);
-          return_value_snprintf$1=snprintf(str->buf + (signed long int)str->len, str->sz, "  \"%s\" (0x%s)\n", (const void *)uustr, (const void *)UUID_str);
-          str->len = str->len + (unsigned long int)return_value_snprintf$1;
+          return_value_snprintf_1=snprintf(str->buf + (signed long int)str->len, str->sz, "  \"%s\" (0x%s)\n", (const void *)uustr, (const void *)UUID_str);
+          str->len = str->len + (unsigned long int)return_value_snprintf_1;
           if(str->len >= str->sz)
             goto __CPROVER_DUMP_L33;
 
@@ -5580,16 +5580,16 @@ static void print_service_desc(void *value, void *user)
         {
           if(proto == 0x0003)
           {
-            signed int return_value_snprintf$2;
-            return_value_snprintf$2=snprintf(str->buf + (signed long int)str->len, str->sz, "    Channel: %d\n", p->val.uint8);
-            str->len = str->len + (unsigned long int)return_value_snprintf$2;
+            signed int return_value_snprintf_2;
+            return_value_snprintf_2=snprintf(str->buf + (signed long int)str->len, str->sz, "    Channel: %d\n", p->val.uint8);
+            str->len = str->len + (unsigned long int)return_value_snprintf_2;
           }
 
           else
           {
-            signed int return_value_snprintf$3;
-            return_value_snprintf$3=snprintf(str->buf + (signed long int)str->len, str->sz, "    uint8: 0x%x\n", p->val.uint8);
-            str->len = str->len + (unsigned long int)return_value_snprintf$3;
+            signed int return_value_snprintf_3;
+            return_value_snprintf_3=snprintf(str->buf + (signed long int)str->len, str->sz, "    uint8: 0x%x\n", p->val.uint8);
+            str->len = str->len + (unsigned long int)return_value_snprintf_3;
           }
           if(str->len >= str->sz)
             goto __CPROVER_DUMP_L33;
@@ -5602,14 +5602,14 @@ static void print_service_desc(void *value, void *user)
           {
             if(i == 1)
             {
-              return_value_snprintf$4=snprintf(str->buf + (signed long int)str->len, str->sz, "    PSM: %d\n", p->val.uint16);
-              str->len = str->len + (unsigned long int)return_value_snprintf$4;
+              return_value_snprintf_4=snprintf(str->buf + (signed long int)str->len, str->sz, "    PSM: %d\n", p->val.uint16);
+              str->len = str->len + (unsigned long int)return_value_snprintf_4;
             }
 
             else
             {
-              return_value_snprintf$5=snprintf(str->buf + (signed long int)str->len, str->sz, "    Version: 0x%04x\n", p->val.uint16);
-              str->len = str->len + (unsigned long int)return_value_snprintf$5;
+              return_value_snprintf_5=snprintf(str->buf + (signed long int)str->len, str->sz, "    Version: 0x%04x\n", p->val.uint16);
+              str->len = str->len + (unsigned long int)return_value_snprintf_5;
             }
           }
 
@@ -5618,21 +5618,21 @@ static void print_service_desc(void *value, void *user)
             {
               if(i == 1)
               {
-                return_value_snprintf$6=snprintf(str->buf + (signed long int)str->len, str->sz, "    Version: 0x%04x\n", p->val.uint16);
-                str->len = str->len + (unsigned long int)return_value_snprintf$6;
+                return_value_snprintf_6=snprintf(str->buf + (signed long int)str->len, str->sz, "    Version: 0x%04x\n", p->val.uint16);
+                str->len = str->len + (unsigned long int)return_value_snprintf_6;
               }
 
               else
               {
-                return_value_snprintf$7=snprintf(str->buf + (signed long int)str->len, str->sz, "    uint16: 0x%x\n", p->val.uint16);
-                str->len = str->len + (unsigned long int)return_value_snprintf$7;
+                return_value_snprintf_7=snprintf(str->buf + (signed long int)str->len, str->sz, "    uint16: 0x%x\n", p->val.uint16);
+                str->len = str->len + (unsigned long int)return_value_snprintf_7;
               }
             }
 
             else
             {
-              return_value_snprintf$8=snprintf(str->buf + (signed long int)str->len, str->sz, "    uint16: 0x%x\n", p->val.uint16);
-              str->len = str->len + (unsigned long int)return_value_snprintf$8;
+              return_value_snprintf_8=snprintf(str->buf + (signed long int)str->len, str->sz, "    uint16: 0x%x\n", p->val.uint16);
+              str->len = str->len + (unsigned long int)return_value_snprintf_8;
             }
           if(str->len >= str->sz)
             goto __CPROVER_DUMP_L33;
@@ -5649,9 +5649,9 @@ static void print_service_desc(void *value, void *user)
           s = p->val.dataseq;
           for( ; !(s == ((struct sdp_data_struct *)NULL)); s = s->next)
           {
-            signed int return_value_snprintf$9;
-            return_value_snprintf$9=snprintf(str->buf + (signed long int)str->len, str->sz, " %x", s->val.uint16);
-            str->len = str->len + (unsigned long int)return_value_snprintf$9;
+            signed int return_value_snprintf_9;
+            return_value_snprintf_9=snprintf(str->buf + (signed long int)str->len, str->sz, " %x", s->val.uint16);
+            str->len = str->len + (unsigned long int)return_value_snprintf_9;
             if(str->len >= str->sz)
               goto __CPROVER_DUMP_L33;
 
@@ -5673,9 +5673,9 @@ static void print_service_desc(void *value, void *user)
           s = p->val.dataseq;
           for( ; !(s == ((struct sdp_data_struct *)NULL)); s = s->next)
           {
-            signed int return_value_snprintf$10;
-            return_value_snprintf$10=snprintf(str->buf + (signed long int)str->len, str->sz, " %x", s->val.uint8);
-            str->len = str->len + (unsigned long int)return_value_snprintf$10;
+            signed int return_value_snprintf_10;
+            return_value_snprintf_10=snprintf(str->buf + (signed long int)str->len, str->sz, " %x", s->val.uint8);
+            str->len = str->len + (unsigned long int)return_value_snprintf_10;
             if(str->len >= str->sz)
               goto __CPROVER_DUMP_L33;
 
@@ -5689,8 +5689,8 @@ static void print_service_desc(void *value, void *user)
         }
         default:
         {
-          return_value_snprintf$11=snprintf(str->buf + (signed long int)str->len, str->sz, "    FIXME: dtd=0%x\n", p->dtd);
-          str->len = str->len + (unsigned long int)return_value_snprintf$11;
+          return_value_snprintf_11=snprintf(str->buf + (signed long int)str->len, str->sz, "    FIXME: dtd=0%x\n", p->dtd);
+          str->len = str->len + (unsigned long int)return_value_snprintf_11;
           if(str->len >= str->sz)
             goto __CPROVER_DUMP_L33;
 
@@ -5706,7 +5706,7 @@ __CPROVER_DUMP_L33:
 
 // scan_bf_getcurr
 // file scan.c line 753
-signed int scan_bf_getcurr(struct anonymous$28 *bd)
+signed int scan_bf_getcurr(struct anonymous_28 *bd)
 {
   signed int ret;
   pthread_mutex_lock(&scan_bf_mutex);
@@ -5724,7 +5724,7 @@ signed int scan_bf_getcurr(struct anonymous$28 *bd)
 
 // scan_bf_getnext
 // file scan.c line 728
-signed int scan_bf_getnext(struct anonymous$28 *bd)
+signed int scan_bf_getnext(struct anonymous_28 *bd)
 {
   signed int ret;
   double d;
@@ -5765,7 +5765,7 @@ signed int scan_bf_getpercentage(void)
 
 // scan_bf_init
 // file ./scan.h line 36
-signed int scan_bf_init(struct anonymous$28 *start, struct anonymous$28 *end)
+signed int scan_bf_init(struct anonymous_28 *start, struct anonymous_28 *end)
 {
   scan_bf_curr=bd2int(start);
   scan_bf_start = scan_bf_curr;
@@ -5785,7 +5785,7 @@ signed int scan_inquiry(struct hcicfg *hci)
   signed int i;
   signed int cc;
   signed int rv;
-  struct anonymous$36 *info = (struct anonymous$36 *)(void *)0;
+  struct anonymous_36 *info = (struct anonymous_36 *)(void *)0;
   struct device *dev;
   char buf[512l];
   char tmp[32l];
@@ -5801,10 +5801,10 @@ signed int scan_inquiry(struct hcicfg *hci)
   cc = 0;
   do_store = (unsigned char)0;
   num_rsp=hci_inquiry(hci->id, length, num_rsp, (const unsigned char *)(void *)0, &info, (signed long int)flags);
-  unsigned char return_value_ll_check_got_name$3;
-  unsigned char return_value_ll_check_got_version$10;
-  unsigned char return_value_ll_check_got_features$12;
-  unsigned char return_value_ll_check_got_sdp$19;
+  unsigned char return_value_ll_check_got_name_3;
+  unsigned char return_value_ll_check_got_version_10;
+  unsigned char return_value_ll_check_got_features_12;
+  unsigned char return_value_ll_check_got_sdp_19;
   if(!(num_rsp >= 0))
     return -1;
 
@@ -5819,9 +5819,9 @@ signed int scan_inquiry(struct hcicfg *hci)
       i = 0;
       for( ; !(bts_run_scan == 0) && !(i >= num_rsp); cc = 0)
       {
-        unsigned long int return_value_bd2int$1;
-        return_value_bd2int$1=bd2int(&(info + (signed long int)i)->bdaddr);
-        range=cfg_get_range(return_value_bd2int$1);
+        unsigned long int return_value_bd2int_1;
+        return_value_bd2int_1=bd2int(&(info + (signed long int)i)->bdaddr);
+        range=cfg_get_range(return_value_bd2int_1);
         if(!(range == ((struct rangedef *)NULL)))
         {
           ba2str(&(info + (signed long int)i)->bdaddr, tmp);
@@ -5842,17 +5842,17 @@ signed int scan_inquiry(struct hcicfg *hci)
 
             dev->updated = (unsigned char)1;
             time(&dev->last_scanned);
-            bacpy$link2(&dev->bd_scan, &hci->bdaddr);
+            bacpy_link2(&dev->bd_scan, &hci->bdaddr);
             dev->scan_count = dev->scan_count + 1u;
             ll_unlock_list();
             if(!((0x01 & (signed int)range->sf) == 0))
             {
-              return_value_ll_check_got_name$3=ll_check_got_name(dev);
-              if(return_value_ll_check_got_name$3 == 0)
+              return_value_ll_check_got_name_3=ll_check_got_name(dev);
+              if(return_value_ll_check_got_name_3 == 0)
               {
-                signed int return_value_hci_read_remote_name$2;
-                return_value_hci_read_remote_name$2=hci_read_remote_name(dd, &(info + (signed long int)i)->bdaddr, (signed int)((unsigned long int)512 * sizeof(char) /*1ul*/ ), buf, 100000);
-                if(return_value_hci_read_remote_name$2 == 0)
+                signed int return_value_hci_read_remote_name_2;
+                return_value_hci_read_remote_name_2=hci_read_remote_name(dd, &(info + (signed long int)i)->bdaddr, (signed int)((unsigned long int)512 * sizeof(char) /*1ul*/ ), buf, 100000);
+                if(return_value_hci_read_remote_name_2 == 0)
                 {
                   ll_lock_list();
                   ll_copy_name(dev, buf);
@@ -5865,9 +5865,9 @@ signed int scan_inquiry(struct hcicfg *hci)
 
             }
 
-            unsigned char return_value_ll_check_got_oui$4;
-            return_value_ll_check_got_oui$4=ll_check_got_oui(dev);
-            if(return_value_ll_check_got_oui$4 == 0)
+            unsigned char return_value_ll_check_got_oui_4;
+            return_value_ll_check_got_oui_4=ll_check_got_oui(dev);
+            if(return_value_ll_check_got_oui_4 == 0)
             {
               ll_lock_list();
               dev->oui=ouidb_query(&dev->bdaddr);
@@ -5880,21 +5880,21 @@ signed int scan_inquiry(struct hcicfg *hci)
               handle=find_conn(hci->id, &dev->bdaddr);
               if(handle == 65535)
               {
-                signed int *return_value___errno_location$5;
-                return_value___errno_location$5=__errno_location();
-                if(!(*return_value___errno_location$5 == 0))
+                signed int *return_value___errno_location_5;
+                return_value___errno_location_5=__errno_location();
+                if(!(*return_value___errno_location_5 == 0))
                   break;
 
                 cc = 1;
-                signed int return_value_hci_create_connection$8;
-                return_value_hci_create_connection$8=hci_create_connection(dd, &dev->bdaddr, (unsigned short int)(0x0008 | 0x0010), (unsigned short int)0, (unsigned char)0, &handle, 25000);
-                if(!(return_value_hci_create_connection$8 >= 0))
+                signed int return_value_hci_create_connection_8;
+                return_value_hci_create_connection_8=hci_create_connection(dd, &dev->bdaddr, (unsigned short int)(0x0008 | 0x0010), (unsigned short int)0, (unsigned char)0, &handle, 25000);
+                if(!(return_value_hci_create_connection_8 >= 0))
                 {
-                  signed int *return_value___errno_location$6;
-                  return_value___errno_location$6=__errno_location();
-                  char *return_value_strerror$7;
-                  return_value_strerror$7=strerror(*return_value___errno_location$6);
-                  applog(4, "%s::hci_create_connection(): Cant create: %s", (const void *)"scan_inquiry", return_value_strerror$7);
+                  signed int *return_value___errno_location_6;
+                  return_value___errno_location_6=__errno_location();
+                  char *return_value_strerror_7;
+                  return_value_strerror_7=strerror(*return_value___errno_location_6);
+                  applog(4, "%s::hci_create_connection(): Cant create: %s", (const void *)"scan_inquiry", return_value_strerror_7);
                   goto scan_inquiry_nextdev;
                 }
 
@@ -5902,12 +5902,12 @@ signed int scan_inquiry(struct hcicfg *hci)
 
               if(!((0x02 & (signed int)range->sf) == 0))
               {
-                return_value_ll_check_got_version$10=ll_check_got_version(dev);
-                if(return_value_ll_check_got_version$10 == 0)
+                return_value_ll_check_got_version_10=ll_check_got_version(dev);
+                if(return_value_ll_check_got_version_10 == 0)
                 {
-                  signed int return_value_hci_read_remote_version$9;
-                  return_value_hci_read_remote_version$9=hci_read_remote_version(dd, handle, &dev->version, 20000);
-                  if(return_value_hci_read_remote_version$9 == 0)
+                  signed int return_value_hci_read_remote_version_9;
+                  return_value_hci_read_remote_version_9=hci_read_remote_version(dd, handle, &dev->version, 20000);
+                  if(return_value_hci_read_remote_version_9 == 0)
                   {
                     ll_lock_list();
                     dev->got_version = (unsigned char)1;
@@ -5921,12 +5921,12 @@ signed int scan_inquiry(struct hcicfg *hci)
 
               if(!((0x02 & (signed int)range->sf) == 0))
               {
-                return_value_ll_check_got_features$12=ll_check_got_features(dev);
-                if(return_value_ll_check_got_features$12 == 0)
+                return_value_ll_check_got_features_12=ll_check_got_features(dev);
+                if(return_value_ll_check_got_features_12 == 0)
                 {
-                  signed int return_value_hci_read_remote_features$11;
-                  return_value_hci_read_remote_features$11=hci_read_remote_features(dd, handle, dev->features, 20000);
-                  if(return_value_hci_read_remote_features$11 == 0)
+                  signed int return_value_hci_read_remote_features_11;
+                  return_value_hci_read_remote_features_11=hci_read_remote_features(dd, handle, dev->features, 20000);
+                  if(return_value_hci_read_remote_features_11 == 0)
                   {
                     ll_lock_list();
                     dev->got_features = (unsigned char)1;
@@ -5943,11 +5943,11 @@ signed int scan_inquiry(struct hcicfg *hci)
                 rv=hci_read_rssi(dd, handle, &val, 100);
                 if(!(rv >= 0))
                 {
-                  signed int *return_value___errno_location$13;
-                  return_value___errno_location$13=__errno_location();
-                  char *return_value_strerror$14;
-                  return_value_strerror$14=strerror(*return_value___errno_location$13);
-                  applog(4, "%s::hci_send_req(): rssi read failed: ", (const void *)"scan_inquiry", return_value_strerror$14);
+                  signed int *return_value___errno_location_13;
+                  return_value___errno_location_13=__errno_location();
+                  char *return_value_strerror_14;
+                  return_value_strerror_14=strerror(*return_value___errno_location_13);
+                  applog(4, "%s::hci_send_req(): rssi read failed: ", (const void *)"scan_inquiry", return_value_strerror_14);
                 }
 
                 ll_lock_list();
@@ -5961,11 +5961,11 @@ signed int scan_inquiry(struct hcicfg *hci)
                 rv=hci_read_link_quality(dd, handle, &uval, 100);
                 if(!(rv >= 0))
                 {
-                  signed int *return_value___errno_location$15;
-                  return_value___errno_location$15=__errno_location();
-                  char *return_value_strerror$16;
-                  return_value_strerror$16=strerror(*return_value___errno_location$15);
-                  applog(4, "%s::hci_send_req(): lq read failed: ", (const void *)"scan_inquiry", return_value_strerror$16);
+                  signed int *return_value___errno_location_15;
+                  return_value___errno_location_15=__errno_location();
+                  char *return_value_strerror_16;
+                  return_value_strerror_16=strerror(*return_value___errno_location_15);
+                  applog(4, "%s::hci_send_req(): lq read failed: ", (const void *)"scan_inquiry", return_value_strerror_16);
                 }
 
                 ll_lock_list();
@@ -5979,11 +5979,11 @@ signed int scan_inquiry(struct hcicfg *hci)
                 rv=hci_read_transmit_power_level(dd, handle, (unsigned char)0, &val, 100);
                 if(!(rv >= 0))
                 {
-                  signed int *return_value___errno_location$17;
-                  return_value___errno_location$17=__errno_location();
-                  char *return_value_strerror$18;
-                  return_value_strerror$18=strerror(*return_value___errno_location$17);
-                  applog(4, "%s::hci_send_req(): tpl read failed: ", (const void *)"scan_inquiry", return_value_strerror$18);
+                  signed int *return_value___errno_location_17;
+                  return_value___errno_location_17=__errno_location();
+                  char *return_value_strerror_18;
+                  return_value_strerror_18=strerror(*return_value___errno_location_17);
+                  applog(4, "%s::hci_send_req(): tpl read failed: ", (const void *)"scan_inquiry", return_value_strerror_18);
                 }
 
                 ll_lock_list();
@@ -5995,8 +5995,8 @@ signed int scan_inquiry(struct hcicfg *hci)
 
               if(!((0x20 & (signed int)range->sf) == 0))
               {
-                return_value_ll_check_got_sdp$19=ll_check_got_sdp(dev);
-                if(return_value_ll_check_got_sdp$19 == 0)
+                return_value_ll_check_got_sdp_19=ll_check_got_sdp(dev);
+                if(return_value_ll_check_got_sdp_19 == 0)
                 {
                   struct cbuf sdpstr;
                   memset((void *)&sdpstr, 0, sizeof(struct cbuf) /*24ul*/ );
@@ -6038,7 +6038,7 @@ signed int scan_inquiry(struct hcicfg *hci)
       }
       hci_close_dev(dd);
       free((void *)info);
-      info = (struct anonymous$36 *)(void *)0;
+      info = (struct anonymous_36 *)(void *)0;
       return 0;
     }
   }
@@ -6061,13 +6061,13 @@ signed int scan_probe_bf(struct hcicfg *hci)
   unsigned char do_store = (unsigned char)0;
   unsigned char uval;
   signed char val;
-  struct anonymous$28 ba;
+  struct anonymous_28 ba;
   dd=hci_open_dev(hci->id);
-  _Bool tmp_if_expr$2;
-  signed int return_value_scan_bf_getnext$1;
-  unsigned char return_value_ll_check_got_version$12;
-  unsigned char return_value_ll_check_got_features$14;
-  unsigned char return_value_ll_check_got_sdp$21;
+  _Bool tmp_if_expr_2;
+  signed int return_value_scan_bf_getnext_1;
+  unsigned char return_value_ll_check_got_version_12;
+  unsigned char return_value_ll_check_got_features_14;
+  unsigned char return_value_ll_check_got_sdp_21;
   if(!(dd >= 0))
     return -1;
 
@@ -6077,25 +6077,25 @@ signed int scan_probe_bf(struct hcicfg *hci)
     {
       if(!(bts_run_scan == 0))
       {
-        return_value_scan_bf_getnext$1=scan_bf_getnext(&ba);
-        tmp_if_expr$2 = 0 == return_value_scan_bf_getnext$1 ? (_Bool)1 : (_Bool)0;
+        return_value_scan_bf_getnext_1=scan_bf_getnext(&ba);
+        tmp_if_expr_2 = 0 == return_value_scan_bf_getnext_1 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         break;
 
-      unsigned long int return_value_bd2int$3;
-      return_value_bd2int$3=bd2int(&ba);
-      range=cfg_get_range(return_value_bd2int$3);
+      unsigned long int return_value_bd2int_3;
+      return_value_bd2int_3=bd2int(&ba);
+      range=cfg_get_range(return_value_bd2int_3);
       if(!(range == ((struct rangedef *)NULL)))
       {
         sr=hci_read_remote_name(dd, &ba, (signed int)((unsigned long int)512 * sizeof(char) /*1ul*/ ), buf, 100000);
         ba2str(&ba, tmp);
-        signed int return_value_scan_bf_getpercentage$4;
-        return_value_scan_bf_getpercentage$4=scan_bf_getpercentage();
-        screen_log("%s device %s (%d%%)", sr != 0 ? "Scanned" : "Found", (const void *)tmp, return_value_scan_bf_getpercentage$4);
+        signed int return_value_scan_bf_getpercentage_4;
+        return_value_scan_bf_getpercentage_4=scan_bf_getpercentage();
+        screen_log("%s device %s (%d%%)", sr != 0 ? "Scanned" : "Found", (const void *)tmp, return_value_scan_bf_getpercentage_4);
         if(sr == 0)
         {
           dev=ll_lock_device(&ba);
@@ -6104,12 +6104,12 @@ signed int scan_probe_bf(struct hcicfg *hci)
             ll_lock_list();
             dev->updated = (unsigned char)1;
             time(&dev->last_scanned);
-            bacpy$link2(&dev->bd_scan, &hci->bdaddr);
+            bacpy_link2(&dev->bd_scan, &hci->bdaddr);
             dev->scan_count = dev->scan_count + 1u;
             ll_unlock_list();
-            unsigned char return_value_ll_check_got_name$5;
-            return_value_ll_check_got_name$5=ll_check_got_name(dev);
-            if(return_value_ll_check_got_name$5 == 0)
+            unsigned char return_value_ll_check_got_name_5;
+            return_value_ll_check_got_name_5=ll_check_got_name(dev);
+            if(return_value_ll_check_got_name_5 == 0)
             {
               ll_lock_list();
               ll_copy_name(dev, buf);
@@ -6118,9 +6118,9 @@ signed int scan_probe_bf(struct hcicfg *hci)
               ll_unlock_list();
             }
 
-            unsigned char return_value_ll_check_got_oui$6;
-            return_value_ll_check_got_oui$6=ll_check_got_oui(dev);
-            if(return_value_ll_check_got_oui$6 == 0)
+            unsigned char return_value_ll_check_got_oui_6;
+            return_value_ll_check_got_oui_6=ll_check_got_oui(dev);
+            if(return_value_ll_check_got_oui_6 == 0)
             {
               ll_lock_list();
               dev->oui=ouidb_query(&dev->bdaddr);
@@ -6133,21 +6133,21 @@ signed int scan_probe_bf(struct hcicfg *hci)
               handle=find_conn(hci->id, &dev->bdaddr);
               if(handle == 65535)
               {
-                signed int *return_value___errno_location$7;
-                return_value___errno_location$7=__errno_location();
-                if(!(*return_value___errno_location$7 == 0))
+                signed int *return_value___errno_location_7;
+                return_value___errno_location_7=__errno_location();
+                if(!(*return_value___errno_location_7 == 0))
                   break;
 
                 cc = 1;
-                signed int return_value_hci_create_connection$10;
-                return_value_hci_create_connection$10=hci_create_connection(dd, &dev->bdaddr, (unsigned short int)(0x0008 | 0x0010), (unsigned short int)0, (unsigned char)0, &handle, 25000);
-                if(!(return_value_hci_create_connection$10 >= 0))
+                signed int return_value_hci_create_connection_10;
+                return_value_hci_create_connection_10=hci_create_connection(dd, &dev->bdaddr, (unsigned short int)(0x0008 | 0x0010), (unsigned short int)0, (unsigned char)0, &handle, 25000);
+                if(!(return_value_hci_create_connection_10 >= 0))
                 {
-                  signed int *return_value___errno_location$8;
-                  return_value___errno_location$8=__errno_location();
-                  char *return_value_strerror$9;
-                  return_value_strerror$9=strerror(*return_value___errno_location$8);
-                  applog(4, "%s::hci_create_connection(): Cant create: %s", (const void *)"scan_probe_bf", return_value_strerror$9);
+                  signed int *return_value___errno_location_8;
+                  return_value___errno_location_8=__errno_location();
+                  char *return_value_strerror_9;
+                  return_value_strerror_9=strerror(*return_value___errno_location_8);
+                  applog(4, "%s::hci_create_connection(): Cant create: %s", (const void *)"scan_probe_bf", return_value_strerror_9);
                   goto scan_inquiry_nextdev;
                 }
 
@@ -6155,12 +6155,12 @@ signed int scan_probe_bf(struct hcicfg *hci)
 
               if(!((0x02 & (signed int)range->sf) == 0))
               {
-                return_value_ll_check_got_version$12=ll_check_got_version(dev);
-                if(return_value_ll_check_got_version$12 == 0)
+                return_value_ll_check_got_version_12=ll_check_got_version(dev);
+                if(return_value_ll_check_got_version_12 == 0)
                 {
-                  signed int return_value_hci_read_remote_version$11;
-                  return_value_hci_read_remote_version$11=hci_read_remote_version(dd, handle, &dev->version, 20000);
-                  if(return_value_hci_read_remote_version$11 == 0)
+                  signed int return_value_hci_read_remote_version_11;
+                  return_value_hci_read_remote_version_11=hci_read_remote_version(dd, handle, &dev->version, 20000);
+                  if(return_value_hci_read_remote_version_11 == 0)
                   {
                     ll_lock_list();
                     dev->got_version = (unsigned char)1;
@@ -6174,12 +6174,12 @@ signed int scan_probe_bf(struct hcicfg *hci)
 
               if(!((0x02 & (signed int)range->sf) == 0))
               {
-                return_value_ll_check_got_features$14=ll_check_got_features(dev);
-                if(return_value_ll_check_got_features$14 == 0)
+                return_value_ll_check_got_features_14=ll_check_got_features(dev);
+                if(return_value_ll_check_got_features_14 == 0)
                 {
-                  signed int return_value_hci_read_remote_features$13;
-                  return_value_hci_read_remote_features$13=hci_read_remote_features(dd, handle, dev->features, 20000);
-                  if(return_value_hci_read_remote_features$13 == 0)
+                  signed int return_value_hci_read_remote_features_13;
+                  return_value_hci_read_remote_features_13=hci_read_remote_features(dd, handle, dev->features, 20000);
+                  if(return_value_hci_read_remote_features_13 == 0)
                   {
                     ll_lock_list();
                     dev->got_features = (unsigned char)1;
@@ -6196,11 +6196,11 @@ signed int scan_probe_bf(struct hcicfg *hci)
                 rv=hci_read_rssi(dd, handle, &val, 100);
                 if(!(rv >= 0))
                 {
-                  signed int *return_value___errno_location$15;
-                  return_value___errno_location$15=__errno_location();
-                  char *return_value_strerror$16;
-                  return_value_strerror$16=strerror(*return_value___errno_location$15);
-                  applog(4, "%s::hci_send_req(): rssi read failed: ", (const void *)"scan_probe_bf", return_value_strerror$16);
+                  signed int *return_value___errno_location_15;
+                  return_value___errno_location_15=__errno_location();
+                  char *return_value_strerror_16;
+                  return_value_strerror_16=strerror(*return_value___errno_location_15);
+                  applog(4, "%s::hci_send_req(): rssi read failed: ", (const void *)"scan_probe_bf", return_value_strerror_16);
                 }
 
                 ll_lock_list();
@@ -6214,11 +6214,11 @@ signed int scan_probe_bf(struct hcicfg *hci)
                 rv=hci_read_link_quality(dd, handle, &uval, 100);
                 if(!(rv >= 0))
                 {
-                  signed int *return_value___errno_location$17;
-                  return_value___errno_location$17=__errno_location();
-                  char *return_value_strerror$18;
-                  return_value_strerror$18=strerror(*return_value___errno_location$17);
-                  applog(4, "%s::hci_send_req(): lq read failed: ", (const void *)"scan_probe_bf", return_value_strerror$18);
+                  signed int *return_value___errno_location_17;
+                  return_value___errno_location_17=__errno_location();
+                  char *return_value_strerror_18;
+                  return_value_strerror_18=strerror(*return_value___errno_location_17);
+                  applog(4, "%s::hci_send_req(): lq read failed: ", (const void *)"scan_probe_bf", return_value_strerror_18);
                 }
 
                 ll_lock_list();
@@ -6232,11 +6232,11 @@ signed int scan_probe_bf(struct hcicfg *hci)
                 rv=hci_read_transmit_power_level(dd, handle, (unsigned char)0, &val, 100);
                 if(!(rv >= 0))
                 {
-                  signed int *return_value___errno_location$19;
-                  return_value___errno_location$19=__errno_location();
-                  char *return_value_strerror$20;
-                  return_value_strerror$20=strerror(*return_value___errno_location$19);
-                  applog(4, "%s::hci_send_req(): tpl read failed: ", (const void *)"scan_probe_bf", return_value_strerror$20);
+                  signed int *return_value___errno_location_19;
+                  return_value___errno_location_19=__errno_location();
+                  char *return_value_strerror_20;
+                  return_value_strerror_20=strerror(*return_value___errno_location_19);
+                  applog(4, "%s::hci_send_req(): tpl read failed: ", (const void *)"scan_probe_bf", return_value_strerror_20);
                 }
 
                 ll_lock_list();
@@ -6248,8 +6248,8 @@ signed int scan_probe_bf(struct hcicfg *hci)
 
               if(!((0x20 & (signed int)range->sf) == 0))
               {
-                return_value_ll_check_got_sdp$21=ll_check_got_sdp(dev);
-                if(return_value_ll_check_got_sdp$21 == 0)
+                return_value_ll_check_got_sdp_21=ll_check_got_sdp(dev);
+                if(return_value_ll_check_got_sdp_21 == 0)
                 {
                   struct cbuf sdpstr;
                   memset((void *)&sdpstr, 0, sizeof(struct cbuf) /*24ul*/ );
@@ -6310,45 +6310,45 @@ signed int scan_reset_device(signed int devid)
     ctl=socket(31, 3, 1);
     if(!(ctl >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      applog(3, "%s::socket(): %s", (const void *)"scan_reset_device", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      applog(3, "%s::socket(): %s", (const void *)"scan_reset_device", return_value_strerror_2);
       return -1;
     }
 
-    signed int return_value_ioctl$6;
-    return_value_ioctl$6=ioctl(ctl, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(72 << 0 + 8) | (unsigned int)(202 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, devid);
-    if(return_value_ioctl$6 == -1)
+    signed int return_value_ioctl_6;
+    return_value_ioctl_6=ioctl(ctl, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(72 << 0 + 8) | (unsigned int)(202 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, devid);
+    if(return_value_ioctl_6 == -1)
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      if(!(*return_value___errno_location$5 == 114))
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      if(!(*return_value___errno_location_5 == 114))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        char *return_value_strerror$4;
-        return_value_strerror$4=strerror(*return_value___errno_location$3);
-        applog(3, "%s(): unable to bring device %d down: %s", (const void *)"scan_reset_device", devid, return_value_strerror$4);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        char *return_value_strerror_4;
+        return_value_strerror_4=strerror(*return_value___errno_location_3);
+        applog(3, "%s(): unable to bring device %d down: %s", (const void *)"scan_reset_device", devid, return_value_strerror_4);
         return -1;
       }
 
     }
 
-    signed int return_value_ioctl$10;
-    return_value_ioctl$10=ioctl(ctl, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(72 << 0 + 8) | (unsigned int)(201 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, devid);
-    if(return_value_ioctl$10 == -1)
+    signed int return_value_ioctl_10;
+    return_value_ioctl_10=ioctl(ctl, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(72 << 0 + 8) | (unsigned int)(201 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, devid);
+    if(return_value_ioctl_10 == -1)
     {
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      if(!(*return_value___errno_location$9 == 114))
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      if(!(*return_value___errno_location_9 == 114))
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        char *return_value_strerror$8;
-        return_value_strerror$8=strerror(*return_value___errno_location$7);
-        applog(3, "%s(): unable to bring device %d up: %s", (const void *)"scan_reset_device", devid, return_value_strerror$8);
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        char *return_value_strerror_8;
+        return_value_strerror_8=strerror(*return_value___errno_location_7);
+        applog(3, "%s(): unable to bring device %d up: %s", (const void *)"scan_reset_device", devid, return_value_strerror_8);
         return -1;
       }
 
@@ -6364,10 +6364,10 @@ signed int scan_reset_device(signed int devid)
 // file ./scan.h line 33
 void * scan_run(void *arg)
 {
-  struct anonymous$25 sset;
+  struct anonymous_25 sset;
   signed int i;
   struct hcicfg *hci = (struct hcicfg *)arg;
-  memset((void *)&sset, 0, sizeof(struct anonymous$25) /*128ul*/ );
+  memset((void *)&sset, 0, sizeof(struct anonymous_25) /*128ul*/ );
   sigfillset(&sset);
   sigdelset(&sset, 9);
   sigdelset(&sset, 19);
@@ -6375,13 +6375,13 @@ void * scan_run(void *arg)
   sigdelset(&sset, 2);
   sigdelset(&sset, 11);
   sigdelset(&sset, 10);
-  signed int return_value_pthread_sigmask$1;
-  return_value_pthread_sigmask$1=pthread_sigmask(2, &sset, (struct anonymous$25 *)(void *)0);
-  signed int return_value_scan_reset_device$2;
-  if(return_value_pthread_sigmask$1 == 0)
+  signed int return_value_pthread_sigmask_1;
+  return_value_pthread_sigmask_1=pthread_sigmask(2, &sset, (struct anonymous_25 *)(void *)0);
+  signed int return_value_scan_reset_device_2;
+  if(return_value_pthread_sigmask_1 == 0)
   {
-    return_value_scan_reset_device$2=scan_reset_device(hci->id);
-    if(return_value_scan_reset_device$2 == 0)
+    return_value_scan_reset_device_2=scan_reset_device(hci->id);
+    if(return_value_scan_reset_device_2 == 0)
       while(!(bts_run_scan == 0))
       {
         i=scan_inquiry(hci);
@@ -6403,7 +6403,7 @@ scan_run_leave:
 // file scan.c line 173
 signed int scan_sdp(struct hcicfg *hci, struct device *d, struct cbuf *sdpstr, struct search_context *context)
 {
-  struct anonymous$33 *sess;
+  struct anonymous_33 *sess;
   struct _sdp_list *attrid;
   struct _sdp_list *search;
   struct _sdp_list *seq;
@@ -6413,9 +6413,9 @@ signed int scan_sdp(struct hcicfg *hci, struct device *d, struct cbuf *sdpstr, s
   char str[20l];
   struct cbuf buf;
   sess=sdp_connect(&hci->bdaddr, &d->bdaddr, (unsigned int)0x01);
-  signed int return_value_sdp_sprint_service_attr$7;
-  signed int return_value_sdp_get_group_id$14;
-  if(sess == ((struct anonymous$33 *)NULL))
+  signed int return_value_sdp_sprint_service_attr_7;
+  signed int return_value_sdp_get_group_id_14;
+  if(sess == ((struct anonymous_33 *)NULL))
   {
     ba2str(&d->bdaddr, str);
     applog(4, "%s::sdp_connect(): failed to connect on %s", (const void *)"scan_sdp", (const void *)str);
@@ -6426,16 +6426,16 @@ signed int scan_sdp(struct hcicfg *hci, struct device *d, struct cbuf *sdpstr, s
   {
     attrid=sdp_list_append(((struct _sdp_list *)NULL), (void *)&range);
     search=sdp_list_append(((struct _sdp_list *)NULL), (void *)&context->group);
-    signed int return_value_sdp_service_search_attr_req$3;
-    return_value_sdp_service_search_attr_req$3=sdp_service_search_attr_req(sess, search, (enum anonymous$34)SDP_ATTR_REQ_RANGE, attrid, &seq);
-    if(!(return_value_sdp_service_search_attr_req$3 == 0))
+    signed int return_value_sdp_service_search_attr_req_3;
+    return_value_sdp_service_search_attr_req_3=sdp_service_search_attr_req(sess, search, (enum anonymous_34)SDP_ATTR_REQ_RANGE, attrid, &seq);
+    if(!(return_value_sdp_service_search_attr_req_3 == 0))
     {
       ba2str(&d->bdaddr, str);
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      applog(4, "%s::sdp_service_search_attr_req(): search failed on %s: %s", (const void *)"scan_sdp", (const void *)str, return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      applog(4, "%s::sdp_service_search_attr_req(): search failed on %s: %s", (const void *)"scan_sdp", (const void *)str, return_value_strerror_2);
       sdp_close(sess);
       return 1;
     }
@@ -6444,43 +6444,43 @@ signed int scan_sdp(struct hcicfg *hci, struct device *d, struct cbuf *sdpstr, s
     sdp_list_free(search, ((void (*)(void *))NULL));
     buf.sz = (unsigned long int)1024;
     buf.len = (unsigned long int)0;
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc(buf.sz * sizeof(char) /*1ul*/ );
-    buf.buf = (char *)return_value_malloc$4;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc(buf.sz * sizeof(char) /*1ul*/ );
+    buf.buf = (char *)return_value_malloc_4;
     if(buf.buf == ((char *)NULL))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      char *return_value_strerror$6;
-      return_value_strerror$6=strerror(*return_value___errno_location$5);
-      applog(3, "%s::realloc(): %s", (const void *)"scan_sdp", return_value_strerror$6);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      char *return_value_strerror_6;
+      return_value_strerror_6=strerror(*return_value___errno_location_5);
+      applog(3, "%s::realloc(): %s", (const void *)"scan_sdp", return_value_strerror_6);
       return 1;
     }
 
     first = seq;
     for( ; !(seq == ((struct _sdp_list *)NULL)); seq = next)
     {
-      struct anonymous$2 *rec = (struct anonymous$2 *)seq->data;
+      struct anonymous_2 *rec = (struct anonymous_2 *)seq->data;
       struct search_context sub_context;
       buf.len = (unsigned long int)0;
       do
       {
-        return_value_sdp_sprint_service_attr$7=sdp_sprint_service_attr(&buf, rec);
-        if(return_value_sdp_sprint_service_attr$7 == 0)
+        return_value_sdp_sprint_service_attr_7=sdp_sprint_service_attr(&buf, rec);
+        if(return_value_sdp_sprint_service_attr_7 == 0)
           break;
 
         buf.sz = buf.sz + (unsigned long int)1024;
         buf.len = (unsigned long int)0;
-        void *return_value_realloc$8;
-        return_value_realloc$8=realloc((void *)buf.buf, buf.sz * sizeof(char) /*1ul*/ );
-        buf.buf = (char *)return_value_realloc$8;
+        void *return_value_realloc_8;
+        return_value_realloc_8=realloc((void *)buf.buf, buf.sz * sizeof(char) /*1ul*/ );
+        buf.buf = (char *)return_value_realloc_8;
         if(buf.buf == ((char *)NULL))
         {
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          char *return_value_strerror$10;
-          return_value_strerror$10=strerror(*return_value___errno_location$9);
-          applog(3, "%s::realloc(): %s", (const void *)"scan_sdp", return_value_strerror$10);
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          char *return_value_strerror_10;
+          return_value_strerror_10=strerror(*return_value___errno_location_9);
+          applog(3, "%s::realloc(): %s", (const void *)"scan_sdp", return_value_strerror_10);
           return 1;
         }
 
@@ -6491,16 +6491,16 @@ signed int scan_sdp(struct hcicfg *hci, struct device *d, struct cbuf *sdpstr, s
         if(sdpstr->len + buf.len >= sdpstr->sz)
         {
           sdpstr->sz = sdpstr->sz + buf.len + (unsigned long int)1;
-          void *return_value_realloc$11;
-          return_value_realloc$11=realloc((void *)sdpstr->buf, sdpstr->sz * sizeof(char) /*1ul*/ );
-          sdpstr->buf = (char *)return_value_realloc$11;
+          void *return_value_realloc_11;
+          return_value_realloc_11=realloc((void *)sdpstr->buf, sdpstr->sz * sizeof(char) /*1ul*/ );
+          sdpstr->buf = (char *)return_value_realloc_11;
           if(sdpstr->buf == ((char *)NULL))
           {
-            signed int *return_value___errno_location$12;
-            return_value___errno_location$12=__errno_location();
-            char *return_value_strerror$13;
-            return_value_strerror$13=strerror(*return_value___errno_location$12);
-            applog(3, "%s::realloc(): %s", (const void *)"scan_sdp", return_value_strerror$13);
+            signed int *return_value___errno_location_12;
+            return_value___errno_location_12=__errno_location();
+            char *return_value_strerror_13;
+            return_value_strerror_13=strerror(*return_value___errno_location_12);
+            applog(3, "%s::realloc(): %s", (const void *)"scan_sdp", return_value_strerror_13);
             return 1;
           }
 
@@ -6508,8 +6508,8 @@ signed int scan_sdp(struct hcicfg *hci, struct device *d, struct cbuf *sdpstr, s
 
         strncpy(sdpstr->buf + (signed long int)sdpstr->len, buf.buf, buf.len);
         sdpstr->len = sdpstr->len + buf.len;
-        return_value_sdp_get_group_id$14=sdp_get_group_id(rec, &sub_context.group);
-        if(!(return_value_sdp_get_group_id$14 == -1))
+        return_value_sdp_get_group_id_14=sdp_get_group_id(rec, &sub_context.group);
+        if(!(return_value_sdp_get_group_id_14 == -1))
         {
           memcpy((void *)&sub_context, (const void *)context, sizeof(struct search_context) /*40ul*/ );
           if(!(sub_context.group.value.uuid16 == context->group.value.uuid16))
@@ -6598,20 +6598,20 @@ signed int screen_chksize(void)
 {
   signed int y;
   signed int x;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(stdscr == ((struct _win_st *)NULL)))
-    tmp_if_expr$1 = (signed int)stdscr->_maxy + 1;
+    tmp_if_expr_1 = (signed int)stdscr->_maxy + 1;
 
   else
-    tmp_if_expr$1 = -1;
-  y = tmp_if_expr$1;
-  signed int tmp_if_expr$2;
+    tmp_if_expr_1 = -1;
+  y = tmp_if_expr_1;
+  signed int tmp_if_expr_2;
   if(!(stdscr == ((struct _win_st *)NULL)))
-    tmp_if_expr$2 = (signed int)stdscr->_maxx + 1;
+    tmp_if_expr_2 = (signed int)stdscr->_maxx + 1;
 
   else
-    tmp_if_expr$2 = -1;
-  x = tmp_if_expr$2;
+    tmp_if_expr_2 = -1;
+  x = tmp_if_expr_2;
   if(!(x >= 80) || !(y >= 11))
   {
     applog(3, "Screen size too small");
@@ -6723,9 +6723,9 @@ signed int screen_get_sort(void)
   signed int rev;
   struct cbuf cb;
   memset((void *)&cb, 0, sizeof(struct cbuf) /*24ul*/ );
-  signed int return_value_screen_textbox$1;
-  return_value_screen_textbox$1=screen_textbox("Enter a sort method\n b = Bluetooth address\n f = First seen\n l = Last seen\n r = Reverse sort\n E.G. br", "^[bflr]* *$", &cb);
-  if(!(return_value_screen_textbox$1 == 0))
+  signed int return_value_screen_textbox_1;
+  return_value_screen_textbox_1=screen_textbox("Enter a sort method\n b = Bluetooth address\n f = First seen\n l = Last seen\n r = Reverse sort\n E.G. br", "^[bflr]* *_", &cb);
+  if(!(return_value_screen_textbox_1 == 0))
     return 1;
 
   else
@@ -6770,9 +6770,9 @@ signed int screen_get_sort(void)
 signed int screen_info_get_content(signed int width)
 {
   width = width;
-  signed int return_value_ll_print_dev_info$1;
-  return_value_ll_print_dev_info$1=ll_print_dev_info(screen_line_info.selected, &screen_block_info.text);
-  if(!(return_value_ll_print_dev_info$1 == 0))
+  signed int return_value_ll_print_dev_info_1;
+  return_value_ll_print_dev_info_1=ll_print_dev_info(screen_line_info.selected, &screen_block_info.text);
+  if(!(return_value_ll_print_dev_info_1 == 0))
     return 1;
 
   else
@@ -6808,9 +6808,9 @@ void screen_info_print_title(void)
   ll_unlock_list();
   if(dev == ((struct device *)NULL))
   {
-    signed int return_value_wmove$1;
-    return_value_wmove$1=wmove(screen_sizes[(signed long int)2].w, 0, 0);
-    if(return_value_wmove$1 == -1)
+    signed int return_value_wmove_1;
+    return_value_wmove_1=wmove(screen_sizes[(signed long int)2].w, 0, 0);
+    if(return_value_wmove_1 == -1)
       -1;
 
     else
@@ -6856,10 +6856,10 @@ signed int screen_init_bf(void)
   struct cbuf cb;
   signed int dl;
   signed int ret;
-  struct anonymous$28 start;
-  struct anonymous$28 end;
-  unsigned long int return_value_bd2int$3;
-  unsigned long int return_value_bd2int$4;
+  struct anonymous_28 start;
+  struct anonymous_28 end;
+  unsigned long int return_value_bd2int_3;
+  unsigned long int return_value_bd2int_4;
   do
   {
 
@@ -6872,11 +6872,11 @@ signed int screen_init_bf(void)
     dl = 1;
     while(!(dl == 0) && !(bts_run == 0))
     {
-      signed int return_value_screen_textbox$1;
-      return_value_screen_textbox$1=screen_textbox("Start address", "^[0-9a-fA-F]{2}:[0-9a-fA-F]{2}:[0-9a-fA-F]{2}:[0-9a-fA-F]{2}:[0-9a-fA-F]{2}:[0-9a-fA-F]{2} *$", &cb);
-      if(!(return_value_screen_textbox$1 == 0))
+      signed int return_value_screen_textbox_1;
+      return_value_screen_textbox_1=screen_textbox("Start address", "^[0-9a-fA-F]{2}:[0-9a-fA-F]{2}:[0-9a-fA-F]{2}:[0-9a-fA-F]{2}:[0-9a-fA-F]{2}:[0-9a-fA-F]{2} *_", &cb);
+      if(!(return_value_screen_textbox_1 == 0))
       {
-        if(return_value_screen_textbox$1 == -1)
+        if(return_value_screen_textbox_1 == -1)
           goto __CPROVER_DUMP_L6;
 
       }
@@ -6908,11 +6908,11 @@ signed int screen_init_bf(void)
     dl = 1;
     while(!(dl == 0) && !(bts_run == 0))
     {
-      signed int return_value_screen_textbox$2;
-      return_value_screen_textbox$2=screen_textbox("End address", "^[0-9a-fA-F]{2}:[0-9a-fA-F]{2}:[0-9a-fA-F]{2}:[0-9a-fA-F]{2}:[0-9a-fA-F]{2}:[0-9a-fA-F]{2} *$", &cb);
-      if(!(return_value_screen_textbox$2 == 0))
+      signed int return_value_screen_textbox_2;
+      return_value_screen_textbox_2=screen_textbox("End address", "^[0-9a-fA-F]{2}:[0-9a-fA-F]{2}:[0-9a-fA-F]{2}:[0-9a-fA-F]{2}:[0-9a-fA-F]{2}:[0-9a-fA-F]{2} *_", &cb);
+      if(!(return_value_screen_textbox_2 == 0))
       {
-        if(return_value_screen_textbox$2 == -1)
+        if(return_value_screen_textbox_2 == -1)
           goto __CPROVER_DUMP_L14;
 
       }
@@ -6940,9 +6940,9 @@ signed int screen_init_bf(void)
     if(ret == 1)
       return ret;
 
-    return_value_bd2int$3=bd2int(&end);
-    return_value_bd2int$4=bd2int(&start);
-    if(return_value_bd2int$3 >= return_value_bd2int$4)
+    return_value_bd2int_3=bd2int(&end);
+    return_value_bd2int_4=bd2int(&start);
+    if(return_value_bd2int_3 >= return_value_bd2int_4)
       break;
 
     screen_log("End address is smaller than start address");
@@ -6991,9 +6991,9 @@ signed int screen_line_move(signed int ch)
     default:
       return -8;
   }
-  signed int return_value_menu_driver$1;
-  return_value_menu_driver$1=menu_driver(screen_line_info.m, cmd);
-  return return_value_menu_driver$1;
+  signed int return_value_menu_driver_1;
+  return_value_menu_driver_1=menu_driver(screen_line_info.m, cmd);
+  return return_value_menu_driver_1;
 }
 
 // screen_log
@@ -7005,8 +7005,8 @@ signed int screen_log(char *fmt, ...)
   signed int x;
   signed int ret = 0;
   struct cbuf new;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
   if(screen_sizes[1l].w == ((struct _win_st *)NULL))
     return 1;
 
@@ -7019,9 +7019,9 @@ signed int screen_log(char *fmt, ...)
       if(new.len >= 1ul)
       {
         new.sz = new.len + (unsigned long int)1;
-        void *return_value_realloc$1;
-        return_value_realloc$1=realloc((void *)new.buf, sizeof(char) /*1ul*/  * new.sz);
-        new.buf = (char *)return_value_realloc$1;
+        void *return_value_realloc_1;
+        return_value_realloc_1=realloc((void *)new.buf, sizeof(char) /*1ul*/  * new.sz);
+        new.buf = (char *)return_value_realloc_1;
         if(new.buf == ((char *)NULL))
         {
           ret = 1;
@@ -7031,9 +7031,9 @@ signed int screen_log(char *fmt, ...)
       }
 
       ap = (void **)&fmt;
-      signed int return_value_vsnprintf$2;
-      return_value_vsnprintf$2=vsnprintf(new.buf, new.sz, fmt, ap);
-      new.len = (unsigned long int)return_value_vsnprintf$2;
+      signed int return_value_vsnprintf_2;
+      return_value_vsnprintf_2=vsnprintf(new.buf, new.sz, fmt, ap);
+      new.len = (unsigned long int)return_value_vsnprintf_2;
       ap = ((void **)NULL);
       if(!(new.len >= new.sz))
         break;
@@ -7049,21 +7049,21 @@ signed int screen_log(char *fmt, ...)
     if(!(screen_sizes[1l].w == ((struct _win_st *)NULL)))
     {
       if(!(screen_sizes[1l].w == ((struct _win_st *)NULL)))
-        tmp_if_expr$3 = (signed int)screen_sizes[(signed long int)1].w->_maxy + 1;
+        tmp_if_expr_3 = (signed int)screen_sizes[(signed long int)1].w->_maxy + 1;
 
       else
-        tmp_if_expr$3 = -1;
-      y = tmp_if_expr$3;
+        tmp_if_expr_3 = -1;
+      y = tmp_if_expr_3;
       if(!(screen_sizes[1l].w == ((struct _win_st *)NULL)))
-        tmp_if_expr$4 = (signed int)screen_sizes[(signed long int)1].w->_maxx + 1;
+        tmp_if_expr_4 = (signed int)screen_sizes[(signed long int)1].w->_maxx + 1;
 
       else
-        tmp_if_expr$4 = -1;
-      x = tmp_if_expr$4;
+        tmp_if_expr_4 = -1;
+      x = tmp_if_expr_4;
       wscrl(screen_sizes[(signed long int)1].w, 1);
-      signed int return_value_wmove$5;
-      return_value_wmove$5=wmove(screen_sizes[(signed long int)1].w, y - 1, 0);
-      if(return_value_wmove$5 == -1)
+      signed int return_value_wmove_5;
+      return_value_wmove_5=wmove(screen_sizes[(signed long int)1].w, y - 1, 0);
+      if(return_value_wmove_5 == -1)
         -1;
 
       else
@@ -7084,7 +7084,7 @@ signed int screen_log(char *fmt, ...)
 signed int screen_log_redisplay(void)
 {
   signed int i;
-  signed int return_value_wmove$1;
+  signed int return_value_wmove_1;
   if(screen_sizes[1l].w == ((struct _win_st *)NULL))
     return 1;
 
@@ -7096,8 +7096,8 @@ signed int screen_log_redisplay(void)
     for( ; !(i >= 4); i = i + 1)
       if(!(screen_log_lines[(signed long int)i].buf == ((char *)NULL)))
       {
-        return_value_wmove$1=wmove(screen_sizes[(signed long int)1].w, i, 0);
-        if(return_value_wmove$1 == -1)
+        return_value_wmove_1=wmove(screen_sizes[(signed long int)1].w, i, 0);
+        if(return_value_wmove_1 == -1)
           -1;
 
         else
@@ -7119,36 +7119,36 @@ signed int screen_main_get_content(signed int width)
   struct device *d = (struct device *)(void *)0;
   ret = 0;
   ll_lock_list();
-  unsigned long int return_value_ll_dev_count$1;
-  return_value_ll_dev_count$1=ll_dev_count();
-  screen_line_info.num_items = (signed int)return_value_ll_dev_count$1;
-  void *return_value_malloc$2;
-  void *return_value_malloc$5;
+  unsigned long int return_value_ll_dev_count_1;
+  return_value_ll_dev_count_1=ll_dev_count();
+  screen_line_info.num_items = (signed int)return_value_ll_dev_count_1;
+  void *return_value_malloc_2;
+  void *return_value_malloc_5;
   if(!(screen_line_info.num_items == 0))
   {
     ll_sortlist(screen_sort);
-    return_value_malloc$2=malloc((unsigned long int)screen_line_info.num_items * sizeof(char *) /*8ul*/ );
-    screen_line_info.labels = (char **)return_value_malloc$2;
+    return_value_malloc_2=malloc((unsigned long int)screen_line_info.num_items * sizeof(char *) /*8ul*/ );
+    screen_line_info.labels = (char **)return_value_malloc_2;
     if(screen_line_info.labels == ((char **)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      applog(3, "%s::malloc(): %s", (const void *)"screen_main_get_content", return_value_strerror$4);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      applog(3, "%s::malloc(): %s", (const void *)"screen_main_get_content", return_value_strerror_4);
       ret = 1;
       goto screen_main_get_content_leave;
     }
 
-    return_value_malloc$5=malloc((unsigned long int)screen_line_info.num_items * sizeof(unsigned long int) /*8ul*/ );
-    screen_line_info.ids = (unsigned long int *)return_value_malloc$5;
+    return_value_malloc_5=malloc((unsigned long int)screen_line_info.num_items * sizeof(unsigned long int) /*8ul*/ );
+    screen_line_info.ids = (unsigned long int *)return_value_malloc_5;
     if(screen_line_info.ids == ((unsigned long int *)NULL))
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      char *return_value_strerror$7;
-      return_value_strerror$7=strerror(*return_value___errno_location$6);
-      applog(3, "%s::malloc(): %s", (const void *)"screen_main_get_content", return_value_strerror$7);
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      char *return_value_strerror_7;
+      return_value_strerror_7=strerror(*return_value___errno_location_6);
+      applog(3, "%s::malloc(): %s", (const void *)"screen_main_get_content", return_value_strerror_7);
       ret = 1;
       goto screen_main_get_content_leave;
     }
@@ -7161,16 +7161,16 @@ signed int screen_main_get_content(signed int width)
 
       else
         d=ll_next(d);
-      void *return_value_malloc$8;
-      return_value_malloc$8=malloc((unsigned long int)(width + 1) * sizeof(char) /*1ul*/ );
-      screen_line_info.labels[(signed long int)i] = (char *)return_value_malloc$8;
+      void *return_value_malloc_8;
+      return_value_malloc_8=malloc((unsigned long int)(width + 1) * sizeof(char) /*1ul*/ );
+      screen_line_info.labels[(signed long int)i] = (char *)return_value_malloc_8;
       if(screen_line_info.labels[(signed long int)i] == ((char *)NULL))
       {
-        signed int *return_value___errno_location$9;
-        return_value___errno_location$9=__errno_location();
-        char *return_value_strerror$10;
-        return_value_strerror$10=strerror(*return_value___errno_location$9);
-        applog(3, "%s::malloc(): %s", (const void *)"screen_main_get_content", return_value_strerror$10);
+        signed int *return_value___errno_location_9;
+        return_value___errno_location_9=__errno_location();
+        char *return_value_strerror_10;
+        return_value_strerror_10=strerror(*return_value___errno_location_9);
+        applog(3, "%s::malloc(): %s", (const void *)"screen_main_get_content", return_value_strerror_10);
         ret = 1;
         break;
       }
@@ -7192,9 +7192,9 @@ signed int screen_main_key_enter(signed int ch)
 {
   signed int i;
   ch = ch;
-  struct tagITEM *return_value_current_item$1;
-  return_value_current_item$1=current_item(screen_line_info.m);
-  i=item_index(return_value_current_item$1);
+  struct tagITEM *return_value_current_item_1;
+  return_value_current_item_1=current_item(screen_line_info.m);
+  i=item_index(return_value_current_item_1);
   if(i == -1)
     return 0;
 
@@ -7211,9 +7211,9 @@ signed int screen_main_key_enter(signed int ch)
 // file screen.c line 441
 void screen_main_print_title(void)
 {
-  signed int return_value_wmove$1;
-  return_value_wmove$1=wmove(screen_sizes[(signed long int)2].w, 0, 0);
-  if(return_value_wmove$1 == -1)
+  signed int return_value_wmove_1;
+  return_value_wmove_1=wmove(screen_sizes[(signed long int)2].w, 0, 0);
+  if(return_value_wmove_1 == -1)
     -1;
 
   else
@@ -7236,31 +7236,31 @@ signed int screen_make_windows(void)
     }
 
   werase(stdscr);
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(stdscr == ((struct _win_st *)NULL)))
-    tmp_if_expr$1 = (signed int)stdscr->_maxy + 1;
+    tmp_if_expr_1 = (signed int)stdscr->_maxy + 1;
 
   else
-    tmp_if_expr$1 = -1;
-  wtouchln(stdscr, 0, tmp_if_expr$1, 1);
+    tmp_if_expr_1 = -1;
+  wtouchln(stdscr, 0, tmp_if_expr_1, 1);
   wborder(stdscr, acs_map[(signed long int)(unsigned char)120], acs_map[(signed long int)(unsigned char)120], acs_map[(signed long int)(unsigned char)113], acs_map[(signed long int)(unsigned char)113], acs_map[(signed long int)(unsigned char)108], acs_map[(signed long int)(unsigned char)107], acs_map[(signed long int)(unsigned char)109], acs_map[(signed long int)(unsigned char)106]);
-  signed int return_value_wmove$2;
-  return_value_wmove$2=wmove(stdscr, (signed int)(screen_sizes[(signed long int)0].rows + screen_sizes[(signed long int)0].y), (signed int)screen_sizes[(signed long int)0].x);
-  if(return_value_wmove$2 == -1)
+  signed int return_value_wmove_2;
+  return_value_wmove_2=wmove(stdscr, (signed int)(screen_sizes[(signed long int)0].rows + screen_sizes[(signed long int)0].y), (signed int)screen_sizes[(signed long int)0].x);
+  if(return_value_wmove_2 == -1)
     -1;
 
   else
     whline(stdscr, acs_map[(signed long int)(unsigned char)113], (signed int)screen_sizes[(signed long int)0].cols);
-  signed int return_value_wmove$3;
-  return_value_wmove$3=wmove(stdscr, (signed int)(screen_sizes[(signed long int)0].rows + screen_sizes[(signed long int)0].y), 0);
-  if(return_value_wmove$3 == -1)
+  signed int return_value_wmove_3;
+  return_value_wmove_3=wmove(stdscr, (signed int)(screen_sizes[(signed long int)0].rows + screen_sizes[(signed long int)0].y), 0);
+  if(return_value_wmove_3 == -1)
     -1;
 
   else
     waddch(stdscr, acs_map[(signed long int)(unsigned char)116]);
-  signed int return_value_wmove$4;
-  return_value_wmove$4=wmove(stdscr, (signed int)(screen_sizes[(signed long int)0].rows + screen_sizes[(signed long int)0].y), (signed int)(screen_sizes[(signed long int)0].cols + (unsigned long int)1));
-  if(return_value_wmove$4 == -1)
+  signed int return_value_wmove_4;
+  return_value_wmove_4=wmove(stdscr, (signed int)(screen_sizes[(signed long int)0].rows + screen_sizes[(signed long int)0].y), (signed int)(screen_sizes[(signed long int)0].cols + (unsigned long int)1));
+  if(return_value_wmove_4 == -1)
     -1;
 
   else
@@ -7290,11 +7290,11 @@ signed int screen_make_windows(void)
       screen_block_info.mrows = screen_sizes[(signed long int)0].rows;
       screen_block_info.mcols = screen_sizes[(signed long int)0].cols;
       sel = screen_line_info.selected;
-      memset((void *)&screen_line_info, 0, sizeof(struct anonymous$32) /*56ul*/ );
+      memset((void *)&screen_line_info, 0, sizeof(struct anonymous_32) /*56ul*/ );
       screen_line_info.selected = sel;
-      signed int return_value_screen_create$5;
-      return_value_screen_create$5=screen_create();
-      if(!(return_value_screen_create$5 == 0))
+      signed int return_value_screen_create_5;
+      return_value_screen_create_5=screen_create();
+      if(!(return_value_screen_create_5 == 0))
         return 1;
 
       else
@@ -7339,9 +7339,9 @@ signed int screen_on(void)
   intrflush(stdscr, (_Bool)0);
   curs_set(0);
   assume_default_colors(0, 7);
-  _Bool return_value_has_colors$1;
-  return_value_has_colors$1=has_colors();
-  if(!(return_value_has_colors$1 == (_Bool)0))
+  _Bool return_value_has_colors_1;
+  return_value_has_colors_1=has_colors();
+  if(!(return_value_has_colors_1 == (_Bool)0))
   {
     start_color();
     init_pair((signed short int)1, (signed short int)0, (signed short int)7);
@@ -7349,13 +7349,13 @@ signed int screen_on(void)
   }
 
   set_menu_mark((struct tagMENU *)(void *)0, screen_mm);
-  signed int tmp_if_expr$2;
+  signed int tmp_if_expr_2;
   if(!(stdscr == ((struct _win_st *)NULL)))
-    tmp_if_expr$2 = (signed int)stdscr->_maxy + 1;
+    tmp_if_expr_2 = (signed int)stdscr->_maxy + 1;
 
   else
-    tmp_if_expr$2 = -1;
-  wtouchln(stdscr, 0, tmp_if_expr$2, 1);
+    tmp_if_expr_2 = -1;
+  wtouchln(stdscr, 0, tmp_if_expr_2, 1);
   wrefresh(stdscr);
   return 0;
 }
@@ -7375,18 +7375,18 @@ signed int screen_redraw(void)
     screens_cfg[(signed long int)screens_curr].title();
 
   wnoutrefresh(screen_sizes[(signed long int)2].w);
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  unsigned long int tmp_if_expr$10;
-  unsigned long int tmp_if_expr$11;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  unsigned long int tmp_if_expr_10;
+  unsigned long int tmp_if_expr_11;
   if((signed int)screens_cfg[(signed long int)screens_curr].type == LINE)
   {
     signed int i;
     if(!(screen_line_info.m == ((struct tagMENU *)NULL)))
     {
-      struct tagITEM *return_value_current_item$1;
-      return_value_current_item$1=current_item(screen_line_info.m);
-      i=item_index(return_value_current_item$1);
+      struct tagITEM *return_value_current_item_1;
+      return_value_current_item_1=current_item(screen_line_info.m);
+      i=item_index(return_value_current_item_1);
       if(!(i >= 0))
         i = 0;
 
@@ -7420,16 +7420,16 @@ signed int screen_redraw(void)
     if(!(return_value == 0))
       ret = 1;
 
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct tagITEM *) /*8ul*/  * (unsigned long int)(screen_line_info.num_items + 1));
-    screen_line_info.items = (struct tagITEM **)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct tagITEM *) /*8ul*/  * (unsigned long int)(screen_line_info.num_items + 1));
+    screen_line_info.items = (struct tagITEM **)return_value_malloc_2;
     if(screen_line_info.items == ((struct tagITEM **)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      applog(3, "%s::malloc(): %s", (const void *)"screen_redraw", return_value_strerror$4);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      applog(3, "%s::malloc(): %s", (const void *)"screen_redraw", return_value_strerror_4);
       ret = 1;
     }
 
@@ -7459,7 +7459,7 @@ signed int screen_redraw(void)
 
   else
   {
-    unsigned long int screen_redraw$$1$$2$$i;
+    unsigned long int screen_redraw__1__2__i;
     unsigned long int j;
     unsigned long int trows;
     unsigned long int tcols;
@@ -7478,62 +7478,62 @@ signed int screen_redraw(void)
     else
     {
       cb.sz = screen_block_info.text.sz;
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc(sizeof(char) /*1ul*/  * cb.sz);
-      cb.buf = (char *)return_value_malloc$5;
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc(sizeof(char) /*1ul*/  * cb.sz);
+      cb.buf = (char *)return_value_malloc_5;
       if(cb.buf == ((char *)NULL))
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        char *return_value_strerror$7;
-        return_value_strerror$7=strerror(*return_value___errno_location$6);
-        applog(3, "%s::malloc(): %s", (const void *)"screen_redraw", return_value_strerror$7);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        char *return_value_strerror_7;
+        return_value_strerror_7=strerror(*return_value___errno_location_6);
+        applog(3, "%s::malloc(): %s", (const void *)"screen_redraw", return_value_strerror_7);
         ret = 1;
       }
 
       if(screen_block_info.text.len >= 1ul)
       {
-        screen_redraw$$1$$2$$i = screen_block_info.text.len - (unsigned long int)1;
-        if((signed int)screen_block_info.text.buf[(signed long int)screen_redraw$$1$$2$$i] == 10)
-          tmp_if_expr$8 = (_Bool)1;
+        screen_redraw__1__2__i = screen_block_info.text.len - (unsigned long int)1;
+        if((signed int)screen_block_info.text.buf[(signed long int)screen_redraw__1__2__i] == 10)
+          tmp_if_expr_8 = (_Bool)1;
 
         else
-          tmp_if_expr$8 = (signed int)screen_block_info.text.buf[(signed long int)screen_redraw$$1$$2$$i] == 13 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$8)
-          tmp_if_expr$9 = (_Bool)1;
+          tmp_if_expr_8 = (signed int)screen_block_info.text.buf[(signed long int)screen_redraw__1__2__i] == 13 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_8)
+          tmp_if_expr_9 = (_Bool)1;
 
         else
-          tmp_if_expr$9 = (signed int)screen_block_info.text.buf[(signed long int)screen_redraw$$1$$2$$i] == 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$9)
-          screen_redraw$$1$$2$$i = screen_redraw$$1$$2$$i - 1ul;
+          tmp_if_expr_9 = (signed int)screen_block_info.text.buf[(signed long int)screen_redraw__1__2__i] == 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_9)
+          screen_redraw__1__2__i = screen_redraw__1__2__i - 1ul;
 
-        screen_block_info.text.len = screen_redraw$$1$$2$$i + (unsigned long int)1;
+        screen_block_info.text.len = screen_redraw__1__2__i + (unsigned long int)1;
         screen_block_info.text.buf[(signed long int)screen_block_info.text.len] = (char)0;
       }
 
       tcols = (unsigned long int)1;
       trows = tcols;
-      screen_redraw$$1$$2$$i = (unsigned long int)0;
-      j = screen_redraw$$1$$2$$i;
+      screen_redraw__1__2__i = (unsigned long int)0;
+      j = screen_redraw__1__2__i;
       cb.len = j;
-      if(!(screen_redraw$$1$$2$$i >= screen_block_info.text.len))
+      if(!(screen_redraw__1__2__i >= screen_block_info.text.len))
       {
-        cb.buf[(signed long int)cb.len] = screen_block_info.text.buf[(signed long int)screen_redraw$$1$$2$$i];
-        if((signed int)screen_block_info.text.buf[(signed long int)screen_redraw$$1$$2$$i] == 10)
+        cb.buf[(signed long int)cb.len] = screen_block_info.text.buf[(signed long int)screen_redraw__1__2__i];
+        if((signed int)screen_block_info.text.buf[(signed long int)screen_redraw__1__2__i] == 10)
         {
           trows = trows + 1ul;
-          len = screen_redraw$$1$$2$$i - j;
+          len = screen_redraw__1__2__i - j;
           if(!(tcols >= len))
             tcols = len;
 
-          j = screen_redraw$$1$$2$$i + (unsigned long int)1;
+          j = screen_redraw__1__2__i + (unsigned long int)1;
         }
 
-        if((signed int)screen_block_info.text.buf[(signed long int)screen_redraw$$1$$2$$i] == 13)
+        if((signed int)screen_block_info.text.buf[(signed long int)screen_redraw__1__2__i] == 13)
           cb.len = cb.len - 1ul;
 
         cb.len = cb.len + 1ul;
-        screen_redraw$$1$$2$$i = screen_redraw$$1$$2$$i + 1ul;
+        screen_redraw__1__2__i = screen_redraw__1__2__i + 1ul;
       }
 
       cb.buf[(signed long int)cb.len] = (char)0;
@@ -7541,21 +7541,21 @@ signed int screen_redraw(void)
       screen_block_info.text.buf = cb.buf;
       screen_block_info.text.len = cb.len;
       if(!(screen_sizes[0l].rows >= trows))
-        tmp_if_expr$10 = trows;
+        tmp_if_expr_10 = trows;
 
       else
-        tmp_if_expr$10 = screen_sizes[(signed long int)0].rows;
-      screen_block_info.mrows = tmp_if_expr$10;
+        tmp_if_expr_10 = screen_sizes[(signed long int)0].rows;
+      screen_block_info.mrows = tmp_if_expr_10;
       if(!(screen_sizes[0l].cols >= tcols))
-        tmp_if_expr$11 = tcols;
+        tmp_if_expr_11 = tcols;
 
       else
-        tmp_if_expr$11 = screen_sizes[(signed long int)0].cols;
-      screen_block_info.mcols = tmp_if_expr$11;
+        tmp_if_expr_11 = screen_sizes[(signed long int)0].cols;
+      screen_block_info.mcols = tmp_if_expr_11;
       wresize(screen_sizes[(signed long int)0].w, (signed int)screen_block_info.mrows, (signed int)screen_block_info.mcols);
-      signed int return_value_wmove$12;
-      return_value_wmove$12=wmove(screen_sizes[(signed long int)0].w, 0, 0);
-      if(return_value_wmove$12 == -1)
+      signed int return_value_wmove_12;
+      return_value_wmove_12=wmove(screen_sizes[(signed long int)0].w, 0, 0);
+      if(return_value_wmove_12 == -1)
         -1;
 
       else
@@ -7584,22 +7584,22 @@ signed int screen_run(void)
   signed int do_resize;
   signed int do_update;
   memset((void *)screen_log_lines, 0, (unsigned long int)4 * sizeof(struct cbuf) /*24ul*/ );
-  memset((void *)&screen_line_info, 0, sizeof(struct anonymous$32) /*56ul*/ );
-  signed int return_value_screen_chksize$1;
-  return_value_screen_chksize$1=screen_chksize();
-  signed int return_value_threader_running$7;
-  signed int return_value_threader_running$10;
-  signed int return_value_screen_init_bf$9;
-  signed int return_value_threader_running$11;
+  memset((void *)&screen_line_info, 0, sizeof(struct anonymous_32) /*56ul*/ );
+  signed int return_value_screen_chksize_1;
+  return_value_screen_chksize_1=screen_chksize();
+  signed int return_value_threader_running_7;
+  signed int return_value_threader_running_10;
+  signed int return_value_screen_init_bf_9;
+  signed int return_value_threader_running_11;
   signed int return_value;
-  if(!(return_value_screen_chksize$1 == 0))
+  if(!(return_value_screen_chksize_1 == 0))
     return 1;
 
   else
   {
-    signed int return_value_screen_make_windows$2;
-    return_value_screen_make_windows$2=screen_make_windows();
-    if(!(return_value_screen_make_windows$2 == 0))
+    signed int return_value_screen_make_windows_2;
+    return_value_screen_make_windows_2=screen_make_windows();
+    if(!(return_value_screen_make_windows_2 == 0))
       return 1;
 
     else
@@ -7619,9 +7619,9 @@ signed int screen_run(void)
 
         if(!(do_resize == 0))
         {
-          signed int return_value_screen_chksize$3;
-          return_value_screen_chksize$3=screen_chksize();
-          if(!(return_value_screen_chksize$3 == 0))
+          signed int return_value_screen_chksize_3;
+          return_value_screen_chksize_3=screen_chksize();
+          if(!(return_value_screen_chksize_3 == 0))
           {
             bts_run = (char)0;
             break;
@@ -7630,9 +7630,9 @@ signed int screen_run(void)
           if(screens_curr >= screens_max)
             screens_curr = 0;
 
-          signed int return_value_screen_make_windows$4;
-          return_value_screen_make_windows$4=screen_make_windows();
-          if(!(return_value_screen_make_windows$4 == 0))
+          signed int return_value_screen_make_windows_4;
+          return_value_screen_make_windows_4=screen_make_windows();
+          if(!(return_value_screen_make_windows_4 == 0))
           {
             bts_run = (char)0;
             break;
@@ -7647,9 +7647,9 @@ signed int screen_run(void)
           if(screens_curr >= screens_max)
             screens_curr = 0;
 
-          signed int return_value_screen_create$5;
-          return_value_screen_create$5=screen_create();
-          if(!(return_value_screen_create$5 == 0))
+          signed int return_value_screen_create_5;
+          return_value_screen_create_5=screen_create();
+          if(!(return_value_screen_create_5 == 0))
           {
             bts_run = (char)0;
             break;
@@ -7695,12 +7695,12 @@ signed int screen_run(void)
             }
             case 105:
             {
-              return_value_threader_running$7=threader_running();
-              if(return_value_threader_running$7 == SCAN_NONE)
+              return_value_threader_running_7=threader_running();
+              if(return_value_threader_running_7 == SCAN_NONE)
               {
-                signed int return_value_threader_start$6;
-                return_value_threader_start$6=threader_start((enum threader_scan_types)SCAN_INQ);
-                if(return_value_threader_start$6 == 0)
+                signed int return_value_threader_start_6;
+                return_value_threader_start_6=threader_start((enum threader_scan_types)SCAN_INQ);
+                if(return_value_threader_start_6 == 0)
                   screen_log("error: no threads started, check the log");
 
                 else
@@ -7713,15 +7713,15 @@ signed int screen_run(void)
             }
             case 98:
             {
-              return_value_threader_running$10=threader_running();
-              if(return_value_threader_running$10 == SCAN_NONE)
+              return_value_threader_running_10=threader_running();
+              if(return_value_threader_running_10 == SCAN_NONE)
               {
-                return_value_screen_init_bf$9=screen_init_bf();
-                if(return_value_screen_init_bf$9 == 0)
+                return_value_screen_init_bf_9=screen_init_bf();
+                if(return_value_screen_init_bf_9 == 0)
                 {
-                  signed int return_value_threader_start$8;
-                  return_value_threader_start$8=threader_start((enum threader_scan_types)SCAN_BF);
-                  if(return_value_threader_start$8 == 0)
+                  signed int return_value_threader_start_8;
+                  return_value_threader_start_8=threader_start((enum threader_scan_types)SCAN_BF);
+                  if(return_value_threader_start_8 == 0)
                     screen_log("error: no threads started, check the log");
 
                 }
@@ -7733,8 +7733,8 @@ signed int screen_run(void)
             }
             case 97:
             {
-              return_value_threader_running$11=threader_running();
-              if(!(return_value_threader_running$11 == SCAN_NONE))
+              return_value_threader_running_11=threader_running();
+              if(!(return_value_threader_running_11 == SCAN_NONE))
               {
                 screen_log("aborting scan");
                 threader_stop();
@@ -7753,9 +7753,9 @@ signed int screen_run(void)
               do_update = 1;
               struct cbuf cb;
               memset((void *)&cb, 0, sizeof(struct cbuf) /*24ul*/ );
-              signed int return_value_screen_textbox$12;
-              return_value_screen_textbox$12=screen_textbox("Enter filename", "^[a-zA-Z0-9/.]* *$", &cb);
-              if(!(return_value_screen_textbox$12 == 0))
+              signed int return_value_screen_textbox_12;
+              return_value_screen_textbox_12=screen_textbox("Enter filename", "^[a-zA-Z0-9/.]* *_", &cb);
+              if(!(return_value_screen_textbox_12 == 0))
                 break;
 
               if(cb.len == 0ul)
@@ -7782,9 +7782,9 @@ signed int screen_run(void)
         }
 
       }
-      signed int return_value_threader_running$13;
-      return_value_threader_running$13=threader_running();
-      if(!(return_value_threader_running$13 == SCAN_NONE))
+      signed int return_value_threader_running_13;
+      return_value_threader_running_13=threader_running();
+      if(!(return_value_threader_running_13 == SCAN_NONE))
       {
         screen_log("stopping scan");
         threader_stop();
@@ -7819,9 +7819,9 @@ signed int screen_textbox(const char *label, const char *re, struct cbuf *cb)
   struct _win_st *mw;
   struct _win_st *sw;
   struct _win_st *tw;
-  signed int return_value_wmove$2;
-  _Bool tmp_if_expr$3;
-  signed int return_value_form_driver$9;
+  signed int return_value_wmove_2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_form_driver_9;
   if(label == ((const char *)NULL))
     return 1;
 
@@ -7855,9 +7855,9 @@ signed int screen_textbox(const char *label, const char *re, struct cbuf *cb)
     set_field_back(fields[(signed long int)0], (unsigned long int)1UL << 9 + 8);
     field_opts_off(fields[(signed long int)0], (signed int)0x0040U);
     field_opts_off(fields[(signed long int)0], (signed int)0x0200U);
-    signed int return_value_set_field_type$1;
-    return_value_set_field_type$1=set_field_type(fields[(signed long int)0], TYPE_REGEXP, re);
-    if(!(return_value_set_field_type$1 == 0))
+    signed int return_value_set_field_type_1;
+    return_value_set_field_type_1=set_field_type(fields[(signed long int)0], TYPE_REGEXP, re);
+    if(!(return_value_set_field_type_1 == 0))
     {
       summary("Failed to apply regexp to field");
       ret = -1;
@@ -7904,8 +7904,8 @@ signed int screen_textbox(const char *label, const char *re, struct cbuf *cb)
               set_form_win(f, mw);
               set_form_sub(f, sw);
               wborder(mw, acs_map[(signed long int)(unsigned char)120], acs_map[(signed long int)(unsigned char)120], acs_map[(signed long int)(unsigned char)113], acs_map[(signed long int)(unsigned char)113], acs_map[(signed long int)(unsigned char)108], acs_map[(signed long int)(unsigned char)107], acs_map[(signed long int)(unsigned char)109], acs_map[(signed long int)(unsigned char)106]);
-              return_value_wmove$2=wmove(tw, 0, 0);
-              if(return_value_wmove$2 == -1)
+              return_value_wmove_2=wmove(tw, 0, 0);
+              if(return_value_wmove_2 == -1)
                 -1;
 
               else
@@ -7919,12 +7919,12 @@ signed int screen_textbox(const char *label, const char *re, struct cbuf *cb)
                 if(!(i == 0) && !(bts_run == 0))
                 {
                   ch=wgetch(stdscr);
-                  tmp_if_expr$3 = ch != 0 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_3 = ch != 0 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$3 = (_Bool)0;
-                if(!tmp_if_expr$3)
+                  tmp_if_expr_3 = (_Bool)0;
+                if(!tmp_if_expr_3)
                   break;
 
                 if(!(ch == 0632))
@@ -8020,8 +8020,8 @@ signed int screen_textbox(const char *label, const char *re, struct cbuf *cb)
 
               else
               {
-                return_value_form_driver$9=form_driver(f, 0777 + 55);
-                if(!(return_value_form_driver$9 == 0))
+                return_value_form_driver_9=form_driver(f, 0777 + 55);
+                if(!(return_value_form_driver_9 == 0))
                 {
                   screen_log("validation failed, input needs to be: %s", re);
                   ret = 1;
@@ -8029,27 +8029,27 @@ signed int screen_textbox(const char *label, const char *re, struct cbuf *cb)
 
                 else
                 {
-                  char *return_value_field_buffer$4;
-                  return_value_field_buffer$4=field_buffer(fields[(signed long int)0], 0);
-                  cb->len=strlen_minus_spaces(return_value_field_buffer$4);
+                  char *return_value_field_buffer_4;
+                  return_value_field_buffer_4=field_buffer(fields[(signed long int)0], 0);
+                  cb->len=strlen_minus_spaces(return_value_field_buffer_4);
                   cb->sz = cb->len + (unsigned long int)1;
-                  void *return_value_malloc$5;
-                  return_value_malloc$5=malloc(sizeof(char) /*1ul*/  * cb->sz);
-                  cb->buf = (char *)return_value_malloc$5;
+                  void *return_value_malloc_5;
+                  return_value_malloc_5=malloc(sizeof(char) /*1ul*/  * cb->sz);
+                  cb->buf = (char *)return_value_malloc_5;
                   if(cb->buf == ((char *)NULL))
                   {
-                    signed int *return_value___errno_location$6;
-                    return_value___errno_location$6=__errno_location();
-                    char *return_value_strerror$7;
-                    return_value_strerror$7=strerror(*return_value___errno_location$6);
-                    applog(3, "%s::malloc(): %s", (const void *)"screen_textbox", return_value_strerror$7);
+                    signed int *return_value___errno_location_6;
+                    return_value___errno_location_6=__errno_location();
+                    char *return_value_strerror_7;
+                    return_value_strerror_7=strerror(*return_value___errno_location_6);
+                    applog(3, "%s::malloc(): %s", (const void *)"screen_textbox", return_value_strerror_7);
                     ret = -1;
                     goto screen_textbox_leave;
                   }
 
-                  char *return_value_field_buffer$8;
-                  return_value_field_buffer$8=field_buffer(fields[(signed long int)0], 0);
-                  strncpy(cb->buf, return_value_field_buffer$8, cb->len);
+                  char *return_value_field_buffer_8;
+                  return_value_field_buffer_8=field_buffer(fields[(signed long int)0], 0);
+                  strncpy(cb->buf, return_value_field_buffer_8, cb->len);
                   cb->buf[(signed long int)cb->len] = (char)0;
                 }
               }
@@ -8106,13 +8106,13 @@ signed int sdp_format_classes(struct device *p, char *buf, signed int sz, signed
       found = 1;
       majorc_id = i;
       strncpy(buf + (signed long int)len, major_device_classes[(signed long int)i].class_name, (unsigned long int)(sz - len));
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(major_device_classes[(signed long int)i].class_name);
-      len = len + (signed int)return_value_strlen$1;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(major_device_classes[(signed long int)i].class_name);
+      len = len + (signed int)return_value_strlen_1;
       break;
     }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(len >= sz)
     return len;
 
@@ -8124,9 +8124,9 @@ signed int sdp_format_classes(struct device *p, char *buf, signed int sz, signed
         if(major_device_classes[(signed long int)i].class_id == 31u)
         {
           strncpy(buf + (signed long int)len, major_device_classes[(signed long int)i].class_name, (unsigned long int)(sz - len));
-          unsigned long int return_value_strlen$2;
-          return_value_strlen$2=strlen(major_device_classes[(signed long int)i].class_name);
-          len = len + (signed int)return_value_strlen$2;
+          unsigned long int return_value_strlen_2;
+          return_value_strlen_2=strlen(major_device_classes[(signed long int)i].class_name);
+          len = len + (signed int)return_value_strlen_2;
           break;
         }
 
@@ -8142,11 +8142,11 @@ signed int sdp_format_classes(struct device *p, char *buf, signed int sz, signed
     __CPROVER_DUMP_L8:
       ;
       if(found == 0)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = !(major_device_classes[(signed long int)majorc_id].sub_major != ((struct sub_classes *)NULL)) ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$3)
+        tmp_if_expr_3 = !(major_device_classes[(signed long int)majorc_id].sub_major != ((struct sub_classes *)NULL)) ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_3)
       {
         scp = major_device_classes[(signed long int)majorc_id].sub_major;
         i = 0;
@@ -8164,9 +8164,9 @@ signed int sdp_format_classes(struct device *p, char *buf, signed int sz, signed
               return len;
 
             strncpy(buf + (signed long int)len, (scp + (signed long int)i)->class_name, (unsigned long int)(sz - len));
-            unsigned long int return_value_strlen$4;
-            return_value_strlen$4=strlen((scp + (signed long int)i)->class_name);
-            len = len + (signed int)return_value_strlen$4;
+            unsigned long int return_value_strlen_4;
+            return_value_strlen_4=strlen((scp + (signed long int)i)->class_name);
+            len = len + (signed int)return_value_strlen_4;
             if(len >= sz)
               return len;
 
@@ -8194,9 +8194,9 @@ signed int sdp_format_classes(struct device *p, char *buf, signed int sz, signed
                 return len;
 
               strncpy(buf + (signed long int)len, (scp + (signed long int)i)->class_name, (unsigned long int)(sz - len));
-              unsigned long int return_value_strlen$5;
-              return_value_strlen$5=strlen((scp + (signed long int)i)->class_name);
-              len = len + (signed int)return_value_strlen$5;
+              unsigned long int return_value_strlen_5;
+              return_value_strlen_5=strlen((scp + (signed long int)i)->class_name);
+              len = len + (signed int)return_value_strlen_5;
               if(len >= sz)
                 return len;
 
@@ -8235,9 +8235,9 @@ signed int sdp_format_classes(struct device *p, char *buf, signed int sz, signed
             }
 
             strncpy(buf + (signed long int)len, service_classes[(signed long int)i].class_name, (unsigned long int)(sz - len));
-            unsigned long int return_value_strlen$6;
-            return_value_strlen$6=strlen(service_classes[(signed long int)i].class_name);
-            len = len + (signed int)return_value_strlen$6;
+            unsigned long int return_value_strlen_6;
+            return_value_strlen_6=strlen(service_classes[(signed long int)i].class_name);
+            len = len + (signed int)return_value_strlen_6;
             if(len >= sz)
               return len;
 
@@ -8253,11 +8253,11 @@ signed int sdp_format_classes(struct device *p, char *buf, signed int sz, signed
 
 // sdp_get_service_classes
 // file /usr/include/bluetooth/sdp_lib.h line 215
-static inline signed int sdp_get_service_classes(const struct anonymous$2 *rec, struct _sdp_list **seqp)
+static inline signed int sdp_get_service_classes(const struct anonymous_2 *rec, struct _sdp_list **seqp)
 {
-  signed int return_value_sdp_get_uuidseq_attr$1;
-  return_value_sdp_get_uuidseq_attr$1=sdp_get_uuidseq_attr(rec, (unsigned short int)0x0001, seqp);
-  return return_value_sdp_get_uuidseq_attr$1;
+  signed int return_value_sdp_get_uuidseq_attr_1;
+  return_value_sdp_get_uuidseq_attr_1=sdp_get_uuidseq_attr(rec, (unsigned short int)0x0001, seqp);
+  return return_value_sdp_get_uuidseq_attr_1;
 }
 
 // sdp_list_foreach
@@ -8274,7 +8274,7 @@ static inline void sdp_list_foreach(struct _sdp_list *list, void (*f)(void *, vo
 
 // sdp_sprint_service_attr
 // file sdp.c line 477
-signed int sdp_sprint_service_attr(struct cbuf *str, struct anonymous$2 *rec)
+signed int sdp_sprint_service_attr(struct cbuf *str, struct anonymous_2 *rec)
 {
   struct _sdp_list *list = ((struct _sdp_list *)NULL);
   struct _sdp_list *proto = ((struct _sdp_list *)NULL);
@@ -8291,9 +8291,9 @@ signed int sdp_sprint_service_attr(struct cbuf *str, struct anonymous$2 *rec)
       d=sdp_data_get(rec, (unsigned short int)(0x0000 + 0x0100));
       if(!(d == ((struct sdp_data_struct *)NULL)))
       {
-        signed int return_value_snprintf$1;
-        return_value_snprintf$1=snprintf(str->buf + (signed long int)str->len, str->sz, "Service Name: %s\n", d->val.str);
-        str->len = str->len + (unsigned long int)return_value_snprintf$1;
+        signed int return_value_snprintf_1;
+        return_value_snprintf_1=snprintf(str->buf + (signed long int)str->len, str->sz, "Service Name: %s\n", d->val.str);
+        str->len = str->len + (unsigned long int)return_value_snprintf_1;
         if(str->len >= str->sz)
           return 1;
 
@@ -8302,9 +8302,9 @@ signed int sdp_sprint_service_attr(struct cbuf *str, struct anonymous$2 *rec)
       d=sdp_data_get(rec, (unsigned short int)(0x0001 + 0x0100));
       if(!(d == ((struct sdp_data_struct *)NULL)))
       {
-        signed int return_value_snprintf$2;
-        return_value_snprintf$2=snprintf(str->buf + (signed long int)str->len, str->sz, "Service Description: %s\n", d->val.str);
-        str->len = str->len + (unsigned long int)return_value_snprintf$2;
+        signed int return_value_snprintf_2;
+        return_value_snprintf_2=snprintf(str->buf + (signed long int)str->len, str->sz, "Service Description: %s\n", d->val.str);
+        str->len = str->len + (unsigned long int)return_value_snprintf_2;
         if(str->len >= str->sz)
           return 1;
 
@@ -8313,29 +8313,29 @@ signed int sdp_sprint_service_attr(struct cbuf *str, struct anonymous$2 *rec)
       d=sdp_data_get(rec, (unsigned short int)(0x0002 + 0x0100));
       if(!(d == ((struct sdp_data_struct *)NULL)))
       {
-        signed int return_value_snprintf$3;
-        return_value_snprintf$3=snprintf(str->buf + (signed long int)str->len, str->sz, "Service Provider: %s\n", d->val.str);
-        str->len = str->len + (unsigned long int)return_value_snprintf$3;
+        signed int return_value_snprintf_3;
+        return_value_snprintf_3=snprintf(str->buf + (signed long int)str->len, str->sz, "Service Provider: %s\n", d->val.str);
+        str->len = str->len + (unsigned long int)return_value_snprintf_3;
         if(str->len >= str->sz)
           return 1;
 
       }
 
-      signed int return_value_snprintf$4;
-      return_value_snprintf$4=snprintf(str->buf + (signed long int)str->len, str->sz, "Service RecHandle: 0x%x\n", rec->handle);
-      str->len = str->len + (unsigned long int)return_value_snprintf$4;
+      signed int return_value_snprintf_4;
+      return_value_snprintf_4=snprintf(str->buf + (signed long int)str->len, str->sz, "Service RecHandle: 0x%x\n", rec->handle);
+      str->len = str->len + (unsigned long int)return_value_snprintf_4;
       if(str->len >= str->sz)
         return 1;
 
       else
       {
-        signed int return_value_sdp_get_service_classes$6;
-        return_value_sdp_get_service_classes$6=sdp_get_service_classes(rec, &list);
-        if(return_value_sdp_get_service_classes$6 == 0)
+        signed int return_value_sdp_get_service_classes_6;
+        return_value_sdp_get_service_classes_6=sdp_get_service_classes(rec, &list);
+        if(return_value_sdp_get_service_classes_6 == 0)
         {
-          signed int return_value_snprintf$5;
-          return_value_snprintf$5=snprintf(str->buf + (signed long int)str->len, str->sz, "Service Class ID List:\n");
-          str->len = str->len + (unsigned long int)return_value_snprintf$5;
+          signed int return_value_snprintf_5;
+          return_value_snprintf_5=snprintf(str->buf + (signed long int)str->len, str->sz, "Service Class ID List:\n");
+          str->len = str->len + (unsigned long int)return_value_snprintf_5;
           if(str->len >= str->sz)
             return 1;
 
@@ -8346,13 +8346,13 @@ signed int sdp_sprint_service_attr(struct cbuf *str, struct anonymous$2 *rec)
 
         }
 
-        signed int return_value_sdp_get_access_protos$8;
-        return_value_sdp_get_access_protos$8=sdp_get_access_protos(rec, &proto);
-        if(return_value_sdp_get_access_protos$8 == 0)
+        signed int return_value_sdp_get_access_protos_8;
+        return_value_sdp_get_access_protos_8=sdp_get_access_protos(rec, &proto);
+        if(return_value_sdp_get_access_protos_8 == 0)
         {
-          signed int return_value_snprintf$7;
-          return_value_snprintf$7=snprintf(str->buf + (signed long int)str->len, str->sz, "Protocol Descriptor List:\n");
-          str->len = str->len + (unsigned long int)return_value_snprintf$7;
+          signed int return_value_snprintf_7;
+          return_value_snprintf_7=snprintf(str->buf + (signed long int)str->len, str->sz, "Protocol Descriptor List:\n");
+          str->len = str->len + (unsigned long int)return_value_snprintf_7;
           if(str->len >= str->sz)
             return 1;
 
@@ -8363,13 +8363,13 @@ signed int sdp_sprint_service_attr(struct cbuf *str, struct anonymous$2 *rec)
 
         }
 
-        signed int return_value_sdp_get_lang_attr$10;
-        return_value_sdp_get_lang_attr$10=sdp_get_lang_attr(rec, &list);
-        if(return_value_sdp_get_lang_attr$10 == 0)
+        signed int return_value_sdp_get_lang_attr_10;
+        return_value_sdp_get_lang_attr_10=sdp_get_lang_attr(rec, &list);
+        if(return_value_sdp_get_lang_attr_10 == 0)
         {
-          signed int return_value_snprintf$9;
-          return_value_snprintf$9=snprintf(str->buf + (signed long int)str->len, str->sz, "Language Base Attr List:\n");
-          str->len = str->len + (unsigned long int)return_value_snprintf$9;
+          signed int return_value_snprintf_9;
+          return_value_snprintf_9=snprintf(str->buf + (signed long int)str->len, str->sz, "Language Base Attr List:\n");
+          str->len = str->len + (unsigned long int)return_value_snprintf_9;
           if(str->len >= str->sz)
             return 1;
 
@@ -8380,13 +8380,13 @@ signed int sdp_sprint_service_attr(struct cbuf *str, struct anonymous$2 *rec)
 
         }
 
-        signed int return_value_sdp_get_profile_descs$12;
-        return_value_sdp_get_profile_descs$12=sdp_get_profile_descs(rec, &list);
-        if(return_value_sdp_get_profile_descs$12 == 0)
+        signed int return_value_sdp_get_profile_descs_12;
+        return_value_sdp_get_profile_descs_12=sdp_get_profile_descs(rec, &list);
+        if(return_value_sdp_get_profile_descs_12 == 0)
         {
-          signed int return_value_snprintf$11;
-          return_value_snprintf$11=snprintf(str->buf + (signed long int)str->len, str->sz, "Profile Descriptor List:\n");
-          str->len = str->len + (unsigned long int)return_value_snprintf$11;
+          signed int return_value_snprintf_11;
+          return_value_snprintf_11=snprintf(str->buf + (signed long int)str->len, str->sz, "Profile Descriptor List:\n");
+          str->len = str->len + (unsigned long int)return_value_snprintf_11;
           if(str->len >= str->sz)
             return 1;
 
@@ -8415,20 +8415,20 @@ signed int store_appendfile(char *fn, unsigned long int fn_len, struct cbuf *cb)
   struct stat sbuf;
   signed int fd;
   unsigned long int ret;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(fn == ((char *)NULL) || cb == ((struct cbuf *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(cb->buf != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(cb->buf != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 1;
 
   else
   {
-    signed int return_value_store_mkdir_from_filename$2;
-    return_value_store_mkdir_from_filename$2=store_mkdir_from_filename(fn, fn_len, &sbuf);
-    if(!(return_value_store_mkdir_from_filename$2 == 0))
+    signed int return_value_store_mkdir_from_filename_2;
+    return_value_store_mkdir_from_filename_2=store_mkdir_from_filename(fn, fn_len, &sbuf);
+    if(!(return_value_store_mkdir_from_filename_2 == 0))
       return 1;
 
     else
@@ -8443,24 +8443,24 @@ signed int store_appendfile(char *fn, unsigned long int fn_len, struct cbuf *cb)
         fd=open(fn, 01 | 0100 | 02000, 0400 >> 3 | 0200 >> 3);
         if(fd == -1)
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          char *return_value_strerror$4;
-          return_value_strerror$4=strerror(*return_value___errno_location$3);
-          applog(4, "%s::open(): %s", (const void *)"store_appendfile", return_value_strerror$4);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          char *return_value_strerror_4;
+          return_value_strerror_4=strerror(*return_value___errno_location_3);
+          applog(4, "%s::open(): %s", (const void *)"store_appendfile", return_value_strerror_4);
           return 1;
         }
 
-        signed long int return_value_write$5;
-        return_value_write$5=write(fd, (const void *)cb->buf, cb->len);
-        ret = (unsigned long int)return_value_write$5;
+        signed long int return_value_write_5;
+        return_value_write_5=write(fd, (const void *)cb->buf, cb->len);
+        ret = (unsigned long int)return_value_write_5;
         if((signed int)ret == -1)
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          char *return_value_strerror$7;
-          return_value_strerror$7=strerror(*return_value___errno_location$6);
-          applog(4, "%s::write(): %s", (const void *)"store_appendfile", return_value_strerror$7);
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          char *return_value_strerror_7;
+          return_value_strerror_7=strerror(*return_value___errno_location_6);
+          applog(4, "%s::write(): %s", (const void *)"store_appendfile", return_value_strerror_7);
           return 1;
         }
 
@@ -8510,28 +8510,28 @@ signed int store_device(struct device *dev)
 
   else
   {
-    signed int return_value_stat$5;
-    return_value_stat$5=stat(d, &sbuf);
-    if(!(return_value_stat$5 == 0))
+    signed int return_value_stat_5;
+    return_value_stat_5=stat(d, &sbuf);
+    if(!(return_value_stat_5 == 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      if(*return_value___errno_location$4 == 2)
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      if(*return_value___errno_location_4 == 2)
       {
-        signed int return_value_store_mkdir_recursive$1;
-        return_value_store_mkdir_recursive$1=store_mkdir_recursive(d, &sbuf);
-        if(!(return_value_store_mkdir_recursive$1 == 0))
+        signed int return_value_store_mkdir_recursive_1;
+        return_value_store_mkdir_recursive_1=store_mkdir_recursive(d, &sbuf);
+        if(!(return_value_store_mkdir_recursive_1 == 0))
           return 1;
 
       }
 
       else
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        applog(4, "%s::stat(): %s", (const void *)"store_device", return_value_strerror$3);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        applog(4, "%s::stat(): %s", (const void *)"store_device", return_value_strerror_3);
         return 1;
       }
     }
@@ -8548,9 +8548,9 @@ signed int store_device(struct device *dev)
       fn_len = (unsigned long int)0;
       fn_sz = fn_len;
       did=bd2int(&dev->bdaddr);
-      signed int return_value_ll_print_dev_info$6;
-      return_value_ll_print_dev_info$6=ll_print_dev_info(did, &cb);
-      if(!(return_value_ll_print_dev_info$6 == 0))
+      signed int return_value_ll_print_dev_info_6;
+      return_value_ll_print_dev_info_6=ll_print_dev_info(did, &cb);
+      if(!(return_value_ll_print_dev_info_6 == 0))
         return 1;
 
       else
@@ -8564,32 +8564,32 @@ signed int store_device(struct device *dev)
         while((_Bool)1)
         {
           fn_sz = fn_sz + (unsigned long int)2048;
-          void *return_value_realloc$7;
-          return_value_realloc$7=realloc((void *)fn, sizeof(char) /*1ul*/  * fn_sz);
-          fn = (char *)return_value_realloc$7;
+          void *return_value_realloc_7;
+          return_value_realloc_7=realloc((void *)fn, sizeof(char) /*1ul*/  * fn_sz);
+          fn = (char *)return_value_realloc_7;
           if(fn == ((char *)NULL))
           {
-            signed int *return_value___errno_location$8;
-            return_value___errno_location$8=__errno_location();
-            char *return_value_strerror$9;
-            return_value_strerror$9=strerror(*return_value___errno_location$8);
-            applog(3, "%s::malloc(): %s", (const void *)"store_device", return_value_strerror$9);
+            signed int *return_value___errno_location_8;
+            return_value___errno_location_8=__errno_location();
+            char *return_value_strerror_9;
+            return_value_strerror_9=strerror(*return_value___errno_location_8);
+            applog(3, "%s::malloc(): %s", (const void *)"store_device", return_value_strerror_9);
             if(!(cb.buf == ((char *)NULL)))
               free((void *)cb.buf);
 
             return 1;
           }
 
-          signed int return_value_snprintf$10;
-          return_value_snprintf$10=snprintf(fn, fn_sz, "%s/%s/info", d, (const void *)tmp);
-          fn_len = (unsigned long int)return_value_snprintf$10;
+          signed int return_value_snprintf_10;
+          return_value_snprintf_10=snprintf(fn, fn_sz, "%s/%s/info", d, (const void *)tmp);
+          fn_len = (unsigned long int)return_value_snprintf_10;
           if(!(fn_len >= fn_sz))
             break;
 
         }
-        signed int return_value_store_writefile$11;
-        return_value_store_writefile$11=store_writefile(fn, fn_len, &cb);
-        if(!(return_value_store_writefile$11 == 0))
+        signed int return_value_store_writefile_11;
+        return_value_store_writefile_11=store_writefile(fn, fn_len, &cb);
+        if(!(return_value_store_writefile_11 == 0))
         {
           if(!(cb.buf == ((char *)NULL)))
             free((void *)cb.buf);
@@ -8622,15 +8622,15 @@ signed int store_device(struct device *dev)
 signed int store_mkdir_from_filename(char *d, unsigned long int d_len, struct stat *sbuf)
 {
   signed int ret = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(d_len == 0ul))
-      tmp_if_expr$1 = 47 != (signed int)d[(signed long int)d_len] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = 47 != (signed int)d[(signed long int)d_len] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     d_len = d_len - 1ul;
@@ -8657,41 +8657,41 @@ signed int store_mkdir_recursive(const char *d, struct stat *sbuf)
   dir=strdup(d);
   if(dir == ((char *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    applog(3, "%s::strdup(): %s", (const void *)"store_mkdir_recursive", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    applog(3, "%s::strdup(): %s", (const void *)"store_mkdir_recursive", return_value_strerror_2);
     return 1;
   }
 
   i = (unsigned long int)0;
-  _Bool tmp_if_expr$10;
+  _Bool tmp_if_expr_10;
   do
   {
     if((signed int)dir[(signed long int)i] == 47)
-      tmp_if_expr$10 = (_Bool)1;
+      tmp_if_expr_10 = (_Bool)1;
 
     else
-      tmp_if_expr$10 = 0 == (signed int)dir[(signed long int)i] ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$10)
+      tmp_if_expr_10 = 0 == (signed int)dir[(signed long int)i] ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_10)
     {
       if(i >= 1ul)
       {
         dir[(signed long int)i] = (char)0;
-        signed int return_value_stat$6;
-        return_value_stat$6=stat(dir, sbuf);
-        if(!(return_value_stat$6 == 0))
+        signed int return_value_stat_6;
+        return_value_stat_6=stat(dir, sbuf);
+        if(!(return_value_stat_6 == 0))
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          if(!(*return_value___errno_location$5 == 2))
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          if(!(*return_value___errno_location_5 == 2))
           {
-            signed int *return_value___errno_location$3;
-            return_value___errno_location$3=__errno_location();
-            char *return_value_strerror$4;
-            return_value_strerror$4=strerror(*return_value___errno_location$3);
-            applog(4, "%s::stat(): %s", (const void *)"store_mkdir_recursive", return_value_strerror$4);
+            signed int *return_value___errno_location_3;
+            return_value___errno_location_3=__errno_location();
+            char *return_value_strerror_4;
+            return_value_strerror_4=strerror(*return_value___errno_location_3);
+            applog(4, "%s::stat(): %s", (const void *)"store_mkdir_recursive", return_value_strerror_4);
             free((void *)dir);
             return 1;
           }
@@ -8700,15 +8700,15 @@ signed int store_mkdir_recursive(const char *d, struct stat *sbuf)
 
         else
           goto store_mkdir_recursive_next;
-        signed int return_value_mkdir$9;
-        return_value_mkdir$9=mkdir(dir, (unsigned int)(0400 | 0200 | 0100));
-        if(!(return_value_mkdir$9 == 0))
+        signed int return_value_mkdir_9;
+        return_value_mkdir_9=mkdir(dir, (unsigned int)(0400 | 0200 | 0100));
+        if(!(return_value_mkdir_9 == 0))
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          char *return_value_strerror$8;
-          return_value_strerror$8=strerror(*return_value___errno_location$7);
-          applog(4, "%s::mkdir(): %s", (const void *)"store_mkdir_recursive", return_value_strerror$8);
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          char *return_value_strerror_8;
+          return_value_strerror_8=strerror(*return_value___errno_location_7);
+          applog(4, "%s::mkdir(): %s", (const void *)"store_mkdir_recursive", return_value_strerror_8);
           free((void *)dir);
           return 1;
         }
@@ -8729,15 +8729,15 @@ signed int store_mkdir_recursive(const char *d, struct stat *sbuf)
   }
   while((_Bool)1);
   free((void *)dir);
-  signed int return_value_stat$13;
-  return_value_stat$13=stat(d, sbuf);
-  if(!(return_value_stat$13 == 0))
+  signed int return_value_stat_13;
+  return_value_stat_13=stat(d, sbuf);
+  if(!(return_value_stat_13 == 0))
   {
-    signed int *return_value___errno_location$11;
-    return_value___errno_location$11=__errno_location();
-    char *return_value_strerror$12;
-    return_value_strerror$12=strerror(*return_value___errno_location$11);
-    applog(4, "%s::stat(): %s", (const void *)"store_mkdir_recursive", return_value_strerror$12);
+    signed int *return_value___errno_location_11;
+    return_value___errno_location_11=__errno_location();
+    char *return_value_strerror_12;
+    return_value_strerror_12=strerror(*return_value___errno_location_11);
+    applog(4, "%s::stat(): %s", (const void *)"store_mkdir_recursive", return_value_strerror_12);
     return 1;
   }
 
@@ -8765,28 +8765,28 @@ signed int store_timestamp(struct device *dev)
 
   else
   {
-    signed int return_value_stat$5;
-    return_value_stat$5=stat(d, &sbuf);
-    if(!(return_value_stat$5 == 0))
+    signed int return_value_stat_5;
+    return_value_stat_5=stat(d, &sbuf);
+    if(!(return_value_stat_5 == 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      if(*return_value___errno_location$4 == 2)
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      if(*return_value___errno_location_4 == 2)
       {
-        signed int return_value_store_mkdir_recursive$1;
-        return_value_store_mkdir_recursive$1=store_mkdir_recursive(d, &sbuf);
-        if(!(return_value_store_mkdir_recursive$1 == 0))
+        signed int return_value_store_mkdir_recursive_1;
+        return_value_store_mkdir_recursive_1=store_mkdir_recursive(d, &sbuf);
+        if(!(return_value_store_mkdir_recursive_1 == 0))
           return 1;
 
       }
 
       else
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        applog(4, "%s::stat(): %s", (const void *)"store_timestamp", return_value_strerror$3);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        applog(4, "%s::stat(): %s", (const void *)"store_timestamp", return_value_strerror_3);
         return 1;
       }
     }
@@ -8802,9 +8802,9 @@ signed int store_timestamp(struct device *dev)
       memset((void *)&cb, 0, sizeof(struct cbuf) /*24ul*/ );
       fn_len = (unsigned long int)0;
       fn_sz = fn_len;
-      signed int return_value_ll_print_timestamp$6;
-      return_value_ll_print_timestamp$6=ll_print_timestamp(dev, &cb);
-      if(!(return_value_ll_print_timestamp$6 == 0))
+      signed int return_value_ll_print_timestamp_6;
+      return_value_ll_print_timestamp_6=ll_print_timestamp(dev, &cb);
+      if(!(return_value_ll_print_timestamp_6 == 0))
         return 1;
 
       else
@@ -8818,32 +8818,32 @@ signed int store_timestamp(struct device *dev)
         while((_Bool)1)
         {
           fn_sz = fn_sz + (unsigned long int)2048;
-          void *return_value_realloc$7;
-          return_value_realloc$7=realloc((void *)fn, sizeof(char) /*1ul*/  * fn_sz);
-          fn = (char *)return_value_realloc$7;
+          void *return_value_realloc_7;
+          return_value_realloc_7=realloc((void *)fn, sizeof(char) /*1ul*/  * fn_sz);
+          fn = (char *)return_value_realloc_7;
           if(fn == ((char *)NULL))
           {
-            signed int *return_value___errno_location$8;
-            return_value___errno_location$8=__errno_location();
-            char *return_value_strerror$9;
-            return_value_strerror$9=strerror(*return_value___errno_location$8);
-            applog(3, "%s::malloc(): %s", (const void *)"store_timestamp", return_value_strerror$9);
+            signed int *return_value___errno_location_8;
+            return_value___errno_location_8=__errno_location();
+            char *return_value_strerror_9;
+            return_value_strerror_9=strerror(*return_value___errno_location_8);
+            applog(3, "%s::malloc(): %s", (const void *)"store_timestamp", return_value_strerror_9);
             if(!(cb.buf == ((char *)NULL)))
               free((void *)cb.buf);
 
             return 1;
           }
 
-          signed int return_value_snprintf$10;
-          return_value_snprintf$10=snprintf(fn, fn_sz, "%s/%s/timestamps", d, (const void *)tmp);
-          fn_len = (unsigned long int)return_value_snprintf$10;
+          signed int return_value_snprintf_10;
+          return_value_snprintf_10=snprintf(fn, fn_sz, "%s/%s/timestamps", d, (const void *)tmp);
+          fn_len = (unsigned long int)return_value_snprintf_10;
           if(!(fn_len >= fn_sz))
             break;
 
         }
-        signed int return_value_store_appendfile$11;
-        return_value_store_appendfile$11=store_appendfile(fn, fn_len, &cb);
-        if(!(return_value_store_appendfile$11 == 0))
+        signed int return_value_store_appendfile_11;
+        return_value_store_appendfile_11=store_appendfile(fn, fn_len, &cb);
+        if(!(return_value_store_appendfile_11 == 0))
         {
           if(!(cb.buf == ((char *)NULL)))
             free((void *)cb.buf);
@@ -8876,20 +8876,20 @@ signed int store_writefile(char *fn, unsigned long int fn_len, struct cbuf *cb)
   struct stat sbuf;
   signed int fd;
   unsigned long int ret;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(fn == ((char *)NULL) || cb == ((struct cbuf *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(cb->buf != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(cb->buf != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 1;
 
   else
   {
-    signed int return_value_store_mkdir_from_filename$2;
-    return_value_store_mkdir_from_filename$2=store_mkdir_from_filename(fn, fn_len, &sbuf);
-    if(!(return_value_store_mkdir_from_filename$2 == 0))
+    signed int return_value_store_mkdir_from_filename_2;
+    return_value_store_mkdir_from_filename_2=store_mkdir_from_filename(fn, fn_len, &sbuf);
+    if(!(return_value_store_mkdir_from_filename_2 == 0))
       return 1;
 
     else
@@ -8904,24 +8904,24 @@ signed int store_writefile(char *fn, unsigned long int fn_len, struct cbuf *cb)
         fd=open(fn, 01 | 0100 | 01000, 0400 >> 3 | 0200 >> 3);
         if(fd == -1)
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          char *return_value_strerror$4;
-          return_value_strerror$4=strerror(*return_value___errno_location$3);
-          applog(4, "%s::open(): %s", (const void *)"store_writefile", return_value_strerror$4);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          char *return_value_strerror_4;
+          return_value_strerror_4=strerror(*return_value___errno_location_3);
+          applog(4, "%s::open(): %s", (const void *)"store_writefile", return_value_strerror_4);
           return 1;
         }
 
-        signed long int return_value_write$5;
-        return_value_write$5=write(fd, (const void *)cb->buf, cb->len);
-        ret = (unsigned long int)return_value_write$5;
+        signed long int return_value_write_5;
+        return_value_write_5=write(fd, (const void *)cb->buf, cb->len);
+        ret = (unsigned long int)return_value_write_5;
         if((signed int)ret == -1)
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          char *return_value_strerror$7;
-          return_value_strerror$7=strerror(*return_value___errno_location$6);
-          applog(4, "%s::write(): %s", (const void *)"store_writefile", return_value_strerror$7);
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          char *return_value_strerror_7;
+          return_value_strerror_7=strerror(*return_value___errno_location_6);
+          applog(4, "%s::write(): %s", (const void *)"store_writefile", return_value_strerror_7);
           return 1;
         }
 
@@ -8943,26 +8943,26 @@ signed int store_writefile(char *fn, unsigned long int fn_len, struct cbuf *cb)
 unsigned long int strlen_minus_spaces(const char *s)
 {
   unsigned long int i;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s);
-  i = return_value_strlen$1 - (unsigned long int)1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s);
+  i = return_value_strlen_1 - (unsigned long int)1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   do
   {
     if((signed int)i >= 0)
     {
       if((signed int)s[(signed long int)i] == 32)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)s[(signed long int)i] == 0 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)s[(signed long int)i] == 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(!tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(!tmp_if_expr_3)
       break;
 
     i = i - 1ul;
@@ -9007,15 +9007,15 @@ signed int threader_reap(void)
 
       else
       {
-        signed int return_value_pthread_join$3;
-        return_value_pthread_join$3=pthread_join(h->tid, (void **)(void *)0);
-        if(!(return_value_pthread_join$3 == 0))
+        signed int return_value_pthread_join_3;
+        return_value_pthread_join_3=pthread_join(h->tid, (void **)(void *)0);
+        if(!(return_value_pthread_join_3 == 0))
         {
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          char *return_value_strerror$2;
-          return_value_strerror$2=strerror(*return_value___errno_location$1);
-          applog(4, "%s::pthread_join(): %s", (const void *)"threader_reap", return_value_strerror$2);
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          char *return_value_strerror_2;
+          return_value_strerror_2=strerror(*return_value___errno_location_1);
+          applog(4, "%s::pthread_join(): %s", (const void *)"threader_reap", return_value_strerror_2);
         }
 
         else
@@ -9057,7 +9057,7 @@ signed int threader_start(enum threader_scan_types what)
   bts_run_scan = (char)1;
   st = 0;
   h = hcihead;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(h == ((struct hcicfg *)NULL)); h = h->next)
     if(!(h->enabled == 0))
     {
@@ -9065,11 +9065,11 @@ signed int threader_start(enum threader_scan_types what)
       do
       {
         if(!((signed int)thread_starter[(signed long int)i].what == SCAN_NONE))
-          tmp_if_expr$1 = thread_starter[(signed long int)i].what != what ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = thread_starter[(signed long int)i].what != what ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(!tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(!tmp_if_expr_1)
           break;
 
         i = i + 1;
@@ -9081,11 +9081,11 @@ signed int threader_start(enum threader_scan_types what)
         j=pthread_create(&h->tid, (const union pthread_attr_t *)(void *)0, thread_starter[(signed long int)i].func, (void *)h);
         if(!(j == 0))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          char *return_value_strerror$3;
-          return_value_strerror$3=strerror(*return_value___errno_location$2);
-          applog(4, "%s::pthread_create(): %s", (const void *)"threader_start", return_value_strerror$3);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          char *return_value_strerror_3;
+          return_value_strerror_3=strerror(*return_value___errno_location_2);
+          applog(4, "%s::pthread_create(): %s", (const void *)"threader_start", return_value_strerror_3);
           h->tid = (unsigned long int)0;
           return -1;
         }
@@ -9109,7 +9109,7 @@ signed int threader_start(enum threader_scan_types what)
 // file threader.c line 179
 signed int threader_stop(void)
 {
-  signed int return_value_threader_reap$1;
+  signed int return_value_threader_reap_1;
   if((signed int)threader_current == SCAN_NONE)
     return 0;
 
@@ -9118,8 +9118,8 @@ signed int threader_stop(void)
     bts_run_scan = (char)0;
     do
     {
-      return_value_threader_reap$1=threader_reap();
-      if(return_value_threader_reap$1 == 0)
+      return_value_threader_reap_1=threader_reap();
+      if(return_value_threader_reap_1 == 0)
         break;
 
       sleep((unsigned int)2);

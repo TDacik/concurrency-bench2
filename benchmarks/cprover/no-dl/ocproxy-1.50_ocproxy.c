@@ -1,58 +1,58 @@
-// #anon_enum$PBUF_RAM=0$PBUF_ROM=1$PBUF_REF=2$PBUF_POOL=3
+// #anon_enum_PBUF_RAM=0_PBUF_ROM=1_PBUF_REF=2_PBUF_POOL=3
 // file ./lwip/src/include/lwip/pbuf.h line 64
-enum anonymous$0 { PBUF_RAM=0, PBUF_ROM=1, PBUF_REF=2, PBUF_POOL=3 };
+enum anonymous_0 { PBUF_RAM=0, PBUF_ROM=1, PBUF_REF=2, PBUF_POOL=3 };
 
-// #anon_enum$PBUF_TRANSPORT=0$PBUF_IP=1$PBUF_LINK=2$PBUF_RAW=3
+// #anon_enum_PBUF_TRANSPORT=0_PBUF_IP=1_PBUF_LINK=2_PBUF_RAW=3
 // file ./lwip/src/include/lwip/pbuf.h line 57
 enum anonymous { PBUF_TRANSPORT=0, PBUF_IP=1, PBUF_LINK=2, PBUF_RAW=3 };
 
-// tag-#anon#ST[*{SYM#tag-pbuf#}$SYM#tag-pbuf#$'p'||*{SYM#tag-netif#}$SYM#tag-netif#$'netif'|]
+// tag-#anon#ST[*{SYM#tag-pbuf#}_SYM#tag-pbuf#_'p'||*{SYM#tag-netif#}_SYM#tag-netif#_'netif'|]
 // file ./lwip/src/include/lwip/tcpip.h line 202
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[*{V(*{V}$V$)->V}$V(*{V}$V$)->V$'function'||*{V}$V$'ctx'|]
+// tag-#anon#ST[*{V(*{V}_V_)->V}_V(*{V}_V_)->V_'function'||*{V}_V_'ctx'|]
 // file ./lwip/src/include/lwip/tcpip.h line 206
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[U32'dst_addr'||U16'dst_port'||U8'end'||U8'$pad0'|]
+// tag-#anon#ST[U32'dst_addr'||U16'dst_port'||U8'end'||U8'_pad0'|]
 // file src/ocproxy.c line 144
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[U32'msecs'||U32'$pad0'||*{V(*{V}$V$)->V}$V(*{V}$V$)->V$'h'||*{V}$V$'arg'|]
+// tag-#anon#ST[U32'msecs'||U32'_pad0'||*{V(*{V}_V_)->V}_V(*{V}_V_)->V_'h'||*{V}_V_'arg'|]
 // file ./lwip/src/include/lwip/tcpip.h line 211
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[U8'fqdn_len'||ARR255{U8}$U8$'fqdn_name'||U16'port'|]
+// tag-#anon#ST[U8'fqdn_len'||ARR255{U8}_U8_'fqdn_name'||U16'port'|]
 // file src/ocproxy.c line 149
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#UN[*{V(*{V}$V$|*{SYM#tag-udp_pcb#}$SYM#tag-udp_pcb#$|*{SYM#tag-pbuf#}$SYM#tag-pbuf#$|*{SYM#tag-ip_addr#}$SYM#tag-ip_addr#$|U16)->V}$V(*{V}$V$|*{SYM#tag-udp_pcb#}$SYM#tag-udp_pcb#$|*{SYM#tag-pbuf#}$SYM#tag-pbuf#$|*{SYM#tag-ip_addr#}$SYM#tag-ip_addr#$|U16)->V$'ip4'|]
+// tag-#anon#UN[*{V(*{V}_V_|*{SYM#tag-udp_pcb#}_SYM#tag-udp_pcb#_|*{SYM#tag-pbuf#}_SYM#tag-pbuf#_|*{SYM#tag-ip_addr#}_SYM#tag-ip_addr#_|U16)->V}_V(*{V}_V_|*{SYM#tag-udp_pcb#}_SYM#tag-udp_pcb#_|*{SYM#tag-pbuf#}_SYM#tag-pbuf#_|*{SYM#tag-ip_addr#}_SYM#tag-ip_addr#_|U16)->V_'ip4'|]
 // file ./lwip/src/include/lwip/udp.h line 135
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[*{SYM#tag-pbuf#}$SYM#tag-pbuf#$'p'||*{SYM#tag-netif#}$SYM#tag-netif#$'netif'|]#'inp'||SYM#tag-#anon#ST[*{V(*{V}$V$)->V}$V(*{V}$V$)->V$'function'||*{V}$V$'ctx'|]#'cb'||SYM#tag-#anon#ST[U32'msecs'||U32'$pad0'||*{V(*{V}$V$)->V}$V(*{V}$V$)->V$'h'||*{V}$V$'arg'|]#'tmo'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[*{SYM#tag-pbuf#}_SYM#tag-pbuf#_'p'||*{SYM#tag-netif#}_SYM#tag-netif#_'netif'|]#'inp'||SYM#tag-#anon#ST[*{V(*{V}_V_)->V}_V(*{V}_V_)->V_'function'||*{V}_V_'ctx'|]#'cb'||SYM#tag-#anon#ST[U32'msecs'||U32'_pad0'||*{V(*{V}_V_)->V}_V(*{V}_V_)->V_'h'||*{V}_V_'arg'|]#'tmo'|]
 // file ./lwip/src/include/lwip/tcpip.h line 192
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U32'dst_addr'||U16'dst_port'||U8'end'||U8'$pad0'|]#'ipv4'||SYM#tag-#anon#ST[U8'fqdn_len'||ARR255{U8}$U8$'fqdn_name'||U16'port'|]#'fqdn'||U2080'$pad'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U32'dst_addr'||U16'dst_port'||U8'end'||U8'_pad0'|]#'ipv4'||SYM#tag-#anon#ST[U8'fqdn_len'||ARR255{U8}_U8_'fqdn_name'||U16'port'|]#'fqdn'||U2080'_pad'|]
 // file src/ocproxy.c line 143
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$4;
+union anonymous_4;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -325,7 +325,7 @@ static void cb_tcp_tmr(signed int fd, signed short int what, void *ctx);
 extern signed int close(signed int);
 // cond_wait
 // file contrib/ports/unix/sys_arch.c line 375
-static unsigned int cond_wait(union anonymous$3 *cond, union anonymous$4 *mutex, unsigned int timeout);
+static unsigned int cond_wait(union anonymous_3 *cond, union anonymous_4 *mutex, unsigned int timeout);
 // connect_cb
 // file src/ocproxy.c line 501
 static signed char connect_cb(void *arg, struct tcp_pcb *tpcb, signed char err);
@@ -344,15 +344,15 @@ static unsigned char dns_compare_name(unsigned char *query, unsigned char *respo
 // dns_enqueue
 // file lwip/src/core/dns.c line 872
 static signed char dns_enqueue(const char *name, unsigned long int hostnamelen, void (*found)(const char *, struct ip_addr *, void *), void *callback_arg);
-// dns_enqueue::found$object
+// dns_enqueue::found_object
 //
-void found$object(const char *, struct ip_addr *, void *);
+void found_object(const char *, struct ip_addr *, void *);
 // dns_gethostbyname
 // file lwip/src/core/dns.c line 949
 signed char dns_gethostbyname(const char *hostname, struct ip_addr *addr, void (*found)(const char *, struct ip_addr *, void *), void *callback_arg);
-// dns_gethostbyname::found$object
+// dns_gethostbyname::found_object
 //
-void found$object(const char *, struct ip_addr *, void *);
+void found_object(const char *, struct ip_addr *, void *);
 // dns_getserver
 // file lwip/src/core/dns.c line 289
 struct ip_addr dns_getserver(unsigned char numdns);
@@ -383,9 +383,9 @@ void dns_tmr(void);
 // enqueue_dns_req
 // file src/ocproxy.c line 569
 static void enqueue_dns_req(struct ocp_sock *s, const char *hostname, const char *domain, void (*found)(const char *, struct ip_addr *, void *));
-// enqueue_dns_req::found$object
+// enqueue_dns_req::found_object
 //
-void found$object(const char *, struct ip_addr *, void *);
+void found_object(const char *, struct ip_addr *, void *);
 // evconnlistener_new_bind
 // file /usr/include/event2/listener.h line 108
 struct evconnlistener * evconnlistener_new_bind(struct event_base *, void (*)(struct evconnlistener *, signed int, struct sockaddr *, signed int, void *), void *, unsigned int, signed int, struct sockaddr *, signed int);
@@ -557,9 +557,9 @@ void * list_first(struct list *list);
 // list_map
 // file contrib/ports/unix/netif/list.c line 144
 void list_map(struct list *list, void (*func)(void *));
-// list_map::func$object
+// list_map::func_object
 //
-void func$object(void *);
+void func_object(void *);
 // list_new
 // file contrib/ports/unix/netif/list.c line 41
 struct list * list_new(signed int size);
@@ -632,12 +632,12 @@ extern void * memset(void *, signed int, unsigned long int);
 // netif_add
 // file lwip/src/core/netif.c line 174
 struct netif * netif_add(struct netif *netif, struct ip_addr *ipaddr, struct ip_addr *netmask, struct ip_addr *gw, void *state, signed char (*init)(struct netif *), signed char (*input)(struct pbuf *, struct netif *));
-// netif_add::init$object
+// netif_add::init_object
 //
-signed char init$object(struct netif *);
-// netif_add::input$object
+signed char init_object(struct netif *);
+// netif_add::input_object
 //
-signed char input$object(struct pbuf *, struct netif *);
+signed char input_object(struct pbuf *, struct netif *);
 // netif_find
 // file lwip/src/core/netif.c line 353
 struct netif * netif_find(char *name);
@@ -680,15 +680,15 @@ static void new_conn_cb(struct evconnlistener *listener, signed int fd, struct s
 // new_listener
 // file src/ocproxy.c line 822
 static struct ocp_sock * new_listener(signed int port, void (*cb)(struct evconnlistener *, signed int, struct sockaddr *, signed int, void *));
-// new_listener::cb$object
+// new_listener::cb_object
 //
-void cb$object(struct evconnlistener *, signed int, struct sockaddr *, signed int, void *);
+void cb_object(struct evconnlistener *, signed int, struct sockaddr *, signed int, void *);
 // new_periodic_event
 // file src/ocproxy.c line 741
 static void new_periodic_event(void (*cb)(signed int, signed short int, void *), void *arg, signed int timeout_ms);
-// new_periodic_event::cb$object
+// new_periodic_event::cb_object
 //
-void cb$object(signed int, signed short int, void *);
+void cb_object(signed int, signed short int, void *);
 // ocp_atoi
 // file src/ocproxy.c line 221
 static signed int ocp_atoi(const char *s);
@@ -698,15 +698,15 @@ static void ocp_sock_del(struct ocp_sock *s);
 // ocp_sock_new
 // file src/ocproxy.c line 230
 static struct ocp_sock * ocp_sock_new(signed int fd, void (*cb)(signed int, signed short int, void *), signed int flags);
-// ocp_sock_new::cb$object
+// ocp_sock_new::cb_object
 //
-void cb$object(signed int, signed short int, void *);
+void cb_object(signed int, signed short int, void *);
 // pbuf_alloc
 // file ./lwip/src/include/lwip/pbuf.h line 153
-struct pbuf * pbuf_alloc(enum anonymous layer, unsigned short int length, enum anonymous$0 type);
+struct pbuf * pbuf_alloc(enum anonymous layer, unsigned short int length, enum anonymous_0 type);
 // pbuf_alloced_custom
 // file lwip/src/core/pbuf.c line 367
-struct pbuf * pbuf_alloced_custom(enum anonymous l, unsigned short int length, enum anonymous$0 type, struct pbuf_custom *p, void *payload_mem, unsigned short int payload_mem_len);
+struct pbuf * pbuf_alloced_custom(enum anonymous l, unsigned short int length, enum anonymous_0 type, struct pbuf_custom *p, void *payload_mem, unsigned short int payload_mem_len);
 // pbuf_cat
 // file lwip/src/core/pbuf.c line 745
 void pbuf_cat(struct pbuf *h, struct pbuf *t);
@@ -790,34 +790,34 @@ static void plug_holes(struct mem *mem);
 extern signed int printf(const char *, ...);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$3 *);
+extern signed int pthread_cond_broadcast(union anonymous_3 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$3 *);
+extern signed int pthread_cond_destroy(union anonymous_3 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$3 *, const union anonymous$5 *);
+extern signed int pthread_cond_init(union anonymous_3 *, const union anonymous_5 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$3 *, union anonymous$4 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_3 *, union anonymous_4 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$3 *, union anonymous$4 *);
+extern signed int pthread_cond_wait(union anonymous_3 *, union anonymous_4 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$4 *);
+extern signed int pthread_mutex_destroy(union anonymous_4 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$4 *, const union anonymous$5 *);
+extern signed int pthread_mutex_init(union anonymous_4 *, const union anonymous_5 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$4 *);
+extern signed int pthread_mutex_lock(union anonymous_4 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$4 *);
+extern signed int pthread_mutex_unlock(union anonymous_4 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -944,45 +944,45 @@ void sys_sem_signal(struct sys_sem **s);
 // sys_thread_new
 // file ./lwip/src/include/lwip/sys.h line 223
 struct sys_thread * sys_thread_new(const char *name, void (*function)(void *), void *arg, signed int stacksize, signed int prio);
-// sys_thread_new::function$object
+// sys_thread_new::function_object
 //
-void function$object(void *);
+void function_object(void *);
 // sys_timeout
 // file lwip/src/core/timers.c line 325
 void sys_timeout(unsigned int msecs, void (*handler)(void *), void *arg);
-// sys_timeout::handler$object
+// sys_timeout::handler_object
 //
-void handler$object(void *);
+void handler_object(void *);
 // sys_timeouts_init
 // file ./lwip/src/include/lwip/timers.h line 77
 void sys_timeouts_init(void);
 // sys_timeouts_mbox_fetch
 // file lwip/src/core/timers.c line 498
 void sys_timeouts_mbox_fetch(struct sys_mbox **mbox, void **msg);
-// sys_timeouts_mbox_fetch::1::handler$object
+// sys_timeouts_mbox_fetch::1::handler_object
 //
-void handler$object(void *);
+void handler_object(void *);
 // sys_untimeout
 // file lwip/src/core/timers.c line 396
 void sys_untimeout(void (*handler)(void *), void *arg);
-// sys_untimeout::handler$object
+// sys_untimeout::handler_object
 //
-void handler$object(void *);
+void handler_object(void *);
 // tcp_abandon
 // file lwip/src/core/tcp.c line 360
 void tcp_abandon(struct tcp_pcb *pcb, signed int reset);
-// tcp_abandon::1::errf$object
+// tcp_abandon::1::errf_object
 //
-void errf$object(void *, signed char);
+void errf_object(void *, signed char);
 // tcp_abort
 // file ./lwip/src/include/lwip/tcp.h line 375
 void tcp_abort(struct tcp_pcb *pcb);
 // tcp_accept
 // file lwip/src/core/tcp.c line 1529
 void tcp_accept(struct tcp_pcb *pcb, signed char (*accept)(void *, struct tcp_pcb *, signed char));
-// tcp_accept::accept$object
+// tcp_accept::accept_object
 //
-signed char accept$object(void *, struct tcp_pcb *, signed char);
+signed char accept_object(void *, struct tcp_pcb *, signed char);
 // tcp_accept_null
 // file lwip/src/core/tcp.c line 500
 static signed char tcp_accept_null(void *arg, struct tcp_pcb *pcb, signed char err);
@@ -1004,9 +1004,9 @@ static signed char tcp_close_shutdown(struct tcp_pcb *pcb, unsigned char rst_on_
 // tcp_connect
 // file lwip/src/core/tcp.c line 728
 signed char tcp_connect(struct tcp_pcb *pcb, struct ip_addr *ipaddr, unsigned short int port, signed char (*connected)(void *, struct tcp_pcb *, signed char));
-// tcp_connect::connected$object
+// tcp_connect::connected_object
 //
-signed char connected$object(void *, struct tcp_pcb *, signed char);
+signed char connected_object(void *, struct tcp_pcb *, signed char);
 // tcp_create_segment
 // file lwip/src/core/tcp_out.c line 162
 static struct tcp_seg * tcp_create_segment(struct tcp_pcb *pcb, struct pbuf *p, unsigned char flags, unsigned int seqno, unsigned char optflags);
@@ -1022,9 +1022,9 @@ signed char tcp_enqueue_flags(struct tcp_pcb *pcb, unsigned char flags);
 // tcp_err
 // file lwip/src/core/tcp.c line 1514
 void tcp_err(struct tcp_pcb *pcb, void (*err)(void *, signed char));
-// tcp_err::err$object
+// tcp_err::err_object
 //
-void err$object(void *, signed char);
+void err_object(void *, signed char);
 // tcp_err_cb
 // file src/ocproxy.c line 486
 static void tcp_err_cb(void *arg, signed char err);
@@ -1091,9 +1091,9 @@ void tcp_pcb_remove(struct tcp_pcb **pcblist, struct tcp_pcb *pcb);
 // tcp_poll
 // file lwip/src/core/tcp.c line 1545
 void tcp_poll(struct tcp_pcb *pcb, signed char (*poll)(void *, struct tcp_pcb *), unsigned char interval);
-// tcp_poll::poll$object
+// tcp_poll::poll_object
 //
-signed char poll$object(void *, struct tcp_pcb *);
+signed char poll_object(void *, struct tcp_pcb *);
 // tcp_process
 // file lwip/src/core/tcp_in.c line 666
 static signed char tcp_process(struct tcp_pcb *pcb);
@@ -1106,9 +1106,9 @@ static void tcp_receive(struct tcp_pcb *pcb);
 // tcp_recv
 // file lwip/src/core/tcp.c line 1485
 void tcp_recv(struct tcp_pcb *pcb, signed char (*recv)(void *, struct tcp_pcb *, struct pbuf *, signed char));
-// tcp_recv::recv$object
+// tcp_recv::recv_object
 //
-signed char recv$object(void *, struct tcp_pcb *, struct pbuf *, signed char);
+signed char recv_object(void *, struct tcp_pcb *, struct pbuf *, signed char);
 // tcp_recv_null
 // file lwip/src/core/tcp.c line 1267
 signed char tcp_recv_null(void *arg, struct tcp_pcb *pcb, struct pbuf *p, signed char err);
@@ -1145,9 +1145,9 @@ signed char tcp_send_fin(struct tcp_pcb *pcb);
 // tcp_sent
 // file lwip/src/core/tcp.c line 1499
 void tcp_sent(struct tcp_pcb *pcb, signed char (*sent)(void *, struct tcp_pcb *, unsigned short int));
-// tcp_sent::sent$object
+// tcp_sent::sent_object
 //
-signed char sent$object(void *, struct tcp_pcb *, unsigned short int);
+signed char sent_object(void *, struct tcp_pcb *, unsigned short int);
 // tcp_setprio
 // file lwip/src/core/tcp.c line 1233
 void tcp_setprio(struct tcp_pcb *pcb, unsigned char prio);
@@ -1157,9 +1157,9 @@ signed char tcp_shutdown(struct tcp_pcb *pcb, signed int shut_rx, signed int shu
 // tcp_slowtmr
 // file lwip/src/core/tcp.c line 835
 void tcp_slowtmr(void);
-// tcp_slowtmr::1::2::14::err_fn$object
+// tcp_slowtmr::1::2::14::err_fn_object
 //
-void err_fn$object(void *, signed char);
+void err_fn_object(void *, signed char);
 // tcp_timer_needed
 // file ./lwip/src/include/lwip/tcp_impl.h line 529
 void tcp_timer_needed(void);
@@ -1190,27 +1190,27 @@ void tcpdump_init(void);
 // tcpip_callback_with_block
 // file ./lwip/src/include/lwip/tcpip.h line 154
 signed char tcpip_callback_with_block(void (*function)(void *), void *ctx, unsigned char block);
-// tcpip_callback_with_block::function$object
+// tcpip_callback_with_block::function_object
 //
-void function$object(void *);
+void function_object(void *);
 // tcpip_callbackmsg_delete
 // file lwip/src/api/tcpip.c line 480
 void tcpip_callbackmsg_delete(struct tcpip_callback_msg *msg);
 // tcpip_callbackmsg_new
 // file lwip/src/api/tcpip.c line 463
 struct tcpip_callback_msg * tcpip_callbackmsg_new(void (*function)(void *), void *ctx);
-// tcpip_callbackmsg_new::function$object
+// tcpip_callbackmsg_new::function_object
 //
-void function$object(void *);
+void function_object(void *);
 // tcpip_init
 // file lwip/src/api/tcpip.c line 510
 void tcpip_init(void (*initfunc)(void *), void *arg);
-// tcpip_init::initfunc$object
+// tcpip_init::initfunc_object
 //
-void initfunc$object(void *);
-// tcpip_init_done$object
+void initfunc_object(void *);
+// tcpip_init_done_object
 //
-void tcpip_init_done$object(void *);
+void tcpip_init_done_object(void *);
 // tcpip_input
 // file lwip/src/api/tcpip.c line 184
 signed char tcpip_input(struct pbuf *p, struct netif *inp);
@@ -1223,18 +1223,18 @@ static void tcpip_thread(void *arg);
 // tcpip_timeout
 // file lwip/src/api/tcpip.c line 270
 signed char tcpip_timeout(unsigned int msecs, void (*h)(void *), void *arg);
-// tcpip_timeout::h$object
+// tcpip_timeout::h_object
 //
-void h$object(void *);
+void h_object(void *);
 // tcpip_trycallback
 // file lwip/src/api/tcpip.c line 493
 signed char tcpip_trycallback(struct tcpip_callback_msg *msg);
 // tcpip_untimeout
 // file lwip/src/api/tcpip.c line 299
 signed char tcpip_untimeout(void (*h)(void *), void *arg);
-// tcpip_untimeout::h$object
+// tcpip_untimeout::h_object
 //
-void h$object(void *);
+void h_object(void *);
 // udp_bind
 // file ./lwip/src/include/lwip/udp.h line 149
 signed char udp_bind(struct udp_pcb *pcb, struct ip_addr *ipaddr, unsigned short int port);
@@ -1259,9 +1259,9 @@ static unsigned short int udp_new_port(void);
 // udp_recv
 // file ./lwip/src/include/lwip/udp.h line 154
 void udp_recv(struct udp_pcb *pcb, void (*recv)(void *, struct udp_pcb *, struct pbuf *, struct ip_addr *, unsigned short int), void *recv_arg);
-// udp_recv::recv$object
+// udp_recv::recv_object
 //
-void recv$object(void *, struct udp_pcb *, struct pbuf *, struct ip_addr *, unsigned short int);
+void recv_object(void *, struct udp_pcb *, struct pbuf *, struct ip_addr *, unsigned short int);
 // udp_remove
 // file lwip/src/core/udp.c line 1071
 void udp_remove(struct udp_pcb *pcb);
@@ -1296,7 +1296,7 @@ extern signed long int writev(signed int, struct iovec *, signed int);
 // file src/ocproxy.c line 213
 static char * xstrdup(const char *s);
 
-struct anonymous$9
+struct anonymous_9
 {
   // p
   struct pbuf *p;
@@ -1304,7 +1304,7 @@ struct anonymous$9
   struct netif *netif;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // function
   void (*function)(void *);
@@ -1312,7 +1312,7 @@ struct anonymous$10
   void *ctx;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __lock
   signed int __lock;
@@ -1332,7 +1332,7 @@ struct anonymous$2
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // dst_addr
   unsigned int dst_addr;
@@ -1342,7 +1342,7 @@ struct anonymous$6
   unsigned char end;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // msecs
   unsigned int msecs;
@@ -1352,7 +1352,7 @@ struct anonymous$11
   void *arg;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // fqdn_len
   unsigned char fqdn_len;
@@ -1362,13 +1362,13 @@ struct anonymous$7
   unsigned short int port;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // ip4
   void (*ip4)(void *, struct udp_pcb *, struct pbuf *, struct ip_addr *, unsigned short int);
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __size
   char __size[4l];
@@ -1376,32 +1376,32 @@ union anonymous$5
   signed int __align;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // inp
-  struct anonymous$9 inp;
+  struct anonymous_9 inp;
   // cb
-  struct anonymous$10 cb;
+  struct anonymous_10 cb;
   // tmo
-  struct anonymous$11 tmo;
+  struct anonymous_11 tmo;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
-  struct anonymous$2 __data;
+  struct anonymous_2 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // ipv4
-  struct anonymous$6 ipv4;
+  struct anonymous_6 ipv4;
   // fqdn
-  struct anonymous$7 fqdn;
+  struct anonymous_7 fqdn;
 };
 
 struct __pthread_internal_list
@@ -1432,7 +1432,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1897,7 +1897,7 @@ struct socks_req
   // atyp
   unsigned char atyp;
   // u
-  union anonymous$8 u;
+  union anonymous_8 u;
 } __attribute__ ((__packed__));
 
 struct stats_proto
@@ -2007,9 +2007,9 @@ struct sys_sem
   // c
   unsigned int c;
   // cond
-  union anonymous$3 cond;
+  union anonymous_3 cond;
   // mutex
-  union anonymous$4 mutex;
+  union anonymous_4 mutex;
 };
 
 struct sys_thread
@@ -2229,7 +2229,7 @@ struct tcpip_msg
   // sem
   struct sys_sem **sem;
   // msg
-  union anonymous$12 msg;
+  union anonymous_12 msg;
 };
 
 struct timespec
@@ -2301,7 +2301,7 @@ struct udp_pcb
   // remote_port
   unsigned short int remote_port;
   // recv
-  union anonymous$1 recv;
+  union anonymous_1 recv;
   // recv_arg
   void *recv_arg;
 };
@@ -2407,7 +2407,7 @@ struct stats_ lwip_stats;
 static signed int lwprot_count = 0;
 // lwprot_mutex
 // file contrib/ports/unix/sys_arch.c line 97
-static union anonymous$4 lwprot_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_4 lwprot_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // lwprot_thread
@@ -2575,7 +2575,7 @@ static unsigned short int tcplen;
 static struct sys_thread *threads = (struct sys_thread *)(void *)0;
 // threads_mutex
 // file contrib/ports/unix/sys_arch.c line 67
-static union anonymous$4 threads_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_4 threads_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // udp_pcbs
@@ -2619,29 +2619,29 @@ static void cb_dns_tmr(signed int fd, signed short int what, void *ctx)
 static void cb_housekeeping(signed int fd, signed short int what, void *ctx)
 {
   signed int *vpnfd = (signed int *)ctx;
-  signed long int return_value_write$1;
-  return_value_write$1=write(*vpnfd, (const void *)vpnfd, (unsigned long int)0);
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$2;
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
-  if(!(return_value_write$1 >= 0l))
+  signed long int return_value_write_1;
+  return_value_write_1=write(*vpnfd, (const void *)vpnfd, (unsigned long int)0);
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_2;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
+  if(!(return_value_write_1 >= 0l))
   {
-    return_value___errno_location$2=__errno_location();
-    if(*return_value___errno_location$2 == 111)
-      tmp_if_expr$4 = (_Bool)1;
+    return_value___errno_location_2=__errno_location();
+    if(*return_value___errno_location_2 == 111)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$3=__errno_location();
-      tmp_if_expr$4 = *return_value___errno_location$3 == 107 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_3=__errno_location();
+      tmp_if_expr_4 = *return_value___errno_location_3 == 107 ? (_Bool)1 : (_Bool)0;
     }
-    tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$5 = (_Bool)0;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = (_Bool)0;
+  if(tmp_if_expr_5)
     vpn_conn_down();
 
   else
@@ -2667,7 +2667,7 @@ static void cb_tcp_tmr(signed int fd, signed short int what, void *ctx)
 
 // cond_wait
 // file contrib/ports/unix/sys_arch.c line 375
-static unsigned int cond_wait(union anonymous$3 *cond, union anonymous$4 *mutex, unsigned int timeout)
+static unsigned int cond_wait(union anonymous_3 *cond, union anonymous_4 *mutex, unsigned int timeout)
 {
   signed long int tdiff;
   signed long int sec;
@@ -2760,9 +2760,9 @@ static void dns_check_entry(unsigned char i)
       while((_Bool)0);
 
   while((_Bool)0);
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_5;
   switch((signed int)pEntry->state)
   {
     case 1:
@@ -2789,16 +2789,16 @@ static void dns_check_entry(unsigned char i)
           if(!(1 + (signed int)pEntry->numdns >= 2))
           {
             if(dns_servers + (signed long int)(1 + (signed int)pEntry->numdns) == ((struct ip_addr *)NULL))
-              tmp_if_expr$2 = (_Bool)1;
+              tmp_if_expr_2 = (_Bool)1;
 
             else
-              tmp_if_expr$2 = (&dns_servers[(signed long int)((signed int)pEntry->numdns + 1)])->addr == (unsigned int)0x00000000UL ? (_Bool)1 : (_Bool)0;
-            tmp_if_expr$3 = !tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_2 = (&dns_servers[(signed long int)((signed int)pEntry->numdns + 1)])->addr == (unsigned int)0x00000000UL ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = !tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = (_Bool)0;
+          if(tmp_if_expr_3)
           {
             pEntry->numdns = pEntry->numdns + 1;
             pEntry->tmr = (unsigned char)1;
@@ -2832,14 +2832,14 @@ static void dns_check_entry(unsigned char i)
     case 3:
     {
       if(pEntry->ttl == 0u)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
         pEntry->ttl = pEntry->ttl - 1u;
-        tmp_if_expr$5 = pEntry->ttl == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = pEntry->ttl == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
+      if(tmp_if_expr_5)
       {
         while((_Bool)0)
           ;
@@ -2869,12 +2869,12 @@ static void dns_check_entry(unsigned char i)
 static unsigned char dns_compare_name(unsigned char *query, unsigned char *response)
 {
   unsigned char n;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   do
   {
-    tmp_post$1 = response;
+    tmp_post_1 = response;
     response = response + 1l;
-    n = *tmp_post$1;
+    n = *tmp_post_1;
     if((0xc0 & (signed int)n) == 0xc0)
       break;
 
@@ -2924,15 +2924,15 @@ static signed char dns_enqueue(const char *name, unsigned long int hostnamelen, 
     }
 
   }
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)i == 128)
   {
     if((signed int)lseqi >= 128)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)dns_table[(signed long int)lseqi].state != 3 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)dns_table[(signed long int)lseqi].state != 3 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       while((_Bool)0)
         ;
@@ -2949,9 +2949,9 @@ static signed char dns_enqueue(const char *name, unsigned long int hostnamelen, 
   while((_Bool)0)
     ;
   pEntry->state = (unsigned char)1;
-  unsigned char tmp_post$2 = dns_seqno;
+  unsigned char tmp_post_2 = dns_seqno;
   dns_seqno = dns_seqno + 1;
-  pEntry->seqno = tmp_post$2;
+  pEntry->seqno = tmp_post_2;
   pEntry->found = found;
   pEntry->arg = callback_arg;
   namelen = hostnamelen < (unsigned long int)(256 - 1) ? hostnamelen : (unsigned long int)(256 - 1);
@@ -2967,13 +2967,13 @@ signed char dns_gethostbyname(const char *hostname, struct ip_addr *addr, void (
 {
   unsigned int ipaddr;
   unsigned long int hostnamelen;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(hostname == ((const char *)NULL) || addr == ((struct ip_addr *)NULL) || dns_pcb == ((struct udp_pcb *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(hostname[(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(hostname[(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return (signed char)-14;
 
   else
@@ -2996,9 +2996,9 @@ signed char dns_gethostbyname(const char *hostname, struct ip_addr *addr, void (
 
       else
       {
-        signed char return_value_dns_enqueue$2;
-        return_value_dns_enqueue$2=dns_enqueue(hostname, hostnamelen, found, callback_arg);
-        return return_value_dns_enqueue$2;
+        signed char return_value_dns_enqueue_2;
+        return_value_dns_enqueue_2=dns_enqueue(hostname, hostnamelen, found, callback_arg);
+        return return_value_dns_enqueue_2;
       }
     }
   }
@@ -3045,12 +3045,12 @@ void dns_init(void)
 static unsigned int dns_lookup(const char *name)
 {
   unsigned char i = (unsigned char)0;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; !((signed int)i >= 128); i = i + 1)
     if((signed int)dns_table[(signed long int)i].state == 3)
     {
-      return_value_strcmp$1=strcmp(name, dns_table[(signed long int)i].name);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(name, dns_table[(signed long int)i].name);
+      if(return_value_strcmp_1 == 0)
       {
         while((_Bool)0)
           ;
@@ -3071,12 +3071,12 @@ static unsigned int dns_lookup(const char *name)
 static unsigned char * dns_parse_name(unsigned char *query)
 {
   unsigned char n;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   do
   {
-    tmp_post$1 = query;
+    tmp_post_1 = query;
     query = query + 1l;
-    n = *tmp_post$1;
+    n = *tmp_post_1;
     if((0xc0 & (signed int)n) == 0xc0)
       break;
 
@@ -3103,8 +3103,8 @@ static void dns_recv(void *arg, struct udp_pcb *pcb, struct pbuf *p, struct ip_a
   (void)pcb;
   (void)addr;
   (void)port;
-  unsigned short int return_value_pbuf_copy_partial$6;
-  _Bool tmp_if_expr$1;
+  unsigned short int return_value_pbuf_copy_partial_6;
+  _Bool tmp_if_expr_1;
   if((signed int)p->tot_len >= 513)
     while((_Bool)0)
       ;
@@ -3116,8 +3116,8 @@ static void dns_recv(void *arg, struct udp_pcb *pcb, struct pbuf *p, struct ip_a
 
     else
     {
-      return_value_pbuf_copy_partial$6=pbuf_copy_partial(p, (void *)dns_payload, p->tot_len, (unsigned short int)0);
-      if(return_value_pbuf_copy_partial$6 == p->tot_len)
+      return_value_pbuf_copy_partial_6=pbuf_copy_partial(p, (void *)dns_payload, p->tot_len, (unsigned short int)0);
+      if(return_value_pbuf_copy_partial_6 == p->tot_len)
       {
         hdr = (struct dns_hdr *)dns_payload;
         i=lwip_htons(hdr->id);
@@ -3131,34 +3131,34 @@ static void dns_recv(void *arg, struct udp_pcb *pcb, struct pbuf *p, struct ip_a
             nquestions=lwip_htons(hdr->numquestions);
             nanswers=lwip_htons(hdr->numanswers);
             if((0x80 & (signed int)hdr->flags1) == 0)
-              tmp_if_expr$1 = (_Bool)1;
+              tmp_if_expr_1 = (_Bool)1;
 
             else
-              tmp_if_expr$1 = (signed int)pEntry->err != 0 ? (_Bool)1 : (_Bool)0;
-            if(!((signed int)nquestions == 1) || tmp_if_expr$1)
+              tmp_if_expr_1 = (signed int)pEntry->err != 0 ? (_Bool)1 : (_Bool)0;
+            if(!((signed int)nquestions == 1) || tmp_if_expr_1)
             {
               while((_Bool)0)
                 ;
               goto responseerr;
             }
 
-            unsigned char return_value_dns_compare_name$2;
-            return_value_dns_compare_name$2=dns_compare_name((unsigned char *)pEntry->name, (unsigned char *)dns_payload + (signed long int)12);
-            if(!((signed int)return_value_dns_compare_name$2 == 0))
+            unsigned char return_value_dns_compare_name_2;
+            return_value_dns_compare_name_2=dns_compare_name((unsigned char *)pEntry->name, (unsigned char *)dns_payload + (signed long int)12);
+            if(!((signed int)return_value_dns_compare_name_2 == 0))
             {
               while((_Bool)0)
                 ;
               goto responseerr;
             }
 
-            unsigned char *return_value_dns_parse_name$3;
-            return_value_dns_parse_name$3=dns_parse_name((unsigned char *)dns_payload + (signed long int)12);
-            pHostname = (char *)return_value_dns_parse_name$3 + (signed long int)4;
+            unsigned char *return_value_dns_parse_name_3;
+            return_value_dns_parse_name_3=dns_parse_name((unsigned char *)dns_payload + (signed long int)12);
+            pHostname = (char *)return_value_dns_parse_name_3 + (signed long int)4;
             while((signed int)nanswers >= 1)
             {
-              unsigned char *return_value_dns_parse_name$4;
-              return_value_dns_parse_name$4=dns_parse_name((unsigned char *)pHostname);
-              pHostname = (char *)return_value_dns_parse_name$4;
+              unsigned char *return_value_dns_parse_name_4;
+              return_value_dns_parse_name_4=dns_parse_name((unsigned char *)pHostname);
+              pHostname = (char *)return_value_dns_parse_name_4;
               memcpy((void *)&ans, (const void *)pHostname, (unsigned long int)10);
               if((signed int)ans.cls == 256 && (unsigned long int)ans.len == 1024ul && (signed int)ans.type == 256)
               {
@@ -3184,9 +3184,9 @@ static void dns_recv(void *arg, struct udp_pcb *pcb, struct pbuf *p, struct ip_a
 
               else
               {
-                unsigned short int return_value_lwip_htons$5;
-                return_value_lwip_htons$5=lwip_htons(ans.len);
-                pHostname = pHostname + (signed long int)10 + (signed long int)return_value_lwip_htons$5;
+                unsigned short int return_value_lwip_htons_5;
+                return_value_lwip_htons_5=lwip_htons(ans.len);
+                pHostname = pHostname + (signed long int)10 + (signed long int)return_value_lwip_htons_5;
               }
               nanswers = nanswers - 1;
             }
@@ -3247,15 +3247,15 @@ static signed char dns_send(unsigned char numdns, const char *name, unsigned cha
       while((_Bool)0);
 
   while((_Bool)0);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(dns_servers + (signed long int)numdns == ((struct ip_addr *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (&dns_servers[(signed long int)numdns])->addr == (unsigned int)0x00000000UL ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (&dns_servers[(signed long int)numdns])->addr == (unsigned int)0x00000000UL ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       do
       {
         printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"dns server has no IP address set", 573, (const void *)"lwip/src/core/dns.c");
@@ -3266,9 +3266,9 @@ static signed char dns_send(unsigned char numdns, const char *name, unsigned cha
 
   }
   while((_Bool)0);
-  p=pbuf_alloc((enum anonymous)PBUF_TRANSPORT, (unsigned short int)(12 + 256 + 1 + 4), (enum anonymous$0)PBUF_RAM);
-  _Bool tmp_if_expr$2;
-  char *tmp_post$3;
+  p=pbuf_alloc((enum anonymous)PBUF_TRANSPORT, (unsigned short int)(12 + 256 + 1 + 4), (enum anonymous_0)PBUF_RAM);
+  _Bool tmp_if_expr_2;
+  char *tmp_post_3;
   if(!(p == ((struct pbuf *)NULL)))
   {
     unsigned short int realloc_size;
@@ -3300,11 +3300,11 @@ static signed char dns_send(unsigned char numdns, const char *name, unsigned cha
       do
       {
         if(!((signed int)*pHostname == 46))
-          tmp_if_expr$2 = (signed int)*pHostname != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)*pHostname != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(!tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(!tmp_if_expr_2)
           break;
 
         *query = *pHostname;
@@ -3316,9 +3316,9 @@ static signed char dns_send(unsigned char numdns, const char *name, unsigned cha
       *nptr = (char)n;
     }
     while(!((signed int)*pHostname == 0));
-    tmp_post$3 = query;
+    tmp_post_3 = query;
     query = query + 1l;
-    *tmp_post$3 = (char)0;
+    *tmp_post_3 = (char)0;
     qry.type = (unsigned short int)((1 & 0xff) << 8 | (1 & 0xff00) >> 8);
     qry.cls = (unsigned short int)((1 & 0xff) << 8 | (1 & 0xff00) >> 8);
     memcpy((void *)query, (const void *)&qry, (unsigned long int)4);
@@ -3349,15 +3349,15 @@ static signed char dns_send(unsigned char numdns, const char *name, unsigned cha
 // file lwip/src/core/dns.c line 273
 void dns_setserver(unsigned char numdns, struct ip_addr *dnsserver)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(dnsserver == ((struct ip_addr *)NULL)) && !(dns_pcb == ((struct udp_pcb *)NULL)) && !((signed int)numdns >= 2))
   {
     if(dnsserver == ((struct ip_addr *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = dnsserver->addr == (unsigned int)0x00000000UL ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = dnsserver->addr == (unsigned int)0x00000000UL ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
       dns_servers[(signed long int)numdns] = *dnsserver;
 
   }
@@ -3514,9 +3514,9 @@ void icmp_input(struct pbuf *p, struct netif *inp)
   lwip_stats.icmp.recv = lwip_stats.icmp.recv + 1;
   iphdr = (struct ip_hdr *)ip_data.current_ip4_header;
   hlen = (signed short int)(((signed int)iphdr->_v_hl & 0x0f) * 4);
-  unsigned short int return_value_inet_chksum_pbuf$2;
-  unsigned char return_value_pbuf_header$7;
-  unsigned char return_value_pbuf_header$8;
+  unsigned short int return_value_inet_chksum_pbuf_2;
+  unsigned char return_value_pbuf_header_7;
+  unsigned char return_value_pbuf_header_8;
   if(!((unsigned long int)p->len >= sizeof(unsigned short int) * 2 /*4ul*/ ))
     while((_Bool)0)
       ;
@@ -3535,9 +3535,9 @@ void icmp_input(struct pbuf *p, struct netif *inp)
         if((240ul & (unsigned long int)ip_data.current_iphdr_dest.addr) == 224ul)
           accepted = 0;
 
-        unsigned char return_value_ip4_addr_isbroadcast$1;
-        return_value_ip4_addr_isbroadcast$1=ip4_addr_isbroadcast((&ip_data.current_iphdr_dest)->addr, inp);
-        if(!(return_value_ip4_addr_isbroadcast$1 == 0))
+        unsigned char return_value_ip4_addr_isbroadcast_1;
+        return_value_ip4_addr_isbroadcast_1=ip4_addr_isbroadcast((&ip_data.current_iphdr_dest)->addr, inp);
+        if(!(return_value_ip4_addr_isbroadcast_1 == 0))
           accepted = 0;
 
         if(accepted == 0)
@@ -3558,8 +3558,8 @@ void icmp_input(struct pbuf *p, struct netif *inp)
           goto lenerr;
         }
 
-        return_value_inet_chksum_pbuf$2=inet_chksum_pbuf(p);
-        if(!((signed int)return_value_inet_chksum_pbuf$2 == 0))
+        return_value_inet_chksum_pbuf_2=inet_chksum_pbuf(p);
+        if(!((signed int)return_value_inet_chksum_pbuf_2 == 0))
         {
           while((_Bool)0)
             ;
@@ -3568,13 +3568,13 @@ void icmp_input(struct pbuf *p, struct netif *inp)
           goto __CPROVER_DUMP_L73;
         }
 
-        return_value_pbuf_header$7=pbuf_header(p, (signed short int)(20 + 16));
-        if(!(return_value_pbuf_header$7 == 0))
+        return_value_pbuf_header_7=pbuf_header(p, (signed short int)(20 + 16));
+        if(!(return_value_pbuf_header_7 == 0))
         {
           struct pbuf *r;
-          unsigned char return_value_pbuf_header$3;
-          return_value_pbuf_header$3=pbuf_header(p, hlen);
-          if(!(return_value_pbuf_header$3 == 0))
+          unsigned char return_value_pbuf_header_3;
+          return_value_pbuf_header_3=pbuf_header(p, hlen);
+          if(!(return_value_pbuf_header_3 == 0))
           {
             do
               do
@@ -3588,7 +3588,7 @@ void icmp_input(struct pbuf *p, struct netif *inp)
             goto memerr;
           }
 
-          r=pbuf_alloc((enum anonymous)PBUF_LINK, p->tot_len, (enum anonymous$0)PBUF_RAM);
+          r=pbuf_alloc((enum anonymous)PBUF_LINK, p->tot_len, (enum anonymous_0)PBUF_RAM);
           if(r == ((struct pbuf *)NULL))
           {
             while((_Bool)0)
@@ -3607,9 +3607,9 @@ void icmp_input(struct pbuf *p, struct netif *inp)
               while((_Bool)0);
 
           while((_Bool)0);
-          signed char return_value_pbuf_copy$4;
-          return_value_pbuf_copy$4=pbuf_copy(r, p);
-          if(!((signed int)return_value_pbuf_copy$4 == 0))
+          signed char return_value_pbuf_copy_4;
+          return_value_pbuf_copy_4=pbuf_copy(r, p);
+          if(!((signed int)return_value_pbuf_copy_4 == 0))
           {
             do
               do
@@ -3624,9 +3624,9 @@ void icmp_input(struct pbuf *p, struct netif *inp)
           }
 
           iphdr = (struct ip_hdr *)r->payload;
-          unsigned char return_value_pbuf_header$5;
-          return_value_pbuf_header$5=pbuf_header(r, (signed short int)-((signed int)hlen));
-          if(!(return_value_pbuf_header$5 == 0))
+          unsigned char return_value_pbuf_header_5;
+          return_value_pbuf_header_5=pbuf_header(r, (signed short int)-((signed int)hlen));
+          if(!(return_value_pbuf_header_5 == 0))
           {
             do
               do
@@ -3646,9 +3646,9 @@ void icmp_input(struct pbuf *p, struct netif *inp)
 
         else
         {
-          unsigned char return_value_pbuf_header$6;
-          return_value_pbuf_header$6=pbuf_header(p, (signed short int)-((signed int)(signed short int)(20 + 16)));
-          if(!(return_value_pbuf_header$6 == 0))
+          unsigned char return_value_pbuf_header_6;
+          return_value_pbuf_header_6=pbuf_header(p, (signed short int)-((signed int)(signed short int)(20 + 16)));
+          if(!(return_value_pbuf_header_6 == 0))
           {
             do
               do
@@ -3676,8 +3676,8 @@ void icmp_input(struct pbuf *p, struct netif *inp)
         iphdr->_chksum = (unsigned short int)0;
         iphdr->_chksum=inet_chksum((void *)iphdr, (unsigned short int)20);
         lwip_stats.icmp.xmit = lwip_stats.icmp.xmit + 1;
-        return_value_pbuf_header$8=pbuf_header(p, hlen);
-        if(!(return_value_pbuf_header$8 == 0))
+        return_value_pbuf_header_8=pbuf_header(p, hlen);
+        if(!(return_value_pbuf_header_8 == 0))
           do
             do
             {
@@ -3735,7 +3735,7 @@ static void icmp_send_response(struct pbuf *p, unsigned char type, unsigned char
   struct ip_hdr *iphdr;
   struct icmp_echo_hdr *icmphdr;
   struct ip_addr iphdr_src;
-  q=pbuf_alloc((enum anonymous)PBUF_IP, (unsigned short int)(sizeof(struct icmp_echo_hdr) /*8ul*/  + (unsigned long int)20 + (unsigned long int)8), (enum anonymous$0)PBUF_RAM);
+  q=pbuf_alloc((enum anonymous)PBUF_IP, (unsigned short int)(sizeof(struct icmp_echo_hdr) /*8ul*/  + (unsigned long int)20 + (unsigned long int)8), (enum anonymous_0)PBUF_RAM);
   if(q == ((struct pbuf *)NULL))
     while((_Bool)0)
       ;
@@ -3790,9 +3790,9 @@ void icmp_time_exceeded(struct pbuf *p, enum icmp_te_type t)
 // file lwip/src/core/inet_chksum.c line 491
 unsigned short int inet_chksum(void *dataptr, unsigned short int len)
 {
-  unsigned short int return_value_lwip_standard_chksum$1;
-  return_value_lwip_standard_chksum$1=lwip_standard_chksum(dataptr, (signed int)len);
-  return (unsigned short int)~((signed int)return_value_lwip_standard_chksum$1);
+  unsigned short int return_value_lwip_standard_chksum_1;
+  return_value_lwip_standard_chksum_1=lwip_standard_chksum(dataptr, (signed int)len);
+  return (unsigned short int)~((signed int)return_value_lwip_standard_chksum_1);
 }
 
 // inet_chksum_pbuf
@@ -3807,9 +3807,9 @@ unsigned short int inet_chksum_pbuf(struct pbuf *p)
   q = p;
   for( ; !(q == ((struct pbuf *)NULL)); q = q->next)
   {
-    unsigned short int return_value_lwip_standard_chksum$1;
-    return_value_lwip_standard_chksum$1=lwip_standard_chksum(q->payload, (signed int)q->len);
-    acc = acc + (unsigned int)return_value_lwip_standard_chksum$1;
+    unsigned short int return_value_lwip_standard_chksum_1;
+    return_value_lwip_standard_chksum_1=lwip_standard_chksum(q->payload, (signed int)q->len);
+    acc = acc + (unsigned int)return_value_lwip_standard_chksum_1;
     acc = (unsigned int)((unsigned long int)(acc >> 16) + ((unsigned long int)acc & 0x0000ffffUL));
     if(!((signed int)q->len % 2 == 0))
     {
@@ -3837,9 +3837,9 @@ unsigned short int inet_chksum_pseudo(struct pbuf *p, unsigned char proto, unsig
   acc = acc + (unsigned int)((unsigned long int)(addr >> 16) & 0xffffUL);
   acc = (unsigned int)((unsigned long int)(acc >> 16) + ((unsigned long int)acc & 0x0000ffffUL));
   acc = (unsigned int)((unsigned long int)(acc >> 16) + ((unsigned long int)acc & 0x0000ffffUL));
-  unsigned short int return_value_inet_cksum_pseudo_base$1;
-  return_value_inet_cksum_pseudo_base$1=inet_cksum_pseudo_base(p, proto, proto_len, acc);
-  return return_value_inet_cksum_pseudo_base$1;
+  unsigned short int return_value_inet_cksum_pseudo_base_1;
+  return_value_inet_cksum_pseudo_base_1=inet_cksum_pseudo_base(p, proto, proto_len, acc);
+  return return_value_inet_cksum_pseudo_base_1;
 }
 
 // inet_chksum_pseudo_partial
@@ -3855,9 +3855,9 @@ unsigned short int inet_chksum_pseudo_partial(struct pbuf *p, unsigned char prot
   acc = acc + (unsigned int)((unsigned long int)(addr >> 16) & 0xffffUL);
   acc = (unsigned int)((unsigned long int)(acc >> 16) + ((unsigned long int)acc & 0x0000ffffUL));
   acc = (unsigned int)((unsigned long int)(acc >> 16) + ((unsigned long int)acc & 0x0000ffffUL));
-  unsigned short int return_value_inet_cksum_pseudo_partial_base$1;
-  return_value_inet_cksum_pseudo_partial_base$1=inet_cksum_pseudo_partial_base(p, proto, proto_len, chksum_len, acc);
-  return return_value_inet_cksum_pseudo_partial_base$1;
+  unsigned short int return_value_inet_cksum_pseudo_partial_base_1;
+  return_value_inet_cksum_pseudo_partial_base_1=inet_cksum_pseudo_partial_base(p, proto, proto_len, chksum_len, acc);
+  return return_value_inet_cksum_pseudo_partial_base_1;
 }
 
 // inet_cksum_pseudo_base
@@ -3871,9 +3871,9 @@ static unsigned short int inet_cksum_pseudo_base(struct pbuf *p, unsigned char p
   {
     while((_Bool)0)
       ;
-    unsigned short int return_value_lwip_standard_chksum$1;
-    return_value_lwip_standard_chksum$1=lwip_standard_chksum(q->payload, (signed int)q->len);
-    acc = acc + (unsigned int)return_value_lwip_standard_chksum$1;
+    unsigned short int return_value_lwip_standard_chksum_1;
+    return_value_lwip_standard_chksum_1=lwip_standard_chksum(q->payload, (signed int)q->len);
+    acc = acc + (unsigned int)return_value_lwip_standard_chksum_1;
     acc = (unsigned int)((unsigned long int)(acc >> 16) + ((unsigned long int)acc & 0x0000ffffUL));
     if(!((signed int)q->len % 2 == 0))
     {
@@ -3885,12 +3885,12 @@ static unsigned short int inet_cksum_pseudo_base(struct pbuf *p, unsigned char p
   if(!(swapped == 0))
     acc = (acc & (unsigned int)0xff) << 8 | (acc & (unsigned int)0xff00) >> 8;
 
-  unsigned short int return_value_lwip_htons$2;
-  return_value_lwip_htons$2=lwip_htons((unsigned short int)proto);
-  acc = acc + (unsigned int)return_value_lwip_htons$2;
-  unsigned short int return_value_lwip_htons$3;
-  return_value_lwip_htons$3=lwip_htons(proto_len);
-  acc = acc + (unsigned int)return_value_lwip_htons$3;
+  unsigned short int return_value_lwip_htons_2;
+  return_value_lwip_htons_2=lwip_htons((unsigned short int)proto);
+  acc = acc + (unsigned int)return_value_lwip_htons_2;
+  unsigned short int return_value_lwip_htons_3;
+  return_value_lwip_htons_3=lwip_htons(proto_len);
+  acc = acc + (unsigned int)return_value_lwip_htons_3;
   acc = (unsigned int)((unsigned long int)(acc >> 16) + ((unsigned long int)acc & 0x0000ffffUL));
   acc = (unsigned int)((unsigned long int)(acc >> 16) + ((unsigned long int)acc & 0x0000ffffUL));
   while((_Bool)0)
@@ -3914,9 +3914,9 @@ static unsigned short int inet_cksum_pseudo_partial_base(struct pbuf *p, unsigne
     if(!((signed int)chksum_len >= (signed int)chklen))
       chklen = chksum_len;
 
-    unsigned short int return_value_lwip_standard_chksum$1;
-    return_value_lwip_standard_chksum$1=lwip_standard_chksum(q->payload, (signed int)chklen);
-    acc = acc + (unsigned int)return_value_lwip_standard_chksum$1;
+    unsigned short int return_value_lwip_standard_chksum_1;
+    return_value_lwip_standard_chksum_1=lwip_standard_chksum(q->payload, (signed int)chklen);
+    acc = acc + (unsigned int)return_value_lwip_standard_chksum_1;
     chksum_len = chksum_len - chklen;
     do
       if((signed int)chksum_len >= 0x7fff)
@@ -3940,12 +3940,12 @@ static unsigned short int inet_cksum_pseudo_partial_base(struct pbuf *p, unsigne
   if(!(swapped == 0))
     acc = (acc & (unsigned int)0xff) << 8 | (acc & (unsigned int)0xff00) >> 8;
 
-  unsigned short int return_value_lwip_htons$2;
-  return_value_lwip_htons$2=lwip_htons((unsigned short int)proto);
-  acc = acc + (unsigned int)return_value_lwip_htons$2;
-  unsigned short int return_value_lwip_htons$3;
-  return_value_lwip_htons$3=lwip_htons(proto_len);
-  acc = acc + (unsigned int)return_value_lwip_htons$3;
+  unsigned short int return_value_lwip_htons_2;
+  return_value_lwip_htons_2=lwip_htons((unsigned short int)proto);
+  acc = acc + (unsigned int)return_value_lwip_htons_2;
+  unsigned short int return_value_lwip_htons_3;
+  return_value_lwip_htons_3=lwip_htons(proto_len);
+  acc = acc + (unsigned int)return_value_lwip_htons_3;
   acc = (unsigned int)((unsigned long int)(acc >> 16) + ((unsigned long int)acc & 0x0000ffffUL));
   acc = (unsigned int)((unsigned long int)(acc >> 16) + ((unsigned long int)acc & 0x0000ffffUL));
   while((_Bool)0)
@@ -3968,9 +3968,9 @@ static signed char init_oc_netif(struct netif *netif)
 static struct sys_thread * introduce_thread(unsigned long int id)
 {
   struct sys_thread *thread;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct sys_thread) /*16ul*/ );
-  thread = (struct sys_thread *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct sys_thread) /*16ul*/ );
+  thread = (struct sys_thread *)return_value_malloc_1;
   if(!(thread == ((struct sys_thread *)NULL)))
   {
     pthread_mutex_lock(&threads_mutex);
@@ -3989,7 +3989,7 @@ unsigned char ip4_addr_isbroadcast(unsigned int addr, struct netif *netif)
 {
   struct ip_addr ipaddr;
   (&ipaddr)->addr = addr;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(~addr == 0u || addr == 0u)
     return (unsigned char)1;
 
@@ -4004,11 +4004,11 @@ unsigned char ip4_addr_isbroadcast(unsigned int addr, struct netif *netif)
       else
       {
         if((netif->netmask.addr & ipaddr.addr) == (netif->ip_addr.addr & netif->netmask.addr))
-          tmp_if_expr$1 = (addr & ~(&netif->netmask)->addr) == ((unsigned int)0xffffffffUL & ~(&netif->netmask)->addr) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (addr & ~(&netif->netmask)->addr) == ((unsigned int)0xffffffffUL & ~(&netif->netmask)->addr) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
           return (unsigned char)1;
 
         else
@@ -4061,7 +4061,7 @@ signed char ip_frag(struct pbuf *p, struct netif *netif, struct ip_addr *dest)
   omf = (unsigned short int)((unsigned int)tmp & 0x2000U);
   left = (unsigned short int)((signed int)p->tot_len - 20);
   nfb = (unsigned short int)(((signed int)mtu - 20) / 8);
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(left == 0))
   {
     last = (unsigned short int)((signed int)left <= (signed int)mtu - 20);
@@ -4070,7 +4070,7 @@ signed char ip_frag(struct pbuf *p, struct netif *netif, struct ip_addr *dest)
       tmp = (unsigned short int)((unsigned int)tmp | 0x2000U);
 
     cop = (unsigned short int)(last != 0 ? (signed int)left : (signed int)nfb * 8);
-    rambuf=pbuf_alloc((enum anonymous)PBUF_LINK, (unsigned short int)20, (enum anonymous$0)PBUF_RAM);
+    rambuf=pbuf_alloc((enum anonymous)PBUF_LINK, (unsigned short int)20, (enum anonymous_0)PBUF_RAM);
     if(rambuf == ((struct pbuf *)NULL))
       return (signed char)-1;
 
@@ -4094,11 +4094,11 @@ signed char ip_frag(struct pbuf *p, struct netif *netif, struct ip_addr *dest)
     {
       struct pbuf_custom_ref *pcr;
       if(!((signed int)left_to_copy >= (signed int)p->len))
-        tmp_if_expr$1 = (signed int)left_to_copy;
+        tmp_if_expr_1 = (signed int)left_to_copy;
 
       else
-        tmp_if_expr$1 = (signed int)p->len;
-      newpbuflen = (unsigned short int)tmp_if_expr$1;
+        tmp_if_expr_1 = (signed int)p->len;
+      newpbuflen = (unsigned short int)tmp_if_expr_1;
       if(newpbuflen == 0)
         p = p->next;
 
@@ -4111,7 +4111,7 @@ signed char ip_frag(struct pbuf *p, struct netif *netif, struct ip_addr *dest)
           return (signed char)-1;
         }
 
-        newpbuf=pbuf_alloced_custom((enum anonymous)PBUF_RAW, newpbuflen, (enum anonymous$0)PBUF_REF, &pcr->pc, p->payload, newpbuflen);
+        newpbuf=pbuf_alloced_custom((enum anonymous)PBUF_RAW, newpbuflen, (enum anonymous_0)PBUF_REF, &pcr->pc, p->payload, newpbuflen);
         if(newpbuf == ((struct pbuf *)NULL))
         {
           ip_frag_free_pbuf_custom_ref(pcr);
@@ -4148,9 +4148,9 @@ signed char ip_frag(struct pbuf *p, struct netif *netif, struct ip_addr *dest)
 // file lwip/src/core/ipv4/ip_frag.c line 637
 static struct pbuf_custom_ref * ip_frag_alloc_pbuf_custom_ref(void)
 {
-  void *return_value_mem_malloc$1;
-  return_value_mem_malloc$1=mem_malloc((unsigned int)memp_sizes[(signed long int)5]);
-  return (struct pbuf_custom_ref *)return_value_mem_malloc$1;
+  void *return_value_mem_malloc_1;
+  return_value_mem_malloc_1=mem_malloc((unsigned int)memp_sizes[(signed long int)5]);
+  return (struct pbuf_custom_ref *)return_value_mem_malloc_1;
 }
 
 // ip_frag_free_pbuf_custom_ref
@@ -4181,10 +4181,10 @@ signed char ip_input(struct pbuf *p, struct netif *inp)
   unsigned short int iphdr_len;
   lwip_stats.ip.recv = lwip_stats.ip.recv + 1;
   iphdr = (struct ip_hdr *)p->payload;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$5;
-  unsigned char return_value_ip4_addr_isbroadcast$4;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_5;
+  unsigned char return_value_ip4_addr_isbroadcast_4;
+  _Bool tmp_if_expr_7;
   if(!((signed int)iphdr->_v_hl >> 4 == 4))
   {
     while((_Bool)0)
@@ -4201,11 +4201,11 @@ signed char ip_input(struct pbuf *p, struct netif *inp)
     iphdr_hlen = iphdr_hlen * (unsigned short int)4;
     iphdr_len=lwip_ntohs(iphdr->_len);
     if(!((signed int)p->len >= (signed int)iphdr_hlen))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)iphdr_len > (signed int)p->tot_len ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)iphdr_len > (signed int)p->tot_len ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       if(!((signed int)p->len >= (signed int)iphdr_hlen))
         while((_Bool)0)
@@ -4223,9 +4223,9 @@ signed char ip_input(struct pbuf *p, struct netif *inp)
 
     else
     {
-      unsigned short int return_value_inet_chksum$3;
-      return_value_inet_chksum$3=inet_chksum((void *)iphdr, iphdr_hlen);
-      if(!((signed int)return_value_inet_chksum$3 == 0))
+      unsigned short int return_value_inet_chksum_3;
+      return_value_inet_chksum_3=inet_chksum((void *)iphdr, iphdr_hlen);
+      if(!((signed int)return_value_inet_chksum_3 == 0))
       {
         while((_Bool)0)
           ;
@@ -4252,14 +4252,14 @@ signed char ip_input(struct pbuf *p, struct netif *inp)
             if(!(netif->ip_addr.addr == 0u))
             {
               if(ip_data.current_iphdr_dest.addr == netif->ip_addr.addr)
-                tmp_if_expr$5 = (_Bool)1;
+                tmp_if_expr_5 = (_Bool)1;
 
               else
               {
-                return_value_ip4_addr_isbroadcast$4=ip4_addr_isbroadcast((&ip_data.current_iphdr_dest)->addr, netif);
-                tmp_if_expr$5 = return_value_ip4_addr_isbroadcast$4 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_ip4_addr_isbroadcast_4=ip4_addr_isbroadcast((&ip_data.current_iphdr_dest)->addr, netif);
+                tmp_if_expr_5 = return_value_ip4_addr_isbroadcast_4 != 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$5)
+              if(tmp_if_expr_5)
               {
                 while((_Bool)0)
                   ;
@@ -4285,14 +4285,14 @@ signed char ip_input(struct pbuf *p, struct netif *inp)
             break;
 
         }
-        unsigned char return_value_ip4_addr_isbroadcast$6;
-        return_value_ip4_addr_isbroadcast$6=ip4_addr_isbroadcast((&ip_data.current_iphdr_src)->addr, inp);
-        if(!(return_value_ip4_addr_isbroadcast$6 == 0))
-          tmp_if_expr$7 = (_Bool)1;
+        unsigned char return_value_ip4_addr_isbroadcast_6;
+        return_value_ip4_addr_isbroadcast_6=ip4_addr_isbroadcast((&ip_data.current_iphdr_src)->addr, inp);
+        if(!(return_value_ip4_addr_isbroadcast_6 == 0))
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = ((unsigned long int)(&ip_data.current_iphdr_src)->addr & ((0xf0000000UL & (unsigned long int)0xff) << 24 | (0xf0000000UL & (unsigned long int)0xff00) << 8 | (0xf0000000UL & 0xff0000UL) >> 8 | (0xf0000000UL & 0xff000000UL) >> 24)) == ((0xe0000000UL & (unsigned long int)0xff) << 24 | (0xe0000000UL & (unsigned long int)0xff00) << 8 | (0xe0000000UL & 0xff0000UL) >> 8 | (0xe0000000UL & 0xff000000UL) >> 24) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = ((unsigned long int)(&ip_data.current_iphdr_src)->addr & ((0xf0000000UL & (unsigned long int)0xff) << 24 | (0xf0000000UL & (unsigned long int)0xff00) << 8 | (0xf0000000UL & 0xff0000UL) >> 8 | (0xf0000000UL & 0xff000000UL) >> 24)) == ((0xe0000000UL & (unsigned long int)0xff) << 24 | (0xe0000000UL & (unsigned long int)0xff00) << 8 | (0xe0000000UL & 0xff0000UL) >> 8 | (0xe0000000UL & 0xff000000UL) >> 24) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_7)
         {
           while((_Bool)0)
             ;
@@ -4350,9 +4350,9 @@ signed char ip_input(struct pbuf *p, struct netif *inp)
               }
               default:
               {
-                unsigned char return_value_ip4_addr_isbroadcast$11;
-                return_value_ip4_addr_isbroadcast$11=ip4_addr_isbroadcast((&ip_data.current_iphdr_dest)->addr, inp);
-                if(return_value_ip4_addr_isbroadcast$11 == 0)
+                unsigned char return_value_ip4_addr_isbroadcast_11;
+                return_value_ip4_addr_isbroadcast_11=ip4_addr_isbroadcast((&ip_data.current_iphdr_dest)->addr, inp);
+                if(return_value_ip4_addr_isbroadcast_11 == 0)
                 {
                   if(!((240ul & (unsigned long int)ip_data.current_iphdr_dest.addr) == 224ul))
                   {
@@ -4409,9 +4409,9 @@ signed char ip_output(struct pbuf *p, struct ip_addr *src, struct ip_addr *dest,
 
   else
   {
-    signed char return_value_ip_output_if$1;
-    return_value_ip_output_if$1=ip_output_if(p, src, dest, ttl, tos, proto, netif);
-    return return_value_ip_output_if$1;
+    signed char return_value_ip_output_if_1;
+    return_value_ip_output_if_1=ip_output_if(p, src, dest, ttl, tos, proto, netif);
+    return return_value_ip_output_if_1;
   }
 }
 
@@ -4420,22 +4420,22 @@ signed char ip_output(struct pbuf *p, struct ip_addr *src, struct ip_addr *dest,
 signed char ip_output_if(struct pbuf *p, struct ip_addr *src, struct ip_addr *dest, unsigned char ttl, unsigned char tos, unsigned char proto, struct netif *netif)
 {
   struct ip_addr *src_used = src;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(dest == ((struct ip_addr *)NULL)))
   {
     if(src == ((struct ip_addr *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = src->addr == (unsigned int)0x00000000UL ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = src->addr == (unsigned int)0x00000000UL ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       src_used = &netif->ip_addr;
 
   }
 
-  signed char return_value_ip_output_if_src$2;
-  return_value_ip_output_if_src$2=ip_output_if_src(p, src_used, dest, ttl, tos, proto, netif);
-  return return_value_ip_output_if_src$2;
+  signed char return_value_ip_output_if_src_2;
+  return_value_ip_output_if_src_2=ip_output_if_src(p, src_used, dest, ttl, tos, proto, netif);
+  return return_value_ip_output_if_src_2;
 }
 
 // ip_output_if_src
@@ -4459,9 +4459,9 @@ signed char ip_output_if_src(struct pbuf *p, struct ip_addr *src, struct ip_addr
   if(!(dest == ((struct ip_addr *)NULL)))
   {
     unsigned short int ip_hlen = (unsigned short int)20;
-    unsigned char return_value_pbuf_header$1;
-    return_value_pbuf_header$1=pbuf_header(p, (signed short int)20);
-    if(!(return_value_pbuf_header$1 == 0))
+    unsigned char return_value_pbuf_header_1;
+    return_value_pbuf_header_1=pbuf_header(p, (signed short int)20);
+    if(!(return_value_pbuf_header_1 == 0))
     {
       while((_Bool)0)
         ;
@@ -4522,9 +4522,9 @@ signed char ip_output_if_src(struct pbuf *p, struct ip_addr *src, struct ip_addr
   {
     if(!((signed int)netif->mtu >= (signed int)p->tot_len))
     {
-      signed char return_value_ip_frag$2;
-      return_value_ip_frag$2=ip_frag(p, netif, dest);
-      return return_value_ip_frag$2;
+      signed char return_value_ip_frag_2;
+      return_value_ip_frag_2=ip_frag(p, netif, dest);
+      return return_value_ip_frag_2;
     }
 
   }
@@ -4549,12 +4549,12 @@ struct pbuf * ip_reass(struct pbuf *p)
   unsigned char clen;
   lwip_stats.ip_frag.recv = lwip_stats.ip_frag.recv + 1;
   fraghdr = (struct ip_hdr *)p->payload;
-  unsigned short int return_value_lwip_ntohs$1;
-  unsigned short int return_value_lwip_ntohs$2;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  unsigned short int return_value_lwip_ntohs$7;
-  signed int return_value_ip_reass_chain_frag_into_datagram_and_validate$10;
+  unsigned short int return_value_lwip_ntohs_1;
+  unsigned short int return_value_lwip_ntohs_2;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  unsigned short int return_value_lwip_ntohs_7;
+  signed int return_value_ip_reass_chain_frag_into_datagram_and_validate_10;
   if(!((0x0f & (signed int)fraghdr->_v_hl) * 4 == 20))
   {
     while((_Bool)0)
@@ -4564,16 +4564,16 @@ struct pbuf * ip_reass(struct pbuf *p)
 
   else
   {
-    return_value_lwip_ntohs$1=lwip_ntohs(fraghdr->_offset);
-    offset = (unsigned short int)(((unsigned int)return_value_lwip_ntohs$1 & 0x1fffU) * (unsigned int)8);
-    return_value_lwip_ntohs$2=lwip_ntohs(fraghdr->_len);
-    len = (unsigned short int)((signed int)return_value_lwip_ntohs$2 - ((signed int)fraghdr->_v_hl & 0x0f) * 4);
+    return_value_lwip_ntohs_1=lwip_ntohs(fraghdr->_offset);
+    offset = (unsigned short int)(((unsigned int)return_value_lwip_ntohs_1 & 0x1fffU) * (unsigned int)8);
+    return_value_lwip_ntohs_2=lwip_ntohs(fraghdr->_len);
+    len = (unsigned short int)((signed int)return_value_lwip_ntohs_2 - ((signed int)fraghdr->_v_hl & 0x0f) * 4);
     clen=pbuf_clen(p);
     if((signed int)ip_reass_pbufcount + (signed int)clen >= 11)
     {
-      signed int return_value_ip_reass_remove_oldest_datagram$3;
-      return_value_ip_reass_remove_oldest_datagram$3=ip_reass_remove_oldest_datagram(fraghdr, (signed int)clen);
-      if(return_value_ip_reass_remove_oldest_datagram$3 == 0 || (signed int)ip_reass_pbufcount + (signed int)clen >= 11)
+      signed int return_value_ip_reass_remove_oldest_datagram_3;
+      return_value_ip_reass_remove_oldest_datagram_3=ip_reass_remove_oldest_datagram(fraghdr, (signed int)clen);
+      if(return_value_ip_reass_remove_oldest_datagram_3 == 0 || (signed int)ip_reass_pbufcount + (signed int)clen >= 11)
       {
         while((_Bool)0)
           ;
@@ -4587,16 +4587,16 @@ struct pbuf * ip_reass(struct pbuf *p)
     for( ; !(ipr == ((struct ip_reassdata *)NULL)); ipr = ipr->next)
     {
       if(ipr->iphdr.src.addr == fraghdr->src.addr)
-        tmp_if_expr$5 = (&(&ipr->iphdr)->dest)->addr == (&fraghdr->dest)->addr ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (&(&ipr->iphdr)->dest)->addr == (&fraghdr->dest)->addr ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = (&ipr->iphdr)->_id == fraghdr->_id ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = (&ipr->iphdr)->_id == fraghdr->_id ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(tmp_if_expr$6)
+        tmp_if_expr_6 = (_Bool)0;
+      if(tmp_if_expr_6)
       {
         while((_Bool)0)
           ;
@@ -4615,12 +4615,12 @@ struct pbuf * ip_reass(struct pbuf *p)
 
     else
     {
-      unsigned short int return_value_lwip_ntohs$8;
-      return_value_lwip_ntohs$8=lwip_ntohs(fraghdr->_offset);
-      if((0x1fffU & (unsigned int)return_value_lwip_ntohs$8) == 0u)
+      unsigned short int return_value_lwip_ntohs_8;
+      return_value_lwip_ntohs_8=lwip_ntohs(fraghdr->_offset);
+      if((0x1fffU & (unsigned int)return_value_lwip_ntohs_8) == 0u)
       {
-        return_value_lwip_ntohs$7=lwip_ntohs((&ipr->iphdr)->_offset);
-        if(!((0x1fffU & (unsigned int)return_value_lwip_ntohs$7) == 0u))
+        return_value_lwip_ntohs_7=lwip_ntohs((&ipr->iphdr)->_offset);
+        if(!((0x1fffU & (unsigned int)return_value_lwip_ntohs_7) == 0u))
           memcpy((void *)&ipr->iphdr, (const void *)fraghdr, (unsigned long int)20);
 
       }
@@ -4635,8 +4635,8 @@ struct pbuf * ip_reass(struct pbuf *p)
         ;
     }
 
-    return_value_ip_reass_chain_frag_into_datagram_and_validate$10=ip_reass_chain_frag_into_datagram_and_validate(ipr, p);
-    if(!(return_value_ip_reass_chain_frag_into_datagram_and_validate$10 == 0))
+    return_value_ip_reass_chain_frag_into_datagram_and_validate_10=ip_reass_chain_frag_into_datagram_and_validate(ipr, p);
+    if(!(return_value_ip_reass_chain_frag_into_datagram_and_validate_10 == 0))
     {
       struct ip_reassdata *ipr_prev;
       ipr->datagram_len = ipr->datagram_len + (unsigned short int)20;
@@ -4666,9 +4666,9 @@ struct pbuf * ip_reass(struct pbuf *p)
 
       }
       ip_reass_dequeue_datagram(ipr, ipr_prev);
-      unsigned char return_value_pbuf_clen$9;
-      return_value_pbuf_clen$9=pbuf_clen(p);
-      ip_reass_pbufcount = ip_reass_pbufcount - (unsigned short int)return_value_pbuf_clen$9;
+      unsigned char return_value_pbuf_clen_9;
+      return_value_pbuf_clen_9=pbuf_clen(p);
+      ip_reass_pbufcount = ip_reass_pbufcount - (unsigned short int)return_value_pbuf_clen_9;
       return p;
     }
 
@@ -4699,12 +4699,12 @@ static signed int ip_reass_chain_frag_into_datagram_and_validate(struct ip_reass
   struct ip_hdr *fraghdr;
   signed int valid = 1;
   fraghdr = (struct ip_hdr *)new_p->payload;
-  unsigned short int return_value_lwip_ntohs$1;
-  return_value_lwip_ntohs$1=lwip_ntohs(fraghdr->_len);
-  len = (unsigned short int)((signed int)return_value_lwip_ntohs$1 - ((signed int)fraghdr->_v_hl & 0x0f) * 4);
-  unsigned short int return_value_lwip_ntohs$2;
-  return_value_lwip_ntohs$2=lwip_ntohs(fraghdr->_offset);
-  offset = (unsigned short int)(((unsigned int)return_value_lwip_ntohs$2 & 0x1fffU) * (unsigned int)8);
+  unsigned short int return_value_lwip_ntohs_1;
+  return_value_lwip_ntohs_1=lwip_ntohs(fraghdr->_len);
+  len = (unsigned short int)((signed int)return_value_lwip_ntohs_1 - ((signed int)fraghdr->_v_hl & 0x0f) * 4);
+  unsigned short int return_value_lwip_ntohs_2;
+  return_value_lwip_ntohs_2=lwip_ntohs(fraghdr->_offset);
+  offset = (unsigned short int)(((unsigned int)return_value_lwip_ntohs_2 & 0x1fffU) * (unsigned int)8);
   while((_Bool)0)
     ;
   iprh = (struct ip_reass_helper *)new_p->payload;
@@ -4712,7 +4712,7 @@ static signed int ip_reass_chain_frag_into_datagram_and_validate(struct ip_reass
   iprh->start = offset;
   iprh->end = (unsigned short int)((signed int)offset + (signed int)len);
   q = ipr->p;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   for( ; !(q == ((struct pbuf *)NULL)); iprh_prev = iprh_tmp)
   {
     iprh_tmp = (struct ip_reass_helper *)q->payload;
@@ -4722,11 +4722,11 @@ static signed int ip_reass_chain_frag_into_datagram_and_validate(struct ip_reass
       if(!(iprh_prev == ((struct ip_reass_helper *)NULL)))
       {
         if(!((signed int)iprh->start >= (signed int)iprh_prev->end))
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = (signed int)iprh->end > (signed int)iprh_tmp->start ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (signed int)iprh->end > (signed int)iprh_tmp->start ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
           goto freepbuf;
 
         iprh_prev->next_pbuf = new_p;
@@ -4793,17 +4793,17 @@ static signed int ip_reass_chain_frag_into_datagram_and_validate(struct ip_reass
     }
   }
 
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(!((0x01 & (signed int)ipr->flags) == 0))
   {
     if(!(valid == 0))
     {
       if(ipr->p == ((struct pbuf *)NULL))
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)((struct ip_reass_helper *)ipr->p->payload)->start != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (signed int)((struct ip_reass_helper *)ipr->p->payload)->start != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
         valid = 0;
 
       else
@@ -4881,9 +4881,9 @@ static signed int ip_reass_chain_frag_into_datagram_and_validate(struct ip_reass
 
   freepbuf:
     ;
-    unsigned char return_value_pbuf_clen$5;
-    return_value_pbuf_clen$5=pbuf_clen(new_p);
-    ip_reass_pbufcount = ip_reass_pbufcount - (unsigned short int)return_value_pbuf_clen$5;
+    unsigned char return_value_pbuf_clen_5;
+    return_value_pbuf_clen_5=pbuf_clen(new_p);
+    ip_reass_pbufcount = ip_reass_pbufcount - (unsigned short int)return_value_pbuf_clen_5;
     pbuf_free(new_p);
     return 0;
   }
@@ -4919,18 +4919,18 @@ static void ip_reass_dequeue_datagram(struct ip_reassdata *ipr, struct ip_reassd
 static struct ip_reassdata * ip_reass_enqueue_new_datagram(struct ip_hdr *fraghdr, signed int clen)
 {
   struct ip_reassdata *ipr;
-  void *return_value_mem_malloc$1;
-  return_value_mem_malloc$1=mem_malloc((unsigned int)memp_sizes[(signed long int)4]);
-  ipr = (struct ip_reassdata *)return_value_mem_malloc$1;
+  void *return_value_mem_malloc_1;
+  return_value_mem_malloc_1=mem_malloc((unsigned int)memp_sizes[(signed long int)4]);
+  ipr = (struct ip_reassdata *)return_value_mem_malloc_1;
   if(ipr == ((struct ip_reassdata *)NULL))
   {
-    signed int return_value_ip_reass_remove_oldest_datagram$3;
-    return_value_ip_reass_remove_oldest_datagram$3=ip_reass_remove_oldest_datagram(fraghdr, clen);
-    if(return_value_ip_reass_remove_oldest_datagram$3 >= clen)
+    signed int return_value_ip_reass_remove_oldest_datagram_3;
+    return_value_ip_reass_remove_oldest_datagram_3=ip_reass_remove_oldest_datagram(fraghdr, clen);
+    if(return_value_ip_reass_remove_oldest_datagram_3 >= clen)
     {
-      void *return_value_mem_malloc$2;
-      return_value_mem_malloc$2=mem_malloc((unsigned int)memp_sizes[(signed long int)4]);
-      ipr = (struct ip_reassdata *)return_value_mem_malloc$2;
+      void *return_value_mem_malloc_2;
+      return_value_mem_malloc_2=mem_malloc((unsigned int)memp_sizes[(signed long int)4]);
+      ipr = (struct ip_reassdata *)return_value_mem_malloc_2;
     }
 
     if(ipr == ((struct ip_reassdata *)NULL))
@@ -5054,8 +5054,8 @@ static signed int ip_reass_remove_oldest_datagram(struct ip_hdr *fraghdr, signed
   signed int pbufs_freed = 0;
   signed int pbufs_freed_current;
   signed int other_datagrams;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   do
   {
     oldest = (struct ip_reassdata *)(void *)0;
@@ -5065,16 +5065,16 @@ static signed int ip_reass_remove_oldest_datagram(struct ip_hdr *fraghdr, signed
     for( ; !(r == ((struct ip_reassdata *)NULL)); r = r->next)
     {
       if(r->iphdr.src.addr == fraghdr->src.addr)
-        tmp_if_expr$1 = (&(&r->iphdr)->dest)->addr == (&fraghdr->dest)->addr ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (&(&r->iphdr)->dest)->addr == (&fraghdr->dest)->addr ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$2 = (&r->iphdr)->_id == fraghdr->_id ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_2 = (&r->iphdr)->_id == fraghdr->_id ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
       {
         other_datagrams = other_datagrams + 1;
         if(oldest == ((struct ip_reassdata *)NULL))
@@ -5153,13 +5153,13 @@ struct netif * ip_route(struct ip_addr *dest)
 
     }
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(netif_default == ((struct netif *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !((((unsigned int)netif_default->flags & 0x01U) != 0u ? (signed int)(unsigned char)1 : (signed int)(unsigned char)0) != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !((((unsigned int)netif_default->flags & 0x01U) != 0u ? (signed int)(unsigned char)1 : (signed int)(unsigned char)0) != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     while((_Bool)0)
       ;
@@ -5176,9 +5176,9 @@ struct netif * ip_route(struct ip_addr *dest)
 unsigned int ipaddr_addr(const char *cp)
 {
   struct ip_addr val;
-  signed int return_value_ipaddr_aton$1;
-  return_value_ipaddr_aton$1=ipaddr_aton(cp, &val);
-  if(!(return_value_ipaddr_aton$1 == 0))
+  signed int return_value_ipaddr_aton_1;
+  return_value_ipaddr_aton_1=ipaddr_aton(cp, &val);
+  if(!(return_value_ipaddr_aton_1 == 0))
     return (&val)->addr;
 
   else
@@ -5195,7 +5195,7 @@ signed int ipaddr_aton(const char *cp, struct ip_addr *addr)
   unsigned int parts[4l];
   unsigned int *pp = parts;
   c = *cp;
-  unsigned int *tmp_post$1;
+  unsigned int *tmp_post_1;
   while((_Bool)1)
   {
     if(!((signed int)(unsigned char)c >= 48) || (signed int)(unsigned char)c >= 58)
@@ -5244,9 +5244,9 @@ signed int ipaddr_aton(const char *cp, struct ip_addr *addr)
       if(pp >= parts + 3l)
         return 0;
 
-      tmp_post$1 = pp;
+      tmp_post_1 = pp;
       pp = pp + 1l;
-      *tmp_post$1 = val;
+      *tmp_post_1 = val;
       cp = cp + 1l;
       c = *cp;
     }
@@ -5311,10 +5311,10 @@ signed int ipaddr_aton(const char *cp, struct ip_addr *addr)
 // file lwip/src/core/ipv4/ip4_addr.c line 261
 char * ipaddr_ntoa(const struct ip_addr *addr)
 {
-  char *return_value_ipaddr_ntoa_r$1;
+  char *return_value_ipaddr_ntoa_r_1;
   static char str[16l];
-  return_value_ipaddr_ntoa_r$1=ipaddr_ntoa_r(addr, str, 16);
-  return return_value_ipaddr_ntoa_r$1;
+  return_value_ipaddr_ntoa_r_1=ipaddr_ntoa_r(addr, str, 16);
+  return return_value_ipaddr_ntoa_r_1;
 }
 
 // ipaddr_ntoa_r
@@ -5333,12 +5333,12 @@ char * ipaddr_ntoa_r(const struct ip_addr *addr, char *buf, signed int buflen)
   rp = buf;
   ap = (unsigned char *)&s_addr;
   n = (unsigned char)0;
-  unsigned char tmp_post$1;
-  unsigned char tmp_post$2;
-  signed int tmp_post$3;
-  char *tmp_post$4;
-  signed int tmp_post$5;
-  char *tmp_post$6;
+  unsigned char tmp_post_1;
+  unsigned char tmp_post_2;
+  signed int tmp_post_3;
+  char *tmp_post_4;
+  signed int tmp_post_5;
+  char *tmp_post_6;
   for( ; !((signed int)n >= 4); n = n + 1)
   {
     i = (unsigned char)0;
@@ -5346,36 +5346,36 @@ char * ipaddr_ntoa_r(const struct ip_addr *addr, char *buf, signed int buflen)
     {
       rem = (unsigned char)((signed int)*ap % (signed int)(unsigned char)10);
       *ap = *ap / (unsigned char)10;
-      tmp_post$1 = i;
+      tmp_post_1 = i;
       i = i + 1;
-      inv[(signed long int)tmp_post$1] = (char)(48 + (signed int)rem);
+      inv[(signed long int)tmp_post_1] = (char)(48 + (signed int)rem);
     }
     while(!(*ap == 0));
     do
     {
-      tmp_post$2 = i;
+      tmp_post_2 = i;
       i = i - 1;
-      if(tmp_post$2 == 0)
+      if(tmp_post_2 == 0)
         break;
 
-      tmp_post$3 = len;
+      tmp_post_3 = len;
       len = len + 1;
-      if(tmp_post$3 >= buflen)
+      if(tmp_post_3 >= buflen)
         return (char *)(void *)0;
 
-      tmp_post$4 = rp;
+      tmp_post_4 = rp;
       rp = rp + 1l;
-      *tmp_post$4 = inv[(signed long int)i];
+      *tmp_post_4 = inv[(signed long int)i];
     }
     while((_Bool)1);
-    tmp_post$5 = len;
+    tmp_post_5 = len;
     len = len + 1;
-    if(tmp_post$5 >= buflen)
+    if(tmp_post_5 >= buflen)
       return (char *)(void *)0;
 
-    tmp_post$6 = rp;
+    tmp_post_6 = rp;
     rp = rp + 1l;
-    *tmp_post$6 = (char)46;
+    *tmp_post_6 = (char)46;
     ap = ap + 1l;
   }
   rp = rp - 1l;
@@ -5420,11 +5420,11 @@ static void ipfrag_free_pbuf_custom(struct pbuf *p)
 // file contrib/ports/unix/netif/list.c line 109
 void list_delete(struct list *list)
 {
-  void *return_value_list_pop$1;
+  void *return_value_list_pop_1;
   do
   {
-    return_value_list_pop$1=list_pop(list);
-    if(return_value_list_pop$1 == NULL)
+    return_value_list_pop_1=list_pop(list);
+    if(return_value_list_pop_1 == NULL)
       break;
 
   }
@@ -5464,9 +5464,9 @@ void list_map(struct list *list, void (*func)(void *))
 struct list * list_new(signed int size)
 {
   struct list *list;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct list) /*24ul*/ );
-  list = (struct list *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct list) /*24ul*/ );
+  list = (struct list *)return_value_malloc_1;
   list->last = (struct elem *)(void *)0;
   list->first = list->last;
   list->size = size;
@@ -5504,9 +5504,9 @@ signed int list_push(struct list *list, void *data)
   struct elem *elem;
   if(!(list->elems >= list->size))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct elem) /*16ul*/ );
-    elem = (struct elem *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct elem) /*16ul*/ );
+    elem = (struct elem *)return_value_malloc_1;
     elem->data = data;
     elem->next = (struct elem *)(void *)0;
     if(!(list->last == ((struct elem *)NULL)))
@@ -5569,13 +5569,13 @@ static void local_data_cb(signed int fd, signed short int what, void *ctx)
   if(try_len >= 2049)
     try_len = 2048;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(try_len == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)s->tpcb->snd_queuelen > ((4 * 65534) / 1024) / 2 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)s->tpcb->snd_queuelen > ((4 * 65534) / 1024) / 2 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     s->lwip_blocked = 1;
 
   else
@@ -5611,8 +5611,8 @@ static void lwip_data_cb(signed int fd, signed short int what, void *ctx)
   if(!(len >= 1l))
     vpn_conn_down();
 
-  p=pbuf_alloc((enum anonymous)PBUF_RAW, (unsigned short int)len, (enum anonymous$0)PBUF_POOL);
-  signed long int tmp_if_expr$1;
+  p=pbuf_alloc((enum anonymous)PBUF_RAW, (unsigned short int)len, (enum anonymous_0)PBUF_POOL);
+  signed long int tmp_if_expr_1;
   if(!(p == ((struct pbuf *)NULL)))
   {
     char *bufptr;
@@ -5623,11 +5623,11 @@ static void lwip_data_cb(signed int fd, signed short int what, void *ctx)
     {
       signed int copy;
       if(!((signed long int)q->len >= len))
-        tmp_if_expr$1 = (signed long int)q->len;
+        tmp_if_expr_1 = (signed long int)q->len;
 
       else
-        tmp_if_expr$1 = len;
-      copy = (signed int)tmp_if_expr$1;
+        tmp_if_expr_1 = len;
+      copy = (signed int)tmp_if_expr_1;
       memcpy(q->payload, (const void *)bufptr, (unsigned long int)copy);
       len = len - (signed long int)copy;
       bufptr = bufptr + (signed long int)copy;
@@ -5657,7 +5657,7 @@ static signed char lwip_data_out(struct netif *netif, struct pbuf *p, struct ip_
   if(!(tcpdump_enabled == 0))
     tcpdump(p);
 
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   for( ; !(p == ((struct pbuf *)NULL)); p = p->next)
   {
     if(i >= 128)
@@ -5667,27 +5667,27 @@ static signed char lwip_data_out(struct netif *netif, struct pbuf *p, struct ip_
     }
 
     iov[(signed long int)i].iov_base = p->payload;
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i + 1;
-    iov[(signed long int)tmp_post$1].iov_len = (unsigned long int)p->len;
+    iov[(signed long int)tmp_post_1].iov_len = (unsigned long int)p->len;
     total = total + (signed int)p->len;
   }
   ret=writev(s->fd, iov, i);
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
   if(!(ret >= 0l))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(*return_value___errno_location$2 == 111)
-      tmp_if_expr$4 = (_Bool)1;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(*return_value___errno_location_2 == 111)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$3=__errno_location();
-      tmp_if_expr$4 = *return_value___errno_location$3 == 107 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_3=__errno_location();
+      tmp_if_expr_4 = *return_value___errno_location_3 == 107 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
       vpn_conn_down();
 
     else
@@ -5735,18 +5735,18 @@ void lwip_init(void)
 // file lwip/src/core/def.c line 103
 unsigned int lwip_ntohl(unsigned int n)
 {
-  unsigned int return_value_lwip_htonl$1;
-  return_value_lwip_htonl$1=lwip_htonl(n);
-  return return_value_lwip_htonl$1;
+  unsigned int return_value_lwip_htonl_1;
+  return_value_lwip_htonl_1=lwip_htonl(n);
+  return return_value_lwip_htonl_1;
 }
 
 // lwip_ntohs
 // file lwip/src/core/def.c line 76
 unsigned short int lwip_ntohs(unsigned short int n)
 {
-  unsigned short int return_value_lwip_htons$1;
-  return_value_lwip_htons$1=lwip_htons(n);
-  return return_value_lwip_htons$1;
+  unsigned short int return_value_lwip_htons_1;
+  return_value_lwip_htons_1=lwip_htons(n);
+  return return_value_lwip_htons_1;
 }
 
 // lwip_standard_chksum
@@ -5758,22 +5758,22 @@ unsigned short int lwip_standard_chksum(void *dataptr, signed int len)
   unsigned short int t = (unsigned short int)0;
   unsigned int sum = (unsigned int)0;
   signed int odd = (signed int)((unsigned long int)pb & (unsigned long int)1);
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   if(len >= 1 && !(odd == 0))
   {
-    tmp_post$1 = pb;
+    tmp_post_1 = pb;
     pb = pb + 1l;
-    ((unsigned char *)&t)[(signed long int)1] = *tmp_post$1;
+    ((unsigned char *)&t)[(signed long int)1] = *tmp_post_1;
     len = len - 1;
   }
 
   ps = (unsigned short int *)(void *)pb;
-  unsigned short int *tmp_post$2;
+  unsigned short int *tmp_post_2;
   for( ; len >= 2; len = len - 2)
   {
-    tmp_post$2 = ps;
+    tmp_post_2 = ps;
     ps = ps + 1l;
-    sum = sum + (unsigned int)*tmp_post$2;
+    sum = sum + (unsigned int)*tmp_post_2;
   }
   if(len >= 1)
     ((unsigned char *)&t)[(signed long int)0] = *((unsigned char *)ps);
@@ -5841,7 +5841,7 @@ signed int main(signed int argc, char **argv)
 
   }
 
-  signed int return_value_ocp_atoi$1;
+  signed int return_value_ocp_atoi_1;
   do
   {
     opt=getopt_long(argc, argv, "I:M:d:o:D:k:gL:vT", longopts, (signed int *)(void *)0);
@@ -5872,8 +5872,8 @@ signed int main(signed int argc, char **argv)
       }
       case 68:
       {
-        return_value_ocp_atoi$1=ocp_atoi(optarg);
-        s=new_listener(return_value_ocp_atoi$1, new_conn_cb);
+        return_value_ocp_atoi_1=ocp_atoi(optarg);
+        s=new_listener(return_value_ocp_atoi_1, new_conn_cb);
         s->conn_type = 1;
         break;
       }
@@ -5910,9 +5910,9 @@ signed int main(signed int argc, char **argv)
   if(ip_str == ((char *)NULL) || mtu_str == ((char *)NULL))
     die("missing -I or -M\n");
 
-  signed int return_value_ipaddr_aton$2;
-  return_value_ipaddr_aton$2=ipaddr_aton(ip_str, &ip);
-  if(return_value_ipaddr_aton$2 == 0)
+  signed int return_value_ipaddr_aton_2;
+  return_value_ipaddr_aton_2=ipaddr_aton(ip_str, &ip);
+  if(return_value_ipaddr_aton_2 == 0)
     die("Invalid IP address: '%s'\n", ip_str);
 
   signal(1, handle_sig);
@@ -5927,9 +5927,9 @@ signed int main(signed int argc, char **argv)
   dns_init();
   if(!(dns_str == ((char *)NULL)))
   {
-    signed int return_value_ipaddr_aton$3;
-    return_value_ipaddr_aton$3=ipaddr_aton(dns_str, &dns);
-    if(return_value_ipaddr_aton$3 == 0)
+    signed int return_value_ipaddr_aton_3;
+    return_value_ipaddr_aton_3=ipaddr_aton(dns_str, &dns);
+    if(return_value_ipaddr_aton_3 == 0)
       die("Invalid DNS IP: '%s'\n", dns_str);
 
     dns_setserver((unsigned char)0, &dns);
@@ -5938,9 +5938,9 @@ signed int main(signed int argc, char **argv)
   (&netmask)->addr = (unsigned int)0;
   (&gw)->addr = (unsigned int)0;
   netif_add(&netif, &ip, &netmask, &gw, (void *)s, init_oc_netif, ip_input);
-  signed int return_value_ocp_atoi$4;
-  return_value_ocp_atoi$4=ocp_atoi(mtu_str);
-  netif.mtu = (unsigned short int)return_value_ocp_atoi$4;
+  signed int return_value_ocp_atoi_4;
+  return_value_ocp_atoi_4=ocp_atoi(mtu_str);
+  netif.mtu = (unsigned short int)return_value_ocp_atoi_4;
   netif_set_default(&netif);
   netif_set_up(&netif);
   bind_all_listeners();
@@ -6040,9 +6040,9 @@ __CPROVER_DUMP_L20:
 // file lwip/src/api/tcpip.c line 561
 signed char mem_free_callback(void *m)
 {
-  signed char return_value_tcpip_callback_with_block$1;
-  return_value_tcpip_callback_with_block$1=tcpip_callback_with_block(mem_free, m, (unsigned char)0);
-  return return_value_tcpip_callback_with_block$1;
+  signed char return_value_tcpip_callback_with_block_1;
+  return_value_tcpip_callback_with_block_1=tcpip_callback_with_block(mem_free, m, (unsigned char)0);
+  return return_value_tcpip_callback_with_block_1;
 }
 
 // mem_init
@@ -6063,9 +6063,9 @@ void mem_init(void)
   ram_end->prev = (unsigned int)((1024000 + 4) - 1 & ~(4 - 1));
   lfree = (struct mem *)(void *)ram;
   lwip_stats.mem.avail = (unsigned int)((1024000 + 4) - 1 & ~(4 - 1));
-  signed char return_value_sys_sem_new$1;
-  return_value_sys_sem_new$1=sys_sem_new(&mem_mutex, (unsigned char)1);
-  if(!((signed int)return_value_sys_sem_new$1 == 0))
+  signed char return_value_sys_sem_new_1;
+  return_value_sys_sem_new_1=sys_sem_new(&mem_mutex, (unsigned char)1);
+  if(!((signed int)return_value_sys_sem_new_1 == 0))
     do
       do
       {
@@ -6086,7 +6086,7 @@ void * mem_malloc(unsigned int size)
   unsigned int ptr2;
   struct mem *mem;
   struct mem *mem2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(size == 0u)
     return (void *)0;
 
@@ -6155,11 +6155,11 @@ void * mem_malloc(unsigned int size)
               do
               {
                 if(lfree == ram_end)
-                  tmp_if_expr$1 = (_Bool)1;
+                  tmp_if_expr_1 = (_Bool)1;
 
                 else
-                  tmp_if_expr$1 = !(lfree->used != 0) ? (_Bool)1 : (_Bool)0;
-                if(!tmp_if_expr$1)
+                  tmp_if_expr_1 = !(lfree->used != 0) ? (_Bool)1 : (_Bool)0;
+                if(!tmp_if_expr_1)
                   do
                   {
                     printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"mem_malloc: !lfree->used", 610, (const void *)"lwip/src/core/mem.c");
@@ -6349,25 +6349,25 @@ struct netif * netif_add(struct netif *netif, struct ip_addr *ipaddr, struct ip_
   netif->flags = (unsigned char)0;
   netif->rs_count = (unsigned char)3;
   netif->state = state;
-  unsigned char tmp_post$1 = netif_num;
+  unsigned char tmp_post_1 = netif_num;
   netif_num = netif_num + 1;
-  netif->num = tmp_post$1;
+  netif->num = tmp_post_1;
   netif->input = input;
   netif_set_addr(netif, ipaddr, netmask, gw);
   signed char return_value;
   return_value=init(netif);
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$5;
-  signed int tmp_if_expr$6;
-  signed int tmp_if_expr$7;
-  signed int tmp_if_expr$8;
-  signed int tmp_if_expr$9;
-  signed int tmp_if_expr$10;
-  signed int tmp_if_expr$11;
-  signed int tmp_if_expr$12;
-  signed int tmp_if_expr$13;
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_5;
+  signed int tmp_if_expr_6;
+  signed int tmp_if_expr_7;
+  signed int tmp_if_expr_8;
+  signed int tmp_if_expr_9;
+  signed int tmp_if_expr_10;
+  signed int tmp_if_expr_11;
+  signed int tmp_if_expr_12;
+  signed int tmp_if_expr_13;
   if(!((signed int)return_value == 0))
     return (struct netif *)(void *)0;
 
@@ -6473,8 +6473,8 @@ void netif_set_addr(struct netif *netif, struct ip_addr *ipaddr, struct ip_addr 
 void netif_set_default(struct netif *netif)
 {
   netif_default = netif;
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$2;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_2;
   while((_Bool)0)
     ;
 }
@@ -6492,13 +6492,13 @@ void netif_set_down(struct netif *netif)
 // file lwip/src/core/netif.c line 451
 void netif_set_gw(struct netif *netif, struct ip_addr *gw)
 {
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   if(gw == ((struct ip_addr *)NULL))
-    tmp_if_expr$1 = (unsigned int)0;
+    tmp_if_expr_1 = (unsigned int)0;
 
   else
-    tmp_if_expr$1 = gw->addr;
-  (&netif->gw)->addr = tmp_if_expr$1;
+    tmp_if_expr_1 = gw->addr;
+  (&netif->gw)->addr = tmp_if_expr_1;
   while((_Bool)0)
     ;
 }
@@ -6509,7 +6509,7 @@ void netif_set_ipaddr(struct netif *netif, struct ip_addr *ipaddr)
 {
   struct tcp_pcb *pcb;
   struct tcp_pcb_listen *lpcb;
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   if(!(ipaddr == ((struct ip_addr *)NULL)))
   {
     if(!(ipaddr->addr == netif->ip_addr.addr))
@@ -6536,11 +6536,11 @@ void netif_set_ipaddr(struct netif *netif, struct ip_addr *ipaddr)
           if(lpcb->local_ip.addr == netif->ip_addr.addr)
           {
             if(ipaddr == ((struct ip_addr *)NULL))
-              tmp_if_expr$1 = (unsigned int)0;
+              tmp_if_expr_1 = (unsigned int)0;
 
             else
-              tmp_if_expr$1 = ipaddr->addr;
-            (&lpcb->local_ip)->addr = tmp_if_expr$1;
+              tmp_if_expr_1 = ipaddr->addr;
+            (&lpcb->local_ip)->addr = tmp_if_expr_1;
           }
 
         }
@@ -6549,13 +6549,13 @@ void netif_set_ipaddr(struct netif *netif, struct ip_addr *ipaddr)
 
   }
 
-  unsigned int tmp_if_expr$2;
+  unsigned int tmp_if_expr_2;
   if(ipaddr == ((struct ip_addr *)NULL))
-    tmp_if_expr$2 = (unsigned int)0;
+    tmp_if_expr_2 = (unsigned int)0;
 
   else
-    tmp_if_expr$2 = ipaddr->addr;
-  (&netif->ip_addr)->addr = tmp_if_expr$2;
+    tmp_if_expr_2 = ipaddr->addr;
+  (&netif->ip_addr)->addr = tmp_if_expr_2;
   while((_Bool)0)
     ;
 }
@@ -6582,13 +6582,13 @@ void netif_set_link_up(struct netif *netif)
 // file lwip/src/core/netif.c line 472
 void netif_set_netmask(struct netif *netif, struct ip_addr *netmask)
 {
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   if(netmask == ((struct ip_addr *)NULL))
-    tmp_if_expr$1 = (unsigned int)0;
+    tmp_if_expr_1 = (unsigned int)0;
 
   else
-    tmp_if_expr$1 = netmask->addr;
-  (&netif->netmask)->addr = tmp_if_expr$1;
+    tmp_if_expr_1 = netmask->addr;
+  (&netif->netmask)->addr = tmp_if_expr_1;
   while((_Bool)0)
     ;
 }
@@ -6668,13 +6668,13 @@ static signed int ocp_atoi(const char *s)
   char *p;
   signed long int val;
   val=strtol(s, &p, 0);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(*s == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = *p != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = *p != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     die("invalid integer: '%s'\n", s);
 
   return (signed int)val;
@@ -6744,7 +6744,7 @@ static struct ocp_sock * ocp_sock_new(signed int fd, void (*cb)(signed int, sign
 
 // pbuf_alloc
 // file ./lwip/src/include/lwip/pbuf.h line 153
-struct pbuf * pbuf_alloc(enum anonymous layer, unsigned short int length, enum anonymous$0 type)
+struct pbuf * pbuf_alloc(enum anonymous layer, unsigned short int length, enum anonymous_0 type)
 {
   struct pbuf *p;
   struct pbuf *q;
@@ -6789,15 +6789,15 @@ struct pbuf * pbuf_alloc(enum anonymous layer, unsigned short int length, enum a
       return (struct pbuf *)(void *)0;
     }
   }
-  void *return_value_mem_malloc$1;
-  void *return_value_mem_malloc$3;
-  void *return_value_mem_malloc$4;
+  void *return_value_mem_malloc_1;
+  void *return_value_mem_malloc_3;
+  void *return_value_mem_malloc_4;
   switch((signed int)type)
   {
     case PBUF_POOL:
     {
-      return_value_mem_malloc$1=mem_malloc((unsigned int)memp_sizes[(signed long int)10]);
-      p = (struct pbuf *)return_value_mem_malloc$1;
+      return_value_mem_malloc_1=mem_malloc((unsigned int)memp_sizes[(signed long int)10]);
+      p = (struct pbuf *)return_value_mem_malloc_1;
       while((_Bool)0)
         ;
       if(p == ((struct pbuf *)NULL))
@@ -6849,9 +6849,9 @@ struct pbuf * pbuf_alloc(enum anonymous layer, unsigned short int length, enum a
       rem_len = (signed int)length - (signed int)p->len;
       while(rem_len >= 1)
       {
-        void *return_value_mem_malloc$2;
-        return_value_mem_malloc$2=mem_malloc((unsigned int)memp_sizes[(signed long int)10]);
-        q = (struct pbuf *)return_value_mem_malloc$2;
+        void *return_value_mem_malloc_2;
+        return_value_mem_malloc_2=mem_malloc((unsigned int)memp_sizes[(signed long int)10]);
+        q = (struct pbuf *)return_value_mem_malloc_2;
         if(q == ((struct pbuf *)NULL))
         {
           pbuf_pool_is_empty();
@@ -6907,8 +6907,8 @@ struct pbuf * pbuf_alloc(enum anonymous layer, unsigned short int length, enum a
     }
     case PBUF_RAM:
     {
-      return_value_mem_malloc$3=mem_malloc((unsigned int)(((((sizeof(struct pbuf) /*24ul*/  + (unsigned long int)4) - (unsigned long int)1 & (unsigned long int)~(4 - 1)) + (unsigned long int)offset + (unsigned long int)4) - (unsigned long int)1 & (unsigned long int)~(4 - 1)) + (unsigned long int)(((signed int)length + 4) - 1 & ~(4 - 1))));
-      p = (struct pbuf *)return_value_mem_malloc$3;
+      return_value_mem_malloc_3=mem_malloc((unsigned int)(((((sizeof(struct pbuf) /*24ul*/  + (unsigned long int)4) - (unsigned long int)1 & (unsigned long int)~(4 - 1)) + (unsigned long int)offset + (unsigned long int)4) - (unsigned long int)1 & (unsigned long int)~(4 - 1)) + (unsigned long int)(((signed int)length + 4) - 1 & ~(4 - 1))));
+      p = (struct pbuf *)return_value_mem_malloc_3;
       if(p == ((struct pbuf *)NULL))
         return (struct pbuf *)(void *)0;
 
@@ -6934,8 +6934,8 @@ struct pbuf * pbuf_alloc(enum anonymous layer, unsigned short int length, enum a
 
     case PBUF_REF:
     {
-      return_value_mem_malloc$4=mem_malloc((unsigned int)memp_sizes[(signed long int)9]);
-      p = (struct pbuf *)return_value_mem_malloc$4;
+      return_value_mem_malloc_4=mem_malloc((unsigned int)memp_sizes[(signed long int)9]);
+      p = (struct pbuf *)return_value_mem_malloc_4;
       if(p == ((struct pbuf *)NULL))
       {
         while((_Bool)0)
@@ -6973,7 +6973,7 @@ struct pbuf * pbuf_alloc(enum anonymous layer, unsigned short int length, enum a
 
 // pbuf_alloced_custom
 // file lwip/src/core/pbuf.c line 367
-struct pbuf * pbuf_alloced_custom(enum anonymous l, unsigned short int length, enum anonymous$0 type, struct pbuf_custom *p, void *payload_mem, unsigned short int payload_mem_len)
+struct pbuf * pbuf_alloced_custom(enum anonymous l, unsigned short int length, enum anonymous_0 type, struct pbuf_custom *p, void *payload_mem, unsigned short int payload_mem_len)
 {
   unsigned short int offset;
   while((_Bool)0)
@@ -7120,7 +7120,7 @@ struct pbuf * pbuf_coalesce(struct pbuf *p, enum anonymous layer)
 
   else
   {
-    q=pbuf_alloc(layer, p->tot_len, (enum anonymous$0)PBUF_RAM);
+    q=pbuf_alloc(layer, p->tot_len, (enum anonymous_0)PBUF_RAM);
     if(q == ((struct pbuf *)NULL))
       return p;
 
@@ -7153,15 +7153,15 @@ signed char pbuf_copy(struct pbuf *p_to, struct pbuf *p_from)
   unsigned short int len;
   while((_Bool)0)
     ;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(p_from == ((struct pbuf *)NULL)) && !(p_to == ((struct pbuf *)NULL)))
-      tmp_if_expr$1 = (signed int)p_to->tot_len >= (signed int)p_from->tot_len ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)p_to->tot_len >= (signed int)p_from->tot_len ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
     {
       do
       {
@@ -7319,7 +7319,7 @@ unsigned short int pbuf_copy_partial(struct pbuf *buf, void *dataptr, unsigned s
 
   while((_Bool)0);
   left = (unsigned short int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(dataptr == NULL || buf == ((struct pbuf *)NULL))
     return (unsigned short int)0;
 
@@ -7329,11 +7329,11 @@ unsigned short int pbuf_copy_partial(struct pbuf *buf, void *dataptr, unsigned s
     for( ; !(p == ((struct pbuf *)NULL)) && !((signed int)len == 0); p = p->next)
     {
       if(!((signed int)offset == 0))
-        tmp_if_expr$1 = (signed int)offset >= (signed int)p->len ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)offset >= (signed int)p->len ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
         offset = offset - p->len;
 
       else
@@ -7406,9 +7406,9 @@ unsigned char pbuf_free(struct pbuf *p)
   unsigned short int type;
   struct pbuf *q;
   unsigned char count;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if(p == ((struct pbuf *)NULL))
   {
     do
@@ -7434,21 +7434,21 @@ unsigned char pbuf_free(struct pbuf *p)
     do
     {
       if((signed int)p->type == PBUF_RAM)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)p->type == PBUF_ROM ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_1 = (signed int)p->type == PBUF_ROM ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)p->type == PBUF_REF ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_2 = (signed int)p->type == PBUF_REF ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)p->type == PBUF_POOL ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)p->type == PBUF_POOL ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_3)
         do
         {
           printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"pbuf_free: sane type", 637, (const void *)"lwip/src/core/pbuf.c");
@@ -7531,9 +7531,9 @@ unsigned char pbuf_free(struct pbuf *p)
 // file lwip/src/api/tcpip.c line 548
 signed char pbuf_free_callback(struct pbuf *p)
 {
-  signed char return_value_tcpip_callback_with_block$1;
-  return_value_tcpip_callback_with_block$1=tcpip_callback_with_block(pbuf_free_int, (void *)p, (unsigned char)0);
-  return return_value_tcpip_callback_with_block$1;
+  signed char return_value_tcpip_callback_with_block_1;
+  return_value_tcpip_callback_with_block_1=tcpip_callback_with_block(pbuf_free_int, (void *)p, (unsigned char)0);
+  return return_value_tcpip_callback_with_block_1;
 }
 
 // pbuf_free_int
@@ -7625,7 +7625,7 @@ unsigned char pbuf_header(struct pbuf *p, signed short int header_size_increment
       while((_Bool)0);
 
   while((_Bool)0);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(p == ((struct pbuf *)NULL) || (signed int)header_size_increment == 0)
     return (unsigned char)0;
 
@@ -7671,11 +7671,11 @@ unsigned char pbuf_header(struct pbuf *p, signed short int header_size_increment
       if((signed int)type == PBUF_ROM || (signed int)type == PBUF_REF)
       {
         if(!((signed int)header_size_increment >= 0))
-          tmp_if_expr$1 = (signed int)increment_magnitude <= (signed int)p->len ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (signed int)increment_magnitude <= (signed int)p->len ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
           p->payload = (void *)((unsigned char *)p->payload - (signed long int)header_size_increment);
 
         else
@@ -7773,9 +7773,9 @@ static void pbuf_pool_is_empty(void)
   if(queued == 0)
     do
     {
-      signed char return_value_tcpip_callback_with_block$1;
-      return_value_tcpip_callback_with_block$1=tcpip_callback_with_block(pbuf_free_ooseq_callback, (void *)0, (unsigned char)0);
-      if(!((signed int)return_value_tcpip_callback_with_block$1 == 0))
+      signed char return_value_tcpip_callback_with_block_1;
+      return_value_tcpip_callback_with_block_1=tcpip_callback_with_block(pbuf_free_ooseq_callback, (void *)0, (unsigned char)0);
+      if(!((signed int)return_value_tcpip_callback_with_block_1 == 0))
       {
         old_level=sys_arch_protect();
         pbuf_free_ooseq_pending = (volatile unsigned char)0;
@@ -7805,27 +7805,27 @@ void pbuf_realloc(struct pbuf *p, unsigned short int new_len)
       while((_Bool)0);
 
   while((_Bool)0);
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   do
   {
     if((signed int)p->type == PBUF_POOL)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)p->type == PBUF_ROM ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = (signed int)p->type == PBUF_ROM ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)p->type == PBUF_RAM ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = (signed int)p->type == PBUF_RAM ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)p->type == PBUF_REF ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)p->type == PBUF_REF ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_3)
       do
       {
         printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"pbuf_realloc: sane p->type", 440, (const void *)"lwip/src/core/pbuf.c");
@@ -7873,9 +7873,9 @@ void pbuf_realloc(struct pbuf *p, unsigned short int new_len)
     {
       if(!(rem_len == q->len))
       {
-        void *return_value_mem_trim$4;
-        return_value_mem_trim$4=mem_trim((void *)q, (unsigned int)((signed int)(unsigned short int)((unsigned char *)q->payload - (unsigned char *)q) + (signed int)rem_len));
-        q = (struct pbuf *)return_value_mem_trim$4;
+        void *return_value_mem_trim_4;
+        return_value_mem_trim_4=mem_trim((void *)q, (unsigned int)((signed int)(unsigned short int)((unsigned char *)q->payload - (unsigned char *)q) + (signed int)rem_len));
+        q = (struct pbuf *)return_value_mem_trim_4;
         do
           if(q == ((struct pbuf *)NULL))
             do
@@ -7920,19 +7920,19 @@ void pbuf_ref(struct pbuf *p)
 unsigned short int pbuf_strstr(struct pbuf *p, const char *substr)
 {
   unsigned long int substr_len;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(substr == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)substr[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (signed int)substr[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)p->tot_len == 0xFFFF ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)p->tot_len == 0xFFFF ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return (unsigned short int)0xFFFF;
 
   else
@@ -7943,9 +7943,9 @@ unsigned short int pbuf_strstr(struct pbuf *p, const char *substr)
 
     else
     {
-      unsigned short int return_value_pbuf_memfind$3;
-      return_value_pbuf_memfind$3=pbuf_memfind(p, (const void *)substr, (unsigned short int)substr_len, (unsigned short int)0);
-      return return_value_pbuf_memfind$3;
+      unsigned short int return_value_pbuf_memfind_3;
+      return_value_pbuf_memfind_3=pbuf_memfind(p, (const void *)substr, (unsigned short int)substr_len, (unsigned short int)0);
+      return return_value_pbuf_memfind_3;
     }
   }
 }
@@ -7986,13 +7986,13 @@ signed char pbuf_take(struct pbuf *buf, const void *dataptr, unsigned short int 
     }
 
   while((_Bool)0);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(dataptr == NULL || buf == ((struct pbuf *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)buf->tot_len < (signed int)len ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)buf->tot_len < (signed int)len ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return (signed char)-14;
 
   else
@@ -8156,7 +8156,7 @@ static signed char recv_cb(void *ctx, struct tcp_pcb *tpcb, struct pbuf *p, sign
   struct pbuf *first = p;
   signed int offset;
   signed long int wlen;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(s == ((struct ocp_sock *)NULL))
     return (signed char)-10;
 
@@ -8173,11 +8173,11 @@ static signed char recv_cb(void *ctx, struct tcp_pcb *tpcb, struct pbuf *p, sign
       do
       {
         if(!(p == ((struct pbuf *)NULL)))
-          tmp_if_expr$1 = offset >= (signed int)p->len ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = offset >= (signed int)p->len ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(!tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(!tmp_if_expr_1)
           break;
 
         p = p->next;
@@ -8269,9 +8269,9 @@ static void socks_cmd_cb(signed int fd, signed short int what, void *ctx)
           if(1ul + (unsigned long int)auth->n_methods >= (unsigned long int)s->sock_pos)
             goto req_more;
 
-        signed long int return_value_write$1;
-        return_value_write$1=write(s->fd, (const void *)"\005\0", (unsigned long int)2);
-        if(!(return_value_write$1 == 2l))
+        signed long int return_value_write_1;
+        return_value_write_1=write(s->fd, (const void *)"\005\0", (unsigned long int)2);
+        if(!(return_value_write_1 == 2l))
           goto disconnect;
 
         s->state = 2;
@@ -8296,9 +8296,9 @@ static void socks_cmd_cb(signed int fd, signed short int what, void *ctx)
                 goto req_more;
 
               ip.addr = req->u.ipv4.dst_addr;
-              unsigned short int return_value_lwip_ntohs$2;
-              return_value_lwip_ntohs$2=lwip_ntohs(req->u.ipv4.dst_port);
-              s->rport = (signed int)return_value_lwip_ntohs$2;
+              unsigned short int return_value_lwip_ntohs_2;
+              return_value_lwip_ntohs_2=lwip_ntohs(req->u.ipv4.dst_port);
+              s->rport = (signed int)return_value_lwip_ntohs_2;
               start_connection(s, &ip);
               goto __CPROVER_DUMP_L10;
             }
@@ -8367,9 +8367,9 @@ static void socks_reply(struct ocp_sock *s, signed int rep)
 
   }
 
-  signed long int return_value_write$1;
-  return_value_write$1=write(s->fd, (const void *)&rsp, sizeof(struct socks_reply) /*10ul*/ );
-  if(!((unsigned long int)return_value_write$1 == sizeof(struct socks_reply) /*10ul*/ ))
+  signed long int return_value_write_1;
+  return_value_write_1=write(s->fd, (const void *)&rsp, sizeof(struct socks_reply) /*10ul*/ );
+  if(!((unsigned long int)return_value_write_1 == sizeof(struct socks_reply) /*10ul*/ ))
     rep = -1;
 
   if(!(rep == 0))
@@ -8411,9 +8411,9 @@ static void start_connection(struct ocp_sock *s, struct ip_addr *ipaddr)
 static void start_resolution(struct ocp_sock *s, const char *hostname)
 {
   s->state = 3;
-  char *return_value_strchr$1;
-  return_value_strchr$1=strchr(hostname, 46);
-  if(!(return_value_strchr$1 == ((char *)NULL)))
+  char *return_value_strchr_1;
+  return_value_strchr_1=strchr(hostname, 46);
+  if(!(return_value_strchr_1 == ((char *)NULL)))
     enqueue_dns_req(s, hostname, (const char *)(void *)0, retry_resolution);
 
   else
@@ -8552,16 +8552,16 @@ void stats_init(void)
 unsigned int sys_arch_mbox_fetch(struct sys_mbox **mb, void **msg, unsigned int timeout)
 {
   unsigned int time_needed = (unsigned int)0;
-  struct sys_mbox *sys_arch_mbox_fetch$$1$$mbox;
-  _Bool tmp_if_expr$1;
+  struct sys_mbox *sys_arch_mbox_fetch__1__mbox;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(mb == ((struct sys_mbox **)NULL)))
-      tmp_if_expr$1 = *mb != (struct sys_mbox *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *mb != (struct sys_mbox *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       do
       {
         printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"invalid mbox", 305, (const void *)"contrib/ports/unix/sys_arch.c");
@@ -8572,38 +8572,38 @@ unsigned int sys_arch_mbox_fetch(struct sys_mbox **mb, void **msg, unsigned int 
 
   }
   while((_Bool)0);
-  sys_arch_mbox_fetch$$1$$mbox = *mb;
-  sys_arch_sem_wait(&sys_arch_mbox_fetch$$1$$mbox->mutex, (unsigned int)0);
-  while(sys_arch_mbox_fetch$$1$$mbox->first == sys_arch_mbox_fetch$$1$$mbox->last)
+  sys_arch_mbox_fetch__1__mbox = *mb;
+  sys_arch_sem_wait(&sys_arch_mbox_fetch__1__mbox->mutex, (unsigned int)0);
+  while(sys_arch_mbox_fetch__1__mbox->first == sys_arch_mbox_fetch__1__mbox->last)
   {
-    sys_sem_signal(&sys_arch_mbox_fetch$$1$$mbox->mutex);
+    sys_sem_signal(&sys_arch_mbox_fetch__1__mbox->mutex);
     if(!(timeout == 0u))
     {
-      time_needed=sys_arch_sem_wait(&sys_arch_mbox_fetch$$1$$mbox->not_empty, timeout);
+      time_needed=sys_arch_sem_wait(&sys_arch_mbox_fetch__1__mbox->not_empty, timeout);
       if((unsigned long int)time_needed == 0xffffffffUL)
         return (unsigned int)0xffffffffUL;
 
     }
 
     else
-      sys_arch_sem_wait(&sys_arch_mbox_fetch$$1$$mbox->not_empty, (unsigned int)0);
-    sys_arch_sem_wait(&sys_arch_mbox_fetch$$1$$mbox->mutex, (unsigned int)0);
+      sys_arch_sem_wait(&sys_arch_mbox_fetch__1__mbox->not_empty, (unsigned int)0);
+    sys_arch_sem_wait(&sys_arch_mbox_fetch__1__mbox->mutex, (unsigned int)0);
   }
   if(!(msg == ((void **)NULL)))
   {
     while((_Bool)0)
       ;
-    *msg = sys_arch_mbox_fetch$$1$$mbox->msgs[(signed long int)(sys_arch_mbox_fetch$$1$$mbox->first % 128)];
+    *msg = sys_arch_mbox_fetch__1__mbox->msgs[(signed long int)(sys_arch_mbox_fetch__1__mbox->first % 128)];
   }
 
   else
     while((_Bool)0)
       ;
-  sys_arch_mbox_fetch$$1$$mbox->first = sys_arch_mbox_fetch$$1$$mbox->first + 1;
-  if(!(sys_arch_mbox_fetch$$1$$mbox->wait_send == 0))
-    sys_sem_signal(&sys_arch_mbox_fetch$$1$$mbox->not_full);
+  sys_arch_mbox_fetch__1__mbox->first = sys_arch_mbox_fetch__1__mbox->first + 1;
+  if(!(sys_arch_mbox_fetch__1__mbox->wait_send == 0))
+    sys_sem_signal(&sys_arch_mbox_fetch__1__mbox->not_full);
 
-  sys_sem_signal(&sys_arch_mbox_fetch$$1$$mbox->mutex);
+  sys_sem_signal(&sys_arch_mbox_fetch__1__mbox->mutex);
   return time_needed;
 }
 
@@ -8611,16 +8611,16 @@ unsigned int sys_arch_mbox_fetch(struct sys_mbox **mb, void **msg, unsigned int 
 // file contrib/ports/unix/sys_arch.c line 268
 unsigned int sys_arch_mbox_tryfetch(struct sys_mbox **mb, void **msg)
 {
-  struct sys_mbox *sys_arch_mbox_tryfetch$$1$$mbox;
-  _Bool tmp_if_expr$1;
+  struct sys_mbox *sys_arch_mbox_tryfetch__1__mbox;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(mb == ((struct sys_mbox **)NULL)))
-      tmp_if_expr$1 = *mb != (struct sys_mbox *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *mb != (struct sys_mbox *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       do
       {
         printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"invalid mbox", 271, (const void *)"contrib/ports/unix/sys_arch.c");
@@ -8631,11 +8631,11 @@ unsigned int sys_arch_mbox_tryfetch(struct sys_mbox **mb, void **msg)
 
   }
   while((_Bool)0);
-  sys_arch_mbox_tryfetch$$1$$mbox = *mb;
-  sys_arch_sem_wait(&sys_arch_mbox_tryfetch$$1$$mbox->mutex, (unsigned int)0);
-  if(sys_arch_mbox_tryfetch$$1$$mbox->first == sys_arch_mbox_tryfetch$$1$$mbox->last)
+  sys_arch_mbox_tryfetch__1__mbox = *mb;
+  sys_arch_sem_wait(&sys_arch_mbox_tryfetch__1__mbox->mutex, (unsigned int)0);
+  if(sys_arch_mbox_tryfetch__1__mbox->first == sys_arch_mbox_tryfetch__1__mbox->last)
   {
-    sys_sem_signal(&sys_arch_mbox_tryfetch$$1$$mbox->mutex);
+    sys_sem_signal(&sys_arch_mbox_tryfetch__1__mbox->mutex);
     return (unsigned int)0xffffffffUL;
   }
 
@@ -8645,17 +8645,17 @@ unsigned int sys_arch_mbox_tryfetch(struct sys_mbox **mb, void **msg)
     {
       while((_Bool)0)
         ;
-      *msg = sys_arch_mbox_tryfetch$$1$$mbox->msgs[(signed long int)(sys_arch_mbox_tryfetch$$1$$mbox->first % 128)];
+      *msg = sys_arch_mbox_tryfetch__1__mbox->msgs[(signed long int)(sys_arch_mbox_tryfetch__1__mbox->first % 128)];
     }
 
     else
       while((_Bool)0)
         ;
-    sys_arch_mbox_tryfetch$$1$$mbox->first = sys_arch_mbox_tryfetch$$1$$mbox->first + 1;
-    if(!(sys_arch_mbox_tryfetch$$1$$mbox->wait_send == 0))
-      sys_sem_signal(&sys_arch_mbox_tryfetch$$1$$mbox->not_full);
+    sys_arch_mbox_tryfetch__1__mbox->first = sys_arch_mbox_tryfetch__1__mbox->first + 1;
+    if(!(sys_arch_mbox_tryfetch__1__mbox->wait_send == 0))
+      sys_sem_signal(&sys_arch_mbox_tryfetch__1__mbox->not_full);
 
-    sys_sem_signal(&sys_arch_mbox_tryfetch$$1$$mbox->mutex);
+    sys_sem_signal(&sys_arch_mbox_tryfetch__1__mbox->mutex);
     return (unsigned int)0;
   }
 }
@@ -8664,9 +8664,9 @@ unsigned int sys_arch_mbox_tryfetch(struct sys_mbox **mb, void **msg)
 // file ./lwip/src/include/lwip/sys.h line 277
 unsigned int sys_arch_protect(void)
 {
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  if(!(lwprot_thread == return_value_pthread_self$1))
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  if(!(lwprot_thread == return_value_pthread_self_1))
   {
     pthread_mutex_lock(&lwprot_mutex);
     lwprot_thread=pthread_self();
@@ -8684,15 +8684,15 @@ unsigned int sys_arch_sem_wait(struct sys_sem **s, unsigned int timeout)
 {
   unsigned int time_needed = (unsigned int)0;
   struct sys_sem *sem;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(s == ((struct sys_sem **)NULL)))
-      tmp_if_expr$1 = *s != (struct sys_sem *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *s != (struct sys_sem *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       do
       {
         printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"invalid sem", 420, (const void *)"contrib/ports/unix/sys_arch.c");
@@ -8729,9 +8729,9 @@ unsigned int sys_arch_sem_wait(struct sys_sem **s, unsigned int timeout)
 void sys_arch_unprotect(unsigned int pval)
 {
   (void)pval;
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  if(lwprot_thread == return_value_pthread_self$1)
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  if(lwprot_thread == return_value_pthread_self_1)
   {
     lwprot_count = lwprot_count - 1;
     if(lwprot_count == 0)
@@ -8780,16 +8780,16 @@ void sys_mbox_free(struct sys_mbox **mb)
   {
     if(!(*mb == ((struct sys_mbox *)NULL)))
     {
-      struct sys_mbox *sys_mbox_free$$1$$1$$mbox = *mb;
+      struct sys_mbox *sys_mbox_free__1__1__mbox = *mb;
       lwip_stats.sys.mbox.used = lwip_stats.sys.mbox.used - 1;
-      sys_arch_sem_wait(&sys_mbox_free$$1$$1$$mbox->mutex, (unsigned int)0);
-      sys_sem_free_internal(sys_mbox_free$$1$$1$$mbox->not_empty);
-      sys_sem_free_internal(sys_mbox_free$$1$$1$$mbox->not_full);
-      sys_sem_free_internal(sys_mbox_free$$1$$1$$mbox->mutex);
-      sys_mbox_free$$1$$1$$mbox->mutex = (struct sys_sem *)(void *)0;
-      sys_mbox_free$$1$$1$$mbox->not_full = sys_mbox_free$$1$$1$$mbox->mutex;
-      sys_mbox_free$$1$$1$$mbox->not_empty = sys_mbox_free$$1$$1$$mbox->not_full;
-      free((void *)sys_mbox_free$$1$$1$$mbox);
+      sys_arch_sem_wait(&sys_mbox_free__1__1__mbox->mutex, (unsigned int)0);
+      sys_sem_free_internal(sys_mbox_free__1__1__mbox->not_empty);
+      sys_sem_free_internal(sys_mbox_free__1__1__mbox->not_full);
+      sys_sem_free_internal(sys_mbox_free__1__1__mbox->mutex);
+      sys_mbox_free__1__1__mbox->mutex = (struct sys_sem *)(void *)0;
+      sys_mbox_free__1__1__mbox->not_full = sys_mbox_free__1__1__mbox->mutex;
+      sys_mbox_free__1__1__mbox->not_empty = sys_mbox_free__1__1__mbox->not_full;
+      free((void *)sys_mbox_free__1__1__mbox);
     }
 
   }
@@ -8800,22 +8800,22 @@ void sys_mbox_free(struct sys_mbox **mb)
 // file ./lwip/src/include/lwip/sys.h line 174
 signed char sys_mbox_new(struct sys_mbox **mb, signed int size)
 {
-  struct sys_mbox *sys_mbox_new$$1$$mbox;
+  struct sys_mbox *sys_mbox_new__1__mbox;
   (void)size;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct sys_mbox) /*1064ul*/ );
-  sys_mbox_new$$1$$mbox = (struct sys_mbox *)return_value_malloc$1;
-  if(sys_mbox_new$$1$$mbox == ((struct sys_mbox *)NULL))
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct sys_mbox) /*1064ul*/ );
+  sys_mbox_new__1__mbox = (struct sys_mbox *)return_value_malloc_1;
+  if(sys_mbox_new__1__mbox == ((struct sys_mbox *)NULL))
     return (signed char)-1;
 
   else
   {
-    sys_mbox_new$$1$$mbox->last = 0;
-    sys_mbox_new$$1$$mbox->first = sys_mbox_new$$1$$mbox->last;
-    sys_mbox_new$$1$$mbox->not_empty=sys_sem_new_internal((unsigned char)0);
-    sys_mbox_new$$1$$mbox->not_full=sys_sem_new_internal((unsigned char)0);
-    sys_mbox_new$$1$$mbox->mutex=sys_sem_new_internal((unsigned char)1);
-    sys_mbox_new$$1$$mbox->wait_send = 0;
+    sys_mbox_new__1__mbox->last = 0;
+    sys_mbox_new__1__mbox->first = sys_mbox_new__1__mbox->last;
+    sys_mbox_new__1__mbox->not_empty=sys_sem_new_internal((unsigned char)0);
+    sys_mbox_new__1__mbox->not_full=sys_sem_new_internal((unsigned char)0);
+    sys_mbox_new__1__mbox->mutex=sys_sem_new_internal((unsigned char)1);
+    sys_mbox_new__1__mbox->wait_send = 0;
     do
     {
       lwip_stats.sys.mbox.used = lwip_stats.sys.mbox.used + (unsigned short int)1;
@@ -8824,7 +8824,7 @@ signed char sys_mbox_new(struct sys_mbox **mb, signed int size)
 
     }
     while((_Bool)0);
-    *mb = sys_mbox_new$$1$$mbox;
+    *mb = sys_mbox_new__1__mbox;
     return (signed char)0;
   }
 }
@@ -8834,16 +8834,16 @@ signed char sys_mbox_new(struct sys_mbox **mb, signed int size)
 void sys_mbox_post(struct sys_mbox **mb, void *msg)
 {
   unsigned char first;
-  struct sys_mbox *sys_mbox_post$$1$$mbox;
-  _Bool tmp_if_expr$1;
+  struct sys_mbox *sys_mbox_post__1__mbox;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(mb == ((struct sys_mbox **)NULL)))
-      tmp_if_expr$1 = *mb != (struct sys_mbox *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *mb != (struct sys_mbox *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       do
       {
         printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"invalid mbox", 235, (const void *)"contrib/ports/unix/sys_arch.c");
@@ -8854,28 +8854,28 @@ void sys_mbox_post(struct sys_mbox **mb, void *msg)
 
   }
   while((_Bool)0);
-  sys_mbox_post$$1$$mbox = *mb;
-  sys_arch_sem_wait(&sys_mbox_post$$1$$mbox->mutex, (unsigned int)0);
+  sys_mbox_post__1__mbox = *mb;
+  sys_arch_sem_wait(&sys_mbox_post__1__mbox->mutex, (unsigned int)0);
   while((_Bool)0)
     ;
-  for( ; 1 + sys_mbox_post$$1$$mbox->last >= 128 + sys_mbox_post$$1$$mbox->first; sys_mbox_post$$1$$mbox->wait_send = sys_mbox_post$$1$$mbox->wait_send - 1)
+  for( ; 1 + sys_mbox_post__1__mbox->last >= 128 + sys_mbox_post__1__mbox->first; sys_mbox_post__1__mbox->wait_send = sys_mbox_post__1__mbox->wait_send - 1)
   {
-    sys_mbox_post$$1$$mbox->wait_send = sys_mbox_post$$1$$mbox->wait_send + 1;
-    sys_sem_signal(&sys_mbox_post$$1$$mbox->mutex);
-    sys_arch_sem_wait(&sys_mbox_post$$1$$mbox->not_full, (unsigned int)0);
-    sys_arch_sem_wait(&sys_mbox_post$$1$$mbox->mutex, (unsigned int)0);
+    sys_mbox_post__1__mbox->wait_send = sys_mbox_post__1__mbox->wait_send + 1;
+    sys_sem_signal(&sys_mbox_post__1__mbox->mutex);
+    sys_arch_sem_wait(&sys_mbox_post__1__mbox->not_full, (unsigned int)0);
+    sys_arch_sem_wait(&sys_mbox_post__1__mbox->mutex, (unsigned int)0);
   }
-  sys_mbox_post$$1$$mbox->msgs[(signed long int)(sys_mbox_post$$1$$mbox->last % 128)] = msg;
-  if(sys_mbox_post$$1$$mbox->last == sys_mbox_post$$1$$mbox->first)
+  sys_mbox_post__1__mbox->msgs[(signed long int)(sys_mbox_post__1__mbox->last % 128)] = msg;
+  if(sys_mbox_post__1__mbox->last == sys_mbox_post__1__mbox->first)
     first = (unsigned char)1;
 
   else
     first = (unsigned char)0;
-  sys_mbox_post$$1$$mbox->last = sys_mbox_post$$1$$mbox->last + 1;
+  sys_mbox_post__1__mbox->last = sys_mbox_post__1__mbox->last + 1;
   if(!(first == 0))
-    sys_sem_signal(&sys_mbox_post$$1$$mbox->not_empty);
+    sys_sem_signal(&sys_mbox_post__1__mbox->not_empty);
 
-  sys_sem_signal(&sys_mbox_post$$1$$mbox->mutex);
+  sys_sem_signal(&sys_mbox_post__1__mbox->mutex);
 }
 
 // sys_mbox_trypost
@@ -8883,16 +8883,16 @@ void sys_mbox_post(struct sys_mbox **mb, void *msg)
 signed char sys_mbox_trypost(struct sys_mbox **mb, void *msg)
 {
   unsigned char first;
-  struct sys_mbox *sys_mbox_trypost$$1$$mbox;
-  _Bool tmp_if_expr$1;
+  struct sys_mbox *sys_mbox_trypost__1__mbox;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(mb == ((struct sys_mbox **)NULL)))
-      tmp_if_expr$1 = *mb != (struct sys_mbox *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *mb != (struct sys_mbox *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       do
       {
         printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"invalid mbox", 198, (const void *)"contrib/ports/unix/sys_arch.c");
@@ -8903,29 +8903,29 @@ signed char sys_mbox_trypost(struct sys_mbox **mb, void *msg)
 
   }
   while((_Bool)0);
-  sys_mbox_trypost$$1$$mbox = *mb;
-  sys_arch_sem_wait(&sys_mbox_trypost$$1$$mbox->mutex, (unsigned int)0);
+  sys_mbox_trypost__1__mbox = *mb;
+  sys_arch_sem_wait(&sys_mbox_trypost__1__mbox->mutex, (unsigned int)0);
   while((_Bool)0)
     ;
-  if(1 + sys_mbox_trypost$$1$$mbox->last >= 128 + sys_mbox_trypost$$1$$mbox->first)
+  if(1 + sys_mbox_trypost__1__mbox->last >= 128 + sys_mbox_trypost__1__mbox->first)
   {
-    sys_sem_signal(&sys_mbox_trypost$$1$$mbox->mutex);
+    sys_sem_signal(&sys_mbox_trypost__1__mbox->mutex);
     return (signed char)-1;
   }
 
   else
   {
-    sys_mbox_trypost$$1$$mbox->msgs[(signed long int)(sys_mbox_trypost$$1$$mbox->last % 128)] = msg;
-    if(sys_mbox_trypost$$1$$mbox->last == sys_mbox_trypost$$1$$mbox->first)
+    sys_mbox_trypost__1__mbox->msgs[(signed long int)(sys_mbox_trypost__1__mbox->last % 128)] = msg;
+    if(sys_mbox_trypost__1__mbox->last == sys_mbox_trypost__1__mbox->first)
       first = (unsigned char)1;
 
     else
       first = (unsigned char)0;
-    sys_mbox_trypost$$1$$mbox->last = sys_mbox_trypost$$1$$mbox->last + 1;
+    sys_mbox_trypost__1__mbox->last = sys_mbox_trypost__1__mbox->last + 1;
     if(!(first == 0))
-      sys_sem_signal(&sys_mbox_trypost$$1$$mbox->not_empty);
+      sys_sem_signal(&sys_mbox_trypost__1__mbox->not_empty);
 
-    sys_sem_signal(&sys_mbox_trypost$$1$$mbox->mutex);
+    sys_sem_signal(&sys_mbox_trypost__1__mbox->mutex);
     return (signed char)0;
   }
 }
@@ -9014,14 +9014,14 @@ signed char sys_sem_new(struct sys_sem **sem, unsigned char count)
 static struct sys_sem * sys_sem_new_internal(unsigned char count)
 {
   struct sys_sem *sem;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct sys_sem) /*96ul*/ );
-  sem = (struct sys_sem *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct sys_sem) /*96ul*/ );
+  sem = (struct sys_sem *)return_value_malloc_1;
   if(!(sem == ((struct sys_sem *)NULL)))
   {
     sem->c = (unsigned int)count;
-    pthread_cond_init(&sem->cond, (const union anonymous$5 *)(void *)0);
-    pthread_mutex_init(&sem->mutex, (const union anonymous$5 *)(void *)0);
+    pthread_cond_init(&sem->cond, (const union anonymous_5 *)(void *)0);
+    pthread_mutex_init(&sem->mutex, (const union anonymous_5 *)(void *)0);
   }
 
   return sem;
@@ -9032,15 +9032,15 @@ static struct sys_sem * sys_sem_new_internal(unsigned char count)
 void sys_sem_signal(struct sys_sem **s)
 {
   struct sys_sem *sem;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(s == ((struct sys_sem **)NULL)))
-      tmp_if_expr$1 = *s != (struct sys_sem *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *s != (struct sys_sem *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       do
       {
         printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"invalid sem", 447, (const void *)"contrib/ports/unix/sys_arch.c");
@@ -9091,10 +9091,10 @@ void sys_timeout(unsigned int msecs, void (*handler)(void *), void *arg)
 {
   struct sys_timeo *timeout;
   struct sys_timeo *t;
-  void *return_value_mem_malloc$1;
-  return_value_mem_malloc$1=mem_malloc((unsigned int)memp_sizes[(signed long int)8]);
-  timeout = (struct sys_timeo *)return_value_mem_malloc$1;
-  _Bool tmp_if_expr$2;
+  void *return_value_mem_malloc_1;
+  return_value_mem_malloc_1=mem_malloc((unsigned int)memp_sizes[(signed long int)8]);
+  timeout = (struct sys_timeo *)return_value_mem_malloc_1;
+  _Bool tmp_if_expr_2;
   if(timeout == ((struct sys_timeo *)NULL))
     do
       if(timeout == ((struct sys_timeo *)NULL))
@@ -9132,11 +9132,11 @@ void sys_timeout(unsigned int msecs, void (*handler)(void *), void *arg)
         {
           timeout->time = timeout->time - t->time;
           if(t->next == ((struct sys_timeo *)NULL))
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = t->next->time > timeout->time ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$2)
+            tmp_if_expr_2 = t->next->time > timeout->time ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_2)
           {
             if(!(t->next == ((struct sys_timeo *)NULL)))
               t->next->time = t->next->time - timeout->time;
@@ -9253,8 +9253,8 @@ __CPROVER_DUMP_L8:
 // file lwip/src/core/tcp.c line 360
 void tcp_abandon(struct tcp_pcb *pcb, signed int reset)
 {
-  unsigned int tcp_abandon$$1$$seqno;
-  unsigned int tcp_abandon$$1$$ackno;
+  unsigned int tcp_abandon__1__seqno;
+  unsigned int tcp_abandon__1__ackno;
   void (*errf)(void *, signed char);
   void *errf_arg;
   do
@@ -9268,7 +9268,7 @@ void tcp_abandon(struct tcp_pcb *pcb, signed int reset)
       while((_Bool)0);
 
   while((_Bool)0);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)pcb->state == TIME_WAIT)
   {
     tcp_pcb_remove(&tcp_tw_pcbs, pcb);
@@ -9279,13 +9279,13 @@ void tcp_abandon(struct tcp_pcb *pcb, signed int reset)
   {
     signed int send_rst;
     if(!(reset == 0))
-      tmp_if_expr$1 = (signed int)pcb->state != CLOSED ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)pcb->state != CLOSED ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    send_rst = (signed int)tmp_if_expr$1;
-    tcp_abandon$$1$$seqno = pcb->snd_nxt;
-    tcp_abandon$$1$$ackno = pcb->rcv_nxt;
+      tmp_if_expr_1 = (_Bool)0;
+    send_rst = (signed int)tmp_if_expr_1;
+    tcp_abandon__1__seqno = pcb->snd_nxt;
+    tcp_abandon__1__ackno = pcb->rcv_nxt;
     errf = pcb->errf;
     errf_arg = pcb->callback_arg;
     do
@@ -9307,7 +9307,7 @@ void tcp_abandon(struct tcp_pcb *pcb, signed int reset)
     {
       while((_Bool)0)
         ;
-      tcp_rst_impl(tcp_abandon$$1$$seqno, tcp_abandon$$1$$ackno, &pcb->local_ip, &pcb->remote_ip, pcb->local_port, pcb->remote_port);
+      tcp_rst_impl(tcp_abandon__1__seqno, tcp_abandon__1__ackno, &pcb->local_ip, &pcb->remote_ip, pcb->local_port, pcb->remote_port);
     }
 
     mem_free((void *)pcb);
@@ -9349,25 +9349,25 @@ struct tcp_pcb * tcp_alloc(unsigned char prio)
 {
   struct tcp_pcb *pcb;
   unsigned int iss;
-  void *return_value_mem_malloc$1;
-  return_value_mem_malloc$1=mem_malloc((unsigned int)memp_sizes[(signed long int)1]);
-  pcb = (struct tcp_pcb *)return_value_mem_malloc$1;
+  void *return_value_mem_malloc_1;
+  return_value_mem_malloc_1=mem_malloc((unsigned int)memp_sizes[(signed long int)1]);
+  pcb = (struct tcp_pcb *)return_value_mem_malloc_1;
   if(pcb == ((struct tcp_pcb *)NULL))
   {
     while((_Bool)0)
       ;
     tcp_kill_timewait();
-    void *return_value_mem_malloc$2;
-    return_value_mem_malloc$2=mem_malloc((unsigned int)memp_sizes[(signed long int)1]);
-    pcb = (struct tcp_pcb *)return_value_mem_malloc$2;
+    void *return_value_mem_malloc_2;
+    return_value_mem_malloc_2=mem_malloc((unsigned int)memp_sizes[(signed long int)1]);
+    pcb = (struct tcp_pcb *)return_value_mem_malloc_2;
     if(pcb == ((struct tcp_pcb *)NULL))
     {
       while((_Bool)0)
         ;
       tcp_kill_prio(prio);
-      void *return_value_mem_malloc$3;
-      return_value_mem_malloc$3=mem_malloc((unsigned int)memp_sizes[(signed long int)1]);
-      pcb = (struct tcp_pcb *)return_value_mem_malloc$3;
+      void *return_value_mem_malloc_3;
+      return_value_mem_malloc_3=mem_malloc((unsigned int)memp_sizes[(signed long int)1]);
+      pcb = (struct tcp_pcb *)return_value_mem_malloc_3;
     }
 
   }
@@ -9434,11 +9434,11 @@ signed char tcp_bind(struct tcp_pcb *pcb, struct ip_addr *ipaddr, unsigned short
     }
 
   while((_Bool)0);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  unsigned int tmp_if_expr$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  unsigned int tmp_if_expr_4;
   if((signed int)port == 0)
   {
     port=tcp_new_port();
@@ -9461,41 +9461,41 @@ signed char tcp_bind(struct tcp_pcb *pcb, struct ip_addr *ipaddr, unsigned short
         if(cpcb->local_port == port)
         {
           if(cpcb->local_ip.addr == 0u)
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
           {
             if(ipaddr == ((struct ip_addr *)NULL))
-              tmp_if_expr$1 = (_Bool)1;
+              tmp_if_expr_1 = (_Bool)1;
 
             else
-              tmp_if_expr$1 = ipaddr->addr == (unsigned int)0x00000000UL ? (_Bool)1 : (_Bool)0;
-            tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_1 = ipaddr->addr == (unsigned int)0x00000000UL ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$2)
-            tmp_if_expr$3 = (_Bool)1;
+          if(tmp_if_expr_2)
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = (&cpcb->local_ip)->addr == ipaddr->addr ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = (&cpcb->local_ip)->addr == ipaddr->addr ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_3)
             return (signed char)-8;
 
         }
 
     }
     if(ipaddr == ((struct ip_addr *)NULL))
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = ipaddr->addr == (unsigned int)0x00000000UL ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$5)
+      tmp_if_expr_5 = ipaddr->addr == (unsigned int)0x00000000UL ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_5)
     {
       if(ipaddr == ((struct ip_addr *)NULL))
-        tmp_if_expr$4 = (unsigned int)0;
+        tmp_if_expr_4 = (unsigned int)0;
 
       else
-        tmp_if_expr$4 = ipaddr->addr;
-      (&pcb->local_ip)->addr = tmp_if_expr$4;
+        tmp_if_expr_4 = ipaddr->addr;
+      (&pcb->local_ip)->addr = tmp_if_expr_4;
     }
 
     pcb->local_port = port;
@@ -9519,9 +9519,9 @@ signed char tcp_close(struct tcp_pcb *pcb)
   if(!((signed int)pcb->state == LISTEN))
     pcb->flags = pcb->flags | (unsigned char)0x0010U;
 
-  signed char return_value_tcp_close_shutdown$1;
-  return_value_tcp_close_shutdown$1=tcp_close_shutdown(pcb, (unsigned char)1);
-  return return_value_tcp_close_shutdown$1;
+  signed char return_value_tcp_close_shutdown_1;
+  return_value_tcp_close_shutdown_1=tcp_close_shutdown(pcb, (unsigned char)1);
+  return return_value_tcp_close_shutdown_1;
 }
 
 // tcp_close_shutdown
@@ -9529,24 +9529,24 @@ signed char tcp_close(struct tcp_pcb *pcb)
 static signed char tcp_close_shutdown(struct tcp_pcb *pcb, unsigned char rst_on_unacked_data)
 {
   signed char err;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(!(rst_on_unacked_data == 0))
   {
     if((signed int)pcb->state == ESTABLISHED)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)pcb->state == CLOSE_WAIT ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)pcb->state == CLOSE_WAIT ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_2)
       goto __CPROVER_DUMP_L16;
 
     if(!(pcb->refused_data == ((struct pbuf *)NULL)))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)pcb->rcv_wnd != 65534 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)pcb->rcv_wnd != 65534 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
       goto __CPROVER_DUMP_L16;
 
     do
@@ -9718,21 +9718,21 @@ signed char tcp_connect(struct tcp_pcb *pcb, struct ip_addr *ipaddr, unsigned sh
   while((_Bool)0);
   while((_Bool)0)
     ;
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   if(!(ipaddr == ((struct ip_addr *)NULL)))
   {
     if(ipaddr == ((struct ip_addr *)NULL))
-      tmp_if_expr$1 = (unsigned int)0;
+      tmp_if_expr_1 = (unsigned int)0;
 
     else
-      tmp_if_expr$1 = ipaddr->addr;
-    (&pcb->remote_ip)->addr = tmp_if_expr$1;
+      tmp_if_expr_1 = ipaddr->addr;
+    (&pcb->remote_ip)->addr = tmp_if_expr_1;
   }
 
   else
     return (signed char)-6;
   pcb->remote_port = port;
-  struct ip_addr *tmp_if_expr$2;
+  struct ip_addr *tmp_if_expr_2;
   if(pcb->local_ip.addr == 0u)
   {
     struct netif *netif;
@@ -9741,11 +9741,11 @@ signed char tcp_connect(struct tcp_pcb *pcb, struct ip_addr *ipaddr, unsigned sh
     {
       netif=ip_route(&pcb->remote_ip);
       if(!(netif == ((struct netif *)NULL)))
-        tmp_if_expr$2 = &netif->ip_addr;
+        tmp_if_expr_2 = &netif->ip_addr;
 
       else
-        tmp_if_expr$2 = (struct ip_addr *)(void *)0;
-      local_ip = tmp_if_expr$2;
+        tmp_if_expr_2 = (struct ip_addr *)(void *)0;
+      local_ip = tmp_if_expr_2;
     }
     while((_Bool)0);
     if(local_ip == ((struct ip_addr *)NULL) || netif == ((struct netif *)NULL))
@@ -9832,9 +9832,9 @@ static struct tcp_seg * tcp_create_segment(struct tcp_pcb *pcb, struct pbuf *p, 
 {
   struct tcp_seg *seg;
   unsigned char optlen = (unsigned char)((((signed int)optflags & (signed int)(unsigned char)0x01U) != 0 ? 4 : 0) + (((signed int)optflags & (signed int)(unsigned char)0x02U) != 0 ? 0 : 0) + (((signed int)optflags & (signed int)(unsigned char)0x08U) != 0 ? 0 : 0));
-  void *return_value_mem_malloc$1;
-  return_value_mem_malloc$1=mem_malloc((unsigned int)memp_sizes[(signed long int)3]);
-  seg = (struct tcp_seg *)return_value_mem_malloc$1;
+  void *return_value_mem_malloc_1;
+  return_value_mem_malloc_1=mem_malloc((unsigned int)memp_sizes[(signed long int)3]);
+  seg = (struct tcp_seg *)return_value_mem_malloc_1;
   if(seg == ((struct tcp_seg *)NULL))
   {
     while((_Bool)0)
@@ -9861,9 +9861,9 @@ static struct tcp_seg * tcp_create_segment(struct tcp_pcb *pcb, struct pbuf *p, 
     while((_Bool)0);
     seg->len = (unsigned short int)((signed int)p->tot_len - (signed int)optlen);
     seg->oversize_left = (unsigned short int)0;
-    unsigned char return_value_pbuf_header$2;
-    return_value_pbuf_header$2=pbuf_header(p, (signed short int)20);
-    if(!(return_value_pbuf_header$2 == 0))
+    unsigned char return_value_pbuf_header_2;
+    return_value_pbuf_header_2=pbuf_header(p, (signed short int)20);
+    if(!(return_value_pbuf_header_2 == 0))
     {
       while((_Bool)0)
         ;
@@ -9937,14 +9937,14 @@ signed char tcp_enqueue_flags(struct tcp_pcb *pcb, unsigned char flags)
       while((_Bool)0);
 
   while((_Bool)0);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)pcb->snd_queuelen >= 255)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (unsigned int)pcb->snd_queuelen > 0xffffU - (unsigned int)3 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (unsigned int)pcb->snd_queuelen > 0xffffU - (unsigned int)3 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_1)
   {
     while((_Bool)0)
       ;
@@ -9969,7 +9969,7 @@ signed char tcp_enqueue_flags(struct tcp_pcb *pcb, unsigned char flags)
 
     else
     {
-      p=pbuf_alloc((enum anonymous)PBUF_TRANSPORT, (unsigned short int)optlen, (enum anonymous$0)PBUF_RAM);
+      p=pbuf_alloc((enum anonymous)PBUF_TRANSPORT, (unsigned short int)optlen, (enum anonymous_0)PBUF_RAM);
       if(p == ((struct pbuf *)NULL))
       {
         pcb->flags = pcb->flags | (unsigned char)0x0080U;
@@ -10044,20 +10044,20 @@ signed char tcp_enqueue_flags(struct tcp_pcb *pcb, unsigned char flags)
           if(!((0x01U & (unsigned int)flags) == 0u))
             pcb->flags = pcb->flags | (unsigned char)0x0020U;
 
-          unsigned char return_value_pbuf_clen$5;
-          return_value_pbuf_clen$5=pbuf_clen(seg->p);
-          pcb->snd_queuelen = pcb->snd_queuelen + (unsigned short int)return_value_pbuf_clen$5;
+          unsigned char return_value_pbuf_clen_5;
+          return_value_pbuf_clen_5=pbuf_clen(seg->p);
+          pcb->snd_queuelen = pcb->snd_queuelen + (unsigned short int)return_value_pbuf_clen_5;
           while((_Bool)0)
             ;
           if(!((signed int)pcb->snd_queuelen == 0))
             do
             {
               if(!(pcb->unacked == ((struct tcp_seg *)NULL)))
-                tmp_if_expr$6 = (_Bool)1;
+                tmp_if_expr_6 = (_Bool)1;
 
               else
-                tmp_if_expr$6 = pcb->unsent != (struct tcp_seg *)(void *)0 ? (_Bool)1 : (_Bool)0;
-              if(!tmp_if_expr$6)
+                tmp_if_expr_6 = pcb->unsent != (struct tcp_seg *)(void *)0 ? (_Bool)1 : (_Bool)0;
+              if(!tmp_if_expr_6)
                 do
                 {
                   printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"tcp_enqueue_flags: invalid queue length", 838, (const void *)"lwip/src/core/tcp_out.c");
@@ -10099,16 +10099,16 @@ void tcp_err(struct tcp_pcb *pcb, void (*err)(void *, signed char))
 static void tcp_err_cb(void *arg, signed char err)
 {
   struct ocp_sock *s = (struct ocp_sock *)arg;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(s == ((struct ocp_sock *)NULL)))
   {
     s->tpcb = (struct tcp_pcb *)(void *)0;
     if(s->state == 4)
-      tmp_if_expr$1 = s->conn_type == 1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = s->conn_type == 1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       socks_reply(s, 0x05);
 
     else
@@ -10178,22 +10178,22 @@ __CPROVER_DUMP_L12:
 // file lwip/src/core/tcp_in.c line 1645
 static unsigned char tcp_getoptbyte(void)
 {
-  unsigned short int tmp_post$1;
-  unsigned short int tmp_post$2;
+  unsigned short int tmp_post_1;
+  unsigned short int tmp_post_2;
   if(tcphdr_opt2 == ((unsigned char *)NULL) || !((signed int)tcp_optidx >= (signed int)tcphdr_opt1len))
   {
     unsigned char *opts = (unsigned char *)tcphdr + (signed long int)20;
-    tmp_post$1 = tcp_optidx;
+    tmp_post_1 = tcp_optidx;
     tcp_optidx = tcp_optidx + 1;
-    return opts[(signed long int)tmp_post$1];
+    return opts[(signed long int)tmp_post_1];
   }
 
   else
   {
     unsigned char idx;
-    tmp_post$2 = tcp_optidx;
+    tmp_post_2 = tcp_optidx;
     tcp_optidx = tcp_optidx + 1;
-    idx = (unsigned char)((signed int)tmp_post$2 - (signed int)tcphdr_opt1len);
+    idx = (unsigned char)((signed int)tmp_post_2 - (signed int)tcphdr_opt1len);
     return tcphdr_opt2[(signed long int)idx];
   }
 }
@@ -10217,11 +10217,11 @@ void tcp_input(struct pbuf *p, struct netif *inp)
   unsigned short int chksum;
   lwip_stats.tcp.recv = lwip_stats.tcp.recv + 1;
   tcphdr = (struct tcp_hdr *)p->payload;
-  unsigned char return_value_ip4_addr_isbroadcast$1;
-  _Bool tmp_if_expr$2;
-  unsigned short int return_value_lwip_ntohs$3;
-  unsigned short int return_value_lwip_ntohs$4;
-  _Bool tmp_if_expr$6;
+  unsigned char return_value_ip4_addr_isbroadcast_1;
+  _Bool tmp_if_expr_2;
+  unsigned short int return_value_lwip_ntohs_3;
+  unsigned short int return_value_lwip_ntohs_4;
+  _Bool tmp_if_expr_6;
   if(!((unsigned long int)p->len >= sizeof(struct tcp_hdr) /*20ul*/ ))
   {
     while((_Bool)0)
@@ -10231,13 +10231,13 @@ void tcp_input(struct pbuf *p, struct netif *inp)
 
   else
   {
-    return_value_ip4_addr_isbroadcast$1=ip4_addr_isbroadcast((&ip_data.current_iphdr_dest)->addr, inp);
-    if(!(return_value_ip4_addr_isbroadcast$1 == 0))
-      tmp_if_expr$2 = (_Bool)1;
+    return_value_ip4_addr_isbroadcast_1=ip4_addr_isbroadcast((&ip_data.current_iphdr_dest)->addr, inp);
+    if(!(return_value_ip4_addr_isbroadcast_1 == 0))
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = ((unsigned long int)(&ip_data.current_iphdr_dest)->addr & ((0xf0000000UL & (unsigned long int)0xff) << 24 | (0xf0000000UL & (unsigned long int)0xff00) << 8 | (0xf0000000UL & 0xff0000UL) >> 8 | (0xf0000000UL & 0xff000000UL) >> 24)) == ((0xe0000000UL & (unsigned long int)0xff) << 24 | (0xe0000000UL & (unsigned long int)0xff00) << 8 | (0xe0000000UL & 0xff0000UL) >> 8 | (0xe0000000UL & 0xff000000UL) >> 24) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = ((unsigned long int)(&ip_data.current_iphdr_dest)->addr & ((0xf0000000UL & (unsigned long int)0xff) << 24 | (0xf0000000UL & (unsigned long int)0xff00) << 8 | (0xf0000000UL & 0xff0000UL) >> 8 | (0xf0000000UL & 0xff000000UL) >> 24)) == ((0xe0000000UL & (unsigned long int)0xff) << 24 | (0xe0000000UL & (unsigned long int)0xff00) << 8 | (0xe0000000UL & 0xff0000UL) >> 8 | (0xe0000000UL & 0xff000000UL) >> 24) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       lwip_stats.tcp.proterr = lwip_stats.tcp.proterr + 1;
 
     else
@@ -10252,8 +10252,8 @@ void tcp_input(struct pbuf *p, struct netif *inp)
 
       else
       {
-        return_value_lwip_ntohs$3=lwip_ntohs(tcphdr->_hdrlen_rsvd_flags);
-        hdrlen = (unsigned char)((signed int)return_value_lwip_ntohs$3 >> 12);
+        return_value_lwip_ntohs_3=lwip_ntohs(tcphdr->_hdrlen_rsvd_flags);
+        hdrlen = (unsigned char)((signed int)return_value_lwip_ntohs_3 >> 12);
         tcphdr_opt1len = (unsigned short int)((signed int)hdrlen * 4 - 20);
         tcphdr_opt2 = (unsigned char *)(void *)0;
         if(!((signed int)p->len >= 4 * (signed int)hdrlen))
@@ -10349,8 +10349,8 @@ void tcp_input(struct pbuf *p, struct netif *inp)
         tcphdr->ackno=lwip_ntohl(tcphdr->ackno);
         ackno = tcphdr->ackno;
         tcphdr->wnd=lwip_ntohs(tcphdr->wnd);
-        return_value_lwip_ntohs$4=lwip_ntohs(tcphdr->_hdrlen_rsvd_flags);
-        flags = (unsigned char)((unsigned int)return_value_lwip_ntohs$4 & 0x3fU);
+        return_value_lwip_ntohs_4=lwip_ntohs(tcphdr->_hdrlen_rsvd_flags);
+        flags = (unsigned char)((unsigned int)return_value_lwip_ntohs_4 & 0x3fU);
         tcplen = (unsigned short int)((signed int)p->tot_len + (((unsigned int)flags & (0x01U | 0x02U)) != 0u ? 1 : 0));
         prev = (struct tcp_pcb *)(void *)0;
         pcb = tcp_active_pcbs;
@@ -10523,14 +10523,14 @@ void tcp_input(struct pbuf *p, struct netif *inp)
 
           if(!(pcb->refused_data == ((struct pbuf *)NULL)))
           {
-            signed char return_value_tcp_process_refused_data$5;
-            return_value_tcp_process_refused_data$5=tcp_process_refused_data(pcb);
-            if((signed int)return_value_tcp_process_refused_data$5 == -10)
-              tmp_if_expr$6 = (_Bool)1;
+            signed char return_value_tcp_process_refused_data_5;
+            return_value_tcp_process_refused_data_5=tcp_process_refused_data(pcb);
+            if((signed int)return_value_tcp_process_refused_data_5 == -10)
+              tmp_if_expr_6 = (_Bool)1;
 
             else
-              tmp_if_expr$6 = (pcb->refused_data != (struct pbuf *)(void *)0 ? ((signed int)tcplen > 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$6)
+              tmp_if_expr_6 = (pcb->refused_data != (struct pbuf *)(void *)0 ? ((signed int)tcplen > 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_6)
             {
               lwip_stats.tcp.drop = lwip_stats.tcp.drop + 1;
               goto aborted;
@@ -10669,9 +10669,9 @@ void tcp_input(struct pbuf *p, struct netif *inp)
         {
           while((_Bool)0)
             ;
-          unsigned short int return_value_lwip_ntohs$7;
-          return_value_lwip_ntohs$7=lwip_ntohs(tcphdr->_hdrlen_rsvd_flags);
-          if((4u & (unsigned int)return_value_lwip_ntohs$7) == 0u)
+          unsigned short int return_value_lwip_ntohs_7;
+          return_value_lwip_ntohs_7=lwip_ntohs(tcphdr->_hdrlen_rsvd_flags);
+          if((4u & (unsigned int)return_value_lwip_ntohs_7) == 0u)
           {
             lwip_stats.tcp.proterr = lwip_stats.tcp.proterr + 1;
             lwip_stats.tcp.drop = lwip_stats.tcp.drop + 1;
@@ -10701,7 +10701,7 @@ __CPROVER_DUMP_L116:
 void tcp_keepalive(struct tcp_pcb *pcb)
 {
   struct pbuf *p;
-  struct tcp_hdr *tcp_keepalive$$1$$tcphdr;
+  struct tcp_hdr *tcp_keepalive__1__tcphdr;
   while((_Bool)0)
     ;
   while((_Bool)0)
@@ -10710,17 +10710,17 @@ void tcp_keepalive(struct tcp_pcb *pcb)
     ;
   while((_Bool)0)
     ;
-  unsigned int return_value_lwip_htonl$1;
-  return_value_lwip_htonl$1=lwip_htonl(pcb->snd_nxt - (unsigned int)1);
-  p=tcp_output_alloc_header(pcb, (unsigned short int)0, (unsigned short int)0, return_value_lwip_htonl$1);
+  unsigned int return_value_lwip_htonl_1;
+  return_value_lwip_htonl_1=lwip_htonl(pcb->snd_nxt - (unsigned int)1);
+  p=tcp_output_alloc_header(pcb, (unsigned short int)0, (unsigned short int)0, return_value_lwip_htonl_1);
   if(p == ((struct pbuf *)NULL))
     while((_Bool)0)
       ;
 
   else
   {
-    tcp_keepalive$$1$$tcphdr = (struct tcp_hdr *)p->payload;
-    tcp_keepalive$$1$$tcphdr->chksum=inet_chksum_pseudo(p, (unsigned char)6, p->tot_len, &pcb->local_ip, &pcb->remote_ip);
+    tcp_keepalive__1__tcphdr = (struct tcp_hdr *)p->payload;
+    tcp_keepalive__1__tcphdr->chksum=inet_chksum_pseudo(p, (unsigned char)6, p->tot_len, &pcb->local_ip, &pcb->remote_ip);
     lwip_stats.tcp.xmit = lwip_stats.tcp.xmit + 1;
     ip_output(p, &pcb->local_ip, &pcb->remote_ip, pcb->ttl, (unsigned char)0, (unsigned char)6);
     pbuf_free(p);
@@ -10856,9 +10856,9 @@ static signed char tcp_listen_input(struct tcp_pcb_listen *pcb)
           return rc;
         }
 
-        signed char return_value_tcp_output$1;
-        return_value_tcp_output$1=tcp_output(npcb);
-        return return_value_tcp_output$1;
+        signed char return_value_tcp_output_1;
+        return_value_tcp_output_1=tcp_output(npcb);
+        return return_value_tcp_output_1;
       }
 
     return (signed char)0;
@@ -10890,9 +10890,9 @@ struct tcp_pcb * tcp_listen_with_backlog(struct tcp_pcb *pcb, unsigned char back
 
   else
   {
-    void *return_value_mem_malloc$1;
-    return_value_mem_malloc$1=mem_malloc((unsigned int)memp_sizes[(signed long int)2]);
-    lpcb = (struct tcp_pcb_listen *)return_value_mem_malloc$1;
+    void *return_value_mem_malloc_1;
+    return_value_mem_malloc_1=mem_malloc((unsigned int)memp_sizes[(signed long int)2]);
+    lpcb = (struct tcp_pcb_listen *)return_value_mem_malloc_1;
     if(lpcb == ((struct tcp_pcb_listen *)NULL))
       return (struct tcp_pcb *)(void *)0;
 
@@ -10946,9 +10946,9 @@ struct tcp_pcb * tcp_listen_with_backlog(struct tcp_pcb *pcb, unsigned char back
 // file lwip/src/core/tcp.c line 1438
 struct tcp_pcb * tcp_new(void)
 {
-  struct tcp_pcb *return_value_tcp_alloc$1;
-  return_value_tcp_alloc$1=tcp_alloc((unsigned char)64);
-  return return_value_tcp_alloc$1;
+  struct tcp_pcb *return_value_tcp_alloc_1;
+  return_value_tcp_alloc_1=tcp_alloc((unsigned char)64);
+  return return_value_tcp_alloc_1;
 }
 
 // tcp_new_port
@@ -10958,15 +10958,15 @@ static unsigned short int tcp_new_port(void)
   unsigned char i;
   unsigned short int n = (unsigned short int)0;
   struct tcp_pcb *pcb;
-  unsigned short int tmp_post$1;
+  unsigned short int tmp_post_1;
   do
   {
 
   again:
     ;
-    tmp_post$1 = tcp_port;
+    tmp_post_1 = tcp_port;
     tcp_port = tcp_port + 1;
-    if((signed int)tmp_post$1 == 0xffff)
+    if((signed int)tmp_post_1 == 0xffff)
       tcp_port = (unsigned short int)0xc000;
 
     i = (unsigned char)0;
@@ -11019,9 +11019,9 @@ unsigned int tcp_next_iss(void)
 static void tcp_oos_insert_segment(struct tcp_seg *cseg, struct tcp_seg *next)
 {
   struct tcp_seg *old_seg;
-  unsigned short int return_value_lwip_ntohs$3;
-  return_value_lwip_ntohs$3=lwip_ntohs(cseg->tcphdr->_hdrlen_rsvd_flags);
-  if(!((1u & (unsigned int)return_value_lwip_ntohs$3) == 0u))
+  unsigned short int return_value_lwip_ntohs_3;
+  return_value_lwip_ntohs_3=lwip_ntohs(cseg->tcphdr->_hdrlen_rsvd_flags);
+  if(!((1u & (unsigned int)return_value_lwip_ntohs_3) == 0u))
   {
     tcp_segs_free(next);
     next = (struct tcp_seg *)(void *)0;
@@ -11034,13 +11034,13 @@ static void tcp_oos_insert_segment(struct tcp_seg *cseg, struct tcp_seg *next)
       if(!((signed int)seqno + (signed int)(unsigned int)cseg->len + -((signed int)next->tcphdr->seqno + (signed int)(unsigned int)next->len) >= 0))
         break;
 
-      unsigned short int return_value_lwip_ntohs$2;
-      return_value_lwip_ntohs$2=lwip_ntohs(next->tcphdr->_hdrlen_rsvd_flags);
-      if(!((1u & (unsigned int)return_value_lwip_ntohs$2) == 0u))
+      unsigned short int return_value_lwip_ntohs_2;
+      return_value_lwip_ntohs_2=lwip_ntohs(next->tcphdr->_hdrlen_rsvd_flags);
+      if(!((1u & (unsigned int)return_value_lwip_ntohs_2) == 0u))
       {
-        unsigned short int return_value_lwip_htons$1;
-        return_value_lwip_htons$1=lwip_htons((unsigned short int)0x01U);
-        cseg->tcphdr->_hdrlen_rsvd_flags = (unsigned short int)((signed int)cseg->tcphdr->_hdrlen_rsvd_flags | (signed int)return_value_lwip_htons$1);
+        unsigned short int return_value_lwip_htons_1;
+        return_value_lwip_htons_1=lwip_htons((unsigned short int)0x01U);
+        cseg->tcphdr->_hdrlen_rsvd_flags = (unsigned short int)((signed int)cseg->tcphdr->_hdrlen_rsvd_flags | (signed int)return_value_lwip_htons_1);
       }
 
       old_seg = next;
@@ -11080,45 +11080,45 @@ signed char tcp_output(struct tcp_pcb *pcb)
       while((_Bool)0);
 
   while((_Bool)0);
-  signed int tmp_if_expr$1;
-  _Bool tmp_if_expr$4;
-  unsigned int return_value_lwip_ntohl$3;
-  unsigned int return_value_lwip_ntohl$5;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$11;
-  unsigned int return_value_lwip_ntohl$16;
-  unsigned int return_value_lwip_ntohl$17;
+  signed int tmp_if_expr_1;
+  _Bool tmp_if_expr_4;
+  unsigned int return_value_lwip_ntohl_3;
+  unsigned int return_value_lwip_ntohl_5;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_11;
+  unsigned int return_value_lwip_ntohl_16;
+  unsigned int return_value_lwip_ntohl_17;
   if(tcp_input_pcb == pcb)
     return (signed char)0;
 
   else
   {
     if(!((signed int)pcb->snd_wnd >= (signed int)pcb->cwnd))
-      tmp_if_expr$1 = (signed int)pcb->snd_wnd;
+      tmp_if_expr_1 = (signed int)pcb->snd_wnd;
 
     else
-      tmp_if_expr$1 = (signed int)pcb->cwnd;
-    wnd = (unsigned int)tmp_if_expr$1;
+      tmp_if_expr_1 = (signed int)pcb->cwnd;
+    wnd = (unsigned int)tmp_if_expr_1;
     seg = pcb->unsent;
     if(!((2 & (signed int)pcb->flags) == 0))
     {
       if(seg == ((struct tcp_seg *)NULL))
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
-        return_value_lwip_ntohl$3=lwip_ntohl(seg->tcphdr->seqno);
-        tmp_if_expr$4 = (return_value_lwip_ntohl$3 - pcb->lastack) + (unsigned int)seg->len > wnd ? (_Bool)1 : (_Bool)0;
+        return_value_lwip_ntohl_3=lwip_ntohl(seg->tcphdr->seqno);
+        tmp_if_expr_4 = (return_value_lwip_ntohl_3 - pcb->lastack) + (unsigned int)seg->len > wnd ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
+      if(tmp_if_expr_4)
       {
-        signed char return_value_tcp_send_empty_ack$2;
-        return_value_tcp_send_empty_ack$2=tcp_send_empty_ack(pcb);
-        return return_value_tcp_send_empty_ack$2;
+        signed char return_value_tcp_send_empty_ack_2;
+        return_value_tcp_send_empty_ack_2=tcp_send_empty_ack(pcb);
+        return return_value_tcp_send_empty_ack_2;
       }
 
     }
@@ -11130,15 +11130,15 @@ signed char tcp_output(struct tcp_pcb *pcb)
 
     while(!(seg == ((struct tcp_seg *)NULL)))
     {
-      return_value_lwip_ntohl$5=lwip_ntohl(seg->tcphdr->seqno);
-      if(!(wnd >= return_value_lwip_ntohl$5 + (unsigned int)seg->len + -pcb->lastack))
+      return_value_lwip_ntohl_5=lwip_ntohl(seg->tcphdr->seqno);
+      if(!(wnd >= return_value_lwip_ntohl_5 + (unsigned int)seg->len + -pcb->lastack))
         break;
 
       do
       {
-        unsigned short int return_value_lwip_ntohs$6;
-        return_value_lwip_ntohs$6=lwip_ntohs(seg->tcphdr->_hdrlen_rsvd_flags);
-        if(!((4u & (unsigned int)return_value_lwip_ntohs$6) == 0u))
+        unsigned short int return_value_lwip_ntohs_6;
+        return_value_lwip_ntohs_6=lwip_ntohs(seg->tcphdr->_hdrlen_rsvd_flags);
+        if(!((4u & (unsigned int)return_value_lwip_ntohs_6) == 0u))
           do
           {
             printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"RST not expected here!", 1005, (const void *)"lwip/src/core/tcp_out.c");
@@ -11150,42 +11150,42 @@ signed char tcp_output(struct tcp_pcb *pcb)
       }
       while((_Bool)0);
       if(pcb->unacked == ((struct tcp_seg *)NULL))
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = ((signed int)pcb->flags & ((signed int)(unsigned char)0x0040U | (signed int)(unsigned char)0x0004U)) != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
-        tmp_if_expr$10 = (_Bool)1;
+        tmp_if_expr_7 = ((signed int)pcb->flags & ((signed int)(unsigned char)0x0040U | (signed int)(unsigned char)0x0004U)) != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
+        tmp_if_expr_10 = (_Bool)1;
 
       else
       {
         if(!(pcb->unsent == ((struct tcp_seg *)NULL)))
         {
           if(!(pcb->unsent->next == ((struct tcp_seg *)NULL)))
-            tmp_if_expr$8 = (_Bool)1;
+            tmp_if_expr_8 = (_Bool)1;
 
           else
-            tmp_if_expr$8 = (signed int)pcb->unsent->len >= (signed int)pcb->mss ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$9 = tmp_if_expr$8 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_8 = (signed int)pcb->unsent->len >= (signed int)pcb->mss ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_9 = tmp_if_expr_8 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        tmp_if_expr$10 = tmp_if_expr$9 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_9 = (_Bool)0;
+        tmp_if_expr_10 = tmp_if_expr_9 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$10)
-        tmp_if_expr$12 = (_Bool)1;
+      if(tmp_if_expr_10)
+        tmp_if_expr_12 = (_Bool)1;
 
       else
       {
         if((signed int)pcb->snd_buf == 0)
-          tmp_if_expr$11 = (_Bool)1;
+          tmp_if_expr_11 = (_Bool)1;
 
         else
-          tmp_if_expr$11 = (signed int)pcb->snd_queuelen >= (4 * 65534) / 1024 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$12 = tmp_if_expr$11 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_11 = (signed int)pcb->snd_queuelen >= (4 * 65534) / 1024 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_12 = tmp_if_expr_11 ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$12)
+      if(!tmp_if_expr_12)
       {
         if((160 & (signed int)pcb->flags) == 0)
           break;
@@ -11195,25 +11195,25 @@ signed char tcp_output(struct tcp_pcb *pcb)
       pcb->unsent = seg->next;
       if(!((signed int)pcb->state == SYN_SENT))
       {
-        unsigned short int return_value_lwip_htons$13;
-        return_value_lwip_htons$13=lwip_htons((unsigned short int)0x10U);
-        seg->tcphdr->_hdrlen_rsvd_flags = (unsigned short int)((signed int)seg->tcphdr->_hdrlen_rsvd_flags | (signed int)return_value_lwip_htons$13);
+        unsigned short int return_value_lwip_htons_13;
+        return_value_lwip_htons_13=lwip_htons((unsigned short int)0x10U);
+        seg->tcphdr->_hdrlen_rsvd_flags = (unsigned short int)((signed int)seg->tcphdr->_hdrlen_rsvd_flags | (signed int)return_value_lwip_htons_13);
         pcb->flags = pcb->flags & (unsigned char)~((signed int)(unsigned char)0x0001U | (signed int)(unsigned char)0x0002U);
       }
 
       seg->oversize_left = (unsigned short int)0;
       tcp_output_segment(seg, pcb);
-      unsigned int return_value_lwip_ntohl$14;
-      return_value_lwip_ntohl$14=lwip_ntohl(seg->tcphdr->seqno);
-      unsigned short int return_value_lwip_ntohs$15;
-      return_value_lwip_ntohs$15=lwip_ntohs(seg->tcphdr->_hdrlen_rsvd_flags);
-      snd_nxt = return_value_lwip_ntohl$14 + (unsigned int)seg->len + (((unsigned int)return_value_lwip_ntohs$15 & 0x3fU & (0x01U | 0x02U)) != (unsigned int)0 ? 1U : 0U);
+      unsigned int return_value_lwip_ntohl_14;
+      return_value_lwip_ntohl_14=lwip_ntohl(seg->tcphdr->seqno);
+      unsigned short int return_value_lwip_ntohs_15;
+      return_value_lwip_ntohs_15=lwip_ntohs(seg->tcphdr->_hdrlen_rsvd_flags);
+      snd_nxt = return_value_lwip_ntohl_14 + (unsigned int)seg->len + (((unsigned int)return_value_lwip_ntohs_15 & 0x3fU & (0x01U | 0x02U)) != (unsigned int)0 ? 1U : 0U);
       if(!((signed int)pcb->snd_nxt + -((signed int)snd_nxt) >= 0))
         pcb->snd_nxt = snd_nxt;
 
-      unsigned short int return_value_lwip_ntohs$20;
-      return_value_lwip_ntohs$20=lwip_ntohs(seg->tcphdr->_hdrlen_rsvd_flags);
-      if(((3u & (unsigned int)return_value_lwip_ntohs$20) == 0u ? 0U : 1U) + (unsigned int)seg->len >= 1u)
+      unsigned short int return_value_lwip_ntohs_20;
+      return_value_lwip_ntohs_20=lwip_ntohs(seg->tcphdr->_hdrlen_rsvd_flags);
+      if(((3u & (unsigned int)return_value_lwip_ntohs_20) == 0u ? 0U : 1U) + (unsigned int)seg->len >= 1u)
       {
         seg->next = (struct tcp_seg *)(void *)0;
         if(pcb->unacked == ((struct tcp_seg *)NULL))
@@ -11224,18 +11224,18 @@ signed char tcp_output(struct tcp_pcb *pcb)
 
         else
         {
-          unsigned int return_value_lwip_ntohl$18;
-          return_value_lwip_ntohl$18=lwip_ntohl(seg->tcphdr->seqno);
-          unsigned int return_value_lwip_ntohl$19;
-          return_value_lwip_ntohl$19=lwip_ntohl(useg->tcphdr->seqno);
-          if(!((signed int)return_value_lwip_ntohl$18 + -((signed int)return_value_lwip_ntohl$19) >= 0))
+          unsigned int return_value_lwip_ntohl_18;
+          return_value_lwip_ntohl_18=lwip_ntohl(seg->tcphdr->seqno);
+          unsigned int return_value_lwip_ntohl_19;
+          return_value_lwip_ntohl_19=lwip_ntohl(useg->tcphdr->seqno);
+          if(!((signed int)return_value_lwip_ntohl_18 + -((signed int)return_value_lwip_ntohl_19) >= 0))
           {
             struct tcp_seg **cur_seg = &pcb->unacked;
             for( ; !(*cur_seg == ((struct tcp_seg *)NULL)); cur_seg = &(*cur_seg)->next)
             {
-              return_value_lwip_ntohl$16=lwip_ntohl((*cur_seg)->tcphdr->seqno);
-              return_value_lwip_ntohl$17=lwip_ntohl(seg->tcphdr->seqno);
-              if((signed int)return_value_lwip_ntohl$16 + -((signed int)return_value_lwip_ntohl$17) >= 0)
+              return_value_lwip_ntohl_16=lwip_ntohl((*cur_seg)->tcphdr->seqno);
+              return_value_lwip_ntohl_17=lwip_ntohl(seg->tcphdr->seqno);
+              if((signed int)return_value_lwip_ntohl_16 + -((signed int)return_value_lwip_ntohl_17) >= 0)
                 break;
 
             }
@@ -11267,9 +11267,9 @@ signed char tcp_output(struct tcp_pcb *pcb)
 // file lwip/src/core/tcp_out.c line 97
 static struct pbuf * tcp_output_alloc_header(struct tcp_pcb *pcb, unsigned short int optlen, unsigned short int datalen, unsigned int seqno_be)
 {
-  struct tcp_hdr *tcp_output_alloc_header$$1$$tcphdr;
+  struct tcp_hdr *tcp_output_alloc_header__1__tcphdr;
   struct pbuf *p;
-  p=pbuf_alloc((enum anonymous)PBUF_IP, (unsigned short int)(20 + (signed int)optlen + (signed int)datalen), (enum anonymous$0)PBUF_RAM);
+  p=pbuf_alloc((enum anonymous)PBUF_IP, (unsigned short int)(20 + (signed int)optlen + (signed int)datalen), (enum anonymous_0)PBUF_RAM);
   if(!(p == ((struct pbuf *)NULL)))
   {
     do
@@ -11283,15 +11283,15 @@ static struct pbuf * tcp_output_alloc_header(struct tcp_pcb *pcb, unsigned short
         while((_Bool)0);
 
     while((_Bool)0);
-    tcp_output_alloc_header$$1$$tcphdr = (struct tcp_hdr *)p->payload;
-    tcp_output_alloc_header$$1$$tcphdr->src=lwip_htons(pcb->local_port);
-    tcp_output_alloc_header$$1$$tcphdr->dest=lwip_htons(pcb->remote_port);
-    tcp_output_alloc_header$$1$$tcphdr->seqno = seqno_be;
-    tcp_output_alloc_header$$1$$tcphdr->ackno=lwip_htonl(pcb->rcv_nxt);
-    tcp_output_alloc_header$$1$$tcphdr->_hdrlen_rsvd_flags=lwip_htons((unsigned short int)((unsigned int)(5 + (signed int)optlen / 4 << 12) | 0x10U));
-    tcp_output_alloc_header$$1$$tcphdr->wnd=lwip_htons(pcb->rcv_ann_wnd);
-    tcp_output_alloc_header$$1$$tcphdr->chksum = (unsigned short int)0;
-    tcp_output_alloc_header$$1$$tcphdr->urgp = (unsigned short int)0;
+    tcp_output_alloc_header__1__tcphdr = (struct tcp_hdr *)p->payload;
+    tcp_output_alloc_header__1__tcphdr->src=lwip_htons(pcb->local_port);
+    tcp_output_alloc_header__1__tcphdr->dest=lwip_htons(pcb->remote_port);
+    tcp_output_alloc_header__1__tcphdr->seqno = seqno_be;
+    tcp_output_alloc_header__1__tcphdr->ackno=lwip_htonl(pcb->rcv_nxt);
+    tcp_output_alloc_header__1__tcphdr->_hdrlen_rsvd_flags=lwip_htons((unsigned short int)((unsigned int)(5 + (signed int)optlen / 4 << 12) | 0x10U));
+    tcp_output_alloc_header__1__tcphdr->wnd=lwip_htons(pcb->rcv_ann_wnd);
+    tcp_output_alloc_header__1__tcphdr->chksum = (unsigned short int)0;
+    tcp_output_alloc_header__1__tcphdr->urgp = (unsigned short int)0;
     pcb->rcv_ann_right_edge = pcb->rcv_nxt + (unsigned int)pcb->rcv_ann_wnd;
   }
 
@@ -11319,7 +11319,7 @@ static void tcp_output_segment(struct tcp_seg *seg, struct tcp_pcb *pcb)
   if((signed int)pcb->rtime == -1)
     pcb->rtime = (signed short int)0;
 
-  struct ip_addr *tmp_if_expr$1;
+  struct ip_addr *tmp_if_expr_1;
   if(pcb->local_ip.addr == 0u)
   {
     struct netif *netif;
@@ -11328,11 +11328,11 @@ static void tcp_output_segment(struct tcp_seg *seg, struct tcp_pcb *pcb)
     {
       netif=ip_route(&pcb->remote_ip);
       if(!(netif == ((struct netif *)NULL)))
-        tmp_if_expr$1 = &netif->ip_addr;
+        tmp_if_expr_1 = &netif->ip_addr;
 
       else
-        tmp_if_expr$1 = (struct ip_addr *)(void *)0;
-      local_ip = tmp_if_expr$1;
+        tmp_if_expr_1 = (struct ip_addr *)(void *)0;
+      local_ip = tmp_if_expr_1;
     }
     while((_Bool)0);
     if(local_ip == ((struct ip_addr *)NULL) || netif == ((struct netif *)NULL))
@@ -11370,17 +11370,17 @@ static void tcp_parseopt(struct tcp_pcb *pcb)
 {
   unsigned char data;
   unsigned short int mss;
-  unsigned short int return_value_lwip_ntohs$5;
-  return_value_lwip_ntohs$5=lwip_ntohs(tcphdr->_hdrlen_rsvd_flags);
-  unsigned char return_value_tcp_getoptbyte$2;
-  unsigned char return_value_tcp_getoptbyte$3;
-  unsigned char return_value_tcp_getoptbyte$4;
-  if((signed int)return_value_lwip_ntohs$5 >> 12 >= 6)
+  unsigned short int return_value_lwip_ntohs_5;
+  return_value_lwip_ntohs_5=lwip_ntohs(tcphdr->_hdrlen_rsvd_flags);
+  unsigned char return_value_tcp_getoptbyte_2;
+  unsigned char return_value_tcp_getoptbyte_3;
+  unsigned char return_value_tcp_getoptbyte_4;
+  if((signed int)return_value_lwip_ntohs_5 >> 12 >= 6)
   {
     unsigned short int max_c;
-    unsigned short int return_value_lwip_ntohs$1;
-    return_value_lwip_ntohs$1=lwip_ntohs(tcphdr->_hdrlen_rsvd_flags);
-    max_c = (unsigned short int)(((signed int)return_value_lwip_ntohs$1 >> 12) - 5 << 2);
+    unsigned short int return_value_lwip_ntohs_1;
+    return_value_lwip_ntohs_1=lwip_ntohs(tcphdr->_hdrlen_rsvd_flags);
+    max_c = (unsigned short int)(((signed int)return_value_lwip_ntohs_1 >> 12) - 5 << 2);
     tcp_optidx = (unsigned short int)0;
     while(!((signed int)tcp_optidx >= (signed int)max_c))
     {
@@ -11404,18 +11404,18 @@ static void tcp_parseopt(struct tcp_pcb *pcb)
         {
           while((_Bool)0)
             ;
-          return_value_tcp_getoptbyte$2=tcp_getoptbyte();
-          if(!((signed int)return_value_tcp_getoptbyte$2 == 4) || !((signed int)max_c >= 4 + (signed int)tcp_optidx))
+          return_value_tcp_getoptbyte_2=tcp_getoptbyte();
+          if(!((signed int)return_value_tcp_getoptbyte_2 == 4) || !((signed int)max_c >= 4 + (signed int)tcp_optidx))
           {
             while((_Bool)0)
               ;
             goto __CPROVER_DUMP_L31;
           }
 
-          return_value_tcp_getoptbyte$3=tcp_getoptbyte();
-          mss = (unsigned short int)((signed int)return_value_tcp_getoptbyte$3 << 8);
-          return_value_tcp_getoptbyte$4=tcp_getoptbyte();
-          mss = mss | (unsigned short int)return_value_tcp_getoptbyte$4;
+          return_value_tcp_getoptbyte_3=tcp_getoptbyte();
+          mss = (unsigned short int)((signed int)return_value_tcp_getoptbyte_3 << 8);
+          return_value_tcp_getoptbyte_4=tcp_getoptbyte();
+          mss = mss | (unsigned short int)return_value_tcp_getoptbyte_4;
           pcb->mss = (unsigned short int)((signed int)mss > 1024 || (signed int)mss == 0 ? 1024 : (signed int)mss);
           break;
         }
@@ -11448,42 +11448,42 @@ static struct pbuf * tcp_pbuf_prealloc(enum anonymous layer, unsigned short int 
 {
   struct pbuf *p;
   unsigned short int alloc = length;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!((signed int)length >= (signed int)max_length))
   {
     if(!((0x02 & (signed int)apiflags) == 0))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
       if((64 & (signed int)pcb->flags) == 0)
       {
         if(first_seg == 0)
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = pcb->unsent != (struct tcp_seg *)(void *)0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_1 = pcb->unsent != (struct tcp_seg *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = pcb->unacked != (struct tcp_seg *)(void *)0 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = pcb->unacked != (struct tcp_seg *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
       alloc = (unsigned short int)((signed int)max_length < (((signed int)length + 1024 + 4) - 1 & ~(4 - 1)) ? (signed int)max_length : ((signed int)length + 1024 + 4) - 1 & ~(4 - 1));
 
   }
 
-  p=pbuf_alloc(layer, alloc, (enum anonymous$0)PBUF_RAM);
+  p=pbuf_alloc(layer, alloc, (enum anonymous_0)PBUF_RAM);
   if(p == ((struct pbuf *)NULL))
     return (struct pbuf *)(void *)0;
 
@@ -11661,12 +11661,12 @@ static signed char tcp_process(struct tcp_pcb *pcb)
   struct tcp_seg *rseg;
   unsigned char acceptable = (unsigned char)0;
   signed char err = (signed char)0;
-  _Bool tmp_if_expr$4;
-  unsigned int return_value_lwip_ntohl$3;
-  signed int tmp_if_expr$2;
-  _Bool tmp_if_expr$6;
-  signed int tmp_if_expr$5;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_4;
+  unsigned int return_value_lwip_ntohl_3;
+  signed int tmp_if_expr_2;
+  _Bool tmp_if_expr_6;
+  signed int tmp_if_expr_5;
+  _Bool tmp_if_expr_7;
   if(!((0x04U & (unsigned int)flags) == 0u))
   {
     if((signed int)pcb->state == SYN_SENT)
@@ -11744,13 +11744,13 @@ static signed char tcp_process(struct tcp_pcb *pcb)
             ;
           if(!((0x02U & (unsigned int)flags) == 0u) && !((0x10U & (unsigned int)flags) == 0u))
           {
-            return_value_lwip_ntohl$3=lwip_ntohl(pcb->unacked->tcphdr->seqno);
-            tmp_if_expr$4 = ackno == return_value_lwip_ntohl$3 + (unsigned int)1 ? (_Bool)1 : (_Bool)0;
+            return_value_lwip_ntohl_3=lwip_ntohl(pcb->unacked->tcphdr->seqno);
+            tmp_if_expr_4 = ackno == return_value_lwip_ntohl_3 + (unsigned int)1 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(tmp_if_expr_4)
           {
             pcb->snd_buf = pcb->snd_buf + 1;
             pcb->rcv_nxt = seqno + (unsigned int)1;
@@ -11763,11 +11763,11 @@ static signed char tcp_process(struct tcp_pcb *pcb)
             pcb->mss=tcp_eff_send_mss_impl(pcb->mss, &pcb->remote_ip);
             pcb->ssthresh = (unsigned short int)((signed int)pcb->mss * 10);
             if((signed int)pcb->cwnd == 1)
-              tmp_if_expr$2 = (signed int)pcb->mss * 2;
+              tmp_if_expr_2 = (signed int)pcb->mss * 2;
 
             else
-              tmp_if_expr$2 = (signed int)pcb->mss;
-            pcb->cwnd = (unsigned short int)tmp_if_expr$2;
+              tmp_if_expr_2 = (signed int)pcb->mss;
+            pcb->cwnd = (unsigned short int)tmp_if_expr_2;
             do
               if(!((signed int)pcb->snd_queuelen >= 1))
                 do
@@ -11819,11 +11819,11 @@ static signed char tcp_process(struct tcp_pcb *pcb)
           if(!((0x10U & (unsigned int)flags) == 0u))
           {
             if((signed int)ackno + -(1 + (signed int)pcb->lastack) >= 0)
-              tmp_if_expr$6 = (signed int)((unsigned int)ackno - (unsigned int)pcb->snd_nxt) <= 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_6 = (signed int)((unsigned int)ackno - (unsigned int)pcb->snd_nxt) <= 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$6 = (_Bool)0;
-            if(tmp_if_expr$6)
+              tmp_if_expr_6 = (_Bool)0;
+            if(tmp_if_expr_6)
             {
               unsigned short int old_cwnd;
               pcb->state = (enum tcp_state)ESTABLISHED;
@@ -11861,11 +11861,11 @@ static signed char tcp_process(struct tcp_pcb *pcb)
                 pcb->acked = pcb->acked - 1;
 
               if((signed int)old_cwnd == 1)
-                tmp_if_expr$5 = (signed int)pcb->mss * 2;
+                tmp_if_expr_5 = (signed int)pcb->mss * 2;
 
               else
-                tmp_if_expr$5 = (signed int)pcb->mss;
-              pcb->cwnd = (unsigned short int)tmp_if_expr$5;
+                tmp_if_expr_5 = (signed int)pcb->mss;
+              pcb->cwnd = (unsigned short int)tmp_if_expr_5;
               if(!((32 & (signed int)recv_flags) == 0))
               {
                 do
@@ -11911,11 +11911,11 @@ static signed char tcp_process(struct tcp_pcb *pcb)
           if(!((32 & (signed int)recv_flags) == 0))
           {
             if(!((0x10U & (unsigned int)flags) == 0u))
-              tmp_if_expr$7 = ackno == pcb->snd_nxt ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_7 = ackno == pcb->snd_nxt ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$7 = (_Bool)0;
-            if(tmp_if_expr$7)
+              tmp_if_expr_7 = (_Bool)0;
+            if(tmp_if_expr_7)
             {
               while((_Bool)0)
                 ;
@@ -12169,52 +12169,52 @@ static void tcp_receive(struct tcp_pcb *pcb)
       while((_Bool)0);
 
   while((_Bool)0);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$19;
-  unsigned int tmp_if_expr$6;
-  unsigned int return_value_lwip_ntohl$5;
-  unsigned int tmp_if_expr$9;
-  unsigned int return_value_lwip_ntohl$7;
-  unsigned short int return_value_lwip_ntohs$8;
-  unsigned int return_value_lwip_ntohl$10;
-  unsigned short int return_value_lwip_ntohs$11;
-  unsigned short int return_value_lwip_ntohs$16;
-  _Bool tmp_if_expr$18;
-  unsigned int return_value_lwip_ntohl$20;
-  unsigned short int return_value_lwip_ntohs$21;
-  unsigned short int return_value_lwip_ntohs$26;
-  _Bool tmp_if_expr$28;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_19;
+  unsigned int tmp_if_expr_6;
+  unsigned int return_value_lwip_ntohl_5;
+  unsigned int tmp_if_expr_9;
+  unsigned int return_value_lwip_ntohl_7;
+  unsigned short int return_value_lwip_ntohs_8;
+  unsigned int return_value_lwip_ntohl_10;
+  unsigned short int return_value_lwip_ntohs_11;
+  unsigned short int return_value_lwip_ntohs_16;
+  _Bool tmp_if_expr_18;
+  unsigned int return_value_lwip_ntohl_20;
+  unsigned short int return_value_lwip_ntohs_21;
+  unsigned short int return_value_lwip_ntohs_26;
+  _Bool tmp_if_expr_28;
   if(!((0x10U & (unsigned int)flags) == 0u))
   {
     right_wnd_edge = (unsigned int)pcb->snd_wnd + pcb->snd_wl2;
     if(!((signed int)pcb->snd_wl1 + -((signed int)seqno) >= 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
       if(pcb->snd_wl1 == seqno)
-        tmp_if_expr$1 = (signed int)((unsigned int)pcb->snd_wl2 - (unsigned int)ackno) < 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)((unsigned int)pcb->snd_wl2 - (unsigned int)ackno) < 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (_Bool)0;
+      tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
-      tmp_if_expr$4 = (_Bool)1;
+    if(tmp_if_expr_2)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
       if(pcb->snd_wl2 == ackno)
-        tmp_if_expr$3 = (signed int)tcphdr->wnd > (signed int)pcb->snd_wnd ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)tcphdr->wnd > (signed int)pcb->snd_wnd ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
     {
       pcb->snd_wnd = tcphdr->wnd;
       if(!((signed int)pcb->snd_wnd_max >= (signed int)pcb->snd_wnd))
@@ -12282,11 +12282,11 @@ static void tcp_receive(struct tcp_pcb *pcb)
     else
     {
       if((signed int)ackno + -(1 + (signed int)pcb->lastack) >= 0)
-        tmp_if_expr$19 = (signed int)((unsigned int)ackno - (unsigned int)pcb->snd_nxt) <= 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_19 = (signed int)((unsigned int)ackno - (unsigned int)pcb->snd_nxt) <= 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$19 = (_Bool)0;
-      if(tmp_if_expr$19)
+        tmp_if_expr_19 = (_Bool)0;
+      if(tmp_if_expr_19)
       {
         if(!((4 & (signed int)pcb->flags) == 0))
         {
@@ -12326,9 +12326,9 @@ static void tcp_receive(struct tcp_pcb *pcb)
           ;
         while(!(pcb->unacked == ((struct tcp_seg *)NULL)))
         {
-          return_value_lwip_ntohl$10=lwip_ntohl(pcb->unacked->tcphdr->seqno);
-          return_value_lwip_ntohs$11=lwip_ntohs(pcb->unacked->tcphdr->_hdrlen_rsvd_flags);
-          if((signed int)((3u & (unsigned int)return_value_lwip_ntohs$11) == 0u ? 0U : 1U) + (signed int)return_value_lwip_ntohl$10 + (signed int)(unsigned int)pcb->unacked->len + -((signed int)ackno) >= 1)
+          return_value_lwip_ntohl_10=lwip_ntohl(pcb->unacked->tcphdr->seqno);
+          return_value_lwip_ntohs_11=lwip_ntohs(pcb->unacked->tcphdr->_hdrlen_rsvd_flags);
+          if((signed int)((3u & (unsigned int)return_value_lwip_ntohs_11) == 0u ? 0U : 1U) + (signed int)return_value_lwip_ntohl_10 + (signed int)(unsigned int)pcb->unacked->len + -((signed int)ackno) >= 1)
             break;
 
           while((_Bool)0)
@@ -12339,9 +12339,9 @@ static void tcp_receive(struct tcp_pcb *pcb)
             ;
           do
           {
-            unsigned char return_value_pbuf_clen$15;
-            return_value_pbuf_clen$15=pbuf_clen(next->p);
-            if(!((signed int)pcb->snd_queuelen >= (signed int)return_value_pbuf_clen$15))
+            unsigned char return_value_pbuf_clen_15;
+            return_value_pbuf_clen_15=pbuf_clen(next->p);
+            if(!((signed int)pcb->snd_queuelen >= (signed int)return_value_pbuf_clen_15))
               do
               {
                 printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"pcb->snd_queuelen >= pbuf_clen(next->p)", 1113, (const void *)"lwip/src/core/tcp_in.c");
@@ -12354,15 +12354,15 @@ static void tcp_receive(struct tcp_pcb *pcb)
           while((_Bool)0);
           if(!((signed int)pcb->acked == 0))
           {
-            return_value_lwip_ntohs$16=lwip_ntohs(next->tcphdr->_hdrlen_rsvd_flags);
-            if(!((1u & (unsigned int)return_value_lwip_ntohs$16) == 0u))
+            return_value_lwip_ntohs_16=lwip_ntohs(next->tcphdr->_hdrlen_rsvd_flags);
+            if(!((1u & (unsigned int)return_value_lwip_ntohs_16) == 0u))
               pcb->acked = pcb->acked - 1;
 
           }
 
-          unsigned char return_value_pbuf_clen$17;
-          return_value_pbuf_clen$17=pbuf_clen(next->p);
-          pcb->snd_queuelen = pcb->snd_queuelen - (unsigned short int)return_value_pbuf_clen$17;
+          unsigned char return_value_pbuf_clen_17;
+          return_value_pbuf_clen_17=pbuf_clen(next->p);
+          pcb->snd_queuelen = pcb->snd_queuelen - (unsigned short int)return_value_pbuf_clen_17;
           tcp_seg_free(next);
           while((_Bool)0)
             ;
@@ -12370,11 +12370,11 @@ static void tcp_receive(struct tcp_pcb *pcb)
             do
             {
               if(!(pcb->unacked == ((struct tcp_seg *)NULL)))
-                tmp_if_expr$18 = (_Bool)1;
+                tmp_if_expr_18 = (_Bool)1;
 
               else
-                tmp_if_expr$18 = pcb->unsent != (struct tcp_seg *)(void *)0 ? (_Bool)1 : (_Bool)0;
-              if(!tmp_if_expr$18)
+                tmp_if_expr_18 = pcb->unsent != (struct tcp_seg *)(void *)0 ? (_Bool)1 : (_Bool)0;
+              if(!tmp_if_expr_18)
                 do
                 {
                   printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"tcp_receive: valid queue length", 1125, (const void *)"lwip/src/core/tcp_in.c");
@@ -12403,9 +12403,9 @@ static void tcp_receive(struct tcp_pcb *pcb)
     }
     while(!(pcb->unsent == ((struct tcp_seg *)NULL)))
     {
-      return_value_lwip_ntohl$20=lwip_ntohl(pcb->unsent->tcphdr->seqno);
-      return_value_lwip_ntohs$21=lwip_ntohs(pcb->unsent->tcphdr->_hdrlen_rsvd_flags);
-      if(!((signed int)ackno + -((signed int)((3u & (unsigned int)return_value_lwip_ntohs$21) == 0u ? 0U : 1U) + (signed int)return_value_lwip_ntohl$20 + (signed int)(unsigned int)pcb->unsent->len) >= 0))
+      return_value_lwip_ntohl_20=lwip_ntohl(pcb->unsent->tcphdr->seqno);
+      return_value_lwip_ntohs_21=lwip_ntohs(pcb->unsent->tcphdr->_hdrlen_rsvd_flags);
+      if(!((signed int)ackno + -((signed int)((3u & (unsigned int)return_value_lwip_ntohs_21) == 0u ? 0U : 1U) + (signed int)return_value_lwip_ntohl_20 + (signed int)(unsigned int)pcb->unsent->len) >= 0))
         break;
 
       if((signed int)ackno + -((signed int)pcb->snd_nxt) >= 1)
@@ -12422,9 +12422,9 @@ static void tcp_receive(struct tcp_pcb *pcb)
         ;
       do
       {
-        unsigned char return_value_pbuf_clen$25;
-        return_value_pbuf_clen$25=pbuf_clen(next->p);
-        if(!((signed int)pcb->snd_queuelen >= (signed int)return_value_pbuf_clen$25))
+        unsigned char return_value_pbuf_clen_25;
+        return_value_pbuf_clen_25=pbuf_clen(next->p);
+        if(!((signed int)pcb->snd_queuelen >= (signed int)return_value_pbuf_clen_25))
           do
           {
             printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"pcb->snd_queuelen >= pbuf_clen(next->p)", 1172, (const void *)"lwip/src/core/tcp_in.c");
@@ -12437,15 +12437,15 @@ static void tcp_receive(struct tcp_pcb *pcb)
       while((_Bool)0);
       if(!((signed int)pcb->acked == 0))
       {
-        return_value_lwip_ntohs$26=lwip_ntohs(next->tcphdr->_hdrlen_rsvd_flags);
-        if(!((1u & (unsigned int)return_value_lwip_ntohs$26) == 0u))
+        return_value_lwip_ntohs_26=lwip_ntohs(next->tcphdr->_hdrlen_rsvd_flags);
+        if(!((1u & (unsigned int)return_value_lwip_ntohs_26) == 0u))
           pcb->acked = pcb->acked - 1;
 
       }
 
-      unsigned char return_value_pbuf_clen$27;
-      return_value_pbuf_clen$27=pbuf_clen(next->p);
-      pcb->snd_queuelen = pcb->snd_queuelen - (unsigned short int)return_value_pbuf_clen$27;
+      unsigned char return_value_pbuf_clen_27;
+      return_value_pbuf_clen_27=pbuf_clen(next->p);
+      pcb->snd_queuelen = pcb->snd_queuelen - (unsigned short int)return_value_pbuf_clen_27;
       tcp_seg_free(next);
       while((_Bool)0)
         ;
@@ -12453,11 +12453,11 @@ static void tcp_receive(struct tcp_pcb *pcb)
         do
         {
           if(!(pcb->unacked == ((struct tcp_seg *)NULL)))
-            tmp_if_expr$28 = (_Bool)1;
+            tmp_if_expr_28 = (_Bool)1;
 
           else
-            tmp_if_expr$28 = pcb->unsent != (struct tcp_seg *)(void *)0 ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$28)
+            tmp_if_expr_28 = pcb->unsent != (struct tcp_seg *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_28)
             do
             {
               printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"tcp_receive: valid queue length", 1182, (const void *)"lwip/src/core/tcp_in.c");
@@ -12496,24 +12496,24 @@ static void tcp_receive(struct tcp_pcb *pcb)
 
   }
 
-  _Bool tmp_if_expr$57;
+  _Bool tmp_if_expr_57;
   if((signed int)tcplen >= 1)
-    tmp_if_expr$57 = (signed int)pcb->state < CLOSE_WAIT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_57 = (signed int)pcb->state < CLOSE_WAIT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$57 = (_Bool)0;
-  _Bool tmp_if_expr$31;
-  _Bool tmp_if_expr$55;
-  unsigned short int return_value_lwip_ntohs$40;
-  _Bool tmp_if_expr$56;
-  if(tmp_if_expr$57)
+    tmp_if_expr_57 = (_Bool)0;
+  _Bool tmp_if_expr_31;
+  _Bool tmp_if_expr_55;
+  unsigned short int return_value_lwip_ntohs_40;
+  _Bool tmp_if_expr_56;
+  if(tmp_if_expr_57)
   {
     if((signed int)pcb->rcv_nxt + -(1 + (signed int)seqno) >= 0)
-      tmp_if_expr$31 = (signed int)((unsigned int)pcb->rcv_nxt - (unsigned int)((seqno + (unsigned int)tcplen) - (unsigned int)1)) <= 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_31 = (signed int)((unsigned int)pcb->rcv_nxt - (unsigned int)((seqno + (unsigned int)tcplen) - (unsigned int)1)) <= 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$31 = (_Bool)0;
-    if(tmp_if_expr$31)
+      tmp_if_expr_31 = (_Bool)0;
+    if(tmp_if_expr_31)
     {
       off = (signed int)(pcb->rcv_nxt - seqno);
       p = inseg.p;
@@ -12559,9 +12559,9 @@ static void tcp_receive(struct tcp_pcb *pcb)
           p->tot_len = new_tot_len;
           p->len = (unsigned short int)0;
         }
-        unsigned char return_value_pbuf_header$29;
-        return_value_pbuf_header$29=pbuf_header(p, (signed short int)-off);
-        if(!(return_value_pbuf_header$29 == 0))
+        unsigned char return_value_pbuf_header_29;
+        return_value_pbuf_header_29=pbuf_header(p, (signed short int)-off);
+        if(!(return_value_pbuf_header_29 == 0))
           do
             do
             {
@@ -12576,9 +12576,9 @@ static void tcp_receive(struct tcp_pcb *pcb)
 
       else
       {
-        unsigned char return_value_pbuf_header$30;
-        return_value_pbuf_header$30=pbuf_header(inseg.p, (signed short int)-off);
-        if(!(return_value_pbuf_header$30 == 0))
+        unsigned char return_value_pbuf_header_30;
+        return_value_pbuf_header_30=pbuf_header(inseg.p, (signed short int)-off);
+        if(!(return_value_pbuf_header_30 == 0))
           do
             do
             {
@@ -12606,42 +12606,42 @@ static void tcp_receive(struct tcp_pcb *pcb)
       }
 
     if((signed int)seqno + -((signed int)pcb->rcv_nxt) >= 0)
-      tmp_if_expr$55 = (signed int)((unsigned int)seqno - (unsigned int)((pcb->rcv_nxt + (unsigned int)pcb->rcv_wnd) - (unsigned int)1)) <= 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_55 = (signed int)((unsigned int)seqno - (unsigned int)((pcb->rcv_nxt + (unsigned int)pcb->rcv_wnd) - (unsigned int)1)) <= 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$55 = (_Bool)0;
-    if(tmp_if_expr$55)
+      tmp_if_expr_55 = (_Bool)0;
+    if(tmp_if_expr_55)
     {
       if(pcb->rcv_nxt == seqno)
       {
-        unsigned short int return_value_lwip_ntohs$32;
-        return_value_lwip_ntohs$32=lwip_ntohs((&inseg)->tcphdr->_hdrlen_rsvd_flags);
-        tcplen = (unsigned short int)((unsigned int)(&inseg)->len + (((unsigned int)return_value_lwip_ntohs$32 & 0x3fU & (0x01U | 0x02U)) != (unsigned int)0 ? 1U : 0U));
+        unsigned short int return_value_lwip_ntohs_32;
+        return_value_lwip_ntohs_32=lwip_ntohs((&inseg)->tcphdr->_hdrlen_rsvd_flags);
+        tcplen = (unsigned short int)((unsigned int)(&inseg)->len + (((unsigned int)return_value_lwip_ntohs_32 & 0x3fU & (0x01U | 0x02U)) != (unsigned int)0 ? 1U : 0U));
         if(!((signed int)pcb->rcv_wnd >= (signed int)tcplen))
         {
           while((_Bool)0)
             ;
-          unsigned short int return_value_lwip_ntohs$35;
-          return_value_lwip_ntohs$35=lwip_ntohs(inseg.tcphdr->_hdrlen_rsvd_flags);
-          if(!((1u & (unsigned int)return_value_lwip_ntohs$35) == 0u))
+          unsigned short int return_value_lwip_ntohs_35;
+          return_value_lwip_ntohs_35=lwip_ntohs(inseg.tcphdr->_hdrlen_rsvd_flags);
+          if(!((1u & (unsigned int)return_value_lwip_ntohs_35) == 0u))
           {
-            unsigned short int return_value_lwip_ntohs$33;
-            return_value_lwip_ntohs$33=lwip_ntohs(inseg.tcphdr->_hdrlen_rsvd_flags);
-            unsigned short int return_value_lwip_htons$34;
-            return_value_lwip_htons$34=lwip_htons((unsigned short int)((unsigned int)return_value_lwip_ntohs$33 & 0x3fU & ~0x01U));
-            inseg.tcphdr->_hdrlen_rsvd_flags = (unsigned short int)((signed int)inseg.tcphdr->_hdrlen_rsvd_flags & (((signed int)(unsigned short int)~((signed int)(unsigned short int)0x3fU) & 0xff) << 8 | ((signed int)(unsigned short int)~((signed int)(unsigned short int)0x3fU) & 0xff00) >> 8) | (signed int)return_value_lwip_htons$34);
+            unsigned short int return_value_lwip_ntohs_33;
+            return_value_lwip_ntohs_33=lwip_ntohs(inseg.tcphdr->_hdrlen_rsvd_flags);
+            unsigned short int return_value_lwip_htons_34;
+            return_value_lwip_htons_34=lwip_htons((unsigned short int)((unsigned int)return_value_lwip_ntohs_33 & 0x3fU & ~0x01U));
+            inseg.tcphdr->_hdrlen_rsvd_flags = (unsigned short int)((signed int)inseg.tcphdr->_hdrlen_rsvd_flags & (((signed int)(unsigned short int)~((signed int)(unsigned short int)0x3fU) & 0xff) << 8 | ((signed int)(unsigned short int)~((signed int)(unsigned short int)0x3fU) & 0xff00) >> 8) | (signed int)return_value_lwip_htons_34);
           }
 
           inseg.len = pcb->rcv_wnd;
-          unsigned short int return_value_lwip_ntohs$36;
-          return_value_lwip_ntohs$36=lwip_ntohs(inseg.tcphdr->_hdrlen_rsvd_flags);
-          if(!((2u & (unsigned int)return_value_lwip_ntohs$36) == 0u))
+          unsigned short int return_value_lwip_ntohs_36;
+          return_value_lwip_ntohs_36=lwip_ntohs(inseg.tcphdr->_hdrlen_rsvd_flags);
+          if(!((2u & (unsigned int)return_value_lwip_ntohs_36) == 0u))
             inseg.len = inseg.len - (unsigned short int)1;
 
           pbuf_realloc(inseg.p, inseg.len);
-          unsigned short int return_value_lwip_ntohs$37;
-          return_value_lwip_ntohs$37=lwip_ntohs((&inseg)->tcphdr->_hdrlen_rsvd_flags);
-          tcplen = (unsigned short int)((unsigned int)(&inseg)->len + (((unsigned int)return_value_lwip_ntohs$37 & 0x3fU & (0x01U | 0x02U)) != (unsigned int)0 ? 1U : 0U));
+          unsigned short int return_value_lwip_ntohs_37;
+          return_value_lwip_ntohs_37=lwip_ntohs((&inseg)->tcphdr->_hdrlen_rsvd_flags);
+          tcplen = (unsigned short int)((unsigned int)(&inseg)->len + (((unsigned int)return_value_lwip_ntohs_37 & 0x3fU & (0x01U | 0x02U)) != (unsigned int)0 ? 1U : 0U));
           do
             if(!(seqno + (unsigned int)tcplen == pcb->rcv_nxt + (unsigned int)pcb->rcv_wnd))
               do
@@ -12657,9 +12657,9 @@ static void tcp_receive(struct tcp_pcb *pcb)
 
         if(!(pcb->ooseq == ((struct tcp_seg *)NULL)))
         {
-          unsigned short int return_value_lwip_ntohs$44;
-          return_value_lwip_ntohs$44=lwip_ntohs(inseg.tcphdr->_hdrlen_rsvd_flags);
-          if(!((1u & (unsigned int)return_value_lwip_ntohs$44) == 0u))
+          unsigned short int return_value_lwip_ntohs_44;
+          return_value_lwip_ntohs_44=lwip_ntohs(inseg.tcphdr->_hdrlen_rsvd_flags);
+          if(!((1u & (unsigned int)return_value_lwip_ntohs_44) == 0u))
           {
             while((_Bool)0)
               ;
@@ -12679,19 +12679,19 @@ static void tcp_receive(struct tcp_pcb *pcb)
               if(!((signed int)seqno + (signed int)(unsigned int)tcplen + -((signed int)next->tcphdr->seqno + (signed int)(unsigned int)next->len) >= 0))
                 break;
 
-              unsigned short int return_value_lwip_ntohs$41;
-              return_value_lwip_ntohs$41=lwip_ntohs(next->tcphdr->_hdrlen_rsvd_flags);
-              if(!((1u & (unsigned int)return_value_lwip_ntohs$41) == 0u))
+              unsigned short int return_value_lwip_ntohs_41;
+              return_value_lwip_ntohs_41=lwip_ntohs(next->tcphdr->_hdrlen_rsvd_flags);
+              if(!((1u & (unsigned int)return_value_lwip_ntohs_41) == 0u))
               {
-                return_value_lwip_ntohs$40=lwip_ntohs(inseg.tcphdr->_hdrlen_rsvd_flags);
-                if((2u & (unsigned int)return_value_lwip_ntohs$40) == 0u)
+                return_value_lwip_ntohs_40=lwip_ntohs(inseg.tcphdr->_hdrlen_rsvd_flags);
+                if((2u & (unsigned int)return_value_lwip_ntohs_40) == 0u)
                 {
-                  unsigned short int return_value_lwip_htons$38;
-                  return_value_lwip_htons$38=lwip_htons((unsigned short int)0x01U);
-                  inseg.tcphdr->_hdrlen_rsvd_flags = (unsigned short int)((signed int)inseg.tcphdr->_hdrlen_rsvd_flags | (signed int)return_value_lwip_htons$38);
-                  unsigned short int return_value_lwip_ntohs$39;
-                  return_value_lwip_ntohs$39=lwip_ntohs((&inseg)->tcphdr->_hdrlen_rsvd_flags);
-                  tcplen = (unsigned short int)((unsigned int)(&inseg)->len + (((unsigned int)return_value_lwip_ntohs$39 & 0x3fU & (0x01U | 0x02U)) != (unsigned int)0 ? 1U : 0U));
+                  unsigned short int return_value_lwip_htons_38;
+                  return_value_lwip_htons_38=lwip_htons((unsigned short int)0x01U);
+                  inseg.tcphdr->_hdrlen_rsvd_flags = (unsigned short int)((signed int)inseg.tcphdr->_hdrlen_rsvd_flags | (signed int)return_value_lwip_htons_38);
+                  unsigned short int return_value_lwip_ntohs_39;
+                  return_value_lwip_ntohs_39=lwip_ntohs((&inseg)->tcphdr->_hdrlen_rsvd_flags);
+                  tcplen = (unsigned short int)((unsigned int)(&inseg)->len + (((unsigned int)return_value_lwip_ntohs_39 & 0x3fU & (0x01U | 0x02U)) != (unsigned int)0 ? 1U : 0U));
                 }
 
               }
@@ -12705,15 +12705,15 @@ static void tcp_receive(struct tcp_pcb *pcb)
               if((signed int)seqno + (signed int)(unsigned int)tcplen + -((signed int)next->tcphdr->seqno) >= 1)
               {
                 inseg.len = (unsigned short int)(next->tcphdr->seqno - seqno);
-                unsigned short int return_value_lwip_ntohs$42;
-                return_value_lwip_ntohs$42=lwip_ntohs(inseg.tcphdr->_hdrlen_rsvd_flags);
-                if(!((2u & (unsigned int)return_value_lwip_ntohs$42) == 0u))
+                unsigned short int return_value_lwip_ntohs_42;
+                return_value_lwip_ntohs_42=lwip_ntohs(inseg.tcphdr->_hdrlen_rsvd_flags);
+                if(!((2u & (unsigned int)return_value_lwip_ntohs_42) == 0u))
                   inseg.len = inseg.len - (unsigned short int)1;
 
                 pbuf_realloc(inseg.p, inseg.len);
-                unsigned short int return_value_lwip_ntohs$43;
-                return_value_lwip_ntohs$43=lwip_ntohs((&inseg)->tcphdr->_hdrlen_rsvd_flags);
-                tcplen = (unsigned short int)((unsigned int)(&inseg)->len + (((unsigned int)return_value_lwip_ntohs$43 & 0x3fU & (0x01U | 0x02U)) != (unsigned int)0 ? 1U : 0U));
+                unsigned short int return_value_lwip_ntohs_43;
+                return_value_lwip_ntohs_43=lwip_ntohs((&inseg)->tcphdr->_hdrlen_rsvd_flags);
+                tcplen = (unsigned short int)((unsigned int)(&inseg)->len + (((unsigned int)return_value_lwip_ntohs_43 & 0x3fU & (0x01U | 0x02U)) != (unsigned int)0 ? 1U : 0U));
                 do
                   if(!(seqno + (unsigned int)tcplen == next->tcphdr->seqno))
                     do
@@ -12753,9 +12753,9 @@ static void tcp_receive(struct tcp_pcb *pcb)
           inseg.p = (struct pbuf *)(void *)0;
         }
 
-        unsigned short int return_value_lwip_ntohs$45;
-        return_value_lwip_ntohs$45=lwip_ntohs(inseg.tcphdr->_hdrlen_rsvd_flags);
-        if(!((1u & (unsigned int)return_value_lwip_ntohs$45) == 0u))
+        unsigned short int return_value_lwip_ntohs_45;
+        return_value_lwip_ntohs_45=lwip_ntohs(inseg.tcphdr->_hdrlen_rsvd_flags);
+        if(!((1u & (unsigned int)return_value_lwip_ntohs_45) == 0u))
         {
           while((_Bool)0)
             ;
@@ -12769,14 +12769,14 @@ static void tcp_receive(struct tcp_pcb *pcb)
 
           cseg = pcb->ooseq;
           seqno = pcb->ooseq->tcphdr->seqno;
-          unsigned short int return_value_lwip_ntohs$46;
-          return_value_lwip_ntohs$46=lwip_ntohs(cseg->tcphdr->_hdrlen_rsvd_flags);
-          pcb->rcv_nxt = pcb->rcv_nxt + (unsigned int)cseg->len + (((unsigned int)return_value_lwip_ntohs$46 & 0x3fU & (0x01U | 0x02U)) != (unsigned int)0 ? 1U : 0U);
+          unsigned short int return_value_lwip_ntohs_46;
+          return_value_lwip_ntohs_46=lwip_ntohs(cseg->tcphdr->_hdrlen_rsvd_flags);
+          pcb->rcv_nxt = pcb->rcv_nxt + (unsigned int)cseg->len + (((unsigned int)return_value_lwip_ntohs_46 & 0x3fU & (0x01U | 0x02U)) != (unsigned int)0 ? 1U : 0U);
           do
           {
-            unsigned short int return_value_lwip_ntohs$47;
-            return_value_lwip_ntohs$47=lwip_ntohs(cseg->tcphdr->_hdrlen_rsvd_flags);
-            if(!((unsigned int)pcb->rcv_wnd >= ((3u & (unsigned int)return_value_lwip_ntohs$47) == 0u ? 0U : 1U) + (unsigned int)cseg->len))
+            unsigned short int return_value_lwip_ntohs_47;
+            return_value_lwip_ntohs_47=lwip_ntohs(cseg->tcphdr->_hdrlen_rsvd_flags);
+            if(!((unsigned int)pcb->rcv_wnd >= ((3u & (unsigned int)return_value_lwip_ntohs_47) == 0u ? 0U : 1U) + (unsigned int)cseg->len))
               do
               {
                 printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"tcp_receive: ooseq tcplen > rcv_wnd\n", 1437, (const void *)"lwip/src/core/tcp_in.c");
@@ -12787,9 +12787,9 @@ static void tcp_receive(struct tcp_pcb *pcb)
 
           }
           while((_Bool)0);
-          unsigned short int return_value_lwip_ntohs$48;
-          return_value_lwip_ntohs$48=lwip_ntohs(cseg->tcphdr->_hdrlen_rsvd_flags);
-          pcb->rcv_wnd = pcb->rcv_wnd - (unsigned short int)((unsigned int)cseg->len + (((unsigned int)return_value_lwip_ntohs$48 & 0x3fU & (0x01U | 0x02U)) != (unsigned int)0 ? 1U : 0U));
+          unsigned short int return_value_lwip_ntohs_48;
+          return_value_lwip_ntohs_48=lwip_ntohs(cseg->tcphdr->_hdrlen_rsvd_flags);
+          pcb->rcv_wnd = pcb->rcv_wnd - (unsigned short int)((unsigned int)cseg->len + (((unsigned int)return_value_lwip_ntohs_48 & 0x3fU & (0x01U | 0x02U)) != (unsigned int)0 ? 1U : 0U));
           tcp_update_rcv_ann_wnd(pcb);
           if((signed int)cseg->p->tot_len >= 1)
           {
@@ -12801,9 +12801,9 @@ static void tcp_receive(struct tcp_pcb *pcb)
             cseg->p = (struct pbuf *)(void *)0;
           }
 
-          unsigned short int return_value_lwip_ntohs$49;
-          return_value_lwip_ntohs$49=lwip_ntohs(cseg->tcphdr->_hdrlen_rsvd_flags);
-          if(!((1u & (unsigned int)return_value_lwip_ntohs$49) == 0u))
+          unsigned short int return_value_lwip_ntohs_49;
+          return_value_lwip_ntohs_49=lwip_ntohs(cseg->tcphdr->_hdrlen_rsvd_flags);
+          if(!((1u & (unsigned int)return_value_lwip_ntohs_49) == 0u))
           {
             while((_Bool)0)
               ;
@@ -12907,9 +12907,9 @@ static void tcp_receive(struct tcp_pcb *pcb)
               {
                 if((signed int)seqno + -((signed int)next->tcphdr->seqno) >= 1)
                 {
-                  unsigned short int return_value_lwip_ntohs$50;
-                  return_value_lwip_ntohs$50=lwip_ntohs(next->tcphdr->_hdrlen_rsvd_flags);
-                  if(!((1u & (unsigned int)return_value_lwip_ntohs$50) == 0u))
+                  unsigned short int return_value_lwip_ntohs_50;
+                  return_value_lwip_ntohs_50=lwip_ntohs(next->tcphdr->_hdrlen_rsvd_flags);
+                  if(!((1u & (unsigned int)return_value_lwip_ntohs_50) == 0u))
                     break;
 
                   next->next=tcp_seg_copy(&inseg);
@@ -12925,22 +12925,22 @@ static void tcp_receive(struct tcp_pcb *pcb)
                     {
                       while((_Bool)0)
                         ;
-                      unsigned short int return_value_lwip_ntohs$53;
-                      return_value_lwip_ntohs$53=lwip_ntohs(next->next->tcphdr->_hdrlen_rsvd_flags);
-                      if(!((1u & (unsigned int)return_value_lwip_ntohs$53) == 0u))
+                      unsigned short int return_value_lwip_ntohs_53;
+                      return_value_lwip_ntohs_53=lwip_ntohs(next->next->tcphdr->_hdrlen_rsvd_flags);
+                      if(!((1u & (unsigned int)return_value_lwip_ntohs_53) == 0u))
                       {
-                        unsigned short int return_value_lwip_ntohs$51;
-                        return_value_lwip_ntohs$51=lwip_ntohs(next->next->tcphdr->_hdrlen_rsvd_flags);
-                        unsigned short int return_value_lwip_htons$52;
-                        return_value_lwip_htons$52=lwip_htons((unsigned short int)((unsigned int)return_value_lwip_ntohs$51 & 0x3fU & ~0x01U));
-                        next->next->tcphdr->_hdrlen_rsvd_flags = (unsigned short int)((signed int)next->next->tcphdr->_hdrlen_rsvd_flags & (((signed int)(unsigned short int)~((signed int)(unsigned short int)0x3fU) & 0xff) << 8 | ((signed int)(unsigned short int)~((signed int)(unsigned short int)0x3fU) & 0xff00) >> 8) | (signed int)return_value_lwip_htons$52);
+                        unsigned short int return_value_lwip_ntohs_51;
+                        return_value_lwip_ntohs_51=lwip_ntohs(next->next->tcphdr->_hdrlen_rsvd_flags);
+                        unsigned short int return_value_lwip_htons_52;
+                        return_value_lwip_htons_52=lwip_htons((unsigned short int)((unsigned int)return_value_lwip_ntohs_51 & 0x3fU & ~0x01U));
+                        next->next->tcphdr->_hdrlen_rsvd_flags = (unsigned short int)((signed int)next->next->tcphdr->_hdrlen_rsvd_flags & (((signed int)(unsigned short int)~((signed int)(unsigned short int)0x3fU) & 0xff) << 8 | ((signed int)(unsigned short int)~((signed int)(unsigned short int)0x3fU) & 0xff00) >> 8) | (signed int)return_value_lwip_htons_52);
                       }
 
                       next->next->len = (unsigned short int)((pcb->rcv_nxt + (unsigned int)pcb->rcv_wnd) - seqno);
                       pbuf_realloc(next->next->p, next->next->len);
-                      unsigned short int return_value_lwip_ntohs$54;
-                      return_value_lwip_ntohs$54=lwip_ntohs(next->next->tcphdr->_hdrlen_rsvd_flags);
-                      tcplen = (unsigned short int)((unsigned int)next->next->len + (((unsigned int)return_value_lwip_ntohs$54 & 0x3fU & (0x01U | 0x02U)) != (unsigned int)0 ? 1U : 0U));
+                      unsigned short int return_value_lwip_ntohs_54;
+                      return_value_lwip_ntohs_54=lwip_ntohs(next->next->tcphdr->_hdrlen_rsvd_flags);
+                      tcplen = (unsigned short int)((unsigned int)next->next->len + (((unsigned int)return_value_lwip_ntohs_54 & 0x3fU & (0x01U | 0x02U)) != (unsigned int)0 ? 1U : 0U));
                       do
                         if(!(seqno + (unsigned int)tcplen == pcb->rcv_nxt + (unsigned int)pcb->rcv_wnd))
                           do
@@ -12975,11 +12975,11 @@ static void tcp_receive(struct tcp_pcb *pcb)
   else
   {
     if((signed int)seqno + -((signed int)pcb->rcv_nxt) >= 0)
-      tmp_if_expr$56 = (signed int)((unsigned int)seqno - (unsigned int)((pcb->rcv_nxt + (unsigned int)pcb->rcv_wnd) - (unsigned int)1)) <= 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_56 = (signed int)((unsigned int)seqno - (unsigned int)((pcb->rcv_nxt + (unsigned int)pcb->rcv_wnd) - (unsigned int)1)) <= 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$56 = (_Bool)0;
-    if(!tmp_if_expr$56)
+      tmp_if_expr_56 = (_Bool)0;
+    if(!tmp_if_expr_56)
       do
         pcb->flags = pcb->flags | (unsigned char)0x0002U;
       while((_Bool)0);
@@ -13019,9 +13019,9 @@ signed char tcp_recv_null(void *arg, struct tcp_pcb *pcb, struct pbuf *p, signed
   else
     if((signed int)err == 0)
     {
-      signed char return_value_tcp_close$1;
-      return_value_tcp_close$1=tcp_close(pcb);
-      return return_value_tcp_close$1;
+      signed char return_value_tcp_close_1;
+      return_value_tcp_close_1=tcp_close(pcb);
+      return return_value_tcp_close_1;
     }
 
   return (signed char)0;
@@ -13044,7 +13044,7 @@ void tcp_recved(struct tcp_pcb *pcb, unsigned short int len)
 
   while((_Bool)0);
   pcb->rcv_wnd = pcb->rcv_wnd + len;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)pcb->rcv_wnd >= 65535)
     pcb->rcv_wnd = (unsigned short int)65534;
 
@@ -13052,11 +13052,11 @@ void tcp_recved(struct tcp_pcb *pcb, unsigned short int len)
     if((signed int)pcb->rcv_wnd == 0)
     {
       if((signed int)pcb->state == CLOSE_WAIT)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)pcb->state == LAST_ACK ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)pcb->state == LAST_ACK ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         pcb->rcv_wnd = (unsigned short int)65534;
 
       else
@@ -13071,9 +13071,9 @@ void tcp_recved(struct tcp_pcb *pcb, unsigned short int len)
         while((_Bool)0);
     }
 
-  unsigned int return_value_tcp_update_rcv_ann_wnd$2;
-  return_value_tcp_update_rcv_ann_wnd$2=tcp_update_rcv_ann_wnd(pcb);
-  wnd_inflation = (signed int)return_value_tcp_update_rcv_ann_wnd$2;
+  unsigned int return_value_tcp_update_rcv_ann_wnd_2;
+  return_value_tcp_update_rcv_ann_wnd_2=tcp_update_rcv_ann_wnd(pcb);
+  wnd_inflation = (signed int)return_value_tcp_update_rcv_ann_wnd_2;
   if(wnd_inflation >= 16383)
   {
     do
@@ -13092,8 +13092,8 @@ void tcp_rexmit(struct tcp_pcb *pcb)
 {
   struct tcp_seg *seg;
   struct tcp_seg **cur_seg;
-  unsigned int return_value_lwip_ntohl$1;
-  unsigned int return_value_lwip_ntohl$2;
+  unsigned int return_value_lwip_ntohl_1;
+  unsigned int return_value_lwip_ntohl_2;
   if(!(pcb->unacked == ((struct tcp_seg *)NULL)))
   {
     seg = pcb->unacked;
@@ -13101,9 +13101,9 @@ void tcp_rexmit(struct tcp_pcb *pcb)
     cur_seg = &pcb->unsent;
     for( ; !(*cur_seg == ((struct tcp_seg *)NULL)); cur_seg = &(*cur_seg)->next)
     {
-      return_value_lwip_ntohl$1=lwip_ntohl((*cur_seg)->tcphdr->seqno);
-      return_value_lwip_ntohl$2=lwip_ntohl(seg->tcphdr->seqno);
-      if((signed int)return_value_lwip_ntohl$1 + -((signed int)return_value_lwip_ntohl$2) >= 0)
+      return_value_lwip_ntohl_1=lwip_ntohl((*cur_seg)->tcphdr->seqno);
+      return_value_lwip_ntohl_2=lwip_ntohl(seg->tcphdr->seqno);
+      if((signed int)return_value_lwip_ntohl_1 + -((signed int)return_value_lwip_ntohl_2) >= 0)
         break;
 
     }
@@ -13177,8 +13177,8 @@ void tcp_rexmit_rto(struct tcp_pcb *pcb)
 void tcp_rst_impl(unsigned int seqno, unsigned int ackno, struct ip_addr *local_ip, struct ip_addr *remote_ip, unsigned short int local_port, unsigned short int remote_port)
 {
   struct pbuf *p;
-  struct tcp_hdr *tcp_rst_impl$$1$$tcphdr;
-  p=pbuf_alloc((enum anonymous)PBUF_IP, (unsigned short int)20, (enum anonymous$0)PBUF_RAM);
+  struct tcp_hdr *tcp_rst_impl__1__tcphdr;
+  p=pbuf_alloc((enum anonymous)PBUF_IP, (unsigned short int)20, (enum anonymous_0)PBUF_RAM);
   if(p == ((struct pbuf *)NULL))
     while((_Bool)0)
       ;
@@ -13196,17 +13196,17 @@ void tcp_rst_impl(unsigned int seqno, unsigned int ackno, struct ip_addr *local_
         while((_Bool)0);
 
     while((_Bool)0);
-    tcp_rst_impl$$1$$tcphdr = (struct tcp_hdr *)p->payload;
-    tcp_rst_impl$$1$$tcphdr->src=lwip_htons(local_port);
-    tcp_rst_impl$$1$$tcphdr->dest=lwip_htons(remote_port);
-    tcp_rst_impl$$1$$tcphdr->seqno=lwip_htonl(seqno);
-    tcp_rst_impl$$1$$tcphdr->ackno=lwip_htonl(ackno);
-    tcp_rst_impl$$1$$tcphdr->_hdrlen_rsvd_flags=lwip_htons((unsigned short int)((unsigned int)(20 / 4 << 12) | 0x04U | 0x10U));
-    tcp_rst_impl$$1$$tcphdr->wnd = (unsigned short int)((65534 & 0xff) << 8 | (65534 & 0xff00) >> 8);
-    tcp_rst_impl$$1$$tcphdr->chksum = (unsigned short int)0;
-    tcp_rst_impl$$1$$tcphdr->urgp = (unsigned short int)0;
+    tcp_rst_impl__1__tcphdr = (struct tcp_hdr *)p->payload;
+    tcp_rst_impl__1__tcphdr->src=lwip_htons(local_port);
+    tcp_rst_impl__1__tcphdr->dest=lwip_htons(remote_port);
+    tcp_rst_impl__1__tcphdr->seqno=lwip_htonl(seqno);
+    tcp_rst_impl__1__tcphdr->ackno=lwip_htonl(ackno);
+    tcp_rst_impl__1__tcphdr->_hdrlen_rsvd_flags=lwip_htons((unsigned short int)((unsigned int)(20 / 4 << 12) | 0x04U | 0x10U));
+    tcp_rst_impl__1__tcphdr->wnd = (unsigned short int)((65534 & 0xff) << 8 | (65534 & 0xff00) >> 8);
+    tcp_rst_impl__1__tcphdr->chksum = (unsigned short int)0;
+    tcp_rst_impl__1__tcphdr->urgp = (unsigned short int)0;
     lwip_stats.tcp.xmit = lwip_stats.tcp.xmit + 1;
-    tcp_rst_impl$$1$$tcphdr->chksum=inet_chksum_pseudo(p, (unsigned char)6, p->tot_len, local_ip, remote_ip);
+    tcp_rst_impl__1__tcphdr->chksum=inet_chksum_pseudo(p, (unsigned char)6, p->tot_len, local_ip, remote_ip);
     ip_output(p, local_ip, remote_ip, (unsigned char)255, (unsigned char)0, (unsigned char)6);
     pbuf_free(p);
     while((_Bool)0)
@@ -13219,9 +13219,9 @@ void tcp_rst_impl(unsigned int seqno, unsigned int ackno, struct ip_addr *local_
 struct tcp_seg * tcp_seg_copy(struct tcp_seg *seg)
 {
   struct tcp_seg *cseg;
-  void *return_value_mem_malloc$1;
-  return_value_mem_malloc$1=mem_malloc((unsigned int)memp_sizes[(signed long int)3]);
-  cseg = (struct tcp_seg *)return_value_mem_malloc$1;
+  void *return_value_mem_malloc_1;
+  return_value_mem_malloc_1=mem_malloc((unsigned int)memp_sizes[(signed long int)3]);
+  cseg = (struct tcp_seg *)return_value_mem_malloc_1;
   if(cseg == ((struct tcp_seg *)NULL))
     return (struct tcp_seg *)(void *)0;
 
@@ -13265,10 +13265,10 @@ signed char tcp_send_empty_ack(struct tcp_pcb *pcb)
 {
   struct pbuf *p;
   unsigned char optlen = (unsigned char)0;
-  struct tcp_hdr *tcp_send_empty_ack$$1$$tcphdr;
-  unsigned int return_value_lwip_htonl$1;
-  return_value_lwip_htonl$1=lwip_htonl(pcb->snd_nxt);
-  p=tcp_output_alloc_header(pcb, (unsigned short int)optlen, (unsigned short int)0, return_value_lwip_htonl$1);
+  struct tcp_hdr *tcp_send_empty_ack__1__tcphdr;
+  unsigned int return_value_lwip_htonl_1;
+  return_value_lwip_htonl_1=lwip_htonl(pcb->snd_nxt);
+  p=tcp_output_alloc_header(pcb, (unsigned short int)optlen, (unsigned short int)0, return_value_lwip_htonl_1);
   if(p == ((struct pbuf *)NULL))
   {
     while((_Bool)0)
@@ -13278,11 +13278,11 @@ signed char tcp_send_empty_ack(struct tcp_pcb *pcb)
 
   else
   {
-    tcp_send_empty_ack$$1$$tcphdr = (struct tcp_hdr *)p->payload;
+    tcp_send_empty_ack__1__tcphdr = (struct tcp_hdr *)p->payload;
     while((_Bool)0)
       ;
     pcb->flags = pcb->flags & (unsigned char)~((signed int)(unsigned char)0x0001U | (signed int)(unsigned char)0x0002U);
-    tcp_send_empty_ack$$1$$tcphdr->chksum=inet_chksum_pseudo(p, (unsigned char)6, p->tot_len, &pcb->local_ip, &pcb->remote_ip);
+    tcp_send_empty_ack__1__tcphdr->chksum=inet_chksum_pseudo(p, (unsigned char)6, p->tot_len, &pcb->local_ip, &pcb->remote_ip);
     ip_output(p, &pcb->local_ip, &pcb->remote_ip, pcb->ttl, pcb->tos, (unsigned char)6);
     pbuf_free(p);
     return (signed char)0;
@@ -13298,22 +13298,22 @@ signed char tcp_send_fin(struct tcp_pcb *pcb)
     struct tcp_seg *last_unsent = pcb->unsent;
     for( ; !(last_unsent->next == ((struct tcp_seg *)NULL)); last_unsent = last_unsent->next)
       ;
-    unsigned short int return_value_lwip_ntohs$2;
-    return_value_lwip_ntohs$2=lwip_ntohs(last_unsent->tcphdr->_hdrlen_rsvd_flags);
-    if((7u & (unsigned int)return_value_lwip_ntohs$2) == 0u)
+    unsigned short int return_value_lwip_ntohs_2;
+    return_value_lwip_ntohs_2=lwip_ntohs(last_unsent->tcphdr->_hdrlen_rsvd_flags);
+    if((7u & (unsigned int)return_value_lwip_ntohs_2) == 0u)
     {
-      unsigned short int return_value_lwip_htons$1;
-      return_value_lwip_htons$1=lwip_htons((unsigned short int)0x01U);
-      last_unsent->tcphdr->_hdrlen_rsvd_flags = (unsigned short int)((signed int)last_unsent->tcphdr->_hdrlen_rsvd_flags | (signed int)return_value_lwip_htons$1);
+      unsigned short int return_value_lwip_htons_1;
+      return_value_lwip_htons_1=lwip_htons((unsigned short int)0x01U);
+      last_unsent->tcphdr->_hdrlen_rsvd_flags = (unsigned short int)((signed int)last_unsent->tcphdr->_hdrlen_rsvd_flags | (signed int)return_value_lwip_htons_1);
       pcb->flags = pcb->flags | (unsigned char)0x0020U;
       return (signed char)0;
     }
 
   }
 
-  signed char return_value_tcp_enqueue_flags$3;
-  return_value_tcp_enqueue_flags$3=tcp_enqueue_flags(pcb, (unsigned char)0x01U);
-  return return_value_tcp_enqueue_flags$3;
+  signed char return_value_tcp_enqueue_flags_3;
+  return_value_tcp_enqueue_flags_3=tcp_enqueue_flags(pcb, (unsigned char)0x01U);
+  return return_value_tcp_enqueue_flags_3;
 }
 
 // tcp_sent
@@ -13345,7 +13345,7 @@ void tcp_setprio(struct tcp_pcb *pcb, unsigned char prio)
 // file lwip/src/core/tcp.c line 316
 signed char tcp_shutdown(struct tcp_pcb *pcb, signed int shut_rx, signed int shut_tx)
 {
-  signed char return_value_tcp_close_shutdown$2;
+  signed char return_value_tcp_close_shutdown_2;
   if((signed int)pcb->state == LISTEN)
     return (signed char)-13;
 
@@ -13356,9 +13356,9 @@ signed char tcp_shutdown(struct tcp_pcb *pcb, signed int shut_rx, signed int shu
       pcb->flags = pcb->flags | (unsigned char)0x0010U;
       if(!(shut_tx == 0))
       {
-        signed char return_value_tcp_close_shutdown$1;
-        return_value_tcp_close_shutdown$1=tcp_close_shutdown(pcb, (unsigned char)1);
-        return return_value_tcp_close_shutdown$1;
+        signed char return_value_tcp_close_shutdown_1;
+        return_value_tcp_close_shutdown_1=tcp_close_shutdown(pcb, (unsigned char)1);
+        return return_value_tcp_close_shutdown_1;
       }
 
       if(!(pcb->refused_data == ((struct pbuf *)NULL)))
@@ -13373,8 +13373,8 @@ signed char tcp_shutdown(struct tcp_pcb *pcb, signed int shut_rx, signed int shu
     {
       if((signed int)pcb->state == SYN_RCVD || (signed int)pcb->state == ESTABLISHED || (signed int)pcb->state == CLOSE_WAIT)
       {
-        return_value_tcp_close_shutdown$2=tcp_close_shutdown(pcb, (unsigned char)shut_rx);
-        return return_value_tcp_close_shutdown$2;
+        return_value_tcp_close_shutdown_2=tcp_close_shutdown(pcb, (unsigned char)shut_rx);
+        return return_value_tcp_close_shutdown_2;
       }
 
       return (signed char)-13;
@@ -13396,9 +13396,9 @@ void tcp_slowtmr(void)
   signed char err = (signed char)0;
   tcp_ticks = tcp_ticks + 1u;
   tcp_timer_ctr = tcp_timer_ctr + 1;
-  _Bool tmp_if_expr$2;
-  signed int tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_2;
+  signed int tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
   do
   {
 
@@ -13461,11 +13461,11 @@ void tcp_slowtmr(void)
     pcb_remove = (unsigned char)0;
     pcb_reset = (unsigned char)0;
     if((signed int)pcb->state == SYN_SENT)
-      tmp_if_expr$2 = (signed int)pcb->nrtx == 4 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)pcb->nrtx == 4 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       pcb_remove = pcb_remove + 1;
       while((_Bool)0)
@@ -13511,11 +13511,11 @@ void tcp_slowtmr(void)
 
               pcb->rtime = (signed short int)0;
               if(!((signed int)pcb->cwnd >= (signed int)pcb->snd_wnd))
-                tmp_if_expr$1 = (signed int)pcb->cwnd;
+                tmp_if_expr_1 = (signed int)pcb->cwnd;
 
               else
-                tmp_if_expr$1 = (signed int)pcb->snd_wnd;
-              eff_wnd = (unsigned short int)tmp_if_expr$1;
+                tmp_if_expr_1 = (signed int)pcb->snd_wnd;
+              eff_wnd = (unsigned short int)tmp_if_expr_1;
               pcb->ssthresh = (unsigned short int)((signed int)eff_wnd >> 1);
               if(!((signed int)pcb->ssthresh >= (signed int)(unsigned short int)((signed int)pcb->mss << 1)))
                 pcb->ssthresh = (unsigned short int)((signed int)pcb->mss << 1);
@@ -13547,11 +13547,11 @@ void tcp_slowtmr(void)
     if(!((0x08U & (unsigned int)pcb->so_options) == 0u))
     {
       if((signed int)pcb->state == ESTABLISHED)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)pcb->state == CLOSE_WAIT ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)pcb->state == CLOSE_WAIT ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
         if(!((pcb->keep_cnt * pcb->keep_intvl + pcb->keep_idle) / 500u >= tcp_ticks + -pcb->tmr))
         {
@@ -13717,7 +13717,7 @@ __CPROVER_DUMP_L105:
 
     if(!(pcb_remove == 0))
     {
-      struct tcp_pcb *tcp_slowtmr$$1$$3$$3$$pcb2;
+      struct tcp_pcb *tcp_slowtmr__1__3__3__pcb2;
       tcp_pcb_purge(pcb);
       if(!(prev == ((struct tcp_pcb *)NULL)))
       {
@@ -13750,9 +13750,9 @@ __CPROVER_DUMP_L105:
         while((_Bool)0);
         tcp_tw_pcbs = pcb->next;
       }
-      tcp_slowtmr$$1$$3$$3$$pcb2 = pcb;
+      tcp_slowtmr__1__3__3__pcb2 = pcb;
       pcb = pcb->next;
-      mem_free((void *)tcp_slowtmr$$1$$3$$3$$pcb2);
+      mem_free((void *)tcp_slowtmr__1__3__3__pcb2);
     }
 
     else
@@ -13805,9 +13805,9 @@ static signed char tcp_timewait_input(struct tcp_pcb *pcb)
     if((signed int)tcplen >= 1)
     {
       pcb->flags = pcb->flags | (unsigned char)0x0002U;
-      signed char return_value_tcp_output$1;
-      return_value_tcp_output$1=tcp_output(pcb);
-      return return_value_tcp_output$1;
+      signed char return_value_tcp_output_1;
+      return_value_tcp_output_1=tcp_output(pcb);
+      return return_value_tcp_output_1;
     }
 
     return (signed char)0;
@@ -13830,13 +13830,13 @@ void tcp_tmr(void)
 unsigned int tcp_update_rcv_ann_wnd(struct tcp_pcb *pcb)
 {
   unsigned int new_right_edge = pcb->rcv_nxt + (unsigned int)pcb->rcv_wnd;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if((signed int)pcb->mss >= 32768)
-    tmp_if_expr$1 = 65534 / 2;
+    tmp_if_expr_1 = 65534 / 2;
 
   else
-    tmp_if_expr$1 = (signed int)pcb->mss;
-  if((signed int)new_right_edge + -((signed int)pcb->rcv_ann_right_edge + (signed int)(unsigned int)tmp_if_expr$1) >= 0)
+    tmp_if_expr_1 = (signed int)pcb->mss;
+  if((signed int)new_right_edge + -((signed int)pcb->rcv_ann_right_edge + (signed int)(unsigned int)tmp_if_expr_1) >= 0)
   {
     pcb->rcv_ann_wnd = pcb->rcv_wnd;
     return new_right_edge - pcb->rcv_ann_right_edge;
@@ -13884,20 +13884,20 @@ signed char tcp_write(struct tcp_pcb *pcb, const void *arg, unsigned short int l
   unsigned short int oversize_used = (unsigned short int)0;
   signed char err;
   unsigned short int mss_local;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((signed int)pcb->mss >= (signed int)pcb->snd_wnd_max / 2))
-    tmp_if_expr$1 = (signed int)pcb->mss;
+    tmp_if_expr_1 = (signed int)pcb->mss;
 
   else
-    tmp_if_expr$1 = (signed int)pcb->snd_wnd_max / 2;
-  mss_local = (unsigned short int)tmp_if_expr$1;
-  signed int tmp_if_expr$2;
+    tmp_if_expr_1 = (signed int)pcb->snd_wnd_max / 2;
+  mss_local = (unsigned short int)tmp_if_expr_1;
+  signed int tmp_if_expr_2;
   if(!(mss_local == 0))
-    tmp_if_expr$2 = (signed int)mss_local;
+    tmp_if_expr_2 = (signed int)mss_local;
 
   else
-    tmp_if_expr$2 = (signed int)pcb->mss;
-  mss_local = (unsigned short int)tmp_if_expr$2;
+    tmp_if_expr_2 = (signed int)pcb->mss;
+  mss_local = (unsigned short int)tmp_if_expr_2;
   while((_Bool)0)
     ;
   do
@@ -13915,8 +13915,8 @@ signed char tcp_write(struct tcp_pcb *pcb, const void *arg, unsigned short int l
 
   while((_Bool)0);
   err=tcp_write_checks(pcb, len);
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$10;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_10;
   if(!((signed int)err == 0))
     return err;
 
@@ -14008,7 +14008,7 @@ signed char tcp_write(struct tcp_pcb *pcb, const void *arg, unsigned short int l
 
           else
           {
-            concat_p=pbuf_alloc((enum anonymous)PBUF_RAW, seglen, (enum anonymous$0)PBUF_ROM);
+            concat_p=pbuf_alloc((enum anonymous)PBUF_RAW, seglen, (enum anonymous_0)PBUF_ROM);
             if(concat_p == ((struct pbuf *)NULL))
             {
               while((_Bool)0)
@@ -14019,9 +14019,9 @@ signed char tcp_write(struct tcp_pcb *pcb, const void *arg, unsigned short int l
             concat_p->payload = (void *)((unsigned char *)arg + (signed long int)pos);
           }
           pos = pos + seglen;
-          unsigned char return_value_pbuf_clen$3;
-          return_value_pbuf_clen$3=pbuf_clen(concat_p);
-          queuelen = queuelen + (unsigned short int)return_value_pbuf_clen$3;
+          unsigned char return_value_pbuf_clen_3;
+          return_value_pbuf_clen_3=pbuf_clen(concat_p);
+          queuelen = queuelen + (unsigned short int)return_value_pbuf_clen_3;
         }
 
       }
@@ -14042,14 +14042,14 @@ signed char tcp_write(struct tcp_pcb *pcb, const void *arg, unsigned short int l
       while((_Bool)0);
     while(!((signed int)pos >= (signed int)len))
     {
-      struct pbuf *tcp_write$$1$$6$$p;
+      struct pbuf *tcp_write__1__6__p;
       unsigned short int left = (unsigned short int)((signed int)len - (signed int)pos);
       unsigned short int max_len = (unsigned short int)((signed int)mss_local - (signed int)optlen);
-      unsigned short int tcp_write$$1$$6$$seglen = (unsigned short int)((signed int)left > (signed int)max_len ? (signed int)max_len : (signed int)left);
+      unsigned short int tcp_write__1__6__seglen = (unsigned short int)((signed int)left > (signed int)max_len ? (signed int)max_len : (signed int)left);
       if(!((0x01 & (signed int)apiflags) == 0))
       {
-        tcp_write$$1$$6$$p=tcp_pbuf_prealloc((enum anonymous)PBUF_TRANSPORT, (unsigned short int)((signed int)tcp_write$$1$$6$$seglen + (signed int)optlen), mss_local, &oversize, pcb, apiflags, (unsigned char)(queue == (struct tcp_seg *)(void *)0));
-        if(tcp_write$$1$$6$$p == ((struct pbuf *)NULL))
+        tcp_write__1__6__p=tcp_pbuf_prealloc((enum anonymous)PBUF_TRANSPORT, (unsigned short int)((signed int)tcp_write__1__6__seglen + (signed int)optlen), mss_local, &oversize, pcb, apiflags, (unsigned char)(queue == (struct tcp_seg *)(void *)0));
+        if(tcp_write__1__6__p == ((struct pbuf *)NULL))
         {
           while((_Bool)0)
             ;
@@ -14057,7 +14057,7 @@ signed char tcp_write(struct tcp_pcb *pcb, const void *arg, unsigned short int l
         }
 
         do
-          if(!((signed int)tcp_write$$1$$6$$p->len >= (signed int)tcp_write$$1$$6$$seglen))
+          if(!((signed int)tcp_write__1__6__p->len >= (signed int)tcp_write__1__6__seglen))
             do
             {
               printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"tcp_write: check that first pbuf can hold the complete seglen", 550, (const void *)"lwip/src/core/tcp_out.c");
@@ -14067,7 +14067,7 @@ signed char tcp_write(struct tcp_pcb *pcb, const void *arg, unsigned short int l
             while((_Bool)0);
 
         while((_Bool)0);
-        memcpy((void *)((char *)tcp_write$$1$$6$$p->payload + (signed long int)optlen), (const void *)((unsigned char *)arg + (signed long int)pos), (unsigned long int)tcp_write$$1$$6$$seglen);
+        memcpy((void *)((char *)tcp_write__1__6__p->payload + (signed long int)optlen), (const void *)((unsigned char *)arg + (signed long int)pos), (unsigned long int)tcp_write__1__6__seglen);
       }
 
       else
@@ -14084,7 +14084,7 @@ signed char tcp_write(struct tcp_pcb *pcb, const void *arg, unsigned short int l
             while((_Bool)0);
 
         while((_Bool)0);
-        p2=pbuf_alloc((enum anonymous)PBUF_TRANSPORT, tcp_write$$1$$6$$seglen, (enum anonymous$0)PBUF_ROM);
+        p2=pbuf_alloc((enum anonymous)PBUF_TRANSPORT, tcp_write__1__6__seglen, (enum anonymous_0)PBUF_ROM);
         if(p2 == ((struct pbuf *)NULL))
         {
           while((_Bool)0)
@@ -14093,8 +14093,8 @@ signed char tcp_write(struct tcp_pcb *pcb, const void *arg, unsigned short int l
         }
 
         p2->payload = (void *)((unsigned char *)arg + (signed long int)pos);
-        tcp_write$$1$$6$$p=pbuf_alloc((enum anonymous)PBUF_TRANSPORT, (unsigned short int)optlen, (enum anonymous$0)PBUF_RAM);
-        if(tcp_write$$1$$6$$p == ((struct pbuf *)NULL))
+        tcp_write__1__6__p=pbuf_alloc((enum anonymous)PBUF_TRANSPORT, (unsigned short int)optlen, (enum anonymous_0)PBUF_RAM);
+        if(tcp_write__1__6__p == ((struct pbuf *)NULL))
         {
           pbuf_free(p2);
           while((_Bool)0)
@@ -14102,20 +14102,20 @@ signed char tcp_write(struct tcp_pcb *pcb, const void *arg, unsigned short int l
           goto memerr;
         }
 
-        pbuf_cat(tcp_write$$1$$6$$p, p2);
+        pbuf_cat(tcp_write__1__6__p, p2);
       }
-      unsigned char return_value_pbuf_clen$4;
-      return_value_pbuf_clen$4=pbuf_clen(tcp_write$$1$$6$$p);
-      queuelen = queuelen + (unsigned short int)return_value_pbuf_clen$4;
+      unsigned char return_value_pbuf_clen_4;
+      return_value_pbuf_clen_4=pbuf_clen(tcp_write__1__6__p);
+      queuelen = queuelen + (unsigned short int)return_value_pbuf_clen_4;
       if((signed int)queuelen >= 256 || (unsigned int)queuelen >= 65533u)
       {
         while((_Bool)0)
           ;
-        pbuf_free(tcp_write$$1$$6$$p);
+        pbuf_free(tcp_write__1__6__p);
         goto memerr;
       }
 
-      seg=tcp_create_segment(pcb, tcp_write$$1$$6$$p, (unsigned char)0, pcb->snd_lbb + (unsigned int)pos, optflags);
+      seg=tcp_create_segment(pcb, tcp_write__1__6__p, (unsigned char)0, pcb->snd_lbb + (unsigned int)pos, optflags);
       if(seg == ((struct tcp_seg *)NULL))
         goto memerr;
 
@@ -14141,7 +14141,7 @@ signed char tcp_write(struct tcp_pcb *pcb, const void *arg, unsigned short int l
       prev_seg = seg;
       while((_Bool)0)
         ;
-      pos = pos + tcp_write$$1$$6$$seglen;
+      pos = pos + tcp_write__1__6__seglen;
     }
     if((signed int)oversize_used >= 1)
     {
@@ -14203,11 +14203,11 @@ signed char tcp_write(struct tcp_pcb *pcb, const void *arg, unsigned short int l
       do
       {
         if(!(pcb->unacked == ((struct tcp_seg *)NULL)))
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
-          tmp_if_expr$8 = pcb->unsent != (struct tcp_seg *)(void *)0 ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$8)
+          tmp_if_expr_8 = pcb->unsent != (struct tcp_seg *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_8)
           do
           {
             printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"tcp_write: valid queue length", 698, (const void *)"lwip/src/core/tcp_out.c");
@@ -14225,9 +14225,9 @@ signed char tcp_write(struct tcp_pcb *pcb, const void *arg, unsigned short int l
       {
         if((0x02 & (signed int)apiflags) == 0)
         {
-          unsigned short int return_value_lwip_htons$9;
-          return_value_lwip_htons$9=lwip_htons((unsigned short int)0x08U);
-          seg->tcphdr->_hdrlen_rsvd_flags = (unsigned short int)((signed int)seg->tcphdr->_hdrlen_rsvd_flags | (signed int)return_value_lwip_htons$9);
+          unsigned short int return_value_lwip_htons_9;
+          return_value_lwip_htons_9=lwip_htons((unsigned short int)0x08U);
+          seg->tcphdr->_hdrlen_rsvd_flags = (unsigned short int)((signed int)seg->tcphdr->_hdrlen_rsvd_flags | (signed int)return_value_lwip_htons_9);
         }
 
       }
@@ -14250,11 +14250,11 @@ signed char tcp_write(struct tcp_pcb *pcb, const void *arg, unsigned short int l
       do
       {
         if(!(pcb->unacked == ((struct tcp_seg *)NULL)))
-          tmp_if_expr$10 = (_Bool)1;
+          tmp_if_expr_10 = (_Bool)1;
 
         else
-          tmp_if_expr$10 = pcb->unsent != (struct tcp_seg *)(void *)0 ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$10)
+          tmp_if_expr_10 = pcb->unsent != (struct tcp_seg *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_10)
           do
           {
             printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"tcp_write: valid queue length", 719, (const void *)"lwip/src/core/tcp_out.c");
@@ -14276,25 +14276,25 @@ signed char tcp_write(struct tcp_pcb *pcb, const void *arg, unsigned short int l
 // file lwip/src/core/tcp_out.c line 298
 static signed char tcp_write_checks(struct tcp_pcb *pcb, unsigned short int len)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((signed int)pcb->state == ESTABLISHED))
-    tmp_if_expr$1 = (signed int)pcb->state != CLOSE_WAIT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)pcb->state != CLOSE_WAIT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (signed int)pcb->state != SYN_SENT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (signed int)pcb->state != SYN_SENT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (signed int)pcb->state != SYN_RCVD ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (signed int)pcb->state != SYN_RCVD ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
   {
     while((_Bool)0)
       ;
@@ -14305,9 +14305,9 @@ static signed char tcp_write_checks(struct tcp_pcb *pcb, unsigned short int len)
     if((signed int)len == 0)
       return (signed char)0;
 
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
   if(!((signed int)pcb->snd_buf >= (signed int)len))
   {
     while((_Bool)0)
@@ -14321,11 +14321,11 @@ static signed char tcp_write_checks(struct tcp_pcb *pcb, unsigned short int len)
     while((_Bool)0)
       ;
     if((signed int)pcb->snd_queuelen >= 255)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (unsigned int)pcb->snd_queuelen > 0xffffU - (unsigned int)3 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (unsigned int)pcb->snd_queuelen > 0xffffU - (unsigned int)3 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
       while((_Bool)0)
         ;
@@ -14340,11 +14340,11 @@ static signed char tcp_write_checks(struct tcp_pcb *pcb, unsigned short int len)
         do
         {
           if(!(pcb->unacked == ((struct tcp_seg *)NULL)))
-            tmp_if_expr$5 = (_Bool)1;
+            tmp_if_expr_5 = (_Bool)1;
 
           else
-            tmp_if_expr$5 = pcb->unsent != (struct tcp_seg *)(void *)0 ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$5)
+            tmp_if_expr_5 = pcb->unsent != (struct tcp_seg *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_5)
             do
             {
               printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"tcp_write: pbufs on queue => at least one queue non-empty", 333, (const void *)"lwip/src/core/tcp_out.c");
@@ -14360,11 +14360,11 @@ static signed char tcp_write_checks(struct tcp_pcb *pcb, unsigned short int len)
         do
         {
           if(pcb->unacked == ((struct tcp_seg *)NULL))
-            tmp_if_expr$6 = pcb->unsent == (struct tcp_seg *)(void *)0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = pcb->unsent == (struct tcp_seg *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          if(!tmp_if_expr$6)
+            tmp_if_expr_6 = (_Bool)0;
+          if(!tmp_if_expr_6)
             do
             {
               printf("Assertion \"%s\" failed at line %d in %s\n", (const void *)"tcp_write: no pbufs on queue => both queues empty", 336, (const void *)"lwip/src/core/tcp_out.c");
@@ -14385,7 +14385,7 @@ static signed char tcp_write_checks(struct tcp_pcb *pcb, unsigned short int len)
 void tcp_zero_window_probe(struct tcp_pcb *pcb)
 {
   struct pbuf *p;
-  struct tcp_hdr *tcp_zero_window_probe$$1$$tcphdr;
+  struct tcp_hdr *tcp_zero_window_probe__1__tcphdr;
   struct tcp_seg *seg;
   unsigned short int len;
   unsigned char is_fin;
@@ -14401,17 +14401,17 @@ void tcp_zero_window_probe(struct tcp_pcb *pcb)
   if(seg == ((struct tcp_seg *)NULL))
     seg = pcb->unsent;
 
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(seg == ((struct tcp_seg *)NULL)))
   {
-    unsigned short int return_value_lwip_ntohs$1;
-    return_value_lwip_ntohs$1=lwip_ntohs(seg->tcphdr->_hdrlen_rsvd_flags);
-    if(!((1u & (unsigned int)return_value_lwip_ntohs$1) == 0u))
-      tmp_if_expr$2 = (signed int)seg->len == 0 ? (_Bool)1 : (_Bool)0;
+    unsigned short int return_value_lwip_ntohs_1;
+    return_value_lwip_ntohs_1=lwip_ntohs(seg->tcphdr->_hdrlen_rsvd_flags);
+    if(!((1u & (unsigned int)return_value_lwip_ntohs_1) == 0u))
+      tmp_if_expr_2 = (signed int)seg->len == 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    is_fin = (unsigned char)tmp_if_expr$2;
+      tmp_if_expr_2 = (_Bool)0;
+    is_fin = (unsigned char)tmp_if_expr_2;
     len = (unsigned short int)(is_fin != 0 ? 0 : 1);
     p=tcp_output_alloc_header(pcb, (unsigned short int)0, len, seg->tcphdr->seqno);
     if(p == ((struct pbuf *)NULL))
@@ -14420,12 +14420,12 @@ void tcp_zero_window_probe(struct tcp_pcb *pcb)
 
     else
     {
-      tcp_zero_window_probe$$1$$tcphdr = (struct tcp_hdr *)p->payload;
+      tcp_zero_window_probe__1__tcphdr = (struct tcp_hdr *)p->payload;
       if(!(is_fin == 0))
       {
-        unsigned short int return_value_lwip_htons$3;
-        return_value_lwip_htons$3=lwip_htons((unsigned short int)(0x10U | 0x01U));
-        tcp_zero_window_probe$$1$$tcphdr->_hdrlen_rsvd_flags = (unsigned short int)((signed int)tcp_zero_window_probe$$1$$tcphdr->_hdrlen_rsvd_flags & (((signed int)(unsigned short int)~((signed int)(unsigned short int)0x3fU) & 0xff) << 8 | ((signed int)(unsigned short int)~((signed int)(unsigned short int)0x3fU) & 0xff00) >> 8) | (signed int)return_value_lwip_htons$3);
+        unsigned short int return_value_lwip_htons_3;
+        return_value_lwip_htons_3=lwip_htons((unsigned short int)(0x10U | 0x01U));
+        tcp_zero_window_probe__1__tcphdr->_hdrlen_rsvd_flags = (unsigned short int)((signed int)tcp_zero_window_probe__1__tcphdr->_hdrlen_rsvd_flags & (((signed int)(unsigned short int)~((signed int)(unsigned short int)0x3fU) & 0xff) << 8 | ((signed int)(unsigned short int)~((signed int)(unsigned short int)0x3fU) & 0xff00) >> 8) | (signed int)return_value_lwip_htons_3);
       }
 
       else
@@ -14433,7 +14433,7 @@ void tcp_zero_window_probe(struct tcp_pcb *pcb)
         char *d = (char *)p->payload + (signed long int)20;
         pbuf_copy_partial(seg->p, (void *)d, (unsigned short int)1, (unsigned short int)((signed int)seg->p->tot_len - (signed int)seg->len));
       }
-      tcp_zero_window_probe$$1$$tcphdr->chksum=inet_chksum_pseudo(p, (unsigned char)6, p->tot_len, &pcb->local_ip, &pcb->remote_ip);
+      tcp_zero_window_probe__1__tcphdr->chksum=inet_chksum_pseudo(p, (unsigned char)6, p->tot_len, &pcb->local_ip, &pcb->remote_ip);
       lwip_stats.tcp.xmit = lwip_stats.tcp.xmit + 1;
       ip_output(p, &pcb->local_ip, &pcb->remote_ip, pcb->ttl, (unsigned char)0, (unsigned char)6);
       pbuf_free(p);
@@ -14449,50 +14449,50 @@ void tcp_zero_window_probe(struct tcp_pcb *pcb)
 void tcpdump(struct pbuf *p)
 {
   struct ip_hdr *iphdr;
-  struct tcp_hdr *tcpdump$$1$$tcphdr;
+  struct tcp_hdr *tcpdump__1__tcphdr;
   struct udp_hdr *udphdr;
-  char tcpdump$$1$$flags[5l];
+  char tcpdump__1__flags[5l];
   signed int i;
   signed int len;
   signed int offset;
-  unsigned short int return_value_inet_chksum_pseudo$1;
-  unsigned short int return_value_lwip_ntohs$3;
-  signed int tmp_post$2;
-  unsigned short int return_value_lwip_ntohs$5;
-  signed int tmp_post$4;
-  unsigned short int return_value_lwip_ntohs$7;
-  signed int tmp_post$6;
-  unsigned short int return_value_lwip_ntohs$9;
-  signed int tmp_post$8;
-  signed int tmp_post$10;
-  signed int tmp_post$11;
-  unsigned int return_value_lwip_ntohl$12;
-  unsigned int return_value_lwip_ntohl$13;
-  unsigned int return_value_lwip_ntohl$14;
-  unsigned int return_value_lwip_ntohl$15;
-  unsigned short int return_value_lwip_ntohs$16;
-  unsigned int return_value_lwip_ntohl$17;
-  unsigned int return_value_lwip_ntohl$18;
-  unsigned int return_value_lwip_ntohl$19;
-  unsigned int return_value_lwip_ntohl$20;
-  unsigned short int return_value_lwip_ntohs$21;
-  unsigned short int return_value_lwip_ntohs$22;
-  unsigned short int return_value_lwip_ntohs$23;
-  _Bool tmp_if_expr$26;
-  unsigned short int return_value_lwip_ntohs$28;
-  unsigned short int return_value_lwip_ntohs$29;
-  unsigned short int return_value_inet_chksum_pseudo$30;
-  unsigned int return_value_lwip_ntohl$31;
-  unsigned int return_value_lwip_ntohl$32;
-  unsigned int return_value_lwip_ntohl$33;
-  unsigned int return_value_lwip_ntohl$34;
-  unsigned short int return_value_lwip_ntohs$35;
-  unsigned int return_value_lwip_ntohl$36;
-  unsigned int return_value_lwip_ntohl$37;
-  unsigned int return_value_lwip_ntohl$38;
-  unsigned int return_value_lwip_ntohl$39;
-  unsigned short int return_value_lwip_ntohs$40;
-  unsigned short int return_value_lwip_ntohs$41;
+  unsigned short int return_value_inet_chksum_pseudo_1;
+  unsigned short int return_value_lwip_ntohs_3;
+  signed int tmp_post_2;
+  unsigned short int return_value_lwip_ntohs_5;
+  signed int tmp_post_4;
+  unsigned short int return_value_lwip_ntohs_7;
+  signed int tmp_post_6;
+  unsigned short int return_value_lwip_ntohs_9;
+  signed int tmp_post_8;
+  signed int tmp_post_10;
+  signed int tmp_post_11;
+  unsigned int return_value_lwip_ntohl_12;
+  unsigned int return_value_lwip_ntohl_13;
+  unsigned int return_value_lwip_ntohl_14;
+  unsigned int return_value_lwip_ntohl_15;
+  unsigned short int return_value_lwip_ntohs_16;
+  unsigned int return_value_lwip_ntohl_17;
+  unsigned int return_value_lwip_ntohl_18;
+  unsigned int return_value_lwip_ntohl_19;
+  unsigned int return_value_lwip_ntohl_20;
+  unsigned short int return_value_lwip_ntohs_21;
+  unsigned short int return_value_lwip_ntohs_22;
+  unsigned short int return_value_lwip_ntohs_23;
+  _Bool tmp_if_expr_26;
+  unsigned short int return_value_lwip_ntohs_28;
+  unsigned short int return_value_lwip_ntohs_29;
+  unsigned short int return_value_inet_chksum_pseudo_30;
+  unsigned int return_value_lwip_ntohl_31;
+  unsigned int return_value_lwip_ntohl_32;
+  unsigned int return_value_lwip_ntohl_33;
+  unsigned int return_value_lwip_ntohl_34;
+  unsigned short int return_value_lwip_ntohs_35;
+  unsigned int return_value_lwip_ntohl_36;
+  unsigned int return_value_lwip_ntohl_37;
+  unsigned int return_value_lwip_ntohl_38;
+  unsigned int return_value_lwip_ntohl_39;
+  unsigned short int return_value_lwip_ntohs_40;
+  unsigned short int return_value_lwip_ntohs_41;
   if(!(file == ((struct _IO_FILE *)NULL)))
   {
     iphdr = (struct ip_hdr *)p->payload;
@@ -14500,10 +14500,10 @@ void tcpdump(struct pbuf *p)
     {
       case 6:
       {
-        tcpdump$$1$$tcphdr = (struct tcp_hdr *)((char *)iphdr + (signed long int)20);
+        tcpdump__1__tcphdr = (struct tcp_hdr *)((char *)iphdr + (signed long int)20);
         pbuf_header(p, (signed short int)-20);
-        return_value_inet_chksum_pseudo$1=inet_chksum_pseudo(p, (unsigned char)6, p->tot_len, (struct ip_addr *)&iphdr->src, (struct ip_addr *)&iphdr->dest);
-        if(!((signed int)return_value_inet_chksum_pseudo$1 == 0))
+        return_value_inet_chksum_pseudo_1=inet_chksum_pseudo(p, (unsigned char)6, p->tot_len, (struct ip_addr *)&iphdr->src, (struct ip_addr *)&iphdr->dest);
+        if(!((signed int)return_value_inet_chksum_pseudo_1 == 0))
         {
           while((_Bool)0)
             ;
@@ -14511,87 +14511,87 @@ void tcpdump(struct pbuf *p)
         }
 
         i = 0;
-        return_value_lwip_ntohs$3=lwip_ntohs(tcpdump$$1$$tcphdr->_hdrlen_rsvd_flags);
-        if(!((2u & (unsigned int)return_value_lwip_ntohs$3) == 0u))
+        return_value_lwip_ntohs_3=lwip_ntohs(tcpdump__1__tcphdr->_hdrlen_rsvd_flags);
+        if(!((2u & (unsigned int)return_value_lwip_ntohs_3) == 0u))
         {
-          tmp_post$2 = i;
+          tmp_post_2 = i;
           i = i + 1;
-          tcpdump$$1$$flags[(signed long int)tmp_post$2] = (char)83;
+          tcpdump__1__flags[(signed long int)tmp_post_2] = (char)83;
         }
 
-        return_value_lwip_ntohs$5=lwip_ntohs(tcpdump$$1$$tcphdr->_hdrlen_rsvd_flags);
-        if(!((8u & (unsigned int)return_value_lwip_ntohs$5) == 0u))
+        return_value_lwip_ntohs_5=lwip_ntohs(tcpdump__1__tcphdr->_hdrlen_rsvd_flags);
+        if(!((8u & (unsigned int)return_value_lwip_ntohs_5) == 0u))
         {
-          tmp_post$4 = i;
+          tmp_post_4 = i;
           i = i + 1;
-          tcpdump$$1$$flags[(signed long int)tmp_post$4] = (char)80;
+          tcpdump__1__flags[(signed long int)tmp_post_4] = (char)80;
         }
 
-        return_value_lwip_ntohs$7=lwip_ntohs(tcpdump$$1$$tcphdr->_hdrlen_rsvd_flags);
-        if(!((1u & (unsigned int)return_value_lwip_ntohs$7) == 0u))
+        return_value_lwip_ntohs_7=lwip_ntohs(tcpdump__1__tcphdr->_hdrlen_rsvd_flags);
+        if(!((1u & (unsigned int)return_value_lwip_ntohs_7) == 0u))
         {
-          tmp_post$6 = i;
+          tmp_post_6 = i;
           i = i + 1;
-          tcpdump$$1$$flags[(signed long int)tmp_post$6] = (char)70;
+          tcpdump__1__flags[(signed long int)tmp_post_6] = (char)70;
         }
 
-        return_value_lwip_ntohs$9=lwip_ntohs(tcpdump$$1$$tcphdr->_hdrlen_rsvd_flags);
-        if(!((4u & (unsigned int)return_value_lwip_ntohs$9) == 0u))
+        return_value_lwip_ntohs_9=lwip_ntohs(tcpdump__1__tcphdr->_hdrlen_rsvd_flags);
+        if(!((4u & (unsigned int)return_value_lwip_ntohs_9) == 0u))
         {
-          tmp_post$8 = i;
+          tmp_post_8 = i;
           i = i + 1;
-          tcpdump$$1$$flags[(signed long int)tmp_post$8] = (char)82;
+          tcpdump__1__flags[(signed long int)tmp_post_8] = (char)82;
         }
 
         if(i == 0)
         {
-          tmp_post$10 = i;
+          tmp_post_10 = i;
           i = i + 1;
-          tcpdump$$1$$flags[(signed long int)tmp_post$10] = (char)46;
+          tcpdump__1__flags[(signed long int)tmp_post_10] = (char)46;
         }
 
-        tmp_post$11 = i;
+        tmp_post_11 = i;
         i = i + 1;
-        tcpdump$$1$$flags[(signed long int)tmp_post$11] = (char)0;
-        return_value_lwip_ntohl$12=lwip_ntohl(iphdr->src.addr);
-        return_value_lwip_ntohl$13=lwip_ntohl(iphdr->src.addr);
-        return_value_lwip_ntohl$14=lwip_ntohl(iphdr->src.addr);
-        return_value_lwip_ntohl$15=lwip_ntohl(iphdr->src.addr);
-        return_value_lwip_ntohs$16=lwip_ntohs(tcpdump$$1$$tcphdr->src);
-        return_value_lwip_ntohl$17=lwip_ntohl(iphdr->dest.addr);
-        return_value_lwip_ntohl$18=lwip_ntohl(iphdr->dest.addr);
-        return_value_lwip_ntohl$19=lwip_ntohl(iphdr->dest.addr);
-        return_value_lwip_ntohl$20=lwip_ntohl(iphdr->dest.addr);
-        return_value_lwip_ntohs$21=lwip_ntohs(tcpdump$$1$$tcphdr->dest);
-        fprintf(file, "%d.%d.%d.%d.%u > %d.%d.%d.%d.%u: ", (signed int)(return_value_lwip_ntohl$12 >> 24) & 0xff, (signed int)(return_value_lwip_ntohl$13 >> 16) & 0xff, (signed int)(return_value_lwip_ntohl$14 >> 8) & 0xff, (signed int)(return_value_lwip_ntohl$15 >> 0) & 0xff, return_value_lwip_ntohs$16, (signed int)(return_value_lwip_ntohl$17 >> 24) & 0xff, (signed int)(return_value_lwip_ntohl$18 >> 16) & 0xff, (signed int)(return_value_lwip_ntohl$19 >> 8) & 0xff, (signed int)(return_value_lwip_ntohl$20 >> 0) & 0xff, return_value_lwip_ntohs$21);
-        return_value_lwip_ntohs$22=lwip_ntohs(tcpdump$$1$$tcphdr->_hdrlen_rsvd_flags);
-        offset = (signed int)return_value_lwip_ntohs$22 >> 12;
-        return_value_lwip_ntohs$23=lwip_ntohs(iphdr->_len);
-        len = ((signed int)return_value_lwip_ntohs$23 - offset * 4) - 20;
+        tcpdump__1__flags[(signed long int)tmp_post_11] = (char)0;
+        return_value_lwip_ntohl_12=lwip_ntohl(iphdr->src.addr);
+        return_value_lwip_ntohl_13=lwip_ntohl(iphdr->src.addr);
+        return_value_lwip_ntohl_14=lwip_ntohl(iphdr->src.addr);
+        return_value_lwip_ntohl_15=lwip_ntohl(iphdr->src.addr);
+        return_value_lwip_ntohs_16=lwip_ntohs(tcpdump__1__tcphdr->src);
+        return_value_lwip_ntohl_17=lwip_ntohl(iphdr->dest.addr);
+        return_value_lwip_ntohl_18=lwip_ntohl(iphdr->dest.addr);
+        return_value_lwip_ntohl_19=lwip_ntohl(iphdr->dest.addr);
+        return_value_lwip_ntohl_20=lwip_ntohl(iphdr->dest.addr);
+        return_value_lwip_ntohs_21=lwip_ntohs(tcpdump__1__tcphdr->dest);
+        fprintf(file, "%d.%d.%d.%d.%u > %d.%d.%d.%d.%u: ", (signed int)(return_value_lwip_ntohl_12 >> 24) & 0xff, (signed int)(return_value_lwip_ntohl_13 >> 16) & 0xff, (signed int)(return_value_lwip_ntohl_14 >> 8) & 0xff, (signed int)(return_value_lwip_ntohl_15 >> 0) & 0xff, return_value_lwip_ntohs_16, (signed int)(return_value_lwip_ntohl_17 >> 24) & 0xff, (signed int)(return_value_lwip_ntohl_18 >> 16) & 0xff, (signed int)(return_value_lwip_ntohl_19 >> 8) & 0xff, (signed int)(return_value_lwip_ntohl_20 >> 0) & 0xff, return_value_lwip_ntohs_21);
+        return_value_lwip_ntohs_22=lwip_ntohs(tcpdump__1__tcphdr->_hdrlen_rsvd_flags);
+        offset = (signed int)return_value_lwip_ntohs_22 >> 12;
+        return_value_lwip_ntohs_23=lwip_ntohs(iphdr->_len);
+        len = ((signed int)return_value_lwip_ntohs_23 - offset * 4) - 20;
         if(!(len == 0))
-          tmp_if_expr$26 = (_Bool)1;
+          tmp_if_expr_26 = (_Bool)1;
 
         else
-          tmp_if_expr$26 = (signed int)tcpdump$$1$$flags[(signed long int)0] != 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$26)
+          tmp_if_expr_26 = (signed int)tcpdump__1__flags[(signed long int)0] != 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_26)
         {
-          unsigned int return_value_lwip_ntohl$24;
-          return_value_lwip_ntohl$24=lwip_ntohl(tcpdump$$1$$tcphdr->seqno);
-          unsigned int return_value_lwip_ntohl$25;
-          return_value_lwip_ntohl$25=lwip_ntohl(tcpdump$$1$$tcphdr->seqno);
-          fprintf(file, "%s %u:%u(%u) ", (const void *)tcpdump$$1$$flags, return_value_lwip_ntohl$24, return_value_lwip_ntohl$25 + (unsigned int)len, len);
+          unsigned int return_value_lwip_ntohl_24;
+          return_value_lwip_ntohl_24=lwip_ntohl(tcpdump__1__tcphdr->seqno);
+          unsigned int return_value_lwip_ntohl_25;
+          return_value_lwip_ntohl_25=lwip_ntohl(tcpdump__1__tcphdr->seqno);
+          fprintf(file, "%s %u:%u(%u) ", (const void *)tcpdump__1__flags, return_value_lwip_ntohl_24, return_value_lwip_ntohl_25 + (unsigned int)len, len);
         }
 
-        return_value_lwip_ntohs$28=lwip_ntohs(tcpdump$$1$$tcphdr->_hdrlen_rsvd_flags);
-        if(!((16u & (unsigned int)return_value_lwip_ntohs$28) == 0u))
+        return_value_lwip_ntohs_28=lwip_ntohs(tcpdump__1__tcphdr->_hdrlen_rsvd_flags);
+        if(!((16u & (unsigned int)return_value_lwip_ntohs_28) == 0u))
         {
-          unsigned int return_value_lwip_ntohl$27;
-          return_value_lwip_ntohl$27=lwip_ntohl(tcpdump$$1$$tcphdr->ackno);
-          fprintf(file, "ack %u ", return_value_lwip_ntohl$27);
+          unsigned int return_value_lwip_ntohl_27;
+          return_value_lwip_ntohl_27=lwip_ntohl(tcpdump__1__tcphdr->ackno);
+          fprintf(file, "ack %u ", return_value_lwip_ntohl_27);
         }
 
-        return_value_lwip_ntohs$29=lwip_ntohs(tcpdump$$1$$tcphdr->wnd);
-        fprintf(file, "wnd %u\n", return_value_lwip_ntohs$29);
+        return_value_lwip_ntohs_29=lwip_ntohs(tcpdump__1__tcphdr->wnd);
+        fprintf(file, "wnd %u\n", return_value_lwip_ntohs_29);
         fflush(file);
         pbuf_header(p, (signed short int)20);
         break;
@@ -14600,28 +14600,28 @@ void tcpdump(struct pbuf *p)
       {
         udphdr = (struct udp_hdr *)((char *)iphdr + (signed long int)20);
         pbuf_header(p, (signed short int)-20);
-        return_value_inet_chksum_pseudo$30=inet_chksum_pseudo(p, (unsigned char)17, p->tot_len, (struct ip_addr *)&iphdr->src, (struct ip_addr *)&iphdr->dest);
-        if(!((signed int)return_value_inet_chksum_pseudo$30 == 0))
+        return_value_inet_chksum_pseudo_30=inet_chksum_pseudo(p, (unsigned char)17, p->tot_len, (struct ip_addr *)&iphdr->src, (struct ip_addr *)&iphdr->dest);
+        if(!((signed int)return_value_inet_chksum_pseudo_30 == 0))
         {
           while((_Bool)0)
             ;
           fprintf(file, "!chksum ");
         }
 
-        return_value_lwip_ntohl$31=lwip_ntohl(iphdr->src.addr);
-        return_value_lwip_ntohl$32=lwip_ntohl(iphdr->src.addr);
-        return_value_lwip_ntohl$33=lwip_ntohl(iphdr->src.addr);
-        return_value_lwip_ntohl$34=lwip_ntohl(iphdr->src.addr);
-        return_value_lwip_ntohs$35=lwip_ntohs(udphdr->src);
-        return_value_lwip_ntohl$36=lwip_ntohl(iphdr->dest.addr);
-        return_value_lwip_ntohl$37=lwip_ntohl(iphdr->dest.addr);
-        return_value_lwip_ntohl$38=lwip_ntohl(iphdr->dest.addr);
-        return_value_lwip_ntohl$39=lwip_ntohl(iphdr->dest.addr);
-        return_value_lwip_ntohs$40=lwip_ntohs(udphdr->dest);
-        fprintf(file, "%d.%d.%d.%d.%u > %d.%d.%d.%d.%u: ", (signed int)(return_value_lwip_ntohl$31 >> 24) & 0xff, (signed int)(return_value_lwip_ntohl$32 >> 16) & 0xff, (signed int)(return_value_lwip_ntohl$33 >> 8) & 0xff, (signed int)(return_value_lwip_ntohl$34 >> 0) & 0xff, return_value_lwip_ntohs$35, (signed int)(return_value_lwip_ntohl$36 >> 24) & 0xff, (signed int)(return_value_lwip_ntohl$37 >> 16) & 0xff, (signed int)(return_value_lwip_ntohl$38 >> 8) & 0xff, (signed int)(return_value_lwip_ntohl$39 >> 0) & 0xff, return_value_lwip_ntohs$40);
+        return_value_lwip_ntohl_31=lwip_ntohl(iphdr->src.addr);
+        return_value_lwip_ntohl_32=lwip_ntohl(iphdr->src.addr);
+        return_value_lwip_ntohl_33=lwip_ntohl(iphdr->src.addr);
+        return_value_lwip_ntohl_34=lwip_ntohl(iphdr->src.addr);
+        return_value_lwip_ntohs_35=lwip_ntohs(udphdr->src);
+        return_value_lwip_ntohl_36=lwip_ntohl(iphdr->dest.addr);
+        return_value_lwip_ntohl_37=lwip_ntohl(iphdr->dest.addr);
+        return_value_lwip_ntohl_38=lwip_ntohl(iphdr->dest.addr);
+        return_value_lwip_ntohl_39=lwip_ntohl(iphdr->dest.addr);
+        return_value_lwip_ntohs_40=lwip_ntohs(udphdr->dest);
+        fprintf(file, "%d.%d.%d.%d.%u > %d.%d.%d.%d.%u: ", (signed int)(return_value_lwip_ntohl_31 >> 24) & 0xff, (signed int)(return_value_lwip_ntohl_32 >> 16) & 0xff, (signed int)(return_value_lwip_ntohl_33 >> 8) & 0xff, (signed int)(return_value_lwip_ntohl_34 >> 0) & 0xff, return_value_lwip_ntohs_35, (signed int)(return_value_lwip_ntohl_36 >> 24) & 0xff, (signed int)(return_value_lwip_ntohl_37 >> 16) & 0xff, (signed int)(return_value_lwip_ntohl_38 >> 8) & 0xff, (signed int)(return_value_lwip_ntohl_39 >> 0) & 0xff, return_value_lwip_ntohs_40);
         fprintf(file, "U ");
-        return_value_lwip_ntohs$41=lwip_ntohs(iphdr->_len);
-        len = (signed int)(((unsigned long int)return_value_lwip_ntohs$41 - sizeof(struct udp_hdr) /*8ul*/ ) - (unsigned long int)20);
+        return_value_lwip_ntohs_41=lwip_ntohs(iphdr->_len);
+        len = (signed int)(((unsigned long int)return_value_lwip_ntohs_41 - sizeof(struct udp_hdr) /*8ul*/ ) - (unsigned long int)20);
         fprintf(file, " %d\n", len);
         fflush(file);
         pbuf_header(p, (signed short int)20);
@@ -14654,9 +14654,9 @@ signed char tcpip_callback_with_block(void (*function)(void *), void *ctx, unsig
   struct tcpip_msg *msg;
   if(!(mbox == ((struct sys_mbox *)NULL)))
   {
-    void *return_value_mem_malloc$1;
-    return_value_mem_malloc$1=mem_malloc((unsigned int)memp_sizes[(signed long int)6]);
-    msg = (struct tcpip_msg *)return_value_mem_malloc$1;
+    void *return_value_mem_malloc_1;
+    return_value_mem_malloc_1=mem_malloc((unsigned int)memp_sizes[(signed long int)6]);
+    msg = (struct tcpip_msg *)return_value_mem_malloc_1;
     if(msg == ((struct tcpip_msg *)NULL))
       return (signed char)-1;
 
@@ -14668,9 +14668,9 @@ signed char tcpip_callback_with_block(void (*function)(void *), void *ctx, unsig
 
     else
     {
-      signed char return_value_sys_mbox_trypost$2;
-      return_value_sys_mbox_trypost$2=sys_mbox_trypost(&mbox, (void *)msg);
-      if(!((signed int)return_value_sys_mbox_trypost$2 == 0))
+      signed char return_value_sys_mbox_trypost_2;
+      return_value_sys_mbox_trypost_2=sys_mbox_trypost(&mbox, (void *)msg);
+      if(!((signed int)return_value_sys_mbox_trypost_2 == 0))
       {
         mem_free((void *)msg);
         return (signed char)-1;
@@ -14695,9 +14695,9 @@ void tcpip_callbackmsg_delete(struct tcpip_callback_msg *msg)
 struct tcpip_callback_msg * tcpip_callbackmsg_new(void (*function)(void *), void *ctx)
 {
   struct tcpip_msg *msg;
-  void *return_value_mem_malloc$1;
-  return_value_mem_malloc$1=mem_malloc((unsigned int)memp_sizes[(signed long int)6]);
-  msg = (struct tcpip_msg *)return_value_mem_malloc$1;
+  void *return_value_mem_malloc_1;
+  return_value_mem_malloc_1=mem_malloc((unsigned int)memp_sizes[(signed long int)6]);
+  msg = (struct tcpip_msg *)return_value_mem_malloc_1;
   if(msg == ((struct tcpip_msg *)NULL))
     return (struct tcpip_callback_msg *)(void *)0;
 
@@ -14717,9 +14717,9 @@ void tcpip_init(void (*initfunc)(void *), void *arg)
   lwip_init();
   tcpip_init_done = initfunc;
   tcpip_init_done_arg = arg;
-  signed char return_value_sys_mbox_new$1;
-  return_value_sys_mbox_new$1=sys_mbox_new(&mbox, 0);
-  if(!((signed int)return_value_sys_mbox_new$1 == 0))
+  signed char return_value_sys_mbox_new_1;
+  return_value_sys_mbox_new_1=sys_mbox_new(&mbox, 0);
+  if(!((signed int)return_value_sys_mbox_new_1 == 0))
     do
       do
       {
@@ -14730,9 +14730,9 @@ void tcpip_init(void (*initfunc)(void *), void *arg)
       while((_Bool)0);
     while((_Bool)0);
 
-  signed char return_value_sys_sem_new$2;
-  return_value_sys_sem_new$2=sys_sem_new(&lock_tcpip_core, (unsigned char)1);
-  if(!((signed int)return_value_sys_sem_new$2 == 0))
+  signed char return_value_sys_sem_new_2;
+  return_value_sys_sem_new_2=sys_sem_new(&lock_tcpip_core, (unsigned char)1);
+  if(!((signed int)return_value_sys_sem_new_2 == 0))
     do
       do
       {
@@ -14756,9 +14756,9 @@ signed char tcpip_input(struct pbuf *p, struct netif *inp)
 
   else
   {
-    void *return_value_mem_malloc$1;
-    return_value_mem_malloc$1=mem_malloc((unsigned int)memp_sizes[(signed long int)7]);
-    msg = (struct tcpip_msg *)return_value_mem_malloc$1;
+    void *return_value_mem_malloc_1;
+    return_value_mem_malloc_1=mem_malloc((unsigned int)memp_sizes[(signed long int)7]);
+    msg = (struct tcpip_msg *)return_value_mem_malloc_1;
     if(msg == ((struct tcpip_msg *)NULL))
       return (signed char)-1;
 
@@ -14767,9 +14767,9 @@ signed char tcpip_input(struct pbuf *p, struct netif *inp)
       msg->type = (enum tcpip_msg_type)TCPIP_MSG_INPKT;
       msg->msg.inp.p = p;
       msg->msg.inp.netif = inp;
-      signed char return_value_sys_mbox_trypost$2;
-      return_value_sys_mbox_trypost$2=sys_mbox_trypost(&mbox, (void *)msg);
-      if(!((signed int)return_value_sys_mbox_trypost$2 == 0))
+      signed char return_value_sys_mbox_trypost_2;
+      return_value_sys_mbox_trypost_2=sys_mbox_trypost(&mbox, (void *)msg);
+      if(!((signed int)return_value_sys_mbox_trypost_2 == 0))
       {
         mem_free((void *)msg);
         return (signed char)-1;
@@ -14888,9 +14888,9 @@ signed char tcpip_timeout(unsigned int msecs, void (*h)(void *), void *arg)
   struct tcpip_msg *msg;
   if(!(mbox == ((struct sys_mbox *)NULL)))
   {
-    void *return_value_mem_malloc$1;
-    return_value_mem_malloc$1=mem_malloc((unsigned int)memp_sizes[(signed long int)6]);
-    msg = (struct tcpip_msg *)return_value_mem_malloc$1;
+    void *return_value_mem_malloc_1;
+    return_value_mem_malloc_1=mem_malloc((unsigned int)memp_sizes[(signed long int)6]);
+    msg = (struct tcpip_msg *)return_value_mem_malloc_1;
     if(msg == ((struct tcpip_msg *)NULL))
       return (signed char)-1;
 
@@ -14914,9 +14914,9 @@ signed char tcpip_trycallback(struct tcpip_callback_msg *msg)
 
   else
   {
-    signed char return_value_sys_mbox_trypost$1;
-    return_value_sys_mbox_trypost$1=sys_mbox_trypost(&mbox, (void *)msg);
-    return return_value_sys_mbox_trypost$1;
+    signed char return_value_sys_mbox_trypost_1;
+    return_value_sys_mbox_trypost_1=sys_mbox_trypost(&mbox, (void *)msg);
+    return return_value_sys_mbox_trypost_1;
   }
 }
 
@@ -14927,9 +14927,9 @@ signed char tcpip_untimeout(void (*h)(void *), void *arg)
   struct tcpip_msg *msg;
   if(!(mbox == ((struct sys_mbox *)NULL)))
   {
-    void *return_value_mem_malloc$1;
-    return_value_mem_malloc$1=mem_malloc((unsigned int)memp_sizes[(signed long int)6]);
-    msg = (struct tcpip_msg *)return_value_mem_malloc$1;
+    void *return_value_mem_malloc_1;
+    return_value_mem_malloc_1=mem_malloc((unsigned int)memp_sizes[(signed long int)6]);
+    msg = (struct tcpip_msg *)return_value_mem_malloc_1;
     if(msg == ((struct tcpip_msg *)NULL))
       return (signed char)-1;
 
@@ -14951,19 +14951,19 @@ signed char udp_bind(struct udp_pcb *pcb, struct ip_addr *ipaddr, unsigned short
   unsigned char rebind;
   while((_Bool)0)
     ;
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
   while((_Bool)0)
     ;
   while((_Bool)0)
     ;
   rebind = (unsigned char)0;
   ipcb = udp_pcbs;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_7;
   for( ; !(ipcb == ((struct udp_pcb *)NULL)); ipcb = ipcb->next)
     if(pcb == ipcb)
     {
@@ -14985,23 +14985,23 @@ signed char udp_bind(struct udp_pcb *pcb, struct ip_addr *ipaddr, unsigned short
       if(ipcb->local_port == port)
       {
         if(ipcb->local_ip.addr == 0u)
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
         {
           if(ipaddr == ((struct ip_addr *)NULL))
-            tmp_if_expr$5 = (_Bool)1;
+            tmp_if_expr_5 = (_Bool)1;
 
           else
-            tmp_if_expr$5 = ipaddr->addr == (unsigned int)0x00000000UL ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = ipaddr->addr == (unsigned int)0x00000000UL ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$6)
-          tmp_if_expr$7 = (_Bool)1;
+        if(tmp_if_expr_6)
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = (&ipcb->local_ip)->addr == ipaddr->addr ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = (&ipcb->local_ip)->addr == ipaddr->addr ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_7)
         {
           while((_Bool)0)
             ;
@@ -15010,13 +15010,13 @@ signed char udp_bind(struct udp_pcb *pcb, struct ip_addr *ipaddr, unsigned short
 
       }
 
-  unsigned int tmp_if_expr$8;
+  unsigned int tmp_if_expr_8;
   if(ipaddr == ((struct ip_addr *)NULL))
-    tmp_if_expr$8 = (unsigned int)0;
+    tmp_if_expr_8 = (unsigned int)0;
 
   else
-    tmp_if_expr$8 = ipaddr->addr;
-  (&pcb->local_ip)->addr = tmp_if_expr$8;
+    tmp_if_expr_8 = ipaddr->addr;
+  (&pcb->local_ip)->addr = tmp_if_expr_8;
   if((signed int)port == 0)
   {
     port=udp_new_port();
@@ -15064,13 +15064,13 @@ signed char udp_connect(struct udp_pcb *pcb, struct ip_addr *ipaddr, unsigned sh
 
   }
 
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   if(ipaddr == ((struct ip_addr *)NULL))
-    tmp_if_expr$1 = (unsigned int)0;
+    tmp_if_expr_1 = (unsigned int)0;
 
   else
-    tmp_if_expr$1 = ipaddr->addr;
-  (&pcb->remote_ip)->addr = tmp_if_expr$1;
+    tmp_if_expr_1 = ipaddr->addr;
+  (&pcb->remote_ip)->addr = tmp_if_expr_1;
   pcb->remote_port = port;
   pcb->flags = pcb->flags | (unsigned char)0x04U;
   while((_Bool)0)
@@ -15119,12 +15119,12 @@ void udp_input(struct pbuf *p, struct netif *inp)
   unsigned char broadcast;
   unsigned char for_us;
   lwip_stats.udp.recv = lwip_stats.udp.recv + 1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_8;
   if(!((signed int)p->len >= 8))
   {
     while((_Bool)0)
@@ -15172,35 +15172,35 @@ void udp_input(struct pbuf *p, struct netif *inp)
       if(pcb->local_port == dest)
       {
         if(broadcast == 0)
-          tmp_if_expr$3 = ((&pcb->local_ip)->addr == (unsigned int)0x00000000UL ? (_Bool)1 : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = ((&pcb->local_ip)->addr == (unsigned int)0x00000000UL ? (_Bool)1 : (_Bool)0) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = (&pcb->local_ip)->addr == (&ip_data.current_iphdr_dest)->addr ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_4 = (&pcb->local_ip)->addr == (&ip_data.current_iphdr_dest)->addr ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
+          tmp_if_expr_7 = (_Bool)1;
 
         else
         {
           if(!(broadcast == 0))
           {
             if(pcb->local_ip.addr == 0u)
-              tmp_if_expr$5 = (_Bool)1;
+              tmp_if_expr_5 = (_Bool)1;
 
             else
-              tmp_if_expr$5 = ((&pcb->local_ip)->addr & (&inp->netmask)->addr) == ((&ip_data.current_iphdr_dest)->addr & (&inp->netmask)->addr) ? (_Bool)1 : (_Bool)0;
-            tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_5 = ((&pcb->local_ip)->addr & (&inp->netmask)->addr) == ((&ip_data.current_iphdr_dest)->addr & (&inp->netmask)->addr) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = (_Bool)0;
+          tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$7)
+        if(tmp_if_expr_7)
         {
           local_match = (unsigned char)1;
           if(uncon_pcb == ((struct udp_pcb *)NULL))
@@ -15219,11 +15219,11 @@ void udp_input(struct pbuf *p, struct netif *inp)
         if(pcb->remote_port == src)
         {
           if(pcb->remote_ip.addr == 0u)
-            tmp_if_expr$8 = (_Bool)1;
+            tmp_if_expr_8 = (_Bool)1;
 
           else
-            tmp_if_expr$8 = (&pcb->remote_ip)->addr == (&ip_data.current_iphdr_src)->addr ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$8)
+            tmp_if_expr_8 = (&pcb->remote_ip)->addr == (&ip_data.current_iphdr_src)->addr ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_8)
           {
             if(!(prev == ((struct udp_pcb *)NULL)))
             {
@@ -15257,16 +15257,16 @@ void udp_input(struct pbuf *p, struct netif *inp)
         ;
       if(!((signed int)udphdr->chksum == 0))
       {
-        unsigned short int return_value_inet_chksum_pseudo$9;
-        return_value_inet_chksum_pseudo$9=inet_chksum_pseudo(p, (unsigned char)17, p->tot_len, &ip_data.current_iphdr_src, &ip_data.current_iphdr_dest);
-        if(!((signed int)return_value_inet_chksum_pseudo$9 == 0))
+        unsigned short int return_value_inet_chksum_pseudo_9;
+        return_value_inet_chksum_pseudo_9=inet_chksum_pseudo(p, (unsigned char)17, p->tot_len, &ip_data.current_iphdr_src, &ip_data.current_iphdr_dest);
+        if(!((signed int)return_value_inet_chksum_pseudo_9 == 0))
           goto chkerr;
 
       }
 
-      unsigned char return_value_pbuf_header$10;
-      return_value_pbuf_header$10=pbuf_header(p, (signed short int)-8);
-      if(!(return_value_pbuf_header$10 == 0))
+      unsigned char return_value_pbuf_header_10;
+      return_value_pbuf_header_10=pbuf_header(p, (signed short int)-8);
+      if(!(return_value_pbuf_header_10 == 0))
       {
         do
           do
@@ -15339,9 +15339,9 @@ __CPROVER_DUMP_L94:
 struct udp_pcb * udp_new(void)
 {
   struct udp_pcb *pcb;
-  void *return_value_mem_malloc$1;
-  return_value_mem_malloc$1=mem_malloc((unsigned int)memp_sizes[(signed long int)0]);
-  pcb = (struct udp_pcb *)return_value_mem_malloc$1;
+  void *return_value_mem_malloc_1;
+  return_value_mem_malloc_1=mem_malloc((unsigned int)memp_sizes[(signed long int)0]);
+  pcb = (struct udp_pcb *)return_value_mem_malloc_1;
   if(!(pcb == ((struct udp_pcb *)NULL)))
   {
     memset((void *)pcb, 0, sizeof(struct udp_pcb) /*48ul*/ );
@@ -15357,15 +15357,15 @@ static unsigned short int udp_new_port(void)
 {
   unsigned short int n = (unsigned short int)0;
   struct udp_pcb *pcb;
-  unsigned short int tmp_post$1;
+  unsigned short int tmp_post_1;
   do
   {
 
   again:
     ;
-    tmp_post$1 = udp_port;
+    tmp_post_1 = udp_port;
     udp_port = udp_port + 1;
-    if((signed int)tmp_post$1 == 0xffff)
+    if((signed int)tmp_post_1 == 0xffff)
       udp_port = (unsigned short int)0xc000;
 
     pcb = udp_pcbs;
@@ -15427,9 +15427,9 @@ void udp_remove(struct udp_pcb *pcb)
 // file lwip/src/core/udp.c line 506
 signed char udp_send(struct udp_pcb *pcb, struct pbuf *p)
 {
-  signed char return_value_udp_sendto$1;
-  return_value_udp_sendto$1=udp_sendto(pcb, p, &pcb->remote_ip, pcb->remote_port);
-  return return_value_udp_sendto$1;
+  signed char return_value_udp_sendto_1;
+  return_value_udp_sendto_1=udp_sendto(pcb, p, &pcb->remote_ip, pcb->remote_port);
+  return return_value_udp_sendto_1;
 }
 
 // udp_sendto
@@ -15441,10 +15441,10 @@ signed char udp_sendto(struct udp_pcb *pcb, struct pbuf *p, struct ip_addr *dst_
   while((_Bool)0)
     ;
   netif=ip_route(dst_ip_route);
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
   if(netif == ((struct netif *)NULL))
   {
     while((_Bool)0)
@@ -15459,9 +15459,9 @@ signed char udp_sendto(struct udp_pcb *pcb, struct pbuf *p, struct ip_addr *dst_
 
   else
   {
-    signed char return_value_udp_sendto_if$5;
-    return_value_udp_sendto_if$5=udp_sendto_if(pcb, p, dst_ip, dst_port, netif);
-    return return_value_udp_sendto_if$5;
+    signed char return_value_udp_sendto_if_5;
+    return_value_udp_sendto_if_5=udp_sendto_if(pcb, p, dst_ip, dst_port, netif);
+    return return_value_udp_sendto_if_5;
   }
 }
 
@@ -15480,9 +15480,9 @@ signed char udp_sendto_if(struct udp_pcb *pcb, struct pbuf *p, struct ip_addr *d
 
     src_ip = &pcb->local_ip;
   }
-  signed char return_value_udp_sendto_if_src$1;
-  return_value_udp_sendto_if_src$1=udp_sendto_if_src(pcb, p, dst_ip, dst_port, netif, src_ip);
-  return return_value_udp_sendto_if_src$1;
+  signed char return_value_udp_sendto_if_src_1;
+  return_value_udp_sendto_if_src_1=udp_sendto_if_src(pcb, p, dst_ip, dst_port, netif, src_ip);
+  return return_value_udp_sendto_if_src_1;
 }
 
 // udp_sendto_if_src
@@ -15511,11 +15511,11 @@ signed char udp_sendto_if_src(struct udp_pcb *pcb, struct pbuf *p, struct ip_add
 
   __CPROVER_DUMP_L9:
     ;
-    unsigned char return_value_pbuf_header$1;
-    return_value_pbuf_header$1=pbuf_header(p, (signed short int)8);
-    if(!(return_value_pbuf_header$1 == 0))
+    unsigned char return_value_pbuf_header_1;
+    return_value_pbuf_header_1=pbuf_header(p, (signed short int)8);
+    if(!(return_value_pbuf_header_1 == 0))
     {
-      q=pbuf_alloc((enum anonymous)PBUF_IP, (unsigned short int)8, (enum anonymous$0)PBUF_RAM);
+      q=pbuf_alloc((enum anonymous)PBUF_IP, (unsigned short int)8, (enum anonymous_0)PBUF_RAM);
       if(q == ((struct pbuf *)NULL))
       {
         while((_Bool)0)

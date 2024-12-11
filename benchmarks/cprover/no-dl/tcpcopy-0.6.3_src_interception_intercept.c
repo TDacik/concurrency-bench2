@@ -1,98 +1,98 @@
-// tag-#anon#ST[*{S32(*{SYM#tag-tc_event_loop_s#}$SYM#tag-tc_event_loop_s#$)->S32}$S32(*{SYM#tag-tc_event_loop_s#}$SYM#tag-tc_event_loop_s#$)->S32$'create'||*{S32(*{SYM#tag-tc_event_loop_s#}$SYM#tag-tc_event_loop_s#$)->S32}$S32(*{SYM#tag-tc_event_loop_s#}$SYM#tag-tc_event_loop_s#$)->S32$'destroy'||*{S32(*{SYM#tag-tc_event_loop_s#}$SYM#tag-tc_event_loop_s#$|*{SYM#tag-tc_event_s#}$SYM#tag-tc_event_s#$|S32)->S32}$S32(*{SYM#tag-tc_event_loop_s#}$SYM#tag-tc_event_loop_s#$|*{SYM#tag-tc_event_s#}$SYM#tag-tc_event_s#$|S32)->S32$'add'||*{S32(*{SYM#tag-tc_event_loop_s#}$SYM#tag-tc_event_loop_s#$|*{SYM#tag-tc_event_s#}$SYM#tag-tc_event_s#$|S32)->S32}$S32(*{SYM#tag-tc_event_loop_s#}$SYM#tag-tc_event_loop_s#$|*{SYM#tag-tc_event_s#}$SYM#tag-tc_event_s#$|S32)->S32$'del'||*{S32(*{SYM#tag-tc_event_loop_s#}$SYM#tag-tc_event_loop_s#$|S64)->S32}$S32(*{SYM#tag-tc_event_loop_s#}$SYM#tag-tc_event_loop_s#$|S64)->S32$'poll'|]
+// tag-#anon#ST[*{S32(*{SYM#tag-tc_event_loop_s#}_SYM#tag-tc_event_loop_s#_)->S32}_S32(*{SYM#tag-tc_event_loop_s#}_SYM#tag-tc_event_loop_s#_)->S32_'create'||*{S32(*{SYM#tag-tc_event_loop_s#}_SYM#tag-tc_event_loop_s#_)->S32}_S32(*{SYM#tag-tc_event_loop_s#}_SYM#tag-tc_event_loop_s#_)->S32_'destroy'||*{S32(*{SYM#tag-tc_event_loop_s#}_SYM#tag-tc_event_loop_s#_|*{SYM#tag-tc_event_s#}_SYM#tag-tc_event_s#_|S32)->S32}_S32(*{SYM#tag-tc_event_loop_s#}_SYM#tag-tc_event_loop_s#_|*{SYM#tag-tc_event_s#}_SYM#tag-tc_event_s#_|S32)->S32_'add'||*{S32(*{SYM#tag-tc_event_loop_s#}_SYM#tag-tc_event_loop_s#_|*{SYM#tag-tc_event_s#}_SYM#tag-tc_event_s#_|S32)->S32}_S32(*{SYM#tag-tc_event_loop_s#}_SYM#tag-tc_event_loop_s#_|*{SYM#tag-tc_event_s#}_SYM#tag-tc_event_s#_|S32)->S32_'del'||*{S32(*{SYM#tag-tc_event_loop_s#}_SYM#tag-tc_event_loop_s#_|S64)->S32}_S32(*{SYM#tag-tc_event_loop_s#}_SYM#tag-tc_event_loop_s#_|S64)->S32_'poll'|]
 // file ../event/tc_event.h line 36
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[*{S8}$S8$'level'||S32'len'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'level'||S32'len'||U32'_pad0'|]
 // file tc_log.c line 6
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
 struct anonymous;
 
-// tag-#anon#ST[S32'num'||U32'$pad0'||*{*{SYM#tag-#anon#ST[U32'online_ip'||U32'target_ip'||U16'online_port'||U16'target_port'|]#}$SYM#tag-#anon#ST[U32'online_ip'||U32'target_ip'||U16'online_port'||U16'target_port'|]#$}$*{SYM#tag-#anon#ST[U32'online_ip'||U32'target_ip'||U16'online_port'||U16'target_port'|]#}$SYM#tag-#anon#ST[U32'online_ip'||U32'target_ip'||U16'online_port'||U16'target_port'|]#$$'mappings'|]
+// tag-#anon#ST[S32'num'||U32'_pad0'||*{*{SYM#tag-#anon#ST[U32'online_ip'||U32'target_ip'||U16'online_port'||U16'target_port'|]#}_SYM#tag-#anon#ST[U32'online_ip'||U32'target_ip'||U16'online_port'||U16'target_port'|]#_}_*{SYM#tag-#anon#ST[U32'online_ip'||U32'target_ip'||U16'online_port'||U16'target_port'|]#}_SYM#tag-#anon#ST[U32'online_ip'||U32'target_ip'||U16'online_port'||U16'target_port'|]#__'mappings'|]
 // file ../tcpcopy/tcpcopy.h line 16
-struct anonymous$1;
+struct anonymous_1;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$17;
+struct anonymous_17;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$13;
+struct anonymous_13;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[U16'source'||U16'dest'||U32'seq'||U32'ack_seq'||BF{U16}$U16$'res1'||BF{U16}$U16$'doff'||BF{U16}$U16$'fin'||BF{U16}$U16$'syn'||BF{U16}$U16$'rst'||BF{U16}$U16$'psh'||BF{U16}$U16$'ack'||BF{U16}$U16$'urg'||BF{U16}$U16$'res2'||U16'window'||U16'check'||U16'urg_ptr'|]
+// tag-#anon#ST[U16'source'||U16'dest'||U32'seq'||U32'ack_seq'||BF{U16}_U16_'res1'||BF{U16}_U16_'doff'||BF{U16}_U16_'fin'||BF{U16}_U16_'syn'||BF{U16}_U16_'rst'||BF{U16}_U16_'psh'||BF{U16}_U16_'ack'||BF{U16}_U16_'urg'||BF{U16}_U16_'res2'||U16'window'||U16'check'||U16'urg_ptr'|]
 // file /usr/include/netinet/tcp.h line 103
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[U16'th_sport'||U16'th_dport'||U32'th_seq'||U32'th_ack'||BF{U8}$U8$'th_x2'||BF{U8}$U8$'th_off'||U8'th_flags'||U16'th_win'||U16'th_sum'||U16'th_urp'|]
+// tag-#anon#ST[U16'th_sport'||U16'th_dport'||U32'th_seq'||U32'th_ack'||BF{U8}_U8_'th_x2'||BF{U8}_U8_'th_off'||U8'th_flags'||U16'th_win'||U16'th_sum'||U16'th_urp'|]
 // file /usr/include/netinet/tcp.h line 78
-struct anonymous$4;
+struct anonymous_4;
 
 // tag-#anon#ST[U32'online_ip'||U32'target_ip'||U16'online_port'||U16'target_port'|]
 // file ../tcpcopy/tcpcopy.h line 7
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$21;
+union anonymous_21;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U16'th_sport'||U16'th_dport'||U32'th_seq'||U32'th_ack'||BF{U8}$U8$'th_x2'||BF{U8}$U8$'th_off'||U8'th_flags'||U16'th_win'||U16'th_sum'||U16'th_urp'|]#'$anon0'||SYM#tag-#anon#ST[U16'source'||U16'dest'||U32'seq'||U32'ack_seq'||BF{U16}$U16$'res1'||BF{U16}$U16$'doff'||BF{U16}$U16$'fin'||BF{U16}$U16$'syn'||BF{U16}$U16$'rst'||BF{U16}$U16$'psh'||BF{U16}$U16$'ack'||BF{U16}$U16$'urg'||BF{U16}$U16$'res2'||U16'window'||U16'check'||U16'urg_ptr'|]#'$anon1'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U16'th_sport'||U16'th_dport'||U32'th_seq'||U32'th_ack'||BF{U8}_U8_'th_x2'||BF{U8}_U8_'th_off'||U8'th_flags'||U16'th_win'||U16'th_sum'||U16'th_urp'|]#'_anon0'||SYM#tag-#anon#ST[U16'source'||U16'dest'||U32'seq'||U32'ack_seq'||BF{U16}_U16_'res1'||BF{U16}_U16_'doff'||BF{U16}_U16_'fin'||BF{U16}_U16_'syn'||BF{U16}_U16_'rst'||BF{U16}_U16_'psh'||BF{U16}_U16_'ack'||BF{U16}_U16_'urg'||BF{U16}_U16_'res2'||U16'window'||U16'check'||U16'urg_ptr'|]#'_anon1'|]
 // file /usr/include/netinet/tcp.h line 76
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$8;
+union anonymous_8;
 
 // tag-#anon#UN[SYM#tag-ipq_verdict_msg#'verdict'||SYM#tag-ipq_mode_msg#'mode'|]
 // file /usr/include/linux/netfilter_ipv4/ip_queue.h line 51
-union anonymous$22;
+union anonymous_22;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -264,7 +264,7 @@ extern void * calloc(unsigned long int, unsigned long int);
 extern signed int chdir(const char *);
 // check_pack_src
 // file tc_util.c line 77
-signed int check_pack_src(struct anonymous$1 *transfer, unsigned int ip, unsigned short int port, signed int src_flag);
+signed int check_pack_src(struct anonymous_1 *transfer, unsigned int ip, unsigned short int port, signed int src_flag);
 // close
 // file /usr/include/unistd.h line 353
 extern signed int close(signed int);
@@ -348,7 +348,7 @@ static struct iphdr * get_resp_ip_hdr_from_pool(char *resp, signed int *len);
 static unsigned int get_slot(unsigned long int key, unsigned int size);
 // get_test_pair
 // file tc_util.c line 58
-struct anonymous$3 * get_test_pair(struct anonymous$1 *transfer, unsigned int ip, unsigned short int port);
+struct anonymous_3 * get_test_pair(struct anonymous_1 *transfer, unsigned int ip, unsigned short int port);
 // getopt
 // file /usr/include/getopt.h line 150
 extern signed int getopt(signed int, char * const *, const char *);
@@ -489,25 +489,25 @@ extern void perror(const char *);
 extern signed int printf(const char *, ...);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$5 *, const union anonymous$11 *);
+extern signed int pthread_cond_init(union anonymous_5 *, const union anonymous_11 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$5 *);
+extern signed int pthread_cond_signal(union anonymous_5 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$5 *, union anonymous$8 *);
+extern signed int pthread_cond_wait(union anonymous_5 *, union anonymous_8 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$8 *, const union anonymous$11 *);
+extern signed int pthread_mutex_init(union anonymous_8 *, const union anonymous_11 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$8 *);
+extern signed int pthread_mutex_lock(union anonymous_8 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$8 *);
+extern signed int pthread_mutex_unlock(union anonymous_8 *);
 // put_nl_verdict_to_pool
 // file tc_interception.c line 267
 static void put_nl_verdict_to_pool(signed int fd, signed int verdict, unsigned long int packet_id);
@@ -549,7 +549,7 @@ void router_init(unsigned long int size, signed int timeout);
 void router_update(struct iphdr *ip_header, signed int len);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$10 *, struct anonymous$10 *, struct anonymous$10 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_10 *, struct anonymous_10 *, struct anonymous_10 *, struct timeval *);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
@@ -579,7 +579,7 @@ static void settings_init(void);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$9 *);
+extern signed int sigemptyset(struct anonymous_9 *);
 // sigignore
 // file main.c line 36
 static signed int sigignore(signed int sig);
@@ -616,12 +616,12 @@ signed int tc_event_add(struct tc_event_loop_s *loop, struct tc_event_s *ev, sig
 // tc_event_create
 // file ../event/tc_event.h line 77
 struct tc_event_s * tc_event_create(signed int fd, signed int (*reader)(struct tc_event_s *), signed int (*writer)(struct tc_event_s *));
-// tc_event_create::reader$object
+// tc_event_create::reader_object
 //
-signed int reader$object(struct tc_event_s *);
-// tc_event_create::writer$object
+signed int reader_object(struct tc_event_s *);
+// tc_event_create::writer_object
 //
-signed int writer$object(struct tc_event_s *);
+signed int writer_object(struct tc_event_s *);
 // tc_event_del
 // file ../event/tc_event.h line 75
 signed int tc_event_del(struct tc_event_loop_s *loop, struct tc_event_s *ev, signed int events);
@@ -640,9 +640,9 @@ signed int tc_event_process_cycle(struct tc_event_loop_s *loop);
 // tc_event_timer_add
 // file tc_event.c line 203
 signed int tc_event_timer_add(struct tc_event_loop_s *loop, signed long int msec, void (*handler)(struct tc_event_timer_s *));
-// tc_event_timer_add::handler$object
+// tc_event_timer_add::handler_object
 //
-void handler$object(struct tc_event_timer_s *);
+void handler_object(struct tc_event_timer_s *);
 // tc_event_timer_find
 // file tc_event.c line 223
 static signed long int tc_event_timer_find(struct tc_event_loop_s *loop);
@@ -755,7 +755,7 @@ extern signed int vsprintf(char *, const char *, void **);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$7
+struct anonymous_7
 {
   // create
   signed int (*create)(struct tc_event_loop_s *);
@@ -769,7 +769,7 @@ struct anonymous$7
   signed int (*poll)(struct tc_event_loop_s *, signed long int);
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // level
   char *level;
@@ -777,7 +777,7 @@ struct anonymous$0
   signed int len;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // _call_addr
   void *_call_addr;
@@ -787,7 +787,7 @@ struct anonymous$20
   unsigned int _arch;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // si_addr
   void *si_addr;
@@ -795,13 +795,13 @@ struct anonymous$18
   signed short int si_addr_lsb;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // __val
   unsigned long int __val[16l];
@@ -827,15 +827,15 @@ struct anonymous
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // num
   signed int num;
   // mappings
-  struct anonymous$3 **mappings;
+  struct anonymous_3 **mappings;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // si_pid
   signed int si_pid;
@@ -843,7 +843,7 @@ struct anonymous$14
   unsigned int si_uid;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // si_pid
   signed int si_pid;
@@ -865,7 +865,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // si_pid
   signed int si_pid;
@@ -875,7 +875,7 @@ struct anonymous$16
   union sigval si_sigval;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // si_tid
   signed int si_tid;
@@ -885,7 +885,7 @@ struct anonymous$15
   union sigval si_sigval;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // si_band
   signed long int si_band;
@@ -893,27 +893,27 @@ struct anonymous$19
   signed int si_fd;
 };
 
-union anonymous$21
+union anonymous_21
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$14 _kill;
+  struct anonymous_14 _kill;
   // _timer
-  struct anonymous$15 _timer;
+  struct anonymous_15 _timer;
   // _rt
-  struct anonymous$16 _rt;
+  struct anonymous_16 _rt;
   // _sigchld
-  struct anonymous$17 _sigchld;
+  struct anonymous_17 _sigchld;
   // _sigfault
-  struct anonymous$18 _sigfault;
+  struct anonymous_18 _sigfault;
   // _sigpoll
-  struct anonymous$19 _sigpoll;
+  struct anonymous_19 _sigpoll;
   // _sigsys
-  struct anonymous$20 _sigsys;
+  struct anonymous_20 _sigsys;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // si_signo
   signed int si_signo;
@@ -922,10 +922,10 @@ struct anonymous$13
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$21 _sifields;
+  union anonymous_21 _sifields;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // source
   unsigned short int source;
@@ -961,7 +961,7 @@ struct anonymous$6
   unsigned short int urg_ptr;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // th_sport
   unsigned short int th_sport;
@@ -985,7 +985,7 @@ struct anonymous$4
   unsigned short int th_urp;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // online_ip
   unsigned int online_ip;
@@ -997,15 +997,15 @@ struct anonymous$3
   unsigned short int target_port;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$13 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_13 *, void *);
 };
 
-union anonymous$11
+union anonymous_11
 {
   // __size
   char __size[4l];
@@ -1013,7 +1013,7 @@ union anonymous$11
   signed int __align;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __data
   struct anonymous __data;
@@ -1023,12 +1023,12 @@ union anonymous$5
   signed long long int __align;
 };
 
-union anonymous$2
+union anonymous_2
 {
-  // $anon0
-  struct anonymous$4 $anon0;
-  // $anon1
-  struct anonymous$6 $anon1;
+  // _anon0
+  struct anonymous_4 _anon0;
+  // _anon1
+  struct anonymous_6 _anon1;
 };
 
 struct __pthread_internal_list
@@ -1059,7 +1059,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1089,7 +1089,7 @@ struct ipq_mode_msg
   unsigned long int range;
 };
 
-union anonymous$22
+union anonymous_22
 {
   // verdict
   struct ipq_verdict_msg verdict;
@@ -1264,7 +1264,7 @@ struct ipq_packet_msg
 struct ipq_peer_msg
 {
   // msg
-  union anonymous$22 msg;
+  union anonymous_22 msg;
 };
 
 struct timeval
@@ -1315,8 +1315,8 @@ struct msg_client_s
 
 struct tcphdr
 {
-  // $anon0
-  union anonymous$2 $anon0;
+  // _anon0
+  union anonymous_2 _anon0;
 };
 
 struct msg_server_s
@@ -1360,9 +1360,9 @@ union pthread_attr_t
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$12 __sigaction_handler;
+  union anonymous_12 __sigaction_handler;
   // sa_mask
-  struct anonymous$9 sa_mask;
+  struct anonymous_9 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -1412,7 +1412,7 @@ struct tc_event_loop_s
   // active_events
   struct tc_event_s *active_events;
   // actions
-  struct anonymous$7 *actions;
+  struct anonymous_7 *actions;
   // timers
   struct tc_event_timer_s *timers;
 };
@@ -1454,9 +1454,9 @@ struct tc_select_multiplex_io_s
   // last
   signed int last;
   // r_set
-  struct anonymous$10 r_set;
+  struct anonymous_10 r_set;
   // w_set
-  struct anonymous$10 w_set;
+  struct anonymous_10 w_set;
   // evs
   struct tc_event_s **evs;
 };
@@ -1539,13 +1539,13 @@ static unsigned char buffer[128l];
 static char cache_err_log_time[24l];
 // empty
 // file tc_interception.c line 20
-static union anonymous$5 empty;
+static union anonymous_5 empty;
 // fd_null_cnt
 // file tc_router.c line 8
 static unsigned long int fd_null_cnt = (unsigned long int)0;
 // full
 // file tc_interception.c line 21
-static union anonymous$5 full;
+static union anonymous_5 full;
 // last_clean_time
 // file tc_interception.c line 8
 static signed long int last_clean_time;
@@ -1572,19 +1572,19 @@ static unsigned long int msg_ls_destr_cnt;
 static unsigned long int msg_ls_free_cnt;
 // mutex
 // file tc_router.c line 11
-static union anonymous$8 mutex;
-// mutex$link1
+static union anonymous_8 mutex;
+// mutex_link1
 // file tc_interception.c line 19
-static union anonymous$8 mutex$link1;
+static union anonymous_8 mutex_link1;
 // nl_empty
 // file tc_interception.c line 36
-static union anonymous$5 nl_empty;
+static union anonymous_5 nl_empty;
 // nl_full
 // file tc_interception.c line 37
-static union anonymous$5 nl_full;
+static union anonymous_5 nl_full;
 // nl_mutex
 // file tc_interception.c line 35
-static union anonymous$8 nl_mutex;
+static union anonymous_8 nl_mutex;
 // nl_pool
 // file tc_interception.c line 32
 static struct tc_verdict_s nl_pool[65536l];
@@ -1624,9 +1624,9 @@ extern struct _IO_FILE *stderr;
 // table
 // file tc_router.c line 7
 static struct hash_table_s *table;
-// table$link1
+// table_link1
 // file tc_delay.c line 8
-static struct hash_table_s *table$link1;
+static struct hash_table_s *table_link1;
 // tc_current_time_msec
 // file tc_time.c line 7
 volatile signed long int tc_current_time_msec;
@@ -1641,14 +1641,14 @@ struct tm tc_current_tm;
 volatile char *tc_error_log_time;
 // tc_event_actions
 // file tc_event.c line 7
-static struct anonymous$7 tc_event_actions;
+static struct anonymous_7 tc_event_actions;
 // tc_event_actions
 // file tc_event.c line 7
-static struct anonymous$7 tc_event_actions = { .create=tc_select_create, .destroy=tc_select_destroy, .add=tc_select_add_event,
+static struct anonymous_7 tc_event_actions = { .create=tc_select_create, .destroy=tc_select_destroy, .add=tc_select_add_event,
     .del=tc_select_del_event, .poll=tc_select_polling };
 // tc_log_levels
 // file tc_log.c line 11
-static struct anonymous$0 tc_log_levels[9l] = { { .level="[unknown]", .len=9 }, { .level="[emerg]", .len=7 }, { .level="[alert]", .len=7 }, { .level="[crit]", .len=6 }, { .level="[error]", .len=7 }, { .level="[warn]", .len=6 }, { .level="[notice]", .len=8 }, { .level="[info]", .len=6 }, { .level="[debug]", .len=7 } };
+static struct anonymous_0 tc_log_levels[9l] = { { .level="[unknown]", .len=9 }, { .level="[emerg]", .len=7 }, { .level="[alert]", .len=7 }, { .level="[crit]", .len=6 }, { .level="[error]", .len=7 }, { .level="[warn]", .len=6 }, { .level="[notice]", .len=8 }, { .level="[info]", .len=6 }, { .level="[debug]", .len=7 } };
 // tc_update_time
 // file tc_time.c line 4
 volatile signed int tc_update_time;
@@ -1661,27 +1661,27 @@ static unsigned long int write_counter = (unsigned long int)0;
 
 // check_pack_src
 // file tc_util.c line 77
-signed int check_pack_src(struct anonymous$1 *transfer, unsigned int ip, unsigned short int port, signed int src_flag)
+signed int check_pack_src(struct anonymous_1 *transfer, unsigned int ip, unsigned short int port, signed int src_flag)
 {
   signed int i;
   signed int ret;
-  struct anonymous$3 *pair;
-  struct anonymous$3 **mappings;
+  struct anonymous_3 *pair;
+  struct anonymous_3 **mappings;
   ret = 0;
   mappings = transfer->mappings;
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(i >= transfer->num); i = i + 1)
   {
     pair = mappings[(signed long int)i];
     if(src_flag == 1)
     {
       if(ip == pair->online_ip)
-        tmp_if_expr$1 = port == pair->online_port ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = port == pair->online_port ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
       {
         ret = 2;
         break;
@@ -1726,9 +1726,9 @@ unsigned char * copy_ip_packet(struct iphdr *ip_header)
   unsigned short int tot_len;
   tot_len=ntohs(ip_header->tot_len);
   unsigned char *data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)tot_len);
-  data = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)tot_len);
+  data = (unsigned char *)return_value_malloc_1;
   if(!(data == ((unsigned char *)NULL)))
     memcpy((void *)data, (const void *)ip_header, (unsigned long int)tot_len);
 
@@ -1740,14 +1740,14 @@ unsigned char * copy_ip_packet(struct iphdr *ip_header)
 static struct msg_server_s * copy_message(struct msg_server_s *msg)
 {
   struct msg_server_s *cmsg;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct msg_server_s) /*40ul*/ );
-  cmsg = (struct msg_server_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct msg_server_s) /*40ul*/ );
+  cmsg = (struct msg_server_s *)return_value_malloc_1;
   if(cmsg == ((struct msg_server_s *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    tc_log_info(4, *return_value___errno_location$2, "malloc error");
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    tc_log_info(4, *return_value___errno_location_2, "malloc error");
     return (struct msg_server_s *)(void *)0;
   }
 
@@ -1760,12 +1760,12 @@ static struct msg_server_s * copy_message(struct msg_server_s *msg)
 unsigned short int csum(unsigned short int *packet, signed int pack_len)
 {
   unsigned long int sum = (unsigned long int)0;
-  unsigned short int *tmp_post$1;
+  unsigned short int *tmp_post_1;
   for( ; pack_len >= 2; pack_len = pack_len - 2)
   {
-    tmp_post$1 = packet;
+    tmp_post_1 = packet;
     packet = packet + 1l;
-    sum = sum + (unsigned long int)*tmp_post$1;
+    sum = sum + (unsigned long int)*tmp_post_1;
   }
   if(pack_len >= 1)
     sum = sum + (unsigned long int)*((unsigned char *)packet);
@@ -1780,11 +1780,11 @@ unsigned short int csum(unsigned short int *packet, signed int pack_len)
 signed int daemonize()
 {
   signed int fd;
-  signed int return_value_fork$1;
-  return_value_fork$1=fork();
-  if(!(return_value_fork$1 == -1))
+  signed int return_value_fork_1;
+  return_value_fork_1=fork();
+  if(!(return_value_fork_1 == -1))
   {
-    if(return_value_fork$1 == 0)
+    if(return_value_fork_1 == 0)
       goto __CPROVER_DUMP_L2;
 
   }
@@ -1801,16 +1801,16 @@ signed int daemonize()
 
 __CPROVER_DUMP_L4:
   ;
-  signed int return_value_setsid$2;
-  return_value_setsid$2=setsid();
-  if(return_value_setsid$2 == -1)
+  signed int return_value_setsid_2;
+  return_value_setsid_2=setsid();
+  if(return_value_setsid_2 == -1)
     return -1;
 
   else
   {
-    signed int return_value_chdir$3;
-    return_value_chdir$3=chdir("/");
-    if(!(return_value_chdir$3 == 0))
+    signed int return_value_chdir_3;
+    return_value_chdir_3=chdir("/");
+    if(!(return_value_chdir_3 == 0))
     {
       perror("chdir");
       return -1;
@@ -1821,25 +1821,25 @@ __CPROVER_DUMP_L4:
       fd=open("/dev/null", 02, 0);
       if(!(fd == -1))
       {
-        signed int return_value_dup2$4;
-        return_value_dup2$4=dup2(fd, 0);
-        if(!(return_value_dup2$4 >= 0))
+        signed int return_value_dup2_4;
+        return_value_dup2_4=dup2(fd, 0);
+        if(!(return_value_dup2_4 >= 0))
         {
           perror("dup2 stdin");
           return -1;
         }
 
-        signed int return_value_dup2$5;
-        return_value_dup2$5=dup2(fd, 1);
-        if(!(return_value_dup2$5 >= 0))
+        signed int return_value_dup2_5;
+        return_value_dup2_5=dup2(fd, 1);
+        if(!(return_value_dup2_5 >= 0))
         {
           perror("dup2 stdout");
           return -1;
         }
 
-        signed int return_value_dup2$6;
-        return_value_dup2$6=dup2(fd, 2);
-        if(!(return_value_dup2$6 >= 0))
+        signed int return_value_dup2_6;
+        return_value_dup2_6=dup2(fd, 2);
+        if(!(return_value_dup2_6 >= 0))
         {
           perror("dup2 stderr");
           return -1;
@@ -1847,9 +1847,9 @@ __CPROVER_DUMP_L4:
 
         if(fd >= 3)
         {
-          signed int return_value_close$7;
-          return_value_close$7=close(fd);
-          if(!(return_value_close$7 >= 0))
+          signed int return_value_close_7;
+          return_value_close_7=close(fd);
+          if(!(return_value_close_7 >= 0))
           {
             perror("close");
             return -1;
@@ -1871,14 +1871,14 @@ void delay_table_add(unsigned long int key, struct msg_server_s *msg)
   struct link_list_s *msg_list;
   struct link_node_s *ln;
   struct msg_server_s *cmsg;
-  void *return_value_hash_find$1;
-  return_value_hash_find$1=hash_find(table$link1, key);
-  msg_list = (struct link_list_s *)return_value_hash_find$1;
+  void *return_value_hash_find_1;
+  return_value_hash_find_1=hash_find(table_link1, key);
+  msg_list = (struct link_list_s *)return_value_hash_find_1;
   if(msg_list == ((struct link_list_s *)NULL))
   {
     msg_ls_cnt = msg_ls_cnt + 1ul;
     msg_list=link_list_create();
-    hash_add(table$link1, key, (void *)msg_list);
+    hash_add(table_link1, key, (void *)msg_list);
   }
 
   cmsg=copy_message(msg);
@@ -1901,16 +1901,16 @@ void delay_table_del(unsigned long int key)
 {
   struct link_list_s *msg_list;
   struct link_node_s *first;
-  void *return_value_hash_find$1;
-  return_value_hash_find$1=hash_find(table$link1, key);
-  msg_list = (struct link_list_s *)return_value_hash_find$1;
-  _Bool return_value_link_list_is_empty$2;
+  void *return_value_hash_find_1;
+  return_value_hash_find_1=hash_find(table_link1, key);
+  msg_list = (struct link_list_s *)return_value_hash_find_1;
+  _Bool return_value_link_list_is_empty_2;
   if(!(msg_list == ((struct link_list_s *)NULL)))
   {
     do
     {
-      return_value_link_list_is_empty$2=link_list_is_empty(msg_list);
-      if(return_value_link_list_is_empty$2 != (_Bool)0)
+      return_value_link_list_is_empty_2=link_list_is_empty(msg_list);
+      if(return_value_link_list_is_empty_2 != (_Bool)0)
         break;
 
       first=link_list_pop_first(msg_list);
@@ -1919,7 +1919,7 @@ void delay_table_del(unsigned long int key)
       free((void *)first);
     }
     while((_Bool)1);
-    hash_del(table$link1, key);
+    hash_del(table_link1, key);
     free((void *)msg_list);
     msg_ls_free_cnt = msg_ls_free_cnt + 1ul;
   }
@@ -1938,11 +1938,11 @@ void delay_table_delete_obsolete(signed long int cur_time)
   struct link_list_s *l;
   struct link_node_s *ln;
   struct link_node_s *tail;
-  tc_log_info(6, 0, "delay total:%u", table$link1->total);
+  tc_log_info(6, 0, "delay total:%u", table_link1->total);
   i = 0;
-  for( ; !((unsigned int)i >= table$link1->size); i = i + 1)
+  for( ; !((unsigned int)i >= table_link1->size); i = i + 1)
   {
-    l = table$link1->lists[(signed long int)i];
+    l = table_link1->lists[(signed long int)i];
     while((_Bool)1)
     {
       ln=link_list_tail(l);
@@ -1950,10 +1950,10 @@ void delay_table_delete_obsolete(signed long int cur_time)
         break;
 
       hn1 = (struct hash_node_s *)ln->data;
-      if(!(hn1->access_time + (signed long int)table$link1->timeout >= cur_time))
+      if(!(hn1->access_time + (signed long int)table_link1->timeout >= cur_time))
       {
         count = count + 1;
-        table$link1->total = table$link1->total - 1u;
+        table_link1->total = table_link1->total - 1u;
         tail=link_list_pop_tail(l);
         hn2 = (struct hash_node_s *)tail->data;
         if(!(hn2 == ((struct hash_node_s *)NULL)))
@@ -1961,9 +1961,9 @@ void delay_table_delete_obsolete(signed long int cur_time)
           if(!(hn2->data == NULL))
           {
             msg_list = (struct link_list_s *)hn2->data;
-            signed int return_value_link_list_clear$1;
-            return_value_link_list_clear$1=link_list_clear(msg_list);
-            msg_item_destr_cnt = msg_item_destr_cnt + (unsigned long int)return_value_link_list_clear$1;
+            signed int return_value_link_list_clear_1;
+            return_value_link_list_clear_1=link_list_clear(msg_list);
+            msg_item_destr_cnt = msg_item_destr_cnt + (unsigned long int)return_value_link_list_clear_1;
             free((void *)msg_list);
             hn2->data = (void *)0;
             msg_ls_destr_cnt = msg_ls_destr_cnt + 1ul;
@@ -1992,13 +1992,13 @@ void delay_table_destroy()
   struct link_list_s *list;
   struct hash_node_s *hn;
   struct link_node_s *ln;
-  if(!(table$link1 == ((struct hash_table_s *)NULL)))
+  if(!(table_link1 == ((struct hash_table_s *)NULL)))
   {
-    tc_log_info(6, 0, "destroy delay table,total:%u", table$link1->total);
+    tc_log_info(6, 0, "destroy delay table,total:%u", table_link1->total);
     i = (unsigned int)0;
-    for( ; !(i >= table$link1->size); i = i + 1u)
+    for( ; !(i >= table_link1->size); i = i + 1u)
     {
-      list = table$link1->lists[(signed long int)i];
+      list = table_link1->lists[(signed long int)i];
       ln=link_list_first(list);
       while(!(ln == ((struct link_node_s *)NULL)))
       {
@@ -2006,9 +2006,9 @@ void delay_table_destroy()
         if(!(hn->data == NULL))
         {
           msg_list = (struct link_list_s *)hn->data;
-          signed int return_value_link_list_clear$1;
-          return_value_link_list_clear$1=link_list_clear(msg_list);
-          msg_item_destr_cnt = msg_item_destr_cnt + (unsigned long int)return_value_link_list_clear$1;
+          signed int return_value_link_list_clear_1;
+          return_value_link_list_clear_1=link_list_clear(msg_list);
+          msg_item_destr_cnt = msg_item_destr_cnt + (unsigned long int)return_value_link_list_clear_1;
           free((void *)msg_list);
           msg_ls_destr_cnt = msg_ls_destr_cnt + 1ul;
         }
@@ -2019,9 +2019,9 @@ void delay_table_destroy()
     }
     tc_log_info(6, 0, "destroy items:%llu,free:%llu,total:%llu", msg_item_destr_cnt, msg_item_free_cnt, msg_item_cnt);
     tc_log_info(6, 0, "create msg list:%llu,free:%llu,destr:%llu", msg_ls_cnt, msg_ls_free_cnt, msg_ls_destr_cnt);
-    hash_destroy(table$link1);
-    free((void *)table$link1);
-    table$link1 = (struct hash_table_s *)(void *)0;
+    hash_destroy(table_link1);
+    free((void *)table_link1);
+    table_link1 = (struct hash_table_s *)(void *)0;
   }
 
 }
@@ -2030,10 +2030,10 @@ void delay_table_destroy()
 // file ./tc_delay.h line 7
 void delay_table_init(unsigned long int size)
 {
-  table$link1=hash_create(size);
-  hash_set_timeout(table$link1, 30);
-  strcpy(table$link1->name, "delay-table");
-  tc_log_info(6, 0, "create %s,size:%u", (const void *)table$link1->name, table$link1->size);
+  table_link1=hash_create(size);
+  hash_set_timeout(table_link1, 30);
+  strcpy(table_link1->name, "delay-table");
+  tc_log_info(6, 0, "create %s,size:%u", (const void *)table_link1->name, table_link1->size);
   msg_item_cnt = (unsigned long int)0;
   msg_item_free_cnt = (unsigned long int)0;
   msg_item_destr_cnt = (unsigned long int)0;
@@ -2048,15 +2048,15 @@ void delay_table_send(unsigned long int key, signed int fd)
   struct link_list_s *msg_list;
   struct link_node_s *first;
   struct msg_server_s *msg;
-  void *return_value_hash_find$1;
-  return_value_hash_find$1=hash_find(table$link1, key);
-  msg_list = (struct link_list_s *)return_value_hash_find$1;
-  _Bool return_value_link_list_is_empty$2;
+  void *return_value_hash_find_1;
+  return_value_hash_find_1=hash_find(table_link1, key);
+  msg_list = (struct link_list_s *)return_value_hash_find_1;
+  _Bool return_value_link_list_is_empty_2;
   if(!(msg_list == ((struct link_list_s *)NULL)))
     do
     {
-      return_value_link_list_is_empty$2=link_list_is_empty(msg_list);
-      if(return_value_link_list_is_empty$2 != (_Bool)0)
+      return_value_link_list_is_empty_2=link_list_is_empty(msg_list);
+      if(return_value_link_list_is_empty_2 != (_Bool)0)
         break;
 
       first=link_list_pop_first(msg_list);
@@ -2081,9 +2081,9 @@ static signed int dispose_netlink_packet(signed int fd, signed int verdict, unsi
   nl_header->nlmsg_len = (unsigned int)(sizeof(struct ipq_verdict_msg) /*24ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)));
   nl_header->nlmsg_flags = (unsigned short int)1;
   nl_header->nlmsg_pid = (unsigned int)pid;
-  unsigned int tmp_post$1 = seq;
+  unsigned int tmp_post_1 = seq;
   seq = seq + 1u;
-  nl_header->nlmsg_seq = tmp_post$1;
+  nl_header->nlmsg_seq = tmp_post_1;
   ver_data = (struct ipq_verdict_msg *)(void *)((char *)nl_header + (signed long int)(0 + (signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1))));
   ver_data->value = (unsigned int)verdict;
   ver_data->id = packet_id;
@@ -2091,13 +2091,13 @@ static signed int dispose_netlink_packet(signed int fd, signed int verdict, unsi
   addr.nl_family = (unsigned short int)16;
   addr.nl_pid = (unsigned int)0;
   addr.nl_groups = (unsigned int)0;
-  signed long int return_value_sendto$3;
-  return_value_sendto$3=sendto(fd, (void *)nl_header, (unsigned long int)nl_header->nlmsg_len, 0, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_nl) /*12ul*/ );
-  if(!(return_value_sendto$3 >= 0l))
+  signed long int return_value_sendto_3;
+  return_value_sendto_3=sendto(fd, (void *)nl_header, (unsigned long int)nl_header->nlmsg_len, 0, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_nl) /*12ul*/ );
+  if(!(return_value_sendto_3 >= 0l))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    tc_log_info(4, *return_value___errno_location$2, "unable to send mode message");
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    tc_log_info(4, *return_value___errno_location_2, "unable to send mode message");
     return 0;
   }
 
@@ -2166,15 +2166,15 @@ unsigned short int get_port_by_rand_addition(unsigned short int orig_port)
     seed = (unsigned int)tp.tv_usec;
   }
 
-  signed int return_value_rand_r$1;
-  return_value_rand_r$1=rand_r(&seed);
-  port_add = (unsigned short int)((double)4096 * ((double)return_value_rand_r$1 / ((double)2147483647 + 1.0)));
+  signed int return_value_rand_r_1;
+  return_value_rand_r_1=rand_r(&seed);
+  port_add = (unsigned short int)((double)4096 * ((double)return_value_rand_r_1 / ((double)2147483647 + 1.0)));
   port_add = (unsigned short int)((signed int)port_add + 32768);
-  unsigned short int return_value_ntohs$2;
-  return_value_ntohs$2=ntohs(orig_port);
-  unsigned short int return_value_get_appropriate_port$3;
-  return_value_get_appropriate_port$3=get_appropriate_port(return_value_ntohs$2, port_add);
-  return return_value_get_appropriate_port$3;
+  unsigned short int return_value_ntohs_2;
+  return_value_ntohs_2=ntohs(orig_port);
+  unsigned short int return_value_get_appropriate_port_3;
+  return_value_get_appropriate_port_3=get_appropriate_port(return_value_ntohs_2, port_add);
+  return return_value_get_appropriate_port_3;
 }
 
 // get_port_from_shift
@@ -2182,11 +2182,11 @@ unsigned short int get_port_by_rand_addition(unsigned short int orig_port)
 unsigned short int get_port_from_shift(unsigned short int orig_port, unsigned short int rand_port, signed int shift_factor)
 {
   unsigned short int port_add = (unsigned short int)((shift_factor << 11) + (signed int)rand_port);
-  unsigned short int return_value_ntohs$1;
-  return_value_ntohs$1=ntohs(orig_port);
-  unsigned short int return_value_get_appropriate_port$2;
-  return_value_get_appropriate_port$2=get_appropriate_port(return_value_ntohs$1, port_add);
-  return return_value_get_appropriate_port$2;
+  unsigned short int return_value_ntohs_1;
+  return_value_ntohs_1=ntohs(orig_port);
+  unsigned short int return_value_get_appropriate_port_2;
+  return_value_get_appropriate_port_2=get_appropriate_port(return_value_ntohs_1, port_add);
+  return return_value_get_appropriate_port_2;
 }
 
 // get_resp_ip_hdr_from_pool
@@ -2195,9 +2195,9 @@ static struct iphdr * get_resp_ip_hdr_from_pool(char *resp, signed int *len)
 {
   signed int read_pos;
   char *pos;
-  pthread_mutex_lock(&mutex$link1);
+  pthread_mutex_lock(&mutex_link1);
   if(read_counter >= write_counter)
-    pthread_cond_wait(&full, &mutex$link1);
+    pthread_cond_wait(&full, &mutex_link1);
 
   read_pos = (signed int)(read_counter & (unsigned long int)((1 << 24) - 1));
   pos = pool + (signed long int)read_pos;
@@ -2206,7 +2206,7 @@ static struct iphdr * get_resp_ip_hdr_from_pool(char *resp, signed int *len)
   memcpy((void *)resp, (const void *)pos, (unsigned long int)*len);
   read_counter = read_counter + (unsigned long int)*len + sizeof(signed int) /*4ul*/ ;
   pthread_cond_signal(&empty);
-  pthread_mutex_unlock(&mutex$link1);
+  pthread_mutex_unlock(&mutex_link1);
   return (struct iphdr *)resp;
 }
 
@@ -2220,24 +2220,24 @@ static unsigned int get_slot(unsigned long int key, unsigned int size)
 
 // get_test_pair
 // file tc_util.c line 58
-struct anonymous$3 * get_test_pair(struct anonymous$1 *transfer, unsigned int ip, unsigned short int port)
+struct anonymous_3 * get_test_pair(struct anonymous_1 *transfer, unsigned int ip, unsigned short int port)
 {
   signed int i;
-  struct anonymous$3 *pair;
-  struct anonymous$3 **mappings;
-  pair = (struct anonymous$3 *)(void *)0;
+  struct anonymous_3 *pair;
+  struct anonymous_3 **mappings;
+  pair = (struct anonymous_3 *)(void *)0;
   mappings = transfer->mappings;
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(i >= transfer->num); i = i + 1)
   {
     pair = mappings[(signed long int)i];
     if(ip == pair->online_ip)
-      tmp_if_expr$1 = port == pair->online_port ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = port == pair->online_port ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       return pair;
 
     else
@@ -2249,7 +2249,7 @@ struct anonymous$3 * get_test_pair(struct anonymous$1 *transfer, unsigned int ip
       }
 
   }
-  return (struct anonymous$3 *)(void *)0;
+  return (struct anonymous_3 *)(void *)0;
 }
 
 // hash_add
@@ -2291,26 +2291,26 @@ struct hash_table_s * hash_create(unsigned long int size)
 {
   unsigned long int i;
   struct hash_table_s *ht;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct hash_table_s) /*104ul*/ );
-  ht = (struct hash_table_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct hash_table_s) /*104ul*/ );
+  ht = (struct hash_table_s *)return_value_calloc_1;
   if(ht == ((struct hash_table_s *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    tc_log_info(4, *return_value___errno_location$2, "can't calloc memory for hash table");
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    tc_log_info(4, *return_value___errno_location_2, "can't calloc memory for hash table");
     return (struct hash_table_s *)(void *)0;
   }
 
   ht->size = (unsigned int)size;
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc(size, sizeof(struct link_list_s *) /*8ul*/ );
-  ht->lists = (struct link_list_s **)return_value_calloc$3;
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc(size, sizeof(struct link_list_s *) /*8ul*/ );
+  ht->lists = (struct link_list_s **)return_value_calloc_3;
   if(ht->lists == ((struct link_list_s **)NULL))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    tc_log_info(4, *return_value___errno_location$4, "can't calloc memory for hash lists");
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    tc_log_info(4, *return_value___errno_location_4, "can't calloc memory for hash lists");
     return (struct hash_table_s *)(void *)0;
   }
 
@@ -2386,9 +2386,9 @@ void hash_destroy(struct hash_table_s *table)
     l = table->lists[(signed long int)index];
     if(!(l == ((struct link_list_s *)NULL)))
     {
-      signed int return_value_link_list_clear$1;
-      return_value_link_list_clear$1=link_list_clear(l);
-      count = count + return_value_link_list_clear$1;
+      signed int return_value_link_list_clear_1;
+      return_value_link_list_clear_1=link_list_clear(l);
+      count = count + return_value_link_list_clear_1;
       free((void *)l);
     }
 
@@ -2448,14 +2448,14 @@ static struct link_node_s * hash_find_node(struct hash_table_s *table, unsigned 
 static struct hash_node_s * hash_node_malloc(unsigned long int key, void *data)
 {
   struct hash_node_s *hn;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct hash_node_s) /*32ul*/ );
-  hn = (struct hash_node_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct hash_node_s) /*32ul*/ );
+  hn = (struct hash_node_s *)return_value_malloc_1;
   if(hn == ((struct hash_node_s *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    tc_log_info(4, *return_value___errno_location$2, "can't malloc memory for hash node");
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    tc_log_info(4, *return_value___errno_location_2, "can't malloc memory for hash node");
     return (struct hash_node_s *)(void *)0;
   }
 
@@ -2502,9 +2502,9 @@ signed int interception_init(struct tc_event_loop_s *event_loop, char *ip, unsig
 
   else
   {
-    signed int return_value_tc_socket_listen$1;
-    return_value_tc_socket_listen$1=tc_socket_listen(fd, ip, port);
-    if(return_value_tc_socket_listen$1 == -1)
+    signed int return_value_tc_socket_listen_1;
+    return_value_tc_socket_listen_1=tc_socket_listen(fd, ip, port);
+    if(return_value_tc_socket_listen_1 == -1)
       return -1;
 
     tc_log_info(6, 0, "msg listen socket:%d", fd);
@@ -2512,9 +2512,9 @@ signed int interception_init(struct tc_event_loop_s *event_loop, char *ip, unsig
     if(ev == ((struct tc_event_s *)NULL))
       return -1;
 
-    signed int return_value_tc_event_add$2;
-    return_value_tc_event_add$2=tc_event_add(event_loop, ev, 1);
-    if(return_value_tc_event_add$2 == -1)
+    signed int return_value_tc_event_add_2;
+    return_value_tc_event_add_2=tc_event_add(event_loop, ev, 1);
+    if(return_value_tc_event_add_2 == -1)
       return -1;
 
   }
@@ -2529,19 +2529,19 @@ signed int interception_init(struct tc_event_loop_s *event_loop, char *ip, unsig
     if(ev == ((struct tc_event_s *)NULL))
       return -1;
 
-    signed int return_value_tc_event_add$3;
-    return_value_tc_event_add$3=tc_event_add(event_loop, ev, 1);
-    if(return_value_tc_event_add$3 == -1)
+    signed int return_value_tc_event_add_3;
+    return_value_tc_event_add_3=tc_event_add(event_loop, ev, 1);
+    if(return_value_tc_event_add_3 == -1)
       return -1;
 
   }
-  pthread_mutex_init(&mutex$link1, (const union anonymous$11 *)(void *)0);
-  pthread_cond_init(&full, (const union anonymous$11 *)(void *)0);
-  pthread_cond_init(&empty, (const union anonymous$11 *)(void *)0);
+  pthread_mutex_init(&mutex_link1, (const union anonymous_11 *)(void *)0);
+  pthread_cond_init(&full, (const union anonymous_11 *)(void *)0);
+  pthread_cond_init(&empty, (const union anonymous_11 *)(void *)0);
   pthread_create(&thread, (const union pthread_attr_t *)(void *)0, interception_process_msg, (void *)0);
-  pthread_mutex_init(&nl_mutex, (const union anonymous$11 *)(void *)0);
-  pthread_cond_init(&nl_full, (const union anonymous$11 *)(void *)0);
-  pthread_cond_init(&nl_empty, (const union anonymous$11 *)(void *)0);
+  pthread_mutex_init(&nl_mutex, (const union anonymous_11 *)(void *)0);
+  pthread_cond_init(&nl_full, (const union anonymous_11 *)(void *)0);
+  pthread_cond_init(&nl_empty, (const union anonymous_11 *)(void *)0);
   pthread_create(&thread, (const union pthread_attr_t *)(void *)0, interception_dispose_nl_verdict, (void *)0);
   return 0;
 }
@@ -2634,9 +2634,9 @@ signed int link_list_clear(struct link_list_s *l)
 struct link_list_s * link_list_create()
 {
   struct link_list_s *l;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct link_list_s) /*40ul*/ );
-  l = (struct link_list_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct link_list_s) /*40ul*/ );
+  l = (struct link_list_s *)return_value_calloc_1;
   if(l == ((struct link_list_s *)NULL))
   {
     perror("calloc");
@@ -2696,9 +2696,9 @@ struct link_node_s * link_list_pop_first(struct link_list_s *l)
 
   else
   {
-    struct link_node_s *return_value_link_list_remove$1;
-    return_value_link_list_remove$1=link_list_remove(l, first);
-    return return_value_link_list_remove$1;
+    struct link_node_s *return_value_link_list_remove_1;
+    return_value_link_list_remove_1=link_list_remove(l, first);
+    return return_value_link_list_remove_1;
   }
 }
 
@@ -2713,9 +2713,9 @@ struct link_node_s * link_list_pop_tail(struct link_list_s *l)
 
   else
   {
-    struct link_node_s *return_value_link_list_remove$1;
-    return_value_link_list_remove$1=link_list_remove(l, tail);
-    return return_value_link_list_remove$1;
+    struct link_node_s *return_value_link_list_remove_1;
+    return_value_link_list_remove_1=link_list_remove(l, tail);
+    return return_value_link_list_remove_1;
   }
 }
 
@@ -2773,9 +2773,9 @@ void link_node_internal_free(struct link_node_s *p)
 struct link_node_s * link_node_malloc(void *data)
 {
   struct link_node_s *p;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct link_node_s) /*32ul*/ );
-  p = (struct link_node_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct link_node_s) /*32ul*/ );
+  p = (struct link_node_s *)return_value_calloc_1;
   if(p == ((struct link_node_s *)NULL))
     return (struct link_node_s *)(void *)0;
 
@@ -2793,16 +2793,16 @@ signed int main(signed int argc, char **argv)
   signed int ret;
   settings_init();
   tc_time_init();
-  signed int return_value_read_args$1;
-  return_value_read_args$1=read_args(argc, argv);
-  if(return_value_read_args$1 == -1)
+  signed int return_value_read_args_1;
+  return_value_read_args_1=read_args(argc, argv);
+  if(return_value_read_args_1 == -1)
     return -1;
 
   else
   {
-    signed int return_value_tc_log_init$2;
-    return_value_tc_log_init$2=tc_log_init(srv_settings.log_path);
-    if(return_value_tc_log_init$2 == -1)
+    signed int return_value_tc_log_init_2;
+    return_value_tc_log_init_2=tc_log_init(srv_settings.log_path);
+    if(return_value_tc_log_init_2 == -1)
       return -1;
 
     else
@@ -2817,16 +2817,16 @@ signed int main(signed int argc, char **argv)
       else
       {
         output_for_debug();
-        signed int return_value_set_details$3;
-        return_value_set_details$3=set_details();
-        if(return_value_set_details$3 == -1)
+        signed int return_value_set_details_3;
+        return_value_set_details_3=set_details();
+        if(return_value_set_details_3 == -1)
           return -1;
 
         else
         {
-          signed int return_value_interception_init$4;
-          return_value_interception_init$4=interception_init(&s_event_loop, srv_settings.binded_ip, srv_settings.port);
-          if(return_value_interception_init$4 == -1)
+          signed int return_value_interception_init_4;
+          return_value_interception_init_4=interception_init(&s_event_loop, srv_settings.binded_ip, srv_settings.port);
+          if(return_value_interception_init_4 == -1)
             return -1;
 
           else
@@ -2901,7 +2901,7 @@ static void put_resp_header_to_pool(struct iphdr *ip_header)
     size_ip = (unsigned short int)((signed int)ip_header->ihl << 2);
     tcp_header = (struct tcphdr *)((char *)ip_header + (signed long int)size_ip);
     record_len = save_len;
-    pthread_mutex_lock(&mutex$link1);
+    pthread_mutex_lock(&mutex_link1);
     next_w_cnt = write_counter + (unsigned long int)save_len + sizeof(signed int) /*4ul*/ ;
     next_w_pos = (signed int)(next_w_cnt & (unsigned long int)((1 << 24) - 1));
     if((unsigned long int)next_w_pos >= 16777173ul)
@@ -2915,7 +2915,7 @@ static void put_resp_header_to_pool(struct iphdr *ip_header)
       if(diff >= 16777217)
       {
         tc_log_info(5, 0, "pool is full");
-        pthread_cond_wait(&empty, &mutex$link1);
+        pthread_cond_wait(&empty, &mutex_link1);
       }
 
       else
@@ -2933,7 +2933,7 @@ static void put_resp_header_to_pool(struct iphdr *ip_header)
     p_content = p_content + (signed long int)sizeof(struct iphdr) /*20ul*/ ;
     memcpy((void *)p_content, (const void *)tcp_header, sizeof(struct tcphdr) /*20ul*/ );
     pthread_cond_signal(&full);
-    pthread_mutex_unlock(&mutex$link1);
+    pthread_mutex_unlock(&mutex_link1);
   }
 }
 
@@ -2942,9 +2942,9 @@ static void put_resp_header_to_pool(struct iphdr *ip_header)
 static signed int read_args(signed int argc, char **argv)
 {
   signed int c;
-  signed int return_value_atoi$1;
-  signed int return_value_atoi$2;
-  signed int return_value_atoi$3;
+  signed int return_value_atoi_1;
+  signed int return_value_atoi_2;
+  signed int return_value_atoi_3;
   do
   {
     c=getopt(argc, argv, "x:p:t:s:b:hl:P:vd");
@@ -2960,20 +2960,20 @@ static signed int read_args(signed int argc, char **argv)
       }
       case 112:
       {
-        return_value_atoi$1=atoi(optarg);
-        srv_settings.port = (unsigned short int)return_value_atoi$1;
+        return_value_atoi_1=atoi(optarg);
+        srv_settings.port = (unsigned short int)return_value_atoi_1;
         break;
       }
       case 116:
       {
-        return_value_atoi$2=atoi(optarg);
-        srv_settings.timeout = (signed int)(unsigned long int)return_value_atoi$2;
+        return_value_atoi_2=atoi(optarg);
+        srv_settings.timeout = (signed int)(unsigned long int)return_value_atoi_2;
         break;
       }
       case 115:
       {
-        return_value_atoi$3=atoi(optarg);
-        srv_settings.hash_size = (unsigned long int)return_value_atoi$3;
+        return_value_atoi_3=atoi(optarg);
+        srv_settings.hash_size = (unsigned long int)return_value_atoi_3;
         break;
       }
       case 98:
@@ -3040,7 +3040,7 @@ static signed int retrieve_ip_addr()
   const char *p;
   memset((void *)tmp, 0, (unsigned long int)32);
   p = srv_settings.raw_ip_list;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   while((_Bool)1)
   {
     split=strchr(p, 44);
@@ -3051,9 +3051,9 @@ static signed int retrieve_ip_addr()
       len=strlen(p);
     strncpy(tmp, p, len);
     address=inet_addr(tmp);
-    tmp_post$1 = count;
+    tmp_post_1 = count;
     count = count + 1;
-    srv_settings.passed_ips.ips[(signed long int)tmp_post$1] = address;
+    srv_settings.passed_ips.ips[(signed long int)tmp_post_1] = address;
     if(count == 32)
     {
       tc_log_info(5, 0, "reach the limit for passing firewall");
@@ -3165,7 +3165,7 @@ void router_destroy()
 // file tc_router.c line 72
 void router_init(unsigned long int size, signed int timeout)
 {
-  pthread_mutex_init(&mutex, (const union anonymous$11 *)(void *)0);
+  pthread_mutex_init(&mutex, (const union anonymous_11 *)(void *)0);
   delay_table_init(size);
   table=hash_create(size << 1);
   hash_set_timeout(table, timeout);
@@ -3184,11 +3184,11 @@ void router_update(struct iphdr *ip_header, signed int len)
   struct tcphdr *tcp_header;
   size_ip = (unsigned int)((signed int)ip_header->ihl << 2);
   tcp_header = (struct tcphdr *)((char *)ip_header + (signed long int)size_ip);
-  unsigned short int return_value_ntohs$1;
-  return_value_ntohs$1=ntohs(tcp_header->$anon0.$anon1.source);
-  tc_log_info(8, 0, (const char *)"router update:%u", return_value_ntohs$1);
+  unsigned short int return_value_ntohs_1;
+  return_value_ntohs_1=ntohs(tcp_header->_anon0._anon1.source);
+  tc_log_info(8, 0, (const char *)"router update:%u", return_value_ntohs_1);
   memcpy((void *)&msg, (const void *)ip_header, (unsigned long int)len);
-  key=get_key(ip_header->daddr, tcp_header->$anon0.$anon1.dest);
+  key=get_key(ip_header->daddr, tcp_header->_anon0._anon1.dest);
   pthread_mutex_lock(&mutex);
   fd=hash_find(table, key);
   if(fd == NULL)
@@ -3210,9 +3210,9 @@ void router_update(struct iphdr *ip_header, signed int len)
 // file main.c line 207
 static signed int set_details()
 {
-  signed int return_value_sigignore$1;
-  return_value_sigignore$1=sigignore(13);
-  if(return_value_sigignore$1 == -1)
+  signed int return_value_sigignore_1;
+  return_value_sigignore_1=sigignore(13);
+  if(return_value_sigignore_1 == -1)
   {
     perror("failed to ignore SIGPIPE; sigaction");
     return -1;
@@ -3231,18 +3231,18 @@ static signed int set_details()
 
     if(!(srv_settings.do_daemonize == 0u))
     {
-      signed int return_value_sigignore$3;
-      return_value_sigignore$3=sigignore(1);
-      if(return_value_sigignore$3 == -1)
+      signed int return_value_sigignore_3;
+      return_value_sigignore_3=sigignore(1);
+      if(return_value_sigignore_3 == -1)
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        tc_log_info(4, *return_value___errno_location$2, "Failed to ignore SIGHUP");
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        tc_log_info(4, *return_value___errno_location_2, "Failed to ignore SIGHUP");
       }
 
-      signed int return_value_daemonize$4;
-      return_value_daemonize$4=daemonize();
-      if(return_value_daemonize$4 == -1)
+      signed int return_value_daemonize_4;
+      return_value_daemonize_4=daemonize();
+      if(return_value_daemonize_4 == -1)
       {
         fprintf(stderr, "failed to daemon() in order to daemonize\n");
         return -1;
@@ -3250,9 +3250,9 @@ static signed int set_details()
 
     }
 
-    signed int return_value_tc_time_set_timer$5;
-    return_value_tc_time_set_timer$5=tc_time_set_timer((signed long int)1000);
-    if(return_value_tc_time_set_timer$5 == -1)
+    signed int return_value_tc_time_set_timer_5;
+    return_value_tc_time_set_timer_5=tc_time_set_timer((signed long int)1000);
+    if(return_value_tc_time_set_timer_5 == -1)
     {
       tc_log_info(4, 0, "set timer error");
       return -1;
@@ -3298,19 +3298,19 @@ static signed int sigignore(signed int sig)
   struct sigaction sa;
   sa.__sigaction_handler.sa_handler = (void (*)(signed int))1;
   sa.sa_flags = 0;
-  signed int return_value_sigemptyset$1;
-  return_value_sigemptyset$1=sigemptyset(&sa.sa_mask);
-  _Bool tmp_if_expr$3;
-  signed int return_value_sigaction$2;
-  if(return_value_sigemptyset$1 == -1)
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_sigemptyset_1;
+  return_value_sigemptyset_1=sigemptyset(&sa.sa_mask);
+  _Bool tmp_if_expr_3;
+  signed int return_value_sigaction_2;
+  if(return_value_sigemptyset_1 == -1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_sigaction$2=sigaction(sig, &sa, ((struct sigaction *)NULL));
-    tmp_if_expr$3 = return_value_sigaction$2 == -1 ? (_Bool)1 : (_Bool)0;
+    return_value_sigaction_2=sigaction(sig, &sa, ((struct sigaction *)NULL));
+    tmp_if_expr_3 = return_value_sigaction_2 == -1 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
     return -1;
 
   else
@@ -3328,9 +3328,9 @@ static void signal_handler(signed int sig)
     tc_log_info(4, 0, "SIGSEGV error");
     release_resources();
     signal(11, (void (*)(signed int))0);
-    signed int return_value_getpid$1;
-    return_value_getpid$1=getpid();
-    kill(return_value_getpid$1, sig);
+    signed int return_value_getpid_1;
+    return_value_getpid_1=getpid();
+    kill(return_value_getpid_1, sig);
   }
 
   else
@@ -3341,7 +3341,7 @@ static void signal_handler(signed int sig)
 // file ../event/tc_event.h line 74
 signed int tc_event_add(struct tc_event_loop_s *loop, struct tc_event_s *ev, signed int events)
 {
-  struct anonymous$7 *actions;
+  struct anonymous_7 *actions;
   ev->loop = loop;
   actions = loop->actions;
   if(events == 0)
@@ -3372,9 +3372,9 @@ signed int tc_event_add(struct tc_event_loop_s *loop, struct tc_event_s *ev, sig
 struct tc_event_s * tc_event_create(signed int fd, signed int (*reader)(struct tc_event_s *), signed int (*writer)(struct tc_event_s *))
 {
   struct tc_event_s *ev;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct tc_event_s) /*48ul*/ );
-  ev = (struct tc_event_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct tc_event_s) /*48ul*/ );
+  ev = (struct tc_event_s *)return_value_malloc_1;
   if(ev == ((struct tc_event_s *)NULL))
     return (struct tc_event_s *)(void *)0;
 
@@ -3395,7 +3395,7 @@ struct tc_event_s * tc_event_create(signed int fd, signed int (*reader)(struct t
 // file ../event/tc_event.h line 75
 signed int tc_event_del(struct tc_event_loop_s *loop, struct tc_event_s *ev, signed int events)
 {
-  struct anonymous$7 *actions = loop->actions;
+  struct anonymous_7 *actions = loop->actions;
   if(events == 0)
     return 0;
 
@@ -3435,11 +3435,11 @@ signed int tc_event_loop_finish(struct tc_event_loop_s *loop)
 {
   struct tc_event_timer_s *timer;
   struct tc_event_timer_s *curr;
-  struct anonymous$7 *actions = loop->actions;
-  if(!(actions == ((struct anonymous$7 *)NULL)))
+  struct anonymous_7 *actions = loop->actions;
+  if(!(actions == ((struct anonymous_7 *)NULL)))
   {
     actions->destroy(loop);
-    loop->actions = (struct anonymous$7 *)(void *)0;
+    loop->actions = (struct anonymous_7 *)(void *)0;
   }
 
   timer = loop->timers;
@@ -3457,7 +3457,7 @@ signed int tc_event_loop_finish(struct tc_event_loop_s *loop)
 // file ../event/tc_event.h line 71
 signed int tc_event_loop_init(struct tc_event_loop_s *loop, signed int size)
 {
-  struct anonymous$7 *actions = &tc_event_actions;
+  struct anonymous_7 *actions = &tc_event_actions;
   loop->size = size;
   loop->actions = actions;
   loop->active_events = (struct tc_event_s *)(void *)0;
@@ -3479,7 +3479,7 @@ signed int tc_event_process_cycle(struct tc_event_loop_s *loop)
   signed long int timeout;
   struct tc_event_s *act_event;
   struct tc_event_s *act_next;
-  struct anonymous$7 *actions = loop->actions;
+  struct anonymous_7 *actions = loop->actions;
   timeout=tc_event_timer_find(loop);
   if(timeout == 0l || timeout >= 1001l)
     timeout = (signed long int)500;
@@ -3534,9 +3534,9 @@ FINISH:
 signed int tc_event_timer_add(struct tc_event_loop_s *loop, signed long int msec, void (*handler)(struct tc_event_timer_s *))
 {
   struct tc_event_timer_s *timer;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct tc_event_timer_s) /*24ul*/ );
-  timer = (struct tc_event_timer_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct tc_event_timer_s) /*24ul*/ );
+  timer = (struct tc_event_timer_s *)return_value_malloc_1;
   if(timer == ((struct tc_event_timer_s *)NULL))
     return -1;
 
@@ -3558,15 +3558,15 @@ static signed long int tc_event_timer_find(struct tc_event_loop_s *loop)
   struct tc_event_timer_s *timer;
   min = (signed long int)0;
   timer = loop->timers;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(timer == ((struct tc_event_timer_s *)NULL)); timer = timer->next)
   {
     if(min == 0l)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = timer->msec < min ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = timer->msec < min ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       min = timer->msec;
 
   }
@@ -3635,51 +3635,51 @@ void tc_log_end()
 // file ../../src/core/tc_log.h line 19
 void tc_log_info(signed int level, signed int err, const char *fmt, ...)
 {
-  char tc_log_info$$1$$buffer[2048l];
+  char tc_log_info__1__buffer[2048l];
   char *p;
   unsigned long int n;
   void **args;
-  struct anonymous$0 *ll;
-  char *tmp_post$2;
-  char *tmp_post$4;
-  char *tmp_post$8;
+  struct anonymous_0 *ll;
+  char *tmp_post_2;
+  char *tmp_post_4;
+  char *tmp_post_8;
   if(!(log_fd == -1))
   {
     tc_time_update();
     ll = &tc_log_levels[(signed long int)level];
-    p = tc_log_info$$1$$buffer;
-    void *return_value_memcpy$1;
-    return_value_memcpy$1=memcpy((void *)p, (void *)tc_error_log_time, sizeof(char [25l]) /*25ul*/  - (unsigned long int)1);
-    p = (char *)return_value_memcpy$1 + (signed long int)(sizeof(char [25l]) /*25ul*/  - (unsigned long int)1);
-    tmp_post$2 = p;
+    p = tc_log_info__1__buffer;
+    void *return_value_memcpy_1;
+    return_value_memcpy_1=memcpy((void *)p, (void *)tc_error_log_time, sizeof(char [25l]) /*25ul*/  - (unsigned long int)1);
+    p = (char *)return_value_memcpy_1 + (signed long int)(sizeof(char [25l]) /*25ul*/  - (unsigned long int)1);
+    tmp_post_2 = p;
     p = p + 1l;
-    *tmp_post$2 = (char)32;
-    void *return_value_memcpy$3;
-    return_value_memcpy$3=memcpy((void *)p, (void *)ll->level, (unsigned long int)ll->len);
-    p = (char *)return_value_memcpy$3 + (signed long int)ll->len;
-    tmp_post$4 = p;
+    *tmp_post_2 = (char)32;
+    void *return_value_memcpy_3;
+    return_value_memcpy_3=memcpy((void *)p, (void *)ll->level, (unsigned long int)ll->len);
+    p = (char *)return_value_memcpy_3 + (signed long int)ll->len;
+    tmp_post_4 = p;
     p = p + 1l;
-    *tmp_post$4 = (char)32;
+    *tmp_post_4 = (char)32;
     args = (void **)&fmt;
-    signed int return_value_vsprintf$5;
-    return_value_vsprintf$5=vsprintf(p, fmt, args);
-    n = (unsigned long int)return_value_vsprintf$5;
+    signed int return_value_vsprintf_5;
+    return_value_vsprintf_5=vsprintf(p, fmt, args);
+    n = (unsigned long int)return_value_vsprintf_5;
     args = ((void **)NULL);
     p = p + (signed long int)n;
     if(err >= 1)
     {
-      char *return_value_strerror$6;
-      return_value_strerror$6=strerror(err);
-      signed int return_value_sprintf$7;
-      return_value_sprintf$7=sprintf(p, " (%s)", return_value_strerror$6);
-      n = (unsigned long int)return_value_sprintf$7;
+      char *return_value_strerror_6;
+      return_value_strerror_6=strerror(err);
+      signed int return_value_sprintf_7;
+      return_value_sprintf_7=sprintf(p, " (%s)", return_value_strerror_6);
+      n = (unsigned long int)return_value_sprintf_7;
       p = p + (signed long int)n;
     }
 
-    tmp_post$8 = p;
+    tmp_post_8 = p;
     p = p + 1l;
-    *tmp_post$8 = (char)10;
-    write(log_fd, (const void *)tc_log_info$$1$$buffer, (unsigned long int)(p - tc_log_info$$1$$buffer));
+    *tmp_post_8 = (char)10;
+    write(log_fd, (const void *)tc_log_info__1__buffer, (unsigned long int)(p - tc_log_info__1__buffer));
   }
 
 
@@ -3694,11 +3694,11 @@ signed int tc_log_init(const char *file)
   log_fd=open(file == (const char *)(void *)0 ? "error.log" : file, 02 | 0100 | 02000, 0644);
   if(log_fd == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "Open log file error: %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "Open log file error: %s\n", return_value_strerror_2);
   }
 
   return log_fd;
@@ -3713,7 +3713,7 @@ void tc_log_trace(signed int level, signed int err, signed int flag, struct iphd
   char dst_ip[1024l];
   unsigned short int window;
   unsigned int pack_size;
-  unsigned int tc_log_trace$$1$$seq;
+  unsigned int tc_log_trace__1__seq;
   unsigned int ack_seq;
   struct in_addr src_addr;
   struct in_addr dst_addr;
@@ -3723,68 +3723,68 @@ void tc_log_trace(signed int level, signed int err, signed int flag, struct iphd
   dst_addr.s_addr = ip_header->daddr;
   tmp_buf=inet_ntoa(dst_addr);
   strcpy(dst_ip, tmp_buf);
-  unsigned short int return_value_ntohs$1;
-  return_value_ntohs$1=ntohs(ip_header->tot_len);
-  pack_size = (unsigned int)return_value_ntohs$1;
-  tc_log_trace$$1$$seq=ntohl(tcp_header->$anon0.$anon1.seq);
-  ack_seq=ntohl(tcp_header->$anon0.$anon1.ack_seq);
-  window = tcp_header->$anon0.$anon1.window;
+  unsigned short int return_value_ntohs_1;
+  return_value_ntohs_1=ntohs(ip_header->tot_len);
+  pack_size = (unsigned int)return_value_ntohs_1;
+  tc_log_trace__1__seq=ntohl(tcp_header->_anon0._anon1.seq);
+  ack_seq=ntohl(tcp_header->_anon0._anon1.ack_seq);
+  window = tcp_header->_anon0._anon1.window;
   if(flag == 1)
   {
-    unsigned short int return_value_ntohs$2;
-    return_value_ntohs$2=ntohs(tcp_header->$anon0.$anon1.source);
-    unsigned short int return_value_ntohs$3;
-    return_value_ntohs$3=ntohs(tcp_header->$anon0.$anon1.dest);
-    tc_log_info(level, err, "from bak:%s:%u-->%s:%u,len %u,seq=%u,ack=%u,win:%u", (const void *)src_ip, return_value_ntohs$2, (const void *)dst_ip, return_value_ntohs$3, pack_size, tc_log_trace$$1$$seq, ack_seq, window);
+    unsigned short int return_value_ntohs_2;
+    return_value_ntohs_2=ntohs(tcp_header->_anon0._anon1.source);
+    unsigned short int return_value_ntohs_3;
+    return_value_ntohs_3=ntohs(tcp_header->_anon0._anon1.dest);
+    tc_log_info(level, err, "from bak:%s:%u-->%s:%u,len %u,seq=%u,ack=%u,win:%u", (const void *)src_ip, return_value_ntohs_2, (const void *)dst_ip, return_value_ntohs_3, pack_size, tc_log_trace__1__seq, ack_seq, window);
   }
 
   else
     if(flag == 0)
     {
-      unsigned short int return_value_ntohs$4;
-      return_value_ntohs$4=ntohs(tcp_header->$anon0.$anon1.source);
-      unsigned short int return_value_ntohs$5;
-      return_value_ntohs$5=ntohs(tcp_header->$anon0.$anon1.dest);
-      tc_log_info(level, err, "recv clt:%s:%u-->%s:%u,len %u,seq=%u,ack=%u,win:%u", (const void *)src_ip, return_value_ntohs$4, (const void *)dst_ip, return_value_ntohs$5, pack_size, tc_log_trace$$1$$seq, ack_seq, window);
+      unsigned short int return_value_ntohs_4;
+      return_value_ntohs_4=ntohs(tcp_header->_anon0._anon1.source);
+      unsigned short int return_value_ntohs_5;
+      return_value_ntohs_5=ntohs(tcp_header->_anon0._anon1.dest);
+      tc_log_info(level, err, "recv clt:%s:%u-->%s:%u,len %u,seq=%u,ack=%u,win:%u", (const void *)src_ip, return_value_ntohs_4, (const void *)dst_ip, return_value_ntohs_5, pack_size, tc_log_trace__1__seq, ack_seq, window);
     }
 
     else
       if(flag == 3)
       {
-        unsigned short int return_value_ntohs$6;
-        return_value_ntohs$6=ntohs(tcp_header->$anon0.$anon1.source);
-        unsigned short int return_value_ntohs$7;
-        return_value_ntohs$7=ntohs(tcp_header->$anon0.$anon1.dest);
-        tc_log_info(level, err, "to bak:%s:%u-->%s:%u,len %u,seq=%u,ack=%u,win:%u", (const void *)src_ip, return_value_ntohs$6, (const void *)dst_ip, return_value_ntohs$7, pack_size, tc_log_trace$$1$$seq, ack_seq, window);
+        unsigned short int return_value_ntohs_6;
+        return_value_ntohs_6=ntohs(tcp_header->_anon0._anon1.source);
+        unsigned short int return_value_ntohs_7;
+        return_value_ntohs_7=ntohs(tcp_header->_anon0._anon1.dest);
+        tc_log_info(level, err, "to bak:%s:%u-->%s:%u,len %u,seq=%u,ack=%u,win:%u", (const void *)src_ip, return_value_ntohs_6, (const void *)dst_ip, return_value_ntohs_7, pack_size, tc_log_trace__1__seq, ack_seq, window);
       }
 
       else
         if(flag == 2)
         {
-          unsigned short int return_value_ntohs$8;
-          return_value_ntohs$8=ntohs(tcp_header->$anon0.$anon1.source);
-          unsigned short int return_value_ntohs$9;
-          return_value_ntohs$9=ntohs(tcp_header->$anon0.$anon1.dest);
-          tc_log_info(level, err, "fake clt:%s:%u-->%s:%u,len %u,seq=%u,ack=%u,win:%u", (const void *)src_ip, return_value_ntohs$8, (const void *)dst_ip, return_value_ntohs$9, pack_size, tc_log_trace$$1$$seq, ack_seq, window);
+          unsigned short int return_value_ntohs_8;
+          return_value_ntohs_8=ntohs(tcp_header->_anon0._anon1.source);
+          unsigned short int return_value_ntohs_9;
+          return_value_ntohs_9=ntohs(tcp_header->_anon0._anon1.dest);
+          tc_log_info(level, err, "fake clt:%s:%u-->%s:%u,len %u,seq=%u,ack=%u,win:%u", (const void *)src_ip, return_value_ntohs_8, (const void *)dst_ip, return_value_ntohs_9, pack_size, tc_log_trace__1__seq, ack_seq, window);
         }
 
         else
           if(flag == 4)
           {
-            unsigned short int return_value_ntohs$10;
-            return_value_ntohs$10=ntohs(tcp_header->$anon0.$anon1.source);
-            unsigned short int return_value_ntohs$11;
-            return_value_ntohs$11=ntohs(tcp_header->$anon0.$anon1.dest);
-            tc_log_info(level, err, "unkown packet:%s:%u-->%s:%u,len %u,seq=%u,ack=%u", (const void *)src_ip, return_value_ntohs$10, (const void *)dst_ip, return_value_ntohs$11, pack_size, tc_log_trace$$1$$seq, ack_seq);
+            unsigned short int return_value_ntohs_10;
+            return_value_ntohs_10=ntohs(tcp_header->_anon0._anon1.source);
+            unsigned short int return_value_ntohs_11;
+            return_value_ntohs_11=ntohs(tcp_header->_anon0._anon1.dest);
+            tc_log_info(level, err, "unkown packet:%s:%u-->%s:%u,len %u,seq=%u,ack=%u", (const void *)src_ip, return_value_ntohs_10, (const void *)dst_ip, return_value_ntohs_11, pack_size, tc_log_trace__1__seq, ack_seq);
           }
 
           else
           {
-            unsigned short int return_value_ntohs$12;
-            return_value_ntohs$12=ntohs(tcp_header->$anon0.$anon1.source);
-            unsigned short int return_value_ntohs$13;
-            return_value_ntohs$13=ntohs(tcp_header->$anon0.$anon1.dest);
-            tc_log_info(level, err, "strange %s:%u-->%s:%u,length %u,seq=%u,ack=%u", (const void *)src_ip, return_value_ntohs$12, (const void *)dst_ip, return_value_ntohs$13, pack_size, tc_log_trace$$1$$seq, ack_seq);
+            unsigned short int return_value_ntohs_12;
+            return_value_ntohs_12=ntohs(tcp_header->_anon0._anon1.source);
+            unsigned short int return_value_ntohs_13;
+            return_value_ntohs_13=ntohs(tcp_header->_anon0._anon1.dest);
+            tc_log_info(level, err, "strange %s:%u-->%s:%u,length %u,seq=%u,ack=%u", (const void *)src_ip, return_value_ntohs_12, (const void *)dst_ip, return_value_ntohs_13, pack_size, tc_log_trace__1__seq, ack_seq);
           }
 }
 
@@ -3803,9 +3803,9 @@ static signed int tc_msg_event_accept(struct tc_event_s *rev)
 
   else
   {
-    signed int return_value_tc_socket_set_nodelay$1;
-    return_value_tc_socket_set_nodelay$1=tc_socket_set_nodelay(fd);
-    if(return_value_tc_socket_set_nodelay$1 == -1)
+    signed int return_value_tc_socket_set_nodelay_1;
+    return_value_tc_socket_set_nodelay_1=tc_socket_set_nodelay(fd);
+    if(return_value_tc_socket_set_nodelay_1 == -1)
     {
       tc_log_info(4, 0, "Set no delay to socket(%d) failed.", rev->fd);
       return -1;
@@ -3822,9 +3822,9 @@ static signed int tc_msg_event_accept(struct tc_event_s *rev)
 
       else
       {
-        signed int return_value_tc_event_add$2;
-        return_value_tc_event_add$2=tc_event_add(rev->loop, ev, 1);
-        if(return_value_tc_event_add$2 == -1)
+        signed int return_value_tc_event_add_2;
+        return_value_tc_event_add_2=tc_event_add(rev->loop, ev, 1);
+        if(return_value_tc_event_add_2 == -1)
           return -1;
 
         else
@@ -3839,11 +3839,11 @@ static signed int tc_msg_event_accept(struct tc_event_s *rev)
 static signed int tc_msg_event_process(struct tc_event_s *rev)
 {
   struct msg_client_s msg;
-  signed int return_value_tc_socket_recv$1;
-  return_value_tc_socket_recv$1=tc_socket_recv(rev->fd, (char *)&msg, (signed long int)sizeof(struct msg_client_s) /*8ul*/ );
-  unsigned short int return_value_ntohs$2;
-  unsigned short int return_value_ntohs$3;
-  if(return_value_tc_socket_recv$1 == -1)
+  signed int return_value_tc_socket_recv_1;
+  return_value_tc_socket_recv_1=tc_socket_recv(rev->fd, (char *)&msg, (signed long int)sizeof(struct msg_client_s) /*8ul*/ );
+  unsigned short int return_value_ntohs_2;
+  unsigned short int return_value_ntohs_3;
+  if(return_value_tc_socket_recv_1 == -1)
   {
     close(rev->fd);
     tc_log_info(6, 0, "close sock:%d", rev->fd);
@@ -3857,15 +3857,15 @@ static signed int tc_msg_event_process(struct tc_event_s *rev)
     {
       case 1:
       {
-        return_value_ntohs$2=ntohs(msg.client_port);
-        tc_log_info(8, 0, (const char *)"add client router:%u", return_value_ntohs$2);
+        return_value_ntohs_2=ntohs(msg.client_port);
+        tc_log_info(8, 0, (const char *)"add client router:%u", return_value_ntohs_2);
         router_add(msg.client_ip, msg.client_port, rev->fd);
         break;
       }
       case 2:
       {
-        return_value_ntohs$3=ntohs(msg.client_port);
-        tc_log_info(8, 0, (const char *)"del client router:%u", return_value_ntohs$3);
+        return_value_ntohs_3=ntohs(msg.client_port);
+        tc_log_info(8, 0, (const char *)"del client router:%u", return_value_ntohs_3);
         router_del(msg.client_ip, msg.client_port);
       }
     }
@@ -3895,19 +3895,19 @@ static signed int tc_nl_event_process(struct tc_event_s *rev)
 {
   signed int i;
   signed int pass_through_flag = 0;
-  char tc_nl_event_process$$1$$buffer[65535l];
+  char tc_nl_event_process__1__buffer[65535l];
   unsigned long int packet_id;
   struct iphdr *ip_hdr;
   packet_id = (unsigned long int)0;
-  signed int return_value_tc_nl_socket_recv$1;
-  return_value_tc_nl_socket_recv$1=tc_nl_socket_recv(rev->fd, tc_nl_event_process$$1$$buffer, (unsigned long int)65535);
-  if(return_value_tc_nl_socket_recv$1 == -1)
+  signed int return_value_tc_nl_socket_recv_1;
+  return_value_tc_nl_socket_recv_1=tc_nl_socket_recv(rev->fd, tc_nl_event_process__1__buffer, (unsigned long int)65535);
+  if(return_value_tc_nl_socket_recv_1 == -1)
     return -1;
 
   else
   {
-    ip_hdr = (struct iphdr *)((struct ipq_packet_msg *)(void *)((char *)(struct nlmsghdr *)tc_nl_event_process$$1$$buffer + (signed long int)(0 + (signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)))))->payload;
-    packet_id = ((struct ipq_packet_msg *)(void *)((char *)(struct nlmsghdr *)tc_nl_event_process$$1$$buffer + (signed long int)(0 + (signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)))))->packet_id;
+    ip_hdr = (struct iphdr *)((struct ipq_packet_msg *)(void *)((char *)(struct nlmsghdr *)tc_nl_event_process__1__buffer + (signed long int)(0 + (signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)))))->payload;
+    packet_id = ((struct ipq_packet_msg *)(void *)((char *)(struct nlmsghdr *)tc_nl_event_process__1__buffer + (signed long int)(0 + (signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)))))->packet_id;
     if(!(ip_hdr == ((struct iphdr *)NULL)))
     {
       i = 0;
@@ -3939,7 +3939,7 @@ signed int tc_nl_socket_init()
 {
   signed int fd;
   signed int rcvbuf;
-  unsigned char tc_nl_socket_init$$1$$buf[128l];
+  unsigned char tc_nl_socket_init__1__buf[128l];
   struct nlmsghdr *nl_header;
   struct sockaddr_nl addr;
   struct ipq_mode_msg *mode_data;
@@ -3947,43 +3947,43 @@ signed int tc_nl_socket_init()
   fd=socket(16, 3, 3);
   if(fd == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    tc_log_info(4, *return_value___errno_location$1, "Create netlink socket failed");
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    tc_log_info(4, *return_value___errno_location_1, "Create netlink socket failed");
     return -1;
   }
 
-  signed int return_value_setsockopt$3;
-  return_value_setsockopt$3=setsockopt(fd, 1, 8, (const void *)&rcvbuf, (unsigned int)sizeof(signed int) /*4ul*/ );
-  if(return_value_setsockopt$3 == -1)
+  signed int return_value_setsockopt_3;
+  return_value_setsockopt_3=setsockopt(fd, 1, 8, (const void *)&rcvbuf, (unsigned int)sizeof(signed int) /*4ul*/ );
+  if(return_value_setsockopt_3 == -1)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    tc_log_info(4, *return_value___errno_location$2, "Set netlink socket(%d) recvbuf to (%d) failed", fd, rcvbuf);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    tc_log_info(4, *return_value___errno_location_2, "Set netlink socket(%d) recvbuf to (%d) failed", fd, rcvbuf);
     return -1;
   }
 
   tc_socket_set_nonblocking(fd);
   memset((void *)&addr, 0, sizeof(struct sockaddr_nl) /*12ul*/ );
-  memset((void *)&tc_nl_socket_init$$1$$buf, 0, (unsigned long int)128);
+  memset((void *)&tc_nl_socket_init__1__buf, 0, (unsigned long int)128);
   addr.nl_family = (unsigned short int)16;
-  nl_header = (struct nlmsghdr *)tc_nl_socket_init$$1$$buf;
+  nl_header = (struct nlmsghdr *)tc_nl_socket_init__1__buf;
   nl_header->nlmsg_len = (unsigned int)(sizeof(struct ipq_peer_msg) /*24ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)));
   nl_header->nlmsg_flags = (unsigned short int)1;
   nl_header->nlmsg_type = (unsigned short int)(0x10 + 1);
-  signed int return_value_getpid$4;
-  return_value_getpid$4=getpid();
-  nl_header->nlmsg_pid = (unsigned int)return_value_getpid$4;
+  signed int return_value_getpid_4;
+  return_value_getpid_4=getpid();
+  nl_header->nlmsg_pid = (unsigned int)return_value_getpid_4;
   mode_data = (struct ipq_mode_msg *)(void *)((char *)nl_header + (signed long int)(0 + (signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1))));
   mode_data->value = (unsigned char)2;
   mode_data->range = (unsigned long int)65536;
-  signed long int return_value_sendto$6;
-  return_value_sendto$6=sendto(fd, (void *)nl_header, (unsigned long int)nl_header->nlmsg_len, 0, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_nl) /*12ul*/ );
-  if(return_value_sendto$6 == -1l)
+  signed long int return_value_sendto_6;
+  return_value_sendto_6=sendto(fd, (void *)nl_header, (unsigned long int)nl_header->nlmsg_len, 0, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_nl) /*12ul*/ );
+  if(return_value_sendto_6 == -1l)
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    tc_log_info(4, *return_value___errno_location$5, "Set netlink socket(%d) mode failed, check if ip queue is run", fd);
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    tc_log_info(4, *return_value___errno_location_5, "Set netlink socket(%d) mode failed, check if ip queue is run", fd);
     return -1;
   }
 
@@ -3998,14 +3998,14 @@ signed int tc_nl_socket_recv(signed int fd, char *buffer, unsigned long int len)
   recv_len=recv(fd, (void *)buffer, len, 0);
   if(recv_len == -1l)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 11)
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 11)
       return 0;
 
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    tc_log_info(4, *return_value___errno_location$2, "nl recvfrom");
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    tc_log_info(4, *return_value___errno_location_2, "nl recvfrom");
     return -1;
   }
 
@@ -4044,9 +4044,9 @@ signed int tc_raw_socket_in_init()
   fd=socket(2, 3, 6);
   if(fd == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    tc_log_info(4, *return_value___errno_location$1, "Create raw socket to input failed");
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    tc_log_info(4, *return_value___errno_location_1, "Create raw socket to input failed");
     return -1;
   }
 
@@ -4055,9 +4055,9 @@ signed int tc_raw_socket_in_init()
   ret=setsockopt(fd, 1, 8, (const void *)&recv_buf_opt, opt_len);
   if(ret == -1)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    tc_log_info(4, *return_value___errno_location$2, "Set raw socket(%d)'s recv buffer failed");
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    tc_log_info(4, *return_value___errno_location_2, "Set raw socket(%d)'s recv buffer failed");
     return -1;
   }
 
@@ -4073,19 +4073,19 @@ signed int tc_raw_socket_out_init()
   fd=socket(2, 3, 255);
   if(fd == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    tc_log_info(4, *return_value___errno_location$1, "Create raw socket to output failed");
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    tc_log_info(4, *return_value___errno_location_1, "Create raw socket to output failed");
     return -1;
   }
 
-  signed int return_value_setsockopt$3;
-  return_value_setsockopt$3=setsockopt(fd, 0, 3, (const void *)&n, (unsigned int)sizeof(signed int) /*4ul*/ );
-  if(!(return_value_setsockopt$3 >= 0))
+  signed int return_value_setsockopt_3;
+  return_value_setsockopt_3=setsockopt(fd, 0, 3, (const void *)&n, (unsigned int)sizeof(signed int) /*4ul*/ );
+  if(!(return_value_setsockopt_3 >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    tc_log_info(4, *return_value___errno_location$2, "Set raw socket(%d) option \"IP_HDRINCL\" failed", fd);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    tc_log_info(4, *return_value___errno_location_2, "Set raw socket(%d) option \"IP_HDRINCL\" failed", fd);
     return -1;
   }
 
@@ -4106,9 +4106,9 @@ signed int tc_raw_socket_send(signed int fd, void *buf, unsigned long int len, u
     send_len=sendto(fd, buf, len, 0, (struct sockaddr *)&dst_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
     if(send_len == -1l)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      tc_log_info(4, *return_value___errno_location$1, "Raw socket(%d) send packet failed, packet len: %d", fd, len);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      tc_log_info(4, *return_value___errno_location_1, "Raw socket(%d) send packet failed, packet len: %d", fd, len);
       return -1;
     }
 
@@ -4122,42 +4122,42 @@ signed int tc_raw_socket_send(signed int fd, void *buf, unsigned long int len, u
 signed int tc_select_add_event(struct tc_event_loop_s *loop, struct tc_event_s *ev, signed int events)
 {
   struct tc_select_multiplex_io_s *io = (struct tc_select_multiplex_io_s *)loop->io;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  signed int tmp_post$5;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  signed int tmp_post_5;
   if(io->last >= loop->size)
     return -1;
 
   else
   {
     if(events == 1)
-      tmp_if_expr$3 = ev->read_handler != ((signed int (*)(struct tc_event_s *))NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = ev->read_handler != ((signed int (*)(struct tc_event_s *))NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = ev->write_handler == (signed int (*)(struct tc_event_s *))(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = ev->write_handler == (signed int (*)(struct tc_event_s *))(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
       (&io->r_set)->__fds_bits[(signed long int)(ev->fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&io->r_set)->__fds_bits[(signed long int)(ev->fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << ev->fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
 
     else
     {
       if(events == 2)
-        tmp_if_expr$1 = ev->write_handler != ((signed int (*)(struct tc_event_s *))NULL) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = ev->write_handler != ((signed int (*)(struct tc_event_s *))NULL) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$2 = ev->read_handler == (signed int (*)(struct tc_event_s *))(void *)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_2 = ev->read_handler == (signed int (*)(struct tc_event_s *))(void *)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
         (&io->w_set)->__fds_bits[(signed long int)(ev->fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&io->w_set)->__fds_bits[(signed long int)(ev->fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << ev->fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
 
       else
@@ -4171,9 +4171,9 @@ signed int tc_select_add_event(struct tc_event_loop_s *loop, struct tc_event_s *
     }
 
     ev->index = io->last;
-    tmp_post$5 = io->last;
+    tmp_post_5 = io->last;
     io->last = io->last + 1;
-    io->evs[(signed long int)tmp_post$5] = ev;
+    io->evs[(signed long int)tmp_post_5] = ev;
     return 0;
   }
 }
@@ -4184,17 +4184,17 @@ signed int tc_select_create(struct tc_event_loop_s *loop)
 {
   struct tc_event_s **evs;
   struct tc_select_multiplex_io_s *io;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)loop->size * sizeof(struct tc_event_s *) /*8ul*/ );
-  evs = (struct tc_event_s **)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)loop->size * sizeof(struct tc_event_s *) /*8ul*/ );
+  evs = (struct tc_event_s **)return_value_malloc_1;
   if(evs == ((struct tc_event_s **)NULL))
     return -1;
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct tc_select_multiplex_io_s) /*272ul*/ );
-    io = (struct tc_select_multiplex_io_s *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct tc_select_multiplex_io_s) /*272ul*/ );
+    io = (struct tc_select_multiplex_io_s *)return_value_malloc_2;
     if(io == ((struct tc_select_multiplex_io_s *)NULL))
       return -1;
 
@@ -4203,15 +4203,15 @@ signed int tc_select_create(struct tc_event_loop_s *loop)
       do
       {
         signed int __d0;
-        signed int tc_select_create$$1$$3$$__d1;
-        asm("cld; rep; stosq" : "=c"(__d0), "=D"(tc_select_create$$1$$3$$__d1) : "a"(0), "0"(sizeof(struct anonymous$10) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&io->r_set)->__fds_bits[(signed long int)0]) : "memory");
+        signed int tc_select_create__1__3____d1;
+        asm("cld; rep; stosq" : "=c"(__d0), "=D"(tc_select_create__1__3____d1) : "a"(0), "0"(sizeof(struct anonymous_10) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&io->r_set)->__fds_bits[(signed long int)0]) : "memory");
       }
       while((_Bool)0);
       do
       {
-        signed int tc_select_create$$1$$4$$__d0;
+        signed int tc_select_create__1__4____d0;
         signed int __d1;
-        asm("cld; rep; stosq" : "=c"(tc_select_create$$1$$4$$__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$10) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&io->w_set)->__fds_bits[(signed long int)0]) : "memory");
+        asm("cld; rep; stosq" : "=c"(tc_select_create__1__4____d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_10) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&io->w_set)->__fds_bits[(signed long int)0]) : "memory");
       }
       while((_Bool)0);
       io->max_fd = -1;
@@ -4229,13 +4229,13 @@ signed int tc_select_del_event(struct tc_event_loop_s *loop, struct tc_event_s *
 {
   struct tc_event_s *last_ev;
   struct tc_select_multiplex_io_s *io = (struct tc_select_multiplex_io_s *)loop->io;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(ev->index >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = ev->index >= io->last ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = ev->index >= io->last ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return -1;
 
   else
@@ -4285,8 +4285,8 @@ signed int tc_select_polling(struct tc_event_loop_s *loop, signed long int to)
 {
   signed int i;
   signed int ret;
-  struct anonymous$10 cur_read_set;
-  struct anonymous$10 cur_write_set;
+  struct anonymous_10 cur_read_set;
+  struct anonymous_10 cur_write_set;
   struct tc_event_s **evs;
   struct timeval timeout;
   struct tc_select_multiplex_io_s *io = (struct tc_select_multiplex_io_s *)loop->io;
@@ -4304,7 +4304,7 @@ signed int tc_select_polling(struct tc_event_loop_s *loop, signed long int to)
   timeout.tv_usec = (signed long int)((to % (signed long int)1000) * (signed long int)1000);
   cur_read_set = io->r_set;
   cur_write_set = io->w_set;
-  ret=select(io->max_fd + 1, &cur_read_set, &cur_write_set, (struct anonymous$10 *)(void *)0, &timeout);
+  ret=select(io->max_fd + 1, &cur_read_set, &cur_write_set, (struct anonymous_10 *)(void *)0, &timeout);
   if(ret == -1)
     return -1;
 
@@ -4353,13 +4353,13 @@ signed int tc_socket_connect(signed int fd, unsigned int ip, unsigned short int 
   remote_addr.sin_addr.s_addr = ip;
   remote_addr.sin_port=htons(port);
   len = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
-  signed int return_value_connect$2;
-  return_value_connect$2=connect(fd, (struct sockaddr *)&remote_addr, len);
-  if(return_value_connect$2 == -1)
+  signed int return_value_connect_2;
+  return_value_connect_2=connect(fd, (struct sockaddr *)&remote_addr, len);
+  if(return_value_connect_2 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    tc_log_info(4, *return_value___errno_location$1, "Can not connect to remote server(%d:%d)", ip, port);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    tc_log_info(4, *return_value___errno_location_1, "Can not connect to remote server(%d:%d)", ip, port);
     return -1;
   }
 
@@ -4374,9 +4374,9 @@ signed int tc_socket_init()
   fd=socket(2, 1, 0);
   if(fd == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    tc_log_info(4, *return_value___errno_location$1, "Create socket failed");
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    tc_log_info(4, *return_value___errno_location_1, "Create socket failed");
     return -1;
   }
 
@@ -4396,23 +4396,23 @@ signed int tc_socket_listen(signed int fd, const char *bind_ip, unsigned short i
     inet_aton(bind_ip, &local_addr.sin_addr);
 
   len = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
-  signed int return_value_bind$2;
-  return_value_bind$2=bind(fd, (struct sockaddr *)&local_addr, len);
-  if(return_value_bind$2 == -1)
+  signed int return_value_bind_2;
+  return_value_bind_2=bind(fd, (struct sockaddr *)&local_addr, len);
+  if(return_value_bind_2 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    tc_log_info(4, *return_value___errno_location$1, "Bind socket(%d) to port:%d failed", fd, port);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    tc_log_info(4, *return_value___errno_location_1, "Bind socket(%d) to port:%d failed", fd, port);
     return -1;
   }
 
-  signed int return_value_listen$4;
-  return_value_listen$4=listen(fd, 5);
-  if(return_value_listen$4 == -1)
+  signed int return_value_listen_4;
+  return_value_listen_4=listen(fd, 5);
+  if(return_value_listen_4 == -1)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    tc_log_info(4, *return_value___errno_location$3, "Listen socket(%d) failed", fd);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    tc_log_info(4, *return_value___errno_location_3, "Listen socket(%d) failed", fd);
     return -1;
   }
 
@@ -4431,9 +4431,9 @@ signed int tc_socket_recv(signed int fd, char *buffer, signed long int len)
     n=recv(fd, (void *)(buffer + (signed long int)last), (unsigned long int)len, 0);
     if(n == -1l)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 11)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 11)
         continue;
 
       else
@@ -4477,9 +4477,9 @@ signed int tc_socket_set_nodelay(signed int fd)
   unsigned int len;
   flag = 1;
   len = (unsigned int)sizeof(signed int) /*4ul*/ ;
-  signed int return_value_setsockopt$1;
-  return_value_setsockopt$1=setsockopt(fd, 6, 1, (const void *)(char *)&flag, len);
-  if(return_value_setsockopt$1 == -1)
+  signed int return_value_setsockopt_1;
+  return_value_setsockopt_1=setsockopt(fd, 6, 1, (const void *)(char *)&flag, len);
+  if(return_value_setsockopt_1 == -1)
     return -1;
 
   else
@@ -4508,13 +4508,13 @@ void tc_time_init()
 // file tc_time.c line 31
 signed int tc_time_remove_timer()
 {
-  signed int return_value_setitimer$2;
-  return_value_setitimer$2=setitimer(0, (struct itimerval *)(void *)0, (struct itimerval *)(void *)0);
-  if(return_value_setitimer$2 == -1)
+  signed int return_value_setitimer_2;
+  return_value_setitimer_2=setitimer(0, (struct itimerval *)(void *)0, (struct itimerval *)(void *)0);
+  if(return_value_setitimer_2 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    tc_log_info(4, *return_value___errno_location$1, "setitimer failed");
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    tc_log_info(4, *return_value___errno_location_1, "setitimer failed");
     return -1;
   }
 
@@ -4530,13 +4530,13 @@ signed int tc_time_set_timer(signed long int msec)
   value.it_value.tv_usec = (msec % (signed long int)1000) * (signed long int)1000;
   value.it_interval.tv_sec = msec / (signed long int)1000;
   value.it_interval.tv_usec = (msec % (signed long int)1000) * (signed long int)1000;
-  signed int return_value_setitimer$2;
-  return_value_setitimer$2=setitimer(0, &value, (struct itimerval *)(void *)0);
-  if(return_value_setitimer$2 == -1)
+  signed int return_value_setitimer_2;
+  return_value_setitimer_2=setitimer(0, &value, (struct itimerval *)(void *)0);
+  if(return_value_setitimer_2 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    tc_log_info(4, *return_value___errno_location$1, "setitimer failed");
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    tc_log_info(4, *return_value___errno_location_1, "setitimer failed");
     return -1;
   }
 

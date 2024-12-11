@@ -1,4 +1,4 @@
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -259,30 +259,30 @@ signed int loopexec(void)
   last_display=time((signed long int *)(void *)0);
   signed long int current_time;
   signed int doit;
-  double return_value_difftime$2;
-  double return_value_difftime$1;
+  double return_value_difftime_2;
+  double return_value_difftime_1;
   while((_Bool)1)
   {
     sleep((unsigned int)1);
     pthread_mutex_lock(&plock);
     current_time=time((signed long int *)(void *)0);
     doit = 0;
-    double return_value_difftime$4;
-    return_value_difftime$4=difftime(last_input, last_display);
-    if(return_value_difftime$4 > 0.000000)
+    double return_value_difftime_4;
+    return_value_difftime_4=difftime(last_input, last_display);
+    if(return_value_difftime_4 > 0.000000)
     {
-      double return_value_difftime$3;
-      return_value_difftime$3=difftime(current_time, last_input);
-      if(return_value_difftime$3 > (double)wait_sleeptime)
+      double return_value_difftime_3;
+      return_value_difftime_3=difftime(current_time, last_input);
+      if(return_value_difftime_3 > (double)wait_sleeptime)
         doit = 1;
 
       else
       {
-        return_value_difftime$2=difftime(current_time, last_display);
-        if(return_value_difftime$2 > 20.000000)
+        return_value_difftime_2=difftime(current_time, last_display);
+        if(return_value_difftime_2 > 20.000000)
         {
-          return_value_difftime$1=difftime(current_time, last_input);
-          if(return_value_difftime$1 > 0.000000)
+          return_value_difftime_1=difftime(current_time, last_input);
+          if(return_value_difftime_1 > 0.000000)
             doit = 1;
 
         }
@@ -385,9 +385,9 @@ void new_temporary_filename(void)
   signed int fd;
   if(!(temporary_filename == ((char *)NULL)))
   {
-    signed int return_value_fork$1;
-    return_value_fork$1=fork();
-    if(return_value_fork$1 == 0)
+    signed int return_value_fork_1;
+    return_value_fork_1=fork();
+    if(return_value_fork_1 == 0)
     {
       sleep((unsigned int)10);
       unlink(temporary_filename);
@@ -398,9 +398,9 @@ void new_temporary_filename(void)
     temporary_filename = (char *)(void *)0;
   }
 
-  char *return_value_getenv$2;
-  return_value_getenv$2=getenv("TMPDIR");
-  asprintf(&temporary_filename, "%s/wysidocbookXXXXXX", (_Bool)return_value_getenv$2 ? return_value_getenv$2 : "/tmp");
+  char *return_value_getenv_2;
+  return_value_getenv_2=getenv("TMPDIR");
+  asprintf(&temporary_filename, "%s/wysidocbookXXXXXX", (_Bool)return_value_getenv_2 ? return_value_getenv_2 : "/tmp");
   fd=mkstemp(temporary_filename);
   close(fd);
   waitpid(-1, (signed int *)(void *)0, 1);

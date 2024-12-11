@@ -1,24 +1,24 @@
-// #anon_enum$USB_ERROR_TYPE_NONE=0$USB_ERROR_TYPE_STRING=1$USB_ERROR_TYPE_ERRNO=2
+// #anon_enum_USB_ERROR_TYPE_NONE=0_USB_ERROR_TYPE_STRING=1_USB_ERROR_TYPE_ERRNO=2
 // file emulation.c line 46
-enum anonymous$1 { USB_ERROR_TYPE_NONE=0, USB_ERROR_TYPE_STRING=1, USB_ERROR_TYPE_ERRNO=2 };
+enum anonymous_1 { USB_ERROR_TYPE_NONE=0, USB_ERROR_TYPE_STRING=1, USB_ERROR_TYPE_ERRNO=2 };
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -545,18 +545,18 @@ signed int openusb_set_configuration(unsigned long int dev, unsigned char cfg);
 // openusb_set_debug
 // file usb.c line 738
 void openusb_set_debug(unsigned long int handle, unsigned int level, unsigned int flags, void (*callback)(unsigned long int, const char *, void **));
-// openusb_set_debug::callback$object
+// openusb_set_debug::callback_object
 //
-void callback$object(unsigned long int, const char *, void **);
+void callback_object(unsigned long int, const char *, void **);
 // openusb_set_default_timeout
 // file ../src/openusb.h line 636
 signed int openusb_set_default_timeout(unsigned long int handle, enum openusb_transfer_type type, unsigned int timeout);
 // openusb_set_event_callback
 // file ../src/openusb.h line 579
 signed int openusb_set_event_callback(unsigned long int handle, enum openusb_event type, void (*callback)(unsigned long int, unsigned long int, enum openusb_event, void *), void *arg);
-// openusb_set_event_callback::callback$object
+// openusb_set_event_callback::callback_object
 //
-void callback$object(unsigned long int, unsigned long int, enum openusb_event, void *);
+void callback_object(unsigned long int, unsigned long int, enum openusb_event, void *);
 // openusb_start
 // file api.c line 1398
 signed int openusb_start(struct openusb_multi_request_handle *handle);
@@ -602,27 +602,27 @@ extern signed int printf(const char *, ...);
 // process_event_callbacks
 // file usb.c line 139
 static void * process_event_callbacks(void *unused);
-// process_event_callbacks::1::1::2::func$object
+// process_event_callbacks::1::1::2::func_object
 //
-void func$object(unsigned long int, unsigned long int, enum openusb_event, void *);
+void func_object(unsigned long int, unsigned long int, enum openusb_event, void *);
 // process_multi_request
 // file api.c line 1177
 static signed int process_multi_request(void *arg);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$4 *);
+extern signed int pthread_cond_broadcast(union anonymous_4 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$4 *);
+extern signed int pthread_cond_destroy(union anonymous_4 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$4 *, const union anonymous$2 *);
+extern signed int pthread_cond_init(union anonymous_4 *, const union anonymous_2 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$4 *);
+extern signed int pthread_cond_signal(union anonymous_4 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$4 *, union anonymous *);
+extern signed int pthread_cond_wait(union anonymous_4 *, union anonymous *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -634,7 +634,7 @@ extern signed int pthread_join(unsigned long int, void **);
 extern signed int pthread_mutex_destroy(union anonymous *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$2 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_2 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -658,7 +658,7 @@ extern struct dirent * readdir(struct __dirstream *);
 static void refresh_bus(struct usbi_backend *backend);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$0 *, struct anonymous$0 *, struct anonymous$0 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_0 *, struct anonymous_0 *, struct anonymous_0 *, struct timeval *);
 // simple_io_complete
 // file io.c line 328
 static void simple_io_complete(struct simple_io *io, signed int status);
@@ -996,13 +996,13 @@ static signed int wr_setup_dev_config(struct usb_device *dev, unsigned long int 
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$0
+struct anonymous_0
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // __lock
   signed int __lock;
@@ -1022,7 +1022,7 @@ struct anonymous$3
   unsigned int __broadcast_seq;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __size
   char __size[4l];
@@ -1030,10 +1030,10 @@ union anonymous$2
   signed int __align;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __data
-  struct anonymous$3 __data;
+  struct anonymous_3 __data;
   // __size
   char __size[48l];
   // __align
@@ -1521,7 +1521,7 @@ struct simple_io
   // lock
   union anonymous lock;
   // complete
-  union anonymous$4 complete;
+  union anonymous_4 complete;
   // completed
   signed int completed;
   // status
@@ -2053,13 +2053,13 @@ struct usbi_handle
   // coldplug_complete
   unsigned char coldplug_complete;
   // coldplug_cv
-  union anonymous$4 coldplug_cv;
+  union anonymous_4 coldplug_cv;
   // complete_list
   struct list_head complete_list;
   // complete_lock
   union anonymous complete_lock;
   // complete_cv
-  union anonymous$4 complete_cv;
+  union anonymous_4 complete_cv;
   // complete_count
   signed int complete_count;
   // timeout
@@ -2097,7 +2097,7 @@ struct usbi_io
   // timeout
   unsigned int timeout;
   // cond
-  union anonymous$4 cond;
+  union anonymous_4 cond;
   // priv
   struct usbi_io_private *priv;
 };
@@ -2125,7 +2125,7 @@ struct usbi_multi_request
   // lock
   union anonymous lock;
   // cv
-  union anonymous$4 cv;
+  union anonymous_4 cv;
   // flag
   signed int flag;
 };
@@ -2184,7 +2184,7 @@ static struct errorstr errorstrs[29l] = { { .code=0, .msg="Call success" }, { .c
     { .code=-62, .msg="I/O timeout" }, { .code=-63, .msg="I/O canceled" } };
 // event_callback_cond
 // file usb.c line 55
-static union anonymous$4 event_callback_cond;
+static union anonymous_4 event_callback_cond;
 // event_callback_exit
 // file usb.c line 56
 static volatile signed int event_callback_exit = 0;
@@ -2244,7 +2244,7 @@ static signed int usb_error_errno;
 static char usb_error_string[1024l];
 // usb_error_type
 // file emulation.c line 53
-static enum anonymous$1 usb_error_type = (enum anonymous$1)USB_ERROR_TYPE_NONE;
+static enum anonymous_1 usb_error_type = (enum anonymous_1)USB_ERROR_TYPE_NONE;
 // usbi_buses
 // file usb.c line 29
 struct usbi_list usbi_buses;
@@ -2275,7 +2275,7 @@ void _usbi_debug(struct usbi_handle *hdl, unsigned int level, const char *func, 
 {
   char str[512l];
   void **ap;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(hdl == ((struct usbi_handle *)NULL)) || (unsigned int)openusb_global_debug_level >= level)
   {
     if(!(hdl == ((struct usbi_handle *)NULL)))
@@ -2294,11 +2294,11 @@ void _usbi_debug(struct usbi_handle *hdl, unsigned int level, const char *func, 
       ;
       ap = (void **)&fmt;
       if(!(hdl == ((struct usbi_handle *)NULL)))
-        tmp_if_expr$1 = hdl->debug_cb != ((void (*)(unsigned long int, const char *, void **))NULL) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = hdl->debug_cb != ((void (*)(unsigned long int, const char *, void **))NULL) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
       {
         snprintf(str, sizeof(char [512l]) /*512ul*/ , "openusb: [%s:%d] %s", func, line, fmt);
         hdl->debug_cb(hdl->handle, str, ap);
@@ -2331,18 +2331,18 @@ static signed int advance_xfer_test(void)
   ret=openusb_get_devids_by_class(libhandle, (signed short int)0xff, (signed short int)-1, (signed short int)-1, &devids, &devnum);
   if(!(ret >= 0))
   {
-    const char *return_value_openusb_strerror$1;
-    return_value_openusb_strerror$1=openusb_strerror(ret);
-    printf("Error get devids by class: %s\n", return_value_openusb_strerror$1);
+    const char *return_value_openusb_strerror_1;
+    return_value_openusb_strerror_1=openusb_strerror(ret);
+    printf("Error get devids by class: %s\n", return_value_openusb_strerror_1);
     return -1;
   }
 
   ret=openusb_open_device(libhandle, devids[(signed long int)0], (enum openusb_init_flag)0, &devh);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$2;
-    return_value_openusb_strerror$2=openusb_strerror(ret);
-    printf("Open device(%d) error: %s\n", (signed int)devids[(signed long int)0], return_value_openusb_strerror$2);
+    const char *return_value_openusb_strerror_2;
+    return_value_openusb_strerror_2=openusb_strerror(ret);
+    printf("Open device(%d) error: %s\n", (signed int)devids[(signed long int)0], return_value_openusb_strerror_2);
     goto err;
   }
 
@@ -2350,9 +2350,9 @@ static signed int advance_xfer_test(void)
   ret=openusb_get_devid(devh, &devid);
   if(!(ret >= 0))
   {
-    const char *return_value_openusb_strerror$3;
-    return_value_openusb_strerror$3=openusb_strerror(ret);
-    printf("Error get devids by handle: %s\n", return_value_openusb_strerror$3);
+    const char *return_value_openusb_strerror_3;
+    return_value_openusb_strerror_3=openusb_strerror(ret);
+    printf("Error get devids by handle: %s\n", return_value_openusb_strerror_3);
     goto err;
   }
 
@@ -2360,9 +2360,9 @@ static signed int advance_xfer_test(void)
   ret=openusb_get_lib_handle(devh, &libh);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$4;
-    return_value_openusb_strerror$4=openusb_strerror(ret);
-    printf("Get device(%llu) lib handle error: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror$4);
+    const char *return_value_openusb_strerror_4;
+    return_value_openusb_strerror_4=openusb_strerror(ret);
+    printf("Get device(%llu) lib handle error: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror_4);
     goto err;
   }
 
@@ -2386,18 +2386,18 @@ static signed int advance_xfer_test(void)
   ret=openusb_set_configuration(devh, (unsigned char)1);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$5;
-    return_value_openusb_strerror$5=openusb_strerror(ret);
-    printf("Set device(%llu) config error: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror$5);
+    const char *return_value_openusb_strerror_5;
+    return_value_openusb_strerror_5=openusb_strerror(ret);
+    printf("Set device(%llu) config error: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror_5);
     goto err;
   }
 
   ret=openusb_get_configuration(devh, &cfg);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$6;
-    return_value_openusb_strerror$6=openusb_strerror(ret);
-    printf("Get device(%llu) config error: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror$6);
+    const char *return_value_openusb_strerror_6;
+    return_value_openusb_strerror_6=openusb_strerror(ret);
+    printf("Get device(%llu) config error: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror_6);
     goto err;
   }
 
@@ -2405,9 +2405,9 @@ static signed int advance_xfer_test(void)
   ret=openusb_claim_interface(devh, (unsigned char)0, (enum openusb_init_flag)0);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$7;
-    return_value_openusb_strerror$7=openusb_strerror(ret);
-    printf("Device(%llu) claim interface error: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror$7);
+    const char *return_value_openusb_strerror_7;
+    return_value_openusb_strerror_7=openusb_strerror(ret);
+    printf("Device(%llu) claim interface error: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror_7);
     goto err;
   }
 
@@ -2416,18 +2416,18 @@ static signed int advance_xfer_test(void)
   ret=openusb_set_altsetting(devh, (unsigned char)0, (unsigned char)0);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$8;
-    return_value_openusb_strerror$8=openusb_strerror(ret);
-    printf("Device(%llu) interface(0) set alt: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror$8);
+    const char *return_value_openusb_strerror_8;
+    return_value_openusb_strerror_8=openusb_strerror(ret);
+    printf("Device(%llu) interface(0) set alt: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror_8);
     goto err;
   }
 
   ret=openusb_get_altsetting(devh, (unsigned char)0, &alt);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$9;
-    return_value_openusb_strerror$9=openusb_strerror(ret);
-    printf("Device(%llu) interface(0) get alt: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror$9);
+    const char *return_value_openusb_strerror_9;
+    return_value_openusb_strerror_9=openusb_strerror(ret);
+    printf("Device(%llu) interface(0) get alt: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror_9);
     goto err;
   }
 
@@ -2435,9 +2435,9 @@ static signed int advance_xfer_test(void)
   ret=openusb_release_interface(devh, (unsigned char)0);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$10;
-    return_value_openusb_strerror$10=openusb_strerror(ret);
-    printf("Device(%llu) release interface error: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror$10);
+    const char *return_value_openusb_strerror_10;
+    return_value_openusb_strerror_10=openusb_strerror(ret);
+    printf("Device(%llu) release interface error: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror_10);
     goto err;
   }
 
@@ -2476,9 +2476,9 @@ static signed int async_xfer_ctrl_test(unsigned long int devh)
   ctrl.setup.wValue = (unsigned short int)(0x02 << 8 | 0x01);
   ctrl.setup.wIndex = (unsigned short int)0;
   ctrl.length = (unsigned int)0xab;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)ctrl.length);
-  ctrl.payload = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)ctrl.length);
+  ctrl.payload = (unsigned char *)return_value_malloc_1;
   if(ctrl.payload == ((unsigned char *)NULL))
   {
     printf("malloc fail\n");
@@ -2487,9 +2487,9 @@ static signed int async_xfer_ctrl_test(unsigned long int devh)
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct openusb_request_handle) /*40ul*/ );
-    req = (struct openusb_request_handle *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct openusb_request_handle) /*40ul*/ );
+    req = (struct openusb_request_handle *)return_value_malloc_2;
     memset((void *)req, 0, sizeof(struct openusb_request_handle) /*40ul*/ );
     req->dev = devh;
     req->interface = (unsigned char)0;
@@ -2498,18 +2498,18 @@ static signed int async_xfer_ctrl_test(unsigned long int devh)
     ret=openusb_claim_interface(devh, (unsigned char)0, (enum openusb_init_flag)0);
     if(!(ret == 0))
     {
-      const char *return_value_openusb_strerror$3;
-      return_value_openusb_strerror$3=openusb_strerror(ret);
-      printf("Device(%llu) claim interface error: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror$3);
+      const char *return_value_openusb_strerror_3;
+      return_value_openusb_strerror_3=openusb_strerror(ret);
+      printf("Device(%llu) claim interface error: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror_3);
       return -1;
     }
 
     ret=openusb_set_altsetting(devh, (unsigned char)0, (unsigned char)0);
     if(!(ret == 0))
     {
-      const char *return_value_openusb_strerror$4;
-      return_value_openusb_strerror$4=openusb_strerror(ret);
-      printf("Device(%llu) interface(0) set alt: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror$4);
+      const char *return_value_openusb_strerror_4;
+      return_value_openusb_strerror_4=openusb_strerror(ret);
+      printf("Device(%llu) interface(0) set alt: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror_4);
       return -1;
     }
 
@@ -2517,18 +2517,18 @@ static signed int async_xfer_ctrl_test(unsigned long int devh)
     ret=openusb_xfer_aio(req);
     if(!(ret == 0))
     {
-      const char *return_value_openusb_strerror$5;
-      return_value_openusb_strerror$5=openusb_strerror(ret);
-      printf("xfer fail: %s\n", return_value_openusb_strerror$5);
+      const char *return_value_openusb_strerror_5;
+      return_value_openusb_strerror_5=openusb_strerror(ret);
+      printf("xfer fail: %s\n", return_value_openusb_strerror_5);
       return -1;
     }
 
     ret=openusb_wait((unsigned int)1, &req, &completed);
     if(!(ret >= 0))
     {
-      const char *return_value_openusb_strerror$6;
-      return_value_openusb_strerror$6=openusb_strerror(ret);
-      printf("Ctrl async xfer fail: %s\n", return_value_openusb_strerror$6);
+      const char *return_value_openusb_strerror_6;
+      return_value_openusb_strerror_6=openusb_strerror(ret);
+      printf("Ctrl async xfer fail: %s\n", return_value_openusb_strerror_6);
       return -1;
     }
 
@@ -2543,9 +2543,9 @@ static signed int async_xfer_ctrl_test(unsigned long int devh)
 
     if(!(ret == 0))
     {
-      const char *return_value_openusb_strerror$7;
-      return_value_openusb_strerror$7=openusb_strerror(ret);
-      printf("Ctrl async xfer fail: %s\n", return_value_openusb_strerror$7);
+      const char *return_value_openusb_strerror_7;
+      return_value_openusb_strerror_7=openusb_strerror(ret);
+      printf("Ctrl async xfer fail: %s\n", return_value_openusb_strerror_7);
       return -1;
     }
 
@@ -2554,9 +2554,9 @@ static signed int async_xfer_ctrl_test(unsigned long int devh)
       ret=openusb_poll((unsigned int)1, &req, &completed);
       if(!(ret == 0))
       {
-        const char *return_value_openusb_strerror$8;
-        return_value_openusb_strerror$8=openusb_strerror(ret);
-        printf("async xfer poll: %s\n", return_value_openusb_strerror$8);
+        const char *return_value_openusb_strerror_8;
+        return_value_openusb_strerror_8=openusb_strerror(ret);
+        printf("async xfer poll: %s\n", return_value_openusb_strerror_8);
         return -1;
       }
 
@@ -2601,8 +2601,8 @@ static signed int async_xfer_test(unsigned long int devh, enum openusb_transfer_
   struct openusb_request_handle *reqs[3l];
   struct openusb_request_handle *completed;
   signed int loopcnt;
-  void *return_value_malloc$9;
-  void *return_value_calloc$10;
+  void *return_value_malloc_9;
+  void *return_value_calloc_10;
   if(!((signed int)type == USB_TYPE_INTERRUPT) && !((signed int)type == USB_TYPE_BULK) && !((signed int)type == USB_TYPE_ISOCHRONOUS))
     return 0;
 
@@ -2618,12 +2618,12 @@ static signed int async_xfer_test(unsigned long int devh, enum openusb_transfer_
     i = 0;
     for( ; !(i >= 12); i = i + 1)
       isocrd[(signed long int)i] = (unsigned char)(i + 2);
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct openusb_request_handle) /*40ul*/ );
-    req = (struct openusb_request_handle *)return_value_malloc$1;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct openusb_request_handle) /*40ul*/ );
-    req1 = (struct openusb_request_handle *)return_value_malloc$2;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct openusb_request_handle) /*40ul*/ );
+    req = (struct openusb_request_handle *)return_value_malloc_1;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct openusb_request_handle) /*40ul*/ );
+    req1 = (struct openusb_request_handle *)return_value_malloc_2;
     memset((void *)req, 0, sizeof(struct openusb_request_handle) /*40ul*/ );
     memset((void *)req1, 0, sizeof(struct openusb_request_handle) /*40ul*/ );
     req->dev = devh;
@@ -2639,9 +2639,9 @@ static signed int async_xfer_test(unsigned long int devh, enum openusb_transfer_
     ret=openusb_claim_interface(devh, (unsigned char)0, (enum openusb_init_flag)0);
     if(!(ret == 0))
     {
-      const char *return_value_openusb_strerror$3;
-      return_value_openusb_strerror$3=openusb_strerror(ret);
-      printf("Device(%llu) claim interface error: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror$3);
+      const char *return_value_openusb_strerror_3;
+      return_value_openusb_strerror_3=openusb_strerror(ret);
+      printf("Device(%llu) claim interface error: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror_3);
       return -1;
     }
 
@@ -2654,9 +2654,9 @@ static signed int async_xfer_test(unsigned long int devh, enum openusb_transfer_
 
     if(!(ret == 0))
     {
-      const char *return_value_openusb_strerror$4;
-      return_value_openusb_strerror$4=openusb_strerror(ret);
-      printf("Device(%llu) interface(0) set alt: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror$4);
+      const char *return_value_openusb_strerror_4;
+      return_value_openusb_strerror_4=openusb_strerror(ret);
+      printf("Device(%llu) interface(0) set alt: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror_4);
       return -1;
     }
 
@@ -2679,9 +2679,9 @@ static signed int async_xfer_test(unsigned long int devh, enum openusb_transfer_
           if((signed int)type == USB_TYPE_ISOCHRONOUS)
           {
             signed int pktsize = (signed int)sizeof(struct openusb_isoc_packet) /*16ul*/ ;
-            void *return_value_malloc$5;
-            return_value_malloc$5=malloc((unsigned long int)(pktsize * 12));
-            isoc.pkts.packets = (struct openusb_isoc_packet *)return_value_malloc$5;
+            void *return_value_malloc_5;
+            return_value_malloc_5=malloc((unsigned long int)(pktsize * 12));
+            isoc.pkts.packets = (struct openusb_isoc_packet *)return_value_malloc_5;
             i = 0;
             for( ; !(i >= 12); i = i + 1)
             {
@@ -2689,9 +2689,9 @@ static signed int async_xfer_test(unsigned long int devh, enum openusb_transfer_
               (isoc.pkts.packets + (signed long int)i)->payload = isocrd + (signed long int)(128 * i);
             }
             isoc.pkts.num_packets = (unsigned int)12;
-            void *return_value_malloc$6;
-            return_value_malloc$6=malloc(sizeof(struct openusb_request_result) /*8ul*/  * (unsigned long int)12);
-            isoc.isoc_results = (struct openusb_request_result *)return_value_malloc$6;
+            void *return_value_malloc_6;
+            return_value_malloc_6=malloc(sizeof(struct openusb_request_result) /*8ul*/  * (unsigned long int)12);
+            isoc.isoc_results = (struct openusb_request_result *)return_value_malloc_6;
             if(isoc.isoc_results == ((struct openusb_request_result *)NULL))
               return -1;
 
@@ -2716,18 +2716,18 @@ static signed int async_xfer_test(unsigned long int devh, enum openusb_transfer_
       }
       if(!(ret == 0))
       {
-        const char *return_value_openusb_strerror$7;
-        return_value_openusb_strerror$7=openusb_strerror(ret);
-        printf("xfer fail: %s\n", return_value_openusb_strerror$7);
+        const char *return_value_openusb_strerror_7;
+        return_value_openusb_strerror_7=openusb_strerror(ret);
+        printf("xfer fail: %s\n", return_value_openusb_strerror_7);
         return -1;
       }
 
       ret=openusb_wait((unsigned int)1, &req, &completed);
       if(!(ret >= 0))
       {
-        const char *return_value_openusb_strerror$8;
-        return_value_openusb_strerror$8=openusb_strerror(ret);
-        printf("Async xfer fail: %s\n", return_value_openusb_strerror$8);
+        const char *return_value_openusb_strerror_8;
+        return_value_openusb_strerror_8=openusb_strerror(ret);
+        printf("Async xfer fail: %s\n", return_value_openusb_strerror_8);
         return -1;
       }
 
@@ -2759,8 +2759,8 @@ static signed int async_xfer_test(unsigned long int devh, enum openusb_transfer_
       }
       case USB_TYPE_ISOCHRONOUS:
       {
-        return_value_malloc$9=malloc(sizeof(struct openusb_isoc_packet) /*16ul*/  * (unsigned long int)12);
-        isoc.pkts.packets = (struct openusb_isoc_packet *)return_value_malloc$9;
+        return_value_malloc_9=malloc(sizeof(struct openusb_isoc_packet) /*16ul*/  * (unsigned long int)12);
+        isoc.pkts.packets = (struct openusb_isoc_packet *)return_value_malloc_9;
         i = 0;
         for( ; !(i >= 12); i = i + 1)
         {
@@ -2768,8 +2768,8 @@ static signed int async_xfer_test(unsigned long int devh, enum openusb_transfer_
           (isoc.pkts.packets + (signed long int)i)->payload = isocrd + (signed long int)(128 * i);
         }
         isoc.pkts.num_packets = (unsigned int)12;
-        return_value_calloc$10=calloc(sizeof(struct openusb_request_result) /*8ul*/  * (unsigned long int)12, (unsigned long int)1);
-        isoc.isoc_results = (struct openusb_request_result *)return_value_calloc$10;
+        return_value_calloc_10=calloc(sizeof(struct openusb_request_result) /*8ul*/  * (unsigned long int)12, (unsigned long int)1);
+        isoc.isoc_results = (struct openusb_request_result *)return_value_calloc_10;
         if(isoc.isoc_results == ((struct openusb_request_result *)NULL))
           return -1;
 
@@ -2779,18 +2779,18 @@ static signed int async_xfer_test(unsigned long int devh, enum openusb_transfer_
         ret=openusb_xfer_aio(req);
         if(!(ret == 0))
         {
-          const char *return_value_openusb_strerror$11;
-          return_value_openusb_strerror$11=openusb_strerror(ret);
-          printf("ret=%d(%s)\n", ret, return_value_openusb_strerror$11);
+          const char *return_value_openusb_strerror_11;
+          return_value_openusb_strerror_11=openusb_strerror(ret);
+          printf("ret=%d(%s)\n", ret, return_value_openusb_strerror_11);
         }
 
         memcpy((void *)req1, (const void *)req, sizeof(struct openusb_request_handle) /*40ul*/ );
         ret=openusb_xfer_aio(req1);
         if(!(ret == 0))
         {
-          const char *return_value_openusb_strerror$12;
-          return_value_openusb_strerror$12=openusb_strerror(ret);
-          printf("ret=%d(%s)\n", ret, return_value_openusb_strerror$12);
+          const char *return_value_openusb_strerror_12;
+          return_value_openusb_strerror_12=openusb_strerror(ret);
+          printf("ret=%d(%s)\n", ret, return_value_openusb_strerror_12);
         }
 
         break;
@@ -2800,9 +2800,9 @@ static signed int async_xfer_test(unsigned long int devh, enum openusb_transfer_
     }
     if(!(ret == 0))
     {
-      const char *return_value_openusb_strerror$13;
-      return_value_openusb_strerror$13=openusb_strerror(ret);
-      printf("async xfer fail: %s\n", return_value_openusb_strerror$13);
+      const char *return_value_openusb_strerror_13;
+      return_value_openusb_strerror_13=openusb_strerror(ret);
+      printf("async xfer fail: %s\n", return_value_openusb_strerror_13);
       return -1;
     }
 
@@ -2821,9 +2821,9 @@ static signed int async_xfer_test(unsigned long int devh, enum openusb_transfer_
       ret=openusb_poll((unsigned int)loopcnt, reqs, &completed);
       if(!(ret == 0))
       {
-        const char *return_value_openusb_strerror$14;
-        return_value_openusb_strerror$14=openusb_strerror(ret);
-        printf("async xfer poll: %s\n", return_value_openusb_strerror$14);
+        const char *return_value_openusb_strerror_14;
+        return_value_openusb_strerror_14=openusb_strerror(ret);
+        printf("async xfer poll: %s\n", return_value_openusb_strerror_14);
         return -1;
       }
 
@@ -2864,7 +2864,7 @@ static signed int async_xfer_test(unsigned long int devh, enum openusb_transfer_
             i = 0;
             for( ; !(i >= 12); i = i + 1)
             {
-              unsigned char *async_xfer_test$$1$$11$$4$$1$$1$$p;
+              unsigned char *async_xfer_test__1__11__4__1__1__p;
               unsigned char status;
               unsigned int bytes;
               if(completed == ((struct openusb_request_handle *)NULL))
@@ -2880,14 +2880,14 @@ static signed int async_xfer_test(unsigned long int devh, enum openusb_transfer_
               printf("\tTbytes=%d\n", bytes);
               printf("\n");
               printf("ISOC packet: %d DATA\n", i);
-              async_xfer_test$$1$$11$$4$$1$$1$$p = (completed->req.isoc->pkts.packets + (signed long int)i)->payload;
+              async_xfer_test__1__11__4__1__1__p = (completed->req.isoc->pkts.packets + (signed long int)i)->payload;
               j = 0;
               for( ; !(j >= 128); j = j + 1)
               {
                 if(j % 16 == 0)
                   printf("\n");
 
-                printf("%02x ", (unsigned char)async_xfer_test$$1$$11$$4$$1$$1$$p[(signed long int)j]);
+                printf("%02x ", (unsigned char)async_xfer_test__1__11__4__1__1__p[(signed long int)j]);
               }
             }
           }
@@ -2908,9 +2908,9 @@ static signed int basic_test(void)
   ret=openusb_init(flags, &libhandle);
   if(!(ret >= 0))
   {
-    const char *return_value_openusb_strerror$1;
-    return_value_openusb_strerror$1=openusb_strerror(ret);
-    printf("error init: %s (%d)\n", return_value_openusb_strerror$1, ret);
+    const char *return_value_openusb_strerror_1;
+    return_value_openusb_strerror_1=openusb_strerror(ret);
+    printf("error init: %s (%d)\n", return_value_openusb_strerror_1, ret);
     exit(1);
   }
 
@@ -2919,18 +2919,18 @@ static signed int basic_test(void)
   ret=openusb_set_event_callback(libhandle, (enum openusb_event)USB_ATTACH, event_cb, (void *)0);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$2;
-    return_value_openusb_strerror$2=openusb_strerror(ret);
-    printf("set event callback error: %s\n", return_value_openusb_strerror$2);
+    const char *return_value_openusb_strerror_2;
+    return_value_openusb_strerror_2=openusb_strerror(ret);
+    printf("set event callback error: %s\n", return_value_openusb_strerror_2);
     return -1;
   }
 
   ret=openusb_set_event_callback(libhandle, (enum openusb_event)USB_REMOVE, event_cb, (void *)0);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$3;
-    return_value_openusb_strerror$3=openusb_strerror(ret);
-    printf("set event callback error: %s\n", return_value_openusb_strerror$3);
+    const char *return_value_openusb_strerror_3;
+    return_value_openusb_strerror_3=openusb_strerror(ret);
+    printf("set event callback error: %s\n", return_value_openusb_strerror_3);
     return -1;
   }
 
@@ -2938,9 +2938,9 @@ static signed int basic_test(void)
   ret=openusb_set_default_timeout(libhandle, (enum openusb_transfer_type)USB_TYPE_CONTROL, (unsigned int)10);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$4;
-    return_value_openusb_strerror$4=openusb_strerror(ret);
-    printf("set timeout error: %s\n", return_value_openusb_strerror$4);
+    const char *return_value_openusb_strerror_4;
+    return_value_openusb_strerror_4=openusb_strerror(ret);
+    printf("set timeout error: %s\n", return_value_openusb_strerror_4);
     return -1;
   }
 
@@ -2948,9 +2948,9 @@ static signed int basic_test(void)
   ret=openusb_get_busid_list(libhandle, &bus, &busnum);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$5;
-    return_value_openusb_strerror$5=openusb_strerror(ret);
-    printf("busid error: %s\n", return_value_openusb_strerror$5);
+    const char *return_value_openusb_strerror_5;
+    return_value_openusb_strerror_5=openusb_strerror(ret);
+    printf("busid error: %s\n", return_value_openusb_strerror_5);
     return -1;
   }
 
@@ -2984,9 +2984,9 @@ static signed int check_req_valid(struct openusb_request_handle *req, struct usb
 
   if(!(dev->lib_hdl->debug_level >= 5u))
   {
-    signed int return_value_openusb_is_interface_claimed$1;
-    return_value_openusb_is_interface_claimed$1=openusb_is_interface_claimed(dev->handle, ifc);
-    if(return_value_openusb_is_interface_claimed$1 == 1)
+    signed int return_value_openusb_is_interface_claimed_1;
+    return_value_openusb_is_interface_claimed_1=openusb_is_interface_claimed(dev->handle, ifc);
+    if(return_value_openusb_is_interface_claimed_1 == 1)
       return 0;
 
     else
@@ -3133,8 +3133,8 @@ static signed int convert_string(char *buf, struct usb_string_desc *st, signed i
   unsigned char *tbuf = (unsigned char *)st;
   di = 0;
   si = 2;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
   for( ; !(si >= (signed int)*tbuf); si = si + 2)
   {
     if(di >= buflen + -1)
@@ -3142,16 +3142,16 @@ static signed int convert_string(char *buf, struct usb_string_desc *st, signed i
 
     if(!(tbuf[(signed long int)(1 + si)] == 0))
     {
-      tmp_post$1 = di;
+      tmp_post_1 = di;
       di = di + 1;
-      buf[(signed long int)tmp_post$1] = (char)63;
+      buf[(signed long int)tmp_post_1] = (char)63;
     }
 
     else
     {
-      tmp_post$2 = di;
+      tmp_post_2 = di;
       di = di + 1;
-      buf[(signed long int)tmp_post$2] = (char)tbuf[(signed long int)si];
+      buf[(signed long int)tmp_post_2] = (char)tbuf[(signed long int)si];
     }
   }
   buf[(signed long int)di] = (char)0;
@@ -3268,9 +3268,9 @@ static void * io_submit(void *arg)
   struct usbi_io *iop = (struct usbi_io *)arg;
   signed int ret;
   struct usbi_dev_handle *dev;
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  _usbi_debug(iop->dev->lib_hdl, (unsigned int)4, "io_submit", (unsigned int)424, "Begin: TID= %d", return_value_pthread_self$1);
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  _usbi_debug(iop->dev->lib_hdl, (unsigned int)4, "io_submit", (unsigned int)424, "Begin: TID= %d", return_value_pthread_self_1);
   if(iop == ((struct usbi_io *)NULL))
     return (void *)0;
 
@@ -3313,13 +3313,13 @@ void list_add(struct list_head *entry, struct list_head *head)
 // file list.h line 11
 void list_del(struct list_head *entry)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(entry->prev == ((struct list_head *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = entry->next == (struct list_head *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = entry->next == (struct list_head *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     entry->next->prev = entry->prev;
     entry->prev->next = entry->next;
@@ -3349,16 +3349,16 @@ static signed int load_backend(const char *filepath)
   handle=dlopen(filepath, 0x00001);
   if(handle == NULL)
   {
-    char *return_value_dlerror$1;
-    return_value_dlerror$1=dlerror();
-    fprintf(stderr, "dlerror: %s\n", return_value_dlerror$1);
+    char *return_value_dlerror_1;
+    return_value_dlerror_1=dlerror();
+    fprintf(stderr, "dlerror: %s\n", return_value_dlerror_1);
     goto err;
   }
 
-  void *return_value_dlsym$2;
-  return_value_dlsym$2=dlsym(handle, "backend_ops");
-  ops = (struct usbi_backend_ops *)return_value_dlsym$2;
-  void *return_value_calloc$3;
+  void *return_value_dlsym_2;
+  return_value_dlsym_2=dlsym(handle, "backend_ops");
+  ops = (struct usbi_backend_ops *)return_value_dlsym_2;
+  void *return_value_calloc_3;
   if(ops == ((struct usbi_backend_ops *)NULL))
     fprintf(stderr, "no backend ops, skipping\n");
 
@@ -3376,8 +3376,8 @@ static signed int load_backend(const char *filepath)
 
       else
       {
-        return_value_calloc$3=calloc(sizeof(struct usbi_backend) /*4136ul*/ , (unsigned long int)1);
-        backend = (struct usbi_backend *)return_value_calloc$3;
+        return_value_calloc_3=calloc(sizeof(struct usbi_backend) /*4136ul*/ , (unsigned long int)1);
+        backend = (struct usbi_backend *)return_value_calloc_3;
         if(backend == ((struct usbi_backend *)NULL))
           fprintf(stderr, "couldn't allocate memory for backend\n");
 
@@ -3431,13 +3431,13 @@ static signed int load_backends(const char *dirpath)
       p=strchr(entry->d_name, 0);
       if(p - entry->d_name >= 3l)
       {
-        signed int return_value_strncmp$1;
-        return_value_strncmp$1=strncmp(entry->d_name, "lib", (unsigned long int)3);
-        if(!(return_value_strncmp$1 == 0))
+        signed int return_value_strncmp_1;
+        return_value_strncmp_1=strncmp(entry->d_name, "lib", (unsigned long int)3);
+        if(!(return_value_strncmp_1 == 0))
         {
-          signed int return_value_strcmp$2;
-          return_value_strcmp$2=strcmp(p - (signed long int)3, ".so");
-          if(return_value_strcmp$2 == 0)
+          signed int return_value_strcmp_2;
+          return_value_strcmp_2=strcmp(p - (signed long int)3, ".so");
+          if(return_value_strcmp_2 == 0)
           {
             snprintf(filepath, sizeof(char [4096l]) /*4096ul*/ , "%s/%s", dirpath, (const void *)entry->d_name);
             _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)4, "load_backends", (unsigned int)306, "find backend path %s", (const void *)filepath);
@@ -3445,9 +3445,9 @@ static signed int load_backends(const char *dirpath)
             for( ; !(&backend->list == &backends); backend = (struct usbi_backend *)((char *)backend->list.next - (signed long int)(unsigned long int)&((struct usbi_backend *)0L)->list))
               if(!(backend == ((struct usbi_backend *)NULL)))
               {
-                signed int return_value_strcmp$3;
-                return_value_strcmp$3=strcmp(filepath, backend->filepath);
-                if(return_value_strcmp$3 == 0)
+                signed int return_value_strcmp_3;
+                return_value_strcmp_3=strcmp(filepath, backend->filepath);
+                if(return_value_strcmp_3 == 0)
                 {
                   found = 1;
                   break;
@@ -3457,9 +3457,9 @@ static signed int load_backends(const char *dirpath)
 
             if(found == 0)
             {
-              signed int return_value_load_backend$4;
-              return_value_load_backend$4=load_backend(filepath);
-              if(!(return_value_load_backend$4 == 0))
+              signed int return_value_load_backend_4;
+              return_value_load_backend_4=load_backend(filepath);
+              if(!(return_value_load_backend_4 == 0))
               {
                 err_load = err_load + 1;
                 fprintf(stderr, "fail to load %s\n", (const void *)filepath);
@@ -3485,9 +3485,9 @@ static signed int load_backends(const char *dirpath)
 signed int main(signed int argc, char **argv)
 {
   signed int ret;
-  signed int return_value_parse_option$1;
-  return_value_parse_option$1=parse_option(argc, argv);
-  if(!(return_value_parse_option$1 >= 0))
+  signed int return_value_parse_option_1;
+  return_value_parse_option_1=parse_option(argc, argv);
+  if(!(return_value_parse_option_1 >= 0))
     exit(1);
 
   ret=basic_test();
@@ -3547,9 +3547,9 @@ static signed int multi_req_callback(struct openusb_request_handle *req)
           len = (unsigned int)(sizeof(struct openusb_request_result) /*8ul*/  * (unsigned long int)(isoc->pkts + (signed long int)idx)->num_packets);
         }
 
-      void *return_value_calloc$1;
-      return_value_calloc$1=calloc((unsigned long int)len, (unsigned long int)1);
-      result = (struct openusb_request_result *)return_value_calloc$1;
+      void *return_value_calloc_1;
+      return_value_calloc_1=calloc((unsigned long int)len, (unsigned long int)1);
+      result = (struct openusb_request_result *)return_value_calloc_1;
       if(result == ((struct openusb_request_result *)NULL))
         return -2;
 
@@ -3641,9 +3641,9 @@ signed int openusb_bulk_xfer(unsigned long int dev, unsigned char ifc, unsigned 
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(sizeof(struct openusb_request_handle) /*40ul*/ , (unsigned long int)1);
-    reqp = (struct openusb_request_handle *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(sizeof(struct openusb_request_handle) /*40ul*/ , (unsigned long int)1);
+    reqp = (struct openusb_request_handle *)return_value_calloc_1;
     if(reqp == ((struct openusb_request_handle *)NULL))
       return -2;
 
@@ -3667,7 +3667,7 @@ signed int openusb_claim_interface(unsigned long int dev, unsigned char ifc, enu
 {
   struct usbi_dev_handle *hdev;
   signed int ret;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if((signed int)ifc >= 33)
     return -8;
 
@@ -3679,20 +3679,20 @@ signed int openusb_claim_interface(unsigned long int dev, unsigned char ifc, enu
 
     else
     {
-      signed int return_value_usbi_fetch_and_parse_descriptors$1;
-      return_value_usbi_fetch_and_parse_descriptors$1=usbi_fetch_and_parse_descriptors(hdev);
-      if(!(return_value_usbi_fetch_and_parse_descriptors$1 == 0))
+      signed int return_value_usbi_fetch_and_parse_descriptors_1;
+      return_value_usbi_fetch_and_parse_descriptors_1=usbi_fetch_and_parse_descriptors(hdev);
+      if(!(return_value_usbi_fetch_and_parse_descriptors_1 == 0))
         return -8;
 
       else
       {
         pthread_mutex_lock(&hdev->lock);
         if((signed int)ifc >= 32)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = (unsigned long int)ifc >= (hdev->idev->desc.configs + (signed long int)hdev->idev->cur_config_index)->num_interfaces ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (unsigned long int)ifc >= (hdev->idev->desc.configs + (signed long int)hdev->idev->cur_config_index)->num_interfaces ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
         {
           _usbi_debug(hdev->lib_hdl, (unsigned int)1, "openusb_claim_interface", (unsigned int)106, "interface %d not valid", ifc);
           pthread_mutex_unlock(&hdev->lock);
@@ -3811,9 +3811,9 @@ signed int openusb_ctrl_xfer(unsigned long int dev, unsigned char ifc, unsigned 
   else
   {
     _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)4, "openusb_ctrl_xfer", (unsigned int)635, "ifc=%d ept=%d bRequest=%d", ifc, ept, ctrl->setup.bRequest);
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(sizeof(struct openusb_request_handle) /*40ul*/ , (unsigned long int)1);
-    reqp = (struct openusb_request_handle *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(sizeof(struct openusb_request_handle) /*40ul*/ , (unsigned long int)1);
+    reqp = (struct openusb_request_handle *)return_value_calloc_1;
     if(reqp == ((struct openusb_request_handle *)NULL))
       return -2;
 
@@ -3985,13 +3985,13 @@ signed int openusb_get_busid_list(unsigned long int handle, unsigned long int **
   struct usbi_handle *hdl;
   struct usbi_bus *ibus;
   unsigned long int *tmp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(busids == ((unsigned long int **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = *busids != ((unsigned long int *)NULL) ? (_Bool)1 : (_Bool)0;
-  if(num_busids == ((unsigned int *)NULL) || tmp_if_expr$1)
+    tmp_if_expr_1 = *busids != ((unsigned long int *)NULL) ? (_Bool)1 : (_Bool)0;
+  if(num_busids == ((unsigned int *)NULL) || tmp_if_expr_1)
     return -8;
 
   else
@@ -4017,9 +4017,9 @@ signed int openusb_get_busid_list(unsigned long int handle, unsigned long int **
 
       else
       {
-        void *return_value_calloc$2;
-        return_value_calloc$2=calloc((unsigned long int)*num_busids * sizeof(unsigned long int) /*8ul*/ , (unsigned long int)1);
-        *busids = (unsigned long int *)return_value_calloc$2;
+        void *return_value_calloc_2;
+        return_value_calloc_2=calloc((unsigned long int)*num_busids * sizeof(unsigned long int) /*8ul*/ , (unsigned long int)1);
+        *busids = (unsigned long int *)return_value_calloc_2;
         if(*busids == ((unsigned long int *)NULL))
         {
           pthread_mutex_unlock(&usbi_buses.lock);
@@ -4089,8 +4089,8 @@ signed int openusb_get_device_data(unsigned long int handle, unsigned long int d
   struct usbi_dev_handle *dev_found = (struct usbi_dev_handle *)(void *)0;
   _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)4, "openusb_get_device_data", (unsigned int)1266, "devid=%d, flags=%d", (signed int)devid, flags);
   plib=usbi_find_handle(handle);
-  void *return_value_calloc$5;
-  unsigned long int tmp_if_expr$6;
+  void *return_value_calloc_5;
+  unsigned long int tmp_if_expr_6;
   if(plib == ((struct usbi_handle *)NULL))
   {
     _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)1, "openusb_get_device_data", (unsigned int)1270, "Can't find lib handle:%d ", handle);
@@ -4108,9 +4108,9 @@ signed int openusb_get_device_data(unsigned long int handle, unsigned long int d
 
     else
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct openusb_dev_data) /*136ul*/ );
-      pdata = (struct openusb_dev_data *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct openusb_dev_data) /*136ul*/ );
+      pdata = (struct openusb_dev_data *)return_value_malloc_1;
       if(pdata == ((struct openusb_dev_data *)NULL))
         return -2;
 
@@ -4206,9 +4206,9 @@ signed int openusb_get_device_data(unsigned long int handle, unsigned long int d
 
               else
               {
-                void *return_value_calloc$2;
-                return_value_calloc$2=calloc((unsigned long int)strings[(signed long int)0], (unsigned long int)1);
-                pdata->manufacturer = (struct usb_string_desc *)return_value_calloc$2;
+                void *return_value_calloc_2;
+                return_value_calloc_2=calloc((unsigned long int)strings[(signed long int)0], (unsigned long int)1);
+                pdata->manufacturer = (struct usb_string_desc *)return_value_calloc_2;
                 if(pdata->manufacturer == ((struct usb_string_desc *)NULL))
                 {
                   free((void *)pdata);
@@ -4234,9 +4234,9 @@ signed int openusb_get_device_data(unsigned long int handle, unsigned long int d
 
               else
               {
-                void *return_value_calloc$3;
-                return_value_calloc$3=calloc((unsigned long int)strings[(signed long int)0], (unsigned long int)1);
-                pdata->product = (struct usb_string_desc *)return_value_calloc$3;
+                void *return_value_calloc_3;
+                return_value_calloc_3=calloc((unsigned long int)strings[(signed long int)0], (unsigned long int)1);
+                pdata->product = (struct usb_string_desc *)return_value_calloc_3;
                 if(pdata->product == ((struct usb_string_desc *)NULL))
                 {
                   free((void *)pdata->manufacturer);
@@ -4262,9 +4262,9 @@ signed int openusb_get_device_data(unsigned long int handle, unsigned long int d
 
               else
               {
-                void *return_value_calloc$4;
-                return_value_calloc$4=calloc((unsigned long int)strings[(signed long int)0], (unsigned long int)1);
-                pdata->serialnumber = (struct usb_string_desc *)return_value_calloc$4;
+                void *return_value_calloc_4;
+                return_value_calloc_4=calloc((unsigned long int)strings[(signed long int)0], (unsigned long int)1);
+                pdata->serialnumber = (struct usb_string_desc *)return_value_calloc_4;
                 if(pdata->serialnumber == ((struct usb_string_desc *)NULL))
                 {
                   free((void *)pdata->product);
@@ -4306,8 +4306,8 @@ signed int openusb_get_device_data(unsigned long int handle, unsigned long int d
             else
             {
               _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)4, "openusb_get_device_data", (unsigned int)1446, "data len = %d", datalen);
-              return_value_calloc$5=calloc((unsigned long int)datalen, (unsigned long int)1);
-              pdata->raw_cfg_desc = (unsigned char *)return_value_calloc$5;
+              return_value_calloc_5=calloc((unsigned long int)datalen, (unsigned long int)1);
+              pdata->raw_cfg_desc = (unsigned char *)return_value_calloc_5;
               if(pdata->raw_cfg_desc == ((unsigned char *)NULL))
               {
                 openusb_free_raw_desc(descdata);
@@ -4323,11 +4323,11 @@ signed int openusb_get_device_data(unsigned long int handle, unsigned long int d
                 pdata->devid = devid;
                 pdata->nports = pdev->nports;
                 if(!(pdev->parent == ((struct usbi_device *)NULL)))
-                  tmp_if_expr$6 = pdev->parent->devid;
+                  tmp_if_expr_6 = pdev->parent->devid;
 
                 else
-                  tmp_if_expr$6 = (unsigned long int)0;
-                pdata->pdevid = tmp_if_expr$6;
+                  tmp_if_expr_6 = (unsigned long int)0;
+                pdata->pdevid = tmp_if_expr_6;
                 pdata->pport = pdev->pport;
                 *data = pdata;
                 return 0;
@@ -4412,9 +4412,9 @@ signed int openusb_get_devids_by_bus(unsigned long int handle, unsigned long int
           return -14;
         }
 
-        void *return_value_calloc$1;
-        return_value_calloc$1=calloc((unsigned long int)devcnts * sizeof(unsigned long int) /*8ul*/ , (unsigned long int)1);
-        *devids = (unsigned long int *)return_value_calloc$1;
+        void *return_value_calloc_1;
+        return_value_calloc_1=calloc((unsigned long int)devcnts * sizeof(unsigned long int) /*8ul*/ , (unsigned long int)1);
+        *devids = (unsigned long int *)return_value_calloc_1;
         if(*devids == ((unsigned long int *)NULL))
         {
           pthread_mutex_unlock(&usbi_devices.lock);
@@ -4461,9 +4461,9 @@ signed int openusb_get_devids_by_bus(unsigned long int handle, unsigned long int
 
           else
           {
-            void *return_value_calloc$2;
-            return_value_calloc$2=calloc((unsigned long int)devcnts * sizeof(unsigned long int) /*8ul*/ , (unsigned long int)1);
-            *devids = (unsigned long int *)return_value_calloc$2;
+            void *return_value_calloc_2;
+            return_value_calloc_2=calloc((unsigned long int)devcnts * sizeof(unsigned long int) /*8ul*/ , (unsigned long int)1);
+            *devids = (unsigned long int *)return_value_calloc_2;
             if(*devids == ((unsigned long int *)NULL))
             {
               pthread_mutex_unlock(&ibus->devices.lock);
@@ -4528,9 +4528,9 @@ signed int openusb_get_devids_by_class(unsigned long int handle, signed short in
           if(!(idev == ((struct usbi_device *)NULL)))
           {
             pthread_mutex_unlock(&usbi_devices.lock);
-            signed int return_value_usbi_match_class$1;
-            return_value_usbi_match_class$1=usbi_match_class(handle, idev, devclass, subclass, protocol);
-            if(!(return_value_usbi_match_class$1 == 0))
+            signed int return_value_usbi_match_class_1;
+            return_value_usbi_match_class_1=usbi_match_class(handle, idev, devclass, subclass, protocol);
+            if(!(return_value_usbi_match_class_1 == 0))
             {
               _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)4, "openusb_get_devids_by_class", (unsigned int)763, "match dev %d", (signed int)idev->devid);
               list_add(&idev->match_list, &match_list);
@@ -4550,9 +4550,9 @@ signed int openusb_get_devids_by_class(unsigned long int handle, signed short in
 
         else
         {
-          void *return_value_calloc$2;
-          return_value_calloc$2=calloc((unsigned long int)*num_devids * sizeof(unsigned long int) /*8ul*/ , (unsigned long int)1);
-          *devids = (unsigned long int *)return_value_calloc$2;
+          void *return_value_calloc_2;
+          return_value_calloc_2=calloc((unsigned long int)*num_devids * sizeof(unsigned long int) /*8ul*/ , (unsigned long int)1);
+          *devids = (unsigned long int *)return_value_calloc_2;
           if(*devids == ((unsigned long int *)NULL))
           {
             pthread_mutex_unlock(&usbi_devices.lock);
@@ -4589,13 +4589,13 @@ signed int openusb_get_devids_by_vendor(unsigned long int handle, signed int ven
   struct list_head match_list;
   signed int ret;
   _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)4, "openusb_get_devids_by_vendor", (unsigned int)642, "Begin");
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(devids == ((unsigned long int **)NULL) || num_devids == ((unsigned int *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = *devids != ((unsigned long int *)NULL) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = *devids != ((unsigned long int *)NULL) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return -8;
 
   else
@@ -4655,9 +4655,9 @@ signed int openusb_get_devids_by_vendor(unsigned long int handle, signed int ven
 
         else
         {
-          void *return_value_calloc$2;
-          return_value_calloc$2=calloc((unsigned long int)*num_devids * sizeof(unsigned long int) /*8ul*/ , (unsigned long int)1);
-          *devids = (unsigned long int *)return_value_calloc$2;
+          void *return_value_calloc_2;
+          return_value_calloc_2=calloc((unsigned long int)*num_devids * sizeof(unsigned long int) /*8ul*/ , (unsigned long int)1);
+          *devids = (unsigned long int *)return_value_calloc_2;
           if(*devids == ((unsigned long int *)NULL))
           {
             pthread_mutex_unlock(&usbi_devices.lock);
@@ -4871,9 +4871,9 @@ signed int openusb_intr_xfer(unsigned long int dev, unsigned char ifc, unsigned 
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(sizeof(struct openusb_request_handle) /*40ul*/ , (unsigned long int)1);
-    reqp = (struct openusb_request_handle *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(sizeof(struct openusb_request_handle) /*40ul*/ , (unsigned long int)1);
+    reqp = (struct openusb_request_handle *)return_value_calloc_1;
     if(reqp == ((struct openusb_request_handle *)NULL))
       return -2;
 
@@ -4934,9 +4934,9 @@ signed int openusb_isoc_xfer(unsigned long int dev, unsigned char ifc, unsigned 
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(sizeof(struct openusb_request_handle) /*40ul*/ , (unsigned long int)1);
-    reqp = (struct openusb_request_handle *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(sizeof(struct openusb_request_handle) /*40ul*/ , (unsigned long int)1);
+    reqp = (struct openusb_request_handle *)return_value_calloc_1;
     if(reqp == ((struct openusb_request_handle *)NULL))
       return -2;
 
@@ -4994,7 +4994,7 @@ signed int openusb_open_device(unsigned long int handle, unsigned long int devid
   unsigned char cfg;
   signed int ret;
   signed int i;
-  unsigned long int tmp_post$2;
+  unsigned long int tmp_post_2;
   if(dev == ((unsigned long int *)NULL))
     return -8;
 
@@ -5013,25 +5013,25 @@ signed int openusb_open_device(unsigned long int handle, unsigned long int devid
 
       else
       {
-        void *return_value_calloc$1;
-        return_value_calloc$1=calloc(sizeof(struct usbi_dev_handle) /*400ul*/ , (unsigned long int)1);
-        hdev = (struct usbi_dev_handle *)return_value_calloc$1;
+        void *return_value_calloc_1;
+        return_value_calloc_1=calloc(sizeof(struct usbi_dev_handle) /*400ul*/ , (unsigned long int)1);
+        hdev = (struct usbi_dev_handle *)return_value_calloc_1;
         if(hdev == ((struct usbi_dev_handle *)NULL))
           return -2;
 
         else
         {
           pthread_mutex_lock(&usbi_lock);
-          tmp_post$2 = cur_dev_handle;
+          tmp_post_2 = cur_dev_handle;
           cur_dev_handle = cur_dev_handle + 1ul;
-          hdev->handle = tmp_post$2;
+          hdev->handle = tmp_post_2;
           pthread_mutex_unlock(&usbi_lock);
           hdev->lib_hdl = hdl;
           hdev->idev = idev;
           hdev->flags = flags;
-          signed int return_value_pthread_mutex_init$3;
-          return_value_pthread_mutex_init$3=pthread_mutex_init(&hdev->lock, (const union anonymous$2 *)(void *)0);
-          if(!(return_value_pthread_mutex_init$3 == 0))
+          signed int return_value_pthread_mutex_init_3;
+          return_value_pthread_mutex_init_3=pthread_mutex_init(&hdev->lock, (const union anonymous_2 *)(void *)0);
+          if(!(return_value_pthread_mutex_init_3 == 0))
           {
             free((void *)hdev);
             return -13;
@@ -5047,9 +5047,9 @@ signed int openusb_open_device(unsigned long int handle, unsigned long int devid
             }
             list_init(&hdev->io_head);
             list_init(&hdev->m_head);
-            signed int return_value_pipe$4;
-            return_value_pipe$4=pipe(hdev->event_pipe);
-            if(!(return_value_pipe$4 >= 0))
+            signed int return_value_pipe_4;
+            return_value_pipe_4=pipe(hdev->event_pipe);
+            if(!(return_value_pipe_4 >= 0))
             {
               pthread_mutex_destroy(&hdev->lock);
               free((void *)hdev);
@@ -5145,8 +5145,8 @@ signed int openusb_parse_data(const char *format, unsigned char *source, unsigne
   unsigned short int w;
   unsigned int d;
   const char *cp;
-  unsigned char *tmp_post$1;
-  unsigned char *tmp_post$2;
+  unsigned char *tmp_post_1;
+  unsigned char *tmp_post_2;
   if(dest == NULL || format == ((const char *)NULL) || count == ((unsigned int *)NULL) || source == ((unsigned char *)NULL))
     return -8;
 
@@ -5167,11 +5167,11 @@ signed int openusb_parse_data(const char *format, unsigned char *source, unsigne
           if(!(destlen >= 1u) || !(sourcelen >= 1u))
             return -2;
 
-          tmp_post$1 = dp;
+          tmp_post_1 = dp;
           dp = dp + 1l;
-          tmp_post$2 = sp;
+          tmp_post_2 = sp;
           sp = sp + 1l;
-          *tmp_post$1 = *tmp_post$2;
+          *tmp_post_1 = *tmp_post_2;
           destlen = destlen - 1u;
           sourcelen = sourcelen - 1u;
           break;
@@ -5256,9 +5256,9 @@ signed int openusb_parse_device_desc(unsigned long int handle, unsigned long int
       ret=openusb_get_raw_desc(handle, devid, (unsigned char)0x01, (unsigned char)0, (unsigned short int)0, &tmpbuf, &tmplen);
       if(!(ret >= 0))
       {
-        const char *return_value_openusb_strerror$1;
-        return_value_openusb_strerror$1=openusb_strerror(ret);
-        _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)1, "openusb_parse_device_desc", (unsigned int)910, "fail:%s", return_value_openusb_strerror$1);
+        const char *return_value_openusb_strerror_1;
+        return_value_openusb_strerror_1=openusb_strerror(ret);
+        _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)1, "openusb_parse_device_desc", (unsigned int)910, "fail:%s", return_value_openusb_strerror_1);
         return ret;
       }
 
@@ -5295,7 +5295,7 @@ signed int openusb_parse_endpoint_desc(unsigned long int handle, unsigned long i
   signed int ret = -10;
   unsigned int count;
   hdl=usbi_find_handle(handle);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(hdl == ((struct usbi_handle *)NULL))
     return -12;
 
@@ -5306,9 +5306,9 @@ signed int openusb_parse_endpoint_desc(unsigned long int handle, unsigned long i
       ret=openusb_get_raw_desc(handle, devid, (unsigned char)0x02, cfgidx, (unsigned short int)0, &tmpbuf, &tmplen);
       if(!(ret >= 0))
       {
-        const char *return_value_openusb_strerror$1;
-        return_value_openusb_strerror$1=openusb_strerror(ret);
-        _usbi_debug(hdl, (unsigned int)1, "openusb_parse_endpoint_desc", (unsigned int)1079, "Get raw fail:%s", return_value_openusb_strerror$1);
+        const char *return_value_openusb_strerror_1;
+        return_value_openusb_strerror_1=openusb_strerror(ret);
+        _usbi_debug(hdl, (unsigned int)1, "openusb_parse_endpoint_desc", (unsigned int)1079, "Get raw fail:%s", return_value_openusb_strerror_1);
         return ret;
       }
 
@@ -5362,11 +5362,11 @@ signed int openusb_parse_endpoint_desc(unsigned long int handle, unsigned long i
       }
 
       if((signed int)*sp1 >= 1)
-        tmp_if_expr$2 = (signed int)tmplen >= (signed int)sp1[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)tmplen >= (signed int)sp1[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
       {
         tmplen = tmplen - (unsigned short int)sp1[(signed long int)0];
         sp1 = sp1 + (signed long int)sp1[(signed long int)0];
@@ -5396,7 +5396,7 @@ signed int openusb_parse_interface_desc(unsigned long int handle, unsigned long 
   signed int ret = -10;
   unsigned int count;
   hdl=usbi_find_handle(handle);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(hdl == ((struct usbi_handle *)NULL))
     return -12;
 
@@ -5440,11 +5440,11 @@ signed int openusb_parse_interface_desc(unsigned long int handle, unsigned long 
       }
 
       if((signed int)*sp >= 1)
-        tmp_if_expr$1 = (signed int)tmplen >= (signed int)sp[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)tmplen >= (signed int)sp[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
       {
         tmplen = tmplen - (unsigned short int)sp[(signed long int)0];
         sp = sp + (signed long int)sp[(signed long int)0];
@@ -5556,9 +5556,9 @@ signed int openusb_release_interface(unsigned long int dev, unsigned char ifc)
 
     else
     {
-      signed int return_value_openusb_is_interface_claimed$1;
-      return_value_openusb_is_interface_claimed$1=openusb_is_interface_claimed(dev, ifc);
-      if(!(return_value_openusb_is_interface_claimed$1 == 1))
+      signed int return_value_openusb_is_interface_claimed_1;
+      return_value_openusb_is_interface_claimed_1=openusb_is_interface_claimed(dev, ifc);
+      if(!(return_value_openusb_is_interface_claimed_1 == 1))
         return -8;
 
       else
@@ -5604,8 +5604,8 @@ signed int openusb_set_altsetting(unsigned long int dev, unsigned char ifc, unsi
   struct usbi_config *pcfg;
   signed int ret;
   hdev=usbi_find_dev_handle(dev);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if(hdev == ((struct usbi_dev_handle *)NULL))
     return -11;
 
@@ -5618,9 +5618,9 @@ signed int openusb_set_altsetting(unsigned long int dev, unsigned char ifc, unsi
       pthread_mutex_lock(&hdev->lock);
       idev = hdev->idev;
       pthread_mutex_unlock(&hdev->lock);
-      signed int return_value_usbi_fetch_and_parse_descriptors$1;
-      return_value_usbi_fetch_and_parse_descriptors$1=usbi_fetch_and_parse_descriptors(hdev);
-      if(!(return_value_usbi_fetch_and_parse_descriptors$1 == 0))
+      signed int return_value_usbi_fetch_and_parse_descriptors_1;
+      return_value_usbi_fetch_and_parse_descriptors_1=usbi_fetch_and_parse_descriptors(hdev);
+      if(!(return_value_usbi_fetch_and_parse_descriptors_1 == 0))
         return -10;
 
       else
@@ -5635,16 +5635,16 @@ signed int openusb_set_altsetting(unsigned long int dev, unsigned char ifc, unsi
         else
           pcfg = &idev->desc.configs[(signed long int)idev->cur_config_index];
         if((signed int)ifc >= 33 || !(pcfg->num_interfaces >= (unsigned long int)ifc))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = hdev->claimed_ifs[(signed long int)ifc].clm != 1 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_2 = hdev->claimed_ifs[(signed long int)ifc].clm != 1 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = (unsigned long int)alt >= (pcfg->interfaces + (signed long int)ifc)->num_altsettings ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (unsigned long int)alt >= (pcfg->interfaces + (signed long int)ifc)->num_altsettings ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
         {
           _usbi_debug(hdev->lib_hdl, (unsigned int)1, "openusb_set_altsetting", (unsigned int)216, "invalid interface(%d) or alt(%d)", ifc, alt);
           pthread_mutex_unlock(&hdev->lock);
@@ -5807,9 +5807,9 @@ signed int openusb_start(struct openusb_multi_request_handle *handle)
 
     else
     {
-      void *return_value_calloc$1;
-      return_value_calloc$1=calloc(sizeof(struct usbi_multi_request) /*136ul*/ , (unsigned long int)1);
-      mi_req = (struct usbi_multi_request *)return_value_calloc$1;
+      void *return_value_calloc_1;
+      return_value_calloc_1=calloc(sizeof(struct usbi_multi_request) /*136ul*/ , (unsigned long int)1);
+      mi_req = (struct usbi_multi_request *)return_value_calloc_1;
       if(mi_req == ((struct usbi_multi_request *)NULL))
       {
         _usbi_debug(hdev->lib_hdl, (unsigned int)1, "openusb_start", (unsigned int)1428, "malloc fail");
@@ -5818,9 +5818,9 @@ signed int openusb_start(struct openusb_multi_request_handle *handle)
 
       else
       {
-        void *return_value_calloc$2;
-        return_value_calloc$2=calloc(sizeof(struct openusb_request_handle) /*40ul*/ , (unsigned long int)1);
-        req = (struct openusb_request_handle *)return_value_calloc$2;
+        void *return_value_calloc_2;
+        return_value_calloc_2=calloc(sizeof(struct openusb_request_handle) /*40ul*/ , (unsigned long int)1);
+        req = (struct openusb_request_handle *)return_value_calloc_2;
         if(req == ((struct openusb_request_handle *)NULL))
           return -2;
 
@@ -5831,9 +5831,9 @@ signed int openusb_start(struct openusb_multi_request_handle *handle)
           req->interface = handle->interface;
           req->endpoint = handle->endpoint;
           req->type = handle->type;
-          signed int return_value_check_req_valid$3;
-          return_value_check_req_valid$3=check_req_valid(req, hdev);
-          if(!(return_value_check_req_valid$3 == 0))
+          signed int return_value_check_req_valid_3;
+          return_value_check_req_valid_3=check_req_valid(req, hdev);
+          if(!(return_value_check_req_valid_3 == 0))
           {
             free((void *)mi_req);
             ret = -1;
@@ -5841,8 +5841,8 @@ signed int openusb_start(struct openusb_multi_request_handle *handle)
 
           free((void *)req);
           mi_req->mreq = handle;
-          pthread_mutex_init(&mi_req->lock, (const union anonymous$2 *)(void *)0);
-          pthread_cond_init(&mi_req->cv, (const union anonymous$2 *)(void *)0);
+          pthread_mutex_init(&mi_req->lock, (const union anonymous_2 *)(void *)0);
+          pthread_cond_init(&mi_req->cv, (const union anonymous_2 *)(void *)0);
           list_init(&mi_req->list);
           list_init(&mi_req->req_head);
           pthread_create(&thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))(void *)process_multi_request, (void *)mi_req);
@@ -5861,9 +5861,9 @@ signed int openusb_start(struct openusb_multi_request_handle *handle)
 // file api.c line 1518
 signed int openusb_stop(struct openusb_multi_request_handle *handle)
 {
-  signed int return_value_usbi_add_or_stop$1;
-  return_value_usbi_add_or_stop$1=usbi_add_or_stop(handle, 2);
-  return return_value_usbi_add_or_stop$1;
+  signed int return_value_usbi_add_or_stop_1;
+  return_value_usbi_add_or_stop_1=usbi_add_or_stop(handle, 2);
+  return return_value_usbi_add_or_stop_1;
 }
 
 // openusb_strerror
@@ -6070,9 +6070,9 @@ signed int openusb_xfer_aio(struct openusb_request_handle *req)
             ret=usbi_io_async(io);
             if(!(ret == 0))
             {
-              const char *return_value_openusb_strerror$1;
-              return_value_openusb_strerror$1=openusb_strerror(ret);
-              _usbi_debug(dev->lib_hdl, (unsigned int)1, "openusb_xfer_aio", (unsigned int)872, "async fail: %s", return_value_openusb_strerror$1);
+              const char *return_value_openusb_strerror_1;
+              return_value_openusb_strerror_1=openusb_strerror(ret);
+              _usbi_debug(dev->lib_hdl, (unsigned int)1, "openusb_xfer_aio", (unsigned int)872, "async fail: %s", return_value_openusb_strerror_1);
               pthread_mutex_lock(&dev->lock);
               list_del(&io->list);
               pthread_mutex_unlock(&dev->lock);
@@ -6160,9 +6160,9 @@ signed int openusb_xfer_wait(struct openusb_request_handle *req)
 
       __CPROVER_DUMP_L8:
         ;
-        signed int return_value_check_req_valid$1;
-        return_value_check_req_valid$1=check_req_valid(req, dev);
-        if(!(return_value_check_req_valid$1 >= 0))
+        signed int return_value_check_req_valid_1;
+        return_value_check_req_valid_1=check_req_valid(req, dev);
+        if(!(return_value_check_req_valid_1 >= 0))
         {
           _usbi_debug(dev->lib_hdl, (unsigned int)1, "openusb_xfer_wait", (unsigned int)600, "Not a valid request");
           return -8;
@@ -6180,9 +6180,9 @@ signed int openusb_xfer_wait(struct openusb_request_handle *req)
 
           else
           {
-            signed int return_value_usbi_io_sync$2;
-            return_value_usbi_io_sync$2=usbi_io_sync(dev, req);
-            return return_value_usbi_io_sync$2;
+            signed int return_value_usbi_io_sync_2;
+            return_value_usbi_io_sync_2=usbi_io_sync(dev, req);
+            return return_value_usbi_io_sync_2;
           }
         }
       }
@@ -6194,10 +6194,10 @@ signed int openusb_xfer_wait(struct openusb_request_handle *req)
 static signed int parse_option(signed int argc, char **argv)
 {
   signed int c;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
   do
   {
     c=getopt(argc, argv, "t:lmaps");
@@ -6208,26 +6208,26 @@ static signed int parse_option(signed int argc, char **argv)
     {
       case 116:
       {
-        return_value_strcmp$4=strcmp(optarg, "ctrl");
-        if(return_value_strcmp$4 == 0)
+        return_value_strcmp_4=strcmp(optarg, "ctrl");
+        if(return_value_strcmp_4 == 0)
           testtype = (enum openusb_transfer_type)USB_TYPE_CONTROL;
 
         else
         {
-          return_value_strcmp$3=strcmp(optarg, "bulk");
-          if(return_value_strcmp$3 == 0)
+          return_value_strcmp_3=strcmp(optarg, "bulk");
+          if(return_value_strcmp_3 == 0)
             testtype = (enum openusb_transfer_type)USB_TYPE_BULK;
 
           else
           {
-            return_value_strcmp$2=strcmp(optarg, "intr");
-            if(return_value_strcmp$2 == 0)
+            return_value_strcmp_2=strcmp(optarg, "intr");
+            if(return_value_strcmp_2 == 0)
               testtype = (enum openusb_transfer_type)USB_TYPE_INTERRUPT;
 
             else
             {
-              return_value_strcmp$1=strcmp(optarg, "isoc");
-              if(return_value_strcmp$1 == 0)
+              return_value_strcmp_1=strcmp(optarg, "isoc");
+              if(return_value_strcmp_1 == 0)
                 testtype = (enum openusb_transfer_type)USB_TYPE_ISOCHRONOUS;
 
               else
@@ -6353,9 +6353,9 @@ static void print_device(unsigned long int devid, signed int indent)
       ret=openusb_parse_config_desc(libhandle, devid, buf, buflen, (unsigned char)i, &cfg);
       if(!(ret == 0))
       {
-        const char *return_value_openusb_strerror$1;
-        return_value_openusb_strerror$1=openusb_strerror(ret);
-        printf("parse config desc fail: %s\n", return_value_openusb_strerror$1);
+        const char *return_value_openusb_strerror_1;
+        return_value_openusb_strerror_1=openusb_strerror(ret);
+        printf("parse config desc fail: %s\n", return_value_openusb_strerror_1);
         goto __CPROVER_DUMP_L5;
       }
 
@@ -6404,9 +6404,9 @@ static void print_interface(unsigned long int devid, signed int cfgidx, signed i
     ret=openusb_parse_endpoint_desc(libhandle, devid, (unsigned char *)(void *)0, (unsigned short int)0, (unsigned char)cfgidx, (unsigned char)ifcidx, (unsigned char)alt, (unsigned char)i, &ep);
     if(!(ret == 0))
     {
-      const char *return_value_openusb_strerror$1;
-      return_value_openusb_strerror$1=openusb_strerror(ret);
-      printf("parse endpoint desc fail, ret = %d %s\n", ret, return_value_openusb_strerror$1);
+      const char *return_value_openusb_strerror_1;
+      return_value_openusb_strerror_1=openusb_strerror(ret);
+      printf("parse endpoint desc fail, ret = %d %s\n", ret, return_value_openusb_strerror_1);
       goto __CPROVER_DUMP_L4;
     }
 
@@ -6524,9 +6524,9 @@ static signed int process_multi_request(void *arg)
         for( ; !((unsigned int)i >= req_num); i = i + 1)
         {
           _usbi_debug(hdev->lib_hdl, (unsigned int)4, "process_multi_request", (unsigned int)1227, "submit request %d", i);
-          void *return_value_calloc$1;
-          return_value_calloc$1=calloc(sizeof(struct openusb_request_handle) /*40ul*/ , (unsigned long int)1);
-          req = (struct openusb_request_handle *)return_value_calloc$1;
+          void *return_value_calloc_1;
+          return_value_calloc_1=calloc(sizeof(struct openusb_request_handle) /*40ul*/ , (unsigned long int)1);
+          req = (struct openusb_request_handle *)return_value_calloc_1;
           if(req == ((struct openusb_request_handle *)NULL))
           {
             _usbi_debug(hdev->lib_hdl, (unsigned int)1, "process_multi_request", (unsigned int)1231, "No resources");
@@ -6534,9 +6534,9 @@ static signed int process_multi_request(void *arg)
             return -2;
           }
 
-          void *return_value_calloc$2;
-          return_value_calloc$2=calloc(sizeof(struct usbi_multi_req_args) /*40ul*/ , (unsigned long int)1);
-          args = (struct usbi_multi_req_args *)return_value_calloc$2;
+          void *return_value_calloc_2;
+          return_value_calloc_2=calloc(sizeof(struct usbi_multi_req_args) /*40ul*/ , (unsigned long int)1);
+          args = (struct usbi_multi_req_args *)return_value_calloc_2;
           if(args == ((struct usbi_multi_req_args *)NULL))
           {
             _usbi_debug(hdev->lib_hdl, (unsigned int)1, "process_multi_request", (unsigned int)1241, "No resources");
@@ -6562,9 +6562,9 @@ static signed int process_multi_request(void *arg)
             struct openusb_multi_bulk_request *m_bulk;
             struct openusb_bulk_request *bulk;
             m_bulk = mh->req.bulk;
-            void *return_value_calloc$3;
-            return_value_calloc$3=calloc(sizeof(struct openusb_bulk_request) /*40ul*/ , (unsigned long int)1);
-            bulk = (struct openusb_bulk_request *)return_value_calloc$3;
+            void *return_value_calloc_3;
+            return_value_calloc_3=calloc(sizeof(struct openusb_bulk_request) /*40ul*/ , (unsigned long int)1);
+            bulk = (struct openusb_bulk_request *)return_value_calloc_3;
             if(bulk == ((struct openusb_bulk_request *)NULL))
             {
               pthread_mutex_unlock(&mi_req->lock);
@@ -6589,9 +6589,9 @@ static signed int process_multi_request(void *arg)
               struct openusb_multi_intr_request *m_intr;
               struct openusb_intr_request *intr;
               m_intr = mh->req.intr;
-              void *return_value_calloc$4;
-              return_value_calloc$4=calloc(sizeof(struct openusb_intr_request) /*48ul*/ , (unsigned long int)1);
-              intr = (struct openusb_intr_request *)return_value_calloc$4;
+              void *return_value_calloc_4;
+              return_value_calloc_4=calloc(sizeof(struct openusb_intr_request) /*48ul*/ , (unsigned long int)1);
+              intr = (struct openusb_intr_request *)return_value_calloc_4;
               if(intr == ((struct openusb_intr_request *)NULL))
               {
                 pthread_mutex_unlock(&mi_req->lock);
@@ -6623,9 +6623,9 @@ static signed int process_multi_request(void *arg)
                 struct openusb_multi_isoc_request *m_isoc;
                 struct openusb_isoc_request *isoc;
                 m_isoc = mh->req.isoc;
-                void *return_value_calloc$5;
-                return_value_calloc$5=calloc(sizeof(struct openusb_isoc_request) /*48ul*/ , (unsigned long int)1);
-                isoc = (struct openusb_isoc_request *)return_value_calloc$5;
+                void *return_value_calloc_5;
+                return_value_calloc_5=calloc(sizeof(struct openusb_isoc_request) /*48ul*/ , (unsigned long int)1);
+                isoc = (struct openusb_isoc_request *)return_value_calloc_5;
                 if(isoc == ((struct openusb_isoc_request *)NULL))
                 {
                   free((void *)req);
@@ -6692,8 +6692,8 @@ static void refresh_bus(struct usbi_backend *backend)
   struct usbi_bus *tibus;
   signed int ret;
   list_init(&busses);
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcmp$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcmp_1;
   if(backend->ops->find_buses == ((signed int (*)(struct list_head *))NULL))
     _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)1, "refresh_bus", (unsigned int)133, "NULL bus");
 
@@ -6720,14 +6720,14 @@ static void refresh_bus(struct usbi_backend *backend)
             {
               pthread_mutex_lock(&ibus->lock);
               if(ibus->busnum == nibus->busnum)
-                tmp_if_expr$2 = (_Bool)1;
+                tmp_if_expr_2 = (_Bool)1;
 
               else
               {
-                return_value_strcmp$1=strcmp(ibus->sys_path, nibus->sys_path);
-                tmp_if_expr$2 = return_value_strcmp$1 == 0 ? (_Bool)1 : (_Bool)0;
+                return_value_strcmp_1=strcmp(ibus->sys_path, nibus->sys_path);
+                tmp_if_expr_2 = return_value_strcmp_1 == 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$2)
+              if(tmp_if_expr_2)
               {
                 pthread_mutex_unlock(&ibus->lock);
                 list_del(&nibus->list);
@@ -6786,8 +6786,8 @@ static void simple_io_complete(struct simple_io *io, signed int status)
 // file io.c line 302
 static void simple_io_setup(struct simple_io *io)
 {
-  pthread_mutex_init(&io->lock, (const union anonymous$2 *)(void *)0);
-  pthread_cond_init(&io->complete, (const union anonymous$2 *)(void *)0);
+  pthread_mutex_init(&io->lock, (const union anonymous_2 *)(void *)0);
+  pthread_cond_init(&io->complete, (const union anonymous_2 *)(void *)0);
   io->completed = 0;
 }
 
@@ -6852,27 +6852,27 @@ static signed int test_bulk_sync(unsigned long int devh)
   ret=openusb_claim_interface(devh, (unsigned char)0, (enum openusb_init_flag)0);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$1;
-    return_value_openusb_strerror$1=openusb_strerror(ret);
-    printf("Device(%llu) claim interface error: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror$1);
+    const char *return_value_openusb_strerror_1;
+    return_value_openusb_strerror_1=openusb_strerror(ret);
+    printf("Device(%llu) claim interface error: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror_1);
     return -1;
   }
 
   ret=openusb_set_altsetting(devh, (unsigned char)0, (unsigned char)0);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$2;
-    return_value_openusb_strerror$2=openusb_strerror(ret);
-    printf("Device(%llu) interface(0) set alt: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror$2);
+    const char *return_value_openusb_strerror_2;
+    return_value_openusb_strerror_2=openusb_strerror(ret);
+    printf("Device(%llu) interface(0) set alt: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror_2);
     return -1;
   }
 
   ret=openusb_bulk_xfer(devh, (unsigned char)0, (unsigned char)2, &bulk);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$3;
-    return_value_openusb_strerror$3=openusb_strerror(ret);
-    printf("BULK sync xfer test fail: %s\n", return_value_openusb_strerror$3);
+    const char *return_value_openusb_strerror_3;
+    return_value_openusb_strerror_3=openusb_strerror(ret);
+    printf("BULK sync xfer test fail: %s\n", return_value_openusb_strerror_3);
     return -1;
   }
 
@@ -6881,9 +6881,9 @@ static signed int test_bulk_sync(unsigned long int devh)
   ret=openusb_bulk_xfer(devh, (unsigned char)0, (unsigned char)0x86, &bulk);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$4;
-    return_value_openusb_strerror$4=openusb_strerror(ret);
-    printf("bulk sync xfer fail: %s\n", return_value_openusb_strerror$4);
+    const char *return_value_openusb_strerror_4;
+    return_value_openusb_strerror_4=openusb_strerror(ret);
+    printf("bulk sync xfer fail: %s\n", return_value_openusb_strerror_4);
     return -1;
   }
 
@@ -6914,9 +6914,9 @@ static signed int test_ctrl_sync(unsigned long int devh)
   ctrl.setup.wValue = (unsigned short int)(0x02 << 8 | 0x01);
   ctrl.setup.wIndex = (unsigned short int)0;
   ctrl.length = (unsigned int)0xab;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)ctrl.length);
-  ctrl.payload = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)ctrl.length);
+  ctrl.payload = (unsigned char *)return_value_malloc_1;
   if(ctrl.payload == ((unsigned char *)NULL))
   {
     printf("malloc fail\n");
@@ -6930,9 +6930,9 @@ static signed int test_ctrl_sync(unsigned long int devh)
     if(!(ret == 0))
     {
       openusb_free_devid_list(devids);
-      const char *return_value_openusb_strerror$2;
-      return_value_openusb_strerror$2=openusb_strerror(ret);
-      printf("ctrl xfer fail: %s\n", return_value_openusb_strerror$2);
+      const char *return_value_openusb_strerror_2;
+      return_value_openusb_strerror_2=openusb_strerror(ret);
+      printf("ctrl xfer fail: %s\n", return_value_openusb_strerror_2);
       return -1;
     }
 
@@ -6968,9 +6968,9 @@ static signed int test_get_device_data(void)
     ret=openusb_get_devids_by_bus(libhandle, bus[(signed long int)j], &devids, &devnum);
     if(!(ret >= 0))
     {
-      const char *return_value_openusb_strerror$1;
-      return_value_openusb_strerror$1=openusb_strerror(ret);
-      printf("Error get devids by bus: %s\n", return_value_openusb_strerror$1);
+      const char *return_value_openusb_strerror_1;
+      return_value_openusb_strerror_1=openusb_strerror(ret);
+      printf("Error get devids by bus: %s\n", return_value_openusb_strerror_1);
       return -1;
     }
 
@@ -6981,9 +6981,9 @@ static signed int test_get_device_data(void)
       ret=openusb_get_device_data(libhandle, devids[(signed long int)i], (unsigned int)0, &devdata);
       if(!(ret >= 0))
       {
-        const char *return_value_openusb_strerror$2;
-        return_value_openusb_strerror$2=openusb_strerror(ret);
-        printf("Get device(%d) data error: %s\n", i, return_value_openusb_strerror$2);
+        const char *return_value_openusb_strerror_2;
+        return_value_openusb_strerror_2=openusb_strerror(ret);
+        printf("Get device(%d) data error: %s\n", i, return_value_openusb_strerror_2);
       }
 
       else
@@ -7017,18 +7017,18 @@ static signed int test_intr_sync(unsigned long int devh, signed int flag)
   ret=openusb_claim_interface(devh, (unsigned char)0, (enum openusb_init_flag)0);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$1;
-    return_value_openusb_strerror$1=openusb_strerror(ret);
-    printf("Device(%llu) claim interface error: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror$1);
+    const char *return_value_openusb_strerror_1;
+    return_value_openusb_strerror_1=openusb_strerror(ret);
+    printf("Device(%llu) claim interface error: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror_1);
     return -1;
   }
 
   ret=openusb_set_altsetting(devh, (unsigned char)0, (unsigned char)0);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$2;
-    return_value_openusb_strerror$2=openusb_strerror(ret);
-    printf("Device(%llu) interface(0) set alt: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror$2);
+    const char *return_value_openusb_strerror_2;
+    return_value_openusb_strerror_2=openusb_strerror(ret);
+    printf("Device(%llu) interface(0) set alt: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror_2);
     return -1;
   }
 
@@ -7037,9 +7037,9 @@ static signed int test_intr_sync(unsigned long int devh, signed int flag)
     ret=openusb_intr_xfer(devh, (unsigned char)0, (unsigned char)2, &intr);
     if(!(ret == 0))
     {
-      const char *return_value_openusb_strerror$3;
-      return_value_openusb_strerror$3=openusb_strerror(ret);
-      printf("xfer fail: %s\n", return_value_openusb_strerror$3);
+      const char *return_value_openusb_strerror_3;
+      return_value_openusb_strerror_3=openusb_strerror(ret);
+      printf("xfer fail: %s\n", return_value_openusb_strerror_3);
       return -1;
     }
 
@@ -7050,9 +7050,9 @@ static signed int test_intr_sync(unsigned long int devh, signed int flag)
   ret=openusb_intr_xfer(devh, (unsigned char)0, (unsigned char)0x86, &intr);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$4;
-    return_value_openusb_strerror$4=openusb_strerror(ret);
-    printf("intr xfer sync fail: %s\n", return_value_openusb_strerror$4);
+    const char *return_value_openusb_strerror_4;
+    return_value_openusb_strerror_4=openusb_strerror(ret);
+    printf("intr xfer sync fail: %s\n", return_value_openusb_strerror_4);
     return -1;
   }
 
@@ -7088,28 +7088,28 @@ static signed int test_isoc_sync(unsigned long int devh)
   ret=openusb_claim_interface(devh, (unsigned char)0, (enum openusb_init_flag)0);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$1;
-    return_value_openusb_strerror$1=openusb_strerror(ret);
-    printf("Device(%llu) claim interface error: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror$1);
+    const char *return_value_openusb_strerror_1;
+    return_value_openusb_strerror_1=openusb_strerror(ret);
+    printf("Device(%llu) claim interface error: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror_1);
     return -1;
   }
 
   ret=openusb_set_altsetting(devh, (unsigned char)0, (unsigned char)3);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$2;
-    return_value_openusb_strerror$2=openusb_strerror(ret);
-    printf("Device(%llu) interface(0) set alt: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror$2);
+    const char *return_value_openusb_strerror_2;
+    return_value_openusb_strerror_2=openusb_strerror(ret);
+    printf("Device(%llu) interface(0) set alt: %s\n", (signed long long int)devids[(signed long int)0], return_value_openusb_strerror_2);
     return -1;
   }
 
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(struct openusb_request_result) /*8ul*/  * (unsigned long int)12);
-  isoc.isoc_results = (struct openusb_request_result *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(struct openusb_request_result) /*8ul*/  * (unsigned long int)12);
+  isoc.isoc_results = (struct openusb_request_result *)return_value_malloc_3;
   memset((void *)isoc.isoc_results, 0, sizeof(struct openusb_request_result) /*8ul*/  * (unsigned long int)12);
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(sizeof(struct openusb_isoc_packet) /*16ul*/  * (unsigned long int)12);
-  isoc.pkts.packets = (struct openusb_isoc_packet *)return_value_malloc$4;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(sizeof(struct openusb_isoc_packet) /*16ul*/  * (unsigned long int)12);
+  isoc.pkts.packets = (struct openusb_isoc_packet *)return_value_malloc_4;
   i = 0;
   for( ; !(i >= 12); i = i + 1)
   {
@@ -7120,9 +7120,9 @@ static signed int test_isoc_sync(unsigned long int devh)
   ret=openusb_isoc_xfer(devh, (unsigned char)0, (unsigned char)0x82, &isoc);
   if(!(ret == 0))
   {
-    const char *return_value_openusb_strerror$5;
-    return_value_openusb_strerror$5=openusb_strerror(ret);
-    printf("ISOC xfer fail: %s\n", return_value_openusb_strerror$5);
+    const char *return_value_openusb_strerror_5;
+    return_value_openusb_strerror_5=openusb_strerror(ret);
+    printf("ISOC xfer fail: %s\n", return_value_openusb_strerror_5);
     return -1;
   }
 
@@ -7194,29 +7194,29 @@ void * timeout_thread(void *arg)
   struct usbi_io *io;
   struct usbi_io *tio;
   devh = (struct usbi_dev_handle *)arg;
-  _Bool tmp_if_expr$2;
-  signed int return_value_usbi_timeval_compare$1;
-  signed int return_value_usbi_timeval_compare$3;
+  _Bool tmp_if_expr_2;
+  signed int return_value_usbi_timeval_compare_1;
+  signed int return_value_usbi_timeval_compare_3;
   while((_Bool)1)
   {
     struct timeval tvc;
     struct timeval tvo;
-    struct anonymous$0 readfds;
-    struct anonymous$0 writefds;
+    struct anonymous_0 readfds;
+    struct anonymous_0 writefds;
     signed int ret;
     signed int maxfd;
     do
     {
-      signed int timeout_thread$$1$$1$$1$$__d0;
-      signed int timeout_thread$$1$$1$$1$$__d1;
-      asm("cld; rep; stosq" : "=c"(timeout_thread$$1$$1$$1$$__d0), "=D"(timeout_thread$$1$$1$$1$$__d1) : "a"(0), "0"(sizeof(struct anonymous$0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->__fds_bits[(signed long int)0]) : "memory");
+      signed int timeout_thread__1__1__1____d0;
+      signed int timeout_thread__1__1__1____d1;
+      asm("cld; rep; stosq" : "=c"(timeout_thread__1__1__1____d0), "=D"(timeout_thread__1__1__1____d1) : "a"(0), "0"(sizeof(struct anonymous_0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     do
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&writefds)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_0) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&writefds)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     pthread_mutex_lock(&devh->lock);
@@ -7235,14 +7235,14 @@ void * timeout_thread(void *arg)
           if(!(io->tvo.tv_sec == 0l))
           {
             if(tvo.tv_sec == 0l)
-              tmp_if_expr$2 = (_Bool)1;
+              tmp_if_expr_2 = (_Bool)1;
 
             else
             {
-              return_value_usbi_timeval_compare$1=usbi_timeval_compare(&io->tvo, &tvo);
-              tmp_if_expr$2 = return_value_usbi_timeval_compare$1 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_usbi_timeval_compare_1=usbi_timeval_compare(&io->tvo, &tvo);
+              tmp_if_expr_2 = return_value_usbi_timeval_compare_1 != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$2)
+            if(tmp_if_expr_2)
               memcpy((void *)&tvo, (const void *)&io->tvo, sizeof(struct timeval) /*16ul*/ );
 
           }
@@ -7260,8 +7260,8 @@ void * timeout_thread(void *arg)
 
     else
     {
-      return_value_usbi_timeval_compare$3=usbi_timeval_compare(&tvo, &tvc);
-      if(!(return_value_usbi_timeval_compare$3 >= 0))
+      return_value_usbi_timeval_compare_3=usbi_timeval_compare(&tvo, &tvc);
+      if(!(return_value_usbi_timeval_compare_3 >= 0))
         memcpy((void *)&tvo, (const void *)&tvc, sizeof(struct timeval) /*16ul*/ );
 
     }
@@ -7274,14 +7274,14 @@ void * timeout_thread(void *arg)
 
     else
       tvo.tv_usec = tvo.tv_usec - tvc.tv_usec;
-    ret=select(maxfd + 1, &readfds, (struct anonymous$0 *)(void *)0, (struct anonymous$0 *)(void *)0, &tvo);
+    ret=select(maxfd + 1, &readfds, (struct anonymous_0 *)(void *)0, (struct anonymous_0 *)(void *)0, &tvo);
     if(!(ret >= 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      _usbi_debug(devh->lib_hdl, (unsigned int)1, "timeout_thread", (unsigned int)1318, "select() call failed: %s", return_value_strerror$5);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      _usbi_debug(devh->lib_hdl, (unsigned int)1, "timeout_thread", (unsigned int)1318, "select() call failed: %s", return_value_strerror_5);
       continue;
     }
 
@@ -7309,9 +7309,9 @@ void * timeout_thread(void *arg)
       if(!(io == ((struct usbi_io *)NULL)))
       {
         pthread_mutex_unlock(&devh->lock);
-        signed int return_value_usbi_timeval_compare$6;
-        return_value_usbi_timeval_compare$6=usbi_timeval_compare(&io->tvo, &tvc);
-        if(!(return_value_usbi_timeval_compare$6 >= 1))
+        signed int return_value_usbi_timeval_compare_6;
+        return_value_usbi_timeval_compare_6=usbi_timeval_compare(&io->tvo, &tvc);
+        if(!(return_value_usbi_timeval_compare_6 >= 1))
           usbi_io_complete(io, -62, (unsigned long int)0);
 
         pthread_mutex_lock(&devh->lock);
@@ -7403,18 +7403,18 @@ static signed int usb0_intr_xfer(struct usb_dev_handle *dev, signed int ep, char
 // file emulation.c line 644
 signed int usb_bulk_read(struct usb_dev_handle *dev, signed int ep, char *bytes, signed int size, signed int timeout)
 {
-  signed int return_value_usb0_bulk_xfer$1;
-  return_value_usb0_bulk_xfer$1=usb0_bulk_xfer(dev, ep, bytes, size, timeout);
-  return return_value_usb0_bulk_xfer$1;
+  signed int return_value_usb0_bulk_xfer_1;
+  return_value_usb0_bulk_xfer_1=usb0_bulk_xfer(dev, ep, bytes, size, timeout);
+  return return_value_usb0_bulk_xfer_1;
 }
 
 // usb_bulk_write
 // file emulation.c line 638
 signed int usb_bulk_write(struct usb_dev_handle *dev, signed int ep, const char *bytes, signed int size, signed int timeout)
 {
-  signed int return_value_usb0_bulk_xfer$1;
-  return_value_usb0_bulk_xfer$1=usb0_bulk_xfer(dev, ep, (char *)bytes, size, timeout);
-  return return_value_usb0_bulk_xfer$1;
+  signed int return_value_usb0_bulk_xfer_1;
+  return_value_usb0_bulk_xfer_1=usb0_bulk_xfer(dev, ep, (char *)bytes, size, timeout);
+  return return_value_usb0_bulk_xfer_1;
 }
 
 // usb_claim_interface
@@ -7538,9 +7538,9 @@ signed int usb_detach_kernel_driver_np(struct usb_dev_handle *dev, signed int in
 
   else
   {
-    signed int return_value_usbi_detach_kernel_driver_np$1;
-    return_value_usbi_detach_kernel_driver_np$1=usbi_detach_kernel_driver_np(devh->devh, (unsigned char)interface);
-    return return_value_usbi_detach_kernel_driver_np$1;
+    signed int return_value_usbi_detach_kernel_driver_np_1;
+    return_value_usbi_detach_kernel_driver_np_1=usbi_detach_kernel_driver_np(devh->devh, (unsigned char)interface);
+    return return_value_usbi_detach_kernel_driver_np_1;
   }
 }
 
@@ -7563,23 +7563,23 @@ struct usb_device * usb_device(struct usb_dev_handle *dev)
 // file emulation.c line 139
 signed int usb_find_busses(void)
 {
-  struct usb_bus *usb_find_busses$$1$$bus;
+  struct usb_bus *usb_find_busses__1__bus;
   if(!(usb_busses == ((struct usb_bus *)NULL)))
     return 0;
 
   else
   {
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc(sizeof(struct usb_bus) /*4144ul*/ , (unsigned long int)1);
-    usb_find_busses$$1$$bus = (struct usb_bus *)return_value_calloc$2;
-    if(usb_find_busses$$1$$bus == ((struct usb_bus *)NULL))
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc(sizeof(struct usb_bus) /*4144ul*/ , (unsigned long int)1);
+    usb_find_busses__1__bus = (struct usb_bus *)return_value_calloc_2;
+    if(usb_find_busses__1__bus == ((struct usb_bus *)NULL))
     {
-      signed int return_value_wr_error$1;
-      return_value_wr_error$1=wr_error(12);
-      return return_value_wr_error$1;
+      signed int return_value_wr_error_1;
+      return_value_wr_error_1=wr_error(12);
+      return return_value_wr_error_1;
     }
 
-    usb_busses = usb_find_busses$$1$$bus;
+    usb_busses = usb_find_busses__1__bus;
     return 1;
   }
 }
@@ -7588,14 +7588,14 @@ signed int usb_find_busses(void)
 // file emulation.c line 223
 signed int usb_find_devices(void)
 {
-  struct usb_bus *usb_find_devices$$1$$bus;
+  struct usb_bus *usb_find_devices__1__bus;
   struct usbi_bus *ibus;
   struct usbi_bus *tbus;
   signed int dev_cnt = 0;
   signed int ret;
   pthread_mutex_lock(&usbi_buses.lock);
-  usb_find_devices$$1$$bus = usb_busses;
-  for( ; !(usb_find_devices$$1$$bus == ((struct usb_bus *)NULL)); usb_find_devices$$1$$bus = usb_find_devices$$1$$bus->next)
+  usb_find_devices__1__bus = usb_busses;
+  for( ; !(usb_find_devices__1__bus == ((struct usb_bus *)NULL)); usb_find_devices__1__bus = usb_find_devices__1__bus->next)
   {
     ibus = (struct usbi_bus *)((char *)(&usbi_buses.head)->next - (signed long int)(unsigned long int)&((struct usbi_bus *)0L)->list);
     tbus = (struct usbi_bus *)((char *)ibus->list.next - (signed long int)(unsigned long int)&((struct usbi_bus *)0L)->list);
@@ -7604,7 +7604,7 @@ signed int usb_find_devices(void)
       if(!(ibus == ((struct usbi_bus *)NULL)))
       {
         pthread_mutex_unlock(&usbi_buses.lock);
-        ret=wr_create_devices(usb_find_devices$$1$$bus, ibus);
+        ret=wr_create_devices(usb_find_devices__1__bus, ibus);
         pthread_mutex_lock(&usbi_buses.lock);
         if(ret >= 0)
           dev_cnt = dev_cnt + ret;
@@ -7620,7 +7620,7 @@ signed int usb_find_devices(void)
 
       ibus = tbus;
     }
-    _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)1, "usb_find_devices", (unsigned int)258, "bus: %s", (const void *)usb_find_devices$$1$$bus->dirname);
+    _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)1, "usb_find_devices", (unsigned int)258, "bus: %s", (const void *)usb_find_devices__1__bus->dirname);
   }
   pthread_mutex_unlock(&usbi_buses.lock);
   return dev_cnt;
@@ -7695,9 +7695,9 @@ signed int usb_get_driver_np(struct usb_dev_handle *dev, signed int interface, c
 
   else
   {
-    signed int return_value_usbi_get_driver_np$1;
-    return_value_usbi_get_driver_np$1=usbi_get_driver_np(devh->devh, (unsigned char)interface, name, namelen);
-    return return_value_usbi_get_driver_np$1;
+    signed int return_value_usbi_get_driver_np_1;
+    return_value_usbi_get_driver_np_1=usbi_get_driver_np(devh->devh, (unsigned char)interface, name, namelen);
+    return return_value_usbi_get_driver_np_1;
   }
 }
 
@@ -7763,18 +7763,18 @@ void usb_init(void)
 // file emulation.c line 687
 signed int usb_interrupt_read(struct usb_dev_handle *dev, signed int ep, char *bytes, signed int size, signed int timeout)
 {
-  signed int return_value_usb0_intr_xfer$1;
-  return_value_usb0_intr_xfer$1=usb0_intr_xfer(dev, ep, bytes, size, timeout);
-  return return_value_usb0_intr_xfer$1;
+  signed int return_value_usb0_intr_xfer_1;
+  return_value_usb0_intr_xfer_1=usb0_intr_xfer(dev, ep, bytes, size, timeout);
+  return return_value_usb0_intr_xfer_1;
 }
 
 // usb_interrupt_write
 // file emulation.c line 681
 signed int usb_interrupt_write(struct usb_dev_handle *dev, signed int ep, const char *bytes, signed int size, signed int timeout)
 {
-  signed int return_value_usb0_intr_xfer$1;
-  return_value_usb0_intr_xfer$1=usb0_intr_xfer(dev, ep, (char *)bytes, size, timeout);
-  return return_value_usb0_intr_xfer$1;
+  signed int return_value_usb0_intr_xfer_1;
+  return_value_usb0_intr_xfer_1=usb0_intr_xfer(dev, ep, (char *)bytes, size, timeout);
+  return return_value_usb0_intr_xfer_1;
 }
 
 // usb_open
@@ -7797,12 +7797,12 @@ struct usb_dev_handle * usb_open(struct usb_device *dev)
     ret=openusb_open_device(wr_handle, devid, (enum openusb_init_flag)0, &usb1_devh);
     if(!(ret == 0))
     {
-      const char *return_value_openusb_strerror$1;
-      return_value_openusb_strerror$1=openusb_strerror(ret);
-      _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)1, "usb_open", (unsigned int)551, "Fail to open device: %s", return_value_openusb_strerror$1);
-      const char *return_value_openusb_strerror$2;
-      return_value_openusb_strerror$2=openusb_strerror(ret);
-      wr_error_str(ret, "Fail to open device: %s", return_value_openusb_strerror$2);
+      const char *return_value_openusb_strerror_1;
+      return_value_openusb_strerror_1=openusb_strerror(ret);
+      _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)1, "usb_open", (unsigned int)551, "Fail to open device: %s", return_value_openusb_strerror_1);
+      const char *return_value_openusb_strerror_2;
+      return_value_openusb_strerror_2=openusb_strerror(ret);
+      wr_error_str(ret, "Fail to open device: %s", return_value_openusb_strerror_2);
       return (struct usb_dev_handle *)(void *)0;
     }
 
@@ -7815,14 +7815,14 @@ struct usb_dev_handle * usb_open(struct usb_device *dev)
 
     else
     {
-      void *return_value_calloc$3;
-      return_value_calloc$3=calloc(sizeof(struct usb_dev_handle_internal) /*40ul*/ , (unsigned long int)1);
-      devh = (struct usb_dev_handle_internal *)return_value_calloc$3;
+      void *return_value_calloc_3;
+      return_value_calloc_3=calloc(sizeof(struct usb_dev_handle_internal) /*40ul*/ , (unsigned long int)1);
+      devh = (struct usb_dev_handle_internal *)return_value_calloc_3;
       if(devh == ((struct usb_dev_handle_internal *)NULL))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        wr_error(*return_value___errno_location$4);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        wr_error(*return_value___errno_location_4);
         openusb_close_device(usb1_devh);
         usb1_devh = (unsigned long int)0;
         return (struct usb_dev_handle *)(void *)0;
@@ -7884,9 +7884,9 @@ signed int usb_reset(struct usb_dev_handle *dev)
 // file emulation.c line 825
 signed int usb_resetep(struct usb_dev_handle *dev, unsigned int ep)
 {
-  signed int return_value_usb_clear_halt$1;
-  return_value_usb_clear_halt$1=usb_clear_halt(dev, ep);
-  return return_value_usb_clear_halt$1;
+  signed int return_value_usb_clear_halt_1;
+  return_value_usb_clear_halt_1=usb_clear_halt(dev, ep);
+  return return_value_usb_clear_halt_1;
 }
 
 // usb_set_altinterface
@@ -7912,9 +7912,9 @@ signed int usb_set_altinterface(struct usb_dev_handle *dev, signed int alternate
 
     else
     {
-      const char *return_value_openusb_strerror$1;
-      return_value_openusb_strerror$1=openusb_strerror(ret);
-      _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)4, "usb_set_altinterface", (unsigned int)818, "openusb_set_altsetting error: %s", return_value_openusb_strerror$1);
+      const char *return_value_openusb_strerror_1;
+      return_value_openusb_strerror_1=openusb_strerror(ret);
+      _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)4, "usb_set_altinterface", (unsigned int)818, "openusb_set_altsetting error: %s", return_value_openusb_strerror_1);
       wr_error_str(ret, "set_altinterface fail");
       return ret;
     }
@@ -7963,7 +7963,7 @@ void usb_set_debug(signed int level)
 char * usb_strerror(void)
 {
   _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)4, "usb_strerror", (unsigned int)88, "usb_strerror(): usb_error_type=%d, errno=%d\n", usb_error_type, usb_error_errno);
-  char *return_value_strerror$1;
+  char *return_value_strerror_1;
   switch((signed int)usb_error_type)
   {
     case USB_ERROR_TYPE_NONE:
@@ -7975,8 +7975,8 @@ char * usb_strerror(void)
       if(!(usb_error_errno >= 1))
         goto __CPROVER_DUMP_L4;
 
-      return_value_strerror$1=strerror(usb_error_errno);
-      return return_value_strerror$1;
+      return_value_strerror_1=strerror(usb_error_errno);
+      return return_value_strerror_1;
     }
     default:
     {
@@ -7993,9 +7993,9 @@ char * usb_strerror(void)
 static void usbi_add_bus(struct usbi_bus *ibus, struct usbi_backend *backend)
 {
   pthread_mutex_lock(&ibus->lock);
-  unsigned long int tmp_post$1 = cur_bus_id;
+  unsigned long int tmp_post_1 = cur_bus_id;
   cur_bus_id = cur_bus_id + 1ul;
-  ibus->busid = tmp_post$1;
+  ibus->busid = tmp_post_1;
   ibus->ops = backend->ops;
   list_init(&ibus->devices.head);
   list_add(&ibus->list, &usbi_buses.head);
@@ -8008,9 +8008,9 @@ void usbi_add_device(struct usbi_bus *ibus, struct usbi_device *idev)
 {
   struct usbi_handle *handle;
   struct usbi_handle *thdl;
-  unsigned long int tmp_post$1 = cur_device_id;
+  unsigned long int tmp_post_1 = cur_device_id;
   cur_device_id = cur_device_id + 1ul;
-  idev->devid = tmp_post$1;
+  idev->devid = tmp_post_1;
   idev->bus = ibus;
   idev->ops = &ibus->ops->dev;
   list_add(&idev->bus_list, &ibus->devices.head);
@@ -8036,9 +8036,9 @@ void usbi_add_event_callback(struct usbi_handle *hdl, unsigned long int devid, e
 {
   struct eventcallback *cb;
   _usbi_debug(hdl, (unsigned int)4, "usbi_add_event_callback", (unsigned int)114, "hdl=%p,handle=%llu,devid=%llu,type=%d", hdl, hdl->handle, devid, type);
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(sizeof(struct eventcallback) /*40ul*/ , (unsigned long int)1);
-  cb = (struct eventcallback *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(sizeof(struct eventcallback) /*40ul*/ , (unsigned long int)1);
+  cb = (struct eventcallback *)return_value_calloc_1;
   if(cb == ((struct eventcallback *)NULL))
     _usbi_debug(hdl, (unsigned int)1, "usbi_add_event_callback", (unsigned int)119, "allocate memory fail");
 
@@ -8107,17 +8107,17 @@ struct usbi_io * usbi_alloc_io(struct usbi_dev_handle *dev, struct openusb_reque
   struct usbi_io *io;
   struct timeval tvc;
   char buf[2l] = { (char)1, (char)1 };
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct usbi_io) /*176ul*/ );
-  io = (struct usbi_io *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct usbi_io) /*176ul*/ );
+  io = (struct usbi_io *)return_value_malloc_1;
   if(io == ((struct usbi_io *)NULL))
     return (struct usbi_io *)(void *)0;
 
   else
   {
     memset((void *)io, 0, sizeof(struct usbi_io) /*176ul*/ );
-    pthread_mutex_init(&io->lock, (const union anonymous$2 *)(void *)0);
-    pthread_cond_init(&io->cond, (const union anonymous$2 *)(void *)0);
+    pthread_mutex_init(&io->lock, (const union anonymous_2 *)(void *)0);
+    pthread_cond_init(&io->cond, (const union anonymous_2 *)(void *)0);
     pthread_mutex_lock(&io->lock);
     list_init(&io->list);
     io->dev = dev;
@@ -8154,9 +8154,9 @@ struct usbi_io * usbi_alloc_io(struct usbi_dev_handle *dev, struct openusb_reque
 struct openusb_request_handle * usbi_alloc_request_handle(void)
 {
   struct openusb_request_handle *reqp;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct openusb_request_handle) /*40ul*/ );
-  reqp = (struct openusb_request_handle *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct openusb_request_handle) /*40ul*/ );
+  reqp = (struct openusb_request_handle *)return_value_malloc_1;
   if(reqp == ((struct openusb_request_handle *)NULL))
     return (struct openusb_request_handle *)(void *)0;
 
@@ -8389,8 +8389,8 @@ signed int usbi_fetch_and_parse_descriptors(struct usbi_dev_handle *hdev)
   unsigned int count;
   usbi_destroy_configuration(dev);
   ret=usbi_get_descriptor(hdev->handle, (unsigned char)0x01, (unsigned char)0, (void *)devbuf, (unsigned int)18);
-  void *return_value_calloc$2;
-  void *return_value_calloc$3;
+  void *return_value_calloc_2;
+  void *return_value_calloc_3;
   if(!(ret >= 0))
   {
     _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)2, "usbi_fetch_and_parse_descriptors", (unsigned int)701, "Fail to get device descriptors: %d", ret);
@@ -8408,9 +8408,9 @@ signed int usbi_fetch_and_parse_descriptors(struct usbi_dev_handle *hdev)
 
     else
     {
-      void *return_value_calloc$1;
-      return_value_calloc$1=calloc((unsigned long int)count, (unsigned long int)1);
-      dev->desc.device_raw.data = (unsigned char *)return_value_calloc$1;
+      void *return_value_calloc_1;
+      return_value_calloc_1=calloc((unsigned long int)count, (unsigned long int)1);
+      dev->desc.device_raw.data = (unsigned char *)return_value_calloc_1;
       memcpy((void *)dev->desc.device_raw.data, (const void *)devbuf, (unsigned long int)count);
       dev->desc.num_configs = (unsigned long int)dev->desc.device.bNumConfigurations;
       if(dev->desc.num_configs >= 9ul)
@@ -8422,15 +8422,15 @@ signed int usbi_fetch_and_parse_descriptors(struct usbi_dev_handle *hdev)
 
         else
         {
-          return_value_calloc$2=calloc(dev->desc.num_configs * sizeof(struct usbi_raw_desc) /*16ul*/ , (unsigned long int)1);
-          dev->desc.configs_raw = (struct usbi_raw_desc *)return_value_calloc$2;
+          return_value_calloc_2=calloc(dev->desc.num_configs * sizeof(struct usbi_raw_desc) /*16ul*/ , (unsigned long int)1);
+          dev->desc.configs_raw = (struct usbi_raw_desc *)return_value_calloc_2;
           if(dev->desc.configs_raw == ((struct usbi_raw_desc *)NULL))
             _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)1, "usbi_fetch_and_parse_descriptors", (unsigned int)738, "unable to allocate %d bytes for cached descriptors", dev->desc.num_configs * sizeof(struct usbi_raw_desc) /*16ul*/ );
 
           else
           {
-            return_value_calloc$3=calloc(dev->desc.num_configs * sizeof(struct usbi_config) /*48ul*/ , (unsigned long int)1);
-            dev->desc.configs = (struct usbi_config *)return_value_calloc$3;
+            return_value_calloc_3=calloc(dev->desc.num_configs * sizeof(struct usbi_config) /*48ul*/ , (unsigned long int)1);
+            dev->desc.configs = (struct usbi_config *)return_value_calloc_3;
             if(dev->desc.configs == ((struct usbi_config *)NULL))
               _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)1, "usbi_fetch_and_parse_descriptors", (unsigned int)747, "unable to allocate memory for config descriptors", dev->desc.num_configs * sizeof(struct usbi_config) /*48ul*/ );
 
@@ -8455,9 +8455,9 @@ signed int usbi_fetch_and_parse_descriptors(struct usbi_dev_handle *hdev)
 
                 openusb_parse_data("bbw", buf, (unsigned int)8, (void *)&cfg_desc, (unsigned int)sizeof(struct usb_config_desc) /*10ul*/ , &count);
                 cfgr->len = (unsigned long int)cfg_desc.wTotalLength;
-                void *return_value_calloc$4;
-                return_value_calloc$4=calloc(cfgr->len + (unsigned long int)65536, (unsigned long int)1);
-                cfgr->data = (unsigned char *)return_value_calloc$4;
+                void *return_value_calloc_4;
+                return_value_calloc_4=calloc(cfgr->len + (unsigned long int)65536, (unsigned long int)1);
+                cfgr->data = (unsigned char *)return_value_calloc_4;
                 if(cfgr->data == ((unsigned char *)NULL))
                 {
                   _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)1, "usbi_fetch_and_parse_descriptors", (unsigned int)790, "unable to allocate %d bytes for descriptors", cfgr->len);
@@ -8713,7 +8713,7 @@ void usbi_free_device(struct usbi_device *idev)
 void usbi_free_io(struct usbi_io *io)
 {
   char buf[1l] = { (char)1 };
-  signed int return_value_pthread_cond_destroy$1;
+  signed int return_value_pthread_cond_destroy_1;
   if(!(io == ((struct usbi_io *)NULL)))
   {
     pthread_mutex_lock(&io->lock);
@@ -8739,8 +8739,8 @@ void usbi_free_io(struct usbi_io *io)
     pthread_mutex_unlock(&io->lock);
     do
     {
-      return_value_pthread_cond_destroy$1=pthread_cond_destroy(&io->cond);
-      if(!(return_value_pthread_cond_destroy$1 == 16))
+      return_value_pthread_cond_destroy_1=pthread_cond_destroy(&io->cond);
+      if(!(return_value_pthread_cond_destroy_1 == 16))
         break;
 
       pthread_mutex_lock(&io->lock);
@@ -8760,11 +8760,11 @@ signed int usbi_get_cfg_index_by_value(struct usbi_dev_handle *hdev, unsigned ch
 {
   signed int cfgndx = -1;
   signed int i;
-  signed int return_value_usbi_fetch_and_parse_descriptors$1;
+  signed int return_value_usbi_fetch_and_parse_descriptors_1;
   if(!(hdev == ((struct usbi_dev_handle *)NULL)))
   {
-    return_value_usbi_fetch_and_parse_descriptors$1=usbi_fetch_and_parse_descriptors(hdev);
-    if(return_value_usbi_fetch_and_parse_descriptors$1 == 0)
+    return_value_usbi_fetch_and_parse_descriptors_1=usbi_fetch_and_parse_descriptors(hdev);
+    if(return_value_usbi_fetch_and_parse_descriptors_1 == 0)
     {
       i = 0;
       for( ; !((unsigned long int)i >= hdev->idev->desc.num_configs); i = i + 1)
@@ -8786,11 +8786,11 @@ signed int usbi_get_cfg_index_by_value(struct usbi_dev_handle *hdev, unsigned ch
 unsigned char usbi_get_cfg_value_by_index(struct usbi_dev_handle *hdev, signed int cfgndx)
 {
   unsigned char cfgval = (unsigned char)0;
-  signed int return_value_usbi_fetch_and_parse_descriptors$1;
+  signed int return_value_usbi_fetch_and_parse_descriptors_1;
   if(cfgndx >= 0 && !(hdev == ((struct usbi_dev_handle *)NULL)))
   {
-    return_value_usbi_fetch_and_parse_descriptors$1=usbi_fetch_and_parse_descriptors(hdev);
-    if(return_value_usbi_fetch_and_parse_descriptors$1 == 0)
+    return_value_usbi_fetch_and_parse_descriptors_1=usbi_fetch_and_parse_descriptors(hdev);
+    if(return_value_usbi_fetch_and_parse_descriptors_1 == 0)
     {
       if(!((unsigned long int)cfgndx >= hdev->idev->desc.num_configs))
         cfgval = (hdev->idev->desc.configs + (signed long int)cfgndx)->desc.bConfigurationValue;
@@ -8821,9 +8821,9 @@ static signed int usbi_get_config_desc(struct usbi_dev_handle *devh, signed int 
   else
   {
     openusb_parse_data("bbw", (unsigned char *)buf, (unsigned int)8, (void *)&cfg_desc, (unsigned int)sizeof(struct usb_config_desc) /*10ul*/ , &count);
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)cfg_desc.wTotalLength, (unsigned long int)1);
-    newbuf = (char *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)cfg_desc.wTotalLength, (unsigned long int)1);
+    newbuf = (char *)return_value_calloc_1;
     if(newbuf == ((char *)NULL))
     {
       _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)1, "usbi_get_config_desc", (unsigned int)340, "no memory");
@@ -8939,8 +8939,8 @@ static signed int usbi_get_num_altsettings(struct usbi_device *idev, unsigned ch
 {
   unsigned char num_alt = (unsigned char)0;
   unsigned char *p = buffer;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(buffer == ((unsigned char *)NULL) || (signed int)buflen == 0)
     return -1;
 
@@ -8949,11 +8949,11 @@ static signed int usbi_get_num_altsettings(struct usbi_device *idev, unsigned ch
     while((signed int)buflen >= 3)
     {
       if((signed int)p[1l] == 0x04)
-        tmp_if_expr$1 = p[(signed long int)2] == infidx ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = p[(signed long int)2] == infidx ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
         num_alt = num_alt + 1;
 
       else
@@ -8965,11 +8965,11 @@ static signed int usbi_get_num_altsettings(struct usbi_device *idev, unsigned ch
         }
 
       if((signed int)*p >= 1)
-        tmp_if_expr$2 = (signed int)buflen >= (signed int)p[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)buflen >= (signed int)p[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
       {
         buflen = buflen - (unsigned short int)p[(signed long int)0];
         p = p + (signed long int)p[(signed long int)0];
@@ -9023,9 +9023,9 @@ signed int usbi_get_string(unsigned long int dev, signed int index, signed int l
     ctrl.length = (unsigned int)buflen;
     ctrl.timeout = (unsigned int)100;
     _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)4, "usbi_get_string", (unsigned int)1163, "usbi_get_string(): index=%d langid=0x%x len=%d", index, langid, buflen);
-    signed int return_value_openusb_ctrl_xfer$1;
-    return_value_openusb_ctrl_xfer$1=openusb_ctrl_xfer(dev, (unsigned char)0, (unsigned char)0, &ctrl);
-    if(return_value_openusb_ctrl_xfer$1 == 0)
+    signed int return_value_openusb_ctrl_xfer_1;
+    return_value_openusb_ctrl_xfer_1=openusb_ctrl_xfer(dev, (unsigned char)0, (unsigned char)0, &ctrl);
+    if(return_value_openusb_ctrl_xfer_1 == 0)
       return (signed int)ctrl.result.transferred_bytes;
 
     else
@@ -9043,8 +9043,8 @@ signed int usbi_get_string_simple(unsigned long int dev, signed int index, char 
   signed int si;
   signed int di;
   _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)4, "usbi_get_string_simple", (unsigned int)1183, "usb_get_string_simple(): index=%d", index);
-  signed int tmp_post$1;
-  signed int tmp_post$2;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
   if(index == 0)
   {
     _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)1, "usbi_get_string_simple", (unsigned int)1186, "not a valid string index");
@@ -9092,16 +9092,16 @@ signed int usbi_get_string_simple(unsigned long int dev, signed int index, char 
 
               if(!(tbuf[(signed long int)(1 + si)] == 0))
               {
-                tmp_post$1 = di;
+                tmp_post_1 = di;
                 di = di + 1;
-                buf[(signed long int)tmp_post$1] = (char)63;
+                buf[(signed long int)tmp_post_1] = (char)63;
               }
 
               else
               {
-                tmp_post$2 = di;
+                tmp_post_2 = di;
                 di = di + 1;
-                buf[(signed long int)tmp_post$2] = tbuf[(signed long int)si];
+                buf[(signed long int)tmp_post_2] = tbuf[(signed long int)si];
               }
             }
             buf[(signed long int)di] = (char)0;
@@ -9163,13 +9163,13 @@ static signed int usbi_init_common(void)
 {
   const char *driver_path;
   signed int ret;
-  char *return_value_getenv$2;
-  return_value_getenv$2=getenv("OPENUSB_DEBUG");
-  char *return_value_getenv$1;
-  if(!(return_value_getenv$2 == ((char *)NULL)))
+  char *return_value_getenv_2;
+  return_value_getenv_2=getenv("OPENUSB_DEBUG");
+  char *return_value_getenv_1;
+  if(!(return_value_getenv_2 == ((char *)NULL)))
   {
-    return_value_getenv$1=getenv("OPENUSB_DEBUG");
-    openusb_global_debug_level=atoi(return_value_getenv$1);
+    return_value_getenv_1=getenv("OPENUSB_DEBUG");
+    openusb_global_debug_level=atoi(return_value_getenv_1);
   }
 
   ret=usbi_list_init(&usbi_handles);
@@ -9227,7 +9227,7 @@ static signed int usbi_init_common(void)
 
           else
           {
-            pthread_cond_init(&event_callback_cond, (const union anonymous$2 *)(void *)0);
+            pthread_cond_init(&event_callback_cond, (const union anonymous_2 *)(void *)0);
             event_callback_exit = 0;
             ret=pthread_create(&event_callback_thread, (const union pthread_attr_t *)(void *)0, process_event_callbacks, (void *)0);
             if(!(ret >= 0))
@@ -9277,22 +9277,22 @@ static struct usbi_handle * usbi_init_handle(void)
 {
   struct usbi_handle *hdl;
   signed int ret;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct usbi_handle) /*376ul*/ );
-  hdl = (struct usbi_handle *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct usbi_handle) /*376ul*/ );
+  hdl = (struct usbi_handle *)return_value_malloc_1;
   if(hdl == ((struct usbi_handle *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)1, "usbi_init_handle", (unsigned int)520, "malloc handle failed (ret = %d)", *return_value___errno_location$2);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)1, "usbi_init_handle", (unsigned int)520, "malloc handle failed (ret = %d)", *return_value___errno_location_2);
     return (struct usbi_handle *)(void *)0;
   }
 
   memset((void *)hdl, 0, sizeof(struct usbi_handle) /*376ul*/ );
-  ret=pthread_mutex_init(&hdl->lock, (const union anonymous$2 *)(void *)0);
-  char *return_value_getenv$3;
-  signed int return_value_atoi$4;
-  unsigned long int tmp_post$6;
+  ret=pthread_mutex_init(&hdl->lock, (const union anonymous_2 *)(void *)0);
+  char *return_value_getenv_3;
+  signed int return_value_atoi_4;
+  unsigned long int tmp_post_6;
   if(!(ret == 0))
   {
     _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)1, "usbi_init_handle", (unsigned int)528, "init handle mutex failed (ret = %d)", ret);
@@ -9302,26 +9302,26 @@ static struct usbi_handle * usbi_init_handle(void)
 
   else
   {
-    char *return_value_getenv$5;
-    return_value_getenv$5=getenv("OPENUSB_DEBUG");
-    if(!(return_value_getenv$5 == ((char *)NULL)))
+    char *return_value_getenv_5;
+    return_value_getenv_5=getenv("OPENUSB_DEBUG");
+    if(!(return_value_getenv_5 == ((char *)NULL)))
     {
-      return_value_getenv$3=getenv("OPENUSB_DEBUG");
-      return_value_atoi$4=atoi(return_value_getenv$3);
-      hdl->debug_level = (unsigned int)return_value_atoi$4;
+      return_value_getenv_3=getenv("OPENUSB_DEBUG");
+      return_value_atoi_4=atoi(return_value_getenv_3);
+      hdl->debug_level = (unsigned int)return_value_atoi_4;
     }
 
     pthread_mutex_lock(&usbi_lock);
-    tmp_post$6 = cur_handle;
+    tmp_post_6 = cur_handle;
     cur_handle = cur_handle + 1ul;
-    hdl->handle = tmp_post$6;
+    hdl->handle = tmp_post_6;
     pthread_mutex_unlock(&usbi_lock);
     pthread_mutex_lock(&usbi_handles.lock);
     list_add(&hdl->list, &usbi_handles.head);
     pthread_mutex_unlock(&usbi_handles.lock);
     list_init(&hdl->complete_list);
-    pthread_mutex_init(&hdl->complete_lock, (const union anonymous$2 *)(void *)0);
-    pthread_cond_init(&hdl->complete_cv, (const union anonymous$2 *)(void *)0);
+    pthread_mutex_init(&hdl->complete_lock, (const union anonymous_2 *)(void *)0);
+    pthread_cond_init(&hdl->complete_cv, (const union anonymous_2 *)(void *)0);
     hdl->complete_count = 0;
     return hdl;
   }
@@ -9443,13 +9443,13 @@ signed int usbi_io_sync(struct usbi_dev_handle *dev, struct openusb_request_hand
     struct simple_io *io;
     struct usbi_io *iop;
     unsigned int timeout;
-    signed int return_value_usbi_get_xfer_timeout$1;
-    return_value_usbi_get_xfer_timeout$1=usbi_get_xfer_timeout(req, dev);
-    timeout = (unsigned int)return_value_usbi_get_xfer_timeout$1;
+    signed int return_value_usbi_get_xfer_timeout_1;
+    return_value_usbi_get_xfer_timeout_1=usbi_get_xfer_timeout(req, dev);
+    timeout = (unsigned int)return_value_usbi_get_xfer_timeout_1;
     iop=usbi_alloc_io(dev, req, timeout);
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc(sizeof(struct simple_io) /*104ul*/ , (unsigned long int)1);
-    io = (struct simple_io *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc(sizeof(struct simple_io) /*104ul*/ , (unsigned long int)1);
+    io = (struct simple_io *)return_value_calloc_2;
     if(io == ((struct simple_io *)NULL) || iop == ((struct usbi_io *)NULL))
       return -2;
 
@@ -9473,14 +9473,14 @@ signed int usbi_io_sync(struct usbi_dev_handle *dev, struct openusb_request_hand
   else
     if(io_pattern == 2 || io_pattern == 4)
     {
-      struct usbi_io *usbi_io_sync$$1$$2$$io;
-      unsigned int usbi_io_sync$$1$$2$$timeout;
-      signed int return_value_usbi_get_xfer_timeout$3;
-      return_value_usbi_get_xfer_timeout$3=usbi_get_xfer_timeout(req, dev);
-      usbi_io_sync$$1$$2$$timeout = (unsigned int)return_value_usbi_get_xfer_timeout$3;
-      usbi_io_sync$$1$$2$$io=usbi_alloc_io(dev, req, usbi_io_sync$$1$$2$$timeout);
-      ret=usbi_sync_submit(usbi_io_sync$$1$$2$$io);
-      usbi_free_io(usbi_io_sync$$1$$2$$io);
+      struct usbi_io *usbi_io_sync__1__2__io;
+      unsigned int usbi_io_sync__1__2__timeout;
+      signed int return_value_usbi_get_xfer_timeout_3;
+      return_value_usbi_get_xfer_timeout_3=usbi_get_xfer_timeout(req, dev);
+      usbi_io_sync__1__2__timeout = (unsigned int)return_value_usbi_get_xfer_timeout_3;
+      usbi_io_sync__1__2__io=usbi_alloc_io(dev, req, usbi_io_sync__1__2__timeout);
+      ret=usbi_sync_submit(usbi_io_sync__1__2__io);
+      usbi_free_io(usbi_io_sync__1__2__io);
       return ret;
     }
 
@@ -9501,7 +9501,7 @@ static signed int usbi_list_init(struct usbi_list *list)
 {
   signed int ret = 0;
   list_init(&list->head);
-  ret=pthread_mutex_init(&list->lock, (const union anonymous$2 *)(void *)0);
+  ret=pthread_mutex_init(&list->lock, (const union anonymous_2 *)(void *)0);
   if(!(ret == 0))
     return -13;
 
@@ -9526,7 +9526,7 @@ static signed int usbi_match_class(unsigned long int handle, struct usbi_device 
   hdl=usbi_find_handle(handle);
   _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)4, "usbi_match_class", (unsigned int)440, "devid= %d class=%d, subclass=%d, proto = %d", (signed int)idev->devid, devclass, subclass, protocol);
   ret=openusb_parse_device_desc(handle, idev->devid, (unsigned char *)(void *)0, (unsigned short int)0, &dev_desc);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(ret >= 0))
   {
     _usbi_debug(hdl, (unsigned int)2, "usbi_match_class", (unsigned int)445, "get device desc for devid %llu failed (ret = %d)", idev->devid, ret);
@@ -9539,14 +9539,14 @@ static signed int usbi_match_class(unsigned long int handle, struct usbi_device 
     if(((signed int)devclass == -1 || (signed int)devclass == (signed int)dev_desc.bDeviceClass) && ((signed int)subclass == -1 || (signed int)subclass == (signed int)dev_desc.bDeviceSubClass))
     {
       if((signed int)protocol == -1)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
       {
         protocol = (signed short int)dev_desc.bDeviceProtocol;
-        tmp_if_expr$1 = protocol != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = protocol != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$1)
+      if(!tmp_if_expr_1)
         goto __CPROVER_DUMP_L4;
 
       return 1;
@@ -9592,9 +9592,9 @@ static signed int usbi_match_class(unsigned long int handle, struct usbi_device 
                   ret=openusb_parse_interface_desc(handle, idev->devid, buf, buflen, (unsigned char)c, (unsigned char)i, (unsigned char)a, &ifc_desc);
                   if(!(ret >= 0))
                   {
-                    const char *return_value_openusb_strerror$2;
-                    return_value_openusb_strerror$2=openusb_strerror(ret);
-                    _usbi_debug(hdl, (unsigned int)2, "usbi_match_class", (unsigned int)501, "get ifc desc %d-%d-%d failed (ret = %d (%s))", c, i, a, ret, return_value_openusb_strerror$2);
+                    const char *return_value_openusb_strerror_2;
+                    return_value_openusb_strerror_2=openusb_strerror(ret);
+                    _usbi_debug(hdl, (unsigned int)2, "usbi_match_class", (unsigned int)501, "get ifc desc %d-%d-%d failed (ret = %d (%s))", c, i, a, ret, return_value_openusb_strerror_2);
                     goto __CPROVER_DUMP_L12;
                   }
 
@@ -9624,8 +9624,8 @@ static signed int usbi_match_class(unsigned long int handle, struct usbi_device 
 static unsigned char * usbi_nth_desc(unsigned char *buffer, unsigned short int buflen, unsigned char type, unsigned char n, unsigned char stop_type)
 {
   unsigned char *sp = buffer;
-  unsigned char tmp_post$1;
-  _Bool tmp_if_expr$2;
+  unsigned char tmp_post_1;
+  _Bool tmp_if_expr_2;
   for( ; (signed int)buflen >= 2; sp = sp + (signed long int)sp[(signed long int)0])
   {
     if(!(sp == buffer))
@@ -9637,19 +9637,19 @@ static unsigned char * usbi_nth_desc(unsigned char *buffer, unsigned short int b
 
     if(sp[1l] == type)
     {
-      tmp_post$1 = n;
+      tmp_post_1 = n;
       n = n - 1;
-      if((signed int)tmp_post$1 == 0)
+      if((signed int)tmp_post_1 == 0)
         return sp;
 
     }
 
     if((signed int)*sp == 0)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)buflen < (signed int)sp[(signed long int)0] ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)buflen < (signed int)sp[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return (unsigned char *)(void *)0;
 
     buflen = buflen - (unsigned short int)sp[(signed long int)0];
@@ -9683,9 +9683,9 @@ signed int usbi_parse_configuration(struct usbi_config *cfg, unsigned char *buf,
 
     else
     {
-      void *return_value_calloc$1;
-      return_value_calloc$1=calloc((unsigned long int)cfg->desc.bNumInterfaces * sizeof(struct usbi_interface) /*16ul*/ , (unsigned long int)1);
-      cfg->interfaces = (struct usbi_interface *)return_value_calloc$1;
+      void *return_value_calloc_1;
+      return_value_calloc_1=calloc((unsigned long int)cfg->desc.bNumInterfaces * sizeof(struct usbi_interface) /*16ul*/ , (unsigned long int)1);
+      cfg->interfaces = (struct usbi_interface *)return_value_calloc_1;
       if(cfg->interfaces == ((struct usbi_interface *)NULL))
       {
         _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)1, "usbi_parse_configuration", (unsigned int)514, "couldn't allocated %d bytes for interfaces", (unsigned long int)cfg->desc.bNumInterfaces * sizeof(struct usbi_interface) /*16ul*/ );
@@ -9728,9 +9728,9 @@ signed int usbi_parse_configuration(struct usbi_config *cfg, unsigned char *buf,
 
         if(!(extra_len == 0))
         {
-          void *return_value_calloc$2;
-          return_value_calloc$2=calloc((unsigned long int)extra_len, (unsigned long int)1);
-          cfg->extra = (char *)return_value_calloc$2;
+          void *return_value_calloc_2;
+          return_value_calloc_2=calloc((unsigned long int)extra_len, (unsigned long int)1);
+          cfg->extra = (char *)return_value_calloc_2;
           if(cfg->extra == ((char *)NULL))
             return -10;
 
@@ -9835,9 +9835,9 @@ static signed int usbi_parse_endpoint(struct usbi_endpoint *ep, unsigned char *b
           _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)4, "usbi_parse_endpoint", (unsigned int)233, "extra len= %d", extra_len);
           if(!(extra_len == 0))
           {
-            void *return_value_calloc$1;
-            return_value_calloc$1=calloc((unsigned long int)extra_len, (unsigned long int)1);
-            ep->extra = (char *)return_value_calloc$1;
+            void *return_value_calloc_1;
+            return_value_calloc_1=calloc((unsigned long int)extra_len, (unsigned long int)1);
+            ep->extra = (char *)return_value_calloc_1;
             if(ep->extra == ((char *)NULL))
               return -1;
 
@@ -9880,12 +9880,12 @@ static signed int usbi_parse_interface(struct usbi_interface *intf, unsigned cha
     else
     {
       _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)4, "usbi_parse_interface", (unsigned int)298, "parse alt buflen = %d, buf = %p", buflen, buf);
-      signed int return_value_usbi_get_intf_altno$1;
-      return_value_usbi_get_intf_altno$1=usbi_get_intf_altno((char *)buf, buflen);
-      alt_num = (unsigned char)return_value_usbi_get_intf_altno$1;
-      void *return_value_calloc$2;
-      return_value_calloc$2=calloc(sizeof(struct usbi_altsetting) /*48ul*/  * (unsigned long int)alt_num, (unsigned long int)1);
-      intf->altsettings = (struct usbi_altsetting *)return_value_calloc$2;
+      signed int return_value_usbi_get_intf_altno_1;
+      return_value_usbi_get_intf_altno_1=usbi_get_intf_altno((char *)buf, buflen);
+      alt_num = (unsigned char)return_value_usbi_get_intf_altno_1;
+      void *return_value_calloc_2;
+      return_value_calloc_2=calloc(sizeof(struct usbi_altsetting) /*48ul*/  * (unsigned long int)alt_num, (unsigned long int)1);
+      intf->altsettings = (struct usbi_altsetting *)return_value_calloc_2;
       if(intf->altsettings == ((struct usbi_altsetting *)NULL))
       {
         intf->num_altsettings = (unsigned long int)0;
@@ -9938,9 +9938,9 @@ static signed int usbi_parse_interface(struct usbi_interface *intf, unsigned cha
           if(!(extra_len == 0))
           {
             _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)4, "usbi_parse_interface", (unsigned int)380, "extra_len: %d", extra_len);
-            void *return_value_calloc$3;
-            return_value_calloc$3=calloc((unsigned long int)extra_len, (unsigned long int)1);
-            as->extra = (char *)return_value_calloc$3;
+            void *return_value_calloc_3;
+            return_value_calloc_3=calloc((unsigned long int)extra_len, (unsigned long int)1);
+            as->extra = (char *)return_value_calloc_3;
             if(as->extra == ((char *)NULL))
             {
               _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)4, "usbi_parse_interface", (unsigned int)385, "malloc fail");
@@ -9963,9 +9963,9 @@ static signed int usbi_parse_interface(struct usbi_interface *intf, unsigned cha
           }
 
           _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)1, "usbi_parse_interface", (unsigned int)408, "endpoints:%d", as->desc.bNumEndpoints);
-          void *return_value_calloc$4;
-          return_value_calloc$4=calloc((unsigned long int)as->desc.bNumEndpoints * sizeof(struct usbi_endpoint) /*32ul*/ , (unsigned long int)1);
-          as->endpoints = (struct usbi_endpoint *)return_value_calloc$4;
+          void *return_value_calloc_4;
+          return_value_calloc_4=calloc((unsigned long int)as->desc.bNumEndpoints * sizeof(struct usbi_endpoint) /*32ul*/ , (unsigned long int)1);
+          as->endpoints = (struct usbi_endpoint *)return_value_calloc_4;
           if(as->endpoints == ((struct usbi_endpoint *)NULL))
           {
             _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)1, "usbi_parse_interface", (unsigned int)416, "couldn't allocated %d bytes for endpoints", (unsigned long int)as->desc.bNumEndpoints * sizeof(struct usb_endpoint_desc) /*10ul*/ );
@@ -10168,14 +10168,14 @@ static signed int wr_create_devices(struct usb_bus *bus, struct usbi_bus *ibus)
   {
     if(!(idev == ((struct usbi_device *)NULL)))
     {
-      void *return_value_calloc$1;
-      return_value_calloc$1=calloc(sizeof(struct usb_device) /*4184ul*/ , (unsigned long int)1);
-      dev = (struct usb_device *)return_value_calloc$1;
+      void *return_value_calloc_1;
+      return_value_calloc_1=calloc(sizeof(struct usb_device) /*4184ul*/ , (unsigned long int)1);
+      dev = (struct usb_device *)return_value_calloc_1;
       if(dev == ((struct usb_device *)NULL))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        wr_error_str(*return_value___errno_location$2, "create_devices: No memory");
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        wr_error_str(*return_value___errno_location_2, "create_devices: No memory");
         pthread_mutex_unlock(&ibus->lock);
         return -1;
       }
@@ -10224,7 +10224,7 @@ static signed int wr_create_devices(struct usb_bus *bus, struct usbi_bus *ibus)
 static signed int wr_error(signed int x)
 {
   _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)4, "wr_error", (unsigned int)76, "usb_error(): error=%d\n", x);
-  usb_error_type = (enum anonymous$1)USB_ERROR_TYPE_ERRNO;
+  usb_error_type = (enum anonymous_1)USB_ERROR_TYPE_ERRNO;
   usb_error_errno = x;
   return -x;
 }
@@ -10234,7 +10234,7 @@ static signed int wr_error(signed int x)
 static void wr_error_str(signed int x, const char *format, ...)
 {
   void **ap = (void **)&format;
-  usb_error_type = (enum anonymous$1)USB_ERROR_TYPE_STRING;
+  usb_error_type = (enum anonymous_1)USB_ERROR_TYPE_STRING;
   usb_error_errno = x;
   vsnprintf(usb_error_string, sizeof(char [1024l]) /*1024ul*/ , format, ap);
   _usbi_debug((struct usbi_handle *)(void *)0, (unsigned int)4, "wr_error_str", (unsigned int)68, "USB error (%d): %s\n", x, (const void *)usb_error_string);
@@ -10258,9 +10258,9 @@ static unsigned long int wr_find_device(struct usb_device *dev)
       idev = (struct usbi_device *)((char *)(&ibus->devices.head)->next - (signed long int)(unsigned long int)&((struct usbi_device *)0L)->bus_list);
       for( ; !(&idev->bus_list == &ibus->devices.head); idev = (struct usbi_device *)((char *)idev->bus_list.next - (signed long int)(unsigned long int)&((struct usbi_device *)0L)->bus_list))
       {
-        signed int return_value_strncmp$1;
-        return_value_strncmp$1=strncmp(idev->sys_path, dev->filename, (unsigned long int)4096);
-        if(return_value_strncmp$1 == 0)
+        signed int return_value_strncmp_1;
+        return_value_strncmp_1=strncmp(idev->sys_path, dev->filename, (unsigned long int)4096);
+        if(return_value_strncmp_1 == 0)
         {
           found = 1;
           pthread_mutex_unlock(&ibus->devices.lock);
@@ -10294,9 +10294,9 @@ static signed int wr_parse_endpoint(struct usb_interface_descriptor *ifdesc, str
   if(num_eps >= 1)
   {
     len = (signed int)(sizeof(struct usb_endpoint_descriptor) /*32ul*/  * (unsigned long int)num_eps);
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)len, (unsigned long int)1);
-    ifdesc->endpoint = (struct usb_endpoint_descriptor *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)len, (unsigned long int)1);
+    ifdesc->endpoint = (struct usb_endpoint_descriptor *)return_value_calloc_1;
     if(ifdesc->endpoint == ((struct usb_endpoint_descriptor *)NULL))
       return -1;
 
@@ -10313,17 +10313,17 @@ static signed int wr_parse_endpoint(struct usb_interface_descriptor *ifdesc, str
     ep01->bDescriptorType = ep10->desc.bDescriptorType;
     ep01->bEndpointAddress = ep10->desc.bEndpointAddress;
     ep01->bmAttributes = ep10->desc.bmAttributes;
-    unsigned int return_value_openusb_le32_to_cpu$2;
-    return_value_openusb_le32_to_cpu$2=openusb_le32_to_cpu((unsigned int)ep10->desc.wMaxPacketSize);
-    ep01->wMaxPacketSize = (unsigned short int)return_value_openusb_le32_to_cpu$2;
+    unsigned int return_value_openusb_le32_to_cpu_2;
+    return_value_openusb_le32_to_cpu_2=openusb_le32_to_cpu((unsigned int)ep10->desc.wMaxPacketSize);
+    ep01->wMaxPacketSize = (unsigned short int)return_value_openusb_le32_to_cpu_2;
     ep01->bInterval = ep10->desc.bInterval;
     ep01->bRefresh = ep10->desc.bRefresh;
     ep01->bSynchAddress = ep10->desc.bSynchAddress;
     if(!(ep10->extra == ((char *)NULL)))
     {
-      void *return_value_calloc$3;
-      return_value_calloc$3=calloc((unsigned long int)ep10->extralen, (unsigned long int)1);
-      ep01->extra = (unsigned char *)return_value_calloc$3;
+      void *return_value_calloc_3;
+      return_value_calloc_3=calloc((unsigned long int)ep10->extralen, (unsigned long int)1);
+      ep01->extra = (unsigned char *)return_value_calloc_3;
       if(ep01->extra == ((unsigned char *)NULL))
         return -1;
 
@@ -10344,9 +10344,9 @@ static signed int wr_parse_interface(struct usb_interface *ifc01, struct usbi_in
   struct usb_interface_descriptor *ifdesc;
   signed int i;
   num_alts = (signed int)ifc10->num_altsettings;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(sizeof(struct usb_interface_descriptor) /*40ul*/  * (unsigned long int)num_alts, (unsigned long int)1);
-  ifc01->altsetting = (struct usb_interface_descriptor *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(sizeof(struct usb_interface_descriptor) /*40ul*/  * (unsigned long int)num_alts, (unsigned long int)1);
+  ifc01->altsetting = (struct usb_interface_descriptor *)return_value_calloc_1;
   if(ifc01->altsetting == ((struct usb_interface_descriptor *)NULL))
     return -1;
 
@@ -10369,9 +10369,9 @@ static signed int wr_parse_interface(struct usb_interface *ifc01, struct usbi_in
       ifdesc->iInterface = alt->desc.iInterface;
       if(!(alt->extra == ((char *)NULL)))
       {
-        void *return_value_calloc$2;
-        return_value_calloc$2=calloc(alt->extralen, (unsigned long int)1);
-        ifdesc->extra = (unsigned char *)return_value_calloc$2;
+        void *return_value_calloc_2;
+        return_value_calloc_2=calloc(alt->extralen, (unsigned long int)1);
+        ifdesc->extra = (unsigned char *)return_value_calloc_2;
         if(ifdesc->extra == ((unsigned char *)NULL))
           return -1;
 
@@ -10379,9 +10379,9 @@ static signed int wr_parse_interface(struct usb_interface *ifc01, struct usbi_in
         ifdesc->extralen = (signed int)alt->extralen;
       }
 
-      signed int return_value_wr_parse_endpoint$3;
-      return_value_wr_parse_endpoint$3=wr_parse_endpoint(ifdesc, alt);
-      if(!(return_value_wr_parse_endpoint$3 == 0))
+      signed int return_value_wr_parse_endpoint_3;
+      return_value_wr_parse_endpoint_3=wr_parse_endpoint(ifdesc, alt);
+      if(!(return_value_wr_parse_endpoint_3 == 0))
       {
         free((void *)ifc01->altsetting);
         return -1;
@@ -10441,9 +10441,9 @@ static signed int wr_setup_dev_config(struct usb_device *dev, unsigned long int 
 
         else
         {
-          void *return_value_calloc$1;
-          return_value_calloc$1=calloc(sizeof(struct usb_config_descriptor) /*40ul*/  * (unsigned long int)num_configs, (unsigned long int)1);
-          dev->config = (struct usb_config_descriptor *)return_value_calloc$1;
+          void *return_value_calloc_1;
+          return_value_calloc_1=calloc(sizeof(struct usb_config_descriptor) /*40ul*/  * (unsigned long int)num_configs, (unsigned long int)1);
+          dev->config = (struct usb_config_descriptor *)return_value_calloc_1;
           if(dev->config == ((struct usb_config_descriptor *)NULL))
             return -2;
 
@@ -10461,9 +10461,9 @@ static signed int wr_setup_dev_config(struct usb_device *dev, unsigned long int 
               picfg = &config->desc;
               pcfg->bLength = picfg->bLength;
               pcfg->bDescriptorType = picfg->bDescriptorType;
-              unsigned int return_value_openusb_le32_to_cpu$2;
-              return_value_openusb_le32_to_cpu$2=openusb_le32_to_cpu((unsigned int)picfg->wTotalLength);
-              pcfg->wTotalLength = (unsigned short int)return_value_openusb_le32_to_cpu$2;
+              unsigned int return_value_openusb_le32_to_cpu_2;
+              return_value_openusb_le32_to_cpu_2=openusb_le32_to_cpu((unsigned int)picfg->wTotalLength);
+              pcfg->wTotalLength = (unsigned short int)return_value_openusb_le32_to_cpu_2;
               pcfg->bNumInterfaces = picfg->bNumInterfaces;
               pcfg->bConfigurationValue = picfg->bConfigurationValue;
               pcfg->iConfiguration = picfg->iConfiguration;
@@ -10471,9 +10471,9 @@ static signed int wr_setup_dev_config(struct usb_device *dev, unsigned long int 
               pcfg->MaxPower = picfg->bMaxPower;
               if(!(config->extralen == 0ul))
               {
-                void *return_value_calloc$3;
-                return_value_calloc$3=calloc(config->extralen, (unsigned long int)1);
-                pcfg->extra = (unsigned char *)return_value_calloc$3;
+                void *return_value_calloc_3;
+                return_value_calloc_3=calloc(config->extralen, (unsigned long int)1);
+                pcfg->extra = (unsigned char *)return_value_calloc_3;
                 if(pcfg->extra == ((unsigned char *)NULL))
                   return -1;
 
@@ -10488,9 +10488,9 @@ static signed int wr_setup_dev_config(struct usb_device *dev, unsigned long int 
                 return 0;
               }
 
-              void *return_value_calloc$4;
-              return_value_calloc$4=calloc(sizeof(struct usb_interface) /*16ul*/  * (unsigned long int)num_ifs, (unsigned long int)1);
-              pcfg->interface = (struct usb_interface *)return_value_calloc$4;
+              void *return_value_calloc_4;
+              return_value_calloc_4=calloc(sizeof(struct usb_interface) /*16ul*/  * (unsigned long int)num_ifs, (unsigned long int)1);
+              pcfg->interface = (struct usb_interface *)return_value_calloc_4;
               if(pcfg->interface == ((struct usb_interface *)NULL))
               {
                 free((void *)dev->config);
@@ -10502,9 +10502,9 @@ static signed int wr_setup_dev_config(struct usb_device *dev, unsigned long int 
               {
                 ifc01 = &pcfg->interface[(signed long int)j];
                 ifc10 = &config->interfaces[(signed long int)j];
-                signed int return_value_wr_parse_interface$5;
-                return_value_wr_parse_interface$5=wr_parse_interface(ifc01, ifc10);
-                if(!(return_value_wr_parse_interface$5 == 0))
+                signed int return_value_wr_parse_interface_5;
+                return_value_wr_parse_interface_5=wr_parse_interface(ifc01, ifc10);
+                if(!(return_value_wr_parse_interface_5 == 0))
                 {
                   free((void *)pcfg->interface);
                   return -1;

@@ -1,254 +1,254 @@
-// tag-#anon#ST[*{S8}$S8$'chars'||S32'nchars'||S32'delta'||U64'font'|]
+// tag-#anon#ST[*{S8}_S8_'chars'||S32'nchars'||S32'delta'||U64'font'|]
 // file /usr/include/X11/Xlib.h line 1057
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[*{S8}$S8$'name'||*{S8}$S8$'value'||U64'pixel'|]
+// tag-#anon#ST[*{S8}_S8_'name'||*{S8}_S8_'value'||U64'pixel'|]
 // file /usr/include/X11/xpm.h line 100
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[*{S8}$S8$'name'||U32'nlines'||U32'$pad0'||*{*{S8}$S8$}$*{S8}$S8$$'lines'|]
+// tag-#anon#ST[*{S8}_S8_'name'||U32'nlines'||U32'_pad0'||*{*{S8}_S8_}_*{S8}_S8__'lines'|]
 // file /usr/include/X11/xpm.h line 106
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[*{S8}$S8$'res_name'||*{S8}$S8$'res_class'|]
+// tag-#anon#ST[*{S8}_S8_'res_name'||*{S8}_S8_'res_class'|]
 // file /usr/include/X11/Xutil.h line 189
-struct anonymous$57;
+struct anonymous_57;
 
-// tag-#anon#ST[*{S8}$S8$'string'||*{S8}$S8$'symbolic'||*{S8}$S8$'m_color'||*{S8}$S8$'g4_color'||*{S8}$S8$'g_color'||*{S8}$S8$'c_color'|]
+// tag-#anon#ST[*{S8}_S8_'string'||*{S8}_S8_'symbolic'||*{S8}_S8_'m_color'||*{S8}_S8_'g4_color'||*{S8}_S8_'g_color'||*{S8}_S8_'c_color'|]
 // file /usr/include/X11/xpm.h line 112
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]
 // file /usr/include/X11/Xlib.h line 257
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private1'||S32'fd'||S32'private2'||S32'proto_major_version'||S32'proto_minor_version'||*{S8}$S8$'vendor'||U64'private3'||U64'private4'||U64'private5'||S32'private6'||U32'$pad0'||*{U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64}$U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64$'resource_alloc'||S32'byte_order'||S32'bitmap_unit'||S32'bitmap_pad'||S32'bitmap_bit_order'||S32'nformats'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]#$'pixmap_format'||S32'private8'||S32'release'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private9'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private10'||S32'qlen'||U32'$pad2'||U64'last_request_read'||U64'request'||*{S8}$S8$'private11'||*{S8}$S8$'private12'||*{S8}$S8$'private13'||*{S8}$S8$'private14'||U32'max_request_size'||U32'$pad3'||*{SYM#tag-_XrmHashBucketRec#}$SYM#tag-_XrmHashBucketRec#$'db'||*{S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32}$S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32$'private15'||*{S8}$S8$'display_name'||S32'default_screen'||S32'nscreens'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#$'screens'||U64'motion_buffer'||U64'private16'||S32'min_keycode'||S32'max_keycode'||*{S8}$S8$'private17'||*{S8}$S8$'private18'||S32'private19'||U32'$pad4'||*{S8}$S8$'xdefaults'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private1'||S32'fd'||S32'private2'||S32'proto_major_version'||S32'proto_minor_version'||*{S8}_S8_'vendor'||U64'private3'||U64'private4'||U64'private5'||S32'private6'||U32'_pad0'||*{U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64}_U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64_'resource_alloc'||S32'byte_order'||S32'bitmap_unit'||S32'bitmap_pad'||S32'bitmap_bit_order'||S32'nformats'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]#_'pixmap_format'||S32'private8'||S32'release'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private9'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private10'||S32'qlen'||U32'_pad2'||U64'last_request_read'||U64'request'||*{S8}_S8_'private11'||*{S8}_S8_'private12'||*{S8}_S8_'private13'||*{S8}_S8_'private14'||U32'max_request_size'||U32'_pad3'||*{SYM#tag-_XrmHashBucketRec#}_SYM#tag-_XrmHashBucketRec#_'db'||*{S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32}_S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32_'private15'||*{S8}_S8_'display_name'||S32'default_screen'||S32'nscreens'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#_'screens'||U64'motion_buffer'||U64'private16'||S32'min_keycode'||S32'max_keycode'||*{S8}_S8_'private17'||*{S8}_S8_'private18'||S32'private19'||U32'_pad4'||*{S8}_S8_'xdefaults'|]
 // file /usr/include/X11/Xlib.h line 493
-struct anonymous$55;
+struct anonymous_55;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]
 // file /usr/include/X11/Xlib.h line 280
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'fid'||U32'direction'||U32'min_char_or_byte2'||U32'max_char_or_byte2'||U32'min_byte1'||U32'max_byte1'||S32'all_chars_exist'||U32'default_char'||S32'n_properties'||*{SYM#tag-#anon#ST[U64'name'||U64'card32'|]#}$SYM#tag-#anon#ST[U64'name'||U64'card32'|]#$'properties'||SYM#tag-#anon#ST[S16'lbearing'||S16'rbearing'||S16'width'||S16'ascent'||S16'descent'||U16'attributes'|]#'min_bounds'||SYM#tag-#anon#ST[S16'lbearing'||S16'rbearing'||S16'width'||S16'ascent'||S16'descent'||U16'attributes'|]#'max_bounds'||*{SYM#tag-#anon#ST[S16'lbearing'||S16'rbearing'||S16'width'||S16'ascent'||S16'descent'||U16'attributes'|]#}$SYM#tag-#anon#ST[S16'lbearing'||S16'rbearing'||S16'width'||S16'ascent'||S16'descent'||U16'attributes'|]#$'per_char'||S32'ascent'||S32'descent'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'fid'||U32'direction'||U32'min_char_or_byte2'||U32'max_char_or_byte2'||U32'min_byte1'||U32'max_byte1'||S32'all_chars_exist'||U32'default_char'||S32'n_properties'||*{SYM#tag-#anon#ST[U64'name'||U64'card32'|]#}_SYM#tag-#anon#ST[U64'name'||U64'card32'|]#_'properties'||SYM#tag-#anon#ST[S16'lbearing'||S16'rbearing'||S16'width'||S16'ascent'||S16'descent'||U16'attributes'|]#'min_bounds'||SYM#tag-#anon#ST[S16'lbearing'||S16'rbearing'||S16'width'||S16'ascent'||S16'descent'||U16'attributes'|]#'max_bounds'||*{SYM#tag-#anon#ST[S16'lbearing'||S16'rbearing'||S16'width'||S16'ascent'||S16'descent'||U16'attributes'|]#}_SYM#tag-#anon#ST[S16'lbearing'||S16'rbearing'||S16'width'||S16'ascent'||S16'descent'||U16'attributes'|]#_'per_char'||S32'ascent'||S32'descent'|]
 // file /usr/include/X11/Xlib.h line 1035
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]
 // file /usr/include/X11/Xlib.h line 227
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[*{U8}$U8$'value'||U64'encoding'||S32'format'||U32'$pad0'||U64'nitems'|]
+// tag-#anon#ST[*{U8}_U8_'value'||U64'encoding'||S32'format'||U32'_pad0'||U64'nitems'|]
 // file /usr/include/X11/Xutil.h line 163
-struct anonymous$59;
+struct anonymous_59;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[ARR4{U32}$U32$'state'||ARR2{U32}$U32$'count'||ARR64{U8}$U8$'buffer'|]
+// tag-#anon#ST[ARR4{U32}_U32_'state'||ARR2{U32}_U32_'count'||ARR64{U8}_U8_'buffer'|]
 // file md5.h line 52
-struct anonymous$17;
+struct anonymous_17;
 
 // tag-#anon#ST[S16'lbearing'||S16'rbearing'||S16'width'||S16'ascent'||S16'descent'||U16'attributes'|]
 // file /usr/include/X11/Xlib.h line 1017
-struct anonymous$19;
+struct anonymous_19;
 
 // tag-#anon#ST[S16'x'||S16'y'|]
 // file /usr/include/X11/Xlib.h line 426
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$56;
+struct anonymous_56;
 
-// tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]
+// tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]
 // file /usr/include/X11/Xlib.h line 243
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S32'function'||U32'$pad0'||U64'plane_mask'||U64'foreground'||U64'background'||S32'line_width'||S32'line_style'||S32'cap_style'||S32'join_style'||S32'fill_style'||S32'fill_rule'||S32'arc_mode'||U32'$pad1'||U64'tile'||U64'stipple'||S32'ts_x_origin'||S32'ts_y_origin'||U64'font'||S32'subwindow_mode'||S32'graphics_exposures'||S32'clip_x_origin'||S32'clip_y_origin'||U64'clip_mask'||S32'dash_offset'||S8'dashes'||U24'$pad2'|]
+// tag-#anon#ST[S32'function'||U32'_pad0'||U64'plane_mask'||U64'foreground'||U64'background'||S32'line_width'||S32'line_style'||S32'cap_style'||S32'join_style'||S32'fill_style'||S32'fill_rule'||S32'arc_mode'||U32'_pad1'||U64'tile'||U64'stipple'||S32'ts_x_origin'||S32'ts_y_origin'||U64'font'||S32'subwindow_mode'||S32'graphics_exposures'||S32'clip_x_origin'||S32'clip_y_origin'||U64'clip_mask'||S32'dash_offset'||S8'dashes'||U24'_pad2'|]
 // file /usr/include/X11/Xlib.h line 181
 struct anonymous;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'resourceid'||U64'serial'||U8'error_code'||U8'request_code'||U8'minor_code'||U40'$pad1'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'resourceid'||U64'serial'||U8'error_code'||U8'request_code'||U8'minor_code'||U40'_pad1'|]
 // file /usr/include/X11/Xlib.h line 924
-struct anonymous$51;
+struct anonymous_51;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||S32'extension'||S32'evtype'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||S32'extension'||S32'evtype'|]
 // file /usr/include/X11/Xlib.h line 948
-struct anonymous$53;
+struct anonymous_53;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||S32'extension'||S32'evtype'||U32'cookie'||U32'$pad2'||*{V}$V$'data'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||S32'extension'||S32'evtype'||U32'cookie'||U32'_pad2'||*{V}_V_'data'|]
 // file /usr/include/X11/Xlib.h line 958
-struct anonymous$54;
+struct anonymous_54;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'drawable'||S32'major_code'||S32'minor_code'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'drawable'||S32'major_code'||S32'minor_code'|]
 // file /usr/include/X11/Xlib.h line 686
-struct anonymous$30;
+struct anonymous_30;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'drawable'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||S32'major_code'||S32'minor_code'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'drawable'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||S32'major_code'||S32'minor_code'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 673
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'|]
 // file /usr/include/X11/Xlib.h line 718
-struct anonymous$33;
+struct anonymous_33;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'from_configure'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'from_configure'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 727
-struct anonymous$34;
+struct anonymous_34;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'override_redirect'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'override_redirect'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 737
-struct anonymous$35;
+struct anonymous_35;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'place'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'place'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 816
-struct anonymous$42;
+struct anonymous_42;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'x'||S32'y'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'x'||S32'y'|]
 // file /usr/include/X11/Xlib.h line 782
-struct anonymous$39;
+struct anonymous_39;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'$pad2'||U64'above'||S32'override_redirect'||U32'$pad3'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'_pad2'||U64'above'||S32'override_redirect'||U32'_pad3'|]
 // file /usr/include/X11/Xlib.h line 768
-struct anonymous$38;
+struct anonymous_38;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||U64'parent'||S32'x'||S32'y'||S32'override_redirect'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||U64'parent'||S32'x'||S32'y'||S32'override_redirect'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 756
-struct anonymous$37;
+struct anonymous_37;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'owner'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'owner'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
 // file /usr/include/X11/Xlib.h line 857
-struct anonymous$46;
+struct anonymous_46;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'|]
 // file /usr/include/X11/Xlib.h line 747
-struct anonymous$36;
+struct anonymous_36;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'||S32'place'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'||S32'place'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 826
-struct anonymous$43;
+struct anonymous_43;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||S32'override_redirect'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||S32'override_redirect'|]
 // file /usr/include/X11/Xlib.h line 705
-struct anonymous$32;
+struct anonymous_32;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'$pad2'||U64'above'||S32'detail'||U32'$pad3'||U64'value_mask'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'_pad2'||U64'above'||S32'detail'||U32'_pad3'||U64'value_mask'|]
 // file /usr/include/X11/Xlib.h line 801
-struct anonymous$41;
+struct anonymous_41;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
 // file /usr/include/X11/Xlib.h line 870
-struct anonymous$47;
+struct anonymous_47;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'|]
 // file /usr/include/X11/Xlib.h line 934
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||ARR32{S8}$S8$'key_vector'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||ARR32{S8}_S8_'key_vector'|]
 // file /usr/include/X11/Xlib.h line 653
-struct anonymous$52;
+struct anonymous_52;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'mode'||S32'detail'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'mode'||S32'detail'|]
 // file /usr/include/X11/Xlib.h line 634
-struct anonymous$27;
+struct anonymous_27;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'request'||S32'first_keycode'||S32'count'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'request'||S32'first_keycode'||S32'count'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 912
-struct anonymous$50;
+struct anonymous_50;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'state'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'state'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 696
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'width'||S32'height'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'width'||S32'height'|]
 // file /usr/include/X11/Xlib.h line 792
-struct anonymous$40;
+struct anonymous_40;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 662
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'atom'||U64'time'||S32'state'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'atom'||U64'time'||S32'state'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 836
-struct anonymous$44;
+struct anonymous_44;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'colormap'||S32'new'||S32'state'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'colormap'||S32'new'||S32'state'|]
 // file /usr/include/X11/Xlib.h line 882
-struct anonymous$48;
+struct anonymous_48;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'message_type'||S32'format'||U32'$pad2'||SYM#tag-#anon#UN[ARR20{S8}$S8$'b'||ARR10{S16}$S16$'s'||ARR5{S64}$S64$'l'|]#'data'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'message_type'||S32'format'||U32'_pad2'||SYM#tag-#anon#UN[ARR20{S8}_S8_'b'||ARR10{S16}_S16_'s'||ARR5{S64}_S64_'l'|]#'data'|]
 // file /usr/include/X11/Xlib.h line 897
-struct anonymous$49;
+struct anonymous_49;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||S32'mode'||S32'detail'||S32'same_screen'||S32'focus'||U32'state'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||S32'mode'||S32'detail'||S32'same_screen'||S32'focus'||U32'state'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 610
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||S8'is_hint'||U24'$pad2'||S32'same_screen'||U32'$pad3'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||S8'is_hint'||U24'_pad2'||S32'same_screen'||U32'_pad3'|]
 // file /usr/include/X11/Xlib.h line 593
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'button'||S32'same_screen'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'button'||S32'same_screen'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 575
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'keycode'||S32'same_screen'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'keycode'||S32'same_screen'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 557
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'selection'||U64'time'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'selection'||U64'time'|]
 // file /usr/include/X11/Xlib.h line 847
-struct anonymous$45;
+struct anonymous_45;
 
 // tag-#anon#ST[S32'x'||S32'y'|]
 // file /usr/include/X11/Xutil.h line 88
-struct anonymous$60;
+struct anonymous_60;
 
-// tag-#anon#ST[S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||S32'depth'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visual'||U64'root'||S32'class'||S32'bit_gravity'||S32'win_gravity'||S32'backing_store'||U64'backing_planes'||U64'backing_pixel'||S32'save_under'||U32'$pad0'||U64'colormap'||S32'map_installed'||S32'map_state'||S64'all_event_masks'||S64'your_event_mask'||S64'do_not_propagate_mask'||S32'override_redirect'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#$'screen'|]
+// tag-#anon#ST[S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||S32'depth'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visual'||U64'root'||S32'class'||S32'bit_gravity'||S32'win_gravity'||S32'backing_store'||U64'backing_planes'||U64'backing_pixel'||S32'save_under'||U32'_pad0'||U64'colormap'||S32'map_installed'||S32'map_state'||S64'all_event_masks'||S64'your_event_mask'||S64'do_not_propagate_mask'||S32'override_redirect'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#_'screen'|]
 // file /usr/include/X11/Xlib.h line 308
-struct anonymous$10;
+struct anonymous_10;
 
 // tag-#anon#ST[S64'flags'||S32'input'||S32'initial_state'||U64'icon_pixmap'||U64'icon_window'||S32'icon_x'||S32'icon_y'||U64'icon_mask'||U64'window_group'|]
 // file /usr/include/X11/Xutil.h line 119
-struct anonymous$58;
+struct anonymous_58;
 
-// tag-#anon#ST[S64'flags'||S32'x'||S32'y'||S32'width'||S32'height'||S32'min_width'||S32'min_height'||S32'max_width'||S32'max_height'||S32'width_inc'||S32'height_inc'||SYM#tag-#anon#ST[S32'x'||S32'y'|]#'min_aspect'||SYM#tag-#anon#ST[S32'x'||S32'y'|]#'max_aspect'||S32'base_width'||S32'base_height'||S32'win_gravity'||U32'$pad0'|]
+// tag-#anon#ST[S64'flags'||S32'x'||S32'y'||S32'width'||S32'height'||S32'min_width'||S32'min_height'||S32'max_width'||S32'max_height'||S32'width_inc'||S32'height_inc'||SYM#tag-#anon#ST[S32'x'||S32'y'|]#'min_aspect'||SYM#tag-#anon#ST[S32'x'||S32'y'|]#'max_aspect'||S32'base_width'||S32'base_height'||S32'win_gravity'||U32'_pad0'|]
 // file /usr/include/X11/Xutil.h line 81
-struct anonymous$61;
+struct anonymous_61;
 
 // tag-#anon#ST[SYM#tag-sockaddr_in#'sin'||U32'sinlen'||S32'bindflag'||S32'sd'|]
 // file socklib.h line 35
-struct anonymous$18;
+struct anonymous_18;
 
 // tag-#anon#ST[U64'name'||U64'card32'|]
 // file /usr/include/X11/Xlib.h line 1030
-struct anonymous$13;
+struct anonymous_13;
 
 // tag-#anon#ST[U64'pixel'||U16'red'||U16'green'||U16'blue'||S8'flags'||S8'pad'|]
 // file /usr/include/X11/Xlib.h line 410
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[U64'valuemask'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visual'||U64'colormap'||U32'depth'||U32'width'||U32'height'||U32'x_hotspot'||U32'y_hotspot'||U32'cpp'||*{U64}$U64$'pixels'||U32'npixels'||U32'$pad0'||*{SYM#tag-#anon#ST[*{S8}$S8$'name'||*{S8}$S8$'value'||U64'pixel'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||*{S8}$S8$'value'||U64'pixel'|]#$'colorsymbols'||U32'numsymbols'||U32'$pad1'||*{S8}$S8$'rgb_fname'||U32'nextensions'||U32'$pad2'||*{SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'nlines'||U32'$pad0'||*{*{S8}$S8$}$*{S8}$S8$$'lines'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'name'||U32'nlines'||U32'$pad0'||*{*{S8}$S8$}$*{S8}$S8$$'lines'|]#$'extensions'||U32'ncolors'||U32'$pad3'||*{SYM#tag-#anon#ST[*{S8}$S8$'string'||*{S8}$S8$'symbolic'||*{S8}$S8$'m_color'||*{S8}$S8$'g4_color'||*{S8}$S8$'g_color'||*{S8}$S8$'c_color'|]#}$SYM#tag-#anon#ST[*{S8}$S8$'string'||*{S8}$S8$'symbolic'||*{S8}$S8$'m_color'||*{S8}$S8$'g4_color'||*{S8}$S8$'g_color'||*{S8}$S8$'c_color'|]#$'colorTable'||*{S8}$S8$'hints_cmt'||*{S8}$S8$'colors_cmt'||*{S8}$S8$'pixels_cmt'||U32'mask_pixel'||S32'exactColors'||U32'closeness'||U32'red_closeness'||U32'green_closeness'||U32'blue_closeness'||S32'color_key'||U32'$pad4'||*{U64}$U64$'alloc_pixels'||S32'nalloc_pixels'||S32'alloc_close_colors'||S32'bitmap_format'||U32'$pad5'||*{S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$|U64|*{S8}$S8$|*{SYM#tag-#anon#ST[U64'pixel'||U16'red'||U16'green'||U16'blue'||S8'flags'||S8'pad'|]#}$SYM#tag-#anon#ST[U64'pixel'||U16'red'||U16'green'||U16'blue'||S8'flags'||S8'pad'|]#$|*{V}$V$)->S32}$S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$|U64|*{S8}$S8$|*{SYM#tag-#anon#ST[U64'pixel'||U16'red'||U16'green'||U16'blue'||S8'flags'||S8'pad'|]#}$SYM#tag-#anon#ST[U64'pixel'||U16'red'||U16'green'||U16'blue'||S8'flags'||S8'pad'|]#$|*{V}$V$)->S32$'alloc_color'||*{S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$|U64|*{U64}$U64$|S32|*{V}$V$)->S32}$S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$|U64|*{U64}$U64$|S32|*{V}$V$)->S32$'free_colors'||*{V}$V$'color_closure'|]
+// tag-#anon#ST[U64'valuemask'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visual'||U64'colormap'||U32'depth'||U32'width'||U32'height'||U32'x_hotspot'||U32'y_hotspot'||U32'cpp'||*{U64}_U64_'pixels'||U32'npixels'||U32'_pad0'||*{SYM#tag-#anon#ST[*{S8}_S8_'name'||*{S8}_S8_'value'||U64'pixel'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||*{S8}_S8_'value'||U64'pixel'|]#_'colorsymbols'||U32'numsymbols'||U32'_pad1'||*{S8}_S8_'rgb_fname'||U32'nextensions'||U32'_pad2'||*{SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'nlines'||U32'_pad0'||*{*{S8}_S8_}_*{S8}_S8__'lines'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'name'||U32'nlines'||U32'_pad0'||*{*{S8}_S8_}_*{S8}_S8__'lines'|]#_'extensions'||U32'ncolors'||U32'_pad3'||*{SYM#tag-#anon#ST[*{S8}_S8_'string'||*{S8}_S8_'symbolic'||*{S8}_S8_'m_color'||*{S8}_S8_'g4_color'||*{S8}_S8_'g_color'||*{S8}_S8_'c_color'|]#}_SYM#tag-#anon#ST[*{S8}_S8_'string'||*{S8}_S8_'symbolic'||*{S8}_S8_'m_color'||*{S8}_S8_'g4_color'||*{S8}_S8_'g_color'||*{S8}_S8_'c_color'|]#_'colorTable'||*{S8}_S8_'hints_cmt'||*{S8}_S8_'colors_cmt'||*{S8}_S8_'pixels_cmt'||U32'mask_pixel'||S32'exactColors'||U32'closeness'||U32'red_closeness'||U32'green_closeness'||U32'blue_closeness'||S32'color_key'||U32'_pad4'||*{U64}_U64_'alloc_pixels'||S32'nalloc_pixels'||S32'alloc_close_colors'||S32'bitmap_format'||U32'_pad5'||*{S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_|U64|*{S8}_S8_|*{SYM#tag-#anon#ST[U64'pixel'||U16'red'||U16'green'||U16'blue'||S8'flags'||S8'pad'|]#}_SYM#tag-#anon#ST[U64'pixel'||U16'red'||U16'green'||U16'blue'||S8'flags'||S8'pad'|]#_|*{V}_V_)->S32}_S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_|U64|*{S8}_S8_|*{SYM#tag-#anon#ST[U64'pixel'||U16'red'||U16'green'||U16'blue'||S8'flags'||S8'pad'|]#}_SYM#tag-#anon#ST[U64'pixel'||U16'red'||U16'green'||U16'blue'||S8'flags'||S8'pad'|]#_|*{V}_V_)->S32_'alloc_color'||*{S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_|U64|*{U64}_U64_|S32|*{V}_V_)->S32}_S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_|U64|*{U64}_U64_|S32|*{V}_V_)->S32_'free_colors'||*{V}_V_'color_closure'|]
 // file /usr/include/X11/xpm.h line 157
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#UN[ARR20{S8}$S8$'b'||ARR10{S16}$S16$'s'||ARR5{S64}$S64$'l'|]
+// tag-#anon#UN[ARR20{S8}_S8_'b'||ARR10{S16}_S16_'s'||ARR5{S64}_S64_'l'|]
 // file /usr/include/X11/Xlib.h line 905
-union anonymous$20;
+union anonymous_20;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$16;
+union anonymous_16;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$8;
+union anonymous_8;
 
 // tag-XpmIcon
 // file gui.c line 60
@@ -382,16 +382,16 @@ unsigned long int LightenColor(char *ColorName, float rate, struct _XDisplay *di
 void LoadXPM(struct pixfile *filelist, struct XpmIcon **destination);
 // MD5Final
 // file md5.h line 61
-void MD5Final(unsigned char *digest, struct anonymous$17 *context);
+void MD5Final(unsigned char *digest, struct anonymous_17 *context);
 // MD5Init
 // file md5.h line 58
-void MD5Init(struct anonymous$17 *context);
+void MD5Init(struct anonymous_17 *context);
 // MD5Transform
 // file md5c.c line 185
 static void MD5Transform(unsigned int *state, unsigned char *block);
 // MD5Update
 // file md5.h line 59
-void MD5Update(struct anonymous$17 *context, unsigned char *input, unsigned int inputLen);
+void MD5Update(struct anonymous_17 *context, unsigned char *input, unsigned int inputLen);
 // MD5_memcpy
 // file md5c.c line 311
 static void MD5_memcpy(unsigned char *output, unsigned char *input, unsigned int len);
@@ -400,28 +400,28 @@ static void MD5_memcpy(unsigned char *output, unsigned char *input, unsigned int
 static void MD5_memset(unsigned char *output, signed int value, unsigned int len);
 // ParseColor
 // file x_color.c line 43
-struct anonymous$5 ParseColor(char *ColorName, struct _XDisplay *disp, unsigned long int win);
+struct anonymous_5 ParseColor(char *ColorName, struct _XDisplay *disp, unsigned long int win);
 // Sclient
 // file socklib.h line 50
-signed int Sclient(struct anonymous$18 *sp, char *name, signed int port);
+signed int Sclient(struct anonymous_18 *sp, char *name, signed int port);
 // Sclose
 // file socklib.h line 48
-signed int Sclose(struct anonymous$18 *sp);
+signed int Sclose(struct anonymous_18 *sp);
 // Sopen
 // file socklib.h line 47
-struct anonymous$18 * Sopen(void);
+struct anonymous_18 * Sopen(void);
 // Sread
 // file socklib.h line 51
 unsigned long int Sread(signed int sd, char *string, signed int n, signed int timeout);
 // Sserver
 // file socklib.c line 98
-signed int Sserver(struct anonymous$18 *sp, signed int port, signed int sync);
+signed int Sserver(struct anonymous_18 *sp, signed int port, signed int sync);
 // Swrite
 // file socklib.h line 52
 unsigned long int Swrite(signed int sd, char *string);
 // XAllocColor
 // file /usr/include/X11/Xlib.h line 1958
-extern signed int XAllocColor(struct _XDisplay *, unsigned long int, struct anonymous$5 *);
+extern signed int XAllocColor(struct _XDisplay *, unsigned long int, struct anonymous_5 *);
 // XBell
 // file /usr/include/X11/Xlib.h line 2010
 extern signed int XBell(struct _XDisplay *, signed int);
@@ -448,16 +448,16 @@ extern unsigned long int XCreateSimpleWindow(struct _XDisplay *, unsigned long i
 extern char * XDisplayName(const char *);
 // XDrawText
 // file /usr/include/X11/Xlib.h line 2424
-extern signed int XDrawText(struct _XDisplay *, unsigned long int, struct _XGC *, signed int, signed int, struct anonymous$14 *, signed int);
+extern signed int XDrawText(struct _XDisplay *, unsigned long int, struct _XGC *, signed int, signed int, struct anonymous_14 *, signed int);
 // XFlush
 // file /usr/include/X11/Xlib.h line 2507
 extern signed int XFlush(struct _XDisplay *);
 // XFreeFont
 // file /usr/include/X11/Xlib.h line 2542
-extern signed int XFreeFont(struct _XDisplay *, struct anonymous$21 *);
+extern signed int XFreeFont(struct _XDisplay *, struct anonymous_21 *);
 // XGetWindowAttributes
 // file /usr/include/X11/Xlib.h line 2691
-extern signed int XGetWindowAttributes(struct _XDisplay *, unsigned long int, struct anonymous$10 *);
+extern signed int XGetWindowAttributes(struct _XDisplay *, unsigned long int, struct anonymous_10 *);
 // XInternAtom
 // file /usr/include/X11/Xlib.h line 1536
 extern unsigned long int XInternAtom(struct _XDisplay *, const char *, signed int);
@@ -466,7 +466,7 @@ extern unsigned long int XInternAtom(struct _XDisplay *, const char *, signed in
 extern unsigned long int XLoadFont(struct _XDisplay *, const char *);
 // XLoadQueryFont
 // file /usr/include/X11/Xlib.h line 1394
-extern struct anonymous$21 * XLoadQueryFont(struct _XDisplay *, const char *);
+extern struct anonymous_21 * XLoadQueryFont(struct _XDisplay *, const char *);
 // XMapWindow
 // file /usr/include/X11/Xlib.h line 2806
 extern signed int XMapWindow(struct _XDisplay *, unsigned long int);
@@ -481,7 +481,7 @@ extern struct _XDisplay * XOpenDisplay(const char *);
 void XPMError(signed int Code, const char *info);
 // XParseColor
 // file /usr/include/X11/Xlib.h line 2850
-extern signed int XParseColor(struct _XDisplay *, unsigned long int, const char *, struct anonymous$5 *);
+extern signed int XParseColor(struct _XDisplay *, unsigned long int, const char *, struct anonymous_5 *);
 // XParseGeometry
 // file /usr/include/X11/Xlib.h line 2857
 extern signed int XParseGeometry(const char *, signed int *, signed int *, unsigned int *, unsigned int *);
@@ -493,7 +493,7 @@ extern signed int XPending(struct _XDisplay *);
 extern signed int XSelectInput(struct _XDisplay *, unsigned long int, signed long int);
 // XSetClassHint
 // file /usr/include/X11/Xutil.h line 583
-extern signed int XSetClassHint(struct _XDisplay *, unsigned long int, struct anonymous$57 *);
+extern signed int XSetClassHint(struct _XDisplay *, unsigned long int, struct anonymous_57 *);
 // XSetClipMask
 // file /usr/include/X11/Xlib.h line 3160
 extern signed int XSetClipMask(struct _XDisplay *, struct _XGC *, unsigned long int);
@@ -508,13 +508,13 @@ extern signed int XSetCommand(struct _XDisplay *, unsigned long int, char **, si
 extern signed int XSetIconName(struct _XDisplay *, unsigned long int, const char *);
 // XSetWMHints
 // file /usr/include/X11/Xutil.h line 641
-extern signed int XSetWMHints(struct _XDisplay *, unsigned long int, struct anonymous$58 *);
+extern signed int XSetWMHints(struct _XDisplay *, unsigned long int, struct anonymous_58 *);
 // XSetWMName
 // file /usr/include/X11/Xutil.h line 653
-extern void XSetWMName(struct _XDisplay *, unsigned long int, struct anonymous$59 *);
+extern void XSetWMName(struct _XDisplay *, unsigned long int, struct anonymous_59 *);
 // XSetWMNormalHints
 // file /usr/include/X11/Xutil.h line 659
-extern void XSetWMNormalHints(struct _XDisplay *, unsigned long int, struct anonymous$61 *);
+extern void XSetWMNormalHints(struct _XDisplay *, unsigned long int, struct anonymous_61 *);
 // XSetWMProtocols
 // file /usr/include/X11/Xlib.h line 1888
 extern signed int XSetWMProtocols(struct _XDisplay *, unsigned long int, unsigned long int *, signed int);
@@ -526,19 +526,19 @@ extern void XShapeCombineMask(struct _XDisplay *, unsigned long int, signed int,
 extern signed int XStoreName(struct _XDisplay *, unsigned long int, const char *);
 // XStringListToTextProperty
 // file /usr/include/X11/Xutil.h line 733
-extern signed int XStringListToTextProperty(char **, signed int, struct anonymous$59 *);
+extern signed int XStringListToTextProperty(char **, signed int, struct anonymous_59 *);
 // XTextExtents
 // file /usr/include/X11/Xlib.h line 3414
-extern signed int XTextExtents(struct anonymous$21 *, const char *, signed int, signed int *, signed int *, signed int *, struct anonymous$19 *);
+extern signed int XTextExtents(struct anonymous_21 *, const char *, signed int, signed int *, signed int *, signed int *, struct anonymous_19 *);
 // XWMGeometry
 // file /usr/include/X11/Xutil.h line 812
-extern signed int XWMGeometry(struct _XDisplay *, signed int, const char *, const char *, unsigned int, struct anonymous$61 *, signed int *, signed int *, signed int *, signed int *, signed int *);
+extern signed int XWMGeometry(struct _XDisplay *, signed int, const char *, const char *, unsigned int, struct anonymous_61 *, signed int *, signed int *, signed int *, signed int *, signed int *);
 // XpmCreatePixmapFromData
 // file /usr/include/X11/xpm.h line 292
-extern signed int XpmCreatePixmapFromData(struct _XDisplay *, unsigned long int, char **, unsigned long int *, unsigned long int *, struct anonymous$6 *);
+extern signed int XpmCreatePixmapFromData(struct _XDisplay *, unsigned long int, char **, unsigned long int *, unsigned long int *, struct anonymous_6 *);
 // XpmReadFileToPixmap
 // file /usr/include/X11/xpm.h line 305
-extern signed int XpmReadFileToPixmap(struct _XDisplay *, unsigned long int, const char *, unsigned long int *, unsigned long int *, struct anonymous$6 *);
+extern signed int XpmReadFileToPixmap(struct _XDisplay *, unsigned long int, const char *, unsigned long int *, unsigned long int *, struct anonymous_6 *);
 // __ctype_b_loc
 // file /usr/include/ctype.h line 79
 extern const unsigned short int ** __ctype_b_loc(void);
@@ -643,16 +643,16 @@ extern signed int gethostname(char *, unsigned long int);
 extern unsigned short int htons(unsigned short int);
 // imap_checkmbox
 // file imap.c line 151
-signed int imap_checkmbox(struct mbox_struct *mb, struct anonymous$18 **sock);
+signed int imap_checkmbox(struct mbox_struct *mb, struct anonymous_18 **sock);
 // imap_goodbye
 // file imap.c line 231
-signed int imap_goodbye(struct mbox_struct *mb, struct anonymous$18 **sock);
+signed int imap_goodbye(struct mbox_struct *mb, struct anonymous_18 **sock);
 // imap_handle
 // file imap.h line 17
 void imap_handle(struct mbox_struct *mb);
 // imap_login
 // file imap.c line 99
-signed int imap_login(struct mbox_struct *mb, struct anonymous$18 **sock);
+signed int imap_login(struct mbox_struct *mb, struct anonymous_18 **sock);
 // init_mbox
 // file asmail.c line 501
 signed int init_mbox(struct mbox_struct **mb);
@@ -724,16 +724,16 @@ signed int pop3_mailcheck(struct mbox_struct *mb);
 extern signed int printf(const char *, ...);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$7 *);
+extern signed int pthread_cond_broadcast(union anonymous_7 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$7 *, const union anonymous$16 *);
+extern signed int pthread_cond_init(union anonymous_7 *, const union anonymous_16 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$7 *, union anonymous$8 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_7 *, union anonymous_8 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$7 *, union anonymous$8 *);
+extern signed int pthread_cond_wait(union anonymous_7 *, union anonymous_8 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -745,16 +745,16 @@ extern signed int pthread_detach(unsigned long int);
 extern void pthread_exit(void *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$8 *, const union anonymous$16 *);
+extern signed int pthread_mutex_init(union anonymous_8 *, const union anonymous_16 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$8 *);
+extern signed int pthread_mutex_lock(union anonymous_8 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$8 *);
+extern signed int pthread_mutex_trylock(union anonymous_8 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$8 *);
+extern signed int pthread_mutex_unlock(union anonymous_8 *);
 // read
 // file /usr/include/unistd.h line 360
 extern signed long int read(signed int, void *, unsigned long int);
@@ -772,7 +772,7 @@ extern void * realloc(void *, unsigned long int);
 void redraw();
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$1 *, struct anonymous$1 *, struct anonymous$1 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_1 *, struct anonymous_1 *, struct anonymous_1 *, struct timeval *);
 // setup_pixmap
 // file gui.c line 356
 void setup_pixmap();
@@ -876,7 +876,7 @@ void x11_event();
 // file gui.c line 177
 void x_cleanup();
 
-struct anonymous$14
+struct anonymous_14
 {
   // chars
   char *chars;
@@ -888,7 +888,7 @@ struct anonymous$14
   unsigned long int font;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // name
   char *name;
@@ -898,7 +898,7 @@ struct anonymous$0
   unsigned long int pixel;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // name
   char *name;
@@ -908,7 +908,7 @@ struct anonymous$2
   char **lines;
 };
 
-struct anonymous$57
+struct anonymous_57
 {
   // res_name
   char *res_name;
@@ -916,7 +916,7 @@ struct anonymous$57
   char *res_class;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // string
   char *string;
@@ -932,7 +932,7 @@ struct anonymous$3
   char *c_color;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -951,11 +951,11 @@ struct anonymous$9
   // ndepths
   signed int ndepths;
   // depths
-  struct anonymous$11 *depths;
+  struct anonymous_11 *depths;
   // root_depth
   signed int root_depth;
   // root_visual
-  struct anonymous$4 *root_visual;
+  struct anonymous_4 *root_visual;
   // default_gc
   struct _XGC *default_gc;
   // cmap
@@ -976,7 +976,7 @@ struct anonymous$9
   signed long int root_input_mask;
 };
 
-struct anonymous$55
+struct anonymous_55
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1013,7 +1013,7 @@ struct anonymous$55
   // nformats
   signed int nformats;
   // pixmap_format
-  struct anonymous$15 *pixmap_format;
+  struct anonymous_15 *pixmap_format;
   // private8
   signed int private8;
   // release
@@ -1049,7 +1049,7 @@ struct anonymous$55
   // nscreens
   signed int nscreens;
   // screens
-  struct anonymous$9 *screens;
+  struct anonymous_9 *screens;
   // motion_buffer
   unsigned long int motion_buffer;
   // private16
@@ -1068,7 +1068,7 @@ struct anonymous$55
   char *xdefaults;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1080,7 +1080,7 @@ struct anonymous$15
   signed int scanline_pad;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // lbearing
   signed short int lbearing;
@@ -1096,7 +1096,7 @@ struct anonymous$19
   unsigned short int attributes;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1119,20 +1119,20 @@ struct anonymous$21
   // n_properties
   signed int n_properties;
   // properties
-  struct anonymous$13 *properties;
+  struct anonymous_13 *properties;
   // min_bounds
-  struct anonymous$19 min_bounds;
+  struct anonymous_19 min_bounds;
   // max_bounds
-  struct anonymous$19 max_bounds;
+  struct anonymous_19 max_bounds;
   // per_char
-  struct anonymous$19 *per_char;
+  struct anonymous_19 *per_char;
   // ascent
   signed int ascent;
   // descent
   signed int descent;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1152,7 +1152,7 @@ struct anonymous$4
   signed int map_entries;
 };
 
-struct anonymous$59
+struct anonymous_59
 {
   // value
   unsigned char *value;
@@ -1164,13 +1164,13 @@ struct anonymous$59
   unsigned long int nitems;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // state
   unsigned int state[4l];
@@ -1180,7 +1180,7 @@ struct anonymous$17
   unsigned char buffer[64l];
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // x
   signed short int x;
@@ -1188,7 +1188,7 @@ struct anonymous$12
   signed short int y;
 };
 
-struct anonymous$56
+struct anonymous_56
 {
   // __lock
   signed int __lock;
@@ -1208,14 +1208,14 @@ struct anonymous$56
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // depth
   signed int depth;
   // nvisuals
   signed int nvisuals;
   // visuals
-  struct anonymous$4 *visuals;
+  struct anonymous_4 *visuals;
 };
 
 struct anonymous
@@ -1268,7 +1268,7 @@ struct anonymous
   char dashes;
 };
 
-struct anonymous$51
+struct anonymous_51
 {
   // type
   signed int type;
@@ -1286,7 +1286,7 @@ struct anonymous$51
   unsigned char minor_code;
 };
 
-struct anonymous$53
+struct anonymous_53
 {
   // type
   signed int type;
@@ -1302,7 +1302,7 @@ struct anonymous$53
   signed int evtype;
 };
 
-struct anonymous$54
+struct anonymous_54
 {
   // type
   signed int type;
@@ -1322,7 +1322,7 @@ struct anonymous$54
   void *data;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // type
   signed int type;
@@ -1340,7 +1340,7 @@ struct anonymous$30
   signed int minor_code;
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // type
   signed int type;
@@ -1368,7 +1368,7 @@ struct anonymous$29
   signed int minor_code;
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // type
   signed int type;
@@ -1384,7 +1384,7 @@ struct anonymous$33
   unsigned long int window;
 };
 
-struct anonymous$34
+struct anonymous_34
 {
   // type
   signed int type;
@@ -1402,7 +1402,7 @@ struct anonymous$34
   signed int from_configure;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // type
   signed int type;
@@ -1420,7 +1420,7 @@ struct anonymous$35
   signed int override_redirect;
 };
 
-struct anonymous$42
+struct anonymous_42
 {
   // type
   signed int type;
@@ -1438,7 +1438,7 @@ struct anonymous$42
   signed int place;
 };
 
-struct anonymous$39
+struct anonymous_39
 {
   // type
   signed int type;
@@ -1458,7 +1458,7 @@ struct anonymous$39
   signed int y;
 };
 
-struct anonymous$38
+struct anonymous_38
 {
   // type
   signed int type;
@@ -1488,7 +1488,7 @@ struct anonymous$38
   signed int override_redirect;
 };
 
-struct anonymous$37
+struct anonymous_37
 {
   // type
   signed int type;
@@ -1512,7 +1512,7 @@ struct anonymous$37
   signed int override_redirect;
 };
 
-struct anonymous$46
+struct anonymous_46
 {
   // type
   signed int type;
@@ -1536,7 +1536,7 @@ struct anonymous$46
   unsigned long int time;
 };
 
-struct anonymous$36
+struct anonymous_36
 {
   // type
   signed int type;
@@ -1552,7 +1552,7 @@ struct anonymous$36
   unsigned long int window;
 };
 
-struct anonymous$43
+struct anonymous_43
 {
   // type
   signed int type;
@@ -1570,7 +1570,7 @@ struct anonymous$43
   signed int place;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // type
   signed int type;
@@ -1598,7 +1598,7 @@ struct anonymous$32
   signed int override_redirect;
 };
 
-struct anonymous$41
+struct anonymous_41
 {
   // type
   signed int type;
@@ -1630,7 +1630,7 @@ struct anonymous$41
   unsigned long int value_mask;
 };
 
-struct anonymous$47
+struct anonymous_47
 {
   // type
   signed int type;
@@ -1652,7 +1652,7 @@ struct anonymous$47
   unsigned long int time;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // type
   signed int type;
@@ -1666,7 +1666,7 @@ struct anonymous$22
   unsigned long int window;
 };
 
-struct anonymous$52
+struct anonymous_52
 {
   // type
   signed int type;
@@ -1682,7 +1682,7 @@ struct anonymous$52
   char key_vector[32l];
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // type
   signed int type;
@@ -1700,7 +1700,7 @@ struct anonymous$27
   signed int detail;
 };
 
-struct anonymous$50
+struct anonymous_50
 {
   // type
   signed int type;
@@ -1720,7 +1720,7 @@ struct anonymous$50
   signed int count;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // type
   signed int type;
@@ -1736,7 +1736,7 @@ struct anonymous$31
   signed int state;
 };
 
-struct anonymous$40
+struct anonymous_40
 {
   // type
   signed int type;
@@ -1754,7 +1754,7 @@ struct anonymous$40
   signed int height;
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // type
   signed int type;
@@ -1778,7 +1778,7 @@ struct anonymous$28
   signed int count;
 };
 
-struct anonymous$44
+struct anonymous_44
 {
   // type
   signed int type;
@@ -1798,7 +1798,7 @@ struct anonymous$44
   signed int state;
 };
 
-struct anonymous$48
+struct anonymous_48
 {
   // type
   signed int type;
@@ -1818,7 +1818,7 @@ struct anonymous$48
   signed int state;
 };
 
-union anonymous$20
+union anonymous_20
 {
   // b
   char b[20l];
@@ -1828,7 +1828,7 @@ union anonymous$20
   signed long int l[5l];
 };
 
-struct anonymous$49
+struct anonymous_49
 {
   // type
   signed int type;
@@ -1845,10 +1845,10 @@ struct anonymous$49
   // format
   signed int format;
   // data
-  union anonymous$20 data;
+  union anonymous_20 data;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // type
   signed int type;
@@ -1886,7 +1886,7 @@ struct anonymous$26
   unsigned int state;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // type
   signed int type;
@@ -1920,7 +1920,7 @@ struct anonymous$25
   signed int same_screen;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // type
   signed int type;
@@ -1954,7 +1954,7 @@ struct anonymous$24
   signed int same_screen;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // type
   signed int type;
@@ -1988,7 +1988,7 @@ struct anonymous$23
   signed int same_screen;
 };
 
-struct anonymous$45
+struct anonymous_45
 {
   // type
   signed int type;
@@ -2006,7 +2006,7 @@ struct anonymous$45
   unsigned long int time;
 };
 
-struct anonymous$60
+struct anonymous_60
 {
   // x
   signed int x;
@@ -2014,7 +2014,7 @@ struct anonymous$60
   signed int y;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // x
   signed int x;
@@ -2029,7 +2029,7 @@ struct anonymous$10
   // depth
   signed int depth;
   // visual
-  struct anonymous$4 *visual;
+  struct anonymous_4 *visual;
   // root
   unsigned long int root;
   // class
@@ -2061,10 +2061,10 @@ struct anonymous$10
   // override_redirect
   signed int override_redirect;
   // screen
-  struct anonymous$9 *screen;
+  struct anonymous_9 *screen;
 };
 
-struct anonymous$58
+struct anonymous_58
 {
   // flags
   signed long int flags;
@@ -2086,7 +2086,7 @@ struct anonymous$58
   unsigned long int window_group;
 };
 
-struct anonymous$61
+struct anonymous_61
 {
   // flags
   signed long int flags;
@@ -2111,9 +2111,9 @@ struct anonymous$61
   // height_inc
   signed int height_inc;
   // min_aspect
-  struct anonymous$60 min_aspect;
+  struct anonymous_60 min_aspect;
   // max_aspect
-  struct anonymous$60 max_aspect;
+  struct anonymous_60 max_aspect;
   // base_width
   signed int base_width;
   // base_height
@@ -2148,7 +2148,7 @@ struct sockaddr_in
   unsigned char sin_zero[8l];
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // sin
   struct sockaddr_in sin;
@@ -2160,7 +2160,7 @@ struct anonymous$18
   signed int sd;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // name
   unsigned long int name;
@@ -2168,7 +2168,7 @@ struct anonymous$13
   unsigned long int card32;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // pixel
   unsigned long int pixel;
@@ -2184,12 +2184,12 @@ struct anonymous$5
   char pad;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // valuemask
   unsigned long int valuemask;
   // visual
-  struct anonymous$4 *visual;
+  struct anonymous_4 *visual;
   // colormap
   unsigned long int colormap;
   // depth
@@ -2209,7 +2209,7 @@ struct anonymous$6
   // npixels
   unsigned int npixels;
   // colorsymbols
-  struct anonymous$0 *colorsymbols;
+  struct anonymous_0 *colorsymbols;
   // numsymbols
   unsigned int numsymbols;
   // rgb_fname
@@ -2217,11 +2217,11 @@ struct anonymous$6
   // nextensions
   unsigned int nextensions;
   // extensions
-  struct anonymous$2 *extensions;
+  struct anonymous_2 *extensions;
   // ncolors
   unsigned int ncolors;
   // colorTable
-  struct anonymous$3 *colorTable;
+  struct anonymous_3 *colorTable;
   // hints_cmt
   char *hints_cmt;
   // colors_cmt
@@ -2251,14 +2251,14 @@ struct anonymous$6
   // bitmap_format
   signed int bitmap_format;
   // alloc_color
-  signed int (*alloc_color)(struct _XDisplay *, unsigned long int, char *, struct anonymous$5 *, void *);
+  signed int (*alloc_color)(struct _XDisplay *, unsigned long int, char *, struct anonymous_5 *, void *);
   // free_colors
   signed int (*free_colors)(struct _XDisplay *, unsigned long int, unsigned long int *, signed int, void *);
   // color_closure
   void *color_closure;
 };
 
-union anonymous$16
+union anonymous_16
 {
   // __size
   char __size[4l];
@@ -2266,10 +2266,10 @@ union anonymous$16
   signed int __align;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __data
-  struct anonymous$56 __data;
+  struct anonymous_56 __data;
   // __size
   char __size[48l];
   // __align
@@ -2304,7 +2304,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2321,7 +2321,7 @@ struct XpmIcon
   // mask
   unsigned long int mask;
   // attributes
-  struct anonymous$6 attributes;
+  struct anonymous_6 attributes;
   // next
   struct XpmIcon *next;
 };
@@ -2403,71 +2403,71 @@ union _XEvent
   // type
   signed int type;
   // xany
-  struct anonymous$22 xany;
+  struct anonymous_22 xany;
   // xkey
-  struct anonymous$23 xkey;
+  struct anonymous_23 xkey;
   // xbutton
-  struct anonymous$24 xbutton;
+  struct anonymous_24 xbutton;
   // xmotion
-  struct anonymous$25 xmotion;
+  struct anonymous_25 xmotion;
   // xcrossing
-  struct anonymous$26 xcrossing;
+  struct anonymous_26 xcrossing;
   // xfocus
-  struct anonymous$27 xfocus;
+  struct anonymous_27 xfocus;
   // xexpose
-  struct anonymous$28 xexpose;
+  struct anonymous_28 xexpose;
   // xgraphicsexpose
-  struct anonymous$29 xgraphicsexpose;
+  struct anonymous_29 xgraphicsexpose;
   // xnoexpose
-  struct anonymous$30 xnoexpose;
+  struct anonymous_30 xnoexpose;
   // xvisibility
-  struct anonymous$31 xvisibility;
+  struct anonymous_31 xvisibility;
   // xcreatewindow
-  struct anonymous$32 xcreatewindow;
+  struct anonymous_32 xcreatewindow;
   // xdestroywindow
-  struct anonymous$33 xdestroywindow;
+  struct anonymous_33 xdestroywindow;
   // xunmap
-  struct anonymous$34 xunmap;
+  struct anonymous_34 xunmap;
   // xmap
-  struct anonymous$35 xmap;
+  struct anonymous_35 xmap;
   // xmaprequest
-  struct anonymous$36 xmaprequest;
+  struct anonymous_36 xmaprequest;
   // xreparent
-  struct anonymous$37 xreparent;
+  struct anonymous_37 xreparent;
   // xconfigure
-  struct anonymous$38 xconfigure;
+  struct anonymous_38 xconfigure;
   // xgravity
-  struct anonymous$39 xgravity;
+  struct anonymous_39 xgravity;
   // xresizerequest
-  struct anonymous$40 xresizerequest;
+  struct anonymous_40 xresizerequest;
   // xconfigurerequest
-  struct anonymous$41 xconfigurerequest;
+  struct anonymous_41 xconfigurerequest;
   // xcirculate
-  struct anonymous$42 xcirculate;
+  struct anonymous_42 xcirculate;
   // xcirculaterequest
-  struct anonymous$43 xcirculaterequest;
+  struct anonymous_43 xcirculaterequest;
   // xproperty
-  struct anonymous$44 xproperty;
+  struct anonymous_44 xproperty;
   // xselectionclear
-  struct anonymous$45 xselectionclear;
+  struct anonymous_45 xselectionclear;
   // xselectionrequest
-  struct anonymous$46 xselectionrequest;
+  struct anonymous_46 xselectionrequest;
   // xselection
-  struct anonymous$47 xselection;
+  struct anonymous_47 xselection;
   // xcolormap
-  struct anonymous$48 xcolormap;
+  struct anonymous_48 xcolormap;
   // xclient
-  struct anonymous$49 xclient;
+  struct anonymous_49 xclient;
   // xmapping
-  struct anonymous$50 xmapping;
+  struct anonymous_50 xmapping;
   // xerror
-  struct anonymous$51 xerror;
+  struct anonymous_51 xerror;
   // xkeymap
-  struct anonymous$52 xkeymap;
+  struct anonymous_52 xkeymap;
   // xgeneric
-  struct anonymous$53 xgeneric;
+  struct anonymous_53 xgeneric;
   // xcookie
-  struct anonymous$54 xcookie;
+  struct anonymous_54 xcookie;
   // pad
   signed long int pad[24l];
 };
@@ -2517,7 +2517,7 @@ struct mbox_struct
   // thread
   unsigned long int thread;
   // mutex
-  union anonymous$8 mutex;
+  union anonymous_8 mutex;
   // type
   signed int type;
   // flags
@@ -2695,7 +2695,7 @@ struct XpmIcon *NewMail = (struct XpmIcon *)(void *)0;
 struct XpmIcon *NoMail = (struct XpmIcon *)(void *)0;
 // NumOfMsg
 // file gui.c line 91
-struct anonymous$14 NumOfMsg;
+struct anonymous_14 NumOfMsg;
 // NumOfMsgColor
 // file gui.c line 93
 unsigned long int NumOfMsgColor;
@@ -2719,10 +2719,10 @@ unsigned long int back_pix;
 signed int check_count = 0;
 // check_cv
 // file globals.c line 57
-union anonymous$7 check_cv;
+union anonymous_7 check_cv;
 // check_lock
 // file globals.c line 56
-union anonymous$8 check_lock;
+union anonymous_8 check_lock;
 // config_file_name
 // file globals.c line 13
 char config_file_name[256l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
@@ -2746,7 +2746,7 @@ signed int flag_no_x = 0;
 signed int flag_verbose = 0;
 // font_struct
 // file gui.c line 94
-struct anonymous$21 *font_struct;
+struct anonymous_21 *font_struct;
 // fore_pix
 // file gui.c line 98
 unsigned long int fore_pix;
@@ -2836,7 +2836,7 @@ unsigned long int mainWindow;
 struct mbox_struct *mbox = (struct mbox_struct *)(void *)0;
 // md5_lock
 // file globals.c line 54
-union anonymous$8 md5_lock;
+union anonymous_8 md5_lock;
 // need_animation
 // file gui.c line 73
 signed int need_animation = 0;
@@ -3157,13 +3157,13 @@ static char tmp_char[50l];
 signed int update_count = 0;
 // update_cv
 // file globals.c line 24
-union anonymous$7 update_cv;
+union anonymous_7 update_cv;
 // update_lock
 // file globals.c line 23
-union anonymous$8 update_lock;
+union anonymous_8 update_lock;
 // winsize
 // file gui.c line 101
-struct anonymous$12 winsize = { .x=(signed short int)64, .y=(signed short int)64 };
+struct anonymous_12 winsize = { .x=(signed short int)64, .y=(signed short int)64 };
 // wm_delete_window
 // file gui.c line 88
 unsigned long int wm_delete_window;
@@ -3172,7 +3172,7 @@ unsigned long int wm_delete_window;
 unsigned long int wm_protocols;
 // x11_mutex
 // file gui.c line 78
-union anonymous$8 x11_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_8 x11_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // x11_set
@@ -3185,9 +3185,9 @@ void ButtonHandler(union _XEvent *E)
 {
   if(E->xbutton.button == 1u)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(x11_set.on_left);
-    if(!(return_value_strlen$1 == 0ul))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(x11_set.on_left);
+    if(!(return_value_strlen_1 == 0ul))
       system(x11_set.on_left);
 
   }
@@ -3195,9 +3195,9 @@ void ButtonHandler(union _XEvent *E)
   else
     if(E->xbutton.button == 2u)
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(x11_set.on_middle);
-      if(!(return_value_strlen$2 == 0ul))
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(x11_set.on_middle);
+      if(!(return_value_strlen_2 == 0ul))
         system(x11_set.on_middle);
 
     }
@@ -3205,9 +3205,9 @@ void ButtonHandler(union _XEvent *E)
     else
       if(E->xbutton.button == 3u)
       {
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(x11_set.on_right);
-        if(!(return_value_strlen$3 == 0ul))
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(x11_set.on_right);
+        if(!(return_value_strlen_3 == 0ul))
           system(x11_set.on_right);
 
       }
@@ -3218,7 +3218,7 @@ void ButtonHandler(union _XEvent *E)
 // file x_color.c line 64
 char * DarkenCharColor(char *ColorName, float rate, struct _XDisplay *disp, unsigned long int win)
 {
-  struct anonymous$5 tmp_color;
+  struct anonymous_5 tmp_color;
   tmp_color=ParseColor(ColorName, disp, win);
   tmp_color.red = (unsigned short int)((float)((signed int)tmp_color.red / 257) / rate);
   tmp_color.green = (unsigned short int)((float)((signed int)tmp_color.green / 257) / rate);
@@ -3231,11 +3231,11 @@ char * DarkenCharColor(char *ColorName, float rate, struct _XDisplay *disp, unsi
 // file x_color.c line 90
 unsigned long int DarkenColor(char *ColorName, float rate, struct _XDisplay *disp, unsigned long int win)
 {
-  char *return_value_DarkenCharColor$1;
-  return_value_DarkenCharColor$1=DarkenCharColor(ColorName, rate, disp, win);
-  unsigned long int return_value_GetColor$2;
-  return_value_GetColor$2=GetColor(return_value_DarkenCharColor$1, disp, win);
-  return return_value_GetColor$2;
+  char *return_value_DarkenCharColor_1;
+  return_value_DarkenCharColor_1=DarkenCharColor(ColorName, rate, disp, win);
+  unsigned long int return_value_GetColor_2;
+  return_value_GetColor_2=GetColor(return_value_DarkenCharColor_1, disp, win);
+  return return_value_GetColor_2;
 }
 
 // Decode
@@ -3275,20 +3275,20 @@ static void Encode(unsigned char *output, unsigned int *input, unsigned int len)
 // file x_color.h line 18
 unsigned long int GetColor(char *ColorName, struct _XDisplay *disp, unsigned long int win)
 {
-  struct anonymous$5 Color;
-  struct anonymous$10 Attributes;
+  struct anonymous_5 Color;
+  struct anonymous_10 Attributes;
   XGetWindowAttributes(disp, win, &Attributes);
   Color.pixel = (unsigned long int)0;
-  signed int return_value_XParseColor$2;
-  return_value_XParseColor$2=XParseColor(disp, Attributes.colormap, ColorName, &Color);
-  signed int return_value_XAllocColor$1;
-  if(return_value_XParseColor$2 == 0)
+  signed int return_value_XParseColor_2;
+  return_value_XParseColor_2=XParseColor(disp, Attributes.colormap, ColorName, &Color);
+  signed int return_value_XAllocColor_1;
+  if(return_value_XParseColor_2 == 0)
     printf("asmail: can't parse %s\n", ColorName);
 
   else
   {
-    return_value_XAllocColor$1=XAllocColor(disp, Attributes.colormap, &Color);
-    if(return_value_XAllocColor$1 == 0)
+    return_value_XAllocColor_1=XAllocColor(disp, Attributes.colormap, &Color);
+    if(return_value_XAllocColor_1 == 0)
       printf("asmail: can't allocate %s\n", ColorName);
 
   }
@@ -3300,14 +3300,14 @@ unsigned long int GetColor(char *ColorName, struct _XDisplay *disp, unsigned lon
 struct XpmIcon * GetXPM(char **data)
 {
   struct XpmIcon *icon;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct XpmIcon) /*248ul*/ );
-  icon = (struct XpmIcon *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct XpmIcon) /*248ul*/ );
+  icon = (struct XpmIcon *)return_value_calloc_1;
   icon->attributes.valuemask = icon->attributes.valuemask | (unsigned long int)(1L << 12);
   icon->attributes.closeness = (unsigned int)40000;
-  signed int return_value_XpmCreatePixmapFromData$2;
-  return_value_XpmCreatePixmapFromData$2=XpmCreatePixmapFromData(mainDisplay, Root, data, &icon->pixmap, &icon->mask, &icon->attributes);
-  XPMError(return_value_XpmCreatePixmapFromData$2, "built-in");
+  signed int return_value_XpmCreatePixmapFromData_2;
+  return_value_XpmCreatePixmapFromData_2=XpmCreatePixmapFromData(mainDisplay, Root, data, &icon->pixmap, &icon->mask, &icon->attributes);
+  XPMError(return_value_XpmCreatePixmapFromData_2, "built-in");
   icon->next = (struct XpmIcon *)icon;
   return icon;
 }
@@ -3316,7 +3316,7 @@ struct XpmIcon * GetXPM(char **data)
 // file x_color.c line 99
 char * LightenCharColor(char *ColorName, float rate, struct _XDisplay *disp, unsigned long int win)
 {
-  struct anonymous$5 tmp_color;
+  struct anonymous_5 tmp_color;
   tmp_color=ParseColor(ColorName, disp, win);
   tmp_color.red = (unsigned short int)((float)((signed int)tmp_color.red / 257) * rate);
   tmp_color.green = (unsigned short int)((float)((signed int)tmp_color.green / 257) * rate);
@@ -3338,11 +3338,11 @@ char * LightenCharColor(char *ColorName, float rate, struct _XDisplay *disp, uns
 // file x_color.c line 131
 unsigned long int LightenColor(char *ColorName, float rate, struct _XDisplay *disp, unsigned long int win)
 {
-  char *return_value_LightenCharColor$1;
-  return_value_LightenCharColor$1=LightenCharColor(ColorName, rate, disp, win);
-  unsigned long int return_value_GetColor$2;
-  return_value_GetColor$2=GetColor(return_value_LightenCharColor$1, disp, win);
-  return return_value_GetColor$2;
+  char *return_value_LightenCharColor_1;
+  return_value_LightenCharColor_1=LightenCharColor(ColorName, rate, disp, win);
+  unsigned long int return_value_GetColor_2;
+  return_value_GetColor_2=GetColor(return_value_LightenCharColor_1, disp, win);
+  return return_value_GetColor_2;
 }
 
 // LoadXPM
@@ -3353,14 +3353,14 @@ void LoadXPM(struct pixfile *filelist, struct XpmIcon **destination)
   struct pixfile *file_ptr = filelist;
   while(!(file_ptr == ((struct pixfile *)NULL)))
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct XpmIcon) /*248ul*/ );
-    icon = (struct XpmIcon *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct XpmIcon) /*248ul*/ );
+    icon = (struct XpmIcon *)return_value_calloc_1;
     icon->attributes.valuemask = icon->attributes.valuemask | (unsigned long int)(1L << 12);
     icon->attributes.closeness = (unsigned int)40000;
-    signed int return_value_XpmReadFileToPixmap$2;
-    return_value_XpmReadFileToPixmap$2=XpmReadFileToPixmap(mainDisplay, Root, file_ptr->name, &icon->pixmap, &icon->mask, &icon->attributes);
-    XPMError(return_value_XpmReadFileToPixmap$2, file_ptr->name);
+    signed int return_value_XpmReadFileToPixmap_2;
+    return_value_XpmReadFileToPixmap_2=XpmReadFileToPixmap(mainDisplay, Root, file_ptr->name, &icon->pixmap, &icon->mask, &icon->attributes);
+    XPMError(return_value_XpmReadFileToPixmap_2, file_ptr->name);
     icon->next = *destination;
     *destination = icon;
     file_ptr = file_ptr->next;
@@ -3369,7 +3369,7 @@ void LoadXPM(struct pixfile *filelist, struct XpmIcon **destination)
 
 // MD5Final
 // file md5.h line 61
-void MD5Final(unsigned char *digest, struct anonymous$17 *context)
+void MD5Final(unsigned char *digest, struct anonymous_17 *context)
 {
   unsigned char bits[8l];
   unsigned int index;
@@ -3380,12 +3380,12 @@ void MD5Final(unsigned char *digest, struct anonymous$17 *context)
   MD5Update(context, PADDING, padLen);
   MD5Update(context, bits, (unsigned int)8);
   Encode(digest, context->state, (unsigned int)16);
-  MD5_memset((unsigned char *)context, 0, (unsigned int)sizeof(struct anonymous$17) /*88ul*/ );
+  MD5_memset((unsigned char *)context, 0, (unsigned int)sizeof(struct anonymous_17) /*88ul*/ );
 }
 
 // MD5Init
 // file md5.h line 58
-void MD5Init(struct anonymous$17 *context)
+void MD5Init(struct anonymous_17 *context)
 {
   context->count[(signed long int)1] = (unsigned int)0;
   context->count[(signed long int)0] = context->count[(signed long int)1];
@@ -3606,7 +3606,7 @@ static void MD5Transform(unsigned int *state, unsigned char *block)
 
 // MD5Update
 // file md5.h line 59
-void MD5Update(struct anonymous$17 *context, unsigned char *input, unsigned int inputLen)
+void MD5Update(struct anonymous_17 *context, unsigned char *input, unsigned int inputLen)
 {
   unsigned int i;
   unsigned int index;
@@ -3649,22 +3649,22 @@ static void MD5_memset(unsigned char *output, signed int value, unsigned int len
 
 // ParseColor
 // file x_color.c line 43
-struct anonymous$5 ParseColor(char *ColorName, struct _XDisplay *disp, unsigned long int win)
+struct anonymous_5 ParseColor(char *ColorName, struct _XDisplay *disp, unsigned long int win)
 {
-  struct anonymous$5 Color;
-  struct anonymous$10 Attributes;
+  struct anonymous_5 Color;
+  struct anonymous_10 Attributes;
   XGetWindowAttributes(disp, win, &Attributes);
   Color.pixel = (unsigned long int)0;
-  signed int return_value_XParseColor$2;
-  return_value_XParseColor$2=XParseColor(disp, Attributes.colormap, ColorName, &Color);
-  signed int return_value_XAllocColor$1;
-  if(return_value_XParseColor$2 == 0)
+  signed int return_value_XParseColor_2;
+  return_value_XParseColor_2=XParseColor(disp, Attributes.colormap, ColorName, &Color);
+  signed int return_value_XAllocColor_1;
+  if(return_value_XParseColor_2 == 0)
     printf("asmail: can't parse %s\n", ColorName);
 
   else
   {
-    return_value_XAllocColor$1=XAllocColor(disp, Attributes.colormap, &Color);
-    if(return_value_XAllocColor$1 == 0)
+    return_value_XAllocColor_1=XAllocColor(disp, Attributes.colormap, &Color);
+    if(return_value_XAllocColor_1 == 0)
       printf("asmail: can't allocate %s\n", ColorName);
 
   }
@@ -3673,7 +3673,7 @@ struct anonymous$5 ParseColor(char *ColorName, struct _XDisplay *disp, unsigned 
 
 // Sclient
 // file socklib.h line 50
-signed int Sclient(struct anonymous$18 *sp, char *name, signed int port)
+signed int Sclient(struct anonymous_18 *sp, char *name, signed int port)
 {
   struct hostent *hostent;
   hostent=gethostbyname(name);
@@ -3685,9 +3685,9 @@ signed int Sclient(struct anonymous$18 *sp, char *name, signed int port)
     sp->sin.sin_family = (unsigned short int)(signed short int)hostent->h_addrtype;
     sp->sin.sin_port=htons((unsigned short int)port);
     sp->sin.sin_addr.s_addr = (unsigned int)*((unsigned long int *)hostent->h_addr_list[(signed long int)0]);
-    signed int return_value_connect$1;
-    return_value_connect$1=connect(sp->sd, (struct sockaddr *)&sp->sin, sp->sinlen);
-    if(return_value_connect$1 == -1)
+    signed int return_value_connect_1;
+    return_value_connect_1=connect(sp->sd, (struct sockaddr *)&sp->sin, sp->sinlen);
+    if(return_value_connect_1 == -1)
       return -1;
 
     else
@@ -3697,32 +3697,32 @@ signed int Sclient(struct anonymous$18 *sp, char *name, signed int port)
 
 // Sclose
 // file socklib.h line 48
-signed int Sclose(struct anonymous$18 *sp)
+signed int Sclose(struct anonymous_18 *sp)
 {
   signed int sd;
-  if(sp == ((struct anonymous$18 *)NULL))
+  if(sp == ((struct anonymous_18 *)NULL))
     return -1;
 
   else
   {
     sd = sp->sd;
     free(sp);
-    signed int return_value_close$1;
-    return_value_close$1=close(sd);
-    return return_value_close$1;
+    signed int return_value_close_1;
+    return_value_close_1=close(sd);
+    return return_value_close_1;
   }
 }
 
 // Sopen
 // file socklib.h line 47
-struct anonymous$18 * Sopen(void)
+struct anonymous_18 * Sopen(void)
 {
-  struct anonymous$18 *sp;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$18) /*28ul*/ );
-  sp = (struct anonymous$18 *)return_value_malloc$1;
-  if(sp == ((struct anonymous$18 *)NULL))
-    return ((struct anonymous$18 *)NULL);
+  struct anonymous_18 *sp;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_18) /*28ul*/ );
+  sp = (struct anonymous_18 *)return_value_malloc_1;
+  if(sp == ((struct anonymous_18 *)NULL))
+    return ((struct anonymous_18 *)NULL);
 
   else
   {
@@ -3730,7 +3730,7 @@ struct anonymous$18 * Sopen(void)
     if(sp->sd == -1)
     {
       free(sp);
-      return ((struct anonymous$18 *)NULL);
+      return ((struct anonymous_18 *)NULL);
     }
 
     else
@@ -3746,7 +3746,7 @@ struct anonymous$18 * Sopen(void)
 // file socklib.h line 51
 unsigned long int Sread(signed int sd, char *string, signed int n, signed int timeout)
 {
-  struct anonymous$1 rfds;
+  struct anonymous_1 rfds;
   struct timeval tv;
   signed int ret;
   signed int rcd;
@@ -3755,27 +3755,27 @@ unsigned long int Sread(signed int sd, char *string, signed int n, signed int ti
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$1) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rfds)->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_1) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rfds)->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   (&rfds)->__fds_bits[(signed long int)(sd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&rfds)->__fds_bits[(signed long int)(sd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << sd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
   i = 0;
   n = n - 1;
-  signed int tmp_post$3;
-  signed long int return_value_read$4;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  signed int tmp_post_3;
+  signed long int return_value_read_4;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   do
   {
     tv.tv_sec = (signed long int)timeout;
     tv.tv_usec = (signed long int)0;
-    ret=select(sd + 1, &rfds, (struct anonymous$1 *)(void *)0, (struct anonymous$1 *)(void *)0, &tv);
+    ret=select(sd + 1, &rfds, (struct anonymous_1 *)(void *)0, (struct anonymous_1 *)(void *)0, &tv);
     if(ret >= 1)
     {
-      tmp_post$3 = i;
+      tmp_post_3 = i;
       i = i + 1;
-      return_value_read$4=read(sd, (void *)&string[(signed long int)tmp_post$3], (unsigned long int)1);
-      rcd = (signed int)return_value_read$4;
+      return_value_read_4=read(sd, (void *)&string[(signed long int)tmp_post_3], (unsigned long int)1);
+      rcd = (signed int)return_value_read_4;
       if(rcd == 0)
       {
         string[(signed long int)i] = (char)0;
@@ -3785,17 +3785,17 @@ unsigned long int Sread(signed int sd, char *string, signed int n, signed int ti
     }
 
     if(rcd >= 1 && ret >= 1)
-      tmp_if_expr$1 = (signed int)string[(signed long int)(i - 1)] != 13 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)string[(signed long int)(i - 1)] != 13 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = string[(signed long int)(i - 1)] != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = string[(signed long int)(i - 1)] != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(!(i >= n) && tmp_if_expr$2);
+  while(!(i >= n) && tmp_if_expr_2);
   if(!(rcd >= 0) || !(ret >= 0))
   {
     i = i - 1;
@@ -3818,66 +3818,66 @@ unsigned long int Sread(signed int sd, char *string, signed int n, signed int ti
 
 // Sserver
 // file socklib.c line 98
-signed int Sserver(struct anonymous$18 *sp, signed int port, signed int sync)
+signed int Sserver(struct anonymous_18 *sp, signed int port, signed int sync)
 {
   signed int flags;
   struct hostent *hostent;
   char localhost[65l];
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$5;
-  signed int return_value_listen$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_5;
+  signed int return_value_listen_4;
   if(sp->bindflag == 0)
   {
-    signed int return_value_gethostname$1;
-    return_value_gethostname$1=gethostname(localhost, (unsigned long int)64);
-    if(return_value_gethostname$1 == -1)
-      tmp_if_expr$2 = (_Bool)1;
+    signed int return_value_gethostname_1;
+    return_value_gethostname_1=gethostname(localhost, (unsigned long int)64);
+    if(return_value_gethostname_1 == -1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
       hostent=gethostbyname(localhost);
-      tmp_if_expr$2 = hostent == ((struct hostent *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = hostent == ((struct hostent *)NULL) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
       return -1;
 
     sp->sin.sin_family = (unsigned short int)(signed short int)hostent->h_addrtype;
     sp->sin.sin_port=htons((unsigned short int)port);
     sp->sin.sin_addr.s_addr = (unsigned int)*((unsigned long int *)hostent->h_addr_list[(signed long int)0]);
-    signed int return_value_bind$3;
-    return_value_bind$3=bind(sp->sd, (struct sockaddr *)&sp->sin, sp->sinlen);
-    if(return_value_bind$3 == -1)
-      tmp_if_expr$5 = (_Bool)1;
+    signed int return_value_bind_3;
+    return_value_bind_3=bind(sp->sd, (struct sockaddr *)&sp->sin, sp->sinlen);
+    if(return_value_bind_3 == -1)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_listen$4=listen(sp->sd, 5);
-      tmp_if_expr$5 = return_value_listen$4 == -1 ? (_Bool)1 : (_Bool)0;
+      return_value_listen_4=listen(sp->sd, 5);
+      tmp_if_expr_5 = return_value_listen_4 == -1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
       return -1;
 
     sp->bindflag = 1;
   }
 
-  _Bool tmp_if_expr$7;
-  signed int return_value_fcntl$6;
-  _Bool tmp_if_expr$9;
-  signed int return_value_fcntl$8;
+  _Bool tmp_if_expr_7;
+  signed int return_value_fcntl_6;
+  _Bool tmp_if_expr_9;
+  signed int return_value_fcntl_8;
   switch(sync)
   {
     case 0:
     {
       flags=fcntl(sp->sd, 3);
       if(flags == -1)
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
-        return_value_fcntl$6=fcntl(sp->sd, 4, flags & ~04000);
-        tmp_if_expr$7 = return_value_fcntl$6 == -1 ? (_Bool)1 : (_Bool)0;
+        return_value_fcntl_6=fcntl(sp->sd, 4, flags & ~04000);
+        tmp_if_expr_7 = return_value_fcntl_6 == -1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$7)
+      if(tmp_if_expr_7)
         return -1;
 
       break;
@@ -3886,14 +3886,14 @@ signed int Sserver(struct anonymous$18 *sp, signed int port, signed int sync)
     {
       flags=fcntl(sp->sd, 3);
       if(flags == -1)
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_9 = (_Bool)1;
 
       else
       {
-        return_value_fcntl$8=fcntl(sp->sd, 4, flags | 04000);
-        tmp_if_expr$9 = return_value_fcntl$8 == -1 ? (_Bool)1 : (_Bool)0;
+        return_value_fcntl_8=fcntl(sp->sd, 4, flags | 04000);
+        tmp_if_expr_9 = return_value_fcntl_8 == -1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$9)
+      if(tmp_if_expr_9)
         return -1;
 
       break;
@@ -3901,20 +3901,20 @@ signed int Sserver(struct anonymous$18 *sp, signed int port, signed int sync)
     default:
       return -1;
   }
-  signed int return_value_accept$10;
-  return_value_accept$10=accept(sp->sd, (struct sockaddr *)&sp->sin, &sp->sinlen);
-  return return_value_accept$10;
+  signed int return_value_accept_10;
+  return_value_accept_10=accept(sp->sd, (struct sockaddr *)&sp->sin, &sp->sinlen);
+  return return_value_accept_10;
 }
 
 // Swrite
 // file socklib.h line 52
 unsigned long int Swrite(signed int sd, char *string)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(string);
-  signed long int return_value_write$2;
-  return_value_write$2=write(sd, (const void *)string, return_value_strlen$1);
-  return (unsigned long int)return_value_write$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(string);
+  signed long int return_value_write_2;
+  return_value_write_2=write(sd, (const void *)string, return_value_strlen_1);
+  return (unsigned long int)return_value_write_2;
 }
 
 // XPMError
@@ -3966,55 +3966,55 @@ __CPROVER_DUMP_L6:
 // file gui.c line 183
 void add_status(char *line, signed int s)
 {
-  unsigned long int return_value_strlen$1;
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_1;
+  unsigned long int return_value_strlen_2;
   if(!((1 & s) == 0))
   {
-    return_value_strlen$1=strlen(line);
-    sprintf(&line[(signed long int)return_value_strlen$1], "R");
+    return_value_strlen_1=strlen(line);
+    sprintf(&line[(signed long int)return_value_strlen_1], "R");
   }
 
   else
   {
-    return_value_strlen$2=strlen(line);
-    sprintf(&line[(signed long int)return_value_strlen$2], " ");
+    return_value_strlen_2=strlen(line);
+    sprintf(&line[(signed long int)return_value_strlen_2], " ");
   }
-  unsigned long int return_value_strlen$3;
-  unsigned long int return_value_strlen$4;
-  unsigned long int return_value_strlen$5;
-  unsigned long int return_value_strlen$6;
-  unsigned long int return_value_strlen$7;
+  unsigned long int return_value_strlen_3;
+  unsigned long int return_value_strlen_4;
+  unsigned long int return_value_strlen_5;
+  unsigned long int return_value_strlen_6;
+  unsigned long int return_value_strlen_7;
   if(!((2 & s) == 0))
   {
-    return_value_strlen$3=strlen(line);
-    sprintf(&line[(signed long int)return_value_strlen$3], "F");
+    return_value_strlen_3=strlen(line);
+    sprintf(&line[(signed long int)return_value_strlen_3], "F");
   }
 
   else
     if(!((4 & s) == 0))
     {
-      return_value_strlen$4=strlen(line);
-      sprintf(&line[(signed long int)return_value_strlen$4], "C");
+      return_value_strlen_4=strlen(line);
+      sprintf(&line[(signed long int)return_value_strlen_4], "C");
     }
 
     else
       if(!((8 & s) == 0))
       {
-        return_value_strlen$5=strlen(line);
-        sprintf(&line[(signed long int)return_value_strlen$5], "L");
+        return_value_strlen_5=strlen(line);
+        sprintf(&line[(signed long int)return_value_strlen_5], "L");
       }
 
       else
         if(!((16 & s) == 0))
         {
-          return_value_strlen$6=strlen(line);
-          sprintf(&line[(signed long int)return_value_strlen$6], "T");
+          return_value_strlen_6=strlen(line);
+          sprintf(&line[(signed long int)return_value_strlen_6], "T");
         }
 
         else
         {
-          return_value_strlen$7=strlen(line);
-          sprintf(&line[(signed long int)return_value_strlen$7], " ");
+          return_value_strlen_7=strlen(line);
+          sprintf(&line[(signed long int)return_value_strlen_7], " ");
         }
 }
 
@@ -4046,23 +4046,23 @@ signed int check_mbox()
     }
 
   }
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!(saved_status == x11_set.status))
   {
     setup_pixmap();
     saved_status = x11_set.status;
     if(!(Current == ((struct XpmIcon *)NULL)))
-      tmp_if_expr$1 = Current->next != ((struct XpmIcon *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = Current->next != ((struct XpmIcon *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = Current->next != Current ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = Current->next != Current ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
       need_animation = 1;
 
     else
@@ -4084,10 +4084,10 @@ signed int count(struct mbox_struct *mb)
   signed int cnew = 0;
   signed int status_line;
   f=fopen(mb->file, "r");
-  char *return_value_fgets$1;
-  signed int return_value_strncmp$3;
-  char *return_value_strchr$6;
-  char *return_value_fgets$7;
+  char *return_value_fgets_1;
+  signed int return_value_strncmp_3;
+  char *return_value_strchr_6;
+  char *return_value_fgets_7;
   if(f == ((struct _IO_FILE *)NULL))
     return -1;
 
@@ -4095,13 +4095,13 @@ signed int count(struct mbox_struct *mb)
   {
     do
     {
-      return_value_fgets$1=fgets(line, 80, f);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(line, 80, f);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
-      signed int return_value_strncmp$5;
-      return_value_strncmp$5=strncmp(line, "From ", (unsigned long int)5);
-      if(return_value_strncmp$5 == 0)
+      signed int return_value_strncmp_5;
+      return_value_strncmp_5=strncmp(line, "From ", (unsigned long int)5);
+      if(return_value_strncmp_5 == 0)
       {
         ctotal = ctotal + 1;
         cnew = cnew + 1;
@@ -4111,24 +4111,24 @@ signed int count(struct mbox_struct *mb)
       else
         if(status_line == 0)
         {
-          signed int return_value_strncmp$4;
-          return_value_strncmp$4=strncmp(line, "Status: ", (unsigned long int)8);
-          if(return_value_strncmp$4 == 0)
+          signed int return_value_strncmp_4;
+          return_value_strncmp_4=strncmp(line, "Status: ", (unsigned long int)8);
+          if(return_value_strncmp_4 == 0)
           {
             status_line = 1;
             if(!((1 & mb->flags) == 0))
             {
-              signed int return_value_strncmp$2;
-              return_value_strncmp$2=strncmp(line, "Status: RO", (unsigned long int)10);
-              if(return_value_strncmp$2 == 0)
+              signed int return_value_strncmp_2;
+              return_value_strncmp_2=strncmp(line, "Status: RO", (unsigned long int)10);
+              if(return_value_strncmp_2 == 0)
                 cnew = cnew - 1;
 
             }
 
             else
             {
-              return_value_strncmp$3=strncmp(line, "Status: R", (unsigned long int)9);
-              if(return_value_strncmp$3 == 0)
+              return_value_strncmp_3=strncmp(line, "Status: R", (unsigned long int)9);
+              if(return_value_strncmp_3 == 0)
                 cnew = cnew - 1;
 
             }
@@ -4138,12 +4138,12 @@ signed int count(struct mbox_struct *mb)
 
       do
       {
-        return_value_strchr$6=strchr(line, 10);
-        if(!(return_value_strchr$6 == ((char *)NULL)))
+        return_value_strchr_6=strchr(line, 10);
+        if(!(return_value_strchr_6 == ((char *)NULL)))
           break;
 
-        return_value_fgets$7=fgets(line, 80, f);
-        if(return_value_fgets$7 == ((char *)NULL))
+        return_value_fgets_7=fgets(line, 80, f);
+        if(return_value_fgets_7 == ((char *)NULL))
           break;
 
       }
@@ -4203,16 +4203,16 @@ signed int count_mh(struct mbox_struct *mb, signed int *mod_time)
 {
   if(!((4 & mb->flags) == 0))
   {
-    signed int return_value_count_mh_sequences$1;
-    return_value_count_mh_sequences$1=count_mh_sequences(mb, mod_time);
-    return return_value_count_mh_sequences$1;
+    signed int return_value_count_mh_sequences_1;
+    return_value_count_mh_sequences_1=count_mh_sequences(mb, mod_time);
+    return return_value_count_mh_sequences_1;
   }
 
   else
   {
-    signed int return_value_count_mh_files$2;
-    return_value_count_mh_files$2=count_mh_files(mb);
-    return return_value_count_mh_files$2;
+    signed int return_value_count_mh_files_2;
+    return_value_count_mh_files_2=count_mh_files(mb);
+    return return_value_count_mh_files_2;
   }
 }
 
@@ -4228,9 +4228,9 @@ signed int count_mh_files(struct mbox_struct *mb)
   signed int cnew = 0;
   struct dirent *dir_entry = (struct dirent *)(void *)0;
   dir=opendir(mb->file);
-  unsigned long int return_value_strlen$1;
-  char *return_value_fgets$4;
-  signed int return_value_strncmp$6;
+  unsigned long int return_value_strlen_1;
+  char *return_value_fgets_4;
+  signed int return_value_strncmp_6;
   if(dir == ((struct __dirstream *)NULL))
     return -1;
 
@@ -4247,17 +4247,17 @@ signed int count_mh_files(struct mbox_struct *mb)
         if(!((signed int)dir_entry->d_name[0l] == 44))
         {
           strcpy(fname, mb->file);
-          unsigned long int return_value_strlen$2;
-          return_value_strlen$2=strlen(fname);
-          if(!((signed int)fname[-1l + (signed long int)return_value_strlen$2] == 47))
+          unsigned long int return_value_strlen_2;
+          return_value_strlen_2=strlen(fname);
+          if(!((signed int)fname[-1l + (signed long int)return_value_strlen_2] == 47))
           {
-            return_value_strlen$1=strlen(fname);
-            strncat(fname, "/", (unsigned long int)255 - return_value_strlen$1);
+            return_value_strlen_1=strlen(fname);
+            strncat(fname, "/", (unsigned long int)255 - return_value_strlen_1);
           }
 
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(fname);
-          strncat(fname, dir_entry->d_name, (unsigned long int)255 - return_value_strlen$3);
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(fname);
+          strncat(fname, dir_entry->d_name, (unsigned long int)255 - return_value_strlen_3);
           fname[(signed long int)255] = (char)0;
           f=fopen(fname, "r");
           if(f == ((struct _IO_FILE *)NULL))
@@ -4267,29 +4267,29 @@ signed int count_mh_files(struct mbox_struct *mb)
           cnew = cnew + 1;
           do
           {
-            return_value_fgets$4=fgets(line, 255, f);
-            if(return_value_fgets$4 == ((char *)NULL))
+            return_value_fgets_4=fgets(line, 255, f);
+            if(return_value_fgets_4 == ((char *)NULL))
               break;
 
             if((signed int)line[0l] == 83)
             {
-              signed int return_value_strncmp$7;
-              return_value_strncmp$7=strncmp(line, "Status: ", (unsigned long int)8);
-              if(return_value_strncmp$7 == 0)
+              signed int return_value_strncmp_7;
+              return_value_strncmp_7=strncmp(line, "Status: ", (unsigned long int)8);
+              if(return_value_strncmp_7 == 0)
               {
                 if(!((1 & mb->flags) == 0))
                 {
-                  signed int return_value_strncmp$5;
-                  return_value_strncmp$5=strncmp(line, "Status: RO", (unsigned long int)10);
-                  if(return_value_strncmp$5 == 0)
+                  signed int return_value_strncmp_5;
+                  return_value_strncmp_5=strncmp(line, "Status: RO", (unsigned long int)10);
+                  if(return_value_strncmp_5 == 0)
                     cnew = cnew - 1;
 
                 }
 
                 else
                 {
-                  return_value_strncmp$6=strncmp(line, "Status: R", (unsigned long int)9);
-                  if(return_value_strncmp$6 == 0)
+                  return_value_strncmp_6=strncmp(line, "Status: R", (unsigned long int)9);
+                  if(return_value_strncmp_6 == 0)
                     cnew = cnew - 1;
 
                 }
@@ -4344,22 +4344,22 @@ signed int count_mh_sequences(struct mbox_struct *mb, signed int *mod_time)
   char **tokens = (char **)(void *)0;
   char fname[256l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   strcpy(fname, mb->file);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(fname);
-  unsigned long int return_value_strlen$1;
-  if(!((signed int)fname[-1l + (signed long int)return_value_strlen$2] == 47))
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(fname);
+  unsigned long int return_value_strlen_1;
+  if(!((signed int)fname[-1l + (signed long int)return_value_strlen_2] == 47))
   {
-    return_value_strlen$1=strlen(fname);
-    strncat(fname, "/", (unsigned long int)255 - return_value_strlen$1);
+    return_value_strlen_1=strlen(fname);
+    strncat(fname, "/", (unsigned long int)255 - return_value_strlen_1);
   }
 
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(fname);
-  strncat(fname, ".mh_sequences", (unsigned long int)255 - return_value_strlen$3);
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(fname);
+  strncat(fname, ".mh_sequences", (unsigned long int)255 - return_value_strlen_3);
   fname[(signed long int)255] = (char)0;
-  signed int return_value_stat$4;
-  return_value_stat$4=stat(mb->file, &stat_buf);
-  if(!(return_value_stat$4 == 0))
+  signed int return_value_stat_4;
+  return_value_stat_4=stat(mb->file, &stat_buf);
+  if(!(return_value_stat_4 == 0))
   {
     fprintf(stderr, "asmail: mh_handle: stat (%s) failed.\n", (const void *)mb->file);
     return -1;
@@ -4372,7 +4372,7 @@ signed int count_mh_sequences(struct mbox_struct *mb, signed int *mod_time)
     else
       *mod_time = (signed int)stat_buf.st_ctim.tv_sec;
   dir=opendir(mb->file);
-  signed int return_value_feof$6;
+  signed int return_value_feof_6;
   if(dir == ((struct __dirstream *)NULL))
     return -1;
 
@@ -4404,27 +4404,27 @@ signed int count_mh_sequences(struct mbox_struct *mb, signed int *mod_time)
     else
     {
       lsize = 256;
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc(sizeof(char) /*1ul*/  * (unsigned long int)lsize);
-      line = (char *)return_value_malloc$5;
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc(sizeof(char) /*1ul*/  * (unsigned long int)lsize);
+      line = (char *)return_value_malloc_5;
       do
       {
-        return_value_feof$6=feof(f);
-        if(!(return_value_feof$6 == 0))
+        return_value_feof_6=feof(f);
+        if(!(return_value_feof_6 == 0))
           break;
 
         readLine(f, &line, &lsize);
-        signed int return_value_strncasecmp$8;
-        return_value_strncasecmp$8=strncasecmp(line, "unseen:", (unsigned long int)7);
-        if(return_value_strncasecmp$8 == 0)
+        signed int return_value_strncasecmp_8;
+        return_value_strncasecmp_8=strncasecmp(line, "unseen:", (unsigned long int)7);
+        if(return_value_strncasecmp_8 == 0)
         {
           tokenizeString(line, lsize, &tokens);
           i = 1;
           for( ; !(tokens[(signed long int)i] == ((char *)NULL)); i = i + 1)
           {
-            signed int return_value_parse_sequence$7;
-            return_value_parse_sequence$7=parse_sequence(tokens[(signed long int)i]);
-            cnew = cnew + return_value_parse_sequence$7;
+            signed int return_value_parse_sequence_7;
+            return_value_parse_sequence_7=parse_sequence(tokens[(signed long int)i]);
+            cnew = cnew + return_value_parse_sequence_7;
           }
           break;
         }
@@ -4463,23 +4463,23 @@ signed int count_mh_sequences(struct mbox_struct *mb, signed int *mod_time)
 // file asmail.c line 72
 void defaults()
 {
-  char *return_value_getenv$1;
-  return_value_getenv$1=getenv("HOME");
-  if(return_value_getenv$1 == ((char *)NULL))
+  char *return_value_getenv_1;
+  return_value_getenv_1=getenv("HOME");
+  if(return_value_getenv_1 == ((char *)NULL))
   {
     fprintf(stderr, "missing HOME variable\n");
     exit(1);
   }
 
-  char *return_value_getenv$2;
-  return_value_getenv$2=getenv("HOME");
-  strncpy(config_file_name, (char *)return_value_getenv$2, (unsigned long int)255);
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(config_file_name);
-  strncat(config_file_name, "/", (unsigned long int)255 - return_value_strlen$3);
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(config_file_name);
-  strncat(config_file_name, ".asmailrc", (unsigned long int)255 - return_value_strlen$4);
+  char *return_value_getenv_2;
+  return_value_getenv_2=getenv("HOME");
+  strncpy(config_file_name, (char *)return_value_getenv_2, (unsigned long int)255);
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(config_file_name);
+  strncat(config_file_name, "/", (unsigned long int)255 - return_value_strlen_3);
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(config_file_name);
+  strncat(config_file_name, ".asmailrc", (unsigned long int)255 - return_value_strlen_4);
   config_file_name[(signed long int)255] = (char)0;
   x11_set.geometry[(signed long int)255] = (char)0;
   x11_set.title[(signed long int)255] = (char)0;
@@ -4529,7 +4529,7 @@ void draw_window(unsigned long int win)
   signed int direction_return;
   signed int ascent_return;
   signed int descent_return;
-  struct anonymous$19 overall_return;
+  struct anonymous_19 overall_return;
   x = (signed int)(((unsigned int)winsize.x - Current->attributes.width) / (unsigned int)2);
   y = (signed int)(((unsigned int)winsize.y - Current->attributes.height) / (unsigned int)2);
   if(!(x11_set.use_frame == 0))
@@ -4556,72 +4556,72 @@ void draw_window(unsigned long int win)
 
     s = s | mb->status;
   }
-  unsigned long int return_value_strlen$2;
-  unsigned long int return_value_strlen$3;
-  unsigned long int return_value_strlen$5;
-  unsigned long int return_value_strlen$6;
+  unsigned long int return_value_strlen_2;
+  unsigned long int return_value_strlen_3;
+  unsigned long int return_value_strlen_5;
+  unsigned long int return_value_strlen_6;
   if(!(x11_set.total == 0))
   {
     NumOfMsg.chars[(signed long int)0] = (char)0;
     if(!(x11_set.status == 0))
     {
       add_status(NumOfMsg.chars, s);
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(NumOfMsg.chars);
-      sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen$1], " ");
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(NumOfMsg.chars);
+      sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen_1], " ");
     }
 
     if(!(x11_set.new == 0))
     {
       if(!(n == 0))
       {
-        return_value_strlen$2=strlen(NumOfMsg.chars);
-        sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen$2], "%d", n);
+        return_value_strlen_2=strlen(NumOfMsg.chars);
+        sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen_2], "%d", n);
       }
 
       else
       {
-        return_value_strlen$3=strlen(NumOfMsg.chars);
-        sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen$3], "-");
+        return_value_strlen_3=strlen(NumOfMsg.chars);
+        sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen_3], "-");
       }
     }
 
     if(!(x11_set.new == 0) && !(x11_set.old == 0))
     {
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(NumOfMsg.chars);
-      sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen$4], "%s", (const void *)x11_set.delimiter);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(NumOfMsg.chars);
+      sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen_4], "%s", (const void *)x11_set.delimiter);
     }
 
     if(!(x11_set.old == 0))
     {
       if(!(o == 0))
       {
-        return_value_strlen$5=strlen(NumOfMsg.chars);
-        sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen$5], "%d", o);
+        return_value_strlen_5=strlen(NumOfMsg.chars);
+        sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen_5], "%d", o);
       }
 
       else
       {
-        return_value_strlen$6=strlen(NumOfMsg.chars);
-        sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen$6], "-");
+        return_value_strlen_6=strlen(NumOfMsg.chars);
+        sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen_6], "-");
       }
     }
 
-    unsigned long int return_value_strlen$7;
-    return_value_strlen$7=strlen(NumOfMsg.chars);
-    NumOfMsg.nchars = (signed int)return_value_strlen$7;
+    unsigned long int return_value_strlen_7;
+    return_value_strlen_7=strlen(NumOfMsg.chars);
+    NumOfMsg.nchars = (signed int)return_value_strlen_7;
     XDrawText(mainDisplay, drawWindow, mainGC, x + x11_set.x, y + x11_set.y, &NumOfMsg, 1);
-    unsigned long int return_value_strlen$8;
-    return_value_strlen$8=strlen(NumOfMsg.chars);
-    XTextExtents(font_struct, NumOfMsg.chars, (signed int)return_value_strlen$8, &direction_return, &ascent_return, &descent_return, &overall_return);
+    unsigned long int return_value_strlen_8;
+    return_value_strlen_8=strlen(NumOfMsg.chars);
+    XTextExtents(font_struct, NumOfMsg.chars, (signed int)return_value_strlen_8, &direction_return, &ascent_return, &descent_return, &overall_return);
     y = y + ascent_return + descent_return + 2;
   }
 
-  unsigned long int return_value_strlen$10;
-  unsigned long int return_value_strlen$11;
-  unsigned long int return_value_strlen$13;
-  unsigned long int return_value_strlen$14;
+  unsigned long int return_value_strlen_10;
+  unsigned long int return_value_strlen_11;
+  unsigned long int return_value_strlen_13;
+  unsigned long int return_value_strlen_14;
   if(!(x11_set.each == 0))
   {
     mb = mbox;
@@ -4631,55 +4631,55 @@ void draw_window(unsigned long int win)
       if(!(x11_set.status == 0))
       {
         add_status(NumOfMsg.chars, mb->status);
-        unsigned long int return_value_strlen$9;
-        return_value_strlen$9=strlen(NumOfMsg.chars);
-        sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen$9], " ");
+        unsigned long int return_value_strlen_9;
+        return_value_strlen_9=strlen(NumOfMsg.chars);
+        sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen_9], " ");
       }
 
       if(!(x11_set.new == 0))
       {
         if(!(mb->cnew == 0))
         {
-          return_value_strlen$10=strlen(NumOfMsg.chars);
-          sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen$10], "%d", mb->cnew);
+          return_value_strlen_10=strlen(NumOfMsg.chars);
+          sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen_10], "%d", mb->cnew);
         }
 
         else
         {
-          return_value_strlen$11=strlen(NumOfMsg.chars);
-          sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen$11], "-");
+          return_value_strlen_11=strlen(NumOfMsg.chars);
+          sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen_11], "-");
         }
       }
 
       if(!(x11_set.new == 0) && !(x11_set.old == 0))
       {
-        unsigned long int return_value_strlen$12;
-        return_value_strlen$12=strlen(NumOfMsg.chars);
-        sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen$12], "%s", (const void *)x11_set.delimiter);
+        unsigned long int return_value_strlen_12;
+        return_value_strlen_12=strlen(NumOfMsg.chars);
+        sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen_12], "%s", (const void *)x11_set.delimiter);
       }
 
       if(!(x11_set.old == 0))
       {
         if(!(mb->ctotal == 0))
         {
-          return_value_strlen$13=strlen(NumOfMsg.chars);
-          sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen$13], "%d", mb->ctotal);
+          return_value_strlen_13=strlen(NumOfMsg.chars);
+          sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen_13], "%d", mb->ctotal);
         }
 
         else
         {
-          return_value_strlen$14=strlen(NumOfMsg.chars);
-          sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen$14], "-");
+          return_value_strlen_14=strlen(NumOfMsg.chars);
+          sprintf(&NumOfMsg.chars[(signed long int)return_value_strlen_14], "-");
         }
       }
 
-      unsigned long int return_value_strlen$15;
-      return_value_strlen$15=strlen(NumOfMsg.chars);
-      NumOfMsg.nchars = (signed int)return_value_strlen$15;
+      unsigned long int return_value_strlen_15;
+      return_value_strlen_15=strlen(NumOfMsg.chars);
+      NumOfMsg.nchars = (signed int)return_value_strlen_15;
       XDrawText(mainDisplay, drawWindow, mainGC, x + x11_set.x, y + x11_set.y, &NumOfMsg, 1);
-      unsigned long int return_value_strlen$16;
-      return_value_strlen$16=strlen(NumOfMsg.chars);
-      XTextExtents(font_struct, NumOfMsg.chars, (signed int)return_value_strlen$16, &direction_return, &ascent_return, &descent_return, &overall_return);
+      unsigned long int return_value_strlen_16;
+      return_value_strlen_16=strlen(NumOfMsg.chars);
+      XTextExtents(font_struct, NumOfMsg.chars, (signed int)return_value_strlen_16, &direction_return, &ascent_return, &descent_return, &overall_return);
       y = y + ascent_return + descent_return + 2;
       mb = mb->next;
     }
@@ -4694,15 +4694,15 @@ static void err_printf(const char *tmpl, ...)
 {
   void **val;
   signed int errno_;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  errno_ = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  errno_ = *return_value___errno_location_1;
   val = (void **)&tmpl;
   vprintf(tmpl, val);
   val = ((void **)NULL);
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  *return_value___errno_location$2 = errno_;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  *return_value___errno_location_2 = errno_;
 }
 
 // execute_on_new
@@ -4712,16 +4712,16 @@ void execute_on_new()
   if(!(x11_set.beep == 0))
     XBell(mainDisplay, 0);
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(x11_set.on_new_mail);
-  if(!(return_value_strlen$1 == 0ul))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(x11_set.on_new_mail);
+  if(!(return_value_strlen_1 == 0ul))
     system(x11_set.on_new_mail);
 
 }
 
 // imap_checkmbox
 // file imap.c line 151
-signed int imap_checkmbox(struct mbox_struct *mb, struct anonymous$18 **sock)
+signed int imap_checkmbox(struct mbox_struct *mb, struct anonymous_18 **sock)
 {
   signed int ret;
   signed int ctotal = 0;
@@ -4729,28 +4729,28 @@ signed int imap_checkmbox(struct mbox_struct *mb, struct anonymous$18 **sock)
   char input[256l];
   char output[256l];
   char *tmp_str;
-  struct anonymous$18 *s = *sock;
+  struct anonymous_18 *s = *sock;
   if(!(mb->status == 1))
     return mb->status;
 
   else
   {
     sprintf(output, "A001 STATUS %s (MESSAGES)\r\n", (const void *)mb->mbox);
-    unsigned long int return_value_Swrite$1;
-    return_value_Swrite$1=Swrite(s->sd, output);
-    ret = (signed int)return_value_Swrite$1;
+    unsigned long int return_value_Swrite_1;
+    return_value_Swrite_1=Swrite(s->sd, output);
+    ret = (signed int)return_value_Swrite_1;
     if(ret == -1)
     {
       Sclose(s);
-      *sock = (struct anonymous$18 *)(void *)0;
+      *sock = (struct anonymous_18 *)(void *)0;
       return 4;
     }
 
     else
     {
-      unsigned long int return_value_Sread$2;
-      return_value_Sread$2=Sread(s->sd, input, 255, mb->timeout);
-      ret = (signed int)return_value_Sread$2;
+      unsigned long int return_value_Sread_2;
+      return_value_Sread_2=Sread(s->sd, input, 255, mb->timeout);
+      ret = (signed int)return_value_Sread_2;
       if(!(ret == -1))
       {
         if(ret == 0)
@@ -4761,31 +4761,31 @@ signed int imap_checkmbox(struct mbox_struct *mb, struct anonymous$18 **sock)
       else
       {
         Sclose(s);
-        *sock = (struct anonymous$18 *)(void *)0;
+        *sock = (struct anonymous_18 *)(void *)0;
         return 4;
 
       __CPROVER_DUMP_L4:
         ;
         Sclose(s);
-        *sock = (struct anonymous$18 *)(void *)0;
+        *sock = (struct anonymous_18 *)(void *)0;
         return 16;
       }
-      signed int return_value_strncmp$8;
-      return_value_strncmp$8=strncmp(input, "* STATUS", (unsigned long int)8);
-      if(!(return_value_strncmp$8 == 0))
+      signed int return_value_strncmp_8;
+      return_value_strncmp_8=strncmp(input, "* STATUS", (unsigned long int)8);
+      if(!(return_value_strncmp_8 == 0))
       {
-        signed int return_value_strncmp$3;
-        return_value_strncmp$3=strncmp(input, "* ", (unsigned long int)2);
-        if(!(return_value_strncmp$3 == 0))
+        signed int return_value_strncmp_3;
+        return_value_strncmp_3=strncmp(input, "* ", (unsigned long int)2);
+        if(!(return_value_strncmp_3 == 0))
         {
           Sclose(s);
-          *sock = (struct anonymous$18 *)(void *)0;
+          *sock = (struct anonymous_18 *)(void *)0;
           return 4;
         }
 
-        unsigned long int return_value_Sread$4;
-        return_value_Sread$4=Sread(s->sd, input, 255, mb->timeout);
-        ret = (signed int)return_value_Sread$4;
+        unsigned long int return_value_Sread_4;
+        return_value_Sread_4=Sread(s->sd, input, 255, mb->timeout);
+        ret = (signed int)return_value_Sread_4;
         if(!(ret == -1))
         {
           if(ret == 0)
@@ -4796,27 +4796,27 @@ signed int imap_checkmbox(struct mbox_struct *mb, struct anonymous$18 **sock)
         else
         {
           Sclose(s);
-          *sock = (struct anonymous$18 *)(void *)0;
+          *sock = (struct anonymous_18 *)(void *)0;
           return 4;
 
         __CPROVER_DUMP_L8:
           ;
           Sclose(s);
-          *sock = (struct anonymous$18 *)(void *)0;
+          *sock = (struct anonymous_18 *)(void *)0;
           return 16;
         }
-        signed int return_value_strncmp$5;
-        return_value_strncmp$5=strncmp(input, "* ", (unsigned long int)2);
-        if(!(return_value_strncmp$5 == 0))
+        signed int return_value_strncmp_5;
+        return_value_strncmp_5=strncmp(input, "* ", (unsigned long int)2);
+        if(!(return_value_strncmp_5 == 0))
         {
           Sclose(s);
-          *sock = (struct anonymous$18 *)(void *)0;
+          *sock = (struct anonymous_18 *)(void *)0;
           return 4;
         }
 
-        unsigned long int return_value_Sread$6;
-        return_value_Sread$6=Sread(s->sd, input, 255, mb->timeout);
-        ret = (signed int)return_value_Sread$6;
+        unsigned long int return_value_Sread_6;
+        return_value_Sread_6=Sread(s->sd, input, 255, mb->timeout);
+        ret = (signed int)return_value_Sread_6;
         if(!(ret == -1))
         {
           if(ret == 0)
@@ -4827,21 +4827,21 @@ signed int imap_checkmbox(struct mbox_struct *mb, struct anonymous$18 **sock)
         else
         {
           Sclose(s);
-          *sock = (struct anonymous$18 *)(void *)0;
+          *sock = (struct anonymous_18 *)(void *)0;
           return 4;
 
         __CPROVER_DUMP_L12:
           ;
           Sclose(s);
-          *sock = (struct anonymous$18 *)(void *)0;
+          *sock = (struct anonymous_18 *)(void *)0;
           return 16;
         }
-        signed int return_value_strncmp$7;
-        return_value_strncmp$7=strncmp(input, "* STATUS", (unsigned long int)8);
-        if(!(return_value_strncmp$7 == 0))
+        signed int return_value_strncmp_7;
+        return_value_strncmp_7=strncmp(input, "* STATUS", (unsigned long int)8);
+        if(!(return_value_strncmp_7 == 0))
         {
           Sclose(s);
-          *sock = (struct anonymous$18 *)(void *)0;
+          *sock = (struct anonymous_18 *)(void *)0;
           return 4;
         }
 
@@ -4855,12 +4855,12 @@ signed int imap_checkmbox(struct mbox_struct *mb, struct anonymous$18 **sock)
       {
         printf("asmail: imap_mailcheck: did not get MESSAGES in response to the STATUS.\n");
         Sclose(s);
-        *sock = (struct anonymous$18 *)(void *)0;
+        *sock = (struct anonymous_18 *)(void *)0;
         return 2;
       }
-      unsigned long int return_value_Sread$9;
-      return_value_Sread$9=Sread(s->sd, input, 255, mb->timeout);
-      ret = (signed int)return_value_Sread$9;
+      unsigned long int return_value_Sread_9;
+      return_value_Sread_9=Sread(s->sd, input, 255, mb->timeout);
+      ret = (signed int)return_value_Sread_9;
       if(!(ret == -1))
       {
         if(ret == 0)
@@ -4871,42 +4871,42 @@ signed int imap_checkmbox(struct mbox_struct *mb, struct anonymous$18 **sock)
       else
       {
         Sclose(s);
-        *sock = (struct anonymous$18 *)(void *)0;
+        *sock = (struct anonymous_18 *)(void *)0;
         return 4;
 
       __CPROVER_DUMP_L19:
         ;
         Sclose(s);
-        *sock = (struct anonymous$18 *)(void *)0;
+        *sock = (struct anonymous_18 *)(void *)0;
         return 16;
       }
-      signed int return_value_strncmp$10;
-      return_value_strncmp$10=strncmp(input, "A001 OK", (unsigned long int)7);
-      if(!(return_value_strncmp$10 == 0))
+      signed int return_value_strncmp_10;
+      return_value_strncmp_10=strncmp(input, "A001 OK", (unsigned long int)7);
+      if(!(return_value_strncmp_10 == 0))
       {
         Sclose(s);
-        *sock = (struct anonymous$18 *)(void *)0;
+        *sock = (struct anonymous_18 *)(void *)0;
         return 4;
       }
 
       else
       {
         sprintf(output, "A002 STATUS %s (UNSEEN)\r\n", (const void *)mb->mbox);
-        unsigned long int return_value_Swrite$11;
-        return_value_Swrite$11=Swrite(s->sd, output);
-        ret = (signed int)return_value_Swrite$11;
+        unsigned long int return_value_Swrite_11;
+        return_value_Swrite_11=Swrite(s->sd, output);
+        ret = (signed int)return_value_Swrite_11;
         if(ret == -1)
         {
           Sclose(s);
-          *sock = (struct anonymous$18 *)(void *)0;
+          *sock = (struct anonymous_18 *)(void *)0;
           return 4;
         }
 
         else
         {
-          unsigned long int return_value_Sread$12;
-          return_value_Sread$12=Sread(s->sd, input, 255, mb->timeout);
-          ret = (signed int)return_value_Sread$12;
+          unsigned long int return_value_Sread_12;
+          return_value_Sread_12=Sread(s->sd, input, 255, mb->timeout);
+          ret = (signed int)return_value_Sread_12;
           if(!(ret == -1))
           {
             if(ret == 0)
@@ -4917,21 +4917,21 @@ signed int imap_checkmbox(struct mbox_struct *mb, struct anonymous$18 **sock)
           else
           {
             Sclose(s);
-            *sock = (struct anonymous$18 *)(void *)0;
+            *sock = (struct anonymous_18 *)(void *)0;
             return 4;
 
           __CPROVER_DUMP_L24:
             ;
             Sclose(s);
-            *sock = (struct anonymous$18 *)(void *)0;
+            *sock = (struct anonymous_18 *)(void *)0;
             return 16;
           }
-          signed int return_value_strncmp$13;
-          return_value_strncmp$13=strncmp(input, "* STATUS", (unsigned long int)8);
-          if(!(return_value_strncmp$13 == 0))
+          signed int return_value_strncmp_13;
+          return_value_strncmp_13=strncmp(input, "* STATUS", (unsigned long int)8);
+          if(!(return_value_strncmp_13 == 0))
           {
             Sclose(s);
-            *sock = (struct anonymous$18 *)(void *)0;
+            *sock = (struct anonymous_18 *)(void *)0;
             return 4;
           }
 
@@ -4945,12 +4945,12 @@ signed int imap_checkmbox(struct mbox_struct *mb, struct anonymous$18 **sock)
             {
               printf("asmail: imap_mailcheck: did not get UNSEEN in response to the STATUS.\n");
               Sclose(s);
-              *sock = (struct anonymous$18 *)(void *)0;
+              *sock = (struct anonymous_18 *)(void *)0;
               return 2;
             }
-            unsigned long int return_value_Sread$14;
-            return_value_Sread$14=Sread(s->sd, input, 255, mb->timeout);
-            ret = (signed int)return_value_Sread$14;
+            unsigned long int return_value_Sread_14;
+            return_value_Sread_14=Sread(s->sd, input, 255, mb->timeout);
+            ret = (signed int)return_value_Sread_14;
             if(!(ret == -1))
             {
               if(ret == 0)
@@ -4961,21 +4961,21 @@ signed int imap_checkmbox(struct mbox_struct *mb, struct anonymous$18 **sock)
             else
             {
               Sclose(s);
-              *sock = (struct anonymous$18 *)(void *)0;
+              *sock = (struct anonymous_18 *)(void *)0;
               return 4;
 
             __CPROVER_DUMP_L30:
               ;
               Sclose(s);
-              *sock = (struct anonymous$18 *)(void *)0;
+              *sock = (struct anonymous_18 *)(void *)0;
               return 16;
             }
-            signed int return_value_strncmp$15;
-            return_value_strncmp$15=strncmp(input, "A002 OK", (unsigned long int)7);
-            if(!(return_value_strncmp$15 == 0))
+            signed int return_value_strncmp_15;
+            return_value_strncmp_15=strncmp(input, "A002 OK", (unsigned long int)7);
+            if(!(return_value_strncmp_15 == 0))
             {
               Sclose(s);
-              *sock = (struct anonymous$18 *)(void *)0;
+              *sock = (struct anonymous_18 *)(void *)0;
               return 4;
             }
 
@@ -5005,33 +5005,33 @@ signed int imap_checkmbox(struct mbox_struct *mb, struct anonymous$18 **sock)
 
 // imap_goodbye
 // file imap.c line 231
-signed int imap_goodbye(struct mbox_struct *mb, struct anonymous$18 **sock)
+signed int imap_goodbye(struct mbox_struct *mb, struct anonymous_18 **sock)
 {
   signed int ret;
   char input[256l];
   char output[256l];
-  struct anonymous$18 *s = *sock;
-  if(s == ((struct anonymous$18 *)NULL))
+  struct anonymous_18 *s = *sock;
+  if(s == ((struct anonymous_18 *)NULL))
     return mb->status;
 
   else
   {
     sprintf(output, "A004 LOGOUT\r\n");
-    unsigned long int return_value_Swrite$1;
-    return_value_Swrite$1=Swrite(s->sd, output);
-    ret = (signed int)return_value_Swrite$1;
+    unsigned long int return_value_Swrite_1;
+    return_value_Swrite_1=Swrite(s->sd, output);
+    ret = (signed int)return_value_Swrite_1;
     if(ret == -1)
     {
       Sclose(s);
-      *sock = (struct anonymous$18 *)(void *)0;
+      *sock = (struct anonymous_18 *)(void *)0;
       return 4;
     }
 
     else
     {
-      unsigned long int return_value_Sread$2;
-      return_value_Sread$2=Sread(s->sd, input, 255, mb->timeout);
-      ret = (signed int)return_value_Sread$2;
+      unsigned long int return_value_Sread_2;
+      return_value_Sread_2=Sread(s->sd, input, 255, mb->timeout);
+      ret = (signed int)return_value_Sread_2;
       if(!(ret == -1))
       {
         if(ret == 0)
@@ -5042,28 +5042,28 @@ signed int imap_goodbye(struct mbox_struct *mb, struct anonymous$18 **sock)
       else
       {
         Sclose(s);
-        *sock = (struct anonymous$18 *)(void *)0;
+        *sock = (struct anonymous_18 *)(void *)0;
         return 4;
 
       __CPROVER_DUMP_L4:
         ;
         Sclose(s);
-        *sock = (struct anonymous$18 *)(void *)0;
+        *sock = (struct anonymous_18 *)(void *)0;
         return 16;
       }
-      signed int return_value_strncmp$3;
-      return_value_strncmp$3=strncmp(input, "* BYE", (unsigned long int)5);
-      if(!(return_value_strncmp$3 == 0))
+      signed int return_value_strncmp_3;
+      return_value_strncmp_3=strncmp(input, "* BYE", (unsigned long int)5);
+      if(!(return_value_strncmp_3 == 0))
       {
         Sclose(s);
-        *sock = (struct anonymous$18 *)(void *)0;
+        *sock = (struct anonymous_18 *)(void *)0;
         return 4;
       }
 
       else
       {
         Sclose(*sock);
-        *sock = (struct anonymous$18 *)(void *)0;
+        *sock = (struct anonymous_18 *)(void *)0;
         return 0;
       }
     }
@@ -5074,7 +5074,7 @@ signed int imap_goodbye(struct mbox_struct *mb, struct anonymous$18 **sock)
 // file imap.h line 17
 void imap_handle(struct mbox_struct *mb)
 {
-  struct anonymous$18 *s;
+  struct anonymous_18 *s;
   if(!(mb->type == 4))
   {
     printf("asmail: imap_handle: Cowardly refusing to work with a non-IMAP server.\n");
@@ -5082,18 +5082,18 @@ void imap_handle(struct mbox_struct *mb)
     pthread_exit((void *)0);
   }
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(mb->server);
-  if(return_value_strlen$1 == 0ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(mb->server);
+  if(return_value_strlen_1 == 0ul)
   {
     printf("asmail: imap_handle: no server name specified!\n");
     mb->status = 2;
     pthread_exit((void *)0);
   }
 
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(mb->user);
-  if(return_value_strlen$2 == 0ul)
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(mb->user);
+  if(return_value_strlen_2 == 0ul)
   {
     printf("asmail: imap_handle: no user name specified!\n");
     mb->status = 2;
@@ -5103,9 +5103,9 @@ void imap_handle(struct mbox_struct *mb)
   if(mb->port == 0)
     mb->port = (mb->flags & 16) != 0 ? 993 : 143;
 
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(mb->mbox);
-  if(return_value_strlen$3 == 0ul)
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(mb->mbox);
+  if(return_value_strlen_3 == 0ul)
     strcpy(mb->mbox, "INBOX");
 
   if(!((8 & mb->flags) == 0))
@@ -5121,26 +5121,26 @@ void imap_handle(struct mbox_struct *mb)
       if(!(mb->status == 0))
       {
         mb->status=imap_goodbye(mb, &s);
-        signed int return_value_imap_login$4;
-        return_value_imap_login$4=imap_login(mb, &s);
-        signed int return_value_imap_checkmbox$5;
-        return_value_imap_checkmbox$5=imap_checkmbox(mb, &s);
-        mb->status = return_value_imap_login$4 | return_value_imap_checkmbox$5;
+        signed int return_value_imap_login_4;
+        return_value_imap_login_4=imap_login(mb, &s);
+        signed int return_value_imap_checkmbox_5;
+        return_value_imap_checkmbox_5=imap_checkmbox(mb, &s);
+        mb->status = return_value_imap_login_4 | return_value_imap_checkmbox_5;
       }
 
     }
 
     else
     {
-      signed int return_value_imap_login$6;
-      return_value_imap_login$6=imap_login(mb, &s);
-      mb->status = mb->status | return_value_imap_login$6;
-      signed int return_value_imap_checkmbox$7;
-      return_value_imap_checkmbox$7=imap_checkmbox(mb, &s);
-      mb->status = mb->status | return_value_imap_checkmbox$7;
-      signed int return_value_imap_goodbye$8;
-      return_value_imap_goodbye$8=imap_goodbye(mb, &s);
-      mb->status = mb->status | return_value_imap_goodbye$8;
+      signed int return_value_imap_login_6;
+      return_value_imap_login_6=imap_login(mb, &s);
+      mb->status = mb->status | return_value_imap_login_6;
+      signed int return_value_imap_checkmbox_7;
+      return_value_imap_checkmbox_7=imap_checkmbox(mb, &s);
+      mb->status = mb->status | return_value_imap_checkmbox_7;
+      signed int return_value_imap_goodbye_8;
+      return_value_imap_goodbye_8=imap_goodbye(mb, &s);
+      mb->status = mb->status | return_value_imap_goodbye_8;
     }
     mb->status = mb->status & ~1;
     if(mb->status == 0)
@@ -5164,33 +5164,33 @@ void imap_handle(struct mbox_struct *mb)
 
 // imap_login
 // file imap.c line 99
-signed int imap_login(struct mbox_struct *mb, struct anonymous$18 **sock)
+signed int imap_login(struct mbox_struct *mb, struct anonymous_18 **sock)
 {
   signed int ret;
   char input[256l];
   char output[256l];
-  struct anonymous$18 *s;
+  struct anonymous_18 *s;
   *sock=Sopen();
-  if(*sock == ((struct anonymous$18 *)NULL))
+  if(*sock == ((struct anonymous_18 *)NULL))
     return 2;
 
   else
   {
     s = *sock;
-    signed int return_value_Sclient$1;
-    return_value_Sclient$1=Sclient(s, mb->server, mb->port);
-    if(return_value_Sclient$1 == -1)
+    signed int return_value_Sclient_1;
+    return_value_Sclient_1=Sclient(s, mb->server, mb->port);
+    if(return_value_Sclient_1 == -1)
     {
       Sclose(s);
-      *sock = (struct anonymous$18 *)(void *)0;
+      *sock = (struct anonymous_18 *)(void *)0;
       return 4;
     }
 
     else
     {
-      unsigned long int return_value_Sread$2;
-      return_value_Sread$2=Sread(s->sd, input, 255, mb->timeout);
-      ret = (signed int)return_value_Sread$2;
+      unsigned long int return_value_Sread_2;
+      return_value_Sread_2=Sread(s->sd, input, 255, mb->timeout);
+      ret = (signed int)return_value_Sread_2;
       if(!(ret == -1))
       {
         if(ret == 0)
@@ -5201,42 +5201,42 @@ signed int imap_login(struct mbox_struct *mb, struct anonymous$18 **sock)
       else
       {
         Sclose(s);
-        *sock = (struct anonymous$18 *)(void *)0;
+        *sock = (struct anonymous_18 *)(void *)0;
         return 4;
 
       __CPROVER_DUMP_L4:
         ;
         Sclose(s);
-        *sock = (struct anonymous$18 *)(void *)0;
+        *sock = (struct anonymous_18 *)(void *)0;
         return 16;
       }
-      signed int return_value_strncmp$3;
-      return_value_strncmp$3=strncmp(input, "* OK", (unsigned long int)4);
-      if(!(return_value_strncmp$3 == 0))
+      signed int return_value_strncmp_3;
+      return_value_strncmp_3=strncmp(input, "* OK", (unsigned long int)4);
+      if(!(return_value_strncmp_3 == 0))
       {
         Sclose(s);
-        *sock = (struct anonymous$18 *)(void *)0;
+        *sock = (struct anonymous_18 *)(void *)0;
         return 4;
       }
 
       else
       {
         sprintf(output, "A000 LOGIN %s %s\r\n", (const void *)mb->user, (const void *)mb->pass);
-        unsigned long int return_value_Swrite$4;
-        return_value_Swrite$4=Swrite(s->sd, output);
-        ret = (signed int)return_value_Swrite$4;
+        unsigned long int return_value_Swrite_4;
+        return_value_Swrite_4=Swrite(s->sd, output);
+        ret = (signed int)return_value_Swrite_4;
         if(ret == -1)
         {
           Sclose(s);
-          *sock = (struct anonymous$18 *)(void *)0;
+          *sock = (struct anonymous_18 *)(void *)0;
           return 4;
         }
 
         else
         {
-          unsigned long int return_value_Sread$5;
-          return_value_Sread$5=Sread(s->sd, input, 255, mb->timeout);
-          ret = (signed int)return_value_Sread$5;
+          unsigned long int return_value_Sread_5;
+          return_value_Sread_5=Sread(s->sd, input, 255, mb->timeout);
+          ret = (signed int)return_value_Sread_5;
           if(!(ret == -1))
           {
             if(ret == 0)
@@ -5247,21 +5247,21 @@ signed int imap_login(struct mbox_struct *mb, struct anonymous$18 **sock)
           else
           {
             Sclose(s);
-            *sock = (struct anonymous$18 *)(void *)0;
+            *sock = (struct anonymous_18 *)(void *)0;
             return 4;
 
           __CPROVER_DUMP_L9:
             ;
             Sclose(s);
-            *sock = (struct anonymous$18 *)(void *)0;
+            *sock = (struct anonymous_18 *)(void *)0;
             return 16;
           }
-          signed int return_value_strncmp$6;
-          return_value_strncmp$6=strncmp(input, "A000 OK", (unsigned long int)7);
-          if(!(return_value_strncmp$6 == 0))
+          signed int return_value_strncmp_6;
+          return_value_strncmp_6=strncmp(input, "A000 OK", (unsigned long int)7);
+          if(!(return_value_strncmp_6 == 0))
           {
             Sclose(s);
-            *sock = (struct anonymous$18 *)(void *)0;
+            *sock = (struct anonymous_18 *)(void *)0;
             return 8;
           }
 
@@ -5278,9 +5278,9 @@ signed int imap_login(struct mbox_struct *mb, struct anonymous$18 **sock)
 signed int init_mbox(struct mbox_struct **mb)
 {
   struct mbox_struct *new_mbox;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct mbox_struct) /*1376ul*/ );
-  new_mbox = (struct mbox_struct *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct mbox_struct) /*1376ul*/ );
+  new_mbox = (struct mbox_struct *)return_value_malloc_1;
   if(new_mbox == ((struct mbox_struct *)NULL))
   {
     printf("asmail: failed to allocate memory for the mailbox control structure.\n");
@@ -5289,9 +5289,9 @@ signed int init_mbox(struct mbox_struct **mb)
 
   else
   {
-    signed int return_value_pthread_mutex_init$2;
-    return_value_pthread_mutex_init$2=pthread_mutex_init(&new_mbox->mutex, (const union anonymous$16 *)(void *)0);
-    if(!(return_value_pthread_mutex_init$2 == 0))
+    signed int return_value_pthread_mutex_init_2;
+    return_value_pthread_mutex_init_2=pthread_mutex_init(&new_mbox->mutex, (const union anonymous_16 *)(void *)0);
+    if(!(return_value_pthread_mutex_init_2 == 0))
     {
       printf("asmail: parse_cfg_mbox: failed to initialize mutex.\n");
       return -1;
@@ -5328,9 +5328,9 @@ void maildir_handle(struct mbox_struct *mb)
   char dir_cur[256l];
   char dir_new[256l];
   signed int result;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(mb->file);
-  if(return_value_strlen$1 == 0ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(mb->file);
+  if(return_value_strlen_1 == 0ul)
   {
     printf("asmail: maildir_handle: no mailbox directory specified.\n");
     mb->status = 2;
@@ -5338,9 +5338,9 @@ void maildir_handle(struct mbox_struct *mb)
     pthread_exit((void *)0);
   }
 
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(mb->file);
-  if(return_value_strlen$2 >= 252ul)
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(mb->file);
+  if(return_value_strlen_2 >= 252ul)
   {
     printf("asmail: maildir_handle: mailbox directory name is too long.\n");
     mb->status = 2;
@@ -5411,57 +5411,57 @@ signed int main(signed int argc, char **argv)
   char *tmp_ptr;
   x11_set.argc = argc;
   x11_set.argv = argv;
-  signed int return_value_pthread_mutex_init$1;
-  return_value_pthread_mutex_init$1=pthread_mutex_init(&update_lock, (const union anonymous$16 *)(void *)0);
-  if(!(return_value_pthread_mutex_init$1 == 0))
+  signed int return_value_pthread_mutex_init_1;
+  return_value_pthread_mutex_init_1=pthread_mutex_init(&update_lock, (const union anonymous_16 *)(void *)0);
+  if(!(return_value_pthread_mutex_init_1 == 0))
   {
     printf("asmail: main: failed to initialize update mutex.\n");
     exit(-1);
   }
 
-  signed int return_value_pthread_cond_init$2;
-  return_value_pthread_cond_init$2=pthread_cond_init(&update_cv, (const union anonymous$16 *)(void *)0);
-  if(!(return_value_pthread_cond_init$2 == 0))
+  signed int return_value_pthread_cond_init_2;
+  return_value_pthread_cond_init_2=pthread_cond_init(&update_cv, (const union anonymous_16 *)(void *)0);
+  if(!(return_value_pthread_cond_init_2 == 0))
   {
     printf("asmail: main: failed to initialize update condition variable.\n");
     exit(-1);
   }
 
-  signed int return_value_pthread_mutex_init$3;
-  return_value_pthread_mutex_init$3=pthread_mutex_init(&md5_lock, (const union anonymous$16 *)(void *)0);
-  if(!(return_value_pthread_mutex_init$3 == 0))
+  signed int return_value_pthread_mutex_init_3;
+  return_value_pthread_mutex_init_3=pthread_mutex_init(&md5_lock, (const union anonymous_16 *)(void *)0);
+  if(!(return_value_pthread_mutex_init_3 == 0))
   {
     printf("asmail: main: failed to initialize MD5 mutex.\n");
     exit(-1);
   }
 
-  signed int return_value_pthread_mutex_init$4;
-  return_value_pthread_mutex_init$4=pthread_mutex_init(&check_lock, (const union anonymous$16 *)(void *)0);
-  if(!(return_value_pthread_mutex_init$4 == 0))
+  signed int return_value_pthread_mutex_init_4;
+  return_value_pthread_mutex_init_4=pthread_mutex_init(&check_lock, (const union anonymous_16 *)(void *)0);
+  if(!(return_value_pthread_mutex_init_4 == 0))
   {
     printf("asmail: main: failed to initialize check mutex.\n");
     exit(-1);
   }
 
-  signed int return_value_pthread_cond_init$5;
-  return_value_pthread_cond_init$5=pthread_cond_init(&check_cv, (const union anonymous$16 *)(void *)0);
-  if(!(return_value_pthread_cond_init$5 == 0))
+  signed int return_value_pthread_cond_init_5;
+  return_value_pthread_cond_init_5=pthread_cond_init(&check_cv, (const union anonymous_16 *)(void *)0);
+  if(!(return_value_pthread_cond_init_5 == 0))
   {
     printf("asmail: main: failed to initialize check condition variable.\n");
     exit(-1);
   }
 
   defaults();
-  signed int return_value_parse_cmd$6;
-  return_value_parse_cmd$6=parse_cmd(argc, argv);
-  if(!(return_value_parse_cmd$6 == 0))
+  signed int return_value_parse_cmd_6;
+  return_value_parse_cmd_6=parse_cmd(argc, argv);
+  if(!(return_value_parse_cmd_6 == 0))
     exit(-1);
 
   if(flag_no_config == 0)
   {
-    signed int return_value_parse_cfg$7;
-    return_value_parse_cfg$7=parse_cfg(config_file_name);
-    if(return_value_parse_cfg$7 == -1)
+    signed int return_value_parse_cfg_7;
+    return_value_parse_cfg_7=parse_cfg(config_file_name);
+    if(return_value_parse_cfg_7 == -1)
       exit(-1);
 
   }
@@ -5471,10 +5471,10 @@ signed int main(signed int argc, char **argv)
     tmp_ptr=getenv("MAIL");
     if(!(tmp_ptr == ((char *)NULL)))
     {
-      printf("asmail: no mailbox defnitions, using $MAIL (%s)\n", tmp_ptr);
-      signed int return_value_init_mbox$8;
-      return_value_init_mbox$8=init_mbox(&tmp_mbox);
-      if(!(return_value_init_mbox$8 == 0))
+      printf("asmail: no mailbox defnitions, using _MAIL (%s)\n", tmp_ptr);
+      signed int return_value_init_mbox_8;
+      return_value_init_mbox_8=init_mbox(&tmp_mbox);
+      if(!(return_value_init_mbox_8 == 0))
         return -1;
 
       strncpy(tmp_mbox->file, tmp_ptr, (unsigned long int)255);
@@ -5597,9 +5597,9 @@ void main_loop()
       need_redraw = 1;
     }
 
-    signed int return_value_check_mbox$1;
-    return_value_check_mbox$1=check_mbox();
-    if(!(return_value_check_mbox$1 == 0))
+    signed int return_value_check_mbox_1;
+    return_value_check_mbox_1=check_mbox();
+    if(!(return_value_check_mbox_1 == 0))
       need_redraw = 1;
 
     if(!(need_redraw == 0))
@@ -5616,9 +5616,9 @@ void mbox_handle(struct mbox_struct *mb)
   struct stat stat_buf;
   signed long int mod_time = (signed long int)0;
   signed long int last_size = (signed long int)0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(mb->file);
-  if(return_value_strlen$1 == 0ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(mb->file);
+  if(return_value_strlen_1 == 0ul)
   {
     printf("asmail: mbox_handle: no mailbox file specified.\n");
     mb->status = 2;
@@ -5630,9 +5630,9 @@ void mbox_handle(struct mbox_struct *mb)
   {
     mb->status = mb->status | 1;
     signal_update();
-    signed int return_value_stat$3;
-    return_value_stat$3=stat(mb->file, &stat_buf);
-    if(!(return_value_stat$3 == 0))
+    signed int return_value_stat_3;
+    return_value_stat_3=stat(mb->file, &stat_buf);
+    if(!(return_value_stat_3 == 0))
     {
       printf("asmail: mbox_handle: stat (%s) failed.\n", (const void *)mb->file);
       mb->status = 2;
@@ -5644,9 +5644,9 @@ void mbox_handle(struct mbox_struct *mb)
       {
         mod_time = stat_buf.st_ctim.tv_sec;
         last_size = stat_buf.st_size;
-        signed int return_value_count$2;
-        return_value_count$2=count(mb);
-        if(!(return_value_count$2 == 0))
+        signed int return_value_count_2;
+        return_value_count_2=count(mb);
+        if(!(return_value_count_2 == 0))
         {
           mb->status = 2;
           signal_update();
@@ -5716,9 +5716,9 @@ void mh_handle(struct mbox_struct *mb)
 {
   signed int mod_time = 0;
   signed int ret = 0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(mb->file);
-  if(return_value_strlen$1 == 0ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(mb->file);
+  if(return_value_strlen_1 == 0ul)
   {
     fprintf(stderr, "asmail: mh_handle: no mailbox directory specified.\n");
     mb->status = 2;
@@ -5726,9 +5726,9 @@ void mh_handle(struct mbox_struct *mb)
     pthread_exit((void *)0);
   }
 
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(mb->file);
-  if(return_value_strlen$2 >= 252ul)
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(mb->file);
+  if(return_value_strlen_2 >= 252ul)
   {
     fprintf(stderr, "asmail: mh_handle: mailbox directory name is too long.\n");
     mb->status = 2;
@@ -5775,16 +5775,16 @@ signed int parse_cfg(char *filename)
   char line[256l];
   char key[256l];
   char rest[256l];
-  signed int return_value_stat$2;
-  return_value_stat$2=stat(filename, &f_stat);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_stat$2 == 0))
+  signed int return_value_stat_2;
+  return_value_stat_2=stat(filename, &f_stat);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_stat_2 == 0))
   {
     err_printf("asmail: Cannot stat the config file (%s).\n", filename);
     if(flag_config_specified == 0)
     {
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 2)
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 2)
         return -2;
 
     }
@@ -5794,9 +5794,9 @@ signed int parse_cfg(char *filename)
   }
 
   f=fopen(filename, "r");
-  char *return_value_fgets$3;
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcasecmp$10;
+  char *return_value_fgets_3;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcasecmp_10;
   if(f == ((struct _IO_FILE *)NULL))
   {
     err_printf("asmail: Cannot open the config file (%s).\n", filename);
@@ -5808,36 +5808,36 @@ signed int parse_cfg(char *filename)
   {
     do
     {
-      return_value_fgets$3=fgets(line, 255, f);
-      if(return_value_fgets$3 == ((char *)NULL))
+      return_value_fgets_3=fgets(line, 255, f);
+      if(return_value_fgets_3 == ((char *)NULL))
         break;
 
       line_counter = line_counter + 1;
-      signed int return_value_parse_cfg_check$4;
-      return_value_parse_cfg_check$4=parse_cfg_check(line);
-      if(!(return_value_parse_cfg_check$4 == 0))
+      signed int return_value_parse_cfg_check_4;
+      return_value_parse_cfg_check_4=parse_cfg_check(line);
+      if(!(return_value_parse_cfg_check_4 == 0))
         return -1;
 
       if((signed int)line[0l] == 35)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (signed int)line[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$5)
+        tmp_if_expr_5 = (signed int)line[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_5)
       {
         sscanf(line, "%s", (const void *)key);
-        signed int return_value_strcasecmp$11;
-        return_value_strcasecmp$11=strcasecmp(key, "x11");
-        if(return_value_strcasecmp$11 == 0)
+        signed int return_value_strcasecmp_11;
+        return_value_strcasecmp_11=strcasecmp(key, "x11");
+        if(return_value_strcasecmp_11 == 0)
         {
           sscanf(line, "%s %s", (const void *)key, (const void *)rest);
-          signed int return_value_strcmp$7;
-          return_value_strcmp$7=strcmp(rest, "{");
-          if(return_value_strcmp$7 == 0)
+          signed int return_value_strcmp_7;
+          return_value_strcmp_7=strcmp(rest, "{");
+          if(return_value_strcmp_7 == 0)
           {
-            signed int return_value_parse_cfg_x11$6;
-            return_value_parse_cfg_x11$6=parse_cfg_x11(f, &line_counter, filename);
-            if(!(return_value_parse_cfg_x11$6 == 0))
+            signed int return_value_parse_cfg_x11_6;
+            return_value_parse_cfg_x11_6=parse_cfg_x11(f, &line_counter, filename);
+            if(!(return_value_parse_cfg_x11_6 == 0))
               return -1;
 
           }
@@ -5846,17 +5846,17 @@ signed int parse_cfg(char *filename)
 
         else
         {
-          return_value_strcasecmp$10=strcasecmp(key, "mailbox");
-          if(return_value_strcasecmp$10 == 0)
+          return_value_strcasecmp_10=strcasecmp(key, "mailbox");
+          if(return_value_strcasecmp_10 == 0)
           {
             sscanf(line, "%s %s", (const void *)key, (const void *)rest);
-            signed int return_value_strcmp$9;
-            return_value_strcmp$9=strcmp(rest, "{");
-            if(return_value_strcmp$9 == 0)
+            signed int return_value_strcmp_9;
+            return_value_strcmp_9=strcmp(rest, "{");
+            if(return_value_strcmp_9 == 0)
             {
-              signed int return_value_parse_cfg_mbox$8;
-              return_value_parse_cfg_mbox$8=parse_cfg_mbox(f, &line_counter, filename);
-              if(!(return_value_parse_cfg_mbox$8 == 0))
+              signed int return_value_parse_cfg_mbox_8;
+              return_value_parse_cfg_mbox_8=parse_cfg_mbox(f, &line_counter, filename);
+              if(!(return_value_parse_cfg_mbox_8 == 0))
                 return -1;
 
             }
@@ -5874,9 +5874,9 @@ signed int parse_cfg(char *filename)
 
     }
     while((_Bool)1);
-    signed int return_value_fclose$12;
-    return_value_fclose$12=fclose(f);
-    if(!(return_value_fclose$12 == 0))
+    signed int return_value_fclose_12;
+    return_value_fclose_12=fclose(f);
+    if(!(return_value_fclose_12 == 0))
     {
       err_printf("asmail: Cannot close the config file (%s).\n", filename);
       perror("asmail: parse_cfg");
@@ -5915,52 +5915,52 @@ signed int parse_cfg_animate(struct _IO_FILE *f, signed int *line_counter, char 
   char line[256l];
   char key[256l];
   struct pixfile *tmp_pixfile;
-  char *return_value_fgets$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcasecmp$26;
-  signed int return_value_strcasecmp$25;
-  signed int return_value_strcasecmp$24;
-  signed int return_value_strcasecmp$23;
-  signed int return_value_strcmp$22;
+  char *return_value_fgets_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcasecmp_26;
+  signed int return_value_strcasecmp_25;
+  signed int return_value_strcasecmp_24;
+  signed int return_value_strcasecmp_23;
+  signed int return_value_strcmp_22;
   do
   {
-    return_value_fgets$1=fgets(line, 255, f);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(line, 255, f);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     *line_counter = *line_counter + 1;
-    signed int return_value_parse_cfg_check$2;
-    return_value_parse_cfg_check$2=parse_cfg_check(line);
-    if(!(return_value_parse_cfg_check$2 == 0))
+    signed int return_value_parse_cfg_check_2;
+    return_value_parse_cfg_check_2=parse_cfg_check(line);
+    if(!(return_value_parse_cfg_check_2 == 0))
       return -1;
 
     if((signed int)line[0l] == 35)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)line[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)line[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_3)
     {
       sscanf(line, "%s", (const void *)key);
-      signed int return_value_strcasecmp$27;
-      return_value_strcasecmp$27=strcasecmp(key, "refresh");
-      if(return_value_strcasecmp$27 == 0)
+      signed int return_value_strcasecmp_27;
+      return_value_strcasecmp_27=strcasecmp(key, "refresh");
+      if(return_value_strcasecmp_27 == 0)
         sscanf(line, "%s %d", (const void *)key, &x11_set.refresh);
 
       else
       {
-        return_value_strcasecmp$26=strcasecmp(key, "nomail");
-        if(return_value_strcasecmp$26 == 0)
+        return_value_strcasecmp_26=strcasecmp(key, "nomail");
+        if(return_value_strcasecmp_26 == 0)
         {
-          unsigned long int return_value_strlen$6;
-          return_value_strlen$6=strlen(line);
-          unsigned long int return_value_strlen$7;
-          return_value_strlen$7=strlen(key);
-          if(!(1ul + return_value_strlen$7 >= return_value_strlen$6))
+          unsigned long int return_value_strlen_6;
+          return_value_strlen_6=strlen(line);
+          unsigned long int return_value_strlen_7;
+          return_value_strlen_7=strlen(key);
+          if(!(1ul + return_value_strlen_7 >= return_value_strlen_6))
           {
-            void *return_value_malloc$4;
-            return_value_malloc$4=malloc(sizeof(struct pixfile) /*264ul*/ );
-            tmp_pixfile = (struct pixfile *)return_value_malloc$4;
+            void *return_value_malloc_4;
+            return_value_malloc_4=malloc(sizeof(struct pixfile) /*264ul*/ );
+            tmp_pixfile = (struct pixfile *)return_value_malloc_4;
             if(tmp_pixfile == ((struct pixfile *)NULL))
             {
               err_printf("asmail: parse_cfg_animate: failed to allocate memory for the pixfile\n");
@@ -5968,9 +5968,9 @@ signed int parse_cfg_animate(struct _IO_FILE *f, signed int *line_counter, char 
               return -1;
             }
 
-            unsigned long int return_value_strlen$5;
-            return_value_strlen$5=strlen(key);
-            strcpy(tmp_pixfile->name, &line[(signed long int)(return_value_strlen$5 + (unsigned long int)1)]);
+            unsigned long int return_value_strlen_5;
+            return_value_strlen_5=strlen(key);
+            strcpy(tmp_pixfile->name, &line[(signed long int)(return_value_strlen_5 + (unsigned long int)1)]);
             tmp_pixfile->next = x11_set.nomail;
             x11_set.nomail = tmp_pixfile;
           }
@@ -5979,18 +5979,18 @@ signed int parse_cfg_animate(struct _IO_FILE *f, signed int *line_counter, char 
 
         else
         {
-          return_value_strcasecmp$25=strcasecmp(key, "old");
-          if(return_value_strcasecmp$25 == 0)
+          return_value_strcasecmp_25=strcasecmp(key, "old");
+          if(return_value_strcasecmp_25 == 0)
           {
-            unsigned long int return_value_strlen$10;
-            return_value_strlen$10=strlen(line);
-            unsigned long int return_value_strlen$11;
-            return_value_strlen$11=strlen(key);
-            if(!(1ul + return_value_strlen$11 >= return_value_strlen$10))
+            unsigned long int return_value_strlen_10;
+            return_value_strlen_10=strlen(line);
+            unsigned long int return_value_strlen_11;
+            return_value_strlen_11=strlen(key);
+            if(!(1ul + return_value_strlen_11 >= return_value_strlen_10))
             {
-              void *return_value_malloc$8;
-              return_value_malloc$8=malloc(sizeof(struct pixfile) /*264ul*/ );
-              tmp_pixfile = (struct pixfile *)return_value_malloc$8;
+              void *return_value_malloc_8;
+              return_value_malloc_8=malloc(sizeof(struct pixfile) /*264ul*/ );
+              tmp_pixfile = (struct pixfile *)return_value_malloc_8;
               if(tmp_pixfile == ((struct pixfile *)NULL))
               {
                 err_printf("asmail: parse_cfg_animate: failed to allocate memory for the pixfile\n");
@@ -5998,9 +5998,9 @@ signed int parse_cfg_animate(struct _IO_FILE *f, signed int *line_counter, char 
                 return -1;
               }
 
-              unsigned long int return_value_strlen$9;
-              return_value_strlen$9=strlen(key);
-              strcpy(tmp_pixfile->name, &line[(signed long int)(return_value_strlen$9 + (unsigned long int)1)]);
+              unsigned long int return_value_strlen_9;
+              return_value_strlen_9=strlen(key);
+              strcpy(tmp_pixfile->name, &line[(signed long int)(return_value_strlen_9 + (unsigned long int)1)]);
               tmp_pixfile->next = x11_set.oldmail;
               x11_set.oldmail = tmp_pixfile;
             }
@@ -6009,18 +6009,18 @@ signed int parse_cfg_animate(struct _IO_FILE *f, signed int *line_counter, char 
 
           else
           {
-            return_value_strcasecmp$24=strcasecmp(key, "new");
-            if(return_value_strcasecmp$24 == 0)
+            return_value_strcasecmp_24=strcasecmp(key, "new");
+            if(return_value_strcasecmp_24 == 0)
             {
-              unsigned long int return_value_strlen$14;
-              return_value_strlen$14=strlen(line);
-              unsigned long int return_value_strlen$15;
-              return_value_strlen$15=strlen(key);
-              if(!(1ul + return_value_strlen$15 >= return_value_strlen$14))
+              unsigned long int return_value_strlen_14;
+              return_value_strlen_14=strlen(line);
+              unsigned long int return_value_strlen_15;
+              return_value_strlen_15=strlen(key);
+              if(!(1ul + return_value_strlen_15 >= return_value_strlen_14))
               {
-                void *return_value_malloc$12;
-                return_value_malloc$12=malloc(sizeof(struct pixfile) /*264ul*/ );
-                tmp_pixfile = (struct pixfile *)return_value_malloc$12;
+                void *return_value_malloc_12;
+                return_value_malloc_12=malloc(sizeof(struct pixfile) /*264ul*/ );
+                tmp_pixfile = (struct pixfile *)return_value_malloc_12;
                 if(tmp_pixfile == ((struct pixfile *)NULL))
                 {
                   err_printf("asmail: parse_cfg_animate: failed to allocate memory for the pixfile\n");
@@ -6028,9 +6028,9 @@ signed int parse_cfg_animate(struct _IO_FILE *f, signed int *line_counter, char 
                   return -1;
                 }
 
-                unsigned long int return_value_strlen$13;
-                return_value_strlen$13=strlen(key);
-                strcpy(tmp_pixfile->name, &line[(signed long int)(return_value_strlen$13 + (unsigned long int)1)]);
+                unsigned long int return_value_strlen_13;
+                return_value_strlen_13=strlen(key);
+                strcpy(tmp_pixfile->name, &line[(signed long int)(return_value_strlen_13 + (unsigned long int)1)]);
                 tmp_pixfile->next = x11_set.newmail;
                 x11_set.newmail = tmp_pixfile;
               }
@@ -6039,27 +6039,27 @@ signed int parse_cfg_animate(struct _IO_FILE *f, signed int *line_counter, char 
 
             else
             {
-              return_value_strcasecmp$23=strcasecmp(key, "frame");
-              if(return_value_strcasecmp$23 == 0)
+              return_value_strcasecmp_23=strcasecmp(key, "frame");
+              if(return_value_strcasecmp_23 == 0)
               {
-                unsigned long int return_value_strlen$20;
-                return_value_strlen$20=strlen(line);
-                unsigned long int return_value_strlen$21;
-                return_value_strlen$21=strlen(key);
-                if(!(1ul + return_value_strlen$21 >= return_value_strlen$20))
+                unsigned long int return_value_strlen_20;
+                return_value_strlen_20=strlen(line);
+                unsigned long int return_value_strlen_21;
+                return_value_strlen_21=strlen(key);
+                if(!(1ul + return_value_strlen_21 >= return_value_strlen_20))
                 {
-                  unsigned long int return_value_strlen$18;
-                  return_value_strlen$18=strlen(key);
-                  signed int return_value_strcasecmp$19;
-                  return_value_strcasecmp$19=strcasecmp(&line[(signed long int)(return_value_strlen$18 + (unsigned long int)1)], "none");
-                  if(return_value_strcasecmp$19 == 0)
+                  unsigned long int return_value_strlen_18;
+                  return_value_strlen_18=strlen(key);
+                  signed int return_value_strcasecmp_19;
+                  return_value_strcasecmp_19=strcasecmp(&line[(signed long int)(return_value_strlen_18 + (unsigned long int)1)], "none");
+                  if(return_value_strcasecmp_19 == 0)
                     x11_set.use_frame = 0;
 
                   else
                   {
-                    void *return_value_malloc$16;
-                    return_value_malloc$16=malloc(sizeof(struct pixfile) /*264ul*/ );
-                    tmp_pixfile = (struct pixfile *)return_value_malloc$16;
+                    void *return_value_malloc_16;
+                    return_value_malloc_16=malloc(sizeof(struct pixfile) /*264ul*/ );
+                    tmp_pixfile = (struct pixfile *)return_value_malloc_16;
                     if(tmp_pixfile == ((struct pixfile *)NULL))
                     {
                       err_printf("asmail: parse_cfg_animate: failed to allocate memory for the pixfile\n");
@@ -6067,9 +6067,9 @@ signed int parse_cfg_animate(struct _IO_FILE *f, signed int *line_counter, char 
                       return -1;
                     }
 
-                    unsigned long int return_value_strlen$17;
-                    return_value_strlen$17=strlen(key);
-                    strcpy(tmp_pixfile->name, &line[(signed long int)(return_value_strlen$17 + (unsigned long int)1)]);
+                    unsigned long int return_value_strlen_17;
+                    return_value_strlen_17=strlen(key);
+                    strcpy(tmp_pixfile->name, &line[(signed long int)(return_value_strlen_17 + (unsigned long int)1)]);
                     tmp_pixfile->next = x11_set.frame;
                     x11_set.frame = tmp_pixfile;
                     x11_set.use_frame = 1;
@@ -6080,8 +6080,8 @@ signed int parse_cfg_animate(struct _IO_FILE *f, signed int *line_counter, char 
 
               else
               {
-                return_value_strcmp$22=strcmp(key, "}");
-                if(return_value_strcmp$22 == 0)
+                return_value_strcmp_22=strcmp(key, "}");
+                if(return_value_strcmp_22 == 0)
                   return 0;
 
                 else
@@ -6107,14 +6107,14 @@ signed int parse_cfg_animate(struct _IO_FILE *f, signed int *line_counter, char 
 // file asmail.c line 240
 signed int parse_cfg_check(char *line)
 {
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(line);
-  if(!((signed int)line[-1l + (signed long int)return_value_strlen$2] == 10))
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(line);
+  if(!((signed int)line[-1l + (signed long int)return_value_strlen_2] == 10))
   {
     printf("asmail: a line in configuration is too long, maximum length is %d.\n", 255);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(line);
-    printf("asmail: Offending line (%d chars): %s\n", (unsigned int)return_value_strlen$1, line);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(line);
+    printf("asmail: Offending line (%d chars): %s\n", (unsigned int)return_value_strlen_1, line);
     return -1;
   }
 
@@ -6131,87 +6131,87 @@ signed int parse_cfg_mbox(struct _IO_FILE *f, signed int *line_counter, char *fi
   char rest[256l];
   struct mbox_struct *new_mbox;
   char *str_ptr;
-  signed int return_value_init_mbox$1;
-  return_value_init_mbox$1=init_mbox(&new_mbox);
-  char *return_value_fgets$2;
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcasecmp$8;
-  signed int return_value_strcasecmp$7;
-  signed int return_value_strcasecmp$6;
-  signed int return_value_strcasecmp$5;
-  signed int return_value_strcasecmp$32;
-  signed int return_value_strcasecmp$31;
-  signed int return_value_strcasecmp$30;
-  signed int return_value_strcasecmp$29;
-  signed int return_value_strcasecmp$28;
-  signed int return_value_strcasecmp$27;
-  signed int return_value_strcasecmp$11;
-  signed int return_value_strcasecmp$26;
-  signed int return_value_strcasecmp$25;
-  signed int return_value_strcasecmp$24;
-  signed int return_value_strcasecmp$23;
-  signed int return_value_strcasecmp$22;
-  signed int return_value_strcasecmp$21;
-  signed int return_value_strcasecmp$20;
-  signed int return_value_strcasecmp$19;
-  signed int return_value_strcmp$18;
-  if(!(return_value_init_mbox$1 == 0))
+  signed int return_value_init_mbox_1;
+  return_value_init_mbox_1=init_mbox(&new_mbox);
+  char *return_value_fgets_2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcasecmp_8;
+  signed int return_value_strcasecmp_7;
+  signed int return_value_strcasecmp_6;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_strcasecmp_32;
+  signed int return_value_strcasecmp_31;
+  signed int return_value_strcasecmp_30;
+  signed int return_value_strcasecmp_29;
+  signed int return_value_strcasecmp_28;
+  signed int return_value_strcasecmp_27;
+  signed int return_value_strcasecmp_11;
+  signed int return_value_strcasecmp_26;
+  signed int return_value_strcasecmp_25;
+  signed int return_value_strcasecmp_24;
+  signed int return_value_strcasecmp_23;
+  signed int return_value_strcasecmp_22;
+  signed int return_value_strcasecmp_21;
+  signed int return_value_strcasecmp_20;
+  signed int return_value_strcasecmp_19;
+  signed int return_value_strcmp_18;
+  if(!(return_value_init_mbox_1 == 0))
     return -1;
 
   else
   {
     do
     {
-      return_value_fgets$2=fgets(line, 255, f);
-      if(return_value_fgets$2 == ((char *)NULL))
+      return_value_fgets_2=fgets(line, 255, f);
+      if(return_value_fgets_2 == ((char *)NULL))
         break;
 
       *line_counter = *line_counter + 1;
-      signed int return_value_parse_cfg_check$3;
-      return_value_parse_cfg_check$3=parse_cfg_check(line);
-      if(!(return_value_parse_cfg_check$3 == 0))
+      signed int return_value_parse_cfg_check_3;
+      return_value_parse_cfg_check_3=parse_cfg_check(line);
+      if(!(return_value_parse_cfg_check_3 == 0))
         return -1;
 
       if((signed int)line[0l] == 35)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)line[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$4)
+        tmp_if_expr_4 = (signed int)line[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_4)
       {
         sscanf(line, "%s", (const void *)key);
-        signed int return_value_strcasecmp$33;
-        return_value_strcasecmp$33=strcasecmp(key, "type");
-        if(return_value_strcasecmp$33 == 0)
+        signed int return_value_strcasecmp_33;
+        return_value_strcasecmp_33=strcasecmp(key, "type");
+        if(return_value_strcasecmp_33 == 0)
         {
           sscanf(line, "%s %s", (const void *)key, (const void *)rest);
-          signed int return_value_strcasecmp$9;
-          return_value_strcasecmp$9=strcasecmp(rest, "mbox");
-          if(return_value_strcasecmp$9 == 0)
+          signed int return_value_strcasecmp_9;
+          return_value_strcasecmp_9=strcasecmp(rest, "mbox");
+          if(return_value_strcasecmp_9 == 0)
             new_mbox->type = 1;
 
           else
           {
-            return_value_strcasecmp$8=strcasecmp(rest, "maildir");
-            if(return_value_strcasecmp$8 == 0)
+            return_value_strcasecmp_8=strcasecmp(rest, "maildir");
+            if(return_value_strcasecmp_8 == 0)
               new_mbox->type = 2;
 
             else
             {
-              return_value_strcasecmp$7=strcasecmp(rest, "mh");
-              if(return_value_strcasecmp$7 == 0)
+              return_value_strcasecmp_7=strcasecmp(rest, "mh");
+              if(return_value_strcasecmp_7 == 0)
                 new_mbox->type = 5;
 
               else
               {
-                return_value_strcasecmp$6=strcasecmp(rest, "pop3");
-                if(return_value_strcasecmp$6 == 0)
+                return_value_strcasecmp_6=strcasecmp(rest, "pop3");
+                if(return_value_strcasecmp_6 == 0)
                   new_mbox->type = 3;
 
                 else
                 {
-                  return_value_strcasecmp$5=strcasecmp(rest, "imap");
-                  if(return_value_strcasecmp$5 == 0)
+                  return_value_strcasecmp_5=strcasecmp(rest, "imap");
+                  if(return_value_strcasecmp_5 == 0)
                     new_mbox->type = 4;
 
                   else
@@ -6227,32 +6227,32 @@ signed int parse_cfg_mbox(struct _IO_FILE *f, signed int *line_counter, char *fi
 
         else
         {
-          return_value_strcasecmp$32=strcasecmp(key, "update");
-          if(return_value_strcasecmp$32 == 0)
+          return_value_strcasecmp_32=strcasecmp(key, "update");
+          if(return_value_strcasecmp_32 == 0)
             sscanf(line, "%s %d", (const void *)key, &new_mbox->update);
 
           else
           {
-            return_value_strcasecmp$31=strcasecmp(key, "file");
-            if(return_value_strcasecmp$31 == 0)
+            return_value_strcasecmp_31=strcasecmp(key, "file");
+            if(return_value_strcasecmp_31 == 0)
               sscanf(line, "%s %s", (const void *)key, (const void *)new_mbox->file);
 
             else
             {
-              return_value_strcasecmp$30=strcasecmp(key, "server");
-              if(return_value_strcasecmp$30 == 0)
+              return_value_strcasecmp_30=strcasecmp(key, "server");
+              if(return_value_strcasecmp_30 == 0)
                 sscanf(line, "%s %s", (const void *)key, (const void *)new_mbox->server);
 
               else
               {
-                return_value_strcasecmp$29=strcasecmp(key, "user");
-                if(return_value_strcasecmp$29 == 0)
+                return_value_strcasecmp_29=strcasecmp(key, "user");
+                if(return_value_strcasecmp_29 == 0)
                   sscanf(line, "%s %s", (const void *)key, (const void *)new_mbox->user);
 
                 else
                 {
-                  return_value_strcasecmp$28=strcasecmp(key, "password");
-                  if(return_value_strcasecmp$28 == 0)
+                  return_value_strcasecmp_28=strcasecmp(key, "password");
+                  if(return_value_strcasecmp_28 == 0)
                   {
                     sscanf(line, "%s %s", (const void *)key, (const void *)new_mbox->pass);
                     passwords_in_config = 1;
@@ -6260,33 +6260,33 @@ signed int parse_cfg_mbox(struct _IO_FILE *f, signed int *line_counter, char *fi
 
                   else
                   {
-                    return_value_strcasecmp$27=strcasecmp(key, "auth");
-                    if(return_value_strcasecmp$27 == 0)
+                    return_value_strcasecmp_27=strcasecmp(key, "auth");
+                    if(return_value_strcasecmp_27 == 0)
                     {
                       new_mbox->auth = 0;
-                      unsigned long int return_value_strlen$13;
-                      return_value_strlen$13=strlen(line);
-                      unsigned long int return_value_strlen$14;
-                      return_value_strlen$14=strlen(key);
-                      if(!(1ul + return_value_strlen$14 >= return_value_strlen$13))
+                      unsigned long int return_value_strlen_13;
+                      return_value_strlen_13=strlen(line);
+                      unsigned long int return_value_strlen_14;
+                      return_value_strlen_14=strlen(key);
+                      if(!(1ul + return_value_strlen_14 >= return_value_strlen_13))
                       {
                         new_mbox->auth = 0;
-                        unsigned long int return_value_strlen$10;
-                        return_value_strlen$10=strlen(key);
-                        strcpy(rest, &line[(signed long int)(return_value_strlen$10 + (unsigned long int)1)]);
+                        unsigned long int return_value_strlen_10;
+                        return_value_strlen_10=strlen(key);
+                        strcpy(rest, &line[(signed long int)(return_value_strlen_10 + (unsigned long int)1)]);
                         str_ptr=strtok(rest, " \t\n");
                         while(!(str_ptr == ((char *)NULL)))
                         {
                           sscanf(str_ptr, "%s", (const void *)key);
-                          signed int return_value_strcasecmp$12;
-                          return_value_strcasecmp$12=strcasecmp(key, "plain");
-                          if(return_value_strcasecmp$12 == 0)
+                          signed int return_value_strcasecmp_12;
+                          return_value_strcasecmp_12=strcasecmp(key, "plain");
+                          if(return_value_strcasecmp_12 == 0)
                             new_mbox->auth = new_mbox->auth | 1;
 
                           else
                           {
-                            return_value_strcasecmp$11=strcasecmp(key, "md5");
-                            if(return_value_strcasecmp$11 == 0)
+                            return_value_strcasecmp_11=strcasecmp(key, "md5");
+                            if(return_value_strcasecmp_11 == 0)
                               new_mbox->auth = new_mbox->auth | 2;
 
                             else
@@ -6304,31 +6304,31 @@ signed int parse_cfg_mbox(struct _IO_FILE *f, signed int *line_counter, char *fi
 
                     else
                     {
-                      return_value_strcasecmp$26=strcasecmp(key, "port");
-                      if(return_value_strcasecmp$26 == 0)
+                      return_value_strcasecmp_26=strcasecmp(key, "port");
+                      if(return_value_strcasecmp_26 == 0)
                         sscanf(line, "%s %d", (const void *)key, &new_mbox->port);
 
                       else
                       {
-                        return_value_strcasecmp$25=strcasecmp(key, "timeout");
-                        if(return_value_strcasecmp$25 == 0)
+                        return_value_strcasecmp_25=strcasecmp(key, "timeout");
+                        if(return_value_strcasecmp_25 == 0)
                           sscanf(line, "%s %d", (const void *)key, &new_mbox->timeout);
 
                         else
                         {
-                          return_value_strcasecmp$24=strcasecmp(key, "mailbox");
-                          if(return_value_strcasecmp$24 == 0)
+                          return_value_strcasecmp_24=strcasecmp(key, "mailbox");
+                          if(return_value_strcasecmp_24 == 0)
                             sscanf(line, "%s %s", (const void *)key, (const void *)new_mbox->mbox);
 
                           else
                           {
-                            return_value_strcasecmp$23=strcasecmp(key, "unread-is-new");
-                            if(return_value_strcasecmp$23 == 0)
+                            return_value_strcasecmp_23=strcasecmp(key, "unread-is-new");
+                            if(return_value_strcasecmp_23 == 0)
                             {
                               sscanf(line, "%s %s", (const void *)key, (const void *)rest);
-                              signed int return_value_strcasecmp$15;
-                              return_value_strcasecmp$15=strcasecmp(rest, "yes");
-                              if(return_value_strcasecmp$15 == 0)
+                              signed int return_value_strcasecmp_15;
+                              return_value_strcasecmp_15=strcasecmp(rest, "yes");
+                              if(return_value_strcasecmp_15 == 0)
                                 new_mbox->flags = new_mbox->flags | 1;
 
                               else
@@ -6337,13 +6337,13 @@ signed int parse_cfg_mbox(struct _IO_FILE *f, signed int *line_counter, char *fi
 
                             else
                             {
-                              return_value_strcasecmp$22=strcasecmp(key, "use-mh-sequences");
-                              if(return_value_strcasecmp$22 == 0)
+                              return_value_strcasecmp_22=strcasecmp(key, "use-mh-sequences");
+                              if(return_value_strcasecmp_22 == 0)
                               {
                                 sscanf(line, "%s %s", (const void *)key, (const void *)rest);
-                                signed int return_value_strcasecmp$16;
-                                return_value_strcasecmp$16=strcasecmp(rest, "yes");
-                                if(return_value_strcasecmp$16 == 0)
+                                signed int return_value_strcasecmp_16;
+                                return_value_strcasecmp_16=strcasecmp(rest, "yes");
+                                if(return_value_strcasecmp_16 == 0)
                                   new_mbox->flags = new_mbox->flags | 4;
 
                                 else
@@ -6352,13 +6352,13 @@ signed int parse_cfg_mbox(struct _IO_FILE *f, signed int *line_counter, char *fi
 
                               else
                               {
-                                return_value_strcasecmp$21=strcasecmp(key, "persistent");
-                                if(return_value_strcasecmp$21 == 0)
+                                return_value_strcasecmp_21=strcasecmp(key, "persistent");
+                                if(return_value_strcasecmp_21 == 0)
                                 {
                                   sscanf(line, "%s %s", (const void *)key, (const void *)rest);
-                                  signed int return_value_strcasecmp$17;
-                                  return_value_strcasecmp$17=strcasecmp(rest, "yes");
-                                  if(return_value_strcasecmp$17 == 0)
+                                  signed int return_value_strcasecmp_17;
+                                  return_value_strcasecmp_17=strcasecmp(rest, "yes");
+                                  if(return_value_strcasecmp_17 == 0)
                                     new_mbox->flags = new_mbox->flags | 8;
 
                                   else
@@ -6367,20 +6367,20 @@ signed int parse_cfg_mbox(struct _IO_FILE *f, signed int *line_counter, char *fi
 
                                 else
                                 {
-                                  return_value_strcasecmp$20=strcasecmp(key, "ssl");
-                                  if(return_value_strcasecmp$20 == 0)
+                                  return_value_strcasecmp_20=strcasecmp(key, "ssl");
+                                  if(return_value_strcasecmp_20 == 0)
                                     printf("asmail: ssl support is not available, ignoring ssl statement\n");
 
                                   else
                                   {
-                                    return_value_strcasecmp$19=strcasecmp(key, "trustedCaDir");
-                                    if(return_value_strcasecmp$19 == 0)
+                                    return_value_strcasecmp_19=strcasecmp(key, "trustedCaDir");
+                                    if(return_value_strcasecmp_19 == 0)
                                       printf("asmail: ssl support is not available, ignoring trustedCaDir statement\n");
 
                                     else
                                     {
-                                      return_value_strcmp$18=strcmp(key, "}");
-                                      if(return_value_strcmp$18 == 0)
+                                      return_value_strcmp_18=strcmp(key, "}");
+                                      if(return_value_strcmp_18 == 0)
                                       {
                                         if(!((16 & new_mbox->flags) == 0))
                                         {
@@ -6431,118 +6431,118 @@ signed int parse_cfg_stat(struct _IO_FILE *f, signed int *line_counter, char *fi
   char line[256l];
   char key[256l];
   char rest[256l];
-  char *return_value_fgets$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcasecmp$24;
-  signed int return_value_strcasecmp$23;
-  signed int return_value_strcasecmp$22;
-  signed int return_value_strcasecmp$21;
-  signed int return_value_strcasecmp$20;
-  signed int return_value_strcasecmp$19;
-  signed int return_value_strcasecmp$18;
-  signed int return_value_strcasecmp$17;
-  signed int return_value_strcasecmp$16;
-  signed int return_value_strcmp$15;
+  char *return_value_fgets_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcasecmp_24;
+  signed int return_value_strcasecmp_23;
+  signed int return_value_strcasecmp_22;
+  signed int return_value_strcasecmp_21;
+  signed int return_value_strcasecmp_20;
+  signed int return_value_strcasecmp_19;
+  signed int return_value_strcasecmp_18;
+  signed int return_value_strcasecmp_17;
+  signed int return_value_strcasecmp_16;
+  signed int return_value_strcmp_15;
   do
   {
-    return_value_fgets$1=fgets(line, 255, f);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(line, 255, f);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     *line_counter = *line_counter + 1;
-    signed int return_value_parse_cfg_check$2;
-    return_value_parse_cfg_check$2=parse_cfg_check(line);
-    if(!(return_value_parse_cfg_check$2 == 0))
+    signed int return_value_parse_cfg_check_2;
+    return_value_parse_cfg_check_2=parse_cfg_check(line);
+    if(!(return_value_parse_cfg_check_2 == 0))
       return -1;
 
     if((signed int)line[0l] == 35)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)line[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)line[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_3)
     {
       sscanf(line, "%s", (const void *)key);
-      signed int return_value_strcasecmp$25;
-      return_value_strcasecmp$25=strcasecmp(key, "total");
-      if(return_value_strcasecmp$25 == 0)
+      signed int return_value_strcasecmp_25;
+      return_value_strcasecmp_25=strcasecmp(key, "total");
+      if(return_value_strcasecmp_25 == 0)
       {
         sscanf(line, "%s %s", (const void *)key, (const void *)rest);
-        signed int return_value_strcasecmp$4;
-        return_value_strcasecmp$4=strcasecmp(rest, "yes");
-        x11_set.total = return_value_strcasecmp$4 != 0 ? 0 : 1;
+        signed int return_value_strcasecmp_4;
+        return_value_strcasecmp_4=strcasecmp(rest, "yes");
+        x11_set.total = return_value_strcasecmp_4 != 0 ? 0 : 1;
       }
 
       else
       {
-        return_value_strcasecmp$24=strcasecmp(key, "each");
-        if(return_value_strcasecmp$24 == 0)
+        return_value_strcasecmp_24=strcasecmp(key, "each");
+        if(return_value_strcasecmp_24 == 0)
         {
           sscanf(line, "%s %s", (const void *)key, (const void *)rest);
-          signed int return_value_strcasecmp$5;
-          return_value_strcasecmp$5=strcasecmp(rest, "yes");
-          x11_set.each = return_value_strcasecmp$5 != 0 ? 0 : 1;
+          signed int return_value_strcasecmp_5;
+          return_value_strcasecmp_5=strcasecmp(rest, "yes");
+          x11_set.each = return_value_strcasecmp_5 != 0 ? 0 : 1;
         }
 
         else
         {
-          return_value_strcasecmp$23=strcasecmp(key, "status");
-          if(return_value_strcasecmp$23 == 0)
+          return_value_strcasecmp_23=strcasecmp(key, "status");
+          if(return_value_strcasecmp_23 == 0)
           {
             sscanf(line, "%s %s", (const void *)key, (const void *)rest);
-            signed int return_value_strcasecmp$6;
-            return_value_strcasecmp$6=strcasecmp(rest, "yes");
-            x11_set.status = return_value_strcasecmp$6 != 0 ? 0 : 1;
+            signed int return_value_strcasecmp_6;
+            return_value_strcasecmp_6=strcasecmp(rest, "yes");
+            x11_set.status = return_value_strcasecmp_6 != 0 ? 0 : 1;
           }
 
           else
           {
-            return_value_strcasecmp$22=strcasecmp(key, "old");
-            if(return_value_strcasecmp$22 == 0)
+            return_value_strcasecmp_22=strcasecmp(key, "old");
+            if(return_value_strcasecmp_22 == 0)
             {
               sscanf(line, "%s %s", (const void *)key, (const void *)rest);
-              signed int return_value_strcasecmp$7;
-              return_value_strcasecmp$7=strcasecmp(rest, "yes");
-              x11_set.old = return_value_strcasecmp$7 != 0 ? 0 : 1;
+              signed int return_value_strcasecmp_7;
+              return_value_strcasecmp_7=strcasecmp(rest, "yes");
+              x11_set.old = return_value_strcasecmp_7 != 0 ? 0 : 1;
             }
 
             else
             {
-              return_value_strcasecmp$21=strcasecmp(key, "new");
-              if(return_value_strcasecmp$21 == 0)
+              return_value_strcasecmp_21=strcasecmp(key, "new");
+              if(return_value_strcasecmp_21 == 0)
               {
                 sscanf(line, "%s %s", (const void *)key, (const void *)rest);
-                signed int return_value_strcasecmp$8;
-                return_value_strcasecmp$8=strcasecmp(rest, "yes");
-                x11_set.new = return_value_strcasecmp$8 != 0 ? 0 : 1;
+                signed int return_value_strcasecmp_8;
+                return_value_strcasecmp_8=strcasecmp(rest, "yes");
+                x11_set.new = return_value_strcasecmp_8 != 0 ? 0 : 1;
               }
 
               else
               {
-                return_value_strcasecmp$20=strcasecmp(key, "x");
-                if(return_value_strcasecmp$20 == 0)
+                return_value_strcasecmp_20=strcasecmp(key, "x");
+                if(return_value_strcasecmp_20 == 0)
                   sscanf(line, "%s %d", (const void *)key, &x11_set.x);
 
                 else
                 {
-                  return_value_strcasecmp$19=strcasecmp(key, "y");
-                  if(return_value_strcasecmp$19 == 0)
+                  return_value_strcasecmp_19=strcasecmp(key, "y");
+                  if(return_value_strcasecmp_19 == 0)
                     sscanf(line, "%s %d", (const void *)key, &x11_set.y);
 
                   else
                   {
-                    return_value_strcasecmp$18=strcasecmp(key, "delimiter");
-                    if(return_value_strcasecmp$18 == 0)
+                    return_value_strcasecmp_18=strcasecmp(key, "delimiter");
+                    if(return_value_strcasecmp_18 == 0)
                     {
-                      unsigned long int return_value_strlen$10;
-                      return_value_strlen$10=strlen(line);
-                      unsigned long int return_value_strlen$11;
-                      return_value_strlen$11=strlen(key);
-                      if(!(1ul + return_value_strlen$11 >= return_value_strlen$10))
+                      unsigned long int return_value_strlen_10;
+                      return_value_strlen_10=strlen(line);
+                      unsigned long int return_value_strlen_11;
+                      return_value_strlen_11=strlen(key);
+                      if(!(1ul + return_value_strlen_11 >= return_value_strlen_10))
                       {
-                        unsigned long int return_value_strlen$9;
-                        return_value_strlen$9=strlen(key);
-                        strcpy(x11_set.delimiter, &line[(signed long int)(return_value_strlen$9 + (unsigned long int)1)]);
+                        unsigned long int return_value_strlen_9;
+                        return_value_strlen_9=strlen(key);
+                        strcpy(x11_set.delimiter, &line[(signed long int)(return_value_strlen_9 + (unsigned long int)1)]);
                         strip_quotes(x11_set.delimiter);
                       }
 
@@ -6550,24 +6550,24 @@ signed int parse_cfg_stat(struct _IO_FILE *f, signed int *line_counter, char *fi
 
                     else
                     {
-                      return_value_strcasecmp$17=strcasecmp(key, "font");
-                      if(return_value_strcasecmp$17 == 0)
+                      return_value_strcasecmp_17=strcasecmp(key, "font");
+                      if(return_value_strcasecmp_17 == 0)
                         sscanf(line, "%s %s", (const void *)key, (const void *)x11_set.font);
 
                       else
                       {
-                        return_value_strcasecmp$16=strcasecmp(key, "color");
-                        if(return_value_strcasecmp$16 == 0)
+                        return_value_strcasecmp_16=strcasecmp(key, "color");
+                        if(return_value_strcasecmp_16 == 0)
                         {
-                          unsigned long int return_value_strlen$13;
-                          return_value_strlen$13=strlen(line);
-                          unsigned long int return_value_strlen$14;
-                          return_value_strlen$14=strlen(key);
-                          if(!(1ul + return_value_strlen$14 >= return_value_strlen$13))
+                          unsigned long int return_value_strlen_13;
+                          return_value_strlen_13=strlen(line);
+                          unsigned long int return_value_strlen_14;
+                          return_value_strlen_14=strlen(key);
+                          if(!(1ul + return_value_strlen_14 >= return_value_strlen_13))
                           {
-                            unsigned long int return_value_strlen$12;
-                            return_value_strlen$12=strlen(key);
-                            strcpy(x11_set.color, &line[(signed long int)(return_value_strlen$12 + (unsigned long int)1)]);
+                            unsigned long int return_value_strlen_12;
+                            return_value_strlen_12=strlen(key);
+                            strcpy(x11_set.color, &line[(signed long int)(return_value_strlen_12 + (unsigned long int)1)]);
                             strip_quotes(x11_set.color);
                           }
 
@@ -6575,8 +6575,8 @@ signed int parse_cfg_stat(struct _IO_FILE *f, signed int *line_counter, char *fi
 
                         else
                         {
-                          return_value_strcmp$15=strcmp(key, "}");
-                          if(return_value_strcmp$15 == 0)
+                          return_value_strcmp_15=strcmp(key, "}");
+                          if(return_value_strcmp_15 == 0)
                             return 0;
 
                           else
@@ -6610,161 +6610,161 @@ signed int parse_cfg_x11(struct _IO_FILE *f, signed int *line_counter, char *fil
   char line[256l];
   char key[256l];
   char rest[256l];
-  char *return_value_fgets$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcasecmp$33;
-  signed int return_value_strcasecmp$32;
-  signed int return_value_strcasecmp$31;
-  signed int return_value_strcasecmp$30;
-  signed int return_value_strcasecmp$29;
-  signed int return_value_strcasecmp$28;
-  signed int return_value_strcasecmp$27;
-  signed int return_value_strcasecmp$26;
-  signed int return_value_strcmp$25;
+  char *return_value_fgets_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcasecmp_33;
+  signed int return_value_strcasecmp_32;
+  signed int return_value_strcasecmp_31;
+  signed int return_value_strcasecmp_30;
+  signed int return_value_strcasecmp_29;
+  signed int return_value_strcasecmp_28;
+  signed int return_value_strcasecmp_27;
+  signed int return_value_strcasecmp_26;
+  signed int return_value_strcmp_25;
   do
   {
-    return_value_fgets$1=fgets(line, 255, f);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(line, 255, f);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     *line_counter = *line_counter + 1;
-    signed int return_value_parse_cfg_check$2;
-    return_value_parse_cfg_check$2=parse_cfg_check(line);
-    if(!(return_value_parse_cfg_check$2 == 0))
+    signed int return_value_parse_cfg_check_2;
+    return_value_parse_cfg_check_2=parse_cfg_check(line);
+    if(!(return_value_parse_cfg_check_2 == 0))
       return -1;
 
     if((signed int)line[0l] == 35)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)line[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)line[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_3)
     {
       sscanf(line, "%s", (const void *)key);
-      signed int return_value_strcasecmp$34;
-      return_value_strcasecmp$34=strcasecmp(key, "beep");
-      if(return_value_strcasecmp$34 == 0)
+      signed int return_value_strcasecmp_34;
+      return_value_strcasecmp_34=strcasecmp(key, "beep");
+      if(return_value_strcasecmp_34 == 0)
       {
         sscanf(line, "%s %s", (const void *)key, (const void *)rest);
-        signed int return_value_strcasecmp$4;
-        return_value_strcasecmp$4=strcasecmp(rest, "yes");
-        x11_set.beep = return_value_strcasecmp$4 != 0 ? 0 : 1;
+        signed int return_value_strcasecmp_4;
+        return_value_strcasecmp_4=strcasecmp(rest, "yes");
+        x11_set.beep = return_value_strcasecmp_4 != 0 ? 0 : 1;
       }
 
       else
       {
-        return_value_strcasecmp$33=strcasecmp(key, "shape");
-        if(return_value_strcasecmp$33 == 0)
+        return_value_strcasecmp_33=strcasecmp(key, "shape");
+        if(return_value_strcasecmp_33 == 0)
         {
           sscanf(line, "%s %s", (const void *)key, (const void *)rest);
-          signed int return_value_strcasecmp$5;
-          return_value_strcasecmp$5=strcasecmp(rest, "yes");
-          x11_set.shape = return_value_strcasecmp$5 != 0 ? 0 : 1;
+          signed int return_value_strcasecmp_5;
+          return_value_strcasecmp_5=strcasecmp(rest, "yes");
+          x11_set.shape = return_value_strcasecmp_5 != 0 ? 0 : 1;
         }
 
         else
         {
-          return_value_strcasecmp$32=strcasecmp(key, "on_mouse_left");
-          if(return_value_strcasecmp$32 == 0)
+          return_value_strcasecmp_32=strcasecmp(key, "on_mouse_left");
+          if(return_value_strcasecmp_32 == 0)
           {
-            unsigned long int return_value_strlen$7;
-            return_value_strlen$7=strlen(line);
-            unsigned long int return_value_strlen$8;
-            return_value_strlen$8=strlen(key);
-            if(!(1ul + return_value_strlen$8 >= return_value_strlen$7))
+            unsigned long int return_value_strlen_7;
+            return_value_strlen_7=strlen(line);
+            unsigned long int return_value_strlen_8;
+            return_value_strlen_8=strlen(key);
+            if(!(1ul + return_value_strlen_8 >= return_value_strlen_7))
             {
-              unsigned long int return_value_strlen$6;
-              return_value_strlen$6=strlen(key);
-              strcpy(x11_set.on_left, &line[(signed long int)(return_value_strlen$6 + (unsigned long int)1)]);
+              unsigned long int return_value_strlen_6;
+              return_value_strlen_6=strlen(key);
+              strcpy(x11_set.on_left, &line[(signed long int)(return_value_strlen_6 + (unsigned long int)1)]);
             }
 
           }
 
           else
           {
-            return_value_strcasecmp$31=strcasecmp(key, "on_mouse_middle");
-            if(return_value_strcasecmp$31 == 0)
+            return_value_strcasecmp_31=strcasecmp(key, "on_mouse_middle");
+            if(return_value_strcasecmp_31 == 0)
             {
-              unsigned long int return_value_strlen$10;
-              return_value_strlen$10=strlen(line);
-              unsigned long int return_value_strlen$11;
-              return_value_strlen$11=strlen(key);
-              if(!(1ul + return_value_strlen$11 >= return_value_strlen$10))
+              unsigned long int return_value_strlen_10;
+              return_value_strlen_10=strlen(line);
+              unsigned long int return_value_strlen_11;
+              return_value_strlen_11=strlen(key);
+              if(!(1ul + return_value_strlen_11 >= return_value_strlen_10))
               {
-                unsigned long int return_value_strlen$9;
-                return_value_strlen$9=strlen(key);
-                strcpy(x11_set.on_middle, &line[(signed long int)(return_value_strlen$9 + (unsigned long int)1)]);
+                unsigned long int return_value_strlen_9;
+                return_value_strlen_9=strlen(key);
+                strcpy(x11_set.on_middle, &line[(signed long int)(return_value_strlen_9 + (unsigned long int)1)]);
               }
 
             }
 
             else
             {
-              return_value_strcasecmp$30=strcasecmp(key, "on_mouse_right");
-              if(return_value_strcasecmp$30 == 0)
+              return_value_strcasecmp_30=strcasecmp(key, "on_mouse_right");
+              if(return_value_strcasecmp_30 == 0)
               {
-                unsigned long int return_value_strlen$13;
-                return_value_strlen$13=strlen(line);
-                unsigned long int return_value_strlen$14;
-                return_value_strlen$14=strlen(key);
-                if(!(1ul + return_value_strlen$14 >= return_value_strlen$13))
+                unsigned long int return_value_strlen_13;
+                return_value_strlen_13=strlen(line);
+                unsigned long int return_value_strlen_14;
+                return_value_strlen_14=strlen(key);
+                if(!(1ul + return_value_strlen_14 >= return_value_strlen_13))
                 {
-                  unsigned long int return_value_strlen$12;
-                  return_value_strlen$12=strlen(key);
-                  strcpy(x11_set.on_right, &line[(signed long int)(return_value_strlen$12 + (unsigned long int)1)]);
+                  unsigned long int return_value_strlen_12;
+                  return_value_strlen_12=strlen(key);
+                  strcpy(x11_set.on_right, &line[(signed long int)(return_value_strlen_12 + (unsigned long int)1)]);
                 }
 
               }
 
               else
               {
-                return_value_strcasecmp$29=strcasecmp(key, "on_new_mail");
-                if(return_value_strcasecmp$29 == 0)
+                return_value_strcasecmp_29=strcasecmp(key, "on_new_mail");
+                if(return_value_strcasecmp_29 == 0)
                 {
-                  unsigned long int return_value_strlen$16;
-                  return_value_strlen$16=strlen(line);
-                  unsigned long int return_value_strlen$17;
-                  return_value_strlen$17=strlen(key);
-                  if(!(1ul + return_value_strlen$17 >= return_value_strlen$16))
+                  unsigned long int return_value_strlen_16;
+                  return_value_strlen_16=strlen(line);
+                  unsigned long int return_value_strlen_17;
+                  return_value_strlen_17=strlen(key);
+                  if(!(1ul + return_value_strlen_17 >= return_value_strlen_16))
                   {
-                    unsigned long int return_value_strlen$15;
-                    return_value_strlen$15=strlen(key);
-                    strcpy(x11_set.on_new_mail, &line[(signed long int)(return_value_strlen$15 + (unsigned long int)1)]);
+                    unsigned long int return_value_strlen_15;
+                    return_value_strlen_15=strlen(key);
+                    strcpy(x11_set.on_new_mail, &line[(signed long int)(return_value_strlen_15 + (unsigned long int)1)]);
                   }
 
                 }
 
                 else
                 {
-                  return_value_strcasecmp$28=strcasecmp(key, "font");
-                  if(return_value_strcasecmp$28 == 0)
+                  return_value_strcasecmp_28=strcasecmp(key, "font");
+                  if(return_value_strcasecmp_28 == 0)
                   {
-                    unsigned long int return_value_strlen$19;
-                    return_value_strlen$19=strlen(line);
-                    unsigned long int return_value_strlen$20;
-                    return_value_strlen$20=strlen(key);
-                    if(!(1ul + return_value_strlen$20 >= return_value_strlen$19))
+                    unsigned long int return_value_strlen_19;
+                    return_value_strlen_19=strlen(line);
+                    unsigned long int return_value_strlen_20;
+                    return_value_strlen_20=strlen(key);
+                    if(!(1ul + return_value_strlen_20 >= return_value_strlen_19))
                     {
-                      unsigned long int return_value_strlen$18;
-                      return_value_strlen$18=strlen(key);
-                      strcpy(x11_set.font, &line[(signed long int)(return_value_strlen$18 + (unsigned long int)1)]);
+                      unsigned long int return_value_strlen_18;
+                      return_value_strlen_18=strlen(key);
+                      strcpy(x11_set.font, &line[(signed long int)(return_value_strlen_18 + (unsigned long int)1)]);
                     }
 
                   }
 
                   else
                   {
-                    return_value_strcasecmp$27=strcasecmp(key, "stat");
-                    if(return_value_strcasecmp$27 == 0)
+                    return_value_strcasecmp_27=strcasecmp(key, "stat");
+                    if(return_value_strcasecmp_27 == 0)
                     {
                       sscanf(line, "%s %s", (const void *)key, (const void *)rest);
-                      signed int return_value_strcmp$22;
-                      return_value_strcmp$22=strcmp(rest, "{");
-                      if(return_value_strcmp$22 == 0)
+                      signed int return_value_strcmp_22;
+                      return_value_strcmp_22=strcmp(rest, "{");
+                      if(return_value_strcmp_22 == 0)
                       {
-                        signed int return_value_parse_cfg_stat$21;
-                        return_value_parse_cfg_stat$21=parse_cfg_stat(f, line_counter, filename);
-                        if(!(return_value_parse_cfg_stat$21 == 0))
+                        signed int return_value_parse_cfg_stat_21;
+                        return_value_parse_cfg_stat_21=parse_cfg_stat(f, line_counter, filename);
+                        if(!(return_value_parse_cfg_stat_21 == 0))
                           return -1;
 
                       }
@@ -6773,17 +6773,17 @@ signed int parse_cfg_x11(struct _IO_FILE *f, signed int *line_counter, char *fil
 
                     else
                     {
-                      return_value_strcasecmp$26=strcasecmp(key, "animate");
-                      if(return_value_strcasecmp$26 == 0)
+                      return_value_strcasecmp_26=strcasecmp(key, "animate");
+                      if(return_value_strcasecmp_26 == 0)
                       {
                         sscanf(line, "%s %s", (const void *)key, (const void *)rest);
-                        signed int return_value_strcmp$24;
-                        return_value_strcmp$24=strcmp(rest, "{");
-                        if(return_value_strcmp$24 == 0)
+                        signed int return_value_strcmp_24;
+                        return_value_strcmp_24=strcmp(rest, "{");
+                        if(return_value_strcmp_24 == 0)
                         {
-                          signed int return_value_parse_cfg_animate$23;
-                          return_value_parse_cfg_animate$23=parse_cfg_animate(f, line_counter, filename);
-                          if(!(return_value_parse_cfg_animate$23 == 0))
+                          signed int return_value_parse_cfg_animate_23;
+                          return_value_parse_cfg_animate_23=parse_cfg_animate(f, line_counter, filename);
+                          if(!(return_value_parse_cfg_animate_23 == 0))
                             return -1;
 
                         }
@@ -6792,8 +6792,8 @@ signed int parse_cfg_x11(struct _IO_FILE *f, signed int *line_counter, char *fil
 
                       else
                       {
-                        return_value_strcmp$25=strcmp(key, "}");
-                        if(return_value_strcmp$25 == 0)
+                        return_value_strcmp_25=strcmp(key, "}");
+                        if(return_value_strcmp_25 == 0)
                           return 0;
 
                         else
@@ -6824,21 +6824,21 @@ signed int parse_cfg_x11(struct _IO_FILE *f, signed int *line_counter, char *fil
 signed int parse_cmd(signed int argc, char **argv)
 {
   signed int i = 1;
-  signed int return_value_strcmp$10;
-  signed int return_value_strcmp$9;
-  signed int return_value_strcmp$8;
-  signed int return_value_strcmp$7;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_10;
+  signed int return_value_strcmp_9;
+  signed int return_value_strcmp_8;
+  signed int return_value_strcmp_7;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
   for( ; !(i >= argc); i = i + 1)
   {
-    signed int return_value_strcmp$11;
-    return_value_strcmp$11=strcmp(argv[(signed long int)i], "-geometry");
-    if(return_value_strcmp$11 == 0)
+    signed int return_value_strcmp_11;
+    return_value_strcmp_11=strcmp(argv[(signed long int)i], "-geometry");
+    if(return_value_strcmp_11 == 0)
     {
       i = i + 1;
       if(i >= argc)
@@ -6852,8 +6852,8 @@ signed int parse_cmd(signed int argc, char **argv)
 
     else
     {
-      return_value_strcmp$10=strcmp(argv[(signed long int)i], "-title");
-      if(return_value_strcmp$10 == 0)
+      return_value_strcmp_10=strcmp(argv[(signed long int)i], "-title");
+      if(return_value_strcmp_10 == 0)
       {
         i = i + 1;
         if(i >= argc)
@@ -6867,8 +6867,8 @@ signed int parse_cmd(signed int argc, char **argv)
 
       else
       {
-        return_value_strcmp$9=strcmp(argv[(signed long int)i], "-f");
-        if(return_value_strcmp$9 == 0)
+        return_value_strcmp_9=strcmp(argv[(signed long int)i], "-f");
+        if(return_value_strcmp_9 == 0)
         {
           i = i + 1;
           if(i >= argc)
@@ -6883,8 +6883,8 @@ signed int parse_cmd(signed int argc, char **argv)
 
         else
         {
-          return_value_strcmp$8=strcmp(argv[(signed long int)i], "-V");
-          if(return_value_strcmp$8 == 0)
+          return_value_strcmp_8=strcmp(argv[(signed long int)i], "-V");
+          if(return_value_strcmp_8 == 0)
           {
             version();
             return -1;
@@ -6892,8 +6892,8 @@ signed int parse_cmd(signed int argc, char **argv)
 
           else
           {
-            return_value_strcmp$7=strcmp(argv[(signed long int)i], "-h");
-            if(return_value_strcmp$7 == 0)
+            return_value_strcmp_7=strcmp(argv[(signed long int)i], "-h");
+            if(return_value_strcmp_7 == 0)
             {
               usage();
               return -1;
@@ -6901,14 +6901,14 @@ signed int parse_cmd(signed int argc, char **argv)
 
             else
             {
-              return_value_strcmp$6=strcmp(argv[(signed long int)i], "-v");
-              if(return_value_strcmp$6 == 0)
+              return_value_strcmp_6=strcmp(argv[(signed long int)i], "-v");
+              if(return_value_strcmp_6 == 0)
                 flag_verbose = 1;
 
               else
               {
-                return_value_strcmp$5=strcmp(argv[(signed long int)i], "-nox");
-                if(return_value_strcmp$5 == 0)
+                return_value_strcmp_5=strcmp(argv[(signed long int)i], "-nox");
+                if(return_value_strcmp_5 == 0)
                 {
                   flag_verbose = 1;
                   flag_no_x = 1;
@@ -6916,26 +6916,26 @@ signed int parse_cmd(signed int argc, char **argv)
 
                 else
                 {
-                  return_value_strcmp$4=strcmp(argv[(signed long int)i], "-noconfig");
-                  if(return_value_strcmp$4 == 0)
+                  return_value_strcmp_4=strcmp(argv[(signed long int)i], "-noconfig");
+                  if(return_value_strcmp_4 == 0)
                     flag_no_config = 1;
 
                   else
                   {
-                    return_value_strcmp$3=strcmp(argv[(signed long int)i], "-iconic");
-                    if(return_value_strcmp$3 == 0)
+                    return_value_strcmp_3=strcmp(argv[(signed long int)i], "-iconic");
+                    if(return_value_strcmp_3 == 0)
                       x11_set.iconic = 1;
 
                     else
                     {
-                      return_value_strcmp$2=strcmp(argv[(signed long int)i], "-withdrawn");
-                      if(return_value_strcmp$2 == 0)
+                      return_value_strcmp_2=strcmp(argv[(signed long int)i], "-withdrawn");
+                      if(return_value_strcmp_2 == 0)
                         x11_set.withdrawn = 1;
 
                       else
                       {
-                        return_value_strcmp$1=strcmp(argv[(signed long int)i], "-insecure");
-                        if(return_value_strcmp$1 == 0)
+                        return_value_strcmp_1=strcmp(argv[(signed long int)i], "-insecure");
+                        if(return_value_strcmp_1 == 0)
                           flag_allow_insecure = 1;
 
                         else
@@ -6997,18 +6997,18 @@ void pop3_handle(struct mbox_struct *mb)
     pthread_exit((void *)0);
   }
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(mb->server);
-  if(return_value_strlen$1 == 0ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(mb->server);
+  if(return_value_strlen_1 == 0ul)
   {
     printf("asmail: pop3_handle: no server name specified!\n");
     mb->status = 2;
     pthread_exit((void *)0);
   }
 
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(mb->user);
-  if(return_value_strlen$2 == 0ul)
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(mb->user);
+  if(return_value_strlen_2 == 0ul)
   {
     printf("asmail: pop3_handle: no user name specified!\n");
     mb->status = 2;
@@ -7046,7 +7046,7 @@ void pop3_handle(struct mbox_struct *mb)
 // file pop3.c line 50
 signed int pop3_mailcheck(struct mbox_struct *mb)
 {
-  struct anonymous$18 *s;
+  struct anonymous_18 *s;
   char input[256l];
   char output[256l];
   char key[256l];
@@ -7056,22 +7056,22 @@ signed int pop3_mailcheck(struct mbox_struct *mb)
   char *str_end;
   char *str_target;
   signed int i;
-  struct anonymous$17 mdc;
+  struct anonymous_17 mdc;
   s=Sopen();
-  _Bool tmp_if_expr$20;
-  _Bool tmp_if_expr$22;
-  char *return_value_strchr$21;
-  _Bool tmp_if_expr$23;
-  char *tmp_post$4;
-  char *tmp_post$5;
-  if(s == ((struct anonymous$18 *)NULL))
+  _Bool tmp_if_expr_20;
+  _Bool tmp_if_expr_22;
+  char *return_value_strchr_21;
+  _Bool tmp_if_expr_23;
+  char *tmp_post_4;
+  char *tmp_post_5;
+  if(s == ((struct anonymous_18 *)NULL))
     return 2;
 
   else
   {
-    signed int return_value_Sclient$1;
-    return_value_Sclient$1=Sclient(s, mb->server, mb->port);
-    if(return_value_Sclient$1 == -1)
+    signed int return_value_Sclient_1;
+    return_value_Sclient_1=Sclient(s, mb->server, mb->port);
+    if(return_value_Sclient_1 == -1)
     {
       Sclose(s);
       return 4;
@@ -7079,11 +7079,11 @@ signed int pop3_mailcheck(struct mbox_struct *mb)
 
     else
     {
-      unsigned long int return_value_Sread$2;
-      return_value_Sread$2=Sread(s->sd, input, 255, mb->timeout);
-      if(!(return_value_Sread$2 == 18446744073709551615ul))
+      unsigned long int return_value_Sread_2;
+      return_value_Sread_2=Sread(s->sd, input, 255, mb->timeout);
+      if(!(return_value_Sread_2 == 18446744073709551615ul))
       {
-        if(return_value_Sread$2 == 0ul)
+        if(return_value_Sread_2 == 0ul)
           goto __CPROVER_DUMP_L4;
 
       }
@@ -7099,9 +7099,9 @@ signed int pop3_mailcheck(struct mbox_struct *mb)
         return 16;
       }
       sscanf(input, "%5s", (const void *)key);
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(key, "+OK");
-      if(!(return_value_strcmp$3 == 0))
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(key, "+OK");
+      if(!(return_value_strcmp_3 == 0))
       {
         Sclose(s);
         return 4;
@@ -7112,44 +7112,44 @@ signed int pop3_mailcheck(struct mbox_struct *mb)
         if(!((2 & mb->auth) == 0))
         {
           str_ptr=strchr(input, 60);
-          tmp_if_expr$20 = str_ptr != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_20 = str_ptr != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$20 = (_Bool)0;
-        if(tmp_if_expr$20)
+          tmp_if_expr_20 = (_Bool)0;
+        if(tmp_if_expr_20)
         {
-          return_value_strchr$21=strchr(input, 64);
-          tmp_if_expr$22 = return_value_strchr$21 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          return_value_strchr_21=strchr(input, 64);
+          tmp_if_expr_22 = return_value_strchr_21 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$22 = (_Bool)0;
-        if(tmp_if_expr$22)
+          tmp_if_expr_22 = (_Bool)0;
+        if(tmp_if_expr_22)
         {
           str_end=strchr(input, 62);
-          tmp_if_expr$23 = str_end != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_23 = str_end != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$23 = (_Bool)0;
-        if(!(str_ptr >= str_end) && tmp_if_expr$23)
+          tmp_if_expr_23 = (_Bool)0;
+        if(!(str_ptr >= str_end) && tmp_if_expr_23)
         {
           str_target = key;
-          for( ; str_end >= str_ptr; *tmp_post$4 = *tmp_post$5)
+          for( ; str_end >= str_ptr; *tmp_post_4 = *tmp_post_5)
           {
-            tmp_post$4 = str_target;
+            tmp_post_4 = str_target;
             str_target = str_target + 1l;
-            tmp_post$5 = str_ptr;
+            tmp_post_5 = str_ptr;
             str_ptr = str_ptr + 1l;
           }
           *str_target = (char)0;
           strcat(key, mb->pass);
           pthread_mutex_lock(&md5_lock);
           MD5Init(&mdc);
-          unsigned long int return_value_strlen$6;
-          return_value_strlen$6=strlen(key);
-          MD5Update(&mdc, (unsigned char *)key, (unsigned int)return_value_strlen$6);
+          unsigned long int return_value_strlen_6;
+          return_value_strlen_6=strlen(key);
+          MD5Update(&mdc, (unsigned char *)key, (unsigned int)return_value_strlen_6);
           MD5Final((unsigned char *)md5_digest, &mdc);
           pthread_mutex_unlock(&md5_lock);
           str_target = key;
@@ -7161,19 +7161,19 @@ signed int pop3_mailcheck(struct mbox_struct *mb)
           }
           str_target[(signed long int)(16 * 2)] = (char)0;
           sprintf(output, "APOP %s %s\r\n", (const void *)mb->user, (const void *)key);
-          unsigned long int return_value_Swrite$7;
-          return_value_Swrite$7=Swrite(s->sd, output);
-          if(return_value_Swrite$7 == 18446744073709551615ul)
+          unsigned long int return_value_Swrite_7;
+          return_value_Swrite_7=Swrite(s->sd, output);
+          if(return_value_Swrite_7 == 18446744073709551615ul)
           {
             Sclose(s);
             return 4;
           }
 
-          unsigned long int return_value_Sread$8;
-          return_value_Sread$8=Sread(s->sd, input, 255, mb->timeout);
-          if(!(return_value_Sread$8 == 18446744073709551615ul))
+          unsigned long int return_value_Sread_8;
+          return_value_Sread_8=Sread(s->sd, input, 255, mb->timeout);
+          if(!(return_value_Sread_8 == 18446744073709551615ul))
           {
-            if(return_value_Sread$8 == 0ul)
+            if(return_value_Sread_8 == 0ul)
               goto __CPROVER_DUMP_L19;
 
           }
@@ -7189,14 +7189,14 @@ signed int pop3_mailcheck(struct mbox_struct *mb)
             return 16;
           }
           sscanf(input, "%5s", (const void *)key);
-          signed int return_value_strcmp$10;
-          return_value_strcmp$10=strcmp(key, "+OK");
-          if(!(return_value_strcmp$10 == 0))
+          signed int return_value_strcmp_10;
+          return_value_strcmp_10=strcmp(key, "+OK");
+          if(!(return_value_strcmp_10 == 0))
           {
             sprintf(output, "QUIT\r\n");
-            unsigned long int return_value_Swrite$9;
-            return_value_Swrite$9=Swrite(s->sd, output);
-            if(return_value_Swrite$9 == 18446744073709551615ul)
+            unsigned long int return_value_Swrite_9;
+            return_value_Swrite_9=Swrite(s->sd, output);
+            if(return_value_Swrite_9 == 18446744073709551615ul)
             {
               Sclose(s);
               return 4;
@@ -7212,19 +7212,19 @@ signed int pop3_mailcheck(struct mbox_struct *mb)
           if(!((1 & mb->auth) == 0))
           {
             sprintf(output, "USER %s\r\n", (const void *)mb->user);
-            unsigned long int return_value_Swrite$11;
-            return_value_Swrite$11=Swrite(s->sd, output);
-            if(return_value_Swrite$11 == 18446744073709551615ul)
+            unsigned long int return_value_Swrite_11;
+            return_value_Swrite_11=Swrite(s->sd, output);
+            if(return_value_Swrite_11 == 18446744073709551615ul)
             {
               Sclose(s);
               return 4;
             }
 
-            unsigned long int return_value_Sread$12;
-            return_value_Sread$12=Sread(s->sd, input, 255, mb->timeout);
-            if(!(return_value_Sread$12 == 18446744073709551615ul))
+            unsigned long int return_value_Sread_12;
+            return_value_Sread_12=Sread(s->sd, input, 255, mb->timeout);
+            if(!(return_value_Sread_12 == 18446744073709551615ul))
             {
-              if(return_value_Sread$12 == 0ul)
+              if(return_value_Sread_12 == 0ul)
                 goto __CPROVER_DUMP_L26;
 
             }
@@ -7240,14 +7240,14 @@ signed int pop3_mailcheck(struct mbox_struct *mb)
               return 16;
             }
             sscanf(input, "%5s", (const void *)key);
-            signed int return_value_strcmp$14;
-            return_value_strcmp$14=strcmp(key, "+OK");
-            if(!(return_value_strcmp$14 == 0))
+            signed int return_value_strcmp_14;
+            return_value_strcmp_14=strcmp(key, "+OK");
+            if(!(return_value_strcmp_14 == 0))
             {
               sprintf(output, "QUIT\r\n");
-              unsigned long int return_value_Swrite$13;
-              return_value_Swrite$13=Swrite(s->sd, output);
-              if(return_value_Swrite$13 == 18446744073709551615ul)
+              unsigned long int return_value_Swrite_13;
+              return_value_Swrite_13=Swrite(s->sd, output);
+              if(return_value_Swrite_13 == 18446744073709551615ul)
               {
                 Sclose(s);
                 return 4;
@@ -7258,19 +7258,19 @@ signed int pop3_mailcheck(struct mbox_struct *mb)
             }
 
             sprintf(output, "PASS %s\r\n", (const void *)mb->pass);
-            unsigned long int return_value_Swrite$15;
-            return_value_Swrite$15=Swrite(s->sd, output);
-            if(return_value_Swrite$15 == 18446744073709551615ul)
+            unsigned long int return_value_Swrite_15;
+            return_value_Swrite_15=Swrite(s->sd, output);
+            if(return_value_Swrite_15 == 18446744073709551615ul)
             {
               Sclose(s);
               return 4;
             }
 
-            unsigned long int return_value_Sread$16;
-            return_value_Sread$16=Sread(s->sd, input, 255, mb->timeout);
-            if(!(return_value_Sread$16 == 18446744073709551615ul))
+            unsigned long int return_value_Sread_16;
+            return_value_Sread_16=Sread(s->sd, input, 255, mb->timeout);
+            if(!(return_value_Sread_16 == 18446744073709551615ul))
             {
-              if(return_value_Sread$16 == 0ul)
+              if(return_value_Sread_16 == 0ul)
                 goto __CPROVER_DUMP_L32;
 
             }
@@ -7286,14 +7286,14 @@ signed int pop3_mailcheck(struct mbox_struct *mb)
               return 16;
             }
             sscanf(input, "%5s", (const void *)key);
-            signed int return_value_strcmp$18;
-            return_value_strcmp$18=strcmp(key, "+OK");
-            if(!(return_value_strcmp$18 == 0))
+            signed int return_value_strcmp_18;
+            return_value_strcmp_18=strcmp(key, "+OK");
+            if(!(return_value_strcmp_18 == 0))
             {
               sprintf(output, "QUIT\r\n");
-              unsigned long int return_value_Swrite$17;
-              return_value_Swrite$17=Swrite(s->sd, output);
-              if(return_value_Swrite$17 == 18446744073709551615ul)
+              unsigned long int return_value_Swrite_17;
+              return_value_Swrite_17=Swrite(s->sd, output);
+              if(return_value_Swrite_17 == 18446744073709551615ul)
               {
                 Sclose(s);
                 return 4;
@@ -7309,9 +7309,9 @@ signed int pop3_mailcheck(struct mbox_struct *mb)
           {
             printf("asmail: pop3_mailcheck: specified login method is unsupported by POP server.\n");
             sprintf(output, "QUIT\r\n");
-            unsigned long int return_value_Swrite$19;
-            return_value_Swrite$19=Swrite(s->sd, output);
-            if(return_value_Swrite$19 == 18446744073709551615ul)
+            unsigned long int return_value_Swrite_19;
+            return_value_Swrite_19=Swrite(s->sd, output);
+            if(return_value_Swrite_19 == 18446744073709551615ul)
             {
               Sclose(s);
               return 4;
@@ -7321,9 +7321,9 @@ signed int pop3_mailcheck(struct mbox_struct *mb)
             return 8;
           }
         sprintf(output, "STAT\r\n");
-        unsigned long int return_value_Swrite$24;
-        return_value_Swrite$24=Swrite(s->sd, output);
-        if(return_value_Swrite$24 == 18446744073709551615ul)
+        unsigned long int return_value_Swrite_24;
+        return_value_Swrite_24=Swrite(s->sd, output);
+        if(return_value_Swrite_24 == 18446744073709551615ul)
         {
           Sclose(s);
           return 4;
@@ -7331,11 +7331,11 @@ signed int pop3_mailcheck(struct mbox_struct *mb)
 
         else
         {
-          unsigned long int return_value_Sread$25;
-          return_value_Sread$25=Sread(s->sd, input, 255, mb->timeout);
-          if(!(return_value_Sread$25 == 18446744073709551615ul))
+          unsigned long int return_value_Sread_25;
+          return_value_Sread_25=Sread(s->sd, input, 255, mb->timeout);
+          if(!(return_value_Sread_25 == 18446744073709551615ul))
           {
-            if(return_value_Sread$25 == 0ul)
+            if(return_value_Sread_25 == 0ul)
               goto __CPROVER_DUMP_L41;
 
           }
@@ -7351,9 +7351,9 @@ signed int pop3_mailcheck(struct mbox_struct *mb)
             return 16;
           }
           sscanf(input, "%5s", (const void *)key);
-          signed int return_value_strcmp$26;
-          return_value_strcmp$26=strcmp(key, "+OK");
-          if(!(return_value_strcmp$26 == 0))
+          signed int return_value_strcmp_26;
+          return_value_strcmp_26=strcmp(key, "+OK");
+          if(!(return_value_strcmp_26 == 0))
           {
             Sclose(s);
             return 4;
@@ -7364,9 +7364,9 @@ signed int pop3_mailcheck(struct mbox_struct *mb)
             sprintf(output, "%s %s", (const void *)"+OK", (const void *)"%d");
             sscanf(input, output, &ctotal);
             sprintf(output, "QUIT\r\n");
-            unsigned long int return_value_Swrite$27;
-            return_value_Swrite$27=Swrite(s->sd, output);
-            if(return_value_Swrite$27 == 18446744073709551615ul)
+            unsigned long int return_value_Swrite_27;
+            return_value_Swrite_27=Swrite(s->sd, output);
+            if(return_value_Swrite_27 == 18446744073709551615ul)
             {
               Sclose(s);
               return 4;
@@ -7374,11 +7374,11 @@ signed int pop3_mailcheck(struct mbox_struct *mb)
 
             else
             {
-              unsigned long int return_value_Sread$28;
-              return_value_Sread$28=Sread(s->sd, input, 255, mb->timeout);
-              if(!(return_value_Sread$28 == 18446744073709551615ul))
+              unsigned long int return_value_Sread_28;
+              return_value_Sread_28=Sread(s->sd, input, 255, mb->timeout);
+              if(!(return_value_Sread_28 == 18446744073709551615ul))
               {
-                if(return_value_Sread$28 == 0ul)
+                if(return_value_Sread_28 == 0ul)
                   goto __CPROVER_DUMP_L46;
 
               }
@@ -7394,9 +7394,9 @@ signed int pop3_mailcheck(struct mbox_struct *mb)
                 return 16;
               }
               sscanf(input, "%5s", (const void *)key);
-              signed int return_value_strcmp$29;
-              return_value_strcmp$29=strcmp(key, "+OK");
-              if(!(return_value_strcmp$29 == 0))
+              signed int return_value_strcmp_29;
+              return_value_strcmp_29=strcmp(key, "+OK");
+              if(!(return_value_strcmp_29 == 0))
               {
                 Sclose(s);
                 return 4;
@@ -7446,18 +7446,18 @@ signed int readLine(struct _IO_FILE *stream, char **line, signed int *size)
   pos=ftell(stream);
   memset((void *)*line, 0, (unsigned long int)*size);
   llen = 0;
-  _Bool tmp_if_expr$2;
-  signed int return_value_feof$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_feof_1;
   do
   {
-    char *return_value_fgets$3;
-    return_value_fgets$3=fgets(buf, (signed int)sizeof(char [256l]) /*256ul*/ , stream);
-    if(return_value_fgets$3 == ((char *)NULL))
+    char *return_value_fgets_3;
+    return_value_fgets_3=fgets(buf, (signed int)sizeof(char [256l]) /*256ul*/ , stream);
+    if(return_value_fgets_3 == ((char *)NULL))
       break;
 
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(buf);
-    blen = (signed int)return_value_strlen$4;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(buf);
+    blen = (signed int)return_value_strlen_4;
     if(*size + -1 >= blen + llen)
     {
       strcat(*line, buf);
@@ -7468,21 +7468,21 @@ signed int readLine(struct _IO_FILE *stream, char **line, signed int *size)
     {
       *size = *size * 2;
       llen = llen + blen;
-      void *return_value_realloc$5;
-      return_value_realloc$5=realloc((void *)*line, (unsigned long int)*size);
-      *line = (char *)return_value_realloc$5;
+      void *return_value_realloc_5;
+      return_value_realloc_5=realloc((void *)*line, (unsigned long int)*size);
+      *line = (char *)return_value_realloc_5;
       strcat(*line, buf);
     }
     if(!((signed int)buf[(signed long int)(blen + -1)] == 10))
     {
-      return_value_feof$1=feof(stream);
-      tmp_if_expr$2 = !(return_value_feof$1 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_feof_1=feof(stream);
+      tmp_if_expr_2 = !(return_value_feof_1 != 0) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   return 0;
 }
 
@@ -7546,20 +7546,20 @@ void shorten(char *line)
 {
   signed int i = 0;
   signed int j = 0;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(line);
-  unsigned long int return_value_strlen$1;
-  if((signed int)line[-1l + (signed long int)return_value_strlen$2] == 10)
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(line);
+  unsigned long int return_value_strlen_1;
+  if((signed int)line[-1l + (signed long int)return_value_strlen_2] == 10)
   {
-    return_value_strlen$1=strlen(line);
-    line[(signed long int)(return_value_strlen$1 - (unsigned long int)1)] = (char)0;
+    return_value_strlen_1=strlen(line);
+    line[(signed long int)(return_value_strlen_1 - (unsigned long int)1)] = (char)0;
   }
 
-  const unsigned short int **return_value___ctype_b_loc$3;
+  const unsigned short int **return_value___ctype_b_loc_3;
   do
   {
-    return_value___ctype_b_loc$3=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)line[(signed long int)i]]) == 0)
+    return_value___ctype_b_loc_3=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)line[(signed long int)i]]) == 0)
       break;
 
     if(line[(signed long int)i] == 0)
@@ -7568,36 +7568,36 @@ void shorten(char *line)
     i = i + 1;
   }
   while((_Bool)1);
-  _Bool tmp_if_expr$5;
-  unsigned long int return_value_strlen$4;
+  _Bool tmp_if_expr_5;
+  unsigned long int return_value_strlen_4;
   if(i == 0)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_strlen$4=strlen(line);
-    tmp_if_expr$5 = (unsigned long int)i == return_value_strlen$4 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_4=strlen(line);
+    tmp_if_expr_5 = (unsigned long int)i == return_value_strlen_4 ? (_Bool)1 : (_Bool)0;
   }
-  signed int tmp_post$6;
-  signed int tmp_post$7;
-  const unsigned short int **return_value___ctype_b_loc$9;
-  if(!tmp_if_expr$5)
+  signed int tmp_post_6;
+  signed int tmp_post_7;
+  const unsigned short int **return_value___ctype_b_loc_9;
+  if(!tmp_if_expr_5)
   {
-    for( ; !(line[(signed long int)i] == 0); line[(signed long int)tmp_post$6] = line[(signed long int)tmp_post$7])
+    for( ; !(line[(signed long int)i] == 0); line[(signed long int)tmp_post_6] = line[(signed long int)tmp_post_7])
     {
-      tmp_post$6 = j;
+      tmp_post_6 = j;
       j = j + 1;
-      tmp_post$7 = i;
+      tmp_post_7 = i;
       i = i + 1;
     }
     line[(signed long int)j] = (char)0;
-    unsigned long int return_value_strlen$8;
-    return_value_strlen$8=strlen(line);
-    i = (signed int)return_value_strlen$8;
+    unsigned long int return_value_strlen_8;
+    return_value_strlen_8=strlen(line);
+    i = (signed int)return_value_strlen_8;
     do
     {
-      return_value___ctype_b_loc$9=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$9)[(signed long int)(signed int)line[(signed long int)i]]) == 0)
+      return_value___ctype_b_loc_9=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_9)[(signed long int)(signed int)line[(signed long int)i]]) == 0)
         break;
 
       if(!(i >= 1))
@@ -7686,21 +7686,21 @@ void startx(void *ptr)
 {
   signed int screen;
   signed int color_depth;
-  struct anonymous$61 SizeHints;
+  struct anonymous_61 SizeHints;
   signed int result;
   signed int x_negative = 0;
   signed int y_negative = 0;
   signed int x_size_forced = 0;
   signed int y_size_forced = 0;
   signed int status;
-  struct anonymous$59 title;
-  struct anonymous$57 classHint;
-  struct anonymous$58 WmHints;
+  struct anonymous_59 title;
+  struct anonymous_57 classHint;
+  struct anonymous_58 WmHints;
   union _XEvent Event;
   char *char_p;
-  signed int return_value_pthread_mutex_trylock$1;
-  return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&x11_mutex);
-  if(return_value_pthread_mutex_trylock$1 == 16)
+  signed int return_value_pthread_mutex_trylock_1;
+  return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&x11_mutex);
+  if(return_value_pthread_mutex_trylock_1 == 16)
   {
     printf("asmail: startx: non-reentrant function!\n");
     exit(0);
@@ -7709,21 +7709,21 @@ void startx(void *ptr)
   mainDisplay=XOpenDisplay((const char *)(void *)0);
   if(mainDisplay == ((struct _XDisplay *)NULL))
   {
-    char *return_value_XDisplayName$2;
-    return_value_XDisplayName$2=XDisplayName((const char *)(void *)0);
-    printf("asmail: startx: can't open display %s\n", return_value_XDisplayName$2);
+    char *return_value_XDisplayName_2;
+    return_value_XDisplayName_2=XDisplayName((const char *)(void *)0);
+    printf("asmail: startx: can't open display %s\n", return_value_XDisplayName_2);
     exit(1);
   }
 
-  screen = ((struct anonymous$55 *)mainDisplay)->default_screen;
-  Root = (&((struct anonymous$55 *)mainDisplay)->screens[(signed long int)screen])->root;
+  screen = ((struct anonymous_55 *)mainDisplay)->default_screen;
+  Root = (&((struct anonymous_55 *)mainDisplay)->screens[(signed long int)screen])->root;
   back_pix=GetColor("#385971", mainDisplay, Root);
   fore_pix=GetColor(x11_set.color, mainDisplay, Root);
-  color_depth = (&((struct anonymous$55 *)mainDisplay)->screens[(signed long int)screen])->root_depth;
+  color_depth = (&((struct anonymous_55 *)mainDisplay)->screens[(signed long int)screen])->root_depth;
   if(!(x11_set.each == 0) || !(x11_set.total == 0))
   {
     font_struct=XLoadQueryFont(mainDisplay, x11_set.font);
-    if(font_struct == ((struct anonymous$21 *)NULL))
+    if(font_struct == ((struct anonymous_21 *)NULL))
     {
       printf("asmail: failed to load font %s\n", (const void *)x11_set.font);
       printf("asmail: the indicators of message numbers");
@@ -7737,46 +7737,46 @@ void startx(void *ptr)
   NumOfMsg.chars = NumOfMsgText;
   NumOfMsg.font=XLoadFont(mainDisplay, x11_set.font);
   NumOfMsgColor = fore_pix;
-  char **tmp_if_expr$3;
+  char **tmp_if_expr_3;
   if(!(x11_set.nomail == ((struct pixfile *)NULL)))
     LoadXPM(x11_set.nomail, &NoMail);
 
   else
   {
     if(!(x11_set.shape == 0))
-      tmp_if_expr$3 = nomail_s;
+      tmp_if_expr_3 = nomail_s;
 
     else
-      tmp_if_expr$3 = nomail;
-    NoMail=GetXPM(tmp_if_expr$3);
+      tmp_if_expr_3 = nomail;
+    NoMail=GetXPM(tmp_if_expr_3);
     NoMail->next = NoMail;
   }
-  char **tmp_if_expr$4;
+  char **tmp_if_expr_4;
   if(!(x11_set.oldmail == ((struct pixfile *)NULL)))
     LoadXPM(x11_set.oldmail, &OldMail);
 
   else
   {
     if(!(x11_set.shape == 0))
-      tmp_if_expr$4 = oldmail_s;
+      tmp_if_expr_4 = oldmail_s;
 
     else
-      tmp_if_expr$4 = oldmail;
-    OldMail=GetXPM(tmp_if_expr$4);
+      tmp_if_expr_4 = oldmail;
+    OldMail=GetXPM(tmp_if_expr_4);
     OldMail->next = OldMail;
   }
-  char **tmp_if_expr$5;
+  char **tmp_if_expr_5;
   if(!(x11_set.newmail == ((struct pixfile *)NULL)))
     LoadXPM(x11_set.newmail, &NewMail);
 
   else
   {
     if(!(x11_set.shape == 0))
-      tmp_if_expr$5 = newmail_s;
+      tmp_if_expr_5 = newmail_s;
 
     else
-      tmp_if_expr$5 = newmail;
-    NewMail=GetXPM(tmp_if_expr$5);
+      tmp_if_expr_5 = newmail;
+    NewMail=GetXPM(tmp_if_expr_5);
     NewMail->next = NewMail;
   }
   if(!(x11_set.frame == ((struct pixfile *)NULL)))
@@ -7804,9 +7804,9 @@ void startx(void *ptr)
     winsize.y = (signed short int)Current->attributes.height;
   }
   SizeHints.flags = 1L << 1 | 1L << 0;
-  unsigned long int return_value_strlen$6;
-  return_value_strlen$6=strlen(x11_set.geometry);
-  if(!(return_value_strlen$6 == 0ul))
+  unsigned long int return_value_strlen_6;
+  return_value_strlen_6=strlen(x11_set.geometry);
+  if(!(return_value_strlen_6 == 0ul))
   {
     result=XParseGeometry(x11_set.geometry, &SizeHints.x, &SizeHints.y, (unsigned int *)&SizeHints.width, (unsigned int *)&SizeHints.height);
     if(!((0x0004 & result) == 0))
@@ -7911,9 +7911,9 @@ void strip_quotes(char *line)
 {
   char tmp1[256l];
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(line);
-  if(return_value_strlen$1 >= 2ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(line);
+  if(return_value_strlen_1 >= 2ul)
   {
     strcpy(tmp1, line);
     shorten(tmp1);
@@ -7929,9 +7929,9 @@ void strip_quotes(char *line)
 
     __CPROVER_DUMP_L2:
       ;
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(tmp1);
-      len = (signed int)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(tmp1);
+      len = (signed int)return_value_strlen_2;
       if(tmp1[(signed long int)(-1 + len)] == tmp1[0l])
       {
         tmp1[(signed long int)(len - 1)] = (char)0;
@@ -7954,26 +7954,26 @@ signed int tokenizeString(char *string, signed int size, char ***output)
   signed int i;
   end = string + (signed long int)size;
   p = string;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(p >= end))
-      tmp_if_expr$1 = (signed int)*p != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)*p != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     p = p + 1l;
   }
   while((_Bool)1);
   p = p - 1l;
-  const unsigned short int **return_value___ctype_b_loc$2;
+  const unsigned short int **return_value___ctype_b_loc_2;
   do
   {
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*p]) == 0)
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*p]) == 0)
       break;
 
     p = p - 1l;
@@ -7981,19 +7981,19 @@ signed int tokenizeString(char *string, signed int size, char ***output)
   while((_Bool)1);
   end = p + (signed long int)1;
   p = string;
-  _Bool tmp_if_expr$4;
-  const unsigned short int **return_value___ctype_b_loc$3;
+  _Bool tmp_if_expr_4;
+  const unsigned short int **return_value___ctype_b_loc_3;
   do
   {
     if(!(p >= end))
     {
-      return_value___ctype_b_loc$3=__ctype_b_loc();
-      tmp_if_expr$4 = ((signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*p] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+      return_value___ctype_b_loc_3=__ctype_b_loc();
+      tmp_if_expr_4 = ((signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*p] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(!tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(!tmp_if_expr_4)
       break;
 
     p = p + 1l;
@@ -8002,61 +8002,61 @@ signed int tokenizeString(char *string, signed int size, char ***output)
   start = p;
   if(start == end)
   {
-    void *return_value_malloc$5;
-    return_value_malloc$5=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)1);
-    *output = (char **)return_value_malloc$5;
+    void *return_value_malloc_5;
+    return_value_malloc_5=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)1);
+    *output = (char **)return_value_malloc_5;
     (*output)[(signed long int)0] = ((char *)NULL);
     return 0;
   }
 
   p = end - (signed long int)1;
   i = 0;
-  const unsigned short int **return_value___ctype_b_loc$6;
+  const unsigned short int **return_value___ctype_b_loc_6;
   for( ; !(start >= p); p = p - 1l)
   {
-    const unsigned short int **return_value___ctype_b_loc$7;
-    return_value___ctype_b_loc$7=__ctype_b_loc();
-    if(!((8192 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)*p]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_7;
+    return_value___ctype_b_loc_7=__ctype_b_loc();
+    if(!((8192 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)*p]) == 0))
     {
-      return_value___ctype_b_loc$6=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$6)[(signed long int)(signed int)p[-1l]]) == 0)
+      return_value___ctype_b_loc_6=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_6)[(signed long int)(signed int)p[-1l]]) == 0)
         i = i + 1;
 
     }
 
   }
   i = i + 1;
-  void *return_value_malloc$8;
-  return_value_malloc$8=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)(i + 1));
-  *output = (char **)return_value_malloc$8;
+  void *return_value_malloc_8;
+  return_value_malloc_8=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)(i + 1));
+  *output = (char **)return_value_malloc_8;
   (*output)[(signed long int)i] = ((char *)NULL);
   i = 0;
   q = start;
   p = q;
-  const unsigned short int **return_value___ctype_b_loc$9;
-  const unsigned short int **return_value___ctype_b_loc$11;
+  const unsigned short int **return_value___ctype_b_loc_9;
+  const unsigned short int **return_value___ctype_b_loc_11;
   for( ; !(p >= end) && !(q >= end); i = i + 1)
   {
     q = p;
     do
     {
-      return_value___ctype_b_loc$9=__ctype_b_loc();
-      if(!((8192 & (signed int)(*return_value___ctype_b_loc$9)[(signed long int)(signed int)*q]) == 0) || q >= end)
+      return_value___ctype_b_loc_9=__ctype_b_loc();
+      if(!((8192 & (signed int)(*return_value___ctype_b_loc_9)[(signed long int)(signed int)*q]) == 0) || q >= end)
         break;
 
       q = q + 1l;
     }
     while((_Bool)1);
-    void *return_value_malloc$10;
-    return_value_malloc$10=malloc(sizeof(char) /*1ul*/  * (unsigned long int)((q - p) + (signed long int)1));
-    (*output)[(signed long int)i] = (char *)return_value_malloc$10;
+    void *return_value_malloc_10;
+    return_value_malloc_10=malloc(sizeof(char) /*1ul*/  * (unsigned long int)((q - p) + (signed long int)1));
+    (*output)[(signed long int)i] = (char *)return_value_malloc_10;
     strncpy((*output)[(signed long int)i], p, (unsigned long int)(q - p));
     (*output)[(signed long int)i][q - p] = (char)0;
     q = q + 1l;
     do
     {
-      return_value___ctype_b_loc$11=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$11)[(signed long int)(signed int)*q]) == 0 || q >= end)
+      return_value___ctype_b_loc_11=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_11)[(signed long int)(signed int)*q]) == 0 || q >= end)
         break;
 
       q = q + 1l;
@@ -8085,7 +8085,7 @@ void usage()
   printf("-iconic\t\tstart as an icon rather than a window\n");
   printf("-withdrawn\t\"withdrawn\" mode for WindowMaker\n");
   printf("\n");
-  printf("Use $DISPLAY environment variable to run asmail on a different display.\n");
+  printf("Use _DISPLAY environment variable to run asmail on a different display.\n");
   printf("\n");
 }
 
@@ -8101,11 +8101,11 @@ void version()
 void x11_event()
 {
   union _XEvent Event;
-  signed int return_value_XPending$1;
+  signed int return_value_XPending_1;
   do
   {
-    return_value_XPending$1=XPending(mainDisplay);
-    if(return_value_XPending$1 == 0)
+    return_value_XPending_1=XPending(mainDisplay);
+    if(return_value_XPending_1 == 0)
       break;
 
     XNextEvent(mainDisplay, &Event);
@@ -8114,7 +8114,7 @@ void x11_event()
       case 12:
       {
         if(Event.xexpose.count == 0)
-          draw_window(((struct anonymous$28 *)&Event)->window);
+          draw_window(((struct anonymous_28 *)&Event)->window);
 
         break;
       }

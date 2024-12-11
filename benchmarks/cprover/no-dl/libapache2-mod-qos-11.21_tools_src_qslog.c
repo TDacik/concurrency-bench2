@@ -1,20 +1,20 @@
 // tag-#anon#ST[S32'rm_so'||S32'rm_eo'|]
 // file /usr/include/regex.h line 452
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S64'request_count'||S64'error_count'||S64'byte_count'||S64'duration'||S64'duration_count_ms'||S64'duration_0'||S64'duration_1'||S64'duration_2'||S64'duration_3'||S64'duration_4'||S64'duration_5'||S64'duration_6'||S64'status_1'||S64'status_2'||S64'status_3'||S64'status_4'||S64'status_5'||S64'status_304'||S64'connections'||*{SYM#tag-apr_table_t#}$SYM#tag-apr_table_t#$'events'||*{SYM#tag-apr_pool_t#}$SYM#tag-apr_pool_t#$'pool'||S64'get'||S64'post'||S64'html'||S64'img'||S64'cssjs'||S64'other'||S64'start_s'||S64'end_s'||S64'firstLine'||S64'lastLine'|]
+// tag-#anon#ST[S64'request_count'||S64'error_count'||S64'byte_count'||S64'duration'||S64'duration_count_ms'||S64'duration_0'||S64'duration_1'||S64'duration_2'||S64'duration_3'||S64'duration_4'||S64'duration_5'||S64'duration_6'||S64'status_1'||S64'status_2'||S64'status_3'||S64'status_4'||S64'status_5'||S64'status_304'||S64'connections'||*{SYM#tag-apr_table_t#}_SYM#tag-apr_table_t#_'events'||*{SYM#tag-apr_pool_t#}_SYM#tag-apr_pool_t#_'pool'||S64'get'||S64'post'||S64'html'||S64'img'||S64'cssjs'||S64'other'||S64'start_s'||S64'end_s'||S64'firstLine'||S64'lastLine'|]
 // file qslog.c line 85
-struct anonymous$3;
+struct anonymous_3;
 
 // tag-#anon#ST[S64'request_count'||S64'status_1'||S64'status_2'||S64'status_3'||S64'status_4'||S64'status_5'||S64'duration_count_ms'|]
 // file qslog.c line 75
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -253,7 +253,7 @@ extern signed int printf(const char *, ...);
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$0 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_0 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -346,7 +346,7 @@ extern struct dirent * readdir(struct __dirstream *);
 extern signed int regcomp(struct re_pattern_buffer *, const char *, signed int);
 // regexec
 // file /usr/include/regex.h line 566
-extern signed int regexec(const struct re_pattern_buffer *, const char *, unsigned long int, struct anonymous$2 *, signed int);
+extern signed int regexec(const struct re_pattern_buffer *, const char *, unsigned long int, struct anonymous_2 *, signed int);
 // rename
 // file /usr/include/stdio.h line 180
 extern signed int rename(const char *, const char *);
@@ -444,7 +444,7 @@ static void usage(const char *cmd, signed int man);
 // file /usr/include/stdio.h line 379
 extern signed int vsprintf(char *, const char *, void **);
 
-struct anonymous$2
+struct anonymous_2
 {
   // rm_so
   signed int rm_so;
@@ -452,7 +452,7 @@ struct anonymous$2
   signed int rm_eo;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // request_count
   signed long int request_count;
@@ -518,7 +518,7 @@ struct anonymous$3
   signed long int lastLine;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // request_count
   signed long int request_count;
@@ -536,7 +536,7 @@ struct anonymous$1
   signed long long int duration_count_ms;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __size
   char __size[4l];
@@ -1032,21 +1032,21 @@ extern struct _IO_FILE *stdout;
 static struct stat_rec_st * createRec(struct apr_pool_t *pool, const char *id, const char *pattern)
 {
   struct stat_rec_st *rec;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(sizeof(struct stat_rec_st) /*336ul*/ , (unsigned long int)1);
-  rec = (struct stat_rec_st *)return_value_calloc$1;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(id);
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc(return_value_strlen$2 + (unsigned long int)2, (unsigned long int)1);
-  rec->id = (char *)return_value_calloc$3;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(sizeof(struct stat_rec_st) /*336ul*/ , (unsigned long int)1);
+  rec = (struct stat_rec_st *)return_value_calloc_1;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(id);
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc(return_value_strlen_2 + (unsigned long int)2, (unsigned long int)1);
+  rec->id = (char *)return_value_calloc_3;
   sprintf(rec->id, "%s;", id);
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(id);
-  rec->id[(signed long int)(return_value_strlen$4 + (unsigned long int)1)] = (char)0;
-  signed int return_value_regcomp$5;
-  return_value_regcomp$5=regcomp(&rec->preg, pattern, 1);
-  if(!(return_value_regcomp$5 == 0))
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(id);
+  rec->id[(signed long int)(return_value_strlen_4 + (unsigned long int)1)] = (char)0;
+  signed int return_value_regcomp_5;
+  return_value_regcomp_5=regcomp(&rec->preg, pattern, 1);
+  if(!(return_value_regcomp_5 == 0))
   {
     qerror("failed to compile pattern %s", pattern);
     exit(1);
@@ -1105,23 +1105,23 @@ static char * cutNext(char **line)
   }
 
   delim = c[(signed long int)0];
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
   if((signed int)delim == 34 || (signed int)delim == 39)
   {
     signed int len;
     c = c + 1l;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(c);
-    len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(c);
+    len = (signed int)return_value_strlen_1;
     while(len >= 1)
     {
-      return_value_strlen$2=strlen(c);
-      if(!(c[-1l + (signed long int)return_value_strlen$2] == delim))
+      return_value_strlen_2=strlen(c);
+      if(!(c[-1l + (signed long int)return_value_strlen_2] == delim))
         break;
 
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(c);
-      c[(signed long int)(return_value_strlen$3 - (unsigned long int)1)] = (char)0;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(c);
+      c[(signed long int)(return_value_strlen_3 - (unsigned long int)1)] = (char)0;
       len = len - 1;
     }
   }
@@ -1141,15 +1141,15 @@ static void gcTable(struct apr_table_t *list)
   if(!(m_hasGC == 0))
     qs_csLock();
 
-  const struct apr_array_header_t *return_value_apr_table_elts$1;
-  return_value_apr_table_elts$1=apr_table_elts(list);
-  entry = (struct apr_table_entry_t *)return_value_apr_table_elts$1->elts;
+  const struct apr_array_header_t *return_value_apr_table_elts_1;
+  return_value_apr_table_elts_1=apr_table_elts(list);
+  entry = (struct apr_table_entry_t *)return_value_apr_table_elts_1->elts;
   i = 0;
-  const struct apr_array_header_t *return_value_apr_table_elts$2;
+  const struct apr_array_header_t *return_value_apr_table_elts_2;
   do
   {
-    return_value_apr_table_elts$2=apr_table_elts(list);
-    if(i >= return_value_apr_table_elts$2->nelts)
+    return_value_apr_table_elts_2=apr_table_elts(list);
+    if(i >= return_value_apr_table_elts_2->nelts)
       break;
 
     struct qs_event_st *lp = (struct qs_event_st *)(entry + (signed long int)i)->val;
@@ -1213,22 +1213,22 @@ static void getFreeMem(char *buf, signed int sz)
   f=fopen("/proc/meminfo", "r");
   signed int mem = 0;
   buf[(signed long int)0] = (char)0;
-  signed int return_value_qs_getLinef$1;
-  signed int return_value_qs_getLinef$7;
+  signed int return_value_qs_getLinef_1;
+  signed int return_value_qs_getLinef_7;
   if(!(f == ((struct _IO_FILE *)NULL)))
   {
-    char getFreeMem$$1$$1$$line[32768l];
+    char getFreeMem__1__1__line[32768l];
     do
     {
-      return_value_qs_getLinef$1=qs_getLinef(getFreeMem$$1$$1$$line, (signed int)sizeof(char [32768l]) /*32768ul*/ , f);
-      if(!(return_value_qs_getLinef$1 == 0))
+      return_value_qs_getLinef_1=qs_getLinef(getFreeMem__1__1__line, (signed int)sizeof(char [32768l]) /*32768ul*/ , f);
+      if(!(return_value_qs_getLinef_1 == 0))
         break;
 
-      signed int return_value_strncmp$3;
-      return_value_strncmp$3=strncmp(getFreeMem$$1$$1$$line, "MemFree: ", (unsigned long int)9);
-      if(return_value_strncmp$3 == 0)
+      signed int return_value_strncmp_3;
+      return_value_strncmp_3=strncmp(getFreeMem__1__1__line, "MemFree: ", (unsigned long int)9);
+      if(return_value_strncmp_3 == 0)
       {
-        char *c = &getFreeMem$$1$$1$$line[(signed long int)9];
+        char *c = &getFreeMem__1__1__line[(signed long int)9];
         char *e;
         for( ; !(*c == 0); c = c + 1l)
           if(!((signed int)*c == 32))
@@ -1244,34 +1244,34 @@ static void getFreeMem(char *buf, signed int sz)
             break;
 
         e[(signed long int)0] = (char)0;
-        signed int return_value_atoi$2;
-        return_value_atoi$2=atoi(c);
-        mem = mem + return_value_atoi$2;
+        signed int return_value_atoi_2;
+        return_value_atoi_2=atoi(c);
+        mem = mem + return_value_atoi_2;
       }
 
-      signed int return_value_strncmp$5;
-      return_value_strncmp$5=strncmp(getFreeMem$$1$$1$$line, "Cached: ", (unsigned long int)8);
-      if(return_value_strncmp$5 == 0)
+      signed int return_value_strncmp_5;
+      return_value_strncmp_5=strncmp(getFreeMem__1__1__line, "Cached: ", (unsigned long int)8);
+      if(return_value_strncmp_5 == 0)
       {
-        char *getFreeMem$$1$$1$$1$$2$$c = &getFreeMem$$1$$1$$line[(signed long int)8];
-        char *getFreeMem$$1$$1$$1$$2$$e;
-        for( ; !(*getFreeMem$$1$$1$$1$$2$$c == 0); getFreeMem$$1$$1$$1$$2$$c = getFreeMem$$1$$1$$1$$2$$c + 1l)
-          if(!((signed int)*getFreeMem$$1$$1$$1$$2$$c == 32))
+        char *getFreeMem__1__1__1__2__c = &getFreeMem__1__1__line[(signed long int)8];
+        char *getFreeMem__1__1__1__2__e;
+        for( ; !(*getFreeMem__1__1__1__2__c == 0); getFreeMem__1__1__1__2__c = getFreeMem__1__1__1__2__c + 1l)
+          if(!((signed int)*getFreeMem__1__1__1__2__c == 32))
           {
-            if(!((signed int)*getFreeMem$$1$$1$$1$$2$$c == 9))
+            if(!((signed int)*getFreeMem__1__1__1__2__c == 9))
               break;
 
           }
 
-        getFreeMem$$1$$1$$1$$2$$e = getFreeMem$$1$$1$$1$$2$$c;
-        for( ; !(*getFreeMem$$1$$1$$1$$2$$e == 0); getFreeMem$$1$$1$$1$$2$$e = getFreeMem$$1$$1$$1$$2$$e + 1l)
-          if((signed int)*getFreeMem$$1$$1$$1$$2$$e == 32)
+        getFreeMem__1__1__1__2__e = getFreeMem__1__1__1__2__c;
+        for( ; !(*getFreeMem__1__1__1__2__e == 0); getFreeMem__1__1__1__2__e = getFreeMem__1__1__1__2__e + 1l)
+          if((signed int)*getFreeMem__1__1__1__2__e == 32)
             break;
 
-        getFreeMem$$1$$1$$1$$2$$e[(signed long int)0] = (char)0;
-        signed int return_value_atoi$4;
-        return_value_atoi$4=atoi(getFreeMem$$1$$1$$1$$2$$c);
-        mem = mem + return_value_atoi$4;
+        getFreeMem__1__1__1__2__e[(signed long int)0] = (char)0;
+        signed int return_value_atoi_4;
+        return_value_atoi_4=atoi(getFreeMem__1__1__1__2__c);
+        mem = mem + return_value_atoi_4;
       }
 
     }
@@ -1284,15 +1284,15 @@ static void getFreeMem(char *buf, signed int sz)
   {
     char vmstat[16l] = { '/', 'u', 's', 'r', '/', 'b', 'i', 'n', '/', 'v', 'm', 's', 't', 'a', 't', 0 };
     struct stat attr;
-    signed int return_value_stat$8;
-    return_value_stat$8=stat(vmstat, &attr);
-    if(return_value_stat$8 == 0)
+    signed int return_value_stat_8;
+    return_value_stat_8=stat(vmstat, &attr);
+    if(return_value_stat_8 == 0)
     {
       char command[1024l];
       char outfile[1024l];
-      signed int return_value_getpid$6;
-      return_value_getpid$6=getpid();
-      snprintf(outfile, sizeof(char [1024l]) /*1024ul*/ , "/tmp/qslog.%d", return_value_getpid$6);
+      signed int return_value_getpid_6;
+      return_value_getpid_6=getpid();
+      snprintf(outfile, sizeof(char [1024l]) /*1024ul*/ , "/tmp/qslog.%d", return_value_getpid_6);
       snprintf(command, sizeof(char [1024l]) /*1024ul*/ , "%s 1 2 1>%s", (const void *)vmstat, (const void *)outfile);
       system(command);
       f=fopen(outfile, "r");
@@ -1302,8 +1302,8 @@ static void getFreeMem(char *buf, signed int sz)
         signed int i = 1;
         do
         {
-          return_value_qs_getLinef$7=qs_getLinef(line, (signed int)sizeof(char [32768l]) /*32768ul*/ , f);
-          if(!(return_value_qs_getLinef$7 == 0))
+          return_value_qs_getLinef_7=qs_getLinef(line, (signed int)sizeof(char [32768l]) /*32768ul*/ , f);
+          if(!(return_value_qs_getLinef_7 == 0))
             break;
 
           if(i == 4)
@@ -1317,12 +1317,12 @@ static void getFreeMem(char *buf, signed int sz)
             }
             if(j == 4 && !(p == ((char *)NULL)))
             {
-              char *getFreeMem$$1$$2$$1$$1$$1$$1$$2$$e;
+              char *getFreeMem__1__2__1__1__1__1__2__e;
               p = p + 1l;
-              getFreeMem$$1$$2$$1$$1$$1$$1$$2$$e=strchr(p, 32);
-              if(!(getFreeMem$$1$$2$$1$$1$$1$$1$$2$$e == ((char *)NULL)))
+              getFreeMem__1__2__1__1__1__1__2__e=strchr(p, 32);
+              if(!(getFreeMem__1__2__1__1__1__1__2__e == ((char *)NULL)))
               {
-                getFreeMem$$1$$2$$1$$1$$1$$1$$2$$e[(signed long int)0] = (char)0;
+                getFreeMem__1__2__1__1__1__1__2__e[(signed long int)0] = (char)0;
                 snprintf(buf, (unsigned long int)sz, "%s", p);
               }
 
@@ -1347,55 +1347,55 @@ static void getFreeMem(char *buf, signed int sz)
 // file qslog.c line 1551
 static signed long int getMinutes(char *line)
 {
-  struct anonymous$2 ma;
-  signed int return_value_regexec$25;
-  return_value_regexec$25=regexec(&m_trx, line, (unsigned long int)1, &ma, 0);
-  if(!(return_value_regexec$25 == 0))
+  struct anonymous_2 ma;
+  signed int return_value_regexec_25;
+  return_value_regexec_25=regexec(&m_trx, line, (unsigned long int)1, &ma, 0);
+  if(!(return_value_regexec_25 == 0))
   {
-    signed int return_value_regexec$12;
-    return_value_regexec$12=regexec(&m_trx2, line, (unsigned long int)1, &ma, 0);
-    if(return_value_regexec$12 == 0)
+    signed int return_value_regexec_12;
+    return_value_regexec_12=regexec(&m_trx2, line, (unsigned long int)1, &ma, 0);
+    if(return_value_regexec_12 == 0)
     {
       signed long int minutes = (signed long int)0;
       signed int buf_len = (ma.rm_eo - ma.rm_so) + 1;
-      const signed long int buf_len$array_size0 = (signed long int)buf_len;
-      char buf[buf_len$array_size0];
+      const signed long int buf_len_array_size0 = (signed long int)buf_len;
+      char buf[buf_len_array_size0];
       strncpy(buf, &line[(signed long int)ma.rm_so], (unsigned long int)(ma.rm_eo - ma.rm_so));
       buf[(signed long int)(ma.rm_eo - ma.rm_so)] = (char)0;
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(buf);
-      buf[(signed long int)(return_value_strlen$1 - (unsigned long int)7)] = (char)0;
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(buf);
-      signed int return_value_atoi$3;
-      return_value_atoi$3=atoi(&buf[(signed long int)(return_value_strlen$2 - (unsigned long int)2)]);
-      minutes = minutes + (signed long int)return_value_atoi$3;
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(buf);
-      buf[(signed long int)(return_value_strlen$4 - (unsigned long int)3)] = (char)0;
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen(buf);
-      signed int return_value_atoi$6;
-      return_value_atoi$6=atoi(&buf[(signed long int)(return_value_strlen$5 - (unsigned long int)2)]);
-      minutes = minutes + (signed long int)(return_value_atoi$6 * 60);
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(buf);
+      buf[(signed long int)(return_value_strlen_1 - (unsigned long int)7)] = (char)0;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(buf);
+      signed int return_value_atoi_3;
+      return_value_atoi_3=atoi(&buf[(signed long int)(return_value_strlen_2 - (unsigned long int)2)]);
+      minutes = minutes + (signed long int)return_value_atoi_3;
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(buf);
+      buf[(signed long int)(return_value_strlen_4 - (unsigned long int)3)] = (char)0;
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen(buf);
+      signed int return_value_atoi_6;
+      return_value_atoi_6=atoi(&buf[(signed long int)(return_value_strlen_5 - (unsigned long int)2)]);
+      minutes = minutes + (signed long int)(return_value_atoi_6 * 60);
       char *year;
       char *month;
       char *day;
-      unsigned long int return_value_strlen$7;
-      return_value_strlen$7=strlen(buf);
-      buf[(signed long int)(return_value_strlen$7 - (unsigned long int)3)] = (char)0;
-      unsigned long int return_value_strlen$8;
-      return_value_strlen$8=strlen(buf);
-      day = &buf[(signed long int)(return_value_strlen$8 - (unsigned long int)2)];
-      unsigned long int return_value_strlen$9;
-      return_value_strlen$9=strlen(buf);
-      buf[(signed long int)(return_value_strlen$9 - (unsigned long int)3)] = (char)0;
-      unsigned long int return_value_strlen$10;
-      return_value_strlen$10=strlen(buf);
-      month = &buf[(signed long int)(return_value_strlen$10 - (unsigned long int)2)];
-      unsigned long int return_value_strlen$11;
-      return_value_strlen$11=strlen(buf);
-      buf[(signed long int)(return_value_strlen$11 - (unsigned long int)3)] = (char)0;
+      unsigned long int return_value_strlen_7;
+      return_value_strlen_7=strlen(buf);
+      buf[(signed long int)(return_value_strlen_7 - (unsigned long int)3)] = (char)0;
+      unsigned long int return_value_strlen_8;
+      return_value_strlen_8=strlen(buf);
+      day = &buf[(signed long int)(return_value_strlen_8 - (unsigned long int)2)];
+      unsigned long int return_value_strlen_9;
+      return_value_strlen_9=strlen(buf);
+      buf[(signed long int)(return_value_strlen_9 - (unsigned long int)3)] = (char)0;
+      unsigned long int return_value_strlen_10;
+      return_value_strlen_10=strlen(buf);
+      month = &buf[(signed long int)(return_value_strlen_10 - (unsigned long int)2)];
+      unsigned long int return_value_strlen_11;
+      return_value_strlen_11=strlen(buf);
+      buf[(signed long int)(return_value_strlen_11 - (unsigned long int)3)] = (char)0;
       year = buf;
       snprintf(m_date_str, sizeof(char [32768l]) /*32768ul*/ , "%s.%s.%s", day, month, year);
       return minutes;
@@ -1412,51 +1412,51 @@ static signed long int getMinutes(char *line)
 
   else
   {
-    signed long int getMinutes$$1$$2$$minutes = (signed long int)0;
-    signed int getMinutes$$1$$2$$buf_len = (ma.rm_eo - ma.rm_so) + 1;
-    const signed long int getMinutes$$1$$2$$buf_len$array_size0 = (signed long int)getMinutes$$1$$2$$buf_len;
-    char getMinutes$$1$$2$$buf[getMinutes$$1$$2$$buf_len$array_size0];
-    strncpy(getMinutes$$1$$2$$buf, &line[(signed long int)ma.rm_so], (unsigned long int)(ma.rm_eo - ma.rm_so));
-    getMinutes$$1$$2$$buf[(signed long int)(ma.rm_eo - ma.rm_so)] = (char)0;
-    unsigned long int return_value_strlen$13;
-    return_value_strlen$13=strlen(getMinutes$$1$$2$$buf);
-    getMinutes$$1$$2$$buf[(signed long int)(return_value_strlen$13 - (unsigned long int)3)] = (char)0;
-    unsigned long int return_value_strlen$14;
-    return_value_strlen$14=strlen(getMinutes$$1$$2$$buf);
-    signed int return_value_atoi$15;
-    return_value_atoi$15=atoi(&getMinutes$$1$$2$$buf[(signed long int)(return_value_strlen$14 - (unsigned long int)2)]);
-    getMinutes$$1$$2$$minutes = getMinutes$$1$$2$$minutes + (signed long int)return_value_atoi$15;
-    unsigned long int return_value_strlen$16;
-    return_value_strlen$16=strlen(getMinutes$$1$$2$$buf);
-    getMinutes$$1$$2$$buf[(signed long int)(return_value_strlen$16 - (unsigned long int)3)] = (char)0;
-    unsigned long int return_value_strlen$17;
-    return_value_strlen$17=strlen(getMinutes$$1$$2$$buf);
-    signed int return_value_atoi$18;
-    return_value_atoi$18=atoi(&getMinutes$$1$$2$$buf[(signed long int)(return_value_strlen$17 - (unsigned long int)2)]);
-    getMinutes$$1$$2$$minutes = getMinutes$$1$$2$$minutes + (signed long int)(return_value_atoi$18 * 60);
-    char *getMinutes$$1$$2$$1$$year;
-    char *getMinutes$$1$$2$$1$$month;
-    char *getMinutes$$1$$2$$1$$day;
-    unsigned long int return_value_strlen$19;
-    return_value_strlen$19=strlen(getMinutes$$1$$2$$buf);
-    getMinutes$$1$$2$$buf[(signed long int)(return_value_strlen$19 - (unsigned long int)3)] = (char)0;
-    unsigned long int return_value_strlen$20;
-    return_value_strlen$20=strlen(getMinutes$$1$$2$$buf);
-    getMinutes$$1$$2$$1$$year = &getMinutes$$1$$2$$buf[(signed long int)(return_value_strlen$20 - (unsigned long int)4)];
-    unsigned long int return_value_strlen$21;
-    return_value_strlen$21=strlen(getMinutes$$1$$2$$buf);
-    getMinutes$$1$$2$$buf[(signed long int)(return_value_strlen$21 - (unsigned long int)5)] = (char)0;
-    unsigned long int return_value_strlen$22;
-    return_value_strlen$22=strlen(getMinutes$$1$$2$$buf);
-    getMinutes$$1$$2$$1$$month = &getMinutes$$1$$2$$buf[(signed long int)(return_value_strlen$22 - (unsigned long int)3)];
-    unsigned long int return_value_strlen$23;
-    return_value_strlen$23=strlen(getMinutes$$1$$2$$buf);
-    getMinutes$$1$$2$$buf[(signed long int)(return_value_strlen$23 - (unsigned long int)4)] = (char)0;
-    getMinutes$$1$$2$$1$$day = getMinutes$$1$$2$$buf;
-    signed int return_value_mstr2i$24;
-    return_value_mstr2i$24=mstr2i(getMinutes$$1$$2$$1$$month);
-    snprintf(m_date_str, sizeof(char [32768l]) /*32768ul*/ , "%s.%02d.%s", getMinutes$$1$$2$$1$$day, return_value_mstr2i$24, getMinutes$$1$$2$$1$$year);
-    return getMinutes$$1$$2$$minutes;
+    signed long int getMinutes__1__2__minutes = (signed long int)0;
+    signed int getMinutes__1__2__buf_len = (ma.rm_eo - ma.rm_so) + 1;
+    const signed long int getMinutes__1__2__buf_len_array_size0 = (signed long int)getMinutes__1__2__buf_len;
+    char getMinutes__1__2__buf[getMinutes__1__2__buf_len_array_size0];
+    strncpy(getMinutes__1__2__buf, &line[(signed long int)ma.rm_so], (unsigned long int)(ma.rm_eo - ma.rm_so));
+    getMinutes__1__2__buf[(signed long int)(ma.rm_eo - ma.rm_so)] = (char)0;
+    unsigned long int return_value_strlen_13;
+    return_value_strlen_13=strlen(getMinutes__1__2__buf);
+    getMinutes__1__2__buf[(signed long int)(return_value_strlen_13 - (unsigned long int)3)] = (char)0;
+    unsigned long int return_value_strlen_14;
+    return_value_strlen_14=strlen(getMinutes__1__2__buf);
+    signed int return_value_atoi_15;
+    return_value_atoi_15=atoi(&getMinutes__1__2__buf[(signed long int)(return_value_strlen_14 - (unsigned long int)2)]);
+    getMinutes__1__2__minutes = getMinutes__1__2__minutes + (signed long int)return_value_atoi_15;
+    unsigned long int return_value_strlen_16;
+    return_value_strlen_16=strlen(getMinutes__1__2__buf);
+    getMinutes__1__2__buf[(signed long int)(return_value_strlen_16 - (unsigned long int)3)] = (char)0;
+    unsigned long int return_value_strlen_17;
+    return_value_strlen_17=strlen(getMinutes__1__2__buf);
+    signed int return_value_atoi_18;
+    return_value_atoi_18=atoi(&getMinutes__1__2__buf[(signed long int)(return_value_strlen_17 - (unsigned long int)2)]);
+    getMinutes__1__2__minutes = getMinutes__1__2__minutes + (signed long int)(return_value_atoi_18 * 60);
+    char *getMinutes__1__2__1__year;
+    char *getMinutes__1__2__1__month;
+    char *getMinutes__1__2__1__day;
+    unsigned long int return_value_strlen_19;
+    return_value_strlen_19=strlen(getMinutes__1__2__buf);
+    getMinutes__1__2__buf[(signed long int)(return_value_strlen_19 - (unsigned long int)3)] = (char)0;
+    unsigned long int return_value_strlen_20;
+    return_value_strlen_20=strlen(getMinutes__1__2__buf);
+    getMinutes__1__2__1__year = &getMinutes__1__2__buf[(signed long int)(return_value_strlen_20 - (unsigned long int)4)];
+    unsigned long int return_value_strlen_21;
+    return_value_strlen_21=strlen(getMinutes__1__2__buf);
+    getMinutes__1__2__buf[(signed long int)(return_value_strlen_21 - (unsigned long int)5)] = (char)0;
+    unsigned long int return_value_strlen_22;
+    return_value_strlen_22=strlen(getMinutes__1__2__buf);
+    getMinutes__1__2__1__month = &getMinutes__1__2__buf[(signed long int)(return_value_strlen_22 - (unsigned long int)3)];
+    unsigned long int return_value_strlen_23;
+    return_value_strlen_23=strlen(getMinutes__1__2__buf);
+    getMinutes__1__2__buf[(signed long int)(return_value_strlen_23 - (unsigned long int)4)] = (char)0;
+    getMinutes__1__2__1__day = getMinutes__1__2__buf;
+    signed int return_value_mstr2i_24;
+    return_value_mstr2i_24=mstr2i(getMinutes__1__2__1__month);
+    snprintf(m_date_str, sizeof(char [32768l]) /*32768ul*/ , "%s.%02d.%s", getMinutes__1__2__1__day, return_value_mstr2i_24, getMinutes__1__2__1__year);
+    return getMinutes__1__2__minutes;
   }
 }
 
@@ -1464,15 +1464,15 @@ static signed long int getMinutes(char *line)
 // file qslog.c line 952
 static struct stat_rec_st * getRec(const char *value)
 {
-  struct anonymous$2 ma[1l];
+  struct anonymous_2 ma[1l];
   signed int len = 0;
   struct stat_rec_st *r = m_stat_sub;
   struct stat_rec_st *rec = (struct stat_rec_st *)(void *)0;
   while(!(r == ((struct stat_rec_st *)NULL)))
   {
-    signed int return_value_regexec$1;
-    return_value_regexec$1=regexec(&r->preg, value, (unsigned long int)1, ma, 0);
-    if(return_value_regexec$1 == 0)
+    signed int return_value_regexec_1;
+    return_value_regexec_1=regexec(&r->preg, value, (unsigned long int)1, ma, 0);
+    if(return_value_regexec_1 == 0)
     {
       signed int l = (ma[(signed long int)0].rm_eo - ma[(signed long int)0].rm_so) + 1;
       if(!(len >= l))
@@ -1500,19 +1500,19 @@ static struct stat_rec_st * loadRule(struct apr_pool_t *pool, const char *confFi
   struct stat_rec_st *next = (struct stat_rec_st *)(void *)0;
   if(file == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    qerror("could not read file '%s': ", confFile, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    qerror("could not read file '%s': ", confFile, return_value_strerror_2);
     exit(1);
   }
 
-  signed int return_value_qs_getLinef$3;
+  signed int return_value_qs_getLinef_3;
   do
   {
-    return_value_qs_getLinef$3=qs_getLinef(line, (signed int)sizeof(char [32768l]) /*32768ul*/ , file);
-    if(!(return_value_qs_getLinef$3 == 0))
+    return_value_qs_getLinef_3=qs_getLinef(line, (signed int)sizeof(char [32768l]) /*32768ul*/ , file);
+    if(!(return_value_qs_getLinef_3 == 0))
       break;
 
     char *id = line;
@@ -1564,35 +1564,35 @@ static void * loggerThread(void *argv)
       if(!(m_file_name[0l] == 0))
       {
         strftime(buf, sizeof(char [1024l]) /*1024ul*/ , "%H:%M", ptr);
-        signed int return_value_strcmp$7;
-        return_value_strcmp$7=strcmp(buf, "23:59");
-        if(return_value_strcmp$7 == 0)
+        signed int return_value_strcmp_7;
+        return_value_strcmp_7=strcmp(buf, "23:59");
+        if(return_value_strcmp_7 == 0)
         {
           char arch[32768l];
           char arch2[32768l];
           strftime(buf, sizeof(char [1024l]) /*1024ul*/ , "%Y%m%d%H%M%S", ptr);
           snprintf(arch, sizeof(char [32768l]) /*32768ul*/ , "%s.%s", (const void *)m_file_name, (const void *)buf);
           snprintf(arch2, sizeof(char [32768l]) /*32768ul*/ , "%s.%s", (const void *)m_file_name2, (const void *)buf);
-          signed int return_value_fclose$3;
-          return_value_fclose$3=fclose(m_f);
-          if(!(return_value_fclose$3 == 0))
+          signed int return_value_fclose_3;
+          return_value_fclose_3=fclose(m_f);
+          if(!(return_value_fclose_3 == 0))
           {
-            signed int *return_value___errno_location$1;
-            return_value___errno_location$1=__errno_location();
-            char *return_value_strerror$2;
-            return_value_strerror$2=strerror(*return_value___errno_location$1);
-            qerror("failed to close file '%s': %s", (const void *)m_file_name, return_value_strerror$2);
+            signed int *return_value___errno_location_1;
+            return_value___errno_location_1=__errno_location();
+            char *return_value_strerror_2;
+            return_value_strerror_2=strerror(*return_value___errno_location_1);
+            qerror("failed to close file '%s': %s", (const void *)m_file_name, return_value_strerror_2);
           }
 
-          signed int return_value_rename$6;
-          return_value_rename$6=rename(m_file_name, arch);
-          if(!(return_value_rename$6 == 0))
+          signed int return_value_rename_6;
+          return_value_rename_6=rename(m_file_name, arch);
+          if(!(return_value_rename_6 == 0))
           {
-            signed int *return_value___errno_location$4;
-            return_value___errno_location$4=__errno_location();
-            char *return_value_strerror$5;
-            return_value_strerror$5=strerror(*return_value___errno_location$4);
-            qerror("failed to move file '%s': %s", (const void *)arch, return_value_strerror$5);
+            signed int *return_value___errno_location_4;
+            return_value___errno_location_4=__errno_location();
+            char *return_value_strerror_5;
+            return_value_strerror_5=strerror(*return_value___errno_location_4);
+            qerror("failed to move file '%s': %s", (const void *)arch, return_value_strerror_5);
           }
 
           qs_deleteOldFiles(m_file_name, m_generations);
@@ -1640,9 +1640,9 @@ signed int main(signed int argc, const char * const *argv)
     m_ip_list[(signed long int)t]=apr_table_make(pool, 15000);
     m_user_list[(signed long int)t]=apr_table_make(pool, 15000);
   }
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)50000, sizeof(struct qs_event_st *) /*8ul*/ );
-  m_gc_event_list = (struct qs_event_st **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)50000, sizeof(struct qs_event_st *) /*8ul*/ );
+  m_gc_event_list = (struct qs_event_st **)return_value_calloc_1;
   qs_csInitLock();
   qs_setExpiration((signed long int)600);
   if(cmd == ((const char *)NULL))
@@ -1652,89 +1652,89 @@ signed int main(signed int argc, const char * const *argv)
     cmd = cmd + 1l;
   argc = argc - 1;
   argv = argv + 1l;
-  _Bool tmp_if_expr$7;
-  char *return_value_strchr$6;
-  _Bool tmp_if_expr$11;
-  char *return_value_strchr$10;
-  _Bool tmp_if_expr$13;
-  char *return_value_strchr$12;
-  signed int return_value_strcmp$27;
-  signed int return_value_strcmp$26;
-  signed int return_value_strcmp$25;
-  signed int return_value_strcmp$24;
-  signed int return_value_strcmp$23;
-  signed int return_value_strcmp$22;
-  signed int return_value_strcmp$21;
-  signed int return_value_strcmp$20;
-  signed int return_value_strcmp$19;
-  signed int return_value_strcmp$18;
-  signed int return_value_strcmp$17;
-  signed int return_value_strcmp$16;
-  signed int return_value_strcmp$15;
-  signed int return_value_strcmp$14;
+  _Bool tmp_if_expr_7;
+  char *return_value_strchr_6;
+  _Bool tmp_if_expr_11;
+  char *return_value_strchr_10;
+  _Bool tmp_if_expr_13;
+  char *return_value_strchr_12;
+  signed int return_value_strcmp_27;
+  signed int return_value_strcmp_26;
+  signed int return_value_strcmp_25;
+  signed int return_value_strcmp_24;
+  signed int return_value_strcmp_23;
+  signed int return_value_strcmp_22;
+  signed int return_value_strcmp_21;
+  signed int return_value_strcmp_20;
+  signed int return_value_strcmp_19;
+  signed int return_value_strcmp_18;
+  signed int return_value_strcmp_17;
+  signed int return_value_strcmp_16;
+  signed int return_value_strcmp_15;
+  signed int return_value_strcmp_14;
   while(argc >= 1)
   {
-    signed int return_value_strcmp$28;
-    return_value_strcmp$28=strcmp(*argv, "-f");
-    if(return_value_strcmp$28 == 0)
+    signed int return_value_strcmp_28;
+    return_value_strcmp_28=strcmp(*argv, "-f");
+    if(return_value_strcmp_28 == 0)
     {
       argc = argc - 1;
       if(argc >= 1)
       {
         argv = argv + 1l;
         config = *argv;
-        char *return_value_strchr$2;
-        return_value_strchr$2=strchr(config, 105);
-        if(!(return_value_strchr$2 == ((char *)NULL)))
+        char *return_value_strchr_2;
+        return_value_strchr_2=strchr(config, 105);
+        if(!(return_value_strchr_2 == ((char *)NULL)))
           m_stat_rec->i_byte_count = (signed long long int)0;
 
-        char *return_value_strchr$3;
-        return_value_strchr$3=strchr(config, 107);
-        if(!(return_value_strchr$3 == ((char *)NULL)))
+        char *return_value_strchr_3;
+        return_value_strchr_3=strchr(config, 107);
+        if(!(return_value_strchr_3 == ((char *)NULL)))
           m_stat_rec->connections = (signed long int)0;
 
-        char *return_value_strchr$4;
-        return_value_strchr$4=strchr(config, 99);
-        if(!(return_value_strchr$4 == ((char *)NULL)))
+        char *return_value_strchr_4;
+        return_value_strchr_4=strchr(config, 99);
+        if(!(return_value_strchr_4 == ((char *)NULL)))
           m_ct = 1;
 
-        char *return_value_strchr$5;
-        return_value_strchr$5=strchr(config, 68);
-        if(!(return_value_strchr$5 == ((char *)NULL)))
-          tmp_if_expr$7 = (_Bool)1;
+        char *return_value_strchr_5;
+        return_value_strchr_5=strchr(config, 68);
+        if(!(return_value_strchr_5 == ((char *)NULL)))
+          tmp_if_expr_7 = (_Bool)1;
 
         else
         {
-          return_value_strchr$6=strchr(config, 116);
-          tmp_if_expr$7 = return_value_strchr$6 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          return_value_strchr_6=strchr(config, 116);
+          tmp_if_expr_7 = return_value_strchr_6 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$7)
+        if(tmp_if_expr_7)
           m_avms = 1;
 
-        char *return_value_strchr$8;
-        return_value_strchr$8=strchr(config, 109);
-        if(!(return_value_strchr$8 == ((char *)NULL)))
+        char *return_value_strchr_8;
+        return_value_strchr_8=strchr(config, 109);
+        if(!(return_value_strchr_8 == ((char *)NULL)))
           m_methods = 1;
 
-        char *return_value_strchr$9;
-        return_value_strchr$9=strchr(config, 115);
-        if(!(return_value_strchr$9 == ((char *)NULL)))
-          tmp_if_expr$11 = (_Bool)1;
+        char *return_value_strchr_9;
+        return_value_strchr_9=strchr(config, 115);
+        if(!(return_value_strchr_9 == ((char *)NULL)))
+          tmp_if_expr_11 = (_Bool)1;
 
         else
         {
-          return_value_strchr$10=strchr(config, 97);
-          tmp_if_expr$11 = return_value_strchr$10 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          return_value_strchr_10=strchr(config, 97);
+          tmp_if_expr_11 = return_value_strchr_10 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$11)
-          tmp_if_expr$13 = (_Bool)1;
+        if(tmp_if_expr_11)
+          tmp_if_expr_13 = (_Bool)1;
 
         else
         {
-          return_value_strchr$12=strchr(config, 65);
-          tmp_if_expr$13 = return_value_strchr$12 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          return_value_strchr_12=strchr(config, 65);
+          tmp_if_expr_13 = return_value_strchr_12 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$13)
+        if(tmp_if_expr_13)
           m_customcounter = 1;
 
       }
@@ -1743,8 +1743,8 @@ signed int main(signed int argc, const char * const *argv)
 
     else
     {
-      return_value_strcmp$27=strcmp(*argv, "-o");
-      if(return_value_strcmp$27 == 0)
+      return_value_strcmp_27=strcmp(*argv, "-o");
+      if(return_value_strcmp_27 == 0)
       {
         argc = argc - 1;
         if(argc >= 1)
@@ -1757,8 +1757,8 @@ signed int main(signed int argc, const char * const *argv)
 
       else
       {
-        return_value_strcmp$26=strcmp(*argv, "-u");
-        if(return_value_strcmp$26 == 0)
+        return_value_strcmp_26=strcmp(*argv, "-u");
+        if(return_value_strcmp_26 == 0)
         {
           argc = argc - 1;
           if(argc >= 1)
@@ -1771,8 +1771,8 @@ signed int main(signed int argc, const char * const *argv)
 
         else
         {
-          return_value_strcmp$25=strcmp(*argv, "-c");
-          if(return_value_strcmp$25 == 0)
+          return_value_strcmp_25=strcmp(*argv, "-c");
+          if(return_value_strcmp_25 == 0)
           {
             argc = argc - 1;
             if(argc >= 1)
@@ -1785,8 +1785,8 @@ signed int main(signed int argc, const char * const *argv)
 
           else
           {
-            return_value_strcmp$24=strcmp(*argv, "-p");
-            if(return_value_strcmp$24 == 0)
+            return_value_strcmp_24=strcmp(*argv, "-p");
+            if(return_value_strcmp_24 == 0)
             {
               m_offline = 1;
               qs_set2OfflineMode();
@@ -1794,8 +1794,8 @@ signed int main(signed int argc, const char * const *argv)
 
             else
             {
-              return_value_strcmp$23=strcmp(*argv, "-pc");
-              if(return_value_strcmp$23 == 0)
+              return_value_strcmp_23=strcmp(*argv, "-pc");
+              if(return_value_strcmp_23 == 0)
               {
                 m_offline_count = 1;
                 qs_set2OfflineMode();
@@ -1803,8 +1803,8 @@ signed int main(signed int argc, const char * const *argv)
 
               else
               {
-                return_value_strcmp$22=strcmp(*argv, "-pu");
-                if(return_value_strcmp$22 == 0)
+                return_value_strcmp_22=strcmp(*argv, "-pu");
+                if(return_value_strcmp_22 == 0)
                 {
                   m_offline_url = 1;
                   qs_set2OfflineMode();
@@ -1812,8 +1812,8 @@ signed int main(signed int argc, const char * const *argv)
 
                 else
                 {
-                  return_value_strcmp$21=strcmp(*argv, "-puc");
-                  if(return_value_strcmp$21 == 0)
+                  return_value_strcmp_21=strcmp(*argv, "-puc");
+                  if(return_value_strcmp_21 == 0)
                   {
                     m_offline_url = 1;
                     m_offline_url_cropped = 1;
@@ -1822,20 +1822,20 @@ signed int main(signed int argc, const char * const *argv)
 
                   else
                   {
-                    return_value_strcmp$20=strcmp(*argv, "-m");
-                    if(return_value_strcmp$20 == 0)
+                    return_value_strcmp_20=strcmp(*argv, "-m");
+                    if(return_value_strcmp_20 == 0)
                       m_mem = 1;
 
                     else
                     {
-                      return_value_strcmp$19=strcmp(*argv, "-v");
-                      if(return_value_strcmp$19 == 0)
+                      return_value_strcmp_19=strcmp(*argv, "-v");
+                      if(return_value_strcmp_19 == 0)
                         m_verbose = 1;
 
                       else
                       {
-                        return_value_strcmp$18=strcmp(*argv, "-x");
-                        if(return_value_strcmp$18 == 0)
+                        return_value_strcmp_18=strcmp(*argv, "-x");
+                        if(return_value_strcmp_18 == 0)
                         {
                           m_rotate = 1;
                           if(argc >= 2)
@@ -1857,26 +1857,26 @@ signed int main(signed int argc, const char * const *argv)
 
                         else
                         {
-                          return_value_strcmp$17=strcmp(*argv, "-h");
-                          if(return_value_strcmp$17 == 0)
+                          return_value_strcmp_17=strcmp(*argv, "-h");
+                          if(return_value_strcmp_17 == 0)
                             usage(cmd, 0);
 
                           else
                           {
-                            return_value_strcmp$16=strcmp(*argv, "--help");
-                            if(return_value_strcmp$16 == 0)
+                            return_value_strcmp_16=strcmp(*argv, "--help");
+                            if(return_value_strcmp_16 == 0)
                               usage(cmd, 0);
 
                             else
                             {
-                              return_value_strcmp$15=strcmp(*argv, "-?");
-                              if(return_value_strcmp$15 == 0)
+                              return_value_strcmp_15=strcmp(*argv, "-?");
+                              if(return_value_strcmp_15 == 0)
                                 usage(cmd, 0);
 
                               else
                               {
-                                return_value_strcmp$14=strcmp(*argv, "--man");
-                                if(return_value_strcmp$14 == 0)
+                                return_value_strcmp_14=strcmp(*argv, "--man");
+                                if(return_value_strcmp_14 == 0)
                                   usage(cmd, 1);
 
                                 else
@@ -1904,28 +1904,28 @@ signed int main(signed int argc, const char * const *argv)
   m_off = (signed int)(m_offline != 0 || m_offline_count != 0 || m_offline_url != 0);
   if(!(m_off == 0))
   {
-    signed int return_value_nice$31;
-    return_value_nice$31=nice(10);
-    if(return_value_nice$31 == -1)
+    signed int return_value_nice_31;
+    return_value_nice_31=nice(10);
+    if(return_value_nice_31 == -1)
     {
-      signed int *return_value___errno_location$29;
-      return_value___errno_location$29=__errno_location();
-      char *return_value_strerror$30;
-      return_value_strerror$30=strerror(*return_value___errno_location$29);
-      fprintf(stderr, "ERROR, failed to change nice value: %s\n", return_value_strerror$30);
+      signed int *return_value___errno_location_29;
+      return_value___errno_location_29=__errno_location();
+      char *return_value_strerror_30;
+      return_value_strerror_30=strerror(*return_value___errno_location_29);
+      fprintf(stderr, "ERROR, failed to change nice value: %s\n", return_value_strerror_30);
     }
 
     regcomp(&m_trx, "[0-9]{2}/[a-zA-Z]{3}/[0-9]{4}:[0-9]{2}:[0-9]{2}:[0-9]{2}", 1);
     regcomp(&m_trx2, "[0-9]{4}[ -]{1}[0-9]{2}[ -]{1}[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}[,.]{1}[0-9]{3}", 1);
   }
 
-  const struct apr_array_header_t *return_value_apr_table_elts$33;
-  signed long long int tmp_if_expr$34;
-  signed long int tmp_if_expr$37;
-  const struct apr_array_header_t *return_value_apr_table_elts$36;
+  const struct apr_array_header_t *return_value_apr_table_elts_33;
+  signed long long int tmp_if_expr_34;
+  signed long int tmp_if_expr_37;
+  const struct apr_array_header_t *return_value_apr_table_elts_36;
   if(!(m_offline_url == 0))
   {
-    signed int main$$1$$6$$i;
+    signed int main__1__6__i;
     struct apr_table_entry_t *entry;
     signed long int request_count = (signed long int)0;
     signed long int request_count_min = (signed long int)-1;
@@ -1948,17 +1948,17 @@ signed int main(signed int argc, const char * const *argv)
 
     }
 
-    const struct apr_array_header_t *return_value_apr_table_elts$32;
-    return_value_apr_table_elts$32=apr_table_elts(m_url_entries);
-    entry = (struct apr_table_entry_t *)return_value_apr_table_elts$32->elts;
-    main$$1$$6$$i = 0;
+    const struct apr_array_header_t *return_value_apr_table_elts_32;
+    return_value_apr_table_elts_32=apr_table_elts(m_url_entries);
+    entry = (struct apr_table_entry_t *)return_value_apr_table_elts_32->elts;
+    main__1__6__i = 0;
     do
     {
-      return_value_apr_table_elts$33=apr_table_elts(m_url_entries);
-      if(main$$1$$6$$i >= return_value_apr_table_elts$33->nelts)
+      return_value_apr_table_elts_33=apr_table_elts(m_url_entries);
+      if(main__1__6__i >= return_value_apr_table_elts_33->nelts)
         break;
 
-      struct anonymous$1 *url_rec = (struct anonymous$1 *)(entry + (signed long int)main$$1$$6$$i)->val;
+      struct anonymous_1 *url_rec = (struct anonymous_1 *)(entry + (signed long int)main__1__6__i)->val;
       request_count = request_count + url_rec->request_count;
       if(request_count_min == -1l)
         request_count_min = url_rec->request_count;
@@ -1980,52 +1980,52 @@ signed int main(signed int argc, const char * const *argv)
         duration_count_ms_max = url_rec->duration_count_ms;
 
       if(!(url_rec->request_count == 0l))
-        tmp_if_expr$34 = url_rec->duration_count_ms / url_rec->request_count;
+        tmp_if_expr_34 = url_rec->duration_count_ms / url_rec->request_count;
 
       else
-        tmp_if_expr$34 = (signed long int)0;
-      fprintf(m_f, "req;%ld;1xx;%ld;2xx;%ld;3xx;%ld;4xx;%ld;5xx;%ld;avms;%lld;%s\n", url_rec->request_count, url_rec->status_1, url_rec->status_2, url_rec->status_3, url_rec->status_4, url_rec->status_5, tmp_if_expr$34, (entry + (signed long int)main$$1$$6$$i)->key);
-      main$$1$$6$$i = main$$1$$6$$i + 1;
+        tmp_if_expr_34 = (signed long int)0;
+      fprintf(m_f, "req;%ld;1xx;%ld;2xx;%ld;3xx;%ld;4xx;%ld;5xx;%ld;avms;%lld;%s\n", url_rec->request_count, url_rec->status_1, url_rec->status_2, url_rec->status_3, url_rec->status_4, url_rec->status_5, tmp_if_expr_34, (entry + (signed long int)main__1__6__i)->key);
+      main__1__6__i = main__1__6__i + 1;
     }
     while((_Bool)1);
     fprintf(m_f, "req;%ld;;;;;;;;;;;avms;%lld;min;\n", request_count_min, duration_count_ms_min);
     fprintf(m_f, "req;%ld;;;;;;;;;;;avms;%lld;max;\n", request_count_max, duration_count_ms_max);
-    const struct apr_array_header_t *return_value_apr_table_elts$35;
-    return_value_apr_table_elts$35=apr_table_elts(m_url_entries);
-    if(!(return_value_apr_table_elts$35->nelts == 0))
+    const struct apr_array_header_t *return_value_apr_table_elts_35;
+    return_value_apr_table_elts_35=apr_table_elts(m_url_entries);
+    if(!(return_value_apr_table_elts_35->nelts == 0))
     {
-      return_value_apr_table_elts$36=apr_table_elts(m_url_entries);
-      tmp_if_expr$37 = request_count / (signed long int)return_value_apr_table_elts$36->nelts;
+      return_value_apr_table_elts_36=apr_table_elts(m_url_entries);
+      tmp_if_expr_37 = request_count / (signed long int)return_value_apr_table_elts_36->nelts;
     }
 
     else
-      tmp_if_expr$37 = (signed long int)0;
-    fprintf(m_f, "req;%ld;;;;;;;;;;;avms;%lld;average;\n", tmp_if_expr$37, request_count != 0l ? duration_count_ms / request_count : (signed long int)0);
+      tmp_if_expr_37 = (signed long int)0;
+    fprintf(m_f, "req;%ld;;;;;;;;;;;avms;%lld;average;\n", tmp_if_expr_37, request_count != 0l ? duration_count_ms / request_count : (signed long int)0);
     if(!(file == ((const char *)NULL)) && !(m_f == stdout))
       fclose(m_f);
 
     return 0;
   }
 
-  const struct apr_array_header_t *return_value_apr_table_elts$39;
-  signed long int tmp_if_expr$40;
-  signed long int tmp_if_expr$41;
-  signed long long int tmp_if_expr$42;
-  signed long long int tmp_if_expr$43;
-  const struct apr_array_header_t *return_value_apr_table_elts$45;
+  const struct apr_array_header_t *return_value_apr_table_elts_39;
+  signed long int tmp_if_expr_40;
+  signed long int tmp_if_expr_41;
+  signed long long int tmp_if_expr_42;
+  signed long long int tmp_if_expr_43;
+  const struct apr_array_header_t *return_value_apr_table_elts_45;
   if(!(m_offline_count == 0))
   {
     signed int i;
-    struct apr_table_entry_t *main$$1$$7$$entry;
+    struct apr_table_entry_t *main__1__7__entry;
     if(config == ((const char *)NULL))
       usage(cmd, 0);
 
     m_client_entries=apr_table_make(pool, 25000 + 1);
     readStdinOffline(pool, config);
     fprintf(stderr, ".\n");
-    const struct apr_array_header_t *return_value_apr_table_elts$38;
-    return_value_apr_table_elts$38=apr_table_elts(m_client_entries);
-    main$$1$$7$$entry = (struct apr_table_entry_t *)return_value_apr_table_elts$38->elts;
+    const struct apr_array_header_t *return_value_apr_table_elts_38;
+    return_value_apr_table_elts_38=apr_table_elts(m_client_entries);
+    main__1__7__entry = (struct apr_table_entry_t *)return_value_apr_table_elts_38->elts;
     m_f = stdout;
     if(!(file == ((const char *)NULL)))
     {
@@ -2038,27 +2038,27 @@ signed int main(signed int argc, const char * const *argv)
     i = 0;
     do
     {
-      return_value_apr_table_elts$39=apr_table_elts(m_client_entries);
-      if(i >= return_value_apr_table_elts$39->nelts)
+      return_value_apr_table_elts_39=apr_table_elts(m_client_entries);
+      if(i >= return_value_apr_table_elts_39->nelts)
         break;
 
-      struct anonymous$3 *client_rec = (struct anonymous$3 *)(main$$1$$7$$entry + (signed long int)i)->val;
+      struct anonymous_3 *client_rec = (struct anonymous_3 *)(main__1__7__entry + (signed long int)i)->val;
       char esco[256l];
       char m[256l];
       signed long int coverage;
       if(!(m_lines == 0l))
-        tmp_if_expr$40 = (client_rec->firstLine * (signed long int)100) / m_lines;
+        tmp_if_expr_40 = (client_rec->firstLine * (signed long int)100) / m_lines;
 
       else
-        tmp_if_expr$40 = (signed long int)0;
-      coverage = tmp_if_expr$40;
+        tmp_if_expr_40 = (signed long int)0;
+      coverage = tmp_if_expr_40;
       signed long int coverageend;
       if(!(m_lines == 0l))
-        tmp_if_expr$41 = (signed long int)100 - (client_rec->lastLine * (signed long int)100) / m_lines;
+        tmp_if_expr_41 = (signed long int)100 - (client_rec->lastLine * (signed long int)100) / m_lines;
 
       else
-        tmp_if_expr$41 = (signed long int)0;
-      coverageend = tmp_if_expr$41;
+        tmp_if_expr_41 = (signed long int)0;
+      coverageend = tmp_if_expr_41;
       if(!(coverageend >= coverage))
         coverage = coverageend;
 
@@ -2076,33 +2076,33 @@ signed int main(signed int argc, const char * const *argv)
       else
         client_rec->duration = client_rec->duration_count_ms / (signed long int)1000;
       if(!(client_rec->request_count == 0l))
-        tmp_if_expr$42 = client_rec->duration / client_rec->request_count;
+        tmp_if_expr_42 = client_rec->duration / client_rec->request_count;
 
       else
-        tmp_if_expr$42 = (signed long int)0;
+        tmp_if_expr_42 = (signed long int)0;
       if(!(client_rec->request_count == 0l))
-        tmp_if_expr$43 = client_rec->duration_count_ms / client_rec->request_count;
+        tmp_if_expr_43 = client_rec->duration_count_ms / client_rec->request_count;
 
       else
-        tmp_if_expr$43 = (signed long int)0;
-      fprintf(m_f, "%s;req;%ld;errors;%ld;duration;%ld;bytes;%lld;1xx;%ld;2xx;%ld;3xx;%ld;4xx;%ld;5xx;%ld;304;%ld;av;%lld;avms;%lld;<1s;%ld;1s;%ld;2s;%ld;3s;%ld;4s;%ld;5s;%ld;>5s;%ld;%s%sci;%ld;", (main$$1$$7$$entry + (signed long int)i)->key, client_rec->request_count, client_rec->error_count, client_rec->end_s - client_rec->start_s, client_rec->byte_count, client_rec->status_1, client_rec->status_2, client_rec->status_3, client_rec->status_4, client_rec->status_5, client_rec->status_304, tmp_if_expr$42, tmp_if_expr$43, client_rec->duration_0, client_rec->duration_1, client_rec->duration_2, client_rec->duration_3, client_rec->duration_4, client_rec->duration_5, client_rec->duration_6, (const void *)esco, (const void *)m, coverage);
+        tmp_if_expr_43 = (signed long int)0;
+      fprintf(m_f, "%s;req;%ld;errors;%ld;duration;%ld;bytes;%lld;1xx;%ld;2xx;%ld;3xx;%ld;4xx;%ld;5xx;%ld;304;%ld;av;%lld;avms;%lld;<1s;%ld;1s;%ld;2s;%ld;3s;%ld;4s;%ld;5s;%ld;>5s;%ld;%s%sci;%ld;", (main__1__7__entry + (signed long int)i)->key, client_rec->request_count, client_rec->error_count, client_rec->end_s - client_rec->start_s, client_rec->byte_count, client_rec->status_1, client_rec->status_2, client_rec->status_3, client_rec->status_4, client_rec->status_5, client_rec->status_304, tmp_if_expr_42, tmp_if_expr_43, client_rec->duration_0, client_rec->duration_1, client_rec->duration_2, client_rec->duration_3, client_rec->duration_4, client_rec->duration_5, client_rec->duration_6, (const void *)esco, (const void *)m, coverage);
       if(!(m_ct == 0))
         fprintf(m_f, "html;%ld;css/js;%ld;img;%ld;other;%ld;", client_rec->html, client_rec->cssjs, client_rec->img, client_rec->other);
 
-      const struct apr_array_header_t *return_value_apr_table_elts$46;
-      return_value_apr_table_elts$46=apr_table_elts(client_rec->events);
-      if(return_value_apr_table_elts$46->nelts >= 1)
+      const struct apr_array_header_t *return_value_apr_table_elts_46;
+      return_value_apr_table_elts_46=apr_table_elts(client_rec->events);
+      if(return_value_apr_table_elts_46->nelts >= 1)
       {
         signed int k;
         struct apr_table_entry_t *client_entry;
-        const struct apr_array_header_t *return_value_apr_table_elts$44;
-        return_value_apr_table_elts$44=apr_table_elts(client_rec->events);
-        client_entry = (struct apr_table_entry_t *)return_value_apr_table_elts$44->elts;
+        const struct apr_array_header_t *return_value_apr_table_elts_44;
+        return_value_apr_table_elts_44=apr_table_elts(client_rec->events);
+        client_entry = (struct apr_table_entry_t *)return_value_apr_table_elts_44->elts;
         k = 0;
         do
         {
-          return_value_apr_table_elts$45=apr_table_elts(client_rec->events);
-          if(k >= return_value_apr_table_elts$45->nelts)
+          return_value_apr_table_elts_45=apr_table_elts(client_rec->events);
+          if(k >= return_value_apr_table_elts_45->nelts)
             break;
 
           const char *eventName = (client_entry + (signed long int)k)->key;
@@ -2133,21 +2133,21 @@ signed int main(signed int argc, const char * const *argv)
     m_f=fopen(file, "a+");
     if(m_f == ((struct _IO_FILE *)NULL))
     {
-      signed int *return_value___errno_location$47;
-      return_value___errno_location$47=__errno_location();
-      char *return_value_strerror$48;
-      return_value_strerror$48=strerror(*return_value___errno_location$47);
-      qerror("could not open file for writing '%s': %s", file, return_value_strerror$48);
+      signed int *return_value___errno_location_47;
+      return_value___errno_location_47=__errno_location();
+      char *return_value_strerror_48;
+      return_value_strerror_48=strerror(*return_value___errno_location_47);
+      qerror("could not open file for writing '%s': %s", file, return_value_strerror_48);
       exit(1);
     }
 
-    unsigned long int return_value_strlen$49;
-    return_value_strlen$49=strlen(file);
-    unsigned long int return_value_strlen$50;
-    return_value_strlen$50=strlen(".yyyymmddHHMMSS  ");
-    unsigned long int return_value_strlen$51;
-    return_value_strlen$51=strlen(".detailed");
-    if(!(sizeof(char [32768l]) /*32768ul*/  + -return_value_strlen$50 + -return_value_strlen$51 >= return_value_strlen$49))
+    unsigned long int return_value_strlen_49;
+    return_value_strlen_49=strlen(file);
+    unsigned long int return_value_strlen_50;
+    return_value_strlen_50=strlen(".yyyymmddHHMMSS  ");
+    unsigned long int return_value_strlen_51;
+    return_value_strlen_51=strlen(".detailed");
+    if(!(sizeof(char [32768l]) /*32768ul*/  + -return_value_strlen_50 + -return_value_strlen_51 >= return_value_strlen_49))
     {
       qerror("file name too long '%s'", file);
       exit(1);
@@ -2170,9 +2170,9 @@ signed int main(signed int argc, const char * const *argv)
     }
 
     snprintf(m_file_name2, sizeof(char [32768l]) /*32768ul*/ , "%s.detailed", (const void *)m_file_name);
-    char *return_value_strchr$52;
-    return_value_strchr$52=strchr(config, 67);
-    if(return_value_strchr$52 == ((char *)NULL))
+    char *return_value_strchr_52;
+    return_value_strchr_52=strchr(config, 67);
+    if(return_value_strchr_52 == ((char *)NULL))
     {
       qerror("you need to add 'C' to the format string when enabling the pattern list (-c)");
       exit(1);
@@ -2182,11 +2182,11 @@ signed int main(signed int argc, const char * const *argv)
     m_f2=fopen(m_file_name2, "a+");
     if(m_f == ((struct _IO_FILE *)NULL))
     {
-      signed int *return_value___errno_location$53;
-      return_value___errno_location$53=__errno_location();
-      char *return_value_strerror$54;
-      return_value_strerror$54=strerror(*return_value___errno_location$53);
-      qerror("could not open file for writing '%s': %s", (const void *)m_file_name2, return_value_strerror$54);
+      signed int *return_value___errno_location_53;
+      return_value___errno_location_53=__errno_location();
+      char *return_value_strerror_54;
+      return_value_strerror_54=strerror(*return_value___errno_location_53);
+      qerror("could not open file for writing '%s': %s", (const void *)m_file_name2, return_value_strerror_54);
       exit(1);
     }
 
@@ -2218,86 +2218,86 @@ signed int main(signed int argc, const char * const *argv)
 // file qslog.c line 1532
 static signed int mstr2i(const char *m)
 {
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(m, "Jan");
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(m, "Jan");
+  if(return_value_strcmp_1 == 0)
     return 1;
 
   else
   {
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(m, "Feb");
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(m, "Feb");
+    if(return_value_strcmp_2 == 0)
       return 2;
 
     else
     {
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(m, "Mar");
-      if(return_value_strcmp$3 == 0)
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(m, "Mar");
+      if(return_value_strcmp_3 == 0)
         return 3;
 
       else
       {
-        signed int return_value_strcmp$4;
-        return_value_strcmp$4=strcmp(m, "Apr");
-        if(return_value_strcmp$4 == 0)
+        signed int return_value_strcmp_4;
+        return_value_strcmp_4=strcmp(m, "Apr");
+        if(return_value_strcmp_4 == 0)
           return 4;
 
         else
         {
-          signed int return_value_strcmp$5;
-          return_value_strcmp$5=strcmp(m, "May");
-          if(return_value_strcmp$5 == 0)
+          signed int return_value_strcmp_5;
+          return_value_strcmp_5=strcmp(m, "May");
+          if(return_value_strcmp_5 == 0)
             return 5;
 
           else
           {
-            signed int return_value_strcmp$6;
-            return_value_strcmp$6=strcmp(m, "Jun");
-            if(return_value_strcmp$6 == 0)
+            signed int return_value_strcmp_6;
+            return_value_strcmp_6=strcmp(m, "Jun");
+            if(return_value_strcmp_6 == 0)
               return 6;
 
             else
             {
-              signed int return_value_strcmp$7;
-              return_value_strcmp$7=strcmp(m, "Jul");
-              if(return_value_strcmp$7 == 0)
+              signed int return_value_strcmp_7;
+              return_value_strcmp_7=strcmp(m, "Jul");
+              if(return_value_strcmp_7 == 0)
                 return 7;
 
               else
               {
-                signed int return_value_strcmp$8;
-                return_value_strcmp$8=strcmp(m, "Aug");
-                if(return_value_strcmp$8 == 0)
+                signed int return_value_strcmp_8;
+                return_value_strcmp_8=strcmp(m, "Aug");
+                if(return_value_strcmp_8 == 0)
                   return 8;
 
                 else
                 {
-                  signed int return_value_strcmp$9;
-                  return_value_strcmp$9=strcmp(m, "Sep");
-                  if(return_value_strcmp$9 == 0)
+                  signed int return_value_strcmp_9;
+                  return_value_strcmp_9=strcmp(m, "Sep");
+                  if(return_value_strcmp_9 == 0)
                     return 9;
 
                   else
                   {
-                    signed int return_value_strcmp$10;
-                    return_value_strcmp$10=strcmp(m, "Oct");
-                    if(return_value_strcmp$10 == 0)
+                    signed int return_value_strcmp_10;
+                    return_value_strcmp_10=strcmp(m, "Oct");
+                    if(return_value_strcmp_10 == 0)
                       return 10;
 
                     else
                     {
-                      signed int return_value_strcmp$11;
-                      return_value_strcmp$11=strcmp(m, "Nov");
-                      if(return_value_strcmp$11 == 0)
+                      signed int return_value_strcmp_11;
+                      return_value_strcmp_11=strcmp(m, "Nov");
+                      if(return_value_strcmp_11 == 0)
                         return 11;
 
                       else
                       {
-                        signed int return_value_strcmp$12;
-                        return_value_strcmp$12=strcmp(m, "Dec");
-                        if(return_value_strcmp$12 == 0)
+                        signed int return_value_strcmp_12;
+                        return_value_strcmp_12=strcmp(m, "Dec");
+                        if(return_value_strcmp_12 == 0)
                           return 12;
 
                         else
@@ -2369,43 +2369,43 @@ static void printStat2File(struct _IO_FILE *f, char *timeStr, struct stat_rec_st
 
   }
 
-  signed long int tmp_if_expr$1;
+  signed long int tmp_if_expr_1;
   if(!(m_avms == 0))
   {
     if(stat_rec->line_count == 0l)
-      tmp_if_expr$1 = (signed long int)1;
+      tmp_if_expr_1 = (signed long int)1;
 
     else
-      tmp_if_expr$1 = stat_rec->line_count;
-    sprintf(avms, "avms;%lld;", stat_rec->duration_count_ms / tmp_if_expr$1);
+      tmp_if_expr_1 = stat_rec->line_count;
+    sprintf(avms, "avms;%lld;", stat_rec->duration_count_ms / tmp_if_expr_1);
     stat_rec->duration_count = stat_rec->duration_count_ms / (signed long int)1000;
   }
 
-  signed long int tmp_if_expr$2;
-  signed long int tmp_if_expr$3;
+  signed long int tmp_if_expr_2;
+  signed long int tmp_if_expr_3;
   if(!(m_customcounter == 0))
   {
     if(stat_rec->average_count == 0l)
-      tmp_if_expr$2 = (signed long int)1;
+      tmp_if_expr_2 = (signed long int)1;
 
     else
-      tmp_if_expr$2 = stat_rec->average_count;
+      tmp_if_expr_2 = stat_rec->average_count;
     if(stat_rec->averAge_count == 0l)
-      tmp_if_expr$3 = (signed long int)1;
+      tmp_if_expr_3 = (signed long int)1;
 
     else
-      tmp_if_expr$3 = stat_rec->averAge_count;
-    sprintf(custom, "s;%llu;a;%llu;A;%llu;", stat_rec->sum, stat_rec->average / (unsigned long int)tmp_if_expr$2, stat_rec->averAge / (unsigned long int)tmp_if_expr$3);
+      tmp_if_expr_3 = stat_rec->averAge_count;
+    sprintf(custom, "s;%llu;a;%llu;A;%llu;", stat_rec->sum, stat_rec->average / (unsigned long int)tmp_if_expr_2, stat_rec->averAge / (unsigned long int)tmp_if_expr_3);
   }
 
   if(!(main == 0))
   {
-    signed long int return_value_qs_countEventT$4;
-    return_value_qs_countEventT$4=qs_countEventT(m_ip_list);
-    sprintf(ip, "ip;%ld;", return_value_qs_countEventT$4);
-    signed long int return_value_qs_countEventT$5;
-    return_value_qs_countEventT$5=qs_countEventT(m_user_list);
-    sprintf(usr, "usr;%ld;", return_value_qs_countEventT$5);
+    signed long int return_value_qs_countEventT_4;
+    return_value_qs_countEventT_4=qs_countEventT(m_ip_list);
+    sprintf(ip, "ip;%ld;", return_value_qs_countEventT_4);
+    signed long int return_value_qs_countEventT_5;
+    return_value_qs_countEventT_5=qs_countEventT(m_user_list);
+    sprintf(usr, "usr;%ld;", return_value_qs_countEventT_5);
   }
 
   else
@@ -2413,19 +2413,19 @@ static void printStat2File(struct _IO_FILE *f, char *timeStr, struct stat_rec_st
     ip[(signed long int)0] = (char)0;
     usr[(signed long int)0] = (char)0;
   }
-  char *tmp_if_expr$6;
+  char *tmp_if_expr_6;
   if(!(main == 0))
-    tmp_if_expr$6 = "";
+    tmp_if_expr_6 = "";
 
   else
-    tmp_if_expr$6 = stat_rec->id;
-  signed long int tmp_if_expr$7;
+    tmp_if_expr_6 = stat_rec->id;
+  signed long int tmp_if_expr_7;
   if(stat_rec->line_count == 0l)
-    tmp_if_expr$7 = (signed long int)1;
+    tmp_if_expr_7 = (signed long int)1;
 
   else
-    tmp_if_expr$7 = stat_rec->line_count;
-  fprintf(f, "%s;%sr/s;%ld;req;%ld;b/s;%lld;%s%s1xx;%ld;2xx;%ld;3xx;%ld;4xx;%ld;5xx;%ld;%sav;%lld;<1s;%ld;1s;%ld;2s;%ld;3s;%ld;4s;%ld;5s;%ld;>5s;%ld;%s%sqV;%ld;qS;%ld;qD;%ld;qK;%ld;qT;%ld;qL;%ld;qs;%ld;%s", timeStr, tmp_if_expr$6, stat_rec->line_count / (signed long int)60, stat_rec->line_count, stat_rec->byte_count / (signed long int)60, (const void *)bis, (const void *)esco, stat_rec->status_1, stat_rec->status_2, stat_rec->status_3, stat_rec->status_4, stat_rec->status_5, (const void *)avms, stat_rec->duration_count / tmp_if_expr$7, stat_rec->duration_0, stat_rec->duration_1, stat_rec->duration_2, stat_rec->duration_3, stat_rec->duration_4, stat_rec->duration_5, stat_rec->duration_6, (const void *)ip, (const void *)usr, stat_rec->qos_v, stat_rec->qos_s, stat_rec->qos_d, stat_rec->qos_k, stat_rec->qos_t, stat_rec->qos_l, stat_rec->qos_ser, (const void *)custom);
+    tmp_if_expr_7 = stat_rec->line_count;
+  fprintf(f, "%s;%sr/s;%ld;req;%ld;b/s;%lld;%s%s1xx;%ld;2xx;%ld;3xx;%ld;4xx;%ld;5xx;%ld;%sav;%lld;<1s;%ld;1s;%ld;2s;%ld;3s;%ld;4s;%ld;5s;%ld;>5s;%ld;%s%sqV;%ld;qS;%ld;qD;%ld;qK;%ld;qT;%ld;qL;%ld;qs;%ld;%s", timeStr, tmp_if_expr_6, stat_rec->line_count / (signed long int)60, stat_rec->line_count, stat_rec->byte_count / (signed long int)60, (const void *)bis, (const void *)esco, stat_rec->status_1, stat_rec->status_2, stat_rec->status_3, stat_rec->status_4, stat_rec->status_5, (const void *)avms, stat_rec->duration_count / tmp_if_expr_7, stat_rec->duration_0, stat_rec->duration_1, stat_rec->duration_2, stat_rec->duration_3, stat_rec->duration_4, stat_rec->duration_5, stat_rec->duration_6, (const void *)ip, (const void *)usr, stat_rec->qos_v, stat_rec->qos_s, stat_rec->qos_d, stat_rec->qos_k, stat_rec->qos_t, stat_rec->qos_l, stat_rec->qos_ser, (const void *)custom);
   stat_rec->line_count = (signed long int)0;
   stat_rec->byte_count = (signed long long int)0;
   if(!(stat_rec->i_byte_count == -1l))
@@ -2478,21 +2478,21 @@ static void printStat2File(struct _IO_FILE *f, char *timeStr, struct stat_rec_st
       m_offline_data = 0;
   }
 
-  const struct apr_array_header_t *return_value_apr_table_elts$10;
-  return_value_apr_table_elts$10=apr_table_elts(stat_rec->events);
-  const struct apr_array_header_t *return_value_apr_table_elts$9;
-  if(return_value_apr_table_elts$10->nelts >= 1)
+  const struct apr_array_header_t *return_value_apr_table_elts_10;
+  return_value_apr_table_elts_10=apr_table_elts(stat_rec->events);
+  const struct apr_array_header_t *return_value_apr_table_elts_9;
+  if(return_value_apr_table_elts_10->nelts >= 1)
   {
     signed int i;
     struct apr_table_entry_t *entry;
-    const struct apr_array_header_t *return_value_apr_table_elts$8;
-    return_value_apr_table_elts$8=apr_table_elts(stat_rec->events);
-    entry = (struct apr_table_entry_t *)return_value_apr_table_elts$8->elts;
+    const struct apr_array_header_t *return_value_apr_table_elts_8;
+    return_value_apr_table_elts_8=apr_table_elts(stat_rec->events);
+    entry = (struct apr_table_entry_t *)return_value_apr_table_elts_8->elts;
     i = 0;
     do
     {
-      return_value_apr_table_elts$9=apr_table_elts(stat_rec->events);
-      if(i >= return_value_apr_table_elts$9->nelts)
+      return_value_apr_table_elts_9=apr_table_elts(stat_rec->events);
+      if(i >= return_value_apr_table_elts_9->nelts)
         break;
 
       const char *eventName = (entry + (signed long int)i)->key;
@@ -2519,9 +2519,9 @@ static void qerror(const char *fmt, ...)
   time_string=ctime(&t);
   args = (void **)&fmt;
   vsprintf(buf, fmt, args);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(time_string);
-  time_string[(signed long int)(return_value_strlen$1 - (unsigned long int)1)] = (char)0;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(time_string);
+  time_string[(signed long int)(return_value_strlen_1 - (unsigned long int)1)] = (char)0;
   fprintf(stderr, "[%s] [error] qslog: %s\n", time_string, (const void *)buf);
   fflush(stderr);
 }
@@ -2532,7 +2532,7 @@ static void qsInitEvent(struct apr_pool_t *pool, struct apr_table_t *events)
 {
   const char *envFile;
   envFile=getenv("QSEVENTPATH");
-  signed int return_value_qs_getLinef$1;
+  signed int return_value_qs_getLinef_1;
   if(!(envFile == ((const char *)NULL)))
   {
     struct _IO_FILE *file;
@@ -2542,8 +2542,8 @@ static void qsInitEvent(struct apr_pool_t *pool, struct apr_table_t *events)
       char line[32768l];
       do
       {
-        return_value_qs_getLinef$1=qs_getLinef(line, (signed int)sizeof(char [32768l]) /*32768ul*/ , file);
-        if(!(return_value_qs_getLinef$1 == 0))
+        return_value_qs_getLinef_1=qs_getLinef(line, (signed int)sizeof(char [32768l]) /*32768ul*/ , file);
+        if(!(return_value_qs_getLinef_1 == 0))
           break;
 
         char *p = line;
@@ -2563,11 +2563,11 @@ static void qsInitEvent(struct apr_pool_t *pool, struct apr_table_t *events)
           }
 
           name=apr_pstrdup(pool, p);
-          void *return_value_apr_palloc$2;
-          return_value_apr_palloc$2=apr_palloc(pool, sizeof(signed int) /*4ul*/ );
-          void *return_value_memset$3;
-          return_value_memset$3=memset(return_value_apr_palloc$2, 0, sizeof(signed int) /*4ul*/ );
-          val = (signed int *)return_value_memset$3;
+          void *return_value_apr_palloc_2;
+          return_value_apr_palloc_2=apr_palloc(pool, sizeof(signed int) /*4ul*/ );
+          void *return_value_memset_3;
+          return_value_memset_3=memset(return_value_apr_palloc_2, 0, sizeof(signed int) /*4ul*/ );
+          val = (signed int *)return_value_memset_3;
           *val = 0;
           apr_table_setn(events, name, (char *)val);
           p = n;
@@ -2604,18 +2604,18 @@ static void qsNoFloat(char *s)
 char * qs_CMD(const char *cmd)
 {
   char *buf;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1024, (unsigned long int)1);
-  buf = (char *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1024, (unsigned long int)1);
+  buf = (char *)return_value_calloc_1;
   signed int i = 0;
   while(!(cmd[(signed long int)i] == 0))
   {
     if(i >= 1023)
       break;
 
-    signed int return_value_toupper$2;
-    return_value_toupper$2=toupper((signed int)cmd[(signed long int)i]);
-    buf[(signed long int)i] = (char)return_value_toupper$2;
+    signed int return_value_toupper_2;
+    return_value_toupper_2=toupper((signed int)cmd[(signed long int)i]);
+    buf[(signed long int)i] = (char)return_value_toupper_2;
     i = i + 1;
   }
   buf[(signed long int)i] = (char)0;
@@ -2638,9 +2638,9 @@ static signed long int qs_countEventT(struct apr_table_t **list)
   t = 0;
   for( ; !(t >= 8); t = t + 1)
   {
-    const struct apr_array_header_t *return_value_apr_table_elts$1;
-    return_value_apr_table_elts$1=apr_table_elts(list[(signed long int)t]);
-    count = count + return_value_apr_table_elts$1->nelts;
+    const struct apr_array_header_t *return_value_apr_table_elts_1;
+    return_value_apr_table_elts_1=apr_table_elts(list[(signed long int)t]);
+    count = count + return_value_apr_table_elts_1->nelts;
   }
   return (signed long int)count;
 }
@@ -2649,7 +2649,7 @@ static signed long int qs_countEventT(struct apr_table_t **list)
 // file qs_util.h line 64
 void qs_csInitLock()
 {
-  pthread_mutex_init(&m_qs_lock_cs, (const union anonymous$0 *)(void *)0);
+  pthread_mutex_init(&m_qs_lock_cs, (const union anonymous_0 *)(void *)0);
 }
 
 // qs_csLock
@@ -2674,13 +2674,13 @@ void qs_deleteOldFiles(const char *file_name, signed int generations)
   char *p;
   strcpy(dirname, file_name);
   p=strrchr(dirname, 47);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(file_name);
-  unsigned long int return_value_strlen$2;
-  signed int return_value_strncmp$3;
-  unsigned long int return_value_strlen$5;
-  signed int return_value_strncmp$6;
-  if(!(return_value_strlen$1 >= 2039ul))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(file_name);
+  unsigned long int return_value_strlen_2;
+  signed int return_value_strncmp_3;
+  unsigned long int return_value_strlen_5;
+  signed int return_value_strncmp_6;
+  if(!(return_value_strlen_1 >= 2039ul))
   {
     if(!(p == ((char *)NULL)))
     {
@@ -2700,9 +2700,9 @@ void qs_deleteOldFiles(const char *file_name, signed int generations)
           if(de == ((struct dirent *)NULL))
             break;
 
-          return_value_strlen$2=strlen(filename);
-          return_value_strncmp$3=strncmp(de->d_name, filename, return_value_strlen$2);
-          if(return_value_strncmp$3 == 0)
+          return_value_strlen_2=strlen(filename);
+          return_value_strncmp_3=strncmp(de->d_name, filename, return_value_strlen_2);
+          if(return_value_strncmp_3 == 0)
             num = num + 1;
 
         }
@@ -2718,13 +2718,13 @@ void qs_deleteOldFiles(const char *file_name, signed int generations)
             if(de == ((struct dirent *)NULL))
               break;
 
-            return_value_strlen$5=strlen(filename);
-            return_value_strncmp$6=strncmp(de->d_name, filename, return_value_strlen$5);
-            if(return_value_strncmp$6 == 0)
+            return_value_strlen_5=strlen(filename);
+            return_value_strncmp_6=strncmp(de->d_name, filename, return_value_strlen_5);
+            if(return_value_strncmp_6 == 0)
             {
-              signed int return_value_strcmp$4;
-              return_value_strcmp$4=strcmp(old, de->d_name);
-              if(return_value_strcmp$4 >= 1)
+              signed int return_value_strcmp_4;
+              return_value_strcmp_4=strcmp(old, de->d_name);
+              if(return_value_strcmp_4 >= 1)
                 snprintf(old, sizeof(char [2048l]) /*2048ul*/ , "%s", (const void *)de->d_name);
 
               else
@@ -2762,28 +2762,28 @@ void qs_freeEvent(struct qs_event_st *ev)
 signed int qs_getLine(char *s, signed int n)
 {
   signed int i = 0;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   while((_Bool)1)
   {
-    signed int return_value_getchar$1;
-    return_value_getchar$1=getchar();
-    s[(signed long int)i] = (char)return_value_getchar$1;
+    signed int return_value_getchar_1;
+    return_value_getchar_1=getchar();
+    s[(signed long int)i] = (char)return_value_getchar_1;
     if((signed int)s[(signed long int)i] == -1)
       return 0;
 
     if((signed int)s[(signed long int)i] == 13)
     {
-      signed int return_value_getchar$2;
-      return_value_getchar$2=getchar();
-      s[(signed long int)i] = (char)return_value_getchar$2;
+      signed int return_value_getchar_2;
+      return_value_getchar_2=getchar();
+      s[(signed long int)i] = (char)return_value_getchar_2;
     }
 
     if((signed int)s[(signed long int)i] == 0x4)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)s[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
-    if(i == n + -1 || tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)s[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
+    if(i == n + -1 || tmp_if_expr_3)
     {
       s[(signed long int)i] = (char)0;
       return 1;
@@ -2798,30 +2798,30 @@ signed int qs_getLine(char *s, signed int n)
 signed int qs_getLinef(char *s, signed int n, struct _IO_FILE *f)
 {
   signed int i = 0;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   while((_Bool)1)
   {
-    signed int return_value_fgetc$1;
-    return_value_fgetc$1=fgetc(f);
-    s[(signed long int)i] = (char)return_value_fgetc$1;
+    signed int return_value_fgetc_1;
+    return_value_fgetc_1=fgetc(f);
+    s[(signed long int)i] = (char)return_value_fgetc_1;
     if((signed int)s[(signed long int)i] == 13)
     {
-      signed int return_value_fgetc$2;
-      return_value_fgetc$2=fgetc(f);
-      s[(signed long int)i] = (char)return_value_fgetc$2;
+      signed int return_value_fgetc_2;
+      return_value_fgetc_2=fgetc(f);
+      s[(signed long int)i] = (char)return_value_fgetc_2;
     }
 
     if((signed int)s[(signed long int)i] == 0x4)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)s[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
-    if(i == n + -1 || tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)s[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
+    if(i == n + -1 || tmp_if_expr_4)
     {
       s[(signed long int)i] = (char)0;
-      signed int return_value_feof$3;
-      return_value_feof$3=feof(f);
-      return return_value_feof$3 != 0 ? 1 : 0;
+      signed int return_value_feof_3;
+      return_value_feof_3=feof(f);
+      return return_value_feof_3 != 0 ? 1 : 0;
     }
 
     i = i + 1;
@@ -2836,9 +2836,9 @@ static signed long int qs_insertEventT(struct apr_table_t **list0, const char *i
   signed int select;
   select=qs_tableSelector(id);
   struct apr_table_t *list = list0[(signed long int)select];
-  const char *return_value_apr_table_get$1;
-  return_value_apr_table_get$1=apr_table_get(list, id);
-  lp = (struct qs_event_st *)return_value_apr_table_get$1;
+  const char *return_value_apr_table_get_1;
+  return_value_apr_table_get_1=apr_table_get(list, id);
+  lp = (struct qs_event_st *)return_value_apr_table_get_1;
   if(!(lp == ((struct qs_event_st *)NULL)))
   {
     qs_time(&lp->time);
@@ -2848,9 +2848,9 @@ static signed long int qs_insertEventT(struct apr_table_t **list0, const char *i
 
   else
   {
-    const struct apr_array_header_t *return_value_apr_table_elts$2;
-    return_value_apr_table_elts$2=apr_table_elts(list);
-    if(return_value_apr_table_elts$2->nelts >= 50000)
+    const struct apr_array_header_t *return_value_apr_table_elts_2;
+    return_value_apr_table_elts_2=apr_table_elts(list);
+    if(return_value_apr_table_elts_2->nelts >= 50000)
     {
       if(m_log_max == 0)
       {
@@ -2892,7 +2892,7 @@ void qs_man_print(signed int man, const char *fmt, ...)
     for( ; (signed int)bufin[(signed long int)i] == 32; i = i + 1)
       ;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while(!(bufin[(signed long int)i] == 0))
   {
     if(j >= 4000)
@@ -2901,11 +2901,11 @@ void qs_man_print(signed int man, const char *fmt, ...)
     if(!(man == 0))
     {
       if((signed int)bufin[(signed long int)i] == 92)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)bufin[(signed long int)i] == 45 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)bufin[(signed long int)i] == 45 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         bufout[(signed long int)j] = (char)92;
         j = j + 1;
@@ -2952,7 +2952,7 @@ void qs_man_println(signed int man, const char *fmt, ...)
   memset((void *)bufin, 0, (unsigned long int)4096);
   args = (void **)&fmt;
   vsprintf(bufin, fmt, args);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(bufin[(signed long int)i] == 0); j = j + 1)
   {
     if(j >= 4000)
@@ -2961,11 +2961,11 @@ void qs_man_println(signed int man, const char *fmt, ...)
     if(!(man == 0))
     {
       if((signed int)bufin[(signed long int)i] == 92)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)bufin[(signed long int)i] == 45 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)bufin[(signed long int)i] == 45 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         bufout[(signed long int)j] = (char)92;
         j = j + 1;
@@ -2985,14 +2985,14 @@ void qs_man_println(signed int man, const char *fmt, ...)
 static struct qs_event_st * qs_newEvent(const char *id)
 {
   struct qs_event_st *ev;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(sizeof(struct qs_event_st) /*24ul*/ , (unsigned long int)1);
-  ev = (struct qs_event_st *)return_value_calloc$1;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(id);
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc(return_value_strlen$2 + (unsigned long int)1, (unsigned long int)1);
-  ev->id = (char *)return_value_calloc$3;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(sizeof(struct qs_event_st) /*24ul*/ , (unsigned long int)1);
+  ev = (struct qs_event_st *)return_value_calloc_1;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(id);
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc(return_value_strlen_2 + (unsigned long int)1, (unsigned long int)1);
+  ev->id = (char *)return_value_calloc_3;
   strcpy(ev->id, id);
   qs_time(&ev->time);
   ev->count = (signed long int)1;
@@ -3024,11 +3024,11 @@ void qs_setTime(signed long int tme)
 // file qs_util.h line 72
 void qs_setuid(const char *username, const char *cmd)
 {
-  unsigned int return_value_getuid$3;
+  unsigned int return_value_getuid_3;
   if(!(username == ((const char *)NULL)))
   {
-    return_value_getuid$3=getuid();
-    if(return_value_getuid$3 == 0u)
+    return_value_getuid_3=getuid();
+    if(return_value_getuid_3 == 0u)
     {
       struct passwd *pwd;
       pwd=getpwnam(username);
@@ -3044,17 +3044,17 @@ void qs_setuid(const char *username, const char *cmd)
       gid = pwd->pw_gid;
       setgid(gid);
       setuid(uid);
-      unsigned int return_value_getuid$1;
-      return_value_getuid$1=getuid();
-      if(!(return_value_getuid$1 == uid))
+      unsigned int return_value_getuid_1;
+      return_value_getuid_1=getuid();
+      if(!(return_value_getuid_1 == uid))
       {
         fprintf(stderr, "[%s] setuid failed (%s,%d)\n", cmd, username, uid);
         exit(1);
       }
 
-      unsigned int return_value_getgid$2;
-      return_value_getgid$2=getgid();
-      if(!(return_value_getgid$2 == gid))
+      unsigned int return_value_getgid_2;
+      return_value_getgid_2=getgid();
+      if(!(return_value_getgid_2 == gid))
       {
         fprintf(stderr, "[%s] setgid failed (%d)\n", cmd, gid);
         exit(1);
@@ -3072,24 +3072,24 @@ static signed int qs_tableSelector(const char *str)
 {
   signed int num = 0;
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  len = (signed int)return_value_strlen$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  len = (signed int)return_value_strlen_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if(len >= 4)
   {
     if((signed int)str[(signed long int)(len + -1)] == 61)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)str[(signed long int)(len - 1)] == 39 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = (signed int)str[(signed long int)(len - 1)] == 39 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)str[(signed long int)(len - 1)] == 34 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)str[(signed long int)(len - 1)] == 34 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
       len = len - 1;
 
   }
@@ -3143,13 +3143,13 @@ static void qs_updateEvents(struct apr_pool_t *pool, char *E, struct apr_table_t
         sep = sep + 1l;
       }
 
-      const unsigned short int **return_value___ctype_b_loc$4;
-      return_value___ctype_b_loc$4=__ctype_b_loc();
-      if(!((8 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)*E]) == 0))
+      const unsigned short int **return_value___ctype_b_loc_4;
+      return_value___ctype_b_loc_4=__ctype_b_loc();
+      if(!((8 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)*E]) == 0))
       {
-        const char *return_value_apr_table_get$1;
-        return_value_apr_table_get$1=apr_table_get(events, E);
-        val = (signed int *)return_value_apr_table_get$1;
+        const char *return_value_apr_table_get_1;
+        return_value_apr_table_get_1=apr_table_get(events, E);
+        val = (signed int *)return_value_apr_table_get_1;
         if(!(val == ((signed int *)NULL)))
           *val = *val + 1;
 
@@ -3157,11 +3157,11 @@ static void qs_updateEvents(struct apr_pool_t *pool, char *E, struct apr_table_t
         {
           char *name;
           name=apr_pstrdup(pool, E);
-          void *return_value_apr_palloc$2;
-          return_value_apr_palloc$2=apr_palloc(pool, sizeof(signed int) /*4ul*/ );
-          void *return_value_memset$3;
-          return_value_memset$3=memset(return_value_apr_palloc$2, 0, sizeof(signed int) /*4ul*/ );
-          val = (signed int *)return_value_memset$3;
+          void *return_value_apr_palloc_2;
+          return_value_apr_palloc_2=apr_palloc(pool, sizeof(signed int) /*4ul*/ );
+          void *return_value_memset_3;
+          return_value_memset_3=memset(return_value_apr_palloc_2, 0, sizeof(signed int) /*4ul*/ );
+          val = (signed int *)return_value_memset_3;
           *val = 1;
           apr_table_setn(events, name, (char *)val);
         }
@@ -3181,11 +3181,11 @@ static char * qsstrcasestr(const char *s1, const char *s2)
 {
   char *p1;
   char *p2;
-  _Bool tmp_if_expr$3;
-  signed int return_value_tolower$1;
-  signed int return_value_tolower$2;
-  signed int return_value_tolower$4;
-  signed int return_value_tolower$5;
+  _Bool tmp_if_expr_3;
+  signed int return_value_tolower_1;
+  signed int return_value_tolower_2;
+  signed int return_value_tolower_4;
+  signed int return_value_tolower_5;
   if((signed int)*s2 == 0)
     return (char *)s1;
 
@@ -3197,14 +3197,14 @@ static char * qsstrcasestr(const char *s1, const char *s2)
       {
         if(!((signed int)*s1 == 0))
         {
-          return_value_tolower$1=tolower((signed int)*s1);
-          return_value_tolower$2=tolower((signed int)*s2);
-          tmp_if_expr$3 = return_value_tolower$1 != return_value_tolower$2 ? (_Bool)1 : (_Bool)0;
+          return_value_tolower_1=tolower((signed int)*s1);
+          return_value_tolower_2=tolower((signed int)*s2);
+          tmp_if_expr_3 = return_value_tolower_1 != return_value_tolower_2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(!tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(!tmp_if_expr_3)
           break;
 
         s1 = s1 + 1l;
@@ -3219,9 +3219,9 @@ static char * qsstrcasestr(const char *s1, const char *s2)
       p2 = p2 + 1l;
       do
       {
-        return_value_tolower$4=tolower((signed int)*p1);
-        return_value_tolower$5=tolower((signed int)*p2);
-        if(!(return_value_tolower$4 == return_value_tolower$5))
+        return_value_tolower_4=tolower((signed int)*p1);
+        return_value_tolower_5=tolower((signed int)*p2);
+        if(!(return_value_tolower_4 == return_value_tolower_5))
           break;
 
         if((signed int)*p1 == 0)
@@ -3245,16 +3245,16 @@ static void readStdin(struct apr_pool_t *pool, const char *cstr)
 {
   char line[32768l];
   signed int line_len;
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   do
   {
-    return_value_fgets$1=fgets(line, (signed int)sizeof(char [32768l]) /*32768ul*/ , stdin);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(line, (signed int)sizeof(char [32768l]) /*32768ul*/ , stdin);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(line);
-    line_len = (signed int)(return_value_strlen$2 - (unsigned long int)1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(line);
+    line_len = (signed int)(return_value_strlen_2 - (unsigned long int)1);
     for( ; line_len >= 1; line_len = line_len - 1)
     {
       if((signed int)line[(signed long int)line_len] >= 32)
@@ -3279,17 +3279,17 @@ static void readStdinOffline(struct apr_pool_t *pool, const char *cstr)
   if(!(m_offline_count == 0) || !(m_offline_url == 0))
     outdev = stderr;
 
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   do
   {
-    return_value_fgets$1=fgets(line, (signed int)sizeof(char [32768l]) /*32768ul*/ , stdin);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(line, (signed int)sizeof(char [32768l]) /*32768ul*/ , stdin);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     signed long int l_time;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(line);
-    line_len = (signed int)(return_value_strlen$2 - (unsigned long int)1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(line);
+    line_len = (signed int)(return_value_strlen_2 - (unsigned long int)1);
     for( ; line_len >= 1; line_len = line_len - 1)
     {
       if((signed int)line[(signed long int)line_len] >= 32)
@@ -3442,9 +3442,9 @@ static void stripNum(char **p)
     }
 
   }
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(s);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(s);
+  len = (signed int)return_value_strlen_1;
   for( ; len >= 1; len = len - 1)
   {
     if((signed int)s[(signed long int)len] >= 48)
@@ -3463,28 +3463,28 @@ static void stripNum(char **p)
 // file qslog.c line 1080
 static void updateClient(struct apr_pool_t *pool, char *T, char *t, char *D, char *S, char *BI, char *B, char *R, char *I, char *U, char *Q, char *E, char *k, char *C, char *ct, signed long int tme, signed long int tmems, char *m)
 {
-  struct anonymous$3 *client_rec;
+  struct anonymous_3 *client_rec;
   const char *id = I;
   if(id == ((const char *)NULL))
     id = U;
 
-  char *return_value_qsstrcasestr$10;
-  char *return_value_qsstrcasestr$9;
-  char *return_value_qsstrcasestr$8;
-  signed int return_value_strcasecmp$12;
-  signed int return_value_strcmp$15;
-  signed int return_value_strcmp$14;
+  char *return_value_qsstrcasestr_10;
+  char *return_value_qsstrcasestr_9;
+  char *return_value_qsstrcasestr_8;
+  signed int return_value_strcasecmp_12;
+  signed int return_value_strcmp_15;
+  signed int return_value_strcmp_14;
   if(!(id == ((const char *)NULL)))
   {
-    const char *return_value_apr_table_get$1;
-    return_value_apr_table_get$1=apr_table_get(m_client_entries, id);
-    client_rec = (struct anonymous$3 *)return_value_apr_table_get$1;
-    if(client_rec == ((struct anonymous$3 *)NULL))
+    const char *return_value_apr_table_get_1;
+    return_value_apr_table_get_1=apr_table_get(m_client_entries, id);
+    client_rec = (struct anonymous_3 *)return_value_apr_table_get_1;
+    if(client_rec == ((struct anonymous_3 *)NULL))
     {
       char *tid;
-      const struct apr_array_header_t *return_value_apr_table_elts$2;
-      return_value_apr_table_elts$2=apr_table_elts(m_client_entries);
-      if(return_value_apr_table_elts$2->nelts >= 25000)
+      const struct apr_array_header_t *return_value_apr_table_elts_2;
+      return_value_apr_table_elts_2=apr_table_elts(m_client_entries);
+      if(return_value_apr_table_elts_2->nelts >= 25000)
       {
         if(m_max_entries == 0)
         {
@@ -3495,18 +3495,18 @@ static void updateClient(struct apr_pool_t *pool, char *T, char *t, char *D, cha
         goto __CPROVER_DUMP_L35;
       }
 
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(id);
-      void *return_value_calloc$4;
-      return_value_calloc$4=calloc(return_value_strlen$3 + (unsigned long int)1, (unsigned long int)1);
-      tid = (char *)return_value_calloc$4;
-      void *return_value_calloc$5;
-      return_value_calloc$5=calloc(sizeof(struct anonymous$3) /*248ul*/ , (unsigned long int)1);
-      client_rec = (struct anonymous$3 *)return_value_calloc$5;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(id);
+      void *return_value_calloc_4;
+      return_value_calloc_4=calloc(return_value_strlen_3 + (unsigned long int)1, (unsigned long int)1);
+      tid = (char *)return_value_calloc_4;
+      void *return_value_calloc_5;
+      return_value_calloc_5=calloc(sizeof(struct anonymous_3) /*248ul*/ , (unsigned long int)1);
+      client_rec = (struct anonymous_3 *)return_value_calloc_5;
       strcpy(tid, id);
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen(id);
-      tid[(signed long int)return_value_strlen$6] = (char)0;
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen(id);
+      tid[(signed long int)return_value_strlen_6] = (char)0;
       client_rec->request_count = (signed long int)0;
       client_rec->error_count = (signed long int)0;
       client_rec->byte_count = (signed long long int)0;
@@ -3585,34 +3585,34 @@ static void updateClient(struct apr_pool_t *pool, char *T, char *t, char *D, cha
                 client_rec->duration_6 = client_rec->duration_6 + 1l;
     if(!(B == ((char *)NULL)))
     {
-      signed long int return_value_atol$7;
-      return_value_atol$7=atol(B);
-      client_rec->byte_count = client_rec->byte_count + return_value_atol$7;
+      signed long int return_value_atol_7;
+      return_value_atol_7=atol(B);
+      client_rec->byte_count = client_rec->byte_count + return_value_atol_7;
     }
 
     if(!(ct == ((char *)NULL)))
     {
-      char *return_value_qsstrcasestr$11;
-      return_value_qsstrcasestr$11=qsstrcasestr(ct, "html");
-      if(!(return_value_qsstrcasestr$11 == ((char *)NULL)))
+      char *return_value_qsstrcasestr_11;
+      return_value_qsstrcasestr_11=qsstrcasestr(ct, "html");
+      if(!(return_value_qsstrcasestr_11 == ((char *)NULL)))
         client_rec->html = client_rec->html + 1l;
 
       else
       {
-        return_value_qsstrcasestr$10=qsstrcasestr(ct, "image");
-        if(!(return_value_qsstrcasestr$10 == ((char *)NULL)))
+        return_value_qsstrcasestr_10=qsstrcasestr(ct, "image");
+        if(!(return_value_qsstrcasestr_10 == ((char *)NULL)))
           client_rec->img = client_rec->img + 1l;
 
         else
         {
-          return_value_qsstrcasestr$9=qsstrcasestr(ct, "css");
-          if(!(return_value_qsstrcasestr$9 == ((char *)NULL)))
+          return_value_qsstrcasestr_9=qsstrcasestr(ct, "css");
+          if(!(return_value_qsstrcasestr_9 == ((char *)NULL)))
             client_rec->cssjs = client_rec->cssjs + 1l;
 
           else
           {
-            return_value_qsstrcasestr$8=qsstrcasestr(ct, "javascript");
-            if(!(return_value_qsstrcasestr$8 == ((char *)NULL)))
+            return_value_qsstrcasestr_8=qsstrcasestr(ct, "javascript");
+            if(!(return_value_qsstrcasestr_8 == ((char *)NULL)))
               client_rec->cssjs = client_rec->cssjs + 1l;
 
             else
@@ -3624,15 +3624,15 @@ static void updateClient(struct apr_pool_t *pool, char *T, char *t, char *D, cha
 
     if(!(m == ((char *)NULL)))
     {
-      signed int return_value_strcasecmp$13;
-      return_value_strcasecmp$13=strcasecmp(m, "get");
-      if(return_value_strcasecmp$13 == 0)
+      signed int return_value_strcasecmp_13;
+      return_value_strcasecmp_13=strcasecmp(m, "get");
+      if(return_value_strcasecmp_13 == 0)
         client_rec->get = client_rec->get + 1l;
 
       else
       {
-        return_value_strcasecmp$12=strcasecmp(m, "post");
-        if(return_value_strcasecmp$12 == 0)
+        return_value_strcasecmp_12=strcasecmp(m, "post");
+        if(return_value_strcasecmp_12 == 0)
           client_rec->post = client_rec->post + 1l;
 
       }
@@ -3640,15 +3640,15 @@ static void updateClient(struct apr_pool_t *pool, char *T, char *t, char *D, cha
 
     if(!(S == ((char *)NULL)))
     {
-      signed int return_value_strcmp$16;
-      return_value_strcmp$16=strcmp(S, "200");
-      if(!(return_value_strcmp$16 == 0))
+      signed int return_value_strcmp_16;
+      return_value_strcmp_16=strcmp(S, "200");
+      if(!(return_value_strcmp_16 == 0))
       {
-        return_value_strcmp$15=strcmp(S, "304");
-        if(!(return_value_strcmp$15 == 0))
+        return_value_strcmp_15=strcmp(S, "304");
+        if(!(return_value_strcmp_15 == 0))
         {
-          return_value_strcmp$14=strcmp(S, "302");
-          if(!(return_value_strcmp$14 == 0))
+          return_value_strcmp_14=strcmp(S, "302");
+          if(!(return_value_strcmp_14 == 0))
             client_rec->error_count = client_rec->error_count + 1l;
 
         }
@@ -3706,39 +3706,39 @@ static void updateRec(struct stat_rec_st *rec, char *T, char *t, char *D, char *
 {
   if(!(Q == ((char *)NULL)))
   {
-    char *return_value_strchr$1;
-    return_value_strchr$1=strchr(Q, 86);
-    if(!(return_value_strchr$1 == ((char *)NULL)))
+    char *return_value_strchr_1;
+    return_value_strchr_1=strchr(Q, 86);
+    if(!(return_value_strchr_1 == ((char *)NULL)))
       rec->qos_v = rec->qos_v + 1l;
 
-    char *return_value_strchr$2;
-    return_value_strchr$2=strchr(Q, 83);
-    if(!(return_value_strchr$2 == ((char *)NULL)))
+    char *return_value_strchr_2;
+    return_value_strchr_2=strchr(Q, 83);
+    if(!(return_value_strchr_2 == ((char *)NULL)))
       rec->qos_s = rec->qos_s + 1l;
 
-    char *return_value_strchr$3;
-    return_value_strchr$3=strchr(Q, 68);
-    if(!(return_value_strchr$3 == ((char *)NULL)))
+    char *return_value_strchr_3;
+    return_value_strchr_3=strchr(Q, 68);
+    if(!(return_value_strchr_3 == ((char *)NULL)))
       rec->qos_d = rec->qos_d + 1l;
 
-    char *return_value_strchr$4;
-    return_value_strchr$4=strchr(Q, 75);
-    if(!(return_value_strchr$4 == ((char *)NULL)))
+    char *return_value_strchr_4;
+    return_value_strchr_4=strchr(Q, 75);
+    if(!(return_value_strchr_4 == ((char *)NULL)))
       rec->qos_k = rec->qos_k + 1l;
 
-    char *return_value_strchr$5;
-    return_value_strchr$5=strchr(Q, 84);
-    if(!(return_value_strchr$5 == ((char *)NULL)))
+    char *return_value_strchr_5;
+    return_value_strchr_5=strchr(Q, 84);
+    if(!(return_value_strchr_5 == ((char *)NULL)))
       rec->qos_t = rec->qos_t + 1l;
 
-    char *return_value_strchr$6;
-    return_value_strchr$6=strchr(Q, 76);
-    if(!(return_value_strchr$6 == ((char *)NULL)))
+    char *return_value_strchr_6;
+    return_value_strchr_6=strchr(Q, 76);
+    if(!(return_value_strchr_6 == ((char *)NULL)))
       rec->qos_l = rec->qos_l + 1l;
 
-    char *return_value_strchr$7;
-    return_value_strchr$7=strchr(Q, 115);
-    if(!(return_value_strchr$7 == ((char *)NULL)))
+    char *return_value_strchr_7;
+    return_value_strchr_7=strchr(Q, 115);
+    if(!(return_value_strchr_7 == ((char *)NULL)))
       rec->qos_ser = rec->qos_ser + 1l;
 
   }
@@ -3754,16 +3754,16 @@ static void updateRec(struct stat_rec_st *rec, char *T, char *t, char *D, char *
 
   if(!(B == ((char *)NULL)))
   {
-    signed int return_value_atoi$8;
-    return_value_atoi$8=atoi(B);
-    rec->byte_count = rec->byte_count + (signed long long int)return_value_atoi$8;
+    signed int return_value_atoi_8;
+    return_value_atoi_8=atoi(B);
+    rec->byte_count = rec->byte_count + (signed long long int)return_value_atoi_8;
   }
 
   if(!(BI == ((char *)NULL)))
   {
-    signed int return_value_atoi$9;
-    return_value_atoi$9=atoi(BI);
-    rec->i_byte_count = rec->i_byte_count + (signed long long int)return_value_atoi$9;
+    signed int return_value_atoi_9;
+    return_value_atoi_9=atoi(BI);
+    rec->i_byte_count = rec->i_byte_count + (signed long long int)return_value_atoi_9;
   }
 
   if(!(k == ((char *)NULL)))
@@ -3779,18 +3779,18 @@ static void updateRec(struct stat_rec_st *rec, char *T, char *t, char *D, char *
 
   if(!(s == ((char *)NULL)))
   {
-    signed long int return_value_atol$10;
-    return_value_atol$10=atol(s);
-    rec->sum = rec->sum + (unsigned long long int)return_value_atol$10;
+    signed long int return_value_atol_10;
+    return_value_atol_10=atol(s);
+    rec->sum = rec->sum + (unsigned long long int)return_value_atol_10;
   }
 
   if(!(a == ((char *)NULL)))
   {
     if(!(*a == 0))
     {
-      signed long int return_value_atol$11;
-      return_value_atol$11=atol(a);
-      rec->average = rec->average + (unsigned long long int)return_value_atol$11;
+      signed long int return_value_atol_11;
+      return_value_atol_11=atol(a);
+      rec->average = rec->average + (unsigned long long int)return_value_atol_11;
       rec->average_count = rec->average_count + 1l;
     }
 
@@ -3800,9 +3800,9 @@ static void updateRec(struct stat_rec_st *rec, char *T, char *t, char *D, char *
   {
     if(!(*A == 0))
     {
-      signed long int return_value_atol$12;
-      return_value_atol$12=atol(A);
-      rec->averAge = rec->averAge + (unsigned long long int)return_value_atol$12;
+      signed long int return_value_atol_12;
+      return_value_atol_12=atol(A);
+      rec->averAge = rec->averAge + (unsigned long long int)return_value_atol_12;
       rec->averAge_count = rec->averAge_count + 1l;
     }
 
@@ -4236,13 +4236,13 @@ static void updateStat(struct apr_pool_t *pool, const char *cstr, char *line)
 // file qslog.c line 1007
 static void updateUrl(struct apr_pool_t *pool, char *R, char *S, signed long int tmems)
 {
-  struct anonymous$1 *url_rec;
+  struct anonymous_1 *url_rec;
   char *marker;
   if(!(R == ((char *)NULL)))
   {
-    const unsigned short int **return_value___ctype_b_loc$1;
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((1024 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*R]) == 0)
+    const unsigned short int **return_value___ctype_b_loc_1;
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((1024 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*R]) == 0)
       fprintf(stdout, "A(%ld)", m_lines);
 
     else
@@ -4272,14 +4272,14 @@ static void updateUrl(struct apr_pool_t *pool, char *R, char *S, signed long int
 
         }
 
-        const char *return_value_apr_table_get$2;
-        return_value_apr_table_get$2=apr_table_get(m_url_entries, R);
-        url_rec = (struct anonymous$1 *)return_value_apr_table_get$2;
-        if(url_rec == ((struct anonymous$1 *)NULL))
+        const char *return_value_apr_table_get_2;
+        return_value_apr_table_get_2=apr_table_get(m_url_entries, R);
+        url_rec = (struct anonymous_1 *)return_value_apr_table_get_2;
+        if(url_rec == ((struct anonymous_1 *)NULL))
         {
-          const struct apr_array_header_t *return_value_apr_table_elts$3;
-          return_value_apr_table_elts$3=apr_table_elts(m_url_entries);
-          if(return_value_apr_table_elts$3->nelts >= 25000)
+          const struct apr_array_header_t *return_value_apr_table_elts_3;
+          return_value_apr_table_elts_3=apr_table_elts(m_url_entries);
+          if(return_value_apr_table_elts_3->nelts >= 25000)
           {
             if(m_max_entries == 0)
             {
@@ -4290,11 +4290,11 @@ static void updateUrl(struct apr_pool_t *pool, char *R, char *S, signed long int
             goto __CPROVER_DUMP_L17;
           }
 
-          void *return_value_apr_palloc$4;
-          return_value_apr_palloc$4=apr_palloc(pool, sizeof(struct anonymous$1) /*56ul*/ );
-          void *return_value_memset$5;
-          return_value_memset$5=memset(return_value_apr_palloc$4, 0, sizeof(struct anonymous$1) /*56ul*/ );
-          url_rec = (struct anonymous$1 *)return_value_memset$5;
+          void *return_value_apr_palloc_4;
+          return_value_apr_palloc_4=apr_palloc(pool, sizeof(struct anonymous_1) /*56ul*/ );
+          void *return_value_memset_5;
+          return_value_memset_5=memset(return_value_apr_palloc_4, 0, sizeof(struct anonymous_1) /*56ul*/ );
+          url_rec = (struct anonymous_1 *)return_value_memset_5;
           url_rec->request_count = (signed long int)0;
           url_rec->status_1 = (signed long int)0;
           url_rec->status_2 = (signed long int)0;
@@ -4302,9 +4302,9 @@ static void updateUrl(struct apr_pool_t *pool, char *R, char *S, signed long int
           url_rec->status_4 = (signed long int)0;
           url_rec->status_5 = (signed long int)0;
           url_rec->duration_count_ms = (signed long long int)0;
-          char *return_value_apr_pstrdup$6;
-          return_value_apr_pstrdup$6=apr_pstrdup(pool, R);
-          apr_table_setn(m_url_entries, return_value_apr_pstrdup$6, (char *)url_rec);
+          char *return_value_apr_pstrdup_6;
+          return_value_apr_pstrdup_6=apr_pstrdup(pool, R);
+          apr_table_setn(m_url_entries, return_value_apr_pstrdup_6, (char *)url_rec);
         }
 
         url_rec->request_count = url_rec->request_count + 1l;
@@ -4351,9 +4351,9 @@ static void usage(const char *cmd, signed int man)
 {
   if(!(man == 0))
   {
-    char *return_value_qs_CMD$1;
-    return_value_qs_CMD$1=qs_CMD(cmd);
-    printf(".TH %s 1 \"%s\" \"mod_qos utilities %s\" \"%s man page\"\n", return_value_qs_CMD$1, (const void *)man_date, (const void *)man_version, cmd);
+    char *return_value_qs_CMD_1;
+    return_value_qs_CMD_1=qs_CMD(cmd);
+    printf(".TH %s 1 \"%s\" \"mod_qos utilities %s\" \"%s man page\"\n", return_value_qs_CMD_1, (const void *)man_date, (const void *)man_version, cmd);
   }
 
   printf("\n");

@@ -1,54 +1,54 @@
-// tag-#anon#ST[*{SYM#tag-dvbpsi_s#}$SYM#tag-dvbpsi_s#$'handle'||S32'i_pat_version'||S32'i_ts_id'||*{SYM#tag-ts_pid_s#}$SYM#tag-ts_pid_s#$'pid'|]
+// tag-#anon#ST[*{SYM#tag-dvbpsi_s#}_SYM#tag-dvbpsi_s#_'handle'||S32'i_pat_version'||S32'i_ts_id'||*{SYM#tag-ts_pid_s#}_SYM#tag-ts_pid_s#_'pid'|]
 // file libdvbpsi.c line 157
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[ARR3{U8}$U8$'iso_639_code'|]
+// tag-#anon#ST[ARR3{U8}_U8_'iso_639_code'|]
 // file descriptors/dr_49.h line 65
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[ARR3{U8}$U8$'iso_639_code'||U8'i_audio_type'|]
+// tag-#anon#ST[ARR3{U8}_U8_'iso_639_code'||U8'i_audio_type'|]
 // file descriptors/dr_0a.h line 62
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[U16'i_service_id'||U8'i_service_type'||U8'$pad0'|]
+// tag-#anon#ST[U16'i_service_id'||U8'i_service_type'||U8'_pad0'|]
 // file descriptors/dr_41.h line 59
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[cS32'i_category'||U32'$pad0'||*{cS8}$cS8$'p_category'|]
+// tag-#anon#ST[cS32'i_category'||U32'_pad0'||*{cS8}_cS8_'p_category'|]
 // file libdvbpsi.c line 1084
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[ARR253{U8}$U8$'path'||U16'ref'||U2032'$pad'|]
+// tag-#anon#UN[ARR253{U8}_U8_'path'||U16'ref'||U2032'_pad'|]
 // file descriptors/dr_76.h line 82
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$7;
+union anonymous_7;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -736,9 +736,9 @@ static void DumpContentDescriptor(const void *p_descriptor);
 // DumpDescriptor
 // file libdvbpsi.c line 1591
 static void DumpDescriptor(struct dvbpsi_descriptor_s *p_descriptor);
-// DumpDescriptor::1::dump_dr_fn$object
+// DumpDescriptor::1::dump_dr_fn_object
 //
-void dump_dr_fn$object(const void *);
+void dump_dr_fn_object(const void *);
 // DumpDescriptors
 // file libdvbpsi.c line 1702
 static void DumpDescriptors(const char *str, struct dvbpsi_descriptor_s *p_descriptor);
@@ -843,7 +843,7 @@ extern void abort(void);
 extern signed int asprintf(char ** restrict , const char *, ...);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$7, unsigned int);
+extern signed int bind(signed int, union anonymous_7, unsigned int);
 // buffer_free
 // file buffer.h line 43
 void buffer_free(struct buffer_s *buffer);
@@ -864,7 +864,7 @@ extern signed int close(signed int);
 extern void closelog(void);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous$7, unsigned int);
+extern signed int connect(signed int, union anonymous_7, unsigned int);
 // daemon
 // file /usr/include/unistd.h line 937
 extern signed int daemon(signed int, signed int);
@@ -892,9 +892,9 @@ static _Bool dvbpsi_AddSectionCAT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_cat_d
 // dvbpsi_AddSectionEIT
 // file tables/eit.c line 381
 static _Bool dvbpsi_AddSectionEIT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_eit_decoder_s *p_eit_decoder, struct dvbpsi_psi_section_s *p_section);
-// dvbpsi_AddSectionEIT$link1
+// dvbpsi_AddSectionEIT_link1
 // file tables/atsc_eit.c line 347
-static _Bool dvbpsi_AddSectionEIT$link1(struct dvbpsi_s *p_dvbpsi$link1, struct dvbpsi_atsc_eit_decoder_s *p_decoder, struct dvbpsi_psi_section_s *p_section$link1);
+static _Bool dvbpsi_AddSectionEIT_link1(struct dvbpsi_s *p_dvbpsi_link1, struct dvbpsi_atsc_eit_decoder_s *p_decoder, struct dvbpsi_psi_section_s *p_section_link1);
 // dvbpsi_AddSectionETT
 // file tables/atsc_ett.c line 280
 static _Bool dvbpsi_AddSectionETT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_atsc_ett_decoder_s *p_decoder, struct dvbpsi_psi_section_s *p_section);
@@ -928,9 +928,9 @@ static _Bool dvbpsi_AddSectionVCT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_atsc_
 // dvbpsi_AttachDemux
 // file ../../src/demux.h line 142
 _Bool dvbpsi_AttachDemux(struct dvbpsi_s *p_dvbpsi, void (*pf_new_cb)(struct dvbpsi_s *, unsigned char, unsigned short int, void *), void *p_new_cb_data);
-// dvbpsi_AttachDemux::pf_new_cb$object
+// dvbpsi_AttachDemux::pf_new_cb_object
 //
-void pf_new_cb$object(struct dvbpsi_s *, unsigned char, unsigned short int, void *);
+void pf_new_cb_object(struct dvbpsi_s *, unsigned char, unsigned short int, void *);
 // dvbpsi_AttachDemuxSubDecoder
 // file demux.c line 203
 void dvbpsi_AttachDemuxSubDecoder(struct dvbpsi_demux_s *p_demux, struct dvbpsi_demux_subdec_s *p_subdec);
@@ -955,9 +955,9 @@ static _Bool dvbpsi_CheckCAT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sectio
 // dvbpsi_CheckEIT
 // file tables/eit.c line 294
 static _Bool dvbpsi_CheckEIT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_eit_decoder_s *p_eit_decoder, struct dvbpsi_psi_section_s *p_section);
-// dvbpsi_CheckEIT$link1
+// dvbpsi_CheckEIT_link1
 // file tables/atsc_eit.c line 311
-static _Bool dvbpsi_CheckEIT$link1(struct dvbpsi_s *p_dvbpsi$link1, struct dvbpsi_atsc_eit_decoder_s *p_decoder, struct dvbpsi_psi_section_s *p_section$link1);
+static _Bool dvbpsi_CheckEIT_link1(struct dvbpsi_s *p_dvbpsi_link1, struct dvbpsi_atsc_eit_decoder_s *p_decoder, struct dvbpsi_psi_section_s *p_section_link1);
 // dvbpsi_CheckETT
 // file tables/atsc_ett.c line 244
 static _Bool dvbpsi_CheckETT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_atsc_ett_decoder_s *p_decoder, struct dvbpsi_psi_section_s *p_section);
@@ -1339,12 +1339,12 @@ _Bool dvbpsi_IsDescriptorDecoded(struct dvbpsi_descriptor_s *p_descriptor);
 // dvbpsi_NewDemuxSubDecoder
 // file demux.c line 161
 struct dvbpsi_demux_subdec_s * dvbpsi_NewDemuxSubDecoder(const unsigned char i_table_id, const unsigned short int i_extension, void (*pf_detach)(struct dvbpsi_s *, unsigned char, unsigned short int), void (*pf_gather)(struct dvbpsi_s *, struct dvbpsi_decoder_s *, struct dvbpsi_psi_section_s *), struct dvbpsi_decoder_s *p_decoder);
-// dvbpsi_NewDemuxSubDecoder::pf_detach$object
+// dvbpsi_NewDemuxSubDecoder::pf_detach_object
 //
-void pf_detach$object(struct dvbpsi_s *, unsigned char, unsigned short int);
-// dvbpsi_NewDemuxSubDecoder::pf_gather$object
+void pf_detach_object(struct dvbpsi_s *, unsigned char, unsigned short int);
+// dvbpsi_NewDemuxSubDecoder::pf_gather_object
 //
-void pf_gather$object(struct dvbpsi_s *, struct dvbpsi_decoder_s *, struct dvbpsi_psi_section_s *);
+void pf_gather_object(struct dvbpsi_s *, struct dvbpsi_decoder_s *, struct dvbpsi_psi_section_s *);
 // dvbpsi_NewDescriptor
 // file descriptor.c line 85
 struct dvbpsi_descriptor_s * dvbpsi_NewDescriptor(unsigned char i_tag, unsigned char i_length, unsigned char *p_data);
@@ -1360,9 +1360,9 @@ static void dvbpsi_ReInitCAT(struct dvbpsi_cat_decoder_s *p_decoder, const _Bool
 // dvbpsi_ReInitEIT
 // file tables/eit.c line 279
 static void dvbpsi_ReInitEIT(struct dvbpsi_eit_decoder_s *p_decoder, const _Bool b_force);
-// dvbpsi_ReInitEIT$link1
+// dvbpsi_ReInitEIT_link1
 // file tables/atsc_eit.c line 295
-static void dvbpsi_ReInitEIT$link1(struct dvbpsi_atsc_eit_decoder_s *p_decoder$link1, const _Bool b_force$link1);
+static void dvbpsi_ReInitEIT_link1(struct dvbpsi_atsc_eit_decoder_s *p_decoder_link1, const _Bool b_force_link1);
 // dvbpsi_ReInitETT
 // file tables/atsc_ett.c line 228
 static void dvbpsi_ReInitETT(struct dvbpsi_atsc_ett_decoder_s *p_decoder, const _Bool b_force);
@@ -1411,33 +1411,33 @@ static unsigned char dvbpsi_aac_type_to_hex(const enum dvbpsi_aac_type_s type);
 // dvbpsi_atsc_AttachEIT
 // file ../../src/tables/atsc_eit.h line 116
 _Bool dvbpsi_atsc_AttachEIT(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_callback)(void *, struct dvbpsi_atsc_eit_s *), void *p_cb_data);
-// dvbpsi_atsc_AttachEIT::pf_callback$object
+// dvbpsi_atsc_AttachEIT::pf_callback_object
 //
-void pf_callback$object(void *, struct dvbpsi_atsc_eit_s *);
+void pf_callback_object(void *, struct dvbpsi_atsc_eit_s *);
 // dvbpsi_atsc_AttachETT
 // file ../../src/tables/atsc_ett.h line 103
 _Bool dvbpsi_atsc_AttachETT(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_callback)(void *, struct dvbpsi_atsc_ett_s *), void *p_cb_data);
-// dvbpsi_atsc_AttachETT::pf_callback$object
+// dvbpsi_atsc_AttachETT::pf_callback_object
 //
-void pf_callback$object(void *, struct dvbpsi_atsc_ett_s *);
+void pf_callback_object(void *, struct dvbpsi_atsc_ett_s *);
 // dvbpsi_atsc_AttachMGT
 // file ../../src/tables/atsc_mgt.h line 116
 _Bool dvbpsi_atsc_AttachMGT(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_callback)(void *, struct dvbpsi_atsc_mgt_s *), void *p_cb_data);
-// dvbpsi_atsc_AttachMGT::pf_callback$object
+// dvbpsi_atsc_AttachMGT::pf_callback_object
 //
-void pf_callback$object(void *, struct dvbpsi_atsc_mgt_s *);
+void pf_callback_object(void *, struct dvbpsi_atsc_mgt_s *);
 // dvbpsi_atsc_AttachSTT
 // file ../../src/tables/atsc_stt.h line 87
 _Bool dvbpsi_atsc_AttachSTT(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_stt_callback)(void *, struct dvbpsi_atsc_stt_s *), void *p_cb_data);
-// dvbpsi_atsc_AttachSTT::pf_stt_callback$object
+// dvbpsi_atsc_AttachSTT::pf_stt_callback_object
 //
-void pf_stt_callback$object(void *, struct dvbpsi_atsc_stt_s *);
+void pf_stt_callback_object(void *, struct dvbpsi_atsc_stt_s *);
 // dvbpsi_atsc_AttachVCT
 // file ../../src/tables/atsc_vct.h line 129
 _Bool dvbpsi_atsc_AttachVCT(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_vct_callback)(void *, struct dvbpsi_atsc_vct_s *), void *p_cb_data);
-// dvbpsi_atsc_AttachVCT::pf_vct_callback$object
+// dvbpsi_atsc_AttachVCT::pf_vct_callback_object
 //
-void pf_vct_callback$object(void *, struct dvbpsi_atsc_vct_s *);
+void pf_vct_callback_object(void *, struct dvbpsi_atsc_vct_s *);
 // dvbpsi_atsc_DecodeEITSections
 // file tables/atsc_eit.c line 493
 static void dvbpsi_atsc_DecodeEITSections(struct dvbpsi_atsc_eit_s *p_eit, struct dvbpsi_psi_section_s *p_section);
@@ -1573,9 +1573,9 @@ static struct dvbpsi_descriptor_s * dvbpsi_atsc_VCTChannelAddDescriptor(struct d
 // dvbpsi_bat_attach
 // file ../../src/tables/bat.h line 128
 _Bool dvbpsi_bat_attach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_callback)(void *, struct dvbpsi_bat_s *), void *p_cb_data);
-// dvbpsi_bat_attach::pf_callback$object
+// dvbpsi_bat_attach::pf_callback_object
 //
-void pf_callback$object(void *, struct dvbpsi_bat_s *);
+void pf_callback_object(void *, struct dvbpsi_bat_s *);
 // dvbpsi_bat_bouquet_descriptor_add
 // file tables/bat.c line 205
 struct dvbpsi_descriptor_s * dvbpsi_bat_bouquet_descriptor_add(struct dvbpsi_bat_s *p_bat, unsigned char i_tag, unsigned char i_length, unsigned char *p_data);
@@ -1612,9 +1612,9 @@ struct dvbpsi_descriptor_s * dvbpsi_bat_ts_descriptor_add(struct dvbpsi_bat_ts_s
 // dvbpsi_cat_attach
 // file ../../src/tables/cat.h line 88
 _Bool dvbpsi_cat_attach(struct dvbpsi_s *p_dvbpsi, void (*pf_callback)(void *, struct dvbpsi_cat_s *), void *p_cb_data);
-// dvbpsi_cat_attach::pf_callback$object
+// dvbpsi_cat_attach::pf_callback_object
 //
-void pf_callback$object(void *, struct dvbpsi_cat_s *);
+void pf_callback_object(void *, struct dvbpsi_cat_s *);
 // dvbpsi_cat_delete
 // file ../../src/tables/cat.h line 147
 void dvbpsi_cat_delete(struct dvbpsi_cat_s *p_cat);
@@ -1648,9 +1648,9 @@ void dvbpsi_decoder_delete(struct dvbpsi_decoder_s *p_decoder);
 // dvbpsi_decoder_new
 // file dvbpsi.c line 79
 void * dvbpsi_decoder_new(void (*pf_gather)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *), const signed int i_section_max_size, const _Bool b_discontinuity, const unsigned long int psi_size);
-// dvbpsi_decoder_new::pf_gather$object
+// dvbpsi_decoder_new::pf_gather_object
 //
-void pf_gather$object(struct dvbpsi_s *, struct dvbpsi_psi_section_s *);
+void pf_gather_object(struct dvbpsi_s *, struct dvbpsi_psi_section_s *);
 // dvbpsi_decoder_present
 // file ../../src/dvbpsi.h line 351
 _Bool dvbpsi_decoder_present(struct dvbpsi_s *p_dvbpsi);
@@ -1672,9 +1672,9 @@ struct dvbpsi_demux_subdec_s * dvbpsi_demuxGetSubDec(struct dvbpsi_demux_s *p_de
 // dvbpsi_eit_attach
 // file ../../src/tables/eit.h line 127
 _Bool dvbpsi_eit_attach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_callback)(void *, struct dvbpsi_eit_s *), void *p_cb_data);
-// dvbpsi_eit_attach::pf_callback$object
+// dvbpsi_eit_attach::pf_callback_object
 //
-void pf_callback$object(void *, struct dvbpsi_eit_s *);
+void pf_callback_object(void *, struct dvbpsi_eit_s *);
 // dvbpsi_eit_delete
 // file ../../src/tables/eit.h line 211
 void dvbpsi_eit_delete(struct dvbpsi_eit_s *p_eit);
@@ -1711,27 +1711,27 @@ struct dvbpsi_psi_section_s * dvbpsi_eit_sections_generate(struct dvbpsi_s *p_dv
 // dvbpsi_has_CRC32
 // file psi.h line 188
 static inline _Bool dvbpsi_has_CRC32(struct dvbpsi_psi_section_s *p_section);
-// dvbpsi_has_CRC32$link1
+// dvbpsi_has_CRC32_link1
 // file psi.h line 188
-static inline _Bool dvbpsi_has_CRC32$link1(struct dvbpsi_psi_section_s *p_section$link1);
+static inline _Bool dvbpsi_has_CRC32_link1(struct dvbpsi_psi_section_s *p_section_link1);
 // dvbpsi_message
 // file libdvbpsi.c line 331
 static void dvbpsi_message(struct dvbpsi_s *p_dvbpsi, const enum dvbpsi_msg_level level, const char *msg);
-// dvbpsi_message$link1
+// dvbpsi_message_link1
 // file dvbpsi.c line 518
-void dvbpsi_message$link1(struct dvbpsi_s *dvbpsi, const enum dvbpsi_msg_level level$link1, const char *fmt, ...);
+void dvbpsi_message_link1(struct dvbpsi_s *dvbpsi, const enum dvbpsi_msg_level level_link1, const char *fmt, ...);
 // dvbpsi_new
 // file ../../src/dvbpsi.h line 171
 struct dvbpsi_s * dvbpsi_new(void (*callback)(struct dvbpsi_s *, const enum dvbpsi_msg_level, const char *), enum dvbpsi_msg_level level);
-// dvbpsi_new::callback$object
+// dvbpsi_new::callback_object
 //
-void callback$object(struct dvbpsi_s *, const enum dvbpsi_msg_level, const char *);
+void callback_object(struct dvbpsi_s *, const enum dvbpsi_msg_level, const char *);
 // dvbpsi_nit_attach
 // file ../../src/tables/nit.h line 122
 _Bool dvbpsi_nit_attach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_callback)(void *, struct dvbpsi_nit_s *), void *p_cb_data);
-// dvbpsi_nit_attach::pf_callback$object
+// dvbpsi_nit_attach::pf_callback_object
 //
-void pf_callback$object(void *, struct dvbpsi_nit_s *);
+void pf_callback_object(void *, struct dvbpsi_nit_s *);
 // dvbpsi_nit_delete
 // file ../../src/tables/nit.h line 191
 void dvbpsi_nit_delete(struct dvbpsi_nit_s *p_nit);
@@ -1771,9 +1771,9 @@ _Bool dvbpsi_packet_push(struct dvbpsi_s *p_dvbpsi, unsigned char *p_data);
 // dvbpsi_pat_attach
 // file ../../src/tables/pat.h line 111
 _Bool dvbpsi_pat_attach(struct dvbpsi_s *p_dvbpsi, void (*pf_callback)(void *, struct dvbpsi_pat_s *), void *p_cb_data);
-// dvbpsi_pat_attach::pf_callback$object
+// dvbpsi_pat_attach::pf_callback_object
 //
-void pf_callback$object(void *, struct dvbpsi_pat_s *);
+void pf_callback_object(void *, struct dvbpsi_pat_s *);
 // dvbpsi_pat_delete
 // file ../../src/tables/pat.h line 171
 void dvbpsi_pat_delete(struct dvbpsi_pat_s *p_pat);
@@ -1804,9 +1804,9 @@ struct dvbpsi_psi_section_s * dvbpsi_pat_sections_generate(struct dvbpsi_s *p_dv
 // dvbpsi_pmt_attach
 // file ../../src/tables/pmt.h line 121
 _Bool dvbpsi_pmt_attach(struct dvbpsi_s *p_dvbpsi, unsigned short int i_program_number, void (*pf_callback)(void *, struct dvbpsi_pmt_s *), void *p_cb_data);
-// dvbpsi_pmt_attach::pf_callback$object
+// dvbpsi_pmt_attach::pf_callback_object
 //
-void pf_callback$object(void *, struct dvbpsi_pmt_s *);
+void pf_callback_object(void *, struct dvbpsi_pmt_s *);
 // dvbpsi_pmt_delete
 // file ../../src/tables/pmt.h line 186
 void dvbpsi_pmt_delete(struct dvbpsi_pmt_s *p_pmt);
@@ -1843,9 +1843,9 @@ struct dvbpsi_psi_section_s * dvbpsi_pmt_sections_generate(struct dvbpsi_s *p_dv
 // dvbpsi_rst_attach
 // file ../../src/tables/rst.h line 109
 _Bool dvbpsi_rst_attach(struct dvbpsi_s *p_dvbpsi, void (*pf_callback)(void *, struct dvbpsi_rst_s *), void *p_cb_data);
-// dvbpsi_rst_attach::pf_callback$object
+// dvbpsi_rst_attach::pf_callback_object
 //
-void pf_callback$object(void *, struct dvbpsi_rst_s *);
+void pf_callback_object(void *, struct dvbpsi_rst_s *);
 // dvbpsi_rst_delete
 // file ../../src/tables/rst.h line 161
 void dvbpsi_rst_delete(struct dvbpsi_rst_s *p_rst);
@@ -1885,9 +1885,9 @@ struct dvbpsi_psi_section_s * dvbpsi_rst_sections_generate(struct dvbpsi_s *p_dv
 // dvbpsi_sdt_attach
 // file ../../src/tables/sdt.h line 128
 _Bool dvbpsi_sdt_attach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_callback)(void *, struct dvbpsi_sdt_s *), void *p_cb_data);
-// dvbpsi_sdt_attach::pf_callback$object
+// dvbpsi_sdt_attach::pf_callback_object
 //
-void pf_callback$object(void *, struct dvbpsi_sdt_s *);
+void pf_callback_object(void *, struct dvbpsi_sdt_s *);
 // dvbpsi_sdt_delete
 // file ../../src/tables/sdt.h line 194
 void dvbpsi_sdt_delete(struct dvbpsi_sdt_s *p_sdt);
@@ -1921,9 +1921,9 @@ struct dvbpsi_descriptor_s * dvbpsi_sdt_service_descriptor_add(struct dvbpsi_sdt
 // dvbpsi_sis_attach
 // file ../../src/tables/sis.h line 364
 _Bool dvbpsi_sis_attach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_callback)(void *, struct dvbpsi_sis_s *), void *p_cb_data);
-// dvbpsi_sis_attach::pf_callback$object
+// dvbpsi_sis_attach::pf_callback_object
 //
-void pf_callback$object(void *, struct dvbpsi_sis_s *);
+void pf_callback_object(void *, struct dvbpsi_sis_s *);
 // dvbpsi_sis_delete
 // file ../../src/tables/sis.h line 430
 void dvbpsi_sis_delete(struct dvbpsi_sis_s *p_sis);
@@ -1954,9 +1954,9 @@ struct dvbpsi_psi_section_s * dvbpsi_sis_sections_generate(struct dvbpsi_s *p_dv
 // dvbpsi_tot_attach
 // file ../../src/tables/tot.h line 97
 _Bool dvbpsi_tot_attach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_callback)(void *, struct dvbpsi_tot_s *), void *p_cb_data);
-// dvbpsi_tot_attach::pf_callback$object
+// dvbpsi_tot_attach::pf_callback_object
 //
-void pf_callback$object(void *, struct dvbpsi_tot_s *);
+void pf_callback_object(void *, struct dvbpsi_tot_s *);
 // dvbpsi_tot_delete
 // file ../../src/tables/tot.h line 163
 void dvbpsi_tot_delete(struct dvbpsi_tot_s *p_tot);
@@ -2104,9 +2104,9 @@ void libdvbpsi_exit(struct ts_stream_t *stream);
 // libdvbpsi_init
 // file libdvbpsi.h line 43
 struct ts_stream_t * libdvbpsi_init(signed int debug, void (*pf_log)(void *, const signed int, const char *, ...), void *cb_data);
-// libdvbpsi_init::pf_log$object
+// libdvbpsi_init::pf_log_object
 //
-void pf_log$object(void *, const signed int, const char *, ...);
+void pf_log_object(void *, const signed int, const char *, ...);
 // libdvbpsi_log
 // file dvbinfo.c line 154
 static void libdvbpsi_log(void *data, const signed int level, const char *format, ...);
@@ -2157,19 +2157,19 @@ extern double pow(double, double);
 extern signed int printf(const char *, ...);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$2 *);
+extern signed int pthread_cond_broadcast(union anonymous_2 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$2 *);
+extern signed int pthread_cond_destroy(union anonymous_2 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$2 *, const union anonymous$0 *);
+extern signed int pthread_cond_init(union anonymous_2 *, const union anonymous_0 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$2 *);
+extern signed int pthread_cond_signal(union anonymous_2 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$2 *, union anonymous *);
+extern signed int pthread_cond_wait(union anonymous_2 *, union anonymous *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -2181,7 +2181,7 @@ extern signed int pthread_join(unsigned long int, void **);
 extern signed int pthread_mutex_destroy(union anonymous *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$0 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_0 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -2288,7 +2288,7 @@ extern signed int vasprintf(char ** restrict , const char *, void **);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$3
+struct anonymous_3
 {
   // handle
   struct dvbpsi_s *handle;
@@ -2300,13 +2300,13 @@ struct anonymous$3
   struct ts_pid_s *pid;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // iso_639_code
   unsigned char iso_639_code[3l];
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // iso_639_code
   unsigned char iso_639_code[3l];
@@ -2314,7 +2314,7 @@ struct anonymous$9
   unsigned char i_audio_type;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // __lock
   signed int __lock;
@@ -2334,7 +2334,7 @@ struct anonymous$4
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // i_service_id
   unsigned short int i_service_id;
@@ -2342,7 +2342,7 @@ struct anonymous$10
   unsigned char i_service_type;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // i_category
   const signed int i_category;
@@ -2350,7 +2350,7 @@ struct anonymous$8
   const char *p_category;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -2360,7 +2360,7 @@ union anonymous$5
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$1
+union anonymous_1
 {
   // path
   unsigned char path[253l];
@@ -2368,7 +2368,7 @@ union anonymous$1
   unsigned short int ref;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __size
   char __size[4l];
@@ -2376,10 +2376,10 @@ union anonymous$0
   signed int __align;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
-  struct anonymous$4 __data;
+  struct anonymous_4 __data;
   // __size
   char __size[48l];
   // __align
@@ -2424,7 +2424,7 @@ union anonymous
   signed long int __align;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -2454,7 +2454,7 @@ union anonymous$6
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -2597,7 +2597,7 @@ struct dvbinfo_capture_s
   // lock
   union anonymous lock;
   // fifo_full
-  union anonymous$2 fifo_full;
+  union anonymous_2 fifo_full;
   // b_fifo_full
   _Bool b_fifo_full;
   // size
@@ -3287,7 +3287,7 @@ struct dvbpsi_crid_entry_s
   // i_location
   unsigned char i_location;
   // value
-  union anonymous$1 value;
+  union anonymous_1 value;
 };
 
 struct dvbpsi_content_id_dr_s
@@ -3315,7 +3315,7 @@ struct dvbpsi_country_availability_dr_s
   // i_code_count
   unsigned char i_code_count;
   // code
-  struct anonymous$11 code[84l];
+  struct anonymous_11 code[84l];
 };
 
 struct dvbpsi_cuei_dr_s
@@ -3583,7 +3583,7 @@ struct dvbpsi_iso639_dr_s
   // i_code_count
   unsigned char i_code_count;
   // code
-  struct anonymous$9 code[64l];
+  struct anonymous_9 code[64l];
 };
 
 struct dvbpsi_lcn_entry_s
@@ -4141,7 +4141,7 @@ struct dvbpsi_service_list_dr_s
   // i_service_count
   unsigned char i_service_count;
   // i_service
-  struct anonymous$10 i_service[64l];
+  struct anonymous_10 i_service[64l];
 };
 
 struct dvbpsi_service_location_element_s
@@ -4489,7 +4489,7 @@ struct fifo_s
   // lock
   union anonymous lock;
   // wait
-  union anonymous$2 wait;
+  union anonymous_2 wait;
   // b_force_wake
   _Bool b_force_wake;
   // i_count
@@ -4523,7 +4523,7 @@ struct group_req
 struct in6_addr
 {
   // __in6_u
-  union anonymous$5 __in6_u;
+  union anonymous_5 __in6_u;
 };
 
 struct in_addr
@@ -4811,7 +4811,7 @@ struct ts_tdt_s
 struct ts_stream_t
 {
   // pat
-  struct anonymous$3 pat;
+  struct anonymous_3 pat;
   // i_pmt
   signed int i_pmt;
   // pmt
@@ -5076,9 +5076,9 @@ static void DumpAACDescriptor(const void *p_descriptor)
 {
   const struct dvbpsi_aac_dr_s *p_aac_descriptor = (const struct dvbpsi_aac_dr_s *)p_descriptor;
   printf("AAC audio descriptor\n");
-  const char *return_value_AACProfileToString$1;
-  return_value_AACProfileToString$1=AACProfileToString(p_aac_descriptor->i_profile_and_level);
-  printf("\tprofile and level: %s (0x%02x)\n", return_value_AACProfileToString$1, p_aac_descriptor->i_profile_and_level);
+  const char *return_value_AACProfileToString_1;
+  return_value_AACProfileToString_1=AACProfileToString(p_aac_descriptor->i_profile_and_level);
+  printf("\tprofile and level: %s (0x%02x)\n", return_value_AACProfileToString_1, p_aac_descriptor->i_profile_and_level);
   if(!(p_aac_descriptor->b_type == (_Bool)0))
   {
     printf("\ttype: ");
@@ -5186,9 +5186,9 @@ static void DumpATSCEITEventDescriptors(struct dvbpsi_atsc_eit_event_s *p_atsc_e
   {
     printf("\t  | Event id: %d\n", p_event->i_event_id);
     printf("\t  | Start time: %u\n", p_event->i_start_time);
-    const char *return_value_GetAtscETMLocations$1;
-    return_value_GetAtscETMLocations$1=GetAtscETMLocations(p_event->i_etm_location);
-    printf("\t  | ETM location: %s\n", return_value_GetAtscETMLocations$1);
+    const char *return_value_GetAtscETMLocations_1;
+    return_value_GetAtscETMLocations_1=GetAtscETMLocations(p_event->i_etm_location);
+    printf("\t  | ETM location: %s\n", return_value_GetAtscETMLocations_1);
     printf("\t  | Duration: %d seconds\n", p_event->i_length_seconds);
     printf("\t  | Title length: %d bytes\n", p_event->i_title_length);
     printf("\t  | Title: %s\n", (const void *)p_event->i_title);
@@ -5208,15 +5208,15 @@ static void DumpAtscVCTChannels(struct dvbpsi_atsc_vct_channel_s *p_vct_channels
     printf("\t  | Short name  : %s\n", (const void *)p_channel->i_short_name);
     printf("\t  | Major number: %d\n", p_channel->i_major_number);
     printf("\t  | Minor number: %d\n", p_channel->i_minor_number);
-    const char *return_value_GetAtscVCTModulationModes$1;
-    return_value_GetAtscVCTModulationModes$1=GetAtscVCTModulationModes(p_channel->i_modulation);
-    printf("\t  | Modulation  : %s\n", return_value_GetAtscVCTModulationModes$1);
+    const char *return_value_GetAtscVCTModulationModes_1;
+    return_value_GetAtscVCTModulationModes_1=GetAtscVCTModulationModes(p_channel->i_modulation);
+    printf("\t  | Modulation  : %s\n", return_value_GetAtscVCTModulationModes_1);
     printf("\t  | Carrier     : %d\n", p_channel->i_carrier_freq);
     printf("\t  | Transport id: %d\n", p_channel->i_channel_tsid);
     printf("\t  | Program number: %d\n", p_channel->i_program_number);
-    const char *return_value_GetAtscETMLocations$2;
-    return_value_GetAtscETMLocations$2=GetAtscETMLocations(p_channel->i_etm_location);
-    printf("\t  | ETM location: %s\n", return_value_GetAtscETMLocations$2);
+    const char *return_value_GetAtscETMLocations_2;
+    return_value_GetAtscETMLocations_2=GetAtscETMLocations(p_channel->i_etm_location);
+    printf("\t  | ETM location: %s\n", return_value_GetAtscETMLocations_2);
     printf("\t  | Scrambled   : %s\n", p_channel->b_access_controlled != (_Bool)0 ? "yes" : "no");
     printf("\t  | Path Select : %s\n", p_channel->b_path_select != (_Bool)0 ? "yes" : "no");
     printf("\t  | Out of band : %s\n", p_channel->b_out_of_band != (_Bool)0 ? "yes" : "no");
@@ -5248,7 +5248,7 @@ static void DumpCUEIDescriptor(const void *p_descriptor)
   const struct dvbpsi_cuei_dr_s *p_cuei_descriptor = (const struct dvbpsi_cuei_dr_s *)p_descriptor;
   /* assertion p_cuei_descriptor */
   assert(p_cuei_descriptor != ((const struct dvbpsi_cuei_dr_s *)NULL));
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   switch((signed int)p_cuei_descriptor->i_cue_stream_type)
   {
     case 0x00:
@@ -5279,11 +5279,11 @@ static void DumpCUEIDescriptor(const void *p_descriptor)
     default:
     {
       if((signed int)p_cuei_descriptor->i_cue_stream_type >= 0x05)
-        tmp_if_expr$1 = (signed int)p_cuei_descriptor->i_cue_stream_type <= 0x7f ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)p_cuei_descriptor->i_cue_stream_type <= 0x7f ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
         cuei_stream_type = "Reserved";
 
       else
@@ -5304,7 +5304,7 @@ __CPROVER_DUMP_L12:
 static void DumpContentDescriptor(const void *p_descriptor)
 {
   const struct dvbpsi_content_dr_s *p_content_descriptor = (const struct dvbpsi_content_dr_s *)p_descriptor;
-  struct anonymous$8 content_category[17l] = { { .i_category=0x0, .p_category="Undefined" },
+  struct anonymous_8 content_category[17l] = { { .i_category=0x0, .p_category="Undefined" },
     { .i_category=0x1, .p_category="Movie" },
     { .i_category=0x2, .p_category="News" },
     { .i_category=0x3, .p_category="Show" },
@@ -5328,9 +5328,9 @@ static void DumpContentDescriptor(const void *p_descriptor)
     signed int i_type = (signed int)p_content_descriptor->p_content[(signed long int)i].i_type;
     signed int i_category = i_type >> 4;
     printf("\t\tcategory: %s\n", content_category[(signed long int)i_category].p_category);
-    const char *return_value_GetContentSubCategory$1;
-    return_value_GetContentSubCategory$1=GetContentSubCategory(i_type);
-    printf("\t\tsub category: %s\n", return_value_GetContentSubCategory$1);
+    const char *return_value_GetContentSubCategory_1;
+    return_value_GetContentSubCategory_1=GetContentSubCategory(i_type);
+    printf("\t\tsub category: %s\n", return_value_GetContentSubCategory_1);
     printf("\t\tuser byte: 0x%x\n", p_content_descriptor->p_content[(signed long int)i].i_user_byte);
   }
 }
@@ -5341,23 +5341,23 @@ static void DumpDescriptor(struct dvbpsi_descriptor_s *p_descriptor)
 {
   const void *p_decoded = (void *)0;
   void (*dump_dr_fn)(const void *) = (void (*)(const void *))(void *)0;
-  const char *return_value_GetDescriptorName$1;
-  const char *return_value_GetDescriptorName$2;
-  struct dvbpsi_aac_dr_s *return_value_dvbpsi_DecodeAACDr$3;
-  struct dvbpsi_system_clock_dr_s *return_value_dvbpsi_DecodeSystemClockDr$4;
-  struct dvbpsi_cuei_dr_s *return_value_dvbpsi_DecodeCUEIDr$5;
-  struct dvbpsi_max_bitrate_dr_s *return_value_dvbpsi_DecodeMaxBitrateDr$6;
-  struct dvbpsi_smoothing_buffer_dr_s *return_value_dvbpsi_DecodeSmoothingBufferDr$7;
-  struct dvbpsi_std_dr_s *return_value_dvbpsi_DecodeSTDDr$8;
-  struct dvbpsi_ibp_dr_s *return_value_dvbpsi_DecodeIBPDr$9;
-  struct dvbpsi_mpeg4_video_dr_s *return_value_dvbpsi_DecodeMPEG4VideoDr$10;
-  struct dvbpsi_mpeg4_audio_dr_s *return_value_dvbpsi_DecodeMPEG4AudioDr$11;
-  struct dvbpsi_tshifted_service_dr_s *return_value_dvbpsi_DecodeTimeShiftedServiceDr$12;
-  struct dvbpsi_tshifted_ev_dr_s *return_value_dvbpsi_DecodeTimeShiftedEventDr$13;
-  struct dvbpsi_stream_identifier_dr_s *return_value_dvbpsi_DecodeStreamIdentifierDr$14;
-  struct dvbpsi_ca_identifier_dr_s *return_value_dvbpsi_DecodeCAIdentifierDr$15;
-  struct dvbpsi_content_dr_s *return_value_dvbpsi_DecodeContentDr$16;
-  struct dvbpsi_subtitling_dr_s *return_value_dvbpsi_DecodeSubtitlingDr$17;
+  const char *return_value_GetDescriptorName_1;
+  const char *return_value_GetDescriptorName_2;
+  struct dvbpsi_aac_dr_s *return_value_dvbpsi_DecodeAACDr_3;
+  struct dvbpsi_system_clock_dr_s *return_value_dvbpsi_DecodeSystemClockDr_4;
+  struct dvbpsi_cuei_dr_s *return_value_dvbpsi_DecodeCUEIDr_5;
+  struct dvbpsi_max_bitrate_dr_s *return_value_dvbpsi_DecodeMaxBitrateDr_6;
+  struct dvbpsi_smoothing_buffer_dr_s *return_value_dvbpsi_DecodeSmoothingBufferDr_7;
+  struct dvbpsi_std_dr_s *return_value_dvbpsi_DecodeSTDDr_8;
+  struct dvbpsi_ibp_dr_s *return_value_dvbpsi_DecodeIBPDr_9;
+  struct dvbpsi_mpeg4_video_dr_s *return_value_dvbpsi_DecodeMPEG4VideoDr_10;
+  struct dvbpsi_mpeg4_audio_dr_s *return_value_dvbpsi_DecodeMPEG4AudioDr_11;
+  struct dvbpsi_tshifted_service_dr_s *return_value_dvbpsi_DecodeTimeShiftedServiceDr_12;
+  struct dvbpsi_tshifted_ev_dr_s *return_value_dvbpsi_DecodeTimeShiftedEventDr_13;
+  struct dvbpsi_stream_identifier_dr_s *return_value_dvbpsi_DecodeStreamIdentifierDr_14;
+  struct dvbpsi_ca_identifier_dr_s *return_value_dvbpsi_DecodeCAIdentifierDr_15;
+  struct dvbpsi_content_dr_s *return_value_dvbpsi_DecodeContentDr_16;
+  struct dvbpsi_subtitling_dr_s *return_value_dvbpsi_DecodeSubtitlingDr_17;
   switch((signed int)p_descriptor->i_tag)
   {
     case 0x06:
@@ -5392,118 +5392,118 @@ static void DumpDescriptor(struct dvbpsi_descriptor_s *p_descriptor)
           default:
             printf("?");
         }
-      return_value_GetDescriptorName$1=GetDescriptorName(p_descriptor->i_tag);
-      printf("\" (%s)\n", return_value_GetDescriptorName$1);
+      return_value_GetDescriptorName_1=GetDescriptorName(p_descriptor->i_tag);
+      printf("\" (%s)\n", return_value_GetDescriptorName_1);
       break;
     }
     case 0x6a:
     {
-      return_value_GetDescriptorName$2=GetDescriptorName(p_descriptor->i_tag);
-      printf("\"a52\" (%s)\n", return_value_GetDescriptorName$2);
+      return_value_GetDescriptorName_2=GetDescriptorName(p_descriptor->i_tag);
+      printf("\"a52\" (%s)\n", return_value_GetDescriptorName_2);
       break;
     }
     case 0x7c:
     {
-      return_value_dvbpsi_DecodeAACDr$3=dvbpsi_DecodeAACDr(p_descriptor);
-      p_decoded = (const void *)return_value_dvbpsi_DecodeAACDr$3;
+      return_value_dvbpsi_DecodeAACDr_3=dvbpsi_DecodeAACDr(p_descriptor);
+      p_decoded = (const void *)return_value_dvbpsi_DecodeAACDr_3;
       dump_dr_fn = DumpAACDescriptor;
       goto __CPROVER_DUMP_L26;
     }
     case 0x08:
     {
-      return_value_dvbpsi_DecodeSystemClockDr$4=dvbpsi_DecodeSystemClockDr(p_descriptor);
-      p_decoded = (const void *)return_value_dvbpsi_DecodeSystemClockDr$4;
+      return_value_dvbpsi_DecodeSystemClockDr_4=dvbpsi_DecodeSystemClockDr(p_descriptor);
+      p_decoded = (const void *)return_value_dvbpsi_DecodeSystemClockDr_4;
       dump_dr_fn = DumpSystemClockDescriptor;
       goto __CPROVER_DUMP_L26;
     }
     case 0x8a:
     {
-      return_value_dvbpsi_DecodeCUEIDr$5=dvbpsi_DecodeCUEIDr(p_descriptor);
-      p_decoded = (const void *)return_value_dvbpsi_DecodeCUEIDr$5;
+      return_value_dvbpsi_DecodeCUEIDr_5=dvbpsi_DecodeCUEIDr(p_descriptor);
+      p_decoded = (const void *)return_value_dvbpsi_DecodeCUEIDr_5;
       dump_dr_fn = DumpCUEIDescriptor;
       goto __CPROVER_DUMP_L26;
     }
     case 0x0e:
     {
-      return_value_dvbpsi_DecodeMaxBitrateDr$6=dvbpsi_DecodeMaxBitrateDr(p_descriptor);
-      p_decoded = (const void *)return_value_dvbpsi_DecodeMaxBitrateDr$6;
+      return_value_dvbpsi_DecodeMaxBitrateDr_6=dvbpsi_DecodeMaxBitrateDr(p_descriptor);
+      p_decoded = (const void *)return_value_dvbpsi_DecodeMaxBitrateDr_6;
       dump_dr_fn = DumpMaxBitrateDescriptor;
       goto __CPROVER_DUMP_L26;
     }
     case 0x10:
     {
-      return_value_dvbpsi_DecodeSmoothingBufferDr$7=dvbpsi_DecodeSmoothingBufferDr(p_descriptor);
-      p_decoded = (const void *)return_value_dvbpsi_DecodeSmoothingBufferDr$7;
+      return_value_dvbpsi_DecodeSmoothingBufferDr_7=dvbpsi_DecodeSmoothingBufferDr(p_descriptor);
+      p_decoded = (const void *)return_value_dvbpsi_DecodeSmoothingBufferDr_7;
       dump_dr_fn = DumpSmoothingBufferDescriptor;
       goto __CPROVER_DUMP_L26;
     }
     case 0x11:
     {
-      return_value_dvbpsi_DecodeSTDDr$8=dvbpsi_DecodeSTDDr(p_descriptor);
-      p_decoded = (const void *)return_value_dvbpsi_DecodeSTDDr$8;
+      return_value_dvbpsi_DecodeSTDDr_8=dvbpsi_DecodeSTDDr(p_descriptor);
+      p_decoded = (const void *)return_value_dvbpsi_DecodeSTDDr_8;
       dump_dr_fn = DumpSTDDescriptor;
       goto __CPROVER_DUMP_L26;
     }
     case 0x12:
     {
-      return_value_dvbpsi_DecodeIBPDr$9=dvbpsi_DecodeIBPDr(p_descriptor);
-      p_decoded = (const void *)return_value_dvbpsi_DecodeIBPDr$9;
+      return_value_dvbpsi_DecodeIBPDr_9=dvbpsi_DecodeIBPDr(p_descriptor);
+      p_decoded = (const void *)return_value_dvbpsi_DecodeIBPDr_9;
       dump_dr_fn = DumpIBPDescriptor;
       goto __CPROVER_DUMP_L26;
     }
     case 0x1b:
     {
-      return_value_dvbpsi_DecodeMPEG4VideoDr$10=dvbpsi_DecodeMPEG4VideoDr(p_descriptor);
-      p_decoded = (const void *)return_value_dvbpsi_DecodeMPEG4VideoDr$10;
+      return_value_dvbpsi_DecodeMPEG4VideoDr_10=dvbpsi_DecodeMPEG4VideoDr(p_descriptor);
+      p_decoded = (const void *)return_value_dvbpsi_DecodeMPEG4VideoDr_10;
       dump_dr_fn = DumpMPEG4VideoDescriptor;
       goto __CPROVER_DUMP_L26;
     }
     case 0x1c:
     {
-      return_value_dvbpsi_DecodeMPEG4AudioDr$11=dvbpsi_DecodeMPEG4AudioDr(p_descriptor);
-      p_decoded = (const void *)return_value_dvbpsi_DecodeMPEG4AudioDr$11;
+      return_value_dvbpsi_DecodeMPEG4AudioDr_11=dvbpsi_DecodeMPEG4AudioDr(p_descriptor);
+      p_decoded = (const void *)return_value_dvbpsi_DecodeMPEG4AudioDr_11;
       dump_dr_fn = DumpMPEG4AudioDescriptor;
       goto __CPROVER_DUMP_L26;
     }
     case 0x4c:
     {
-      return_value_dvbpsi_DecodeTimeShiftedServiceDr$12=dvbpsi_DecodeTimeShiftedServiceDr(p_descriptor);
-      p_decoded = (const void *)return_value_dvbpsi_DecodeTimeShiftedServiceDr$12;
+      return_value_dvbpsi_DecodeTimeShiftedServiceDr_12=dvbpsi_DecodeTimeShiftedServiceDr(p_descriptor);
+      p_decoded = (const void *)return_value_dvbpsi_DecodeTimeShiftedServiceDr_12;
       dump_dr_fn = DumpTimeShiftedServiceDescriptor;
       goto __CPROVER_DUMP_L26;
     }
     case 0x4f:
     {
-      return_value_dvbpsi_DecodeTimeShiftedEventDr$13=dvbpsi_DecodeTimeShiftedEventDr(p_descriptor);
-      p_decoded = (const void *)return_value_dvbpsi_DecodeTimeShiftedEventDr$13;
+      return_value_dvbpsi_DecodeTimeShiftedEventDr_13=dvbpsi_DecodeTimeShiftedEventDr(p_descriptor);
+      p_decoded = (const void *)return_value_dvbpsi_DecodeTimeShiftedEventDr_13;
       dump_dr_fn = DumpTimeShiftedEventDescriptor;
       goto __CPROVER_DUMP_L26;
     }
     case 0x52:
     {
-      return_value_dvbpsi_DecodeStreamIdentifierDr$14=dvbpsi_DecodeStreamIdentifierDr(p_descriptor);
-      p_decoded = (const void *)return_value_dvbpsi_DecodeStreamIdentifierDr$14;
+      return_value_dvbpsi_DecodeStreamIdentifierDr_14=dvbpsi_DecodeStreamIdentifierDr(p_descriptor);
+      p_decoded = (const void *)return_value_dvbpsi_DecodeStreamIdentifierDr_14;
       dump_dr_fn = DumpStreamIdentifierDescriptor;
       goto __CPROVER_DUMP_L26;
     }
     case 0x53:
     {
-      return_value_dvbpsi_DecodeCAIdentifierDr$15=dvbpsi_DecodeCAIdentifierDr(p_descriptor);
-      p_decoded = (const void *)return_value_dvbpsi_DecodeCAIdentifierDr$15;
+      return_value_dvbpsi_DecodeCAIdentifierDr_15=dvbpsi_DecodeCAIdentifierDr(p_descriptor);
+      p_decoded = (const void *)return_value_dvbpsi_DecodeCAIdentifierDr_15;
       dump_dr_fn = DumpCAIdentifierDescriptor;
       goto __CPROVER_DUMP_L26;
     }
     case 0x54:
     {
-      return_value_dvbpsi_DecodeContentDr$16=dvbpsi_DecodeContentDr(p_descriptor);
-      p_decoded = (const void *)return_value_dvbpsi_DecodeContentDr$16;
+      return_value_dvbpsi_DecodeContentDr_16=dvbpsi_DecodeContentDr(p_descriptor);
+      p_decoded = (const void *)return_value_dvbpsi_DecodeContentDr_16;
       dump_dr_fn = DumpContentDescriptor;
       goto __CPROVER_DUMP_L26;
     }
     case 0x59:
     {
-      return_value_dvbpsi_DecodeSubtitlingDr$17=dvbpsi_DecodeSubtitlingDr(p_descriptor);
-      p_decoded = (const void *)return_value_dvbpsi_DecodeSubtitlingDr$17;
+      return_value_dvbpsi_DecodeSubtitlingDr_17=dvbpsi_DecodeSubtitlingDr(p_descriptor);
+      p_decoded = (const void *)return_value_dvbpsi_DecodeSubtitlingDr_17;
       dump_dr_fn = DumpSubtitleDescriptor;
     }
     default:
@@ -5517,12 +5517,12 @@ static void DumpDescriptor(struct dvbpsi_descriptor_s *p_descriptor)
       else
       {
         printf("\"");
-        signed int DumpDescriptor$$1$$3$$1$$i = 0;
-        for( ; !(DumpDescriptor$$1$$3$$1$$i >= (signed int)p_descriptor->i_length); DumpDescriptor$$1$$3$$1$$i = DumpDescriptor$$1$$3$$1$$i + 1)
-          printf("%c", p_descriptor->p_data[(signed long int)DumpDescriptor$$1$$3$$1$$i]);
-        const char *return_value_GetDescriptorName$18;
-        return_value_GetDescriptorName$18=GetDescriptorName(p_descriptor->i_tag);
-        printf("\" (%s)\n", return_value_GetDescriptorName$18);
+        signed int DumpDescriptor__1__3__1__i = 0;
+        for( ; !(DumpDescriptor__1__3__1__i >= (signed int)p_descriptor->i_length); DumpDescriptor__1__3__1__i = DumpDescriptor__1__3__1__i + 1)
+          printf("%c", p_descriptor->p_data[(signed long int)DumpDescriptor__1__3__1__i]);
+        const char *return_value_GetDescriptorName_18;
+        return_value_GetDescriptorName_18=GetDescriptorName(p_descriptor->i_tag);
+        printf("\" (%s)\n", return_value_GetDescriptorName_18);
       }
     }
   }
@@ -5575,9 +5575,9 @@ static void DumpIBPDescriptor(const void *p_descriptor)
 static void DumpMPEG4AudioDescriptor(const void *p_descriptor)
 {
   const struct dvbpsi_mpeg4_audio_dr_s *mpeg4_descriptor = (const struct dvbpsi_mpeg4_audio_dr_s *)p_descriptor;
-  const char *return_value_AACProfileToString$1;
-  return_value_AACProfileToString$1=AACProfileToString(mpeg4_descriptor->i_mpeg4_audio_profile_and_level);
-  printf("MPEG-4 Audio Profile and Level : %s (0x%02x) \n", return_value_AACProfileToString$1, mpeg4_descriptor->i_mpeg4_audio_profile_and_level);
+  const char *return_value_AACProfileToString_1;
+  return_value_AACProfileToString_1=AACProfileToString(mpeg4_descriptor->i_mpeg4_audio_profile_and_level);
+  printf("MPEG-4 Audio Profile and Level : %s (0x%02x) \n", return_value_AACProfileToString_1, mpeg4_descriptor->i_mpeg4_audio_profile_and_level);
 }
 
 // DumpMPEG4VideoDescriptor
@@ -5585,9 +5585,9 @@ static void DumpMPEG4AudioDescriptor(const void *p_descriptor)
 static void DumpMPEG4VideoDescriptor(const void *p_descriptor)
 {
   const struct dvbpsi_mpeg4_video_dr_s *mpeg4_descriptor = (const struct dvbpsi_mpeg4_video_dr_s *)p_descriptor;
-  const char *return_value_MPEG4VideoProfileToString$1;
-  return_value_MPEG4VideoProfileToString$1=MPEG4VideoProfileToString(mpeg4_descriptor->i_mpeg4_visual_profile_and_level);
-  printf("MPEG-4 Video Profile and Level : %s (0x%02x) \n", return_value_MPEG4VideoProfileToString$1, mpeg4_descriptor->i_mpeg4_visual_profile_and_level);
+  const char *return_value_MPEG4VideoProfileToString_1;
+  return_value_MPEG4VideoProfileToString_1=MPEG4VideoProfileToString(mpeg4_descriptor->i_mpeg4_visual_profile_and_level);
+  printf("MPEG-4 Video Profile and Level : %s (0x%02x) \n", return_value_MPEG4VideoProfileToString_1, mpeg4_descriptor->i_mpeg4_visual_profile_and_level);
 }
 
 // DumpMaxBitrateDescriptor
@@ -5654,7 +5654,7 @@ static void DumpSISDescriptors(const char *str, struct dvbpsi_descriptor_s *p_de
   unsigned int id;
   double i_preroll;
   unsigned char i_dtmf_count;
-  const char *return_value_GetDescriptorName$1;
+  const char *return_value_GetDescriptorName_1;
   while(!(p_descriptor == ((struct dvbpsi_descriptor_s *)NULL)))
   {
     /* assertion p_descriptor->i_length >= 4 */
@@ -5683,9 +5683,9 @@ static void DumpSISDescriptors(const char *str, struct dvbpsi_descriptor_s *p_de
         i_preroll = (double)p_descriptor->p_data[(signed long int)4] * 0.1;
         i_dtmf_count = (unsigned char)((signed int)p_descriptor->p_data[(signed long int)5] & 0xE0);
         printf("\"");
-        signed int DumpSISDescriptors$$1$$1$$1$$2$$1$$i = 0;
-        for( ; !(DumpSISDescriptors$$1$$1$$1$$2$$1$$i >= (signed int)i_dtmf_count); DumpSISDescriptors$$1$$1$$1$$2$$1$$i = DumpSISDescriptors$$1$$1$$1$$2$$1$$i + 1)
-          printf("%c", p_descriptor->p_data[(signed long int)(6 + DumpSISDescriptors$$1$$1$$1$$2$$1$$i)]);
+        signed int DumpSISDescriptors__1__1__1__2__1__i = 0;
+        for( ; !(DumpSISDescriptors__1__1__1__2__1__i >= (signed int)i_dtmf_count); DumpSISDescriptors__1__1__1__2__1__i = DumpSISDescriptors__1__1__1__2__1__i + 1)
+          printf("%c", p_descriptor->p_data[(signed long int)(6 + DumpSISDescriptors__1__1__1__2__1__i)]);
         printf("\" preroll %.2f sec. (%s)\n", i_preroll, (const void *)"DTMF descriptor");
         break;
       }
@@ -5700,8 +5700,8 @@ static void DumpSISDescriptors(const char *str, struct dvbpsi_descriptor_s *p_de
         signed int i = 4;
         for( ; !(i >= (signed int)p_descriptor->i_length); i = i + 1)
           printf("%c", p_descriptor->p_data[(signed long int)i]);
-        return_value_GetDescriptorName$1=GetDescriptorName(p_descriptor->i_tag);
-        printf("\" (%s)\n", return_value_GetDescriptorName$1);
+        return_value_GetDescriptorName_1=GetDescriptorName(p_descriptor->i_tag);
+        printf("\" (%s)\n", return_value_GetDescriptorName_1);
       }
     }
     p_descriptor = p_descriptor->p_next;
@@ -5761,9 +5761,9 @@ static void DumpSubtitleDescriptor(const void *p_descriptor)
 static void DumpSystemClockDescriptor(const void *p_descriptor)
 {
   const struct dvbpsi_system_clock_dr_s *p_clock_descriptor = (const struct dvbpsi_system_clock_dr_s *)p_descriptor;
-  double return_value_pow$1;
-  return_value_pow$1=pow(10.0, -((double)p_clock_descriptor->i_clock_accuracy_exponent));
-  printf("External clock: %s, Accuracy: %E\n", p_clock_descriptor->b_external_clock_ref != (_Bool)0 ? "Yes" : "No", (double)p_clock_descriptor->i_clock_accuracy_integer * return_value_pow$1);
+  double return_value_pow_1;
+  return_value_pow_1=pow(10.0, -((double)p_clock_descriptor->i_clock_accuracy_exponent));
+  printf("External clock: %s, Accuracy: %E\n", p_clock_descriptor->b_external_clock_ref != (_Bool)0 ? "Yes" : "No", (double)p_clock_descriptor->i_clock_accuracy_integer * return_value_pow_1);
 }
 
 // DumpTSDescriptorsBAT
@@ -5945,7 +5945,7 @@ static const char * GetAtscVCTModulationModes(const unsigned char i_mode)
 // file libdvbpsi.c line 1089
 static const char * GetContentSubCategory(const signed int i_type)
 {
-  struct anonymous$8 content_subcategory[95l] = { { .i_category=0x1 << 4 | 0x0, .p_category="General" },
+  struct anonymous_8 content_subcategory[95l] = { { .i_category=0x1 << 4 | 0x0, .p_category="General" },
     { .i_category=0x1 << 4 | 0x1, .p_category="Detective" },
     { .i_category=0x1 << 4 | 0x2, .p_category="Adventure" },
     { .i_category=0x1 << 4 | 0x3, .p_category="Science Fiction" },
@@ -6442,9 +6442,9 @@ static struct dvbpsi_association_tag_dr_s * NewAssociationTagDr(const unsigned l
   else
   {
     unsigned long int i_size = sizeof(struct dvbpsi_association_tag_dr_s) /*32ul*/  + i_selector + i_private;
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, i_size);
-    p_tag = (struct dvbpsi_association_tag_dr_s *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, i_size);
+    p_tag = (struct dvbpsi_association_tag_dr_s *)return_value_calloc_1;
     if(!(p_tag == ((struct dvbpsi_association_tag_dr_s *)NULL)))
     {
       p_tag->p_selector = (unsigned char *)p_tag + (signed long int)sizeof(struct dvbpsi_association_tag_dr_s) /*32ul*/ ;
@@ -6467,9 +6467,9 @@ static struct dvbpsi_carousel_id_dr_s * NewCarouselDr(const unsigned long int i_
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct dvbpsi_carousel_id_dr_s) /*16ul*/  + i_private);
-    p_carousel = (struct dvbpsi_carousel_id_dr_s *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct dvbpsi_carousel_id_dr_s) /*16ul*/  + i_private);
+    p_carousel = (struct dvbpsi_carousel_id_dr_s *)return_value_calloc_1;
     if(!(p_carousel == ((struct dvbpsi_carousel_id_dr_s *)NULL)))
     {
       p_carousel->p_private_data = (unsigned char *)p_carousel + (signed long int)sizeof(struct dvbpsi_carousel_id_dr_s) /*16ul*/ ;
@@ -6490,9 +6490,9 @@ static struct dvbpsi_data_broadcast_id_dr_s * NewDataBroadcastDr(const unsigned 
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct dvbpsi_data_broadcast_id_dr_s) /*16ul*/  + i_private);
-    p_bcast = (struct dvbpsi_data_broadcast_id_dr_s *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct dvbpsi_data_broadcast_id_dr_s) /*16ul*/  + i_private);
+    p_bcast = (struct dvbpsi_data_broadcast_id_dr_s *)return_value_calloc_1;
     if(!(p_bcast == ((struct dvbpsi_data_broadcast_id_dr_s *)NULL)))
     {
       p_bcast->p_id_selector = (unsigned char *)p_bcast + (signed long int)sizeof(struct dvbpsi_data_broadcast_id_dr_s) /*16ul*/ ;
@@ -6540,9 +6540,9 @@ void buffer_free(struct buffer_s *buffer)
 struct buffer_s * buffer_new(unsigned long int i_size)
 {
   struct buffer_s *buffer;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct buffer_s) /*32ul*/  + i_size);
-  buffer = (struct buffer_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct buffer_s) /*32ul*/  + i_size);
+  buffer = (struct buffer_s *)return_value_malloc_1;
   if(buffer == ((struct buffer_s *)NULL))
     return (struct buffer_s *)(void *)0;
 
@@ -6584,9 +6584,9 @@ static void * dvbinfo_capture(void *data)
     if(b_eof == (_Bool)0)
     {
       struct buffer_s *buffer;
-      signed long int return_value_fifo_count$1;
-      return_value_fifo_count$1=fifo_count(capture->empty);
-      if(return_value_fifo_count$1 == 0l)
+      signed long int return_value_fifo_count_1;
+      return_value_fifo_count_1=fifo_count(capture->empty);
+      if(return_value_fifo_count_1 == 0l)
         buffer=buffer_new(capture->size);
 
       else
@@ -6606,9 +6606,9 @@ static void * dvbinfo_capture(void *data)
           }
 
         buffer->i_date=mdate();
-        unsigned long int return_value_fifo_size$2;
-        return_value_fifo_size$2=fifo_size(capture->fifo);
-        if(return_value_fifo_size$2 >= param->threshold)
+        unsigned long int return_value_fifo_size_2;
+        return_value_fifo_size_2=fifo_size(capture->fifo);
+        if(return_value_fifo_size_2 >= param->threshold)
         {
           pthread_mutex_lock(&capture->lock);
           capture->b_fifo_full = (_Bool)1;
@@ -6646,36 +6646,36 @@ static void * dvbinfo_capture(void *data)
 // file dvbinfo.c line 232
 static void dvbinfo_close(struct params_s *param)
 {
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(param->input == ((char *)NULL)))
-    tmp_if_expr$3 = param->b_udp != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = param->b_udp != (_Bool)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = param->fd_in >= 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = param->fd_in >= 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_4)
     udp_close(param->fd_in);
 
   else
   {
     if(!(param->input == ((char *)NULL)))
-      tmp_if_expr$1 = param->b_tcp != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = param->b_tcp != (_Bool)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = param->fd_in >= 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = param->fd_in >= 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
       tcp_close(param->fd_in);
 
     else
@@ -6708,14 +6708,14 @@ static void dvbinfo_open(struct params_s *param)
 
   }
 
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(param->input == ((char *)NULL)))
-    tmp_if_expr$2 = param->b_udp != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = param->b_udp != (_Bool)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  _Bool tmp_if_expr$1;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(tmp_if_expr_2)
   {
     param->fd_in=udp_open(param->mcast_interface, param->input, param->port);
     if(!(param->fd_in >= 0))
@@ -6726,11 +6726,11 @@ static void dvbinfo_open(struct params_s *param)
   else
   {
     if(!(param->input == ((char *)NULL)))
-      tmp_if_expr$1 = param->b_tcp != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = param->b_tcp != (_Bool)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
     {
       param->fd_in=tcp_open(param->input, param->port);
       if(!(param->fd_in >= 0))
@@ -6772,31 +6772,31 @@ static signed int dvbinfo_process(struct dvbinfo_capture_s *capture)
   signed long int deadline = (signed long int)0;
   if(!(param->b_summary == (_Bool)0))
   {
-    signed int return_value_asprintf$1;
-    return_value_asprintf$1=asprintf(&psz_temp, "%s.part", param->summary.file);
-    if(!(return_value_asprintf$1 >= 0))
+    signed int return_value_asprintf_1;
+    return_value_asprintf_1=asprintf(&psz_temp, "%s.part", param->summary.file);
+    if(!(return_value_asprintf_1 >= 0))
     {
       libdvbpsi_log((void *)param, 0, "Could not create temporary summary file %s\n", param->summary.file);
       return err;
     }
 
-    signed long int return_value_mdate$2;
-    return_value_mdate$2=mdate();
-    deadline = return_value_mdate$2 + param->summary.period;
+    signed long int return_value_mdate_2;
+    return_value_mdate_2=mdate();
+    deadline = return_value_mdate_2 + param->summary.period;
   }
 
   struct ts_stream_t *stream;
   stream=libdvbpsi_init(param->debug, libdvbpsi_log, (void *)param);
-  signed long int return_value_fifo_count$3;
-  signed long int return_value_fifo_count$9;
+  signed long int return_value_fifo_count_3;
+  signed long int return_value_fifo_count_9;
   if(!(stream == ((struct ts_stream_t *)NULL)))
   {
     while(b_error == (_Bool)0)
     {
       if(capture->b_alive == (_Bool)0)
       {
-        return_value_fifo_count$3=fifo_count(capture->fifo);
-        if(return_value_fifo_count$3 == 0l)
+        return_value_fifo_count_3=fifo_count(capture->fifo);
+        if(return_value_fifo_count_3 == 0l)
           break;
 
       }
@@ -6810,9 +6810,9 @@ static signed int dvbinfo_process(struct dvbinfo_capture_s *capture)
           size=param->pf_write(param->fd_out, (const void *)buffer->p_data, buffer->i_size);
           if(!(size >= 0l))
           {
-            signed int *return_value___errno_location$4;
-            return_value___errno_location$4=__errno_location();
-            libdvbpsi_log((void *)param, 0, "error (%d) writting to %s\n", *return_value___errno_location$4, param->output);
+            signed int *return_value___errno_location_4;
+            return_value___errno_location_4=__errno_location();
+            libdvbpsi_log((void *)param, 0, "error (%d) writting to %s\n", *return_value___errno_location_4, param->output);
             break;
           }
 
@@ -6825,16 +6825,16 @@ static signed int dvbinfo_process(struct dvbinfo_capture_s *capture)
 
         }
 
-        _Bool return_value_libdvbpsi_process$5;
-        return_value_libdvbpsi_process$5=libdvbpsi_process(stream, buffer->p_data, (signed long int)buffer->i_size, buffer->i_date);
-        if(return_value_libdvbpsi_process$5 == (_Bool)0)
+        _Bool return_value_libdvbpsi_process_5;
+        return_value_libdvbpsi_process_5=libdvbpsi_process(stream, buffer->p_data, (signed long int)buffer->i_size, buffer->i_date);
+        if(return_value_libdvbpsi_process_5 == (_Bool)0)
           b_error = (_Bool)1;
 
         if(!(param->b_summary == (_Bool)0))
         {
-          signed long int return_value_mdate$7;
-          return_value_mdate$7=mdate();
-          if(return_value_mdate$7 >= deadline)
+          signed long int return_value_mdate_7;
+          return_value_mdate_7=mdate();
+          if(return_value_mdate_7 >= deadline)
           {
             struct _IO_FILE *fd;
             fd=fopen(psz_temp, "w+");
@@ -6859,18 +6859,18 @@ static signed int dvbinfo_process(struct dvbinfo_capture_s *capture)
               libdvbpsi_log((void *)param, 0, "failed opening summary file (disabling summary logging)\n");
               param->b_summary = (_Bool)0;
             }
-            signed long int return_value_mdate$6;
-            return_value_mdate$6=mdate();
-            deadline = return_value_mdate$6 + param->summary.period;
+            signed long int return_value_mdate_6;
+            return_value_mdate_6=mdate();
+            deadline = return_value_mdate_6 + param->summary.period;
           }
 
         }
 
         fifo_push(capture->empty, buffer);
         buffer = (struct buffer_s *)(void *)0;
-        unsigned long int return_value_fifo_size$8;
-        return_value_fifo_size$8=fifo_size(capture->fifo);
-        if(!(return_value_fifo_size$8 >= param->threshold))
+        unsigned long int return_value_fifo_size_8;
+        return_value_fifo_size_8=fifo_size(capture->fifo);
+        if(!(return_value_fifo_size_8 >= param->threshold))
         {
           pthread_mutex_lock(&capture->lock);
           capture->b_fifo_full = (_Bool)0;
@@ -6881,9 +6881,9 @@ static signed int dvbinfo_process(struct dvbinfo_capture_s *capture)
       }
 
     }
-    return_value_fifo_count$9=fifo_count(capture->fifo);
+    return_value_fifo_count_9=fifo_count(capture->fifo);
     /* assertion fifo_count(capture->fifo) == 0 */
-    assert(return_value_fifo_count$9 == (signed long int)0);
+    assert(return_value_fifo_count_9 == (signed long int)0);
     libdvbpsi_exit(stream);
     err = 0;
   }
@@ -6939,10 +6939,10 @@ static _Bool dvbpsi_AddSectionBAT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_bat_d
     p_bat_decoder->i_last_section_number = p_section->i_last_number;
   }
 
-  _Bool return_value_dvbpsi_decoder_psi_section_add$1;
-  return_value_dvbpsi_decoder_psi_section_add$1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_bat_decoder, p_section);
-  if(!(return_value_dvbpsi_decoder_psi_section_add$1 == (_Bool)0))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"BAT decoder", p_section->i_number);
+  _Bool return_value_dvbpsi_decoder_psi_section_add_1;
+  return_value_dvbpsi_decoder_psi_section_add_1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_bat_decoder, p_section);
+  if(!(return_value_dvbpsi_decoder_psi_section_add_1 == (_Bool)0))
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"BAT decoder", p_section->i_number);
 
   return (_Bool)1;
 }
@@ -6966,10 +6966,10 @@ static _Bool dvbpsi_AddSectionCAT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_cat_d
     p_decoder->i_last_section_number = p_section->i_last_number;
   }
 
-  _Bool return_value_dvbpsi_decoder_psi_section_add$1;
-  return_value_dvbpsi_decoder_psi_section_add$1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_decoder, p_section);
-  if(!(return_value_dvbpsi_decoder_psi_section_add$1 == (_Bool)0))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"CAT decoder", p_section->i_number);
+  _Bool return_value_dvbpsi_decoder_psi_section_add_1;
+  return_value_dvbpsi_decoder_psi_section_add_1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_decoder, p_section);
+  if(!(return_value_dvbpsi_decoder_psi_section_add_1 == (_Bool)0))
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"CAT decoder", p_section->i_number);
 
   return (_Bool)1;
 }
@@ -6995,37 +6995,37 @@ static _Bool dvbpsi_AddSectionEIT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_eit_d
     p_eit_decoder->i_last_section_number = p_section->i_last_number;
   }
 
-  _Bool return_value_dvbpsi_decoder_psi_section_add$1;
-  return_value_dvbpsi_decoder_psi_section_add$1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_eit_decoder, p_section);
-  if(!(return_value_dvbpsi_decoder_psi_section_add$1 == (_Bool)0))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"EIT decoder", p_section->i_number);
+  _Bool return_value_dvbpsi_decoder_psi_section_add_1;
+  return_value_dvbpsi_decoder_psi_section_add_1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_eit_decoder, p_section);
+  if(!(return_value_dvbpsi_decoder_psi_section_add_1 == (_Bool)0))
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"EIT decoder", p_section->i_number);
 
   return (_Bool)1;
 }
 
-// dvbpsi_AddSectionEIT$link1
+// dvbpsi_AddSectionEIT_link1
 // file tables/atsc_eit.c line 347
-static _Bool dvbpsi_AddSectionEIT$link1(struct dvbpsi_s *p_dvbpsi$link1, struct dvbpsi_atsc_eit_decoder_s *p_decoder, struct dvbpsi_psi_section_s *p_section$link1)
+static _Bool dvbpsi_AddSectionEIT_link1(struct dvbpsi_s *p_dvbpsi_link1, struct dvbpsi_atsc_eit_decoder_s *p_decoder, struct dvbpsi_psi_section_s *p_section_link1)
 {
   /* assertion p_dvbpsi */
-  assert(p_dvbpsi$link1 != ((struct dvbpsi_s *)NULL));
+  assert(p_dvbpsi_link1 != ((struct dvbpsi_s *)NULL));
   /* assertion p_decoder */
   assert(p_decoder != ((struct dvbpsi_atsc_eit_decoder_s *)NULL));
   /* assertion p_section */
-  assert(p_section$link1 != ((struct dvbpsi_psi_section_s *)NULL));
+  assert(p_section_link1 != ((struct dvbpsi_psi_section_s *)NULL));
   if(p_decoder->p_building_eit == ((struct dvbpsi_atsc_eit_s *)NULL))
   {
-    p_decoder->p_building_eit=dvbpsi_atsc_NewEIT(p_section$link1->i_table_id, p_section$link1->i_extension, p_section$link1->i_version, p_section$link1->p_payload_start[(signed long int)0], p_section$link1->i_extension, p_section$link1->b_current_next);
+    p_decoder->p_building_eit=dvbpsi_atsc_NewEIT(p_section_link1->i_table_id, p_section_link1->i_extension, p_section_link1->i_version, p_section_link1->p_payload_start[(signed long int)0], p_section_link1->i_extension, p_section_link1->b_current_next);
     if(p_decoder->p_building_eit == ((struct dvbpsi_atsc_eit_s *)NULL))
       return (_Bool)0;
 
-    p_decoder->i_last_section_number = p_section$link1->i_last_number;
+    p_decoder->i_last_section_number = p_section_link1->i_last_number;
   }
 
-  _Bool return_value_dvbpsi_decoder_psi_section_add$1$link1;
-  return_value_dvbpsi_decoder_psi_section_add$1$link1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_decoder, p_section$link1);
-  if(!(return_value_dvbpsi_decoder_psi_section_add$1$link1 == (_Bool)0))
-    dvbpsi_message$link1(p_dvbpsi$link1, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"ATSC EIT decoder", p_section$link1->i_number);
+  _Bool return_value_dvbpsi_decoder_psi_section_add_1_link1;
+  return_value_dvbpsi_decoder_psi_section_add_1_link1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_decoder, p_section_link1);
+  if(!(return_value_dvbpsi_decoder_psi_section_add_1_link1 == (_Bool)0))
+    dvbpsi_message_link1(p_dvbpsi_link1, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"ATSC EIT decoder", p_section_link1->i_number);
 
   return (_Bool)1;
 }
@@ -7050,10 +7050,10 @@ static _Bool dvbpsi_AddSectionETT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_atsc_
     p_decoder->i_last_section_number = p_section->i_last_number;
   }
 
-  _Bool return_value_dvbpsi_decoder_psi_section_add$1;
-  return_value_dvbpsi_decoder_psi_section_add$1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_decoder, p_section);
-  if(!(return_value_dvbpsi_decoder_psi_section_add$1 == (_Bool)0))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"ATSC ETT decoder", p_section->i_number);
+  _Bool return_value_dvbpsi_decoder_psi_section_add_1;
+  return_value_dvbpsi_decoder_psi_section_add_1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_decoder, p_section);
+  if(!(return_value_dvbpsi_decoder_psi_section_add_1 == (_Bool)0))
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"ATSC ETT decoder", p_section->i_number);
 
   return (_Bool)1;
 }
@@ -7077,10 +7077,10 @@ static _Bool dvbpsi_AddSectionMGT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_atsc_
     p_decoder->i_last_section_number = p_section->i_last_number;
   }
 
-  _Bool return_value_dvbpsi_decoder_psi_section_add$1;
-  return_value_dvbpsi_decoder_psi_section_add$1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_decoder, p_section);
-  if(!(return_value_dvbpsi_decoder_psi_section_add$1 == (_Bool)0))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"ATSC MGT decoder", p_section->i_number);
+  _Bool return_value_dvbpsi_decoder_psi_section_add_1;
+  return_value_dvbpsi_decoder_psi_section_add_1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_decoder, p_section);
+  if(!(return_value_dvbpsi_decoder_psi_section_add_1 == (_Bool)0))
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"ATSC MGT decoder", p_section->i_number);
 
   return (_Bool)1;
 }
@@ -7104,10 +7104,10 @@ static _Bool dvbpsi_AddSectionNIT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_nit_d
     p_nit_decoder->i_last_section_number = p_section->i_last_number;
   }
 
-  _Bool return_value_dvbpsi_decoder_psi_section_add$1;
-  return_value_dvbpsi_decoder_psi_section_add$1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_nit_decoder, p_section);
-  if(!(return_value_dvbpsi_decoder_psi_section_add$1 == (_Bool)0))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"NIT decoder", p_section->i_number);
+  _Bool return_value_dvbpsi_decoder_psi_section_add_1;
+  return_value_dvbpsi_decoder_psi_section_add_1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_nit_decoder, p_section);
+  if(!(return_value_dvbpsi_decoder_psi_section_add_1 == (_Bool)0))
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"NIT decoder", p_section->i_number);
 
   return (_Bool)1;
 }
@@ -7131,10 +7131,10 @@ static _Bool dvbpsi_AddSectionPAT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_pat_d
     p_pat_decoder->i_last_section_number = p_section->i_last_number;
   }
 
-  _Bool return_value_dvbpsi_decoder_psi_section_add$1;
-  return_value_dvbpsi_decoder_psi_section_add$1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_pat_decoder, p_section);
-  if(!(return_value_dvbpsi_decoder_psi_section_add$1 == (_Bool)0))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"PAT decoder", p_section->i_number);
+  _Bool return_value_dvbpsi_decoder_psi_section_add_1;
+  return_value_dvbpsi_decoder_psi_section_add_1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_pat_decoder, p_section);
+  if(!(return_value_dvbpsi_decoder_psi_section_add_1 == (_Bool)0))
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"PAT decoder", p_section->i_number);
 
   return (_Bool)1;
 }
@@ -7158,10 +7158,10 @@ static _Bool dvbpsi_AddSectionPMT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_pmt_d
     p_pmt_decoder->i_last_section_number = p_section->i_last_number;
   }
 
-  _Bool return_value_dvbpsi_decoder_psi_section_add$1;
-  return_value_dvbpsi_decoder_psi_section_add$1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_pmt_decoder, p_section);
-  if(!(return_value_dvbpsi_decoder_psi_section_add$1 == (_Bool)0))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"PMT decoder", p_section->i_number);
+  _Bool return_value_dvbpsi_decoder_psi_section_add_1;
+  return_value_dvbpsi_decoder_psi_section_add_1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_pmt_decoder, p_section);
+  if(!(return_value_dvbpsi_decoder_psi_section_add_1 == (_Bool)0))
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"PMT decoder", p_section->i_number);
 
   return (_Bool)1;
 }
@@ -7185,10 +7185,10 @@ static _Bool dvbpsi_AddSectionSDT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_sdt_d
     p_sdt_decoder->i_last_section_number = p_section->i_last_number;
   }
 
-  _Bool return_value_dvbpsi_decoder_psi_section_add$1;
-  return_value_dvbpsi_decoder_psi_section_add$1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_sdt_decoder, p_section);
-  if(!(return_value_dvbpsi_decoder_psi_section_add$1 == (_Bool)0))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"SDT decoder", p_section->i_number);
+  _Bool return_value_dvbpsi_decoder_psi_section_add_1;
+  return_value_dvbpsi_decoder_psi_section_add_1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_sdt_decoder, p_section);
+  if(!(return_value_dvbpsi_decoder_psi_section_add_1 == (_Bool)0))
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"SDT decoder", p_section->i_number);
 
   return (_Bool)1;
 }
@@ -7212,10 +7212,10 @@ static _Bool dvbpsi_AddSectionSIS(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_sis_d
     p_sis_decoder->i_last_section_number = p_section->i_last_number;
   }
 
-  _Bool return_value_dvbpsi_decoder_psi_section_add$1;
-  return_value_dvbpsi_decoder_psi_section_add$1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_sis_decoder, p_section);
-  if(!(return_value_dvbpsi_decoder_psi_section_add$1 == (_Bool)0))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"SDT decoder", p_section->i_number);
+  _Bool return_value_dvbpsi_decoder_psi_section_add_1;
+  return_value_dvbpsi_decoder_psi_section_add_1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_sis_decoder, p_section);
+  if(!(return_value_dvbpsi_decoder_psi_section_add_1 == (_Bool)0))
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"SDT decoder", p_section->i_number);
 
   return (_Bool)1;
 }
@@ -7239,10 +7239,10 @@ static _Bool dvbpsi_AddSectionSTT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_atsc_
     p_decoder->i_last_section_number = p_section->i_last_number;
   }
 
-  _Bool return_value_dvbpsi_decoder_psi_section_add$1;
-  return_value_dvbpsi_decoder_psi_section_add$1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_decoder, p_section);
-  if(!(return_value_dvbpsi_decoder_psi_section_add$1 == (_Bool)0))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"ATSC STT decoder", p_section->i_number);
+  _Bool return_value_dvbpsi_decoder_psi_section_add_1;
+  return_value_dvbpsi_decoder_psi_section_add_1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_decoder, p_section);
+  if(!(return_value_dvbpsi_decoder_psi_section_add_1 == (_Bool)0))
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"ATSC STT decoder", p_section->i_number);
 
   return (_Bool)1;
 }
@@ -7266,10 +7266,10 @@ static _Bool dvbpsi_AddSectionTOT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_tot_d
     p_tot_decoder->i_last_section_number = p_section->i_last_number;
   }
 
-  _Bool return_value_dvbpsi_decoder_psi_section_add$1;
-  return_value_dvbpsi_decoder_psi_section_add$1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_tot_decoder, p_section);
-  if(!(return_value_dvbpsi_decoder_psi_section_add$1 == (_Bool)0))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"TOT decoder", p_section->i_number);
+  _Bool return_value_dvbpsi_decoder_psi_section_add_1;
+  return_value_dvbpsi_decoder_psi_section_add_1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_tot_decoder, p_section);
+  if(!(return_value_dvbpsi_decoder_psi_section_add_1 == (_Bool)0))
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"TOT decoder", p_section->i_number);
 
   return (_Bool)1;
 }
@@ -7293,10 +7293,10 @@ static _Bool dvbpsi_AddSectionVCT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_atsc_
     p_vct_decoder->i_last_section_number = p_section->i_last_number;
   }
 
-  _Bool return_value_dvbpsi_decoder_psi_section_add$1;
-  return_value_dvbpsi_decoder_psi_section_add$1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_vct_decoder, p_section);
-  if(!(return_value_dvbpsi_decoder_psi_section_add$1 == (_Bool)0))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"ATSC VCT decoder", p_section->i_number);
+  _Bool return_value_dvbpsi_decoder_psi_section_add_1;
+  return_value_dvbpsi_decoder_psi_section_add_1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_vct_decoder, p_section);
+  if(!(return_value_dvbpsi_decoder_psi_section_add_1 == (_Bool)0))
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"ATSC VCT decoder", p_section->i_number);
 
   return (_Bool)1;
 }
@@ -7310,9 +7310,9 @@ _Bool dvbpsi_AttachDemux(struct dvbpsi_s *p_dvbpsi, void (*pf_new_cb)(struct dvb
   /* assertion p_dvbpsi->p_decoder == ((void *)0) */
   assert(p_dvbpsi->p_decoder == (struct dvbpsi_decoder_s *)(void *)0);
   struct dvbpsi_demux_s *p_demux;
-  void *return_value_dvbpsi_decoder_new$1;
-  return_value_dvbpsi_decoder_new$1=dvbpsi_decoder_new(dvbpsi_Demux, 4096, (const _Bool)1, sizeof(struct dvbpsi_demux_s) /*64ul*/ );
-  p_demux = (struct dvbpsi_demux_s *)return_value_dvbpsi_decoder_new$1;
+  void *return_value_dvbpsi_decoder_new_1;
+  return_value_dvbpsi_decoder_new_1=dvbpsi_decoder_new(dvbpsi_Demux, 4096, (const _Bool)1, sizeof(struct dvbpsi_demux_s) /*64ul*/ );
+  p_demux = (struct dvbpsi_demux_s *)return_value_dvbpsi_decoder_new_1;
   if(p_demux == ((struct dvbpsi_demux_s *)NULL))
     return (_Bool)0;
 
@@ -7372,20 +7372,20 @@ void dvbpsi_BuildPSISection(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_section
     p_section->p_data[(signed long int)7] = p_section->i_last_number;
   }
 
-  _Bool return_value_dvbpsi_has_CRC32$2;
-  return_value_dvbpsi_has_CRC32$2=dvbpsi_has_CRC32$link1(p_section);
-  if(!(return_value_dvbpsi_has_CRC32$2 == (_Bool)0))
+  _Bool return_value_dvbpsi_has_CRC32_2;
+  return_value_dvbpsi_has_CRC32_2=dvbpsi_has_CRC32_link1(p_section);
+  if(!(return_value_dvbpsi_has_CRC32_2 == (_Bool)0))
   {
     dvbpsi_CalculateCRC32(p_section);
-    _Bool return_value_dvbpsi_ValidPSISection$1;
-    return_value_dvbpsi_ValidPSISection$1=dvbpsi_ValidPSISection(p_section);
-    if(return_value_dvbpsi_ValidPSISection$1 == (_Bool)0)
+    _Bool return_value_dvbpsi_ValidPSISection_1;
+    return_value_dvbpsi_ValidPSISection_1=dvbpsi_ValidPSISection(p_section);
+    if(return_value_dvbpsi_ValidPSISection_1 == (_Bool)0)
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): ********************************************", (const void *)"misc PSI");
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): * Generated PSI section has a bad CRC_32.  *", (const void *)"misc PSI");
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): * THIS IS A BUG, PLEASE REPORT TO THE LIST *", (const void *)"misc PSI");
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): *  ---  libdvbpsi-devel@videolan.org  ---  *", (const void *)"misc PSI");
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): ********************************************", (const void *)"misc PSI");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): ********************************************", (const void *)"misc PSI");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): * Generated PSI section has a bad CRC_32.  *", (const void *)"misc PSI");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): * THIS IS A BUG, PLEASE REPORT TO THE LIST *", (const void *)"misc PSI");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): *  ---  libdvbpsi-devel@videolan.org  ---  *", (const void *)"misc PSI");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): ********************************************", (const void *)"misc PSI");
     }
 
   }
@@ -7415,9 +7415,9 @@ _Bool dvbpsi_CanDecodeAsDescriptor(struct dvbpsi_descriptor_s *p_descriptor, con
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptor$1;
-    return_value_dvbpsi_IsDescriptor$1=dvbpsi_IsDescriptor(p_descriptor, i_tag);
-    if(return_value_dvbpsi_IsDescriptor$1 == (_Bool)0)
+    _Bool return_value_dvbpsi_IsDescriptor_1;
+    return_value_dvbpsi_IsDescriptor_1=dvbpsi_IsDescriptor(p_descriptor, i_tag);
+    if(return_value_dvbpsi_IsDescriptor_1 == (_Bool)0)
       return (_Bool)0;
 
     else
@@ -7436,21 +7436,21 @@ static _Bool dvbpsi_CheckBAT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_bat_decode
   assert(p_bat_decoder != ((struct dvbpsi_bat_decoder_s *)NULL));
   if(!(p_bat_decoder->p_building_bat->i_extension == p_section->i_extension))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'bouquet_id' differs whereas no TS discontinuity has occured", (const void *)"BAT decoder");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'bouquet_id' differs whereas no TS discontinuity has occured", (const void *)"BAT decoder");
     b_reinit = (_Bool)1;
   }
 
   else
     if(!(p_bat_decoder->p_building_bat->i_version == p_section->i_version))
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"BAT decoder");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"BAT decoder");
       b_reinit = (_Bool)1;
     }
 
     else
       if(!(p_bat_decoder->i_last_section_number == p_section->i_last_number))
       {
-        dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"BAT decoder");
+        dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"BAT decoder");
         b_reinit = (_Bool)1;
       }
 
@@ -7467,14 +7467,14 @@ static _Bool dvbpsi_CheckCAT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sectio
   struct dvbpsi_cat_decoder_s *p_cat_decoder = (struct dvbpsi_cat_decoder_s *)p_dvbpsi->p_decoder;
   if(!(p_cat_decoder->p_building_cat->i_version == p_section->i_version))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"CAT decoder");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"CAT decoder");
     b_reinit = (_Bool)1;
   }
 
   else
     if(!(p_cat_decoder->i_last_section_number == p_section->i_last_number))
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"CAT decoder");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"CAT decoder");
       b_reinit = (_Bool)1;
     }
 
@@ -7492,57 +7492,57 @@ static _Bool dvbpsi_CheckEIT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_eit_decode
   assert(p_eit_decoder != ((struct dvbpsi_eit_decoder_s *)NULL));
   if(!(p_eit_decoder->p_building_eit->i_extension == p_section->i_extension))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'service_id' differs whereas no TS discontinuity has occurred", (const void *)"EIT decoder");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'service_id' differs whereas no TS discontinuity has occurred", (const void *)"EIT decoder");
     b_reinit = (_Bool)1;
   }
 
   else
     if(!(p_eit_decoder->p_building_eit->i_version == p_section->i_version))
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occurred", (const void *)"EIT decoder");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occurred", (const void *)"EIT decoder");
       b_reinit = (_Bool)1;
     }
 
     else
       if(!(p_eit_decoder->i_last_section_number == p_section->i_last_number))
       {
-        dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"EIT decoder");
+        dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"EIT decoder");
         b_reinit = (_Bool)1;
       }
 
   return b_reinit;
 }
 
-// dvbpsi_CheckEIT$link1
+// dvbpsi_CheckEIT_link1
 // file tables/atsc_eit.c line 311
-static _Bool dvbpsi_CheckEIT$link1(struct dvbpsi_s *p_dvbpsi$link1, struct dvbpsi_atsc_eit_decoder_s *p_decoder, struct dvbpsi_psi_section_s *p_section$link1)
+static _Bool dvbpsi_CheckEIT_link1(struct dvbpsi_s *p_dvbpsi_link1, struct dvbpsi_atsc_eit_decoder_s *p_decoder, struct dvbpsi_psi_section_s *p_section_link1)
 {
-  _Bool b_reinit$link1 = (_Bool)0;
+  _Bool b_reinit_link1 = (_Bool)0;
   /* assertion p_dvbpsi */
-  assert(p_dvbpsi$link1 != ((struct dvbpsi_s *)NULL));
+  assert(p_dvbpsi_link1 != ((struct dvbpsi_s *)NULL));
   /* assertion p_decoder */
   assert(p_decoder != ((struct dvbpsi_atsc_eit_decoder_s *)NULL));
-  if(!(p_decoder->p_building_eit->i_source_id == p_section$link1->i_extension))
+  if(!(p_decoder->p_building_eit->i_source_id == p_section_link1->i_extension))
   {
-    dvbpsi_message$link1(p_dvbpsi$link1, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'transport_stream_id' differs whereas no TS discontinuity has occured", (const void *)"ATSC EIT decoder");
-    b_reinit$link1 = (_Bool)1;
+    dvbpsi_message_link1(p_dvbpsi_link1, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'transport_stream_id' differs whereas no TS discontinuity has occured", (const void *)"ATSC EIT decoder");
+    b_reinit_link1 = (_Bool)1;
   }
 
   else
-    if(!(p_decoder->p_building_eit->i_version == p_section$link1->i_version))
+    if(!(p_decoder->p_building_eit->i_version == p_section_link1->i_version))
     {
-      dvbpsi_message$link1(p_dvbpsi$link1, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"ATSC EIT decoder");
-      b_reinit$link1 = (_Bool)1;
+      dvbpsi_message_link1(p_dvbpsi_link1, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"ATSC EIT decoder");
+      b_reinit_link1 = (_Bool)1;
     }
 
     else
-      if(!(p_decoder->i_last_section_number == p_section$link1->i_last_number))
+      if(!(p_decoder->i_last_section_number == p_section_link1->i_last_number))
       {
-        dvbpsi_message$link1(p_dvbpsi$link1, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"ATSC EIT decoder");
-        b_reinit$link1 = (_Bool)1;
+        dvbpsi_message_link1(p_dvbpsi_link1, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"ATSC EIT decoder");
+        b_reinit_link1 = (_Bool)1;
       }
 
-  return b_reinit$link1;
+  return b_reinit_link1;
 }
 
 // dvbpsi_CheckETT
@@ -7556,21 +7556,21 @@ static _Bool dvbpsi_CheckETT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_atsc_ett_d
   assert(p_decoder != ((struct dvbpsi_atsc_ett_decoder_s *)NULL));
   if(!((signed int)p_decoder->p_building_ett->i_protocol == (signed int)p_section->i_extension))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'protocol version' differs whereas no TS discontinuity has occured", (const void *)"ATSC ETT decoder");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'protocol version' differs whereas no TS discontinuity has occured", (const void *)"ATSC ETT decoder");
     b_reinit = (_Bool)1;
   }
 
   else
     if(!(p_decoder->p_building_ett->i_version == p_section->i_version))
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"ATSC ETT decoder");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"ATSC ETT decoder");
       b_reinit = (_Bool)1;
     }
 
     else
       if(!(p_decoder->i_last_section_number == p_section->i_last_number))
       {
-        dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"ATSC ETT decoder");
+        dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"ATSC ETT decoder");
         b_reinit = (_Bool)1;
       }
 
@@ -7588,21 +7588,21 @@ static _Bool dvbpsi_CheckMGT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_atsc_mgt_d
   assert(p_decoder != ((struct dvbpsi_atsc_mgt_decoder_s *)NULL));
   if(!(p_decoder->p_building_mgt->i_table_id_ext == p_section->i_extension))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'transport_stream_id' differs whereas no TS discontinuity has occured", (const void *)"ATSC MGT decoder");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'transport_stream_id' differs whereas no TS discontinuity has occured", (const void *)"ATSC MGT decoder");
     b_reinit = (_Bool)1;
   }
 
   else
     if(!(p_decoder->p_building_mgt->i_version == p_section->i_version))
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"ATSC MGT decoder");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"ATSC MGT decoder");
       b_reinit = (_Bool)1;
     }
 
     else
       if(!(p_decoder->i_last_section_number == p_section->i_last_number))
       {
-        dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"ATSC MGT decoder");
+        dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"ATSC MGT decoder");
         b_reinit = (_Bool)1;
       }
 
@@ -7620,14 +7620,14 @@ static _Bool dvbpsi_CheckNIT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_nit_decode
   _Bool b_reinit = (_Bool)0;
   if(!(p_nit_decoder->p_building_nit->i_version == p_section->i_version))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"NIT decoder");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"NIT decoder");
     b_reinit = (_Bool)1;
   }
 
   else
     if(!(p_nit_decoder->i_last_section_number == p_section->i_last_number))
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"NIT decoder");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"NIT decoder");
       b_reinit = (_Bool)1;
     }
 
@@ -7644,21 +7644,21 @@ static _Bool dvbpsi_CheckPAT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sectio
   struct dvbpsi_pat_decoder_s *p_pat_decoder = (struct dvbpsi_pat_decoder_s *)p_dvbpsi->p_decoder;
   if(!(p_pat_decoder->p_building_pat->i_ts_id == p_section->i_extension))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'transport_stream_id' differs whereas no TS discontinuity has occured", (const void *)"PAT decoder");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'transport_stream_id' differs whereas no TS discontinuity has occured", (const void *)"PAT decoder");
     b_reinit = (_Bool)1;
   }
 
   else
     if(!(p_pat_decoder->p_building_pat->i_version == p_section->i_version))
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"PAT decoder");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"PAT decoder");
       b_reinit = (_Bool)1;
     }
 
     else
       if(!(p_pat_decoder->i_last_section_number == p_section->i_last_number))
       {
-        dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"PAT decoder");
+        dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"PAT decoder");
         b_reinit = (_Bool)1;
       }
 
@@ -7675,14 +7675,14 @@ static _Bool dvbpsi_CheckPMT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sectio
   struct dvbpsi_pmt_decoder_s *p_pmt_decoder = (struct dvbpsi_pmt_decoder_s *)p_dvbpsi->p_decoder;
   if(!(p_pmt_decoder->p_building_pmt->i_version == p_section->i_version))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"PMT decoder");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"PMT decoder");
     b_reinit = (_Bool)1;
   }
 
   else
     if(!(p_pmt_decoder->i_last_section_number == p_section->i_last_number))
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"PMT decoder");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"PMT decoder");
       b_reinit = (_Bool)1;
     }
 
@@ -7699,7 +7699,7 @@ _Bool dvbpsi_CheckPSISection(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sectio
   assert(p_section != ((struct dvbpsi_psi_section_s *)NULL));
   if(!(p_section->i_table_id == table_id))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring section (table_id == 0x%02x expected 0x%02x)", psz_table_name, p_section->i_table_id, table_id);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring section (table_id == 0x%02x expected 0x%02x)", psz_table_name, p_section->i_table_id, table_id);
     return (_Bool)0;
   }
 
@@ -7709,7 +7709,7 @@ _Bool dvbpsi_CheckPSISection(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sectio
       if((signed int)table_id == 0x70 || (signed int)table_id == 0x73)
         goto __CPROVER_DUMP_L2;
 
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): invalid section (section_syntax_indicator == 0)", psz_table_name);
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): invalid section (section_syntax_indicator == 0)", psz_table_name);
       return (_Bool)0;
     }
 
@@ -7718,7 +7718,7 @@ _Bool dvbpsi_CheckPSISection(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sectio
 
     __CPROVER_DUMP_L2:
       ;
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): Table version %2d, i_extension %5d, section %3d up to %3d, current %1d", psz_table_name, p_section->i_version, p_section->i_extension, p_section->i_number, p_section->i_last_number, p_section->b_current_next);
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): Table version %2d, i_extension %5d, section %3d up to %3d, current %1d", psz_table_name, p_section->i_version, p_section->i_extension, p_section->i_number, p_section->i_last_number, p_section->b_current_next);
       return (_Bool)1;
     }
 }
@@ -7734,21 +7734,21 @@ static _Bool dvbpsi_CheckSDT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_sdt_decode
   assert(p_sdt_decoder != ((struct dvbpsi_sdt_decoder_s *)NULL));
   if(!(p_sdt_decoder->p_building_sdt->i_extension == p_section->i_extension))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'transport_stream_id' differs whereas no TS discontinuity has occured", (const void *)"SDT decoder");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'transport_stream_id' differs whereas no TS discontinuity has occured", (const void *)"SDT decoder");
     b_reinit = (_Bool)1;
   }
 
   else
     if(!(p_sdt_decoder->p_building_sdt->i_version == p_section->i_version))
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"SDT decoder");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"SDT decoder");
       b_reinit = (_Bool)1;
     }
 
     else
       if(!(p_sdt_decoder->i_last_section_number == p_section->i_last_number))
       {
-        dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"SDT decoder");
+        dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"SDT decoder");
         b_reinit = (_Bool)1;
       }
 
@@ -7766,28 +7766,28 @@ static _Bool dvbpsi_CheckSIS(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_sis_decode
   assert(p_sis_decoder != ((struct dvbpsi_sis_decoder_s *)NULL));
   if(!((signed int)p_sis_decoder->p_building_sis->i_protocol_version == 0))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'protocol_version' differs while no discontinuity has occured", (const void *)"SIS decoder");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'protocol_version' differs while no discontinuity has occured", (const void *)"SIS decoder");
     b_reinit = (_Bool)1;
   }
 
   else
     if(!(p_sis_decoder->p_building_sis->i_extension == p_section->i_extension))
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'transport_stream_id' differs whereas no discontinuity has occured", (const void *)"SIS decoder");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'transport_stream_id' differs whereas no discontinuity has occured", (const void *)"SIS decoder");
       b_reinit = (_Bool)1;
     }
 
     else
       if(!(p_sis_decoder->p_building_sis->i_version == p_section->i_version))
       {
-        dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"SIS decoder");
+        dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"SIS decoder");
         b_reinit = (_Bool)1;
       }
 
       else
         if(!(p_sis_decoder->i_last_section_number == p_section->i_last_number))
         {
-          dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"SIS decoder");
+          dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"SIS decoder");
           b_reinit = (_Bool)1;
         }
 
@@ -7805,14 +7805,14 @@ static _Bool dvbpsi_CheckSTT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_atsc_stt_d
   assert(p_decoder != ((struct dvbpsi_atsc_stt_decoder_s *)NULL));
   if(!(p_decoder->p_building_stt->i_version == p_section->i_version))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"ATSC STT decoder");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"ATSC STT decoder");
     b_reinit = (_Bool)1;
   }
 
   else
     if(!(p_decoder->i_last_section_number == p_section->i_last_number))
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"ATSC STT decoder");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"ATSC STT decoder");
       b_reinit = (_Bool)1;
     }
 
@@ -7830,21 +7830,21 @@ static _Bool dvbpsi_CheckTOT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_tot_decode
   assert(p_tot_decoder != ((struct dvbpsi_tot_decoder_s *)NULL));
   if(!(p_tot_decoder->p_building_tot->i_extension == p_section->i_extension))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'transport_stream_id' differs whereas no TS discontinuity has occured", (const void *)"TDT/TOT decoder");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'transport_stream_id' differs whereas no TS discontinuity has occured", (const void *)"TDT/TOT decoder");
     b_reinit = (_Bool)1;
   }
 
   else
     if(!(p_tot_decoder->p_building_tot->i_version == p_section->i_version))
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"TDT/TOT decoder");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"TDT/TOT decoder");
       b_reinit = (_Bool)1;
     }
 
     else
       if(!(p_tot_decoder->i_last_section_number == p_section->i_last_number))
       {
-        dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"TDT/TOT decoder");
+        dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"TDT/TOT decoder");
         b_reinit = (_Bool)1;
       }
 
@@ -7862,21 +7862,21 @@ static _Bool dvbpsi_CheckVCT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_atsc_vct_d
   assert(p_vct_decoder != ((struct dvbpsi_atsc_vct_decoder_s *)NULL));
   if(!(p_vct_decoder->p_building_vct->i_extension == p_section->i_extension))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'transport_stream_id' differs whereas no TS discontinuity has occured", (const void *)"ATSC VCT decoder");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'transport_stream_id' differs whereas no TS discontinuity has occured", (const void *)"ATSC VCT decoder");
     b_reinit = (_Bool)1;
   }
 
   else
     if(!(p_vct_decoder->p_building_vct->i_version == p_section->i_version))
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"ATSC VCT decoder");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'version_number' differs whereas no discontinuity has occured", (const void *)"ATSC VCT decoder");
       b_reinit = (_Bool)1;
     }
 
     else
       if(!(p_vct_decoder->i_last_section_number == p_section->i_last_number))
       {
-        dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"ATSC VCT decoder");
+        dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'last_section_number' differs whereas no discontinuity has occured", (const void *)"ATSC VCT decoder");
         b_reinit = (_Bool)1;
       }
 
@@ -7887,16 +7887,16 @@ static _Bool dvbpsi_CheckVCT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_atsc_vct_d
 // file ../../src/descriptors/dr_7c.h line 124
 struct dvbpsi_aac_dr_s * dvbpsi_DecodeAACDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x7c);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x7c);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_aac_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_aac_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -7906,9 +7906,9 @@ struct dvbpsi_aac_dr_s * dvbpsi_DecodeAACDr(struct dvbpsi_descriptor_s *p_descri
       else
       {
         struct dvbpsi_aac_dr_s *p_decoded;
-        void *return_value_calloc$3;
-        return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct dvbpsi_aac_dr_s) /*24ul*/ );
-        p_decoded = (struct dvbpsi_aac_dr_s *)return_value_calloc$3;
+        void *return_value_calloc_3;
+        return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct dvbpsi_aac_dr_s) /*24ul*/ );
+        p_decoded = (struct dvbpsi_aac_dr_s *)return_value_calloc_3;
         if(p_decoded == ((struct dvbpsi_aac_dr_s *)NULL))
           return (struct dvbpsi_aac_dr_s *)(void *)0;
 
@@ -7925,9 +7925,9 @@ struct dvbpsi_aac_dr_s * dvbpsi_DecodeAACDr(struct dvbpsi_descriptor_s *p_descri
           {
             unsigned char i_info_length = (unsigned char)((signed int)p_descriptor->i_length - (p_decoded->b_type != (_Bool)0 ? 3 : 2));
             struct dvbpsi_aac_dr_s *p_tmp;
-            void *return_value_realloc$4;
-            return_value_realloc$4=realloc((void *)p_decoded, sizeof(struct dvbpsi_aac_dr_s) /*24ul*/  + (unsigned long int)i_info_length);
-            p_tmp = (struct dvbpsi_aac_dr_s *)return_value_realloc$4;
+            void *return_value_realloc_4;
+            return_value_realloc_4=realloc((void *)p_decoded, sizeof(struct dvbpsi_aac_dr_s) /*24ul*/  + (unsigned long int)i_info_length);
+            p_tmp = (struct dvbpsi_aac_dr_s *)return_value_realloc_4;
             if(p_tmp == ((struct dvbpsi_aac_dr_s *)NULL))
             {
               free((void *)p_decoded);
@@ -7953,23 +7953,23 @@ struct dvbpsi_aac_dr_s * dvbpsi_DecodeAACDr(struct dvbpsi_descriptor_s *p_descri
 struct dvbpsi_astream_dr_s * dvbpsi_DecodeAStreamDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_astream_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x03);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x03);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_astream_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_astream_dr_s *)p_descriptor->p_decoded;
 
     else
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(struct dvbpsi_astream_dr_s) /*4ul*/ );
-      p_decoded = (struct dvbpsi_astream_dr_s *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(struct dvbpsi_astream_dr_s) /*4ul*/ );
+      p_decoded = (struct dvbpsi_astream_dr_s *)return_value_malloc_3;
       if(p_decoded == ((struct dvbpsi_astream_dr_s *)NULL))
         return (struct dvbpsi_astream_dr_s *)(void *)0;
 
@@ -7999,16 +7999,16 @@ struct dvbpsi_ac3_audio_dr_s * dvbpsi_DecodeAc3AudioDr(struct dvbpsi_descriptor_
 {
   struct dvbpsi_ac3_audio_dr_s *p_decoded;
   unsigned char *buf = p_descriptor->p_data;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x81);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x81);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_ac3_audio_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_ac3_audio_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -8017,9 +8017,9 @@ struct dvbpsi_ac3_audio_dr_s * dvbpsi_DecodeAc3AudioDr(struct dvbpsi_descriptor_
 
       else
       {
-        void *return_value_calloc$3;
-        return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct dvbpsi_ac3_audio_dr_s) /*168ul*/ );
-        p_decoded = (struct dvbpsi_ac3_audio_dr_s *)return_value_calloc$3;
+        void *return_value_calloc_3;
+        return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct dvbpsi_ac3_audio_dr_s) /*168ul*/ );
+        p_decoded = (struct dvbpsi_ac3_audio_dr_s *)return_value_calloc_3;
         if(p_decoded == ((struct dvbpsi_ac3_audio_dr_s *)NULL))
           return (struct dvbpsi_ac3_audio_dr_s *)(void *)0;
 
@@ -8157,23 +8157,23 @@ struct dvbpsi_association_tag_dr_s * dvbpsi_DecodeAssociationTagDr(struct dvbpsi
 struct dvbpsi_bouquet_name_dr_s * dvbpsi_DecodeBouquetNameDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_bouquet_name_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x47);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x47);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_bouquet_name_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_bouquet_name_dr_s *)p_descriptor->p_decoded;
 
     else
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(struct dvbpsi_bouquet_name_dr_s) /*256ul*/ );
-      p_decoded = (struct dvbpsi_bouquet_name_dr_s *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(struct dvbpsi_bouquet_name_dr_s) /*256ul*/ );
+      p_decoded = (struct dvbpsi_bouquet_name_dr_s *)return_value_malloc_3;
       if(p_decoded == ((struct dvbpsi_bouquet_name_dr_s *)NULL))
         return (struct dvbpsi_bouquet_name_dr_s *)(void *)0;
 
@@ -8195,16 +8195,16 @@ struct dvbpsi_bouquet_name_dr_s * dvbpsi_DecodeBouquetNameDr(struct dvbpsi_descr
 struct dvbpsi_ca_dr_s * dvbpsi_DecodeCADr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_ca_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x09);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x09);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_ca_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_ca_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -8213,9 +8213,9 @@ struct dvbpsi_ca_dr_s * dvbpsi_DecodeCADr(struct dvbpsi_descriptor_s *p_descript
 
       else
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dvbpsi_ca_dr_s) /*256ul*/ );
-        p_decoded = (struct dvbpsi_ca_dr_s *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dvbpsi_ca_dr_s) /*256ul*/ );
+        p_decoded = (struct dvbpsi_ca_dr_s *)return_value_malloc_3;
         if(p_decoded == ((struct dvbpsi_ca_dr_s *)NULL))
           return (struct dvbpsi_ca_dr_s *)(void *)0;
 
@@ -8242,16 +8242,16 @@ struct dvbpsi_ca_dr_s * dvbpsi_DecodeCADr(struct dvbpsi_descriptor_s *p_descript
 struct dvbpsi_ca_identifier_dr_s * dvbpsi_DecodeCAIdentifierDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_ca_identifier_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x53);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x53);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_ca_identifier_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_ca_identifier_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -8260,9 +8260,9 @@ struct dvbpsi_ca_identifier_dr_s * dvbpsi_DecodeCAIdentifierDr(struct dvbpsi_des
 
       else
       {
-        void *return_value_calloc$3;
-        return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct dvbpsi_ca_identifier_dr_s) /*256ul*/ );
-        p_decoded = (struct dvbpsi_ca_identifier_dr_s *)return_value_calloc$3;
+        void *return_value_calloc_3;
+        return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct dvbpsi_ca_identifier_dr_s) /*256ul*/ );
+        p_decoded = (struct dvbpsi_ca_identifier_dr_s *)return_value_calloc_3;
         if(p_decoded == ((struct dvbpsi_ca_identifier_dr_s *)NULL))
           return (struct dvbpsi_ca_identifier_dr_s *)(void *)0;
 
@@ -8287,16 +8287,16 @@ struct dvbpsi_ca_identifier_dr_s * dvbpsi_DecodeCAIdentifierDr(struct dvbpsi_des
 // file ../../src/descriptors/dr_8a.h line 71
 struct dvbpsi_cuei_dr_s * dvbpsi_DecodeCUEIDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x8a);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x8a);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_cuei_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_cuei_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -8306,9 +8306,9 @@ struct dvbpsi_cuei_dr_s * dvbpsi_DecodeCUEIDr(struct dvbpsi_descriptor_s *p_desc
       else
       {
         struct dvbpsi_cuei_dr_s *p_decoded;
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dvbpsi_cuei_dr_s) /*1ul*/ );
-        p_decoded = (struct dvbpsi_cuei_dr_s *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dvbpsi_cuei_dr_s) /*1ul*/ );
+        p_decoded = (struct dvbpsi_cuei_dr_s *)return_value_malloc_3;
         if(p_decoded == ((struct dvbpsi_cuei_dr_s *)NULL))
           return (struct dvbpsi_cuei_dr_s *)(void *)0;
 
@@ -8327,23 +8327,23 @@ struct dvbpsi_cuei_dr_s * dvbpsi_DecodeCUEIDr(struct dvbpsi_descriptor_s *p_desc
 struct dvbpsi_cable_deliv_sys_dr_s * dvbpsi_DecodeCableDelivSysDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_cable_deliv_sys_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x44);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x44);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_cable_deliv_sys_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_cable_deliv_sys_dr_s *)p_descriptor->p_decoded;
 
     else
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(struct dvbpsi_cable_deliv_sys_dr_s) /*16ul*/ );
-      p_decoded = (struct dvbpsi_cable_deliv_sys_dr_s *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(struct dvbpsi_cable_deliv_sys_dr_s) /*16ul*/ );
+      p_decoded = (struct dvbpsi_cable_deliv_sys_dr_s *)return_value_malloc_3;
       if(p_decoded == ((struct dvbpsi_cable_deliv_sys_dr_s *)NULL))
         return (struct dvbpsi_cable_deliv_sys_dr_s *)(void *)0;
 
@@ -8367,17 +8367,17 @@ struct dvbpsi_caption_service_dr_s * dvbpsi_DecodeCaptionServiceDr(struct dvbpsi
 {
   struct dvbpsi_caption_service_dr_s *p_decoded;
   unsigned char *buf = p_descriptor->p_data;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x86);
-  signed int tmp_if_expr$4;
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x86);
+  signed int tmp_if_expr_4;
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_caption_service_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_caption_service_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -8386,9 +8386,9 @@ struct dvbpsi_caption_service_dr_s * dvbpsi_DecodeCaptionServiceDr(struct dvbpsi
 
       else
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dvbpsi_caption_service_dr_s) /*748ul*/ );
-        p_decoded = (struct dvbpsi_caption_service_dr_s *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dvbpsi_caption_service_dr_s) /*748ul*/ );
+        p_decoded = (struct dvbpsi_caption_service_dr_s *)return_value_malloc_3;
         if(p_decoded == ((struct dvbpsi_caption_service_dr_s *)NULL))
           return (struct dvbpsi_caption_service_dr_s *)(void *)0;
 
@@ -8406,11 +8406,11 @@ struct dvbpsi_caption_service_dr_s * dvbpsi_DecodeCaptionServiceDr(struct dvbpsi
             p_service->b_digital_cc = 0x01 & (signed int)buf[(signed long int)0] >> 7;
             p_service->b_line21_field = 0x01 & (signed int)buf[(signed long int)0];
             if(!(p_service->b_digital_cc == 0))
-              tmp_if_expr$4 = 0x3F & (signed int)buf[(signed long int)0];
+              tmp_if_expr_4 = 0x3F & (signed int)buf[(signed long int)0];
 
             else
-              tmp_if_expr$4 = 0;
-            p_service->i_caption_service_number = (unsigned short int)tmp_if_expr$4;
+              tmp_if_expr_4 = 0;
+            p_service->i_caption_service_number = (unsigned short int)tmp_if_expr_4;
             buf = buf + 1l;
             p_service->b_easy_reader = 0x01 & (signed int)buf[(signed long int)0] >> 7;
             p_service->b_wide_aspect_ratio = 0x01 & (signed int)buf[(signed long int)0] >> 6;
@@ -8472,9 +8472,9 @@ struct dvbpsi_component_dr_t * dvbpsi_DecodeComponentDr(struct dvbpsi_descriptor
       else
       {
         struct dvbpsi_component_dr_t *p_decoded;
-        void *return_value_calloc$1;
-        return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct dvbpsi_component_dr_t) /*24ul*/ );
-        p_decoded = (struct dvbpsi_component_dr_t *)return_value_calloc$1;
+        void *return_value_calloc_1;
+        return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct dvbpsi_component_dr_t) /*24ul*/ );
+        p_decoded = (struct dvbpsi_component_dr_t *)return_value_calloc_1;
         if(p_decoded == ((struct dvbpsi_component_dr_t *)NULL))
           return (struct dvbpsi_component_dr_t *)(void *)0;
 
@@ -8487,9 +8487,9 @@ struct dvbpsi_component_dr_t * dvbpsi_DecodeComponentDr(struct dvbpsi_descriptor
           if((signed int)p_descriptor->i_length >= 7)
           {
             p_decoded->i_text_length = (signed int)p_descriptor->i_length - 6;
-            void *return_value_calloc$2;
-            return_value_calloc$2=calloc((unsigned long int)1, (unsigned long int)p_decoded->i_text_length);
-            p_decoded->i_text = (unsigned char *)return_value_calloc$2;
+            void *return_value_calloc_2;
+            return_value_calloc_2=calloc((unsigned long int)1, (unsigned long int)p_decoded->i_text_length);
+            p_decoded->i_text = (unsigned char *)return_value_calloc_2;
             if(p_decoded->i_text == ((unsigned char *)NULL))
             {
               free((void *)p_decoded);
@@ -8514,16 +8514,16 @@ struct dvbpsi_component_dr_t * dvbpsi_DecodeComponentDr(struct dvbpsi_descriptor
 // file ../../src/descriptors/dr_54.h line 234
 struct dvbpsi_content_dr_s * dvbpsi_DecodeContentDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x54);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x54);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_content_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_content_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -8533,9 +8533,9 @@ struct dvbpsi_content_dr_s * dvbpsi_DecodeContentDr(struct dvbpsi_descriptor_s *
       else
       {
         struct dvbpsi_content_dr_s *p_decoded;
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dvbpsi_content_dr_s) /*129ul*/ );
-        p_decoded = (struct dvbpsi_content_dr_s *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dvbpsi_content_dr_s) /*129ul*/ );
+        p_decoded = (struct dvbpsi_content_dr_s *)return_value_malloc_3;
         if(p_decoded == ((struct dvbpsi_content_dr_s *)NULL))
           return (struct dvbpsi_content_dr_s *)(void *)0;
 
@@ -8565,7 +8565,7 @@ struct dvbpsi_content_id_dr_s * dvbpsi_DecodeContentIdDr(struct dvbpsi_descripto
 {
   struct dvbpsi_content_id_dr_s *p_decoded;
   signed int byte;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!((signed int)p_descriptor->i_tag == 0x76))
     return (struct dvbpsi_content_id_dr_s *)(void *)0;
 
@@ -8578,9 +8578,9 @@ struct dvbpsi_content_id_dr_s * dvbpsi_DecodeContentIdDr(struct dvbpsi_descripto
       if((unsigned long int)p_descriptor->i_length >= 86ul)
         p_descriptor->i_length = (unsigned char)(sizeof(struct dvbpsi_crid_entry_s [85l]) /*43180ul*/  / sizeof(struct dvbpsi_crid_entry_s) /*508ul*/ );
 
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct dvbpsi_content_id_dr_s) /*43434ul*/ );
-      p_decoded = (struct dvbpsi_content_id_dr_s *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct dvbpsi_content_id_dr_s) /*43434ul*/ );
+      p_decoded = (struct dvbpsi_content_id_dr_s *)return_value_malloc_1;
       if(p_decoded == ((struct dvbpsi_content_id_dr_s *)NULL))
         return (struct dvbpsi_content_id_dr_s *)(void *)0;
 
@@ -8591,11 +8591,11 @@ struct dvbpsi_content_id_dr_s * dvbpsi_DecodeContentIdDr(struct dvbpsi_descripto
         do
         {
           if(!(byte >= (signed int)p_descriptor->i_length))
-            tmp_if_expr$2 = (signed int)p_decoded->i_number_of_entries < 85 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = (signed int)p_decoded->i_number_of_entries < 85 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          if(!tmp_if_expr$2)
+            tmp_if_expr_2 = (_Bool)0;
+          if(!tmp_if_expr_2)
             break;
 
           struct dvbpsi_crid_entry_s *entry = &p_decoded->p_entries[(signed long int)p_decoded->i_number_of_entries];
@@ -8644,16 +8644,16 @@ struct dvbpsi_content_id_dr_s * dvbpsi_DecodeContentIdDr(struct dvbpsi_descripto
 struct dvbpsi_copyright_dr_s * dvbpsi_DecodeCopyrightDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_copyright_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x0d);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x0d);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_copyright_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_copyright_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -8662,9 +8662,9 @@ struct dvbpsi_copyright_dr_s * dvbpsi_DecodeCopyrightDr(struct dvbpsi_descriptor
 
       else
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dvbpsi_copyright_dr_s) /*256ul*/ );
-        p_decoded = (struct dvbpsi_copyright_dr_s *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dvbpsi_copyright_dr_s) /*256ul*/ );
+        p_decoded = (struct dvbpsi_copyright_dr_s *)return_value_malloc_3;
         if(p_decoded == ((struct dvbpsi_copyright_dr_s *)NULL))
           return (struct dvbpsi_copyright_dr_s *)(void *)0;
 
@@ -8690,7 +8690,7 @@ struct dvbpsi_copyright_dr_s * dvbpsi_DecodeCopyrightDr(struct dvbpsi_descriptor
 struct dvbpsi_country_availability_dr_s * dvbpsi_DecodeCountryAvailability(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_country_availability_dr_s *p_decoded;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((signed int)p_descriptor->i_tag == 0x49))
     return (struct dvbpsi_country_availability_dr_s *)(void *)0;
 
@@ -8702,18 +8702,18 @@ struct dvbpsi_country_availability_dr_s * dvbpsi_DecodeCountryAvailability(struc
     {
       unsigned int code_count = (unsigned int)(((signed int)p_descriptor->i_length - 1) / 3);
       if(!((signed int)p_descriptor->i_length >= 1))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = ((signed int)p_descriptor->i_length - 1) % 3 != 0 ? (_Bool)1 : (_Bool)0;
-      if(code_count >= 84u || tmp_if_expr$1)
+        tmp_if_expr_1 = ((signed int)p_descriptor->i_length - 1) % 3 != 0 ? (_Bool)1 : (_Bool)0;
+      if(code_count >= 84u || tmp_if_expr_1)
         return (struct dvbpsi_country_availability_dr_s *)(void *)0;
 
       else
       {
-        void *return_value_calloc$2;
-        return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct dvbpsi_country_availability_dr_s) /*254ul*/ );
-        p_decoded = (struct dvbpsi_country_availability_dr_s *)return_value_calloc$2;
+        void *return_value_calloc_2;
+        return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct dvbpsi_country_availability_dr_s) /*254ul*/ );
+        p_decoded = (struct dvbpsi_country_availability_dr_s *)return_value_calloc_2;
         if(p_decoded == ((struct dvbpsi_country_availability_dr_s *)NULL))
           return (struct dvbpsi_country_availability_dr_s *)(void *)0;
 
@@ -8740,16 +8740,16 @@ struct dvbpsi_country_availability_dr_s * dvbpsi_DecodeCountryAvailability(struc
 struct dvbpsi_ds_alignment_dr_s * dvbpsi_DecodeDSAlignmentDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_ds_alignment_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x06);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x06);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_ds_alignment_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_ds_alignment_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -8758,9 +8758,9 @@ struct dvbpsi_ds_alignment_dr_s * dvbpsi_DecodeDSAlignmentDr(struct dvbpsi_descr
 
       else
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dvbpsi_ds_alignment_dr_s) /*1ul*/ );
-        p_decoded = (struct dvbpsi_ds_alignment_dr_s *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dvbpsi_ds_alignment_dr_s) /*1ul*/ );
+        p_decoded = (struct dvbpsi_ds_alignment_dr_s *)return_value_malloc_3;
         if(p_decoded == ((struct dvbpsi_ds_alignment_dr_s *)NULL))
           return (struct dvbpsi_ds_alignment_dr_s *)(void *)0;
 
@@ -8820,9 +8820,9 @@ struct dvbpsi_default_authority_dr_s * dvbpsi_DecodeDefaultAuthorityDr(struct dv
 
     else
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct dvbpsi_default_authority_dr_s) /*255ul*/ );
-      p_decoded = (struct dvbpsi_default_authority_dr_s *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct dvbpsi_default_authority_dr_s) /*255ul*/ );
+      p_decoded = (struct dvbpsi_default_authority_dr_s *)return_value_malloc_1;
       if(p_decoded == ((struct dvbpsi_default_authority_dr_s *)NULL))
         return (struct dvbpsi_default_authority_dr_s *)(void *)0;
 
@@ -8844,29 +8844,29 @@ struct dvbpsi_extended_event_dr_s * dvbpsi_DecodeExtendedEventDr(struct dvbpsi_d
   signed int i_len;
   signed int i_pos;
   unsigned char *p;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x4e);
-  _Bool tmp_if_expr$2;
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
-    tmp_if_expr$2 = (_Bool)1;
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x4e);
+  _Bool tmp_if_expr_2;
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)p_descriptor->i_length < 6 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)p_descriptor->i_length < 6 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return (struct dvbpsi_extended_event_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$3;
-    return_value_dvbpsi_IsDescriptorDecoded$3=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$3 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_3;
+    return_value_dvbpsi_IsDescriptorDecoded_3=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_3 == (_Bool)0))
       return (struct dvbpsi_extended_event_dr_s *)p_descriptor->p_decoded;
 
     else
     {
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc(sizeof(struct dvbpsi_extended_event_dr_s) /*2560ul*/ );
-      p_decoded = (struct dvbpsi_extended_event_dr_s *)return_value_malloc$4;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc(sizeof(struct dvbpsi_extended_event_dr_s) /*2560ul*/ );
+      p_decoded = (struct dvbpsi_extended_event_dr_s *)return_value_malloc_4;
       if(p_decoded == ((struct dvbpsi_extended_event_dr_s *)NULL))
         return (struct dvbpsi_extended_event_dr_s *)(void *)0;
 
@@ -8912,7 +8912,7 @@ struct dvbpsi_frequency_list_dr_s * dvbpsi_DecodeFrequencyListDr(struct dvbpsi_d
 {
   struct dvbpsi_frequency_list_dr_s *p_decoded;
   signed int i;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!((signed int)p_descriptor->i_tag == 0x62))
     return (struct dvbpsi_frequency_list_dr_s *)(void *)0;
 
@@ -8926,9 +8926,9 @@ struct dvbpsi_frequency_list_dr_s * dvbpsi_DecodeFrequencyListDr(struct dvbpsi_d
 
       else
       {
-        void *return_value_malloc$1;
-        return_value_malloc$1=malloc(sizeof(struct dvbpsi_frequency_list_dr_s) /*256ul*/ );
-        p_decoded = (struct dvbpsi_frequency_list_dr_s *)return_value_malloc$1;
+        void *return_value_malloc_1;
+        return_value_malloc_1=malloc(sizeof(struct dvbpsi_frequency_list_dr_s) /*256ul*/ );
+        p_decoded = (struct dvbpsi_frequency_list_dr_s *)return_value_malloc_1;
         if(p_decoded == ((struct dvbpsi_frequency_list_dr_s *)NULL))
           return (struct dvbpsi_frequency_list_dr_s *)(void *)0;
 
@@ -8944,11 +8944,11 @@ struct dvbpsi_frequency_list_dr_s * dvbpsi_DecodeFrequencyListDr(struct dvbpsi_d
           {
             p_decoded->p_center_frequencies[(signed long int)i] = (unsigned int)((signed int)p_descriptor->p_data[(signed long int)(i * 4 + 1)] << 24 | (signed int)p_descriptor->p_data[(signed long int)(i * 4 + 2)] << 16 | (signed int)p_descriptor->p_data[(signed long int)(i * 4 + 3)] << 8 | (signed int)p_descriptor->p_data[(signed long int)(i * 4 + 4)]);
             if((signed int)p_decoded->i_coding_type == 1)
-              tmp_if_expr$2 = (_Bool)1;
+              tmp_if_expr_2 = (_Bool)1;
 
             else
-              tmp_if_expr$2 = (signed int)p_decoded->i_coding_type == 2 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$2)
+              tmp_if_expr_2 = (signed int)p_decoded->i_coding_type == 2 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_2)
               p_decoded->p_center_frequencies[(signed long int)i]=dvbpsi_Bcd8ToUint32(p_decoded->p_center_frequencies[(signed long int)i]);
 
           }
@@ -8963,23 +8963,23 @@ struct dvbpsi_frequency_list_dr_s * dvbpsi_DecodeFrequencyListDr(struct dvbpsi_d
 struct dvbpsi_hierarchy_dr_s * dvbpsi_DecodeHierarchyDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_hierarchy_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x04);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x04);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_hierarchy_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_hierarchy_dr_s *)p_descriptor->p_decoded;
 
     else
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(struct dvbpsi_hierarchy_dr_s) /*4ul*/ );
-      p_decoded = (struct dvbpsi_hierarchy_dr_s *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(struct dvbpsi_hierarchy_dr_s) /*4ul*/ );
+      p_decoded = (struct dvbpsi_hierarchy_dr_s *)return_value_malloc_3;
       if(p_decoded == ((struct dvbpsi_hierarchy_dr_s *)NULL))
         return (struct dvbpsi_hierarchy_dr_s *)(void *)0;
 
@@ -9008,16 +9008,16 @@ struct dvbpsi_hierarchy_dr_s * dvbpsi_DecodeHierarchyDr(struct dvbpsi_descriptor
 struct dvbpsi_ibp_dr_s * dvbpsi_DecodeIBPDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_ibp_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x12);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x12);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_ibp_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_ibp_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -9026,9 +9026,9 @@ struct dvbpsi_ibp_dr_s * dvbpsi_DecodeIBPDr(struct dvbpsi_descriptor_s *p_descri
 
       else
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dvbpsi_ibp_dr_s) /*4ul*/ );
-        p_decoded = (struct dvbpsi_ibp_dr_s *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dvbpsi_ibp_dr_s) /*4ul*/ );
+        p_decoded = (struct dvbpsi_ibp_dr_s *)return_value_malloc_3;
         if(p_decoded == ((struct dvbpsi_ibp_dr_s *)NULL))
           return (struct dvbpsi_ibp_dr_s *)(void *)0;
 
@@ -9058,34 +9058,34 @@ struct dvbpsi_ibp_dr_s * dvbpsi_DecodeIBPDr(struct dvbpsi_descriptor_s *p_descri
 struct dvbpsi_iso639_dr_s * dvbpsi_DecodeISO639Dr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_iso639_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x0a);
-  _Bool tmp_if_expr$3;
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x0a);
+  _Bool tmp_if_expr_3;
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_iso639_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_iso639_dr_s *)p_descriptor->p_decoded;
 
     else
     {
       if(!((signed int)p_descriptor->i_length >= 1))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)p_descriptor->i_length % 4 != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)p_descriptor->i_length % 4 != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
         return (struct dvbpsi_iso639_dr_s *)(void *)0;
 
       else
       {
-        void *return_value_malloc$4;
-        return_value_malloc$4=malloc(sizeof(struct dvbpsi_iso639_dr_s) /*257ul*/ );
-        p_decoded = (struct dvbpsi_iso639_dr_s *)return_value_malloc$4;
+        void *return_value_malloc_4;
+        return_value_malloc_4=malloc(sizeof(struct dvbpsi_iso639_dr_s) /*257ul*/ );
+        p_decoded = (struct dvbpsi_iso639_dr_s *)return_value_malloc_4;
         if(p_decoded == ((struct dvbpsi_iso639_dr_s *)NULL))
           return (struct dvbpsi_iso639_dr_s *)(void *)0;
 
@@ -9130,9 +9130,9 @@ struct dvbpsi_lcn_dr_s * dvbpsi_DecodeLCNDr(struct dvbpsi_descriptor_s *p_descri
 
       else
       {
-        void *return_value_malloc$1;
-        return_value_malloc$1=malloc(sizeof(struct dvbpsi_lcn_dr_s) /*772ul*/ );
-        p_decoded = (struct dvbpsi_lcn_dr_s *)return_value_malloc$1;
+        void *return_value_malloc_1;
+        return_value_malloc_1=malloc(sizeof(struct dvbpsi_lcn_dr_s) /*772ul*/ );
+        p_decoded = (struct dvbpsi_lcn_dr_s *)return_value_malloc_1;
         if(p_decoded == ((struct dvbpsi_lcn_dr_s *)NULL))
           return (struct dvbpsi_lcn_dr_s *)(void *)0;
 
@@ -9159,9 +9159,9 @@ struct dvbpsi_lcn_dr_s * dvbpsi_DecodeLCNDr(struct dvbpsi_descriptor_s *p_descri
 // file descriptors/dr_4a.c line 45
 struct dvbpsi_linkage_dr_s * dvbpsi_DecodeLinkageDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   if(!((signed int)p_descriptor->i_tag == 0x4A))
     return (struct dvbpsi_linkage_dr_s *)(void *)0;
 
@@ -9178,23 +9178,23 @@ struct dvbpsi_linkage_dr_s * dvbpsi_DecodeLinkageDr(struct dvbpsi_descriptor_s *
         handover_type = (signed int)p_descriptor->p_data[(signed long int)7] & 0xF0 >> 4;
         origin_type = (signed int)p_descriptor->p_data[(signed long int)7] & 0x01;
         if(origin_type == 0 && handover_type >= 1 && !(handover_type >= 4))
-          tmp_if_expr$1 = (signed int)p_descriptor->i_length > 243 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (signed int)p_descriptor->i_length > 243 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
           if(origin_type == 1 && handover_type >= 1 && !(handover_type >= 4))
-            tmp_if_expr$2 = (signed int)p_descriptor->i_length > 245 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = (signed int)p_descriptor->i_length > 245 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = (_Bool)0;
+          tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
         }
-        if(!tmp_if_expr$3)
+        if(!tmp_if_expr_3)
           goto __CPROVER_DUMP_L9;
 
         return (struct dvbpsi_linkage_dr_s *)(void *)0;
@@ -9235,9 +9235,9 @@ struct dvbpsi_linkage_dr_s * dvbpsi_DecodeLinkageDr(struct dvbpsi_descriptor_s *
           __CPROVER_DUMP_L11:
             ;
             struct dvbpsi_linkage_dr_s *p_decoded;
-            void *return_value_calloc$4;
-            return_value_calloc$4=calloc((unsigned long int)1, sizeof(struct dvbpsi_linkage_dr_s) /*268ul*/ );
-            p_decoded = (struct dvbpsi_linkage_dr_s *)return_value_calloc$4;
+            void *return_value_calloc_4;
+            return_value_calloc_4=calloc((unsigned long int)1, sizeof(struct dvbpsi_linkage_dr_s) /*268ul*/ );
+            p_decoded = (struct dvbpsi_linkage_dr_s *)return_value_calloc_4;
             if(p_decoded == ((struct dvbpsi_linkage_dr_s *)NULL))
               return (struct dvbpsi_linkage_dr_s *)(void *)0;
 
@@ -9305,23 +9305,23 @@ struct dvbpsi_local_time_offset_dr_s * dvbpsi_DecodeLocalTimeOffsetDr(struct dvb
   unsigned char *p_data;
   unsigned char *p_end;
   struct dvbpsi_local_time_offset_s *p_current;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x58);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x58);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_local_time_offset_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_local_time_offset_dr_s *)p_descriptor->p_decoded;
 
     else
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(struct dvbpsi_local_time_offset_dr_s) /*464ul*/ );
-      p_decoded = (struct dvbpsi_local_time_offset_dr_s *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(struct dvbpsi_local_time_offset_dr_s) /*464ul*/ );
+      p_decoded = (struct dvbpsi_local_time_offset_dr_s *)return_value_malloc_3;
       if(p_decoded == ((struct dvbpsi_local_time_offset_dr_s *)NULL))
         return (struct dvbpsi_local_time_offset_dr_s *)(void *)0;
 
@@ -9357,16 +9357,16 @@ struct dvbpsi_local_time_offset_dr_s * dvbpsi_DecodeLocalTimeOffsetDr(struct dvb
 struct dvbpsi_mpeg4_audio_dr_s * dvbpsi_DecodeMPEG4AudioDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_mpeg4_audio_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x1c);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x1c);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_mpeg4_audio_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_mpeg4_audio_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -9375,9 +9375,9 @@ struct dvbpsi_mpeg4_audio_dr_s * dvbpsi_DecodeMPEG4AudioDr(struct dvbpsi_descrip
 
       else
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dvbpsi_mpeg4_audio_dr_s) /*4ul*/ );
-        p_decoded = (struct dvbpsi_mpeg4_audio_dr_s *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dvbpsi_mpeg4_audio_dr_s) /*4ul*/ );
+        p_decoded = (struct dvbpsi_mpeg4_audio_dr_s *)return_value_malloc_3;
         if(p_decoded == ((struct dvbpsi_mpeg4_audio_dr_s *)NULL))
           return (struct dvbpsi_mpeg4_audio_dr_s *)(void *)0;
 
@@ -9396,16 +9396,16 @@ struct dvbpsi_mpeg4_audio_dr_s * dvbpsi_DecodeMPEG4AudioDr(struct dvbpsi_descrip
 struct dvbpsi_mpeg4_video_dr_s * dvbpsi_DecodeMPEG4VideoDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_mpeg4_video_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x1b);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x1b);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_mpeg4_video_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_mpeg4_video_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -9414,9 +9414,9 @@ struct dvbpsi_mpeg4_video_dr_s * dvbpsi_DecodeMPEG4VideoDr(struct dvbpsi_descrip
 
       else
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dvbpsi_mpeg4_video_dr_s) /*4ul*/ );
-        p_decoded = (struct dvbpsi_mpeg4_video_dr_s *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dvbpsi_mpeg4_video_dr_s) /*4ul*/ );
+        p_decoded = (struct dvbpsi_mpeg4_video_dr_s *)return_value_malloc_3;
         if(p_decoded == ((struct dvbpsi_mpeg4_video_dr_s *)NULL))
           return (struct dvbpsi_mpeg4_video_dr_s *)(void *)0;
 
@@ -9435,16 +9435,16 @@ struct dvbpsi_mpeg4_video_dr_s * dvbpsi_DecodeMPEG4VideoDr(struct dvbpsi_descrip
 struct dvbpsi_max_bitrate_dr_s * dvbpsi_DecodeMaxBitrateDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_max_bitrate_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x0e);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x0e);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_max_bitrate_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_max_bitrate_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -9453,9 +9453,9 @@ struct dvbpsi_max_bitrate_dr_s * dvbpsi_DecodeMaxBitrateDr(struct dvbpsi_descrip
 
       else
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dvbpsi_max_bitrate_dr_s) /*4ul*/ );
-        p_decoded = (struct dvbpsi_max_bitrate_dr_s *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dvbpsi_max_bitrate_dr_s) /*4ul*/ );
+        p_decoded = (struct dvbpsi_max_bitrate_dr_s *)return_value_malloc_3;
         if(p_decoded == ((struct dvbpsi_max_bitrate_dr_s *)NULL))
           return (struct dvbpsi_max_bitrate_dr_s *)(void *)0;
 
@@ -9474,16 +9474,16 @@ struct dvbpsi_max_bitrate_dr_s * dvbpsi_DecodeMaxBitrateDr(struct dvbpsi_descrip
 struct dvbpsi_mx_buff_utilization_dr_s * dvbpsi_DecodeMxBuffUtilizationDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_mx_buff_utilization_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x0c);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x0c);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_mx_buff_utilization_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_mx_buff_utilization_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -9492,9 +9492,9 @@ struct dvbpsi_mx_buff_utilization_dr_s * dvbpsi_DecodeMxBuffUtilizationDr(struct
 
       else
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dvbpsi_mx_buff_utilization_dr_s) /*6ul*/ );
-        p_decoded = (struct dvbpsi_mx_buff_utilization_dr_s *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dvbpsi_mx_buff_utilization_dr_s) /*6ul*/ );
+        p_decoded = (struct dvbpsi_mx_buff_utilization_dr_s *)return_value_malloc_3;
         if(p_decoded == ((struct dvbpsi_mx_buff_utilization_dr_s *)NULL))
           return (struct dvbpsi_mx_buff_utilization_dr_s *)(void *)0;
 
@@ -9532,9 +9532,9 @@ struct dvbpsi_nvod_ref_dr_s * dvbpsi_DecodeNVODReferenceDr(struct dvbpsi_descrip
         else
         {
           struct dvbpsi_nvod_ref_dr_s *p_decoded;
-          void *return_value_calloc$1;
-          return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct dvbpsi_nvod_ref_dr_s) /*260ul*/ );
-          p_decoded = (struct dvbpsi_nvod_ref_dr_s *)return_value_calloc$1;
+          void *return_value_calloc_1;
+          return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct dvbpsi_nvod_ref_dr_s) /*260ul*/ );
+          p_decoded = (struct dvbpsi_nvod_ref_dr_s *)return_value_calloc_1;
           if(p_decoded == ((struct dvbpsi_nvod_ref_dr_s *)NULL))
             return (struct dvbpsi_nvod_ref_dr_s *)(void *)0;
 
@@ -9563,23 +9563,23 @@ struct dvbpsi_nvod_ref_dr_s * dvbpsi_DecodeNVODReferenceDr(struct dvbpsi_descrip
 struct dvbpsi_network_name_dr_s * dvbpsi_DecodeNetworkNameDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_network_name_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x40);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x40);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_network_name_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_network_name_dr_s *)p_descriptor->p_decoded;
 
     else
     {
-      void *return_value_calloc$3;
-      return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct dvbpsi_network_name_dr_s) /*256ul*/ );
-      p_decoded = (struct dvbpsi_network_name_dr_s *)return_value_calloc$3;
+      void *return_value_calloc_3;
+      return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct dvbpsi_network_name_dr_s) /*256ul*/ );
+      p_decoded = (struct dvbpsi_network_name_dr_s *)return_value_calloc_3;
       if(p_decoded == ((struct dvbpsi_network_name_dr_s *)NULL))
         return (struct dvbpsi_network_name_dr_s *)(void *)0;
 
@@ -9601,16 +9601,16 @@ struct dvbpsi_network_name_dr_s * dvbpsi_DecodeNetworkNameDr(struct dvbpsi_descr
 struct dvbpsi_PDC_dr_s * dvbpsi_DecodePDCDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_PDC_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x69);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x69);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_PDC_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_PDC_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -9619,9 +9619,9 @@ struct dvbpsi_PDC_dr_s * dvbpsi_DecodePDCDr(struct dvbpsi_descriptor_s *p_descri
 
       else
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dvbpsi_PDC_dr_s) /*4ul*/ );
-        p_decoded = (struct dvbpsi_PDC_dr_s *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dvbpsi_PDC_dr_s) /*4ul*/ );
+        p_decoded = (struct dvbpsi_PDC_dr_s *)return_value_malloc_3;
         if(p_decoded == ((struct dvbpsi_PDC_dr_s *)NULL))
           return (struct dvbpsi_PDC_dr_s *)(void *)0;
 
@@ -9642,16 +9642,16 @@ struct dvbpsi_PDC_dr_s * dvbpsi_DecodePDCDr(struct dvbpsi_descriptor_s *p_descri
 // file descriptors/dr_55.c line 47
 struct dvbpsi_parental_rating_dr_s * dvbpsi_DecodeParentalRatingDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x55);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x55);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_parental_rating_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_parental_rating_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -9661,9 +9661,9 @@ struct dvbpsi_parental_rating_dr_s * dvbpsi_DecodeParentalRatingDr(struct dvbpsi
       else
       {
         struct dvbpsi_parental_rating_dr_s *p_decoded;
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dvbpsi_parental_rating_dr_s) /*516ul*/ );
-        p_decoded = (struct dvbpsi_parental_rating_dr_s *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dvbpsi_parental_rating_dr_s) /*516ul*/ );
+        p_decoded = (struct dvbpsi_parental_rating_dr_s *)return_value_malloc_3;
         if(p_decoded == ((struct dvbpsi_parental_rating_dr_s *)NULL))
           return (struct dvbpsi_parental_rating_dr_s *)(void *)0;
 
@@ -9692,16 +9692,16 @@ struct dvbpsi_parental_rating_dr_s * dvbpsi_DecodeParentalRatingDr(struct dvbpsi
 struct dvbpsi_private_data_dr_s * dvbpsi_DecodePrivateDataDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_private_data_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x0f);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x0f);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_private_data_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_private_data_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -9710,9 +9710,9 @@ struct dvbpsi_private_data_dr_s * dvbpsi_DecodePrivateDataDr(struct dvbpsi_descr
 
       else
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dvbpsi_private_data_dr_s) /*4ul*/ );
-        p_decoded = (struct dvbpsi_private_data_dr_s *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dvbpsi_private_data_dr_s) /*4ul*/ );
+        p_decoded = (struct dvbpsi_private_data_dr_s *)return_value_malloc_3;
         if(p_decoded == ((struct dvbpsi_private_data_dr_s *)NULL))
           return (struct dvbpsi_private_data_dr_s *)(void *)0;
 
@@ -9731,23 +9731,23 @@ struct dvbpsi_private_data_dr_s * dvbpsi_DecodePrivateDataDr(struct dvbpsi_descr
 struct dvbpsi_registration_dr_s * dvbpsi_DecodeRegistrationDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_registration_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x05);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x05);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_registration_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_registration_dr_s *)p_descriptor->p_decoded;
 
     else
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(struct dvbpsi_registration_dr_s) /*256ul*/ );
-      p_decoded = (struct dvbpsi_registration_dr_s *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(struct dvbpsi_registration_dr_s) /*256ul*/ );
+      p_decoded = (struct dvbpsi_registration_dr_s *)return_value_malloc_3;
       if(p_decoded == ((struct dvbpsi_registration_dr_s *)NULL))
         return (struct dvbpsi_registration_dr_s *)(void *)0;
 
@@ -9780,16 +9780,16 @@ struct dvbpsi_registration_dr_s * dvbpsi_DecodeRegistrationDr(struct dvbpsi_desc
 struct dvbpsi_std_dr_s * dvbpsi_DecodeSTDDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_std_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x11);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x11);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_std_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_std_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -9798,9 +9798,9 @@ struct dvbpsi_std_dr_s * dvbpsi_DecodeSTDDr(struct dvbpsi_descriptor_s *p_descri
 
       else
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dvbpsi_std_dr_s) /*1ul*/ );
-        p_decoded = (struct dvbpsi_std_dr_s *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dvbpsi_std_dr_s) /*1ul*/ );
+        p_decoded = (struct dvbpsi_std_dr_s *)return_value_malloc_3;
         if(p_decoded == ((struct dvbpsi_std_dr_s *)NULL))
           return (struct dvbpsi_std_dr_s *)(void *)0;
 
@@ -9819,23 +9819,23 @@ struct dvbpsi_std_dr_s * dvbpsi_DecodeSTDDr(struct dvbpsi_descriptor_s *p_descri
 struct dvbpsi_sat_deliv_sys_dr_s * dvbpsi_DecodeSatDelivSysDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_sat_deliv_sys_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x43);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x43);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_sat_deliv_sys_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_sat_deliv_sys_dr_s *)p_descriptor->p_decoded;
 
     else
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(struct dvbpsi_sat_deliv_sys_dr_s) /*20ul*/ );
-      p_decoded = (struct dvbpsi_sat_deliv_sys_dr_s *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(struct dvbpsi_sat_deliv_sys_dr_s) /*20ul*/ );
+      p_decoded = (struct dvbpsi_sat_deliv_sys_dr_s *)return_value_malloc_3;
       if(p_decoded == ((struct dvbpsi_sat_deliv_sys_dr_s *)NULL))
         return (struct dvbpsi_sat_deliv_sys_dr_s *)(void *)0;
 
@@ -9861,16 +9861,16 @@ struct dvbpsi_sat_deliv_sys_dr_s * dvbpsi_DecodeSatDelivSysDr(struct dvbpsi_desc
 // file descriptors/dr_48.c line 48
 struct dvbpsi_service_dr_s * dvbpsi_DecodeServiceDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x48);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x48);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_service_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_service_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -9880,9 +9880,9 @@ struct dvbpsi_service_dr_s * dvbpsi_DecodeServiceDr(struct dvbpsi_descriptor_s *
       else
       {
         struct dvbpsi_service_dr_s *p_decoded;
-        void *return_value_calloc$3;
-        return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct dvbpsi_service_dr_s) /*507ul*/ );
-        p_decoded = (struct dvbpsi_service_dr_s *)return_value_calloc$3;
+        void *return_value_calloc_3;
+        return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct dvbpsi_service_dr_s) /*507ul*/ );
+        p_decoded = (struct dvbpsi_service_dr_s *)return_value_calloc_3;
         if(p_decoded == ((struct dvbpsi_service_dr_s *)NULL))
           return (struct dvbpsi_service_dr_s *)(void *)0;
 
@@ -9936,7 +9936,7 @@ struct dvbpsi_service_dr_s * dvbpsi_DecodeServiceDr(struct dvbpsi_descriptor_s *
 struct dvbpsi_service_list_dr_s * dvbpsi_DecodeServiceListDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_service_list_dr_s *p_decoded;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((signed int)p_descriptor->i_tag == 0x41))
     return (struct dvbpsi_service_list_dr_s *)(void *)0;
 
@@ -9948,18 +9948,18 @@ struct dvbpsi_service_list_dr_s * dvbpsi_DecodeServiceListDr(struct dvbpsi_descr
     {
       unsigned int service_count = (unsigned int)((signed int)p_descriptor->i_length / 3);
       if(!((signed int)p_descriptor->i_length >= 1))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)p_descriptor->i_length % 3 != 0 ? (_Bool)1 : (_Bool)0;
-      if(service_count >= 64u || tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)p_descriptor->i_length % 3 != 0 ? (_Bool)1 : (_Bool)0;
+      if(service_count >= 64u || tmp_if_expr_1)
         return (struct dvbpsi_service_list_dr_s *)(void *)0;
 
       else
       {
-        void *return_value_calloc$2;
-        return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct dvbpsi_service_list_dr_s) /*258ul*/ );
-        p_decoded = (struct dvbpsi_service_list_dr_s *)return_value_calloc$2;
+        void *return_value_calloc_2;
+        return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct dvbpsi_service_list_dr_s) /*258ul*/ );
+        p_decoded = (struct dvbpsi_service_list_dr_s *)return_value_calloc_2;
         if(p_decoded == ((struct dvbpsi_service_list_dr_s *)NULL))
           return (struct dvbpsi_service_list_dr_s *)(void *)0;
 
@@ -9985,16 +9985,16 @@ struct dvbpsi_service_location_dr_s * dvbpsi_DecodeServiceLocationDr(struct dvbp
 {
   struct dvbpsi_service_location_dr_s *p_decoded;
   unsigned char *buf = p_descriptor->p_data;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0xa1);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0xa1);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_service_location_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_service_location_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -10003,9 +10003,9 @@ struct dvbpsi_service_location_dr_s * dvbpsi_DecodeServiceLocationDr(struct dvbp
 
       else
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dvbpsi_service_location_dr_s) /*2044ul*/ );
-        p_decoded = (struct dvbpsi_service_location_dr_s *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dvbpsi_service_location_dr_s) /*2044ul*/ );
+        p_decoded = (struct dvbpsi_service_location_dr_s *)return_value_malloc_3;
         if(p_decoded == ((struct dvbpsi_service_location_dr_s *)NULL))
           return (struct dvbpsi_service_location_dr_s *)(void *)0;
 
@@ -10038,22 +10038,22 @@ struct dvbpsi_short_event_dr_s * dvbpsi_DecodeShortEventDr(struct dvbpsi_descrip
   struct dvbpsi_short_event_dr_s *p_decoded;
   signed int i_len1;
   signed int i_len2;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x4d);
-  _Bool tmp_if_expr$2;
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
-    tmp_if_expr$2 = (_Bool)1;
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x4d);
+  _Bool tmp_if_expr_2;
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)p_descriptor->i_length < 5 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)p_descriptor->i_length < 5 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return (struct dvbpsi_short_event_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$3;
-    return_value_dvbpsi_IsDescriptorDecoded$3=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$3 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_3;
+    return_value_dvbpsi_IsDescriptorDecoded_3=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_3 == (_Bool)0))
       return (struct dvbpsi_short_event_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -10069,9 +10069,9 @@ struct dvbpsi_short_event_dr_s * dvbpsi_DecodeShortEventDr(struct dvbpsi_descrip
 
         else
         {
-          void *return_value_malloc$4;
-          return_value_malloc$4=malloc(sizeof(struct dvbpsi_short_event_dr_s) /*524ul*/ );
-          p_decoded = (struct dvbpsi_short_event_dr_s *)return_value_malloc$4;
+          void *return_value_malloc_4;
+          return_value_malloc_4=malloc(sizeof(struct dvbpsi_short_event_dr_s) /*524ul*/ );
+          p_decoded = (struct dvbpsi_short_event_dr_s *)return_value_malloc_4;
           if(p_decoded == ((struct dvbpsi_short_event_dr_s *)NULL))
             return (struct dvbpsi_short_event_dr_s *)(void *)0;
 
@@ -10099,16 +10099,16 @@ struct dvbpsi_short_event_dr_s * dvbpsi_DecodeShortEventDr(struct dvbpsi_descrip
 struct dvbpsi_smoothing_buffer_dr_s * dvbpsi_DecodeSmoothingBufferDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_smoothing_buffer_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x10);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x10);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_smoothing_buffer_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_smoothing_buffer_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -10117,9 +10117,9 @@ struct dvbpsi_smoothing_buffer_dr_s * dvbpsi_DecodeSmoothingBufferDr(struct dvbp
 
       else
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dvbpsi_smoothing_buffer_dr_s) /*8ul*/ );
-        p_decoded = (struct dvbpsi_smoothing_buffer_dr_s *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dvbpsi_smoothing_buffer_dr_s) /*8ul*/ );
+        p_decoded = (struct dvbpsi_smoothing_buffer_dr_s *)return_value_malloc_3;
         if(p_decoded == ((struct dvbpsi_smoothing_buffer_dr_s *)NULL))
           return (struct dvbpsi_smoothing_buffer_dr_s *)(void *)0;
 
@@ -10139,16 +10139,16 @@ struct dvbpsi_smoothing_buffer_dr_s * dvbpsi_DecodeSmoothingBufferDr(struct dvbp
 struct dvbpsi_stream_identifier_dr_s * dvbpsi_DecodeStreamIdentifierDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_stream_identifier_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x52);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x52);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_stream_identifier_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_stream_identifier_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -10157,9 +10157,9 @@ struct dvbpsi_stream_identifier_dr_s * dvbpsi_DecodeStreamIdentifierDr(struct dv
 
       else
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dvbpsi_stream_identifier_dr_s) /*1ul*/ );
-        p_decoded = (struct dvbpsi_stream_identifier_dr_s *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dvbpsi_stream_identifier_dr_s) /*1ul*/ );
+        p_decoded = (struct dvbpsi_stream_identifier_dr_s *)return_value_malloc_3;
         if(p_decoded == ((struct dvbpsi_stream_identifier_dr_s *)NULL))
           return (struct dvbpsi_stream_identifier_dr_s *)(void *)0;
 
@@ -10178,23 +10178,23 @@ struct dvbpsi_stream_identifier_dr_s * dvbpsi_DecodeStreamIdentifierDr(struct dv
 struct dvbpsi_stuffing_dr_s * dvbpsi_DecodeStuffingDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_stuffing_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x42);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x42);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_stuffing_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_stuffing_dr_s *)p_descriptor->p_decoded;
 
     else
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(struct dvbpsi_stuffing_dr_s) /*256ul*/ );
-      p_decoded = (struct dvbpsi_stuffing_dr_s *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(struct dvbpsi_stuffing_dr_s) /*256ul*/ );
+      p_decoded = (struct dvbpsi_stuffing_dr_s *)return_value_malloc_3;
       if(p_decoded == ((struct dvbpsi_stuffing_dr_s *)NULL))
         return (struct dvbpsi_stuffing_dr_s *)(void *)0;
 
@@ -10217,16 +10217,16 @@ struct dvbpsi_subtitling_dr_s * dvbpsi_DecodeSubtitlingDr(struct dvbpsi_descript
 {
   signed int i_subtitles_number;
   struct dvbpsi_subtitling_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x59);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x59);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_subtitling_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_subtitling_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -10239,9 +10239,9 @@ struct dvbpsi_subtitling_dr_s * dvbpsi_DecodeSubtitlingDr(struct dvbpsi_descript
 
         else
         {
-          void *return_value_malloc$3;
-          return_value_malloc$3=malloc(sizeof(struct dvbpsi_subtitling_dr_s) /*162ul*/ );
-          p_decoded = (struct dvbpsi_subtitling_dr_s *)return_value_malloc$3;
+          void *return_value_malloc_3;
+          return_value_malloc_3=malloc(sizeof(struct dvbpsi_subtitling_dr_s) /*162ul*/ );
+          p_decoded = (struct dvbpsi_subtitling_dr_s *)return_value_malloc_3;
           if(p_decoded == ((struct dvbpsi_subtitling_dr_s *)NULL))
             return (struct dvbpsi_subtitling_dr_s *)(void *)0;
 
@@ -10272,16 +10272,16 @@ struct dvbpsi_subtitling_dr_s * dvbpsi_DecodeSubtitlingDr(struct dvbpsi_descript
 struct dvbpsi_system_clock_dr_s * dvbpsi_DecodeSystemClockDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_system_clock_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x0b);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x0b);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_system_clock_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_system_clock_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -10290,9 +10290,9 @@ struct dvbpsi_system_clock_dr_s * dvbpsi_DecodeSystemClockDr(struct dvbpsi_descr
 
       else
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dvbpsi_system_clock_dr_s) /*3ul*/ );
-        p_decoded = (struct dvbpsi_system_clock_dr_s *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dvbpsi_system_clock_dr_s) /*3ul*/ );
+        p_decoded = (struct dvbpsi_system_clock_dr_s *)return_value_malloc_3;
         if(p_decoded == ((struct dvbpsi_system_clock_dr_s *)NULL))
           return (struct dvbpsi_system_clock_dr_s *)(void *)0;
 
@@ -10313,16 +10313,16 @@ struct dvbpsi_system_clock_dr_s * dvbpsi_DecodeSystemClockDr(struct dvbpsi_descr
 struct dvbpsi_target_bg_grid_dr_s * dvbpsi_DecodeTargetBgGridDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_target_bg_grid_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x07);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x07);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_target_bg_grid_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_target_bg_grid_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -10331,9 +10331,9 @@ struct dvbpsi_target_bg_grid_dr_s * dvbpsi_DecodeTargetBgGridDr(struct dvbpsi_de
 
       else
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dvbpsi_target_bg_grid_dr_s) /*6ul*/ );
-        p_decoded = (struct dvbpsi_target_bg_grid_dr_s *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dvbpsi_target_bg_grid_dr_s) /*6ul*/ );
+        p_decoded = (struct dvbpsi_target_bg_grid_dr_s *)return_value_malloc_3;
         if(p_decoded == ((struct dvbpsi_target_bg_grid_dr_s *)NULL))
           return (struct dvbpsi_target_bg_grid_dr_s *)(void *)0;
 
@@ -10353,13 +10353,13 @@ struct dvbpsi_target_bg_grid_dr_s * dvbpsi_DecodeTargetBgGridDr(struct dvbpsi_de
 // file descriptors/dr_56.c line 46
 struct dvbpsi_teletext_dr_s * dvbpsi_DecodeTeletextDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$2;
-  return_value_dvbpsi_CanDecodeAsDescriptor$2=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x56);
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$2 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_2;
+  return_value_dvbpsi_CanDecodeAsDescriptor_2=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x56);
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_2 == (_Bool)0)
   {
-    return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x46);
-    if(return_value_dvbpsi_CanDecodeAsDescriptor$1 != (_Bool)0)
+    return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x46);
+    if(return_value_dvbpsi_CanDecodeAsDescriptor_1 != (_Bool)0)
       goto __CPROVER_DUMP_L1;
 
     return (struct dvbpsi_teletext_dr_s *)(void *)0;
@@ -10370,9 +10370,9 @@ struct dvbpsi_teletext_dr_s * dvbpsi_DecodeTeletextDr(struct dvbpsi_descriptor_s
 
   __CPROVER_DUMP_L1:
     ;
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$3;
-    return_value_dvbpsi_IsDescriptorDecoded$3=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$3 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_3;
+    return_value_dvbpsi_IsDescriptorDecoded_3=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_3 == (_Bool)0))
       return (struct dvbpsi_teletext_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -10386,9 +10386,9 @@ struct dvbpsi_teletext_dr_s * dvbpsi_DecodeTeletextDr(struct dvbpsi_descriptor_s
         else
         {
           struct dvbpsi_teletext_dr_s *p_decoded;
-          void *return_value_malloc$4;
-          return_value_malloc$4=malloc(sizeof(struct dvbpsi_teletext_dr_s) /*307ul*/ );
-          p_decoded = (struct dvbpsi_teletext_dr_s *)return_value_malloc$4;
+          void *return_value_malloc_4;
+          return_value_malloc_4=malloc(sizeof(struct dvbpsi_teletext_dr_s) /*307ul*/ );
+          p_decoded = (struct dvbpsi_teletext_dr_s *)return_value_malloc_4;
           if(p_decoded == ((struct dvbpsi_teletext_dr_s *)NULL))
             return (struct dvbpsi_teletext_dr_s *)(void *)0;
 
@@ -10418,24 +10418,24 @@ struct dvbpsi_teletext_dr_s * dvbpsi_DecodeTeletextDr(struct dvbpsi_descriptor_s
 // file descriptors/dr_5a.c line 47
 struct dvbpsi_terr_deliv_sys_dr_s * dvbpsi_DecodeTerrDelivSysDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x5a);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x5a);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_terr_deliv_sys_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_terr_deliv_sys_dr_s *)p_descriptor->p_decoded;
 
     else
     {
       struct dvbpsi_terr_deliv_sys_dr_s *p_decoded;
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(struct dvbpsi_terr_deliv_sys_dr_s) /*16ul*/ );
-      p_decoded = (struct dvbpsi_terr_deliv_sys_dr_s *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(struct dvbpsi_terr_deliv_sys_dr_s) /*16ul*/ );
+      p_decoded = (struct dvbpsi_terr_deliv_sys_dr_s *)return_value_malloc_3;
       if(p_decoded == ((struct dvbpsi_terr_deliv_sys_dr_s *)NULL))
         return (struct dvbpsi_terr_deliv_sys_dr_s *)(void *)0;
 
@@ -10478,9 +10478,9 @@ struct dvbpsi_tshifted_ev_dr_s * dvbpsi_DecodeTimeShiftedEventDr(struct dvbpsi_d
       else
       {
         struct dvbpsi_tshifted_ev_dr_s *p_decoded;
-        void *return_value_calloc$1;
-        return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct dvbpsi_tshifted_ev_dr_s) /*4ul*/ );
-        p_decoded = (struct dvbpsi_tshifted_ev_dr_s *)return_value_calloc$1;
+        void *return_value_calloc_1;
+        return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct dvbpsi_tshifted_ev_dr_s) /*4ul*/ );
+        p_decoded = (struct dvbpsi_tshifted_ev_dr_s *)return_value_calloc_1;
         if(p_decoded == ((struct dvbpsi_tshifted_ev_dr_s *)NULL))
           return (struct dvbpsi_tshifted_ev_dr_s *)(void *)0;
 
@@ -10498,16 +10498,16 @@ struct dvbpsi_tshifted_ev_dr_s * dvbpsi_DecodeTimeShiftedEventDr(struct dvbpsi_d
 // file ../../src/descriptors/dr_4c.h line 75
 struct dvbpsi_tshifted_service_dr_s * dvbpsi_DecodeTimeShiftedServiceDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x4c);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x4c);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_tshifted_service_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_tshifted_service_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -10517,9 +10517,9 @@ struct dvbpsi_tshifted_service_dr_s * dvbpsi_DecodeTimeShiftedServiceDr(struct d
       else
       {
         struct dvbpsi_tshifted_service_dr_s *p_decoded;
-        void *return_value_calloc$3;
-        return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct dvbpsi_tshifted_service_dr_s) /*2ul*/ );
-        p_decoded = (struct dvbpsi_tshifted_service_dr_s *)return_value_calloc$3;
+        void *return_value_calloc_3;
+        return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct dvbpsi_tshifted_service_dr_s) /*2ul*/ );
+        p_decoded = (struct dvbpsi_tshifted_service_dr_s *)return_value_calloc_3;
         if(p_decoded == ((struct dvbpsi_tshifted_service_dr_s *)NULL))
           return (struct dvbpsi_tshifted_service_dr_s *)(void *)0;
 
@@ -10537,16 +10537,16 @@ struct dvbpsi_tshifted_service_dr_s * dvbpsi_DecodeTimeShiftedServiceDr(struct d
 // file descriptors/dr_45.c line 46
 struct dvbpsi_vbi_dr_s * dvbpsi_DecodeVBIDataDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x45);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x45);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_vbi_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_vbi_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -10564,9 +10564,9 @@ struct dvbpsi_vbi_dr_s * dvbpsi_DecodeVBIDataDr(struct dvbpsi_descriptor_s *p_de
           if((signed int)i_services_number >= 86)
             i_services_number = (unsigned char)85;
 
-          void *return_value_malloc$3;
-          return_value_malloc$3=malloc(sizeof(struct dvbpsi_vbi_dr_s) /*43521ul*/ );
-          p_decoded = (struct dvbpsi_vbi_dr_s *)return_value_malloc$3;
+          void *return_value_malloc_3;
+          return_value_malloc_3=malloc(sizeof(struct dvbpsi_vbi_dr_s) /*43521ul*/ );
+          p_decoded = (struct dvbpsi_vbi_dr_s *)return_value_malloc_3;
           if(p_decoded == ((struct dvbpsi_vbi_dr_s *)NULL))
             return (struct dvbpsi_vbi_dr_s *)(void *)0;
 
@@ -10602,26 +10602,26 @@ struct dvbpsi_vbi_dr_s * dvbpsi_DecodeVBIDataDr(struct dvbpsi_descriptor_s *p_de
 struct dvbpsi_vstream_dr_s * dvbpsi_DecodeVStreamDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_vstream_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x02);
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x02);
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_vstream_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_vstream_dr_s *)p_descriptor->p_decoded;
 
     else
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(struct dvbpsi_vstream_dr_s) /*8ul*/ );
-      p_decoded = (struct dvbpsi_vstream_dr_s *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(struct dvbpsi_vstream_dr_s) /*8ul*/ );
+      p_decoded = (struct dvbpsi_vstream_dr_s *)return_value_malloc_3;
       if(p_decoded == ((struct dvbpsi_vstream_dr_s *)NULL))
         return (struct dvbpsi_vstream_dr_s *)(void *)0;
 
@@ -10629,23 +10629,23 @@ struct dvbpsi_vstream_dr_s * dvbpsi_DecodeVStreamDr(struct dvbpsi_descriptor_s *
       {
         p_decoded->b_mpeg2 = !((((signed int)p_descriptor->p_data[(signed long int)0] & 0x04) != 0 ? 1 : 0) != 0);
         if(p_decoded->b_mpeg2 == (_Bool)0)
-          tmp_if_expr$4 = (signed int)p_descriptor->i_length != 1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (signed int)p_descriptor->i_length != 1 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
+          tmp_if_expr_6 = (_Bool)1;
 
         else
         {
           if(!(p_decoded->b_mpeg2 == (_Bool)0))
-            tmp_if_expr$5 = (signed int)p_descriptor->i_length != 3 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = (signed int)p_descriptor->i_length != 3 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = (_Bool)0;
+          tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$6)
+        if(tmp_if_expr_6)
         {
           free((void *)p_decoded);
           return (struct dvbpsi_vstream_dr_s *)(void *)0;
@@ -10677,16 +10677,16 @@ struct dvbpsi_vstream_dr_s * dvbpsi_DecodeVStreamDr(struct dvbpsi_descriptor_s *
 struct dvbpsi_vwindow_dr_s * dvbpsi_DecodeVWindowDr(struct dvbpsi_descriptor_s *p_descriptor)
 {
   struct dvbpsi_vwindow_dr_s *p_decoded;
-  _Bool return_value_dvbpsi_CanDecodeAsDescriptor$1;
-  return_value_dvbpsi_CanDecodeAsDescriptor$1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x08);
-  if(return_value_dvbpsi_CanDecodeAsDescriptor$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CanDecodeAsDescriptor_1;
+  return_value_dvbpsi_CanDecodeAsDescriptor_1=dvbpsi_CanDecodeAsDescriptor(p_descriptor, (const unsigned char)0x08);
+  if(return_value_dvbpsi_CanDecodeAsDescriptor_1 == (_Bool)0)
     return (struct dvbpsi_vwindow_dr_s *)(void *)0;
 
   else
   {
-    _Bool return_value_dvbpsi_IsDescriptorDecoded$2;
-    return_value_dvbpsi_IsDescriptorDecoded$2=dvbpsi_IsDescriptorDecoded(p_descriptor);
-    if(!(return_value_dvbpsi_IsDescriptorDecoded$2 == (_Bool)0))
+    _Bool return_value_dvbpsi_IsDescriptorDecoded_2;
+    return_value_dvbpsi_IsDescriptorDecoded_2=dvbpsi_IsDescriptorDecoded(p_descriptor);
+    if(!(return_value_dvbpsi_IsDescriptorDecoded_2 == (_Bool)0))
       return (struct dvbpsi_vwindow_dr_s *)p_descriptor->p_decoded;
 
     else
@@ -10695,9 +10695,9 @@ struct dvbpsi_vwindow_dr_s * dvbpsi_DecodeVWindowDr(struct dvbpsi_descriptor_s *
 
       else
       {
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct dvbpsi_vwindow_dr_s) /*6ul*/ );
-        p_decoded = (struct dvbpsi_vwindow_dr_s *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct dvbpsi_vwindow_dr_s) /*6ul*/ );
+        p_decoded = (struct dvbpsi_vwindow_dr_s *)return_value_malloc_3;
         if(p_decoded == ((struct dvbpsi_vwindow_dr_s *)NULL))
           return (struct dvbpsi_vwindow_dr_s *)(void *)0;
 
@@ -10863,9 +10863,9 @@ struct dvbpsi_extended_channel_name_dr_s * dvbpsi_ExtendedChannelNameDr(struct d
 
       else
       {
-        void *return_value_malloc$1;
-        return_value_malloc$1=malloc(sizeof(struct dvbpsi_extended_channel_name_dr_s) /*257ul*/ );
-        p_decoded = (struct dvbpsi_extended_channel_name_dr_s *)return_value_malloc$1;
+        void *return_value_malloc_1;
+        return_value_malloc_1=malloc(sizeof(struct dvbpsi_extended_channel_name_dr_s) /*257ul*/ );
+        p_decoded = (struct dvbpsi_extended_channel_name_dr_s *)return_value_malloc_1;
         if(p_decoded == ((struct dvbpsi_extended_channel_name_dr_s *)NULL))
           return (struct dvbpsi_extended_channel_name_dr_s *)(void *)0;
 
@@ -10884,13 +10884,13 @@ struct dvbpsi_extended_channel_name_dr_s * dvbpsi_ExtendedChannelNameDr(struct d
 struct dvbpsi_descriptor_s * dvbpsi_GenAACDr(struct dvbpsi_aac_dr_s *p_decoded, _Bool b_duplicate)
 {
   unsigned char i_length;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(p_decoded->b_type == (_Bool)0))
-    tmp_if_expr$1 = 3 + (signed int)p_decoded->i_additional_info_length;
+    tmp_if_expr_1 = 3 + (signed int)p_decoded->i_additional_info_length;
 
   else
-    tmp_if_expr$1 = 1;
-  i_length = (unsigned char)tmp_if_expr$1;
+    tmp_if_expr_1 = 1;
+  i_length = (unsigned char)tmp_if_expr_1;
   struct dvbpsi_descriptor_s *p_descriptor;
   p_descriptor=dvbpsi_NewDescriptor((unsigned char)0x7c, i_length, (unsigned char *)(void *)0);
   if(p_descriptor == ((struct dvbpsi_descriptor_s *)NULL))
@@ -11210,9 +11210,9 @@ struct dvbpsi_descriptor_s * dvbpsi_GenExtendedEventDr(struct dvbpsi_extended_ev
   signed int i_len2;
   struct dvbpsi_descriptor_s *p_descriptor;
   i_len2 = 0;
-  signed int dvbpsi_GenExtendedEventDr$$1$$1$$i = 0;
-  for( ; !(dvbpsi_GenExtendedEventDr$$1$$1$$i >= p_decoded->i_entry_count); dvbpsi_GenExtendedEventDr$$1$$1$$i = dvbpsi_GenExtendedEventDr$$1$$1$$i + 1)
-    i_len2 = i_len2 + 2 + (signed int)p_decoded->i_item_description_length[(signed long int)dvbpsi_GenExtendedEventDr$$1$$1$$i] + (signed int)p_decoded->i_item_length[(signed long int)dvbpsi_GenExtendedEventDr$$1$$1$$i];
+  signed int dvbpsi_GenExtendedEventDr__1__1__i = 0;
+  for( ; !(dvbpsi_GenExtendedEventDr__1__1__i >= p_decoded->i_entry_count); dvbpsi_GenExtendedEventDr__1__1__i = dvbpsi_GenExtendedEventDr__1__1__i + 1)
+    i_len2 = i_len2 + 2 + (signed int)p_decoded->i_item_description_length[(signed long int)dvbpsi_GenExtendedEventDr__1__1__i] + (signed int)p_decoded->i_item_length[(signed long int)dvbpsi_GenExtendedEventDr__1__1__i];
   i_len = 1 + 3 + 1 + i_len2 + 1 + p_decoded->i_text_length;
   p_descriptor=dvbpsi_NewDescriptor((unsigned char)0x4e, (unsigned char)i_len, (unsigned char *)(void *)0);
   if(p_descriptor == ((struct dvbpsi_descriptor_s *)NULL))
@@ -11293,13 +11293,13 @@ struct dvbpsi_descriptor_s * dvbpsi_GenISO639Dr(struct dvbpsi_iso639_dr_s *p_dec
     p_decoded->i_code_count = (unsigned char)64;
 
   unsigned char i_size;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(4 * (signed int)p_decoded->i_code_count >= 256)
-    tmp_if_expr$1 = 255;
+    tmp_if_expr_1 = 255;
 
   else
-    tmp_if_expr$1 = (signed int)p_decoded->i_code_count * 4;
-  i_size = (unsigned char)tmp_if_expr$1;
+    tmp_if_expr_1 = (signed int)p_decoded->i_code_count * 4;
+  i_size = (unsigned char)tmp_if_expr_1;
   struct dvbpsi_descriptor_s *p_descriptor;
   p_descriptor=dvbpsi_NewDescriptor((unsigned char)0x0a, i_size, (unsigned char *)(void *)0);
   if(p_descriptor == ((struct dvbpsi_descriptor_s *)NULL))
@@ -11348,9 +11348,9 @@ struct dvbpsi_descriptor_s * dvbpsi_GenLCNDr(struct dvbpsi_lcn_dr_s *p_decoded, 
     if(!(b_duplicate == (_Bool)0))
     {
       struct dvbpsi_lcn_dr_s *p_dup;
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct dvbpsi_lcn_dr_s) /*772ul*/ );
-      p_dup = (struct dvbpsi_lcn_dr_s *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct dvbpsi_lcn_dr_s) /*772ul*/ );
+      p_dup = (struct dvbpsi_lcn_dr_s *)return_value_malloc_1;
       if(!(p_dup == ((struct dvbpsi_lcn_dr_s *)NULL)))
         memcpy((void *)p_dup, (const void *)p_decoded, sizeof(struct dvbpsi_lcn_dr_s) /*772ul*/ );
 
@@ -11387,7 +11387,7 @@ struct dvbpsi_descriptor_s * dvbpsi_GenLinkageDr(struct dvbpsi_linkage_dr_s *p_d
   if((signed int)p_decoded->i_linkage_type == 0x0D)
     length = length + 3;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(length + (signed int)p_decoded->i_private_data_length >= 256)
     return (struct dvbpsi_descriptor_s *)(void *)0;
 
@@ -11425,11 +11425,11 @@ struct dvbpsi_descriptor_s * dvbpsi_GenLinkageDr(struct dvbpsi_linkage_dr_s *p_d
         if((signed int)p_decoded->i_origin_type == 0)
         {
           if((signed int)p_decoded->i_handover_type >= 1)
-            tmp_if_expr$1 = (signed int)p_decoded->i_handover_type < 3 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = (signed int)p_decoded->i_handover_type < 3 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = (_Bool)0;
+          if(tmp_if_expr_1)
           {
             p_descriptor->p_data[(signed long int)10] = (unsigned char)((signed int)p_decoded->i_initial_service_id >> 8);
             p_descriptor->p_data[(signed long int)11] = (unsigned char)p_decoded->i_initial_service_id;
@@ -11588,12 +11588,12 @@ struct dvbpsi_descriptor_s * dvbpsi_GenNVODReferenceDr(struct dvbpsi_nvod_ref_dr
 {
   struct dvbpsi_descriptor_s *p_descriptor;
   p_descriptor=dvbpsi_NewDescriptor((unsigned char)0x4b, (unsigned char)((signed int)p_decoded->i_references * 6), (unsigned char *)(void *)0);
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
-  signed int tmp_post$6;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
+  signed int tmp_post_6;
   if(p_descriptor == ((struct dvbpsi_descriptor_s *)NULL))
     return (struct dvbpsi_descriptor_s *)(void *)0;
 
@@ -11606,24 +11606,24 @@ struct dvbpsi_descriptor_s * dvbpsi_GenNVODReferenceDr(struct dvbpsi_nvod_ref_dr
     signed int i = 0;
     for( ; !(i >= (signed int)p_decoded->i_references); i = i + 1)
     {
-      tmp_post$1 = pos;
+      tmp_post_1 = pos;
       pos = pos + 1;
-      p_descriptor->p_data[(signed long int)tmp_post$1] = (unsigned char)((signed int)p_decoded->p_nvod_refs[(signed long int)i].i_transport_stream_id >> 8);
-      tmp_post$2 = pos;
+      p_descriptor->p_data[(signed long int)tmp_post_1] = (unsigned char)((signed int)p_decoded->p_nvod_refs[(signed long int)i].i_transport_stream_id >> 8);
+      tmp_post_2 = pos;
       pos = pos + 1;
-      p_descriptor->p_data[(signed long int)tmp_post$2] = (unsigned char)p_decoded->p_nvod_refs[(signed long int)i].i_transport_stream_id;
-      tmp_post$3 = pos;
+      p_descriptor->p_data[(signed long int)tmp_post_2] = (unsigned char)p_decoded->p_nvod_refs[(signed long int)i].i_transport_stream_id;
+      tmp_post_3 = pos;
       pos = pos + 1;
-      p_descriptor->p_data[(signed long int)tmp_post$3] = (unsigned char)((signed int)p_decoded->p_nvod_refs[(signed long int)i].i_original_network_id >> 8);
-      tmp_post$4 = pos;
+      p_descriptor->p_data[(signed long int)tmp_post_3] = (unsigned char)((signed int)p_decoded->p_nvod_refs[(signed long int)i].i_original_network_id >> 8);
+      tmp_post_4 = pos;
       pos = pos + 1;
-      p_descriptor->p_data[(signed long int)tmp_post$4] = (unsigned char)p_decoded->p_nvod_refs[(signed long int)i].i_original_network_id;
-      tmp_post$5 = pos;
+      p_descriptor->p_data[(signed long int)tmp_post_4] = (unsigned char)p_decoded->p_nvod_refs[(signed long int)i].i_original_network_id;
+      tmp_post_5 = pos;
       pos = pos + 1;
-      p_descriptor->p_data[(signed long int)tmp_post$5] = (unsigned char)((signed int)p_decoded->p_nvod_refs[(signed long int)i].i_service_id >> 8);
-      tmp_post$6 = pos;
+      p_descriptor->p_data[(signed long int)tmp_post_5] = (unsigned char)((signed int)p_decoded->p_nvod_refs[(signed long int)i].i_service_id >> 8);
+      tmp_post_6 = pos;
       pos = pos + 1;
-      p_descriptor->p_data[(signed long int)tmp_post$6] = (unsigned char)p_decoded->p_nvod_refs[(signed long int)i].i_service_id;
+      p_descriptor->p_data[(signed long int)tmp_post_6] = (unsigned char)p_decoded->p_nvod_refs[(signed long int)i].i_service_id;
     }
     if(!(b_duplicate == (_Bool)0))
       p_descriptor->p_decoded=dvbpsi_DuplicateDecodedDescriptor((void *)p_decoded, (signed long int)sizeof(struct dvbpsi_nvod_ref_dr_s) /*260ul*/ );
@@ -12184,16 +12184,16 @@ struct dvbpsi_descriptor_s * dvbpsi_GenVBIDataDr(struct dvbpsi_vbi_dr_s *p_decod
     p_decoded->i_services_number = (unsigned char)85;
 
   unsigned char i_size;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(5 * (signed int)p_decoded->i_services_number >= 256)
-    tmp_if_expr$1 = 255;
+    tmp_if_expr_1 = 255;
 
   else
-    tmp_if_expr$1 = (signed int)p_decoded->i_services_number * 5;
-  i_size = (unsigned char)tmp_if_expr$1;
+    tmp_if_expr_1 = (signed int)p_decoded->i_services_number * 5;
+  i_size = (unsigned char)tmp_if_expr_1;
   struct dvbpsi_descriptor_s *p_descriptor;
   p_descriptor=dvbpsi_NewDescriptor((unsigned char)0x45, i_size, (unsigned char *)(void *)0);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(p_descriptor == ((struct dvbpsi_descriptor_s *)NULL))
     return (struct dvbpsi_descriptor_s *)(void *)0;
 
@@ -12208,11 +12208,11 @@ struct dvbpsi_descriptor_s * dvbpsi_GenVBIDataDr(struct dvbpsi_vbi_dr_s *p_decod
       for( ; !((signed int)n >= (signed int)p_decoded->p_services[(signed long int)i].i_lines); n = n + 1)
       {
         if((signed int)p_decoded->p_services[(signed long int)i].i_data_service_id >= 0x01)
-          tmp_if_expr$2 = (signed int)p_decoded->p_services[(signed long int)i].i_data_service_id <= 0x07 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)p_decoded->p_services[(signed long int)i].i_data_service_id <= 0x07 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
           p_descriptor->p_data[(signed long int)(5 * (signed int)i + 4 + (signed int)n)] = (unsigned char)((signed int)(unsigned char)(((signed int)(unsigned char)p_decoded->p_services[(signed long int)i].p_lines[(signed long int)n].i_parity & 0x20) << 5) | (signed int)(unsigned char)p_decoded->p_services[(signed long int)i].p_lines[(signed long int)n].i_line_offset & 0x1f);
 
         else
@@ -12294,35 +12294,35 @@ static _Bool dvbpsi_IsCompleteEIT(struct dvbpsi_eit_decoder_s *p_eit_decoder, st
   /* assertion p_eit_decoder */
   assert(p_eit_decoder != ((struct dvbpsi_eit_decoder_s *)NULL));
   _Bool b_complete = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if((signed int)p_eit_decoder->i_first_received_section_number >= 1)
   {
     if(p_section->i_number == p_eit_decoder->i_first_received_section_number)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)p_section->i_number == (signed int)p_eit_decoder->i_first_received_section_number - 1 ? (_Bool)1 : (_Bool)0;
-    tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)p_section->i_number == (signed int)p_eit_decoder->i_first_received_section_number - 1 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)0;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
     if((signed int)p_eit_decoder->i_first_received_section_number == 0)
-      tmp_if_expr$3 = p_section->i_number == p_eit_decoder->i_last_section_number ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = p_section->i_number == p_eit_decoder->i_last_section_number ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$4)
+  if(tmp_if_expr_4)
   {
     struct dvbpsi_psi_section_s *p = p_eit_decoder->p_sections;
     for( ; !(p == ((struct dvbpsi_psi_section_s *)NULL)); p = p->p_next)
@@ -12368,9 +12368,9 @@ struct dvbpsi_demux_subdec_s * dvbpsi_NewDemuxSubDecoder(const unsigned char i_t
   /* assertion pf_detach */
   assert(pf_detach != ((void (*)(struct dvbpsi_s *, unsigned char, unsigned short int))NULL));
   struct dvbpsi_demux_subdec_s *p_subdec;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct dvbpsi_demux_subdec_s) /*40ul*/ );
-  p_subdec = (struct dvbpsi_demux_subdec_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct dvbpsi_demux_subdec_s) /*40ul*/ );
+  p_subdec = (struct dvbpsi_demux_subdec_s *)return_value_calloc_1;
   if(p_subdec == ((struct dvbpsi_demux_subdec_s *)NULL))
     return (struct dvbpsi_demux_subdec_s *)(void *)0;
 
@@ -12390,17 +12390,17 @@ struct dvbpsi_demux_subdec_s * dvbpsi_NewDemuxSubDecoder(const unsigned char i_t
 struct dvbpsi_descriptor_s * dvbpsi_NewDescriptor(unsigned char i_tag, unsigned char i_length, unsigned char *p_data)
 {
   struct dvbpsi_descriptor_s *p_descriptor;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_descriptor_s) /*32ul*/ );
-  p_descriptor = (struct dvbpsi_descriptor_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_descriptor_s) /*32ul*/ );
+  p_descriptor = (struct dvbpsi_descriptor_s *)return_value_malloc_1;
   if(p_descriptor == ((struct dvbpsi_descriptor_s *)NULL))
     return (struct dvbpsi_descriptor_s *)(void *)0;
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)i_length * sizeof(unsigned char) /*1ul*/ );
-    p_descriptor->p_data = (unsigned char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)i_length * sizeof(unsigned char) /*1ul*/ );
+    p_descriptor->p_data = (unsigned char *)return_value_malloc_2;
     if(!(p_descriptor->p_data == ((unsigned char *)NULL)))
     {
       p_descriptor->i_tag = i_tag;
@@ -12426,17 +12426,17 @@ struct dvbpsi_descriptor_s * dvbpsi_NewDescriptor(unsigned char i_tag, unsigned 
 struct dvbpsi_psi_section_s * dvbpsi_NewPSISection(signed int i_max_size)
 {
   struct dvbpsi_psi_section_s *p_section;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct dvbpsi_psi_section_s) /*56ul*/ );
-  p_section = (struct dvbpsi_psi_section_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct dvbpsi_psi_section_s) /*56ul*/ );
+  p_section = (struct dvbpsi_psi_section_s *)return_value_calloc_1;
   if(p_section == ((struct dvbpsi_psi_section_s *)NULL))
     return (struct dvbpsi_psi_section_s *)(void *)0;
 
   else
   {
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)1, (unsigned long int)i_max_size * sizeof(unsigned char) /*1ul*/ );
-    p_section->p_data = (unsigned char *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)1, (unsigned long int)i_max_size * sizeof(unsigned char) /*1ul*/ );
+    p_section->p_data = (unsigned char *)return_value_calloc_2;
     if(p_section->p_data == ((unsigned char *)NULL))
     {
       free((void *)p_section);
@@ -12503,21 +12503,21 @@ static void dvbpsi_ReInitEIT(struct dvbpsi_eit_decoder_s *p_decoder, const _Bool
   p_decoder->p_building_eit = (struct dvbpsi_eit_s *)(void *)0;
 }
 
-// dvbpsi_ReInitEIT$link1
+// dvbpsi_ReInitEIT_link1
 // file tables/atsc_eit.c line 295
-static void dvbpsi_ReInitEIT$link1(struct dvbpsi_atsc_eit_decoder_s *p_decoder$link1, const _Bool b_force$link1)
+static void dvbpsi_ReInitEIT_link1(struct dvbpsi_atsc_eit_decoder_s *p_decoder_link1, const _Bool b_force_link1)
 {
   /* assertion p_decoder */
-  assert(p_decoder$link1 != ((struct dvbpsi_atsc_eit_decoder_s *)NULL));
-  dvbpsi_decoder_reset((struct dvbpsi_decoder_s *)p_decoder$link1, b_force$link1);
-  if(!(b_force$link1 == (_Bool)0))
+  assert(p_decoder_link1 != ((struct dvbpsi_atsc_eit_decoder_s *)NULL));
+  dvbpsi_decoder_reset((struct dvbpsi_decoder_s *)p_decoder_link1, b_force_link1);
+  if(!(b_force_link1 == (_Bool)0))
   {
-    if(!(p_decoder$link1->p_building_eit == ((struct dvbpsi_atsc_eit_s *)NULL)))
-      dvbpsi_atsc_DeleteEIT(p_decoder$link1->p_building_eit);
+    if(!(p_decoder_link1->p_building_eit == ((struct dvbpsi_atsc_eit_s *)NULL)))
+      dvbpsi_atsc_DeleteEIT(p_decoder_link1->p_building_eit);
 
   }
 
-  p_decoder$link1->p_building_eit = (struct dvbpsi_atsc_eit_s *)(void *)0;
+  p_decoder_link1->p_building_eit = (struct dvbpsi_atsc_eit_s *)(void *)0;
 }
 
 // dvbpsi_ReInitETT
@@ -12808,20 +12808,20 @@ _Bool dvbpsi_atsc_AttachEIT(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id,
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
   struct dvbpsi_demux_s *p_demux = (struct dvbpsi_demux_s *)p_dvbpsi->p_decoder;
-  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec$1;
-  return_value_dvbpsi_demuxGetSubDec$1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
-  if(!(return_value_dvbpsi_demuxGetSubDec$1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
+  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec_1;
+  return_value_dvbpsi_demuxGetSubDec_1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
+  if(!(return_value_dvbpsi_demuxGetSubDec_1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x extension == 0x%04x)", (const void *)"ATSC EIT decoder", i_table_id, i_extension);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x extension == 0x%04x)", (const void *)"ATSC EIT decoder", i_table_id, i_extension);
     return (_Bool)0;
   }
 
   else
   {
     struct dvbpsi_atsc_eit_decoder_s *p_eit_decoder;
-    void *return_value_dvbpsi_decoder_new$2;
-    return_value_dvbpsi_decoder_new$2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_atsc_eit_decoder_s) /*96ul*/ );
-    p_eit_decoder = (struct dvbpsi_atsc_eit_decoder_s *)return_value_dvbpsi_decoder_new$2;
+    void *return_value_dvbpsi_decoder_new_2;
+    return_value_dvbpsi_decoder_new_2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_atsc_eit_decoder_s) /*96ul*/ );
+    p_eit_decoder = (struct dvbpsi_atsc_eit_decoder_s *)return_value_dvbpsi_decoder_new_2;
     if(p_eit_decoder == ((struct dvbpsi_atsc_eit_decoder_s *)NULL))
       return (_Bool)0;
 
@@ -12856,20 +12856,20 @@ _Bool dvbpsi_atsc_AttachETT(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id,
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
   struct dvbpsi_demux_s *p_demux = (struct dvbpsi_demux_s *)p_dvbpsi->p_decoder;
-  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec$1;
-  return_value_dvbpsi_demuxGetSubDec$1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
-  if(!(return_value_dvbpsi_demuxGetSubDec$1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
+  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec_1;
+  return_value_dvbpsi_demuxGetSubDec_1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
+  if(!(return_value_dvbpsi_demuxGetSubDec_1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x extension == 0x%04x)", (const void *)"ATSC ETT decoder", i_table_id, i_extension);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x extension == 0x%04x)", (const void *)"ATSC ETT decoder", i_table_id, i_extension);
     return (_Bool)0;
   }
 
   else
   {
     struct dvbpsi_atsc_ett_decoder_s *p_ett_decoder;
-    void *return_value_dvbpsi_decoder_new$2;
-    return_value_dvbpsi_decoder_new$2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_atsc_ett_decoder_s) /*96ul*/ );
-    p_ett_decoder = (struct dvbpsi_atsc_ett_decoder_s *)return_value_dvbpsi_decoder_new$2;
+    void *return_value_dvbpsi_decoder_new_2;
+    return_value_dvbpsi_decoder_new_2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_atsc_ett_decoder_s) /*96ul*/ );
+    p_ett_decoder = (struct dvbpsi_atsc_ett_decoder_s *)return_value_dvbpsi_decoder_new_2;
     if(p_ett_decoder == ((struct dvbpsi_atsc_ett_decoder_s *)NULL))
       return (_Bool)0;
 
@@ -12904,20 +12904,20 @@ _Bool dvbpsi_atsc_AttachMGT(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id,
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
   struct dvbpsi_demux_s *p_demux = (struct dvbpsi_demux_s *)p_dvbpsi->p_decoder;
-  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec$1;
-  return_value_dvbpsi_demuxGetSubDec$1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
-  if(!(return_value_dvbpsi_demuxGetSubDec$1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
+  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec_1;
+  return_value_dvbpsi_demuxGetSubDec_1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
+  if(!(return_value_dvbpsi_demuxGetSubDec_1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x extension == 0x%04x)", (const void *)"ATSC MGT decoder", i_table_id, i_extension);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x extension == 0x%04x)", (const void *)"ATSC MGT decoder", i_table_id, i_extension);
     return (_Bool)0;
   }
 
   else
   {
     struct dvbpsi_atsc_mgt_decoder_s *p_mgt_decoder;
-    void *return_value_dvbpsi_decoder_new$2;
-    return_value_dvbpsi_decoder_new$2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_atsc_mgt_decoder_s) /*96ul*/ );
-    p_mgt_decoder = (struct dvbpsi_atsc_mgt_decoder_s *)return_value_dvbpsi_decoder_new$2;
+    void *return_value_dvbpsi_decoder_new_2;
+    return_value_dvbpsi_decoder_new_2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_atsc_mgt_decoder_s) /*96ul*/ );
+    p_mgt_decoder = (struct dvbpsi_atsc_mgt_decoder_s *)return_value_dvbpsi_decoder_new_2;
     if(p_mgt_decoder == ((struct dvbpsi_atsc_mgt_decoder_s *)NULL))
       return (_Bool)0;
 
@@ -12952,20 +12952,20 @@ _Bool dvbpsi_atsc_AttachSTT(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id,
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
   struct dvbpsi_demux_s *p_demux = (struct dvbpsi_demux_s *)p_dvbpsi->p_decoder;
-  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec$1;
-  return_value_dvbpsi_demuxGetSubDec$1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, (unsigned short int)0);
-  if(!(return_value_dvbpsi_demuxGetSubDec$1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
+  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec_1;
+  return_value_dvbpsi_demuxGetSubDec_1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, (unsigned short int)0);
+  if(!(return_value_dvbpsi_demuxGetSubDec_1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x)", (const void *)"ATSC STT decoder", i_table_id);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x)", (const void *)"ATSC STT decoder", i_table_id);
     return (_Bool)0;
   }
 
   else
   {
     struct dvbpsi_atsc_stt_decoder_s *p_stt_decoder;
-    void *return_value_dvbpsi_decoder_new$2;
-    return_value_dvbpsi_decoder_new$2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_atsc_stt_decoder_s) /*88ul*/ );
-    p_stt_decoder = (struct dvbpsi_atsc_stt_decoder_s *)return_value_dvbpsi_decoder_new$2;
+    void *return_value_dvbpsi_decoder_new_2;
+    return_value_dvbpsi_decoder_new_2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_atsc_stt_decoder_s) /*88ul*/ );
+    p_stt_decoder = (struct dvbpsi_atsc_stt_decoder_s *)return_value_dvbpsi_decoder_new_2;
     if(p_stt_decoder == ((struct dvbpsi_atsc_stt_decoder_s *)NULL))
       return (_Bool)0;
 
@@ -13000,20 +13000,20 @@ _Bool dvbpsi_atsc_AttachVCT(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id,
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
   struct dvbpsi_demux_s *p_demux = (struct dvbpsi_demux_s *)p_dvbpsi->p_decoder;
-  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec$1;
-  return_value_dvbpsi_demuxGetSubDec$1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
-  if(!(return_value_dvbpsi_demuxGetSubDec$1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
+  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec_1;
+  return_value_dvbpsi_demuxGetSubDec_1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
+  if(!(return_value_dvbpsi_demuxGetSubDec_1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x,extension == 0x%02x)", (const void *)"ATSC VCT decoder", i_table_id, i_extension);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x,extension == 0x%02x)", (const void *)"ATSC VCT decoder", i_table_id, i_extension);
     return (_Bool)0;
   }
 
   else
   {
     struct dvbpsi_atsc_vct_decoder_s *p_vct_decoder;
-    void *return_value_dvbpsi_decoder_new$2;
-    return_value_dvbpsi_decoder_new$2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_atsc_vct_decoder_s) /*88ul*/ );
-    p_vct_decoder = (struct dvbpsi_atsc_vct_decoder_s *)return_value_dvbpsi_decoder_new$2;
+    void *return_value_dvbpsi_decoder_new_2;
+    return_value_dvbpsi_decoder_new_2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_atsc_vct_decoder_s) /*88ul*/ );
+    p_vct_decoder = (struct dvbpsi_atsc_vct_decoder_s *)return_value_dvbpsi_decoder_new_2;
     if(p_vct_decoder == ((struct dvbpsi_atsc_vct_decoder_s *)NULL))
       return (_Bool)0;
 
@@ -13092,9 +13092,9 @@ static void dvbpsi_atsc_DecodeETTSections(struct dvbpsi_atsc_ett_s *p_ett, struc
     if(!(p_ett->p_etm_data == ((unsigned char *)NULL)))
       abort();
 
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)i_etm_length, sizeof(unsigned char) /*1ul*/ );
-    p_ett->p_etm_data = (unsigned char *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)i_etm_length, sizeof(unsigned char) /*1ul*/ );
+    p_ett->p_etm_data = (unsigned char *)return_value_calloc_1;
     if(!(p_ett->p_etm_data == ((unsigned char *)NULL)))
     {
       memcpy((void *)p_ett->p_etm_data, (const void *)(p_section->p_payload_start + (signed long int)5), (unsigned long int)i_etm_length);
@@ -13146,12 +13146,12 @@ static void dvbpsi_atsc_DecodeMGTSections(struct dvbpsi_atsc_mgt_s *p_mgt, struc
     p_end = p_byte + (signed long int)i_length;
     while(p_end >= p_byte + 2l)
     {
-      unsigned char dvbpsi_atsc_DecodeMGTSections$$1$$1$$2$$i_tag = p_byte[(signed long int)0];
-      unsigned char dvbpsi_atsc_DecodeMGTSections$$1$$1$$2$$i_len = p_byte[(signed long int)1];
+      unsigned char dvbpsi_atsc_DecodeMGTSections__1__1__2__i_tag = p_byte[(signed long int)0];
+      unsigned char dvbpsi_atsc_DecodeMGTSections__1__1__2__i_len = p_byte[(signed long int)1];
       if(p_end - p_byte >= (signed long int)(2 + (signed int)i_length))
-        dvbpsi_atsc_MGTAddDescriptor(p_mgt, dvbpsi_atsc_DecodeMGTSections$$1$$1$$2$$i_tag, dvbpsi_atsc_DecodeMGTSections$$1$$1$$2$$i_len, p_byte + (signed long int)2);
+        dvbpsi_atsc_MGTAddDescriptor(p_mgt, dvbpsi_atsc_DecodeMGTSections__1__1__2__i_tag, dvbpsi_atsc_DecodeMGTSections__1__1__2__i_len, p_byte + (signed long int)2);
 
-      p_byte = p_byte + (signed long int)(2 + (signed int)dvbpsi_atsc_DecodeMGTSections$$1$$1$$2$$i_len);
+      p_byte = p_byte + (signed long int)(2 + (signed int)dvbpsi_atsc_DecodeMGTSections__1__1__2__i_len);
     }
     p_section = p_section->p_next;
   }
@@ -13233,12 +13233,12 @@ static void dvbpsi_atsc_DecodeVCTSections(struct dvbpsi_atsc_vct_s *p_vct, struc
     p_end = p_byte + (signed long int)i_length;
     while(p_end >= p_byte + 2l)
     {
-      unsigned char dvbpsi_atsc_DecodeVCTSections$$1$$1$$2$$i_tag = p_byte[(signed long int)0];
-      unsigned char dvbpsi_atsc_DecodeVCTSections$$1$$1$$2$$i_len = p_byte[(signed long int)1];
-      if(p_end - p_byte >= (signed long int)(2 + (signed int)dvbpsi_atsc_DecodeVCTSections$$1$$1$$2$$i_len))
-        dvbpsi_atsc_VCTAddDescriptor(p_vct, dvbpsi_atsc_DecodeVCTSections$$1$$1$$2$$i_tag, dvbpsi_atsc_DecodeVCTSections$$1$$1$$2$$i_len, p_byte + (signed long int)2);
+      unsigned char dvbpsi_atsc_DecodeVCTSections__1__1__2__i_tag = p_byte[(signed long int)0];
+      unsigned char dvbpsi_atsc_DecodeVCTSections__1__1__2__i_len = p_byte[(signed long int)1];
+      if(p_end - p_byte >= (signed long int)(2 + (signed int)dvbpsi_atsc_DecodeVCTSections__1__1__2__i_len))
+        dvbpsi_atsc_VCTAddDescriptor(p_vct, dvbpsi_atsc_DecodeVCTSections__1__1__2__i_tag, dvbpsi_atsc_DecodeVCTSections__1__1__2__i_len, p_byte + (signed long int)2);
 
-      p_byte = p_byte + (signed long int)(2 + (signed int)dvbpsi_atsc_DecodeVCTSections$$1$$1$$2$$i_len);
+      p_byte = p_byte + (signed long int)(2 + (signed int)dvbpsi_atsc_DecodeVCTSections__1__1__2__i_len);
     }
     p_section = p_section->p_next;
   }
@@ -13310,7 +13310,7 @@ void dvbpsi_atsc_DetachEIT(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, 
   struct dvbpsi_demux_subdec_s *p_subdec;
   p_subdec=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
   if(p_subdec == ((struct dvbpsi_demux_subdec_s *)NULL))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such EIT decoder (table_id == 0x%02x,extension == 0x%04x)", (const void *)"ATSC EIT Decoder", i_table_id, i_extension);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such EIT decoder (table_id == 0x%02x,extension == 0x%04x)", (const void *)"ATSC EIT Decoder", i_table_id, i_extension);
 
   else
   {
@@ -13340,7 +13340,7 @@ void dvbpsi_atsc_DetachETT(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, 
   struct dvbpsi_demux_subdec_s *p_subdec;
   p_subdec=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
   if(p_subdec == ((struct dvbpsi_demux_subdec_s *)NULL))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such ETT decoder (table_id == 0x%02x,extension == 0x%04x)", (const void *)"ATSC ETT Decoder", i_table_id, i_extension);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such ETT decoder (table_id == 0x%02x,extension == 0x%04x)", (const void *)"ATSC ETT Decoder", i_table_id, i_extension);
 
   else
   {
@@ -13370,7 +13370,7 @@ void dvbpsi_atsc_DetachMGT(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, 
   struct dvbpsi_demux_subdec_s *p_subdec;
   p_subdec=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
   if(p_subdec == ((struct dvbpsi_demux_subdec_s *)NULL))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such MGT decoder (table_id == 0x%02x,extension == 0x%04x)", (const void *)"ATSC MGT Decoder", i_table_id, i_extension);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such MGT decoder (table_id == 0x%02x,extension == 0x%04x)", (const void *)"ATSC MGT Decoder", i_table_id, i_extension);
 
   else
   {
@@ -13401,7 +13401,7 @@ void dvbpsi_atsc_DetachSTT(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, 
   struct dvbpsi_demux_subdec_s *p_subdec;
   p_subdec=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
   if(p_subdec == ((struct dvbpsi_demux_subdec_s *)NULL))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such STT decoder (table_id == 0x%02x,extension == 0x00)", (const void *)"ATSC STT Decoder", i_table_id);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such STT decoder (table_id == 0x%02x,extension == 0x00)", (const void *)"ATSC STT Decoder", i_table_id);
 
   else
   {
@@ -13431,7 +13431,7 @@ void dvbpsi_atsc_DetachVCT(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, 
   struct dvbpsi_demux_subdec_s *p_subdec;
   p_subdec=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
   if(p_subdec == ((struct dvbpsi_demux_subdec_s *)NULL))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such VCT decoder (table_id == 0x%02x,extension == 0x%04x)", (const void *)"ATSC VCT Decoder", i_table_id, i_extension);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such VCT decoder (table_id == 0x%02x,extension == 0x%04x)", (const void *)"ATSC VCT Decoder", i_table_id, i_extension);
 
   else
   {
@@ -13454,9 +13454,9 @@ void dvbpsi_atsc_DetachVCT(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, 
 static struct dvbpsi_atsc_eit_event_s * dvbpsi_atsc_EITAddEvent(struct dvbpsi_atsc_eit_s *p_eit, unsigned short int i_event_id, unsigned int i_start_time, unsigned char i_etm_location, unsigned int i_length_seconds, unsigned char i_title_length, unsigned char *p_title)
 {
   struct dvbpsi_atsc_eit_event_s *p_event;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_atsc_eit_event_s) /*296ul*/ );
-  p_event = (struct dvbpsi_atsc_eit_event_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_atsc_eit_event_s) /*296ul*/ );
+  p_event = (struct dvbpsi_atsc_eit_event_s *)return_value_malloc_1;
   if(!(p_event == ((struct dvbpsi_atsc_eit_event_s *)NULL)))
   {
     p_event->i_event_id = i_event_id;
@@ -13584,9 +13584,9 @@ static void dvbpsi_atsc_GatherEITSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
   assert(p_dvbpsi != ((struct dvbpsi_s *)NULL));
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
-  _Bool return_value_dvbpsi_CheckPSISection$1;
-  return_value_dvbpsi_CheckPSISection$1=dvbpsi_CheckPSISection(p_dvbpsi, p_section, (const unsigned char)0xCB, "ATSC EIT decoder");
-  if(return_value_dvbpsi_CheckPSISection$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CheckPSISection_1;
+  return_value_dvbpsi_CheckPSISection_1=dvbpsi_CheckPSISection(p_dvbpsi, p_section, (const unsigned char)0xCB, "ATSC EIT decoder");
+  if(return_value_dvbpsi_CheckPSISection_1 == (_Bool)0)
     dvbpsi_DeletePSISections(p_section);
 
   else
@@ -13595,7 +13595,7 @@ static void dvbpsi_atsc_GatherEITSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
     struct dvbpsi_atsc_eit_decoder_s *p_eit_decoder = (struct dvbpsi_atsc_eit_decoder_s *)p_decoder;
     if(p_eit_decoder == ((struct dvbpsi_atsc_eit_decoder_s *)NULL))
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No decoder specified", (const void *)"ATSC EIT decoder");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No decoder specified", (const void *)"ATSC EIT decoder");
       dvbpsi_DeletePSISections(p_section);
     }
 
@@ -13603,7 +13603,7 @@ static void dvbpsi_atsc_GatherEITSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
     {
       if(!(p_demux->b_discontinuity == (_Bool)0))
       {
-        dvbpsi_ReInitEIT$link1(p_eit_decoder, (const _Bool)1);
+        dvbpsi_ReInitEIT_link1(p_eit_decoder, (const _Bool)1);
         p_eit_decoder->b_discontinuity = (_Bool)0;
         p_demux->b_discontinuity = (_Bool)0;
       }
@@ -13611,10 +13611,10 @@ static void dvbpsi_atsc_GatherEITSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
       else
         if(!(p_eit_decoder->p_building_eit == ((struct dvbpsi_atsc_eit_s *)NULL)))
         {
-          _Bool return_value_dvbpsi_CheckEIT$2;
-          return_value_dvbpsi_CheckEIT$2=dvbpsi_CheckEIT$link1(p_dvbpsi, p_eit_decoder, p_section);
-          if(!(return_value_dvbpsi_CheckEIT$2 == (_Bool)0))
-            dvbpsi_ReInitEIT$link1(p_eit_decoder, (const _Bool)1);
+          _Bool return_value_dvbpsi_CheckEIT_2;
+          return_value_dvbpsi_CheckEIT_2=dvbpsi_CheckEIT_link1(p_dvbpsi, p_eit_decoder, p_section);
+          if(!(return_value_dvbpsi_CheckEIT_2 == (_Bool)0))
+            dvbpsi_ReInitEIT_link1(p_eit_decoder, (const _Bool)1);
 
         }
 
@@ -13625,7 +13625,7 @@ static void dvbpsi_atsc_GatherEITSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
             {
               if(p_eit_decoder->current_eit.b_current_next == p_section->b_current_next)
               {
-                dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"ATSC EIT decoder", p_section->i_number);
+                dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"ATSC EIT decoder", p_section->i_number);
                 dvbpsi_DeletePSISections(p_section);
                 goto __CPROVER_DUMP_L9;
               }
@@ -13634,19 +13634,19 @@ static void dvbpsi_atsc_GatherEITSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
 
           }
 
-      _Bool return_value_dvbpsi_AddSectionEIT$3;
-      return_value_dvbpsi_AddSectionEIT$3=dvbpsi_AddSectionEIT$link1(p_dvbpsi, p_eit_decoder, p_section);
-      if(return_value_dvbpsi_AddSectionEIT$3 == (_Bool)0)
+      _Bool return_value_dvbpsi_AddSectionEIT_3;
+      return_value_dvbpsi_AddSectionEIT_3=dvbpsi_AddSectionEIT_link1(p_dvbpsi, p_eit_decoder, p_section);
+      if(return_value_dvbpsi_AddSectionEIT_3 == (_Bool)0)
       {
-        dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"ATSC EIT decoder", p_section->i_number);
+        dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"ATSC EIT decoder", p_section->i_number);
         dvbpsi_DeletePSISections(p_section);
       }
 
       else
       {
-        _Bool return_value_dvbpsi_decoder_psi_sections_completed$4;
-        return_value_dvbpsi_decoder_psi_sections_completed$4=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_eit_decoder);
-        if(!(return_value_dvbpsi_decoder_psi_sections_completed$4 == (_Bool)0))
+        _Bool return_value_dvbpsi_decoder_psi_sections_completed_4;
+        return_value_dvbpsi_decoder_psi_sections_completed_4=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_eit_decoder);
+        if(!(return_value_dvbpsi_decoder_psi_sections_completed_4 == (_Bool)0))
         {
           /* assertion p_eit_decoder->pf_eit_callback */
           assert(p_eit_decoder->pf_eit_callback != ((void (*)(void *, struct dvbpsi_atsc_eit_s *))NULL));
@@ -13654,7 +13654,7 @@ static void dvbpsi_atsc_GatherEITSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
           p_eit_decoder->b_current_valid = (_Bool)1;
           dvbpsi_atsc_DecodeEITSections(p_eit_decoder->p_building_eit, p_eit_decoder->p_sections);
           p_eit_decoder->pf_eit_callback(p_eit_decoder->p_cb_data, p_eit_decoder->p_building_eit);
-          dvbpsi_ReInitEIT$link1(p_eit_decoder, (const _Bool)0);
+          dvbpsi_ReInitEIT_link1(p_eit_decoder, (const _Bool)0);
           /* assertion p_eit_decoder->p_sections == ((void *)0) */
           assert(p_eit_decoder->p_sections == (struct dvbpsi_psi_section_s *)(void *)0);
         }
@@ -13675,9 +13675,9 @@ static void dvbpsi_atsc_GatherETTSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
   assert(p_dvbpsi != ((struct dvbpsi_s *)NULL));
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
-  _Bool return_value_dvbpsi_CheckPSISection$1;
-  return_value_dvbpsi_CheckPSISection$1=dvbpsi_CheckPSISection(p_dvbpsi, p_section, (const unsigned char)0xCC, "ATSC ETT decoder");
-  if(return_value_dvbpsi_CheckPSISection$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CheckPSISection_1;
+  return_value_dvbpsi_CheckPSISection_1=dvbpsi_CheckPSISection(p_dvbpsi, p_section, (const unsigned char)0xCC, "ATSC ETT decoder");
+  if(return_value_dvbpsi_CheckPSISection_1 == (_Bool)0)
     dvbpsi_DeletePSISections(p_section);
 
   else
@@ -13686,7 +13686,7 @@ static void dvbpsi_atsc_GatherETTSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
     struct dvbpsi_atsc_ett_decoder_s *p_ett_decoder = (struct dvbpsi_atsc_ett_decoder_s *)p_decoder;
     if(p_ett_decoder == ((struct dvbpsi_atsc_ett_decoder_s *)NULL))
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No decoder specified", (const void *)"ATSC ETT decoder");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No decoder specified", (const void *)"ATSC ETT decoder");
       dvbpsi_DeletePSISections(p_section);
     }
 
@@ -13702,9 +13702,9 @@ static void dvbpsi_atsc_GatherETTSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
       else
         if(!(p_ett_decoder->p_building_ett == ((struct dvbpsi_atsc_ett_s *)NULL)))
         {
-          _Bool return_value_dvbpsi_CheckETT$2;
-          return_value_dvbpsi_CheckETT$2=dvbpsi_CheckETT(p_dvbpsi, p_ett_decoder, p_section);
-          if(!(return_value_dvbpsi_CheckETT$2 == (_Bool)0))
+          _Bool return_value_dvbpsi_CheckETT_2;
+          return_value_dvbpsi_CheckETT_2=dvbpsi_CheckETT(p_dvbpsi, p_ett_decoder, p_section);
+          if(!(return_value_dvbpsi_CheckETT_2 == (_Bool)0))
             dvbpsi_ReInitETT(p_ett_decoder, (const _Bool)1);
 
         }
@@ -13716,7 +13716,7 @@ static void dvbpsi_atsc_GatherETTSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
             {
               if(p_ett_decoder->current_ett.b_current_next == p_section->b_current_next)
               {
-                dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"ATSC ETT decoder", p_section->i_number);
+                dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"ATSC ETT decoder", p_section->i_number);
                 dvbpsi_DeletePSISections(p_section);
                 goto __CPROVER_DUMP_L9;
               }
@@ -13725,19 +13725,19 @@ static void dvbpsi_atsc_GatherETTSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
 
           }
 
-      _Bool return_value_dvbpsi_AddSectionETT$3;
-      return_value_dvbpsi_AddSectionETT$3=dvbpsi_AddSectionETT(p_dvbpsi, p_ett_decoder, p_section);
-      if(return_value_dvbpsi_AddSectionETT$3 == (_Bool)0)
+      _Bool return_value_dvbpsi_AddSectionETT_3;
+      return_value_dvbpsi_AddSectionETT_3=dvbpsi_AddSectionETT(p_dvbpsi, p_ett_decoder, p_section);
+      if(return_value_dvbpsi_AddSectionETT_3 == (_Bool)0)
       {
-        dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"ATSC ETT decoder", p_section->i_number);
+        dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"ATSC ETT decoder", p_section->i_number);
         dvbpsi_DeletePSISections(p_section);
       }
 
       else
       {
-        _Bool return_value_dvbpsi_decoder_psi_sections_completed$4;
-        return_value_dvbpsi_decoder_psi_sections_completed$4=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_ett_decoder);
-        if(!(return_value_dvbpsi_decoder_psi_sections_completed$4 == (_Bool)0))
+        _Bool return_value_dvbpsi_decoder_psi_sections_completed_4;
+        return_value_dvbpsi_decoder_psi_sections_completed_4=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_ett_decoder);
+        if(!(return_value_dvbpsi_decoder_psi_sections_completed_4 == (_Bool)0))
         {
           /* assertion p_ett_decoder->pf_ett_callback */
           assert(p_ett_decoder->pf_ett_callback != ((void (*)(void *, struct dvbpsi_atsc_ett_s *))NULL));
@@ -13766,9 +13766,9 @@ static void dvbpsi_atsc_GatherMGTSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
   assert(p_dvbpsi != ((struct dvbpsi_s *)NULL));
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
-  _Bool return_value_dvbpsi_CheckPSISection$1;
-  return_value_dvbpsi_CheckPSISection$1=dvbpsi_CheckPSISection(p_dvbpsi, p_section, (const unsigned char)0xC7, "ATSC MGT decoder");
-  if(return_value_dvbpsi_CheckPSISection$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CheckPSISection_1;
+  return_value_dvbpsi_CheckPSISection_1=dvbpsi_CheckPSISection(p_dvbpsi, p_section, (const unsigned char)0xC7, "ATSC MGT decoder");
+  if(return_value_dvbpsi_CheckPSISection_1 == (_Bool)0)
     dvbpsi_DeletePSISections(p_section);
 
   else
@@ -13777,7 +13777,7 @@ static void dvbpsi_atsc_GatherMGTSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
     struct dvbpsi_atsc_mgt_decoder_s *p_mgt_decoder = (struct dvbpsi_atsc_mgt_decoder_s *)p_decoder;
     if(p_mgt_decoder == ((struct dvbpsi_atsc_mgt_decoder_s *)NULL))
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No decoder specified", (const void *)"ATSC MGT decoder");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No decoder specified", (const void *)"ATSC MGT decoder");
       dvbpsi_DeletePSISections(p_section);
     }
 
@@ -13793,9 +13793,9 @@ static void dvbpsi_atsc_GatherMGTSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
       else
         if(!(p_mgt_decoder->p_building_mgt == ((struct dvbpsi_atsc_mgt_s *)NULL)))
         {
-          _Bool return_value_dvbpsi_CheckMGT$2;
-          return_value_dvbpsi_CheckMGT$2=dvbpsi_CheckMGT(p_dvbpsi, p_mgt_decoder, p_section);
-          if(!(return_value_dvbpsi_CheckMGT$2 == (_Bool)0))
+          _Bool return_value_dvbpsi_CheckMGT_2;
+          return_value_dvbpsi_CheckMGT_2=dvbpsi_CheckMGT(p_dvbpsi, p_mgt_decoder, p_section);
+          if(!(return_value_dvbpsi_CheckMGT_2 == (_Bool)0))
             dvbpsi_ReInitMGT(p_mgt_decoder, (const _Bool)1);
 
         }
@@ -13807,7 +13807,7 @@ static void dvbpsi_atsc_GatherMGTSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
             {
               if(p_mgt_decoder->current_mgt.b_current_next == p_section->b_current_next)
               {
-                dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"ATSC MGT decoder", p_section->i_number);
+                dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"ATSC MGT decoder", p_section->i_number);
                 dvbpsi_DeletePSISections(p_section);
                 goto __CPROVER_DUMP_L9;
               }
@@ -13816,19 +13816,19 @@ static void dvbpsi_atsc_GatherMGTSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
 
           }
 
-      _Bool return_value_dvbpsi_AddSectionMGT$3;
-      return_value_dvbpsi_AddSectionMGT$3=dvbpsi_AddSectionMGT(p_dvbpsi, p_mgt_decoder, p_section);
-      if(return_value_dvbpsi_AddSectionMGT$3 == (_Bool)0)
+      _Bool return_value_dvbpsi_AddSectionMGT_3;
+      return_value_dvbpsi_AddSectionMGT_3=dvbpsi_AddSectionMGT(p_dvbpsi, p_mgt_decoder, p_section);
+      if(return_value_dvbpsi_AddSectionMGT_3 == (_Bool)0)
       {
-        dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"ATSC MGT decoder", p_section->i_number);
+        dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"ATSC MGT decoder", p_section->i_number);
         dvbpsi_DeletePSISections(p_section);
       }
 
       else
       {
-        _Bool return_value_dvbpsi_decoder_psi_sections_completed$4;
-        return_value_dvbpsi_decoder_psi_sections_completed$4=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_mgt_decoder);
-        if(!(return_value_dvbpsi_decoder_psi_sections_completed$4 == (_Bool)0))
+        _Bool return_value_dvbpsi_decoder_psi_sections_completed_4;
+        return_value_dvbpsi_decoder_psi_sections_completed_4=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_mgt_decoder);
+        if(!(return_value_dvbpsi_decoder_psi_sections_completed_4 == (_Bool)0))
         {
           /* assertion p_mgt_decoder->pf_mgt_callback */
           assert(p_mgt_decoder->pf_mgt_callback != ((void (*)(void *, struct dvbpsi_atsc_mgt_s *))NULL));
@@ -13857,9 +13857,9 @@ static void dvbpsi_atsc_GatherSTTSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
   assert(p_dvbpsi != ((struct dvbpsi_s *)NULL));
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
-  _Bool return_value_dvbpsi_CheckPSISection$1;
-  return_value_dvbpsi_CheckPSISection$1=dvbpsi_CheckPSISection(p_dvbpsi, p_section, (const unsigned char)0xCD, "ATSC STT decoder");
-  if(return_value_dvbpsi_CheckPSISection$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CheckPSISection_1;
+  return_value_dvbpsi_CheckPSISection_1=dvbpsi_CheckPSISection(p_dvbpsi, p_section, (const unsigned char)0xCD, "ATSC STT decoder");
+  if(return_value_dvbpsi_CheckPSISection_1 == (_Bool)0)
     dvbpsi_DeletePSISections(p_section);
 
   else
@@ -13868,7 +13868,7 @@ static void dvbpsi_atsc_GatherSTTSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
     struct dvbpsi_atsc_stt_decoder_s *p_stt_decoder = (struct dvbpsi_atsc_stt_decoder_s *)p_decoder;
     if(p_stt_decoder == ((struct dvbpsi_atsc_stt_decoder_s *)NULL))
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No decoder specified", (const void *)"ATSC STT decoder");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No decoder specified", (const void *)"ATSC STT decoder");
       dvbpsi_DeletePSISections(p_section);
     }
 
@@ -13884,9 +13884,9 @@ static void dvbpsi_atsc_GatherSTTSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
       else
         if(!(p_stt_decoder->p_building_stt == ((struct dvbpsi_atsc_stt_s *)NULL)))
         {
-          _Bool return_value_dvbpsi_CheckSTT$2;
-          return_value_dvbpsi_CheckSTT$2=dvbpsi_CheckSTT(p_dvbpsi, p_stt_decoder, p_section);
-          if(!(return_value_dvbpsi_CheckSTT$2 == (_Bool)0))
+          _Bool return_value_dvbpsi_CheckSTT_2;
+          return_value_dvbpsi_CheckSTT_2=dvbpsi_CheckSTT(p_dvbpsi, p_stt_decoder, p_section);
+          if(!(return_value_dvbpsi_CheckSTT_2 == (_Bool)0))
             dvbpsi_ReInitSTT(p_stt_decoder, (const _Bool)1);
 
         }
@@ -13898,7 +13898,7 @@ static void dvbpsi_atsc_GatherSTTSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
             {
               if(p_stt_decoder->current_stt.b_current_next == p_section->b_current_next)
               {
-                dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"ATSC STT decoder", p_section->i_number);
+                dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"ATSC STT decoder", p_section->i_number);
                 dvbpsi_DeletePSISections(p_section);
                 goto __CPROVER_DUMP_L9;
               }
@@ -13907,19 +13907,19 @@ static void dvbpsi_atsc_GatherSTTSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
 
           }
 
-      _Bool return_value_dvbpsi_AddSectionSTT$3;
-      return_value_dvbpsi_AddSectionSTT$3=dvbpsi_AddSectionSTT(p_dvbpsi, p_stt_decoder, p_section);
-      if(return_value_dvbpsi_AddSectionSTT$3 == (_Bool)0)
+      _Bool return_value_dvbpsi_AddSectionSTT_3;
+      return_value_dvbpsi_AddSectionSTT_3=dvbpsi_AddSectionSTT(p_dvbpsi, p_stt_decoder, p_section);
+      if(return_value_dvbpsi_AddSectionSTT_3 == (_Bool)0)
       {
-        dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"ATSC STT decoder", p_section->i_number);
+        dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"ATSC STT decoder", p_section->i_number);
         dvbpsi_DeletePSISections(p_section);
       }
 
       else
       {
-        _Bool return_value_dvbpsi_decoder_psi_sections_completed$4;
-        return_value_dvbpsi_decoder_psi_sections_completed$4=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_stt_decoder);
-        if(!(return_value_dvbpsi_decoder_psi_sections_completed$4 == (_Bool)0))
+        _Bool return_value_dvbpsi_decoder_psi_sections_completed_4;
+        return_value_dvbpsi_decoder_psi_sections_completed_4=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_stt_decoder);
+        if(!(return_value_dvbpsi_decoder_psi_sections_completed_4 == (_Bool)0))
         {
           /* assertion p_stt_decoder->pf_stt_callback */
           assert(p_stt_decoder->pf_stt_callback != ((void (*)(void *, struct dvbpsi_atsc_stt_s *))NULL));
@@ -13949,22 +13949,22 @@ static void dvbpsi_atsc_GatherVCTSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
   unsigned char i_table_id;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)p_section->i_table_id == 0xC8)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)p_section->i_table_id == 0xC9 ? (_Bool)1 : (_Bool)0;
-  signed int tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (signed int)p_section->i_table_id;
+    tmp_if_expr_1 = (signed int)p_section->i_table_id == 0xC9 ? (_Bool)1 : (_Bool)0;
+  signed int tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (signed int)p_section->i_table_id;
 
   else
-    tmp_if_expr$2 = 0xC8;
-  i_table_id = (const unsigned char)tmp_if_expr$2;
-  _Bool return_value_dvbpsi_CheckPSISection$3;
-  return_value_dvbpsi_CheckPSISection$3=dvbpsi_CheckPSISection(p_dvbpsi, p_section, i_table_id, "ATSC VCT decoder");
-  if(return_value_dvbpsi_CheckPSISection$3 == (_Bool)0)
+    tmp_if_expr_2 = 0xC8;
+  i_table_id = (const unsigned char)tmp_if_expr_2;
+  _Bool return_value_dvbpsi_CheckPSISection_3;
+  return_value_dvbpsi_CheckPSISection_3=dvbpsi_CheckPSISection(p_dvbpsi, p_section, i_table_id, "ATSC VCT decoder");
+  if(return_value_dvbpsi_CheckPSISection_3 == (_Bool)0)
     dvbpsi_DeletePSISections(p_section);
 
   else
@@ -13981,9 +13981,9 @@ static void dvbpsi_atsc_GatherVCTSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
     else
       if(!(p_vct_decoder->p_building_vct == ((struct dvbpsi_atsc_vct_s *)NULL)))
       {
-        _Bool return_value_dvbpsi_CheckVCT$4;
-        return_value_dvbpsi_CheckVCT$4=dvbpsi_CheckVCT(p_dvbpsi, p_vct_decoder, p_section);
-        if(!(return_value_dvbpsi_CheckVCT$4 == (_Bool)0))
+        _Bool return_value_dvbpsi_CheckVCT_4;
+        return_value_dvbpsi_CheckVCT_4=dvbpsi_CheckVCT(p_dvbpsi, p_vct_decoder, p_section);
+        if(!(return_value_dvbpsi_CheckVCT_4 == (_Bool)0))
           dvbpsi_ReInitVCT(p_vct_decoder, (const _Bool)1);
 
       }
@@ -13995,7 +13995,7 @@ static void dvbpsi_atsc_GatherVCTSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
           {
             if(p_vct_decoder->current_vct.b_current_next == p_section->b_current_next)
             {
-              dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"ATSC VCT decoder", p_section->i_number);
+              dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"ATSC VCT decoder", p_section->i_number);
               dvbpsi_DeletePSISections(p_section);
               goto __CPROVER_DUMP_L12;
             }
@@ -14004,19 +14004,19 @@ static void dvbpsi_atsc_GatherVCTSections(struct dvbpsi_s *p_dvbpsi, struct dvbp
 
         }
 
-    _Bool return_value_dvbpsi_AddSectionVCT$5;
-    return_value_dvbpsi_AddSectionVCT$5=dvbpsi_AddSectionVCT(p_dvbpsi, p_vct_decoder, p_section);
-    if(return_value_dvbpsi_AddSectionVCT$5 == (_Bool)0)
+    _Bool return_value_dvbpsi_AddSectionVCT_5;
+    return_value_dvbpsi_AddSectionVCT_5=dvbpsi_AddSectionVCT(p_dvbpsi, p_vct_decoder, p_section);
+    if(return_value_dvbpsi_AddSectionVCT_5 == (_Bool)0)
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"ATSC_VCT decoder", p_section->i_number);
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"ATSC_VCT decoder", p_section->i_number);
       dvbpsi_DeletePSISections(p_section);
     }
 
     else
     {
-      _Bool return_value_dvbpsi_decoder_psi_sections_completed$6;
-      return_value_dvbpsi_decoder_psi_sections_completed$6=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_vct_decoder);
-      if(!(return_value_dvbpsi_decoder_psi_sections_completed$6 == (_Bool)0))
+      _Bool return_value_dvbpsi_decoder_psi_sections_completed_6;
+      return_value_dvbpsi_decoder_psi_sections_completed_6=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_vct_decoder);
+      if(!(return_value_dvbpsi_decoder_psi_sections_completed_6 == (_Bool)0))
       {
         /* assertion p_vct_decoder->pf_vct_callback */
         assert(p_vct_decoder->pf_vct_callback != ((void (*)(void *, struct dvbpsi_atsc_vct_s *))NULL));
@@ -14140,9 +14140,9 @@ static struct dvbpsi_descriptor_s * dvbpsi_atsc_MGTAddDescriptor(struct dvbpsi_a
 static struct dvbpsi_atsc_mgt_table_s * dvbpsi_atsc_MGTAddTable(struct dvbpsi_atsc_mgt_s *p_mgt, unsigned short int i_table_type, unsigned short int i_table_type_pid, unsigned char i_table_type_version, unsigned int i_number_bytes)
 {
   struct dvbpsi_atsc_mgt_table_s *p_table;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_atsc_mgt_table_s) /*32ul*/ );
-  p_table = (struct dvbpsi_atsc_mgt_table_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_atsc_mgt_table_s) /*32ul*/ );
+  p_table = (struct dvbpsi_atsc_mgt_table_s *)return_value_malloc_1;
   if(!(p_table == ((struct dvbpsi_atsc_mgt_table_s *)NULL)))
   {
     p_table->i_table_type = i_table_type;
@@ -14194,9 +14194,9 @@ static struct dvbpsi_descriptor_s * dvbpsi_atsc_MGTTableAddDescriptor(struct dvb
 struct dvbpsi_atsc_eit_s * dvbpsi_atsc_NewEIT(unsigned char i_table_id, unsigned short int i_extension, unsigned char i_version, unsigned char i_protocol, unsigned short int i_source_id, _Bool b_current_next)
 {
   struct dvbpsi_atsc_eit_s *p_eit;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_atsc_eit_s) /*32ul*/ );
-  p_eit = (struct dvbpsi_atsc_eit_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_atsc_eit_s) /*32ul*/ );
+  p_eit = (struct dvbpsi_atsc_eit_s *)return_value_malloc_1;
   if(!(p_eit == ((struct dvbpsi_atsc_eit_s *)NULL)))
     dvbpsi_atsc_InitEIT(p_eit, i_table_id, i_extension, i_version, i_protocol, i_source_id, b_current_next);
 
@@ -14208,9 +14208,9 @@ struct dvbpsi_atsc_eit_s * dvbpsi_atsc_NewEIT(unsigned char i_table_id, unsigned
 struct dvbpsi_atsc_ett_s * dvbpsi_atsc_NewETT(unsigned char i_table_id, unsigned short int i_extension, unsigned char i_version, unsigned char i_protocol, unsigned int i_etm_id, _Bool b_current_next)
 {
   struct dvbpsi_atsc_ett_s *p_ett;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_atsc_ett_s) /*32ul*/ );
-  p_ett = (struct dvbpsi_atsc_ett_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_atsc_ett_s) /*32ul*/ );
+  p_ett = (struct dvbpsi_atsc_ett_s *)return_value_malloc_1;
   if(!(p_ett == ((struct dvbpsi_atsc_ett_s *)NULL)))
     dvbpsi_atsc_InitETT(p_ett, i_table_id, i_extension, i_version, i_protocol, i_etm_id, b_current_next);
 
@@ -14222,9 +14222,9 @@ struct dvbpsi_atsc_ett_s * dvbpsi_atsc_NewETT(unsigned char i_table_id, unsigned
 struct dvbpsi_atsc_mgt_s * dvbpsi_atsc_NewMGT(unsigned char i_table_id, unsigned short int i_extension, unsigned char i_version, unsigned char i_protocol, _Bool b_current_next)
 {
   struct dvbpsi_atsc_mgt_s *p_mgt;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct dvbpsi_atsc_mgt_s) /*32ul*/ );
-  p_mgt = (struct dvbpsi_atsc_mgt_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct dvbpsi_atsc_mgt_s) /*32ul*/ );
+  p_mgt = (struct dvbpsi_atsc_mgt_s *)return_value_calloc_1;
   if(!(p_mgt == ((struct dvbpsi_atsc_mgt_s *)NULL)))
     dvbpsi_atsc_InitMGT(p_mgt, i_table_id, i_extension, i_version, i_protocol, b_current_next);
 
@@ -14236,9 +14236,9 @@ struct dvbpsi_atsc_mgt_s * dvbpsi_atsc_NewMGT(unsigned char i_table_id, unsigned
 struct dvbpsi_atsc_stt_s * dvbpsi_atsc_NewSTT(unsigned char i_table_id, unsigned short int i_extension, unsigned char i_version, _Bool b_current_next)
 {
   struct dvbpsi_atsc_stt_s *p_stt;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_atsc_stt_s) /*24ul*/ );
-  p_stt = (struct dvbpsi_atsc_stt_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_atsc_stt_s) /*24ul*/ );
+  p_stt = (struct dvbpsi_atsc_stt_s *)return_value_malloc_1;
   if(!(p_stt == ((struct dvbpsi_atsc_stt_s *)NULL)))
     dvbpsi_atsc_InitSTT(p_stt, i_table_id, i_extension, i_version, b_current_next);
 
@@ -14250,9 +14250,9 @@ struct dvbpsi_atsc_stt_s * dvbpsi_atsc_NewSTT(unsigned char i_table_id, unsigned
 struct dvbpsi_atsc_vct_s * dvbpsi_atsc_NewVCT(unsigned char i_table_id, unsigned short int i_extension, unsigned char i_protocol, _Bool b_cable_vct, unsigned char i_version, _Bool b_current_next)
 {
   struct dvbpsi_atsc_vct_s *p_vct;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_atsc_vct_s) /*24ul*/ );
-  p_vct = (struct dvbpsi_atsc_vct_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_atsc_vct_s) /*24ul*/ );
+  p_vct = (struct dvbpsi_atsc_vct_s *)return_value_malloc_1;
   if(!(p_vct == ((struct dvbpsi_atsc_vct_s *)NULL)))
     dvbpsi_atsc_InitVCT(p_vct, i_table_id, i_extension, i_protocol, b_cable_vct, i_version, b_current_next);
 
@@ -14286,9 +14286,9 @@ struct dvbpsi_descriptor_s * dvbpsi_atsc_STTAddDescriptor(struct dvbpsi_atsc_stt
 static struct dvbpsi_atsc_vct_channel_s * dvbpsi_atsc_VCTAddChannel(struct dvbpsi_atsc_vct_s *p_vct, unsigned char *p_short_name, unsigned short int i_major_number, unsigned short int i_minor_number, unsigned char i_modulation, unsigned int i_carrier_freq, unsigned short int i_channel_tsid, unsigned short int i_program_number, unsigned char i_etm_location, signed int b_access_controlled, signed int b_hidden, signed int b_path_select, signed int b_out_of_band, signed int b_hide_guide, unsigned char i_service_type, unsigned short int i_source_id)
 {
   struct dvbpsi_atsc_vct_channel_s *p_channel;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_atsc_vct_channel_s) /*56ul*/ );
-  p_channel = (struct dvbpsi_atsc_vct_channel_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_atsc_vct_channel_s) /*56ul*/ );
+  p_channel = (struct dvbpsi_atsc_vct_channel_s *)return_value_malloc_1;
   if(!(p_channel == ((struct dvbpsi_atsc_vct_channel_s *)NULL)))
   {
     memcpy((void *)p_channel->i_short_name, (const void *)p_short_name, sizeof(unsigned short int) /*2ul*/  * (unsigned long int)7);
@@ -14377,20 +14377,20 @@ _Bool dvbpsi_bat_attach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, uns
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
   struct dvbpsi_demux_s *p_demux = (struct dvbpsi_demux_s *)p_dvbpsi->p_decoder;
-  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec$1;
-  return_value_dvbpsi_demuxGetSubDec$1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
-  if(!(return_value_dvbpsi_demuxGetSubDec$1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
+  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec_1;
+  return_value_dvbpsi_demuxGetSubDec_1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
+  if(!(return_value_dvbpsi_demuxGetSubDec_1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x,extension == 0x%02x)", (const void *)"BAT decoder", i_table_id, i_extension);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x,extension == 0x%02x)", (const void *)"BAT decoder", i_table_id, i_extension);
     return (_Bool)0;
   }
 
   else
   {
     struct dvbpsi_bat_decoder_s *p_bat_decoder;
-    void *return_value_dvbpsi_decoder_new$2;
-    return_value_dvbpsi_decoder_new$2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_bat_decoder_s) /*88ul*/ );
-    p_bat_decoder = (struct dvbpsi_bat_decoder_s *)return_value_dvbpsi_decoder_new$2;
+    void *return_value_dvbpsi_decoder_new_2;
+    return_value_dvbpsi_decoder_new_2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_bat_decoder_s) /*88ul*/ );
+    p_bat_decoder = (struct dvbpsi_bat_decoder_s *)return_value_dvbpsi_decoder_new_2;
     if(p_bat_decoder == ((struct dvbpsi_bat_decoder_s *)NULL))
       return (_Bool)0;
 
@@ -14460,7 +14460,7 @@ void dvbpsi_bat_detach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsi
   struct dvbpsi_demux_subdec_s *p_subdec;
   p_subdec=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
   if(p_subdec == ((struct dvbpsi_demux_subdec_s *)NULL))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such BAT decoder (table_id == 0x%02x,extension == 0x%02x)", (const void *)"BAT Decoder", i_table_id, i_extension);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such BAT decoder (table_id == 0x%02x,extension == 0x%02x)", (const void *)"BAT Decoder", i_table_id, i_extension);
 
   else
   {
@@ -14510,9 +14510,9 @@ void dvbpsi_bat_init(struct dvbpsi_bat_s *p_bat, unsigned char i_table_id, unsig
 struct dvbpsi_bat_s * dvbpsi_bat_new(unsigned char i_table_id, unsigned short int i_extension, unsigned char i_version, _Bool b_current_next)
 {
   struct dvbpsi_bat_s *p_bat;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_bat_s) /*24ul*/ );
-  p_bat = (struct dvbpsi_bat_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_bat_s) /*24ul*/ );
+  p_bat = (struct dvbpsi_bat_s *)return_value_malloc_1;
   if(!(p_bat == ((struct dvbpsi_bat_s *)NULL)))
     dvbpsi_bat_init(p_bat, i_table_id, i_extension, i_version, b_current_next);
 
@@ -14534,12 +14534,12 @@ void dvbpsi_bat_sections_decode(struct dvbpsi_bat_s *p_bat, struct dvbpsi_psi_se
 
     while(p_end >= p_byte + 2l)
     {
-      unsigned char dvbpsi_bat_sections_decode$$1$$1$$1$$i_tag = p_byte[(signed long int)0];
-      unsigned char dvbpsi_bat_sections_decode$$1$$1$$1$$i_length = p_byte[(signed long int)1];
-      if(p_end - p_byte >= (signed long int)(2 + (signed int)dvbpsi_bat_sections_decode$$1$$1$$1$$i_length))
-        dvbpsi_bat_bouquet_descriptor_add(p_bat, dvbpsi_bat_sections_decode$$1$$1$$1$$i_tag, dvbpsi_bat_sections_decode$$1$$1$$1$$i_length, p_byte + (signed long int)2);
+      unsigned char dvbpsi_bat_sections_decode__1__1__1__i_tag = p_byte[(signed long int)0];
+      unsigned char dvbpsi_bat_sections_decode__1__1__1__i_length = p_byte[(signed long int)1];
+      if(p_end - p_byte >= (signed long int)(2 + (signed int)dvbpsi_bat_sections_decode__1__1__1__i_length))
+        dvbpsi_bat_bouquet_descriptor_add(p_bat, dvbpsi_bat_sections_decode__1__1__1__i_tag, dvbpsi_bat_sections_decode__1__1__1__i_length, p_byte + (signed long int)2);
 
-      p_byte = p_byte + (signed long int)(2 + (signed int)dvbpsi_bat_sections_decode$$1$$1$$1$$i_length);
+      p_byte = p_byte + (signed long int)(2 + (signed int)dvbpsi_bat_sections_decode__1__1__1__i_length);
     }
     p_end = (signed long int)2 + p_byte + (signed long int)((signed int)(unsigned short int)((signed int)p_byte[(signed long int)0] & 0x0f) << 8 | (signed int)p_byte[(signed long int)1]);
     if(!(p_section->p_payload_end >= p_end))
@@ -14585,9 +14585,9 @@ void dvbpsi_bat_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
   assert(p_dvbpsi != ((struct dvbpsi_s *)NULL));
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
-  _Bool return_value_dvbpsi_CheckPSISection$1;
-  return_value_dvbpsi_CheckPSISection$1=dvbpsi_CheckPSISection(p_dvbpsi, p_section, (const unsigned char)0x4a, "BAT decoder");
-  if(return_value_dvbpsi_CheckPSISection$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CheckPSISection_1;
+  return_value_dvbpsi_CheckPSISection_1=dvbpsi_CheckPSISection(p_dvbpsi, p_section, (const unsigned char)0x4a, "BAT decoder");
+  if(return_value_dvbpsi_CheckPSISection_1 == (_Bool)0)
     dvbpsi_DeletePSISections(p_section);
 
   else
@@ -14602,9 +14602,9 @@ void dvbpsi_bat_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
     else
       if(!(p_bat_decoder->p_building_bat == ((struct dvbpsi_bat_s *)NULL)))
       {
-        _Bool return_value_dvbpsi_CheckBAT$2;
-        return_value_dvbpsi_CheckBAT$2=dvbpsi_CheckBAT(p_dvbpsi, p_bat_decoder, p_section);
-        if(!(return_value_dvbpsi_CheckBAT$2 == (_Bool)0))
+        _Bool return_value_dvbpsi_CheckBAT_2;
+        return_value_dvbpsi_CheckBAT_2=dvbpsi_CheckBAT(p_dvbpsi, p_bat_decoder, p_section);
+        if(!(return_value_dvbpsi_CheckBAT_2 == (_Bool)0))
           dvbpsi_ReInitBAT(p_bat_decoder, (const _Bool)1);
 
       }
@@ -14616,7 +14616,7 @@ void dvbpsi_bat_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
           {
             if(p_bat_decoder->current_bat.b_current_next == p_section->b_current_next)
             {
-              dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"BAT decoder", p_section->i_number);
+              dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"BAT decoder", p_section->i_number);
               dvbpsi_DeletePSISections(p_section);
               goto __CPROVER_DUMP_L8;
             }
@@ -14625,19 +14625,19 @@ void dvbpsi_bat_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
 
         }
 
-    _Bool return_value_dvbpsi_AddSectionBAT$3;
-    return_value_dvbpsi_AddSectionBAT$3=dvbpsi_AddSectionBAT(p_dvbpsi, p_bat_decoder, p_section);
-    if(return_value_dvbpsi_AddSectionBAT$3 == (_Bool)0)
+    _Bool return_value_dvbpsi_AddSectionBAT_3;
+    return_value_dvbpsi_AddSectionBAT_3=dvbpsi_AddSectionBAT(p_dvbpsi, p_bat_decoder, p_section);
+    if(return_value_dvbpsi_AddSectionBAT_3 == (_Bool)0)
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"BAT decoder", p_section->i_number);
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"BAT decoder", p_section->i_number);
       dvbpsi_DeletePSISections(p_section);
     }
 
     else
     {
-      _Bool return_value_dvbpsi_decoder_psi_sections_completed$4;
-      return_value_dvbpsi_decoder_psi_sections_completed$4=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_bat_decoder);
-      if(!(return_value_dvbpsi_decoder_psi_sections_completed$4 == (_Bool)0))
+      _Bool return_value_dvbpsi_decoder_psi_sections_completed_4;
+      return_value_dvbpsi_decoder_psi_sections_completed_4=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_bat_decoder);
+      if(!(return_value_dvbpsi_decoder_psi_sections_completed_4 == (_Bool)0))
       {
         /* assertion p_bat_decoder->pf_bat_callback */
         assert(p_bat_decoder->pf_bat_callback != ((void (*)(void *, struct dvbpsi_bat_s *))NULL));
@@ -14672,7 +14672,7 @@ struct dvbpsi_psi_section_s * dvbpsi_bat_sections_generate(struct dvbpsi_s *p_dv
   unsigned char *p_transport_stream_loop_length;
   if(p_current == ((struct dvbpsi_psi_section_s *)NULL))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed to allocate new PSI section", (const void *)"BAT encoder");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed to allocate new PSI section", (const void *)"BAT encoder");
     return (struct dvbpsi_psi_section_s *)(void *)0;
   }
 
@@ -14702,7 +14702,7 @@ struct dvbpsi_psi_section_s * dvbpsi_bat_sections_generate(struct dvbpsi_s *p_dv
         p_current=dvbpsi_NewPSISection(1024);
         if(p_current == ((struct dvbpsi_psi_section_s *)NULL))
         {
-          dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed to allocate new PSI section", (const void *)"BAT encoder");
+          dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed to allocate new PSI section", (const void *)"BAT encoder");
           goto error;
         }
 
@@ -14751,7 +14751,7 @@ struct dvbpsi_psi_section_s * dvbpsi_bat_sections_generate(struct dvbpsi_s *p_dv
             i_transport_stream_loop_length = (unsigned short int)((p_current->p_payload_end - p_transport_stream_loop_length) - (signed long int)2);
             p_transport_stream_loop_length[(signed long int)0] = (unsigned char)((signed int)i_transport_stream_loop_length >> 8 | 0xf0);
             p_transport_stream_loop_length[(signed long int)1] = (unsigned char)i_transport_stream_loop_length;
-            dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): create a new section to carry more TS descriptors", (const void *)"BAT generator");
+            dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): create a new section to carry more TS descriptors", (const void *)"BAT generator");
             p_prev = p_current;
             p_current=dvbpsi_NewPSISection(1024);
             p_prev->p_next = p_current;
@@ -14795,7 +14795,7 @@ struct dvbpsi_psi_section_s * dvbpsi_bat_sections_generate(struct dvbpsi_s *p_dv
         p_current->i_length = p_current->i_length + (unsigned short int)((signed int)p_descriptor->i_length + 2);
       }
       if(!(p_descriptor == ((struct dvbpsi_descriptor_s *)NULL)))
-        dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): unable to carry all the TS descriptors", (const void *)"BAT generator");
+        dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): unable to carry all the TS descriptors", (const void *)"BAT generator");
 
       i_transport_descriptors_length = (unsigned short int)((p_current->p_payload_end - p_ts_start) - (signed long int)5);
       p_ts_start[(signed long int)4] = (unsigned char)((signed int)i_transport_descriptors_length >> 8 | 0xf0);
@@ -14826,9 +14826,9 @@ struct dvbpsi_psi_section_s * dvbpsi_bat_sections_generate(struct dvbpsi_s *p_dv
 struct dvbpsi_bat_ts_s * dvbpsi_bat_ts_add(struct dvbpsi_bat_s *p_bat, unsigned short int i_ts_id, unsigned short int i_orig_network_id)
 {
   struct dvbpsi_bat_ts_s *p_ts;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_bat_ts_s) /*24ul*/ );
-  p_ts = (struct dvbpsi_bat_ts_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_bat_ts_s) /*24ul*/ );
+  p_ts = (struct dvbpsi_bat_ts_s *)return_value_malloc_1;
   if(p_ts == ((struct dvbpsi_bat_ts_s *)NULL))
     return (struct dvbpsi_bat_ts_s *)(void *)0;
 
@@ -14886,9 +14886,9 @@ _Bool dvbpsi_cat_attach(struct dvbpsi_s *p_dvbpsi, void (*pf_callback)(void *, s
   /* assertion p_dvbpsi->p_decoder == ((void *)0) */
   assert(p_dvbpsi->p_decoder == (struct dvbpsi_decoder_s *)(void *)0);
   struct dvbpsi_cat_decoder_s *p_cat_decoder;
-  void *return_value_dvbpsi_decoder_new$1;
-  return_value_dvbpsi_decoder_new$1=dvbpsi_decoder_new(dvbpsi_cat_sections_gather, 1024, (const _Bool)1, sizeof(struct dvbpsi_cat_decoder_s) /*80ul*/ );
-  p_cat_decoder = (struct dvbpsi_cat_decoder_s *)return_value_dvbpsi_decoder_new$1;
+  void *return_value_dvbpsi_decoder_new_1;
+  return_value_dvbpsi_decoder_new_1=dvbpsi_decoder_new(dvbpsi_cat_sections_gather, 1024, (const _Bool)1, sizeof(struct dvbpsi_cat_decoder_s) /*80ul*/ );
+  p_cat_decoder = (struct dvbpsi_cat_decoder_s *)return_value_dvbpsi_decoder_new_1;
   if(p_cat_decoder == ((struct dvbpsi_cat_decoder_s *)NULL))
     return (_Bool)0;
 
@@ -14975,9 +14975,9 @@ void dvbpsi_cat_init(struct dvbpsi_cat_s *p_cat, unsigned char i_version, _Bool 
 struct dvbpsi_cat_s * dvbpsi_cat_new(unsigned char i_version, _Bool b_current_next)
 {
   struct dvbpsi_cat_s *p_cat;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_cat_s) /*16ul*/ );
-  p_cat = (struct dvbpsi_cat_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_cat_s) /*16ul*/ );
+  p_cat = (struct dvbpsi_cat_s *)return_value_malloc_1;
   if(!(p_cat == ((struct dvbpsi_cat_s *)NULL)))
     dvbpsi_cat_init(p_cat, i_version, b_current_next);
 
@@ -15012,9 +15012,9 @@ void dvbpsi_cat_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sec
   assert(p_dvbpsi != ((struct dvbpsi_s *)NULL));
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
-  _Bool return_value_dvbpsi_CheckPSISection$1;
-  return_value_dvbpsi_CheckPSISection$1=dvbpsi_CheckPSISection(p_dvbpsi, p_section, (const unsigned char)0x01, "CAT decoder");
-  if(return_value_dvbpsi_CheckPSISection$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CheckPSISection_1;
+  return_value_dvbpsi_CheckPSISection_1=dvbpsi_CheckPSISection(p_dvbpsi, p_section, (const unsigned char)0x01, "CAT decoder");
+  if(return_value_dvbpsi_CheckPSISection_1 == (_Bool)0)
     dvbpsi_DeletePSISections(p_section);
 
   else
@@ -15029,9 +15029,9 @@ void dvbpsi_cat_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sec
     else
       if(!(p_cat_decoder->p_building_cat == ((struct dvbpsi_cat_s *)NULL)))
       {
-        _Bool return_value_dvbpsi_CheckCAT$2;
-        return_value_dvbpsi_CheckCAT$2=dvbpsi_CheckCAT(p_dvbpsi, p_section);
-        if(!(return_value_dvbpsi_CheckCAT$2 == (_Bool)0))
+        _Bool return_value_dvbpsi_CheckCAT_2;
+        return_value_dvbpsi_CheckCAT_2=dvbpsi_CheckCAT(p_dvbpsi, p_section);
+        if(!(return_value_dvbpsi_CheckCAT_2 == (_Bool)0))
           dvbpsi_ReInitCAT(p_cat_decoder, (const _Bool)1);
 
       }
@@ -15043,7 +15043,7 @@ void dvbpsi_cat_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sec
           {
             if(p_cat_decoder->current_cat.b_current_next == p_section->b_current_next)
             {
-              dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"CAT decoder", p_section->i_number);
+              dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"CAT decoder", p_section->i_number);
               dvbpsi_DeletePSISections(p_section);
               goto __CPROVER_DUMP_L8;
             }
@@ -15052,19 +15052,19 @@ void dvbpsi_cat_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sec
 
         }
 
-    _Bool return_value_dvbpsi_AddSectionCAT$3;
-    return_value_dvbpsi_AddSectionCAT$3=dvbpsi_AddSectionCAT(p_dvbpsi, p_cat_decoder, p_section);
-    if(return_value_dvbpsi_AddSectionCAT$3 == (_Bool)0)
+    _Bool return_value_dvbpsi_AddSectionCAT_3;
+    return_value_dvbpsi_AddSectionCAT_3=dvbpsi_AddSectionCAT(p_dvbpsi, p_cat_decoder, p_section);
+    if(return_value_dvbpsi_AddSectionCAT_3 == (_Bool)0)
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"CAT decoder", p_section->i_number);
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"CAT decoder", p_section->i_number);
       dvbpsi_DeletePSISections(p_section);
     }
 
     else
     {
-      _Bool return_value_dvbpsi_decoder_psi_sections_completed$4;
-      return_value_dvbpsi_decoder_psi_sections_completed$4=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_cat_decoder);
-      if(!(return_value_dvbpsi_decoder_psi_sections_completed$4 == (_Bool)0))
+      _Bool return_value_dvbpsi_decoder_psi_sections_completed_4;
+      return_value_dvbpsi_decoder_psi_sections_completed_4=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_cat_decoder);
+      if(!(return_value_dvbpsi_decoder_psi_sections_completed_4 == (_Bool)0))
       {
         /* assertion p_cat_decoder->pf_cat_callback */
         assert(p_cat_decoder->pf_cat_callback != ((void (*)(void *, struct dvbpsi_cat_s *))NULL));
@@ -15160,9 +15160,9 @@ void * dvbpsi_decoder_new(void (*pf_gather)(struct dvbpsi_s *, struct dvbpsi_psi
   /* assertion psi_size >= sizeof(dvbpsi_decoder_t) */
   assert(psi_size >= sizeof(struct dvbpsi_decoder_s) /*40ul*/ );
   struct dvbpsi_decoder_s *p_decoder;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, psi_size);
-  p_decoder = (struct dvbpsi_decoder_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, psi_size);
+  p_decoder = (struct dvbpsi_decoder_s *)return_value_calloc_1;
   if(p_decoder == ((struct dvbpsi_decoder_s *)NULL))
     return (void *)0;
 
@@ -15187,13 +15187,13 @@ void * dvbpsi_decoder_new(void (*pf_gather)(struct dvbpsi_s *, struct dvbpsi_psi
 // file ../../src/dvbpsi.h line 351
 _Bool dvbpsi_decoder_present(struct dvbpsi_s *p_dvbpsi)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(p_dvbpsi == ((struct dvbpsi_s *)NULL)))
-    tmp_if_expr$1 = p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     return (_Bool)1;
 
   else
@@ -15352,20 +15352,20 @@ _Bool dvbpsi_eit_attach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, uns
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
   struct dvbpsi_demux_s *p_demux = (struct dvbpsi_demux_s *)p_dvbpsi->p_decoder;
-  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec$1;
-  return_value_dvbpsi_demuxGetSubDec$1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
-  if(!(return_value_dvbpsi_demuxGetSubDec$1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
+  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec_1;
+  return_value_dvbpsi_demuxGetSubDec_1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
+  if(!(return_value_dvbpsi_demuxGetSubDec_1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x,extension == 0x%02x)", (const void *)"EIT decoder", i_table_id, i_extension);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x,extension == 0x%02x)", (const void *)"EIT decoder", i_table_id, i_extension);
     return (_Bool)0;
   }
 
   else
   {
     struct dvbpsi_eit_decoder_s *p_eit_decoder;
-    void *return_value_dvbpsi_decoder_new$2;
-    return_value_dvbpsi_decoder_new$2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_eit_decoder_s) /*96ul*/ );
-    p_eit_decoder = (struct dvbpsi_eit_decoder_s *)return_value_dvbpsi_decoder_new$2;
+    void *return_value_dvbpsi_decoder_new_2;
+    return_value_dvbpsi_decoder_new_2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_eit_decoder_s) /*96ul*/ );
+    p_eit_decoder = (struct dvbpsi_eit_decoder_s *)return_value_dvbpsi_decoder_new_2;
     if(p_eit_decoder == ((struct dvbpsi_eit_decoder_s *)NULL))
       return (_Bool)0;
 
@@ -15413,7 +15413,7 @@ void dvbpsi_eit_detach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsi
   struct dvbpsi_demux_subdec_s *p_subdec;
   p_subdec=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
   if(p_subdec == ((struct dvbpsi_demux_subdec_s *)NULL))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such EIT decoder (table_id == 0x%02x,extension == 0x%02x)", (const void *)"EIT Decoder", i_table_id, i_extension);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such EIT decoder (table_id == 0x%02x,extension == 0x%02x)", (const void *)"EIT Decoder", i_table_id, i_extension);
 
   else
   {
@@ -15447,9 +15447,9 @@ void dvbpsi_eit_empty(struct dvbpsi_eit_s *p_eit)
 struct dvbpsi_eit_event_s * dvbpsi_eit_event_add(struct dvbpsi_eit_s *p_eit, unsigned short int i_event_id, unsigned long int i_start_time, unsigned int i_duration, unsigned char i_running_status, _Bool b_free_ca, unsigned short int i_event_descriptor_length)
 {
   struct dvbpsi_eit_event_s *p_event;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct dvbpsi_eit_event_s) /*48ul*/ );
-  p_event = (struct dvbpsi_eit_event_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct dvbpsi_eit_event_s) /*48ul*/ );
+  p_event = (struct dvbpsi_eit_event_s *)return_value_calloc_1;
   if(p_event == ((struct dvbpsi_eit_event_s *)NULL))
     return (struct dvbpsi_eit_event_s *)(void *)0;
 
@@ -15520,9 +15520,9 @@ void dvbpsi_eit_init(struct dvbpsi_eit_s *p_eit, unsigned char i_table_id, unsig
 struct dvbpsi_eit_s * dvbpsi_eit_new(unsigned char i_table_id, unsigned short int i_extension, unsigned char i_version, _Bool b_current_next, unsigned short int i_ts_id, unsigned short int i_network_id, unsigned char i_segment_last_section_number, unsigned char i_last_table_id)
 {
   struct dvbpsi_eit_s *p_eit;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_eit_s) /*24ul*/ );
-  p_eit = (struct dvbpsi_eit_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_eit_s) /*24ul*/ );
+  p_eit = (struct dvbpsi_eit_s *)return_value_malloc_1;
   if(!(p_eit == ((struct dvbpsi_eit_s *)NULL)))
     dvbpsi_eit_init(p_eit, i_table_id, i_extension, i_version, b_current_next, i_ts_id, i_network_id, i_segment_last_section_number, i_last_table_id);
 
@@ -15533,9 +15533,9 @@ struct dvbpsi_eit_s * dvbpsi_eit_new(unsigned char i_table_id, unsigned short in
 // file tables/eit.c line 248
 struct dvbpsi_eit_event_s * dvbpsi_eit_nvod_event_add(struct dvbpsi_eit_s *p_eit, unsigned short int i_event_id, unsigned int i_duration, _Bool b_free_ca, unsigned short int i_event_descriptor_length)
 {
-  struct dvbpsi_eit_event_s *return_value_dvbpsi_eit_event_add$1;
-  return_value_dvbpsi_eit_event_add$1=dvbpsi_eit_event_add(p_eit, i_event_id, (unsigned long int)0xFFFFF000, i_duration, (unsigned char)0x0, b_free_ca, i_event_descriptor_length);
-  return return_value_dvbpsi_eit_event_add$1;
+  struct dvbpsi_eit_event_s *return_value_dvbpsi_eit_event_add_1;
+  return_value_dvbpsi_eit_event_add_1=dvbpsi_eit_event_add(p_eit, i_event_id, (unsigned long int)0xFFFFF000, i_duration, (unsigned char)0x0, b_free_ca, i_event_descriptor_length);
+  return return_value_dvbpsi_eit_event_add_1;
 }
 
 // dvbpsi_eit_sections_decode
@@ -15588,22 +15588,22 @@ void dvbpsi_eit_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
   unsigned char i_table_id;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)p_section->i_table_id >= 0x4e)
-    tmp_if_expr$1 = (signed int)p_section->i_table_id <= 0x6f ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)p_section->i_table_id <= 0x6f ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  signed int tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (signed int)p_section->i_table_id;
+    tmp_if_expr_1 = (_Bool)0;
+  signed int tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (signed int)p_section->i_table_id;
 
   else
-    tmp_if_expr$2 = 0x4e;
-  i_table_id = (const unsigned char)tmp_if_expr$2;
-  _Bool return_value_dvbpsi_CheckPSISection$3;
-  return_value_dvbpsi_CheckPSISection$3=dvbpsi_CheckPSISection(p_dvbpsi, p_section, i_table_id, "EIT decoder");
-  if(return_value_dvbpsi_CheckPSISection$3 == (_Bool)0)
+    tmp_if_expr_2 = 0x4e;
+  i_table_id = (const unsigned char)tmp_if_expr_2;
+  _Bool return_value_dvbpsi_CheckPSISection_3;
+  return_value_dvbpsi_CheckPSISection_3=dvbpsi_CheckPSISection(p_dvbpsi, p_section, i_table_id, "EIT decoder");
+  if(return_value_dvbpsi_CheckPSISection_3 == (_Bool)0)
     dvbpsi_DeletePSISections(p_section);
 
   else
@@ -15620,9 +15620,9 @@ void dvbpsi_eit_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
     else
       if(!(p_eit_decoder->p_building_eit == ((struct dvbpsi_eit_s *)NULL)))
       {
-        _Bool return_value_dvbpsi_CheckEIT$4;
-        return_value_dvbpsi_CheckEIT$4=dvbpsi_CheckEIT(p_dvbpsi, p_eit_decoder, p_section);
-        if(!(return_value_dvbpsi_CheckEIT$4 == (_Bool)0))
+        _Bool return_value_dvbpsi_CheckEIT_4;
+        return_value_dvbpsi_CheckEIT_4=dvbpsi_CheckEIT(p_dvbpsi, p_eit_decoder, p_section);
+        if(!(return_value_dvbpsi_CheckEIT_4 == (_Bool)0))
           dvbpsi_ReInitEIT(p_eit_decoder, (const _Bool)1);
 
       }
@@ -15634,7 +15634,7 @@ void dvbpsi_eit_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
           {
             if(p_eit_decoder->current_eit.b_current_next == p_section->b_current_next)
             {
-              dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"EIT decoder", p_section->i_number);
+              dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"EIT decoder", p_section->i_number);
               dvbpsi_DeletePSISections(p_section);
               goto __CPROVER_DUMP_L12;
             }
@@ -15643,19 +15643,19 @@ void dvbpsi_eit_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
 
         }
 
-    _Bool return_value_dvbpsi_AddSectionEIT$5;
-    return_value_dvbpsi_AddSectionEIT$5=dvbpsi_AddSectionEIT(p_dvbpsi, p_eit_decoder, p_section);
-    if(return_value_dvbpsi_AddSectionEIT$5 == (_Bool)0)
+    _Bool return_value_dvbpsi_AddSectionEIT_5;
+    return_value_dvbpsi_AddSectionEIT_5=dvbpsi_AddSectionEIT(p_dvbpsi, p_eit_decoder, p_section);
+    if(return_value_dvbpsi_AddSectionEIT_5 == (_Bool)0)
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"EIT decoder", p_section->i_number);
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"EIT decoder", p_section->i_number);
       dvbpsi_DeletePSISections(p_section);
     }
 
     else
     {
-      _Bool return_value_dvbpsi_IsCompleteEIT$6;
-      return_value_dvbpsi_IsCompleteEIT$6=dvbpsi_IsCompleteEIT(p_eit_decoder, p_section);
-      if(!(return_value_dvbpsi_IsCompleteEIT$6 == (_Bool)0))
+      _Bool return_value_dvbpsi_IsCompleteEIT_6;
+      return_value_dvbpsi_IsCompleteEIT_6=dvbpsi_IsCompleteEIT(p_eit_decoder, p_section);
+      if(!(return_value_dvbpsi_IsCompleteEIT_6 == (_Bool)0))
       {
         /* assertion p_eit_decoder->pf_eit_callback */
         assert(p_eit_decoder->pf_eit_callback != ((void (*)(void *, struct dvbpsi_eit_s *))NULL));
@@ -15717,7 +15717,7 @@ struct dvbpsi_psi_section_s * dvbpsi_eit_sections_generate(struct dvbpsi_s *p_dv
       {
         if((p_current->p_payload_end - p_current->p_data) + (signed long int)p_descriptor->i_length >= 4091l)
         {
-          dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): too many descriptors in event, unable to carry all the descriptors", (const void *)"EIT generator");
+          dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): too many descriptors in event, unable to carry all the descriptors", (const void *)"EIT generator");
           break;
         }
 
@@ -15746,73 +15746,73 @@ struct dvbpsi_psi_section_s * dvbpsi_eit_sections_generate(struct dvbpsi_s *p_dv
 // file psi.h line 188
 static inline _Bool dvbpsi_has_CRC32(struct dvbpsi_psi_section_s *p_section)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(p_section->i_table_id == 112)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = p_section->i_table_id == (unsigned char)0x71 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = p_section->i_table_id == (unsigned char)0x71 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = p_section->i_table_id == (unsigned char)0x72 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = p_section->i_table_id == (unsigned char)0x72 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = p_section->i_table_id == (unsigned char)0x7E ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = p_section->i_table_id == (unsigned char)0x7E ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
     return (_Bool)0;
 
   else
   {
     if(!(p_section->b_syntax_indicator == (_Bool)0))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)p_section->i_table_id == 0x73 ? (_Bool)1 : (_Bool)0;
-    return tmp_if_expr$4;
+      tmp_if_expr_4 = (signed int)p_section->i_table_id == 0x73 ? (_Bool)1 : (_Bool)0;
+    return tmp_if_expr_4;
   }
 }
 
-// dvbpsi_has_CRC32$link1
+// dvbpsi_has_CRC32_link1
 // file psi.h line 188
-static inline _Bool dvbpsi_has_CRC32$link1(struct dvbpsi_psi_section_s *p_section$link1)
+static inline _Bool dvbpsi_has_CRC32_link1(struct dvbpsi_psi_section_s *p_section_link1)
 {
-  _Bool tmp_if_expr$1$link1;
-  if(p_section$link1->i_table_id == 112)
-    tmp_if_expr$1$link1 = (_Bool)1;
+  _Bool tmp_if_expr_1_link1;
+  if(p_section_link1->i_table_id == 112)
+    tmp_if_expr_1_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$1$link1 = p_section$link1->i_table_id == (unsigned char)0x71 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2$link1;
-  if(tmp_if_expr$1$link1)
-    tmp_if_expr$2$link1 = (_Bool)1;
+    tmp_if_expr_1_link1 = p_section_link1->i_table_id == (unsigned char)0x71 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2_link1;
+  if(tmp_if_expr_1_link1)
+    tmp_if_expr_2_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$2$link1 = p_section$link1->i_table_id == (unsigned char)0x72 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3$link1;
-  if(tmp_if_expr$2$link1)
-    tmp_if_expr$3$link1 = (_Bool)1;
+    tmp_if_expr_2_link1 = p_section_link1->i_table_id == (unsigned char)0x72 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3_link1;
+  if(tmp_if_expr_2_link1)
+    tmp_if_expr_3_link1 = (_Bool)1;
 
   else
-    tmp_if_expr$3$link1 = p_section$link1->i_table_id == (unsigned char)0x7E ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4$link1;
-  if(tmp_if_expr$3$link1)
+    tmp_if_expr_3_link1 = p_section_link1->i_table_id == (unsigned char)0x7E ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4_link1;
+  if(tmp_if_expr_3_link1)
     return (_Bool)0;
 
   else
   {
-    if(!(p_section$link1->b_syntax_indicator == (_Bool)0))
-      tmp_if_expr$4$link1 = (_Bool)1;
+    if(!(p_section_link1->b_syntax_indicator == (_Bool)0))
+      tmp_if_expr_4_link1 = (_Bool)1;
 
     else
-      tmp_if_expr$4$link1 = (signed int)p_section$link1->i_table_id == 0x73 ? (_Bool)1 : (_Bool)0;
-    return tmp_if_expr$4$link1;
+      tmp_if_expr_4_link1 = (signed int)p_section_link1->i_table_id == 0x73 ? (_Bool)1 : (_Bool)0;
+    return tmp_if_expr_4_link1;
   }
 }
 
@@ -15821,46 +15821,46 @@ static inline _Bool dvbpsi_has_CRC32$link1(struct dvbpsi_psi_section_s *p_sectio
 static void dvbpsi_message(struct dvbpsi_s *p_dvbpsi, const enum dvbpsi_msg_level level, const char *msg)
 {
   signed int code = 0;
-  const char *dvbpsi_message$$1$$psz_level;
+  const char *dvbpsi_message__1__psz_level;
   switch((signed int)level)
   {
     case DVBPSI_MSG_ERROR:
     {
       code = 0;
-      dvbpsi_message$$1$$psz_level = "Error: ";
+      dvbpsi_message__1__psz_level = "Error: ";
       break;
     }
     case DVBPSI_MSG_WARN:
     {
       code = 1;
-      dvbpsi_message$$1$$psz_level = "Warning: ";
+      dvbpsi_message__1__psz_level = "Warning: ";
       break;
     }
     case DVBPSI_MSG_DEBUG:
     {
       code = 3;
-      dvbpsi_message$$1$$psz_level = "Debug: ";
+      dvbpsi_message__1__psz_level = "Debug: ";
       break;
     }
     default:
       goto __CPROVER_DUMP_L11;
   }
   struct ts_stream_t *stream = (struct ts_stream_t *)p_dvbpsi->p_sys;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(stream == ((struct ts_stream_t *)NULL)))
-    tmp_if_expr$2 = stream->pf_log != ((void (*)(void *, const signed int, const char *, ...))NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = stream->pf_log != ((void (*)(void *, const signed int, const char *, ...))NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     stream->pf_log(stream->cb_data, code, msg);
 
   else
   {
     char *reply = (char *)(void *)0;
-    signed int return_value_asprintf$1;
-    return_value_asprintf$1=asprintf(&reply, "%s%s\n", dvbpsi_message$$1$$psz_level, msg);
-    if(return_value_asprintf$1 >= 1)
+    signed int return_value_asprintf_1;
+    return_value_asprintf_1=asprintf(&reply, "%s%s\n", dvbpsi_message__1__psz_level, msg);
+    if(return_value_asprintf_1 >= 1)
     {
       fprintf(stderr, "%s", reply);
       free((void *)reply);
@@ -15872,13 +15872,13 @@ __CPROVER_DUMP_L11:
   ;
 }
 
-// dvbpsi_message$link1
+// dvbpsi_message_link1
 // file dvbpsi.c line 518
-void dvbpsi_message$link1(struct dvbpsi_s *dvbpsi, const enum dvbpsi_msg_level level$link1, const char *fmt, ...)
+void dvbpsi_message_link1(struct dvbpsi_s *dvbpsi, const enum dvbpsi_msg_level level_link1, const char *fmt, ...)
 {
   if((signed int)dvbpsi->i_msg_level >= 0)
   {
-    if((signed int)dvbpsi->i_msg_level >= (signed int)level$link1)
+    if((signed int)dvbpsi->i_msg_level >= (signed int)level_link1)
     {
       void **ap = (void **)&fmt;
       char *msg = (char *)(void *)0;
@@ -15888,7 +15888,7 @@ void dvbpsi_message$link1(struct dvbpsi_s *dvbpsi, const enum dvbpsi_msg_level l
       if(err >= 1)
       {
         if(!(dvbpsi->pf_message == ((void (*)(struct dvbpsi_s *, const enum dvbpsi_msg_level, const char *))NULL)))
-          dvbpsi->pf_message(dvbpsi, level$link1, msg);
+          dvbpsi->pf_message(dvbpsi, level_link1, msg);
 
       }
 
@@ -15904,9 +15904,9 @@ void dvbpsi_message$link1(struct dvbpsi_s *dvbpsi, const enum dvbpsi_msg_level l
 struct dvbpsi_s * dvbpsi_new(void (*callback)(struct dvbpsi_s *, const enum dvbpsi_msg_level, const char *), enum dvbpsi_msg_level level)
 {
   struct dvbpsi_s *p_dvbpsi;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct dvbpsi_s) /*32ul*/ );
-  p_dvbpsi = (struct dvbpsi_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct dvbpsi_s) /*32ul*/ );
+  p_dvbpsi = (struct dvbpsi_s *)return_value_calloc_1;
   if(p_dvbpsi == ((struct dvbpsi_s *)NULL))
     return (struct dvbpsi_s *)(void *)0;
 
@@ -15928,20 +15928,20 @@ _Bool dvbpsi_nit_attach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, uns
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
   struct dvbpsi_demux_s *p_demux = (struct dvbpsi_demux_s *)p_dvbpsi->p_decoder;
-  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec$1;
-  return_value_dvbpsi_demuxGetSubDec$1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
-  if(!(return_value_dvbpsi_demuxGetSubDec$1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
+  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec_1;
+  return_value_dvbpsi_demuxGetSubDec_1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
+  if(!(return_value_dvbpsi_demuxGetSubDec_1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x,extension == 0x%02x)", (const void *)"NIT decoder", i_table_id, i_extension);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x,extension == 0x%02x)", (const void *)"NIT decoder", i_table_id, i_extension);
     return (_Bool)0;
   }
 
   else
   {
     struct dvbpsi_nit_decoder_s *p_nit_decoder;
-    void *return_value_dvbpsi_decoder_new$2;
-    return_value_dvbpsi_decoder_new$2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_nit_decoder_s) /*96ul*/ );
-    p_nit_decoder = (struct dvbpsi_nit_decoder_s *)return_value_dvbpsi_decoder_new$2;
+    void *return_value_dvbpsi_decoder_new_2;
+    return_value_dvbpsi_decoder_new_2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_nit_decoder_s) /*96ul*/ );
+    p_nit_decoder = (struct dvbpsi_nit_decoder_s *)return_value_dvbpsi_decoder_new_2;
     if(p_nit_decoder == ((struct dvbpsi_nit_decoder_s *)NULL))
       return (_Bool)0;
 
@@ -16011,7 +16011,7 @@ void dvbpsi_nit_detach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsi
   struct dvbpsi_demux_subdec_s *p_subdec;
   p_subdec=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
   if(p_subdec == ((struct dvbpsi_demux_subdec_s *)NULL))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such NIT decoder (table_id == 0x%02x,extension == 0x%02x)", (const void *)"NIT Decoder", i_table_id, i_extension);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such NIT decoder (table_id == 0x%02x,extension == 0x%02x)", (const void *)"NIT Decoder", i_table_id, i_extension);
 
   else
   {
@@ -16060,9 +16060,9 @@ void dvbpsi_nit_init(struct dvbpsi_nit_s *p_nit, unsigned char i_table_id, unsig
 struct dvbpsi_nit_s * dvbpsi_nit_new(unsigned char i_table_id, unsigned short int i_extension, unsigned short int i_network_id, unsigned char i_version, _Bool b_current_next)
 {
   struct dvbpsi_nit_s *p_nit;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_nit_s) /*24ul*/ );
-  p_nit = (struct dvbpsi_nit_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_nit_s) /*24ul*/ );
+  p_nit = (struct dvbpsi_nit_s *)return_value_malloc_1;
   if(!(p_nit == ((struct dvbpsi_nit_s *)NULL)))
     dvbpsi_nit_init(p_nit, i_table_id, i_extension, i_network_id, i_version, b_current_next);
 
@@ -16081,12 +16081,12 @@ void dvbpsi_nit_sections_decode(struct dvbpsi_nit_s *p_nit, struct dvbpsi_psi_se
     p_end = p_byte + (signed long int)((signed int)(unsigned short int)((signed int)p_section->p_payload_start[(signed long int)0] & 0x0f) << 8 | (signed int)p_section->p_payload_start[(signed long int)1]);
     while(p_end >= p_byte + 2l)
     {
-      unsigned char dvbpsi_nit_sections_decode$$1$$1$$1$$i_tag = p_byte[(signed long int)0];
-      unsigned char dvbpsi_nit_sections_decode$$1$$1$$1$$i_length = p_byte[(signed long int)1];
-      if(p_end - p_byte >= (signed long int)(2 + (signed int)dvbpsi_nit_sections_decode$$1$$1$$1$$i_length))
-        dvbpsi_nit_descriptor_add(p_nit, dvbpsi_nit_sections_decode$$1$$1$$1$$i_tag, dvbpsi_nit_sections_decode$$1$$1$$1$$i_length, p_byte + (signed long int)2);
+      unsigned char dvbpsi_nit_sections_decode__1__1__1__i_tag = p_byte[(signed long int)0];
+      unsigned char dvbpsi_nit_sections_decode__1__1__1__i_length = p_byte[(signed long int)1];
+      if(p_end - p_byte >= (signed long int)(2 + (signed int)dvbpsi_nit_sections_decode__1__1__1__i_length))
+        dvbpsi_nit_descriptor_add(p_nit, dvbpsi_nit_sections_decode__1__1__1__i_tag, dvbpsi_nit_sections_decode__1__1__1__i_length, p_byte + (signed long int)2);
 
-      p_byte = p_byte + (signed long int)(2 + (signed int)dvbpsi_nit_sections_decode$$1$$1$$1$$i_length);
+      p_byte = p_byte + (signed long int)(2 + (signed int)dvbpsi_nit_sections_decode__1__1__1__i_length);
     }
     p_end = (signed long int)2 + p_byte + (signed long int)((signed int)(unsigned short int)((signed int)p_byte[(signed long int)0] & 0x0f) << 8 | (signed int)p_byte[(signed long int)1]);
     if(!(p_section->p_payload_end >= p_end))
@@ -16129,22 +16129,22 @@ void dvbpsi_nit_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
   /* assertion p_dvbpsi */
   assert(p_dvbpsi != ((struct dvbpsi_s *)NULL));
   unsigned char i_table_id;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)p_section->i_table_id == 0x40)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)p_section->i_table_id == 0x41 ? (_Bool)1 : (_Bool)0;
-  signed int tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (signed int)p_section->i_table_id;
+    tmp_if_expr_1 = (signed int)p_section->i_table_id == 0x41 ? (_Bool)1 : (_Bool)0;
+  signed int tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (signed int)p_section->i_table_id;
 
   else
-    tmp_if_expr$2 = 0x40;
-  i_table_id = (const unsigned char)tmp_if_expr$2;
-  _Bool return_value_dvbpsi_CheckPSISection$3;
-  return_value_dvbpsi_CheckPSISection$3=dvbpsi_CheckPSISection(p_dvbpsi, p_section, i_table_id, "NIT decoder");
-  if(return_value_dvbpsi_CheckPSISection$3 == (_Bool)0)
+    tmp_if_expr_2 = 0x40;
+  i_table_id = (const unsigned char)tmp_if_expr_2;
+  _Bool return_value_dvbpsi_CheckPSISection_3;
+  return_value_dvbpsi_CheckPSISection_3=dvbpsi_CheckPSISection(p_dvbpsi, p_section, i_table_id, "NIT decoder");
+  if(return_value_dvbpsi_CheckPSISection_3 == (_Bool)0)
     dvbpsi_DeletePSISections(p_section);
 
   else
@@ -16152,7 +16152,7 @@ void dvbpsi_nit_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
     struct dvbpsi_nit_decoder_s *p_nit_decoder = (struct dvbpsi_nit_decoder_s *)p_private_decoder;
     if(!(p_nit_decoder->i_network_id == p_section->i_extension))
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'network_id' don't match", (const void *)"NIT decoder");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): 'network_id' don't match", (const void *)"NIT decoder");
       dvbpsi_DeletePSISections(p_section);
     }
 
@@ -16167,9 +16167,9 @@ void dvbpsi_nit_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
       else
         if(!(p_nit_decoder->p_building_nit == ((struct dvbpsi_nit_s *)NULL)))
         {
-          _Bool return_value_dvbpsi_CheckNIT$4;
-          return_value_dvbpsi_CheckNIT$4=dvbpsi_CheckNIT(p_dvbpsi, p_nit_decoder, p_section);
-          if(!(return_value_dvbpsi_CheckNIT$4 == (_Bool)0))
+          _Bool return_value_dvbpsi_CheckNIT_4;
+          return_value_dvbpsi_CheckNIT_4=dvbpsi_CheckNIT(p_dvbpsi, p_nit_decoder, p_section);
+          if(!(return_value_dvbpsi_CheckNIT_4 == (_Bool)0))
             dvbpsi_ReInitNIT(p_nit_decoder, (const _Bool)1);
 
         }
@@ -16181,7 +16181,7 @@ void dvbpsi_nit_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
             {
               if(p_nit_decoder->current_nit.b_current_next == p_section->b_current_next)
               {
-                dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"NIT decoder", p_section->i_number);
+                dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"NIT decoder", p_section->i_number);
                 dvbpsi_DeletePSISections(p_section);
                 goto __CPROVER_DUMP_L13;
               }
@@ -16190,19 +16190,19 @@ void dvbpsi_nit_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
 
           }
 
-      _Bool return_value_dvbpsi_AddSectionNIT$5;
-      return_value_dvbpsi_AddSectionNIT$5=dvbpsi_AddSectionNIT(p_dvbpsi, p_nit_decoder, p_section);
-      if(return_value_dvbpsi_AddSectionNIT$5 == (_Bool)0)
+      _Bool return_value_dvbpsi_AddSectionNIT_5;
+      return_value_dvbpsi_AddSectionNIT_5=dvbpsi_AddSectionNIT(p_dvbpsi, p_nit_decoder, p_section);
+      if(return_value_dvbpsi_AddSectionNIT_5 == (_Bool)0)
       {
-        dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"NIT decoder", p_section->i_number);
+        dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"NIT decoder", p_section->i_number);
         dvbpsi_DeletePSISections(p_section);
       }
 
       else
       {
-        _Bool return_value_dvbpsi_decoder_psi_sections_completed$6;
-        return_value_dvbpsi_decoder_psi_sections_completed$6=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_nit_decoder);
-        if(!(return_value_dvbpsi_decoder_psi_sections_completed$6 == (_Bool)0))
+        _Bool return_value_dvbpsi_decoder_psi_sections_completed_6;
+        return_value_dvbpsi_decoder_psi_sections_completed_6=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_nit_decoder);
+        if(!(return_value_dvbpsi_decoder_psi_sections_completed_6 == (_Bool)0))
         {
           /* assertion p_nit_decoder->pf_nit_callback */
           assert(p_nit_decoder->pf_nit_callback != ((void (*)(void *, struct dvbpsi_nit_s *))NULL));
@@ -16303,7 +16303,7 @@ struct dvbpsi_psi_section_s * dvbpsi_nit_sections_generate(struct dvbpsi_s *p_dv
           i_transport_stream_loop_length = (unsigned short int)((p_current->p_payload_end - p_transport_stream_loop_length) - (signed long int)2);
           p_transport_stream_loop_length[(signed long int)0] = (unsigned char)((signed int)i_transport_stream_loop_length >> 8 | 0xf0);
           p_transport_stream_loop_length[(signed long int)1] = (unsigned char)i_transport_stream_loop_length;
-          dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): create a new section to carry more TS descriptors", (const void *)"NIT generator");
+          dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): create a new section to carry more TS descriptors", (const void *)"NIT generator");
           p_prev = p_current;
           p_current=dvbpsi_NewPSISection(1024);
           p_prev->p_next = p_current;
@@ -16347,7 +16347,7 @@ struct dvbpsi_psi_section_s * dvbpsi_nit_sections_generate(struct dvbpsi_s *p_dv
       p_current->i_length = p_current->i_length + (unsigned short int)((signed int)p_descriptor->i_length + 2);
     }
     if(!(p_descriptor == ((struct dvbpsi_descriptor_s *)NULL)))
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): unable to carry all the TS descriptors", (const void *)"NIT generator");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): unable to carry all the TS descriptors", (const void *)"NIT generator");
 
     i_ts_length = (unsigned short int)((p_current->p_payload_end - p_ts_start) - (signed long int)6);
     p_ts_start[(signed long int)4] = (unsigned char)((signed int)i_ts_length >> 8 | 0xf0);
@@ -16371,9 +16371,9 @@ struct dvbpsi_psi_section_s * dvbpsi_nit_sections_generate(struct dvbpsi_s *p_dv
 struct dvbpsi_nit_ts_s * dvbpsi_nit_ts_add(struct dvbpsi_nit_s *p_nit, unsigned short int i_ts_id, unsigned short int i_orig_network_id)
 {
   struct dvbpsi_nit_ts_s *p_ts;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_nit_ts_s) /*24ul*/ );
-  p_ts = (struct dvbpsi_nit_ts_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_nit_ts_s) /*24ul*/ );
+  p_ts = (struct dvbpsi_nit_ts_s *)return_value_malloc_1;
   if(p_ts == ((struct dvbpsi_nit_ts_s *)NULL))
     return (struct dvbpsi_nit_ts_s *)(void *)0;
 
@@ -16431,11 +16431,11 @@ _Bool dvbpsi_packet_push(struct dvbpsi_s *p_dvbpsi, unsigned char *p_data)
   struct dvbpsi_decoder_s *p_decoder = p_dvbpsi->p_decoder;
   /* assertion p_decoder */
   assert(p_decoder != ((struct dvbpsi_decoder_s *)NULL));
-  _Bool tmp_if_expr$2;
-  _Bool return_value_dvbpsi_ValidPSISection$1;
+  _Bool tmp_if_expr_2;
+  _Bool return_value_dvbpsi_ValidPSISection_1;
   if(!((signed int)*p_data == 0x47))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): not a TS packet", (const void *)"PSI decoder");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): not a TS packet", (const void *)"PSI decoder");
     return (_Bool)0;
   }
 
@@ -16453,7 +16453,7 @@ _Bool dvbpsi_packet_push(struct dvbpsi_s *p_dvbpsi, unsigned char *p_data)
       {
         if(p_decoder->b_discontinuity == (_Bool)0)
         {
-          dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): TS duplicate (received %d, expected %d) for PID %d", (const void *)"PSI decoder", p_decoder->i_continuity_counter, i_expected_counter, (signed int)(unsigned short int)((signed int)p_data[(signed long int)1] & 0x1f) << 8 | (signed int)p_data[(signed long int)2]);
+          dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): TS duplicate (received %d, expected %d) for PID %d", (const void *)"PSI decoder", p_decoder->i_continuity_counter, i_expected_counter, (signed int)(unsigned short int)((signed int)p_data[(signed long int)1] & 0x1f) << 8 | (signed int)p_data[(signed long int)2]);
           return (_Bool)0;
         }
 
@@ -16461,7 +16461,7 @@ _Bool dvbpsi_packet_push(struct dvbpsi_s *p_dvbpsi, unsigned char *p_data)
 
       if(!(i_expected_counter == p_decoder->i_continuity_counter))
       {
-        dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): TS discontinuity (received %d, expected %d) for PID %d", (const void *)"PSI decoder", p_decoder->i_continuity_counter, i_expected_counter, (signed int)(unsigned short int)((signed int)p_data[(signed long int)1] & 0x1f) << 8 | (signed int)p_data[(signed long int)2]);
+        dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): TS discontinuity (received %d, expected %d) for PID %d", (const void *)"PSI decoder", p_decoder->i_continuity_counter, i_expected_counter, (signed int)(unsigned short int)((signed int)p_data[(signed long int)1] & 0x1f) << 8 | (signed int)p_data[(signed long int)2]);
         p_decoder->b_discontinuity = (_Bool)1;
         if(!(p_decoder->p_current_section == ((struct dvbpsi_psi_section_s *)NULL)))
         {
@@ -16528,7 +16528,7 @@ _Bool dvbpsi_packet_push(struct dvbpsi_s *p_dvbpsi, unsigned char *p_data)
               p_decoder->i_need = (signed int)p_section->i_length;
               if(!(p_decoder->i_section_max_size + -3 >= p_decoder->i_need))
               {
-                dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): PSI section too long", (const void *)"PSI decoder");
+                dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): PSI section too long", (const void *)"PSI decoder");
                 dvbpsi_DeletePSISections(p_section);
                 p_decoder->p_current_section = (struct dvbpsi_psi_section_s *)(void *)0;
                 if(!(p_new_pos == ((unsigned char *)NULL)))
@@ -16596,17 +16596,17 @@ _Bool dvbpsi_packet_push(struct dvbpsi_s *p_dvbpsi, unsigned char *p_data)
               {
                 if(!(has_crc32 == (_Bool)0))
                 {
-                  return_value_dvbpsi_ValidPSISection$1=dvbpsi_ValidPSISection(p_section);
-                  tmp_if_expr$2 = !(return_value_dvbpsi_ValidPSISection$1 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+                  return_value_dvbpsi_ValidPSISection_1=dvbpsi_ValidPSISection(p_section);
+                  tmp_if_expr_2 = !(return_value_dvbpsi_ValidPSISection_1 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$2 = (_Bool)0;
-                if(tmp_if_expr$2)
-                  dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Bad CRC_32 table 0x%x !!!", (const void *)"misc PSI", p_section->p_data[(signed long int)0]);
+                  tmp_if_expr_2 = (_Bool)0;
+                if(tmp_if_expr_2)
+                  dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Bad CRC_32 table 0x%x !!!", (const void *)"misc PSI", p_section->p_data[(signed long int)0]);
 
                 else
-                  dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): table 0x%x", (const void *)"misc PSI", p_section->p_data[(signed long int)0]);
+                  dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): table 0x%x", (const void *)"misc PSI", p_section->p_data[(signed long int)0]);
                 dvbpsi_DeletePSISections(p_section);
                 p_decoder->p_current_section = (struct dvbpsi_psi_section_s *)(void *)0;
               }
@@ -16658,9 +16658,9 @@ _Bool dvbpsi_pat_attach(struct dvbpsi_s *p_dvbpsi, void (*pf_callback)(void *, s
   /* assertion p_dvbpsi->p_decoder == ((void *)0) */
   assert(p_dvbpsi->p_decoder == (struct dvbpsi_decoder_s *)(void *)0);
   struct dvbpsi_pat_decoder_s *p_pat_decoder;
-  void *return_value_dvbpsi_decoder_new$1;
-  return_value_dvbpsi_decoder_new$1=dvbpsi_decoder_new(dvbpsi_pat_sections_gather, 1024, (const _Bool)1, sizeof(struct dvbpsi_pat_decoder_s) /*80ul*/ );
-  p_pat_decoder = (struct dvbpsi_pat_decoder_s *)return_value_dvbpsi_decoder_new$1;
+  void *return_value_dvbpsi_decoder_new_1;
+  return_value_dvbpsi_decoder_new_1=dvbpsi_decoder_new(dvbpsi_pat_sections_gather, 1024, (const _Bool)1, sizeof(struct dvbpsi_pat_decoder_s) /*80ul*/ );
+  p_pat_decoder = (struct dvbpsi_pat_decoder_s *)return_value_dvbpsi_decoder_new_1;
   if(p_pat_decoder == ((struct dvbpsi_pat_decoder_s *)NULL))
     return (_Bool)0;
 
@@ -16732,9 +16732,9 @@ void dvbpsi_pat_init(struct dvbpsi_pat_s *p_pat, unsigned short int i_ts_id, uns
 struct dvbpsi_pat_s * dvbpsi_pat_new(unsigned short int i_ts_id, unsigned char i_version, _Bool b_current_next)
 {
   struct dvbpsi_pat_s *p_pat;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_pat_s) /*16ul*/ );
-  p_pat = (struct dvbpsi_pat_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_pat_s) /*16ul*/ );
+  p_pat = (struct dvbpsi_pat_s *)return_value_malloc_1;
   if(!(p_pat == ((struct dvbpsi_pat_s *)NULL)))
     dvbpsi_pat_init(p_pat, i_ts_id, i_version, b_current_next);
 
@@ -16751,9 +16751,9 @@ struct dvbpsi_pat_program_s * dvbpsi_pat_program_add(struct dvbpsi_pat_s *p_pat,
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct dvbpsi_pat_program_s) /*16ul*/ );
-    p_program = (struct dvbpsi_pat_program_s *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct dvbpsi_pat_program_s) /*16ul*/ );
+    p_program = (struct dvbpsi_pat_program_s *)return_value_malloc_1;
     if(p_program == ((struct dvbpsi_pat_program_s *)NULL))
       return (struct dvbpsi_pat_program_s *)(void *)0;
 
@@ -16808,9 +16808,9 @@ void dvbpsi_pat_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sec
   assert(p_dvbpsi != ((struct dvbpsi_s *)NULL));
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
-  _Bool return_value_dvbpsi_CheckPSISection$1;
-  return_value_dvbpsi_CheckPSISection$1=dvbpsi_CheckPSISection(p_dvbpsi, p_section, (const unsigned char)0x00, "PAT decoder");
-  if(return_value_dvbpsi_CheckPSISection$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CheckPSISection_1;
+  return_value_dvbpsi_CheckPSISection_1=dvbpsi_CheckPSISection(p_dvbpsi, p_section, (const unsigned char)0x00, "PAT decoder");
+  if(return_value_dvbpsi_CheckPSISection_1 == (_Bool)0)
     dvbpsi_DeletePSISections(p_section);
 
   else
@@ -16825,9 +16825,9 @@ void dvbpsi_pat_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sec
     else
       if(!(p_pat_decoder->p_building_pat == ((struct dvbpsi_pat_s *)NULL)))
       {
-        _Bool return_value_dvbpsi_CheckPAT$2;
-        return_value_dvbpsi_CheckPAT$2=dvbpsi_CheckPAT(p_dvbpsi, p_section);
-        if(!(return_value_dvbpsi_CheckPAT$2 == (_Bool)0))
+        _Bool return_value_dvbpsi_CheckPAT_2;
+        return_value_dvbpsi_CheckPAT_2=dvbpsi_CheckPAT(p_dvbpsi, p_section);
+        if(!(return_value_dvbpsi_CheckPAT_2 == (_Bool)0))
           dvbpsi_ReInitPAT(p_pat_decoder, (const _Bool)1);
 
       }
@@ -16839,7 +16839,7 @@ void dvbpsi_pat_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sec
           {
             if(p_pat_decoder->current_pat.b_current_next == p_section->b_current_next)
             {
-              dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"PAT decoder", p_section->i_number);
+              dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"PAT decoder", p_section->i_number);
               dvbpsi_DeletePSISections(p_section);
               goto __CPROVER_DUMP_L10;
             }
@@ -16848,26 +16848,26 @@ void dvbpsi_pat_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sec
 
         }
 
-    _Bool return_value_dvbpsi_AddSectionPAT$3;
-    return_value_dvbpsi_AddSectionPAT$3=dvbpsi_AddSectionPAT(p_dvbpsi, p_pat_decoder, p_section);
-    if(return_value_dvbpsi_AddSectionPAT$3 == (_Bool)0)
+    _Bool return_value_dvbpsi_AddSectionPAT_3;
+    return_value_dvbpsi_AddSectionPAT_3=dvbpsi_AddSectionPAT(p_dvbpsi, p_pat_decoder, p_section);
+    if(return_value_dvbpsi_AddSectionPAT_3 == (_Bool)0)
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"PAT decoder", p_section->i_number);
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"PAT decoder", p_section->i_number);
       dvbpsi_DeletePSISections(p_section);
     }
 
     else
     {
-      _Bool return_value_dvbpsi_decoder_psi_sections_completed$5;
-      return_value_dvbpsi_decoder_psi_sections_completed$5=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_pat_decoder);
-      if(!(return_value_dvbpsi_decoder_psi_sections_completed$5 == (_Bool)0))
+      _Bool return_value_dvbpsi_decoder_psi_sections_completed_5;
+      return_value_dvbpsi_decoder_psi_sections_completed_5=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_pat_decoder);
+      if(!(return_value_dvbpsi_decoder_psi_sections_completed_5 == (_Bool)0))
       {
         /* assertion p_pat_decoder->pf_pat_callback */
         assert(p_pat_decoder->pf_pat_callback != ((void (*)(void *, struct dvbpsi_pat_s *))NULL));
         p_pat_decoder->current_pat = *p_pat_decoder->p_building_pat;
-        _Bool return_value_dvbpsi_pat_sections_decode$4;
-        return_value_dvbpsi_pat_sections_decode$4=dvbpsi_pat_sections_decode(p_pat_decoder->p_building_pat, p_pat_decoder->p_sections);
-        if(!(return_value_dvbpsi_pat_sections_decode$4 == (_Bool)0))
+        _Bool return_value_dvbpsi_pat_sections_decode_4;
+        return_value_dvbpsi_pat_sections_decode_4=dvbpsi_pat_sections_decode(p_pat_decoder->p_building_pat, p_pat_decoder->p_sections);
+        if(!(return_value_dvbpsi_pat_sections_decode_4 == (_Bool)0))
           p_pat_decoder->b_current_valid = (_Bool)1;
 
         if(!(p_pat_decoder->b_current_valid == (_Bool)0))
@@ -16897,7 +16897,7 @@ struct dvbpsi_psi_section_s * dvbpsi_pat_sections_generate(struct dvbpsi_s *p_dv
   signed int i_count = 0;
   if(p_current == ((struct dvbpsi_psi_section_s *)NULL))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed to allocate new PSI section", (const void *)"PAT encoder");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed to allocate new PSI section", (const void *)"PAT encoder");
     return (struct dvbpsi_psi_section_s *)(void *)0;
   }
 
@@ -16925,7 +16925,7 @@ struct dvbpsi_psi_section_s * dvbpsi_pat_sections_generate(struct dvbpsi_s *p_dv
         p_current=dvbpsi_NewPSISection(1024);
         if(p_current == ((struct dvbpsi_psi_section_s *)NULL))
         {
-          dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed to allocate new PSI section", (const void *)"PAT encoder");
+          dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed to allocate new PSI section", (const void *)"PAT encoder");
           goto error;
         }
 
@@ -16975,9 +16975,9 @@ _Bool dvbpsi_pmt_attach(struct dvbpsi_s *p_dvbpsi, unsigned short int i_program_
   /* assertion p_dvbpsi->p_decoder == ((void *)0) */
   assert(p_dvbpsi->p_decoder == (struct dvbpsi_decoder_s *)(void *)0);
   struct dvbpsi_pmt_decoder_s *p_pmt_decoder;
-  void *return_value_dvbpsi_decoder_new$1;
-  return_value_dvbpsi_decoder_new$1=dvbpsi_decoder_new(dvbpsi_pmt_sections_gather, 1024, (const _Bool)1, sizeof(struct dvbpsi_pmt_decoder_s) /*96ul*/ );
-  p_pmt_decoder = (struct dvbpsi_pmt_decoder_s *)return_value_dvbpsi_decoder_new$1;
+  void *return_value_dvbpsi_decoder_new_1;
+  return_value_dvbpsi_decoder_new_1=dvbpsi_decoder_new(dvbpsi_pmt_sections_gather, 1024, (const _Bool)1, sizeof(struct dvbpsi_pmt_decoder_s) /*96ul*/ );
+  p_pmt_decoder = (struct dvbpsi_pmt_decoder_s *)return_value_dvbpsi_decoder_new_1;
   if(p_pmt_decoder == ((struct dvbpsi_pmt_decoder_s *)NULL))
     return (_Bool)0;
 
@@ -17063,9 +17063,9 @@ void dvbpsi_pmt_empty(struct dvbpsi_pmt_s *p_pmt)
 struct dvbpsi_pmt_es_s * dvbpsi_pmt_es_add(struct dvbpsi_pmt_s *p_pmt, unsigned char i_type, unsigned short int i_pid)
 {
   struct dvbpsi_pmt_es_s *p_es;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_pmt_es_s) /*24ul*/ );
-  p_es = (struct dvbpsi_pmt_es_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_pmt_es_s) /*24ul*/ );
+  p_es = (struct dvbpsi_pmt_es_s *)return_value_malloc_1;
   if(p_es == ((struct dvbpsi_pmt_es_s *)NULL))
     return (struct dvbpsi_pmt_es_s *)(void *)0;
 
@@ -17133,9 +17133,9 @@ void dvbpsi_pmt_init(struct dvbpsi_pmt_s *p_pmt, unsigned short int i_program_nu
 struct dvbpsi_pmt_s * dvbpsi_pmt_new(unsigned short int i_program_number, unsigned char i_version, _Bool b_current_next, unsigned short int i_pcr_pid)
 {
   struct dvbpsi_pmt_s *p_pmt;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_pmt_s) /*24ul*/ );
-  p_pmt = (struct dvbpsi_pmt_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_pmt_s) /*24ul*/ );
+  p_pmt = (struct dvbpsi_pmt_s *)return_value_malloc_1;
   if(!(p_pmt == ((struct dvbpsi_pmt_s *)NULL)))
     dvbpsi_pmt_init(p_pmt, i_program_number, i_version, b_current_next, i_pcr_pid);
 
@@ -17154,10 +17154,10 @@ void dvbpsi_pmt_sections_decode(struct dvbpsi_pmt_s *p_pmt, struct dvbpsi_psi_se
     p_end = p_byte + (signed long int)((signed int)(unsigned short int)((signed int)p_section->p_payload_start[(signed long int)2] & 0x0f) << 8 | (signed int)p_section->p_payload_start[(signed long int)3]);
     while(p_end >= p_byte + 2l)
     {
-      unsigned char dvbpsi_pmt_sections_decode$$1$$1$$1$$i_tag = p_byte[(signed long int)0];
+      unsigned char dvbpsi_pmt_sections_decode__1__1__1__i_tag = p_byte[(signed long int)0];
       unsigned char i_length = p_byte[(signed long int)1];
       if(p_end - p_byte >= (signed long int)(2 + (signed int)i_length))
-        dvbpsi_pmt_descriptor_add(p_pmt, dvbpsi_pmt_sections_decode$$1$$1$$1$$i_tag, i_length, p_byte + (signed long int)2);
+        dvbpsi_pmt_descriptor_add(p_pmt, dvbpsi_pmt_sections_decode__1__1__1__i_tag, i_length, p_byte + (signed long int)2);
 
       p_byte = p_byte + (signed long int)(2 + (signed int)i_length);
     }
@@ -17177,11 +17177,11 @@ void dvbpsi_pmt_sections_decode(struct dvbpsi_pmt_s *p_pmt, struct dvbpsi_psi_se
       while(p_end >= p_byte + 2l)
       {
         unsigned char i_tag = p_byte[(signed long int)0];
-        unsigned char dvbpsi_pmt_sections_decode$$1$$1$$2$$1$$2$$i_length = p_byte[(signed long int)1];
-        if(p_end - p_byte >= (signed long int)(2 + (signed int)dvbpsi_pmt_sections_decode$$1$$1$$2$$1$$2$$i_length))
-          dvbpsi_pmt_es_descriptor_add(p_es, i_tag, dvbpsi_pmt_sections_decode$$1$$1$$2$$1$$2$$i_length, p_byte + (signed long int)2);
+        unsigned char dvbpsi_pmt_sections_decode__1__1__2__1__2__i_length = p_byte[(signed long int)1];
+        if(p_end - p_byte >= (signed long int)(2 + (signed int)dvbpsi_pmt_sections_decode__1__1__2__1__2__i_length))
+          dvbpsi_pmt_es_descriptor_add(p_es, i_tag, dvbpsi_pmt_sections_decode__1__1__2__1__2__i_length, p_byte + (signed long int)2);
 
-        p_byte = p_byte + (signed long int)(2 + (signed int)dvbpsi_pmt_sections_decode$$1$$1$$2$$1$$2$$i_length);
+        p_byte = p_byte + (signed long int)(2 + (signed int)dvbpsi_pmt_sections_decode__1__1__2__1__2__i_length);
       }
     }
   }
@@ -17195,9 +17195,9 @@ void dvbpsi_pmt_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sec
   assert(p_dvbpsi != ((struct dvbpsi_s *)NULL));
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
-  _Bool return_value_dvbpsi_CheckPSISection$1;
-  return_value_dvbpsi_CheckPSISection$1=dvbpsi_CheckPSISection(p_dvbpsi, p_section, (const unsigned char)0x02, "PMT decoder");
-  if(return_value_dvbpsi_CheckPSISection$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CheckPSISection_1;
+  return_value_dvbpsi_CheckPSISection_1=dvbpsi_CheckPSISection(p_dvbpsi, p_section, (const unsigned char)0x02, "PMT decoder");
+  if(return_value_dvbpsi_CheckPSISection_1 == (_Bool)0)
     dvbpsi_DeletePSISections(p_section);
 
   else
@@ -17207,7 +17207,7 @@ void dvbpsi_pmt_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sec
     assert(p_pmt_decoder != ((struct dvbpsi_pmt_decoder_s *)NULL));
     if(!(p_pmt_decoder->i_program_number == p_section->i_extension))
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring section %d not belonging to 'program_number' %d", (const void *)"PMT decoder", p_section->i_extension, p_pmt_decoder->i_program_number);
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring section %d not belonging to 'program_number' %d", (const void *)"PMT decoder", p_section->i_extension, p_pmt_decoder->i_program_number);
       dvbpsi_DeletePSISections(p_section);
     }
 
@@ -17222,9 +17222,9 @@ void dvbpsi_pmt_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sec
       else
         if(!(p_pmt_decoder->p_building_pmt == ((struct dvbpsi_pmt_s *)NULL)))
         {
-          _Bool return_value_dvbpsi_CheckPMT$2;
-          return_value_dvbpsi_CheckPMT$2=dvbpsi_CheckPMT(p_dvbpsi, p_section);
-          if(!(return_value_dvbpsi_CheckPMT$2 == (_Bool)0))
+          _Bool return_value_dvbpsi_CheckPMT_2;
+          return_value_dvbpsi_CheckPMT_2=dvbpsi_CheckPMT(p_dvbpsi, p_section);
+          if(!(return_value_dvbpsi_CheckPMT_2 == (_Bool)0))
             dvbpsi_ReInitPMT(p_pmt_decoder, (const _Bool)1);
 
         }
@@ -17236,7 +17236,7 @@ void dvbpsi_pmt_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sec
             {
               if(p_pmt_decoder->current_pmt.b_current_next == p_section->b_current_next)
               {
-                dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"PMT decoder", p_section->i_number);
+                dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"PMT decoder", p_section->i_number);
                 dvbpsi_DeletePSISections(p_section);
                 goto __CPROVER_DUMP_L9;
               }
@@ -17245,19 +17245,19 @@ void dvbpsi_pmt_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sec
 
           }
 
-      _Bool return_value_dvbpsi_AddSectionPMT$3;
-      return_value_dvbpsi_AddSectionPMT$3=dvbpsi_AddSectionPMT(p_dvbpsi, p_pmt_decoder, p_section);
-      if(return_value_dvbpsi_AddSectionPMT$3 == (_Bool)0)
+      _Bool return_value_dvbpsi_AddSectionPMT_3;
+      return_value_dvbpsi_AddSectionPMT_3=dvbpsi_AddSectionPMT(p_dvbpsi, p_pmt_decoder, p_section);
+      if(return_value_dvbpsi_AddSectionPMT_3 == (_Bool)0)
       {
-        dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"PMT decoder", p_section->i_number);
+        dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"PMT decoder", p_section->i_number);
         dvbpsi_DeletePSISections(p_section);
       }
 
       else
       {
-        _Bool return_value_dvbpsi_decoder_psi_sections_completed$4;
-        return_value_dvbpsi_decoder_psi_sections_completed$4=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_pmt_decoder);
-        if(!(return_value_dvbpsi_decoder_psi_sections_completed$4 == (_Bool)0))
+        _Bool return_value_dvbpsi_decoder_psi_sections_completed_4;
+        return_value_dvbpsi_decoder_psi_sections_completed_4=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_pmt_decoder);
+        if(!(return_value_dvbpsi_decoder_psi_sections_completed_4 == (_Bool)0))
         {
           /* assertion p_pmt_decoder->pf_pmt_callback */
           assert(p_pmt_decoder->pf_pmt_callback != ((void (*)(void *, struct dvbpsi_pmt_s *))NULL));
@@ -17352,7 +17352,7 @@ struct dvbpsi_psi_section_s * dvbpsi_pmt_sections_generate(struct dvbpsi_s *p_dv
       {
         if(!((signed int)i_es_length >= 1009))
         {
-          dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): create a new section to carry more ES descriptors", (const void *)"PMT generator");
+          dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): create a new section to carry more ES descriptors", (const void *)"PMT generator");
           p_prev = p_current;
           p_current=dvbpsi_NewPSISection(1024);
           p_prev->p_next = p_current;
@@ -17396,7 +17396,7 @@ struct dvbpsi_psi_section_s * dvbpsi_pmt_sections_generate(struct dvbpsi_s *p_dv
       p_current->i_length = p_current->i_length + (unsigned short int)((signed int)p_descriptor->i_length + 2);
     }
     if(!(p_descriptor == ((struct dvbpsi_descriptor_s *)NULL)))
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): unable to carry all the ES descriptors", (const void *)"PMT generator");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): unable to carry all the ES descriptors", (const void *)"PMT generator");
 
     i_es_length = (unsigned short int)((p_current->p_payload_end - p_es_start) - (signed long int)5);
     p_es_start[(signed long int)3] = (unsigned char)((signed int)i_es_length >> 8 | 0xf0);
@@ -17421,9 +17421,9 @@ _Bool dvbpsi_rst_attach(struct dvbpsi_s *p_dvbpsi, void (*pf_callback)(void *, s
   /* assertion p_dvbpsi->p_decoder == ((void *)0) */
   assert(p_dvbpsi->p_decoder == (struct dvbpsi_decoder_s *)(void *)0);
   struct dvbpsi_rst_decoder_s *p_rst_decoder;
-  void *return_value_dvbpsi_decoder_new$1;
-  return_value_dvbpsi_decoder_new$1=dvbpsi_decoder_new(dvbpsi_rst_sections_gather, 1024, (const _Bool)1, sizeof(struct dvbpsi_rst_decoder_s) /*72ul*/ );
-  p_rst_decoder = (struct dvbpsi_rst_decoder_s *)return_value_dvbpsi_decoder_new$1;
+  void *return_value_dvbpsi_decoder_new_1;
+  return_value_dvbpsi_decoder_new_1=dvbpsi_decoder_new(dvbpsi_rst_sections_gather, 1024, (const _Bool)1, sizeof(struct dvbpsi_rst_decoder_s) /*72ul*/ );
+  p_rst_decoder = (struct dvbpsi_rst_decoder_s *)return_value_dvbpsi_decoder_new_1;
   if(p_rst_decoder == ((struct dvbpsi_rst_decoder_s *)NULL))
     return (_Bool)0;
 
@@ -17483,9 +17483,9 @@ void dvbpsi_rst_empty(struct dvbpsi_rst_s *p_rst)
 struct dvbpsi_rst_event_s * dvbpsi_rst_event_add(struct dvbpsi_rst_s *p_rst, unsigned short int i_ts_id, unsigned short int i_orig_network_id, unsigned short int i_service_id, unsigned short int i_event_id, unsigned char i_running_status)
 {
   struct dvbpsi_rst_event_s *p_rst_event;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_rst_event_s) /*24ul*/ );
-  p_rst_event = (struct dvbpsi_rst_event_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_rst_event_s) /*24ul*/ );
+  p_rst_event = (struct dvbpsi_rst_event_s *)return_value_malloc_1;
   if(p_rst_event == ((struct dvbpsi_rst_event_s *)NULL))
     return (struct dvbpsi_rst_event_s *)(void *)0;
 
@@ -17525,9 +17525,9 @@ void dvbpsi_rst_init(struct dvbpsi_rst_s *p_rst)
 struct dvbpsi_rst_s * dvbpsi_rst_new(void)
 {
   struct dvbpsi_rst_s *p_rst;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_rst_s) /*8ul*/ );
-  p_rst = (struct dvbpsi_rst_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_rst_s) /*8ul*/ );
+  p_rst = (struct dvbpsi_rst_s *)return_value_malloc_1;
   if(!(p_rst == ((struct dvbpsi_rst_s *)NULL)))
     dvbpsi_rst_init(p_rst);
 
@@ -17570,10 +17570,10 @@ static _Bool dvbpsi_rst_section_add(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_rst
     p_decoder->i_last_section_number = p_section->i_last_number;
   }
 
-  _Bool return_value_dvbpsi_decoder_psi_section_add$1;
-  return_value_dvbpsi_decoder_psi_section_add$1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_decoder, p_section);
-  if(!(return_value_dvbpsi_decoder_psi_section_add$1 == (_Bool)0))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"RST decoder", p_section->i_number);
+  _Bool return_value_dvbpsi_decoder_psi_section_add_1;
+  return_value_dvbpsi_decoder_psi_section_add_1=dvbpsi_decoder_psi_section_add((struct dvbpsi_decoder_s *)p_decoder, p_section);
+  if(!(return_value_dvbpsi_decoder_psi_section_add_1 == (_Bool)0))
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): overwrite section number %d", (const void *)"RST decoder", p_section->i_number);
 
   return (_Bool)1;
 }
@@ -17587,15 +17587,15 @@ static _Bool dvbpsi_rst_section_check(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_p
   /* assertion p_section */
   assert(p_section != ((struct dvbpsi_psi_section_s *)NULL));
   if(!(p_section->i_table_id == table_id))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): invalid section (table_id == 0x%02x expected 0x%02)", psz_table_name, p_section->i_table_id, table_id);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): invalid section (table_id == 0x%02x expected 0x%02)", psz_table_name, p_section->i_table_id, table_id);
 
   else
     if(!(p_section->b_syntax_indicator == (_Bool)0))
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): invalid section (section_syntax_indicator != 0)", psz_table_name);
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): invalid section (section_syntax_indicator != 0)", psz_table_name);
 
     else
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): Table version %2d, i_extension %5d, section %3d up to %3d, current %1d", psz_table_name, p_section->i_version, p_section->i_extension, p_section->i_number, p_section->i_last_number, p_section->b_current_next);
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): Table version %2d, i_extension %5d, section %3d up to %3d, current %1d", psz_table_name, p_section->i_version, p_section->i_extension, p_section->i_number, p_section->i_last_number, p_section->b_current_next);
       return (_Bool)1;
     }
 
@@ -17633,9 +17633,9 @@ void dvbpsi_rst_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sec
   assert(p_dvbpsi != ((struct dvbpsi_s *)NULL));
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
-  _Bool return_value_dvbpsi_rst_section_check$1;
-  return_value_dvbpsi_rst_section_check$1=dvbpsi_rst_section_check(p_dvbpsi, p_section, (const unsigned char)0x71, "RST decoder");
-  if(return_value_dvbpsi_rst_section_check$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_rst_section_check_1;
+  return_value_dvbpsi_rst_section_check_1=dvbpsi_rst_section_check(p_dvbpsi, p_section, (const unsigned char)0x71, "RST decoder");
+  if(return_value_dvbpsi_rst_section_check_1 == (_Bool)0)
     dvbpsi_DeletePSISections(p_section);
 
   else
@@ -17647,19 +17647,19 @@ void dvbpsi_rst_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_psi_sec
       p_rst_decoder->b_discontinuity = (_Bool)0;
     }
 
-    _Bool return_value_dvbpsi_rst_section_add$2;
-    return_value_dvbpsi_rst_section_add$2=dvbpsi_rst_section_add(p_dvbpsi, p_rst_decoder, p_section);
-    if(return_value_dvbpsi_rst_section_add$2 == (_Bool)0)
+    _Bool return_value_dvbpsi_rst_section_add_2;
+    return_value_dvbpsi_rst_section_add_2=dvbpsi_rst_section_add(p_dvbpsi, p_rst_decoder, p_section);
+    if(return_value_dvbpsi_rst_section_add_2 == (_Bool)0)
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"RST decoder", p_section->i_number);
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"RST decoder", p_section->i_number);
       dvbpsi_DeletePSISections(p_section);
     }
 
     else
     {
-      _Bool return_value_dvbpsi_decoder_psi_sections_completed$3;
-      return_value_dvbpsi_decoder_psi_sections_completed$3=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_rst_decoder);
-      if(!(return_value_dvbpsi_decoder_psi_sections_completed$3 == (_Bool)0))
+      _Bool return_value_dvbpsi_decoder_psi_sections_completed_3;
+      return_value_dvbpsi_decoder_psi_sections_completed_3=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_rst_decoder);
+      if(!(return_value_dvbpsi_decoder_psi_sections_completed_3 == (_Bool)0))
       {
         /* assertion p_rst_decoder->pf_rst_callback */
         assert(p_rst_decoder->pf_rst_callback != ((void (*)(void *, struct dvbpsi_rst_s *))NULL));
@@ -17688,7 +17688,7 @@ struct dvbpsi_psi_section_s * dvbpsi_rst_sections_generate(struct dvbpsi_s *p_dv
   signed int i_count = 0;
   if(p_current == ((struct dvbpsi_psi_section_s *)NULL))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed to allocate new PSI section", (const void *)"RST encoder");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed to allocate new PSI section", (const void *)"RST encoder");
     return (struct dvbpsi_psi_section_s *)(void *)0;
   }
 
@@ -17742,20 +17742,20 @@ _Bool dvbpsi_sdt_attach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, uns
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
   struct dvbpsi_demux_s *p_demux = (struct dvbpsi_demux_s *)p_dvbpsi->p_decoder;
-  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec$1;
-  return_value_dvbpsi_demuxGetSubDec$1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
-  if(!(return_value_dvbpsi_demuxGetSubDec$1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
+  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec_1;
+  return_value_dvbpsi_demuxGetSubDec_1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
+  if(!(return_value_dvbpsi_demuxGetSubDec_1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x,extension == 0x%02x)", (const void *)"SDT decoder", i_table_id, i_extension);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x,extension == 0x%02x)", (const void *)"SDT decoder", i_table_id, i_extension);
     return (_Bool)0;
   }
 
   else
   {
     struct dvbpsi_sdt_decoder_s *p_sdt_decoder;
-    void *return_value_dvbpsi_decoder_new$2;
-    return_value_dvbpsi_decoder_new$2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_sdt_decoder_s) /*80ul*/ );
-    p_sdt_decoder = (struct dvbpsi_sdt_decoder_s *)return_value_dvbpsi_decoder_new$2;
+    void *return_value_dvbpsi_decoder_new_2;
+    return_value_dvbpsi_decoder_new_2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_sdt_decoder_s) /*80ul*/ );
+    p_sdt_decoder = (struct dvbpsi_sdt_decoder_s *)return_value_dvbpsi_decoder_new_2;
     if(p_sdt_decoder == ((struct dvbpsi_sdt_decoder_s *)NULL))
       return (_Bool)0;
 
@@ -17803,7 +17803,7 @@ void dvbpsi_sdt_detach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsi
   struct dvbpsi_demux_subdec_s *p_subdec;
   p_subdec=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
   if(p_subdec == ((struct dvbpsi_demux_subdec_s *)NULL))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such SDT decoder (table_id == 0x%02x,extension == 0x%02x)", (const void *)"SDT Decoder", i_table_id, i_extension);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such SDT decoder (table_id == 0x%02x,extension == 0x%02x)", (const void *)"SDT Decoder", i_table_id, i_extension);
 
   else
   {
@@ -17853,9 +17853,9 @@ void dvbpsi_sdt_init(struct dvbpsi_sdt_s *p_sdt, unsigned char i_table_id, unsig
 struct dvbpsi_sdt_s * dvbpsi_sdt_new(unsigned char i_table_id, unsigned short int i_extension, unsigned char i_version, _Bool b_current_next, unsigned short int i_network_id)
 {
   struct dvbpsi_sdt_s *p_sdt;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_sdt_s) /*16ul*/ );
-  p_sdt = (struct dvbpsi_sdt_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_sdt_s) /*16ul*/ );
+  p_sdt = (struct dvbpsi_sdt_s *)return_value_malloc_1;
   if(!(p_sdt == ((struct dvbpsi_sdt_s *)NULL)))
     dvbpsi_sdt_init(p_sdt, i_table_id, i_extension, i_version, b_current_next, i_network_id);
 
@@ -17908,22 +17908,22 @@ void dvbpsi_sdt_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
   unsigned char i_table_id;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)p_section->i_table_id == 0x42)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)p_section->i_table_id == 0x46 ? (_Bool)1 : (_Bool)0;
-  signed int tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (signed int)p_section->i_table_id;
+    tmp_if_expr_1 = (signed int)p_section->i_table_id == 0x46 ? (_Bool)1 : (_Bool)0;
+  signed int tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (signed int)p_section->i_table_id;
 
   else
-    tmp_if_expr$2 = 0x42;
-  i_table_id = (const unsigned char)tmp_if_expr$2;
-  _Bool return_value_dvbpsi_CheckPSISection$3;
-  return_value_dvbpsi_CheckPSISection$3=dvbpsi_CheckPSISection(p_dvbpsi, p_section, i_table_id, "SDT decoder");
-  if(return_value_dvbpsi_CheckPSISection$3 == (_Bool)0)
+    tmp_if_expr_2 = 0x42;
+  i_table_id = (const unsigned char)tmp_if_expr_2;
+  _Bool return_value_dvbpsi_CheckPSISection_3;
+  return_value_dvbpsi_CheckPSISection_3=dvbpsi_CheckPSISection(p_dvbpsi, p_section, i_table_id, "SDT decoder");
+  if(return_value_dvbpsi_CheckPSISection_3 == (_Bool)0)
     dvbpsi_DeletePSISections(p_section);
 
   else
@@ -17940,9 +17940,9 @@ void dvbpsi_sdt_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
     else
       if(!(p_sdt_decoder->p_building_sdt == ((struct dvbpsi_sdt_s *)NULL)))
       {
-        _Bool return_value_dvbpsi_CheckSDT$4;
-        return_value_dvbpsi_CheckSDT$4=dvbpsi_CheckSDT(p_dvbpsi, p_sdt_decoder, p_section);
-        if(!(return_value_dvbpsi_CheckSDT$4 == (_Bool)0))
+        _Bool return_value_dvbpsi_CheckSDT_4;
+        return_value_dvbpsi_CheckSDT_4=dvbpsi_CheckSDT(p_dvbpsi, p_sdt_decoder, p_section);
+        if(!(return_value_dvbpsi_CheckSDT_4 == (_Bool)0))
           dvbpsi_ReInitSDT(p_sdt_decoder, (const _Bool)1);
 
       }
@@ -17954,7 +17954,7 @@ void dvbpsi_sdt_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
           {
             if(p_sdt_decoder->current_sdt.b_current_next == p_section->b_current_next)
             {
-              dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"SDT decoder", p_section->i_number);
+              dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"SDT decoder", p_section->i_number);
               dvbpsi_DeletePSISections(p_section);
               goto __CPROVER_DUMP_L12;
             }
@@ -17963,19 +17963,19 @@ void dvbpsi_sdt_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
 
         }
 
-    _Bool return_value_dvbpsi_AddSectionSDT$5;
-    return_value_dvbpsi_AddSectionSDT$5=dvbpsi_AddSectionSDT(p_dvbpsi, p_sdt_decoder, p_section);
-    if(return_value_dvbpsi_AddSectionSDT$5 == (_Bool)0)
+    _Bool return_value_dvbpsi_AddSectionSDT_5;
+    return_value_dvbpsi_AddSectionSDT_5=dvbpsi_AddSectionSDT(p_dvbpsi, p_sdt_decoder, p_section);
+    if(return_value_dvbpsi_AddSectionSDT_5 == (_Bool)0)
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"SDT decoder", p_section->i_number);
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"SDT decoder", p_section->i_number);
       dvbpsi_DeletePSISections(p_section);
     }
 
     else
     {
-      _Bool return_value_dvbpsi_decoder_psi_sections_completed$6;
-      return_value_dvbpsi_decoder_psi_sections_completed$6=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_sdt_decoder);
-      if(!(return_value_dvbpsi_decoder_psi_sections_completed$6 == (_Bool)0))
+      _Bool return_value_dvbpsi_decoder_psi_sections_completed_6;
+      return_value_dvbpsi_decoder_psi_sections_completed_6=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_sdt_decoder);
+      if(!(return_value_dvbpsi_decoder_psi_sections_completed_6 == (_Bool)0))
       {
         /* assertion p_sdt_decoder->pf_sdt_callback */
         assert(p_sdt_decoder->pf_sdt_callback != ((void (*)(void *, struct dvbpsi_sdt_s *))NULL));
@@ -18035,7 +18035,7 @@ struct dvbpsi_psi_section_s * dvbpsi_sdt_sections_generate(struct dvbpsi_s *p_dv
       {
         if(!((signed int)i_service_length >= 1010))
         {
-          dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): create a new section to carry more Service descriptors", (const void *)"SDT generator");
+          dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): create a new section to carry more Service descriptors", (const void *)"SDT generator");
           p_prev = p_current;
           p_current=dvbpsi_NewPSISection(1024);
           p_prev->p_next = p_current;
@@ -18078,7 +18078,7 @@ struct dvbpsi_psi_section_s * dvbpsi_sdt_sections_generate(struct dvbpsi_s *p_dv
       p_current->i_length = p_current->i_length + (unsigned short int)((signed int)p_descriptor->i_length + 2);
     }
     if(!(p_descriptor == ((struct dvbpsi_descriptor_s *)NULL)))
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): unable to carry all the descriptors", (const void *)"SDT generator");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): unable to carry all the descriptors", (const void *)"SDT generator");
 
     i_service_length = (unsigned short int)((p_current->p_payload_end - p_service_start) - (signed long int)5);
     p_service_start[(signed long int)3] = p_service_start[(signed long int)3] | (unsigned char)((signed int)i_service_length >> 8 & 0x0f);
@@ -18099,9 +18099,9 @@ struct dvbpsi_psi_section_s * dvbpsi_sdt_sections_generate(struct dvbpsi_s *p_dv
 struct dvbpsi_sdt_service_s * dvbpsi_sdt_service_add(struct dvbpsi_sdt_s *p_sdt, unsigned short int i_service_id, _Bool b_eit_schedule, _Bool b_eit_present, unsigned char i_running_status, _Bool b_free_ca)
 {
   struct dvbpsi_sdt_service_s *p_service;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct dvbpsi_sdt_service_s) /*24ul*/ );
-  p_service = (struct dvbpsi_sdt_service_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct dvbpsi_sdt_service_s) /*24ul*/ );
+  p_service = (struct dvbpsi_sdt_service_s *)return_value_calloc_1;
   if(p_service == ((struct dvbpsi_sdt_service_s *)NULL))
     return (struct dvbpsi_sdt_service_s *)(void *)0;
 
@@ -18160,20 +18160,20 @@ _Bool dvbpsi_sis_attach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, uns
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
   struct dvbpsi_demux_s *p_demux = (struct dvbpsi_demux_s *)p_dvbpsi->p_decoder;
   i_extension = (unsigned short int)0;
-  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec$1;
-  return_value_dvbpsi_demuxGetSubDec$1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
-  if(!(return_value_dvbpsi_demuxGetSubDec$1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
+  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec_1;
+  return_value_dvbpsi_demuxGetSubDec_1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
+  if(!(return_value_dvbpsi_demuxGetSubDec_1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x,extension == 0x%02x)", (const void *)"SIS decoder", i_table_id, i_extension);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x,extension == 0x%02x)", (const void *)"SIS decoder", i_table_id, i_extension);
     return (_Bool)0;
   }
 
   else
   {
     struct dvbpsi_sis_decoder_s *p_sis_decoder;
-    void *return_value_dvbpsi_decoder_new$2;
-    return_value_dvbpsi_decoder_new$2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_sis_decoder_s) /*112ul*/ );
-    p_sis_decoder = (struct dvbpsi_sis_decoder_s *)return_value_dvbpsi_decoder_new$2;
+    void *return_value_dvbpsi_decoder_new_2;
+    return_value_dvbpsi_decoder_new_2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_sis_decoder_s) /*112ul*/ );
+    p_sis_decoder = (struct dvbpsi_sis_decoder_s *)return_value_dvbpsi_decoder_new_2;
     if(p_sis_decoder == ((struct dvbpsi_sis_decoder_s *)NULL))
       return (_Bool)0;
 
@@ -18244,7 +18244,7 @@ void dvbpsi_sis_detach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsi
   struct dvbpsi_demux_subdec_s *p_subdec;
   p_subdec=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
   if(p_subdec == ((struct dvbpsi_demux_subdec_s *)NULL))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such SIS decoder (table_id == 0x%02x,extension == 0x%02x)", (const void *)"SIS Decoder", i_table_id, i_extension);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such SIS decoder (table_id == 0x%02x,extension == 0x%02x)", (const void *)"SIS Decoder", i_table_id, i_extension);
 
   else
   {
@@ -18295,9 +18295,9 @@ void dvbpsi_sis_init(struct dvbpsi_sis_s *p_sis, unsigned char i_table_id, unsig
 struct dvbpsi_sis_s * dvbpsi_sis_new(unsigned char i_table_id, unsigned short int i_extension, unsigned char i_version, _Bool b_current_next, unsigned char i_protocol_version)
 {
   struct dvbpsi_sis_s *p_sis;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_sis_s) /*44ul*/ );
-  p_sis = (struct dvbpsi_sis_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_sis_s) /*44ul*/ );
+  p_sis = (struct dvbpsi_sis_s *)return_value_malloc_1;
   if(!(p_sis == ((struct dvbpsi_sis_s *)NULL)))
     dvbpsi_sis_init(p_sis, i_table_id, i_extension, i_version, b_current_next, i_protocol_version);
 
@@ -18332,7 +18332,7 @@ void dvbpsi_sis_sections_decode(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_sis_s *
       if((signed int)p_sis->i_splice_command_type == 0x00 || (signed int)p_sis->i_splice_command_type == 0x04 || (signed int)p_sis->i_splice_command_type == 0x05 || (signed int)p_sis->i_splice_command_type == 0x06 || (signed int)p_sis->i_splice_command_type == 0x07)
         goto __CPROVER_DUMP_L6;
 
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): invalid SIS Command found", (const void *)"SIS decoder");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): invalid SIS Command found", (const void *)"SIS decoder");
 
     __CPROVER_DUMP_L6:
       ;
@@ -18368,9 +18368,9 @@ void dvbpsi_sis_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
   assert(p_dvbpsi != ((struct dvbpsi_s *)NULL));
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
-  _Bool return_value_dvbpsi_CheckPSISection$1;
-  return_value_dvbpsi_CheckPSISection$1=dvbpsi_CheckPSISection(p_dvbpsi, p_section, (const unsigned char)0xFC, "SIS decoder");
-  if(return_value_dvbpsi_CheckPSISection$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_CheckPSISection_1;
+  return_value_dvbpsi_CheckPSISection_1=dvbpsi_CheckPSISection(p_dvbpsi, p_section, (const unsigned char)0xFC, "SIS decoder");
+  if(return_value_dvbpsi_CheckPSISection_1 == (_Bool)0)
     dvbpsi_DeletePSISections(p_section);
 
   else
@@ -18379,7 +18379,7 @@ void dvbpsi_sis_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
     struct dvbpsi_sis_decoder_s *p_sis_decoder = (struct dvbpsi_sis_decoder_s *)p_decoder;
     if(!(p_section->b_private_indicator == (_Bool)0))
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): invalid private section (private_syntax_indicator != false)", (const void *)"SIS decoder");
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): invalid private section (private_syntax_indicator != false)", (const void *)"SIS decoder");
       dvbpsi_DeletePSISections(p_section);
     }
 
@@ -18395,9 +18395,9 @@ void dvbpsi_sis_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
       else
         if(!(p_sis_decoder->p_building_sis == ((struct dvbpsi_sis_s *)NULL)))
         {
-          _Bool return_value_dvbpsi_CheckSIS$2;
-          return_value_dvbpsi_CheckSIS$2=dvbpsi_CheckSIS(p_dvbpsi, p_sis_decoder, p_section);
-          if(!(return_value_dvbpsi_CheckSIS$2 == (_Bool)0))
+          _Bool return_value_dvbpsi_CheckSIS_2;
+          return_value_dvbpsi_CheckSIS_2=dvbpsi_CheckSIS(p_dvbpsi, p_sis_decoder, p_section);
+          if(!(return_value_dvbpsi_CheckSIS_2 == (_Bool)0))
             dvbpsi_ReInitSIS(p_sis_decoder, (const _Bool)1);
 
         }
@@ -18409,7 +18409,7 @@ void dvbpsi_sis_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
             {
               if(p_sis_decoder->current_sis.b_current_next == p_section->b_current_next)
               {
-                dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"SIT decoder", p_section->i_number);
+                dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_DEBUG, "libdvbpsi debug (%s): ignoring already decoded section %d", (const void *)"SIT decoder", p_section->i_number);
                 dvbpsi_DeletePSISections(p_section);
                 goto __CPROVER_DUMP_L9;
               }
@@ -18418,19 +18418,19 @@ void dvbpsi_sis_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
 
           }
 
-      _Bool return_value_dvbpsi_AddSectionSIS$3;
-      return_value_dvbpsi_AddSectionSIS$3=dvbpsi_AddSectionSIS(p_dvbpsi, p_sis_decoder, p_section);
-      if(return_value_dvbpsi_AddSectionSIS$3 == (_Bool)0)
+      _Bool return_value_dvbpsi_AddSectionSIS_3;
+      return_value_dvbpsi_AddSectionSIS_3=dvbpsi_AddSectionSIS(p_dvbpsi, p_sis_decoder, p_section);
+      if(return_value_dvbpsi_AddSectionSIS_3 == (_Bool)0)
       {
-        dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"SIS decoder", p_section->i_number);
+        dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"SIS decoder", p_section->i_number);
         dvbpsi_DeletePSISections(p_section);
       }
 
       else
       {
-        _Bool return_value_dvbpsi_decoder_psi_sections_completed$4;
-        return_value_dvbpsi_decoder_psi_sections_completed$4=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_sis_decoder);
-        if(!(return_value_dvbpsi_decoder_psi_sections_completed$4 == (_Bool)0))
+        _Bool return_value_dvbpsi_decoder_psi_sections_completed_4;
+        return_value_dvbpsi_decoder_psi_sections_completed_4=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_sis_decoder);
+        if(!(return_value_dvbpsi_decoder_psi_sections_completed_4 == (_Bool)0))
         {
           /* assertion p_sis_decoder->pf_sis_callback */
           assert(p_sis_decoder->pf_sis_callback != ((void (*)(void *, struct dvbpsi_sis_s *))NULL));
@@ -18516,20 +18516,20 @@ _Bool dvbpsi_tot_attach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, uns
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
   struct dvbpsi_demux_s *p_demux = (struct dvbpsi_demux_s *)p_dvbpsi->p_decoder;
   i_extension = (unsigned short int)0;
-  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec$1;
-  return_value_dvbpsi_demuxGetSubDec$1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
-  if(!(return_value_dvbpsi_demuxGetSubDec$1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
+  struct dvbpsi_demux_subdec_s *return_value_dvbpsi_demuxGetSubDec_1;
+  return_value_dvbpsi_demuxGetSubDec_1=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
+  if(!(return_value_dvbpsi_demuxGetSubDec_1 == ((struct dvbpsi_demux_subdec_s *)NULL)))
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x,extension == 0x%02x)", (const void *)"TDT/TOT decoder", i_table_id, i_extension);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): Already a decoder for (table_id == 0x%02x,extension == 0x%02x)", (const void *)"TDT/TOT decoder", i_table_id, i_extension);
     return (_Bool)0;
   }
 
   else
   {
     struct dvbpsi_tot_decoder_s *p_tot_decoder;
-    void *return_value_dvbpsi_decoder_new$2;
-    return_value_dvbpsi_decoder_new$2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_tot_decoder_s) /*88ul*/ );
-    p_tot_decoder = (struct dvbpsi_tot_decoder_s *)return_value_dvbpsi_decoder_new$2;
+    void *return_value_dvbpsi_decoder_new_2;
+    return_value_dvbpsi_decoder_new_2=dvbpsi_decoder_new((void (*)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *))(void *)0, 0, (const _Bool)1, sizeof(struct dvbpsi_tot_decoder_s) /*88ul*/ );
+    p_tot_decoder = (struct dvbpsi_tot_decoder_s *)return_value_dvbpsi_decoder_new_2;
     if(p_tot_decoder == ((struct dvbpsi_tot_decoder_s *)NULL))
       return (_Bool)0;
 
@@ -18600,7 +18600,7 @@ void dvbpsi_tot_detach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsi
   i_extension = (unsigned short int)0;
   p_subdec=dvbpsi_demuxGetSubDec(p_demux, i_table_id, i_extension);
   if(p_subdec == ((struct dvbpsi_demux_subdec_s *)NULL))
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such TDT/TOT decoder (table_id == 0x%02x,extension == 0x%02x)", (const void *)"TDT/TOT Decoder", i_table_id, i_extension);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): No such TDT/TOT decoder (table_id == 0x%02x,extension == 0x%02x)", (const void *)"TDT/TOT Decoder", i_table_id, i_extension);
 
   else
   {
@@ -18643,9 +18643,9 @@ void dvbpsi_tot_init(struct dvbpsi_tot_s *p_tot, unsigned char i_table_id, unsig
 struct dvbpsi_tot_s * dvbpsi_tot_new(unsigned char i_table_id, unsigned short int i_extension, unsigned char i_version, _Bool b_current_next, unsigned long int i_utc_time)
 {
   struct dvbpsi_tot_s *p_tot;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct dvbpsi_tot_s) /*21ul*/ );
-  p_tot = (struct dvbpsi_tot_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct dvbpsi_tot_s) /*21ul*/ );
+  p_tot = (struct dvbpsi_tot_s *)return_value_malloc_1;
   if(!(p_tot == ((struct dvbpsi_tot_s *)NULL)))
     dvbpsi_tot_init(p_tot, i_table_id, i_extension, i_version, b_current_next, i_utc_time);
 
@@ -18661,7 +18661,7 @@ static _Bool dvbpsi_tot_section_valid(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_p
     if((signed int)p_section->i_length == 5)
       goto __CPROVER_DUMP_L1;
 
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): TDT has an invalid payload size (%d bytes) !!!", (const void *)"TDT decoder", p_section->i_length);
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): TDT has an invalid payload size (%d bytes) !!!", (const void *)"TDT decoder", p_section->i_length);
     return (_Bool)0;
   }
 
@@ -18681,9 +18681,9 @@ void dvbpsi_tot_sections_decode(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_tot_s *
   if(!(p_section == ((struct dvbpsi_psi_section_s *)NULL)))
   {
     unsigned char *p_byte;
-    _Bool return_value_dvbpsi_tot_section_valid$1;
-    return_value_dvbpsi_tot_section_valid$1=dvbpsi_tot_section_valid(p_dvbpsi, p_section);
-    if(!(return_value_dvbpsi_tot_section_valid$1 == (_Bool)0))
+    _Bool return_value_dvbpsi_tot_section_valid_1;
+    return_value_dvbpsi_tot_section_valid_1=dvbpsi_tot_section_valid(p_dvbpsi, p_section);
+    if(!(return_value_dvbpsi_tot_section_valid_1 == (_Bool)0))
     {
       p_byte = p_section->p_payload_start;
       if(p_section->p_payload_end >= p_byte + 5l)
@@ -18725,22 +18725,22 @@ void dvbpsi_tot_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
   /* assertion p_dvbpsi->p_decoder */
   assert(p_dvbpsi->p_decoder != ((struct dvbpsi_decoder_s *)NULL));
   unsigned char i_table_id;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)p_section->i_table_id == 0x70)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)p_section->i_table_id == 0x73 ? (_Bool)1 : (_Bool)0;
-  signed int tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (signed int)p_section->i_table_id;
+    tmp_if_expr_1 = (signed int)p_section->i_table_id == 0x73 ? (_Bool)1 : (_Bool)0;
+  signed int tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (signed int)p_section->i_table_id;
 
   else
-    tmp_if_expr$2 = 0x70;
-  i_table_id = (const unsigned char)tmp_if_expr$2;
-  _Bool return_value_dvbpsi_CheckPSISection$3;
-  return_value_dvbpsi_CheckPSISection$3=dvbpsi_CheckPSISection(p_dvbpsi, p_section, i_table_id, "TDT/TOT decoder");
-  if(return_value_dvbpsi_CheckPSISection$3 == (_Bool)0)
+    tmp_if_expr_2 = 0x70;
+  i_table_id = (const unsigned char)tmp_if_expr_2;
+  _Bool return_value_dvbpsi_CheckPSISection_3;
+  return_value_dvbpsi_CheckPSISection_3=dvbpsi_CheckPSISection(p_dvbpsi, p_section, i_table_id, "TDT/TOT decoder");
+  if(return_value_dvbpsi_CheckPSISection_3 == (_Bool)0)
     dvbpsi_DeletePSISections(p_section);
 
   else
@@ -18752,26 +18752,26 @@ void dvbpsi_tot_sections_gather(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_decoder
     else
       if(!(p_tot_decoder->p_building_tot == ((struct dvbpsi_tot_s *)NULL)))
       {
-        _Bool return_value_dvbpsi_CheckTOT$4;
-        return_value_dvbpsi_CheckTOT$4=dvbpsi_CheckTOT(p_dvbpsi, p_tot_decoder, p_section);
-        if(!(return_value_dvbpsi_CheckTOT$4 == (_Bool)0))
+        _Bool return_value_dvbpsi_CheckTOT_4;
+        return_value_dvbpsi_CheckTOT_4=dvbpsi_CheckTOT(p_dvbpsi, p_tot_decoder, p_section);
+        if(!(return_value_dvbpsi_CheckTOT_4 == (_Bool)0))
           dvbpsi_ReInitTOT(p_tot_decoder, (const _Bool)1);
 
       }
 
-    _Bool return_value_dvbpsi_AddSectionTOT$5;
-    return_value_dvbpsi_AddSectionTOT$5=dvbpsi_AddSectionTOT(p_dvbpsi, p_tot_decoder, p_section);
-    if(return_value_dvbpsi_AddSectionTOT$5 == (_Bool)0)
+    _Bool return_value_dvbpsi_AddSectionTOT_5;
+    return_value_dvbpsi_AddSectionTOT_5=dvbpsi_AddSectionTOT(p_dvbpsi, p_tot_decoder, p_section);
+    if(return_value_dvbpsi_AddSectionTOT_5 == (_Bool)0)
     {
-      dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"TOT decoder", p_section->i_number);
+      dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): failed decoding section %d", (const void *)"TOT decoder", p_section->i_number);
       dvbpsi_DeletePSISections(p_section);
     }
 
     else
     {
-      _Bool return_value_dvbpsi_decoder_psi_sections_completed$6;
-      return_value_dvbpsi_decoder_psi_sections_completed$6=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_tot_decoder);
-      if(!(return_value_dvbpsi_decoder_psi_sections_completed$6 == (_Bool)0))
+      _Bool return_value_dvbpsi_decoder_psi_sections_completed_6;
+      return_value_dvbpsi_decoder_psi_sections_completed_6=dvbpsi_decoder_psi_sections_completed((struct dvbpsi_decoder_s *)p_tot_decoder);
+      if(!(return_value_dvbpsi_decoder_psi_sections_completed_6 == (_Bool)0))
       {
         /* assertion p_tot_decoder->pf_tot_callback */
         assert(p_tot_decoder->pf_tot_callback != ((void (*)(void *, struct dvbpsi_tot_s *))NULL));
@@ -18814,7 +18814,7 @@ struct dvbpsi_psi_section_s * dvbpsi_tot_sections_generate(struct dvbpsi_s *p_dv
     {
       if((p_result->p_payload_end - p_result->p_data) + (signed long int)p_descriptor->i_length >= 4091l)
       {
-        dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): TOT does not fit into one section as it ought to be !!!", (const void *)"TDT/TOT generator");
+        dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): TOT does not fit into one section as it ought to be !!!", (const void *)"TDT/TOT generator");
         break;
       }
 
@@ -18835,15 +18835,15 @@ struct dvbpsi_psi_section_s * dvbpsi_tot_sections_generate(struct dvbpsi_s *p_dv
     p_result->i_length = p_result->i_length + (unsigned short int)4;
   }
 
-  _Bool return_value_dvbpsi_tot_section_valid$1;
-  return_value_dvbpsi_tot_section_valid$1=dvbpsi_tot_section_valid(p_dvbpsi, p_result);
-  if(return_value_dvbpsi_tot_section_valid$1 == (_Bool)0)
+  _Bool return_value_dvbpsi_tot_section_valid_1;
+  return_value_dvbpsi_tot_section_valid_1=dvbpsi_tot_section_valid(p_dvbpsi, p_result);
+  if(return_value_dvbpsi_tot_section_valid_1 == (_Bool)0)
   {
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): ********************************************", (const void *)"TDT/TOT generator");
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): *  Generated TDT/TOT section is invalid.   *", (const void *)"TDT/TOT generator");
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): * THIS IS A BUG, PLEASE REPORT TO THE LIST *", (const void *)"TDT/TOT generator");
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): *  ---  libdvbpsi-devel@videolan.org  ---  *", (const void *)"TDT/TOT generator");
-    dvbpsi_message$link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): ********************************************", (const void *)"TDT/TOT generator");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): ********************************************", (const void *)"TDT/TOT generator");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): *  Generated TDT/TOT section is invalid.   *", (const void *)"TDT/TOT generator");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): * THIS IS A BUG, PLEASE REPORT TO THE LIST *", (const void *)"TDT/TOT generator");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): *  ---  libdvbpsi-devel@videolan.org  ---  *", (const void *)"TDT/TOT generator");
+    dvbpsi_message_link1(p_dvbpsi, (const enum dvbpsi_msg_level)DVBPSI_MSG_ERROR, "libdvbpsi error (%s): ********************************************", (const void *)"TDT/TOT generator");
   }
 
   return p_result;
@@ -18894,9 +18894,9 @@ void fifo_free(struct fifo_s *fifo)
 struct fifo_s * fifo_new(void)
 {
   struct fifo_s *fifo;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct fifo_s) /*128ul*/ );
-  fifo = (struct fifo_s *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct fifo_s) /*128ul*/ );
+  fifo = (struct fifo_s *)return_value_malloc_1;
   if(fifo == ((struct fifo_s *)NULL))
     return (struct fifo_s *)(void *)0;
 
@@ -18907,8 +18907,8 @@ struct fifo_s * fifo_new(void)
     fifo->b_force_wake = (_Bool)0;
     fifo->p_first = (struct buffer_s *)(void *)0;
     fifo->pp_last = &fifo->p_first;
-    pthread_mutex_init(&fifo->lock, (const union anonymous$0 *)(void *)0);
-    pthread_cond_init(&fifo->wait, (const union anonymous$0 *)(void *)0);
+    pthread_mutex_init(&fifo->lock, (const union anonymous_0 *)(void *)0);
+    pthread_cond_init(&fifo->wait, (const union anonymous_0 *)(void *)0);
     return fifo;
   }
 }
@@ -19083,9 +19083,9 @@ static void handle_PAT(void *p_data, struct dvbpsi_pat_s *p_pat)
   while(!(p_program == ((struct dvbpsi_pat_program_s *)NULL)))
   {
     struct ts_pmt_s *p_pmt;
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct ts_pmt_s) /*40ul*/ );
-    p_pmt = (struct ts_pmt_s *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct ts_pmt_s) /*40ul*/ );
+    p_pmt = (struct ts_pmt_s *)return_value_calloc_1;
     if(!(p_pmt == ((struct ts_pmt_s *)NULL)))
     {
       p_pmt->handle=dvbpsi_new(dvbpsi_message, p_stream->level);
@@ -19100,9 +19100,9 @@ static void handle_PAT(void *p_data, struct dvbpsi_pat_s *p_pat)
       p_pmt->pid_pmt = &p_stream->pid[(signed long int)p_program->i_pid];
       p_pmt->pid_pmt->i_pid = (signed int)p_program->i_pid;
       p_pmt->p_next = (struct ts_pmt_s *)(void *)0;
-      _Bool return_value_dvbpsi_pmt_attach$2;
-      return_value_dvbpsi_pmt_attach$2=dvbpsi_pmt_attach(p_pmt->handle, p_program->i_number, handle_PMT, (void *)p_stream);
-      if(return_value_dvbpsi_pmt_attach$2 == (_Bool)0)
+      _Bool return_value_dvbpsi_pmt_attach_2;
+      return_value_dvbpsi_pmt_attach_2=dvbpsi_pmt_attach(p_pmt->handle, p_program->i_number, handle_PMT, (void *)p_stream);
+      if(return_value_dvbpsi_pmt_attach_2 == (_Bool)0)
       {
         fprintf(stderr, "dvbinfo: Failed to attach new pmt decoder\n");
         dvbpsi_delete(p_pmt->handle);
@@ -19152,9 +19152,9 @@ static void handle_PMT(void *p_data, struct dvbpsi_pmt_s *p_pmt)
   printf("\t| type @ elementary_PID : Description\n");
   while(!(p_es == ((struct dvbpsi_pmt_es_s *)NULL)))
   {
-    const char *return_value_GetTypeName$1;
-    return_value_GetTypeName$1=GetTypeName(p_es->i_type);
-    printf("\t| 0x%02x @ pid 0x%x (%d): %s\n", p_es->i_type, p_es->i_pid, p_es->i_pid, return_value_GetTypeName$1);
+    const char *return_value_GetTypeName_1;
+    return_value_GetTypeName_1=GetTypeName(p_es->i_type);
+    printf("\t| 0x%02x @ pid 0x%x (%d): %s\n", p_es->i_type, p_es->i_pid, p_es->i_pid, return_value_GetTypeName_1);
     DumpDescriptors("\t|  ]", p_es->p_first_descriptor);
     p_es = p_es->p_next;
   }
@@ -19357,9 +19357,9 @@ static void handle_atsc_MGT(void *p_data, struct dvbpsi_atsc_mgt_s *p_mgt)
   while(!(p_table == ((struct dvbpsi_atsc_mgt_table_s *)NULL)))
   {
     struct ts_atsc_eit_s *p;
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct ts_atsc_eit_s) /*32ul*/ );
-    p = (struct ts_atsc_eit_s *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct ts_atsc_eit_s) /*32ul*/ );
+    p = (struct ts_atsc_eit_s *)return_value_calloc_1;
     if(!(p == ((struct ts_atsc_eit_s *)NULL)))
     {
       p->handle=dvbpsi_new(dvbpsi_message, p_stream->level);
@@ -19374,9 +19374,9 @@ static void handle_atsc_MGT(void *p_data, struct dvbpsi_atsc_mgt_s *p_mgt)
       p->pid = &p_stream->pid[(signed long int)p_table->i_table_type_pid];
       p->pid->i_pid = (signed int)p_table->i_table_type_pid;
       p->p_next = (struct ts_atsc_eit_s *)(void *)0;
-      _Bool return_value_dvbpsi_AttachDemux$2;
-      return_value_dvbpsi_AttachDemux$2=dvbpsi_AttachDemux(p->handle, handle_subtable, (void *)p_stream);
-      if(return_value_dvbpsi_AttachDemux$2 == (_Bool)0)
+      _Bool return_value_dvbpsi_AttachDemux_2;
+      return_value_dvbpsi_AttachDemux_2=dvbpsi_AttachDemux(p->handle, handle_subtable, (void *)p_stream);
+      if(return_value_dvbpsi_AttachDemux_2 == (_Bool)0)
       {
         fprintf(stderr, "dvbinfo: Failed to attach new ATSC EIT decoder\n");
         dvbpsi_delete(p->handle);
@@ -19395,9 +19395,9 @@ static void handle_atsc_MGT(void *p_data, struct dvbpsi_atsc_mgt_s *p_mgt)
       fprintf(stderr, "dvbinfo: Failed create new ATSC EIT decoder\n");
     printf("\n\t Table %d\n", p_stream->i_atsc_eit);
     printf("\t | PID : 0x%x (%d)\n", p_table->i_table_type_pid, p_table->i_table_type_pid);
-    const char *return_value_GetATSCTableType$3;
-    return_value_GetATSCTableType$3=GetATSCTableType((const signed int)p_table->i_table_type);
-    printf("\t | Type: %s\n", return_value_GetATSCTableType$3);
+    const char *return_value_GetATSCTableType_3;
+    return_value_GetATSCTableType_3=GetATSCTableType((const signed int)p_table->i_table_type);
+    printf("\t | Type: %s\n", return_value_GetATSCTableType_3);
     printf("\t | Version: %d\n", p_table->i_table_type_version);
     printf("\t | Size: %d bytes\n", p_table->i_number_bytes);
     DumpDescriptors("\t  |  ]", p_table->p_first_descriptor);
@@ -19446,41 +19446,41 @@ static void handle_atsc_VCT(void *p_data, struct dvbpsi_atsc_vct_s *p_vct)
 // file libdvbpsi.c line 590
 static void handle_subtable(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void *p_data)
 {
-  _Bool return_value_dvbpsi_nit_attach$1;
-  _Bool return_value_dvbpsi_sdt_attach$2;
-  _Bool return_value_dvbpsi_bat_attach$3;
-  _Bool return_value_dvbpsi_eit_attach$4;
-  _Bool return_value_dvbpsi_tot_attach$5;
-  _Bool return_value_dvbpsi_atsc_AttachMGT$6;
-  _Bool return_value_dvbpsi_atsc_AttachVCT$7;
-  _Bool return_value_dvbpsi_atsc_AttachEIT$8;
-  _Bool return_value_dvbpsi_atsc_AttachETT$9;
-  _Bool return_value_dvbpsi_atsc_AttachSTT$10;
-  _Bool return_value_dvbpsi_sis_attach$11;
+  _Bool return_value_dvbpsi_nit_attach_1;
+  _Bool return_value_dvbpsi_sdt_attach_2;
+  _Bool return_value_dvbpsi_bat_attach_3;
+  _Bool return_value_dvbpsi_eit_attach_4;
+  _Bool return_value_dvbpsi_tot_attach_5;
+  _Bool return_value_dvbpsi_atsc_AttachMGT_6;
+  _Bool return_value_dvbpsi_atsc_AttachVCT_7;
+  _Bool return_value_dvbpsi_atsc_AttachEIT_8;
+  _Bool return_value_dvbpsi_atsc_AttachETT_9;
+  _Bool return_value_dvbpsi_atsc_AttachSTT_10;
+  _Bool return_value_dvbpsi_sis_attach_11;
   switch((signed int)i_table_id)
   {
     case 0x40:
 
     case 0x41:
     {
-      return_value_dvbpsi_nit_attach$1=dvbpsi_nit_attach(p_dvbpsi, i_table_id, i_extension, handle_NIT, p_data);
-      if(return_value_dvbpsi_nit_attach$1 == (_Bool)0)
+      return_value_dvbpsi_nit_attach_1=dvbpsi_nit_attach(p_dvbpsi, i_table_id, i_extension, handle_NIT, p_data);
+      if(return_value_dvbpsi_nit_attach_1 == (_Bool)0)
         fprintf(stderr, "dvbinfo: Failed to attach NIT subdecoder\n");
 
       break;
     }
     case 0x42:
     {
-      return_value_dvbpsi_sdt_attach$2=dvbpsi_sdt_attach(p_dvbpsi, i_table_id, i_extension, handle_SDT, p_data);
-      if(return_value_dvbpsi_sdt_attach$2 == (_Bool)0)
+      return_value_dvbpsi_sdt_attach_2=dvbpsi_sdt_attach(p_dvbpsi, i_table_id, i_extension, handle_SDT, p_data);
+      if(return_value_dvbpsi_sdt_attach_2 == (_Bool)0)
         fprintf(stderr, "dvbinfo: Failed to attach SDT subdecoder\n");
 
       break;
     }
     case 0x4A:
     {
-      return_value_dvbpsi_bat_attach$3=dvbpsi_bat_attach(p_dvbpsi, i_table_id, i_extension, handle_BAT, p_data);
-      if(return_value_dvbpsi_bat_attach$3 == (_Bool)0)
+      return_value_dvbpsi_bat_attach_3=dvbpsi_bat_attach(p_dvbpsi, i_table_id, i_extension, handle_BAT, p_data);
+      if(return_value_dvbpsi_bat_attach_3 == (_Bool)0)
         fprintf(stderr, "dvbinfo: Failed to attach BAT subdecoder\n");
 
       break;
@@ -19553,8 +19553,8 @@ static void handle_subtable(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id,
 
     case 0x6F:
     {
-      return_value_dvbpsi_eit_attach$4=dvbpsi_eit_attach(p_dvbpsi, i_table_id, i_extension, handle_EIT, p_data);
-      if(return_value_dvbpsi_eit_attach$4 == (_Bool)0)
+      return_value_dvbpsi_eit_attach_4=dvbpsi_eit_attach(p_dvbpsi, i_table_id, i_extension, handle_EIT, p_data);
+      if(return_value_dvbpsi_eit_attach_4 == (_Bool)0)
         fprintf(stderr, "dvbinfo: Failed to attach EIT subdecoder\n");
 
       break;
@@ -19563,16 +19563,16 @@ static void handle_subtable(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id,
 
     case 0x73:
     {
-      return_value_dvbpsi_tot_attach$5=dvbpsi_tot_attach(p_dvbpsi, i_table_id, i_extension, handle_TOT, p_data);
-      if(return_value_dvbpsi_tot_attach$5 == (_Bool)0)
+      return_value_dvbpsi_tot_attach_5=dvbpsi_tot_attach(p_dvbpsi, i_table_id, i_extension, handle_TOT, p_data);
+      if(return_value_dvbpsi_tot_attach_5 == (_Bool)0)
         fprintf(stderr, "dvbinfo: Failed to attach TOT subdecoder\n");
 
       break;
     }
     case 0xC7:
     {
-      return_value_dvbpsi_atsc_AttachMGT$6=dvbpsi_atsc_AttachMGT(p_dvbpsi, i_table_id, i_extension, handle_atsc_MGT, p_data);
-      if(return_value_dvbpsi_atsc_AttachMGT$6 == (_Bool)0)
+      return_value_dvbpsi_atsc_AttachMGT_6=dvbpsi_atsc_AttachMGT(p_dvbpsi, i_table_id, i_extension, handle_atsc_MGT, p_data);
+      if(return_value_dvbpsi_atsc_AttachMGT_6 == (_Bool)0)
         fprintf(stderr, "dvbinfo: Failed to attach ATSC MGT subdecoder\n");
 
       break;
@@ -19581,40 +19581,40 @@ static void handle_subtable(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id,
 
     case 0xC9:
     {
-      return_value_dvbpsi_atsc_AttachVCT$7=dvbpsi_atsc_AttachVCT(p_dvbpsi, i_table_id, i_extension, handle_atsc_VCT, p_data);
-      if(return_value_dvbpsi_atsc_AttachVCT$7 == (_Bool)0)
+      return_value_dvbpsi_atsc_AttachVCT_7=dvbpsi_atsc_AttachVCT(p_dvbpsi, i_table_id, i_extension, handle_atsc_VCT, p_data);
+      if(return_value_dvbpsi_atsc_AttachVCT_7 == (_Bool)0)
         fprintf(stderr, "dvbinfo: Failed to attach ATSC VCT subdecoder\n");
 
       break;
     }
     case 0xCB:
     {
-      return_value_dvbpsi_atsc_AttachEIT$8=dvbpsi_atsc_AttachEIT(p_dvbpsi, i_table_id, i_extension, handle_atsc_EIT, p_data);
-      if(return_value_dvbpsi_atsc_AttachEIT$8 == (_Bool)0)
+      return_value_dvbpsi_atsc_AttachEIT_8=dvbpsi_atsc_AttachEIT(p_dvbpsi, i_table_id, i_extension, handle_atsc_EIT, p_data);
+      if(return_value_dvbpsi_atsc_AttachEIT_8 == (_Bool)0)
         fprintf(stderr, "dvbinfo: Failed to attach ATSC EIT subdecoder\n");
 
       break;
     }
     case 0xCC:
     {
-      return_value_dvbpsi_atsc_AttachETT$9=dvbpsi_atsc_AttachETT(p_dvbpsi, i_table_id, i_extension, handle_atsc_ETT, p_data);
-      if(return_value_dvbpsi_atsc_AttachETT$9 == (_Bool)0)
+      return_value_dvbpsi_atsc_AttachETT_9=dvbpsi_atsc_AttachETT(p_dvbpsi, i_table_id, i_extension, handle_atsc_ETT, p_data);
+      if(return_value_dvbpsi_atsc_AttachETT_9 == (_Bool)0)
         fprintf(stderr, "dvbinfo: Failed to attach ATSC ETT subdecoder\n");
 
       break;
     }
     case 0xCD:
     {
-      return_value_dvbpsi_atsc_AttachSTT$10=dvbpsi_atsc_AttachSTT(p_dvbpsi, i_table_id, i_extension, handle_atsc_STT, p_data);
-      if(return_value_dvbpsi_atsc_AttachSTT$10 == (_Bool)0)
+      return_value_dvbpsi_atsc_AttachSTT_10=dvbpsi_atsc_AttachSTT(p_dvbpsi, i_table_id, i_extension, handle_atsc_STT, p_data);
+      if(return_value_dvbpsi_atsc_AttachSTT_10 == (_Bool)0)
         fprintf(stderr, "dvbinfo: Failed to attach ATSC STT subdecoder\n");
 
       break;
     }
     case 0xFC:
     {
-      return_value_dvbpsi_sis_attach$11=dvbpsi_sis_attach(p_dvbpsi, i_table_id, i_extension, handle_SIS, p_data);
-      if(return_value_dvbpsi_sis_attach$11 == (_Bool)0)
+      return_value_dvbpsi_sis_attach_11=dvbpsi_sis_attach(p_dvbpsi, i_table_id, i_extension, handle_SIS, p_data);
+      if(return_value_dvbpsi_sis_attach_11 == (_Bool)0)
         fprintf(stderr, "dvbinfo: Failed to attach SIS subdecoder\n");
 
     }
@@ -19625,9 +19625,9 @@ static void handle_subtable(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id,
 // file udp.c line 177
 static _Bool is_ipv6(const char *ipaddress)
 {
-  char *return_value_strchr$1;
-  return_value_strchr$1=strchr(ipaddress, 58);
-  return return_value_strchr$1 != (char *)(void *)0;
+  char *return_value_strchr_1;
+  return_value_strchr_1=strchr(ipaddress, 58);
+  return return_value_strchr_1 != (char *)(void *)0;
 }
 
 // is_multicast
@@ -19636,7 +19636,7 @@ static _Bool is_multicast(struct sockaddr_storage *saddr, unsigned int len)
 {
   struct sockaddr *addr = (struct sockaddr *)saddr;
   struct sockaddr_in *ip;
-  unsigned int return_value_ntohl$1;
+  unsigned int return_value_ntohl_1;
   struct sockaddr_in6 *ip6;
   switch((signed int)addr->sa_family)
   {
@@ -19646,8 +19646,8 @@ static _Bool is_multicast(struct sockaddr_storage *saddr, unsigned int len)
       if(!((unsigned long int)len >= sizeof(struct sockaddr_in) /*16ul*/ ))
         return (_Bool)0;
 
-      return_value_ntohl$1=ntohl(ip->sin_addr.s_addr);
-      return (signed int)(((unsigned int)return_value_ntohl$1 & 0xf0000000) == 0xe0000000) != 0;
+      return_value_ntohl_1=ntohl(ip->sin_addr.s_addr);
+      return (signed int)(((unsigned int)return_value_ntohl_1 & 0xf0000000) == 0xe0000000) != 0;
     }
     case 10:
     {
@@ -19667,21 +19667,21 @@ static _Bool is_multicast(struct sockaddr_storage *saddr, unsigned int len)
 void libdvbpsi_exit(struct ts_stream_t *stream)
 {
   summary(stdout, stream);
-  _Bool return_value_dvbpsi_decoder_present$1;
-  return_value_dvbpsi_decoder_present$1=dvbpsi_decoder_present(stream->pat.handle);
-  if(!(return_value_dvbpsi_decoder_present$1 == (_Bool)0))
+  _Bool return_value_dvbpsi_decoder_present_1;
+  return_value_dvbpsi_decoder_present_1=dvbpsi_decoder_present(stream->pat.handle);
+  if(!(return_value_dvbpsi_decoder_present_1 == (_Bool)0))
     dvbpsi_pat_detach(stream->pat.handle);
 
   struct ts_pmt_s *p_pmt = stream->pmt;
   struct ts_pmt_s *p_prev = (struct ts_pmt_s *)(void *)0;
   while(!(p_pmt == ((struct ts_pmt_s *)NULL)))
   {
-    struct dvbpsi_s *libdvbpsi_exit$$1$$1$$handle = p_pmt->handle;
-    _Bool return_value_dvbpsi_decoder_present$2;
-    return_value_dvbpsi_decoder_present$2=dvbpsi_decoder_present(libdvbpsi_exit$$1$$1$$handle);
-    if(!(return_value_dvbpsi_decoder_present$2 == (_Bool)0))
+    struct dvbpsi_s *libdvbpsi_exit__1__1__handle = p_pmt->handle;
+    _Bool return_value_dvbpsi_decoder_present_2;
+    return_value_dvbpsi_decoder_present_2=dvbpsi_decoder_present(libdvbpsi_exit__1__1__handle);
+    if(!(return_value_dvbpsi_decoder_present_2 == (_Bool)0))
     {
-      dvbpsi_pmt_detach(libdvbpsi_exit$$1$$1$$handle);
+      dvbpsi_pmt_detach(libdvbpsi_exit__1__1__handle);
       dvbpsi_delete(p_pmt->handle);
     }
 
@@ -19698,9 +19698,9 @@ void libdvbpsi_exit(struct ts_stream_t *stream)
   while(!(p_atsc_eit == ((struct ts_atsc_eit_s *)NULL)))
   {
     struct dvbpsi_s *handle = p_atsc_eit->handle;
-    _Bool return_value_dvbpsi_decoder_present$3;
-    return_value_dvbpsi_decoder_present$3=dvbpsi_decoder_present(handle);
-    if(!(return_value_dvbpsi_decoder_present$3 == (_Bool)0))
+    _Bool return_value_dvbpsi_decoder_present_3;
+    return_value_dvbpsi_decoder_present_3=dvbpsi_decoder_present(handle);
+    if(!(return_value_dvbpsi_decoder_present_3 == (_Bool)0))
     {
       dvbpsi_DetachDemux(handle);
       dvbpsi_delete(p_atsc_eit->handle);
@@ -19714,34 +19714,34 @@ void libdvbpsi_exit(struct ts_stream_t *stream)
 
     free((void *)p_atsc_prev);
   }
-  _Bool return_value_dvbpsi_decoder_present$4;
-  return_value_dvbpsi_decoder_present$4=dvbpsi_decoder_present(stream->cat.handle);
-  if(!(return_value_dvbpsi_decoder_present$4 == (_Bool)0))
+  _Bool return_value_dvbpsi_decoder_present_4;
+  return_value_dvbpsi_decoder_present_4=dvbpsi_decoder_present(stream->cat.handle);
+  if(!(return_value_dvbpsi_decoder_present_4 == (_Bool)0))
     dvbpsi_cat_detach(stream->cat.handle);
 
-  _Bool return_value_dvbpsi_decoder_present$5;
-  return_value_dvbpsi_decoder_present$5=dvbpsi_decoder_present(stream->sdt.handle);
-  if(!(return_value_dvbpsi_decoder_present$5 == (_Bool)0))
+  _Bool return_value_dvbpsi_decoder_present_5;
+  return_value_dvbpsi_decoder_present_5=dvbpsi_decoder_present(stream->sdt.handle);
+  if(!(return_value_dvbpsi_decoder_present_5 == (_Bool)0))
     dvbpsi_DetachDemux(stream->sdt.handle);
 
-  _Bool return_value_dvbpsi_decoder_present$6;
-  return_value_dvbpsi_decoder_present$6=dvbpsi_decoder_present(stream->rst.handle);
-  if(!(return_value_dvbpsi_decoder_present$6 == (_Bool)0))
+  _Bool return_value_dvbpsi_decoder_present_6;
+  return_value_dvbpsi_decoder_present_6=dvbpsi_decoder_present(stream->rst.handle);
+  if(!(return_value_dvbpsi_decoder_present_6 == (_Bool)0))
     dvbpsi_rst_detach(stream->rst.handle);
 
-  _Bool return_value_dvbpsi_decoder_present$7;
-  return_value_dvbpsi_decoder_present$7=dvbpsi_decoder_present(stream->eit.handle);
-  if(!(return_value_dvbpsi_decoder_present$7 == (_Bool)0))
+  _Bool return_value_dvbpsi_decoder_present_7;
+  return_value_dvbpsi_decoder_present_7=dvbpsi_decoder_present(stream->eit.handle);
+  if(!(return_value_dvbpsi_decoder_present_7 == (_Bool)0))
     dvbpsi_DetachDemux(stream->eit.handle);
 
-  _Bool return_value_dvbpsi_decoder_present$8;
-  return_value_dvbpsi_decoder_present$8=dvbpsi_decoder_present(stream->tdt.handle);
-  if(!(return_value_dvbpsi_decoder_present$8 == (_Bool)0))
+  _Bool return_value_dvbpsi_decoder_present_8;
+  return_value_dvbpsi_decoder_present_8=dvbpsi_decoder_present(stream->tdt.handle);
+  if(!(return_value_dvbpsi_decoder_present_8 == (_Bool)0))
     dvbpsi_DetachDemux(stream->tdt.handle);
 
-  _Bool return_value_dvbpsi_decoder_present$9;
-  return_value_dvbpsi_decoder_present$9=dvbpsi_decoder_present(stream->atsc.handle);
-  if(!(return_value_dvbpsi_decoder_present$9 == (_Bool)0))
+  _Bool return_value_dvbpsi_decoder_present_9;
+  return_value_dvbpsi_decoder_present_9=dvbpsi_decoder_present(stream->atsc.handle);
+  if(!(return_value_dvbpsi_decoder_present_9 == (_Bool)0))
     dvbpsi_DetachDemux(stream->atsc.handle);
 
   if(!(stream->pat.handle == ((struct dvbpsi_s *)NULL)))
@@ -19774,16 +19774,16 @@ void libdvbpsi_exit(struct ts_stream_t *stream)
 struct ts_stream_t * libdvbpsi_init(signed int debug, void (*pf_log)(void *, const signed int, const char *, ...), void *cb_data)
 {
   struct ts_stream_t *stream;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct ts_stream_t) /*852184ul*/ );
-  stream = (struct ts_stream_t *)return_value_calloc$1;
-  _Bool return_value_dvbpsi_pat_attach$2;
-  _Bool return_value_dvbpsi_cat_attach$3;
-  _Bool return_value_dvbpsi_AttachDemux$4;
-  _Bool return_value_dvbpsi_rst_attach$5;
-  _Bool return_value_dvbpsi_AttachDemux$6;
-  _Bool return_value_dvbpsi_AttachDemux$7;
-  _Bool return_value_dvbpsi_AttachDemux$8;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct ts_stream_t) /*852184ul*/ );
+  stream = (struct ts_stream_t *)return_value_calloc_1;
+  _Bool return_value_dvbpsi_pat_attach_2;
+  _Bool return_value_dvbpsi_cat_attach_3;
+  _Bool return_value_dvbpsi_AttachDemux_4;
+  _Bool return_value_dvbpsi_rst_attach_5;
+  _Bool return_value_dvbpsi_AttachDemux_6;
+  _Bool return_value_dvbpsi_AttachDemux_7;
+  _Bool return_value_dvbpsi_AttachDemux_8;
   if(stream == ((struct ts_stream_t *)NULL))
     return (struct ts_stream_t *)(void *)0;
 
@@ -19818,8 +19818,8 @@ struct ts_stream_t * libdvbpsi_init(signed int debug, void (*pf_log)(void *, con
     stream->pat.handle=dvbpsi_new(dvbpsi_message, stream->level);
     if(!(stream->pat.handle == ((struct dvbpsi_s *)NULL)))
     {
-      return_value_dvbpsi_pat_attach$2=dvbpsi_pat_attach(stream->pat.handle, handle_PAT, (void *)stream);
-      if(return_value_dvbpsi_pat_attach$2 == (_Bool)0)
+      return_value_dvbpsi_pat_attach_2=dvbpsi_pat_attach(stream->pat.handle, handle_PAT, (void *)stream);
+      if(return_value_dvbpsi_pat_attach_2 == (_Bool)0)
       {
         dvbpsi_delete(stream->pat.handle);
         stream->pat.handle = (struct dvbpsi_s *)(void *)0;
@@ -19830,8 +19830,8 @@ struct ts_stream_t * libdvbpsi_init(signed int debug, void (*pf_log)(void *, con
       if(stream->cat.handle == ((struct dvbpsi_s *)NULL))
         goto error;
 
-      return_value_dvbpsi_cat_attach$3=dvbpsi_cat_attach(stream->cat.handle, handle_CAT, (void *)stream);
-      if(return_value_dvbpsi_cat_attach$3 == (_Bool)0)
+      return_value_dvbpsi_cat_attach_3=dvbpsi_cat_attach(stream->cat.handle, handle_CAT, (void *)stream);
+      if(return_value_dvbpsi_cat_attach_3 == (_Bool)0)
       {
         dvbpsi_delete(stream->cat.handle);
         stream->cat.handle = (struct dvbpsi_s *)(void *)0;
@@ -19842,8 +19842,8 @@ struct ts_stream_t * libdvbpsi_init(signed int debug, void (*pf_log)(void *, con
       if(stream->sdt.handle == ((struct dvbpsi_s *)NULL))
         goto error;
 
-      return_value_dvbpsi_AttachDemux$4=dvbpsi_AttachDemux(stream->sdt.handle, handle_subtable, (void *)stream);
-      if(return_value_dvbpsi_AttachDemux$4 == (_Bool)0)
+      return_value_dvbpsi_AttachDemux_4=dvbpsi_AttachDemux(stream->sdt.handle, handle_subtable, (void *)stream);
+      if(return_value_dvbpsi_AttachDemux_4 == (_Bool)0)
       {
         dvbpsi_delete(stream->sdt.handle);
         stream->sdt.handle = (struct dvbpsi_s *)(void *)0;
@@ -19854,8 +19854,8 @@ struct ts_stream_t * libdvbpsi_init(signed int debug, void (*pf_log)(void *, con
       if(stream->rst.handle == ((struct dvbpsi_s *)NULL))
         goto error;
 
-      return_value_dvbpsi_rst_attach$5=dvbpsi_rst_attach(stream->rst.handle, handle_RST, (void *)stream);
-      if(return_value_dvbpsi_rst_attach$5 == (_Bool)0)
+      return_value_dvbpsi_rst_attach_5=dvbpsi_rst_attach(stream->rst.handle, handle_RST, (void *)stream);
+      if(return_value_dvbpsi_rst_attach_5 == (_Bool)0)
       {
         dvbpsi_delete(stream->rst.handle);
         stream->rst.handle = (struct dvbpsi_s *)(void *)0;
@@ -19866,8 +19866,8 @@ struct ts_stream_t * libdvbpsi_init(signed int debug, void (*pf_log)(void *, con
       if(stream->eit.handle == ((struct dvbpsi_s *)NULL))
         goto error;
 
-      return_value_dvbpsi_AttachDemux$6=dvbpsi_AttachDemux(stream->eit.handle, handle_subtable, (void *)stream);
-      if(return_value_dvbpsi_AttachDemux$6 == (_Bool)0)
+      return_value_dvbpsi_AttachDemux_6=dvbpsi_AttachDemux(stream->eit.handle, handle_subtable, (void *)stream);
+      if(return_value_dvbpsi_AttachDemux_6 == (_Bool)0)
       {
         dvbpsi_delete(stream->eit.handle);
         stream->eit.handle = (struct dvbpsi_s *)(void *)0;
@@ -19878,8 +19878,8 @@ struct ts_stream_t * libdvbpsi_init(signed int debug, void (*pf_log)(void *, con
       if(stream->tdt.handle == ((struct dvbpsi_s *)NULL))
         goto error;
 
-      return_value_dvbpsi_AttachDemux$7=dvbpsi_AttachDemux(stream->tdt.handle, handle_subtable, (void *)stream);
-      if(return_value_dvbpsi_AttachDemux$7 == (_Bool)0)
+      return_value_dvbpsi_AttachDemux_7=dvbpsi_AttachDemux(stream->tdt.handle, handle_subtable, (void *)stream);
+      if(return_value_dvbpsi_AttachDemux_7 == (_Bool)0)
       {
         dvbpsi_delete(stream->tdt.handle);
         stream->tdt.handle = (struct dvbpsi_s *)(void *)0;
@@ -19890,8 +19890,8 @@ struct ts_stream_t * libdvbpsi_init(signed int debug, void (*pf_log)(void *, con
       if(stream->atsc.handle == ((struct dvbpsi_s *)NULL))
         goto error;
 
-      return_value_dvbpsi_AttachDemux$8=dvbpsi_AttachDemux(stream->atsc.handle, handle_subtable, (void *)stream);
-      if(return_value_dvbpsi_AttachDemux$8 == (_Bool)0)
+      return_value_dvbpsi_AttachDemux_8=dvbpsi_AttachDemux(stream->atsc.handle, handle_subtable, (void *)stream);
+      if(return_value_dvbpsi_AttachDemux_8 == (_Bool)0)
       {
         dvbpsi_delete(stream->atsc.handle);
         stream->atsc.handle = (struct dvbpsi_s *)(void *)0;
@@ -19913,39 +19913,39 @@ struct ts_stream_t * libdvbpsi_init(signed int debug, void (*pf_log)(void *, con
 
     error:
       ;
-      _Bool return_value_dvbpsi_decoder_present$9;
-      return_value_dvbpsi_decoder_present$9=dvbpsi_decoder_present(stream->pat.handle);
-      if(!(return_value_dvbpsi_decoder_present$9 == (_Bool)0))
+      _Bool return_value_dvbpsi_decoder_present_9;
+      return_value_dvbpsi_decoder_present_9=dvbpsi_decoder_present(stream->pat.handle);
+      if(!(return_value_dvbpsi_decoder_present_9 == (_Bool)0))
         dvbpsi_pat_detach(stream->pat.handle);
 
-      _Bool return_value_dvbpsi_decoder_present$10;
-      return_value_dvbpsi_decoder_present$10=dvbpsi_decoder_present(stream->cat.handle);
-      if(!(return_value_dvbpsi_decoder_present$10 == (_Bool)0))
+      _Bool return_value_dvbpsi_decoder_present_10;
+      return_value_dvbpsi_decoder_present_10=dvbpsi_decoder_present(stream->cat.handle);
+      if(!(return_value_dvbpsi_decoder_present_10 == (_Bool)0))
         dvbpsi_cat_detach(stream->cat.handle);
 
-      _Bool return_value_dvbpsi_decoder_present$11;
-      return_value_dvbpsi_decoder_present$11=dvbpsi_decoder_present(stream->sdt.handle);
-      if(!(return_value_dvbpsi_decoder_present$11 == (_Bool)0))
+      _Bool return_value_dvbpsi_decoder_present_11;
+      return_value_dvbpsi_decoder_present_11=dvbpsi_decoder_present(stream->sdt.handle);
+      if(!(return_value_dvbpsi_decoder_present_11 == (_Bool)0))
         dvbpsi_DetachDemux(stream->sdt.handle);
 
-      _Bool return_value_dvbpsi_decoder_present$12;
-      return_value_dvbpsi_decoder_present$12=dvbpsi_decoder_present(stream->eit.handle);
-      if(!(return_value_dvbpsi_decoder_present$12 == (_Bool)0))
+      _Bool return_value_dvbpsi_decoder_present_12;
+      return_value_dvbpsi_decoder_present_12=dvbpsi_decoder_present(stream->eit.handle);
+      if(!(return_value_dvbpsi_decoder_present_12 == (_Bool)0))
         dvbpsi_DetachDemux(stream->eit.handle);
 
-      _Bool return_value_dvbpsi_decoder_present$13;
-      return_value_dvbpsi_decoder_present$13=dvbpsi_decoder_present(stream->rst.handle);
-      if(!(return_value_dvbpsi_decoder_present$13 == (_Bool)0))
+      _Bool return_value_dvbpsi_decoder_present_13;
+      return_value_dvbpsi_decoder_present_13=dvbpsi_decoder_present(stream->rst.handle);
+      if(!(return_value_dvbpsi_decoder_present_13 == (_Bool)0))
         dvbpsi_rst_detach(stream->rst.handle);
 
-      _Bool return_value_dvbpsi_decoder_present$14;
-      return_value_dvbpsi_decoder_present$14=dvbpsi_decoder_present(stream->tdt.handle);
-      if(!(return_value_dvbpsi_decoder_present$14 == (_Bool)0))
+      _Bool return_value_dvbpsi_decoder_present_14;
+      return_value_dvbpsi_decoder_present_14=dvbpsi_decoder_present(stream->tdt.handle);
+      if(!(return_value_dvbpsi_decoder_present_14 == (_Bool)0))
         dvbpsi_DetachDemux(stream->tdt.handle);
 
-      _Bool return_value_dvbpsi_decoder_present$15;
-      return_value_dvbpsi_decoder_present$15=dvbpsi_decoder_present(stream->atsc.handle);
-      if(!(return_value_dvbpsi_decoder_present$15 == (_Bool)0))
+      _Bool return_value_dvbpsi_decoder_present_15;
+      return_value_dvbpsi_decoder_present_15=dvbpsi_decoder_present(stream->atsc.handle);
+      if(!(return_value_dvbpsi_decoder_present_15 == (_Bool)0))
         dvbpsi_DetachDemux(stream->atsc.handle);
 
       if(!(stream->pat.handle == ((struct dvbpsi_s *)NULL)))
@@ -20010,7 +20010,7 @@ _Bool libdvbpsi_process(struct ts_stream_t *stream, unsigned char *buf, signed l
   signed long int i_prev_pcr = (signed long int)0;
   signed int i_old_cc = -1;
   signed long int i = (signed long int)0;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   for( ; !(i >= length); i = i + (signed long int)188)
   {
     signed long int i_lost;
@@ -20163,11 +20163,11 @@ _Bool libdvbpsi_process(struct ts_stream_t *stream, unsigned char *buf, signed l
           {
             i_ext = i_ext + 1u;
             if((0x80 & (signed int)p_tmp[(signed long int)i_ext]) == 0x80)
-              tmp_if_expr$1 = -1 * ((signed int)p_tmp[(signed long int)i_ext] & 0x7f);
+              tmp_if_expr_1 = -1 * ((signed int)p_tmp[(signed long int)i_ext] & 0x7f);
 
             else
-              tmp_if_expr$1 = (signed int)p_tmp[(signed long int)i_ext] & 0x7f;
-            stream->pid[(signed long int)i_pid].i_splice_countdown = (signed char)tmp_if_expr$1;
+              tmp_if_expr_1 = (signed int)p_tmp[(signed long int)i_ext] & 0x7f;
+            stream->pid[(signed long int)i_pid].i_splice_countdown = (signed char)tmp_if_expr_1;
           }
 
           if(!(stream->pid[(signed long int)i_pid].b_transport_private_data == (_Bool)0))
@@ -20275,20 +20275,20 @@ signed int main(signed int argc, char **pp_argv)
   capture.fifo=fifo_new();
   capture.empty=fifo_new();
   capture.b_fifo_full = (_Bool)0;
-  pthread_mutex_init(&capture.lock, (const union anonymous$0 *)(void *)0);
-  pthread_cond_init(&capture.fifo_full, (const union anonymous$0 *)(void *)0);
-  signed int return_value_getopt_long$1;
-  signed int return_value_strncmp$3;
-  signed int return_value_strncmp$2;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$13;
-  signed int *return_value___errno_location$11;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$22;
-  signed int *return_value___errno_location$20;
-  _Bool tmp_if_expr$21;
+  pthread_mutex_init(&capture.lock, (const union anonymous_0 *)(void *)0);
+  pthread_cond_init(&capture.fifo_full, (const union anonymous_0 *)(void *)0);
+  signed int return_value_getopt_long_1;
+  signed int return_value_strncmp_3;
+  signed int return_value_strncmp_2;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_13;
+  signed int *return_value___errno_location_11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_22;
+  signed int *return_value___errno_location_20;
+  _Bool tmp_if_expr_21;
   do
   {
     static struct option long_options[14l] = { { .name="debug", .has_arg=1, .flag=(signed int *)(void *)0, .val=100 },
@@ -20306,8 +20306,8 @@ signed int main(signed int argc, char **pp_argv)
     { .name="capturesize", .has_arg=1, .flag=(signed int *)(void *)0, .val=99 },
     { .name=(const char *)(void *)0, .has_arg=0, .flag=(signed int *)(void *)0,
     .val=0 } };
-    return_value_getopt_long$1=getopt_long(argc, pp_argv, "a:c:d:f:i:j:ho:p:ms:tu", long_options, (signed int *)(void *)0);
-    c = (char)return_value_getopt_long$1;
+    return_value_getopt_long_1=getopt_long(argc, pp_argv, "a:c:d:f:i:j:ho:p:ms:tu", long_options, (signed int *)(void *)0);
+    c = (char)return_value_getopt_long_1;
     if((signed int)c == -1)
       break;
 
@@ -20318,21 +20318,21 @@ signed int main(signed int argc, char **pp_argv)
         if(!(optarg == ((char *)NULL)))
         {
           param->debug = 0;
-          signed int return_value_strncmp$4;
-          return_value_strncmp$4=strncmp(optarg, "error", (unsigned long int)5);
-          if(return_value_strncmp$4 == 0)
+          signed int return_value_strncmp_4;
+          return_value_strncmp_4=strncmp(optarg, "error", (unsigned long int)5);
+          if(return_value_strncmp_4 == 0)
             param->debug = 1;
 
           else
           {
-            return_value_strncmp$3=strncmp(optarg, "warn", (unsigned long int)4);
-            if(return_value_strncmp$3 == 0)
+            return_value_strncmp_3=strncmp(optarg, "warn", (unsigned long int)4);
+            if(return_value_strncmp_3 == 0)
               param->debug = 2;
 
             else
             {
-              return_value_strncmp$2=strncmp(optarg, "debug", (unsigned long int)5);
-              if(return_value_strncmp$2 == 0)
+              return_value_strncmp_2=strncmp(optarg, "debug", (unsigned long int)5);
+              if(return_value_strncmp_2 == 0)
                 param->debug = 3;
 
             }
@@ -20345,9 +20345,9 @@ signed int main(signed int argc, char **pp_argv)
       {
         if(!(optarg == ((char *)NULL)))
         {
-          signed int return_value_asprintf$5;
-          return_value_asprintf$5=asprintf(&param->input, "%s", optarg);
-          if(!(return_value_asprintf$5 >= 0))
+          signed int return_value_asprintf_5;
+          return_value_asprintf_5=asprintf(&param->input, "%s", optarg);
+          if(!(return_value_asprintf_5 >= 0))
           {
             fprintf(stderr, "error: out of memory\n");
             params_free(param);
@@ -20364,9 +20364,9 @@ signed int main(signed int argc, char **pp_argv)
       {
         if(!(optarg == ((char *)NULL)))
         {
-          signed int return_value_asprintf$6;
-          return_value_asprintf$6=asprintf(&param->mcast_interface, "%s", optarg);
-          if(!(return_value_asprintf$6 >= 0))
+          signed int return_value_asprintf_6;
+          return_value_asprintf_6=asprintf(&param->mcast_interface, "%s", optarg);
+          if(!(return_value_asprintf_6 >= 0))
           {
             params_free(param);
             usage();
@@ -20386,9 +20386,9 @@ signed int main(signed int argc, char **pp_argv)
           {
             unsigned long int len;
             len=strlen(psz_tmp);
-            signed long int return_value_strtol$7;
-            return_value_strtol$7=strtol(&optarg[(signed long int)(len + (unsigned long int)1)], (char ** restrict )(void *)0, 0);
-            param->port = (signed int)return_value_strtol$7;
+            signed long int return_value_strtol_7;
+            return_value_strtol_7=strtol(&optarg[(signed long int)(len + (unsigned long int)1)], (char ** restrict )(void *)0, 0);
+            param->port = (signed int)return_value_strtol_7;
             param->input=strdup(psz_tmp);
           }
 
@@ -20410,9 +20410,9 @@ signed int main(signed int argc, char **pp_argv)
       {
         if(!(optarg == ((char *)NULL)))
         {
-          signed int return_value_asprintf$8;
-          return_value_asprintf$8=asprintf(&param->output, "%s", optarg);
-          if(!(return_value_asprintf$8 >= 0))
+          signed int return_value_asprintf_8;
+          return_value_asprintf_8=asprintf(&param->output, "%s", optarg);
+          if(!(return_value_asprintf_8 >= 0))
           {
             fprintf(stderr, "error: out of memory\n");
             params_free(param);
@@ -20441,27 +20441,27 @@ signed int main(signed int argc, char **pp_argv)
         if(!(optarg == ((char *)NULL)))
         {
           param->threshold=strtoul(optarg, (char ** restrict )(void *)0, 10);
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          if(*return_value___errno_location$9 == 34)
-            tmp_if_expr$10 = param->threshold == (unsigned long int)0x7fffffffffffffffL * 2UL + 1UL ? (_Bool)1 : (_Bool)0;
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          if(*return_value___errno_location_9 == 34)
+            tmp_if_expr_10 = param->threshold == (unsigned long int)0x7fffffffffffffffL * 2UL + 1UL ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$10 = (_Bool)0;
-          if(tmp_if_expr$10)
-            tmp_if_expr$13 = (_Bool)1;
+            tmp_if_expr_10 = (_Bool)0;
+          if(tmp_if_expr_10)
+            tmp_if_expr_13 = (_Bool)1;
 
           else
           {
-            return_value___errno_location$11=__errno_location();
-            if(!(*return_value___errno_location$11 == 0))
-              tmp_if_expr$12 = param->threshold == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+            return_value___errno_location_11=__errno_location();
+            if(!(*return_value___errno_location_11 == 0))
+              tmp_if_expr_12 = param->threshold == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$12 = (_Bool)0;
-            tmp_if_expr$13 = tmp_if_expr$12 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_12 = (_Bool)0;
+            tmp_if_expr_13 = tmp_if_expr_12 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$13)
+          if(tmp_if_expr_13)
           {
             fprintf(stderr, "Option --capturesize has invalid content %s\n", optarg);
             params_free(param);
@@ -20481,11 +20481,11 @@ signed int main(signed int argc, char **pp_argv)
           for( ; !(i >= size); i = i + 1l)
           {
             printf("summary mode %s\n", psz_summary_mode[i]);
-            unsigned long int return_value_strlen$14;
-            return_value_strlen$14=strlen(psz_summary_mode[i]);
-            signed int return_value_strncmp$15;
-            return_value_strncmp$15=strncmp(optarg, psz_summary_mode[i], return_value_strlen$14);
-            if(return_value_strncmp$15 == 0)
+            unsigned long int return_value_strlen_14;
+            return_value_strlen_14=strlen(psz_summary_mode[i]);
+            signed int return_value_strncmp_15;
+            return_value_strncmp_15=strncmp(optarg, psz_summary_mode[i], return_value_strlen_14);
+            if(return_value_strncmp_15 == 0)
             {
               param->summary.mode = i_summary_mode[i];
               param->b_summary = (_Bool)1;
@@ -20508,9 +20508,9 @@ signed int main(signed int argc, char **pp_argv)
       {
         if(!(optarg == ((char *)NULL)))
         {
-          signed int return_value_asprintf$16;
-          return_value_asprintf$16=asprintf(&param->summary.file, "%s", optarg);
-          if(!(return_value_asprintf$16 >= 0))
+          signed int return_value_asprintf_16;
+          return_value_asprintf_16=asprintf(&param->summary.file, "%s", optarg);
+          if(!(return_value_asprintf_16 >= 0))
           {
             params_free(param);
             usage();
@@ -20525,34 +20525,34 @@ signed int main(signed int argc, char **pp_argv)
         if(!(optarg == ((char *)NULL)))
         {
           param->summary.period=strtoll(optarg, (char ** restrict )(void *)0, 10);
-          signed int *return_value___errno_location$17;
-          return_value___errno_location$17=__errno_location();
-          if(*return_value___errno_location$17 == 34)
+          signed int *return_value___errno_location_17;
+          return_value___errno_location_17=__errno_location();
+          if(*return_value___errno_location_17 == 34)
           {
             if(param->summary.period == -9223372036854775808ll)
-              tmp_if_expr$18 = (_Bool)1;
+              tmp_if_expr_18 = (_Bool)1;
 
             else
-              tmp_if_expr$18 = param->summary.period == 0x7fffffffffffffffLL ? (_Bool)1 : (_Bool)0;
-            tmp_if_expr$19 = tmp_if_expr$18 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_18 = param->summary.period == 0x7fffffffffffffffLL ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_19 = tmp_if_expr_18 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$19 = (_Bool)0;
-          if(tmp_if_expr$19)
-            tmp_if_expr$22 = (_Bool)1;
+            tmp_if_expr_19 = (_Bool)0;
+          if(tmp_if_expr_19)
+            tmp_if_expr_22 = (_Bool)1;
 
           else
           {
-            return_value___errno_location$20=__errno_location();
-            if(!(*return_value___errno_location$20 == 0))
-              tmp_if_expr$21 = param->summary.period == (signed long int)0 ? (_Bool)1 : (_Bool)0;
+            return_value___errno_location_20=__errno_location();
+            if(!(*return_value___errno_location_20 == 0))
+              tmp_if_expr_21 = param->summary.period == (signed long int)0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$21 = (_Bool)0;
-            tmp_if_expr$22 = tmp_if_expr$21 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_21 = (_Bool)0;
+            tmp_if_expr_22 = tmp_if_expr_21 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$22)
+          if(tmp_if_expr_22)
           {
             fprintf(stderr, "Option --summary-period has invalid content %s\n", optarg);
             params_free(param);
@@ -20590,9 +20590,9 @@ signed int main(signed int argc, char **pp_argv)
   if(!(param->b_monitor == (_Bool)0))
   {
     openlog("dvbinfo", 0x01, 3 << 3);
-    signed int return_value_daemon$23;
-    return_value_daemon$23=daemon(1, 0);
-    if(!(return_value_daemon$23 >= 0))
+    signed int return_value_daemon_23;
+    return_value_daemon_23=daemon(1, 0);
+    if(!(return_value_daemon_23 >= 0))
     {
       libdvbpsi_log((void *)param, 0, "Failed to start in background\n");
       params_free(param);
@@ -20614,13 +20614,13 @@ signed int main(signed int argc, char **pp_argv)
     usage();
   }
 
-  _Bool tmp_if_expr$24;
+  _Bool tmp_if_expr_24;
   if(!(param->b_udp == (_Bool)0))
-    tmp_if_expr$24 = (_Bool)1;
+    tmp_if_expr_24 = (_Bool)1;
 
   else
-    tmp_if_expr$24 = param->b_tcp != (_Bool)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$24)
+    tmp_if_expr_24 = param->b_tcp != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_24)
   {
     capture.size = (unsigned long int)(7 * 188);
     libdvbpsi_log((void *)param, 2, "Listen: host=%s port=%d\n", param->input, param->port);
@@ -20634,9 +20634,9 @@ signed int main(signed int argc, char **pp_argv)
   dvbinfo_open(param);
   unsigned long int handle;
   capture.b_alive = (_Bool)1;
-  signed int return_value_pthread_create$25;
-  return_value_pthread_create$25=pthread_create(&handle, (const union pthread_attr_t *)(void *)0, dvbinfo_capture, (void *)&capture);
-  if(!(return_value_pthread_create$25 >= 0))
+  signed int return_value_pthread_create_25;
+  return_value_pthread_create_25=pthread_create(&handle, (const union pthread_attr_t *)(void *)0, dvbinfo_capture, (void *)&capture);
+  if(!(return_value_pthread_create_25 >= 0))
   {
     libdvbpsi_log((void *)param, 0, "failed creating thread\n");
     dvbinfo_close(param);
@@ -20650,9 +20650,9 @@ signed int main(signed int argc, char **pp_argv)
   signed int err;
   err=dvbinfo_process(&capture);
   capture.b_alive = (_Bool)0;
-  signed int return_value_pthread_join$26;
-  return_value_pthread_join$26=pthread_join(handle, (void **)(void *)0);
-  if(!(return_value_pthread_join$26 >= 0))
+  signed int return_value_pthread_join_26;
+  return_value_pthread_join_26=pthread_join(handle, (void **)(void *)0);
+  if(!(return_value_pthread_join_26 >= 0))
     libdvbpsi_log((void *)param, 0, "error joining capture thread\n");
 
   dvbinfo_close(param);
@@ -20679,23 +20679,23 @@ signed int main(signed int argc, char **pp_argv)
 static _Bool mcast_connect(signed int s, const char *interface, struct sockaddr_storage *saddr, unsigned int len)
 {
   unsigned int ifindex;
-  unsigned int tmp_if_expr$2;
-  unsigned int return_value_if_nametoindex$1;
+  unsigned int tmp_if_expr_2;
+  unsigned int return_value_if_nametoindex_1;
   if(!(interface == ((const char *)NULL)))
   {
-    return_value_if_nametoindex$1=if_nametoindex(interface);
-    tmp_if_expr$2 = return_value_if_nametoindex$1;
+    return_value_if_nametoindex_1=if_nametoindex(interface);
+    tmp_if_expr_2 = return_value_if_nametoindex_1;
   }
 
   else
-    tmp_if_expr$2 = (unsigned int)0;
-  ifindex = tmp_if_expr$2;
+    tmp_if_expr_2 = (unsigned int)0;
+  ifindex = tmp_if_expr_2;
   struct sockaddr *addr = (struct sockaddr *)saddr;
   struct group_req greq;
   memset((void *)&greq, 0, sizeof(struct group_req) /*136ul*/ );
   struct sockaddr_in6 *sin6;
-  signed int return_value_setsockopt$3;
-  signed int return_value_setsockopt$4;
+  signed int return_value_setsockopt_3;
+  signed int return_value_setsockopt_4;
   if(ifindex == 0u)
     return (_Bool)0;
 
@@ -20715,16 +20715,16 @@ static _Bool mcast_connect(signed int s, const char *interface, struct sockaddr_
         if(!(sin6->sin6_scope_id == 0u))
           greq.gr_interface = sin6->sin6_scope_id;
 
-        return_value_setsockopt$3=setsockopt(s, 41, 42, (const void *)&greq, (unsigned int)sizeof(struct group_req) /*136ul*/ );
-        if(return_value_setsockopt$3 == 0)
+        return_value_setsockopt_3=setsockopt(s, 41, 42, (const void *)&greq, (unsigned int)sizeof(struct group_req) /*136ul*/ );
+        if(return_value_setsockopt_3 == 0)
           return (_Bool)1;
 
         break;
       }
       case 2:
       {
-        return_value_setsockopt$4=setsockopt(s, 0, 42, (const void *)&greq, (unsigned int)sizeof(struct group_req) /*136ul*/ );
-        if(return_value_setsockopt$4 == 0)
+        return_value_setsockopt_4=setsockopt(s, 0, 42, (const void *)&greq, (unsigned int)sizeof(struct group_req) /*136ul*/ );
+        if(return_value_setsockopt_4 == 0)
           return (_Bool)1;
 
         break;
@@ -20741,15 +20741,15 @@ static _Bool mcast_connect(signed int s, const char *interface, struct sockaddr_
 signed long int mdate(void)
 {
   struct timeval tv;
-  signed int return_value_gettimeofday$3;
-  return_value_gettimeofday$3=gettimeofday(&tv, (struct timezone *)(void *)0);
-  if(!(return_value_gettimeofday$3 >= 0))
+  signed int return_value_gettimeofday_3;
+  return_value_gettimeofday_3=gettimeofday(&tv, (struct timezone *)(void *)0);
+  if(!(return_value_gettimeofday_3 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "gettimeofday() error: %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "gettimeofday() error: %s\n", return_value_strerror_2);
     abort();
   }
 
@@ -20773,9 +20773,9 @@ static void params_free(struct params_s *param)
 static struct params_s * params_init(void)
 {
   struct params_s *param;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct params_s) /*112ul*/ );
-  param = (struct params_s *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct params_s) /*112ul*/ );
+  param = (struct params_s *)return_value_calloc_1;
   if(param == ((struct params_s *)NULL))
     exit(1);
 
@@ -20819,19 +20819,19 @@ static void summary(struct _IO_FILE *fd, struct ts_stream_t *stream)
 
     }
 
-  signed int summary$$1$$2$$i_pid = 0;
-  for( ; !(summary$$1$$2$$i_pid >= 8192); summary$$1$$2$$i_pid = summary$$1$$2$$i_pid + 1)
-    if(!(stream->pid[(signed long int)summary$$1$$2$$i_pid].b_seen == (_Bool)0))
+  signed int summary__1__2__i_pid = 0;
+  for( ; !(summary__1__2__i_pid >= 8192); summary__1__2__i_pid = summary__1__2__i_pid + 1)
+    if(!(stream->pid[(signed long int)summary__1__2__i_pid].b_seen == (_Bool)0))
     {
-      fprintf(fd, "Found PID: %4d (0x%4x), DRM: %s,", summary$$1$$2$$i_pid, summary$$1$$2$$i_pid, (signed int)stream->pid[(signed long int)summary$$1$$2$$i_pid].i_transport_scrambling_control != 0x00 ? "yes" : " no");
+      fprintf(fd, "Found PID: %4d (0x%4x), DRM: %s,", summary__1__2__i_pid, summary__1__2__i_pid, (signed int)stream->pid[(signed long int)summary__1__2__i_pid].i_transport_scrambling_control != 0x00 ? "yes" : " no");
       double bitrate = (double)0;
       if(end + -start >= 1l)
-        bitrate = (double)(stream->pid[(signed long int)summary$$1$$2$$i_pid].i_packets * (unsigned long int)188 * (unsigned long int)8) / ((double)(end - start) / 1000.0);
+        bitrate = (double)(stream->pid[(signed long int)summary__1__2__i_pid].i_packets * (unsigned long int)188 * (unsigned long int)8) / ((double)(end - start) / 1000.0);
 
       fprintf(fd, " bitrate %0.4f kbit/s,", bitrate);
-      fprintf(fd, " seen %ld packets", stream->pid[(signed long int)summary$$1$$2$$i_pid].i_packets);
+      fprintf(fd, " seen %ld packets", stream->pid[(signed long int)summary__1__2__i_pid].i_packets);
       fprintf(fd, "\n");
-      i_packets = i_packets + stream->pid[(signed long int)summary$$1$$2$$i_pid].i_packets;
+      i_packets = i_packets + stream->pid[(signed long int)summary__1__2__i_pid].i_packets;
       if(i_first_pcr == 0l)
         i_first_pcr = start;
 
@@ -20931,9 +20931,9 @@ signed int tcp_open(const char *ipaddress, signed int port)
 
     else
     {
-      signed int return_value_asprintf$1;
-      return_value_asprintf$1=asprintf(&psz_service, "%d", port);
-      if(!(return_value_asprintf$1 >= 0))
+      signed int return_value_asprintf_1;
+      return_value_asprintf_1=asprintf(&psz_service, "%d", port);
+      if(!(return_value_asprintf_1 >= 0))
         return -1;
 
       else
@@ -20946,9 +20946,9 @@ signed int tcp_open(const char *ipaddress, signed int port)
         result=getaddrinfo(ipaddress, psz_service, &hints, &addr);
         if(!(result >= 0))
         {
-          const char *return_value_gai_strerror$2;
-          return_value_gai_strerror$2=gai_strerror(result);
-          fprintf(stderr, "tcp address error: %s\n", return_value_gai_strerror$2);
+          const char *return_value_gai_strerror_2;
+          return_value_gai_strerror_2=gai_strerror(result);
+          fprintf(stderr, "tcp address error: %s\n", return_value_gai_strerror_2);
           free((void *)psz_service);
           return -1;
         }
@@ -20964,10 +20964,10 @@ signed int tcp_open(const char *ipaddress, signed int port)
 
           else
           {
-            signed int literal$3 = 1;
-            signed int return_value_setsockopt$4;
-            return_value_setsockopt$4=setsockopt(s_ctl, 1, 2, (const void *)&literal$3, (unsigned int)sizeof(signed int) /*4ul*/ );
-            if(!(return_value_setsockopt$4 >= 0))
+            signed int literal_3 = 1;
+            signed int return_value_setsockopt_4;
+            return_value_setsockopt_4=setsockopt(s_ctl, 1, 2, (const void *)&literal_3, (unsigned int)sizeof(signed int) /*4ul*/ );
+            if(!(return_value_setsockopt_4 >= 0))
               perror("tcp setsockopt error");
 
             result=connect(s_ctl, ptr->ai_addr, ptr->ai_addrlen);
@@ -20995,7 +20995,7 @@ signed int tcp_open(const char *ipaddress, signed int port)
 signed long int tcp_read(signed int fd, void *buf, unsigned long int count)
 {
   signed long int err;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
 
@@ -21005,13 +21005,13 @@ signed long int tcp_read(signed int fd, void *buf, unsigned long int count)
     if(err >= 0l)
       goto __CPROVER_DUMP_L7;
 
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 4) && !(*return_value___errno_location$1 == 11))
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 4) && !(*return_value___errno_location_1 == 11))
     {
-      if(*return_value___errno_location$1 == 111)
+      if(*return_value___errno_location_1 == 111)
         break;
 
-      if(*return_value___errno_location$1 == 107)
+      if(*return_value___errno_location_1 == 107)
         goto __CPROVER_DUMP_L4;
 
       goto __CPROVER_DUMP_L5;
@@ -21029,11 +21029,11 @@ __CPROVER_DUMP_L4:
 
 __CPROVER_DUMP_L5:
   ;
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  char *return_value_strerror$3;
-  return_value_strerror$3=strerror(*return_value___errno_location$2);
-  fprintf(stderr, "recv error: %s\n", return_value_strerror$3);
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  char *return_value_strerror_3;
+  return_value_strerror_3=strerror(*return_value___errno_location_2);
+  fprintf(stderr, "recv error: %s\n", return_value_strerror_3);
   return (signed long int)-1;
 
 __CPROVER_DUMP_L6:
@@ -21178,7 +21178,7 @@ signed int udp_open(const char *interface, const char *ipaddress, signed int por
 {
   signed int s_ctl = -1;
   signed int result = -1;
-  _Bool return_value_mcast_connect$10;
+  _Bool return_value_mcast_connect_10;
   if(ipaddress == ((const char *)NULL))
     return -1;
 
@@ -21195,26 +21195,26 @@ signed int udp_open(const char *interface, const char *ipaddress, signed int por
 
     else
     {
-      signed int return_value_asprintf$1;
-      return_value_asprintf$1=asprintf(&psz_service, "%d", port);
-      if(!(return_value_asprintf$1 >= 0))
+      signed int return_value_asprintf_1;
+      return_value_asprintf_1=asprintf(&psz_service, "%d", port);
+      if(!(return_value_asprintf_1 >= 0))
         return -1;
 
       else
       {
         memset((void *)&hints, 0, sizeof(struct addrinfo) /*48ul*/ );
-        _Bool return_value_is_ipv6$2;
-        return_value_is_ipv6$2=is_ipv6(ipaddress);
-        hints.ai_family = return_value_is_ipv6$2 != (_Bool)0 ? 10 : 2;
+        _Bool return_value_is_ipv6_2;
+        return_value_is_ipv6_2=is_ipv6(ipaddress);
+        hints.ai_family = return_value_is_ipv6_2 != (_Bool)0 ? 10 : 2;
         hints.ai_socktype = 2;
         hints.ai_protocol = 17;
         hints.ai_flags = 0x0002 | 0;
         result=getaddrinfo(ipaddress, psz_service, &hints, &addr);
         if(!(result >= 0))
         {
-          const char *return_value_gai_strerror$3;
-          return_value_gai_strerror$3=gai_strerror(result);
-          fprintf(stderr, "udp address error: %s\n", return_value_gai_strerror$3);
+          const char *return_value_gai_strerror_3;
+          return_value_gai_strerror_3=gai_strerror(result);
+          fprintf(stderr, "udp address error: %s\n", return_value_gai_strerror_3);
           free((void *)psz_service);
           return -1;
         }
@@ -21230,22 +21230,22 @@ signed int udp_open(const char *interface, const char *ipaddress, signed int por
 
           else
           {
-            signed int literal$4 = 0x80000;
-            signed int return_value_setsockopt$5;
-            return_value_setsockopt$5=setsockopt(s_ctl, 1, 8, (void *)&literal$4, (unsigned int)sizeof(signed int) /*4ul*/ );
-            if(!(return_value_setsockopt$5 >= 0))
+            signed int literal_4 = 0x80000;
+            signed int return_value_setsockopt_5;
+            return_value_setsockopt_5=setsockopt(s_ctl, 1, 8, (void *)&literal_4, (unsigned int)sizeof(signed int) /*4ul*/ );
+            if(!(return_value_setsockopt_5 >= 0))
               perror("udp setsockopt error");
 
-            signed int literal$6 = 0x80000;
-            signed int return_value_setsockopt$7;
-            return_value_setsockopt$7=setsockopt(s_ctl, 1, 7, (void *)&literal$6, (unsigned int)sizeof(signed int) /*4ul*/ );
-            if(!(return_value_setsockopt$7 >= 0))
+            signed int literal_6 = 0x80000;
+            signed int return_value_setsockopt_7;
+            return_value_setsockopt_7=setsockopt(s_ctl, 1, 7, (void *)&literal_6, (unsigned int)sizeof(signed int) /*4ul*/ );
+            if(!(return_value_setsockopt_7 >= 0))
               perror("udp setsockopt error");
 
-            signed int literal$8 = 1;
-            signed int return_value_setsockopt$9;
-            return_value_setsockopt$9=setsockopt(s_ctl, 1, 2, (const void *)&literal$8, (unsigned int)sizeof(signed int) /*4ul*/ );
-            if(!(return_value_setsockopt$9 >= 0))
+            signed int literal_8 = 1;
+            signed int return_value_setsockopt_9;
+            return_value_setsockopt_9=setsockopt(s_ctl, 1, 2, (const void *)&literal_8, (unsigned int)sizeof(signed int) /*4ul*/ );
+            if(!(return_value_setsockopt_9 >= 0))
               perror("udp setsockopt error");
 
             result=bind(s_ctl, ptr->ai_addr, ptr->ai_addrlen);
@@ -21259,12 +21259,12 @@ signed int udp_open(const char *interface, const char *ipaddress, signed int por
             else
             {
               struct sockaddr_storage *saddr = (struct sockaddr_storage *)&ptr->ai_addr;
-              _Bool return_value_is_multicast$11;
-              return_value_is_multicast$11=is_multicast(saddr, ptr->ai_addrlen);
-              if(!(return_value_is_multicast$11 == (_Bool)0))
+              _Bool return_value_is_multicast_11;
+              return_value_is_multicast_11=is_multicast(saddr, ptr->ai_addrlen);
+              if(!(return_value_is_multicast_11 == (_Bool)0))
               {
-                return_value_mcast_connect$10=mcast_connect(s_ctl, (const char *)(void *)0, saddr, ptr->ai_addrlen);
-                if(return_value_mcast_connect$10 == (_Bool)0)
+                return_value_mcast_connect_10=mcast_connect(s_ctl, (const char *)(void *)0, saddr, ptr->ai_addrlen);
+                if(return_value_mcast_connect_10 == (_Bool)0)
                   goto __CPROVER_DUMP_L11;
 
                 close(s_ctl);
@@ -21295,7 +21295,7 @@ signed int udp_open(const char *interface, const char *ipaddress, signed int por
 signed long int udp_read(signed int fd, void *buf, unsigned long int count)
 {
   signed long int err;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
 
@@ -21305,13 +21305,13 @@ signed long int udp_read(signed int fd, void *buf, unsigned long int count)
     if(err >= 0l)
       goto __CPROVER_DUMP_L7;
 
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 4) && !(*return_value___errno_location$1 == 11))
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 4) && !(*return_value___errno_location_1 == 11))
     {
-      if(*return_value___errno_location$1 == 111)
+      if(*return_value___errno_location_1 == 111)
         break;
 
-      if(*return_value___errno_location$1 == 107)
+      if(*return_value___errno_location_1 == 107)
         goto __CPROVER_DUMP_L4;
 
       goto __CPROVER_DUMP_L5;
@@ -21329,11 +21329,11 @@ __CPROVER_DUMP_L4:
 
 __CPROVER_DUMP_L5:
   ;
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  char *return_value_strerror$3;
-  return_value_strerror$3=strerror(*return_value___errno_location$2);
-  fprintf(stderr, "recv error: %s\n", return_value_strerror$3);
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  char *return_value_strerror_3;
+  return_value_strerror_3=strerror(*return_value___errno_location_2);
+  fprintf(stderr, "recv error: %s\n", return_value_strerror_3);
   return (signed long int)-1;
 
 __CPROVER_DUMP_L6:

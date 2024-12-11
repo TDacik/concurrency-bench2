@@ -1,36 +1,36 @@
-// tag-#anon#ST[ARR16{U64}$U64$'__bits'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__bits'|]
 // file /usr/include/x86_64-linux-gnu/bits/sched.h line 125
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[ARR2{S32}$S32$'__val'|]
+// tag-#anon#ST[ARR2{S32}_S32_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/types.h line 134
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
 union anonymous;
 
@@ -252,10 +252,10 @@ static signed int __net_recv_data(signed int fd, void *buf, unsigned int len);
 static void __process_trace_bufs(void);
 // __sched_cpualloc
 // file /usr/include/x86_64-linux-gnu/bits/sched.h line 205
-extern struct anonymous$6 * __sched_cpualloc(unsigned long int);
+extern struct anonymous_6 * __sched_cpualloc(unsigned long int);
 // __sched_cpufree
 // file /usr/include/x86_64-linux-gnu/bits/sched.h line 206
-extern void __sched_cpufree(struct anonymous$6 *);
+extern void __sched_cpufree(struct anonymous_6 *);
 // __stop_trace
 // file blktrace.c line 783
 static signed int __stop_trace(signed int fd);
@@ -421,9 +421,9 @@ static signed int handle_args(signed int argc, char **argv);
 // handle_client_data
 // file blktrace.c line 2504
 static void handle_client_data(struct net_server_s *ns, signed int events);
-// handle_list$object
+// handle_list_object
 //
-signed int handle_list$object(struct tracer_devpath_head *, struct list_head *);
+signed int handle_list_object(struct tracer_devpath_head *, struct list_head *);
 // handle_list_file
 // file blktrace.c line 1353
 static signed int handle_list_file(struct tracer_devpath_head *hd, struct list_head *list);
@@ -436,9 +436,9 @@ static signed int handle_mem_failure(unsigned long int length);
 // handle_open_failure
 // file blktrace.c line 658
 static signed int handle_open_failure(void);
-// handle_pfds$object
+// handle_pfds_object
 //
-signed int handle_pfds$object(struct tracer *, signed int, signed int);
+signed int handle_pfds_object(struct tracer *, signed int, signed int);
 // handle_pfds_entries
 // file blktrace.c line 1770
 static signed int handle_pfds_entries(struct tracer *tp, signed int nevs, signed int force_read);
@@ -657,16 +657,16 @@ extern signed int printf(const char *, ...);
 static void process_trace_bufs(void);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$3 *);
+extern signed int pthread_cond_broadcast(union anonymous_3 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$3 *);
+extern signed int pthread_cond_signal(union anonymous_3 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$3 *, union anonymous$0 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_3 *, union anonymous_0 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$3 *, union anonymous$0 *);
+extern signed int pthread_cond_wait(union anonymous_3 *, union anonymous_0 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -675,16 +675,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$0 *);
+extern signed int pthread_mutex_destroy(union anonymous_0 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$0 *, const union anonymous$1 *);
+extern signed int pthread_mutex_init(union anonymous_0 *, const union anonymous_1 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$0 *);
+extern signed int pthread_mutex_lock(union anonymous_0 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$0 *);
+extern signed int pthread_mutex_unlock(union anonymous_0 *);
 // read
 // file /usr/include/unistd.h line 360
 extern signed long int read(signed int, void *, unsigned long int);
@@ -705,7 +705,7 @@ static void rel_devpaths(void);
 static signed int run_tracers(void);
 // sched_setaffinity
 // file /usr/include/sched.h line 118
-extern signed int sched_setaffinity(signed int, unsigned long int, const struct anonymous$6 *);
+extern signed int sched_setaffinity(signed int, unsigned long int, const struct anonymous_6 *);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
@@ -804,7 +804,7 @@ extern unsigned long int strtoul(const char *, char ** restrict , signed int);
 extern signed long int sysconf(signed int);
 // t_pthread_cond_wait
 // file blktrace.c line 537
-static void t_pthread_cond_wait(union anonymous$3 *cond, union anonymous$0 *mutex);
+static void t_pthread_cond_wait(union anonymous_3 *cond, union anonymous_0 *mutex);
 // tb_combine
 // file blktrace.c line 1328
 static struct trace_buf * tb_combine(struct trace_buf *prev, struct trace_buf *tbp);
@@ -848,19 +848,19 @@ static void wait_tracers_ready(signed int ncpus_started);
 // file blktrace.c line 792
 static signed int write_data(char *buf, signed int len);
 
-struct anonymous$6
+struct anonymous_6
 {
   // __bits
   unsigned long int __bits[16l];
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // __val
   signed int __val[2l];
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __lock
   signed int __lock;
@@ -880,7 +880,7 @@ struct anonymous$2
   unsigned int __broadcast_seq;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -890,7 +890,7 @@ union anonymous$5
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __size
   char __size[4l];
@@ -898,10 +898,10 @@ union anonymous$1
   signed int __align;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
-  struct anonymous$2 __data;
+  struct anonymous_2 __data;
   // __size
   char __size[48l];
   // __align
@@ -936,7 +936,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -946,7 +946,7 @@ union anonymous$0
   signed long int __align;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1241,7 +1241,7 @@ struct hostent
 struct in6_addr
 {
   // __in6_u
-  union anonymous$5 __in6_u;
+  union anonymous_5 __in6_u;
 };
 
 struct mmap_info
@@ -1457,7 +1457,7 @@ struct statfs
   // f_ffree
   unsigned long int f_ffree;
   // f_fsid
-  struct anonymous$4 f_fsid;
+  struct anonymous_4 f_fsid;
   // f_namelen
   signed long int f_namelen;
   // f_frsize
@@ -1547,7 +1547,7 @@ struct tracer
 struct tracer_devpath_head
 {
   // mutex
-  union anonymous$0 mutex;
+  union anonymous_0 mutex;
   // head
   struct list_head head;
   // prev
@@ -1587,7 +1587,7 @@ static struct list_head devpaths = { .next=&devpaths, .prev=&devpaths };
 static volatile signed int done;
 // dp_cond
 // file blktrace.c line 302
-static union anonymous$3 dp_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_3 dp_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -1596,7 +1596,7 @@ static union anonymous$3 dp_cond = { .__data={ .__lock=0, .__futex=(unsigned int
 static volatile signed int dp_entries;
 // dp_mutex
 // file blktrace.c line 303
-static union anonymous$0 dp_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 dp_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // handle_list
@@ -1655,13 +1655,13 @@ static struct mask_map mask_maps[16l] = { { .mask=1, .short_form="READ", .long_f
     { .mask=32768, .short_form="FUA", .long_form="BLK_TC_FUA" } };
 // mt_cond
 // file blktrace.c line 309
-static union anonymous$3 mt_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_3 mt_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // mt_mutex
 // file blktrace.c line 310
-static union anonymous$0 mt_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 mt_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // ncpus
@@ -1743,9 +1743,9 @@ static inline void INIT_LIST_HEAD(struct list_head *list)
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx)
 {
-  signed long int return_value___builtin_bswap32$1;
-  return_value___builtin_bswap32$1=__builtin_bswap32((signed long int)__bsx);
-  return (unsigned int)return_value___builtin_bswap32$1;
+  signed long int return_value___builtin_bswap32_1;
+  return_value___builtin_bswap32_1=__builtin_bswap32((signed long int)__bsx);
+  return (unsigned int)return_value___builtin_bswap32_1;
 }
 
 // __list_add
@@ -1774,18 +1774,18 @@ static signed int __net_recv_data(signed int fd, void *buf, unsigned int len)
   while(done == 0 && !(bytes_left == 0u))
   {
     signed int ret;
-    signed long int return_value_recv$1;
-    return_value_recv$1=recv(fd, buf, (unsigned long int)bytes_left, 256);
-    ret = (signed int)return_value_recv$1;
+    signed long int return_value_recv_1;
+    return_value_recv_1=recv(fd, buf, (unsigned long int)bytes_left, 256);
+    ret = (signed int)return_value_recv_1;
     if(ret == 0)
       break;
 
     else
       if(!(ret >= 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        if(*return_value___errno_location$2 == 11)
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        if(*return_value___errno_location_2 == 11)
         {
           usleep((unsigned int)50);
           continue;
@@ -1813,21 +1813,21 @@ static void __process_trace_bufs(void)
   struct list_head list;
   signed int handled = 0;
   p = (&devpaths)->next;
-  struct devpath *tmp_statement_expression$1;
+  struct devpath *tmp_statement_expression_1;
   for( ; !(p == &devpaths); p = p->next)
   {
     struct devpath *dpp;
     const struct list_head *__mptr = p;
-    tmp_statement_expression$1 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
-    dpp = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
+    dpp = tmp_statement_expression_1;
     struct tracer_devpath_head *hd = dpp->heads;
     cpu = 0;
     for( ; !(cpu >= ncpus); hd = hd + 1l)
     {
       pthread_mutex_lock(&hd->mutex);
-      signed int return_value_list_empty$2;
-      return_value_list_empty$2=list_empty(&hd->head);
-      if(!(return_value_list_empty$2 == 0))
+      signed int return_value_list_empty_2;
+      return_value_list_empty_2=list_empty(&hd->head);
+      if(!(return_value_list_empty_2 == 0))
         pthread_mutex_unlock(&hd->mutex);
 
       else
@@ -1851,9 +1851,9 @@ static void __process_trace_bufs(void)
 static signed int __stop_trace(signed int fd)
 {
   ioctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(0x12 << 0 + 8) | (unsigned int)(117 << 0) | (unsigned int)(0 << 0 + 8 + 8)));
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(0x12 << 0 + 8) | (unsigned int)(118 << 0) | (unsigned int)(0 << 0 + 8 + 8)));
-  return return_value_ioctl$1;
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(0x12 << 0 + 8) | (unsigned int)(118 << 0) | (unsigned int)(0 << 0 + 8 + 8)));
+  return return_value_ioctl_1;
 }
 
 // ack_open_close
@@ -1870,35 +1870,35 @@ static signed int add_devpath(char *path)
   signed int fd;
   struct devpath *dpp;
   struct list_head *p = (&devpaths)->next;
-  struct devpath *tmp_statement_expression$1;
+  struct devpath *tmp_statement_expression_1;
   for( ; !(p == &devpaths); p = p->next)
   {
     struct devpath *tmp;
     const struct list_head *__mptr = p;
-    tmp_statement_expression$1 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
-    tmp = tmp_statement_expression$1;
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(tmp->path, path);
-    if(return_value_strcmp$2 == 0)
+    tmp_statement_expression_1 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
+    tmp = tmp_statement_expression_1;
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(tmp->path, path);
+    if(return_value_strcmp_2 == 0)
       return 0;
 
   }
   fd=my_open(path, 00 | 04000);
   if(!(fd >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    fprintf(stderr, "Invalid path %s specified: %d/%s\n", path, *return_value___errno_location$3, return_value_strerror$5);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    fprintf(stderr, "Invalid path %s specified: %d/%s\n", path, *return_value___errno_location_3, return_value_strerror_5);
     return 1;
   }
 
-  void *return_value_malloc$6;
-  return_value_malloc$6=malloc(sizeof(struct devpath) /*96ul*/ );
-  dpp = (struct devpath *)return_value_malloc$6;
+  void *return_value_malloc_6;
+  return_value_malloc_6=malloc(sizeof(struct devpath) /*96ul*/ );
+  dpp = (struct devpath *)return_value_malloc_6;
   memset((void *)dpp, 0, sizeof(struct devpath) /*96ul*/ );
   dpp->path=strdup(path);
   dpp->fd = fd;
@@ -1925,9 +1925,9 @@ static inline void add_trace_buf(struct devpath *dpp, signed int cpu, struct tra
 static inline struct trace_buf * alloc_trace_buf(signed int cpu, signed int bufsize)
 {
   struct trace_buf *tbp;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct trace_buf) /*40ul*/  + (unsigned long int)bufsize);
-  tbp = (struct trace_buf *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct trace_buf) /*40ul*/  + (unsigned long int)bufsize);
+  tbp = (struct trace_buf *)return_value_malloc_1;
   INIT_LIST_HEAD(&tbp->head);
   tbp->len = 0;
   tbp->buf = (void *)(tbp + (signed long int)1);
@@ -1941,9 +1941,9 @@ static inline struct trace_buf * alloc_trace_buf(signed int cpu, signed int bufs
 static void ch_add_connection(struct net_server_s *ns, struct cl_host *ch, signed int fd)
 {
   struct cl_conn *nc;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct cl_conn) /*56ul*/ );
-  nc = (struct cl_conn *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct cl_conn) /*56ul*/ );
+  nc = (struct cl_conn *)return_value_malloc_1;
   memset((void *)nc, 0, sizeof(struct cl_conn) /*56ul*/ );
   time(&nc->connect_time);
   nc->ch = ch;
@@ -1953,9 +1953,9 @@ static void ch_add_connection(struct net_server_s *ns, struct cl_host *ch, signe
   ch->connects = ch->connects + 1;
   list_add_tail(&nc->ns_head, &ns->conn_list);
   ns->connects = ns->connects + 1;
-  void *return_value_realloc$2;
-  return_value_realloc$2=realloc((void *)ns->pfds, (unsigned long int)(ns->connects + 1) * sizeof(struct pollfd) /*8ul*/ );
-  ns->pfds = (struct pollfd *)return_value_realloc$2;
+  void *return_value_realloc_2;
+  return_value_realloc_2=realloc((void *)ns->pfds, (unsigned long int)(ns->connects + 1) * sizeof(struct pollfd) /*8ul*/ );
+  ns->pfds = (struct pollfd *)return_value_realloc_2;
 }
 
 // ch_rem_connection
@@ -1967,9 +1967,9 @@ static void ch_rem_connection(struct net_server_s *ns, struct cl_host *ch, struc
   ch->connects = ch->connects - 1;
   list_del(&nc->ns_head);
   ns->connects = ns->connects - 1;
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)ns->pfds, (unsigned long int)(ns->connects + 1) * sizeof(struct pollfd) /*8ul*/ );
-  ns->pfds = (struct pollfd *)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)ns->pfds, (unsigned long int)(ns->connects + 1) * sizeof(struct pollfd) /*8ul*/ );
+  ns->pfds = (struct pollfd *)return_value_realloc_1;
   free((void *)nc);
 }
 
@@ -2048,19 +2048,19 @@ static void close_iop(struct io_info *iop)
 
   if(piped_output == 0)
   {
-    signed int return_value_fileno$4;
-    return_value_fileno$4=fileno(iop->ofp);
-    signed int return_value_ftruncate$5;
-    return_value_ftruncate$5=ftruncate(return_value_fileno$4, (signed long int)mip->fs_size);
-    if(!(return_value_ftruncate$5 >= 0))
+    signed int return_value_fileno_4;
+    return_value_fileno_4=fileno(iop->ofp);
+    signed int return_value_ftruncate_5;
+    return_value_ftruncate_5=ftruncate(return_value_fileno_4, (signed long int)mip->fs_size);
+    if(!(return_value_ftruncate_5 >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      fprintf(stderr, "Ignoring err: ftruncate(%s): %d/%s\n", (const void *)iop->ofn, *return_value___errno_location$1, return_value_strerror$3);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      fprintf(stderr, "Ignoring err: ftruncate(%s): %d/%s\n", (const void *)iop->ofn, *return_value___errno_location_1, return_value_strerror_3);
     }
 
   }
@@ -2082,9 +2082,9 @@ static void close_ios(struct tracer *tp)
     struct io_info *iop;
     tp->nios = tp->nios - 1;
     iop = &tp->ios[(signed long int)tp->nios];
-    signed int return_value_get_drops$1;
-    return_value_get_drops$1=get_drops(iop->dpp);
-    iop->dpp->drops = (unsigned long long int)return_value_get_drops$1;
+    signed int return_value_get_drops_1;
+    return_value_get_drops_1=get_drops(iop->dpp);
+    iop->dpp->drops = (unsigned long long int)return_value_get_drops_1;
     if(iop->ifd >= 0)
       close(iop->ifd);
 
@@ -2121,13 +2121,13 @@ static void del_tracers(void)
   struct list_head *q;
   p = (&tracers)->next;
   q = p->next;
-  struct tracer *tmp_statement_expression$1;
+  struct tracer *tmp_statement_expression_1;
   for( ; !(p == &tracers); q = p->next)
   {
     struct tracer *tp;
     const struct list_head *__mptr = p;
-    tmp_statement_expression$1 = (struct tracer *)((char *)__mptr - (signed long int)(unsigned long int)&((struct tracer *)0)->head);
-    tp = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct tracer *)((char *)__mptr - (signed long int)(unsigned long int)&((struct tracer *)0)->head);
+    tp = tmp_statement_expression_1;
     list_del(&tp->head);
     free((void *)tp);
     p = q;
@@ -2199,49 +2199,49 @@ static signed int fill_ofname(struct io_info *iop, signed int cpu)
   if(net_mode == 1)
   {
     struct cl_conn *nc = iop->nc;
-    signed int return_value_sprintf$1;
-    return_value_sprintf$1=sprintf(dst + (signed long int)len, "%s-", nc->ch->hostname);
-    len = len + return_value_sprintf$1;
-    struct tm *return_value_gmtime$2;
-    return_value_gmtime$2=gmtime(&iop->dpp->cl_connect_time);
-    unsigned long int return_value_strftime$3;
-    return_value_strftime$3=strftime(dst + (signed long int)len, (unsigned long int)64, "%F-%T/", return_value_gmtime$2);
-    len = len + (signed int)return_value_strftime$3;
+    signed int return_value_sprintf_1;
+    return_value_sprintf_1=sprintf(dst + (signed long int)len, "%s-", nc->ch->hostname);
+    len = len + return_value_sprintf_1;
+    struct tm *return_value_gmtime_2;
+    return_value_gmtime_2=gmtime(&iop->dpp->cl_connect_time);
+    unsigned long int return_value_strftime_3;
+    return_value_strftime_3=strftime(dst + (signed long int)len, (unsigned long int)64, "%F-%T/", return_value_gmtime_2);
+    len = len + (signed int)return_value_strftime_3;
   }
 
-  signed int return_value_stat$13;
-  return_value_stat$13=stat(iop->ofn, &sb);
-  signed int *return_value___errno_location$11;
-  if(!(return_value_stat$13 >= 0))
+  signed int return_value_stat_13;
+  return_value_stat_13=stat(iop->ofn, &sb);
+  signed int *return_value___errno_location_11;
+  if(!(return_value_stat_13 >= 0))
   {
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    if(!(*return_value___errno_location$7 == 2))
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    if(!(*return_value___errno_location_7 == 2))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      char *return_value_strerror$6;
-      return_value_strerror$6=strerror(*return_value___errno_location$5);
-      fprintf(stderr, "Destination dir %s stat failed: %d/%s\n", (const void *)iop->ofn, *return_value___errno_location$4, return_value_strerror$6);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      char *return_value_strerror_6;
+      return_value_strerror_6=strerror(*return_value___errno_location_5);
+      fprintf(stderr, "Destination dir %s stat failed: %d/%s\n", (const void *)iop->ofn, *return_value___errno_location_4, return_value_strerror_6);
       return 1;
     }
 
-    signed int return_value_mkdir$12;
-    return_value_mkdir$12=mkdir(iop->ofn, (unsigned int)0755);
-    if(!(return_value_mkdir$12 >= 0))
+    signed int return_value_mkdir_12;
+    return_value_mkdir_12=mkdir(iop->ofn, (unsigned int)0755);
+    if(!(return_value_mkdir_12 >= 0))
     {
-      return_value___errno_location$11=__errno_location();
-      if(!(*return_value___errno_location$11 == 17))
+      return_value___errno_location_11=__errno_location();
+      if(!(*return_value___errno_location_11 == 17))
       {
-        signed int *return_value___errno_location$8;
-        return_value___errno_location$8=__errno_location();
-        signed int *return_value___errno_location$9;
-        return_value___errno_location$9=__errno_location();
-        char *return_value_strerror$10;
-        return_value_strerror$10=strerror(*return_value___errno_location$9);
-        fprintf(stderr, "Destination dir %s can't be made: %d/%s\n", (const void *)iop->ofn, *return_value___errno_location$8, return_value_strerror$10);
+        signed int *return_value___errno_location_8;
+        return_value___errno_location_8=__errno_location();
+        signed int *return_value___errno_location_9;
+        return_value___errno_location_9=__errno_location();
+        char *return_value_strerror_10;
+        return_value_strerror_10=strerror(*return_value___errno_location_9);
+        fprintf(stderr, "Destination dir %s can't be made: %d/%s\n", (const void *)iop->ofn, *return_value___errno_location_8, return_value_strerror_10);
         return 1;
       }
 
@@ -2262,21 +2262,21 @@ static signed int fill_ofname(struct io_info *iop, signed int cpu)
 extern signed int find_mask_map(char *string)
 {
   unsigned int i = (unsigned int)0;
-  signed int return_value_strcasecmp$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcasecmp$2;
+  signed int return_value_strcasecmp_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcasecmp_2;
   for( ; !((unsigned long int)i >= 16ul); i = i + 1u)
   {
-    return_value_strcasecmp$1=strcasecmp((&mask_maps[(signed long int)i])->short_form, string);
-    if(return_value_strcasecmp$1 == 0)
-      tmp_if_expr$3 = (_Bool)1;
+    return_value_strcasecmp_1=strcasecmp((&mask_maps[(signed long int)i])->short_form, string);
+    if(return_value_strcasecmp_1 == 0)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_strcasecmp$2=strcasecmp((&mask_maps[(signed long int)i])->long_form, string);
-      tmp_if_expr$3 = !(return_value_strcasecmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcasecmp_2=strcasecmp((&mask_maps[(signed long int)i])->long_form, string);
+      tmp_if_expr_3 = !(return_value_strcasecmp_2 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       return mask_maps[(signed long int)i].mask;
 
   }
@@ -2289,16 +2289,16 @@ static signed int flush_subbuf_net(struct trace_buf *tbp)
 {
   signed int fd = cl_fds[(signed long int)tbp->cpu];
   struct devpath *dpp = tbp->dpp;
-  signed int return_value_net_send_header$2;
-  return_value_net_send_header$2=net_send_header(fd, tbp->cpu, dpp->buts_name, tbp->len);
-  signed int return_value_net_send_data$1;
-  if(!(return_value_net_send_header$2 == 0))
+  signed int return_value_net_send_header_2;
+  return_value_net_send_header_2=net_send_header(fd, tbp->cpu, dpp->buts_name, tbp->len);
+  signed int return_value_net_send_data_1;
+  if(!(return_value_net_send_header_2 == 0))
     return 1;
 
   else
   {
-    return_value_net_send_data$1=net_send_data(fd, tbp->buf, (unsigned int)tbp->len);
-    if(!(return_value_net_send_data$1 == tbp->len))
+    return_value_net_send_data_1=net_send_data(fd, tbp->buf, (unsigned int)tbp->len);
+    if(!(return_value_net_send_data_1 == tbp->len))
       return 1;
 
   }
@@ -2329,16 +2329,16 @@ static void free_tracer_heads(struct devpath *dpp)
 static void get_all_drops(void)
 {
   struct list_head *p = (&devpaths)->next;
-  struct devpath *tmp_statement_expression$1;
+  struct devpath *tmp_statement_expression_1;
   for( ; !(p == &devpaths); p = p->next)
   {
     struct devpath *dpp;
     const struct list_head *__mptr = p;
-    tmp_statement_expression$1 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
-    dpp = tmp_statement_expression$1;
-    signed int return_value_get_drops$2;
-    return_value_get_drops$2=get_drops(dpp);
-    dpp->drops = (unsigned long long int)return_value_get_drops$2;
+    tmp_statement_expression_1 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
+    dpp = tmp_statement_expression_1;
+    signed int return_value_get_drops_2;
+    return_value_get_drops_2=get_drops(dpp);
+    dpp->drops = (unsigned long long int)return_value_get_drops_2;
   }
 }
 
@@ -2352,20 +2352,20 @@ static signed int get_drops(struct devpath *dpp)
   char tmp[256l];
   snprintf(fn, sizeof(char [4160l]) /*4160ul*/ , "%s/block/%s/dropped", debugfs_path, dpp->buts_name);
   fd=my_open(fn, 00);
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
-  signed long int return_value_read$8;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
+  signed long int return_value_read_8;
   if(!(fd >= 0))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    if(!(*return_value___errno_location$4 == 2))
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    if(!(*return_value___errno_location_4 == 2))
     {
-      return_value___errno_location$1=__errno_location();
-      return_value___errno_location$2=__errno_location();
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      fprintf(stderr, "Could not open %s: %d/%s\n", (const void *)fn, *return_value___errno_location$1, return_value_strerror$3);
+      return_value___errno_location_1=__errno_location();
+      return_value___errno_location_2=__errno_location();
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      fprintf(stderr, "Could not open %s: %d/%s\n", (const void *)fn, *return_value___errno_location_1, return_value_strerror_3);
     }
 
     return 0;
@@ -2373,16 +2373,16 @@ static signed int get_drops(struct devpath *dpp)
 
   else
   {
-    return_value_read$8=read(fd, (void *)tmp, sizeof(char [256l]) /*256ul*/ );
-    if(!(return_value_read$8 >= 0l))
+    return_value_read_8=read(fd, (void *)tmp, sizeof(char [256l]) /*256ul*/ );
+    if(!(return_value_read_8 >= 0l))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      char *return_value_strerror$7;
-      return_value_strerror$7=strerror(*return_value___errno_location$6);
-      fprintf(stderr, "Could not read %s: %d/%s\n", (const void *)fn, *return_value___errno_location$5, return_value_strerror$7);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      char *return_value_strerror_7;
+      return_value_strerror_7=strerror(*return_value___errno_location_6);
+      fprintf(stderr, "Could not read %s: %d/%s\n", (const void *)fn, *return_value___errno_location_5, return_value_strerror_7);
     }
 
     else
@@ -2400,13 +2400,13 @@ static signed int handle_args(signed int argc, char **argv)
   signed int i;
   struct statfs st;
   signed int act_mask_tmp = 0;
-  signed int return_value_sscanf$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_valid_act_opt$2;
-  signed int return_value_add_devpath$4;
+  signed int return_value_sscanf_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_valid_act_opt_2;
+  signed int return_value_add_devpath_4;
   char dev_line[256l];
   struct _IO_FILE *ifp;
-  signed int return_value_fscanf$5;
+  signed int return_value_fscanf_5;
   do
   {
     c=getopt_long(argc, argv, "d:a:A:r:o:kw:vVb:n:D:lh:p:sI:", l_opts, (signed int *)(void *)0);
@@ -2429,16 +2429,16 @@ static signed int handle_args(signed int argc, char **argv)
       }
       case 65:
       {
-        return_value_sscanf$1=sscanf(optarg, "%x", &i);
-        if(!(return_value_sscanf$1 == 1))
-          tmp_if_expr$3 = (_Bool)1;
+        return_value_sscanf_1=sscanf(optarg, "%x", &i);
+        if(!(return_value_sscanf_1 == 1))
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
-          return_value_valid_act_opt$2=valid_act_opt(i);
-          tmp_if_expr$3 = !(return_value_valid_act_opt$2 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_valid_act_opt_2=valid_act_opt(i);
+          tmp_if_expr_3 = !(return_value_valid_act_opt_2 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
+        if(tmp_if_expr_3)
         {
           fprintf(stderr, "Invalid set action mask %s/0x%x\n", optarg, i);
           return 1;
@@ -2449,8 +2449,8 @@ static signed int handle_args(signed int argc, char **argv)
       }
       case 100:
       {
-        return_value_add_devpath$4=add_devpath(optarg);
-        if(!(return_value_add_devpath$4 == 0))
+        return_value_add_devpath_4=add_devpath(optarg);
+        if(!(return_value_add_devpath_4 == 0))
           return 1;
 
         break;
@@ -2466,13 +2466,13 @@ static signed int handle_args(signed int argc, char **argv)
 
         do
         {
-          return_value_fscanf$5=fscanf(ifp, "%s\n", (const void *)dev_line);
-          if(!(return_value_fscanf$5 == 1))
+          return_value_fscanf_5=fscanf(ifp, "%s\n", (const void *)dev_line);
+          if(!(return_value_fscanf_5 == 1))
             break;
 
-          signed int return_value_add_devpath$6;
-          return_value_add_devpath$6=add_devpath(dev_line);
-          if(!(return_value_add_devpath$6 == 0))
+          signed int return_value_add_devpath_6;
+          return_value_add_devpath_6=add_devpath(dev_line);
+          if(!(return_value_add_devpath_6 == 0))
           {
             fclose(ifp);
             return 1;
@@ -2575,21 +2575,21 @@ static signed int handle_args(signed int argc, char **argv)
     }
   }
   while((_Bool)1);
-  signed int tmp_post$7;
-  signed int return_value_add_devpath$8;
+  signed int tmp_post_7;
+  signed int return_value_add_devpath_8;
   while(!(optind >= argc))
   {
-    tmp_post$7 = optind;
+    tmp_post_7 = optind;
     optind = optind + 1;
-    return_value_add_devpath$8=add_devpath(argv[(signed long int)tmp_post$7]);
-    if(!(return_value_add_devpath$8 == 0))
+    return_value_add_devpath_8=add_devpath(argv[(signed long int)tmp_post_7]);
+    if(!(return_value_add_devpath_8 == 0))
       return 1;
 
   }
-  signed int return_value_net_setup_addr$13;
-  signed int return_value_net_client_use_send$17;
-  _Bool tmp_if_expr$16;
-  signed int return_value_strcmp$15;
+  signed int return_value_net_setup_addr_13;
+  signed int return_value_net_client_use_send_17;
+  _Bool tmp_if_expr_16;
+  signed int return_value_strcmp_15;
   if(ndevs == 0 && !(net_mode == 1))
   {
     show_usage(argv[(signed long int)0]);
@@ -2598,17 +2598,17 @@ static signed int handle_args(signed int argc, char **argv)
 
   else
   {
-    signed int return_value_statfs$12;
-    return_value_statfs$12=statfs(debugfs_path, &st);
-    if(!(return_value_statfs$12 >= 0))
+    signed int return_value_statfs_12;
+    return_value_statfs_12=statfs(debugfs_path, &st);
+    if(!(return_value_statfs_12 >= 0))
     {
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      signed int *return_value___errno_location$10;
-      return_value___errno_location$10=__errno_location();
-      char *return_value_strerror$11;
-      return_value_strerror$11=strerror(*return_value___errno_location$10);
-      fprintf(stderr, "Invalid debug path %s: %d/%s\n", debugfs_path, *return_value___errno_location$9, return_value_strerror$11);
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      signed int *return_value___errno_location_10;
+      return_value___errno_location_10=__errno_location();
+      char *return_value_strerror_11;
+      return_value_strerror_11=strerror(*return_value___errno_location_10);
+      fprintf(stderr, "Invalid debug path %s: %d/%s\n", debugfs_path, *return_value___errno_location_9, return_value_strerror_11);
       return 1;
     }
 
@@ -2625,8 +2625,8 @@ static signed int handle_args(signed int argc, char **argv)
 
       if(net_mode == 2)
       {
-        return_value_net_setup_addr$13=net_setup_addr();
-        if(return_value_net_setup_addr$13 == 0)
+        return_value_net_setup_addr_13=net_setup_addr();
+        if(return_value_net_setup_addr_13 == 0)
           goto __CPROVER_DUMP_L38;
 
         return 1;
@@ -2637,35 +2637,35 @@ static signed int handle_args(signed int argc, char **argv)
 
       __CPROVER_DUMP_L38:
         ;
-        signed int return_value_net_client_use_sendfile$18;
-        return_value_net_client_use_sendfile$18=net_client_use_sendfile();
-        if(!(return_value_net_client_use_sendfile$18 == 0))
+        signed int return_value_net_client_use_sendfile_18;
+        return_value_net_client_use_sendfile_18=net_client_use_sendfile();
+        if(!(return_value_net_client_use_sendfile_18 == 0))
           handle_pfds = handle_pfds_netclient;
 
         else
         {
-          return_value_net_client_use_send$17=net_client_use_send();
-          if(!(return_value_net_client_use_send$17 == 0))
+          return_value_net_client_use_send_17=net_client_use_send();
+          if(!(return_value_net_client_use_send_17 == 0))
             handle_pfds = handle_pfds_entries;
 
           else
           {
             if(!(output_name == ((char *)NULL)))
             {
-              return_value_strcmp$15=strcmp(output_name, "-");
-              tmp_if_expr$16 = return_value_strcmp$15 == 0 ? (_Bool)1 : (_Bool)0;
+              return_value_strcmp_15=strcmp(output_name, "-");
+              tmp_if_expr_16 = return_value_strcmp_15 == 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$16 = (_Bool)0;
-            if(tmp_if_expr$16)
+              tmp_if_expr_16 = (_Bool)0;
+            if(tmp_if_expr_16)
             {
               piped_output = 1;
               handle_pfds = handle_pfds_entries;
               pfp = stdout;
-              signed int return_value_setvbuf$14;
-              return_value_setvbuf$14=setvbuf(pfp, (char *)(void *)0, 2, (unsigned long int)0);
-              if(!(return_value_setvbuf$14 == 0))
+              signed int return_value_setvbuf_14;
+              return_value_setvbuf_14=setvbuf(pfp, (char *)(void *)0, 2, (unsigned long int)0);
+              if(!(return_value_setvbuf_14 == 0))
               {
                 perror("setvbuf stdout");
                 return 1;
@@ -2694,26 +2694,26 @@ static void handle_client_data(struct net_server_s *ns, signed int events)
   pfd = &ns->pfds[(signed long int)1];
   p = (&ns->conn_list)->next;
   q = p->next;
-  struct cl_conn *tmp_statement_expression$1;
-  _Bool tmp_if_expr$3;
+  struct cl_conn *tmp_statement_expression_1;
+  _Bool tmp_if_expr_3;
   for( ; !(p == &ns->conn_list); q = p->next)
   {
     if(!((0x001 & (signed int)pfd->revents) == 0))
     {
       const struct list_head *__mptr = p;
-      tmp_statement_expression$1 = (struct cl_conn *)((char *)__mptr - (signed long int)(unsigned long int)&((struct cl_conn *)0)->ns_head);
-      nc = tmp_statement_expression$1;
-      signed int return_value_net_client_data$2;
-      return_value_net_client_data$2=net_client_data(nc);
-      if(!(return_value_net_client_data$2 == 0))
-        tmp_if_expr$3 = (_Bool)1;
+      tmp_statement_expression_1 = (struct cl_conn *)((char *)__mptr - (signed long int)(unsigned long int)&((struct cl_conn *)0)->ns_head);
+      nc = tmp_statement_expression_1;
+      signed int return_value_net_client_data_2;
+      return_value_net_client_data_2=net_client_data(nc);
+      if(!(return_value_net_client_data_2 == 0))
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
         events = events - 1;
-        tmp_if_expr$3 = events == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = events == 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
         break;
 
     }
@@ -2738,13 +2738,13 @@ static signed int handle_list_file(struct tracer_devpath_head *hd, struct list_h
   struct trace_buf *prev = hd->prev;
   p = list->next;
   q = p->next;
-  struct trace_buf *tmp_statement_expression$1;
-  _Bool tmp_if_expr$3;
+  struct trace_buf *tmp_statement_expression_1;
+  _Bool tmp_if_expr_3;
   for( ; !(p == list); q = p->next)
   {
     const struct list_head *__mptr = p;
-    tmp_statement_expression$1 = (struct trace_buf *)((char *)__mptr - (signed long int)(unsigned long int)&((struct trace_buf *)0)->head);
-    tbp = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct trace_buf *)((char *)__mptr - (signed long int)(unsigned long int)&((struct trace_buf *)0)->head);
+    tbp = tmp_statement_expression_1;
     list_del(&tbp->head);
     entries_handled = entries_handled + 1;
     if(!(prev == ((struct trace_buf *)NULL)))
@@ -2766,14 +2766,14 @@ static signed int handle_list_file(struct tracer_devpath_head *hd, struct list_h
 
     if(!(off == 0))
     {
-      signed int return_value_write_data$2;
-      return_value_write_data$2=write_data((char *)tbp->buf, off);
-      if(!(return_value_write_data$2 == 0))
-        tmp_if_expr$3 = (_Bool)1;
+      signed int return_value_write_data_2;
+      return_value_write_data_2=write_data((char *)tbp->buf, off);
+      if(!(return_value_write_data_2 == 0))
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = off == tbp->len ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = off == tbp->len ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
         free((void *)tbp);
         prev = (struct trace_buf *)(void *)0;
@@ -2805,19 +2805,19 @@ static signed int handle_list_net(struct tracer_devpath_head *hd, struct list_he
   signed int entries_handled = 0;
   p = list->next;
   q = p->next;
-  struct trace_buf *tmp_statement_expression$1;
+  struct trace_buf *tmp_statement_expression_1;
   for( ; !(p == list); q = p->next)
   {
     const struct list_head *__mptr = p;
-    tmp_statement_expression$1 = (struct trace_buf *)((char *)__mptr - (signed long int)(unsigned long int)&((struct trace_buf *)0)->head);
-    tbp = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct trace_buf *)((char *)__mptr - (signed long int)(unsigned long int)&((struct trace_buf *)0)->head);
+    tbp = tmp_statement_expression_1;
     list_del(&tbp->head);
     entries_handled = entries_handled + 1;
     if(cl_fds[(signed long int)tbp->cpu] >= 0)
     {
-      signed int return_value_flush_subbuf_net$2;
-      return_value_flush_subbuf_net$2=flush_subbuf_net(tbp);
-      if(!(return_value_flush_subbuf_net$2 == 0))
+      signed int return_value_flush_subbuf_net_2;
+      return_value_flush_subbuf_net_2=flush_subbuf_net(tbp);
+      if(!(return_value_flush_subbuf_net_2 == 0))
       {
         close(cl_fds[(signed long int)tbp->cpu]);
         cl_fds[(signed long int)tbp->cpu] = -1;
@@ -2835,24 +2835,24 @@ static signed int handle_list_net(struct tracer_devpath_head *hd, struct list_he
 // file blktrace.c line 665
 static signed int handle_mem_failure(unsigned long int length)
 {
-  signed int *return_value___errno_location$4;
-  return_value___errno_location$4=__errno_location();
-  signed int return_value_handle_open_failure$1;
-  signed int *return_value___errno_location$3;
-  signed int return_value_increase_limit$2;
-  if(*return_value___errno_location$4 == 23)
+  signed int *return_value___errno_location_4;
+  return_value___errno_location_4=__errno_location();
+  signed int return_value_handle_open_failure_1;
+  signed int *return_value___errno_location_3;
+  signed int return_value_increase_limit_2;
+  if(*return_value___errno_location_4 == 23)
   {
-    return_value_handle_open_failure$1=handle_open_failure();
-    return return_value_handle_open_failure$1;
+    return_value_handle_open_failure_1=handle_open_failure();
+    return return_value_handle_open_failure_1;
   }
 
   else
   {
-    return_value___errno_location$3=__errno_location();
-    if(*return_value___errno_location$3 == 12)
+    return_value___errno_location_3=__errno_location();
+    if(*return_value___errno_location_3 == 12)
     {
-      return_value_increase_limit$2=increase_limit(__RLIMIT_MEMLOCK, (unsigned long int)2 * length);
-      return return_value_increase_limit$2;
+      return_value_increase_limit_2=increase_limit(__RLIMIT_MEMLOCK, (unsigned long int)2 * length);
+      return return_value_increase_limit_2;
     }
 
   }
@@ -2863,23 +2863,23 @@ static signed int handle_mem_failure(unsigned long int length)
 // file blktrace.c line 658
 static signed int handle_open_failure(void)
 {
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
-  if(*return_value___errno_location$2 == 23)
-    tmp_if_expr$4 = (_Bool)1;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
+  if(*return_value___errno_location_2 == 23)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value___errno_location$3=__errno_location();
-    tmp_if_expr$4 = *return_value___errno_location$3 == 24 ? (_Bool)1 : (_Bool)0;
+    return_value___errno_location_3=__errno_location();
+    tmp_if_expr_4 = *return_value___errno_location_3 == 24 ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_increase_limit$1;
-  if(tmp_if_expr$4)
+  signed int return_value_increase_limit_1;
+  if(tmp_if_expr_4)
   {
-    return_value_increase_limit$1=increase_limit(RLIMIT_NOFILE, (unsigned long int)16);
-    return return_value_increase_limit$1;
+    return_value_increase_limit_1=increase_limit(RLIMIT_NOFILE, (unsigned long int)16);
+    return return_value_increase_limit_1;
   }
 
   else
@@ -2897,14 +2897,14 @@ static signed int handle_pfds_entries(struct tracer *tp, signed int nevs, signed
   struct io_info *iop = tp->ios;
   tbp=alloc_trace_buf(tp->cpu, (signed int)buf_size);
   i = 0;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   for( ; !(i >= ndevs); iop = iop + 1l)
   {
     if(!((0x001 & (signed int)pfd->revents) == 0) || !(force_read == 0))
     {
-      signed long int return_value_read$1;
-      return_value_read$1=read(iop->ifd, tbp->buf, buf_size);
-      tbp->len = (signed int)return_value_read$1;
+      signed long int return_value_read_1;
+      return_value_read_1=read(iop->ifd, tbp->buf, buf_size);
+      tbp->len = (signed int)return_value_read_1;
       if(tbp->len >= 1)
       {
         pdc_dr_update(iop->dpp, tp->cpu, tbp->len);
@@ -2923,14 +2923,14 @@ static signed int handle_pfds_entries(struct tracer *tp, signed int nevs, signed
         else
         {
           read_err(tp->cpu, iop->ifn);
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          if(!(*return_value___errno_location$2 == 11))
-            tmp_if_expr$3 = (_Bool)1;
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          if(!(*return_value___errno_location_2 == 11))
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = tp->is_done != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = tp->is_done != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_3)
             clear_events(pfd);
 
         }
@@ -2965,7 +2965,7 @@ static signed int handle_pfds_file(struct tracer *tp, signed int nevs, signed in
   struct pollfd *pfd = tp->pfds;
   struct io_info *iop = tp->ios;
   i = 0;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   for( ; nevs >= 1 && !(i >= ndevs); iop = iop + 1l)
   {
     if(!((0x001 & (signed int)pfd->revents) == 0) || !(force_read == 0))
@@ -2978,9 +2978,9 @@ static signed int handle_pfds_file(struct tracer *tp, signed int nevs, signed in
         break;
       }
 
-      signed long int return_value_read$1;
-      return_value_read$1=read(iop->ifd, mip->fs_buf + (signed long int)mip->fs_off, buf_size);
-      ret = (signed int)return_value_read$1;
+      signed long int return_value_read_1;
+      return_value_read_1=read(iop->ifd, mip->fs_buf + (signed long int)mip->fs_off, buf_size);
+      ret = (signed int)return_value_read_1;
       if(ret >= 1)
       {
         pdc_dr_update(iop->dpp, tp->cpu, ret);
@@ -3000,14 +3000,14 @@ static signed int handle_pfds_file(struct tracer *tp, signed int nevs, signed in
         else
         {
           read_err(tp->cpu, iop->ifn);
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          if(!(*return_value___errno_location$2 == 11))
-            tmp_if_expr$3 = (_Bool)1;
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          if(!(*return_value___errno_location_2 == 11))
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = tp->is_done != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = tp->is_done != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_3)
             clear_events(pfd);
 
         }
@@ -3034,9 +3034,9 @@ static signed int handle_pfds_netclient(struct tracer *tp, signed int nevs, sign
   {
     if(!((0x001 & (signed int)pfd->revents) == 0) || !(force_read == 0))
     {
-      signed int return_value_fstat$2;
-      return_value_fstat$2=fstat(iop->ifd, &sb);
-      if(!(return_value_fstat$2 >= 0))
+      signed int return_value_fstat_2;
+      return_value_fstat_2=fstat(iop->ifd, &sb);
+      if(!(return_value_fstat_2 >= 0))
       {
         perror(iop->ifn);
         pfd->events = (signed short int)0;
@@ -3047,9 +3047,9 @@ static signed int handle_pfds_netclient(struct tracer *tp, signed int nevs, sign
         {
           iop->ready = (unsigned int)((unsigned long int)sb.st_size - iop->data_queued);
           iop->data_queued = (unsigned long long int)sb.st_size;
-          signed int return_value_net_sendfile_data$1;
-          return_value_net_sendfile_data$1=net_sendfile_data(tp, iop);
-          if(return_value_net_sendfile_data$1 == 0)
+          signed int return_value_net_sendfile_data_1;
+          return_value_net_sendfile_data_1=net_sendfile_data(tp, iop);
+          if(return_value_net_sendfile_data_1 == 0)
           {
             pdc_dr_update(iop->dpp, tp->cpu, (signed int)iop->ready);
             nentries = nentries + 1;
@@ -3107,27 +3107,27 @@ static signed int increase_limit(signed int resource, unsigned long int increase
 {
   struct rlimit rlim;
   signed int save_errno;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  save_errno = *return_value___errno_location$1;
-  signed int return_value_getrlimit$3;
-  return_value_getrlimit$3=getrlimit((enum __rlimit_resource)resource, &rlim);
-  if(return_value_getrlimit$3 == 0)
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  save_errno = *return_value___errno_location_1;
+  signed int return_value_getrlimit_3;
+  return_value_getrlimit_3=getrlimit((enum __rlimit_resource)resource, &rlim);
+  if(return_value_getrlimit_3 == 0)
   {
     rlim.rlim_cur = rlim.rlim_cur + increase;
     if(rlim.rlim_cur >= rlim.rlim_max)
       rlim.rlim_max = rlim.rlim_cur + increase;
 
-    signed int return_value_setrlimit$2;
-    return_value_setrlimit$2=setrlimit((enum __rlimit_resource)resource, &rlim);
-    if(return_value_setrlimit$2 == 0)
+    signed int return_value_setrlimit_2;
+    return_value_setrlimit_2=setrlimit((enum __rlimit_resource)resource, &rlim);
+    if(return_value_setrlimit_2 == 0)
       return 1;
 
   }
 
-  signed int *return_value___errno_location$4;
-  return_value___errno_location$4=__errno_location();
-  *return_value___errno_location$4 = save_errno;
+  signed int *return_value___errno_location_4;
+  return_value___errno_location_4=__errno_location();
+  *return_value___errno_location_4 = save_errno;
   return 0;
 }
 
@@ -3145,9 +3145,9 @@ static void init_mmap_info(struct mmap_info *mip)
 static signed int iop_open(struct io_info *iop, signed int cpu)
 {
   iop->ofd = -1;
-  signed int return_value_fill_ofname$1;
-  return_value_fill_ofname$1=fill_ofname(iop, cpu);
-  if(!(return_value_fill_ofname$1 == 0))
+  signed int return_value_fill_ofname_1;
+  return_value_fill_ofname_1=fill_ofname(iop, cpu);
+  if(!(return_value_fill_ofname_1 == 0))
     return 1;
 
   else
@@ -3155,27 +3155,27 @@ static signed int iop_open(struct io_info *iop, signed int cpu)
     iop->ofp=my_fopen(iop->ofn, "w+");
     if(iop->ofp == ((struct _IO_FILE *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      fprintf(stderr, "Open output file %s failed: %d/%s\n", (const void *)iop->ofn, *return_value___errno_location$2, return_value_strerror$4);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      fprintf(stderr, "Open output file %s failed: %d/%s\n", (const void *)iop->ofn, *return_value___errno_location_2, return_value_strerror_4);
       return 1;
     }
 
-    signed int return_value_set_vbuf$8;
-    return_value_set_vbuf$8=set_vbuf(iop, 1, (unsigned long int)(128 * 1024));
-    if(!(return_value_set_vbuf$8 == 0))
+    signed int return_value_set_vbuf_8;
+    return_value_set_vbuf_8=set_vbuf(iop, 1, (unsigned long int)(128 * 1024));
+    if(!(return_value_set_vbuf_8 == 0))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      char *return_value_strerror$7;
-      return_value_strerror$7=strerror(*return_value___errno_location$6);
-      fprintf(stderr, "set_vbuf for file %s failed: %d/%s\n", (const void *)iop->ofn, *return_value___errno_location$5, return_value_strerror$7);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      char *return_value_strerror_7;
+      return_value_strerror_7=strerror(*return_value___errno_location_6);
+      fprintf(stderr, "set_vbuf for file %s failed: %d/%s\n", (const void *)iop->ofn, *return_value___errno_location_5, return_value_strerror_7);
       fclose(iop->ofp);
       return 1;
     }
@@ -3230,7 +3230,7 @@ static inline void list_replace_init(struct list_head *old, struct list_head *ne
 // file blktrace.c line 622
 static signed int lock_on_cpu(signed int cpu)
 {
-  struct anonymous$6 *cpu_mask;
+  struct anonymous_6 *cpu_mask;
   unsigned long int size;
   cpu_mask=__sched_cpualloc((unsigned long int)ncpus);
   size = ((((unsigned long int)ncpus + (unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ) - (unsigned long int)1) / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ )) * sizeof(unsigned long int) /*8ul*/ ;
@@ -3243,14 +3243,14 @@ static signed int lock_on_cpu(signed int cpu)
 
   else
     (unsigned long int)0;
-  signed int return_value_sched_setaffinity$2;
-  return_value_sched_setaffinity$2=sched_setaffinity(0, size, cpu_mask);
-  if(!(return_value_sched_setaffinity$2 >= 0))
+  signed int return_value_sched_setaffinity_2;
+  return_value_sched_setaffinity_2=sched_setaffinity(0, size, cpu_mask);
+  if(!(return_value_sched_setaffinity_2 >= 0))
   {
     __sched_cpufree(cpu_mask);
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   __sched_cpufree(cpu_mask);
@@ -3264,39 +3264,39 @@ signed int main(signed int argc, char **argv)
   signed int ret = 0;
   setlocale(1, "en_US");
   pagesize=getpagesize();
-  signed long int return_value_sysconf$1;
-  return_value_sysconf$1=sysconf(83);
-  ncpus = (signed int)return_value_sysconf$1;
-  signed int return_value_handle_args$5;
+  signed long int return_value_sysconf_1;
+  return_value_sysconf_1=sysconf(83);
+  ncpus = (signed int)return_value_sysconf_1;
+  signed int return_value_handle_args_5;
   if(!(ncpus >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fprintf(stderr, "sysconf(_SC_NPROCESSORS_CONF) failed %d/%s\n", *return_value___errno_location$2, return_value_strerror$4);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fprintf(stderr, "sysconf(_SC_NPROCESSORS_CONF) failed %d/%s\n", *return_value___errno_location_2, return_value_strerror_4);
     ret = 1;
     goto out;
   }
 
   else
   {
-    return_value_handle_args$5=handle_args(argc, argv);
-    if(!(return_value_handle_args$5 == 0))
+    return_value_handle_args_5=handle_args(argc, argv);
+    if(!(return_value_handle_args_5 == 0))
     {
       ret = 1;
       goto out;
     }
 
   }
-  signed int return_value_strcmp$6;
-  struct devpath *tmp_statement_expression$7;
+  signed int return_value_strcmp_6;
+  struct devpath *tmp_statement_expression_7;
   if(ndevs >= 2 && !(output_name == ((char *)NULL)))
   {
-    return_value_strcmp$6=strcmp(output_name, "-");
-    if(return_value_strcmp$6 == 0)
+    return_value_strcmp_6=strcmp(output_name, "-");
+    if(return_value_strcmp_6 == 0)
       goto __CPROVER_DUMP_L3;
 
     fprintf(stderr, "-o not supported with multiple devices\n");
@@ -3320,19 +3320,19 @@ signed int main(signed int argc, char **argv)
       for( ; !(p == &devpaths); p = p->next)
       {
         const struct list_head *__mptr = p;
-        tmp_statement_expression$7 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
-        dpp = tmp_statement_expression$7;
-        signed int return_value___stop_trace$11;
-        return_value___stop_trace$11=__stop_trace(dpp->fd);
-        if(!(return_value___stop_trace$11 == 0))
+        tmp_statement_expression_7 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
+        dpp = tmp_statement_expression_7;
+        signed int return_value___stop_trace_11;
+        return_value___stop_trace_11=__stop_trace(dpp->fd);
+        if(!(return_value___stop_trace_11 == 0))
         {
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          char *return_value_strerror$10;
-          return_value_strerror$10=strerror(*return_value___errno_location$9);
-          fprintf(stderr, "BLKTRACETEARDOWN %s failed: %d/%s\n", dpp->path, *return_value___errno_location$8, return_value_strerror$10);
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          char *return_value_strerror_10;
+          return_value_strerror_10=strerror(*return_value___errno_location_9);
+          fprintf(stderr, "BLKTRACETEARDOWN %s failed: %d/%s\n", dpp->path, *return_value___errno_location_8, return_value_strerror_10);
         }
 
       }
@@ -3386,21 +3386,21 @@ static inline void make_timespec(struct timespec *tsp, signed long int delta_mse
 static signed int my_accept(signed int sockfd, struct sockaddr *addr, unsigned int *addrlen)
 {
   signed int fd;
-  _Bool tmp_if_expr$2;
-  signed int return_value_handle_open_failure$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_handle_open_failure_1;
   do
   {
     fd=accept(sockfd, addr, addrlen);
     if(!(fd >= 0))
     {
-      return_value_handle_open_failure$1=handle_open_failure();
-      tmp_if_expr$2 = return_value_handle_open_failure$1 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_handle_open_failure_1=handle_open_failure();
+      tmp_if_expr_2 = return_value_handle_open_failure_1 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   return fd;
 }
 
@@ -3409,21 +3409,21 @@ static signed int my_accept(signed int sockfd, struct sockaddr *addr, unsigned i
 static struct _IO_FILE * my_fopen(const char *path, const char *mode)
 {
   struct _IO_FILE *fp;
-  _Bool tmp_if_expr$2;
-  signed int return_value_handle_open_failure$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_handle_open_failure_1;
   do
   {
     fp=fopen(path, mode);
     if(fp == ((struct _IO_FILE *)NULL))
     {
-      return_value_handle_open_failure$1=handle_open_failure();
-      tmp_if_expr$2 = return_value_handle_open_failure$1 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_handle_open_failure_1=handle_open_failure();
+      tmp_if_expr_2 = return_value_handle_open_failure_1 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   return fp;
 }
 
@@ -3433,8 +3433,8 @@ static signed int my_mlock(struct tracer *tp, const void *addr, unsigned long in
 {
   signed int ret;
   signed int retry = 0;
-  _Bool tmp_if_expr$2;
-  signed int return_value_handle_mem_failure$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_handle_mem_failure_1;
   do
   {
     ret=mlock(addr, len);
@@ -3448,14 +3448,14 @@ static signed int my_mlock(struct tracer *tp, const void *addr, unsigned long in
     retry = retry + 1;
     if(!(ret >= 0))
     {
-      return_value_handle_mem_failure$1=handle_mem_failure(len);
-      tmp_if_expr$2 = return_value_handle_mem_failure$1 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_handle_mem_failure_1=handle_mem_failure(len);
+      tmp_if_expr_2 = return_value_handle_mem_failure_1 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   return ret;
 }
 
@@ -3464,21 +3464,21 @@ static signed int my_mlock(struct tracer *tp, const void *addr, unsigned long in
 static void * my_mmap(void *addr, unsigned long int length, signed int prot, signed int flags, signed int fd, signed long int offset)
 {
   void *new;
-  _Bool tmp_if_expr$2;
-  signed int return_value_handle_mem_failure$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_handle_mem_failure_1;
   do
   {
     new=mmap(addr, length, prot, flags, fd, offset);
     if(new == (void *)-1)
     {
-      return_value_handle_mem_failure$1=handle_mem_failure(length);
-      tmp_if_expr$2 = return_value_handle_mem_failure$1 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_handle_mem_failure_1=handle_mem_failure(length);
+      tmp_if_expr_2 = return_value_handle_mem_failure_1 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   return new;
 }
 
@@ -3487,21 +3487,21 @@ static void * my_mmap(void *addr, unsigned long int length, signed int prot, sig
 static signed int my_open(const char *path, signed int flags)
 {
   signed int fd;
-  _Bool tmp_if_expr$2;
-  signed int return_value_handle_open_failure$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_handle_open_failure_1;
   do
   {
     fd=open(path, flags);
     if(!(fd >= 0))
     {
-      return_value_handle_open_failure$1=handle_open_failure();
-      tmp_if_expr$2 = return_value_handle_open_failure$1 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_handle_open_failure_1=handle_open_failure();
+      tmp_if_expr_2 = return_value_handle_open_failure_1 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   return fd;
 }
 
@@ -3510,21 +3510,21 @@ static signed int my_open(const char *path, signed int flags)
 static signed int my_socket(signed int domain, signed int type, signed int protocol)
 {
   signed int fd;
-  _Bool tmp_if_expr$2;
-  signed int return_value_handle_open_failure$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_handle_open_failure_1;
   do
   {
     fd=socket(domain, type, protocol);
     if(!(fd >= 0))
     {
-      return_value_handle_open_failure$1=handle_open_failure();
-      tmp_if_expr$2 = return_value_handle_open_failure$1 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_handle_open_failure_1=handle_open_failure();
+      tmp_if_expr_2 = return_value_handle_open_failure_1 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   return fd;
 }
 
@@ -3535,9 +3535,9 @@ static struct devpath * nc_add_dpp(struct cl_conn *nc, struct blktrace_net_hdr *
   signed int cpu;
   struct io_info *iop;
   struct devpath *dpp;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct devpath) /*96ul*/ );
-  dpp = (struct devpath *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct devpath) /*96ul*/ );
+  dpp = (struct devpath *)return_value_malloc_1;
   memset((void *)dpp, 0, sizeof(struct devpath) /*96ul*/ );
   dpp->buts_name=strdup(bnh->buts_name);
   dpp->path=strdup(bnh->buts_name);
@@ -3546,15 +3546,15 @@ static struct devpath * nc_add_dpp(struct cl_conn *nc, struct blktrace_net_hdr *
   dpp->cl_id = bnh->cl_id;
   dpp->cl_connect_time = connect_time;
   dpp->ncpus = nc->ncpus;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)dpp->ncpus, sizeof(struct pdc_stats) /*16ul*/ );
-  dpp->stats = (struct pdc_stats *)return_value_calloc$2;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)dpp->ncpus, sizeof(struct pdc_stats) /*16ul*/ );
+  dpp->stats = (struct pdc_stats *)return_value_calloc_2;
   memset((void *)dpp->stats, 0, (unsigned long int)dpp->ncpus * sizeof(struct pdc_stats) /*16ul*/ );
   list_add_tail(&dpp->head, &nc->ch->devpaths);
   nc->ch->ndevs = nc->ch->ndevs + 1;
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc((unsigned long int)nc->ncpus, sizeof(struct io_info) /*8440ul*/ );
-  dpp->ios = (struct io_info *)return_value_calloc$3;
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc((unsigned long int)nc->ncpus, sizeof(struct io_info) /*8440ul*/ );
+  dpp->ios = (struct io_info *)return_value_calloc_3;
   memset((void *)dpp->ios, 0, (unsigned long int)ndevs * sizeof(struct io_info) /*8440ul*/ );
   cpu = 0;
   iop = dpp->ios;
@@ -3563,9 +3563,9 @@ static struct devpath * nc_add_dpp(struct cl_conn *nc, struct blktrace_net_hdr *
     iop->dpp = dpp;
     iop->nc = nc;
     init_mmap_info(&iop->mmap_info);
-    signed int return_value_iop_open$4;
-    return_value_iop_open$4=iop_open(iop, cpu);
-    if(!(return_value_iop_open$4 == 0))
+    signed int return_value_iop_open_4;
+    return_value_iop_open_4=iop_open(iop, cpu);
+    if(!(return_value_iop_open_4 == 0))
       goto err;
 
     cpu = cpu + 1;
@@ -3574,12 +3574,12 @@ static struct devpath * nc_add_dpp(struct cl_conn *nc, struct blktrace_net_hdr *
 
 err:
   ;
-  signed int tmp_post$5;
+  signed int tmp_post_5;
   while(cpu >= 0)
   {
-    tmp_post$5 = cpu;
+    tmp_post_5 = cpu;
     cpu = cpu - 1;
-    close_iop(&dpp->ios[(signed long int)tmp_post$5]);
+    close_iop(&dpp->ios[(signed long int)tmp_post_5]);
   }
   dpp_free(dpp);
   return (struct devpath *)(void *)0;
@@ -3592,25 +3592,25 @@ static struct devpath * nc_find_dpp(struct cl_conn *nc, struct blktrace_net_hdr 
   struct list_head *p;
   signed long int connect_time = nc->connect_time;
   p = (&nc->ch->devpaths)->next;
-  struct devpath *tmp_statement_expression$1;
+  struct devpath *tmp_statement_expression_1;
   for( ; !(p == &nc->ch->devpaths); p = p->next)
   {
     struct devpath *dpp;
     const struct list_head *__mptr = p;
-    tmp_statement_expression$1 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
-    dpp = tmp_statement_expression$1;
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(dpp->buts_name, bnh->buts_name);
-    if(return_value_strcmp$2 == 0)
+    tmp_statement_expression_1 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
+    dpp = tmp_statement_expression_1;
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(dpp->buts_name, bnh->buts_name);
+    if(return_value_strcmp_2 == 0)
       return dpp;
 
     if(dpp->cl_id == bnh->cl_id)
       connect_time = dpp->cl_connect_time;
 
   }
-  struct devpath *return_value_nc_add_dpp$3;
-  return_value_nc_add_dpp$3=nc_add_dpp(nc, bnh, connect_time);
-  return return_value_nc_add_dpp$3;
+  struct devpath *return_value_nc_add_dpp_3;
+  return_value_nc_add_dpp_3=nc_add_dpp(nc, bnh, connect_time);
+  return return_value_nc_add_dpp_3;
 }
 
 // net_add_client_host
@@ -3618,17 +3618,17 @@ static struct devpath * nc_find_dpp(struct cl_conn *nc, struct blktrace_net_hdr 
 static struct cl_host * net_add_client_host(struct net_server_s *ns, struct sockaddr_in *addr)
 {
   struct cl_host *ch;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct cl_host) /*80ul*/ );
-  ch = (struct cl_host *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct cl_host) /*80ul*/ );
+  ch = (struct cl_host *)return_value_malloc_1;
   memset((void *)ch, 0, sizeof(struct cl_host) /*80ul*/ );
   ch->ns = ns;
   ch->cl_in_addr = addr->sin_addr;
   list_add_tail(&ch->head, &ns->ch_list);
   ns->nchs = ns->nchs + 1;
-  char *return_value_inet_ntoa$2;
-  return_value_inet_ntoa$2=inet_ntoa(addr->sin_addr);
-  ch->hostname=strdup(return_value_inet_ntoa$2);
+  char *return_value_inet_ntoa_2;
+  return_value_inet_ntoa_2=inet_ntoa(addr->sin_addr);
+  ch->hostname=strdup(return_value_inet_ntoa_2);
   printf("server: connection from %s\n", ch->hostname);
   INIT_LIST_HEAD(&ch->conn_list);
   INIT_LIST_HEAD(&ch->devpaths);
@@ -3665,25 +3665,25 @@ static void net_ch_remove(struct cl_host *ch, signed int ncpus)
   struct net_server_s *ns = ch->ns;
   p = (&ch->devpaths)->next;
   q = p->next;
-  struct devpath *tmp_statement_expression$1;
+  struct devpath *tmp_statement_expression_1;
   for( ; !(p == &ch->devpaths); q = p->next)
   {
     struct devpath *dpp;
     const struct list_head *__mptr = p;
-    tmp_statement_expression$1 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
-    dpp = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
+    dpp = tmp_statement_expression_1;
     device_done(dpp, ncpus);
     p = q;
   }
   p = (&ch->conn_list)->next;
   q = p->next;
-  struct cl_conn *tmp_statement_expression$2;
+  struct cl_conn *tmp_statement_expression_2;
   for( ; !(p == &ch->conn_list); q = p->next)
   {
     struct cl_conn *nc;
-    const struct list_head *net_ch_remove$$1$$2$$1$$1$$__mptr = p;
-    tmp_statement_expression$2 = (struct cl_conn *)((char *)net_ch_remove$$1$$2$$1$$1$$__mptr - (signed long int)(unsigned long int)&((struct cl_conn *)0)->ch_head);
-    nc = tmp_statement_expression$2;
+    const struct list_head *net_ch_remove__1__2__1__1____mptr = p;
+    tmp_statement_expression_2 = (struct cl_conn *)((char *)net_ch_remove__1__2__1__1____mptr - (signed long int)(unsigned long int)&((struct cl_conn *)0)->ch_head);
+    nc = tmp_statement_expression_2;
     ch_rem_connection(ns, ch, nc);
     p = q;
   }
@@ -3703,7 +3703,7 @@ static signed int net_client_data(struct cl_conn *nc)
   struct devpath *dpp;
   struct blktrace_net_hdr bnh;
   ret=net_get_header(nc, &bnh);
-  signed int return_value_check_data_endianness$1;
+  signed int return_value_check_data_endianness_1;
   if(ret == 0)
     return 0;
 
@@ -3717,8 +3717,8 @@ static signed int net_client_data(struct cl_conn *nc)
 
     if(data_is_native == -1)
     {
-      return_value_check_data_endianness$1=check_data_endianness(bnh.magic);
-      if(!(return_value_check_data_endianness$1 == 0))
+      return_value_check_data_endianness_1=check_data_endianness(bnh.magic);
+      if(!(return_value_check_data_endianness_1 == 0))
       {
         fprintf(stderr, "ncd(%d): received data is bad\n", nc->fd);
         exit(1);
@@ -3782,9 +3782,9 @@ static void net_client_read_data(struct cl_conn *nc, struct devpath *dpp, struct
   signed int ret;
   struct io_info *iop = &dpp->ios[(signed long int)bnh->cpu];
   struct mmap_info *mip = &iop->mmap_info;
-  signed int return_value_setup_mmap$1;
-  return_value_setup_mmap$1=setup_mmap(iop->ofd, bnh->len, &iop->mmap_info, (struct tracer *)(void *)0);
-  if(!(return_value_setup_mmap$1 == 0))
+  signed int return_value_setup_mmap_1;
+  return_value_setup_mmap_1=setup_mmap(iop->ofd, bnh->len, &iop->mmap_info, (struct tracer *)(void *)0);
+  if(!(return_value_setup_mmap_1 == 0))
   {
     fprintf(stderr, "ncd(%s:%d): mmap failed\n", nc->ch->hostname, nc->fd);
     exit(1);
@@ -3832,16 +3832,16 @@ static void net_close_connection(signed int *fd)
 static struct cl_host * net_find_client_host(struct net_server_s *ns, struct in_addr cl_in_addr)
 {
   struct list_head *p = (&ns->ch_list)->next;
-  struct cl_host *tmp_statement_expression$1;
+  struct cl_host *tmp_statement_expression_1;
   for( ; !(p == &ns->ch_list); p = p->next)
   {
     struct cl_host *ch;
     const struct list_head *__mptr = p;
-    tmp_statement_expression$1 = (struct cl_host *)((char *)__mptr - (signed long int)(unsigned long int)&((struct cl_host *)0)->head);
-    ch = tmp_statement_expression$1;
-    signed int return_value_in_addr_eq$2;
-    return_value_in_addr_eq$2=in_addr_eq(ch->cl_in_addr, cl_in_addr);
-    if(!(return_value_in_addr_eq$2 == 0))
+    tmp_statement_expression_1 = (struct cl_host *)((char *)__mptr - (signed long int)(unsigned long int)&((struct cl_host *)0)->head);
+    ch = tmp_statement_expression_1;
+    signed int return_value_in_addr_eq_2;
+    return_value_in_addr_eq_2=in_addr_eq(ch->cl_in_addr, cl_in_addr);
+    if(!(return_value_in_addr_eq_2 == 0))
       return ch;
 
   }
@@ -3873,9 +3873,9 @@ static signed int net_get_header(struct cl_conn *nc, struct blktrace_net_hdr *bn
 // file blktrace.c line 847
 static signed int net_recv_data(signed int fd, void *buf, unsigned int len)
 {
-  signed int return_value___net_recv_data$1;
-  return_value___net_recv_data$1=__net_recv_data(fd, buf, len);
-  return return_value___net_recv_data$1;
+  signed int return_value___net_recv_data_1;
+  return_value___net_recv_data_1=__net_recv_data(fd, buf, len);
+  return return_value___net_recv_data_1;
 }
 
 // net_send_close
@@ -3895,9 +3895,9 @@ static signed int net_send_data(signed int fd, void *buf, unsigned int buf_len)
   unsigned int bytes_left = buf_len;
   while(!(bytes_left == 0u))
   {
-    signed long int return_value_send$1;
-    return_value_send$1=send(fd, buf, (unsigned long int)bytes_left, 0);
-    ret = (signed int)return_value_send$1;
+    signed long int return_value_send_1;
+    return_value_send_1=send(fd, buf, (unsigned long int)bytes_left, 0);
+    ret = (signed int)return_value_send_1;
     if(!(ret >= 0))
     {
       perror("send");
@@ -3915,13 +3915,13 @@ static signed int net_send_data(signed int fd, void *buf, unsigned int buf_len)
 static void net_send_drops(signed int fd)
 {
   struct list_head *p = (&devpaths)->next;
-  struct devpath *tmp_statement_expression$1;
+  struct devpath *tmp_statement_expression_1;
   for( ; !(p == &devpaths); p = p->next)
   {
     struct devpath *dpp;
     const struct list_head *__mptr = p;
-    tmp_statement_expression$1 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
-    dpp = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
+    dpp = tmp_statement_expression_1;
     net_send_close(fd, dpp->buts_name, (signed int)dpp->drops);
   }
 }
@@ -3939,15 +3939,15 @@ static signed int net_send_header(signed int fd, signed int cpu, char *buts_name
   hdr.cpu = (unsigned int)cpu;
   hdr.max_cpus = (unsigned int)ncpus;
   hdr.len = (unsigned int)len;
-  signed int return_value_getpid$1;
-  return_value_getpid$1=getpid();
-  hdr.cl_id = (unsigned int)return_value_getpid$1;
+  signed int return_value_getpid_1;
+  return_value_getpid_1=getpid();
+  hdr.cl_id = (unsigned int)return_value_getpid_1;
   hdr.buf_size = (unsigned int)buf_size;
   hdr.buf_nr = (unsigned int)buf_nr;
   hdr.page_size = (unsigned int)pagesize;
-  signed int return_value_net_send_data$2;
-  return_value_net_send_data$2=net_send_data(fd, (void *)&hdr, (unsigned int)sizeof(struct blktrace_net_hdr) /*64ul*/ );
-  return (signed int)((unsigned long int)return_value_net_send_data$2 != sizeof(struct blktrace_net_hdr) /*64ul*/ );
+  signed int return_value_net_send_data_2;
+  return_value_net_send_data_2=net_send_data(fd, (void *)&hdr, (unsigned int)sizeof(struct blktrace_net_hdr) /*64ul*/ );
+  return (signed int)((unsigned long int)return_value_net_send_data_2 != sizeof(struct blktrace_net_hdr) /*64ul*/ );
 }
 
 // net_send_open
@@ -3971,9 +3971,9 @@ static void net_send_open_close(signed int fd, signed int cpu, char *buts_name, 
 static signed int net_sendfile(struct io_info *iop)
 {
   signed int ret;
-  signed long int return_value_sendfile$1;
-  return_value_sendfile$1=sendfile(iop->ofd, iop->ifd, (signed long int *)(void *)0, (unsigned long int)iop->ready);
-  ret = (signed int)return_value_sendfile$1;
+  signed long int return_value_sendfile_1;
+  return_value_sendfile_1=sendfile(iop->ofd, iop->ifd, (signed long int *)(void *)0, (unsigned long int)iop->ready);
+  ret = (signed int)return_value_sendfile_1;
   if(!(ret >= 0))
   {
     perror("sendfile");
@@ -3995,16 +3995,16 @@ static signed int net_sendfile(struct io_info *iop)
 static inline signed int net_sendfile_data(struct tracer *tp, struct io_info *iop)
 {
   struct devpath *dpp = iop->dpp;
-  signed int return_value_net_send_header$1;
-  return_value_net_send_header$1=net_send_header(iop->ofd, tp->cpu, dpp->buts_name, (signed int)iop->ready);
-  if(!(return_value_net_send_header$1 == 0))
+  signed int return_value_net_send_header_1;
+  return_value_net_send_header_1=net_send_header(iop->ofd, tp->cpu, dpp->buts_name, (signed int)iop->ready);
+  if(!(return_value_net_send_header_1 == 0))
     return 1;
 
   else
   {
-    signed int return_value_net_sendfile$2;
-    return_value_net_sendfile$2=net_sendfile(iop);
-    return return_value_net_sendfile$2;
+    signed int return_value_net_sendfile_2;
+    return_value_net_sendfile_2=net_sendfile(iop);
+    return return_value_net_sendfile_2;
   }
 }
 
@@ -4015,26 +4015,26 @@ static signed int net_server(void)
   signed int fd;
   signed int opt;
   signed int ret = 1;
-  struct net_server_s net_server$$1$$net_server;
-  struct net_server_s *ns = &net_server$$1$$net_server;
+  struct net_server_s net_server__1__net_server;
+  struct net_server_s *ns = &net_server__1__net_server;
   memset((void *)ns, 0, sizeof(struct net_server_s) /*72ul*/ );
   INIT_LIST_HEAD(&ns->ch_list);
   INIT_LIST_HEAD(&ns->conn_list);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct pollfd) /*8ul*/ );
-  ns->pfds = (struct pollfd *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct pollfd) /*8ul*/ );
+  ns->pfds = (struct pollfd *)return_value_malloc_1;
   fd=my_socket(2, 1, 0);
-  signed int return_value_setsockopt$2;
-  signed int return_value_bind$3;
-  signed int return_value_listen$4;
+  signed int return_value_setsockopt_2;
+  signed int return_value_bind_3;
+  signed int return_value_listen_4;
   if(!(fd >= 0))
     perror("server: socket");
 
   else
   {
     opt = 1;
-    return_value_setsockopt$2=setsockopt(fd, 1, 2, (const void *)&opt, (unsigned int)sizeof(signed int) /*4ul*/ );
-    if(!(return_value_setsockopt$2 >= 0))
+    return_value_setsockopt_2=setsockopt(fd, 1, 2, (const void *)&opt, (unsigned int)sizeof(signed int) /*4ul*/ );
+    if(!(return_value_setsockopt_2 >= 0))
       perror("setsockopt");
 
     else
@@ -4043,14 +4043,14 @@ static signed int net_server(void)
       ns->addr.sin_family = (unsigned short int)2;
       ns->addr.sin_addr.s_addr=htonl((unsigned int)0x00000000);
       ns->addr.sin_port=htons((unsigned short int)net_port);
-      return_value_bind$3=bind(fd, (struct sockaddr *)&ns->addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(!(return_value_bind$3 >= 0))
+      return_value_bind_3=bind(fd, (struct sockaddr *)&ns->addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(!(return_value_bind_3 >= 0))
         perror("bind");
 
       else
       {
-        return_value_listen$4=listen(fd, 1);
-        if(!(return_value_listen$4 >= 0))
+        return_value_listen_4=listen(fd, 1);
+        if(!(return_value_listen_4 >= 0))
           perror("listen");
 
         else
@@ -4080,9 +4080,9 @@ static signed int net_server_handle_connections(struct net_server_s *ns)
     events=poll(ns->pfds, (unsigned long int)(ns->connects + 1), -1);
     if(!(events >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(!(*return_value___errno_location$1 == 4))
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(!(*return_value___errno_location_1 == 4))
       {
         perror("FATAL: poll error");
         return 1;
@@ -4116,10 +4116,10 @@ static signed int net_setup_addr(void)
   memset((void *)addr, 0, sizeof(struct sockaddr_in) /*16ul*/ );
   addr->sin_family = (unsigned short int)2;
   addr->sin_port=htons((unsigned short int)net_port);
-  signed int return_value_inet_aton$3;
-  return_value_inet_aton$3=inet_aton(hostname, &addr->sin_addr);
-  signed int *return_value___h_errno_location$2;
-  if(!(return_value_inet_aton$3 == 1))
+  signed int return_value_inet_aton_3;
+  return_value_inet_aton_3=inet_aton(hostname, &addr->sin_addr);
+  signed int *return_value___h_errno_location_2;
+  if(!(return_value_inet_aton_3 == 1))
   {
     struct hostent *hent;
     do
@@ -4131,16 +4131,16 @@ static signed int net_setup_addr(void)
       if(!(hent == ((struct hostent *)NULL)))
         goto __CPROVER_DUMP_L5;
 
-      return_value___h_errno_location$2=__h_errno_location();
-      if(!(*return_value___h_errno_location$2 == 2))
+      return_value___h_errno_location_2=__h_errno_location();
+      if(!(*return_value___h_errno_location_2 == 2))
         break;
 
       usleep((unsigned int)100);
     }
     while((_Bool)1);
-    signed int *return_value___h_errno_location$1;
-    return_value___h_errno_location$1=__h_errno_location();
-    if(*return_value___h_errno_location$1 == 3)
+    signed int *return_value___h_errno_location_1;
+    return_value___h_errno_location_1=__h_errno_location();
+    if(*return_value___h_errno_location_1 == 3)
       fprintf(stderr, "gethostbyname(%s)non-recoverable error encountered\n", (const void *)hostname);
 
     else
@@ -4173,13 +4173,13 @@ static signed int net_setup_client(void)
 
   else
   {
-    signed int return_value_connect$2;
-    return_value_connect$2=connect(fd, (struct sockaddr *)addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-    if(!(return_value_connect$2 >= 0))
+    signed int return_value_connect_2;
+    return_value_connect_2=connect(fd, (struct sockaddr *)addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+    if(!(return_value_connect_2 >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 111)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 111)
         fprintf(stderr, "\nclient: Connection to %s refused, perhaps the server is not started?\n\n", (const void *)hostname);
 
       else
@@ -4202,13 +4202,13 @@ static void net_setup_pfds(struct net_server_s *ns)
   (ns->pfds + (signed long int)0)->events = (signed short int)0x001;
   pfd = &ns->pfds[(signed long int)1];
   p = (&ns->conn_list)->next;
-  struct cl_conn *tmp_statement_expression$1;
+  struct cl_conn *tmp_statement_expression_1;
   for( ; !(p == &ns->conn_list); p = p->next)
   {
     struct cl_conn *nc;
     const struct list_head *__mptr = p;
-    tmp_statement_expression$1 = (struct cl_conn *)((char *)__mptr - (signed long int)(unsigned long int)&((struct cl_conn *)0)->ns_head);
-    nc = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct cl_conn *)((char *)__mptr - (signed long int)(unsigned long int)&((struct cl_conn *)0)->ns_head);
+    nc = tmp_statement_expression_1;
     pfd->fd = nc->fd;
     pfd->events = (signed short int)0x001;
     pfd = pfd + 1l;
@@ -4220,9 +4220,9 @@ static void net_setup_pfds(struct net_server_s *ns)
 static signed int open_client_connections(void)
 {
   signed int cpu;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)ncpus, sizeof(signed int) /*4ul*/ );
-  cl_fds = (signed int *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)ncpus, sizeof(signed int) /*4ul*/ );
+  cl_fds = (signed int *)return_value_calloc_1;
   cpu = 0;
   for( ; !(cpu >= ncpus); cpu = cpu + 1)
   {
@@ -4235,12 +4235,12 @@ static signed int open_client_connections(void)
 
 err:
   ;
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   while(cpu >= 1)
   {
-    tmp_post$2 = cpu;
+    tmp_post_2 = cpu;
     cpu = cpu - 1;
-    close(cl_fds[(signed long int)tmp_post$2]);
+    close(cl_fds[(signed long int)tmp_post_2]);
   }
   free((void *)cl_fds);
   return 1;
@@ -4253,39 +4253,39 @@ static signed int open_ios(struct tracer *tp)
   struct pollfd *pfd;
   struct io_info *iop;
   struct list_head *p;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)ndevs, sizeof(struct io_info) /*8440ul*/ );
-  tp->ios = (struct io_info *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)ndevs, sizeof(struct io_info) /*8440ul*/ );
+  tp->ios = (struct io_info *)return_value_calloc_1;
   memset((void *)tp->ios, 0, (unsigned long int)ndevs * sizeof(struct io_info) /*8440ul*/ );
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)ndevs, sizeof(struct pollfd) /*8ul*/ );
-  tp->pfds = (struct pollfd *)return_value_calloc$2;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)ndevs, sizeof(struct pollfd) /*8ul*/ );
+  tp->pfds = (struct pollfd *)return_value_calloc_2;
   memset((void *)tp->pfds, 0, (unsigned long int)ndevs * sizeof(struct pollfd) /*8ul*/ );
   tp->nios = 0;
   iop = tp->ios;
   pfd = tp->pfds;
   p = (&devpaths)->next;
-  struct devpath *tmp_statement_expression$3;
-  signed int return_value_net_client_use_sendfile$8;
+  struct devpath *tmp_statement_expression_3;
+  signed int return_value_net_client_use_sendfile_8;
   for( ; !(p == &devpaths); p = p->next)
   {
     struct devpath *dpp;
     const struct list_head *__mptr = p;
-    tmp_statement_expression$3 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
-    dpp = tmp_statement_expression$3;
+    tmp_statement_expression_3 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
+    dpp = tmp_statement_expression_3;
     iop->dpp = dpp;
     iop->ofd = -1;
     snprintf(iop->ifn, sizeof(char [4160l]) /*4160ul*/ , "%s/block/%s/trace%d", debugfs_path, dpp->buts_name, tp->cpu);
     iop->ifd=my_open(iop->ifn, 00 | 04000);
     if(!(iop->ifd >= 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      char *return_value_strerror$6;
-      return_value_strerror$6=strerror(*return_value___errno_location$5);
-      fprintf(stderr, "Thread %d failed open %s: %d/%s\n", tp->cpu, (const void *)iop->ifn, *return_value___errno_location$4, return_value_strerror$6);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      char *return_value_strerror_6;
+      return_value_strerror_6=strerror(*return_value___errno_location_5);
+      fprintf(stderr, "Thread %d failed open %s: %d/%s\n", tp->cpu, (const void *)iop->ifn, *return_value___errno_location_4, return_value_strerror_6);
       return 1;
     }
 
@@ -4294,8 +4294,8 @@ static signed int open_ios(struct tracer *tp)
     pfd->events = (signed short int)0x001;
     if(piped_output == 0)
     {
-      return_value_net_client_use_sendfile$8=net_client_use_sendfile();
-      if(!(return_value_net_client_use_sendfile$8 == 0))
+      return_value_net_client_use_sendfile_8=net_client_use_sendfile();
+      if(!(return_value_net_client_use_sendfile_8 == 0))
       {
         iop->ofd=net_setup_client();
         if(!(iop->ofd >= 0))
@@ -4307,9 +4307,9 @@ static signed int open_ios(struct tracer *tp)
       else
         if(net_mode == 0)
         {
-          signed int return_value_iop_open$7;
-          return_value_iop_open$7=iop_open(iop, tp->cpu);
-          if(!(return_value_iop_open$7 == 0))
+          signed int return_value_iop_open_7;
+          return_value_iop_open_7=iop_open(iop, tp->cpu);
+          if(!(return_value_iop_open_7 == 0))
             goto err;
 
         }
@@ -4349,11 +4349,11 @@ static inline void pdc_nev_update(struct devpath *dpp, signed int cpu, signed in
 // file blktrace.c line 1447
 static void process_trace_bufs(void)
 {
-  signed int return_value_wait_empty_entries$1;
+  signed int return_value_wait_empty_entries_1;
   do
   {
-    return_value_wait_empty_entries$1=wait_empty_entries();
-    if(return_value_wait_empty_entries$1 == 0)
+    return_value_wait_empty_entries_1=wait_empty_entries();
+    if(return_value_wait_empty_entries_1 == 0)
       break;
 
     __process_trace_bufs();
@@ -4365,17 +4365,17 @@ static void process_trace_bufs(void)
 // file blktrace.c line 1463
 static inline void read_err(signed int cpu, char *ifn)
 {
-  signed int *return_value___errno_location$4;
-  return_value___errno_location$4=__errno_location();
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
-  if(!(*return_value___errno_location$4 == 11))
+  signed int *return_value___errno_location_4;
+  return_value___errno_location_4=__errno_location();
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
+  if(!(*return_value___errno_location_4 == 11))
   {
-    return_value___errno_location$1=__errno_location();
-    return_value___errno_location$2=__errno_location();
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    fprintf(stderr, "Thread %d failed read of %s: %d/%s\n", cpu, ifn, *return_value___errno_location$1, return_value_strerror$3);
+    return_value___errno_location_1=__errno_location();
+    return_value___errno_location_2=__errno_location();
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    fprintf(stderr, "Thread %d failed read of %s: %d/%s\n", cpu, ifn, *return_value___errno_location_1, return_value_strerror_3);
   }
 
 }
@@ -4388,13 +4388,13 @@ static void rel_devpaths(void)
   struct list_head *q;
   p = (&devpaths)->next;
   q = p->next;
-  struct devpath *tmp_statement_expression$1;
+  struct devpath *tmp_statement_expression_1;
   for( ; !(p == &devpaths); q = p->next)
   {
     struct devpath *dpp;
     const struct list_head *__mptr = p;
-    tmp_statement_expression$1 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
-    dpp = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
+    dpp = tmp_statement_expression_1;
     list_del(&dpp->head);
     __stop_trace(dpp->fd);
     close(dpp->fd);
@@ -4416,13 +4416,13 @@ static signed int run_tracers(void)
     printf("blktrace: connecting to %s\n", (const void *)hostname);
 
   setup_buts();
-  signed int return_value_use_tracer_devpaths$2;
-  return_value_use_tracer_devpaths$2=use_tracer_devpaths();
-  if(!(return_value_use_tracer_devpaths$2 == 0))
+  signed int return_value_use_tracer_devpaths_2;
+  return_value_use_tracer_devpaths_2=use_tracer_devpaths();
+  if(!(return_value_use_tracer_devpaths_2 == 0))
   {
-    signed int return_value_setup_tracer_devpaths$1;
-    return_value_setup_tracer_devpaths$1=setup_tracer_devpaths();
-    if(!(return_value_setup_tracer_devpaths$1 == 0))
+    signed int return_value_setup_tracer_devpaths_1;
+    return_value_setup_tracer_devpaths_1=setup_tracer_devpaths();
+    if(!(return_value_setup_tracer_devpaths_1 == 0))
       return 1;
 
     if(!(piped_output == 0))
@@ -4451,9 +4451,9 @@ static signed int run_tracers(void)
   if(nthreads_running == ncpus)
     show_stats(&devpaths);
 
-  signed int return_value_net_client_use_send$3;
-  return_value_net_client_use_send$3=net_client_use_send();
-  if(!(return_value_net_client_use_send$3 == 0))
+  signed int return_value_net_client_use_send_3;
+  return_value_net_client_use_send_3=net_client_use_send();
+  if(!(return_value_net_client_use_send_3 == 0))
     close_client_connections();
 
   del_tracers();
@@ -4464,20 +4464,20 @@ static signed int run_tracers(void)
 // file blktrace.c line 1545
 static signed int set_vbuf(struct io_info *iop, signed int mode, unsigned long int size)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(size);
-  iop->obuf = (char *)return_value_malloc$1;
-  signed int return_value_setvbuf$5;
-  return_value_setvbuf$5=setvbuf(iop->ofp, iop->obuf, mode, size);
-  if(!(return_value_setvbuf$5 >= 0))
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(size);
+  iop->obuf = (char *)return_value_malloc_1;
+  signed int return_value_setvbuf_5;
+  return_value_setvbuf_5=setvbuf(iop->ofp, iop->obuf, mode, size);
+  if(!(return_value_setvbuf_5 >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fprintf(stderr, "setvbuf(%s, %d) failed: %d/%s\n", iop->dpp->path, (signed int)size, *return_value___errno_location$2, return_value_strerror$4);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fprintf(stderr, "setvbuf(%s, %d) failed: %d/%s\n", iop->dpp->path, (signed int)size, *return_value___errno_location_2, return_value_strerror_4);
     free((void *)iop->obuf);
     return 1;
   }
@@ -4490,42 +4490,42 @@ static signed int set_vbuf(struct io_info *iop, signed int mode, unsigned long i
 static void setup_buts(void)
 {
   struct list_head *p = (&devpaths)->next;
-  struct devpath *tmp_statement_expression$1;
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
+  struct devpath *tmp_statement_expression_1;
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
   for( ; !(p == &devpaths); p = p->next)
   {
     struct blk_user_trace_setup buts;
     struct devpath *dpp;
     const struct list_head *__mptr = p;
-    tmp_statement_expression$1 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
-    dpp = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
+    dpp = tmp_statement_expression_1;
     memset((void *)&buts, 0, sizeof(struct blk_user_trace_setup) /*72ul*/ );
     buts.buf_size = (unsigned int)buf_size;
     buts.buf_nr = (unsigned int)buf_nr;
     buts.act_mask = (unsigned short int)act_mask;
-    signed int return_value_ioctl$6;
-    return_value_ioctl$6=ioctl(dpp->fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(0x12 << 0 + 8) | (unsigned int)(115 << 0)) | sizeof(struct blk_user_trace_setup) /*72ul*/  << 0 + 8 + 8, &buts);
-    if(return_value_ioctl$6 >= 0)
+    signed int return_value_ioctl_6;
+    return_value_ioctl_6=ioctl(dpp->fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(0x12 << 0 + 8) | (unsigned int)(115 << 0)) | sizeof(struct blk_user_trace_setup) /*72ul*/  << 0 + 8 + 8, &buts);
+    if(return_value_ioctl_6 >= 0)
     {
       dpp->ncpus = ncpus;
       dpp->buts_name=strdup(buts.name);
       if(!(dpp->stats == ((struct pdc_stats *)NULL)))
         free((void *)dpp->stats);
 
-      void *return_value_calloc$2;
-      return_value_calloc$2=calloc((unsigned long int)dpp->ncpus, sizeof(struct pdc_stats) /*16ul*/ );
-      dpp->stats = (struct pdc_stats *)return_value_calloc$2;
+      void *return_value_calloc_2;
+      return_value_calloc_2=calloc((unsigned long int)dpp->ncpus, sizeof(struct pdc_stats) /*16ul*/ );
+      dpp->stats = (struct pdc_stats *)return_value_calloc_2;
       memset((void *)dpp->stats, 0, (unsigned long int)dpp->ncpus * sizeof(struct pdc_stats) /*16ul*/ );
     }
 
     else
     {
-      return_value___errno_location$3=__errno_location();
-      return_value___errno_location$4=__errno_location();
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      fprintf(stderr, "BLKTRACESETUP(2) %s failed: %d/%s\n", dpp->path, *return_value___errno_location$3, return_value_strerror$5);
+      return_value___errno_location_3=__errno_location();
+      return_value___errno_location_4=__errno_location();
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      fprintf(stderr, "BLKTRACESETUP(2) %s failed: %d/%s\n", dpp->path, *return_value___errno_location_3, return_value_strerror_5);
     }
   }
 }
@@ -4534,16 +4534,16 @@ static void setup_buts(void)
 // file blktrace.c line 745
 static signed int setup_mmap(signed int fd, unsigned int maxlen, struct mmap_info *mip, struct tracer *tp)
 {
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(!(mip->fs_buf_len >= mip->fs_off + (unsigned long int)maxlen))
   {
     unsigned long int nr;
     if(!(mip->buf_nr >= 16ul))
-      tmp_if_expr$1 = (unsigned long int)16;
+      tmp_if_expr_1 = (unsigned long int)16;
 
     else
-      tmp_if_expr$1 = mip->buf_nr;
-    nr = tmp_if_expr$1;
+      tmp_if_expr_1 = mip->buf_nr;
+    nr = tmp_if_expr_1;
     if(!(mip->fs_buf == NULL))
     {
       munlock(mip->fs_buf, mip->fs_buf_len);
@@ -4554,9 +4554,9 @@ static signed int setup_mmap(signed int fd, unsigned int maxlen, struct mmap_inf
     mip->fs_off = mip->fs_size & (unsigned long int)(mip->pagesize - 1);
     mip->fs_buf_len = nr * mip->buf_size - mip->fs_off;
     mip->fs_max_size = mip->fs_max_size + mip->fs_buf_len;
-    signed int return_value_ftruncate$2;
-    return_value_ftruncate$2=ftruncate(fd, (signed long int)mip->fs_max_size);
-    if(!(return_value_ftruncate$2 >= 0))
+    signed int return_value_ftruncate_2;
+    return_value_ftruncate_2=ftruncate(fd, (signed long int)mip->fs_max_size);
+    if(!(return_value_ftruncate_2 >= 0))
     {
       perror("setup_mmap: ftruncate");
       return 1;
@@ -4569,9 +4569,9 @@ static signed int setup_mmap(signed int fd, unsigned int maxlen, struct mmap_inf
       return 1;
     }
 
-    signed int return_value_my_mlock$3;
-    return_value_my_mlock$3=my_mlock(tp, mip->fs_buf, mip->fs_buf_len);
-    if(!(return_value_my_mlock$3 >= 0))
+    signed int return_value_my_mlock_3;
+    return_value_my_mlock_3=my_mlock(tp, mip->fs_buf, mip->fs_buf_len);
+    if(!(return_value_my_mlock_3 >= 0))
     {
       perror("setup_mlock: mlock");
       return 1;
@@ -4587,14 +4587,14 @@ static signed int setup_mmap(signed int fd, unsigned int maxlen, struct mmap_inf
 static signed int setup_tracer_devpaths(void)
 {
   struct list_head *p;
-  signed int return_value_net_client_use_send$2;
-  return_value_net_client_use_send$2=net_client_use_send();
-  signed int return_value_open_client_connections$1;
-  struct devpath *tmp_statement_expression$3;
-  if(!(return_value_net_client_use_send$2 == 0))
+  signed int return_value_net_client_use_send_2;
+  return_value_net_client_use_send_2=net_client_use_send();
+  signed int return_value_open_client_connections_1;
+  struct devpath *tmp_statement_expression_3;
+  if(!(return_value_net_client_use_send_2 == 0))
   {
-    return_value_open_client_connections$1=open_client_connections();
-    if(return_value_open_client_connections$1 == 0)
+    return_value_open_client_connections_1=open_client_connections();
+    if(return_value_open_client_connections_1 == 0)
       goto __CPROVER_DUMP_L1;
 
     return 1;
@@ -4612,17 +4612,17 @@ static signed int setup_tracer_devpaths(void)
       struct tracer_devpath_head *hd;
       struct devpath *dpp;
       const struct list_head *__mptr = p;
-      tmp_statement_expression$3 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
-      dpp = tmp_statement_expression$3;
-      void *return_value_calloc$4;
-      return_value_calloc$4=calloc((unsigned long int)ncpus, sizeof(struct tracer_devpath_head) /*64ul*/ );
-      dpp->heads = (struct tracer_devpath_head *)return_value_calloc$4;
+      tmp_statement_expression_3 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
+      dpp = tmp_statement_expression_3;
+      void *return_value_calloc_4;
+      return_value_calloc_4=calloc((unsigned long int)ncpus, sizeof(struct tracer_devpath_head) /*64ul*/ );
+      dpp->heads = (struct tracer_devpath_head *)return_value_calloc_4;
       cpu = 0;
       hd = dpp->heads;
       for( ; !(cpu >= ncpus); hd = hd + 1l)
       {
         INIT_LIST_HEAD(&hd->head);
-        pthread_mutex_init(&hd->mutex, (const union anonymous$1 *)(void *)0);
+        pthread_mutex_init(&hd->mutex, (const union anonymous_1 *)(void *)0);
         hd->prev = (struct trace_buf *)(void *)0;
         cpu = cpu + 1;
       }
@@ -4647,15 +4647,15 @@ static void show_stats(struct list_head *devpaths)
   else
     ofp = stdout;
   p = devpaths->next;
-  struct devpath *tmp_statement_expression$1;
+  struct devpath *tmp_statement_expression_1;
   for( ; !(p == devpaths); p = p->next)
   {
     signed int cpu;
     struct pdc_stats *sp;
     struct devpath *dpp;
     const struct list_head *__mptr = p;
-    tmp_statement_expression$1 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
-    dpp = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
+    dpp = tmp_statement_expression_1;
     if(net_mode == 1)
       printf("server: end of run for %s:%s\n", dpp->ch->hostname, dpp->buts_name);
 
@@ -4705,24 +4705,24 @@ static void show_usage(char *prog)
 static void start_buts(void)
 {
   struct list_head *p = (&devpaths)->next;
-  struct devpath *tmp_statement_expression$1;
+  struct devpath *tmp_statement_expression_1;
   for( ; !(p == &devpaths); p = p->next)
   {
     struct devpath *dpp;
     const struct list_head *__mptr = p;
-    tmp_statement_expression$1 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
-    dpp = tmp_statement_expression$1;
-    signed int return_value_ioctl$5;
-    return_value_ioctl$5=ioctl(dpp->fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(0x12 << 0 + 8) | (unsigned int)(116 << 0) | (unsigned int)(0 << 0 + 8 + 8)));
-    if(!(return_value_ioctl$5 >= 0))
+    tmp_statement_expression_1 = (struct devpath *)((char *)__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
+    dpp = tmp_statement_expression_1;
+    signed int return_value_ioctl_5;
+    return_value_ioctl_5=ioctl(dpp->fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(0x12 << 0 + 8) | (unsigned int)(116 << 0) | (unsigned int)(0 << 0 + 8 + 8)));
+    if(!(return_value_ioctl_5 >= 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      fprintf(stderr, "BLKTRACESTART %s failed: %d/%s\n", dpp->path, *return_value___errno_location$2, return_value_strerror$4);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      fprintf(stderr, "BLKTRACESTART %s failed: %d/%s\n", dpp->path, *return_value___errno_location_2, return_value_strerror_4);
     }
 
   }
@@ -4733,24 +4733,24 @@ static void start_buts(void)
 static signed int start_tracer(signed int cpu)
 {
   struct tracer *tp;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct tracer) /*56ul*/ );
-  tp = (struct tracer *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct tracer) /*56ul*/ );
+  tp = (struct tracer *)return_value_malloc_1;
   memset((void *)tp, 0, sizeof(struct tracer) /*56ul*/ );
   INIT_LIST_HEAD(&tp->head);
   tp->status = 0;
   tp->cpu = cpu;
-  signed int return_value_pthread_create$5;
-  return_value_pthread_create$5=pthread_create(&tp->thread, (const union pthread_attr_t *)(void *)0, thread_main, (void *)tp);
-  if(!(return_value_pthread_create$5 == 0))
+  signed int return_value_pthread_create_5;
+  return_value_pthread_create_5=pthread_create(&tp->thread, (const union pthread_attr_t *)(void *)0, thread_main, (void *)tp);
+  if(!(return_value_pthread_create_5 == 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fprintf(stderr, "FAILED to start thread on CPU %d: %d/%s\n", cpu, *return_value___errno_location$2, return_value_strerror$4);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fprintf(stderr, "FAILED to start thread on CPU %d: %d/%s\n", cpu, *return_value___errno_location_2, return_value_strerror_4);
     free((void *)tp);
     return 1;
   }
@@ -4766,28 +4766,28 @@ static void start_tracers(void)
   signed int cpu;
   struct list_head *p;
   cpu = 0;
-  signed int return_value_start_tracer$1;
+  signed int return_value_start_tracer_1;
   for( ; !(cpu >= ncpus); cpu = cpu + 1)
   {
-    return_value_start_tracer$1=start_tracer(cpu);
-    if(!(return_value_start_tracer$1 == 0))
+    return_value_start_tracer_1=start_tracer(cpu);
+    if(!(return_value_start_tracer_1 == 0))
       break;
 
   }
   wait_tracers_ready(cpu);
   p = (&tracers)->next;
-  struct tracer *tmp_statement_expression$2;
-  char *return_value_strerror$3;
+  struct tracer *tmp_statement_expression_2;
+  char *return_value_strerror_3;
   for( ; !(p == &tracers); p = p->next)
   {
     struct tracer *tp;
     const struct list_head *__mptr = p;
-    tmp_statement_expression$2 = (struct tracer *)((char *)__mptr - (signed long int)(unsigned long int)&((struct tracer *)0)->head);
-    tp = tmp_statement_expression$2;
+    tmp_statement_expression_2 = (struct tracer *)((char *)__mptr - (signed long int)(unsigned long int)&((struct tracer *)0)->head);
+    tp = tmp_statement_expression_2;
     if(!(tp->status == 0))
     {
-      return_value_strerror$3=strerror(tp->status);
-      fprintf(stderr, "FAILED to start thread on CPU %d: %d/%s\n", tp->cpu, tp->status, return_value_strerror$3);
+      return_value_strerror_3=strerror(tp->status);
+      fprintf(stderr, "FAILED to start thread on CPU %d: %d/%s\n", tp->cpu, tp->status, return_value_strerror_3);
     }
 
   }
@@ -4798,23 +4798,23 @@ static void start_tracers(void)
 static void stop_tracers(void)
 {
   struct list_head *p = (&devpaths)->next;
-  struct devpath *tmp_statement_expression$1;
+  struct devpath *tmp_statement_expression_1;
   for( ; !(p == &devpaths); p = p->next)
   {
     struct devpath *dpp;
-    const struct list_head *stop_tracers$$1$$1$$1$$1$$__mptr = p;
-    tmp_statement_expression$1 = (struct devpath *)((char *)stop_tracers$$1$$1$$1$$1$$__mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
-    dpp = tmp_statement_expression$1;
+    const struct list_head *stop_tracers__1__1__1__1____mptr = p;
+    tmp_statement_expression_1 = (struct devpath *)((char *)stop_tracers__1__1__1__1____mptr - (signed long int)(unsigned long int)&((struct devpath *)0)->head);
+    dpp = tmp_statement_expression_1;
     ioctl(dpp->fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(0x12 << 0 + 8) | (unsigned int)(117 << 0) | (unsigned int)(0 << 0 + 8 + 8)));
   }
   p = (&tracers)->next;
-  struct tracer *tmp_statement_expression$2;
+  struct tracer *tmp_statement_expression_2;
   for( ; !(p == &tracers); p = p->next)
   {
     struct tracer *tp;
     const struct list_head *__mptr = p;
-    tmp_statement_expression$2 = (struct tracer *)((char *)__mptr - (signed long int)(unsigned long int)&((struct tracer *)0)->head);
-    tp = tmp_statement_expression$2;
+    tmp_statement_expression_2 = (struct tracer *)((char *)__mptr - (signed long int)(unsigned long int)&((struct tracer *)0)->head);
+    tp = tmp_statement_expression_2;
     tp->is_done = 1;
   }
   pthread_cond_broadcast(&mt_cond);
@@ -4822,7 +4822,7 @@ static void stop_tracers(void)
 
 // t_pthread_cond_wait
 // file blktrace.c line 537
-static void t_pthread_cond_wait(union anonymous$3 *cond, union anonymous$0 *mutex)
+static void t_pthread_cond_wait(union anonymous_3 *cond, union anonymous_0 *mutex)
 {
   struct timespec ts;
   make_timespec(&ts, (signed long int)50);
@@ -4836,9 +4836,9 @@ static struct trace_buf * tb_combine(struct trace_buf *prev, struct trace_buf *t
   unsigned long int tot_len = (unsigned long int)(prev->len + tbp->len);
   if(!(buf_size >= tot_len))
   {
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)prev, sizeof(struct trace_buf) /*40ul*/  + tot_len);
-    prev = (struct trace_buf *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)prev, sizeof(struct trace_buf) /*40ul*/  + tot_len);
+    prev = (struct trace_buf *)return_value_realloc_1;
     prev->buf = (void *)(prev + (signed long int)1);
   }
 
@@ -4857,10 +4857,10 @@ static void * thread_main(void *arg)
   signed int to_val;
   struct tracer *tp = (struct tracer *)arg;
   ret=lock_on_cpu(tp->cpu);
-  signed int *return_value___errno_location$4;
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int *return_value___errno_location_4;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   signed int return_value;
   if(ret == 0)
   {
@@ -4884,13 +4884,13 @@ static void * thread_main(void *arg)
       else
         if(!(ndone >= 0))
         {
-          return_value___errno_location$4=__errno_location();
-          if(!(*return_value___errno_location$4 == 4))
+          return_value___errno_location_4=__errno_location();
+          if(!(*return_value___errno_location_4 == 4))
           {
-            return_value___errno_location$1=__errno_location();
-            return_value___errno_location$2=__errno_location();
-            return_value_strerror$3=strerror(*return_value___errno_location$2);
-            fprintf(stderr, "Thread %d poll failed: %d/%s\n", tp->cpu, *return_value___errno_location$1, return_value_strerror$3);
+            return_value___errno_location_1=__errno_location();
+            return_value___errno_location_2=__errno_location();
+            return_value_strerror_3=strerror(*return_value___errno_location_2);
+            fprintf(stderr, "Thread %d poll failed: %d/%s\n", tp->cpu, *return_value___errno_location_1, return_value_strerror_3);
           }
 
         }
@@ -4960,17 +4960,17 @@ static void unblock_tracers(void)
 // file blktrace.c line 489
 static inline signed int use_tracer_devpaths(void)
 {
-  _Bool tmp_if_expr$2;
-  signed int return_value_net_client_use_send$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_net_client_use_send_1;
   if(!(piped_output == 0))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_net_client_use_send$1=net_client_use_send();
-    tmp_if_expr$2 = return_value_net_client_use_send$1 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_net_client_use_send_1=net_client_use_send();
+    tmp_if_expr_2 = return_value_net_client_use_send_1 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  return (signed int)tmp_if_expr$2;
+  return (signed int)tmp_if_expr_2;
 }
 
 // valid_act_opt
@@ -4996,29 +4996,29 @@ static signed int wait_empty_entries(void)
 static void wait_tracers(void)
 {
   struct list_head *p;
-  signed int return_value_use_tracer_devpaths$1;
-  return_value_use_tracer_devpaths$1=use_tracer_devpaths();
-  if(!(return_value_use_tracer_devpaths$1 == 0))
+  signed int return_value_use_tracer_devpaths_1;
+  return_value_use_tracer_devpaths_1=use_tracer_devpaths();
+  if(!(return_value_use_tracer_devpaths_1 == 0))
     process_trace_bufs();
 
   wait_tracers_leaving();
   p = (&tracers)->next;
-  struct tracer *tmp_statement_expression$2;
+  struct tracer *tmp_statement_expression_2;
   for( ; !(p == &tracers); p = p->next)
   {
     signed int ret;
     struct tracer *tp;
     const struct list_head *__mptr = p;
-    tmp_statement_expression$2 = (struct tracer *)((char *)__mptr - (signed long int)(unsigned long int)&((struct tracer *)0)->head);
-    tp = tmp_statement_expression$2;
+    tmp_statement_expression_2 = (struct tracer *)((char *)__mptr - (signed long int)(unsigned long int)&((struct tracer *)0)->head);
+    tp = tmp_statement_expression_2;
     ret=pthread_join(tp->thread, (void **)(void *)0);
     if(!(ret == 0))
       fprintf(stderr, "Thread join %d failed %d\n", tp->cpu, ret);
 
   }
-  signed int return_value_use_tracer_devpaths$3;
-  return_value_use_tracer_devpaths$3=use_tracer_devpaths();
-  if(!(return_value_use_tracer_devpaths$3 == 0))
+  signed int return_value_use_tracer_devpaths_3;
+  return_value_use_tracer_devpaths_3=use_tracer_devpaths();
+  if(!(return_value_use_tracer_devpaths_3 == 0))
     clean_trace_bufs();
 
   get_all_drops();
@@ -5049,56 +5049,56 @@ static void wait_tracers_ready(signed int ncpus_started)
 static signed int write_data(char *buf, signed int len)
 {
   signed int ret;
-  unsigned long int return_value_fwrite$1;
-  signed int return_value_ferror$10;
-  signed int *return_value___errno_location$2;
+  unsigned long int return_value_fwrite_1;
+  signed int return_value_ferror_10;
+  signed int *return_value___errno_location_2;
   do
   {
 
   rewrite:
     ;
-    return_value_fwrite$1=fwrite((const void *)buf, (unsigned long int)len, (unsigned long int)1, pfp);
-    ret = (signed int)return_value_fwrite$1;
-    return_value_ferror$10=ferror(pfp);
-    if(return_value_ferror$10 == 0 && ret == 1)
+    return_value_fwrite_1=fwrite((const void *)buf, (unsigned long int)len, (unsigned long int)1, pfp);
+    ret = (signed int)return_value_fwrite_1;
+    return_value_ferror_10=ferror(pfp);
+    if(return_value_ferror_10 == 0 && ret == 1)
       goto __CPROVER_DUMP_L8;
 
-    return_value___errno_location$2=__errno_location();
-    if(!(*return_value___errno_location$2 == 4))
+    return_value___errno_location_2=__errno_location();
+    if(!(*return_value___errno_location_2 == 4))
       break;
 
     clearerr(pfp);
   }
   while((_Bool)1);
-  _Bool tmp_if_expr$9;
-  signed int *return_value___errno_location$6;
-  _Bool tmp_if_expr$8;
-  signed int *return_value___errno_location$7;
+  _Bool tmp_if_expr_9;
+  signed int *return_value___errno_location_6;
+  _Bool tmp_if_expr_8;
+  signed int *return_value___errno_location_7;
   if(piped_output == 0)
-    tmp_if_expr$9 = (_Bool)1;
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value___errno_location$6=__errno_location();
-    if(!(*return_value___errno_location$6 == 32))
+    return_value___errno_location_6=__errno_location();
+    if(!(*return_value___errno_location_6 == 32))
     {
-      return_value___errno_location$7=__errno_location();
-      tmp_if_expr$8 = *return_value___errno_location$7 != 9 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_7=__errno_location();
+      tmp_if_expr_8 = *return_value___errno_location_7 != 9 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    tmp_if_expr$9 = tmp_if_expr$8 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_8 = (_Bool)0;
+    tmp_if_expr_9 = tmp_if_expr_8 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$9)
+  if(tmp_if_expr_9)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    fprintf(stderr, "write(%d) failed: %d/%s\n", len, *return_value___errno_location$3, return_value_strerror$5);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    fprintf(stderr, "write(%d) failed: %d/%s\n", len, *return_value___errno_location_3, return_value_strerror_5);
   }
 
   goto err;

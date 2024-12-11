@@ -1,122 +1,122 @@
-// #anon_enum$BLOCK_IN=1$BLOCK_OUT=2$BLOCK_ALL=3
+// #anon_enum_BLOCK_IN=1_BLOCK_OUT=2_BLOCK_ALL=3
 // file write.c line 52
-enum anonymous$18 { BLOCK_IN=1, BLOCK_OUT=2, BLOCK_ALL=3 };
+enum anonymous_18 { BLOCK_IN=1, BLOCK_OUT=2, BLOCK_ALL=3 };
 
-// #anon_enum$BLOCK_SIZED=0$BLOCK_UNSIZED=1$BLOCK_CONTINUATION=2
+// #anon_enum_BLOCK_SIZED=0_BLOCK_UNSIZED=1_BLOCK_CONTINUATION=2
 // file read.c line 26
-enum anonymous$2 { BLOCK_SIZED=0, BLOCK_UNSIZED=1, BLOCK_CONTINUATION=2 };
+enum anonymous_2 { BLOCK_SIZED=0, BLOCK_UNSIZED=1, BLOCK_CONTINUATION=2 };
 
-// #anon_enum$LZMA_CHECK_NONE=0$LZMA_CHECK_CRC32=1$LZMA_CHECK_CRC64=4$LZMA_CHECK_SHA256=10
+// #anon_enum_LZMA_CHECK_NONE=0_LZMA_CHECK_CRC32=1_LZMA_CHECK_CRC64=4_LZMA_CHECK_SHA256=10
 // file /usr/include/lzma/check.h line 27
-enum anonymous$12 { LZMA_CHECK_NONE=0, LZMA_CHECK_CRC32=1, LZMA_CHECK_CRC64=4, LZMA_CHECK_SHA256=10 };
+enum anonymous_12 { LZMA_CHECK_NONE=0, LZMA_CHECK_CRC32=1, LZMA_CHECK_CRC64=4, LZMA_CHECK_SHA256=10 };
 
-// #anon_enum$LZMA_INDEX_ITER_ANY=0$LZMA_INDEX_ITER_STREAM=1$LZMA_INDEX_ITER_BLOCK=2$LZMA_INDEX_ITER_NONEMPTY_BLOCK=3
+// #anon_enum_LZMA_INDEX_ITER_ANY=0_LZMA_INDEX_ITER_STREAM=1_LZMA_INDEX_ITER_BLOCK=2_LZMA_INDEX_ITER_NONEMPTY_BLOCK=3
 // file /usr/include/lzma/index.h line 226
-enum anonymous$26 { LZMA_INDEX_ITER_ANY=0, LZMA_INDEX_ITER_STREAM=1, LZMA_INDEX_ITER_BLOCK=2, LZMA_INDEX_ITER_NONEMPTY_BLOCK=3 };
+enum anonymous_26 { LZMA_INDEX_ITER_ANY=0, LZMA_INDEX_ITER_STREAM=1, LZMA_INDEX_ITER_BLOCK=2, LZMA_INDEX_ITER_NONEMPTY_BLOCK=3 };
 
-// #anon_enum$LZMA_MF_HC3=3$LZMA_MF_HC4=4$LZMA_MF_BT2=18$LZMA_MF_BT3=19$LZMA_MF_BT4=20
+// #anon_enum_LZMA_MF_HC3=3_LZMA_MF_HC4=4_LZMA_MF_BT2=18_LZMA_MF_BT3=19_LZMA_MF_BT4=20
 // file /usr/include/lzma/lzma.h line 58
-enum anonymous$21 { LZMA_MF_HC3=3, LZMA_MF_HC4=4, LZMA_MF_BT2=18, LZMA_MF_BT3=19, LZMA_MF_BT4=20 };
+enum anonymous_21 { LZMA_MF_HC3=3, LZMA_MF_HC4=4, LZMA_MF_BT2=18, LZMA_MF_BT3=19, LZMA_MF_BT4=20 };
 
-// #anon_enum$LZMA_MODE_FAST=1$LZMA_MODE_NORMAL=2
+// #anon_enum_LZMA_MODE_FAST=1_LZMA_MODE_NORMAL=2
 // file /usr/include/lzma/lzma.h line 138
-enum anonymous$20 { LZMA_MODE_FAST=1, LZMA_MODE_NORMAL=2 };
+enum anonymous_20 { LZMA_MODE_FAST=1, LZMA_MODE_NORMAL=2 };
 
-// #anon_enum$LZMA_OK=0$LZMA_STREAM_END=1$LZMA_NO_CHECK=2$LZMA_UNSUPPORTED_CHECK=3$LZMA_GET_CHECK=4$LZMA_MEM_ERROR=5$LZMA_MEMLIMIT_ERROR=6$LZMA_FORMAT_ERROR=7$LZMA_OPTIONS_ERROR=8$LZMA_DATA_ERROR=9$LZMA_BUF_ERROR=10$LZMA_PROG_ERROR=11
+// #anon_enum_LZMA_OK=0_LZMA_STREAM_END=1_LZMA_NO_CHECK=2_LZMA_UNSUPPORTED_CHECK=3_LZMA_GET_CHECK=4_LZMA_MEM_ERROR=5_LZMA_MEMLIMIT_ERROR=6_LZMA_FORMAT_ERROR=7_LZMA_OPTIONS_ERROR=8_LZMA_DATA_ERROR=9_LZMA_BUF_ERROR=10_LZMA_PROG_ERROR=11
 // file /usr/include/lzma/base.h line 57
-enum anonymous$3 { LZMA_OK=0, LZMA_STREAM_END=1, LZMA_NO_CHECK=2, LZMA_UNSUPPORTED_CHECK=3, LZMA_GET_CHECK=4, LZMA_MEM_ERROR=5, LZMA_MEMLIMIT_ERROR=6, LZMA_FORMAT_ERROR=7, LZMA_OPTIONS_ERROR=8, LZMA_DATA_ERROR=9, LZMA_BUF_ERROR=10, LZMA_PROG_ERROR=11 };
+enum anonymous_3 { LZMA_OK=0, LZMA_STREAM_END=1, LZMA_NO_CHECK=2, LZMA_UNSUPPORTED_CHECK=3, LZMA_GET_CHECK=4, LZMA_MEM_ERROR=5, LZMA_MEMLIMIT_ERROR=6, LZMA_FORMAT_ERROR=7, LZMA_OPTIONS_ERROR=8, LZMA_DATA_ERROR=9, LZMA_BUF_ERROR=10, LZMA_PROG_ERROR=11 };
 
-// #anon_enum$LZMA_RESERVED_ENUM=0
+// #anon_enum_LZMA_RESERVED_ENUM=0
 // file /usr/include/lzma/base.h line 44
-enum anonymous$7 { LZMA_RESERVED_ENUM=0 };
+enum anonymous_7 { LZMA_RESERVED_ENUM=0 };
 
-// #anon_enum$LZMA_RUN=0$LZMA_SYNC_FLUSH=1$LZMA_FULL_FLUSH=2$LZMA_FINISH=3
+// #anon_enum_LZMA_RUN=0_LZMA_SYNC_FLUSH=1_LZMA_FULL_FLUSH=2_LZMA_FINISH=3
 // file /usr/include/lzma/base.h line 250
-enum anonymous$19 { LZMA_RUN=0, LZMA_SYNC_FLUSH=1, LZMA_FULL_FLUSH=2, LZMA_FINISH=3 };
+enum anonymous_19 { LZMA_RUN=0, LZMA_SYNC_FLUSH=1, LZMA_FULL_FLUSH=2, LZMA_FINISH=3 };
 
-// #anon_enum$OP_WRITE=0$OP_READ=1$OP_EXTRACT=2$OP_LIST=3
+// #anon_enum_OP_WRITE=0_OP_READ=1_OP_EXTRACT=2_OP_LIST=3
 // file pixz.c line 7
-enum anonymous$0 { OP_WRITE=0, OP_READ=1, OP_EXTRACT=2, OP_LIST=3 };
+enum anonymous_0 { OP_WRITE=0, OP_READ=1, OP_EXTRACT=2, OP_LIST=3 };
 
-// #anon_enum$PIPELINE_ITEM=0$PIPELINE_STOP=1
+// #anon_enum_PIPELINE_ITEM=0_PIPELINE_STOP=1
 // file pixz.h line 126
-enum anonymous$1 { PIPELINE_ITEM=0, PIPELINE_STOP=1 };
+enum anonymous_1 { PIPELINE_ITEM=0, PIPELINE_STOP=1 };
 
-// #anon_enum$RBUF_ERR=0$RBUF_EOF=1$RBUF_PART=2$RBUF_FULL=3
+// #anon_enum_RBUF_ERR=0_RBUF_EOF=1_RBUF_PART=2_RBUF_FULL=3
 // file read.c line 70
-enum anonymous$11 { RBUF_ERR=0, RBUF_EOF=1, RBUF_PART=2, RBUF_FULL=3 };
+enum anonymous_11 { RBUF_ERR=0, RBUF_EOF=1, RBUF_PART=2, RBUF_FULL=3 };
 
-// tag-#anon#ST[*{*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$}$*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$$'alloc'||*{V(*{V}$V$|*{V}$V$)->V}$V(*{V}$V$|*{V}$V$)->V$'free'||*{V}$V$'opaque'|]
+// tag-#anon#ST[*{*{V}_V_(*{V}_V_|U64|U64)->*{V}_V_}_*{V}_V_(*{V}_V_|U64|U64)->*{V}_V__'alloc'||*{V(*{V}_V_|*{V}_V_)->V}_V(*{V}_V_|*{V}_V_)->V_'free'||*{V}_V_'opaque'|]
 // file /usr/include/lzma/base.h line 349
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[*{SYM#tag-queue_item_t#}$SYM#tag-queue_item_t#$'first'||*{SYM#tag-queue_item_t#}$SYM#tag-queue_item_t#$'last'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'mutex'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'pop_cond'||*{V(S32|*{V}$V$)->V}$V(S32|*{V}$V$)->V$'freer'|]
+// tag-#anon#ST[*{SYM#tag-queue_item_t#}_SYM#tag-queue_item_t#_'first'||*{SYM#tag-queue_item_t#}_SYM#tag-queue_item_t#_'last'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'mutex'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'pop_cond'||*{V(S32|*{V}_V_)->V}_V(S32|*{V}_V_)->V_'freer'|]
 // file pixz.h line 103
 struct anonymous;
 
-// tag-#anon#ST[*{U8}$U8$'input'||*{U8}$U8$'output'||U64'incap'||U64'outcap'||U64'insize'||U64'outsize'||S64'uoffset'||EN#anon_enum$LZMA_CHECK_NONE=0$LZMA_CHECK_CRC32=1$LZMA_CHECK_CRC64=4$LZMA_CHECK_SHA256=10#{U32}$U32$'check'||EN#anon_enum$BLOCK_SIZED=0$BLOCK_UNSIZED=1$BLOCK_CONTINUATION=2#{U32}$U32$'btype'|]
+// tag-#anon#ST[*{U8}_U8_'input'||*{U8}_U8_'output'||U64'incap'||U64'outcap'||U64'insize'||U64'outsize'||S64'uoffset'||EN#anon_enum_LZMA_CHECK_NONE=0_LZMA_CHECK_CRC32=1_LZMA_CHECK_CRC64=4_LZMA_CHECK_SHA256=10#{U32}_U32_'check'||EN#anon_enum_BLOCK_SIZED=0_BLOCK_UNSIZED=1_BLOCK_CONTINUATION=2#{U32}_U32_'btype'|]
 // file read.c line 28
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[*{cSYM#tag-#anon#ST[U32'version'||U32'$pad0'||U64'backward_size'||EN#anon_enum$LZMA_CHECK_NONE=0$LZMA_CHECK_CRC32=1$LZMA_CHECK_CRC64=4$LZMA_CHECK_SHA256=10#{U32}$U32$'check'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum1'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum2'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum3'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum4'||U8'reserved_bool1'||U8'reserved_bool2'||U8'reserved_bool3'||U8'reserved_bool4'||U8'reserved_bool5'||U8'reserved_bool6'||U8'reserved_bool7'||U8'reserved_bool8'||U32'reserved_int1'||U32'reserved_int2'||U32'$pad1'|]#}$cSYM#tag-#anon#ST[U32'version'||U32'$pad0'||U64'backward_size'||EN#anon_enum$LZMA_CHECK_NONE=0$LZMA_CHECK_CRC32=1$LZMA_CHECK_CRC64=4$LZMA_CHECK_SHA256=10#{U32}$U32$'check'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum1'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum2'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum3'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum4'||U8'reserved_bool1'||U8'reserved_bool2'||U8'reserved_bool3'||U8'reserved_bool4'||U8'reserved_bool5'||U8'reserved_bool6'||U8'reserved_bool7'||U8'reserved_bool8'||U32'reserved_int1'||U32'reserved_int2'||U32'$pad1'|]#$'flags'||*{cV}$cV$'reserved_ptr1'||*{cV}$cV$'reserved_ptr2'||*{cV}$cV$'reserved_ptr3'||U64'number'||U64'block_count'||U64'compressed_offset'||U64'uncompressed_offset'||U64'compressed_size'||U64'uncompressed_size'||U64'padding'||U64'reserved_vli1'||U64'reserved_vli2'||U64'reserved_vli3'||U64'reserved_vli4'|]
+// tag-#anon#ST[*{cSYM#tag-#anon#ST[U32'version'||U32'_pad0'||U64'backward_size'||EN#anon_enum_LZMA_CHECK_NONE=0_LZMA_CHECK_CRC32=1_LZMA_CHECK_CRC64=4_LZMA_CHECK_SHA256=10#{U32}_U32_'check'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum1'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum2'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum3'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum4'||U8'reserved_bool1'||U8'reserved_bool2'||U8'reserved_bool3'||U8'reserved_bool4'||U8'reserved_bool5'||U8'reserved_bool6'||U8'reserved_bool7'||U8'reserved_bool8'||U32'reserved_int1'||U32'reserved_int2'||U32'_pad1'|]#}_cSYM#tag-#anon#ST[U32'version'||U32'_pad0'||U64'backward_size'||EN#anon_enum_LZMA_CHECK_NONE=0_LZMA_CHECK_CRC32=1_LZMA_CHECK_CRC64=4_LZMA_CHECK_SHA256=10#{U32}_U32_'check'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum1'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum2'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum3'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum4'||U8'reserved_bool1'||U8'reserved_bool2'||U8'reserved_bool3'||U8'reserved_bool4'||U8'reserved_bool5'||U8'reserved_bool6'||U8'reserved_bool7'||U8'reserved_bool8'||U32'reserved_int1'||U32'reserved_int2'||U32'_pad1'|]#_'flags'||*{cV}_cV_'reserved_ptr1'||*{cV}_cV_'reserved_ptr2'||*{cV}_cV_'reserved_ptr3'||U64'number'||U64'block_count'||U64'compressed_offset'||U64'uncompressed_offset'||U64'compressed_size'||U64'uncompressed_size'||U64'padding'||U64'reserved_vli1'||U64'reserved_vli2'||U64'reserved_vli3'||U64'reserved_vli4'|]
 // file /usr/include/lzma/index.h line 44
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[*{cU8}$cU8$'next_in'||U64'avail_in'||U64'total_in'||*{U8}$U8$'next_out'||U64'avail_out'||U64'total_out'||*{SYM#tag-#anon#ST[*{*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$}$*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$$'alloc'||*{V(*{V}$V$|*{V}$V$)->V}$V(*{V}$V$|*{V}$V$)->V$'free'||*{V}$V$'opaque'|]#}$SYM#tag-#anon#ST[*{*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$}$*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$$'alloc'||*{V(*{V}$V$|*{V}$V$)->V}$V(*{V}$V$|*{V}$V$)->V$'free'||*{V}$V$'opaque'|]#$'allocator'||*{SYM#tag-lzma_internal_s#}$SYM#tag-lzma_internal_s#$'internal'||*{V}$V$'reserved_ptr1'||*{V}$V$'reserved_ptr2'||*{V}$V$'reserved_ptr3'||*{V}$V$'reserved_ptr4'||U64'reserved_int1'||U64'reserved_int2'||U64'reserved_int3'||U64'reserved_int4'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum1'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum2'|]
+// tag-#anon#ST[*{cU8}_cU8_'next_in'||U64'avail_in'||U64'total_in'||*{U8}_U8_'next_out'||U64'avail_out'||U64'total_out'||*{SYM#tag-#anon#ST[*{*{V}_V_(*{V}_V_|U64|U64)->*{V}_V_}_*{V}_V_(*{V}_V_|U64|U64)->*{V}_V__'alloc'||*{V(*{V}_V_|*{V}_V_)->V}_V(*{V}_V_|*{V}_V_)->V_'free'||*{V}_V_'opaque'|]#}_SYM#tag-#anon#ST[*{*{V}_V_(*{V}_V_|U64|U64)->*{V}_V_}_*{V}_V_(*{V}_V_|U64|U64)->*{V}_V__'alloc'||*{V(*{V}_V_|*{V}_V_)->V}_V(*{V}_V_|*{V}_V_)->V_'free'||*{V}_V_'opaque'|]#_'allocator'||*{SYM#tag-lzma_internal_s#}_SYM#tag-lzma_internal_s#_'internal'||*{V}_V_'reserved_ptr1'||*{V}_V_'reserved_ptr2'||*{V}_V_'reserved_ptr3'||*{V}_V_'reserved_ptr4'||U64'reserved_int1'||U64'reserved_int2'||U64'reserved_int3'||U64'reserved_int4'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum1'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum2'|]
 // file /usr/include/lzma/base.h line 461
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[ARR512{U8}$U8$'buf'||S64'pos'||U64'size'|]
+// tag-#anon#ST[ARR512{U8}_U8_'buf'||S64'pos'||U64'size'|]
 // file common.c line 251
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[*{cSYM#tag-#anon#ST[U32'version'||U32'$pad0'||U64'backward_size'||EN#anon_enum$LZMA_CHECK_NONE=0$LZMA_CHECK_CRC32=1$LZMA_CHECK_CRC64=4$LZMA_CHECK_SHA256=10#{U32}$U32$'check'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum1'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum2'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum3'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum4'||U8'reserved_bool1'||U8'reserved_bool2'||U8'reserved_bool3'||U8'reserved_bool4'||U8'reserved_bool5'||U8'reserved_bool6'||U8'reserved_bool7'||U8'reserved_bool8'||U32'reserved_int1'||U32'reserved_int2'||U32'$pad1'|]#}$cSYM#tag-#anon#ST[U32'version'||U32'$pad0'||U64'backward_size'||EN#anon_enum$LZMA_CHECK_NONE=0$LZMA_CHECK_CRC32=1$LZMA_CHECK_CRC64=4$LZMA_CHECK_SHA256=10#{U32}$U32$'check'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum1'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum2'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum3'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum4'||U8'reserved_bool1'||U8'reserved_bool2'||U8'reserved_bool3'||U8'reserved_bool4'||U8'reserved_bool5'||U8'reserved_bool6'||U8'reserved_bool7'||U8'reserved_bool8'||U32'reserved_int1'||U32'reserved_int2'||U32'$pad1'|]#$'flags'||*{cV}$cV$'reserved_ptr1'||*{cV}$cV$'reserved_ptr2'||*{cV}$cV$'reserved_ptr3'||U64'number'||U64'block_count'||U64'compressed_offset'||U64'uncompressed_offset'||U64'compressed_size'||U64'uncompressed_size'||U64'padding'||U64'reserved_vli1'||U64'reserved_vli2'||U64'reserved_vli3'||U64'reserved_vli4'|]#'stream'||SYM#tag-#anon#ST[U64'number_in_file'||U64'compressed_file_offset'||U64'uncompressed_file_offset'||U64'number_in_stream'||U64'compressed_stream_offset'||U64'uncompressed_stream_offset'||U64'uncompressed_size'||U64'unpadded_size'||U64'total_size'||U64'reserved_vli1'||U64'reserved_vli2'||U64'reserved_vli3'||U64'reserved_vli4'||*{cV}$cV$'reserved_ptr1'||*{cV}$cV$'reserved_ptr2'||*{cV}$cV$'reserved_ptr3'||*{cV}$cV$'reserved_ptr4'|]#'block'||ARR6{SYM#tag-#anon#UN[*{cV}$cV$'p'||U64's'||U64'v'|]#}$SYM#tag-#anon#UN[*{cV}$cV$'p'||U64's'||U64'v'|]#$'internal'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[*{cSYM#tag-#anon#ST[U32'version'||U32'_pad0'||U64'backward_size'||EN#anon_enum_LZMA_CHECK_NONE=0_LZMA_CHECK_CRC32=1_LZMA_CHECK_CRC64=4_LZMA_CHECK_SHA256=10#{U32}_U32_'check'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum1'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum2'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum3'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum4'||U8'reserved_bool1'||U8'reserved_bool2'||U8'reserved_bool3'||U8'reserved_bool4'||U8'reserved_bool5'||U8'reserved_bool6'||U8'reserved_bool7'||U8'reserved_bool8'||U32'reserved_int1'||U32'reserved_int2'||U32'_pad1'|]#}_cSYM#tag-#anon#ST[U32'version'||U32'_pad0'||U64'backward_size'||EN#anon_enum_LZMA_CHECK_NONE=0_LZMA_CHECK_CRC32=1_LZMA_CHECK_CRC64=4_LZMA_CHECK_SHA256=10#{U32}_U32_'check'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum1'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum2'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum3'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum4'||U8'reserved_bool1'||U8'reserved_bool2'||U8'reserved_bool3'||U8'reserved_bool4'||U8'reserved_bool5'||U8'reserved_bool6'||U8'reserved_bool7'||U8'reserved_bool8'||U32'reserved_int1'||U32'reserved_int2'||U32'_pad1'|]#_'flags'||*{cV}_cV_'reserved_ptr1'||*{cV}_cV_'reserved_ptr2'||*{cV}_cV_'reserved_ptr3'||U64'number'||U64'block_count'||U64'compressed_offset'||U64'uncompressed_offset'||U64'compressed_size'||U64'uncompressed_size'||U64'padding'||U64'reserved_vli1'||U64'reserved_vli2'||U64'reserved_vli3'||U64'reserved_vli4'|]#'stream'||SYM#tag-#anon#ST[U64'number_in_file'||U64'compressed_file_offset'||U64'uncompressed_file_offset'||U64'number_in_stream'||U64'compressed_stream_offset'||U64'uncompressed_stream_offset'||U64'uncompressed_size'||U64'unpadded_size'||U64'total_size'||U64'reserved_vli1'||U64'reserved_vli2'||U64'reserved_vli3'||U64'reserved_vli4'||*{cV}_cV_'reserved_ptr1'||*{cV}_cV_'reserved_ptr2'||*{cV}_cV_'reserved_ptr3'||*{cV}_cV_'reserved_ptr4'|]#'block'||ARR6{SYM#tag-#anon#UN[*{cV}_cV_'p'||U64's'||U64'v'|]#}_SYM#tag-#anon#UN[*{cV}_cV_'p'||U64's'||U64'v'|]#_'internal'|]
 // file /usr/include/lzma/index.h line 43
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[U32'version'||U32'header_size'||EN#anon_enum$LZMA_CHECK_NONE=0$LZMA_CHECK_CRC32=1$LZMA_CHECK_CRC64=4$LZMA_CHECK_SHA256=10#{U32}$U32$'check'||U32'$pad0'||U64'compressed_size'||U64'uncompressed_size'||*{SYM#tag-#anon#ST[U64'id'||*{V}$V$'options'|]#}$SYM#tag-#anon#ST[U64'id'||*{V}$V$'options'|]#$'filters'||ARR64{U8}$U8$'raw_check'||*{V}$V$'reserved_ptr1'||*{V}$V$'reserved_ptr2'||*{V}$V$'reserved_ptr3'||U32'reserved_int1'||U32'reserved_int2'||U64'reserved_int3'||U64'reserved_int4'||U64'reserved_int5'||U64'reserved_int6'||U64'reserved_int7'||U64'reserved_int8'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum1'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum2'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum3'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum4'||U8'reserved_bool1'||U8'reserved_bool2'||U8'reserved_bool3'||U8'reserved_bool4'||U8'reserved_bool5'||U8'reserved_bool6'||U8'reserved_bool7'||U8'reserved_bool8'|]#'block'||ARR5{SYM#tag-#anon#ST[U64'id'||*{V}$V$'options'|]#}$SYM#tag-#anon#ST[U64'id'||*{V}$V$'options'|]#$'filters'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[U32'version'||U32'header_size'||EN#anon_enum_LZMA_CHECK_NONE=0_LZMA_CHECK_CRC32=1_LZMA_CHECK_CRC64=4_LZMA_CHECK_SHA256=10#{U32}_U32_'check'||U32'_pad0'||U64'compressed_size'||U64'uncompressed_size'||*{SYM#tag-#anon#ST[U64'id'||*{V}_V_'options'|]#}_SYM#tag-#anon#ST[U64'id'||*{V}_V_'options'|]#_'filters'||ARR64{U8}_U8_'raw_check'||*{V}_V_'reserved_ptr1'||*{V}_V_'reserved_ptr2'||*{V}_V_'reserved_ptr3'||U32'reserved_int1'||U32'reserved_int2'||U64'reserved_int3'||U64'reserved_int4'||U64'reserved_int5'||U64'reserved_int6'||U64'reserved_int7'||U64'reserved_int8'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum1'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum2'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum3'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum4'||U8'reserved_bool1'||U8'reserved_bool2'||U8'reserved_bool3'||U8'reserved_bool4'||U8'reserved_bool5'||U8'reserved_bool6'||U8'reserved_bool7'||U8'reserved_bool8'|]#'block'||ARR5{SYM#tag-#anon#ST[U64'id'||*{V}_V_'options'|]#}_SYM#tag-#anon#ST[U64'id'||*{V}_V_'options'|]#_'filters'|]
 // file common.c line 84
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[U32'dict_size'||U32'$pad0'||*{cU8}$cU8$'preset_dict'||U32'preset_dict_size'||U32'lc'||U32'lp'||U32'pb'||EN#anon_enum$LZMA_MODE_FAST=1$LZMA_MODE_NORMAL=2#{U32}$U32$'mode'||U32'nice_len'||EN#anon_enum$LZMA_MF_HC3=3$LZMA_MF_HC4=4$LZMA_MF_BT2=18$LZMA_MF_BT3=19$LZMA_MF_BT4=20#{U32}$U32$'mf'||U32'depth'||U32'reserved_int1'||U32'reserved_int2'||U32'reserved_int3'||U32'reserved_int4'||U32'reserved_int5'||U32'reserved_int6'||U32'reserved_int7'||U32'reserved_int8'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum1'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum2'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum3'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum4'||*{V}$V$'reserved_ptr1'||*{V}$V$'reserved_ptr2'|]
+// tag-#anon#ST[U32'dict_size'||U32'_pad0'||*{cU8}_cU8_'preset_dict'||U32'preset_dict_size'||U32'lc'||U32'lp'||U32'pb'||EN#anon_enum_LZMA_MODE_FAST=1_LZMA_MODE_NORMAL=2#{U32}_U32_'mode'||U32'nice_len'||EN#anon_enum_LZMA_MF_HC3=3_LZMA_MF_HC4=4_LZMA_MF_BT2=18_LZMA_MF_BT3=19_LZMA_MF_BT4=20#{U32}_U32_'mf'||U32'depth'||U32'reserved_int1'||U32'reserved_int2'||U32'reserved_int3'||U32'reserved_int4'||U32'reserved_int5'||U32'reserved_int6'||U32'reserved_int7'||U32'reserved_int8'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum1'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum2'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum3'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum4'||*{V}_V_'reserved_ptr1'||*{V}_V_'reserved_ptr2'|]
 // file /usr/include/lzma/lzma.h line 185
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[U32'version'||U32'$pad0'||U64'backward_size'||EN#anon_enum$LZMA_CHECK_NONE=0$LZMA_CHECK_CRC32=1$LZMA_CHECK_CRC64=4$LZMA_CHECK_SHA256=10#{U32}$U32$'check'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum1'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum2'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum3'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum4'||U8'reserved_bool1'||U8'reserved_bool2'||U8'reserved_bool3'||U8'reserved_bool4'||U8'reserved_bool5'||U8'reserved_bool6'||U8'reserved_bool7'||U8'reserved_bool8'||U32'reserved_int1'||U32'reserved_int2'||U32'$pad1'|]
+// tag-#anon#ST[U32'version'||U32'_pad0'||U64'backward_size'||EN#anon_enum_LZMA_CHECK_NONE=0_LZMA_CHECK_CRC32=1_LZMA_CHECK_CRC64=4_LZMA_CHECK_SHA256=10#{U32}_U32_'check'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum1'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum2'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum3'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum4'||U8'reserved_bool1'||U8'reserved_bool2'||U8'reserved_bool3'||U8'reserved_bool4'||U8'reserved_bool5'||U8'reserved_bool6'||U8'reserved_bool7'||U8'reserved_bool8'||U32'reserved_int1'||U32'reserved_int2'||U32'_pad1'|]
 // file /usr/include/lzma/stream_flags.h line 33
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[U32'version'||U32'header_size'||EN#anon_enum$LZMA_CHECK_NONE=0$LZMA_CHECK_CRC32=1$LZMA_CHECK_CRC64=4$LZMA_CHECK_SHA256=10#{U32}$U32$'check'||U32'$pad0'||U64'compressed_size'||U64'uncompressed_size'||*{SYM#tag-#anon#ST[U64'id'||*{V}$V$'options'|]#}$SYM#tag-#anon#ST[U64'id'||*{V}$V$'options'|]#$'filters'||ARR64{U8}$U8$'raw_check'||*{V}$V$'reserved_ptr1'||*{V}$V$'reserved_ptr2'||*{V}$V$'reserved_ptr3'||U32'reserved_int1'||U32'reserved_int2'||U64'reserved_int3'||U64'reserved_int4'||U64'reserved_int5'||U64'reserved_int6'||U64'reserved_int7'||U64'reserved_int8'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum1'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum2'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum3'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum4'||U8'reserved_bool1'||U8'reserved_bool2'||U8'reserved_bool3'||U8'reserved_bool4'||U8'reserved_bool5'||U8'reserved_bool6'||U8'reserved_bool7'||U8'reserved_bool8'|]
+// tag-#anon#ST[U32'version'||U32'header_size'||EN#anon_enum_LZMA_CHECK_NONE=0_LZMA_CHECK_CRC32=1_LZMA_CHECK_CRC64=4_LZMA_CHECK_SHA256=10#{U32}_U32_'check'||U32'_pad0'||U64'compressed_size'||U64'uncompressed_size'||*{SYM#tag-#anon#ST[U64'id'||*{V}_V_'options'|]#}_SYM#tag-#anon#ST[U64'id'||*{V}_V_'options'|]#_'filters'||ARR64{U8}_U8_'raw_check'||*{V}_V_'reserved_ptr1'||*{V}_V_'reserved_ptr2'||*{V}_V_'reserved_ptr3'||U32'reserved_int1'||U32'reserved_int2'||U64'reserved_int3'||U64'reserved_int4'||U64'reserved_int5'||U64'reserved_int6'||U64'reserved_int7'||U64'reserved_int8'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum1'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum2'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum3'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum4'||U8'reserved_bool1'||U8'reserved_bool2'||U8'reserved_bool3'||U8'reserved_bool4'||U8'reserved_bool5'||U8'reserved_bool6'||U8'reserved_bool7'||U8'reserved_bool8'|]
 // file /usr/include/lzma/block.h line 30
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[U64'id'||*{V}$V$'options'|]
+// tag-#anon#ST[U64'id'||*{V}_V_'options'|]
 // file /usr/include/lzma/filter.h line 43
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[U64'number_in_file'||U64'compressed_file_offset'||U64'uncompressed_file_offset'||U64'number_in_stream'||U64'compressed_stream_offset'||U64'uncompressed_stream_offset'||U64'uncompressed_size'||U64'unpadded_size'||U64'total_size'||U64'reserved_vli1'||U64'reserved_vli2'||U64'reserved_vli3'||U64'reserved_vli4'||*{cV}$cV$'reserved_ptr1'||*{cV}$cV$'reserved_ptr2'||*{cV}$cV$'reserved_ptr3'||*{cV}$cV$'reserved_ptr4'|]
+// tag-#anon#ST[U64'number_in_file'||U64'compressed_file_offset'||U64'uncompressed_file_offset'||U64'number_in_stream'||U64'compressed_stream_offset'||U64'uncompressed_stream_offset'||U64'uncompressed_size'||U64'unpadded_size'||U64'total_size'||U64'reserved_vli1'||U64'reserved_vli2'||U64'reserved_vli3'||U64'reserved_vli4'||*{cV}_cV_'reserved_ptr1'||*{cV}_cV_'reserved_ptr2'||*{cV}_cV_'reserved_ptr3'||*{cV}_cV_'reserved_ptr4'|]
 // file /usr/include/lzma/index.h line 116
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#UN[*{cV}$cV$'p'||U64's'||U64'v'|]
+// tag-#anon#UN[*{cV}_cV_'p'||U64's'||U64'v'|]
 // file /usr/include/lzma/index.h line 215
-union anonymous$25;
+union anonymous_25;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$28;
+union anonymous_28;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$27;
+union anonymous_27;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -230,40 +230,40 @@ signed int archive_read_support_format_raw(struct archive *);
 signed int archive_read_support_format_tar(struct archive *);
 // auto_output
 // file pixz.c line 185
-static char * auto_output(enum anonymous$0 op, char *in);
+static char * auto_output(enum anonymous_0 op, char *in);
 // block_alloc
 // file write.c line 260
-static void block_alloc(struct io_block_t *ib, enum anonymous$18 parts);
+static void block_alloc(struct io_block_t *ib, enum anonymous_18 parts);
 // block_capacity
 // file read.c line 292
-static void block_capacity(struct anonymous$4 *ib, unsigned long int incap, unsigned long int outcap);
+static void block_capacity(struct anonymous_4 *ib, unsigned long int incap, unsigned long int outcap);
 // block_create
 // file read.c line 199
 static void * block_create(void);
-// block_create$link1
+// block_create_link1
 // file write.c line 254
-static void * block_create$link1();
+static void * block_create_link1();
 // block_dealloc
 // file write.c line 269
-static void block_dealloc(struct io_block_t *ib, enum anonymous$18 parts);
+static void block_dealloc(struct io_block_t *ib, enum anonymous_18 parts);
 // block_free
 // file read.c line 206
 static void block_free(void *data);
-// block_free$link1
+// block_free_link1
 // file write.c line 247
-static void block_free$link1(void *data$link1);
+static void block_free_link1(void *data_link1);
 // block_init
 // file write.c line 397
-static void block_init(struct anonymous$16 *block, unsigned long int insize);
+static void block_init(struct anonymous_16 *block, unsigned long int insize);
 // bw_read
 // file common.c line 257
-static unsigned int * bw_read(struct anonymous$17 *b);
+static unsigned int * bw_read(struct anonymous_17 *b);
 // ceil
 // file /usr/include/x86_64-linux-gnu/bits/mathcalls.h line 178
 extern double ceil(double);
 // decode_file_index_start
 // file common.c line 89
-static void * decode_file_index_start(signed long int block_seek, enum anonymous$12 check);
+static void * decode_file_index_start(signed long int block_seek, enum anonymous_12 check);
 // decode_index
 // file common.c line 346
 _Bool decode_index(void);
@@ -336,15 +336,15 @@ extern signed long int ftello(struct _IO_FILE *);
 // fwrite
 // file /usr/include/stdio.h line 715
 extern unsigned long int fwrite(const void *, unsigned long int, unsigned long int, struct _IO_FILE *);
-// gPLFreer$object
+// gPLFreer_object
 //
-void gPLFreer$object(void *);
-// gPLProcess$object
+void gPLFreer_object(void *);
+// gPLProcess_object
 //
-void gPLProcess$object(unsigned long int);
-// gPLSplit$object
+void gPLProcess_object(unsigned long int);
+// gPLSplit_object
 //
-void gPLSplit$object(void);
+void gPLSplit_object(void);
 // getopt
 // file /usr/include/getopt.h line 150
 extern signed int getopt(signed int, char * const *, const char *);
@@ -359,73 +359,73 @@ extern signed int isatty(signed int);
 extern unsigned long int lzma_block_buffer_bound(unsigned long int);
 // lzma_block_decoder
 // file /usr/include/lzma/block.h line 440
-extern enum anonymous$3 lzma_block_decoder(struct anonymous$5 *, struct anonymous$16 *);
+extern enum anonymous_3 lzma_block_decoder(struct anonymous_5 *, struct anonymous_16 *);
 // lzma_block_encoder
 // file /usr/include/lzma/block.h line 422
-extern enum anonymous$3 lzma_block_encoder(struct anonymous$5 *, struct anonymous$16 *);
+extern enum anonymous_3 lzma_block_encoder(struct anonymous_5 *, struct anonymous_16 *);
 // lzma_block_header_decode
 // file /usr/include/lzma/block.h line 343
-extern enum anonymous$3 lzma_block_header_decode(struct anonymous$16 *, struct anonymous$6 *, const unsigned char *);
+extern enum anonymous_3 lzma_block_header_decode(struct anonymous_16 *, struct anonymous_6 *, const unsigned char *);
 // lzma_block_header_encode
 // file /usr/include/lzma/block.h line 305
-extern enum anonymous$3 lzma_block_header_encode(const struct anonymous$16 *, unsigned char *);
+extern enum anonymous_3 lzma_block_header_encode(const struct anonymous_16 *, unsigned char *);
 // lzma_block_header_size
 // file /usr/include/lzma/block.h line 283
-extern enum anonymous$3 lzma_block_header_size(struct anonymous$16 *);
+extern enum anonymous_3 lzma_block_header_size(struct anonymous_16 *);
 // lzma_block_total_size
 // file /usr/include/lzma/block.h line 404
-extern unsigned long int lzma_block_total_size(const struct anonymous$16 *);
+extern unsigned long int lzma_block_total_size(const struct anonymous_16 *);
 // lzma_block_unpadded_size
 // file /usr/include/lzma/block.h line 391
-extern unsigned long int lzma_block_unpadded_size(const struct anonymous$16 *);
+extern unsigned long int lzma_block_unpadded_size(const struct anonymous_16 *);
 // lzma_check_size
 // file /usr/include/lzma/check.h line 95
-extern unsigned int lzma_check_size(enum anonymous$12);
+extern unsigned int lzma_check_size(enum anonymous_12);
 // lzma_code
 // file /usr/include/lzma/base.h line 537
-extern enum anonymous$3 lzma_code(struct anonymous$5 *, enum anonymous$19);
+extern enum anonymous_3 lzma_code(struct anonymous_5 *, enum anonymous_19);
 // lzma_crc32
 // file /usr/include/lzma/check.h line 119
 extern unsigned int lzma_crc32(const unsigned char *, unsigned long int, unsigned int);
 // lzma_end
 // file /usr/include/lzma/base.h line 554
-extern void lzma_end(struct anonymous$5 *);
+extern void lzma_end(struct anonymous_5 *);
 // lzma_index_append
 // file /usr/include/lzma/index.h line 343
-extern enum anonymous$3 lzma_index_append(struct lzma_index_s *, struct anonymous$6 *, unsigned long int, unsigned long int);
+extern enum anonymous_3 lzma_index_append(struct lzma_index_s *, struct anonymous_6 *, unsigned long int, unsigned long int);
 // lzma_index_cat
 // file /usr/include/lzma/index.h line 567
-extern enum anonymous$3 lzma_index_cat(struct lzma_index_s *, struct lzma_index_s *, struct anonymous$6 *);
+extern enum anonymous_3 lzma_index_cat(struct lzma_index_s *, struct lzma_index_s *, struct anonymous_6 *);
 // lzma_index_decoder
 // file /usr/include/lzma/index.h line 624
-extern enum anonymous$3 lzma_index_decoder(struct anonymous$5 *, struct lzma_index_s **, unsigned long int);
+extern enum anonymous_3 lzma_index_decoder(struct anonymous_5 *, struct lzma_index_s **, unsigned long int);
 // lzma_index_encoder
 // file /usr/include/lzma/index.h line 596
-extern enum anonymous$3 lzma_index_encoder(struct anonymous$5 *, const struct lzma_index_s *);
+extern enum anonymous_3 lzma_index_encoder(struct anonymous_5 *, const struct lzma_index_s *);
 // lzma_index_end
 // file /usr/include/lzma/index.h line 315
-extern void lzma_index_end(struct lzma_index_s *, struct anonymous$6 *);
+extern void lzma_index_end(struct lzma_index_s *, struct anonymous_6 *);
 // lzma_index_init
 // file /usr/include/lzma/index.h line 306
-extern struct lzma_index_s * lzma_index_init(struct anonymous$6 *);
+extern struct lzma_index_s * lzma_index_init(struct anonymous_6 *);
 // lzma_index_iter_init
 // file /usr/include/lzma/index.h line 487
-extern void lzma_index_iter_init(struct anonymous$13 *, const struct lzma_index_s *);
+extern void lzma_index_iter_init(struct anonymous_13 *, const struct lzma_index_s *);
 // lzma_index_iter_locate
 // file /usr/include/lzma/index.h line 542
-extern unsigned char lzma_index_iter_locate(struct anonymous$13 *, unsigned long int);
+extern unsigned char lzma_index_iter_locate(struct anonymous_13 *, unsigned long int);
 // lzma_index_iter_next
 // file /usr/include/lzma/index.h line 514
-extern unsigned char lzma_index_iter_next(struct anonymous$13 *, enum anonymous$26);
+extern unsigned char lzma_index_iter_next(struct anonymous_13 *, enum anonymous_26);
 // lzma_index_size
 // file /usr/include/lzma/index.h line 424
 extern unsigned long int lzma_index_size(const struct lzma_index_s *);
 // lzma_index_stream_flags
 // file /usr/include/lzma/index.h line 365
-extern enum anonymous$3 lzma_index_stream_flags(struct lzma_index_s *, const struct anonymous$8 *);
+extern enum anonymous_3 lzma_index_stream_flags(struct lzma_index_s *, const struct anonymous_8 *);
 // lzma_index_stream_padding
 // file /usr/include/lzma/index.h line 397
-extern enum anonymous$3 lzma_index_stream_padding(struct lzma_index_s *, unsigned long int);
+extern enum anonymous_3 lzma_index_stream_padding(struct lzma_index_s *, unsigned long int);
 // lzma_index_stream_size
 // file /usr/include/lzma/index.h line 435
 extern unsigned long int lzma_index_stream_size(const struct lzma_index_s *);
@@ -434,19 +434,19 @@ extern unsigned long int lzma_index_stream_size(const struct lzma_index_s *);
 extern unsigned long int lzma_index_uncompressed_size(const struct lzma_index_s *);
 // lzma_lzma_preset
 // file /usr/include/lzma/lzma.h line 419
-extern unsigned char lzma_lzma_preset(struct anonymous$22 *, unsigned int);
+extern unsigned char lzma_lzma_preset(struct anonymous_22 *, unsigned int);
 // lzma_stream_footer_decode
 // file /usr/include/lzma/stream_flags.h line 201
-extern enum anonymous$3 lzma_stream_footer_decode(struct anonymous$8 *, const unsigned char *);
+extern enum anonymous_3 lzma_stream_footer_decode(struct anonymous_8 *, const unsigned char *);
 // lzma_stream_footer_encode
 // file /usr/include/lzma/stream_flags.h line 139
-extern enum anonymous$3 lzma_stream_footer_encode(const struct anonymous$8 *, unsigned char *);
+extern enum anonymous_3 lzma_stream_footer_encode(const struct anonymous_8 *, unsigned char *);
 // lzma_stream_header_decode
 // file /usr/include/lzma/stream_flags.h line 174
-extern enum anonymous$3 lzma_stream_header_decode(struct anonymous$8 *, const unsigned char *);
+extern enum anonymous_3 lzma_stream_header_decode(struct anonymous_8 *, const unsigned char *);
 // lzma_stream_header_encode
 // file /usr/include/lzma/stream_flags.h line 122
-extern enum anonymous$3 lzma_stream_header_encode(const struct anonymous$8 *, unsigned char *);
+extern enum anonymous_3 lzma_stream_header_encode(const struct anonymous_8 *, unsigned char *);
 // malloc
 // file /usr/include/stdlib.h line 466
 extern void * malloc(unsigned long int);
@@ -477,18 +477,18 @@ extern signed int open(const char *, signed int, ...);
 // pipeline_create
 // file common.c line 453
 void pipeline_create(void * (*create)(void), void (*destroy)(void *), void (*split)(void), void (*process)(unsigned long int));
-// pipeline_create::create$object
+// pipeline_create::create_object
 //
-void * create$object(void);
-// pipeline_create::destroy$object
+void * create_object(void);
+// pipeline_create::destroy_object
 //
-void destroy$object(void *);
-// pipeline_create::process$object
+void destroy_object(void *);
+// pipeline_create::process_object
 //
-void process$object(unsigned long int);
-// pipeline_create::split$object
+void process_object(unsigned long int);
+// pipeline_create::split_object
 //
-void split$object(void);
+void split_object(void);
 // pipeline_destroy
 // file common.c line 534
 void pipeline_destroy(void);
@@ -527,16 +527,16 @@ void pixz_write(_Bool tar, unsigned int level);
 extern signed int printf(const char *, ...);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$10 *);
+extern signed int pthread_cond_destroy(union anonymous_10 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$10 *, const union anonymous$28 *);
+extern signed int pthread_cond_init(union anonymous_10 *, const union anonymous_28 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$10 *);
+extern signed int pthread_cond_signal(union anonymous_10 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$10 *, union anonymous$27 *);
+extern signed int pthread_cond_wait(union anonymous_10 *, union anonymous_27 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -545,25 +545,25 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$27 *);
+extern signed int pthread_mutex_destroy(union anonymous_27 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$27 *, const union anonymous$28 *);
+extern signed int pthread_mutex_init(union anonymous_27 *, const union anonymous_28 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$27 *);
+extern signed int pthread_mutex_lock(union anonymous_27 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$27 *);
+extern signed int pthread_mutex_unlock(union anonymous_27 *);
 // queue_free
 // file common.c line 377
 void queue_free(struct anonymous *q);
 // queue_new
 // file common.c line 368
 struct anonymous * queue_new(void (*freer)(signed int, void *));
-// queue_new::freer$object
+// queue_new::freer_object
 //
-void freer$object(signed int, void *);
+void freer_object(signed int, void *);
 // queue_pop
 // file common.c line 409
 signed int queue_pop(struct anonymous *q, void **datap);
@@ -575,16 +575,16 @@ void queue_push(struct anonymous *q, signed int type, void *data);
 static void rbuf_consume(unsigned long int bytes);
 // rbuf_cycle
 // file read.c line 325
-static _Bool rbuf_cycle(struct anonymous$5 *stream, _Bool start, unsigned long int skip);
+static _Bool rbuf_cycle(struct anonymous_5 *stream, _Bool start, unsigned long int skip);
 // rbuf_dispatch
 // file read.c line 342
 static void rbuf_dispatch(void);
 // rbuf_read
 // file read.c line 305
-static enum anonymous$11 rbuf_read(unsigned long int bytes);
+static enum anonymous_11 rbuf_read(unsigned long int bytes);
 // read_block
 // file read.c line 366
-static _Bool read_block(_Bool force_stream, enum anonymous$12 check, signed long int uoffset);
+static _Bool read_block(_Bool force_stream, enum anonymous_12 check, signed long int uoffset);
 // read_file_index
 // file common.c line 156
 unsigned long int read_file_index(void);
@@ -602,19 +602,19 @@ static char * read_file_index_name(void);
 static void read_footer(void);
 // read_header
 // file read.c line 349
-static _Bool read_header(enum anonymous$12 *check);
+static _Bool read_header(enum anonymous_12 *check);
 // read_index
 // file read.c line 445
 static void read_index(void);
 // read_streaming
 // file read.c line 400
-static void read_streaming(struct anonymous$16 *block, enum anonymous$2 sized, signed long int uoffset);
+static void read_streaming(struct anonymous_16 *block, enum anonymous_2 sized, signed long int uoffset);
 // read_thread
 // file read.c line 500
 static void read_thread(void);
-// read_thread$link1
+// read_thread_link1
 // file write.c line 133
-static void read_thread$link1();
+static void read_thread_link1();
 // read_thread_noindex
 // file read.c line 485
 static void read_thread_noindex(void);
@@ -639,15 +639,15 @@ extern char * strcpy(char *, const char *);
 // stream_edge
 // file write.c line 408
 static void stream_edge(unsigned long int backward_size);
-// stream_edge::1::encoder$object
+// stream_edge::1::encoder_object
 //
-enum anonymous$3 encoder$object(const struct anonymous$8 *, unsigned char *);
+enum anonymous_3 encoder_object(const struct anonymous_8 *, unsigned char *);
 // stream_footer
 // file common.c line 289
-static void stream_footer(struct anonymous$17 *b, struct anonymous$8 *flags);
+static void stream_footer(struct anonymous_17 *b, struct anonymous_8 *flags);
 // stream_padding
 // file common.c line 274
-static signed long int stream_padding(struct anonymous$17 *b, signed long int pos);
+static signed long int stream_padding(struct anonymous_17 *b, signed long int pos);
 // strerror
 // file /usr/include/string.h line 412
 extern char * strerror(signed int);
@@ -678,24 +678,24 @@ static _Bool tar_next_block(void);
 // tar_ok
 // file read.c line 601
 static signed int tar_ok(struct archive *ar, void *ref);
-// tar_ok$link1
+// tar_ok_link1
 // file write.c line 221
-static signed int tar_ok$link1(struct archive *ar$link1, void *ref$link1);
+static signed int tar_ok_link1(struct archive *ar_link1, void *ref_link1);
 // tar_read
 // file read.c line 629
 static signed long int tar_read(struct archive *ar, void *ref, const void **bufp);
-// tar_read$link1
+// tar_read_link1
 // file write.c line 191
-static signed long int tar_read$link1(struct archive *ar$link1, void *ref$link1, const void **bufp$link1);
+static signed long int tar_read_link1(struct archive *ar_link1, void *ref_link1, const void **bufp_link1);
 // tar_write_last
 // file read.c line 620
 static void tar_write_last(void);
 // taste_file_index
 // file read.c line 681
-static _Bool taste_file_index(struct anonymous$4 *ib);
+static _Bool taste_file_index(struct anonymous_4 *ib);
 // taste_tar
 // file read.c line 670
-static _Bool taste_tar(struct anonymous$4 *ib);
+static _Bool taste_tar(struct anonymous_4 *ib);
 // unlink
 // file /usr/include/unistd.h line 826
 extern signed int unlink(const char *);
@@ -719,7 +719,7 @@ static void write_block(struct pipeline_item_t *pi);
 static void write_file_index(void);
 // write_file_index_buf
 // file write.c line 515
-static void write_file_index_buf(enum anonymous$19 action);
+static void write_file_index_buf(enum anonymous_19 action);
 // write_file_index_bytes
 // file write.c line 497
 static void write_file_index_bytes(unsigned long int size, unsigned char *buf);
@@ -733,7 +733,7 @@ void xle64enc(unsigned char *d, unsigned long int n);
 // file common.c line 24
 char * xstrdup(const char *s);
 
-struct anonymous$6
+struct anonymous_6
 {
   // alloc
   void * (*alloc)(void *, unsigned long int, unsigned long int);
@@ -771,7 +771,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$27
+union anonymous_27
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -781,7 +781,7 @@ union anonymous$27
   signed long int __align;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // __lock
   signed int __lock;
@@ -801,10 +801,10 @@ struct anonymous$9
   unsigned int __broadcast_seq;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // __data
-  struct anonymous$9 __data;
+  struct anonymous_9 __data;
   // __size
   char __size[48l];
   // __align
@@ -818,14 +818,14 @@ struct anonymous
   // last
   struct queue_item_t *last;
   // mutex
-  union anonymous$27 mutex;
+  union anonymous_27 mutex;
   // pop_cond
-  union anonymous$10 pop_cond;
+  union anonymous_10 pop_cond;
   // freer
   void (*freer)(signed int, void *);
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // input
   unsigned char *input;
@@ -842,15 +842,15 @@ struct anonymous$4
   // uoffset
   signed long int uoffset;
   // check
-  enum anonymous$12 check;
+  enum anonymous_12 check;
   // btype
-  enum anonymous$2 btype;
+  enum anonymous_2 btype;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // flags
-  const struct anonymous$8 *flags;
+  const struct anonymous_8 *flags;
   // reserved_ptr1
   const void *reserved_ptr1;
   // reserved_ptr2
@@ -881,7 +881,7 @@ struct anonymous$24
   unsigned long int reserved_vli4;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // next_in
   const unsigned char *next_in;
@@ -896,7 +896,7 @@ struct anonymous$5
   // total_out
   unsigned long int total_out;
   // allocator
-  struct anonymous$6 *allocator;
+  struct anonymous_6 *allocator;
   // internal
   struct lzma_internal_s *internal;
   // reserved_ptr1
@@ -916,12 +916,12 @@ struct anonymous$5
   // reserved_int4
   unsigned long int reserved_int4;
   // reserved_enum1
-  enum anonymous$7 reserved_enum1;
+  enum anonymous_7 reserved_enum1;
   // reserved_enum2
-  enum anonymous$7 reserved_enum2;
+  enum anonymous_7 reserved_enum2;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // buf
   unsigned char buf[512l];
@@ -931,7 +931,7 @@ struct anonymous$17
   unsigned long int size;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // number_in_file
   unsigned long int number_in_file;
@@ -969,7 +969,7 @@ struct anonymous$14
   const void *reserved_ptr4;
 };
 
-union anonymous$25
+union anonymous_25
 {
   // p
   const void *p;
@@ -979,30 +979,30 @@ union anonymous$25
   unsigned long int v;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // stream
-  struct anonymous$24 stream;
+  struct anonymous_24 stream;
   // block
-  struct anonymous$14 block;
+  struct anonymous_14 block;
   // internal
-  union anonymous$25 internal[6l];
+  union anonymous_25 internal[6l];
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // version
   unsigned int version;
   // header_size
   unsigned int header_size;
   // check
-  enum anonymous$12 check;
+  enum anonymous_12 check;
   // compressed_size
   unsigned long int compressed_size;
   // uncompressed_size
   unsigned long int uncompressed_size;
   // filters
-  struct anonymous$15 *filters;
+  struct anonymous_15 *filters;
   // raw_check
   unsigned char raw_check[64l];
   // reserved_ptr1
@@ -1028,13 +1028,13 @@ struct anonymous$16
   // reserved_int8
   unsigned long int reserved_int8;
   // reserved_enum1
-  enum anonymous$7 reserved_enum1;
+  enum anonymous_7 reserved_enum1;
   // reserved_enum2
-  enum anonymous$7 reserved_enum2;
+  enum anonymous_7 reserved_enum2;
   // reserved_enum3
-  enum anonymous$7 reserved_enum3;
+  enum anonymous_7 reserved_enum3;
   // reserved_enum4
-  enum anonymous$7 reserved_enum4;
+  enum anonymous_7 reserved_enum4;
   // reserved_bool1
   unsigned char reserved_bool1;
   // reserved_bool2
@@ -1053,7 +1053,7 @@ struct anonymous$16
   unsigned char reserved_bool8;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // id
   unsigned long int id;
@@ -1061,15 +1061,15 @@ struct anonymous$15
   void *options;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // block
-  struct anonymous$16 block;
+  struct anonymous_16 block;
   // filters
-  struct anonymous$15 filters[5l];
+  struct anonymous_15 filters[5l];
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // dict_size
   unsigned int dict_size;
@@ -1084,11 +1084,11 @@ struct anonymous$22
   // pb
   unsigned int pb;
   // mode
-  enum anonymous$20 mode;
+  enum anonymous_20 mode;
   // nice_len
   unsigned int nice_len;
   // mf
-  enum anonymous$21 mf;
+  enum anonymous_21 mf;
   // depth
   unsigned int depth;
   // reserved_int1
@@ -1108,35 +1108,35 @@ struct anonymous$22
   // reserved_int8
   unsigned int reserved_int8;
   // reserved_enum1
-  enum anonymous$7 reserved_enum1;
+  enum anonymous_7 reserved_enum1;
   // reserved_enum2
-  enum anonymous$7 reserved_enum2;
+  enum anonymous_7 reserved_enum2;
   // reserved_enum3
-  enum anonymous$7 reserved_enum3;
+  enum anonymous_7 reserved_enum3;
   // reserved_enum4
-  enum anonymous$7 reserved_enum4;
+  enum anonymous_7 reserved_enum4;
   // reserved_ptr1
   void *reserved_ptr1;
   // reserved_ptr2
   void *reserved_ptr2;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // version
   unsigned int version;
   // backward_size
   unsigned long int backward_size;
   // check
-  enum anonymous$12 check;
+  enum anonymous_12 check;
   // reserved_enum1
-  enum anonymous$7 reserved_enum1;
+  enum anonymous_7 reserved_enum1;
   // reserved_enum2
-  enum anonymous$7 reserved_enum2;
+  enum anonymous_7 reserved_enum2;
   // reserved_enum3
-  enum anonymous$7 reserved_enum3;
+  enum anonymous_7 reserved_enum3;
   // reserved_enum4
-  enum anonymous$7 reserved_enum4;
+  enum anonymous_7 reserved_enum4;
   // reserved_bool1
   unsigned char reserved_bool1;
   // reserved_bool2
@@ -1159,7 +1159,7 @@ struct anonymous$8
   unsigned int reserved_int2;
 };
 
-union anonymous$28
+union anonymous_28
 {
   // __size
   char __size[4l];
@@ -1252,7 +1252,7 @@ struct file_index_t
 struct io_block_t
 {
   // block
-  struct anonymous$16 block;
+  struct anonymous_16 block;
   // input
   unsigned char *input;
   // output
@@ -1380,7 +1380,7 @@ static unsigned long int gBlockOutSize = (unsigned long int)0;
 static _Bool gExplicitFiles = (_Bool)0;
 // gFIBErr
 // file common.c line 50
-static enum anonymous$3 gFIBErr = (enum anonymous$3)LZMA_OK;
+static enum anonymous_3 gFIBErr = (enum anonymous_3)LZMA_OK;
 // gFIBInputBuf
 // file common.c line 51
 static unsigned char gFIBInputBuf[4096l];
@@ -1396,9 +1396,9 @@ struct file_index_t *gFileIndex = (struct file_index_t *)(void *)0;
 // gFileIndexBuf
 // file common.c line 48
 static unsigned char *gFileIndexBuf = (unsigned char *)(void *)0;
-// gFileIndexBuf$link1
+// gFileIndexBuf_link1
 // file write.c line 37
-static unsigned char gFileIndexBuf$link1[4096l];
+static unsigned char gFileIndexBuf_link1[4096l];
 // gFileIndexBufPos
 // file write.c line 38
 static unsigned long int gFileIndexBufPos = (unsigned long int)0;
@@ -1407,7 +1407,7 @@ static unsigned long int gFileIndexBufPos = (unsigned long int)0;
 static unsigned long int gFileIndexOffset = (unsigned long int)0;
 // gFilters
 // file write.c line 35
-static struct anonymous$15 gFilters[5l];
+static struct anonymous_15 gFilters[5l];
 // gInFile
 // file pixz.h line 57
 struct _IO_FILE *gInFile = (struct _IO_FILE *)(void *)0;
@@ -1473,7 +1473,7 @@ struct anonymous *gPipelineSplitQ = (struct anonymous *)(void *)0;
 struct anonymous *gPipelineStartQ = (struct anonymous *)(void *)0;
 // gRbuf
 // file read.c line 66
-static struct anonymous$4 *gRbuf = (struct anonymous$4 *)(void *)0;
+static struct anonymous_4 *gRbuf = (struct anonymous_4 *)(void *)0;
 // gRbufPI
 // file read.c line 65
 static struct pipeline_item_t *gRbufPI = (struct pipeline_item_t *)(void *)0;
@@ -1488,10 +1488,10 @@ static struct pipeline_item_t *gReadItem = (struct pipeline_item_t *)(void *)0;
 static unsigned long int gReadItemCount = (unsigned long int)0;
 // gStream
 // file pixz.h line 58
-struct anonymous$5 gStream = { .next_in=(const unsigned char *)(void *)0, .avail_in=(unsigned long int)0,
+struct anonymous_5 gStream = { .next_in=(const unsigned char *)(void *)0, .avail_in=(unsigned long int)0,
     .total_in=(unsigned long int)0, .next_out=(unsigned char *)(void *)0,
     .avail_out=(unsigned long int)0,
-    .total_out=(unsigned long int)0, .allocator=(struct anonymous$6 *)(void *)0,
+    .total_out=(unsigned long int)0, .allocator=(struct anonymous_6 *)(void *)0,
     .internal=(struct lzma_internal_s *)(void *)0,
     .reserved_ptr1=(void *)0,
     .reserved_ptr2=(void *)0, .reserved_ptr3=(void *)0,
@@ -1499,8 +1499,8 @@ struct anonymous$5 gStream = { .next_in=(const unsigned char *)(void *)0, .avail
     .reserved_int2=(unsigned long int)0,
     .reserved_int3=(unsigned long int)0,
     .reserved_int4=(unsigned long int)0,
-    .reserved_enum1=(enum anonymous$7)LZMA_RESERVED_ENUM,
-    .reserved_enum2=(enum anonymous$7)LZMA_RESERVED_ENUM };
+    .reserved_enum1=(enum anonymous_7)LZMA_RESERVED_ENUM,
+    .reserved_enum2=(enum anonymous_7)LZMA_RESERVED_ENUM };
 // gTar
 // file write.c line 23
 static _Bool gTar = (_Bool)1;
@@ -1530,13 +1530,13 @@ extern struct _IO_FILE *stdout;
 // file write.c line 225
 static void add_file(signed long int offset, const char *name)
 {
-  _Bool return_value_is_multi_header$1;
-  char *tmp_if_expr$4;
-  char *return_value_xstrdup$3;
+  _Bool return_value_is_multi_header_1;
+  char *tmp_if_expr_4;
+  char *return_value_xstrdup_3;
   if(!(name == ((const char *)NULL)))
   {
-    return_value_is_multi_header$1=is_multi_header(name);
-    if(return_value_is_multi_header$1 == (_Bool)0)
+    return_value_is_multi_header_1=is_multi_header(name);
+    if(return_value_is_multi_header_1 == (_Bool)0)
       goto __CPROVER_DUMP_L2;
 
     if(gMultiHeader == (_Bool)0)
@@ -1551,20 +1551,20 @@ static void add_file(signed long int offset, const char *name)
   __CPROVER_DUMP_L2:
     ;
     struct file_index_t *f;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct file_index_t) /*24ul*/ );
-    f = (struct file_index_t *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct file_index_t) /*24ul*/ );
+    f = (struct file_index_t *)return_value_malloc_2;
     f->offset = gMultiHeader != (_Bool)0 ? gMultiHeaderStart : offset;
     gMultiHeader = (_Bool)0;
     if(!(name == ((const char *)NULL)))
     {
-      return_value_xstrdup$3=xstrdup(name);
-      tmp_if_expr$4 = return_value_xstrdup$3;
+      return_value_xstrdup_3=xstrdup(name);
+      tmp_if_expr_4 = return_value_xstrdup_3;
     }
 
     else
-      tmp_if_expr$4 = (char *)(void *)0;
-    f->name = tmp_if_expr$4;
+      tmp_if_expr_4 = (char *)(void *)0;
+    f->name = tmp_if_expr_4;
     f->next = (struct file_index_t *)(void *)0;
     if(!(gLastFile == ((struct file_index_t *)NULL)))
       gLastFile->next = f;
@@ -1577,14 +1577,14 @@ static void add_file(signed long int offset, const char *name)
 
 // auto_output
 // file pixz.c line 185
-static char * auto_output(enum anonymous$0 op, char *in)
+static char * auto_output(enum anonymous_0 op, char *in)
 {
   if((signed int)op == OP_READ)
   {
-    char *auto_output$$1$$1$$1$$r;
-    auto_output$$1$$1$$1$$r=subsuf(in, ".tar.xz", ".tar");
-    if(!(auto_output$$1$$1$$1$$r == ((char *)NULL)))
-      return auto_output$$1$$1$$1$$r;
+    char *auto_output__1__1__1__r;
+    auto_output__1__1__1__r=subsuf(in, ".tar.xz", ".tar");
+    if(!(auto_output__1__1__1__r == ((char *)NULL)))
+      return auto_output__1__1__1__r;
 
   }
 
@@ -1599,28 +1599,28 @@ static char * auto_output(enum anonymous$0 op, char *in)
 
   if((signed int)op == OP_READ)
   {
-    char *auto_output$$1$$3$$1$$r;
-    auto_output$$1$$3$$1$$r=subsuf(in, ".xz", "");
-    if(!(auto_output$$1$$3$$1$$r == ((char *)NULL)))
-      return auto_output$$1$$3$$1$$r;
+    char *auto_output__1__3__1__r;
+    auto_output__1__3__1__r=subsuf(in, ".xz", "");
+    if(!(auto_output__1__3__1__r == ((char *)NULL)))
+      return auto_output__1__3__1__r;
 
   }
 
   if((signed int)op == OP_WRITE)
   {
-    char *auto_output$$1$$4$$1$$r;
-    auto_output$$1$$4$$1$$r=subsuf(in, ".tar", ".tpxz");
-    if(!(auto_output$$1$$4$$1$$r == ((char *)NULL)))
-      return auto_output$$1$$4$$1$$r;
+    char *auto_output__1__4__1__r;
+    auto_output__1__4__1__r=subsuf(in, ".tar", ".tpxz");
+    if(!(auto_output__1__4__1__r == ((char *)NULL)))
+      return auto_output__1__4__1__r;
 
   }
 
   if((signed int)op == OP_WRITE)
   {
-    char *auto_output$$1$$5$$1$$r;
-    auto_output$$1$$5$$1$$r=subsuf(in, "", ".xz");
-    if(!(auto_output$$1$$5$$1$$r == ((char *)NULL)))
-      return auto_output$$1$$5$$1$$r;
+    char *auto_output__1__5__1__r;
+    auto_output__1__5__1__r=subsuf(in, "", ".xz");
+    if(!(auto_output__1__5__1__r == ((char *)NULL)))
+      return auto_output__1__5__1__r;
 
   }
 
@@ -1629,59 +1629,59 @@ static char * auto_output(enum anonymous$0 op, char *in)
 
 // block_alloc
 // file write.c line 260
-static void block_alloc(struct io_block_t *ib, enum anonymous$18 parts)
+static void block_alloc(struct io_block_t *ib, enum anonymous_18 parts)
 {
-  void *return_value_malloc$1;
+  void *return_value_malloc_1;
   if(!((BLOCK_IN & (signed int)parts) == 0))
   {
     if(ib->input == ((unsigned char *)NULL))
     {
-      return_value_malloc$1=malloc(gBlockInSize);
-      ib->input = (unsigned char *)return_value_malloc$1;
+      return_value_malloc_1=malloc(gBlockInSize);
+      ib->input = (unsigned char *)return_value_malloc_1;
     }
 
   }
 
-  void *return_value_malloc$2;
+  void *return_value_malloc_2;
   if(!((BLOCK_IN & (signed int)parts) == 0))
   {
     if(ib->output == ((unsigned char *)NULL))
     {
-      return_value_malloc$2=malloc(gBlockOutSize);
-      ib->output = (unsigned char *)return_value_malloc$2;
+      return_value_malloc_2=malloc(gBlockOutSize);
+      ib->output = (unsigned char *)return_value_malloc_2;
     }
 
   }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(ib->input == ((unsigned char *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = !(ib->output != ((unsigned char *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = !(ib->output != ((unsigned char *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
     die("Can't allocate blocks");
 
 }
 
 // block_capacity
 // file read.c line 292
-static void block_capacity(struct anonymous$4 *ib, unsigned long int incap, unsigned long int outcap)
+static void block_capacity(struct anonymous_4 *ib, unsigned long int incap, unsigned long int outcap)
 {
   if(!(ib->incap >= incap))
   {
     ib->incap = incap;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)ib->input, incap);
-    ib->input = (unsigned char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)ib->input, incap);
+    ib->input = (unsigned char *)return_value_realloc_1;
   }
 
   if(!(ib->outcap >= outcap))
   {
     ib->outcap = outcap;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(outcap);
-    ib->output = (unsigned char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(outcap);
+    ib->output = (unsigned char *)return_value_malloc_2;
   }
 
 }
@@ -1690,10 +1690,10 @@ static void block_capacity(struct anonymous$4 *ib, unsigned long int incap, unsi
 // file read.c line 199
 static void * block_create(void)
 {
-  struct anonymous$4 *ib;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$4) /*64ul*/ );
-  ib = (struct anonymous$4 *)return_value_malloc$1;
+  struct anonymous_4 *ib;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_4) /*64ul*/ );
+  ib = (struct anonymous_4 *)return_value_malloc_1;
   ib->outcap = (unsigned long int)0;
   ib->incap = ib->outcap;
   ib->output = (unsigned char *)(void *)0;
@@ -1701,22 +1701,22 @@ static void * block_create(void)
   return (void *)ib;
 }
 
-// block_create$link1
+// block_create_link1
 // file write.c line 254
-static void * block_create$link1()
+static void * block_create_link1()
 {
-  struct io_block_t *ib$link1;
-  void *return_value_malloc$1$link1;
-  return_value_malloc$1$link1=malloc(sizeof(struct io_block_t) /*240ul*/ );
-  ib$link1 = (struct io_block_t *)return_value_malloc$1$link1;
-  ib$link1->output = (unsigned char *)(void *)0;
-  ib$link1->input = ib$link1->output;
-  return (void *)ib$link1;
+  struct io_block_t *ib_link1;
+  void *return_value_malloc_1_link1;
+  return_value_malloc_1_link1=malloc(sizeof(struct io_block_t) /*240ul*/ );
+  ib_link1 = (struct io_block_t *)return_value_malloc_1_link1;
+  ib_link1->output = (unsigned char *)(void *)0;
+  ib_link1->input = ib_link1->output;
+  return (void *)ib_link1;
 }
 
 // block_dealloc
 // file write.c line 269
-static void block_dealloc(struct io_block_t *ib, enum anonymous$18 parts)
+static void block_dealloc(struct io_block_t *ib, enum anonymous_18 parts)
 {
   if(!((BLOCK_IN & (signed int)parts) == 0))
   {
@@ -1736,64 +1736,64 @@ static void block_dealloc(struct io_block_t *ib, enum anonymous$18 parts)
 // file read.c line 206
 static void block_free(void *data)
 {
-  struct anonymous$4 *ib = (struct anonymous$4 *)data;
+  struct anonymous_4 *ib = (struct anonymous_4 *)data;
   free((void *)ib->input);
   free((void *)ib->output);
   free((void *)ib);
 }
 
-// block_free$link1
+// block_free_link1
 // file write.c line 247
-static void block_free$link1(void *data$link1)
+static void block_free_link1(void *data_link1)
 {
-  struct io_block_t *ib$link1 = (struct io_block_t *)data$link1;
-  free((void *)ib$link1->input);
-  free((void *)ib$link1->output);
-  free((void *)ib$link1);
+  struct io_block_t *ib_link1 = (struct io_block_t *)data_link1;
+  free((void *)ib_link1->input);
+  free((void *)ib_link1->output);
+  free((void *)ib_link1);
 }
 
 // block_init
 // file write.c line 397
-static void block_init(struct anonymous$16 *block, unsigned long int insize)
+static void block_init(struct anonymous_16 *block, unsigned long int insize)
 {
   block->version = (unsigned int)0;
-  block->check = (enum anonymous$12)LZMA_CHECK_CRC32;
+  block->check = (enum anonymous_12)LZMA_CHECK_CRC32;
   block->filters = gFilters;
   block->uncompressed_size = insize != 0ul ? insize : 18446744073709551615UL;
   block->compressed_size = insize != 0ul ? gBlockOutSize : 18446744073709551615UL;
-  enum anonymous$3 return_value_lzma_block_header_size$1;
-  return_value_lzma_block_header_size$1=lzma_block_header_size(block);
-  if(!((signed int)return_value_lzma_block_header_size$1 == LZMA_OK))
+  enum anonymous_3 return_value_lzma_block_header_size_1;
+  return_value_lzma_block_header_size_1=lzma_block_header_size(block);
+  if(!((signed int)return_value_lzma_block_header_size_1 == LZMA_OK))
     die("Error getting block header size");
 
 }
 
 // bw_read
 // file common.c line 257
-static unsigned int * bw_read(struct anonymous$17 *b)
+static unsigned int * bw_read(struct anonymous_17 *b)
 {
   unsigned long int sz = sizeof(unsigned int) /*4ul*/ ;
-  signed long int tmp_if_expr$1;
+  signed long int tmp_if_expr_1;
   if(!(b->size >= sz))
   {
     if(!((unsigned long int)b->pos >= sz))
       return (unsigned int *)(void *)0;
 
     if(b->pos >= 513l)
-      tmp_if_expr$1 = (signed long int)512;
+      tmp_if_expr_1 = (signed long int)512;
 
     else
-      tmp_if_expr$1 = b->pos;
-    b->size = (unsigned long int)tmp_if_expr$1;
+      tmp_if_expr_1 = b->pos;
+    b->size = (unsigned long int)tmp_if_expr_1;
     b->pos = b->pos - (signed long int)b->size;
-    signed int return_value_fseeko$2;
-    return_value_fseeko$2=fseeko(gInFile, b->pos, 0);
-    if(return_value_fseeko$2 == -1)
+    signed int return_value_fseeko_2;
+    return_value_fseeko_2=fseeko(gInFile, b->pos, 0);
+    if(return_value_fseeko_2 == -1)
       return (unsigned int *)(void *)0;
 
-    unsigned long int return_value_fread$3;
-    return_value_fread$3=fread((void *)b->buf, b->size, (unsigned long int)1, gInFile);
-    if(!(return_value_fread$3 == 1ul))
+    unsigned long int return_value_fread_3;
+    return_value_fread_3=fread((void *)b->buf, b->size, (unsigned long int)1, gInFile);
+    if(!(return_value_fread_3 == 1ul))
       return (unsigned int *)(void *)0;
 
   }
@@ -1804,18 +1804,18 @@ static unsigned int * bw_read(struct anonymous$17 *b)
 
 // decode_file_index_start
 // file common.c line 89
-static void * decode_file_index_start(signed long int block_seek, enum anonymous$12 check)
+static void * decode_file_index_start(signed long int block_seek, enum anonymous_12 check)
 {
-  signed int return_value_fseeko$1;
-  return_value_fseeko$1=fseeko(gInFile, block_seek, 0);
-  if(return_value_fseeko$1 == -1)
+  signed int return_value_fseeko_1;
+  return_value_fseeko_1=fseeko(gInFile, block_seek, 0);
+  if(return_value_fseeko_1 == -1)
     die("Error seeking to block");
 
-  struct anonymous$23 *bw;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct anonymous$23) /*288ul*/ );
-  bw = (struct anonymous$23 *)return_value_malloc$2;
-  bw->block = (struct anonymous$16){ .version=(unsigned int)0, .header_size=0u, .check=check,
+  struct anonymous_23 *bw;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct anonymous_23) /*288ul*/ );
+  bw = (struct anonymous_23 *)return_value_malloc_2;
+  bw->block = (struct anonymous_16){ .version=(unsigned int)0, .header_size=0u, .check=check,
     .compressed_size=0ul, .uncompressed_size=0ul, .filters=bw->filters,
     .raw_check={ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, .reserved_ptr1=NULL,
     .reserved_ptr2=NULL, .reserved_ptr3=NULL,
@@ -1823,9 +1823,9 @@ static void * decode_file_index_start(signed long int block_seek, enum anonymous
     .reserved_int3=0ul, .reserved_int4=0ul,
     .reserved_int5=0ul, .reserved_int6=0ul,
     .reserved_int7=0ul, .reserved_int8=0ul,
-    .reserved_enum1=(enum anonymous$7)0, .reserved_enum2=(enum anonymous$7)0,
-    .reserved_enum3=(enum anonymous$7)0,
-    .reserved_enum4=(enum anonymous$7)0,
+    .reserved_enum1=(enum anonymous_7)0, .reserved_enum2=(enum anonymous_7)0,
+    .reserved_enum3=(enum anonymous_7)0,
+    .reserved_enum4=(enum anonymous_7)0,
     .reserved_bool1=0,
     .reserved_bool2=0, .reserved_bool3=0,
     .reserved_bool4=0, .reserved_bool5=0,
@@ -1837,22 +1837,22 @@ static void * decode_file_index_start(signed long int block_seek, enum anonymous
     die("Error reading block size");
 
   bw->block.header_size = ((unsigned int)b + (unsigned int)1) * (unsigned int)4;
-  const signed long int b$array_size0 = (signed long int)bw->block.header_size;
-  unsigned char hdrbuf[b$array_size0];
+  const signed long int b_array_size0 = (signed long int)bw->block.header_size;
+  unsigned char hdrbuf[b_array_size0];
   hdrbuf[(signed long int)0] = (unsigned char)b;
-  unsigned long int return_value_fread$3;
-  return_value_fread$3=fread((void *)(hdrbuf + (signed long int)1), (unsigned long int)(bw->block.header_size - (unsigned int)1), (unsigned long int)1, gInFile);
-  if(!(return_value_fread$3 == 1ul))
+  unsigned long int return_value_fread_3;
+  return_value_fread_3=fread((void *)(hdrbuf + (signed long int)1), (unsigned long int)(bw->block.header_size - (unsigned int)1), (unsigned long int)1, gInFile);
+  if(!(return_value_fread_3 == 1ul))
     die("Error reading block header");
 
-  enum anonymous$3 return_value_lzma_block_header_decode$4;
-  return_value_lzma_block_header_decode$4=lzma_block_header_decode(&bw->block, (struct anonymous$6 *)(void *)0, hdrbuf);
-  if(!((signed int)return_value_lzma_block_header_decode$4 == LZMA_OK))
+  enum anonymous_3 return_value_lzma_block_header_decode_4;
+  return_value_lzma_block_header_decode_4=lzma_block_header_decode(&bw->block, (struct anonymous_6 *)(void *)0, hdrbuf);
+  if(!((signed int)return_value_lzma_block_header_decode_4 == LZMA_OK))
     die("Error decoding file index block header");
 
-  enum anonymous$3 return_value_lzma_block_decoder$5;
-  return_value_lzma_block_decoder$5=lzma_block_decoder(&gStream, &bw->block);
-  if(!((signed int)return_value_lzma_block_decoder$5 == LZMA_OK))
+  enum anonymous_3 return_value_lzma_block_decoder_5;
+  return_value_lzma_block_decoder_5=lzma_block_decoder(&gStream, &bw->block);
+  if(!((signed int)return_value_lzma_block_decoder_5 == LZMA_OK))
     die("Error initializing file index stream");
 
   return (void *)bw;
@@ -1862,30 +1862,30 @@ static void * decode_file_index_start(signed long int block_seek, enum anonymous
 // file common.c line 346
 _Bool decode_index(void)
 {
-  signed int return_value_fseeko$3;
-  return_value_fseeko$3=fseeko(gInFile, (signed long int)0, 2);
-  if(return_value_fseeko$3 == -1)
+  signed int return_value_fseeko_3;
+  return_value_fseeko_3=fseeko(gInFile, (signed long int)0, 2);
+  if(return_value_fseeko_3 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "can not seek in input: %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "can not seek in input: %s\n", return_value_strerror_2);
     return (_Bool)0;
   }
 
   signed long int pos;
   pos=ftello(gInFile);
   gIndex = (struct lzma_index_s *)(void *)0;
-  enum anonymous$3 return_value_lzma_index_cat$4;
+  enum anonymous_3 return_value_lzma_index_cat_4;
   while(pos >= 1l)
   {
     struct lzma_index_s *index;
     index=next_index(&pos);
     if(!(gIndex == ((struct lzma_index_s *)NULL)))
     {
-      return_value_lzma_index_cat$4=lzma_index_cat(index, gIndex, (struct anonymous$6 *)(void *)0);
-      if(!((signed int)return_value_lzma_index_cat$4 == LZMA_OK))
+      return_value_lzma_index_cat_4=lzma_index_cat(index, gIndex, (struct anonymous_6 *)(void *)0);
+      if(!((signed int)return_value_lzma_index_cat_4 == LZMA_OK))
         die("Error concatenating indices");
 
     }
@@ -1899,10 +1899,10 @@ _Bool decode_index(void)
 // file read.c line 561
 static void decode_thread(unsigned long int thnum)
 {
-  struct anonymous$5 stream = { .next_in=(const unsigned char *)(void *)0, .avail_in=(unsigned long int)0,
+  struct anonymous_5 stream = { .next_in=(const unsigned char *)(void *)0, .avail_in=(unsigned long int)0,
     .total_in=(unsigned long int)0, .next_out=(unsigned char *)(void *)0,
     .avail_out=(unsigned long int)0,
-    .total_out=(unsigned long int)0, .allocator=(struct anonymous$6 *)(void *)0,
+    .total_out=(unsigned long int)0, .allocator=(struct anonymous_6 *)(void *)0,
     .internal=(struct lzma_internal_s *)(void *)0,
     .reserved_ptr1=(void *)0,
     .reserved_ptr2=(void *)0, .reserved_ptr3=(void *)0,
@@ -1910,10 +1910,10 @@ static void decode_thread(unsigned long int thnum)
     .reserved_int2=(unsigned long int)0,
     .reserved_int3=(unsigned long int)0,
     .reserved_int4=(unsigned long int)0,
-    .reserved_enum1=(enum anonymous$7)LZMA_RESERVED_ENUM,
-    .reserved_enum2=(enum anonymous$7)LZMA_RESERVED_ENUM };
-  struct anonymous$15 filters[5l];
-  struct anonymous$16 block = { .version=(unsigned int)0, .header_size=0u, .check=(enum anonymous$12)LZMA_CHECK_NONE,
+    .reserved_enum1=(enum anonymous_7)LZMA_RESERVED_ENUM,
+    .reserved_enum2=(enum anonymous_7)LZMA_RESERVED_ENUM };
+  struct anonymous_15 filters[5l];
+  struct anonymous_16 block = { .version=(unsigned int)0, .header_size=0u, .check=(enum anonymous_12)LZMA_CHECK_NONE,
     .compressed_size=0ul,
     .uncompressed_size=0ul, .filters=filters,
     .raw_check={ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, .reserved_ptr1=NULL,
@@ -1922,47 +1922,47 @@ static void decode_thread(unsigned long int thnum)
     .reserved_int3=0ul, .reserved_int4=0ul,
     .reserved_int5=0ul, .reserved_int6=0ul,
     .reserved_int7=0ul, .reserved_int8=0ul,
-    .reserved_enum1=(enum anonymous$7)0, .reserved_enum2=(enum anonymous$7)0,
-    .reserved_enum3=(enum anonymous$7)0,
-    .reserved_enum4=(enum anonymous$7)0,
+    .reserved_enum1=(enum anonymous_7)0, .reserved_enum2=(enum anonymous_7)0,
+    .reserved_enum3=(enum anonymous_7)0,
+    .reserved_enum4=(enum anonymous_7)0,
     .reserved_bool1=0,
     .reserved_bool2=0, .reserved_bool3=0,
     .reserved_bool4=0, .reserved_bool5=0,
     .reserved_bool6=0, .reserved_bool7=0,
     .reserved_bool8=0 };
   struct pipeline_item_t *pi;
-  struct anonymous$4 *ib;
-  signed int return_value_queue_pop$1;
+  struct anonymous_4 *ib;
+  signed int return_value_queue_pop_1;
   do
   {
-    return_value_queue_pop$1=queue_pop(gPipelineSplitQ, (void **)&pi);
-    if(return_value_queue_pop$1 == PIPELINE_STOP)
+    return_value_queue_pop_1=queue_pop(gPipelineSplitQ, (void **)&pi);
+    if(return_value_queue_pop_1 == PIPELINE_STOP)
       break;
 
-    ib = (struct anonymous$4 *)pi->data;
+    ib = (struct anonymous_4 *)pi->data;
     block.header_size = ((unsigned int)*ib->input + (unsigned int)1) * (unsigned int)4;
     block.check = ib->check;
-    enum anonymous$3 return_value_lzma_block_header_decode$2;
-    return_value_lzma_block_header_decode$2=lzma_block_header_decode(&block, (struct anonymous$6 *)(void *)0, ib->input);
-    if(!((signed int)return_value_lzma_block_header_decode$2 == LZMA_OK))
+    enum anonymous_3 return_value_lzma_block_header_decode_2;
+    return_value_lzma_block_header_decode_2=lzma_block_header_decode(&block, (struct anonymous_6 *)(void *)0, ib->input);
+    if(!((signed int)return_value_lzma_block_header_decode_2 == LZMA_OK))
       die("Error decoding block header");
 
-    enum anonymous$3 return_value_lzma_block_decoder$3;
-    return_value_lzma_block_decoder$3=lzma_block_decoder(&stream, &block);
-    if(!((signed int)return_value_lzma_block_decoder$3 == LZMA_OK))
+    enum anonymous_3 return_value_lzma_block_decoder_3;
+    return_value_lzma_block_decoder_3=lzma_block_decoder(&stream, &block);
+    if(!((signed int)return_value_lzma_block_decoder_3 == LZMA_OK))
       die("Error initializing block decode");
 
     stream.avail_in = ib->insize - (unsigned long int)block.header_size;
     stream.next_in = ib->input + (signed long int)block.header_size;
     stream.avail_out = ib->outcap;
     stream.next_out = ib->output;
-    enum anonymous$3 err = (enum anonymous$3)LZMA_OK;
+    enum anonymous_3 err = (enum anonymous_3)LZMA_OK;
     while(!((signed int)err == LZMA_STREAM_END))
     {
       if(!((signed int)err == LZMA_OK))
         die("Error decoding block");
 
-      err=lzma_code(&stream, (enum anonymous$19)LZMA_FINISH);
+      err=lzma_code(&stream, (enum anonymous_19)LZMA_FINISH);
     }
     ib->outsize = (unsigned long int)(stream.next_out - ib->output);
     queue_push(gPipelineMergeQ, PIPELINE_ITEM, (void *)pi);
@@ -1988,16 +1988,16 @@ void die(const char *fmt, ...)
 void dump_file_index(struct _IO_FILE *out, _Bool verbose)
 {
   struct file_index_t *f = gFileIndex;
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   for( ; !(f == ((struct file_index_t *)NULL)); f = f->next)
     if(!(verbose == (_Bool)0))
     {
       if(!(f->name == ((char *)NULL)))
-        tmp_if_expr$1 = f->name;
+        tmp_if_expr_1 = f->name;
 
       else
-        tmp_if_expr$1 = "";
-      fprintf(out, "%10lu %s\n", (unsigned long int)f->offset, tmp_if_expr$1);
+        tmp_if_expr_1 = "";
+      fprintf(out, "%10lu %s\n", (unsigned long int)f->offset, tmp_if_expr_1);
     }
 
     else
@@ -2010,26 +2010,26 @@ void dump_file_index(struct _IO_FILE *out, _Bool verbose)
 // file write.c line 448
 static void encode_index(void)
 {
-  enum anonymous$3 return_value_lzma_index_encoder$1;
-  return_value_lzma_index_encoder$1=lzma_index_encoder(&gStream, gIndex);
-  if(!((signed int)return_value_lzma_index_encoder$1 == LZMA_OK))
+  enum anonymous_3 return_value_lzma_index_encoder_1;
+  return_value_lzma_index_encoder_1=lzma_index_encoder(&gStream, gIndex);
+  if(!((signed int)return_value_lzma_index_encoder_1 == LZMA_OK))
     die("Error creating index encoder");
 
   unsigned char obuf[4096l];
-  enum anonymous$3 err = (enum anonymous$3)LZMA_OK;
+  enum anonymous_3 err = (enum anonymous_3)LZMA_OK;
   while(!((signed int)err == LZMA_STREAM_END))
   {
     gStream.next_out = obuf;
     gStream.avail_out = (unsigned long int)4096;
-    err=lzma_code(&gStream, (enum anonymous$19)LZMA_RUN);
+    err=lzma_code(&gStream, (enum anonymous_19)LZMA_RUN);
     if(!((signed int)err == LZMA_OK) && !((signed int)err == LZMA_STREAM_END))
       die("Error encoding index");
 
     if(!(gStream.avail_out == 4096ul))
     {
-      unsigned long int return_value_fwrite$2;
-      return_value_fwrite$2=fwrite((const void *)obuf, (unsigned long int)4096 - gStream.avail_out, (unsigned long int)1, gOutFile);
-      if(!(return_value_fwrite$2 == 1ul))
+      unsigned long int return_value_fwrite_2;
+      return_value_fwrite_2=fwrite((const void *)obuf, (unsigned long int)4096 - gStream.avail_out, (unsigned long int)1, gOutFile);
+      if(!(return_value_fwrite_2 == 1ul))
         die("Error writing index data");
 
     }
@@ -2042,10 +2042,10 @@ static void encode_index(void)
 // file write.c line 344
 static void encode_thread(unsigned long int thnum)
 {
-  struct anonymous$5 stream = { .next_in=(const unsigned char *)(void *)0, .avail_in=(unsigned long int)0,
+  struct anonymous_5 stream = { .next_in=(const unsigned char *)(void *)0, .avail_in=(unsigned long int)0,
     .total_in=(unsigned long int)0, .next_out=(unsigned char *)(void *)0,
     .avail_out=(unsigned long int)0,
-    .total_out=(unsigned long int)0, .allocator=(struct anonymous$6 *)(void *)0,
+    .total_out=(unsigned long int)0, .allocator=(struct anonymous_6 *)(void *)0,
     .internal=(struct lzma_internal_s *)(void *)0,
     .reserved_ptr1=(void *)0,
     .reserved_ptr2=(void *)0, .reserved_ptr3=(void *)0,
@@ -2053,8 +2053,8 @@ static void encode_thread(unsigned long int thnum)
     .reserved_int2=(unsigned long int)0,
     .reserved_int3=(unsigned long int)0,
     .reserved_int4=(unsigned long int)0,
-    .reserved_enum1=(enum anonymous$7)LZMA_RESERVED_ENUM,
-    .reserved_enum2=(enum anonymous$7)LZMA_RESERVED_ENUM };
+    .reserved_enum1=(enum anonymous_7)LZMA_RESERVED_ENUM,
+    .reserved_enum2=(enum anonymous_7)LZMA_RESERVED_ENUM };
   while((_Bool)1)
   {
     struct pipeline_item_t *pi;
@@ -2064,18 +2064,18 @@ static void encode_thread(unsigned long int thnum)
       break;
 
     struct io_block_t *ib = (struct io_block_t *)pi->data;
-    block_alloc(ib, (enum anonymous$18)BLOCK_OUT);
+    block_alloc(ib, (enum anonymous_18)BLOCK_OUT);
     block_init(&ib->block, ib->insize);
     unsigned long int header_size = (unsigned long int)ib->block.header_size;
     unsigned long int uncompressible_size;
-    unsigned long int return_value_size_uncompressible$1;
-    return_value_size_uncompressible$1=size_uncompressible(ib->insize);
-    unsigned int return_value_lzma_check_size$2;
-    return_value_lzma_check_size$2=lzma_check_size(ib->block.check);
-    uncompressible_size = return_value_size_uncompressible$1 + (unsigned long int)return_value_lzma_check_size$2;
-    enum anonymous$3 return_value_lzma_block_encoder$3;
-    return_value_lzma_block_encoder$3=lzma_block_encoder(&stream, &ib->block);
-    if(!((signed int)return_value_lzma_block_encoder$3 == LZMA_OK))
+    unsigned long int return_value_size_uncompressible_1;
+    return_value_size_uncompressible_1=size_uncompressible(ib->insize);
+    unsigned int return_value_lzma_check_size_2;
+    return_value_lzma_check_size_2=lzma_check_size(ib->block.check);
+    uncompressible_size = return_value_size_uncompressible_1 + (unsigned long int)return_value_lzma_check_size_2;
+    enum anonymous_3 return_value_lzma_block_encoder_3;
+    return_value_lzma_block_encoder_3=lzma_block_encoder(&stream, &ib->block);
+    if(!((signed int)return_value_lzma_block_encoder_3 == LZMA_OK))
       die("Error creating block encoder");
 
     stream.next_in = ib->input;
@@ -2083,9 +2083,9 @@ static void encode_thread(unsigned long int thnum)
     stream.next_out = ib->output + (signed long int)header_size;
     stream.avail_out = uncompressible_size;
     ib->block.uncompressed_size = 18446744073709551615UL;
-    enum anonymous$3 err = (enum anonymous$3)LZMA_OK;
+    enum anonymous_3 err = (enum anonymous_3)LZMA_OK;
     while((signed int)err == LZMA_OK)
-      err=lzma_code(&stream, (enum anonymous$19)LZMA_FINISH);
+      err=lzma_code(&stream, (enum anonymous_19)LZMA_FINISH);
     if((signed int)err == LZMA_BUF_ERROR)
     {
       encode_uncompressible(ib);
@@ -2098,10 +2098,10 @@ static void encode_thread(unsigned long int thnum)
 
       else
         die("Error encoding block");
-    block_dealloc(ib, (enum anonymous$18)BLOCK_IN);
-    enum anonymous$3 return_value_lzma_block_header_encode$4;
-    return_value_lzma_block_header_encode$4=lzma_block_header_encode(&ib->block, ib->output);
-    if(!((signed int)return_value_lzma_block_header_encode$4 == LZMA_OK))
+    block_dealloc(ib, (enum anonymous_18)BLOCK_IN);
+    enum anonymous_3 return_value_lzma_block_header_encode_4;
+    return_value_lzma_block_header_encode_4=lzma_block_header_encode(&ib->block, ib->output);
+    if(!((signed int)return_value_lzma_block_header_encode_4 == LZMA_OK))
       die("Error encoding block header");
 
     queue_push(gPipelineMergeQ, PIPELINE_ITEM, (void *)pi);
@@ -2119,39 +2119,39 @@ static void encode_uncompressible(struct io_block_t *ib)
   unsigned char *output = output_start;
   unsigned char *input = ib->input;
   unsigned long int remain = ib->insize;
-  unsigned char *tmp_post$1;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
+  unsigned char *tmp_post_1;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
   while(!(remain == 0ul))
   {
     unsigned long int size = remain;
     if(size >= 65537ul)
       size = (unsigned long int)(1 << 16);
 
-    tmp_post$1 = output;
+    tmp_post_1 = output;
     output = output + 1l;
-    *tmp_post$1 = control_uncomp;
+    *tmp_post_1 = control_uncomp;
     unsigned short int size_write = (unsigned short int)(size - (unsigned long int)1);
-    tmp_post$2 = output;
+    tmp_post_2 = output;
     output = output + 1l;
-    *tmp_post$2 = (unsigned char)((signed int)size_write >> 8);
-    tmp_post$3 = output;
+    *tmp_post_2 = (unsigned char)((signed int)size_write >> 8);
+    tmp_post_3 = output;
     output = output + 1l;
-    *tmp_post$3 = (unsigned char)((signed int)size_write & 0xFF);
+    *tmp_post_3 = (unsigned char)((signed int)size_write & 0xFF);
     memcpy((void *)output, (const void *)input, size);
     remain = remain - size;
     output = output + (signed long int)size;
     input = input + (signed long int)size;
   }
-  unsigned char *tmp_post$4 = output;
+  unsigned char *tmp_post_4 = output;
   output = output + 1l;
-  *tmp_post$4 = control_end;
+  *tmp_post_4 = control_end;
   ib->block.compressed_size = (unsigned long int)(output - output_start);
   ib->block.uncompressed_size = ib->insize;
-  unsigned char *tmp_post$5;
-  for( ; !((output - output_start) % 4l == 0l); *tmp_post$5 = (unsigned char)0)
+  unsigned char *tmp_post_5;
+  for( ; !((output - output_start) % 4l == 0l); *tmp_post_5 = (unsigned char)0)
   {
-    tmp_post$5 = output;
+    tmp_post_5 = output;
     output = output + 1l;
   }
   if(!((signed int)ib->block.check == LZMA_CHECK_CRC32))
@@ -2159,18 +2159,18 @@ static void encode_uncompressible(struct io_block_t *ib)
 
   unsigned int check;
   check=lzma_crc32(ib->input, ib->insize, (unsigned int)0);
-  unsigned char *tmp_post$6 = output;
+  unsigned char *tmp_post_6 = output;
   output = output + 1l;
-  *tmp_post$6 = (unsigned char)(check & (unsigned int)0xFF);
-  unsigned char *tmp_post$7 = output;
+  *tmp_post_6 = (unsigned char)(check & (unsigned int)0xFF);
+  unsigned char *tmp_post_7 = output;
   output = output + 1l;
-  *tmp_post$7 = (unsigned char)(check >> 8 & (unsigned int)0xFF);
-  unsigned char *tmp_post$8 = output;
+  *tmp_post_7 = (unsigned char)(check >> 8 & (unsigned int)0xFF);
+  unsigned char *tmp_post_8 = output;
   output = output + 1l;
-  *tmp_post$8 = (unsigned char)(check >> 16 & (unsigned int)0xFF);
-  unsigned char *tmp_post$9 = output;
+  *tmp_post_8 = (unsigned char)(check >> 16 & (unsigned int)0xFF);
+  unsigned char *tmp_post_9 = output;
   output = output + 1l;
-  *tmp_post$9 = (unsigned char)(check >> 24);
+  *tmp_post_9 = (unsigned char)(check >> 24);
 }
 
 // find_file_index
@@ -2180,15 +2180,15 @@ static unsigned long int find_file_index(void **bdatap)
   if(gIndex == ((struct lzma_index_s *)NULL))
     decode_index();
 
-  struct anonymous$13 iter;
+  struct anonymous_13 iter;
   lzma_index_iter_init(&iter, gIndex);
   unsigned long int loc;
-  unsigned long int return_value_lzma_index_uncompressed_size$1;
-  return_value_lzma_index_uncompressed_size$1=lzma_index_uncompressed_size(gIndex);
-  loc = return_value_lzma_index_uncompressed_size$1 - (unsigned long int)1;
-  unsigned char return_value_lzma_index_iter_locate$2;
-  return_value_lzma_index_iter_locate$2=lzma_index_iter_locate(&iter, loc);
-  if(!(return_value_lzma_index_iter_locate$2 == 0))
+  unsigned long int return_value_lzma_index_uncompressed_size_1;
+  return_value_lzma_index_uncompressed_size_1=lzma_index_uncompressed_size(gIndex);
+  loc = return_value_lzma_index_uncompressed_size_1 - (unsigned long int)1;
+  unsigned char return_value_lzma_index_iter_locate_2;
+  return_value_lzma_index_iter_locate_2=lzma_index_iter_locate(&iter, loc);
+  if(!(return_value_lzma_index_iter_locate_2 == 0))
     die("Can't locate file index block");
 
   if(!(iter.stream.number == 1ul))
@@ -2198,16 +2198,16 @@ static unsigned long int find_file_index(void **bdatap)
   {
     void *bdata;
     bdata=decode_file_index_start((signed long int)iter.block.compressed_file_offset, iter.stream.flags->check);
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(gFIBSize);
-    gFileIndexBuf = (unsigned char *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(gFIBSize);
+    gFileIndexBuf = (unsigned char *)return_value_malloc_3;
     gStream.avail_out = gFIBSize;
     gStream.avail_in = (unsigned long int)0;
     read_file_index_data();
     unsigned long int ret = iter.block.compressed_file_offset;
-    unsigned long int return_value_xle64dec$4;
-    return_value_xle64dec$4=xle64dec(gFileIndexBuf + (signed long int)gFIBPos);
-    if(!(return_value_xle64dec$4 == 0xDBAE14D62E324CA6LL))
+    unsigned long int return_value_xle64dec_4;
+    return_value_xle64dec_4=xle64dec(gFileIndexBuf + (signed long int)gFIBPos);
+    if(!(return_value_xle64dec_4 == 0xDBAE14D62E324CA6LL))
       ret = (unsigned long int)0;
 
     gFIBPos = gFIBPos + sizeof(unsigned long int) /*8ul*/ ;
@@ -2255,9 +2255,9 @@ _Bool is_multi_header(const char *name)
     if((signed int)name[-1l + (signed long int)i] == 47)
       break;
 
-  signed int return_value_strncmp$1;
-  return_value_strncmp$1=strncmp(name + (signed long int)i, "._", (unsigned long int)2);
-  return return_value_strncmp$1 == 0;
+  signed int return_value_strncmp_1;
+  return_value_strncmp_1=strncmp(name + (signed long int)i, "._", (unsigned long int)2);
+  return return_value_strncmp_1 == 0;
 }
 
 // main
@@ -2268,15 +2268,15 @@ signed int main(signed int argc, char **argv)
   _Bool tar = (_Bool)1;
   _Bool keep_input = (_Bool)0;
   _Bool extreme = (_Bool)0;
-  enum anonymous$0 op = (enum anonymous$0)OP_WRITE;
+  enum anonymous_0 op = (enum anonymous_0)OP_WRITE;
   char *ipath = (char *)(void *)0;
   char *opath = (char *)(void *)0;
   signed int ch;
   char *optend;
   signed long int optint;
   double optdbl;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   do
   {
     ch=getopt(argc, argv, "dcxli:o:tkvhp:0123456789f:q:e");
@@ -2289,17 +2289,17 @@ signed int main(signed int argc, char **argv)
         break;
       case 100:
       {
-        op = (enum anonymous$0)OP_READ;
+        op = (enum anonymous_0)OP_READ;
         break;
       }
       case 120:
       {
-        op = (enum anonymous$0)OP_EXTRACT;
+        op = (enum anonymous_0)OP_EXTRACT;
         break;
       }
       case 108:
       {
-        op = (enum anonymous$0)OP_LIST;
+        op = (enum anonymous_0)OP_LIST;
         break;
       }
       case 105:
@@ -2345,11 +2345,11 @@ signed int main(signed int argc, char **argv)
       {
         optint=strtol(optarg, &optend, 10);
         if(!(optint >= 0l))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = *optend != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = *optend != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
           usage("Need a non-negative integer argument to -p");
 
         gPipelineProcessMax = (unsigned long int)optint;
@@ -2359,11 +2359,11 @@ signed int main(signed int argc, char **argv)
       {
         optint=strtol(optarg, &optend, 10);
         if(!(optint >= 1l))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = *optend != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = *optend != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           usage("Need a positive integer argument to -q");
 
         gPipelineQSize = (unsigned long int)optint;
@@ -2412,26 +2412,26 @@ signed int main(signed int argc, char **argv)
 
   }
 
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
   if(!(ipath == ((char *)NULL)))
   {
     gInFile=fopen(ipath, "r");
     if(gInFile == ((struct _IO_FILE *)NULL))
     {
-      return_value___errno_location$3=__errno_location();
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      die("can not open input file: %s: %s", ipath, return_value_strerror$4);
+      return_value___errno_location_3=__errno_location();
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      die("can not open input file: %s: %s", ipath, return_value_strerror_4);
     }
 
   }
 
-  signed int *return_value___errno_location$5;
-  char *return_value_strerror$6;
-  signed int *return_value___errno_location$7;
-  char *return_value_strerror$8;
-  signed int *return_value___errno_location$9;
-  char *return_value_strerror$10;
+  signed int *return_value___errno_location_5;
+  char *return_value_strerror_6;
+  signed int *return_value___errno_location_7;
+  char *return_value_strerror_8;
+  signed int *return_value___errno_location_9;
+  char *return_value_strerror_10;
   if(!(opath == ((char *)NULL)))
   {
     if(gInFile == stdin)
@@ -2439,9 +2439,9 @@ signed int main(signed int argc, char **argv)
       gOutFile=fopen(opath, "w");
       if(gOutFile == ((struct _IO_FILE *)NULL))
       {
-        return_value___errno_location$5=__errno_location();
-        return_value_strerror$6=strerror(*return_value___errno_location$5);
-        die("can not open output file: %s: %s", opath, return_value_strerror$6);
+        return_value___errno_location_5=__errno_location();
+        return_value_strerror_6=strerror(*return_value___errno_location_5);
+        die("can not open output file: %s: %s", opath, return_value_strerror_6);
       }
 
     }
@@ -2454,31 +2454,31 @@ signed int main(signed int argc, char **argv)
       output_fd=open(opath, 0100 | 01, input_stat.st_mode);
       if(output_fd == -1)
       {
-        return_value___errno_location$7=__errno_location();
-        return_value_strerror$8=strerror(*return_value___errno_location$7);
-        die("can not open output file: %s: %s", opath, return_value_strerror$8);
+        return_value___errno_location_7=__errno_location();
+        return_value_strerror_8=strerror(*return_value___errno_location_7);
+        die("can not open output file: %s: %s", opath, return_value_strerror_8);
       }
 
       gOutFile=fdopen(output_fd, "w");
       if(gOutFile == ((struct _IO_FILE *)NULL))
       {
-        return_value___errno_location$9=__errno_location();
-        return_value_strerror$10=strerror(*return_value___errno_location$9);
-        die("can not open output file: %s: %s", opath, return_value_strerror$10);
+        return_value___errno_location_9=__errno_location();
+        return_value_strerror_10=strerror(*return_value___errno_location_9);
+        die("can not open output file: %s: %s", opath, return_value_strerror_10);
       }
 
     }
   }
 
-  signed int return_value_fileno$11;
-  signed int return_value_isatty$12;
+  signed int return_value_fileno_11;
+  signed int return_value_isatty_12;
   switch((signed int)op)
   {
     case OP_WRITE:
     {
-      return_value_fileno$11=fileno(gOutFile);
-      return_value_isatty$12=isatty(return_value_fileno$11);
-      if(return_value_isatty$12 == 1)
+      return_value_fileno_11=fileno(gOutFile);
+      return_value_isatty_12=isatty(return_value_fileno_11);
+      if(return_value_isatty_12 == 1)
         usage("Refusing to output to a TTY");
 
       if(!(extreme == (_Bool)0))
@@ -2510,22 +2510,22 @@ signed int main(signed int argc, char **argv)
 // file common.c line 302
 static struct lzma_index_s * next_index(signed long int *pos)
 {
-  struct anonymous$17 b;
+  struct anonymous_17 b;
   signed long int pad;
   pad=stream_padding(&b, *pos);
   signed long int eos = *pos - pad;
-  struct anonymous$8 flags;
+  struct anonymous_8 flags;
   stream_footer(&b, &flags);
   *pos = (signed long int)((unsigned long int)(eos - (signed long int)12) - flags.backward_size);
-  signed int return_value_fseeko$1;
-  return_value_fseeko$1=fseeko(gInFile, *pos, 0);
-  if(return_value_fseeko$1 == -1)
+  signed int return_value_fseeko_1;
+  return_value_fseeko_1=fseeko(gInFile, *pos, 0);
+  if(return_value_fseeko_1 == -1)
     die("Error seeking to index");
 
-  struct anonymous$5 strm = { .next_in=(const unsigned char *)(void *)0, .avail_in=(unsigned long int)0,
+  struct anonymous_5 strm = { .next_in=(const unsigned char *)(void *)0, .avail_in=(unsigned long int)0,
     .total_in=(unsigned long int)0, .next_out=(unsigned char *)(void *)0,
     .avail_out=(unsigned long int)0,
-    .total_out=(unsigned long int)0, .allocator=(struct anonymous$6 *)(void *)0,
+    .total_out=(unsigned long int)0, .allocator=(struct anonymous_6 *)(void *)0,
     .internal=(struct lzma_internal_s *)(void *)0,
     .reserved_ptr1=(void *)0,
     .reserved_ptr2=(void *)0, .reserved_ptr3=(void *)0,
@@ -2533,51 +2533,51 @@ static struct lzma_index_s * next_index(signed long int *pos)
     .reserved_int2=(unsigned long int)0,
     .reserved_int3=(unsigned long int)0,
     .reserved_int4=(unsigned long int)0,
-    .reserved_enum1=(enum anonymous$7)LZMA_RESERVED_ENUM,
-    .reserved_enum2=(enum anonymous$7)LZMA_RESERVED_ENUM };
+    .reserved_enum1=(enum anonymous_7)LZMA_RESERVED_ENUM,
+    .reserved_enum2=(enum anonymous_7)LZMA_RESERVED_ENUM };
   struct lzma_index_s *index;
-  enum anonymous$3 return_value_lzma_index_decoder$2;
-  return_value_lzma_index_decoder$2=lzma_index_decoder(&strm, &index, 64ULL * (unsigned long int)1024 * (unsigned long int)1024 * (unsigned long int)1024);
-  if(!((signed int)return_value_lzma_index_decoder$2 == LZMA_OK))
+  enum anonymous_3 return_value_lzma_index_decoder_2;
+  return_value_lzma_index_decoder_2=lzma_index_decoder(&strm, &index, 64ULL * (unsigned long int)1024 * (unsigned long int)1024 * (unsigned long int)1024);
+  if(!((signed int)return_value_lzma_index_decoder_2 == LZMA_OK))
     die("Error creating index decoder");
 
   unsigned char ibuf[4096l];
   strm.avail_in = (unsigned long int)0;
-  enum anonymous$3 err = (enum anonymous$3)LZMA_OK;
+  enum anonymous_3 err = (enum anonymous_3)LZMA_OK;
   while(!((signed int)err == LZMA_STREAM_END))
   {
     if(strm.avail_in == 0ul)
     {
       strm.avail_in=fread((void *)ibuf, (unsigned long int)1, (unsigned long int)4096, gInFile);
-      signed int return_value_ferror$3;
-      return_value_ferror$3=ferror(gInFile);
-      if(!(return_value_ferror$3 == 0))
+      signed int return_value_ferror_3;
+      return_value_ferror_3=ferror(gInFile);
+      if(!(return_value_ferror_3 == 0))
         die("Error reading index");
 
       strm.next_in = ibuf;
     }
 
-    err=lzma_code(&strm, (enum anonymous$19)LZMA_RUN);
+    err=lzma_code(&strm, (enum anonymous_19)LZMA_RUN);
     if(!((signed int)err == LZMA_OK) && !((signed int)err == LZMA_STREAM_END))
       die("Error decoding index");
 
   }
-  unsigned long int return_value_lzma_index_stream_size$4;
-  return_value_lzma_index_stream_size$4=lzma_index_stream_size(index);
-  *pos = (signed long int)((unsigned long int)eos - return_value_lzma_index_stream_size$4);
-  signed int return_value_fseeko$5;
-  return_value_fseeko$5=fseeko(gInFile, *pos, 0);
-  if(return_value_fseeko$5 == -1)
+  unsigned long int return_value_lzma_index_stream_size_4;
+  return_value_lzma_index_stream_size_4=lzma_index_stream_size(index);
+  *pos = (signed long int)((unsigned long int)eos - return_value_lzma_index_stream_size_4);
+  signed int return_value_fseeko_5;
+  return_value_fseeko_5=fseeko(gInFile, *pos, 0);
+  if(return_value_fseeko_5 == -1)
     die("Error seeking to beginning of stream");
 
-  enum anonymous$3 return_value_lzma_index_stream_flags$6;
-  return_value_lzma_index_stream_flags$6=lzma_index_stream_flags(index, &flags);
-  if(!((signed int)return_value_lzma_index_stream_flags$6 == LZMA_OK))
+  enum anonymous_3 return_value_lzma_index_stream_flags_6;
+  return_value_lzma_index_stream_flags_6=lzma_index_stream_flags(index, &flags);
+  if(!((signed int)return_value_lzma_index_stream_flags_6 == LZMA_OK))
     die("Error setting stream flags");
 
-  enum anonymous$3 return_value_lzma_index_stream_padding$7;
-  return_value_lzma_index_stream_padding$7=lzma_index_stream_padding(index, (unsigned long int)pad);
-  if(!((signed int)return_value_lzma_index_stream_padding$7 == LZMA_OK))
+  enum anonymous_3 return_value_lzma_index_stream_padding_7;
+  return_value_lzma_index_stream_padding_7=lzma_index_stream_padding(index, (unsigned long int)pad);
+  if(!((signed int)return_value_lzma_index_stream_padding_7 == LZMA_OK))
     die("Error setting stream padding");
 
   return index;
@@ -2587,9 +2587,9 @@ static struct lzma_index_s * next_index(signed long int *pos)
 // file pixz.h line 68
 unsigned long int num_threads(void)
 {
-  signed long int return_value_sysconf$1;
-  return_value_sysconf$1=sysconf(84);
-  return (unsigned long int)return_value_sysconf$1;
+  signed long int return_value_sysconf_1;
+  return_value_sysconf_1=sysconf(84);
+  return (unsigned long int)return_value_sysconf_1;
 }
 
 // pipeline_create
@@ -2609,21 +2609,21 @@ void pipeline_create(void * (*create)(void), void (*destroy)(void *), void (*spl
   if(gPipelineProcessMax >= 1ul && !(gPipelineProcessMax >= gPLProcessCount))
     gPLProcessCount = gPipelineProcessMax;
 
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(gPLProcessCount * sizeof(unsigned long int) /*8ul*/ );
-  gPLProcessThreads = (unsigned long int *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(gPLProcessCount * sizeof(unsigned long int) /*8ul*/ );
+  gPLProcessThreads = (unsigned long int *)return_value_malloc_1;
   signed int qsize;
-  double tmp_if_expr$3;
-  double return_value_ceil$2;
+  double tmp_if_expr_3;
+  double return_value_ceil_2;
   if(!(gPipelineQSize == 0ul))
-    tmp_if_expr$3 = (double)gPipelineQSize;
+    tmp_if_expr_3 = (double)gPipelineQSize;
 
   else
   {
-    return_value_ceil$2=ceil((double)gPLProcessCount * 1.3 + (double)1);
-    tmp_if_expr$3 = return_value_ceil$2;
+    return_value_ceil_2=ceil((double)gPLProcessCount * 1.3 + (double)1);
+    tmp_if_expr_3 = return_value_ceil_2;
   }
-  qsize = (signed int)tmp_if_expr$3;
+  qsize = (signed int)tmp_if_expr_3;
   if(!((unsigned long int)qsize >= gPLProcessCount))
     fprintf(stderr, "Warning: queue size is less than thread count, performance will suffer!\n");
 
@@ -2631,26 +2631,26 @@ void pipeline_create(void * (*create)(void), void (*destroy)(void *), void (*spl
   if(!(i >= (unsigned long int)qsize))
   {
     struct pipeline_item_t *item;
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc(sizeof(struct pipeline_item_t) /*24ul*/ );
-    item = (struct pipeline_item_t *)return_value_malloc$4;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc(sizeof(struct pipeline_item_t) /*24ul*/ );
+    item = (struct pipeline_item_t *)return_value_malloc_4;
     item->data=create();
     queue_push(gPipelineStartQ, PIPELINE_ITEM, (void *)item);
     i = i + 1ul;
   }
 
-  unsigned long int pipeline_create$$1$$3$$i = (unsigned long int)0;
-  for( ; !(pipeline_create$$1$$3$$i >= gPLProcessCount); pipeline_create$$1$$3$$i = pipeline_create$$1$$3$$i + 1ul)
+  unsigned long int pipeline_create__1__3__i = (unsigned long int)0;
+  for( ; !(pipeline_create__1__3__i >= gPLProcessCount); pipeline_create__1__3__i = pipeline_create__1__3__i + 1ul)
   {
-    signed int return_value_pthread_create$5;
-    return_value_pthread_create$5=pthread_create(&gPLProcessThreads[(signed long int)pipeline_create$$1$$3$$i], (const union pthread_attr_t *)(void *)0, pipeline_thread_process, (void *)(unsigned long int)pipeline_create$$1$$3$$i);
-    if(!(return_value_pthread_create$5 == 0))
+    signed int return_value_pthread_create_5;
+    return_value_pthread_create_5=pthread_create(&gPLProcessThreads[(signed long int)pipeline_create__1__3__i], (const union pthread_attr_t *)(void *)0, pipeline_thread_process, (void *)(unsigned long int)pipeline_create__1__3__i);
+    if(!(return_value_pthread_create_5 == 0))
       die("Error creating encode thread");
 
   }
-  signed int return_value_pthread_create$6;
-  return_value_pthread_create$6=pthread_create(&gPLSplitThread, (const union pthread_attr_t *)(void *)0, pipeline_thread_split, (void *)0);
-  if(!(return_value_pthread_create$6 == 0))
+  signed int return_value_pthread_create_6;
+  return_value_pthread_create_6=pthread_create(&gPLSplitThread, (const union pthread_attr_t *)(void *)0, pipeline_thread_split, (void *)0);
+  if(!(return_value_pthread_create_6 == 0))
     die("Error creating read thread");
 
 }
@@ -2659,9 +2659,9 @@ void pipeline_create(void * (*create)(void), void (*destroy)(void *), void (*spl
 // file common.c line 534
 void pipeline_destroy(void)
 {
-  signed int return_value_pthread_join$1;
-  return_value_pthread_join$1=pthread_join(gPLSplitThread, (void **)(void *)0);
-  if(!(return_value_pthread_join$1 == 0))
+  signed int return_value_pthread_join_1;
+  return_value_pthread_join_1=pthread_join(gPLSplitThread, (void **)(void *)0);
+  if(!(return_value_pthread_join_1 == 0))
     die("Error joining splitter thread");
 
   queue_free(gPipelineStartQ);
@@ -2674,9 +2674,9 @@ void pipeline_destroy(void)
 // file common.c line 544
 void pipeline_dispatch(struct pipeline_item_t *item, struct anonymous *q)
 {
-  signed long int tmp_post$1 = gPLSplitSeq;
+  signed long int tmp_post_1 = gPLSplitSeq;
   gPLSplitSeq = gPLSplitSeq + 1l;
-  item->seq = (unsigned long int)tmp_post$1;
+  item->seq = (unsigned long int)tmp_post_1;
   item->next = (struct pipeline_item_t *)(void *)0;
   queue_push(q, PIPELINE_ITEM, (void *)item);
 }
@@ -2695,10 +2695,10 @@ struct pipeline_item_t * pipeline_merged()
 
     }
 
-    enum anonymous$1 tag;
-    signed int return_value_queue_pop$1;
-    return_value_queue_pop$1=queue_pop(gPipelineMergeQ, (void **)&item);
-    tag = (enum anonymous$1)return_value_queue_pop$1;
+    enum anonymous_1 tag;
+    signed int return_value_queue_pop_1;
+    return_value_queue_pop_1=queue_pop(gPipelineMergeQ, (void **)&item);
+    tag = (enum anonymous_1)return_value_queue_pop_1;
     if((signed int)tag == PIPELINE_STOP)
       return (struct pipeline_item_t *)(void *)0;
 
@@ -2752,12 +2752,12 @@ void pipeline_stop(void)
   unsigned long int i = (unsigned long int)0;
   for( ; !(i >= gPLProcessCount); i = i + 1ul)
     queue_push(gPipelineSplitQ, PIPELINE_STOP, (void *)0);
-  unsigned long int pipeline_stop$$1$$2$$i = (unsigned long int)0;
-  for( ; !(pipeline_stop$$1$$2$$i >= gPLProcessCount); pipeline_stop$$1$$2$$i = pipeline_stop$$1$$2$$i + 1ul)
+  unsigned long int pipeline_stop__1__2__i = (unsigned long int)0;
+  for( ; !(pipeline_stop__1__2__i >= gPLProcessCount); pipeline_stop__1__2__i = pipeline_stop__1__2__i + 1ul)
   {
-    signed int return_value_pthread_join$1;
-    return_value_pthread_join$1=pthread_join(gPLProcessThreads[(signed long int)pipeline_stop$$1$$2$$i], (void **)(void *)0);
-    if(!(return_value_pthread_join$1 == 0))
+    signed int return_value_pthread_join_1;
+    return_value_pthread_join_1=pthread_join(gPLProcessThreads[(signed long int)pipeline_stop__1__2__i], (void **)(void *)0);
+    if(!(return_value_pthread_join_1 == 0))
       die("Error joining processing thread");
 
   }
@@ -2785,25 +2785,25 @@ static void * pipeline_thread_split(void *ignore)
 // file list.c line 5
 void pixz_list(_Bool tar)
 {
-  _Bool return_value_decode_index$1;
-  return_value_decode_index$1=decode_index();
-  if(return_value_decode_index$1 == (_Bool)0)
+  _Bool return_value_decode_index_1;
+  return_value_decode_index_1=decode_index();
+  if(return_value_decode_index_1 == (_Bool)0)
     die("Can't list non-seekable input");
 
-  struct anonymous$13 iter;
+  struct anonymous_13 iter;
   lzma_index_iter_init(&iter, gIndex);
-  _Bool tmp_if_expr$4;
-  unsigned long int return_value_read_file_index$3;
+  _Bool tmp_if_expr_4;
+  unsigned long int return_value_read_file_index_3;
   if(!(tar == (_Bool)0))
   {
-    return_value_read_file_index$3=read_file_index();
-    tmp_if_expr$4 = return_value_read_file_index$3 != 0ul ? (_Bool)1 : (_Bool)0;
+    return_value_read_file_index_3=read_file_index();
+    tmp_if_expr_4 = return_value_read_file_index_3 != 0ul ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  unsigned char return_value_lzma_index_iter_next$2;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  unsigned char return_value_lzma_index_iter_next_2;
+  if(tmp_if_expr_4)
   {
     dump_file_index(stdout, (_Bool)0);
     free_file_index();
@@ -2812,14 +2812,14 @@ void pixz_list(_Bool tar)
   else
     do
     {
-      return_value_lzma_index_iter_next$2=lzma_index_iter_next(&iter, (enum anonymous$26)LZMA_INDEX_ITER_BLOCK);
-      if(!(return_value_lzma_index_iter_next$2 == 0))
+      return_value_lzma_index_iter_next_2=lzma_index_iter_next(&iter, (enum anonymous_26)LZMA_INDEX_ITER_BLOCK);
+      if(!(return_value_lzma_index_iter_next_2 == 0))
         break;
 
       printf("%9lu / %9lu\n", (unsigned long int)iter.block.unpadded_size, (unsigned long int)iter.block.uncompressed_size);
     }
     while((_Bool)1);
-  lzma_index_end(gIndex, (struct anonymous$6 *)(void *)0);
+  lzma_index_end(gIndex, (struct anonymous_6 *)(void *)0);
   lzma_end(&gStream);
 }
 
@@ -2827,9 +2827,9 @@ void pixz_list(_Bool tar)
 // file pixz.h line 52
 void pixz_read(_Bool verify, unsigned long int nspecs, char **specs)
 {
-  _Bool return_value_decode_index$1;
-  return_value_decode_index$1=decode_index();
-  if(!(return_value_decode_index$1 == (_Bool)0))
+  _Bool return_value_decode_index_1;
+  return_value_decode_index_1=decode_index();
+  if(!(return_value_decode_index_1 == (_Bool)0))
   {
     if(!(verify == (_Bool)0))
       gFileIndexOffset=read_file_index();
@@ -2862,9 +2862,9 @@ void pixz_read(_Bool verify, unsigned long int nspecs, char **specs)
       else
         if(!(aerr == 0) && !(aerr == -20))
         {
-          const char *return_value_archive_error_string$2;
-          return_value_archive_error_string$2=archive_error_string(ar);
-          fprintf(stderr, "%s\n", return_value_archive_error_string$2);
+          const char *return_value_archive_error_string_2;
+          return_value_archive_error_string_2=archive_error_string(ar);
+          fprintf(stderr, "%s\n", return_value_archive_error_string_2);
           die("Error reading archive entry");
         }
 
@@ -2890,9 +2890,9 @@ void pixz_read(_Bool verify, unsigned long int nspecs, char **specs)
         if(w == ((struct wanted_t *)NULL))
           die("File %s missing in index", path);
 
-        signed int return_value_strcmp$3;
-        return_value_strcmp$3=strcmp(path, w->name);
-        if(!(return_value_strcmp$3 == 0))
+        signed int return_value_strcmp_3;
+        return_value_strcmp_3=strcmp(path, w->name);
+        if(!(return_value_strcmp_3 == 0))
           die("Index and archive differ as to next file: %s vs %s", w->name, path);
 
         wlast = w;
@@ -2911,7 +2911,7 @@ void pixz_read(_Bool verify, unsigned long int nspecs, char **specs)
     tar_write_last();
   }
 
-  _Bool return_value_taste_file_index$4;
+  _Bool return_value_taste_file_index_4;
   if(gExplicitFiles == (_Bool)0)
   {
     _Bool start = !(gIndex != ((struct lzma_index_s *)NULL)) && verify != (_Bool)0;
@@ -2925,7 +2925,7 @@ void pixz_read(_Bool verify, unsigned long int nspecs, char **specs)
       if(pi == ((struct pipeline_item_t *)NULL))
         break;
 
-      struct anonymous$4 *ib = (struct anonymous$4 *)pi->data;
+      struct anonymous_4 *ib = (struct anonymous_4 *)pi->data;
       if(!(skipping == (_Bool)0))
       {
         if(!((signed int)ib->btype == BLOCK_CONTINUATION))
@@ -2940,8 +2940,8 @@ void pixz_read(_Bool verify, unsigned long int nspecs, char **specs)
       {
         if((signed int)ib->btype == BLOCK_UNSIZED)
         {
-          return_value_taste_file_index$4=taste_file_index(ib);
-          if(!(return_value_taste_file_index$4 == (_Bool)0))
+          return_value_taste_file_index_4=taste_file_index(ib);
+          if(!(return_value_taste_file_index_4 == (_Bool)0))
             skipping = (_Bool)1;
 
         }
@@ -2959,9 +2959,9 @@ void pixz_read(_Bool verify, unsigned long int nspecs, char **specs)
 
       if(skipping == (_Bool)0)
       {
-        unsigned long int return_value_fwrite$5;
-        return_value_fwrite$5=fwrite((const void *)ib->output, ib->outsize, (unsigned long int)1, gOutFile);
-        if(!(return_value_fwrite$5 == 1ul))
+        unsigned long int return_value_fwrite_5;
+        return_value_fwrite_5=fwrite((const void *)ib->output, ib->outsize, (unsigned long int)1, gOutFile);
+        if(!(return_value_fwrite_5 == 1ul))
           die("Can't write block");
 
       }
@@ -2980,21 +2980,21 @@ void pixz_read(_Bool verify, unsigned long int nspecs, char **specs)
 void pixz_write(_Bool tar, unsigned int level)
 {
   gTar = tar;
-  struct anonymous$22 lzma_opts;
-  unsigned char return_value_lzma_lzma_preset$1;
-  return_value_lzma_lzma_preset$1=lzma_lzma_preset(&lzma_opts, level);
-  if(!(return_value_lzma_lzma_preset$1 == 0))
+  struct anonymous_22 lzma_opts;
+  unsigned char return_value_lzma_lzma_preset_1;
+  return_value_lzma_lzma_preset_1=lzma_lzma_preset(&lzma_opts, level);
+  if(!(return_value_lzma_lzma_preset_1 == 0))
     die("Error setting lzma options");
 
-  gFilters[(signed long int)0] = (struct anonymous$15){ .id=0x21UL, .options=(void *)&lzma_opts };
-  gFilters[(signed long int)1] = (struct anonymous$15){ .id=18446744073709551615UL, .options=(void *)0 };
+  gFilters[(signed long int)0] = (struct anonymous_15){ .id=0x21UL, .options=(void *)&lzma_opts };
+  gFilters[(signed long int)1] = (struct anonymous_15){ .id=18446744073709551615UL, .options=(void *)0 };
   gBlockInSize = (unsigned long int)((double)lzma_opts.dict_size * gBlockFraction);
   if(!(gBlockInSize >= 1ul))
     die("Block size must be positive");
 
   gBlockOutSize=lzma_block_buffer_bound(gBlockInSize);
-  pipeline_create((void * (*)(void))block_create$link1, block_free$link1, (void (*)(void))read_thread$link1, encode_thread);
-  gIndex=lzma_index_init((struct anonymous$6 *)(void *)0);
+  pipeline_create((void * (*)(void))block_create_link1, block_free_link1, (void (*)(void))read_thread_link1, encode_thread);
+  gIndex=lzma_index_init((struct anonymous_6 *)(void *)0);
   if(gIndex == ((struct lzma_index_s *)NULL))
     die("Error creating index");
 
@@ -3014,10 +3014,10 @@ void pixz_write(_Bool tar, unsigned int level)
 
   free_file_index();
   encode_index();
-  unsigned long int return_value_lzma_index_size$2;
-  return_value_lzma_index_size$2=lzma_index_size(gIndex);
-  stream_edge(return_value_lzma_index_size$2);
-  lzma_index_end(gIndex, (struct anonymous$6 *)(void *)0);
+  unsigned long int return_value_lzma_index_size_2;
+  return_value_lzma_index_size_2=lzma_index_size(gIndex);
+  stream_edge(return_value_lzma_index_size_2);
+  lzma_index_end(gIndex, (struct anonymous_6 *)(void *)0);
   fclose(gOutFile);
   pipeline_destroy();
 }
@@ -3046,14 +3046,14 @@ void queue_free(struct anonymous *q)
 struct anonymous * queue_new(void (*freer)(signed int, void *))
 {
   struct anonymous *q;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous) /*112ul*/ );
-  q = (struct anonymous *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous) /*112ul*/ );
+  q = (struct anonymous *)return_value_malloc_1;
   q->last = (struct queue_item_t *)(void *)0;
   q->first = q->last;
   q->freer = freer;
-  pthread_mutex_init(&q->mutex, (const union anonymous$28 *)(void *)0);
-  pthread_cond_init(&q->pop_cond, (const union anonymous$28 *)(void *)0);
+  pthread_mutex_init(&q->mutex, (const union anonymous_28 *)(void *)0);
+  pthread_cond_init(&q->pop_cond, (const union anonymous_28 *)(void *)0);
   return q;
 }
 
@@ -3082,9 +3082,9 @@ void queue_push(struct anonymous *q, signed int type, void *data)
 {
   pthread_mutex_lock(&q->mutex);
   struct queue_item_t *i;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct queue_item_t) /*24ul*/ );
-  i = (struct queue_item_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct queue_item_t) /*24ul*/ );
+  i = (struct queue_item_t *)return_value_malloc_1;
   i->type = type;
   i->data = data;
   i->next = (struct queue_item_t *)(void *)0;
@@ -3110,14 +3110,14 @@ static void rbuf_consume(unsigned long int bytes)
 
 // rbuf_cycle
 // file read.c line 325
-static _Bool rbuf_cycle(struct anonymous$5 *stream, _Bool start, unsigned long int skip)
+static _Bool rbuf_cycle(struct anonymous_5 *stream, _Bool start, unsigned long int skip)
 {
   if(start == (_Bool)0)
   {
     rbuf_consume(gRbuf->insize);
-    enum anonymous$11 return_value_rbuf_read$1;
-    return_value_rbuf_read$1=rbuf_read((unsigned long int)4096);
-    if(!((signed int)return_value_rbuf_read$1 >= RBUF_PART))
+    enum anonymous_11 return_value_rbuf_read_1;
+    return_value_rbuf_read_1=rbuf_read((unsigned long int)4096);
+    if(!((signed int)return_value_rbuf_read_1 >= RBUF_PART))
       return (_Bool)0;
 
   }
@@ -3133,23 +3133,23 @@ static void rbuf_dispatch(void)
 {
   pipeline_split(gRbufPI);
   gRbufPI = (struct pipeline_item_t *)(void *)0;
-  gRbuf = (struct anonymous$4 *)(void *)0;
+  gRbuf = (struct anonymous_4 *)(void *)0;
 }
 
 // rbuf_read
 // file read.c line 305
-static enum anonymous$11 rbuf_read(unsigned long int bytes)
+static enum anonymous_11 rbuf_read(unsigned long int bytes)
 {
   if(gRbufPI == ((struct pipeline_item_t *)NULL))
   {
     queue_pop(gPipelineStartQ, (void **)&gRbufPI);
-    gRbuf = (struct anonymous$4 *)gRbufPI->data;
+    gRbuf = (struct anonymous_4 *)gRbufPI->data;
     gRbuf->outsize = (unsigned long int)0;
     gRbuf->insize = gRbuf->outsize;
   }
 
   if(gRbuf->insize >= bytes)
-    return (enum anonymous$11)RBUF_FULL;
+    return (enum anonymous_11)RBUF_FULL;
 
   else
   {
@@ -3158,23 +3158,23 @@ static enum anonymous$11 rbuf_read(unsigned long int bytes)
     r=fread((void *)(gRbuf->input + (signed long int)gRbuf->insize), (unsigned long int)1, bytes - gRbuf->insize, gInFile);
     gRbuf->insize = gRbuf->insize + r;
     if(!(r == 0ul))
-      return (enum anonymous$11)(gRbuf->insize == bytes ? RBUF_FULL : RBUF_PART);
+      return (enum anonymous_11)(gRbuf->insize == bytes ? RBUF_FULL : RBUF_PART);
 
     else
     {
-      signed int return_value_feof$1;
-      return_value_feof$1=feof(gInFile);
-      return (enum anonymous$11)(return_value_feof$1 != 0 ? RBUF_EOF : RBUF_ERR);
+      signed int return_value_feof_1;
+      return_value_feof_1=feof(gInFile);
+      return (enum anonymous_11)(return_value_feof_1 != 0 ? RBUF_EOF : RBUF_ERR);
     }
   }
 }
 
 // read_block
 // file read.c line 366
-static _Bool read_block(_Bool force_stream, enum anonymous$12 check, signed long int uoffset)
+static _Bool read_block(_Bool force_stream, enum anonymous_12 check, signed long int uoffset)
 {
-  struct anonymous$15 filters[5l];
-  struct anonymous$16 block = { .version=(unsigned int)0, .header_size=0u, .check=check,
+  struct anonymous_15 filters[5l];
+  struct anonymous_16 block = { .version=(unsigned int)0, .header_size=0u, .check=check,
     .compressed_size=0ul, .uncompressed_size=0ul, .filters=filters,
     .raw_check={ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, .reserved_ptr1=NULL,
     .reserved_ptr2=NULL, .reserved_ptr3=NULL,
@@ -3182,17 +3182,17 @@ static _Bool read_block(_Bool force_stream, enum anonymous$12 check, signed long
     .reserved_int3=0ul, .reserved_int4=0ul,
     .reserved_int5=0ul, .reserved_int6=0ul,
     .reserved_int7=0ul, .reserved_int8=0ul,
-    .reserved_enum1=(enum anonymous$7)0, .reserved_enum2=(enum anonymous$7)0,
-    .reserved_enum3=(enum anonymous$7)0,
-    .reserved_enum4=(enum anonymous$7)0,
+    .reserved_enum1=(enum anonymous_7)0, .reserved_enum2=(enum anonymous_7)0,
+    .reserved_enum3=(enum anonymous_7)0,
+    .reserved_enum4=(enum anonymous_7)0,
     .reserved_bool1=0,
     .reserved_bool2=0, .reserved_bool3=0,
     .reserved_bool4=0, .reserved_bool5=0,
     .reserved_bool6=0, .reserved_bool7=0,
     .reserved_bool8=0 };
-  enum anonymous$11 return_value_rbuf_read$1;
-  return_value_rbuf_read$1=rbuf_read((unsigned long int)1);
-  if(!((signed int)return_value_rbuf_read$1 == RBUF_FULL))
+  enum anonymous_11 return_value_rbuf_read_1;
+  return_value_rbuf_read_1=rbuf_read((unsigned long int)1);
+  if(!((signed int)return_value_rbuf_read_1 == RBUF_FULL))
     die("Error reading block header size");
 
   if((signed int)*gRbuf->input == 0)
@@ -3204,33 +3204,33 @@ static _Bool read_block(_Bool force_stream, enum anonymous$12 check, signed long
     if(block.header_size >= 1025u)
       die("Block header size too large");
 
-    enum anonymous$11 return_value_rbuf_read$2;
-    return_value_rbuf_read$2=rbuf_read((unsigned long int)block.header_size);
-    if(!((signed int)return_value_rbuf_read$2 == RBUF_FULL))
+    enum anonymous_11 return_value_rbuf_read_2;
+    return_value_rbuf_read_2=rbuf_read((unsigned long int)block.header_size);
+    if(!((signed int)return_value_rbuf_read_2 == RBUF_FULL))
       die("Error reading block header");
 
-    enum anonymous$3 return_value_lzma_block_header_decode$3;
-    return_value_lzma_block_header_decode$3=lzma_block_header_decode(&block, (struct anonymous$6 *)(void *)0, gRbuf->input);
-    if(!((signed int)return_value_lzma_block_header_decode$3 == LZMA_OK))
+    enum anonymous_3 return_value_lzma_block_header_decode_3;
+    return_value_lzma_block_header_decode_3=lzma_block_header_decode(&block, (struct anonymous_6 *)(void *)0, gRbuf->input);
+    if(!((signed int)return_value_lzma_block_header_decode_3 == LZMA_OK))
       die("Error decoding block header");
 
     unsigned long int comp = block.compressed_size;
     unsigned long int outsize = block.uncompressed_size;
     _Bool sized = comp != 18446744073709551615UL && outsize != 18446744073709551615UL;
     if(sized == (_Bool)0 || outsize >= 134217729ul || !(force_stream == (_Bool)0))
-      read_streaming(&block, (enum anonymous$2)(sized != (_Bool)0 ? BLOCK_SIZED : BLOCK_UNSIZED), uoffset);
+      read_streaming(&block, (enum anonymous_2)(sized != (_Bool)0 ? BLOCK_SIZED : BLOCK_UNSIZED), uoffset);
 
     else
     {
       block_capacity(gRbuf, (unsigned long int)0, outsize);
       gRbuf->outsize = outsize;
       gRbuf->check = check;
-      gRbuf->btype = (enum anonymous$2)BLOCK_SIZED;
-      unsigned long int return_value_lzma_block_total_size$4;
-      return_value_lzma_block_total_size$4=lzma_block_total_size(&block);
-      enum anonymous$11 return_value_rbuf_read$5;
-      return_value_rbuf_read$5=rbuf_read(return_value_lzma_block_total_size$4);
-      if(!((signed int)return_value_rbuf_read$5 == RBUF_FULL))
+      gRbuf->btype = (enum anonymous_2)BLOCK_SIZED;
+      unsigned long int return_value_lzma_block_total_size_4;
+      return_value_lzma_block_total_size_4=lzma_block_total_size(&block);
+      enum anonymous_11 return_value_rbuf_read_5;
+      return_value_rbuf_read_5=rbuf_read(return_value_lzma_block_total_size_4);
+      if(!((signed int)return_value_rbuf_read_5 == RBUF_FULL))
         die("Error reading block contents");
 
       rbuf_dispatch();
@@ -3246,8 +3246,8 @@ unsigned long int read_file_index(void)
   void *bdata = (void *)0;
   unsigned long int offset;
   offset=find_file_index(&bdata);
-  char *tmp_if_expr$4;
-  char *return_value_xstrdup$3;
+  char *tmp_if_expr_4;
+  char *return_value_xstrdup_3;
   if(offset == 0ul)
     return (unsigned long int)0;
 
@@ -3261,23 +3261,23 @@ unsigned long int read_file_index(void)
         break;
 
       struct file_index_t *f;
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct file_index_t) /*24ul*/ );
-      f = (struct file_index_t *)return_value_malloc$1;
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(name);
-      if(!(return_value_strlen$2 == 0ul))
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct file_index_t) /*24ul*/ );
+      f = (struct file_index_t *)return_value_malloc_1;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(name);
+      if(!(return_value_strlen_2 == 0ul))
       {
-        return_value_xstrdup$3=xstrdup(name);
-        tmp_if_expr$4 = return_value_xstrdup$3;
+        return_value_xstrdup_3=xstrdup(name);
+        tmp_if_expr_4 = return_value_xstrdup_3;
       }
 
       else
-        tmp_if_expr$4 = (char *)(void *)0;
-      f->name = tmp_if_expr$4;
-      unsigned long int return_value_xle64dec$5;
-      return_value_xle64dec$5=xle64dec(gFileIndexBuf + (signed long int)gFIBPos);
-      f->offset = (signed long int)return_value_xle64dec$5;
+        tmp_if_expr_4 = (char *)(void *)0;
+      f->name = tmp_if_expr_4;
+      unsigned long int return_value_xle64dec_5;
+      return_value_xle64dec_5=xle64dec(gFileIndexBuf + (signed long int)gFIBPos);
+      f->offset = (signed long int)return_value_xle64dec_5;
       gFIBPos = gFIBPos + sizeof(unsigned long int) /*8ul*/ ;
       if(!(gLastFile == ((struct file_index_t *)NULL)))
         gLastFile->next = f;
@@ -3303,15 +3303,15 @@ static void read_file_index_data(void)
     if(gStream.avail_in == 0ul)
     {
       gStream.avail_in=fread((void *)gFIBInputBuf, (unsigned long int)1, (unsigned long int)4096, gInFile);
-      signed int return_value_ferror$1;
-      return_value_ferror$1=ferror(gInFile);
-      if(!(return_value_ferror$1 == 0))
+      signed int return_value_ferror_1;
+      return_value_ferror_1=ferror(gInFile);
+      if(!(return_value_ferror_1 == 0))
         die("Error reading file index data");
 
       gStream.next_in = gFIBInputBuf;
     }
 
-    gFIBErr=lzma_code(&gStream, (enum anonymous$19)LZMA_RUN);
+    gFIBErr=lzma_code(&gStream, (enum anonymous_19)LZMA_RUN);
     if(!((signed int)gFIBErr == LZMA_OK) && !((signed int)gFIBErr == LZMA_STREAM_END))
       die("Error decoding file index data");
 
@@ -3337,16 +3337,16 @@ static void read_file_index_make_space(void)
     gStream.avail_out = gStream.avail_out + gFIBSize;
     gFIBSize = gFIBSize * (unsigned long int)2;
     unsigned char *new_gFileIndexBuf;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)gFileIndexBuf, gFIBSize);
-    new_gFileIndexBuf = (unsigned char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)gFileIndexBuf, gFIBSize);
+    new_gFileIndexBuf = (unsigned char *)return_value_realloc_1;
     if(new_gFileIndexBuf == ((unsigned char *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      die("memory re-allocation failure: %s", return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      die("memory re-allocation failure: %s", return_value_strerror_3);
     }
 
     else
@@ -3359,8 +3359,8 @@ static void read_file_index_make_space(void)
 // file common.c line 186
 static char * read_file_index_name(void)
 {
-  _Bool tmp_if_expr$2;
-  void *return_value_memchr$1;
+  _Bool tmp_if_expr_2;
+  void *return_value_memchr_1;
   while((_Bool)1)
   {
     unsigned char *eos;
@@ -3368,14 +3368,14 @@ static char * read_file_index_name(void)
     signed long int len = (signed long int)(((gFIBSize - gStream.avail_out) - gFIBPos) - sizeof(unsigned long int) /*8ul*/ );
     if(len >= 1l)
     {
-      return_value_memchr$1=memchr((const void *)haystack, 0, (unsigned long int)len);
-      eos = (unsigned char *)return_value_memchr$1;
-      tmp_if_expr$2 = eos != ((unsigned char *)NULL) ? (_Bool)1 : (_Bool)0;
+      return_value_memchr_1=memchr((const void *)haystack, 0, (unsigned long int)len);
+      eos = (unsigned char *)return_value_memchr_1;
+      tmp_if_expr_2 = eos != ((unsigned char *)NULL) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       gFIBPos = gFIBPos + (unsigned long int)((eos - haystack) + (signed long int)1);
       return (char *)haystack;
@@ -3399,22 +3399,22 @@ static char * read_file_index_name(void)
 // file read.c line 464
 static void read_footer(void)
 {
-  struct anonymous$8 stream_flags;
-  enum anonymous$11 return_value_rbuf_read$1;
-  return_value_rbuf_read$1=rbuf_read((unsigned long int)12);
-  if(!((signed int)return_value_rbuf_read$1 == RBUF_FULL))
+  struct anonymous_8 stream_flags;
+  enum anonymous_11 return_value_rbuf_read_1;
+  return_value_rbuf_read_1=rbuf_read((unsigned long int)12);
+  if(!((signed int)return_value_rbuf_read_1 == RBUF_FULL))
     die("Error reading stream footer");
 
-  enum anonymous$3 return_value_lzma_stream_footer_decode$2;
-  return_value_lzma_stream_footer_decode$2=lzma_stream_footer_decode(&stream_flags, gRbuf->input);
-  if(!((signed int)return_value_lzma_stream_footer_decode$2 == LZMA_OK))
+  enum anonymous_3 return_value_lzma_stream_footer_decode_2;
+  return_value_lzma_stream_footer_decode_2=lzma_stream_footer_decode(&stream_flags, gRbuf->input);
+  if(!((signed int)return_value_lzma_stream_footer_decode_2 == LZMA_OK))
     die("Error decoding XZ footer");
 
   rbuf_consume((unsigned long int)12);
   char zeros[4l] = { 0, 0, 0, 0 };
   while((_Bool)1)
   {
-    enum anonymous$11 st;
+    enum anonymous_11 st;
     st=rbuf_read((unsigned long int)4);
     if((signed int)st == RBUF_EOF)
       goto __CPROVER_DUMP_L8;
@@ -3422,9 +3422,9 @@ static void read_footer(void)
     if(!((signed int)st == RBUF_FULL))
       die("Footer must be multiple of four bytes");
 
-    signed int return_value_memcmp$3;
-    return_value_memcmp$3=memcmp((const void *)zeros, (const void *)gRbuf->input, (unsigned long int)4);
-    if(!(return_value_memcmp$3 == 0))
+    signed int return_value_memcmp_3;
+    return_value_memcmp_3=memcmp((const void *)zeros, (const void *)gRbuf->input, (unsigned long int)4);
+    if(!(return_value_memcmp_3 == 0))
       goto __CPROVER_DUMP_L8;
 
     rbuf_consume((unsigned long int)4);
@@ -3436,10 +3436,10 @@ __CPROVER_DUMP_L8:
 
 // read_header
 // file read.c line 349
-static _Bool read_header(enum anonymous$12 *check)
+static _Bool read_header(enum anonymous_12 *check)
 {
-  struct anonymous$8 stream_flags;
-  enum anonymous$11 st;
+  struct anonymous_8 stream_flags;
+  enum anonymous_11 st;
   st=rbuf_read((unsigned long int)12);
   if((signed int)st == RBUF_EOF)
     return (_Bool)0;
@@ -3448,7 +3448,7 @@ static _Bool read_header(enum anonymous$12 *check)
     if(!((signed int)st == RBUF_FULL))
       die("Error reading stream header");
 
-  enum anonymous$3 err;
+  enum anonymous_3 err;
   err=lzma_stream_header_decode(&stream_flags, gRbuf->input);
   if((signed int)err == LZMA_FORMAT_ERROR)
     die("Not an XZ file");
@@ -3466,10 +3466,10 @@ static _Bool read_header(enum anonymous$12 *check)
 // file read.c line 445
 static void read_index(void)
 {
-  struct anonymous$5 stream = { .next_in=(const unsigned char *)(void *)0, .avail_in=(unsigned long int)0,
+  struct anonymous_5 stream = { .next_in=(const unsigned char *)(void *)0, .avail_in=(unsigned long int)0,
     .total_in=(unsigned long int)0, .next_out=(unsigned char *)(void *)0,
     .avail_out=(unsigned long int)0,
-    .total_out=(unsigned long int)0, .allocator=(struct anonymous$6 *)(void *)0,
+    .total_out=(unsigned long int)0, .allocator=(struct anonymous_6 *)(void *)0,
     .internal=(struct lzma_internal_s *)(void *)0,
     .reserved_ptr1=(void *)0,
     .reserved_ptr2=(void *)0, .reserved_ptr3=(void *)0,
@@ -3477,17 +3477,17 @@ static void read_index(void)
     .reserved_int2=(unsigned long int)0,
     .reserved_int3=(unsigned long int)0,
     .reserved_int4=(unsigned long int)0,
-    .reserved_enum1=(enum anonymous$7)LZMA_RESERVED_ENUM,
-    .reserved_enum2=(enum anonymous$7)LZMA_RESERVED_ENUM };
+    .reserved_enum1=(enum anonymous_7)LZMA_RESERVED_ENUM,
+    .reserved_enum2=(enum anonymous_7)LZMA_RESERVED_ENUM };
   struct lzma_index_s *index;
-  enum anonymous$3 return_value_lzma_index_decoder$1;
-  return_value_lzma_index_decoder$1=lzma_index_decoder(&stream, &index, 64ULL * (unsigned long int)1024 * (unsigned long int)1024 * (unsigned long int)1024);
-  if(!((signed int)return_value_lzma_index_decoder$1 == LZMA_OK))
+  enum anonymous_3 return_value_lzma_index_decoder_1;
+  return_value_lzma_index_decoder_1=lzma_index_decoder(&stream, &index, 64ULL * (unsigned long int)1024 * (unsigned long int)1024 * (unsigned long int)1024);
+  if(!((signed int)return_value_lzma_index_decoder_1 == LZMA_OK))
     die("Error initializing index decoder");
 
   rbuf_cycle(&stream, (_Bool)1, (unsigned long int)0);
-  enum anonymous$3 err = (enum anonymous$3)LZMA_OK;
-  _Bool return_value_rbuf_cycle$2;
+  enum anonymous_3 err = (enum anonymous_3)LZMA_OK;
+  _Bool return_value_rbuf_cycle_2;
   while(!((signed int)err == LZMA_STREAM_END))
   {
     if(!((signed int)err == LZMA_OK))
@@ -3495,13 +3495,13 @@ static void read_index(void)
 
     if(stream.avail_in == 0ul)
     {
-      return_value_rbuf_cycle$2=rbuf_cycle(&stream, (_Bool)0, (unsigned long int)0);
-      if(return_value_rbuf_cycle$2 == (_Bool)0)
+      return_value_rbuf_cycle_2=rbuf_cycle(&stream, (_Bool)0, (unsigned long int)0);
+      if(return_value_rbuf_cycle_2 == (_Bool)0)
         die("Error reading index");
 
     }
 
-    err=lzma_code(&stream, (enum anonymous$19)LZMA_RUN);
+    err=lzma_code(&stream, (enum anonymous_19)LZMA_RUN);
   }
   rbuf_consume(gRbuf->insize - stream.avail_in);
   lzma_end(&stream);
@@ -3509,12 +3509,12 @@ static void read_index(void)
 
 // read_streaming
 // file read.c line 400
-static void read_streaming(struct anonymous$16 *block, enum anonymous$2 sized, signed long int uoffset)
+static void read_streaming(struct anonymous_16 *block, enum anonymous_2 sized, signed long int uoffset)
 {
-  struct anonymous$5 stream = { .next_in=(const unsigned char *)(void *)0, .avail_in=(unsigned long int)0,
+  struct anonymous_5 stream = { .next_in=(const unsigned char *)(void *)0, .avail_in=(unsigned long int)0,
     .total_in=(unsigned long int)0, .next_out=(unsigned char *)(void *)0,
     .avail_out=(unsigned long int)0,
-    .total_out=(unsigned long int)0, .allocator=(struct anonymous$6 *)(void *)0,
+    .total_out=(unsigned long int)0, .allocator=(struct anonymous_6 *)(void *)0,
     .internal=(struct lzma_internal_s *)(void *)0,
     .reserved_ptr1=(void *)0,
     .reserved_ptr2=(void *)0, .reserved_ptr3=(void *)0,
@@ -3522,20 +3522,20 @@ static void read_streaming(struct anonymous$16 *block, enum anonymous$2 sized, s
     .reserved_int2=(unsigned long int)0,
     .reserved_int3=(unsigned long int)0,
     .reserved_int4=(unsigned long int)0,
-    .reserved_enum1=(enum anonymous$7)LZMA_RESERVED_ENUM,
-    .reserved_enum2=(enum anonymous$7)LZMA_RESERVED_ENUM };
-  enum anonymous$3 return_value_lzma_block_decoder$1;
-  return_value_lzma_block_decoder$1=lzma_block_decoder(&stream, block);
-  if(!((signed int)return_value_lzma_block_decoder$1 == LZMA_OK))
+    .reserved_enum1=(enum anonymous_7)LZMA_RESERVED_ENUM,
+    .reserved_enum2=(enum anonymous_7)LZMA_RESERVED_ENUM };
+  enum anonymous_3 return_value_lzma_block_decoder_1;
+  return_value_lzma_block_decoder_1=lzma_block_decoder(&stream, block);
+  if(!((signed int)return_value_lzma_block_decoder_1 == LZMA_OK))
     die("Error initializing streaming block decode");
 
   rbuf_cycle(&stream, (_Bool)1, (unsigned long int)block->header_size);
   stream.avail_out = (unsigned long int)0;
   _Bool first = (_Bool)1;
   struct pipeline_item_t *pi = (struct pipeline_item_t *)(void *)0;
-  struct anonymous$4 *ib = (struct anonymous$4 *)(void *)0;
-  enum anonymous$3 err = (enum anonymous$3)LZMA_OK;
-  _Bool return_value_rbuf_cycle$2;
+  struct anonymous_4 *ib = (struct anonymous_4 *)(void *)0;
+  enum anonymous_3 err = (enum anonymous_3)LZMA_OK;
+  _Bool return_value_rbuf_cycle_2;
   while(!((signed int)err == LZMA_STREAM_END))
   {
     if(!((signed int)err == LZMA_OK))
@@ -3543,7 +3543,7 @@ static void read_streaming(struct anonymous$16 *block, enum anonymous$2 sized, s
 
     if(stream.avail_out == 0ul)
     {
-      if(!(ib == ((struct anonymous$4 *)NULL)))
+      if(!(ib == ((struct anonymous_4 *)NULL)))
       {
         ib->outsize = ib->outcap;
         ib->uoffset = uoffset;
@@ -3553,8 +3553,8 @@ static void read_streaming(struct anonymous$16 *block, enum anonymous$2 sized, s
       }
 
       queue_pop(gPipelineStartQ, (void **)&pi);
-      ib = (struct anonymous$4 *)pi->data;
-      ib->btype = (enum anonymous$2)(first != (_Bool)0 ? (signed int)sized : BLOCK_CONTINUATION);
+      ib = (struct anonymous_4 *)pi->data;
+      ib->btype = (enum anonymous_2)(first != (_Bool)0 ? (signed int)sized : BLOCK_CONTINUATION);
       block_capacity(ib, (unsigned long int)0, (unsigned long int)(1024 * 1024));
       stream.next_out = ib->output;
       stream.avail_out = ib->outcap;
@@ -3562,15 +3562,15 @@ static void read_streaming(struct anonymous$16 *block, enum anonymous$2 sized, s
 
     if(stream.avail_in == 0ul)
     {
-      return_value_rbuf_cycle$2=rbuf_cycle(&stream, (_Bool)0, (unsigned long int)0);
-      if(return_value_rbuf_cycle$2 == (_Bool)0)
+      return_value_rbuf_cycle_2=rbuf_cycle(&stream, (_Bool)0, (unsigned long int)0);
+      if(return_value_rbuf_cycle_2 == (_Bool)0)
         die("Error reading streaming block");
 
     }
 
-    err=lzma_code(&stream, (enum anonymous$19)LZMA_RUN);
+    err=lzma_code(&stream, (enum anonymous_19)LZMA_RUN);
   }
-  if(!(ib == ((struct anonymous$4 *)NULL)))
+  if(!(ib == ((struct anonymous_4 *)NULL)))
   {
     if(!(stream.avail_out == ib->outcap))
     {
@@ -3591,15 +3591,15 @@ static void read_thread(void)
   signed long int offset;
   offset=ftello(gInFile);
   struct wanted_t *w = gWantedFiles;
-  struct anonymous$13 iter;
+  struct anonymous_13 iter;
   lzma_index_iter_init(&iter, gIndex);
-  unsigned char return_value_lzma_index_iter_next$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  unsigned char return_value_lzma_index_iter_next_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   do
   {
-    return_value_lzma_index_iter_next$1=lzma_index_iter_next(&iter, (enum anonymous$26)LZMA_INDEX_ITER_BLOCK);
-    if(!(return_value_lzma_index_iter_next$1 == 0))
+    return_value_lzma_index_iter_next_1=lzma_index_iter_next(&iter, (enum anonymous_26)LZMA_INDEX_ITER_BLOCK);
+    if(!(return_value_lzma_index_iter_next_1 == 0))
       break;
 
     signed long int boffset = (signed long int)iter.block.compressed_file_offset;
@@ -3610,21 +3610,21 @@ static void read_thread(void)
       {
         signed long int uend = (signed long int)(iter.block.uncompressed_file_offset + iter.block.uncompressed_size);
         if(w == ((struct wanted_t *)NULL))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = w->start >= uend ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = w->start >= uend ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           continue;
 
         do
         {
           if(!(w == ((struct wanted_t *)NULL)))
-            tmp_if_expr$3 = w->end < uend ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = w->end < uend ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          if(!tmp_if_expr$3)
+            tmp_if_expr_3 = (_Bool)0;
+          if(!tmp_if_expr_3)
             break;
 
           w = w->next;
@@ -3640,7 +3640,7 @@ static void read_thread(void)
 
       if(iter.block.uncompressed_size >= 134217729ul)
       {
-        if(!(gRbuf == ((struct anonymous$4 *)NULL)))
+        if(!(gRbuf == ((struct anonymous_4 *)NULL)))
           rbuf_consume(gRbuf->insize);
 
         read_block((_Bool)1, iter.stream.flags->check, (signed long int)iter.block.uncompressed_file_offset);
@@ -3650,7 +3650,7 @@ static void read_thread(void)
       {
         struct pipeline_item_t *pi;
         queue_pop(gPipelineStartQ, (void **)&pi);
-        struct anonymous$4 *ib = (struct anonymous$4 *)pi->data;
+        struct anonymous_4 *ib = (struct anonymous_4 *)pi->data;
         block_capacity(ib, iter.block.unpadded_size, iter.block.uncompressed_size);
         ib->insize=fread((void *)ib->input, (unsigned long int)1, bsize, gInFile);
         if(!(ib->insize >= bsize))
@@ -3659,7 +3659,7 @@ static void read_thread(void)
         offset = offset + (signed long int)bsize;
         ib->uoffset = (signed long int)iter.block.uncompressed_file_offset;
         ib->check = iter.stream.flags->check;
-        ib->btype = (enum anonymous$2)BLOCK_SIZED;
+        ib->btype = (enum anonymous_2)BLOCK_SIZED;
         pipeline_split(pi);
       }
     }
@@ -3669,9 +3669,9 @@ static void read_thread(void)
   pipeline_stop();
 }
 
-// read_thread$link1
+// read_thread_link1
 // file write.c line 133
-static void read_thread$link1()
+static void read_thread_link1()
 {
   if(!(gTar == (_Bool)0))
   {
@@ -3680,7 +3680,7 @@ static void read_thread$link1()
     archive_read_support_filter_none(ar);
     archive_read_support_format_tar(ar);
     archive_read_support_format_raw(ar);
-    archive_read_open(ar, (void *)0, tar_ok$link1, tar_read$link1, tar_ok$link1);
+    archive_read_open(ar, (void *)0, tar_ok_link1, tar_read_link1, tar_ok_link1);
     struct archive_entry *entry;
     while((_Bool)1)
     {
@@ -3692,44 +3692,44 @@ static void read_thread$link1()
       else
         if(!(aerr == 0) && !(aerr == -20))
         {
-          const char *return_value_archive_error_string$1;
-          return_value_archive_error_string$1=archive_error_string(ar);
-          fprintf(stderr, "%s\n", return_value_archive_error_string$1);
+          const char *return_value_archive_error_string_1;
+          return_value_archive_error_string_1=archive_error_string(ar);
+          fprintf(stderr, "%s\n", return_value_archive_error_string_1);
           die("Error reading archive entry");
         }
 
-      signed int return_value_archive_format$2;
-      return_value_archive_format$2=archive_format(ar);
-      if(return_value_archive_format$2 == 0x90000)
+      signed int return_value_archive_format_2;
+      return_value_archive_format_2=archive_format(ar);
+      if(return_value_archive_format_2 == 0x90000)
       {
         gTar = (_Bool)0;
         break;
       }
 
-      signed long int return_value_archive_read_header_position$3;
-      return_value_archive_read_header_position$3=archive_read_header_position(ar);
-      const char *return_value_archive_entry_pathname$4;
-      return_value_archive_entry_pathname$4=archive_entry_pathname(entry);
-      add_file(return_value_archive_read_header_position$3, return_value_archive_entry_pathname$4);
+      signed long int return_value_archive_read_header_position_3;
+      return_value_archive_read_header_position_3=archive_read_header_position(ar);
+      const char *return_value_archive_entry_pathname_4;
+      return_value_archive_entry_pathname_4=archive_entry_pathname(entry);
+      add_file(return_value_archive_read_header_position_3, return_value_archive_entry_pathname_4);
     }
-    signed long int return_value_archive_read_header_position$5;
-    return_value_archive_read_header_position$5=archive_read_header_position(ar);
-    if(return_value_archive_read_header_position$5 == 0l)
+    signed long int return_value_archive_read_header_position_5;
+    return_value_archive_read_header_position_5=archive_read_header_position(ar);
+    if(return_value_archive_read_header_position_5 == 0l)
       gTar = (_Bool)0;
 
     archive_read_free(ar);
   }
 
-  signed int return_value_feof$7;
-  return_value_feof$7=feof(gInFile);
-  signed long int return_value_tar_read$6;
-  if(return_value_feof$7 == 0)
+  signed int return_value_feof_7;
+  return_value_feof_7=feof(gInFile);
+  signed long int return_value_tar_read_6;
+  if(return_value_feof_7 == 0)
   {
     const void *dummy;
     do
     {
-      return_value_tar_read$6=tar_read$link1((struct archive *)(void *)0, (void *)0, &dummy);
-      if(return_value_tar_read$6 == 0l)
+      return_value_tar_read_6=tar_read_link1((struct archive *)(void *)0, (void *)0, &dummy);
+      if(return_value_tar_read_6 == 0l)
         break;
 
     }
@@ -3758,20 +3758,20 @@ static void read_thread$link1()
 static void read_thread_noindex(void)
 {
   _Bool empty = (_Bool)1;
-  enum anonymous$12 check = (enum anonymous$12)LZMA_CHECK_NONE;
-  _Bool return_value_read_header$1;
-  _Bool return_value_read_block$2;
+  enum anonymous_12 check = (enum anonymous_12)LZMA_CHECK_NONE;
+  _Bool return_value_read_header_1;
+  _Bool return_value_read_block_2;
   do
   {
-    return_value_read_header$1=read_header(&check);
-    if(return_value_read_header$1 == (_Bool)0)
+    return_value_read_header_1=read_header(&check);
+    if(return_value_read_header_1 == (_Bool)0)
       break;
 
     empty = (_Bool)0;
     do
     {
-      return_value_read_block$2=read_block((_Bool)0, check, (signed long int)0);
-      if(return_value_read_block$2 == (_Bool)0)
+      return_value_read_block_2=read_block((_Bool)0, check, (signed long int)0);
+      if(return_value_read_block_2 == (_Bool)0)
         break;
 
     }
@@ -3806,15 +3806,15 @@ static unsigned long int size_uncompressible(unsigned long int insize)
 static _Bool spec_match(char *spec, char *name)
 {
   _Bool match = (_Bool)1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(*spec == 0); name = name + 1l)
   {
     if(*name == 0)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = *spec != *name ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = *spec != *name ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       match = (_Bool)0;
       break;
@@ -3822,32 +3822,32 @@ static _Bool spec_match(char *spec, char *name)
 
     spec = spec + 1l;
   }
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   if(!(match == (_Bool)0))
   {
     if(*name == 0)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)*name == 47 ? (_Bool)1 : (_Bool)0;
-    tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)*name == 47 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  return tmp_if_expr$3;
+    tmp_if_expr_3 = (_Bool)0;
+  return tmp_if_expr_3;
 }
 
 // stream_edge
 // file write.c line 408
 static void stream_edge(unsigned long int backward_size)
 {
-  struct anonymous$8 flags = { .version=(unsigned int)0, .backward_size=backward_size, .check=(enum anonymous$12)LZMA_CHECK_CRC32,
-    .reserved_enum1=(enum anonymous$7)0,
-    .reserved_enum2=(enum anonymous$7)0,
-    .reserved_enum3=(enum anonymous$7)0,
-    .reserved_enum4=(enum anonymous$7)0,
+  struct anonymous_8 flags = { .version=(unsigned int)0, .backward_size=backward_size, .check=(enum anonymous_12)LZMA_CHECK_CRC32,
+    .reserved_enum1=(enum anonymous_7)0,
+    .reserved_enum2=(enum anonymous_7)0,
+    .reserved_enum3=(enum anonymous_7)0,
+    .reserved_enum4=(enum anonymous_7)0,
     .reserved_bool1=0,
     .reserved_bool2=0, .reserved_bool3=0,
     .reserved_bool4=0, .reserved_bool5=0,
@@ -3855,22 +3855,22 @@ static void stream_edge(unsigned long int backward_size)
     .reserved_bool8=0, .reserved_int1=0u,
     .reserved_int2=0u };
   unsigned char buf[12l];
-  enum anonymous$3 (*encoder)(const struct anonymous$8 *, unsigned char *) = backward_size == 18446744073709551615UL ? lzma_stream_header_encode : lzma_stream_footer_encode;
-  enum anonymous$3 return_value;
+  enum anonymous_3 (*encoder)(const struct anonymous_8 *, unsigned char *) = backward_size == 18446744073709551615UL ? lzma_stream_header_encode : lzma_stream_footer_encode;
+  enum anonymous_3 return_value;
   return_value=encoder(&flags, buf);
   if(!((signed int)return_value == LZMA_OK))
     die("Error encoding stream edge");
 
-  unsigned long int return_value_fwrite$1;
-  return_value_fwrite$1=fwrite((const void *)buf, (unsigned long int)12, (unsigned long int)1, gOutFile);
-  if(!(return_value_fwrite$1 == 1ul))
+  unsigned long int return_value_fwrite_1;
+  return_value_fwrite_1=fwrite((const void *)buf, (unsigned long int)12, (unsigned long int)1, gOutFile);
+  if(!(return_value_fwrite_1 == 1ul))
     die("Error writing stream edge");
 
 }
 
 // stream_footer
 // file common.c line 289
-static void stream_footer(struct anonymous$17 *b, struct anonymous$8 *flags)
+static void stream_footer(struct anonymous_17 *b, struct anonymous_8 *flags)
 {
   unsigned char ftr[12l];
   signed int i = (signed int)(sizeof(unsigned char [12l]) /*12ul*/  / sizeof(unsigned int) /*4ul*/  - (unsigned long int)1);
@@ -3883,16 +3883,16 @@ static void stream_footer(struct anonymous$17 *b, struct anonymous$8 *flags)
 
     ((unsigned int *)ftr)[(signed long int)i] = *p;
   }
-  enum anonymous$3 return_value_lzma_stream_footer_decode$1;
-  return_value_lzma_stream_footer_decode$1=lzma_stream_footer_decode(flags, ftr);
-  if(!((signed int)return_value_lzma_stream_footer_decode$1 == LZMA_OK))
+  enum anonymous_3 return_value_lzma_stream_footer_decode_1;
+  return_value_lzma_stream_footer_decode_1=lzma_stream_footer_decode(flags, ftr);
+  if(!((signed int)return_value_lzma_stream_footer_decode_1 == LZMA_OK))
     die("Error decoding stream footer");
 
 }
 
 // stream_padding
 // file common.c line 274
-static signed long int stream_padding(struct anonymous$17 *b, signed long int pos)
+static signed long int stream_padding(struct anonymous_17 *b, signed long int pos)
 {
   b->pos = pos;
   b->size = (unsigned long int)0;
@@ -3921,18 +3921,18 @@ static _Bool strsuf(char *big, char *small)
   bl=strlen(big);
   unsigned long int sl;
   sl=strlen(small);
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp((big + (signed long int)bl) - (signed long int)sl, small);
-  return return_value_strcmp$1 == 0;
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp((big + (signed long int)bl) - (signed long int)sl, small);
+  return return_value_strcmp_1 == 0;
 }
 
 // subsuf
 // file pixz.c line 199
 static char * subsuf(char *in, char *suf1, char *suf2)
 {
-  _Bool return_value_strsuf$1;
-  return_value_strsuf$1=strsuf(in, suf1);
-  if(return_value_strsuf$1 == (_Bool)0)
+  _Bool return_value_strsuf_1;
+  return_value_strsuf_1=strsuf(in, suf1);
+  if(return_value_strsuf_1 == (_Bool)0)
     return (char *)(void *)0;
 
   else
@@ -3944,9 +3944,9 @@ static char * subsuf(char *in, char *suf1, char *suf2)
     unsigned long int l2;
     l2=strlen(suf2);
     char *r;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(((li + l2) - l1) + (unsigned long int)1);
-    r = (char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(((li + l2) - l1) + (unsigned long int)1);
+    r = (char *)return_value_malloc_2;
     memcpy((void *)r, (const void *)in, li - l1);
     strcpy((r + (signed long int)li) - (signed long int)l1, suf2);
     return r;
@@ -3959,7 +3959,7 @@ static _Bool tar_next_block(void)
 {
   if(gArNextItem == (_Bool)0 && !(gArItem == ((struct pipeline_item_t *)NULL)) && !(gArWanted == ((struct wanted_t *)NULL)) && !(gExplicitFiles == (_Bool)0))
   {
-    struct anonymous$4 *ib = (struct anonymous$4 *)gArItem->data;
+    struct anonymous_4 *ib = (struct anonymous_4 *)gArItem->data;
     if(!((unsigned long int)gArWanted->start >= ib->outsize + (unsigned long int)ib->uoffset))
       return (_Bool)1;
 
@@ -3981,9 +3981,9 @@ static signed int tar_ok(struct archive *ar, void *ref)
   return 0;
 }
 
-// tar_ok$link1
+// tar_ok_link1
 // file write.c line 221
-static signed int tar_ok$link1(struct archive *ar$link1, void *ref$link1)
+static signed int tar_ok_link1(struct archive *ar_link1, void *ref_link1)
 {
   return 0;
 }
@@ -3993,16 +3993,16 @@ static signed int tar_ok$link1(struct archive *ar$link1, void *ref$link1)
 static signed long int tar_read(struct archive *ar, void *ref, const void **bufp)
 {
   tar_write_last();
-  _Bool return_value_tar_next_block$1;
-  return_value_tar_next_block$1=tar_next_block();
-  if(return_value_tar_next_block$1 == (_Bool)0)
+  _Bool return_value_tar_next_block_1;
+  return_value_tar_next_block_1=tar_next_block();
+  if(return_value_tar_next_block_1 == (_Bool)0)
     return (signed long int)0;
 
   else
   {
     signed long int off;
     unsigned long int size;
-    struct anonymous$4 *ib = (struct anonymous$4 *)gArItem->data;
+    struct anonymous_4 *ib = (struct anonymous_4 *)gArItem->data;
     if(!(gWantedFiles == ((struct wanted_t *)NULL)) && !(gExplicitFiles == (_Bool)0))
     {
       off = gArWanted->start - ib->uoffset;
@@ -4037,15 +4037,15 @@ static signed long int tar_read(struct archive *ar, void *ref, const void **bufp
   }
 }
 
-// tar_read$link1
+// tar_read_link1
 // file write.c line 191
-static signed long int tar_read$link1(struct archive *ar$link1, void *ref$link1, const void **bufp$link1)
+static signed long int tar_read_link1(struct archive *ar_link1, void *ref_link1, const void **bufp_link1)
 {
   if(gReadItem == ((struct pipeline_item_t *)NULL))
   {
     queue_pop(gPipelineStartQ, (void **)&gReadItem);
     gReadBlock = (struct io_block_t *)gReadItem->data;
-    block_alloc(gReadBlock, (enum anonymous$18)BLOCK_IN);
+    block_alloc(gReadBlock, (enum anonymous_18)BLOCK_IN);
     gReadBlock->insize = (unsigned long int)0;
   }
 
@@ -4056,14 +4056,14 @@ static signed long int tar_read$link1(struct archive *ar$link1, void *ref$link1,
   unsigned char *buf = gReadBlock->input + (signed long int)gReadBlock->insize;
   unsigned long int rd;
   rd=fread((void *)buf, (unsigned long int)1, space, gInFile);
-  signed int return_value_ferror$1;
-  return_value_ferror$1=ferror(gInFile);
-  if(!(return_value_ferror$1 == 0))
+  signed int return_value_ferror_1;
+  return_value_ferror_1=ferror(gInFile);
+  if(!(return_value_ferror_1 == 0))
     die("Error reading input file");
 
   gReadBlock->insize = gReadBlock->insize + rd;
   gTotalRead = gTotalRead + (signed long int)rd;
-  *bufp$link1 = (const void *)buf;
+  *bufp_link1 = (const void *)buf;
   if(gReadBlock->insize == gBlockInSize)
   {
     pipeline_split(gReadItem);
@@ -4080,10 +4080,10 @@ static void tar_write_last(void)
 {
   if(!(gArItem == ((struct pipeline_item_t *)NULL)))
   {
-    struct anonymous$4 *ib = (struct anonymous$4 *)gArItem->data;
-    unsigned long int return_value_fwrite$1;
-    return_value_fwrite$1=fwrite((const void *)(ib->output + gArLastOffset), gArLastSize, (unsigned long int)1, gOutFile);
-    if(!(return_value_fwrite$1 == 1ul))
+    struct anonymous_4 *ib = (struct anonymous_4 *)gArItem->data;
+    unsigned long int return_value_fwrite_1;
+    return_value_fwrite_1=fwrite((const void *)(ib->output + gArLastOffset), gArLastSize, (unsigned long int)1, gOutFile);
+    if(!(return_value_fwrite_1 == 1ul))
       die("Can't write previous block");
 
     gArLastSize = (unsigned long int)0;
@@ -4093,16 +4093,16 @@ static void tar_write_last(void)
 
 // taste_file_index
 // file read.c line 681
-static _Bool taste_file_index(struct anonymous$4 *ib)
+static _Bool taste_file_index(struct anonymous_4 *ib)
 {
-  unsigned long int return_value_xle64dec$1;
-  return_value_xle64dec$1=xle64dec(ib->output);
-  return return_value_xle64dec$1 == 0xDBAE14D62E324CA6LL;
+  unsigned long int return_value_xle64dec_1;
+  return_value_xle64dec_1=xle64dec(ib->output);
+  return return_value_xle64dec_1 == 0xDBAE14D62E324CA6LL;
 }
 
 // taste_tar
 // file read.c line 670
-static _Bool taste_tar(struct anonymous$4 *ib)
+static _Bool taste_tar(struct anonymous_4 *ib)
 {
   struct archive *ar;
   ar=archive_read_new();
@@ -4111,9 +4111,9 @@ static _Bool taste_tar(struct anonymous$4 *ib)
   archive_read_open_memory(ar, (void *)ib->output, ib->outsize);
   struct archive_entry *entry;
   _Bool ok;
-  signed int return_value_archive_read_next_header$1;
-  return_value_archive_read_next_header$1=archive_read_next_header(ar, &entry);
-  ok = return_value_archive_read_next_header$1 == 0;
+  signed int return_value_archive_read_next_header_1;
+  return_value_archive_read_next_header_1=archive_read_next_header(ar, &entry);
+  ok = return_value_archive_read_next_header_1 == 0;
   archive_read_free(ar);
   return ok;
 }
@@ -4133,7 +4133,7 @@ static void usage(const char *msg)
 // file read.c line 237
 static void wanted_files(unsigned long int count, char **specs)
 {
-  char *tmp_post$1;
+  char *tmp_post_1;
   if(gFileIndexOffset == 0ul)
   {
     if(!(count == 0ul))
@@ -4150,9 +4150,9 @@ static void wanted_files(unsigned long int count, char **specs)
       char *c = *spec;
       do
       {
-        tmp_post$1 = c;
+        tmp_post_1 = c;
         c = c + 1l;
-        if(*tmp_post$1 == 0)
+        if(*tmp_post_1 == 0)
           break;
 
       }
@@ -4170,23 +4170,23 @@ static void wanted_files(unsigned long int count, char **specs)
       }
       while((_Bool)1);
     }
-    const signed long int c$array_size0 = (signed long int)count;
-    _Bool matched[c$array_size0];
-    memset((void *)matched, 0, (unsigned long int)c$array_size0);
+    const signed long int c_array_size0 = (signed long int)count;
+    _Bool matched[c_array_size0];
+    memset((void *)matched, 0, (unsigned long int)c_array_size0);
     struct wanted_t *last = (struct wanted_t *)(void *)0;
     struct file_index_t *f = gFileIndex;
     for( ; !(f->name == ((char *)NULL)); f = f->next)
     {
       _Bool match = !(count != 0ul);
-      char **wanted_files$$1$$3$$1$$1$$spec = specs;
-      for( ; !(wanted_files$$1$$3$$1$$1$$spec >= specs + (signed long int)count); wanted_files$$1$$3$$1$$1$$spec = wanted_files$$1$$3$$1$$1$$spec + 1l)
+      char **wanted_files__1__3__1__1__spec = specs;
+      for( ; !(wanted_files__1__3__1__1__spec >= specs + (signed long int)count); wanted_files__1__3__1__1__spec = wanted_files__1__3__1__1__spec + 1l)
       {
-        _Bool return_value_spec_match$2;
-        return_value_spec_match$2=spec_match(*wanted_files$$1$$3$$1$$1$$spec, f->name);
-        if(!(return_value_spec_match$2 == (_Bool)0))
+        _Bool return_value_spec_match_2;
+        return_value_spec_match_2=spec_match(*wanted_files__1__3__1__1__spec, f->name);
+        if(!(return_value_spec_match_2 == (_Bool)0))
         {
           match = (_Bool)1;
-          matched[wanted_files$$1$$3$$1$$1$$spec - specs] = (_Bool)1;
+          matched[wanted_files__1__3__1__1__spec - specs] = (_Bool)1;
           break;
         }
 
@@ -4194,9 +4194,9 @@ static void wanted_files(unsigned long int count, char **specs)
       if(!(match == (_Bool)0))
       {
         struct wanted_t *w;
-        void *return_value_malloc$3;
-        return_value_malloc$3=malloc(sizeof(struct wanted_t) /*40ul*/ );
-        w = (struct wanted_t *)return_value_malloc$3;
+        void *return_value_malloc_3;
+        return_value_malloc_3=malloc(sizeof(struct wanted_t) /*40ul*/ );
+        w = (struct wanted_t *)return_value_malloc_3;
         *w = (struct wanted_t){ .next=(struct wanted_t *)(void *)0, .name=f->name, .start=f->offset,
     .end=f->next->offset, .size=0ul };
         w->size = (unsigned long int)(w->end - w->start);
@@ -4242,72 +4242,72 @@ static void write_block(struct pipeline_item_t *pi)
     if(size >= 4097ul)
       size = (unsigned long int)4096;
 
-    unsigned long int return_value_fwrite$1;
-    return_value_fwrite$1=fwrite((const void *)(ib->output + (signed long int)written), size, (unsigned long int)1, gOutFile);
-    if(!(return_value_fwrite$1 == 1ul))
+    unsigned long int return_value_fwrite_1;
+    return_value_fwrite_1=fwrite((const void *)(ib->output + (signed long int)written), size, (unsigned long int)1, gOutFile);
+    if(!(return_value_fwrite_1 == 1ul))
       die("Error writing block data");
 
     written = written + size;
   }
-  unsigned long int return_value_lzma_block_unpadded_size$2;
-  return_value_lzma_block_unpadded_size$2=lzma_block_unpadded_size(&ib->block);
-  enum anonymous$3 return_value_lzma_index_append$3;
-  return_value_lzma_index_append$3=lzma_index_append(gIndex, (struct anonymous$6 *)(void *)0, return_value_lzma_block_unpadded_size$2, ib->block.uncompressed_size);
-  if(!((signed int)return_value_lzma_index_append$3 == LZMA_OK))
+  unsigned long int return_value_lzma_block_unpadded_size_2;
+  return_value_lzma_block_unpadded_size_2=lzma_block_unpadded_size(&ib->block);
+  enum anonymous_3 return_value_lzma_index_append_3;
+  return_value_lzma_index_append_3=lzma_index_append(gIndex, (struct anonymous_6 *)(void *)0, return_value_lzma_block_unpadded_size_2, ib->block.uncompressed_size);
+  if(!((signed int)return_value_lzma_index_append_3 == LZMA_OK))
     die("Error adding to index");
 
-  block_dealloc(ib, (enum anonymous$18)BLOCK_ALL);
+  block_dealloc(ib, (enum anonymous_18)BLOCK_ALL);
 }
 
 // write_file_index
 // file write.c line 467
 static void write_file_index(void)
 {
-  struct anonymous$16 block;
+  struct anonymous_16 block;
   block_init(&block, (unsigned long int)0);
-  const signed long int block$array_size0 = (signed long int)block.header_size;
-  unsigned char hdrbuf[block$array_size0];
-  enum anonymous$3 return_value_lzma_block_header_encode$1;
-  return_value_lzma_block_header_encode$1=lzma_block_header_encode(&block, hdrbuf);
-  if(!((signed int)return_value_lzma_block_header_encode$1 == LZMA_OK))
+  const signed long int block_array_size0 = (signed long int)block.header_size;
+  unsigned char hdrbuf[block_array_size0];
+  enum anonymous_3 return_value_lzma_block_header_encode_1;
+  return_value_lzma_block_header_encode_1=lzma_block_header_encode(&block, hdrbuf);
+  if(!((signed int)return_value_lzma_block_header_encode_1 == LZMA_OK))
     die("Error encoding file index header");
 
-  unsigned long int return_value_fwrite$2;
-  return_value_fwrite$2=fwrite((const void *)hdrbuf, (unsigned long int)block.header_size, (unsigned long int)1, gOutFile);
-  if(!(return_value_fwrite$2 == 1ul))
+  unsigned long int return_value_fwrite_2;
+  return_value_fwrite_2=fwrite((const void *)hdrbuf, (unsigned long int)block.header_size, (unsigned long int)1, gOutFile);
+  if(!(return_value_fwrite_2 == 1ul))
     die("Error writing file index header");
 
-  enum anonymous$3 return_value_lzma_block_encoder$3;
-  return_value_lzma_block_encoder$3=lzma_block_encoder(&gStream, &block);
-  if(!((signed int)return_value_lzma_block_encoder$3 == LZMA_OK))
+  enum anonymous_3 return_value_lzma_block_encoder_3;
+  return_value_lzma_block_encoder_3=lzma_block_encoder(&gStream, &block);
+  if(!((signed int)return_value_lzma_block_encoder_3 == LZMA_OK))
     die("Error creating file index encoder");
 
   unsigned char offbuf[(signed long int)sizeof(unsigned long int) /*8l*/ ];
   xle64enc(offbuf, 0xDBAE14D62E324CA6LL);
   write_file_index_bytes(sizeof(unsigned char [8l]) /*8ul*/ , offbuf);
   struct file_index_t *f = gFileIndex;
-  char *tmp_if_expr$4;
+  char *tmp_if_expr_4;
   for( ; !(f == ((struct file_index_t *)NULL)); f = f->next)
   {
     char *name;
     if(!(f->name == ((char *)NULL)))
-      tmp_if_expr$4 = f->name;
+      tmp_if_expr_4 = f->name;
 
     else
-      tmp_if_expr$4 = "";
-    name = tmp_if_expr$4;
+      tmp_if_expr_4 = "";
+    name = tmp_if_expr_4;
     unsigned long int len;
     len=strlen(name);
     write_file_index_bytes(len + (unsigned long int)1, (unsigned char *)name);
     xle64enc(offbuf, (unsigned long int)f->offset);
     write_file_index_bytes(sizeof(unsigned char [8l]) /*8ul*/ , offbuf);
   }
-  write_file_index_buf((enum anonymous$19)LZMA_FINISH);
-  unsigned long int return_value_lzma_block_unpadded_size$5;
-  return_value_lzma_block_unpadded_size$5=lzma_block_unpadded_size(&block);
-  enum anonymous$3 return_value_lzma_index_append$6;
-  return_value_lzma_index_append$6=lzma_index_append(gIndex, (struct anonymous$6 *)(void *)0, return_value_lzma_block_unpadded_size$5, block.uncompressed_size);
-  if(!((signed int)return_value_lzma_index_append$6 == LZMA_OK))
+  write_file_index_buf((enum anonymous_19)LZMA_FINISH);
+  unsigned long int return_value_lzma_block_unpadded_size_5;
+  return_value_lzma_block_unpadded_size_5=lzma_block_unpadded_size(&block);
+  enum anonymous_3 return_value_lzma_index_append_6;
+  return_value_lzma_index_append_6=lzma_index_append(gIndex, (struct anonymous_6 *)(void *)0, return_value_lzma_block_unpadded_size_5, block.uncompressed_size);
+  if(!((signed int)return_value_lzma_index_append_6 == LZMA_OK))
     die("Error adding file-index to index");
 
   lzma_end(&gStream);
@@ -4315,12 +4315,12 @@ static void write_file_index(void)
 
 // write_file_index_buf
 // file write.c line 515
-static void write_file_index_buf(enum anonymous$19 action)
+static void write_file_index_buf(enum anonymous_19 action)
 {
   unsigned char obuf[4096l];
   gStream.avail_in = gFileIndexBufPos;
-  gStream.next_in = gFileIndexBuf$link1;
-  enum anonymous$3 err = (enum anonymous$3)LZMA_OK;
+  gStream.next_in = gFileIndexBuf_link1;
+  enum anonymous_3 err = (enum anonymous_3)LZMA_OK;
   while(!((signed int)err == LZMA_STREAM_END) && ((signed int)action == LZMA_FINISH || !(gStream.avail_in == 0ul)))
   {
     gStream.avail_out = (unsigned long int)4096;
@@ -4331,9 +4331,9 @@ static void write_file_index_buf(enum anonymous$19 action)
 
     if(!(gStream.avail_out == 4096ul))
     {
-      unsigned long int return_value_fwrite$1;
-      return_value_fwrite$1=fwrite((const void *)obuf, (unsigned long int)4096 - gStream.avail_out, (unsigned long int)1, gOutFile);
-      if(!(return_value_fwrite$1 == 1ul))
+      unsigned long int return_value_fwrite_1;
+      return_value_fwrite_1=fwrite((const void *)obuf, (unsigned long int)4096 - gStream.avail_out, (unsigned long int)1, gOutFile);
+      if(!(return_value_fwrite_1 == 1ul))
         die("Error writing file index");
 
     }
@@ -4354,12 +4354,12 @@ static void write_file_index_bytes(unsigned long int size, unsigned char *buf)
     if(!(space >= len))
       len = space;
 
-    memcpy((void *)(gFileIndexBuf$link1 + (signed long int)gFileIndexBufPos), (const void *)(buf + (signed long int)bufpos), len);
+    memcpy((void *)(gFileIndexBuf_link1 + (signed long int)gFileIndexBufPos), (const void *)(buf + (signed long int)bufpos), len);
     gFileIndexBufPos = gFileIndexBufPos + len;
     bufpos = bufpos + len;
     if(gFileIndexBufPos == 4096ul)
     {
-      write_file_index_buf((enum anonymous$19)LZMA_RUN);
+      write_file_index_buf((enum anonymous_19)LZMA_RUN);
       gFileIndexBufPos = (unsigned long int)0;
     }
 
@@ -4392,17 +4392,17 @@ char * xstrdup(const char *s)
     unsigned long int len;
     len=strlen(s);
     char *r;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(len + (unsigned long int)1);
-    r = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(len + (unsigned long int)1);
+    r = (char *)return_value_malloc_1;
     if(r == ((char *)NULL))
       return (char *)(void *)0;
 
     else
     {
-      void *return_value_memcpy$2;
-      return_value_memcpy$2=memcpy((void *)r, (const void *)s, len + (unsigned long int)1);
-      return (char *)return_value_memcpy$2;
+      void *return_value_memcpy_2;
+      return_value_memcpy_2=memcpy((void *)r, (const void *)s, len + (unsigned long int)1);
+      return (char *)return_value_memcpy_2;
     }
   }
 }

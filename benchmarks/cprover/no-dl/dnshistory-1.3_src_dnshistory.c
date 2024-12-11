@@ -1,94 +1,94 @@
-// #anon_enum$DB_BACKUP_READ_COUNT=1$DB_BACKUP_READ_SLEEP=2$DB_BACKUP_SIZE=3$DB_BACKUP_WRITE_DIRECT=4
+// #anon_enum_DB_BACKUP_READ_COUNT=1_DB_BACKUP_READ_SLEEP=2_DB_BACKUP_SIZE=3_DB_BACKUP_WRITE_DIRECT=4
 // file /usr/include/db.h line 2269
-enum anonymous$0 { DB_BACKUP_READ_COUNT=1, DB_BACKUP_READ_SLEEP=2, DB_BACKUP_SIZE=3, DB_BACKUP_WRITE_DIRECT=4 };
+enum anonymous_0 { DB_BACKUP_READ_COUNT=1, DB_BACKUP_READ_SLEEP=2, DB_BACKUP_SIZE=3, DB_BACKUP_WRITE_DIRECT=4 };
 
-// #anon_enum$DB_BTREE=1$DB_HASH=2$DB_HEAP=6$DB_RECNO=3$DB_QUEUE=4$DB_UNKNOWN=5
+// #anon_enum_DB_BTREE=1_DB_HASH=2_DB_HEAP=6_DB_RECNO=3_DB_QUEUE=4_DB_UNKNOWN=5
 // file /usr/include/db.h line 1292
-enum anonymous$17 { DB_BTREE=1, DB_HASH=2, DB_HEAP=6, DB_RECNO=3, DB_QUEUE=4, DB_UNKNOWN=5 };
+enum anonymous_17 { DB_BTREE=1, DB_HASH=2, DB_HEAP=6, DB_RECNO=3, DB_QUEUE=4, DB_UNKNOWN=5 };
 
-// #anon_enum$DB_LOCK_DUMP=0$DB_LOCK_GET=1$DB_LOCK_GET_TIMEOUT=2$DB_LOCK_INHERIT=3$DB_LOCK_PUT=4$DB_LOCK_PUT_ALL=5$DB_LOCK_PUT_OBJ=6$DB_LOCK_PUT_READ=7$DB_LOCK_TIMEOUT=8$DB_LOCK_TRADE=9$DB_LOCK_UPGRADE_WRITE=10
+// #anon_enum_DB_LOCK_DUMP=0_DB_LOCK_GET=1_DB_LOCK_GET_TIMEOUT=2_DB_LOCK_INHERIT=3_DB_LOCK_PUT=4_DB_LOCK_PUT_ALL=5_DB_LOCK_PUT_OBJ=6_DB_LOCK_PUT_READ=7_DB_LOCK_TIMEOUT=8_DB_LOCK_TRADE=9_DB_LOCK_UPGRADE_WRITE=10
 // file /usr/include/db.h line 325
-enum anonymous$12 { DB_LOCK_DUMP=0, DB_LOCK_GET=1, DB_LOCK_GET_TIMEOUT=2, DB_LOCK_INHERIT=3, DB_LOCK_PUT=4, DB_LOCK_PUT_ALL=5, DB_LOCK_PUT_OBJ=6, DB_LOCK_PUT_READ=7, DB_LOCK_TIMEOUT=8, DB_LOCK_TRADE=9, DB_LOCK_UPGRADE_WRITE=10 };
+enum anonymous_12 { DB_LOCK_DUMP=0, DB_LOCK_GET=1, DB_LOCK_GET_TIMEOUT=2, DB_LOCK_INHERIT=3, DB_LOCK_PUT=4, DB_LOCK_PUT_ALL=5, DB_LOCK_PUT_OBJ=6, DB_LOCK_PUT_READ=7, DB_LOCK_TIMEOUT=8, DB_LOCK_TRADE=9, DB_LOCK_UPGRADE_WRITE=10 };
 
-// #anon_enum$DB_LOCK_NG=0$DB_LOCK_READ=1$DB_LOCK_WRITE=2$DB_LOCK_WAIT=3$DB_LOCK_IWRITE=4$DB_LOCK_IREAD=5$DB_LOCK_IWR=6$DB_LOCK_READ_UNCOMMITTED=7$DB_LOCK_WWRITE=8
+// #anon_enum_DB_LOCK_NG=0_DB_LOCK_READ=1_DB_LOCK_WRITE=2_DB_LOCK_WAIT=3_DB_LOCK_IWRITE=4_DB_LOCK_IREAD=5_DB_LOCK_IWR=6_DB_LOCK_READ_UNCOMMITTED=7_DB_LOCK_WWRITE=8
 // file /usr/include/db.h line 310
-enum anonymous$7 { DB_LOCK_NG=0, DB_LOCK_READ=1, DB_LOCK_WRITE=2, DB_LOCK_WAIT=3, DB_LOCK_IWRITE=4, DB_LOCK_IREAD=5, DB_LOCK_IWR=6, DB_LOCK_READ_UNCOMMITTED=7, DB_LOCK_WWRITE=8 };
+enum anonymous_7 { DB_LOCK_NG=0, DB_LOCK_READ=1, DB_LOCK_WRITE=2, DB_LOCK_WAIT=3, DB_LOCK_IWRITE=4, DB_LOCK_IREAD=5, DB_LOCK_IWR=6, DB_LOCK_READ_UNCOMMITTED=7, DB_LOCK_WWRITE=8 };
 
-// #anon_enum$DB_MEM_LOCK=1$DB_MEM_LOCKOBJECT=2$DB_MEM_LOCKER=3$DB_MEM_LOGID=4$DB_MEM_TRANSACTION=5$DB_MEM_THREAD=6
+// #anon_enum_DB_MEM_LOCK=1_DB_MEM_LOCKOBJECT=2_DB_MEM_LOCKER=3_DB_MEM_LOGID=4_DB_MEM_TRANSACTION=5_DB_MEM_THREAD=6
 // file /usr/include/db.h line 2257
-enum anonymous$1 { DB_MEM_LOCK=1, DB_MEM_LOCKOBJECT=2, DB_MEM_LOCKER=3, DB_MEM_LOGID=4, DB_MEM_TRANSACTION=5, DB_MEM_THREAD=6 };
+enum anonymous_1 { DB_MEM_LOCK=1, DB_MEM_LOCKOBJECT=2, DB_MEM_LOCKER=3, DB_MEM_LOGID=4, DB_MEM_TRANSACTION=5, DB_MEM_THREAD=6 };
 
-// #anon_enum$DB_PRIORITY_UNCHANGED=0$DB_PRIORITY_VERY_LOW=1$DB_PRIORITY_LOW=2$DB_PRIORITY_DEFAULT=3$DB_PRIORITY_HIGH=4$DB_PRIORITY_VERY_HIGH=5
+// #anon_enum_DB_PRIORITY_UNCHANGED=0_DB_PRIORITY_VERY_LOW=1_DB_PRIORITY_LOW=2_DB_PRIORITY_DEFAULT=3_DB_PRIORITY_HIGH=4_DB_PRIORITY_VERY_HIGH=5
 // file /usr/include/db.h line 618
-enum anonymous$16 { DB_PRIORITY_UNCHANGED=0, DB_PRIORITY_VERY_LOW=1, DB_PRIORITY_LOW=2, DB_PRIORITY_DEFAULT=3, DB_PRIORITY_HIGH=4, DB_PRIORITY_VERY_HIGH=5 };
+enum anonymous_16 { DB_PRIORITY_UNCHANGED=0, DB_PRIORITY_VERY_LOW=1, DB_PRIORITY_LOW=2, DB_PRIORITY_DEFAULT=3, DB_PRIORITY_HIGH=4, DB_PRIORITY_VERY_HIGH=5 };
 
-// #anon_enum$DB_TXN_ABORT=0$DB_TXN_APPLY=1$DB_TXN_BACKWARD_ROLL=3$DB_TXN_FORWARD_ROLL=4$DB_TXN_OPENFILES=5$DB_TXN_POPENFILES=6$DB_TXN_PRINT=7$DB_TXN_LOG_VERIFY=8
+// #anon_enum_DB_TXN_ABORT=0_DB_TXN_APPLY=1_DB_TXN_BACKWARD_ROLL=3_DB_TXN_FORWARD_ROLL=4_DB_TXN_OPENFILES=5_DB_TXN_POPENFILES=6_DB_TXN_PRINT=7_DB_TXN_LOG_VERIFY=8
 // file /usr/include/db.h line 794
 enum anonymous { DB_TXN_ABORT=0, DB_TXN_APPLY=1, DB_TXN_BACKWARD_ROLL=3, DB_TXN_FORWARD_ROLL=4, DB_TXN_OPENFILES=5, DB_TXN_POPENFILES=6, DB_TXN_PRINT=7, DB_TXN_LOG_VERIFY=8 };
 
-// #anon_enum$LOGREC_Done=0$LOGREC_ARG=1$LOGREC_HDR=2$LOGREC_DATA=3$LOGREC_DB=4$LOGREC_DBOP=5$LOGREC_DBT=6$LOGREC_LOCKS=7$LOGREC_OP=8$LOGREC_PGDBT=9$LOGREC_PGDDBT=10$LOGREC_PGLIST=11$LOGREC_POINTER=12$LOGREC_TIME=13
+// #anon_enum_LOGREC_Done=0_LOGREC_ARG=1_LOGREC_HDR=2_LOGREC_DATA=3_LOGREC_DB=4_LOGREC_DBOP=5_LOGREC_DBT=6_LOGREC_LOCKS=7_LOGREC_OP=8_LOGREC_PGDBT=9_LOGREC_PGDDBT=10_LOGREC_PGLIST=11_LOGREC_POINTER=12_LOGREC_TIME=13
 // file /usr/include/db.h line 584
-enum anonymous$14 { LOGREC_Done=0, LOGREC_ARG=1, LOGREC_HDR=2, LOGREC_DATA=3, LOGREC_DB=4, LOGREC_DBOP=5, LOGREC_DBT=6, LOGREC_LOCKS=7, LOGREC_OP=8, LOGREC_PGDBT=9, LOGREC_PGDDBT=10, LOGREC_PGLIST=11, LOGREC_POINTER=12, LOGREC_TIME=13 };
+enum anonymous_14 { LOGREC_Done=0, LOGREC_ARG=1, LOGREC_HDR=2, LOGREC_DATA=3, LOGREC_DB=4, LOGREC_DBOP=5, LOGREC_DBT=6, LOGREC_LOCKS=7, LOGREC_OP=8, LOGREC_PGDBT=9, LOGREC_PGDDBT=10, LOGREC_PGLIST=11, LOGREC_POINTER=12, LOGREC_TIME=13 };
 
-// tag-#anon#ST[*{SYM#tag-__db#}$SYM#tag-__db#$'le_next'||*{*{SYM#tag-__db#}$SYM#tag-__db#$}$*{SYM#tag-__db#}$SYM#tag-__db#$$'le_prev'|]
+// tag-#anon#ST[*{SYM#tag-__db#}_SYM#tag-__db#_'le_next'||*{*{SYM#tag-__db#}_SYM#tag-__db#_}_*{SYM#tag-__db#}_SYM#tag-__db#__'le_prev'|]
 // file /usr/include/db.h line 1548
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[*{SYM#tag-__db#}$SYM#tag-__db#$'lh_first'|]
+// tag-#anon#ST[*{SYM#tag-__db#}_SYM#tag-__db#_'lh_first'|]
 // file /usr/include/db.h line 1532
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[*{SYM#tag-__db#}$SYM#tag-__db#$'tqe_next'||*{*{SYM#tag-__db#}$SYM#tag-__db#$}$*{SYM#tag-__db#}$SYM#tag-__db#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-__db#}_SYM#tag-__db#_'tqe_next'||*{*{SYM#tag-__db#}_SYM#tag-__db#_}_*{SYM#tag-__db#}_SYM#tag-__db#__'tqe_prev'|]
 // file /usr/include/db.h line 1496
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[*{SYM#tag-__db_foreign_info#}$SYM#tag-__db_foreign_info#$'lh_first'|]
+// tag-#anon#ST[*{SYM#tag-__db_foreign_info#}_SYM#tag-__db_foreign_info#_'lh_first'|]
 // file /usr/include/db.h line 1575
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[*{SYM#tag-__db_mpoolfile#}$SYM#tag-__db_mpoolfile#$'tqe_next'||*{*{SYM#tag-__db_mpoolfile#}$SYM#tag-__db_mpoolfile#$}$*{SYM#tag-__db_mpoolfile#}$SYM#tag-__db_mpoolfile#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-__db_mpoolfile#}_SYM#tag-__db_mpoolfile#_'tqe_next'||*{*{SYM#tag-__db_mpoolfile#}_SYM#tag-__db_mpoolfile#_}_*{SYM#tag-__db_mpoolfile#}_SYM#tag-__db_mpoolfile#__'tqe_prev'|]
 // file /usr/include/db.h line 644
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[*{SYM#tag-__db_txn#}$SYM#tag-__db_txn#$'tqe_next'||*{*{SYM#tag-__db_txn#}$SYM#tag-__db_txn#$}$*{SYM#tag-__db_txn#}$SYM#tag-__db_txn#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-__db_txn#}_SYM#tag-__db_txn#_'tqe_next'||*{*{SYM#tag-__db_txn#}_SYM#tag-__db_txn#_}_*{SYM#tag-__db_txn#}_SYM#tag-__db_txn#__'tqe_prev'|]
 // file /usr/include/db.h line 832
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[*{SYM#tag-__dbc#}$SYM#tag-__dbc#$'tqe_next'||*{*{SYM#tag-__dbc#}$SYM#tag-__dbc#$}$*{SYM#tag-__dbc#}$SYM#tag-__dbc#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-__dbc#}_SYM#tag-__dbc#_'tqe_next'||*{*{SYM#tag-__dbc#}_SYM#tag-__dbc#_}_*{SYM#tag-__dbc#}_SYM#tag-__dbc#__'tqe_prev'|]
 // file /usr/include/db.h line 2027
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[*{SYM#tag-__txn_event#}$SYM#tag-__txn_event#$'tqh_first'||*{*{SYM#tag-__txn_event#}$SYM#tag-__txn_event#$}$*{SYM#tag-__txn_event#}$SYM#tag-__txn_event#$$'tqh_last'|]
+// tag-#anon#ST[*{SYM#tag-__txn_event#}_SYM#tag-__txn_event#_'tqh_first'||*{*{SYM#tag-__txn_event#}_SYM#tag-__txn_event#_}_*{SYM#tag-__txn_event#}_SYM#tag-__txn_event#__'tqh_last'|]
 // file /usr/include/db.h line 864
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[*{SYM#tag-__txn_logrec#}$SYM#tag-__txn_logrec#$'stqh_first'||*{*{SYM#tag-__txn_logrec#}$SYM#tag-__txn_logrec#$}$*{SYM#tag-__txn_logrec#}$SYM#tag-__txn_logrec#$$'stqh_last'|]
+// tag-#anon#ST[*{SYM#tag-__txn_logrec#}_SYM#tag-__txn_logrec#_'stqh_first'||*{*{SYM#tag-__txn_logrec#}_SYM#tag-__txn_logrec#_}_*{SYM#tag-__txn_logrec#}_SYM#tag-__txn_logrec#__'stqh_last'|]
 // file /usr/include/db.h line 874
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[ARR512{S8}$S8$'regular_expression'||*{SYM#tag-real_pcre#}$SYM#tag-real_pcre#$'re_pcre'||S32'erroffset'||U32'$pad0'||*{cS8}$cS8$'error'||ARR300{S32}$S32$'ovector'||S32'ret'||S32'cp_substr_ret'|]
+// tag-#anon#ST[ARR512{S8}_S8_'regular_expression'||*{SYM#tag-real_pcre#}_SYM#tag-real_pcre#_'re_pcre'||S32'erroffset'||U32'_pad0'||*{cS8}_cS8_'error'||ARR300{S32}_S32_'ovector'||S32'ret'||S32'cp_substr_ret'|]
 // file dnshistory.h line 152
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$2;
+struct anonymous_2;
 
 // tag-#anon#ST[S64'stqe_next'||S64'stqe_prev'|]
 // file /usr/include/db.h line 844
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[SYM#tag-in_addr#'ipaddress'||U32'$pad0'||S64'date_last'||*{SYM#tag-dns_record_lists_t#}$SYM#tag-dns_record_lists_t#$'list'|]
+// tag-#anon#ST[SYM#tag-in_addr#'ipaddress'||U32'_pad0'||S64'date_last'||*{SYM#tag-dns_record_lists_t#}_SYM#tag-dns_record_lists_t#_'list'|]
 // file dnshistory.h line 139
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$3;
+union anonymous_3;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -365,7 +365,7 @@ void add_recombined_address(char *str_ipaddr, char *str_fqdn, char *str_time);
 extern void add_record(struct __db **db_ptr, void *key_val, signed int size_key, void *data_val, signed int size_data);
 // address_exists
 // file dnshistory.c line 1459
-signed int address_exists(struct anonymous$13 *dns_rec_ptr);
+signed int address_exists(struct anonymous_13 *dns_rec_ptr);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -512,10 +512,10 @@ extern signed int pthread_attr_init(union pthread_attr_t *);
 extern signed int pthread_attr_setstacksize(union pthread_attr_t *, unsigned long int);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$4 *);
+extern signed int pthread_cond_signal(union anonymous_4 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$4 *, union anonymous$3 *);
+extern signed int pthread_cond_wait(union anonymous_4 *, union anonymous_3 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -527,10 +527,10 @@ extern signed int pthread_detach(unsigned long int);
 extern void pthread_exit(void *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$3 *);
+extern signed int pthread_mutex_lock(union anonymous_3 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$3 *);
+extern signed int pthread_mutex_unlock(union anonymous_3 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -557,7 +557,7 @@ extern unsigned int sleep(unsigned int);
 extern signed int sscanf(const char *, const char *, ...);
 // store_dns_records
 // file dnshistory.c line 1553
-void store_dns_records(struct anonymous$13 *dns_rec_ptr);
+void store_dns_records(struct anonymous_13 *dns_rec_ptr);
 // strcat
 // file /usr/include/string.h line 137
 extern char * strcat(char *, const char *);
@@ -580,7 +580,7 @@ extern signed long int time(signed long int *);
 // file xmalloc.h line 46
 extern void * xmalloc(unsigned long int size);
 
-struct anonymous$20
+struct anonymous_20
 {
   // le_next
   struct __db *le_next;
@@ -588,13 +588,13 @@ struct anonymous$20
   struct __db **le_prev;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // lh_first
   struct __db *lh_first;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // tqe_next
   struct __db *tqe_next;
@@ -602,13 +602,13 @@ struct anonymous$18
   struct __db **tqe_prev;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // lh_first
   struct __db_foreign_info *lh_first;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // tqe_next
   struct __db_mpoolfile *tqe_next;
@@ -616,7 +616,7 @@ struct anonymous$5
   struct __db_mpoolfile **tqe_prev;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // tqe_next
   struct __db_txn *tqe_next;
@@ -624,7 +624,7 @@ struct anonymous$8
   struct __db_txn **tqe_prev;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // tqe_next
   struct __dbc *tqe_next;
@@ -632,7 +632,7 @@ struct anonymous$15
   struct __dbc **tqe_prev;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // tqh_first
   struct __txn_event *tqh_first;
@@ -640,7 +640,7 @@ struct anonymous$10
   struct __txn_event **tqh_last;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // stqh_first
   struct __txn_logrec *stqh_first;
@@ -648,7 +648,7 @@ struct anonymous$11
   struct __txn_logrec **stqh_last;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // regular_expression
   char regular_expression[512l];
@@ -666,7 +666,7 @@ struct anonymous$6
   signed int cp_substr_ret;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __lock
   signed int __lock;
@@ -686,7 +686,7 @@ struct anonymous$2
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // stqe_next
   signed long int stqe_next;
@@ -700,7 +700,7 @@ struct in_addr
   unsigned int s_addr;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // ipaddress
   struct in_addr ipaddress;
@@ -710,10 +710,10 @@ struct anonymous$13
   struct dns_record_lists_t *list;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __data
-  struct anonymous$2 __data;
+  struct anonymous_2 __data;
   // __size
   char __size[48l];
   // __align
@@ -748,7 +748,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -863,7 +863,7 @@ struct __db_lock_u
   // gen
   unsigned int gen;
   // mode
-  enum anonymous$7 mode;
+  enum anonymous_7 mode;
 };
 
 struct __db_dbt
@@ -889,7 +889,7 @@ struct __db
   // pgsize
   unsigned int pgsize;
   // priority
-  enum anonymous$16 priority;
+  enum anonymous_16 priority;
   // db_append_recno
   signed int (*db_append_recno)(struct __db *, struct __db_dbt *, unsigned int);
   // db_feedback
@@ -903,7 +903,7 @@ struct __db
   // env
   struct __env *env;
   // type
-  enum anonymous$17 type;
+  enum anonymous_17 type;
   // mpf
   struct __db_mpoolfile *mpf;
   // mutex
@@ -947,7 +947,7 @@ struct __db
   // saved_open_fhp
   struct __fh_t *saved_open_fhp;
   // dblistlinks
-  struct anonymous$18 dblistlinks;
+  struct anonymous_18 dblistlinks;
   // free_queue
   struct __cq_fq free_queue;
   // active_queue
@@ -955,9 +955,9 @@ struct __db
   // join_queue
   struct __cq_jq join_queue;
   // s_secondaries
-  struct anonymous$19 s_secondaries;
+  struct anonymous_19 s_secondaries;
   // s_links
-  struct anonymous$20 s_links;
+  struct anonymous_20 s_links;
   // s_refcnt
   unsigned int s_refcnt;
   // s_callback
@@ -967,9 +967,9 @@ struct __db
   // s_assoc_flags
   unsigned int s_assoc_flags;
   // f_primaries
-  struct anonymous$21 f_primaries;
+  struct anonymous_21 f_primaries;
   // felink
-  struct anonymous$18 felink;
+  struct anonymous_18 felink;
   // s_foreign
   struct __db *s_foreign;
   // api_internal
@@ -1079,7 +1079,7 @@ struct __db
   // get_partition_keys
   signed int (*get_partition_keys)(struct __db *, unsigned int *, struct __db_dbt **);
   // get_priority
-  signed int (*get_priority)(struct __db *, enum anonymous$16 *);
+  signed int (*get_priority)(struct __db *, enum anonymous_16 *);
   // get_q_extentsize
   signed int (*get_q_extentsize)(struct __db *, unsigned int *);
   // get_re_delim
@@ -1093,13 +1093,13 @@ struct __db
   // get_transactional
   signed int (*get_transactional)(struct __db *);
   // get_type
-  signed int (*get_type)(struct __db *, enum anonymous$17 *);
+  signed int (*get_type)(struct __db *, enum anonymous_17 *);
   // join
   signed int (*join)(struct __db *, struct __dbc **, struct __dbc **, unsigned int);
   // key_range
   signed int (*key_range)(struct __db *, struct __db_txn *, struct __db_dbt *, struct __key_range *, unsigned int);
   // open
-  signed int (*open)(struct __db *, struct __db_txn *, const char *, const char *, enum anonymous$17, unsigned int, signed int);
+  signed int (*open)(struct __db *, struct __db_txn *, const char *, const char *, enum anonymous_17, unsigned int, signed int);
   // pget
   signed int (*pget)(struct __db *, struct __db_txn *, struct __db_dbt *, struct __db_dbt *, struct __db_dbt *, unsigned int);
   // put
@@ -1167,7 +1167,7 @@ struct __db
   // set_partition_dirs
   signed int (*set_partition_dirs)(struct __db *, const char **);
   // set_priority
-  signed int (*set_priority)(struct __db *, enum anonymous$16);
+  signed int (*set_priority)(struct __db *, enum anonymous_16);
   // set_q_extentsize
   signed int (*set_q_extentsize)(struct __db *, unsigned int);
   // set_re_delim
@@ -1459,7 +1459,7 @@ struct __db_env
   // get_backup_callbacks
   signed int (*get_backup_callbacks)(struct __db_env *, signed int (**)(struct __db_env *, const char *, const char *, void **), signed int (**)(struct __db_env *, unsigned int, unsigned int, unsigned int, unsigned char *, void *), signed int (**)(struct __db_env *, const char *, void *));
   // get_backup_config
-  signed int (*get_backup_config)(struct __db_env *, enum anonymous$0, unsigned int *);
+  signed int (*get_backup_config)(struct __db_env *, enum anonymous_0, unsigned int *);
   // get_encrypt_flags
   signed int (*get_encrypt_flags)(struct __db_env *, unsigned int *);
   // get_errcall
@@ -1505,7 +1505,7 @@ struct __db_env
   // get_lk_tablesize
   signed int (*get_lk_tablesize)(struct __db_env *, unsigned int *);
   // get_memory_init
-  signed int (*get_memory_init)(struct __db_env *, enum anonymous$1, unsigned int *);
+  signed int (*get_memory_init)(struct __db_env *, enum anonymous_1, unsigned int *);
   // get_memory_max
   signed int (*get_memory_max)(struct __db_env *, unsigned int *, unsigned int *);
   // get_metadata_dir
@@ -1551,7 +1551,7 @@ struct __db_env
   // lock_detect
   signed int (*lock_detect)(struct __db_env *, unsigned int, unsigned int, signed int *);
   // lock_get
-  signed int (*lock_get)(struct __db_env *, unsigned int, unsigned int, struct __db_dbt *, enum anonymous$7, struct __db_lock_u *);
+  signed int (*lock_get)(struct __db_env *, unsigned int, unsigned int, struct __db_dbt *, enum anonymous_7, struct __db_lock_u *);
   // lock_id
   signed int (*lock_id)(struct __db_env *, unsigned int *);
   // lock_id_free
@@ -1723,7 +1723,7 @@ struct __db_env
   // set_backup_callbacks
   signed int (*set_backup_callbacks)(struct __db_env *, signed int (*)(struct __db_env *, const char *, const char *, void **), signed int (*)(struct __db_env *, unsigned int, unsigned int, unsigned int, unsigned char *, void *), signed int (*)(struct __db_env *, const char *, void *));
   // set_backup_config
-  signed int (*set_backup_config)(struct __db_env *, enum anonymous$0, unsigned int);
+  signed int (*set_backup_config)(struct __db_env *, enum anonymous_0, unsigned int);
   // set_encrypt
   signed int (*set_encrypt)(struct __db_env *, const char *, unsigned int);
   // set_errcall
@@ -1769,7 +1769,7 @@ struct __db_env
   // set_lk_tablesize
   signed int (*set_lk_tablesize)(struct __db_env *, unsigned int);
   // set_memory_init
-  signed int (*set_memory_init)(struct __db_env *, enum anonymous$1, unsigned int);
+  signed int (*set_memory_init)(struct __db_env *, enum anonymous_1, unsigned int);
   // set_memory_max
   signed int (*set_memory_max)(struct __db_env *, unsigned int, unsigned int);
   // set_metadata_dir
@@ -1943,9 +1943,9 @@ struct __db_lock_stat
 struct __db_lockreq
 {
   // op
-  enum anonymous$12 op;
+  enum anonymous_12 op;
   // mode
-  enum anonymous$7 mode;
+  enum anonymous_7 mode;
   // timeout
   unsigned int timeout;
   // obj
@@ -2203,7 +2203,7 @@ struct __db_mpoolfile
   // pinref
   unsigned int pinref;
   // q
-  struct anonymous$5 q;
+  struct anonymous_5 q;
   // env
   struct __env *env;
   // mfp
@@ -2251,11 +2251,11 @@ struct __db_mpoolfile
   // get_pgcookie
   signed int (*get_pgcookie)(struct __db_mpoolfile *, struct __db_dbt *);
   // get_priority
-  signed int (*get_priority)(struct __db_mpoolfile *, enum anonymous$16 *);
+  signed int (*get_priority)(struct __db_mpoolfile *, enum anonymous_16 *);
   // open
   signed int (*open)(struct __db_mpoolfile *, const char *, unsigned int, signed int, unsigned long int);
   // put
-  signed int (*put)(struct __db_mpoolfile *, void *, enum anonymous$16, unsigned int);
+  signed int (*put)(struct __db_mpoolfile *, void *, enum anonymous_16, unsigned int);
   // set_clear_len
   signed int (*set_clear_len)(struct __db_mpoolfile *, unsigned int);
   // set_fileid
@@ -2271,7 +2271,7 @@ struct __db_mpoolfile
   // set_pgcookie
   signed int (*set_pgcookie)(struct __db_mpoolfile *, struct __db_dbt *);
   // set_priority
-  signed int (*set_priority)(struct __db_mpoolfile *, enum anonymous$16);
+  signed int (*set_priority)(struct __db_mpoolfile *, enum anonymous_16);
   // sync
   signed int (*sync)(struct __db_mpoolfile *);
   // flags
@@ -2543,17 +2543,17 @@ struct __db_txn
   // txn_list
   void *txn_list;
   // links
-  struct anonymous$8 links;
+  struct anonymous_8 links;
   // xa_links
-  struct anonymous$9 xa_links;
+  struct anonymous_9 xa_links;
   // kids
   struct __kids kids;
   // events
-  struct anonymous$10 events;
+  struct anonymous_10 events;
   // logs
-  struct anonymous$11 logs;
+  struct anonymous_11 logs;
   // klinks
-  struct anonymous$8 klinks;
+  struct anonymous_8 klinks;
   // my_cursors
   struct __my_cursors my_cursors;
   // femfs
@@ -2681,11 +2681,11 @@ struct __dbc
   // txn
   struct __db_txn *txn;
   // priority
-  enum anonymous$16 priority;
+  enum anonymous_16 priority;
   // links
-  struct anonymous$15 links;
+  struct anonymous_15 links;
   // txn_cursors
-  struct anonymous$15 txn_cursors;
+  struct anonymous_15 txn_cursors;
   // rskey
   struct __db_dbt *rskey;
   // rkey
@@ -2709,7 +2709,7 @@ struct __dbc
   // mylock
   struct __db_lock_u mylock;
   // dbtype
-  enum anonymous$17 dbtype;
+  enum anonymous_17 dbtype;
   // internal
   struct __dbc_internal *internal;
   // close
@@ -2725,13 +2725,13 @@ struct __dbc
   // get
   signed int (*get)(struct __dbc *, struct __db_dbt *, struct __db_dbt *, unsigned int);
   // get_priority
-  signed int (*get_priority)(struct __dbc *, enum anonymous$16 *);
+  signed int (*get_priority)(struct __dbc *, enum anonymous_16 *);
   // pget
   signed int (*pget)(struct __dbc *, struct __db_dbt *, struct __db_dbt *, struct __db_dbt *, unsigned int);
   // put
   signed int (*put)(struct __dbc *, struct __db_dbt *, struct __db_dbt *, unsigned int);
   // set_priority
-  signed int (*set_priority)(struct __dbc *, enum anonymous$16);
+  signed int (*set_priority)(struct __dbc *, enum anonymous_16);
   // c_close
   signed int (*c_close)(struct __dbc *);
   // c_count
@@ -2777,7 +2777,7 @@ struct __key_range
 struct __log_rec_spec
 {
   // type
-  enum anonymous$14 type;
+  enum anonymous_14 type;
   // offset
   unsigned int offset;
   // name
@@ -2935,7 +2935,7 @@ struct real_pcre *cmp_log_regexp_syslog = (struct real_pcre *)(void *)0;
 struct real_pcre *cmp_log_regexp_xferlog = (struct real_pcre *)(void *)0;
 // cond_thread_count
 // file dnshistory.c line 227
-union anonymous$4 cond_thread_count = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_4 cond_thread_count = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -3121,27 +3121,27 @@ const char *msg_v2_create_hashdb = "Creating Hash DB: ";
 const char *msg_v2_no_dbcache = "Cache <= 0. Not Creating. Size: ";
 // mutex_db_access
 // file dnshistory.c line 229
-union anonymous$3 mutex_db_access = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_3 mutex_db_access = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // mutex_malloc_dns_list
 // file dnshistory.c line 232
-union anonymous$3 mutex_malloc_dns_list = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_3 mutex_malloc_dns_list = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // mutex_malloc_dns_rec
 // file dnshistory.c line 230
-union anonymous$3 mutex_malloc_dns_rec = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_3 mutex_malloc_dns_rec = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // mutex_other_counters
 // file dnshistory.c line 235
-union anonymous$3 mutex_other_counters = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_3 mutex_other_counters = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // mutex_thread_count
 // file dnshistory.c line 224
-union anonymous$3 mutex_thread_count = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_3 mutex_thread_count = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // number_added_addresses
@@ -3226,7 +3226,7 @@ static inline char * __strpbrk_c3(const char *__s, signed int __accept1, signed 
 // file dnshistory.c line 742
 void add_address(char *str_ipaddr)
 {
-  struct anonymous$13 *dnsrec;
+  struct anonymous_13 *dnsrec;
   unsigned long int pthrd;
   union pthread_attr_t pthrd_attrs;
   signed int ret_thrd;
@@ -3236,9 +3236,9 @@ void add_address(char *str_ipaddr)
   if(g_verbosity >= 5)
     printf("  INIT. Add Address; Do Lookup on: %s\n", str_ipaddr);
 
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc((unsigned long int)1 * sizeof(struct anonymous$13) /*24ul*/ );
-  dnsrec = (struct anonymous$13 *)return_value_xmalloc$1;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc((unsigned long int)1 * sizeof(struct anonymous_13) /*24ul*/ );
+  dnsrec = (struct anonymous_13 *)return_value_xmalloc_1;
   pthread_mutex_lock(&mutex_malloc_dns_rec);
   malloc_dns_rec = malloc_dns_rec + 1;
   pthread_mutex_unlock(&mutex_malloc_dns_rec);
@@ -3264,9 +3264,9 @@ void add_address(char *str_ipaddr)
 
     }
 
-    signed int return_value_address_exists$2;
-    return_value_address_exists$2=address_exists(dnsrec);
-    if(return_value_address_exists$2 == 0)
+    signed int return_value_address_exists_2;
+    return_value_address_exists_2=address_exists(dnsrec);
+    if(return_value_address_exists_2 == 0)
     {
       if(g_verbosity >= 5)
         printf("    New Record%s", (const void *)"\n");
@@ -3331,7 +3331,7 @@ void add_address(char *str_ipaddr)
           pthread_mutex_unlock(&mutex_malloc_dns_list);
         }
         free((void *)dnsrec);
-        dnsrec = (struct anonymous$13 *)(void *)0;
+        dnsrec = (struct anonymous_13 *)(void *)0;
         pthread_mutex_lock(&mutex_malloc_dns_rec);
         malloc_dns_rec = malloc_dns_rec - 1;
         pthread_mutex_unlock(&mutex_malloc_dns_rec);
@@ -3345,7 +3345,7 @@ void add_address(char *str_ipaddr)
 void * add_new_address(void *arg)
 {
   signed int ret_gni;
-  struct anonymous$13 *dnsrec = (struct anonymous$13 *)arg;
+  struct anonymous_13 *dnsrec = (struct anonymous_13 *)arg;
   struct dns_record_lists_t dnsrec_list;
   signed int err;
   if(g_verbosity >= 5)
@@ -3365,7 +3365,7 @@ void * add_new_address(void *arg)
   }
   store_dns_records(dnsrec);
   free((void *)dnsrec);
-  dnsrec = (struct anonymous$13 *)(void *)0;
+  dnsrec = (struct anonymous_13 *)(void *)0;
   err=pthread_mutex_lock(&mutex_malloc_dns_rec);
   if(!(err == 0))
   {
@@ -3386,9 +3386,9 @@ void * add_new_address(void *arg)
   }
 
   decrease_thread_counter();
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  pthread_detach(return_value_pthread_self$1);
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  pthread_detach(return_value_pthread_self_1);
   pthread_exit(NULL);
 }
 
@@ -3397,7 +3397,7 @@ void * add_new_address(void *arg)
 void * add_old_address(void *arg)
 {
   signed int ret_gni;
-  struct anonymous$13 *dnsrec = (struct anonymous$13 *)arg;
+  struct anonymous_13 *dnsrec = (struct anonymous_13 *)arg;
   struct dns_record_lists_t dnsrec_list;
   struct dns_record_lists_t *list;
   struct dns_record_lists_t *list_next;
@@ -3409,9 +3409,9 @@ void * add_old_address(void *arg)
 
   else
   {
-    signed int return_value_strncmp$1;
-    return_value_strncmp$1=strncmp(dnsrec->list->fqdn, dnsrec_list.fqdn, (unsigned long int)1025);
-    if(!(return_value_strncmp$1 == 0))
+    signed int return_value_strncmp_1;
+    return_value_strncmp_1=strncmp(dnsrec->list->fqdn, dnsrec_list.fqdn, (unsigned long int)1025);
+    if(!(return_value_strncmp_1 == 0))
     {
       if(g_verbosity >= 2)
         printf("ADD_OLD_ADDR: Changed FQDN: %s --> %s\n", (const void *)dnsrec->list->fqdn, (const void *)dnsrec_list.fqdn);
@@ -3458,7 +3458,7 @@ void * add_old_address(void *arg)
 
   }
   free((void *)dnsrec);
-  dnsrec = (struct anonymous$13 *)(void *)0;
+  dnsrec = (struct anonymous_13 *)(void *)0;
   err=pthread_mutex_lock(&mutex_malloc_dns_rec);
   if(!(err == 0))
   {
@@ -3482,9 +3482,9 @@ void * add_old_address(void *arg)
   if(g_verbosity >= 5)
     printf("ADD_OLD_ADDR: EXITING!: %s\n", (const void *)dnsrec_list.fqdn);
 
-  unsigned long int return_value_pthread_self$2;
-  return_value_pthread_self$2=pthread_self();
-  pthread_detach(return_value_pthread_self$2);
+  unsigned long int return_value_pthread_self_2;
+  return_value_pthread_self_2=pthread_self();
+  pthread_detach(return_value_pthread_self_2);
   pthread_exit(NULL);
 }
 
@@ -3492,7 +3492,7 @@ void * add_old_address(void *arg)
 // file dnshistory.c line 953
 void add_recombined_address(char *str_ipaddr, char *str_fqdn, char *str_time)
 {
-  struct anonymous$13 *dnsrec;
+  struct anonymous_13 *dnsrec;
   signed int ret_pton;
   struct dns_record_lists_t *list;
   struct dns_record_lists_t *list_next;
@@ -3502,9 +3502,9 @@ void add_recombined_address(char *str_ipaddr, char *str_fqdn, char *str_time)
   if(g_verbosity >= 3)
     printf("  **INIT: Add Recombined Address; Given: %s  Add: %s\n", str_ipaddr, str_fqdn);
 
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc((unsigned long int)1 * sizeof(struct anonymous$13) /*24ul*/ );
-  dnsrec = (struct anonymous$13 *)return_value_xmalloc$1;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc((unsigned long int)1 * sizeof(struct anonymous_13) /*24ul*/ );
+  dnsrec = (struct anonymous_13 *)return_value_xmalloc_1;
   dnsrec->list = (struct dns_record_lists_t *)(void *)0;
   ret_pton=inet_pton(2, str_ipaddr, (void *)&dnsrec->ipaddress);
   if(ret_pton == 0)
@@ -3523,9 +3523,9 @@ void add_recombined_address(char *str_ipaddr, char *str_fqdn, char *str_time)
     if(g_verbosity >= 5)
       printf("    ARA: Date/Time: %s -> %ld\n", str_time, time_logentry);
 
-    signed int return_value_address_exists$4;
-    return_value_address_exists$4=address_exists(dnsrec);
-    if(return_value_address_exists$4 == 0)
+    signed int return_value_address_exists_4;
+    return_value_address_exists_4=address_exists(dnsrec);
+    if(return_value_address_exists_4 == 0)
     {
       if(g_verbosity >= 4)
         printf("    ARA: New Record%s", (const void *)"\n");
@@ -3542,7 +3542,7 @@ void add_recombined_address(char *str_ipaddr, char *str_fqdn, char *str_time)
       number_added_addresses = number_added_addresses + 1ul;
       store_dns_records(dnsrec);
       free((void *)dnsrec);
-      dnsrec = (struct anonymous$13 *)(void *)0;
+      dnsrec = (struct anonymous_13 *)(void *)0;
     }
 
     else
@@ -3556,16 +3556,16 @@ void add_recombined_address(char *str_ipaddr, char *str_fqdn, char *str_time)
           printf("      ARA: Outside timeout period. Update Entry.%s", (const void *)"\n");
 
         dnsrec->date_last = time_logentry;
-        signed int return_value_strncmp$3;
-        return_value_strncmp$3=strncmp(dnsrec->list->fqdn, str_fqdn, (unsigned long int)1025);
-        if(!(return_value_strncmp$3 == 0))
+        signed int return_value_strncmp_3;
+        return_value_strncmp_3=strncmp(dnsrec->list->fqdn, str_fqdn, (unsigned long int)1025);
+        if(!(return_value_strncmp_3 == 0))
         {
           if(g_verbosity >= 4)
             printf("      ARA: Add Recombined Address: Changed FQDN: %s --> %s\n", (const void *)dnsrec->list->fqdn, str_fqdn);
 
-          void *return_value_xmalloc$2;
-          return_value_xmalloc$2=xmalloc((unsigned long int)1 * sizeof(struct dns_record_lists_t) /*1048ul*/ );
-          list_next = (struct dns_record_lists_t *)return_value_xmalloc$2;
+          void *return_value_xmalloc_2;
+          return_value_xmalloc_2=xmalloc((unsigned long int)1 * sizeof(struct dns_record_lists_t) /*1048ul*/ );
+          list_next = (struct dns_record_lists_t *)return_value_xmalloc_2;
           list_next->date_set = time_logentry;
           __builtin_strncpy(list_next->fqdn, str_fqdn, (unsigned long int)1025);
           list_next->next = dnsrec->list;
@@ -3593,7 +3593,7 @@ void add_recombined_address(char *str_ipaddr, char *str_fqdn, char *str_time)
         list = (struct dns_record_lists_t *)(void *)0;
       }
       free((void *)dnsrec);
-      dnsrec = (struct anonymous$13 *)(void *)0;
+      dnsrec = (struct anonymous_13 *)(void *)0;
     }
   }
 }
@@ -3628,7 +3628,7 @@ extern void add_record(struct __db **db_ptr, void *key_val, signed int size_key,
 
 // address_exists
 // file dnshistory.c line 1459
-signed int address_exists(struct anonymous$13 *dns_rec_ptr)
+signed int address_exists(struct anonymous_13 *dns_rec_ptr)
 {
   signed int rtn = 0;
   struct __db_dbt dbt_key;
@@ -3643,9 +3643,9 @@ signed int address_exists(struct anonymous$13 *dns_rec_ptr)
   char str_address[16l];
   if(g_verbosity >= 5)
   {
-    const char *return_value_inet_ntop$1;
-    return_value_inet_ntop$1=inet_ntop(2, (const void *)&dns_rec_ptr->ipaddress, str_address, (unsigned int)16);
-    printf("    Address Exists?: %16s\n", return_value_inet_ntop$1);
+    const char *return_value_inet_ntop_1;
+    return_value_inet_ntop_1=inet_ntop(2, (const void *)&dns_rec_ptr->ipaddress, str_address, (unsigned int)16);
+    printf("    Address Exists?: %16s\n", return_value_inet_ntop_1);
   }
 
   memset((void *)&dbt_key, 0, sizeof(struct __db_dbt) /*40ul*/ );
@@ -3673,9 +3673,9 @@ signed int address_exists(struct anonymous$13 *dns_rec_ptr)
     idx_ptr = idx_ptr + (signed long int)size;
     if(nbr_items >= 1)
     {
-      void *return_value_xmalloc$2;
-      return_value_xmalloc$2=xmalloc((unsigned long int)1 * sizeof(struct dns_record_lists_t) /*1048ul*/ );
-      new_dns_rec = (struct dns_record_lists_t *)return_value_xmalloc$2;
+      void *return_value_xmalloc_2;
+      return_value_xmalloc_2=xmalloc((unsigned long int)1 * sizeof(struct dns_record_lists_t) /*1048ul*/ );
+      new_dns_rec = (struct dns_record_lists_t *)return_value_xmalloc_2;
       err=pthread_mutex_lock(&mutex_malloc_dns_list);
       if(!(err == 0))
       {
@@ -3705,9 +3705,9 @@ signed int address_exists(struct anonymous$13 *dns_rec_ptr)
       size = (signed int)sizeof(signed long int) /*8ul*/ ;
       memcpy((void *)&new_dns_rec->date_set, idx_ptr, (unsigned long int)size);
       idx_ptr = idx_ptr + (signed long int)size;
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen((char *)idx_ptr);
-      size = (signed int)((return_value_strlen$3 + (unsigned long int)1) * sizeof(char) /*1ul*/ );
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen((char *)idx_ptr);
+      size = (signed int)((return_value_strlen_3 + (unsigned long int)1) * sizeof(char) /*1ul*/ );
       memcpy((void *)new_dns_rec->fqdn, idx_ptr, (unsigned long int)size);
       check_n_fix_fqdn(new_dns_rec->fqdn);
       idx_ptr = idx_ptr + (signed long int)size;
@@ -3757,19 +3757,19 @@ void check_n_fix_fqdn(char *fqdn)
   if(g_verbosity >= 4)
     printf("  Check'N Fix: %s --> ", fqdn);
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(fqdn);
-  length = (unsigned int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(fqdn);
+  length = (unsigned int)return_value_strlen_1;
   i = (unsigned int)0;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   for( ; !(i >= length); i = i + 1u)
   {
     if(!((signed int)fqdn[(signed long int)i] >= 33))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)fqdn[(signed long int)i] > 126 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)fqdn[(signed long int)i] > 126 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       fqdn[(signed long int)i] = (char)95;
 
   }
@@ -3844,9 +3844,9 @@ extern void delete_record(struct __db **db_ptr, char *key_val)
 
   memset((void *)&del_key, 0, sizeof(struct __db_dbt) /*40ul*/ );
   del_key.data = (void *)key_val;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(key_val);
-  del_key.size = (unsigned int)((return_value_strlen$1 + (unsigned long int)1) * sizeof(char) /*1ul*/ );
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(key_val);
+  del_key.size = (unsigned int)((return_value_strlen_1 + (unsigned long int)1) * sizeof(char) /*1ul*/ );
   rtn=(*db_ptr)->del(*db_ptr, (struct __db_txn *)(void *)0, &del_key, (unsigned int)0);
   if(!(rtn == 0))
   {
@@ -3872,7 +3872,7 @@ void display_gnu_info(signed int exit_code)
 // file dnshistory.c line 1626
 void display_record(struct __db_dbt *dbt_key, struct __db_dbt *dbt_data, _Bool realdate)
 {
-  struct anonymous$13 dnsrec;
+  struct anonymous_13 dnsrec;
   struct dns_record_lists_t dnslist_rec;
   void *idx_ptr = (void *)0;
   signed int size = 0;
@@ -3882,7 +3882,7 @@ void display_record(struct __db_dbt *dbt_key, struct __db_dbt *dbt_data, _Bool r
   if(g_verbosity >= 5)
     printf("  Display Record!%s", (const void *)"\n");
 
-  memset((void *)&dnsrec, 0, sizeof(struct anonymous$13) /*24ul*/ );
+  memset((void *)&dnsrec, 0, sizeof(struct anonymous_13) /*24ul*/ );
   idx_ptr = dbt_data->data;
   size = (signed int)sizeof(signed long int) /*8ul*/ ;
   memcpy((void *)&dnsrec.date_last, idx_ptr, (unsigned long int)size);
@@ -3895,13 +3895,13 @@ void display_record(struct __db_dbt *dbt_key, struct __db_dbt *dbt_data, _Bool r
   printf("%-s", (const void *)str_address);
   while(nbr_items >= 1)
   {
-    memset((void *)&dnslist_rec, 0, sizeof(struct anonymous$13) /*24ul*/ );
+    memset((void *)&dnslist_rec, 0, sizeof(struct anonymous_13) /*24ul*/ );
     size = (signed int)sizeof(signed long int) /*8ul*/ ;
     memcpy((void *)&dnslist_rec.date_set, idx_ptr, (unsigned long int)size);
     idx_ptr = idx_ptr + (signed long int)size;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen((char *)idx_ptr);
-    size = (signed int)((return_value_strlen$1 + (unsigned long int)1) * sizeof(char) /*1ul*/ );
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen((char *)idx_ptr);
+    size = (signed int)((return_value_strlen_1 + (unsigned long int)1) * sizeof(char) /*1ul*/ );
     memcpy((void *)dnslist_rec.fqdn, idx_ptr, (unsigned long int)size);
     idx_ptr = idx_ptr + (signed long int)size;
     printf("\t");
@@ -3914,9 +3914,9 @@ void display_record(struct __db_dbt *dbt_key, struct __db_dbt *dbt_data, _Bool r
     else
       printf("%d,", (signed int)dnslist_rec.date_set);
     check_n_fix_fqdn(dnslist_rec.fqdn);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(dnslist_rec.fqdn);
-    if(return_value_strlen$2 >= 1ul)
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(dnslist_rec.fqdn);
+    if(return_value_strlen_2 >= 1ul)
       printf("%s", (const void *)dnslist_rec.fqdn);
 
     else
@@ -3982,7 +3982,7 @@ void drop_long_lines(struct gzFile_s **file_input, char *buffer_ptr, struct buff
   if(g_verbosity >= 1)
     fprintf(stderr, "#%lu  %s :%s...\n", total_lines, msg_W_line_too_big, buffer_ptr);
 
-  char *tmp_statement_expression$1;
+  char *tmp_statement_expression_1;
   while((_Bool)1)
   {
     if(file_input == ((struct gzFile_s **)NULL))
@@ -3993,10 +3993,10 @@ void drop_long_lines(struct gzFile_s **file_input, char *buffer_ptr, struct buff
     char __a0;
     char __a1;
     char __a2;
-    char *return_value___builtin_strpbrk$2;
-    return_value___builtin_strpbrk$2=__builtin_strpbrk("\n", buffer_ptr);
-    tmp_statement_expression$1 = return_value___builtin_strpbrk$2;
-    if(!(tmp_statement_expression$1 == ((char *)NULL)))
+    char *return_value___builtin_strpbrk_2;
+    return_value___builtin_strpbrk_2=__builtin_strpbrk("\n", buffer_ptr);
+    tmp_statement_expression_1 = return_value___builtin_strpbrk_2;
+    if(!(tmp_statement_expression_1 == ((char *)NULL)))
       break;
 
   }
@@ -4140,9 +4140,9 @@ signed int identify_log_format(char *buffer)
   signed int ovector[300l];
   signed int rc;
   signed int buffer_length;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(buffer);
-  buffer_length = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(buffer);
+  buffer_length = (signed int)return_value_strlen_1;
   rc=pcre_exec(cmp_log_regexp_clf, (const struct pcre_extra *)(void *)0, buffer, buffer_length, 0, 0, ovector, 300);
   if(rc >= 0)
   {
@@ -4217,7 +4217,7 @@ void import_dns_historydb(void)
   char *fgets_rtn = (char *)(void *)0;
   char buffer[131072l];
   char str_address[16l];
-  struct anonymous$13 dnsrec;
+  struct anonymous_13 dnsrec;
   struct dns_record_lists_t *last_list_ptr;
   struct dns_record_lists_t *new_dns_rec = (struct dns_record_lists_t *)(void *)0;
   struct dns_record_lists_t *list;
@@ -4237,10 +4237,10 @@ void import_dns_historydb(void)
     exit(1);
   }
 
-  char *tmp_statement_expression$3;
-  char *tmp_statement_expression$1;
-  char *tmp_statement_expression$5;
-  char *tmp_statement_expression$10;
+  char *tmp_statement_expression_3;
+  char *tmp_statement_expression_1;
+  char *tmp_statement_expression_5;
+  char *tmp_statement_expression_10;
   while((_Bool)1)
   {
     fgets_rtn=fgets(buffer, 128 * 2 * 512, import_file);
@@ -4252,13 +4252,13 @@ void import_dns_historydb(void)
       printf("Line: %lu  Importing: %s", total_lines, (const void *)buffer);
 
     flag_is_bad_line = (_Bool)0;
-    char import_dns_historydb$$1$$3$$3$$__a0;
-    char import_dns_historydb$$1$$3$$3$$__a1;
-    char import_dns_historydb$$1$$3$$3$$__a2;
-    char *return_value___builtin_strpbrk$4;
-    return_value___builtin_strpbrk$4=__builtin_strpbrk(buffer, "\n");
-    tmp_statement_expression$3 = return_value___builtin_strpbrk$4;
-    if(tmp_statement_expression$3 == ((char *)NULL))
+    char import_dns_historydb__1__3__3____a0;
+    char import_dns_historydb__1__3__3____a1;
+    char import_dns_historydb__1__3__3____a2;
+    char *return_value___builtin_strpbrk_4;
+    return_value___builtin_strpbrk_4=__builtin_strpbrk(buffer, "\n");
+    tmp_statement_expression_3 = return_value___builtin_strpbrk_4;
+    if(tmp_statement_expression_3 == ((char *)NULL))
     {
       fflush(stdout);
       if(g_verbosity >= 0)
@@ -4267,13 +4267,13 @@ void import_dns_historydb(void)
       while((_Bool)1)
       {
         fgets_rtn=fgets(buffer, 128 * 2 * 512, import_file);
-        char import_dns_historydb$$1$$3$$4$$2$$1$$__a0;
-        char import_dns_historydb$$1$$3$$4$$2$$1$$__a1;
-        char import_dns_historydb$$1$$3$$4$$2$$1$$__a2;
-        char *return_value___builtin_strpbrk$2;
-        return_value___builtin_strpbrk$2=__builtin_strpbrk("\n", buffer);
-        tmp_statement_expression$1 = return_value___builtin_strpbrk$2;
-        if(!(tmp_statement_expression$1 == ((char *)NULL)))
+        char import_dns_historydb__1__3__4__2__1____a0;
+        char import_dns_historydb__1__3__4__2__1____a1;
+        char import_dns_historydb__1__3__4__2__1____a2;
+        char *return_value___builtin_strpbrk_2;
+        return_value___builtin_strpbrk_2=__builtin_strpbrk("\n", buffer);
+        tmp_statement_expression_1 = return_value___builtin_strpbrk_2;
+        if(!(tmp_statement_expression_1 == ((char *)NULL)))
           break;
 
       }
@@ -4284,7 +4284,7 @@ void import_dns_historydb(void)
     {
       char *buf_ptr1 = (char *)(void *)0;
       char *buf_ptr2 = (char *)(void *)0;
-      memset((void *)&dnsrec, 0, sizeof(struct anonymous$13) /*24ul*/ );
+      memset((void *)&dnsrec, 0, sizeof(struct anonymous_13) /*24ul*/ );
       rtn_sscanf=sscanf(buffer, "%15s ", (char *)&str_address);
       if(!(rtn_sscanf >= 1))
       {
@@ -4300,13 +4300,13 @@ void import_dns_historydb(void)
         inet_pton(2, str_address, (void *)&dnsrec.ipaddress);
         dnsrec.list = (struct dns_record_lists_t *)(void *)0;
         last_list_ptr = (struct dns_record_lists_t *)(void *)0;
-        char import_dns_historydb$$1$$3$$6$$__a0;
-        char import_dns_historydb$$1$$3$$6$$__a1;
-        char import_dns_historydb$$1$$3$$6$$__a2;
-        char *return_value___builtin_strpbrk$6;
-        return_value___builtin_strpbrk$6=__builtin_strpbrk(buffer, "\t");
-        tmp_statement_expression$5 = return_value___builtin_strpbrk$6;
-        buf_ptr1 = tmp_statement_expression$5;
+        char import_dns_historydb__1__3__6____a0;
+        char import_dns_historydb__1__3__6____a1;
+        char import_dns_historydb__1__3__6____a2;
+        char *return_value___builtin_strpbrk_6;
+        return_value___builtin_strpbrk_6=__builtin_strpbrk(buffer, "\t");
+        tmp_statement_expression_5 = return_value___builtin_strpbrk_6;
+        buf_ptr1 = tmp_statement_expression_5;
         if(buf_ptr1 == ((char *)NULL))
         {
           fflush(stdout);
@@ -4321,9 +4321,9 @@ void import_dns_historydb(void)
           buf_ptr2 = buf_ptr1;
           while(!(buf_ptr2 == ((char *)NULL)))
           {
-            void *return_value_xmalloc$7;
-            return_value_xmalloc$7=xmalloc((unsigned long int)1 * sizeof(struct dns_record_lists_t) /*1048ul*/ );
-            new_dns_rec = (struct dns_record_lists_t *)return_value_xmalloc$7;
+            void *return_value_xmalloc_7;
+            return_value_xmalloc_7=xmalloc((unsigned long int)1 * sizeof(struct dns_record_lists_t) /*1048ul*/ );
+            new_dns_rec = (struct dns_record_lists_t *)return_value_xmalloc_7;
             if(dnsrec.list == ((struct dns_record_lists_t *)NULL))
               dnsrec.list = new_dns_rec;
 
@@ -4350,11 +4350,11 @@ void import_dns_historydb(void)
 
             last_list_ptr = new_dns_rec;
             new_dns_rec->next = (struct dns_record_lists_t *)(void *)0;
-            unsigned long int return_value_strlen$8;
-            return_value_strlen$8=strlen(new_dns_rec->fqdn);
-            signed int return_value_strncmp$9;
-            return_value_strncmp$9=strncmp(new_dns_rec->fqdn, "NONAME", return_value_strlen$8);
-            if(return_value_strncmp$9 == 0)
+            unsigned long int return_value_strlen_8;
+            return_value_strlen_8=strlen(new_dns_rec->fqdn);
+            signed int return_value_strncmp_9;
+            return_value_strncmp_9=strncmp(new_dns_rec->fqdn, "NONAME", return_value_strlen_8);
+            if(return_value_strncmp_9 == 0)
               new_dns_rec->fqdn[(signed long int)0] = (char)0;
 
             else
@@ -4363,10 +4363,10 @@ void import_dns_historydb(void)
             char __a0;
             char __a1;
             char __a2;
-            char *return_value___builtin_strpbrk$11;
-            return_value___builtin_strpbrk$11=__builtin_strpbrk(buf_ptr1 + (signed long int)1, "\t");
-            tmp_statement_expression$10 = return_value___builtin_strpbrk$11;
-            buf_ptr2 = tmp_statement_expression$10;
+            char *return_value___builtin_strpbrk_11;
+            return_value___builtin_strpbrk_11=__builtin_strpbrk(buf_ptr1 + (signed long int)1, "\t");
+            tmp_statement_expression_10 = return_value___builtin_strpbrk_11;
+            buf_ptr2 = tmp_statement_expression_10;
           }
           if(!((signed int)flag_is_bad_line == 1))
           {
@@ -4441,8 +4441,8 @@ void increase_thread_counter(void)
 // file dnshistory.c line 244
 signed int main(signed int argc, char **argv)
 {
-  struct anonymous$6 main_pcre;
-  struct anonymous$6 recombine_pcre;
+  struct anonymous_6 main_pcre;
+  struct anonymous_6 recombine_pcre;
   char buffer_primary[131072l];
   signed int buffer_length;
   char buffer_recombine[131072l];
@@ -4508,9 +4508,9 @@ signed int main(signed int argc, char **argv)
     if(g_verbosity >= 4)
       printf("Using file: %s\n", g_filename);
 
-    struct gzFile_s *return_value_gzopen$1;
-    return_value_gzopen$1=gzopen(g_filename, "rb");
-    file_input = (struct gzFile_s **)return_value_gzopen$1;
+    struct gzFile_s *return_value_gzopen_1;
+    return_value_gzopen_1=gzopen(g_filename, "rb");
+    file_input = (struct gzFile_s **)return_value_gzopen_1;
     if(file_input == ((struct gzFile_s **)NULL))
     {
       fflush(stdout);
@@ -4524,7 +4524,7 @@ signed int main(signed int argc, char **argv)
 
   if((signed int)g_dorecombine == 1)
   {
-    memset((void *)&recombine_pcre, 0, sizeof(struct anonymous$6) /*1744ul*/ );
+    memset((void *)&recombine_pcre, 0, sizeof(struct anonymous_6) /*1744ul*/ );
     __builtin_strncpy(recombine_pcre.regular_expression, "^([^ ]+) ([^ ]+) ([^ ]+) \\[([^ ]+) ([^ ]+)\\] \"([^ \"]+) ?([^ ]+)? ?([^\"]*)?\" ([^ ]+) ([^ ]+) \"(.*?)\" \"([^\"]*)\"", (unsigned long int)512);
     if(g_verbosity >= 3)
       printf("Recombine Reg Ex Pattern: %s\n", (const void *)recombine_pcre.regular_expression);
@@ -4538,9 +4538,9 @@ signed int main(signed int argc, char **argv)
     if(g_verbosity >= 4)
       printf("Using Recombine file: %s\n", g_recombine_filename);
 
-    struct gzFile_s *return_value_gzopen$2;
-    return_value_gzopen$2=gzopen(g_recombine_filename, "rb");
-    file_recombine_input = (struct gzFile_s **)return_value_gzopen$2;
+    struct gzFile_s *return_value_gzopen_2;
+    return_value_gzopen_2=gzopen(g_recombine_filename, "rb");
+    file_recombine_input = (struct gzFile_s **)return_value_gzopen_2;
     if(file_recombine_input == ((struct gzFile_s **)NULL))
     {
       fflush(stdout);
@@ -4557,11 +4557,11 @@ signed int main(signed int argc, char **argv)
   if(g_verbosity >= 4)
     printf("Beginning Main Loop.%s\n", (const void *)"");
 
-  char *tmp_statement_expression$4;
-  _Bool tmp_if_expr$7;
-  char *tmp_statement_expression$9;
-  char *tmp_statement_expression$11;
-  char *tmp_statement_expression$13;
+  char *tmp_statement_expression_4;
+  _Bool tmp_if_expr_7;
+  char *tmp_statement_expression_9;
+  char *tmp_statement_expression_11;
+  char *tmp_statement_expression_13;
   while((_Bool)1)
   {
     if(!(file_input == ((struct gzFile_s **)NULL)))
@@ -4573,16 +4573,16 @@ signed int main(signed int argc, char **argv)
       break;
 
     total_lines = total_lines + 1ul;
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(buffer_primary);
-    buffer_length = (signed int)return_value_strlen$3;
-    char main$$1$$10$$4$$__a0;
-    char main$$1$$10$$4$$__a1;
-    char main$$1$$10$$4$$__a2;
-    char *return_value___builtin_strpbrk$5;
-    return_value___builtin_strpbrk$5=__builtin_strpbrk("\n", buffer_primary);
-    tmp_statement_expression$4 = return_value___builtin_strpbrk$5;
-    if(tmp_statement_expression$4 == ((char *)NULL))
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(buffer_primary);
+    buffer_length = (signed int)return_value_strlen_3;
+    char main__1__10__4____a0;
+    char main__1__10__4____a1;
+    char main__1__10__4____a2;
+    char *return_value___builtin_strpbrk_5;
+    return_value___builtin_strpbrk_5=__builtin_strpbrk("\n", buffer_primary);
+    tmp_statement_expression_4 = return_value___builtin_strpbrk_5;
+    if(tmp_statement_expression_4 == ((char *)NULL))
     {
       if(file_input == ((struct gzFile_s **)NULL))
         drop_long_lines((struct gzFile_s **)(void *)0, buffer_primary, (struct buffer_position_struct *)(void *)0);
@@ -4619,7 +4619,7 @@ signed int main(signed int argc, char **argv)
 
         }
 
-        memset((void *)&main_pcre, 0, sizeof(struct anonymous$6) /*1744ul*/ );
+        memset((void *)&main_pcre, 0, sizeof(struct anonymous_6) /*1744ul*/ );
         switch(g_log_type)
         {
           case 2:
@@ -4724,9 +4724,9 @@ signed int main(signed int argc, char **argv)
         ;
         if((signed int)g_dotranslate == 1)
         {
-          signed int return_value_strncmp$6;
-          return_value_strncmp$6=strncmp(str_previous_address, str_address, (unsigned long int)1025);
-          comp_ret = return_value_strncmp$6;
+          signed int return_value_strncmp_6;
+          return_value_strncmp_6=strncmp(str_previous_address, str_address, (unsigned long int)1025);
+          comp_ret = return_value_strncmp_6;
           if(!(comp_ret == 0))
           {
             main_pcre.cp_substr_ret=pcre_copy_substring(buffer_primary, main_pcre.ovector, main_pcre.ret, (signed int)position_datetime, str_time, 50);
@@ -4749,11 +4749,11 @@ signed int main(signed int argc, char **argv)
           if(g_log_type == 5)
           {
             if((signed int)str_fqdn[0l] == 0)
-              tmp_if_expr$7 = (signed int)str_fqdn2[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_7 = (signed int)str_fqdn2[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$7 = (_Bool)0;
-            if(tmp_if_expr$7)
+              tmp_if_expr_7 = (_Bool)0;
+            if(tmp_if_expr_7)
               printf("%s", (const void *)buffer_primary);
 
             else
@@ -4830,16 +4830,16 @@ signed int main(signed int argc, char **argv)
               close_exit(5);
             }
 
-            unsigned long int return_value_strlen$8;
-            return_value_strlen$8=strlen(buffer_recombine);
-            buffer_recombine_length = (signed int)return_value_strlen$8;
-            char main$$1$$10$$9$$3$$__a0;
-            char main$$1$$10$$9$$3$$__a1;
-            char main$$1$$10$$9$$3$$__a2;
-            char *return_value___builtin_strpbrk$10;
-            return_value___builtin_strpbrk$10=__builtin_strpbrk("\n", buffer_recombine);
-            tmp_statement_expression$9 = return_value___builtin_strpbrk$10;
-            if(tmp_statement_expression$9 == ((char *)NULL) || (signed int)badlogline_flag == 1)
+            unsigned long int return_value_strlen_8;
+            return_value_strlen_8=strlen(buffer_recombine);
+            buffer_recombine_length = (signed int)return_value_strlen_8;
+            char main__1__10__9__3____a0;
+            char main__1__10__9__3____a1;
+            char main__1__10__9__3____a2;
+            char *return_value___builtin_strpbrk_10;
+            return_value___builtin_strpbrk_10=__builtin_strpbrk("\n", buffer_recombine);
+            tmp_statement_expression_9 = return_value___builtin_strpbrk_10;
+            if(tmp_statement_expression_9 == ((char *)NULL) || (signed int)badlogline_flag == 1)
             {
               drop_long_lines(file_recombine_input, buffer_recombine, &buf_recombine_posn);
               if((signed int)badlogline_flag == 0)
@@ -4855,9 +4855,9 @@ signed int main(signed int argc, char **argv)
             if(g_verbosity >= 5)
               printf("  New Address: %s  Old Address: %s\n", (const void *)str_address, (const void *)str_previous_address);
 
-            signed int return_value_strncmp$20;
-            return_value_strncmp$20=strncmp(str_previous_address, str_address, (unsigned long int)1025);
-            if(!(return_value_strncmp$20 == 0))
+            signed int return_value_strncmp_20;
+            return_value_strncmp_20=strncmp(str_previous_address, str_address, (unsigned long int)1025);
+            if(!(return_value_strncmp_20 == 0))
             {
               __builtin_strncpy(str_previous_address, str_address, (unsigned long int)1025);
               main_pcre.ret=pcre_exec(main_pcre.re_pcre, (const struct pcre_extra *)(void *)0, buffer_recombine, buffer_recombine_length, 0, 0, main_pcre.ovector, 300);
@@ -4889,20 +4889,20 @@ signed int main(signed int argc, char **argv)
               char __a0;
               char __a1;
               char __a2;
-              char *return_value___builtin_strpbrk$12;
-              return_value___builtin_strpbrk$12=__builtin_strpbrk(buffer_primary, " ");
-              tmp_statement_expression$11 = return_value___builtin_strpbrk$12;
-              buf_ptr = tmp_statement_expression$11;
-              char main$$1$$10$$9$$8$$5$$__a0;
-              char main$$1$$10$$9$$8$$5$$__a1;
-              char main$$1$$10$$9$$8$$5$$__a2;
-              char *return_value___builtin_strpbrk$14;
-              return_value___builtin_strpbrk$14=__builtin_strpbrk(buffer_recombine, " ");
-              tmp_statement_expression$13 = return_value___builtin_strpbrk$14;
-              bufer_recombine_ptr = tmp_statement_expression$13;
-              signed int return_value_strncmp$15;
-              return_value_strncmp$15=strncmp(buf_ptr, bufer_recombine_ptr, (unsigned long int)(128 * 2 * 512));
-              comp_ret = return_value_strncmp$15;
+              char *return_value___builtin_strpbrk_12;
+              return_value___builtin_strpbrk_12=__builtin_strpbrk(buffer_primary, " ");
+              tmp_statement_expression_11 = return_value___builtin_strpbrk_12;
+              buf_ptr = tmp_statement_expression_11;
+              char main__1__10__9__8__5____a0;
+              char main__1__10__9__8__5____a1;
+              char main__1__10__9__8__5____a2;
+              char *return_value___builtin_strpbrk_14;
+              return_value___builtin_strpbrk_14=__builtin_strpbrk(buffer_recombine, " ");
+              tmp_statement_expression_13 = return_value___builtin_strpbrk_14;
+              bufer_recombine_ptr = tmp_statement_expression_13;
+              signed int return_value_strncmp_15;
+              return_value_strncmp_15=strncmp(buf_ptr, bufer_recombine_ptr, (unsigned long int)(128 * 2 * 512));
+              comp_ret = return_value_strncmp_15;
               if(!(comp_ret == 0))
               {
                 recombine_pcre.ret=pcre_exec(recombine_pcre.re_pcre, (const struct pcre_extra *)(void *)0, buffer_primary, buffer_length, 0, 0, recombine_pcre.ovector, 300);
@@ -4921,11 +4921,11 @@ signed int main(signed int argc, char **argv)
                   continue;
                 }
 
-                unsigned long int return_value_strlen$16;
-                return_value_strlen$16=strlen(str_time);
-                signed int return_value_strncmp$17;
-                return_value_strncmp$17=strncmp(str_time_raw, str_time, return_value_strlen$16);
-                comp_ret = return_value_strncmp$17;
+                unsigned long int return_value_strlen_16;
+                return_value_strlen_16=strlen(str_time);
+                signed int return_value_strncmp_17;
+                return_value_strncmp_17=strncmp(str_time_raw, str_time, return_value_strlen_16);
+                comp_ret = return_value_strncmp_17;
                 if(!(comp_ret == 0))
                 {
                   fflush(stdout);
@@ -4959,11 +4959,11 @@ signed int main(signed int argc, char **argv)
                   continue;
                 }
 
-                unsigned long int return_value_strlen$18;
-                return_value_strlen$18=strlen(access_size_raw);
-                signed int return_value_strncmp$19;
-                return_value_strncmp$19=strncmp(access_size_raw, access_size_recombine, return_value_strlen$18);
-                comp_ret = return_value_strncmp$19;
+                unsigned long int return_value_strlen_18;
+                return_value_strlen_18=strlen(access_size_raw);
+                signed int return_value_strncmp_19;
+                return_value_strncmp_19=strncmp(access_size_raw, access_size_recombine, return_value_strlen_18);
+                comp_ret = return_value_strncmp_19;
                 if(!(comp_ret == 0))
                 {
                   fflush(stdout);
@@ -4987,9 +4987,9 @@ signed int main(signed int argc, char **argv)
 
           else
           {
-            signed int return_value_strncmp$21;
-            return_value_strncmp$21=strncmp(str_previous_address, str_address, (unsigned long int)1025);
-            comp_ret = return_value_strncmp$21;
+            signed int return_value_strncmp_21;
+            return_value_strncmp_21=strncmp(str_previous_address, str_address, (unsigned long int)1025);
+            comp_ret = return_value_strncmp_21;
             if(!(comp_ret == 0))
             {
               pthread_mutex_lock(&mutex_thread_count);
@@ -5268,22 +5268,22 @@ __CPROVER_DUMP_L6:
 // file db_dnshistory.h line 47
 extern void open_dnshistory_db(struct __db **db_ptr, char *db_dirfilename, unsigned int cache_size, unsigned int flags)
 {
-  signed int open_dnshistory_db$$1$$rtn_db;
+  signed int open_dnshistory_db__1__rtn_db;
   if(g_verbosity >= 2)
     printf("%s\n", msg_v1_hashdb);
 
   if(g_verbosity >= 3)
     printf("%s%s\n", msg_v2_create_hashdb, db_dirfilename);
 
-  open_dnshistory_db$$1$$rtn_db=db_create(db_ptr, (struct __db_env *)(void *)0, (unsigned int)0);
-  if(!(open_dnshistory_db$$1$$rtn_db == 0))
+  open_dnshistory_db__1__rtn_db=db_create(db_ptr, (struct __db_env *)(void *)0, (unsigned int)0);
+  if(!(open_dnshistory_db__1__rtn_db == 0))
   {
     fflush(stdout);
     if(g_verbosity >= 0)
     {
-      char *return_value_db_strerror$1;
-      return_value_db_strerror$1=db_strerror(open_dnshistory_db$$1$$rtn_db);
-      fprintf(stderr, msg_F_db_create, return_value_db_strerror$1);
+      char *return_value_db_strerror_1;
+      return_value_db_strerror_1=db_strerror(open_dnshistory_db__1__rtn_db);
+      fprintf(stderr, msg_F_db_create, return_value_db_strerror_1);
     }
 
     exit(40);
@@ -5295,15 +5295,15 @@ extern void open_dnshistory_db(struct __db **db_ptr, char *db_dirfilename, unsig
     if(g_verbosity >= 3)
       printf("%s%d\n", msg_v2_create_dbcache, cache_size);
 
-    open_dnshistory_db$$1$$rtn_db=(*db_ptr)->set_cachesize(*db_ptr, (unsigned int)0, cache_size, 1);
-    if(!(open_dnshistory_db$$1$$rtn_db == 0))
+    open_dnshistory_db__1__rtn_db=(*db_ptr)->set_cachesize(*db_ptr, (unsigned int)0, cache_size, 1);
+    if(!(open_dnshistory_db__1__rtn_db == 0))
     {
       fflush(stdout);
       if(g_verbosity >= 0)
       {
-        char *return_value_db_strerror$2;
-        return_value_db_strerror$2=db_strerror(open_dnshistory_db$$1$$rtn_db);
-        fprintf(stderr, msg_F_db_cache, return_value_db_strerror$2);
+        char *return_value_db_strerror_2;
+        return_value_db_strerror_2=db_strerror(open_dnshistory_db__1__rtn_db);
+        fprintf(stderr, msg_F_db_cache, return_value_db_strerror_2);
       }
 
       exit(41);
@@ -5318,10 +5318,10 @@ extern void open_dnshistory_db(struct __db **db_ptr, char *db_dirfilename, unsig
   if(g_verbosity >= 3)
     printf("Open the DB: %s\n", db_dirfilename);
 
-  open_dnshistory_db$$1$$rtn_db=(*db_ptr)->open(*db_ptr, (struct __db_txn *)(void *)0, db_dirfilename, (const char *)(void *)0, (enum anonymous$17)DB_BTREE, flags, 0664);
-  if(!(open_dnshistory_db$$1$$rtn_db == 0))
+  open_dnshistory_db__1__rtn_db=(*db_ptr)->open(*db_ptr, (struct __db_txn *)(void *)0, db_dirfilename, (const char *)(void *)0, (enum anonymous_17)DB_BTREE, flags, 0664);
+  if(!(open_dnshistory_db__1__rtn_db == 0))
   {
-    (*db_ptr)->err(*db_ptr, open_dnshistory_db$$1$$rtn_db, "%s", db_dirfilename);
+    (*db_ptr)->err(*db_ptr, open_dnshistory_db__1__rtn_db, "%s", db_dirfilename);
     exit(42);
   }
 
@@ -5360,13 +5360,13 @@ void process_options(signed int argc, char **argv)
     { .name="logtype", .has_arg=1, .flag=(signed int *)(void *)0, .val=0 },
     { .name=(const char *)(void *)0, .has_arg=0, .flag=(signed int *)(void *)0,
     .val=0 } };
-  signed int return_value_strncmp$7;
-  signed int return_value_strncmp$5;
-  signed int return_value_strncmp$4;
-  signed int return_value_strncmp$3;
-  signed int return_value_strncmp$2;
-  signed int return_value_strncmp$1;
-  unsigned long int return_value_strlen$8;
+  signed int return_value_strncmp_7;
+  signed int return_value_strncmp_5;
+  signed int return_value_strncmp_4;
+  signed int return_value_strncmp_3;
+  signed int return_value_strncmp_2;
+  signed int return_value_strncmp_1;
+  unsigned long int return_value_strlen_8;
   do
   {
     opt=getopt_long(argc, argv, short_options, long_options, &option_index);
@@ -5430,43 +5430,43 @@ void process_options(signed int argc, char **argv)
 
     else
     {
-      return_value_strncmp$7=strncmp("logtype", long_options[(signed long int)option_index].name, (unsigned long int)7);
-      if(return_value_strncmp$7 == 0)
+      return_value_strncmp_7=strncmp("logtype", long_options[(signed long int)option_index].name, (unsigned long int)7);
+      if(return_value_strncmp_7 == 0)
       {
         sscanf(optarg, "%s", (const void *)log_type);
-        signed int return_value_strncmp$6;
-        return_value_strncmp$6=strncmp(log_type, "auto", (unsigned long int)4);
-        if(return_value_strncmp$6 == 0)
+        signed int return_value_strncmp_6;
+        return_value_strncmp_6=strncmp(log_type, "auto", (unsigned long int)4);
+        if(return_value_strncmp_6 == 0)
           g_log_type = 0;
 
         else
         {
-          return_value_strncmp$5=strncmp(log_type, "clf", (unsigned long int)3);
-          if(return_value_strncmp$5 == 0)
+          return_value_strncmp_5=strncmp(log_type, "clf", (unsigned long int)3);
+          if(return_value_strncmp_5 == 0)
             g_log_type = 1;
 
           else
           {
-            return_value_strncmp$4=strncmp(log_type, "www", (unsigned long int)3);
-            if(return_value_strncmp$4 == 0)
+            return_value_strncmp_4=strncmp(log_type, "www", (unsigned long int)3);
+            if(return_value_strncmp_4 == 0)
               g_log_type = 1;
 
             else
             {
-              return_value_strncmp$3=strncmp(log_type, "ftp", (unsigned long int)3);
-              if(return_value_strncmp$3 == 0)
+              return_value_strncmp_3=strncmp(log_type, "ftp", (unsigned long int)3);
+              if(return_value_strncmp_3 == 0)
                 g_log_type = 2;
 
               else
               {
-                return_value_strncmp$2=strncmp(log_type, "squid", (unsigned long int)5);
-                if(return_value_strncmp$2 == 0)
+                return_value_strncmp_2=strncmp(log_type, "squid", (unsigned long int)5);
+                if(return_value_strncmp_2 == 0)
                   g_log_type = 3;
 
                 else
                 {
-                  return_value_strncmp$1=strncmp(log_type, "iptables", (unsigned long int)8);
-                  if(return_value_strncmp$1 == 0)
+                  return_value_strncmp_1=strncmp(log_type, "iptables", (unsigned long int)8);
+                  if(return_value_strncmp_1 == 0)
                     g_log_type = 5;
 
                   else
@@ -5643,8 +5643,8 @@ void process_options(signed int argc, char **argv)
 
     __CPROVER_DUMP_L39:
       ;
-      return_value_strlen$8=strlen(optarg);
-      __builtin_strncpy(g_db_dirfilename, optarg, return_value_strlen$8 + (unsigned long int)1);
+      return_value_strlen_8=strlen(optarg);
+      __builtin_strncpy(g_db_dirfilename, optarg, return_value_strlen_8 + (unsigned long int)1);
       continue;
 
     __CPROVER_DUMP_L40:
@@ -5885,7 +5885,7 @@ extern void re_compile_failed(signed int err, const char *err_offset, char *re_s
 // file dnshistory.c line 857
 void retrieve_address(char *str_ipaddr, char *str_fqdn, char *str_time)
 {
-  struct anonymous$13 *dnsrec;
+  struct anonymous_13 *dnsrec;
   struct dns_record_lists_t *list;
   struct dns_record_lists_t *list_next;
   signed int ret_pton;
@@ -5896,15 +5896,15 @@ void retrieve_address(char *str_ipaddr, char *str_fqdn, char *str_time)
   if(g_verbosity >= 5)
     printf("  INIT. Retrieve Address; Looking for: %s\n", str_ipaddr);
 
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc((unsigned long int)1 * sizeof(struct anonymous$13) /*24ul*/ );
-  dnsrec = (struct anonymous$13 *)return_value_xmalloc$1;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc((unsigned long int)1 * sizeof(struct anonymous_13) /*24ul*/ );
+  dnsrec = (struct anonymous_13 *)return_value_xmalloc_1;
   dnsrec->list = (struct dns_record_lists_t *)(void *)0;
   ret_pton=inet_pton(2, str_ipaddr, (void *)&dnsrec->ipaddress);
-  _Bool tmp_if_expr$5;
-  unsigned long int return_value_strtoul$2;
-  _Bool tmp_if_expr$4;
-  double return_value_difftime$3;
+  _Bool tmp_if_expr_5;
+  unsigned long int return_value_strtoul_2;
+  _Bool tmp_if_expr_4;
+  double return_value_difftime_3;
   if(ret_pton == 0)
   {
     fflush(stdout);
@@ -5919,11 +5919,11 @@ void retrieve_address(char *str_ipaddr, char *str_fqdn, char *str_time)
     ret_addrexists=address_exists(dnsrec);
     ret_addrexists = 0;
     if(!(ret_addrexists == 0))
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = dnsrec->list == (struct dns_record_lists_t *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = dnsrec->list == (struct dns_record_lists_t *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
       str_fqdn[(signed long int)0] = (char)0;
 
     else
@@ -5951,8 +5951,8 @@ void retrieve_address(char *str_ipaddr, char *str_fqdn, char *str_time)
           }
           case 3:
           {
-            return_value_strtoul$2=strtoul(str_time, (char ** restrict )(void *)0, 10);
-            temp_time_squid = (signed long int)return_value_strtoul$2;
+            return_value_strtoul_2=strtoul(str_time, (char ** restrict )(void *)0, 10);
+            temp_time_squid = (signed long int)return_value_strtoul_2;
             localtime_r(&temp_time_squid, &time_rec);
           }
         }
@@ -5969,14 +5969,14 @@ void retrieve_address(char *str_ipaddr, char *str_fqdn, char *str_time)
             printf("    **Date/Time: DB List: %ld -> %ld\n", time_logentry, list->date_set);
 
           if(list->next == ((struct dns_record_lists_t *)NULL))
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_4 = (_Bool)1;
 
           else
           {
-            return_value_difftime$3=difftime(time_logentry, list->date_set);
-            tmp_if_expr$4 = return_value_difftime$3 >= (double)0 ? (_Bool)1 : (_Bool)0;
+            return_value_difftime_3=difftime(time_logentry, list->date_set);
+            tmp_if_expr_4 = return_value_difftime_3 >= (double)0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$4)
+          if(tmp_if_expr_4)
             __builtin_strncpy(str_fqdn, list->fqdn, (unsigned long int)1025);
 
           list = list->next;
@@ -6001,7 +6001,7 @@ void retrieve_address(char *str_ipaddr, char *str_fqdn, char *str_time)
     list = (struct dns_record_lists_t *)(void *)0;
   }
   free((void *)dnsrec);
-  dnsrec = (struct anonymous$13 *)(void *)0;
+  dnsrec = (struct anonymous_13 *)(void *)0;
   goto __CPROVER_DUMP_L24;
 
 __CPROVER_DUMP_L24:
@@ -6017,7 +6017,7 @@ void showhistory(struct __db **db_ptr, signed int argc, char **argv)
   struct __db_dbt dbt_key;
   struct __db_dbt dbt_data;
   signed int db_rtn;
-  struct anonymous$13 dnsrec;
+  struct anonymous_13 dnsrec;
   signed int arg_ctr = optind;
   if(g_verbosity >= 5)
     printf("  History Lookup!%s", (const void *)"\n");
@@ -6059,7 +6059,7 @@ void showhistory(struct __db **db_ptr, signed int argc, char **argv)
 
 // store_dns_records
 // file dnshistory.c line 1553
-void store_dns_records(struct anonymous$13 *dns_rec_ptr)
+void store_dns_records(struct anonymous_13 *dns_rec_ptr)
 {
   void *data_ptr = (void *)0;
   void *idx_ptr = (void *)0;
@@ -6071,9 +6071,9 @@ void store_dns_records(struct anonymous$13 *dns_rec_ptr)
   char str_address[16l];
   if(g_verbosity >= 4)
   {
-    const char *return_value_inet_ntop$1;
-    return_value_inet_ntop$1=inet_ntop(2, (const void *)&dns_rec_ptr->ipaddress, str_address, (unsigned int)16);
-    printf("  **STORE: %16s\n", return_value_inet_ntop$1);
+    const char *return_value_inet_ntop_1;
+    return_value_inet_ntop_1=inet_ntop(2, (const void *)&dns_rec_ptr->ipaddress, str_address, (unsigned int)16);
+    printf("  **STORE: %16s\n", return_value_inet_ntop_1);
   }
 
   key_size = (signed int)sizeof(unsigned int) /*4ul*/ ;
@@ -6082,16 +6082,16 @@ void store_dns_records(struct anonymous$13 *dns_rec_ptr)
   while(!(list_ptr == ((struct dns_record_lists_t *)NULL)))
   {
     data_size = data_size + (signed int)sizeof(signed long int) /*8ul*/ ;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(list_ptr->fqdn);
-    data_size = data_size + (signed int)((return_value_strlen$2 + (unsigned long int)1) * sizeof(char) /*1ul*/ );
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(list_ptr->fqdn);
+    data_size = data_size + (signed int)((return_value_strlen_2 + (unsigned long int)1) * sizeof(char) /*1ul*/ );
     list_ptr = list_ptr->next;
     nbr_items = nbr_items + 1;
   }
   data_size = data_size + (signed int)sizeof(signed int) /*4ul*/ ;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)data_size);
-  data_ptr = (void *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)data_size);
+  data_ptr = (void *)return_value_malloc_3;
   if(data_ptr == NULL)
   {
     fflush(stdout);
@@ -6118,9 +6118,9 @@ void store_dns_records(struct anonymous$13 *dns_rec_ptr)
     if(g_verbosity >= 5)
       printf("    STO: fqdn: %s\n", (const void *)list_ptr->fqdn);
 
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(list_ptr->fqdn);
-    size = (signed int)((return_value_strlen$4 + (unsigned long int)1) * sizeof(char) /*1ul*/ );
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(list_ptr->fqdn);
+    size = (signed int)((return_value_strlen_4 + (unsigned long int)1) * sizeof(char) /*1ul*/ );
     memcpy(idx_ptr, (const void *)&list_ptr->fqdn, (unsigned long int)size);
     idx_ptr = idx_ptr + (signed long int)size;
     list_ptr = list_ptr->next;

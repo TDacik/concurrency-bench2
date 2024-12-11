@@ -1,94 +1,94 @@
-// #anon_enum$DBUS_BUS_SESSION=0$DBUS_BUS_SYSTEM=1$DBUS_BUS_STARTER=2
+// #anon_enum_DBUS_BUS_SESSION=0_DBUS_BUS_SYSTEM=1_DBUS_BUS_STARTER=2
 // file /usr/include/dbus-1.0/dbus/dbus-shared.h line 56
-enum anonymous$22 { DBUS_BUS_SESSION=0, DBUS_BUS_SYSTEM=1, DBUS_BUS_STARTER=2 };
+enum anonymous_22 { DBUS_BUS_SESSION=0, DBUS_BUS_SYSTEM=1, DBUS_BUS_STARTER=2 };
 
-// #anon_enum$DBUS_HANDLER_RESULT_HANDLED=0$DBUS_HANDLER_RESULT_NOT_YET_HANDLED=1$DBUS_HANDLER_RESULT_NEED_MEMORY=2
+// #anon_enum_DBUS_HANDLER_RESULT_HANDLED=0_DBUS_HANDLER_RESULT_NOT_YET_HANDLED=1_DBUS_HANDLER_RESULT_NEED_MEMORY=2
 // file /usr/include/dbus-1.0/dbus/dbus-shared.h line 66
-enum anonymous$18 { DBUS_HANDLER_RESULT_HANDLED=0, DBUS_HANDLER_RESULT_NOT_YET_HANDLED=1, DBUS_HANDLER_RESULT_NEED_MEMORY=2 };
+enum anonymous_18 { DBUS_HANDLER_RESULT_HANDLED=0, DBUS_HANDLER_RESULT_NOT_YET_HANDLED=1, DBUS_HANDLER_RESULT_NEED_MEMORY=2 };
 
-// #anon_enum$NM_STATE_UNKNOWN=0$NM_STATE_ASLEEP=10$NM_STATE_DISCONNECTED=20$NM_STATE_DISCONNECTING=30$NM_STATE_CONNECTING=40$NM_STATE_CONNECTED_LOCAL=50$NM_STATE_CONNECTED_SITE=60$NM_STATE_CONNECTED_GLOBAL=70
+// #anon_enum_NM_STATE_UNKNOWN=0_NM_STATE_ASLEEP=10_NM_STATE_DISCONNECTED=20_NM_STATE_DISCONNECTING=30_NM_STATE_CONNECTING=40_NM_STATE_CONNECTED_LOCAL=50_NM_STATE_CONNECTED_SITE=60_NM_STATE_CONNECTED_GLOBAL=70
 // file /usr/include/NetworkManager/NetworkManager.h line 96
-enum anonymous$21 { NM_STATE_UNKNOWN=0, NM_STATE_ASLEEP=10, NM_STATE_DISCONNECTED=20, NM_STATE_DISCONNECTING=30, NM_STATE_CONNECTING=40, NM_STATE_CONNECTED_LOCAL=50, NM_STATE_CONNECTED_SITE=60, NM_STATE_CONNECTED_GLOBAL=70 };
+enum anonymous_21 { NM_STATE_UNKNOWN=0, NM_STATE_ASLEEP=10, NM_STATE_DISCONNECTED=20, NM_STATE_DISCONNECTING=30, NM_STATE_CONNECTING=40, NM_STATE_CONNECTED_LOCAL=50, NM_STATE_CONNECTED_SITE=60, NM_STATE_CONNECTED_GLOBAL=70 };
 
-// #anon_enum$SLP_FALSE=0$SLP_TRUE=1
+// #anon_enum_SLP_FALSE=0_SLP_TRUE=1
 // file /usr/include/slp.h line 231
-enum anonymous$15 { SLP_FALSE=0, SLP_TRUE=1 };
+enum anonymous_15 { SLP_FALSE=0, SLP_TRUE=1 };
 
-// tag-#anon#ST[*{S8}$S8$'where'||*{S32(*{SYM#tag-XDR#}$SYM#tag-XDR#$|*{V}$V$|...)->S32}$S32(*{SYM#tag-XDR#}$SYM#tag-XDR#$|*{V}$V$|...)->S32$'proc'|]
+// tag-#anon#ST[*{S8}_S8_'where'||*{S32(*{SYM#tag-XDR#}_SYM#tag-XDR#_|*{V}_V_|...)->S32}_S32(*{SYM#tag-XDR#}_SYM#tag-XDR#_|*{V}_V_|...)->S32_'proc'|]
 // file /usr/include/rpc/rpc_msg.h line 95
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 140
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[S32'readers'||S32'writers'||S32'wishwrite'||U32'$pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'mutex'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#'lock_free'|]
+// tag-#anon#ST[S32'readers'||S32'writers'||S32'wishwrite'||U32'_pad0'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'mutex'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#'lock_free'|]
 // file pthread_np.h line 27
-struct anonymous$14;
+struct anonymous_14;
 
 // tag-#anon#ST[S64's1'||S64's2'|]
 // file /usr/include/rpc/clnt.h line 112
-struct anonymous$23;
+struct anonymous_23;
 
 // tag-#anon#ST[U32'high'||U32'low'|]
 // file /usr/include/rpc/auth.h line 70
-struct anonymous$16;
+struct anonymous_16;
 
 // tag-#anon#ST[U64'low'||U64'high'|]
 // file /usr/include/rpc/clnt.h line 108
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 129
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[S32'RE_errno'||ENtag-auth_stat#{U32}$U32$'RE_why'||SYM#tag-#anon#ST[U64'low'||U64'high'|]#'RE_vers'||SYM#tag-#anon#ST[S64's1'||S64's2'|]#'RE_lb'|]
+// tag-#anon#UN[S32'RE_errno'||ENtag-auth_stat#{U32}_U32_'RE_why'||SYM#tag-#anon#ST[U64'low'||U64'high'|]#'RE_vers'||SYM#tag-#anon#ST[S64's1'||S64's2'|]#'RE_lb'|]
 // file /usr/include/rpc/clnt.h line 105
-union anonymous$20;
+union anonymous_20;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 138
-union anonymous$13;
+union anonymous_13;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U64'low'||U64'high'|]#'AR_versions'||SYM#tag-#anon#ST[*{S8}$S8$'where'||*{S32(*{SYM#tag-XDR#}$SYM#tag-XDR#$|*{V}$V$|...)->S32}$S32(*{SYM#tag-XDR#}$SYM#tag-XDR#$|*{V}$V$|...)->S32$'proc'|]#'AR_results'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U64'low'||U64'high'|]#'AR_versions'||SYM#tag-#anon#ST[*{S8}_S8_'where'||*{S32(*{SYM#tag-XDR#}_SYM#tag-XDR#_|*{V}_V_|...)->S32}_S32(*{SYM#tag-XDR#}_SYM#tag-XDR#_|*{V}_V_|...)->S32_'proc'|]#'AR_results'|]
 // file /usr/include/rpc/rpc_msg.h line 90
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U64'low'||U64'high'|]#'RJ_versions'||ENtag-auth_stat#{U32}$U32$'RJ_why'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U64'low'||U64'high'|]#'RJ_versions'||ENtag-auth_stat#{U32}_U32_'RJ_why'|]
 // file /usr/include/rpc/rpc_msg.h line 110
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$10;
+union anonymous_10;
 
 // tag-#anon#UN[SYM#tag-accepted_reply#'RP_ar'||SYM#tag-rejected_reply#'RP_dr'|]
 // file /usr/include/rpc/rpc_msg.h line 126
-union anonymous$9;
+union anonymous_9;
 
 // tag-#anon#UN[SYM#tag-call_body#'RM_cmb'||SYM#tag-reply_body#'RM_rmb'|]
 // file /usr/include/rpc/rpc_msg.h line 152
 union anonymous;
 
-// tag-#anon#UN[U32'ypbind_error'||SYM#tag-ypbind_binding#'ypbind_bindinfo'||U64'$pad'|]
+// tag-#anon#UN[U32'ypbind_error'||SYM#tag-ypbind_binding#'ypbind_bindinfo'||U64'_pad'|]
 // file ypbind.h line 59
-union anonymous$24;
+union anonymous_24;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$17;
+union anonymous_17;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$19;
+union anonymous_19;
 
 // tag-AUTH
 // file /usr/include/rpc/auth.h line 91
@@ -376,16 +376,16 @@ struct ypbind_setdom;
 
 // MySLPSrvURLCallback
 // file ypbind_slp.c line 48
-static enum anonymous$15 MySLPSrvURLCallback(void *hslp, const char *srvurl, unsigned short int lifetime, signed int errcode, void *cookie);
+static enum anonymous_15 MySLPSrvURLCallback(void *hslp, const char *srvurl, unsigned short int lifetime, signed int errcode, void *cookie);
 // SLPClose
 // file /usr/include/slp.h line 472
 void SLPClose(void *);
 // SLPFindSrvs
 // file /usr/include/slp.h line 694
-signed int SLPFindSrvs(void *, const char *, const char *, const char *, enum anonymous$15 (*)(void *, const char *, unsigned short int, signed int, void *), void *);
+signed int SLPFindSrvs(void *, const char *, const char *, const char *, enum anonymous_15 (*)(void *, const char *, unsigned short int, signed int, void *), void *);
 // SLPOpen
 // file /usr/include/slp.h line 431
-signed int SLPOpen(const char *, enum anonymous$15, void **);
+signed int SLPOpen(const char *, enum anonymous_15, void **);
 // __ctype_b_loc
 // file /usr/include/ctype.h line 79
 extern const unsigned short int ** __ctype_b_loc(void);
@@ -415,7 +415,7 @@ extern signed int atoi(const char *);
 extern struct AUTH * authunix_create_default(void);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$19, unsigned int);
+extern signed int bind(signed int, union anonymous_19, unsigned int);
 // bindtextdomain
 // file /usr/include/libintl.h line 86
 extern char * bindtextdomain(const char *, const char *);
@@ -463,13 +463,13 @@ static void create_pidfile(void);
 void dbus_bus_add_match(struct DBusConnection *, const char *, struct DBusError *);
 // dbus_bus_get
 // file /usr/include/dbus-1.0/dbus/dbus-bus.h line 40
-struct DBusConnection * dbus_bus_get(enum anonymous$22, struct DBusError *);
+struct DBusConnection * dbus_bus_get(enum anonymous_22, struct DBusError *);
 // dbus_bus_name_has_owner
 // file /usr/include/dbus-1.0/dbus/dbus-bus.h line 71
 unsigned int dbus_bus_name_has_owner(struct DBusConnection *, const char *, struct DBusError *);
 // dbus_connection_add_filter
 // file /usr/include/dbus-1.0/dbus/dbus-connection.h line 295
-unsigned int dbus_connection_add_filter(struct DBusConnection *, enum anonymous$18 (*)(struct DBusConnection *, struct DBusMessage *, void *), void *, void (*)(void *));
+unsigned int dbus_connection_add_filter(struct DBusConnection *, enum anonymous_18 (*)(struct DBusConnection *, struct DBusMessage *, void *), void *, void (*)(void *));
 // dbus_connection_close
 // file /usr/include/dbus-1.0/dbus/dbus-connection.h line 183
 void dbus_connection_close(struct DBusConnection *);
@@ -496,7 +496,7 @@ void dbus_error_init(struct DBusError *);
 unsigned int dbus_error_is_set(const struct DBusError *);
 // dbus_filter
 // file ypbind_dbus_nm.c line 108
-static enum anonymous$18 dbus_filter(struct DBusConnection *connection, struct DBusMessage *message, void *user_data);
+static enum anonymous_18 dbus_filter(struct DBusConnection *connection, struct DBusMessage *message, void *user_data);
 // dbus_init
 // file ypbind_dbus_nm.c line 239
 static signed int dbus_init(void);
@@ -679,16 +679,16 @@ static signed int portmapper_register(void);
 extern signed int printf(const char *, ...);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 992
-extern signed int pthread_cond_broadcast(union anonymous$13 *);
+extern signed int pthread_cond_broadcast(union anonymous_13 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_init(union anonymous$13 *, const union anonymous$12 *);
+extern signed int pthread_cond_init(union anonymous_13 *, const union anonymous_12 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 988
-extern signed int pthread_cond_signal(union anonymous$13 *);
+extern signed int pthread_cond_signal(union anonymous_13 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 1000
-extern signed int pthread_cond_wait(union anonymous$13 *, union anonymous$10 *);
+extern signed int pthread_cond_wait(union anonymous_13 *, union anonymous_10 *);
 // pthread_create
 // file /usr/include/pthread.h line 244
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -697,34 +697,34 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern void pthread_exit(void *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_init(union anonymous$10 *, const union anonymous$12 *);
+extern signed int pthread_mutex_init(union anonymous_10 *, const union anonymous_12 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 773
-extern signed int pthread_mutex_lock(union anonymous$10 *);
+extern signed int pthread_mutex_lock(union anonymous_10 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 769
-extern signed int pthread_mutex_trylock(union anonymous$10 *);
+extern signed int pthread_mutex_trylock(union anonymous_10 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 784
-extern signed int pthread_mutex_unlock(union anonymous$10 *);
+extern signed int pthread_mutex_unlock(union anonymous_10 *);
 // pthread_rdwr_init_np
 // file pthread_np.c line 25
-signed int pthread_rdwr_init_np(struct anonymous$14 *rdwrp);
+signed int pthread_rdwr_init_np(struct anonymous_14 *rdwrp);
 // pthread_rdwr_rlock_np
 // file pthread_np.h line 39
-signed int pthread_rdwr_rlock_np(struct anonymous$14 *rdwrp);
+signed int pthread_rdwr_rlock_np(struct anonymous_14 *rdwrp);
 // pthread_rdwr_runlock_np
 // file pthread_np.h line 41
-signed int pthread_rdwr_runlock_np(struct anonymous$14 *rdwrp);
+signed int pthread_rdwr_runlock_np(struct anonymous_14 *rdwrp);
 // pthread_rdwr_wlock_np
 // file pthread_np.h line 40
-signed int pthread_rdwr_wlock_np(struct anonymous$14 *rdwrp);
+signed int pthread_rdwr_wlock_np(struct anonymous_14 *rdwrp);
 // pthread_rdwr_wunlock_np
 // file pthread_np.h line 42
-signed int pthread_rdwr_wunlock_np(struct anonymous$14 *rdwrp);
+signed int pthread_rdwr_wunlock_np(struct anonymous_14 *rdwrp);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$11 *, struct anonymous$11 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_11 *, struct anonymous_11 *);
 // query_slp
 // file local.h line 19
 extern signed int query_slp(const char *domain);
@@ -748,13 +748,13 @@ extern signed int setsid(void);
 static void * sig_handler(void *v_param);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$11 *, signed int);
+extern signed int sigaddset(struct anonymous_11 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$11 *);
+extern signed int sigemptyset(struct anonymous_11 *);
 // sigwait
 // file /usr/include/signal.h line 270
-extern signed int sigwait(const struct anonymous$11 *, signed int *);
+extern signed int sigwait(const struct anonymous_11 *, signed int *);
 // sleep
 // file /usr/include/unistd.h line 444
 extern unsigned int sleep(unsigned int);
@@ -950,41 +950,41 @@ extern signed int ypbindproc_setdom_2_svc(struct ypbind_setdom *argp, void *resu
 // ypbindprog_1
 // file local.h line 34
 extern void ypbindprog_1(struct svc_req *rqstp, struct SVCXPRT *transp);
-// ypbindprog_1::1::local$object
+// ypbindprog_1::1::local_object
 //
-signed int local$object(char *, void *, struct svc_req *);
-// ypbindprog_1::1::xdr_argument$object
+signed int local_object(char *, void *, struct svc_req *);
+// ypbindprog_1::1::xdr_argument_object
 //
-signed int xdr_argument$object(struct XDR *, void *, ...);
-// ypbindprog_1::1::xdr_result$object
+signed int xdr_argument_object(struct XDR *, void *, ...);
+// ypbindprog_1::1::xdr_result_object
 //
-signed int xdr_result$object(struct XDR *, void *, ...);
+signed int xdr_result_object(struct XDR *, void *, ...);
 // ypbindprog_1_freeresult
 // file ypbind.h line 105
 extern signed int ypbindprog_1_freeresult(struct SVCXPRT *transp, signed int (*xdr_result)(struct XDR *, void *, ...), char *result);
-// ypbindprog_1_freeresult::xdr_result$object
+// ypbindprog_1_freeresult::xdr_result_object
 //
-signed int xdr_result$object(struct XDR *, void *, ...);
+signed int xdr_result_object(struct XDR *, void *, ...);
 // ypbindprog_2
 // file local.h line 35
 extern void ypbindprog_2(struct svc_req *rqstp, struct SVCXPRT *transp);
-// ypbindprog_2::1::local$object
+// ypbindprog_2::1::local_object
 //
-signed int local$object(char *, void *, struct svc_req *);
-// ypbindprog_2::1::xdr_argument$object
+signed int local_object(char *, void *, struct svc_req *);
+// ypbindprog_2::1::xdr_argument_object
 //
-signed int xdr_argument$object(struct XDR *, void *, ...);
-// ypbindprog_2::1::xdr_result$object
+signed int xdr_argument_object(struct XDR *, void *, ...);
+// ypbindprog_2::1::xdr_result_object
 //
-signed int xdr_result$object(struct XDR *, void *, ...);
+signed int xdr_result_object(struct XDR *, void *, ...);
 // ypbindprog_2_freeresult
 // file ypbind.h line 114
 extern signed int ypbindprog_2_freeresult(struct SVCXPRT *transp, signed int (*xdr_result)(struct XDR *, void *, ...), char *result);
-// ypbindprog_2_freeresult::xdr_result$object
+// ypbindprog_2_freeresult::xdr_result_object
 //
-signed int xdr_result$object(struct XDR *, void *, ...);
+signed int xdr_result_object(struct XDR *, void *, ...);
 
-struct anonymous$6
+struct anonymous_6
 {
   // where
   char *where;
@@ -992,13 +992,13 @@ struct anonymous$6
   signed int (*proc)(struct XDR *, void *, ...);
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // __lock
   signed int __lock;
@@ -1046,7 +1046,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1056,17 +1056,17 @@ union anonymous$10
   signed long int __align;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // __data
-  struct anonymous$25 __data;
+  struct anonymous_25 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // readers
   signed int readers;
@@ -1075,12 +1075,12 @@ struct anonymous$14
   // wishwrite
   signed int wishwrite;
   // mutex
-  union anonymous$10 mutex;
+  union anonymous_10 mutex;
   // lock_free
-  union anonymous$13 lock_free;
+  union anonymous_13 lock_free;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // s1
   signed long int s1;
@@ -1088,7 +1088,7 @@ struct anonymous$23
   signed long int s2;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // high
   unsigned int high;
@@ -1096,7 +1096,7 @@ struct anonymous$16
   unsigned int low;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // low
   unsigned long int low;
@@ -1104,7 +1104,7 @@ struct anonymous$5
   unsigned long int high;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -1114,7 +1114,7 @@ union anonymous$4
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$12
+union anonymous_12
 {
   // __size
   char __size[4l];
@@ -1122,30 +1122,30 @@ union anonymous$12
   signed int __align;
 };
 
-union anonymous$20
+union anonymous_20
 {
   // RE_errno
   signed int RE_errno;
   // RE_why
   enum auth_stat RE_why;
   // RE_vers
-  struct anonymous$5 RE_vers;
+  struct anonymous_5 RE_vers;
   // RE_lb
-  struct anonymous$23 RE_lb;
+  struct anonymous_23 RE_lb;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // AR_versions
-  struct anonymous$5 AR_versions;
+  struct anonymous_5 AR_versions;
   // AR_results
-  struct anonymous$6 AR_results;
+  struct anonymous_6 AR_results;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // RJ_versions
-  struct anonymous$5 RJ_versions;
+  struct anonymous_5 RJ_versions;
   // RJ_why
   enum auth_stat RJ_why;
 };
@@ -1167,7 +1167,7 @@ struct accepted_reply
   // ar_stat
   enum accept_stat ar_stat;
   // ru
-  union anonymous$7 ru;
+  union anonymous_7 ru;
 };
 
 struct rejected_reply
@@ -1175,10 +1175,10 @@ struct rejected_reply
   // rj_stat
   enum reject_stat rj_stat;
   // ru
-  union anonymous$8 ru;
+  union anonymous_8 ru;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // RP_ar
   struct accepted_reply RP_ar;
@@ -1207,7 +1207,7 @@ struct reply_body
   // rp_stat
   enum reply_stat rp_stat;
   // ru
-  union anonymous$9 ru;
+  union anonymous_9 ru;
 };
 
 union anonymous
@@ -1226,7 +1226,7 @@ struct ypbind_binding
   char ypbind_binding_port[2l];
 };
 
-union anonymous$24
+union anonymous_24
 {
   // ypbind_error
   unsigned int ypbind_error;
@@ -1234,7 +1234,7 @@ union anonymous$24
   struct ypbind_binding ypbind_bindinfo;
 };
 
-union anonymous$17
+union anonymous_17
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1264,7 +1264,7 @@ union anonymous$17
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$19
+union anonymous_19
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1297,7 +1297,7 @@ union anonymous$19
 union des_block
 {
   // key
-  struct anonymous$16 key;
+  struct anonymous_16 key;
   // c
   char c[8l];
 };
@@ -1553,7 +1553,7 @@ struct rpc_err
   // re_status
   enum clnt_stat re_status;
   // ru
-  union anonymous$20 ru;
+  union anonymous_20 ru;
 };
 
 struct cu_data
@@ -1641,7 +1641,7 @@ struct hostent
 struct in6_addr
 {
   // __in6_u
-  union anonymous$4 __in6_u;
+  union anonymous_4 __in6_u;
 };
 
 struct iovec
@@ -1833,7 +1833,7 @@ struct ypbind_resp
   // ypbind_status
   enum ypbind_resptype ypbind_status;
   // ypbind_resp_u
-  union anonymous$24 ypbind_resp_u;
+  union anonymous_24 ypbind_resp_u;
 };
 
 struct ypbind_setdom
@@ -1852,13 +1852,13 @@ struct ypbind_setdom
 signed int broken_server = 0;
 // cond_dbus
 // file ypbind_dbus_nm.c line 48
-union anonymous$13 cond_dbus = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_13 cond_dbus = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // cond_pid
 // file ypbind-mt.c line 80
-static union anonymous$13 cond_pid = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_13 cond_pid = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -1879,7 +1879,7 @@ char *domain = (char *)(void *)0;
 static struct binding *domainlist = (struct binding *)(void *)0;
 // domainlock
 // file serv_list.c line 86
-static struct anonymous$14 domainlock = { .readers=0, .writers=0, .wishwrite=0, .mutex={ .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static struct anonymous_14 domainlock = { .readers=0, .writers=0, .wishwrite=0, .mutex={ .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } }, .lock_free={ .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
@@ -1902,12 +1902,12 @@ static signed int lock_fd;
 static signed int max_domains = 0;
 // mutex_dbus
 // file ypbind_dbus_nm.c line 47
-union anonymous$10 mutex_dbus = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_10 mutex_dbus = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // mutex_pid
 // file ypbind-mt.c line 79
-static union anonymous$10 mutex_pid = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_10 mutex_pid = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // pid_is_written
@@ -1930,7 +1930,7 @@ static signed int portmapper_udp_port;
 extern struct rpc_createerr rpc_createerr;
 // search_lock
 // file serv_list.c line 87
-static union anonymous$10 search_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_10 search_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // stderr
@@ -1954,7 +1954,7 @@ signed int ypset = 0;
 
 // MySLPSrvURLCallback
 // file ypbind_slp.c line 48
-static enum anonymous$15 MySLPSrvURLCallback(void *hslp, const char *srvurl, unsigned short int lifetime, signed int errcode, void *cookie)
+static enum anonymous_15 MySLPSrvURLCallback(void *hslp, const char *srvurl, unsigned short int lifetime, signed int errcode, void *cookie)
 {
   struct slpcb *cb = (struct slpcb *)cookie;
   if(errcode == 0)
@@ -1962,11 +1962,11 @@ static enum anonymous$15 MySLPSrvURLCallback(void *hslp, const char *srvurl, uns
     if(!(cb->srvurl == ((char *)NULL)))
     {
       struct slpcb *cbt;
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct slpcb) /*24ul*/ );
-      cbt = (struct slpcb *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct slpcb) /*24ul*/ );
+      cbt = (struct slpcb *)return_value_malloc_1;
       if(cbt == ((struct slpcb *)NULL))
-        return (enum anonymous$15)SLP_FALSE;
+        return (enum anonymous_15)SLP_FALSE;
 
       cbt->srvurl = cb->srvurl;
       cbt->err = cb->err;
@@ -1976,14 +1976,14 @@ static enum anonymous$15 MySLPSrvURLCallback(void *hslp, const char *srvurl, uns
 
     cb->srvurl=strdup(srvurl);
     cb->err = 0;
-    return (enum anonymous$15)SLP_TRUE;
+    return (enum anonymous_15)SLP_TRUE;
   }
 
   else
     if(!(errcode == 1))
       cb->err = errcode;
 
-  return (enum anonymous$15)SLP_FALSE;
+  return (enum anonymous_15)SLP_FALSE;
 }
 
 // __pmap_getport
@@ -2033,38 +2033,38 @@ extern signed int add_server(const char *domain, const char *host, signed int ch
   signed int res = 0;
   if(domain == ((const char *)NULL))
   {
-    char *return_value_gettext$1;
-    return_value_gettext$1=gettext("internal error: add_server called with NULL domain.");
-    log_msg(3, return_value_gettext$1);
+    char *return_value_gettext_1;
+    return_value_gettext_1=gettext("internal error: add_server called with NULL domain.");
+    log_msg(3, return_value_gettext_1);
     abort();
   }
 
   pthread_rdwr_wlock_np(&domainlock);
   get_entry(domain, &entry);
-  char *return_value_gettext$2;
-  char *return_value_gettext$3;
-  char *return_value_gettext$4;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$8;
-  signed int *return_value___errno_location$7;
-  char *return_value_gettext$11;
-  char *return_value_gettext$12;
-  char *return_value_gettext$13;
-  char *return_value_gettext$14;
-  char *return_value_gettext$15;
-  char *return_value_gettext$16;
-  char *return_value_gettext$17;
-  char *return_value_gettext$18;
-  char *return_value_gettext$19;
-  char *return_value_gettext$20;
+  char *return_value_gettext_2;
+  char *return_value_gettext_3;
+  char *return_value_gettext_4;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_8;
+  signed int *return_value___errno_location_7;
+  char *return_value_gettext_11;
+  char *return_value_gettext_12;
+  char *return_value_gettext_13;
+  char *return_value_gettext_14;
+  char *return_value_gettext_15;
+  char *return_value_gettext_16;
+  char *return_value_gettext_17;
+  char *return_value_gettext_18;
+  char *return_value_gettext_19;
+  char *return_value_gettext_20;
   if(host == ((const char *)NULL))
   {
     entry->use_broadcast = 1;
     res = 1;
     if(!(debug_flag == 0))
     {
-      return_value_gettext$2=gettext("add_server() domain: %s, broadcast");
-      log_msg(7, return_value_gettext$2, domain);
+      return_value_gettext_2=gettext("add_server() domain: %s, broadcast");
+      log_msg(7, return_value_gettext_2, domain);
     }
 
   }
@@ -2086,8 +2086,8 @@ extern signed int add_server(const char *domain, const char *host, signed int ch
     {
       if(!(debug_flag == 0))
       {
-        return_value_gettext$3=gettext("add_server() domain: %s, host: %s, NO SLOT FREE!");
-        log_msg(7, return_value_gettext$3, domain, host);
+        return_value_gettext_3=gettext("add_server() domain: %s, host: %s, NO SLOT FREE!");
+        log_msg(7, return_value_gettext_3, domain, host);
       }
 
       goto exit;
@@ -2095,14 +2095,14 @@ extern signed int add_server(const char *domain, const char *host, signed int ch
 
     if(!(debug_flag == 0))
     {
-      return_value_gettext$4=gettext("add_server() domain: %s, host: %s, slot: %d");
-      log_msg(7, return_value_gettext$4, domain, host, active);
+      return_value_gettext_4=gettext("add_server() domain: %s, host: %s, slot: %d");
+      log_msg(7, return_value_gettext_4, domain, host, active);
     }
 
     hstbuflen = (unsigned long int)1024;
-    void *return_value___builtin_alloca$5;
-    return_value___builtin_alloca$5=__builtin_alloca(hstbuflen);
-    hsttmpbuf = (char *)return_value___builtin_alloca$5;
+    void *return_value___builtin_alloca_5;
+    return_value___builtin_alloca_5=__builtin_alloca(hstbuflen);
+    hsttmpbuf = (char *)return_value___builtin_alloca_5;
     do
     {
       error=gethostbyname_r(host, &hostbuf, hsttmpbuf, hstbuflen, &hent, &herr);
@@ -2110,26 +2110,26 @@ extern signed int add_server(const char *domain, const char *host, signed int ch
         break;
 
       if(herr == -1)
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_9 = (_Bool)1;
 
       else
       {
         if(error == -1)
         {
-          return_value___errno_location$7=__errno_location();
-          tmp_if_expr$8 = *return_value___errno_location$7 == 34 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_7=__errno_location();
+          tmp_if_expr_8 = *return_value___errno_location_7 == 34 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        tmp_if_expr$9 = tmp_if_expr$8 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = (_Bool)0;
+        tmp_if_expr_9 = tmp_if_expr_8 ? (_Bool)1 : (_Bool)0;
       }
-      if(error == 34 || tmp_if_expr$9)
+      if(error == 34 || tmp_if_expr_9)
       {
         hstbuflen = hstbuflen * (unsigned long int)2;
-        void *return_value___builtin_alloca$6;
-        return_value___builtin_alloca$6=__builtin_alloca(hstbuflen);
-        hsttmpbuf = (char *)return_value___builtin_alloca$6;
+        void *return_value___builtin_alloca_6;
+        return_value___builtin_alloca_6=__builtin_alloca(hstbuflen);
+        hsttmpbuf = (char *)return_value___builtin_alloca_6;
       }
 
       else
@@ -2138,22 +2138,22 @@ extern signed int add_server(const char *domain, const char *host, signed int ch
     while((_Bool)1);
     if(hent == ((struct hostent *)NULL))
     {
-      signed int *return_value___h_errno_location$10;
-      return_value___h_errno_location$10=__h_errno_location();
-      switch(*return_value___h_errno_location$10)
+      signed int *return_value___h_errno_location_10;
+      return_value___h_errno_location_10=__h_errno_location();
+      switch(*return_value___h_errno_location_10)
       {
         case 1:
         {
           if(!(check_syntax == 0))
           {
-            return_value_gettext$11=gettext("Unknown host:");
-            fprintf(stderr, "%s %s\n", return_value_gettext$11, host);
+            return_value_gettext_11=gettext("Unknown host:");
+            fprintf(stderr, "%s %s\n", return_value_gettext_11, host);
           }
 
           else
           {
-            return_value_gettext$12=gettext("Unknown host:");
-            log_msg(3, "%s %s", return_value_gettext$12, host);
+            return_value_gettext_12=gettext("Unknown host:");
+            log_msg(3, "%s %s", return_value_gettext_12, host);
           }
           break;
         }
@@ -2161,14 +2161,14 @@ extern signed int add_server(const char *domain, const char *host, signed int ch
         {
           if(!(check_syntax == 0))
           {
-            return_value_gettext$13=gettext("Host name lookup failure");
-            fprintf(stderr, "%s\n", return_value_gettext$13);
+            return_value_gettext_13=gettext("Host name lookup failure");
+            fprintf(stderr, "%s\n", return_value_gettext_13);
           }
 
           else
           {
-            return_value_gettext$14=gettext("Host name lookup failure");
-            log_msg(3, return_value_gettext$14);
+            return_value_gettext_14=gettext("Host name lookup failure");
+            log_msg(3, return_value_gettext_14);
           }
           break;
         }
@@ -2176,14 +2176,14 @@ extern signed int add_server(const char *domain, const char *host, signed int ch
         {
           if(!(check_syntax == 0))
           {
-            return_value_gettext$15=gettext("No address associated with name:");
-            fprintf(stderr, "%s %s\n", return_value_gettext$15, host);
+            return_value_gettext_15=gettext("No address associated with name:");
+            fprintf(stderr, "%s %s\n", return_value_gettext_15, host);
           }
 
           else
           {
-            return_value_gettext$16=gettext("No address associated with name:");
-            log_msg(3, "%s %s", return_value_gettext$16, host);
+            return_value_gettext_16=gettext("No address associated with name:");
+            log_msg(3, "%s %s", return_value_gettext_16, host);
           }
           break;
         }
@@ -2191,28 +2191,28 @@ extern signed int add_server(const char *domain, const char *host, signed int ch
         {
           if(!(check_syntax == 0))
           {
-            return_value_gettext$17=gettext("Unknown server error");
-            fprintf(stderr, "%s\n", return_value_gettext$17);
+            return_value_gettext_17=gettext("Unknown server error");
+            fprintf(stderr, "%s\n", return_value_gettext_17);
           }
 
           else
           {
-            return_value_gettext$18=gettext("Unknown server error");
-            log_msg(3, return_value_gettext$18);
+            return_value_gettext_18=gettext("Unknown server error");
+            log_msg(3, return_value_gettext_18);
           }
           break;
         }
         default:
           if(!(check_syntax == 0))
           {
-            return_value_gettext$19=gettext("gethostbyname: Unknown error");
-            fprintf(stderr, "%s\n", return_value_gettext$19);
+            return_value_gettext_19=gettext("gethostbyname: Unknown error");
+            fprintf(stderr, "%s\n", return_value_gettext_19);
           }
 
           else
           {
-            return_value_gettext$20=gettext("gethostbyname: Unknown error");
-            log_msg(3, return_value_gettext$20);
+            return_value_gettext_20=gettext("gethostbyname: Unknown error");
+            log_msg(3, return_value_gettext_20);
           }
       }
       goto exit;
@@ -2243,12 +2243,12 @@ extern void change_binding(const char *domain, struct ypbind_binding *binding)
   i = 0;
   for( ; !(i >= max_domains); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp((domainlist + (signed long int)i)->domain, domain);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp((domainlist + (signed long int)i)->domain, domain);
+    if(return_value_strcmp_1 == 0)
     {
       struct sockaddr_in addr;
-      struct timeval change_binding$$1$$1$$1$$timeout;
+      struct timeval change_binding__1__1__1__timeout;
       signed int sock;
       pthread_rdwr_runlock_np(&domainlock);
       pthread_rdwr_wlock_np(&domainlock);
@@ -2260,13 +2260,13 @@ extern void change_binding(const char *domain, struct ypbind_binding *binding)
       memcpy((void *)&(domainlist + (signed long int)i)->ypset.port, (const void *)&binding->ypbind_binding_port, sizeof(unsigned short int) /*2ul*/ );
       (domainlist + (signed long int)i)->ypset.family = (unsigned short int)2;
       sock = -1;
-      change_binding$$1$$1$$1$$timeout.tv_sec = (signed long int)1;
-      change_binding$$1$$1$$1$$timeout.tv_usec = (signed long int)0;
+      change_binding__1__1__1__timeout.tv_sec = (signed long int)1;
+      change_binding__1__1__1__timeout.tv_usec = (signed long int)0;
       memset((void *)&addr, 0, sizeof(struct sockaddr_in) /*16ul*/ );
       memcpy((void *)&addr.sin_addr, (const void *)&(domainlist + (signed long int)i)->ypset.addr, sizeof(struct in_addr) /*4ul*/ );
       memcpy((void *)&addr.sin_port, (const void *)&(domainlist + (signed long int)i)->ypset.port, sizeof(unsigned short int) /*2ul*/ );
       addr.sin_family = (domainlist + (signed long int)i)->ypset.family;
-      (domainlist + (signed long int)i)->client_handle=clntudp_create(&addr, (unsigned long int)100004, (unsigned long int)2, change_binding$$1$$1$$1$$timeout, &sock);
+      (domainlist + (signed long int)i)->client_handle=clntudp_create(&addr, (unsigned long int)100004, (unsigned long int)2, change_binding__1__1__1__timeout, &sock);
       if((domainlist + (signed long int)i)->client_handle == ((struct CLIENT *)NULL))
       {
         (domainlist + (signed long int)i)->active = -1;
@@ -2292,9 +2292,9 @@ __CPROVER_DUMP_L6:
 // file ypbind_dbus_nm.c line 220
 static signed int check_for_nm(struct DBusConnection *connection)
 {
-  unsigned int return_value_dbus_bus_name_has_owner$1;
-  return_value_dbus_bus_name_has_owner$1=dbus_bus_name_has_owner(connection, "org.freedesktop.NetworkManager", (struct DBusError *)(void *)0);
-  if(!(return_value_dbus_bus_name_has_owner$1 == 0u))
+  unsigned int return_value_dbus_bus_name_has_owner_1;
+  return_value_dbus_bus_name_has_owner_1=dbus_bus_name_has_owner(connection, "org.freedesktop.NetworkManager", (struct DBusError *)(void *)0);
+  if(!(return_value_dbus_bus_name_has_owner_1 == 0u))
   {
     if(!(debug_flag == 0))
       log_msg(7, "NetworkManager is running.\n");
@@ -2333,9 +2333,9 @@ static signed int check_online(struct DBusConnection *connection)
 
     else
     {
-      unsigned int return_value_dbus_message_get_args$1;
-      return_value_dbus_message_get_args$1=dbus_message_get_args(reply, (struct DBusError *)(void *)0, (signed int)117, &state, (signed int)0);
-      if(return_value_dbus_message_get_args$1 == 0u)
+      unsigned int return_value_dbus_message_get_args_1;
+      return_value_dbus_message_get_args_1=dbus_message_get_args(reply, (struct DBusError *)(void *)0, (signed int)117, &state, (signed int)0);
+      if(return_value_dbus_message_get_args_1 == 0u)
         return -1;
 
       else
@@ -2396,24 +2396,24 @@ static void create_pidfile(void)
   char *ptr;
   signed int flags;
   lock_fd=open("/var/run/ypbind.pid", 0100 | 02, 0400 | 0200 | 0400 >> 3 | (0400 >> 3) >> 3);
-  char *return_value_gettext$1;
+  char *return_value_gettext_1;
   if(!(lock_fd >= 0))
   {
-    return_value_gettext$1=gettext("cannot create pidfile %s");
-    log_msg(3, return_value_gettext$1, (const void *)"/var/run/ypbind.pid");
+    return_value_gettext_1=gettext("cannot create pidfile %s");
+    log_msg(3, return_value_gettext_1, (const void *)"/var/run/ypbind.pid");
   }
 
   flags=fcntl(lock_fd, 1, 0);
-  char *return_value_gettext$9;
+  char *return_value_gettext_9;
   if(flags == -1)
     close(lock_fd);
 
   else
   {
     flags = flags | 1;
-    signed int return_value_fcntl$2;
-    return_value_fcntl$2=fcntl(lock_fd, 2, flags);
-    if(!(return_value_fcntl$2 >= 0))
+    signed int return_value_fcntl_2;
+    return_value_fcntl_2=fcntl(lock_fd, 2, flags);
+    if(!(return_value_fcntl_2 >= 0))
       close(lock_fd);
 
     else
@@ -2422,21 +2422,21 @@ static void create_pidfile(void)
       lock.l_start = (signed long int)0;
       lock.l_whence = (signed short int)0;
       lock.l_len = (signed long int)0;
-      signed int return_value_fcntl$7;
-      return_value_fcntl$7=fcntl(lock_fd, 5, &lock);
-      if(!(return_value_fcntl$7 >= 0))
+      signed int return_value_fcntl_7;
+      return_value_fcntl_7=fcntl(lock_fd, 5, &lock);
+      if(!(return_value_fcntl_7 >= 0))
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        if(!(*return_value___errno_location$6 == 37))
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        if(!(*return_value___errno_location_6 == 37))
         {
-          char *return_value_gettext$3;
-          return_value_gettext$3=gettext("fcntl error: %s");
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          char *return_value_strerror$5;
-          return_value_strerror$5=strerror(*return_value___errno_location$4);
-          log_msg(3, return_value_gettext$3, return_value_strerror$5);
+          char *return_value_gettext_3;
+          return_value_gettext_3=gettext("fcntl error: %s");
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          char *return_value_strerror_5;
+          return_value_strerror_5=strerror(*return_value___errno_location_4);
+          log_msg(3, return_value_gettext_3, return_value_strerror_5);
         }
 
         pid = 0;
@@ -2450,9 +2450,9 @@ static void create_pidfile(void)
           pid = lock.l_pid;
       if(!(pid == 0))
       {
-        char *return_value_gettext$8;
-        return_value_gettext$8=gettext("ypbind-mt already running (pid %d) - exiting");
-        log_msg(3, return_value_gettext$8, pid);
+        char *return_value_gettext_8;
+        return_value_gettext_8=gettext("ypbind-mt already running (pid %d) - exiting");
+        log_msg(3, return_value_gettext_8, pid);
         exit(1);
       }
 
@@ -2460,26 +2460,26 @@ static void create_pidfile(void)
       lock.l_start = (signed long int)0;
       lock.l_whence = (signed short int)0;
       lock.l_len = (signed long int)0;
-      signed int return_value_fcntl$10;
-      return_value_fcntl$10=fcntl(lock_fd, 6, &lock);
-      if(!(return_value_fcntl$10 == 0))
+      signed int return_value_fcntl_10;
+      return_value_fcntl_10=fcntl(lock_fd, 6, &lock);
+      if(!(return_value_fcntl_10 == 0))
       {
-        return_value_gettext$9=gettext("cannot lock pidfile");
-        log_msg(3, return_value_gettext$9);
+        return_value_gettext_9=gettext("cannot lock pidfile");
+        log_msg(3, return_value_gettext_9);
       }
 
-      signed int return_value_getpid$11;
-      return_value_getpid$11=getpid();
-      sprintf(pbuf, "%ld\n", (signed long int)return_value_getpid$11);
-      unsigned long int return_value_strlen$12;
-      return_value_strlen$12=strlen(pbuf);
-      left = (signed int)return_value_strlen$12;
+      signed int return_value_getpid_11;
+      return_value_getpid_11=getpid();
+      sprintf(pbuf, "%ld\n", (signed long int)return_value_getpid_11);
+      unsigned long int return_value_strlen_12;
+      return_value_strlen_12=strlen(pbuf);
+      left = (signed int)return_value_strlen_12;
       ptr = pbuf;
       while(left >= 1)
       {
-        signed long int return_value_write$13;
-        return_value_write$13=write(lock_fd, (const void *)ptr, (unsigned long int)left);
-        written = (signed int)return_value_write$13;
+        signed long int return_value_write_13;
+        return_value_write_13=write(lock_fd, (const void *)ptr, (unsigned long int)left);
+        written = (signed int)return_value_write_13;
         if(!(written >= 1))
           goto __CPROVER_DUMP_L13;
 
@@ -2496,36 +2496,36 @@ __CPROVER_DUMP_L13:
 
 // dbus_filter
 // file ypbind_dbus_nm.c line 108
-static enum anonymous$18 dbus_filter(struct DBusConnection *connection, struct DBusMessage *message, void *user_data)
+static enum anonymous_18 dbus_filter(struct DBusConnection *connection, struct DBusMessage *message, void *user_data)
 {
-  enum anonymous$18 handled = (enum anonymous$18)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
-  unsigned int return_value_dbus_message_is_signal$14;
-  return_value_dbus_message_is_signal$14=dbus_message_is_signal(message, "org.freedesktop.DBus.Local", "Disconnected");
-  unsigned int return_value_dbus_message_is_signal$13;
-  unsigned int return_value_dbus_message_is_signal$12;
-  unsigned int return_value_dbus_message_is_signal$11;
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_strlen$2;
-  _Bool tmp_if_expr$5;
-  unsigned long int return_value_strlen$4;
-  if(!(return_value_dbus_message_is_signal$14 == 0u))
+  enum anonymous_18 handled = (enum anonymous_18)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
+  unsigned int return_value_dbus_message_is_signal_14;
+  return_value_dbus_message_is_signal_14=dbus_message_is_signal(message, "org.freedesktop.DBus.Local", "Disconnected");
+  unsigned int return_value_dbus_message_is_signal_13;
+  unsigned int return_value_dbus_message_is_signal_12;
+  unsigned int return_value_dbus_message_is_signal_11;
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_strlen_2;
+  _Bool tmp_if_expr_5;
+  unsigned long int return_value_strlen_4;
+  if(!(return_value_dbus_message_is_signal_14 == 0u))
   {
     log_msg(6, "Lost connection to D-Bus\n");
     dbus_connection_unref(connection);
     connection = (struct DBusConnection *)(void *)0;
     g_timeout_add((unsigned int)1000, dbus_reconnect, (void *)0);
-    handled = (enum anonymous$18)DBUS_HANDLER_RESULT_HANDLED;
+    handled = (enum anonymous_18)DBUS_HANDLER_RESULT_HANDLED;
   }
 
   else
   {
-    return_value_dbus_message_is_signal$13=dbus_message_is_signal(message, "org.freedesktop.NetworkManager", "StateChange");
-    if(!(return_value_dbus_message_is_signal$13 == 0u))
+    return_value_dbus_message_is_signal_13=dbus_message_is_signal(message, "org.freedesktop.NetworkManager", "StateChange");
+    if(!(return_value_dbus_message_is_signal_13 == 0u))
     {
-      enum anonymous$21 state = (enum anonymous$21)NM_STATE_UNKNOWN;
-      unsigned int return_value_dbus_message_get_args$1;
-      return_value_dbus_message_get_args$1=dbus_message_get_args(message, (struct DBusError *)(void *)0, (signed int)117, &state, (signed int)0);
-      if(!(return_value_dbus_message_get_args$1 == 0u))
+      enum anonymous_21 state = (enum anonymous_21)NM_STATE_UNKNOWN;
+      unsigned int return_value_dbus_message_get_args_1;
+      return_value_dbus_message_get_args_1=dbus_message_get_args(message, (struct DBusError *)(void *)0, (signed int)117, &state, (signed int)0);
+      if(!(return_value_dbus_message_get_args_1 == 0u))
       {
         if((signed int)state == NM_STATE_CONNECTED_GLOBAL)
           go_online();
@@ -2536,56 +2536,56 @@ static enum anonymous$18 dbus_filter(struct DBusConnection *connection, struct D
 
       }
 
-      handled = (enum anonymous$18)DBUS_HANDLER_RESULT_HANDLED;
+      handled = (enum anonymous_18)DBUS_HANDLER_RESULT_HANDLED;
     }
 
     else
     {
-      return_value_dbus_message_is_signal$12=dbus_message_is_signal(message, "org.freedesktop.NetworkManager", "DeviceNoLongerActive");
-      if(!(return_value_dbus_message_is_signal$12 == 0u))
+      return_value_dbus_message_is_signal_12=dbus_message_is_signal(message, "org.freedesktop.NetworkManager", "DeviceNoLongerActive");
+      if(!(return_value_dbus_message_is_signal_12 == 0u))
       {
         go_offline();
-        handled = (enum anonymous$18)DBUS_HANDLER_RESULT_HANDLED;
+        handled = (enum anonymous_18)DBUS_HANDLER_RESULT_HANDLED;
       }
 
       else
       {
-        return_value_dbus_message_is_signal$11=dbus_message_is_signal(message, "org.freedesktop.DBus", "NameOwnerChanged");
-        if(!(return_value_dbus_message_is_signal$11 == 0u))
+        return_value_dbus_message_is_signal_11=dbus_message_is_signal(message, "org.freedesktop.DBus", "NameOwnerChanged");
+        if(!(return_value_dbus_message_is_signal_11 == 0u))
         {
           if(!(debug_flag == 0))
           {
             char *service = (char *)(void *)0;
             char *old_owner = (char *)(void *)0;
             char *new_owner = (char *)(void *)0;
-            unsigned int return_value_dbus_message_get_args$7;
-            return_value_dbus_message_get_args$7=dbus_message_get_args(message, (struct DBusError *)(void *)0, (signed int)115, &service, (signed int)115, &old_owner, (signed int)115, &new_owner, (signed int)0);
-            if(!(return_value_dbus_message_get_args$7 == 0u))
+            unsigned int return_value_dbus_message_get_args_7;
+            return_value_dbus_message_get_args_7=dbus_message_get_args(message, (struct DBusError *)(void *)0, (signed int)115, &service, (signed int)115, &old_owner, (signed int)115, &new_owner, (signed int)0);
+            if(!(return_value_dbus_message_get_args_7 == 0u))
             {
-              signed int return_value_strcmp$6;
-              return_value_strcmp$6=strcmp(service, "org.freedesktop.NetworkManager");
-              if(return_value_strcmp$6 == 0)
+              signed int return_value_strcmp_6;
+              return_value_strcmp_6=strcmp(service, "org.freedesktop.NetworkManager");
+              if(return_value_strcmp_6 == 0)
               {
                 signed int old_owner_good;
                 if(!(old_owner == ((char *)NULL)))
                 {
-                  return_value_strlen$2=strlen(old_owner);
-                  tmp_if_expr$3 = return_value_strlen$2 > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+                  return_value_strlen_2=strlen(old_owner);
+                  tmp_if_expr_3 = return_value_strlen_2 > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$3 = (_Bool)0;
-                old_owner_good = (signed int)tmp_if_expr$3;
+                  tmp_if_expr_3 = (_Bool)0;
+                old_owner_good = (signed int)tmp_if_expr_3;
                 signed int new_owner_good;
                 if(!(new_owner == ((char *)NULL)))
                 {
-                  return_value_strlen$4=strlen(new_owner);
-                  tmp_if_expr$5 = return_value_strlen$4 > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+                  return_value_strlen_4=strlen(new_owner);
+                  tmp_if_expr_5 = return_value_strlen_4 > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$5 = (_Bool)0;
-                new_owner_good = (signed int)tmp_if_expr$5;
+                  tmp_if_expr_5 = (_Bool)0;
+                new_owner_good = (signed int)tmp_if_expr_5;
                 if(old_owner_good == 0 && !(new_owner_good == 0))
                   log_msg(7, "NetworkManager is on the system bus");
 
@@ -2597,7 +2597,7 @@ static enum anonymous$18 dbus_filter(struct DBusConnection *connection, struct D
 
             }
 
-            handled = (enum anonymous$18)DBUS_HANDLER_RESULT_HANDLED;
+            handled = (enum anonymous_18)DBUS_HANDLER_RESULT_HANDLED;
           }
 
         }
@@ -2605,13 +2605,13 @@ static enum anonymous$18 dbus_filter(struct DBusConnection *connection, struct D
         else
           if(!(debug_flag == 0))
           {
-            const char *return_value_dbus_message_get_interface$8;
-            return_value_dbus_message_get_interface$8=dbus_message_get_interface(message);
-            const char *return_value_dbus_message_get_path$9;
-            return_value_dbus_message_get_path$9=dbus_message_get_path(message);
-            const char *return_value_dbus_message_get_member$10;
-            return_value_dbus_message_get_member$10=dbus_message_get_member(message);
-            log_msg(7, "interface: %s, object path: %s, method: %s", return_value_dbus_message_get_interface$8, return_value_dbus_message_get_path$9, return_value_dbus_message_get_member$10);
+            const char *return_value_dbus_message_get_interface_8;
+            return_value_dbus_message_get_interface_8=dbus_message_get_interface(message);
+            const char *return_value_dbus_message_get_path_9;
+            return_value_dbus_message_get_path_9=dbus_message_get_path(message);
+            const char *return_value_dbus_message_get_member_10;
+            return_value_dbus_message_get_member_10=dbus_message_get_member(message);
+            log_msg(7, "interface: %s, object path: %s, method: %s", return_value_dbus_message_get_interface_8, return_value_dbus_message_get_path_9, return_value_dbus_message_get_member_10);
           }
 
       }
@@ -2627,21 +2627,21 @@ static signed int dbus_init(void)
   struct DBusConnection *connection = (struct DBusConnection *)(void *)0;
   struct DBusError error;
   dbus_error_init(&error);
-  connection=dbus_bus_get((enum anonymous$22)DBUS_BUS_SYSTEM, &error);
-  _Bool tmp_if_expr$2;
-  unsigned int return_value_dbus_error_is_set$1;
+  connection=dbus_bus_get((enum anonymous_22)DBUS_BUS_SYSTEM, &error);
+  _Bool tmp_if_expr_2;
+  unsigned int return_value_dbus_error_is_set_1;
   if(connection == ((struct DBusConnection *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_dbus_error_is_set$1=dbus_error_is_set(&error);
-    tmp_if_expr$2 = return_value_dbus_error_is_set$1 != 0u ? (_Bool)1 : (_Bool)0;
+    return_value_dbus_error_is_set_1=dbus_error_is_set(&error);
+    tmp_if_expr_2 = return_value_dbus_error_is_set_1 != 0u ? (_Bool)1 : (_Bool)0;
   }
-  unsigned int return_value_dbus_connection_add_filter$3;
-  unsigned int return_value_dbus_error_is_set$4;
-  unsigned int return_value_dbus_error_is_set$5;
-  if(tmp_if_expr$2)
+  unsigned int return_value_dbus_connection_add_filter_3;
+  unsigned int return_value_dbus_error_is_set_4;
+  unsigned int return_value_dbus_error_is_set_5;
+  if(tmp_if_expr_2)
   {
     log_msg(3, "Connection to D-BUS system message bus failed: %s.", error.message);
     dbus_error_free(&error);
@@ -2650,12 +2650,12 @@ static signed int dbus_init(void)
   else
   {
     dbus_connection_set_exit_on_disconnect(connection, (unsigned int)0);
-    return_value_dbus_connection_add_filter$3=dbus_connection_add_filter(connection, dbus_filter, (void *)0, (void (*)(void *))(void *)0);
-    if(!(return_value_dbus_connection_add_filter$3 == 0u))
+    return_value_dbus_connection_add_filter_3=dbus_connection_add_filter(connection, dbus_filter, (void *)0, (void (*)(void *))(void *)0);
+    if(!(return_value_dbus_connection_add_filter_3 == 0u))
     {
       dbus_bus_add_match(connection, "type='signal',interface='org.freedesktop.DBus',sender='org.freedesktop.DBus'", &error);
-      return_value_dbus_error_is_set$4=dbus_error_is_set(&error);
-      if(!(return_value_dbus_error_is_set$4 == 0u))
+      return_value_dbus_error_is_set_4=dbus_error_is_set(&error);
+      if(!(return_value_dbus_error_is_set_4 == 0u))
       {
         log_msg(3, "Error adding match, %s: %s", error.name, error.message);
         dbus_error_free(&error);
@@ -2664,8 +2664,8 @@ static signed int dbus_init(void)
       else
       {
         dbus_bus_add_match(connection, "type='signal',interface='org.freedesktop.NetworkManager',sender='org.freedesktop.NetworkManager',path='/org/freedesktop/NetworkManager'", &error);
-        return_value_dbus_error_is_set$5=dbus_error_is_set(&error);
-        if(!(return_value_dbus_error_is_set$5 == 0u))
+        return_value_dbus_error_is_set_5=dbus_error_is_set(&error);
+        if(!(return_value_dbus_error_is_set_5 == 0u))
         {
           log_msg(3, "Error adding match, %s: %s", error.name, error.message);
           dbus_error_free(&error);
@@ -2682,18 +2682,18 @@ out:
   ;
   if(!(connection == ((struct DBusConnection *)NULL)))
   {
-    signed int return_value_check_for_nm$6;
-    return_value_check_for_nm$6=check_for_nm(connection);
-    if(return_value_check_for_nm$6 == 0)
+    signed int return_value_check_for_nm_6;
+    return_value_check_for_nm_6=check_for_nm(connection);
+    if(return_value_check_for_nm_6 == 0)
     {
       dbus_connection_close(connection);
       is_online = 1;
       return 0;
     }
 
-    signed int return_value_check_online$7;
-    return_value_check_online$7=check_online(connection);
-    if(return_value_check_online$7 == 1)
+    signed int return_value_check_online_7;
+    return_value_check_online_7=check_online(connection);
+    if(return_value_check_online_7 == 1)
     {
       if(!(debug_flag == 0))
         log_msg(7, "Are already online");
@@ -2736,9 +2736,9 @@ extern void do_binding(void)
   i = 0;
   for( ; !(i >= max_domains); i = i + 1)
   {
-    signed int return_value_ping_all$1;
-    return_value_ping_all$1=ping_all(&domainlist[(signed long int)i]);
-    if(return_value_ping_all$1 == 0)
+    signed int return_value_ping_all_1;
+    return_value_ping_all_1=ping_all(&domainlist[(signed long int)i]);
+    if(return_value_ping_all_1 == 0)
     {
       if(!((domainlist + (signed long int)i)->use_broadcast == 0))
         do_broadcast(&domainlist[(signed long int)i]);
@@ -2753,30 +2753,30 @@ extern void do_binding(void)
 // file serv_list.c line 618
 static void do_broadcast(struct binding *list)
 {
-  char *do_broadcast$$1$$domain;
+  char *do_broadcast__1__domain;
   signed int out;
   enum clnt_stat status;
   pthread_rdwr_rlock_np(&domainlock);
-  char *tmp_statement_expression$1;
+  char *tmp_statement_expression_1;
   const char *__old = list->domain;
   unsigned long int __len;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(__old);
-  __len = return_value_strlen$2 + (unsigned long int)1;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(__old);
+  __len = return_value_strlen_2 + (unsigned long int)1;
   char *__new;
-  void *return_value___builtin_alloca$3;
-  return_value___builtin_alloca$3=__builtin_alloca(__len);
-  __new = (char *)return_value___builtin_alloca$3;
-  void *return_value_memcpy$4;
-  return_value_memcpy$4=memcpy((void *)__new, (const void *)__old, __len);
-  tmp_statement_expression$1 = (char *)return_value_memcpy$4;
-  do_broadcast$$1$$domain = tmp_statement_expression$1;
+  void *return_value___builtin_alloca_3;
+  return_value___builtin_alloca_3=__builtin_alloca(__len);
+  __new = (char *)return_value___builtin_alloca_3;
+  void *return_value_memcpy_4;
+  return_value_memcpy_4=memcpy((void *)__new, (const void *)__old, __len);
+  tmp_statement_expression_1 = (char *)return_value_memcpy_4;
+  do_broadcast__1__domain = tmp_statement_expression_1;
   pthread_rdwr_runlock_np(&domainlock);
-  char *return_value_gettext$5;
+  char *return_value_gettext_5;
   if(!(debug_flag == 0))
   {
-    return_value_gettext$5=gettext("do_broadcast() for domain '%s' is called");
-    log_msg(7, return_value_gettext$5, do_broadcast$$1$$domain);
+    return_value_gettext_5=gettext("do_broadcast() for domain '%s' is called");
+    log_msg(7, return_value_gettext_5, do_broadcast__1__domain);
   }
 
   pthread_rdwr_wlock_np(&domainlock);
@@ -2784,23 +2784,23 @@ static void do_broadcast(struct binding *list)
   pthread_rdwr_wunlock_np(&domainlock);
   pthread_rdwr_rlock_np(&domainlock);
   in_use = list;
-  status=clnt_broadcast((unsigned long int)100004, (unsigned long int)2, (unsigned long int)2, (signed int (*)(struct XDR *, void *, ...))ypbind_xdr_domainname, (char *)(void *)&do_broadcast$$1$$domain, (signed int (*)(struct XDR *, void *, ...))xdr_bool, (char *)(void *)&out, (signed int (*)(char *, struct sockaddr_in *))eachresult);
+  status=clnt_broadcast((unsigned long int)100004, (unsigned long int)2, (unsigned long int)2, (signed int (*)(struct XDR *, void *, ...))ypbind_xdr_domainname, (char *)(void *)&do_broadcast__1__domain, (signed int (*)(struct XDR *, void *, ...))xdr_bool, (char *)(void *)&out, (signed int (*)(char *, struct sockaddr_in *))eachresult);
   if(!((signed int)status == RPC_SUCCESS))
   {
-    remove_bindingfile(do_broadcast$$1$$domain);
-    char *return_value_clnt_sperrno$6;
-    return_value_clnt_sperrno$6=clnt_sperrno(status);
-    log_msg(3, "broadcast: %s.", return_value_clnt_sperrno$6);
+    remove_bindingfile(do_broadcast__1__domain);
+    char *return_value_clnt_sperrno_6;
+    return_value_clnt_sperrno_6=clnt_sperrno(status);
+    log_msg(3, "broadcast: %s.", return_value_clnt_sperrno_6);
   }
 
   else
     update_bindingfile(list);
   pthread_rdwr_runlock_np(&domainlock);
-  char *return_value_gettext$7;
+  char *return_value_gettext_7;
   if(!(debug_flag == 0))
   {
-    return_value_gettext$7=gettext("leave do_broadcast() for domain '%s'");
-    log_msg(7, return_value_gettext$7, do_broadcast$$1$$domain);
+    return_value_gettext_7=gettext("leave do_broadcast() for domain '%s'");
+    log_msg(7, return_value_gettext_7, do_broadcast__1__domain);
   }
 
 }
@@ -2809,15 +2809,15 @@ static void do_broadcast(struct binding *list)
 // file serv_list.c line 530
 static signed int eachresult(signed int *out, struct sockaddr_in *addr)
 {
-  struct timeval eachresult$$1$$timeout;
+  struct timeval eachresult__1__timeout;
   signed int sock;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
-  char *return_value_gettext$6;
-  char *return_value_gettext$7;
-  char *return_value_inet_ntoa$8;
-  unsigned short int return_value_ntohs$12;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
+  char *return_value_gettext_6;
+  char *return_value_gettext_7;
+  char *return_value_inet_ntoa_8;
+  unsigned short int return_value_ntohs_12;
   if(!(*out == 0))
   {
     if(!(debug_flag == 0))
@@ -2829,9 +2829,9 @@ static signed int eachresult(signed int *out, struct sockaddr_in *addr)
       signed int herr;
       signed int error;
       hstbuflen = (unsigned long int)1024;
-      void *return_value___builtin_alloca$1;
-      return_value___builtin_alloca$1=__builtin_alloca(hstbuflen);
-      hsttmpbuf = (char *)return_value___builtin_alloca$1;
+      void *return_value___builtin_alloca_1;
+      return_value___builtin_alloca_1=__builtin_alloca(hstbuflen);
+      hsttmpbuf = (char *)return_value___builtin_alloca_1;
       do
       {
         error=gethostbyaddr_r((const void *)(char *)&addr->sin_addr.s_addr, (unsigned int)sizeof(unsigned int) /*4ul*/ , 2, &hostbuf, hsttmpbuf, hstbuflen, &host, &herr);
@@ -2839,26 +2839,26 @@ static signed int eachresult(signed int *out, struct sockaddr_in *addr)
           break;
 
         if(herr == -1)
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
         {
           if(error == -1)
           {
-            return_value___errno_location$3=__errno_location();
-            tmp_if_expr$4 = *return_value___errno_location$3 == 34 ? (_Bool)1 : (_Bool)0;
+            return_value___errno_location_3=__errno_location();
+            tmp_if_expr_4 = *return_value___errno_location_3 == 34 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = (_Bool)0;
+          tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
         }
-        if(error == 34 || tmp_if_expr$5)
+        if(error == 34 || tmp_if_expr_5)
         {
           hstbuflen = hstbuflen * (unsigned long int)2;
-          void *return_value___builtin_alloca$2;
-          return_value___builtin_alloca$2=__builtin_alloca(hstbuflen);
-          hsttmpbuf = (char *)return_value___builtin_alloca$2;
+          void *return_value___builtin_alloca_2;
+          return_value___builtin_alloca_2=__builtin_alloca(hstbuflen);
+          hsttmpbuf = (char *)return_value___builtin_alloca_2;
         }
 
         else
@@ -2867,30 +2867,30 @@ static signed int eachresult(signed int *out, struct sockaddr_in *addr)
       while((_Bool)1);
       if(!(host == ((struct hostent *)NULL)))
       {
-        return_value_gettext$6=gettext("Answer for domain '%s' from server '%s'");
-        log_msg(7, return_value_gettext$6, (const void *)in_use->domain, host->h_name);
+        return_value_gettext_6=gettext("Answer for domain '%s' from server '%s'");
+        log_msg(7, return_value_gettext_6, (const void *)in_use->domain, host->h_name);
       }
 
       else
       {
-        return_value_gettext$7=gettext("Answer for domain '%s' from unknown server '%s'");
-        return_value_inet_ntoa$8=inet_ntoa(addr->sin_addr);
-        log_msg(7, return_value_gettext$7, (const void *)in_use->domain, return_value_inet_ntoa$8);
+        return_value_gettext_7=gettext("Answer for domain '%s' from unknown server '%s'");
+        return_value_inet_ntoa_8=inet_ntoa(addr->sin_addr);
+        log_msg(7, return_value_gettext_7, (const void *)in_use->domain, return_value_inet_ntoa_8);
       }
     }
 
     if(broken_server == 0)
     {
-      return_value_ntohs$12=ntohs(addr->sin_port);
-      if((signed int)return_value_ntohs$12 >= 1024)
+      return_value_ntohs_12=ntohs(addr->sin_port);
+      if((signed int)return_value_ntohs_12 >= 1024)
       {
-        char *return_value_gettext$9;
-        return_value_gettext$9=gettext("Answer for domain '%s' from '%s' on illegal port %d.");
-        char *return_value_inet_ntoa$10;
-        return_value_inet_ntoa$10=inet_ntoa(addr->sin_addr);
-        unsigned short int return_value_ntohs$11;
-        return_value_ntohs$11=ntohs(addr->sin_port);
-        log_msg(3, return_value_gettext$9, (const void *)in_use->domain, return_value_inet_ntoa$10, return_value_ntohs$11);
+        char *return_value_gettext_9;
+        return_value_gettext_9=gettext("Answer for domain '%s' from '%s' on illegal port %d.");
+        char *return_value_inet_ntoa_10;
+        return_value_inet_ntoa_10=inet_ntoa(addr->sin_addr);
+        unsigned short int return_value_ntohs_11;
+        return_value_ntohs_11=ntohs(addr->sin_port);
+        log_msg(3, return_value_gettext_9, (const void *)in_use->domain, return_value_inet_ntoa_10, return_value_ntohs_11);
         return 0;
       }
 
@@ -2899,9 +2899,9 @@ static signed int eachresult(signed int *out, struct sockaddr_in *addr)
     memcpy((void *)&in_use->server[(signed long int)0].addr, (const void *)&addr->sin_addr, sizeof(struct in_addr) /*4ul*/ );
     memcpy((void *)&in_use->server[(signed long int)0].port, (const void *)&addr->sin_port, sizeof(unsigned short int) /*2ul*/ );
     sock = -1;
-    eachresult$$1$$timeout.tv_sec = (signed long int)1;
-    eachresult$$1$$timeout.tv_usec = (signed long int)0;
-    in_use->client_handle=clntudp_create(addr, (unsigned long int)100004, (unsigned long int)2, eachresult$$1$$timeout, &sock);
+    eachresult__1__timeout.tv_sec = (signed long int)1;
+    eachresult__1__timeout.tv_usec = (signed long int)0;
+    in_use->client_handle=clntudp_create(addr, (unsigned long int)100004, (unsigned long int)2, eachresult__1__timeout, &sock);
     if(in_use->client_handle == ((struct CLIENT *)NULL))
       return 0;
 
@@ -2919,20 +2919,20 @@ extern void find_domain(const char *domain, struct ypbind_resp *result)
 {
   signed int i;
   signed int count = 0;
-  signed int return_value_strcmp$1;
-  char *return_value_inet_ntoa$2;
-  unsigned short int return_value_ntohs$3;
-  char *return_value_inet_ntoa$4;
-  unsigned short int return_value_ntohs$5;
-  signed int return_value_pthread_mutex_trylock$7;
+  signed int return_value_strcmp_1;
+  char *return_value_inet_ntoa_2;
+  unsigned short int return_value_ntohs_3;
+  char *return_value_inet_ntoa_4;
+  unsigned short int return_value_ntohs_5;
+  signed int return_value_pthread_mutex_trylock_7;
   if(!(domainlist == ((struct binding *)NULL)))
   {
     pthread_rdwr_rlock_np(&domainlock);
     i = 0;
     for( ; !(i >= max_domains); i = i + 1)
     {
-      return_value_strcmp$1=strcmp((domainlist + (signed long int)i)->domain, domain);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp((domainlist + (signed long int)i)->domain, domain);
+      if(return_value_strcmp_1 == 0)
         break;
 
     }
@@ -2954,9 +2954,9 @@ extern void find_domain(const char *domain, struct ypbind_resp *result)
           memcpy((void *)&result->ypbind_resp_u.ypbind_bindinfo.ypbind_binding_port, (const void *)&(domainlist + (signed long int)i)->server[(signed long int)(domainlist + (signed long int)i)->active].port, sizeof(unsigned short int) /*2ul*/ );
           if(!(debug_flag == 0))
           {
-            return_value_inet_ntoa$2=inet_ntoa((domainlist + (signed long int)i)->server[(signed long int)(domainlist + (signed long int)i)->active].addr);
-            return_value_ntohs$3=ntohs((domainlist + (signed long int)i)->server[(signed long int)(domainlist + (signed long int)i)->active].port);
-            log_msg(7, "YPBINDPROC_DOMAIN: server '%s', port %d", return_value_inet_ntoa$2, return_value_ntohs$3);
+            return_value_inet_ntoa_2=inet_ntoa((domainlist + (signed long int)i)->server[(signed long int)(domainlist + (signed long int)i)->active].addr);
+            return_value_ntohs_3=ntohs((domainlist + (signed long int)i)->server[(signed long int)(domainlist + (signed long int)i)->active].port);
+            log_msg(7, "YPBINDPROC_DOMAIN: server '%s', port %d", return_value_inet_ntoa_2, return_value_ntohs_3);
           }
 
           break;
@@ -2969,9 +2969,9 @@ extern void find_domain(const char *domain, struct ypbind_resp *result)
           memcpy((void *)&result->ypbind_resp_u.ypbind_bindinfo.ypbind_binding_port, (const void *)&(domainlist + (signed long int)i)->ypset.port, sizeof(unsigned short int) /*2ul*/ );
           if(!(debug_flag == 0))
           {
-            return_value_inet_ntoa$4=inet_ntoa((domainlist + (signed long int)i)->ypset.addr);
-            return_value_ntohs$5=ntohs((domainlist + (signed long int)i)->ypset.port);
-            log_msg(7, "YPBINDPROC_DOMAIN: server '%s', port %d", return_value_inet_ntoa$4, return_value_ntohs$5);
+            return_value_inet_ntoa_4=inet_ntoa((domainlist + (signed long int)i)->ypset.addr);
+            return_value_ntohs_5=ntohs((domainlist + (signed long int)i)->ypset.port);
+            log_msg(7, "YPBINDPROC_DOMAIN: server '%s', port %d", return_value_inet_ntoa_4, return_value_ntohs_5);
           }
 
           break;
@@ -2981,15 +2981,15 @@ extern void find_domain(const char *domain, struct ypbind_resp *result)
         if(count >= 3)
           goto __CPROVER_DUMP_L16;
 
-        return_value_pthread_mutex_trylock$7=pthread_mutex_trylock(&search_lock);
-        if(return_value_pthread_mutex_trylock$7 == 0)
+        return_value_pthread_mutex_trylock_7=pthread_mutex_trylock(&search_lock);
+        if(return_value_pthread_mutex_trylock_7 == 0)
         {
           if(!(debug_flag == 0))
             log_msg(7, "trylock = success");
 
-          signed int return_value_ping_all$6;
-          return_value_ping_all$6=ping_all(&domainlist[(signed long int)i]);
-          if(return_value_ping_all$6 == 0)
+          signed int return_value_ping_all_6;
+          return_value_ping_all_6=ping_all(&domainlist[(signed long int)i]);
+          if(return_value_ping_all_6 == 0)
           {
             if(!((domainlist + (signed long int)i)->use_broadcast == 0))
               do_broadcast(&domainlist[(signed long int)i]);
@@ -3028,23 +3028,23 @@ static signed int get_entry(const char *domain, struct binding **entry)
   i = 0;
   for( ; !(i >= max_domains); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp((domainlist + (signed long int)i)->domain, domain);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp((domainlist + (signed long int)i)->domain, domain);
+    if(return_value_strcmp_1 == 0)
       *entry = &domainlist[(signed long int)i];
 
   }
   if(*entry == ((struct binding *)NULL))
   {
     max_domains = max_domains + 1;
-    void *return_value_realloc$2;
-    return_value_realloc$2=realloc((void *)domainlist, (unsigned long int)max_domains * sizeof(struct binding) /*1024ul*/ );
-    domainlist = (struct binding *)return_value_realloc$2;
+    void *return_value_realloc_2;
+    return_value_realloc_2=realloc((void *)domainlist, (unsigned long int)max_domains * sizeof(struct binding) /*1024ul*/ );
+    domainlist = (struct binding *)return_value_realloc_2;
     if(domainlist == ((struct binding *)NULL))
     {
-      char *return_value_gettext$3;
-      return_value_gettext$3=gettext("Not enough memory !");
-      log_msg(3, return_value_gettext$3);
+      char *return_value_gettext_3;
+      return_value_gettext_3=gettext("Not enough memory !");
+      log_msg(3, return_value_gettext_3);
       exit(1);
     }
 
@@ -3063,22 +3063,22 @@ static signed int get_entry(const char *domain, struct binding **entry)
 // file log_msg.c line 34
 static signed int gettid(void)
 {
-  signed long int return_value_syscall$1;
-  return_value_syscall$1=syscall((signed long int)186);
-  return (signed int)return_value_syscall$1;
+  signed long int return_value_syscall_1;
+  return_value_syscall_1=syscall((signed long int)186);
+  return (signed int)return_value_syscall_1;
 }
 
 // go_offline
 // file ypbind_dbus_nm.c line 52
 static void go_offline(void)
 {
-  char *return_value_gettext$1;
+  char *return_value_gettext_1;
   if(!(is_online == 0))
   {
     if(!(debug_flag == 0))
     {
-      return_value_gettext$1=gettext("Switch to offline mode");
-      log_msg(7, return_value_gettext$1);
+      return_value_gettext_1=gettext("Switch to offline mode");
+      log_msg(7, return_value_gettext_1);
     }
 
     is_online = 0;
@@ -3092,21 +3092,21 @@ static void go_offline(void)
 // file ypbind_dbus_nm.c line 65
 static void go_online(void)
 {
-  char *return_value_gettext$1;
-  char *return_value_gettext$2;
+  char *return_value_gettext_1;
+  char *return_value_gettext_2;
   if(is_online == 0)
   {
     if(!(debug_flag == 0))
     {
-      return_value_gettext$1=gettext("Switch to online mode");
-      log_msg(7, return_value_gettext$1);
+      return_value_gettext_1=gettext("Switch to online mode");
+      log_msg(7, return_value_gettext_1);
     }
 
     is_online = 1;
     if(!(debug_flag == 0))
     {
-      return_value_gettext$2=gettext("Going online, reloading config file.");
-      log_msg(7, return_value_gettext$2);
+      return_value_gettext_2=gettext("Going online, reloading config file.");
+      log_msg(7, return_value_gettext_2);
     }
 
     clear_server();
@@ -3115,9 +3115,9 @@ static void go_online(void)
 
     else
       load_config(0);
-    signed int return_value_portmapper_connect$3;
-    return_value_portmapper_connect$3=portmapper_connect();
-    if(!(return_value_portmapper_connect$3 == 0))
+    signed int return_value_portmapper_connect_3;
+    return_value_portmapper_connect_3=portmapper_connect();
+    if(!(return_value_portmapper_connect_3 == 0))
       go_offline();
 
     do_binding();
@@ -3135,26 +3135,26 @@ extern signed int load_config(signed int check_syntax)
   signed int have_entries = 0;
   signed int bad_entries = 0;
   fp=fopen(configfile, "r");
-  signed int return_value_feof$1;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  unsigned long int return_value_strlen$3;
-  char *return_value_gettext$5;
-  char *return_value_gettext$6;
-  _Bool tmp_if_expr$27;
-  const unsigned short int **return_value___ctype_b_loc$26;
-  char *return_value_gettext$7;
-  char *return_value_gettext$10;
-  char *return_value_gettext$13;
-  signed int return_value_strncmp$22;
-  _Bool tmp_if_expr$24;
-  const unsigned short int **return_value___ctype_b_loc$23;
-  char *return_value_gettext$15;
-  signed int return_value_strncmp$21;
-  const unsigned short int **return_value___ctype_b_loc$19;
-  _Bool tmp_if_expr$20;
-  char *return_value_gettext$17;
-  char *return_value_gettext$29;
-  char *return_value_gettext$32;
+  signed int return_value_feof_1;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  unsigned long int return_value_strlen_3;
+  char *return_value_gettext_5;
+  char *return_value_gettext_6;
+  _Bool tmp_if_expr_27;
+  const unsigned short int **return_value___ctype_b_loc_26;
+  char *return_value_gettext_7;
+  char *return_value_gettext_10;
+  char *return_value_gettext_13;
+  signed int return_value_strncmp_22;
+  _Bool tmp_if_expr_24;
+  const unsigned short int **return_value___ctype_b_loc_23;
+  char *return_value_gettext_15;
+  signed int return_value_strncmp_21;
+  const unsigned short int **return_value___ctype_b_loc_19;
+  _Bool tmp_if_expr_20;
+  char *return_value_gettext_17;
+  char *return_value_gettext_29;
+  char *return_value_gettext_32;
   if(fp == ((struct _IO_FILE *)NULL))
     return 1;
 
@@ -3165,8 +3165,8 @@ extern signed int load_config(signed int check_syntax)
 
     do
     {
-      return_value_feof$1=feof(fp);
-      if(!(return_value_feof$1 == 0))
+      return_value_feof_1=feof(fp);
+      if(!(return_value_feof_1 == 0))
         break;
 
       char tmpserver[81l];
@@ -3186,8 +3186,8 @@ extern signed int load_config(signed int check_syntax)
 
       do
       {
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*cp]) == 0)
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*cp]) == 0)
           break;
 
         cp = cp + 1l;
@@ -3195,54 +3195,54 @@ extern signed int load_config(signed int check_syntax)
       while((_Bool)1);
       if(!((signed int)*cp == 0))
       {
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(cp);
-        if((signed int)cp[-1l + (signed long int)return_value_strlen$4] == 10)
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(cp);
+        if((signed int)cp[-1l + (signed long int)return_value_strlen_4] == 10)
         {
-          return_value_strlen$3=strlen(cp);
-          cp[(signed long int)(return_value_strlen$3 - (unsigned long int)1)] = (char)0;
+          return_value_strlen_3=strlen(cp);
+          cp[(signed long int)(return_value_strlen_3 - (unsigned long int)1)] = (char)0;
         }
 
         if(!(debug_flag == 0))
         {
-          return_value_gettext$5=gettext("Trying entry:");
-          log_msg(7, "%s %s", return_value_gettext$5, cp);
+          return_value_gettext_5=gettext("Trying entry:");
+          log_msg(7, "%s %s", return_value_gettext_5, cp);
         }
 
         if(!(check_syntax == 0))
         {
-          return_value_gettext$6=gettext("Trying entry:");
-          printf("%s %s\n", return_value_gettext$6, cp);
+          return_value_gettext_6=gettext("Trying entry:");
+          printf("%s %s\n", return_value_gettext_6, cp);
         }
 
-        signed int return_value_strncmp$25;
-        return_value_strncmp$25=strncmp(cp, "domain", (unsigned long int)6);
-        if(return_value_strncmp$25 == 0)
+        signed int return_value_strncmp_25;
+        return_value_strncmp_25=strncmp(cp, "domain", (unsigned long int)6);
+        if(return_value_strncmp_25 == 0)
         {
-          return_value___ctype_b_loc$26=__ctype_b_loc();
-          tmp_if_expr$27 = ((signed int)(*return_value___ctype_b_loc$26)[(signed long int)(signed int)cp[(signed long int)6]] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_26=__ctype_b_loc();
+          tmp_if_expr_27 = ((signed int)(*return_value___ctype_b_loc_26)[(signed long int)(signed int)cp[(signed long int)6]] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$27 = (_Bool)0;
-        if(tmp_if_expr$27)
+          tmp_if_expr_27 = (_Bool)0;
+        if(tmp_if_expr_27)
         {
-          char *return_value_strstr$9;
-          return_value_strstr$9=strstr(cp, "server");
-          if(!(return_value_strstr$9 == ((char *)NULL)))
+          char *return_value_strstr_9;
+          return_value_strstr_9=strstr(cp, "server");
+          if(!(return_value_strstr_9 == ((char *)NULL)))
           {
             count=sscanf(cp, "domain %64s server %80s", (const void *)tmpdomain, (const void *)tmpserver);
             if(count == 2)
             {
               if(!(debug_flag == 0))
               {
-                return_value_gettext$7=gettext("parsed domain '%s' server '%s'");
-                log_msg(7, return_value_gettext$7, (const void *)tmpdomain, (const void *)tmpserver);
+                return_value_gettext_7=gettext("parsed domain '%s' server '%s'");
+                log_msg(7, return_value_gettext_7, (const void *)tmpdomain, (const void *)tmpserver);
               }
 
-              signed int return_value_add_server$8;
-              return_value_add_server$8=add_server(tmpdomain, tmpserver, check_syntax);
-              if(!(return_value_add_server$8 == 0))
+              signed int return_value_add_server_8;
+              return_value_add_server_8=add_server(tmpdomain, tmpserver, check_syntax);
+              if(!(return_value_add_server_8 == 0))
                 have_entries = have_entries + 1;
 
               else
@@ -3252,22 +3252,22 @@ extern signed int load_config(signed int check_syntax)
 
           }
 
-          char *return_value_strstr$12;
-          return_value_strstr$12=strstr(cp, "broadcast");
-          if(!(return_value_strstr$12 == ((char *)NULL)))
+          char *return_value_strstr_12;
+          return_value_strstr_12=strstr(cp, "broadcast");
+          if(!(return_value_strstr_12 == ((char *)NULL)))
           {
             count=sscanf(cp, "domain %s broadcast", (const void *)tmpdomain);
             if(count == 1)
             {
               if(!(debug_flag == 0))
               {
-                return_value_gettext$10=gettext("parsed domain '%s' broadcast");
-                log_msg(7, return_value_gettext$10, (const void *)tmpdomain);
+                return_value_gettext_10=gettext("parsed domain '%s' broadcast");
+                log_msg(7, return_value_gettext_10, (const void *)tmpdomain);
               }
 
-              signed int return_value_add_server$11;
-              return_value_add_server$11=add_server(tmpdomain, (const char *)(void *)0, check_syntax);
-              if(!(return_value_add_server$11 == 0))
+              signed int return_value_add_server_11;
+              return_value_add_server_11=add_server(tmpdomain, (const char *)(void *)0, check_syntax);
+              if(!(return_value_add_server_11 == 0))
                 have_entries = have_entries + 1;
 
               else
@@ -3277,9 +3277,9 @@ extern signed int load_config(signed int check_syntax)
 
           }
 
-          char *return_value_strstr$14;
-          return_value_strstr$14=strstr(cp, "slp");
-          if(!(return_value_strstr$14 == ((char *)NULL)))
+          char *return_value_strstr_14;
+          return_value_strstr_14=strstr(cp, "slp");
+          if(!(return_value_strstr_14 == ((char *)NULL)))
           {
             count=sscanf(cp, "domain %s slp", (const void *)tmpdomain);
             if(count == 1)
@@ -3287,8 +3287,8 @@ extern signed int load_config(signed int check_syntax)
               signed int i;
               if(!(debug_flag == 0))
               {
-                return_value_gettext$13=gettext("parsed domain '%s' slp");
-                log_msg(7, return_value_gettext$13, (const void *)tmpdomain);
+                return_value_gettext_13=gettext("parsed domain '%s' slp");
+                log_msg(7, return_value_gettext_13, (const void *)tmpdomain);
               }
 
               i=query_slp(tmpdomain);
@@ -3306,29 +3306,29 @@ extern signed int load_config(signed int check_syntax)
 
         else
         {
-          return_value_strncmp$22=strncmp(cp, "ypserver", (unsigned long int)8);
-          if(return_value_strncmp$22 == 0)
+          return_value_strncmp_22=strncmp(cp, "ypserver", (unsigned long int)8);
+          if(return_value_strncmp_22 == 0)
           {
-            return_value___ctype_b_loc$23=__ctype_b_loc();
-            tmp_if_expr$24 = ((signed int)(*return_value___ctype_b_loc$23)[(signed long int)(signed int)cp[(signed long int)8]] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+            return_value___ctype_b_loc_23=__ctype_b_loc();
+            tmp_if_expr_24 = ((signed int)(*return_value___ctype_b_loc_23)[(signed long int)(signed int)cp[(signed long int)8]] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$24 = (_Bool)0;
-          if(tmp_if_expr$24)
+            tmp_if_expr_24 = (_Bool)0;
+          if(tmp_if_expr_24)
           {
             count=sscanf(cp, "ypserver %80s", (const void *)tmpserver);
             if(count == 1)
             {
               if(!(debug_flag == 0))
               {
-                return_value_gettext$15=gettext("parsed ypserver %s");
-                log_msg(7, return_value_gettext$15, (const void *)tmpserver);
+                return_value_gettext_15=gettext("parsed ypserver %s");
+                log_msg(7, return_value_gettext_15, (const void *)tmpserver);
               }
 
-              signed int return_value_add_server$16;
-              return_value_add_server$16=add_server(domain, tmpserver, check_syntax);
-              if(!(return_value_add_server$16 == 0))
+              signed int return_value_add_server_16;
+              return_value_add_server_16=add_server(domain, tmpserver, check_syntax);
+              if(!(return_value_add_server_16 == 0))
                 have_entries = have_entries + 1;
 
               else
@@ -3340,26 +3340,26 @@ extern signed int load_config(signed int check_syntax)
 
           else
           {
-            return_value_strncmp$21=strncmp(cp, "broadcast", (unsigned long int)9);
-            if(return_value_strncmp$21 == 0)
+            return_value_strncmp_21=strncmp(cp, "broadcast", (unsigned long int)9);
+            if(return_value_strncmp_21 == 0)
             {
-              return_value___ctype_b_loc$19=__ctype_b_loc();
-              if(!((8192 & (signed int)(*return_value___ctype_b_loc$19)[(signed long int)(signed int)cp[9l]]) == 0))
-                tmp_if_expr$20 = (_Bool)1;
+              return_value___ctype_b_loc_19=__ctype_b_loc();
+              if(!((8192 & (signed int)(*return_value___ctype_b_loc_19)[(signed long int)(signed int)cp[9l]]) == 0))
+                tmp_if_expr_20 = (_Bool)1;
 
               else
-                tmp_if_expr$20 = (signed int)cp[(signed long int)9] == 0 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$20)
+                tmp_if_expr_20 = (signed int)cp[(signed long int)9] == 0 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_20)
               {
                 if(!(debug_flag == 0))
                 {
-                  return_value_gettext$17=gettext("parsed broadcast");
-                  log_msg(7, return_value_gettext$17);
+                  return_value_gettext_17=gettext("parsed broadcast");
+                  log_msg(7, return_value_gettext_17);
                 }
 
-                signed int return_value_add_server$18;
-                return_value_add_server$18=add_server(domain, (const char *)(void *)0, check_syntax);
-                if(!(return_value_add_server$18 == 0))
+                signed int return_value_add_server_18;
+                return_value_add_server_18=add_server(domain, (const char *)(void *)0, check_syntax);
+                if(!(return_value_add_server_18 == 0))
                   have_entries = have_entries + 1;
 
                 else
@@ -3373,16 +3373,16 @@ extern signed int load_config(signed int check_syntax)
         }
         if(!(check_syntax == 0))
         {
-          char *return_value_gettext$28;
-          return_value_gettext$28=gettext("Entry \"%s\" is not valid!\n");
-          fprintf(stderr, return_value_gettext$28, cp);
+          char *return_value_gettext_28;
+          return_value_gettext_28=gettext("Entry \"%s\" is not valid!\n");
+          fprintf(stderr, return_value_gettext_28, cp);
           bad_entries = bad_entries + 1;
         }
 
         else
         {
-          return_value_gettext$29=gettext("Entry \"%s\" is not valid, ignore it!");
-          log_msg(3, return_value_gettext$29, cp);
+          return_value_gettext_29=gettext("Entry \"%s\" is not valid, ignore it!");
+          log_msg(3, return_value_gettext_29, cp);
         }
       }
 
@@ -3396,17 +3396,17 @@ extern signed int load_config(signed int check_syntax)
     {
       if(!(bad_entries == 0))
       {
-        char *return_value_gettext$30;
-        return_value_gettext$30=gettext("Bad entries found.\n");
-        fprintf(stderr, return_value_gettext$30);
+        char *return_value_gettext_30;
+        return_value_gettext_30=gettext("Bad entries found.\n");
+        fprintf(stderr, return_value_gettext_30);
         return 1;
       }
 
       if(have_entries == 0)
       {
-        char *return_value_gettext$31;
-        return_value_gettext$31=gettext("No entry found.\n");
-        fprintf(stderr, return_value_gettext$31);
+        char *return_value_gettext_31;
+        return_value_gettext_31=gettext("No entry found.\n");
+        fprintf(stderr, return_value_gettext_31);
         return 1;
       }
 
@@ -3416,8 +3416,8 @@ extern signed int load_config(signed int check_syntax)
     {
       if(!(debug_flag == 0))
       {
-        return_value_gettext$32=gettext("No entry found.");
-        log_msg(7, return_value_gettext$32);
+        return_value_gettext_32=gettext("No entry found.");
+        log_msg(7, return_value_gettext_32);
       }
 
       return 1;
@@ -3434,9 +3434,9 @@ extern void log_msg(signed int type, const char *fmt, ...)
   void **ap = (void **)&fmt;
   if(!(debug_flag == 0))
   {
-    signed int return_value_gettid$1;
-    return_value_gettid$1=gettid();
-    fprintf(stderr, "%d: ", return_value_gettid$1);
+    signed int return_value_gettid_1;
+    return_value_gettid_1=gettid();
+    fprintf(stderr, "%d: ", return_value_gettid_1);
     vfprintf(stderr, fmt, ap);
     fputc(10, stderr);
   }
@@ -3451,7 +3451,7 @@ extern void log_msg(signed int type, const char *fmt, ...)
 signed int main(signed int argc, char **argv)
 {
   signed int i;
-  struct anonymous$11 sigs_to_block;
+  struct anonymous_11 sigs_to_block;
   unsigned long int sig_thread;
   unsigned long int ping_thread;
   unsigned long int dbus_thread;
@@ -3463,39 +3463,39 @@ signed int main(signed int argc, char **argv)
   bindtextdomain("ypbind-mt", "/usr/share/locale");
   textdomain("ypbind-mt");
   i = 1;
-  signed int return_value_strcmp$28;
-  signed int return_value_strcmp$27;
-  signed int return_value_strcmp$24;
-  _Bool tmp_if_expr$26;
-  signed int return_value_strcmp$25;
-  signed int return_value_strcmp$21;
-  _Bool tmp_if_expr$23;
-  signed int return_value_strcmp$22;
-  signed int return_value_strcmp$18;
-  _Bool tmp_if_expr$20;
-  signed int return_value_strcmp$19;
-  signed int return_value_strcmp$17;
-  signed int return_value_strcmp$14;
-  _Bool tmp_if_expr$16;
-  signed int return_value_strcmp$15;
-  signed int return_value_strcmp$13;
-  _Bool tmp_if_expr$1;
-  signed int return_value_strcmp$12;
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcmp$7;
-  _Bool tmp_if_expr$9;
-  signed int return_value_strcmp$8;
-  _Bool tmp_if_expr$11;
-  signed int return_value_strcmp$10;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$4;
+  signed int return_value_strcmp_28;
+  signed int return_value_strcmp_27;
+  signed int return_value_strcmp_24;
+  _Bool tmp_if_expr_26;
+  signed int return_value_strcmp_25;
+  signed int return_value_strcmp_21;
+  _Bool tmp_if_expr_23;
+  signed int return_value_strcmp_22;
+  signed int return_value_strcmp_18;
+  _Bool tmp_if_expr_20;
+  signed int return_value_strcmp_19;
+  signed int return_value_strcmp_17;
+  signed int return_value_strcmp_14;
+  _Bool tmp_if_expr_16;
+  signed int return_value_strcmp_15;
+  signed int return_value_strcmp_13;
+  _Bool tmp_if_expr_1;
+  signed int return_value_strcmp_12;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcmp_7;
+  _Bool tmp_if_expr_9;
+  signed int return_value_strcmp_8;
+  _Bool tmp_if_expr_11;
+  signed int return_value_strcmp_10;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_4;
   for( ; !(i >= argc); i = i + 1)
   {
-    signed int return_value_strcmp$29;
-    return_value_strcmp$29=strcmp("--version", argv[(signed long int)i]);
-    if(return_value_strcmp$29 == 0)
+    signed int return_value_strcmp_29;
+    return_value_strcmp_29=strcmp("--version", argv[(signed long int)i]);
+    if(return_value_strcmp_29 == 0)
     {
       fprintf(stdout, "ypbind (%s) %s\n", (const void *)"ypbind-mt", (const void *)"1.20.1");
       exit(0);
@@ -3503,89 +3503,89 @@ signed int main(signed int argc, char **argv)
 
     else
     {
-      return_value_strcmp$28=strcmp("-ypset", argv[(signed long int)i]);
-      if(return_value_strcmp$28 == 0)
+      return_value_strcmp_28=strcmp("-ypset", argv[(signed long int)i]);
+      if(return_value_strcmp_28 == 0)
         ypset = 1;
 
       else
       {
-        return_value_strcmp$27=strcmp("-ypsetme", argv[(signed long int)i]);
-        if(return_value_strcmp$27 == 0)
+        return_value_strcmp_27=strcmp("-ypsetme", argv[(signed long int)i]);
+        if(return_value_strcmp_27 == 0)
           ypset = 2;
 
         else
         {
-          return_value_strcmp$24=strcmp("-d", argv[(signed long int)i]);
-          if(return_value_strcmp$24 == 0)
-            tmp_if_expr$26 = (_Bool)1;
+          return_value_strcmp_24=strcmp("-d", argv[(signed long int)i]);
+          if(return_value_strcmp_24 == 0)
+            tmp_if_expr_26 = (_Bool)1;
 
           else
           {
-            return_value_strcmp$25=strcmp("-debug", argv[(signed long int)i]);
-            tmp_if_expr$26 = return_value_strcmp$25 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_25=strcmp("-debug", argv[(signed long int)i]);
+            tmp_if_expr_26 = return_value_strcmp_25 == 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$26)
+          if(tmp_if_expr_26)
             debug_flag = 1;
 
           else
           {
-            return_value_strcmp$21=strcmp("-broken-server", argv[(signed long int)i]);
-            if(return_value_strcmp$21 == 0)
-              tmp_if_expr$23 = (_Bool)1;
+            return_value_strcmp_21=strcmp("-broken-server", argv[(signed long int)i]);
+            if(return_value_strcmp_21 == 0)
+              tmp_if_expr_23 = (_Bool)1;
 
             else
             {
-              return_value_strcmp$22=strcmp("-broken_server", argv[(signed long int)i]);
-              tmp_if_expr$23 = return_value_strcmp$22 == 0 ? (_Bool)1 : (_Bool)0;
+              return_value_strcmp_22=strcmp("-broken_server", argv[(signed long int)i]);
+              tmp_if_expr_23 = return_value_strcmp_22 == 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$23)
+            if(tmp_if_expr_23)
               broken_server = 1;
 
             else
             {
-              return_value_strcmp$18=strcmp("-no-ping", argv[(signed long int)i]);
-              if(return_value_strcmp$18 == 0)
-                tmp_if_expr$20 = (_Bool)1;
+              return_value_strcmp_18=strcmp("-no-ping", argv[(signed long int)i]);
+              if(return_value_strcmp_18 == 0)
+                tmp_if_expr_20 = (_Bool)1;
 
               else
               {
-                return_value_strcmp$19=strcmp("-no_ping", argv[(signed long int)i]);
-                tmp_if_expr$20 = return_value_strcmp$19 == 0 ? (_Bool)1 : (_Bool)0;
+                return_value_strcmp_19=strcmp("-no_ping", argv[(signed long int)i]);
+                tmp_if_expr_20 = return_value_strcmp_19 == 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$20)
+              if(tmp_if_expr_20)
                 ping_interval = 0;
 
               else
               {
-                return_value_strcmp$17=strcmp("-broadcast", argv[(signed long int)i]);
-                if(return_value_strcmp$17 == 0)
+                return_value_strcmp_17=strcmp("-broadcast", argv[(signed long int)i]);
+                if(return_value_strcmp_17 == 0)
                   use_broadcast = 1;
 
                 else
                 {
-                  return_value_strcmp$14=strcmp("-local-only", argv[(signed long int)i]);
-                  if(return_value_strcmp$14 == 0)
-                    tmp_if_expr$16 = (_Bool)1;
+                  return_value_strcmp_14=strcmp("-local-only", argv[(signed long int)i]);
+                  if(return_value_strcmp_14 == 0)
+                    tmp_if_expr_16 = (_Bool)1;
 
                   else
                   {
-                    return_value_strcmp$15=strcmp("-local_only", argv[(signed long int)i]);
-                    tmp_if_expr$16 = return_value_strcmp$15 == 0 ? (_Bool)1 : (_Bool)0;
+                    return_value_strcmp_15=strcmp("-local_only", argv[(signed long int)i]);
+                    tmp_if_expr_16 = return_value_strcmp_15 == 0 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$16)
+                  if(tmp_if_expr_16)
                     local_only = 1;
 
                   else
                   {
-                    return_value_strcmp$13=strcmp("-f", argv[(signed long int)i]);
-                    if(return_value_strcmp$13 == 0)
+                    return_value_strcmp_13=strcmp("-f", argv[(signed long int)i]);
+                    if(return_value_strcmp_13 == 0)
                     {
                       if(1 + i == argc)
-                        tmp_if_expr$1 = (_Bool)1;
+                        tmp_if_expr_1 = (_Bool)1;
 
                       else
-                        tmp_if_expr$1 = (signed int)argv[(signed long int)(i + 1)][(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
-                      if(tmp_if_expr$1)
+                        tmp_if_expr_1 = (signed int)argv[(signed long int)(i + 1)][(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
+                      if(tmp_if_expr_1)
                         usage(1);
 
                       i = i + 1;
@@ -3594,15 +3594,15 @@ signed int main(signed int argc, char **argv)
 
                     else
                     {
-                      return_value_strcmp$12=strcmp("-p", argv[(signed long int)i]);
-                      if(return_value_strcmp$12 == 0)
+                      return_value_strcmp_12=strcmp("-p", argv[(signed long int)i]);
+                      if(return_value_strcmp_12 == 0)
                       {
                         if(1 + i == argc)
-                          tmp_if_expr$2 = (_Bool)1;
+                          tmp_if_expr_2 = (_Bool)1;
 
                         else
-                          tmp_if_expr$2 = (signed int)argv[(signed long int)(i + 1)][(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
-                        if(tmp_if_expr$2)
+                          tmp_if_expr_2 = (signed int)argv[(signed long int)(i + 1)][(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
+                        if(tmp_if_expr_2)
                           usage(1);
 
                         i = i + 1;
@@ -3611,31 +3611,31 @@ signed int main(signed int argc, char **argv)
 
                       else
                       {
-                        return_value_strcmp$7=strcmp("-ping-interval", argv[(signed long int)i]);
-                        if(return_value_strcmp$7 == 0)
-                          tmp_if_expr$9 = (_Bool)1;
+                        return_value_strcmp_7=strcmp("-ping-interval", argv[(signed long int)i]);
+                        if(return_value_strcmp_7 == 0)
+                          tmp_if_expr_9 = (_Bool)1;
 
                         else
                         {
-                          return_value_strcmp$8=strcmp("-ping-interval", argv[(signed long int)i]);
-                          tmp_if_expr$9 = return_value_strcmp$8 == 0 ? (_Bool)1 : (_Bool)0;
+                          return_value_strcmp_8=strcmp("-ping-interval", argv[(signed long int)i]);
+                          tmp_if_expr_9 = return_value_strcmp_8 == 0 ? (_Bool)1 : (_Bool)0;
                         }
-                        if(tmp_if_expr$9)
-                          tmp_if_expr$11 = (_Bool)1;
+                        if(tmp_if_expr_9)
+                          tmp_if_expr_11 = (_Bool)1;
 
                         else
                         {
-                          return_value_strcmp$10=strcmp("-i", argv[(signed long int)i]);
-                          tmp_if_expr$11 = return_value_strcmp$10 == 0 ? (_Bool)1 : (_Bool)0;
+                          return_value_strcmp_10=strcmp("-i", argv[(signed long int)i]);
+                          tmp_if_expr_11 = return_value_strcmp_10 == 0 ? (_Bool)1 : (_Bool)0;
                         }
-                        if(tmp_if_expr$11)
+                        if(tmp_if_expr_11)
                         {
                           if(1 + i == argc)
-                            tmp_if_expr$3 = (_Bool)1;
+                            tmp_if_expr_3 = (_Bool)1;
 
                           else
-                            tmp_if_expr$3 = (signed int)argv[(signed long int)(i + 1)][(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
-                          if(tmp_if_expr$3)
+                            tmp_if_expr_3 = (signed int)argv[(signed long int)(i + 1)][(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
+                          if(tmp_if_expr_3)
                             usage(1);
 
                           i = i + 1;
@@ -3644,20 +3644,20 @@ signed int main(signed int argc, char **argv)
 
                         else
                         {
-                          return_value_strcmp$6=strcmp("-c", argv[(signed long int)i]);
-                          if(return_value_strcmp$6 == 0)
+                          return_value_strcmp_6=strcmp("-c", argv[(signed long int)i]);
+                          if(return_value_strcmp_6 == 0)
                             configcheck_only = 1;
 
                           else
                           {
-                            return_value_strcmp$5=strcmp("-no-dbus", argv[(signed long int)i]);
-                            if(return_value_strcmp$5 == 0)
+                            return_value_strcmp_5=strcmp("-no-dbus", argv[(signed long int)i]);
+                            if(return_value_strcmp_5 == 0)
                               disable_dbus = 1;
 
                             else
                             {
-                              return_value_strcmp$4=strcmp("--help", argv[(signed long int)i]);
-                              if(return_value_strcmp$4 == 0)
+                              return_value_strcmp_4=strcmp("--help", argv[(signed long int)i]);
+                              if(return_value_strcmp_4 == 0)
                                 usage(0);
 
                               else
@@ -3676,143 +3676,143 @@ signed int main(signed int argc, char **argv)
       }
     }
   }
-  signed int return_value_yp_get_default_domain$32;
-  return_value_yp_get_default_domain$32=yp_get_default_domain(&domain);
-  _Bool tmp_if_expr$33;
-  if(domain == ((char *)NULL) || !(return_value_yp_get_default_domain$32 == 0))
-    tmp_if_expr$33 = (_Bool)1;
+  signed int return_value_yp_get_default_domain_32;
+  return_value_yp_get_default_domain_32=yp_get_default_domain(&domain);
+  _Bool tmp_if_expr_33;
+  if(domain == ((char *)NULL) || !(return_value_yp_get_default_domain_32 == 0))
+    tmp_if_expr_33 = (_Bool)1;
 
   else
-    tmp_if_expr$33 = (signed int)domain[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$35;
-  signed int return_value_strcmp$34;
-  if(tmp_if_expr$33)
-    tmp_if_expr$35 = (_Bool)1;
+    tmp_if_expr_33 = (signed int)domain[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_35;
+  signed int return_value_strcmp_34;
+  if(tmp_if_expr_33)
+    tmp_if_expr_35 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$34=strcmp(domain, "(none)");
-    tmp_if_expr$35 = return_value_strcmp$34 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_34=strcmp(domain, "(none)");
+    tmp_if_expr_35 = return_value_strcmp_34 == 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$35)
+  if(tmp_if_expr_35)
   {
     if(!(configcheck_only == 0))
     {
-      char *return_value_gettext$30;
-      return_value_gettext$30=gettext("ERROR: domainname not set.\n");
-      fputs(return_value_gettext$30, stderr);
+      char *return_value_gettext_30;
+      return_value_gettext_30=gettext("ERROR: domainname not set.\n");
+      fputs(return_value_gettext_30, stderr);
       domain = "(none)";
     }
 
     else
     {
-      char *return_value_gettext$31;
-      return_value_gettext$31=gettext("domainname not set - aborting.\n");
-      fputs(return_value_gettext$31, stderr);
+      char *return_value_gettext_31;
+      return_value_gettext_31=gettext("domainname not set - aborting.\n");
+      fputs(return_value_gettext_31, stderr);
       exit(1);
     }
   }
 
   if(!(configcheck_only == 0))
   {
-    signed int return_value_load_config$38;
-    return_value_load_config$38=load_config(1);
-    if(!(return_value_load_config$38 == 0))
+    signed int return_value_load_config_38;
+    return_value_load_config_38=load_config(1);
+    if(!(return_value_load_config_38 == 0))
     {
-      char *return_value_gettext$36;
-      return_value_gettext$36=gettext("Config file %s is not ok.\n");
-      fprintf(stderr, return_value_gettext$36, configfile);
+      char *return_value_gettext_36;
+      return_value_gettext_36=gettext("Config file %s is not ok.\n");
+      fprintf(stderr, return_value_gettext_36, configfile);
       exit(1);
     }
 
     else
     {
-      char *return_value_gettext$37;
-      return_value_gettext$37=gettext("Config file %s is ok.\n");
-      fprintf(stdout, return_value_gettext$37, configfile);
+      char *return_value_gettext_37;
+      return_value_gettext_37=gettext("Config file %s is ok.\n");
+      fprintf(stdout, return_value_gettext_37, configfile);
       exit(0);
     }
   }
 
-  unsigned int return_value_getuid$40;
-  return_value_getuid$40=getuid();
-  if(!(return_value_getuid$40 == 0u))
+  unsigned int return_value_getuid_40;
+  return_value_getuid_40=getuid();
+  if(!(return_value_getuid_40 == 0u))
   {
-    char *return_value_gettext$39;
-    return_value_gettext$39=gettext("ypbind must be run as root\n");
-    fputs(return_value_gettext$39, stderr);
+    char *return_value_gettext_39;
+    return_value_gettext_39=gettext("ypbind must be run as root\n");
+    fputs(return_value_gettext_39, stderr);
     exit(1);
   }
 
-  signed int return_value_stat$45;
-  return_value_stat$45=stat("/var/yp", &st);
-  signed int return_value_mkdir$44;
-  if(return_value_stat$45 == -1)
+  signed int return_value_stat_45;
+  return_value_stat_45=stat("/var/yp", &st);
+  signed int return_value_mkdir_44;
+  if(return_value_stat_45 == -1)
   {
-    return_value_mkdir$44=mkdir("/var/yp", (unsigned int)(0400 | 0200 | 0400 >> 3 | (0400 >> 3) >> 3 | 0100 | 0100 >> 3 | (0100 >> 3) >> 3));
-    if(!(return_value_mkdir$44 >= 0))
+    return_value_mkdir_44=mkdir("/var/yp", (unsigned int)(0400 | 0200 | 0400 >> 3 | (0400 >> 3) >> 3 | 0100 | 0100 >> 3 | (0100 >> 3) >> 3));
+    if(!(return_value_mkdir_44 >= 0))
     {
-      char *return_value_gettext$41;
-      return_value_gettext$41=gettext("Could not create %s: %s\n");
-      signed int *return_value___errno_location$42;
-      return_value___errno_location$42=__errno_location();
-      char *return_value_strerror$43;
-      return_value_strerror$43=strerror(*return_value___errno_location$42);
-      fprintf(stderr, return_value_gettext$41, (const void *)"/var/yp", return_value_strerror$43);
+      char *return_value_gettext_41;
+      return_value_gettext_41=gettext("Could not create %s: %s\n");
+      signed int *return_value___errno_location_42;
+      return_value___errno_location_42=__errno_location();
+      char *return_value_strerror_43;
+      return_value_strerror_43=strerror(*return_value___errno_location_42);
+      fprintf(stderr, return_value_gettext_41, (const void *)"/var/yp", return_value_strerror_43);
       exit(1);
     }
 
   }
 
-  signed int return_value_stat$50;
-  return_value_stat$50=stat("/var/yp/binding", &st);
-  signed int return_value_mkdir$49;
-  if(return_value_stat$50 == -1)
+  signed int return_value_stat_50;
+  return_value_stat_50=stat("/var/yp/binding", &st);
+  signed int return_value_mkdir_49;
+  if(return_value_stat_50 == -1)
   {
-    return_value_mkdir$49=mkdir("/var/yp/binding", (unsigned int)(0400 | 0200 | 0400 >> 3 | (0400 >> 3) >> 3 | 0100 | 0100 >> 3 | (0100 >> 3) >> 3));
-    if(!(return_value_mkdir$49 >= 0))
+    return_value_mkdir_49=mkdir("/var/yp/binding", (unsigned int)(0400 | 0200 | 0400 >> 3 | (0400 >> 3) >> 3 | 0100 | 0100 >> 3 | (0100 >> 3) >> 3));
+    if(!(return_value_mkdir_49 >= 0))
     {
-      char *return_value_gettext$46;
-      return_value_gettext$46=gettext("Could not create %s: %s\n");
-      signed int *return_value___errno_location$47;
-      return_value___errno_location$47=__errno_location();
-      char *return_value_strerror$48;
-      return_value_strerror$48=strerror(*return_value___errno_location$47);
-      fprintf(stderr, return_value_gettext$46, (const void *)"/var/yp/binding", return_value_strerror$48);
+      char *return_value_gettext_46;
+      return_value_gettext_46=gettext("Could not create %s: %s\n");
+      signed int *return_value___errno_location_47;
+      return_value___errno_location_47=__errno_location();
+      char *return_value_strerror_48;
+      return_value_strerror_48=strerror(*return_value___errno_location_47);
+      fprintf(stderr, return_value_gettext_46, (const void *)"/var/yp/binding", return_value_strerror_48);
       exit(1);
     }
 
   }
 
-  signed int return_value_chdir$54;
-  return_value_chdir$54=chdir("/var/yp/binding");
-  if(!(return_value_chdir$54 >= 0))
+  signed int return_value_chdir_54;
+  return_value_chdir_54=chdir("/var/yp/binding");
+  if(!(return_value_chdir_54 >= 0))
   {
-    char *return_value_gettext$51;
-    return_value_gettext$51=gettext("Could not change to directory %s: %s\n");
-    signed int *return_value___errno_location$52;
-    return_value___errno_location$52=__errno_location();
-    char *return_value_strerror$53;
-    return_value_strerror$53=strerror(*return_value___errno_location$52);
-    fprintf(stderr, return_value_gettext$51, (const void *)"/var/yp/binding", return_value_strerror$53);
+    char *return_value_gettext_51;
+    return_value_gettext_51=gettext("Could not change to directory %s: %s\n");
+    signed int *return_value___errno_location_52;
+    return_value___errno_location_52=__errno_location();
+    char *return_value_strerror_53;
+    return_value_strerror_53=strerror(*return_value___errno_location_52);
+    fprintf(stderr, return_value_gettext_51, (const void *)"/var/yp/binding", return_value_strerror_53);
     exit(1);
   }
 
   if(use_broadcast == 0)
   {
-    signed int return_value_load_config$58;
-    return_value_load_config$58=load_config(0);
-    if(!(return_value_load_config$58 == 0))
+    signed int return_value_load_config_58;
+    return_value_load_config_58=load_config(0);
+    if(!(return_value_load_config_58 == 0))
     {
-      char *return_value_gettext$55;
-      return_value_gettext$55=gettext("No NIS server and no -broadcast option specified.\n");
-      fputs(return_value_gettext$55, stderr);
-      char *return_value_gettext$56;
-      return_value_gettext$56=gettext("Add a NIS server to the %s configuration file,\n");
-      fprintf(stderr, return_value_gettext$56, configfile);
-      char *return_value_gettext$57;
-      return_value_gettext$57=gettext("or start ypbind with the -broadcast option.\n");
-      fputs(return_value_gettext$57, stderr);
+      char *return_value_gettext_55;
+      return_value_gettext_55=gettext("No NIS server and no -broadcast option specified.\n");
+      fputs(return_value_gettext_55, stderr);
+      char *return_value_gettext_56;
+      return_value_gettext_56=gettext("Add a NIS server to the %s configuration file,\n");
+      fprintf(stderr, return_value_gettext_56, configfile);
+      char *return_value_gettext_57;
+      return_value_gettext_57=gettext("or start ypbind with the -broadcast option.\n");
+      fputs(return_value_gettext_57, stderr);
       exit(1);
     }
 
@@ -3822,7 +3822,7 @@ signed int main(signed int argc, char **argv)
     add_server(domain, (const char *)(void *)0, 0);
   unlink_bindingdir();
   openlog("ypbind", 0x01, 3 << 3);
-  signed int return_value_getdtablesize$66;
+  signed int return_value_getdtablesize_66;
   if(!(debug_flag == 0))
   {
     log_msg(7, "[Welcome to ypbind-mt, version %s]\n", (const void *)"1.20.1");
@@ -3838,23 +3838,23 @@ signed int main(signed int argc, char **argv)
 
     if(!(j >= 0))
     {
-      signed int *return_value___errno_location$59;
-      return_value___errno_location$59=__errno_location();
-      char *return_value_strerror$60;
-      return_value_strerror$60=strerror(*return_value___errno_location$59);
-      log_msg(3, "Cannot fork: %s\n", return_value_strerror$60);
+      signed int *return_value___errno_location_59;
+      return_value___errno_location_59=__errno_location();
+      char *return_value_strerror_60;
+      return_value_strerror_60=strerror(*return_value___errno_location_59);
+      log_msg(3, "Cannot fork: %s\n", return_value_strerror_60);
       exit(-1);
     }
 
-    signed int return_value_setsid$63;
-    return_value_setsid$63=setsid();
-    if(return_value_setsid$63 == -1)
+    signed int return_value_setsid_63;
+    return_value_setsid_63=setsid();
+    if(return_value_setsid_63 == -1)
     {
-      signed int *return_value___errno_location$61;
-      return_value___errno_location$61=__errno_location();
-      char *return_value_strerror$62;
-      return_value_strerror$62=strerror(*return_value___errno_location$61);
-      log_msg(3, "Cannot setsid: %s\n", return_value_strerror$62);
+      signed int *return_value___errno_location_61;
+      return_value___errno_location_61=__errno_location();
+      char *return_value_strerror_62;
+      return_value_strerror_62=strerror(*return_value___errno_location_61);
+      log_msg(3, "Cannot setsid: %s\n", return_value_strerror_62);
       exit(-1);
     }
 
@@ -3864,28 +3864,28 @@ signed int main(signed int argc, char **argv)
 
     if(!(j >= 0))
     {
-      signed int *return_value___errno_location$64;
-      return_value___errno_location$64=__errno_location();
-      char *return_value_strerror$65;
-      return_value_strerror$65=strerror(*return_value___errno_location$64);
-      log_msg(3, "Cannot fork: %s\n", return_value_strerror$65);
+      signed int *return_value___errno_location_64;
+      return_value___errno_location_64=__errno_location();
+      char *return_value_strerror_65;
+      return_value_strerror_65=strerror(*return_value___errno_location_64);
+      log_msg(3, "Cannot fork: %s\n", return_value_strerror_65);
       exit(-1);
     }
 
     j = 0;
     do
     {
-      return_value_getdtablesize$66=getdtablesize();
-      if(j >= return_value_getdtablesize$66)
+      return_value_getdtablesize_66=getdtablesize();
+      if(j >= return_value_getdtablesize_66)
         break;
 
       close(j);
       j = j + 1;
     }
     while((_Bool)1);
-    signed int *return_value___errno_location$67;
-    return_value___errno_location$67=__errno_location();
-    *return_value___errno_location$67 = 0;
+    signed int *return_value___errno_location_67;
+    return_value___errno_location_67=__errno_location();
+    *return_value___errno_location_67 = 0;
     umask((unsigned int)0);
     j=open("/dev/null", 02);
     dup(j);
@@ -3900,13 +3900,13 @@ signed int main(signed int argc, char **argv)
   sigaddset(&sigs_to_block, 11);
   sigaddset(&sigs_to_block, 1);
   sigaddset(&sigs_to_block, 13);
-  signed int return_value_pthread_sigmask$69;
-  return_value_pthread_sigmask$69=pthread_sigmask(0, &sigs_to_block, (struct anonymous$11 *)(void *)0);
-  if(!(return_value_pthread_sigmask$69 == 0))
+  signed int return_value_pthread_sigmask_69;
+  return_value_pthread_sigmask_69=pthread_sigmask(0, &sigs_to_block, (struct anonymous_11 *)(void *)0);
+  if(!(return_value_pthread_sigmask_69 == 0))
   {
-    char *return_value_gettext$68;
-    return_value_gettext$68=gettext("Could not block signals.");
-    log_msg(3, return_value_gettext$68);
+    char *return_value_gettext_68;
+    return_value_gettext_68=gettext("Could not block signals.");
+    log_msg(3, return_value_gettext_68);
     exit(1);
   }
 
@@ -3927,9 +3927,9 @@ signed int main(signed int argc, char **argv)
   else
     is_online = 1;
   portmapper_disconnect();
-  signed int return_value_portmapper_register$70;
-  return_value_portmapper_register$70=portmapper_register();
-  if(!(return_value_portmapper_register$70 == 0))
+  signed int return_value_portmapper_register_70;
+  return_value_portmapper_register_70=portmapper_register();
+  if(!(return_value_portmapper_register_70 == 0))
   {
     portmapper_disconnect();
     exit(1);
@@ -3940,9 +3940,9 @@ signed int main(signed int argc, char **argv)
 
   pthread_create(&ping_thread, (const union pthread_attr_t *)(void *)0, test_bindings, (void *)0);
   svc_run();
-  char *return_value_gettext$71;
-  return_value_gettext$71=gettext("svc_run returned.");
-  log_msg(3, return_value_gettext$71);
+  char *return_value_gettext_71;
+  return_value_gettext_71=gettext("svc_run returned.");
+  log_msg(3, return_value_gettext_71);
   unlink("/var/run/ypbind.pid");
   exit(1);
 }
@@ -3966,12 +3966,12 @@ static signed int ping_all(struct binding *list)
   unsigned long int i;
   unsigned long int pings_count = (unsigned long int)0;
   struct cu_data *cu;
-  char *ping_all$$1$$domain = list->domain;
-  _Bool tmp_if_expr$4;
-  char *return_value_gettext$5;
-  unsigned short int return_value_ntohs$9;
-  char *return_value_gettext$10;
-  char *return_value_gettext$13;
+  char *ping_all__1__domain = list->domain;
+  _Bool tmp_if_expr_4;
+  char *return_value_gettext_5;
+  unsigned short int return_value_ntohs_9;
+  char *return_value_gettext_10;
+  char *return_value_gettext_13;
   if(list->server[0l].host == ((char *)NULL))
     return 0;
 
@@ -3980,52 +3980,52 @@ static signed int ping_all(struct binding *list)
     pthread_rdwr_wlock_np(&domainlock);
     list->active = -1;
     pthread_rdwr_wunlock_np(&domainlock);
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct findserv_req *) /*8ul*/  * (unsigned long int)30);
-    pings = (struct findserv_req **)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct findserv_req *) /*8ul*/  * (unsigned long int)30);
+    pings = (struct findserv_req **)return_value_malloc_1;
     if(pings == ((struct findserv_req **)NULL))
       return 0;
 
     else
     {
-      signed long int return_value_time$2;
-      return_value_time$2=time((signed long int *)(void *)0);
-      signed int return_value_getpid$3;
-      return_value_getpid$3=getpid();
-      xid_seed = (unsigned int)(return_value_time$2 ^ (signed long int)return_value_getpid$3);
+      signed long int return_value_time_2;
+      return_value_time_2=time((signed long int *)(void *)0);
+      signed int return_value_getpid_3;
+      return_value_getpid_3=getpid();
+      xid_seed = (unsigned int)(return_value_time_2 ^ (signed long int)return_value_getpid_3);
       i = (unsigned long int)0;
       do
       {
         if(!(i >= 30ul))
-          tmp_if_expr$4 = list->server[(signed long int)i].host != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = list->server[(signed long int)i].host != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(!tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(!tmp_if_expr_4)
           break;
 
         if(!(debug_flag == 0))
         {
-          return_value_gettext$5=gettext("ping host '%s', domain '%s'");
-          log_msg(7, return_value_gettext$5, list->server[(signed long int)i].host, (const void *)list->domain);
+          return_value_gettext_5=gettext("ping host '%s', domain '%s'");
+          log_msg(7, return_value_gettext_5, list->server[(signed long int)i].host, (const void *)list->domain);
         }
 
         memset((void *)&s_in, 0, sizeof(struct sockaddr_in) /*16ul*/ );
         memcpy((void *)&s_in.sin_addr, (const void *)&list->server[(signed long int)i].addr, sizeof(struct in_addr) /*4ul*/ );
         s_in.sin_family = list->server[(signed long int)i].family;
-        unsigned short int return_value___pmap_getport$6;
-        return_value___pmap_getport$6=__pmap_getport(&s_in, (unsigned long int)100004, (unsigned long int)2, (unsigned int)17);
-        s_in.sin_port=htons(return_value___pmap_getport$6);
+        unsigned short int return_value___pmap_getport_6;
+        return_value___pmap_getport_6=__pmap_getport(&s_in, (unsigned long int)100004, (unsigned long int)2, (unsigned int)17);
+        s_in.sin_port=htons(return_value___pmap_getport_6);
         if(broken_server == 0)
         {
-          return_value_ntohs$9=ntohs(s_in.sin_port);
-          if((signed int)return_value_ntohs$9 >= 1024)
+          return_value_ntohs_9=ntohs(s_in.sin_port);
+          if((signed int)return_value_ntohs_9 >= 1024)
           {
-            char *return_value_gettext$7;
-            return_value_gettext$7=gettext("Answer for domain '%s' from '%s' on illegal port %d.");
-            unsigned short int return_value_ntohs$8;
-            return_value_ntohs$8=ntohs(s_in.sin_port);
-            log_msg(3, return_value_gettext$7, (const void *)list->domain, list->server[(signed long int)i].host, return_value_ntohs$8);
+            char *return_value_gettext_7;
+            return_value_gettext_7=gettext("Answer for domain '%s' from '%s' on illegal port %d.");
+            unsigned short int return_value_ntohs_8;
+            return_value_ntohs_8=ntohs(s_in.sin_port);
+            log_msg(3, return_value_gettext_7, (const void *)list->domain, list->server[(signed long int)i].host, return_value_ntohs_8);
             goto __CPROVER_DUMP_L10;
           }
 
@@ -4036,16 +4036,16 @@ static signed int ping_all(struct binding *list)
         {
           if(!(debug_flag == 0))
           {
-            return_value_gettext$10=gettext("host '%s' doesn't answer.");
-            log_msg(7, return_value_gettext$10, list->server[(signed long int)i].host);
+            return_value_gettext_10=gettext("host '%s' doesn't answer.");
+            log_msg(7, return_value_gettext_10, list->server[(signed long int)i].host);
           }
 
           goto __CPROVER_DUMP_L10;
         }
 
-        void *return_value_calloc$11;
-        return_value_calloc$11=calloc((unsigned long int)1, sizeof(struct findserv_req) /*24ul*/ );
-        pings[(signed long int)pings_count] = (struct findserv_req *)return_value_calloc$11;
+        void *return_value_calloc_11;
+        return_value_calloc_11=calloc((unsigned long int)1, sizeof(struct findserv_req) /*24ul*/ );
+        pings[(signed long int)pings_count] = (struct findserv_req *)return_value_calloc_11;
         memcpy((void *)&pings[(signed long int)pings_count]->sin, (const void *)&s_in, sizeof(struct sockaddr_in) /*16ul*/ );
         any = &pings[(signed long int)pings_count]->sin;
         pings[(signed long int)pings_count]->xid = xid_seed;
@@ -4090,7 +4090,7 @@ static signed int ping_all(struct binding *list)
             *((unsigned int *)cu->cu_outbuf) = pings[(signed long int)i]->xid - (unsigned int)1;
             memcpy((void *)&cu->cu_raddr, (const void *)&pings[(signed long int)i]->sin, sizeof(struct sockaddr_in) /*16ul*/ );
             memset((void *)&clnt_res, 0, sizeof(signed int) /*4ul*/ );
-            clnt->cl_ops->cl_call(clnt, (unsigned long int)2, (signed int (*)(struct XDR *, void *, ...))ypbind_xdr_domainname, (char *)&ping_all$$1$$domain, (signed int (*)(struct XDR *, void *, ...))xdr_bool, (char *)&clnt_res, TIMEOUT00);
+            clnt->cl_ops->cl_call(clnt, (unsigned long int)2, (signed int (*)(struct XDR *, void *, ...))ypbind_xdr_domainname, (char *)&ping_all__1__domain, (signed int (*)(struct XDR *, void *, ...))xdr_bool, (char *)&clnt_res, TIMEOUT00);
             i = i + 1ul;
           }
 
@@ -4108,9 +4108,9 @@ static signed int ping_all(struct binding *list)
               list->client_handle=clntudp_create(&pings[(signed long int)i]->sin, (unsigned long int)100004, (unsigned long int)2, TIMEOUT50, &sock);
               if(list->client_handle == ((struct CLIENT *)NULL))
               {
-                char *return_value_gettext$12;
-                return_value_gettext$12=gettext("Server '%s' for domain '%s' answered ping but failed to bind");
-                log_msg(7, return_value_gettext$12, list->server[(signed long int)list->active].host, ping_all$$1$$domain);
+                char *return_value_gettext_12;
+                return_value_gettext_12=gettext("Server '%s' for domain '%s' answered ping but failed to bind");
+                log_msg(7, return_value_gettext_12, list->server[(signed long int)list->active].host, ping_all__1__domain);
               }
 
               else
@@ -4122,8 +4122,8 @@ static signed int ping_all(struct binding *list)
                 pthread_rdwr_runlock_np(&domainlock);
                 if(!(debug_flag == 0))
                 {
-                  return_value_gettext$13=gettext("Answer for domain '%s' from server '%s'");
-                  log_msg(7, return_value_gettext$13, ping_all$$1$$domain, list->server[(signed long int)list->active].host);
+                  return_value_gettext_13=gettext("Answer for domain '%s' from server '%s'");
+                  log_msg(7, return_value_gettext_13, ping_all__1__domain, list->server[(signed long int)list->active].host);
                 }
 
                 found = 1;
@@ -4185,13 +4185,13 @@ static signed int portmapper_register(void)
     sock=socket(2, 2, 0);
     if(!(sock >= 0))
     {
-      char *return_value_gettext$1;
-      return_value_gettext$1=gettext("Cannot create UDP: %s");
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      log_msg(3, return_value_gettext$1, return_value_strerror$3);
+      char *return_value_gettext_1;
+      return_value_gettext_1=gettext("Cannot create UDP: %s");
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      log_msg(3, return_value_gettext_1, return_value_strerror_3);
       return 1;
     }
 
@@ -4208,13 +4208,13 @@ static signed int portmapper_register(void)
     result=bind(sock, (struct sockaddr *)&socket_address, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
     if(!(result >= 0))
     {
-      char *return_value_gettext$4;
-      return_value_gettext$4=gettext("Cannot bind UDP: %s");
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      char *return_value_strerror$6;
-      return_value_strerror$6=strerror(*return_value___errno_location$5);
-      log_msg(3, return_value_gettext$4, return_value_strerror$6);
+      char *return_value_gettext_4;
+      return_value_gettext_4=gettext("Cannot bind UDP: %s");
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      char *return_value_strerror_6;
+      return_value_strerror_6=strerror(*return_value___errno_location_5);
+      log_msg(3, return_value_gettext_4, return_value_strerror_6);
       return 1;
     }
 
@@ -4225,30 +4225,30 @@ static signed int portmapper_register(void)
   transp=svcudp_create(sock);
   if(transp == ((struct SVCXPRT *)NULL))
   {
-    char *return_value_gettext$7;
-    return_value_gettext$7=gettext("Cannot create udp service.");
-    log_msg(3, return_value_gettext$7);
+    char *return_value_gettext_7;
+    return_value_gettext_7=gettext("Cannot create udp service.");
+    log_msg(3, return_value_gettext_7);
     return 1;
   }
 
   portmapper_udp_port = (signed int)transp->xp_port;
-  signed int return_value_svc_register$9;
-  return_value_svc_register$9=svc_register(transp, (unsigned long int)100007, (unsigned long int)2, ypbindprog_2, (unsigned long int)17);
-  if(return_value_svc_register$9 == 0)
+  signed int return_value_svc_register_9;
+  return_value_svc_register_9=svc_register(transp, (unsigned long int)100007, (unsigned long int)2, ypbindprog_2, (unsigned long int)17);
+  if(return_value_svc_register_9 == 0)
   {
-    char *return_value_gettext$8;
-    return_value_gettext$8=gettext("Unable to register (YPBINDPROG, YPBINDVERS, udp).");
-    log_msg(3, return_value_gettext$8);
+    char *return_value_gettext_8;
+    return_value_gettext_8=gettext("Unable to register (YPBINDPROG, YPBINDVERS, udp).");
+    log_msg(3, return_value_gettext_8);
     return 1;
   }
 
-  signed int return_value_svc_register$11;
-  return_value_svc_register$11=svc_register(transp, (unsigned long int)100007, (unsigned long int)1, ypbindprog_1, (unsigned long int)17);
-  if(return_value_svc_register$11 == 0)
+  signed int return_value_svc_register_11;
+  return_value_svc_register_11=svc_register(transp, (unsigned long int)100007, (unsigned long int)1, ypbindprog_1, (unsigned long int)17);
+  if(return_value_svc_register_11 == 0)
   {
-    char *return_value_gettext$10;
-    return_value_gettext$10=gettext("Unable to register (YPBINDPROG, YPBINDOLDVERS, udp).");
-    log_msg(3, return_value_gettext$10);
+    char *return_value_gettext_10;
+    return_value_gettext_10=gettext("Unable to register (YPBINDPROG, YPBINDOLDVERS, udp).");
+    log_msg(3, return_value_gettext_10);
     return 1;
   }
 
@@ -4257,13 +4257,13 @@ static signed int portmapper_register(void)
     sock=socket(2, 1, 0);
     if(!(sock >= 0))
     {
-      char *return_value_gettext$12;
-      return_value_gettext$12=gettext("Cannot create TCP: %s");
-      signed int *return_value___errno_location$13;
-      return_value___errno_location$13=__errno_location();
-      char *return_value_strerror$14;
-      return_value_strerror$14=strerror(*return_value___errno_location$13);
-      log_msg(3, return_value_gettext$12, return_value_strerror$14);
+      char *return_value_gettext_12;
+      return_value_gettext_12=gettext("Cannot create TCP: %s");
+      signed int *return_value___errno_location_13;
+      return_value___errno_location_13=__errno_location();
+      char *return_value_strerror_14;
+      return_value_strerror_14=strerror(*return_value___errno_location_13);
+      log_msg(3, return_value_gettext_12, return_value_strerror_14);
       return 1;
     }
 
@@ -4280,13 +4280,13 @@ static signed int portmapper_register(void)
     result=bind(sock, (struct sockaddr *)&socket_address, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
     if(!(result >= 0))
     {
-      char *return_value_gettext$15;
-      return_value_gettext$15=gettext("Cannot bind TCP: %s");
-      signed int *return_value___errno_location$16;
-      return_value___errno_location$16=__errno_location();
-      char *return_value_strerror$17;
-      return_value_strerror$17=strerror(*return_value___errno_location$16);
-      log_msg(3, return_value_gettext$15, return_value_strerror$17);
+      char *return_value_gettext_15;
+      return_value_gettext_15=gettext("Cannot bind TCP: %s");
+      signed int *return_value___errno_location_16;
+      return_value___errno_location_16=__errno_location();
+      char *return_value_strerror_17;
+      return_value_strerror_17=strerror(*return_value___errno_location_16);
+      log_msg(3, return_value_gettext_15, return_value_strerror_17);
       return 1;
     }
 
@@ -4297,30 +4297,30 @@ static signed int portmapper_register(void)
   transp=svctcp_create(sock, (unsigned int)0, (unsigned int)0);
   if(transp == ((struct SVCXPRT *)NULL))
   {
-    char *return_value_gettext$18;
-    return_value_gettext$18=gettext("Cannot create tcp service.\n");
-    log_msg(3, return_value_gettext$18);
+    char *return_value_gettext_18;
+    return_value_gettext_18=gettext("Cannot create tcp service.\n");
+    log_msg(3, return_value_gettext_18);
     return 1;
   }
 
   portmapper_tcp_port = (signed int)transp->xp_port;
-  signed int return_value_svc_register$20;
-  return_value_svc_register$20=svc_register(transp, (unsigned long int)100007, (unsigned long int)2, ypbindprog_2, (unsigned long int)6);
-  if(return_value_svc_register$20 == 0)
+  signed int return_value_svc_register_20;
+  return_value_svc_register_20=svc_register(transp, (unsigned long int)100007, (unsigned long int)2, ypbindprog_2, (unsigned long int)6);
+  if(return_value_svc_register_20 == 0)
   {
-    char *return_value_gettext$19;
-    return_value_gettext$19=gettext("Unable to register (YPBINDPROG, YPBINDVERS, tcp).");
-    log_msg(3, return_value_gettext$19);
+    char *return_value_gettext_19;
+    return_value_gettext_19=gettext("Unable to register (YPBINDPROG, YPBINDVERS, tcp).");
+    log_msg(3, return_value_gettext_19);
     return 1;
   }
 
-  signed int return_value_svc_register$22;
-  return_value_svc_register$22=svc_register(transp, (unsigned long int)100007, (unsigned long int)1, ypbindprog_1, (unsigned long int)6);
-  if(return_value_svc_register$22 == 0)
+  signed int return_value_svc_register_22;
+  return_value_svc_register_22=svc_register(transp, (unsigned long int)100007, (unsigned long int)1, ypbindprog_1, (unsigned long int)6);
+  if(return_value_svc_register_22 == 0)
   {
-    char *return_value_gettext$21;
-    return_value_gettext$21=gettext("Unable to register (YPBINDPROG, YPBINDOLDVERS, tcp).");
-    log_msg(3, return_value_gettext$21);
+    char *return_value_gettext_21;
+    return_value_gettext_21=gettext("Unable to register (YPBINDPROG, YPBINDOLDVERS, tcp).");
+    log_msg(3, return_value_gettext_21);
     return 1;
   }
 
@@ -4329,19 +4329,19 @@ static signed int portmapper_register(void)
 
 // pthread_rdwr_init_np
 // file pthread_np.c line 25
-signed int pthread_rdwr_init_np(struct anonymous$14 *rdwrp)
+signed int pthread_rdwr_init_np(struct anonymous_14 *rdwrp)
 {
   rdwrp->readers = 0;
   rdwrp->writers = 0;
   rdwrp->wishwrite = 0;
-  pthread_mutex_init(&rdwrp->mutex, (const union anonymous$12 *)(void *)0);
-  pthread_cond_init(&rdwrp->lock_free, (const union anonymous$12 *)(void *)0);
+  pthread_mutex_init(&rdwrp->mutex, (const union anonymous_12 *)(void *)0);
+  pthread_cond_init(&rdwrp->lock_free, (const union anonymous_12 *)(void *)0);
   return 0;
 }
 
 // pthread_rdwr_rlock_np
 // file pthread_np.h line 39
-signed int pthread_rdwr_rlock_np(struct anonymous$14 *rdwrp)
+signed int pthread_rdwr_rlock_np(struct anonymous_14 *rdwrp)
 {
   pthread_mutex_lock(&rdwrp->mutex);
   while((_Bool)1)
@@ -4365,7 +4365,7 @@ __CPROVER_DUMP_L3:
 
 // pthread_rdwr_runlock_np
 // file pthread_np.h line 41
-signed int pthread_rdwr_runlock_np(struct anonymous$14 *rdwrp)
+signed int pthread_rdwr_runlock_np(struct anonymous_14 *rdwrp)
 {
   signed int status;
   pthread_mutex_lock(&rdwrp->mutex);
@@ -4386,7 +4386,7 @@ signed int pthread_rdwr_runlock_np(struct anonymous$14 *rdwrp)
 
 // pthread_rdwr_wlock_np
 // file pthread_np.h line 40
-signed int pthread_rdwr_wlock_np(struct anonymous$14 *rdwrp)
+signed int pthread_rdwr_wlock_np(struct anonymous_14 *rdwrp)
 {
   pthread_mutex_lock(&rdwrp->mutex);
   rdwrp->wishwrite = rdwrp->wishwrite + 1;
@@ -4412,7 +4412,7 @@ __CPROVER_DUMP_L3:
 
 // pthread_rdwr_wunlock_np
 // file pthread_np.h line 42
-signed int pthread_rdwr_wunlock_np(struct anonymous$14 *rdwrp)
+signed int pthread_rdwr_wunlock_np(struct anonymous_14 *rdwrp)
 {
   signed int status;
   pthread_mutex_lock(&rdwrp->mutex);
@@ -4438,29 +4438,29 @@ extern signed int query_slp(const char *domain)
   signed int err;
   void *hslp;
   signed int found = 0;
-  err=SLPOpen("en", (enum anonymous$15)SLP_FALSE, &hslp);
+  err=SLPOpen("en", (enum anonymous_15)SLP_FALSE, &hslp);
   if(!(err == 0))
   {
-    char *return_value_gettext$1;
-    return_value_gettext$1=gettext("Error opening SLP handle: %i.");
-    log_msg(3, return_value_gettext$1, err);
+    char *return_value_gettext_1;
+    return_value_gettext_1=gettext("Error opening SLP handle: %i.");
+    log_msg(3, return_value_gettext_1, err);
     return 0;
   }
 
   err=SLPFindSrvs(hslp, "ypserv", ((const char *)NULL), ((const char *)NULL), MySLPSrvURLCallback, (void *)&callbackres);
   if(!(callbackres.err == 0) || !(err == 0))
   {
-    char *return_value_gettext$2;
-    return_value_gettext$2=gettext("No service found with SLP.");
-    log_msg(3, return_value_gettext$2);
+    char *return_value_gettext_2;
+    return_value_gettext_2=gettext("No service found with SLP.");
+    log_msg(3, return_value_gettext_2);
     return 0;
   }
 
   SLPClose(hslp);
   cb = &callbackres;
-  _Bool tmp_if_expr$5;
-  unsigned long int return_value_strlen$3;
-  unsigned long int return_value_strlen$4;
+  _Bool tmp_if_expr_5;
+  unsigned long int return_value_strlen_3;
+  unsigned long int return_value_strlen_4;
   while(!(cb == ((struct slpcb *)NULL)))
   {
     if(!(cb->srvurl == ((char *)NULL)))
@@ -4469,23 +4469,23 @@ extern signed int query_slp(const char *domain)
       hostp=strstr(cb->srvurl, "://");
       char *cp;
       if(hostp == ((char *)NULL))
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_strlen$3=strlen(hostp);
-        return_value_strlen$4=strlen("://");
-        tmp_if_expr$5 = return_value_strlen$3 < return_value_strlen$4 + (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
+        return_value_strlen_3=strlen(hostp);
+        return_value_strlen_4=strlen("://");
+        tmp_if_expr_5 = return_value_strlen_3 < return_value_strlen_4 + (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
+      if(tmp_if_expr_5)
       {
         free((void *)cb->srvurl);
         continue;
       }
 
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen("://");
-      hostp = hostp + (signed long int)return_value_strlen$6;
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen("://");
+      hostp = hostp + (signed long int)return_value_strlen_6;
       cp=strrchr(hostp, 47);
       if(!(cp == ((char *)NULL)))
         *cp = (char)0;
@@ -4494,9 +4494,9 @@ extern signed int query_slp(const char *domain)
       if(!(cp == ((char *)NULL)))
         *cp = (char)0;
 
-      signed int return_value_add_server$7;
-      return_value_add_server$7=add_server(domain, hostp, 0);
-      if(!(return_value_add_server$7 == 0))
+      signed int return_value_add_server_7;
+      return_value_add_server_7=add_server(domain, hostp, 0);
+      if(!(return_value_add_server_7 == 0))
       {
         log_msg(6, "SLP: found server %s for domain %s.", hostp, domain);
         found = found + 1;
@@ -4514,13 +4514,13 @@ extern signed int query_slp(const char *domain)
 // file serv_list.c line 93
 static void remove_bindingfile(const char *domain_name)
 {
-  signed long int remove_bindingfile$array_size0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen("/var/yp/binding");
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(domain_name);
-  remove_bindingfile$array_size0 = (signed long int)(return_value_strlen$1 + return_value_strlen$2 + (unsigned long int)10);
-  char path[remove_bindingfile$array_size0];
+  signed long int remove_bindingfile_array_size0;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen("/var/yp/binding");
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(domain_name);
+  remove_bindingfile_array_size0 = (signed long int)(return_value_strlen_1 + return_value_strlen_2 + (unsigned long int)10);
+  char path[remove_bindingfile_array_size0];
   sprintf(path, "%s/%s.1", (const void *)"/var/yp/binding", domain_name);
   unlink(path);
   sprintf(path, "%s/%s.2", (const void *)"/var/yp/binding", domain_name);
@@ -4532,7 +4532,7 @@ static void remove_bindingfile(const char *domain_name)
 static void * sig_handler(void *v_param)
 {
   struct flock lock;
-  struct anonymous$11 sigs_to_catch;
+  struct anonymous_11 sigs_to_catch;
   signed int caught;
   create_pidfile();
   pthread_mutex_lock(&mutex_pid);
@@ -4546,14 +4546,14 @@ static void * sig_handler(void *v_param)
   sigaddset(&sigs_to_catch, 3);
   sigaddset(&sigs_to_catch, 11);
   sigaddset(&sigs_to_catch, 1);
-  char *return_value_gettext$1;
-  char *return_value_gettext$2;
-  char *return_value_gettext$3;
-  signed int return_value_fcntl$5;
-  char *return_value_gettext$4;
-  char *return_value_gettext$6;
-  char *return_value_gettext$7;
-  char *return_value_gettext$8;
+  char *return_value_gettext_1;
+  char *return_value_gettext_2;
+  char *return_value_gettext_3;
+  signed int return_value_fcntl_5;
+  char *return_value_gettext_4;
+  char *return_value_gettext_6;
+  char *return_value_gettext_7;
+  char *return_value_gettext_8;
   while((_Bool)1)
   {
     signed int ret;
@@ -4562,8 +4562,8 @@ static void * sig_handler(void *v_param)
     {
       if(!(ret == 4))
       {
-        return_value_gettext$1=gettext("sigwait failed: ret=%d.");
-        log_msg(3, return_value_gettext$1, ret);
+        return_value_gettext_1=gettext("sigwait failed: ret=%d.");
+        log_msg(3, return_value_gettext_1, ret);
       }
 
       continue;
@@ -4573,8 +4573,8 @@ static void * sig_handler(void *v_param)
     {
       case 17:
       {
-        return_value_gettext$2=gettext("SIGCHLD arrived, what should I do ?");
-        log_msg(3, return_value_gettext$2);
+        return_value_gettext_2=gettext("SIGCHLD arrived, what should I do ?");
+        log_msg(3, return_value_gettext_2);
         break;
       }
       case 15:
@@ -4587,8 +4587,8 @@ static void * sig_handler(void *v_param)
       {
         if(!(debug_flag == 0))
         {
-          return_value_gettext$3=gettext("Signal (%d) for quitting program arrived.");
-          log_msg(7, return_value_gettext$3, caught);
+          return_value_gettext_3=gettext("Signal (%d) for quitting program arrived.");
+          log_msg(7, return_value_gettext_3, caught);
         }
 
         portmapper_disconnect();
@@ -4596,11 +4596,11 @@ static void * sig_handler(void *v_param)
         lock.l_start = (signed long int)0;
         lock.l_whence = (signed short int)0;
         lock.l_len = (signed long int)0;
-        return_value_fcntl$5=fcntl(lock_fd, 6, &lock);
-        if(!(return_value_fcntl$5 == 0))
+        return_value_fcntl_5=fcntl(lock_fd, 6, &lock);
+        if(!(return_value_fcntl_5 == 0))
         {
-          return_value_gettext$4=gettext("cannot unlock pidfile");
-          log_msg(3, return_value_gettext$4);
+          return_value_gettext_4=gettext("cannot unlock pidfile");
+          log_msg(3, return_value_gettext_4);
         }
 
         close(lock_fd);
@@ -4613,8 +4613,8 @@ static void * sig_handler(void *v_param)
       {
         if(!(debug_flag == 0))
         {
-          return_value_gettext$6=gettext("SIGHUP arrived, reloading config file.");
-          log_msg(7, return_value_gettext$6);
+          return_value_gettext_6=gettext("SIGHUP arrived, reloading config file.");
+          log_msg(7, return_value_gettext_6);
         }
 
         clear_server();
@@ -4632,16 +4632,16 @@ static void * sig_handler(void *v_param)
       {
         if(!(debug_flag == 0))
         {
-          return_value_gettext$7=gettext("Ignoring SIGPIPE.");
-          log_msg(7, return_value_gettext$7);
+          return_value_gettext_7=gettext("Ignoring SIGPIPE.");
+          log_msg(7, return_value_gettext_7);
         }
 
         break;
       }
       default:
       {
-        return_value_gettext$8=gettext("Unknown signal: %d");
-        log_msg(3, return_value_gettext$8, caught);
+        return_value_gettext_8=gettext("Unknown signal: %d");
+        log_msg(3, return_value_gettext_8, caught);
       }
     }
   }
@@ -4681,45 +4681,45 @@ extern signed int test_bindings_once(signed int lastcheck, const char *req_domai
 {
   signed int i;
   pthread_rdwr_wlock_np(&domainlock);
-  char *return_value_gettext$1;
-  char *return_value_gettext$2;
+  char *return_value_gettext_1;
+  char *return_value_gettext_2;
   if(!(debug_flag == 0))
   {
     if(!(lastcheck == 0))
     {
-      return_value_gettext$1=gettext("Pinging all active servers.");
-      log_msg(7, return_value_gettext$1);
+      return_value_gettext_1=gettext("Pinging all active servers.");
+      log_msg(7, return_value_gettext_1);
     }
 
     else
     {
-      return_value_gettext$2=gettext("Checking for new fastest server.");
-      log_msg(7, return_value_gettext$2);
+      return_value_gettext_2=gettext("Checking for new fastest server.");
+      log_msg(7, return_value_gettext_2);
     }
   }
 
   i = 0;
-  signed int return_value_strcmp$4;
-  char *return_value_gettext$3;
-  _Bool tmp_if_expr$10;
-  char *return_value_gettext$5;
-  char *return_value_gettext$6;
-  char *return_value_inet_ntoa$7;
-  char *return_value_gettext$8;
+  signed int return_value_strcmp_4;
+  char *return_value_gettext_3;
+  _Bool tmp_if_expr_10;
+  char *return_value_gettext_5;
+  char *return_value_gettext_6;
+  char *return_value_inet_ntoa_7;
+  char *return_value_gettext_8;
   for( ; !(i >= max_domains); i = i + 1)
   {
-    char *test_bindings_once$$1$$2$$domain = (domainlist + (signed long int)i)->domain;
+    char *test_bindings_once__1__2__domain = (domainlist + (signed long int)i)->domain;
     signed int out = 1;
     enum clnt_stat status = (enum clnt_stat)RPC_SUCCESS;
     if(!(req_domain == ((const char *)NULL)))
     {
-      return_value_strcmp$4=strcmp(test_bindings_once$$1$$2$$domain, req_domain);
-      if(!(return_value_strcmp$4 == 0))
+      return_value_strcmp_4=strcmp(test_bindings_once__1__2__domain, req_domain);
+      if(!(return_value_strcmp_4 == 0))
       {
         if(!(debug_flag == 0))
         {
-          return_value_gettext$3=gettext("Requested domain %s, found %s, ignored.");
-          log_msg(7, return_value_gettext$3, req_domain, test_bindings_once$$1$$2$$domain);
+          return_value_gettext_3=gettext("Requested domain %s, found %s, ignored.");
+          log_msg(7, return_value_gettext_3, req_domain, test_bindings_once__1__2__domain);
         }
 
         goto __CPROVER_DUMP_L25;
@@ -4744,41 +4744,41 @@ extern signed int test_bindings_once(signed int lastcheck, const char *req_domai
         struct timeval time_out;
         time_out.tv_sec = (signed long int)3;
         time_out.tv_usec = (signed long int)0;
-        status=(domainlist + (signed long int)i)->client_handle->cl_ops->cl_call((domainlist + (signed long int)i)->client_handle, (unsigned long int)1, (signed int (*)(struct XDR *, void *, ...))ypbind_xdr_domainname, (char *)&test_bindings_once$$1$$2$$domain, (signed int (*)(struct XDR *, void *, ...))xdr_bool, (char *)&out, time_out);
+        status=(domainlist + (signed long int)i)->client_handle->cl_ops->cl_call((domainlist + (signed long int)i)->client_handle, (unsigned long int)1, (signed int (*)(struct XDR *, void *, ...))ypbind_xdr_domainname, (char *)&test_bindings_once__1__2__domain, (signed int (*)(struct XDR *, void *, ...))xdr_bool, (char *)&out, time_out);
       }
 
       if(lastcheck == 0)
-        tmp_if_expr$10 = (domainlist + (signed long int)i)->active != -2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_10 = (domainlist + (signed long int)i)->active != -2 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$10 = (_Bool)0;
-      if(!(out == 1) || !((signed int)status == RPC_SUCCESS) || tmp_if_expr$10)
+        tmp_if_expr_10 = (_Bool)0;
+      if(!(out == 1) || !((signed int)status == RPC_SUCCESS) || tmp_if_expr_10)
       {
         if(!(debug_flag == 0) && !(lastcheck == 0))
         {
           if(!((domainlist + (signed long int)i)->use_broadcast == 0))
           {
-            return_value_gettext$5=gettext("Server for domain '%s' doesn't answer.");
-            log_msg(7, return_value_gettext$5, test_bindings_once$$1$$2$$domain);
+            return_value_gettext_5=gettext("Server for domain '%s' doesn't answer.");
+            log_msg(7, return_value_gettext_5, test_bindings_once__1__2__domain);
           }
 
           else
             if((domainlist + (signed long int)i)->active == -2)
             {
-              return_value_gettext$6=gettext("Server '%s' for domain '%s' doesn't answer.");
-              return_value_inet_ntoa$7=inet_ntoa((domainlist + (signed long int)i)->ypset.addr);
-              log_msg(7, return_value_gettext$6, return_value_inet_ntoa$7, test_bindings_once$$1$$2$$domain);
+              return_value_gettext_6=gettext("Server '%s' for domain '%s' doesn't answer.");
+              return_value_inet_ntoa_7=inet_ntoa((domainlist + (signed long int)i)->ypset.addr);
+              log_msg(7, return_value_gettext_6, return_value_inet_ntoa_7, test_bindings_once__1__2__domain);
             }
 
             else
             {
-              return_value_gettext$8=gettext("Server '%s' for domain '%s' doesn't answer.");
-              log_msg(7, return_value_gettext$8, (domainlist + (signed long int)i)->server[(signed long int)(domainlist + (signed long int)i)->active].host, test_bindings_once$$1$$2$$domain);
+              return_value_gettext_8=gettext("Server '%s' for domain '%s' doesn't answer.");
+              log_msg(7, return_value_gettext_8, (domainlist + (signed long int)i)->server[(signed long int)(domainlist + (signed long int)i)->active].host, test_bindings_once__1__2__domain);
             }
         }
 
         if((domainlist + (signed long int)i)->client_handle == ((struct CLIENT *)NULL))
-          log_msg(3, "ALERT: client_handle=NULL, active=%d, lastcheck=%d, domain=%s", (domainlist + (signed long int)i)->active, lastcheck, test_bindings_once$$1$$2$$domain);
+          log_msg(3, "ALERT: client_handle=NULL, active=%d, lastcheck=%d, domain=%s", (domainlist + (signed long int)i)->active, lastcheck, test_bindings_once__1__2__domain);
 
         else
           (domainlist + (signed long int)i)->client_handle->cl_ops->cl_destroy((domainlist + (signed long int)i)->client_handle);
@@ -4795,9 +4795,9 @@ extern signed int test_bindings_once(signed int lastcheck, const char *req_domai
         lastcheck = 0;
         pthread_rdwr_wunlock_np(&domainlock);
         pthread_mutex_lock(&search_lock);
-        signed int return_value_ping_all$9;
-        return_value_ping_all$9=ping_all(&domainlist[(signed long int)i]);
-        if(return_value_ping_all$9 == 0)
+        signed int return_value_ping_all_9;
+        return_value_ping_all_9=ping_all(&domainlist[(signed long int)i]);
+        if(return_value_ping_all_9 == 0)
         {
           if(!((domainlist + (signed long int)i)->use_broadcast == 0))
             do_broadcast(&domainlist[(signed long int)i]);
@@ -4814,9 +4814,9 @@ extern signed int test_bindings_once(signed int lastcheck, const char *req_domai
     {
       pthread_rdwr_wunlock_np(&domainlock);
       pthread_mutex_lock(&search_lock);
-      signed int return_value_ping_all$11;
-      return_value_ping_all$11=ping_all(&domainlist[(signed long int)i]);
-      if(return_value_ping_all$11 == 0)
+      signed int return_value_ping_all_11;
+      return_value_ping_all_11=ping_all(&domainlist[(signed long int)i]);
+      if(return_value_ping_all_11 == 0)
       {
         if(!((domainlist + (signed long int)i)->use_broadcast == 0))
           do_broadcast(&domainlist[(signed long int)i]);
@@ -4842,8 +4842,8 @@ static void unlink_bindingdir(void)
   char path[4096l];
   struct dirent *dirp;
   dird=opendir("/var/yp/binding");
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
   if(!(dird == ((struct __dirstream *)NULL)))
   {
     do
@@ -4852,11 +4852,11 @@ static void unlink_bindingdir(void)
       if(dirp == ((struct dirent *)NULL))
         break;
 
-      return_value_strcmp$2=strcmp(dirp->d_name, ".");
-      if(!(return_value_strcmp$2 == 0))
+      return_value_strcmp_2=strcmp(dirp->d_name, ".");
+      if(!(return_value_strcmp_2 == 0))
       {
-        return_value_strcmp$1=strcmp(dirp->d_name, "..");
-        if(!(return_value_strcmp$1 == 0))
+        return_value_strcmp_1=strcmp(dirp->d_name, "..");
+        if(!(return_value_strcmp_1 == 0))
         {
           snprintf(path, (unsigned long int)4096, "%s/%s", (const void *)"/var/yp/binding", (const void *)dirp->d_name);
           unlink(path);
@@ -4912,19 +4912,19 @@ static void update_bindingfile(struct binding *entry)
     }
   len = (signed int)(iov[(signed long int)0].iov_len + iov[(signed long int)1].iov_len);
   fd=open(path1, 0100 | 02 | 01000, 0400 | 0200 | 0400 >> 3 | (0400 >> 3) >> 3);
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
   if(!(fd == -1))
   {
-    signed long int return_value_writev$3;
-    return_value_writev$3=writev(fd, iov, 2);
-    if(!(return_value_writev$3 == (signed long int)len))
+    signed long int return_value_writev_3;
+    return_value_writev_3=writev(fd, iov, 2);
+    if(!(return_value_writev_3 == (signed long int)len))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      log_msg(3, "writev (%s): %s", (const void *)path1, return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      log_msg(3, "writev (%s): %s", (const void *)path1, return_value_strerror_2);
       unlink(path1);
     }
 
@@ -4933,24 +4933,24 @@ static void update_bindingfile(struct binding *entry)
 
   else
   {
-    return_value___errno_location$4=__errno_location();
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    log_msg(3, "open(%s): %s", (const void *)path1, return_value_strerror$5);
+    return_value___errno_location_4=__errno_location();
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    log_msg(3, "open(%s): %s", (const void *)path1, return_value_strerror_5);
   }
   fd=open(path2, 0100 | 02 | 01000, 0400 | 0200 | 0400 >> 3 | (0400 >> 3) >> 3);
-  signed int *return_value___errno_location$9;
-  char *return_value_strerror$10;
+  signed int *return_value___errno_location_9;
+  char *return_value_strerror_10;
   if(!(fd == -1))
   {
-    signed long int return_value_writev$8;
-    return_value_writev$8=writev(fd, iov, 2);
-    if(!(return_value_writev$8 == (signed long int)len))
+    signed long int return_value_writev_8;
+    return_value_writev_8=writev(fd, iov, 2);
+    if(!(return_value_writev_8 == (signed long int)len))
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      char *return_value_strerror$7;
-      return_value_strerror$7=strerror(*return_value___errno_location$6);
-      log_msg(3, "writev (%s): %s", (const void *)path2, return_value_strerror$7);
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      char *return_value_strerror_7;
+      return_value_strerror_7=strerror(*return_value___errno_location_6);
+      log_msg(3, "writev (%s): %s", (const void *)path2, return_value_strerror_7);
       unlink(path2);
     }
 
@@ -4959,9 +4959,9 @@ static void update_bindingfile(struct binding *entry)
 
   else
   {
-    return_value___errno_location$9=__errno_location();
-    return_value_strerror$10=strerror(*return_value___errno_location$9);
-    log_msg(3, "open(%s): %s", (const void *)path2, return_value_strerror$10);
+    return_value___errno_location_9=__errno_location();
+    return_value_strerror_10=strerror(*return_value___errno_location_9);
+    log_msg(3, "open(%s): %s", (const void *)path2, return_value_strerror_10);
   }
 
 __CPROVER_DUMP_L10:
@@ -4978,21 +4978,21 @@ static void usage(signed int ret)
 
   else
     output = stdout;
-  char *return_value_gettext$1;
-  return_value_gettext$1=gettext("Usage:\n");
-  fputs(return_value_gettext$1, output);
-  char *return_value_gettext$2;
-  return_value_gettext$2=gettext("\typbind [-broadcast | -ypset | -ypsetme] [-p port] [-f configfile]\n\t  [-no-ping] [-broken-server] [-local-only] [-i ping-interval] [-debug]\n");
-  fputs(return_value_gettext$2, output);
-  char *return_value_gettext$3;
-  return_value_gettext$3=gettext("\t  [-no-dbus]\n");
-  fputs(return_value_gettext$3, output);
-  char *return_value_gettext$4;
-  return_value_gettext$4=gettext("\typbind -c [-f configfile]\n");
-  fputs(return_value_gettext$4, output);
-  char *return_value_gettext$5;
-  return_value_gettext$5=gettext("\typbind --version\n");
-  fputs(return_value_gettext$5, output);
+  char *return_value_gettext_1;
+  return_value_gettext_1=gettext("Usage:\n");
+  fputs(return_value_gettext_1, output);
+  char *return_value_gettext_2;
+  return_value_gettext_2=gettext("\typbind [-broadcast | -ypset | -ypsetme] [-p port] [-f configfile]\n\t  [-no-ping] [-broken-server] [-local-only] [-i ping-interval] [-debug]\n");
+  fputs(return_value_gettext_2, output);
+  char *return_value_gettext_3;
+  return_value_gettext_3=gettext("\t  [-no-dbus]\n");
+  fputs(return_value_gettext_3, output);
+  char *return_value_gettext_4;
+  return_value_gettext_4=gettext("\typbind -c [-f configfile]\n");
+  fputs(return_value_gettext_4, output);
+  char *return_value_gettext_5;
+  return_value_gettext_5=gettext("\typbind --version\n");
+  fputs(return_value_gettext_5, output);
   exit(ret);
 }
 
@@ -5033,16 +5033,16 @@ extern void * watch_dbus_nm(void *param)
 // file ypbind_xdr.c line 21
 extern signed int ypbind_xdr_binding(struct XDR *xdrs, struct ypbind_binding *objp)
 {
-  signed int return_value_xdr_opaque$1;
-  return_value_xdr_opaque$1=xdr_opaque(xdrs, objp->ypbind_binding_addr, (unsigned int)4);
-  if(return_value_xdr_opaque$1 == 0)
+  signed int return_value_xdr_opaque_1;
+  return_value_xdr_opaque_1=xdr_opaque(xdrs, objp->ypbind_binding_addr, (unsigned int)4);
+  if(return_value_xdr_opaque_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_xdr_opaque$2;
-    return_value_xdr_opaque$2=xdr_opaque(xdrs, objp->ypbind_binding_port, (unsigned int)2);
-    if(return_value_xdr_opaque$2 == 0)
+    signed int return_value_xdr_opaque_2;
+    return_value_xdr_opaque_2=xdr_opaque(xdrs, objp->ypbind_binding_port, (unsigned int)2);
+    if(return_value_xdr_opaque_2 == 0)
       return 0;
 
     else
@@ -5054,9 +5054,9 @@ extern signed int ypbind_xdr_binding(struct XDR *xdrs, struct ypbind_binding *ob
 // file ypbind_xdr.c line 5
 extern signed int ypbind_xdr_domainname(struct XDR *xdrs, char **objp)
 {
-  signed int return_value_xdr_string$1;
-  return_value_xdr_string$1=xdr_string(xdrs, objp, (unsigned int)256);
-  if(return_value_xdr_string$1 == 0)
+  signed int return_value_xdr_string_1;
+  return_value_xdr_string_1=xdr_string(xdrs, objp, (unsigned int)256);
+  if(return_value_xdr_string_1 == 0)
     return 0;
 
   else
@@ -5067,16 +5067,16 @@ extern signed int ypbind_xdr_domainname(struct XDR *xdrs, char **objp)
 // file ypbind_xdr.c line 52
 extern signed int ypbind_xdr_oldsetdom(struct XDR *xdrs, struct ypbind_oldsetdom *objp)
 {
-  signed int return_value_xdr_vector$1;
-  return_value_xdr_vector$1=xdr_vector(xdrs, (char *)objp->ypoldsetdom_domain, (unsigned int)256, (unsigned int)sizeof(char) /*1ul*/ , (signed int (*)(struct XDR *, void *, ...))xdr_char);
-  if(return_value_xdr_vector$1 == 0)
+  signed int return_value_xdr_vector_1;
+  return_value_xdr_vector_1=xdr_vector(xdrs, (char *)objp->ypoldsetdom_domain, (unsigned int)256, (unsigned int)sizeof(char) /*1ul*/ , (signed int (*)(struct XDR *, void *, ...))xdr_char);
+  if(return_value_xdr_vector_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_ypbind_xdr_binding$2;
-    return_value_ypbind_xdr_binding$2=ypbind_xdr_binding(xdrs, &objp->ypoldsetdom_binding);
-    if(return_value_ypbind_xdr_binding$2 == 0)
+    signed int return_value_ypbind_xdr_binding_2;
+    return_value_ypbind_xdr_binding_2=ypbind_xdr_binding(xdrs, &objp->ypoldsetdom_binding);
+    if(return_value_ypbind_xdr_binding_2 == 0)
       return 0;
 
     else
@@ -5088,11 +5088,11 @@ extern signed int ypbind_xdr_oldsetdom(struct XDR *xdrs, struct ypbind_oldsetdom
 // file ypbind_xdr.c line 31
 extern signed int ypbind_xdr_resp(struct XDR *xdrs, struct ypbind_resp *objp)
 {
-  signed int return_value_ypbind_xdr_resptype$1;
-  return_value_ypbind_xdr_resptype$1=ypbind_xdr_resptype(xdrs, &objp->ypbind_status);
-  signed int return_value_xdr_u_int$2;
-  signed int return_value_ypbind_xdr_binding$3;
-  if(return_value_ypbind_xdr_resptype$1 == 0)
+  signed int return_value_ypbind_xdr_resptype_1;
+  return_value_ypbind_xdr_resptype_1=ypbind_xdr_resptype(xdrs, &objp->ypbind_status);
+  signed int return_value_xdr_u_int_2;
+  signed int return_value_ypbind_xdr_binding_3;
+  if(return_value_ypbind_xdr_resptype_1 == 0)
     return 0;
 
   else
@@ -5101,16 +5101,16 @@ extern signed int ypbind_xdr_resp(struct XDR *xdrs, struct ypbind_resp *objp)
     {
       case YPBIND_FAIL_VAL:
       {
-        return_value_xdr_u_int$2=xdr_u_int(xdrs, &objp->ypbind_resp_u.ypbind_error);
-        if(return_value_xdr_u_int$2 == 0)
+        return_value_xdr_u_int_2=xdr_u_int(xdrs, &objp->ypbind_resp_u.ypbind_error);
+        if(return_value_xdr_u_int_2 == 0)
           return 0;
 
         break;
       }
       case YPBIND_SUCC_VAL:
       {
-        return_value_ypbind_xdr_binding$3=ypbind_xdr_binding(xdrs, &objp->ypbind_resp_u.ypbind_bindinfo);
-        if(return_value_ypbind_xdr_binding$3 == 0)
+        return_value_ypbind_xdr_binding_3=ypbind_xdr_binding(xdrs, &objp->ypbind_resp_u.ypbind_bindinfo);
+        if(return_value_ypbind_xdr_binding_3 == 0)
           return 0;
 
         break;
@@ -5126,9 +5126,9 @@ extern signed int ypbind_xdr_resp(struct XDR *xdrs, struct ypbind_resp *objp)
 // file ypbind_xdr.c line 13
 extern signed int ypbind_xdr_resptype(struct XDR *xdrs, enum ypbind_resptype *objp)
 {
-  signed int return_value_xdr_enum$1;
-  return_value_xdr_enum$1=xdr_enum(xdrs, (signed int *)objp);
-  if(return_value_xdr_enum$1 == 0)
+  signed int return_value_xdr_enum_1;
+  return_value_xdr_enum_1=xdr_enum(xdrs, (signed int *)objp);
+  if(return_value_xdr_enum_1 == 0)
     return 0;
 
   else
@@ -5139,23 +5139,23 @@ extern signed int ypbind_xdr_resptype(struct XDR *xdrs, enum ypbind_resptype *ob
 // file ypbind_xdr.c line 63
 extern signed int ypbind_xdr_setdom(struct XDR *xdrs, struct ypbind_setdom *objp)
 {
-  signed int return_value_ypbind_xdr_domainname$1;
-  return_value_ypbind_xdr_domainname$1=ypbind_xdr_domainname(xdrs, &objp->ypsetdom_domain);
-  if(return_value_ypbind_xdr_domainname$1 == 0)
+  signed int return_value_ypbind_xdr_domainname_1;
+  return_value_ypbind_xdr_domainname_1=ypbind_xdr_domainname(xdrs, &objp->ypsetdom_domain);
+  if(return_value_ypbind_xdr_domainname_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_ypbind_xdr_binding$2;
-    return_value_ypbind_xdr_binding$2=ypbind_xdr_binding(xdrs, &objp->ypsetdom_binding);
-    if(return_value_ypbind_xdr_binding$2 == 0)
+    signed int return_value_ypbind_xdr_binding_2;
+    return_value_ypbind_xdr_binding_2=ypbind_xdr_binding(xdrs, &objp->ypsetdom_binding);
+    if(return_value_ypbind_xdr_binding_2 == 0)
       return 0;
 
     else
     {
-      signed int return_value_xdr_u_int$3;
-      return_value_xdr_u_int$3=xdr_u_int(xdrs, &objp->ypsetdom_vers);
-      if(return_value_xdr_u_int$3 == 0)
+      signed int return_value_xdr_u_int_3;
+      return_value_xdr_u_int_3=xdr_u_int(xdrs, &objp->ypsetdom_vers);
+      if(return_value_xdr_u_int_3 == 0)
         return 0;
 
       else
@@ -5171,32 +5171,32 @@ static signed int ypbindproc_domain(char *domain_name, struct ypbind_resp *resul
   memset((void *)result, 0, sizeof(struct ypbind_resp) /*16ul*/ );
   result->ypbind_status = (enum ypbind_resptype)YPBIND_FAIL_VAL;
   result->ypbind_resp_u.ypbind_error = (unsigned int)2;
-  char *return_value_strchr$2;
-  return_value_strchr$2=strchr(domain_name, 47);
-  if(!(return_value_strchr$2 == ((char *)NULL)))
+  char *return_value_strchr_2;
+  return_value_strchr_2=strchr(domain_name, 47);
+  if(!(return_value_strchr_2 == ((char *)NULL)))
   {
-    char *return_value_gettext$1;
-    return_value_gettext$1=gettext("Domain name '%s' has embedded slash -- rejecting.");
-    log_msg(3, return_value_gettext$1, domain_name);
+    char *return_value_gettext_1;
+    return_value_gettext_1=gettext("Domain name '%s' has embedded slash -- rejecting.");
+    log_msg(3, return_value_gettext_1, domain_name);
     return 1;
   }
 
   test_bindings_once(1, domain_name);
   find_domain(domain_name, result);
-  char *return_value_gettext$3;
-  char *return_value_gettext$4;
+  char *return_value_gettext_3;
+  char *return_value_gettext_4;
   if(!(debug_flag == 0))
   {
     if((signed int)result->ypbind_status == YPBIND_FAIL_VAL)
     {
-      return_value_gettext$3=gettext("Status: YPBIND_FAIL_VAL");
-      log_msg(7, return_value_gettext$3);
+      return_value_gettext_3=gettext("Status: YPBIND_FAIL_VAL");
+      log_msg(7, return_value_gettext_3);
     }
 
     else
     {
-      return_value_gettext$4=gettext("Status: YPBIND_SUCC_VAL");
-      log_msg(7, return_value_gettext$4);
+      return_value_gettext_4=gettext("Status: YPBIND_SUCC_VAL");
+      log_msg(7, return_value_gettext_4);
     }
   }
 
@@ -5210,9 +5210,9 @@ extern signed int ypbindproc_domain_2_svc(char **argp, struct ypbind_resp *resul
   if(!(debug_flag == 0))
     log_msg(7, "ypbindproc_domain_2_svc (%s)", *argp);
 
-  signed int return_value_ypbindproc_domain$1;
-  return_value_ypbindproc_domain$1=ypbindproc_domain(*argp, result, rqstp);
-  return return_value_ypbindproc_domain$1;
+  signed int return_value_ypbindproc_domain_1;
+  return_value_ypbindproc_domain_1=ypbindproc_domain(*argp, result, rqstp);
+  return return_value_ypbindproc_domain_1;
 }
 
 // ypbindproc_null_2_svc
@@ -5230,9 +5230,9 @@ extern signed int ypbindproc_olddomain_1_svc(char **argp, struct ypbind_resp *re
   if(!(debug_flag == 0))
     log_msg(7, "ypbindproc_olddomain_1_svc (%s)", *argp);
 
-  signed int return_value_ypbindproc_domain$1;
-  return_value_ypbindproc_domain$1=ypbindproc_domain(*argp, result, rqstp);
-  return return_value_ypbindproc_domain$1;
+  signed int return_value_ypbindproc_domain_1;
+  return_value_ypbindproc_domain_1=ypbindproc_domain(*argp, result, rqstp);
+  return return_value_ypbindproc_domain_1;
 }
 
 // ypbindproc_oldnull_1_svc
@@ -5251,41 +5251,41 @@ extern signed int ypbindproc_oldsetdom_1_svc(struct ypbind_oldsetdom *argp, void
     log_msg(7, "ypbindproc_oldsetdom_1_svc (%s)", (const void *)argp->ypoldsetdom_domain);
 
   memset(result, 0, sizeof(char *) /*8ul*/ );
-  signed int return_value_ypbindproc_setdom$1;
-  return_value_ypbindproc_setdom$1=ypbindproc_setdom(argp->ypoldsetdom_domain, &argp->ypoldsetdom_binding, &rqstp->rq_xprt->xp_raddr);
-  return return_value_ypbindproc_setdom$1;
+  signed int return_value_ypbindproc_setdom_1;
+  return_value_ypbindproc_setdom_1=ypbindproc_setdom(argp->ypoldsetdom_domain, &argp->ypoldsetdom_binding, &rqstp->rq_xprt->xp_raddr);
+  return return_value_ypbindproc_setdom_1;
 }
 
 // ypbindproc_setdom
 // file ypbind_server.c line 106
 static signed int ypbindproc_setdom(const char *domain_name, struct ypbind_binding *binding, struct sockaddr_in *fromhost)
 {
-  char *return_value_strchr$2;
-  return_value_strchr$2=strchr(domain_name, 47);
-  if(!(return_value_strchr$2 == ((char *)NULL)))
+  char *return_value_strchr_2;
+  return_value_strchr_2=strchr(domain_name, 47);
+  if(!(return_value_strchr_2 == ((char *)NULL)))
   {
-    char *return_value_gettext$1;
-    return_value_gettext$1=gettext("Domain name '%s' has embedded slash -- rejecting.");
-    log_msg(3, return_value_gettext$1, domain_name);
+    char *return_value_gettext_1;
+    return_value_gettext_1=gettext("Domain name '%s' has embedded slash -- rejecting.");
+    log_msg(3, return_value_gettext_1, domain_name);
     return 1;
   }
 
-  unsigned int return_value_htonl$5;
-  char *return_value_gettext$3;
-  char *return_value_inet_ntoa$4;
-  char *return_value_gettext$6;
+  unsigned int return_value_htonl_5;
+  char *return_value_gettext_3;
+  char *return_value_inet_ntoa_4;
+  char *return_value_gettext_6;
   switch(ypset)
   {
     case 2:
     {
-      return_value_htonl$5=htonl((unsigned int)0x7f000001);
-      if(!(fromhost->sin_addr.s_addr == return_value_htonl$5))
+      return_value_htonl_5=htonl((unsigned int)0x7f000001);
+      if(!(fromhost->sin_addr.s_addr == return_value_htonl_5))
       {
         if(!(debug_flag == 0))
         {
-          return_value_gettext$3=gettext("User from '%s' try's to change the binding.");
-          return_value_inet_ntoa$4=inet_ntoa(fromhost->sin_addr);
-          log_msg(7, return_value_gettext$3, return_value_inet_ntoa$4);
+          return_value_gettext_3=gettext("User from '%s' try's to change the binding.");
+          return_value_inet_ntoa_4=inet_ntoa(fromhost->sin_addr);
+          log_msg(7, return_value_gettext_3, return_value_inet_ntoa_4);
         }
 
         return 1;
@@ -5299,18 +5299,18 @@ static signed int ypbindproc_setdom(const char *domain_name, struct ypbind_bindi
 
     default:
     {
-      return_value_gettext$6=gettext("Changing the binding is not allowed.");
-      log_msg(3, return_value_gettext$6);
+      return_value_gettext_6=gettext("Changing the binding is not allowed.");
+      log_msg(3, return_value_gettext_6);
       return 1;
     }
   }
-  unsigned short int return_value_ntohs$8;
-  return_value_ntohs$8=ntohs(fromhost->sin_port);
-  if((signed int)return_value_ntohs$8 >= 1024)
+  unsigned short int return_value_ntohs_8;
+  return_value_ntohs_8=ntohs(fromhost->sin_port);
+  if((signed int)return_value_ntohs_8 >= 1024)
   {
-    char *return_value_gettext$7;
-    return_value_gettext$7=gettext("SETDOM request doesn't come from reserved port.");
-    log_msg(3, return_value_gettext$7);
+    char *return_value_gettext_7;
+    return_value_gettext_7=gettext("SETDOM request doesn't come from reserved port.");
+    log_msg(3, return_value_gettext_7);
     return 1;
   }
 
@@ -5326,17 +5326,17 @@ extern signed int ypbindproc_setdom_2_svc(struct ypbind_setdom *argp, void *resu
     log_msg(7, "ypbindproc_setdom_2_svc (%s)", argp->ypsetdom_domain);
 
   memset(result, 0, sizeof(char *) /*8ul*/ );
-  signed int return_value_ypbindproc_setdom$1;
-  return_value_ypbindproc_setdom$1=ypbindproc_setdom(argp->ypsetdom_domain, &argp->ypsetdom_binding, &rqstp->rq_xprt->xp_raddr);
-  return return_value_ypbindproc_setdom$1;
+  signed int return_value_ypbindproc_setdom_1;
+  return_value_ypbindproc_setdom_1=ypbindproc_setdom(argp->ypsetdom_domain, &argp->ypsetdom_binding, &rqstp->rq_xprt->xp_raddr);
+  return return_value_ypbindproc_setdom_1;
 }
 
 // ypbindprog_1
 // file local.h line 34
 extern void ypbindprog_1(struct svc_req *rqstp, struct SVCXPRT *transp)
 {
-  /* tag-#anon#lUN[*{S8}$S8$'ypbindproc_olddomain_1_arg'||SYM#tag-ypbind_oldsetdom#'ypbindproc_oldsetdom_1_arg'||U2112'$pad'|] */
-union anonymous$0
+  /* tag-#anon#lUN[*{S8}_S8_'ypbindproc_olddomain_1_arg'||SYM#tag-ypbind_oldsetdom#'ypbindproc_oldsetdom_1_arg'||U2112'_pad'|] */
+union anonymous_0
 {
   // ypbindproc_olddomain_1_arg
   char *ypbindproc_olddomain_1_arg;
@@ -5346,9 +5346,9 @@ union anonymous$0
 
 /* */
   ;
-  union anonymous$0 argument;
+  union anonymous_0 argument;
   /* tag-#anon#lUN[SYM#tag-ypbind_resp#'ypbindproc_olddomain_1_res'|] */
-union anonymous$1
+union anonymous_1
 {
   // ypbindproc_olddomain_1_res
   struct ypbind_resp ypbindproc_olddomain_1_res;
@@ -5356,7 +5356,7 @@ union anonymous$1
 
 /* */
   ;
-  union anonymous$1 result;
+  union anonymous_1 result;
   signed int retval;
   signed int (*xdr_argument)(struct XDR *, void *, ...);
   signed int (*xdr_result)(struct XDR *, void *, ...);
@@ -5390,12 +5390,12 @@ union anonymous$1
       goto __CPROVER_DUMP_L10;
     }
   }
-  memset((void *)(char *)&argument, 0, sizeof(union anonymous$0) /*264ul*/ );
+  memset((void *)(char *)&argument, 0, sizeof(union anonymous_0) /*264ul*/ );
   signed int return_value;
   return_value=transp->xp_ops->xp_getargs(transp, xdr_argument, (char *)&argument);
-  signed int return_value_svc_sendreply$1;
-  char *return_value_gettext$2;
-  char *return_value_gettext$3;
+  signed int return_value_svc_sendreply_1;
+  char *return_value_gettext_2;
+  char *return_value_gettext_3;
   if(return_value == 0)
     svcerr_decode(transp);
 
@@ -5406,8 +5406,8 @@ union anonymous$1
     retval = (signed int)return_value_1;
     if(retval >= 1)
     {
-      return_value_svc_sendreply$1=svc_sendreply(transp, xdr_result, (char *)&result);
-      if(return_value_svc_sendreply$1 == 0)
+      return_value_svc_sendreply_1=svc_sendreply(transp, xdr_result, (char *)&result);
+      if(return_value_svc_sendreply_1 == 0)
         svcerr_systemerr(transp);
 
     }
@@ -5416,16 +5416,16 @@ union anonymous$1
     return_value_2=transp->xp_ops->xp_freeargs(transp, xdr_argument, (char *)&argument);
     if(return_value_2 == 0)
     {
-      return_value_gettext$2=gettext("unable to free arguments");
-      log_msg(3, return_value_gettext$2);
+      return_value_gettext_2=gettext("unable to free arguments");
+      log_msg(3, return_value_gettext_2);
     }
 
-    signed int return_value_ypbindprog_1_freeresult$4;
-    return_value_ypbindprog_1_freeresult$4=ypbindprog_1_freeresult(transp, xdr_result, (char *)&result);
-    if(return_value_ypbindprog_1_freeresult$4 == 0)
+    signed int return_value_ypbindprog_1_freeresult_4;
+    return_value_ypbindprog_1_freeresult_4=ypbindprog_1_freeresult(transp, xdr_result, (char *)&result);
+    if(return_value_ypbindprog_1_freeresult_4 == 0)
     {
-      return_value_gettext$3=gettext("unable to free results");
-      log_msg(3, return_value_gettext$3);
+      return_value_gettext_3=gettext("unable to free results");
+      log_msg(3, return_value_gettext_3);
     }
 
   }
@@ -5446,8 +5446,8 @@ extern signed int ypbindprog_1_freeresult(struct SVCXPRT *transp, signed int (*x
 // file local.h line 35
 extern void ypbindprog_2(struct svc_req *rqstp, struct SVCXPRT *transp)
 {
-  /* tag-#anon#lUN[*{S8}$S8$'ypbindproc_domain_2_arg'||SYM#tag-ypbind_setdom#'ypbindproc_setdom_2_arg'|] */
-union anonymous$2
+  /* tag-#anon#lUN[*{S8}_S8_'ypbindproc_domain_2_arg'||SYM#tag-ypbind_setdom#'ypbindproc_setdom_2_arg'|] */
+union anonymous_2
 {
   // ypbindproc_domain_2_arg
   char *ypbindproc_domain_2_arg;
@@ -5457,9 +5457,9 @@ union anonymous$2
 
 /* */
   ;
-  union anonymous$2 argument;
+  union anonymous_2 argument;
   /* tag-#anon#lUN[SYM#tag-ypbind_resp#'ypbindproc_domain_2_res'|] */
-union anonymous$3
+union anonymous_3
 {
   // ypbindproc_domain_2_res
   struct ypbind_resp ypbindproc_domain_2_res;
@@ -5467,7 +5467,7 @@ union anonymous$3
 
 /* */
   ;
-  union anonymous$3 result;
+  union anonymous_3 result;
   signed int retval;
   signed int (*xdr_argument)(struct XDR *, void *, ...);
   signed int (*xdr_result)(struct XDR *, void *, ...);
@@ -5501,12 +5501,12 @@ union anonymous$3
       goto __CPROVER_DUMP_L10;
     }
   }
-  memset((void *)(char *)&argument, 0, sizeof(union anonymous$2) /*24ul*/ );
+  memset((void *)(char *)&argument, 0, sizeof(union anonymous_2) /*24ul*/ );
   signed int return_value;
   return_value=transp->xp_ops->xp_getargs(transp, xdr_argument, (char *)&argument);
-  signed int return_value_svc_sendreply$1;
-  char *return_value_gettext$2;
-  char *return_value_gettext$3;
+  signed int return_value_svc_sendreply_1;
+  char *return_value_gettext_2;
+  char *return_value_gettext_3;
   if(return_value == 0)
     svcerr_decode(transp);
 
@@ -5517,8 +5517,8 @@ union anonymous$3
     retval = (signed int)return_value_1;
     if(retval >= 1)
     {
-      return_value_svc_sendreply$1=svc_sendreply(transp, xdr_result, (char *)&result);
-      if(return_value_svc_sendreply$1 == 0)
+      return_value_svc_sendreply_1=svc_sendreply(transp, xdr_result, (char *)&result);
+      if(return_value_svc_sendreply_1 == 0)
         svcerr_systemerr(transp);
 
     }
@@ -5527,16 +5527,16 @@ union anonymous$3
     return_value_2=transp->xp_ops->xp_freeargs(transp, xdr_argument, (char *)&argument);
     if(return_value_2 == 0)
     {
-      return_value_gettext$2=gettext("unable to free arguments");
-      log_msg(3, return_value_gettext$2);
+      return_value_gettext_2=gettext("unable to free arguments");
+      log_msg(3, return_value_gettext_2);
     }
 
-    signed int return_value_ypbindprog_2_freeresult$4;
-    return_value_ypbindprog_2_freeresult$4=ypbindprog_2_freeresult(transp, xdr_result, (char *)&result);
-    if(return_value_ypbindprog_2_freeresult$4 == 0)
+    signed int return_value_ypbindprog_2_freeresult_4;
+    return_value_ypbindprog_2_freeresult_4=ypbindprog_2_freeresult(transp, xdr_result, (char *)&result);
+    if(return_value_ypbindprog_2_freeresult_4 == 0)
     {
-      return_value_gettext$3=gettext("unable to free results");
-      log_msg(3, return_value_gettext$3);
+      return_value_gettext_3=gettext("unable to free results");
+      log_msg(3, return_value_gettext_3);
     }
 
   }

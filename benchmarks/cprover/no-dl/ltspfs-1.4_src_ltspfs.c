@@ -1,38 +1,38 @@
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]
 // file /usr/include/X11/Xlib.h line 257
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private1'||S32'fd'||S32'private2'||S32'proto_major_version'||S32'proto_minor_version'||*{S8}$S8$'vendor'||U64'private3'||U64'private4'||U64'private5'||S32'private6'||U32'$pad0'||*{U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64}$U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64$'resource_alloc'||S32'byte_order'||S32'bitmap_unit'||S32'bitmap_pad'||S32'bitmap_bit_order'||S32'nformats'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]#$'pixmap_format'||S32'private8'||S32'release'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private9'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private10'||S32'qlen'||U32'$pad2'||U64'last_request_read'||U64'request'||*{S8}$S8$'private11'||*{S8}$S8$'private12'||*{S8}$S8$'private13'||*{S8}$S8$'private14'||U32'max_request_size'||U32'$pad3'||*{SYM#tag-_XrmHashBucketRec#}$SYM#tag-_XrmHashBucketRec#$'db'||*{S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32}$S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32$'private15'||*{S8}$S8$'display_name'||S32'default_screen'||S32'nscreens'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#$'screens'||U64'motion_buffer'||U64'private16'||S32'min_keycode'||S32'max_keycode'||*{S8}$S8$'private17'||*{S8}$S8$'private18'||S32'private19'||U32'$pad4'||*{S8}$S8$'xdefaults'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private1'||S32'fd'||S32'private2'||S32'proto_major_version'||S32'proto_minor_version'||*{S8}_S8_'vendor'||U64'private3'||U64'private4'||U64'private5'||S32'private6'||U32'_pad0'||*{U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64}_U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64_'resource_alloc'||S32'byte_order'||S32'bitmap_unit'||S32'bitmap_pad'||S32'bitmap_bit_order'||S32'nformats'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]#_'pixmap_format'||S32'private8'||S32'release'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private9'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private10'||S32'qlen'||U32'_pad2'||U64'last_request_read'||U64'request'||*{S8}_S8_'private11'||*{S8}_S8_'private12'||*{S8}_S8_'private13'||*{S8}_S8_'private14'||U32'max_request_size'||U32'_pad3'||*{SYM#tag-_XrmHashBucketRec#}_SYM#tag-_XrmHashBucketRec#_'db'||*{S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32}_S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32_'private15'||*{S8}_S8_'display_name'||S32'default_screen'||S32'nscreens'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#_'screens'||U64'motion_buffer'||U64'private16'||S32'min_keycode'||S32'max_keycode'||*{S8}_S8_'private17'||*{S8}_S8_'private18'||S32'private19'||U32'_pad4'||*{S8}_S8_'xdefaults'|]
 // file /usr/include/X11/Xlib.h line 493
 struct anonymous;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]
 // file /usr/include/X11/Xlib.h line 280
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]
 // file /usr/include/X11/Xlib.h line 227
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[ARR2{S32}$S32$'__val'|]
+// tag-#anon#ST[ARR2{S32}_S32_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/types.h line 134
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]
+// tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]
 // file /usr/include/X11/Xlib.h line 243
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$3;
+union anonymous_3;
 
 // tag-XDR
 // file /usr/include/rpc/xdr.h line 109
@@ -167,15 +167,15 @@ extern signed int * __errno_location(void);
 // _readn
 // file common.c line 132
 signed int _readn(signed int fd, char *ptr, signed int nbytes, signed int timeout_secs, void (*timeout_function)(), signed int doselect);
-// _readn::timeout_function$object
+// _readn::timeout_function_object
 //
-void timeout_function$object();
+void timeout_function_object();
 // _writen
 // file common.c line 177
 signed int _writen(signed int fd, char *ptr, signed int nbytes, signed int timeout_secs, void (*timeout_function)(), signed int doselect);
-// _writen::timeout_function$object
+// _writen::timeout_function_object
 //
-void timeout_function$object();
+void timeout_function_object();
 // bcopy
 // file /usr/include/string.h line 454
 extern void bcopy(const void *, void *, unsigned long int);
@@ -272,9 +272,9 @@ static signed int ltspfs_read(const char *path, char *buf, unsigned long int siz
 // ltspfs_readdir
 // file ltspfs.c line 433
 static signed int ltspfs_readdir(const char *path, void *buf, signed int (*filler)(void *, const char *, struct stat *, signed long int), signed long int offset, struct fuse_file_info_compat *fi);
-// ltspfs_readdir::filler$object
+// ltspfs_readdir::filler_object
 //
-signed int filler$object(void *, const char *, struct stat *, signed long int);
+signed int filler_object(void *, const char *, struct stat *, signed long int);
 // ltspfs_readlink
 // file ltspfs.c line 379
 static signed int ltspfs_readlink(const char *path, char *buf, unsigned long int size);
@@ -337,13 +337,13 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_detach(unsigned long int);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$3 *, const union anonymous$7 *);
+extern signed int pthread_mutex_init(union anonymous_3 *, const union anonymous_7 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$3 *);
+extern signed int pthread_mutex_lock(union anonymous_3 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$3 *);
+extern signed int pthread_mutex_unlock(union anonymous_3 *);
 // read
 // file /usr/include/unistd.h line 360
 extern signed long int read(signed int, void *, unsigned long int);
@@ -355,7 +355,7 @@ signed int readn(signed int fd, char *ptr, signed int maxlen);
 signed int readpacket(struct XDR *in, char *packetbuffer);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$4 *, struct anonymous$4 *, struct anonymous$4 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_4 *, struct anonymous_4 *, struct anonymous_4 *, struct timeval *);
 // send_recv
 // file ltspfs.c line 145
 void send_recv(struct XDR *in, struct XDR *out, char *inbuf, char *outbuf);
@@ -423,7 +423,7 @@ extern signed int xdr_u_longlong_t(struct XDR *, unsigned long int *);
 // file /usr/include/rpc/xdr.h line 350
 extern void xdrmem_create(struct XDR *, char *, unsigned int, enum xdr_op);
 
-struct anonymous$5
+struct anonymous_5
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -442,11 +442,11 @@ struct anonymous$5
   // ndepths
   signed int ndepths;
   // depths
-  struct anonymous$1 *depths;
+  struct anonymous_1 *depths;
   // root_depth
   signed int root_depth;
   // root_visual
-  struct anonymous$0 *root_visual;
+  struct anonymous_0 *root_visual;
   // default_gc
   struct _XGC *default_gc;
   // cmap
@@ -504,7 +504,7 @@ struct anonymous
   // nformats
   signed int nformats;
   // pixmap_format
-  struct anonymous$6 *pixmap_format;
+  struct anonymous_6 *pixmap_format;
   // private8
   signed int private8;
   // release
@@ -540,7 +540,7 @@ struct anonymous
   // nscreens
   signed int nscreens;
   // screens
-  struct anonymous$5 *screens;
+  struct anonymous_5 *screens;
   // motion_buffer
   unsigned long int motion_buffer;
   // private16
@@ -559,7 +559,7 @@ struct anonymous
   char *xdefaults;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -571,7 +571,7 @@ struct anonymous$6
   signed int scanline_pad;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -591,29 +591,29 @@ struct anonymous$0
   signed int map_entries;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __val
   signed int __val[2l];
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // depth
   signed int depth;
   // nvisuals
   signed int nvisuals;
   // visuals
-  struct anonymous$0 *visuals;
+  struct anonymous_0 *visuals;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __size
   char __size[4l];
@@ -649,7 +649,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -962,7 +962,7 @@ struct statfs
   // f_ffree
   unsigned long int f_ffree;
   // f_fsid
-  struct anonymous$2 f_fsid;
+  struct anonymous_2 f_fsid;
   // f_namelen
   signed long int f_namelen;
   // f_frsize
@@ -1025,7 +1025,7 @@ static struct fuse_context *fc = (struct fuse_context *)(void *)0;
 static char *fuse_mount_point;
 // lock
 // file ltspfs.c line 50
-static union anonymous$3 lock;
+static union anonymous_3 lock;
 // ltspfs_oper
 // file ltspfs.c line 1012
 static struct fuse_operations_compat22 ltspfs_oper;
@@ -1067,14 +1067,14 @@ signed int _readn(signed int fd, char *ptr, signed int nbytes, signed int timeou
   signed int nleft;
   signed int nread;
   signed int r;
-  struct anonymous$4 set;
+  struct anonymous_4 set;
   struct timeval ltspfs_timeout;
   struct timeval *timeout_ptr = &ltspfs_timeout;
   do
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$4) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&set)->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_4) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&set)->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   (&set)->__fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&set)->__fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
@@ -1086,7 +1086,7 @@ signed int _readn(signed int fd, char *ptr, signed int nbytes, signed int timeou
   {
     ltspfs_timeout.tv_sec = (signed long int)timeout_secs;
     ltspfs_timeout.tv_usec = (signed long int)0;
-    r=select(1024, &set, (struct anonymous$4 *)(void *)0, (struct anonymous$4 *)(void *)0, timeout_ptr);
+    r=select(1024, &set, (struct anonymous_4 *)(void *)0, (struct anonymous_4 *)(void *)0, timeout_ptr);
     if(!(r >= 0))
       return r;
 
@@ -1096,9 +1096,9 @@ signed int _readn(signed int fd, char *ptr, signed int nbytes, signed int timeou
 
       else
       {
-        signed long int return_value_read$1;
-        return_value_read$1=read(fd, (void *)ptr, (unsigned long int)nleft);
-        nread = (signed int)return_value_read$1;
+        signed long int return_value_read_1;
+        return_value_read_1=read(fd, (void *)ptr, (unsigned long int)nleft);
+        nread = (signed int)return_value_read_1;
         if(!(nread >= 0))
           return nread;
 
@@ -1120,14 +1120,14 @@ signed int _writen(signed int fd, char *ptr, signed int nbytes, signed int timeo
   signed int nleft;
   signed int nwritten;
   signed int r;
-  struct anonymous$4 set;
+  struct anonymous_4 set;
   struct timeval ltspfs_timeout;
   struct timeval *timeout_ptr = &ltspfs_timeout;
   do
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$4) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&set)->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_4) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&set)->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   (&set)->__fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&set)->__fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
@@ -1139,7 +1139,7 @@ signed int _writen(signed int fd, char *ptr, signed int nbytes, signed int timeo
   {
     ltspfs_timeout.tv_sec = (signed long int)timeout_secs;
     ltspfs_timeout.tv_usec = (signed long int)0;
-    r=select(1024, (struct anonymous$4 *)(void *)0, &set, (struct anonymous$4 *)(void *)0, timeout_ptr);
+    r=select(1024, (struct anonymous_4 *)(void *)0, &set, (struct anonymous_4 *)(void *)0, timeout_ptr);
     if(!(r >= 0))
       return r;
 
@@ -1149,9 +1149,9 @@ signed int _writen(signed int fd, char *ptr, signed int nbytes, signed int timeo
 
       else
       {
-        signed long int return_value_write$1;
-        return_value_write$1=write(fd, (const void *)ptr, (unsigned long int)nleft);
-        nwritten = (signed int)return_value_write$1;
+        signed long int return_value_write_1;
+        return_value_write_1=write(fd, (const void *)ptr, (unsigned long int)nleft);
+        nwritten = (signed int)return_value_write_1;
         if(!(nwritten >= 1))
           return nwritten;
 
@@ -1176,14 +1176,14 @@ signed int bindsocket(signed int port)
   serv_addr.sin_family = (unsigned short int)2;
   serv_addr.sin_addr.s_addr=htonl((unsigned int)0x00000000);
   serv_addr.sin_port=htons((unsigned short int)port);
-  signed int return_value_bind$1;
-  return_value_bind$1=bind(s, (struct sockaddr *)&serv_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-  if(!(return_value_bind$1 >= 0))
+  signed int return_value_bind_1;
+  return_value_bind_1=bind(s, (struct sockaddr *)&serv_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+  if(!(return_value_bind_1 >= 0))
     error_die("Can't bind port");
 
-  signed int return_value_listen$2;
-  return_value_listen$2=listen(s, 5);
-  if(!(return_value_listen$2 >= 0))
+  signed int return_value_listen_2;
+  return_value_listen_2=listen(s, 5);
+  if(!(return_value_listen_2 >= 0))
     error_die("Listen failed");
 
   return s;
@@ -1193,13 +1193,13 @@ signed int bindsocket(signed int port)
 // file common.c line 343
 void error_die(char *err)
 {
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  char *return_value_strerror$3;
-  return_value_strerror$3=strerror(*return_value___errno_location$2);
-  info("%s (errno = %d : %s): Shutting down\n", err, *return_value___errno_location$1, return_value_strerror$3);
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  char *return_value_strerror_3;
+  return_value_strerror_3=strerror(*return_value___errno_location_2);
+  info("%s (errno = %d : %s): Shutting down\n", err, *return_value___errno_location_1, return_value_strerror_3);
   exit(1);
 }
 
@@ -1268,9 +1268,9 @@ static signed int ltspfs_chmod(const char *path, unsigned int mode)
   xdr_u_int(&out, &mode);
   xdr_string(&out, &ptr, (unsigned int)4096);
   send_recv(&in, &out, inbuf, outbuf);
-  signed int return_value_parse_return$1;
-  return_value_parse_return$1=parse_return(&in);
-  return return_value_parse_return$1;
+  signed int return_value_parse_return_1;
+  return_value_parse_return_1=parse_return(&in);
+  return return_value_parse_return_1;
 }
 
 // ltspfs_chown
@@ -1289,9 +1289,9 @@ static signed int ltspfs_chown(const char *path, unsigned int uid, unsigned int 
   xdr_u_int(&out, &gid);
   xdr_string(&out, &ptr, (unsigned int)4096);
   send_recv(&in, &out, inbuf, outbuf);
-  signed int return_value_parse_return$1;
-  return_value_parse_return$1=parse_return(&in);
-  return return_value_parse_return$1;
+  signed int return_value_parse_return_1;
+  return_value_parse_return_1=parse_return(&in);
+  return return_value_parse_return_1;
 }
 
 // ltspfs_fsync
@@ -1322,17 +1322,17 @@ static signed int ltspfs_getattr(const char *path, struct stat *stbuf)
   xdr_int(&out, &opcode);
   xdr_string(&out, &ptr, (unsigned int)4096);
   send_recv(&in, &out, inbuf, outbuf);
-  signed int return_value_xdr_int$1;
-  return_value_xdr_int$1=xdr_int(&in, &res);
-  signed int return_value_parse_return$2;
-  if(return_value_xdr_int$1 == 0)
+  signed int return_value_xdr_int_1;
+  return_value_xdr_int_1=xdr_int(&in, &res);
+  signed int return_value_parse_return_2;
+  if(return_value_xdr_int_1 == 0)
     return -13;
 
   else
     if(!(res == 0))
     {
-      return_value_parse_return$2=parse_return(&in);
-      return return_value_parse_return$2;
+      return_value_parse_return_2=parse_return(&in);
+      return return_value_parse_return_2;
     }
 
     else
@@ -1340,44 +1340,44 @@ static signed int ltspfs_getattr(const char *path, struct stat *stbuf)
       if(fc == ((struct fuse_context *)NULL))
         fc=fuse_get_context();
 
-      signed int return_value_xdr_u_longlong_t$3;
-      return_value_xdr_u_longlong_t$3=xdr_u_longlong_t(&in, &stbuf->st_dev);
-      if(return_value_xdr_u_longlong_t$3 == 0)
+      signed int return_value_xdr_u_longlong_t_3;
+      return_value_xdr_u_longlong_t_3=xdr_u_longlong_t(&in, &stbuf->st_dev);
+      if(return_value_xdr_u_longlong_t_3 == 0)
         return -13;
 
       else
       {
-        signed int return_value_xdr_u_longlong_t$4;
-        return_value_xdr_u_longlong_t$4=xdr_u_longlong_t(&in, &stbuf->st_ino);
-        if(return_value_xdr_u_longlong_t$4 == 0)
+        signed int return_value_xdr_u_longlong_t_4;
+        return_value_xdr_u_longlong_t_4=xdr_u_longlong_t(&in, &stbuf->st_ino);
+        if(return_value_xdr_u_longlong_t_4 == 0)
           return -13;
 
         else
         {
-          signed int return_value_xdr_u_int$5;
-          return_value_xdr_u_int$5=xdr_u_int(&in, &stbuf->st_mode);
-          if(return_value_xdr_u_int$5 == 0)
+          signed int return_value_xdr_u_int_5;
+          return_value_xdr_u_int_5=xdr_u_int(&in, &stbuf->st_mode);
+          if(return_value_xdr_u_int_5 == 0)
             return -13;
 
           else
           {
-            signed int return_value_xdr_u_int$6;
-            return_value_xdr_u_int$6=xdr_u_int(&in, &nlink);
-            if(return_value_xdr_u_int$6 == 0)
+            signed int return_value_xdr_u_int_6;
+            return_value_xdr_u_int_6=xdr_u_int(&in, &nlink);
+            if(return_value_xdr_u_int_6 == 0)
               return -13;
 
             else
             {
-              signed int return_value_xdr_u_int$7;
-              return_value_xdr_u_int$7=xdr_u_int(&in, &uid);
-              if(return_value_xdr_u_int$7 == 0)
+              signed int return_value_xdr_u_int_7;
+              return_value_xdr_u_int_7=xdr_u_int(&in, &uid);
+              if(return_value_xdr_u_int_7 == 0)
                 return -13;
 
               else
               {
-                signed int return_value_xdr_u_int$8;
-                return_value_xdr_u_int$8=xdr_u_int(&in, &gid);
-                if(return_value_xdr_u_int$8 == 0)
+                signed int return_value_xdr_u_int_8;
+                return_value_xdr_u_int_8=xdr_u_int(&in, &gid);
+                if(return_value_xdr_u_int_8 == 0)
                   return -13;
 
                 else
@@ -1385,51 +1385,51 @@ static signed int ltspfs_getattr(const char *path, struct stat *stbuf)
                   stbuf->st_uid = fc->uid;
                   stbuf->st_gid = fc->gid;
                   stbuf->st_mode = stbuf->st_mode & (unsigned int)(0040000 | 0100000 | 0700);
-                  signed int return_value_xdr_u_longlong_t$9;
-                  return_value_xdr_u_longlong_t$9=xdr_u_longlong_t(&in, &stbuf->st_rdev);
-                  if(return_value_xdr_u_longlong_t$9 == 0)
+                  signed int return_value_xdr_u_longlong_t_9;
+                  return_value_xdr_u_longlong_t_9=xdr_u_longlong_t(&in, &stbuf->st_rdev);
+                  if(return_value_xdr_u_longlong_t_9 == 0)
                     return -13;
 
                   else
                   {
-                    signed int return_value_xdr_longlong_t$10;
-                    return_value_xdr_longlong_t$10=xdr_longlong_t(&in, &stbuf->st_size);
-                    if(return_value_xdr_longlong_t$10 == 0)
+                    signed int return_value_xdr_longlong_t_10;
+                    return_value_xdr_longlong_t_10=xdr_longlong_t(&in, &stbuf->st_size);
+                    if(return_value_xdr_longlong_t_10 == 0)
                       return -13;
 
                     else
                     {
-                      signed int return_value_xdr_long$11;
-                      return_value_xdr_long$11=xdr_long(&in, &stbuf->st_blksize);
-                      if(return_value_xdr_long$11 == 0)
+                      signed int return_value_xdr_long_11;
+                      return_value_xdr_long_11=xdr_long(&in, &stbuf->st_blksize);
+                      if(return_value_xdr_long_11 == 0)
                         return -13;
 
                       else
                       {
-                        signed int return_value_xdr_longlong_t$12;
-                        return_value_xdr_longlong_t$12=xdr_longlong_t(&in, &stbuf->st_blocks);
-                        if(return_value_xdr_longlong_t$12 == 0)
+                        signed int return_value_xdr_longlong_t_12;
+                        return_value_xdr_longlong_t_12=xdr_longlong_t(&in, &stbuf->st_blocks);
+                        if(return_value_xdr_longlong_t_12 == 0)
                           return -13;
 
                         else
                         {
-                          signed int return_value_xdr_long$13;
-                          return_value_xdr_long$13=xdr_long(&in, &stbuf->st_atim.tv_sec);
-                          if(return_value_xdr_long$13 == 0)
+                          signed int return_value_xdr_long_13;
+                          return_value_xdr_long_13=xdr_long(&in, &stbuf->st_atim.tv_sec);
+                          if(return_value_xdr_long_13 == 0)
                             return -13;
 
                           else
                           {
-                            signed int return_value_xdr_long$14;
-                            return_value_xdr_long$14=xdr_long(&in, &stbuf->st_mtim.tv_sec);
-                            if(return_value_xdr_long$14 == 0)
+                            signed int return_value_xdr_long_14;
+                            return_value_xdr_long_14=xdr_long(&in, &stbuf->st_mtim.tv_sec);
+                            if(return_value_xdr_long_14 == 0)
                               return -13;
 
                             else
                             {
-                              signed int return_value_xdr_long$15;
-                              return_value_xdr_long$15=xdr_long(&in, &stbuf->st_ctim.tv_sec);
-                              if(return_value_xdr_long$15 == 0)
+                              signed int return_value_xdr_long_15;
+                              return_value_xdr_long_15=xdr_long(&in, &stbuf->st_ctim.tv_sec);
+                              if(return_value_xdr_long_15 == 0)
                                 return -13;
 
                               else
@@ -1461,9 +1461,9 @@ static signed int ltspfs_getattr(const char *path, struct stat *stbuf)
 static void * ltspfs_init(void)
 {
   unsigned long int ping_thread;
-  signed int return_value_pthread_create$1;
-  return_value_pthread_create$1=pthread_create(&ping_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))(void *)ping_timeout, (void *)0);
-  if(!(return_value_pthread_create$1 >= 0))
+  signed int return_value_pthread_create_1;
+  return_value_pthread_create_1=pthread_create(&ping_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))(void *)ping_timeout, (void *)0);
+  if(!(return_value_pthread_create_1 >= 0))
   {
     close(sockfd);
     exit(1);
@@ -1477,9 +1477,9 @@ static void * ltspfs_init(void)
 // file ltspfs.c line 636
 static signed int ltspfs_link(const char *from, const char *to)
 {
-  signed int return_value_ltspfs_twopath$1;
-  return_value_ltspfs_twopath$1=ltspfs_twopath(9, from, to);
-  return return_value_ltspfs_twopath$1;
+  signed int return_value_ltspfs_twopath_1;
+  return_value_ltspfs_twopath_1=ltspfs_twopath(9, from, to);
+  return return_value_ltspfs_twopath_1;
 }
 
 // ltspfs_mkdir
@@ -1497,9 +1497,9 @@ static signed int ltspfs_mkdir(const char *path, unsigned int mode)
   xdr_u_int(&out, &mode);
   xdr_string(&out, &ptr, (unsigned int)4096);
   send_recv(&in, &out, inbuf, outbuf);
-  signed int return_value_parse_return$1;
-  return_value_parse_return$1=parse_return(&in);
-  return return_value_parse_return$1;
+  signed int return_value_parse_return_1;
+  return_value_parse_return_1=parse_return(&in);
+  return return_value_parse_return_1;
 }
 
 // ltspfs_mknod
@@ -1518,9 +1518,9 @@ static signed int ltspfs_mknod(const char *path, unsigned int mode, unsigned lon
   xdr_u_longlong_t(&out, &rdev);
   xdr_string(&out, &ptr, (unsigned int)4096);
   send_recv(&in, &out, inbuf, outbuf);
-  signed int return_value_parse_return$1;
-  return_value_parse_return$1=parse_return(&in);
-  return return_value_parse_return$1;
+  signed int return_value_parse_return_1;
+  return_value_parse_return_1=parse_return(&in);
+  return return_value_parse_return_1;
 }
 
 // ltspfs_onepath
@@ -1536,9 +1536,9 @@ static signed int ltspfs_onepath(signed int opcode, const char *path)
   xdr_int(&out, &opcode);
   xdr_string(&out, &ptr, (unsigned int)4096);
   send_recv(&in, &out, inbuf, outbuf);
-  signed int return_value_parse_return$1;
-  return_value_parse_return$1=parse_return(&in);
-  return return_value_parse_return$1;
+  signed int return_value_parse_return_1;
+  return_value_parse_return_1=parse_return(&in);
+  return return_value_parse_return_1;
 }
 
 // ltspfs_open
@@ -1556,9 +1556,9 @@ static signed int ltspfs_open(const char *path, struct fuse_file_info_compat *fi
   xdr_int(&out, &fi->flags);
   xdr_string(&out, &ptr, (unsigned int)4096);
   send_recv(&in, &out, inbuf, outbuf);
-  signed int return_value_parse_return$1;
-  return_value_parse_return$1=parse_return(&in);
-  return return_value_parse_return$1;
+  signed int return_value_parse_return_1;
+  return_value_parse_return_1=parse_return(&in);
+  return return_value_parse_return_1;
 }
 
 // ltspfs_read
@@ -1583,9 +1583,9 @@ static signed int ltspfs_read(const char *path, char *buf, unsigned long int siz
   pthread_mutex_lock(&lock);
   writepacket(&out, outbuf);
   readpacket(&in, inbuf);
-  signed int return_value_xdr_int$1;
-  return_value_xdr_int$1=xdr_int(&in, &res);
-  if(return_value_xdr_int$1 == 0)
+  signed int return_value_xdr_int_1;
+  return_value_xdr_int_1=xdr_int(&in, &res);
+  if(return_value_xdr_int_1 == 0)
   {
     pthread_mutex_unlock(&lock);
     return -13;
@@ -1593,9 +1593,9 @@ static signed int ltspfs_read(const char *path, char *buf, unsigned long int siz
 
   else
   {
-    signed int return_value_xdr_int$2;
-    return_value_xdr_int$2=xdr_int(&in, &returned);
-    if(return_value_xdr_int$2 == 0)
+    signed int return_value_xdr_int_2;
+    return_value_xdr_int_2=xdr_int(&in, &returned);
+    if(return_value_xdr_int_2 == 0)
     {
       pthread_mutex_unlock(&lock);
       return -13;
@@ -1667,14 +1667,14 @@ static signed int ltspfs_readdir(const char *path, void *buf, signed int (*fille
   }
 
   pthread_mutex_unlock(&lock);
-  signed int return_value_parse_return$1;
+  signed int return_value_parse_return_1;
   if(!(r == 0))
     return r;
 
   else
   {
-    return_value_parse_return$1=parse_return(&in);
-    return return_value_parse_return$1;
+    return_value_parse_return_1=parse_return(&in);
+    return return_value_parse_return_1;
   }
 }
 
@@ -1694,18 +1694,18 @@ static signed int ltspfs_readlink(const char *path, char *buf, unsigned long int
   xdr_int(&out, &opcode);
   xdr_string(&out, &ptr, (unsigned int)4096);
   send_recv(&in, &out, inbuf, outbuf);
-  signed int return_value_xdr_int$1;
-  return_value_xdr_int$1=xdr_int(&in, &ret);
-  if(return_value_xdr_int$1 == 0)
+  signed int return_value_xdr_int_1;
+  return_value_xdr_int_1=xdr_int(&in, &ret);
+  if(return_value_xdr_int_1 == 0)
     return -13;
 
   else
   {
     if(!(ret == 0))
     {
-      signed int return_value_xdr_int$2;
-      return_value_xdr_int$2=xdr_int(&in, &retcode);
-      if(return_value_xdr_int$2 == 0)
+      signed int return_value_xdr_int_2;
+      return_value_xdr_int_2=xdr_int(&in, &retcode);
+      if(return_value_xdr_int_2 == 0)
         retcode = 13;
 
       do
@@ -1717,9 +1717,9 @@ static signed int ltspfs_readlink(const char *path, char *buf, unsigned long int
     }
 
     ptr = buf;
-    signed int return_value_xdr_string$3;
-    return_value_xdr_string$3=xdr_string(&in, &ptr, (unsigned int)size);
-    if(return_value_xdr_string$3 == 0)
+    signed int return_value_xdr_string_3;
+    return_value_xdr_string_3=xdr_string(&in, &ptr, (unsigned int)size);
+    if(return_value_xdr_string_3 == 0)
       return -13;
 
     else
@@ -1747,18 +1747,18 @@ static signed int ltspfs_release(const char *path, struct fuse_file_info_compat 
 // file ltspfs.c line 625
 static signed int ltspfs_rename(const char *from, const char *to)
 {
-  signed int return_value_ltspfs_twopath$1;
-  return_value_ltspfs_twopath$1=ltspfs_twopath(8, from, to);
-  return return_value_ltspfs_twopath$1;
+  signed int return_value_ltspfs_twopath_1;
+  return_value_ltspfs_twopath_1=ltspfs_twopath(8, from, to);
+  return return_value_ltspfs_twopath_1;
 }
 
 // ltspfs_rmdir
 // file ltspfs.c line 577
 static signed int ltspfs_rmdir(const char *path)
 {
-  signed int return_value_ltspfs_onepath$1;
-  return_value_ltspfs_onepath$1=ltspfs_onepath(7, path);
-  return return_value_ltspfs_onepath$1;
+  signed int return_value_ltspfs_onepath_1;
+  return_value_ltspfs_onepath_1=ltspfs_onepath(7, path);
+  return return_value_ltspfs_onepath_1;
 }
 
 // ltspfs_sendauth
@@ -1802,9 +1802,9 @@ signed int ltspfs_sendauth(void)
     exit(1);
   }
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(buf);
-  size = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(buf);
+  size = (signed int)return_value_strlen_1;
   init_pkt(&in, &out, inbuf, outbuf);
   xdr_int(&out, &opcode);
   xdr_int(&out, &size);
@@ -1814,9 +1814,9 @@ signed int ltspfs_sendauth(void)
   readpacket(&in, inbuf);
   XFree((void *)buf);
   XCloseDisplay(dpy);
-  signed int return_value_parse_return$2;
-  return_value_parse_return$2=parse_return(&in);
-  return return_value_parse_return$2;
+  signed int return_value_parse_return_2;
+  return_value_parse_return_2=parse_return(&in);
+  return return_value_parse_return_2;
 }
 
 // ltspfs_statfs
@@ -1837,17 +1837,17 @@ static signed int ltspfs_statfs(const char *path, struct statfs *stbuf)
   xdr_int(&out, &opcode);
   xdr_string(&out, &ptr, (unsigned int)4096);
   send_recv(&in, &out, inbuf, outbuf);
-  signed int return_value_xdr_int$1;
-  return_value_xdr_int$1=xdr_int(&in, &ret);
-  signed int return_value_parse_return$2;
-  if(return_value_xdr_int$1 == 0)
+  signed int return_value_xdr_int_1;
+  return_value_xdr_int_1=xdr_int(&in, &ret);
+  signed int return_value_parse_return_2;
+  if(return_value_xdr_int_1 == 0)
     return -13;
 
   else
     if(!(ret == 0))
     {
-      return_value_parse_return$2=parse_return(&in);
-      return return_value_parse_return$2;
+      return_value_parse_return_2=parse_return(&in);
+      return return_value_parse_return_2;
     }
 
     else
@@ -1871,9 +1871,9 @@ static signed int ltspfs_statfs(const char *path, struct statfs *stbuf)
 // file ltspfs.c line 614
 static signed int ltspfs_symlink(const char *from, const char *to)
 {
-  signed int return_value_ltspfs_twopath$1;
-  return_value_ltspfs_twopath$1=ltspfs_twopath(5, from, to);
-  return return_value_ltspfs_twopath$1;
+  signed int return_value_ltspfs_twopath_1;
+  return_value_ltspfs_twopath_1=ltspfs_twopath(5, from, to);
+  return return_value_ltspfs_twopath_1;
 }
 
 // ltspfs_truncate
@@ -1891,9 +1891,9 @@ static signed int ltspfs_truncate(const char *path, signed long int size)
   xdr_longlong_t(&out, &size);
   xdr_string(&out, &ptr, (unsigned int)4096);
   send_recv(&in, &out, inbuf, outbuf);
-  signed int return_value_parse_return$1;
-  return_value_parse_return$1=parse_return(&in);
-  return return_value_parse_return$1;
+  signed int return_value_parse_return_1;
+  return_value_parse_return_1=parse_return(&in);
+  return return_value_parse_return_1;
 }
 
 // ltspfs_twopath
@@ -1912,18 +1912,18 @@ static signed int ltspfs_twopath(signed int opcode, const char *from, const char
   ptr = (char *)to;
   xdr_string(&out, &ptr, (unsigned int)4096);
   send_recv(&in, &out, inbuf, outbuf);
-  signed int return_value_parse_return$1;
-  return_value_parse_return$1=parse_return(&in);
-  return return_value_parse_return$1;
+  signed int return_value_parse_return_1;
+  return_value_parse_return_1=parse_return(&in);
+  return return_value_parse_return_1;
 }
 
 // ltspfs_unlink
 // file ltspfs.c line 566
 static signed int ltspfs_unlink(const char *path)
 {
-  signed int return_value_ltspfs_onepath$1;
-  return_value_ltspfs_onepath$1=ltspfs_onepath(6, path);
-  return return_value_ltspfs_onepath$1;
+  signed int return_value_ltspfs_onepath_1;
+  return_value_ltspfs_onepath_1=ltspfs_onepath(6, path);
+  return return_value_ltspfs_onepath_1;
 }
 
 // ltspfs_utime
@@ -1942,9 +1942,9 @@ static signed int ltspfs_utime(const char *path, struct utimbuf *buf)
   xdr_long(&out, &buf->modtime);
   xdr_string(&out, &ptr, (unsigned int)4096);
   send_recv(&in, &out, inbuf, outbuf);
-  signed int return_value_parse_return$1;
-  return_value_parse_return$1=parse_return(&in);
-  return return_value_parse_return$1;
+  signed int return_value_parse_return_1;
+  return_value_parse_return_1=parse_return(&in);
+  return return_value_parse_return_1;
 }
 
 // ltspfs_write
@@ -1971,16 +1971,16 @@ static signed int ltspfs_write(const char *path, const char *buf, unsigned long 
   writen(sockfd, (char *)buf, (signed int)size);
   readpacket(&in, inbuf);
   pthread_mutex_unlock(&lock);
-  signed int return_value_xdr_int$1;
-  return_value_xdr_int$1=xdr_int(&in, &res);
-  if(return_value_xdr_int$1 == 0)
+  signed int return_value_xdr_int_1;
+  return_value_xdr_int_1=xdr_int(&in, &res);
+  if(return_value_xdr_int_1 == 0)
     return -13;
 
   else
   {
-    signed int return_value_xdr_int$2;
-    return_value_xdr_int$2=xdr_int(&in, &returned);
-    if(return_value_xdr_int$2 == 0)
+    signed int return_value_xdr_int_2;
+    return_value_xdr_int_2=xdr_int(&in, &returned);
+    if(return_value_xdr_int_2 == 0)
       return -13;
 
     else
@@ -2016,25 +2016,25 @@ signed int main(signed int argc, char **argv)
     exit(1);
   }
 
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)argc, sizeof(char *) /*8ul*/ );
-  myargv = (char **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)argc, sizeof(char *) /*8ul*/ );
+  myargv = (char **)return_value_calloc_1;
   if(myargv == ((char **)NULL))
   {
     fprintf(stderr, "calloc() failed to allocate memory\n");
     exit(1);
   }
 
-  signed int tmp_post$2 = myargc;
+  signed int tmp_post_2 = myargc;
   myargc = myargc + 1;
-  myargv[(signed long int)tmp_post$2] = argv[(signed long int)0];
+  myargv[(signed long int)tmp_post_2] = argv[(signed long int)0];
   i = 1;
-  char *return_value_strchr$4;
-  signed int tmp_post$3;
+  char *return_value_strchr_4;
+  signed int tmp_post_3;
   for( ; !(i >= argc); i = i + 1)
   {
-    return_value_strchr$4=strchr(argv[(signed long int)i], 58);
-    if(!(return_value_strchr$4 == ((char *)NULL)))
+    return_value_strchr_4=strchr(argv[(signed long int)i], 58);
+    if(!(return_value_strchr_4 == ((char *)NULL)))
       hostmount=strdup(argv[(signed long int)i]);
 
     else
@@ -2042,9 +2042,9 @@ signed int main(signed int argc, char **argv)
       if((signed int)*argv[(signed long int)i] == 47)
         fuse_mount_point = argv[(signed long int)i];
 
-      tmp_post$3 = myargc;
+      tmp_post_3 = myargc;
       myargc = myargc + 1;
-      myargv[(signed long int)tmp_post$3] = argv[(signed long int)i];
+      myargv[(signed long int)tmp_post_3] = argv[(signed long int)i];
     }
   }
   if(hostmount == ((char *)NULL))
@@ -2070,14 +2070,14 @@ signed int main(signed int argc, char **argv)
   }
 
   sockfd=opensocket(host, 9220);
-  pthread_mutex_init(&lock, (const union anonymous$7 *)(void *)0);
-  char *return_value_getenv$6;
-  return_value_getenv$6=getenv("LTSPFS_NOAUTH");
-  if(return_value_getenv$6 == ((char *)NULL))
+  pthread_mutex_init(&lock, (const union anonymous_7 *)(void *)0);
+  char *return_value_getenv_6;
+  return_value_getenv_6=getenv("LTSPFS_NOAUTH");
+  if(return_value_getenv_6 == ((char *)NULL))
   {
-    signed int return_value_ltspfs_sendauth$5;
-    return_value_ltspfs_sendauth$5=ltspfs_sendauth();
-    if(!(return_value_ltspfs_sendauth$5 == 0))
+    signed int return_value_ltspfs_sendauth_5;
+    return_value_ltspfs_sendauth_5=ltspfs_sendauth();
+    if(!(return_value_ltspfs_sendauth_5 == 0))
     {
       fprintf(stderr, "Authentication failed.\n");
       exit(1);
@@ -2086,9 +2086,9 @@ signed int main(signed int argc, char **argv)
   }
 
   handle_mount(mountpoint);
-  signed int return_value_fuse_main_real_compat22$7;
-  return_value_fuse_main_real_compat22$7=fuse_main_real_compat22(myargc, myargv, &ltspfs_oper, sizeof(struct fuse_operations_compat22) /*248ul*/ );
-  return return_value_fuse_main_real_compat22$7;
+  signed int return_value_fuse_main_real_compat22_7;
+  return_value_fuse_main_real_compat22_7=fuse_main_real_compat22(myargc, myargv, &ltspfs_oper, sizeof(struct fuse_operations_compat22) /*248ul*/ );
+  return return_value_fuse_main_real_compat22_7;
 }
 
 // opensocket
@@ -2116,9 +2116,9 @@ signed int opensocket(char *hostname, signed int port)
   serv_addr.sin_family = (unsigned short int)2;
   bcopy((const void *)(char *)server->h_addr_list[(signed long int)0], (void *)(char *)&serv_addr.sin_addr.s_addr, (unsigned long int)server->h_length);
   serv_addr.sin_port=htons((unsigned short int)port);
-  signed int return_value_connect$1;
-  return_value_connect$1=connect(s, (struct sockaddr *)&serv_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-  if(!(return_value_connect$1 >= 0))
+  signed int return_value_connect_1;
+  return_value_connect_1=connect(s, (struct sockaddr *)&serv_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+  if(!(return_value_connect_1 >= 0))
   {
     fprintf(stderr, "ERROR connecting\n");
     exit(1);
@@ -2135,10 +2135,10 @@ static signed int parse_return(struct XDR *xdr)
   signed int retcode;
   xdr->x_ops->x_setpostn(xdr, (unsigned int)0);
   xdr_int(xdr, &res);
-  signed int return_value_xdr_int$2;
-  return_value_xdr_int$2=xdr_int(xdr, &res);
-  signed int return_value_xdr_int$1;
-  if(return_value_xdr_int$2 == 0)
+  signed int return_value_xdr_int_2;
+  return_value_xdr_int_2=xdr_int(xdr, &res);
+  signed int return_value_xdr_int_1;
+  if(return_value_xdr_int_2 == 0)
     retcode = 13;
 
   else
@@ -2147,8 +2147,8 @@ static signed int parse_return(struct XDR *xdr)
 
     else
     {
-      return_value_xdr_int$1=xdr_int(xdr, &retcode);
-      if(return_value_xdr_int$1 == 0)
+      return_value_xdr_int_1=xdr_int(xdr, &retcode);
+      if(return_value_xdr_int_1 == 0)
         retcode = 13;
 
     }
@@ -2191,9 +2191,9 @@ void ping_timeout(void *nothing)
 // file common.h line 26
 signed int readn(signed int fd, char *ptr, signed int maxlen)
 {
-  signed int return_value__readn$1;
-  return_value__readn$1=_readn(fd, ptr, maxlen, 120, timeout, 1);
-  return return_value__readn$1;
+  signed int return_value__readn_1;
+  return_value__readn_1=_readn(fd, ptr, maxlen, 120, timeout, 1);
+  return return_value__readn_1;
 }
 
 // readpacket
@@ -2206,9 +2206,9 @@ signed int readpacket(struct XDR *in, char *packetbuffer)
   xdr_int(in, &len);
   len = len - 4;
   pktptr = pktptr + (signed long int)4;
-  signed int return_value_readn$1;
-  return_value_readn$1=readn(sockfd, pktptr, len);
-  return return_value_readn$1;
+  signed int return_value_readn_1;
+  return_value_readn_1=readn(sockfd, pktptr, len);
+  return return_value_readn_1;
 }
 
 // send_recv
@@ -2237,9 +2237,9 @@ signed int status_return(signed int sockfd, signed int result)
     if(!(debug == 0))
       info("status_return STATUS_FAIL\n");
 
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    xdr_int(&out, &(*return_value___errno_location$1));
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    xdr_int(&out, &(*return_value___errno_location_1));
   }
 
   else
@@ -2272,9 +2272,9 @@ void timeout(void)
 // file common.h line 27
 signed int writen(signed int fd, char *ptr, signed int nbytes)
 {
-  signed int return_value__writen$1;
-  return_value__writen$1=_writen(fd, ptr, nbytes, 120, timeout, 1);
-  return return_value__writen$1;
+  signed int return_value__writen_1;
+  return_value__writen_1=_writen(fd, ptr, nbytes, 120, timeout, 1);
+  return return_value__writen_1;
 }
 
 // writepacket

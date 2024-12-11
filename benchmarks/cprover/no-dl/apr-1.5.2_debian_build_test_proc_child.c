@@ -1,186 +1,186 @@
-// #anon_enum$APR_KILL_NEVER=0$APR_KILL_ALWAYS=1$APR_KILL_AFTER_TIMEOUT=2$APR_JUST_WAIT=3$APR_KILL_ONLY_ONCE=4
+// #anon_enum_APR_KILL_NEVER=0_APR_KILL_ALWAYS=1_APR_KILL_AFTER_TIMEOUT=2_APR_JUST_WAIT=3_APR_KILL_ONLY_ONCE=4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_thread_proc.h line 199
-enum anonymous$17 { APR_KILL_NEVER=0, APR_KILL_ALWAYS=1, APR_KILL_AFTER_TIMEOUT=2, APR_JUST_WAIT=3, APR_KILL_ONLY_ONCE=4 };
+enum anonymous_17 { APR_KILL_NEVER=0, APR_KILL_ALWAYS=1, APR_KILL_AFTER_TIMEOUT=2, APR_JUST_WAIT=3, APR_KILL_ONLY_ONCE=4 };
 
-// #anon_enum$APR_LOCAL=0$APR_REMOTE=1
+// #anon_enum_APR_LOCAL=0_APR_REMOTE=1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_network_io.h line 172
-enum anonymous$18 { APR_LOCAL=0, APR_REMOTE=1 };
+enum anonymous_18 { APR_LOCAL=0, APR_REMOTE=1 };
 
-// #anon_enum$APR_LOCK_FCNTL=0$APR_LOCK_FLOCK=1$APR_LOCK_SYSVSEM=2$APR_LOCK_PROC_PTHREAD=3$APR_LOCK_POSIXSEM=4$APR_LOCK_DEFAULT=5
+// #anon_enum_APR_LOCK_FCNTL=0_APR_LOCK_FLOCK=1_APR_LOCK_SYSVSEM=2_APR_LOCK_PROC_PTHREAD=3_APR_LOCK_POSIXSEM=4_APR_LOCK_DEFAULT=5
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_proc_mutex.h line 44
-enum anonymous$5 { APR_LOCK_FCNTL=0, APR_LOCK_FLOCK=1, APR_LOCK_SYSVSEM=2, APR_LOCK_PROC_PTHREAD=3, APR_LOCK_POSIXSEM=4, APR_LOCK_DEFAULT=5 };
+enum anonymous_5 { APR_LOCK_FCNTL=0, APR_LOCK_FLOCK=1, APR_LOCK_SYSVSEM=2, APR_LOCK_PROC_PTHREAD=3, APR_LOCK_POSIXSEM=4, APR_LOCK_DEFAULT=5 };
 
-// #anon_enum$APR_NOFILE=0$APR_REG=1$APR_DIR=2$APR_CHR=3$APR_BLK=4$APR_PIPE=5$APR_LNK=6$APR_SOCK=7$APR_UNKFILE=127
+// #anon_enum_APR_NOFILE=0_APR_REG=1_APR_DIR=2_APR_CHR=3_APR_BLK=4_APR_PIPE=5_APR_LNK=6_APR_SOCK=7_APR_UNKFILE=127
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_file_info.h line 62
 enum anonymous { APR_NOFILE=0, APR_REG=1, APR_DIR=2, APR_CHR=3, APR_BLK=4, APR_PIPE=5, APR_LNK=6, APR_SOCK=7, APR_UNKFILE=127 };
 
-// #anon_enum$APR_NO_DESC=0$APR_POLL_SOCKET=1$APR_POLL_FILE=2$APR_POLL_LASTDESC=3
+// #anon_enum_APR_NO_DESC=0_APR_POLL_SOCKET=1_APR_POLL_FILE=2_APR_POLL_LASTDESC=3
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_poll.h line 91
-enum anonymous$19 { APR_NO_DESC=0, APR_POLL_SOCKET=1, APR_POLL_FILE=2, APR_POLL_LASTDESC=3 };
+enum anonymous_19 { APR_NO_DESC=0, APR_POLL_SOCKET=1, APR_POLL_FILE=2, APR_POLL_LASTDESC=3 };
 
-// #anon_enum$APR_POLLSET_DEFAULT=0$APR_POLLSET_SELECT=1$APR_POLLSET_KQUEUE=2$APR_POLLSET_PORT=3$APR_POLLSET_EPOLL=4$APR_POLLSET_POLL=5$APR_POLLSET_AIO_MSGQ=6
+// #anon_enum_APR_POLLSET_DEFAULT=0_APR_POLLSET_SELECT=1_APR_POLLSET_KQUEUE=2_APR_POLLSET_PORT=3_APR_POLLSET_EPOLL=4_APR_POLLSET_POLL=5_APR_POLLSET_AIO_MSGQ=6
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_poll.h line 80
-enum anonymous$24 { APR_POLLSET_DEFAULT=0, APR_POLLSET_SELECT=1, APR_POLLSET_KQUEUE=2, APR_POLLSET_PORT=3, APR_POLLSET_EPOLL=4, APR_POLLSET_POLL=5, APR_POLLSET_AIO_MSGQ=6 };
+enum anonymous_24 { APR_POLLSET_DEFAULT=0, APR_POLLSET_SELECT=1, APR_POLLSET_KQUEUE=2, APR_POLLSET_PORT=3, APR_POLLSET_EPOLL=4, APR_POLLSET_POLL=5, APR_POLLSET_AIO_MSGQ=6 };
 
-// #anon_enum$APR_PROC_EXIT=1$APR_PROC_SIGNAL=2$APR_PROC_SIGNAL_CORE=4
+// #anon_enum_APR_PROC_EXIT=1_APR_PROC_SIGNAL=2_APR_PROC_SIGNAL_CORE=4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_thread_proc.h line 65
-enum anonymous$26 { APR_PROC_EXIT=1, APR_PROC_SIGNAL=2, APR_PROC_SIGNAL_CORE=4 };
+enum anonymous_26 { APR_PROC_EXIT=1, APR_PROC_SIGNAL=2, APR_PROC_SIGNAL_CORE=4 };
 
-// #anon_enum$APR_SHELLCMD=0$APR_PROGRAM=1$APR_PROGRAM_ENV=2$APR_PROGRAM_PATH=3$APR_SHELLCMD_ENV=4
+// #anon_enum_APR_SHELLCMD=0_APR_PROGRAM=1_APR_PROGRAM_ENV=2_APR_PROGRAM_PATH=3_APR_SHELLCMD_ENV=4
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_thread_proc.h line 45
-enum anonymous$29 { APR_SHELLCMD=0, APR_PROGRAM=1, APR_PROGRAM_ENV=2, APR_PROGRAM_PATH=3, APR_SHELLCMD_ENV=4 };
+enum anonymous_29 { APR_SHELLCMD=0, APR_PROGRAM=1, APR_PROGRAM_ENV=2, APR_PROGRAM_PATH=3, APR_SHELLCMD_ENV=4 };
 
-// #anon_enum$APR_SHUTDOWN_READ=0$APR_SHUTDOWN_WRITE=1$APR_SHUTDOWN_READWRITE=2
+// #anon_enum_APR_SHUTDOWN_READ=0_APR_SHUTDOWN_WRITE=1_APR_SHUTDOWN_READWRITE=2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_network_io.h line 108
-enum anonymous$21 { APR_SHUTDOWN_READ=0, APR_SHUTDOWN_WRITE=1, APR_SHUTDOWN_READWRITE=2 };
+enum anonymous_21 { APR_SHUTDOWN_READ=0, APR_SHUTDOWN_WRITE=1, APR_SHUTDOWN_READWRITE=2 };
 
-// #anon_enum$APR_WAIT=0$APR_NOWAIT=1
+// #anon_enum_APR_WAIT=0_APR_NOWAIT=1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_thread_proc.h line 55
-enum anonymous$27 { APR_WAIT=0, APR_NOWAIT=1 };
+enum anonymous_27 { APR_WAIT=0, APR_NOWAIT=1 };
 
-// #anon_enum$BLK_UNKNOWN=0$BLK_OFF=1$BLK_ON=2
+// #anon_enum_BLK_UNKNOWN=0_BLK_OFF=1_BLK_ON=2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/arch/unix/apr_arch_file_io.h line 102
-enum anonymous$2 { BLK_UNKNOWN=0, BLK_OFF=1, BLK_ON=2 };
+enum anonymous_2 { BLK_UNKNOWN=0, BLK_OFF=1, BLK_ON=2 };
 
-// #anon_enum$NO=0$YES=1
+// #anon_enum_NO=0_YES=1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_snprintf.c line 45
-enum anonymous$30 { NO=0, YES=1 };
+enum anonymous_30 { NO=0, YES=1 };
 
-// tag-#anon#ST[*{*{SYM#tag-apr_skiplistnode#}$SYM#tag-apr_skiplistnode#$}$*{SYM#tag-apr_skiplistnode#}$SYM#tag-apr_skiplistnode#$$'data'||U64'size'||U64'pos'||*{SYM#tag-apr_pool_t#}$SYM#tag-apr_pool_t#$'p'|]
+// tag-#anon#ST[*{*{SYM#tag-apr_skiplistnode#}_SYM#tag-apr_skiplistnode#_}_*{SYM#tag-apr_skiplistnode#}_SYM#tag-apr_skiplistnode#__'data'||U64'size'||U64'pos'||*{SYM#tag-apr_pool_t#}_SYM#tag-apr_pool_t#_'p'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 28
-struct anonymous$44;
+struct anonymous_44;
 
-// tag-#anon#ST[*{SYM#tag-apr_pool_t#}$SYM#tag-apr_pool_t#$'p'||*{cS8}$cS8$'first'||*{SYM#tag-apr_array_header_t#}$SYM#tag-apr_array_header_t#$'merged'|]
+// tag-#anon#ST[*{SYM#tag-apr_pool_t#}_SYM#tag-apr_pool_t#_'p'||*{cS8}_cS8_'first'||*{SYM#tag-apr_array_header_t#}_SYM#tag-apr_array_header_t#_'merged'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_tables.c line 361
-struct anonymous$47;
+struct anonymous_47;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$38;
+struct anonymous_38;
 
-// tag-#anon#ST[*{V}$V$'ptr'||S8'inuse'||U56'$pad0'|]
+// tag-#anon#ST[*{V}_V_'ptr'||S8'inuse'||U56'_pad0'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 79
-struct anonymous$45;
+struct anonymous_45;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$36;
+struct anonymous_36;
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]
+// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 177
-struct anonymous$13;
+struct anonymous_13;
 
 // tag-#anon#ST[S32'major'||S32'minor'||S32'patch'||S32'is_dev'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_version.h line 140
-struct anonymous$0;
+struct anonymous_0;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$32;
+struct anonymous_32;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$35;
+struct anonymous_35;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$34;
+struct anonymous_34;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$41;
+struct anonymous_41;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$33;
+struct anonymous_33;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$37;
+struct anonymous_37;
 
-// tag-#anon#ST[U64'size'||*{SYM#tag-apr_array_header_t#}$SYM#tag-apr_array_header_t#$'list'|]
+// tag-#anon#ST[U64'size'||*{SYM#tag-apr_array_header_t#}_SYM#tag-apr_array_header_t#_'list'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 74
-struct anonymous$46;
+struct anonymous_46;
 
-// tag-#anon#ST[v*{SYM#tag-apr_mmap_t#}$SYM#tag-apr_mmap_t#$'next'||v*{SYM#tag-apr_mmap_t#}$SYM#tag-apr_mmap_t#$'prev'|]
+// tag-#anon#ST[v*{SYM#tag-apr_mmap_t#}_SYM#tag-apr_mmap_t#_'next'||v*{SYM#tag-apr_mmap_t#}_SYM#tag-apr_mmap_t#_'prev'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_mmap.h line 85
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[v*{SYM#tag-pfd_elem_t#}$SYM#tag-pfd_elem_t#$'next'||v*{SYM#tag-pfd_elem_t#}$SYM#tag-pfd_elem_t#$'prev'|]
+// tag-#anon#ST[v*{SYM#tag-pfd_elem_t#}_SYM#tag-pfd_elem_t#_'next'||v*{SYM#tag-pfd_elem_t#}_SYM#tag-pfd_elem_t#_'prev'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/arch/unix/apr_arch_poll_private.h line 106
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#UN[*{SYM#tag-apr_file_t#}$SYM#tag-apr_file_t#$'f'||*{SYM#tag-apr_socket_t#}$SYM#tag-apr_socket_t#$'s'|]
+// tag-#anon#UN[*{SYM#tag-apr_file_t#}_SYM#tag-apr_file_t#_'f'||*{SYM#tag-apr_socket_t#}_SYM#tag-apr_socket_t#_'s'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_poll.h line 99
-union anonymous$20;
+union anonymous_20;
 
-// tag-#anon#UN[*{SYM#tag-epoll_event#}$SYM#tag-epoll_event#$'epoll'||*{SYM#tag-pollfd#}$SYM#tag-pollfd#$'ps'||*{V}$V$'undef'|]
+// tag-#anon#UN[*{SYM#tag-epoll_event#}_SYM#tag-epoll_event#_'epoll'||*{SYM#tag-pollfd#}_SYM#tag-pollfd#_'ps'||*{V}_V_'undef'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/arch/unix/apr_arch_poll_private.h line 132
-union anonymous$22;
+union anonymous_22;
 
-// tag-#anon#UN[*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'ifu_broadaddr'||*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'ifu_dstaddr'|]
+// tag-#anon#UN[*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'ifu_broadaddr'||*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'ifu_dstaddr'|]
 // file /usr/include/ifaddrs.h line 38
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$42;
+union anonymous_42;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$40;
+union anonymous_40;
 
-// tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 239
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[ARR8{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR8{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 224
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]#'__data'||ARR56{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]#'__data'||ARR56{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 174
-union anonymous$14;
+union anonymous_14;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$4;
+union anonymous_4;
 
 // tag-#anon#UN[SYM#tag-sockaddr_in#'sin'||SYM#tag-sockaddr_in6#'sin6'||SYM#tag-sockaddr_storage#'sas'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_network_io.h line 238
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$16;
+union anonymous_16;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$48;
+union anonymous_48;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -318,37 +318,37 @@ struct apr_pollfd_t;
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/arch/unix/apr_arch_poll_private.h line 115
 struct apr_pollset_private_t;
 
-// tag-apr_pollset_private_t$link1
+// tag-apr_pollset_private_t_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/arch/unix/apr_arch_poll_private.h line 115
-struct apr_pollset_private_t$0;
+struct apr_pollset_private_t_0;
 
-// tag-apr_pollset_private_t$link2
+// tag-apr_pollset_private_t_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/arch/unix/apr_arch_poll_private.h line 115
-struct apr_pollset_private_t$1;
+struct apr_pollset_private_t_1;
 
 // tag-apr_pollset_provider_t
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/arch/unix/apr_arch_poll_private.h line 116
 struct apr_pollset_provider_t;
 
-// tag-apr_pollset_provider_t$link1
+// tag-apr_pollset_provider_t_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/arch/unix/apr_arch_poll_private.h line 116
-struct apr_pollset_provider_t$0;
+struct apr_pollset_provider_t_0;
 
-// tag-apr_pollset_provider_t$link2
+// tag-apr_pollset_provider_t_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/arch/unix/apr_arch_poll_private.h line 116
-struct apr_pollset_provider_t$1;
+struct apr_pollset_provider_t_1;
 
 // tag-apr_pollset_t
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_poll.h line 123
 struct apr_pollset_t;
 
-// tag-apr_pollset_t$link1
+// tag-apr_pollset_t_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_poll.h line 123
-struct apr_pollset_t$0;
+struct apr_pollset_t_0;
 
-// tag-apr_pollset_t$link2
+// tag-apr_pollset_t_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_poll.h line 123
-struct apr_pollset_t$1;
+struct apr_pollset_t_1;
 
 // tag-apr_pool_t
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_pools.h line 60
@@ -721,7 +721,7 @@ signed int __sync_val_compare_and_swap();
 extern void _exit(signed int);
 // accept4
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 251
-extern signed int accept4(signed int, union anonymous$48, unsigned int *, signed int);
+extern signed int accept4(signed int, union anonymous_48, unsigned int *, signed int);
 // access
 // file /usr/include/unistd.h line 287
 extern signed int access(const char *, signed int);
@@ -962,9 +962,9 @@ signed int apr_file_data_get(void **data, const char *key, struct apr_file_t *fi
 // apr_file_data_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/fileacc.c line 114
 signed int apr_file_data_set(struct apr_file_t *file, void *data, const char *key, signed int (*cleanup)(void *));
-// apr_file_data_set::cleanup$object
+// apr_file_data_set::cleanup_object
 //
-signed int cleanup$object(void *);
+signed int cleanup_object(void *);
 // apr_file_datasync
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/readwrite.c line 373
 signed int apr_file_datasync(struct apr_file_t *thefile);
@@ -1153,7 +1153,7 @@ signed int apr_fnmatch(const char *pattern, const char *string, signed int flags
 signed int apr_fnmatch_test(const char *pattern);
 // apr_gcvt
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_snprintf.c line 176
-static char * apr_gcvt(double number, signed int ndigit, char *buf, enum anonymous$30 altform);
+static char * apr_gcvt(double number, signed int ndigit, char *buf, enum anonymous_30 altform);
 // apr_generate_random_bytes
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/misc/unix/rand.c line 87
 signed int apr_generate_random_bytes(unsigned char *buf, unsigned long int length);
@@ -1186,7 +1186,7 @@ signed int apr_gid_name_get(char **groupname, unsigned int groupid, struct apr_p
 signed int apr_global_mutex_child_init(struct apr_global_mutex_t **mutex, const char *fname, struct apr_pool_t *pool);
 // apr_global_mutex_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/locks/unix/global_mutex.c line 45
-signed int apr_global_mutex_create(struct apr_global_mutex_t **mutex, const char *fname, enum anonymous$5 mech, struct apr_pool_t *pool);
+signed int apr_global_mutex_create(struct apr_global_mutex_t **mutex, const char *fname, enum anonymous_5 mech, struct apr_pool_t *pool);
 // apr_global_mutex_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/locks/unix/global_mutex.c line 173
 signed int apr_global_mutex_destroy(struct apr_global_mutex_t *mutex);
@@ -1220,9 +1220,9 @@ unsigned int apr_hash_count(struct apr_hash_t *ht);
 // apr_hash_do
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_hash.c line 527
 signed int apr_hash_do(signed int (*comp)(void *, const void *, signed long int, const void *), void *rec, const struct apr_hash_t *ht);
-// apr_hash_do::comp$object
+// apr_hash_do::comp_object
 //
-signed int comp$object(void *, const void *, signed long int, const void *);
+signed int comp_object(void *, const void *, signed long int, const void *);
 // apr_hash_first
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_hash.c line 140
 struct apr_hash_index_t * apr_hash_first(struct apr_pool_t *p, struct apr_hash_t *ht);
@@ -1235,15 +1235,15 @@ struct apr_hash_t * apr_hash_make(struct apr_pool_t *pool);
 // apr_hash_make_custom
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_hash.c line 114
 struct apr_hash_t * apr_hash_make_custom(struct apr_pool_t *pool, unsigned int (*hash_func)(const char *, signed long int *));
-// apr_hash_make_custom::hash_func$object
+// apr_hash_make_custom::hash_func_object
 //
-unsigned int hash_func$object(const char *, signed long int *);
+unsigned int hash_func_object(const char *, signed long int *);
 // apr_hash_merge
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_hash.c line 421
 struct apr_hash_t * apr_hash_merge(struct apr_pool_t *p, const struct apr_hash_t *overlay, const struct apr_hash_t *base, void * (*merger)(struct apr_pool_t *, const void *, signed long int, const void *, const void *, const void *), const void *data);
-// apr_hash_merge::merger$object
+// apr_hash_merge::merger_object
 //
-void * merger$object(struct apr_pool_t *, const void *, signed long int, const void *, const void *, const void *);
+void * merger_object(struct apr_pool_t *, const void *, signed long int, const void *, const void *, const void *);
 // apr_hash_next
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_hash.c line 127
 struct apr_hash_index_t * apr_hash_next(struct apr_hash_index_t *hi);
@@ -1477,13 +1477,13 @@ signed int apr_pollcb_add(struct apr_pollcb_t *pollcb, struct apr_pollfd_t *desc
 signed int apr_pollcb_create(struct apr_pollcb_t **pollcb, unsigned int size, struct apr_pool_t *p, unsigned int flags);
 // apr_pollcb_create_ex
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/pollcb.c line 76
-signed int apr_pollcb_create_ex(struct apr_pollcb_t **ret_pollcb, unsigned int size, struct apr_pool_t *p, unsigned int flags, enum anonymous$24 method);
+signed int apr_pollcb_create_ex(struct apr_pollcb_t **ret_pollcb, unsigned int size, struct apr_pool_t *p, unsigned int flags, enum anonymous_24 method);
 // apr_pollcb_poll
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/pollcb.c line 169
 signed int apr_pollcb_poll(struct apr_pollcb_t *pollcb, signed long int timeout, signed int (*func)(void *, struct apr_pollfd_t *), void *baton);
-// apr_pollcb_poll::func$object
+// apr_pollcb_poll::func_object
 //
-signed int func$object(void *, struct apr_pollfd_t *);
+signed int func_object(void *, struct apr_pollfd_t *);
 // apr_pollcb_remove
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/pollcb.c line 162
 signed int apr_pollcb_remove(struct apr_pollcb_t *pollcb, struct apr_pollfd_t *descriptor);
@@ -1495,7 +1495,7 @@ signed int apr_pollset_add(struct apr_pollset_t *pollset, const struct apr_pollf
 signed int apr_pollset_create(struct apr_pollset_t **pollset, unsigned int size, struct apr_pool_t *p, unsigned int flags);
 // apr_pollset_create_ex
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/pollset.c line 212
-signed int apr_pollset_create_ex(struct apr_pollset_t **ret_pollset, unsigned int size, struct apr_pool_t *p, unsigned int flags, enum anonymous$24 method);
+signed int apr_pollset_create_ex(struct apr_pollset_t **ret_pollset, unsigned int size, struct apr_pool_t *p, unsigned int flags, enum anonymous_24 method);
 // apr_pollset_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/pollset.c line 316
 signed int apr_pollset_destroy(struct apr_pollset_t *pollset);
@@ -1520,48 +1520,48 @@ signed int (*apr_pool_abort_get(struct apr_pool_t *pool))(signed int);
 // apr_pool_abort_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2064
 void apr_pool_abort_set(signed int (*abort_fn)(signed int), struct apr_pool_t *pool);
-// apr_pool_abort_set::abort_fn$object
+// apr_pool_abort_set::abort_fn_object
 //
-signed int abort_fn$object(signed int);
+signed int abort_fn_object(signed int);
 // apr_pool_allocator_get
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2087
 struct apr_allocator_t * apr_pool_allocator_get(struct apr_pool_t *pool);
 // apr_pool_child_cleanup_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_pools.h line 679
 void apr_pool_child_cleanup_set(struct apr_pool_t *p, const void *data, signed int (*plain_cleanup_fn)(void *), signed int (*child_cleanup_fn)(void *));
-// apr_pool_child_cleanup_set::child_cleanup_fn$object
+// apr_pool_child_cleanup_set::child_cleanup_fn_object
 //
-signed int child_cleanup_fn$object(void *);
-// apr_pool_child_cleanup_set::plain_cleanup_fn$object
+signed int child_cleanup_fn_object(void *);
+// apr_pool_child_cleanup_set::plain_cleanup_fn_object
 //
-signed int plain_cleanup_fn$object(void *);
+signed int plain_cleanup_fn_object(void *);
 // apr_pool_cleanup_for_exec
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2378
 void apr_pool_cleanup_for_exec(void);
 // apr_pool_cleanup_kill
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_pools.h line 663
 void apr_pool_cleanup_kill(struct apr_pool_t *p, const void *data, signed int (*cleanup_fn)(void *));
-// apr_pool_cleanup_kill::cleanup_fn$object
+// apr_pool_cleanup_kill::cleanup_fn_object
 //
-signed int cleanup_fn$object(void *);
+signed int cleanup_fn_object(void *);
 // apr_pool_cleanup_null
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_pools.h line 707
 signed int apr_pool_cleanup_null(void *data);
 // apr_pool_cleanup_register
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_pools.h line 628
 void apr_pool_cleanup_register(struct apr_pool_t *p, const void *data, signed int (*plain_cleanup_fn)(void *), signed int (*child_cleanup_fn)(void *));
-// apr_pool_cleanup_register::child_cleanup_fn$object
+// apr_pool_cleanup_register::child_cleanup_fn_object
 //
-signed int child_cleanup_fn$object(void *);
-// apr_pool_cleanup_register::plain_cleanup_fn$object
+signed int child_cleanup_fn_object(void *);
+// apr_pool_cleanup_register::plain_cleanup_fn_object
 //
-signed int plain_cleanup_fn$object(void *);
+signed int plain_cleanup_fn_object(void *);
 // apr_pool_cleanup_run
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_pools.h line 696
 signed int apr_pool_cleanup_run(struct apr_pool_t *p, void *data, signed int (*cleanup_fn)(void *));
-// apr_pool_cleanup_run::cleanup_fn$object
+// apr_pool_cleanup_run::cleanup_fn_object
 //
-signed int cleanup_fn$object(void *);
+signed int cleanup_fn_object(void *);
 // apr_pool_clear
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 757
 void apr_pool_clear(struct apr_pool_t *pool);
@@ -1571,39 +1571,39 @@ void apr_pool_clear_debug(struct apr_pool_t *pool, const char *file_line);
 // apr_pool_create_core_ex
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 951
 signed int apr_pool_create_core_ex(struct apr_pool_t **newpool, signed int (*abort_fn)(signed int), struct apr_allocator_t *allocator);
-// apr_pool_create_core_ex::abort_fn$object
+// apr_pool_create_core_ex::abort_fn_object
 //
-signed int abort_fn$object(signed int);
+signed int abort_fn_object(signed int);
 // apr_pool_create_core_ex_debug
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2563
 signed int apr_pool_create_core_ex_debug(struct apr_pool_t **newpool, signed int (*abort_fn)(signed int), struct apr_allocator_t *allocator, const char *file_line);
-// apr_pool_create_core_ex_debug::abort_fn$object
+// apr_pool_create_core_ex_debug::abort_fn_object
 //
-signed int abort_fn$object(signed int);
+signed int abort_fn_object(signed int);
 // apr_pool_create_ex
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 868
 signed int apr_pool_create_ex(struct apr_pool_t **newpool, struct apr_pool_t *parent, signed int (*abort_fn)(signed int), struct apr_allocator_t *allocator);
-// apr_pool_create_ex::abort_fn$object
+// apr_pool_create_ex::abort_fn_object
 //
-signed int abort_fn$object(signed int);
+signed int abort_fn_object(signed int);
 // apr_pool_create_ex_debug
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2554
 signed int apr_pool_create_ex_debug(struct apr_pool_t **newpool, struct apr_pool_t *parent, signed int (*abort_fn)(signed int), struct apr_allocator_t *allocator, const char *file_line);
-// apr_pool_create_ex_debug::abort_fn$object
+// apr_pool_create_ex_debug::abort_fn_object
 //
-signed int abort_fn$object(signed int);
+signed int abort_fn_object(signed int);
 // apr_pool_create_unmanaged_ex
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 958
 signed int apr_pool_create_unmanaged_ex(struct apr_pool_t **newpool, signed int (*abort_fn)(signed int), struct apr_allocator_t *allocator);
-// apr_pool_create_unmanaged_ex::abort_fn$object
+// apr_pool_create_unmanaged_ex::abort_fn_object
 //
-signed int abort_fn$object(signed int);
+signed int abort_fn_object(signed int);
 // apr_pool_create_unmanaged_ex_debug
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2571
 signed int apr_pool_create_unmanaged_ex_debug(struct apr_pool_t **newpool, signed int (*abort_fn)(signed int), struct apr_allocator_t *allocator, const char *file_line);
-// apr_pool_create_unmanaged_ex_debug::abort_fn$object
+// apr_pool_create_unmanaged_ex_debug::abort_fn_object
 //
-signed int abort_fn$object(signed int);
+signed int abort_fn_object(signed int);
 // apr_pool_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 798
 void apr_pool_destroy(struct apr_pool_t *pool);
@@ -1618,16 +1618,16 @@ signed int apr_pool_initialize(void);
 signed int apr_pool_is_ancestor(struct apr_pool_t *a, struct apr_pool_t *b);
 // apr_pool_note_subprocess
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2415
-void apr_pool_note_subprocess(struct apr_pool_t *pool, struct apr_proc_t *proc, enum anonymous$17 how);
+void apr_pool_note_subprocess(struct apr_pool_t *pool, struct apr_proc_t *proc, enum anonymous_17 how);
 // apr_pool_parent_get
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2075
 struct apr_pool_t * apr_pool_parent_get(struct apr_pool_t *pool);
 // apr_pool_pre_cleanup_register
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2228
 void apr_pool_pre_cleanup_register(struct apr_pool_t *p, const void *data, signed int (*plain_cleanup_fn)(void *));
-// apr_pool_pre_cleanup_register::plain_cleanup_fn$object
+// apr_pool_pre_cleanup_register::plain_cleanup_fn_object
 //
-signed int plain_cleanup_fn$object(void *);
+signed int plain_cleanup_fn_object(void *);
 // apr_pool_tag
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2118
 void apr_pool_tag(struct apr_pool_t *pool, const char *tag);
@@ -1640,15 +1640,15 @@ signed int apr_pool_userdata_get(void **data, const char *key, struct apr_pool_t
 // apr_pool_userdata_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_pools.h line 563
 signed int apr_pool_userdata_set(const void *data, const char *key, signed int (*cleanup)(void *), struct apr_pool_t *pool);
-// apr_pool_userdata_set::cleanup$object
+// apr_pool_userdata_set::cleanup_object
 //
-signed int cleanup$object(void *);
+signed int cleanup_object(void *);
 // apr_pool_userdata_setn
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2153
 signed int apr_pool_userdata_setn(const void *data, const char *key, signed int (*cleanup)(void *), struct apr_pool_t *pool);
-// apr_pool_userdata_setn::cleanup$object
+// apr_pool_userdata_setn::cleanup_object
 //
-signed int cleanup$object(void *);
+signed int cleanup_object(void *);
 // apr_proc_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/proc.c line 344
 signed int apr_proc_create(struct apr_proc_t *new, const char *progname, const char * const *args, const char * const *env, struct apr_procattr_t *attr, struct apr_pool_t *pool);
@@ -1669,7 +1669,7 @@ signed int apr_proc_mutex_child_init(struct apr_proc_mutex_t **mutex, const char
 signed int apr_proc_mutex_cleanup(void *mutex);
 // apr_proc_mutex_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_proc_mutex.h line 79
-signed int apr_proc_mutex_create(struct apr_proc_mutex_t **mutex, const char *fname, enum anonymous$5 mech, struct apr_pool_t *pool);
+signed int apr_proc_mutex_create(struct apr_proc_mutex_t **mutex, const char *fname, enum anonymous_5 mech, struct apr_pool_t *pool);
 // apr_proc_mutex_defname
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/locks/unix/proc_mutex.c line 863
 const char * apr_proc_mutex_defname(void);
@@ -1709,18 +1709,18 @@ void apr_proc_other_child_refresh_all(signed int reason);
 // apr_proc_other_child_register
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/misc/unix/otherchild.c line 55
 void apr_proc_other_child_register(struct apr_proc_t *proc, void (*maintenance)(signed int, void *, signed int), void *data, struct apr_file_t *write_fd, struct apr_pool_t *p);
-// apr_proc_other_child_register::maintenance$object
+// apr_proc_other_child_register::maintenance_object
 //
-void maintenance$object(signed int, void *, signed int);
+void maintenance_object(signed int, void *, signed int);
 // apr_proc_other_child_unregister
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/misc/unix/otherchild.c line 86
 void apr_proc_other_child_unregister(void *data);
 // apr_proc_wait
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_thread_proc.h line 643
-signed int apr_proc_wait(struct apr_proc_t *proc, signed int *exitcode, enum anonymous$26 *exitwhy, enum anonymous$27 waithow);
+signed int apr_proc_wait(struct apr_proc_t *proc, signed int *exitcode, enum anonymous_26 *exitwhy, enum anonymous_27 waithow);
 // apr_proc_wait_all_procs
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/proc.c line 600
-signed int apr_proc_wait_all_procs(struct apr_proc_t *proc, signed int *exitcode, enum anonymous$26 *exitwhy, enum anonymous$27 waithow, struct apr_pool_t *p);
+signed int apr_proc_wait_all_procs(struct apr_proc_t *proc, signed int *exitcode, enum anonymous_26 *exitwhy, enum anonymous_27 waithow, struct apr_pool_t *p);
 // apr_procattr_addrspace_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/proc.c line 307
 signed int apr_procattr_addrspace_set(struct apr_procattr_t *attr, signed int addrspace);
@@ -1730,9 +1730,9 @@ signed int apr_procattr_child_err_set(struct apr_procattr_t *attr, struct apr_fi
 // apr_procattr_child_errfn_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/proc.c line 293
 signed int apr_procattr_child_errfn_set(struct apr_procattr_t *attr, void (*errfn)(struct apr_pool_t *, signed int, const char *));
-// apr_procattr_child_errfn_set::errfn$object
+// apr_procattr_child_errfn_set::errfn_object
 //
-void errfn$object(struct apr_pool_t *, signed int, const char *);
+void errfn_object(struct apr_pool_t *, signed int, const char *);
 // apr_procattr_child_in_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/proc.c line 93
 signed int apr_procattr_child_in_set(struct apr_procattr_t *attr, struct apr_file_t *child_in, struct apr_file_t *parent_in);
@@ -1741,7 +1741,7 @@ signed int apr_procattr_child_in_set(struct apr_procattr_t *attr, struct apr_fil
 signed int apr_procattr_child_out_set(struct apr_procattr_t *attr, struct apr_file_t *child_out, struct apr_file_t *parent_out);
 // apr_procattr_cmdtype_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/proc.c line 205
-signed int apr_procattr_cmdtype_set(struct apr_procattr_t *attr, enum anonymous$29 cmd);
+signed int apr_procattr_cmdtype_set(struct apr_procattr_t *attr, enum anonymous_29 cmd);
 // apr_procattr_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/proc.c line 28
 signed int apr_procattr_create(struct apr_procattr_t **new, struct apr_pool_t *pool);
@@ -1868,9 +1868,9 @@ unsigned long int apr_shm_size_get(const struct apr_shm_t *m);
 // apr_signal
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_signal.h line 64
 void (*apr_signal(signed int signo, void (*func)(signed int)))(signed int);
-// apr_signal::func$object
+// apr_signal::func_object
 //
-void func$object(signed int);
+void func_object(signed int);
 // apr_signal_block
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/signals.c line 435
 signed int apr_signal_block(signed int signum);
@@ -1883,42 +1883,42 @@ void apr_signal_init(struct apr_pool_t *pglobal);
 // apr_signal_thread
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/signals.c line 319
 signed int apr_signal_thread(signed int (*signal_handler)(signed int));
-// apr_signal_thread::1::sig_func$object
+// apr_signal_thread::1::sig_func_object
 //
-signed int sig_func$object(signed int);
-// apr_signal_thread::signal_handler$object
+signed int sig_func_object(signed int);
+// apr_signal_thread::signal_handler_object
 //
-signed int signal_handler$object(signed int);
+signed int signal_handler_object(signed int);
 // apr_signal_unblock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/signals.c line 462
 signed int apr_signal_unblock(signed int signum);
 // apr_skiplist_add_index
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 262
 void apr_skiplist_add_index(struct apr_skiplist *sl, signed int (*comp)(void *, void *), signed int (*compk)(void *, void *));
-// apr_skiplist_add_index::comp$object
+// apr_skiplist_add_index::comp_object
 //
-signed int comp$object(void *, void *);
-// apr_skiplist_add_index::compk$object
+signed int comp_object(void *, void *);
+// apr_skiplist_add_index::compk_object
 //
-signed int compk$object(void *, void *);
+signed int compk_object(void *, void *);
 // apr_skiplist_alloc
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 84
 void * apr_skiplist_alloc(struct apr_skiplist *sl, unsigned long int size);
 // apr_skiplist_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 682
 void apr_skiplist_destroy(struct apr_skiplist *sl, void (*myfree)(void *));
-// apr_skiplist_destroy::myfree$object
+// apr_skiplist_destroy::myfree_object
 //
-void myfree$object(void *);
+void myfree_object(void *);
 // apr_skiplist_find
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 363
 void * apr_skiplist_find(struct apr_skiplist *sl, void *data, struct apr_skiplistnode **iter);
 // apr_skiplist_find_compare
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 331
 void * apr_skiplist_find_compare(struct apr_skiplist *sli, void *data, struct apr_skiplistnode **iter, signed int (*comp)(void *, void *));
-// apr_skiplist_find_compare::comp$object
+// apr_skiplist_find_compare::comp_object
 //
-signed int comp$object(void *, void *);
+signed int comp_object(void *, void *);
 // apr_skiplist_free
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 132
 void apr_skiplist_free(struct apr_skiplist *sl, void *mem);
@@ -1934,9 +1934,9 @@ struct apr_skiplistnode * apr_skiplist_insert(struct apr_skiplist *sl, void *dat
 // apr_skiplist_insert_compare
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 404
 struct apr_skiplistnode * apr_skiplist_insert_compare(struct apr_skiplist *sl, void *data, signed int (*comp)(void *, void *));
-// apr_skiplist_insert_compare::comp$object
+// apr_skiplist_insert_compare::comp_object
 //
-signed int comp$object(void *, void *);
+signed int comp_object(void *, void *);
 // apr_skiplist_merge
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 696
 struct apr_skiplist * apr_skiplist_merge(struct apr_skiplist *sl1, struct apr_skiplist *sl2);
@@ -1949,42 +1949,42 @@ void * apr_skiplist_peek(struct apr_skiplist *a);
 // apr_skiplist_pop
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 655
 void * apr_skiplist_pop(struct apr_skiplist *a, void (*myfree)(void *));
-// apr_skiplist_pop::myfree$object
+// apr_skiplist_pop::myfree_object
 //
-void myfree$object(void *);
+void myfree_object(void *);
 // apr_skiplist_previous
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 386
 void * apr_skiplist_previous(struct apr_skiplist *sl, struct apr_skiplistnode **iter);
 // apr_skiplist_remove
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 623
 signed int apr_skiplist_remove(struct apr_skiplist *sl, void *data, void (*myfree)(void *));
-// apr_skiplist_remove::myfree$object
+// apr_skiplist_remove::myfree_object
 //
-void myfree$object(void *);
+void myfree_object(void *);
 // apr_skiplist_remove_all
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 628
 void apr_skiplist_remove_all(struct apr_skiplist *sl, void (*myfree)(void *));
-// apr_skiplist_remove_all::myfree$object
+// apr_skiplist_remove_all::myfree_object
 //
-void myfree$object(void *);
+void myfree_object(void *);
 // apr_skiplist_remove_compare
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 594
 signed int apr_skiplist_remove_compare(struct apr_skiplist *sli, void *data, void (*myfree)(void *), signed int (*comp)(void *, void *));
-// apr_skiplist_remove_compare::comp$object
+// apr_skiplist_remove_compare::comp_object
 //
-signed int comp$object(void *, void *);
-// apr_skiplist_remove_compare::myfree$object
+signed int comp_object(void *, void *);
+// apr_skiplist_remove_compare::myfree_object
 //
-void myfree$object(void *);
+void myfree_object(void *);
 // apr_skiplist_set_compare
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 249
 void apr_skiplist_set_compare(struct apr_skiplist *sl, signed int (*comp)(void *, void *), signed int (*compk)(void *, void *));
-// apr_skiplist_set_compare::comp$object
+// apr_skiplist_set_compare::comp_object
 //
-signed int comp$object(void *, void *);
-// apr_skiplist_set_compare::compk$object
+signed int comp_object(void *, void *);
+// apr_skiplist_set_compare::compk_object
 //
-signed int compk$object(void *, void *);
+signed int compk_object(void *, void *);
 // apr_sleep
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_time.h line 181
 void apr_sleep(signed long int t);
@@ -2014,7 +2014,7 @@ void apr_sockaddr_vars_set(struct apr_sockaddr_t *addr, signed int family, unsig
 signed int apr_socket_accept(struct apr_socket_t **new, struct apr_socket_t *sock, struct apr_pool_t *connection_context);
 // apr_socket_addr_get
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockaddr.c line 172
-signed int apr_socket_addr_get(struct apr_sockaddr_t **sa, enum anonymous$18 which, struct apr_socket_t *sock);
+signed int apr_socket_addr_get(struct apr_sockaddr_t **sa, enum anonymous_18 which, struct apr_socket_t *sock);
 // apr_socket_atmark
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockopt.c line 359
 signed int apr_socket_atmark(struct apr_socket_t *sock, signed int *atmark);
@@ -2039,9 +2039,9 @@ signed int apr_socket_data_get(void **data, const char *key, struct apr_socket_t
 // apr_socket_data_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockets.c line 438
 signed int apr_socket_data_set(struct apr_socket_t *sock, void *data, const char *key, signed int (*cleanup)(void *));
-// apr_socket_data_set::cleanup$object
+// apr_socket_data_set::cleanup_object
 //
-signed int cleanup$object(void *);
+signed int cleanup_object(void *);
 // apr_socket_inherit_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockets.c line 519
 signed int apr_socket_inherit_set(struct apr_socket_t *thesocket);
@@ -2083,7 +2083,7 @@ signed int apr_socket_sendto(struct apr_socket_t *sock, struct apr_sockaddr_t *w
 signed int apr_socket_sendv(struct apr_socket_t *sock, struct iovec *vec, signed int nvec, unsigned long int *len);
 // apr_socket_shutdown
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockets.c line 175
-signed int apr_socket_shutdown(struct apr_socket_t *thesocket, enum anonymous$21 how);
+signed int apr_socket_shutdown(struct apr_socket_t *thesocket, enum anonymous_21 how);
 // apr_socket_timeout_get
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockopt.c line 341
 signed int apr_socket_timeout_get(struct apr_socket_t *sock, signed long int *t);
@@ -2144,9 +2144,9 @@ struct apr_table_t * apr_table_copy(struct apr_pool_t *p, const struct apr_table
 // apr_table_do
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_tables.c line 918
 signed int apr_table_do(signed int (*comp)(void *, const char *, const char *), void *rec, const struct apr_table_t *t, ...);
-// apr_table_do::comp$object
+// apr_table_do::comp_object
 //
-signed int comp$object(void *, const char *, const char *);
+signed int comp_object(void *, const char *, const char *);
 // apr_table_elts
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_tables.c line 390
 const struct apr_array_header_t * apr_table_elts(const struct apr_table_t *t);
@@ -2183,9 +2183,9 @@ void apr_table_unset(struct apr_table_t *t, const char *key);
 // apr_table_vdo
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_tables.c line 961
 signed int apr_table_vdo(signed int (*comp)(void *, const char *, const char *), void *rec, const struct apr_table_t *t, __builtin_va_list vp);
-// apr_table_vdo::comp$object
+// apr_table_vdo::comp_object
 //
-signed int comp$object(void *, const char *, const char *);
+signed int comp_object(void *, const char *, const char *);
 // apr_temp_dir_get
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/tempdir.c line 40
 signed int apr_temp_dir_get(const char **temp_dir, struct apr_pool_t *p);
@@ -2219,18 +2219,18 @@ signed int apr_thread_cond_wait(struct apr_thread_cond_t *cond, struct apr_threa
 // apr_thread_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 145
 signed int apr_thread_create(struct apr_thread_t **new, struct apr_threadattr_t *attr, void * (*func)(struct apr_thread_t *, void *), void *data, struct apr_pool_t *pool);
-// apr_thread_create::func$object
+// apr_thread_create::func_object
 //
-void * func$object(struct apr_thread_t *, void *);
+void * func_object(struct apr_thread_t *, void *);
 // apr_thread_data_get
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 266
 signed int apr_thread_data_get(void **data, const char *key, struct apr_thread_t *thread);
 // apr_thread_data_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 272
 signed int apr_thread_data_set(void *data, const char *key, signed int (*cleanup)(void *), struct apr_thread_t *thread);
-// apr_thread_data_set::cleanup$object
+// apr_thread_data_set::cleanup_object
 //
-signed int cleanup$object(void *);
+signed int cleanup_object(void *);
 // apr_thread_detach
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 230
 signed int apr_thread_detach(struct apr_thread_t *thd);
@@ -2261,9 +2261,9 @@ signed int apr_thread_mutex_unlock(struct apr_thread_mutex_t *mutex);
 // apr_thread_once
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 313
 signed int apr_thread_once(struct apr_thread_once_t *control, void (*func)(void));
-// apr_thread_once::func$object
+// apr_thread_once::func_object
 //
-void func$object(void);
+void func_object(void);
 // apr_thread_once_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 303
 signed int apr_thread_once_init(struct apr_thread_once_t **control, struct apr_pool_t *p);
@@ -2318,15 +2318,15 @@ signed int apr_threadkey_data_get(void **data, const char *key, struct apr_threa
 // apr_threadkey_data_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/threadpriv.c line 86
 signed int apr_threadkey_data_set(void *data, const char *key, signed int (*cleanup)(void *), struct apr_threadkey_t *threadkey);
-// apr_threadkey_data_set::cleanup$object
+// apr_threadkey_data_set::cleanup_object
 //
-signed int cleanup$object(void *);
+signed int cleanup_object(void *);
 // apr_threadkey_private_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/threadpriv.c line 24
 signed int apr_threadkey_private_create(struct apr_threadkey_t **key, void (*dest)(void *), struct apr_pool_t *pool);
-// apr_threadkey_private_create::dest$object
+// apr_threadkey_private_create::dest_object
 //
-void dest$object(void *);
+void dest_object(void *);
 // apr_threadkey_private_delete
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/threadpriv.c line 65
 signed int apr_threadkey_private_delete(struct apr_threadkey_t *key);
@@ -2401,16 +2401,16 @@ unsigned int apr_unix_perms2mode(signed int perms);
 void apr_unix_setup_time(void);
 // apr_version
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/misc/unix/version.c line 20
-void apr_version(struct anonymous$0 *pvsn);
+void apr_version(struct anonymous_0 *pvsn);
 // apr_version_string
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/misc/unix/version.c line 32
 const char * apr_version_string(void);
 // apr_vformatter
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_snprintf.c line 683
 signed int apr_vformatter(signed int (*flush_func)(struct apr_vformatter_buff_t *), struct apr_vformatter_buff_t *vbuff, const char *fmt, __builtin_va_list ap);
-// apr_vformatter::flush_func$object
+// apr_vformatter::flush_func_object
 //
-signed int flush_func$object(struct apr_vformatter_buff_t *);
+signed int flush_func_object(struct apr_vformatter_buff_t *);
 // apr_vsnprintf
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_snprintf.c line 1388
 signed int apr_vsnprintf(char *buf, unsigned long int len, const char *format, void **ap);
@@ -2422,7 +2422,7 @@ signed int apr_wait_for_io_or_timeout(struct apr_file_t *f, struct apr_socket_t 
 extern signed int atoi(const char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$48, unsigned int);
+extern signed int bind(signed int, union anonymous_48, unsigned int);
 // c2x
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/encoding/apr_escape.c line 329
 static inline unsigned char * c2x(unsigned int what, unsigned char prefix, unsigned char *where);
@@ -2461,7 +2461,7 @@ static signed int compare_left(const char *a, const char *b);
 static signed int compare_right(const char *a, const char *b);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous$48, unsigned int);
+extern signed int connect(signed int, union anonymous_48, unsigned int);
 // conv_10
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_snprintf.c line 330
 static char * conv_10(signed int num, signed int is_unsigned, signed int *is_negative, char *buf_end, unsigned long int *len);
@@ -2473,7 +2473,7 @@ static char * conv_10_quad(signed long int num, signed int is_unsigned, signed i
 static char * conv_apr_sockaddr(struct apr_sockaddr_t *sa, char *buf_end, unsigned long int *len);
 // conv_fp
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_snprintf.c line 517
-static char * conv_fp(char format, double num, enum anonymous$30 add_dp, signed int precision, signed int *is_negative, char *buf, unsigned long int *len);
+static char * conv_fp(char format, double num, enum anonymous_30 add_dp, signed int precision, signed int *is_negative, char *buf, unsigned long int *len);
 // conv_in_addr
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_snprintf.c line 425
 static char * conv_in_addr(struct in_addr *ia, char *buf_end, unsigned long int *len);
@@ -2704,7 +2704,7 @@ extern signed int getnameinfo(struct sockaddr *, unsigned int, char *, unsigned 
 extern char * getpass(const char *);
 // getpeername
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 141
-extern signed int getpeername(signed int, union anonymous$48, unsigned int *);
+extern signed int getpeername(signed int, union anonymous_48, unsigned int *);
 // getpid
 // file /usr/include/unistd.h line 628
 extern signed int getpid(void);
@@ -2722,7 +2722,7 @@ extern signed int getpwuid_r(unsigned int, struct passwd *, char *, unsigned lon
 extern signed int getservbyname_r(const char *, const char *, struct servent *, char *, unsigned long int, struct servent ** restrict );
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous$48, unsigned int *);
+extern signed int getsockname(signed int, union anonymous_48, unsigned int *);
 // getsockopt
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 219
 extern signed int getsockopt(signed int, signed int, signed int, void *, unsigned int *);
@@ -2753,72 +2753,72 @@ extern unsigned int if_nametoindex(const char *);
 // impl_pollcb_add
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/epoll.c line 385
 static signed int impl_pollcb_add(struct apr_pollcb_t *pollcb, struct apr_pollfd_t *descriptor);
-// impl_pollcb_add$link1
+// impl_pollcb_add_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 337
-static signed int impl_pollcb_add$link1(struct apr_pollcb_t *pollcb$link1, struct apr_pollfd_t *descriptor$link1);
+static signed int impl_pollcb_add_link1(struct apr_pollcb_t *pollcb_link1, struct apr_pollfd_t *descriptor_link1);
 // impl_pollcb_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/epoll.c line 339
 static signed int impl_pollcb_create(struct apr_pollcb_t *pollcb, unsigned int size, struct apr_pool_t *p, unsigned int flags);
-// impl_pollcb_create$link1
+// impl_pollcb_create_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 315
-static signed int impl_pollcb_create$link1(struct apr_pollcb_t *pollcb$link1, unsigned int size$link1, struct apr_pool_t *p$link1, unsigned int flags$link1);
+static signed int impl_pollcb_create_link1(struct apr_pollcb_t *pollcb_link1, unsigned int size_link1, struct apr_pool_t *p_link1, unsigned int flags_link1);
 // impl_pollcb_poll
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/epoll.c line 436
 static signed int impl_pollcb_poll(struct apr_pollcb_t *pollcb, signed long int timeout, signed int (*func)(void *, struct apr_pollfd_t *), void *baton);
-// impl_pollcb_poll$link1
+// impl_pollcb_poll_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 391
-static signed int impl_pollcb_poll$link1(struct apr_pollcb_t *pollcb$link1, signed long int timeout$link1, signed int (*func$link1)(void *, struct apr_pollfd_t *), void *baton$link1);
-// impl_pollcb_poll::func$link1$object
+static signed int impl_pollcb_poll_link1(struct apr_pollcb_t *pollcb_link1, signed long int timeout_link1, signed int (*func_link1)(void *, struct apr_pollfd_t *), void *baton_link1);
+// impl_pollcb_poll::func_link1_object
 //
-signed int func$link1$object(void *, struct apr_pollfd_t *);
-// impl_pollcb_poll::func$object
+signed int func_link1_object(void *, struct apr_pollfd_t *);
+// impl_pollcb_poll::func_object
 //
-signed int func$object(void *, struct apr_pollfd_t *);
+signed int func_object(void *, struct apr_pollfd_t *);
 // impl_pollcb_remove
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/epoll.c line 410
 static signed int impl_pollcb_remove(struct apr_pollcb_t *pollcb, struct apr_pollfd_t *descriptor);
-// impl_pollcb_remove$link1
+// impl_pollcb_remove_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 363
-static signed int impl_pollcb_remove$link1(struct apr_pollcb_t *pollcb$link1, struct apr_pollfd_t *descriptor$link1);
+static signed int impl_pollcb_remove_link1(struct apr_pollcb_t *pollcb_link1, struct apr_pollfd_t *descriptor_link1);
 // impl_pollset_add
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/epoll.c line 156
 static signed int impl_pollset_add(struct apr_pollset_t *pollset, const struct apr_pollfd_t *descriptor);
-// impl_pollset_add$link1
+// impl_pollset_add_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 178
-static signed int impl_pollset_add$link1(struct apr_pollset_t$0 *pollset$link1, const struct apr_pollfd_t *descriptor$link1);
-// impl_pollset_add$link2
+static signed int impl_pollset_add_link1(struct apr_pollset_t_0 *pollset_link1, const struct apr_pollfd_t *descriptor_link1);
+// impl_pollset_add_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/select.c line 226
-static signed int impl_pollset_add$link2(struct apr_pollset_t$1 *pollset$link2, const struct apr_pollfd_t *descriptor$link2);
+static signed int impl_pollset_add_link2(struct apr_pollset_t_1 *pollset_link2, const struct apr_pollfd_t *descriptor_link2);
 // impl_pollset_cleanup
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/epoll.c line 80
 static signed int impl_pollset_cleanup(struct apr_pollset_t *pollset);
 // impl_pollset_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/epoll.c line 87
 static signed int impl_pollset_create(struct apr_pollset_t *pollset, unsigned int size, struct apr_pool_t *p, unsigned int flags);
-// impl_pollset_create$link1
+// impl_pollset_create_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 157
-static signed int impl_pollset_create$link1(struct apr_pollset_t$0 *pollset$link1, unsigned int size$link1, struct apr_pool_t *p$link1, unsigned int flags$link1);
-// impl_pollset_create$link2
+static signed int impl_pollset_create_link1(struct apr_pollset_t_0 *pollset_link1, unsigned int size_link1, struct apr_pool_t *p_link1, unsigned int flags_link1);
+// impl_pollset_create_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/select.c line 197
-static signed int impl_pollset_create$link2(struct apr_pollset_t$1 *pollset$link2, unsigned int size$link2, struct apr_pool_t *p$link2, unsigned int flags$link2);
+static signed int impl_pollset_create_link2(struct apr_pollset_t_1 *pollset_link2, unsigned int size_link2, struct apr_pool_t *p_link2, unsigned int flags_link2);
 // impl_pollset_poll
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/epoll.c line 253
 static signed int impl_pollset_poll(struct apr_pollset_t *pollset, signed long int timeout, signed int *num, const struct apr_pollfd_t **descriptors);
-// impl_pollset_poll$link1
+// impl_pollset_poll_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 236
-static signed int impl_pollset_poll$link1(struct apr_pollset_t$0 *pollset$link1, signed long int timeout$link1, signed int *num$link1, const struct apr_pollfd_t **descriptors$link1);
-// impl_pollset_poll$link2
+static signed int impl_pollset_poll_link1(struct apr_pollset_t_0 *pollset_link1, signed long int timeout_link1, signed int *num_link1, const struct apr_pollfd_t **descriptors_link1);
+// impl_pollset_poll_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/select.c line 339
-static signed int impl_pollset_poll$link2(struct apr_pollset_t$1 *pollset$link2, signed long int timeout$link2, signed int *num$link2, const struct apr_pollfd_t **descriptors$link2);
+static signed int impl_pollset_poll_link2(struct apr_pollset_t_1 *pollset_link2, signed long int timeout_link2, signed int *num_link2, const struct apr_pollfd_t **descriptors_link2);
 // impl_pollset_remove
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/epoll.c line 209
 static signed int impl_pollset_remove(struct apr_pollset_t *pollset, const struct apr_pollfd_t *descriptor);
-// impl_pollset_remove$link1
+// impl_pollset_remove_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 208
-static signed int impl_pollset_remove$link1(struct apr_pollset_t$0 *pollset$link1, const struct apr_pollfd_t *descriptor$link1);
-// impl_pollset_remove$link2
+static signed int impl_pollset_remove_link1(struct apr_pollset_t_0 *pollset_link1, const struct apr_pollfd_t *descriptor_link1);
+// impl_pollset_remove_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/select.c line 294
-static signed int impl_pollset_remove$link2(struct apr_pollset_t$1 *pollset$link2, const struct apr_pollfd_t *descriptor$link2);
+static signed int impl_pollset_remove_link2(struct apr_pollset_t_1 *pollset_link2, const struct apr_pollfd_t *descriptor_link2);
 // indexing_comp
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 226
 static signed int indexing_comp(void *a, void *b);
@@ -2968,19 +2968,19 @@ static signed int pipenonblock(struct apr_file_t *thepipe);
 extern signed int poll(struct pollfd *, unsigned long int, signed int);
 // pollcb_provider
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/pollcb.c line 44
-static struct apr_pollcb_provider_t * pollcb_provider(enum anonymous$24 method);
+static struct apr_pollcb_provider_t * pollcb_provider(enum anonymous_24 method);
 // pollset_cleanup
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/pollset.c line 128
 static signed int pollset_cleanup(void *p);
 // pollset_provider
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/pollset.c line 174
-static struct apr_pollset_provider_t * pollset_provider(enum anonymous$24 method);
+static struct apr_pollset_provider_t * pollset_provider(enum anonymous_24 method);
 // proc_mutex_choose_method
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/locks/unix/proc_mutex.c line 804
-static signed int proc_mutex_choose_method(struct apr_proc_mutex_t *new_mutex, enum anonymous$5 mech);
+static signed int proc_mutex_choose_method(struct apr_proc_mutex_t *new_mutex, enum anonymous_5 mech);
 // proc_mutex_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/locks/unix/proc_mutex.c line 876
-static signed int proc_mutex_create(struct apr_proc_mutex_t *new_mutex, enum anonymous$5 mech, const char *fname);
+static signed int proc_mutex_create(struct apr_proc_mutex_t *new_mutex, enum anonymous_5 mech, const char *fname);
 // proc_mutex_fcntl_acquire
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/locks/unix/proc_mutex.c line 588
 static signed int proc_mutex_fcntl_acquire(struct apr_proc_mutex_t *mutex);
@@ -3091,22 +3091,22 @@ extern signed int pthread_attr_setguardsize(union pthread_attr_t *, unsigned lon
 extern signed int pthread_attr_setstacksize(union pthread_attr_t *, unsigned long int);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$12 *);
+extern signed int pthread_cond_broadcast(union anonymous_12 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$12 *);
+extern signed int pthread_cond_destroy(union anonymous_12 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$12 *, const union anonymous$8 *);
+extern signed int pthread_cond_init(union anonymous_12 *, const union anonymous_8 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$12 *);
+extern signed int pthread_cond_signal(union anonymous_12 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$12 *, union anonymous$4 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_12 *, union anonymous_4 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$12 *, union anonymous$4 *);
+extern signed int pthread_cond_wait(union anonymous_12 *, union anonymous_4 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -3133,64 +3133,64 @@ extern signed int pthread_key_create(unsigned int *, void (*)(void *));
 extern signed int pthread_key_delete(unsigned int);
 // pthread_mutex_consistent_np
 // file /usr/include/pthread.h line 798
-extern signed int pthread_mutex_consistent_np(union anonymous$4 *);
+extern signed int pthread_mutex_consistent_np(union anonymous_4 *);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$4 *);
+extern signed int pthread_mutex_destroy(union anonymous_4 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$4 *, const union anonymous$8 *);
+extern signed int pthread_mutex_init(union anonymous_4 *, const union anonymous_8 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$4 *);
+extern signed int pthread_mutex_lock(union anonymous_4 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$4 *);
+extern signed int pthread_mutex_trylock(union anonymous_4 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$4 *);
+extern signed int pthread_mutex_unlock(union anonymous_4 *);
 // pthread_mutexattr_destroy
 // file /usr/include/pthread.h line 812
-extern signed int pthread_mutexattr_destroy(union anonymous$8 *);
+extern signed int pthread_mutexattr_destroy(union anonymous_8 *);
 // pthread_mutexattr_init
 // file /usr/include/pthread.h line 808
-extern signed int pthread_mutexattr_init(union anonymous$8 *);
+extern signed int pthread_mutexattr_init(union anonymous_8 *);
 // pthread_mutexattr_setprotocol
 // file /usr/include/pthread.h line 847
-extern signed int pthread_mutexattr_setprotocol(union anonymous$8 *, signed int);
+extern signed int pthread_mutexattr_setprotocol(union anonymous_8 *, signed int);
 // pthread_mutexattr_setpshared
 // file /usr/include/pthread.h line 822
-extern signed int pthread_mutexattr_setpshared(union anonymous$8 *, signed int);
+extern signed int pthread_mutexattr_setpshared(union anonymous_8 *, signed int);
 // pthread_mutexattr_setrobust_np
 // file /usr/include/pthread.h line 878
-extern signed int pthread_mutexattr_setrobust_np(union anonymous$8 *, signed int);
+extern signed int pthread_mutexattr_setrobust_np(union anonymous_8 *, signed int);
 // pthread_mutexattr_settype
 // file /usr/include/pthread.h line 835
-extern signed int pthread_mutexattr_settype(union anonymous$8 *, signed int);
+extern signed int pthread_mutexattr_settype(union anonymous_8 *, signed int);
 // pthread_once
 // file /usr/include/pthread.h line 496
 extern signed int pthread_once(signed int *, void (*)(void));
 // pthread_rwlock_destroy
 // file /usr/include/pthread.h line 895
-extern signed int pthread_rwlock_destroy(union anonymous$14 *);
+extern signed int pthread_rwlock_destroy(union anonymous_14 *);
 // pthread_rwlock_init
 // file /usr/include/pthread.h line 890
-extern signed int pthread_rwlock_init(union anonymous$14 *, const union anonymous$15 *);
+extern signed int pthread_rwlock_init(union anonymous_14 *, const union anonymous_15 *);
 // pthread_rwlock_rdlock
 // file /usr/include/pthread.h line 899
-extern signed int pthread_rwlock_rdlock(union anonymous$14 *);
+extern signed int pthread_rwlock_rdlock(union anonymous_14 *);
 // pthread_rwlock_tryrdlock
 // file /usr/include/pthread.h line 903
-extern signed int pthread_rwlock_tryrdlock(union anonymous$14 *);
+extern signed int pthread_rwlock_tryrdlock(union anonymous_14 *);
 // pthread_rwlock_trywrlock
 // file /usr/include/pthread.h line 918
-extern signed int pthread_rwlock_trywrlock(union anonymous$14 *);
+extern signed int pthread_rwlock_trywrlock(union anonymous_14 *);
 // pthread_rwlock_unlock
 // file /usr/include/pthread.h line 929
-extern signed int pthread_rwlock_unlock(union anonymous$14 *);
+extern signed int pthread_rwlock_unlock(union anonymous_14 *);
 // pthread_rwlock_wrlock
 // file /usr/include/pthread.h line 914
-extern signed int pthread_rwlock_wrlock(union anonymous$14 *);
+extern signed int pthread_rwlock_wrlock(union anonymous_14 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -3199,7 +3199,7 @@ extern unsigned long int pthread_self(void);
 extern signed int pthread_setspecific(unsigned int, const void *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$31 *, struct anonymous$31 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_31 *, struct anonymous_31 *);
 // pthread_yield
 // file /usr/include/pthread.h line 471
 extern signed int pthread_yield(void);
@@ -3220,13 +3220,13 @@ extern signed int readdir_r(struct __dirstream *, struct dirent *, struct dirent
 extern void * realloc(void *, unsigned long int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, union anonymous$48, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, union anonymous_48, unsigned int *);
 // rekey
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/random/unix/apr_random.c line 197
 static void rekey(struct apr_random_t *g);
 // remove_sync_sigs
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/signals.c line 274
-static void remove_sync_sigs(struct anonymous$31 *sig_mask);
+static void remove_sync_sigs(struct anonymous_31 *sig_mask);
 // rename
 // file /usr/include/stdio.h line 180
 extern signed int rename(const char *, const char *);
@@ -3250,25 +3250,25 @@ static void run_child_cleanups(struct cleanup_t **cref);
 static void run_cleanups(struct cleanup_t **cref);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$25 *, struct anonymous$25 *, struct anonymous$25 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_25 *, struct anonymous_25 *, struct anonymous_25 *, struct timeval *);
 // sem_close
 // file /usr/include/semaphore.h line 45
-extern signed int sem_close(union anonymous$3 *);
+extern signed int sem_close(union anonymous_3 *);
 // sem_open
 // file /usr/include/semaphore.h line 42
-extern union anonymous$3 * sem_open(const char *, signed int, ...);
+extern union anonymous_3 * sem_open(const char *, signed int, ...);
 // sem_post
 // file /usr/include/semaphore.h line 69
-extern signed int sem_post(union anonymous$3 *);
+extern signed int sem_post(union anonymous_3 *);
 // sem_trywait
 // file /usr/include/semaphore.h line 66
-extern signed int sem_trywait(union anonymous$3 *);
+extern signed int sem_trywait(union anonymous_3 *);
 // sem_unlink
 // file /usr/include/semaphore.h line 48
 extern signed int sem_unlink(const char *);
 // sem_wait
 // file /usr/include/semaphore.h line 54
-extern signed int sem_wait(union anonymous$3 *);
+extern signed int sem_wait(union anonymous_3 *);
 // semctl
 // file /usr/include/x86_64-linux-gnu/sys/sem.h line 52
 extern signed int semctl(signed int, signed int, signed int, ...);
@@ -3283,7 +3283,7 @@ extern signed int semop(signed int, struct sembuf *, unsigned long int);
 extern signed long int sendfile(signed int, signed int, signed long int *, unsigned long int);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous$48, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous_48, unsigned int);
 // serr
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/misc/unix/getopt.c line 181
 static signed int serr(struct apr_getopt_t *os, const char *err, const char *str, signed int status);
@@ -3346,19 +3346,19 @@ extern signed int shutdown(signed int, signed int);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$31 *, signed int);
+extern signed int sigaddset(struct anonymous_31 *, signed int);
 // sigdelset
 // file /usr/include/signal.h line 224
-extern signed int sigdelset(struct anonymous$31 *, signed int);
+extern signed int sigdelset(struct anonymous_31 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$31 *);
+extern signed int sigemptyset(struct anonymous_31 *);
 // sigfillset
 // file /usr/include/signal.h line 218
-extern signed int sigfillset(struct anonymous$31 *);
+extern signed int sigfillset(struct anonymous_31 *);
 // sigwait
 // file /usr/include/signal.h line 270
-extern signed int sigwait(const struct anonymous$31 *, signed int *);
+extern signed int sigwait(const struct anonymous_31 *, signed int *);
 // skiplist_free_node
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 203
 static signed int skiplist_free_node(struct apr_skiplist *sl, struct apr_skiplistnode *m);
@@ -3370,31 +3370,31 @@ static inline signed int skiplist_height(const struct apr_skiplist *sl);
 static struct apr_skiplistnode * skiplist_new_node(struct apr_skiplist *sl);
 // skiplist_qclear
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 184
-static inline void skiplist_qclear(struct anonymous$44 *q);
+static inline void skiplist_qclear(struct anonymous_44 *q);
 // skiplist_qpop
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 179
-static inline struct apr_skiplistnode * skiplist_qpop(struct anonymous$44 *q);
+static inline struct apr_skiplistnode * skiplist_qpop(struct anonymous_44 *q);
 // skiplist_qpush
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 155
-static signed int skiplist_qpush(struct anonymous$44 *q, struct apr_skiplistnode *m);
+static signed int skiplist_qpush(struct anonymous_44 *q, struct apr_skiplistnode *m);
 // skiplisti_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 677
 static void skiplisti_destroy(void *vsl);
 // skiplisti_find_compare
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 300
 static signed int skiplisti_find_compare(struct apr_skiplist *sl, void *data, struct apr_skiplistnode **ret, signed int (*comp)(void *, void *));
-// skiplisti_find_compare::comp$object
+// skiplisti_find_compare::comp_object
 //
-signed int comp$object(void *, void *);
+signed int comp_object(void *, void *);
 // skiplisti_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 208
 static signed int skiplisti_init(struct apr_skiplist **s, struct apr_pool_t *p);
 // skiplisti_remove
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 551
 static signed int skiplisti_remove(struct apr_skiplist *sl, struct apr_skiplistnode *m, void (*myfree)(void *));
-// skiplisti_remove::myfree$object
+// skiplisti_remove::myfree_object
 //
-void myfree$object(void *);
+void myfree_object(void *);
 // snprintf_flush
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_snprintf.c line 1347
 static signed int snprintf_flush(struct apr_vformatter_buff_t *vbuff);
@@ -3513,7 +3513,7 @@ extern signed long int writev(signed int, struct iovec *, signed int);
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/encoding/apr_escape.c line 158
 static char x2c(const char *what);
 
-struct anonymous$44
+struct anonymous_44
 {
   // data
   struct apr_skiplistnode **data;
@@ -3525,7 +3525,7 @@ struct anonymous$44
   struct apr_pool_t *p;
 };
 
-struct anonymous$47
+struct anonymous_47
 {
   // p
   struct apr_pool_t *p;
@@ -3535,7 +3535,7 @@ struct anonymous$47
   struct apr_array_header_t *merged;
 };
 
-struct anonymous$38
+struct anonymous_38
 {
   // _call_addr
   void *_call_addr;
@@ -3545,7 +3545,7 @@ struct anonymous$38
   unsigned int _arch;
 };
 
-struct anonymous$45
+struct anonymous_45
 {
   // ptr
   void *ptr;
@@ -3553,7 +3553,7 @@ struct anonymous$45
   char inuse;
 };
 
-struct anonymous$36
+struct anonymous_36
 {
   // si_addr
   void *si_addr;
@@ -3561,19 +3561,19 @@ struct anonymous$36
   signed short int si_addr_lsb;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // fds_bits
   signed long int fds_bits[16l];
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // __lock
   signed int __lock;
@@ -3593,7 +3593,7 @@ struct anonymous$11
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // __lock
   signed int __lock;
@@ -3621,7 +3621,7 @@ struct anonymous$13
   unsigned int __flags;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // major
   signed int major;
@@ -3633,7 +3633,7 @@ struct anonymous$0
   signed int is_dev;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // si_pid
   signed int si_pid;
@@ -3641,7 +3641,7 @@ struct anonymous$32
   unsigned int si_uid;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // si_pid
   signed int si_pid;
@@ -3663,7 +3663,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$34
+struct anonymous_34
 {
   // si_pid
   signed int si_pid;
@@ -3673,7 +3673,7 @@ struct anonymous$34
   union sigval si_sigval;
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // si_tid
   signed int si_tid;
@@ -3683,7 +3683,7 @@ struct anonymous$33
   union sigval si_sigval;
 };
 
-struct anonymous$37
+struct anonymous_37
 {
   // si_band
   signed long int si_band;
@@ -3691,27 +3691,27 @@ struct anonymous$37
   signed int si_fd;
 };
 
-union anonymous$40
+union anonymous_40
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$32 _kill;
+  struct anonymous_32 _kill;
   // _timer
-  struct anonymous$33 _timer;
+  struct anonymous_33 _timer;
   // _rt
-  struct anonymous$34 _rt;
+  struct anonymous_34 _rt;
   // _sigchld
-  struct anonymous$35 _sigchld;
+  struct anonymous_35 _sigchld;
   // _sigfault
-  struct anonymous$36 _sigfault;
+  struct anonymous_36 _sigfault;
   // _sigpoll
-  struct anonymous$37 _sigpoll;
+  struct anonymous_37 _sigpoll;
   // _sigsys
-  struct anonymous$38 _sigsys;
+  struct anonymous_38 _sigsys;
 };
 
-struct anonymous$41
+struct anonymous_41
 {
   // si_signo
   signed int si_signo;
@@ -3720,10 +3720,10 @@ struct anonymous$41
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$40 _sifields;
+  union anonymous_40 _sifields;
 };
 
-struct anonymous$46
+struct anonymous_46
 {
   // size
   unsigned long int size;
@@ -3731,7 +3731,7 @@ struct anonymous$46
   struct apr_array_header_t *list;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // next
   struct apr_mmap_t * volatile next;
@@ -3739,7 +3739,7 @@ struct anonymous$1
   struct apr_mmap_t * volatile prev;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // next
   struct pfd_elem_t * volatile next;
@@ -3747,7 +3747,7 @@ struct anonymous$23
   struct pfd_elem_t * volatile prev;
 };
 
-union anonymous$20
+union anonymous_20
 {
   // f
   struct apr_file_t *f;
@@ -3755,7 +3755,7 @@ union anonymous$20
   struct apr_socket_t *s;
 };
 
-union anonymous$22
+union anonymous_22
 {
   // epoll
   struct epoll_event *epoll;
@@ -3765,7 +3765,7 @@ union anonymous$22
   void *undef;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // ifu_broadaddr
   struct sockaddr *ifu_broadaddr;
@@ -3773,15 +3773,15 @@ union anonymous$9
   struct sockaddr *ifu_dstaddr;
 };
 
-union anonymous$42
+union anonymous_42
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$41 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_41 *, void *);
 };
 
-union anonymous$10
+union anonymous_10
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -3791,7 +3791,7 @@ union anonymous$10
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __size
   char __size[32l];
@@ -3799,7 +3799,7 @@ union anonymous$3
   signed long int __align;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // __size
   char __size[4l];
@@ -3807,7 +3807,7 @@ union anonymous$8
   signed int __align;
 };
 
-union anonymous$15
+union anonymous_15
 {
   // __size
   char __size[8l];
@@ -3815,20 +3815,20 @@ union anonymous$15
   signed long int __align;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // __data
-  struct anonymous$11 __data;
+  struct anonymous_11 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-union anonymous$14
+union anonymous_14
 {
   // __data
-  struct anonymous$13 __data;
+  struct anonymous_13 __data;
   // __size
   char __size[56l];
   // __align
@@ -3863,7 +3863,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -3902,7 +3902,7 @@ struct sockaddr_in
 struct in6_addr
 {
   // __in6_u
-  union anonymous$10 __in6_u;
+  union anonymous_10 __in6_u;
 };
 
 struct sockaddr_in6
@@ -3929,7 +3929,7 @@ struct sockaddr_storage
   char __ss_padding[112l];
 };
 
-union anonymous$7
+union anonymous_7
 {
   // sin
   struct sockaddr_in sin;
@@ -3939,7 +3939,7 @@ union anonymous$7
   struct sockaddr_storage sas;
 };
 
-union anonymous$16
+union anonymous_16
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -3969,7 +3969,7 @@ union anonymous$16
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$48
+union anonymous_48
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -4220,7 +4220,7 @@ struct apr_file_t
   // buffered
   signed int buffered;
   // blocking
-  enum anonymous$2 blocking;
+  enum anonymous_2 blocking;
   // ungetchar
   signed int ungetchar;
   // buffer
@@ -4404,7 +4404,7 @@ struct apr_mmap_t
   // size
   unsigned long int size;
   // link
-  struct anonymous$1 link;
+  struct anonymous_1 link;
 };
 
 struct apr_os_global_mutex_t
@@ -4422,9 +4422,9 @@ struct apr_os_proc_mutex_t
   // crossproc
   signed int crossproc;
   // pthread_interproc
-  union anonymous$4 *pthread_interproc;
+  union anonymous_4 *pthread_interproc;
   // intraproc
-  union anonymous$4 *intraproc;
+  union anonymous_4 *intraproc;
 };
 
 struct apr_os_sock_info_t
@@ -4484,7 +4484,7 @@ struct apr_pollcb_t
   // fd
   signed int fd;
   // pollset
-  union anonymous$22 pollset;
+  union anonymous_22 pollset;
   // copyset
   struct apr_pollfd_t **copyset;
   // provider
@@ -4496,13 +4496,13 @@ struct apr_pollfd_t
   // p
   struct apr_pool_t *p;
   // desc_type
-  enum anonymous$19 desc_type;
+  enum anonymous_19 desc_type;
   // reqevents
   signed short int reqevents;
   // rtnevents
   signed short int rtnevents;
   // desc
-  union anonymous$20 desc;
+  union anonymous_20 desc;
   // client_data
   void *client_data;
 };
@@ -4549,7 +4549,7 @@ struct apr_pollset_private_t
   struct pfd_dead_ring_t dead_ring;
 };
 
-struct apr_pollset_private_t$0
+struct apr_pollset_private_t_0
 {
   // pollset
   struct pollfd *pollset;
@@ -4559,14 +4559,14 @@ struct apr_pollset_private_t$0
   struct apr_pollfd_t *result_set;
 };
 
-struct apr_pollset_private_t$1
+struct apr_pollset_private_t_1
 {
   // readset
-  struct anonymous$25 readset;
+  struct anonymous_25 readset;
   // writeset
-  struct anonymous$25 writeset;
+  struct anonymous_25 writeset;
   // exceptset
-  struct anonymous$25 exceptset;
+  struct anonymous_25 exceptset;
   // maxfd
   signed int maxfd;
   // query_set
@@ -4593,34 +4593,34 @@ struct apr_pollset_provider_t
   const char *name;
 };
 
-struct apr_pollset_provider_t$0
+struct apr_pollset_provider_t_0
 {
   // create
-  signed int (*create)(struct apr_pollset_t$0 *, unsigned int, struct apr_pool_t *, unsigned int);
+  signed int (*create)(struct apr_pollset_t_0 *, unsigned int, struct apr_pool_t *, unsigned int);
   // add
-  signed int (*add)(struct apr_pollset_t$0 *, const struct apr_pollfd_t *);
+  signed int (*add)(struct apr_pollset_t_0 *, const struct apr_pollfd_t *);
   // remove
-  signed int (*remove)(struct apr_pollset_t$0 *, const struct apr_pollfd_t *);
+  signed int (*remove)(struct apr_pollset_t_0 *, const struct apr_pollfd_t *);
   // poll
-  signed int (*poll)(struct apr_pollset_t$0 *, signed long int, signed int *, const struct apr_pollfd_t **);
+  signed int (*poll)(struct apr_pollset_t_0 *, signed long int, signed int *, const struct apr_pollfd_t **);
   // cleanup
-  signed int (*cleanup)(struct apr_pollset_t$0 *);
+  signed int (*cleanup)(struct apr_pollset_t_0 *);
   // name
   const char *name;
 };
 
-struct apr_pollset_provider_t$1
+struct apr_pollset_provider_t_1
 {
   // create
-  signed int (*create)(struct apr_pollset_t$1 *, unsigned int, struct apr_pool_t *, unsigned int);
+  signed int (*create)(struct apr_pollset_t_1 *, unsigned int, struct apr_pool_t *, unsigned int);
   // add
-  signed int (*add)(struct apr_pollset_t$1 *, const struct apr_pollfd_t *);
+  signed int (*add)(struct apr_pollset_t_1 *, const struct apr_pollfd_t *);
   // remove
-  signed int (*remove)(struct apr_pollset_t$1 *, const struct apr_pollfd_t *);
+  signed int (*remove)(struct apr_pollset_t_1 *, const struct apr_pollfd_t *);
   // poll
-  signed int (*poll)(struct apr_pollset_t$1 *, signed long int, signed int *, const struct apr_pollfd_t **);
+  signed int (*poll)(struct apr_pollset_t_1 *, signed long int, signed int *, const struct apr_pollfd_t **);
   // cleanup
-  signed int (*cleanup)(struct apr_pollset_t$1 *);
+  signed int (*cleanup)(struct apr_pollset_t_1 *);
   // name
   const char *name;
 };
@@ -4645,7 +4645,7 @@ struct apr_pollset_t
   struct apr_pollset_provider_t *provider;
 };
 
-struct apr_pollset_t$0
+struct apr_pollset_t_0
 {
   // pool
   struct apr_pool_t *pool;
@@ -4660,12 +4660,12 @@ struct apr_pollset_t$0
   // wakeup_pfd
   struct apr_pollfd_t wakeup_pfd;
   // p
-  struct apr_pollset_private_t$0 *p;
+  struct apr_pollset_private_t_0 *p;
   // provider
-  struct apr_pollset_provider_t$0 *provider;
+  struct apr_pollset_provider_t_0 *provider;
 };
 
-struct apr_pollset_t$1
+struct apr_pollset_t_1
 {
   // pool
   struct apr_pool_t *pool;
@@ -4680,9 +4680,9 @@ struct apr_pollset_t$1
   // wakeup_pfd
   struct apr_pollfd_t wakeup_pfd;
   // p
-  struct apr_pollset_private_t$1 *p;
+  struct apr_pollset_private_t_1 *p;
   // provider
-  struct apr_pollset_provider_t$1 *provider;
+  struct apr_pollset_provider_t_1 *provider;
 };
 
 struct apr_pool_t
@@ -4734,9 +4734,9 @@ struct apr_proc_mutex_t
   // interproc
   struct apr_file_t *interproc;
   // psem_interproc
-  union anonymous$3 *psem_interproc;
+  union anonymous_3 *psem_interproc;
   // pthread_interproc
-  union anonymous$4 *pthread_interproc;
+  union anonymous_4 *pthread_interproc;
 };
 
 struct apr_proc_mutex_unix_lock_methods_t
@@ -4908,9 +4908,9 @@ struct apr_skiplist
   // memlist
   struct apr_array_header_t *memlist;
   // nodes_q
-  struct anonymous$44 nodes_q;
+  struct anonymous_44 nodes_q;
   // stack_q
-  struct anonymous$44 stack_q;
+  struct anonymous_44 stack_q;
   // pool
   struct apr_pool_t *pool;
 };
@@ -4958,7 +4958,7 @@ struct apr_sockaddr_t
   // next
   struct apr_sockaddr_t *next;
   // sa
-  union anonymous$7 sa;
+  union anonymous_7 sa;
 };
 
 struct apr_socket_t
@@ -5018,7 +5018,7 @@ struct apr_thread_cond_t
   // pool
   struct apr_pool_t *pool;
   // cond
-  union anonymous$12 cond;
+  union anonymous_12 cond;
 };
 
 struct apr_thread_mutex_t
@@ -5026,7 +5026,7 @@ struct apr_thread_mutex_t
   // pool
   struct apr_pool_t *pool;
   // mutex
-  union anonymous$4 mutex;
+  union anonymous_4 mutex;
 };
 
 struct apr_thread_once_t
@@ -5040,7 +5040,7 @@ struct apr_thread_rwlock_t
   // pool
   struct apr_pool_t *pool;
   // rwlock
-  union anonymous$14 rwlock;
+  union anonymous_14 rwlock;
 };
 
 struct apr_thread_t
@@ -5202,7 +5202,7 @@ struct ifaddrs
   // ifa_netmask
   struct sockaddr *ifa_netmask;
   // ifa_ifu
-  union anonymous$9 ifa_ifu;
+  union anonymous_9 ifa_ifu;
   // ifa_data
   void *ifa_data;
 };
@@ -5286,7 +5286,7 @@ struct passwd
 struct pfd_elem_t
 {
   // link
-  struct anonymous$23 link;
+  struct anonymous_23 link;
   // pfd
   struct apr_pollfd_t pfd;
 };
@@ -5306,7 +5306,7 @@ struct process_chain
   // proc
   struct apr_proc_t *proc;
   // kill_how
-  enum anonymous$17 kill_how;
+  enum anonymous_17 kill_how;
   // next
   struct process_chain *next;
 };
@@ -5412,9 +5412,9 @@ struct shmid_ds
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$42 __sigaction_handler;
+  union anonymous_42 __sigaction_handler;
   // sa_mask
-  struct anonymous$31 sa_mask;
+  struct anonymous_31 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -5544,16 +5544,16 @@ struct apr_pollcb_provider_t *apr_pollcb_provider_epoll = &impl_cb;
 // apr_pollcb_provider_poll
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 448
 struct apr_pollcb_provider_t *apr_pollcb_provider_poll;
-// impl_cb$link1
+// impl_cb_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 440
-static struct apr_pollcb_provider_t impl_cb$link1;
-// impl_cb$link1
+static struct apr_pollcb_provider_t impl_cb_link1;
+// impl_cb_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 440
-static struct apr_pollcb_provider_t impl_cb$link1 = { .create=impl_pollcb_create$link1, .add=impl_pollcb_add$link1, .remove=impl_pollcb_remove$link1,
-    .poll=impl_pollcb_poll$link1, .name="poll" };
+static struct apr_pollcb_provider_t impl_cb_link1 = { .create=impl_pollcb_create_link1, .add=impl_pollcb_add_link1, .remove=impl_pollcb_remove_link1,
+    .poll=impl_pollcb_poll_link1, .name="poll" };
 // apr_pollcb_provider_poll
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 448
-struct apr_pollcb_provider_t *apr_pollcb_provider_poll = &impl_cb$link1;
+struct apr_pollcb_provider_t *apr_pollcb_provider_poll = &impl_cb_link1;
 // apr_pollset_provider_epoll
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/epoll.c line 330
 struct apr_pollset_provider_t *apr_pollset_provider_epoll;
@@ -5570,32 +5570,32 @@ static struct apr_pollset_provider_t impl = { .create=impl_pollset_create, .add=
 struct apr_pollset_provider_t *apr_pollset_provider_epoll = &impl;
 // apr_pollset_provider_poll
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 310
-struct apr_pollset_provider_t$0 *apr_pollset_provider_poll;
-// impl$link1
+struct apr_pollset_provider_t_0 *apr_pollset_provider_poll;
+// impl_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 301
-static struct apr_pollset_provider_t$0 impl$link1;
-// impl$link1
+static struct apr_pollset_provider_t_0 impl_link1;
+// impl_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 301
-static struct apr_pollset_provider_t$0 impl$link1 = { .create=impl_pollset_create$link1, .add=impl_pollset_add$link1, .remove=impl_pollset_remove$link1,
-    .poll=impl_pollset_poll$link1, .cleanup=(signed int (*)(struct apr_pollset_t$0 *))(void *)0,
+static struct apr_pollset_provider_t_0 impl_link1 = { .create=impl_pollset_create_link1, .add=impl_pollset_add_link1, .remove=impl_pollset_remove_link1,
+    .poll=impl_pollset_poll_link1, .cleanup=(signed int (*)(struct apr_pollset_t_0 *))(void *)0,
     .name="poll" };
 // apr_pollset_provider_poll
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 310
-struct apr_pollset_provider_t$0 *apr_pollset_provider_poll = &impl$link1;
+struct apr_pollset_provider_t_0 *apr_pollset_provider_poll = &impl_link1;
 // apr_pollset_provider_select
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/select.c line 449
 struct apr_pollset_provider_t *apr_pollset_provider_select;
-// impl$link2
+// impl_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/select.c line 440
-static struct apr_pollset_provider_t$1 impl$link2;
-// impl$link2
+static struct apr_pollset_provider_t_1 impl_link2;
+// impl_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/select.c line 440
-static struct apr_pollset_provider_t$1 impl$link2 = { .create=impl_pollset_create$link2, .add=impl_pollset_add$link2, .remove=impl_pollset_remove$link2,
-    .poll=impl_pollset_poll$link2, .cleanup=(signed int (*)(struct apr_pollset_t$1 *))(void *)0,
+static struct apr_pollset_provider_t_1 impl_link2 = { .create=impl_pollset_create_link2, .add=impl_pollset_add_link2, .remove=impl_pollset_remove_link2,
+    .poll=impl_pollset_poll_link2, .cleanup=(signed int (*)(struct apr_pollset_t_1 *))(void *)0,
     .name="select" };
 // apr_pollset_provider_select
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/select.c line 449
-struct apr_pollset_provider_t *apr_pollset_provider_select = &impl$link2;
+struct apr_pollset_provider_t *apr_pollset_provider_select = &impl_link2;
 // apr_pools_initialized
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 545
 static unsigned char apr_pools_initialized = (unsigned char)0;
@@ -5671,7 +5671,7 @@ static const struct apr_proc_mutex_unix_lock_methods_t mutex_sysv_methods = { .f
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/proc.c line 26
 static struct apr_file_t no_file = { .pool=(struct apr_pool_t *)(void *)0, .filedes=-1, .fname=((char *)NULL),
     .flags=0, .eof_hit=0, .is_pipe=0,
-    .timeout=0l, .buffered=0, .blocking=(enum anonymous$2)0,
+    .timeout=0l, .buffered=0, .blocking=(enum anonymous_2)0,
     .ungetchar=0, .buffer=((char *)NULL),
     .bufpos=0ul, .bufsize=0ul,
     .dataRead=0ul, .direction=0, .filePtr=0l,
@@ -5687,10 +5687,10 @@ static const char null_string[7l] = { '(', 'n', 'u', 'l', 'l', ')', 0 };
 static struct apr_other_child_rec_t *other_children = (struct apr_other_child_rec_t *)(void *)0;
 // pollset_default_method
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/pollcb.c line 30
-static enum anonymous$24 pollset_default_method = (enum anonymous$24)APR_POLLSET_EPOLL;
-// pollset_default_method$link1
+static enum anonymous_24 pollset_default_method = (enum anonymous_24)APR_POLLSET_EPOLL;
+// pollset_default_method_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/pollset.c line 31
-static enum anonymous$24 pollset_default_method$link1 = (enum anonymous$24)APR_POLLSET_EPOLL;
+static enum anonymous_24 pollset_default_method_link1 = (enum anonymous_24)APR_POLLSET_EPOLL;
 // proc_mutex_lock_it
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/locks/unix/proc_mutex.c line 523
 static struct flock proc_mutex_lock_it;
@@ -5732,34 +5732,34 @@ static const unsigned char test_char_table[256l] = { (const unsigned char)32, (c
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_hash.c line 91
 static struct apr_hash_entry_t ** alloc_array(struct apr_hash_t *ht, unsigned int max)
 {
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(ht->pool, sizeof(struct apr_hash_entry_t *) /*8ul*/  * (unsigned long int)(max + (unsigned int)1));
-  void *return_value_memset$2;
-  return_value_memset$2=memset(return_value_apr_palloc$1, 0, sizeof(struct apr_hash_entry_t *) /*8ul*/  * (unsigned long int)(max + (unsigned int)1));
-  return (struct apr_hash_entry_t **)return_value_memset$2;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(ht->pool, sizeof(struct apr_hash_entry_t *) /*8ul*/  * (unsigned long int)(max + (unsigned int)1));
+  void *return_value_memset_2;
+  return_value_memset_2=memset(return_value_apr_palloc_1, 0, sizeof(struct apr_hash_entry_t *) /*8ul*/  * (unsigned long int)(max + (unsigned int)1));
+  return (struct apr_hash_entry_t **)return_value_memset_2;
 }
 
 // alloc_socket
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockets.c line 67
 static void alloc_socket(struct apr_socket_t **new, struct apr_pool_t *p)
 {
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(p, sizeof(struct apr_socket_t) /*80ul*/ );
-  void *return_value_memset$2;
-  return_value_memset$2=memset(return_value_apr_palloc$1, 0, sizeof(struct apr_socket_t) /*80ul*/ );
-  *new = (struct apr_socket_t *)return_value_memset$2;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(p, sizeof(struct apr_socket_t) /*80ul*/ );
+  void *return_value_memset_2;
+  return_value_memset_2=memset(return_value_apr_palloc_1, 0, sizeof(struct apr_socket_t) /*80ul*/ );
+  *new = (struct apr_socket_t *)return_value_memset_2;
   (*new)->pool = p;
-  void *return_value_apr_palloc$3;
-  return_value_apr_palloc$3=apr_palloc((*new)->pool, sizeof(struct apr_sockaddr_t) /*192ul*/ );
-  void *return_value_memset$4;
-  return_value_memset$4=memset(return_value_apr_palloc$3, 0, sizeof(struct apr_sockaddr_t) /*192ul*/ );
-  (*new)->local_addr = (struct apr_sockaddr_t *)return_value_memset$4;
+  void *return_value_apr_palloc_3;
+  return_value_apr_palloc_3=apr_palloc((*new)->pool, sizeof(struct apr_sockaddr_t) /*192ul*/ );
+  void *return_value_memset_4;
+  return_value_memset_4=memset(return_value_apr_palloc_3, 0, sizeof(struct apr_sockaddr_t) /*192ul*/ );
+  (*new)->local_addr = (struct apr_sockaddr_t *)return_value_memset_4;
   (*new)->local_addr->pool = p;
-  void *return_value_apr_palloc$5;
-  return_value_apr_palloc$5=apr_palloc((*new)->pool, sizeof(struct apr_sockaddr_t) /*192ul*/ );
-  void *return_value_memset$6;
-  return_value_memset$6=memset(return_value_apr_palloc$5, 0, sizeof(struct apr_sockaddr_t) /*192ul*/ );
-  (*new)->remote_addr = (struct apr_sockaddr_t *)return_value_memset$6;
+  void *return_value_apr_palloc_5;
+  return_value_apr_palloc_5=apr_palloc((*new)->pool, sizeof(struct apr_sockaddr_t) /*192ul*/ );
+  void *return_value_memset_6;
+  return_value_memset_6=memset(return_value_apr_palloc_5, 0, sizeof(struct apr_sockaddr_t) /*192ul*/ );
+  (*new)->remote_addr = (struct apr_sockaddr_t *)return_value_memset_6;
   (*new)->remote_addr->pool = p;
   (*new)->remote_addr_unknown = 1;
 }
@@ -5879,9 +5879,9 @@ static inline struct apr_memnode_t * allocator_alloc(struct apr_allocator_t *all
 
         }
 
-      void *return_value_mmap$1;
-      return_value_mmap$1=mmap((void *)0, size, 0x1 | 0x2, 0x02 | 0x20, -1, (signed long int)0);
-      node = (struct apr_memnode_t *)return_value_mmap$1;
+      void *return_value_mmap_1;
+      return_value_mmap_1=mmap((void *)0, size, 0x1 | 0x2, 0x02 | 0x20, -1, (signed long int)0);
+      node = (struct apr_memnode_t *)return_value_mmap_1;
       if(node == (struct apr_memnode_t *)-1)
         return (struct apr_memnode_t *)(void *)0;
 
@@ -5975,9 +5975,9 @@ char * apr__SHA256_Data(const unsigned char *data, unsigned long int len, char *
   struct _SHA256_CTX context;
   apr__SHA256_Init(&context);
   apr__SHA256_Update(&context, data, len);
-  char *return_value_apr__SHA256_End$1;
-  return_value_apr__SHA256_End$1=apr__SHA256_End(&context, digest);
-  return return_value_apr__SHA256_End$1;
+  char *return_value_apr__SHA256_End_1;
+  return_value_apr__SHA256_End_1=apr__SHA256_End(&context, digest);
+  return return_value_apr__SHA256_End_1;
 }
 
 // apr__SHA256_End
@@ -5989,20 +5989,20 @@ char * apr__SHA256_End(struct _SHA256_CTX *context, char *buffer)
   signed int i;
   /* assertion context != (SHA256_CTX*)0 */
   assert(context != (struct _SHA256_CTX *)0);
-  char *tmp_post$1;
-  char *tmp_post$2;
+  char *tmp_post_1;
+  char *tmp_post_2;
   if(!(buffer == ((char *)NULL)))
   {
     apr__SHA256_Final(digest, context);
     i = 0;
     for( ; !(i >= 32); i = i + 1)
     {
-      tmp_post$1 = buffer;
+      tmp_post_1 = buffer;
       buffer = buffer + 1l;
-      *tmp_post$1 = sha2_hex_digits[(signed long int)(((signed int)*d & 0xf0) >> 4)];
-      tmp_post$2 = buffer;
+      *tmp_post_1 = sha2_hex_digits[(signed long int)(((signed int)*d & 0xf0) >> 4)];
+      tmp_post_2 = buffer;
       buffer = buffer + 1l;
-      *tmp_post$2 = sha2_hex_digits[(signed long int)((signed int)*d & 0x0f)];
+      *tmp_post_2 = sha2_hex_digits[(signed long int)((signed int)*d & 0x0f)];
       d = d + 1l;
     }
     *buffer = (char)0;
@@ -6022,20 +6022,20 @@ void apr__SHA256_Final(unsigned char *digest, struct _SHA256_CTX *context)
   unsigned int usedspace;
   /* assertion context != (SHA256_CTX*)0 */
   assert(context != (struct _SHA256_CTX *)0);
-  unsigned int tmp_post$1;
-  unsigned int *tmp_post$2;
+  unsigned int tmp_post_1;
+  unsigned int *tmp_post_2;
   if(!(digest == ((unsigned char *)NULL)))
   {
     usedspace = (unsigned int)((context->bitcount >> 3) % (unsigned long int)64);
-    unsigned long int apr__SHA256_Final$$1$$1$$1$$tmp = context->bitcount;
-    apr__SHA256_Final$$1$$1$$1$$tmp = apr__SHA256_Final$$1$$1$$1$$tmp >> 32 | apr__SHA256_Final$$1$$1$$1$$tmp << 32;
-    apr__SHA256_Final$$1$$1$$1$$tmp = (apr__SHA256_Final$$1$$1$$1$$tmp & 0xff00ff00ff00ff00UL) >> 8 | (apr__SHA256_Final$$1$$1$$1$$tmp & 0x00ff00ff00ff00ffUL) << 8;
-    context->bitcount = (apr__SHA256_Final$$1$$1$$1$$tmp & 0xffff0000ffff0000UL) >> 16 | (apr__SHA256_Final$$1$$1$$1$$tmp & 0x0000ffff0000ffffUL) << 16;
+    unsigned long int apr__SHA256_Final__1__1__1__tmp = context->bitcount;
+    apr__SHA256_Final__1__1__1__tmp = apr__SHA256_Final__1__1__1__tmp >> 32 | apr__SHA256_Final__1__1__1__tmp << 32;
+    apr__SHA256_Final__1__1__1__tmp = (apr__SHA256_Final__1__1__1__tmp & 0xff00ff00ff00ff00UL) >> 8 | (apr__SHA256_Final__1__1__1__tmp & 0x00ff00ff00ff00ffUL) << 8;
+    context->bitcount = (apr__SHA256_Final__1__1__1__tmp & 0xffff0000ffff0000UL) >> 16 | (apr__SHA256_Final__1__1__1__tmp & 0x0000ffff0000ffffUL) << 16;
     if(usedspace >= 1u)
     {
-      tmp_post$1 = usedspace;
+      tmp_post_1 = usedspace;
       usedspace = usedspace + 1u;
-      context->buffer[(signed long int)tmp_post$1] = (unsigned char)0x80;
+      context->buffer[(signed long int)tmp_post_1] = (unsigned char)0x80;
       if(!(usedspace >= 57u))
         memset((void *)&context->buffer[(signed long int)usedspace], 0, (unsigned long int)((unsigned int)(64 - 8) - usedspace));
 
@@ -6075,9 +6075,9 @@ union dummy
       unsigned int tmp = context->state[(signed long int)j];
       tmp = tmp >> 16 | tmp << 16;
       context->state[(signed long int)j] = (unsigned int)(((unsigned long int)tmp & 0xff00ff00UL) >> 8 | ((unsigned long int)tmp & 0x00ff00ffUL) << 8);
-      tmp_post$2 = d;
+      tmp_post_2 = d;
       d = d + 1l;
-      *tmp_post$2 = context->state[(signed long int)j];
+      *tmp_post_2 = context->state[(signed long int)j];
     }
   }
 
@@ -6126,13 +6126,13 @@ void apr__SHA256_Transform(struct _SHA256_CTX *context, const unsigned int *data
   g = context->state[(signed long int)6];
   h = context->state[(signed long int)7];
   j = 0;
-  const unsigned int *tmp_post$1;
+  const unsigned int *tmp_post_1;
   do
   {
     unsigned int tmp;
-    tmp_post$1 = data;
+    tmp_post_1 = data;
     data = data + 1l;
-    tmp = *tmp_post$1;
+    tmp = *tmp_post_1;
     tmp = tmp >> 16 | tmp << 16;
     W256[(signed long int)j] = (unsigned int)(((unsigned long int)tmp & 0xff00ff00UL) >> 8 | ((unsigned long int)tmp & 0x00ff00ffUL) << 8);
     T1 = h + ((e >> 6 | e << 32 - 6) ^ (e >> 11 | e << 32 - 11) ^ (e >> 25 | e << 32 - 25)) + (e & f ^ ~e & g) + K256[(signed long int)j] + W256[(signed long int)j];
@@ -6246,9 +6246,9 @@ void apr__SHA256_Update(struct _SHA256_CTX *context, const unsigned char *data, 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 435
 struct apr_memnode_t * apr_allocator_alloc(struct apr_allocator_t *allocator, unsigned long int size)
 {
-  struct apr_memnode_t *return_value_allocator_alloc$1;
-  return_value_allocator_alloc$1=allocator_alloc(allocator, size);
-  return return_value_allocator_alloc$1;
+  struct apr_memnode_t *return_value_allocator_alloc_1;
+  return_value_allocator_alloc_1=allocator_alloc(allocator, size);
+  return return_value_allocator_alloc_1;
 }
 
 // apr_allocator_create
@@ -6257,9 +6257,9 @@ signed int apr_allocator_create(struct apr_allocator_t **allocator)
 {
   struct apr_allocator_t *new_allocator;
   *allocator = (struct apr_allocator_t *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct apr_allocator_t) /*192ul*/  + (unsigned long int)(8 - 1) & (unsigned long int)~(8 - 1));
-  new_allocator = (struct apr_allocator_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct apr_allocator_t) /*192ul*/  + (unsigned long int)(8 - 1) & (unsigned long int)~(8 - 1));
+  new_allocator = (struct apr_allocator_t *)return_value_malloc_1;
   if(new_allocator == ((struct apr_allocator_t *)NULL))
     return 12;
 
@@ -6359,9 +6359,9 @@ void apr_allocator_owner_set(struct apr_allocator_t *allocator, struct apr_pool_
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/misc/unix/start.c line 27
 signed int apr_app_initialize(signed int *argc, const char * const **argv, const char * const **env)
 {
-  signed int return_value_apr_initialize$1;
-  return_value_apr_initialize$1=apr_initialize();
-  return return_value_apr_initialize$1;
+  signed int return_value_apr_initialize_1;
+  return_value_apr_initialize_1=apr_initialize();
+  return return_value_apr_initialize_1;
 }
 
 // apr_array_append
@@ -6379,24 +6379,24 @@ struct apr_array_header_t * apr_array_append(struct apr_pool_t *p, const struct 
 void apr_array_cat(struct apr_array_header_t *dst, const struct apr_array_header_t *src)
 {
   signed int elt_size = dst->elt_size;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(dst->nalloc >= dst->nelts + src->nelts))
   {
     signed int new_size;
     if(!(dst->nalloc >= 1))
-      tmp_if_expr$1 = 1;
+      tmp_if_expr_1 = 1;
 
     else
-      tmp_if_expr$1 = dst->nalloc * 2;
-    new_size = tmp_if_expr$1;
+      tmp_if_expr_1 = dst->nalloc * 2;
+    new_size = tmp_if_expr_1;
     char *new_data;
     for( ; !(new_size >= dst->nelts + src->nelts); new_size = new_size * 2)
       ;
-    void *return_value_apr_palloc$2;
-    return_value_apr_palloc$2=apr_palloc(dst->pool, (unsigned long int)(elt_size * new_size));
-    void *return_value_memset$3;
-    return_value_memset$3=memset(return_value_apr_palloc$2, 0, (unsigned long int)(elt_size * new_size));
-    new_data = (char *)return_value_memset$3;
+    void *return_value_apr_palloc_2;
+    return_value_apr_palloc_2=apr_palloc(dst->pool, (unsigned long int)(elt_size * new_size));
+    void *return_value_memset_3;
+    return_value_memset_3=memset(return_value_apr_palloc_2, 0, (unsigned long int)(elt_size * new_size));
+    new_data = (char *)return_value_memset_3;
     memcpy((void *)new_data, (const void *)dst->elts, (unsigned long int)(dst->nalloc * elt_size));
     dst->elts = new_data;
     dst->nalloc = new_size;
@@ -6418,9 +6418,9 @@ void apr_array_clear(struct apr_array_header_t *arr)
 struct apr_array_header_t * apr_array_copy(struct apr_pool_t *p, const struct apr_array_header_t *arr)
 {
   struct apr_array_header_t *res;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(p, sizeof(struct apr_array_header_t) /*32ul*/ );
-  res = (struct apr_array_header_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(p, sizeof(struct apr_array_header_t) /*32ul*/ );
+  res = (struct apr_array_header_t *)return_value_apr_palloc_1;
   make_array_core(res, p, arr->nalloc, arr->elt_size, 0);
   memcpy((void *)res->elts, (const void *)arr->elts, (unsigned long int)(arr->elt_size * arr->nelts));
   res->nelts = arr->nelts;
@@ -6433,9 +6433,9 @@ struct apr_array_header_t * apr_array_copy(struct apr_pool_t *p, const struct ap
 struct apr_array_header_t * apr_array_copy_hdr(struct apr_pool_t *p, const struct apr_array_header_t *arr)
 {
   struct apr_array_header_t *res;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(p, sizeof(struct apr_array_header_t) /*32ul*/ );
-  res = (struct apr_array_header_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(p, sizeof(struct apr_array_header_t) /*32ul*/ );
+  res = (struct apr_array_header_t *)return_value_apr_palloc_1;
   res->pool = p;
   copy_array_hdr_core(res, arr);
   return res;
@@ -6446,9 +6446,9 @@ struct apr_array_header_t * apr_array_copy_hdr(struct apr_pool_t *p, const struc
 struct apr_array_header_t * apr_array_make(struct apr_pool_t *p, signed int nelts, signed int elt_size)
 {
   struct apr_array_header_t *res;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(p, sizeof(struct apr_array_header_t) /*32ul*/ );
-  res = (struct apr_array_header_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(p, sizeof(struct apr_array_header_t) /*32ul*/ );
+  res = (struct apr_array_header_t *)return_value_apr_palloc_1;
   make_array_core(res, p, nelts, elt_size, 1);
   return res;
 }
@@ -6457,9 +6457,9 @@ struct apr_array_header_t * apr_array_make(struct apr_pool_t *p, signed int nelt
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_tables.c line 98
 void * apr_array_pop(struct apr_array_header_t *arr)
 {
-  signed int return_value_apr_is_empty_array$1;
-  return_value_apr_is_empty_array$1=apr_is_empty_array(arr);
-  if(!(return_value_apr_is_empty_array$1 == 0))
+  signed int return_value_apr_is_empty_array_1;
+  return_value_apr_is_empty_array_1=apr_is_empty_array(arr);
+  if(!(return_value_apr_is_empty_array_1 == 0))
     return (void *)0;
 
   else
@@ -6478,19 +6478,19 @@ char * apr_array_pstrcat(struct apr_pool_t *p, const struct apr_array_header_t *
   char **strpp;
   unsigned long int len;
   signed int i;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(arr->nelts >= 1))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = arr->elts == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = arr->elts == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
-    void *return_value_apr_palloc$1;
-    return_value_apr_palloc$1=apr_palloc(p, (unsigned long int)1);
-    void *return_value_memset$2;
-    return_value_memset$2=memset(return_value_apr_palloc$1, 0, (unsigned long int)1);
-    return (char *)return_value_memset$2;
+    void *return_value_apr_palloc_1;
+    return_value_apr_palloc_1=apr_palloc(p, (unsigned long int)1);
+    void *return_value_memset_2;
+    return_value_memset_2=memset(return_value_apr_palloc_1, 0, (unsigned long int)1);
+    return (char *)return_value_memset_2;
   }
 
   len = (unsigned long int)0;
@@ -6502,9 +6502,9 @@ char * apr_array_pstrcat(struct apr_pool_t *p, const struct apr_array_header_t *
     {
       if(!(*strpp == ((char *)NULL)))
       {
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(*strpp);
-        len = len + return_value_strlen$4;
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(*strpp);
+        len = len + return_value_strlen_4;
       }
 
     }
@@ -6517,13 +6517,13 @@ char * apr_array_pstrcat(struct apr_pool_t *p, const struct apr_array_header_t *
       len = len + 1ul;
 
   }
-  void *return_value_apr_palloc$5;
-  return_value_apr_palloc$5=apr_palloc(p, len + (unsigned long int)1);
-  res = (char *)return_value_apr_palloc$5;
+  void *return_value_apr_palloc_5;
+  return_value_apr_palloc_5=apr_palloc(p, len + (unsigned long int)1);
+  res = (char *)return_value_apr_palloc_5;
   cp = res;
   i = 0;
   strpp = (char **)arr->elts;
-  char *tmp_post$6;
+  char *tmp_post_6;
   for( ; (_Bool)1; strpp = strpp + 1l)
   {
     if(!(strpp == ((char **)NULL)))
@@ -6543,9 +6543,9 @@ char * apr_array_pstrcat(struct apr_pool_t *p, const struct apr_array_header_t *
 
     if(!(sep == 0))
     {
-      tmp_post$6 = cp;
+      tmp_post_6 = cp;
       cp = cp + 1l;
-      *tmp_post$6 = sep;
+      *tmp_post_6 = sep;
     }
 
   }
@@ -6557,20 +6557,20 @@ char * apr_array_pstrcat(struct apr_pool_t *p, const struct apr_array_header_t *
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_tables.h line 131
 void * apr_array_push(struct apr_array_header_t *arr)
 {
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(arr->nelts == arr->nalloc)
   {
     signed int new_size;
     if(!(arr->nalloc >= 1))
-      tmp_if_expr$1 = 1;
+      tmp_if_expr_1 = 1;
 
     else
-      tmp_if_expr$1 = arr->nalloc * 2;
-    new_size = tmp_if_expr$1;
+      tmp_if_expr_1 = arr->nalloc * 2;
+    new_size = tmp_if_expr_1;
     char *new_data;
-    void *return_value_apr_palloc$2;
-    return_value_apr_palloc$2=apr_palloc(arr->pool, (unsigned long int)(arr->elt_size * new_size));
-    new_data = (char *)return_value_apr_palloc$2;
+    void *return_value_apr_palloc_2;
+    return_value_apr_palloc_2=apr_palloc(arr->pool, (unsigned long int)(arr->elt_size * new_size));
+    new_data = (char *)return_value_apr_palloc_2;
     memcpy((void *)new_data, (const void *)arr->elts, (unsigned long int)(arr->nalloc * arr->elt_size));
     memset((void *)(new_data + (signed long int)(arr->nalloc * arr->elt_size)), 0, (unsigned long int)(arr->elt_size * (new_size - arr->nalloc)));
     arr->elts = new_data;
@@ -6585,20 +6585,20 @@ void * apr_array_push(struct apr_array_header_t *arr)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_tables.c line 126
 static void * apr_array_push_noclear(struct apr_array_header_t *arr)
 {
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(arr->nelts == arr->nalloc)
   {
     signed int new_size;
     if(!(arr->nalloc >= 1))
-      tmp_if_expr$1 = 1;
+      tmp_if_expr_1 = 1;
 
     else
-      tmp_if_expr$1 = arr->nalloc * 2;
-    new_size = tmp_if_expr$1;
+      tmp_if_expr_1 = arr->nalloc * 2;
+    new_size = tmp_if_expr_1;
     char *new_data;
-    void *return_value_apr_palloc$2;
-    return_value_apr_palloc$2=apr_palloc(arr->pool, (unsigned long int)(arr->elt_size * new_size));
-    new_data = (char *)return_value_apr_palloc$2;
+    void *return_value_apr_palloc_2;
+    return_value_apr_palloc_2=apr_palloc(arr->pool, (unsigned long int)(arr->elt_size * new_size));
+    new_data = (char *)return_value_apr_palloc_2;
     memcpy((void *)new_data, (const void *)arr->elts, (unsigned long int)(arr->nalloc * arr->elt_size));
     arr->elts = new_data;
     arr->nalloc = new_size;
@@ -6612,74 +6612,74 @@ static void * apr_array_push_noclear(struct apr_array_header_t *arr)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_strings.c line 355
 signed long int apr_atoi64(const char *buf)
 {
-  signed long int return_value_apr_strtoi64$1;
-  return_value_apr_strtoi64$1=apr_strtoi64(buf, (char **)(void *)0, 10);
-  return return_value_apr_strtoi64$1;
+  signed long int return_value_apr_strtoi64_1;
+  return_value_apr_strtoi64_1=apr_strtoi64(buf, (char **)(void *)0, 10);
+  return return_value_apr_strtoi64_1;
 }
 
 // apr_atomic_add32
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/atomic/unix/builtins.c line 36
 unsigned int apr_atomic_add32(volatile unsigned int *mem, unsigned int val)
 {
-  volatile unsigned int return_value___sync_fetch_and_add$1;
+  volatile unsigned int return_value___sync_fetch_and_add_1;
   __CPROVER_atomic_begin();
-  return_value___sync_fetch_and_add$1 = *mem;
+  return_value___sync_fetch_and_add_1 = *mem;
   *mem = *mem + val;
   FENCE(WRfence);
   __CPROVER_atomic_end();
-  return return_value___sync_fetch_and_add$1;
+  return return_value___sync_fetch_and_add_1;
 }
 
 // apr_atomic_cas32
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/atomic/unix/builtins.c line 56
 unsigned int apr_atomic_cas32(volatile unsigned int *mem, unsigned int with, unsigned int cmp)
 {
-  volatile unsigned int return_value___sync_val_compare_and_swap$1;
+  volatile unsigned int return_value___sync_val_compare_and_swap_1;
   __CPROVER_atomic_begin();
-  return_value___sync_val_compare_and_swap$1 = *mem;
+  return_value___sync_val_compare_and_swap_1 = *mem;
   *mem = *mem == cmp ? with : *mem;
   FENCE(WRfence);
   __CPROVER_atomic_end();
-  return return_value___sync_val_compare_and_swap$1;
+  return return_value___sync_val_compare_and_swap_1;
 }
 
 // apr_atomic_casptr
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/atomic/unix/builtins.c line 69
 void * apr_atomic_casptr(volatile void **mem, void *with, const void *cmp)
 {
-  volatile void *return_value___sync_val_compare_and_swap$1;
+  volatile void *return_value___sync_val_compare_and_swap_1;
   __CPROVER_atomic_begin();
-  return_value___sync_val_compare_and_swap$1 = *mem;
+  return_value___sync_val_compare_and_swap_1 = *mem;
   *mem = *mem == cmp ? with : *mem;
   FENCE(WRfence);
   __CPROVER_atomic_end();
-  return (void *)return_value___sync_val_compare_and_swap$1;
+  return (void *)return_value___sync_val_compare_and_swap_1;
 }
 
 // apr_atomic_dec32
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/atomic/unix/builtins.c line 51
 signed int apr_atomic_dec32(volatile unsigned int *mem)
 {
-  volatile unsigned int return_value___sync_sub_and_fetch$1;
+  volatile unsigned int return_value___sync_sub_and_fetch_1;
   __CPROVER_atomic_begin();
   *mem = *mem - (volatile unsigned int)1;
-  return_value___sync_sub_and_fetch$1 = *mem;
+  return_value___sync_sub_and_fetch_1 = *mem;
   FENCE(WRfence);
   __CPROVER_atomic_end();
-  return (signed int)return_value___sync_sub_and_fetch$1;
+  return (signed int)return_value___sync_sub_and_fetch_1;
 }
 
 // apr_atomic_inc32
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/atomic/unix/builtins.c line 46
 unsigned int apr_atomic_inc32(volatile unsigned int *mem)
 {
-  volatile unsigned int return_value___sync_fetch_and_add$1;
+  volatile unsigned int return_value___sync_fetch_and_add_1;
   __CPROVER_atomic_begin();
-  return_value___sync_fetch_and_add$1 = *mem;
+  return_value___sync_fetch_and_add_1 = *mem;
   *mem = *mem + (volatile unsigned int)1;
   FENCE(WRfence);
   __CPROVER_atomic_end();
-  return return_value___sync_fetch_and_add$1;
+  return return_value___sync_fetch_and_add_1;
 }
 
 // apr_atomic_init
@@ -6718,8 +6718,8 @@ void apr_atomic_sub32(volatile unsigned int *mem, unsigned int val)
 unsigned int apr_atomic_xchg32(volatile unsigned int *mem, unsigned int val)
 {
   __sync_synchronize();
-  volatile unsigned int return_value___sync_lock_test_and_set$1;
-  return return_value___sync_lock_test_and_set$1;
+  volatile unsigned int return_value___sync_lock_test_and_set_1;
+  return return_value___sync_lock_test_and_set_1;
 }
 
 // apr_atomic_xchgptr
@@ -6727,24 +6727,24 @@ unsigned int apr_atomic_xchg32(volatile unsigned int *mem, unsigned int val)
 void * apr_atomic_xchgptr(volatile void **mem, void *with)
 {
   __sync_synchronize();
-  volatile void *return_value___sync_lock_test_and_set$1;
-  return (void *)return_value___sync_lock_test_and_set$1;
+  volatile void *return_value___sync_lock_test_and_set_1;
+  return (void *)return_value___sync_lock_test_and_set_1;
 }
 
 // apr_collapse_spaces
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_cpystrn.c line 220
 char * apr_collapse_spaces(char *dest, const char *src)
 {
-  char *tmp_post$1;
+  char *tmp_post_1;
   while(!(*src == 0))
   {
-    const unsigned short int **return_value___ctype_b_loc$2;
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)(unsigned char)*src]) == 0)
+    const unsigned short int **return_value___ctype_b_loc_2;
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)(unsigned char)*src]) == 0)
     {
-      tmp_post$1 = dest;
+      tmp_post_1 = dest;
       dest = dest + 1l;
-      *tmp_post$1 = *src;
+      *tmp_post_1 = *src;
     }
 
     src = src + 1l;
@@ -6787,9 +6787,9 @@ char * apr_cpystrn(char *dst, const char *src, unsigned long int dst_size)
 struct apr_crypto_hash_t * apr_crypto_sha256_new(struct apr_pool_t *p)
 {
   struct apr_crypto_hash_t *h;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(p, sizeof(struct apr_crypto_hash_t) /*40ul*/ );
-  h = (struct apr_crypto_hash_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(p, sizeof(struct apr_crypto_hash_t) /*40ul*/ );
+  h = (struct apr_crypto_hash_t *)return_value_apr_palloc_1;
   h->data=apr_palloc(p, sizeof(struct _SHA256_CTX) /*104ul*/ );
   h->init = sha256_init;
   h->add = sha256_add;
@@ -6807,95 +6807,95 @@ signed int apr_ctime(char *date_str, signed long int t)
   signed int real_year;
   apr_time_exp_lt(&xt, t);
   s = &apr_day_snames[(signed long int)xt.tm_wday][(signed long int)0];
-  char *tmp_post$1 = date_str;
+  char *tmp_post_1 = date_str;
   date_str = date_str + 1l;
-  const char *tmp_post$2 = s;
+  const char *tmp_post_2 = s;
   s = s + 1l;
-  *tmp_post$1 = *tmp_post$2;
-  char *tmp_post$3 = date_str;
+  *tmp_post_1 = *tmp_post_2;
+  char *tmp_post_3 = date_str;
   date_str = date_str + 1l;
-  const char *tmp_post$4 = s;
+  const char *tmp_post_4 = s;
   s = s + 1l;
-  *tmp_post$3 = *tmp_post$4;
-  char *tmp_post$5 = date_str;
+  *tmp_post_3 = *tmp_post_4;
+  char *tmp_post_5 = date_str;
   date_str = date_str + 1l;
-  const char *tmp_post$6 = s;
+  const char *tmp_post_6 = s;
   s = s + 1l;
-  *tmp_post$5 = *tmp_post$6;
-  char *tmp_post$7 = date_str;
+  *tmp_post_5 = *tmp_post_6;
+  char *tmp_post_7 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$7 = (char)32;
+  *tmp_post_7 = (char)32;
   s = &apr_month_snames[(signed long int)xt.tm_mon][(signed long int)0];
-  char *tmp_post$8 = date_str;
+  char *tmp_post_8 = date_str;
   date_str = date_str + 1l;
-  const char *tmp_post$9 = s;
+  const char *tmp_post_9 = s;
   s = s + 1l;
-  *tmp_post$8 = *tmp_post$9;
-  char *tmp_post$10 = date_str;
+  *tmp_post_8 = *tmp_post_9;
+  char *tmp_post_10 = date_str;
   date_str = date_str + 1l;
-  const char *tmp_post$11 = s;
+  const char *tmp_post_11 = s;
   s = s + 1l;
-  *tmp_post$10 = *tmp_post$11;
-  char *tmp_post$12 = date_str;
+  *tmp_post_10 = *tmp_post_11;
+  char *tmp_post_12 = date_str;
   date_str = date_str + 1l;
-  const char *tmp_post$13 = s;
+  const char *tmp_post_13 = s;
   s = s + 1l;
-  *tmp_post$12 = *tmp_post$13;
-  char *tmp_post$14 = date_str;
+  *tmp_post_12 = *tmp_post_13;
+  char *tmp_post_14 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$14 = (char)32;
-  char *tmp_post$15 = date_str;
+  *tmp_post_14 = (char)32;
+  char *tmp_post_15 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$15 = (char)(xt.tm_mday / 10 + 48);
-  char *tmp_post$16 = date_str;
+  *tmp_post_15 = (char)(xt.tm_mday / 10 + 48);
+  char *tmp_post_16 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$16 = (char)(xt.tm_mday % 10 + 48);
-  char *tmp_post$17 = date_str;
+  *tmp_post_16 = (char)(xt.tm_mday % 10 + 48);
+  char *tmp_post_17 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$17 = (char)32;
-  char *tmp_post$18 = date_str;
+  *tmp_post_17 = (char)32;
+  char *tmp_post_18 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$18 = (char)(xt.tm_hour / 10 + 48);
-  char *tmp_post$19 = date_str;
+  *tmp_post_18 = (char)(xt.tm_hour / 10 + 48);
+  char *tmp_post_19 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$19 = (char)(xt.tm_hour % 10 + 48);
-  char *tmp_post$20 = date_str;
+  *tmp_post_19 = (char)(xt.tm_hour % 10 + 48);
+  char *tmp_post_20 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$20 = (char)58;
-  char *tmp_post$21 = date_str;
+  *tmp_post_20 = (char)58;
+  char *tmp_post_21 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$21 = (char)(xt.tm_min / 10 + 48);
-  char *tmp_post$22 = date_str;
+  *tmp_post_21 = (char)(xt.tm_min / 10 + 48);
+  char *tmp_post_22 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$22 = (char)(xt.tm_min % 10 + 48);
-  char *tmp_post$23 = date_str;
+  *tmp_post_22 = (char)(xt.tm_min % 10 + 48);
+  char *tmp_post_23 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$23 = (char)58;
-  char *tmp_post$24 = date_str;
+  *tmp_post_23 = (char)58;
+  char *tmp_post_24 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$24 = (char)(xt.tm_sec / 10 + 48);
-  char *tmp_post$25 = date_str;
+  *tmp_post_24 = (char)(xt.tm_sec / 10 + 48);
+  char *tmp_post_25 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$25 = (char)(xt.tm_sec % 10 + 48);
-  char *tmp_post$26 = date_str;
+  *tmp_post_25 = (char)(xt.tm_sec % 10 + 48);
+  char *tmp_post_26 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$26 = (char)32;
+  *tmp_post_26 = (char)32;
   real_year = 1900 + xt.tm_year;
-  char *tmp_post$27 = date_str;
+  char *tmp_post_27 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$27 = (char)(real_year / 1000 + 48);
-  char *tmp_post$28 = date_str;
+  *tmp_post_27 = (char)(real_year / 1000 + 48);
+  char *tmp_post_28 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$28 = (char)((real_year % 1000) / 100 + 48);
-  char *tmp_post$29 = date_str;
+  *tmp_post_28 = (char)((real_year % 1000) / 100 + 48);
+  char *tmp_post_29 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$29 = (char)((real_year % 100) / 10 + 48);
-  char *tmp_post$30 = date_str;
+  *tmp_post_29 = (char)((real_year % 100) / 10 + 48);
+  char *tmp_post_30 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$30 = (char)(real_year % 10 + 48);
-  char *tmp_post$31 = date_str;
+  *tmp_post_30 = (char)(real_year % 10 + 48);
+  char *tmp_post_31 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$31 = (char)0;
+  *tmp_post_31 = (char)0;
   return 0;
 }
 
@@ -6922,8 +6922,8 @@ static char * apr_cvt(double arg, signed int ndigits, signed int *decpt, signed 
 
   arg=modf(arg, &fi);
   p1 = &buf[(signed long int)80];
-  char *tmp_post$1;
-  char *tmp_post$2;
+  char *tmp_post_1;
+  char *tmp_post_2;
   if(IEEE_FLOAT_NOTEQUAL(fi, 0.000000))
   {
     p1 = &buf[(signed long int)80];
@@ -6936,11 +6936,11 @@ static char * apr_cvt(double arg, signed int ndigits, signed int *decpt, signed 
       p1 = p1 - 1l;
       *p1 = (char)((signed int)((fj + .03) * (double)10) + 48);
     }
-    for( ; !(p1 >= buf + 80l); *tmp_post$1 = *tmp_post$2)
+    for( ; !(p1 >= buf + 80l); *tmp_post_1 = *tmp_post_2)
     {
-      tmp_post$1 = p;
+      tmp_post_1 = p;
       p = p + 1l;
-      tmp_post$2 = p1;
+      tmp_post_2 = p1;
       p1 = p1 + 1l;
     }
   }
@@ -6962,7 +6962,7 @@ static char * apr_cvt(double arg, signed int ndigits, signed int *decpt, signed 
   if(eflag == 0)
     p1 = p1 + (signed long int)r2;
 
-  char *tmp_post$3;
+  char *tmp_post_3;
   if(!(p1 >= buf))
   {
     *decpt = -ndigits;
@@ -6973,14 +6973,14 @@ static char * apr_cvt(double arg, signed int ndigits, signed int *decpt, signed 
   else
   {
     *decpt = r2;
-    for( ; p1 >= p; *tmp_post$3 = (char)((signed int)fj + 48))
+    for( ; p1 >= p; *tmp_post_3 = (char)((signed int)fj + 48))
     {
       if(p >= buf + 80l)
         break;
 
       arg = arg * (double)10;
       arg=modf(arg, &fj);
-      tmp_post$3 = p;
+      tmp_post_3 = p;
       p = p + 1l;
     }
     if(p1 >= buf + 80l)
@@ -7026,9 +7026,9 @@ static char * apr_cvt(double arg, signed int ndigits, signed int *decpt, signed 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_file_info.h line 252
 signed int apr_dir_close(struct apr_dir_t *thedir)
 {
-  signed int return_value_apr_pool_cleanup_run$1;
-  return_value_apr_pool_cleanup_run$1=apr_pool_cleanup_run(thedir->pool, (void *)thedir, dir_cleanup);
-  return return_value_apr_pool_cleanup_run$1;
+  signed int return_value_apr_pool_cleanup_run_1;
+  return_value_apr_pool_cleanup_run_1=apr_pool_cleanup_run(thedir->pool, (void *)thedir, dir_cleanup);
+  return return_value_apr_pool_cleanup_run_1;
 }
 
 // apr_dir_make
@@ -7037,16 +7037,16 @@ signed int apr_dir_make(const char *path, signed int perm, struct apr_pool_t *po
 {
   unsigned int mode;
   mode=apr_unix_perms2mode(perm);
-  signed int return_value_mkdir$2;
-  return_value_mkdir$2=mkdir(path, mode);
-  if(return_value_mkdir$2 == 0)
+  signed int return_value_mkdir_2;
+  return_value_mkdir_2=mkdir(path, mode);
+  if(return_value_mkdir_2 == 0)
     return 0;
 
   else
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 }
 
@@ -7085,22 +7085,22 @@ signed int apr_dir_open(struct apr_dir_t **new, const char *dirname, struct apr_
   dir=opendir(dirname);
   if(dir == ((struct __dirstream *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
-  void *return_value_apr_palloc$2;
-  return_value_apr_palloc$2=apr_palloc(pool, sizeof(struct apr_dir_t) /*32ul*/ );
-  *new = (struct apr_dir_t *)return_value_apr_palloc$2;
+  void *return_value_apr_palloc_2;
+  return_value_apr_palloc_2=apr_palloc(pool, sizeof(struct apr_dir_t) /*32ul*/ );
+  *new = (struct apr_dir_t *)return_value_apr_palloc_2;
   (*new)->pool = pool;
   (*new)->dirname=apr_pstrdup(pool, dirname);
   (*new)->dirstruct = dir;
-  void *return_value_apr_palloc$3;
-  return_value_apr_palloc$3=apr_palloc(pool, dirent_size);
-  void *return_value_memset$4;
-  return_value_memset$4=memset(return_value_apr_palloc$3, 0, dirent_size);
-  (*new)->entry = (struct dirent *)return_value_memset$4;
+  void *return_value_apr_palloc_3;
+  return_value_apr_palloc_3=apr_palloc(pool, dirent_size);
+  void *return_value_memset_4;
+  return_value_memset_4=memset(return_value_apr_palloc_3, 0, dirent_size);
+  (*new)->entry = (struct dirent *)return_value_memset_4;
   apr_pool_cleanup_register((*new)->pool, (const void *)*new, dir_cleanup, apr_pool_cleanup_null);
   return 0;
 }
@@ -7120,7 +7120,7 @@ signed int apr_dir_read(struct apr_finfo_t *finfo, signed int wanted, struct apr
     ret = 2;
 
   finfo->fname = (const char *)(void *)0;
-  char *tmp_post$1;
+  char *tmp_post_1;
   if(!(ret == 0))
   {
     finfo->valid = 0;
@@ -7152,9 +7152,9 @@ signed int apr_dir_read(struct apr_finfo_t *finfo, signed int wanted, struct apr
         {
           if(!(end >= fspec + 4096l))
           {
-            tmp_post$1 = end;
+            tmp_post_1 = end;
             end = end + 1l;
-            *tmp_post$1 = (char)47;
+            *tmp_post_1 = (char)47;
           }
 
         }
@@ -7204,16 +7204,16 @@ signed int apr_dir_read(struct apr_finfo_t *finfo, signed int wanted, struct apr
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/dir.c line 334
 signed int apr_dir_remove(const char *path, struct apr_pool_t *pool)
 {
-  signed int return_value_rmdir$2;
-  return_value_rmdir$2=rmdir(path);
-  if(return_value_rmdir$2 == 0)
+  signed int return_value_rmdir_2;
+  return_value_rmdir_2=rmdir(path);
+  if(return_value_rmdir_2 == 0)
     return 0;
 
   else
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 }
 
@@ -7246,11 +7246,11 @@ signed int apr_dso_load(struct apr_dso_handle_t **res_handle, const char *path, 
   signed int flags = 0x00002 | 0x00100;
   void *os_handle;
   os_handle=dlopen(path, flags);
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_dso_handle_t) /*24ul*/ );
-  void *return_value_memset$2;
-  return_value_memset$2=memset(return_value_apr_palloc$1, 0, sizeof(struct apr_dso_handle_t) /*24ul*/ );
-  *res_handle = (struct apr_dso_handle_t *)return_value_memset$2;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_dso_handle_t) /*24ul*/ );
+  void *return_value_memset_2;
+  return_value_memset_2=memset(return_value_apr_palloc_1, 0, sizeof(struct apr_dso_handle_t) /*24ul*/ );
+  *res_handle = (struct apr_dso_handle_t *)return_value_memset_2;
   if(os_handle == NULL)
   {
     (*res_handle)->errormsg=dlerror();
@@ -7290,18 +7290,18 @@ signed int apr_dso_sym(void **ressym, struct apr_dso_handle_t *handle, const cha
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/dso/unix/dso.c line 167
 signed int apr_dso_unload(struct apr_dso_handle_t *handle)
 {
-  signed int return_value_apr_pool_cleanup_run$1;
-  return_value_apr_pool_cleanup_run$1=apr_pool_cleanup_run(handle->pool, (void *)handle, dso_cleanup);
-  return return_value_apr_pool_cleanup_run$1;
+  signed int return_value_apr_pool_cleanup_run_1;
+  return_value_apr_pool_cleanup_run_1=apr_pool_cleanup_run(handle->pool, (void *)handle, dso_cleanup);
+  return return_value_apr_pool_cleanup_run_1;
 }
 
 // apr_ecvt
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_snprintf.c line 161
 static char * apr_ecvt(double arg, signed int ndigits, signed int *decpt, signed int *sign, char *buf)
 {
-  char *return_value_apr_cvt$1;
-  return_value_apr_cvt$1=apr_cvt(arg, ndigits, decpt, sign, 1, buf);
-  return return_value_apr_cvt$1;
+  char *return_value_apr_cvt_1;
+  return_value_apr_cvt_1=apr_cvt(arg, ndigits, decpt, sign, 1, buf);
+  return return_value_apr_cvt_1;
 }
 
 // apr_env_delete
@@ -7332,9 +7332,9 @@ signed int apr_env_get(char **value, const char *envvar, struct apr_pool_t *pool
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/misc/unix/env.c line 49
 signed int apr_env_set(const char *envvar, const char *value, struct apr_pool_t *pool)
 {
-  signed int return_value_setenv$1;
-  return_value_setenv$1=setenv(envvar, value, 1);
-  if(!(return_value_setenv$1 >= 0))
+  signed int return_value_setenv_1;
+  return_value_setenv_1=setenv(envvar, value, 1);
+  if(!(return_value_setenv_1 >= 0))
     return 12;
 
   else
@@ -7673,17 +7673,17 @@ signed int apr_escape_echo(char *escaped, const char *str, signed long int slen,
   const unsigned char *s = (const unsigned char *)str;
   unsigned char *d = (unsigned char *)escaped;
   unsigned int c;
-  unsigned char *tmp_post$1;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
-  unsigned char *tmp_post$8;
-  unsigned char *tmp_post$9;
-  unsigned char *tmp_post$10;
-  unsigned char *tmp_post$11;
+  unsigned char *tmp_post_1;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
+  unsigned char *tmp_post_8;
+  unsigned char *tmp_post_9;
+  unsigned char *tmp_post_10;
+  unsigned char *tmp_post_11;
   if(!(s == ((const unsigned char *)NULL)))
   {
     if(!(d == ((unsigned char *)NULL)))
@@ -7699,80 +7699,80 @@ signed int apr_escape_echo(char *escaped, const char *str, signed long int slen,
 
         if(!((8 & (signed int)test_char_table[(signed long int)c]) == 0))
         {
-          tmp_post$1 = d;
+          tmp_post_1 = d;
           d = d + 1l;
-          *tmp_post$1 = (unsigned char)92;
+          *tmp_post_1 = (unsigned char)92;
           size = size + 1ul;
           switch(c)
           {
             case (unsigned int)7:
             {
-              tmp_post$2 = d;
+              tmp_post_2 = d;
               d = d + 1l;
-              *tmp_post$2 = (unsigned char)97;
+              *tmp_post_2 = (unsigned char)97;
               size = size + 1ul;
               found = 1;
               break;
             }
             case (unsigned int)8:
             {
-              tmp_post$3 = d;
+              tmp_post_3 = d;
               d = d + 1l;
-              *tmp_post$3 = (unsigned char)98;
+              *tmp_post_3 = (unsigned char)98;
               size = size + 1ul;
               found = 1;
               break;
             }
             case (unsigned int)12:
             {
-              tmp_post$4 = d;
+              tmp_post_4 = d;
               d = d + 1l;
-              *tmp_post$4 = (unsigned char)102;
+              *tmp_post_4 = (unsigned char)102;
               size = size + 1ul;
               found = 1;
               break;
             }
             case (unsigned int)10:
             {
-              tmp_post$5 = d;
+              tmp_post_5 = d;
               d = d + 1l;
-              *tmp_post$5 = (unsigned char)110;
+              *tmp_post_5 = (unsigned char)110;
               size = size + 1ul;
               found = 1;
               break;
             }
             case (unsigned int)13:
             {
-              tmp_post$6 = d;
+              tmp_post_6 = d;
               d = d + 1l;
-              *tmp_post$6 = (unsigned char)114;
+              *tmp_post_6 = (unsigned char)114;
               size = size + 1ul;
               found = 1;
               break;
             }
             case (unsigned int)9:
             {
-              tmp_post$7 = d;
+              tmp_post_7 = d;
               d = d + 1l;
-              *tmp_post$7 = (unsigned char)116;
+              *tmp_post_7 = (unsigned char)116;
               size = size + 1ul;
               found = 1;
               break;
             }
             case (unsigned int)11:
             {
-              tmp_post$8 = d;
+              tmp_post_8 = d;
               d = d + 1l;
-              *tmp_post$8 = (unsigned char)118;
+              *tmp_post_8 = (unsigned char)118;
               size = size + 1ul;
               found = 1;
               break;
             }
             case (unsigned int)92:
             {
-              tmp_post$9 = d;
+              tmp_post_9 = d;
               d = d + 1l;
-              *tmp_post$9 = (unsigned char)92;
+              *tmp_post_9 = (unsigned char)92;
               size = size + 1ul;
               found = 1;
               break;
@@ -7781,9 +7781,9 @@ signed int apr_escape_echo(char *escaped, const char *str, signed long int slen,
             {
               if(!(quote == 0))
               {
-                tmp_post$10 = d;
+                tmp_post_10 = d;
                 d = d + 1l;
-                *tmp_post$10 = (unsigned char)c;
+                *tmp_post_10 = (unsigned char)c;
                 size = size + 1ul;
                 found = 1;
               }
@@ -7804,9 +7804,9 @@ signed int apr_escape_echo(char *escaped, const char *str, signed long int slen,
 
         else
         {
-          tmp_post$11 = d;
+          tmp_post_11 = d;
           d = d + 1l;
-          *tmp_post$11 = (unsigned char)c;
+          *tmp_post_11 = (unsigned char)c;
           size = size + 1ul;
         }
         s = s + 1l;
@@ -7896,7 +7896,7 @@ signed int apr_escape_entity(char *escaped, const char *str, signed long int sle
   const unsigned char *s = (const unsigned char *)str;
   unsigned char *d = (unsigned char *)escaped;
   unsigned int c;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   if(!(s == ((const unsigned char *)NULL)))
   {
     if(!(d == ((unsigned char *)NULL)))
@@ -7964,9 +7964,9 @@ signed int apr_escape_entity(char *escaped, const char *str, signed long int sle
 
           else
           {
-            tmp_post$1 = d;
+            tmp_post_1 = d;
             d = d + 1l;
-            *tmp_post$1 = (unsigned char)c;
+            *tmp_post_1 = (unsigned char)c;
             size = size + 1ul;
           }
         s = s + 1l;
@@ -8020,9 +8020,9 @@ signed int apr_escape_entity(char *escaped, const char *str, signed long int sle
           if(!((-128 & (signed int)(unsigned char)c) == 0) && !(toasc == 0))
           {
             char buf[8l];
-            signed int return_value_apr_snprintf$2;
-            return_value_apr_snprintf$2=apr_snprintf(buf, (unsigned long int)6, "&#%3.3d;", c);
-            size = size + (unsigned long int)return_value_apr_snprintf$2;
+            signed int return_value_apr_snprintf_2;
+            return_value_apr_snprintf_2=apr_snprintf(buf, (unsigned long int)6, "&#%3.3d;", c);
+            size = size + (unsigned long int)return_value_apr_snprintf_2;
             found = 1;
           }
 
@@ -8050,9 +8050,9 @@ signed int apr_escape_hex(char *dest, const void *src, unsigned long int srclen,
 {
   const unsigned char *in = (const unsigned char *)src;
   unsigned long int size;
-  char *tmp_post$1;
-  char *tmp_post$2;
-  char *tmp_post$3;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  char *tmp_post_3;
   if(src == NULL)
     return 20000 + 50000 + 15;
 
@@ -8065,17 +8065,17 @@ signed int apr_escape_hex(char *dest, const void *src, unsigned long int srclen,
       {
         if(!(colon == 0) && !(size == 0ul))
         {
-          tmp_post$1 = dest;
+          tmp_post_1 = dest;
           dest = dest + 1l;
-          *tmp_post$1 = (char)58;
+          *tmp_post_1 = (char)58;
         }
 
-        tmp_post$2 = dest;
+        tmp_post_2 = dest;
         dest = dest + 1l;
-        *tmp_post$2 = c2x_table[(signed long int)((signed int)in[(signed long int)size] >> 4)];
-        tmp_post$3 = dest;
+        *tmp_post_2 = c2x_table[(signed long int)((signed int)in[(signed long int)size] >> 4)];
+        tmp_post_3 = dest;
         dest = dest + 1l;
-        *tmp_post$3 = c2x_table[(signed long int)((signed int)in[(signed long int)size] & 0xf)];
+        *tmp_post_3 = c2x_table[(signed long int)((signed int)in[(signed long int)size] & 0xf)];
       }
       *dest = (char)0;
     }
@@ -8102,9 +8102,9 @@ signed int apr_escape_path(char *escaped, const char *path, signed long int slen
   const unsigned char *s = (const unsigned char *)path;
   unsigned char *d = (unsigned char *)escaped;
   unsigned int c;
-  unsigned char *tmp_post$1;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
+  unsigned char *tmp_post_1;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
   if(path == ((const char *)NULL))
     return 20000 + 50000 + 15;
 
@@ -8120,12 +8120,12 @@ signed int apr_escape_path(char *escaped, const char *path, signed long int slen
       {
         if(!(d == ((unsigned char *)NULL)))
         {
-          tmp_post$1 = d;
+          tmp_post_1 = d;
           d = d + 1l;
-          *tmp_post$1 = (unsigned char)46;
-          tmp_post$2 = d;
+          *tmp_post_1 = (unsigned char)46;
+          tmp_post_2 = d;
           d = d + 1l;
-          *tmp_post$2 = (unsigned char)47;
+          *tmp_post_2 = (unsigned char)47;
         }
 
         size = size + (unsigned long int)2;
@@ -8154,9 +8154,9 @@ signed int apr_escape_path(char *escaped, const char *path, signed long int slen
 
         else
         {
-          tmp_post$3 = d;
+          tmp_post_3 = d;
           d = d + 1l;
-          *tmp_post$3 = (unsigned char)c;
+          *tmp_post_3 = (unsigned char)c;
         }
         s = s + 1l;
         size = size + 1ul;
@@ -8207,7 +8207,7 @@ signed int apr_escape_path_segment(char *escaped, const char *str, signed long i
   const unsigned char *s = (const unsigned char *)str;
   unsigned char *d = (unsigned char *)escaped;
   unsigned int c;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   if(!(s == ((const unsigned char *)NULL)))
   {
     if(!(d == ((unsigned char *)NULL)))
@@ -8230,9 +8230,9 @@ signed int apr_escape_path_segment(char *escaped, const char *str, signed long i
 
         else
         {
-          tmp_post$1 = d;
+          tmp_post_1 = d;
           d = d + 1l;
-          *tmp_post$1 = (unsigned char)c;
+          *tmp_post_1 = (unsigned char)c;
         }
         s = s + 1l;
         size = size + 1ul;
@@ -8285,8 +8285,8 @@ signed int apr_escape_shell(char *escaped, const char *str, signed long int slen
   signed int found = 0;
   d = (unsigned char *)escaped;
   s = (const unsigned char *)str;
-  unsigned char *tmp_post$1;
-  unsigned char *tmp_post$2;
+  unsigned char *tmp_post_1;
+  unsigned char *tmp_post_2;
   if(!(s == ((const unsigned char *)NULL)))
   {
     if(!(d == ((unsigned char *)NULL)))
@@ -8295,16 +8295,16 @@ signed int apr_escape_shell(char *escaped, const char *str, signed long int slen
       {
         if(!((1 & (signed int)test_char_table[(signed long int)(unsigned int)*s]) == 0))
         {
-          tmp_post$1 = d;
+          tmp_post_1 = d;
           d = d + 1l;
-          *tmp_post$1 = (unsigned char)92;
+          *tmp_post_1 = (unsigned char)92;
           size = size + 1ul;
           found = 1;
         }
 
-        tmp_post$2 = d;
+        tmp_post_2 = d;
         d = d + 1l;
-        *tmp_post$2 = *s;
+        *tmp_post_2 = *s;
         size = size + 1ul;
         s = s + 1l;
       }
@@ -8344,8 +8344,8 @@ signed int apr_escape_urlencoded(char *escaped, const char *str, signed long int
   const unsigned char *s = (const unsigned char *)str;
   unsigned char *d = (unsigned char *)escaped;
   unsigned int c;
-  unsigned char *tmp_post$1;
-  unsigned char *tmp_post$2;
+  unsigned char *tmp_post_1;
+  unsigned char *tmp_post_2;
   if(!(s == ((const unsigned char *)NULL)))
   {
     if(!(d == ((unsigned char *)NULL)))
@@ -8369,17 +8369,17 @@ signed int apr_escape_urlencoded(char *escaped, const char *str, signed long int
         else
           if(c == 32u)
           {
-            tmp_post$1 = d;
+            tmp_post_1 = d;
             d = d + 1l;
-            *tmp_post$1 = (unsigned char)43;
+            *tmp_post_1 = (unsigned char)43;
             found = 1;
           }
 
           else
           {
-            tmp_post$2 = d;
+            tmp_post_2 = d;
             d = d + 1l;
-            *tmp_post$2 = (unsigned char)c;
+            *tmp_post_2 = (unsigned char)c;
           }
         s = s + 1l;
         size = size + 1ul;
@@ -8430,18 +8430,18 @@ signed int apr_escape_urlencoded(char *escaped, const char *str, signed long int
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_snprintf.c line 166
 static char * apr_fcvt(double arg, signed int ndigits, signed int *decpt, signed int *sign, char *buf)
 {
-  char *return_value_apr_cvt$1;
-  return_value_apr_cvt$1=apr_cvt(arg, ndigits, decpt, sign, 0, buf);
-  return return_value_apr_cvt$1;
+  char *return_value_apr_cvt_1;
+  return_value_apr_cvt_1=apr_cvt(arg, ndigits, decpt, sign, 0, buf);
+  return return_value_apr_cvt_1;
 }
 
 // apr_file_append
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/copy.c line 109
 signed int apr_file_append(const char *from_path, const char *to_path, signed int perms, struct apr_pool_t *pool)
 {
-  signed int return_value_apr_file_transfer_contents$1;
-  return_value_apr_file_transfer_contents$1=apr_file_transfer_contents(from_path, to_path, 0x00002 | 0x00004 | 0x00008, perms, pool);
-  return return_value_apr_file_transfer_contents$1;
+  signed int return_value_apr_file_transfer_contents_1;
+  return_value_apr_file_transfer_contents_1=apr_file_transfer_contents(from_path, to_path, 0x00002 | 0x00004 | 0x00008, perms, pool);
+  return return_value_apr_file_transfer_contents_1;
 }
 
 // apr_file_attrs_set
@@ -8495,9 +8495,9 @@ signed int apr_file_attrs_set(const char *fname, unsigned int attributes, unsign
         }
       }
 
-      signed int return_value_apr_file_perms_set$1;
-      return_value_apr_file_perms_set$1=apr_file_perms_set(fname, finfo.protection);
-      return return_value_apr_file_perms_set$1;
+      signed int return_value_apr_file_perms_set_1;
+      return_value_apr_file_perms_set_1=apr_file_perms_set(fname, finfo.protection);
+      return return_value_apr_file_perms_set_1;
     }
   }
 }
@@ -8560,36 +8560,36 @@ unsigned long int apr_file_buffer_size_get(struct apr_file_t *file)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_file_io.h line 258
 signed int apr_file_close(struct apr_file_t *file)
 {
-  signed int return_value_apr_pool_cleanup_run$1;
-  return_value_apr_pool_cleanup_run$1=apr_pool_cleanup_run(file->pool, (void *)file, apr_unix_file_cleanup);
-  return return_value_apr_pool_cleanup_run$1;
+  signed int return_value_apr_pool_cleanup_run_1;
+  return_value_apr_pool_cleanup_run_1=apr_pool_cleanup_run(file->pool, (void *)file, apr_unix_file_cleanup);
+  return return_value_apr_pool_cleanup_run_1;
 }
 
 // apr_file_copy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/copy.c line 98
 signed int apr_file_copy(const char *from_path, const char *to_path, signed int perms, struct apr_pool_t *pool)
 {
-  signed int return_value_apr_file_transfer_contents$1;
-  return_value_apr_file_transfer_contents$1=apr_file_transfer_contents(from_path, to_path, 0x00002 | 0x00004 | 0x00010, perms, pool);
-  return return_value_apr_file_transfer_contents$1;
+  signed int return_value_apr_file_transfer_contents_1;
+  return_value_apr_file_transfer_contents_1=apr_file_transfer_contents(from_path, to_path, 0x00002 | 0x00004 | 0x00010, perms, pool);
+  return return_value_apr_file_transfer_contents_1;
 }
 
 // apr_file_data_get
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/fileacc.c line 108
 signed int apr_file_data_get(void **data, const char *key, struct apr_file_t *file)
 {
-  signed int return_value_apr_pool_userdata_get$1;
-  return_value_apr_pool_userdata_get$1=apr_pool_userdata_get(data, key, file->pool);
-  return return_value_apr_pool_userdata_get$1;
+  signed int return_value_apr_pool_userdata_get_1;
+  return_value_apr_pool_userdata_get_1=apr_pool_userdata_get(data, key, file->pool);
+  return return_value_apr_pool_userdata_get_1;
 }
 
 // apr_file_data_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/fileacc.c line 114
 signed int apr_file_data_set(struct apr_file_t *file, void *data, const char *key, signed int (*cleanup)(void *))
 {
-  signed int return_value_apr_pool_userdata_set$1;
-  return_value_apr_pool_userdata_set$1=apr_pool_userdata_set(data, key, cleanup, file->pool);
-  return return_value_apr_pool_userdata_set$1;
+  signed int return_value_apr_pool_userdata_set_1;
+  return_value_apr_pool_userdata_set_1=apr_pool_userdata_set(data, key, cleanup, file->pool);
+  return return_value_apr_pool_userdata_set_1;
 }
 
 // apr_file_datasync
@@ -8621,13 +8621,13 @@ signed int apr_file_datasync(struct apr_file_t *thefile)
 
   __CPROVER_DUMP_L5:
     ;
-    signed int return_value_fdatasync$2;
-    return_value_fdatasync$2=fdatasync(thefile->filedes);
-    if(!(return_value_fdatasync$2 == 0))
+    signed int return_value_fdatasync_2;
+    return_value_fdatasync_2=fdatasync(thefile->filedes);
+    if(!(return_value_fdatasync_2 == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      rv = *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      rv = *return_value___errno_location_1;
     }
 
     do
@@ -8643,18 +8643,18 @@ signed int apr_file_datasync(struct apr_file_t *thefile)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/filedup.c line 128
 signed int apr_file_dup(struct apr_file_t **new_file, struct apr_file_t *old_file, struct apr_pool_t *p)
 {
-  signed int return_value_file_dup$1;
-  return_value_file_dup$1=file_dup(new_file, old_file, p, 1);
-  return return_value_file_dup$1;
+  signed int return_value_file_dup_1;
+  return_value_file_dup_1=file_dup(new_file, old_file, p, 1);
+  return return_value_file_dup_1;
 }
 
 // apr_file_dup2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/filedup.c line 134
 signed int apr_file_dup2(struct apr_file_t *new_file, struct apr_file_t *old_file, struct apr_pool_t *p)
 {
-  signed int return_value_file_dup$1;
-  return_value_file_dup$1=file_dup(&new_file, old_file, p, 2);
-  return return_value_file_dup$1;
+  signed int return_value_file_dup_1;
+  return_value_file_dup_1=file_dup(&new_file, old_file, p, 2);
+  return return_value_file_dup_1;
 }
 
 // apr_file_eof
@@ -8703,10 +8703,10 @@ signed int apr_file_flush(struct apr_file_t *thefile)
 signed int apr_file_flush_locked(struct apr_file_t *thefile)
 {
   signed int rv = 0;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   if(thefile->direction == 1)
   {
     if(!(thefile->bufpos == 0ul))
@@ -8722,32 +8722,32 @@ signed int apr_file_flush_locked(struct apr_file_t *thefile)
         if(!((unsigned long int)written >= thefile->bufpos))
         {
           if(ret >= 1l)
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_3 = (_Bool)1;
 
           else
           {
             if(ret == -1l)
             {
-              return_value___errno_location$1=__errno_location();
-              tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+              return_value___errno_location_1=__errno_location();
+              tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$2 = (_Bool)0;
-            tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_2 = (_Bool)0;
+            tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
           }
-          tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$4 = (_Bool)0;
+          tmp_if_expr_4 = (_Bool)0;
       }
-      while(tmp_if_expr$4);
+      while(tmp_if_expr_4);
       if(ret == -1l)
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        rv = *return_value___errno_location$5;
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        rv = *return_value___errno_location_5;
       }
 
       else
@@ -8767,9 +8767,9 @@ signed int apr_file_flush_locked(struct apr_file_t *thefile)
 signed int apr_file_getc(char *ch, struct apr_file_t *thefile)
 {
   unsigned long int nbytes = (unsigned long int)1;
-  signed int return_value_apr_file_read$1;
-  return_value_apr_file_read$1=apr_file_read(thefile, (void *)ch, &nbytes);
-  return return_value_apr_file_read$1;
+  signed int return_value_apr_file_read_1;
+  return_value_apr_file_read_1=apr_file_read(thefile, (void *)ch, &nbytes);
+  return return_value_apr_file_read_1;
 }
 
 // apr_file_gets
@@ -8780,8 +8780,8 @@ signed int apr_file_gets(char *str, signed int len, struct apr_file_t *thefile)
   unsigned long int nbytes;
   const char *str_start = str;
   char *final = (str + (signed long int)len) - (signed long int)1;
-  _Bool tmp_if_expr$2;
-  unsigned long int tmp_post$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int tmp_post_1;
   if(!(len >= 2))
     return 0;
 
@@ -8815,15 +8815,15 @@ signed int apr_file_gets(char *str, signed int len, struct apr_file_t *thefile)
       for( ; !(str >= final); str = str + 1l)
       {
         if(!(thefile->bufpos >= thefile->dataRead))
-          tmp_if_expr$2 = thefile->ungetchar == -1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = thefile->ungetchar == -1 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
         {
-          tmp_post$1 = thefile->bufpos;
+          tmp_post_1 = thefile->bufpos;
           thefile->bufpos = thefile->bufpos + 1ul;
-          *str = thefile->buffer[(signed long int)tmp_post$1];
+          *str = thefile->buffer[(signed long int)tmp_post_1];
         }
 
         else
@@ -8886,9 +8886,9 @@ signed int apr_file_info_get(struct apr_finfo_t *finfo, signed int wanted, struc
 
   }
 
-  signed int return_value_fstat$2;
-  return_value_fstat$2=fstat(thefile->filedes, &info);
-  if(return_value_fstat$2 == 0)
+  signed int return_value_fstat_2;
+  return_value_fstat_2=fstat(thefile->filedes, &info);
+  if(return_value_fstat_2 == 0)
   {
     finfo->pool = thefile->pool;
     finfo->fname = thefile->fname;
@@ -8898,9 +8898,9 @@ signed int apr_file_info_get(struct apr_finfo_t *finfo, signed int wanted, struc
 
   else
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 }
 
@@ -8918,9 +8918,9 @@ signed int apr_file_info_get_locked(struct apr_finfo_t *finfo, signed int wanted
 
   }
 
-  signed int return_value_fstat$2;
-  return_value_fstat$2=fstat(thefile->filedes, &info);
-  if(return_value_fstat$2 == 0)
+  signed int return_value_fstat_2;
+  return_value_fstat_2=fstat(thefile->filedes, &info);
+  if(return_value_fstat_2 == 0)
   {
     finfo->pool = thefile->pool;
     finfo->fname = thefile->fname;
@@ -8930,9 +8930,9 @@ signed int apr_file_info_get_locked(struct apr_finfo_t *finfo, signed int wanted
 
   else
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 }
 
@@ -8940,8 +8940,8 @@ signed int apr_file_info_get_locked(struct apr_finfo_t *finfo, signed int wanted
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/open.c line 378
 signed int apr_file_inherit_set(struct apr_file_t *thefile)
 {
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
   if(!((0x00800 & thefile->flags) == 0))
     return 22;
 
@@ -8953,17 +8953,17 @@ signed int apr_file_inherit_set(struct apr_file_t *thefile)
       flags=fcntl(thefile->filedes, 1);
       if(flags == -1)
       {
-        return_value___errno_location$1=__errno_location();
-        return *return_value___errno_location$1;
+        return_value___errno_location_1=__errno_location();
+        return *return_value___errno_location_1;
       }
 
       flags = flags & ~1;
-      signed int return_value_fcntl$3;
-      return_value_fcntl$3=fcntl(thefile->filedes, 2, flags);
-      if(return_value_fcntl$3 == -1)
+      signed int return_value_fcntl_3;
+      return_value_fcntl_3=fcntl(thefile->filedes, 2, flags);
+      if(return_value_fcntl_3 == -1)
       {
-        return_value___errno_location$2=__errno_location();
-        return *return_value___errno_location$2;
+        return_value___errno_location_2=__errno_location();
+        return *return_value___errno_location_2;
       }
 
       thefile->flags = thefile->flags | 1 << 24;
@@ -8978,8 +8978,8 @@ signed int apr_file_inherit_set(struct apr_file_t *thefile)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/open.c line 383
 signed int apr_file_inherit_unset(struct apr_file_t *thefile)
 {
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
   if(!((0x00800 & thefile->flags) == 0))
     return 22;
 
@@ -8991,17 +8991,17 @@ signed int apr_file_inherit_unset(struct apr_file_t *thefile)
       flags=fcntl(thefile->filedes, 1);
       if(flags == -1)
       {
-        return_value___errno_location$1=__errno_location();
-        return *return_value___errno_location$1;
+        return_value___errno_location_1=__errno_location();
+        return *return_value___errno_location_1;
       }
 
       flags = flags | 1;
-      signed int return_value_fcntl$3;
-      return_value_fcntl$3=fcntl(thefile->filedes, 2, flags);
-      if(return_value_fcntl$3 == -1)
+      signed int return_value_fcntl_3;
+      return_value_fcntl_3=fcntl(thefile->filedes, 2, flags);
+      if(return_value_fcntl_3 == -1)
       {
-        return_value___errno_location$2=__errno_location();
-        return *return_value___errno_location$2;
+        return_value___errno_location_2=__errno_location();
+        return *return_value___errno_location_2;
       }
 
       thefile->flags = thefile->flags & ~(1 << 24);
@@ -9016,13 +9016,13 @@ signed int apr_file_inherit_unset(struct apr_file_t *thefile)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/open.c line 409
 signed int apr_file_link(const char *from_path, const char *to_path)
 {
-  signed int return_value_link$2;
-  return_value_link$2=link(from_path, to_path);
-  if(return_value_link$2 == -1)
+  signed int return_value_link_2;
+  return_value_link_2=link(from_path, to_path);
+  if(return_value_link_2 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   return 0;
@@ -9042,24 +9042,24 @@ signed int apr_file_lock(struct apr_file_t *thefile, signed int type)
   if(!((0x0010 & type) == 0))
     ltype = ltype | 4;
 
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
     rc=flock(thefile->filedes, ltype);
     if(rc >= 0)
       break;
 
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 4))
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 4))
       break;
 
   }
   while((_Bool)1);
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   if(rc == -1)
   {
-    return_value___errno_location$2=__errno_location();
-    return *return_value___errno_location$2;
+    return_value___errno_location_2=__errno_location();
+    return *return_value___errno_location_2;
   }
 
   else
@@ -9075,32 +9075,32 @@ signed int apr_file_mktemp(struct apr_file_t **fp, char *template, signed int fl
   fd=mkstemp(template);
   if(fd == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   apr_os_file_put(fp, &fd, flags, p);
   (*fp)->fname=apr_pstrdup(p, template);
-  signed int *return_value___errno_location$2;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_2;
+  signed int *return_value___errno_location_3;
   if((0x00800 & flags) == 0)
   {
-    signed int apr_file_mktemp$$1$$2$$flags;
-    apr_file_mktemp$$1$$2$$flags=fcntl(fd, 1);
-    if(apr_file_mktemp$$1$$2$$flags == -1)
+    signed int apr_file_mktemp__1__2__flags;
+    apr_file_mktemp__1__2__flags=fcntl(fd, 1);
+    if(apr_file_mktemp__1__2__flags == -1)
     {
-      return_value___errno_location$2=__errno_location();
-      return *return_value___errno_location$2;
+      return_value___errno_location_2=__errno_location();
+      return *return_value___errno_location_2;
     }
 
-    apr_file_mktemp$$1$$2$$flags = apr_file_mktemp$$1$$2$$flags | 1;
-    signed int return_value_fcntl$4;
-    return_value_fcntl$4=fcntl(fd, 2, apr_file_mktemp$$1$$2$$flags);
-    if(return_value_fcntl$4 == -1)
+    apr_file_mktemp__1__2__flags = apr_file_mktemp__1__2__flags | 1;
+    signed int return_value_fcntl_4;
+    return_value_fcntl_4=fcntl(fd, 2, apr_file_mktemp__1__2__flags);
+    if(return_value_fcntl_4 == -1)
     {
-      return_value___errno_location$3=__errno_location();
-      return *return_value___errno_location$3;
+      return_value___errno_location_3=__errno_location();
+      return *return_value___errno_location_3;
     }
 
     apr_pool_cleanup_register((*fp)->pool, (void *)*fp, apr_unix_file_cleanup, apr_unix_child_file_cleanup);
@@ -9126,13 +9126,13 @@ signed int apr_file_mtime_set(const char *fname, signed long int mtime, struct a
     tvp[(signed long int)0].tv_usec = finfo.atime % 1000000L;
     tvp[(signed long int)1].tv_sec = mtime / 1000000L;
     tvp[(signed long int)1].tv_usec = mtime % 1000000L;
-    signed int return_value_utimes$2;
-    return_value_utimes$2=utimes(fname, tvp);
-    if(return_value_utimes$2 == -1)
+    signed int return_value_utimes_2;
+    return_value_utimes_2=utimes(fname, tvp);
+    if(return_value_utimes_2 == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      return *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      return *return_value___errno_location_1;
     }
 
     return 0;
@@ -9153,13 +9153,13 @@ signed int apr_file_namedpipe_create(const char *filename, signed int perm, stru
 {
   unsigned int mode;
   mode=apr_unix_perms2mode(perm);
-  signed int return_value_mkfifo$2;
-  return_value_mkfifo$2=mkfifo(filename, mode);
-  if(return_value_mkfifo$2 == -1)
+  signed int return_value_mkfifo_2;
+  return_value_mkfifo_2=mkfifo(filename, mode);
+  if(return_value_mkfifo_2 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   return 0;
@@ -9233,15 +9233,15 @@ signed int apr_file_open(struct apr_file_t **new, const char *fname, signed int 
 
       else
       {
-        unsigned int return_value_apr_unix_perms2mode$1;
-        return_value_apr_unix_perms2mode$1=apr_unix_perms2mode(perm);
-        fd=open(fname, oflags, return_value_apr_unix_perms2mode$1);
+        unsigned int return_value_apr_unix_perms2mode_1;
+        return_value_apr_unix_perms2mode_1=apr_unix_perms2mode(perm);
+        fd=open(fname, oflags, return_value_apr_unix_perms2mode_1);
       }
       if(!(fd >= 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        return *return_value___errno_location$2;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        return *return_value___errno_location_2;
       }
 
       if((0x00800 & flag) == 0)
@@ -9254,22 +9254,22 @@ signed int apr_file_open(struct apr_file_t **new, const char *fname, signed int 
           if(flags == -1)
           {
             close(fd);
-            signed int *return_value___errno_location$3;
-            return_value___errno_location$3=__errno_location();
-            return *return_value___errno_location$3;
+            signed int *return_value___errno_location_3;
+            return_value___errno_location_3=__errno_location();
+            return *return_value___errno_location_3;
           }
 
           if((1 & flags) == 0)
           {
             flags = flags | 1;
-            signed int return_value_fcntl$5;
-            return_value_fcntl$5=fcntl(fd, 2, flags);
-            if(return_value_fcntl$5 == -1)
+            signed int return_value_fcntl_5;
+            return_value_fcntl_5=fcntl(fd, 2, flags);
+            if(return_value_fcntl_5 == -1)
             {
               close(fd);
-              signed int *return_value___errno_location$4;
-              return_value___errno_location$4=__errno_location();
-              return *return_value___errno_location$4;
+              signed int *return_value___errno_location_4;
+              return_value___errno_location_4=__errno_location();
+              return *return_value___errno_location_4;
             }
 
           }
@@ -9280,22 +9280,22 @@ signed int apr_file_open(struct apr_file_t **new, const char *fname, signed int 
 
       }
 
-      void *return_value_apr_palloc$6;
-      return_value_apr_palloc$6=apr_palloc(pool, sizeof(struct apr_file_t) /*120ul*/ );
-      void *return_value_memset$7;
-      return_value_memset$7=memset(return_value_apr_palloc$6, 0, sizeof(struct apr_file_t) /*120ul*/ );
-      *new = (struct apr_file_t *)return_value_memset$7;
+      void *return_value_apr_palloc_6;
+      return_value_apr_palloc_6=apr_palloc(pool, sizeof(struct apr_file_t) /*120ul*/ );
+      void *return_value_memset_7;
+      return_value_memset_7=memset(return_value_apr_palloc_6, 0, sizeof(struct apr_file_t) /*120ul*/ );
+      *new = (struct apr_file_t *)return_value_memset_7;
       (*new)->pool = pool;
       (*new)->flags = flag;
       (*new)->filedes = fd;
       (*new)->fname=apr_pstrdup(pool, fname);
-      (*new)->blocking = (enum anonymous$2)BLK_ON;
+      (*new)->blocking = (enum anonymous_2)BLK_ON;
       (*new)->buffered = (signed int)((flag & 0x00080) > 0);
       if(!((*new)->buffered == 0))
       {
-        void *return_value_apr_palloc$8;
-        return_value_apr_palloc$8=apr_palloc(pool, (unsigned long int)4096);
-        (*new)->buffer = (char *)return_value_apr_palloc$8;
+        void *return_value_apr_palloc_8;
+        return_value_apr_palloc_8=apr_palloc(pool, (unsigned long int)4096);
+        (*new)->buffer = (char *)return_value_apr_palloc_8;
         (*new)->bufsize = (unsigned long int)4096;
         if(!((0x00200 & (*new)->flags) == 0))
           (*new)->thlock = thlock;
@@ -9325,9 +9325,9 @@ signed int apr_file_open(struct apr_file_t **new, const char *fname, signed int 
 signed int apr_file_open_flags_stderr(struct apr_file_t **thefile, signed int flags, struct apr_pool_t *pool)
 {
   signed int fd = 2;
-  signed int return_value_apr_os_file_put$1;
-  return_value_apr_os_file_put$1=apr_os_file_put(thefile, &fd, flags | 0x00002, pool);
-  return return_value_apr_os_file_put$1;
+  signed int return_value_apr_os_file_put_1;
+  return_value_apr_os_file_put_1=apr_os_file_put(thefile, &fd, flags | 0x00002, pool);
+  return return_value_apr_os_file_put_1;
 }
 
 // apr_file_open_flags_stdin
@@ -9335,9 +9335,9 @@ signed int apr_file_open_flags_stderr(struct apr_file_t **thefile, signed int fl
 signed int apr_file_open_flags_stdin(struct apr_file_t **thefile, signed int flags, struct apr_pool_t *pool)
 {
   signed int fd = 0;
-  signed int return_value_apr_os_file_put$1;
-  return_value_apr_os_file_put$1=apr_os_file_put(thefile, &fd, flags | 0x00001, pool);
-  return return_value_apr_os_file_put$1;
+  signed int return_value_apr_os_file_put_1;
+  return_value_apr_os_file_put_1=apr_os_file_put(thefile, &fd, flags | 0x00001, pool);
+  return return_value_apr_os_file_put_1;
 }
 
 // apr_file_open_flags_stdout
@@ -9345,36 +9345,36 @@ signed int apr_file_open_flags_stdin(struct apr_file_t **thefile, signed int fla
 signed int apr_file_open_flags_stdout(struct apr_file_t **thefile, signed int flags, struct apr_pool_t *pool)
 {
   signed int fd = 1;
-  signed int return_value_apr_os_file_put$1;
-  return_value_apr_os_file_put$1=apr_os_file_put(thefile, &fd, flags | 0x00002, pool);
-  return return_value_apr_os_file_put$1;
+  signed int return_value_apr_os_file_put_1;
+  return_value_apr_os_file_put_1=apr_os_file_put(thefile, &fd, flags | 0x00002, pool);
+  return return_value_apr_os_file_put_1;
 }
 
 // apr_file_open_stderr
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/open.c line 360
 signed int apr_file_open_stderr(struct apr_file_t **thefile, struct apr_pool_t *pool)
 {
-  signed int return_value_apr_file_open_flags_stderr$1;
-  return_value_apr_file_open_flags_stderr$1=apr_file_open_flags_stderr(thefile, 0, pool);
-  return return_value_apr_file_open_flags_stderr$1;
+  signed int return_value_apr_file_open_flags_stderr_1;
+  return_value_apr_file_open_flags_stderr_1=apr_file_open_flags_stderr(thefile, 0, pool);
+  return return_value_apr_file_open_flags_stderr_1;
 }
 
 // apr_file_open_stdin
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/open.c line 372
 signed int apr_file_open_stdin(struct apr_file_t **thefile, struct apr_pool_t *pool)
 {
-  signed int return_value_apr_file_open_flags_stdin$1;
-  return_value_apr_file_open_flags_stdin$1=apr_file_open_flags_stdin(thefile, 0, pool);
-  return return_value_apr_file_open_flags_stdin$1;
+  signed int return_value_apr_file_open_flags_stdin_1;
+  return_value_apr_file_open_flags_stdin_1=apr_file_open_flags_stdin(thefile, 0, pool);
+  return return_value_apr_file_open_flags_stdin_1;
 }
 
 // apr_file_open_stdout
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/open.c line 366
 signed int apr_file_open_stdout(struct apr_file_t **thefile, struct apr_pool_t *pool)
 {
-  signed int return_value_apr_file_open_flags_stdout$1;
-  return_value_apr_file_open_flags_stdout$1=apr_file_open_flags_stdout(thefile, 0, pool);
-  return return_value_apr_file_open_flags_stdout$1;
+  signed int return_value_apr_file_open_flags_stdout_1;
+  return_value_apr_file_open_flags_stdout_1=apr_file_open_flags_stdout(thefile, 0, pool);
+  return return_value_apr_file_open_flags_stdout_1;
 }
 
 // apr_file_perms_set
@@ -9383,13 +9383,13 @@ signed int apr_file_perms_set(const char *fname, signed int perms)
 {
   unsigned int mode;
   mode=apr_unix_perms2mode(perms);
-  signed int return_value_chmod$2;
-  return_value_chmod$2=chmod(fname, mode);
-  signed int *return_value___errno_location$1;
-  if(return_value_chmod$2 == -1)
+  signed int return_value_chmod_2;
+  return_value_chmod_2=chmod(fname, mode);
+  signed int *return_value___errno_location_1;
+  if(return_value_chmod_2 == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   else
@@ -9401,41 +9401,41 @@ signed int apr_file_perms_set(const char *fname, signed int perms)
 signed int apr_file_pipe_create(struct apr_file_t **in, struct apr_file_t **out, struct apr_pool_t *pool)
 {
   signed int filedes[2l];
-  signed int return_value_pipe$2;
-  return_value_pipe$2=pipe(filedes);
-  if(return_value_pipe$2 == -1)
+  signed int return_value_pipe_2;
+  return_value_pipe_2=pipe(filedes);
+  if(return_value_pipe_2 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
-  void *return_value_apr_palloc$3;
-  return_value_apr_palloc$3=apr_palloc(pool, sizeof(struct apr_file_t) /*120ul*/ );
-  void *return_value_memset$4;
-  return_value_memset$4=memset(return_value_apr_palloc$3, 0, sizeof(struct apr_file_t) /*120ul*/ );
-  *in = (struct apr_file_t *)return_value_memset$4;
+  void *return_value_apr_palloc_3;
+  return_value_apr_palloc_3=apr_palloc(pool, sizeof(struct apr_file_t) /*120ul*/ );
+  void *return_value_memset_4;
+  return_value_memset_4=memset(return_value_apr_palloc_3, 0, sizeof(struct apr_file_t) /*120ul*/ );
+  *in = (struct apr_file_t *)return_value_memset_4;
   (*in)->pool = pool;
   (*in)->filedes = filedes[(signed long int)0];
   (*in)->is_pipe = 1;
   (*in)->fname = (char *)(void *)0;
   (*in)->buffered = 0;
-  (*in)->blocking = (enum anonymous$2)BLK_ON;
+  (*in)->blocking = (enum anonymous_2)BLK_ON;
   (*in)->timeout = (signed long int)-1;
   (*in)->ungetchar = -1;
   (*in)->flags = 1 << 24;
   (*in)->thlock = (struct apr_thread_mutex_t *)(void *)0;
-  void *return_value_apr_palloc$5;
-  return_value_apr_palloc$5=apr_palloc(pool, sizeof(struct apr_file_t) /*120ul*/ );
-  void *return_value_memset$6;
-  return_value_memset$6=memset(return_value_apr_palloc$5, 0, sizeof(struct apr_file_t) /*120ul*/ );
-  *out = (struct apr_file_t *)return_value_memset$6;
+  void *return_value_apr_palloc_5;
+  return_value_apr_palloc_5=apr_palloc(pool, sizeof(struct apr_file_t) /*120ul*/ );
+  void *return_value_memset_6;
+  return_value_memset_6=memset(return_value_apr_palloc_5, 0, sizeof(struct apr_file_t) /*120ul*/ );
+  *out = (struct apr_file_t *)return_value_memset_6;
   (*out)->pool = pool;
   (*out)->filedes = filedes[(signed long int)1];
   (*out)->is_pipe = 1;
   (*out)->fname = (char *)(void *)0;
   (*out)->buffered = 0;
-  (*out)->blocking = (enum anonymous$2)BLK_ON;
+  (*out)->blocking = (enum anonymous_2)BLK_ON;
   (*out)->flags = 1 << 24;
   (*out)->timeout = (signed long int)-1;
   (*out)->thlock = (struct apr_thread_mutex_t *)(void *)0;
@@ -9504,9 +9504,9 @@ signed int apr_file_pipe_timeout_set(struct apr_file_t *thepipe, signed long int
     {
       if(!((signed int)thepipe->blocking == BLK_OFF))
       {
-        signed int return_value_pipenonblock$1;
-        return_value_pipenonblock$1=pipenonblock(thepipe);
-        return return_value_pipenonblock$1;
+        signed int return_value_pipenonblock_1;
+        return_value_pipenonblock_1=pipenonblock(thepipe);
+        return return_value_pipenonblock_1;
       }
 
     }
@@ -9514,9 +9514,9 @@ signed int apr_file_pipe_timeout_set(struct apr_file_t *thepipe, signed long int
     else
       if(!((signed int)thepipe->blocking == BLK_ON))
       {
-        signed int return_value_pipeblock$2;
-        return_value_pipeblock$2=pipeblock(thepipe);
-        return return_value_pipeblock$2;
+        signed int return_value_pipeblock_2;
+        return_value_pipeblock_2=pipeblock(thepipe);
+        return return_value_pipeblock_2;
       }
 
     return 0;
@@ -9540,9 +9540,9 @@ signed int apr_file_printf(struct apr_file_t *fptr, const char *format, ...)
   struct apr_file_printf_data data;
   void **ap;
   signed int count;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)8192);
-  data.buf = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)8192);
+  data.buf = (char *)return_value_malloc_1;
   if(data.buf == ((char *)NULL))
     return -1;
 
@@ -9567,20 +9567,20 @@ signed int apr_file_printf(struct apr_file_t *fptr, const char *format, ...)
 signed int apr_file_putc(char ch, struct apr_file_t *thefile)
 {
   unsigned long int nbytes = (unsigned long int)1;
-  signed int return_value_apr_file_write$1;
-  return_value_apr_file_write$1=apr_file_write(thefile, (const void *)&ch, &nbytes);
-  return return_value_apr_file_write$1;
+  signed int return_value_apr_file_write_1;
+  return_value_apr_file_write_1=apr_file_write(thefile, (const void *)&ch, &nbytes);
+  return return_value_apr_file_write_1;
 }
 
 // apr_file_puts
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/readwrite.c line 304
 signed int apr_file_puts(const char *str, struct apr_file_t *thefile)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  signed int return_value_apr_file_write_full$2;
-  return_value_apr_file_write_full$2=apr_file_write_full(thefile, (const void *)str, return_value_strlen$1, (unsigned long int *)(void *)0);
-  return return_value_apr_file_write_full$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  signed int return_value_apr_file_write_full_2;
+  return_value_apr_file_write_full_2=apr_file_write_full(thefile, (const void *)str, return_value_strlen_1, (unsigned long int *)(void *)0);
+  return return_value_apr_file_write_full_2;
 }
 
 // apr_file_read
@@ -9589,13 +9589,13 @@ signed int apr_file_read(struct apr_file_t *thefile, void *buf, unsigned long in
 {
   signed long int rv;
   unsigned long int bytes_read;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
-  signed int *return_value___errno_location$6;
-  _Bool tmp_if_expr$8;
-  signed int *return_value___errno_location$7;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
+  signed int *return_value___errno_location_6;
+  _Bool tmp_if_expr_8;
+  signed int *return_value___errno_location_7;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
   if(!(*nbytes >= 1ul))
   {
     *nbytes = (unsigned long int)0;
@@ -9610,9 +9610,9 @@ signed int apr_file_read(struct apr_file_t *thefile, void *buf, unsigned long in
           apr_thread_mutex_lock(thefile->thlock);
 
       while((_Bool)0);
-      signed int return_value_file_read_buffered$1;
-      return_value_file_read_buffered$1=file_read_buffered(thefile, buf, nbytes);
-      rv = (signed long int)return_value_file_read_buffered$1;
+      signed int return_value_file_read_buffered_1;
+      return_value_file_read_buffered_1=file_read_buffered(thefile, buf, nbytes);
+      rv = (signed long int)return_value_file_read_buffered_1;
       do
         if(!(thefile->thlock == ((struct apr_thread_mutex_t *)NULL)))
           apr_thread_mutex_unlock(thefile->thlock);
@@ -9644,26 +9644,26 @@ signed int apr_file_read(struct apr_file_t *thefile, void *buf, unsigned long in
         rv=read(thefile->filedes, buf, *nbytes);
         if(rv == -1l)
         {
-          return_value___errno_location$2=__errno_location();
-          tmp_if_expr$3 = *return_value___errno_location$2 == 4 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_2=__errno_location();
+          tmp_if_expr_3 = *return_value___errno_location_2 == 4 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$3 = (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
       }
-      while(tmp_if_expr$3);
+      while(tmp_if_expr_3);
       if(rv == -1l)
       {
-        return_value___errno_location$6=__errno_location();
-        if(*return_value___errno_location$6 == 11)
-          tmp_if_expr$8 = (_Bool)1;
+        return_value___errno_location_6=__errno_location();
+        if(*return_value___errno_location_6 == 11)
+          tmp_if_expr_8 = (_Bool)1;
 
         else
         {
-          return_value___errno_location$7=__errno_location();
-          tmp_if_expr$8 = *return_value___errno_location$7 == 11 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_7=__errno_location();
+          tmp_if_expr_8 = *return_value___errno_location_7 == 11 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$8)
+        if(tmp_if_expr_8)
         {
           if(!(thefile->timeout == 0l))
           {
@@ -9681,14 +9681,14 @@ signed int apr_file_read(struct apr_file_t *thefile, void *buf, unsigned long in
                 rv=read(thefile->filedes, buf, *nbytes);
                 if(rv == -1l)
                 {
-                  return_value___errno_location$4=__errno_location();
-                  tmp_if_expr$5 = *return_value___errno_location$4 == 4 ? (_Bool)1 : (_Bool)0;
+                  return_value___errno_location_4=__errno_location();
+                  tmp_if_expr_5 = *return_value___errno_location_4 == 4 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$5 = (_Bool)0;
+                  tmp_if_expr_5 = (_Bool)0;
               }
-              while(tmp_if_expr$5);
+              while(tmp_if_expr_5);
           }
 
         }
@@ -9708,9 +9708,9 @@ signed int apr_file_read(struct apr_file_t *thefile, void *buf, unsigned long in
         return 0;
       }
 
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      return *return_value___errno_location$9;
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      return *return_value___errno_location_9;
     }
 }
 
@@ -9739,16 +9739,16 @@ signed int apr_file_read_full(struct apr_file_t *thefile, void *buf, unsigned lo
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/open.c line 258
 signed int apr_file_remove(const char *path, struct apr_pool_t *pool)
 {
-  signed int return_value_unlink$2;
-  return_value_unlink$2=unlink(path);
-  if(return_value_unlink$2 == 0)
+  signed int return_value_unlink_2;
+  return_value_unlink_2=unlink(path);
+  if(return_value_unlink_2 == 0)
     return 0;
 
   else
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 }
 
@@ -9756,13 +9756,13 @@ signed int apr_file_remove(const char *path, struct apr_pool_t *pool)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/open.c line 268
 signed int apr_file_rename(const char *from_path, const char *to_path, struct apr_pool_t *p)
 {
-  signed int return_value_rename$2;
-  return_value_rename$2=rename(from_path, to_path);
-  if(!(return_value_rename$2 == 0))
+  signed int return_value_rename_2;
+  return_value_rename_2=rename(from_path, to_path);
+  if(!(return_value_rename_2 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   return 0;
@@ -9818,9 +9818,9 @@ signed int apr_file_seek(struct apr_file_t *thefile, signed int where, signed lo
     if(rv == -1l)
     {
       *offset = (signed long int)-1;
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      return *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      return *return_value___errno_location_1;
     }
 
     else
@@ -9835,15 +9835,15 @@ signed int apr_file_seek(struct apr_file_t *thefile, signed int where, signed lo
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/filedup.c line 140
 signed int apr_file_setaside(struct apr_file_t **new_file, struct apr_file_t *old_file, struct apr_pool_t *p)
 {
-  void *return_value_apr_pmemdup$1;
-  return_value_apr_pmemdup$1=apr_pmemdup(p, (const void *)old_file, sizeof(struct apr_file_t) /*120ul*/ );
-  *new_file = (struct apr_file_t *)return_value_apr_pmemdup$1;
+  void *return_value_apr_pmemdup_1;
+  return_value_apr_pmemdup_1=apr_pmemdup(p, (const void *)old_file, sizeof(struct apr_file_t) /*120ul*/ );
+  *new_file = (struct apr_file_t *)return_value_apr_pmemdup_1;
   (*new_file)->pool = p;
   if(!(old_file->buffered == 0))
   {
-    void *return_value_apr_palloc$2;
-    return_value_apr_palloc$2=apr_palloc(p, old_file->bufsize);
-    (*new_file)->buffer = (char *)return_value_apr_palloc$2;
+    void *return_value_apr_palloc_2;
+    return_value_apr_palloc_2=apr_palloc(p, old_file->bufsize);
+    (*new_file)->buffer = (char *)return_value_apr_palloc_2;
     (*new_file)->bufsize = old_file->bufsize;
     if(old_file->direction == 1)
       memcpy((void *)(*new_file)->buffer, (const void *)old_file->buffer, old_file->bufpos);
@@ -9898,13 +9898,13 @@ signed int apr_file_sync(struct apr_file_t *thefile)
 
   __CPROVER_DUMP_L5:
     ;
-    signed int return_value_fsync$2;
-    return_value_fsync$2=fsync(thefile->filedes);
-    if(!(return_value_fsync$2 == 0))
+    signed int return_value_fsync_2;
+    return_value_fsync_2=fsync(thefile->filedes);
+    if(!(return_value_fsync_2 == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      rv = *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      rv = *return_value___errno_location_1;
     }
 
     do
@@ -9984,9 +9984,9 @@ static signed int apr_file_transfer_contents(const char *from_path, const char *
             return status;
           }
 
-          signed int return_value_apr_file_close$1;
-          return_value_apr_file_close$1=apr_file_close(d);
-          return return_value_apr_file_close$1;
+          signed int return_value_apr_file_close_1;
+          return_value_apr_file_close_1=apr_file_close(d);
+          return return_value_apr_file_close_1;
         }
 
       }
@@ -9997,7 +9997,7 @@ static signed int apr_file_transfer_contents(const char *from_path, const char *
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/seek.c line 99
 signed int apr_file_trunc(struct apr_file_t *fp, signed long int offset)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(fp->buffered == 0))
   {
     signed int rc = 0;
@@ -10015,11 +10015,11 @@ signed int apr_file_trunc(struct apr_file_t *fp, signed long int offset)
         {
           signed long int off = len - offset;
           if(off >= 0l)
-            tmp_if_expr$1 = (unsigned long int)off <= fp->bufpos ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = (unsigned long int)off <= fp->bufpos ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = (_Bool)0;
+          if(tmp_if_expr_1)
             fp->bufpos = fp->bufpos - (unsigned long int)off;
 
           else
@@ -10044,18 +10044,18 @@ signed int apr_file_trunc(struct apr_file_t *fp, signed long int offset)
 
   }
 
-  signed int return_value_ftruncate$3;
-  return_value_ftruncate$3=ftruncate(fp->filedes, offset);
-  if(return_value_ftruncate$3 == -1)
+  signed int return_value_ftruncate_3;
+  return_value_ftruncate_3=ftruncate(fp->filedes, offset);
+  if(return_value_ftruncate_3 == -1)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    return *return_value___errno_location$2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    return *return_value___errno_location_2;
   }
 
-  signed int return_value_apr_file_seek$4;
-  return_value_apr_file_seek$4=apr_file_seek(fp, 0, &offset);
-  return return_value_apr_file_seek$4;
+  signed int return_value_apr_file_seek_4;
+  return_value_apr_file_seek_4=apr_file_seek(fp, 0, &offset);
+  return return_value_apr_file_seek_4;
 }
 
 // apr_file_ungetc
@@ -10071,24 +10071,24 @@ signed int apr_file_ungetc(char ch, struct apr_file_t *thefile)
 signed int apr_file_unlock(struct apr_file_t *thefile)
 {
   signed int rc;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
     rc=flock(thefile->filedes, 8);
     if(rc >= 0)
       break;
 
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 4))
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 4))
       break;
 
   }
   while((_Bool)1);
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   if(rc == -1)
   {
-    return_value___errno_location$2=__errno_location();
-    return *return_value___errno_location$2;
+    return_value___errno_location_2=__errno_location();
+    return *return_value___errno_location_2;
   }
 
   else
@@ -10100,19 +10100,19 @@ signed int apr_file_unlock(struct apr_file_t *thefile)
 signed int apr_file_write(struct apr_file_t *thefile, const void *buf, unsigned long int *nbytes)
 {
   unsigned long int rv;
-  signed int return_value_apr_file_flush_locked$1;
-  unsigned long int tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$13;
-  _Bool tmp_if_expr$15;
-  signed int *return_value___errno_location$14;
-  _Bool tmp_if_expr$7;
-  signed int *return_value___errno_location$6;
-  _Bool tmp_if_expr$12;
-  signed int *return_value___errno_location$9;
-  _Bool tmp_if_expr$11;
-  signed int *return_value___errno_location$10;
+  signed int return_value_apr_file_flush_locked_1;
+  unsigned long int tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_13;
+  _Bool tmp_if_expr_15;
+  signed int *return_value___errno_location_14;
+  _Bool tmp_if_expr_7;
+  signed int *return_value___errno_location_6;
+  _Bool tmp_if_expr_12;
+  signed int *return_value___errno_location_9;
+  _Bool tmp_if_expr_11;
+  signed int *return_value___errno_location_10;
   if(!(thefile->buffered == 0))
   {
     char *pos = (char *)buf;
@@ -10139,16 +10139,16 @@ signed int apr_file_write(struct apr_file_t *thefile, const void *buf, unsigned 
     {
       if(thefile->bufpos == thefile->bufsize)
       {
-        return_value_apr_file_flush_locked$1=apr_file_flush_locked(thefile);
-        rv = (unsigned long int)return_value_apr_file_flush_locked$1;
+        return_value_apr_file_flush_locked_1=apr_file_flush_locked(thefile);
+        rv = (unsigned long int)return_value_apr_file_flush_locked_1;
       }
 
       if(!(thefile->bufsize + -thefile->bufpos >= (unsigned long int)size))
-        tmp_if_expr$2 = thefile->bufsize - thefile->bufpos;
+        tmp_if_expr_2 = thefile->bufsize - thefile->bufpos;
 
       else
-        tmp_if_expr$2 = (unsigned long int)size;
-      blocksize = (signed int)tmp_if_expr$2;
+        tmp_if_expr_2 = (unsigned long int)size;
+      blocksize = (signed int)tmp_if_expr_2;
       memcpy((void *)(thefile->buffer + (signed long int)thefile->bufpos), (const void *)pos, (unsigned long int)blocksize);
       thefile->bufpos = thefile->bufpos + (unsigned long int)blocksize;
       pos = pos + (signed long int)blocksize;
@@ -10166,31 +10166,31 @@ signed int apr_file_write(struct apr_file_t *thefile, const void *buf, unsigned 
   {
     do
     {
-      signed long int return_value_write$5;
-      return_value_write$5=write(thefile->filedes, buf, *nbytes);
-      rv = (unsigned long int)return_value_write$5;
+      signed long int return_value_write_5;
+      return_value_write_5=write(thefile->filedes, buf, *nbytes);
+      rv = (unsigned long int)return_value_write_5;
       if(rv == 18446744073709551615ul)
       {
-        return_value___errno_location$3=__errno_location();
-        tmp_if_expr$4 = *return_value___errno_location$3 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_3=__errno_location();
+        tmp_if_expr_4 = *return_value___errno_location_3 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
     }
-    while(tmp_if_expr$4);
+    while(tmp_if_expr_4);
     if(rv == 18446744073709551615ul)
     {
-      return_value___errno_location$13=__errno_location();
-      if(*return_value___errno_location$13 == 11)
-        tmp_if_expr$15 = (_Bool)1;
+      return_value___errno_location_13=__errno_location();
+      if(*return_value___errno_location_13 == 11)
+        tmp_if_expr_15 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$14=__errno_location();
-        tmp_if_expr$15 = *return_value___errno_location$14 == 11 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_14=__errno_location();
+        tmp_if_expr_15 = *return_value___errno_location_14 == 11 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$15)
+      if(tmp_if_expr_15)
       {
         if(!(thefile->timeout == 0l))
         {
@@ -10208,37 +10208,37 @@ signed int apr_file_write(struct apr_file_t *thefile, const void *buf, unsigned 
 
             __CPROVER_DUMP_L16:
               ;
-              signed long int return_value_write$8;
-              return_value_write$8=write(thefile->filedes, buf, *nbytes);
-              rv = (unsigned long int)return_value_write$8;
+              signed long int return_value_write_8;
+              return_value_write_8=write(thefile->filedes, buf, *nbytes);
+              rv = (unsigned long int)return_value_write_8;
               if(rv == 18446744073709551615ul)
               {
-                return_value___errno_location$6=__errno_location();
-                tmp_if_expr$7 = *return_value___errno_location$6 == 4 ? (_Bool)1 : (_Bool)0;
+                return_value___errno_location_6=__errno_location();
+                tmp_if_expr_7 = *return_value___errno_location_6 == 4 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$7 = (_Bool)0;
-              if(tmp_if_expr$7)
+                tmp_if_expr_7 = (_Bool)0;
+              if(tmp_if_expr_7)
                 goto __CPROVER_DUMP_L16;
 
               if(rv == 18446744073709551615ul)
               {
-                return_value___errno_location$9=__errno_location();
-                if(*return_value___errno_location$9 == 11)
-                  tmp_if_expr$11 = (_Bool)1;
+                return_value___errno_location_9=__errno_location();
+                if(*return_value___errno_location_9 == 11)
+                  tmp_if_expr_11 = (_Bool)1;
 
                 else
                 {
-                  return_value___errno_location$10=__errno_location();
-                  tmp_if_expr$11 = *return_value___errno_location$10 == 11 ? (_Bool)1 : (_Bool)0;
+                  return_value___errno_location_10=__errno_location();
+                  tmp_if_expr_11 = *return_value___errno_location_10 == 11 ? (_Bool)1 : (_Bool)0;
                 }
-                tmp_if_expr$12 = tmp_if_expr$11 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_12 = tmp_if_expr_11 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$12 = (_Bool)0;
-              if(tmp_if_expr$12)
+                tmp_if_expr_12 = (_Bool)0;
+              if(tmp_if_expr_12)
                 *nbytes = *nbytes / (unsigned long int)2;
 
               else
@@ -10254,9 +10254,9 @@ signed int apr_file_write(struct apr_file_t *thefile, const void *buf, unsigned 
     if(rv == 18446744073709551615ul)
     {
       *nbytes = (unsigned long int)0;
-      signed int *return_value___errno_location$16;
-      return_value___errno_location$16=__errno_location();
-      return *return_value___errno_location$16;
+      signed int *return_value___errno_location_16;
+      return_value___errno_location_16=__errno_location();
+      return *return_value___errno_location_16;
     }
 
     *nbytes = rv;
@@ -10330,9 +10330,9 @@ signed int apr_file_writev(struct apr_file_t *thefile, struct iovec *vec, unsign
   if(!(bytes >= 0l))
   {
     *nbytes = (unsigned long int)0;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    rv = *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    rv = *return_value___errno_location_1;
   }
 
   else
@@ -10395,20 +10395,20 @@ signed int apr_filepath_encoding(signed int *style, struct apr_pool_t *p)
 signed int apr_filepath_get(char **defpath, signed int flags, struct apr_pool_t *p)
 {
   char path[4096l];
-  char *return_value_getcwd$3;
-  return_value_getcwd$3=getcwd(path, sizeof(char [4096l]) /*4096ul*/ );
-  signed int *return_value___errno_location$1;
-  if(return_value_getcwd$3 == ((char *)NULL))
+  char *return_value_getcwd_3;
+  return_value_getcwd_3=getcwd(path, sizeof(char [4096l]) /*4096ul*/ );
+  signed int *return_value___errno_location_1;
+  if(return_value_getcwd_3 == ((char *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(*return_value___errno_location$2 == 34)
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(*return_value___errno_location_2 == 34)
       return 36;
 
     else
     {
-      return_value___errno_location$1=__errno_location();
-      return *return_value___errno_location$1;
+      return_value___errno_location_1=__errno_location();
+      return *return_value___errno_location_1;
     }
   }
 
@@ -10420,9 +10420,9 @@ signed int apr_filepath_get(char **defpath, signed int flags, struct apr_pool_t 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/filepath.c line 299
 signed int apr_filepath_list_merge(char **liststr, struct apr_array_header_t *pathelts, struct apr_pool_t *p)
 {
-  signed int return_value_apr_filepath_list_merge_impl$1;
-  return_value_apr_filepath_list_merge_impl$1=apr_filepath_list_merge_impl(liststr, pathelts, (char)58, p);
-  return return_value_apr_filepath_list_merge_impl$1;
+  signed int return_value_apr_filepath_list_merge_impl_1;
+  return_value_apr_filepath_list_merge_impl_1=apr_filepath_list_merge_impl(liststr, pathelts, (char)58, p);
+  return return_value_apr_filepath_list_merge_impl_1;
 }
 
 // apr_filepath_list_merge_impl
@@ -10432,8 +10432,8 @@ signed int apr_filepath_list_merge_impl(char **liststr, struct apr_array_header_
   unsigned long int path_size = (unsigned long int)0;
   char *path;
   signed int i;
-  unsigned long int return_value_strlen$1;
-  char *tmp_post$3;
+  unsigned long int return_value_strlen_1;
+  char *tmp_post_3;
   if(!((unsigned long int)pathelts->elt_size == sizeof(char *) /*8ul*/ ))
     return 22;
 
@@ -10442,8 +10442,8 @@ signed int apr_filepath_list_merge_impl(char **liststr, struct apr_array_header_
     i = 0;
     for( ; !(i >= pathelts->nelts); i = i + 1)
     {
-      return_value_strlen$1=strlen(((char **)pathelts->elts)[(signed long int)i]);
-      path_size = path_size + return_value_strlen$1;
+      return_value_strlen_1=strlen(((char **)pathelts->elts)[(signed long int)i]);
+      path_size = path_size + return_value_strlen_1;
     }
     if(path_size == 0ul)
     {
@@ -10456,9 +10456,9 @@ signed int apr_filepath_list_merge_impl(char **liststr, struct apr_array_header_
       if(i >= 1)
         path_size = path_size + (unsigned long int)(i - 1);
 
-      void *return_value_apr_palloc$2;
-      return_value_apr_palloc$2=apr_palloc(p, path_size + (unsigned long int)1);
-      *liststr = (char *)return_value_apr_palloc$2;
+      void *return_value_apr_palloc_2;
+      return_value_apr_palloc_2=apr_palloc(p, path_size + (unsigned long int)1);
+      *liststr = (char *)return_value_apr_palloc_2;
       path = *liststr;
       i = 0;
       for( ; !(i >= pathelts->nelts); i = i + 1)
@@ -10470,9 +10470,9 @@ signed int apr_filepath_list_merge_impl(char **liststr, struct apr_array_header_
         {
           if(i >= 1)
           {
-            tmp_post$3 = path;
+            tmp_post_3 = path;
             path = path + 1l;
-            *tmp_post$3 = separator;
+            *tmp_post_3 = separator;
           }
 
           memcpy((void *)path, (const void *)part, part_size);
@@ -10490,9 +10490,9 @@ signed int apr_filepath_list_merge_impl(char **liststr, struct apr_array_header_
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/filepath.c line 292
 signed int apr_filepath_list_split(struct apr_array_header_t **pathelts, const char *liststr, struct apr_pool_t *p)
 {
-  signed int return_value_apr_filepath_list_split_impl$1;
-  return_value_apr_filepath_list_split_impl$1=apr_filepath_list_split_impl(pathelts, liststr, (char)58, p);
-  return return_value_apr_filepath_list_split_impl$1;
+  signed int return_value_apr_filepath_list_split_impl_1;
+  return_value_apr_filepath_list_split_impl_1=apr_filepath_list_split_impl(pathelts, liststr, (char)58, p);
+  return return_value_apr_filepath_list_split_impl_1;
 }
 
 // apr_filepath_list_split_impl
@@ -10525,9 +10525,9 @@ signed int apr_filepath_list_split_impl(struct apr_array_header_t **pathelts, co
 
     if(!((signed int)*part == 0))
     {
-      void *return_value_apr_array_push$1;
-      return_value_apr_array_push$1=apr_array_push(elts);
-      *((char **)return_value_apr_array_push$1) = part;
+      void *return_value_apr_array_push_1;
+      return_value_apr_array_push_1=apr_array_push(elts);
+      *((char **)return_value_apr_array_push_1) = part;
       path = (char *)(void *)0;
     }
 
@@ -10576,7 +10576,7 @@ signed int apr_filepath_merge(char **newpath, const char *rootpath, const char *
 
     }
 
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(rootpath == ((const char *)NULL))
   {
     char *getpath;
@@ -10584,37 +10584,37 @@ signed int apr_filepath_merge(char **newpath, const char *rootpath, const char *
     rootpath = getpath;
     if(!(rv == 0))
     {
-      return_value___errno_location$1=__errno_location();
-      return *return_value___errno_location$1;
+      return_value___errno_location_1=__errno_location();
+      return *return_value___errno_location_1;
     }
 
   }
 
   rootlen=strlen(rootpath);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(addpath);
-  maxlen = rootlen + return_value_strlen$2 + (unsigned long int)4;
-  unsigned long int tmp_post$4;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  signed int return_value_memcmp$6;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$10;
-  signed int return_value_memcmp$9;
-  _Bool tmp_if_expr$5;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(addpath);
+  maxlen = rootlen + return_value_strlen_2 + (unsigned long int)4;
+  unsigned long int tmp_post_4;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  signed int return_value_memcmp_6;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_10;
+  signed int return_value_memcmp_9;
+  _Bool tmp_if_expr_5;
   if(maxlen >= 4097ul)
     return 36;
 
   else
   {
-    void *return_value_apr_palloc$3;
-    return_value_apr_palloc$3=apr_palloc(p, maxlen);
-    path = (char *)return_value_apr_palloc$3;
+    void *return_value_apr_palloc_3;
+    return_value_apr_palloc_3=apr_palloc(p, maxlen);
+    path = (char *)return_value_apr_palloc_3;
     if((signed int)*addpath == 47)
     {
       keptlen = (unsigned long int)0;
@@ -10639,9 +10639,9 @@ signed int apr_filepath_merge(char **newpath, const char *rootpath, const char *
       {
         if(!((signed int)path[-1l + (signed long int)keptlen] == 47))
         {
-          tmp_post$4 = keptlen;
+          tmp_post_4 = keptlen;
           keptlen = keptlen + 1ul;
-          path[(signed long int)tmp_post$4] = (char)47;
+          path[(signed long int)tmp_post_4] = (char)47;
         }
 
       }
@@ -10657,37 +10657,37 @@ signed int apr_filepath_merge(char **newpath, const char *rootpath, const char *
 
       seglen = (unsigned long int)(next - addpath);
       if(seglen == 0ul)
-        tmp_if_expr$16 = (_Bool)1;
+        tmp_if_expr_16 = (_Bool)1;
 
       else
       {
         if(seglen == 1ul)
-          tmp_if_expr$15 = (signed int)addpath[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_15 = (signed int)addpath[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$15 = (_Bool)0;
-        tmp_if_expr$16 = tmp_if_expr$15 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_15 = (_Bool)0;
+        tmp_if_expr_16 = tmp_if_expr_15 ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$16)
+      if(!tmp_if_expr_16)
       {
         if(seglen == 2ul)
-          tmp_if_expr$13 = (signed int)addpath[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_13 = (signed int)addpath[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$13 = (_Bool)0;
-        if(tmp_if_expr$13)
-          tmp_if_expr$14 = (signed int)addpath[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_13 = (_Bool)0;
+        if(tmp_if_expr_13)
+          tmp_if_expr_14 = (signed int)addpath[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$14 = (_Bool)0;
-        if(tmp_if_expr$14)
+          tmp_if_expr_14 = (_Bool)0;
+        if(tmp_if_expr_14)
         {
           if(pathlen == 1ul)
-            tmp_if_expr$12 = (signed int)path[(signed long int)0] == 47 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_12 = (signed int)path[(signed long int)0] == 47 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$12 = (_Bool)0;
-          if(tmp_if_expr$12)
+            tmp_if_expr_12 = (_Bool)0;
+          if(tmp_if_expr_12)
           {
             if(!((0x02 & flags) == 0))
               return 20000 + 23;
@@ -10698,36 +10698,36 @@ signed int apr_filepath_merge(char **newpath, const char *rootpath, const char *
           else
           {
             if(pathlen == 0ul)
-              tmp_if_expr$8 = (_Bool)1;
+              tmp_if_expr_8 = (_Bool)1;
 
             else
             {
               if(pathlen == 3ul)
               {
-                return_value_memcmp$6=memcmp((const void *)((path + (signed long int)pathlen) - (signed long int)3), (const void *)"../", (unsigned long int)3);
-                tmp_if_expr$7 = !(return_value_memcmp$6 != 0) ? (_Bool)1 : (_Bool)0;
+                return_value_memcmp_6=memcmp((const void *)((path + (signed long int)pathlen) - (signed long int)3), (const void *)"../", (unsigned long int)3);
+                tmp_if_expr_7 = !(return_value_memcmp_6 != 0) ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$7 = (_Bool)0;
-              tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_7 = (_Bool)0;
+              tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$8)
-              tmp_if_expr$11 = (_Bool)1;
+            if(tmp_if_expr_8)
+              tmp_if_expr_11 = (_Bool)1;
 
             else
             {
               if(pathlen >= 4ul)
               {
-                return_value_memcmp$9=memcmp((const void *)((path + (signed long int)pathlen) - (signed long int)4), (const void *)"/../", (unsigned long int)4);
-                tmp_if_expr$10 = !(return_value_memcmp$9 != 0) ? (_Bool)1 : (_Bool)0;
+                return_value_memcmp_9=memcmp((const void *)((path + (signed long int)pathlen) - (signed long int)4), (const void *)"/../", (unsigned long int)4);
+                tmp_if_expr_10 = !(return_value_memcmp_9 != 0) ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$10 = (_Bool)0;
-              tmp_if_expr$11 = tmp_if_expr$10 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_10 = (_Bool)0;
+              tmp_if_expr_11 = tmp_if_expr_10 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$11)
+            if(tmp_if_expr_11)
             {
               if(!((0x02 & flags) == 0))
                 return 20000 + 23;
@@ -10741,12 +10741,12 @@ signed int apr_filepath_merge(char **newpath, const char *rootpath, const char *
               {
                 pathlen = pathlen - 1ul;
                 if(!(pathlen == 0ul))
-                  tmp_if_expr$5 = (signed int)path[(signed long int)(pathlen - (unsigned long int)1)] != 47 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_5 = (signed int)path[(signed long int)(pathlen - (unsigned long int)1)] != 47 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$5 = (_Bool)0;
+                  tmp_if_expr_5 = (_Bool)0;
               }
-              while(tmp_if_expr$5);
+              while(tmp_if_expr_5);
           }
           if(!(pathlen >= keptlen))
           {
@@ -10776,9 +10776,9 @@ signed int apr_filepath_merge(char **newpath, const char *rootpath, const char *
     path[(signed long int)pathlen] = (char)0;
     if(!((0x01 & flags) == 0) && !(keptlen >= rootlen))
     {
-      signed int return_value_strncmp$17;
-      return_value_strncmp$17=strncmp(rootpath, path, rootlen);
-      if(!(return_value_strncmp$17 == 0))
+      signed int return_value_strncmp_17;
+      return_value_strncmp_17=strncmp(rootpath, path, rootlen);
+      if(!(return_value_strncmp_17 == 0))
         return 20000 + 23;
 
       if(!((signed int)rootpath[-1l + (signed long int)rootlen] == 47))
@@ -10806,16 +10806,16 @@ const char * apr_filepath_name_get(const char *pathname)
   const char path_separator = (const char)47;
   const char *s;
   s=strrchr(pathname, (signed int)path_separator);
-  const char *tmp_if_expr$1;
+  const char *tmp_if_expr_1;
   if(!(s == ((const char *)NULL)))
   {
     s = s + 1l;
-    tmp_if_expr$1 = s;
+    tmp_if_expr_1 = s;
   }
 
   else
-    tmp_if_expr$1 = pathname;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = pathname;
+  return tmp_if_expr_1;
 }
 
 // apr_filepath_root
@@ -10839,13 +10839,13 @@ signed int apr_filepath_root(const char **rootpath, const char **inpath, signed 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/filepath.c line 56
 signed int apr_filepath_set(const char *path, struct apr_pool_t *p)
 {
-  signed int return_value_chdir$2;
-  return_value_chdir$2=chdir(path);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_chdir$2 == 0))
+  signed int return_value_chdir_2;
+  return_value_chdir_2=chdir(path);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_chdir_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   else
@@ -10906,8 +10906,8 @@ signed int apr_fnmatch(const char *pattern, const char *string, signed int flags
 
 firstsegment:
   ;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!((0x04 & flags) == 0))
   {
     if((signed int)*string == 46)
@@ -10918,16 +10918,16 @@ firstsegment:
       else
       {
         if(!(escape == 0))
-          tmp_if_expr$1 = (signed int)*pattern == 92 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (signed int)*pattern == 92 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
-          tmp_if_expr$2 = (signed int)pattern[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
+          tmp_if_expr_2 = (signed int)pattern[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
           pattern = pattern + (signed long int)2;
 
         else
@@ -10948,60 +10948,60 @@ firstsegment:
 
   else
     strendseg=strchr(string, 0);
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$18;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_18;
   while(!(*pattern == 0))
   {
     if(!(strendseg >= string))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
       if(string == strendseg)
-        tmp_if_expr$3 = (signed int)*pattern != 42 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)*pattern != 42 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
       break;
 
     if(!(slash == 0))
     {
       if((signed int)*pattern == 47)
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
         if(!(escape == 0))
-          tmp_if_expr$5 = (signed int)*pattern == 92 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = (signed int)*pattern == 92 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
-          tmp_if_expr$6 = (signed int)pattern[(signed long int)1] == 47 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
+          tmp_if_expr_6 = (signed int)pattern[(signed long int)1] == 47 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = (_Bool)0;
+        tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$7)
+      if(tmp_if_expr_7)
         break;
 
     }
@@ -11010,11 +11010,11 @@ firstsegment:
     do
     {
       if((signed int)*pattern == 42)
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_8 = (_Bool)1;
 
       else
-        tmp_if_expr$8 = (signed int)*pattern == 63 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$8)
+        tmp_if_expr_8 = (signed int)*pattern == 63 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_8)
         break;
 
       if((signed int)*pattern == 42)
@@ -11038,37 +11038,37 @@ firstsegment:
       for( ; (_Bool)1; matchlen = matchlen + 1)
       {
         if((signed int)*matchptr == 0)
-          tmp_if_expr$13 = (_Bool)1;
+          tmp_if_expr_13 = (_Bool)1;
 
         else
         {
           if(!(slash == 0))
           {
             if((signed int)*matchptr == 47)
-              tmp_if_expr$11 = (_Bool)1;
+              tmp_if_expr_11 = (_Bool)1;
 
             else
             {
               if(!(escape == 0))
-                tmp_if_expr$9 = (signed int)*matchptr == 92 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_9 = (signed int)*matchptr == 92 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$9 = (_Bool)0;
-              if(tmp_if_expr$9)
-                tmp_if_expr$10 = (signed int)matchptr[(signed long int)1] == 47 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_9 = (_Bool)0;
+              if(tmp_if_expr_9)
+                tmp_if_expr_10 = (signed int)matchptr[(signed long int)1] == 47 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$10 = (_Bool)0;
-              tmp_if_expr$11 = tmp_if_expr$10 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_10 = (_Bool)0;
+              tmp_if_expr_11 = tmp_if_expr_10 ? (_Bool)1 : (_Bool)0;
             }
-            tmp_if_expr$12 = tmp_if_expr$11 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_12 = tmp_if_expr_11 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$12 = (_Bool)0;
-          tmp_if_expr$13 = tmp_if_expr$12 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_12 = (_Bool)0;
+          tmp_if_expr_13 = tmp_if_expr_12 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$13)
+        if(tmp_if_expr_13)
         {
           if(!(strendseg >= string + (signed long int)matchlen))
             return 1;
@@ -11087,16 +11087,16 @@ firstsegment:
         }
 
         if(!(escape == 0))
-          tmp_if_expr$14 = (signed int)*matchptr == 92 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_14 = (signed int)*matchptr == 92 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$14 = (_Bool)0;
-        if(tmp_if_expr$14)
-          tmp_if_expr$15 = matchptr[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_14 = (_Bool)0;
+        if(tmp_if_expr_14)
+          tmp_if_expr_15 = matchptr[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$15 = (_Bool)0;
-        if(tmp_if_expr$15)
+          tmp_if_expr_15 = (_Bool)0;
+        if(tmp_if_expr_15)
           matchptr = matchptr + (signed long int)2;
 
         else
@@ -11123,35 +11123,35 @@ firstsegment:
       if(!(slash == 0))
       {
         if((signed int)*string == 47)
-          tmp_if_expr$16 = (_Bool)1;
+          tmp_if_expr_16 = (_Bool)1;
 
         else
-          tmp_if_expr$16 = (signed int)*pattern == 47 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$16)
-          tmp_if_expr$19 = (_Bool)1;
+          tmp_if_expr_16 = (signed int)*pattern == 47 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_16)
+          tmp_if_expr_19 = (_Bool)1;
 
         else
         {
           if(!(escape == 0))
-            tmp_if_expr$17 = (signed int)*pattern == 92 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_17 = (signed int)*pattern == 92 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$17 = (_Bool)0;
-          if(tmp_if_expr$17)
-            tmp_if_expr$18 = (signed int)pattern[(signed long int)1] == 47 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_17 = (_Bool)0;
+          if(tmp_if_expr_17)
+            tmp_if_expr_18 = (signed int)pattern[(signed long int)1] == 47 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$18 = (_Bool)0;
-          tmp_if_expr$19 = tmp_if_expr$18 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_18 = (_Bool)0;
+          tmp_if_expr_19 = tmp_if_expr_18 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$19)
+        if(tmp_if_expr_19)
           break;
 
       }
 
-      signed int return_value_fnmatch_ch$20;
-      return_value_fnmatch_ch$20=fnmatch_ch(&pattern, &string, flags);
-      if(!(return_value_fnmatch_ch$20 == 0))
+      signed int return_value_fnmatch_ch_20;
+      return_value_fnmatch_ch_20=fnmatch_ch(&pattern, &string, flags);
+      if(!(return_value_fnmatch_ch_20 == 0))
       {
         if(!(wild == 0))
         {
@@ -11170,19 +11170,19 @@ firstsegment:
 
     }
   }
-  _Bool tmp_if_expr$21;
-  _Bool tmp_if_expr$25;
-  _Bool tmp_if_expr$24;
-  _Bool tmp_if_expr$22;
-  _Bool tmp_if_expr$23;
+  _Bool tmp_if_expr_21;
+  _Bool tmp_if_expr_25;
+  _Bool tmp_if_expr_24;
+  _Bool tmp_if_expr_22;
+  _Bool tmp_if_expr_23;
   if(!(*string == 0))
   {
     if(!(slash == 0))
-      tmp_if_expr$21 = (signed int)*string == 47 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_21 = (signed int)*string == 47 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$21 = (_Bool)0;
-    if(tmp_if_expr$21)
+      tmp_if_expr_21 = (_Bool)0;
+    if(tmp_if_expr_21)
       goto __CPROVER_DUMP_L73;
 
     return 1;
@@ -11198,28 +11198,28 @@ firstsegment:
       if(!(slash == 0))
       {
         if((signed int)*pattern == 47)
-          tmp_if_expr$24 = (_Bool)1;
+          tmp_if_expr_24 = (_Bool)1;
 
         else
         {
           if(!(escape == 0))
-            tmp_if_expr$22 = (signed int)*pattern == 92 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_22 = (signed int)*pattern == 92 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$22 = (_Bool)0;
-          if(tmp_if_expr$22)
-            tmp_if_expr$23 = (signed int)pattern[(signed long int)1] == 47 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_22 = (_Bool)0;
+          if(tmp_if_expr_22)
+            tmp_if_expr_23 = (signed int)pattern[(signed long int)1] == 47 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$23 = (_Bool)0;
-          tmp_if_expr$24 = tmp_if_expr$23 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_23 = (_Bool)0;
+          tmp_if_expr_24 = tmp_if_expr_23 ? (_Bool)1 : (_Bool)0;
         }
-        tmp_if_expr$25 = tmp_if_expr$24 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_25 = tmp_if_expr_24 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$25 = (_Bool)0;
-      if(tmp_if_expr$25)
+        tmp_if_expr_25 = (_Bool)0;
+      if(tmp_if_expr_25)
         goto __CPROVER_DUMP_L82;
 
       return 1;
@@ -11295,7 +11295,7 @@ signed int apr_fnmatch_test(const char *pattern)
 
 // apr_gcvt
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_snprintf.c line 176
-static char * apr_gcvt(double number, signed int ndigit, char *buf, enum anonymous$30 altform)
+static char * apr_gcvt(double number, signed int ndigit, char *buf, enum anonymous_30 altform)
 {
   signed int sign;
   signed int decpt;
@@ -11305,103 +11305,103 @@ static char * apr_gcvt(double number, signed int ndigit, char *buf, enum anonymo
   char buf1[80l];
   p1=apr_ecvt(number, ndigit, &decpt, &sign, buf1);
   p2 = buf;
-  char *tmp_post$1;
+  char *tmp_post_1;
   if(!(sign == 0))
   {
-    tmp_post$1 = p2;
+    tmp_post_1 = p2;
     p2 = p2 + 1l;
-    *tmp_post$1 = (char)45;
+    *tmp_post_1 = (char)45;
   }
 
   i = ndigit - 1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   do
   {
     if(i >= 1)
-      tmp_if_expr$2 = (signed int)p1[(signed long int)i] == 48 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)p1[(signed long int)i] == 48 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     ndigit = ndigit - 1;
     i = i - 1;
   }
   while((_Bool)1);
-  char *tmp_post$3;
-  char *tmp_post$4;
-  char *tmp_post$5;
-  char *tmp_post$6;
-  char *tmp_post$7;
-  char *tmp_post$8;
-  char *tmp_post$9;
-  char *tmp_post$10;
-  char *tmp_post$11;
-  char *tmp_post$12;
-  char *tmp_post$13;
-  char *tmp_post$14;
-  char *tmp_post$15;
-  char *tmp_post$16;
-  char *tmp_post$17;
-  char *tmp_post$18;
-  signed int tmp_post$19;
-  char *tmp_post$20;
-  char *tmp_post$21;
+  char *tmp_post_3;
+  char *tmp_post_4;
+  char *tmp_post_5;
+  char *tmp_post_6;
+  char *tmp_post_7;
+  char *tmp_post_8;
+  char *tmp_post_9;
+  char *tmp_post_10;
+  char *tmp_post_11;
+  char *tmp_post_12;
+  char *tmp_post_13;
+  char *tmp_post_14;
+  char *tmp_post_15;
+  char *tmp_post_16;
+  char *tmp_post_17;
+  char *tmp_post_18;
+  signed int tmp_post_19;
+  char *tmp_post_20;
+  char *tmp_post_21;
   if(decpt + -ndigit >= 5 && decpt >= 0 || !(decpt >= 0) && !(decpt >= -3))
   {
     decpt = decpt - 1;
-    tmp_post$3 = p2;
+    tmp_post_3 = p2;
     p2 = p2 + 1l;
-    tmp_post$4 = p1;
+    tmp_post_4 = p1;
     p1 = p1 + 1l;
-    *tmp_post$3 = *tmp_post$4;
-    tmp_post$5 = p2;
+    *tmp_post_3 = *tmp_post_4;
+    tmp_post_5 = p2;
     p2 = p2 + 1l;
-    *tmp_post$5 = (char)46;
+    *tmp_post_5 = (char)46;
     i = 1;
     for( ; !(i >= ndigit); i = i + 1)
     {
-      tmp_post$6 = p2;
+      tmp_post_6 = p2;
       p2 = p2 + 1l;
-      tmp_post$7 = p1;
+      tmp_post_7 = p1;
       p1 = p1 + 1l;
-      *tmp_post$6 = *tmp_post$7;
+      *tmp_post_6 = *tmp_post_7;
     }
-    tmp_post$8 = p2;
+    tmp_post_8 = p2;
     p2 = p2 + 1l;
-    *tmp_post$8 = (char)101;
+    *tmp_post_8 = (char)101;
     if(!(decpt >= 0))
     {
       decpt = -decpt;
-      tmp_post$9 = p2;
+      tmp_post_9 = p2;
       p2 = p2 + 1l;
-      *tmp_post$9 = (char)45;
+      *tmp_post_9 = (char)45;
     }
 
     else
     {
-      tmp_post$10 = p2;
+      tmp_post_10 = p2;
       p2 = p2 + 1l;
-      *tmp_post$10 = (char)43;
+      *tmp_post_10 = (char)43;
     }
     if(decpt / 100 >= 1)
     {
-      tmp_post$11 = p2;
+      tmp_post_11 = p2;
       p2 = p2 + 1l;
-      *tmp_post$11 = (char)(decpt / 100 + 48);
+      *tmp_post_11 = (char)(decpt / 100 + 48);
     }
 
     if(decpt / 10 >= 1)
     {
-      tmp_post$12 = p2;
+      tmp_post_12 = p2;
       p2 = p2 + 1l;
-      *tmp_post$12 = (char)((decpt % 100) / 10 + 48);
+      *tmp_post_12 = (char)((decpt % 100) / 10 + 48);
     }
 
-    tmp_post$13 = p2;
+    tmp_post_13 = p2;
     p2 = p2 + 1l;
-    *tmp_post$13 = (char)(decpt % 10 + 48);
+    *tmp_post_13 = (char)(decpt % 10 + 48);
   }
 
   else
@@ -11410,15 +11410,15 @@ static char * apr_gcvt(double number, signed int ndigit, char *buf, enum anonymo
     {
       if(!((signed int)*p1 == 48))
       {
-        tmp_post$14 = p2;
+        tmp_post_14 = p2;
         p2 = p2 + 1l;
-        *tmp_post$14 = (char)46;
+        *tmp_post_14 = (char)46;
       }
 
-      for( ; !(decpt >= 0); *tmp_post$15 = (char)48)
+      for( ; !(decpt >= 0); *tmp_post_15 = (char)48)
       {
         decpt = decpt + 1;
-        tmp_post$15 = p2;
+        tmp_post_15 = p2;
         p2 = p2 + 1l;
       }
     }
@@ -11426,16 +11426,16 @@ static char * apr_gcvt(double number, signed int ndigit, char *buf, enum anonymo
     i = 1;
     for( ; ndigit >= i; i = i + 1)
     {
-      tmp_post$16 = p2;
+      tmp_post_16 = p2;
       p2 = p2 + 1l;
-      tmp_post$17 = p1;
+      tmp_post_17 = p1;
       p1 = p1 + 1l;
-      *tmp_post$16 = *tmp_post$17;
+      *tmp_post_16 = *tmp_post_17;
       if(i == decpt)
       {
-        tmp_post$18 = p2;
+        tmp_post_18 = p2;
         p2 = p2 + 1l;
-        *tmp_post$18 = (char)46;
+        *tmp_post_18 = (char)46;
       }
 
     }
@@ -11443,19 +11443,19 @@ static char * apr_gcvt(double number, signed int ndigit, char *buf, enum anonymo
     {
       do
       {
-        tmp_post$19 = ndigit;
+        tmp_post_19 = ndigit;
         ndigit = ndigit + 1;
-        if(tmp_post$19 >= decpt)
+        if(tmp_post_19 >= decpt)
           break;
 
-        tmp_post$20 = p2;
+        tmp_post_20 = p2;
         p2 = p2 + 1l;
-        *tmp_post$20 = (char)48;
+        *tmp_post_20 = (char)48;
       }
       while((_Bool)1);
-      tmp_post$21 = p2;
+      tmp_post_21 = p2;
       p2 = p2 + 1l;
-      *tmp_post$21 = (char)46;
+      *tmp_post_21 = (char)46;
     }
 
   }
@@ -11475,9 +11475,9 @@ static char * apr_gcvt(double number, signed int ndigit, char *buf, enum anonymo
 signed int apr_generate_random_bytes(unsigned char *buf, unsigned long int length)
 {
   signed int fd = -1;
-  signed int *return_value___errno_location$1;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_1;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   do
   {
     signed long int rc;
@@ -11486,8 +11486,8 @@ signed int apr_generate_random_bytes(unsigned char *buf, unsigned long int lengt
       fd=open("/dev/urandom", 00);
       if(fd == -1)
       {
-        return_value___errno_location$1=__errno_location();
-        return *return_value___errno_location$1;
+        return_value___errno_location_1=__errno_location();
+        return *return_value___errno_location_1;
       }
 
     }
@@ -11497,20 +11497,20 @@ signed int apr_generate_random_bytes(unsigned char *buf, unsigned long int lengt
       rc=read(fd, (void *)buf, length);
       if(rc == -1l)
       {
-        return_value___errno_location$2=__errno_location();
-        tmp_if_expr$3 = *return_value___errno_location$2 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_2=__errno_location();
+        tmp_if_expr_3 = *return_value___errno_location_2 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
     }
-    while(tmp_if_expr$3);
+    while(tmp_if_expr_3);
     if(!(rc >= 0l))
     {
       signed int errnum;
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      errnum = *return_value___errno_location$4;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      errnum = *return_value___errno_location_4;
       close(fd);
       return errnum;
     }
@@ -11537,21 +11537,21 @@ signed int apr_generate_random_bytes(unsigned char *buf, unsigned long int lengt
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockopt.c line 375
 signed int apr_gethostname(char *buf, signed int len, struct apr_pool_t *cont)
 {
-  signed int return_value_gethostname$3;
-  return_value_gethostname$3=gethostname(buf, (unsigned long int)len);
-  void *return_value_memchr$2;
-  if(!(return_value_gethostname$3 == 0))
+  signed int return_value_gethostname_3;
+  return_value_gethostname_3=gethostname(buf, (unsigned long int)len);
+  void *return_value_memchr_2;
+  if(!(return_value_gethostname_3 == 0))
   {
     buf[(signed long int)0] = (char)0;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   else
   {
-    return_value_memchr$2=memchr((const void *)buf, 0, (unsigned long int)len);
-    if(return_value_memchr$2 == NULL)
+    return_value_memchr_2=memchr((const void *)buf, 0, (unsigned long int)len);
+    if(return_value_memchr_2 == NULL)
     {
       buf[(signed long int)0] = (char)0;
       return 36;
@@ -11567,37 +11567,37 @@ signed int apr_getnameinfo(char **hostname, struct apr_sockaddr_t *sockaddr, sig
 {
   signed int rc;
   char tmphostname[1025l];
-  signed int *return_value___h_errno_location$1;
-  return_value___h_errno_location$1=__h_errno_location();
-  *return_value___h_errno_location$1 = 0;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_statement_expression$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_htonl$4;
+  signed int *return_value___h_errno_location_1;
+  return_value___h_errno_location_1=__h_errno_location();
+  *return_value___h_errno_location_1 = 0;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_statement_expression_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_htonl_4;
   if(sockaddr->family == 10)
   {
     struct in6_addr *__a = (struct in6_addr *)&sockaddr->sa.sin6.sin6_addr;
     if(__a->__in6_u.__u6_addr32[0l] == 0u)
-      tmp_if_expr$3 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
     {
-      return_value_htonl$4=htonl((unsigned int)0xffff);
-      tmp_if_expr$5 = __a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl$4 ? (_Bool)1 : (_Bool)0;
+      return_value_htonl_4=htonl((unsigned int)0xffff);
+      tmp_if_expr_5 = __a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl_4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    tmp_statement_expression$2 = tmp_if_expr$5;
-    tmp_if_expr$6 = tmp_statement_expression$2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (_Bool)0;
+    tmp_statement_expression_2 = tmp_if_expr_5;
+    tmp_if_expr_6 = tmp_statement_expression_2 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$6 = (_Bool)0;
-  if(tmp_if_expr$6)
+    tmp_if_expr_6 = (_Bool)0;
+  if(tmp_if_expr_6)
   {
     struct sockaddr_in tmpsa;
     tmpsa.sin_family = (unsigned short int)2;
@@ -11613,20 +11613,20 @@ signed int apr_getnameinfo(char **hostname, struct apr_sockaddr_t *sockaddr, sig
     *hostname = (char *)(void *)0;
     if(rc == -11)
     {
-      signed int *return_value___h_errno_location$9;
-      return_value___h_errno_location$9=__h_errno_location();
-      if(!(*return_value___h_errno_location$9 == 0))
+      signed int *return_value___h_errno_location_9;
+      return_value___h_errno_location_9=__h_errno_location();
+      if(!(*return_value___h_errno_location_9 == 0))
       {
-        signed int *return_value___h_errno_location$7;
-        return_value___h_errno_location$7=__h_errno_location();
-        return *return_value___h_errno_location$7 + 20000 + 50000 + 50000 + 50000 * 10 + 50000 + 50000;
+        signed int *return_value___h_errno_location_7;
+        return_value___h_errno_location_7=__h_errno_location();
+        return *return_value___h_errno_location_7 + 20000 + 50000 + 50000 + 50000 * 10 + 50000 + 50000;
       }
 
       else
       {
-        signed int *return_value___errno_location$8;
-        return_value___errno_location$8=__errno_location();
-        return *return_value___errno_location$8 + 20000 + 50000 + 50000 + 50000 * 10 + 50000 + 50000;
+        signed int *return_value___errno_location_8;
+        return_value___errno_location_8=__errno_location();
+        return *return_value___errno_location_8 + 20000 + 50000 + 50000 + 50000 * 10 + 50000 + 50000;
       }
     }
 
@@ -11649,27 +11649,27 @@ signed int apr_getnameinfo(char **hostname, struct apr_sockaddr_t *sockaddr, sig
 signed int apr_getopt(struct apr_getopt_t *os, const char *opts, char *optch, const char **optarg)
 {
   const char *oli;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(os->reset == 0))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(*os->place != 0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$1;
-  const char *tmp_post$4;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = !(*os->place != 0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  const char *tmp_post_4;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_2)
   {
     os->reset = 0;
     if(os->ind >= os->argc)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
     {
       os->place = os->argv[(signed long int)os->ind];
-      tmp_if_expr$1 = (signed int)*os->place != 45 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)*os->place != 45 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$1)
+    if(tmp_if_expr_1)
     {
       os->place = "";
       *optch = (char)os->opt;
@@ -11694,18 +11694,18 @@ signed int apr_getopt(struct apr_getopt_t *os, const char *opts, char *optch, co
 
   __CPROVER_DUMP_L6:
     ;
-    tmp_post$4 = os->place;
+    tmp_post_4 = os->place;
     os->place = os->place + 1l;
-    os->opt = (signed int)*tmp_post$4;
+    os->opt = (signed int)*tmp_post_4;
     if(os->opt == 58)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
       oli=strchr(opts, os->opt);
-      tmp_if_expr$5 = !(oli != ((const char *)NULL)) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = !(oli != ((const char *)NULL)) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
     {
       if(os->opt == 45)
       {
@@ -11720,9 +11720,9 @@ signed int apr_getopt(struct apr_getopt_t *os, const char *opts, char *optch, co
       {
         if(!((signed int)*opts == 58))
         {
-          const char *return_value_apr_filepath_name_get$3;
-          return_value_apr_filepath_name_get$3=apr_filepath_name_get(*os->argv);
-          os->errfn(os->errarg, "%s: illegal option -- %c\n", return_value_apr_filepath_name_get$3, os->opt);
+          const char *return_value_apr_filepath_name_get_3;
+          return_value_apr_filepath_name_get_3=apr_filepath_name_get(*os->argv);
+          os->errfn(os->errarg, "%s: illegal option -- %c\n", return_value_apr_filepath_name_get_3, os->opt);
         }
 
       }
@@ -11761,9 +11761,9 @@ signed int apr_getopt(struct apr_getopt_t *os, const char *opts, char *optch, co
 
             if(!(os->errfn == ((void (*)(void *, const char *, ...))NULL)))
             {
-              const char *return_value_apr_filepath_name_get$6;
-              return_value_apr_filepath_name_get$6=apr_filepath_name_get(*os->argv);
-              os->errfn(os->errarg, "%s: option requires an argument -- %c\n", return_value_apr_filepath_name_get$6, os->opt);
+              const char *return_value_apr_filepath_name_get_6;
+              return_value_apr_filepath_name_get_6=apr_filepath_name_get(*os->argv);
+              os->errfn(os->errarg, "%s: option requires an argument -- %c\n", return_value_apr_filepath_name_get_6, os->opt);
             }
 
             *optch = (char)os->opt;
@@ -11787,9 +11787,9 @@ signed int apr_getopt(struct apr_getopt_t *os, const char *opts, char *optch, co
 signed int apr_getopt_init(struct apr_getopt_t **os, struct apr_pool_t *cont, signed int argc, const char * const *argv)
 {
   void *argv_buff;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(cont, sizeof(struct apr_getopt_t) /*72ul*/ );
-  *os = (struct apr_getopt_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(cont, sizeof(struct apr_getopt_t) /*72ul*/ );
+  *os = (struct apr_getopt_t *)return_value_apr_palloc_1;
   (*os)->cont = cont;
   (*os)->reset = 0;
   (*os)->errfn = (void (*)(void *, const char *, ...))fprintf;
@@ -11821,15 +11821,15 @@ signed int apr_getopt_long(struct apr_getopt_t *os, const struct apr_getopt_opti
   }
 
   p = os->place;
-  _Bool tmp_if_expr$1;
-  signed int tmp_post$2;
-  _Bool tmp_if_expr$10;
-  signed int return_value_serr$3;
-  _Bool tmp_if_expr$4;
-  signed int return_value_serr$6;
-  signed int tmp_post$7;
-  signed int return_value_serr$8;
-  signed int return_value_serr$9;
+  _Bool tmp_if_expr_1;
+  signed int tmp_post_2;
+  _Bool tmp_if_expr_10;
+  signed int return_value_serr_3;
+  _Bool tmp_if_expr_4;
+  signed int return_value_serr_6;
+  signed int tmp_post_7;
+  signed int return_value_serr_8;
+  signed int return_value_serr_9;
   if((signed int)*p == 0)
   {
     if(!(os->interleave == 0))
@@ -11842,25 +11842,25 @@ signed int apr_getopt_long(struct apr_getopt_t *os, const struct apr_getopt_opti
     }
 
     if(os->ind >= os->argc)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)*os->argv[(signed long int)os->ind] != 45 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)*os->argv[(signed long int)os->ind] != 45 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       os->ind = os->skip_start;
       return 20000 + 50000 + 14;
     }
 
-    tmp_post$2 = os->ind;
+    tmp_post_2 = os->ind;
     os->ind = os->ind + 1;
-    p = os->argv[(signed long int)tmp_post$2] + (signed long int)1;
+    p = os->argv[(signed long int)tmp_post_2] + (signed long int)1;
     if((signed int)*p == 45)
-      tmp_if_expr$10 = (signed int)p[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_10 = (signed int)p[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$10 = (_Bool)0;
-    if(tmp_if_expr$10)
+      tmp_if_expr_10 = (_Bool)0;
+    if(tmp_if_expr_10)
     {
       unsigned long int len = (unsigned long int)0;
       p = p + 1l;
@@ -11869,23 +11869,23 @@ signed int apr_getopt_long(struct apr_getopt_t *os, const struct apr_getopt_opti
       {
         if((opts + (signed long int)i)->optch == 0)
         {
-          return_value_serr$3=serr(os, "invalid option", p - (signed long int)2, 20000 + 50000 + 12);
-          return return_value_serr$3;
+          return_value_serr_3=serr(os, "invalid option", p - (signed long int)2, 20000 + 50000 + 12);
+          return return_value_serr_3;
         }
 
         if(!((opts + (signed long int)i)->name == ((const char *)NULL)))
         {
           len=strlen((opts + (signed long int)i)->name);
-          signed int return_value_strncmp$5;
-          return_value_strncmp$5=strncmp(p, (opts + (signed long int)i)->name, len);
-          if(return_value_strncmp$5 == 0)
+          signed int return_value_strncmp_5;
+          return_value_strncmp_5=strncmp(p, (opts + (signed long int)i)->name, len);
+          if(return_value_strncmp_5 == 0)
           {
             if((signed int)p[(signed long int)len] == 0)
-              tmp_if_expr$4 = (_Bool)1;
+              tmp_if_expr_4 = (_Bool)1;
 
             else
-              tmp_if_expr$4 = (signed int)p[(signed long int)len] == 61 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$4)
+              tmp_if_expr_4 = (signed int)p[(signed long int)len] == 61 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_4)
               break;
 
           }
@@ -11902,15 +11902,15 @@ signed int apr_getopt_long(struct apr_getopt_t *os, const struct apr_getopt_opti
         else
           if(os->ind >= os->argc)
           {
-            return_value_serr$6=serr(os, "missing argument", p - (signed long int)2, 20000 + 50000 + 13);
-            return return_value_serr$6;
+            return_value_serr_6=serr(os, "missing argument", p - (signed long int)2, 20000 + 50000 + 13);
+            return return_value_serr_6;
           }
 
           else
           {
-            tmp_post$7 = os->ind;
+            tmp_post_7 = os->ind;
             os->ind = os->ind + 1;
-            *optarg = os->argv[(signed long int)tmp_post$7];
+            *optarg = os->argv[(signed long int)tmp_post_7];
           }
       }
 
@@ -11919,8 +11919,8 @@ signed int apr_getopt_long(struct apr_getopt_t *os, const struct apr_getopt_opti
         *optarg = (const char *)(void *)0;
         if((signed int)p[(signed long int)len] == 61)
         {
-          return_value_serr$8=serr(os, "erroneous argument", p - (signed long int)2, 20000 + 50000 + 13);
-          return return_value_serr$8;
+          return_value_serr_8=serr(os, "erroneous argument", p - (signed long int)2, 20000 + 50000 + 13);
+          return return_value_serr_8;
         }
 
       }
@@ -11939,31 +11939,31 @@ signed int apr_getopt_long(struct apr_getopt_t *os, const struct apr_getopt_opti
       else
         if((signed int)*p == 0)
         {
-          return_value_serr$9=serr(os, "invalid option", p, 20000 + 50000 + 12);
-          return return_value_serr$9;
+          return_value_serr_9=serr(os, "invalid option", p, 20000 + 50000 + 12);
+          return return_value_serr_9;
         }
 
   }
 
   i = 0;
-  signed int return_value_cerr$11;
+  signed int return_value_cerr_11;
   for( ; (_Bool)1; i = i + 1)
   {
     if((opts + (signed long int)i)->optch == 0)
     {
-      return_value_cerr$11=cerr(os, "invalid option character", (signed int)*p, 20000 + 50000 + 12);
-      return return_value_cerr$11;
+      return_value_cerr_11=cerr(os, "invalid option character", (signed int)*p, 20000 + 50000 + 12);
+      return return_value_cerr_11;
     }
 
     if((signed int)*p == (opts + (signed long int)i)->optch)
       break;
 
   }
-  const char *tmp_post$12 = p;
+  const char *tmp_post_12 = p;
   p = p + 1l;
-  *optch = (signed int)*tmp_post$12;
-  signed int return_value_cerr$13;
-  signed int tmp_post$14;
+  *optch = (signed int)*tmp_post_12;
+  signed int return_value_cerr_13;
+  signed int tmp_post_14;
   if(!((opts + (signed long int)i)->has_arg == 0))
   {
     if(!((signed int)*p == 0))
@@ -11972,15 +11972,15 @@ signed int apr_getopt_long(struct apr_getopt_t *os, const struct apr_getopt_opti
     else
       if(os->ind >= os->argc)
       {
-        return_value_cerr$13=cerr(os, "missing argument", *optch, 20000 + 50000 + 13);
-        return return_value_cerr$13;
+        return_value_cerr_13=cerr(os, "missing argument", *optch, 20000 + 50000 + 13);
+        return return_value_cerr_13;
       }
 
       else
       {
-        tmp_post$14 = os->ind;
+        tmp_post_14 = os->ind;
         os->ind = os->ind + 1;
-        *optarg = os->argv[(signed long int)tmp_post$14];
+        *optarg = os->argv[(signed long int)tmp_post_14];
       }
     os->place = "";
   }
@@ -12006,9 +12006,9 @@ signed int apr_getservbyname(struct apr_sockaddr_t *sockaddr, const char *servna
 
   else
   {
-    signed int return_value_getservbyname_r$1;
-    return_value_getservbyname_r$1=getservbyname_r(servname, (const char *)(void *)0, &se, buf, sizeof(char [1024l]) /*1024ul*/ , &res);
-    if(return_value_getservbyname_r$1 == 0)
+    signed int return_value_getservbyname_r_1;
+    return_value_getservbyname_r_1=getservbyname_r(servname, (const char *)(void *)0, &se, buf, sizeof(char [1024l]) /*1024ul*/ , &res);
+    if(return_value_getservbyname_r_1 == 0)
     {
       if(res == ((struct servent *)NULL))
         goto __CPROVER_DUMP_L2;
@@ -12086,13 +12086,13 @@ signed int apr_global_mutex_child_init(struct apr_global_mutex_t **mutex, const 
 
 // apr_global_mutex_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/locks/unix/global_mutex.c line 45
-signed int apr_global_mutex_create(struct apr_global_mutex_t **mutex, const char *fname, enum anonymous$5 mech, struct apr_pool_t *pool)
+signed int apr_global_mutex_create(struct apr_global_mutex_t **mutex, const char *fname, enum anonymous_5 mech, struct apr_pool_t *pool)
 {
   signed int rv;
   struct apr_global_mutex_t *m;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_global_mutex_t) /*24ul*/ );
-  m = (struct apr_global_mutex_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_global_mutex_t) /*24ul*/ );
+  m = (struct apr_global_mutex_t *)return_value_apr_palloc_1;
   m->pool = pool;
   rv=apr_proc_mutex_create(&m->proc_mutex, fname, mech, m->pool);
   if(!(rv == 0))
@@ -12123,9 +12123,9 @@ signed int apr_global_mutex_create(struct apr_global_mutex_t **mutex, const char
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/locks/unix/global_mutex.c line 173
 signed int apr_global_mutex_destroy(struct apr_global_mutex_t *mutex)
 {
-  signed int return_value_apr_pool_cleanup_run$1;
-  return_value_apr_pool_cleanup_run$1=apr_pool_cleanup_run(mutex->pool, (void *)mutex, global_mutex_cleanup);
-  return return_value_apr_pool_cleanup_run$1;
+  signed int return_value_apr_pool_cleanup_run_1;
+  return_value_apr_pool_cleanup_run_1=apr_pool_cleanup_run(mutex->pool, (void *)mutex, global_mutex_cleanup);
+  return return_value_apr_pool_cleanup_run_1;
 }
 
 // apr_global_mutex_lock
@@ -12163,18 +12163,18 @@ signed int apr_global_mutex_lock(struct apr_global_mutex_t *mutex)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/locks/unix/global_mutex.c line 178
 const char * apr_global_mutex_lockfile(struct apr_global_mutex_t *mutex)
 {
-  const char *return_value_apr_proc_mutex_lockfile$1;
-  return_value_apr_proc_mutex_lockfile$1=apr_proc_mutex_lockfile(mutex->proc_mutex);
-  return return_value_apr_proc_mutex_lockfile$1;
+  const char *return_value_apr_proc_mutex_lockfile_1;
+  return_value_apr_proc_mutex_lockfile_1=apr_proc_mutex_lockfile(mutex->proc_mutex);
+  return return_value_apr_proc_mutex_lockfile_1;
 }
 
 // apr_global_mutex_name
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/locks/unix/global_mutex.c line 183
 const char * apr_global_mutex_name(struct apr_global_mutex_t *mutex)
 {
-  const char *return_value_apr_proc_mutex_name$1;
-  return_value_apr_proc_mutex_name$1=apr_proc_mutex_name(mutex->proc_mutex);
-  return return_value_apr_proc_mutex_name$1;
+  const char *return_value_apr_proc_mutex_name_1;
+  return_value_apr_proc_mutex_name_1=apr_proc_mutex_name(mutex->proc_mutex);
+  return return_value_apr_proc_mutex_name_1;
 }
 
 // apr_global_mutex_pool_get
@@ -12254,9 +12254,9 @@ struct apr_hash_t * apr_hash_copy(struct apr_pool_t *pool, const struct apr_hash
   struct apr_hash_entry_t *new_vals;
   unsigned int i;
   unsigned int j;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_hash_t) /*80ul*/  + sizeof(struct apr_hash_entry_t *) /*8ul*/  * (unsigned long int)(orig->max + (unsigned int)1) + sizeof(struct apr_hash_entry_t) /*40ul*/  * (unsigned long int)orig->count);
-  ht = (struct apr_hash_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_hash_t) /*80ul*/  + sizeof(struct apr_hash_entry_t *) /*8ul*/  * (unsigned long int)(orig->max + (unsigned int)1) + sizeof(struct apr_hash_entry_t) /*40ul*/  * (unsigned long int)orig->count);
+  ht = (struct apr_hash_t *)return_value_apr_palloc_1;
   ht->pool = pool;
   ht->free = (struct apr_hash_entry_t *)(void *)0;
   ht->count = orig->count;
@@ -12267,16 +12267,16 @@ struct apr_hash_t * apr_hash_copy(struct apr_pool_t *pool, const struct apr_hash
   new_vals = (struct apr_hash_entry_t *)((char *)ht + (signed long int)sizeof(struct apr_hash_t) /*80ul*/  + (signed long int)(sizeof(struct apr_hash_entry_t *) /*8ul*/  * (unsigned long int)(orig->max + (unsigned int)1)));
   j = (unsigned int)0;
   i = (unsigned int)0;
-  unsigned int tmp_post$2;
+  unsigned int tmp_post_2;
   for( ; ht->max >= i; i = i + 1u)
   {
     struct apr_hash_entry_t **new_entry = &ht->array[(signed long int)i];
     struct apr_hash_entry_t *orig_entry = orig->array[(signed long int)i];
     for( ; !(orig_entry == ((struct apr_hash_entry_t *)NULL)); orig_entry = orig_entry->next)
     {
-      tmp_post$2 = j;
+      tmp_post_2 = j;
       j = j + 1u;
-      *new_entry = &new_vals[(signed long int)tmp_post$2];
+      *new_entry = &new_vals[(signed long int)tmp_post_2];
       (*new_entry)->hash = orig_entry->hash;
       (*new_entry)->key = orig_entry->key;
       (*new_entry)->klen = orig_entry->klen;
@@ -12308,18 +12308,18 @@ signed int apr_hash_do(signed int (*comp)(void *, const void *, signed long int,
   hix.this = (struct apr_hash_entry_t *)(void *)0;
   hix.next = (struct apr_hash_entry_t *)(void *)0;
   hi=apr_hash_next(&hix);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(hi == ((struct apr_hash_index_t *)NULL)))
   {
     rv=comp(rec, hi->this->key, hi->this->klen, hi->this->val);
     if(!(rv == 0))
     {
       hi=apr_hash_next(hi);
-      tmp_if_expr$1 = hi != ((struct apr_hash_index_t *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = hi != ((struct apr_hash_index_t *)NULL) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$1 = (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
     if(rv == 0)
       dorv = 0;
 
@@ -12333,11 +12333,11 @@ signed int apr_hash_do(signed int (*comp)(void *, const void *, signed long int,
 struct apr_hash_index_t * apr_hash_first(struct apr_pool_t *p, struct apr_hash_t *ht)
 {
   struct apr_hash_index_t *hi;
-  void *return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
   if(!(p == ((struct apr_pool_t *)NULL)))
   {
-    return_value_apr_palloc$1=apr_palloc(p, sizeof(struct apr_hash_index_t) /*32ul*/ );
-    hi = (struct apr_hash_index_t *)return_value_apr_palloc$1;
+    return_value_apr_palloc_1=apr_palloc(p, sizeof(struct apr_hash_index_t) /*32ul*/ );
+    hi = (struct apr_hash_index_t *)return_value_apr_palloc_1;
   }
 
   else
@@ -12346,9 +12346,9 @@ struct apr_hash_index_t * apr_hash_first(struct apr_pool_t *p, struct apr_hash_t
   hi->index = (unsigned int)0;
   hi->this = (struct apr_hash_entry_t *)(void *)0;
   hi->next = (struct apr_hash_entry_t *)(void *)0;
-  struct apr_hash_index_t *return_value_apr_hash_next$2;
-  return_value_apr_hash_next$2=apr_hash_next(hi);
-  return return_value_apr_hash_next$2;
+  struct apr_hash_index_t *return_value_apr_hash_next_2;
+  return_value_apr_hash_next_2=apr_hash_next(hi);
+  return return_value_apr_hash_next_2;
 }
 
 // apr_hash_get
@@ -12356,9 +12356,9 @@ struct apr_hash_index_t * apr_hash_first(struct apr_pool_t *p, struct apr_hash_t
 void * apr_hash_get(struct apr_hash_t *ht, const void *key, signed long int klen)
 {
   struct apr_hash_entry_t *he;
-  struct apr_hash_entry_t **return_value_find_entry$1;
-  return_value_find_entry$1=find_entry(ht, key, klen, (void *)0);
-  he = *return_value_find_entry$1;
+  struct apr_hash_entry_t **return_value_find_entry_1;
+  return_value_find_entry_1=find_entry(ht, key, klen, (void *)0);
+  he = *return_value_find_entry_1;
   if(!(he == ((struct apr_hash_entry_t *)NULL)))
     return (void *)he->val;
 
@@ -12373,9 +12373,9 @@ struct apr_hash_t * apr_hash_make(struct apr_pool_t *pool)
   struct apr_hash_t *ht;
   signed long int now;
   now=apr_time_now();
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_hash_t) /*80ul*/ );
-  ht = (struct apr_hash_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_hash_t) /*80ul*/ );
+  ht = (struct apr_hash_t *)return_value_apr_palloc_1;
   ht->pool = pool;
   ht->free = (struct apr_hash_entry_t *)(void *)0;
   ht->count = (unsigned int)0;
@@ -12408,20 +12408,20 @@ struct apr_hash_t * apr_hash_merge(struct apr_pool_t *p, const struct apr_hash_t
   unsigned int j;
   unsigned int k;
   unsigned int hash;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(p, sizeof(struct apr_hash_t) /*80ul*/ );
-  res = (struct apr_hash_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(p, sizeof(struct apr_hash_t) /*80ul*/ );
+  res = (struct apr_hash_t *)return_value_apr_palloc_1;
   res->pool = p;
   res->free = (struct apr_hash_entry_t *)(void *)0;
   res->hash_func = base->hash_func;
   res->count = base->count;
-  unsigned int tmp_if_expr$2;
+  unsigned int tmp_if_expr_2;
   if(!(base->max >= overlay->max))
-    tmp_if_expr$2 = overlay->max;
+    tmp_if_expr_2 = overlay->max;
 
   else
-    tmp_if_expr$2 = base->max;
-  res->max = tmp_if_expr$2;
+    tmp_if_expr_2 = base->max;
+  res->max = tmp_if_expr_2;
   if(!(res->max >= base->count + overlay->count))
     res->max = res->max * (unsigned int)2 + (unsigned int)1;
 
@@ -12429,9 +12429,9 @@ struct apr_hash_t * apr_hash_merge(struct apr_pool_t *p, const struct apr_hash_t
   res->array=alloc_array(res, res->max);
   if(!(base->count + overlay->count == 0u))
   {
-    void *return_value_apr_palloc$3;
-    return_value_apr_palloc$3=apr_palloc(p, sizeof(struct apr_hash_entry_t) /*40ul*/  * (unsigned long int)(base->count + overlay->count));
-    new_vals = (struct apr_hash_entry_t *)return_value_apr_palloc$3;
+    void *return_value_apr_palloc_3;
+    return_value_apr_palloc_3=apr_palloc(p, sizeof(struct apr_hash_entry_t) /*40ul*/  * (unsigned long int)(base->count + overlay->count));
+    new_vals = (struct apr_hash_entry_t *)return_value_apr_palloc_3;
   }
 
   j = (unsigned int)0;
@@ -12452,7 +12452,7 @@ struct apr_hash_t * apr_hash_merge(struct apr_pool_t *p, const struct apr_hash_t
     }
   }
   k = (unsigned int)0;
-  signed int return_value_memcmp$4;
+  signed int return_value_memcmp_4;
   for( ; overlay->max >= k; k = k + 1u)
   {
     iter = overlay->array[(signed long int)k];
@@ -12468,8 +12468,8 @@ struct apr_hash_t * apr_hash_merge(struct apr_pool_t *p, const struct apr_hash_t
       for( ; !(ent == ((struct apr_hash_entry_t *)NULL)); ent = ent->next)
         if(ent->klen == iter->klen)
         {
-          return_value_memcmp$4=memcmp(ent->key, iter->key, (unsigned long int)iter->klen);
-          if(return_value_memcmp$4 == 0)
+          return_value_memcmp_4=memcmp(ent->key, iter->key, (unsigned long int)iter->klen);
+          if(return_value_memcmp_4 == 0)
           {
             if(!(merger == ((void * (*)(struct apr_pool_t *, const void *, signed long int, const void *, const void *, const void *))NULL)))
               ent->val=merger(p, iter->key, iter->klen, iter->val, ent->val, data);
@@ -12503,13 +12503,13 @@ struct apr_hash_t * apr_hash_merge(struct apr_pool_t *p, const struct apr_hash_t
 struct apr_hash_index_t * apr_hash_next(struct apr_hash_index_t *hi)
 {
   hi->this = hi->next;
-  unsigned int tmp_post$1;
-  for( ; hi->this == ((struct apr_hash_entry_t *)NULL); hi->this = hi->ht->array[(signed long int)tmp_post$1])
+  unsigned int tmp_post_1;
+  for( ; hi->this == ((struct apr_hash_entry_t *)NULL); hi->this = hi->ht->array[(signed long int)tmp_post_1])
   {
     if(!(hi->ht->max >= hi->index))
       return (struct apr_hash_index_t *)(void *)0;
 
-    tmp_post$1 = hi->index;
+    tmp_post_1 = hi->index;
     hi->index = hi->index + 1u;
   }
   hi->next = hi->this->next;
@@ -12520,9 +12520,9 @@ struct apr_hash_index_t * apr_hash_next(struct apr_hash_index_t *hi)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_hash.c line 414
 struct apr_hash_t * apr_hash_overlay(struct apr_pool_t *p, const struct apr_hash_t *overlay, const struct apr_hash_t *base)
 {
-  struct apr_hash_t *return_value_apr_hash_merge$1;
-  return_value_apr_hash_merge$1=apr_hash_merge(p, overlay, base, (void * (*)(struct apr_pool_t *, const void *, signed long int, const void *, const void *, const void *))(void *)0, (void *)0);
-  return return_value_apr_hash_merge$1;
+  struct apr_hash_t *return_value_apr_hash_merge_1;
+  return_value_apr_hash_merge_1=apr_hash_merge(p, overlay, base, (void * (*)(struct apr_pool_t *, const void *, signed long int, const void *, const void *, const void *))(void *)0, (void *)0);
+  return return_value_apr_hash_merge_1;
 }
 
 // apr_hash_pool_get
@@ -12606,34 +12606,34 @@ void * apr_hash_this_val(struct apr_hash_index_t *hi)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_hash.c line 270
 unsigned int apr_hashfunc_default(const char *char_key, signed long int *klen)
 {
-  unsigned int return_value_hashfunc_default$1;
-  return_value_hashfunc_default$1=hashfunc_default(char_key, klen, (unsigned int)0);
-  return return_value_hashfunc_default$1;
+  unsigned int return_value_hashfunc_default_1;
+  return_value_hashfunc_default_1=hashfunc_default(char_key, klen, (unsigned int)0);
+  return return_value_hashfunc_default_1;
 }
 
 // apr_inet_ntop
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/inet_ntop.c line 74
 const char * apr_inet_ntop(signed int af, const void *src, char *dst, unsigned long int size)
 {
-  const char *return_value_inet_ntop4$1;
-  const char *return_value_inet_ntop6$2;
-  signed int *return_value___errno_location$3;
+  const char *return_value_inet_ntop4_1;
+  const char *return_value_inet_ntop6_2;
+  signed int *return_value___errno_location_3;
   switch(af)
   {
     case 2:
     {
-      return_value_inet_ntop4$1=inet_ntop4((const unsigned char *)src, dst, size);
-      return return_value_inet_ntop4$1;
+      return_value_inet_ntop4_1=inet_ntop4((const unsigned char *)src, dst, size);
+      return return_value_inet_ntop4_1;
     }
     case 10:
     {
-      return_value_inet_ntop6$2=inet_ntop6((const unsigned char *)src, dst, size);
-      return return_value_inet_ntop6$2;
+      return_value_inet_ntop6_2=inet_ntop6((const unsigned char *)src, dst, size);
+      return return_value_inet_ntop6_2;
     }
     default:
     {
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = 97;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = 97;
       return (const char *)(void *)0;
     }
   }
@@ -12643,25 +12643,25 @@ const char * apr_inet_ntop(signed int af, const void *src, char *dst, unsigned l
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/inet_pton.c line 79
 signed int apr_inet_pton(signed int af, const char *src, void *dst)
 {
-  signed int return_value_inet_pton4$1;
-  signed int return_value_inet_pton6$2;
-  signed int *return_value___errno_location$3;
+  signed int return_value_inet_pton4_1;
+  signed int return_value_inet_pton6_2;
+  signed int *return_value___errno_location_3;
   switch(af)
   {
     case 2:
     {
-      return_value_inet_pton4$1=inet_pton4(src, (unsigned char *)dst);
-      return return_value_inet_pton4$1;
+      return_value_inet_pton4_1=inet_pton4(src, (unsigned char *)dst);
+      return return_value_inet_pton4_1;
     }
     case 10:
     {
-      return_value_inet_pton6$2=inet_pton6(src, (unsigned char *)dst);
-      return return_value_inet_pton6$2;
+      return_value_inet_pton6_2=inet_pton6(src, (unsigned char *)dst);
+      return return_value_inet_pton6_2;
     }
     default:
     {
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = 97;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = 97;
       return -1;
     }
   }
@@ -12673,9 +12673,9 @@ signed int apr_initialize(void)
 {
   struct apr_pool_t *pool;
   signed int status;
-  signed int tmp_post$1 = initialized;
+  signed int tmp_post_1 = initialized;
   initialized = initialized + 1;
-  if(!(tmp_post$1 == 0))
+  if(!(tmp_post_1 == 0))
     return 0;
 
   else
@@ -12688,9 +12688,9 @@ signed int apr_initialize(void)
 
     else
     {
-      signed int return_value_apr_pool_create_ex$2;
-      return_value_apr_pool_create_ex$2=apr_pool_create_ex(&pool, (struct apr_pool_t *)(void *)0, (signed int (*)(signed int))(void *)0, (struct apr_allocator_t *)(void *)0);
-      if(!(return_value_apr_pool_create_ex$2 == 0))
+      signed int return_value_apr_pool_create_ex_2;
+      return_value_apr_pool_create_ex_2=apr_pool_create_ex(&pool, (struct apr_pool_t *)(void *)0, (signed int (*)(signed int))(void *)0, (struct apr_allocator_t *)(void *)0);
+      if(!(return_value_apr_pool_create_ex_2 == 0))
         return 20000 + 2;
 
       else
@@ -12711,20 +12711,20 @@ signed int apr_ipsubnet_create(struct apr_ipsubnet_t **ipsub, const char *ipstr,
   char *endptr;
   signed long int bits;
   signed long int maxbits = (signed long int)32;
-  signed int return_value_looks_like_ip$1;
-  return_value_looks_like_ip$1=looks_like_ip(ipstr);
-  signed int return_value_apr_inet_pton$4;
-  _Bool tmp_if_expr$5;
-  if(return_value_looks_like_ip$1 == 0)
+  signed int return_value_looks_like_ip_1;
+  return_value_looks_like_ip_1=looks_like_ip(ipstr);
+  signed int return_value_apr_inet_pton_4;
+  _Bool tmp_if_expr_5;
+  if(return_value_looks_like_ip_1 == 0)
     return 22;
 
   else
   {
-    void *return_value_apr_palloc$2;
-    return_value_apr_palloc$2=apr_palloc(p, sizeof(struct apr_ipsubnet_t) /*36ul*/ );
-    void *return_value_memset$3;
-    return_value_memset$3=memset(return_value_apr_palloc$2, 0, sizeof(struct apr_ipsubnet_t) /*36ul*/ );
-    *ipsub = (struct apr_ipsubnet_t *)return_value_memset$3;
+    void *return_value_apr_palloc_2;
+    return_value_apr_palloc_2=apr_palloc(p, sizeof(struct apr_ipsubnet_t) /*36ul*/ );
+    void *return_value_memset_3;
+    return_value_memset_3=memset(return_value_apr_palloc_2, 0, sizeof(struct apr_ipsubnet_t) /*36ul*/ );
+    *ipsub = (struct apr_ipsubnet_t *)return_value_memset_3;
     memset((void *)(*ipsub)->mask, 0xFF, sizeof(unsigned int [4l]) /*16ul*/ );
     rv=parse_ip(*ipsub, ipstr, (signed int)(mask_or_numbits == (const char *)(void *)0));
     if(!(rv == 0))
@@ -12759,13 +12759,13 @@ signed int apr_ipsubnet_create(struct apr_ipsubnet_t **ipsub, const char *ipstr,
 
         else
         {
-          return_value_apr_inet_pton$4=apr_inet_pton(2, mask_or_numbits, (void *)(*ipsub)->mask);
-          if(return_value_apr_inet_pton$4 == 1)
-            tmp_if_expr$5 = (*ipsub)->family == 2 ? (_Bool)1 : (_Bool)0;
+          return_value_apr_inet_pton_4=apr_inet_pton(2, mask_or_numbits, (void *)(*ipsub)->mask);
+          if(return_value_apr_inet_pton_4 == 1)
+            tmp_if_expr_5 = (*ipsub)->family == 2 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          if(!tmp_if_expr$5)
+            tmp_if_expr_5 = (_Bool)0;
+          if(!tmp_if_expr_5)
             return 20000 + 17;
 
         }
@@ -12781,10 +12781,10 @@ signed int apr_ipsubnet_create(struct apr_ipsubnet_t **ipsub, const char *ipstr,
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockaddr.c line 1078
 signed int apr_ipsubnet_test(struct apr_ipsubnet_t *ipsub, struct apr_sockaddr_t *sa)
 {
-  _Bool tmp_statement_expression$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  unsigned int return_value_htonl$3;
+  _Bool tmp_statement_expression_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  unsigned int return_value_htonl_3;
   if(sa->family == 2)
   {
     if(ipsub->family == 2)
@@ -12800,20 +12800,20 @@ signed int apr_ipsubnet_test(struct apr_ipsubnet_t *ipsub, struct apr_sockaddr_t
   {
     struct in6_addr *__a = (struct in6_addr *)sa->ipaddr_ptr;
     if(__a->__in6_u.__u6_addr32[0l] == 0u)
-      tmp_if_expr$2 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
-      return_value_htonl$3=htonl((unsigned int)0xffff);
-      tmp_if_expr$4 = __a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl$3 ? (_Bool)1 : (_Bool)0;
+      return_value_htonl_3=htonl((unsigned int)0xffff);
+      tmp_if_expr_4 = __a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl_3 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    tmp_statement_expression$1 = tmp_if_expr$4;
-    if(tmp_statement_expression$1)
+      tmp_if_expr_4 = (_Bool)0;
+    tmp_statement_expression_1 = tmp_if_expr_4;
+    if(tmp_statement_expression_1)
     {
       if(ipsub->family == 2)
       {
@@ -12857,26 +12857,26 @@ signed int apr_ipsubnet_test(struct apr_ipsubnet_t *ipsub, struct apr_sockaddr_t
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_tables.c line 78
 signed int apr_is_empty_array(const struct apr_array_header_t *a)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(a == ((const struct apr_array_header_t *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = a->nelts == 0 ? (_Bool)1 : (_Bool)0;
-  return (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = a->nelts == 0 ? (_Bool)1 : (_Bool)0;
+  return (signed int)tmp_if_expr_1;
 }
 
 // apr_is_empty_table
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_tables.c line 395
 signed int apr_is_empty_table(const struct apr_table_t *t)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(t == ((const struct apr_table_t *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = t->a.nelts == 0 ? (_Bool)1 : (_Bool)0;
-  return (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = t->a.nelts == 0 ? (_Bool)1 : (_Bool)0;
+  return (signed int)tmp_if_expr_1;
 }
 
 // apr_itoa
@@ -12885,9 +12885,9 @@ char * apr_itoa(struct apr_pool_t *p, signed int n)
 {
   const signed int BUFFER_SIZE = (const signed int)(sizeof(signed int) /*4ul*/  * (unsigned long int)3 + (unsigned long int)2);
   char *buf;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(p, (unsigned long int)BUFFER_SIZE);
-  buf = (char *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(p, (unsigned long int)BUFFER_SIZE);
+  buf = (char *)return_value_apr_palloc_1;
   char *start = (buf + (signed long int)BUFFER_SIZE) - (signed long int)1;
   signed int negative;
   if(!(n >= 0))
@@ -12921,9 +12921,9 @@ char * apr_ltoa(struct apr_pool_t *p, signed long int n)
 {
   const signed int BUFFER_SIZE = (const signed int)(sizeof(signed long int) /*8ul*/  * (unsigned long int)3 + (unsigned long int)2);
   char *buf;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(p, (unsigned long int)BUFFER_SIZE);
-  buf = (char *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(p, (unsigned long int)BUFFER_SIZE);
+  buf = (char *)return_value_apr_palloc_1;
   char *start = (buf + (signed long int)BUFFER_SIZE) - (signed long int)1;
   signed int negative;
   if(!(n >= 0l))
@@ -12974,7 +12974,7 @@ signed int apr_match_glob(const char *pattern, struct apr_array_header_t **resul
   }
   *result=apr_array_make(p, 0, (signed int)sizeof(char *) /*8ul*/ );
   rv=apr_dir_open(&dir, path, p);
-  signed int return_value_apr_dir_read$1;
+  signed int return_value_apr_dir_read_1;
   if(!(rv == 0))
     return rv;
 
@@ -12982,17 +12982,17 @@ signed int apr_match_glob(const char *pattern, struct apr_array_header_t **resul
   {
     do
     {
-      return_value_apr_dir_read$1=apr_dir_read(&finfo, 0x02000000, dir);
-      if(!(return_value_apr_dir_read$1 == 0))
+      return_value_apr_dir_read_1=apr_dir_read(&finfo, 0x02000000, dir);
+      if(!(return_value_apr_dir_read_1 == 0))
         break;
 
-      signed int return_value_apr_fnmatch$3;
-      return_value_apr_fnmatch$3=apr_fnmatch(pattern, finfo.name, 0);
-      if(return_value_apr_fnmatch$3 == 0)
+      signed int return_value_apr_fnmatch_3;
+      return_value_apr_fnmatch_3=apr_fnmatch(pattern, finfo.name, 0);
+      if(return_value_apr_fnmatch_3 == 0)
       {
-        void *return_value_apr_array_push$2;
-        return_value_apr_array_push$2=apr_array_push(*result);
-        *((const char **)return_value_apr_array_push$2)=apr_pstrdup(p, finfo.name);
+        void *return_value_apr_array_push_2;
+        return_value_apr_array_push_2=apr_array_push(*result);
+        *((const char **)return_value_apr_array_push_2)=apr_pstrdup(p, finfo.name);
       }
 
     }
@@ -13006,9 +13006,9 @@ signed int apr_match_glob(const char *pattern, struct apr_array_header_t **resul
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/multicast.c line 265
 signed int apr_mcast_hops(struct apr_socket_t *sock, unsigned char ttl)
 {
-  signed int return_value_do_mcast_opt$1;
-  return_value_do_mcast_opt$1=do_mcast_opt(33, sock, ttl);
-  return return_value_do_mcast_opt$1;
+  signed int return_value_do_mcast_opt_1;
+  return_value_do_mcast_opt_1=do_mcast_opt(33, sock, ttl);
+  return return_value_do_mcast_opt_1;
 }
 
 // apr_mcast_interface
@@ -13016,36 +13016,36 @@ signed int apr_mcast_hops(struct apr_socket_t *sock, unsigned char ttl)
 signed int apr_mcast_interface(struct apr_socket_t *sock, struct apr_sockaddr_t *iface)
 {
   signed int rv = 0;
-  signed int return_value_sock_is_ipv4$6;
-  return_value_sock_is_ipv4$6=sock_is_ipv4(sock);
-  signed int return_value_sock_is_ipv6$5;
-  if(!(return_value_sock_is_ipv4$6 == 0))
+  signed int return_value_sock_is_ipv4_6;
+  return_value_sock_is_ipv4_6=sock_is_ipv4(sock);
+  signed int return_value_sock_is_ipv6_5;
+  if(!(return_value_sock_is_ipv4_6 == 0))
   {
-    signed int return_value_setsockopt$2;
-    return_value_setsockopt$2=setsockopt(sock->socketdes, 0, 32, (const void *)&iface->sa.sin.sin_addr, (unsigned int)sizeof(struct in_addr) /*4ul*/ );
-    if(return_value_setsockopt$2 == -1)
+    signed int return_value_setsockopt_2;
+    return_value_setsockopt_2=setsockopt(sock->socketdes, 0, 32, (const void *)&iface->sa.sin.sin_addr, (unsigned int)sizeof(struct in_addr) /*4ul*/ );
+    if(return_value_setsockopt_2 == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      rv = *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      rv = *return_value___errno_location_1;
     }
 
   }
 
   else
   {
-    return_value_sock_is_ipv6$5=sock_is_ipv6(sock);
-    if(!(return_value_sock_is_ipv6$5 == 0))
+    return_value_sock_is_ipv6_5=sock_is_ipv6(sock);
+    if(!(return_value_sock_is_ipv6_5 == 0))
     {
       unsigned int idx;
       idx=find_if_index(iface);
-      signed int return_value_setsockopt$4;
-      return_value_setsockopt$4=setsockopt(sock->socketdes, 41, 17, (const void *)&idx, (unsigned int)sizeof(unsigned int) /*4ul*/ );
-      if(return_value_setsockopt$4 == -1)
+      signed int return_value_setsockopt_4;
+      return_value_setsockopt_4=setsockopt(sock->socketdes, 41, 17, (const void *)&idx, (unsigned int)sizeof(unsigned int) /*4ul*/ );
+      if(return_value_setsockopt_4 == -1)
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        rv = *return_value___errno_location$3;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        rv = *return_value___errno_location_3;
       }
 
     }
@@ -13060,27 +13060,27 @@ signed int apr_mcast_interface(struct apr_socket_t *sock, struct apr_sockaddr_t 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/multicast.c line 241
 signed int apr_mcast_join(struct apr_socket_t *sock, struct apr_sockaddr_t *join, struct apr_sockaddr_t *iface, struct apr_sockaddr_t *source)
 {
-  signed int return_value_do_mcast$1;
-  return_value_do_mcast$1=do_mcast(35, sock, join, iface, source);
-  return return_value_do_mcast$1;
+  signed int return_value_do_mcast_1;
+  return_value_do_mcast_1=do_mcast(35, sock, join, iface, source);
+  return return_value_do_mcast_1;
 }
 
 // apr_mcast_leave
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/multicast.c line 253
 signed int apr_mcast_leave(struct apr_socket_t *sock, struct apr_sockaddr_t *addr, struct apr_sockaddr_t *iface, struct apr_sockaddr_t *source)
 {
-  signed int return_value_do_mcast$1;
-  return_value_do_mcast$1=do_mcast(36, sock, addr, iface, source);
-  return return_value_do_mcast$1;
+  signed int return_value_do_mcast_1;
+  return_value_do_mcast_1=do_mcast(36, sock, addr, iface, source);
+  return return_value_do_mcast_1;
 }
 
 // apr_mcast_loopback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/multicast.c line 274
 signed int apr_mcast_loopback(struct apr_socket_t *sock, unsigned char opt)
 {
-  signed int return_value_do_mcast_opt$1;
-  return_value_do_mcast_opt$1=do_mcast_opt(34, sock, opt);
-  return return_value_do_mcast_opt$1;
+  signed int return_value_do_mcast_opt_1;
+  return_value_do_mcast_opt_1=do_mcast_opt(34, sock, opt);
+  return return_value_do_mcast_opt_1;
 }
 
 // apr_mmap_create
@@ -13089,33 +13089,33 @@ signed int apr_mmap_create(struct apr_mmap_t **new, struct apr_file_t *file, sig
 {
   void *mm;
   signed int native_flags = 0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(size == 0ul)
     return 22;
 
   else
   {
     if(file == ((struct apr_file_t *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = file->filedes == -1 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = file->filedes == -1 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = file->buffered != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = file->buffered != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return 9;
 
     else
     {
-      void *return_value_apr_palloc$3;
-      return_value_apr_palloc$3=apr_palloc(cont, sizeof(struct apr_mmap_t) /*40ul*/ );
-      void *return_value_memset$4;
-      return_value_memset$4=memset(return_value_apr_palloc$3, 0, sizeof(struct apr_mmap_t) /*40ul*/ );
-      *new = (struct apr_mmap_t *)return_value_memset$4;
+      void *return_value_apr_palloc_3;
+      return_value_apr_palloc_3=apr_palloc(cont, sizeof(struct apr_mmap_t) /*40ul*/ );
+      void *return_value_memset_4;
+      return_value_memset_4=memset(return_value_apr_palloc_3, 0, sizeof(struct apr_mmap_t) /*40ul*/ );
+      *new = (struct apr_mmap_t *)return_value_memset_4;
       if(!((2 & flag) == 0))
         native_flags = native_flags | 0x2;
 
@@ -13126,9 +13126,9 @@ signed int apr_mmap_create(struct apr_mmap_t **new, struct apr_file_t *file, sig
       if(mm == (void *)-1)
       {
         *new = (struct apr_mmap_t *)(void *)0;
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        return *return_value___errno_location$5;
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        return *return_value___errno_location_5;
       }
 
       (*new)->mm = mm;
@@ -13150,18 +13150,18 @@ signed int apr_mmap_create(struct apr_mmap_t **new, struct apr_file_t *file, sig
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/mmap/unix/mmap.c line 167
 signed int apr_mmap_delete(struct apr_mmap_t *mm)
 {
-  signed int return_value_apr_pool_cleanup_run$1;
-  return_value_apr_pool_cleanup_run$1=apr_pool_cleanup_run(mm->cntxt, (void *)mm, mmap_cleanup);
-  return return_value_apr_pool_cleanup_run$1;
+  signed int return_value_apr_pool_cleanup_run_1;
+  return_value_apr_pool_cleanup_run_1=apr_pool_cleanup_run(mm->cntxt, (void *)mm, mmap_cleanup);
+  return return_value_apr_pool_cleanup_run_1;
 }
 
 // apr_mmap_dup
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/mmap/unix/mmap.c line 153
 signed int apr_mmap_dup(struct apr_mmap_t **new_mmap, struct apr_mmap_t *old_mmap, struct apr_pool_t *p)
 {
-  void *return_value_apr_pmemdup$1;
-  return_value_apr_pmemdup$1=apr_pmemdup(p, (const void *)old_mmap, sizeof(struct apr_mmap_t) /*40ul*/ );
-  *new_mmap = (struct apr_mmap_t *)return_value_apr_pmemdup$1;
+  void *return_value_apr_pmemdup_1;
+  return_value_apr_pmemdup_1=apr_pmemdup(p, (const void *)old_mmap, sizeof(struct apr_mmap_t) /*40ul*/ );
+  *new_mmap = (struct apr_mmap_t *)return_value_apr_pmemdup_1;
   (*new_mmap)->cntxt = p;
   do
   {
@@ -13179,13 +13179,13 @@ signed int apr_mmap_dup(struct apr_mmap_t **new_mmap, struct apr_mmap_t *old_mma
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/mmap/unix/common.c line 33
 signed int apr_mmap_offset(void **addr, struct apr_mmap_t *mmap, signed long int offset)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(offset >= 0l))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (unsigned long int)offset > mmap->size ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (unsigned long int)offset > mmap->size ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 22;
 
   else
@@ -13201,9 +13201,9 @@ char * apr_off_t_toa(struct apr_pool_t *p, signed long int n)
 {
   const signed int BUFFER_SIZE = (const signed int)(sizeof(signed long int) /*8ul*/  * (unsigned long int)3 + (unsigned long int)2);
   char *buf;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(p, (unsigned long int)BUFFER_SIZE);
-  buf = (char *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(p, (unsigned long int)BUFFER_SIZE);
+  buf = (char *)return_value_apr_palloc_1;
   char *start = (buf + (signed long int)BUFFER_SIZE) - (signed long int)1;
   signed int negative;
   if(!(n >= 0l))
@@ -13258,11 +13258,11 @@ signed int apr_os_dir_put(struct apr_dir_t **dir, struct __dirstream *thedir, st
 {
   if(*dir == ((struct apr_dir_t *)NULL))
   {
-    void *return_value_apr_palloc$1;
-    return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_dir_t) /*32ul*/ );
-    void *return_value_memset$2;
-    return_value_memset$2=memset(return_value_apr_palloc$1, 0, sizeof(struct apr_dir_t) /*32ul*/ );
-    *dir = (struct apr_dir_t *)return_value_memset$2;
+    void *return_value_apr_palloc_1;
+    return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_dir_t) /*32ul*/ );
+    void *return_value_memset_2;
+    return_value_memset_2=memset(return_value_apr_palloc_1, 0, sizeof(struct apr_dir_t) /*32ul*/ );
+    *dir = (struct apr_dir_t *)return_value_memset_2;
     (*dir)->pool = pool;
   }
 
@@ -13282,11 +13282,11 @@ signed int apr_os_dso_handle_get(void **osdso, struct apr_dso_handle_t *aprdso)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/dso/unix/dso.c line 41
 signed int apr_os_dso_handle_put(struct apr_dso_handle_t **aprdso, void *osdso, struct apr_pool_t *pool)
 {
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_dso_handle_t) /*24ul*/ );
-  void *return_value_memset$2;
-  return_value_memset$2=memset(return_value_apr_palloc$1, 0, sizeof(struct apr_dso_handle_t) /*24ul*/ );
-  *aprdso = (struct apr_dso_handle_t *)return_value_memset$2;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_dso_handle_t) /*24ul*/ );
+  void *return_value_memset_2;
+  return_value_memset_2=memset(return_value_apr_palloc_1, 0, sizeof(struct apr_dso_handle_t) /*24ul*/ );
+  *aprdso = (struct apr_dso_handle_t *)return_value_memset_2;
   (*aprdso)->handle = osdso;
   (*aprdso)->pool = pool;
   return 0;
@@ -13339,14 +13339,14 @@ signed int apr_os_file_get(signed int *thefile, struct apr_file_t *file)
 signed int apr_os_file_put(struct apr_file_t **file, signed int *thefile, signed int flags, struct apr_pool_t *pool)
 {
   signed int *dafile = thefile;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_file_t) /*120ul*/ );
-  void *return_value_memset$2;
-  return_value_memset$2=memset(return_value_apr_palloc$1, 0, sizeof(struct apr_file_t) /*120ul*/ );
-  *file = (struct apr_file_t *)return_value_memset$2;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_file_t) /*120ul*/ );
+  void *return_value_memset_2;
+  return_value_memset_2=memset(return_value_apr_palloc_1, 0, sizeof(struct apr_file_t) /*120ul*/ );
+  *file = (struct apr_file_t *)return_value_memset_2;
   (*file)->pool = pool;
   (*file)->eof_hit = 0;
-  (*file)->blocking = (enum anonymous$2)BLK_UNKNOWN;
+  (*file)->blocking = (enum anonymous_2)BLK_UNKNOWN;
   (*file)->timeout = (signed long int)-1;
   (*file)->ungetchar = -1;
   (*file)->filedes = *dafile;
@@ -13354,9 +13354,9 @@ signed int apr_os_file_put(struct apr_file_t **file, signed int *thefile, signed
   (*file)->buffered = (signed int)((flags & 0x00080) > 0);
   if(!((*file)->buffered == 0))
   {
-    void *return_value_apr_palloc$3;
-    return_value_apr_palloc$3=apr_palloc(pool, (unsigned long int)4096);
-    (*file)->buffer = (char *)return_value_apr_palloc$3;
+    void *return_value_apr_palloc_3;
+    return_value_apr_palloc_3=apr_palloc(pool, (unsigned long int)4096);
+    (*file)->buffer = (char *)return_value_apr_palloc_3;
     (*file)->bufsize = (unsigned long int)4096;
     if(!((0x00200 & (*file)->flags) == 0))
     {
@@ -13409,25 +13409,25 @@ const char * apr_os_locale_encoding(struct apr_pool_t *pool)
   {
     if(!(*charset == 0))
     {
-      char *return_value_apr_pstrdup$1;
-      return_value_apr_pstrdup$1=apr_pstrdup(pool, charset);
-      return return_value_apr_pstrdup$1;
+      char *return_value_apr_pstrdup_1;
+      return_value_apr_pstrdup_1=apr_pstrdup(pool, charset);
+      return return_value_apr_pstrdup_1;
     }
 
   }
 
-  const char *return_value_apr_os_default_encoding$2;
-  return_value_apr_os_default_encoding$2=apr_os_default_encoding(pool);
-  return return_value_apr_os_default_encoding$2;
+  const char *return_value_apr_os_default_encoding_2;
+  return_value_apr_os_default_encoding_2=apr_os_default_encoding(pool);
+  return return_value_apr_os_default_encoding_2;
 }
 
 // apr_os_pipe_put
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/pipe.c line 172
 signed int apr_os_pipe_put(struct apr_file_t **file, signed int *thefile, struct apr_pool_t *pool)
 {
-  signed int return_value_apr_os_pipe_put_ex$1;
-  return_value_apr_os_pipe_put_ex$1=apr_os_pipe_put_ex(file, thefile, 0, pool);
-  return return_value_apr_os_pipe_put_ex$1;
+  signed int return_value_apr_os_pipe_put_ex_1;
+  return_value_apr_os_pipe_put_ex_1=apr_os_pipe_put_ex(file, thefile, 0, pool);
+  return return_value_apr_os_pipe_put_ex_1;
 }
 
 // apr_os_pipe_put_ex
@@ -13435,15 +13435,15 @@ signed int apr_os_pipe_put(struct apr_file_t **file, signed int *thefile, struct
 signed int apr_os_pipe_put_ex(struct apr_file_t **file, signed int *thefile, signed int register_cleanup, struct apr_pool_t *pool)
 {
   signed int *dafile = thefile;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_file_t) /*120ul*/ );
-  void *return_value_memset$2;
-  return_value_memset$2=memset(return_value_apr_palloc$1, 0, sizeof(struct apr_file_t) /*120ul*/ );
-  *file = (struct apr_file_t *)return_value_memset$2;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_file_t) /*120ul*/ );
+  void *return_value_memset_2;
+  return_value_memset_2=memset(return_value_apr_palloc_1, 0, sizeof(struct apr_file_t) /*120ul*/ );
+  *file = (struct apr_file_t *)return_value_memset_2;
   (*file)->pool = pool;
   (*file)->eof_hit = 0;
   (*file)->is_pipe = 1;
-  (*file)->blocking = (enum anonymous$2)BLK_UNKNOWN;
+  (*file)->blocking = (enum anonymous_2)BLK_UNKNOWN;
   (*file)->timeout = (signed long int)-1;
   (*file)->ungetchar = -1;
   (*file)->filedes = *dafile;
@@ -13482,11 +13482,11 @@ signed int apr_os_proc_mutex_put(struct apr_proc_mutex_t **pmutex, struct apr_os
   {
     if(*pmutex == ((struct apr_proc_mutex_t *)NULL))
     {
-      void *return_value_apr_palloc$1;
-      return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_proc_mutex_t) /*64ul*/ );
-      void *return_value_memset$2;
-      return_value_memset$2=memset(return_value_apr_palloc$1, 0, sizeof(struct apr_proc_mutex_t) /*64ul*/ );
-      *pmutex = (struct apr_proc_mutex_t *)return_value_memset$2;
+      void *return_value_apr_palloc_1;
+      return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_proc_mutex_t) /*64ul*/ );
+      void *return_value_memset_2;
+      return_value_memset_2=memset(return_value_apr_palloc_1, 0, sizeof(struct apr_proc_mutex_t) /*64ul*/ );
+      *pmutex = (struct apr_proc_mutex_t *)return_value_memset_2;
       (*pmutex)->pool = pool;
     }
 
@@ -13588,27 +13588,27 @@ static char * apr_os_strerror(char *buf, unsigned long int bufsize, signed int e
     default:
       msg = "Unrecognized resolver error";
   }
-  char *return_value_stuffbuffer$1;
-  return_value_stuffbuffer$1=stuffbuffer(buf, bufsize, msg);
-  return return_value_stuffbuffer$1;
+  char *return_value_stuffbuffer_1;
+  return_value_stuffbuffer_1=stuffbuffer(buf, bufsize, msg);
+  return return_value_stuffbuffer_1;
 }
 
 // apr_os_thread_current
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 191
 unsigned long int apr_os_thread_current(void)
 {
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  return return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  return return_value_pthread_self_1;
 }
 
 // apr_os_thread_equal
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 196
 signed int apr_os_thread_equal(unsigned long int tid1, unsigned long int tid2)
 {
-  signed int return_value_pthread_equal$1;
-  return_value_pthread_equal$1=pthread_equal(tid1, tid2);
-  return return_value_pthread_equal$1;
+  signed int return_value_pthread_equal_1;
+  return_value_pthread_equal_1=pthread_equal(tid1, tid2);
+  return return_value_pthread_equal_1;
 }
 
 // apr_os_thread_get
@@ -13630,11 +13630,11 @@ signed int apr_os_thread_put(struct apr_thread_t **thd, unsigned long int *theth
   {
     if(*thd == ((struct apr_thread_t *)NULL))
     {
-      void *return_value_apr_palloc$1;
-      return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_thread_t) /*40ul*/ );
-      void *return_value_memset$2;
-      return_value_memset$2=memset(return_value_apr_palloc$1, 0, sizeof(struct apr_thread_t) /*40ul*/ );
-      *thd = (struct apr_thread_t *)return_value_memset$2;
+      void *return_value_apr_palloc_1;
+      return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_thread_t) /*40ul*/ );
+      void *return_value_memset_2;
+      return_value_memset_2=memset(return_value_apr_palloc_1, 0, sizeof(struct apr_thread_t) /*40ul*/ );
+      *thd = (struct apr_thread_t *)return_value_memset_2;
       (*thd)->pool = pool;
     }
 
@@ -13662,11 +13662,11 @@ signed int apr_os_threadkey_put(struct apr_threadkey_t **key, unsigned int *thek
   {
     if(*key == ((struct apr_threadkey_t *)NULL))
     {
-      void *return_value_apr_palloc$1;
-      return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_threadkey_t) /*16ul*/ );
-      void *return_value_memset$2;
-      return_value_memset$2=memset(return_value_apr_palloc$1, 0, sizeof(struct apr_threadkey_t) /*16ul*/ );
-      *key = (struct apr_threadkey_t *)return_value_memset$2;
+      void *return_value_apr_palloc_1;
+      return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_threadkey_t) /*16ul*/ );
+      void *return_value_memset_2;
+      return_value_memset_2=memset(return_value_apr_palloc_1, 0, sizeof(struct apr_threadkey_t) /*16ul*/ );
+      *key = (struct apr_threadkey_t *)return_value_memset_2;
       (*key)->pool = pool;
     }
 
@@ -13783,9 +13783,9 @@ void * apr_palloc(struct apr_pool_t *pool, unsigned long int in_size)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2530
 void * apr_palloc_debug(struct apr_pool_t *pool, unsigned long int size, const char *file_line)
 {
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(pool, size);
-  return return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(pool, size);
+  return return_value_apr_palloc_1;
 }
 
 // apr_parse_addr_port
@@ -13799,15 +13799,15 @@ signed int apr_parse_addr_port(char **addr, char **scope_id, unsigned short int 
   *addr = (char *)(void *)0;
   *scope_id = (char *)(void *)0;
   *port = (unsigned short int)0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  lastchar = (str + (signed long int)return_value_strlen$1) - (signed long int)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  lastchar = (str + (signed long int)return_value_strlen_1) - (signed long int)1;
   ch = lastchar;
-  const unsigned short int **return_value___ctype_b_loc$2;
+  const unsigned short int **return_value___ctype_b_loc_2;
   for( ; ch >= str; ch = ch - 1l)
   {
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)(unsigned char)*ch]) == 0)
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)(unsigned char)*ch]) == 0)
       break;
 
   }
@@ -13844,9 +13844,9 @@ signed int apr_parse_addr_port(char **addr, char **scope_id, unsigned short int 
     if((signed int)*str == 91)
     {
       const char *end_bracket;
-      void *return_value_memchr$3;
-      return_value_memchr$3=memchr((const void *)str, 93, addrlen);
-      end_bracket = (const char *)return_value_memchr$3;
+      void *return_value_memchr_3;
+      return_value_memchr_3=memchr((const void *)str, 93, addrlen);
+      end_bracket = (const char *)return_value_memchr_3;
       struct in6_addr ipaddr;
       const char *scope_delim;
       if(end_bracket == ((const char *)NULL) || !(end_bracket == lastchar))
@@ -13855,9 +13855,9 @@ signed int apr_parse_addr_port(char **addr, char **scope_id, unsigned short int 
         return 22;
       }
 
-      void *return_value_memchr$4;
-      return_value_memchr$4=memchr((const void *)str, 37, addrlen);
-      scope_delim = (const char *)return_value_memchr$4;
+      void *return_value_memchr_4;
+      return_value_memchr_4=memchr((const void *)str, 37, addrlen);
+      scope_delim = (const char *)return_value_memchr_4;
       if(!(scope_delim == ((const char *)NULL)))
       {
         if(scope_delim == end_bracket + -1l)
@@ -13867,23 +13867,23 @@ signed int apr_parse_addr_port(char **addr, char **scope_id, unsigned short int 
         }
 
         addrlen = (unsigned long int)((scope_delim - str) - (signed long int)1);
-        void *return_value_apr_palloc$5;
-        return_value_apr_palloc$5=apr_palloc(p, (unsigned long int)(end_bracket - scope_delim));
-        *scope_id = (char *)return_value_apr_palloc$5;
+        void *return_value_apr_palloc_5;
+        return_value_apr_palloc_5=apr_palloc(p, (unsigned long int)(end_bracket - scope_delim));
+        *scope_id = (char *)return_value_apr_palloc_5;
         memcpy((void *)*scope_id, (const void *)(scope_delim + (signed long int)1), (unsigned long int)((end_bracket - scope_delim) - (signed long int)1));
         (*scope_id)[(end_bracket - scope_delim) - (signed long int)1] = (char)0;
       }
 
       else
         addrlen = addrlen - (unsigned long int)2;
-      void *return_value_apr_palloc$6;
-      return_value_apr_palloc$6=apr_palloc(p, addrlen + (unsigned long int)1);
-      *addr = (char *)return_value_apr_palloc$6;
+      void *return_value_apr_palloc_6;
+      return_value_apr_palloc_6=apr_palloc(p, addrlen + (unsigned long int)1);
+      *addr = (char *)return_value_apr_palloc_6;
       memcpy((void *)*addr, (const void *)(str + (signed long int)1), addrlen);
       (*addr)[(signed long int)addrlen] = (char)0;
-      signed int return_value_apr_inet_pton$7;
-      return_value_apr_inet_pton$7=apr_inet_pton(10, *addr, (void *)&ipaddr);
-      if(!(return_value_apr_inet_pton$7 == 1))
+      signed int return_value_apr_inet_pton_7;
+      return_value_apr_inet_pton_7=apr_inet_pton(10, *addr, (void *)&ipaddr);
+      if(!(return_value_apr_inet_pton_7 == 1))
       {
         *addr = (char *)(void *)0;
         *scope_id = (char *)(void *)0;
@@ -13895,9 +13895,9 @@ signed int apr_parse_addr_port(char **addr, char **scope_id, unsigned short int 
 
     else
     {
-      void *return_value_apr_palloc$8;
-      return_value_apr_palloc$8=apr_palloc(p, addrlen + (unsigned long int)1);
-      *addr = (char *)return_value_apr_palloc$8;
+      void *return_value_apr_palloc_8;
+      return_value_apr_palloc_8=apr_palloc(p, addrlen + (unsigned long int)1);
+      *addr = (char *)return_value_apr_palloc_8;
       memcpy((void *)*addr, (const void *)str, addrlen);
       (*addr)[(signed long int)addrlen] = (char)0;
     }
@@ -13917,15 +13917,15 @@ signed int apr_password_get(const char *prompt, char *pwbuf, unsigned long int *
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(pw_got);
-    if(return_value_strlen$1 >= *bufsiz)
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(pw_got);
+    if(return_value_strlen_1 >= *bufsiz)
       rv = 36;
 
     apr_cpystrn(pwbuf, pw_got, *bufsiz);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(pw_got);
-    memset((void *)pw_got, 0, return_value_strlen$2);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(pw_got);
+    memset((void *)pw_got, 0, return_value_strlen_2);
     return rv;
   }
 }
@@ -13946,9 +13946,9 @@ void * apr_pcalloc(struct apr_pool_t *pool, unsigned long int size)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2536
 void * apr_pcalloc_debug(struct apr_pool_t *pool, unsigned long int size, const char *file_line)
 {
-  void *return_value_apr_pcalloc$1;
-  return_value_apr_pcalloc$1=apr_pcalloc(pool, size);
-  return return_value_apr_pcalloc$1;
+  void *return_value_apr_pcalloc_1;
+  return_value_apr_pcalloc_1=apr_pcalloc(pool, size);
+  return return_value_apr_pcalloc_1;
 }
 
 // apr_pescape_echo
@@ -13956,11 +13956,11 @@ void * apr_pcalloc_debug(struct apr_pool_t *pool, unsigned long int size, const 
 const char * apr_pescape_echo(struct apr_pool_t *p, const char *str, signed int quote)
 {
   unsigned long int len;
-  signed int return_value_apr_escape_echo$1;
-  return_value_apr_escape_echo$1=apr_escape_echo((char *)(void *)0, str, (signed long int)-1, quote, &len);
-  if(!(return_value_apr_escape_echo$1 == 0))
+  signed int return_value_apr_escape_echo_1;
+  return_value_apr_escape_echo_1=apr_escape_echo((char *)(void *)0, str, (signed long int)-1, quote, &len);
+  if(!(return_value_apr_escape_echo_1 == 0))
   {
-    if(return_value_apr_escape_echo$1 == 15)
+    if(return_value_apr_escape_echo_1 == 15)
       goto __CPROVER_DUMP_L2;
 
   }
@@ -13968,9 +13968,9 @@ const char * apr_pescape_echo(struct apr_pool_t *p, const char *str, signed int 
   else
   {
     char *cmd;
-    void *return_value_apr_palloc$2;
-    return_value_apr_palloc$2=apr_palloc(p, len);
-    cmd = (char *)return_value_apr_palloc$2;
+    void *return_value_apr_palloc_2;
+    return_value_apr_palloc_2=apr_palloc(p, len);
+    cmd = (char *)return_value_apr_palloc_2;
     apr_escape_echo(cmd, str, (signed long int)-1, quote, (unsigned long int *)(void *)0);
     return cmd;
   }
@@ -13985,11 +13985,11 @@ __CPROVER_DUMP_L2:
 const char * apr_pescape_entity(struct apr_pool_t *p, const char *str, signed int toasc)
 {
   unsigned long int len;
-  signed int return_value_apr_escape_entity$1;
-  return_value_apr_escape_entity$1=apr_escape_entity((char *)(void *)0, str, (signed long int)-1, toasc, &len);
-  if(!(return_value_apr_escape_entity$1 == 0))
+  signed int return_value_apr_escape_entity_1;
+  return_value_apr_escape_entity_1=apr_escape_entity((char *)(void *)0, str, (signed long int)-1, toasc, &len);
+  if(!(return_value_apr_escape_entity_1 == 0))
   {
-    if(return_value_apr_escape_entity$1 == 15)
+    if(return_value_apr_escape_entity_1 == 15)
       goto __CPROVER_DUMP_L2;
 
   }
@@ -13997,9 +13997,9 @@ const char * apr_pescape_entity(struct apr_pool_t *p, const char *str, signed in
   else
   {
     char *cmd;
-    void *return_value_apr_palloc$2;
-    return_value_apr_palloc$2=apr_palloc(p, len);
-    cmd = (char *)return_value_apr_palloc$2;
+    void *return_value_apr_palloc_2;
+    return_value_apr_palloc_2=apr_palloc(p, len);
+    cmd = (char *)return_value_apr_palloc_2;
     apr_escape_entity(cmd, str, (signed long int)-1, toasc, (unsigned long int *)(void *)0);
     return cmd;
   }
@@ -14014,11 +14014,11 @@ __CPROVER_DUMP_L2:
 const char * apr_pescape_hex(struct apr_pool_t *p, const void *src, unsigned long int srclen, signed int colon)
 {
   unsigned long int len;
-  signed int return_value_apr_escape_hex$1;
-  return_value_apr_escape_hex$1=apr_escape_hex((char *)(void *)0, src, srclen, colon, &len);
-  if(!(return_value_apr_escape_hex$1 == 0))
+  signed int return_value_apr_escape_hex_1;
+  return_value_apr_escape_hex_1=apr_escape_hex((char *)(void *)0, src, srclen, colon, &len);
+  if(!(return_value_apr_escape_hex_1 == 0))
   {
-    if(return_value_apr_escape_hex$1 == 15)
+    if(return_value_apr_escape_hex_1 == 15)
       goto __CPROVER_DUMP_L2;
 
   }
@@ -14026,9 +14026,9 @@ const char * apr_pescape_hex(struct apr_pool_t *p, const void *src, unsigned lon
   else
   {
     char *cmd;
-    void *return_value_apr_palloc$2;
-    return_value_apr_palloc$2=apr_palloc(p, len);
-    cmd = (char *)return_value_apr_palloc$2;
+    void *return_value_apr_palloc_2;
+    return_value_apr_palloc_2=apr_palloc(p, len);
+    cmd = (char *)return_value_apr_palloc_2;
     apr_escape_hex(cmd, src, srclen, colon, (unsigned long int *)(void *)0);
     return cmd;
   }
@@ -14043,11 +14043,11 @@ __CPROVER_DUMP_L2:
 const char * apr_pescape_path(struct apr_pool_t *p, const char *str, signed int partial)
 {
   unsigned long int len;
-  signed int return_value_apr_escape_path$1;
-  return_value_apr_escape_path$1=apr_escape_path((char *)(void *)0, str, (signed long int)-1, partial, &len);
-  if(!(return_value_apr_escape_path$1 == 0))
+  signed int return_value_apr_escape_path_1;
+  return_value_apr_escape_path_1=apr_escape_path((char *)(void *)0, str, (signed long int)-1, partial, &len);
+  if(!(return_value_apr_escape_path_1 == 0))
   {
-    if(return_value_apr_escape_path$1 == 15)
+    if(return_value_apr_escape_path_1 == 15)
       goto __CPROVER_DUMP_L2;
 
   }
@@ -14055,9 +14055,9 @@ const char * apr_pescape_path(struct apr_pool_t *p, const char *str, signed int 
   else
   {
     char *path;
-    void *return_value_apr_palloc$2;
-    return_value_apr_palloc$2=apr_palloc(p, len);
-    path = (char *)return_value_apr_palloc$2;
+    void *return_value_apr_palloc_2;
+    return_value_apr_palloc_2=apr_palloc(p, len);
+    path = (char *)return_value_apr_palloc_2;
     apr_escape_path(path, str, (signed long int)-1, partial, (unsigned long int *)(void *)0);
     return path;
   }
@@ -14072,11 +14072,11 @@ __CPROVER_DUMP_L2:
 const char * apr_pescape_path_segment(struct apr_pool_t *p, const char *str)
 {
   unsigned long int len;
-  signed int return_value_apr_escape_path_segment$1;
-  return_value_apr_escape_path_segment$1=apr_escape_path_segment((char *)(void *)0, str, (signed long int)-1, &len);
-  if(!(return_value_apr_escape_path_segment$1 == 0))
+  signed int return_value_apr_escape_path_segment_1;
+  return_value_apr_escape_path_segment_1=apr_escape_path_segment((char *)(void *)0, str, (signed long int)-1, &len);
+  if(!(return_value_apr_escape_path_segment_1 == 0))
   {
-    if(return_value_apr_escape_path_segment$1 == 15)
+    if(return_value_apr_escape_path_segment_1 == 15)
       goto __CPROVER_DUMP_L2;
 
   }
@@ -14084,9 +14084,9 @@ const char * apr_pescape_path_segment(struct apr_pool_t *p, const char *str)
   else
   {
     char *cmd;
-    void *return_value_apr_palloc$2;
-    return_value_apr_palloc$2=apr_palloc(p, len);
-    cmd = (char *)return_value_apr_palloc$2;
+    void *return_value_apr_palloc_2;
+    return_value_apr_palloc_2=apr_palloc(p, len);
+    cmd = (char *)return_value_apr_palloc_2;
     apr_escape_path_segment(cmd, str, (signed long int)-1, (unsigned long int *)(void *)0);
     return cmd;
   }
@@ -14101,11 +14101,11 @@ __CPROVER_DUMP_L2:
 const char * apr_pescape_shell(struct apr_pool_t *p, const char *str)
 {
   unsigned long int len;
-  signed int return_value_apr_escape_shell$1;
-  return_value_apr_escape_shell$1=apr_escape_shell((char *)(void *)0, str, (signed long int)-1, &len);
-  if(!(return_value_apr_escape_shell$1 == 0))
+  signed int return_value_apr_escape_shell_1;
+  return_value_apr_escape_shell_1=apr_escape_shell((char *)(void *)0, str, (signed long int)-1, &len);
+  if(!(return_value_apr_escape_shell_1 == 0))
   {
-    if(return_value_apr_escape_shell$1 == 15)
+    if(return_value_apr_escape_shell_1 == 15)
       goto __CPROVER_DUMP_L2;
 
   }
@@ -14113,9 +14113,9 @@ const char * apr_pescape_shell(struct apr_pool_t *p, const char *str)
   else
   {
     char *cmd;
-    void *return_value_apr_palloc$2;
-    return_value_apr_palloc$2=apr_palloc(p, len);
-    cmd = (char *)return_value_apr_palloc$2;
+    void *return_value_apr_palloc_2;
+    return_value_apr_palloc_2=apr_palloc(p, len);
+    cmd = (char *)return_value_apr_palloc_2;
     apr_escape_shell(cmd, str, (signed long int)-1, (unsigned long int *)(void *)0);
     return cmd;
   }
@@ -14130,11 +14130,11 @@ __CPROVER_DUMP_L2:
 const char * apr_pescape_urlencoded(struct apr_pool_t *p, const char *str)
 {
   unsigned long int len;
-  signed int return_value_apr_escape_urlencoded$1;
-  return_value_apr_escape_urlencoded$1=apr_escape_urlencoded((char *)(void *)0, str, (signed long int)-1, &len);
-  if(!(return_value_apr_escape_urlencoded$1 == 0))
+  signed int return_value_apr_escape_urlencoded_1;
+  return_value_apr_escape_urlencoded_1=apr_escape_urlencoded((char *)(void *)0, str, (signed long int)-1, &len);
+  if(!(return_value_apr_escape_urlencoded_1 == 0))
   {
-    if(return_value_apr_escape_urlencoded$1 == 15)
+    if(return_value_apr_escape_urlencoded_1 == 15)
       goto __CPROVER_DUMP_L2;
 
   }
@@ -14142,9 +14142,9 @@ const char * apr_pescape_urlencoded(struct apr_pool_t *p, const char *str)
   else
   {
     char *encoded;
-    void *return_value_apr_palloc$2;
-    return_value_apr_palloc$2=apr_palloc(p, len);
-    encoded = (char *)return_value_apr_palloc$2;
+    void *return_value_apr_palloc_2;
+    return_value_apr_palloc_2=apr_palloc(p, len);
+    encoded = (char *)return_value_apr_palloc_2;
     apr_escape_urlencoded(encoded, str, (signed long int)-1, (unsigned long int *)(void *)0);
     return encoded;
   }
@@ -14176,8 +14176,8 @@ signed int apr_poll(struct apr_pollfd_t *aprset, signed int num, signed int *nsd
 {
   signed int i;
   signed int num_to_poll;
-  const signed long int num_to_poll$array_size0 = (signed long int)num;
-  struct pollfd pollset[num_to_poll$array_size0];
+  const signed long int num_to_poll_array_size0 = (signed long int)num;
+  struct pollfd pollset[num_to_poll_array_size0];
   i = 0;
   for( ; !(i >= num); i = i + 1)
   {
@@ -14207,9 +14207,9 @@ signed int apr_poll(struct apr_pollfd_t *aprset, signed int num, signed int *nsd
 
   if(!(*nsds >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   if(*nsds == 0)
@@ -14224,7 +14224,7 @@ signed int apr_poll(struct apr_pollfd_t *aprset, signed int num, signed int *nsd
 const char * apr_poll_method_defname(void)
 {
   struct apr_pollset_provider_t *provider = (struct apr_pollset_provider_t *)(void *)0;
-  provider=pollset_provider(pollset_default_method$link1);
+  provider=pollset_provider(pollset_default_method_link1);
   if(!(provider == ((struct apr_pollset_provider_t *)NULL)))
     return provider->name;
 
@@ -14245,15 +14245,15 @@ signed int apr_pollcb_add(struct apr_pollcb_t *pollcb, struct apr_pollfd_t *desc
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/pollcb.c line 147
 signed int apr_pollcb_create(struct apr_pollcb_t **pollcb, unsigned int size, struct apr_pool_t *p, unsigned int flags)
 {
-  enum anonymous$24 method = (enum anonymous$24)APR_POLLSET_DEFAULT;
-  signed int return_value_apr_pollcb_create_ex$1;
-  return_value_apr_pollcb_create_ex$1=apr_pollcb_create_ex(pollcb, size, p, flags, method);
-  return return_value_apr_pollcb_create_ex$1;
+  enum anonymous_24 method = (enum anonymous_24)APR_POLLSET_DEFAULT;
+  signed int return_value_apr_pollcb_create_ex_1;
+  return_value_apr_pollcb_create_ex_1=apr_pollcb_create_ex(pollcb, size, p, flags, method);
+  return return_value_apr_pollcb_create_ex_1;
 }
 
 // apr_pollcb_create_ex
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/pollcb.c line 76
-signed int apr_pollcb_create_ex(struct apr_pollcb_t **ret_pollcb, unsigned int size, struct apr_pool_t *p, unsigned int flags, enum anonymous$24 method)
+signed int apr_pollcb_create_ex(struct apr_pollcb_t **ret_pollcb, unsigned int size, struct apr_pool_t *p, unsigned int flags, enum anonymous_24 method)
 {
   signed int rv;
   struct apr_pollcb_t *pollcb;
@@ -14277,9 +14277,9 @@ signed int apr_pollcb_create_ex(struct apr_pollcb_t **ret_pollcb, unsigned int s
     }
 
   }
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(p, sizeof(struct apr_pollcb_t) /*48ul*/ );
-  pollcb = (struct apr_pollcb_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(p, sizeof(struct apr_pollcb_t) /*48ul*/ );
+  pollcb = (struct apr_pollcb_t *)return_value_apr_palloc_1;
   pollcb->nelts = (unsigned int)0;
   pollcb->nalloc = size;
   pollcb->pool = p;
@@ -14343,22 +14343,22 @@ signed int apr_pollset_add(struct apr_pollset_t *pollset, const struct apr_pollf
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/pollset.c line 307
 signed int apr_pollset_create(struct apr_pollset_t **pollset, unsigned int size, struct apr_pool_t *p, unsigned int flags)
 {
-  enum anonymous$24 method = (enum anonymous$24)APR_POLLSET_DEFAULT;
-  signed int return_value_apr_pollset_create_ex$1;
-  return_value_apr_pollset_create_ex$1=apr_pollset_create_ex(pollset, size, p, flags, method);
-  return return_value_apr_pollset_create_ex$1;
+  enum anonymous_24 method = (enum anonymous_24)APR_POLLSET_DEFAULT;
+  signed int return_value_apr_pollset_create_ex_1;
+  return_value_apr_pollset_create_ex_1=apr_pollset_create_ex(pollset, size, p, flags, method);
+  return return_value_apr_pollset_create_ex_1;
 }
 
 // apr_pollset_create_ex
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/pollset.c line 212
-signed int apr_pollset_create_ex(struct apr_pollset_t **ret_pollset, unsigned int size, struct apr_pool_t *p, unsigned int flags, enum anonymous$24 method)
+signed int apr_pollset_create_ex(struct apr_pollset_t **ret_pollset, unsigned int size, struct apr_pool_t *p, unsigned int flags, enum anonymous_24 method)
 {
   signed int rv;
   struct apr_pollset_t *pollset;
   struct apr_pollset_provider_t *provider = (struct apr_pollset_provider_t *)(void *)0;
   *ret_pollset = (struct apr_pollset_t *)(void *)0;
   if((signed int)method == APR_POLLSET_DEFAULT)
-    method = pollset_default_method$link1;
+    method = pollset_default_method_link1;
 
   while(provider == ((struct apr_pollset_provider_t *)NULL))
   {
@@ -14368,19 +14368,19 @@ signed int apr_pollset_create_ex(struct apr_pollset_t **ret_pollset, unsigned in
       if((16u & flags) == 16u)
         return 20000 + 50000 + 23;
 
-      if(method == pollset_default_method$link1)
+      if(method == pollset_default_method_link1)
         return 20000 + 50000 + 23;
 
-      method = pollset_default_method$link1;
+      method = pollset_default_method_link1;
     }
 
   }
   if(!((4u & flags) == 0u))
     size = size + 1u;
 
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(p, sizeof(struct apr_pollset_t) /*88ul*/ );
-  pollset = (struct apr_pollset_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(p, sizeof(struct apr_pollset_t) /*88ul*/ );
+  pollset = (struct apr_pollset_t *)return_value_apr_palloc_1;
   pollset->nelts = (unsigned int)0;
   pollset->nalloc = size;
   pollset->pool = p;
@@ -14389,10 +14389,10 @@ signed int apr_pollset_create_ex(struct apr_pollset_t **ret_pollset, unsigned in
   rv=provider->create(pollset, size, p, flags);
   if(rv == 23)
   {
-    if(method == pollset_default_method$link1)
+    if(method == pollset_default_method_link1)
       return rv;
 
-    provider=pollset_provider(pollset_default_method$link1);
+    provider=pollset_provider(pollset_default_method_link1);
     if(provider == ((struct apr_pollset_provider_t *)NULL))
       return 20000 + 50000 + 23;
 
@@ -14407,7 +14407,7 @@ signed int apr_pollset_create_ex(struct apr_pollset_t **ret_pollset, unsigned in
     if(!(rv == 0))
       return rv;
 
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!((4u & flags) == 0u))
   {
     rv=create_wakeup_pipe(pollset);
@@ -14417,11 +14417,11 @@ signed int apr_pollset_create_ex(struct apr_pollset_t **ret_pollset, unsigned in
   else
   {
     if(!((4u & flags) == 0u))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = provider->cleanup != ((signed int (*)(struct apr_pollset_t *))NULL) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = provider->cleanup != ((signed int (*)(struct apr_pollset_t *))NULL) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       apr_pool_cleanup_register(p, (const void *)pollset, pollset_cleanup, apr_pool_cleanup_null);
 
     *ret_pollset = pollset;
@@ -14433,17 +14433,17 @@ signed int apr_pollset_create_ex(struct apr_pollset_t **ret_pollset, unsigned in
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/pollset.c line 316
 signed int apr_pollset_destroy(struct apr_pollset_t *pollset)
 {
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!((4u & pollset->flags) == 0u))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = pollset->provider->cleanup != ((signed int (*)(struct apr_pollset_t *))NULL) ? (_Bool)1 : (_Bool)0;
-  signed int return_value_apr_pool_cleanup_run$1;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = pollset->provider->cleanup != ((signed int (*)(struct apr_pollset_t *))NULL) ? (_Bool)1 : (_Bool)0;
+  signed int return_value_apr_pool_cleanup_run_1;
+  if(tmp_if_expr_2)
   {
-    return_value_apr_pool_cleanup_run$1=apr_pool_cleanup_run(pollset->pool, (void *)pollset, pollset_cleanup);
-    return return_value_apr_pool_cleanup_run$1;
+    return_value_apr_pool_cleanup_run_1=apr_pool_cleanup_run(pollset->pool, (void *)pollset, pollset_cleanup);
+    return return_value_apr_pool_cleanup_run_1;
   }
 
   else
@@ -14456,11 +14456,11 @@ void apr_pollset_drain_wakeup_pipe(struct apr_pollset_t *pollset)
 {
   char rb[512l];
   unsigned long int nr = sizeof(char [512l]) /*512ul*/ ;
-  signed int return_value_apr_file_read$1;
+  signed int return_value_apr_file_read_1;
   do
   {
-    return_value_apr_file_read$1=apr_file_read(pollset->wakeup_pipe[(signed long int)0], (void *)rb, &nr);
-    if(!(return_value_apr_file_read$1 == 0))
+    return_value_apr_file_read_1=apr_file_read(pollset->wakeup_pipe[(signed long int)0], (void *)rb, &nr);
+    if(!(return_value_apr_file_read_1 == 0))
       break;
 
     if(!(nr == sizeof(char [512l]) /*512ul*/ ))
@@ -14499,11 +14499,11 @@ signed int apr_pollset_remove(struct apr_pollset_t *pollset, const struct apr_po
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/pollset.c line 326
 signed int apr_pollset_wakeup(struct apr_pollset_t *pollset)
 {
-  signed int return_value_apr_file_putc$1;
+  signed int return_value_apr_file_putc_1;
   if(!((4u & pollset->flags) == 0u))
   {
-    return_value_apr_file_putc$1=apr_file_putc((char)1, pollset->wakeup_pipe[(signed long int)1]);
-    return return_value_apr_file_putc$1;
+    return_value_apr_file_putc_1=apr_file_putc((char)1, pollset->wakeup_pipe[(signed long int)1]);
+    return return_value_apr_file_putc_1;
   }
 
   else
@@ -14631,9 +14631,9 @@ void apr_pool_cleanup_register(struct apr_pool_t *p, const void *data, signed in
 
     else
     {
-      void *return_value_apr_palloc$1;
-      return_value_apr_palloc$1=apr_palloc(p, sizeof(struct cleanup_t) /*32ul*/ );
-      c = (struct cleanup_t *)return_value_apr_palloc$1;
+      void *return_value_apr_palloc_1;
+      return_value_apr_palloc_1=apr_palloc(p, sizeof(struct cleanup_t) /*32ul*/ );
+      c = (struct cleanup_t *)return_value_apr_palloc_1;
     }
     c->data = data;
     c->plain_cleanup_fn = plain_cleanup_fn;
@@ -14693,18 +14693,18 @@ void apr_pool_clear_debug(struct apr_pool_t *pool, const char *file_line)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 951
 signed int apr_pool_create_core_ex(struct apr_pool_t **newpool, signed int (*abort_fn)(signed int), struct apr_allocator_t *allocator)
 {
-  signed int return_value_apr_pool_create_unmanaged_ex$1;
-  return_value_apr_pool_create_unmanaged_ex$1=apr_pool_create_unmanaged_ex(newpool, abort_fn, allocator);
-  return return_value_apr_pool_create_unmanaged_ex$1;
+  signed int return_value_apr_pool_create_unmanaged_ex_1;
+  return_value_apr_pool_create_unmanaged_ex_1=apr_pool_create_unmanaged_ex(newpool, abort_fn, allocator);
+  return return_value_apr_pool_create_unmanaged_ex_1;
 }
 
 // apr_pool_create_core_ex_debug
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2563
 signed int apr_pool_create_core_ex_debug(struct apr_pool_t **newpool, signed int (*abort_fn)(signed int), struct apr_allocator_t *allocator, const char *file_line)
 {
-  signed int return_value_apr_pool_create_unmanaged_ex$1;
-  return_value_apr_pool_create_unmanaged_ex$1=apr_pool_create_unmanaged_ex(newpool, abort_fn, allocator);
-  return return_value_apr_pool_create_unmanaged_ex$1;
+  signed int return_value_apr_pool_create_unmanaged_ex_1;
+  return_value_apr_pool_create_unmanaged_ex_1=apr_pool_create_unmanaged_ex(newpool, abort_fn, allocator);
+  return return_value_apr_pool_create_unmanaged_ex_1;
 }
 
 // apr_pool_create_ex
@@ -14783,9 +14783,9 @@ signed int apr_pool_create_ex(struct apr_pool_t **newpool, struct apr_pool_t *pa
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2554
 signed int apr_pool_create_ex_debug(struct apr_pool_t **newpool, struct apr_pool_t *parent, signed int (*abort_fn)(signed int), struct apr_allocator_t *allocator, const char *file_line)
 {
-  signed int return_value_apr_pool_create_ex$1;
-  return_value_apr_pool_create_ex$1=apr_pool_create_ex(newpool, parent, abort_fn, allocator);
-  return return_value_apr_pool_create_ex$1;
+  signed int return_value_apr_pool_create_ex_1;
+  return_value_apr_pool_create_ex_1=apr_pool_create_ex(newpool, parent, abort_fn, allocator);
+  return return_value_apr_pool_create_ex_1;
 }
 
 // apr_pool_create_unmanaged_ex
@@ -14804,9 +14804,9 @@ signed int apr_pool_create_unmanaged_ex(struct apr_pool_t **newpool, signed int 
     pool_allocator = allocator;
     if(pool_allocator == ((struct apr_allocator_t *)NULL))
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct apr_allocator_t) /*192ul*/  + (unsigned long int)(8 - 1) & (unsigned long int)~(8 - 1));
-      pool_allocator = (struct apr_allocator_t *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct apr_allocator_t) /*192ul*/  + (unsigned long int)(8 - 1) & (unsigned long int)~(8 - 1));
+      pool_allocator = (struct apr_allocator_t *)return_value_malloc_1;
       if(pool_allocator == ((struct apr_allocator_t *)NULL))
       {
         if(!(abort_fn == ((signed int (*)(signed int))NULL)))
@@ -14862,9 +14862,9 @@ signed int apr_pool_create_unmanaged_ex(struct apr_pool_t **newpool, signed int 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2571
 signed int apr_pool_create_unmanaged_ex_debug(struct apr_pool_t **newpool, signed int (*abort_fn)(signed int), struct apr_allocator_t *allocator, const char *file_line)
 {
-  signed int return_value_apr_pool_create_unmanaged_ex$1;
-  return_value_apr_pool_create_unmanaged_ex$1=apr_pool_create_unmanaged_ex(newpool, abort_fn, allocator);
-  return return_value_apr_pool_create_unmanaged_ex$1;
+  signed int return_value_apr_pool_create_unmanaged_ex_1;
+  return_value_apr_pool_create_unmanaged_ex_1=apr_pool_create_unmanaged_ex(newpool, abort_fn, allocator);
+  return return_value_apr_pool_create_unmanaged_ex_1;
 }
 
 // apr_pool_destroy
@@ -14898,15 +14898,15 @@ void apr_pool_destroy(struct apr_pool_t *pool)
   allocator = pool->allocator;
   active = pool->self;
   *active->ref = (struct apr_memnode_t *)(void *)0;
-  struct apr_pool_t *return_value_apr_allocator_owner_get$1;
-  return_value_apr_allocator_owner_get$1=apr_allocator_owner_get(allocator);
-  if(return_value_apr_allocator_owner_get$1 == pool)
+  struct apr_pool_t *return_value_apr_allocator_owner_get_1;
+  return_value_apr_allocator_owner_get_1=apr_allocator_owner_get(allocator);
+  if(return_value_apr_allocator_owner_get_1 == pool)
     apr_allocator_mutex_set(allocator, (struct apr_thread_mutex_t *)(void *)0);
 
   allocator_free(allocator, active);
-  struct apr_pool_t *return_value_apr_allocator_owner_get$2;
-  return_value_apr_allocator_owner_get$2=apr_allocator_owner_get(allocator);
-  if(return_value_apr_allocator_owner_get$2 == pool)
+  struct apr_pool_t *return_value_apr_allocator_owner_get_2;
+  return_value_apr_allocator_owner_get_2=apr_allocator_owner_get(allocator);
+  if(return_value_apr_allocator_owner_get_2 == pool)
     apr_allocator_destroy(allocator);
 
 }
@@ -14923,16 +14923,16 @@ void apr_pool_destroy_debug(struct apr_pool_t *pool, const char *file_line)
 signed int apr_pool_initialize(void)
 {
   signed int rv;
-  unsigned char tmp_post$1 = apr_pools_initialized;
+  unsigned char tmp_post_1 = apr_pools_initialized;
   apr_pools_initialized = apr_pools_initialized + 1;
-  if(!(tmp_post$1 == 0))
+  if(!(tmp_post_1 == 0))
     return 0;
 
   else
   {
-    signed long int return_value_sysconf$2;
-    return_value_sysconf$2=sysconf(30);
-    boundary_size = (unsigned int)return_value_sysconf$2;
+    signed long int return_value_sysconf_2;
+    return_value_sysconf_2=sysconf(30);
+    boundary_size = (unsigned int)return_value_sysconf_2;
     boundary_index = (unsigned int)12;
     for( ; !((unsigned int)(1 << boundary_index) >= boundary_size); boundary_index = boundary_index + 1u)
       ;
@@ -15000,12 +15000,12 @@ signed int apr_pool_is_ancestor(struct apr_pool_t *a, struct apr_pool_t *b)
 
 // apr_pool_note_subprocess
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2415
-void apr_pool_note_subprocess(struct apr_pool_t *pool, struct apr_proc_t *proc, enum anonymous$17 how)
+void apr_pool_note_subprocess(struct apr_pool_t *pool, struct apr_proc_t *proc, enum anonymous_17 how)
 {
   struct process_chain *pc;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct process_chain) /*24ul*/ );
-  pc = (struct process_chain *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct process_chain) /*24ul*/ );
+  pc = (struct process_chain *)return_value_apr_palloc_1;
   pc->proc = proc;
   pc->kill_how = how;
   pc->next = pool->subprocesses;
@@ -15034,9 +15034,9 @@ void apr_pool_pre_cleanup_register(struct apr_pool_t *p, const void *data, signe
 
     else
     {
-      void *return_value_apr_palloc$1;
-      return_value_apr_palloc$1=apr_palloc(p, sizeof(struct cleanup_t) /*32ul*/ );
-      c = (struct cleanup_t *)return_value_apr_palloc$1;
+      void *return_value_apr_palloc_1;
+      return_value_apr_palloc_1=apr_palloc(p, sizeof(struct cleanup_t) /*32ul*/ );
+      c = (struct cleanup_t *)return_value_apr_palloc_1;
     }
     c->data = data;
     c->plain_cleanup_fn = plain_cleanup_fn;
@@ -15090,9 +15090,9 @@ signed int apr_pool_userdata_set(const void *data, const char *key, signed int (
   if(pool->user_data == ((struct apr_hash_t *)NULL))
     pool->user_data=apr_hash_make(pool);
 
-  void *return_value_apr_hash_get$1;
-  return_value_apr_hash_get$1=apr_hash_get(pool->user_data, (const void *)key, (signed long int)-1);
-  if(return_value_apr_hash_get$1 == NULL)
+  void *return_value_apr_hash_get_1;
+  return_value_apr_hash_get_1=apr_hash_get(pool->user_data, (const void *)key, (signed long int)-1);
+  if(return_value_apr_hash_get_1 == NULL)
   {
     char *new_key;
     new_key=apr_pstrdup(pool, key);
@@ -15133,42 +15133,42 @@ signed int apr_proc_create(struct apr_proc_t *new, const char *progname, const c
   new->in = attr->parent_in;
   new->err = attr->parent_err;
   new->out = attr->parent_out;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
   if(!(attr->errchk == 0))
   {
     if(!(attr->currdir == ((char *)NULL)))
     {
-      signed int return_value_access$2;
-      return_value_access$2=access(attr->currdir, 1);
-      if(return_value_access$2 == -1)
+      signed int return_value_access_2;
+      return_value_access_2=access(attr->currdir, 1);
+      if(return_value_access_2 == -1)
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        return *return_value___errno_location$1;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        return *return_value___errno_location_1;
       }
 
     }
 
     if(attr->cmdtype == APR_PROGRAM)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = attr->cmdtype == APR_PROGRAM_ENV ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_5 = attr->cmdtype == APR_PROGRAM_ENV ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (signed int)*progname == 47 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (signed int)*progname == 47 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
     {
-      signed int return_value_access$4;
-      return_value_access$4=access(progname, 1);
-      if(return_value_access$4 == -1)
+      signed int return_value_access_4;
+      return_value_access_4=access(progname, 1);
+      if(return_value_access_4 == -1)
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        return *return_value___errno_location$3;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        return *return_value___errno_location_3;
       }
 
     }
@@ -15176,17 +15176,17 @@ signed int apr_proc_create(struct apr_proc_t *new, const char *progname, const c
   }
 
   new->pid=fork();
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  unsigned int return_value_geteuid$18;
-  unsigned int return_value_geteuid$21;
-  _Bool tmp_if_expr$26;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  unsigned int return_value_geteuid_18;
+  unsigned int return_value_geteuid_21;
+  _Bool tmp_if_expr_26;
   if(!(new->pid >= 0))
   {
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    return *return_value___errno_location$7;
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    return *return_value___errno_location_7;
   }
 
   else
@@ -15194,32 +15194,32 @@ signed int apr_proc_create(struct apr_proc_t *new, const char *progname, const c
     {
       if(!(attr->child_in == ((struct apr_file_t *)NULL)))
       {
-        struct apr_pool_t *return_value_apr_file_pool_get$8;
-        return_value_apr_file_pool_get$8=apr_file_pool_get(attr->child_in);
-        apr_pool_cleanup_kill(return_value_apr_file_pool_get$8, (const void *)attr->child_in, apr_unix_file_cleanup);
+        struct apr_pool_t *return_value_apr_file_pool_get_8;
+        return_value_apr_file_pool_get_8=apr_file_pool_get(attr->child_in);
+        apr_pool_cleanup_kill(return_value_apr_file_pool_get_8, (const void *)attr->child_in, apr_unix_file_cleanup);
       }
 
       if(!(attr->child_out == ((struct apr_file_t *)NULL)))
       {
-        struct apr_pool_t *return_value_apr_file_pool_get$9;
-        return_value_apr_file_pool_get$9=apr_file_pool_get(attr->child_out);
-        apr_pool_cleanup_kill(return_value_apr_file_pool_get$9, (const void *)attr->child_out, apr_unix_file_cleanup);
+        struct apr_pool_t *return_value_apr_file_pool_get_9;
+        return_value_apr_file_pool_get_9=apr_file_pool_get(attr->child_out);
+        apr_pool_cleanup_kill(return_value_apr_file_pool_get_9, (const void *)attr->child_out, apr_unix_file_cleanup);
       }
 
       if(!(attr->child_err == ((struct apr_file_t *)NULL)))
       {
-        struct apr_pool_t *return_value_apr_file_pool_get$10;
-        return_value_apr_file_pool_get$10=apr_file_pool_get(attr->child_err);
-        apr_pool_cleanup_kill(return_value_apr_file_pool_get$10, (const void *)attr->child_err, apr_unix_file_cleanup);
+        struct apr_pool_t *return_value_apr_file_pool_get_10;
+        return_value_apr_file_pool_get_10=apr_file_pool_get(attr->child_err);
+        apr_pool_cleanup_kill(return_value_apr_file_pool_get_10, (const void *)attr->child_err, apr_unix_file_cleanup);
       }
 
       apr_pool_cleanup_for_exec();
       if(!(attr->child_in == ((struct apr_file_t *)NULL)))
-        tmp_if_expr$11 = attr->child_in->filedes == -1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_11 = attr->child_in->filedes == -1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$11 = (_Bool)0;
-      if(tmp_if_expr$11)
+        tmp_if_expr_11 = (_Bool)0;
+      if(tmp_if_expr_11)
         close(0);
 
       else
@@ -15234,11 +15234,11 @@ signed int apr_proc_create(struct apr_proc_t *new, const char *progname, const c
         }
 
       if(!(attr->child_out == ((struct apr_file_t *)NULL)))
-        tmp_if_expr$12 = attr->child_out->filedes == -1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_12 = attr->child_out->filedes == -1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$12 = (_Bool)0;
-      if(tmp_if_expr$12)
+        tmp_if_expr_12 = (_Bool)0;
+      if(tmp_if_expr_12)
         close(1);
 
       else
@@ -15253,11 +15253,11 @@ signed int apr_proc_create(struct apr_proc_t *new, const char *progname, const c
         }
 
       if(!(attr->child_err == ((struct apr_file_t *)NULL)))
-        tmp_if_expr$13 = attr->child_err->filedes == -1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_13 = attr->child_err->filedes == -1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$13 = (_Bool)0;
-      if(tmp_if_expr$13)
+        tmp_if_expr_13 = (_Bool)0;
+      if(tmp_if_expr_13)
         close(2);
 
       else
@@ -15274,15 +15274,15 @@ signed int apr_proc_create(struct apr_proc_t *new, const char *progname, const c
       apr_signal(17, (void (*)(signed int))0);
       if(!(attr->currdir == ((char *)NULL)))
       {
-        signed int return_value_chdir$15;
-        return_value_chdir$15=chdir(attr->currdir);
-        if(return_value_chdir$15 == -1)
+        signed int return_value_chdir_15;
+        return_value_chdir_15=chdir(attr->currdir);
+        if(return_value_chdir_15 == -1)
         {
           if(!(attr->errfn == ((void (*)(struct apr_pool_t *, signed int, const char *))NULL)))
           {
-            signed int *return_value___errno_location$14;
-            return_value___errno_location$14=__errno_location();
-            attr->errfn(pool, *return_value___errno_location$14, "change of working directory failed");
+            signed int *return_value___errno_location_14;
+            return_value___errno_location_14=__errno_location();
+            attr->errfn(pool, *return_value___errno_location_14, "change of working directory failed");
           }
 
           _exit(-1);
@@ -15292,18 +15292,18 @@ signed int apr_proc_create(struct apr_proc_t *new, const char *progname, const c
 
       if(!(attr->gid == 4294967295u))
       {
-        return_value_geteuid$18=geteuid();
-        if(return_value_geteuid$18 == 0u)
+        return_value_geteuid_18=geteuid();
+        if(return_value_geteuid_18 == 0u)
         {
-          signed int return_value_setgid$17;
-          return_value_setgid$17=setgid(attr->gid);
-          if(!(return_value_setgid$17 == 0))
+          signed int return_value_setgid_17;
+          return_value_setgid_17=setgid(attr->gid);
+          if(!(return_value_setgid_17 == 0))
           {
             if(!(attr->errfn == ((void (*)(struct apr_pool_t *, signed int, const char *))NULL)))
             {
-              signed int *return_value___errno_location$16;
-              return_value___errno_location$16=__errno_location();
-              attr->errfn(pool, *return_value___errno_location$16, "setting of group failed");
+              signed int *return_value___errno_location_16;
+              return_value___errno_location_16=__errno_location();
+              attr->errfn(pool, *return_value___errno_location_16, "setting of group failed");
             }
 
             _exit(-1);
@@ -15315,18 +15315,18 @@ signed int apr_proc_create(struct apr_proc_t *new, const char *progname, const c
 
       if(!(attr->uid == 4294967295u))
       {
-        return_value_geteuid$21=geteuid();
-        if(return_value_geteuid$21 == 0u)
+        return_value_geteuid_21=geteuid();
+        if(return_value_geteuid_21 == 0u)
         {
-          signed int return_value_setuid$20;
-          return_value_setuid$20=setuid(attr->uid);
-          if(!(return_value_setuid$20 == 0))
+          signed int return_value_setuid_20;
+          return_value_setuid_20=setuid(attr->uid);
+          if(!(return_value_setuid_20 == 0))
           {
             if(!(attr->errfn == ((void (*)(struct apr_pool_t *, signed int, const char *))NULL)))
             {
-              signed int *return_value___errno_location$19;
-              return_value___errno_location$19=__errno_location();
-              attr->errfn(pool, *return_value___errno_location$19, "setting of user failed");
+              signed int *return_value___errno_location_19;
+              return_value___errno_location_19=__errno_location();
+              attr->errfn(pool, *return_value___errno_location_19, "setting of user failed");
             }
 
             _exit(-1);
@@ -15336,26 +15336,26 @@ signed int apr_proc_create(struct apr_proc_t *new, const char *progname, const c
 
       }
 
-      signed int return_value_limit_proc$23;
-      return_value_limit_proc$23=limit_proc(attr);
-      if(!(return_value_limit_proc$23 == 0))
+      signed int return_value_limit_proc_23;
+      return_value_limit_proc_23=limit_proc(attr);
+      if(!(return_value_limit_proc_23 == 0))
       {
         if(!(attr->errfn == ((void (*)(struct apr_pool_t *, signed int, const char *))NULL)))
         {
-          signed int *return_value___errno_location$22;
-          return_value___errno_location$22=__errno_location();
-          attr->errfn(pool, *return_value___errno_location$22, "setting of resource limits failed");
+          signed int *return_value___errno_location_22;
+          return_value___errno_location_22=__errno_location();
+          attr->errfn(pool, *return_value___errno_location_22, "setting of resource limits failed");
         }
 
         _exit(-1);
       }
 
       if(attr->cmdtype == APR_SHELLCMD)
-        tmp_if_expr$26 = (_Bool)1;
+        tmp_if_expr_26 = (_Bool)1;
 
       else
-        tmp_if_expr$26 = attr->cmdtype == APR_SHELLCMD_ENV ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$26)
+        tmp_if_expr_26 = attr->cmdtype == APR_SHELLCMD_ENV ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_26)
       {
         signed int onearg_len = 0;
         const char *newargs[4l];
@@ -15364,9 +15364,9 @@ signed int apr_proc_create(struct apr_proc_t *new, const char *progname, const c
         i = 0;
         while(!(args[(signed long int)i] == ((const char *)NULL)))
         {
-          unsigned long int return_value_strlen$24;
-          return_value_strlen$24=strlen(args[(signed long int)i]);
-          onearg_len = onearg_len + (signed int)return_value_strlen$24;
+          unsigned long int return_value_strlen_24;
+          return_value_strlen_24=strlen(args[(signed long int)i]);
+          onearg_len = onearg_len + (signed int)return_value_strlen_24;
           onearg_len = onearg_len + 1;
           i = i + 1;
         }
@@ -15383,9 +15383,9 @@ signed int apr_proc_create(struct apr_proc_t *new, const char *progname, const c
           {
             char *ch;
             char *onearg;
-            void *return_value_apr_palloc$25;
-            return_value_apr_palloc$25=apr_palloc(pool, (unsigned long int)onearg_len);
-            onearg = (char *)return_value_apr_palloc$25;
+            void *return_value_apr_palloc_25;
+            return_value_apr_palloc_25=apr_palloc(pool, (unsigned long int)onearg_len);
+            onearg = (char *)return_value_apr_palloc_25;
             ch = onearg;
             i = 0;
             while(!(args[(signed long int)i] == ((const char *)NULL)))
@@ -15443,9 +15443,9 @@ signed int apr_proc_create(struct apr_proc_t *new, const char *progname, const c
       {
         char *desc;
         desc=apr_psprintf(pool, "exec of '%s' failed", progname);
-        signed int *return_value___errno_location$27;
-        return_value___errno_location$27=__errno_location();
-        attr->errfn(pool, *return_value___errno_location$27, desc);
+        signed int *return_value___errno_location_27;
+        return_value___errno_location_27=__errno_location();
+        attr->errfn(pool, *return_value___errno_location_27, desc);
       }
 
       _exit(-1);
@@ -15479,13 +15479,13 @@ signed int apr_proc_create(struct apr_proc_t *new, const char *progname, const c
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_thread_proc.h line 688
 signed int apr_proc_detach(signed int daemonize)
 {
-  signed int return_value_chdir$2;
-  return_value_chdir$2=chdir("/");
-  if(return_value_chdir$2 == -1)
+  signed int return_value_chdir_2;
+  return_value_chdir_2=chdir("/");
+  if(return_value_chdir_2 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   if(!(daemonize == 0))
@@ -15505,44 +15505,44 @@ signed int apr_proc_detach(signed int daemonize)
 
   }
 
-  signed int return_value_setsid$4;
-  return_value_setsid$4=setsid();
-  if(return_value_setsid$4 == -1)
+  signed int return_value_setsid_4;
+  return_value_setsid_4=setsid();
+  if(return_value_setsid_4 == -1)
   {
     if(!(daemonize == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      return *return_value___errno_location$3;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      return *return_value___errno_location_3;
     }
 
   }
 
-  struct _IO_FILE *return_value_freopen$6;
-  return_value_freopen$6=freopen("/dev/null", "r", stdin);
-  if(return_value_freopen$6 == ((struct _IO_FILE *)NULL))
+  struct _IO_FILE *return_value_freopen_6;
+  return_value_freopen_6=freopen("/dev/null", "r", stdin);
+  if(return_value_freopen_6 == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    return *return_value___errno_location$5;
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    return *return_value___errno_location_5;
   }
 
-  struct _IO_FILE *return_value_freopen$8;
-  return_value_freopen$8=freopen("/dev/null", "w", stdout);
-  if(return_value_freopen$8 == ((struct _IO_FILE *)NULL))
+  struct _IO_FILE *return_value_freopen_8;
+  return_value_freopen_8=freopen("/dev/null", "w", stdout);
+  if(return_value_freopen_8 == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    return *return_value___errno_location$7;
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    return *return_value___errno_location_7;
   }
 
-  struct _IO_FILE *return_value_freopen$10;
-  return_value_freopen$10=freopen("/dev/null", "w", stderr);
-  if(return_value_freopen$10 == ((struct _IO_FILE *)NULL))
+  struct _IO_FILE *return_value_freopen_10;
+  return_value_freopen_10=freopen("/dev/null", "w", stderr);
+  if(return_value_freopen_10 == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$9;
-    return_value___errno_location$9=__errno_location();
-    return *return_value___errno_location$9;
+    signed int *return_value___errno_location_9;
+    return_value___errno_location_9=__errno_location();
+    return *return_value___errno_location_9;
   }
 
   return 0;
@@ -15557,9 +15557,9 @@ signed int apr_proc_fork(struct apr_proc_t *proc, struct apr_pool_t *pool)
   pid=fork();
   if(!(pid >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   else
@@ -15578,13 +15578,13 @@ signed int apr_proc_fork(struct apr_proc_t *proc, struct apr_pool_t *pool)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_thread_proc.h line 772
 signed int apr_proc_kill(struct apr_proc_t *proc, signed int signum)
 {
-  signed int return_value_kill$2;
-  return_value_kill$2=kill(proc->pid, signum);
-  if(return_value_kill$2 == -1)
+  signed int return_value_kill_2;
+  return_value_kill_2=kill(proc->pid, signum);
+  if(return_value_kill_2 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   return 0;
@@ -15610,15 +15610,15 @@ signed int apr_proc_mutex_cleanup(void *mutex)
 
 // apr_proc_mutex_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_proc_mutex.h line 79
-signed int apr_proc_mutex_create(struct apr_proc_mutex_t **mutex, const char *fname, enum anonymous$5 mech, struct apr_pool_t *pool)
+signed int apr_proc_mutex_create(struct apr_proc_mutex_t **mutex, const char *fname, enum anonymous_5 mech, struct apr_pool_t *pool)
 {
   struct apr_proc_mutex_t *new_mutex;
   signed int rv;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_proc_mutex_t) /*64ul*/ );
-  void *return_value_memset$2;
-  return_value_memset$2=memset(return_value_apr_palloc$1, 0, sizeof(struct apr_proc_mutex_t) /*64ul*/ );
-  new_mutex = (struct apr_proc_mutex_t *)return_value_memset$2;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_proc_mutex_t) /*64ul*/ );
+  void *return_value_memset_2;
+  return_value_memset_2=memset(return_value_apr_palloc_1, 0, sizeof(struct apr_proc_mutex_t) /*64ul*/ );
+  new_mutex = (struct apr_proc_mutex_t *)return_value_memset_2;
   new_mutex->pool = pool;
   rv=proc_mutex_create(new_mutex, mech, fname);
   if(!(rv == 0))
@@ -15637,16 +15637,16 @@ const char * apr_proc_mutex_defname(void)
 {
   signed int rv;
   struct apr_proc_mutex_t mutex;
-  rv=proc_mutex_choose_method(&mutex, (enum anonymous$5)APR_LOCK_DEFAULT);
+  rv=proc_mutex_choose_method(&mutex, (enum anonymous_5)APR_LOCK_DEFAULT);
   if(!(rv == 0))
     return "unknown";
 
   else
   {
     mutex.meth = mutex.inter_meth;
-    const char *return_value_apr_proc_mutex_name$1;
-    return_value_apr_proc_mutex_name$1=apr_proc_mutex_name(&mutex);
-    return return_value_apr_proc_mutex_name$1;
+    const char *return_value_apr_proc_mutex_name_1;
+    return_value_apr_proc_mutex_name_1=apr_proc_mutex_name(&mutex);
+    return return_value_apr_proc_mutex_name_1;
   }
 }
 
@@ -15654,9 +15654,9 @@ const char * apr_proc_mutex_defname(void)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_proc_mutex.h line 125
 signed int apr_proc_mutex_destroy(struct apr_proc_mutex_t *mutex)
 {
-  signed int return_value_apr_pool_cleanup_run$1;
-  return_value_apr_pool_cleanup_run$1=apr_pool_cleanup_run(mutex->pool, (void *)mutex, apr_proc_mutex_cleanup);
-  return return_value_apr_pool_cleanup_run$1;
+  signed int return_value_apr_pool_cleanup_run_1;
+  return_value_apr_pool_cleanup_run_1=apr_pool_cleanup_run(mutex->pool, (void *)mutex, apr_proc_mutex_cleanup);
+  return return_value_apr_pool_cleanup_run_1;
 }
 
 // apr_proc_mutex_lock
@@ -15793,9 +15793,9 @@ void apr_proc_other_child_refresh_all(signed int reason)
 void apr_proc_other_child_register(struct apr_proc_t *proc, void (*maintenance)(signed int, void *, signed int), void *data, struct apr_file_t *write_fd, struct apr_pool_t *p)
 {
   struct apr_other_child_rec_t *ocr;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(p, sizeof(struct apr_other_child_rec_t) /*48ul*/ );
-  ocr = (struct apr_other_child_rec_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(p, sizeof(struct apr_other_child_rec_t) /*48ul*/ );
+  ocr = (struct apr_other_child_rec_t *)return_value_apr_palloc_1;
   ocr->p = p;
   ocr->proc = proc;
   ocr->maintenance = maintenance;
@@ -15825,42 +15825,42 @@ void apr_proc_other_child_unregister(void *data)
 
 // apr_proc_wait
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_thread_proc.h line 643
-signed int apr_proc_wait(struct apr_proc_t *proc, signed int *exitcode, enum anonymous$26 *exitwhy, enum anonymous$27 waithow)
+signed int apr_proc_wait(struct apr_proc_t *proc, signed int *exitcode, enum anonymous_26 *exitwhy, enum anonymous_27 waithow)
 {
   signed int pstatus;
   signed int waitpid_options = 2;
   signed int exit_int;
   signed int ignore;
-  enum anonymous$26 ignorewhy;
+  enum anonymous_26 ignorewhy;
   if(exitcode == ((signed int *)NULL))
     exitcode = &ignore;
 
-  if(exitwhy == ((enum anonymous$26 *)NULL))
+  if(exitwhy == ((enum anonymous_26 *)NULL))
     exitwhy = &ignorewhy;
 
   if(!((signed int)waithow == APR_WAIT))
     waitpid_options = waitpid_options | 1;
 
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     pstatus=waitpid(proc->pid, &exit_int, waitpid_options);
     if(!(pstatus >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   if(pstatus >= 1)
   {
     proc->pid = pstatus;
     /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$28
+union anonymous_28
 {
   // __in
   signed int __in;
@@ -15872,18 +15872,18 @@ union anonymous$28
     ;
     if((0x7f & exit_int) == 0)
     {
-      *exitwhy = (enum anonymous$26)APR_PROC_EXIT;
-      *exitcode = (((union anonymous$28){ .__in=exit_int }).__i & 0xff00) >> 8;
+      *exitwhy = (enum anonymous_26)APR_PROC_EXIT;
+      *exitcode = (((union anonymous_28){ .__in=exit_int }).__i & 0xff00) >> 8;
     }
 
     else
       if((signed int)((127 & (signed char)exit_int) + 1) >> 1 >= 1)
       {
-        *exitwhy = (enum anonymous$26)APR_PROC_SIGNAL;
+        *exitwhy = (enum anonymous_26)APR_PROC_SIGNAL;
         if(!((0x80 & exit_int) == 0))
-          *exitwhy = *exitwhy | (enum anonymous$26)APR_PROC_SIGNAL_CORE;
+          *exitwhy = *exitwhy | (enum anonymous_26)APR_PROC_SIGNAL_CORE;
 
-        *exitcode = ((union anonymous$28){ .__in=exit_int }).__i & 0x7f;
+        *exitcode = ((union anonymous_28){ .__in=exit_int }).__i & 0x7f;
       }
 
       else
@@ -15895,19 +15895,19 @@ union anonymous$28
     if(pstatus == 0)
       return 20000 + 50000 + 6;
 
-  signed int *return_value___errno_location$3;
-  return_value___errno_location$3=__errno_location();
-  return *return_value___errno_location$3;
+  signed int *return_value___errno_location_3;
+  return_value___errno_location_3=__errno_location();
+  return *return_value___errno_location_3;
 }
 
 // apr_proc_wait_all_procs
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/proc.c line 600
-signed int apr_proc_wait_all_procs(struct apr_proc_t *proc, signed int *exitcode, enum anonymous$26 *exitwhy, enum anonymous$27 waithow, struct apr_pool_t *p)
+signed int apr_proc_wait_all_procs(struct apr_proc_t *proc, signed int *exitcode, enum anonymous_26 *exitwhy, enum anonymous_27 waithow, struct apr_pool_t *p)
 {
   proc->pid = -1;
-  signed int return_value_apr_proc_wait$1;
-  return_value_apr_proc_wait$1=apr_proc_wait(proc, exitcode, exitwhy, waithow);
-  return return_value_apr_proc_wait$1;
+  signed int return_value_apr_proc_wait_1;
+  return_value_apr_proc_wait_1=apr_proc_wait(proc, exitcode, exitwhy, waithow);
+  return return_value_apr_proc_wait_1;
 }
 
 // apr_procattr_addrspace_set
@@ -15942,15 +15942,15 @@ signed int apr_procattr_child_err_set(struct apr_procattr_t *attr, struct apr_fi
 
   }
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(rv == 0 && !(child_err == ((struct apr_file_t *)NULL)))
   {
     if(!(attr->child_err == ((struct apr_file_t *)NULL)))
-      tmp_if_expr$1 = attr->child_err->filedes != -1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = attr->child_err->filedes != -1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       rv=apr_file_dup2(attr->child_err, child_err, attr->pool);
 
     else
@@ -16008,15 +16008,15 @@ signed int apr_procattr_child_in_set(struct apr_procattr_t *attr, struct apr_fil
 
   }
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(rv == 0 && !(child_in == ((struct apr_file_t *)NULL)))
   {
     if(!(attr->child_in == ((struct apr_file_t *)NULL)))
-      tmp_if_expr$1 = attr->child_in->filedes != -1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = attr->child_in->filedes != -1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       rv=apr_file_dup2(attr->child_in, child_in, attr->pool);
 
     else
@@ -16066,15 +16066,15 @@ signed int apr_procattr_child_out_set(struct apr_procattr_t *attr, struct apr_fi
 
   }
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(rv == 0 && !(child_out == ((struct apr_file_t *)NULL)))
   {
     if(!(attr->child_out == ((struct apr_file_t *)NULL)))
-      tmp_if_expr$1 = attr->child_out->filedes != -1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = attr->child_out->filedes != -1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       rv=apr_file_dup2(attr->child_out, child_out, attr->pool);
 
     else
@@ -16101,7 +16101,7 @@ signed int apr_procattr_child_out_set(struct apr_procattr_t *attr, struct apr_fi
 
 // apr_procattr_cmdtype_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/proc.c line 205
-signed int apr_procattr_cmdtype_set(struct apr_procattr_t *attr, enum anonymous$29 cmd)
+signed int apr_procattr_cmdtype_set(struct apr_procattr_t *attr, enum anonymous_29 cmd)
 {
   attr->cmdtype = (signed int)cmd;
   return 0;
@@ -16111,11 +16111,11 @@ signed int apr_procattr_cmdtype_set(struct apr_procattr_t *attr, enum anonymous$
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/proc.c line 28
 signed int apr_procattr_create(struct apr_procattr_t **new, struct apr_pool_t *pool)
 {
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_procattr_t) /*128ul*/ );
-  void *return_value_memset$2;
-  return_value_memset$2=memset(return_value_apr_palloc$1, 0, sizeof(struct apr_procattr_t) /*128ul*/ );
-  *new = (struct apr_procattr_t *)return_value_memset$2;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_procattr_t) /*128ul*/ );
+  void *return_value_memset_2;
+  return_value_memset_2=memset(return_value_apr_palloc_1, 0, sizeof(struct apr_procattr_t) /*128ul*/ );
+  *new = (struct apr_procattr_t *)return_value_memset_2;
   if(*new == ((struct apr_procattr_t *)NULL))
     return 12;
 
@@ -16302,7 +16302,7 @@ char * apr_pstrcat(struct apr_pool_t *a, ...)
   unsigned long int len = (unsigned long int)0;
   __builtin_va_list adummy;
   va_start(adummy, a);
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
     cp=va_arg(adummy, __typeof__(cp));
@@ -16313,22 +16313,22 @@ char * apr_pstrcat(struct apr_pool_t *a, ...)
     cplen=strlen(cp);
     if(!(nargs >= 6))
     {
-      tmp_post$1 = nargs;
+      tmp_post_1 = nargs;
       nargs = nargs + 1;
-      saved_lengths[(signed long int)tmp_post$1] = cplen;
+      saved_lengths[(signed long int)tmp_post_1] = cplen;
     }
 
     len = len + cplen;
   }
   while((_Bool)1);
   va_end(adummy);
-  void *return_value_apr_palloc$2;
-  return_value_apr_palloc$2=apr_palloc(a, len + (unsigned long int)1);
-  res = (char *)return_value_apr_palloc$2;
+  void *return_value_apr_palloc_2;
+  return_value_apr_palloc_2=apr_palloc(a, len + (unsigned long int)1);
+  res = (char *)return_value_apr_palloc_2;
   cp = res;
   va_start(adummy, a);
   nargs = 0;
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   do
   {
     argp=va_arg(adummy, __typeof__(argp));
@@ -16337,9 +16337,9 @@ char * apr_pstrcat(struct apr_pool_t *a, ...)
 
     if(!(nargs >= 6))
     {
-      tmp_post$3 = nargs;
+      tmp_post_3 = nargs;
       nargs = nargs + 1;
-      len = saved_lengths[(signed long int)tmp_post$3];
+      len = saved_lengths[(signed long int)tmp_post_3];
     }
 
     else
@@ -16373,9 +16373,9 @@ char * apr_pstrcatv(struct apr_pool_t *a, struct iovec *vec, unsigned long int n
   if(!(nbytes == ((unsigned long int *)NULL)))
     *nbytes = len;
 
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(a, len + (unsigned long int)1);
-  res = (char *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(a, len + (unsigned long int)1);
+  res = (char *)return_value_apr_palloc_1;
   src = vec;
   dst = res;
   i = nvec;
@@ -16400,12 +16400,12 @@ char * apr_pstrdup(struct apr_pool_t *a, const char *s)
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(s);
-    len = return_value_strlen$1 + (unsigned long int)1;
-    void *return_value_apr_pmemdup$2;
-    return_value_apr_pmemdup$2=apr_pmemdup(a, (const void *)s, len);
-    res = (char *)return_value_apr_pmemdup$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(s);
+    len = return_value_strlen_1 + (unsigned long int)1;
+    void *return_value_apr_pmemdup_2;
+    return_value_apr_pmemdup_2=apr_pmemdup(a, (const void *)s, len);
+    res = (char *)return_value_apr_pmemdup_2;
     return res;
   }
 }
@@ -16420,9 +16420,9 @@ char * apr_pstrmemdup(struct apr_pool_t *a, const char *s, unsigned long int n)
 
   else
   {
-    void *return_value_apr_palloc$1;
-    return_value_apr_palloc$1=apr_palloc(a, n + (unsigned long int)1);
-    res = (char *)return_value_apr_palloc$1;
+    void *return_value_apr_palloc_1;
+    return_value_apr_palloc_1=apr_palloc(a, n + (unsigned long int)1);
+    res = (char *)return_value_apr_palloc_1;
     memcpy((void *)res, (const void *)s, n);
     res[(signed long int)n] = (char)0;
     return res;
@@ -16440,15 +16440,15 @@ char * apr_pstrndup(struct apr_pool_t *a, const char *s, unsigned long int n)
 
   else
   {
-    void *return_value_memchr$1;
-    return_value_memchr$1=memchr((const void *)s, 0, n);
-    end = (const char *)return_value_memchr$1;
+    void *return_value_memchr_1;
+    return_value_memchr_1=memchr((const void *)s, 0, n);
+    end = (const char *)return_value_memchr_1;
     if(!(end == ((const char *)NULL)))
       n = (unsigned long int)(end - s);
 
-    void *return_value_apr_palloc$2;
-    return_value_apr_palloc$2=apr_palloc(a, n + (unsigned long int)1);
-    res = (char *)return_value_apr_palloc$2;
+    void *return_value_apr_palloc_2;
+    return_value_apr_palloc_2=apr_palloc(a, n + (unsigned long int)1);
+    res = (char *)return_value_apr_palloc_2;
     memcpy((void *)res, (const void *)s, n);
     res[(signed long int)n] = (char)0;
     return res;
@@ -16460,11 +16460,11 @@ char * apr_pstrndup(struct apr_pool_t *a, const char *s, unsigned long int n)
 const char * apr_punescape_entity(struct apr_pool_t *p, const char *str)
 {
   unsigned long int len;
-  signed int return_value_apr_unescape_entity$1;
-  return_value_apr_unescape_entity$1=apr_unescape_entity((char *)(void *)0, str, (signed long int)-1, &len);
-  if(!(return_value_apr_unescape_entity$1 == 0))
+  signed int return_value_apr_unescape_entity_1;
+  return_value_apr_unescape_entity_1=apr_unescape_entity((char *)(void *)0, str, (signed long int)-1, &len);
+  if(!(return_value_apr_unescape_entity_1 == 0))
   {
-    if(return_value_apr_unescape_entity$1 == 15)
+    if(return_value_apr_unescape_entity_1 == 15)
       goto __CPROVER_DUMP_L2;
 
   }
@@ -16472,9 +16472,9 @@ const char * apr_punescape_entity(struct apr_pool_t *p, const char *str)
   else
   {
     char *cmd;
-    void *return_value_apr_palloc$2;
-    return_value_apr_palloc$2=apr_palloc(p, len);
-    cmd = (char *)return_value_apr_palloc$2;
+    void *return_value_apr_palloc_2;
+    return_value_apr_palloc_2=apr_palloc(p, len);
+    cmd = (char *)return_value_apr_palloc_2;
     apr_unescape_entity(cmd, str, (signed long int)-1, (unsigned long int *)(void *)0);
     return cmd;
   }
@@ -16489,11 +16489,11 @@ __CPROVER_DUMP_L2:
 const void * apr_punescape_hex(struct apr_pool_t *p, const char *str, signed int colon, unsigned long int *len)
 {
   unsigned long int size;
-  signed int return_value_apr_unescape_hex$1;
-  return_value_apr_unescape_hex$1=apr_unescape_hex((void *)0, str, (signed long int)-1, colon, &size);
-  if(!(return_value_apr_unescape_hex$1 == 0))
+  signed int return_value_apr_unescape_hex_1;
+  return_value_apr_unescape_hex_1=apr_unescape_hex((void *)0, str, (signed long int)-1, colon, &size);
+  if(!(return_value_apr_unescape_hex_1 == 0))
   {
-    if(return_value_apr_unescape_hex$1 == 12 || return_value_apr_unescape_hex$1 == 15)
+    if(return_value_apr_unescape_hex_1 == 12 || return_value_apr_unescape_hex_1 == 15)
       goto __CPROVER_DUMP_L2;
 
   }
@@ -16516,14 +16516,14 @@ __CPROVER_DUMP_L2:
 const char * apr_punescape_url(struct apr_pool_t *p, const char *url, const char *forbid, const char *reserved, signed int plus)
 {
   unsigned long int len;
-  signed int return_value_apr_unescape_url$1;
-  return_value_apr_unescape_url$1=apr_unescape_url((char *)(void *)0, url, (signed long int)-1, forbid, reserved, plus, &len);
-  if(!(return_value_apr_unescape_url$1 == 0))
+  signed int return_value_apr_unescape_url_1;
+  return_value_apr_unescape_url_1=apr_unescape_url((char *)(void *)0, url, (signed long int)-1, forbid, reserved, plus, &len);
+  if(!(return_value_apr_unescape_url_1 == 0))
   {
-    if(return_value_apr_unescape_url$1 == 22 || return_value_apr_unescape_url$1 == 12)
+    if(return_value_apr_unescape_url_1 == 22 || return_value_apr_unescape_url_1 == 12)
       goto __CPROVER_DUMP_L2;
 
-    if(return_value_apr_unescape_url$1 == 15)
+    if(return_value_apr_unescape_url_1 == 15)
       goto __CPROVER_DUMP_L3;
 
   }
@@ -16531,9 +16531,9 @@ const char * apr_punescape_url(struct apr_pool_t *p, const char *url, const char
   else
   {
     char *buf;
-    void *return_value_apr_palloc$2;
-    return_value_apr_palloc$2=apr_palloc(p, len);
-    buf = (char *)return_value_apr_palloc$2;
+    void *return_value_apr_palloc_2;
+    return_value_apr_palloc_2=apr_palloc(p, len);
+    buf = (char *)return_value_apr_palloc_2;
     apr_unescape_url(buf, url, (signed long int)-1, forbid, reserved, plus, (unsigned long int *)(void *)0);
     return buf;
 
@@ -16566,22 +16566,22 @@ char * apr_pvsprintf(struct apr_pool_t *pool, const char *fmt, void **ap)
   ps.free = (struct apr_memnode_t *)(void *)0;
   if(ps.node->first_avail == ps.node->endp)
   {
-    signed int return_value_psprintf_flush$1;
-    return_value_psprintf_flush$1=psprintf_flush(&ps.vbuff);
-    if(return_value_psprintf_flush$1 == -1)
+    signed int return_value_psprintf_flush_1;
+    return_value_psprintf_flush_1=psprintf_flush(&ps.vbuff);
+    if(return_value_psprintf_flush_1 == -1)
       goto error;
 
   }
 
-  signed int return_value_apr_vformatter$2;
-  return_value_apr_vformatter$2=apr_vformatter(psprintf_flush, &ps.vbuff, fmt, ap);
-  char *tmp_post$3;
-  if(!(return_value_apr_vformatter$2 == -1))
+  signed int return_value_apr_vformatter_2;
+  return_value_apr_vformatter_2=apr_vformatter(psprintf_flush, &ps.vbuff, fmt, ap);
+  char *tmp_post_3;
+  if(!(return_value_apr_vformatter_2 == -1))
   {
     strp = ps.vbuff.curpos;
-    tmp_post$3 = strp;
+    tmp_post_3 = strp;
     strp = strp + 1l;
-    *tmp_post$3 = (char)0;
+    *tmp_post_3 = (char)0;
     size = (unsigned long int)(strp - ps.node->first_avail);
     size = size + (unsigned long int)(8 - 1) & (unsigned long int)~(8 - 1);
     strp = ps.node->first_avail;
@@ -16655,7 +16655,7 @@ void apr_random_add_entropy(struct apr_random_t *g, const void *entropy_, unsign
   unsigned int n;
   const unsigned char *entropy = (const unsigned char *)entropy_;
   n = (unsigned int)0;
-  unsigned int tmp_post$2;
+  unsigned int tmp_post_2;
   for( ; !((unsigned long int)n >= bytes); n = n + 1u)
   {
     struct apr_random_pool_t *p = &g->pools[(signed long int)g->next_pool];
@@ -16666,17 +16666,17 @@ void apr_random_add_entropy(struct apr_random_t *g, const void *entropy_, unsign
     if(!(p->pool_size >= 1u + p->bytes))
     {
       unsigned char *np;
-      void *return_value_apr_palloc$1;
-      return_value_apr_palloc$1=apr_palloc(g->apr_pool, (unsigned long int)((p->bytes + (unsigned int)1) * (unsigned int)2));
-      np = (unsigned char *)return_value_apr_palloc$1;
+      void *return_value_apr_palloc_1;
+      return_value_apr_palloc_1=apr_palloc(g->apr_pool, (unsigned long int)((p->bytes + (unsigned int)1) * (unsigned int)2));
+      np = (unsigned char *)return_value_apr_palloc_1;
       memcpy((void *)np, (const void *)p->pool, (unsigned long int)p->bytes);
       p->pool = np;
       p->pool_size = (p->bytes + (unsigned int)1) * (unsigned int)2;
     }
 
-    tmp_post$2 = p->bytes;
+    tmp_post_2 = p->bytes;
     p->bytes = p->bytes + 1u;
-    p->pool[(signed long int)tmp_post$2] = entropy[(signed long int)n];
+    p->pool[(signed long int)tmp_post_2] = entropy[(signed long int)n];
     if((unsigned long int)p->bytes == g->rehash_size)
     {
       unsigned long int r = (unsigned long int)0;
@@ -16733,7 +16733,7 @@ static void apr_random_block(struct apr_random_t *g, unsigned char *random)
 static void apr_random_bytes(struct apr_random_t *g, unsigned char *random, unsigned long int bytes)
 {
   unsigned long int n = (unsigned long int)0;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   while(!(n >= bytes))
   {
     unsigned long int l;
@@ -16744,11 +16744,11 @@ static void apr_random_bytes(struct apr_random_t *g, unsigned char *random, unsi
     }
 
     if(!(bytes + -n >= g->random_bytes))
-      tmp_if_expr$1 = bytes - n;
+      tmp_if_expr_1 = bytes - n;
 
     else
-      tmp_if_expr$1 = g->random_bytes;
-    l = tmp_if_expr$1;
+      tmp_if_expr_1 = g->random_bytes;
+    l = tmp_if_expr_1;
     memcpy((void *)&random[(signed long int)n], (const void *)((g->randomness + (signed long int)g->prng_hash->size) - (signed long int)g->random_bytes), l);
     g->random_bytes = g->random_bytes - l;
     n = n + l;
@@ -16765,9 +16765,9 @@ void apr_random_init(struct apr_random_t *g, struct apr_pool_t *p, struct apr_cr
   g->key_hash = key_hash;
   g->prng_hash = prng_hash;
   g->npools = (unsigned int)32;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(p, (unsigned long int)g->npools * sizeof(struct apr_random_pool_t) /*16ul*/ );
-  g->pools = (struct apr_random_pool_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(p, (unsigned long int)g->npools * sizeof(struct apr_random_pool_t) /*16ul*/ );
+  g->pools = (struct apr_random_pool_t *)return_value_apr_palloc_1;
   n = (unsigned int)0;
   for( ; !(n >= g->npools); n = n + 1u)
   {
@@ -16780,19 +16780,19 @@ void apr_random_init(struct apr_random_t *g, struct apr_pool_t *p, struct apr_cr
   g->rehash_size = (unsigned long int)1024;
   g->rehash_size = ((((g->rehash_size + (unsigned long int)2 * g->pool_hash->size) - (unsigned long int)1) / g->pool_hash->size) / (unsigned long int)2) * g->pool_hash->size * (unsigned long int)2;
   g->reseed_size = (unsigned long int)32;
-  void *return_value_apr_palloc$2;
-  return_value_apr_palloc$2=apr_palloc(p, g->prng_hash->size + g->key_hash->size);
-  void *return_value_memset$3;
-  return_value_memset$3=memset(return_value_apr_palloc$2, 0, g->prng_hash->size + g->key_hash->size);
-  g->H = (unsigned char *)return_value_memset$3;
-  void *return_value_apr_palloc$4;
-  return_value_apr_palloc$4=apr_palloc(p, g->prng_hash->size + g->key_hash->size);
-  void *return_value_memset$5;
-  return_value_memset$5=memset(return_value_apr_palloc$4, 0, g->prng_hash->size + g->key_hash->size);
-  g->H_waiting = (unsigned char *)return_value_memset$5;
-  void *return_value_apr_palloc$6;
-  return_value_apr_palloc$6=apr_palloc(p, g->prng_hash->size);
-  g->randomness = (unsigned char *)return_value_apr_palloc$6;
+  void *return_value_apr_palloc_2;
+  return_value_apr_palloc_2=apr_palloc(p, g->prng_hash->size + g->key_hash->size);
+  void *return_value_memset_3;
+  return_value_memset_3=memset(return_value_apr_palloc_2, 0, g->prng_hash->size + g->key_hash->size);
+  g->H = (unsigned char *)return_value_memset_3;
+  void *return_value_apr_palloc_4;
+  return_value_apr_palloc_4=apr_palloc(p, g->prng_hash->size + g->key_hash->size);
+  void *return_value_memset_5;
+  return_value_memset_5=memset(return_value_apr_palloc_4, 0, g->prng_hash->size + g->key_hash->size);
+  g->H_waiting = (unsigned char *)return_value_memset_5;
+  void *return_value_apr_palloc_6;
+  return_value_apr_palloc_6=apr_palloc(p, g->prng_hash->size);
+  g->randomness = (unsigned char *)return_value_apr_palloc_6;
   g->random_bytes = (unsigned long int)0;
   g->g_for_insecure = (unsigned int)32;
   g->secure_base = (unsigned int)0;
@@ -16859,16 +16859,16 @@ signed int apr_random_secure_ready(struct apr_random_t *r)
 struct apr_random_t * apr_random_standard_new(struct apr_pool_t *p)
 {
   struct apr_random_t *r;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(p, sizeof(struct apr_random_t) /*128ul*/ );
-  r = (struct apr_random_t *)return_value_apr_palloc$1;
-  struct apr_crypto_hash_t *return_value_apr_crypto_sha256_new$2;
-  return_value_apr_crypto_sha256_new$2=apr_crypto_sha256_new(p);
-  struct apr_crypto_hash_t *return_value_apr_crypto_sha256_new$3;
-  return_value_apr_crypto_sha256_new$3=apr_crypto_sha256_new(p);
-  struct apr_crypto_hash_t *return_value_apr_crypto_sha256_new$4;
-  return_value_apr_crypto_sha256_new$4=apr_crypto_sha256_new(p);
-  apr_random_init(r, p, return_value_apr_crypto_sha256_new$2, return_value_apr_crypto_sha256_new$3, return_value_apr_crypto_sha256_new$4);
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(p, sizeof(struct apr_random_t) /*128ul*/ );
+  r = (struct apr_random_t *)return_value_apr_palloc_1;
+  struct apr_crypto_hash_t *return_value_apr_crypto_sha256_new_2;
+  return_value_apr_crypto_sha256_new_2=apr_crypto_sha256_new(p);
+  struct apr_crypto_hash_t *return_value_apr_crypto_sha256_new_3;
+  return_value_apr_crypto_sha256_new_3=apr_crypto_sha256_new(p);
+  struct apr_crypto_hash_t *return_value_apr_crypto_sha256_new_4;
+  return_value_apr_crypto_sha256_new_4=apr_crypto_sha256_new(p);
+  apr_random_init(r, p, return_value_apr_crypto_sha256_new_2, return_value_apr_crypto_sha256_new_3, return_value_apr_crypto_sha256_new_4);
   return r;
 }
 
@@ -16881,110 +16881,110 @@ signed int apr_rfc822_date(char *date_str, signed long int t)
   signed int real_year;
   apr_time_exp_gmt(&xt, t);
   s = &apr_day_snames[(signed long int)xt.tm_wday][(signed long int)0];
-  char *tmp_post$1 = date_str;
+  char *tmp_post_1 = date_str;
   date_str = date_str + 1l;
-  const char *tmp_post$2 = s;
+  const char *tmp_post_2 = s;
   s = s + 1l;
-  *tmp_post$1 = *tmp_post$2;
-  char *tmp_post$3 = date_str;
+  *tmp_post_1 = *tmp_post_2;
+  char *tmp_post_3 = date_str;
   date_str = date_str + 1l;
-  const char *tmp_post$4 = s;
+  const char *tmp_post_4 = s;
   s = s + 1l;
-  *tmp_post$3 = *tmp_post$4;
-  char *tmp_post$5 = date_str;
+  *tmp_post_3 = *tmp_post_4;
+  char *tmp_post_5 = date_str;
   date_str = date_str + 1l;
-  const char *tmp_post$6 = s;
+  const char *tmp_post_6 = s;
   s = s + 1l;
-  *tmp_post$5 = *tmp_post$6;
-  char *tmp_post$7 = date_str;
+  *tmp_post_5 = *tmp_post_6;
+  char *tmp_post_7 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$7 = (char)44;
-  char *tmp_post$8 = date_str;
+  *tmp_post_7 = (char)44;
+  char *tmp_post_8 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$8 = (char)32;
-  char *tmp_post$9 = date_str;
+  *tmp_post_8 = (char)32;
+  char *tmp_post_9 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$9 = (char)(xt.tm_mday / 10 + 48);
-  char *tmp_post$10 = date_str;
+  *tmp_post_9 = (char)(xt.tm_mday / 10 + 48);
+  char *tmp_post_10 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$10 = (char)(xt.tm_mday % 10 + 48);
-  char *tmp_post$11 = date_str;
+  *tmp_post_10 = (char)(xt.tm_mday % 10 + 48);
+  char *tmp_post_11 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$11 = (char)32;
+  *tmp_post_11 = (char)32;
   s = &apr_month_snames[(signed long int)xt.tm_mon][(signed long int)0];
-  char *tmp_post$12 = date_str;
+  char *tmp_post_12 = date_str;
   date_str = date_str + 1l;
-  const char *tmp_post$13 = s;
+  const char *tmp_post_13 = s;
   s = s + 1l;
-  *tmp_post$12 = *tmp_post$13;
-  char *tmp_post$14 = date_str;
+  *tmp_post_12 = *tmp_post_13;
+  char *tmp_post_14 = date_str;
   date_str = date_str + 1l;
-  const char *tmp_post$15 = s;
+  const char *tmp_post_15 = s;
   s = s + 1l;
-  *tmp_post$14 = *tmp_post$15;
-  char *tmp_post$16 = date_str;
+  *tmp_post_14 = *tmp_post_15;
+  char *tmp_post_16 = date_str;
   date_str = date_str + 1l;
-  const char *tmp_post$17 = s;
+  const char *tmp_post_17 = s;
   s = s + 1l;
-  *tmp_post$16 = *tmp_post$17;
-  char *tmp_post$18 = date_str;
+  *tmp_post_16 = *tmp_post_17;
+  char *tmp_post_18 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$18 = (char)32;
+  *tmp_post_18 = (char)32;
   real_year = 1900 + xt.tm_year;
-  char *tmp_post$19 = date_str;
+  char *tmp_post_19 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$19 = (char)(real_year / 1000 + 48);
-  char *tmp_post$20 = date_str;
+  *tmp_post_19 = (char)(real_year / 1000 + 48);
+  char *tmp_post_20 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$20 = (char)((real_year % 1000) / 100 + 48);
-  char *tmp_post$21 = date_str;
+  *tmp_post_20 = (char)((real_year % 1000) / 100 + 48);
+  char *tmp_post_21 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$21 = (char)((real_year % 100) / 10 + 48);
-  char *tmp_post$22 = date_str;
+  *tmp_post_21 = (char)((real_year % 100) / 10 + 48);
+  char *tmp_post_22 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$22 = (char)(real_year % 10 + 48);
-  char *tmp_post$23 = date_str;
+  *tmp_post_22 = (char)(real_year % 10 + 48);
+  char *tmp_post_23 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$23 = (char)32;
-  char *tmp_post$24 = date_str;
+  *tmp_post_23 = (char)32;
+  char *tmp_post_24 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$24 = (char)(xt.tm_hour / 10 + 48);
-  char *tmp_post$25 = date_str;
+  *tmp_post_24 = (char)(xt.tm_hour / 10 + 48);
+  char *tmp_post_25 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$25 = (char)(xt.tm_hour % 10 + 48);
-  char *tmp_post$26 = date_str;
+  *tmp_post_25 = (char)(xt.tm_hour % 10 + 48);
+  char *tmp_post_26 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$26 = (char)58;
-  char *tmp_post$27 = date_str;
+  *tmp_post_26 = (char)58;
+  char *tmp_post_27 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$27 = (char)(xt.tm_min / 10 + 48);
-  char *tmp_post$28 = date_str;
+  *tmp_post_27 = (char)(xt.tm_min / 10 + 48);
+  char *tmp_post_28 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$28 = (char)(xt.tm_min % 10 + 48);
-  char *tmp_post$29 = date_str;
+  *tmp_post_28 = (char)(xt.tm_min % 10 + 48);
+  char *tmp_post_29 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$29 = (char)58;
-  char *tmp_post$30 = date_str;
+  *tmp_post_29 = (char)58;
+  char *tmp_post_30 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$30 = (char)(xt.tm_sec / 10 + 48);
-  char *tmp_post$31 = date_str;
+  *tmp_post_30 = (char)(xt.tm_sec / 10 + 48);
+  char *tmp_post_31 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$31 = (char)(xt.tm_sec % 10 + 48);
-  char *tmp_post$32 = date_str;
+  *tmp_post_31 = (char)(xt.tm_sec % 10 + 48);
+  char *tmp_post_32 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$32 = (char)32;
-  char *tmp_post$33 = date_str;
+  *tmp_post_32 = (char)32;
+  char *tmp_post_33 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$33 = (char)71;
-  char *tmp_post$34 = date_str;
+  *tmp_post_33 = (char)71;
+  char *tmp_post_34 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$34 = (char)77;
-  char *tmp_post$35 = date_str;
+  *tmp_post_34 = (char)77;
+  char *tmp_post_35 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$35 = (char)84;
-  char *tmp_post$36 = date_str;
+  *tmp_post_35 = (char)84;
+  char *tmp_post_36 = date_str;
   date_str = date_str + 1l;
-  *tmp_post$36 = (char)0;
+  *tmp_post_36 = (char)0;
   return 0;
 }
 
@@ -16992,11 +16992,11 @@ signed int apr_rfc822_date(char *date_str, signed long int t)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/signals.c line 399
 signed int apr_setup_signal_thread(void)
 {
-  struct anonymous$31 sig_mask;
+  struct anonymous_31 sig_mask;
   signed int rv;
   sigfillset(&sig_mask);
   remove_sync_sigs(&sig_mask);
-  rv=pthread_sigmask(2, &sig_mask, (struct anonymous$31 *)(void *)0);
+  rv=pthread_sigmask(2, &sig_mask, (struct anonymous_31 *)(void *)0);
   return rv;
 }
 
@@ -17014,9 +17014,9 @@ signed int apr_shm_attach(struct apr_shm_t **m, const char *filename, struct apr
     struct apr_file_t *file;
     unsigned long int nbytes;
     signed int shmkey;
-    void *return_value_apr_palloc$1;
-    return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_shm_t) /*56ul*/ );
-    new_m = (struct apr_shm_t *)return_value_apr_palloc$1;
+    void *return_value_apr_palloc_1;
+    return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_shm_t) /*56ul*/ );
+    new_m = (struct apr_shm_t *)return_value_apr_palloc_1;
     status=apr_file_open(&file, filename, 0x00001, 0x0FFF, pool);
     if(!(status == 0))
       return status;
@@ -17035,25 +17035,25 @@ signed int apr_shm_attach(struct apr_shm_t **m, const char *filename, struct apr
     shmkey=our_ftok(filename);
     if(shmkey == -1)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      return *return_value___errno_location$2;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      return *return_value___errno_location_2;
     }
 
     new_m->shmid=shmget(shmkey, (unsigned long int)0, 0400 | 0200);
     if(new_m->shmid == -1)
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      return *return_value___errno_location$3;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      return *return_value___errno_location_3;
     }
 
     new_m->base=shmat(new_m->shmid, (void *)0, 0);
     if(new_m->base == (void *)-1)
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      return *return_value___errno_location$4;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      return *return_value___errno_location_4;
     }
 
     new_m->usable = new_m->base;
@@ -17068,9 +17068,9 @@ signed int apr_shm_attach(struct apr_shm_t **m, const char *filename, struct apr
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/shmem/unix/shm.c line 661
 signed int apr_shm_attach_ex(struct apr_shm_t **m, const char *filename, struct apr_pool_t *pool, signed int flags)
 {
-  signed int return_value_apr_shm_attach$1;
-  return_value_apr_shm_attach$1=apr_shm_attach(m, filename, pool);
-  return return_value_apr_shm_attach$1;
+  signed int return_value_apr_shm_attach_1;
+  return_value_apr_shm_attach_1=apr_shm_attach(m, filename, pool);
+  return return_value_apr_shm_attach_1;
 }
 
 // apr_shm_baseaddr_get
@@ -17094,9 +17094,9 @@ signed int apr_shm_create(struct apr_shm_t **m, unsigned long int reqsize, const
   struct apr_file_t *file;
   if(filename == ((const char *)NULL))
   {
-    void *return_value_apr_palloc$1;
-    return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_shm_t) /*56ul*/ );
-    new_m = (struct apr_shm_t *)return_value_apr_palloc$1;
+    void *return_value_apr_palloc_1;
+    return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_shm_t) /*56ul*/ );
+    new_m = (struct apr_shm_t *)return_value_apr_palloc_1;
     new_m->pool = pool;
     new_m->reqsize = reqsize;
     new_m->realsize = reqsize + (sizeof(unsigned long int) /*8ul*/  + (unsigned long int)(8 - 1) & (unsigned long int)~(8 - 1));
@@ -17104,9 +17104,9 @@ signed int apr_shm_create(struct apr_shm_t **m, unsigned long int reqsize, const
     new_m->base=mmap((void *)0, new_m->realsize, 0x1 | 0x2, 0x20 | 0x01, -1, (signed long int)0);
     if(new_m->base == (void *)-1)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      return *return_value___errno_location$2;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      return *return_value___errno_location_2;
     }
 
     *((unsigned long int *)new_m->base) = new_m->realsize;
@@ -17118,9 +17118,9 @@ signed int apr_shm_create(struct apr_shm_t **m, unsigned long int reqsize, const
 
   else
   {
-    void *return_value_apr_palloc$3;
-    return_value_apr_palloc$3=apr_palloc(pool, sizeof(struct apr_shm_t) /*56ul*/ );
-    new_m = (struct apr_shm_t *)return_value_apr_palloc$3;
+    void *return_value_apr_palloc_3;
+    return_value_apr_palloc_3=apr_palloc(pool, sizeof(struct apr_shm_t) /*56ul*/ );
+    new_m = (struct apr_shm_t *)return_value_apr_palloc_3;
     new_m->pool = pool;
     new_m->reqsize = reqsize;
     new_m->filename=apr_pstrdup(pool, filename);
@@ -17133,51 +17133,51 @@ signed int apr_shm_create(struct apr_shm_t **m, unsigned long int reqsize, const
     if(shmkey == -1)
     {
       apr_file_close(file);
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      return *return_value___errno_location$4;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      return *return_value___errno_location_4;
     }
 
     new_m->shmid=shmget(shmkey, new_m->realsize, 0400 | 0200 | 01000 | 02000);
     if(!(new_m->shmid >= 0))
     {
       apr_file_close(file);
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      return *return_value___errno_location$5;
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      return *return_value___errno_location_5;
     }
 
     new_m->base=shmat(new_m->shmid, (void *)0, 0);
     if(new_m->base == (void *)-1)
     {
       apr_file_close(file);
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      return *return_value___errno_location$6;
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      return *return_value___errno_location_6;
     }
 
     new_m->usable = new_m->base;
-    signed int return_value_shmctl$8;
-    return_value_shmctl$8=shmctl(new_m->shmid, 2, &shmbuf);
-    if(return_value_shmctl$8 == -1)
+    signed int return_value_shmctl_8;
+    return_value_shmctl_8=shmctl(new_m->shmid, 2, &shmbuf);
+    if(return_value_shmctl_8 == -1)
     {
       apr_file_close(file);
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      return *return_value___errno_location$7;
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      return *return_value___errno_location_7;
     }
 
     apr_uid_current(&uid, &gid, pool);
     shmbuf.shm_perm.uid = uid;
     shmbuf.shm_perm.gid = gid;
-    signed int return_value_shmctl$10;
-    return_value_shmctl$10=shmctl(new_m->shmid, 1, &shmbuf);
-    if(return_value_shmctl$10 == -1)
+    signed int return_value_shmctl_10;
+    return_value_shmctl_10=shmctl(new_m->shmid, 1, &shmbuf);
+    if(return_value_shmctl_10 == -1)
     {
       apr_file_close(file);
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      return *return_value___errno_location$9;
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      return *return_value___errno_location_9;
     }
 
     nbytes = sizeof(unsigned long int) /*8ul*/ ;
@@ -17202,18 +17202,18 @@ signed int apr_shm_create(struct apr_shm_t **m, unsigned long int reqsize, const
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/shmem/unix/shm.c line 427
 signed int apr_shm_create_ex(struct apr_shm_t **m, unsigned long int reqsize, const char *filename, struct apr_pool_t *p, signed int flags)
 {
-  signed int return_value_apr_shm_create$1;
-  return_value_apr_shm_create$1=apr_shm_create(m, reqsize, filename, p);
-  return return_value_apr_shm_create$1;
+  signed int return_value_apr_shm_create_1;
+  return_value_apr_shm_create_1=apr_shm_create(m, reqsize, filename, p);
+  return return_value_apr_shm_create_1;
 }
 
 // apr_shm_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/shmem/unix/shm.c line 495
 signed int apr_shm_destroy(struct apr_shm_t *m)
 {
-  signed int return_value_apr_pool_cleanup_run$1;
-  return_value_apr_pool_cleanup_run$1=apr_pool_cleanup_run(m->pool, (void *)m, shm_cleanup_owner);
-  return return_value_apr_pool_cleanup_run$1;
+  signed int return_value_apr_pool_cleanup_run_1;
+  return_value_apr_pool_cleanup_run_1=apr_pool_cleanup_run(m->pool, (void *)m, shm_cleanup_owner);
+  return return_value_apr_pool_cleanup_run_1;
 }
 
 // apr_shm_detach
@@ -17242,8 +17242,8 @@ signed int apr_shm_remove(const char *filename, struct apr_pool_t *pool)
   signed int shmkey;
   signed int shmid;
   status=apr_file_open(&file, filename, 0x00002, 0x0FFF, pool);
-  signed int return_value_shmctl$1;
-  signed int return_value_apr_file_remove$2;
+  signed int return_value_shmctl_1;
+  signed int return_value_apr_file_remove_2;
   if(!(status == 0))
     return status;
 
@@ -17257,12 +17257,12 @@ signed int apr_shm_remove(const char *filename, struct apr_pool_t *pool)
       if(!(shmid >= 0))
         goto shm_remove_failed;
 
-      return_value_shmctl$1=shmctl(shmid, 0, (struct shmid_ds *)(void *)0);
-      if(return_value_shmctl$1 == -1)
+      return_value_shmctl_1=shmctl(shmid, 0, (struct shmid_ds *)(void *)0);
+      if(return_value_shmctl_1 == -1)
         goto shm_remove_failed;
 
-      return_value_apr_file_remove$2=apr_file_remove(filename, pool);
-      return return_value_apr_file_remove$2;
+      return_value_apr_file_remove_2=apr_file_remove(filename, pool);
+      return return_value_apr_file_remove_2;
     }
 
     else
@@ -17270,9 +17270,9 @@ signed int apr_shm_remove(const char *filename, struct apr_pool_t *pool)
 
     shm_remove_failed:
       ;
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      status = *return_value___errno_location$3;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      status = *return_value___errno_location_3;
       apr_file_remove(filename, pool);
       return status;
     }
@@ -17296,9 +17296,9 @@ void (*apr_signal(signed int signo, void (*func)(signed int)))(signed int)
   sigemptyset(&act.sa_mask);
   act.sa_flags = 0;
   act.sa_flags = act.sa_flags | 0x20000000;
-  signed int return_value_sigaction$1;
-  return_value_sigaction$1=sigaction(signo, &act, &oact);
-  if(!(return_value_sigaction$1 >= 0))
+  signed int return_value_sigaction_1;
+  return_value_sigaction_1=sigaction(signo, &act, &oact);
+  if(!(return_value_sigaction_1 >= 0))
     return (void (*)(signed int))-1;
 
   else
@@ -17309,11 +17309,11 @@ void (*apr_signal(signed int signo, void (*func)(signed int)))(signed int)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/signals.c line 435
 signed int apr_signal_block(signed int signum)
 {
-  struct anonymous$31 sig_mask;
+  struct anonymous_31 sig_mask;
   signed int rv;
   sigemptyset(&sig_mask);
   sigaddset(&sig_mask, signum);
-  rv=pthread_sigmask(0, &sig_mask, (struct anonymous$31 *)(void *)0);
+  rv=pthread_sigmask(0, &sig_mask, (struct anonymous_31 *)(void *)0);
   return rv;
 }
 
@@ -17321,13 +17321,13 @@ signed int apr_signal_block(signed int signum)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/signals.c line 117
 const char * apr_signal_description_get(signed int signum)
 {
-  const char *tmp_if_expr$1;
+  const char *tmp_if_expr_1;
   if(signum >= 0)
-    tmp_if_expr$1 = sys_siglist[(signed long int)signum];
+    tmp_if_expr_1 = sys_siglist[(signed long int)signum];
 
   else
-    tmp_if_expr$1 = "unknown signal (number)";
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = "unknown signal (number)";
+  return tmp_if_expr_1;
 }
 
 // apr_signal_init
@@ -17341,7 +17341,7 @@ void apr_signal_init(struct apr_pool_t *pglobal)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/signals.c line 319
 signed int apr_signal_thread(signed int (*signal_handler)(signed int))
 {
-  struct anonymous$31 sig_mask;
+  struct anonymous_31 sig_mask;
   signed int (*sig_func)(signed int) = (signed int (*)(signed int))signal_handler;
   sigfillset(&sig_mask);
   sigdelset(&sig_mask, 9);
@@ -17350,8 +17350,8 @@ signed int apr_signal_thread(signed int (*signal_handler)(signed int))
   remove_sync_sigs(&sig_mask);
   {
     signed int signal_received;
-    signed int return_value_sigwait$1;
-    return_value_sigwait$1=sigwait(&sig_mask, &signal_received);
+    signed int return_value_sigwait_1;
+    return_value_sigwait_1=sigwait(&sig_mask, &signal_received);
     signed int return_value;
     return_value=sig_func(signal_received);
     if(return_value == 1)
@@ -17364,11 +17364,11 @@ signed int apr_signal_thread(signed int (*signal_handler)(signed int))
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/signals.c line 462
 signed int apr_signal_unblock(signed int signum)
 {
-  struct anonymous$31 sig_mask;
+  struct anonymous_31 sig_mask;
   signed int rv;
   sigemptyset(&sig_mask);
   sigaddset(&sig_mask, signum);
-  rv=pthread_sigmask(1, &sig_mask, (struct anonymous$31 *)(void *)0);
+  rv=pthread_sigmask(1, &sig_mask, (struct anonymous_31 *)(void *)0);
   return rv;
 }
 
@@ -17416,15 +17416,15 @@ void * apr_skiplist_alloc(struct apr_skiplist *sl, unsigned long int size)
     void *ptr;
     signed int found_size = 0;
     signed int i;
-    struct anonymous$45 *newchunk;
-    struct anonymous$46 *memlist = (struct anonymous$46 *)sl->memlist->elts;
+    struct anonymous_45 *newchunk;
+    struct anonymous_46 *memlist = (struct anonymous_46 *)sl->memlist->elts;
     i = 0;
     for( ; !(i >= sl->memlist->nelts); i = i + 1)
     {
       if(memlist->size == size)
       {
         signed int j;
-        struct anonymous$45 *chunk = (struct anonymous$45 *)memlist->list->elts;
+        struct anonymous_45 *chunk = (struct anonymous_45 *)memlist->list->elts;
         found_size = 1;
         j = 0;
         for( ; !(j >= memlist->list->nelts); j = j + 1)
@@ -17448,16 +17448,16 @@ void * apr_skiplist_alloc(struct apr_skiplist *sl, unsigned long int size)
 
     if(found_size == 0)
     {
-      void *return_value_apr_array_push$1;
-      return_value_apr_array_push$1=apr_array_push(sl->memlist);
-      memlist = (struct anonymous$46 *)return_value_apr_array_push$1;
+      void *return_value_apr_array_push_1;
+      return_value_apr_array_push_1=apr_array_push(sl->memlist);
+      memlist = (struct anonymous_46 *)return_value_apr_array_push_1;
       memlist->size = size;
-      memlist->list=apr_array_make(sl->pool, 20, (signed int)sizeof(struct anonymous$45) /*16ul*/ );
+      memlist->list=apr_array_make(sl->pool, 20, (signed int)sizeof(struct anonymous_45) /*16ul*/ );
     }
 
-    void *return_value_apr_array_push$2;
-    return_value_apr_array_push$2=apr_array_push(memlist->list);
-    newchunk = (struct anonymous$45 *)return_value_apr_array_push$2;
+    void *return_value_apr_array_push_2;
+    return_value_apr_array_push_2=apr_array_push(memlist->list);
+    newchunk = (struct anonymous_45 *)return_value_apr_array_push_2;
     newchunk->ptr = ptr;
     newchunk->inuse = (char)1;
     return ptr;
@@ -17465,9 +17465,9 @@ void * apr_skiplist_alloc(struct apr_skiplist *sl, unsigned long int size)
 
   else
   {
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(size);
-    return return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(size);
+    return return_value_malloc_3;
   }
 }
 
@@ -17475,11 +17475,11 @@ void * apr_skiplist_alloc(struct apr_skiplist *sl, unsigned long int size)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 682
 void apr_skiplist_destroy(struct apr_skiplist *sl, void (*myfree)(void *))
 {
-  void *return_value_apr_skiplist_pop$1;
+  void *return_value_apr_skiplist_pop_1;
   do
   {
-    return_value_apr_skiplist_pop$1=apr_skiplist_pop(sl->index, skiplisti_destroy);
-    if(return_value_apr_skiplist_pop$1 == NULL)
+    return_value_apr_skiplist_pop_1=apr_skiplist_pop(sl->index, skiplisti_destroy);
+    if(return_value_apr_skiplist_pop_1 == NULL)
       break;
 
   }
@@ -17503,9 +17503,9 @@ void apr_skiplist_destroy(struct apr_skiplist *sl, void (*myfree)(void *))
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 363
 void * apr_skiplist_find(struct apr_skiplist *sl, void *data, struct apr_skiplistnode **iter)
 {
-  void *return_value_apr_skiplist_find_compare$1;
-  return_value_apr_skiplist_find_compare$1=apr_skiplist_find_compare(sl, data, iter, sl->compare);
-  return return_value_apr_skiplist_find_compare$1;
+  void *return_value_apr_skiplist_find_compare_1;
+  return_value_apr_skiplist_find_compare_1=apr_skiplist_find_compare(sl, data, iter, sl->compare);
+  return return_value_apr_skiplist_find_compare_1;
 }
 
 // apr_skiplist_find_compare
@@ -17514,8 +17514,8 @@ void * apr_skiplist_find_compare(struct apr_skiplist *sli, void *data, struct ap
 {
   struct apr_skiplistnode *m;
   struct apr_skiplist *sl;
-  _Bool tmp_if_expr$1;
-  void *tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  void *tmp_if_expr_2;
   if(comp == ((signed int (*)(void *, void *))NULL))
   {
     if(!(iter == ((struct apr_skiplistnode **)NULL)))
@@ -17527,11 +17527,11 @@ void * apr_skiplist_find_compare(struct apr_skiplist *sli, void *data, struct ap
   else
   {
     if(comp == sli->compare)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !(sli->index != ((struct apr_skiplist *)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !(sli->index != ((struct apr_skiplist *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       sl = sli;
 
     else
@@ -17552,11 +17552,11 @@ void * apr_skiplist_find_compare(struct apr_skiplist *sli, void *data, struct ap
       *iter = m;
 
     if(!(m == ((struct apr_skiplistnode *)NULL)))
-      tmp_if_expr$2 = m->data;
+      tmp_if_expr_2 = m->data;
 
     else
-      tmp_if_expr$2 = (void *)0;
-    return tmp_if_expr$2;
+      tmp_if_expr_2 = (void *)0;
+    return tmp_if_expr_2;
   }
 }
 
@@ -17570,12 +17570,12 @@ void apr_skiplist_free(struct apr_skiplist *sl, void *mem)
   else
   {
     signed int i;
-    struct anonymous$46 *memlist = (struct anonymous$46 *)sl->memlist->elts;
+    struct anonymous_46 *memlist = (struct anonymous_46 *)sl->memlist->elts;
     i = 0;
     for( ; !(i >= sl->memlist->nelts); i = i + 1)
     {
       signed int j;
-      struct anonymous$45 *chunk = (struct anonymous$45 *)memlist->list->elts;
+      struct anonymous_45 *chunk = (struct anonymous_45 *)memlist->list->elts;
       j = 0;
       for( ; !(j >= memlist->list->nelts); j = j + 1)
       {
@@ -17622,9 +17622,9 @@ signed int apr_skiplist_init(struct apr_skiplist **s, struct apr_pool_t *p)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 527
 struct apr_skiplistnode * apr_skiplist_insert(struct apr_skiplist *sl, void *data)
 {
-  struct apr_skiplistnode *return_value_apr_skiplist_insert_compare$1;
-  return_value_apr_skiplist_insert_compare$1=apr_skiplist_insert_compare(sl, data, sl->compare);
-  return return_value_apr_skiplist_insert_compare$1;
+  struct apr_skiplistnode *return_value_apr_skiplist_insert_compare_1;
+  return_value_apr_skiplist_insert_compare_1=apr_skiplist_insert_compare(sl, data, sl->compare);
+  return return_value_apr_skiplist_insert_compare_1;
 }
 
 // apr_skiplist_insert_compare
@@ -17637,8 +17637,8 @@ struct apr_skiplistnode * apr_skiplist_insert_compare(struct apr_skiplist *sl, v
   struct apr_skiplistnode *ret = (struct apr_skiplistnode *)(void *)0;
   signed int ch;
   signed int nh = 1;
-  signed int return_value_get_b_rand$1;
-  signed int return_value_get_b_rand$2;
+  signed int return_value_get_b_rand_1;
+  signed int return_value_get_b_rand_2;
   if(comp == ((signed int (*)(void *, void *))NULL))
     return (struct apr_skiplistnode *)(void *)0;
 
@@ -17648,8 +17648,8 @@ struct apr_skiplistnode * apr_skiplist_insert_compare(struct apr_skiplist *sl, v
     if(!(sl->preheight == 0))
       for( ; !(nh >= sl->preheight); nh = nh + 1)
       {
-        return_value_get_b_rand$1=get_b_rand();
-        if(return_value_get_b_rand$1 == 0)
+        return_value_get_b_rand_1=get_b_rand();
+        if(return_value_get_b_rand_1 == 0)
           break;
 
       }
@@ -17657,8 +17657,8 @@ struct apr_skiplistnode * apr_skiplist_insert_compare(struct apr_skiplist *sl, v
     else
       for( ; ch >= nh; nh = nh + 1)
       {
-        return_value_get_b_rand$2=get_b_rand();
-        if(return_value_get_b_rand$2 == 0)
+        return_value_get_b_rand_2=get_b_rand();
+        if(return_value_get_b_rand_2 == 0)
           break;
 
       }
@@ -17781,14 +17781,14 @@ struct apr_skiplist * apr_skiplist_merge(struct apr_skiplist *sl1, struct apr_sk
 {
   struct apr_skiplist temp;
   struct apr_skiplistnode *b2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(sl1->bottomend == ((struct apr_skiplistnode *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = sl1->bottomend->prev == (struct apr_skiplistnode *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = sl1->bottomend->prev == (struct apr_skiplistnode *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
   {
     apr_skiplist_remove_all(sl1, (void (*)(void *))(void *)0);
     temp = *sl1;
@@ -17800,11 +17800,11 @@ struct apr_skiplist * apr_skiplist_merge(struct apr_skiplist *sl1, struct apr_sk
   else
   {
     if(sl2->bottom == ((struct apr_skiplistnode *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = sl2->bottom->next == (struct apr_skiplistnode *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = sl2->bottom->next == (struct apr_skiplistnode *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       apr_skiplist_remove_all(sl2, (void (*)(void *))(void *)0);
       return sl1;
@@ -17828,7 +17828,7 @@ struct apr_skiplist * apr_skiplist_merge(struct apr_skiplist *sl1, struct apr_sk
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 377
 void * apr_skiplist_next(struct apr_skiplist *sl, struct apr_skiplistnode **iter)
 {
-  void *tmp_if_expr$1;
+  void *tmp_if_expr_1;
   if(*iter == ((struct apr_skiplistnode *)NULL))
     return (void *)0;
 
@@ -17836,11 +17836,11 @@ void * apr_skiplist_next(struct apr_skiplist *sl, struct apr_skiplistnode **iter
   {
     *iter = (*iter)->next;
     if(!(*iter == ((struct apr_skiplistnode *)NULL)))
-      tmp_if_expr$1 = (*iter)->data;
+      tmp_if_expr_1 = (*iter)->data;
 
     else
-      tmp_if_expr$1 = (void *)0;
-    return tmp_if_expr$1;
+      tmp_if_expr_1 = (void *)0;
+    return tmp_if_expr_1;
   }
 }
 
@@ -17877,7 +17877,7 @@ void * apr_skiplist_pop(struct apr_skiplist *a, void (*myfree)(void *))
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 386
 void * apr_skiplist_previous(struct apr_skiplist *sl, struct apr_skiplistnode **iter)
 {
-  void *tmp_if_expr$1;
+  void *tmp_if_expr_1;
   if(*iter == ((struct apr_skiplistnode *)NULL))
     return (void *)0;
 
@@ -17885,11 +17885,11 @@ void * apr_skiplist_previous(struct apr_skiplist *sl, struct apr_skiplistnode **
   {
     *iter = (*iter)->prev;
     if(!(*iter == ((struct apr_skiplistnode *)NULL)))
-      tmp_if_expr$1 = (*iter)->data;
+      tmp_if_expr_1 = (*iter)->data;
 
     else
-      tmp_if_expr$1 = (void *)0;
-    return tmp_if_expr$1;
+      tmp_if_expr_1 = (void *)0;
+    return tmp_if_expr_1;
   }
 }
 
@@ -17897,9 +17897,9 @@ void * apr_skiplist_previous(struct apr_skiplist *sl, struct apr_skiplistnode **
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 623
 signed int apr_skiplist_remove(struct apr_skiplist *sl, void *data, void (*myfree)(void *))
 {
-  signed int return_value_apr_skiplist_remove_compare$1;
-  return_value_apr_skiplist_remove_compare$1=apr_skiplist_remove_compare(sl, data, myfree, sl->comparek);
-  return return_value_apr_skiplist_remove_compare$1;
+  signed int return_value_apr_skiplist_remove_compare_1;
+  return_value_apr_skiplist_remove_compare_1=apr_skiplist_remove_compare(sl, data, myfree, sl->comparek);
+  return return_value_apr_skiplist_remove_compare_1;
 }
 
 // apr_skiplist_remove_all
@@ -17942,18 +17942,18 @@ signed int apr_skiplist_remove_compare(struct apr_skiplist *sli, void *data, voi
 {
   struct apr_skiplistnode *m;
   struct apr_skiplist *sl;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(comp == ((signed int (*)(void *, void *))NULL))
     return 0;
 
   else
   {
     if(comp == sli->comparek)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !(sli->index != ((struct apr_skiplist *)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !(sli->index != ((struct apr_skiplist *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       sl = sli;
 
     else
@@ -17972,9 +17972,9 @@ signed int apr_skiplist_remove_compare(struct apr_skiplist *sli, void *data, voi
     {
       for( ; !(m->previndex == ((struct apr_skiplistnode *)NULL)); m = m->previndex)
         ;
-      signed int return_value_skiplisti_remove$2;
-      return_value_skiplisti_remove$2=skiplisti_remove(sl, m, myfree);
-      return return_value_skiplisti_remove$2;
+      signed int return_value_skiplisti_remove_2;
+      return_value_skiplisti_remove_2=skiplisti_remove(sl, m, myfree);
+      return return_value_skiplisti_remove_2;
     }
   }
 }
@@ -17983,13 +17983,13 @@ signed int apr_skiplist_remove_compare(struct apr_skiplist *sli, void *data, voi
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 249
 void apr_skiplist_set_compare(struct apr_skiplist *sl, signed int (*comp)(void *, void *), signed int (*compk)(void *, void *))
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(sl->compare == ((signed int (*)(void *, void *))NULL)))
-    tmp_if_expr$1 = sl->comparek != ((signed int (*)(void *, void *))NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = sl->comparek != ((signed int (*)(void *, void *))NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     apr_skiplist_add_index(sl, comp, compk);
 
   else
@@ -18006,7 +18006,7 @@ void apr_sleep(signed long int t)
   struct timeval tv;
   tv.tv_usec = t % 1000000L;
   tv.tv_sec = t / 1000000L;
-  select(0, (struct anonymous$25 *)(void *)0, (struct anonymous$25 *)(void *)0, (struct anonymous$25 *)(void *)0, &tv);
+  select(0, (struct anonymous_25 *)(void *)0, (struct anonymous_25 *)(void *)0, (struct anonymous_25 *)(void *)0, &tv);
 }
 
 // apr_snprintf
@@ -18040,21 +18040,21 @@ signed int apr_snprintf(char *buf, unsigned long int len, const char *format, ..
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockaddr.c line 834
 signed int apr_sockaddr_equal(const struct apr_sockaddr_t *addr1, const struct apr_sockaddr_t *addr2)
 {
-  signed int return_value_memcmp$1;
-  _Bool tmp_statement_expression$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  unsigned int return_value_htonl$5;
-  signed int return_value_memcmp$2;
-  _Bool tmp_statement_expression$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$11;
-  unsigned int return_value_htonl$10;
-  signed int return_value_memcmp$7;
+  signed int return_value_memcmp_1;
+  _Bool tmp_statement_expression_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  unsigned int return_value_htonl_5;
+  signed int return_value_memcmp_2;
+  _Bool tmp_statement_expression_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_11;
+  unsigned int return_value_htonl_10;
+  signed int return_value_memcmp_7;
   if(addr1->ipaddr_len == addr2->ipaddr_len)
   {
-    return_value_memcmp$1=memcmp(addr1->ipaddr_ptr, addr2->ipaddr_ptr, (unsigned long int)addr1->ipaddr_len);
-    if(!(return_value_memcmp$1 == 0))
+    return_value_memcmp_1=memcmp(addr1->ipaddr_ptr, addr2->ipaddr_ptr, (unsigned long int)addr1->ipaddr_len);
+    if(!(return_value_memcmp_1 == 0))
       goto __CPROVER_DUMP_L1;
 
     return 1;
@@ -18072,24 +18072,24 @@ signed int apr_sockaddr_equal(const struct apr_sockaddr_t *addr1, const struct a
 
       struct in6_addr *__a = (struct in6_addr *)addr2->ipaddr_ptr;
       if(__a->__in6_u.__u6_addr32[0l] == 0u)
-        tmp_if_expr$4 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
       {
-        return_value_htonl$5=htonl((unsigned int)0xffff);
-        tmp_if_expr$6 = __a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl$5 ? (_Bool)1 : (_Bool)0;
+        return_value_htonl_5=htonl((unsigned int)0xffff);
+        tmp_if_expr_6 = __a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl_5 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      tmp_statement_expression$3 = tmp_if_expr$6;
-      if(!tmp_statement_expression$3)
+        tmp_if_expr_6 = (_Bool)0;
+      tmp_statement_expression_3 = tmp_if_expr_6;
+      if(!tmp_statement_expression_3)
         goto __CPROVER_DUMP_L6;
 
-      return_value_memcmp$2=memcmp(addr1->ipaddr_ptr, (const void *)&((struct in6_addr *)addr2->ipaddr_ptr)->__in6_u.__u6_addr8[(signed long int)12], (unsigned long int)addr1->ipaddr_len);
-      if(!(return_value_memcmp$2 == 0))
+      return_value_memcmp_2=memcmp(addr1->ipaddr_ptr, (const void *)&((struct in6_addr *)addr2->ipaddr_ptr)->__in6_u.__u6_addr8[(signed long int)12], (unsigned long int)addr1->ipaddr_len);
+      if(!(return_value_memcmp_2 == 0))
         goto __CPROVER_DUMP_L6;
 
       return 1;
@@ -18105,26 +18105,26 @@ signed int apr_sockaddr_equal(const struct apr_sockaddr_t *addr1, const struct a
         if(!((signed int)addr1->sa.sin.sin_family == 10))
           goto __CPROVER_DUMP_L11;
 
-        struct in6_addr *apr_sockaddr_equal$$1$$4$$__a = (struct in6_addr *)addr1->ipaddr_ptr;
-        if(apr_sockaddr_equal$$1$$4$$__a->__in6_u.__u6_addr32[0l] == 0u)
-          tmp_if_expr$9 = apr_sockaddr_equal$$1$$4$$__a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+        struct in6_addr *apr_sockaddr_equal__1__4____a = (struct in6_addr *)addr1->ipaddr_ptr;
+        if(apr_sockaddr_equal__1__4____a->__in6_u.__u6_addr32[0l] == 0u)
+          tmp_if_expr_9 = apr_sockaddr_equal__1__4____a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        if(tmp_if_expr$9)
+          tmp_if_expr_9 = (_Bool)0;
+        if(tmp_if_expr_9)
         {
-          return_value_htonl$10=htonl((unsigned int)0xffff);
-          tmp_if_expr$11 = apr_sockaddr_equal$$1$$4$$__a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl$10 ? (_Bool)1 : (_Bool)0;
+          return_value_htonl_10=htonl((unsigned int)0xffff);
+          tmp_if_expr_11 = apr_sockaddr_equal__1__4____a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl_10 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$11 = (_Bool)0;
-        tmp_statement_expression$8 = tmp_if_expr$11;
-        if(!tmp_statement_expression$8)
+          tmp_if_expr_11 = (_Bool)0;
+        tmp_statement_expression_8 = tmp_if_expr_11;
+        if(!tmp_statement_expression_8)
           goto __CPROVER_DUMP_L11;
 
-        return_value_memcmp$7=memcmp(addr2->ipaddr_ptr, (const void *)&((struct in6_addr *)addr1->ipaddr_ptr)->__in6_u.__u6_addr8[(signed long int)12], (unsigned long int)addr2->ipaddr_len);
-        if(!(return_value_memcmp$7 == 0))
+        return_value_memcmp_7=memcmp(addr2->ipaddr_ptr, (const void *)&((struct in6_addr *)addr1->ipaddr_ptr)->__in6_u.__u6_addr8[(signed long int)12], (unsigned long int)addr2->ipaddr_len);
+        if(!(return_value_memcmp_7 == 0))
           goto __CPROVER_DUMP_L11;
 
         return 1;
@@ -18161,9 +18161,9 @@ signed int apr_sockaddr_info_get(struct apr_sockaddr_t **sa, const char *hostnam
 
   __CPROVER_DUMP_L1:
     ;
-    signed int return_value_find_addresses$1;
-    return_value_find_addresses$1=find_addresses(sa, hostname, family, port, flags, p);
-    return return_value_find_addresses$1;
+    signed int return_value_find_addresses_1;
+    return_value_find_addresses_1=find_addresses(sa, hostname, family, port, flags, p);
+    return return_value_find_addresses_1;
   }
 }
 
@@ -18171,26 +18171,26 @@ signed int apr_sockaddr_info_get(struct apr_sockaddr_t **sa, const char *hostnam
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockaddr.c line 134
 signed int apr_sockaddr_ip_get(char **addr, struct apr_sockaddr_t *sockaddr)
 {
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(sockaddr->pool, (unsigned long int)sockaddr->addr_str_len);
-  *addr = (char *)return_value_apr_palloc$1;
-  signed int return_value_apr_sockaddr_ip_getbuf$2;
-  return_value_apr_sockaddr_ip_getbuf$2=apr_sockaddr_ip_getbuf(*addr, (unsigned long int)sockaddr->addr_str_len, sockaddr);
-  return return_value_apr_sockaddr_ip_getbuf$2;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(sockaddr->pool, (unsigned long int)sockaddr->addr_str_len);
+  *addr = (char *)return_value_apr_palloc_1;
+  signed int return_value_apr_sockaddr_ip_getbuf_2;
+  return_value_apr_sockaddr_ip_getbuf_2=apr_sockaddr_ip_getbuf(*addr, (unsigned long int)sockaddr->addr_str_len, sockaddr);
+  return return_value_apr_sockaddr_ip_getbuf_2;
 }
 
 // apr_sockaddr_ip_getbuf
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_network_io.h line 709
 signed int apr_sockaddr_ip_getbuf(char *buf, unsigned long int buflen, struct apr_sockaddr_t *sockaddr)
 {
-  const char *return_value_apr_inet_ntop$1;
-  return_value_apr_inet_ntop$1=apr_inet_ntop(sockaddr->family, sockaddr->ipaddr_ptr, buf, buflen);
-  _Bool tmp_statement_expression$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$9;
-  unsigned int return_value_htonl$8;
-  unsigned long int return_value_strlen$5;
-  if(return_value_apr_inet_ntop$1 == ((const char *)NULL))
+  const char *return_value_apr_inet_ntop_1;
+  return_value_apr_inet_ntop_1=apr_inet_ntop(sockaddr->family, sockaddr->ipaddr_ptr, buf, buflen);
+  _Bool tmp_statement_expression_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_9;
+  unsigned int return_value_htonl_8;
+  unsigned long int return_value_strlen_5;
+  if(return_value_apr_inet_ntop_1 == ((const char *)NULL))
     return 28;
 
   else
@@ -18199,31 +18199,31 @@ signed int apr_sockaddr_ip_getbuf(char *buf, unsigned long int buflen, struct ap
     {
       struct in6_addr *__a = (struct in6_addr *)sockaddr->ipaddr_ptr;
       if(__a->__in6_u.__u6_addr32[0l] == 0u)
-        tmp_if_expr$7 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = (_Bool)0;
+      if(tmp_if_expr_7)
       {
-        return_value_htonl$8=htonl((unsigned int)0xffff);
-        tmp_if_expr$9 = __a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl$8 ? (_Bool)1 : (_Bool)0;
+        return_value_htonl_8=htonl((unsigned int)0xffff);
+        tmp_if_expr_9 = __a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl_8 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$9 = (_Bool)0;
-      tmp_statement_expression$6 = tmp_if_expr$9;
-      if(tmp_statement_expression$6)
+        tmp_if_expr_9 = (_Bool)0;
+      tmp_statement_expression_6 = tmp_if_expr_9;
+      if(tmp_statement_expression_6)
       {
-        return_value_strlen$5=strlen("::ffff:");
-        if(!(return_value_strlen$5 >= buflen))
+        return_value_strlen_5=strlen("::ffff:");
+        if(!(return_value_strlen_5 >= buflen))
         {
-          unsigned long int return_value_strlen$2;
-          return_value_strlen$2=strlen("::ffff:");
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen("::ffff:");
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(buf + (signed long int)return_value_strlen$3);
-          memmove((void *)buf, (const void *)(buf + (signed long int)return_value_strlen$2), return_value_strlen$4 + (unsigned long int)1);
+          unsigned long int return_value_strlen_2;
+          return_value_strlen_2=strlen("::ffff:");
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen("::ffff:");
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(buf + (signed long int)return_value_strlen_3);
+          memmove((void *)buf, (const void *)(buf + (signed long int)return_value_strlen_2), return_value_strlen_4 + (unsigned long int)1);
         }
 
       }
@@ -18239,43 +18239,43 @@ signed int apr_sockaddr_ip_getbuf(char *buf, unsigned long int buflen, struct ap
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockaddr.c line 852
 signed int apr_sockaddr_is_wildcard(const struct apr_sockaddr_t *addr)
 {
-  _Bool tmp_statement_expression$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  unsigned int return_value_htonl$5;
+  _Bool tmp_statement_expression_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  unsigned int return_value_htonl_5;
   if(!(addr->ipaddr_ptr == NULL))
   {
     if(!((unsigned long int)addr->ipaddr_len >= 17ul))
     {
-      signed int return_value_memcmp$1;
+      signed int return_value_memcmp_1;
       static const char inaddr_any[(signed long int)sizeof(struct in6_addr) /*16l*/ ] = { (const char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-      return_value_memcmp$1=memcmp((const void *)inaddr_any, addr->ipaddr_ptr, (unsigned long int)addr->ipaddr_len);
-      if(return_value_memcmp$1 == 0)
+      return_value_memcmp_1=memcmp((const void *)inaddr_any, addr->ipaddr_ptr, (unsigned long int)addr->ipaddr_len);
+      if(return_value_memcmp_1 == 0)
         return 1;
 
       if(addr->family == 10)
       {
         struct in6_addr *__a = (struct in6_addr *)addr->ipaddr_ptr;
         if(__a->__in6_u.__u6_addr32[0l] == 0u)
-          tmp_if_expr$4 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
         {
-          return_value_htonl$5=htonl((unsigned int)0xffff);
-          tmp_if_expr$6 = __a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl$5 ? (_Bool)1 : (_Bool)0;
+          return_value_htonl_5=htonl((unsigned int)0xffff);
+          tmp_if_expr_6 = __a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl_5 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        tmp_statement_expression$3 = tmp_if_expr$6;
-        if(tmp_statement_expression$3)
+          tmp_if_expr_6 = (_Bool)0;
+        tmp_statement_expression_3 = tmp_if_expr_6;
+        if(tmp_statement_expression_3)
         {
           struct in_addr *v4 = (struct in_addr *)&((unsigned int *)addr->ipaddr_ptr)[(signed long int)3];
-          signed int return_value_memcmp$2;
-          return_value_memcmp$2=memcmp((const void *)inaddr_any, (const void *)v4, sizeof(struct in_addr) /*4ul*/ );
-          if(return_value_memcmp$2 == 0)
+          signed int return_value_memcmp_2;
+          return_value_memcmp_2=memcmp((const void *)inaddr_any, (const void *)v4, sizeof(struct in_addr) /*4ul*/ );
+          if(return_value_memcmp_2 == 0)
             return 1;
 
         }
@@ -18326,14 +18326,14 @@ signed int apr_socket_accept(struct apr_socket_t **new, struct apr_socket_t *soc
 {
   signed int s;
   struct apr_sockaddr_t sa;
-  sa.salen = (unsigned int)sizeof(union anonymous$7) /*128ul*/ ;
+  sa.salen = (unsigned int)sizeof(union anonymous_7) /*128ul*/ ;
   signed int flags = 524288;
   s=accept4(sock->socketdes, (struct sockaddr *)&sa.sa, &sa.salen, flags);
   if(!(s >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   alloc_socket(new, connection_context);
@@ -18361,17 +18361,17 @@ signed int apr_socket_accept(struct apr_socket_t **new, struct apr_socket_t *soc
       (*new)->options = (*new)->options | 512;
     while((_Bool)0);
 
-  _Bool tmp_if_expr$3;
-  signed int return_value_memcmp$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_memcmp_2;
   if(!(sock->local_interface_unknown == 0))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_memcmp$2=memcmp(sock->local_addr->ipaddr_ptr, (const void *)generic_inaddr_any, (unsigned long int)sock->local_addr->ipaddr_len);
-    tmp_if_expr$3 = !(return_value_memcmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_memcmp_2=memcmp(sock->local_addr->ipaddr_ptr, (const void *)generic_inaddr_any, (unsigned long int)sock->local_addr->ipaddr_len);
+    tmp_if_expr_3 = !(return_value_memcmp_2 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
     (*new)->local_interface_unknown = 1;
 
   (*new)->inherit = 0;
@@ -18381,22 +18381,22 @@ signed int apr_socket_accept(struct apr_socket_t **new, struct apr_socket_t *soc
 
 // apr_socket_addr_get
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockaddr.c line 172
-signed int apr_socket_addr_get(struct apr_sockaddr_t **sa, enum anonymous$18 which, struct apr_socket_t *sock)
+signed int apr_socket_addr_get(struct apr_sockaddr_t **sa, enum anonymous_18 which, struct apr_socket_t *sock)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)which == APR_LOCAL)
   {
     if(!(sock->local_interface_unknown == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = sock->local_port_unknown != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = sock->local_port_unknown != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
-      signed int apr_socket_addr_get$$1$$1$$1$$rv;
-      apr_socket_addr_get$$1$$1$$1$$rv=get_local_addr(sock);
-      if(!(apr_socket_addr_get$$1$$1$$1$$rv == 0))
-        return apr_socket_addr_get$$1$$1$$1$$rv;
+      signed int apr_socket_addr_get__1__1__1__rv;
+      apr_socket_addr_get__1__1__1__rv=get_local_addr(sock);
+      if(!(apr_socket_addr_get__1__1__1__rv == 0))
+        return apr_socket_addr_get__1__1__1__rv;
 
     }
 
@@ -18431,13 +18431,13 @@ signed int apr_socket_addr_get(struct apr_sockaddr_t **sa, enum anonymous$18 whi
 signed int apr_socket_atmark(struct apr_socket_t *sock, signed int *atmark)
 {
   signed int oobmark;
-  signed int return_value_ioctl$2;
-  return_value_ioctl$2=ioctl(sock->socketdes, (unsigned long int)0x8905, (void *)&oobmark);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_ioctl$2 >= 0))
+  signed int return_value_ioctl_2;
+  return_value_ioctl_2=ioctl(sock->socketdes, (unsigned long int)0x8905, (void *)&oobmark);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_ioctl_2 >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   else
@@ -18455,7 +18455,7 @@ signed int apr_socket_atreadeof(struct apr_socket_t *sock, signed int *atreadeof
   signed int rv;
   signed int nfds;
   pfds[(signed long int)0].reqevents = (signed short int)0x001;
-  pfds[(signed long int)0].desc_type = (enum anonymous$19)APR_POLL_SOCKET;
+  pfds[(signed long int)0].desc_type = (enum anonymous_19)APR_POLL_SOCKET;
   pfds[(signed long int)0].desc.s = sock;
   do
     rv=apr_poll(&pfds[(signed long int)0], 1, &nfds, (signed long int)0);
@@ -18505,13 +18505,13 @@ signed int apr_socket_atreadeof(struct apr_socket_t *sock, signed int *atreadeof
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockets.c line 186
 signed int apr_socket_bind(struct apr_socket_t *sock, struct apr_sockaddr_t *sa)
 {
-  signed int return_value_bind$2;
-  return_value_bind$2=bind(sock->socketdes, (struct sockaddr *)&sa->sa, sa->salen);
-  if(return_value_bind$2 == -1)
+  signed int return_value_bind_2;
+  return_value_bind_2=bind(sock->socketdes, (struct sockaddr *)&sa->sa, sa->salen);
+  if(return_value_bind_2 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   else
@@ -18528,9 +18528,9 @@ signed int apr_socket_bind(struct apr_socket_t *sock, struct apr_sockaddr_t *sa)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockets.c line 181
 signed int apr_socket_close(struct apr_socket_t *thesocket)
 {
-  signed int return_value_apr_pool_cleanup_run$1;
-  return_value_apr_pool_cleanup_run$1=apr_pool_cleanup_run(thesocket->pool, (void *)thesocket, socket_cleanup);
-  return return_value_apr_pool_cleanup_run$1;
+  signed int return_value_apr_pool_cleanup_run_1;
+  return_value_apr_pool_cleanup_run_1=apr_pool_cleanup_run(thesocket->pool, (void *)thesocket, socket_cleanup);
+  return return_value_apr_pool_cleanup_run_1;
 }
 
 // apr_socket_connect
@@ -18538,36 +18538,36 @@ signed int apr_socket_close(struct apr_socket_t *thesocket)
 signed int apr_socket_connect(struct apr_socket_t *sock, struct apr_sockaddr_t *sa)
 {
   signed int rc;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     rc=connect(sock->socketdes, (struct sockaddr *)&sa->sa.sin, sa->salen);
     if(rc == -1)
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
-  signed int *return_value___errno_location$4;
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$5;
+  while(tmp_if_expr_2);
+  signed int *return_value___errno_location_4;
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_5;
   if(rc == -1)
   {
-    return_value___errno_location$4=__errno_location();
-    if(*return_value___errno_location$4 == 115)
-      tmp_if_expr$6 = (_Bool)1;
+    return_value___errno_location_4=__errno_location();
+    if(*return_value___errno_location_4 == 115)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$5=__errno_location();
-      tmp_if_expr$6 = *return_value___errno_location$5 == 114 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_5=__errno_location();
+      tmp_if_expr_6 = *return_value___errno_location_5 == 114 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
     {
       if(sock->timeout >= 1l)
       {
@@ -18580,9 +18580,9 @@ signed int apr_socket_connect(struct apr_socket_t *sock, struct apr_sockaddr_t *
         rc=getsockopt(sock->socketdes, 1, 4, (void *)(char *)&error, &len);
         if(!(rc >= 0))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          return *return_value___errno_location$3;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          return *return_value___errno_location_3;
         }
 
         if(!(error == 0))
@@ -18594,9 +18594,9 @@ signed int apr_socket_connect(struct apr_socket_t *sock, struct apr_sockaddr_t *
 
   }
 
-  signed int return_value_memcmp$7;
-  return_value_memcmp$7=memcmp(sa->ipaddr_ptr, (const void *)generic_inaddr_any, (unsigned long int)sa->ipaddr_len);
-  if(!(return_value_memcmp$7 == 0))
+  signed int return_value_memcmp_7;
+  return_value_memcmp_7=memcmp(sa->ipaddr_ptr, (const void *)generic_inaddr_any, (unsigned long int)sa->ipaddr_len);
+  if(!(return_value_memcmp_7 == 0))
   {
     sock->remote_addr_unknown = 0;
     sock->remote_addr->sa = sa->sa;
@@ -18607,20 +18607,20 @@ signed int apr_socket_connect(struct apr_socket_t *sock, struct apr_sockaddr_t *
   if((signed int)sock->local_addr->port == 0)
     sock->local_port_unknown = 1;
 
-  signed int return_value_memcmp$8;
-  return_value_memcmp$8=memcmp(sock->local_addr->ipaddr_ptr, (const void *)generic_inaddr_any, (unsigned long int)sock->local_addr->ipaddr_len);
-  if(return_value_memcmp$8 == 0)
+  signed int return_value_memcmp_8;
+  return_value_memcmp_8=memcmp(sock->local_addr->ipaddr_ptr, (const void *)generic_inaddr_any, (unsigned long int)sock->local_addr->ipaddr_len);
+  if(return_value_memcmp_8 == 0)
     sock->local_interface_unknown = 1;
 
-  signed int *return_value___errno_location$10;
+  signed int *return_value___errno_location_10;
   if(rc == -1)
   {
-    return_value___errno_location$10=__errno_location();
-    if(!(*return_value___errno_location$10 == 106))
+    return_value___errno_location_10=__errno_location();
+    if(!(*return_value___errno_location_10 == 106))
     {
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      return *return_value___errno_location$9;
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      return *return_value___errno_location_9;
     }
 
   }
@@ -18652,9 +18652,9 @@ signed int apr_socket_create(struct apr_socket_t **new, signed int ofamily, sign
 
   if(!((*new)->socketdes >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   set_socket_vars(*new, family, type, protocol);
@@ -18672,9 +18672,9 @@ signed int apr_socket_data_get(void **data, const char *key, struct apr_socket_t
   *data = (void *)0;
   while(!(cur == ((struct sock_userdata_t *)NULL)))
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(cur->key, key);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(cur->key, key);
+    if(return_value_strcmp_1 == 0)
     {
       *data = cur->data;
       break;
@@ -18690,9 +18690,9 @@ signed int apr_socket_data_get(void **data, const char *key, struct apr_socket_t
 signed int apr_socket_data_set(struct apr_socket_t *sock, void *data, const char *key, signed int (*cleanup)(void *))
 {
   struct sock_userdata_t *new;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(sock->pool, sizeof(struct sock_userdata_t) /*24ul*/ );
-  new = (struct sock_userdata_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(sock->pool, sizeof(struct sock_userdata_t) /*24ul*/ );
+  new = (struct sock_userdata_t *)return_value_apr_palloc_1;
   new->key=apr_pstrdup(sock->pool, key);
   new->data = data;
   new->next = sock->userdata;
@@ -18707,8 +18707,8 @@ signed int apr_socket_data_set(struct apr_socket_t *sock, void *data, const char
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockets.c line 519
 signed int apr_socket_inherit_set(struct apr_socket_t *thesocket)
 {
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
   if(!((0x00800 & thesocket->inherit) == 0))
     return 22;
 
@@ -18720,17 +18720,17 @@ signed int apr_socket_inherit_set(struct apr_socket_t *thesocket)
       flags=fcntl(thesocket->socketdes, 1);
       if(flags == -1)
       {
-        return_value___errno_location$1=__errno_location();
-        return *return_value___errno_location$1;
+        return_value___errno_location_1=__errno_location();
+        return *return_value___errno_location_1;
       }
 
       flags = flags & ~1;
-      signed int return_value_fcntl$3;
-      return_value_fcntl$3=fcntl(thesocket->socketdes, 2, flags);
-      if(return_value_fcntl$3 == -1)
+      signed int return_value_fcntl_3;
+      return_value_fcntl_3=fcntl(thesocket->socketdes, 2, flags);
+      if(return_value_fcntl_3 == -1)
       {
-        return_value___errno_location$2=__errno_location();
-        return *return_value___errno_location$2;
+        return_value___errno_location_2=__errno_location();
+        return *return_value___errno_location_2;
       }
 
       thesocket->inherit = thesocket->inherit | 1 << 24;
@@ -18745,8 +18745,8 @@ signed int apr_socket_inherit_set(struct apr_socket_t *thesocket)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockets.c line 521
 signed int apr_socket_inherit_unset(struct apr_socket_t *thesocket)
 {
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
   if(!((0x00800 & thesocket->inherit) == 0))
     return 22;
 
@@ -18758,17 +18758,17 @@ signed int apr_socket_inherit_unset(struct apr_socket_t *thesocket)
       flags=fcntl(thesocket->socketdes, 1);
       if(flags == -1)
       {
-        return_value___errno_location$1=__errno_location();
-        return *return_value___errno_location$1;
+        return_value___errno_location_1=__errno_location();
+        return *return_value___errno_location_1;
       }
 
       flags = flags | 1;
-      signed int return_value_fcntl$3;
-      return_value_fcntl$3=fcntl(thesocket->socketdes, 2, flags);
-      if(return_value_fcntl$3 == -1)
+      signed int return_value_fcntl_3;
+      return_value_fcntl_3=fcntl(thesocket->socketdes, 2, flags);
+      if(return_value_fcntl_3 == -1)
       {
-        return_value___errno_location$2=__errno_location();
-        return *return_value___errno_location$2;
+        return_value___errno_location_2=__errno_location();
+        return *return_value___errno_location_2;
       }
 
       thesocket->inherit = thesocket->inherit & ~(1 << 24);
@@ -18783,13 +18783,13 @@ signed int apr_socket_inherit_unset(struct apr_socket_t *thesocket)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockets.c line 202
 signed int apr_socket_listen(struct apr_socket_t *sock, signed int backlog)
 {
-  signed int return_value_listen$2;
-  return_value_listen$2=listen(sock->socketdes, backlog);
-  signed int *return_value___errno_location$1;
-  if(return_value_listen$2 == -1)
+  signed int return_value_listen_2;
+  return_value_listen_2=listen(sock->socketdes, backlog);
+  signed int *return_value___errno_location_1;
+  if(return_value_listen_2 == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   else
@@ -18815,22 +18815,22 @@ signed int apr_socket_opt_set(struct apr_socket_t *sock, signed int opt, signed 
 
   else
     one = 0;
-  signed int return_value_setsockopt$10;
-  signed int return_value_setsockopt$12;
-  signed int return_value_setsockopt$22;
+  signed int return_value_setsockopt_10;
+  signed int return_value_setsockopt_12;
+  signed int return_value_setsockopt_22;
   switch(opt)
   {
     case 2:
     {
       if(!(on == (signed int)((2 & sock->options) == 2)))
       {
-        signed int return_value_setsockopt$2;
-        return_value_setsockopt$2=setsockopt(sock->socketdes, 1, 9, (void *)&one, (unsigned int)sizeof(signed int) /*4ul*/ );
-        if(return_value_setsockopt$2 == -1)
+        signed int return_value_setsockopt_2;
+        return_value_setsockopt_2=setsockopt(sock->socketdes, 1, 9, (void *)&one, (unsigned int)sizeof(signed int) /*4ul*/ );
+        if(return_value_setsockopt_2 == -1)
         {
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          return *return_value___errno_location$1;
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          return *return_value___errno_location_1;
         }
 
         do
@@ -18848,13 +18848,13 @@ signed int apr_socket_opt_set(struct apr_socket_t *sock, signed int opt, signed 
     {
       if(!(on == (signed int)((4 & sock->options) == 4)))
       {
-        signed int return_value_setsockopt$4;
-        return_value_setsockopt$4=setsockopt(sock->socketdes, 1, 1, (void *)&one, (unsigned int)sizeof(signed int) /*4ul*/ );
-        if(return_value_setsockopt$4 == -1)
+        signed int return_value_setsockopt_4;
+        return_value_setsockopt_4=setsockopt(sock->socketdes, 1, 1, (void *)&one, (unsigned int)sizeof(signed int) /*4ul*/ );
+        if(return_value_setsockopt_4 == -1)
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          return *return_value___errno_location$3;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          return *return_value___errno_location_3;
         }
 
         do
@@ -18872,13 +18872,13 @@ signed int apr_socket_opt_set(struct apr_socket_t *sock, signed int opt, signed 
     {
       if(!(on == (signed int)((65536 & sock->options) == 65536)))
       {
-        signed int return_value_setsockopt$6;
-        return_value_setsockopt$6=setsockopt(sock->socketdes, 1, 6, (void *)&one, (unsigned int)sizeof(signed int) /*4ul*/ );
-        if(return_value_setsockopt$6 == -1)
+        signed int return_value_setsockopt_6;
+        return_value_setsockopt_6=setsockopt(sock->socketdes, 1, 6, (void *)&one, (unsigned int)sizeof(signed int) /*4ul*/ );
+        if(return_value_setsockopt_6 == -1)
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          return *return_value___errno_location$5;
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          return *return_value___errno_location_5;
         }
 
         do
@@ -18896,13 +18896,13 @@ signed int apr_socket_opt_set(struct apr_socket_t *sock, signed int opt, signed 
     {
       if(!(on == (signed int)((16 & sock->options) == 16)))
       {
-        signed int return_value_setsockopt$8;
-        return_value_setsockopt$8=setsockopt(sock->socketdes, 1, 2, (void *)&one, (unsigned int)sizeof(signed int) /*4ul*/ );
-        if(return_value_setsockopt$8 == -1)
+        signed int return_value_setsockopt_8;
+        return_value_setsockopt_8=setsockopt(sock->socketdes, 1, 2, (void *)&one, (unsigned int)sizeof(signed int) /*4ul*/ );
+        if(return_value_setsockopt_8 == -1)
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          return *return_value___errno_location$7;
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          return *return_value___errno_location_7;
         }
 
         do
@@ -18918,24 +18918,24 @@ signed int apr_socket_opt_set(struct apr_socket_t *sock, signed int opt, signed 
     }
     case 64:
     {
-      return_value_setsockopt$10=setsockopt(sock->socketdes, 1, 7, (void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
-      if(return_value_setsockopt$10 == -1)
+      return_value_setsockopt_10=setsockopt(sock->socketdes, 1, 7, (void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
+      if(return_value_setsockopt_10 == -1)
       {
-        signed int *return_value___errno_location$9;
-        return_value___errno_location$9=__errno_location();
-        return *return_value___errno_location$9;
+        signed int *return_value___errno_location_9;
+        return_value___errno_location_9=__errno_location();
+        return *return_value___errno_location_9;
       }
 
       break;
     }
     case 128:
     {
-      return_value_setsockopt$12=setsockopt(sock->socketdes, 1, 8, (void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
-      if(return_value_setsockopt$12 == -1)
+      return_value_setsockopt_12=setsockopt(sock->socketdes, 1, 8, (void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
+      if(return_value_setsockopt_12 == -1)
       {
-        signed int *return_value___errno_location$11;
-        return_value___errno_location$11=__errno_location();
-        return *return_value___errno_location$11;
+        signed int *return_value___errno_location_11;
+        return_value___errno_location_11=__errno_location();
+        return *return_value___errno_location_11;
       }
 
       break;
@@ -18977,13 +18977,13 @@ signed int apr_socket_opt_set(struct apr_socket_t *sock, signed int opt, signed 
         struct linger li;
         li.l_onoff = on;
         li.l_linger = 30;
-        signed int return_value_setsockopt$14;
-        return_value_setsockopt$14=setsockopt(sock->socketdes, 1, 13, (const void *)(char *)&li, (unsigned int)sizeof(struct linger) /*8ul*/ );
-        if(return_value_setsockopt$14 == -1)
+        signed int return_value_setsockopt_14;
+        return_value_setsockopt_14=setsockopt(sock->socketdes, 1, 13, (const void *)(char *)&li, (unsigned int)sizeof(struct linger) /*8ul*/ );
+        if(return_value_setsockopt_14 == -1)
         {
-          signed int *return_value___errno_location$13;
-          return_value___errno_location$13=__errno_location();
-          return *return_value___errno_location$13;
+          signed int *return_value___errno_location_13;
+          return_value___errno_location_13=__errno_location();
+          return *return_value___errno_location_13;
         }
 
         do
@@ -19003,13 +19003,13 @@ signed int apr_socket_opt_set(struct apr_socket_t *sock, signed int opt, signed 
       {
         signed int optlevel = 6;
         signed int optname = 9;
-        signed int return_value_setsockopt$16;
-        return_value_setsockopt$16=setsockopt(sock->socketdes, optlevel, optname, (void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
-        if(return_value_setsockopt$16 == -1)
+        signed int return_value_setsockopt_16;
+        return_value_setsockopt_16=setsockopt(sock->socketdes, optlevel, optname, (void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
+        if(return_value_setsockopt_16 == -1)
         {
-          signed int *return_value___errno_location$15;
-          return_value___errno_location$15=__errno_location();
-          return *return_value___errno_location$15;
+          signed int *return_value___errno_location_15;
+          return_value___errno_location_15=__errno_location();
+          return *return_value___errno_location_15;
         }
 
         do
@@ -19027,21 +19027,21 @@ signed int apr_socket_opt_set(struct apr_socket_t *sock, signed int opt, signed 
     {
       if(!((signed int)((512 & sock->options) == 512) == on))
       {
-        signed int apr_socket_opt_set$$1$$1$$10$$optlevel = 6;
-        signed int apr_socket_opt_set$$1$$1$$10$$optname = 1;
+        signed int apr_socket_opt_set__1__1__10__optlevel = 6;
+        signed int apr_socket_opt_set__1__1__10__optname = 1;
         if(sock->protocol == 132)
         {
-          apr_socket_opt_set$$1$$1$$10$$optlevel = 132;
-          apr_socket_opt_set$$1$$1$$10$$optname = 3;
+          apr_socket_opt_set__1__1__10__optlevel = 132;
+          apr_socket_opt_set__1__1__10__optname = 3;
         }
 
-        signed int return_value_setsockopt$18;
-        return_value_setsockopt$18=setsockopt(sock->socketdes, apr_socket_opt_set$$1$$1$$10$$optlevel, apr_socket_opt_set$$1$$1$$10$$optname, (void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
-        if(return_value_setsockopt$18 == -1)
+        signed int return_value_setsockopt_18;
+        return_value_setsockopt_18=setsockopt(sock->socketdes, apr_socket_opt_set__1__1__10__optlevel, apr_socket_opt_set__1__1__10__optname, (void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
+        if(return_value_setsockopt_18 == -1)
         {
-          signed int *return_value___errno_location$17;
-          return_value___errno_location$17=__errno_location();
-          return *return_value___errno_location$17;
+          signed int *return_value___errno_location_17;
+          return_value___errno_location_17=__errno_location();
+          return *return_value___errno_location_17;
         }
 
         do
@@ -19059,13 +19059,13 @@ signed int apr_socket_opt_set(struct apr_socket_t *sock, signed int opt, signed 
     {
       if(!((signed int)((1024 & sock->options) == 1024) == on))
       {
-        signed int return_value_setsockopt$20;
-        return_value_setsockopt$20=setsockopt(sock->socketdes, 6, 3, (void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
-        if(return_value_setsockopt$20 == -1)
+        signed int return_value_setsockopt_20;
+        return_value_setsockopt_20=setsockopt(sock->socketdes, 6, 3, (void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
+        if(return_value_setsockopt_20 == -1)
         {
-          signed int *return_value___errno_location$19;
-          return_value___errno_location$19=__errno_location();
-          return *return_value___errno_location$19;
+          signed int *return_value___errno_location_19;
+          return_value___errno_location_19=__errno_location();
+          return *return_value___errno_location_19;
         }
 
         do
@@ -19092,12 +19092,12 @@ signed int apr_socket_opt_set(struct apr_socket_t *sock, signed int opt, signed 
     }
     case 16384:
     {
-      return_value_setsockopt$22=setsockopt(sock->socketdes, 41, 26, (void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
-      if(return_value_setsockopt$22 == -1)
+      return_value_setsockopt_22=setsockopt(sock->socketdes, 41, 26, (void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
+      if(return_value_setsockopt_22 == -1)
       {
-        signed int *return_value___errno_location$21;
-        return_value___errno_location$21=__errno_location();
-        return *return_value___errno_location$21;
+        signed int *return_value___errno_location_21;
+        return_value___errno_location_21=__errno_location();
+        return *return_value___errno_location_21;
       }
 
       do
@@ -19136,10 +19136,10 @@ signed int apr_socket_recv(struct apr_socket_t *sock, char *buf, unsigned long i
 {
   signed long int rv;
   signed int arv;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$4;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_4;
   if(!((4096 & sock->options) == 0))
     sock->options = sock->options & ~4096;
 
@@ -19150,25 +19150,25 @@ signed int apr_socket_recv(struct apr_socket_t *sock, char *buf, unsigned long i
       rv=read(sock->socketdes, (void *)buf, *len);
       if(rv == -1l)
       {
-        return_value___errno_location$1=__errno_location();
-        tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_1=__errno_location();
+        tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
     }
-    while(tmp_if_expr$2);
+    while(tmp_if_expr_2);
 
   __CPROVER_DUMP_L4:
     ;
     if(!(rv == -1l))
       goto __CPROVER_DUMP_L11;
 
-    return_value___errno_location$3=__errno_location();
-    if(!(*return_value___errno_location$3 == 11))
+    return_value___errno_location_3=__errno_location();
+    if(!(*return_value___errno_location_3 == 11))
     {
-      return_value___errno_location$4=__errno_location();
-      if(!(*return_value___errno_location$4 == 11))
+      return_value___errno_location_4=__errno_location();
+      if(!(*return_value___errno_location_4 == 11))
         goto __CPROVER_DUMP_L11;
 
     }
@@ -19181,8 +19181,8 @@ signed int apr_socket_recv(struct apr_socket_t *sock, char *buf, unsigned long i
 do_select:
   ;
   arv=apr_wait_for_io_or_timeout((struct apr_file_t *)(void *)0, sock, 1);
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$5;
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_5;
   if(!(arv == 0))
   {
     *len = (unsigned long int)0;
@@ -19195,14 +19195,14 @@ do_select:
       rv=read(sock->socketdes, (void *)buf, *len);
       if(rv == -1l)
       {
-        return_value___errno_location$5=__errno_location();
-        tmp_if_expr$6 = *return_value___errno_location$5 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_5=__errno_location();
+        tmp_if_expr_6 = *return_value___errno_location_5 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$6 = (_Bool)0;
+        tmp_if_expr_6 = (_Bool)0;
     }
-    while(tmp_if_expr$6);
+    while(tmp_if_expr_6);
   goto __CPROVER_DUMP_L4;
 
 __CPROVER_DUMP_L11:
@@ -19210,9 +19210,9 @@ __CPROVER_DUMP_L11:
   if(rv == -1l)
   {
     *len = (unsigned long int)0;
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    return *return_value___errno_location$7;
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    return *return_value___errno_location_7;
   }
 
   if(sock->timeout >= 1l)
@@ -19235,33 +19235,33 @@ __CPROVER_DUMP_L11:
 signed int apr_socket_recvfrom(struct apr_sockaddr_t *from, struct apr_socket_t *sock, signed int flags, char *buf, unsigned long int *len)
 {
   signed long int rv;
-  from->salen = (unsigned int)sizeof(union anonymous$7) /*128ul*/ ;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  from->salen = (unsigned int)sizeof(union anonymous_7) /*128ul*/ ;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     rv=recvfrom(sock->socketdes, (void *)buf, *len, flags, (struct sockaddr *)&from->sa, &from->salen);
     if(rv == -1l)
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$4;
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$5;
+  while(tmp_if_expr_2);
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_4;
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_5;
   while(rv == -1l)
   {
-    return_value___errno_location$3=__errno_location();
-    if(!(*return_value___errno_location$3 == 11))
+    return_value___errno_location_3=__errno_location();
+    if(!(*return_value___errno_location_3 == 11))
     {
-      return_value___errno_location$4=__errno_location();
-      if(!(*return_value___errno_location$4 == 11))
+      return_value___errno_location_4=__errno_location();
+      if(!(*return_value___errno_location_4 == 11))
         break;
 
     }
@@ -19283,28 +19283,28 @@ signed int apr_socket_recvfrom(struct apr_sockaddr_t *from, struct apr_socket_t 
         rv=recvfrom(sock->socketdes, (void *)buf, *len, flags, (struct sockaddr *)&from->sa, &from->salen);
         if(rv == -1l)
         {
-          return_value___errno_location$5=__errno_location();
-          tmp_if_expr$6 = *return_value___errno_location$5 == 4 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_5=__errno_location();
+          tmp_if_expr_6 = *return_value___errno_location_5 == 4 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$6 = (_Bool)0;
+          tmp_if_expr_6 = (_Bool)0;
       }
-      while(tmp_if_expr$6);
+      while(tmp_if_expr_6);
   }
   if(rv == -1l)
   {
     *len = (unsigned long int)0;
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    return *return_value___errno_location$7;
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    return *return_value___errno_location_7;
   }
 
   if(!((char *)2 - ((char *)NULL) >= (signed long int)from->salen))
   {
-    unsigned short int return_value_ntohs$8;
-    return_value_ntohs$8=ntohs(from->sa.sin.sin_port);
-    apr_sockaddr_vars_set(from, (signed int)from->sa.sin.sin_family, return_value_ntohs$8);
+    unsigned short int return_value_ntohs_8;
+    return_value_ntohs_8=ntohs(from->sa.sin.sin_port);
+    apr_sockaddr_vars_set(from, (signed int)from->sa.sin.sin_family, return_value_ntohs_8);
   }
 
   *len = (unsigned long int)rv;
@@ -19330,10 +19330,10 @@ signed int apr_socket_recvfrom(struct apr_sockaddr_t *from, struct apr_socket_t 
 signed int apr_socket_send(struct apr_socket_t *sock, const char *buf, unsigned long int *len)
 {
   signed long int rv;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$4;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_4;
   signed int arv;
   if(!((8192 & sock->options) == 0))
     sock->options = sock->options & ~8192;
@@ -19345,25 +19345,25 @@ signed int apr_socket_send(struct apr_socket_t *sock, const char *buf, unsigned 
       rv=write(sock->socketdes, (const void *)buf, *len);
       if(rv == -1l)
       {
-        return_value___errno_location$1=__errno_location();
-        tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_1=__errno_location();
+        tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
     }
-    while(tmp_if_expr$2);
+    while(tmp_if_expr_2);
 
   __CPROVER_DUMP_L4:
     ;
     if(!(rv == -1l))
       goto __CPROVER_DUMP_L11;
 
-    return_value___errno_location$3=__errno_location();
-    if(!(*return_value___errno_location$3 == 11))
+    return_value___errno_location_3=__errno_location();
+    if(!(*return_value___errno_location_3 == 11))
     {
-      return_value___errno_location$4=__errno_location();
-      if(!(*return_value___errno_location$4 == 11))
+      return_value___errno_location_4=__errno_location();
+      if(!(*return_value___errno_location_4 == 11))
         goto __CPROVER_DUMP_L11;
 
     }
@@ -19376,8 +19376,8 @@ signed int apr_socket_send(struct apr_socket_t *sock, const char *buf, unsigned 
 do_select:
   ;
   arv=apr_wait_for_io_or_timeout((struct apr_file_t *)(void *)0, sock, 0);
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$5;
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_5;
   if(!(arv == 0))
   {
     *len = (unsigned long int)0;
@@ -19390,14 +19390,14 @@ do_select:
       rv=write(sock->socketdes, (const void *)buf, *len);
       if(rv == -1l)
       {
-        return_value___errno_location$5=__errno_location();
-        tmp_if_expr$6 = *return_value___errno_location$5 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_5=__errno_location();
+        tmp_if_expr_6 = *return_value___errno_location_5 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$6 = (_Bool)0;
+        tmp_if_expr_6 = (_Bool)0;
     }
-    while(tmp_if_expr$6);
+    while(tmp_if_expr_6);
   goto __CPROVER_DUMP_L4;
 
 __CPROVER_DUMP_L11:
@@ -19405,9 +19405,9 @@ __CPROVER_DUMP_L11:
   if(rv == -1l)
   {
     *len = (unsigned long int)0;
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    return *return_value___errno_location$7;
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    return *return_value___errno_location_7;
   }
 
   if(sock->timeout >= 1l)
@@ -19448,9 +19448,9 @@ signed int apr_socket_sendfile(struct apr_socket_t *sock, struct apr_file_t *fil
     if(!(arv == 0))
     {
       *len = (unsigned long int)0;
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      return *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      return *return_value___errno_location_1;
     }
 
     nbytes = nbytes + (signed int)hdrbytes;
@@ -19461,17 +19461,17 @@ signed int apr_socket_sendfile(struct apr_socket_t *sock, struct apr_file_t *fil
     if(!(hdrbytes >= (unsigned long int)total_hdrbytes))
     {
       *len = hdrbytes;
-      signed int return_value_apr_socket_opt_set$2;
-      return_value_apr_socket_opt_set$2=apr_socket_opt_set(sock, 1024, 0);
-      return return_value_apr_socket_opt_set$2;
+      signed int return_value_apr_socket_opt_set_2;
+      return_value_apr_socket_opt_set_2=apr_socket_opt_set(sock, 1024, 0);
+      return return_value_apr_socket_opt_set_2;
     }
 
   }
 
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$6;
-  signed int *return_value___errno_location$7;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_6;
+  signed int *return_value___errno_location_7;
   if(!((8192 & sock->options) == 0))
     sock->options = sock->options & ~8192;
 
@@ -19479,30 +19479,30 @@ signed int apr_socket_sendfile(struct apr_socket_t *sock, struct apr_file_t *fil
   {
     do
     {
-      signed long int return_value_sendfile$5;
-      return_value_sendfile$5=sendfile(sock->socketdes, file->filedes, &off, *len);
-      rv = (signed int)return_value_sendfile$5;
+      signed long int return_value_sendfile_5;
+      return_value_sendfile_5=sendfile(sock->socketdes, file->filedes, &off, *len);
+      rv = (signed int)return_value_sendfile_5;
       if(rv == -1)
       {
-        return_value___errno_location$3=__errno_location();
-        tmp_if_expr$4 = *return_value___errno_location$3 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_3=__errno_location();
+        tmp_if_expr_4 = *return_value___errno_location_3 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
     }
-    while(tmp_if_expr$4);
+    while(tmp_if_expr_4);
 
   __CPROVER_DUMP_L12:
     ;
     if(!(rv == -1))
       goto __CPROVER_DUMP_L19;
 
-    return_value___errno_location$6=__errno_location();
-    if(!(*return_value___errno_location$6 == 11))
+    return_value___errno_location_6=__errno_location();
+    if(!(*return_value___errno_location_6 == 11))
     {
-      return_value___errno_location$7=__errno_location();
-      if(!(*return_value___errno_location$7 == 11))
+      return_value___errno_location_7=__errno_location();
+      if(!(*return_value___errno_location_7 == 11))
         goto __CPROVER_DUMP_L19;
 
     }
@@ -19515,8 +19515,8 @@ signed int apr_socket_sendfile(struct apr_socket_t *sock, struct apr_file_t *fil
 do_select:
   ;
   arv=apr_wait_for_io_or_timeout((struct apr_file_t *)(void *)0, sock, 0);
-  _Bool tmp_if_expr$9;
-  signed int *return_value___errno_location$8;
+  _Bool tmp_if_expr_9;
+  signed int *return_value___errno_location_8;
   if(!(arv == 0))
   {
     *len = (unsigned long int)0;
@@ -19526,19 +19526,19 @@ do_select:
   else
     do
     {
-      signed long int return_value_sendfile$10;
-      return_value_sendfile$10=sendfile(sock->socketdes, file->filedes, &off, *len);
-      rv = (signed int)return_value_sendfile$10;
+      signed long int return_value_sendfile_10;
+      return_value_sendfile_10=sendfile(sock->socketdes, file->filedes, &off, *len);
+      rv = (signed int)return_value_sendfile_10;
       if(rv == -1)
       {
-        return_value___errno_location$8=__errno_location();
-        tmp_if_expr$9 = *return_value___errno_location$8 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_8=__errno_location();
+        tmp_if_expr_9 = *return_value___errno_location_8 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$9 = (_Bool)0;
+        tmp_if_expr_9 = (_Bool)0;
     }
-    while(tmp_if_expr$9);
+    while(tmp_if_expr_9);
   goto __CPROVER_DUMP_L12;
 
 __CPROVER_DUMP_L19:
@@ -19546,16 +19546,16 @@ __CPROVER_DUMP_L19:
   if(rv == -1)
   {
     *len = (unsigned long int)nbytes;
-    signed int *return_value___errno_location$11;
-    return_value___errno_location$11=__errno_location();
-    rv = *return_value___errno_location$11;
+    signed int *return_value___errno_location_11;
+    return_value___errno_location_11=__errno_location();
+    rv = *return_value___errno_location_11;
     apr_socket_opt_set(sock, 1024, 0);
     return rv;
   }
 
   nbytes = nbytes + rv;
-  signed int tmp_if_expr$14;
-  signed int *return_value___errno_location$13;
+  signed int tmp_if_expr_14;
+  signed int *return_value___errno_location_13;
   if(!((unsigned long int)rv >= *len))
   {
     *len = (unsigned long int)nbytes;
@@ -19581,9 +19581,9 @@ __CPROVER_DUMP_L19:
       if(!(arv == 0))
       {
         *len = (unsigned long int)nbytes;
-        signed int *return_value___errno_location$12;
-        return_value___errno_location$12=__errno_location();
-        rv = *return_value___errno_location$12;
+        signed int *return_value___errno_location_12;
+        return_value___errno_location_12=__errno_location();
+        rv = *return_value___errno_location_12;
         apr_socket_opt_set(sock, 1024, 0);
         return rv;
       }
@@ -19594,13 +19594,13 @@ __CPROVER_DUMP_L19:
     *len = (unsigned long int)nbytes;
     if(!(rv >= 0))
     {
-      return_value___errno_location$13=__errno_location();
-      tmp_if_expr$14 = *return_value___errno_location$13;
+      return_value___errno_location_13=__errno_location();
+      tmp_if_expr_14 = *return_value___errno_location_13;
     }
 
     else
-      tmp_if_expr$14 = 0;
-    return tmp_if_expr$14;
+      tmp_if_expr_14 = 0;
+    return tmp_if_expr_14;
   }
 }
 
@@ -19609,32 +19609,32 @@ __CPROVER_DUMP_L19:
 signed int apr_socket_sendto(struct apr_socket_t *sock, struct apr_sockaddr_t *where, signed int flags, const char *buf, unsigned long int *len)
 {
   signed long int rv;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     rv=sendto(sock->socketdes, (const void *)buf, *len, flags, (struct sockaddr *)&where->sa, where->salen);
     if(rv == -1l)
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$4;
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$5;
+  while(tmp_if_expr_2);
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_4;
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_5;
   while(rv == -1l)
   {
-    return_value___errno_location$3=__errno_location();
-    if(!(*return_value___errno_location$3 == 11))
+    return_value___errno_location_3=__errno_location();
+    if(!(*return_value___errno_location_3 == 11))
     {
-      return_value___errno_location$4=__errno_location();
-      if(!(*return_value___errno_location$4 == 11))
+      return_value___errno_location_4=__errno_location();
+      if(!(*return_value___errno_location_4 == 11))
         break;
 
     }
@@ -19656,21 +19656,21 @@ signed int apr_socket_sendto(struct apr_socket_t *sock, struct apr_sockaddr_t *w
         rv=sendto(sock->socketdes, (const void *)buf, *len, flags, (struct sockaddr *)&where->sa, where->salen);
         if(rv == -1l)
         {
-          return_value___errno_location$5=__errno_location();
-          tmp_if_expr$6 = *return_value___errno_location$5 == 4 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_5=__errno_location();
+          tmp_if_expr_6 = *return_value___errno_location_5 == 4 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$6 = (_Bool)0;
+          tmp_if_expr_6 = (_Bool)0;
       }
-      while(tmp_if_expr$6);
+      while(tmp_if_expr_6);
   }
   if(rv == -1l)
   {
     *len = (unsigned long int)0;
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    return *return_value___errno_location$7;
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    return *return_value___errno_location_7;
   }
 
   *len = (unsigned long int)rv;
@@ -19686,10 +19686,10 @@ signed int apr_socket_sendv(struct apr_socket_t *sock, struct iovec *vec, signed
   signed int i = 0;
   for( ; !(i >= nvec); i = i + 1)
     requested_len = requested_len + (vec + (signed long int)i)->iov_len;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$4;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_4;
   signed int arv;
   if(!((8192 & sock->options) == 0))
     sock->options = sock->options & ~8192;
@@ -19701,25 +19701,25 @@ signed int apr_socket_sendv(struct apr_socket_t *sock, struct iovec *vec, signed
       rv=writev(sock->socketdes, vec, nvec);
       if(rv == -1l)
       {
-        return_value___errno_location$1=__errno_location();
-        tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_1=__errno_location();
+        tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
     }
-    while(tmp_if_expr$2);
+    while(tmp_if_expr_2);
 
   __CPROVER_DUMP_L6:
     ;
     if(!(rv == -1l))
       goto __CPROVER_DUMP_L13;
 
-    return_value___errno_location$3=__errno_location();
-    if(!(*return_value___errno_location$3 == 11))
+    return_value___errno_location_3=__errno_location();
+    if(!(*return_value___errno_location_3 == 11))
     {
-      return_value___errno_location$4=__errno_location();
-      if(!(*return_value___errno_location$4 == 11))
+      return_value___errno_location_4=__errno_location();
+      if(!(*return_value___errno_location_4 == 11))
         goto __CPROVER_DUMP_L13;
 
     }
@@ -19732,8 +19732,8 @@ signed int apr_socket_sendv(struct apr_socket_t *sock, struct iovec *vec, signed
 do_select:
   ;
   arv=apr_wait_for_io_or_timeout((struct apr_file_t *)(void *)0, sock, 0);
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$5;
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_5;
   if(!(arv == 0))
   {
     *len = (unsigned long int)0;
@@ -19746,14 +19746,14 @@ do_select:
       rv=writev(sock->socketdes, vec, nvec);
       if(rv == -1l)
       {
-        return_value___errno_location$5=__errno_location();
-        tmp_if_expr$6 = *return_value___errno_location$5 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_5=__errno_location();
+        tmp_if_expr_6 = *return_value___errno_location_5 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$6 = (_Bool)0;
+        tmp_if_expr_6 = (_Bool)0;
     }
-    while(tmp_if_expr$6);
+    while(tmp_if_expr_6);
   goto __CPROVER_DUMP_L6;
 
 __CPROVER_DUMP_L13:
@@ -19761,9 +19761,9 @@ __CPROVER_DUMP_L13:
   if(rv == -1l)
   {
     *len = (unsigned long int)0;
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    return *return_value___errno_location$7;
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    return *return_value___errno_location_7;
   }
 
   if(sock->timeout >= 1l)
@@ -19779,21 +19779,21 @@ __CPROVER_DUMP_L13:
 
 // apr_socket_shutdown
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockets.c line 175
-signed int apr_socket_shutdown(struct apr_socket_t *thesocket, enum anonymous$21 how)
+signed int apr_socket_shutdown(struct apr_socket_t *thesocket, enum anonymous_21 how)
 {
-  signed int return_value_shutdown$1;
-  return_value_shutdown$1=shutdown(thesocket->socketdes, (signed int)how);
-  signed int tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
-  if(return_value_shutdown$1 == -1)
+  signed int return_value_shutdown_1;
+  return_value_shutdown_1=shutdown(thesocket->socketdes, (signed int)how);
+  signed int tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
+  if(return_value_shutdown_1 == -1)
   {
-    return_value___errno_location$2=__errno_location();
-    tmp_if_expr$3 = *return_value___errno_location$2;
+    return_value___errno_location_2=__errno_location();
+    tmp_if_expr_3 = *return_value___errno_location_2;
   }
 
   else
-    tmp_if_expr$3 = 0;
-  return tmp_if_expr$3;
+    tmp_if_expr_3 = 0;
+  return tmp_if_expr_3;
 }
 
 // apr_socket_timeout_get
@@ -19808,20 +19808,20 @@ signed int apr_socket_timeout_get(struct apr_socket_t *sock, signed long int *t)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockopt.c line 75
 signed int apr_socket_timeout_set(struct apr_socket_t *sock, signed long int t)
 {
-  signed int apr_socket_timeout_set$$1$$stat;
-  _Bool tmp_if_expr$1;
+  signed int apr_socket_timeout_set__1__stat;
+  _Bool tmp_if_expr_1;
   if(t >= 0l)
-    tmp_if_expr$1 = sock->timeout < (signed long int)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = sock->timeout < (signed long int)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(!((signed int)((8 & sock->options) == 8) == 1))
     {
-      apr_socket_timeout_set$$1$$stat=sononblock(sock->socketdes);
-      if(!(apr_socket_timeout_set$$1$$stat == 0))
-        return apr_socket_timeout_set$$1$$stat;
+      apr_socket_timeout_set__1__stat=sononblock(sock->socketdes);
+      if(!(apr_socket_timeout_set__1__stat == 0))
+        return apr_socket_timeout_set__1__stat;
 
       do
         sock->options = sock->options | 8;
@@ -19837,9 +19837,9 @@ signed int apr_socket_timeout_set(struct apr_socket_t *sock, signed long int t)
       {
         if((8 & sock->options) == 8)
         {
-          apr_socket_timeout_set$$1$$stat=soblock(sock->socketdes);
-          if(!(apr_socket_timeout_set$$1$$stat == 0))
-            return apr_socket_timeout_set$$1$$stat;
+          apr_socket_timeout_set__1__stat=soblock(sock->socketdes);
+          if(!(apr_socket_timeout_set__1__stat == 0))
+            return apr_socket_timeout_set__1__stat;
 
           do
             sock->options = sock->options & ~8;
@@ -19889,9 +19889,9 @@ signed int apr_stat(struct apr_finfo_t *finfo, const char *fname, signed int wan
 
   else
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 }
 
@@ -19901,27 +19901,27 @@ char * apr_strerror(signed int statcode, char *buf, unsigned long int bufsize)
 {
   if(!(statcode >= 20000))
   {
-    char *return_value_native_strerror$1;
-    return_value_native_strerror$1=native_strerror(statcode, buf, bufsize);
-    return return_value_native_strerror$1;
+    char *return_value_native_strerror_1;
+    return_value_native_strerror_1=native_strerror(statcode, buf, bufsize);
+    return return_value_native_strerror_1;
   }
 
   else
     if(!(statcode >= 50000))
     {
-      char *return_value_apr_error_string$2;
-      return_value_apr_error_string$2=apr_error_string(statcode);
-      char *return_value_stuffbuffer$3;
-      return_value_stuffbuffer$3=stuffbuffer(buf, bufsize, return_value_apr_error_string$2);
-      return return_value_stuffbuffer$3;
+      char *return_value_apr_error_string_2;
+      return_value_apr_error_string_2=apr_error_string(statcode);
+      char *return_value_stuffbuffer_3;
+      return_value_stuffbuffer_3=stuffbuffer(buf, bufsize, return_value_apr_error_string_2);
+      return return_value_stuffbuffer_3;
     }
 
     else
       if(!(statcode >= 50000))
       {
-        char *return_value_stuffbuffer$4;
-        return_value_stuffbuffer$4=stuffbuffer(buf, bufsize, "APR does not understand this error code");
-        return return_value_stuffbuffer$4;
+        char *return_value_stuffbuffer_4;
+        return_value_stuffbuffer_4=stuffbuffer(buf, bufsize, "APR does not understand this error code");
+        return return_value_stuffbuffer_4;
       }
 
       else
@@ -19929,18 +19929,18 @@ char * apr_strerror(signed int statcode, char *buf, unsigned long int bufsize)
         {
           statcode = statcode - (20000 + 50000 + 50000 + 50000 * 10 + 50000);
           statcode = -statcode;
-          const char *return_value_gai_strerror$5;
-          return_value_gai_strerror$5=gai_strerror(statcode);
-          char *return_value_stuffbuffer$6;
-          return_value_stuffbuffer$6=stuffbuffer(buf, bufsize, return_value_gai_strerror$5);
-          return return_value_stuffbuffer$6;
+          const char *return_value_gai_strerror_5;
+          return_value_gai_strerror_5=gai_strerror(statcode);
+          char *return_value_stuffbuffer_6;
+          return_value_stuffbuffer_6=stuffbuffer(buf, bufsize, return_value_gai_strerror_5);
+          return return_value_stuffbuffer_6;
         }
 
         else
         {
-          char *return_value_apr_os_strerror$7;
-          return_value_apr_os_strerror$7=apr_os_strerror(buf, bufsize, statcode - (20000 + 50000 + 50000 + 50000 * 10 + 50000 + 50000));
-          return return_value_apr_os_strerror$7;
+          char *return_value_apr_os_strerror_7;
+          return_value_apr_os_strerror_7=apr_os_strerror(buf, bufsize, statcode - (20000 + 50000 + 50000 + 50000 * 10 + 50000 + 50000));
+          return return_value_apr_os_strerror_7;
         }
 }
 
@@ -19953,27 +19953,27 @@ char * apr_strfsize(signed long int size, char *buf)
   signed int remain;
   if(!(size >= 0l))
   {
-    char *return_value_strcpy$1;
-    return_value_strcpy$1=strcpy(buf, "  - ");
-    return return_value_strcpy$1;
+    char *return_value_strcpy_1;
+    return_value_strcpy_1=strcpy(buf, "  - ");
+    return return_value_strcpy_1;
   }
 
-  char *return_value_strcpy$2;
+  char *return_value_strcpy_2;
   if(!(size >= 973l))
   {
-    signed int return_value_apr_snprintf$3;
-    return_value_apr_snprintf$3=apr_snprintf(buf, (unsigned long int)5, "%3d ", (signed int)size);
-    if(!(return_value_apr_snprintf$3 >= 0))
+    signed int return_value_apr_snprintf_3;
+    return_value_apr_snprintf_3=apr_snprintf(buf, (unsigned long int)5, "%3d ", (signed int)size);
+    if(!(return_value_apr_snprintf_3 >= 0))
     {
-      return_value_strcpy$2=strcpy(buf, "****");
-      return return_value_strcpy$2;
+      return_value_strcpy_2=strcpy(buf, "****");
+      return return_value_strcpy_2;
     }
 
     return buf;
   }
 
-  char *return_value_strcpy$4;
-  char *return_value_strcpy$6;
+  char *return_value_strcpy_4;
+  char *return_value_strcpy_6;
   do
   {
     remain = (signed int)(size & (signed long int)1023);
@@ -19992,12 +19992,12 @@ char * apr_strfsize(signed long int size, char *buf)
           remain = 0;
         }
 
-        signed int return_value_apr_snprintf$5;
-        return_value_apr_snprintf$5=apr_snprintf(buf, (unsigned long int)5, "%d.%d%c", (signed int)size, remain, *o);
-        if(!(return_value_apr_snprintf$5 >= 0))
+        signed int return_value_apr_snprintf_5;
+        return_value_apr_snprintf_5=apr_snprintf(buf, (unsigned long int)5, "%d.%d%c", (signed int)size, remain, *o);
+        if(!(return_value_apr_snprintf_5 >= 0))
         {
-          return_value_strcpy$4=strcpy(buf, "****");
-          return return_value_strcpy$4;
+          return_value_strcpy_4=strcpy(buf, "****");
+          return return_value_strcpy_4;
         }
 
         return buf;
@@ -20006,12 +20006,12 @@ char * apr_strfsize(signed long int size, char *buf)
       if(remain >= 512)
         size = size + 1l;
 
-      signed int return_value_apr_snprintf$7;
-      return_value_apr_snprintf$7=apr_snprintf(buf, (unsigned long int)5, "%3d%c", (signed int)size, *o);
-      if(!(return_value_apr_snprintf$7 >= 0))
+      signed int return_value_apr_snprintf_7;
+      return_value_apr_snprintf_7=apr_snprintf(buf, (unsigned long int)5, "%3d%c", (signed int)size, *o);
+      if(!(return_value_apr_snprintf_7 >= 0))
       {
-        return_value_strcpy$6=strcpy(buf, "****");
-        return return_value_strcpy$6;
+        return_value_strcpy_6=strcpy(buf, "****");
+        return return_value_strcpy_6;
       }
 
       return buf;
@@ -20044,43 +20044,43 @@ signed int apr_strftime(char *s, unsigned long int *retsize, unsigned long int m
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_strnatcmp.c line 146
 signed int apr_strnatcasecmp(const char *a, const char *b)
 {
-  signed int return_value_strnatcmp0$1;
-  return_value_strnatcmp0$1=strnatcmp0(a, b, 1);
-  return return_value_strnatcmp0$1;
+  signed int return_value_strnatcmp0_1;
+  return_value_strnatcmp0_1=strnatcmp0(a, b, 1);
+  return return_value_strnatcmp0_1;
 }
 
 // apr_strnatcmp
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_strnatcmp.c line 139
 signed int apr_strnatcmp(const char *a, const char *b)
 {
-  signed int return_value_strnatcmp0$1;
-  return_value_strnatcmp0$1=strnatcmp0(a, b, 0);
-  return return_value_strnatcmp0$1;
+  signed int return_value_strnatcmp0_1;
+  return_value_strnatcmp0_1=strnatcmp0(a, b, 0);
+  return return_value_strnatcmp0_1;
 }
 
 // apr_strtoff
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_strings.c line 236
 signed int apr_strtoff(signed long int *offset, const char *nptr, char **endptr, signed int base)
 {
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   *offset=strtol(nptr, endptr, base);
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  return *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  return *return_value___errno_location_2;
 }
 
 // apr_strtoi64
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_strings.c line 244
 signed long int apr_strtoi64(const char *nptr, char **endptr, signed int base)
 {
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
-  signed long int return_value_strtol$2;
-  return_value_strtol$2=strtol(nptr, endptr, base);
-  return return_value_strtol$2;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
+  signed long int return_value_strtol_2;
+  return_value_strtol_2=strtol(nptr, endptr, base);
+  return return_value_strtol_2;
 }
 
 // apr_strtok
@@ -20091,15 +20091,15 @@ char * apr_strtok(char *str, const char *sep, char **last)
   if(str == ((char *)NULL))
     str = *last;
 
-  char *return_value_strchr$1;
+  char *return_value_strchr_1;
   for( ; !(*str == 0); str = str + 1l)
   {
-    return_value_strchr$1=strchr(sep, (signed int)*str);
-    if(return_value_strchr$1 == ((char *)NULL))
+    return_value_strchr_1=strchr(sep, (signed int)*str);
+    if(return_value_strchr_1 == ((char *)NULL))
       break;
 
   }
-  char *return_value_strchr$2;
+  char *return_value_strchr_2;
   if(*str == 0)
     return (char *)(void *)0;
 
@@ -20109,8 +20109,8 @@ char * apr_strtok(char *str, const char *sep, char **last)
     *last = token + (signed long int)1;
     for( ; !(*(*last) == 0); *last = *last + 1l)
     {
-      return_value_strchr$2=strchr(sep, (signed int)*(*last));
-      if(!(return_value_strchr$2 == ((char *)NULL)))
+      return_value_strchr_2=strchr(sep, (signed int)*(*last));
+      if(!(return_value_strchr_2 == ((char *)NULL)))
         break;
 
     }
@@ -20166,9 +20166,9 @@ void apr_table_add(struct apr_table_t *t, const char *key, const char *val)
   }
 
   checksum = checksum & 0xdfdfdfdf;
-  void *return_value_apr_array_push_noclear$1;
-  return_value_apr_array_push_noclear$1=apr_array_push_noclear(&t->a);
-  elts = (struct apr_table_entry_t *)return_value_apr_array_push_noclear$1;
+  void *return_value_apr_array_push_noclear_1;
+  return_value_apr_array_push_noclear_1=apr_array_push_noclear(&t->a);
+  elts = (struct apr_table_entry_t *)return_value_apr_array_push_noclear_1;
   elts->key=apr_pstrdup(t->a.pool, key);
   elts->val=apr_pstrdup(t->a.pool, val);
   elts->key_checksum = checksum;
@@ -20216,9 +20216,9 @@ void apr_table_addn(struct apr_table_t *t, const char *key, const char *val)
   }
 
   checksum = checksum & 0xdfdfdfdf;
-  void *return_value_apr_array_push_noclear$1;
-  return_value_apr_array_push_noclear$1=apr_array_push_noclear(&t->a);
-  elts = (struct apr_table_entry_t *)return_value_apr_array_push_noclear$1;
+  void *return_value_apr_array_push_noclear_1;
+  return_value_apr_array_push_noclear_1=apr_array_push_noclear(&t->a);
+  elts = (struct apr_table_entry_t *)return_value_apr_array_push_noclear_1;
   elts->key = (char *)key;
   elts->val = (char *)val;
   elts->key_checksum = checksum;
@@ -20288,31 +20288,31 @@ void apr_table_compress(struct apr_table_t *t, unsigned int flags)
   struct apr_table_entry_t **last;
   signed int i;
   signed int dups_found;
-  struct apr_table_entry_t **tmp_post$2;
-  struct apr_table_entry_t *tmp_post$3;
-  struct apr_table_entry_t **tmp_post$4;
-  _Bool tmp_if_expr$13;
-  signed int return_value_strcasecmp$12;
-  signed int return_value_strcasecmp$5;
-  char *tmp_post$9;
-  char *tmp_post$10;
-  struct apr_table_entry_t **tmp_post$11;
-  struct apr_table_entry_t *tmp_post$14;
+  struct apr_table_entry_t **tmp_post_2;
+  struct apr_table_entry_t *tmp_post_3;
+  struct apr_table_entry_t **tmp_post_4;
+  _Bool tmp_if_expr_13;
+  signed int return_value_strcasecmp_12;
+  signed int return_value_strcasecmp_5;
+  char *tmp_post_9;
+  char *tmp_post_10;
+  struct apr_table_entry_t **tmp_post_11;
+  struct apr_table_entry_t *tmp_post_14;
   if(t->a.nelts >= 2)
   {
-    void *return_value_apr_palloc$1;
-    return_value_apr_palloc$1=apr_palloc(t->a.pool, (unsigned long int)t->a.nelts * sizeof(struct apr_table_entry_t *) /*8ul*/ );
-    sort_array = (struct apr_table_entry_t **)return_value_apr_palloc$1;
+    void *return_value_apr_palloc_1;
+    return_value_apr_palloc_1=apr_palloc(t->a.pool, (unsigned long int)t->a.nelts * sizeof(struct apr_table_entry_t *) /*8ul*/ );
+    sort_array = (struct apr_table_entry_t **)return_value_apr_palloc_1;
     sort_next = sort_array;
     table_next = (struct apr_table_entry_t *)t->a.elts;
     i = t->a.nelts;
     do
     {
-      tmp_post$2 = sort_next;
+      tmp_post_2 = sort_next;
       sort_next = sort_next + 1l;
-      tmp_post$3 = table_next;
+      tmp_post_3 = table_next;
       table_next = table_next + 1l;
-      *tmp_post$2 = tmp_post$3;
+      *tmp_post_2 = tmp_post_3;
       i = i - 1;
     }
     while(!(i == 0));
@@ -20320,20 +20320,20 @@ void apr_table_compress(struct apr_table_t *t, unsigned int flags)
     dups_found = 0;
     sort_next = sort_array;
     sort_end = sort_array + (signed long int)t->a.nelts;
-    tmp_post$4 = sort_next;
+    tmp_post_4 = sort_next;
     sort_next = sort_next + 1l;
-    last = tmp_post$4;
+    last = tmp_post_4;
     while(!(sort_next >= sort_end))
     {
       if((*sort_next)->key_checksum == (*last)->key_checksum)
       {
-        return_value_strcasecmp$12=strcasecmp((*sort_next)->key, (*last)->key);
-        tmp_if_expr$13 = !(return_value_strcasecmp$12 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcasecmp_12=strcasecmp((*sort_next)->key, (*last)->key);
+        tmp_if_expr_13 = !(return_value_strcasecmp_12 != 0) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$13 = (_Bool)0;
-      if(tmp_if_expr$13)
+        tmp_if_expr_13 = (_Bool)0;
+      if(tmp_if_expr_13)
       {
         struct apr_table_entry_t **dup_last = sort_next + (signed long int)1;
         dups_found = 1;
@@ -20342,8 +20342,8 @@ void apr_table_compress(struct apr_table_t *t, unsigned int flags)
           if(!((*dup_last)->key_checksum == (*last)->key_checksum))
             break;
 
-          return_value_strcasecmp$5=strcasecmp((*dup_last)->key, (*last)->key);
-          if(!(return_value_strcasecmp$5 == 0))
+          return_value_strcasecmp_5=strcasecmp((*dup_last)->key, (*last)->key);
+          if(!(return_value_strcasecmp_5 == 0))
             break;
 
         }
@@ -20356,24 +20356,24 @@ void apr_table_compress(struct apr_table_t *t, unsigned int flags)
           char *val_dst;
           do
           {
-            unsigned long int return_value_strlen$6;
-            return_value_strlen$6=strlen((*next)->val);
-            len = len + return_value_strlen$6;
+            unsigned long int return_value_strlen_6;
+            return_value_strlen_6=strlen((*next)->val);
+            len = len + return_value_strlen_6;
             len = len + (unsigned long int)2;
             next = next + 1l;
           }
           while(dup_last >= next);
-          void *return_value_apr_palloc$7;
-          return_value_apr_palloc$7=apr_palloc(t->a.pool, len);
-          new_val = (char *)return_value_apr_palloc$7;
+          void *return_value_apr_palloc_7;
+          return_value_apr_palloc_7=apr_palloc(t->a.pool, len);
+          new_val = (char *)return_value_apr_palloc_7;
           val_dst = new_val;
           next = last;
           do
           {
             strcpy(val_dst, (*next)->val);
-            unsigned long int return_value_strlen$8;
-            return_value_strlen$8=strlen((*next)->val);
-            val_dst = val_dst + (signed long int)return_value_strlen$8;
+            unsigned long int return_value_strlen_8;
+            return_value_strlen_8=strlen((*next)->val);
+            val_dst = val_dst + (signed long int)return_value_strlen_8;
             next = next + 1l;
             if(!(dup_last >= next))
             {
@@ -20383,12 +20383,12 @@ void apr_table_compress(struct apr_table_t *t, unsigned int flags)
 
             else
             {
-              tmp_post$9 = val_dst;
+              tmp_post_9 = val_dst;
               val_dst = val_dst + 1l;
-              *tmp_post$9 = (char)44;
-              tmp_post$10 = val_dst;
+              *tmp_post_9 = (char)44;
+              tmp_post_10 = val_dst;
               val_dst = val_dst + 1l;
-              *tmp_post$10 = (char)32;
+              *tmp_post_10 = (char)32;
             }
           }
           while((_Bool)1);
@@ -20407,9 +20407,9 @@ void apr_table_compress(struct apr_table_t *t, unsigned int flags)
 
       else
       {
-        tmp_post$11 = sort_next;
+        tmp_post_11 = sort_next;
         sort_next = sort_next + 1l;
-        last = tmp_post$11;
+        last = tmp_post_11;
       }
     }
     if(!(dups_found == 0))
@@ -20421,9 +20421,9 @@ void apr_table_compress(struct apr_table_t *t, unsigned int flags)
       {
         if(!(src->key == ((char *)NULL)))
         {
-          tmp_post$14 = dst;
+          tmp_post_14 = dst;
           dst = dst + 1l;
-          *tmp_post$14 = *src;
+          *tmp_post_14 = *src;
         }
 
         src = src + 1l;
@@ -20444,9 +20444,9 @@ void apr_table_compress(struct apr_table_t *t, unsigned int flags)
 struct apr_table_t * apr_table_copy(struct apr_pool_t *p, const struct apr_table_t *t)
 {
   struct apr_table_t *new;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(p, sizeof(struct apr_table_t) /*296ul*/ );
-  new = (struct apr_table_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(p, sizeof(struct apr_table_t) /*296ul*/ );
+  new = (struct apr_table_t *)return_value_apr_palloc_1;
   make_array_core(&new->a, p, t->a.nalloc, (signed int)sizeof(struct apr_table_entry_t) /*24ul*/ , 0);
   memcpy((void *)new->a.elts, (const void *)t->a.elts, (unsigned long int)t->a.nelts * sizeof(struct apr_table_entry_t) /*24ul*/ );
   new->a.nelts = t->a.nelts;
@@ -20482,7 +20482,7 @@ const char * apr_table_get(const struct apr_table_t *t, const char *key)
   struct apr_table_entry_t *end_elt;
   unsigned int checksum;
   signed int hash;
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   if(key == ((const char *)NULL))
     return (const char *)(void *)0;
 
@@ -20527,8 +20527,8 @@ const char * apr_table_get(const struct apr_table_t *t, const char *key)
       for( ; end_elt >= next_elt; next_elt = next_elt + 1l)
         if(checksum == next_elt->key_checksum)
         {
-          return_value_strcasecmp$1=strcasecmp(next_elt->key, key);
-          if(return_value_strcasecmp$1 == 0)
+          return_value_strcasecmp_1=strcasecmp(next_elt->key, key);
+          if(return_value_strcasecmp_1 == 0)
             return next_elt->val;
 
         }
@@ -20542,7 +20542,7 @@ const char * apr_table_get(const struct apr_table_t *t, const char *key)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_tables.c line 1276
 const char * apr_table_getm(struct apr_pool_t *p, const struct apr_table_t *t, const char *key)
 {
-  struct anonymous$47 state;
+  struct anonymous_47 state;
   state.p = p;
   state.first = (const char *)(void *)0;
   state.merged = (struct apr_array_header_t *)(void *)0;
@@ -20556,9 +20556,9 @@ const char * apr_table_getm(struct apr_pool_t *p, const struct apr_table_t *t, c
 
     else
     {
-      char *return_value_apr_array_pstrcat$1;
-      return_value_apr_array_pstrcat$1=apr_array_pstrcat(p, state.merged, (const char)44);
-      return return_value_apr_array_pstrcat$1;
+      char *return_value_apr_array_pstrcat_1;
+      return_value_apr_array_pstrcat_1=apr_array_pstrcat(p, state.merged, (const char)44);
+      return return_value_apr_array_pstrcat_1;
     }
 }
 
@@ -20567,9 +20567,9 @@ const char * apr_table_getm(struct apr_pool_t *p, const struct apr_table_t *t, c
 struct apr_table_t * apr_table_make(struct apr_pool_t *p, signed int nelts)
 {
   struct apr_table_t *t;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(p, sizeof(struct apr_table_t) /*296ul*/ );
-  t = (struct apr_table_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(p, sizeof(struct apr_table_t) /*296ul*/ );
+  t = (struct apr_table_t *)return_value_apr_palloc_1;
   make_array_core(&t->a, p, nelts, (signed int)sizeof(struct apr_table_entry_t) /*24ul*/ , 0);
   t->index_initialized = (unsigned int)0;
   return t;
@@ -20612,7 +20612,7 @@ void apr_table_merge(struct apr_table_t *t, const char *key, const char *val)
 
   checksum = checksum & 0xdfdfdfdf;
   hash = 0x1f & (signed int)*((unsigned char *)key);
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   if((t->index_initialized & (unsigned int)(1 << hash)) == 0u)
   {
     t->index_first[(signed long int)hash] = t->a.nelts;
@@ -20626,8 +20626,8 @@ void apr_table_merge(struct apr_table_t *t, const char *key, const char *val)
     for( ; end_elt >= next_elt; next_elt = next_elt + 1l)
       if(checksum == next_elt->key_checksum)
       {
-        return_value_strcasecmp$1=strcasecmp(next_elt->key, key);
-        if(return_value_strcasecmp$1 == 0)
+        return_value_strcasecmp_1=strcasecmp(next_elt->key, key);
+        if(return_value_strcasecmp_1 == 0)
         {
           next_elt->val=apr_pstrcat(t->a.pool, next_elt->val, (const void *)", ", val, (void *)0);
           goto __CPROVER_DUMP_L8;
@@ -20640,9 +20640,9 @@ void apr_table_merge(struct apr_table_t *t, const char *key, const char *val)
 add_new_elt:
   ;
   t->index_last[(signed long int)hash] = t->a.nelts;
-  void *return_value_apr_array_push_noclear$2;
-  return_value_apr_array_push_noclear$2=apr_array_push_noclear(&t->a);
-  next_elt = (struct apr_table_entry_t *)return_value_apr_array_push_noclear$2;
+  void *return_value_apr_array_push_noclear_2;
+  return_value_apr_array_push_noclear_2=apr_array_push_noclear(&t->a);
+  next_elt = (struct apr_table_entry_t *)return_value_apr_array_push_noclear_2;
   next_elt->key=apr_pstrdup(t->a.pool, key);
   next_elt->val=apr_pstrdup(t->a.pool, val);
   next_elt->key_checksum = checksum;
@@ -20688,7 +20688,7 @@ void apr_table_mergen(struct apr_table_t *t, const char *key, const char *val)
 
   checksum = checksum & 0xdfdfdfdf;
   hash = 0x1f & (signed int)*((unsigned char *)key);
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   if((t->index_initialized & (unsigned int)(1 << hash)) == 0u)
   {
     t->index_first[(signed long int)hash] = t->a.nelts;
@@ -20702,8 +20702,8 @@ void apr_table_mergen(struct apr_table_t *t, const char *key, const char *val)
     for( ; end_elt >= next_elt; next_elt = next_elt + 1l)
       if(checksum == next_elt->key_checksum)
       {
-        return_value_strcasecmp$1=strcasecmp(next_elt->key, key);
-        if(return_value_strcasecmp$1 == 0)
+        return_value_strcasecmp_1=strcasecmp(next_elt->key, key);
+        if(return_value_strcasecmp_1 == 0)
         {
           next_elt->val=apr_pstrcat(t->a.pool, next_elt->val, (const void *)", ", val, (void *)0);
           goto __CPROVER_DUMP_L8;
@@ -20716,9 +20716,9 @@ void apr_table_mergen(struct apr_table_t *t, const char *key, const char *val)
 add_new_elt:
   ;
   t->index_last[(signed long int)hash] = t->a.nelts;
-  void *return_value_apr_array_push_noclear$2;
-  return_value_apr_array_push_noclear$2=apr_array_push_noclear(&t->a);
-  next_elt = (struct apr_table_entry_t *)return_value_apr_array_push_noclear$2;
+  void *return_value_apr_array_push_noclear_2;
+  return_value_apr_array_push_noclear_2=apr_array_push_noclear(&t->a);
+  next_elt = (struct apr_table_entry_t *)return_value_apr_array_push_noclear_2;
   next_elt->key = (char *)key;
   next_elt->val = (char *)val;
   next_elt->key_checksum = checksum;
@@ -20744,9 +20744,9 @@ void apr_table_overlap(struct apr_table_t *a, const struct apr_table_t *b, unsig
 struct apr_table_t * apr_table_overlay(struct apr_pool_t *p, const struct apr_table_t *overlay, const struct apr_table_t *base)
 {
   struct apr_table_t *res;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(p, sizeof(struct apr_table_t) /*296ul*/ );
-  res = (struct apr_table_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(p, sizeof(struct apr_table_t) /*296ul*/ );
+  res = (struct apr_table_t *)return_value_apr_palloc_1;
   res->a.pool = p;
   copy_array_hdr_core(&res->a, &overlay->a);
   apr_array_cat(&res->a, &base->a);
@@ -20792,11 +20792,11 @@ void apr_table_set(struct apr_table_t *t, const char *key, const char *val)
 
   checksum = checksum & 0xdfdfdfdf;
   hash = 0x1f & (signed int)*((unsigned char *)key);
-  signed int return_value_strcasecmp$5;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcasecmp$2;
-  struct apr_table_entry_t *tmp_post$1;
-  struct apr_table_entry_t *tmp_post$4;
+  signed int return_value_strcasecmp_5;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcasecmp_2;
+  struct apr_table_entry_t *tmp_post_1;
+  struct apr_table_entry_t *tmp_post_4;
   if((t->index_initialized & (unsigned int)(1 << hash)) == 0u)
   {
     t->index_first[(signed long int)hash] = t->a.nelts;
@@ -20811,8 +20811,8 @@ void apr_table_set(struct apr_table_t *t, const char *key, const char *val)
     for( ; end_elt >= next_elt; next_elt = next_elt + 1l)
       if(checksum == next_elt->key_checksum)
       {
-        return_value_strcasecmp$5=strcasecmp(next_elt->key, key);
-        if(return_value_strcasecmp$5 == 0)
+        return_value_strcasecmp_5=strcasecmp(next_elt->key, key);
+        if(return_value_strcasecmp_5 == 0)
         {
           signed int must_reindex = 0;
           struct apr_table_entry_t *dst_elt = (struct apr_table_entry_t *)(void *)0;
@@ -20822,13 +20822,13 @@ void apr_table_set(struct apr_table_t *t, const char *key, const char *val)
           {
             if(checksum == next_elt->key_checksum)
             {
-              return_value_strcasecmp$2=strcasecmp(next_elt->key, key);
-              tmp_if_expr$3 = !(return_value_strcasecmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+              return_value_strcasecmp_2=strcasecmp(next_elt->key, key);
+              tmp_if_expr_3 = !(return_value_strcasecmp_2 != 0) ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$3 = (_Bool)0;
-            if(tmp_if_expr$3)
+              tmp_if_expr_3 = (_Bool)0;
+            if(tmp_if_expr_3)
             {
               t->a.nelts = t->a.nelts - 1;
               if(dst_elt == ((struct apr_table_entry_t *)NULL))
@@ -20839,9 +20839,9 @@ void apr_table_set(struct apr_table_t *t, const char *key, const char *val)
             else
               if(!(dst_elt == ((struct apr_table_entry_t *)NULL)))
               {
-                tmp_post$1 = dst_elt;
+                tmp_post_1 = dst_elt;
                 dst_elt = dst_elt + 1l;
-                *tmp_post$1 = *next_elt;
+                *tmp_post_1 = *next_elt;
                 must_reindex = 1;
               }
 
@@ -20850,9 +20850,9 @@ void apr_table_set(struct apr_table_t *t, const char *key, const char *val)
           {
             for( ; !(next_elt >= table_end); next_elt = next_elt + 1l)
             {
-              tmp_post$4 = dst_elt;
+              tmp_post_4 = dst_elt;
               dst_elt = dst_elt + 1l;
-              *tmp_post$4 = *next_elt;
+              *tmp_post_4 = *next_elt;
             }
             must_reindex = 1;
           }
@@ -20870,9 +20870,9 @@ void apr_table_set(struct apr_table_t *t, const char *key, const char *val)
 add_new_elt:
   ;
   t->index_last[(signed long int)hash] = t->a.nelts;
-  void *return_value_apr_array_push_noclear$6;
-  return_value_apr_array_push_noclear$6=apr_array_push_noclear(&t->a);
-  next_elt = (struct apr_table_entry_t *)return_value_apr_array_push_noclear$6;
+  void *return_value_apr_array_push_noclear_6;
+  return_value_apr_array_push_noclear_6=apr_array_push_noclear(&t->a);
+  next_elt = (struct apr_table_entry_t *)return_value_apr_array_push_noclear_6;
   next_elt->key=apr_pstrdup(t->a.pool, key);
   next_elt->val=apr_pstrdup(t->a.pool, val);
   next_elt->key_checksum = checksum;
@@ -20919,11 +20919,11 @@ void apr_table_setn(struct apr_table_t *t, const char *key, const char *val)
 
   checksum = checksum & 0xdfdfdfdf;
   hash = 0x1f & (signed int)*((unsigned char *)key);
-  signed int return_value_strcasecmp$5;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcasecmp$2;
-  struct apr_table_entry_t *tmp_post$1;
-  struct apr_table_entry_t *tmp_post$4;
+  signed int return_value_strcasecmp_5;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcasecmp_2;
+  struct apr_table_entry_t *tmp_post_1;
+  struct apr_table_entry_t *tmp_post_4;
   if((t->index_initialized & (unsigned int)(1 << hash)) == 0u)
   {
     t->index_first[(signed long int)hash] = t->a.nelts;
@@ -20938,8 +20938,8 @@ void apr_table_setn(struct apr_table_t *t, const char *key, const char *val)
     for( ; end_elt >= next_elt; next_elt = next_elt + 1l)
       if(checksum == next_elt->key_checksum)
       {
-        return_value_strcasecmp$5=strcasecmp(next_elt->key, key);
-        if(return_value_strcasecmp$5 == 0)
+        return_value_strcasecmp_5=strcasecmp(next_elt->key, key);
+        if(return_value_strcasecmp_5 == 0)
         {
           signed int must_reindex = 0;
           struct apr_table_entry_t *dst_elt = (struct apr_table_entry_t *)(void *)0;
@@ -20949,13 +20949,13 @@ void apr_table_setn(struct apr_table_t *t, const char *key, const char *val)
           {
             if(checksum == next_elt->key_checksum)
             {
-              return_value_strcasecmp$2=strcasecmp(next_elt->key, key);
-              tmp_if_expr$3 = !(return_value_strcasecmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+              return_value_strcasecmp_2=strcasecmp(next_elt->key, key);
+              tmp_if_expr_3 = !(return_value_strcasecmp_2 != 0) ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$3 = (_Bool)0;
-            if(tmp_if_expr$3)
+              tmp_if_expr_3 = (_Bool)0;
+            if(tmp_if_expr_3)
             {
               t->a.nelts = t->a.nelts - 1;
               if(dst_elt == ((struct apr_table_entry_t *)NULL))
@@ -20966,9 +20966,9 @@ void apr_table_setn(struct apr_table_t *t, const char *key, const char *val)
             else
               if(!(dst_elt == ((struct apr_table_entry_t *)NULL)))
               {
-                tmp_post$1 = dst_elt;
+                tmp_post_1 = dst_elt;
                 dst_elt = dst_elt + 1l;
-                *tmp_post$1 = *next_elt;
+                *tmp_post_1 = *next_elt;
                 must_reindex = 1;
               }
 
@@ -20977,9 +20977,9 @@ void apr_table_setn(struct apr_table_t *t, const char *key, const char *val)
           {
             for( ; !(next_elt >= table_end); next_elt = next_elt + 1l)
             {
-              tmp_post$4 = dst_elt;
+              tmp_post_4 = dst_elt;
               dst_elt = dst_elt + 1l;
-              *tmp_post$4 = *next_elt;
+              *tmp_post_4 = *next_elt;
             }
             must_reindex = 1;
           }
@@ -20997,9 +20997,9 @@ void apr_table_setn(struct apr_table_t *t, const char *key, const char *val)
 add_new_elt:
   ;
   t->index_last[(signed long int)hash] = t->a.nelts;
-  void *return_value_apr_array_push_noclear$6;
-  return_value_apr_array_push_noclear$6=apr_array_push_noclear(&t->a);
-  next_elt = (struct apr_table_entry_t *)return_value_apr_array_push_noclear$6;
+  void *return_value_apr_array_push_noclear_6;
+  return_value_apr_array_push_noclear_6=apr_array_push_noclear(&t->a);
+  next_elt = (struct apr_table_entry_t *)return_value_apr_array_push_noclear_6;
   next_elt->key = (char *)key;
   next_elt->val = (char *)val;
   next_elt->key_checksum = checksum;
@@ -21019,11 +21019,11 @@ void apr_table_unset(struct apr_table_t *t, const char *key)
   signed int hash;
   signed int must_reindex;
   hash = 0x1f & (signed int)*((unsigned char *)key);
-  signed int return_value_strcasecmp$5;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcasecmp$2;
-  struct apr_table_entry_t *tmp_post$1;
-  struct apr_table_entry_t *tmp_post$4;
+  signed int return_value_strcasecmp_5;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcasecmp_2;
+  struct apr_table_entry_t *tmp_post_1;
+  struct apr_table_entry_t *tmp_post_4;
   if(!((t->index_initialized & (unsigned int)(1 << hash)) == 0u))
   {
     const char *k = key;
@@ -21060,8 +21060,8 @@ void apr_table_unset(struct apr_table_t *t, const char *key)
     for( ; end_elt >= next_elt; next_elt = next_elt + 1l)
       if(checksum == next_elt->key_checksum)
       {
-        return_value_strcasecmp$5=strcasecmp(next_elt->key, key);
-        if(return_value_strcasecmp$5 == 0)
+        return_value_strcasecmp_5=strcasecmp(next_elt->key, key);
+        if(return_value_strcasecmp_5 == 0)
         {
           struct apr_table_entry_t *table_end = (struct apr_table_entry_t *)t->a.elts + (signed long int)t->a.nelts;
           t->a.nelts = t->a.nelts - 1;
@@ -21071,27 +21071,27 @@ void apr_table_unset(struct apr_table_t *t, const char *key)
           {
             if(checksum == next_elt->key_checksum)
             {
-              return_value_strcasecmp$2=strcasecmp(next_elt->key, key);
-              tmp_if_expr$3 = !(return_value_strcasecmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+              return_value_strcasecmp_2=strcasecmp(next_elt->key, key);
+              tmp_if_expr_3 = !(return_value_strcasecmp_2 != 0) ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$3 = (_Bool)0;
-            if(tmp_if_expr$3)
+              tmp_if_expr_3 = (_Bool)0;
+            if(tmp_if_expr_3)
               t->a.nelts = t->a.nelts - 1;
 
             else
             {
-              tmp_post$1 = dst_elt;
+              tmp_post_1 = dst_elt;
               dst_elt = dst_elt + 1l;
-              *tmp_post$1 = *next_elt;
+              *tmp_post_1 = *next_elt;
             }
           }
           for( ; !(next_elt >= table_end); next_elt = next_elt + 1l)
           {
-            tmp_post$4 = dst_elt;
+            tmp_post_4 = dst_elt;
             dst_elt = dst_elt + 1l;
-            *tmp_post$4 = *next_elt;
+            *tmp_post_4 = *next_elt;
           }
           must_reindex = 1;
           break;
@@ -21114,10 +21114,10 @@ signed int apr_table_vdo(signed int (*comp)(void *, const char *, const char *),
   struct apr_table_entry_t *elts = (struct apr_table_entry_t *)t->a.elts;
   signed int vdorv = 1;
   argp=va_arg(vp, __typeof__(argp));
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcasecmp$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcasecmp_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_1;
   do
   {
     signed int rv = 1;
@@ -21160,19 +21160,19 @@ signed int apr_table_vdo(signed int (*comp)(void *, const char *, const char *),
         do
         {
           if(!(rv == 0))
-            tmp_if_expr$2 = i <= t->index_last[(signed long int)hash] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = i <= t->index_last[(signed long int)hash] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          if(!tmp_if_expr$2)
+            tmp_if_expr_2 = (_Bool)0;
+          if(!tmp_if_expr_2)
             break;
 
           if(!((elts + (signed long int)i)->key == ((char *)NULL)))
           {
             if(checksum == (elts + (signed long int)i)->key_checksum)
             {
-              return_value_strcasecmp$3=strcasecmp((elts + (signed long int)i)->key, argp);
-              if(return_value_strcasecmp$3 == 0)
+              return_value_strcasecmp_3=strcasecmp((elts + (signed long int)i)->key, argp);
+              if(return_value_strcasecmp_3 == 0)
                 rv=comp(rec, (elts + (signed long int)i)->key, (elts + (signed long int)i)->val);
 
             }
@@ -21192,11 +21192,11 @@ signed int apr_table_vdo(signed int (*comp)(void *, const char *, const char *),
       do
       {
         if(!(rv == 0))
-          tmp_if_expr$4 = i < t->a.nelts ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = i < t->a.nelts ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(!tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(!tmp_if_expr_4)
           break;
 
         if(!((elts + (signed long int)i)->key == ((char *)NULL)))
@@ -21212,13 +21212,13 @@ signed int apr_table_vdo(signed int (*comp)(void *, const char *, const char *),
     if(!(argp == ((char *)NULL)))
     {
       argp=va_arg(vp, __typeof__(argp));
-      tmp_if_expr$1 = argp != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = argp != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$1 = (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
   }
-  while(tmp_if_expr$1);
+  while(tmp_if_expr_1);
   return vdorv;
 }
 
@@ -21232,7 +21232,7 @@ signed int apr_temp_dir_get(const char **temp_dir, struct apr_pool_t *p)
   const char *dir;
   char *cwd;
   signed int i = 0;
-  signed int return_value_test_tempdir$1;
+  signed int return_value_test_tempdir_1;
   for( ; !((unsigned long int)i >= 3ul); i = i + 1)
   {
     char *value;
@@ -21243,8 +21243,8 @@ signed int apr_temp_dir_get(const char **temp_dir, struct apr_pool_t *p)
       len=strlen(value);
       if(!(len == 0ul) && !(len >= 4096ul))
       {
-        return_value_test_tempdir$1=test_tempdir(value, p);
-        if(!(return_value_test_tempdir$1 == 0))
+        return_value_test_tempdir_1=test_tempdir(value, p);
+        if(!(return_value_test_tempdir_1 == 0))
         {
           dir = value;
           goto end;
@@ -21258,29 +21258,29 @@ signed int apr_temp_dir_get(const char **temp_dir, struct apr_pool_t *p)
   i = 0;
   for( ; !((unsigned long int)i >= 3ul); i = i + 1)
   {
-    signed int return_value_test_tempdir$2;
-    return_value_test_tempdir$2=test_tempdir(try_dirs[(signed long int)i], p);
-    if(!(return_value_test_tempdir$2 == 0))
+    signed int return_value_test_tempdir_2;
+    return_value_test_tempdir_2=test_tempdir(try_dirs[(signed long int)i], p);
+    if(!(return_value_test_tempdir_2 == 0))
     {
       dir = try_dirs[(signed long int)i];
       goto end;
     }
 
   }
-  signed int return_value_test_tempdir$3;
-  return_value_test_tempdir$3=test_tempdir("/tmp", p);
-  signed int return_value_apr_filepath_get$5;
-  if(!(return_value_test_tempdir$3 == 0))
+  signed int return_value_test_tempdir_3;
+  return_value_test_tempdir_3=test_tempdir("/tmp", p);
+  signed int return_value_apr_filepath_get_5;
+  if(!(return_value_test_tempdir_3 == 0))
     dir = "/tmp";
 
   else
   {
-    return_value_apr_filepath_get$5=apr_filepath_get(&cwd, 0x10, p);
-    if(return_value_apr_filepath_get$5 == 0)
+    return_value_apr_filepath_get_5=apr_filepath_get(&cwd, 0x10, p);
+    if(return_value_apr_filepath_get_5 == 0)
     {
-      signed int return_value_test_tempdir$4;
-      return_value_test_tempdir$4=test_tempdir(cwd, p);
-      if(!(return_value_test_tempdir$4 == 0))
+      signed int return_value_test_tempdir_4;
+      return_value_test_tempdir_4=test_tempdir(cwd, p);
+      if(!(return_value_test_tempdir_4 == 0))
       {
         dir = cwd;
         goto end;
@@ -21329,11 +21329,11 @@ signed int apr_thread_cond_create(struct apr_thread_cond_t **cond, struct apr_po
 {
   struct apr_thread_cond_t *new_cond;
   signed int rv;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_thread_cond_t) /*56ul*/ );
-  new_cond = (struct apr_thread_cond_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_thread_cond_t) /*56ul*/ );
+  new_cond = (struct apr_thread_cond_t *)return_value_apr_palloc_1;
   new_cond->pool = pool;
-  rv=pthread_cond_init(&new_cond->cond, (const union anonymous$8 *)(void *)0);
+  rv=pthread_cond_init(&new_cond->cond, (const union anonymous_8 *)(void *)0);
   if(!(rv == 0))
     return rv;
 
@@ -21349,9 +21349,9 @@ signed int apr_thread_cond_create(struct apr_thread_cond_t **cond, struct apr_po
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/locks/unix/thread_cond.c line 128
 signed int apr_thread_cond_destroy(struct apr_thread_cond_t *cond)
 {
-  signed int return_value_apr_pool_cleanup_run$1;
-  return_value_apr_pool_cleanup_run$1=apr_pool_cleanup_run(cond->pool, (void *)cond, thread_cond_cleanup);
-  return return_value_apr_pool_cleanup_run$1;
+  signed int return_value_apr_pool_cleanup_run_1;
+  return_value_apr_pool_cleanup_run_1=apr_pool_cleanup_run(cond->pool, (void *)cond, thread_cond_cleanup);
+  return return_value_apr_pool_cleanup_run_1;
 }
 
 // apr_thread_cond_pool_get
@@ -21377,9 +21377,9 @@ signed int apr_thread_cond_timedwait(struct apr_thread_cond_t *cond, struct apr_
   signed int rv;
   signed long int then;
   struct timespec abstime;
-  signed long int return_value_apr_time_now$1;
-  return_value_apr_time_now$1=apr_time_now();
-  then = return_value_apr_time_now$1 + timeout;
+  signed long int return_value_apr_time_now_1;
+  return_value_apr_time_now_1=apr_time_now();
+  then = return_value_apr_time_now_1 + timeout;
   abstime.tv_sec = then / 1000000L;
   abstime.tv_nsec = (then % 1000000L) * (signed long int)1000;
   rv=pthread_cond_timedwait(&cond->cond, &mutex->mutex, &abstime);
@@ -21403,23 +21403,23 @@ signed int apr_thread_cond_wait(struct apr_thread_cond_t *cond, struct apr_threa
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 145
 signed int apr_thread_create(struct apr_thread_t **new, struct apr_threadattr_t *attr, void * (*func)(struct apr_thread_t *, void *), void *data, struct apr_pool_t *pool)
 {
-  signed int apr_thread_create$$1$$stat;
+  signed int apr_thread_create__1__stat;
   union pthread_attr_t *temp;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_thread_t) /*40ul*/ );
-  void *return_value_memset$2;
-  return_value_memset$2=memset(return_value_apr_palloc$1, 0, sizeof(struct apr_thread_t) /*40ul*/ );
-  *new = (struct apr_thread_t *)return_value_memset$2;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_thread_t) /*40ul*/ );
+  void *return_value_memset_2;
+  return_value_memset_2=memset(return_value_apr_palloc_1, 0, sizeof(struct apr_thread_t) /*40ul*/ );
+  *new = (struct apr_thread_t *)return_value_memset_2;
   if(*new == ((struct apr_thread_t *)NULL))
     return 12;
 
   else
   {
-    void *return_value_apr_palloc$3;
-    return_value_apr_palloc$3=apr_palloc(pool, sizeof(unsigned long int) /*8ul*/ );
-    void *return_value_memset$4;
-    return_value_memset$4=memset(return_value_apr_palloc$3, 0, sizeof(unsigned long int) /*8ul*/ );
-    (*new)->td = (unsigned long int *)return_value_memset$4;
+    void *return_value_apr_palloc_3;
+    return_value_apr_palloc_3=apr_palloc(pool, sizeof(unsigned long int) /*8ul*/ );
+    void *return_value_memset_4;
+    return_value_memset_4=memset(return_value_apr_palloc_3, 0, sizeof(unsigned long int) /*8ul*/ );
+    (*new)->td = (unsigned long int *)return_value_memset_4;
     if((*new)->td == ((unsigned long int *)NULL))
       return 12;
 
@@ -21432,18 +21432,18 @@ signed int apr_thread_create(struct apr_thread_t **new, struct apr_threadattr_t 
 
       else
         temp = (union pthread_attr_t *)(void *)0;
-      apr_thread_create$$1$$stat=apr_pool_create_ex(&(*new)->pool, pool, (signed int (*)(signed int))(void *)0, (struct apr_allocator_t *)(void *)0);
-      if(!(apr_thread_create$$1$$stat == 0))
-        return apr_thread_create$$1$$stat;
+      apr_thread_create__1__stat=apr_pool_create_ex(&(*new)->pool, pool, (signed int (*)(signed int))(void *)0, (struct apr_allocator_t *)(void *)0);
+      if(!(apr_thread_create__1__stat == 0))
+        return apr_thread_create__1__stat;
 
       else
       {
-        apr_thread_create$$1$$stat=pthread_create((*new)->td, temp, dummy_worker, (void *)*new);
-        if(apr_thread_create$$1$$stat == 0)
+        apr_thread_create__1__stat=pthread_create((*new)->td, temp, dummy_worker, (void *)*new);
+        if(apr_thread_create__1__stat == 0)
           return 0;
 
         else
-          return apr_thread_create$$1$$stat;
+          return apr_thread_create__1__stat;
       }
     }
   }
@@ -21453,31 +21453,31 @@ signed int apr_thread_create(struct apr_thread_t **new, struct apr_threadattr_t 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 266
 signed int apr_thread_data_get(void **data, const char *key, struct apr_thread_t *thread)
 {
-  signed int return_value_apr_pool_userdata_get$1;
-  return_value_apr_pool_userdata_get$1=apr_pool_userdata_get(data, key, thread->pool);
-  return return_value_apr_pool_userdata_get$1;
+  signed int return_value_apr_pool_userdata_get_1;
+  return_value_apr_pool_userdata_get_1=apr_pool_userdata_get(data, key, thread->pool);
+  return return_value_apr_pool_userdata_get_1;
 }
 
 // apr_thread_data_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 272
 signed int apr_thread_data_set(void *data, const char *key, signed int (*cleanup)(void *), struct apr_thread_t *thread)
 {
-  signed int return_value_apr_pool_userdata_set$1;
-  return_value_apr_pool_userdata_set$1=apr_pool_userdata_set(data, key, cleanup, thread->pool);
-  return return_value_apr_pool_userdata_set$1;
+  signed int return_value_apr_pool_userdata_set_1;
+  return_value_apr_pool_userdata_set_1=apr_pool_userdata_set(data, key, cleanup, thread->pool);
+  return return_value_apr_pool_userdata_set_1;
 }
 
 // apr_thread_detach
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 230
 signed int apr_thread_detach(struct apr_thread_t *thd)
 {
-  signed int apr_thread_detach$$1$$stat;
-  apr_thread_detach$$1$$stat=pthread_detach(*thd->td);
-  if(apr_thread_detach$$1$$stat == 0)
+  signed int apr_thread_detach__1__stat;
+  apr_thread_detach__1__stat=pthread_detach(*thd->td);
+  if(apr_thread_detach__1__stat == 0)
     return 0;
 
   else
-    return apr_thread_detach$$1$$stat;
+    return apr_thread_detach__1__stat;
 }
 
 // apr_thread_exit
@@ -21494,17 +21494,17 @@ signed int apr_thread_exit(struct apr_thread_t *thd, signed int retval)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 211
 signed int apr_thread_join(signed int *retval, struct apr_thread_t *thd)
 {
-  signed int apr_thread_join$$1$$stat;
+  signed int apr_thread_join__1__stat;
   signed int *thread_stat;
-  apr_thread_join$$1$$stat=pthread_join(*thd->td, (void **)(void *)&thread_stat);
-  if(apr_thread_join$$1$$stat == 0)
+  apr_thread_join__1__stat=pthread_join(*thd->td, (void **)(void *)&thread_stat);
+  if(apr_thread_join__1__stat == 0)
   {
     *retval = thd->exitval;
     return 0;
   }
 
   else
-    return apr_thread_join$$1$$stat;
+    return apr_thread_join__1__stat;
 }
 
 // apr_thread_mutex_create
@@ -21513,15 +21513,15 @@ signed int apr_thread_mutex_create(struct apr_thread_mutex_t **mutex, unsigned i
 {
   struct apr_thread_mutex_t *new_mutex;
   signed int rv;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_thread_mutex_t) /*48ul*/ );
-  void *return_value_memset$2;
-  return_value_memset$2=memset(return_value_apr_palloc$1, 0, sizeof(struct apr_thread_mutex_t) /*48ul*/ );
-  new_mutex = (struct apr_thread_mutex_t *)return_value_memset$2;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_thread_mutex_t) /*48ul*/ );
+  void *return_value_memset_2;
+  return_value_memset_2=memset(return_value_apr_palloc_1, 0, sizeof(struct apr_thread_mutex_t) /*48ul*/ );
+  new_mutex = (struct apr_thread_mutex_t *)return_value_memset_2;
   new_mutex->pool = pool;
   if(!((1u & flags) == 0u))
   {
-    union anonymous$8 mattr;
+    union anonymous_8 mattr;
     rv=pthread_mutexattr_init(&mattr);
     if(!(rv == 0))
       return rv;
@@ -21538,7 +21538,7 @@ signed int apr_thread_mutex_create(struct apr_thread_mutex_t **mutex, unsigned i
   }
 
   else
-    rv=pthread_mutex_init(&new_mutex->mutex, (const union anonymous$8 *)(void *)0);
+    rv=pthread_mutex_init(&new_mutex->mutex, (const union anonymous_8 *)(void *)0);
   if(!(rv == 0))
     return rv;
 
@@ -21554,9 +21554,9 @@ signed int apr_thread_mutex_create(struct apr_thread_mutex_t **mutex, unsigned i
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_thread_mutex.h line 94
 signed int apr_thread_mutex_destroy(struct apr_thread_mutex_t *mutex)
 {
-  signed int return_value_apr_pool_cleanup_run$1;
-  return_value_apr_pool_cleanup_run$1=apr_pool_cleanup_run(mutex->pool, (void *)mutex, thread_mutex_cleanup);
-  return return_value_apr_pool_cleanup_run$1;
+  signed int return_value_apr_pool_cleanup_run_1;
+  return_value_apr_pool_cleanup_run_1=apr_pool_cleanup_run(mutex->pool, (void *)mutex, thread_mutex_cleanup);
+  return return_value_apr_pool_cleanup_run_1;
 }
 
 // apr_thread_mutex_lock
@@ -21601,18 +21601,18 @@ signed int apr_thread_mutex_unlock(struct apr_thread_mutex_t *mutex)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 313
 signed int apr_thread_once(struct apr_thread_once_t *control, void (*func)(void))
 {
-  signed int return_value_pthread_once$1;
-  return_value_pthread_once$1=pthread_once(&control->once, func);
-  return return_value_pthread_once$1;
+  signed int return_value_pthread_once_1;
+  return_value_pthread_once_1=pthread_once(&control->once, func);
+  return return_value_pthread_once_1;
 }
 
 // apr_thread_once_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 303
 signed int apr_thread_once_init(struct apr_thread_once_t **control, struct apr_pool_t *p)
 {
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(p, sizeof(struct apr_thread_once_t) /*4ul*/ );
-  *control = (struct apr_thread_once_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(p, sizeof(struct apr_thread_once_t) /*4ul*/ );
+  *control = (struct apr_thread_once_t *)return_value_apr_palloc_1;
   static const signed int once_init = 0;
   (*control)->once = once_init;
   return 0;
@@ -21630,14 +21630,14 @@ struct apr_pool_t * apr_thread_pool_get(const struct apr_thread_t *thethread)
 signed int apr_thread_rwlock_create(struct apr_thread_rwlock_t **rwlock, struct apr_pool_t *pool)
 {
   struct apr_thread_rwlock_t *new_rwlock;
-  signed int apr_thread_rwlock_create$$1$$stat;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_thread_rwlock_t) /*64ul*/ );
-  new_rwlock = (struct apr_thread_rwlock_t *)return_value_apr_palloc$1;
+  signed int apr_thread_rwlock_create__1__stat;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_thread_rwlock_t) /*64ul*/ );
+  new_rwlock = (struct apr_thread_rwlock_t *)return_value_apr_palloc_1;
   new_rwlock->pool = pool;
-  apr_thread_rwlock_create$$1$$stat=pthread_rwlock_init(&new_rwlock->rwlock, (const union anonymous$15 *)(void *)0);
-  if(!(apr_thread_rwlock_create$$1$$stat == 0))
-    return apr_thread_rwlock_create$$1$$stat;
+  apr_thread_rwlock_create__1__stat=pthread_rwlock_init(&new_rwlock->rwlock, (const union anonymous_15 *)(void *)0);
+  if(!(apr_thread_rwlock_create__1__stat == 0))
+    return apr_thread_rwlock_create__1__stat;
 
   else
   {
@@ -21651,9 +21651,9 @@ signed int apr_thread_rwlock_create(struct apr_thread_rwlock_t **rwlock, struct 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/locks/unix/thread_rwlock.c line 135
 signed int apr_thread_rwlock_destroy(struct apr_thread_rwlock_t *rwlock)
 {
-  signed int return_value_apr_pool_cleanup_run$1;
-  return_value_apr_pool_cleanup_run$1=apr_pool_cleanup_run(rwlock->pool, (void *)rwlock, thread_rwlock_cleanup);
-  return return_value_apr_pool_cleanup_run$1;
+  signed int return_value_apr_pool_cleanup_run_1;
+  return_value_apr_pool_cleanup_run_1=apr_pool_cleanup_run(rwlock->pool, (void *)rwlock, thread_rwlock_cleanup);
+  return return_value_apr_pool_cleanup_run_1;
 }
 
 // apr_thread_rwlock_pool_get
@@ -21667,51 +21667,51 @@ struct apr_pool_t * apr_thread_rwlock_pool_get(const struct apr_thread_rwlock_t 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/locks/unix/thread_rwlock.c line 64
 signed int apr_thread_rwlock_rdlock(struct apr_thread_rwlock_t *rwlock)
 {
-  signed int apr_thread_rwlock_rdlock$$1$$stat;
-  apr_thread_rwlock_rdlock$$1$$stat=pthread_rwlock_rdlock(&rwlock->rwlock);
-  return apr_thread_rwlock_rdlock$$1$$stat;
+  signed int apr_thread_rwlock_rdlock__1__stat;
+  apr_thread_rwlock_rdlock__1__stat=pthread_rwlock_rdlock(&rwlock->rwlock);
+  return apr_thread_rwlock_rdlock__1__stat;
 }
 
 // apr_thread_rwlock_tryrdlock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/locks/unix/thread_rwlock.c line 77
 signed int apr_thread_rwlock_tryrdlock(struct apr_thread_rwlock_t *rwlock)
 {
-  signed int apr_thread_rwlock_tryrdlock$$1$$stat;
-  apr_thread_rwlock_tryrdlock$$1$$stat=pthread_rwlock_tryrdlock(&rwlock->rwlock);
-  if(apr_thread_rwlock_tryrdlock$$1$$stat == 16)
-    apr_thread_rwlock_tryrdlock$$1$$stat = 20000 + 50000 + 25;
+  signed int apr_thread_rwlock_tryrdlock__1__stat;
+  apr_thread_rwlock_tryrdlock__1__stat=pthread_rwlock_tryrdlock(&rwlock->rwlock);
+  if(apr_thread_rwlock_tryrdlock__1__stat == 16)
+    apr_thread_rwlock_tryrdlock__1__stat = 20000 + 50000 + 25;
 
-  return apr_thread_rwlock_tryrdlock$$1$$stat;
+  return apr_thread_rwlock_tryrdlock__1__stat;
 }
 
 // apr_thread_rwlock_trywrlock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/locks/unix/thread_rwlock.c line 106
 signed int apr_thread_rwlock_trywrlock(struct apr_thread_rwlock_t *rwlock)
 {
-  signed int apr_thread_rwlock_trywrlock$$1$$stat;
-  apr_thread_rwlock_trywrlock$$1$$stat=pthread_rwlock_trywrlock(&rwlock->rwlock);
-  if(apr_thread_rwlock_trywrlock$$1$$stat == 16)
-    apr_thread_rwlock_trywrlock$$1$$stat = 20000 + 50000 + 25;
+  signed int apr_thread_rwlock_trywrlock__1__stat;
+  apr_thread_rwlock_trywrlock__1__stat=pthread_rwlock_trywrlock(&rwlock->rwlock);
+  if(apr_thread_rwlock_trywrlock__1__stat == 16)
+    apr_thread_rwlock_trywrlock__1__stat = 20000 + 50000 + 25;
 
-  return apr_thread_rwlock_trywrlock$$1$$stat;
+  return apr_thread_rwlock_trywrlock__1__stat;
 }
 
 // apr_thread_rwlock_unlock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/locks/unix/thread_rwlock.c line 122
 signed int apr_thread_rwlock_unlock(struct apr_thread_rwlock_t *rwlock)
 {
-  signed int apr_thread_rwlock_unlock$$1$$stat;
-  apr_thread_rwlock_unlock$$1$$stat=pthread_rwlock_unlock(&rwlock->rwlock);
-  return apr_thread_rwlock_unlock$$1$$stat;
+  signed int apr_thread_rwlock_unlock__1__stat;
+  apr_thread_rwlock_unlock__1__stat=pthread_rwlock_unlock(&rwlock->rwlock);
+  return apr_thread_rwlock_unlock__1__stat;
 }
 
 // apr_thread_rwlock_wrlock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/locks/unix/thread_rwlock.c line 93
 signed int apr_thread_rwlock_wrlock(struct apr_thread_rwlock_t *rwlock)
 {
-  signed int apr_thread_rwlock_wrlock$$1$$stat;
-  apr_thread_rwlock_wrlock$$1$$stat=pthread_rwlock_wrlock(&rwlock->rwlock);
-  return apr_thread_rwlock_wrlock$$1$$stat;
+  signed int apr_thread_rwlock_wrlock__1__stat;
+  apr_thread_rwlock_wrlock__1__stat=pthread_rwlock_wrlock(&rwlock->rwlock);
+  return apr_thread_rwlock_wrlock__1__stat;
 }
 
 // apr_thread_yield
@@ -21725,20 +21725,20 @@ void apr_thread_yield(void)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 40
 signed int apr_threadattr_create(struct apr_threadattr_t **new, struct apr_pool_t *pool)
 {
-  signed int apr_threadattr_create$$1$$stat;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_threadattr_t) /*64ul*/ );
-  *new = (struct apr_threadattr_t *)return_value_apr_palloc$1;
+  signed int apr_threadattr_create__1__stat;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_threadattr_t) /*64ul*/ );
+  *new = (struct apr_threadattr_t *)return_value_apr_palloc_1;
   (*new)->pool = pool;
-  apr_threadattr_create$$1$$stat=pthread_attr_init(&(*new)->attr);
-  if(apr_threadattr_create$$1$$stat == 0)
+  apr_threadattr_create__1__stat=pthread_attr_init(&(*new)->attr);
+  if(apr_threadattr_create__1__stat == 0)
   {
     apr_pool_cleanup_register(pool, (const void *)*new, threadattr_cleanup, apr_pool_cleanup_null);
     return 0;
   }
 
   else
-    return apr_threadattr_create$$1$$stat;
+    return apr_threadattr_create__1__stat;
 }
 
 // apr_threadattr_detach_get
@@ -21758,13 +21758,13 @@ signed int apr_threadattr_detach_get(struct apr_threadattr_t *attr)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 67
 signed int apr_threadattr_detach_set(struct apr_threadattr_t *attr, signed int on)
 {
-  signed int apr_threadattr_detach_set$$1$$stat;
-  apr_threadattr_detach_set$$1$$stat=pthread_attr_setdetachstate(&attr->attr, on != 0 ? 1 : 0);
-  if(apr_threadattr_detach_set$$1$$stat == 0)
+  signed int apr_threadattr_detach_set__1__stat;
+  apr_threadattr_detach_set__1__stat=pthread_attr_setdetachstate(&attr->attr, on != 0 ? 1 : 0);
+  if(apr_threadattr_detach_set__1__stat == 0)
     return 0;
 
   else
-    return apr_threadattr_detach_set$$1$$stat;
+    return apr_threadattr_detach_set__1__stat;
 }
 
 // apr_threadattr_guardsize_set
@@ -21784,51 +21784,51 @@ signed int apr_threadattr_guardsize_set(struct apr_threadattr_t *attr, unsigned 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 104
 signed int apr_threadattr_stacksize_set(struct apr_threadattr_t *attr, unsigned long int stacksize)
 {
-  signed int apr_threadattr_stacksize_set$$1$$stat;
-  apr_threadattr_stacksize_set$$1$$stat=pthread_attr_setstacksize(&attr->attr, stacksize);
-  if(apr_threadattr_stacksize_set$$1$$stat == 0)
+  signed int apr_threadattr_stacksize_set__1__stat;
+  apr_threadattr_stacksize_set__1__stat=pthread_attr_setstacksize(&attr->attr, stacksize);
+  if(apr_threadattr_stacksize_set__1__stat == 0)
     return 0;
 
   else
-    return apr_threadattr_stacksize_set$$1$$stat;
+    return apr_threadattr_stacksize_set__1__stat;
 }
 
 // apr_threadkey_data_get
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/threadpriv.c line 80
 signed int apr_threadkey_data_get(void **data, const char *key, struct apr_threadkey_t *threadkey)
 {
-  signed int return_value_apr_pool_userdata_get$1;
-  return_value_apr_pool_userdata_get$1=apr_pool_userdata_get(data, key, threadkey->pool);
-  return return_value_apr_pool_userdata_get$1;
+  signed int return_value_apr_pool_userdata_get_1;
+  return_value_apr_pool_userdata_get_1=apr_pool_userdata_get(data, key, threadkey->pool);
+  return return_value_apr_pool_userdata_get_1;
 }
 
 // apr_threadkey_data_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/threadpriv.c line 86
 signed int apr_threadkey_data_set(void *data, const char *key, signed int (*cleanup)(void *), struct apr_threadkey_t *threadkey)
 {
-  signed int return_value_apr_pool_userdata_set$1;
-  return_value_apr_pool_userdata_set$1=apr_pool_userdata_set(data, key, cleanup, threadkey->pool);
-  return return_value_apr_pool_userdata_set$1;
+  signed int return_value_apr_pool_userdata_set_1;
+  return_value_apr_pool_userdata_set_1=apr_pool_userdata_set(data, key, cleanup, threadkey->pool);
+  return return_value_apr_pool_userdata_set_1;
 }
 
 // apr_threadkey_private_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/threadpriv.c line 24
 signed int apr_threadkey_private_create(struct apr_threadkey_t **key, void (*dest)(void *), struct apr_pool_t *pool)
 {
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_threadkey_t) /*16ul*/ );
-  void *return_value_memset$2;
-  return_value_memset$2=memset(return_value_apr_palloc$1, 0, sizeof(struct apr_threadkey_t) /*16ul*/ );
-  *key = (struct apr_threadkey_t *)return_value_memset$2;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_threadkey_t) /*16ul*/ );
+  void *return_value_memset_2;
+  return_value_memset_2=memset(return_value_apr_palloc_1, 0, sizeof(struct apr_threadkey_t) /*16ul*/ );
+  *key = (struct apr_threadkey_t *)return_value_memset_2;
   if(*key == ((struct apr_threadkey_t *)NULL))
     return 12;
 
   else
   {
     (*key)->pool = pool;
-    signed int return_value_pthread_key_create$3;
-    return_value_pthread_key_create$3=pthread_key_create(&(*key)->key, dest);
-    return return_value_pthread_key_create$3;
+    signed int return_value_pthread_key_create_3;
+    return_value_pthread_key_create_3=pthread_key_create(&(*key)->key, dest);
+    return return_value_pthread_key_create_3;
   }
 }
 
@@ -21836,13 +21836,13 @@ signed int apr_threadkey_private_create(struct apr_threadkey_t **key, void (*des
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/threadpriv.c line 65
 signed int apr_threadkey_private_delete(struct apr_threadkey_t *key)
 {
-  signed int apr_threadkey_private_delete$$1$$stat;
-  apr_threadkey_private_delete$$1$$stat=pthread_key_delete(key->key);
-  if(apr_threadkey_private_delete$$1$$stat == 0)
+  signed int apr_threadkey_private_delete__1__stat;
+  apr_threadkey_private_delete__1__stat=pthread_key_delete(key->key);
+  if(apr_threadkey_private_delete__1__stat == 0)
     return 0;
 
   else
-    return apr_threadkey_private_delete$$1$$stat;
+    return apr_threadkey_private_delete__1__stat;
 }
 
 // apr_threadkey_private_get
@@ -21857,13 +21857,13 @@ signed int apr_threadkey_private_get(void **new, struct apr_threadkey_t *key)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/threadpriv.c line 52
 signed int apr_threadkey_private_set(void *priv, struct apr_threadkey_t *key)
 {
-  signed int apr_threadkey_private_set$$1$$stat;
-  apr_threadkey_private_set$$1$$stat=pthread_setspecific(key->key, priv);
-  if(apr_threadkey_private_set$$1$$stat == 0)
+  signed int apr_threadkey_private_set__1__stat;
+  apr_threadkey_private_set__1__stat=pthread_setspecific(key->key, priv);
+  if(apr_threadkey_private_set__1__stat == 0)
     return 0;
 
   else
-    return apr_threadkey_private_set$$1$$stat;
+    return apr_threadkey_private_set__1__stat;
 }
 
 // apr_time_ansi_put
@@ -21909,9 +21909,9 @@ signed int apr_time_exp_get(signed long int *t, struct apr_time_exp_t *xt)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/time/unix/time.c line 120
 signed int apr_time_exp_gmt(struct apr_time_exp_t *result, signed long int input)
 {
-  signed int return_value_apr_time_exp_tz$1;
-  return_value_apr_time_exp_tz$1=apr_time_exp_tz(result, input, 0);
-  return return_value_apr_time_exp_tz$1;
+  signed int return_value_apr_time_exp_tz_1;
+  return_value_apr_time_exp_tz_1=apr_time_exp_tz(result, input, 0);
+  return return_value_apr_time_exp_tz_1;
 }
 
 // apr_time_exp_gmt_get
@@ -21965,15 +21965,15 @@ signed int apr_tokenize_to_argv(const char *arg_str, char ***argv_out, struct ap
   signed int numargs = 0;
   signed int argnum;
   cp = arg_str;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if((signed int)*cp == 32)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)*cp == 9 ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)*cp == 9 ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     cp = cp + 1l;
@@ -21981,16 +21981,16 @@ signed int apr_tokenize_to_argv(const char *arg_str, char ***argv_out, struct ap
   while((_Bool)1);
   ct = cp;
   numargs = 1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$11;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_11;
   while(!((signed int)*ct == 0))
   {
     isquoted = 0;
@@ -22011,21 +22011,21 @@ signed int apr_tokenize_to_argv(const char *arg_str, char ***argv_out, struct ap
       if((signed int)*ct == 92)
       {
         if((signed int)ct[1l] == 32)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = (signed int)ct[(signed long int)1] == 9 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_2 = (signed int)ct[(signed long int)1] == 9 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = (signed int)ct[(signed long int)1] == 34 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_3 = (signed int)ct[(signed long int)1] == 34 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = (signed int)ct[(signed long int)1] == 39 ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$4)
+          tmp_if_expr_4 = (signed int)ct[(signed long int)1] == 39 ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_4)
           goto __CPROVER_DUMP_L14;
 
         ct = ct + 1l;
@@ -22039,40 +22039,40 @@ signed int apr_tokenize_to_argv(const char *arg_str, char ***argv_out, struct ap
         if(isquoted == 0)
         {
           if((signed int)*ct == 32)
-            tmp_if_expr$5 = (_Bool)1;
+            tmp_if_expr_5 = (_Bool)1;
 
           else
-            tmp_if_expr$5 = (signed int)*ct == 9 ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = (signed int)*ct == 9 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
+          tmp_if_expr_8 = (_Bool)1;
 
         else
         {
           if(isquoted == 1)
-            tmp_if_expr$7 = (signed int)*ct == 34 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_7 = (signed int)*ct == 34 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$7 = (_Bool)0;
-          tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_7 = (_Bool)0;
+          tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$8)
-          tmp_if_expr$10 = (_Bool)1;
+        if(tmp_if_expr_8)
+          tmp_if_expr_10 = (_Bool)1;
 
         else
         {
           if(isquoted == 2)
-            tmp_if_expr$9 = (signed int)*ct == 39 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_9 = (signed int)*ct == 39 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$9 = (_Bool)0;
-          tmp_if_expr$10 = tmp_if_expr$9 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_9 = (_Bool)0;
+          tmp_if_expr_10 = tmp_if_expr_9 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$10)
+        if(tmp_if_expr_10)
           break;
 
       }
@@ -22083,43 +22083,43 @@ signed int apr_tokenize_to_argv(const char *arg_str, char ***argv_out, struct ap
     do
     {
       if((signed int)*ct == 32)
-        tmp_if_expr$11 = (_Bool)1;
+        tmp_if_expr_11 = (_Bool)1;
 
       else
-        tmp_if_expr$11 = (signed int)*ct == 9 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$11)
+        tmp_if_expr_11 = (signed int)*ct == 9 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_11)
         break;
 
       ct = ct + 1l;
     }
     while((_Bool)1);
   }
-  void *return_value_apr_palloc$12;
-  return_value_apr_palloc$12=apr_palloc(token_context, (unsigned long int)numargs * sizeof(char *) /*8ul*/ );
-  *argv_out = (char **)return_value_apr_palloc$12;
+  void *return_value_apr_palloc_12;
+  return_value_apr_palloc_12=apr_palloc(token_context, (unsigned long int)numargs * sizeof(char *) /*8ul*/ );
+  *argv_out = (char **)return_value_apr_palloc_12;
   argnum = 0;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$20;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$22;
-  _Bool tmp_if_expr$21;
-  _Bool tmp_if_expr$25;
-  char *tmp_post$24;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_20;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_22;
+  _Bool tmp_if_expr_21;
+  _Bool tmp_if_expr_25;
+  char *tmp_post_24;
   for( ; !(argnum >= numargs + -1); argnum = argnum + 1)
   {
     do
     {
       if((signed int)*cp == 32)
-        tmp_if_expr$13 = (_Bool)1;
+        tmp_if_expr_13 = (_Bool)1;
 
       else
-        tmp_if_expr$13 = (signed int)*cp == 9 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$13)
+        tmp_if_expr_13 = (signed int)*cp == 9 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_13)
         break;
 
       cp = cp + 1l;
@@ -22144,21 +22144,21 @@ signed int apr_tokenize_to_argv(const char *arg_str, char ***argv_out, struct ap
       if((signed int)*cp == 92)
       {
         if((signed int)cp[1l] == 32)
-          tmp_if_expr$14 = (_Bool)1;
+          tmp_if_expr_14 = (_Bool)1;
 
         else
-          tmp_if_expr$14 = (signed int)cp[(signed long int)1] == 9 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$14)
-          tmp_if_expr$15 = (_Bool)1;
+          tmp_if_expr_14 = (signed int)cp[(signed long int)1] == 9 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_14)
+          tmp_if_expr_15 = (_Bool)1;
 
         else
-          tmp_if_expr$15 = (signed int)cp[(signed long int)1] == 34 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$15)
-          tmp_if_expr$16 = (_Bool)1;
+          tmp_if_expr_15 = (signed int)cp[(signed long int)1] == 34 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_15)
+          tmp_if_expr_16 = (_Bool)1;
 
         else
-          tmp_if_expr$16 = (signed int)cp[(signed long int)1] == 39 ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$16)
+          tmp_if_expr_16 = (signed int)cp[(signed long int)1] == 39 ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_16)
           goto __CPROVER_DUMP_L49;
 
         cp = cp + 1l;
@@ -22172,47 +22172,47 @@ signed int apr_tokenize_to_argv(const char *arg_str, char ***argv_out, struct ap
         if(isquoted == 0)
         {
           if((signed int)*cp == 32)
-            tmp_if_expr$17 = (_Bool)1;
+            tmp_if_expr_17 = (_Bool)1;
 
           else
-            tmp_if_expr$17 = (signed int)*cp == 9 ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$18 = tmp_if_expr$17 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_17 = (signed int)*cp == 9 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_18 = tmp_if_expr_17 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$18 = (_Bool)0;
-        if(tmp_if_expr$18)
-          tmp_if_expr$20 = (_Bool)1;
+          tmp_if_expr_18 = (_Bool)0;
+        if(tmp_if_expr_18)
+          tmp_if_expr_20 = (_Bool)1;
 
         else
         {
           if(isquoted == 1)
-            tmp_if_expr$19 = (signed int)*cp == 34 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_19 = (signed int)*cp == 34 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$19 = (_Bool)0;
-          tmp_if_expr$20 = tmp_if_expr$19 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_19 = (_Bool)0;
+          tmp_if_expr_20 = tmp_if_expr_19 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$20)
-          tmp_if_expr$22 = (_Bool)1;
+        if(tmp_if_expr_20)
+          tmp_if_expr_22 = (_Bool)1;
 
         else
         {
           if(isquoted == 2)
-            tmp_if_expr$21 = (signed int)*cp == 39 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_21 = (signed int)*cp == 39 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$21 = (_Bool)0;
-          tmp_if_expr$22 = tmp_if_expr$21 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_21 = (_Bool)0;
+          tmp_if_expr_22 = tmp_if_expr_21 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$22)
+        if(tmp_if_expr_22)
           break;
 
       }
     cp = cp + 1l;
-    void *return_value_apr_palloc$23;
-    return_value_apr_palloc$23=apr_palloc(token_context, (unsigned long int)(cp - ct));
-    (*argv_out)[(signed long int)argnum] = (char *)return_value_apr_palloc$23;
+    void *return_value_apr_palloc_23;
+    return_value_apr_palloc_23=apr_palloc(token_context, (unsigned long int)(cp - ct));
+    (*argv_out)[(signed long int)argnum] = (char *)return_value_apr_palloc_23;
     apr_cpystrn((*argv_out)[(signed long int)argnum], ct, (unsigned long int)(cp - ct));
     dirty = (*argv_out)[(signed long int)argnum];
     cleaned = dirty;
@@ -22220,19 +22220,19 @@ signed int apr_tokenize_to_argv(const char *arg_str, char ***argv_out, struct ap
     for( ; !(*dirty == 0); dirty = dirty + 1l)
     {
       if(escaped == 0)
-        tmp_if_expr$25 = (signed int)*dirty == 92 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_25 = (signed int)*dirty == 92 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$25 = (_Bool)0;
-      if(tmp_if_expr$25)
+        tmp_if_expr_25 = (_Bool)0;
+      if(tmp_if_expr_25)
         escaped = 1;
 
       else
       {
         escaped = 0;
-        tmp_post$24 = cleaned;
+        tmp_post_24 = cleaned;
         cleaned = cleaned + 1l;
-        *tmp_post$24 = *dirty;
+        *tmp_post_24 = *dirty;
       }
     }
     *cleaned = (char)0;
@@ -22322,14 +22322,14 @@ signed int apr_unescape_entity(char *unescaped, const char *str, signed long int
   char *d = unescaped;
   const char *s = str;
   const char *ents;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
-  const unsigned short int **return_value___ctype_b_loc$7;
-  _Bool tmp_if_expr$9;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
+  const unsigned short int **return_value___ctype_b_loc_7;
+  _Bool tmp_if_expr_9;
   if(!(s == ((const char *)NULL)))
   {
     static const char * const entlist[7l] = { (const char *)(void *)0, (const char *)(void *)0, "lt<gt>", "amp&ETHÐethð", "quot\"AumlÄEumlËIumlÏOumlÖUumlÜaumläeumlëiumlïoumlöuumlüyumlÿ",
@@ -22348,11 +22348,11 @@ signed int apr_unescape_entity(char *unescaped, const char *str, signed long int
           do
           {
             if(!((signed int)s[(signed long int)i] == 59))
-              tmp_if_expr$1 = (signed int)s[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_1 = (signed int)s[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$1 = (_Bool)0;
-            if(slen == (signed long int)i || !tmp_if_expr$1)
+              tmp_if_expr_1 = (_Bool)0;
+            if(slen == (signed long int)i || !tmp_if_expr_1)
               break;
 
             i = i + 1;
@@ -22370,13 +22370,13 @@ signed int apr_unescape_entity(char *unescaped, const char *str, signed long int
               {
                 if(!(j >= i))
                 {
-                  return_value___ctype_b_loc$2=__ctype_b_loc();
-                  tmp_if_expr$3 = ((signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)(unsigned char)s[(signed long int)j]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+                  return_value___ctype_b_loc_2=__ctype_b_loc();
+                  tmp_if_expr_3 = ((signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)(unsigned char)s[(signed long int)j]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$3 = (_Bool)0;
-                if(!tmp_if_expr$3)
+                  tmp_if_expr_3 = (_Bool)0;
+                if(!tmp_if_expr_3)
                   break;
 
                 val = (val * 10 + (signed int)s[(signed long int)j]) - 48;
@@ -22401,11 +22401,11 @@ signed int apr_unescape_entity(char *unescaped, const char *str, signed long int
             {
               j = i - 1;
               if(j >= 7)
-                tmp_if_expr$4 = (_Bool)1;
+                tmp_if_expr_4 = (_Bool)1;
 
               else
-                tmp_if_expr$4 = entlist[(signed long int)j] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$4)
+                tmp_if_expr_4 = entlist[(signed long int)j] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_4)
                 *d = (char)38;
 
               else
@@ -22413,9 +22413,9 @@ signed int apr_unescape_entity(char *unescaped, const char *str, signed long int
                 ents = entlist[(signed long int)j];
                 for( ; !((signed int)*ents == 0); ents = ents + (signed long int)i)
                 {
-                  signed int return_value_strncmp$5;
-                  return_value_strncmp$5=strncmp(s + (signed long int)1, ents, (unsigned long int)j);
-                  if(return_value_strncmp$5 == 0)
+                  signed int return_value_strncmp_5;
+                  return_value_strncmp_5=strncmp(s + (signed long int)1, ents, (unsigned long int)j);
+                  if(return_value_strncmp_5 == 0)
                     break;
 
                 }
@@ -22448,11 +22448,11 @@ signed int apr_unescape_entity(char *unescaped, const char *str, signed long int
           do
           {
             if(!((signed int)s[(signed long int)i] == 59))
-              tmp_if_expr$6 = (signed int)s[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_6 = (signed int)s[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$6 = (_Bool)0;
-            if(slen == (signed long int)i || !tmp_if_expr$6)
+              tmp_if_expr_6 = (_Bool)0;
+            if(slen == (signed long int)i || !tmp_if_expr_6)
               break;
 
             i = i + 1;
@@ -22468,13 +22468,13 @@ signed int apr_unescape_entity(char *unescaped, const char *str, signed long int
               {
                 if(!(j >= i))
                 {
-                  return_value___ctype_b_loc$7=__ctype_b_loc();
-                  tmp_if_expr$8 = ((signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)(unsigned char)s[(signed long int)j]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+                  return_value___ctype_b_loc_7=__ctype_b_loc();
+                  tmp_if_expr_8 = ((signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)(unsigned char)s[(signed long int)j]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$8 = (_Bool)0;
-                if(!tmp_if_expr$8)
+                  tmp_if_expr_8 = (_Bool)0;
+                if(!tmp_if_expr_8)
                   break;
 
                 val = (val * 10 + (signed int)s[(signed long int)j]) - 48;
@@ -22493,18 +22493,18 @@ signed int apr_unescape_entity(char *unescaped, const char *str, signed long int
             {
               j = i - 1;
               if(j >= 7)
-                tmp_if_expr$9 = (_Bool)1;
+                tmp_if_expr_9 = (_Bool)1;
 
               else
-                tmp_if_expr$9 = entlist[(signed long int)j] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-              if(!tmp_if_expr$9)
+                tmp_if_expr_9 = entlist[(signed long int)j] == (const char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+              if(!tmp_if_expr_9)
               {
                 ents = entlist[(signed long int)j];
                 for( ; !((signed int)*ents == 0); ents = ents + (signed long int)i)
                 {
-                  signed int return_value_strncmp$10;
-                  return_value_strncmp$10=strncmp(s + (signed long int)1, ents, (unsigned long int)j);
-                  if(return_value_strncmp$10 == 0)
+                  signed int return_value_strncmp_10;
+                  return_value_strncmp_10=strncmp(s + (signed long int)1, ents, (unsigned long int)j);
+                  if(return_value_strncmp_10 == 0)
                     break;
 
                 }
@@ -22547,13 +22547,13 @@ signed int apr_unescape_hex(void *dest, const char *str, signed long int slen, s
   unsigned char *d = (unsigned char *)dest;
   unsigned int c;
   unsigned char u = (unsigned char)0;
-  const unsigned short int **return_value___ctype_b_loc$3;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  const unsigned short int **return_value___ctype_b_loc$1;
-  unsigned char *tmp_post$4;
-  const unsigned short int **return_value___ctype_b_loc$7;
-  const unsigned short int **return_value___ctype_b_loc$6;
-  const unsigned short int **return_value___ctype_b_loc$5;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  unsigned char *tmp_post_4;
+  const unsigned short int **return_value___ctype_b_loc_7;
+  const unsigned short int **return_value___ctype_b_loc_6;
+  const unsigned short int **return_value___ctype_b_loc_5;
   if(!(s == ((const unsigned char *)NULL)))
   {
     if(!(d == ((unsigned char *)NULL)))
@@ -22578,20 +22578,20 @@ signed int apr_unescape_hex(void *dest, const char *str, signed long int slen, s
 
         else
         {
-          return_value___ctype_b_loc$3=__ctype_b_loc();
-          if(!((2048 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)(unsigned char)c]) == 0))
+          return_value___ctype_b_loc_3=__ctype_b_loc();
+          if(!((2048 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)(unsigned char)c]) == 0))
             u = u | (unsigned char)(c - (unsigned int)48);
 
           else
           {
-            return_value___ctype_b_loc$2=__ctype_b_loc();
-            if(!((256 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)(unsigned char)c]) == 0) && !(c >= 71u))
+            return_value___ctype_b_loc_2=__ctype_b_loc();
+            if(!((256 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)(unsigned char)c]) == 0) && !(c >= 71u))
               u = u | (unsigned char)(c - (unsigned int)(65 - 10));
 
             else
             {
-              return_value___ctype_b_loc$1=__ctype_b_loc();
-              if(!((512 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)(unsigned char)c]) == 0) && !(c >= 103u))
+              return_value___ctype_b_loc_1=__ctype_b_loc();
+              if(!((512 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)(unsigned char)c]) == 0) && !(c >= 103u))
                 u = u | (unsigned char)(c - (unsigned int)(97 - 10));
 
               else
@@ -22601,9 +22601,9 @@ signed int apr_unescape_hex(void *dest, const char *str, signed long int slen, s
         }
         if(!(flip == 0))
         {
-          tmp_post$4 = d;
+          tmp_post_4 = d;
           d = d + 1l;
-          *tmp_post$4 = u;
+          *tmp_post_4 = u;
           size = size + 1ul;
         }
 
@@ -22637,14 +22637,14 @@ signed int apr_unescape_hex(void *dest, const char *str, signed long int slen, s
 
         else
         {
-          return_value___ctype_b_loc$7=__ctype_b_loc();
-          if((2048 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)(unsigned char)c]) == 0)
+          return_value___ctype_b_loc_7=__ctype_b_loc();
+          if((2048 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)(unsigned char)c]) == 0)
           {
-            return_value___ctype_b_loc$6=__ctype_b_loc();
-            if((256 & (signed int)(*return_value___ctype_b_loc$6)[(signed long int)(signed int)(unsigned char)c]) == 0 || c >= 71u)
+            return_value___ctype_b_loc_6=__ctype_b_loc();
+            if((256 & (signed int)(*return_value___ctype_b_loc_6)[(signed long int)(signed int)(unsigned char)c]) == 0 || c >= 71u)
             {
-              return_value___ctype_b_loc$5=__ctype_b_loc();
-              if((512 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)(unsigned char)c]) == 0 || c >= 103u)
+              return_value___ctype_b_loc_5=__ctype_b_loc();
+              if((512 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)(unsigned char)c]) == 0 || c >= 103u)
                 return 20000 + 50000 + 12;
 
             }
@@ -22682,26 +22682,26 @@ signed int apr_unescape_url(char *escaped, const char *url, signed long int slen
   char *d = (char *)escaped;
   signed int badesc;
   signed int badpath;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$12;
-  const unsigned short int **return_value___ctype_b_loc$11;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$8;
-  char *return_value_strchr$7;
-  _Bool tmp_if_expr$6;
-  char *return_value_strchr$5;
-  char *tmp_post$1;
-  const char *tmp_post$2;
-  char *tmp_post$3;
-  const char *tmp_post$4;
-  _Bool tmp_if_expr$22;
-  _Bool tmp_if_expr$21;
-  const unsigned short int **return_value___ctype_b_loc$20;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$17;
-  char *return_value_strchr$16;
-  _Bool tmp_if_expr$15;
-  char *return_value_strchr$14;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_12;
+  const unsigned short int **return_value___ctype_b_loc_11;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_8;
+  char *return_value_strchr_7;
+  _Bool tmp_if_expr_6;
+  char *return_value_strchr_5;
+  char *tmp_post_1;
+  const char *tmp_post_2;
+  char *tmp_post_3;
+  const char *tmp_post_4;
+  _Bool tmp_if_expr_22;
+  _Bool tmp_if_expr_21;
+  const unsigned short int **return_value___ctype_b_loc_20;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_17;
+  char *return_value_strchr_16;
+  _Bool tmp_if_expr_15;
+  char *return_value_strchr_14;
   if(url == ((const char *)NULL))
     return 20000 + 50000 + 15;
 
@@ -22716,11 +22716,11 @@ signed int apr_unescape_url(char *escaped, const char *url, signed long int slen
         for( ; !(*s == 0) && !(slen == 0l); slen = slen - 1l)
         {
           if(!(plus == 0))
-            tmp_if_expr$13 = (signed int)*s == 43 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_13 = (signed int)*s == 43 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$13 = (_Bool)0;
-          if(tmp_if_expr$13)
+            tmp_if_expr_13 = (_Bool)0;
+          if(tmp_if_expr_13)
           {
             *d = (char)32;
             found = 1;
@@ -22732,17 +22732,17 @@ signed int apr_unescape_url(char *escaped, const char *url, signed long int slen
 
             else
             {
-              const unsigned short int **return_value___ctype_b_loc$10;
-              return_value___ctype_b_loc$10=__ctype_b_loc();
-              if((4096 & (signed int)(*return_value___ctype_b_loc$10)[(signed long int)(signed int)(unsigned char)s[1l]]) == 0)
-                tmp_if_expr$12 = (_Bool)1;
+              const unsigned short int **return_value___ctype_b_loc_10;
+              return_value___ctype_b_loc_10=__ctype_b_loc();
+              if((4096 & (signed int)(*return_value___ctype_b_loc_10)[(signed long int)(signed int)(unsigned char)s[1l]]) == 0)
+                tmp_if_expr_12 = (_Bool)1;
 
               else
               {
-                return_value___ctype_b_loc$11=__ctype_b_loc();
-                tmp_if_expr$12 = !(((signed int)(*return_value___ctype_b_loc$11)[(signed long int)(signed int)(unsigned char)s[(signed long int)2]] & (signed int)(unsigned short int)4096) != 0) ? (_Bool)1 : (_Bool)0;
+                return_value___ctype_b_loc_11=__ctype_b_loc();
+                tmp_if_expr_12 = !(((signed int)(*return_value___ctype_b_loc_11)[(signed long int)(signed int)(unsigned char)s[(signed long int)2]] & (signed int)(unsigned short int)4096) != 0) ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$12)
+              if(tmp_if_expr_12)
               {
                 badesc = 1;
                 *d = (char)37;
@@ -22753,21 +22753,21 @@ signed int apr_unescape_url(char *escaped, const char *url, signed long int slen
                 char decoded;
                 decoded=x2c(s + (signed long int)1);
                 if((signed int)decoded == 0)
-                  tmp_if_expr$9 = (_Bool)1;
+                  tmp_if_expr_9 = (_Bool)1;
 
                 else
                 {
                   if(!(forbid == ((const char *)NULL)))
                   {
-                    return_value_strchr$7=strchr(forbid, (signed int)decoded);
-                    tmp_if_expr$8 = return_value_strchr$7 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+                    return_value_strchr_7=strchr(forbid, (signed int)decoded);
+                    tmp_if_expr_8 = return_value_strchr_7 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$8 = (_Bool)0;
-                  tmp_if_expr$9 = tmp_if_expr$8 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_8 = (_Bool)0;
+                  tmp_if_expr_9 = tmp_if_expr_8 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$9)
+                if(tmp_if_expr_9)
                 {
                   badpath = 1;
                   *d = decoded;
@@ -22779,24 +22779,24 @@ signed int apr_unescape_url(char *escaped, const char *url, signed long int slen
                 {
                   if(!(reserved == ((const char *)NULL)))
                   {
-                    return_value_strchr$5=strchr(reserved, (signed int)decoded);
-                    tmp_if_expr$6 = return_value_strchr$5 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+                    return_value_strchr_5=strchr(reserved, (signed int)decoded);
+                    tmp_if_expr_6 = return_value_strchr_5 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$6 = (_Bool)0;
-                  if(tmp_if_expr$6)
+                    tmp_if_expr_6 = (_Bool)0;
+                  if(tmp_if_expr_6)
                   {
-                    tmp_post$1 = d;
+                    tmp_post_1 = d;
                     d = d + 1l;
-                    tmp_post$2 = s;
+                    tmp_post_2 = s;
                     s = s + 1l;
-                    *tmp_post$1 = *tmp_post$2;
-                    tmp_post$3 = d;
+                    *tmp_post_1 = *tmp_post_2;
+                    tmp_post_3 = d;
                     d = d + 1l;
-                    tmp_post$4 = s;
+                    tmp_post_4 = s;
                     s = s + 1l;
-                    *tmp_post$3 = *tmp_post$4;
+                    *tmp_post_3 = *tmp_post_4;
                     *d = *s;
                     size = size + (unsigned long int)2;
                   }
@@ -22822,49 +22822,49 @@ signed int apr_unescape_url(char *escaped, const char *url, signed long int slen
         for( ; !(*s == 0) && !(slen == 0l); slen = slen - 1l)
         {
           if(!(plus == 0))
-            tmp_if_expr$22 = (signed int)*s == 43 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_22 = (signed int)*s == 43 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$22 = (_Bool)0;
-          if(tmp_if_expr$22)
+            tmp_if_expr_22 = (_Bool)0;
+          if(tmp_if_expr_22)
             found = 1;
 
           else
             if((signed int)*s == 37)
             {
-              const unsigned short int **return_value___ctype_b_loc$19;
-              return_value___ctype_b_loc$19=__ctype_b_loc();
-              if((4096 & (signed int)(*return_value___ctype_b_loc$19)[(signed long int)(signed int)(unsigned char)s[1l]]) == 0)
-                tmp_if_expr$21 = (_Bool)1;
+              const unsigned short int **return_value___ctype_b_loc_19;
+              return_value___ctype_b_loc_19=__ctype_b_loc();
+              if((4096 & (signed int)(*return_value___ctype_b_loc_19)[(signed long int)(signed int)(unsigned char)s[1l]]) == 0)
+                tmp_if_expr_21 = (_Bool)1;
 
               else
               {
-                return_value___ctype_b_loc$20=__ctype_b_loc();
-                tmp_if_expr$21 = !(((signed int)(*return_value___ctype_b_loc$20)[(signed long int)(signed int)(unsigned char)s[(signed long int)2]] & (signed int)(unsigned short int)4096) != 0) ? (_Bool)1 : (_Bool)0;
+                return_value___ctype_b_loc_20=__ctype_b_loc();
+                tmp_if_expr_21 = !(((signed int)(*return_value___ctype_b_loc_20)[(signed long int)(signed int)(unsigned char)s[(signed long int)2]] & (signed int)(unsigned short int)4096) != 0) ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$21)
+              if(tmp_if_expr_21)
                 badesc = 1;
 
               else
               {
-                char apr_unescape_url$$1$$2$$2$$1$$1$$3$$2$$decoded;
-                apr_unescape_url$$1$$2$$2$$1$$1$$3$$2$$decoded=x2c(s + (signed long int)1);
-                if((signed int)apr_unescape_url$$1$$2$$2$$1$$1$$3$$2$$decoded == 0)
-                  tmp_if_expr$18 = (_Bool)1;
+                char apr_unescape_url__1__2__2__1__1__3__2__decoded;
+                apr_unescape_url__1__2__2__1__1__3__2__decoded=x2c(s + (signed long int)1);
+                if((signed int)apr_unescape_url__1__2__2__1__1__3__2__decoded == 0)
+                  tmp_if_expr_18 = (_Bool)1;
 
                 else
                 {
                   if(!(forbid == ((const char *)NULL)))
                   {
-                    return_value_strchr$16=strchr(forbid, (signed int)apr_unescape_url$$1$$2$$2$$1$$1$$3$$2$$decoded);
-                    tmp_if_expr$17 = return_value_strchr$16 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+                    return_value_strchr_16=strchr(forbid, (signed int)apr_unescape_url__1__2__2__1__1__3__2__decoded);
+                    tmp_if_expr_17 = return_value_strchr_16 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$17 = (_Bool)0;
-                  tmp_if_expr$18 = tmp_if_expr$17 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_17 = (_Bool)0;
+                  tmp_if_expr_18 = tmp_if_expr_17 ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$18)
+                if(tmp_if_expr_18)
                 {
                   badpath = 1;
                   s = s + (signed long int)2;
@@ -22875,13 +22875,13 @@ signed int apr_unescape_url(char *escaped, const char *url, signed long int slen
                 {
                   if(!(reserved == ((const char *)NULL)))
                   {
-                    return_value_strchr$14=strchr(reserved, (signed int)apr_unescape_url$$1$$2$$2$$1$$1$$3$$2$$decoded);
-                    tmp_if_expr$15 = return_value_strchr$14 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+                    return_value_strchr_14=strchr(reserved, (signed int)apr_unescape_url__1__2__2__1__1__3__2__decoded);
+                    tmp_if_expr_15 = return_value_strchr_14 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$15 = (_Bool)0;
-                  if(tmp_if_expr$15)
+                    tmp_if_expr_15 = (_Bool)0;
+                  if(tmp_if_expr_15)
                   {
                     s = s + (signed long int)2;
                     slen = slen - (signed long int)2;
@@ -22925,9 +22925,9 @@ signed int apr_unescape_url(char *escaped, const char *url, signed long int slen
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/arch/unix/apr_arch_file_io.h line 163
 signed int apr_unix_child_file_cleanup(void *thefile)
 {
-  signed int return_value_file_cleanup$1;
-  return_value_file_cleanup$1=file_cleanup((struct apr_file_t *)thefile, 1);
-  return return_value_file_cleanup$1;
+  signed int return_value_file_cleanup_1;
+  return_value_file_cleanup_1=file_cleanup((struct apr_file_t *)thefile, 1);
+  return return_value_file_cleanup_1;
 }
 
 // apr_unix_file_cleanup
@@ -23041,7 +23041,7 @@ void apr_unix_setup_time(void)
 
 // apr_version
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/misc/unix/version.c line 20
-void apr_version(struct anonymous$0 *pvsn)
+void apr_version(struct anonymous_0 *pvsn)
 {
   pvsn->major = 1;
   pvsn->minor = 5;
@@ -23069,12 +23069,12 @@ signed int apr_vformatter(signed int (*flush_func)(struct apr_vformatter_buff_t 
   unsigned long int s_len = (unsigned long int)0;
   unsigned long int min_width = (unsigned long int)0;
   unsigned long int precision = (unsigned long int)0;
-  /* #anon_enum$LEFT=0$RIGHT=1 */
-enum anonymous$43 { LEFT=0, RIGHT=1 };
+  /* #anon_enum_LEFT=0_RIGHT=1 */
+enum anonymous_43 { LEFT=0, RIGHT=1 };
 
 /* */
   ;
-  enum anonymous$43 adjust;
+  enum anonymous_43 adjust;
   char pad_char;
   char prefix_char;
   double fp_num;
@@ -23090,46 +23090,46 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
 /* */
   ;
   enum var_type_enum var_type = (enum var_type_enum)IS_INT;
-  enum anonymous$30 alternate_form;
-  enum anonymous$30 print_sign;
-  enum anonymous$30 print_blank;
-  enum anonymous$30 adjust_precision;
-  enum anonymous$30 adjust_width;
+  enum anonymous_30 alternate_form;
+  enum anonymous_30 print_sign;
+  enum anonymous_30 print_blank;
+  enum anonymous_30 adjust_precision;
+  enum anonymous_30 adjust_width;
   signed int is_negative;
   sp = vbuff->curpos;
   bep = vbuff->endpos;
-  char *tmp_post$1;
-  const char *tmp_post$2;
-  const unsigned short int **return_value___ctype_b_loc$3;
-  const char *tmp_post$4;
-  const char *tmp_post$6;
-  const unsigned short int **return_value___ctype_b_loc$7;
-  const char *tmp_post$8;
-  _Bool tmp_if_expr$11;
-  unsigned int return_value_gcc_builtin_va_arg$13;
-  unsigned int return_value_gcc_builtin_va_arg$14;
-  unsigned int return_value_gcc_builtin_va_arg$15;
-  signed int return_value_gcc_builtin_va_arg$16;
-  unsigned int return_value_gcc_builtin_va_arg$17;
-  unsigned int return_value_gcc_builtin_va_arg$18;
-  _Bool tmp_if_expr$19;
-  signed int return_value___isnan$20;
-  signed int return_value___isinf$21;
-  double return_value_gcc_builtin_va_arg$22;
-  char *tmp_post$23;
-  unsigned long int tmp_post$24;
-  signed int return_value_gcc_builtin_va_arg$25;
-  signed long int *return_value_gcc_builtin_va_arg$26;
-  signed long int *return_value_gcc_builtin_va_arg$27;
-  signed short int *return_value_gcc_builtin_va_arg$28;
-  signed int *return_value_gcc_builtin_va_arg$29;
-  unsigned int tmp_if_expr$31;
-  signed long int tmp_if_expr$32;
-  unsigned long int tmp_if_expr$33;
-  char *tmp_post$34;
-  char *tmp_post$35;
-  char *tmp_post$36;
-  char *tmp_post$37;
+  char *tmp_post_1;
+  const char *tmp_post_2;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  const char *tmp_post_4;
+  const char *tmp_post_6;
+  const unsigned short int **return_value___ctype_b_loc_7;
+  const char *tmp_post_8;
+  _Bool tmp_if_expr_11;
+  unsigned int return_value_gcc_builtin_va_arg_13;
+  unsigned int return_value_gcc_builtin_va_arg_14;
+  unsigned int return_value_gcc_builtin_va_arg_15;
+  signed int return_value_gcc_builtin_va_arg_16;
+  unsigned int return_value_gcc_builtin_va_arg_17;
+  unsigned int return_value_gcc_builtin_va_arg_18;
+  _Bool tmp_if_expr_19;
+  signed int return_value___isnan_20;
+  signed int return_value___isinf_21;
+  double return_value_gcc_builtin_va_arg_22;
+  char *tmp_post_23;
+  unsigned long int tmp_post_24;
+  signed int return_value_gcc_builtin_va_arg_25;
+  signed long int *return_value_gcc_builtin_va_arg_26;
+  signed long int *return_value_gcc_builtin_va_arg_27;
+  signed short int *return_value_gcc_builtin_va_arg_28;
+  signed int *return_value_gcc_builtin_va_arg_29;
+  unsigned int tmp_if_expr_31;
+  signed long int tmp_if_expr_32;
+  unsigned long int tmp_if_expr_33;
+  char *tmp_post_34;
+  char *tmp_post_35;
+  char *tmp_post_36;
+  char *tmp_post_37;
   while(!(*fmt == 0))
   {
     if(!((signed int)*fmt == 37))
@@ -23148,9 +23148,9 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
           bep = vbuff->endpos;
         }
 
-        tmp_post$1 = sp;
+        tmp_post_1 = sp;
         sp = sp + 1l;
-        *tmp_post$1 = *fmt;
+        *tmp_post_1 = *fmt;
       }
 
       cc = cc + 1;
@@ -23158,33 +23158,33 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
 
     else
     {
-      enum anonymous$30 print_something = (enum anonymous$30)YES;
-      adjust = (enum anonymous$43)RIGHT;
-      print_blank = (enum anonymous$30)NO;
+      enum anonymous_30 print_something = (enum anonymous_30)YES;
+      adjust = (enum anonymous_43)RIGHT;
+      print_blank = (enum anonymous_30)NO;
       print_sign = print_blank;
       alternate_form = print_sign;
       pad_char = (char)32;
       prefix_char = (char)0;
       fmt = fmt + 1l;
-      const unsigned short int **return_value___ctype_b_loc$10;
-      return_value___ctype_b_loc$10=__ctype_b_loc();
-      if((512 & (signed int)(*return_value___ctype_b_loc$10)[(signed long int)(signed int)(unsigned char)*fmt]) == 0)
+      const unsigned short int **return_value___ctype_b_loc_10;
+      return_value___ctype_b_loc_10=__ctype_b_loc();
+      if((512 & (signed int)(*return_value___ctype_b_loc_10)[(signed long int)(signed int)(unsigned char)*fmt]) == 0)
       {
         for( ; (_Bool)1; fmt = fmt + 1l)
           if((signed int)*fmt == 45)
-            adjust = (enum anonymous$43)LEFT;
+            adjust = (enum anonymous_43)LEFT;
 
           else
             if((signed int)*fmt == 43)
-              print_sign = (enum anonymous$30)YES;
+              print_sign = (enum anonymous_30)YES;
 
             else
               if((signed int)*fmt == 35)
-                alternate_form = (enum anonymous$30)YES;
+                alternate_form = (enum anonymous_30)YES;
 
               else
                 if((signed int)*fmt == 32)
-                  print_blank = (enum anonymous$30)YES;
+                  print_blank = (enum anonymous_30)YES;
 
                 else
                   if((signed int)*fmt == 48)
@@ -23195,26 +23195,26 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
 
       __CPROVER_DUMP_L13:
         ;
-        const unsigned short int **return_value___ctype_b_loc$5;
-        return_value___ctype_b_loc$5=__ctype_b_loc();
-        if(!((2048 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)(unsigned char)*fmt]) == 0))
+        const unsigned short int **return_value___ctype_b_loc_5;
+        return_value___ctype_b_loc_5=__ctype_b_loc();
+        if(!((2048 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)(unsigned char)*fmt]) == 0))
         {
-          tmp_post$2 = fmt;
+          tmp_post_2 = fmt;
           fmt = fmt + 1l;
-          min_width = (unsigned long int)((signed int)*tmp_post$2 - 48);
+          min_width = (unsigned long int)((signed int)*tmp_post_2 - 48);
           do
           {
-            return_value___ctype_b_loc$3=__ctype_b_loc();
-            if((2048 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)(unsigned char)*fmt]) == 0)
+            return_value___ctype_b_loc_3=__ctype_b_loc();
+            if((2048 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)(unsigned char)*fmt]) == 0)
               break;
 
             min_width = min_width * (unsigned long int)10;
-            tmp_post$4 = fmt;
+            tmp_post_4 = fmt;
             fmt = fmt + 1l;
-            min_width = min_width + (unsigned long int)((signed int)*tmp_post$4 - 48);
+            min_width = min_width + (unsigned long int)((signed int)*tmp_post_4 - 48);
           }
           while((_Bool)1);
-          adjust_width = (enum anonymous$30)YES;
+          adjust_width = (enum anonymous_30)YES;
         }
 
         else
@@ -23223,10 +23223,10 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
             signed int v;
             v=va_arg(ap, __typeof__(v));
             fmt = fmt + 1l;
-            adjust_width = (enum anonymous$30)YES;
+            adjust_width = (enum anonymous_30)YES;
             if(!(v >= 0))
             {
-              adjust = (enum anonymous$43)LEFT;
+              adjust = (enum anonymous_43)LEFT;
               min_width = (unsigned long int)-v;
             }
 
@@ -23235,28 +23235,28 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
           }
 
           else
-            adjust_width = (enum anonymous$30)NO;
+            adjust_width = (enum anonymous_30)NO;
         if((signed int)*fmt == 46)
         {
-          adjust_precision = (enum anonymous$30)YES;
+          adjust_precision = (enum anonymous_30)YES;
           fmt = fmt + 1l;
-          const unsigned short int **return_value___ctype_b_loc$9;
-          return_value___ctype_b_loc$9=__ctype_b_loc();
-          if(!((2048 & (signed int)(*return_value___ctype_b_loc$9)[(signed long int)(signed int)(unsigned char)*fmt]) == 0))
+          const unsigned short int **return_value___ctype_b_loc_9;
+          return_value___ctype_b_loc_9=__ctype_b_loc();
+          if(!((2048 & (signed int)(*return_value___ctype_b_loc_9)[(signed long int)(signed int)(unsigned char)*fmt]) == 0))
           {
-            tmp_post$6 = fmt;
+            tmp_post_6 = fmt;
             fmt = fmt + 1l;
-            precision = (unsigned long int)((signed int)*tmp_post$6 - 48);
+            precision = (unsigned long int)((signed int)*tmp_post_6 - 48);
             do
             {
-              return_value___ctype_b_loc$7=__ctype_b_loc();
-              if((2048 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)(unsigned char)*fmt]) == 0)
+              return_value___ctype_b_loc_7=__ctype_b_loc();
+              if((2048 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)(unsigned char)*fmt]) == 0)
                 break;
 
               precision = precision * (unsigned long int)10;
-              tmp_post$8 = fmt;
+              tmp_post_8 = fmt;
               fmt = fmt + 1l;
-              precision = precision + (unsigned long int)((signed int)*tmp_post$8 - 48);
+              precision = precision + (unsigned long int)((signed int)*tmp_post_8 - 48);
             }
             while((_Bool)1);
           }
@@ -23264,10 +23264,10 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
           else
             if((signed int)*fmt == 42)
             {
-              signed int apr_vformatter$$1$$1$$2$$1$$4$$2$$v;
-              apr_vformatter$$1$$1$$2$$1$$4$$2$$v=va_arg(ap, __typeof__(apr_vformatter$$1$$1$$2$$1$$4$$2$$v));
+              signed int apr_vformatter__1__1__2__1__4__2__v;
+              apr_vformatter__1__1__2__1__4__2__v=va_arg(ap, __typeof__(apr_vformatter__1__1__2__1__4__2__v));
               fmt = fmt + 1l;
-              precision = apr_vformatter$$1$$1$$2$$1$$4$$2$$v < 0 ? (unsigned long int)0 : (unsigned long int)apr_vformatter$$1$$1$$2$$1$$4$$2$$v;
+              precision = apr_vformatter__1__1__2__1__4__2__v < 0 ? (unsigned long int)0 : (unsigned long int)apr_vformatter__1__1__2__1__4__2__v;
             }
 
             else
@@ -23275,22 +23275,22 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
         }
 
         else
-          adjust_precision = (enum anonymous$30)NO;
+          adjust_precision = (enum anonymous_30)NO;
       }
 
       else
       {
-        adjust_width = (enum anonymous$30)NO;
+        adjust_width = (enum anonymous_30)NO;
         adjust_precision = adjust_width;
       }
       var_type = (enum var_type_enum)IS_QUAD;
       fmt = fmt + (signed long int)(sizeof(char [3l]) /*3ul*/  - (unsigned long int)2);
       if(*fmt == 'l')
-        tmp_if_expr$11 = (_Bool)1;
+        tmp_if_expr_11 = (_Bool)1;
 
       else
-        tmp_if_expr$11 = (_Bool)0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$11)
+        tmp_if_expr_11 = (_Bool)0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_11)
       {
         var_type = (enum var_type_enum)IS_QUAD;
         fmt = fmt + (signed long int)(sizeof(char [3l]) /*3ul*/  - (unsigned long int)2);
@@ -23325,9 +23325,9 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
         {
           if((signed int)var_type == IS_QUAD)
           {
-            unsigned long int return_value_gcc_builtin_va_arg$12;
-            return_value_gcc_builtin_va_arg$12=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$12));
-            i_quad = (signed long int)return_value_gcc_builtin_va_arg$12;
+            unsigned long int return_value_gcc_builtin_va_arg_12;
+            return_value_gcc_builtin_va_arg_12=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_12));
+            i_quad = (signed long int)return_value_gcc_builtin_va_arg_12;
             s=conv_10_quad(i_quad, 1, &is_negative, &num_buf[(signed long int)512], &s_len);
           }
 
@@ -23335,21 +23335,21 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
           {
             if((signed int)var_type == IS_LONG)
             {
-              return_value_gcc_builtin_va_arg$13=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$13));
-              i_num = (signed int)return_value_gcc_builtin_va_arg$13;
+              return_value_gcc_builtin_va_arg_13=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_13));
+              i_num = (signed int)return_value_gcc_builtin_va_arg_13;
             }
 
             else
               if((signed int)var_type == IS_SHORT)
               {
-                return_value_gcc_builtin_va_arg$14=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$14));
-                i_num = (signed int)(unsigned short int)return_value_gcc_builtin_va_arg$14;
+                return_value_gcc_builtin_va_arg_14=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_14));
+                i_num = (signed int)(unsigned short int)return_value_gcc_builtin_va_arg_14;
               }
 
               else
               {
-                return_value_gcc_builtin_va_arg$15=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$15));
-                i_num = (signed int)return_value_gcc_builtin_va_arg$15;
+                return_value_gcc_builtin_va_arg_15=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_15));
+                i_num = (signed int)return_value_gcc_builtin_va_arg_15;
               }
             s=conv_10(i_num, 1, &is_negative, &num_buf[(signed long int)512], &s_len);
           }
@@ -23383,8 +23383,8 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
             else
               if((signed int)var_type == IS_SHORT)
               {
-                return_value_gcc_builtin_va_arg$16=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$16));
-                i_num = (signed int)(signed short int)return_value_gcc_builtin_va_arg$16;
+                return_value_gcc_builtin_va_arg_16=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_16));
+                i_num = (signed int)(signed short int)return_value_gcc_builtin_va_arg_16;
               }
 
               else
@@ -23393,8 +23393,8 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
           }
           if(!(adjust_precision == /*enum*/NO))
           {
-            unsigned long int apr_vformatter$$1$$1$$2$$8$$6$$p = precision + (unsigned long int)1 < (unsigned long int)512 ? precision : (unsigned long int)(512 - 1);
-            for( ; !(s_len >= apr_vformatter$$1$$1$$2$$8$$6$$p); s_len = s_len + 1ul)
+            unsigned long int apr_vformatter__1__1__2__8__6__p = precision + (unsigned long int)1 < (unsigned long int)512 ? precision : (unsigned long int)(512 - 1);
+            for( ; !(s_len >= apr_vformatter__1__1__2__8__6__p); s_len = s_len + 1ul)
             {
               s = s - 1l;
               *s = (char)48;
@@ -23430,8 +23430,8 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
             else
               if((signed int)var_type == IS_SHORT)
               {
-                return_value_gcc_builtin_va_arg$17=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$17));
-                ui_num = (unsigned int)(unsigned short int)return_value_gcc_builtin_va_arg$17;
+                return_value_gcc_builtin_va_arg_17=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_17));
+                ui_num = (unsigned int)(unsigned short int)return_value_gcc_builtin_va_arg_17;
               }
 
               else
@@ -23440,8 +23440,8 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
           }
           if(!(adjust_precision == /*enum*/NO))
           {
-            unsigned long int apr_vformatter$$1$$1$$2$$8$$9$$p = precision + (unsigned long int)1 < (unsigned long int)512 ? precision : (unsigned long int)(512 - 1);
-            for( ; !(s_len >= apr_vformatter$$1$$1$$2$$8$$9$$p); s_len = s_len + 1ul)
+            unsigned long int apr_vformatter__1__1__2__8__9__p = precision + (unsigned long int)1 < (unsigned long int)512 ? precision : (unsigned long int)(512 - 1);
+            for( ; !(s_len >= apr_vformatter__1__1__2__8__9__p); s_len = s_len + 1ul)
             {
               s = s - 1l;
               *s = (char)48;
@@ -23479,8 +23479,8 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
             else
               if((signed int)var_type == IS_SHORT)
               {
-                return_value_gcc_builtin_va_arg$18=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$18));
-                ui_num = (unsigned int)(unsigned short int)return_value_gcc_builtin_va_arg$18;
+                return_value_gcc_builtin_va_arg_18=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_18));
+                ui_num = (unsigned int)(unsigned short int)return_value_gcc_builtin_va_arg_18;
               }
 
               else
@@ -23489,8 +23489,8 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
           }
           if(!(adjust_precision == /*enum*/NO))
           {
-            unsigned long int apr_vformatter$$1$$1$$2$$8$$13$$p = precision + (unsigned long int)1 < (unsigned long int)512 ? precision : (unsigned long int)(512 - 1);
-            for( ; !(s_len >= apr_vformatter$$1$$1$$2$$8$$13$$p); s_len = s_len + 1ul)
+            unsigned long int apr_vformatter__1__1__2__8__13__p = precision + (unsigned long int)1 < (unsigned long int)512 ? precision : (unsigned long int)(512 - 1);
+            for( ; !(s_len >= apr_vformatter__1__1__2__8__13__p); s_len = s_len + 1ul)
             {
               s = s - 1l;
               *s = (char)48;
@@ -23523,11 +23523,11 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
               do
               {
                 if(!(s_len >= precision))
-                  tmp_if_expr$19 = (signed int)*walk != 0 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_19 = (signed int)*walk != 0 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$19 = (_Bool)0;
-                if(!tmp_if_expr$19)
+                  tmp_if_expr_19 = (_Bool)0;
+                if(!tmp_if_expr_19)
                   break;
 
                 walk = walk + 1l;
@@ -23553,8 +23553,8 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
         {
           fp_num=va_arg(ap, __typeof__(fp_num));
           s = (char *)(void *)0;
-          return_value___isnan$20=__isnan(fp_num);
-          if(!(return_value___isnan$20 == 0))
+          return_value___isnan_20=__isnan(fp_num);
+          if(!(return_value___isnan_20 == 0))
           {
             s = "nan";
             s_len = (unsigned long int)3;
@@ -23562,8 +23562,8 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
 
           if(s == ((char *)NULL))
           {
-            return_value___isinf$21=__isinf(fp_num);
-            if(!(return_value___isinf$21 == 0))
+            return_value___isinf_21=__isinf(fp_num);
+            if(!(return_value___isinf_21 == 0))
             {
               s = "inf";
               s_len = (unsigned long int)3;
@@ -23600,13 +23600,13 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
             if(precision == 0ul)
               precision = (unsigned long int)1;
 
-          return_value_gcc_builtin_va_arg$22=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$22));
-          s=apr_gcvt(return_value_gcc_builtin_va_arg$22, (signed int)precision, &num_buf[(signed long int)1], alternate_form);
+          return_value_gcc_builtin_va_arg_22=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_22));
+          s=apr_gcvt(return_value_gcc_builtin_va_arg_22, (signed int)precision, &num_buf[(signed long int)1], alternate_form);
           if((signed int)*s == 45)
           {
-            tmp_post$23 = s;
+            tmp_post_23 = s;
             s = s + 1l;
-            prefix_char = *tmp_post$23;
+            prefix_char = *tmp_post_23;
           }
 
           else
@@ -23623,9 +23623,9 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
             q=strchr(s, 46);
             if(q == ((char *)NULL))
             {
-              tmp_post$24 = s_len;
+              tmp_post_24 = s_len;
               s_len = s_len + 1ul;
-              s[(signed long int)tmp_post$24] = (char)46;
+              s[(signed long int)tmp_post_24] = (char)46;
               s[(signed long int)s_len] = (char)0;
             }
 
@@ -23643,8 +23643,8 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
         }
         case 99:
         {
-          return_value_gcc_builtin_va_arg$25=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$25));
-          char_buf[(signed long int)0] = (char)return_value_gcc_builtin_va_arg$25;
+          return_value_gcc_builtin_va_arg_25=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_25));
+          char_buf[(signed long int)0] = (char)return_value_gcc_builtin_va_arg_25;
           s = &char_buf[(signed long int)0];
           s_len = (unsigned long int)1;
           pad_char = (char)32;
@@ -23662,30 +23662,30 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
         {
           if((signed int)var_type == IS_QUAD)
           {
-            return_value_gcc_builtin_va_arg$26=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$26));
-            *return_value_gcc_builtin_va_arg$26 = (signed long int)cc;
+            return_value_gcc_builtin_va_arg_26=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_26));
+            *return_value_gcc_builtin_va_arg_26 = (signed long int)cc;
           }
 
           else
             if((signed int)var_type == IS_LONG)
             {
-              return_value_gcc_builtin_va_arg$27=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$27));
-              *return_value_gcc_builtin_va_arg$27 = (signed long int)cc;
+              return_value_gcc_builtin_va_arg_27=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_27));
+              *return_value_gcc_builtin_va_arg_27 = (signed long int)cc;
             }
 
             else
               if((signed int)var_type == IS_SHORT)
               {
-                return_value_gcc_builtin_va_arg$28=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$28));
-                *return_value_gcc_builtin_va_arg$28 = (signed short int)cc;
+                return_value_gcc_builtin_va_arg_28=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_28));
+                *return_value_gcc_builtin_va_arg_28 = (signed short int)cc;
               }
 
               else
               {
-                return_value_gcc_builtin_va_arg$29=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$29));
-                *return_value_gcc_builtin_va_arg$29 = cc;
+                return_value_gcc_builtin_va_arg_29=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_29));
+                *return_value_gcc_builtin_va_arg_29 = cc;
               }
-          print_something = (enum anonymous$30)NO;
+          print_something = (enum anonymous_30)NO;
           break;
         }
         case 112:
@@ -23696,9 +23696,9 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
             case 112:
             {
               {
-                void *return_value_gcc_builtin_va_arg$30;
-                return_value_gcc_builtin_va_arg$30=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$30));
-                ui_quad = (unsigned long int)return_value_gcc_builtin_va_arg$30;
+                void *return_value_gcc_builtin_va_arg_30;
+                return_value_gcc_builtin_va_arg_30=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_30));
+                ui_quad = (unsigned long int)return_value_gcc_builtin_va_arg_30;
                 s=conv_p2_quad(ui_quad, 4, (char)120, &num_buf[(signed long int)512], &s_len);
               }
               pad_char = (char)32;
@@ -23784,11 +23784,11 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
             }
             case 116:
             {
-              unsigned long int *apr_vformatter$$1$$1$$2$$8$$21$$7$$tid;
-              apr_vformatter$$1$$1$$2$$8$$21$$7$$tid=va_arg(ap, __typeof__(apr_vformatter$$1$$1$$2$$8$$21$$7$$tid));
-              if(!(apr_vformatter$$1$$1$$2$$8$$21$$7$$tid == ((unsigned long int *)NULL)))
+              unsigned long int *apr_vformatter__1__1__2__8__21__7__tid;
+              apr_vformatter__1__1__2__8__21__7__tid=va_arg(ap, __typeof__(apr_vformatter__1__1__2__8__21__7__tid));
+              if(!(apr_vformatter__1__1__2__8__21__7__tid == ((unsigned long int *)NULL)))
               {
-                s=conv_os_thread_t_hex(apr_vformatter$$1$$1$$2$$8$$21$$7$$tid, &num_buf[(signed long int)512], &s_len);
+                s=conv_os_thread_t_hex(apr_vformatter__1__1__2__8__21__7__tid, &num_buf[(signed long int)512], &s_len);
                 if(!(precision >= s_len) && !(adjust_precision == /*enum*/NO))
                   s_len = precision;
 
@@ -23815,36 +23815,36 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
                 unsigned int *arg;
                 arg=va_arg(ap, __typeof__(arg));
                 if(!(arg == ((unsigned int *)NULL)))
-                  tmp_if_expr$31 = *arg;
+                  tmp_if_expr_31 = *arg;
 
                 else
-                  tmp_if_expr$31 = (unsigned int)0;
-                size = (signed long int)tmp_if_expr$31;
+                  tmp_if_expr_31 = (unsigned int)0;
+                size = (signed long int)tmp_if_expr_31;
               }
 
               else
                 if((signed int)*fmt == 70)
                 {
-                  signed long int *apr_vformatter$$1$$1$$2$$8$$21$$8$$2$$arg;
-                  apr_vformatter$$1$$1$$2$$8$$21$$8$$2$$arg=va_arg(ap, __typeof__(apr_vformatter$$1$$1$$2$$8$$21$$8$$2$$arg));
-                  if(!(apr_vformatter$$1$$1$$2$$8$$21$$8$$2$$arg == ((signed long int *)NULL)))
-                    tmp_if_expr$32 = *apr_vformatter$$1$$1$$2$$8$$21$$8$$2$$arg;
+                  signed long int *apr_vformatter__1__1__2__8__21__8__2__arg;
+                  apr_vformatter__1__1__2__8__21__8__2__arg=va_arg(ap, __typeof__(apr_vformatter__1__1__2__8__21__8__2__arg));
+                  if(!(apr_vformatter__1__1__2__8__21__8__2__arg == ((signed long int *)NULL)))
+                    tmp_if_expr_32 = *apr_vformatter__1__1__2__8__21__8__2__arg;
 
                   else
-                    tmp_if_expr$32 = (signed long int)0;
-                  size = tmp_if_expr$32;
+                    tmp_if_expr_32 = (signed long int)0;
+                  size = tmp_if_expr_32;
                 }
 
                 else
                 {
-                  unsigned long int *apr_vformatter$$1$$1$$2$$8$$21$$8$$3$$arg;
-                  apr_vformatter$$1$$1$$2$$8$$21$$8$$3$$arg=va_arg(ap, __typeof__(apr_vformatter$$1$$1$$2$$8$$21$$8$$3$$arg));
-                  if(!(apr_vformatter$$1$$1$$2$$8$$21$$8$$3$$arg == ((unsigned long int *)NULL)))
-                    tmp_if_expr$33 = *apr_vformatter$$1$$1$$2$$8$$21$$8$$3$$arg;
+                  unsigned long int *apr_vformatter__1__1__2__8__21__8__3__arg;
+                  apr_vformatter__1__1__2__8__21__8__3__arg=va_arg(ap, __typeof__(apr_vformatter__1__1__2__8__21__8__3__arg));
+                  if(!(apr_vformatter__1__1__2__8__21__8__3__arg == ((unsigned long int *)NULL)))
+                    tmp_if_expr_33 = *apr_vformatter__1__1__2__8__21__8__3__arg;
 
                   else
-                    tmp_if_expr$33 = (unsigned long int)0;
-                  size = (signed long int)tmp_if_expr$33;
+                    tmp_if_expr_33 = (unsigned long int)0;
+                  size = (signed long int)tmp_if_expr_33;
                 }
               s=apr_strfsize(size, buf);
               s_len=strlen(s);
@@ -23907,9 +23907,9 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
               bep = vbuff->endpos;
             }
 
-            tmp_post$34 = sp;
+            tmp_post_34 = sp;
             sp = sp + 1l;
-            *tmp_post$34 = *s;
+            *tmp_post_34 = *s;
           }
 
           cc = cc + 1;
@@ -23934,9 +23934,9 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
               bep = vbuff->endpos;
             }
 
-            tmp_post$35 = sp;
+            tmp_post_35 = sp;
             sp = sp + 1l;
-            *tmp_post$35 = pad_char;
+            *tmp_post_35 = pad_char;
           }
 
           cc = cc + 1;
@@ -23966,9 +23966,9 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
               bep = vbuff->endpos;
             }
 
-            tmp_post$36 = sp;
+            tmp_post_36 = sp;
             sp = sp + 1l;
-            *tmp_post$36 = *s;
+            *tmp_post_36 = *s;
           }
 
           cc = cc + 1;
@@ -23993,9 +23993,9 @@ enum var_type_enum { IS_QUAD=0, IS_LONG=1, IS_SHORT=2, IS_INT=3 };
               bep = vbuff->endpos;
             }
 
-            tmp_post$37 = sp;
+            tmp_post_37 = sp;
             sp = sp + 1l;
-            *tmp_post$37 = pad_char;
+            *tmp_post_37 = pad_char;
           }
 
           cc = cc + 1;
@@ -24046,36 +24046,36 @@ signed int apr_wait_for_io_or_timeout(struct apr_file_t *f, struct apr_socket_t 
   struct pollfd pfd;
   signed int rc;
   signed int timeout;
-  signed long int tmp_if_expr$1;
+  signed long int tmp_if_expr_1;
   if(!(f == ((struct apr_file_t *)NULL)))
-    tmp_if_expr$1 = f->timeout / (signed long int)1000;
+    tmp_if_expr_1 = f->timeout / (signed long int)1000;
 
   else
-    tmp_if_expr$1 = s->timeout / (signed long int)1000;
-  timeout = (signed int)tmp_if_expr$1;
-  signed int tmp_if_expr$2;
+    tmp_if_expr_1 = s->timeout / (signed long int)1000;
+  timeout = (signed int)tmp_if_expr_1;
+  signed int tmp_if_expr_2;
   if(!(f == ((struct apr_file_t *)NULL)))
-    tmp_if_expr$2 = f->filedes;
+    tmp_if_expr_2 = f->filedes;
 
   else
-    tmp_if_expr$2 = s->socketdes;
-  pfd.fd = tmp_if_expr$2;
+    tmp_if_expr_2 = s->socketdes;
+  pfd.fd = tmp_if_expr_2;
   pfd.events = (signed short int)(for_read != 0 ? 0x001 : 0x004);
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
   do
   {
     rc=poll(&pfd, (unsigned long int)1, timeout);
     if(rc == -1)
     {
-      return_value___errno_location$3=__errno_location();
-      tmp_if_expr$4 = *return_value___errno_location$3 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_3=__errno_location();
+      tmp_if_expr_4 = *return_value___errno_location_3 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
+      tmp_if_expr_4 = (_Bool)0;
   }
-  while(tmp_if_expr$4);
+  while(tmp_if_expr_4);
   if(rc == 0)
     return 20000 + 50000 + 7;
 
@@ -24085,9 +24085,9 @@ signed int apr_wait_for_io_or_timeout(struct apr_file_t *f, struct apr_socket_t 
 
     else
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      return *return_value___errno_location$5;
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      return *return_value___errno_location_5;
     }
 }
 
@@ -24095,15 +24095,15 @@ signed int apr_wait_for_io_or_timeout(struct apr_file_t *f, struct apr_socket_t 
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/encoding/apr_escape.c line 329
 static inline unsigned char * c2x(unsigned int what, unsigned char prefix, unsigned char *where)
 {
-  unsigned char *tmp_post$1 = where;
+  unsigned char *tmp_post_1 = where;
   where = where + 1l;
-  *tmp_post$1 = prefix;
-  unsigned char *tmp_post$2 = where;
+  *tmp_post_1 = prefix;
+  unsigned char *tmp_post_2 = where;
   where = where + 1l;
-  *tmp_post$2 = (unsigned char)c2x_table[(signed long int)(what >> 4)];
-  unsigned char *tmp_post$3 = where;
+  *tmp_post_2 = (unsigned char)c2x_table[(signed long int)(what >> 4)];
+  unsigned char *tmp_post_3 = where;
   where = where + 1l;
-  *tmp_post$3 = (unsigned char)c2x_table[(signed long int)(what & (unsigned int)0xf)];
+  *tmp_post_3 = (unsigned char)c2x_table[(signed long int)(what & (unsigned int)0xf)];
   return where;
 }
 
@@ -24136,23 +24136,23 @@ static signed int call_resolver(struct apr_sockaddr_t **sa, const char *hostname
     error=getaddrinfo(hostname, servname, &hints, &ai_list);
   }
 
-  signed int tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  signed int tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   if(!(error == 0))
   {
     if(error == -11)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(!(*return_value___errno_location$1 == 0))
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(!(*return_value___errno_location_1 == 0))
       {
-        return_value___errno_location$2=__errno_location();
-        tmp_if_expr$3 = *return_value___errno_location$2;
+        return_value___errno_location_2=__errno_location();
+        tmp_if_expr_3 = *return_value___errno_location_2;
       }
 
       else
-        tmp_if_expr$3 = 20000 + 14;
-      return tmp_if_expr$3;
+        tmp_if_expr_3 = 20000 + 14;
+      return tmp_if_expr_3;
     }
 
     error = -error;
@@ -24179,11 +24179,11 @@ static signed int call_resolver(struct apr_sockaddr_t **sa, const char *hostname
 
       __CPROVER_DUMP_L9:
         ;
-        void *return_value_apr_palloc$4;
-        return_value_apr_palloc$4=apr_palloc(p, sizeof(struct apr_sockaddr_t) /*192ul*/ );
-        void *return_value_memset$5;
-        return_value_memset$5=memset(return_value_apr_palloc$4, 0, sizeof(struct apr_sockaddr_t) /*192ul*/ );
-        new_sa = (struct apr_sockaddr_t *)return_value_memset$5;
+        void *return_value_apr_palloc_4;
+        return_value_apr_palloc_4=apr_palloc(p, sizeof(struct apr_sockaddr_t) /*192ul*/ );
+        void *return_value_memset_5;
+        return_value_memset_5=memset(return_value_apr_palloc_4, 0, sizeof(struct apr_sockaddr_t) /*192ul*/ );
+        new_sa = (struct apr_sockaddr_t *)return_value_memset_5;
         new_sa->pool = p;
         memcpy((void *)&new_sa->sa, (const void *)ai->ai_addr, (unsigned long int)ai->ai_addrlen);
         apr_sockaddr_vars_set(new_sa, ai->ai_family, port);
@@ -24226,11 +24226,11 @@ static signed int cb_cleanup(void *p_)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/misc/unix/getopt.c line 191
 static signed int cerr(struct apr_getopt_t *os, const char *err, signed int ch, signed int status)
 {
-  const char *return_value_apr_filepath_name_get$1;
+  const char *return_value_apr_filepath_name_get_1;
   if(!(os->errfn == ((void (*)(void *, const char *, ...))NULL)))
   {
-    return_value_apr_filepath_name_get$1=apr_filepath_name_get(*os->argv);
-    os->errfn(os->errarg, "%s: %s: %c\n", return_value_apr_filepath_name_get$1, err, ch);
+    return_value_apr_filepath_name_get_1=apr_filepath_name_get(*os->argv);
+    os->errfn(os->errarg, "%s: %s: %c\n", return_value_apr_filepath_name_get_1, err, ch);
   }
 
   return status;
@@ -24250,35 +24250,35 @@ static void cleanup_pool_for_exec(struct apr_pool_t *p)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_strnatcmp.c line 67
 static signed int compare_left(const char *a, const char *b)
 {
-  _Bool tmp_if_expr$5;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  _Bool tmp_if_expr_5;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    const unsigned short int **return_value___ctype_b_loc$3;
-    return_value___ctype_b_loc$3=__ctype_b_loc();
-    if((2048 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)(unsigned char)*a]) == 0)
+    const unsigned short int **return_value___ctype_b_loc_3;
+    return_value___ctype_b_loc_3=__ctype_b_loc();
+    if((2048 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)(unsigned char)*a]) == 0)
     {
-      return_value___ctype_b_loc$4=__ctype_b_loc();
-      tmp_if_expr$5 = !(((signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)(unsigned char)*b] & (signed int)(unsigned short int)2048) != 0) ? (_Bool)1 : (_Bool)0;
+      return_value___ctype_b_loc_4=__ctype_b_loc();
+      tmp_if_expr_5 = !(((signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)(unsigned char)*b] & (signed int)(unsigned short int)2048) != 0) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
       break;
 
     else
     {
-      return_value___ctype_b_loc$2=__ctype_b_loc();
-      if((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)(unsigned char)*a]) == 0)
+      return_value___ctype_b_loc_2=__ctype_b_loc();
+      if((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)(unsigned char)*a]) == 0)
         return -1;
 
       else
       {
-        return_value___ctype_b_loc$1=__ctype_b_loc();
-        if((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)(unsigned char)*b]) == 0)
+        return_value___ctype_b_loc_1=__ctype_b_loc();
+        if((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)(unsigned char)*b]) == 0)
           return +1;
 
         else
@@ -24303,35 +24303,35 @@ static signed int compare_left(const char *a, const char *b)
 static signed int compare_right(const char *a, const char *b)
 {
   signed int bias = 0;
-  _Bool tmp_if_expr$5;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  _Bool tmp_if_expr_5;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    const unsigned short int **return_value___ctype_b_loc$3;
-    return_value___ctype_b_loc$3=__ctype_b_loc();
-    if((2048 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)(unsigned char)*a]) == 0)
+    const unsigned short int **return_value___ctype_b_loc_3;
+    return_value___ctype_b_loc_3=__ctype_b_loc();
+    if((2048 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)(unsigned char)*a]) == 0)
     {
-      return_value___ctype_b_loc$4=__ctype_b_loc();
-      tmp_if_expr$5 = !(((signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)(unsigned char)*b] & (signed int)(unsigned short int)2048) != 0) ? (_Bool)1 : (_Bool)0;
+      return_value___ctype_b_loc_4=__ctype_b_loc();
+      tmp_if_expr_5 = !(((signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)(unsigned char)*b] & (signed int)(unsigned short int)2048) != 0) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
       break;
 
     else
     {
-      return_value___ctype_b_loc$2=__ctype_b_loc();
-      if((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)(unsigned char)*a]) == 0)
+      return_value___ctype_b_loc_2=__ctype_b_loc();
+      if((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)(unsigned char)*a]) == 0)
         return -1;
 
       else
       {
-        return_value___ctype_b_loc$1=__ctype_b_loc();
-        if((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)(unsigned char)*b]) == 0)
+        return_value___ctype_b_loc_1=__ctype_b_loc();
+        if((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)(unsigned char)*b]) == 0)
           return +1;
 
         else
@@ -24404,11 +24404,11 @@ static char * conv_10_quad(signed long int num, signed int is_unsigned, signed i
 {
   char *p = buf_end;
   unsigned long int magnitude = (unsigned long int)num;
-  char *return_value_conv_10$1;
+  char *return_value_conv_10_1;
   if(!(is_unsigned == 0) && !(magnitude >= 4294967296ul) || is_unsigned == 0 && num >= -2147483648l && !(num >= 2147483648l))
   {
-    return_value_conv_10$1=conv_10((signed int)num, is_unsigned, is_negative, buf_end, len);
-    return return_value_conv_10$1;
+    return_value_conv_10_1=conv_10((signed int)num, is_unsigned, is_negative, buf_end, len);
+    return return_value_conv_10_1;
   }
 
   else
@@ -24451,14 +24451,14 @@ static char * conv_apr_sockaddr(struct apr_sockaddr_t *sa, char *buf_end, unsign
   p = p - 1l;
   *p = (char)58;
   ipaddr_str = buf_end - (signed long int)512;
-  signed int return_value_apr_sockaddr_ip_getbuf$1;
-  return_value_apr_sockaddr_ip_getbuf$1=apr_sockaddr_ip_getbuf(ipaddr_str, (unsigned long int)sa->addr_str_len, sa);
-  _Bool tmp_if_expr$6;
-  _Bool tmp_statement_expression$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_htonl$4;
-  if(!(return_value_apr_sockaddr_ip_getbuf$1 == 0))
+  signed int return_value_apr_sockaddr_ip_getbuf_1;
+  return_value_apr_sockaddr_ip_getbuf_1=apr_sockaddr_ip_getbuf(ipaddr_str, (unsigned long int)sa->addr_str_len, sa);
+  _Bool tmp_if_expr_6;
+  _Bool tmp_statement_expression_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_htonl_4;
+  if(!(return_value_apr_sockaddr_ip_getbuf_1 == 0))
   {
     p = p - 1l;
     *p = (char)63;
@@ -24473,25 +24473,25 @@ static char * conv_apr_sockaddr(struct apr_sockaddr_t *sa, char *buf_end, unsign
     {
       struct in6_addr *__a = (struct in6_addr *)&sa->sa.sin6.sin6_addr;
       if(__a->__in6_u.__u6_addr32[0l] == 0u)
-        tmp_if_expr$3 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
       {
-        return_value_htonl$4=htonl((unsigned int)0xffff);
-        tmp_if_expr$5 = __a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl$4 ? (_Bool)1 : (_Bool)0;
+        return_value_htonl_4=htonl((unsigned int)0xffff);
+        tmp_if_expr_5 = __a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl_4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      tmp_statement_expression$2 = tmp_if_expr$5;
-      tmp_if_expr$6 = !tmp_statement_expression$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (_Bool)0;
+      tmp_statement_expression_2 = tmp_if_expr_5;
+      tmp_if_expr_6 = !tmp_statement_expression_2 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (_Bool)0;
+    if(tmp_if_expr_6)
     {
       *(p - (signed long int)1) = (char)93;
       p = p - (signed long int)(sub_len + (unsigned long int)2);
@@ -24511,7 +24511,7 @@ static char * conv_apr_sockaddr(struct apr_sockaddr_t *sa, char *buf_end, unsign
 
 // conv_fp
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_snprintf.c line 517
-static char * conv_fp(char format, double num, enum anonymous$30 add_dp, signed int precision, signed int *is_negative, char *buf, unsigned long int *len)
+static char * conv_fp(char format, double num, enum anonymous_30 add_dp, signed int precision, signed int *is_negative, char *buf, unsigned long int *len)
 {
   char *s = buf;
   char *p;
@@ -24522,32 +24522,32 @@ static char * conv_fp(char format, double num, enum anonymous$30 add_dp, signed 
 
   else
     p=apr_ecvt(num, precision + 1, &decimal_point, is_negative, buf1);
-  const unsigned short int **return_value___ctype_b_loc$1;
-  return_value___ctype_b_loc$1=__ctype_b_loc();
-  char *tmp_post$2;
-  char *tmp_post$3;
-  signed int tmp_post$4;
-  char *tmp_post$5;
-  char *tmp_post$6;
-  signed int tmp_post$7;
-  char *tmp_post$8;
-  char *tmp_post$9;
-  char *tmp_post$10;
-  char *tmp_post$11;
-  char *tmp_post$12;
-  char *tmp_post$13;
-  char *tmp_post$14;
-  char *tmp_post$15;
-  char *tmp_post$16;
-  char *tmp_post$17;
-  char *tmp_post$18;
-  unsigned long int tmp_post$19;
-  char *tmp_post$20;
-  char *tmp_post$21;
-  char *tmp_post$22;
-  char *tmp_post$23;
-  char *tmp_post$24;
-  if(!((1024 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)(unsigned char)*p]) == 0))
+  const unsigned short int **return_value___ctype_b_loc_1;
+  return_value___ctype_b_loc_1=__ctype_b_loc();
+  char *tmp_post_2;
+  char *tmp_post_3;
+  signed int tmp_post_4;
+  char *tmp_post_5;
+  char *tmp_post_6;
+  signed int tmp_post_7;
+  char *tmp_post_8;
+  char *tmp_post_9;
+  char *tmp_post_10;
+  char *tmp_post_11;
+  char *tmp_post_12;
+  char *tmp_post_13;
+  char *tmp_post_14;
+  char *tmp_post_15;
+  char *tmp_post_16;
+  char *tmp_post_17;
+  char *tmp_post_18;
+  unsigned long int tmp_post_19;
+  char *tmp_post_20;
+  char *tmp_post_21;
+  char *tmp_post_22;
+  char *tmp_post_23;
+  char *tmp_post_24;
+  if(!((1024 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)(unsigned char)*p]) == 0))
   {
     *len=strlen(p);
     memcpy((void *)buf, (const void *)p, *len + (unsigned long int)1);
@@ -24561,24 +24561,24 @@ static char * conv_fp(char format, double num, enum anonymous$30 add_dp, signed 
     {
       if(!(decimal_point >= 1))
       {
-        tmp_post$2 = s;
+        tmp_post_2 = s;
         s = s + 1l;
-        *tmp_post$2 = (char)48;
+        *tmp_post_2 = (char)48;
         if(precision >= 1)
         {
-          tmp_post$3 = s;
+          tmp_post_3 = s;
           s = s + 1l;
-          *tmp_post$3 = (char)46;
+          *tmp_post_3 = (char)46;
           do
           {
-            tmp_post$4 = decimal_point;
+            tmp_post_4 = decimal_point;
             decimal_point = decimal_point + 1;
-            if(tmp_post$4 >= 0)
+            if(tmp_post_4 >= 0)
               break;
 
-            tmp_post$5 = s;
+            tmp_post_5 = s;
             s = s + 1l;
-            *tmp_post$5 = (char)48;
+            *tmp_post_5 = (char)48;
           }
           while((_Bool)1);
         }
@@ -24586,9 +24586,9 @@ static char * conv_fp(char format, double num, enum anonymous$30 add_dp, signed 
         else
           if(!(add_dp == /*enum*/NO))
           {
-            tmp_post$6 = s;
+            tmp_post_6 = s;
             s = s + 1l;
-            *tmp_post$6 = (char)46;
+            *tmp_post_6 = (char)46;
           }
 
       }
@@ -24597,23 +24597,23 @@ static char * conv_fp(char format, double num, enum anonymous$30 add_dp, signed 
       {
         do
         {
-          tmp_post$7 = decimal_point;
+          tmp_post_7 = decimal_point;
           decimal_point = decimal_point - 1;
-          if(!(tmp_post$7 >= 1))
+          if(!(tmp_post_7 >= 1))
             break;
 
-          tmp_post$8 = s;
+          tmp_post_8 = s;
           s = s + 1l;
-          tmp_post$9 = p;
+          tmp_post_9 = p;
           p = p + 1l;
-          *tmp_post$8 = *tmp_post$9;
+          *tmp_post_8 = *tmp_post_9;
         }
         while((_Bool)1);
         if(precision >= 1 || !(add_dp == /*enum*/NO))
         {
-          tmp_post$10 = s;
+          tmp_post_10 = s;
           s = s + 1l;
-          *tmp_post$10 = (char)46;
+          *tmp_post_10 = (char)46;
         }
 
       }
@@ -24621,24 +24621,24 @@ static char * conv_fp(char format, double num, enum anonymous$30 add_dp, signed 
 
     else
     {
-      tmp_post$11 = s;
+      tmp_post_11 = s;
       s = s + 1l;
-      tmp_post$12 = p;
+      tmp_post_12 = p;
       p = p + 1l;
-      *tmp_post$11 = *tmp_post$12;
+      *tmp_post_11 = *tmp_post_12;
       if(precision >= 1 || !(add_dp == /*enum*/NO))
       {
-        tmp_post$13 = s;
+        tmp_post_13 = s;
         s = s + 1l;
-        *tmp_post$13 = (char)46;
+        *tmp_post_13 = (char)46;
       }
 
     }
-    for( ; !(*p == 0); *tmp_post$14 = *tmp_post$15)
+    for( ; !(*p == 0); *tmp_post_14 = *tmp_post_15)
     {
-      tmp_post$14 = s;
+      tmp_post_14 = s;
       s = s + 1l;
-      tmp_post$15 = p;
+      tmp_post_15 = p;
       p = p + 1l;
     }
     if(!((signed int)format == 102))
@@ -24646,50 +24646,50 @@ static char * conv_fp(char format, double num, enum anonymous$30 add_dp, signed 
       char temp[10l];
       unsigned long int t_len;
       signed int exponent_is_negative;
-      tmp_post$16 = s;
+      tmp_post_16 = s;
       s = s + 1l;
-      *tmp_post$16 = format;
+      *tmp_post_16 = format;
       decimal_point = decimal_point - 1;
       if(!(decimal_point == 0))
       {
         p=conv_10((signed int)decimal_point, 0, &exponent_is_negative, &temp[(signed long int)10], &t_len);
-        tmp_post$17 = s;
+        tmp_post_17 = s;
         s = s + 1l;
-        *tmp_post$17 = (char)(exponent_is_negative != 0 ? 45 : 43);
+        *tmp_post_17 = (char)(exponent_is_negative != 0 ? 45 : 43);
         if(t_len == 1ul)
         {
-          tmp_post$18 = s;
+          tmp_post_18 = s;
           s = s + 1l;
-          *tmp_post$18 = (char)48;
+          *tmp_post_18 = (char)48;
         }
 
         do
         {
-          tmp_post$19 = t_len;
+          tmp_post_19 = t_len;
           t_len = t_len - 1ul;
-          if(tmp_post$19 == 0ul)
+          if(tmp_post_19 == 0ul)
             break;
 
-          tmp_post$20 = s;
+          tmp_post_20 = s;
           s = s + 1l;
-          tmp_post$21 = p;
+          tmp_post_21 = p;
           p = p + 1l;
-          *tmp_post$20 = *tmp_post$21;
+          *tmp_post_20 = *tmp_post_21;
         }
         while((_Bool)1);
       }
 
       else
       {
-        tmp_post$22 = s;
+        tmp_post_22 = s;
         s = s + 1l;
-        *tmp_post$22 = (char)43;
-        tmp_post$23 = s;
+        *tmp_post_22 = (char)43;
+        tmp_post_23 = s;
         s = s + 1l;
-        *tmp_post$23 = (char)48;
-        tmp_post$24 = s;
+        *tmp_post_23 = (char)48;
+        tmp_post_24 = s;
         s = s + 1l;
-        *tmp_post$24 = (char)48;
+        *tmp_post_24 = (char)48;
       }
     }
 
@@ -24726,7 +24726,7 @@ static char * conv_in_addr(struct in_addr *ia, char *buf_end, unsigned long int 
 static char * conv_os_thread_t(unsigned long int *tid, char *buf_end, unsigned long int *len)
 {
   /* tag-#anon#lUN[U64'tid'||U64'u64'||U32'u32'|] */
-union anonymous$39
+union anonymous_39
 {
   // tid
   unsigned long int tid;
@@ -24738,28 +24738,28 @@ union anonymous$39
 
 /* */
   ;
-  union anonymous$39 u;
+  union anonymous_39 u;
   signed int is_negative;
   u.tid = *tid;
-  char *return_value_conv_10$1;
-  char *return_value_conv_10_quad$2;
-  char *return_value_conv_10$3;
+  char *return_value_conv_10_1;
+  char *return_value_conv_10_quad_2;
+  char *return_value_conv_10_3;
   switch(sizeof(unsigned long int) /*8ul*/ )
   {
     case sizeof(signed int) /*4ul*/ :
     {
-      return_value_conv_10$1=conv_10((signed int)u.u32, (signed int)!(0 != 0), &is_negative, buf_end, len);
-      return return_value_conv_10$1;
+      return_value_conv_10_1=conv_10((signed int)u.u32, (signed int)!(0 != 0), &is_negative, buf_end, len);
+      return return_value_conv_10_1;
     }
     case sizeof(signed long int) /*8ul*/ :
     {
-      return_value_conv_10_quad$2=conv_10_quad((signed long int)u.u64, (signed int)!(0 != 0), &is_negative, buf_end, len);
-      return return_value_conv_10_quad$2;
+      return_value_conv_10_quad_2=conv_10_quad((signed long int)u.u64, (signed int)!(0 != 0), &is_negative, buf_end, len);
+      return return_value_conv_10_quad_2;
     }
     default:
     {
-      return_value_conv_10$3=conv_10(0, (signed int)!(0 != 0), &is_negative, buf_end, len);
-      return return_value_conv_10$3;
+      return_value_conv_10_3=conv_10(0, (signed int)!(0 != 0), &is_negative, buf_end, len);
+      return return_value_conv_10_3;
     }
   }
 }
@@ -24769,7 +24769,7 @@ union anonymous$39
 static char * conv_os_thread_t_hex(unsigned long int *tid, char *buf_end, unsigned long int *len)
 {
   /* tag-#anon#lUN[U64'tid'||U64'u64'||U32'u32'|] */
-union anonymous$39
+union anonymous_39
 {
   // tid
   unsigned long int tid;
@@ -24781,28 +24781,28 @@ union anonymous$39
 
 /* */
   ;
-  union anonymous$39 u;
+  union anonymous_39 u;
   signed int is_negative;
   u.tid = *tid;
-  char *return_value_conv_p2$1;
-  char *return_value_conv_p2_quad$2;
-  char *return_value_conv_10$3;
+  char *return_value_conv_p2_1;
+  char *return_value_conv_p2_quad_2;
+  char *return_value_conv_10_3;
   switch(sizeof(unsigned long int) /*8ul*/ )
   {
     case sizeof(signed int) /*4ul*/ :
     {
-      return_value_conv_p2$1=conv_p2(u.u32, 4, (char)120, buf_end, len);
-      return return_value_conv_p2$1;
+      return_value_conv_p2_1=conv_p2(u.u32, 4, (char)120, buf_end, len);
+      return return_value_conv_p2_1;
     }
     case sizeof(signed long int) /*8ul*/ :
     {
-      return_value_conv_p2_quad$2=conv_p2_quad(u.u64, 4, (char)120, buf_end, len);
-      return return_value_conv_p2_quad$2;
+      return_value_conv_p2_quad_2=conv_p2_quad(u.u64, 4, (char)120, buf_end, len);
+      return return_value_conv_p2_quad_2;
     }
     default:
     {
-      return_value_conv_10$3=conv_10(0, (signed int)!(0 != 0), &is_negative, buf_end, len);
-      return return_value_conv_10$3;
+      return_value_conv_10_3=conv_10(0, (signed int)!(0 != 0), &is_negative, buf_end, len);
+      return return_value_conv_10_3;
     }
   }
 }
@@ -24814,15 +24814,15 @@ static char * conv_p2(unsigned int num, signed int nbits, char format, char *buf
   signed int mask = (1 << nbits) - 1;
   char *p = buf_end;
   const char *digits;
-  const char *tmp_if_expr$1;
+  const char *tmp_if_expr_1;
   static const char low_digits[17l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 0 };
   static const char upper_digits[17l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 0 };
   if((signed int)format == 88)
-    tmp_if_expr$1 = upper_digits;
+    tmp_if_expr_1 = upper_digits;
 
   else
-    tmp_if_expr$1 = low_digits;
-  digits = tmp_if_expr$1;
+    tmp_if_expr_1 = low_digits;
+  digits = tmp_if_expr_1;
   do
   {
     p = p - 1l;
@@ -24841,20 +24841,20 @@ static char * conv_p2_quad(unsigned long int num, signed int nbits, char format,
   signed int mask = (1 << nbits) - 1;
   char *p = buf_end;
   const char *digits;
-  const char *tmp_if_expr$1;
+  const char *tmp_if_expr_1;
   static const char low_digits[17l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 0 };
   static const char upper_digits[17l] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 0 };
   if((signed int)format == 88)
-    tmp_if_expr$1 = upper_digits;
+    tmp_if_expr_1 = upper_digits;
 
   else
-    tmp_if_expr$1 = low_digits;
-  digits = tmp_if_expr$1;
-  char *return_value_conv_p2$2;
+    tmp_if_expr_1 = low_digits;
+  digits = tmp_if_expr_1;
+  char *return_value_conv_p2_2;
   if(!(num >= 4294967296ul))
   {
-    return_value_conv_p2$2=conv_p2((unsigned int)num, nbits, format, buf_end, len);
-    return return_value_conv_p2$2;
+    return_value_conv_p2_2=conv_p2((unsigned int)num, nbits, format, buf_end, len);
+    return return_value_conv_p2_2;
   }
 
   else
@@ -24887,10 +24887,10 @@ static signed int create_wakeup_pipe(struct apr_pollset_t *pollset)
 {
   signed int rv;
   rv=apr_file_pipe_create(&pollset->wakeup_pipe[(signed long int)0], &pollset->wakeup_pipe[(signed long int)1], pollset->pool);
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
-  signed int *return_value___errno_location$4;
-  signed int *return_value___errno_location$5;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
+  signed int *return_value___errno_location_4;
+  signed int *return_value___errno_location_5;
   if(!(rv == 0))
     return rv;
 
@@ -24898,53 +24898,53 @@ static signed int create_wakeup_pipe(struct apr_pollset_t *pollset)
   {
     pollset->wakeup_pfd.p = pollset->pool;
     pollset->wakeup_pfd.reqevents = (signed short int)0x001;
-    pollset->wakeup_pfd.desc_type = (enum anonymous$19)APR_POLL_FILE;
+    pollset->wakeup_pfd.desc_type = (enum anonymous_19)APR_POLL_FILE;
     pollset->wakeup_pfd.desc.f = pollset->wakeup_pipe[(signed long int)0];
     signed int flags;
     flags=fcntl(pollset->wakeup_pipe[(signed long int)0]->filedes, 1);
     if(flags == -1)
     {
-      return_value___errno_location$1=__errno_location();
-      return *return_value___errno_location$1;
+      return_value___errno_location_1=__errno_location();
+      return *return_value___errno_location_1;
     }
 
     else
     {
       flags = flags | 1;
-      signed int return_value_fcntl$3;
-      return_value_fcntl$3=fcntl(pollset->wakeup_pipe[(signed long int)0]->filedes, 2, flags);
-      if(return_value_fcntl$3 == -1)
+      signed int return_value_fcntl_3;
+      return_value_fcntl_3=fcntl(pollset->wakeup_pipe[(signed long int)0]->filedes, 2, flags);
+      if(return_value_fcntl_3 == -1)
       {
-        return_value___errno_location$2=__errno_location();
-        return *return_value___errno_location$2;
+        return_value___errno_location_2=__errno_location();
+        return *return_value___errno_location_2;
       }
 
       else
       {
-        signed int create_wakeup_pipe$$1$$2$$flags;
-        create_wakeup_pipe$$1$$2$$flags=fcntl(pollset->wakeup_pipe[(signed long int)1]->filedes, 1);
-        if(create_wakeup_pipe$$1$$2$$flags == -1)
+        signed int create_wakeup_pipe__1__2__flags;
+        create_wakeup_pipe__1__2__flags=fcntl(pollset->wakeup_pipe[(signed long int)1]->filedes, 1);
+        if(create_wakeup_pipe__1__2__flags == -1)
         {
-          return_value___errno_location$4=__errno_location();
-          return *return_value___errno_location$4;
+          return_value___errno_location_4=__errno_location();
+          return *return_value___errno_location_4;
         }
 
         else
         {
-          create_wakeup_pipe$$1$$2$$flags = create_wakeup_pipe$$1$$2$$flags | 1;
-          signed int return_value_fcntl$6;
-          return_value_fcntl$6=fcntl(pollset->wakeup_pipe[(signed long int)1]->filedes, 2, create_wakeup_pipe$$1$$2$$flags);
-          if(return_value_fcntl$6 == -1)
+          create_wakeup_pipe__1__2__flags = create_wakeup_pipe__1__2__flags | 1;
+          signed int return_value_fcntl_6;
+          return_value_fcntl_6=fcntl(pollset->wakeup_pipe[(signed long int)1]->filedes, 2, create_wakeup_pipe__1__2__flags);
+          if(return_value_fcntl_6 == -1)
           {
-            return_value___errno_location$5=__errno_location();
-            return *return_value___errno_location$5;
+            return_value___errno_location_5=__errno_location();
+            return *return_value___errno_location_5;
           }
 
           else
           {
-            signed int return_value_apr_pollset_add$7;
-            return_value_apr_pollset_add$7=apr_pollset_add(pollset, &pollset->wakeup_pfd);
-            return return_value_apr_pollset_add$7;
+            signed int return_value_apr_pollset_add_7;
+            return_value_apr_pollset_add_7=apr_pollset_add(pollset, &pollset->wakeup_pfd);
+            return return_value_apr_pollset_add_7;
           }
         }
       }
@@ -24957,16 +24957,16 @@ static signed int create_wakeup_pipe(struct apr_pollset_t *pollset)
 static signed int dir_cleanup(void *thedir)
 {
   struct apr_dir_t *dir = (struct apr_dir_t *)thedir;
-  signed int return_value_closedir$2;
-  return_value_closedir$2=closedir(dir->dirstruct);
-  if(return_value_closedir$2 == 0)
+  signed int return_value_closedir_2;
+  return_value_closedir_2=closedir(dir->dirstruct);
+  if(return_value_closedir_2 == 0)
     return 0;
 
   else
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 }
 
@@ -24979,19 +24979,19 @@ static signed int do_mcast(signed int type, struct apr_socket_t *sock, struct ap
   struct ipv6_mreq mip6;
   struct group_source_req mip;
   signed int ip_proto;
-  signed int return_value_sock_is_ipv6$1;
-  signed int return_value_sock_is_ipv6$9;
+  signed int return_value_sock_is_ipv6_1;
+  signed int return_value_sock_is_ipv6_9;
   if(!(source == ((struct apr_sockaddr_t *)NULL)))
   {
-    signed int return_value_sock_is_ipv4$2;
-    return_value_sock_is_ipv4$2=sock_is_ipv4(sock);
-    if(!(return_value_sock_is_ipv4$2 == 0))
+    signed int return_value_sock_is_ipv4_2;
+    return_value_sock_is_ipv4_2=sock_is_ipv4(sock);
+    if(!(return_value_sock_is_ipv4_2 == 0))
       ip_proto = 0;
 
     else
     {
-      return_value_sock_is_ipv6$1=sock_is_ipv6(sock);
-      if(!(return_value_sock_is_ipv6$1 == 0))
+      return_value_sock_is_ipv6_1=sock_is_ipv6(sock);
+      if(!(return_value_sock_is_ipv6_1 == 0))
         ip_proto = 41;
 
       else
@@ -25009,39 +25009,39 @@ static signed int do_mcast(signed int type, struct apr_socket_t *sock, struct ap
     mip.gsr_interface=find_if_index(iface);
     memcpy((void *)&mip.gsr_group, mcast->ipaddr_ptr, sizeof(struct sockaddr_storage) /*128ul*/ );
     memcpy((void *)&mip.gsr_source, source->ipaddr_ptr, sizeof(struct sockaddr_storage) /*128ul*/ );
-    signed int return_value_setsockopt$4;
-    return_value_setsockopt$4=setsockopt(sock->socketdes, ip_proto, type, (const void *)&mip, (unsigned int)sizeof(struct group_source_req) /*264ul*/ );
-    if(return_value_setsockopt$4 == -1)
+    signed int return_value_setsockopt_4;
+    return_value_setsockopt_4=setsockopt(sock->socketdes, ip_proto, type, (const void *)&mip, (unsigned int)sizeof(struct group_source_req) /*264ul*/ );
+    if(return_value_setsockopt_4 == -1)
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      rv = *return_value___errno_location$3;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      rv = *return_value___errno_location_3;
     }
 
   }
 
   else
   {
-    signed int return_value_sock_is_ipv4$10;
-    return_value_sock_is_ipv4$10=sock_is_ipv4(sock);
-    if(!(return_value_sock_is_ipv4$10 == 0))
+    signed int return_value_sock_is_ipv4_10;
+    return_value_sock_is_ipv4_10=sock_is_ipv4(sock);
+    if(!(return_value_sock_is_ipv4_10 == 0))
     {
       fill_mip_v4(&mip4, mcast, iface);
-      signed int return_value_setsockopt$6;
-      return_value_setsockopt$6=setsockopt(sock->socketdes, 0, type, (const void *)&mip4, (unsigned int)sizeof(struct ip_mreq) /*8ul*/ );
-      if(return_value_setsockopt$6 == -1)
+      signed int return_value_setsockopt_6;
+      return_value_setsockopt_6=setsockopt(sock->socketdes, 0, type, (const void *)&mip4, (unsigned int)sizeof(struct ip_mreq) /*8ul*/ );
+      if(return_value_setsockopt_6 == -1)
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        rv = *return_value___errno_location$5;
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        rv = *return_value___errno_location_5;
       }
 
     }
 
     else
     {
-      return_value_sock_is_ipv6$9=sock_is_ipv6(sock);
-      if(!(return_value_sock_is_ipv6$9 == 0))
+      return_value_sock_is_ipv6_9=sock_is_ipv6(sock);
+      if(!(return_value_sock_is_ipv6_9 == 0))
       {
         if(type == 35)
           type = 20;
@@ -25053,13 +25053,13 @@ static signed int do_mcast(signed int type, struct apr_socket_t *sock, struct ap
           else
             return 20000 + 50000 + 23;
         fill_mip_v6(&mip6, mcast, iface);
-        signed int return_value_setsockopt$8;
-        return_value_setsockopt$8=setsockopt(sock->socketdes, 41, type, (const void *)&mip6, (unsigned int)sizeof(struct ipv6_mreq) /*20ul*/ );
-        if(return_value_setsockopt$8 == -1)
+        signed int return_value_setsockopt_8;
+        return_value_setsockopt_8=setsockopt(sock->socketdes, 41, type, (const void *)&mip6, (unsigned int)sizeof(struct ipv6_mreq) /*20ul*/ );
+        if(return_value_setsockopt_8 == -1)
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          rv = *return_value___errno_location$7;
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          rv = *return_value___errno_location_7;
         }
 
       }
@@ -25076,26 +25076,26 @@ static signed int do_mcast(signed int type, struct apr_socket_t *sock, struct ap
 static signed int do_mcast_opt(signed int type, struct apr_socket_t *sock, unsigned char value)
 {
   signed int rv = 0;
-  signed int return_value_sock_is_ipv4$6;
-  return_value_sock_is_ipv4$6=sock_is_ipv4(sock);
-  signed int return_value_sock_is_ipv6$5;
-  if(!(return_value_sock_is_ipv4$6 == 0))
+  signed int return_value_sock_is_ipv4_6;
+  return_value_sock_is_ipv4_6=sock_is_ipv4(sock);
+  signed int return_value_sock_is_ipv6_5;
+  if(!(return_value_sock_is_ipv4_6 == 0))
   {
-    signed int return_value_setsockopt$2;
-    return_value_setsockopt$2=setsockopt(sock->socketdes, 0, type, (const void *)&value, (unsigned int)sizeof(unsigned char) /*1ul*/ );
-    if(return_value_setsockopt$2 == -1)
+    signed int return_value_setsockopt_2;
+    return_value_setsockopt_2=setsockopt(sock->socketdes, 0, type, (const void *)&value, (unsigned int)sizeof(unsigned char) /*1ul*/ );
+    if(return_value_setsockopt_2 == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      rv = *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      rv = *return_value___errno_location_1;
     }
 
   }
 
   else
   {
-    return_value_sock_is_ipv6$5=sock_is_ipv6(sock);
-    if(!(return_value_sock_is_ipv6$5 == 0))
+    return_value_sock_is_ipv6_5=sock_is_ipv6(sock);
+    if(!(return_value_sock_is_ipv6_5 == 0))
     {
       signed int ivalue = (signed int)value;
       if(type == 33)
@@ -25107,13 +25107,13 @@ static signed int do_mcast_opt(signed int type, struct apr_socket_t *sock, unsig
 
         else
           return 20000 + 50000 + 23;
-      signed int return_value_setsockopt$4;
-      return_value_setsockopt$4=setsockopt(sock->socketdes, 41, type, (const void *)&ivalue, (unsigned int)sizeof(signed int) /*4ul*/ );
-      if(return_value_setsockopt$4 == -1)
+      signed int return_value_setsockopt_4;
+      return_value_setsockopt_4=setsockopt(sock->socketdes, 41, type, (const void *)&ivalue, (unsigned int)sizeof(signed int) /*4ul*/ );
+      if(return_value_setsockopt_4 == -1)
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        rv = *return_value___errno_location$3;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        rv = *return_value___errno_location_3;
       }
 
     }
@@ -25134,9 +25134,9 @@ static signed int dso_cleanup(void *thedso)
 
   else
   {
-    signed int return_value_dlclose$1;
-    return_value_dlclose$1=dlclose(dso->handle);
-    if(!(return_value_dlclose$1 == 0))
+    signed int return_value_dlclose_1;
+    return_value_dlclose_1=dlclose(dso->handle);
+    if(!(return_value_dlclose_1 == 0))
       return 20000 + 50000 + 22;
 
     else
@@ -25208,9 +25208,9 @@ static signed int file_cleanup(struct apr_file_t *file, signed int is_child)
   signed int rv = 0;
   signed int fd = file->filedes;
   file->filedes = -1;
-  signed int return_value_close$2;
-  return_value_close$2=close(fd);
-  if(return_value_close$2 == 0)
+  signed int return_value_close_2;
+  return_value_close_2=close(fd);
+  if(return_value_close_2 == 0)
   {
     if(is_child == 0)
     {
@@ -25227,9 +25227,9 @@ static signed int file_cleanup(struct apr_file_t *file, signed int is_child)
   else
   {
     file->filedes = fd;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    rv = *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    rv = *return_value___errno_location_1;
   }
   return rv;
 }
@@ -25253,22 +25253,22 @@ static signed int file_dup(struct apr_file_t **new_file, struct apr_file_t *old_
 
   else
     rv=dup(old_file->filedes);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(rv == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   else
   {
     if(which_dup == 1)
     {
-      void *return_value_apr_palloc$2;
-      return_value_apr_palloc$2=apr_palloc(p, sizeof(struct apr_file_t) /*120ul*/ );
-      void *return_value_memset$3;
-      return_value_memset$3=memset(return_value_apr_palloc$2, 0, sizeof(struct apr_file_t) /*120ul*/ );
-      *new_file = (struct apr_file_t *)return_value_memset$3;
+      void *return_value_apr_palloc_2;
+      return_value_apr_palloc_2=apr_palloc(p, sizeof(struct apr_file_t) /*120ul*/ );
+      void *return_value_memset_3;
+      return_value_memset_3=memset(return_value_apr_palloc_2, 0, sizeof(struct apr_file_t) /*120ul*/ );
+      *new_file = (struct apr_file_t *)return_value_memset_3;
       (*new_file)->pool = p;
       (*new_file)->filedes = rv;
     }
@@ -25290,9 +25290,9 @@ static signed int file_dup(struct apr_file_t **new_file, struct apr_file_t *old_
     {
       if((*new_file)->buffer == ((char *)NULL))
       {
-        void *return_value_apr_palloc$4;
-        return_value_apr_palloc$4=apr_palloc(p, old_file->bufsize);
-        (*new_file)->buffer = (char *)return_value_apr_palloc$4;
+        void *return_value_apr_palloc_4;
+        return_value_apr_palloc_4=apr_palloc(p, old_file->bufsize);
+        (*new_file)->buffer = (char *)return_value_apr_palloc_4;
         (*new_file)->bufsize = old_file->bufsize;
       }
 
@@ -25317,9 +25317,9 @@ static signed int file_dup(struct apr_file_t **new_file, struct apr_file_t *old_
 static signed int file_printf_flush(struct apr_vformatter_buff_t *buff)
 {
   struct apr_file_printf_data *data = (struct apr_file_printf_data *)buff;
-  signed int return_value_apr_file_write_full$1;
-  return_value_apr_file_write_full$1=apr_file_write_full(data->fptr, (const void *)data->buf, (unsigned long int)(data->vbuff.curpos - data->buf), (unsigned long int *)(void *)0);
-  if(!(return_value_apr_file_write_full$1 == 0))
+  signed int return_value_apr_file_write_full_1;
+  return_value_apr_file_write_full_1=apr_file_write_full(data->fptr, (const void *)data->buf, (unsigned long int)(data->vbuff.curpos - data->buf), (unsigned long int *)(void *)0);
+  if(!(return_value_apr_file_write_full_1 == 0))
     return -1;
 
   else
@@ -25339,9 +25339,9 @@ static signed int file_read_buffered(struct apr_file_t *thefile, void *buf, unsi
   unsigned long int size = *nbytes;
   if(thefile->direction == 1)
   {
-    signed int return_value_apr_file_flush_locked$1;
-    return_value_apr_file_flush_locked$1=apr_file_flush_locked(thefile);
-    rv = (signed long int)return_value_apr_file_flush_locked$1;
+    signed int return_value_apr_file_flush_locked_1;
+    return_value_apr_file_flush_locked_1=apr_file_flush_locked(thefile);
+    rv = (signed long int)return_value_apr_file_flush_locked_1;
     if(!(rv == 0l))
       return (signed int)rv;
 
@@ -25359,15 +25359,15 @@ static signed int file_read_buffered(struct apr_file_t *thefile, void *buf, unsi
     thefile->ungetchar = -1;
   }
 
-  unsigned long int tmp_if_expr$4;
+  unsigned long int tmp_if_expr_4;
   for( ; rv == 0l && size >= 1ul; size = size - blocksize)
   {
     if(thefile->bufpos >= thefile->dataRead)
     {
       signed int bytesread;
-      signed long int return_value_read$2;
-      return_value_read$2=read(thefile->filedes, (void *)thefile->buffer, thefile->bufsize);
-      bytesread = (signed int)return_value_read$2;
+      signed long int return_value_read_2;
+      return_value_read_2=read(thefile->filedes, (void *)thefile->buffer, thefile->bufsize);
+      bytesread = (signed int)return_value_read_2;
       if(bytesread == 0)
       {
         thefile->eof_hit = (signed int)!(0 != 0);
@@ -25378,9 +25378,9 @@ static signed int file_read_buffered(struct apr_file_t *thefile, void *buf, unsi
       else
         if(bytesread == -1)
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          rv = (signed long int)*return_value___errno_location$3;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          rv = (signed long int)*return_value___errno_location_3;
           break;
         }
 
@@ -25390,11 +25390,11 @@ static signed int file_read_buffered(struct apr_file_t *thefile, void *buf, unsi
     }
 
     if(!(thefile->dataRead + -thefile->bufpos >= size))
-      tmp_if_expr$4 = thefile->dataRead - thefile->bufpos;
+      tmp_if_expr_4 = thefile->dataRead - thefile->bufpos;
 
     else
-      tmp_if_expr$4 = size;
-    blocksize = tmp_if_expr$4;
+      tmp_if_expr_4 = size;
+    blocksize = tmp_if_expr_4;
     memcpy((void *)pos, (const void *)(thefile->buffer + (signed long int)thefile->bufpos), blocksize);
     thefile->bufpos = thefile->bufpos + blocksize;
     pos = pos + (signed long int)blocksize;
@@ -25548,18 +25548,18 @@ static signed int find_addresses(struct apr_sockaddr_t **sa, const char *hostnam
   else
     if(!((0x02 & flags) == 0))
     {
-      signed int find_addresses$$1$$2$$error;
-      find_addresses$$1$$2$$error=call_resolver(sa, hostname, 10, port, flags, p);
-      if(!(find_addresses$$1$$2$$error == 0))
+      signed int find_addresses__1__2__error;
+      find_addresses__1__2__error=call_resolver(sa, hostname, 10, port, flags, p);
+      if(!(find_addresses__1__2__error == 0))
         family = 2;
 
       else
         return 0;
     }
 
-  signed int return_value_call_resolver$1;
-  return_value_call_resolver$1=call_resolver(sa, hostname, family, port, flags, p);
-  return return_value_call_resolver$1;
+  signed int return_value_call_resolver_1;
+  return_value_call_resolver_1=call_resolver(sa, hostname, family, port, flags, p);
+  return return_value_call_resolver_1;
 }
 
 // find_entry
@@ -25576,15 +25576,15 @@ static struct apr_hash_entry_t ** find_entry(struct apr_hash_t *ht, const void *
     hash=hashfunc_default((const char *)key, &klen, ht->seed);
   hep = &ht->array[(signed long int)(hash & ht->max)];
   he = *hep;
-  signed int return_value_memcmp$1;
+  signed int return_value_memcmp_1;
   for( ; !(he == ((struct apr_hash_entry_t *)NULL)); he = *hep)
   {
     if(he->hash == hash)
     {
       if(he->klen == klen)
       {
-        return_value_memcmp$1=memcmp(he->key, key, (unsigned long int)klen);
-        if(return_value_memcmp$1 == 0)
+        return_value_memcmp_1=memcmp(he->key, key, (unsigned long int)klen);
+        if(return_value_memcmp_1 == 0)
           break;
 
       }
@@ -25593,7 +25593,7 @@ static struct apr_hash_entry_t ** find_entry(struct apr_hash_t *ht, const void *
 
     hep = &he->next;
   }
-  void *return_value_apr_palloc$2;
+  void *return_value_apr_palloc_2;
   if(val == NULL || !(he == ((struct apr_hash_entry_t *)NULL)))
     return hep;
 
@@ -25605,8 +25605,8 @@ static struct apr_hash_entry_t ** find_entry(struct apr_hash_t *ht, const void *
 
     else
     {
-      return_value_apr_palloc$2=apr_palloc(ht->pool, sizeof(struct apr_hash_entry_t) /*40ul*/ );
-      he = (struct apr_hash_entry_t *)return_value_apr_palloc$2;
+      return_value_apr_palloc_2=apr_palloc(ht->pool, sizeof(struct apr_hash_entry_t) /*40ul*/ );
+      he = (struct apr_hash_entry_t *)return_value_apr_palloc_2;
     }
     he->next = (struct apr_hash_entry_t *)(void *)0;
     he->hash = hash;
@@ -25626,9 +25626,9 @@ static unsigned int find_if_index(const struct apr_sockaddr_t *iface)
   unsigned int index = (unsigned int)0;
   struct ifaddrs *ifp;
   struct ifaddrs *ifs;
-  signed int return_value_getifaddrs$1;
-  return_value_getifaddrs$1=getifaddrs(&ifs);
-  if(!(return_value_getifaddrs$1 == 0))
+  signed int return_value_getifaddrs_1;
+  return_value_getifaddrs_1=getifaddrs(&ifs);
+  if(!(return_value_getifaddrs_1 == 0))
     return (unsigned int)0;
 
   else
@@ -25639,9 +25639,9 @@ static unsigned int find_if_index(const struct apr_sockaddr_t *iface)
       {
         if((signed int)ifp->ifa_addr->sa_family == 10)
         {
-          signed int return_value_memcmp$2;
-          return_value_memcmp$2=memcmp((const void *)&iface->sa.sin6.sin6_addr, (const void *)&((struct sockaddr_in6 *)ifp->ifa_addr)->sin6_addr, sizeof(struct in6_addr) /*16ul*/ );
-          if(return_value_memcmp$2 == 0)
+          signed int return_value_memcmp_2;
+          return_value_memcmp_2=memcmp((const void *)&iface->sa.sin6.sin6_addr, (const void *)&((struct sockaddr_in6 *)ifp->ifa_addr)->sin6_addr, sizeof(struct in6_addr) /*16ul*/ );
+          if(return_value_memcmp_2 == 0)
           {
             index=if_nametoindex(ifp->ifa_name);
             break;
@@ -25676,36 +25676,36 @@ static inline signed int fnmatch_ch(const char **pattern, const char **string, s
   signed int result = 1;
   const char *startch;
   signed int negate;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$14;
-  const unsigned short int **return_value___ctype_b_loc$9;
-  _Bool tmp_if_expr$11;
-  const unsigned short int **return_value___ctype_b_loc$10;
-  _Bool tmp_if_expr$13;
-  const unsigned short int **return_value___ctype_b_loc$12;
-  signed int return_value_tolower$7;
-  signed int return_value_tolower$8;
-  signed int return_value_tolower$5;
-  signed int return_value_tolower$6;
-  const unsigned short int **return_value___ctype_b_loc$17;
-  _Bool tmp_if_expr$19;
-  const unsigned short int **return_value___ctype_b_loc$18;
-  signed int return_value_tolower$15;
-  signed int return_value_tolower$16;
-  _Bool tmp_if_expr$21;
-  _Bool tmp_if_expr$20;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_14;
+  const unsigned short int **return_value___ctype_b_loc_9;
+  _Bool tmp_if_expr_11;
+  const unsigned short int **return_value___ctype_b_loc_10;
+  _Bool tmp_if_expr_13;
+  const unsigned short int **return_value___ctype_b_loc_12;
+  signed int return_value_tolower_7;
+  signed int return_value_tolower_8;
+  signed int return_value_tolower_5;
+  signed int return_value_tolower_6;
+  const unsigned short int **return_value___ctype_b_loc_17;
+  _Bool tmp_if_expr_19;
+  const unsigned short int **return_value___ctype_b_loc_18;
+  signed int return_value_tolower_15;
+  signed int return_value_tolower_16;
+  _Bool tmp_if_expr_21;
+  _Bool tmp_if_expr_20;
   if((signed int)*(*pattern) == 91)
   {
     *pattern = *pattern + 1l;
     if((signed int)*(*pattern) == 33)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)*(*pattern) == 94 ? (_Bool)1 : (_Bool)0;
-    negate = (signed int)tmp_if_expr$1;
+      tmp_if_expr_1 = (signed int)*(*pattern) == 94 ? (_Bool)1 : (_Bool)0;
+    negate = (signed int)tmp_if_expr_1;
     if(!(negate == 0))
       *pattern = *pattern + 1l;
 
@@ -25754,63 +25754,63 @@ static inline signed int fnmatch_ch(const char **pattern, const char **string, s
       {
         startch = *pattern;
         if(!(escape == 0))
-          tmp_if_expr$2 = (signed int)(*pattern)[(signed long int)2] == 92 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)(*pattern)[(signed long int)2] == 92 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        *pattern = *pattern + (signed long int)(tmp_if_expr$2 ? 3 : 2);
+          tmp_if_expr_2 = (_Bool)0;
+        *pattern = *pattern + (signed long int)(tmp_if_expr_2 ? 3 : 2);
         if(*(*pattern) == 0)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
           if(!(slash == 0))
-            tmp_if_expr$3 = (signed int)*(*pattern) == 47 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = (signed int)*(*pattern) == 47 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = (_Bool)0;
+          tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
           goto __CPROVER_DUMP_L28;
 
         if((signed int)*(*string) >= (signed int)*startch)
-          tmp_if_expr$14 = (signed int)*(*string) <= (signed int)*(*pattern) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_14 = (signed int)*(*string) <= (signed int)*(*pattern) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$14 = (_Bool)0;
-        if(tmp_if_expr$14)
+          tmp_if_expr_14 = (_Bool)0;
+        if(tmp_if_expr_14)
           result = 0;
 
         else
           if(!(nocase == 0))
           {
-            return_value___ctype_b_loc$9=__ctype_b_loc();
-            if(!((256 & (signed int)(*return_value___ctype_b_loc$9)[(signed long int)(signed int)*(*string)]) == 0))
-              tmp_if_expr$11 = (_Bool)1;
+            return_value___ctype_b_loc_9=__ctype_b_loc();
+            if(!((256 & (signed int)(*return_value___ctype_b_loc_9)[(signed long int)(signed int)*(*string)]) == 0))
+              tmp_if_expr_11 = (_Bool)1;
 
             else
             {
-              return_value___ctype_b_loc$10=__ctype_b_loc();
-              tmp_if_expr$11 = ((signed int)(*return_value___ctype_b_loc$10)[(signed long int)(signed int)*startch] & (signed int)(unsigned short int)256) != 0 ? (_Bool)1 : (_Bool)0;
+              return_value___ctype_b_loc_10=__ctype_b_loc();
+              tmp_if_expr_11 = ((signed int)(*return_value___ctype_b_loc_10)[(signed long int)(signed int)*startch] & (signed int)(unsigned short int)256) != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$11)
-              tmp_if_expr$13 = (_Bool)1;
+            if(tmp_if_expr_11)
+              tmp_if_expr_13 = (_Bool)1;
 
             else
             {
-              return_value___ctype_b_loc$12=__ctype_b_loc();
-              tmp_if_expr$13 = ((signed int)(*return_value___ctype_b_loc$12)[(signed long int)(signed int)*(*pattern)] & (signed int)(unsigned short int)256) != 0 ? (_Bool)1 : (_Bool)0;
+              return_value___ctype_b_loc_12=__ctype_b_loc();
+              tmp_if_expr_13 = ((signed int)(*return_value___ctype_b_loc_12)[(signed long int)(signed int)*(*pattern)] & (signed int)(unsigned short int)256) != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$13)
+            if(tmp_if_expr_13)
             {
-              return_value_tolower$7=tolower((signed int)*(*string));
-              return_value_tolower$8=tolower((signed int)*startch);
-              if(return_value_tolower$7 >= return_value_tolower$8)
+              return_value_tolower_7=tolower((signed int)*(*string));
+              return_value_tolower_8=tolower((signed int)*startch);
+              if(return_value_tolower_7 >= return_value_tolower_8)
               {
-                return_value_tolower$5=tolower((signed int)*(*string));
-                return_value_tolower$6=tolower((signed int)*(*pattern));
-                if(return_value_tolower$6 >= return_value_tolower$5)
+                return_value_tolower_5=tolower((signed int)*(*string));
+                return_value_tolower_6=tolower((signed int)*(*pattern));
+                if(return_value_tolower_6 >= return_value_tolower_5)
                   result = 0;
 
               }
@@ -25831,20 +25831,20 @@ static inline signed int fnmatch_ch(const char **pattern, const char **string, s
     else
       if(!(nocase == 0))
       {
-        return_value___ctype_b_loc$17=__ctype_b_loc();
-        if(!((256 & (signed int)(*return_value___ctype_b_loc$17)[(signed long int)(signed int)*(*string)]) == 0))
-          tmp_if_expr$19 = (_Bool)1;
+        return_value___ctype_b_loc_17=__ctype_b_loc();
+        if(!((256 & (signed int)(*return_value___ctype_b_loc_17)[(signed long int)(signed int)*(*string)]) == 0))
+          tmp_if_expr_19 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$18=__ctype_b_loc();
-          tmp_if_expr$19 = ((signed int)(*return_value___ctype_b_loc$18)[(signed long int)(signed int)*(*pattern)] & (signed int)(unsigned short int)256) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_18=__ctype_b_loc();
+          tmp_if_expr_19 = ((signed int)(*return_value___ctype_b_loc_18)[(signed long int)(signed int)*(*pattern)] & (signed int)(unsigned short int)256) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$19)
+        if(tmp_if_expr_19)
         {
-          return_value_tolower$15=tolower((signed int)*(*string));
-          return_value_tolower$16=tolower((signed int)*(*pattern));
-          if(return_value_tolower$15 == return_value_tolower$16)
+          return_value_tolower_15=tolower((signed int)*(*string));
+          return_value_tolower_16=tolower((signed int)*(*pattern));
+          if(return_value_tolower_15 == return_value_tolower_16)
             result = 0;
 
         }
@@ -25867,18 +25867,18 @@ static inline signed int fnmatch_ch(const char **pattern, const char **string, s
     if((signed int)*(*pattern) == 63)
     {
       if(*(*string) == 0)
-        tmp_if_expr$21 = (_Bool)1;
+        tmp_if_expr_21 = (_Bool)1;
 
       else
       {
         if(!(slash == 0))
-          tmp_if_expr$20 = (signed int)*(*string) == 47 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_20 = (signed int)*(*string) == 47 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$20 = (_Bool)0;
-        tmp_if_expr$21 = tmp_if_expr$20 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_20 = (_Bool)0;
+        tmp_if_expr_21 = tmp_if_expr_20 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$21)
+      if(tmp_if_expr_21)
         return 1;
 
       result = 0;
@@ -25897,66 +25897,66 @@ static inline signed int fnmatch_ch(const char **pattern, const char **string, s
 
       }
 
-  const unsigned short int **return_value___ctype_b_loc$24;
-  _Bool tmp_if_expr$26;
-  const unsigned short int **return_value___ctype_b_loc$25;
-  signed int return_value_tolower$22;
-  signed int return_value_tolower$23;
+  const unsigned short int **return_value___ctype_b_loc_24;
+  _Bool tmp_if_expr_26;
+  const unsigned short int **return_value___ctype_b_loc_25;
+  signed int return_value_tolower_22;
+  signed int return_value_tolower_23;
   if(*(*string) == *(*pattern))
     result = 0;
 
   else
     if(!(nocase == 0))
     {
-      return_value___ctype_b_loc$24=__ctype_b_loc();
-      if(!((256 & (signed int)(*return_value___ctype_b_loc$24)[(signed long int)(signed int)*(*string)]) == 0))
-        tmp_if_expr$26 = (_Bool)1;
+      return_value___ctype_b_loc_24=__ctype_b_loc();
+      if(!((256 & (signed int)(*return_value___ctype_b_loc_24)[(signed long int)(signed int)*(*string)]) == 0))
+        tmp_if_expr_26 = (_Bool)1;
 
       else
       {
-        return_value___ctype_b_loc$25=__ctype_b_loc();
-        tmp_if_expr$26 = ((signed int)(*return_value___ctype_b_loc$25)[(signed long int)(signed int)*(*pattern)] & (signed int)(unsigned short int)256) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_25=__ctype_b_loc();
+        tmp_if_expr_26 = ((signed int)(*return_value___ctype_b_loc_25)[(signed long int)(signed int)*(*pattern)] & (signed int)(unsigned short int)256) != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$26)
+      if(tmp_if_expr_26)
       {
-        return_value_tolower$22=tolower((signed int)*(*string));
-        return_value_tolower$23=tolower((signed int)*(*pattern));
-        if(return_value_tolower$22 == return_value_tolower$23)
+        return_value_tolower_22=tolower((signed int)*(*string));
+        return_value_tolower_23=tolower((signed int)*(*pattern));
+        if(return_value_tolower_22 == return_value_tolower_23)
           result = 0;
 
       }
 
     }
 
-  _Bool tmp_if_expr$27;
+  _Bool tmp_if_expr_27;
   if(*(*string) == 0)
-    tmp_if_expr$27 = (_Bool)1;
+    tmp_if_expr_27 = (_Bool)1;
 
   else
-    tmp_if_expr$27 = !(*(*pattern) != 0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$30;
-  _Bool tmp_if_expr$29;
-  _Bool tmp_if_expr$28;
-  if(tmp_if_expr$27)
-    tmp_if_expr$30 = (_Bool)1;
+    tmp_if_expr_27 = !(*(*pattern) != 0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_30;
+  _Bool tmp_if_expr_29;
+  _Bool tmp_if_expr_28;
+  if(tmp_if_expr_27)
+    tmp_if_expr_30 = (_Bool)1;
 
   else
   {
     if(!(slash == 0))
     {
       if((signed int)*(*string) == 47)
-        tmp_if_expr$28 = (_Bool)1;
+        tmp_if_expr_28 = (_Bool)1;
 
       else
-        tmp_if_expr$28 = (signed int)*(*pattern) == 47 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$29 = tmp_if_expr$28 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_28 = (signed int)*(*pattern) == 47 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_29 = tmp_if_expr_28 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$29 = (_Bool)0;
-    tmp_if_expr$30 = tmp_if_expr$29 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_29 = (_Bool)0;
+    tmp_if_expr_30 = tmp_if_expr_29 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$30)
+  if(tmp_if_expr_30)
     return result;
 
   else
@@ -25977,31 +25977,31 @@ static void free_proc_chain(struct process_chain *procs)
   struct process_chain *pc;
   signed int need_timeout = 0;
   signed long int timeout_interval;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(procs == ((struct process_chain *)NULL)))
   {
     pc = procs;
     for( ; !(pc == ((struct process_chain *)NULL)); pc = pc->next)
     {
-      signed int return_value_apr_proc_wait$1;
-      return_value_apr_proc_wait$1=apr_proc_wait(pc->proc, (signed int *)(void *)0, (enum anonymous$26 *)(void *)0, (enum anonymous$27)APR_NOWAIT);
-      if(!(return_value_apr_proc_wait$1 == 6))
-        pc->kill_how = (enum anonymous$17)APR_KILL_NEVER;
+      signed int return_value_apr_proc_wait_1;
+      return_value_apr_proc_wait_1=apr_proc_wait(pc->proc, (signed int *)(void *)0, (enum anonymous_26 *)(void *)0, (enum anonymous_27)APR_NOWAIT);
+      if(!(return_value_apr_proc_wait_1 == 6))
+        pc->kill_how = (enum anonymous_17)APR_KILL_NEVER;
 
     }
     pc = procs;
     for( ; !(pc == ((struct process_chain *)NULL)); pc = pc->next)
     {
       if((signed int)pc->kill_how == APR_KILL_AFTER_TIMEOUT)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)pc->kill_how == APR_KILL_ONLY_ONCE ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)pc->kill_how == APR_KILL_ONLY_ONCE ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
-        signed int return_value_apr_proc_kill$2;
-        return_value_apr_proc_kill$2=apr_proc_kill(pc->proc, 15);
-        if(return_value_apr_proc_kill$2 == 0)
+        signed int return_value_apr_proc_kill_2;
+        return_value_apr_proc_kill_2=apr_proc_kill(pc->proc, 15);
+        if(return_value_apr_proc_kill_2 == 0)
           need_timeout = 1;
 
       }
@@ -26022,13 +26022,13 @@ static void free_proc_chain(struct process_chain *procs)
         for( ; !(pc == ((struct process_chain *)NULL)); pc = pc->next)
           if((signed int)pc->kill_how == APR_KILL_AFTER_TIMEOUT)
           {
-            signed int return_value_apr_proc_wait$4;
-            return_value_apr_proc_wait$4=apr_proc_wait(pc->proc, (signed int *)(void *)0, (enum anonymous$26 *)(void *)0, (enum anonymous$27)APR_NOWAIT);
-            if(return_value_apr_proc_wait$4 == 6)
+            signed int return_value_apr_proc_wait_4;
+            return_value_apr_proc_wait_4=apr_proc_wait(pc->proc, (signed int *)(void *)0, (enum anonymous_26 *)(void *)0, (enum anonymous_27)APR_NOWAIT);
+            if(return_value_apr_proc_wait_4 == 6)
               need_timeout = 1;
 
             else
-              pc->kill_how = (enum anonymous$17)APR_KILL_NEVER;
+              pc->kill_how = (enum anonymous_17)APR_KILL_NEVER;
           }
 
         if(!(need_timeout == 0))
@@ -26052,7 +26052,7 @@ static void free_proc_chain(struct process_chain *procs)
     pc = procs;
     for( ; !(pc == ((struct process_chain *)NULL)); pc = pc->next)
       if(!((signed int)pc->kill_how == APR_KILL_NEVER))
-        apr_proc_wait(pc->proc, (signed int *)(void *)0, (enum anonymous$26 *)(void *)0, (enum anonymous$27)APR_WAIT);
+        apr_proc_wait(pc->proc, (signed int *)(void *)0, (enum anonymous_26 *)(void *)0, (enum anonymous_27)APR_WAIT);
 
   }
 
@@ -26070,9 +26070,9 @@ static signed int get_b_rand(void)
     randseq=rand();
   }
 
-  signed int tmp_post$1 = ph;
+  signed int tmp_post_1 = ph;
   ph = ph + 1;
-  return randseq & 1 << tmp_post$1;
+  return randseq & 1 << tmp_post_1;
 }
 
 // get_epoll_event
@@ -26136,14 +26136,14 @@ static signed short int get_event(signed short int event)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockaddr.c line 80
 static signed int get_local_addr(struct apr_socket_t *sock)
 {
-  sock->local_addr->salen = (unsigned int)sizeof(union anonymous$7) /*128ul*/ ;
-  signed int return_value_getsockname$2;
-  return_value_getsockname$2=getsockname(sock->socketdes, (struct sockaddr *)&sock->local_addr->sa, &sock->local_addr->salen);
-  if(!(return_value_getsockname$2 >= 0))
+  sock->local_addr->salen = (unsigned int)sizeof(union anonymous_7) /*128ul*/ ;
+  signed int return_value_getsockname_2;
+  return_value_getsockname_2=getsockname(sock->socketdes, (struct sockaddr *)&sock->local_addr->sa, &sock->local_addr->salen);
+  if(!(return_value_getsockname_2 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   else
@@ -26166,14 +26166,14 @@ static signed int get_offset(struct tm *tm)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockaddr.c line 95
 static signed int get_remote_addr(struct apr_socket_t *sock)
 {
-  sock->remote_addr->salen = (unsigned int)sizeof(union anonymous$7) /*128ul*/ ;
-  signed int return_value_getpeername$2;
-  return_value_getpeername$2=getpeername(sock->socketdes, (struct sockaddr *)&sock->remote_addr->sa, &sock->remote_addr->salen);
-  if(!(return_value_getpeername$2 >= 0))
+  sock->remote_addr->salen = (unsigned int)sizeof(union anonymous_7) /*128ul*/ ;
+  signed int return_value_getpeername_2;
+  return_value_getpeername_2=getpeername(sock->socketdes, (struct sockaddr *)&sock->remote_addr->sa, &sock->remote_addr->salen);
+  if(!(return_value_getpeername_2 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   else
@@ -26281,9 +26281,9 @@ static signed int impl_pollcb_add(struct apr_pollcb_t *pollcb, struct apr_pollfd
 {
   struct epoll_event ev;
   signed int ret;
-  signed short int return_value_get_epoll_event$1;
-  return_value_get_epoll_event$1=get_epoll_event(descriptor->reqevents);
-  ev.events = (unsigned int)return_value_get_epoll_event$1;
+  signed short int return_value_get_epoll_event_1;
+  return_value_get_epoll_event_1=get_epoll_event(descriptor->reqevents);
+  ev.events = (unsigned int)return_value_get_epoll_event_1;
   ev.data.ptr = (void *)descriptor;
   if((signed int)descriptor->desc_type == APR_POLL_SOCKET)
     ret=epoll_ctl(pollcb->fd, 1, descriptor->desc.s->socketdes, &ev);
@@ -26292,31 +26292,31 @@ static signed int impl_pollcb_add(struct apr_pollcb_t *pollcb, struct apr_pollfd
     ret=epoll_ctl(pollcb->fd, 1, descriptor->desc.f->filedes, &ev);
   if(ret == -1)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    return *return_value___errno_location$2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    return *return_value___errno_location_2;
   }
 
   return 0;
 }
 
-// impl_pollcb_add$link1
+// impl_pollcb_add_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 337
-static signed int impl_pollcb_add$link1(struct apr_pollcb_t *pollcb$link1, struct apr_pollfd_t *descriptor$link1)
+static signed int impl_pollcb_add_link1(struct apr_pollcb_t *pollcb_link1, struct apr_pollfd_t *descriptor_link1)
 {
-  if(pollcb$link1->nelts == pollcb$link1->nalloc)
+  if(pollcb_link1->nelts == pollcb_link1->nalloc)
     return 12;
 
   else
   {
-    if((signed int)descriptor$link1->desc_type == APR_POLL_SOCKET)
-      (pollcb$link1->pollset.ps + (signed long int)pollcb$link1->nelts)->fd = descriptor$link1->desc.s->socketdes;
+    if((signed int)descriptor_link1->desc_type == APR_POLL_SOCKET)
+      (pollcb_link1->pollset.ps + (signed long int)pollcb_link1->nelts)->fd = descriptor_link1->desc.s->socketdes;
 
     else
-      (pollcb$link1->pollset.ps + (signed long int)pollcb$link1->nelts)->fd = descriptor$link1->desc.f->filedes;
-    (pollcb$link1->pollset.ps + (signed long int)pollcb$link1->nelts)->events=get_event(descriptor$link1->reqevents);
-    pollcb$link1->copyset[(signed long int)pollcb$link1->nelts] = descriptor$link1;
-    pollcb$link1->nelts = pollcb$link1->nelts + 1u;
+      (pollcb_link1->pollset.ps + (signed long int)pollcb_link1->nelts)->fd = descriptor_link1->desc.f->filedes;
+    (pollcb_link1->pollset.ps + (signed long int)pollcb_link1->nelts)->events=get_event(descriptor_link1->reqevents);
+    pollcb_link1->copyset[(signed long int)pollcb_link1->nelts] = descriptor_link1;
+    pollcb_link1->nelts = pollcb_link1->nelts + 1u;
     return 0;
   }
 }
@@ -26329,22 +26329,22 @@ static signed int impl_pollcb_create(struct apr_pollcb_t *pollcb, unsigned int s
   fd=epoll_create1(524288);
   if(!(fd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   pollcb->fd = fd;
-  void *return_value_apr_palloc$2;
-  return_value_apr_palloc$2=apr_palloc(p, (unsigned long int)size * sizeof(struct epoll_event) /*12ul*/ );
-  pollcb->pollset.epoll = (struct epoll_event *)return_value_apr_palloc$2;
+  void *return_value_apr_palloc_2;
+  return_value_apr_palloc_2=apr_palloc(p, (unsigned long int)size * sizeof(struct epoll_event) /*12ul*/ );
+  pollcb->pollset.epoll = (struct epoll_event *)return_value_apr_palloc_2;
   apr_pool_cleanup_register(p, (const void *)pollcb, cb_cleanup, apr_pool_cleanup_null);
   return 0;
 }
 
-// impl_pollcb_create$link1
+// impl_pollcb_create_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 315
-static signed int impl_pollcb_create$link1(struct apr_pollcb_t *pollcb$link1, unsigned int size$link1, struct apr_pool_t *p$link1, unsigned int flags$link1)
+static signed int impl_pollcb_create_link1(struct apr_pollcb_t *pollcb_link1, unsigned int size_link1, struct apr_pool_t *p_link1, unsigned int flags_link1)
 {
   return 20000 + 50000 + 23;
 }
@@ -26362,9 +26362,9 @@ static signed int impl_pollcb_poll(struct apr_pollcb_t *pollcb, signed long int 
   ret=epoll_wait(pollcb->fd, pollcb->pollset.epoll, (signed int)pollcb->nalloc, (signed int)timeout);
   if(!(ret >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    rv = *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    rv = *return_value___errno_location_1;
   }
 
   else
@@ -26389,44 +26389,44 @@ static signed int impl_pollcb_poll(struct apr_pollcb_t *pollcb, signed long int 
   return rv;
 }
 
-// impl_pollcb_poll$link1
+// impl_pollcb_poll_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 391
-static signed int impl_pollcb_poll$link1(struct apr_pollcb_t *pollcb$link1, signed long int timeout$link1, signed int (*func$link1)(void *, struct apr_pollfd_t *), void *baton$link1)
+static signed int impl_pollcb_poll_link1(struct apr_pollcb_t *pollcb_link1, signed long int timeout_link1, signed int (*func_link1)(void *, struct apr_pollfd_t *), void *baton_link1)
 {
-  signed int ret$link1;
-  signed int rv$link1 = 0;
-  unsigned int i$link1;
-  if(timeout$link1 >= 1l)
-    timeout$link1 = timeout$link1 / (signed long int)1000;
+  signed int ret_link1;
+  signed int rv_link1 = 0;
+  unsigned int i_link1;
+  if(timeout_link1 >= 1l)
+    timeout_link1 = timeout_link1 / (signed long int)1000;
 
-  ret$link1=poll(pollcb$link1->pollset.ps, (unsigned long int)pollcb$link1->nelts, (signed int)timeout$link1);
-  if(!(ret$link1 >= 0))
+  ret_link1=poll(pollcb_link1->pollset.ps, (unsigned long int)pollcb_link1->nelts, (signed int)timeout_link1);
+  if(!(ret_link1 >= 0))
   {
-    signed int *return_value___errno_location$1$link1;
-    return_value___errno_location$1$link1=__errno_location();
-    return *return_value___errno_location$1$link1;
+    signed int *return_value___errno_location_1_link1;
+    return_value___errno_location_1_link1=__errno_location();
+    return *return_value___errno_location_1_link1;
   }
 
   else
-    if(ret$link1 == 0)
+    if(ret_link1 == 0)
       return 20000 + 50000 + 7;
 
     else
     {
-      i$link1 = (unsigned int)0;
-      for( ; !(i$link1 >= pollcb$link1->nelts); i$link1 = i$link1 + 1u)
-        if(!((signed int)(pollcb$link1->pollset.ps + (signed long int)i$link1)->revents == 0))
+      i_link1 = (unsigned int)0;
+      for( ; !(i_link1 >= pollcb_link1->nelts); i_link1 = i_link1 + 1u)
+        if(!((signed int)(pollcb_link1->pollset.ps + (signed long int)i_link1)->revents == 0))
         {
-          struct apr_pollfd_t *pollfd = pollcb$link1->copyset[(signed long int)i$link1];
-          pollfd->rtnevents=get_revent((pollcb$link1->pollset.ps + (signed long int)i$link1)->revents);
-          rv$link1=func$link1(baton$link1, pollfd);
-          if(!(rv$link1 == 0))
-            return rv$link1;
+          struct apr_pollfd_t *pollfd = pollcb_link1->copyset[(signed long int)i_link1];
+          pollfd->rtnevents=get_revent((pollcb_link1->pollset.ps + (signed long int)i_link1)->revents);
+          rv_link1=func_link1(baton_link1, pollfd);
+          if(!(rv_link1 == 0))
+            return rv_link1;
 
         }
 
     }
-  return rv$link1;
+  return rv_link1;
 }
 
 // impl_pollcb_remove
@@ -26447,26 +26447,26 @@ static signed int impl_pollcb_remove(struct apr_pollcb_t *pollcb, struct apr_pol
   return rv;
 }
 
-// impl_pollcb_remove$link1
+// impl_pollcb_remove_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 363
-static signed int impl_pollcb_remove$link1(struct apr_pollcb_t *pollcb$link1, struct apr_pollfd_t *descriptor$link1)
+static signed int impl_pollcb_remove_link1(struct apr_pollcb_t *pollcb_link1, struct apr_pollfd_t *descriptor_link1)
 {
   unsigned int i = (unsigned int)0;
-  for( ; !(i >= pollcb$link1->nelts); i = i + 1u)
-    if(descriptor$link1->desc.s == pollcb$link1->copyset[(signed long int)i]->desc.s)
+  for( ; !(i >= pollcb_link1->nelts); i = i + 1u)
+    if(descriptor_link1->desc.s == pollcb_link1->copyset[(signed long int)i]->desc.s)
     {
       unsigned int dst = i;
-      unsigned int old_nelts = pollcb$link1->nelts;
-      pollcb$link1->nelts = pollcb$link1->nelts - 1u;
+      unsigned int old_nelts = pollcb_link1->nelts;
+      pollcb_link1->nelts = pollcb_link1->nelts - 1u;
       i = i + 1u;
       for( ; !(i >= old_nelts); i = i + 1u)
-        if(descriptor$link1->desc.s == pollcb$link1->copyset[(signed long int)i]->desc.s)
-          pollcb$link1->nelts = pollcb$link1->nelts - 1u;
+        if(descriptor_link1->desc.s == pollcb_link1->copyset[(signed long int)i]->desc.s)
+          pollcb_link1->nelts = pollcb_link1->nelts - 1u;
 
         else
         {
-          pollcb$link1->pollset.ps[(signed long int)dst] = pollcb$link1->pollset.ps[(signed long int)i];
-          pollcb$link1->copyset[(signed long int)dst] = pollcb$link1->copyset[(signed long int)i];
+          pollcb_link1->pollset.ps[(signed long int)dst] = pollcb_link1->pollset.ps[(signed long int)i];
+          pollcb_link1->copyset[(signed long int)dst] = pollcb_link1->copyset[(signed long int)i];
           dst = dst + 1u;
         }
       return 0;
@@ -26483,9 +26483,9 @@ static signed int impl_pollset_add(struct apr_pollset_t *pollset, const struct a
   signed int ret = -1;
   struct pfd_elem_t *elem = (struct pfd_elem_t *)(void *)0;
   signed int rv = 0;
-  signed short int return_value_get_epoll_event$1;
-  return_value_get_epoll_event$1=get_epoll_event(descriptor->reqevents);
-  ev.events = (unsigned int)return_value_get_epoll_event$1;
+  signed short int return_value_get_epoll_event_1;
+  return_value_get_epoll_event_1=get_epoll_event(descriptor->reqevents);
+  ev.events = (unsigned int)return_value_get_epoll_event_1;
   if(!((2u & pollset->flags) == 0u))
     ev.data.ptr = (void *)descriptor;
 
@@ -26507,9 +26507,9 @@ static signed int impl_pollset_add(struct apr_pollset_t *pollset, const struct a
 
     else
     {
-      void *return_value_apr_palloc$2;
-      return_value_apr_palloc$2=apr_palloc(pollset->pool, sizeof(struct pfd_elem_t) /*48ul*/ );
-      elem = (struct pfd_elem_t *)return_value_apr_palloc$2;
+      void *return_value_apr_palloc_2;
+      return_value_apr_palloc_2=apr_palloc(pollset->pool, sizeof(struct pfd_elem_t) /*48ul*/ );
+      elem = (struct pfd_elem_t *)return_value_apr_palloc_2;
       do
       {
         elem->link.next = elem;
@@ -26527,9 +26527,9 @@ static signed int impl_pollset_add(struct apr_pollset_t *pollset, const struct a
     ret=epoll_ctl(pollset->p->epoll_fd, 1, descriptor->desc.f->filedes, &ev);
   if(!(ret == 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    rv = *return_value___errno_location$3;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    rv = *return_value___errno_location_3;
   }
 
   if((2u & pollset->flags) == 0u)
@@ -26561,61 +26561,61 @@ static signed int impl_pollset_add(struct apr_pollset_t *pollset, const struct a
   return rv;
 }
 
-// impl_pollset_add$link1
+// impl_pollset_add_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 178
-static signed int impl_pollset_add$link1(struct apr_pollset_t$0 *pollset$link1, const struct apr_pollfd_t *descriptor$link1)
+static signed int impl_pollset_add_link1(struct apr_pollset_t_0 *pollset_link1, const struct apr_pollfd_t *descriptor_link1)
 {
-  if(pollset$link1->nelts == pollset$link1->nalloc)
+  if(pollset_link1->nelts == pollset_link1->nalloc)
     return 12;
 
   else
   {
-    pollset$link1->p->query_set[(signed long int)pollset$link1->nelts] = *descriptor$link1;
-    if((signed int)descriptor$link1->desc_type == APR_POLL_SOCKET)
-      (pollset$link1->p->pollset + (signed long int)pollset$link1->nelts)->fd = descriptor$link1->desc.s->socketdes;
+    pollset_link1->p->query_set[(signed long int)pollset_link1->nelts] = *descriptor_link1;
+    if((signed int)descriptor_link1->desc_type == APR_POLL_SOCKET)
+      (pollset_link1->p->pollset + (signed long int)pollset_link1->nelts)->fd = descriptor_link1->desc.s->socketdes;
 
     else
-      (pollset$link1->p->pollset + (signed long int)pollset$link1->nelts)->fd = descriptor$link1->desc.f->filedes;
-    (pollset$link1->p->pollset + (signed long int)pollset$link1->nelts)->events=get_event(descriptor$link1->reqevents);
-    pollset$link1->nelts = pollset$link1->nelts + 1u;
+      (pollset_link1->p->pollset + (signed long int)pollset_link1->nelts)->fd = descriptor_link1->desc.f->filedes;
+    (pollset_link1->p->pollset + (signed long int)pollset_link1->nelts)->events=get_event(descriptor_link1->reqevents);
+    pollset_link1->nelts = pollset_link1->nelts + 1u;
     return 0;
   }
 }
 
-// impl_pollset_add$link2
+// impl_pollset_add_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/select.c line 226
-static signed int impl_pollset_add$link2(struct apr_pollset_t$1 *pollset$link2, const struct apr_pollfd_t *descriptor$link2)
+static signed int impl_pollset_add_link2(struct apr_pollset_t_1 *pollset_link2, const struct apr_pollfd_t *descriptor_link2)
 {
   signed int fd;
-  if(pollset$link2->nelts == pollset$link2->nalloc)
+  if(pollset_link2->nelts == pollset_link2->nalloc)
     return 12;
 
   else
   {
-    pollset$link2->p->query_set[(signed long int)pollset$link2->nelts] = *descriptor$link2;
-    if((signed int)descriptor$link2->desc_type == APR_POLL_SOCKET)
-      fd = descriptor$link2->desc.s->socketdes;
+    pollset_link2->p->query_set[(signed long int)pollset_link2->nelts] = *descriptor_link2;
+    if((signed int)descriptor_link2->desc_type == APR_POLL_SOCKET)
+      fd = descriptor_link2->desc.s->socketdes;
 
     else
-      fd = descriptor$link2->desc.f->filedes;
+      fd = descriptor_link2->desc.f->filedes;
     if(fd >= 1024)
       return 9;
 
     else
     {
-      if(!((0x001 & (signed int)descriptor$link2->reqevents) == 0))
-        (&pollset$link2->p->readset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&pollset$link2->p->readset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+      if(!((0x001 & (signed int)descriptor_link2->reqevents) == 0))
+        (&pollset_link2->p->readset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&pollset_link2->p->readset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
 
-      if(!((0x004 & (signed int)descriptor$link2->reqevents) == 0))
-        (&pollset$link2->p->writeset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&pollset$link2->p->writeset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+      if(!((0x004 & (signed int)descriptor_link2->reqevents) == 0))
+        (&pollset_link2->p->writeset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&pollset_link2->p->writeset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
 
-      if(!((114 & (signed int)descriptor$link2->reqevents) == 0))
-        (&pollset$link2->p->exceptset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&pollset$link2->p->exceptset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+      if(!((114 & (signed int)descriptor_link2->reqevents) == 0))
+        (&pollset_link2->p->exceptset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&pollset_link2->p->exceptset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
 
-      if(!(pollset$link2->p->maxfd >= fd))
-        pollset$link2->p->maxfd = (signed int)fd;
+      if(!(pollset_link2->p->maxfd >= fd))
+        pollset_link2->p->maxfd = (signed int)fd;
 
-      pollset$link2->nelts = pollset$link2->nelts + 1u;
+      pollset_link2->nelts = pollset_link2->nelts + 1u;
       return 0;
     }
   }
@@ -26639,14 +26639,14 @@ static signed int impl_pollset_create(struct apr_pollset_t *pollset, unsigned in
   if(!(fd >= 0))
   {
     pollset->p = (struct apr_pollset_private_t *)(void *)0;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
-  void *return_value_apr_palloc$2;
-  return_value_apr_palloc$2=apr_palloc(p, sizeof(struct apr_pollset_private_t) /*80ul*/ );
-  pollset->p = (struct apr_pollset_private_t *)return_value_apr_palloc$2;
+  void *return_value_apr_palloc_2;
+  return_value_apr_palloc_2=apr_palloc(p, sizeof(struct apr_pollset_private_t) /*80ul*/ );
+  pollset->p = (struct apr_pollset_private_t *)return_value_apr_palloc_2;
   if((2u & flags) == 0u && !((1u & flags) == 0u))
   {
     rv=apr_thread_mutex_create(&pollset->p->ring_lock, (unsigned int)0x0, p);
@@ -26664,12 +26664,12 @@ static signed int impl_pollset_create(struct apr_pollset_t *pollset, unsigned in
   __CPROVER_DUMP_L2:
     ;
     pollset->p->epoll_fd = fd;
-    void *return_value_apr_palloc$3;
-    return_value_apr_palloc$3=apr_palloc(p, (unsigned long int)size * sizeof(struct epoll_event) /*12ul*/ );
-    pollset->p->pollset = (struct epoll_event *)return_value_apr_palloc$3;
-    void *return_value_apr_palloc$4;
-    return_value_apr_palloc$4=apr_palloc(p, (unsigned long int)size * sizeof(struct apr_pollfd_t) /*32ul*/ );
-    pollset->p->result_set = (struct apr_pollfd_t *)return_value_apr_palloc$4;
+    void *return_value_apr_palloc_3;
+    return_value_apr_palloc_3=apr_palloc(p, (unsigned long int)size * sizeof(struct epoll_event) /*12ul*/ );
+    pollset->p->pollset = (struct epoll_event *)return_value_apr_palloc_3;
+    void *return_value_apr_palloc_4;
+    return_value_apr_palloc_4=apr_palloc(p, (unsigned long int)size * sizeof(struct apr_pollfd_t) /*32ul*/ );
+    pollset->p->result_set = (struct apr_pollfd_t *)return_value_apr_palloc_4;
     if((2u & flags) == 0u)
     {
       do
@@ -26696,81 +26696,81 @@ static signed int impl_pollset_create(struct apr_pollset_t *pollset, unsigned in
   }
 }
 
-// impl_pollset_create$link1
+// impl_pollset_create_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 157
-static signed int impl_pollset_create$link1(struct apr_pollset_t$0 *pollset$link1, unsigned int size$link1, struct apr_pool_t *p$link1, unsigned int flags$link1)
+static signed int impl_pollset_create_link1(struct apr_pollset_t_0 *pollset_link1, unsigned int size_link1, struct apr_pool_t *p_link1, unsigned int flags_link1)
 {
-  if(!((1u & flags$link1) == 0u))
+  if(!((1u & flags_link1) == 0u))
     return 20000 + 50000 + 23;
 
   else
   {
-    void *return_value_apr_palloc$1;
-    return_value_apr_palloc$1=apr_palloc(p$link1, sizeof(struct apr_pollset_private_t$0) /*24ul*/ );
-    pollset$link1->p = (struct apr_pollset_private_t$0 *)return_value_apr_palloc$1;
-    void *return_value_apr_palloc$2$link1;
-    return_value_apr_palloc$2$link1=apr_palloc(p$link1, (unsigned long int)size$link1 * sizeof(struct pollfd) /*8ul*/ );
-    pollset$link1->p->pollset = (struct pollfd *)return_value_apr_palloc$2$link1;
-    void *return_value_apr_palloc$3$link1;
-    return_value_apr_palloc$3$link1=apr_palloc(p$link1, (unsigned long int)size$link1 * sizeof(struct apr_pollfd_t) /*32ul*/ );
-    pollset$link1->p->query_set = (struct apr_pollfd_t *)return_value_apr_palloc$3$link1;
-    void *return_value_apr_palloc$4$link1;
-    return_value_apr_palloc$4$link1=apr_palloc(p$link1, (unsigned long int)size$link1 * sizeof(struct apr_pollfd_t) /*32ul*/ );
-    pollset$link1->p->result_set = (struct apr_pollfd_t *)return_value_apr_palloc$4$link1;
+    void *return_value_apr_palloc_1;
+    return_value_apr_palloc_1=apr_palloc(p_link1, sizeof(struct apr_pollset_private_t_0) /*24ul*/ );
+    pollset_link1->p = (struct apr_pollset_private_t_0 *)return_value_apr_palloc_1;
+    void *return_value_apr_palloc_2_link1;
+    return_value_apr_palloc_2_link1=apr_palloc(p_link1, (unsigned long int)size_link1 * sizeof(struct pollfd) /*8ul*/ );
+    pollset_link1->p->pollset = (struct pollfd *)return_value_apr_palloc_2_link1;
+    void *return_value_apr_palloc_3_link1;
+    return_value_apr_palloc_3_link1=apr_palloc(p_link1, (unsigned long int)size_link1 * sizeof(struct apr_pollfd_t) /*32ul*/ );
+    pollset_link1->p->query_set = (struct apr_pollfd_t *)return_value_apr_palloc_3_link1;
+    void *return_value_apr_palloc_4_link1;
+    return_value_apr_palloc_4_link1=apr_palloc(p_link1, (unsigned long int)size_link1 * sizeof(struct apr_pollfd_t) /*32ul*/ );
+    pollset_link1->p->result_set = (struct apr_pollfd_t *)return_value_apr_palloc_4_link1;
     return 0;
   }
 }
 
-// impl_pollset_create$link2
+// impl_pollset_create_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/select.c line 197
-static signed int impl_pollset_create$link2(struct apr_pollset_t$1 *pollset$link2, unsigned int size$link2, struct apr_pool_t *p$link2, unsigned int flags$link2)
+static signed int impl_pollset_create_link2(struct apr_pollset_t_1 *pollset_link2, unsigned int size_link2, struct apr_pool_t *p_link2, unsigned int flags_link2)
 {
-  if(!((1u & flags$link2) == 0u))
+  if(!((1u & flags_link2) == 0u))
   {
-    pollset$link2->p = (struct apr_pollset_private_t$1 *)(void *)0;
+    pollset_link2->p = (struct apr_pollset_private_t_1 *)(void *)0;
     return 20000 + 50000 + 23;
   }
 
   else
-    if(size$link2 >= 1025u)
+    if(size_link2 >= 1025u)
     {
-      pollset$link2->p = (struct apr_pollset_private_t$1 *)(void *)0;
+      pollset_link2->p = (struct apr_pollset_private_t_1 *)(void *)0;
       return 22;
     }
 
     else
     {
-      void *return_value_apr_palloc$1$link1;
-      return_value_apr_palloc$1$link1=apr_palloc(p$link2, sizeof(struct apr_pollset_private_t$1) /*416ul*/ );
-      pollset$link2->p = (struct apr_pollset_private_t$1 *)return_value_apr_palloc$1$link1;
+      void *return_value_apr_palloc_1_link1;
+      return_value_apr_palloc_1_link1=apr_palloc(p_link2, sizeof(struct apr_pollset_private_t_1) /*416ul*/ );
+      pollset_link2->p = (struct apr_pollset_private_t_1 *)return_value_apr_palloc_1_link1;
       do
       {
         signed int __d0;
         signed int __d1;
-        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$25) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&pollset$link2->p->readset)->fds_bits[(signed long int)0]) : "memory");
+        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_25) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&pollset_link2->p->readset)->fds_bits[(signed long int)0]) : "memory");
       }
       while((_Bool)0);
       do
       {
-        signed int impl_pollset_create$$1$$4$$__d0;
-        signed int impl_pollset_create$$1$$4$$__d1;
-        asm("cld; rep; stosq" : "=c"(impl_pollset_create$$1$$4$$__d0), "=D"(impl_pollset_create$$1$$4$$__d1) : "a"(0), "0"(sizeof(struct anonymous$25) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&pollset$link2->p->writeset)->fds_bits[(signed long int)0]) : "memory");
+        signed int impl_pollset_create__1__4____d0;
+        signed int impl_pollset_create__1__4____d1;
+        asm("cld; rep; stosq" : "=c"(impl_pollset_create__1__4____d0), "=D"(impl_pollset_create__1__4____d1) : "a"(0), "0"(sizeof(struct anonymous_25) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&pollset_link2->p->writeset)->fds_bits[(signed long int)0]) : "memory");
       }
       while((_Bool)0);
       do
       {
-        signed int impl_pollset_create$$1$$5$$__d0;
-        signed int impl_pollset_create$$1$$5$$__d1;
-        asm("cld; rep; stosq" : "=c"(impl_pollset_create$$1$$5$$__d0), "=D"(impl_pollset_create$$1$$5$$__d1) : "a"(0), "0"(sizeof(struct anonymous$25) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&pollset$link2->p->exceptset)->fds_bits[(signed long int)0]) : "memory");
+        signed int impl_pollset_create__1__5____d0;
+        signed int impl_pollset_create__1__5____d1;
+        asm("cld; rep; stosq" : "=c"(impl_pollset_create__1__5____d0), "=D"(impl_pollset_create__1__5____d1) : "a"(0), "0"(sizeof(struct anonymous_25) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&pollset_link2->p->exceptset)->fds_bits[(signed long int)0]) : "memory");
       }
       while((_Bool)0);
-      pollset$link2->p->maxfd = 0;
-      void *return_value_apr_palloc$2$link2;
-      return_value_apr_palloc$2$link2=apr_palloc(p$link2, (unsigned long int)size$link2 * sizeof(struct apr_pollfd_t) /*32ul*/ );
-      pollset$link2->p->query_set = (struct apr_pollfd_t *)return_value_apr_palloc$2$link2;
-      void *return_value_apr_palloc$3$link2;
-      return_value_apr_palloc$3$link2=apr_palloc(p$link2, (unsigned long int)size$link2 * sizeof(struct apr_pollfd_t) /*32ul*/ );
-      pollset$link2->p->result_set = (struct apr_pollfd_t *)return_value_apr_palloc$3$link2;
+      pollset_link2->p->maxfd = 0;
+      void *return_value_apr_palloc_2_link2;
+      return_value_apr_palloc_2_link2=apr_palloc(p_link2, (unsigned long int)size_link2 * sizeof(struct apr_pollfd_t) /*32ul*/ );
+      pollset_link2->p->query_set = (struct apr_pollfd_t *)return_value_apr_palloc_2_link2;
+      void *return_value_apr_palloc_3_link2;
+      return_value_apr_palloc_3_link2=apr_palloc(p_link2, (unsigned long int)size_link2 * sizeof(struct apr_pollfd_t) /*32ul*/ );
+      pollset_link2->p->result_set = (struct apr_pollfd_t *)return_value_apr_palloc_3_link2;
       return 0;
     }
 }
@@ -26789,13 +26789,13 @@ static signed int impl_pollset_poll(struct apr_pollset_t *pollset, signed long i
 
   ret=epoll_wait(pollset->p->epoll_fd, pollset->p->pollset, (signed int)pollset->nalloc, (signed int)timeout);
   *num = ret;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if(!(ret >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    rv = *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    rv = *return_value___errno_location_1;
   }
 
   else
@@ -26814,16 +26814,16 @@ static signed int impl_pollset_poll(struct apr_pollset_t *pollset, signed long i
         else
           fdptr = &((struct pfd_elem_t *)(pollset->p->pollset + (signed long int)i)->data.ptr)->pfd;
         if(!((4u & pollset->flags) == 0u))
-          tmp_if_expr$2 = (signed int)fdptr->desc_type == APR_POLL_FILE ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)fdptr->desc_type == APR_POLL_FILE ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = fdptr->desc.f == pollset->wakeup_pipe[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = fdptr->desc.f == pollset->wakeup_pipe[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
         {
           apr_pollset_drain_wakeup_pipe(pollset);
           rv = 4;
@@ -26879,28 +26879,28 @@ static signed int impl_pollset_poll(struct apr_pollset_t *pollset, signed long i
   return rv;
 }
 
-// impl_pollset_poll$link1
+// impl_pollset_poll_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 236
-static signed int impl_pollset_poll$link1(struct apr_pollset_t$0 *pollset$link1, signed long int timeout$link1, signed int *num$link1, const struct apr_pollfd_t **descriptors$link1)
+static signed int impl_pollset_poll_link1(struct apr_pollset_t_0 *pollset_link1, signed long int timeout_link1, signed int *num_link1, const struct apr_pollfd_t **descriptors_link1)
 {
-  signed int ret$link1;
-  signed int rv$link1 = 0;
-  if(timeout$link1 >= 1l)
-    timeout$link1 = timeout$link1 / (signed long int)1000;
+  signed int ret_link1;
+  signed int rv_link1 = 0;
+  if(timeout_link1 >= 1l)
+    timeout_link1 = timeout_link1 / (signed long int)1000;
 
-  ret$link1=poll(pollset$link1->p->pollset, (unsigned long int)pollset$link1->nelts, (signed int)timeout$link1);
-  *num$link1 = ret$link1;
-  _Bool tmp_if_expr$2$link1;
-  _Bool tmp_if_expr$3$link1;
-  if(!(ret$link1 >= 0))
+  ret_link1=poll(pollset_link1->p->pollset, (unsigned long int)pollset_link1->nelts, (signed int)timeout_link1);
+  *num_link1 = ret_link1;
+  _Bool tmp_if_expr_2_link1;
+  _Bool tmp_if_expr_3_link1;
+  if(!(ret_link1 >= 0))
   {
-    signed int *return_value___errno_location$1$link1;
-    return_value___errno_location$1$link1=__errno_location();
-    return *return_value___errno_location$1$link1;
+    signed int *return_value___errno_location_1_link1;
+    return_value___errno_location_1_link1=__errno_location();
+    return *return_value___errno_location_1_link1;
   }
 
   else
-    if(ret$link1 == 0)
+    if(ret_link1 == 0)
       return 20000 + 50000 + 7;
 
     else
@@ -26909,153 +26909,153 @@ static signed int impl_pollset_poll$link1(struct apr_pollset_t$0 *pollset$link1,
       unsigned int j;
       i = (unsigned int)0;
       j = (unsigned int)0;
-      for( ; !(i >= pollset$link1->nelts); i = i + 1u)
-        if(!((signed int)(pollset$link1->p->pollset + (signed long int)i)->revents == 0))
+      for( ; !(i >= pollset_link1->nelts); i = i + 1u)
+        if(!((signed int)(pollset_link1->p->pollset + (signed long int)i)->revents == 0))
         {
-          if(!((4u & pollset$link1->flags) == 0u))
-            tmp_if_expr$2$link1 = (signed int)(pollset$link1->p->query_set + (signed long int)i)->desc_type == APR_POLL_FILE ? (_Bool)1 : (_Bool)0;
+          if(!((4u & pollset_link1->flags) == 0u))
+            tmp_if_expr_2_link1 = (signed int)(pollset_link1->p->query_set + (signed long int)i)->desc_type == APR_POLL_FILE ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2$link1 = (_Bool)0;
-          if(tmp_if_expr$2$link1)
-            tmp_if_expr$3$link1 = (pollset$link1->p->query_set + (signed long int)i)->desc.f == pollset$link1->wakeup_pipe[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2_link1 = (_Bool)0;
+          if(tmp_if_expr_2_link1)
+            tmp_if_expr_3_link1 = (pollset_link1->p->query_set + (signed long int)i)->desc.f == pollset_link1->wakeup_pipe[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3$link1 = (_Bool)0;
-          if(tmp_if_expr$3$link1)
+            tmp_if_expr_3_link1 = (_Bool)0;
+          if(tmp_if_expr_3_link1)
           {
-            apr_pollset_drain_wakeup_pipe(pollset$link1);
-            rv$link1 = 4;
+            apr_pollset_drain_wakeup_pipe(pollset_link1);
+            rv_link1 = 4;
           }
 
           else
           {
-            pollset$link1->p->result_set[(signed long int)j] = pollset$link1->p->query_set[(signed long int)i];
-            (pollset$link1->p->result_set + (signed long int)j)->rtnevents=get_revent((pollset$link1->p->pollset + (signed long int)i)->revents);
+            pollset_link1->p->result_set[(signed long int)j] = pollset_link1->p->query_set[(signed long int)i];
+            (pollset_link1->p->result_set + (signed long int)j)->rtnevents=get_revent((pollset_link1->p->pollset + (signed long int)i)->revents);
             j = j + 1u;
           }
         }
 
-      *num$link1 = (signed int)j;
-      if(*num$link1 >= 1)
-        rv$link1 = 0;
+      *num_link1 = (signed int)j;
+      if(*num_link1 >= 1)
+        rv_link1 = 0;
 
     }
-  if(!(descriptors$link1 == ((const struct apr_pollfd_t **)NULL)))
+  if(!(descriptors_link1 == ((const struct apr_pollfd_t **)NULL)))
   {
-    if(!(*num$link1 == 0))
-      *descriptors$link1 = pollset$link1->p->result_set;
+    if(!(*num_link1 == 0))
+      *descriptors_link1 = pollset_link1->p->result_set;
 
   }
 
-  return rv$link1;
+  return rv_link1;
 }
 
-// impl_pollset_poll$link2
+// impl_pollset_poll_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/select.c line 339
-static signed int impl_pollset_poll$link2(struct apr_pollset_t$1 *pollset$link2, signed long int timeout$link2, signed int *num$link2, const struct apr_pollfd_t **descriptors$link2)
+static signed int impl_pollset_poll_link2(struct apr_pollset_t_1 *pollset_link2, signed long int timeout_link2, signed int *num_link2, const struct apr_pollfd_t **descriptors_link2)
 {
   signed int rs;
-  unsigned int i$link1;
-  unsigned int j$link1;
+  unsigned int i_link1;
+  unsigned int j_link1;
   struct timeval tv;
   struct timeval *tvptr;
-  struct anonymous$25 readset;
-  struct anonymous$25 writeset;
-  struct anonymous$25 exceptset;
-  signed int rv$link2 = 0;
-  if(!(timeout$link2 >= 0l))
+  struct anonymous_25 readset;
+  struct anonymous_25 writeset;
+  struct anonymous_25 exceptset;
+  signed int rv_link2 = 0;
+  if(!(timeout_link2 >= 0l))
     tvptr = (struct timeval *)(void *)0;
 
   else
   {
-    tv.tv_sec = (signed long int)(timeout$link2 / 1000000L);
-    tv.tv_usec = (signed long int)(timeout$link2 % 1000000L);
+    tv.tv_sec = (signed long int)(timeout_link2 / 1000000L);
+    tv.tv_usec = (signed long int)(timeout_link2 % 1000000L);
     tvptr = &tv;
   }
-  memcpy((void *)&readset, (const void *)&pollset$link2->p->readset, sizeof(struct anonymous$25) /*128ul*/ );
-  memcpy((void *)&writeset, (const void *)&pollset$link2->p->writeset, sizeof(struct anonymous$25) /*128ul*/ );
-  memcpy((void *)&exceptset, (const void *)&pollset$link2->p->exceptset, sizeof(struct anonymous$25) /*128ul*/ );
-  rs=select(pollset$link2->p->maxfd + 1, &readset, &writeset, &exceptset, tvptr);
-  *num$link2 = rs;
+  memcpy((void *)&readset, (const void *)&pollset_link2->p->readset, sizeof(struct anonymous_25) /*128ul*/ );
+  memcpy((void *)&writeset, (const void *)&pollset_link2->p->writeset, sizeof(struct anonymous_25) /*128ul*/ );
+  memcpy((void *)&exceptset, (const void *)&pollset_link2->p->exceptset, sizeof(struct anonymous_25) /*128ul*/ );
+  rs=select(pollset_link2->p->maxfd + 1, &readset, &writeset, &exceptset, tvptr);
+  *num_link2 = rs;
   if(!(rs >= 0))
   {
-    signed int *return_value___errno_location$1$link2;
-    return_value___errno_location$1$link2=__errno_location();
-    return *return_value___errno_location$1$link2;
+    signed int *return_value___errno_location_1_link2;
+    return_value___errno_location_1_link2=__errno_location();
+    return *return_value___errno_location_1_link2;
   }
 
-  _Bool tmp_if_expr$2$link2;
-  _Bool tmp_if_expr$3$link2;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_2_link2;
+  _Bool tmp_if_expr_3_link2;
+  _Bool tmp_if_expr_4;
   if(rs == 0)
     return 20000 + 50000 + 7;
 
   else
   {
-    j$link1 = (unsigned int)0;
-    i$link1 = (unsigned int)0;
-    for( ; !(i$link1 >= pollset$link2->nelts); i$link1 = i$link1 + 1u)
+    j_link1 = (unsigned int)0;
+    i_link1 = (unsigned int)0;
+    for( ; !(i_link1 >= pollset_link2->nelts); i_link1 = i_link1 + 1u)
     {
       signed int fd;
-      if((signed int)(pollset$link2->p->query_set + (signed long int)i$link1)->desc_type == APR_POLL_SOCKET)
-        fd = (pollset$link2->p->query_set + (signed long int)i$link1)->desc.s->socketdes;
+      if((signed int)(pollset_link2->p->query_set + (signed long int)i_link1)->desc_type == APR_POLL_SOCKET)
+        fd = (pollset_link2->p->query_set + (signed long int)i_link1)->desc.s->socketdes;
 
       else
       {
-        if(!((4u & pollset$link2->flags) == 0u))
-          tmp_if_expr$2$link2 = (pollset$link2->p->query_set + (signed long int)i$link1)->desc.f == pollset$link2->wakeup_pipe[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+        if(!((4u & pollset_link2->flags) == 0u))
+          tmp_if_expr_2_link2 = (pollset_link2->p->query_set + (signed long int)i_link1)->desc.f == pollset_link2->wakeup_pipe[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2$link2 = (_Bool)0;
-        if(tmp_if_expr$2$link2)
+          tmp_if_expr_2_link2 = (_Bool)0;
+        if(tmp_if_expr_2_link2)
         {
-          apr_pollset_drain_wakeup_pipe(pollset$link2);
-          rv$link2 = 4;
+          apr_pollset_drain_wakeup_pipe(pollset_link2);
+          rv_link2 = 4;
           goto __CPROVER_DUMP_L19;
         }
 
         else
-          fd = (pollset$link2->p->query_set + (signed long int)i$link1)->desc.f->filedes;
+          fd = (pollset_link2->p->query_set + (signed long int)i_link1)->desc.f->filedes;
       }
       if(!((readset.fds_bits[(signed long int)(fd / 8)] & (signed long int)(1UL << fd % 8)) == 0l))
-        tmp_if_expr$3$link2 = (_Bool)1;
+        tmp_if_expr_3_link2 = (_Bool)1;
 
       else
-        tmp_if_expr$3$link2 = ((&writeset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & (signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ))) != (signed long int)0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3$link2)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_3_link2 = ((&writeset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & (signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ))) != (signed long int)0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3_link2)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = ((&exceptset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & (signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ))) != (signed long int)0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = ((&exceptset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & (signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ))) != (signed long int)0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
       {
-        pollset$link2->p->result_set[(signed long int)j$link1] = pollset$link2->p->query_set[(signed long int)i$link1];
-        (pollset$link2->p->result_set + (signed long int)j$link1)->rtnevents = (signed short int)0;
+        pollset_link2->p->result_set[(signed long int)j_link1] = pollset_link2->p->query_set[(signed long int)i_link1];
+        (pollset_link2->p->result_set + (signed long int)j_link1)->rtnevents = (signed short int)0;
         if(!((readset.fds_bits[(signed long int)(fd / 8)] & (signed long int)(1UL << fd % 8)) == 0l))
-          (pollset$link2->p->result_set + (signed long int)j$link1)->rtnevents = (pollset$link2->p->result_set + (signed long int)j$link1)->rtnevents | (signed short int)0x001;
+          (pollset_link2->p->result_set + (signed long int)j_link1)->rtnevents = (pollset_link2->p->result_set + (signed long int)j_link1)->rtnevents | (signed short int)0x001;
 
         if(!((writeset.fds_bits[(signed long int)(fd / 8)] & (signed long int)(1UL << fd % 8)) == 0l))
-          (pollset$link2->p->result_set + (signed long int)j$link1)->rtnevents = (pollset$link2->p->result_set + (signed long int)j$link1)->rtnevents | (signed short int)0x004;
+          (pollset_link2->p->result_set + (signed long int)j_link1)->rtnevents = (pollset_link2->p->result_set + (signed long int)j_link1)->rtnevents | (signed short int)0x004;
 
         if(!((exceptset.fds_bits[(signed long int)(fd / 8)] & (signed long int)(1UL << fd % 8)) == 0l))
-          (pollset$link2->p->result_set + (signed long int)j$link1)->rtnevents = (pollset$link2->p->result_set + (signed long int)j$link1)->rtnevents | (signed short int)0x010;
+          (pollset_link2->p->result_set + (signed long int)j_link1)->rtnevents = (pollset_link2->p->result_set + (signed long int)j_link1)->rtnevents | (signed short int)0x010;
 
-        j$link1 = j$link1 + 1u;
+        j_link1 = j_link1 + 1u;
       }
 
 
     __CPROVER_DUMP_L19:
       ;
     }
-    *num$link2 = (signed int)j$link1;
-    if(!(*num$link2 == 0))
-      rv$link2 = 0;
+    *num_link2 = (signed int)j_link1;
+    if(!(*num_link2 == 0))
+      rv_link2 = 0;
 
-    if(!(descriptors$link2 == ((const struct apr_pollfd_t **)NULL)))
-      *descriptors$link2 = pollset$link2->p->result_set;
+    if(!(descriptors_link2 == ((const struct apr_pollfd_t **)NULL)))
+      *descriptors_link2 = pollset_link2->p->result_set;
 
-    return rv$link2;
+    return rv_link2;
   }
 }
 
@@ -27109,26 +27109,26 @@ static signed int impl_pollset_remove(struct apr_pollset_t *pollset, const struc
   return rv;
 }
 
-// impl_pollset_remove$link1
+// impl_pollset_remove_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 208
-static signed int impl_pollset_remove$link1(struct apr_pollset_t$0 *pollset$link1, const struct apr_pollfd_t *descriptor$link1)
+static signed int impl_pollset_remove_link1(struct apr_pollset_t_0 *pollset_link1, const struct apr_pollfd_t *descriptor_link1)
 {
   unsigned int i = (unsigned int)0;
-  for( ; !(i >= pollset$link1->nelts); i = i + 1u)
-    if(descriptor$link1->desc.s == (pollset$link1->p->query_set + (signed long int)i)->desc.s)
+  for( ; !(i >= pollset_link1->nelts); i = i + 1u)
+    if(descriptor_link1->desc.s == (pollset_link1->p->query_set + (signed long int)i)->desc.s)
     {
       unsigned int dst = i;
-      unsigned int old_nelts = pollset$link1->nelts;
-      pollset$link1->nelts = pollset$link1->nelts - 1u;
+      unsigned int old_nelts = pollset_link1->nelts;
+      pollset_link1->nelts = pollset_link1->nelts - 1u;
       i = i + 1u;
       for( ; !(i >= old_nelts); i = i + 1u)
-        if(descriptor$link1->desc.s == (pollset$link1->p->query_set + (signed long int)i)->desc.s)
-          pollset$link1->nelts = pollset$link1->nelts - 1u;
+        if(descriptor_link1->desc.s == (pollset_link1->p->query_set + (signed long int)i)->desc.s)
+          pollset_link1->nelts = pollset_link1->nelts - 1u;
 
         else
         {
-          pollset$link1->p->pollset[(signed long int)dst] = pollset$link1->p->pollset[(signed long int)i];
-          pollset$link1->p->query_set[(signed long int)dst] = pollset$link1->p->query_set[(signed long int)i];
+          pollset_link1->p->pollset[(signed long int)dst] = pollset_link1->p->pollset[(signed long int)i];
+          pollset_link1->p->query_set[(signed long int)dst] = pollset_link1->p->query_set[(signed long int)i];
           dst = dst + 1u;
         }
       return 0;
@@ -27137,41 +27137,41 @@ static signed int impl_pollset_remove$link1(struct apr_pollset_t$0 *pollset$link
   return 20000 + 50000 + 15;
 }
 
-// impl_pollset_remove$link2
+// impl_pollset_remove_link2
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/select.c line 294
-static signed int impl_pollset_remove$link2(struct apr_pollset_t$1 *pollset$link2, const struct apr_pollfd_t *descriptor$link2)
+static signed int impl_pollset_remove_link2(struct apr_pollset_t_1 *pollset_link2, const struct apr_pollfd_t *descriptor_link2)
 {
-  unsigned int i$link1;
+  unsigned int i_link1;
   signed int fd;
-  if((signed int)descriptor$link2->desc_type == APR_POLL_SOCKET)
-    fd = descriptor$link2->desc.s->socketdes;
+  if((signed int)descriptor_link2->desc_type == APR_POLL_SOCKET)
+    fd = descriptor_link2->desc.s->socketdes;
 
   else
-    fd = descriptor$link2->desc.f->filedes;
-  i$link1 = (unsigned int)0;
-  for( ; !(i$link1 >= pollset$link2->nelts); i$link1 = i$link1 + 1u)
-    if(descriptor$link2->desc.s == (pollset$link2->p->query_set + (signed long int)i$link1)->desc.s)
+    fd = descriptor_link2->desc.f->filedes;
+  i_link1 = (unsigned int)0;
+  for( ; !(i_link1 >= pollset_link2->nelts); i_link1 = i_link1 + 1u)
+    if(descriptor_link2->desc.s == (pollset_link2->p->query_set + (signed long int)i_link1)->desc.s)
     {
-      unsigned int dst = i$link1;
-      unsigned int old_nelts = pollset$link2->nelts;
-      pollset$link2->nelts = pollset$link2->nelts - 1u;
-      i$link1 = i$link1 + 1u;
-      for( ; !(i$link1 >= old_nelts); i$link1 = i$link1 + 1u)
-        if(descriptor$link2->desc.s == (pollset$link2->p->query_set + (signed long int)i$link1)->desc.s)
-          pollset$link2->nelts = pollset$link2->nelts - 1u;
+      unsigned int dst = i_link1;
+      unsigned int old_nelts = pollset_link2->nelts;
+      pollset_link2->nelts = pollset_link2->nelts - 1u;
+      i_link1 = i_link1 + 1u;
+      for( ; !(i_link1 >= old_nelts); i_link1 = i_link1 + 1u)
+        if(descriptor_link2->desc.s == (pollset_link2->p->query_set + (signed long int)i_link1)->desc.s)
+          pollset_link2->nelts = pollset_link2->nelts - 1u;
 
         else
         {
-          pollset$link2->p->query_set[(signed long int)dst] = pollset$link2->p->query_set[(signed long int)i$link1];
+          pollset_link2->p->query_set[(signed long int)dst] = pollset_link2->p->query_set[(signed long int)i_link1];
           dst = dst + 1u;
         }
-      (&pollset$link2->p->readset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&pollset$link2->p->readset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ )));
-      (&pollset$link2->p->writeset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&pollset$link2->p->writeset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ )));
-      (&pollset$link2->p->exceptset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&pollset$link2->p->exceptset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ )));
-      if(fd == pollset$link2->p->maxfd)
+      (&pollset_link2->p->readset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&pollset_link2->p->readset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ )));
+      (&pollset_link2->p->writeset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&pollset_link2->p->writeset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ )));
+      (&pollset_link2->p->exceptset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&pollset_link2->p->exceptset)->fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ )));
+      if(fd == pollset_link2->p->maxfd)
       {
-        if(pollset$link2->p->maxfd >= 1)
-          pollset$link2->p->maxfd = pollset$link2->p->maxfd - 1;
+        if(pollset_link2->p->maxfd >= 1)
+          pollset_link2->p->maxfd = pollset_link2->p->maxfd - 1;
 
       }
 
@@ -27207,51 +27207,51 @@ static const char * inet_ntop4(const unsigned char *src, char *dst, unsigned lon
   char *next = dst;
   if(!(size >= MIN_SIZE))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 28;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 28;
     return (const char *)(void *)0;
   }
 
-  const unsigned char *tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
-  char *tmp_post$5;
-  char *tmp_post$6;
-  char *tmp_post$7;
+  const unsigned char *tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
+  char *tmp_post_5;
+  char *tmp_post_6;
+  char *tmp_post_7;
   do
   {
     unsigned char u;
-    tmp_post$2 = src;
+    tmp_post_2 = src;
     src = src + 1l;
-    u = *tmp_post$2;
+    u = *tmp_post_2;
     if((signed int)u >= 100)
     {
-      tmp_post$3 = next;
+      tmp_post_3 = next;
       next = next + 1l;
-      *tmp_post$3 = (char)(48 + (signed int)u / 100);
+      *tmp_post_3 = (char)(48 + (signed int)u / 100);
       u = u % (unsigned char)100;
-      tmp_post$4 = next;
+      tmp_post_4 = next;
       next = next + 1l;
-      *tmp_post$4 = (char)(48 + (signed int)u / 10);
+      *tmp_post_4 = (char)(48 + (signed int)u / 10);
       u = u % (unsigned char)10;
     }
 
     else
       if((signed int)u >= 10)
       {
-        tmp_post$5 = next;
+        tmp_post_5 = next;
         next = next + 1l;
-        *tmp_post$5 = (char)(48 + (signed int)u / 10);
+        *tmp_post_5 = (char)(48 + (signed int)u / 10);
         u = u % (unsigned char)10;
       }
 
-    tmp_post$6 = next;
+    tmp_post_6 = next;
     next = next + 1l;
-    *tmp_post$6 = (char)(48 + (signed int)u);
-    tmp_post$7 = next;
+    *tmp_post_6 = (char)(48 + (signed int)u);
+    tmp_post_7 = next;
     next = next + 1l;
-    *tmp_post$7 = (char)46;
+    *tmp_post_7 = (char)46;
     n = n + 1;
   }
   while(!(n >= 4));
@@ -27267,7 +27267,7 @@ static const char * inet_ntop6(const unsigned char *src, char *dst, unsigned lon
   char tmp[(signed long int)sizeof(char [46l]) /*46l*/ ];
   char *tp;
   /* tag-#anon#lST[S32'base'||S32'len'|] */
-struct anonymous$6
+struct anonymous_6
 {
   // base
   signed int base;
@@ -27277,8 +27277,8 @@ struct anonymous$6
 
 /* */
   ;
-  struct anonymous$6 best = { .base=-1, .len=0 };
-  struct anonymous$6 cur = { .base=-1, .len=0 };
+  struct anonymous_6 best = { .base=-1, .len=0 };
+  struct anonymous_6 cur = { .base=-1, .len=0 };
   unsigned int words[8l];
   signed int i;
   const unsigned char *next_src;
@@ -27288,22 +27288,22 @@ struct anonymous$6
   src_end = src + (signed long int)16;
   next_dest = words;
   i = 0;
-  const unsigned char *tmp_post$1;
-  const unsigned char *tmp_post$2;
-  unsigned int *tmp_post$3;
+  const unsigned char *tmp_post_1;
+  const unsigned char *tmp_post_2;
+  unsigned int *tmp_post_3;
   do
   {
     unsigned int next_word;
-    tmp_post$1 = next_src;
+    tmp_post_1 = next_src;
     next_src = next_src + 1l;
-    next_word = (unsigned int)*tmp_post$1;
+    next_word = (unsigned int)*tmp_post_1;
     next_word = next_word << 8;
-    tmp_post$2 = next_src;
+    tmp_post_2 = next_src;
     next_src = next_src + 1l;
-    next_word = next_word | (unsigned int)*tmp_post$2;
-    tmp_post$3 = next_dest;
+    next_word = next_word | (unsigned int)*tmp_post_2;
+    tmp_post_3 = next_dest;
     next_dest = next_dest + 1l;
-    *tmp_post$3 = next_word;
+    *tmp_post_3 = next_word;
     if(next_word == 0u)
     {
       if(cur.base == -1)
@@ -27340,16 +27340,16 @@ struct anonymous$6
 
   tp = tmp;
   i = 0;
-  char *tmp_post$4;
-  char *tmp_post$5;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$8;
+  char *tmp_post_4;
+  char *tmp_post_5;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_8;
   while(!((unsigned long int)i >= 8ul))
     if(i == best.base)
     {
-      tmp_post$4 = tp;
+      tmp_post_4 = tp;
       tp = tp + 1l;
-      *tmp_post$4 = (char)58;
+      *tmp_post_4 = (char)58;
       i = i + best.len;
     }
 
@@ -27357,61 +27357,61 @@ struct anonymous$6
     {
       if(!(i == 0))
       {
-        tmp_post$5 = tp;
+        tmp_post_5 = tp;
         tp = tp + 1l;
-        *tmp_post$5 = (char)58;
+        *tmp_post_5 = (char)58;
       }
 
       if(best.base == 0 && i == 6)
       {
         if(best.len == 6)
-          tmp_if_expr$9 = (_Bool)1;
+          tmp_if_expr_9 = (_Bool)1;
 
         else
         {
           if(best.len == 5)
-            tmp_if_expr$8 = words[(signed long int)5] == (unsigned int)0xffff ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_8 = words[(signed long int)5] == (unsigned int)0xffff ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$8 = (_Bool)0;
-          tmp_if_expr$9 = tmp_if_expr$8 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_8 = (_Bool)0;
+          tmp_if_expr_9 = tmp_if_expr_8 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$9)
+        if(tmp_if_expr_9)
         {
-          const char *return_value_inet_ntop4$6;
-          return_value_inet_ntop4$6=inet_ntop4(src + (signed long int)12, tp, sizeof(char [46l]) /*46ul*/  - (unsigned long int)(tp - tmp));
-          if(return_value_inet_ntop4$6 == ((const char *)NULL))
+          const char *return_value_inet_ntop4_6;
+          return_value_inet_ntop4_6=inet_ntop4(src + (signed long int)12, tp, sizeof(char [46l]) /*46ul*/  - (unsigned long int)(tp - tmp));
+          if(return_value_inet_ntop4_6 == ((const char *)NULL))
             return (const char *)(void *)0;
 
-          unsigned long int return_value_strlen$7;
-          return_value_strlen$7=strlen(tp);
-          tp = tp + (signed long int)return_value_strlen$7;
+          unsigned long int return_value_strlen_7;
+          return_value_strlen_7=strlen(tp);
+          tp = tp + (signed long int)return_value_strlen_7;
           break;
         }
 
       }
 
-      signed int return_value_apr_snprintf$10;
-      return_value_apr_snprintf$10=apr_snprintf(tp, sizeof(char [46l]) /*46ul*/  - (unsigned long int)(tp - tmp), "%x", words[(signed long int)i]);
-      tp = tp + (signed long int)return_value_apr_snprintf$10;
+      signed int return_value_apr_snprintf_10;
+      return_value_apr_snprintf_10=apr_snprintf(tp, sizeof(char [46l]) /*46ul*/  - (unsigned long int)(tp - tmp), "%x", words[(signed long int)i]);
+      tp = tp + (signed long int)return_value_apr_snprintf_10;
       i = i + 1;
     }
-  char *tmp_post$11;
+  char *tmp_post_11;
   if((unsigned long int)(best.base + best.len) == 8ul && !(best.base == -1))
   {
-    tmp_post$11 = tp;
+    tmp_post_11 = tp;
     tp = tp + 1l;
-    *tmp_post$11 = (char)58;
+    *tmp_post_11 = (char)58;
   }
 
-  char *tmp_post$12 = tp;
+  char *tmp_post_12 = tp;
   tp = tp + 1l;
-  *tmp_post$12 = (char)0;
+  *tmp_post_12 = (char)0;
   if(!(size >= (unsigned long int)(tp - tmp)))
   {
-    signed int *return_value___errno_location$13;
-    return_value___errno_location$13=__errno_location();
-    *return_value___errno_location$13 = 28;
+    signed int *return_value___errno_location_13;
+    return_value___errno_location_13=__errno_location();
+    *return_value___errno_location_13 = 28;
     return (const char *)(void *)0;
   }
 
@@ -27432,12 +27432,12 @@ static signed int inet_pton4(const char *src, unsigned char *dst)
   octets = 0;
   tp = tmp;
   *tp = (unsigned char)0;
-  const char *tmp_post$1;
+  const char *tmp_post_1;
   do
   {
-    tmp_post$1 = src;
+    tmp_post_1 = src;
     src = src + 1l;
-    ch = (signed int)*tmp_post$1;
+    ch = (signed int)*tmp_post_1;
     if(ch == 0)
       break;
 
@@ -27504,12 +27504,12 @@ static signed int inet_pton6(const char *src, unsigned char *dst)
   memset((void *)tp, 0, (unsigned long int)16);
   endp = tp + (signed long int)16;
   colonp = (unsigned char *)(void *)0;
-  const char *tmp_post$1;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
-  signed int return_value_inet_pton4$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
+  const char *tmp_post_1;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
+  signed int return_value_inet_pton4_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
   if((signed int)*src == 58)
   {
     src = src + 1l;
@@ -27529,9 +27529,9 @@ static signed int inet_pton6(const char *src, unsigned char *dst)
     val = (unsigned int)0;
     do
     {
-      tmp_post$1 = src;
+      tmp_post_1 = src;
       src = src + 1l;
-      ch = (signed int)*tmp_post$1;
+      ch = (signed int)*tmp_post_1;
       if(ch == 0)
         break;
 
@@ -27572,12 +27572,12 @@ static signed int inet_pton6(const char *src, unsigned char *dst)
           if(!(endp >= tp + (signed long int)sizeof(signed short int) /*2l*/ ))
             return 0;
 
-          tmp_post$2 = tp;
+          tmp_post_2 = tp;
           tp = tp + 1l;
-          *tmp_post$2 = (unsigned char)((signed int)(unsigned char)(val >> 8) & 0xff);
-          tmp_post$3 = tp;
+          *tmp_post_2 = (unsigned char)((signed int)(unsigned char)(val >> 8) & 0xff);
+          tmp_post_3 = tp;
           tp = tp + 1l;
-          *tmp_post$3 = (unsigned char)((signed int)(unsigned char)val & 0xff);
+          *tmp_post_3 = (unsigned char)((signed int)(unsigned char)val & 0xff);
           saw_xdigit = 0;
           val = (unsigned int)0;
         }
@@ -27586,8 +27586,8 @@ static signed int inet_pton6(const char *src, unsigned char *dst)
         {
           if(ch == 46 && endp >= tp + 4l)
           {
-            return_value_inet_pton4$4=inet_pton4(curtok, tp);
-            if(return_value_inet_pton4$4 >= 1)
+            return_value_inet_pton4_4=inet_pton4(curtok, tp);
+            if(return_value_inet_pton4_4 >= 1)
             {
               tp = tp + (signed long int)4;
               saw_xdigit = 0;
@@ -27605,12 +27605,12 @@ static signed int inet_pton6(const char *src, unsigned char *dst)
       if(!(endp >= tp + (signed long int)sizeof(signed short int) /*2l*/ ))
         return 0;
 
-      tmp_post$5 = tp;
+      tmp_post_5 = tp;
       tp = tp + 1l;
-      *tmp_post$5 = (unsigned char)((signed int)(unsigned char)(val >> 8) & 0xff);
-      tmp_post$6 = tp;
+      *tmp_post_5 = (unsigned char)((signed int)(unsigned char)(val >> 8) & 0xff);
+      tmp_post_6 = tp;
       tp = tp + 1l;
-      *tmp_post$6 = (unsigned char)((signed int)(unsigned char)val & 0xff);
+      *tmp_post_6 = (unsigned char)((signed int)(unsigned char)val & 0xff);
     }
 
     if(!(colonp == ((unsigned char *)NULL)))
@@ -27642,52 +27642,52 @@ static signed int limit_proc(struct apr_procattr_t *attr)
 {
   if(!(attr->limit_cpu == ((struct rlimit *)NULL)))
   {
-    signed int return_value_setrlimit$2;
-    return_value_setrlimit$2=setrlimit((enum __rlimit_resource)RLIMIT_CPU, attr->limit_cpu);
-    if(!(return_value_setrlimit$2 == 0))
+    signed int return_value_setrlimit_2;
+    return_value_setrlimit_2=setrlimit((enum __rlimit_resource)RLIMIT_CPU, attr->limit_cpu);
+    if(!(return_value_setrlimit_2 == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      return *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      return *return_value___errno_location_1;
     }
 
   }
 
   if(!(attr->limit_nproc == ((struct rlimit *)NULL)))
   {
-    signed int return_value_setrlimit$4;
-    return_value_setrlimit$4=setrlimit((enum __rlimit_resource)__RLIMIT_NPROC, attr->limit_nproc);
-    if(!(return_value_setrlimit$4 == 0))
+    signed int return_value_setrlimit_4;
+    return_value_setrlimit_4=setrlimit((enum __rlimit_resource)__RLIMIT_NPROC, attr->limit_nproc);
+    if(!(return_value_setrlimit_4 == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      return *return_value___errno_location$3;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      return *return_value___errno_location_3;
     }
 
   }
 
   if(!(attr->limit_nofile == ((struct rlimit *)NULL)))
   {
-    signed int return_value_setrlimit$6;
-    return_value_setrlimit$6=setrlimit((enum __rlimit_resource)RLIMIT_NOFILE, attr->limit_nofile);
-    if(!(return_value_setrlimit$6 == 0))
+    signed int return_value_setrlimit_6;
+    return_value_setrlimit_6=setrlimit((enum __rlimit_resource)RLIMIT_NOFILE, attr->limit_nofile);
+    if(!(return_value_setrlimit_6 == 0))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      return *return_value___errno_location$5;
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      return *return_value___errno_location_5;
     }
 
   }
 
   if(!(attr->limit_mem == ((struct rlimit *)NULL)))
   {
-    signed int return_value_setrlimit$8;
-    return_value_setrlimit$8=setrlimit((enum __rlimit_resource)RLIMIT_AS, attr->limit_mem);
-    if(!(return_value_setrlimit$8 == 0))
+    signed int return_value_setrlimit_8;
+    return_value_setrlimit_8=setrlimit((enum __rlimit_resource)RLIMIT_AS, attr->limit_mem);
+    if(!(return_value_setrlimit_8 == 0))
     {
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      return *return_value___errno_location$7;
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      return *return_value___errno_location_7;
     }
 
   }
@@ -27699,10 +27699,10 @@ static signed int limit_proc(struct apr_procattr_t *attr)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/network_io/unix/sockaddr.c line 986
 static signed int looks_like_ip(const char *ipstr)
 {
-  char *return_value_strchr$1;
-  return_value_strchr$1=strchr(ipstr, 58);
-  const unsigned short int **return_value___ctype_b_loc$2;
-  if(!(return_value_strchr$1 == ((char *)NULL)))
+  char *return_value_strchr_1;
+  return_value_strchr_1=strchr(ipstr, 58);
+  const unsigned short int **return_value___ctype_b_loc_2;
+  if(!(return_value_strchr_1 == ((char *)NULL)))
     return 1;
 
   else
@@ -27710,8 +27710,8 @@ static signed int looks_like_ip(const char *ipstr)
     for( ; (_Bool)1; ipstr = ipstr + 1l)
       if(!((signed int)*ipstr == 46))
       {
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        if((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)(unsigned char)*ipstr]) == 0)
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        if((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)(unsigned char)*ipstr]) == 0)
           goto __CPROVER_DUMP_L3;
 
       }
@@ -27729,9 +27729,9 @@ signed int main(void)
 {
   char buf[256l];
   signed int bytes;
-  signed long int return_value_read$1;
-  return_value_read$1=read(0, (void *)buf, (unsigned long int)256);
-  bytes = (signed int)return_value_read$1;
+  signed long int return_value_read_1;
+  return_value_read_1=read(0, (void *)buf, (unsigned long int)256);
+  bytes = (signed int)return_value_read_1;
   if(bytes >= 1)
     write(1, (const void *)buf, (unsigned long int)(unsigned int)bytes);
 
@@ -27747,18 +27747,18 @@ static void make_array_core(struct apr_array_header_t *res, struct apr_pool_t *p
 
   if(!(clear == 0))
   {
-    void *return_value_apr_palloc$1;
-    return_value_apr_palloc$1=apr_palloc(p, (unsigned long int)(nelts * elt_size));
-    void *return_value_memset$2;
-    return_value_memset$2=memset(return_value_apr_palloc$1, 0, (unsigned long int)(nelts * elt_size));
-    res->elts = (char *)return_value_memset$2;
+    void *return_value_apr_palloc_1;
+    return_value_apr_palloc_1=apr_palloc(p, (unsigned long int)(nelts * elt_size));
+    void *return_value_memset_2;
+    return_value_memset_2=memset(return_value_apr_palloc_1, 0, (unsigned long int)(nelts * elt_size));
+    res->elts = (char *)return_value_memset_2;
   }
 
   else
   {
-    void *return_value_apr_palloc$3;
-    return_value_apr_palloc$3=apr_palloc(p, (unsigned long int)(nelts * elt_size));
-    res->elts = (char *)return_value_apr_palloc$3;
+    void *return_value_apr_palloc_3;
+    return_value_apr_palloc_3=apr_palloc(p, (unsigned long int)(nelts * elt_size));
+    res->elts = (char *)return_value_apr_palloc_3;
   }
   res->pool = p;
   res->elt_size = elt_size;
@@ -27781,19 +27781,19 @@ static void mix_pid(struct apr_random_t *g, unsigned char *H, signed int pid)
 static void mixer(struct apr_random_t *g, signed int pid)
 {
   unsigned char *H;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(g->insecure_started == 0u))
-    tmp_if_expr$1 = !(g->secure_started != 0u) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = !(g->secure_started != 0u) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  unsigned char *tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = g->H_waiting;
+    tmp_if_expr_1 = (_Bool)0;
+  unsigned char *tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = g->H_waiting;
 
   else
-    tmp_if_expr$2 = g->H;
-  H = tmp_if_expr$2;
+    tmp_if_expr_2 = g->H;
+  H = tmp_if_expr_2;
   mix_pid(g, H, pid);
   if(!(H == g->H))
     mix_pid(g, g->H, pid);
@@ -27829,9 +27829,9 @@ static signed int mmap_cleanup(void *themmap)
 
     else
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      return *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      return *return_value___errno_location_1;
     }
   }
 }
@@ -27845,9 +27845,9 @@ static char * native_strerror(signed int statcode, char *buf, unsigned long int 
   msg=strerror_r(statcode, buf, bufsize);
   if((signed int)*buf == 0)
   {
-    char *return_value_stuffbuffer$1;
-    return_value_stuffbuffer$1=stuffbuffer(buf, bufsize, msg);
-    return return_value_stuffbuffer$1;
+    char *return_value_stuffbuffer_1;
+    return_value_stuffbuffer_1=stuffbuffer(buf, bufsize, msg);
+    return return_value_stuffbuffer_1;
   }
 
   else
@@ -27878,14 +27878,14 @@ static signed int other_child_cleanup(void *data)
 static signed int our_ftok(const char *filename)
 {
   signed long int slen;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(filename);
-  slen = (signed long int)return_value_strlen$1;
-  unsigned int return_value_apr_hashfunc_default$2;
-  return_value_apr_hashfunc_default$2=apr_hashfunc_default(filename, &slen);
-  signed int return_value_ftok$3;
-  return_value_ftok$3=ftok(filename, (signed int)return_value_apr_hashfunc_default$2);
-  return return_value_ftok$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(filename);
+  slen = (signed long int)return_value_strlen_1;
+  unsigned int return_value_apr_hashfunc_default_2;
+  return_value_apr_hashfunc_default_2=apr_hashfunc_default(filename, &slen);
+  signed int return_value_ftok_3;
+  return_value_ftok_3=ftok(filename, (signed int)return_value_apr_hashfunc_default_2);
+  return return_value_ftok_3;
 }
 
 // parse_ip
@@ -27894,28 +27894,28 @@ static signed int parse_ip(struct apr_ipsubnet_t *ipsub, const char *ipstr, sign
 {
   signed int rc;
   rc=apr_inet_pton(10, ipstr, (void *)ipsub->sub);
-  _Bool tmp_statement_expression$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  unsigned int return_value_htonl$3;
+  _Bool tmp_statement_expression_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  unsigned int return_value_htonl_3;
   if(rc == 1)
   {
     struct in6_addr *__a = (struct in6_addr *)ipsub->sub;
     if(__a->__in6_u.__u6_addr32[0l] == 0u)
-      tmp_if_expr$2 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
-      return_value_htonl$3=htonl((unsigned int)0xffff);
-      tmp_if_expr$4 = __a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl$3 ? (_Bool)1 : (_Bool)0;
+      return_value_htonl_3=htonl((unsigned int)0xffff);
+      tmp_if_expr_4 = __a->__in6_u.__u6_addr32[(signed long int)2] == return_value_htonl_3 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    tmp_statement_expression$1 = tmp_if_expr$4;
-    if(tmp_statement_expression$1)
+      tmp_if_expr_4 = (_Bool)0;
+    tmp_statement_expression_1 = tmp_if_expr_4;
+    if(tmp_statement_expression_1)
       return 20000 + 16;
 
     ipsub->family = 10;
@@ -27932,9 +27932,9 @@ static signed int parse_ip(struct apr_ipsubnet_t *ipsub, const char *ipstr, sign
   {
     if(!(network_allowed == 0))
     {
-      signed int return_value_parse_network$5;
-      return_value_parse_network$5=parse_network(ipsub, ipstr);
-      return return_value_parse_network$5;
+      signed int return_value_parse_network_5;
+      return_value_parse_network_5=parse_network(ipsub, ipstr);
+      return return_value_parse_network_5;
     }
 
     return 20000 + 16;
@@ -27953,9 +27953,9 @@ static signed int parse_network(struct apr_ipsubnet_t *ipsub, const char *networ
   char *t;
   signed int octet;
   char buf[(signed long int)sizeof(char [16l]) /*16l*/ ];
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(network);
-  if(!(return_value_strlen$1 >= sizeof(char [16l]) /*16ul*/ ))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(network);
+  if(!(return_value_strlen_1 >= sizeof(char [16l]) /*16ul*/ ))
     strcpy(buf, network);
 
   else
@@ -27964,20 +27964,20 @@ static signed int parse_network(struct apr_ipsubnet_t *ipsub, const char *networ
   ipsub->sub[(signed long int)0] = (unsigned int)0;
   ipsub->mask[(signed long int)0] = (unsigned int)0;
   shift = 24;
-  const unsigned short int **return_value___ctype_b_loc$3;
-  char *tmp_post$4;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  char *tmp_post_4;
   while(!(*s == 0))
   {
     t = s;
-    const unsigned short int **return_value___ctype_b_loc$2;
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)(unsigned char)*t]) == 0)
+    const unsigned short int **return_value___ctype_b_loc_2;
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)(unsigned char)*t]) == 0)
       return 20000 + 16;
 
     do
     {
-      return_value___ctype_b_loc$3=__ctype_b_loc();
-      if((2048 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)(unsigned char)*t]) == 0)
+      return_value___ctype_b_loc_3=__ctype_b_loc();
+      if((2048 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)(unsigned char)*t]) == 0)
         break;
 
       t = t + 1l;
@@ -27985,9 +27985,9 @@ static signed int parse_network(struct apr_ipsubnet_t *ipsub, const char *networ
     while((_Bool)1);
     if((signed int)*t == 46)
     {
-      tmp_post$4 = t;
+      tmp_post_4 = t;
       t = t + 1l;
-      *tmp_post$4 = (char)0;
+      *tmp_post_4 = (char)0;
     }
 
     else
@@ -28023,11 +28023,11 @@ static const char * path_canonicalize(const char *path, struct apr_pool_t *pool)
     if(!((signed int)path[-1l + (signed long int)len] == 47))
       break;
 
-  char *return_value_apr_pstrndup$1;
+  char *return_value_apr_pstrndup_1;
   if(!(len == orig_len))
   {
-    return_value_apr_pstrndup$1=apr_pstrndup(pool, path, len);
-    return return_value_apr_pstrndup$1;
+    return_value_apr_pstrndup_1=apr_pstrndup(pool, path, len);
+    return return_value_apr_pstrndup_1;
   }
 
   else
@@ -28041,16 +28041,16 @@ static char * path_remove_last_component(const char *path, struct apr_pool_t *po
   const char *newpath;
   newpath=path_canonicalize(path, pool);
   signed int i;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(newpath);
-  i = (signed int)(return_value_strlen$1 - (unsigned long int)1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(newpath);
+  i = (signed int)(return_value_strlen_1 - (unsigned long int)1);
   for( ; i >= 0; i = i - 1)
     if((signed int)path[(signed long int)i] == 47)
       break;
 
-  char *return_value_apr_pstrndup$2;
-  return_value_apr_pstrndup$2=apr_pstrndup(pool, path, (unsigned long int)(i < 0 ? 0 : i));
-  return return_value_apr_pstrndup$2;
+  char *return_value_apr_pstrndup_2;
+  return_value_apr_pstrndup_2=apr_pstrndup(pool, path, (unsigned long int)(i < 0 ? 0 : i));
+  return return_value_apr_pstrndup_2;
 }
 
 // permute
@@ -28077,16 +28077,16 @@ static signed int pipeblock(struct apr_file_t *thepipe)
   signed int fd_flags;
   fd_flags=fcntl(thepipe->filedes, 3, 0);
   fd_flags = fd_flags & ~04000;
-  signed int return_value_fcntl$2;
-  return_value_fcntl$2=fcntl(thepipe->filedes, 4, fd_flags);
-  if(return_value_fcntl$2 == -1)
+  signed int return_value_fcntl_2;
+  return_value_fcntl_2=fcntl(thepipe->filedes, 4, fd_flags);
+  if(return_value_fcntl_2 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
-  thepipe->blocking = (enum anonymous$2)BLK_ON;
+  thepipe->blocking = (enum anonymous_2)BLK_ON;
   return 0;
 }
 
@@ -28097,22 +28097,22 @@ static signed int pipenonblock(struct apr_file_t *thepipe)
   signed int fd_flags;
   fd_flags=fcntl(thepipe->filedes, 3, 0);
   fd_flags = fd_flags | 04000;
-  signed int return_value_fcntl$2;
-  return_value_fcntl$2=fcntl(thepipe->filedes, 4, fd_flags);
-  if(return_value_fcntl$2 == -1)
+  signed int return_value_fcntl_2;
+  return_value_fcntl_2=fcntl(thepipe->filedes, 4, fd_flags);
+  if(return_value_fcntl_2 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
-  thepipe->blocking = (enum anonymous$2)BLK_OFF;
+  thepipe->blocking = (enum anonymous_2)BLK_OFF;
   return 0;
 }
 
 // pollcb_provider
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/pollcb.c line 44
-static struct apr_pollcb_provider_t * pollcb_provider(enum anonymous$24 method)
+static struct apr_pollcb_provider_t * pollcb_provider(enum anonymous_24 method)
 {
   struct apr_pollcb_provider_t *provider = (struct apr_pollcb_provider_t *)(void *)0;
   switch((signed int)method)
@@ -28173,7 +28173,7 @@ static signed int pollset_cleanup(void *p)
 
 // pollset_provider
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/pollset.c line 174
-static struct apr_pollset_provider_t * pollset_provider(enum anonymous$24 method)
+static struct apr_pollset_provider_t * pollset_provider(enum anonymous_24 method)
 {
   struct apr_pollset_provider_t *provider = (struct apr_pollset_provider_t *)(void *)0;
   switch((signed int)method)
@@ -28210,7 +28210,7 @@ static struct apr_pollset_provider_t * pollset_provider(enum anonymous$24 method
 
 // proc_mutex_choose_method
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/locks/unix/proc_mutex.c line 804
-static signed int proc_mutex_choose_method(struct apr_proc_mutex_t *new_mutex, enum anonymous$5 mech)
+static signed int proc_mutex_choose_method(struct apr_proc_mutex_t *new_mutex, enum anonymous_5 mech)
 {
   switch((signed int)mech)
   {
@@ -28252,7 +28252,7 @@ static signed int proc_mutex_choose_method(struct apr_proc_mutex_t *new_mutex, e
 
 // proc_mutex_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/locks/unix/proc_mutex.c line 876
-static signed int proc_mutex_create(struct apr_proc_mutex_t *new_mutex, enum anonymous$5 mech, const char *fname)
+static signed int proc_mutex_create(struct apr_proc_mutex_t *new_mutex, enum anonymous_5 mech, const char *fname)
 {
   signed int rv;
   rv=proc_mutex_choose_method(new_mutex, mech);
@@ -28276,26 +28276,26 @@ static signed int proc_mutex_create(struct apr_proc_mutex_t *new_mutex, enum ano
 static signed int proc_mutex_fcntl_acquire(struct apr_proc_mutex_t *mutex)
 {
   signed int rc;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     rc=fcntl(mutex->interproc->filedes, 7, &proc_mutex_lock_it);
     if(!(rc >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   if(!(rc >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return *return_value___errno_location$3;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return *return_value___errno_location_3;
   }
 
   mutex->curr_locked = 1;
@@ -28322,9 +28322,9 @@ static signed int proc_mutex_fcntl_cleanup(void *mutex_)
 
   __CPROVER_DUMP_L1:
     ;
-    signed int return_value_apr_file_close$1;
-    return_value_apr_file_close$1=apr_file_close(mutex->interproc);
-    return return_value_apr_file_close$1;
+    signed int return_value_apr_file_close_1;
+    return_value_apr_file_close_1=apr_file_close(mutex->interproc);
+    return return_value_apr_file_close_1;
   }
 }
 
@@ -28362,26 +28362,26 @@ static signed int proc_mutex_fcntl_release(struct apr_proc_mutex_t *mutex)
 {
   signed int rc;
   mutex->curr_locked = 0;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     rc=fcntl(mutex->interproc->filedes, 7, &proc_mutex_unlock_it);
     if(!(rc >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   if(!(rc >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return *return_value___errno_location$3;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return *return_value___errno_location_3;
   }
 
   return 0;
@@ -28408,31 +28408,31 @@ static void proc_mutex_fcntl_setup(void)
 static signed int proc_mutex_fcntl_tryacquire(struct apr_proc_mutex_t *mutex)
 {
   signed int rc;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     rc=fcntl(mutex->interproc->filedes, 6, &proc_mutex_lock_it);
     if(!(rc >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   if(!(rc >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if(*return_value___errno_location$3 == 11)
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if(*return_value___errno_location_3 == 11)
       return 20000 + 50000 + 25;
 
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    return *return_value___errno_location$4;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    return *return_value___errno_location_4;
   }
 
   mutex->curr_locked = 1;
@@ -28444,26 +28444,26 @@ static signed int proc_mutex_fcntl_tryacquire(struct apr_proc_mutex_t *mutex)
 static signed int proc_mutex_flock_acquire(struct apr_proc_mutex_t *mutex)
 {
   signed int rc;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     rc=flock(mutex->interproc->filedes, 2);
     if(!(rc >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   if(!(rc >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return *return_value___errno_location$3;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return *return_value___errno_location_3;
   }
 
   mutex->curr_locked = 1;
@@ -28476,9 +28476,9 @@ static signed int proc_mutex_flock_child_init(struct apr_proc_mutex_t **mutex, s
 {
   struct apr_proc_mutex_t *new_mutex;
   signed int rv;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(pool, sizeof(struct apr_proc_mutex_t) /*64ul*/ );
-  new_mutex = (struct apr_proc_mutex_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(pool, sizeof(struct apr_proc_mutex_t) /*64ul*/ );
+  new_mutex = (struct apr_proc_mutex_t *)return_value_apr_palloc_1;
   memcpy((void *)new_mutex, (const void *)*mutex, sizeof(struct apr_proc_mutex_t) /*64ul*/ );
   new_mutex->pool = pool;
   if(fname == ((const char *)NULL))
@@ -28543,9 +28543,9 @@ static signed int proc_mutex_flock_create(struct apr_proc_mutex_t *new_mutex, co
   if(!(rv == 0))
   {
     proc_mutex_flock_cleanup((void *)new_mutex);
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   new_mutex->curr_locked = 0;
@@ -28559,26 +28559,26 @@ static signed int proc_mutex_flock_release(struct apr_proc_mutex_t *mutex)
 {
   signed int rc;
   mutex->curr_locked = 0;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     rc=flock(mutex->interproc->filedes, 8);
     if(!(rc >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   if(!(rc >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return *return_value___errno_location$3;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return *return_value___errno_location_3;
   }
 
   return 0;
@@ -28589,41 +28589,41 @@ static signed int proc_mutex_flock_release(struct apr_proc_mutex_t *mutex)
 static signed int proc_mutex_flock_tryacquire(struct apr_proc_mutex_t *mutex)
 {
   signed int rc;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     rc=flock(mutex->interproc->filedes, 2 | 4);
     if(!(rc >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
+  while(tmp_if_expr_2);
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
   if(!(rc >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if(*return_value___errno_location$3 == 11)
-      tmp_if_expr$5 = (_Bool)1;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if(*return_value___errno_location_3 == 11)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$4=__errno_location();
-      tmp_if_expr$5 = *return_value___errno_location$4 == 11 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_4=__errno_location();
+      tmp_if_expr_5 = *return_value___errno_location_4 == 11 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
       return 20000 + 50000 + 25;
 
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    return *return_value___errno_location$6;
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    return *return_value___errno_location_6;
   }
 
   mutex->curr_locked = 1;
@@ -28642,26 +28642,26 @@ static signed int proc_mutex_no_child_init(struct apr_proc_mutex_t **mutex, stru
 static signed int proc_mutex_posix_acquire(struct apr_proc_mutex_t *mutex)
 {
   signed int rc;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     rc=sem_wait(mutex->psem_interproc);
     if(!(rc >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   if(!(rc >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return *return_value___errno_location$3;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return *return_value___errno_location_3;
   }
 
   mutex->curr_locked = 1;
@@ -28673,13 +28673,13 @@ static signed int proc_mutex_posix_acquire(struct apr_proc_mutex_t *mutex)
 static signed int proc_mutex_posix_cleanup(void *mutex_)
 {
   struct apr_proc_mutex_t *mutex = (struct apr_proc_mutex_t *)mutex_;
-  signed int return_value_sem_close$2;
-  return_value_sem_close$2=sem_close(mutex->psem_interproc);
-  if(!(return_value_sem_close$2 >= 0))
+  signed int return_value_sem_close_2;
+  return_value_sem_close_2=sem_close(mutex->psem_interproc);
+  if(!(return_value_sem_close_2 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   return 0;
@@ -28689,29 +28689,29 @@ static signed int proc_mutex_posix_cleanup(void *mutex_)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/locks/unix/proc_mutex.c line 70
 static signed int proc_mutex_posix_create(struct apr_proc_mutex_t *new_mutex, const char *fname)
 {
-  union anonymous$3 *psem;
+  union anonymous_3 *psem;
   char semname[32l];
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(new_mutex->pool, sizeof(struct apr_file_t) /*120ul*/ );
-  new_mutex->interproc = (struct apr_file_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(new_mutex->pool, sizeof(struct apr_file_t) /*120ul*/ );
+  new_mutex->interproc = (struct apr_file_t *)return_value_apr_palloc_1;
   if(!(fname == ((const char *)NULL)))
   {
     signed long int flen;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(fname);
-    flen = (signed long int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(fname);
+    flen = (signed long int)return_value_strlen_2;
     char *p;
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(fname);
-    p=apr_pstrndup(new_mutex->pool, fname, return_value_strlen$3);
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(fname);
+    p=apr_pstrndup(new_mutex->pool, fname, return_value_strlen_3);
     unsigned int h1;
     unsigned int h2;
-    unsigned int return_value_apr_hashfunc_default$4;
-    return_value_apr_hashfunc_default$4=apr_hashfunc_default((const char *)p, &flen);
-    h1 = return_value_apr_hashfunc_default$4 & 0xffffffff;
-    unsigned int return_value_rshash$5;
-    return_value_rshash$5=rshash(p);
-    h2 = return_value_rshash$5 & 0xffffffff;
+    unsigned int return_value_apr_hashfunc_default_4;
+    return_value_apr_hashfunc_default_4=apr_hashfunc_default((const char *)p, &flen);
+    h1 = return_value_apr_hashfunc_default_4 & 0xffffffff;
+    unsigned int return_value_rshash_5;
+    return_value_rshash_5=rshash(p);
+    h2 = return_value_rshash_5 & 0xffffffff;
     apr_snprintf(semname, sizeof(char [32l]) /*32ul*/ , "/ApR.%xH%x", h1, h2);
   }
 
@@ -28725,56 +28725,56 @@ static signed int proc_mutex_posix_create(struct apr_proc_mutex_t *new_mutex, co
     usec = (unsigned long int)(now % 1000000L);
     apr_snprintf(semname, sizeof(char [32l]) /*32ul*/ , "/ApR.%lxZ%lx", sec, usec);
   }
-  _Bool tmp_if_expr$7;
-  signed int *return_value___errno_location$6;
+  _Bool tmp_if_expr_7;
+  signed int *return_value___errno_location_6;
   do
   {
     psem=sem_open(semname, 0100 | 0200, 0644, 1);
-    if(psem == ((union anonymous$3 *)NULL))
+    if(psem == ((union anonymous_3 *)NULL))
     {
-      return_value___errno_location$6=__errno_location();
-      tmp_if_expr$7 = *return_value___errno_location$6 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_6=__errno_location();
+      tmp_if_expr_7 = *return_value___errno_location_6 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$7 = (_Bool)0;
+      tmp_if_expr_7 = (_Bool)0;
   }
-  while(tmp_if_expr$7);
-  _Bool tmp_if_expr$11;
-  signed int *return_value___errno_location$10;
-  if(psem == ((union anonymous$3 *)NULL))
+  while(tmp_if_expr_7);
+  _Bool tmp_if_expr_11;
+  signed int *return_value___errno_location_10;
+  if(psem == ((union anonymous_3 *)NULL))
   {
-    signed int *return_value___errno_location$9;
-    return_value___errno_location$9=__errno_location();
-    if(*return_value___errno_location$9 == 36)
+    signed int *return_value___errno_location_9;
+    return_value___errno_location_9=__errno_location();
+    if(*return_value___errno_location_9 == 36)
       semname[(signed long int)13] = (char)0;
 
     else
     {
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      return *return_value___errno_location$8;
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      return *return_value___errno_location_8;
     }
     do
     {
       psem=sem_open(semname, 0100 | 0200, 0644, 1);
-      if(psem == ((union anonymous$3 *)NULL))
+      if(psem == ((union anonymous_3 *)NULL))
       {
-        return_value___errno_location$10=__errno_location();
-        tmp_if_expr$11 = *return_value___errno_location$10 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_10=__errno_location();
+        tmp_if_expr_11 = *return_value___errno_location_10 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$11 = (_Bool)0;
+        tmp_if_expr_11 = (_Bool)0;
     }
-    while(tmp_if_expr$11);
+    while(tmp_if_expr_11);
   }
 
-  if(psem == ((union anonymous$3 *)NULL))
+  if(psem == ((union anonymous_3 *)NULL))
   {
-    signed int *return_value___errno_location$12;
-    return_value___errno_location$12=__errno_location();
-    return *return_value___errno_location$12;
+    signed int *return_value___errno_location_12;
+    return_value___errno_location_12=__errno_location();
+    return *return_value___errno_location_12;
   }
 
   sem_unlink(semname);
@@ -28789,13 +28789,13 @@ static signed int proc_mutex_posix_create(struct apr_proc_mutex_t *new_mutex, co
 static signed int proc_mutex_posix_release(struct apr_proc_mutex_t *mutex)
 {
   mutex->curr_locked = 0;
-  signed int return_value_sem_post$2;
-  return_value_sem_post$2=sem_post(mutex->psem_interproc);
-  if(!(return_value_sem_post$2 >= 0))
+  signed int return_value_sem_post_2;
+  return_value_sem_post_2=sem_post(mutex->psem_interproc);
+  if(!(return_value_sem_post_2 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   return 0;
@@ -28806,31 +28806,31 @@ static signed int proc_mutex_posix_release(struct apr_proc_mutex_t *mutex)
 static signed int proc_mutex_posix_tryacquire(struct apr_proc_mutex_t *mutex)
 {
   signed int rc;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     rc=sem_trywait(mutex->psem_interproc);
     if(!(rc >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   if(!(rc >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if(*return_value___errno_location$3 == 11)
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if(*return_value___errno_location_3 == 11)
       return 20000 + 50000 + 25;
 
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    return *return_value___errno_location$4;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    return *return_value___errno_location_4;
   }
 
   mutex->curr_locked = 1;
@@ -28898,13 +28898,13 @@ static signed int proc_mutex_proc_pthread_cleanup(void *mutex_)
 
     __CPROVER_DUMP_L2:
       ;
-      signed int return_value_munmap$2;
-      return_value_munmap$2=munmap((void *)(char *)mutex->pthread_interproc, sizeof(union anonymous$4) /*40ul*/ );
-      if(!(return_value_munmap$2 == 0))
+      signed int return_value_munmap_2;
+      return_value_munmap_2=munmap((void *)(char *)mutex->pthread_interproc, sizeof(union anonymous_4) /*40ul*/ );
+      if(!(return_value_munmap_2 == 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        return *return_value___errno_location$1;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        return *return_value___errno_location_1;
       }
 
       return 0;
@@ -28918,24 +28918,24 @@ static signed int proc_mutex_proc_pthread_create(struct apr_proc_mutex_t *new_mu
 {
   signed int rv;
   signed int fd;
-  union anonymous$8 mattr;
+  union anonymous_8 mattr;
   fd=open("/dev/zero", 02);
   if(!(fd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
-  void *return_value_mmap$2;
-  return_value_mmap$2=mmap((void *)(char *)0, sizeof(union anonymous$4) /*40ul*/ , 0x1 | 0x2, 0x01, fd, (signed long int)0);
-  new_mutex->pthread_interproc = (union anonymous$4 *)return_value_mmap$2;
-  if(new_mutex->pthread_interproc == (union anonymous$4 *)-1)
+  void *return_value_mmap_2;
+  return_value_mmap_2=mmap((void *)(char *)0, sizeof(union anonymous_4) /*40ul*/ , 0x1 | 0x2, 0x01, fd, (signed long int)0);
+  new_mutex->pthread_interproc = (union anonymous_4 *)return_value_mmap_2;
+  if(new_mutex->pthread_interproc == (union anonymous_4 *)-1)
   {
     close(fd);
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return *return_value___errno_location$3;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return *return_value___errno_location_3;
   }
 
   close(fd);
@@ -29059,26 +29059,26 @@ static signed int proc_mutex_proc_pthread_tryacquire(struct apr_proc_mutex_t *mu
 static signed int proc_mutex_sysv_acquire(struct apr_proc_mutex_t *mutex)
 {
   signed int rc;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     rc=semop(mutex->interproc->filedes, &proc_mutex_op_on, (unsigned long int)1);
     if(!(rc >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   if(!(rc >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return *return_value___errno_location$3;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return *return_value___errno_location_3;
   }
 
   mutex->curr_locked = 1;
@@ -29106,27 +29106,27 @@ static signed int proc_mutex_sysv_create(struct apr_proc_mutex_t *new_mutex, con
 {
   union semun ick;
   signed int rv;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(new_mutex->pool, sizeof(struct apr_file_t) /*120ul*/ );
-  new_mutex->interproc = (struct apr_file_t *)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(new_mutex->pool, sizeof(struct apr_file_t) /*120ul*/ );
+  new_mutex->interproc = (struct apr_file_t *)return_value_apr_palloc_1;
   new_mutex->interproc->filedes=semget((signed int)0, 1, 01000 | 0600);
   if(!(new_mutex->interproc->filedes >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    rv = *return_value___errno_location$2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    rv = *return_value___errno_location_2;
     proc_mutex_sysv_cleanup((void *)new_mutex);
     return rv;
   }
 
   ick.val = 1;
-  signed int return_value_semctl$4;
-  return_value_semctl$4=semctl(new_mutex->interproc->filedes, 0, 16, ick);
-  if(!(return_value_semctl$4 >= 0))
+  signed int return_value_semctl_4;
+  return_value_semctl_4=semctl(new_mutex->interproc->filedes, 0, 16, ick);
+  if(!(return_value_semctl_4 >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    rv = *return_value___errno_location$3;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    rv = *return_value___errno_location_3;
     proc_mutex_sysv_cleanup((void *)new_mutex);
     return rv;
   }
@@ -29142,26 +29142,26 @@ static signed int proc_mutex_sysv_release(struct apr_proc_mutex_t *mutex)
 {
   signed int rc;
   mutex->curr_locked = 0;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     rc=semop(mutex->interproc->filedes, &proc_mutex_op_off, (unsigned long int)1);
     if(!(rc >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   if(!(rc >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    return *return_value___errno_location$3;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    return *return_value___errno_location_3;
   }
 
   return 0;
@@ -29187,31 +29187,31 @@ static void proc_mutex_sysv_setup(void)
 static signed int proc_mutex_sysv_tryacquire(struct apr_proc_mutex_t *mutex)
 {
   signed int rc;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     rc=semop(mutex->interproc->filedes, &proc_mutex_op_try, (unsigned long int)1);
     if(!(rc >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
   }
-  while(tmp_if_expr$2);
+  while(tmp_if_expr_2);
   if(!(rc >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if(*return_value___errno_location$3 == 11)
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if(*return_value___errno_location_3 == 11)
       return 20000 + 50000 + 25;
 
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    return *return_value___errno_location$4;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    return *return_value___errno_location_4;
   }
 
   mutex->curr_locked = 1;
@@ -29239,13 +29239,13 @@ static signed int psprintf_flush(struct apr_vformatter_buff_t *vbuff)
     size = (unsigned long int)32;
 
   node = active->next;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(ps->got_a_new_node == 0)
-    tmp_if_expr$1 = size <= (unsigned long int)(node->endp - node->first_avail) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = size <= (unsigned long int)(node->endp - node->first_avail) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     do
     {
@@ -29337,37 +29337,37 @@ static void rekey(struct apr_random_t *g)
 {
   unsigned int n;
   unsigned char *H;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(g->insecure_started == 0u))
-    tmp_if_expr$1 = !(g->secure_started != 0u) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = !(g->secure_started != 0u) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  unsigned char *tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = g->H_waiting;
+    tmp_if_expr_1 = (_Bool)0;
+  unsigned char *tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = g->H_waiting;
 
   else
-    tmp_if_expr$2 = g->H;
-  H = tmp_if_expr$2;
+    tmp_if_expr_2 = g->H;
+  H = tmp_if_expr_2;
   g->key_hash->init(g->key_hash);
   g->key_hash->add(g->key_hash, (const void *)H, g->prng_hash->size + g->key_hash->size);
   n = (unsigned int)0;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
   if(!(n >= g->npools))
   {
     if(n == 0u)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (g->generation & (unsigned int)(1 << n - (unsigned int)1)) != 0u ? (_Bool)1 : (_Bool)0;
-    tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (g->generation & (unsigned int)(1 << n - (unsigned int)1)) != 0u ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (_Bool)0;
+  if(tmp_if_expr_4)
   {
     g->key_hash->add(g->key_hash, (const void *)(g->pools + (signed long int)n)->pool, (unsigned long int)(g->pools + (signed long int)n)->bytes);
     (g->pools + (signed long int)n)->bytes = (unsigned int)0;
@@ -29405,7 +29405,7 @@ static void rekey(struct apr_random_t *g)
 
 // remove_sync_sigs
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/signals.c line 274
-static void remove_sync_sigs(struct anonymous$31 *sig_mask)
+static void remove_sync_sigs(struct anonymous_31 *sig_mask)
 {
   sigdelset(sig_mask, 6);
   sigdelset(sig_mask, 7);
@@ -29480,11 +29480,11 @@ static void run_cleanups(struct cleanup_t **cref)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/misc/unix/getopt.c line 181
 static signed int serr(struct apr_getopt_t *os, const char *err, const char *str, signed int status)
 {
-  const char *return_value_apr_filepath_name_get$1;
+  const char *return_value_apr_filepath_name_get_1;
   if(!(os->errfn == ((void (*)(void *, const char *, ...))NULL)))
   {
-    return_value_apr_filepath_name_get$1=apr_filepath_name_get(*os->argv);
-    os->errfn(os->errarg, "%s: %s: %s\n", return_value_apr_filepath_name_get$1, err, str);
+    return_value_apr_filepath_name_get_1=apr_filepath_name_get(*os->argv);
+    os->errfn(os->errarg, "%s: %s: %s\n", return_value_apr_filepath_name_get_1, err, str);
   }
 
   return status;
@@ -29519,13 +29519,13 @@ static signed int setptr(struct apr_file_t *thefile, signed long int pos)
   }
 
   newbufpos = (signed long int)((unsigned long int)pos - ((unsigned long int)thefile->filePtr - thefile->dataRead));
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(newbufpos >= 0l)
-    tmp_if_expr$3 = (unsigned long int)newbufpos <= thefile->dataRead ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = (unsigned long int)newbufpos <= thefile->dataRead ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
   {
     thefile->bufpos = (unsigned long int)newbufpos;
     rv = 0;
@@ -29533,9 +29533,9 @@ static signed int setptr(struct apr_file_t *thefile, signed long int pos)
 
   else
   {
-    signed long int return_value_lseek$2;
-    return_value_lseek$2=lseek(thefile->filedes, pos, 0);
-    if(!(return_value_lseek$2 == -1l))
+    signed long int return_value_lseek_2;
+    return_value_lseek_2=lseek(thefile->filedes, pos, 0);
+    if(!(return_value_lseek_2 == -1l))
     {
       thefile->dataRead = (unsigned long int)0;
       thefile->bufpos = thefile->dataRead;
@@ -29545,9 +29545,9 @@ static signed int setptr(struct apr_file_t *thefile, signed long int pos)
 
     else
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      rv = *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      rv = *return_value___errno_location_1;
     }
   }
   return rv;
@@ -29584,13 +29584,13 @@ static signed int shm_cleanup_attach(void *m_)
 
   else
   {
-    signed int return_value_shmdt$2;
-    return_value_shmdt$2=shmdt(m->base);
-    if(return_value_shmdt$2 == -1)
+    signed int return_value_shmdt_2;
+    return_value_shmdt_2=shmdt(m->base);
+    if(return_value_shmdt_2 == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      return *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      return *return_value___errno_location_1;
     }
 
     return 0;
@@ -29602,16 +29602,16 @@ static signed int shm_cleanup_attach(void *m_)
 static signed int shm_cleanup_owner(void *m_)
 {
   struct apr_shm_t *m = (struct apr_shm_t *)m_;
-  signed int *return_value___errno_location$4;
+  signed int *return_value___errno_location_4;
   if(m->filename == ((const char *)NULL))
   {
-    signed int return_value_munmap$2;
-    return_value_munmap$2=munmap(m->base, m->realsize);
-    if(return_value_munmap$2 == -1)
+    signed int return_value_munmap_2;
+    return_value_munmap_2=munmap(m->base, m->realsize);
+    if(return_value_munmap_2 == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      return *return_value___errno_location$1;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      return *return_value___errno_location_1;
     }
 
     return 0;
@@ -29619,39 +29619,39 @@ static signed int shm_cleanup_owner(void *m_)
 
   else
   {
-    signed int return_value_shmctl$5;
-    return_value_shmctl$5=shmctl(m->shmid, 0, (struct shmid_ds *)(void *)0);
-    if(return_value_shmctl$5 == -1)
+    signed int return_value_shmctl_5;
+    return_value_shmctl_5=shmctl(m->shmid, 0, (struct shmid_ds *)(void *)0);
+    if(return_value_shmctl_5 == -1)
     {
-      return_value___errno_location$4=__errno_location();
-      if(!(*return_value___errno_location$4 == 22))
+      return_value___errno_location_4=__errno_location();
+      if(!(*return_value___errno_location_4 == 22))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        return *return_value___errno_location$3;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        return *return_value___errno_location_3;
       }
 
     }
 
-    signed int return_value_shmdt$7;
-    return_value_shmdt$7=shmdt(m->base);
-    if(return_value_shmdt$7 == -1)
+    signed int return_value_shmdt_7;
+    return_value_shmdt_7=shmdt(m->base);
+    if(return_value_shmdt_7 == -1)
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      return *return_value___errno_location$6;
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      return *return_value___errno_location_6;
     }
 
-    signed int return_value_access$9;
-    return_value_access$9=access(m->filename, 0);
-    if(!(return_value_access$9 == 0))
+    signed int return_value_access_9;
+    return_value_access_9=access(m->filename, 0);
+    if(!(return_value_access_9 == 0))
       return 0;
 
     else
     {
-      signed int return_value_apr_file_remove$8;
-      return_value_apr_file_remove$8=apr_file_remove(m->filename, m->pool);
-      return return_value_apr_file_remove$8;
+      signed int return_value_apr_file_remove_8;
+      return_value_apr_file_remove_8=apr_file_remove(m->filename, m->pool);
+      return return_value_apr_file_remove_8;
     }
   }
 }
@@ -29660,22 +29660,22 @@ static signed int shm_cleanup_owner(void *m_)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 203
 static signed int skiplist_free_node(struct apr_skiplist *sl, struct apr_skiplistnode *m)
 {
-  signed int return_value_skiplist_qpush$1;
-  return_value_skiplist_qpush$1=skiplist_qpush(&sl->nodes_q, m);
-  return return_value_skiplist_qpush$1;
+  signed int return_value_skiplist_qpush_1;
+  return_value_skiplist_qpush_1=skiplist_qpush(&sl->nodes_q, m);
+  return return_value_skiplist_qpush_1;
 }
 
 // skiplist_height
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 395
 static inline signed int skiplist_height(const struct apr_skiplist *sl)
 {
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(sl->height == 0))
-    tmp_if_expr$1 = sl->height;
+    tmp_if_expr_1 = sl->height;
 
   else
-    tmp_if_expr$1 = 1;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = 1;
+  return tmp_if_expr_1;
 }
 
 // skiplist_new_node
@@ -29688,16 +29688,16 @@ static struct apr_skiplistnode * skiplist_new_node(struct apr_skiplist *sl)
   {
     if(!(sl->pool == ((struct apr_pool_t *)NULL)))
     {
-      void *return_value_apr_palloc$1;
-      return_value_apr_palloc$1=apr_palloc(sl->pool, sizeof(struct apr_skiplistnode) /*64ul*/ );
-      m = (struct apr_skiplistnode *)return_value_apr_palloc$1;
+      void *return_value_apr_palloc_1;
+      return_value_apr_palloc_1=apr_palloc(sl->pool, sizeof(struct apr_skiplistnode) /*64ul*/ );
+      m = (struct apr_skiplistnode *)return_value_apr_palloc_1;
     }
 
     else
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct apr_skiplistnode) /*64ul*/ );
-      m = (struct apr_skiplistnode *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct apr_skiplistnode) /*64ul*/ );
+      m = (struct apr_skiplistnode *)return_value_malloc_2;
     }
   }
 
@@ -29706,47 +29706,47 @@ static struct apr_skiplistnode * skiplist_new_node(struct apr_skiplist *sl)
 
 // skiplist_qclear
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 184
-static inline void skiplist_qclear(struct anonymous$44 *q)
+static inline void skiplist_qclear(struct anonymous_44 *q)
 {
   q->pos = (unsigned long int)0;
 }
 
 // skiplist_qpop
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 179
-static inline struct apr_skiplistnode * skiplist_qpop(struct anonymous$44 *q)
+static inline struct apr_skiplistnode * skiplist_qpop(struct anonymous_44 *q)
 {
-  struct apr_skiplistnode *tmp_if_expr$1;
+  struct apr_skiplistnode *tmp_if_expr_1;
   if(q->pos >= 1ul)
   {
     q->pos = q->pos - 1ul;
-    tmp_if_expr$1 = q->data[(signed long int)q->pos];
+    tmp_if_expr_1 = q->data[(signed long int)q->pos];
   }
 
   else
-    tmp_if_expr$1 = (struct apr_skiplistnode *)(void *)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (struct apr_skiplistnode *)(void *)0;
+  return tmp_if_expr_1;
 }
 
 // skiplist_qpush
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 155
-static signed int skiplist_qpush(struct anonymous$44 *q, struct apr_skiplistnode *m)
+static signed int skiplist_qpush(struct anonymous_44 *q, struct apr_skiplistnode *m)
 {
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(q->pos >= q->size)
   {
     struct apr_skiplistnode **data;
     unsigned long int size;
     if(!(q->pos == 0ul))
-      tmp_if_expr$1 = q->pos * (unsigned long int)2;
+      tmp_if_expr_1 = q->pos * (unsigned long int)2;
 
     else
-      tmp_if_expr$1 = (unsigned long int)32;
-    size = tmp_if_expr$1;
+      tmp_if_expr_1 = (unsigned long int)32;
+    size = tmp_if_expr_1;
     if(!(q->p == ((struct apr_pool_t *)NULL)))
     {
-      void *return_value_apr_palloc$2;
-      return_value_apr_palloc$2=apr_palloc(q->p, size * sizeof(struct apr_skiplistnode *) /*8ul*/ );
-      data = (struct apr_skiplistnode **)return_value_apr_palloc$2;
+      void *return_value_apr_palloc_2;
+      return_value_apr_palloc_2=apr_palloc(q->p, size * sizeof(struct apr_skiplistnode *) /*8ul*/ );
+      data = (struct apr_skiplistnode **)return_value_apr_palloc_2;
       if(!(data == ((struct apr_skiplistnode **)NULL)))
         memcpy((void *)data, (const void *)q->data, q->pos * sizeof(struct apr_skiplistnode *) /*8ul*/ );
 
@@ -29754,9 +29754,9 @@ static signed int skiplist_qpush(struct anonymous$44 *q, struct apr_skiplistnode
 
     else
     {
-      void *return_value_realloc$3;
-      return_value_realloc$3=realloc((void *)q->data, size * sizeof(struct apr_skiplistnode *) /*8ul*/ );
-      data = (struct apr_skiplistnode **)return_value_realloc$3;
+      void *return_value_realloc_3;
+      return_value_realloc_3=realloc((void *)q->data, size * sizeof(struct apr_skiplistnode *) /*8ul*/ );
+      data = (struct apr_skiplistnode **)return_value_realloc_3;
     }
     if(data == ((struct apr_skiplistnode **)NULL))
       return 12;
@@ -29765,9 +29765,9 @@ static signed int skiplist_qpush(struct anonymous$44 *q, struct apr_skiplistnode
     q->size = size;
   }
 
-  unsigned long int tmp_post$4 = q->pos;
+  unsigned long int tmp_post_4 = q->pos;
   q->pos = q->pos + 1ul;
-  q->data[(signed long int)tmp_post$4] = m;
+  q->data[(signed long int)tmp_post_4] = m;
   return 0;
 }
 
@@ -29823,12 +29823,12 @@ static signed int skiplisti_init(struct apr_skiplist **s, struct apr_pool_t *p)
   struct apr_skiplist *sl;
   if(!(p == ((struct apr_pool_t *)NULL)))
   {
-    void *return_value_apr_palloc$1;
-    return_value_apr_palloc$1=apr_palloc(p, sizeof(struct apr_skiplist) /*152ul*/ );
-    void *return_value_memset$2;
-    return_value_memset$2=memset(return_value_apr_palloc$1, 0, sizeof(struct apr_skiplist) /*152ul*/ );
-    sl = (struct apr_skiplist *)return_value_memset$2;
-    sl->memlist=apr_array_make(p, 20, (signed int)sizeof(struct anonymous$46) /*16ul*/ );
+    void *return_value_apr_palloc_1;
+    return_value_apr_palloc_1=apr_palloc(p, sizeof(struct apr_skiplist) /*152ul*/ );
+    void *return_value_memset_2;
+    return_value_memset_2=memset(return_value_apr_palloc_1, 0, sizeof(struct apr_skiplist) /*152ul*/ );
+    sl = (struct apr_skiplist *)return_value_memset_2;
+    sl->memlist=apr_array_make(p, 20, (signed int)sizeof(struct anonymous_46) /*16ul*/ );
     sl->stack_q.p = p;
     sl->nodes_q.p = sl->stack_q.p;
     sl->pool = sl->nodes_q.p;
@@ -29836,9 +29836,9 @@ static signed int skiplisti_init(struct apr_skiplist **s, struct apr_pool_t *p)
 
   else
   {
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct apr_skiplist) /*152ul*/ );
-    sl = (struct apr_skiplist *)return_value_calloc$3;
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct apr_skiplist) /*152ul*/ );
+    sl = (struct apr_skiplist *)return_value_calloc_3;
     if(sl == ((struct apr_skiplist *)NULL))
       return 12;
 
@@ -29899,9 +29899,9 @@ static signed int skiplisti_remove(struct apr_skiplist *sl, struct apr_skiplistn
       sl->topend = (struct apr_skiplistnode *)(void *)0;
     }
 
-    signed int return_value_skiplist_height$1;
-    return_value_skiplist_height$1=skiplist_height(sl);
-    return return_value_skiplist_height$1;
+    signed int return_value_skiplist_height_1;
+    return_value_skiplist_height_1=skiplist_height(sl);
+    return return_value_skiplist_height_1;
   }
 }
 
@@ -29919,13 +29919,13 @@ static signed int soblock(signed int sd)
   signed int fd_flags;
   fd_flags=fcntl(sd, 3, 0);
   fd_flags = fd_flags & ~04000;
-  signed int return_value_fcntl$2;
-  return_value_fcntl$2=fcntl(sd, 4, fd_flags);
-  if(return_value_fcntl$2 == -1)
+  signed int return_value_fcntl_2;
+  return_value_fcntl_2=fcntl(sd, 4, fd_flags);
+  if(return_value_fcntl_2 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   return 0;
@@ -29960,17 +29960,17 @@ static signed int socket_cleanup(void *sock)
   struct apr_socket_t *thesocket = (struct apr_socket_t *)sock;
   signed int sd = thesocket->socketdes;
   thesocket->socketdes = -1;
-  signed int return_value_close$2;
-  return_value_close$2=close(sd);
-  if(return_value_close$2 == 0)
+  signed int return_value_close_2;
+  return_value_close_2=close(sd);
+  if(return_value_close_2 == 0)
     return 0;
 
   else
   {
     thesocket->socketdes = sd;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 }
 
@@ -29981,13 +29981,13 @@ static signed int sononblock(signed int sd)
   signed int fd_flags;
   fd_flags=fcntl(sd, 3, 0);
   fd_flags = fd_flags | 04000;
-  signed int return_value_fcntl$2;
-  return_value_fcntl$2=fcntl(sd, 4, fd_flags);
-  if(return_value_fcntl$2 == -1)
+  signed int return_value_fcntl_2;
+  return_value_fcntl_2=fcntl(sd, 4, fd_flags);
+  if(return_value_fcntl_2 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   return 0;
@@ -30005,17 +30005,17 @@ static signed int strnatcmp0(const char *a, const char *b, signed int fold_case)
   signed int result;
   bi = 0;
   ai = bi;
-  const unsigned short int **return_value___ctype_b_loc$1;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  const unsigned short int **return_value___ctype_b_loc$3;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  const unsigned short int **return_value___ctype_b_loc_3;
   while((_Bool)1)
   {
     ca = a[(signed long int)ai];
     cb = b[(signed long int)bi];
     do
     {
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)(unsigned char)ca]) == 0)
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)(unsigned char)ca]) == 0)
         break;
 
       ai = ai + 1;
@@ -30024,20 +30024,20 @@ static signed int strnatcmp0(const char *a, const char *b, signed int fold_case)
     while((_Bool)1);
     do
     {
-      return_value___ctype_b_loc$2=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)(unsigned char)cb]) == 0)
+      return_value___ctype_b_loc_2=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)(unsigned char)cb]) == 0)
         break;
 
       bi = bi + 1;
       cb = b[(signed long int)bi];
     }
     while((_Bool)1);
-    const unsigned short int **return_value___ctype_b_loc$4;
-    return_value___ctype_b_loc$4=__ctype_b_loc();
-    if(!((2048 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)(unsigned char)ca]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_4;
+    return_value___ctype_b_loc_4=__ctype_b_loc();
+    if(!((2048 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)(unsigned char)ca]) == 0))
     {
-      return_value___ctype_b_loc$3=__ctype_b_loc();
-      if(!((2048 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)(unsigned char)cb]) == 0))
+      return_value___ctype_b_loc_3=__ctype_b_loc();
+      if(!((2048 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)(unsigned char)cb]) == 0))
       {
         fractional = (signed int)((signed int)ca == 48 || (signed int)cb == 48);
         if(!(fractional == 0))
@@ -30064,12 +30064,12 @@ static signed int strnatcmp0(const char *a, const char *b, signed int fold_case)
 
     if(!(fold_case == 0))
     {
-      signed int return_value_toupper$5;
-      return_value_toupper$5=toupper((signed int)(unsigned char)ca);
-      ca = (char)return_value_toupper$5;
-      signed int return_value_toupper$6;
-      return_value_toupper$6=toupper((signed int)(unsigned char)cb);
-      cb = (char)return_value_toupper$6;
+      signed int return_value_toupper_5;
+      return_value_toupper_5=toupper((signed int)(unsigned char)ca);
+      ca = (char)return_value_toupper_5;
+      signed int return_value_toupper_6;
+      return_value_toupper_6=toupper((signed int)(unsigned char)cb);
+      cb = (char)return_value_toupper_6;
     }
 
     if(!((signed int)ca >= (signed int)cb))
@@ -30096,7 +30096,7 @@ static char * stuffbuffer(char *buf, unsigned long int bufsize, const char *s)
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_tables.c line 1250
 static signed int table_getm_do(void *v, const char *key, const char *val)
 {
-  struct anonymous$47 *state = (struct anonymous$47 *)v;
+  struct anonymous_47 *state = (struct anonymous_47 *)v;
   if(state->first == ((const char *)NULL))
     state->first = val;
 
@@ -30106,15 +30106,15 @@ static signed int table_getm_do(void *v, const char *key, const char *val)
     if(state->merged == ((struct apr_array_header_t *)NULL))
     {
       state->merged=apr_array_make(state->p, 10, (signed int)sizeof(const char *) /*8ul*/ );
-      void *return_value_apr_array_push$1;
-      return_value_apr_array_push$1=apr_array_push(state->merged);
-      elt = (const char **)return_value_apr_array_push$1;
+      void *return_value_apr_array_push_1;
+      return_value_apr_array_push_1=apr_array_push(state->merged);
+      elt = (const char **)return_value_apr_array_push_1;
       *elt = state->first;
     }
 
-    void *return_value_apr_array_push$2;
-    return_value_apr_array_push$2=apr_array_push(state->merged);
-    elt = (const char **)return_value_apr_array_push$2;
+    void *return_value_apr_array_push_2;
+    return_value_apr_array_push_2=apr_array_push(state->merged);
+    elt = (const char **)return_value_apr_array_push_2;
     *elt = val;
   }
   return 1;
@@ -30125,17 +30125,17 @@ static signed int table_getm_do(void *v, const char *key, const char *val)
 static struct apr_table_entry_t ** table_mergesort(struct apr_pool_t *pool, struct apr_table_entry_t **values, unsigned long int n)
 {
   struct apr_table_entry_t **values_tmp;
-  void *return_value_apr_palloc$1;
-  return_value_apr_palloc$1=apr_palloc(pool, n * sizeof(struct apr_table_entry_t *) /*8ul*/ );
-  values_tmp = (struct apr_table_entry_t **)return_value_apr_palloc$1;
+  void *return_value_apr_palloc_1;
+  return_value_apr_palloc_1=apr_palloc(pool, n * sizeof(struct apr_table_entry_t *) /*8ul*/ );
+  values_tmp = (struct apr_table_entry_t **)return_value_apr_palloc_1;
   unsigned long int i;
   unsigned long int blocksize;
   i = (unsigned long int)0;
   for( ; !(1ul + i >= n); i = i + (unsigned long int)2)
   {
-    signed int return_value_strcasecmp$2;
-    return_value_strcasecmp$2=strcasecmp(values[(signed long int)i]->key, values[(signed long int)(i + (unsigned long int)1)]->key);
-    if(return_value_strcasecmp$2 >= 1)
+    signed int return_value_strcasecmp_2;
+    return_value_strcasecmp_2=strcasecmp(values[(signed long int)i]->key, values[(signed long int)(i + (unsigned long int)1)]->key);
+    if(return_value_strcasecmp_2 >= 1)
     {
       struct apr_table_entry_t *swap = values[(signed long int)i];
       values[(signed long int)i] = values[(signed long int)(i + (unsigned long int)1)];
@@ -30144,17 +30144,17 @@ static struct apr_table_entry_t ** table_mergesort(struct apr_pool_t *pool, stru
 
   }
   blocksize = (unsigned long int)2;
-  struct apr_table_entry_t **tmp_post$3;
-  struct apr_table_entry_t **tmp_post$4;
-  struct apr_table_entry_t **tmp_post$5;
-  unsigned long int tmp_post$6;
-  struct apr_table_entry_t **tmp_post$7;
-  unsigned long int tmp_post$8;
+  struct apr_table_entry_t **tmp_post_3;
+  struct apr_table_entry_t **tmp_post_4;
+  struct apr_table_entry_t **tmp_post_5;
+  unsigned long int tmp_post_6;
+  struct apr_table_entry_t **tmp_post_7;
+  unsigned long int tmp_post_8;
   while(!(blocksize >= n))
   {
     struct apr_table_entry_t **dst = values_tmp;
     unsigned long int next_start;
-    struct apr_table_entry_t **table_mergesort$$1$$2$$swap;
+    struct apr_table_entry_t **table_mergesort__1__2__swap;
     next_start = (unsigned long int)0;
     for( ; !(next_start + blocksize >= n); next_start = next_start + blocksize + blocksize)
     {
@@ -30171,9 +30171,9 @@ static struct apr_table_entry_t ** table_mergesort(struct apr_pool_t *pool, stru
         {
           for( ; !(block2_start >= block2_end); block2_start = block2_start + 1ul)
           {
-            tmp_post$3 = dst;
+            tmp_post_3 = dst;
             dst = dst + 1l;
-            *tmp_post$3 = values[(signed long int)block2_start];
+            *tmp_post_3 = values[(signed long int)block2_start];
           }
           goto __CPROVER_DUMP_L15;
         }
@@ -30183,31 +30183,31 @@ static struct apr_table_entry_t ** table_mergesort(struct apr_pool_t *pool, stru
           {
             for( ; !(block1_start >= block1_end); block1_start = block1_start + 1ul)
             {
-              tmp_post$4 = dst;
+              tmp_post_4 = dst;
               dst = dst + 1l;
-              *tmp_post$4 = values[(signed long int)block1_start];
+              *tmp_post_4 = values[(signed long int)block1_start];
             }
             goto __CPROVER_DUMP_L15;
           }
 
-        signed int return_value_strcasecmp$9;
-        return_value_strcasecmp$9=strcasecmp(values[(signed long int)block1_start]->key, values[(signed long int)block2_start]->key);
-        if(return_value_strcasecmp$9 >= 1)
+        signed int return_value_strcasecmp_9;
+        return_value_strcasecmp_9=strcasecmp(values[(signed long int)block1_start]->key, values[(signed long int)block2_start]->key);
+        if(return_value_strcasecmp_9 >= 1)
         {
-          tmp_post$5 = dst;
+          tmp_post_5 = dst;
           dst = dst + 1l;
-          tmp_post$6 = block2_start;
+          tmp_post_6 = block2_start;
           block2_start = block2_start + 1ul;
-          *tmp_post$5 = values[(signed long int)tmp_post$6];
+          *tmp_post_5 = values[(signed long int)tmp_post_6];
         }
 
         else
         {
-          tmp_post$7 = dst;
+          tmp_post_7 = dst;
           dst = dst + 1l;
-          tmp_post$8 = block1_start;
+          tmp_post_8 = block1_start;
           block1_start = block1_start + 1ul;
-          *tmp_post$7 = values[(signed long int)tmp_post$8];
+          *tmp_post_7 = values[(signed long int)tmp_post_8];
         }
       }
 
@@ -30217,9 +30217,9 @@ static struct apr_table_entry_t ** table_mergesort(struct apr_pool_t *pool, stru
     i = (unsigned long int)(dst - values_tmp);
     for( ; !(i >= n); i = i + 1ul)
       values_tmp[(signed long int)i] = values[(signed long int)i];
-    table_mergesort$$1$$2$$swap = values_tmp;
+    table_mergesort__1__2__swap = values_tmp;
     values_tmp = values;
-    values = table_mergesort$$1$$2$$swap;
+    values = table_mergesort__1__2__swap;
     blocksize = blocksize + blocksize;
   }
   return values;
@@ -30255,17 +30255,17 @@ static signed int test_tempdir(const char *temp_dir, struct apr_pool_t *p)
   struct apr_file_t *dummy_file;
   char *path;
   path=apr_pstrcat(p, temp_dir, (const void *)"/apr-tmp.XXXXXX", (void *)0);
-  signed int return_value_apr_file_mktemp$3;
-  return_value_apr_file_mktemp$3=apr_file_mktemp(&dummy_file, path, 0, p);
-  if(return_value_apr_file_mktemp$3 == 0)
+  signed int return_value_apr_file_mktemp_3;
+  return_value_apr_file_mktemp_3=apr_file_mktemp(&dummy_file, path, 0, p);
+  if(return_value_apr_file_mktemp_3 == 0)
   {
-    signed int return_value_apr_file_putc$2;
-    return_value_apr_file_putc$2=apr_file_putc((char)33, dummy_file);
-    if(return_value_apr_file_putc$2 == 0)
+    signed int return_value_apr_file_putc_2;
+    return_value_apr_file_putc_2=apr_file_putc((char)33, dummy_file);
+    if(return_value_apr_file_putc_2 == 0)
     {
-      signed int return_value_apr_file_close$1;
-      return_value_apr_file_close$1=apr_file_close(dummy_file);
-      if(return_value_apr_file_close$1 == 0)
+      signed int return_value_apr_file_close_1;
+      return_value_apr_file_close_1=apr_file_close(dummy_file);
+      if(return_value_apr_file_close_1 == 0)
         return 1;
 
     }
@@ -30300,9 +30300,9 @@ static signed int thread_mutex_cleanup(void *data)
 static signed int thread_rwlock_cleanup(void *data)
 {
   struct apr_thread_rwlock_t *rwlock = (struct apr_thread_rwlock_t *)data;
-  signed int thread_rwlock_cleanup$$1$$stat;
-  thread_rwlock_cleanup$$1$$stat=pthread_rwlock_destroy(&rwlock->rwlock);
-  return thread_rwlock_cleanup$$1$$stat;
+  signed int thread_rwlock_cleanup__1__stat;
+  thread_rwlock_cleanup__1__stat=pthread_rwlock_destroy(&rwlock->rwlock);
+  return thread_rwlock_cleanup__1__stat;
 }
 
 // threadattr_cleanup
@@ -30320,21 +30320,21 @@ static signed int threadattr_cleanup(void *data)
 static char x2c(const char *what)
 {
   char digit;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if((signed int)*what >= 65)
-    tmp_if_expr$1 = (((signed int)what[(signed long int)0] & 0xdf) - 65) + 10;
+    tmp_if_expr_1 = (((signed int)what[(signed long int)0] & 0xdf) - 65) + 10;
 
   else
-    tmp_if_expr$1 = (signed int)what[(signed long int)0] - 48;
-  digit = (char)tmp_if_expr$1;
+    tmp_if_expr_1 = (signed int)what[(signed long int)0] - 48;
+  digit = (char)tmp_if_expr_1;
   digit = digit * (char)16;
-  signed int tmp_if_expr$2;
+  signed int tmp_if_expr_2;
   if((signed int)what[1l] >= 65)
-    tmp_if_expr$2 = (((signed int)what[(signed long int)1] & 0xdf) - 65) + 10;
+    tmp_if_expr_2 = (((signed int)what[(signed long int)1] & 0xdf) - 65) + 10;
 
   else
-    tmp_if_expr$2 = (signed int)what[(signed long int)1] - 48;
-  digit = digit + (char)tmp_if_expr$2;
+    tmp_if_expr_2 = (signed int)what[(signed long int)1] - 48;
+  digit = digit + (char)tmp_if_expr_2;
   return digit;
 }
 

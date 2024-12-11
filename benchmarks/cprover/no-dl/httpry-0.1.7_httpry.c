@@ -1,16 +1,16 @@
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -377,7 +377,7 @@ extern signed int pthread_join(unsigned long int, void **);
 extern signed int pthread_mutex_destroy(union anonymous *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$0 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_0 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -386,7 +386,7 @@ extern signed int pthread_mutex_lock(union anonymous *);
 extern signed int pthread_mutex_unlock(union anonymous *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$2 *, struct anonymous$2 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_2 *, struct anonymous_2 *);
 // raise
 // file /usr/include/signal.h line 139
 extern signed int raise(signed int);
@@ -422,10 +422,10 @@ extern signed int setuid(unsigned int);
 extern signed int setvbuf(struct _IO_FILE *, char *, signed int, unsigned long int);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$2 *, signed int);
+extern signed int sigaddset(struct anonymous_2 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$2 *);
+extern signed int sigemptyset(struct anonymous_2 *);
 // signal
 // file /usr/include/signal.h line 102
 extern void (*signal(signed int, void (*)(signed int)))(signed int);
@@ -481,13 +481,13 @@ extern unsigned int umask(unsigned int);
 // file rate.h line 17
 void update_host_stats(char *host, signed long int t);
 
-struct anonymous$2
+struct anonymous_2
 {
   // __val
   unsigned long int __val[16l];
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -497,7 +497,7 @@ union anonymous$1
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __size
   char __size[4l];
@@ -664,7 +664,7 @@ struct host_stats
 struct in6_addr
 {
   // __in6_u
-  union anonymous$1 __in6_u;
+  union anonymous_1 __in6_u;
 };
 
 struct in_addr
@@ -987,13 +987,13 @@ void change_user(char *name)
     exit(1);
   }
 
-  unsigned int return_value_getuid$2;
-  return_value_getuid$2=getuid();
-  unsigned int return_value_geteuid$1;
-  if(!(return_value_getuid$2 == 0u))
+  unsigned int return_value_getuid_2;
+  return_value_getuid_2=getuid();
+  unsigned int return_value_geteuid_1;
+  if(!(return_value_getuid_2 == 0u))
   {
-    return_value_geteuid$1=geteuid();
-    if(!(return_value_geteuid$1 == 0u))
+    return_value_geteuid_1=geteuid();
+    if(!(return_value_geteuid_1 == 0u))
     {
       if(!(use_syslog == 0))
       {
@@ -1026,9 +1026,9 @@ void change_user(char *name)
 
   if(!(use_outfile == ((char *)NULL)))
   {
-    signed int return_value_chown$3;
-    return_value_chown$3=chown(use_outfile, user->pw_uid, user->pw_gid);
-    if(!(return_value_chown$3 >= 0))
+    signed int return_value_chown_3;
+    return_value_chown_3=chown(use_outfile, user->pw_uid, user->pw_gid);
+    if(!(return_value_chown_3 >= 0))
     {
       if(!(use_syslog == 0))
       {
@@ -1045,9 +1045,9 @@ void change_user(char *name)
 
   if(!(use_dumpfile == ((char *)NULL)))
   {
-    signed int return_value_chown$4;
-    return_value_chown$4=chown(use_dumpfile, user->pw_uid, user->pw_gid);
-    if(!(return_value_chown$4 >= 0))
+    signed int return_value_chown_4;
+    return_value_chown_4=chown(use_dumpfile, user->pw_uid, user->pw_gid);
+    if(!(return_value_chown_4 >= 0))
     {
       if(!(use_syslog == 0))
       {
@@ -1062,9 +1062,9 @@ void change_user(char *name)
 
   }
 
-  signed int return_value_initgroups$5;
-  return_value_initgroups$5=initgroups(name, user->pw_gid);
-  if(!(return_value_initgroups$5 == 0))
+  signed int return_value_initgroups_5;
+  return_value_initgroups_5=initgroups(name, user->pw_gid);
+  if(!(return_value_initgroups_5 == 0))
   {
     if(!(use_syslog == 0))
     {
@@ -1078,9 +1078,9 @@ void change_user(char *name)
     raise(2);
   }
 
-  signed int return_value_setgid$6;
-  return_value_setgid$6=setgid(user->pw_gid);
-  if(!(return_value_setgid$6 == 0))
+  signed int return_value_setgid_6;
+  return_value_setgid_6=setgid(user->pw_gid);
+  if(!(return_value_setgid_6 == 0))
   {
     if(!(use_syslog == 0))
     {
@@ -1094,9 +1094,9 @@ void change_user(char *name)
     raise(2);
   }
 
-  signed int return_value_setuid$7;
-  return_value_setuid$7=setuid(user->pw_uid);
-  if(!(return_value_setuid$7 == 0))
+  signed int return_value_setuid_7;
+  return_value_setuid_7=setuid(user->pw_uid);
+  if(!(return_value_setuid_7 == 0))
   {
     if(!(use_syslog == 0))
     {
@@ -1110,19 +1110,19 @@ void change_user(char *name)
     raise(2);
   }
 
-  unsigned int return_value_getegid$8;
-  return_value_getegid$8=getegid();
-  _Bool tmp_if_expr$10;
-  unsigned int return_value_geteuid$9;
-  if(!(return_value_getegid$8 == user->pw_gid))
-    tmp_if_expr$10 = (_Bool)1;
+  unsigned int return_value_getegid_8;
+  return_value_getegid_8=getegid();
+  _Bool tmp_if_expr_10;
+  unsigned int return_value_geteuid_9;
+  if(!(return_value_getegid_8 == user->pw_gid))
+    tmp_if_expr_10 = (_Bool)1;
 
   else
   {
-    return_value_geteuid$9=geteuid();
-    tmp_if_expr$10 = return_value_geteuid$9 != user->pw_uid ? (_Bool)1 : (_Bool)0;
+    return_value_geteuid_9=geteuid();
+    tmp_if_expr_10 = return_value_geteuid_9 != user->pw_uid ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$10)
+  if(tmp_if_expr_10)
   {
     if(!(use_syslog == 0))
     {
@@ -1219,7 +1219,7 @@ __CPROVER_DUMP_L3:
 // file rate.c line 77
 void create_rate_stats_thread(signed int rate_interval, char *use_infile, signed int rate_threshold)
 {
-  struct anonymous$2 set;
+  struct anonymous_2 set;
   signed int s;
   if(thread_created == 0)
   {
@@ -1229,7 +1229,7 @@ void create_rate_stats_thread(signed int rate_interval, char *use_infile, signed
     sigemptyset(&set);
     sigaddset(&set, 2);
     sigaddset(&set, 1);
-    s=pthread_mutex_init(&stats_lock, (const union anonymous$0 *)(void *)0);
+    s=pthread_mutex_init(&stats_lock, (const union anonymous_0 *)(void *)0);
     if(!(s == 0))
     {
       if(!(use_syslog == 0))
@@ -1244,7 +1244,7 @@ void create_rate_stats_thread(signed int rate_interval, char *use_infile, signed
       raise(2);
     }
 
-    s=pthread_sigmask(0, &set, (struct anonymous$2 *)(void *)0);
+    s=pthread_sigmask(0, &set, (struct anonymous_2 *)(void *)0);
     if(!(s == 0))
     {
       if(!(use_syslog == 0))
@@ -1274,7 +1274,7 @@ void create_rate_stats_thread(signed int rate_interval, char *use_infile, signed
       raise(2);
     }
 
-    s=pthread_sigmask(1, &set, (struct anonymous$2 *)(void *)0);
+    s=pthread_sigmask(1, &set, (struct anonymous_2 *)(void *)0);
     if(!(s == 0))
     {
       if(!(use_syslog == 0))
@@ -1337,9 +1337,9 @@ void display_rate_stats(char *use_infile, signed int rate_threshold)
 
     else
       now=time((signed long int *)(void *)0);
-    struct tm *return_value_localtime$1;
-    return_value_localtime$1=localtime(&now);
-    strftime(st_time, (unsigned long int)20, "%Y-%m-%d %H:%M:%S", return_value_localtime$1);
+    struct tm *return_value_localtime_1;
+    return_value_localtime_1=localtime(&now);
+    strftime(st_time, (unsigned long int)20, "%Y-%m-%d %H:%M:%S", return_value_localtime_1);
     signed int j;
     signed int num_buckets = 0;
     signed int num_chain;
@@ -1412,9 +1412,9 @@ void display_rate_stats(char *use_infile, signed int rate_threshold)
         delta = (unsigned int)(now - node->first_packet);
         if(delta >= 1u)
         {
-          double return_value_ceil$2;
-          return_value_ceil$2=ceil((double)((float)node->count / (float)delta));
-          rps = (unsigned int)return_value_ceil$2;
+          double return_value_ceil_2;
+          return_value_ceil_2=ceil((double)((float)node->count / (float)delta));
+          rps = (unsigned int)return_value_ceil_2;
         }
 
         else
@@ -1586,9 +1586,9 @@ struct format_node * get_field(char *str)
     exit(1);
   }
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  if(!(return_value_strlen$1 >= 1ul))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  if(!(return_value_strlen_1 >= 1ul))
   {
     fflush((struct _IO_FILE *)(void *)0);
     fprintf(stderr, "\nAssertion failed: %s, line %d\n", (const void *)"format.c", 272);
@@ -1596,11 +1596,11 @@ struct format_node * get_field(char *str)
     exit(1);
   }
 
-  unsigned int return_value_hash_str$2;
-  return_value_hash_str$2=hash_str(str, (unsigned int)64);
-  unsigned int return_value_hash_str$3;
-  return_value_hash_str$3=hash_str(str, (unsigned int)64);
-  if(return_value_hash_str$3 >= 64u)
+  unsigned int return_value_hash_str_2;
+  return_value_hash_str_2=hash_str(str, (unsigned int)64);
+  unsigned int return_value_hash_str_3;
+  return_value_hash_str_3=hash_str(str, (unsigned int)64);
+  if(return_value_hash_str_3 >= 64u)
   {
     fflush((struct _IO_FILE *)(void *)0);
     fprintf(stderr, "\nAssertion failed: %s, line %d\n", (const void *)"format.c", 273);
@@ -1608,14 +1608,14 @@ struct format_node * get_field(char *str)
     exit(1);
   }
 
-  unsigned int return_value_hash_str$4;
-  return_value_hash_str$4=hash_str(str, (unsigned int)64);
-  node = fields[(signed long int)return_value_hash_str$4];
-  signed int return_value_str_compare$5;
+  unsigned int return_value_hash_str_4;
+  return_value_hash_str_4=hash_str(str, (unsigned int)64);
+  node = fields[(signed long int)return_value_hash_str_4];
+  signed int return_value_str_compare_5;
   for( ; !(node == ((struct format_node *)NULL)); node = node->next)
   {
-    return_value_str_compare$5=str_compare(str, node->name);
-    if(return_value_str_compare$5 == 0)
+    return_value_str_compare_5=str_compare(str, node->name);
+    if(return_value_str_compare_5 == 0)
       return node;
 
   }
@@ -1635,9 +1635,9 @@ struct host_stats * get_host(char *str)
     exit(1);
   }
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  if(!(return_value_strlen$1 >= 1ul))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  if(!(return_value_strlen_1 >= 1ul))
   {
     fflush((struct _IO_FILE *)(void *)0);
     fprintf(stderr, "\nAssertion failed: %s, line %d\n", (const void *)"rate.c", 337);
@@ -1645,11 +1645,11 @@ struct host_stats * get_host(char *str)
     exit(1);
   }
 
-  unsigned int return_value_hash_str$2;
-  return_value_hash_str$2=hash_str(str, (unsigned int)2048);
-  unsigned int return_value_hash_str$3;
-  return_value_hash_str$3=hash_str(str, (unsigned int)2048);
-  if(return_value_hash_str$3 >= 2048u)
+  unsigned int return_value_hash_str_2;
+  return_value_hash_str_2=hash_str(str, (unsigned int)2048);
+  unsigned int return_value_hash_str_3;
+  return_value_hash_str_3=hash_str(str, (unsigned int)2048);
+  if(return_value_hash_str_3 >= 2048u)
   {
     fflush((struct _IO_FILE *)(void *)0);
     fprintf(stderr, "\nAssertion failed: %s, line %d\n", (const void *)"rate.c", 338);
@@ -1657,14 +1657,14 @@ struct host_stats * get_host(char *str)
     exit(1);
   }
 
-  unsigned int return_value_hash_str$4;
-  return_value_hash_str$4=hash_str(str, (unsigned int)2048);
-  node = stats[(signed long int)return_value_hash_str$4];
-  signed int return_value_str_compare$5;
+  unsigned int return_value_hash_str_4;
+  return_value_hash_str_4=hash_str(str, (unsigned int)2048);
+  node = stats[(signed long int)return_value_hash_str_4];
+  signed int return_value_str_compare_5;
   for( ; !(node == ((struct host_stats *)NULL)); node = node->next)
   {
-    return_value_str_compare$5=str_compare(str, node->host);
-    if(return_value_str_compare$5 == 0)
+    return_value_str_compare_5=str_compare(str, node->host);
+    if(return_value_str_compare_5 == 0)
       return node;
 
   }
@@ -1675,7 +1675,7 @@ struct host_stats * get_host(char *str)
 // file rate.c line 350
 struct host_stats * get_node()
 {
-  struct host_stats *get_node$$1$$head;
+  struct host_stats *get_node__1__head;
   struct host_stats **tmp;
   static signed int alloc_size;
   static struct host_stats *block;
@@ -1688,15 +1688,15 @@ struct host_stats * get_node()
   static struct host_stats *tail;
   if(!(free_stack == ((struct host_stats *)NULL)))
   {
-    get_node$$1$$head = free_stack;
+    get_node__1__head = free_stack;
     free_stack = free_stack->next;
-    get_node$$1$$head->next = (struct host_stats *)(void *)0;
+    get_node__1__head->next = (struct host_stats *)(void *)0;
   }
 
   else
     if(!(block == ((struct host_stats *)NULL)))
     {
-      get_node$$1$$head = block;
+      get_node__1__head = block;
       if(block == tail)
         block = (struct host_stats *)(void *)0;
 
@@ -1706,9 +1706,9 @@ struct host_stats * get_node()
 
     else
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)100 * sizeof(struct host_stats) /*288ul*/ );
-      block = (struct host_stats *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)100 * sizeof(struct host_stats) /*288ul*/ );
+      block = (struct host_stats *)return_value_malloc_1;
       if(block == ((struct host_stats *)NULL))
       {
         if(!(use_syslog == 0))
@@ -1726,9 +1726,9 @@ struct host_stats * get_node()
       static struct host_stats **mv;
       if(block_alloc == ((struct host_stats **)NULL))
       {
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc((unsigned long int)10 * sizeof(struct host_stats *) /*8ul*/ );
-        block_alloc = (struct host_stats **)return_value_malloc$2;
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc((unsigned long int)10 * sizeof(struct host_stats *) /*8ul*/ );
+        block_alloc = (struct host_stats **)return_value_malloc_2;
         if(block_alloc == ((struct host_stats **)NULL))
         {
           if(!(use_syslog == 0))
@@ -1750,9 +1750,9 @@ struct host_stats * get_node()
       alloc_size = alloc_size + 1;
       if(alloc_size % 10 == 0)
       {
-        void *return_value_realloc$3;
-        return_value_realloc$3=realloc((void *)block_alloc, (unsigned long int)(alloc_size + 10) * sizeof(struct host_stats *) /*8ul*/ );
-        tmp = (struct host_stats **)return_value_realloc$3;
+        void *return_value_realloc_3;
+        return_value_realloc_3=realloc((void *)block_alloc, (unsigned long int)(alloc_size + 10) * sizeof(struct host_stats *) /*8ul*/ );
+        tmp = (struct host_stats **)return_value_realloc_3;
         if(tmp == ((struct host_stats **)NULL))
         {
           if(!(use_syslog == 0))
@@ -1774,10 +1774,10 @@ struct host_stats * get_node()
       mv = mv + 1l;
       *mv = (struct host_stats *)(void *)0;
       tail = (block + (signed long int)100) - (signed long int)1;
-      get_node$$1$$head = block;
+      get_node__1__head = block;
       block = block + 1l;
     }
-  return get_node$$1$$head;
+  return get_node__1__head;
 }
 
 // get_value
@@ -1793,9 +1793,9 @@ char * get_value(char *name)
     exit(1);
   }
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  if(return_value_strlen$1 == 0ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  if(return_value_strlen_1 == 0ul)
     return "-";
 
   else
@@ -1919,9 +1919,9 @@ unsigned int hash_str(char *str, unsigned int hashsize)
     exit(1);
   }
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  if(!(return_value_strlen$1 >= 1ul))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  if(!(return_value_strlen_1 >= 1ul))
   {
     fflush((struct _IO_FILE *)(void *)0);
     fprintf(stderr, "\nAssertion failed: %s, line %d\n", (const void *)"utility.c", 114);
@@ -1932,9 +1932,9 @@ unsigned int hash_str(char *str, unsigned int hashsize)
   hash = (unsigned long int)0;
   for( ; !((signed int)*str == 0); str = str + 1l)
   {
-    signed int return_value_tolower$2;
-    return_value_tolower$2=tolower((signed int)*str);
-    hash = hash + (unsigned long int)return_value_tolower$2;
+    signed int return_value_tolower_2;
+    return_value_tolower_2=tolower((signed int)*str);
+    hash = hash + (unsigned long int)return_value_tolower_2;
     hash = hash + (hash << 10);
     hash = hash ^ hash >> 6;
   }
@@ -1951,9 +1951,9 @@ void init_rate_stats(signed int rate_interval, char *use_infile, signed int rate
   totals.count = (unsigned int)0;
   totals.first_packet = (signed long int)0;
   totals.last_packet = (signed long int)0;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)2048, sizeof(struct host_stats *) /*8ul*/ );
-  stats = (struct host_stats **)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)2048, sizeof(struct host_stats *) /*8ul*/ );
+  stats = (struct host_stats **)return_value_calloc_1;
   if(stats == ((struct host_stats **)NULL))
   {
     if(!(use_syslog == 0))
@@ -2002,9 +2002,9 @@ struct format_node * insert_field(char *name, unsigned long int len)
   node=get_field(name);
   if(node == ((struct format_node *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct format_node) /*32ul*/ );
-    node = (struct format_node *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct format_node) /*32ul*/ );
+    node = (struct format_node *)return_value_malloc_1;
     if(node == ((struct format_node *)NULL))
     {
       if(!(use_syslog == 0))
@@ -2038,9 +2038,9 @@ struct format_node * insert_field(char *name, unsigned long int len)
     fprintf(stderr, "\n");
     return (struct format_node *)(void *)0;
   }
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(len + (unsigned long int)1);
-  node->name = (char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(len + (unsigned long int)1);
+  node->name = (char *)return_value_malloc_2;
   if(node->name == ((char *)NULL))
   {
     if(!(use_syslog == 0))
@@ -2083,9 +2083,9 @@ signed int insert_method(char *method, unsigned long int len)
     exit(1);
   }
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(method);
-  if(!(return_value_strlen$1 >= 1ul))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(method);
+  if(!(return_value_strlen_1 >= 1ul))
   {
     fflush((struct _IO_FILE *)(void *)0);
     fprintf(stderr, "\nAssertion failed: %s, line %d\n", (const void *)"methods.c", 84);
@@ -2110,9 +2110,9 @@ signed int insert_method(char *method, unsigned long int len)
         return 0;
       }
   }
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct method_node) /*24ul*/ );
-  *node = (struct method_node *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct method_node) /*24ul*/ );
+  *node = (struct method_node *)return_value_malloc_2;
   if(*node == ((struct method_node *)NULL))
   {
     if(!(use_syslog == 0))
@@ -2127,9 +2127,9 @@ signed int insert_method(char *method, unsigned long int len)
     raise(2);
   }
 
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(len + (unsigned long int)1);
-  (*node)->method = (char *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(len + (unsigned long int)1);
+  (*node)->method = (char *)return_value_malloc_3;
   if((*node)->method == ((char *)NULL))
   {
     if(!(use_syslog == 0))
@@ -2171,19 +2171,19 @@ void insert_value(char *name, char *value)
     exit(1);
   }
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_strlen$2;
-  if(return_value_strlen$1 == 0ul)
-    tmp_if_expr$3 = (_Bool)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_strlen_2;
+  if(return_value_strlen_1 == 0ul)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_strlen$2=strlen(value);
-    tmp_if_expr$3 = return_value_strlen$2 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_2=strlen(value);
+    tmp_if_expr_3 = return_value_strlen_2 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
   }
-  if(!tmp_if_expr$3)
+  if(!tmp_if_expr_3)
   {
     node=get_field(name);
     if(!(node == ((struct format_node *)NULL)))
@@ -2219,9 +2219,9 @@ signed int is_request_method(const char *str)
     exit(1);
   }
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  if(return_value_strlen$1 == 0ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  if(return_value_strlen_1 == 0ul)
     return 0;
 
   else
@@ -2251,7 +2251,7 @@ signed int main(signed int argc, char **argv)
   signed int loop_status;
   signal(1, handle_signal);
   signal(2, handle_signal);
-  signed int return_value_atoi$1;
+  signed int return_value_atoi_1;
   do
   {
     opt=getopt(argc, argv, "b:df:Fhpqi:l:m:n:o:P:r:st:u:");
@@ -2303,8 +2303,8 @@ signed int main(signed int argc, char **argv)
       }
       case 110:
       {
-        return_value_atoi$1=atoi(optarg);
-        parse_count = (unsigned int)return_value_atoi$1;
+        return_value_atoi_1=atoi(optarg);
+        parse_count = (unsigned int)return_value_atoi_1;
         break;
       }
       case 111:
@@ -2395,13 +2395,13 @@ signed int main(signed int argc, char **argv)
     raise(2);
   }
 
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(argv[(signed long int)optind] == ((char *)NULL)))
-    tmp_if_expr$2 = *argv[(signed long int)optind] != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = *argv[(signed long int)optind] != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     capfilter = argv[(signed long int)optind];
 
   else
@@ -2419,9 +2419,9 @@ signed int main(signed int argc, char **argv)
   parse_methods_string(methods_str);
   if(!(force_flush == 0))
   {
-    signed int return_value_setvbuf$3;
-    return_value_setvbuf$3=setvbuf(stdout, (char *)(void *)0, 2, (unsigned long int)0);
-    if(!(return_value_setvbuf$3 == 0))
+    signed int return_value_setvbuf_3;
+    return_value_setvbuf_3=setvbuf(stdout, (char *)(void *)0, 2, (unsigned long int)0);
+    if(!(return_value_setvbuf_3 == 0))
     {
       if(!(use_syslog == 0))
       {
@@ -2447,9 +2447,9 @@ signed int main(signed int argc, char **argv)
   if(!(new_user == ((char *)NULL)))
     change_user(new_user);
 
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc((unsigned long int)(8192 + 1));
-  buf = (char *)return_value_malloc$4;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc((unsigned long int)(8192 + 1));
+  buf = (char *)return_value_malloc_4;
   if(buf == ((char *)NULL))
   {
     if(!(use_syslog == 0))
@@ -2474,15 +2474,15 @@ signed int main(signed int argc, char **argv)
     if(!(use_syslog == 0))
     {
       openlog("httpry", 0x01, 3 << 3);
-      char *return_value_pcap_geterr$5;
-      return_value_pcap_geterr$5=pcap_geterr(pcap_hnd);
-      syslog(3, "Problem reading packets from interface: %s", return_value_pcap_geterr$5);
+      char *return_value_pcap_geterr_5;
+      return_value_pcap_geterr_5=pcap_geterr(pcap_hnd);
+      syslog(3, "Problem reading packets from interface: %s", return_value_pcap_geterr_5);
       closelog();
     }
 
-    char *return_value_pcap_geterr$6;
-    return_value_pcap_geterr$6=pcap_geterr(pcap_hnd);
-    fprintf(stderr, "Error: Problem reading packets from interface: %s", return_value_pcap_geterr$6);
+    char *return_value_pcap_geterr_6;
+    return_value_pcap_geterr_6=pcap_geterr(pcap_hnd);
+    fprintf(stderr, "Error: Problem reading packets from interface: %s", return_value_pcap_geterr_6);
     fprintf(stderr, "\n");
     raise(2);
   }
@@ -2526,9 +2526,9 @@ void open_outfiles()
 
     }
 
-    struct _IO_FILE *return_value_freopen$1;
-    return_value_freopen$1=freopen(use_outfile, "a", stdout);
-    if(return_value_freopen$1 == ((struct _IO_FILE *)NULL))
+    struct _IO_FILE *return_value_freopen_1;
+    return_value_freopen_1=freopen(use_outfile, "a", stdout);
+    if(return_value_freopen_1 == ((struct _IO_FILE *)NULL))
     {
       if(!(use_syslog == 0))
       {
@@ -2611,9 +2611,9 @@ signed int parse_client_request(char *header_line)
     exit(1);
   }
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(header_line);
-  if(!(return_value_strlen$1 >= 1ul))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(header_line);
+  if(!(return_value_strlen_1 >= 1ul))
   {
     fflush((struct _IO_FILE *)(void *)0);
     fprintf(stderr, "\nAssertion failed: %s, line %d\n", (const void *)"httpry.c", 466);
@@ -2623,22 +2623,22 @@ signed int parse_client_request(char *header_line)
 
   method = header_line;
   request_uri=strchr(method, 32);
-  char *tmp_post$2;
-  const unsigned short int **return_value___ctype_b_loc$3;
-  char *tmp_post$4;
-  const unsigned short int **return_value___ctype_b_loc$5;
+  char *tmp_post_2;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  char *tmp_post_4;
+  const unsigned short int **return_value___ctype_b_loc_5;
   if(request_uri == ((char *)NULL))
     return 1;
 
   else
   {
-    tmp_post$2 = request_uri;
+    tmp_post_2 = request_uri;
     request_uri = request_uri + 1l;
-    *tmp_post$2 = (char)0;
+    *tmp_post_2 = (char)0;
     do
     {
-      return_value___ctype_b_loc$3=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*request_uri]) == 0)
+      return_value___ctype_b_loc_3=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*request_uri]) == 0)
         break;
 
       request_uri = request_uri + 1l;
@@ -2650,23 +2650,23 @@ signed int parse_client_request(char *header_line)
 
     else
     {
-      tmp_post$4 = http_version;
+      tmp_post_4 = http_version;
       http_version = http_version + 1l;
-      *tmp_post$4 = (char)0;
+      *tmp_post_4 = (char)0;
       do
       {
-        return_value___ctype_b_loc$5=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)*http_version]) == 0)
+        return_value___ctype_b_loc_5=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)*http_version]) == 0)
           break;
 
         http_version = http_version + 1l;
       }
       while((_Bool)1);
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen("HTTP/");
-      signed int return_value_strncmp$7;
-      return_value_strncmp$7=strncmp(http_version, "HTTP/", return_value_strlen$6);
-      if(!(return_value_strncmp$7 == 0))
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen("HTTP/");
+      signed int return_value_strncmp_7;
+      return_value_strncmp_7=strncmp(http_version, "HTTP/", return_value_strlen_6);
+      if(!(return_value_strncmp_7 == 0))
         return 1;
 
       else
@@ -2740,9 +2740,9 @@ void parse_format_string(char *str)
     len=strlen(name);
     if(!(len == 0ul))
     {
-      struct format_node *return_value_insert_field$1;
-      return_value_insert_field$1=insert_field(name, len);
-      if(!(return_value_insert_field$1 == ((struct format_node *)NULL)))
+      struct format_node *return_value_insert_field_1;
+      return_value_insert_field_1=insert_field(name, len);
+      if(!(return_value_insert_field_1 == ((struct format_node *)NULL)))
         num_nodes = num_nodes + 1;
 
     }
@@ -2936,26 +2936,26 @@ void parse_http_packet(unsigned char *args, struct pcap_pkthdr *header, const un
   }
   tcp = (struct tcp_header *)(pkt + (signed long int)header_offset + (signed long int)size_ip);
   size_tcp = (((signed int)tcp->th_offx2 & 0xf0) >> 4) * 4;
-  unsigned long int return_value_strlen$1;
-  signed int return_value_strncmp$2;
-  char *tmp_post$6;
-  const unsigned short int **return_value___ctype_b_loc$7;
+  unsigned long int return_value_strlen_1;
+  signed int return_value_strncmp_2;
+  char *tmp_post_6;
+  const unsigned short int **return_value___ctype_b_loc_7;
   if(size_tcp >= 20)
   {
     data = (char *)(pkt + (signed long int)header_offset + (signed long int)size_ip + (signed long int)size_tcp);
     size_data = (signed int)(header->caplen - (unsigned int)(header_offset + size_ip + size_tcp));
     if(size_data >= 1)
     {
-      signed int return_value_is_request_method$3;
-      return_value_is_request_method$3=is_request_method(data);
-      if(!(return_value_is_request_method$3 == 0))
+      signed int return_value_is_request_method_3;
+      return_value_is_request_method_3=is_request_method(data);
+      if(!(return_value_is_request_method_3 == 0))
         is_request = 1;
 
       else
       {
-        return_value_strlen$1=strlen("HTTP/");
-        return_value_strncmp$2=strncmp(data, "HTTP/", return_value_strlen$1);
-        if(return_value_strncmp$2 == 0)
+        return_value_strlen_1=strlen("HTTP/");
+        return_value_strncmp_2=strncmp(data, "HTTP/", return_value_strlen_1);
+        if(return_value_strncmp_2 == 0)
           is_response = 1;
 
         else
@@ -2971,9 +2971,9 @@ void parse_http_packet(unsigned char *args, struct pcap_pkthdr *header, const un
       {
         if(!(is_request == 0))
         {
-          signed int return_value_parse_client_request$4;
-          return_value_parse_client_request$4=parse_client_request(header_line);
-          if(!(return_value_parse_client_request$4 == 0))
+          signed int return_value_parse_client_request_4;
+          return_value_parse_client_request_4=parse_client_request(header_line);
+          if(!(return_value_parse_client_request_4 == 0))
             goto __CPROVER_DUMP_L31;
 
         }
@@ -2981,9 +2981,9 @@ void parse_http_packet(unsigned char *args, struct pcap_pkthdr *header, const un
         else
           if(!(is_response == 0))
           {
-            signed int return_value_parse_server_response$5;
-            return_value_parse_server_response$5=parse_server_response(header_line);
-            if(!(return_value_parse_server_response$5 == 0))
+            signed int return_value_parse_server_response_5;
+            return_value_parse_server_response_5=parse_server_response(header_line);
+            if(!(return_value_parse_server_response_5 == 0))
               goto __CPROVER_DUMP_L31;
 
           }
@@ -2997,13 +2997,13 @@ void parse_http_packet(unsigned char *args, struct pcap_pkthdr *header, const un
           req_value=strchr(header_line, 58);
           if(!(req_value == ((char *)NULL)))
           {
-            tmp_post$6 = req_value;
+            tmp_post_6 = req_value;
             req_value = req_value + 1l;
-            *tmp_post$6 = (char)0;
+            *tmp_post_6 = (char)0;
             do
             {
-              return_value___ctype_b_loc$7=__ctype_b_loc();
-              if((8192 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)*req_value]) == 0)
+              return_value___ctype_b_loc_7=__ctype_b_loc();
+              if((8192 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)*req_value]) == 0)
                 break;
 
               req_value = req_value + 1l;
@@ -3027,12 +3027,12 @@ void parse_http_packet(unsigned char *args, struct pcap_pkthdr *header, const un
         }
         insert_value("source-ip", saddr);
         insert_value("dest-ip", daddr);
-        unsigned short int return_value_ntohs$8;
-        return_value_ntohs$8=ntohs(tcp->th_sport);
-        snprintf(sport, (unsigned long int)6, "%d", return_value_ntohs$8);
-        unsigned short int return_value_ntohs$9;
-        return_value_ntohs$9=ntohs(tcp->th_dport);
-        snprintf(dport, (unsigned long int)6, "%d", return_value_ntohs$9);
+        unsigned short int return_value_ntohs_8;
+        return_value_ntohs_8=ntohs(tcp->th_sport);
+        snprintf(sport, (unsigned long int)6, "%d", return_value_ntohs_8);
+        unsigned short int return_value_ntohs_9;
+        return_value_ntohs_9=ntohs(tcp->th_dport);
+        snprintf(dport, (unsigned long int)6, "%d", return_value_ntohs_9);
         insert_value("source-port", sport);
         insert_value("dest-port", dport);
         pkt_time=localtime((signed long int *)&header->ts.tv_sec);
@@ -3040,9 +3040,9 @@ void parse_http_packet(unsigned char *args, struct pcap_pkthdr *header, const un
         insert_value("timestamp", ts);
         if(!(rate_stats == 0))
         {
-          char *return_value_get_value$10;
-          return_value_get_value$10=get_value("host");
-          update_host_stats(return_value_get_value$10, header->ts.tv_sec);
+          char *return_value_get_value_10;
+          return_value_get_value_10=get_value("host");
+          update_host_stats(return_value_get_value_10, header->ts.tv_sec);
           clear_values();
         }
 
@@ -3126,9 +3126,9 @@ void parse_methods_string(char *str)
     len=strlen(method);
     if(!(len == 0ul))
     {
-      signed int return_value_insert_method$1;
-      return_value_insert_method$1=insert_method(method, len);
-      if(!(return_value_insert_method$1 == 0))
+      signed int return_value_insert_method_1;
+      return_value_insert_method_1=insert_method(method, len);
+      if(!(return_value_insert_method_1 == 0))
         num_methods = num_methods + 1;
 
     }
@@ -3172,9 +3172,9 @@ signed int parse_server_response(char *header_line)
     exit(1);
   }
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(header_line);
-  if(!(return_value_strlen$1 >= 1ul))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(header_line);
+  if(!(return_value_strlen_1 >= 1ul))
   {
     fflush((struct _IO_FILE *)(void *)0);
     fprintf(stderr, "\nAssertion failed: %s, line %d\n", (const void *)"httpry.c", 495);
@@ -3184,22 +3184,22 @@ signed int parse_server_response(char *header_line)
 
   http_version = header_line;
   status_code=strchr(http_version, 32);
-  char *tmp_post$2;
-  const unsigned short int **return_value___ctype_b_loc$3;
-  char *tmp_post$4;
-  const unsigned short int **return_value___ctype_b_loc$5;
+  char *tmp_post_2;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  char *tmp_post_4;
+  const unsigned short int **return_value___ctype_b_loc_5;
   if(status_code == ((char *)NULL))
     return 1;
 
   else
   {
-    tmp_post$2 = status_code;
+    tmp_post_2 = status_code;
     status_code = status_code + 1l;
-    *tmp_post$2 = (char)0;
+    *tmp_post_2 = (char)0;
     do
     {
-      return_value___ctype_b_loc$3=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*status_code]) == 0)
+      return_value___ctype_b_loc_3=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*status_code]) == 0)
         break;
 
       status_code = status_code + 1l;
@@ -3211,13 +3211,13 @@ signed int parse_server_response(char *header_line)
 
     else
     {
-      tmp_post$4 = reason_phrase;
+      tmp_post_4 = reason_phrase;
       reason_phrase = reason_phrase + 1l;
-      *tmp_post$4 = (char)0;
+      *tmp_post_4 = (char)0;
       do
       {
-        return_value___ctype_b_loc$5=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)*reason_phrase]) == 0)
+        return_value___ctype_b_loc_5=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)*reason_phrase]) == 0)
           break;
 
         reason_phrase = reason_phrase + 1l;
@@ -3237,7 +3237,7 @@ signed int parse_server_response(char *header_line)
 struct pcap * prepare_capture(char *interface, signed int promisc, char *filename, char *capfilter)
 {
   char errbuf[256l];
-  struct pcap *prepare_capture$$1$$pcap_hnd;
+  struct pcap *prepare_capture__1__pcap_hnd;
   char *dev = (char *)(void *)0;
   unsigned int net;
   unsigned int mask;
@@ -3265,13 +3265,13 @@ struct pcap * prepare_capture(char *interface, signed int promisc, char *filenam
 
     else
       dev = interface;
-    signed int return_value_pcap_lookupnet$1;
-    return_value_pcap_lookupnet$1=pcap_lookupnet(dev, &net, &mask, errbuf);
-    if(return_value_pcap_lookupnet$1 == -1)
+    signed int return_value_pcap_lookupnet_1;
+    return_value_pcap_lookupnet_1=pcap_lookupnet(dev, &net, &mask, errbuf);
+    if(return_value_pcap_lookupnet_1 == -1)
       net = (unsigned int)0;
 
-    prepare_capture$$1$$pcap_hnd=pcap_open_live(dev, 8192, promisc, 0, errbuf);
-    if(prepare_capture$$1$$pcap_hnd == ((struct pcap *)NULL))
+    prepare_capture__1__pcap_hnd=pcap_open_live(dev, 8192, promisc, 0, errbuf);
+    if(prepare_capture__1__pcap_hnd == ((struct pcap *)NULL))
     {
       if(!(use_syslog == 0))
       {
@@ -3289,8 +3289,8 @@ struct pcap * prepare_capture(char *interface, signed int promisc, char *filenam
 
   else
   {
-    prepare_capture$$1$$pcap_hnd=pcap_open_offline(filename, errbuf);
-    if(prepare_capture$$1$$pcap_hnd == ((struct pcap *)NULL))
+    prepare_capture__1__pcap_hnd=pcap_open_offline(filename, errbuf);
+    if(prepare_capture__1__pcap_hnd == ((struct pcap *)NULL))
     {
       if(!(use_syslog == 0))
       {
@@ -3305,45 +3305,45 @@ struct pcap * prepare_capture(char *interface, signed int promisc, char *filenam
     }
 
   }
-  signed int return_value_pcap_datalink$2;
-  return_value_pcap_datalink$2=pcap_datalink(prepare_capture$$1$$pcap_hnd);
-  set_header_offset(return_value_pcap_datalink$2);
-  signed int return_value_pcap_compile$5;
-  return_value_pcap_compile$5=pcap_compile(prepare_capture$$1$$pcap_hnd, &filter, capfilter, 0, net);
-  if(return_value_pcap_compile$5 == -1)
+  signed int return_value_pcap_datalink_2;
+  return_value_pcap_datalink_2=pcap_datalink(prepare_capture__1__pcap_hnd);
+  set_header_offset(return_value_pcap_datalink_2);
+  signed int return_value_pcap_compile_5;
+  return_value_pcap_compile_5=pcap_compile(prepare_capture__1__pcap_hnd, &filter, capfilter, 0, net);
+  if(return_value_pcap_compile_5 == -1)
   {
     if(!(use_syslog == 0))
     {
       openlog("httpry", 0x01, 3 << 3);
-      char *return_value_pcap_geterr$3;
-      return_value_pcap_geterr$3=pcap_geterr(prepare_capture$$1$$pcap_hnd);
-      syslog(3, "Cannot compile capture filter '%s': %s", capfilter, return_value_pcap_geterr$3);
+      char *return_value_pcap_geterr_3;
+      return_value_pcap_geterr_3=pcap_geterr(prepare_capture__1__pcap_hnd);
+      syslog(3, "Cannot compile capture filter '%s': %s", capfilter, return_value_pcap_geterr_3);
       closelog();
     }
 
-    char *return_value_pcap_geterr$4;
-    return_value_pcap_geterr$4=pcap_geterr(prepare_capture$$1$$pcap_hnd);
-    fprintf(stderr, "Error: Cannot compile capture filter '%s': %s", capfilter, return_value_pcap_geterr$4);
+    char *return_value_pcap_geterr_4;
+    return_value_pcap_geterr_4=pcap_geterr(prepare_capture__1__pcap_hnd);
+    fprintf(stderr, "Error: Cannot compile capture filter '%s': %s", capfilter, return_value_pcap_geterr_4);
     fprintf(stderr, "\n");
     raise(2);
   }
 
-  signed int return_value_pcap_setfilter$8;
-  return_value_pcap_setfilter$8=pcap_setfilter(prepare_capture$$1$$pcap_hnd, &filter);
-  if(return_value_pcap_setfilter$8 == -1)
+  signed int return_value_pcap_setfilter_8;
+  return_value_pcap_setfilter_8=pcap_setfilter(prepare_capture__1__pcap_hnd, &filter);
+  if(return_value_pcap_setfilter_8 == -1)
   {
     if(!(use_syslog == 0))
     {
       openlog("httpry", 0x01, 3 << 3);
-      char *return_value_pcap_geterr$6;
-      return_value_pcap_geterr$6=pcap_geterr(prepare_capture$$1$$pcap_hnd);
-      syslog(3, "Cannot apply capture filter: %s", return_value_pcap_geterr$6);
+      char *return_value_pcap_geterr_6;
+      return_value_pcap_geterr_6=pcap_geterr(prepare_capture__1__pcap_hnd);
+      syslog(3, "Cannot apply capture filter: %s", return_value_pcap_geterr_6);
       closelog();
     }
 
-    char *return_value_pcap_geterr$7;
-    return_value_pcap_geterr$7=pcap_geterr(prepare_capture$$1$$pcap_hnd);
-    fprintf(stderr, "Error: Cannot apply capture filter: %s", return_value_pcap_geterr$7);
+    char *return_value_pcap_geterr_7;
+    return_value_pcap_geterr_7=pcap_geterr(prepare_capture__1__pcap_hnd);
+    fprintf(stderr, "Error: Cannot apply capture filter: %s", return_value_pcap_geterr_7);
     fprintf(stderr, "\n");
     raise(2);
   }
@@ -3366,7 +3366,7 @@ struct pcap * prepare_capture(char *interface, signed int promisc, char *filenam
 
   }
 
-  return prepare_capture$$1$$pcap_hnd;
+  return prepare_capture__1__pcap_hnd;
 }
 
 // print_format_list
@@ -3442,13 +3442,13 @@ void print_stats()
 
   if(use_infile == ((char *)NULL) && !(pcap_hnd == ((struct pcap *)NULL)))
   {
-    signed int return_value_pcap_stats$2;
-    return_value_pcap_stats$2=pcap_stats(pcap_hnd, &pkt_stats);
-    if(!(return_value_pcap_stats$2 == 0))
+    signed int return_value_pcap_stats_2;
+    return_value_pcap_stats_2=pcap_stats(pcap_hnd, &pkt_stats);
+    if(!(return_value_pcap_stats_2 == 0))
     {
-      char *return_value_pcap_geterr$1;
-      return_value_pcap_geterr$1=pcap_geterr(pcap_hnd);
-      fprintf(stderr, "Warning: Cannot obtain packet capture statistics: %s", return_value_pcap_geterr$1);
+      char *return_value_pcap_geterr_1;
+      return_value_pcap_geterr_1=pcap_geterr(pcap_hnd);
+      fprintf(stderr, "Warning: Cannot obtain packet capture statistics: %s", return_value_pcap_geterr_1);
       fprintf(stderr, "\n");
       goto __CPROVER_DUMP_L9;
     }
@@ -3466,9 +3466,9 @@ void print_stats()
       fprintf(stderr, "\n");
     }
 
-    signed long int return_value_time$3;
-    return_value_time$3=time(((signed long int *)NULL));
-    run_time = (float)(return_value_time$3 - start_time);
+    signed long int return_value_time_3;
+    return_value_time_3=time(((signed long int *)NULL));
+    run_time = (float)(return_value_time_3 - start_time);
     if(run_time > 0.000000f)
     {
       if(!(use_syslog == 0))
@@ -3574,11 +3574,11 @@ struct host_stats * remove_node(struct host_stats *node, struct host_stats *prev
 // file rate.c line 166
 void * run_stats(void *args)
 {
-  struct thread_args *run_stats$$1$$thread_args = (struct thread_args *)args;
+  struct thread_args *run_stats__1__thread_args = (struct thread_args *)args;
   while((_Bool)1)
   {
-    sleep(run_stats$$1$$thread_args->rate_interval);
-    display_rate_stats(run_stats$$1$$thread_args->use_infile, run_stats$$1$$thread_args->rate_threshold);
+    sleep(run_stats__1__thread_args->rate_interval);
+    display_rate_stats(run_stats__1__thread_args->use_infile, run_stats__1__thread_args->rate_threshold);
   }
   return (void *)0;
 }
@@ -3589,9 +3589,9 @@ void runas_daemon()
 {
   signed int child_pid;
   struct _IO_FILE *pid_file;
-  signed int return_value_getppid$1;
-  return_value_getppid$1=getppid();
-  if(!(return_value_getppid$1 == 1))
+  signed int return_value_getppid_1;
+  return_value_getppid_1=getppid();
+  if(!(return_value_getppid_1 == 1))
   {
     fflush((struct _IO_FILE *)(void *)0);
     child_pid=fork();
@@ -3614,9 +3614,9 @@ void runas_daemon()
 
     dup2(1, 2);
     close(0);
-    struct _IO_FILE *return_value_freopen$2;
-    return_value_freopen$2=freopen("/dev/null", "a", stderr);
-    if(return_value_freopen$2 == ((struct _IO_FILE *)NULL))
+    struct _IO_FILE *return_value_freopen_2;
+    return_value_freopen_2=freopen("/dev/null", "a", stderr);
+    if(return_value_freopen_2 == ((struct _IO_FILE *)NULL))
     {
       if(!(use_syslog == 0))
       {
@@ -3630,9 +3630,9 @@ void runas_daemon()
       raise(2);
     }
 
-    signed int return_value_setsid$3;
-    return_value_setsid$3=setsid();
-    if(return_value_setsid$3 == -1)
+    signed int return_value_setsid_3;
+    return_value_setsid_3=setsid();
+    if(return_value_setsid_3 == -1)
     {
       if(!(use_syslog == 0))
       {
@@ -3646,9 +3646,9 @@ void runas_daemon()
     }
 
     umask((unsigned int)022);
-    signed int return_value_chdir$4;
-    return_value_chdir$4=chdir("/");
-    if(return_value_chdir$4 == -1)
+    signed int return_value_chdir_4;
+    return_value_chdir_4=chdir("/");
+    if(return_value_chdir_4 == -1)
     {
       if(!(use_syslog == 0))
       {
@@ -3678,9 +3678,9 @@ void runas_daemon()
     pid_file=fopen(pid_filename, "w");
     if(!(pid_file == ((struct _IO_FILE *)NULL)))
     {
-      signed int return_value_getpid$5;
-      return_value_getpid$5=getpid();
-      fprintf(pid_file, "%d", return_value_getpid$5);
+      signed int return_value_getpid_5;
+      return_value_getpid_5=getpid();
+      fprintf(pid_file, "%d", return_value_getpid_5);
       fclose(pid_file);
     }
 
@@ -3759,15 +3759,15 @@ void set_header_offset(signed int header_type)
       if(!(use_syslog == 0))
       {
         openlog("httpry", 0x01, 3 << 3);
-        const char *return_value_pcap_datalink_val_to_name$1;
-        return_value_pcap_datalink_val_to_name$1=pcap_datalink_val_to_name(header_type);
-        syslog(3, "Unsupported datalink type: %s", return_value_pcap_datalink_val_to_name$1);
+        const char *return_value_pcap_datalink_val_to_name_1;
+        return_value_pcap_datalink_val_to_name_1=pcap_datalink_val_to_name(header_type);
+        syslog(3, "Unsupported datalink type: %s", return_value_pcap_datalink_val_to_name_1);
         closelog();
       }
 
-      const char *return_value_pcap_datalink_val_to_name$2;
-      return_value_pcap_datalink_val_to_name$2=pcap_datalink_val_to_name(header_type);
-      fprintf(stderr, "Error: Unsupported datalink type: %s", return_value_pcap_datalink_val_to_name$2);
+      const char *return_value_pcap_datalink_val_to_name_2;
+      return_value_pcap_datalink_val_to_name_2=pcap_datalink_val_to_name(header_type);
+      fprintf(stderr, "Error: Unsupported datalink type: %s", return_value_pcap_datalink_val_to_name_2);
       fprintf(stderr, "\n");
       raise(2);
     }
@@ -3786,9 +3786,9 @@ signed int str_compare(const char *str1, const char *str2)
     exit(1);
   }
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str2);
-  if(!(return_value_strlen$1 >= 1ul))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str2);
+  if(!(return_value_strlen_1 >= 1ul))
   {
     fflush((struct _IO_FILE *)(void *)0);
     fprintf(stderr, "\nAssertion failed: %s, line %d\n", (const void *)"utility.c", 59);
@@ -3804,11 +3804,11 @@ signed int str_compare(const char *str1, const char *str2)
     exit(1);
   }
 
-  signed int return_value_tolower$2;
+  signed int return_value_tolower_2;
   do
   {
-    return_value_tolower$2=tolower((signed int)*str1);
-    if(!(return_value_tolower$2 == (signed int)*str2))
+    return_value_tolower_2=tolower((signed int)*str1);
+    if(!(return_value_tolower_2 == (signed int)*str2))
       break;
 
     str1 = str1 + 1l;
@@ -3818,9 +3818,9 @@ signed int str_compare(const char *str1, const char *str2)
 
   }
   while((_Bool)1);
-  signed int return_value_tolower$3;
-  return_value_tolower$3=tolower((signed int)*str1);
-  return return_value_tolower$3 - (signed int)*str2;
+  signed int return_value_tolower_3;
+  return_value_tolower_3=tolower((signed int)*str1);
+  return return_value_tolower_3 - (signed int)*str2;
 }
 
 // str_copy
@@ -3828,19 +3828,19 @@ signed int str_compare(const char *str1, const char *str2)
 signed int str_copy(char *dest, const char *src, unsigned long int len)
 {
   const char *start = dest;
-  char *tmp_post$1;
-  const char *tmp_post$2;
+  char *tmp_post_1;
+  const char *tmp_post_2;
   if(len >= 1ul)
   {
-    for( ; !((signed int)*src == 0); *tmp_post$1 = *tmp_post$2)
+    for( ; !((signed int)*src == 0); *tmp_post_1 = *tmp_post_2)
     {
       len = len - 1ul;
       if(len == 0ul)
         break;
 
-      tmp_post$1 = dest;
+      tmp_post_1 = dest;
       dest = dest + 1l;
-      tmp_post$2 = src;
+      tmp_post_2 = src;
       src = src + 1l;
     }
     *dest = (char)0;
@@ -3856,17 +3856,17 @@ char * str_duplicate(const char *str)
   char *new;
   unsigned long int len;
   len=strlen(str);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(len + (unsigned long int)1);
-  new = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(len + (unsigned long int)1);
+  new = (char *)return_value_malloc_1;
   if(new == ((char *)NULL))
     return (char *)(void *)0;
 
   else
   {
-    signed int return_value_str_copy$2;
-    return_value_str_copy$2=str_copy(new, str, len + (unsigned long int)1);
-    if(!(1ul + len >= (unsigned long int)return_value_str_copy$2))
+    signed int return_value_str_copy_2;
+    return_value_str_copy_2=str_copy(new, str, len + (unsigned long int)1);
+    if(!(1ul + len >= (unsigned long int)return_value_str_copy_2))
     {
       fflush((struct _IO_FILE *)(void *)0);
       fprintf(stderr, "\nAssertion failed: %s, line %d\n", (const void *)"utility.c", 99);
@@ -3892,9 +3892,9 @@ char * str_strip_whitespace(char *str)
     exit(1);
   }
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  if(!(return_value_strlen$1 >= 1ul))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  if(!(return_value_strlen_1 >= 1ul))
   {
     fflush((struct _IO_FILE *)(void *)0);
     fprintf(stderr, "\nAssertion failed: %s, line %d\n", (const void *)"utility.c", 25);
@@ -3902,25 +3902,25 @@ char * str_strip_whitespace(char *str)
     exit(1);
   }
 
-  const unsigned short int **return_value___ctype_b_loc$2;
+  const unsigned short int **return_value___ctype_b_loc_2;
   do
   {
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*str]) == 0)
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*str]) == 0)
       break;
 
     str = str + 1l;
   }
   while((_Bool)1);
-  const unsigned short int **return_value___ctype_b_loc$3;
-  unsigned long int tmp_post$4;
-  for( ; !(len == 0ul); *((str + (signed long int)tmp_post$4) - (signed long int)1) = (char)0)
+  const unsigned short int **return_value___ctype_b_loc_3;
+  unsigned long int tmp_post_4;
+  for( ; !(len == 0ul); *((str + (signed long int)tmp_post_4) - (signed long int)1) = (char)0)
   {
-    return_value___ctype_b_loc$3=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)str[(signed long int)len + -1l]]) == 0)
+    return_value___ctype_b_loc_3=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)str[(signed long int)len + -1l]]) == 0)
       break;
 
-    tmp_post$4 = len;
+    tmp_post_4 = len;
     len = len - 1ul;
   }
   return str;
@@ -3939,9 +3939,9 @@ char * str_tolower(char *str)
     exit(1);
   }
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  if(!(return_value_strlen$1 >= 1ul))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  if(!(return_value_strlen_1 >= 1ul))
   {
     fflush((struct _IO_FILE *)(void *)0);
     fprintf(stderr, "\nAssertion failed: %s, line %d\n", (const void *)"utility.c", 41);
@@ -3952,9 +3952,9 @@ char * str_tolower(char *str)
   c = str;
   for( ; !((signed int)*c == 0); c = c + 1l)
   {
-    signed int return_value_tolower$2;
-    return_value_tolower$2=tolower((signed int)*c);
-    *c = (char)return_value_tolower$2;
+    signed int return_value_tolower_2;
+    return_value_tolower_2=tolower((signed int)*c);
+    *c = (char)return_value_tolower_2;
   }
   return str;
 }

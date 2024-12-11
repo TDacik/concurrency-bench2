@@ -1,98 +1,98 @@
-// #anon_enum$DRM_ADD_COMMAND=0$DRM_RM_COMMAND=1$DRM_INST_HANDLER=2$DRM_UNINST_HANDLER=3
+// #anon_enum_DRM_ADD_COMMAND=0_DRM_RM_COMMAND=1_DRM_INST_HANDLER=2_DRM_UNINST_HANDLER=3
 // file ../include/drm/drm.h line 165
-enum anonymous$23 { DRM_ADD_COMMAND=0, DRM_RM_COMMAND=1, DRM_INST_HANDLER=2, DRM_UNINST_HANDLER=3 };
+enum anonymous_23 { DRM_ADD_COMMAND=0, DRM_RM_COMMAND=1, DRM_INST_HANDLER=2, DRM_UNINST_HANDLER=3 };
 
-// #anon_enum$DRM_CONTEXT_PRESERVED=1$DRM_CONTEXT_2DONLY=2
+// #anon_enum_DRM_CONTEXT_PRESERVED=1_DRM_CONTEXT_2DONLY=2
 // file ../xf86drm.h line 229
-enum anonymous$9 { DRM_CONTEXT_PRESERVED=1, DRM_CONTEXT_2DONLY=2 };
+enum anonymous_9 { DRM_CONTEXT_PRESERVED=1, DRM_CONTEXT_2DONLY=2 };
 
-// #anon_enum$DRM_DMA_BLOCK=1$DRM_DMA_WHILE_LOCKED=2$DRM_DMA_PRIORITY=4$DRM_DMA_WAIT=16$DRM_DMA_SMALLER_OK=32$DRM_DMA_LARGER_OK=64
+// #anon_enum_DRM_DMA_BLOCK=1_DRM_DMA_WHILE_LOCKED=2_DRM_DMA_PRIORITY=4_DRM_DMA_WAIT=16_DRM_DMA_SMALLER_OK=32_DRM_DMA_LARGER_OK=64
 // file ../xf86drm.h line 185
-enum anonymous$20 { DRM_DMA_BLOCK=1, DRM_DMA_WHILE_LOCKED=2, DRM_DMA_PRIORITY=4, DRM_DMA_WAIT=16, DRM_DMA_SMALLER_OK=32, DRM_DMA_LARGER_OK=64 };
+enum anonymous_20 { DRM_DMA_BLOCK=1, DRM_DMA_WHILE_LOCKED=2, DRM_DMA_PRIORITY=4, DRM_DMA_WAIT=16, DRM_DMA_SMALLER_OK=32, DRM_DMA_LARGER_OK=64 };
 
-// #anon_enum$DRM_DRAWABLE_CLIPRECTS=0
+// #anon_enum_DRM_DRAWABLE_CLIPRECTS=0
 // file ../include/drm/drm.h line 437
-enum anonymous$12 { DRM_DRAWABLE_CLIPRECTS=0 };
+enum anonymous_12 { DRM_DRAWABLE_CLIPRECTS=0 };
 
-// #anon_enum$DRM_FRAME_BUFFER=0$DRM_REGISTERS=1$DRM_SHM=2$DRM_AGP=3$DRM_SCATTER_GATHER=4$DRM_CONSISTENT=5
+// #anon_enum_DRM_FRAME_BUFFER=0_DRM_REGISTERS=1_DRM_SHM=2_DRM_AGP=3_DRM_SCATTER_GATHER=4_DRM_CONSISTENT=5
 // file ../xf86drm.h line 163
-enum anonymous$6 { DRM_FRAME_BUFFER=0, DRM_REGISTERS=1, DRM_SHM=2, DRM_AGP=3, DRM_SCATTER_GATHER=4, DRM_CONSISTENT=5 };
+enum anonymous_6 { DRM_FRAME_BUFFER=0, DRM_REGISTERS=1, DRM_SHM=2, DRM_AGP=3, DRM_SCATTER_GATHER=4, DRM_CONSISTENT=5 };
 
-// #anon_enum$DRM_LOCK_READY=1$DRM_LOCK_QUIESCENT=2$DRM_LOCK_FLUSH=4$DRM_LOCK_FLUSH_ALL=8$DRM_HALT_ALL_QUEUES=16$DRM_HALT_CUR_QUEUES=32
+// #anon_enum_DRM_LOCK_READY=1_DRM_LOCK_QUIESCENT=2_DRM_LOCK_FLUSH=4_DRM_LOCK_FLUSH_ALL=8_DRM_HALT_ALL_QUEUES=16_DRM_HALT_CUR_QUEUES=32
 // file ../xf86drm.h line 217
-enum anonymous$13 { DRM_LOCK_READY=1, DRM_LOCK_QUIESCENT=2, DRM_LOCK_FLUSH=4, DRM_LOCK_FLUSH_ALL=8, DRM_HALT_ALL_QUEUES=16, DRM_HALT_CUR_QUEUES=32 };
+enum anonymous_13 { DRM_LOCK_READY=1, DRM_LOCK_QUIESCENT=2, DRM_LOCK_FLUSH=4, DRM_LOCK_FLUSH_ALL=8, DRM_HALT_ALL_QUEUES=16, DRM_HALT_CUR_QUEUES=32 };
 
-// #anon_enum$DRM_MODE_CONNECTED=1$DRM_MODE_DISCONNECTED=2$DRM_MODE_UNKNOWNCONNECTION=3
+// #anon_enum_DRM_MODE_CONNECTED=1_DRM_MODE_DISCONNECTED=2_DRM_MODE_UNKNOWNCONNECTION=3
 // file ../xf86drmMode.h line 273
-enum anonymous$21 { DRM_MODE_CONNECTED=1, DRM_MODE_DISCONNECTED=2, DRM_MODE_UNKNOWNCONNECTION=3 };
+enum anonymous_21 { DRM_MODE_CONNECTED=1, DRM_MODE_DISCONNECTED=2, DRM_MODE_UNKNOWNCONNECTION=3 };
 
-// #anon_enum$DRM_MODE_SUBPIXEL_UNKNOWN=1$DRM_MODE_SUBPIXEL_HORIZONTAL_RGB=2$DRM_MODE_SUBPIXEL_HORIZONTAL_BGR=3$DRM_MODE_SUBPIXEL_VERTICAL_RGB=4$DRM_MODE_SUBPIXEL_VERTICAL_BGR=5$DRM_MODE_SUBPIXEL_NONE=6
+// #anon_enum_DRM_MODE_SUBPIXEL_UNKNOWN=1_DRM_MODE_SUBPIXEL_HORIZONTAL_RGB=2_DRM_MODE_SUBPIXEL_HORIZONTAL_BGR=3_DRM_MODE_SUBPIXEL_VERTICAL_RGB=4_DRM_MODE_SUBPIXEL_VERTICAL_BGR=5_DRM_MODE_SUBPIXEL_NONE=6
 // file ../xf86drmMode.h line 279
-enum anonymous$22 { DRM_MODE_SUBPIXEL_UNKNOWN=1, DRM_MODE_SUBPIXEL_HORIZONTAL_RGB=2, DRM_MODE_SUBPIXEL_HORIZONTAL_BGR=3, DRM_MODE_SUBPIXEL_VERTICAL_RGB=4, DRM_MODE_SUBPIXEL_VERTICAL_BGR=5, DRM_MODE_SUBPIXEL_NONE=6 };
+enum anonymous_22 { DRM_MODE_SUBPIXEL_UNKNOWN=1, DRM_MODE_SUBPIXEL_HORIZONTAL_RGB=2, DRM_MODE_SUBPIXEL_HORIZONTAL_BGR=3, DRM_MODE_SUBPIXEL_VERTICAL_RGB=4, DRM_MODE_SUBPIXEL_VERTICAL_BGR=5, DRM_MODE_SUBPIXEL_NONE=6 };
 
-// #anon_enum$DRM_PAGE_ALIGN=1$DRM_AGP_BUFFER=2$DRM_SG_BUFFER=4$DRM_FB_BUFFER=8$DRM_PCI_BUFFER_RO=16
+// #anon_enum_DRM_PAGE_ALIGN=1_DRM_AGP_BUFFER=2_DRM_SG_BUFFER=4_DRM_FB_BUFFER=8_DRM_PCI_BUFFER_RO=16
 // file ../xf86drm.h line 209
-enum anonymous$8 { DRM_PAGE_ALIGN=1, DRM_AGP_BUFFER=2, DRM_SG_BUFFER=4, DRM_FB_BUFFER=8, DRM_PCI_BUFFER_RO=16 };
+enum anonymous_8 { DRM_PAGE_ALIGN=1, DRM_AGP_BUFFER=2, DRM_SG_BUFFER=4, DRM_FB_BUFFER=8, DRM_PCI_BUFFER_RO=16 };
 
-// #anon_enum$DRM_RESTRICTED=1$DRM_READ_ONLY=2$DRM_LOCKED=4$DRM_KERNEL=8$DRM_WRITE_COMBINING=16$DRM_CONTAINS_LOCK=32$DRM_REMOVABLE=64
+// #anon_enum_DRM_RESTRICTED=1_DRM_READ_ONLY=2_DRM_LOCKED=4_DRM_KERNEL=8_DRM_WRITE_COMBINING=16_DRM_CONTAINS_LOCK=32_DRM_REMOVABLE=64
 // file ../xf86drm.h line 172
-enum anonymous$7 { DRM_RESTRICTED=1, DRM_READ_ONLY=2, DRM_LOCKED=4, DRM_KERNEL=8, DRM_WRITE_COMBINING=16, DRM_CONTAINS_LOCK=32, DRM_REMOVABLE=64 };
+enum anonymous_7 { DRM_RESTRICTED=1, DRM_READ_ONLY=2, DRM_LOCKED=4, DRM_KERNEL=8, DRM_WRITE_COMBINING=16, DRM_CONTAINS_LOCK=32, DRM_REMOVABLE=64 };
 
-// #anon_enum$DRM_VBLANK_ABSOLUTE=0$DRM_VBLANK_RELATIVE=1$DRM_VBLANK_HIGH_CRTC_MASK=62$DRM_VBLANK_EVENT=67108864$DRM_VBLANK_FLIP=134217728$DRM_VBLANK_NEXTONMISS=268435456$DRM_VBLANK_SECONDARY=536870912$DRM_VBLANK_SIGNAL=1073741824
+// #anon_enum_DRM_VBLANK_ABSOLUTE=0_DRM_VBLANK_RELATIVE=1_DRM_VBLANK_HIGH_CRTC_MASK=62_DRM_VBLANK_EVENT=67108864_DRM_VBLANK_FLIP=134217728_DRM_VBLANK_NEXTONMISS=268435456_DRM_VBLANK_SECONDARY=536870912_DRM_VBLANK_SIGNAL=1073741824
 // file ../xf86drm.h line 314
-enum anonymous$24 { DRM_VBLANK_ABSOLUTE=0, DRM_VBLANK_RELATIVE=1, DRM_VBLANK_HIGH_CRTC_MASK=62, DRM_VBLANK_EVENT=67108864, DRM_VBLANK_FLIP=134217728, DRM_VBLANK_NEXTONMISS=268435456, DRM_VBLANK_SECONDARY=536870912, DRM_VBLANK_SIGNAL=1073741824 };
+enum anonymous_24 { DRM_VBLANK_ABSOLUTE=0, DRM_VBLANK_RELATIVE=1, DRM_VBLANK_HIGH_CRTC_MASK=62, DRM_VBLANK_EVENT=67108864, DRM_VBLANK_FLIP=134217728, DRM_VBLANK_NEXTONMISS=268435456, DRM_VBLANK_SECONDARY=536870912, DRM_VBLANK_SIGNAL=1073741824 };
 
-// #anon_enum$_DRM_PAGE_ALIGN=1$_DRM_AGP_BUFFER=2$_DRM_SG_BUFFER=4$_DRM_FB_BUFFER=8$_DRM_PCI_BUFFER_RO=16
+// #anon_enum__DRM_PAGE_ALIGN=1__DRM_AGP_BUFFER=2__DRM_SG_BUFFER=4__DRM_FB_BUFFER=8__DRM_PCI_BUFFER_RO=16
 // file ../include/drm/drm.h line 330
-enum anonymous$19 { _DRM_PAGE_ALIGN=1, _DRM_AGP_BUFFER=2, _DRM_SG_BUFFER=4, _DRM_FB_BUFFER=8, _DRM_PCI_BUFFER_RO=16 };
+enum anonymous_19 { _DRM_PAGE_ALIGN=1, _DRM_AGP_BUFFER=2, _DRM_SG_BUFFER=4, _DRM_FB_BUFFER=8, _DRM_PCI_BUFFER_RO=16 };
 
-// tag-#anon#ST[*{S8}$S8$'BusID'||S32'fd'||S32'refcount'||S32'type'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'BusID'||S32'fd'||S32'refcount'||S32'type'||U32'_pad0'|]
 // file ../xf86drm.c line 2605
-struct anonymous$5;
+struct anonymous_5;
 
 // tag-#anon#ST[S32'atomic'|]
 // file ../../xf86atomic.h line 45
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[SYM#tag-nouveau_fifo#'base'||U32'notify'||U32'$pad0'|]
+// tag-#anon#ST[SYM#tag-nouveau_fifo#'base'||U32'notify'||U32'_pad0'|]
 // file ../../nouveau/nouveau.h line 264
-struct anonymous$18;
+struct anonymous_18;
 
 // tag-#anon#ST[U32'handle'||U32'grclass'|]
 // file ../../include/drm/nouveau_drm.h line 41
-struct anonymous$17;
+struct anonymous_17;
 
 // tag-#anon#ST[U32'memtype'||U32'tile_mode'|]
 // file ../../../nouveau/nouveau.h line 101
-struct anonymous$11;
+struct anonymous_11;
 
 // tag-#anon#ST[U32'surf_flags'||U32'surf_pitch'|]
 // file ../../../nouveau/nouveau.h line 94
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[U64'value'||*{cS8}$cS8$'long_format'||*{cS8}$cS8$'long_name'||*{cS8}$cS8$'rate_format'||*{cS8}$cS8$'rate_name'||S32'isvalue'||U32'$pad0'||*{cS8}$cS8$'mult_names'||S32'mult'||S32'verbose'|]
+// tag-#anon#ST[U64'value'||*{cS8}_cS8_'long_format'||*{cS8}_cS8_'long_name'||*{cS8}_cS8_'rate_format'||*{cS8}_cS8_'rate_name'||S32'isvalue'||U32'_pad0'||*{cS8}_cS8_'mult_names'||S32'mult'||S32'verbose'|]
 // file ../xf86drm.h line 144
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[U64'value'||ENtag-drm_stat_type#{U32}$U32$'type'||U32'$pad0'|]
+// tag-#anon#ST[U64'value'||ENtag-drm_stat_type#{U32}_U32_'type'||U32'_pad0'|]
 // file ../include/drm/drm.h line 260
 struct anonymous;
 
-// tag-#anon#UN[*{SYM#tag-_drmPciBusInfo#}$SYM#tag-_drmPciBusInfo#$'pci'|]
+// tag-#anon#UN[*{SYM#tag-_drmPciBusInfo#}_SYM#tag-_drmPciBusInfo#_'pci'|]
 // file ../xf86drm.h line 785
-union anonymous$14;
+union anonymous_14;
 
-// tag-#anon#UN[*{SYM#tag-_drmPciDeviceInfo#}$SYM#tag-_drmPciDeviceInfo#$'pci'|]
+// tag-#anon#UN[*{SYM#tag-_drmPciDeviceInfo#}_SYM#tag-_drmPciDeviceInfo#_'pci'|]
 // file ../xf86drm.h line 788
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$27;
+union anonymous_27;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$26;
+union anonymous_26;
 
 // tag-HashBucket
 // file ../xf86drmHash.h line 32
@@ -764,39 +764,39 @@ struct timespec;
 // DRM_IOCTL
 // file ../xf86drmMode.c line 68
 static inline signed int DRM_IOCTL(signed int fd, unsigned long int cmd, void *arg);
-// DRM_IOCTL$link1
+// DRM_IOCTL_link1
 // file ../xf86drmMode.c line 68
-static inline signed int DRM_IOCTL$link1(signed int fd$link1, unsigned long int cmd$link1, void *arg$link1);
+static inline signed int DRM_IOCTL_link1(signed int fd_link1, unsigned long int cmd_link1, void *arg_link1);
 // HashFind
 // file ../xf86drmHash.c line 147
 static struct HashBucket * HashFind(struct HashTable *table, unsigned long int key, unsigned long int *h);
-// HashFind$link1
+// HashFind_link1
 // file ../xf86drmHash.c line 147
-static struct HashBucket * HashFind$link1(struct HashTable *table$link1, unsigned long int key$link1, unsigned long int *h$link1);
+static struct HashBucket * HashFind_link1(struct HashTable *table_link1, unsigned long int key_link1, unsigned long int *h_link1);
 // HashHash
 // file ../xf86drmHash.c line 79
 static unsigned long int HashHash(unsigned long int key);
-// HashHash$link1
+// HashHash_link1
 // file ../xf86drmHash.c line 79
-static unsigned long int HashHash$link1(unsigned long int key$link1);
+static unsigned long int HashHash_link1(unsigned long int key_link1);
 // SLCreateEntry
 // file ../xf86drmSL.c line 72
 static struct SLEntry * SLCreateEntry(signed int max_level, unsigned long int key, void *value);
-// SLCreateEntry$link1
+// SLCreateEntry_link1
 // file ../xf86drmSL.c line 72
-static struct SLEntry * SLCreateEntry$link1(signed int max_level$link1, unsigned long int key$link1, void *value$link1);
+static struct SLEntry * SLCreateEntry_link1(signed int max_level_link1, unsigned long int key_link1, void *value_link1);
 // SLLocate
 // file ../xf86drmSL.c line 137
 static struct SLEntry * SLLocate(void *l, unsigned long int key, struct SLEntry **update);
-// SLLocate$link1
+// SLLocate_link1
 // file ../xf86drmSL.c line 137
-static struct SLEntry * SLLocate$link1(void *l$link1, unsigned long int key$link1, struct SLEntry **update$link1);
+static struct SLEntry * SLLocate_link1(void *l_link1, unsigned long int key_link1, struct SLEntry **update_link1);
 // SLRandomLevel
 // file ../xf86drmSL.c line 89
 static signed int SLRandomLevel(void);
-// SLRandomLevel$link1
+// SLRandomLevel_link1
 // file ../xf86drmSL.c line 89
-static signed int SLRandomLevel$link1(void);
+static signed int SLRandomLevel_link1(void);
 // __assert_fail
 // file /usr/include/assert.h line 69
 extern void __assert_fail(const char *, const char *, unsigned int, const char *);
@@ -812,9 +812,9 @@ signed int __sync_fetch_and_add();
 // _drmModeGetConnector
 // file ../xf86drmMode.c line 474
 static struct _drmModeConnector * _drmModeGetConnector(signed int fd, unsigned int connector_id, signed int probe);
-// _drmModeGetConnector$link1
+// _drmModeGetConnector_link1
 // file ../xf86drmMode.c line 474
-static struct _drmModeConnector * _drmModeGetConnector$link1(signed int fd$link1, unsigned int connector_id$link1, signed int probe$link1);
+static struct _drmModeConnector * _drmModeGetConnector_link1(signed int fd_link1, unsigned int connector_id_link1, signed int probe_link1);
 // abi16_bo_info
 // file ../../nouveau/private.h line 120
 void abi16_bo_info(struct nouveau_bo *bo, struct drm_nouveau_gem_info *info);
@@ -842,9 +842,9 @@ static signed int abi16_ntfy(struct nouveau_object *obj);
 // abi16_object
 // file ../../nouveau/private.h line 117
 _Bool abi16_object(struct nouveau_object *obj, signed int (**func)(struct nouveau_object *));
-// abi16_object::func$object$object
+// abi16_object::func_object_object
 //
-signed int func$object$object(struct nouveau_object *);
+signed int func_object_object(struct nouveau_object *);
 // abi16_sclass
 // file ../../nouveau/private.h line 119
 signed int abi16_sclass(struct nouveau_object *obj, struct nouveau_sclass **psclass);
@@ -866,9 +866,9 @@ static inline void cli_kref_set(struct nouveau_client *client, struct nouveau_bo
 // cli_push_get
 // file ../../nouveau/private.h line 53
 static inline struct nouveau_pushbuf * cli_push_get(struct nouveau_client *client, struct nouveau_bo *bo);
-// cli_push_get$link1
+// cli_push_get_link1
 // file ../../nouveau/private.h line 53
-static inline struct nouveau_pushbuf * cli_push_get$link1(struct nouveau_client *client$link1, struct nouveau_bo *bo$link1);
+static inline struct nouveau_pushbuf * cli_push_get_link1(struct nouveau_client *client_link1, struct nouveau_bo *bo_link1);
 // clock_gettime
 // file /usr/include/time.h line 342
 extern signed int clock_gettime(signed int, struct timespec *);
@@ -889,7 +889,7 @@ extern signed int dirfd(struct __dirstream *);
 extern void * dlsym(void *, const char *);
 // drmAddBufs
 // file ../xf86drm.c line 1131
-extern signed int drmAddBufs(signed int fd, signed int count, signed int size, enum anonymous$8 flags, signed int agp_offset);
+extern signed int drmAddBufs(signed int fd, signed int count, signed int size, enum anonymous_8 flags, signed int agp_offset);
 // drmAddContextPrivateMapping
 // file ../xf86drm.c line 2267
 extern signed int drmAddContextPrivateMapping(signed int fd, unsigned int ctx_id, unsigned int handle);
@@ -898,7 +898,7 @@ extern signed int drmAddContextPrivateMapping(signed int fd, unsigned int ctx_id
 extern signed int drmAddContextTag(signed int fd, unsigned int context, void *tag);
 // drmAddMap
 // file ../xf86drm.c line 1086
-extern signed int drmAddMap(signed int fd, unsigned int offset, unsigned int size, enum anonymous$6 type, enum anonymous$7 flags, unsigned int *handle);
+extern signed int drmAddMap(signed int fd, unsigned int offset, unsigned int size, enum anonymous_6 type, enum anonymous_7 flags, unsigned int *handle);
 // drmAgpAcquire
 // file ../xf86drm.c line 1689
 extern signed int drmAgpAcquire(signed int fd);
@@ -950,9 +950,9 @@ extern signed int drmAgpVersionMinor(signed int fd);
 // drmAllocCpy
 // file ../xf86drmMode.c line 78
 static void * drmAllocCpy(char *array, signed int count, signed int entry_size);
-// drmAllocCpy$link1
+// drmAllocCpy_link1
 // file ../xf86drmMode.c line 78
-static void * drmAllocCpy$link1(char *array$link1, signed int count$link1, signed int entry_size$link1);
+static void * drmAllocCpy_link1(char *array_link1, signed int count_link1, signed int entry_size_link1);
 // drmAuthMagic
 // file ../xf86drm.c line 1025
 extern signed int drmAuthMagic(signed int fd, unsigned int magic);
@@ -983,15 +983,15 @@ extern signed int drmCommandWriteRead(signed int fd, unsigned long int drmComman
 // drmCompareBusInfo
 // file ../xf86drm.c line 2904
 static signed int drmCompareBusInfo(struct _drmDevice *a, struct _drmDevice *b);
-// drmCompareBusInfo$link1
+// drmCompareBusInfo_link1
 // file ../xf86drm.c line 2904
-static signed int drmCompareBusInfo$link1(struct _drmDevice *a$link1, struct _drmDevice *b$link1);
+static signed int drmCompareBusInfo_link1(struct _drmDevice *a_link1, struct _drmDevice *b_link1);
 // drmCopyVersion
 // file ../xf86drm.c line 816
 static void drmCopyVersion(struct _drmVersion *d, const struct drm_version *s);
-// drmCopyVersion$link1
+// drmCopyVersion_link1
 // file ../xf86drm.c line 816
-static void drmCopyVersion$link1(struct _drmVersion *d$link1, const struct drm_version *s$link1);
+static void drmCopyVersion_link1(struct _drmVersion *d_link1, const struct drm_version *s_link1);
 // drmCreateContext
 // file ../xf86drm.c line 1549
 extern signed int drmCreateContext(signed int fd, unsigned int *handle);
@@ -1010,9 +1010,9 @@ extern signed int drmDMA(signed int fd, struct _drmDMAReq *request);
 // drmDebugPrint
 // file ../xf86drm.c line 123
 static signed int drmDebugPrint(const char *format, void **ap);
-// drmDebugPrint$link1
+// drmDebugPrint_link1
 // file ../xf86drm.c line 123
-static signed int drmDebugPrint$link1(const char *format$link1, void **ap$link1);
+static signed int drmDebugPrint_link1(const char *format_link1, void **ap_link1);
 // drmDelContextTag
 // file ../xf86drm.c line 2249
 extern signed int drmDelContextTag(signed int fd, unsigned int context);
@@ -1030,13 +1030,13 @@ extern signed int drmDropMaster(signed int fd);
 extern signed int drmError(signed int err, const char *label);
 // drmFinish
 // file ../xf86drm.c line 2194
-extern signed int drmFinish(signed int fd, signed int context, enum anonymous$13 flags);
+extern signed int drmFinish(signed int fd, signed int context, enum anonymous_13 flags);
 // drmFoldDuplicatedDevices
 // file ../xf86drm.c line 3052
 static void drmFoldDuplicatedDevices(struct _drmDevice **local_devices, signed int count);
-// drmFoldDuplicatedDevices$link1
+// drmFoldDuplicatedDevices_link1
 // file ../xf86drm.c line 3052
-static void drmFoldDuplicatedDevices$link1(struct _drmDevice **local_devices$link1, signed int count$link1);
+static void drmFoldDuplicatedDevices_link1(struct _drmDevice **local_devices_link1, signed int count_link1);
 // drmFree
 // file ../xf86drm.c line 158
 extern void drmFree(void *pt);
@@ -1055,9 +1055,9 @@ extern void drmFreeDevices(struct _drmDevice **devices, signed int count);
 // drmFreeKernelVersion
 // file ../xf86drm.c line 795
 static void drmFreeKernelVersion(struct drm_version *v);
-// drmFreeKernelVersion$link1
+// drmFreeKernelVersion_link1
 // file ../xf86drm.c line 795
-static void drmFreeKernelVersion$link1(struct drm_version *v$link1);
+static void drmFreeKernelVersion_link1(struct drm_version *v_link1);
 // drmFreeReservedContextList
 // file ../xf86drm.c line 1526
 extern void drmFreeReservedContextList(unsigned int *pt);
@@ -1078,7 +1078,7 @@ extern signed int drmGetCap(signed int fd, unsigned long int capability, unsigne
 extern signed int drmGetClient(signed int fd, signed int idx, signed int *auth, signed int *pid, signed int *uid, unsigned long int *magic, unsigned long int *iocs);
 // drmGetContextFlags
 // file ../xf86drm.c line 1592
-extern signed int drmGetContextFlags(signed int fd, unsigned int context, enum anonymous$9 *flags);
+extern signed int drmGetContextFlags(signed int fd, unsigned int context, enum anonymous_9 *flags);
 // drmGetContextPrivateMapping
 // file ../xf86drm.c line 2281
 extern signed int drmGetContextPrivateMapping(signed int fd, unsigned int ctx_id, unsigned int *handle);
@@ -1106,57 +1106,57 @@ extern signed int drmGetInterruptFromBusID(signed int fd, signed int busnum, sig
 // drmGetKeyFromFd
 // file ../xf86drm.c line 177
 static unsigned long int drmGetKeyFromFd(signed int fd);
-// drmGetKeyFromFd$link1
+// drmGetKeyFromFd_link1
 // file ../xf86drm.c line 177
-static unsigned long int drmGetKeyFromFd$link1(signed int fd$link1);
+static unsigned long int drmGetKeyFromFd_link1(signed int fd_link1);
 // drmGetLibVersion
 // file ../xf86drm.c line 895
 extern struct _drmVersion * drmGetLibVersion(signed int fd);
 // drmGetLock
 // file ../xf86drm.c line 1453
-extern signed int drmGetLock(signed int fd, unsigned int context, enum anonymous$13 flags);
+extern signed int drmGetLock(signed int fd, unsigned int context, enum anonymous_13 flags);
 // drmGetMagic
 // file ../xf86drm.c line 1012
 extern signed int drmGetMagic(signed int fd, unsigned int *magic);
 // drmGetMap
 // file ../xf86drm.c line 2297
-extern signed int drmGetMap(signed int fd, signed int idx, unsigned int *offset, unsigned int *size, enum anonymous$6 *type, enum anonymous$7 *flags, unsigned int *handle, signed int *mtrr);
+extern signed int drmGetMap(signed int fd, signed int idx, unsigned int *offset, unsigned int *size, enum anonymous_6 *type, enum anonymous_7 *flags, unsigned int *handle, signed int *mtrr);
 // drmGetMaxNodeName
 // file ../xf86drm.c line 2939
 static signed int drmGetMaxNodeName(void);
-// drmGetMaxNodeName$link1
+// drmGetMaxNodeName_link1
 // file ../xf86drm.c line 2939
-static signed int drmGetMaxNodeName$link1(void);
+static signed int drmGetMaxNodeName_link1(void);
 // drmGetMinorBase
 // file ../xf86drm.c line 501
 static signed int drmGetMinorBase(signed int type);
-// drmGetMinorBase$link1
+// drmGetMinorBase_link1
 // file ../xf86drm.c line 501
-static signed int drmGetMinorBase$link1(signed int type$link1);
+static signed int drmGetMinorBase_link1(signed int type_link1);
 // drmGetMinorName
 // file ../xf86drm.c line 532
 static const char * drmGetMinorName(signed int type);
-// drmGetMinorName$link1
+// drmGetMinorName_link1
 // file ../xf86drm.c line 532
-static const char * drmGetMinorName$link1(signed int type$link1);
+static const char * drmGetMinorName_link1(signed int type_link1);
 // drmGetMinorNameForFD
 // file ../xf86drm.c line 2763
 static char * drmGetMinorNameForFD(signed int fd, signed int type);
-// drmGetMinorNameForFD$link1
+// drmGetMinorNameForFD_link1
 // file ../xf86drm.c line 2763
-static char * drmGetMinorNameForFD$link1(signed int fd$link1, signed int type$link1);
+static char * drmGetMinorNameForFD_link1(signed int fd_link1, signed int type_link1);
 // drmGetMinorType
 // file ../xf86drm.c line 515
 static signed int drmGetMinorType(signed int minor);
-// drmGetMinorType$link1
+// drmGetMinorType_link1
 // file ../xf86drm.c line 515
-static signed int drmGetMinorType$link1(signed int minor$link1);
+static signed int drmGetMinorType_link1(signed int minor_link1);
 // drmGetNodeType
 // file ../xf86drm.c line 2922
 static signed int drmGetNodeType(const char *name);
-// drmGetNodeType$link1
+// drmGetNodeType_link1
 // file ../xf86drm.c line 2922
-static signed int drmGetNodeType$link1(const char *name$link1);
+static signed int drmGetNodeType_link1(const char *name_link1);
 // drmGetNodeTypeFromFd
 // file ../xf86drm.c line 2709
 extern signed int drmGetNodeTypeFromFd(signed int fd);
@@ -1217,9 +1217,9 @@ extern signed int drmMarkBufs(signed int fd, double low, double high);
 // drmMatchBusID
 // file ../xf86drm.c line 220
 static signed int drmMatchBusID(const char *id1, const char *id2, signed int pci_domain_ok);
-// drmMatchBusID$link1
+// drmMatchBusID_link1
 // file ../xf86drm.c line 220
-static signed int drmMatchBusID$link1(const char *id1$link1, const char *id2$link1, signed int pci_domain_ok$link1);
+static signed int drmMatchBusID_link1(const char *id1_link1, const char *id2_link1, signed int pci_domain_ok_link1);
 // drmModeAddFB
 // file ../xf86drmMode.c line 251
 extern signed int drmModeAddFB(signed int fd, unsigned int width, unsigned int height, unsigned char depth, unsigned char bpp, unsigned int pitch, unsigned int bo_handle, unsigned int *buf_id);
@@ -1373,30 +1373,30 @@ extern signed int drmOpen(const char *name, const char *busid);
 // drmOpenByBusid
 // file ../xf86drm.c line 560
 static signed int drmOpenByBusid(const char *busid, signed int type);
-// drmOpenByBusid$link1
+// drmOpenByBusid_link1
 // file ../xf86drm.c line 560
-static signed int drmOpenByBusid$link1(const char *busid$link1, signed int type$link1);
+static signed int drmOpenByBusid_link1(const char *busid_link1, signed int type_link1);
 // drmOpenByName
 // file ../xf86drm.c line 624
 static signed int drmOpenByName(const char *name, signed int type);
-// drmOpenByName$link1
+// drmOpenByName_link1
 // file ../xf86drm.c line 624
-static signed int drmOpenByName$link1(const char *name$link1, signed int type$link1);
+static signed int drmOpenByName_link1(const char *name_link1, signed int type_link1);
 // drmOpenControl
 // file ../xf86drm.c line 756
 extern signed int drmOpenControl(signed int minor);
 // drmOpenDevice
 // file ../xf86drm.c line 308
 static signed int drmOpenDevice(unsigned long int dev, signed int minor, signed int type);
-// drmOpenDevice$link1
+// drmOpenDevice_link1
 // file ../xf86drm.c line 308
-static signed int drmOpenDevice$link1(unsigned long int dev$link1, signed int minor$link1, signed int type$link1);
+static signed int drmOpenDevice_link1(unsigned long int dev_link1, signed int minor_link1, signed int type_link1);
 // drmOpenMinor
 // file ../xf86drm.c line 437
 static signed int drmOpenMinor(signed int minor, signed int create, signed int type);
-// drmOpenMinor$link1
+// drmOpenMinor_link1
 // file ../xf86drm.c line 437
-static signed int drmOpenMinor$link1(signed int minor$link1, signed int create$link1, signed int type$link1);
+static signed int drmOpenMinor_link1(signed int minor_link1, signed int create_link1, signed int type_link1);
 // drmOpenOnce
 // file ../xf86drm.c line 2614
 extern signed int drmOpenOnce(void *unused, const char *BusID, signed int *newlyopened);
@@ -1412,21 +1412,21 @@ extern signed int drmOpenWithType(const char *name, const char *busid, signed in
 // drmParsePciBusInfo
 // file ../xf86drm.c line 2862
 static signed int drmParsePciBusInfo(signed int maj, signed int min, struct _drmPciBusInfo *info);
-// drmParsePciBusInfo$link1
+// drmParsePciBusInfo_link1
 // file ../xf86drm.c line 2862
-static signed int drmParsePciBusInfo$link1(signed int maj$link1, signed int min$link1, struct _drmPciBusInfo *info$link1);
+static signed int drmParsePciBusInfo_link1(signed int maj_link1, signed int min_link1, struct _drmPciBusInfo *info_link1);
 // drmParsePciDeviceInfo
 // file ../xf86drm.c line 2948
 static signed int drmParsePciDeviceInfo(const char *d_name, struct _drmPciDeviceInfo *device);
-// drmParsePciDeviceInfo$link1
+// drmParsePciDeviceInfo_link1
 // file ../xf86drm.c line 2948
-static signed int drmParsePciDeviceInfo$link1(const char *d_name$link1, struct _drmPciDeviceInfo *device$link1);
+static signed int drmParsePciDeviceInfo_link1(const char *d_name_link1, struct _drmPciDeviceInfo *device_link1);
 // drmParseSubsystemType
 // file ../xf86drm.c line 2835
 static signed int drmParseSubsystemType(signed int maj, signed int min);
-// drmParseSubsystemType$link1
+// drmParseSubsystemType_link1
 // file ../xf86drm.c line 2835
-static signed int drmParseSubsystemType$link1(signed int maj$link1, signed int min$link1);
+static signed int drmParseSubsystemType_link1(signed int maj_link1, signed int min_link1);
 // drmPrimeFDToHandle
 // file ../../xf86drm.h line 759
 extern signed int drmPrimeFDToHandle(signed int fd, signed int prime_fd, unsigned int *handle);
@@ -1436,9 +1436,9 @@ extern signed int drmPrimeHandleToFD(signed int fd, unsigned int handle, unsigne
 // drmProcessPciDevice
 // file ../xf86drm.c line 2999
 static signed int drmProcessPciDevice(struct _drmDevice **device, const char *d_name, const char *node, signed int node_type, signed int maj, signed int min, _Bool fetch_deviceinfo);
-// drmProcessPciDevice$link1
+// drmProcessPciDevice_link1
 // file ../xf86drm.c line 2999
-static signed int drmProcessPciDevice$link1(struct _drmDevice **device$link1, const char *d_name$link1, const char *node$link1, signed int node_type$link1, signed int maj$link1, signed int min$link1, _Bool fetch_deviceinfo$link1);
+static signed int drmProcessPciDevice_link1(struct _drmDevice **device_link1, const char *d_name_link1, const char *node_link1, signed int node_type_link1, signed int maj_link1, signed int min_link1, _Bool fetch_deviceinfo_link1);
 // drmRandom
 // file ../xf86drm.h line 706
 extern unsigned long int drmRandom(void *state);
@@ -1495,7 +1495,7 @@ extern signed int drmSetBusid(signed int fd, const char *busid);
 extern signed int drmSetClientCap(signed int fd, unsigned long int capability, unsigned long int value);
 // drmSetContextFlags
 // file ../xf86drm.c line 1571
-extern signed int drmSetContextFlags(signed int fd, unsigned int context, enum anonymous$9 flags);
+extern signed int drmSetContextFlags(signed int fd, unsigned int context, enum anonymous_9 flags);
 // drmSetInterfaceVersion
 // file ../xf86drm.c line 2471
 extern signed int drmSetInterfaceVersion(signed int fd, struct _drmSetVersion *version);
@@ -1519,19 +1519,19 @@ extern signed int drmUnmap(void *address, unsigned int size);
 extern signed int drmUnmapBufs(struct _drmBufMap *bufs);
 // drmUpdateDrawableInfo
 // file ../xf86drm.c line 1659
-extern signed int drmUpdateDrawableInfo(signed int fd, unsigned int handle, enum anonymous$12 type, unsigned int num, void *data);
+extern signed int drmUpdateDrawableInfo(signed int fd, unsigned int handle, enum anonymous_12 type, unsigned int num, void *data);
 // drmWaitVBlank
 // file ../xf86drm.c line 2089
 extern signed int drmWaitVBlank(signed int fd, union _drmVBlank *vbl);
 // drm_munmap
 // file ../../libdrm_macros.h line 74
 static inline signed int drm_munmap(void *addr, unsigned long int length);
-// drm_munmap$link1
+// drm_munmap_link1
 // file ../libdrm_macros.h line 74
-static inline signed int drm_munmap$link1(void *addr$link1, unsigned long int length$link1);
-// drm_munmap$link2
+static inline signed int drm_munmap_link1(void *addr_link1, unsigned long int length_link1);
+// drm_munmap_link2
 // file ../libdrm_macros.h line 74
-static inline signed int drm_munmap$link2(void *addr$link2, unsigned long int length$link2);
+static inline signed int drm_munmap_link2(void *addr_link2, unsigned long int length_link2);
 // ffs
 // file /usr/include/string.h line 522
 extern signed int ffs(signed int);
@@ -1592,12 +1592,12 @@ extern signed int munmap(void *, unsigned long int);
 // nouveau_bo
 // file ../../nouveau/private.h line 91
 static inline struct nouveau_bo_priv * nouveau_bo(struct nouveau_bo *bo);
-// nouveau_bo$link1
+// nouveau_bo_link1
 // file ../../nouveau/private.h line 91
-static inline struct nouveau_bo_priv * nouveau_bo$link1(struct nouveau_bo *bo$link1);
-// nouveau_bo$link2
+static inline struct nouveau_bo_priv * nouveau_bo_link1(struct nouveau_bo *bo_link1);
+// nouveau_bo_link2
 // file ../../nouveau/private.h line 91
-static inline struct nouveau_bo_priv * nouveau_bo$link2(struct nouveau_bo *bo$link2);
+static inline struct nouveau_bo_priv * nouveau_bo_link2(struct nouveau_bo *bo_link2);
 // nouveau_bo_del
 // file ../../nouveau/nouveau.c line 595
 static void nouveau_bo_del(struct nouveau_bo *bo);
@@ -1655,9 +1655,9 @@ void nouveau_bufctx_reset(struct nouveau_bufctx *bctx, signed int bin);
 // nouveau_client
 // file ../../nouveau/private.h line 37
 static inline struct nouveau_client_priv * nouveau_client(struct nouveau_client *client);
-// nouveau_client$link1
+// nouveau_client_link1
 // file ../../nouveau/private.h line 37
-static inline struct nouveau_client_priv * nouveau_client$link1(struct nouveau_client *client$link1);
+static inline struct nouveau_client_priv * nouveau_client_link1(struct nouveau_client *client_link1);
 // nouveau_client_del
 // file ../../nouveau/nouveau.c line 579
 void nouveau_client_del(struct nouveau_client **pclient);
@@ -1667,12 +1667,12 @@ signed int nouveau_client_new(struct nouveau_device *dev, struct nouveau_client 
 // nouveau_device
 // file ../../nouveau/private.h line 108
 static inline struct nouveau_device_priv * nouveau_device(struct nouveau_device *dev);
-// nouveau_device$link1
+// nouveau_device_link1
 // file ../../nouveau/private.h line 108
-static inline struct nouveau_device_priv * nouveau_device$link1(struct nouveau_device *dev$link1);
-// nouveau_device$link2
+static inline struct nouveau_device_priv * nouveau_device_link1(struct nouveau_device *dev_link1);
+// nouveau_device_link2
 // file ../../nouveau/private.h line 108
-static inline struct nouveau_device_priv * nouveau_device$link2(struct nouveau_device *dev$link2);
+static inline struct nouveau_device_priv * nouveau_device_link2(struct nouveau_device *dev_link2);
 // nouveau_device_del
 // file ../../../nouveau/nouveau.h line 76
 void nouveau_device_del(struct nouveau_device **pdev);
@@ -1691,12 +1691,12 @@ signed int nouveau_device_wrap(signed int fd, signed int close, struct nouveau_d
 // nouveau_drm
 // file ../../nouveau/nouveau.h line 52
 static inline struct nouveau_drm * nouveau_drm(struct nouveau_object *obj);
-// nouveau_drm$link1
+// nouveau_drm_link1
 // file ../../nouveau/nouveau.h line 52
-static inline struct nouveau_drm * nouveau_drm$link1(struct nouveau_object *obj$link1);
-// nouveau_drm$link2
+static inline struct nouveau_drm * nouveau_drm_link1(struct nouveau_object *obj_link1);
+// nouveau_drm_link2
 // file ../../nouveau/nouveau.h line 52
-static inline struct nouveau_drm * nouveau_drm$link2(struct nouveau_object *obj$link2);
+static inline struct nouveau_drm * nouveau_drm_link2(struct nouveau_object *obj_link2);
 // nouveau_drm_del
 // file ../../nouveau/nouveau.c line 322
 void nouveau_drm_del(struct nouveau_drm **pdrm);
@@ -1715,9 +1715,9 @@ static void nouveau_object_fini(struct nouveau_object *obj);
 // nouveau_object_init
 // file ../../nouveau/nouveau.c line 235
 static signed int nouveau_object_init(struct nouveau_object *parent, unsigned int handle, signed int oclass, void *data, unsigned int size, struct nouveau_object *obj);
-// nouveau_object_init::1::func$object
+// nouveau_object_init::1::func_object
 //
-signed int func$object(struct nouveau_object *);
+signed int func_object(struct nouveau_object *);
 // nouveau_object_ioctl
 // file ../../nouveau/nouveau.c line 68
 static signed int nouveau_object_ioctl(struct nouveau_object *obj, void *data, unsigned int size);
@@ -1772,9 +1772,9 @@ signed int nouveau_pushbuf_validate(struct nouveau_pushbuf *push);
 // nouveau_setparam
 // file ../../nouveau/nouveau.c line 532
 signed int nouveau_setparam(struct nouveau_device *dev, unsigned long int param, unsigned long int value);
-// old_ioctl$object
+// old_ioctl_object
 //
-signed int old_ioctl$object(signed int, unsigned long int, ...);
+signed int old_ioctl_object(signed int, unsigned long int, ...);
 // open
 // file /usr/include/fcntl.h line 146
 extern signed int open(const char *, signed int, ...);
@@ -1795,16 +1795,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$26 *);
+extern signed int pthread_mutex_destroy(union anonymous_26 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$26 *, const union anonymous$27 *);
+extern signed int pthread_mutex_init(union anonymous_26 *, const union anonymous_27 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$26 *);
+extern signed int pthread_mutex_lock(union anonymous_26 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$26 *);
+extern signed int pthread_mutex_unlock(union anonymous_26 *);
 // pushbuf_dump
 // file ../../nouveau/pushbuf.c line 267
 static void pushbuf_dump(struct nouveau_pushbuf_krec *krec, signed int krec_id, signed int chid);
@@ -1856,9 +1856,9 @@ extern signed int snprintf(char *, unsigned long int, const char *, ...);
 // sort_req_list
 // file ../xf86drmMode.c line 1300
 static signed int sort_req_list(const void *misc, const void *other);
-// sort_req_list$link1
+// sort_req_list_link1
 // file ../xf86drmMode.c line 1300
-static signed int sort_req_list$link1(const void *misc$link1, const void *other$link1);
+static signed int sort_req_list_link1(const void *misc_link1, const void *other_link1);
 // sprintf
 // file /usr/include/stdio.h line 364
 extern signed int sprintf(char *, const char *, ...);
@@ -1908,7 +1908,7 @@ extern signed int usleep(unsigned int);
 // file /usr/include/stdio.h line 371
 extern signed int vfprintf(struct _IO_FILE *, const char *, void **);
 
-struct anonymous$5
+struct anonymous_5
 {
   // BusID
   char *BusID;
@@ -1920,7 +1920,7 @@ struct anonymous$5
   signed int type;
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // atomic
   signed int atomic;
@@ -1938,7 +1938,7 @@ struct nouveau_fifo
   unsigned long int unused1[3l];
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // base
   struct nouveau_fifo base;
@@ -1946,7 +1946,7 @@ struct anonymous$18
   unsigned int notify;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // handle
   unsigned int handle;
@@ -1954,7 +1954,7 @@ struct anonymous$17
   unsigned int grclass;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // memtype
   unsigned int memtype;
@@ -1962,7 +1962,7 @@ struct anonymous$11
   unsigned int tile_mode;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // surf_flags
   unsigned int surf_flags;
@@ -1970,7 +1970,7 @@ struct anonymous$10
   unsigned int surf_pitch;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // value
   unsigned long int value;
@@ -2000,19 +2000,19 @@ struct anonymous
   enum drm_stat_type type;
 };
 
-union anonymous$14
+union anonymous_14
 {
   // pci
   struct _drmPciBusInfo *pci;
 };
 
-union anonymous$15
+union anonymous_15
 {
   // pci
   struct _drmPciDeviceInfo *pci;
 };
 
-union anonymous$27
+union anonymous_27
 {
   // __size
   char __size[4l];
@@ -2048,7 +2048,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$26
+union anonymous_26
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2257,7 +2257,7 @@ struct _drmDMAReq
   // send_sizes
   signed int *send_sizes;
   // flags
-  enum anonymous$20 flags;
+  enum anonymous_20 flags;
   // request_count
   signed int request_count;
   // request_size
@@ -2279,9 +2279,9 @@ struct _drmDevice
   // bustype
   signed int bustype;
   // businfo
-  union anonymous$14 businfo;
+  union anonymous_14 businfo;
   // deviceinfo
-  union anonymous$15 deviceinfo;
+  union anonymous_15 deviceinfo;
 };
 
 struct _drmEventContext
@@ -2325,13 +2325,13 @@ struct _drmModeConnector
   // connector_type_id
   unsigned int connector_type_id;
   // connection
-  enum anonymous$21 connection;
+  enum anonymous_21 connection;
   // mmWidth
   unsigned int mmWidth;
   // mmHeight
   unsigned int mmHeight;
   // subpixel
-  enum anonymous$22 subpixel;
+  enum anonymous_22 subpixel;
   // count_modes
   signed int count_modes;
   // modes
@@ -2593,13 +2593,13 @@ struct _drmStats
   // count
   unsigned long int count;
   // data
-  struct anonymous$16 data[15l];
+  struct anonymous_16 data[15l];
 };
 
 struct _drmVBlankReq
 {
   // type
-  enum anonymous$24 type;
+  enum anonymous_24 type;
   // sequence
   unsigned int sequence;
   // signal
@@ -2609,7 +2609,7 @@ struct _drmVBlankReq
 struct _drmVBlankReply
 {
   // type
-  enum anonymous$24 type;
+  enum anonymous_24 type;
   // sequence
   unsigned int sequence;
   // tval_sec
@@ -2737,7 +2737,7 @@ struct drm_buf_desc
   // high_mark
   signed int high_mark;
   // flags
-  enum anonymous$19 flags;
+  enum anonymous_19 flags;
   // agp_start
   unsigned long int agp_start;
 };
@@ -2811,7 +2811,7 @@ struct drm_clip_rect
 struct drm_control
 {
   // func
-  enum anonymous$23 func;
+  enum anonymous_23 func;
   // irq
   signed int irq;
 };
@@ -3401,7 +3401,7 @@ struct drm_nouveau_channel_alloc
   // notifier_handle
   unsigned int notifier_handle;
   // subchan
-  struct anonymous$17 subchan[8l];
+  struct anonymous_17 subchan[8l];
   // nr_subchan
   unsigned int nr_subchan;
 };
@@ -3697,11 +3697,11 @@ union drm_wait_vblank
 union nouveau_bo_config
 {
   // nv04
-  struct anonymous$10 nv04;
+  struct anonymous_10 nv04;
   // nv50
-  struct anonymous$11 nv50;
+  struct anonymous_11 nv50;
   // nvc0
-  struct anonymous$11 nvc0;
+  struct anonymous_11 nvc0;
   // data
   unsigned int data[8l];
 };
@@ -3739,7 +3739,7 @@ struct nouveau_bo_priv
   // head
   struct nouveau_list head;
   // refcnt
-  struct anonymous$28 refcnt;
+  struct anonymous_28 refcnt;
   // map_handle
   unsigned long int map_handle;
   // name
@@ -3883,7 +3883,7 @@ struct nouveau_device_priv
   // close
   signed int close;
   // lock
-  union anonymous$26 lock;
+  union anonymous_26 lock;
   // bo_list
   struct nouveau_list bo_list;
   // client
@@ -4078,8 +4078,8 @@ struct nvc0_fifo
 
 struct nve0_fifo
 {
-  // $anon0
-  struct anonymous$18 $anon0;
+  // _anon0
+  struct anonymous_18 _anon0;
   // engine
   unsigned int engine;
 };
@@ -4215,22 +4215,22 @@ struct stat
 
 // connection
 // file ../xf86drm.c line 2610
-static struct anonymous$5 connection[16l];
-// connection$link1
+static struct anonymous_5 connection[16l];
+// connection_link1
 // file ../xf86drm.c line 2610
-static struct anonymous$5 connection$link1[16l];
+static struct anonymous_5 connection_link1[16l];
 // drmHashTable
 // file ../xf86drm.c line 146
 static void *drmHashTable = (void *)0;
-// drmHashTable$link1
+// drmHashTable_link1
 // file ../xf86drm.c line 146
-static void *drmHashTable$link1 = (void *)0;
+static void *drmHashTable_link1 = (void *)0;
 // drm_server_info
 // file ../xf86drm.c line 106
 static struct _drmServerInfo *drm_server_info;
-// drm_server_info$link1
+// drm_server_info_link1
 // file ../xf86drm.c line 106
-static struct _drmServerInfo *drm_server_info$link1;
+static struct _drmServerInfo *drm_server_info_link1;
 // failed
 // file ../../../tests/nouveau/threaded.c line 39
 static signed int failed;
@@ -4243,9 +4243,9 @@ unsigned int nouveau_debug = (unsigned int)0;
 // nr_fds
 // file ../xf86drm.c line 2612
 static signed int nr_fds = 0;
-// nr_fds$link1
+// nr_fds_link1
 // file ../xf86drm.c line 2612
-static signed int nr_fds$link1 = 0;
+static signed int nr_fds_link1 = 0;
 // old_ioctl
 // file ../../../tests/nouveau/threaded.c line 38
 static signed int (*old_ioctl)(signed int, unsigned long int, ...);
@@ -4259,36 +4259,36 @@ static inline signed int DRM_IOCTL(signed int fd, unsigned long int cmd, void *a
 {
   signed int ret;
   ret=drmIoctl(fd, cmd, arg);
-  signed int tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  signed int tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   if(!(ret >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    tmp_if_expr$2 = -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    tmp_if_expr_2 = -(*return_value___errno_location_1);
   }
 
   else
-    tmp_if_expr$2 = ret;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = ret;
+  return tmp_if_expr_2;
 }
 
-// DRM_IOCTL$link1
+// DRM_IOCTL_link1
 // file ../xf86drmMode.c line 68
-static inline signed int DRM_IOCTL$link1(signed int fd$link1, unsigned long int cmd$link1, void *arg$link1)
+static inline signed int DRM_IOCTL_link1(signed int fd_link1, unsigned long int cmd_link1, void *arg_link1)
 {
-  signed int ret$link1;
-  ret$link1=drmIoctl(fd$link1, cmd$link1, arg$link1);
-  signed int tmp_if_expr$2$link1;
-  signed int *return_value___errno_location$1$link1;
-  if(!(ret$link1 >= 0))
+  signed int ret_link1;
+  ret_link1=drmIoctl(fd_link1, cmd_link1, arg_link1);
+  signed int tmp_if_expr_2_link1;
+  signed int *return_value___errno_location_1_link1;
+  if(!(ret_link1 >= 0))
   {
-    return_value___errno_location$1$link1=__errno_location();
-    tmp_if_expr$2$link1 = -(*return_value___errno_location$1$link1);
+    return_value___errno_location_1_link1=__errno_location();
+    tmp_if_expr_2_link1 = -(*return_value___errno_location_1_link1);
   }
 
   else
-    tmp_if_expr$2$link1 = ret$link1;
-  return tmp_if_expr$2$link1;
+    tmp_if_expr_2_link1 = ret_link1;
+  return tmp_if_expr_2_link1;
 }
 
 // HashFind
@@ -4326,38 +4326,38 @@ static struct HashBucket * HashFind(struct HashTable *table, unsigned long int k
   return (struct HashBucket *)(void *)0;
 }
 
-// HashFind$link1
+// HashFind_link1
 // file ../xf86drmHash.c line 147
-static struct HashBucket * HashFind$link1(struct HashTable *table$link1, unsigned long int key$link1, unsigned long int *h$link1)
+static struct HashBucket * HashFind_link1(struct HashTable *table_link1, unsigned long int key_link1, unsigned long int *h_link1)
 {
-  unsigned long int hash$link1;
-  hash$link1=HashHash$link1(key$link1);
-  struct HashBucket *prev$link1 = (struct HashBucket *)(void *)0;
-  struct HashBucket *bucket$link1;
-  if(!(h$link1 == ((unsigned long int *)NULL)))
-    *h$link1 = hash$link1;
+  unsigned long int hash_link1;
+  hash_link1=HashHash_link1(key_link1);
+  struct HashBucket *prev_link1 = (struct HashBucket *)(void *)0;
+  struct HashBucket *bucket_link1;
+  if(!(h_link1 == ((unsigned long int *)NULL)))
+    *h_link1 = hash_link1;
 
-  bucket$link1 = table$link1->buckets[(signed long int)hash$link1];
-  for( ; !(bucket$link1 == ((struct HashBucket *)NULL)); bucket$link1 = bucket$link1->next)
+  bucket_link1 = table_link1->buckets[(signed long int)hash_link1];
+  for( ; !(bucket_link1 == ((struct HashBucket *)NULL)); bucket_link1 = bucket_link1->next)
   {
-    if(bucket$link1->key == key$link1)
+    if(bucket_link1->key == key_link1)
     {
-      if(!(prev$link1 == ((struct HashBucket *)NULL)))
+      if(!(prev_link1 == ((struct HashBucket *)NULL)))
       {
-        prev$link1->next = bucket$link1->next;
-        bucket$link1->next = table$link1->buckets[(signed long int)hash$link1];
-        table$link1->buckets[(signed long int)hash$link1] = bucket$link1;
-        table$link1->partials = table$link1->partials + 1ul;
+        prev_link1->next = bucket_link1->next;
+        bucket_link1->next = table_link1->buckets[(signed long int)hash_link1];
+        table_link1->buckets[(signed long int)hash_link1] = bucket_link1;
+        table_link1->partials = table_link1->partials + 1ul;
       }
 
       else
-        table$link1->hits = table$link1->hits + 1ul;
-      return bucket$link1;
+        table_link1->hits = table_link1->hits + 1ul;
+      return bucket_link1;
     }
 
-    prev$link1 = bucket$link1;
+    prev_link1 = bucket_link1;
   }
-  table$link1->misses = table$link1->misses + 1ul;
+  table_link1->misses = table_link1->misses + 1ul;
   return (struct HashBucket *)(void *)0;
 }
 
@@ -4387,30 +4387,30 @@ static unsigned long int HashHash(unsigned long int key)
   return hash;
 }
 
-// HashHash$link1
+// HashHash_link1
 // file ../xf86drmHash.c line 79
-static unsigned long int HashHash$link1(unsigned long int key$link1)
+static unsigned long int HashHash_link1(unsigned long int key_link1)
 {
-  unsigned long int hash$link1 = (unsigned long int)0;
-  unsigned long int tmp$link1 = key$link1;
-  signed int i$link1;
-  static unsigned long int scatter$link1[256l];
-  static signed int init$link1 = 0;
-  if(init$link1 == 0)
+  unsigned long int hash_link1 = (unsigned long int)0;
+  unsigned long int tmp_link1 = key_link1;
+  signed int i_link1;
+  static unsigned long int scatter_link1[256l];
+  static signed int init_link1 = 0;
+  if(init_link1 == 0)
   {
-    void *state$link1;
-    state$link1=drmRandomCreate((unsigned long int)37);
-    i$link1 = 0;
-    for( ; !(i$link1 >= 256); i$link1 = i$link1 + 1)
-      scatter$link1[(signed long int)i$link1]=drmRandom(state$link1);
-    drmRandomDestroy(state$link1);
-    init$link1 = init$link1 + 1;
+    void *state_link1;
+    state_link1=drmRandomCreate((unsigned long int)37);
+    i_link1 = 0;
+    for( ; !(i_link1 >= 256); i_link1 = i_link1 + 1)
+      scatter_link1[(signed long int)i_link1]=drmRandom(state_link1);
+    drmRandomDestroy(state_link1);
+    init_link1 = init_link1 + 1;
   }
 
-  for( ; !(tmp$link1 == 0ul); tmp$link1 = tmp$link1 >> 8)
-    hash$link1 = (hash$link1 << 1) + scatter$link1[(signed long int)(tmp$link1 & (unsigned long int)0xff)];
-  hash$link1 = hash$link1 % (unsigned long int)512;
-  return hash$link1;
+  for( ; !(tmp_link1 == 0ul); tmp_link1 = tmp_link1 >> 8)
+    hash_link1 = (hash_link1 << 1) + scatter_link1[(signed long int)(tmp_link1 & (unsigned long int)0xff)];
+  hash_link1 = hash_link1 % (unsigned long int)512;
+  return hash_link1;
 }
 
 // SLCreateEntry
@@ -4421,9 +4421,9 @@ static struct SLEntry * SLCreateEntry(signed int max_level, unsigned long int ke
   if(max_level >= 17 || !(max_level >= 0))
     max_level = 16;
 
-  void *return_value_drmMalloc$1;
-  return_value_drmMalloc$1=drmMalloc((signed int)(sizeof(struct SLEntry) /*40ul*/  + (unsigned long int)(max_level + 1) * sizeof(struct SLEntry *) /*8ul*/ ));
-  entry = (struct SLEntry *)return_value_drmMalloc$1;
+  void *return_value_drmMalloc_1;
+  return_value_drmMalloc_1=drmMalloc((signed int)(sizeof(struct SLEntry) /*40ul*/  + (unsigned long int)(max_level + 1) * sizeof(struct SLEntry *) /*8ul*/ ));
+  entry = (struct SLEntry *)return_value_drmMalloc_1;
   if(entry == ((struct SLEntry *)NULL))
     return (struct SLEntry *)(void *)0;
 
@@ -4437,27 +4437,27 @@ static struct SLEntry * SLCreateEntry(signed int max_level, unsigned long int ke
   }
 }
 
-// SLCreateEntry$link1
+// SLCreateEntry_link1
 // file ../xf86drmSL.c line 72
-static struct SLEntry * SLCreateEntry$link1(signed int max_level$link1, unsigned long int key$link1, void *value$link1)
+static struct SLEntry * SLCreateEntry_link1(signed int max_level_link1, unsigned long int key_link1, void *value_link1)
 {
-  struct SLEntry *entry$link1;
-  if(max_level$link1 >= 17 || !(max_level$link1 >= 0))
-    max_level$link1 = 16;
+  struct SLEntry *entry_link1;
+  if(max_level_link1 >= 17 || !(max_level_link1 >= 0))
+    max_level_link1 = 16;
 
-  void *return_value_drmMalloc$1$link1;
-  return_value_drmMalloc$1$link1=drmMalloc((signed int)(sizeof(struct SLEntry) /*40ul*/  + (unsigned long int)(max_level$link1 + 1) * sizeof(struct SLEntry *) /*8ul*/ ));
-  entry$link1 = (struct SLEntry *)return_value_drmMalloc$1$link1;
-  if(entry$link1 == ((struct SLEntry *)NULL))
+  void *return_value_drmMalloc_1_link1;
+  return_value_drmMalloc_1_link1=drmMalloc((signed int)(sizeof(struct SLEntry) /*40ul*/  + (unsigned long int)(max_level_link1 + 1) * sizeof(struct SLEntry *) /*8ul*/ ));
+  entry_link1 = (struct SLEntry *)return_value_drmMalloc_1_link1;
+  if(entry_link1 == ((struct SLEntry *)NULL))
     return (struct SLEntry *)(void *)0;
 
   else
   {
-    entry$link1->magic = 0x00fab1edLU;
-    entry$link1->key = key$link1;
-    entry$link1->value = value$link1;
-    entry$link1->levels = max_level$link1 + 1;
-    return entry$link1;
+    entry_link1->magic = 0x00fab1edLU;
+    entry_link1->key = key_link1;
+    entry_link1->value = value_link1;
+    entry_link1->levels = max_level_link1 + 1;
+    return entry_link1;
   }
 }
 
@@ -4487,29 +4487,29 @@ static struct SLEntry * SLLocate(void *l, unsigned long int key, struct SLEntry 
   }
 }
 
-// SLLocate$link1
+// SLLocate_link1
 // file ../xf86drmSL.c line 137
-static struct SLEntry * SLLocate$link1(void *l$link1, unsigned long int key$link1, struct SLEntry **update$link1)
+static struct SLEntry * SLLocate_link1(void *l_link1, unsigned long int key_link1, struct SLEntry **update_link1)
 {
-  struct SkipList *list$link1 = (struct SkipList *)l$link1;
-  struct SLEntry *entry$link1;
-  signed int i$link1;
-  if(!(list$link1->magic == 0xfacade00LU))
+  struct SkipList *list_link1 = (struct SkipList *)l_link1;
+  struct SLEntry *entry_link1;
+  signed int i_link1;
+  if(!(list_link1->magic == 0xfacade00LU))
     return (struct SLEntry *)(void *)0;
 
   else
   {
-    i$link1 = list$link1->level;
-    entry$link1 = list$link1->head;
-    for( ; i$link1 >= 0; i$link1 = i$link1 - 1)
+    i_link1 = list_link1->level;
+    entry_link1 = list_link1->head;
+    for( ; i_link1 >= 0; i_link1 = i_link1 - 1)
     {
-      for( ; !(entry$link1->forward[(signed long int)i$link1] == ((struct SLEntry *)NULL)); entry$link1 = entry$link1->forward[(signed long int)i$link1])
-        if(entry$link1->forward[(signed long int)i$link1]->key >= key$link1)
+      for( ; !(entry_link1->forward[(signed long int)i_link1] == ((struct SLEntry *)NULL)); entry_link1 = entry_link1->forward[(signed long int)i_link1])
+        if(entry_link1->forward[(signed long int)i_link1]->key >= key_link1)
           break;
 
-      update$link1[(signed long int)i$link1] = entry$link1;
+      update_link1[(signed long int)i_link1] = entry_link1;
     }
-    return entry$link1->forward[(signed long int)0];
+    return entry_link1->forward[(signed long int)0];
   }
 }
 
@@ -4522,11 +4522,11 @@ static signed int SLRandomLevel(void)
   if(state == NULL)
     state=drmRandomCreate(0xc01055a1LU);
 
-  unsigned long int return_value_drmRandom$1;
+  unsigned long int return_value_drmRandom_1;
   do
   {
-    return_value_drmRandom$1=drmRandom(state);
-    if((1ul & return_value_drmRandom$1) == 0ul)
+    return_value_drmRandom_1=drmRandom(state);
+    if((1ul & return_value_drmRandom_1) == 0ul)
       break;
 
     if(level >= 16)
@@ -4538,29 +4538,29 @@ static signed int SLRandomLevel(void)
   return level;
 }
 
-// SLRandomLevel$link1
+// SLRandomLevel_link1
 // file ../xf86drmSL.c line 89
-static signed int SLRandomLevel$link1(void)
+static signed int SLRandomLevel_link1(void)
 {
-  signed int level$link1 = 1;
-  static void *state$link1 = (void *)0;
-  if(state$link1 == NULL)
-    state$link1=drmRandomCreate(0xc01055a1LU);
+  signed int level_link1 = 1;
+  static void *state_link1 = (void *)0;
+  if(state_link1 == NULL)
+    state_link1=drmRandomCreate(0xc01055a1LU);
 
-  unsigned long int return_value_drmRandom$1$link1;
+  unsigned long int return_value_drmRandom_1_link1;
   do
   {
-    return_value_drmRandom$1$link1=drmRandom(state$link1);
-    if((1ul & return_value_drmRandom$1$link1) == 0ul)
+    return_value_drmRandom_1_link1=drmRandom(state_link1);
+    if((1ul & return_value_drmRandom_1_link1) == 0ul)
       break;
 
-    if(level$link1 >= 16)
+    if(level_link1 >= 16)
       break;
 
-    level$link1 = level$link1 + 1;
+    level_link1 = level_link1 + 1;
   }
   while((_Bool)1);
-  return level$link1;
+  return level_link1;
 }
 
 // _drmModeGetConnector
@@ -4579,21 +4579,21 @@ static struct _drmModeConnector * _drmModeGetConnector(signed int fd, unsigned i
     conn.modes_ptr = (unsigned long int)&stack_mode;
   }
 
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA7 << 0)) | sizeof(struct drm_mode_get_connector) /*80ul*/  << 0 + 8 + 8, (void *)&conn);
-  signed int return_value_drmIoctl$6;
-  void *return_value_drmAllocCpy$8;
-  void *return_value_drmAllocCpy$9;
-  void *return_value_drmAllocCpy$10;
-  void *return_value_drmAllocCpy$11;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$17;
-  if(!(return_value_drmIoctl$1 == 0))
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA7 << 0)) | sizeof(struct drm_mode_get_connector) /*80ul*/  << 0 + 8 + 8, (void *)&conn);
+  signed int return_value_drmIoctl_6;
+  void *return_value_drmAllocCpy_8;
+  void *return_value_drmAllocCpy_9;
+  void *return_value_drmAllocCpy_10;
+  void *return_value_drmAllocCpy_11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_17;
+  if(!(return_value_drmIoctl_1 == 0))
     return ((struct _drmModeConnector *)NULL);
 
   else
@@ -4606,15 +4606,15 @@ static struct _drmModeConnector * _drmModeGetConnector(signed int fd, unsigned i
       counts = conn;
       if(!(conn.count_props == 0u))
       {
-        void *return_value_drmMalloc$2;
-        return_value_drmMalloc$2=drmMalloc((signed int)((unsigned long int)conn.count_props * sizeof(unsigned int) /*4ul*/ ));
-        conn.props_ptr = (unsigned long int)return_value_drmMalloc$2;
+        void *return_value_drmMalloc_2;
+        return_value_drmMalloc_2=drmMalloc((signed int)((unsigned long int)conn.count_props * sizeof(unsigned int) /*4ul*/ ));
+        conn.props_ptr = (unsigned long int)return_value_drmMalloc_2;
         if(conn.props_ptr == 0ull)
           goto err_allocs;
 
-        void *return_value_drmMalloc$3;
-        return_value_drmMalloc$3=drmMalloc((signed int)((unsigned long int)conn.count_props * sizeof(unsigned long int) /*8ul*/ ));
-        conn.prop_values_ptr = (unsigned long int)return_value_drmMalloc$3;
+        void *return_value_drmMalloc_3;
+        return_value_drmMalloc_3=drmMalloc((signed int)((unsigned long int)conn.count_props * sizeof(unsigned long int) /*8ul*/ ));
+        conn.prop_values_ptr = (unsigned long int)return_value_drmMalloc_3;
         if(conn.prop_values_ptr == 0ull)
           goto err_allocs;
 
@@ -4622,9 +4622,9 @@ static struct _drmModeConnector * _drmModeGetConnector(signed int fd, unsigned i
 
       if(!(conn.count_modes == 0u))
       {
-        void *return_value_drmMalloc$4;
-        return_value_drmMalloc$4=drmMalloc((signed int)((unsigned long int)conn.count_modes * sizeof(struct drm_mode_modeinfo) /*68ul*/ ));
-        conn.modes_ptr = (unsigned long int)return_value_drmMalloc$4;
+        void *return_value_drmMalloc_4;
+        return_value_drmMalloc_4=drmMalloc((signed int)((unsigned long int)conn.count_modes * sizeof(struct drm_mode_modeinfo) /*68ul*/ ));
+        conn.modes_ptr = (unsigned long int)return_value_drmMalloc_4;
         if(conn.modes_ptr == 0ull)
           goto err_allocs;
 
@@ -4637,16 +4637,16 @@ static struct _drmModeConnector * _drmModeGetConnector(signed int fd, unsigned i
       }
       if(!(conn.count_encoders == 0u))
       {
-        void *return_value_drmMalloc$5;
-        return_value_drmMalloc$5=drmMalloc((signed int)((unsigned long int)conn.count_encoders * sizeof(unsigned int) /*4ul*/ ));
-        conn.encoders_ptr = (unsigned long int)return_value_drmMalloc$5;
+        void *return_value_drmMalloc_5;
+        return_value_drmMalloc_5=drmMalloc((signed int)((unsigned long int)conn.count_encoders * sizeof(unsigned int) /*4ul*/ ));
+        conn.encoders_ptr = (unsigned long int)return_value_drmMalloc_5;
         if(conn.encoders_ptr == 0ull)
           goto err_allocs;
 
       }
 
-      return_value_drmIoctl$6=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA7 << 0)) | sizeof(struct drm_mode_get_connector) /*80ul*/  << 0 + 8 + 8, (void *)&conn);
-      if(!(return_value_drmIoctl$6 == 0))
+      return_value_drmIoctl_6=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA7 << 0)) | sizeof(struct drm_mode_get_connector) /*80ul*/  << 0 + 8 + 8, (void *)&conn);
+      if(!(return_value_drmIoctl_6 == 0))
         goto err_allocs;
 
       if(counts.count_encoders >= conn.count_encoders && counts.count_modes >= conn.count_modes && counts.count_props >= conn.count_props)
@@ -4660,72 +4660,72 @@ static struct _drmModeConnector * _drmModeGetConnector(signed int fd, unsigned i
       drmFree((void *)(unsigned long int)conn.encoders_ptr);
     }
     while((_Bool)1);
-    void *return_value_drmMalloc$7;
-    return_value_drmMalloc$7=drmMalloc((signed int)sizeof(struct _drmModeConnector) /*88ul*/ );
-    r = (struct _drmModeConnector *)return_value_drmMalloc$7;
+    void *return_value_drmMalloc_7;
+    return_value_drmMalloc_7=drmMalloc((signed int)sizeof(struct _drmModeConnector) /*88ul*/ );
+    r = (struct _drmModeConnector *)return_value_drmMalloc_7;
     if(!(r == ((struct _drmModeConnector *)NULL)))
     {
       r->connector_id = conn.connector_id;
       r->encoder_id = conn.encoder_id;
-      r->connection = (enum anonymous$21)conn.connection;
+      r->connection = (enum anonymous_21)conn.connection;
       r->mmWidth = conn.mm_width;
       r->mmHeight = conn.mm_height;
-      r->subpixel = (enum anonymous$22)(conn.subpixel + (unsigned int)1);
+      r->subpixel = (enum anonymous_22)(conn.subpixel + (unsigned int)1);
       r->count_modes = (signed int)conn.count_modes;
       r->count_props = (signed int)conn.count_props;
-      return_value_drmAllocCpy$8=drmAllocCpy((char *)(void *)(unsigned long int)conn.props_ptr, (signed int)conn.count_props, (signed int)sizeof(unsigned int) /*4ul*/ );
-      r->props = (unsigned int *)return_value_drmAllocCpy$8;
-      return_value_drmAllocCpy$9=drmAllocCpy((char *)(void *)(unsigned long int)conn.prop_values_ptr, (signed int)conn.count_props, (signed int)sizeof(unsigned long int) /*8ul*/ );
-      r->prop_values = (unsigned long int *)return_value_drmAllocCpy$9;
-      return_value_drmAllocCpy$10=drmAllocCpy((char *)(void *)(unsigned long int)conn.modes_ptr, (signed int)conn.count_modes, (signed int)sizeof(struct drm_mode_modeinfo) /*68ul*/ );
-      r->modes = (struct _drmModeModeInfo *)return_value_drmAllocCpy$10;
+      return_value_drmAllocCpy_8=drmAllocCpy((char *)(void *)(unsigned long int)conn.props_ptr, (signed int)conn.count_props, (signed int)sizeof(unsigned int) /*4ul*/ );
+      r->props = (unsigned int *)return_value_drmAllocCpy_8;
+      return_value_drmAllocCpy_9=drmAllocCpy((char *)(void *)(unsigned long int)conn.prop_values_ptr, (signed int)conn.count_props, (signed int)sizeof(unsigned long int) /*8ul*/ );
+      r->prop_values = (unsigned long int *)return_value_drmAllocCpy_9;
+      return_value_drmAllocCpy_10=drmAllocCpy((char *)(void *)(unsigned long int)conn.modes_ptr, (signed int)conn.count_modes, (signed int)sizeof(struct drm_mode_modeinfo) /*68ul*/ );
+      r->modes = (struct _drmModeModeInfo *)return_value_drmAllocCpy_10;
       r->count_encoders = (signed int)conn.count_encoders;
-      return_value_drmAllocCpy$11=drmAllocCpy((char *)(void *)(unsigned long int)conn.encoders_ptr, (signed int)conn.count_encoders, (signed int)sizeof(unsigned int) /*4ul*/ );
-      r->encoders = (unsigned int *)return_value_drmAllocCpy$11;
+      return_value_drmAllocCpy_11=drmAllocCpy((char *)(void *)(unsigned long int)conn.encoders_ptr, (signed int)conn.count_encoders, (signed int)sizeof(unsigned int) /*4ul*/ );
+      r->encoders = (unsigned int *)return_value_drmAllocCpy_11;
       r->connector_type = conn.connector_type;
       r->connector_type_id = conn.connector_type_id;
       if(!(r->count_props == 0))
-        tmp_if_expr$12 = !(r->props != ((unsigned int *)NULL)) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_12 = !(r->props != ((unsigned int *)NULL)) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$12 = (_Bool)0;
-      if(tmp_if_expr$12)
-        tmp_if_expr$14 = (_Bool)1;
+        tmp_if_expr_12 = (_Bool)0;
+      if(tmp_if_expr_12)
+        tmp_if_expr_14 = (_Bool)1;
 
       else
       {
         if(!(r->count_props == 0))
-          tmp_if_expr$13 = !(r->prop_values != ((unsigned long int *)NULL)) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_13 = !(r->prop_values != ((unsigned long int *)NULL)) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$13 = (_Bool)0;
-        tmp_if_expr$14 = tmp_if_expr$13 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_13 = (_Bool)0;
+        tmp_if_expr_14 = tmp_if_expr_13 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$14)
-        tmp_if_expr$16 = (_Bool)1;
+      if(tmp_if_expr_14)
+        tmp_if_expr_16 = (_Bool)1;
 
       else
       {
         if(!(r->count_modes == 0))
-          tmp_if_expr$15 = !(r->modes != ((struct _drmModeModeInfo *)NULL)) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_15 = !(r->modes != ((struct _drmModeModeInfo *)NULL)) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$15 = (_Bool)0;
-        tmp_if_expr$16 = tmp_if_expr$15 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_15 = (_Bool)0;
+        tmp_if_expr_16 = tmp_if_expr_15 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$16)
-        tmp_if_expr$18 = (_Bool)1;
+      if(tmp_if_expr_16)
+        tmp_if_expr_18 = (_Bool)1;
 
       else
       {
         if(!(r->count_encoders == 0))
-          tmp_if_expr$17 = !(r->encoders != ((unsigned int *)NULL)) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_17 = !(r->encoders != ((unsigned int *)NULL)) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$17 = (_Bool)0;
-        tmp_if_expr$18 = tmp_if_expr$17 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_17 = (_Bool)0;
+        tmp_if_expr_18 = tmp_if_expr_17 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$18)
+      if(tmp_if_expr_18)
       {
         drmFree((void *)r->props);
         drmFree((void *)r->prop_values);
@@ -4750,37 +4750,37 @@ static struct _drmModeConnector * _drmModeGetConnector(signed int fd, unsigned i
   }
 }
 
-// _drmModeGetConnector$link1
+// _drmModeGetConnector_link1
 // file ../xf86drmMode.c line 474
-static struct _drmModeConnector * _drmModeGetConnector$link1(signed int fd$link1, unsigned int connector_id$link1, signed int probe$link1)
+static struct _drmModeConnector * _drmModeGetConnector_link1(signed int fd_link1, unsigned int connector_id_link1, signed int probe_link1)
 {
-  struct drm_mode_get_connector conn$link1;
-  struct drm_mode_get_connector counts$link1;
-  struct _drmModeConnector *r$link1 = (struct _drmModeConnector *)(void *)0;
-  struct drm_mode_modeinfo stack_mode$link1;
-  memset((void *)&conn$link1, 0, sizeof(struct drm_mode_get_connector) /*80ul*/ );
-  conn$link1.connector_id = connector_id$link1;
-  if(probe$link1 == 0)
+  struct drm_mode_get_connector conn_link1;
+  struct drm_mode_get_connector counts_link1;
+  struct _drmModeConnector *r_link1 = (struct _drmModeConnector *)(void *)0;
+  struct drm_mode_modeinfo stack_mode_link1;
+  memset((void *)&conn_link1, 0, sizeof(struct drm_mode_get_connector) /*80ul*/ );
+  conn_link1.connector_id = connector_id_link1;
+  if(probe_link1 == 0)
   {
-    conn$link1.count_modes = (unsigned int)1;
-    conn$link1.modes_ptr = (unsigned long int)&stack_mode$link1;
+    conn_link1.count_modes = (unsigned int)1;
+    conn_link1.modes_ptr = (unsigned long int)&stack_mode_link1;
   }
 
-  signed int return_value_drmIoctl$1$link1;
-  return_value_drmIoctl$1$link1=drmIoctl(fd$link1, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA7 << 0)) | sizeof(struct drm_mode_get_connector) /*80ul*/  << 0 + 8 + 8, (void *)&conn$link1);
-  signed int return_value_drmIoctl$6$link1;
-  void *return_value_drmAllocCpy$8$link1;
-  void *return_value_drmAllocCpy$9$link1;
-  void *return_value_drmAllocCpy$10$link1;
-  void *return_value_drmAllocCpy$11$link1;
-  _Bool tmp_if_expr$12$link1;
-  _Bool tmp_if_expr$14$link1;
-  _Bool tmp_if_expr$13$link1;
-  _Bool tmp_if_expr$16$link1;
-  _Bool tmp_if_expr$15$link1;
-  _Bool tmp_if_expr$18$link1;
-  _Bool tmp_if_expr$17$link1;
-  if(!(return_value_drmIoctl$1$link1 == 0))
+  signed int return_value_drmIoctl_1_link1;
+  return_value_drmIoctl_1_link1=drmIoctl(fd_link1, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA7 << 0)) | sizeof(struct drm_mode_get_connector) /*80ul*/  << 0 + 8 + 8, (void *)&conn_link1);
+  signed int return_value_drmIoctl_6_link1;
+  void *return_value_drmAllocCpy_8_link1;
+  void *return_value_drmAllocCpy_9_link1;
+  void *return_value_drmAllocCpy_10_link1;
+  void *return_value_drmAllocCpy_11_link1;
+  _Bool tmp_if_expr_12_link1;
+  _Bool tmp_if_expr_14_link1;
+  _Bool tmp_if_expr_13_link1;
+  _Bool tmp_if_expr_16_link1;
+  _Bool tmp_if_expr_15_link1;
+  _Bool tmp_if_expr_18_link1;
+  _Bool tmp_if_expr_17_link1;
+  if(!(return_value_drmIoctl_1_link1 == 0))
     return ((struct _drmModeConnector *)NULL);
 
   else
@@ -4790,136 +4790,136 @@ static struct _drmModeConnector * _drmModeGetConnector$link1(signed int fd$link1
 
     retry:
       ;
-      counts$link1 = conn$link1;
-      if(!(conn$link1.count_props == 0u))
+      counts_link1 = conn_link1;
+      if(!(conn_link1.count_props == 0u))
       {
-        void *return_value_drmMalloc$2$link1;
-        return_value_drmMalloc$2$link1=drmMalloc((signed int)((unsigned long int)conn$link1.count_props * sizeof(unsigned int) /*4ul*/ ));
-        conn$link1.props_ptr = (unsigned long int)return_value_drmMalloc$2$link1;
-        if(conn$link1.props_ptr == 0ull)
+        void *return_value_drmMalloc_2_link1;
+        return_value_drmMalloc_2_link1=drmMalloc((signed int)((unsigned long int)conn_link1.count_props * sizeof(unsigned int) /*4ul*/ ));
+        conn_link1.props_ptr = (unsigned long int)return_value_drmMalloc_2_link1;
+        if(conn_link1.props_ptr == 0ull)
           goto err_allocs;
 
-        void *return_value_drmMalloc$3$link1;
-        return_value_drmMalloc$3$link1=drmMalloc((signed int)((unsigned long int)conn$link1.count_props * sizeof(unsigned long int) /*8ul*/ ));
-        conn$link1.prop_values_ptr = (unsigned long int)return_value_drmMalloc$3$link1;
-        if(conn$link1.prop_values_ptr == 0ull)
+        void *return_value_drmMalloc_3_link1;
+        return_value_drmMalloc_3_link1=drmMalloc((signed int)((unsigned long int)conn_link1.count_props * sizeof(unsigned long int) /*8ul*/ ));
+        conn_link1.prop_values_ptr = (unsigned long int)return_value_drmMalloc_3_link1;
+        if(conn_link1.prop_values_ptr == 0ull)
           goto err_allocs;
 
       }
 
-      if(!(conn$link1.count_modes == 0u))
+      if(!(conn_link1.count_modes == 0u))
       {
-        void *return_value_drmMalloc$4$link1;
-        return_value_drmMalloc$4$link1=drmMalloc((signed int)((unsigned long int)conn$link1.count_modes * sizeof(struct drm_mode_modeinfo) /*68ul*/ ));
-        conn$link1.modes_ptr = (unsigned long int)return_value_drmMalloc$4$link1;
-        if(conn$link1.modes_ptr == 0ull)
+        void *return_value_drmMalloc_4_link1;
+        return_value_drmMalloc_4_link1=drmMalloc((signed int)((unsigned long int)conn_link1.count_modes * sizeof(struct drm_mode_modeinfo) /*68ul*/ ));
+        conn_link1.modes_ptr = (unsigned long int)return_value_drmMalloc_4_link1;
+        if(conn_link1.modes_ptr == 0ull)
           goto err_allocs;
 
       }
 
       else
       {
-        conn$link1.count_modes = (unsigned int)1;
-        conn$link1.modes_ptr = (unsigned long int)&stack_mode$link1;
+        conn_link1.count_modes = (unsigned int)1;
+        conn_link1.modes_ptr = (unsigned long int)&stack_mode_link1;
       }
-      if(!(conn$link1.count_encoders == 0u))
+      if(!(conn_link1.count_encoders == 0u))
       {
-        void *return_value_drmMalloc$5$link1;
-        return_value_drmMalloc$5$link1=drmMalloc((signed int)((unsigned long int)conn$link1.count_encoders * sizeof(unsigned int) /*4ul*/ ));
-        conn$link1.encoders_ptr = (unsigned long int)return_value_drmMalloc$5$link1;
-        if(conn$link1.encoders_ptr == 0ull)
+        void *return_value_drmMalloc_5_link1;
+        return_value_drmMalloc_5_link1=drmMalloc((signed int)((unsigned long int)conn_link1.count_encoders * sizeof(unsigned int) /*4ul*/ ));
+        conn_link1.encoders_ptr = (unsigned long int)return_value_drmMalloc_5_link1;
+        if(conn_link1.encoders_ptr == 0ull)
           goto err_allocs;
 
       }
 
-      return_value_drmIoctl$6$link1=drmIoctl(fd$link1, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA7 << 0)) | sizeof(struct drm_mode_get_connector) /*80ul*/  << 0 + 8 + 8, (void *)&conn$link1);
-      if(!(return_value_drmIoctl$6$link1 == 0))
+      return_value_drmIoctl_6_link1=drmIoctl(fd_link1, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA7 << 0)) | sizeof(struct drm_mode_get_connector) /*80ul*/  << 0 + 8 + 8, (void *)&conn_link1);
+      if(!(return_value_drmIoctl_6_link1 == 0))
         goto err_allocs;
 
-      if(counts$link1.count_encoders >= conn$link1.count_encoders && counts$link1.count_modes >= conn$link1.count_modes && counts$link1.count_props >= conn$link1.count_props)
+      if(counts_link1.count_encoders >= conn_link1.count_encoders && counts_link1.count_modes >= conn_link1.count_modes && counts_link1.count_props >= conn_link1.count_props)
         break;
 
-      drmFree((void *)(unsigned long int)conn$link1.props_ptr);
-      drmFree((void *)(unsigned long int)conn$link1.prop_values_ptr);
-      if(!((struct drm_mode_modeinfo *)conn$link1.modes_ptr == &stack_mode$link1))
-        drmFree((void *)(unsigned long int)conn$link1.modes_ptr);
+      drmFree((void *)(unsigned long int)conn_link1.props_ptr);
+      drmFree((void *)(unsigned long int)conn_link1.prop_values_ptr);
+      if(!((struct drm_mode_modeinfo *)conn_link1.modes_ptr == &stack_mode_link1))
+        drmFree((void *)(unsigned long int)conn_link1.modes_ptr);
 
-      drmFree((void *)(unsigned long int)conn$link1.encoders_ptr);
+      drmFree((void *)(unsigned long int)conn_link1.encoders_ptr);
     }
     while((_Bool)1);
-    void *return_value_drmMalloc$7$link1;
-    return_value_drmMalloc$7$link1=drmMalloc((signed int)sizeof(struct _drmModeConnector) /*88ul*/ );
-    r$link1 = (struct _drmModeConnector *)return_value_drmMalloc$7$link1;
-    if(!(r$link1 == ((struct _drmModeConnector *)NULL)))
+    void *return_value_drmMalloc_7_link1;
+    return_value_drmMalloc_7_link1=drmMalloc((signed int)sizeof(struct _drmModeConnector) /*88ul*/ );
+    r_link1 = (struct _drmModeConnector *)return_value_drmMalloc_7_link1;
+    if(!(r_link1 == ((struct _drmModeConnector *)NULL)))
     {
-      r$link1->connector_id = conn$link1.connector_id;
-      r$link1->encoder_id = conn$link1.encoder_id;
-      r$link1->connection = (enum anonymous$21)conn$link1.connection;
-      r$link1->mmWidth = conn$link1.mm_width;
-      r$link1->mmHeight = conn$link1.mm_height;
-      r$link1->subpixel = (enum anonymous$22)(conn$link1.subpixel + (unsigned int)1);
-      r$link1->count_modes = (signed int)conn$link1.count_modes;
-      r$link1->count_props = (signed int)conn$link1.count_props;
-      return_value_drmAllocCpy$8$link1=drmAllocCpy$link1((char *)(void *)(unsigned long int)conn$link1.props_ptr, (signed int)conn$link1.count_props, (signed int)sizeof(unsigned int) /*4ul*/ );
-      r$link1->props = (unsigned int *)return_value_drmAllocCpy$8$link1;
-      return_value_drmAllocCpy$9$link1=drmAllocCpy$link1((char *)(void *)(unsigned long int)conn$link1.prop_values_ptr, (signed int)conn$link1.count_props, (signed int)sizeof(unsigned long int) /*8ul*/ );
-      r$link1->prop_values = (unsigned long int *)return_value_drmAllocCpy$9$link1;
-      return_value_drmAllocCpy$10$link1=drmAllocCpy$link1((char *)(void *)(unsigned long int)conn$link1.modes_ptr, (signed int)conn$link1.count_modes, (signed int)sizeof(struct drm_mode_modeinfo) /*68ul*/ );
-      r$link1->modes = (struct _drmModeModeInfo *)return_value_drmAllocCpy$10$link1;
-      r$link1->count_encoders = (signed int)conn$link1.count_encoders;
-      return_value_drmAllocCpy$11$link1=drmAllocCpy$link1((char *)(void *)(unsigned long int)conn$link1.encoders_ptr, (signed int)conn$link1.count_encoders, (signed int)sizeof(unsigned int) /*4ul*/ );
-      r$link1->encoders = (unsigned int *)return_value_drmAllocCpy$11$link1;
-      r$link1->connector_type = conn$link1.connector_type;
-      r$link1->connector_type_id = conn$link1.connector_type_id;
-      if(!(r$link1->count_props == 0))
-        tmp_if_expr$12$link1 = !(r$link1->props != ((unsigned int *)NULL)) ? (_Bool)1 : (_Bool)0;
+      r_link1->connector_id = conn_link1.connector_id;
+      r_link1->encoder_id = conn_link1.encoder_id;
+      r_link1->connection = (enum anonymous_21)conn_link1.connection;
+      r_link1->mmWidth = conn_link1.mm_width;
+      r_link1->mmHeight = conn_link1.mm_height;
+      r_link1->subpixel = (enum anonymous_22)(conn_link1.subpixel + (unsigned int)1);
+      r_link1->count_modes = (signed int)conn_link1.count_modes;
+      r_link1->count_props = (signed int)conn_link1.count_props;
+      return_value_drmAllocCpy_8_link1=drmAllocCpy_link1((char *)(void *)(unsigned long int)conn_link1.props_ptr, (signed int)conn_link1.count_props, (signed int)sizeof(unsigned int) /*4ul*/ );
+      r_link1->props = (unsigned int *)return_value_drmAllocCpy_8_link1;
+      return_value_drmAllocCpy_9_link1=drmAllocCpy_link1((char *)(void *)(unsigned long int)conn_link1.prop_values_ptr, (signed int)conn_link1.count_props, (signed int)sizeof(unsigned long int) /*8ul*/ );
+      r_link1->prop_values = (unsigned long int *)return_value_drmAllocCpy_9_link1;
+      return_value_drmAllocCpy_10_link1=drmAllocCpy_link1((char *)(void *)(unsigned long int)conn_link1.modes_ptr, (signed int)conn_link1.count_modes, (signed int)sizeof(struct drm_mode_modeinfo) /*68ul*/ );
+      r_link1->modes = (struct _drmModeModeInfo *)return_value_drmAllocCpy_10_link1;
+      r_link1->count_encoders = (signed int)conn_link1.count_encoders;
+      return_value_drmAllocCpy_11_link1=drmAllocCpy_link1((char *)(void *)(unsigned long int)conn_link1.encoders_ptr, (signed int)conn_link1.count_encoders, (signed int)sizeof(unsigned int) /*4ul*/ );
+      r_link1->encoders = (unsigned int *)return_value_drmAllocCpy_11_link1;
+      r_link1->connector_type = conn_link1.connector_type;
+      r_link1->connector_type_id = conn_link1.connector_type_id;
+      if(!(r_link1->count_props == 0))
+        tmp_if_expr_12_link1 = !(r_link1->props != ((unsigned int *)NULL)) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$12$link1 = (_Bool)0;
-      if(tmp_if_expr$12$link1)
-        tmp_if_expr$14$link1 = (_Bool)1;
+        tmp_if_expr_12_link1 = (_Bool)0;
+      if(tmp_if_expr_12_link1)
+        tmp_if_expr_14_link1 = (_Bool)1;
 
       else
       {
-        if(!(r$link1->count_props == 0))
-          tmp_if_expr$13$link1 = !(r$link1->prop_values != ((unsigned long int *)NULL)) ? (_Bool)1 : (_Bool)0;
+        if(!(r_link1->count_props == 0))
+          tmp_if_expr_13_link1 = !(r_link1->prop_values != ((unsigned long int *)NULL)) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$13$link1 = (_Bool)0;
-        tmp_if_expr$14$link1 = tmp_if_expr$13$link1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_13_link1 = (_Bool)0;
+        tmp_if_expr_14_link1 = tmp_if_expr_13_link1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$14$link1)
-        tmp_if_expr$16$link1 = (_Bool)1;
+      if(tmp_if_expr_14_link1)
+        tmp_if_expr_16_link1 = (_Bool)1;
 
       else
       {
-        if(!(r$link1->count_modes == 0))
-          tmp_if_expr$15$link1 = !(r$link1->modes != ((struct _drmModeModeInfo *)NULL)) ? (_Bool)1 : (_Bool)0;
+        if(!(r_link1->count_modes == 0))
+          tmp_if_expr_15_link1 = !(r_link1->modes != ((struct _drmModeModeInfo *)NULL)) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$15$link1 = (_Bool)0;
-        tmp_if_expr$16$link1 = tmp_if_expr$15$link1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_15_link1 = (_Bool)0;
+        tmp_if_expr_16_link1 = tmp_if_expr_15_link1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$16$link1)
-        tmp_if_expr$18$link1 = (_Bool)1;
+      if(tmp_if_expr_16_link1)
+        tmp_if_expr_18_link1 = (_Bool)1;
 
       else
       {
-        if(!(r$link1->count_encoders == 0))
-          tmp_if_expr$17$link1 = !(r$link1->encoders != ((unsigned int *)NULL)) ? (_Bool)1 : (_Bool)0;
+        if(!(r_link1->count_encoders == 0))
+          tmp_if_expr_17_link1 = !(r_link1->encoders != ((unsigned int *)NULL)) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$17$link1 = (_Bool)0;
-        tmp_if_expr$18$link1 = tmp_if_expr$17$link1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_17_link1 = (_Bool)0;
+        tmp_if_expr_18_link1 = tmp_if_expr_17_link1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$18$link1)
+      if(tmp_if_expr_18_link1)
       {
-        drmFree((void *)r$link1->props);
-        drmFree((void *)r$link1->prop_values);
-        drmFree((void *)r$link1->modes);
-        drmFree((void *)r$link1->encoders);
-        drmFree((void *)r$link1);
-        r$link1 = ((struct _drmModeConnector *)NULL);
+        drmFree((void *)r_link1->props);
+        drmFree((void *)r_link1->prop_values);
+        drmFree((void *)r_link1->modes);
+        drmFree((void *)r_link1->encoders);
+        drmFree((void *)r_link1);
+        r_link1 = ((struct _drmModeConnector *)NULL);
       }
 
     }
@@ -4927,13 +4927,13 @@ static struct _drmModeConnector * _drmModeGetConnector$link1(signed int fd$link1
 
   err_allocs:
     ;
-    drmFree((void *)(unsigned long int)conn$link1.prop_values_ptr);
-    drmFree((void *)(unsigned long int)conn$link1.props_ptr);
-    if(!((struct drm_mode_modeinfo *)conn$link1.modes_ptr == &stack_mode$link1))
-      drmFree((void *)(unsigned long int)conn$link1.modes_ptr);
+    drmFree((void *)(unsigned long int)conn_link1.prop_values_ptr);
+    drmFree((void *)(unsigned long int)conn_link1.props_ptr);
+    if(!((struct drm_mode_modeinfo *)conn_link1.modes_ptr == &stack_mode_link1))
+      drmFree((void *)(unsigned long int)conn_link1.modes_ptr);
 
-    drmFree((void *)(unsigned long int)conn$link1.encoders_ptr);
-    return r$link1;
+    drmFree((void *)(unsigned long int)conn_link1.encoders_ptr);
+    return r_link1;
   }
 }
 
@@ -4942,7 +4942,7 @@ static struct _drmModeConnector * _drmModeGetConnector$link1(signed int fd$link1
 void abi16_bo_info(struct nouveau_bo *bo, struct drm_nouveau_gem_info *info)
 {
   struct nouveau_bo_priv *nvbo;
-  nvbo=nouveau_bo$link2(bo);
+  nvbo=nouveau_bo_link2(bo);
   nvbo->map_handle = info->map_handle;
   bo->handle = info->handle;
   bo->size = info->size;
@@ -4960,7 +4960,7 @@ void abi16_bo_info(struct nouveau_bo *bo, struct drm_nouveau_gem_info *info)
   if(!(nvbo->map_handle == 0ul))
     bo->flags = bo->flags | 0x80000000;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(bo->device->chipset >= 192u)
   {
     bo->config.nvc0.memtype = (info->tile_flags & (unsigned int)0xff00) >> 8;
@@ -4970,11 +4970,11 @@ void abi16_bo_info(struct nouveau_bo *bo, struct drm_nouveau_gem_info *info)
   else
   {
     if(bo->device->chipset >= 128u)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = bo->device->chipset == (unsigned int)0x50 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = bo->device->chipset == (unsigned int)0x50 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       bo->config.nv50.memtype = (info->tile_flags & (unsigned int)0x07f00) >> 8 | (info->tile_flags & (unsigned int)0x30000) >> 9;
       bo->config.nv50.tile_mode = info->tile_mode << 4;
@@ -4994,7 +4994,7 @@ signed int abi16_bo_init(struct nouveau_bo *bo, unsigned int alignment, union no
 {
   struct nouveau_device *dev = bo->device;
   struct nouveau_drm *drm;
-  drm=nouveau_drm$link2(&dev->object);
+  drm=nouveau_drm_link2(&dev->object);
   struct drm_nouveau_gem_new req = { .info={ .handle=0u, .domain=0u, .size=0ul, .offset=0ul, .map_handle=0ul,
     .tile_mode=0u, .tile_flags=0u }, .channel_hint=0u,
     .align=0u };
@@ -5020,7 +5020,7 @@ signed int abi16_bo_init(struct nouveau_bo *bo, unsigned int alignment, union no
 
   info->size = bo->size;
   req.align = alignment;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(config == ((union nouveau_bo_config *)NULL)))
   {
     if(dev->chipset >= 192u)
@@ -5032,11 +5032,11 @@ signed int abi16_bo_init(struct nouveau_bo *bo, unsigned int alignment, union no
     else
     {
       if(dev->chipset >= 128u)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = dev->chipset == (unsigned int)0x50 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = dev->chipset == (unsigned int)0x50 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         info->tile_flags = (config->nv50.memtype & (unsigned int)0x07f) << 8 | (config->nv50.memtype & (unsigned int)0x180) << 9;
         info->tile_mode = config->nv50.tile_mode >> 4;
@@ -5050,9 +5050,9 @@ signed int abi16_bo_init(struct nouveau_bo *bo, unsigned int alignment, union no
     }
   }
 
-  struct nouveau_device_priv *return_value_nouveau_device$2;
-  return_value_nouveau_device$2=nouveau_device$link2(dev);
-  if(return_value_nouveau_device$2->have_bo_usage == (_Bool)0)
+  struct nouveau_device_priv *return_value_nouveau_device_2;
+  return_value_nouveau_device_2=nouveau_device_link2(dev);
+  if(return_value_nouveau_device_2->have_bo_usage == (_Bool)0)
     info->tile_flags = info->tile_flags & (unsigned int)0x0000ff00;
 
   ret=drmCommandWriteRead(drm->fd, (unsigned long int)0x40, (void *)&req, sizeof(struct drm_nouveau_gem_new) /*48ul*/ );
@@ -5067,7 +5067,7 @@ signed int abi16_bo_init(struct nouveau_bo *bo, unsigned int alignment, union no
 static signed int abi16_chan_nv04(struct nouveau_object *obj)
 {
   struct nouveau_drm *drm;
-  drm=nouveau_drm$link2(obj);
+  drm=nouveau_drm_link2(obj);
   struct nv04_fifo *nv04 = (struct nv04_fifo *)obj->data;
   struct drm_nouveau_channel_alloc req = { .fb_ctxdma_handle=nv04->vram, .tt_ctxdma_handle=nv04->gart, .channel=0,
     .pushbuf_domains=0u, .notifier_handle=0u, .subchan={ { .handle=0u, .grclass=0u }, { .handle=0u, .grclass=0u }, { .handle=0u, .grclass=0u }, { .handle=0u, .grclass=0u }, { .handle=0u, .grclass=0u }, { .handle=0u, .grclass=0u }, { .handle=0u, .grclass=0u }, { .handle=0u, .grclass=0u } },
@@ -5093,7 +5093,7 @@ static signed int abi16_chan_nv04(struct nouveau_object *obj)
 static signed int abi16_chan_nvc0(struct nouveau_object *obj)
 {
   struct nouveau_drm *drm;
-  drm=nouveau_drm$link2(obj);
+  drm=nouveau_drm_link2(obj);
   struct drm_nouveau_channel_alloc req = { .fb_ctxdma_handle=0u, .tt_ctxdma_handle=0u, .channel=0,
     .pushbuf_domains=0u, .notifier_handle=0u, .subchan={ { .handle=0u, .grclass=0u }, { .handle=0u, .grclass=0u }, { .handle=0u, .grclass=0u }, { .handle=0u, .grclass=0u }, { .handle=0u, .grclass=0u }, { .handle=0u, .grclass=0u }, { .handle=0u, .grclass=0u }, { .handle=0u, .grclass=0u } },
     .nr_subchan=0u };
@@ -5119,7 +5119,7 @@ static signed int abi16_chan_nvc0(struct nouveau_object *obj)
 static signed int abi16_chan_nve0(struct nouveau_object *obj)
 {
   struct nouveau_drm *drm;
-  drm=nouveau_drm$link2(obj);
+  drm=nouveau_drm_link2(obj);
   struct drm_nouveau_channel_alloc req = { .fb_ctxdma_handle=0u, .tt_ctxdma_handle=0u, .channel=0,
     .pushbuf_domains=0u, .notifier_handle=0u, .subchan={ { .handle=0u, .grclass=0u }, { .handle=0u, .grclass=0u }, { .handle=0u, .grclass=0u }, { .handle=0u, .grclass=0u }, { .handle=0u, .grclass=0u }, { .handle=0u, .grclass=0u }, { .handle=0u, .grclass=0u }, { .handle=0u, .grclass=0u } },
     .nr_subchan=0u };
@@ -5137,11 +5137,11 @@ static signed int abi16_chan_nve0(struct nouveau_object *obj)
 
   else
   {
-    nve0->$anon0.base.channel = (unsigned int)req.channel;
-    nve0->$anon0.base.pushbuf = req.pushbuf_domains;
-    nve0->$anon0.notify = req.notifier_handle;
-    nve0->$anon0.base.object->handle = (unsigned long int)req.channel;
-    nve0->$anon0.base.object->length = (unsigned int)sizeof(struct nve0_fifo) /*56ul*/ ;
+    nve0->_anon0.base.channel = (unsigned int)req.channel;
+    nve0->_anon0.base.pushbuf = req.pushbuf_domains;
+    nve0->_anon0.notify = req.notifier_handle;
+    nve0->_anon0.base.object->handle = (unsigned long int)req.channel;
+    nve0->_anon0.base.object->length = (unsigned int)sizeof(struct nve0_fifo) /*56ul*/ ;
     return 0;
   }
 }
@@ -5151,12 +5151,12 @@ static signed int abi16_chan_nve0(struct nouveau_object *obj)
 void abi16_delete(struct nouveau_object *obj)
 {
   struct nouveau_drm *drm;
-  drm=nouveau_drm$link2(obj);
+  drm=nouveau_drm_link2(obj);
   if(obj->oclass == 0x80000001)
   {
-    struct drm_nouveau_channel_free abi16_delete$$1$$1$$req;
-    abi16_delete$$1$$1$$req.channel = (signed int)obj->handle;
-    drmCommandWrite(drm->fd, (unsigned long int)0x03, (void *)&abi16_delete$$1$$1$$req, sizeof(struct drm_nouveau_channel_free) /*4ul*/ );
+    struct drm_nouveau_channel_free abi16_delete__1__1__req;
+    abi16_delete__1__1__req.channel = (signed int)obj->handle;
+    drmCommandWrite(drm->fd, (unsigned long int)0x03, (void *)&abi16_delete__1__1__req, sizeof(struct drm_nouveau_channel_free) /*4ul*/ );
   }
 
   else
@@ -5173,7 +5173,7 @@ void abi16_delete(struct nouveau_object *obj)
 static signed int abi16_engobj(struct nouveau_object *obj)
 {
   struct nouveau_drm *drm;
-  drm=nouveau_drm$link2(obj);
+  drm=nouveau_drm_link2(obj);
   struct drm_nouveau_grobj_alloc req = { .channel=(signed int)obj->parent->handle, .handle=(unsigned int)obj->handle,
     .class=(signed int)obj->oclass };
   signed int ret;
@@ -5228,7 +5228,7 @@ __CPROVER_DUMP_L5:
 static signed int abi16_ntfy(struct nouveau_object *obj)
 {
   struct nouveau_drm *drm;
-  drm=nouveau_drm$link2(obj);
+  drm=nouveau_drm_link2(obj);
   struct nv04_notify *ntfy = (struct nv04_notify *)obj->data;
   struct drm_nouveau_notifierobj_alloc req = { .channel=(unsigned int)obj->parent->handle, .handle=(unsigned int)ntfy->object->handle,
     .size=ntfy->length,
@@ -5251,27 +5251,27 @@ static signed int abi16_ntfy(struct nouveau_object *obj)
 _Bool abi16_object(struct nouveau_object *obj, signed int (**func)(struct nouveau_object *))
 {
   struct nouveau_object *parent = obj->parent;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(parent->length == 0u))
-    tmp_if_expr$1 = parent->oclass == 0x80000000 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = parent->oclass == 0x80000000 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
     if(parent->length == 0u)
-      tmp_if_expr$2 = parent->oclass == (unsigned int)0x00000080 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = parent->oclass == (unsigned int)0x00000080 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
   {
     if(obj->oclass == 0x80000001)
     {
@@ -5317,12 +5317,12 @@ signed int abi16_sclass(struct nouveau_object *obj, struct nouveau_sclass **pscl
 {
   struct nouveau_sclass *sclass;
   struct nouveau_device *dev;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)8, sizeof(struct nouveau_sclass) /*12ul*/ );
-  sclass = (struct nouveau_sclass *)return_value_calloc$1;
-  struct nouveau_sclass *tmp_post$2;
-  struct nouveau_sclass *tmp_post$3;
-  struct nouveau_sclass *tmp_post$4;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)8, sizeof(struct nouveau_sclass) /*12ul*/ );
+  sclass = (struct nouveau_sclass *)return_value_calloc_1;
+  struct nouveau_sclass *tmp_post_2;
+  struct nouveau_sclass *tmp_post_3;
+  struct nouveau_sclass *tmp_post_4;
   if(sclass == ((struct nouveau_sclass *)NULL))
     return -12;
 
@@ -5338,15 +5338,15 @@ signed int abi16_sclass(struct nouveau_object *obj, struct nouveau_sclass **pscl
         {
           if(!(dev->chipset >= 192u))
           {
-            tmp_post$2 = sclass;
+            tmp_post_2 = sclass;
             sclass = sclass + 1l;
-            *tmp_post$2 = (struct nouveau_sclass){ .oclass=0x000085b1, .minver=-1, .maxver=-1 };
-            tmp_post$3 = sclass;
+            *tmp_post_2 = (struct nouveau_sclass){ .oclass=0x000085b1, .minver=-1, .maxver=-1 };
+            tmp_post_3 = sclass;
             sclass = sclass + 1l;
-            *tmp_post$3 = (struct nouveau_sclass){ .oclass=0x000085b2, .minver=-1, .maxver=-1 };
-            tmp_post$4 = sclass;
+            *tmp_post_3 = (struct nouveau_sclass){ .oclass=0x000085b2, .minver=-1, .maxver=-1 };
+            tmp_post_4 = sclass;
             sclass = sclass + 1l;
-            *tmp_post$4 = (struct nouveau_sclass){ .oclass=0x000085b3, .minver=-1, .maxver=-1 };
+            *tmp_post_4 = (struct nouveau_sclass){ .oclass=0x000085b3, .minver=-1, .maxver=-1 };
           }
 
         }
@@ -5364,7 +5364,7 @@ signed int abi16_sclass(struct nouveau_object *obj, struct nouveau_sclass **pscl
 static inline struct drm_nouveau_gem_pushbuf_bo * cli_kref_get(struct nouveau_client *client, struct nouveau_bo *bo)
 {
   struct nouveau_client_priv *pcli;
-  pcli=nouveau_client$link1(client);
+  pcli=nouveau_client_link1(client);
   struct drm_nouveau_gem_pushbuf_bo *kref = (struct drm_nouveau_gem_pushbuf_bo *)(void *)0;
   if(!(bo->handle >= pcli->kref_nr))
     kref = (pcli->kref + (signed long int)bo->handle)->kref;
@@ -5377,12 +5377,12 @@ static inline struct drm_nouveau_gem_pushbuf_bo * cli_kref_get(struct nouveau_cl
 static inline void cli_kref_set(struct nouveau_client *client, struct nouveau_bo *bo, struct drm_nouveau_gem_pushbuf_bo *kref, struct nouveau_pushbuf *push)
 {
   struct nouveau_client_priv *pcli;
-  pcli=nouveau_client$link1(client);
+  pcli=nouveau_client_link1(client);
   if(bo->handle >= pcli->kref_nr)
   {
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)pcli->kref, sizeof(struct nouveau_client_kref) /*16ul*/  * (unsigned long int)bo->handle * (unsigned long int)2);
-    pcli->kref = (struct nouveau_client_kref *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)pcli->kref, sizeof(struct nouveau_client_kref) /*16ul*/  * (unsigned long int)bo->handle * (unsigned long int)2);
+    pcli->kref = (struct nouveau_client_kref *)return_value_realloc_1;
     for( ; !(pcli->kref_nr >= 2u * bo->handle); pcli->kref_nr = pcli->kref_nr + 1u)
     {
       (pcli->kref + (signed long int)pcli->kref_nr)->kref = (struct drm_nouveau_gem_pushbuf_bo *)(void *)0;
@@ -5407,17 +5407,17 @@ static inline struct nouveau_pushbuf * cli_push_get(struct nouveau_client *clien
   return push;
 }
 
-// cli_push_get$link1
+// cli_push_get_link1
 // file ../../nouveau/private.h line 53
-static inline struct nouveau_pushbuf * cli_push_get$link1(struct nouveau_client *client$link1, struct nouveau_bo *bo$link1)
+static inline struct nouveau_pushbuf * cli_push_get_link1(struct nouveau_client *client_link1, struct nouveau_bo *bo_link1)
 {
-  struct nouveau_client_priv *pcli$link1;
-  pcli$link1=nouveau_client$link1(client$link1);
-  struct nouveau_pushbuf *push$link1 = (struct nouveau_pushbuf *)(void *)0;
-  if(!(bo$link1->handle >= pcli$link1->kref_nr))
-    push$link1 = (pcli$link1->kref + (signed long int)bo$link1->handle)->push;
+  struct nouveau_client_priv *pcli_link1;
+  pcli_link1=nouveau_client_link1(client_link1);
+  struct nouveau_pushbuf *push_link1 = (struct nouveau_pushbuf *)(void *)0;
+  if(!(bo_link1->handle >= pcli_link1->kref_nr))
+    push_link1 = (pcli_link1->kref + (signed long int)bo_link1->handle)->push;
 
-  return push$link1;
+  return push_link1;
 }
 
 // debug_init
@@ -5427,9 +5427,9 @@ static void debug_init(char *args)
   if(!(args == ((char *)NULL)))
   {
     signed int n;
-    signed long int return_value_strtol$1;
-    return_value_strtol$1=strtol(args, (char ** restrict )(void *)0, 0);
-    n = (signed int)return_value_strtol$1;
+    signed long int return_value_strtol_1;
+    return_value_strtol_1=strtol(args, (char ** restrict )(void *)0, 0);
+    n = (signed int)return_value_strtol_1;
     if(n >= 0)
       nouveau_debug = (unsigned int)n;
 
@@ -5439,21 +5439,21 @@ static void debug_init(char *args)
 
 // drmAddBufs
 // file ../xf86drm.c line 1131
-extern signed int drmAddBufs(signed int fd, signed int count, signed int size, enum anonymous$8 flags, signed int agp_offset)
+extern signed int drmAddBufs(signed int fd, signed int count, signed int size, enum anonymous_8 flags, signed int agp_offset)
 {
   struct drm_buf_desc request;
   memset((void *)&request, 0, sizeof(struct drm_buf_desc) /*32ul*/ );
   request.count = count;
   request.size = size;
-  request.flags = (enum anonymous$19)flags;
+  request.flags = (enum anonymous_19)flags;
   request.agp_start = (unsigned long int)agp_offset;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x16 << 0)) | sizeof(struct drm_buf_desc) /*32ul*/  << 0 + 8 + 8, (void *)&request);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x16 << 0)) | sizeof(struct drm_buf_desc) /*32ul*/  << 0 + 8 + 8, (void *)&request);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -5468,13 +5468,13 @@ extern signed int drmAddContextPrivateMapping(signed int fd, unsigned int ctx_id
   memset((void *)&map, 0, sizeof(struct drm_ctx_priv_map) /*16ul*/ );
   map.ctx_id = ctx_id;
   map.handle = (void *)(unsigned long int)handle;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x1c << 0)) | sizeof(struct drm_ctx_priv_map) /*16ul*/  << 0 + 8 + 8, (void *)&map);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x1c << 0)) | sizeof(struct drm_ctx_priv_map) /*16ul*/  << 0 + 8 + 8, (void *)&map);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -5487,9 +5487,9 @@ extern signed int drmAddContextTag(signed int fd, unsigned int context, void *ta
 {
   struct drmHashEntry *entry;
   entry=drmGetEntry(fd);
-  signed int return_value_drmHashInsert$1;
-  return_value_drmHashInsert$1=drmHashInsert(entry->tagTable, (unsigned long int)context, tag);
-  if(!(return_value_drmHashInsert$1 == 0))
+  signed int return_value_drmHashInsert_1;
+  return_value_drmHashInsert_1=drmHashInsert(entry->tagTable, (unsigned long int)context, tag);
+  if(!(return_value_drmHashInsert_1 == 0))
   {
     drmHashDelete(entry->tagTable, (unsigned long int)context);
     drmHashInsert(entry->tagTable, (unsigned long int)context, tag);
@@ -5500,7 +5500,7 @@ extern signed int drmAddContextTag(signed int fd, unsigned int context, void *ta
 
 // drmAddMap
 // file ../xf86drm.c line 1086
-extern signed int drmAddMap(signed int fd, unsigned int offset, unsigned int size, enum anonymous$6 type, enum anonymous$7 flags, unsigned int *handle)
+extern signed int drmAddMap(signed int fd, unsigned int offset, unsigned int size, enum anonymous_6 type, enum anonymous_7 flags, unsigned int *handle)
 {
   struct drm_map map;
   memset((void *)&map, 0, sizeof(struct drm_map) /*40ul*/ );
@@ -5508,13 +5508,13 @@ extern signed int drmAddMap(signed int fd, unsigned int offset, unsigned int siz
   map.size = (unsigned long int)size;
   map.type = (enum drm_map_type)type;
   map.flags = (enum drm_map_flags)flags;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x15 << 0)) | sizeof(struct drm_map) /*40ul*/  << 0 + 8 + 8, (void *)&map);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x15 << 0)) | sizeof(struct drm_map) /*40ul*/  << 0 + 8 + 8, (void *)&map);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -5530,13 +5530,13 @@ extern signed int drmAddMap(signed int fd, unsigned int offset, unsigned int siz
 // file ../xf86drm.c line 1689
 extern signed int drmAgpAcquire(signed int fd)
 {
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x30 << 0) | (unsigned int)(0 << 0 + 8 + 8)), (void *)0);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x30 << 0) | (unsigned int)(0 << 0 + 8 + 8)), (void *)0);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -5552,13 +5552,13 @@ extern signed int drmAgpAlloc(signed int fd, unsigned long int size, unsigned lo
   *handle = (unsigned int)0;
   b.size = size;
   b.type = type;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x34 << 0)) | sizeof(struct drm_agp_buffer) /*32ul*/  << 0 + 8 + 8, (void *)&b);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x34 << 0)) | sizeof(struct drm_agp_buffer) /*32ul*/  << 0 + 8 + 8, (void *)&b);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -5577,9 +5577,9 @@ extern unsigned long int drmAgpBase(signed int fd)
 {
   struct drm_agp_info i;
   memset((void *)&i, 0, sizeof(struct drm_agp_info) /*56ul*/ );
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x33 << 0)) | sizeof(struct drm_agp_info) /*56ul*/  << 0 + 8 + 8, (void *)&i);
-  if(!(return_value_drmIoctl$1 == 0))
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x33 << 0)) | sizeof(struct drm_agp_info) /*56ul*/  << 0 + 8 + 8, (void *)&i);
+  if(!(return_value_drmIoctl_1 == 0))
     return (unsigned long int)0;
 
   else
@@ -5594,13 +5594,13 @@ extern signed int drmAgpBind(signed int fd, unsigned int handle, unsigned long i
   memset((void *)&b, 0, sizeof(struct drm_agp_binding) /*16ul*/ );
   b.handle = (unsigned long int)handle;
   b.offset = offset;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x36 << 0)) | sizeof(struct drm_agp_binding) /*16ul*/  << 0 + 8 + 8, (void *)&b);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x36 << 0)) | sizeof(struct drm_agp_binding) /*16ul*/  << 0 + 8 + 8, (void *)&b);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -5613,9 +5613,9 @@ extern unsigned int drmAgpDeviceId(signed int fd)
 {
   struct drm_agp_info i;
   memset((void *)&i, 0, sizeof(struct drm_agp_info) /*56ul*/ );
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x33 << 0)) | sizeof(struct drm_agp_info) /*56ul*/  << 0 + 8 + 8, (void *)&i);
-  if(!(return_value_drmIoctl$1 == 0))
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x33 << 0)) | sizeof(struct drm_agp_info) /*56ul*/  << 0 + 8 + 8, (void *)&i);
+  if(!(return_value_drmIoctl_1 == 0))
     return (unsigned int)0;
 
   else
@@ -5629,13 +5629,13 @@ extern signed int drmAgpEnable(signed int fd, unsigned long int mode)
   struct drm_agp_mode m;
   memset((void *)&m, 0, sizeof(struct drm_agp_mode) /*8ul*/ );
   m.mode = mode;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x32 << 0)) | sizeof(struct drm_agp_mode) /*8ul*/  << 0 + 8 + 8, (void *)&m);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x32 << 0)) | sizeof(struct drm_agp_mode) /*8ul*/  << 0 + 8 + 8, (void *)&m);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -5649,13 +5649,13 @@ extern signed int drmAgpFree(signed int fd, unsigned int handle)
   struct drm_agp_buffer b;
   memset((void *)&b, 0, sizeof(struct drm_agp_buffer) /*32ul*/ );
   b.handle = (unsigned long int)handle;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x35 << 0)) | sizeof(struct drm_agp_buffer) /*32ul*/  << 0 + 8 + 8, (void *)&b);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x35 << 0)) | sizeof(struct drm_agp_buffer) /*32ul*/  << 0 + 8 + 8, (void *)&b);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -5668,9 +5668,9 @@ extern unsigned long int drmAgpGetMode(signed int fd)
 {
   struct drm_agp_info i;
   memset((void *)&i, 0, sizeof(struct drm_agp_info) /*56ul*/ );
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x33 << 0)) | sizeof(struct drm_agp_info) /*56ul*/  << 0 + 8 + 8, (void *)&i);
-  if(!(return_value_drmIoctl$1 == 0))
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x33 << 0)) | sizeof(struct drm_agp_info) /*56ul*/  << 0 + 8 + 8, (void *)&i);
+  if(!(return_value_drmIoctl_1 == 0))
     return (unsigned long int)0;
 
   else
@@ -5683,9 +5683,9 @@ extern unsigned long int drmAgpMemoryAvail(signed int fd)
 {
   struct drm_agp_info i;
   memset((void *)&i, 0, sizeof(struct drm_agp_info) /*56ul*/ );
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x33 << 0)) | sizeof(struct drm_agp_info) /*56ul*/  << 0 + 8 + 8, (void *)&i);
-  if(!(return_value_drmIoctl$1 == 0))
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x33 << 0)) | sizeof(struct drm_agp_info) /*56ul*/  << 0 + 8 + 8, (void *)&i);
+  if(!(return_value_drmIoctl_1 == 0))
     return (unsigned long int)0;
 
   else
@@ -5698,9 +5698,9 @@ extern unsigned long int drmAgpMemoryUsed(signed int fd)
 {
   struct drm_agp_info i;
   memset((void *)&i, 0, sizeof(struct drm_agp_info) /*56ul*/ );
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x33 << 0)) | sizeof(struct drm_agp_info) /*56ul*/  << 0 + 8 + 8, (void *)&i);
-  if(!(return_value_drmIoctl$1 == 0))
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x33 << 0)) | sizeof(struct drm_agp_info) /*56ul*/  << 0 + 8 + 8, (void *)&i);
+  if(!(return_value_drmIoctl_1 == 0))
     return (unsigned long int)0;
 
   else
@@ -5711,13 +5711,13 @@ extern unsigned long int drmAgpMemoryUsed(signed int fd)
 // file ../xf86drm.c line 1707
 extern signed int drmAgpRelease(signed int fd)
 {
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x31 << 0) | (unsigned int)(0 << 0 + 8 + 8)), (void *)0);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x31 << 0) | (unsigned int)(0 << 0 + 8 + 8)), (void *)0);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -5730,9 +5730,9 @@ extern unsigned long int drmAgpSize(signed int fd)
 {
   struct drm_agp_info i;
   memset((void *)&i, 0, sizeof(struct drm_agp_info) /*56ul*/ );
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x33 << 0)) | sizeof(struct drm_agp_info) /*56ul*/  << 0 + 8 + 8, (void *)&i);
-  if(!(return_value_drmIoctl$1 == 0))
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x33 << 0)) | sizeof(struct drm_agp_info) /*56ul*/  << 0 + 8 + 8, (void *)&i);
+  if(!(return_value_drmIoctl_1 == 0))
     return (unsigned long int)0;
 
   else
@@ -5746,13 +5746,13 @@ extern signed int drmAgpUnbind(signed int fd, unsigned int handle)
   struct drm_agp_binding b;
   memset((void *)&b, 0, sizeof(struct drm_agp_binding) /*16ul*/ );
   b.handle = (unsigned long int)handle;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x37 << 0)) | sizeof(struct drm_agp_binding) /*16ul*/  << 0 + 8 + 8, (void *)&b);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x37 << 0)) | sizeof(struct drm_agp_binding) /*16ul*/  << 0 + 8 + 8, (void *)&b);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -5765,9 +5765,9 @@ extern unsigned int drmAgpVendorId(signed int fd)
 {
   struct drm_agp_info i;
   memset((void *)&i, 0, sizeof(struct drm_agp_info) /*56ul*/ );
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x33 << 0)) | sizeof(struct drm_agp_info) /*56ul*/  << 0 + 8 + 8, (void *)&i);
-  if(!(return_value_drmIoctl$1 == 0))
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x33 << 0)) | sizeof(struct drm_agp_info) /*56ul*/  << 0 + 8 + 8, (void *)&i);
+  if(!(return_value_drmIoctl_1 == 0))
     return (unsigned int)0;
 
   else
@@ -5780,13 +5780,13 @@ extern signed int drmAgpVersionMajor(signed int fd)
 {
   struct drm_agp_info i;
   memset((void *)&i, 0, sizeof(struct drm_agp_info) /*56ul*/ );
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x33 << 0)) | sizeof(struct drm_agp_info) /*56ul*/  << 0 + 8 + 8, (void *)&i);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x33 << 0)) | sizeof(struct drm_agp_info) /*56ul*/  << 0 + 8 + 8, (void *)&i);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -5799,13 +5799,13 @@ extern signed int drmAgpVersionMinor(signed int fd)
 {
   struct drm_agp_info i;
   memset((void *)&i, 0, sizeof(struct drm_agp_info) /*56ul*/ );
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x33 << 0)) | sizeof(struct drm_agp_info) /*56ul*/  << 0 + 8 + 8, (void *)&i);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x33 << 0)) | sizeof(struct drm_agp_info) /*56ul*/  << 0 + 8 + 8, (void *)&i);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -5823,9 +5823,9 @@ static void * drmAllocCpy(char *array, signed int count, signed int entry_size)
 
   else
   {
-    void *return_value_drmMalloc$1;
-    return_value_drmMalloc$1=drmMalloc(count * entry_size);
-    r = (char *)return_value_drmMalloc$1;
+    void *return_value_drmMalloc_1;
+    return_value_drmMalloc_1=drmMalloc(count * entry_size);
+    r = (char *)return_value_drmMalloc_1;
     if(r == ((char *)NULL))
       return NULL;
 
@@ -5839,29 +5839,29 @@ static void * drmAllocCpy(char *array, signed int count, signed int entry_size)
   }
 }
 
-// drmAllocCpy$link1
+// drmAllocCpy_link1
 // file ../xf86drmMode.c line 78
-static void * drmAllocCpy$link1(char *array$link1, signed int count$link1, signed int entry_size$link1)
+static void * drmAllocCpy_link1(char *array_link1, signed int count_link1, signed int entry_size_link1)
 {
-  char *r$link1;
-  signed int i$link1;
-  if(array$link1 == ((char *)NULL) || count$link1 == 0 || entry_size$link1 == 0)
+  char *r_link1;
+  signed int i_link1;
+  if(array_link1 == ((char *)NULL) || count_link1 == 0 || entry_size_link1 == 0)
     return NULL;
 
   else
   {
-    void *return_value_drmMalloc$1$link1;
-    return_value_drmMalloc$1$link1=drmMalloc(count$link1 * entry_size$link1);
-    r$link1 = (char *)return_value_drmMalloc$1$link1;
-    if(r$link1 == ((char *)NULL))
+    void *return_value_drmMalloc_1_link1;
+    return_value_drmMalloc_1_link1=drmMalloc(count_link1 * entry_size_link1);
+    r_link1 = (char *)return_value_drmMalloc_1_link1;
+    if(r_link1 == ((char *)NULL))
       return NULL;
 
     else
     {
-      i$link1 = 0;
-      for( ; !(i$link1 >= count$link1); i$link1 = i$link1 + 1)
-        memcpy((void *)(r$link1 + (signed long int)(entry_size$link1 * i$link1)), (const void *)(array$link1 + (signed long int)(entry_size$link1 * i$link1)), (unsigned long int)entry_size$link1);
-      return (void *)r$link1;
+      i_link1 = 0;
+      for( ; !(i_link1 >= count_link1); i_link1 = i_link1 + 1)
+        memcpy((void *)(r_link1 + (signed long int)(entry_size_link1 * i_link1)), (const void *)(array_link1 + (signed long int)(entry_size_link1 * i_link1)), (unsigned long int)entry_size_link1);
+      return (void *)r_link1;
     }
   }
 }
@@ -5873,13 +5873,13 @@ extern signed int drmAuthMagic(signed int fd, unsigned int magic)
   struct drm_auth auth;
   memset((void *)&auth, 0, sizeof(struct drm_auth) /*4ul*/ );
   auth.magic = magic;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x11 << 0)) | sizeof(struct drm_auth) /*4ul*/  << 0 + 8 + 8, (void *)&auth);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x11 << 0)) | sizeof(struct drm_auth) /*4ul*/  << 0 + 8 + 8, (void *)&auth);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -5896,9 +5896,9 @@ extern signed int drmAvailable(void)
   fd=drmOpenMinor(0, 1, 0);
   if(!(fd >= 0))
   {
-    signed int return_value_access$1;
-    return_value_access$1=access("/proc/dri/0", 4);
-    if(return_value_access$1 == 0)
+    signed int return_value_access_1;
+    return_value_access_1=access("/proc/dri/0", 4);
+    if(return_value_access_1 == 0)
       return 1;
 
     return 0;
@@ -5941,9 +5941,9 @@ extern signed int drmCheckModesettingSupported(const char *busid)
       dent=readdir(sysdir);
       while(!(dent == ((struct dirent *)NULL)))
       {
-        signed int return_value_strncmp$1;
-        return_value_strncmp$1=strncmp(dent->d_name, "controlD", (unsigned long int)8);
-        if(return_value_strncmp$1 == 0)
+        signed int return_value_strncmp_1;
+        return_value_strncmp_1=strncmp(dent->d_name, "controlD", (unsigned long int)8);
+        if(return_value_strncmp_1 == 0)
         {
           found = 1;
           break;
@@ -5973,9 +5973,9 @@ extern signed int drmCheckModesettingSupported(const char *busid)
         dent=readdir(sysdir);
         while(!(dent == ((struct dirent *)NULL)))
         {
-          signed int return_value_strncmp$2;
-          return_value_strncmp$2=strncmp(dent->d_name, "drm:controlD", (unsigned long int)12);
-          if(return_value_strncmp$2 == 0)
+          signed int return_value_strncmp_2;
+          return_value_strncmp_2=strncmp(dent->d_name, "drm:controlD", (unsigned long int)12);
+          if(return_value_strncmp_2 == 0)
           {
             found = 1;
             break;
@@ -6008,9 +6008,9 @@ extern signed int drmClose(signed int fd)
   entry->tagTable = (void *)0;
   drmHashDelete(drmHashTable, key);
   drmFree((void *)entry);
-  signed int return_value_close$1;
-  return_value_close$1=close(fd);
-  return return_value_close$1;
+  signed int return_value_close_1;
+  return_value_close_1=close(fd);
+  return return_value_close_1;
 }
 
 // drmCloseOnce
@@ -6045,13 +6045,13 @@ __CPROVER_DUMP_L5:
 extern signed int drmCommandNone(signed int fd, unsigned long int drmCommandIndex)
 {
   unsigned long int request = (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8)) | (unsigned long int)0x40 + drmCommandIndex << 0 | (unsigned long int)(0 << 0 + 8 + 8);
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, request, (void *)0);
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, request, (void *)0);
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   return 0;
@@ -6062,13 +6062,13 @@ extern signed int drmCommandNone(signed int fd, unsigned long int drmCommandInde
 extern signed int drmCommandRead(signed int fd, unsigned long int drmCommandIndex, void *data, unsigned long int size)
 {
   unsigned long int request = (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8)) | (unsigned long int)0x40 + drmCommandIndex << 0 | size << 0 + 8 + 8;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, request, data);
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, request, data);
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   return 0;
@@ -6079,13 +6079,13 @@ extern signed int drmCommandRead(signed int fd, unsigned long int drmCommandInde
 extern signed int drmCommandWrite(signed int fd, unsigned long int drmCommandIndex, void *data, unsigned long int size)
 {
   unsigned long int request = (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8)) | (unsigned long int)0x40 + drmCommandIndex << 0 | size << 0 + 8 + 8;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, request, data);
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, request, data);
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   return 0;
@@ -6096,13 +6096,13 @@ extern signed int drmCommandWrite(signed int fd, unsigned long int drmCommandInd
 extern signed int drmCommandWriteRead(signed int fd, unsigned long int drmCommandIndex, void *data, unsigned long int size)
 {
   unsigned long int request = (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8)) | (unsigned long int)0x40 + drmCommandIndex << 0 | size << 0 + 8 + 8;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, request, data);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, request, data);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -6113,7 +6113,7 @@ extern signed int drmCommandWriteRead(signed int fd, unsigned long int drmComman
 // file ../xf86drm.c line 2904
 static signed int drmCompareBusInfo(struct _drmDevice *a, struct _drmDevice *b)
 {
-  signed int return_value_memcmp$1;
+  signed int return_value_memcmp_1;
   if(a == ((struct _drmDevice *)NULL) || b == ((struct _drmDevice *)NULL))
     return -1;
 
@@ -6125,8 +6125,8 @@ static signed int drmCompareBusInfo(struct _drmDevice *a, struct _drmDevice *b)
     {
       if(a->bustype == 0)
       {
-        return_value_memcmp$1=memcmp((const void *)a->businfo.pci, (const void *)b->businfo.pci, sizeof(struct _drmPciBusInfo) /*6ul*/ );
-        return return_value_memcmp$1;
+        return_value_memcmp_1=memcmp((const void *)a->businfo.pci, (const void *)b->businfo.pci, sizeof(struct _drmPciBusInfo) /*6ul*/ );
+        return return_value_memcmp_1;
       }
 
       goto __CPROVER_DUMP_L5;
@@ -6137,24 +6137,24 @@ static signed int drmCompareBusInfo(struct _drmDevice *a, struct _drmDevice *b)
     }
 }
 
-// drmCompareBusInfo$link1
+// drmCompareBusInfo_link1
 // file ../xf86drm.c line 2904
-static signed int drmCompareBusInfo$link1(struct _drmDevice *a$link1, struct _drmDevice *b$link1)
+static signed int drmCompareBusInfo_link1(struct _drmDevice *a_link1, struct _drmDevice *b_link1)
 {
-  signed int return_value_memcmp$1$link1;
-  if(a$link1 == ((struct _drmDevice *)NULL) || b$link1 == ((struct _drmDevice *)NULL))
+  signed int return_value_memcmp_1_link1;
+  if(a_link1 == ((struct _drmDevice *)NULL) || b_link1 == ((struct _drmDevice *)NULL))
     return -1;
 
   else
-    if(!(a$link1->bustype == b$link1->bustype))
+    if(!(a_link1->bustype == b_link1->bustype))
       return -1;
 
     else
     {
-      if(a$link1->bustype == 0)
+      if(a_link1->bustype == 0)
       {
-        return_value_memcmp$1$link1=memcmp((const void *)a$link1->businfo.pci, (const void *)b$link1->businfo.pci, sizeof(struct _drmPciBusInfo) /*6ul*/ );
-        return return_value_memcmp$1$link1;
+        return_value_memcmp_1_link1=memcmp((const void *)a_link1->businfo.pci, (const void *)b_link1->businfo.pci, sizeof(struct _drmPciBusInfo) /*6ul*/ );
+        return return_value_memcmp_1_link1;
       }
 
       goto __CPROVER_DUMP_L5;
@@ -6180,19 +6180,19 @@ static void drmCopyVersion(struct _drmVersion *d, const struct drm_version *s)
   d->desc=strdup(s->desc);
 }
 
-// drmCopyVersion$link1
+// drmCopyVersion_link1
 // file ../xf86drm.c line 816
-static void drmCopyVersion$link1(struct _drmVersion *d$link1, const struct drm_version *s$link1)
+static void drmCopyVersion_link1(struct _drmVersion *d_link1, const struct drm_version *s_link1)
 {
-  d$link1->version_major = s$link1->version_major;
-  d$link1->version_minor = s$link1->version_minor;
-  d$link1->version_patchlevel = s$link1->version_patchlevel;
-  d$link1->name_len = (signed int)s$link1->name_len;
-  d$link1->name=strdup(s$link1->name);
-  d$link1->date_len = (signed int)s$link1->date_len;
-  d$link1->date=strdup(s$link1->date);
-  d$link1->desc_len = (signed int)s$link1->desc_len;
-  d$link1->desc=strdup(s$link1->desc);
+  d_link1->version_major = s_link1->version_major;
+  d_link1->version_minor = s_link1->version_minor;
+  d_link1->version_patchlevel = s_link1->version_patchlevel;
+  d_link1->name_len = (signed int)s_link1->name_len;
+  d_link1->name=strdup(s_link1->name);
+  d_link1->date_len = (signed int)s_link1->date_len;
+  d_link1->date=strdup(s_link1->date);
+  d_link1->desc_len = (signed int)s_link1->desc_len;
+  d_link1->desc=strdup(s_link1->desc);
 }
 
 // drmCreateContext
@@ -6201,13 +6201,13 @@ extern signed int drmCreateContext(signed int fd, unsigned int *handle)
 {
   struct drm_ctx ctx;
   memset((void *)&ctx, 0, sizeof(struct drm_ctx) /*8ul*/ );
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x20 << 0)) | sizeof(struct drm_ctx) /*8ul*/  << 0 + 8 + 8, (void *)&ctx);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x20 << 0)) | sizeof(struct drm_ctx) /*8ul*/  << 0 + 8 + 8, (void *)&ctx);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -6223,13 +6223,13 @@ extern signed int drmCreateDrawable(signed int fd, unsigned int *handle)
 {
   struct drm_draw draw;
   memset((void *)&draw, 0, sizeof(struct drm_draw) /*4ul*/ );
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x27 << 0)) | sizeof(struct drm_draw) /*4ul*/  << 0 + 8 + 8, (void *)&draw);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x27 << 0)) | sizeof(struct drm_draw) /*4ul*/  << 0 + 8 + 8, (void *)&draw);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -6245,15 +6245,15 @@ extern signed int drmCtlInstHandler(signed int fd, signed int irq)
 {
   struct drm_control ctl;
   memset((void *)&ctl, 0, sizeof(struct drm_control) /*8ul*/ );
-  ctl.func = (enum anonymous$23)DRM_INST_HANDLER;
+  ctl.func = (enum anonymous_23)DRM_INST_HANDLER;
   ctl.irq = irq;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x14 << 0)) | sizeof(struct drm_control) /*8ul*/  << 0 + 8 + 8, (void *)&ctl);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x14 << 0)) | sizeof(struct drm_control) /*8ul*/  << 0 + 8 + 8, (void *)&ctl);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -6266,15 +6266,15 @@ extern signed int drmCtlUninstHandler(signed int fd)
 {
   struct drm_control ctl;
   memset((void *)&ctl, 0, sizeof(struct drm_control) /*8ul*/ );
-  ctl.func = (enum anonymous$23)DRM_UNINST_HANDLER;
+  ctl.func = (enum anonymous_23)DRM_UNINST_HANDLER;
   ctl.irq = 0;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x14 << 0)) | sizeof(struct drm_control) /*8ul*/  << 0 + 8 + 8, (void *)&ctl);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x14 << 0)) | sizeof(struct drm_control) /*8ul*/  << 0 + 8 + 8, (void *)&ctl);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -6298,32 +6298,32 @@ extern signed int drmDMA(signed int fd, struct _drmDMAReq *request)
   dma.request_indices = request->request_list;
   dma.request_sizes = request->request_sizes;
   dma.granted_count = 0;
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
-  _Bool tmp_if_expr$4;
-  signed int tmp_post$3;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
+  _Bool tmp_if_expr_4;
+  signed int tmp_post_3;
   do
   {
     ret=ioctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x29 << 0)) | sizeof(struct drm_dma) /*64ul*/  << 0 + 8 + 8, &dma);
     if(!(ret == 0))
     {
-      return_value___errno_location$1=__errno_location();
-      tmp_if_expr$2 = *return_value___errno_location$1 == 11 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_1=__errno_location();
+      tmp_if_expr_2 = *return_value___errno_location_1 == 11 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
-      tmp_post$3 = i;
+      tmp_post_3 = i;
       i = i + 1;
-      tmp_if_expr$4 = tmp_post$3 < 16 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = tmp_post_3 < 16 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
+      tmp_if_expr_4 = (_Bool)0;
   }
-  while(tmp_if_expr$4);
+  while(tmp_if_expr_4);
   if(ret == 0)
   {
     request->granted_count = dma.granted_count;
@@ -6332,9 +6332,9 @@ extern signed int drmDMA(signed int fd, struct _drmDMAReq *request)
 
   else
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    return -(*return_value___errno_location$5);
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    return -(*return_value___errno_location_5);
   }
 }
 
@@ -6342,18 +6342,18 @@ extern signed int drmDMA(signed int fd, struct _drmDMAReq *request)
 // file ../xf86drm.c line 123
 static signed int drmDebugPrint(const char *format, void **ap)
 {
-  signed int return_value_vfprintf$1;
-  return_value_vfprintf$1=vfprintf(stderr, format, ap);
-  return return_value_vfprintf$1;
+  signed int return_value_vfprintf_1;
+  return_value_vfprintf_1=vfprintf(stderr, format, ap);
+  return return_value_vfprintf_1;
 }
 
-// drmDebugPrint$link1
+// drmDebugPrint_link1
 // file ../xf86drm.c line 123
-static signed int drmDebugPrint$link1(const char *format$link1, void **ap$link1)
+static signed int drmDebugPrint_link1(const char *format_link1, void **ap_link1)
 {
-  signed int return_value_vfprintf$1$link1;
-  return_value_vfprintf$1$link1=vfprintf(stderr, format$link1, ap$link1);
-  return return_value_vfprintf$1$link1;
+  signed int return_value_vfprintf_1_link1;
+  return_value_vfprintf_1_link1=vfprintf(stderr, format_link1, ap_link1);
+  return return_value_vfprintf_1_link1;
 }
 
 // drmDelContextTag
@@ -6362,9 +6362,9 @@ extern signed int drmDelContextTag(signed int fd, unsigned int context)
 {
   struct drmHashEntry *entry;
   entry=drmGetEntry(fd);
-  signed int return_value_drmHashDelete$1;
-  return_value_drmHashDelete$1=drmHashDelete(entry->tagTable, (unsigned long int)context);
-  return return_value_drmHashDelete$1;
+  signed int return_value_drmHashDelete_1;
+  return_value_drmHashDelete_1=drmHashDelete(entry->tagTable, (unsigned long int)context);
+  return return_value_drmHashDelete_1;
 }
 
 // drmDestroyContext
@@ -6374,13 +6374,13 @@ extern signed int drmDestroyContext(signed int fd, unsigned int handle)
   struct drm_ctx ctx;
   memset((void *)&ctx, 0, sizeof(struct drm_ctx) /*8ul*/ );
   ctx.handle = handle;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x21 << 0)) | sizeof(struct drm_ctx) /*8ul*/  << 0 + 8 + 8, (void *)&ctx);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x21 << 0)) | sizeof(struct drm_ctx) /*8ul*/  << 0 + 8 + 8, (void *)&ctx);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -6394,13 +6394,13 @@ extern signed int drmDestroyDrawable(signed int fd, unsigned int handle)
   struct drm_draw draw;
   memset((void *)&draw, 0, sizeof(struct drm_draw) /*4ul*/ );
   draw.handle = handle;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x28 << 0)) | sizeof(struct drm_draw) /*4ul*/  << 0 + 8 + 8, (void *)&draw);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x28 << 0)) | sizeof(struct drm_draw) /*4ul*/  << 0 + 8 + 8, (void *)&draw);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -6411,9 +6411,9 @@ extern signed int drmDestroyDrawable(signed int fd, unsigned int handle)
 // file ../xf86drm.c line 2678
 extern signed int drmDropMaster(signed int fd)
 {
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x1f << 0) | (unsigned int)(0 << 0 + 8 + 8)), (void *)0);
-  return return_value_drmIoctl$1;
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x1f << 0) | (unsigned int)(0 << 0 + 8 + 8)), (void *)0);
+  return return_value_drmIoctl_1;
 }
 
 // drmError
@@ -6456,9 +6456,9 @@ extern signed int drmError(signed int err, const char *label)
   if(!(err >= 0))
     err = -err;
 
-  char *return_value_strerror$1;
-  return_value_strerror$1=strerror(err);
-  fprintf(stderr, "%s: error %d (%s)\n", label, err, return_value_strerror$1);
+  char *return_value_strerror_1;
+  return_value_strerror_1=strerror(err);
+  fprintf(stderr, "%s: error %d (%s)\n", label, err, return_value_strerror_1);
   goto __CPROVER_DUMP_L7;
 
 __CPROVER_DUMP_L7:
@@ -6468,7 +6468,7 @@ __CPROVER_DUMP_L7:
 
 // drmFinish
 // file ../xf86drm.c line 2194
-extern signed int drmFinish(signed int fd, signed int context, enum anonymous$13 flags)
+extern signed int drmFinish(signed int fd, signed int context, enum anonymous_13 flags)
 {
   struct drm_lock lock;
   memset((void *)&lock, 0, sizeof(struct drm_lock) /*8ul*/ );
@@ -6491,13 +6491,13 @@ extern signed int drmFinish(signed int fd, signed int context, enum anonymous$13
   if(!((DRM_HALT_CUR_QUEUES & (signed int)flags) == 0))
     lock.flags = lock.flags | (enum drm_lock_flags)_DRM_HALT_CUR_QUEUES;
 
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x2c << 0)) | sizeof(struct drm_lock) /*8ul*/  << 0 + 8 + 8, (void *)&lock);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x2c << 0)) | sizeof(struct drm_lock) /*8ul*/  << 0 + 8 + 8, (void *)&lock);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -6517,17 +6517,17 @@ static void drmFoldDuplicatedDevices(struct _drmDevice **local_devices, signed i
     j = i + 1;
     for( ; !(j >= count); j = j + 1)
     {
-      signed int return_value_drmCompareBusInfo$3;
-      return_value_drmCompareBusInfo$3=drmCompareBusInfo(local_devices[(signed long int)i], local_devices[(signed long int)j]);
-      if(return_value_drmCompareBusInfo$3 == 0)
+      signed int return_value_drmCompareBusInfo_3;
+      return_value_drmCompareBusInfo_3=drmCompareBusInfo(local_devices[(signed long int)i], local_devices[(signed long int)j]);
+      if(return_value_drmCompareBusInfo_3 == 0)
       {
         local_devices[(signed long int)i]->available_nodes = local_devices[(signed long int)i]->available_nodes | local_devices[(signed long int)j]->available_nodes;
-        double return_value_log2$1;
-        return_value_log2$1=log2((double)local_devices[(signed long int)j]->available_nodes);
-        node_type = (signed int)return_value_log2$1;
-        signed int return_value_drmGetMaxNodeName$2;
-        return_value_drmGetMaxNodeName$2=drmGetMaxNodeName();
-        memcpy((void *)local_devices[(signed long int)i]->nodes[(signed long int)node_type], (const void *)local_devices[(signed long int)j]->nodes[(signed long int)node_type], (unsigned long int)return_value_drmGetMaxNodeName$2);
+        double return_value_log2_1;
+        return_value_log2_1=log2((double)local_devices[(signed long int)j]->available_nodes);
+        node_type = (signed int)return_value_log2_1;
+        signed int return_value_drmGetMaxNodeName_2;
+        return_value_drmGetMaxNodeName_2=drmGetMaxNodeName();
+        memcpy((void *)local_devices[(signed long int)i]->nodes[(signed long int)node_type], (const void *)local_devices[(signed long int)j]->nodes[(signed long int)node_type], (unsigned long int)return_value_drmGetMaxNodeName_2);
         drmFreeDevice(&local_devices[(signed long int)j]);
       }
 
@@ -6535,31 +6535,31 @@ static void drmFoldDuplicatedDevices(struct _drmDevice **local_devices, signed i
   }
 }
 
-// drmFoldDuplicatedDevices$link1
+// drmFoldDuplicatedDevices_link1
 // file ../xf86drm.c line 3052
-static void drmFoldDuplicatedDevices$link1(struct _drmDevice **local_devices$link1, signed int count$link1)
+static void drmFoldDuplicatedDevices_link1(struct _drmDevice **local_devices_link1, signed int count_link1)
 {
-  signed int node_type$link1;
-  signed int i$link1;
-  signed int j$link1;
-  i$link1 = 0;
-  for( ; !(i$link1 >= count$link1); i$link1 = i$link1 + 1)
+  signed int node_type_link1;
+  signed int i_link1;
+  signed int j_link1;
+  i_link1 = 0;
+  for( ; !(i_link1 >= count_link1); i_link1 = i_link1 + 1)
   {
-    j$link1 = i$link1 + 1;
-    for( ; !(j$link1 >= count$link1); j$link1 = j$link1 + 1)
+    j_link1 = i_link1 + 1;
+    for( ; !(j_link1 >= count_link1); j_link1 = j_link1 + 1)
     {
-      signed int return_value_drmCompareBusInfo$3$link1;
-      return_value_drmCompareBusInfo$3$link1=drmCompareBusInfo$link1(local_devices$link1[(signed long int)i$link1], local_devices$link1[(signed long int)j$link1]);
-      if(return_value_drmCompareBusInfo$3$link1 == 0)
+      signed int return_value_drmCompareBusInfo_3_link1;
+      return_value_drmCompareBusInfo_3_link1=drmCompareBusInfo_link1(local_devices_link1[(signed long int)i_link1], local_devices_link1[(signed long int)j_link1]);
+      if(return_value_drmCompareBusInfo_3_link1 == 0)
       {
-        local_devices$link1[(signed long int)i$link1]->available_nodes = local_devices$link1[(signed long int)i$link1]->available_nodes | local_devices$link1[(signed long int)j$link1]->available_nodes;
-        double return_value_log2$1$link1;
-        return_value_log2$1$link1=log2((double)local_devices$link1[(signed long int)j$link1]->available_nodes);
-        node_type$link1 = (signed int)return_value_log2$1$link1;
-        signed int return_value_drmGetMaxNodeName$2$link1;
-        return_value_drmGetMaxNodeName$2$link1=drmGetMaxNodeName$link1();
-        memcpy((void *)local_devices$link1[(signed long int)i$link1]->nodes[(signed long int)node_type$link1], (const void *)local_devices$link1[(signed long int)j$link1]->nodes[(signed long int)node_type$link1], (unsigned long int)return_value_drmGetMaxNodeName$2$link1);
-        drmFreeDevice(&local_devices$link1[(signed long int)j$link1]);
+        local_devices_link1[(signed long int)i_link1]->available_nodes = local_devices_link1[(signed long int)i_link1]->available_nodes | local_devices_link1[(signed long int)j_link1]->available_nodes;
+        double return_value_log2_1_link1;
+        return_value_log2_1_link1=log2((double)local_devices_link1[(signed long int)j_link1]->available_nodes);
+        node_type_link1 = (signed int)return_value_log2_1_link1;
+        signed int return_value_drmGetMaxNodeName_2_link1;
+        return_value_drmGetMaxNodeName_2_link1=drmGetMaxNodeName_link1();
+        memcpy((void *)local_devices_link1[(signed long int)i_link1]->nodes[(signed long int)node_type_link1], (const void *)local_devices_link1[(signed long int)j_link1]->nodes[(signed long int)node_type_link1], (unsigned long int)return_value_drmGetMaxNodeName_2_link1);
+        drmFreeDevice(&local_devices_link1[(signed long int)j_link1]);
       }
 
     }
@@ -6581,13 +6581,13 @@ extern signed int drmFreeBufs(signed int fd, signed int count, signed int *list)
   memset((void *)&request, 0, sizeof(struct drm_buf_free) /*16ul*/ );
   request.count = count;
   request.list = list;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x1a << 0)) | sizeof(struct drm_buf_free) /*16ul*/  << 0 + 8 + 8, (void *)&request);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x1a << 0)) | sizeof(struct drm_buf_free) /*16ul*/  << 0 + 8 + 8, (void *)&request);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -6618,18 +6618,18 @@ extern void drmFreeDevice(struct _drmDevice **device)
 extern void drmFreeDevices(struct _drmDevice **devices, signed int count)
 {
   signed int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(devices == ((struct _drmDevice **)NULL)))
   {
     i = 0;
     do
     {
       if(!(i >= count))
-        tmp_if_expr$1 = devices[(signed long int)i] != (struct _drmDevice *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = devices[(signed long int)i] != (struct _drmDevice *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       drmFreeDevice(&devices[(signed long int)i]);
@@ -6654,16 +6654,16 @@ static void drmFreeKernelVersion(struct drm_version *v)
 
 }
 
-// drmFreeKernelVersion$link1
+// drmFreeKernelVersion_link1
 // file ../xf86drm.c line 795
-static void drmFreeKernelVersion$link1(struct drm_version *v$link1)
+static void drmFreeKernelVersion_link1(struct drm_version *v_link1)
 {
-  if(!(v$link1 == ((struct drm_version *)NULL)))
+  if(!(v_link1 == ((struct drm_version *)NULL)))
   {
-    drmFree((void *)v$link1->name);
-    drmFree((void *)v$link1->date);
-    drmFree((void *)v$link1->desc);
-    drmFree((void *)v$link1);
+    drmFree((void *)v_link1->name);
+    drmFree((void *)v_link1->date);
+    drmFree((void *)v_link1->desc);
+    drmFree((void *)v_link1);
   }
 
 }
@@ -6697,36 +6697,36 @@ extern struct _drmBufInfo * drmGetBufInfo(signed int fd)
   struct _drmBufInfo *retval;
   signed int i;
   memset((void *)&info, 0, sizeof(struct drm_buf_info) /*16ul*/ );
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x18 << 0)) | sizeof(struct drm_buf_info) /*16ul*/  << 0 + 8 + 8, (void *)&info);
-  if(!(return_value_drmIoctl$1 == 0))
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x18 << 0)) | sizeof(struct drm_buf_info) /*16ul*/  << 0 + 8 + 8, (void *)&info);
+  if(!(return_value_drmIoctl_1 == 0))
     return (struct _drmBufInfo *)(void *)0;
 
   else
   {
     if(!(info.count == 0))
     {
-      void *return_value_drmMalloc$2;
-      return_value_drmMalloc$2=drmMalloc((signed int)((unsigned long int)info.count * sizeof(struct drm_buf_desc) /*32ul*/ ));
-      info.list = (struct drm_buf_desc *)return_value_drmMalloc$2;
+      void *return_value_drmMalloc_2;
+      return_value_drmMalloc_2=drmMalloc((signed int)((unsigned long int)info.count * sizeof(struct drm_buf_desc) /*32ul*/ ));
+      info.list = (struct drm_buf_desc *)return_value_drmMalloc_2;
       if(info.list == ((struct drm_buf_desc *)NULL))
         return (struct _drmBufInfo *)(void *)0;
 
-      signed int return_value_drmIoctl$3;
-      return_value_drmIoctl$3=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x18 << 0)) | sizeof(struct drm_buf_info) /*16ul*/  << 0 + 8 + 8, (void *)&info);
-      if(!(return_value_drmIoctl$3 == 0))
+      signed int return_value_drmIoctl_3;
+      return_value_drmIoctl_3=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x18 << 0)) | sizeof(struct drm_buf_info) /*16ul*/  << 0 + 8 + 8, (void *)&info);
+      if(!(return_value_drmIoctl_3 == 0))
       {
         drmFree((void *)info.list);
         return (struct _drmBufInfo *)(void *)0;
       }
 
-      void *return_value_drmMalloc$4;
-      return_value_drmMalloc$4=drmMalloc((signed int)sizeof(struct _drmBufInfo) /*16ul*/ );
-      retval = (struct _drmBufInfo *)return_value_drmMalloc$4;
+      void *return_value_drmMalloc_4;
+      return_value_drmMalloc_4=drmMalloc((signed int)sizeof(struct _drmBufInfo) /*16ul*/ );
+      retval = (struct _drmBufInfo *)return_value_drmMalloc_4;
       retval->count = info.count;
-      void *return_value_drmMalloc$5;
-      return_value_drmMalloc$5=drmMalloc((signed int)((unsigned long int)info.count * sizeof(struct _drmBufDesc) /*16ul*/ ));
-      retval->list = (struct _drmBufDesc *)return_value_drmMalloc$5;
+      void *return_value_drmMalloc_5;
+      return_value_drmMalloc_5=drmMalloc((signed int)((unsigned long int)info.count * sizeof(struct _drmBufDesc) /*16ul*/ ));
+      retval->list = (struct _drmBufDesc *)return_value_drmMalloc_5;
       i = 0;
       for( ; !(i >= info.count); i = i + 1)
       {
@@ -6749,19 +6749,19 @@ extern char * drmGetBusid(signed int fd)
 {
   struct drm_unique u;
   memset((void *)&u, 0, sizeof(struct drm_unique) /*16ul*/ );
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x01 << 0)) | sizeof(struct drm_unique) /*16ul*/  << 0 + 8 + 8, (void *)&u);
-  if(!(return_value_drmIoctl$1 == 0))
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x01 << 0)) | sizeof(struct drm_unique) /*16ul*/  << 0 + 8 + 8, (void *)&u);
+  if(!(return_value_drmIoctl_1 == 0))
     return (char *)(void *)0;
 
   else
   {
-    void *return_value_drmMalloc$2;
-    return_value_drmMalloc$2=drmMalloc((signed int)(u.unique_len + (unsigned long int)1));
-    u.unique = (char *)return_value_drmMalloc$2;
-    signed int return_value_drmIoctl$3;
-    return_value_drmIoctl$3=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x01 << 0)) | sizeof(struct drm_unique) /*16ul*/  << 0 + 8 + 8, (void *)&u);
-    if(!(return_value_drmIoctl$3 == 0))
+    void *return_value_drmMalloc_2;
+    return_value_drmMalloc_2=drmMalloc((signed int)(u.unique_len + (unsigned long int)1));
+    u.unique = (char *)return_value_drmMalloc_2;
+    signed int return_value_drmIoctl_3;
+    return_value_drmIoctl_3=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x01 << 0)) | sizeof(struct drm_unique) /*16ul*/  << 0 + 8 + 8, (void *)&u);
+    if(!(return_value_drmIoctl_3 == 0))
       return (char *)(void *)0;
 
     else
@@ -6798,13 +6798,13 @@ extern signed int drmGetClient(signed int fd, signed int idx, signed int *auth, 
   struct drm_client client;
   memset((void *)&client, 0, sizeof(struct drm_client) /*40ul*/ );
   client.idx = idx;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x05 << 0)) | sizeof(struct drm_client) /*40ul*/  << 0 + 8 + 8, (void *)&client);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x05 << 0)) | sizeof(struct drm_client) /*40ul*/  << 0 + 8 + 8, (void *)&client);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -6820,28 +6820,28 @@ extern signed int drmGetClient(signed int fd, signed int idx, signed int *auth, 
 
 // drmGetContextFlags
 // file ../xf86drm.c line 1592
-extern signed int drmGetContextFlags(signed int fd, unsigned int context, enum anonymous$9 *flags)
+extern signed int drmGetContextFlags(signed int fd, unsigned int context, enum anonymous_9 *flags)
 {
   struct drm_ctx ctx;
   memset((void *)&ctx, 0, sizeof(struct drm_ctx) /*8ul*/ );
   ctx.handle = context;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x23 << 0)) | sizeof(struct drm_ctx) /*8ul*/  << 0 + 8 + 8, (void *)&ctx);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x23 << 0)) | sizeof(struct drm_ctx) /*8ul*/  << 0 + 8 + 8, (void *)&ctx);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
   {
-    *flags = (enum anonymous$9)0;
+    *flags = (enum anonymous_9)0;
     if(!((_DRM_CONTEXT_PRESERVED & (signed int)ctx.flags) == 0))
-      *flags = *flags | (enum anonymous$9)DRM_CONTEXT_PRESERVED;
+      *flags = *flags | (enum anonymous_9)DRM_CONTEXT_PRESERVED;
 
     if(!((_DRM_CONTEXT_2DONLY & (signed int)ctx.flags) == 0))
-      *flags = *flags | (enum anonymous$9)DRM_CONTEXT_2DONLY;
+      *flags = *flags | (enum anonymous_9)DRM_CONTEXT_2DONLY;
 
     return 0;
   }
@@ -6854,13 +6854,13 @@ extern signed int drmGetContextPrivateMapping(signed int fd, unsigned int ctx_id
   struct drm_ctx_priv_map map;
   memset((void *)&map, 0, sizeof(struct drm_ctx_priv_map) /*16ul*/ );
   map.ctx_id = ctx_id;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x1d << 0)) | sizeof(struct drm_ctx_priv_map) /*16ul*/  << 0 + 8 + 8, (void *)&map);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x1d << 0)) | sizeof(struct drm_ctx_priv_map) /*16ul*/  << 0 + 8 + 8, (void *)&map);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -6879,9 +6879,9 @@ extern void * drmGetContextTag(signed int fd, unsigned int context)
   struct drmHashEntry *entry;
   entry=drmGetEntry(fd);
   void *value;
-  signed int return_value_drmHashLookup$1;
-  return_value_drmHashLookup$1=drmHashLookup(entry->tagTable, (unsigned long int)context, &value);
-  if(!(return_value_drmHashLookup$1 == 0))
+  signed int return_value_drmHashLookup_1;
+  return_value_drmHashLookup_1=drmHashLookup(entry->tagTable, (unsigned long int)context, &value);
+  if(!(return_value_drmHashLookup_1 == 0))
     return (void *)0;
 
   else
@@ -6906,38 +6906,38 @@ extern signed int drmGetDevice(signed int fd, struct _drmDevice **device)
   signed int i;
   signed int node_count;
   signed int max_count = 16;
-  signed int *return_value___errno_location$1;
-  _Bool tmp_if_expr$12;
+  signed int *return_value___errno_location_1;
+  _Bool tmp_if_expr_12;
   if(device == ((struct _drmDevice **)NULL) || fd == -1)
     return -22;
 
   else
   {
-    signed int return_value_fstat$2;
-    return_value_fstat$2=fstat(fd, &sbuf);
-    if(!(return_value_fstat$2 == 0))
+    signed int return_value_fstat_2;
+    return_value_fstat_2=fstat(fd, &sbuf);
+    if(!(return_value_fstat_2 == 0))
     {
-      return_value___errno_location$1=__errno_location();
-      return -(*return_value___errno_location$1);
+      return_value___errno_location_1=__errno_location();
+      return -(*return_value___errno_location_1);
     }
 
     else
     {
-      unsigned int return_value_gnu_dev_major$3;
-      return_value_gnu_dev_major$3=gnu_dev_major(sbuf.st_rdev);
-      maj = (signed int)return_value_gnu_dev_major$3;
-      unsigned int return_value_gnu_dev_minor$4;
-      return_value_gnu_dev_minor$4=gnu_dev_minor(sbuf.st_rdev);
-      min = (signed int)return_value_gnu_dev_minor$4;
+      unsigned int return_value_gnu_dev_major_3;
+      return_value_gnu_dev_major_3=gnu_dev_major(sbuf.st_rdev);
+      maj = (signed int)return_value_gnu_dev_major_3;
+      unsigned int return_value_gnu_dev_minor_4;
+      return_value_gnu_dev_minor_4=gnu_dev_minor(sbuf.st_rdev);
+      min = (signed int)return_value_gnu_dev_minor_4;
       if(!((61440u & sbuf.st_mode) == 8192u) || !(maj == 226))
         return -22;
 
       else
       {
         subsystem_type=drmParseSubsystemType(maj, min);
-        void *return_value_calloc$5;
-        return_value_calloc$5=calloc((unsigned long int)max_count, sizeof(struct _drmDevice *) /*8ul*/ );
-        local_devices = (struct _drmDevice **)return_value_calloc$5;
+        void *return_value_calloc_5;
+        return_value_calloc_5=calloc((unsigned long int)max_count, sizeof(struct _drmDevice *) /*8ul*/ );
+        local_devices = (struct _drmDevice **)return_value_calloc_5;
         if(local_devices == ((struct _drmDevice **)NULL))
           return -12;
 
@@ -6946,9 +6946,9 @@ extern signed int drmGetDevice(signed int fd, struct _drmDevice **device)
           sysdir=opendir("/dev/dri");
           if(sysdir == ((struct __dirstream *)NULL))
           {
-            signed int *return_value___errno_location$6;
-            return_value___errno_location$6=__errno_location();
-            ret = -(*return_value___errno_location$6);
+            signed int *return_value___errno_location_6;
+            return_value___errno_location_6=__errno_location();
+            ret = -(*return_value___errno_location_6);
             goto free_locals;
           }
 
@@ -6963,21 +6963,21 @@ extern signed int drmGetDevice(signed int fd, struct _drmDevice **device)
             if(node_type >= 0)
             {
               snprintf(node, (unsigned long int)4096, "%s/%s", (const void *)"/dev/dri", (const void *)dent->d_name);
-              signed int return_value_stat$7;
-              return_value_stat$7=stat(node, &sbuf);
-              if(return_value_stat$7 == 0)
+              signed int return_value_stat_7;
+              return_value_stat_7=stat(node, &sbuf);
+              if(return_value_stat_7 == 0)
               {
-                unsigned int return_value_gnu_dev_major$8;
-                return_value_gnu_dev_major$8=gnu_dev_major(sbuf.st_rdev);
-                maj = (signed int)return_value_gnu_dev_major$8;
-                unsigned int return_value_gnu_dev_minor$9;
-                return_value_gnu_dev_minor$9=gnu_dev_minor(sbuf.st_rdev);
-                min = (signed int)return_value_gnu_dev_minor$9;
+                unsigned int return_value_gnu_dev_major_8;
+                return_value_gnu_dev_major_8=gnu_dev_major(sbuf.st_rdev);
+                maj = (signed int)return_value_gnu_dev_major_8;
+                unsigned int return_value_gnu_dev_minor_9;
+                return_value_gnu_dev_minor_9=gnu_dev_minor(sbuf.st_rdev);
+                min = (signed int)return_value_gnu_dev_minor_9;
                 if((61440u & sbuf.st_mode) == 8192u && maj == 226)
                 {
-                  signed int return_value_drmParseSubsystemType$10;
-                  return_value_drmParseSubsystemType$10=drmParseSubsystemType(maj, min);
-                  if(return_value_drmParseSubsystemType$10 == subsystem_type)
+                  signed int return_value_drmParseSubsystemType_10;
+                  return_value_drmParseSubsystemType_10=drmParseSubsystemType(maj, min);
+                  if(return_value_drmParseSubsystemType_10 == subsystem_type)
                   {
                     if(subsystem_type == 0)
                     {
@@ -6997,9 +6997,9 @@ extern signed int drmGetDevice(signed int fd, struct _drmDevice **device)
                     {
                       struct _drmDevice **temp;
                       max_count = max_count + 16;
-                      void *return_value_realloc$11;
-                      return_value_realloc$11=realloc((void *)local_devices, (unsigned long int)max_count * sizeof(struct _drmDevice *) /*8ul*/ );
-                      temp = (struct _drmDevice **)return_value_realloc$11;
+                      void *return_value_realloc_11;
+                      return_value_realloc_11=realloc((void *)local_devices, (unsigned long int)max_count * sizeof(struct _drmDevice *) /*8ul*/ );
+                      temp = (struct _drmDevice **)return_value_realloc_11;
                       if(temp == ((struct _drmDevice **)NULL))
                         goto free_devices;
 
@@ -7025,11 +7025,11 @@ extern signed int drmGetDevice(signed int fd, struct _drmDevice **device)
           do
           {
             if(!(i >= node_count))
-              tmp_if_expr$12 = local_devices[(signed long int)i] != ((struct _drmDevice *)NULL) ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_12 = local_devices[(signed long int)i] != ((struct _drmDevice *)NULL) ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$12 = (_Bool)0;
-            if(!tmp_if_expr$12)
+              tmp_if_expr_12 = (_Bool)0;
+            if(!tmp_if_expr_12)
               break;
 
             drmFreeDevice(&local_devices[(signed long int)i]);
@@ -7069,9 +7069,9 @@ extern char * drmGetDeviceNameFromFd(signed int fd)
   for( ; !(i >= 16); i = i + 1)
   {
     snprintf(name, sizeof(char [128l]) /*128ul*/ , "%s/card%d", (const void *)"/dev/dri", i);
-    signed int return_value_stat$1;
-    return_value_stat$1=stat(name, &sbuf);
-    if(return_value_stat$1 == 0)
+    signed int return_value_stat_1;
+    return_value_stat_1=stat(name, &sbuf);
+    if(return_value_stat_1 == 0)
     {
       if(sbuf.st_rdev == d)
         break;
@@ -7084,9 +7084,9 @@ extern char * drmGetDeviceNameFromFd(signed int fd)
 
   else
   {
-    char *return_value_strdup$2;
-    return_value_strdup$2=strdup(name);
-    return return_value_strdup$2;
+    char *return_value_strdup_2;
+    return_value_strdup_2=strdup(name);
+    return return_value_strdup_2;
   }
 }
 
@@ -7109,10 +7109,10 @@ extern signed int drmGetDevices(struct _drmDevice **devices, signed int max_devi
   signed int node_count;
   signed int device_count;
   signed int max_count = 16;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)max_count, sizeof(struct _drmDevice *) /*8ul*/ );
-  local_devices = (struct _drmDevice **)return_value_calloc$1;
-  _Bool tmp_if_expr$7;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)max_count, sizeof(struct _drmDevice *) /*8ul*/ );
+  local_devices = (struct _drmDevice **)return_value_calloc_1;
+  _Bool tmp_if_expr_7;
   if(local_devices == ((struct _drmDevice **)NULL))
     return -12;
 
@@ -7121,9 +7121,9 @@ extern signed int drmGetDevices(struct _drmDevice **devices, signed int max_devi
     sysdir=opendir("/dev/dri");
     if(sysdir == ((struct __dirstream *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      ret = -(*return_value___errno_location$2);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      ret = -(*return_value___errno_location_2);
       goto free_locals;
     }
 
@@ -7138,16 +7138,16 @@ extern signed int drmGetDevices(struct _drmDevice **devices, signed int max_devi
       if(node_type >= 0)
       {
         snprintf(node, (unsigned long int)4096, "%s/%s", (const void *)"/dev/dri", (const void *)dent->d_name);
-        signed int return_value_stat$3;
-        return_value_stat$3=stat(node, &sbuf);
-        if(return_value_stat$3 == 0)
+        signed int return_value_stat_3;
+        return_value_stat_3=stat(node, &sbuf);
+        if(return_value_stat_3 == 0)
         {
-          unsigned int return_value_gnu_dev_major$4;
-          return_value_gnu_dev_major$4=gnu_dev_major(sbuf.st_rdev);
-          maj = (signed int)return_value_gnu_dev_major$4;
-          unsigned int return_value_gnu_dev_minor$5;
-          return_value_gnu_dev_minor$5=gnu_dev_minor(sbuf.st_rdev);
-          min = (signed int)return_value_gnu_dev_minor$5;
+          unsigned int return_value_gnu_dev_major_4;
+          return_value_gnu_dev_major_4=gnu_dev_major(sbuf.st_rdev);
+          maj = (signed int)return_value_gnu_dev_major_4;
+          unsigned int return_value_gnu_dev_minor_5;
+          return_value_gnu_dev_minor_5=gnu_dev_minor(sbuf.st_rdev);
+          min = (signed int)return_value_gnu_dev_minor_5;
           if((61440u & sbuf.st_mode) == 8192u && maj == 226)
           {
             subsystem_type=drmParseSubsystemType(maj, min);
@@ -7171,9 +7171,9 @@ extern signed int drmGetDevices(struct _drmDevice **devices, signed int max_devi
               {
                 struct _drmDevice **temp;
                 max_count = max_count + 16;
-                void *return_value_realloc$6;
-                return_value_realloc$6=realloc((void *)local_devices, (unsigned long int)max_count * sizeof(struct _drmDevice *) /*8ul*/ );
-                temp = (struct _drmDevice **)return_value_realloc$6;
+                void *return_value_realloc_6;
+                return_value_realloc_6=realloc((void *)local_devices, (unsigned long int)max_count * sizeof(struct _drmDevice *) /*8ul*/ );
+                temp = (struct _drmDevice **)return_value_realloc_6;
                 if(temp == ((struct _drmDevice **)NULL))
                   goto free_devices;
 
@@ -7199,11 +7199,11 @@ extern signed int drmGetDevices(struct _drmDevice **devices, signed int max_devi
     do
     {
       if(!(i >= node_count))
-        tmp_if_expr$7 = local_devices[(signed long int)i] != ((struct _drmDevice *)NULL) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = local_devices[(signed long int)i] != ((struct _drmDevice *)NULL) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(!tmp_if_expr$7)
+        tmp_if_expr_7 = (_Bool)0;
+      if(!tmp_if_expr_7)
         break;
 
       if(!(devices == ((struct _drmDevice **)NULL)) && !(device_count >= max_devices))
@@ -7242,13 +7242,13 @@ extern struct drmHashEntry * drmGetEntry(signed int fd)
   if(drmHashTable == NULL)
     drmHashTable=drmHashCreate();
 
-  signed int return_value_drmHashLookup$2;
-  return_value_drmHashLookup$2=drmHashLookup(drmHashTable, key, &value);
-  if(!(return_value_drmHashLookup$2 == 0))
+  signed int return_value_drmHashLookup_2;
+  return_value_drmHashLookup_2=drmHashLookup(drmHashTable, key, &value);
+  if(!(return_value_drmHashLookup_2 == 0))
   {
-    void *return_value_drmMalloc$1;
-    return_value_drmMalloc$1=drmMalloc((signed int)sizeof(struct drmHashEntry) /*24ul*/ );
-    entry = (struct drmHashEntry *)return_value_drmMalloc$1;
+    void *return_value_drmMalloc_1;
+    return_value_drmMalloc_1=drmMalloc((signed int)sizeof(struct drmHashEntry) /*24ul*/ );
+    entry = (struct drmHashEntry *)return_value_drmMalloc_1;
     entry->fd = fd;
     entry->f = (void (*)(signed int, void *, void *))(void *)0;
     entry->tagTable=drmHashCreate();
@@ -7276,13 +7276,13 @@ extern signed int drmGetInterruptFromBusID(signed int fd, signed int busnum, sig
   p.busnum = busnum;
   p.devnum = devnum;
   p.funcnum = funcnum;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x03 << 0)) | sizeof(struct drm_irq_busid) /*16ul*/  << 0 + 8 + 8, (void *)&p);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x03 << 0)) | sizeof(struct drm_irq_busid) /*16ul*/  << 0 + 8 + 8, (void *)&p);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -7299,14 +7299,14 @@ static unsigned long int drmGetKeyFromFd(signed int fd)
   return st.st_rdev;
 }
 
-// drmGetKeyFromFd$link1
+// drmGetKeyFromFd_link1
 // file ../xf86drm.c line 177
-static unsigned long int drmGetKeyFromFd$link1(signed int fd$link1)
+static unsigned long int drmGetKeyFromFd_link1(signed int fd_link1)
 {
-  struct stat st$link1;
-  st$link1.st_rdev = (unsigned long int)0;
-  fstat(fd$link1, &st$link1);
-  return st$link1.st_rdev;
+  struct stat st_link1;
+  st_link1.st_rdev = (unsigned long int)0;
+  fstat(fd_link1, &st_link1);
+  return st_link1.st_rdev;
 }
 
 // drmGetLibVersion
@@ -7314,9 +7314,9 @@ static unsigned long int drmGetKeyFromFd$link1(signed int fd$link1)
 extern struct _drmVersion * drmGetLibVersion(signed int fd)
 {
   struct drm_version *version;
-  void *return_value_drmMalloc$1;
-  return_value_drmMalloc$1=drmMalloc((signed int)sizeof(struct drm_version) /*64ul*/ );
-  version = (struct drm_version *)return_value_drmMalloc$1;
+  void *return_value_drmMalloc_1;
+  return_value_drmMalloc_1=drmMalloc((signed int)sizeof(struct drm_version) /*64ul*/ );
+  version = (struct drm_version *)return_value_drmMalloc_1;
   version->version_major = 1;
   version->version_minor = 3;
   version->version_patchlevel = 0;
@@ -7325,7 +7325,7 @@ extern struct _drmVersion * drmGetLibVersion(signed int fd)
 
 // drmGetLock
 // file ../xf86drm.c line 1453
-extern signed int drmGetLock(signed int fd, unsigned int context, enum anonymous$13 flags)
+extern signed int drmGetLock(signed int fd, unsigned int context, enum anonymous_13 flags)
 {
   struct drm_lock lock;
   memset((void *)&lock, 0, sizeof(struct drm_lock) /*8ul*/ );
@@ -7349,11 +7349,11 @@ extern signed int drmGetLock(signed int fd, unsigned int context, enum anonymous
   if(!((DRM_HALT_CUR_QUEUES & (signed int)flags) == 0))
     lock.flags = lock.flags | (enum drm_lock_flags)_DRM_HALT_CUR_QUEUES;
 
-  signed int return_value_drmIoctl$1;
+  signed int return_value_drmIoctl_1;
   do
   {
-    return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x2a << 0)) | sizeof(struct drm_lock) /*8ul*/  << 0 + 8 + 8, (void *)&lock);
-    if(return_value_drmIoctl$1 == 0)
+    return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x2a << 0)) | sizeof(struct drm_lock) /*8ul*/  << 0 + 8 + 8, (void *)&lock);
+    if(return_value_drmIoctl_1 == 0)
       break;
 
   }
@@ -7368,13 +7368,13 @@ extern signed int drmGetMagic(signed int fd, unsigned int *magic)
   struct drm_auth auth;
   memset((void *)&auth, 0, sizeof(struct drm_auth) /*4ul*/ );
   *magic = (unsigned int)0;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x02 << 0)) | sizeof(struct drm_auth) /*4ul*/  << 0 + 8 + 8, (void *)&auth);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x02 << 0)) | sizeof(struct drm_auth) /*4ul*/  << 0 + 8 + 8, (void *)&auth);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -7386,26 +7386,26 @@ extern signed int drmGetMagic(signed int fd, unsigned int *magic)
 
 // drmGetMap
 // file ../xf86drm.c line 2297
-extern signed int drmGetMap(signed int fd, signed int idx, unsigned int *offset, unsigned int *size, enum anonymous$6 *type, enum anonymous$7 *flags, unsigned int *handle, signed int *mtrr)
+extern signed int drmGetMap(signed int fd, signed int idx, unsigned int *offset, unsigned int *size, enum anonymous_6 *type, enum anonymous_7 *flags, unsigned int *handle, signed int *mtrr)
 {
   struct drm_map map;
   memset((void *)&map, 0, sizeof(struct drm_map) /*40ul*/ );
   map.offset = (unsigned long int)idx;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x04 << 0)) | sizeof(struct drm_map) /*40ul*/  << 0 + 8 + 8, (void *)&map);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x04 << 0)) | sizeof(struct drm_map) /*40ul*/  << 0 + 8 + 8, (void *)&map);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
   {
     *offset = (unsigned int)map.offset;
     *size = (unsigned int)map.size;
-    *type = (enum anonymous$6)map.type;
-    *flags = (enum anonymous$7)map.flags;
+    *type = (enum anonymous_6)map.type;
+    *flags = (enum anonymous_7)map.flags;
     *handle = (unsigned int)(unsigned long int)map.handle;
     *mtrr = map.mtrr;
     return 0;
@@ -7419,9 +7419,9 @@ static signed int drmGetMaxNodeName(void)
   return (signed int)(sizeof(char [9l]) /*9ul*/  + (sizeof(char [5l]) /*5ul*/  > sizeof(char [9l]) /*9ul*/  ? (sizeof(char [5l]) /*5ul*/  > sizeof(char [8l]) /*8ul*/  ? sizeof(char [5l]) /*5ul*/  : sizeof(char [8l]) /*8ul*/ ) : (sizeof(char [9l]) /*9ul*/  > sizeof(char [8l]) /*8ul*/  ? sizeof(char [9l]) /*9ul*/  : sizeof(char [8l]) /*8ul*/ )) + (unsigned long int)3);
 }
 
-// drmGetMaxNodeName$link1
+// drmGetMaxNodeName_link1
 // file ../xf86drm.c line 2939
-static signed int drmGetMaxNodeName$link1(void)
+static signed int drmGetMaxNodeName_link1(void)
 {
   return (signed int)(sizeof(char [9l]) /*9ul*/  + (sizeof(char [5l]) /*5ul*/  > sizeof(char [9l]) /*9ul*/  ? (sizeof(char [5l]) /*5ul*/  > sizeof(char [8l]) /*8ul*/  ? sizeof(char [5l]) /*5ul*/  : sizeof(char [8l]) /*8ul*/ ) : (sizeof(char [9l]) /*9ul*/  > sizeof(char [8l]) /*8ul*/  ? sizeof(char [9l]) /*9ul*/  : sizeof(char [8l]) /*8ul*/ )) + (unsigned long int)3);
 }
@@ -7443,11 +7443,11 @@ static signed int drmGetMinorBase(signed int type)
   }
 }
 
-// drmGetMinorBase$link1
+// drmGetMinorBase_link1
 // file ../xf86drm.c line 501
-static signed int drmGetMinorBase$link1(signed int type$link1)
+static signed int drmGetMinorBase_link1(signed int type_link1)
 {
-  switch(type$link1)
+  switch(type_link1)
   {
     case 0:
       return 0;
@@ -7477,11 +7477,11 @@ static const char * drmGetMinorName(signed int type)
   }
 }
 
-// drmGetMinorName$link1
+// drmGetMinorName_link1
 // file ../xf86drm.c line 532
-static const char * drmGetMinorName$link1(signed int type$link1)
+static const char * drmGetMinorName_link1(signed int type_link1)
 {
-  switch(type$link1)
+  switch(type_link1)
   {
     case 0:
       return "card";
@@ -7510,29 +7510,29 @@ static char * drmGetMinorNameForFD(signed int fd, signed int type)
   signed long int name_max;
   signed int maj;
   signed int min;
-  void *return_value_malloc$6;
-  signed int return_value_readdir_r$7;
+  void *return_value_malloc_6;
+  signed int return_value_readdir_r_7;
   if(name == ((const char *)NULL))
     return (char *)(void *)0;
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(name);
-    len = (signed int)return_value_strlen$1;
-    signed int return_value_fstat$2;
-    return_value_fstat$2=fstat(fd, &sbuf);
-    if(!(return_value_fstat$2 == 0))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(name);
+    len = (signed int)return_value_strlen_1;
+    signed int return_value_fstat_2;
+    return_value_fstat_2=fstat(fd, &sbuf);
+    if(!(return_value_fstat_2 == 0))
       return (char *)(void *)0;
 
     else
     {
-      unsigned int return_value_gnu_dev_major$3;
-      return_value_gnu_dev_major$3=gnu_dev_major(sbuf.st_rdev);
-      maj = (signed int)return_value_gnu_dev_major$3;
-      unsigned int return_value_gnu_dev_minor$4;
-      return_value_gnu_dev_minor$4=gnu_dev_minor(sbuf.st_rdev);
-      min = (signed int)return_value_gnu_dev_minor$4;
+      unsigned int return_value_gnu_dev_major_3;
+      return_value_gnu_dev_major_3=gnu_dev_major(sbuf.st_rdev);
+      maj = (signed int)return_value_gnu_dev_major_3;
+      unsigned int return_value_gnu_dev_minor_4;
+      return_value_gnu_dev_minor_4=gnu_dev_minor(sbuf.st_rdev);
+      min = (signed int)return_value_gnu_dev_minor_4;
       if(!((61440u & sbuf.st_mode) == 8192u) || !(maj == 226))
         return (char *)(void *)0;
 
@@ -7545,34 +7545,34 @@ static char * drmGetMinorNameForFD(signed int fd, signed int type)
 
         else
         {
-          signed int return_value_dirfd$5;
-          return_value_dirfd$5=dirfd(sysdir);
-          name_max=fpathconf(return_value_dirfd$5, 3);
+          signed int return_value_dirfd_5;
+          return_value_dirfd_5=dirfd(sysdir);
+          name_max=fpathconf(return_value_dirfd_5, 3);
           if(!(name_max == -1l))
           {
-            return_value_malloc$6=malloc(19ul + (unsigned long int)name_max + (unsigned long int)1);
-            pent = (struct dirent *)return_value_malloc$6;
+            return_value_malloc_6=malloc(19ul + (unsigned long int)name_max + (unsigned long int)1);
+            pent = (struct dirent *)return_value_malloc_6;
             if(!(pent == ((struct dirent *)NULL)))
             {
               do
               {
-                return_value_readdir_r$7=readdir_r(sysdir, pent, &ent);
-                if(!(return_value_readdir_r$7 == 0))
+                return_value_readdir_r_7=readdir_r(sysdir, pent, &ent);
+                if(!(return_value_readdir_r_7 == 0))
                   break;
 
                 if(ent == ((struct dirent *)NULL))
                   break;
 
-                signed int return_value_strncmp$9;
-                return_value_strncmp$9=strncmp(ent->d_name, name, (unsigned long int)len);
-                if(return_value_strncmp$9 == 0)
+                signed int return_value_strncmp_9;
+                return_value_strncmp_9=strncmp(ent->d_name, name, (unsigned long int)len);
+                if(return_value_strncmp_9 == 0)
                 {
                   snprintf(dev_name, sizeof(char [64l]) /*64ul*/ , "/dev/dri/%s", (const void *)ent->d_name);
                   free((void *)pent);
                   closedir(sysdir);
-                  char *return_value_strdup$8;
-                  return_value_strdup$8=strdup(dev_name);
-                  return return_value_strdup$8;
+                  char *return_value_strdup_8;
+                  return_value_strdup_8=strdup(dev_name);
+                  return return_value_strdup_8;
                 }
 
               }
@@ -7593,90 +7593,90 @@ static char * drmGetMinorNameForFD(signed int fd, signed int type)
   }
 }
 
-// drmGetMinorNameForFD$link1
+// drmGetMinorNameForFD_link1
 // file ../xf86drm.c line 2763
-static char * drmGetMinorNameForFD$link1(signed int fd$link1, signed int type$link1)
+static char * drmGetMinorNameForFD_link1(signed int fd_link1, signed int type_link1)
 {
-  struct __dirstream *sysdir$link1;
-  struct dirent *pent$link1;
-  struct dirent *ent$link1;
-  struct stat sbuf$link1;
-  const char *name$link1;
-  name$link1=drmGetMinorName$link1(type$link1);
-  signed int len$link1;
-  char dev_name$link1[64l];
-  char buf$link1[64l];
-  signed long int name_max$link1;
-  signed int maj$link1;
-  signed int min$link1;
-  void *return_value_malloc$6$link1;
-  signed int return_value_readdir_r$7$link1;
-  if(name$link1 == ((const char *)NULL))
+  struct __dirstream *sysdir_link1;
+  struct dirent *pent_link1;
+  struct dirent *ent_link1;
+  struct stat sbuf_link1;
+  const char *name_link1;
+  name_link1=drmGetMinorName_link1(type_link1);
+  signed int len_link1;
+  char dev_name_link1[64l];
+  char buf_link1[64l];
+  signed long int name_max_link1;
+  signed int maj_link1;
+  signed int min_link1;
+  void *return_value_malloc_6_link1;
+  signed int return_value_readdir_r_7_link1;
+  if(name_link1 == ((const char *)NULL))
     return (char *)(void *)0;
 
   else
   {
-    unsigned long int return_value_strlen$1$link1;
-    return_value_strlen$1$link1=strlen(name$link1);
-    len$link1 = (signed int)return_value_strlen$1$link1;
-    signed int return_value_fstat$2$link1;
-    return_value_fstat$2$link1=fstat(fd$link1, &sbuf$link1);
-    if(!(return_value_fstat$2$link1 == 0))
+    unsigned long int return_value_strlen_1_link1;
+    return_value_strlen_1_link1=strlen(name_link1);
+    len_link1 = (signed int)return_value_strlen_1_link1;
+    signed int return_value_fstat_2_link1;
+    return_value_fstat_2_link1=fstat(fd_link1, &sbuf_link1);
+    if(!(return_value_fstat_2_link1 == 0))
       return (char *)(void *)0;
 
     else
     {
-      unsigned int return_value_gnu_dev_major$3$link1;
-      return_value_gnu_dev_major$3$link1=gnu_dev_major(sbuf$link1.st_rdev);
-      maj$link1 = (signed int)return_value_gnu_dev_major$3$link1;
-      unsigned int return_value_gnu_dev_minor$4$link1;
-      return_value_gnu_dev_minor$4$link1=gnu_dev_minor(sbuf$link1.st_rdev);
-      min$link1 = (signed int)return_value_gnu_dev_minor$4$link1;
-      if(!((61440u & sbuf$link1.st_mode) == 8192u) || !(maj$link1 == 226))
+      unsigned int return_value_gnu_dev_major_3_link1;
+      return_value_gnu_dev_major_3_link1=gnu_dev_major(sbuf_link1.st_rdev);
+      maj_link1 = (signed int)return_value_gnu_dev_major_3_link1;
+      unsigned int return_value_gnu_dev_minor_4_link1;
+      return_value_gnu_dev_minor_4_link1=gnu_dev_minor(sbuf_link1.st_rdev);
+      min_link1 = (signed int)return_value_gnu_dev_minor_4_link1;
+      if(!((61440u & sbuf_link1.st_mode) == 8192u) || !(maj_link1 == 226))
         return (char *)(void *)0;
 
       else
       {
-        snprintf(buf$link1, sizeof(char [64l]) /*64ul*/ , "/sys/dev/char/%d:%d/device/drm", maj$link1, min$link1);
-        sysdir$link1=opendir(buf$link1);
-        if(sysdir$link1 == ((struct __dirstream *)NULL))
+        snprintf(buf_link1, sizeof(char [64l]) /*64ul*/ , "/sys/dev/char/%d:%d/device/drm", maj_link1, min_link1);
+        sysdir_link1=opendir(buf_link1);
+        if(sysdir_link1 == ((struct __dirstream *)NULL))
           return (char *)(void *)0;
 
         else
         {
-          signed int return_value_dirfd$5$link1;
-          return_value_dirfd$5$link1=dirfd(sysdir$link1);
-          name_max$link1=fpathconf(return_value_dirfd$5$link1, 3);
-          if(!(name_max$link1 == -1l))
+          signed int return_value_dirfd_5_link1;
+          return_value_dirfd_5_link1=dirfd(sysdir_link1);
+          name_max_link1=fpathconf(return_value_dirfd_5_link1, 3);
+          if(!(name_max_link1 == -1l))
           {
-            return_value_malloc$6$link1=malloc(19ul + (unsigned long int)name_max$link1 + (unsigned long int)1);
-            pent$link1 = (struct dirent *)return_value_malloc$6$link1;
-            if(!(pent$link1 == ((struct dirent *)NULL)))
+            return_value_malloc_6_link1=malloc(19ul + (unsigned long int)name_max_link1 + (unsigned long int)1);
+            pent_link1 = (struct dirent *)return_value_malloc_6_link1;
+            if(!(pent_link1 == ((struct dirent *)NULL)))
             {
               do
               {
-                return_value_readdir_r$7$link1=readdir_r(sysdir$link1, pent$link1, &ent$link1);
-                if(!(return_value_readdir_r$7$link1 == 0))
+                return_value_readdir_r_7_link1=readdir_r(sysdir_link1, pent_link1, &ent_link1);
+                if(!(return_value_readdir_r_7_link1 == 0))
                   break;
 
-                if(ent$link1 == ((struct dirent *)NULL))
+                if(ent_link1 == ((struct dirent *)NULL))
                   break;
 
-                signed int return_value_strncmp$9$link1;
-                return_value_strncmp$9$link1=strncmp(ent$link1->d_name, name$link1, (unsigned long int)len$link1);
-                if(return_value_strncmp$9$link1 == 0)
+                signed int return_value_strncmp_9_link1;
+                return_value_strncmp_9_link1=strncmp(ent_link1->d_name, name_link1, (unsigned long int)len_link1);
+                if(return_value_strncmp_9_link1 == 0)
                 {
-                  snprintf(dev_name$link1, sizeof(char [64l]) /*64ul*/ , "/dev/dri/%s", (const void *)ent$link1->d_name);
-                  free((void *)pent$link1);
-                  closedir(sysdir$link1);
-                  char *return_value_strdup$8$link1;
-                  return_value_strdup$8$link1=strdup(dev_name$link1);
-                  return return_value_strdup$8$link1;
+                  snprintf(dev_name_link1, sizeof(char [64l]) /*64ul*/ , "/dev/dri/%s", (const void *)ent_link1->d_name);
+                  free((void *)pent_link1);
+                  closedir(sysdir_link1);
+                  char *return_value_strdup_8_link1;
+                  return_value_strdup_8_link1=strdup(dev_name_link1);
+                  return return_value_strdup_8_link1;
                 }
 
               }
               while((_Bool)1);
-              free((void *)pent$link1);
+              free((void *)pent_link1);
             }
 
           }
@@ -7684,7 +7684,7 @@ static char * drmGetMinorNameForFD$link1(signed int fd$link1, signed int type$li
 
         out_close_dir:
           ;
-          closedir(sysdir$link1);
+          closedir(sysdir_link1);
           return (char *)(void *)0;
         }
       }
@@ -7709,18 +7709,18 @@ static signed int drmGetMinorType(signed int minor)
   }
 }
 
-// drmGetMinorType$link1
+// drmGetMinorType_link1
 // file ../xf86drm.c line 515
-static signed int drmGetMinorType$link1(signed int minor$link1)
+static signed int drmGetMinorType_link1(signed int minor_link1)
 {
-  signed int type$link1 = minor$link1 >> 6;
-  if(!(minor$link1 >= 0))
+  signed int type_link1 = minor_link1 >> 6;
+  if(!(minor_link1 >= 0))
     return -1;
 
   else
   {
-    if(type$link1 == 0 || type$link1 == 1 || type$link1 == 2)
-      return type$link1;
+    if(type_link1 == 0 || type_link1 == 1 || type_link1 == 2)
+      return type_link1;
 
     return -1;
   }
@@ -7730,23 +7730,23 @@ static signed int drmGetMinorType$link1(signed int minor$link1)
 // file ../xf86drm.c line 2922
 static signed int drmGetNodeType(const char *name)
 {
-  signed int return_value_strncmp$1;
-  return_value_strncmp$1=strncmp(name, "card", sizeof(char [5l]) /*5ul*/  - (unsigned long int)1);
-  if(return_value_strncmp$1 == 0)
+  signed int return_value_strncmp_1;
+  return_value_strncmp_1=strncmp(name, "card", sizeof(char [5l]) /*5ul*/  - (unsigned long int)1);
+  if(return_value_strncmp_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_strncmp$2;
-    return_value_strncmp$2=strncmp(name, "controlD", sizeof(char [9l]) /*9ul*/  - (unsigned long int)1);
-    if(return_value_strncmp$2 == 0)
+    signed int return_value_strncmp_2;
+    return_value_strncmp_2=strncmp(name, "controlD", sizeof(char [9l]) /*9ul*/  - (unsigned long int)1);
+    if(return_value_strncmp_2 == 0)
       return 1;
 
     else
     {
-      signed int return_value_strncmp$3;
-      return_value_strncmp$3=strncmp(name, "renderD", sizeof(char [8l]) /*8ul*/  - (unsigned long int)1);
-      if(return_value_strncmp$3 == 0)
+      signed int return_value_strncmp_3;
+      return_value_strncmp_3=strncmp(name, "renderD", sizeof(char [8l]) /*8ul*/  - (unsigned long int)1);
+      if(return_value_strncmp_3 == 0)
         return 2;
 
       else
@@ -7755,27 +7755,27 @@ static signed int drmGetNodeType(const char *name)
   }
 }
 
-// drmGetNodeType$link1
+// drmGetNodeType_link1
 // file ../xf86drm.c line 2922
-static signed int drmGetNodeType$link1(const char *name$link1)
+static signed int drmGetNodeType_link1(const char *name_link1)
 {
-  signed int return_value_strncmp$1$link1;
-  return_value_strncmp$1$link1=strncmp(name$link1, "card", sizeof(char [5l]) /*5ul*/  - (unsigned long int)1);
-  if(return_value_strncmp$1$link1 == 0)
+  signed int return_value_strncmp_1_link1;
+  return_value_strncmp_1_link1=strncmp(name_link1, "card", sizeof(char [5l]) /*5ul*/  - (unsigned long int)1);
+  if(return_value_strncmp_1_link1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_strncmp$2$link1;
-    return_value_strncmp$2$link1=strncmp(name$link1, "controlD", sizeof(char [9l]) /*9ul*/  - (unsigned long int)1);
-    if(return_value_strncmp$2$link1 == 0)
+    signed int return_value_strncmp_2_link1;
+    return_value_strncmp_2_link1=strncmp(name_link1, "controlD", sizeof(char [9l]) /*9ul*/  - (unsigned long int)1);
+    if(return_value_strncmp_2_link1 == 0)
       return 1;
 
     else
     {
-      signed int return_value_strncmp$3$link1;
-      return_value_strncmp$3$link1=strncmp(name$link1, "renderD", sizeof(char [8l]) /*8ul*/  - (unsigned long int)1);
-      if(return_value_strncmp$3$link1 == 0)
+      signed int return_value_strncmp_3_link1;
+      return_value_strncmp_3_link1=strncmp(name_link1, "renderD", sizeof(char [8l]) /*8ul*/  - (unsigned long int)1);
+      if(return_value_strncmp_3_link1 == 0)
         return 2;
 
       else
@@ -7792,33 +7792,33 @@ extern signed int drmGetNodeTypeFromFd(signed int fd)
   signed int maj;
   signed int min;
   signed int type;
-  signed int return_value_fstat$1;
-  return_value_fstat$1=fstat(fd, &sbuf);
-  signed int *return_value___errno_location$5;
-  if(!(return_value_fstat$1 == 0))
+  signed int return_value_fstat_1;
+  return_value_fstat_1=fstat(fd, &sbuf);
+  signed int *return_value___errno_location_5;
+  if(!(return_value_fstat_1 == 0))
     return -1;
 
   else
   {
-    unsigned int return_value_gnu_dev_major$2;
-    return_value_gnu_dev_major$2=gnu_dev_major(sbuf.st_rdev);
-    maj = (signed int)return_value_gnu_dev_major$2;
-    unsigned int return_value_gnu_dev_minor$3;
-    return_value_gnu_dev_minor$3=gnu_dev_minor(sbuf.st_rdev);
-    min = (signed int)return_value_gnu_dev_minor$3;
+    unsigned int return_value_gnu_dev_major_2;
+    return_value_gnu_dev_major_2=gnu_dev_major(sbuf.st_rdev);
+    maj = (signed int)return_value_gnu_dev_major_2;
+    unsigned int return_value_gnu_dev_minor_3;
+    return_value_gnu_dev_minor_3=gnu_dev_minor(sbuf.st_rdev);
+    min = (signed int)return_value_gnu_dev_minor_3;
     if(!((61440u & sbuf.st_mode) == 8192u) || !(maj == 226))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = 22;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = 22;
       return -1;
     }
 
     type=drmGetMinorType(min);
     if(type == -1)
     {
-      return_value___errno_location$5=__errno_location();
-      *return_value___errno_location$5 = 19;
+      return_value___errno_location_5=__errno_location();
+      *return_value___errno_location_5 = 19;
     }
 
     return type;
@@ -7829,18 +7829,18 @@ extern signed int drmGetNodeTypeFromFd(signed int fd)
 // file ../xf86drm.c line 2825
 extern char * drmGetPrimaryDeviceNameFromFd(signed int fd)
 {
-  char *return_value_drmGetMinorNameForFD$1;
-  return_value_drmGetMinorNameForFD$1=drmGetMinorNameForFD(fd, 0);
-  return return_value_drmGetMinorNameForFD$1;
+  char *return_value_drmGetMinorNameForFD_1;
+  return_value_drmGetMinorNameForFD_1=drmGetMinorNameForFD(fd, 0);
+  return return_value_drmGetMinorNameForFD_1;
 }
 
 // drmGetRenderDeviceNameFromFd
 // file ../xf86drm.c line 2830
 extern char * drmGetRenderDeviceNameFromFd(signed int fd)
 {
-  char *return_value_drmGetMinorNameForFD$1;
-  return_value_drmGetMinorNameForFD$1=drmGetMinorNameForFD(fd, 2);
-  return return_value_drmGetMinorNameForFD$1;
+  char *return_value_drmGetMinorNameForFD_1;
+  return_value_drmGetMinorNameForFD_1=drmGetMinorNameForFD(fd, 2);
+  return return_value_drmGetMinorNameForFD_1;
 }
 
 // drmGetReservedContextList
@@ -7852,9 +7852,9 @@ extern unsigned int * drmGetReservedContextList(signed int fd, signed int *count
   unsigned int *retval;
   signed int i;
   memset((void *)&res, 0, sizeof(struct drm_ctx_res) /*16ul*/ );
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x26 << 0)) | sizeof(struct drm_ctx_res) /*16ul*/  << 0 + 8 + 8, (void *)&res);
-  if(!(return_value_drmIoctl$1 == 0))
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x26 << 0)) | sizeof(struct drm_ctx_res) /*16ul*/  << 0 + 8 + 8, (void *)&res);
+  if(!(return_value_drmIoctl_1 == 0))
     return (unsigned int *)(void *)0;
 
   else
@@ -7863,17 +7863,17 @@ extern unsigned int * drmGetReservedContextList(signed int fd, signed int *count
 
     else
     {
-      void *return_value_drmMalloc$2;
-      return_value_drmMalloc$2=drmMalloc((signed int)((unsigned long int)res.count * sizeof(struct drm_ctx) /*8ul*/ ));
-      list = (struct drm_ctx *)return_value_drmMalloc$2;
+      void *return_value_drmMalloc_2;
+      return_value_drmMalloc_2=drmMalloc((signed int)((unsigned long int)res.count * sizeof(struct drm_ctx) /*8ul*/ ));
+      list = (struct drm_ctx *)return_value_drmMalloc_2;
       if(list == ((struct drm_ctx *)NULL))
         return (unsigned int *)(void *)0;
 
       else
       {
-        void *return_value_drmMalloc$3;
-        return_value_drmMalloc$3=drmMalloc((signed int)((unsigned long int)res.count * sizeof(unsigned int) /*4ul*/ ));
-        retval = (unsigned int *)return_value_drmMalloc$3;
+        void *return_value_drmMalloc_3;
+        return_value_drmMalloc_3=drmMalloc((signed int)((unsigned long int)res.count * sizeof(unsigned int) /*4ul*/ ));
+        retval = (unsigned int *)return_value_drmMalloc_3;
         if(retval == ((unsigned int *)NULL))
         {
           drmFree((void *)list);
@@ -7883,9 +7883,9 @@ extern unsigned int * drmGetReservedContextList(signed int fd, signed int *count
         else
         {
           res.contexts = list;
-          signed int return_value_drmIoctl$4;
-          return_value_drmIoctl$4=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x26 << 0)) | sizeof(struct drm_ctx_res) /*16ul*/  << 0 + 8 + 8, (void *)&res);
-          if(!(return_value_drmIoctl$4 == 0))
+          signed int return_value_drmIoctl_4;
+          return_value_drmIoctl_4=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x26 << 0)) | sizeof(struct drm_ctx_res) /*16ul*/  << 0 + 8 + 8, (void *)&res);
+          if(!(return_value_drmIoctl_4 == 0))
             return (unsigned int *)(void *)0;
 
           else
@@ -7909,13 +7909,13 @@ extern signed int drmGetStats(signed int fd, struct _drmStats *stats)
   struct drm_stats s;
   unsigned int i;
   memset((void *)&s, 0, sizeof(struct drm_stats) /*248ul*/ );
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x06 << 0)) | sizeof(struct drm_stats) /*248ul*/  << 0 + 8 + 8, (void *)&s);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x06 << 0)) | sizeof(struct drm_stats) /*248ul*/  << 0 + 8 + 8, (void *)&s);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -8126,16 +8126,16 @@ extern struct _drmVersion * drmGetVersion(signed int fd)
 {
   struct _drmVersion *retval;
   struct drm_version *version;
-  void *return_value_drmMalloc$1;
-  return_value_drmMalloc$1=drmMalloc((signed int)sizeof(struct drm_version) /*64ul*/ );
-  version = (struct drm_version *)return_value_drmMalloc$1;
+  void *return_value_drmMalloc_1;
+  return_value_drmMalloc_1=drmMalloc((signed int)sizeof(struct drm_version) /*64ul*/ );
+  version = (struct drm_version *)return_value_drmMalloc_1;
   memset((void *)&(*version), 0, sizeof(struct drm_version) /*64ul*/ );
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x00 << 0)) | sizeof(struct drm_version) /*64ul*/  << 0 + 8 + 8, (void *)version);
-  void *return_value_drmMalloc$3;
-  void *return_value_drmMalloc$4;
-  void *return_value_drmMalloc$5;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x00 << 0)) | sizeof(struct drm_version) /*64ul*/  << 0 + 8 + 8, (void *)version);
+  void *return_value_drmMalloc_3;
+  void *return_value_drmMalloc_4;
+  void *return_value_drmMalloc_5;
+  if(!(return_value_drmIoctl_2 == 0))
   {
     drmFreeKernelVersion(version);
     return (struct _drmVersion *)(void *)0;
@@ -8145,31 +8145,31 @@ extern struct _drmVersion * drmGetVersion(signed int fd)
   {
     if(!(version->name_len == 0ul))
     {
-      return_value_drmMalloc$3=drmMalloc((signed int)(version->name_len + (unsigned long int)1));
-      version->name = (char *)return_value_drmMalloc$3;
+      return_value_drmMalloc_3=drmMalloc((signed int)(version->name_len + (unsigned long int)1));
+      version->name = (char *)return_value_drmMalloc_3;
     }
 
     if(!(version->date_len == 0ul))
     {
-      return_value_drmMalloc$4=drmMalloc((signed int)(version->date_len + (unsigned long int)1));
-      version->date = (char *)return_value_drmMalloc$4;
+      return_value_drmMalloc_4=drmMalloc((signed int)(version->date_len + (unsigned long int)1));
+      version->date = (char *)return_value_drmMalloc_4;
     }
 
     if(!(version->desc_len == 0ul))
     {
-      return_value_drmMalloc$5=drmMalloc((signed int)(version->desc_len + (unsigned long int)1));
-      version->desc = (char *)return_value_drmMalloc$5;
+      return_value_drmMalloc_5=drmMalloc((signed int)(version->desc_len + (unsigned long int)1));
+      version->desc = (char *)return_value_drmMalloc_5;
     }
 
-    signed int return_value_drmIoctl$8;
-    return_value_drmIoctl$8=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x00 << 0)) | sizeof(struct drm_version) /*64ul*/  << 0 + 8 + 8, (void *)version);
-    if(!(return_value_drmIoctl$8 == 0))
+    signed int return_value_drmIoctl_8;
+    return_value_drmIoctl_8=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x00 << 0)) | sizeof(struct drm_version) /*64ul*/  << 0 + 8 + 8, (void *)version);
+    if(!(return_value_drmIoctl_8 == 0))
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      char *return_value_strerror$7;
-      return_value_strerror$7=strerror(*return_value___errno_location$6);
-      drmMsg("DRM_IOCTL_VERSION: %s\n", return_value_strerror$7);
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      char *return_value_strerror_7;
+      return_value_strerror_7=strerror(*return_value___errno_location_6);
+      drmMsg("DRM_IOCTL_VERSION: %s\n", return_value_strerror_7);
       drmFreeKernelVersion(version);
       return (struct _drmVersion *)(void *)0;
     }
@@ -8183,9 +8183,9 @@ extern struct _drmVersion * drmGetVersion(signed int fd)
     if(!(version->desc_len == 0ul))
       version->desc[(signed long int)version->desc_len] = (char)0;
 
-    void *return_value_drmMalloc$9;
-    return_value_drmMalloc$9=drmMalloc((signed int)sizeof(struct _drmVersion) /*56ul*/ );
-    retval = (struct _drmVersion *)return_value_drmMalloc$9;
+    void *return_value_drmMalloc_9;
+    return_value_drmMalloc_9=drmMalloc((signed int)sizeof(struct _drmVersion) /*56ul*/ );
+    retval = (struct _drmVersion *)return_value_drmMalloc_9;
     drmCopyVersion(retval, version);
     drmFreeKernelVersion(version);
     return retval;
@@ -8201,11 +8201,11 @@ extern signed int drmHandleEvent(signed int fd, struct _drmEventContext *evctx)
   signed int i;
   struct drm_event *e;
   struct drm_event_vblank *vblank;
-  signed long int return_value_read$1;
-  return_value_read$1=read(fd, (void *)buffer, sizeof(char [1024l]) /*1024ul*/ );
-  len = (signed int)return_value_read$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  signed long int return_value_read_1;
+  return_value_read_1=read(fd, (void *)buffer, sizeof(char [1024l]) /*1024ul*/ );
+  len = (signed int)return_value_read_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if(len == 0)
     return 0;
 
@@ -8224,11 +8224,11 @@ extern signed int drmHandleEvent(signed int fd, struct _drmEventContext *evctx)
           case (unsigned int)0x01:
           {
             if(!(evctx->version >= 1))
-              tmp_if_expr$2 = (_Bool)1;
+              tmp_if_expr_2 = (_Bool)1;
 
             else
-              tmp_if_expr$2 = evctx->vblank_handler == (void (*)(signed int, unsigned int, unsigned int, unsigned int, void *))(void *)0 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$2)
+              tmp_if_expr_2 = evctx->vblank_handler == (void (*)(signed int, unsigned int, unsigned int, unsigned int, void *))(void *)0 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_2)
               break;
 
             vblank = (struct drm_event_vblank *)e;
@@ -8237,11 +8237,11 @@ extern signed int drmHandleEvent(signed int fd, struct _drmEventContext *evctx)
           case (unsigned int)0x02:
           {
             if(!(evctx->version >= 2))
-              tmp_if_expr$3 = (_Bool)1;
+              tmp_if_expr_3 = (_Bool)1;
 
             else
-              tmp_if_expr$3 = evctx->page_flip_handler == (void (*)(signed int, unsigned int, unsigned int, unsigned int, void *))(void *)0 ? (_Bool)1 : (_Bool)0;
-            if(!tmp_if_expr$3)
+              tmp_if_expr_3 = evctx->page_flip_handler == (void (*)(signed int, unsigned int, unsigned int, unsigned int, void *))(void *)0 ? (_Bool)1 : (_Bool)0;
+            if(!tmp_if_expr_3)
             {
               vblank = (struct drm_event_vblank *)e;
               evctx->page_flip_handler(fd, vblank->sequence, vblank->tv_sec, vblank->tv_usec, (void *)(unsigned long int)vblank->user_data);
@@ -8260,9 +8260,9 @@ extern void * drmHashCreate(void)
 {
   struct HashTable *table;
   signed int i;
-  void *return_value_drmMalloc$1;
-  return_value_drmMalloc$1=drmMalloc((signed int)sizeof(struct HashTable) /*4152ul*/ );
-  table = (struct HashTable *)return_value_drmMalloc$1;
+  void *return_value_drmMalloc_1;
+  return_value_drmMalloc_1=drmMalloc((signed int)sizeof(struct HashTable) /*4152ul*/ );
+  table = (struct HashTable *)return_value_drmMalloc_1;
   if(table == ((struct HashTable *)NULL))
     return (void *)0;
 
@@ -8345,9 +8345,9 @@ extern signed int drmHashFirst(void *t, unsigned long int *key, void **value)
   {
     table->p0 = 0;
     table->p1 = table->buckets[(signed long int)0];
-    signed int return_value_drmHashNext$1;
-    return_value_drmHashNext$1=drmHashNext((void *)table, key, value);
-    return return_value_drmHashNext$1;
+    signed int return_value_drmHashNext_1;
+    return_value_drmHashNext_1=drmHashNext((void *)table, key, value);
+    return return_value_drmHashNext_1;
   }
 }
 
@@ -8363,16 +8363,16 @@ extern signed int drmHashInsert(void *t, unsigned long int key, void *value)
 
   else
   {
-    struct HashBucket *return_value_HashFind$1;
-    return_value_HashFind$1=HashFind(table, key, &hash);
-    if(!(return_value_HashFind$1 == ((struct HashBucket *)NULL)))
+    struct HashBucket *return_value_HashFind_1;
+    return_value_HashFind_1=HashFind(table, key, &hash);
+    if(!(return_value_HashFind_1 == ((struct HashBucket *)NULL)))
       return 1;
 
     else
     {
-      void *return_value_drmMalloc$2;
-      return_value_drmMalloc$2=drmMalloc((signed int)sizeof(struct HashBucket) /*24ul*/ );
-      bucket = (struct HashBucket *)return_value_drmMalloc$2;
+      void *return_value_drmMalloc_2;
+      return_value_drmMalloc_2=drmMalloc((signed int)sizeof(struct HashBucket) /*24ul*/ );
+      bucket = (struct HashBucket *)return_value_drmMalloc_2;
       if(bucket == ((struct HashBucket *)NULL))
         return -1;
 
@@ -8394,13 +8394,13 @@ extern signed int drmHashLookup(void *t, unsigned long int key, void **value)
 {
   struct HashTable *table = (struct HashTable *)t;
   struct HashBucket *bucket;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(table == ((struct HashTable *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = table->magic != (unsigned long int)0xdeadbeef ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = table->magic != (unsigned long int)0xdeadbeef ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return -1;
 
   else
@@ -8442,31 +8442,31 @@ extern signed int drmHashNext(void *t, unsigned long int *key, void **value)
 extern signed int drmIoctl(signed int fd, unsigned long int request, void *arg)
 {
   signed int ret;
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$1;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_1;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   do
   {
     ret=ioctl(fd, request, arg);
     if(ret == -1)
     {
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 4)
-        tmp_if_expr$3 = (_Bool)1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 4)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$2=__errno_location();
-        tmp_if_expr$3 = *return_value___errno_location$2 == 11 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_2=__errno_location();
+        tmp_if_expr_3 = *return_value___errno_location_2 == 11 ? (_Bool)1 : (_Bool)0;
       }
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
+      tmp_if_expr_4 = (_Bool)0;
   }
-  while(tmp_if_expr$4);
+  while(tmp_if_expr_4);
   return ret;
 }
 
@@ -8474,17 +8474,17 @@ extern signed int drmIoctl(signed int fd, unsigned long int request, void *arg)
 // file ../xf86drm.c line 153
 extern void * drmMalloc(signed int size)
 {
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, (unsigned long int)size);
-  return return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, (unsigned long int)size);
+  return return_value_calloc_1;
 }
 
 // drmMap
 // file ../xf86drm.c line 1250
 extern signed int drmMap(signed int fd, unsigned int handle, unsigned int size, void **address)
 {
-  signed int return_value_getpagesize$1;
-  signed int *return_value___errno_location$2;
+  signed int return_value_getpagesize_1;
+  signed int *return_value___errno_location_2;
   if(!(fd >= 0))
     return -22;
 
@@ -8493,16 +8493,16 @@ extern signed int drmMap(signed int fd, unsigned int handle, unsigned int size, 
     static unsigned long int pagesize_mask = (unsigned long int)0;
     if(pagesize_mask == 0ul)
     {
-      return_value_getpagesize$1=getpagesize();
-      pagesize_mask = (unsigned long int)(return_value_getpagesize$1 - 1);
+      return_value_getpagesize_1=getpagesize();
+      pagesize_mask = (unsigned long int)(return_value_getpagesize_1 - 1);
     }
 
     size = (unsigned int)((unsigned long int)size + pagesize_mask & ~pagesize_mask);
     *address=mmap(NULL, (unsigned long int)size, 0x1 | 0x2, 0x01, fd, (signed long int)handle);
     if(*address == (void *)-1)
     {
-      return_value___errno_location$2=__errno_location();
-      return -(*return_value___errno_location$2);
+      return_value___errno_location_2=__errno_location();
+      return -(*return_value___errno_location_2);
     }
 
     else
@@ -8518,9 +8518,9 @@ extern struct _drmBufMap * drmMapBufs(signed int fd)
   struct _drmBufMap *retval;
   signed int i;
   memset((void *)&bufs, 0, sizeof(struct drm_buf_map) /*24ul*/ );
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x19 << 0)) | sizeof(struct drm_buf_map) /*24ul*/  << 0 + 8 + 8, (void *)&bufs);
-  if(!(return_value_drmIoctl$1 == 0))
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x19 << 0)) | sizeof(struct drm_buf_map) /*24ul*/  << 0 + 8 + 8, (void *)&bufs);
+  if(!(return_value_drmIoctl_1 == 0))
     return (struct _drmBufMap *)(void *)0;
 
   else
@@ -8529,17 +8529,17 @@ extern struct _drmBufMap * drmMapBufs(signed int fd)
 
     else
     {
-      void *return_value_drmMalloc$2;
-      return_value_drmMalloc$2=drmMalloc((signed int)((unsigned long int)bufs.count * sizeof(struct drm_buf_pub) /*24ul*/ ));
-      bufs.list = (struct drm_buf_pub *)return_value_drmMalloc$2;
+      void *return_value_drmMalloc_2;
+      return_value_drmMalloc_2=drmMalloc((signed int)((unsigned long int)bufs.count * sizeof(struct drm_buf_pub) /*24ul*/ ));
+      bufs.list = (struct drm_buf_pub *)return_value_drmMalloc_2;
       if(bufs.list == ((struct drm_buf_pub *)NULL))
         return (struct _drmBufMap *)(void *)0;
 
       else
       {
-        signed int return_value_drmIoctl$3;
-        return_value_drmIoctl$3=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x19 << 0)) | sizeof(struct drm_buf_map) /*24ul*/  << 0 + 8 + 8, (void *)&bufs);
-        if(!(return_value_drmIoctl$3 == 0))
+        signed int return_value_drmIoctl_3;
+        return_value_drmIoctl_3=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x19 << 0)) | sizeof(struct drm_buf_map) /*24ul*/  << 0 + 8 + 8, (void *)&bufs);
+        if(!(return_value_drmIoctl_3 == 0))
         {
           drmFree((void *)bufs.list);
           return (struct _drmBufMap *)(void *)0;
@@ -8547,13 +8547,13 @@ extern struct _drmBufMap * drmMapBufs(signed int fd)
 
         else
         {
-          void *return_value_drmMalloc$4;
-          return_value_drmMalloc$4=drmMalloc((signed int)sizeof(struct _drmBufMap) /*16ul*/ );
-          retval = (struct _drmBufMap *)return_value_drmMalloc$4;
+          void *return_value_drmMalloc_4;
+          return_value_drmMalloc_4=drmMalloc((signed int)sizeof(struct _drmBufMap) /*16ul*/ );
+          retval = (struct _drmBufMap *)return_value_drmMalloc_4;
           retval->count = bufs.count;
-          void *return_value_drmMalloc$5;
-          return_value_drmMalloc$5=drmMalloc((signed int)((unsigned long int)bufs.count * sizeof(struct _drmBuf) /*24ul*/ ));
-          retval->list = (struct _drmBuf *)return_value_drmMalloc$5;
+          void *return_value_drmMalloc_5;
+          return_value_drmMalloc_5=drmMalloc((signed int)((unsigned long int)bufs.count * sizeof(struct _drmBuf) /*24ul*/ ));
+          retval->list = (struct _drmBuf *)return_value_drmMalloc_5;
           i = 0;
           for( ; !(i >= bufs.count); i = i + 1)
           {
@@ -8576,9 +8576,9 @@ extern signed int drmMarkBufs(signed int fd, double low, double high)
   struct drm_buf_info info;
   signed int i;
   memset((void *)&info, 0, sizeof(struct drm_buf_info) /*16ul*/ );
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x18 << 0)) | sizeof(struct drm_buf_info) /*16ul*/  << 0 + 8 + 8, (void *)&info);
-  if(!(return_value_drmIoctl$1 == 0))
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x18 << 0)) | sizeof(struct drm_buf_info) /*16ul*/  << 0 + 8 + 8, (void *)&info);
+  if(!(return_value_drmIoctl_1 == 0))
     return -22;
 
   else
@@ -8587,22 +8587,22 @@ extern signed int drmMarkBufs(signed int fd, double low, double high)
 
     else
     {
-      void *return_value_drmMalloc$2;
-      return_value_drmMalloc$2=drmMalloc((signed int)((unsigned long int)info.count * sizeof(struct drm_buf_desc) /*32ul*/ ));
-      info.list = (struct drm_buf_desc *)return_value_drmMalloc$2;
+      void *return_value_drmMalloc_2;
+      return_value_drmMalloc_2=drmMalloc((signed int)((unsigned long int)info.count * sizeof(struct drm_buf_desc) /*32ul*/ ));
+      info.list = (struct drm_buf_desc *)return_value_drmMalloc_2;
       if(info.list == ((struct drm_buf_desc *)NULL))
         return -12;
 
       else
       {
-        signed int return_value_drmIoctl$4;
-        return_value_drmIoctl$4=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x18 << 0)) | sizeof(struct drm_buf_info) /*16ul*/  << 0 + 8 + 8, (void *)&info);
-        if(!(return_value_drmIoctl$4 == 0))
+        signed int return_value_drmIoctl_4;
+        return_value_drmIoctl_4=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x18 << 0)) | sizeof(struct drm_buf_info) /*16ul*/  << 0 + 8 + 8, (void *)&info);
+        if(!(return_value_drmIoctl_4 == 0))
         {
           signed int retval;
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          retval = -(*return_value___errno_location$3);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          retval = -(*return_value___errno_location_3);
           drmFree((void *)info.list);
           return retval;
         }
@@ -8612,16 +8612,16 @@ extern signed int drmMarkBufs(signed int fd, double low, double high)
         {
           (info.list + (signed long int)i)->low_mark = (signed int)(low * (double)(info.list + (signed long int)i)->count);
           (info.list + (signed long int)i)->high_mark = (signed int)(high * (double)(info.list + (signed long int)i)->count);
-          signed int return_value_drmIoctl$6;
-          return_value_drmIoctl$6=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x17 << 0)) | sizeof(struct drm_buf_desc) /*32ul*/  << 0 + 8 + 8, (void *)&info.list[(signed long int)i]);
-          if(!(return_value_drmIoctl$6 == 0))
+          signed int return_value_drmIoctl_6;
+          return_value_drmIoctl_6=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x17 << 0)) | sizeof(struct drm_buf_desc) /*32ul*/  << 0 + 8 + 8, (void *)&info.list[(signed long int)i]);
+          if(!(return_value_drmIoctl_6 == 0))
           {
-            signed int drmMarkBufs$$1$$2$$1$$1$$retval;
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            drmMarkBufs$$1$$2$$1$$1$$retval = -(*return_value___errno_location$5);
+            signed int drmMarkBufs__1__2__1__1__retval;
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            drmMarkBufs__1__2__1__1__retval = -(*return_value___errno_location_5);
             drmFree((void *)info.list);
-            return drmMarkBufs$$1$$2$$1$$1$$retval;
+            return drmMarkBufs__1__2__1__1__retval;
           }
 
         }
@@ -8635,16 +8635,16 @@ extern signed int drmMarkBufs(signed int fd, double low, double high)
 // file ../xf86drm.c line 220
 static signed int drmMatchBusID(const char *id1, const char *id2, signed int pci_domain_ok)
 {
-  signed int return_value_strcasecmp$1;
-  return_value_strcasecmp$1=strcasecmp(id1, id2);
-  if(return_value_strcasecmp$1 == 0)
+  signed int return_value_strcasecmp_1;
+  return_value_strcasecmp_1=strcasecmp(id1, id2);
+  if(return_value_strcasecmp_1 == 0)
     return 1;
 
   else
   {
-    signed int return_value_strncasecmp$2;
-    return_value_strncasecmp$2=strncasecmp(id1, "pci", (unsigned long int)3);
-    if(return_value_strncasecmp$2 == 0)
+    signed int return_value_strncasecmp_2;
+    return_value_strncasecmp_2=strncasecmp(id1, "pci", (unsigned long int)3);
+    if(return_value_strncasecmp_2 == 0)
     {
       unsigned int o1;
       unsigned int b1;
@@ -8692,57 +8692,57 @@ static signed int drmMatchBusID(const char *id1, const char *id2, signed int pci
   }
 }
 
-// drmMatchBusID$link1
+// drmMatchBusID_link1
 // file ../xf86drm.c line 220
-static signed int drmMatchBusID$link1(const char *id1$link1, const char *id2$link1, signed int pci_domain_ok$link1)
+static signed int drmMatchBusID_link1(const char *id1_link1, const char *id2_link1, signed int pci_domain_ok_link1)
 {
-  signed int return_value_strcasecmp$1$link1;
-  return_value_strcasecmp$1$link1=strcasecmp(id1$link1, id2$link1);
-  if(return_value_strcasecmp$1$link1 == 0)
+  signed int return_value_strcasecmp_1_link1;
+  return_value_strcasecmp_1_link1=strcasecmp(id1_link1, id2_link1);
+  if(return_value_strcasecmp_1_link1 == 0)
     return 1;
 
   else
   {
-    signed int return_value_strncasecmp$2$link1;
-    return_value_strncasecmp$2$link1=strncasecmp(id1$link1, "pci", (unsigned long int)3);
-    if(return_value_strncasecmp$2$link1 == 0)
+    signed int return_value_strncasecmp_2_link1;
+    return_value_strncasecmp_2_link1=strncasecmp(id1_link1, "pci", (unsigned long int)3);
+    if(return_value_strncasecmp_2_link1 == 0)
     {
-      unsigned int o1$link1;
-      unsigned int b1$link1;
-      unsigned int d1$link1;
-      unsigned int f1$link1;
-      unsigned int o2$link1;
-      unsigned int b2$link1;
-      unsigned int d2$link1;
-      unsigned int f2$link1;
-      signed int ret$link1;
-      ret$link1=sscanf(id1$link1, "pci:%04x:%02x:%02x.%u", &o1$link1, &b1$link1, &d1$link1, &f1$link1);
-      if(!(ret$link1 == 4))
+      unsigned int o1_link1;
+      unsigned int b1_link1;
+      unsigned int d1_link1;
+      unsigned int f1_link1;
+      unsigned int o2_link1;
+      unsigned int b2_link1;
+      unsigned int d2_link1;
+      unsigned int f2_link1;
+      signed int ret_link1;
+      ret_link1=sscanf(id1_link1, "pci:%04x:%02x:%02x.%u", &o1_link1, &b1_link1, &d1_link1, &f1_link1);
+      if(!(ret_link1 == 4))
       {
-        o1$link1 = (unsigned int)0;
-        ret$link1=sscanf(id1$link1, "PCI:%u:%u:%u", &b1$link1, &d1$link1, &f1$link1);
-        if(!(ret$link1 == 3))
+        o1_link1 = (unsigned int)0;
+        ret_link1=sscanf(id1_link1, "PCI:%u:%u:%u", &b1_link1, &d1_link1, &f1_link1);
+        if(!(ret_link1 == 3))
           return 0;
 
       }
 
-      ret$link1=sscanf(id2$link1, "pci:%04x:%02x:%02x.%u", &o2$link1, &b2$link1, &d2$link1, &f2$link1);
-      if(!(ret$link1 == 4))
+      ret_link1=sscanf(id2_link1, "pci:%04x:%02x:%02x.%u", &o2_link1, &b2_link1, &d2_link1, &f2_link1);
+      if(!(ret_link1 == 4))
       {
-        o2$link1 = (unsigned int)0;
-        ret$link1=sscanf(id2$link1, "PCI:%u:%u:%u", &b2$link1, &d2$link1, &f2$link1);
-        if(!(ret$link1 == 3))
+        o2_link1 = (unsigned int)0;
+        ret_link1=sscanf(id2_link1, "PCI:%u:%u:%u", &b2_link1, &d2_link1, &f2_link1);
+        if(!(ret_link1 == 3))
           return 0;
 
       }
 
-      if(pci_domain_ok$link1 == 0)
+      if(pci_domain_ok_link1 == 0)
       {
-        o2$link1 = (unsigned int)0;
-        o1$link1 = o2$link1;
+        o2_link1 = (unsigned int)0;
+        o1_link1 = o2_link1;
       }
 
-      if(!(b1$link1 == b2$link1) || !(d1$link1 == d2$link1) || !(f1$link1 == f2$link1) || !(o1$link1 == o2$link1))
+      if(!(b1_link1 == b2_link1) || !(d1_link1 == d2_link1) || !(f1_link1 == f2_link1) || !(o1_link1 == o2_link1))
         return 0;
 
       else
@@ -8815,9 +8815,9 @@ extern signed int drmModeAtomicAddProperty(struct _drmModeAtomicReq *req, unsign
     {
       struct _drmModeAtomicReqItem *new;
       req->size_items = req->size_items + (unsigned int)16;
-      void *return_value_realloc$1;
-      return_value_realloc$1=realloc((void *)req->items, (unsigned long int)req->size_items * sizeof(struct _drmModeAtomicReqItem) /*16ul*/ );
-      new = (struct _drmModeAtomicReqItem *)return_value_realloc$1;
+      void *return_value_realloc_1;
+      return_value_realloc_1=realloc((void *)req->items, (unsigned long int)req->size_items * sizeof(struct _drmModeAtomicReqItem) /*16ul*/ );
+      new = (struct _drmModeAtomicReqItem *)return_value_realloc_1;
       if(new == ((struct _drmModeAtomicReqItem *)NULL))
       {
         req->size_items = req->size_items - (unsigned int)16;
@@ -8840,9 +8840,9 @@ extern signed int drmModeAtomicAddProperty(struct _drmModeAtomicReq *req, unsign
 extern struct _drmModeAtomicReq * drmModeAtomicAlloc(void)
 {
   struct _drmModeAtomicReq *req;
-  void *return_value_drmMalloc$1;
-  return_value_drmMalloc$1=drmMalloc((signed int)sizeof(struct _drmModeAtomicReq) /*16ul*/ );
-  req = (struct _drmModeAtomicReq *)return_value_drmMalloc$1;
+  void *return_value_drmMalloc_1;
+  return_value_drmMalloc_1=drmMalloc((signed int)sizeof(struct _drmModeAtomicReq) /*16ul*/ );
+  req = (struct _drmModeAtomicReq *)return_value_drmMalloc_1;
   if(req == ((struct _drmModeAtomicReq *)NULL))
     return (struct _drmModeAtomicReq *)(void *)0;
 
@@ -8869,7 +8869,7 @@ extern signed int drmModeAtomicCommit(signed int fd, struct _drmModeAtomicReq *r
   unsigned int i;
   signed int obj_idx = -1;
   signed int ret = -1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(req == ((struct _drmModeAtomicReq *)NULL))
     return -22;
 
@@ -8899,11 +8899,11 @@ extern signed int drmModeAtomicCommit(signed int fd, struct _drmModeAtomicReq *r
           if(!(i == sorted->cursor + 4294967295u))
           {
             if(!((sorted->items + (signed long int)i)->object_id == (sorted->items + (signed long int)(1u + i))->object_id))
-              tmp_if_expr$1 = (_Bool)1;
+              tmp_if_expr_1 = (_Bool)1;
 
             else
-              tmp_if_expr$1 = (sorted->items + (signed long int)i)->property_id != (sorted->items + (signed long int)(i + (unsigned int)1))->property_id ? (_Bool)1 : (_Bool)0;
-            if(!tmp_if_expr$1)
+              tmp_if_expr_1 = (sorted->items + (signed long int)i)->property_id != (sorted->items + (signed long int)(i + (unsigned int)1))->property_id ? (_Bool)1 : (_Bool)0;
+            if(!tmp_if_expr_1)
             {
               memmove((void *)&sorted->items[(signed long int)i], (const void *)&sorted->items[(signed long int)(i + (unsigned int)1)], (unsigned long int)((sorted->cursor - i) - (unsigned int)1) * sizeof(struct _drmModeAtomicReqItem) /*16ul*/ );
               sorted->cursor = sorted->cursor - 1u;
@@ -8912,47 +8912,47 @@ extern signed int drmModeAtomicCommit(signed int fd, struct _drmModeAtomicReq *r
           }
 
         }
-        void *return_value_drmMalloc$2;
-        return_value_drmMalloc$2=drmMalloc((signed int)((unsigned long int)atomic.count_objs * sizeof(unsigned int) /*4ul*/ ));
-        objs_ptr = (unsigned int *)return_value_drmMalloc$2;
+        void *return_value_drmMalloc_2;
+        return_value_drmMalloc_2=drmMalloc((signed int)((unsigned long int)atomic.count_objs * sizeof(unsigned int) /*4ul*/ ));
+        objs_ptr = (unsigned int *)return_value_drmMalloc_2;
         if(objs_ptr == ((unsigned int *)NULL))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          *return_value___errno_location$3 = 12;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          *return_value___errno_location_3 = 12;
           goto out;
         }
 
-        void *return_value_drmMalloc$4;
-        return_value_drmMalloc$4=drmMalloc((signed int)((unsigned long int)atomic.count_objs * sizeof(unsigned int) /*4ul*/ ));
-        count_props_ptr = (unsigned int *)return_value_drmMalloc$4;
+        void *return_value_drmMalloc_4;
+        return_value_drmMalloc_4=drmMalloc((signed int)((unsigned long int)atomic.count_objs * sizeof(unsigned int) /*4ul*/ ));
+        count_props_ptr = (unsigned int *)return_value_drmMalloc_4;
         if(count_props_ptr == ((unsigned int *)NULL))
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          *return_value___errno_location$5 = 12;
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          *return_value___errno_location_5 = 12;
           goto out;
         }
 
-        void *return_value_drmMalloc$6;
-        return_value_drmMalloc$6=drmMalloc((signed int)((unsigned long int)sorted->cursor * sizeof(unsigned int) /*4ul*/ ));
-        props_ptr = (unsigned int *)return_value_drmMalloc$6;
+        void *return_value_drmMalloc_6;
+        return_value_drmMalloc_6=drmMalloc((signed int)((unsigned long int)sorted->cursor * sizeof(unsigned int) /*4ul*/ ));
+        props_ptr = (unsigned int *)return_value_drmMalloc_6;
         if(props_ptr == ((unsigned int *)NULL))
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          *return_value___errno_location$7 = 12;
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          *return_value___errno_location_7 = 12;
           goto out;
         }
 
-        void *return_value_drmMalloc$8;
-        return_value_drmMalloc$8=drmMalloc((signed int)((unsigned long int)sorted->cursor * sizeof(unsigned long int) /*8ul*/ ));
-        prop_values_ptr = (unsigned long int *)return_value_drmMalloc$8;
+        void *return_value_drmMalloc_8;
+        return_value_drmMalloc_8=drmMalloc((signed int)((unsigned long int)sorted->cursor * sizeof(unsigned long int) /*8ul*/ ));
+        prop_values_ptr = (unsigned long int *)return_value_drmMalloc_8;
         if(prop_values_ptr == ((unsigned long int *)NULL))
         {
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          *return_value___errno_location$9 = 12;
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          *return_value___errno_location_9 = 12;
           goto out;
         }
 
@@ -9001,9 +9001,9 @@ extern struct _drmModeAtomicReq * drmModeAtomicDuplicate(struct _drmModeAtomicRe
 
   else
   {
-    void *return_value_drmMalloc$1;
-    return_value_drmMalloc$1=drmMalloc((signed int)sizeof(struct _drmModeAtomicReq) /*16ul*/ );
-    new = (struct _drmModeAtomicReq *)return_value_drmMalloc$1;
+    void *return_value_drmMalloc_1;
+    return_value_drmMalloc_1=drmMalloc((signed int)sizeof(struct _drmModeAtomicReq) /*16ul*/ );
+    new = (struct _drmModeAtomicReq *)return_value_drmMalloc_1;
     if(new == ((struct _drmModeAtomicReq *)NULL))
       return (struct _drmModeAtomicReq *)(void *)0;
 
@@ -9013,9 +9013,9 @@ extern struct _drmModeAtomicReq * drmModeAtomicDuplicate(struct _drmModeAtomicRe
       new->size_items = old->size_items;
       if(!(old->size_items == 0u))
       {
-        void *return_value_drmMalloc$2;
-        return_value_drmMalloc$2=drmMalloc((signed int)((unsigned long int)old->size_items * sizeof(struct _drmModeAtomicReqItem) /*16ul*/ ));
-        new->items = (struct _drmModeAtomicReqItem *)return_value_drmMalloc$2;
+        void *return_value_drmMalloc_2;
+        return_value_drmMalloc_2=drmMalloc((signed int)((unsigned long int)old->size_items * sizeof(struct _drmModeAtomicReqItem) /*16ul*/ ));
+        new->items = (struct _drmModeAtomicReqItem *)return_value_drmMalloc_2;
         if(new->items == ((struct _drmModeAtomicReqItem *)NULL))
         {
           free((void *)new);
@@ -9061,18 +9061,18 @@ extern signed int drmModeAtomicGetCursor(struct _drmModeAtomicReq *req)
 // file ../xf86drmMode.c line 1220
 extern signed int drmModeAtomicMerge(struct _drmModeAtomicReq *base, struct _drmModeAtomicReq *augment)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(base == ((struct _drmModeAtomicReq *)NULL))
     return -22;
 
   else
   {
     if(augment == ((struct _drmModeAtomicReq *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = augment->cursor == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = augment->cursor == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return 0;
 
     else
@@ -9082,9 +9082,9 @@ extern signed int drmModeAtomicMerge(struct _drmModeAtomicReq *base, struct _drm
         struct _drmModeAtomicReqItem *new;
         signed int saved_size = (signed int)base->size_items;
         base->size_items = base->cursor + augment->cursor;
-        void *return_value_realloc$2;
-        return_value_realloc$2=realloc((void *)base->items, (unsigned long int)base->size_items * sizeof(struct _drmModeAtomicReqItem) /*16ul*/ );
-        new = (struct _drmModeAtomicReqItem *)return_value_realloc$2;
+        void *return_value_realloc_2;
+        return_value_realloc_2=realloc((void *)base->items, (unsigned long int)base->size_items * sizeof(struct _drmModeAtomicReqItem) /*16ul*/ );
+        new = (struct _drmModeAtomicReqItem *)return_value_realloc_2;
         if(new == ((struct _drmModeAtomicReqItem *)NULL))
         {
           base->size_items = (unsigned int)saved_size;
@@ -9118,9 +9118,9 @@ extern signed int drmModeAttachMode(signed int fd, unsigned int connector_id, st
   memset((void *)&res, 0, sizeof(struct drm_mode_mode_cmd) /*72ul*/ );
   memcpy((void *)&res.mode, (const void *)mode_info, sizeof(struct drm_mode_modeinfo) /*68ul*/ );
   res.connector_id = connector_id;
-  signed int return_value_DRM_IOCTL$1;
-  return_value_DRM_IOCTL$1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA8 << 0)) | sizeof(struct drm_mode_mode_cmd) /*72ul*/  << 0 + 8 + 8, (void *)&res);
-  return return_value_DRM_IOCTL$1;
+  signed int return_value_DRM_IOCTL_1;
+  return_value_DRM_IOCTL_1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA8 << 0)) | sizeof(struct drm_mode_mode_cmd) /*72ul*/  << 0 + 8 + 8, (void *)&res);
+  return return_value_DRM_IOCTL_1;
 }
 
 // drmModeConnectorSetProperty
@@ -9132,9 +9132,9 @@ extern signed int drmModeConnectorSetProperty(signed int fd, unsigned int connec
   osp.connector_id = connector_id;
   osp.prop_id = property_id;
   osp.value = value;
-  signed int return_value_DRM_IOCTL$1;
-  return_value_DRM_IOCTL$1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xAB << 0)) | sizeof(struct drm_mode_connector_set_property) /*16ul*/  << 0 + 8 + 8, (void *)&osp);
-  return return_value_DRM_IOCTL$1;
+  signed int return_value_DRM_IOCTL_1;
+  return_value_DRM_IOCTL_1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xAB << 0)) | sizeof(struct drm_mode_connector_set_property) /*16ul*/  << 0 + 8 + 8, (void *)&osp);
+  return return_value_DRM_IOCTL_1;
 }
 
 // drmModeCreatePropertyBlob
@@ -9176,9 +9176,9 @@ extern signed int drmModeCrtcGetGamma(signed int fd, unsigned int crtc_id, unsig
   l.red = (unsigned long int)red;
   l.green = (unsigned long int)green;
   l.blue = (unsigned long int)blue;
-  signed int return_value_DRM_IOCTL$1;
-  return_value_DRM_IOCTL$1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA4 << 0)) | sizeof(struct drm_mode_crtc_lut) /*32ul*/  << 0 + 8 + 8, (void *)&l);
-  return return_value_DRM_IOCTL$1;
+  signed int return_value_DRM_IOCTL_1;
+  return_value_DRM_IOCTL_1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA4 << 0)) | sizeof(struct drm_mode_crtc_lut) /*32ul*/  << 0 + 8 + 8, (void *)&l);
+  return return_value_DRM_IOCTL_1;
 }
 
 // drmModeCrtcSetGamma
@@ -9192,9 +9192,9 @@ extern signed int drmModeCrtcSetGamma(signed int fd, unsigned int crtc_id, unsig
   l.red = (unsigned long int)red;
   l.green = (unsigned long int)green;
   l.blue = (unsigned long int)blue;
-  signed int return_value_DRM_IOCTL$1;
-  return_value_DRM_IOCTL$1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA5 << 0)) | sizeof(struct drm_mode_crtc_lut) /*32ul*/  << 0 + 8 + 8, (void *)&l);
-  return return_value_DRM_IOCTL$1;
+  signed int return_value_DRM_IOCTL_1;
+  return_value_DRM_IOCTL_1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA5 << 0)) | sizeof(struct drm_mode_crtc_lut) /*32ul*/  << 0 + 8 + 8, (void *)&l);
+  return return_value_DRM_IOCTL_1;
 }
 
 // drmModeDestroyPropertyBlob
@@ -9204,9 +9204,9 @@ extern signed int drmModeDestroyPropertyBlob(signed int fd, unsigned int id)
   struct drm_mode_destroy_blob destroy;
   memset((void *)&destroy, 0, sizeof(struct drm_mode_destroy_blob) /*4ul*/ );
   destroy.blob_id = id;
-  signed int return_value_DRM_IOCTL$1;
-  return_value_DRM_IOCTL$1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xBE << 0)) | sizeof(struct drm_mode_destroy_blob) /*4ul*/  << 0 + 8 + 8, (void *)&destroy);
-  return return_value_DRM_IOCTL$1;
+  signed int return_value_DRM_IOCTL_1;
+  return_value_DRM_IOCTL_1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xBE << 0)) | sizeof(struct drm_mode_destroy_blob) /*4ul*/  << 0 + 8 + 8, (void *)&destroy);
+  return return_value_DRM_IOCTL_1;
 }
 
 // drmModeDetachMode
@@ -9217,9 +9217,9 @@ extern signed int drmModeDetachMode(signed int fd, unsigned int connector_id, st
   memset((void *)&res, 0, sizeof(struct drm_mode_mode_cmd) /*72ul*/ );
   memcpy((void *)&res.mode, (const void *)mode_info, sizeof(struct drm_mode_modeinfo) /*68ul*/ );
   res.connector_id = connector_id;
-  signed int return_value_DRM_IOCTL$1;
-  return_value_DRM_IOCTL$1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA9 << 0)) | sizeof(struct drm_mode_mode_cmd) /*72ul*/  << 0 + 8 + 8, (void *)&res);
-  return return_value_DRM_IOCTL$1;
+  signed int return_value_DRM_IOCTL_1;
+  return_value_DRM_IOCTL_1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA9 << 0)) | sizeof(struct drm_mode_mode_cmd) /*72ul*/  << 0 + 8 + 8, (void *)&res);
+  return return_value_DRM_IOCTL_1;
 }
 
 // drmModeDirtyFB
@@ -9231,9 +9231,9 @@ extern signed int drmModeDirtyFB(signed int fd, unsigned int bufferId, struct dr
   dirty.fb_id = bufferId;
   dirty.clips_ptr = (unsigned long int)clips;
   dirty.num_clips = num_clips;
-  signed int return_value_DRM_IOCTL$1;
-  return_value_DRM_IOCTL$1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xB1 << 0)) | sizeof(struct drm_mode_fb_dirty_cmd) /*24ul*/  << 0 + 8 + 8, (void *)&dirty);
-  return return_value_DRM_IOCTL$1;
+  signed int return_value_DRM_IOCTL_1;
+  return_value_DRM_IOCTL_1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xB1 << 0)) | sizeof(struct drm_mode_fb_dirty_cmd) /*24ul*/  << 0 + 8 + 8, (void *)&dirty);
+  return return_value_DRM_IOCTL_1;
 }
 
 // drmModeFreeConnector
@@ -9366,18 +9366,18 @@ extern void drmModeFreeResources(struct _drmModeRes *ptr)
 // file ../xf86drmMode.c line 579
 extern struct _drmModeConnector * drmModeGetConnector(signed int fd, unsigned int connector_id)
 {
-  struct _drmModeConnector *return_value__drmModeGetConnector$1;
-  return_value__drmModeGetConnector$1=_drmModeGetConnector(fd, connector_id, 1);
-  return return_value__drmModeGetConnector$1;
+  struct _drmModeConnector *return_value__drmModeGetConnector_1;
+  return_value__drmModeGetConnector_1=_drmModeGetConnector(fd, connector_id, 1);
+  return return_value__drmModeGetConnector_1;
 }
 
 // drmModeGetConnectorCurrent
 // file ../xf86drmMode.c line 584
 extern struct _drmModeConnector * drmModeGetConnectorCurrent(signed int fd, unsigned int connector_id)
 {
-  struct _drmModeConnector *return_value__drmModeGetConnector$1;
-  return_value__drmModeGetConnector$1=_drmModeGetConnector(fd, connector_id, 0);
-  return return_value__drmModeGetConnector$1;
+  struct _drmModeConnector *return_value__drmModeGetConnector_1;
+  return_value__drmModeGetConnector_1=_drmModeGetConnector(fd, connector_id, 0);
+  return return_value__drmModeGetConnector_1;
 }
 
 // drmModeGetCrtc
@@ -9388,16 +9388,16 @@ extern struct _drmModeCrtc * drmModeGetCrtc(signed int fd, unsigned int crtcId)
   struct _drmModeCrtc *r;
   memset((void *)&crtc, 0, sizeof(struct drm_mode_crtc) /*104ul*/ );
   crtc.crtc_id = crtcId;
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA1 << 0)) | sizeof(struct drm_mode_crtc) /*104ul*/  << 0 + 8 + 8, (void *)&crtc);
-  if(!(return_value_drmIoctl$1 == 0))
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA1 << 0)) | sizeof(struct drm_mode_crtc) /*104ul*/  << 0 + 8 + 8, (void *)&crtc);
+  if(!(return_value_drmIoctl_1 == 0))
     return ((struct _drmModeCrtc *)NULL);
 
   else
   {
-    void *return_value_drmMalloc$2;
-    return_value_drmMalloc$2=drmMalloc((signed int)sizeof(struct _drmModeCrtc) /*100ul*/ );
-    r = (struct _drmModeCrtc *)return_value_drmMalloc$2;
+    void *return_value_drmMalloc_2;
+    return_value_drmMalloc_2=drmMalloc((signed int)sizeof(struct _drmModeCrtc) /*100ul*/ );
+    r = (struct _drmModeCrtc *)return_value_drmMalloc_2;
     if(r == ((struct _drmModeCrtc *)NULL))
       return ((struct _drmModeCrtc *)NULL);
 
@@ -9429,16 +9429,16 @@ struct _drmModeEncoder * drmModeGetEncoder(signed int fd, unsigned int encoder_i
   struct _drmModeEncoder *r = (struct _drmModeEncoder *)(void *)0;
   memset((void *)&enc, 0, sizeof(struct drm_mode_get_encoder) /*20ul*/ );
   enc.encoder_id = encoder_id;
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA6 << 0)) | sizeof(struct drm_mode_get_encoder) /*20ul*/  << 0 + 8 + 8, (void *)&enc);
-  if(!(return_value_drmIoctl$1 == 0))
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA6 << 0)) | sizeof(struct drm_mode_get_encoder) /*20ul*/  << 0 + 8 + 8, (void *)&enc);
+  if(!(return_value_drmIoctl_1 == 0))
     return ((struct _drmModeEncoder *)NULL);
 
   else
   {
-    void *return_value_drmMalloc$2;
-    return_value_drmMalloc$2=drmMalloc((signed int)sizeof(struct _drmModeEncoder) /*20ul*/ );
-    r = (struct _drmModeEncoder *)return_value_drmMalloc$2;
+    void *return_value_drmMalloc_2;
+    return_value_drmMalloc_2=drmMalloc((signed int)sizeof(struct _drmModeEncoder) /*20ul*/ );
+    r = (struct _drmModeEncoder *)return_value_drmMalloc_2;
     if(r == ((struct _drmModeEncoder *)NULL))
       return ((struct _drmModeEncoder *)NULL);
 
@@ -9462,16 +9462,16 @@ extern struct _drmModeFB * drmModeGetFB(signed int fd, unsigned int buf)
   struct _drmModeFB *r;
   memset((void *)&info, 0, sizeof(struct drm_mode_fb_cmd) /*28ul*/ );
   info.fb_id = buf;
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xAD << 0)) | sizeof(struct drm_mode_fb_cmd) /*28ul*/  << 0 + 8 + 8, (void *)&info);
-  if(!(return_value_drmIoctl$1 == 0))
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xAD << 0)) | sizeof(struct drm_mode_fb_cmd) /*28ul*/  << 0 + 8 + 8, (void *)&info);
+  if(!(return_value_drmIoctl_1 == 0))
     return (struct _drmModeFB *)(void *)0;
 
   else
   {
-    void *return_value_drmMalloc$2;
-    return_value_drmMalloc$2=drmMalloc((signed int)sizeof(struct _drmModeFB) /*28ul*/ );
-    r = (struct _drmModeFB *)return_value_drmMalloc$2;
+    void *return_value_drmMalloc_2;
+    return_value_drmMalloc_2=drmMalloc((signed int)sizeof(struct _drmModeFB) /*28ul*/ );
+    r = (struct _drmModeFB *)return_value_drmMalloc_2;
     if(r == ((struct _drmModeFB *)NULL))
       return (struct _drmModeFB *)(void *)0;
 
@@ -9496,8 +9496,8 @@ extern struct _drmModePlane * drmModeGetPlane(signed int fd, unsigned int plane_
   struct drm_mode_get_plane ovr;
   struct drm_mode_get_plane counts;
   struct _drmModePlane *r = ((struct _drmModePlane *)NULL);
-  signed int return_value_drmIoctl$1;
-  signed int return_value_drmIoctl$3;
+  signed int return_value_drmIoctl_1;
+  signed int return_value_drmIoctl_3;
   do
   {
 
@@ -9505,23 +9505,23 @@ extern struct _drmModePlane * drmModeGetPlane(signed int fd, unsigned int plane_
     ;
     memset((void *)&ovr, 0, sizeof(struct drm_mode_get_plane) /*32ul*/ );
     ovr.plane_id = plane_id;
-    return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xB6 << 0)) | sizeof(struct drm_mode_get_plane) /*32ul*/  << 0 + 8 + 8, (void *)&ovr);
-    if(!(return_value_drmIoctl$1 == 0))
+    return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xB6 << 0)) | sizeof(struct drm_mode_get_plane) /*32ul*/  << 0 + 8 + 8, (void *)&ovr);
+    if(!(return_value_drmIoctl_1 == 0))
       return ((struct _drmModePlane *)NULL);
 
     counts = ovr;
     if(!(ovr.count_format_types == 0u))
     {
-      void *return_value_drmMalloc$2;
-      return_value_drmMalloc$2=drmMalloc((signed int)((unsigned long int)ovr.count_format_types * sizeof(unsigned int) /*4ul*/ ));
-      ovr.format_type_ptr = (unsigned long int)return_value_drmMalloc$2;
+      void *return_value_drmMalloc_2;
+      return_value_drmMalloc_2=drmMalloc((signed int)((unsigned long int)ovr.count_format_types * sizeof(unsigned int) /*4ul*/ ));
+      ovr.format_type_ptr = (unsigned long int)return_value_drmMalloc_2;
       if(ovr.format_type_ptr == 0ull)
         goto err_allocs;
 
     }
 
-    return_value_drmIoctl$3=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xB6 << 0)) | sizeof(struct drm_mode_get_plane) /*32ul*/  << 0 + 8 + 8, (void *)&ovr);
-    if(!(return_value_drmIoctl$3 == 0))
+    return_value_drmIoctl_3=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xB6 << 0)) | sizeof(struct drm_mode_get_plane) /*32ul*/  << 0 + 8 + 8, (void *)&ovr);
+    if(!(return_value_drmIoctl_3 == 0))
       goto err_allocs;
 
     if(counts.count_format_types >= ovr.count_format_types)
@@ -9530,10 +9530,10 @@ extern struct _drmModePlane * drmModeGetPlane(signed int fd, unsigned int plane_
     drmFree((void *)(unsigned long int)ovr.format_type_ptr);
   }
   while((_Bool)1);
-  void *return_value_drmMalloc$4;
-  return_value_drmMalloc$4=drmMalloc((signed int)sizeof(struct _drmModePlane) /*56ul*/ );
-  r = (struct _drmModePlane *)return_value_drmMalloc$4;
-  void *return_value_drmAllocCpy$5;
+  void *return_value_drmMalloc_4;
+  return_value_drmMalloc_4=drmMalloc((signed int)sizeof(struct _drmModePlane) /*56ul*/ );
+  r = (struct _drmModePlane *)return_value_drmMalloc_4;
+  void *return_value_drmAllocCpy_5;
   if(!(r == ((struct _drmModePlane *)NULL)))
   {
     r->count_formats = ovr.count_format_types;
@@ -9542,8 +9542,8 @@ extern struct _drmModePlane * drmModeGetPlane(signed int fd, unsigned int plane_
     r->fb_id = ovr.fb_id;
     r->possible_crtcs = ovr.possible_crtcs;
     r->gamma_size = ovr.gamma_size;
-    return_value_drmAllocCpy$5=drmAllocCpy((char *)(void *)(unsigned long int)ovr.format_type_ptr, (signed int)ovr.count_format_types, (signed int)sizeof(unsigned int) /*4ul*/ );
-    r->formats = (unsigned int *)return_value_drmAllocCpy$5;
+    return_value_drmAllocCpy_5=drmAllocCpy((char *)(void *)(unsigned long int)ovr.format_type_ptr, (signed int)ovr.count_format_types, (signed int)sizeof(unsigned int) /*4ul*/ );
+    r->formats = (unsigned int *)return_value_drmAllocCpy_5;
     if(!(ovr.count_format_types == 0u))
     {
       if(r->formats == ((unsigned int *)NULL))
@@ -9571,31 +9571,31 @@ extern struct _drmModePlaneRes * drmModeGetPlaneResources(signed int fd)
   struct drm_mode_get_plane_res res;
   struct drm_mode_get_plane_res counts;
   struct _drmModePlaneRes *r = ((struct _drmModePlaneRes *)NULL);
-  signed int return_value_drmIoctl$1;
-  signed int return_value_drmIoctl$3;
+  signed int return_value_drmIoctl_1;
+  signed int return_value_drmIoctl_3;
   do
   {
 
   retry:
     ;
     memset((void *)&res, 0, sizeof(struct drm_mode_get_plane_res) /*16ul*/ );
-    return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xB5 << 0)) | sizeof(struct drm_mode_get_plane_res) /*16ul*/  << 0 + 8 + 8, (void *)&res);
-    if(!(return_value_drmIoctl$1 == 0))
+    return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xB5 << 0)) | sizeof(struct drm_mode_get_plane_res) /*16ul*/  << 0 + 8 + 8, (void *)&res);
+    if(!(return_value_drmIoctl_1 == 0))
       return ((struct _drmModePlaneRes *)NULL);
 
     counts = res;
     if(!(res.count_planes == 0u))
     {
-      void *return_value_drmMalloc$2;
-      return_value_drmMalloc$2=drmMalloc((signed int)((unsigned long int)res.count_planes * sizeof(unsigned int) /*4ul*/ ));
-      res.plane_id_ptr = (unsigned long int)return_value_drmMalloc$2;
+      void *return_value_drmMalloc_2;
+      return_value_drmMalloc_2=drmMalloc((signed int)((unsigned long int)res.count_planes * sizeof(unsigned int) /*4ul*/ ));
+      res.plane_id_ptr = (unsigned long int)return_value_drmMalloc_2;
       if(res.plane_id_ptr == 0ull)
         goto err_allocs;
 
     }
 
-    return_value_drmIoctl$3=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xB5 << 0)) | sizeof(struct drm_mode_get_plane_res) /*16ul*/  << 0 + 8 + 8, (void *)&res);
-    if(!(return_value_drmIoctl$3 == 0))
+    return_value_drmIoctl_3=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xB5 << 0)) | sizeof(struct drm_mode_get_plane_res) /*16ul*/  << 0 + 8 + 8, (void *)&res);
+    if(!(return_value_drmIoctl_3 == 0))
       goto err_allocs;
 
     if(counts.count_planes >= res.count_planes)
@@ -9604,15 +9604,15 @@ extern struct _drmModePlaneRes * drmModeGetPlaneResources(signed int fd)
     drmFree((void *)(unsigned long int)res.plane_id_ptr);
   }
   while((_Bool)1);
-  void *return_value_drmMalloc$4;
-  return_value_drmMalloc$4=drmMalloc((signed int)sizeof(struct _drmModePlaneRes) /*16ul*/ );
-  r = (struct _drmModePlaneRes *)return_value_drmMalloc$4;
-  void *return_value_drmAllocCpy$5;
+  void *return_value_drmMalloc_4;
+  return_value_drmMalloc_4=drmMalloc((signed int)sizeof(struct _drmModePlaneRes) /*16ul*/ );
+  r = (struct _drmModePlaneRes *)return_value_drmMalloc_4;
+  void *return_value_drmAllocCpy_5;
   if(!(r == ((struct _drmModePlaneRes *)NULL)))
   {
     r->count_planes = res.count_planes;
-    return_value_drmAllocCpy$5=drmAllocCpy((char *)(void *)(unsigned long int)res.plane_id_ptr, (signed int)res.count_planes, (signed int)sizeof(unsigned int) /*4ul*/ );
-    r->planes = (unsigned int *)return_value_drmAllocCpy$5;
+    return_value_drmAllocCpy_5=drmAllocCpy((char *)(void *)(unsigned long int)res.plane_id_ptr, (signed int)res.count_planes, (signed int)sizeof(unsigned int) /*4ul*/ );
+    r->planes = (unsigned int *)return_value_drmAllocCpy_5;
     if(!(res.count_planes == 0u))
     {
       if(r->planes == ((unsigned int *)NULL))
@@ -9641,48 +9641,48 @@ extern struct _drmModeProperty * drmModeGetProperty(signed int fd, unsigned int 
   struct _drmModeProperty *r;
   memset((void *)&prop, 0, sizeof(struct drm_mode_get_property) /*64ul*/ );
   prop.prop_id = property_id;
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xAA << 0)) | sizeof(struct drm_mode_get_property) /*64ul*/  << 0 + 8 + 8, (void *)&prop);
-  void *return_value_drmMalloc$2;
-  void *return_value_drmMalloc$3;
-  void *return_value_drmMalloc$7;
-  void *return_value_drmAllocCpy$8;
-  if(!(return_value_drmIoctl$1 == 0))
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xAA << 0)) | sizeof(struct drm_mode_get_property) /*64ul*/  << 0 + 8 + 8, (void *)&prop);
+  void *return_value_drmMalloc_2;
+  void *return_value_drmMalloc_3;
+  void *return_value_drmMalloc_7;
+  void *return_value_drmAllocCpy_8;
+  if(!(return_value_drmIoctl_1 == 0))
     return ((struct _drmModeProperty *)NULL);
 
   else
   {
     if(!(prop.count_values == 0u))
     {
-      return_value_drmMalloc$2=drmMalloc((signed int)((unsigned long int)prop.count_values * sizeof(unsigned long int) /*8ul*/ ));
-      prop.values_ptr = (unsigned long int)return_value_drmMalloc$2;
+      return_value_drmMalloc_2=drmMalloc((signed int)((unsigned long int)prop.count_values * sizeof(unsigned long int) /*8ul*/ ));
+      prop.values_ptr = (unsigned long int)return_value_drmMalloc_2;
     }
 
     if(!((40u & prop.flags) == 0u) && !(prop.count_enum_blobs == 0u))
     {
-      return_value_drmMalloc$3=drmMalloc((signed int)((unsigned long int)prop.count_enum_blobs * sizeof(struct drm_mode_property_enum) /*40ul*/ ));
-      prop.enum_blob_ptr = (unsigned long int)return_value_drmMalloc$3;
+      return_value_drmMalloc_3=drmMalloc((signed int)((unsigned long int)prop.count_enum_blobs * sizeof(struct drm_mode_property_enum) /*40ul*/ ));
+      prop.enum_blob_ptr = (unsigned long int)return_value_drmMalloc_3;
     }
 
     if(!((16u & prop.flags) == 0u) && !(prop.count_enum_blobs == 0u))
     {
-      void *return_value_drmMalloc$4;
-      return_value_drmMalloc$4=drmMalloc((signed int)((unsigned long int)prop.count_enum_blobs * sizeof(unsigned int) /*4ul*/ ));
-      prop.values_ptr = (unsigned long int)return_value_drmMalloc$4;
-      void *return_value_drmMalloc$5;
-      return_value_drmMalloc$5=drmMalloc((signed int)((unsigned long int)prop.count_enum_blobs * sizeof(unsigned int) /*4ul*/ ));
-      prop.enum_blob_ptr = (unsigned long int)return_value_drmMalloc$5;
+      void *return_value_drmMalloc_4;
+      return_value_drmMalloc_4=drmMalloc((signed int)((unsigned long int)prop.count_enum_blobs * sizeof(unsigned int) /*4ul*/ ));
+      prop.values_ptr = (unsigned long int)return_value_drmMalloc_4;
+      void *return_value_drmMalloc_5;
+      return_value_drmMalloc_5=drmMalloc((signed int)((unsigned long int)prop.count_enum_blobs * sizeof(unsigned int) /*4ul*/ ));
+      prop.enum_blob_ptr = (unsigned long int)return_value_drmMalloc_5;
     }
 
-    signed int return_value_drmIoctl$6;
-    return_value_drmIoctl$6=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xAA << 0)) | sizeof(struct drm_mode_get_property) /*64ul*/  << 0 + 8 + 8, (void *)&prop);
-    if(!(return_value_drmIoctl$6 == 0))
+    signed int return_value_drmIoctl_6;
+    return_value_drmIoctl_6=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xAA << 0)) | sizeof(struct drm_mode_get_property) /*64ul*/  << 0 + 8 + 8, (void *)&prop);
+    if(!(return_value_drmIoctl_6 == 0))
       r = (struct _drmModeProperty *)(void *)0;
 
     else
     {
-      return_value_drmMalloc$7=drmMalloc((signed int)sizeof(struct _drmModeProperty) /*88ul*/ );
-      r = (struct _drmModeProperty *)return_value_drmMalloc$7;
+      return_value_drmMalloc_7=drmMalloc((signed int)sizeof(struct _drmModeProperty) /*88ul*/ );
+      r = (struct _drmModeProperty *)return_value_drmMalloc_7;
       if(r == ((struct _drmModeProperty *)NULL))
         return (struct _drmModeProperty *)(void *)0;
 
@@ -9691,27 +9691,27 @@ extern struct _drmModeProperty * drmModeGetProperty(signed int fd, unsigned int 
       r->flags = prop.flags;
       if(!(prop.count_values == 0u))
       {
-        return_value_drmAllocCpy$8=drmAllocCpy((char *)(void *)(unsigned long int)prop.values_ptr, (signed int)prop.count_values, (signed int)sizeof(unsigned long int) /*8ul*/ );
-        r->values = (unsigned long int *)return_value_drmAllocCpy$8;
+        return_value_drmAllocCpy_8=drmAllocCpy((char *)(void *)(unsigned long int)prop.values_ptr, (signed int)prop.count_values, (signed int)sizeof(unsigned long int) /*8ul*/ );
+        r->values = (unsigned long int *)return_value_drmAllocCpy_8;
       }
 
       if(!((40u & prop.flags) == 0u))
       {
         r->count_enums = (signed int)prop.count_enum_blobs;
-        void *return_value_drmAllocCpy$9;
-        return_value_drmAllocCpy$9=drmAllocCpy((char *)(void *)(unsigned long int)prop.enum_blob_ptr, (signed int)prop.count_enum_blobs, (signed int)sizeof(struct drm_mode_property_enum) /*40ul*/ );
-        r->enums = (struct drm_mode_property_enum *)return_value_drmAllocCpy$9;
+        void *return_value_drmAllocCpy_9;
+        return_value_drmAllocCpy_9=drmAllocCpy((char *)(void *)(unsigned long int)prop.enum_blob_ptr, (signed int)prop.count_enum_blobs, (signed int)sizeof(struct drm_mode_property_enum) /*40ul*/ );
+        r->enums = (struct drm_mode_property_enum *)return_value_drmAllocCpy_9;
       }
 
       else
         if(!((16u & prop.flags) == 0u))
         {
-          void *return_value_drmAllocCpy$10;
-          return_value_drmAllocCpy$10=drmAllocCpy((char *)(void *)(unsigned long int)prop.values_ptr, (signed int)prop.count_enum_blobs, (signed int)sizeof(unsigned int) /*4ul*/ );
-          r->values = (unsigned long int *)return_value_drmAllocCpy$10;
-          void *return_value_drmAllocCpy$11;
-          return_value_drmAllocCpy$11=drmAllocCpy((char *)(void *)(unsigned long int)prop.enum_blob_ptr, (signed int)prop.count_enum_blobs, (signed int)sizeof(unsigned int) /*4ul*/ );
-          r->blob_ids = (unsigned int *)return_value_drmAllocCpy$11;
+          void *return_value_drmAllocCpy_10;
+          return_value_drmAllocCpy_10=drmAllocCpy((char *)(void *)(unsigned long int)prop.values_ptr, (signed int)prop.count_enum_blobs, (signed int)sizeof(unsigned int) /*4ul*/ );
+          r->values = (unsigned long int *)return_value_drmAllocCpy_10;
+          void *return_value_drmAllocCpy_11;
+          return_value_drmAllocCpy_11=drmAllocCpy((char *)(void *)(unsigned long int)prop.enum_blob_ptr, (signed int)prop.count_enum_blobs, (signed int)sizeof(unsigned int) /*4ul*/ );
+          r->blob_ids = (unsigned int *)return_value_drmAllocCpy_11;
           r->count_blobs = (signed int)prop.count_enum_blobs;
         }
 
@@ -9735,30 +9735,30 @@ extern struct _drmModePropertyBlob * drmModeGetPropertyBlob(signed int fd, unsig
   struct _drmModePropertyBlob *r;
   memset((void *)&blob, 0, sizeof(struct drm_mode_get_blob) /*16ul*/ );
   blob.blob_id = blob_id;
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xAC << 0)) | sizeof(struct drm_mode_get_blob) /*16ul*/  << 0 + 8 + 8, (void *)&blob);
-  void *return_value_drmMalloc$2;
-  void *return_value_drmMalloc$4;
-  if(!(return_value_drmIoctl$1 == 0))
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xAC << 0)) | sizeof(struct drm_mode_get_blob) /*16ul*/  << 0 + 8 + 8, (void *)&blob);
+  void *return_value_drmMalloc_2;
+  void *return_value_drmMalloc_4;
+  if(!(return_value_drmIoctl_1 == 0))
     return (struct _drmModePropertyBlob *)(void *)0;
 
   else
   {
     if(!(blob.length == 0u))
     {
-      return_value_drmMalloc$2=drmMalloc((signed int)blob.length);
-      blob.data = (unsigned long int)return_value_drmMalloc$2;
+      return_value_drmMalloc_2=drmMalloc((signed int)blob.length);
+      blob.data = (unsigned long int)return_value_drmMalloc_2;
     }
 
-    signed int return_value_drmIoctl$3;
-    return_value_drmIoctl$3=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xAC << 0)) | sizeof(struct drm_mode_get_blob) /*16ul*/  << 0 + 8 + 8, (void *)&blob);
-    if(!(return_value_drmIoctl$3 == 0))
+    signed int return_value_drmIoctl_3;
+    return_value_drmIoctl_3=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xAC << 0)) | sizeof(struct drm_mode_get_blob) /*16ul*/  << 0 + 8 + 8, (void *)&blob);
+    if(!(return_value_drmIoctl_3 == 0))
       r = (struct _drmModePropertyBlob *)(void *)0;
 
     else
     {
-      return_value_drmMalloc$4=drmMalloc((signed int)sizeof(struct _drmModePropertyBlob) /*16ul*/ );
-      r = (struct _drmModePropertyBlob *)return_value_drmMalloc$4;
+      return_value_drmMalloc_4=drmMalloc((signed int)sizeof(struct _drmModePropertyBlob) /*16ul*/ );
+      r = (struct _drmModePropertyBlob *)return_value_drmMalloc_4;
       if(!(r == ((struct _drmModePropertyBlob *)NULL)))
       {
         r->id = blob.blob_id;
@@ -9782,24 +9782,24 @@ extern struct _drmModeRes * drmModeGetResources(signed int fd)
   struct drm_mode_card_res res;
   struct drm_mode_card_res counts;
   struct _drmModeRes *r = ((struct _drmModeRes *)NULL);
-  signed int return_value_drmIoctl$1;
-  signed int return_value_drmIoctl$6;
+  signed int return_value_drmIoctl_1;
+  signed int return_value_drmIoctl_6;
   do
   {
 
   retry:
     ;
     memset((void *)&res, 0, sizeof(struct drm_mode_card_res) /*64ul*/ );
-    return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA0 << 0)) | sizeof(struct drm_mode_card_res) /*64ul*/  << 0 + 8 + 8, (void *)&res);
-    if(!(return_value_drmIoctl$1 == 0))
+    return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA0 << 0)) | sizeof(struct drm_mode_card_res) /*64ul*/  << 0 + 8 + 8, (void *)&res);
+    if(!(return_value_drmIoctl_1 == 0))
       return ((struct _drmModeRes *)NULL);
 
     counts = res;
     if(!(res.count_fbs == 0u))
     {
-      void *return_value_drmMalloc$2;
-      return_value_drmMalloc$2=drmMalloc((signed int)((unsigned long int)res.count_fbs * sizeof(unsigned int) /*4ul*/ ));
-      res.fb_id_ptr = (unsigned long int)return_value_drmMalloc$2;
+      void *return_value_drmMalloc_2;
+      return_value_drmMalloc_2=drmMalloc((signed int)((unsigned long int)res.count_fbs * sizeof(unsigned int) /*4ul*/ ));
+      res.fb_id_ptr = (unsigned long int)return_value_drmMalloc_2;
       if(res.fb_id_ptr == 0ull)
         goto err_allocs;
 
@@ -9807,9 +9807,9 @@ extern struct _drmModeRes * drmModeGetResources(signed int fd)
 
     if(!(res.count_crtcs == 0u))
     {
-      void *return_value_drmMalloc$3;
-      return_value_drmMalloc$3=drmMalloc((signed int)((unsigned long int)res.count_crtcs * sizeof(unsigned int) /*4ul*/ ));
-      res.crtc_id_ptr = (unsigned long int)return_value_drmMalloc$3;
+      void *return_value_drmMalloc_3;
+      return_value_drmMalloc_3=drmMalloc((signed int)((unsigned long int)res.count_crtcs * sizeof(unsigned int) /*4ul*/ ));
+      res.crtc_id_ptr = (unsigned long int)return_value_drmMalloc_3;
       if(res.crtc_id_ptr == 0ull)
         goto err_allocs;
 
@@ -9817,9 +9817,9 @@ extern struct _drmModeRes * drmModeGetResources(signed int fd)
 
     if(!(res.count_connectors == 0u))
     {
-      void *return_value_drmMalloc$4;
-      return_value_drmMalloc$4=drmMalloc((signed int)((unsigned long int)res.count_connectors * sizeof(unsigned int) /*4ul*/ ));
-      res.connector_id_ptr = (unsigned long int)return_value_drmMalloc$4;
+      void *return_value_drmMalloc_4;
+      return_value_drmMalloc_4=drmMalloc((signed int)((unsigned long int)res.count_connectors * sizeof(unsigned int) /*4ul*/ ));
+      res.connector_id_ptr = (unsigned long int)return_value_drmMalloc_4;
       if(res.connector_id_ptr == 0ull)
         goto err_allocs;
 
@@ -9827,16 +9827,16 @@ extern struct _drmModeRes * drmModeGetResources(signed int fd)
 
     if(!(res.count_encoders == 0u))
     {
-      void *return_value_drmMalloc$5;
-      return_value_drmMalloc$5=drmMalloc((signed int)((unsigned long int)res.count_encoders * sizeof(unsigned int) /*4ul*/ ));
-      res.encoder_id_ptr = (unsigned long int)return_value_drmMalloc$5;
+      void *return_value_drmMalloc_5;
+      return_value_drmMalloc_5=drmMalloc((signed int)((unsigned long int)res.count_encoders * sizeof(unsigned int) /*4ul*/ ));
+      res.encoder_id_ptr = (unsigned long int)return_value_drmMalloc_5;
       if(res.encoder_id_ptr == 0ull)
         goto err_allocs;
 
     }
 
-    return_value_drmIoctl$6=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA0 << 0)) | sizeof(struct drm_mode_card_res) /*64ul*/  << 0 + 8 + 8, (void *)&res);
-    if(!(return_value_drmIoctl$6 == 0))
+    return_value_drmIoctl_6=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA0 << 0)) | sizeof(struct drm_mode_card_res) /*64ul*/  << 0 + 8 + 8, (void *)&res);
+    if(!(return_value_drmIoctl_6 == 0))
       goto err_allocs;
 
     if(counts.count_connectors >= res.count_connectors && counts.count_crtcs >= res.count_crtcs && counts.count_encoders >= res.count_encoders && counts.count_fbs >= res.count_fbs)
@@ -9848,20 +9848,20 @@ extern struct _drmModeRes * drmModeGetResources(signed int fd)
     drmFree((void *)(unsigned long int)res.encoder_id_ptr);
   }
   while((_Bool)1);
-  void *return_value_drmMalloc$7;
-  return_value_drmMalloc$7=drmMalloc((signed int)sizeof(struct _drmModeRes) /*80ul*/ );
-  r = (struct _drmModeRes *)return_value_drmMalloc$7;
-  void *return_value_drmAllocCpy$8;
-  void *return_value_drmAllocCpy$9;
-  void *return_value_drmAllocCpy$10;
-  void *return_value_drmAllocCpy$11;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$17;
+  void *return_value_drmMalloc_7;
+  return_value_drmMalloc_7=drmMalloc((signed int)sizeof(struct _drmModeRes) /*80ul*/ );
+  r = (struct _drmModeRes *)return_value_drmMalloc_7;
+  void *return_value_drmAllocCpy_8;
+  void *return_value_drmAllocCpy_9;
+  void *return_value_drmAllocCpy_10;
+  void *return_value_drmAllocCpy_11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_17;
   if(!(r == ((struct _drmModeRes *)NULL)))
   {
     r->min_width = res.min_width;
@@ -9872,56 +9872,56 @@ extern struct _drmModeRes * drmModeGetResources(signed int fd)
     r->count_crtcs = (signed int)res.count_crtcs;
     r->count_connectors = (signed int)res.count_connectors;
     r->count_encoders = (signed int)res.count_encoders;
-    return_value_drmAllocCpy$8=drmAllocCpy((char *)(void *)(unsigned long int)res.fb_id_ptr, (signed int)res.count_fbs, (signed int)sizeof(unsigned int) /*4ul*/ );
-    r->fbs = (unsigned int *)return_value_drmAllocCpy$8;
-    return_value_drmAllocCpy$9=drmAllocCpy((char *)(void *)(unsigned long int)res.crtc_id_ptr, (signed int)res.count_crtcs, (signed int)sizeof(unsigned int) /*4ul*/ );
-    r->crtcs = (unsigned int *)return_value_drmAllocCpy$9;
-    return_value_drmAllocCpy$10=drmAllocCpy((char *)(void *)(unsigned long int)res.connector_id_ptr, (signed int)res.count_connectors, (signed int)sizeof(unsigned int) /*4ul*/ );
-    r->connectors = (unsigned int *)return_value_drmAllocCpy$10;
-    return_value_drmAllocCpy$11=drmAllocCpy((char *)(void *)(unsigned long int)res.encoder_id_ptr, (signed int)res.count_encoders, (signed int)sizeof(unsigned int) /*4ul*/ );
-    r->encoders = (unsigned int *)return_value_drmAllocCpy$11;
+    return_value_drmAllocCpy_8=drmAllocCpy((char *)(void *)(unsigned long int)res.fb_id_ptr, (signed int)res.count_fbs, (signed int)sizeof(unsigned int) /*4ul*/ );
+    r->fbs = (unsigned int *)return_value_drmAllocCpy_8;
+    return_value_drmAllocCpy_9=drmAllocCpy((char *)(void *)(unsigned long int)res.crtc_id_ptr, (signed int)res.count_crtcs, (signed int)sizeof(unsigned int) /*4ul*/ );
+    r->crtcs = (unsigned int *)return_value_drmAllocCpy_9;
+    return_value_drmAllocCpy_10=drmAllocCpy((char *)(void *)(unsigned long int)res.connector_id_ptr, (signed int)res.count_connectors, (signed int)sizeof(unsigned int) /*4ul*/ );
+    r->connectors = (unsigned int *)return_value_drmAllocCpy_10;
+    return_value_drmAllocCpy_11=drmAllocCpy((char *)(void *)(unsigned long int)res.encoder_id_ptr, (signed int)res.count_encoders, (signed int)sizeof(unsigned int) /*4ul*/ );
+    r->encoders = (unsigned int *)return_value_drmAllocCpy_11;
     if(!(res.count_fbs == 0u))
-      tmp_if_expr$12 = !(r->fbs != ((unsigned int *)NULL)) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_12 = !(r->fbs != ((unsigned int *)NULL)) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$12 = (_Bool)0;
-    if(tmp_if_expr$12)
-      tmp_if_expr$14 = (_Bool)1;
+      tmp_if_expr_12 = (_Bool)0;
+    if(tmp_if_expr_12)
+      tmp_if_expr_14 = (_Bool)1;
 
     else
     {
       if(!(res.count_crtcs == 0u))
-        tmp_if_expr$13 = !(r->crtcs != ((unsigned int *)NULL)) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_13 = !(r->crtcs != ((unsigned int *)NULL)) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$13 = (_Bool)0;
-      tmp_if_expr$14 = tmp_if_expr$13 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_13 = (_Bool)0;
+      tmp_if_expr_14 = tmp_if_expr_13 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$14)
-      tmp_if_expr$16 = (_Bool)1;
+    if(tmp_if_expr_14)
+      tmp_if_expr_16 = (_Bool)1;
 
     else
     {
       if(!(res.count_connectors == 0u))
-        tmp_if_expr$15 = !(r->connectors != ((unsigned int *)NULL)) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_15 = !(r->connectors != ((unsigned int *)NULL)) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$15 = (_Bool)0;
-      tmp_if_expr$16 = tmp_if_expr$15 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_15 = (_Bool)0;
+      tmp_if_expr_16 = tmp_if_expr_15 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$16)
-      tmp_if_expr$18 = (_Bool)1;
+    if(tmp_if_expr_16)
+      tmp_if_expr_18 = (_Bool)1;
 
     else
     {
       if(!(res.count_encoders == 0u))
-        tmp_if_expr$17 = !(r->encoders != ((unsigned int *)NULL)) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_17 = !(r->encoders != ((unsigned int *)NULL)) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$17 = (_Bool)0;
-      tmp_if_expr$18 = tmp_if_expr$17 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_17 = (_Bool)0;
+      tmp_if_expr_18 = tmp_if_expr_17 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$18)
+    if(tmp_if_expr_18)
     {
       drmFree((void *)r->fbs);
       drmFree((void *)r->crtcs);
@@ -9953,9 +9953,9 @@ signed int drmModeMoveCursor(signed int fd, unsigned int crtcId, signed int x, s
   arg.crtc_id = crtcId;
   arg.x = x;
   arg.y = y;
-  signed int return_value_DRM_IOCTL$1;
-  return_value_DRM_IOCTL$1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA3 << 0)) | sizeof(struct drm_mode_cursor) /*28ul*/  << 0 + 8 + 8, (void *)&arg);
-  return return_value_DRM_IOCTL$1;
+  signed int return_value_DRM_IOCTL_1;
+  return_value_DRM_IOCTL_1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA3 << 0)) | sizeof(struct drm_mode_cursor) /*28ul*/  << 0 + 8 + 8, (void *)&arg);
+  return return_value_DRM_IOCTL_1;
 }
 
 // drmModeObjectGetProperties
@@ -9965,8 +9965,8 @@ extern struct _drmModeObjectProperties * drmModeObjectGetProperties(signed int f
   struct drm_mode_obj_get_properties properties;
   struct _drmModeObjectProperties *ret = (struct _drmModeObjectProperties *)(void *)0;
   unsigned int count;
-  signed int return_value_drmIoctl$1;
-  signed int return_value_drmIoctl$4;
+  signed int return_value_drmIoctl_1;
+  signed int return_value_drmIoctl_4;
   do
   {
 
@@ -9975,29 +9975,29 @@ extern struct _drmModeObjectProperties * drmModeObjectGetProperties(signed int f
     memset((void *)&properties, 0, sizeof(struct drm_mode_obj_get_properties) /*32ul*/ );
     properties.obj_id = object_id;
     properties.obj_type = object_type;
-    return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xB9 << 0)) | sizeof(struct drm_mode_obj_get_properties) /*32ul*/  << 0 + 8 + 8, (void *)&properties);
-    if(!(return_value_drmIoctl$1 == 0))
+    return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xB9 << 0)) | sizeof(struct drm_mode_obj_get_properties) /*32ul*/  << 0 + 8 + 8, (void *)&properties);
+    if(!(return_value_drmIoctl_1 == 0))
       return ((struct _drmModeObjectProperties *)NULL);
 
     count = properties.count_props;
     if(!(count == 0u))
     {
-      void *return_value_drmMalloc$2;
-      return_value_drmMalloc$2=drmMalloc((signed int)((unsigned long int)count * sizeof(unsigned int) /*4ul*/ ));
-      properties.props_ptr = (unsigned long int)return_value_drmMalloc$2;
+      void *return_value_drmMalloc_2;
+      return_value_drmMalloc_2=drmMalloc((signed int)((unsigned long int)count * sizeof(unsigned int) /*4ul*/ ));
+      properties.props_ptr = (unsigned long int)return_value_drmMalloc_2;
       if(properties.props_ptr == 0ull)
         goto err_allocs;
 
-      void *return_value_drmMalloc$3;
-      return_value_drmMalloc$3=drmMalloc((signed int)((unsigned long int)count * sizeof(unsigned long int) /*8ul*/ ));
-      properties.prop_values_ptr = (unsigned long int)return_value_drmMalloc$3;
+      void *return_value_drmMalloc_3;
+      return_value_drmMalloc_3=drmMalloc((signed int)((unsigned long int)count * sizeof(unsigned long int) /*8ul*/ ));
+      properties.prop_values_ptr = (unsigned long int)return_value_drmMalloc_3;
       if(properties.prop_values_ptr == 0ull)
         goto err_allocs;
 
     }
 
-    return_value_drmIoctl$4=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xB9 << 0)) | sizeof(struct drm_mode_obj_get_properties) /*32ul*/  << 0 + 8 + 8, (void *)&properties);
-    if(!(return_value_drmIoctl$4 == 0))
+    return_value_drmIoctl_4=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xB9 << 0)) | sizeof(struct drm_mode_obj_get_properties) /*32ul*/  << 0 + 8 + 8, (void *)&properties);
+    if(!(return_value_drmIoctl_4 == 0))
       goto err_allocs;
 
     if(count >= properties.count_props)
@@ -10008,27 +10008,27 @@ extern struct _drmModeObjectProperties * drmModeObjectGetProperties(signed int f
   }
   while((_Bool)1);
   count = properties.count_props;
-  void *return_value_drmMalloc$5;
-  return_value_drmMalloc$5=drmMalloc((signed int)sizeof(struct _drmModeObjectProperties) /*24ul*/ );
-  ret = (struct _drmModeObjectProperties *)return_value_drmMalloc$5;
-  void *return_value_drmAllocCpy$6;
-  void *return_value_drmAllocCpy$7;
-  _Bool tmp_if_expr$8;
+  void *return_value_drmMalloc_5;
+  return_value_drmMalloc_5=drmMalloc((signed int)sizeof(struct _drmModeObjectProperties) /*24ul*/ );
+  ret = (struct _drmModeObjectProperties *)return_value_drmMalloc_5;
+  void *return_value_drmAllocCpy_6;
+  void *return_value_drmAllocCpy_7;
+  _Bool tmp_if_expr_8;
   if(!(ret == ((struct _drmModeObjectProperties *)NULL)))
   {
     ret->count_props = count;
-    return_value_drmAllocCpy$6=drmAllocCpy((char *)(void *)(unsigned long int)properties.props_ptr, (signed int)count, (signed int)sizeof(unsigned int) /*4ul*/ );
-    ret->props = (unsigned int *)return_value_drmAllocCpy$6;
-    return_value_drmAllocCpy$7=drmAllocCpy((char *)(void *)(unsigned long int)properties.prop_values_ptr, (signed int)count, (signed int)sizeof(unsigned long int) /*8ul*/ );
-    ret->prop_values = (unsigned long int *)return_value_drmAllocCpy$7;
+    return_value_drmAllocCpy_6=drmAllocCpy((char *)(void *)(unsigned long int)properties.props_ptr, (signed int)count, (signed int)sizeof(unsigned int) /*4ul*/ );
+    ret->props = (unsigned int *)return_value_drmAllocCpy_6;
+    return_value_drmAllocCpy_7=drmAllocCpy((char *)(void *)(unsigned long int)properties.prop_values_ptr, (signed int)count, (signed int)sizeof(unsigned long int) /*8ul*/ );
+    ret->prop_values = (unsigned long int *)return_value_drmAllocCpy_7;
     if(!(ret->count_props == 0u))
     {
       if(ret->props == ((unsigned int *)NULL))
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_8 = (_Bool)1;
 
       else
-        tmp_if_expr$8 = !(ret->prop_values != ((unsigned long int *)NULL)) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$8)
+        tmp_if_expr_8 = !(ret->prop_values != ((unsigned long int *)NULL)) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_8)
       {
         drmFree((void *)ret->props);
         drmFree((void *)ret->prop_values);
@@ -10058,9 +10058,9 @@ extern signed int drmModeObjectSetProperty(signed int fd, unsigned int object_id
   prop.prop_id = property_id;
   prop.obj_id = object_id;
   prop.obj_type = object_type;
-  signed int return_value_DRM_IOCTL$1;
-  return_value_DRM_IOCTL$1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xBA << 0)) | sizeof(struct drm_mode_obj_set_property) /*24ul*/  << 0 + 8 + 8, (void *)&prop);
-  return return_value_DRM_IOCTL$1;
+  signed int return_value_DRM_IOCTL_1;
+  return_value_DRM_IOCTL_1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xBA << 0)) | sizeof(struct drm_mode_obj_set_property) /*24ul*/  << 0 + 8 + 8, (void *)&prop);
+  return return_value_DRM_IOCTL_1;
 }
 
 // drmModePageFlip
@@ -10073,18 +10073,18 @@ extern signed int drmModePageFlip(signed int fd, unsigned int crtc_id, unsigned 
   flip.crtc_id = crtc_id;
   flip.user_data = (unsigned long int)user_data;
   flip.flags = flags;
-  signed int return_value_DRM_IOCTL$1;
-  return_value_DRM_IOCTL$1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xB0 << 0)) | sizeof(struct drm_mode_crtc_page_flip) /*24ul*/  << 0 + 8 + 8, (void *)&flip);
-  return return_value_DRM_IOCTL$1;
+  signed int return_value_DRM_IOCTL_1;
+  return_value_DRM_IOCTL_1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xB0 << 0)) | sizeof(struct drm_mode_crtc_page_flip) /*24ul*/  << 0 + 8 + 8, (void *)&flip);
+  return return_value_DRM_IOCTL_1;
 }
 
 // drmModeRmFB
 // file ../xf86drmMode.c line 297
 extern signed int drmModeRmFB(signed int fd, unsigned int bufferId)
 {
-  signed int return_value_DRM_IOCTL$1;
-  return_value_DRM_IOCTL$1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xAF << 0)) | sizeof(unsigned int) /*4ul*/  << 0 + 8 + 8, (void *)&bufferId);
-  return return_value_DRM_IOCTL$1;
+  signed int return_value_DRM_IOCTL_1;
+  return_value_DRM_IOCTL_1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xAF << 0)) | sizeof(unsigned int) /*4ul*/  << 0 + 8 + 8, (void *)&bufferId);
+  return return_value_DRM_IOCTL_1;
 }
 
 // drmModeSetCrtc
@@ -10105,9 +10105,9 @@ signed int drmModeSetCrtc(signed int fd, unsigned int crtcId, unsigned int buffe
     crtc.mode_valid = (unsigned int)1;
   }
 
-  signed int return_value_DRM_IOCTL$1;
-  return_value_DRM_IOCTL$1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA2 << 0)) | sizeof(struct drm_mode_crtc) /*104ul*/  << 0 + 8 + 8, (void *)&crtc);
-  return return_value_DRM_IOCTL$1;
+  signed int return_value_DRM_IOCTL_1;
+  return_value_DRM_IOCTL_1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA2 << 0)) | sizeof(struct drm_mode_crtc) /*104ul*/  << 0 + 8 + 8, (void *)&crtc);
+  return return_value_DRM_IOCTL_1;
 }
 
 // drmModeSetCursor
@@ -10121,9 +10121,9 @@ signed int drmModeSetCursor(signed int fd, unsigned int crtcId, unsigned int bo_
   arg.width = width;
   arg.height = height;
   arg.handle = bo_handle;
-  signed int return_value_DRM_IOCTL$1;
-  return_value_DRM_IOCTL$1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA3 << 0)) | sizeof(struct drm_mode_cursor) /*28ul*/  << 0 + 8 + 8, (void *)&arg);
-  return return_value_DRM_IOCTL$1;
+  signed int return_value_DRM_IOCTL_1;
+  return_value_DRM_IOCTL_1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xA3 << 0)) | sizeof(struct drm_mode_cursor) /*28ul*/  << 0 + 8 + 8, (void *)&arg);
+  return return_value_DRM_IOCTL_1;
 }
 
 // drmModeSetCursor2
@@ -10139,9 +10139,9 @@ signed int drmModeSetCursor2(signed int fd, unsigned int crtcId, unsigned int bo
   arg.handle = bo_handle;
   arg.hot_x = hot_x;
   arg.hot_y = hot_y;
-  signed int return_value_DRM_IOCTL$1;
-  return_value_DRM_IOCTL$1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xBB << 0)) | sizeof(struct drm_mode_cursor2) /*36ul*/  << 0 + 8 + 8, (void *)&arg);
-  return return_value_DRM_IOCTL$1;
+  signed int return_value_DRM_IOCTL_1;
+  return_value_DRM_IOCTL_1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xBB << 0)) | sizeof(struct drm_mode_cursor2) /*36ul*/  << 0 + 8 + 8, (void *)&arg);
+  return return_value_DRM_IOCTL_1;
 }
 
 // drmModeSetPlane
@@ -10162,9 +10162,9 @@ extern signed int drmModeSetPlane(signed int fd, unsigned int plane_id, unsigned
   s.src_y = src_y;
   s.src_w = src_w;
   s.src_h = src_h;
-  signed int return_value_DRM_IOCTL$1;
-  return_value_DRM_IOCTL$1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xB7 << 0)) | sizeof(struct drm_mode_set_plane) /*48ul*/  << 0 + 8 + 8, (void *)&s);
-  return return_value_DRM_IOCTL$1;
+  signed int return_value_DRM_IOCTL_1;
+  return_value_DRM_IOCTL_1=DRM_IOCTL(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0xB7 << 0)) | sizeof(struct drm_mode_set_plane) /*48ul*/  << 0 + 8 + 8, (void *)&s);
+  return return_value_DRM_IOCTL_1;
 }
 
 // drmMsg
@@ -10174,31 +10174,31 @@ extern void drmMsg(const char *format, ...)
   void **ap;
   const char *env;
   env=getenv("LIBGL_DEBUG");
-  _Bool tmp_if_expr$2;
-  char *return_value_strstr$1;
+  _Bool tmp_if_expr_2;
+  char *return_value_strstr_1;
   if(!(env == ((const char *)NULL)))
   {
-    return_value_strstr$1=strstr(env, "verbose");
-    tmp_if_expr$2 = return_value_strstr$1 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+    return_value_strstr_1=strstr(env, "verbose");
+    tmp_if_expr_2 = return_value_strstr_1 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)0;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
     if(!(drm_server_info == ((struct _drmServerInfo *)NULL)))
-      tmp_if_expr$3 = drm_server_info->debug_print != ((signed int (*)(const char *, void **))NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = drm_server_info->debug_print != ((signed int (*)(const char *, void **))NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$4)
+  if(tmp_if_expr_4)
   {
     ap = (void **)&format;
     if(!(drm_server_info == ((struct _drmServerInfo *)NULL)))
@@ -10215,9 +10215,9 @@ extern void drmMsg(const char *format, ...)
 // file ../../xf86drm.h line 561
 extern signed int drmOpen(const char *name, const char *busid)
 {
-  signed int return_value_drmOpenWithType$1;
-  return_value_drmOpenWithType$1=drmOpenWithType(name, busid, 0);
-  return return_value_drmOpenWithType$1;
+  signed int return_value_drmOpenWithType_1;
+  return_value_drmOpenWithType_1=drmOpenWithType(name, busid, 0);
+  return return_value_drmOpenWithType_1;
 }
 
 // drmOpenByBusid
@@ -10231,7 +10231,7 @@ static signed int drmOpenByBusid(const char *busid, signed int type)
   struct _drmSetVersion sv;
   signed int base;
   base=drmGetMinorBase(type);
-  signed int return_value_drmMatchBusID$2;
+  signed int return_value_drmMatchBusID_2;
   if(!(base >= 0))
     return -1;
 
@@ -10249,9 +10249,9 @@ static signed int drmOpenByBusid(const char *busid, signed int type)
         sv.drm_di_minor = 4;
         sv.drm_dd_major = -1;
         sv.drm_dd_minor = -1;
-        signed int return_value_drmSetInterfaceVersion$1;
-        return_value_drmSetInterfaceVersion$1=drmSetInterfaceVersion(fd, &sv);
-        if(!(return_value_drmSetInterfaceVersion$1 == 0))
+        signed int return_value_drmSetInterfaceVersion_1;
+        return_value_drmSetInterfaceVersion_1=drmSetInterfaceVersion(fd, &sv);
+        if(!(return_value_drmSetInterfaceVersion_1 == 0))
         {
           pci_domain_ok = 0;
           sv.drm_di_major = 1;
@@ -10266,8 +10266,8 @@ static signed int drmOpenByBusid(const char *busid, signed int type)
         drmMsg("drmOpenByBusid: drmGetBusid reports %s\n", buf);
         if(!(buf == ((const char *)NULL)))
         {
-          return_value_drmMatchBusID$2=drmMatchBusID(buf, busid, pci_domain_ok);
-          if(!(return_value_drmMatchBusID$2 == 0))
+          return_value_drmMatchBusID_2=drmMatchBusID(buf, busid, pci_domain_ok);
+          if(!(return_value_drmMatchBusID_2 == 0))
           {
             drmFreeBusid(buf);
             return fd;
@@ -10286,65 +10286,65 @@ static signed int drmOpenByBusid(const char *busid, signed int type)
   }
 }
 
-// drmOpenByBusid$link1
+// drmOpenByBusid_link1
 // file ../xf86drm.c line 560
-static signed int drmOpenByBusid$link1(const char *busid$link1, signed int type$link1)
+static signed int drmOpenByBusid_link1(const char *busid_link1, signed int type_link1)
 {
-  signed int i$link1;
-  signed int pci_domain_ok$link1 = 1;
-  signed int fd$link1;
-  const char *buf$link1;
-  struct _drmSetVersion sv$link1;
-  signed int base$link1;
-  base$link1=drmGetMinorBase$link1(type$link1);
-  signed int return_value_drmMatchBusID$2$link1;
-  if(!(base$link1 >= 0))
+  signed int i_link1;
+  signed int pci_domain_ok_link1 = 1;
+  signed int fd_link1;
+  const char *buf_link1;
+  struct _drmSetVersion sv_link1;
+  signed int base_link1;
+  base_link1=drmGetMinorBase_link1(type_link1);
+  signed int return_value_drmMatchBusID_2_link1;
+  if(!(base_link1 >= 0))
     return -1;
 
   else
   {
-    drmMsg("drmOpenByBusid: Searching for BusID %s\n", busid$link1);
-    i$link1 = base$link1;
-    for( ; !(i$link1 >= 16 + base$link1); i$link1 = i$link1 + 1)
+    drmMsg("drmOpenByBusid: Searching for BusID %s\n", busid_link1);
+    i_link1 = base_link1;
+    for( ; !(i_link1 >= 16 + base_link1); i_link1 = i_link1 + 1)
     {
-      fd$link1=drmOpenMinor$link1(i$link1, 1, type$link1);
-      drmMsg("drmOpenByBusid: drmOpenMinor returns %d\n", fd$link1);
-      if(fd$link1 >= 0)
+      fd_link1=drmOpenMinor_link1(i_link1, 1, type_link1);
+      drmMsg("drmOpenByBusid: drmOpenMinor returns %d\n", fd_link1);
+      if(fd_link1 >= 0)
       {
-        sv$link1.drm_di_major = 1;
-        sv$link1.drm_di_minor = 4;
-        sv$link1.drm_dd_major = -1;
-        sv$link1.drm_dd_minor = -1;
-        signed int return_value_drmSetInterfaceVersion$1$link1;
-        return_value_drmSetInterfaceVersion$1$link1=drmSetInterfaceVersion(fd$link1, &sv$link1);
-        if(!(return_value_drmSetInterfaceVersion$1$link1 == 0))
+        sv_link1.drm_di_major = 1;
+        sv_link1.drm_di_minor = 4;
+        sv_link1.drm_dd_major = -1;
+        sv_link1.drm_dd_minor = -1;
+        signed int return_value_drmSetInterfaceVersion_1_link1;
+        return_value_drmSetInterfaceVersion_1_link1=drmSetInterfaceVersion(fd_link1, &sv_link1);
+        if(!(return_value_drmSetInterfaceVersion_1_link1 == 0))
         {
-          pci_domain_ok$link1 = 0;
-          sv$link1.drm_di_major = 1;
-          sv$link1.drm_di_minor = 1;
-          sv$link1.drm_dd_major = -1;
-          sv$link1.drm_dd_minor = -1;
+          pci_domain_ok_link1 = 0;
+          sv_link1.drm_di_major = 1;
+          sv_link1.drm_di_minor = 1;
+          sv_link1.drm_dd_major = -1;
+          sv_link1.drm_dd_minor = -1;
           drmMsg("drmOpenByBusid: Interface 1.4 failed, trying 1.1\n");
-          drmSetInterfaceVersion(fd$link1, &sv$link1);
+          drmSetInterfaceVersion(fd_link1, &sv_link1);
         }
 
-        buf$link1=drmGetBusid(fd$link1);
-        drmMsg("drmOpenByBusid: drmGetBusid reports %s\n", buf$link1);
-        if(!(buf$link1 == ((const char *)NULL)))
+        buf_link1=drmGetBusid(fd_link1);
+        drmMsg("drmOpenByBusid: drmGetBusid reports %s\n", buf_link1);
+        if(!(buf_link1 == ((const char *)NULL)))
         {
-          return_value_drmMatchBusID$2$link1=drmMatchBusID$link1(buf$link1, busid$link1, pci_domain_ok$link1);
-          if(!(return_value_drmMatchBusID$2$link1 == 0))
+          return_value_drmMatchBusID_2_link1=drmMatchBusID_link1(buf_link1, busid_link1, pci_domain_ok_link1);
+          if(!(return_value_drmMatchBusID_2_link1 == 0))
           {
-            drmFreeBusid(buf$link1);
-            return fd$link1;
+            drmFreeBusid(buf_link1);
+            return fd_link1;
           }
 
         }
 
-        if(!(buf$link1 == ((const char *)NULL)))
-          drmFreeBusid(buf$link1);
+        if(!(buf_link1 == ((const char *)NULL)))
+          drmFreeBusid(buf_link1);
 
-        close(fd$link1);
+        close(fd_link1);
       }
 
     }
@@ -10362,9 +10362,9 @@ static signed int drmOpenByName(const char *name, signed int type)
   char *id;
   signed int base;
   base=drmGetMinorBase(type);
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   if(!(base >= 0))
     return -1;
 
@@ -10379,19 +10379,19 @@ static signed int drmOpenByName(const char *name, signed int type)
         version=drmGetVersion(fd);
         if(!(version == ((struct _drmVersion *)NULL)))
         {
-          signed int return_value_strcmp$2;
-          return_value_strcmp$2=strcmp(version->name, name);
-          if(return_value_strcmp$2 == 0)
+          signed int return_value_strcmp_2;
+          return_value_strcmp_2=strcmp(version->name, name);
+          if(return_value_strcmp_2 == 0)
           {
             drmFreeVersion(version);
             id=drmGetBusid(fd);
             drmMsg("drmGetBusid returned '%s'\n", id != ((char *)NULL) ? id : "NULL");
             if(id == ((char *)NULL))
-              tmp_if_expr$1 = (_Bool)1;
+              tmp_if_expr_1 = (_Bool)1;
 
             else
-              tmp_if_expr$1 = !(*id != 0) ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$1)
+              tmp_if_expr_1 = !(*id != 0) ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_1)
             {
               if(!(id == ((char *)NULL)))
                 drmFreeBusid(id);
@@ -10424,9 +10424,9 @@ static signed int drmOpenByName(const char *name, signed int type)
       fd=open(proc_name, 0, 0);
       if(fd >= 0)
       {
-        signed long int return_value_read$3;
-        return_value_read$3=read(fd, (void *)buf, sizeof(char [512l]) /*512ul*/  - (unsigned long int)1);
-        retcode = (signed int)return_value_read$3;
+        signed long int return_value_read_3;
+        return_value_read_3=read(fd, (void *)buf, sizeof(char [512l]) /*512ul*/  - (unsigned long int)1);
+        retcode = (signed int)return_value_read_3;
         close(fd);
         if(!(retcode == 0))
         {
@@ -10436,11 +10436,11 @@ static signed int drmOpenByName(const char *name, signed int type)
           do
           {
             if(!(*pt == 0))
-              tmp_if_expr$4 = (signed int)*pt != 32 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_4 = (signed int)*pt != 32 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$4 = (_Bool)0;
-            if(!tmp_if_expr$4)
+              tmp_if_expr_4 = (_Bool)0;
+            if(!tmp_if_expr_4)
               break;
 
             pt = pt + 1l;
@@ -10449,20 +10449,20 @@ static signed int drmOpenByName(const char *name, signed int type)
           if(!(*pt == 0))
           {
             *pt = (char)0;
-            signed int return_value_strcmp$9;
-            return_value_strcmp$9=strcmp(driver, name);
-            if(return_value_strcmp$9 == 0)
+            signed int return_value_strcmp_9;
+            return_value_strcmp_9=strcmp(driver, name);
+            if(return_value_strcmp_9 == 0)
             {
               pt = pt + 1l;
               devstring = pt;
               do
               {
                 if(!(*pt == 0))
-                  tmp_if_expr$5 = (signed int)*pt != 32 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_5 = (signed int)*pt != 32 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$5 = (_Bool)0;
-                if(!tmp_if_expr$5)
+                  tmp_if_expr_5 = (_Bool)0;
+                if(!tmp_if_expr_5)
                   break;
 
                 pt = pt + 1l;
@@ -10471,18 +10471,18 @@ static signed int drmOpenByName(const char *name, signed int type)
               if(!(*pt == 0))
               {
                 pt = pt + 1l;
-                signed int return_value_drmOpenByBusid$6;
-                return_value_drmOpenByBusid$6=drmOpenByBusid(pt, type);
-                return return_value_drmOpenByBusid$6;
+                signed int return_value_drmOpenByBusid_6;
+                return_value_drmOpenByBusid_6=drmOpenByBusid(pt, type);
+                return return_value_drmOpenByBusid_6;
               }
 
               else
               {
-                signed long int return_value_strtol$7;
-                return_value_strtol$7=strtol(devstring, (char ** restrict )(void *)0, 0);
-                signed int return_value_drmOpenDevice$8;
-                return_value_drmOpenDevice$8=drmOpenDevice((unsigned long int)return_value_strtol$7, i, type);
-                return return_value_drmOpenDevice$8;
+                signed long int return_value_strtol_7;
+                return_value_strtol_7=strtol(devstring, (char ** restrict )(void *)0, 0);
+                signed int return_value_drmOpenDevice_8;
+                return_value_drmOpenDevice_8=drmOpenDevice((unsigned long int)return_value_strtol_7, i, type);
+                return return_value_drmOpenDevice_8;
               }
             }
 
@@ -10497,137 +10497,137 @@ static signed int drmOpenByName(const char *name, signed int type)
   }
 }
 
-// drmOpenByName$link1
+// drmOpenByName_link1
 // file ../xf86drm.c line 624
-static signed int drmOpenByName$link1(const char *name$link1, signed int type$link1)
+static signed int drmOpenByName_link1(const char *name_link1, signed int type_link1)
 {
-  signed int i$link1;
-  signed int fd$link1;
-  struct _drmVersion *version$link1;
-  char *id$link1;
-  signed int base$link1;
-  base$link1=drmGetMinorBase$link1(type$link1);
-  _Bool tmp_if_expr$1$link1;
-  _Bool tmp_if_expr$4$link1;
-  _Bool tmp_if_expr$5$link1;
-  if(!(base$link1 >= 0))
+  signed int i_link1;
+  signed int fd_link1;
+  struct _drmVersion *version_link1;
+  char *id_link1;
+  signed int base_link1;
+  base_link1=drmGetMinorBase_link1(type_link1);
+  _Bool tmp_if_expr_1_link1;
+  _Bool tmp_if_expr_4_link1;
+  _Bool tmp_if_expr_5_link1;
+  if(!(base_link1 >= 0))
     return -1;
 
   else
   {
-    i$link1 = base$link1;
-    for( ; !(i$link1 >= 16 + base$link1); i$link1 = i$link1 + 1)
+    i_link1 = base_link1;
+    for( ; !(i_link1 >= 16 + base_link1); i_link1 = i_link1 + 1)
     {
-      fd$link1=drmOpenMinor$link1(i$link1, 1, type$link1);
-      if(fd$link1 >= 0)
+      fd_link1=drmOpenMinor_link1(i_link1, 1, type_link1);
+      if(fd_link1 >= 0)
       {
-        version$link1=drmGetVersion(fd$link1);
-        if(!(version$link1 == ((struct _drmVersion *)NULL)))
+        version_link1=drmGetVersion(fd_link1);
+        if(!(version_link1 == ((struct _drmVersion *)NULL)))
         {
-          signed int return_value_strcmp$2$link1;
-          return_value_strcmp$2$link1=strcmp(version$link1->name, name$link1);
-          if(return_value_strcmp$2$link1 == 0)
+          signed int return_value_strcmp_2_link1;
+          return_value_strcmp_2_link1=strcmp(version_link1->name, name_link1);
+          if(return_value_strcmp_2_link1 == 0)
           {
-            drmFreeVersion(version$link1);
-            id$link1=drmGetBusid(fd$link1);
-            drmMsg("drmGetBusid returned '%s'\n", id$link1 != ((char *)NULL) ? id$link1 : "NULL");
-            if(id$link1 == ((char *)NULL))
-              tmp_if_expr$1$link1 = (_Bool)1;
+            drmFreeVersion(version_link1);
+            id_link1=drmGetBusid(fd_link1);
+            drmMsg("drmGetBusid returned '%s'\n", id_link1 != ((char *)NULL) ? id_link1 : "NULL");
+            if(id_link1 == ((char *)NULL))
+              tmp_if_expr_1_link1 = (_Bool)1;
 
             else
-              tmp_if_expr$1$link1 = !(*id$link1 != 0) ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$1$link1)
+              tmp_if_expr_1_link1 = !(*id_link1 != 0) ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_1_link1)
             {
-              if(!(id$link1 == ((char *)NULL)))
-                drmFreeBusid(id$link1);
+              if(!(id_link1 == ((char *)NULL)))
+                drmFreeBusid(id_link1);
 
-              return fd$link1;
+              return fd_link1;
             }
 
             else
-              drmFreeBusid(id$link1);
+              drmFreeBusid(id_link1);
           }
 
           else
-            drmFreeVersion(version$link1);
+            drmFreeVersion(version_link1);
         }
 
-        close(fd$link1);
+        close(fd_link1);
       }
 
     }
-    i$link1 = 0;
-    for( ; !(i$link1 >= 8); i$link1 = i$link1 + 1)
+    i_link1 = 0;
+    for( ; !(i_link1 >= 8); i_link1 = i_link1 + 1)
     {
-      char proc_name$link1[64l];
-      char buf$link1[512l];
-      char *driver$link1;
-      char *pt$link1;
-      char *devstring$link1;
-      signed int retcode$link1;
-      sprintf(proc_name$link1, "/proc/dri/%d/name", i$link1);
-      fd$link1=open(proc_name$link1, 0, 0);
-      if(fd$link1 >= 0)
+      char proc_name_link1[64l];
+      char buf_link1[512l];
+      char *driver_link1;
+      char *pt_link1;
+      char *devstring_link1;
+      signed int retcode_link1;
+      sprintf(proc_name_link1, "/proc/dri/%d/name", i_link1);
+      fd_link1=open(proc_name_link1, 0, 0);
+      if(fd_link1 >= 0)
       {
-        signed long int return_value_read$3$link1;
-        return_value_read$3$link1=read(fd$link1, (void *)buf$link1, sizeof(char [512l]) /*512ul*/  - (unsigned long int)1);
-        retcode$link1 = (signed int)return_value_read$3$link1;
-        close(fd$link1);
-        if(!(retcode$link1 == 0))
+        signed long int return_value_read_3_link1;
+        return_value_read_3_link1=read(fd_link1, (void *)buf_link1, sizeof(char [512l]) /*512ul*/  - (unsigned long int)1);
+        retcode_link1 = (signed int)return_value_read_3_link1;
+        close(fd_link1);
+        if(!(retcode_link1 == 0))
         {
-          buf$link1[(signed long int)(retcode$link1 - 1)] = (char)0;
-          pt$link1 = buf$link1;
-          driver$link1 = pt$link1;
+          buf_link1[(signed long int)(retcode_link1 - 1)] = (char)0;
+          pt_link1 = buf_link1;
+          driver_link1 = pt_link1;
           do
           {
-            if(!(*pt$link1 == 0))
-              tmp_if_expr$4$link1 = (signed int)*pt$link1 != 32 ? (_Bool)1 : (_Bool)0;
+            if(!(*pt_link1 == 0))
+              tmp_if_expr_4_link1 = (signed int)*pt_link1 != 32 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$4$link1 = (_Bool)0;
-            if(!tmp_if_expr$4$link1)
+              tmp_if_expr_4_link1 = (_Bool)0;
+            if(!tmp_if_expr_4_link1)
               break;
 
-            pt$link1 = pt$link1 + 1l;
+            pt_link1 = pt_link1 + 1l;
           }
           while((_Bool)1);
-          if(!(*pt$link1 == 0))
+          if(!(*pt_link1 == 0))
           {
-            *pt$link1 = (char)0;
-            signed int return_value_strcmp$9$link1;
-            return_value_strcmp$9$link1=strcmp(driver$link1, name$link1);
-            if(return_value_strcmp$9$link1 == 0)
+            *pt_link1 = (char)0;
+            signed int return_value_strcmp_9_link1;
+            return_value_strcmp_9_link1=strcmp(driver_link1, name_link1);
+            if(return_value_strcmp_9_link1 == 0)
             {
-              pt$link1 = pt$link1 + 1l;
-              devstring$link1 = pt$link1;
+              pt_link1 = pt_link1 + 1l;
+              devstring_link1 = pt_link1;
               do
               {
-                if(!(*pt$link1 == 0))
-                  tmp_if_expr$5$link1 = (signed int)*pt$link1 != 32 ? (_Bool)1 : (_Bool)0;
+                if(!(*pt_link1 == 0))
+                  tmp_if_expr_5_link1 = (signed int)*pt_link1 != 32 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$5$link1 = (_Bool)0;
-                if(!tmp_if_expr$5$link1)
+                  tmp_if_expr_5_link1 = (_Bool)0;
+                if(!tmp_if_expr_5_link1)
                   break;
 
-                pt$link1 = pt$link1 + 1l;
+                pt_link1 = pt_link1 + 1l;
               }
               while((_Bool)1);
-              if(!(*pt$link1 == 0))
+              if(!(*pt_link1 == 0))
               {
-                pt$link1 = pt$link1 + 1l;
-                signed int return_value_drmOpenByBusid$6$link1;
-                return_value_drmOpenByBusid$6$link1=drmOpenByBusid$link1(pt$link1, type$link1);
-                return return_value_drmOpenByBusid$6$link1;
+                pt_link1 = pt_link1 + 1l;
+                signed int return_value_drmOpenByBusid_6_link1;
+                return_value_drmOpenByBusid_6_link1=drmOpenByBusid_link1(pt_link1, type_link1);
+                return return_value_drmOpenByBusid_6_link1;
               }
 
               else
               {
-                signed long int return_value_strtol$7$link1;
-                return_value_strtol$7$link1=strtol(devstring$link1, (char ** restrict )(void *)0, 0);
-                signed int return_value_drmOpenDevice$8$link1;
-                return_value_drmOpenDevice$8$link1=drmOpenDevice$link1((unsigned long int)return_value_strtol$7$link1, i$link1, type$link1);
-                return return_value_drmOpenDevice$8$link1;
+                signed long int return_value_strtol_7_link1;
+                return_value_strtol_7_link1=strtol(devstring_link1, (char ** restrict )(void *)0, 0);
+                signed int return_value_drmOpenDevice_8_link1;
+                return_value_drmOpenDevice_8_link1=drmOpenDevice_link1((unsigned long int)return_value_strtol_7_link1, i_link1, type_link1);
+                return return_value_drmOpenDevice_8_link1;
               }
             }
 
@@ -10646,9 +10646,9 @@ static signed int drmOpenByName$link1(const char *name$link1, signed int type$li
 // file ../xf86drm.c line 756
 extern signed int drmOpenControl(signed int minor)
 {
-  signed int return_value_drmOpenMinor$1;
-  return_value_drmOpenMinor$1=drmOpenMinor(minor, 0, 1);
-  return return_value_drmOpenMinor$1;
+  signed int return_value_drmOpenMinor_1;
+  return_value_drmOpenMinor_1=drmOpenMinor(minor, 0, 1);
+  return return_value_drmOpenMinor_1;
 }
 
 // drmOpenDevice
@@ -10696,15 +10696,15 @@ static signed int drmOpenDevice(unsigned long int dev, signed int minor, signed 
   }
 
   signed int udev_count = 0;
-  signed int return_value_stat$1;
-  signed int return_value_stat$2;
+  signed int return_value_stat_1;
+  signed int return_value_stat_2;
   do
   {
 
   wait_for_udev:
     ;
-    return_value_stat$1=stat("/dev/dri", &st);
-    if(!(return_value_stat$1 == 0))
+    return_value_stat_1=stat("/dev/dri", &st);
+    if(!(return_value_stat_1 == 0))
     {
       usleep((unsigned int)20);
       udev_count = udev_count + 1;
@@ -10714,8 +10714,8 @@ static signed int drmOpenDevice(unsigned long int dev, signed int minor, signed 
       goto wait_for_udev;
     }
 
-    return_value_stat$2=stat(buf, &st);
-    if(return_value_stat$2 == 0)
+    return_value_stat_2=stat(buf, &st);
+    if(return_value_stat_2 == 0)
       break;
 
     usleep((unsigned int)20);
@@ -10726,126 +10726,126 @@ static signed int drmOpenDevice(unsigned long int dev, signed int minor, signed 
   }
   while((_Bool)1);
   fd=open(buf, 02, 0);
-  char *tmp_if_expr$5;
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
+  char *tmp_if_expr_5;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
   if(!(fd >= 0))
   {
-    return_value___errno_location$3=__errno_location();
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    tmp_if_expr$5 = return_value_strerror$4;
+    return_value___errno_location_3=__errno_location();
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    tmp_if_expr_5 = return_value_strerror_4;
   }
 
   else
-    tmp_if_expr$5 = "OK";
-  drmMsg("drmOpenDevice: open result is %d, (%s)\n", fd, tmp_if_expr$5);
+    tmp_if_expr_5 = "OK";
+  drmMsg("drmOpenDevice: open result is %d, (%s)\n", fd, tmp_if_expr_5);
   if(fd >= 0)
     return fd;
 
   else
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    return -(*return_value___errno_location$6);
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    return -(*return_value___errno_location_6);
   }
 }
 
-// drmOpenDevice$link1
+// drmOpenDevice_link1
 // file ../xf86drm.c line 308
-static signed int drmOpenDevice$link1(unsigned long int dev$link1, signed int minor$link1, signed int type$link1)
+static signed int drmOpenDevice_link1(unsigned long int dev_link1, signed int minor_link1, signed int type_link1)
 {
-  struct stat st$link1;
-  const char *dev_name$link1;
-  char buf$link1[64l];
-  signed int fd$link1;
-  unsigned int devmode$link1 = (unsigned int)(0400 | 0200 | 0400 >> 3 | 0200 >> 3 | (0400 >> 3) >> 3 | (0200 >> 3) >> 3);
-  unsigned int serv_mode$link1;
-  unsigned int serv_group$link1;
-  switch(type$link1)
+  struct stat st_link1;
+  const char *dev_name_link1;
+  char buf_link1[64l];
+  signed int fd_link1;
+  unsigned int devmode_link1 = (unsigned int)(0400 | 0200 | 0400 >> 3 | 0200 >> 3 | (0400 >> 3) >> 3 | (0200 >> 3) >> 3);
+  unsigned int serv_mode_link1;
+  unsigned int serv_group_link1;
+  switch(type_link1)
   {
     case 0:
     {
-      dev_name$link1 = "%s/card%d";
+      dev_name_link1 = "%s/card%d";
       break;
     }
     case 1:
     {
-      dev_name$link1 = "%s/controlD%d";
+      dev_name_link1 = "%s/controlD%d";
       break;
     }
     case 2:
     {
-      dev_name$link1 = "%s/renderD%d";
+      dev_name_link1 = "%s/renderD%d";
       break;
     }
     default:
       return -22;
   }
-  sprintf(buf$link1, dev_name$link1, (const void *)"/dev/dri", minor$link1);
-  drmMsg("drmOpenDevice: node name is %s\n", (const void *)buf$link1);
-  if(!(drm_server_info$link1 == ((struct _drmServerInfo *)NULL)))
+  sprintf(buf_link1, dev_name_link1, (const void *)"/dev/dri", minor_link1);
+  drmMsg("drmOpenDevice: node name is %s\n", (const void *)buf_link1);
+  if(!(drm_server_info_link1 == ((struct _drmServerInfo *)NULL)))
   {
-    if(!(drm_server_info$link1->get_perms == ((void (*)(unsigned int *, unsigned int *))NULL)))
+    if(!(drm_server_info_link1->get_perms == ((void (*)(unsigned int *, unsigned int *))NULL)))
     {
-      drm_server_info$link1->get_perms(&serv_group$link1, &serv_mode$link1);
-      devmode$link1 = serv_mode$link1 != 0u ? serv_mode$link1 : (unsigned int)(0400 | 0200 | 0400 >> 3 | 0200 >> 3 | (0400 >> 3) >> 3 | (0200 >> 3) >> 3);
-      devmode$link1 = devmode$link1 & (unsigned int)~(0100 | 0100 >> 3 | (0100 >> 3) >> 3);
+      drm_server_info_link1->get_perms(&serv_group_link1, &serv_mode_link1);
+      devmode_link1 = serv_mode_link1 != 0u ? serv_mode_link1 : (unsigned int)(0400 | 0200 | 0400 >> 3 | 0200 >> 3 | (0400 >> 3) >> 3 | (0200 >> 3) >> 3);
+      devmode_link1 = devmode_link1 & (unsigned int)~(0100 | 0100 >> 3 | (0100 >> 3) >> 3);
     }
 
   }
 
-  signed int udev_count$link1 = 0;
-  signed int return_value_stat$1$link1;
-  signed int return_value_stat$2$link1;
+  signed int udev_count_link1 = 0;
+  signed int return_value_stat_1_link1;
+  signed int return_value_stat_2_link1;
   do
   {
 
   wait_for_udev:
     ;
-    return_value_stat$1$link1=stat("/dev/dri", &st$link1);
-    if(!(return_value_stat$1$link1 == 0))
+    return_value_stat_1_link1=stat("/dev/dri", &st_link1);
+    if(!(return_value_stat_1_link1 == 0))
     {
       usleep((unsigned int)20);
-      udev_count$link1 = udev_count$link1 + 1;
-      if(udev_count$link1 == 50)
+      udev_count_link1 = udev_count_link1 + 1;
+      if(udev_count_link1 == 50)
         return -1;
 
       goto wait_for_udev;
     }
 
-    return_value_stat$2$link1=stat(buf$link1, &st$link1);
-    if(return_value_stat$2$link1 == 0)
+    return_value_stat_2_link1=stat(buf_link1, &st_link1);
+    if(return_value_stat_2_link1 == 0)
       break;
 
     usleep((unsigned int)20);
-    udev_count$link1 = udev_count$link1 + 1;
-    if(udev_count$link1 == 50)
+    udev_count_link1 = udev_count_link1 + 1;
+    if(udev_count_link1 == 50)
       return -1;
 
   }
   while((_Bool)1);
-  fd$link1=open(buf$link1, 02, 0);
-  char *tmp_if_expr$5$link1;
-  signed int *return_value___errno_location$3$link1;
-  char *return_value_strerror$4$link1;
-  if(!(fd$link1 >= 0))
+  fd_link1=open(buf_link1, 02, 0);
+  char *tmp_if_expr_5_link1;
+  signed int *return_value___errno_location_3_link1;
+  char *return_value_strerror_4_link1;
+  if(!(fd_link1 >= 0))
   {
-    return_value___errno_location$3$link1=__errno_location();
-    return_value_strerror$4$link1=strerror(*return_value___errno_location$3$link1);
-    tmp_if_expr$5$link1 = return_value_strerror$4$link1;
+    return_value___errno_location_3_link1=__errno_location();
+    return_value_strerror_4_link1=strerror(*return_value___errno_location_3_link1);
+    tmp_if_expr_5_link1 = return_value_strerror_4_link1;
   }
 
   else
-    tmp_if_expr$5$link1 = "OK";
-  drmMsg("drmOpenDevice: open result is %d, (%s)\n", fd$link1, tmp_if_expr$5$link1);
-  if(fd$link1 >= 0)
-    return fd$link1;
+    tmp_if_expr_5_link1 = "OK";
+  drmMsg("drmOpenDevice: open result is %d, (%s)\n", fd_link1, tmp_if_expr_5_link1);
+  if(fd_link1 >= 0)
+    return fd_link1;
 
   else
   {
-    signed int *return_value___errno_location$6$link1;
-    return_value___errno_location$6$link1=__errno_location();
-    return -(*return_value___errno_location$6$link1);
+    signed int *return_value___errno_location_6_link1;
+    return_value___errno_location_6_link1=__errno_location();
+    return -(*return_value___errno_location_6_link1);
   }
 }
 
@@ -10856,13 +10856,13 @@ static signed int drmOpenMinor(signed int minor, signed int create, signed int t
   signed int fd;
   char buf[64l];
   const char *dev_name;
-  unsigned long long int return_value_gnu_dev_makedev$1;
-  signed int return_value_drmOpenDevice$2;
+  unsigned long long int return_value_gnu_dev_makedev_1;
+  signed int return_value_drmOpenDevice_2;
   if(!(create == 0))
   {
-    return_value_gnu_dev_makedev$1=gnu_dev_makedev((unsigned int)226, (unsigned int)minor);
-    return_value_drmOpenDevice$2=drmOpenDevice(return_value_gnu_dev_makedev$1, minor, type);
-    return return_value_drmOpenDevice$2;
+    return_value_gnu_dev_makedev_1=gnu_dev_makedev((unsigned int)226, (unsigned int)minor);
+    return_value_drmOpenDevice_2=drmOpenDevice(return_value_gnu_dev_makedev_1, minor, type);
+    return return_value_drmOpenDevice_2;
   }
 
   else
@@ -10894,61 +10894,61 @@ static signed int drmOpenMinor(signed int minor, signed int create, signed int t
 
     else
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      return -(*return_value___errno_location$3);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      return -(*return_value___errno_location_3);
     }
   }
 }
 
-// drmOpenMinor$link1
+// drmOpenMinor_link1
 // file ../xf86drm.c line 437
-static signed int drmOpenMinor$link1(signed int minor$link1, signed int create$link1, signed int type$link1)
+static signed int drmOpenMinor_link1(signed int minor_link1, signed int create_link1, signed int type_link1)
 {
-  signed int fd$link1;
-  char buf$link1[64l];
-  const char *dev_name$link1;
-  unsigned long long int return_value_gnu_dev_makedev$1$link1;
-  signed int return_value_drmOpenDevice$2$link1;
-  if(!(create$link1 == 0))
+  signed int fd_link1;
+  char buf_link1[64l];
+  const char *dev_name_link1;
+  unsigned long long int return_value_gnu_dev_makedev_1_link1;
+  signed int return_value_drmOpenDevice_2_link1;
+  if(!(create_link1 == 0))
   {
-    return_value_gnu_dev_makedev$1$link1=gnu_dev_makedev((unsigned int)226, (unsigned int)minor$link1);
-    return_value_drmOpenDevice$2$link1=drmOpenDevice$link1(return_value_gnu_dev_makedev$1$link1, minor$link1, type$link1);
-    return return_value_drmOpenDevice$2$link1;
+    return_value_gnu_dev_makedev_1_link1=gnu_dev_makedev((unsigned int)226, (unsigned int)minor_link1);
+    return_value_drmOpenDevice_2_link1=drmOpenDevice_link1(return_value_gnu_dev_makedev_1_link1, minor_link1, type_link1);
+    return return_value_drmOpenDevice_2_link1;
   }
 
   else
   {
-    switch(type$link1)
+    switch(type_link1)
     {
       case 0:
       {
-        dev_name$link1 = "%s/card%d";
+        dev_name_link1 = "%s/card%d";
         break;
       }
       case 1:
       {
-        dev_name$link1 = "%s/controlD%d";
+        dev_name_link1 = "%s/controlD%d";
         break;
       }
       case 2:
       {
-        dev_name$link1 = "%s/renderD%d";
+        dev_name_link1 = "%s/renderD%d";
         break;
       }
       default:
         return -22;
     }
-    sprintf(buf$link1, dev_name$link1, (const void *)"/dev/dri", minor$link1);
-    fd$link1=open(buf$link1, 02, 0);
-    if(fd$link1 >= 0)
-      return fd$link1;
+    sprintf(buf_link1, dev_name_link1, (const void *)"/dev/dri", minor_link1);
+    fd_link1=open(buf_link1, 02, 0);
+    if(fd_link1 >= 0)
+      return fd_link1;
 
     else
     {
-      signed int *return_value___errno_location$3$link1;
-      return_value___errno_location$3$link1=__errno_location();
-      return -(*return_value___errno_location$3$link1);
+      signed int *return_value___errno_location_3_link1;
+      return_value___errno_location_3_link1=__errno_location();
+      return -(*return_value___errno_location_3_link1);
     }
   }
 }
@@ -10957,9 +10957,9 @@ static signed int drmOpenMinor$link1(signed int minor$link1, signed int create$l
 // file ../xf86drm.c line 2614
 extern signed int drmOpenOnce(void *unused, const char *BusID, signed int *newlyopened)
 {
-  signed int return_value_drmOpenOnceWithType$1;
-  return_value_drmOpenOnceWithType$1=drmOpenOnceWithType(BusID, newlyopened, 0);
-  return return_value_drmOpenOnceWithType$1;
+  signed int return_value_drmOpenOnceWithType_1;
+  return_value_drmOpenOnceWithType_1=drmOpenOnceWithType(BusID, newlyopened, 0);
+  return return_value_drmOpenOnceWithType_1;
 }
 
 // drmOpenOnceWithType
@@ -10969,11 +10969,11 @@ extern signed int drmOpenOnceWithType(const char *BusID, signed int *newlyopened
   signed int i;
   signed int fd;
   i = 0;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; !(i >= nr_fds); i = i + 1)
   {
-    return_value_strcmp$1=strcmp(BusID, connection[(signed long int)i].BusID);
-    if(return_value_strcmp$1 == 0)
+    return_value_strcmp_1=strcmp(BusID, connection[(signed long int)i].BusID);
+    if(return_value_strcmp_1 == 0)
     {
       if(connection[(signed long int)i].type == type)
       {
@@ -10986,7 +10986,7 @@ extern signed int drmOpenOnceWithType(const char *BusID, signed int *newlyopened
 
   }
   fd=drmOpenWithType((const char *)(void *)0, BusID, type);
-  signed int return_value_strcmp$2;
+  signed int return_value_strcmp_2;
   if(nr_fds == 16 || !(fd >= 0))
     return fd;
 
@@ -11006,18 +11006,18 @@ extern signed int drmOpenOnceWithType(const char *BusID, signed int *newlyopened
 // file ../xf86drm.c line 761
 extern signed int drmOpenRender(signed int minor)
 {
-  signed int return_value_drmOpenMinor$1;
-  return_value_drmOpenMinor$1=drmOpenMinor(minor, 0, 2);
-  return return_value_drmOpenMinor$1;
+  signed int return_value_drmOpenMinor_1;
+  return_value_drmOpenMinor_1=drmOpenMinor(minor, 0, 2);
+  return return_value_drmOpenMinor_1;
 }
 
 // drmOpenWithType
 // file ../../../xf86drm.h line 568
 extern signed int drmOpenWithType(const char *name, const char *busid, signed int type)
 {
-  signed int return_value_drmAvailable$1;
-  return_value_drmAvailable$1=drmAvailable();
-  if(return_value_drmAvailable$1 == 0)
+  signed int return_value_drmAvailable_1;
+  return_value_drmAvailable_1=drmAvailable();
+  if(return_value_drmAvailable_1 == 0)
   {
     if(!(name == ((const char *)NULL)))
     {
@@ -11050,11 +11050,11 @@ extern signed int drmOpenWithType(const char *name, const char *busid, signed in
 
   }
 
-  signed int return_value_drmOpenByName$2;
+  signed int return_value_drmOpenByName_2;
   if(!(name == ((const char *)NULL)))
   {
-    return_value_drmOpenByName$2=drmOpenByName(name, type);
-    return return_value_drmOpenByName$2;
+    return_value_drmOpenByName_2=drmOpenByName(name, type);
+    return return_value_drmOpenByName_2;
   }
 
   else
@@ -11076,25 +11076,25 @@ static signed int drmParsePciBusInfo(signed int maj, signed int min, struct _drm
   signed int ret;
   snprintf(path, (unsigned long int)4096, "/sys/dev/char/%d:%d/device/uevent", maj, min);
   fd=open(path, 00);
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_3;
   if(!(fd >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
   {
-    signed long int return_value_read$2;
-    return_value_read$2=read(fd, (void *)data, sizeof(char [129l]) /*129ul*/ );
-    ret = (signed int)return_value_read$2;
+    signed long int return_value_read_2;
+    return_value_read_2=read(fd, (void *)data, sizeof(char [129l]) /*129ul*/ );
+    ret = (signed int)return_value_read_2;
     data[(signed long int)128] = (char)0;
     close(fd);
     if(!(ret >= 0))
     {
-      return_value___errno_location$3=__errno_location();
-      return -(*return_value___errno_location$3);
+      return_value___errno_location_3=__errno_location();
+      return -(*return_value___errno_location_3);
     }
 
     else
@@ -11105,9 +11105,9 @@ static signed int drmParsePciBusInfo(signed int maj, signed int min, struct _drm
 
       else
       {
-        signed int return_value_sscanf$4;
-        return_value_sscanf$4=sscanf(str, "PCI_SLOT_NAME=%04x:%02x:%02x.%1u", &domain, &bus, &dev, &func);
-        if(!(return_value_sscanf$4 == 4))
+        signed int return_value_sscanf_4;
+        return_value_sscanf_4=sscanf(str, "PCI_SLOT_NAME=%04x:%02x:%02x.%1u", &domain, &bus, &dev, &func);
+        if(!(return_value_sscanf_4 == 4))
           return -22;
 
         else
@@ -11123,61 +11123,61 @@ static signed int drmParsePciBusInfo(signed int maj, signed int min, struct _drm
   }
 }
 
-// drmParsePciBusInfo$link1
+// drmParsePciBusInfo_link1
 // file ../xf86drm.c line 2862
-static signed int drmParsePciBusInfo$link1(signed int maj$link1, signed int min$link1, struct _drmPciBusInfo *info$link1)
+static signed int drmParsePciBusInfo_link1(signed int maj_link1, signed int min_link1, struct _drmPciBusInfo *info_link1)
 {
-  char path$link1[4097l];
-  char data$link1[129l];
-  char *str$link1;
-  signed int domain$link1;
-  signed int bus$link1;
-  signed int dev$link1;
-  signed int func$link1;
-  signed int fd$link1;
-  signed int ret$link1;
-  snprintf(path$link1, (unsigned long int)4096, "/sys/dev/char/%d:%d/device/uevent", maj$link1, min$link1);
-  fd$link1=open(path$link1, 00);
-  signed int *return_value___errno_location$1$link1;
-  signed int *return_value___errno_location$3$link1;
-  if(!(fd$link1 >= 0))
+  char path_link1[4097l];
+  char data_link1[129l];
+  char *str_link1;
+  signed int domain_link1;
+  signed int bus_link1;
+  signed int dev_link1;
+  signed int func_link1;
+  signed int fd_link1;
+  signed int ret_link1;
+  snprintf(path_link1, (unsigned long int)4096, "/sys/dev/char/%d:%d/device/uevent", maj_link1, min_link1);
+  fd_link1=open(path_link1, 00);
+  signed int *return_value___errno_location_1_link1;
+  signed int *return_value___errno_location_3_link1;
+  if(!(fd_link1 >= 0))
   {
-    return_value___errno_location$1$link1=__errno_location();
-    return -(*return_value___errno_location$1$link1);
+    return_value___errno_location_1_link1=__errno_location();
+    return -(*return_value___errno_location_1_link1);
   }
 
   else
   {
-    signed long int return_value_read$2$link1;
-    return_value_read$2$link1=read(fd$link1, (void *)data$link1, sizeof(char [129l]) /*129ul*/ );
-    ret$link1 = (signed int)return_value_read$2$link1;
-    data$link1[(signed long int)128] = (char)0;
-    close(fd$link1);
-    if(!(ret$link1 >= 0))
+    signed long int return_value_read_2_link1;
+    return_value_read_2_link1=read(fd_link1, (void *)data_link1, sizeof(char [129l]) /*129ul*/ );
+    ret_link1 = (signed int)return_value_read_2_link1;
+    data_link1[(signed long int)128] = (char)0;
+    close(fd_link1);
+    if(!(ret_link1 >= 0))
     {
-      return_value___errno_location$3$link1=__errno_location();
-      return -(*return_value___errno_location$3$link1);
+      return_value___errno_location_3_link1=__errno_location();
+      return -(*return_value___errno_location_3_link1);
     }
 
     else
     {
-      str$link1=strstr(data$link1, "PCI_SLOT_NAME=");
-      if(str$link1 == ((char *)NULL))
+      str_link1=strstr(data_link1, "PCI_SLOT_NAME=");
+      if(str_link1 == ((char *)NULL))
         return -22;
 
       else
       {
-        signed int return_value_sscanf$4$link1;
-        return_value_sscanf$4$link1=sscanf(str$link1, "PCI_SLOT_NAME=%04x:%02x:%02x.%1u", &domain$link1, &bus$link1, &dev$link1, &func$link1);
-        if(!(return_value_sscanf$4$link1 == 4))
+        signed int return_value_sscanf_4_link1;
+        return_value_sscanf_4_link1=sscanf(str_link1, "PCI_SLOT_NAME=%04x:%02x:%02x.%1u", &domain_link1, &bus_link1, &dev_link1, &func_link1);
+        if(!(return_value_sscanf_4_link1 == 4))
           return -22;
 
         else
         {
-          info$link1->domain = (unsigned short int)domain$link1;
-          info$link1->bus = (unsigned char)bus$link1;
-          info$link1->dev = (unsigned char)dev$link1;
-          info$link1->func = (unsigned char)func$link1;
+          info_link1->domain = (unsigned short int)domain_link1;
+          info_link1->bus = (unsigned char)bus_link1;
+          info_link1->dev = (unsigned char)dev_link1;
+          info_link1->func = (unsigned char)func_link1;
           return 0;
         }
       }
@@ -11195,24 +11195,24 @@ static signed int drmParsePciDeviceInfo(const char *d_name, struct _drmPciDevice
   signed int ret;
   snprintf(path, (unsigned long int)4096, "/sys/class/drm/%s/device/config", d_name);
   fd=open(path, 00);
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_3;
   if(!(fd >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
   {
-    signed long int return_value_read$2;
-    return_value_read$2=read(fd, (void *)config, sizeof(unsigned char [64l]) /*64ul*/ );
-    ret = (signed int)return_value_read$2;
+    signed long int return_value_read_2;
+    return_value_read_2=read(fd, (void *)config, sizeof(unsigned char [64l]) /*64ul*/ );
+    ret = (signed int)return_value_read_2;
     close(fd);
     if(!(ret >= 0))
     {
-      return_value___errno_location$3=__errno_location();
-      return -(*return_value___errno_location$3);
+      return_value___errno_location_3=__errno_location();
+      return -(*return_value___errno_location_3);
     }
 
     else
@@ -11227,43 +11227,43 @@ static signed int drmParsePciDeviceInfo(const char *d_name, struct _drmPciDevice
   }
 }
 
-// drmParsePciDeviceInfo$link1
+// drmParsePciDeviceInfo_link1
 // file ../xf86drm.c line 2948
-static signed int drmParsePciDeviceInfo$link1(const char *d_name$link1, struct _drmPciDeviceInfo *device$link1)
+static signed int drmParsePciDeviceInfo_link1(const char *d_name_link1, struct _drmPciDeviceInfo *device_link1)
 {
-  char path$link1[4097l];
-  unsigned char config$link1[64l];
-  signed int fd$link1;
-  signed int ret$link1;
-  snprintf(path$link1, (unsigned long int)4096, "/sys/class/drm/%s/device/config", d_name$link1);
-  fd$link1=open(path$link1, 00);
-  signed int *return_value___errno_location$1$link1;
-  signed int *return_value___errno_location$3$link1;
-  if(!(fd$link1 >= 0))
+  char path_link1[4097l];
+  unsigned char config_link1[64l];
+  signed int fd_link1;
+  signed int ret_link1;
+  snprintf(path_link1, (unsigned long int)4096, "/sys/class/drm/%s/device/config", d_name_link1);
+  fd_link1=open(path_link1, 00);
+  signed int *return_value___errno_location_1_link1;
+  signed int *return_value___errno_location_3_link1;
+  if(!(fd_link1 >= 0))
   {
-    return_value___errno_location$1$link1=__errno_location();
-    return -(*return_value___errno_location$1$link1);
+    return_value___errno_location_1_link1=__errno_location();
+    return -(*return_value___errno_location_1_link1);
   }
 
   else
   {
-    signed long int return_value_read$2$link1;
-    return_value_read$2$link1=read(fd$link1, (void *)config$link1, sizeof(unsigned char [64l]) /*64ul*/ );
-    ret$link1 = (signed int)return_value_read$2$link1;
-    close(fd$link1);
-    if(!(ret$link1 >= 0))
+    signed long int return_value_read_2_link1;
+    return_value_read_2_link1=read(fd_link1, (void *)config_link1, sizeof(unsigned char [64l]) /*64ul*/ );
+    ret_link1 = (signed int)return_value_read_2_link1;
+    close(fd_link1);
+    if(!(ret_link1 >= 0))
     {
-      return_value___errno_location$3$link1=__errno_location();
-      return -(*return_value___errno_location$3$link1);
+      return_value___errno_location_3_link1=__errno_location();
+      return -(*return_value___errno_location_3_link1);
     }
 
     else
     {
-      device$link1->vendor_id = (unsigned short int)((signed int)config$link1[(signed long int)0] | (signed int)config$link1[(signed long int)1] << 8);
-      device$link1->device_id = (unsigned short int)((signed int)config$link1[(signed long int)2] | (signed int)config$link1[(signed long int)3] << 8);
-      device$link1->revision_id = config$link1[(signed long int)8];
-      device$link1->subvendor_id = (unsigned short int)((signed int)config$link1[(signed long int)44] | (signed int)config$link1[(signed long int)45] << 8);
-      device$link1->subdevice_id = (unsigned short int)((signed int)config$link1[(signed long int)46] | (signed int)config$link1[(signed long int)47] << 8);
+      device_link1->vendor_id = (unsigned short int)((signed int)config_link1[(signed long int)0] | (signed int)config_link1[(signed long int)1] << 8);
+      device_link1->device_id = (unsigned short int)((signed int)config_link1[(signed long int)2] | (signed int)config_link1[(signed long int)3] << 8);
+      device_link1->revision_id = config_link1[(signed long int)8];
+      device_link1->subvendor_id = (unsigned short int)((signed int)config_link1[(signed long int)44] | (signed int)config_link1[(signed long int)45] << 8);
+      device_link1->subdevice_id = (unsigned short int)((signed int)config_link1[(signed long int)46] | (signed int)config_link1[(signed long int)47] << 8);
       return 0;
     }
   }
@@ -11277,13 +11277,13 @@ static signed int drmParseSubsystemType(signed int maj, signed int min)
   char link[4097l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   char *name;
   snprintf(path, (unsigned long int)4096, "/sys/dev/char/%d:%d/device/subsystem", maj, min);
-  signed long int return_value_readlink$2;
-  return_value_readlink$2=readlink(path, link, (unsigned long int)4096);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_readlink$2 >= 0l))
+  signed long int return_value_readlink_2;
+  return_value_readlink_2=readlink(path, link, (unsigned long int)4096);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_readlink_2 >= 0l))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -11294,9 +11294,9 @@ static signed int drmParseSubsystemType(signed int maj, signed int min)
 
     else
     {
-      signed int return_value_strncmp$3;
-      return_value_strncmp$3=strncmp(name, "/pci", (unsigned long int)4);
-      if(return_value_strncmp$3 == 0)
+      signed int return_value_strncmp_3;
+      return_value_strncmp_3=strncmp(name, "/pci", (unsigned long int)4);
+      if(return_value_strncmp_3 == 0)
         return 0;
 
       else
@@ -11305,34 +11305,34 @@ static signed int drmParseSubsystemType(signed int maj, signed int min)
   }
 }
 
-// drmParseSubsystemType$link1
+// drmParseSubsystemType_link1
 // file ../xf86drm.c line 2835
-static signed int drmParseSubsystemType$link1(signed int maj$link1, signed int min$link1)
+static signed int drmParseSubsystemType_link1(signed int maj_link1, signed int min_link1)
 {
-  char path$link1[4097l];
-  char link$link1[4097l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-  char *name$link1;
-  snprintf(path$link1, (unsigned long int)4096, "/sys/dev/char/%d:%d/device/subsystem", maj$link1, min$link1);
-  signed long int return_value_readlink$2$link1;
-  return_value_readlink$2$link1=readlink(path$link1, link$link1, (unsigned long int)4096);
-  signed int *return_value___errno_location$1$link1;
-  if(!(return_value_readlink$2$link1 >= 0l))
+  char path_link1[4097l];
+  char link_link1[4097l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+  char *name_link1;
+  snprintf(path_link1, (unsigned long int)4096, "/sys/dev/char/%d:%d/device/subsystem", maj_link1, min_link1);
+  signed long int return_value_readlink_2_link1;
+  return_value_readlink_2_link1=readlink(path_link1, link_link1, (unsigned long int)4096);
+  signed int *return_value___errno_location_1_link1;
+  if(!(return_value_readlink_2_link1 >= 0l))
   {
-    return_value___errno_location$1$link1=__errno_location();
-    return -(*return_value___errno_location$1$link1);
+    return_value___errno_location_1_link1=__errno_location();
+    return -(*return_value___errno_location_1_link1);
   }
 
   else
   {
-    name$link1=strrchr(link$link1, 47);
-    if(name$link1 == ((char *)NULL))
+    name_link1=strrchr(link_link1, 47);
+    if(name_link1 == ((char *)NULL))
       return -22;
 
     else
     {
-      signed int return_value_strncmp$3$link1;
-      return_value_strncmp$3$link1=strncmp(name$link1, "/pci", (unsigned long int)4);
-      if(return_value_strncmp$3$link1 == 0)
+      signed int return_value_strncmp_3_link1;
+      return_value_strncmp_3_link1=strncmp(name_link1, "/pci", (unsigned long int)4);
+      if(return_value_strncmp_3_link1 == 0)
         return 0;
 
       else
@@ -11390,9 +11390,9 @@ static signed int drmProcessPciDevice(struct _drmDevice **device, const char *d_
   signed int ret;
   signed int i;
   char *addr;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct _drmDevice) /*32ul*/  + (unsigned long int)3 * (sizeof(void *) /*8ul*/  + (unsigned long int)max_node_str) + sizeof(struct _drmPciBusInfo) /*6ul*/  + sizeof(struct _drmPciDeviceInfo) /*10ul*/ );
-  *device = (struct _drmDevice *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct _drmDevice) /*32ul*/  + (unsigned long int)3 * (sizeof(void *) /*8ul*/  + (unsigned long int)max_node_str) + sizeof(struct _drmPciBusInfo) /*6ul*/  + sizeof(struct _drmPciDeviceInfo) /*10ul*/ );
+  *device = (struct _drmDevice *)return_value_calloc_1;
   if(*device == ((struct _drmDevice *)NULL))
     return -12;
 
@@ -11440,46 +11440,46 @@ static signed int drmProcessPciDevice(struct _drmDevice **device, const char *d_
   }
 }
 
-// drmProcessPciDevice$link1
+// drmProcessPciDevice_link1
 // file ../xf86drm.c line 2999
-static signed int drmProcessPciDevice$link1(struct _drmDevice **device$link1, const char *d_name$link1, const char *node$link1, signed int node_type$link1, signed int maj$link1, signed int min$link1, _Bool fetch_deviceinfo$link1)
+static signed int drmProcessPciDevice_link1(struct _drmDevice **device_link1, const char *d_name_link1, const char *node_link1, signed int node_type_link1, signed int maj_link1, signed int min_link1, _Bool fetch_deviceinfo_link1)
 {
-  signed int max_node_str$link1;
-  max_node_str$link1=drmGetMaxNodeName$link1();
-  signed int ret$link1;
-  signed int i$link1;
-  char *addr$link1;
-  void *return_value_calloc$1$link1;
-  return_value_calloc$1$link1=calloc((unsigned long int)1, sizeof(struct _drmDevice) /*32ul*/  + (unsigned long int)3 * (sizeof(void *) /*8ul*/  + (unsigned long int)max_node_str$link1) + sizeof(struct _drmPciBusInfo) /*6ul*/  + sizeof(struct _drmPciDeviceInfo) /*10ul*/ );
-  *device$link1 = (struct _drmDevice *)return_value_calloc$1$link1;
-  if(*device$link1 == ((struct _drmDevice *)NULL))
+  signed int max_node_str_link1;
+  max_node_str_link1=drmGetMaxNodeName_link1();
+  signed int ret_link1;
+  signed int i_link1;
+  char *addr_link1;
+  void *return_value_calloc_1_link1;
+  return_value_calloc_1_link1=calloc((unsigned long int)1, sizeof(struct _drmDevice) /*32ul*/  + (unsigned long int)3 * (sizeof(void *) /*8ul*/  + (unsigned long int)max_node_str_link1) + sizeof(struct _drmPciBusInfo) /*6ul*/  + sizeof(struct _drmPciDeviceInfo) /*10ul*/ );
+  *device_link1 = (struct _drmDevice *)return_value_calloc_1_link1;
+  if(*device_link1 == ((struct _drmDevice *)NULL))
     return -12;
 
   else
   {
-    addr$link1 = (char *)*device$link1;
-    (*device$link1)->bustype = 0;
-    (*device$link1)->available_nodes = 1 << node_type$link1;
-    addr$link1 = addr$link1 + (signed long int)sizeof(struct _drmDevice) /*32ul*/ ;
-    (*device$link1)->nodes = (char **)addr$link1;
-    addr$link1 = addr$link1 + (signed long int)((unsigned long int)3 * sizeof(void *) /*8ul*/ );
-    i$link1 = 0;
-    for( ; !(i$link1 >= 3); i$link1 = i$link1 + 1)
+    addr_link1 = (char *)*device_link1;
+    (*device_link1)->bustype = 0;
+    (*device_link1)->available_nodes = 1 << node_type_link1;
+    addr_link1 = addr_link1 + (signed long int)sizeof(struct _drmDevice) /*32ul*/ ;
+    (*device_link1)->nodes = (char **)addr_link1;
+    addr_link1 = addr_link1 + (signed long int)((unsigned long int)3 * sizeof(void *) /*8ul*/ );
+    i_link1 = 0;
+    for( ; !(i_link1 >= 3); i_link1 = i_link1 + 1)
     {
-      (*device$link1)->nodes[(signed long int)i$link1] = addr$link1;
-      addr$link1 = addr$link1 + (signed long int)max_node_str$link1;
+      (*device_link1)->nodes[(signed long int)i_link1] = addr_link1;
+      addr_link1 = addr_link1 + (signed long int)max_node_str_link1;
     }
-    memcpy((void *)(*device$link1)->nodes[(signed long int)node_type$link1], (const void *)node$link1, (unsigned long int)max_node_str$link1);
-    (*device$link1)->businfo.pci = (struct _drmPciBusInfo *)addr$link1;
-    ret$link1=drmParsePciBusInfo$link1(maj$link1, min$link1, (*device$link1)->businfo.pci);
-    if(ret$link1 == 0)
+    memcpy((void *)(*device_link1)->nodes[(signed long int)node_type_link1], (const void *)node_link1, (unsigned long int)max_node_str_link1);
+    (*device_link1)->businfo.pci = (struct _drmPciBusInfo *)addr_link1;
+    ret_link1=drmParsePciBusInfo_link1(maj_link1, min_link1, (*device_link1)->businfo.pci);
+    if(ret_link1 == 0)
     {
-      if(!(fetch_deviceinfo$link1 == (_Bool)0))
+      if(!(fetch_deviceinfo_link1 == (_Bool)0))
       {
-        addr$link1 = addr$link1 + (signed long int)sizeof(struct _drmPciBusInfo) /*6ul*/ ;
-        (*device$link1)->deviceinfo.pci = (struct _drmPciDeviceInfo *)addr$link1;
-        ret$link1=drmParsePciDeviceInfo$link1(d_name$link1, (*device$link1)->deviceinfo.pci);
-        if(!(ret$link1 == 0))
+        addr_link1 = addr_link1 + (signed long int)sizeof(struct _drmPciBusInfo) /*6ul*/ ;
+        (*device_link1)->deviceinfo.pci = (struct _drmPciDeviceInfo *)addr_link1;
+        ret_link1=drmParsePciDeviceInfo_link1(d_name_link1, (*device_link1)->deviceinfo.pci);
+        if(!(ret_link1 == 0))
           goto free_device;
 
       }
@@ -11492,9 +11492,9 @@ static signed int drmProcessPciDevice$link1(struct _drmDevice **device$link1, co
 
     free_device:
       ;
-      free((void *)*device$link1);
-      *device$link1 = (struct _drmDevice *)(void *)0;
-      return ret$link1;
+      free((void *)*device_link1);
+      *device_link1 = (struct _drmDevice *)(void *)0;
+      return ret_link1;
     }
   }
 }
@@ -11520,9 +11520,9 @@ extern unsigned long int drmRandom(void *state)
 extern void * drmRandomCreate(unsigned long int seed)
 {
   struct RandomState *state;
-  void *return_value_drmMalloc$1;
-  return_value_drmMalloc$1=drmMalloc((signed int)sizeof(struct RandomState) /*56ul*/ );
-  state = (struct RandomState *)return_value_drmMalloc$1;
+  void *return_value_drmMalloc_1;
+  return_value_drmMalloc_1=drmMalloc((signed int)sizeof(struct RandomState) /*56ul*/ );
+  state = (struct RandomState *)return_value_drmMalloc_1;
   if(state == ((struct RandomState *)NULL))
     return (void *)0;
 
@@ -11558,9 +11558,9 @@ extern signed int drmRandomDestroy(void *state)
 extern double drmRandomDouble(void *state)
 {
   struct RandomState *s = (struct RandomState *)state;
-  unsigned long int return_value_drmRandom$1;
-  return_value_drmRandom$1=drmRandom(state);
-  return (double)return_value_drmRandom$1 / (double)s->m;
+  unsigned long int return_value_drmRandom_1;
+  return_value_drmRandom_1=drmRandom(state);
+  return (double)return_value_drmRandom_1 / (double)s->m;
 }
 
 // drmRmMap
@@ -11570,13 +11570,13 @@ extern signed int drmRmMap(signed int fd, unsigned int handle)
   struct drm_map map;
   memset((void *)&map, 0, sizeof(struct drm_map) /*40ul*/ );
   map.handle = (void *)(unsigned long int)handle;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x1b << 0)) | sizeof(struct drm_map) /*40ul*/  << 0 + 8 + 8, (void *)&map);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x1b << 0)) | sizeof(struct drm_map) /*40ul*/  << 0 + 8 + 8, (void *)&map);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -11589,9 +11589,9 @@ extern void * drmSLCreate(void)
 {
   struct SkipList *list;
   signed int i;
-  void *return_value_drmMalloc$1;
-  return_value_drmMalloc$1=drmMalloc((signed int)sizeof(struct SkipList) /*32ul*/ );
-  list = (struct SkipList *)return_value_drmMalloc$1;
+  void *return_value_drmMalloc_1;
+  return_value_drmMalloc_1=drmMalloc((signed int)sizeof(struct SkipList) /*32ul*/ );
+  list = (struct SkipList *)return_value_drmMalloc_1;
   if(list == ((struct SkipList *)NULL))
     return (void *)0;
 
@@ -11616,7 +11616,7 @@ extern signed int drmSLDelete(void *l, unsigned long int key)
   struct SLEntry *update[17l];
   struct SLEntry *entry;
   signed int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(list->magic == 0xfacade00LU))
     return -1;
 
@@ -11624,11 +11624,11 @@ extern signed int drmSLDelete(void *l, unsigned long int key)
   {
     entry=SLLocate((void *)list, key, update);
     if(entry == ((struct SLEntry *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = entry->key != key ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = entry->key != key ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return 1;
 
     else
@@ -11720,9 +11720,9 @@ extern signed int drmSLFirst(void *l, unsigned long int *key, void **value)
   else
   {
     list->p0 = list->head->forward[(signed long int)0];
-    signed int return_value_drmSLNext$1;
-    return_value_drmSLNext$1=drmSLNext((void *)list, key, value);
-    return return_value_drmSLNext$1;
+    signed int return_value_drmSLNext_1;
+    return_value_drmSLNext_1=drmSLNext((void *)list, key, value);
+    return return_value_drmSLNext_1;
   }
 }
 
@@ -11867,13 +11867,13 @@ extern signed int drmScatterGatherAlloc(signed int fd, unsigned long int size, u
   memset((void *)&sg, 0, sizeof(struct drm_scatter_gather) /*16ul*/ );
   *handle = (unsigned int)0;
   sg.size = size;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x38 << 0)) | sizeof(struct drm_scatter_gather) /*16ul*/  << 0 + 8 + 8, (void *)&sg);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x38 << 0)) | sizeof(struct drm_scatter_gather) /*16ul*/  << 0 + 8 + 8, (void *)&sg);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -11890,13 +11890,13 @@ extern signed int drmScatterGatherFree(signed int fd, unsigned int handle)
   struct drm_scatter_gather sg;
   memset((void *)&sg, 0, sizeof(struct drm_scatter_gather) /*16ul*/ );
   sg.handle = (unsigned long int)handle;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x39 << 0)) | sizeof(struct drm_scatter_gather) /*16ul*/  << 0 + 8 + 8, (void *)&sg);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x39 << 0)) | sizeof(struct drm_scatter_gather) /*16ul*/  << 0 + 8 + 8, (void *)&sg);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -11911,13 +11911,13 @@ extern signed int drmSetBusid(signed int fd, const char *busid)
   memset((void *)&u, 0, sizeof(struct drm_unique) /*16ul*/ );
   u.unique = (char *)busid;
   u.unique_len=strlen(busid);
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x10 << 0)) | sizeof(struct drm_unique) /*16ul*/  << 0 + 8 + 8, (void *)&u);
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x10 << 0)) | sizeof(struct drm_unique) /*16ul*/  << 0 + 8 + 8, (void *)&u);
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   return 0;
@@ -11931,14 +11931,14 @@ extern signed int drmSetClientCap(signed int fd, unsigned long int capability, u
   memset((void *)&cap, 0, sizeof(struct drm_set_client_cap) /*16ul*/ );
   cap.capability = capability;
   cap.value = value;
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x0d << 0)) | sizeof(struct drm_set_client_cap) /*16ul*/  << 0 + 8 + 8, (void *)&cap);
-  return return_value_drmIoctl$1;
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x0d << 0)) | sizeof(struct drm_set_client_cap) /*16ul*/  << 0 + 8 + 8, (void *)&cap);
+  return return_value_drmIoctl_1;
 }
 
 // drmSetContextFlags
 // file ../xf86drm.c line 1571
-extern signed int drmSetContextFlags(signed int fd, unsigned int context, enum anonymous$9 flags)
+extern signed int drmSetContextFlags(signed int fd, unsigned int context, enum anonymous_9 flags)
 {
   struct drm_ctx ctx;
   memset((void *)&ctx, 0, sizeof(struct drm_ctx) /*8ul*/ );
@@ -11949,13 +11949,13 @@ extern signed int drmSetContextFlags(signed int fd, unsigned int context, enum a
   if(!((DRM_CONTEXT_2DONLY & (signed int)flags) == 0))
     ctx.flags = ctx.flags | (enum drm_ctx_flags)_DRM_CONTEXT_2DONLY;
 
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x22 << 0)) | sizeof(struct drm_ctx) /*8ul*/  << 0 + 8 + 8, (void *)&ctx);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x22 << 0)) | sizeof(struct drm_ctx) /*8ul*/  << 0 + 8 + 8, (void *)&ctx);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -11973,13 +11973,13 @@ extern signed int drmSetInterfaceVersion(signed int fd, struct _drmSetVersion *v
   sv.drm_di_minor = version->drm_di_minor;
   sv.drm_dd_major = version->drm_dd_major;
   sv.drm_dd_minor = version->drm_dd_minor;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x07 << 0)) | sizeof(struct drm_set_version) /*16ul*/  << 0 + 8 + 8, (void *)&sv);
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x07 << 0)) | sizeof(struct drm_set_version) /*16ul*/  << 0 + 8 + 8, (void *)&sv);
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    retcode = -(*return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    retcode = -(*return_value___errno_location_1);
   }
 
   version->drm_di_major = sv.drm_di_major;
@@ -11993,9 +11993,9 @@ extern signed int drmSetInterfaceVersion(signed int fd, struct _drmSetVersion *v
 // file ../xf86drm.c line 2673
 extern signed int drmSetMaster(signed int fd)
 {
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x1e << 0) | (unsigned int)(0 << 0 + 8 + 8)), (void *)0);
-  return return_value_drmIoctl$1;
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x1e << 0) | (unsigned int)(0 << 0 + 8 + 8)), (void *)0);
+  return return_value_drmIoctl_1;
 }
 
 // drmSetServerInfo
@@ -12012,13 +12012,13 @@ extern signed int drmSwitchToContext(signed int fd, unsigned int context)
   struct drm_ctx ctx;
   memset((void *)&ctx, 0, sizeof(struct drm_ctx) /*8ul*/ );
   ctx.handle = context;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x24 << 0)) | sizeof(struct drm_ctx) /*8ul*/  << 0 + 8 + 8, (void *)&ctx);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x24 << 0)) | sizeof(struct drm_ctx) /*8ul*/  << 0 + 8 + 8, (void *)&ctx);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -12032,18 +12032,18 @@ extern signed int drmUnlock(signed int fd, unsigned int context)
   struct drm_lock lock;
   memset((void *)&lock, 0, sizeof(struct drm_lock) /*8ul*/ );
   lock.context = (signed int)context;
-  signed int return_value_drmIoctl$1;
-  return_value_drmIoctl$1=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x2b << 0)) | sizeof(struct drm_lock) /*8ul*/  << 0 + 8 + 8, (void *)&lock);
-  return return_value_drmIoctl$1;
+  signed int return_value_drmIoctl_1;
+  return_value_drmIoctl_1=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x2b << 0)) | sizeof(struct drm_lock) /*8ul*/  << 0 + 8 + 8, (void *)&lock);
+  return return_value_drmIoctl_1;
 }
 
 // drmUnmap
 // file ../xf86drm.c line 1280
 extern signed int drmUnmap(void *address, unsigned int size)
 {
-  signed int return_value_drm_munmap$1;
-  return_value_drm_munmap$1=drm_munmap$link1(address, (unsigned long int)size);
-  return return_value_drm_munmap$1;
+  signed int return_value_drm_munmap_1;
+  return_value_drm_munmap_1=drm_munmap_link1(address, (unsigned long int)size);
+  return return_value_drm_munmap_1;
 }
 
 // drmUnmapBufs
@@ -12052,7 +12052,7 @@ extern signed int drmUnmapBufs(struct _drmBufMap *bufs)
 {
   signed int i = 0;
   for( ; !(i >= bufs->count); i = i + 1)
-    drm_munmap$link1((bufs->list + (signed long int)i)->address, (unsigned long int)(bufs->list + (signed long int)i)->total);
+    drm_munmap_link1((bufs->list + (signed long int)i)->address, (unsigned long int)(bufs->list + (signed long int)i)->total);
   drmFree((void *)bufs->list);
   drmFree((void *)bufs);
   return 0;
@@ -12060,7 +12060,7 @@ extern signed int drmUnmapBufs(struct _drmBufMap *bufs)
 
 // drmUpdateDrawableInfo
 // file ../xf86drm.c line 1659
-extern signed int drmUpdateDrawableInfo(signed int fd, unsigned int handle, enum anonymous$12 type, unsigned int num, void *data)
+extern signed int drmUpdateDrawableInfo(signed int fd, unsigned int handle, enum anonymous_12 type, unsigned int num, void *data)
 {
   struct drm_update_draw update;
   memset((void *)&update, 0, sizeof(struct drm_update_draw) /*24ul*/ );
@@ -12068,13 +12068,13 @@ extern signed int drmUpdateDrawableInfo(signed int fd, unsigned int handle, enum
   update.type = (unsigned int)type;
   update.num = num;
   update.data = (unsigned long int)data;
-  signed int return_value_drmIoctl$2;
-  return_value_drmIoctl$2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x3f << 0)) | sizeof(struct drm_update_draw) /*24ul*/  << 0 + 8 + 8, (void *)&update);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_drmIoctl$2 == 0))
+  signed int return_value_drmIoctl_2;
+  return_value_drmIoctl_2=drmIoctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x3f << 0)) | sizeof(struct drm_update_draw) /*24ul*/  << 0 + 8 + 8, (void *)&update);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_drmIoctl_2 == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return -(*return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    return -(*return_value___errno_location_1);
   }
 
   else
@@ -12091,33 +12091,33 @@ extern signed int drmWaitVBlank(signed int fd, union _drmVBlank *vbl)
   ret=clock_gettime(1, &timeout);
   if(!(ret >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "clock_gettime failed: %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "clock_gettime failed: %s\n", return_value_strerror_2);
     goto out;
   }
 
   timeout.tv_sec = timeout.tv_sec + 1l;
-  signed int *return_value___errno_location$6;
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_6;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
   do
   {
     ret=ioctl(fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(100 << 0 + 8) | (unsigned int)(0x3a << 0)) | sizeof(union drm_wait_vblank) /*24ul*/  << 0 + 8 + 8, vbl);
-    vbl->request.type = vbl->request.type & (enum anonymous$24)~DRM_VBLANK_RELATIVE;
+    vbl->request.type = vbl->request.type & (enum anonymous_24)~DRM_VBLANK_RELATIVE;
     if(!(ret == 0))
     {
-      return_value___errno_location$6=__errno_location();
-      if(*return_value___errno_location$6 == 4)
+      return_value___errno_location_6=__errno_location();
+      if(*return_value___errno_location_6 == 4)
       {
         clock_gettime(1, &cur);
         if(cur.tv_sec == timeout.tv_sec && cur.tv_nsec >= timeout.tv_nsec || !(1l + timeout.tv_sec >= cur.tv_sec))
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          *return_value___errno_location$5 = 16;
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          *return_value___errno_location_5 = 16;
           ret = -1;
           break;
         }
@@ -12128,14 +12128,14 @@ extern signed int drmWaitVBlank(signed int fd, union _drmVBlank *vbl)
 
     if(!(ret == 0))
     {
-      return_value___errno_location$3=__errno_location();
-      tmp_if_expr$4 = *return_value___errno_location$3 == 4 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_3=__errno_location();
+      tmp_if_expr_4 = *return_value___errno_location_3 == 4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
+      tmp_if_expr_4 = (_Bool)0;
   }
-  while(tmp_if_expr$4);
+  while(tmp_if_expr_4);
 
 out:
   ;
@@ -12149,33 +12149,33 @@ static inline signed int drm_munmap(void *addr, unsigned long int length)
 
 __CPROVER_DUMP_L1:
   ;
-  signed int return_value_munmap$1;
-  return_value_munmap$1=munmap(addr, length);
-  return return_value_munmap$1;
+  signed int return_value_munmap_1;
+  return_value_munmap_1=munmap(addr, length);
+  return return_value_munmap_1;
 }
 
-// drm_munmap$link1
+// drm_munmap_link1
 // file ../libdrm_macros.h line 74
-static inline signed int drm_munmap$link1(void *addr$link1, unsigned long int length$link1)
+static inline signed int drm_munmap_link1(void *addr_link1, unsigned long int length_link1)
 {
 
 __CPROVER_DUMP_L1:
   ;
-  signed int return_value_munmap$1$link1;
-  return_value_munmap$1$link1=munmap(addr$link1, length$link1);
-  return return_value_munmap$1$link1;
+  signed int return_value_munmap_1_link1;
+  return_value_munmap_1_link1=munmap(addr_link1, length_link1);
+  return return_value_munmap_1_link1;
 }
 
-// drm_munmap$link2
+// drm_munmap_link2
 // file ../libdrm_macros.h line 74
-static inline signed int drm_munmap$link2(void *addr$link2, unsigned long int length$link2)
+static inline signed int drm_munmap_link2(void *addr_link2, unsigned long int length_link2)
 {
 
 __CPROVER_DUMP_L1:
   ;
-  signed int return_value_munmap$1$link2;
-  return_value_munmap$1$link2=munmap(addr$link2, length$link2);
-  return return_value_munmap$1$link2;
+  signed int return_value_munmap_1_link2;
+  return_value_munmap_1_link2=munmap(addr_link2, length_link2);
+  return return_value_munmap_1_link2;
 }
 
 // ioctl
@@ -12189,11 +12189,11 @@ extern signed int ioctl(signed int fd, unsigned long int request, ...)
   arg=va_arg(va, __typeof__(arg));
   ret=old_ioctl(fd, request, arg);
   va_end(va);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(request == 1074291721ul && !(ret >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 22)
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 22)
       failed = 1;
 
   }
@@ -12215,10 +12215,10 @@ signed int main(signed int argc, char **argv)
   struct nouveau_bo *bo;
   unsigned long int t1;
   unsigned long int t2;
-  void *return_value_dlsym$1;
-  return_value_dlsym$1=dlsym((void *)-1l, "ioctl");
-  old_ioctl = (signed int (*)(signed int, unsigned long int, ...))return_value_dlsym$1;
-  signed int *return_value___errno_location$2;
+  void *return_value_dlsym_1;
+  return_value_dlsym_1=dlsym((void *)-1l, "ioctl");
+  old_ioctl = (signed int (*)(signed int, unsigned long int, ...))return_value_dlsym_1;
+  signed int *return_value___errno_location_2;
   if(!(argc >= 2))
   {
     fd=drmOpenWithType("nouveau", (const char *)(void *)0, 2);
@@ -12236,8 +12236,8 @@ signed int main(signed int argc, char **argv)
 
     else
     {
-      return_value___errno_location$2=__errno_location();
-      fd = -(*return_value___errno_location$2);
+      return_value___errno_location_2=__errno_location();
+      fd = -(*return_value___errno_location_2);
       fd2 = fd;
     }
   }
@@ -12251,12 +12251,12 @@ signed int main(signed int argc, char **argv)
   {
     if(!(fd2 >= 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      fprintf(stderr, "Opening second nouveau render node failed with %i\n", -(*return_value___errno_location$3));
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      return *return_value___errno_location$4;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      fprintf(stderr, "Opening second nouveau render node failed with %i\n", -(*return_value___errno_location_3));
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      return *return_value___errno_location_4;
     }
 
     version=drmGetVersion(fd);
@@ -12320,18 +12320,18 @@ static inline struct nouveau_bo_priv * nouveau_bo(struct nouveau_bo *bo)
   return (struct nouveau_bo_priv *)bo;
 }
 
-// nouveau_bo$link1
+// nouveau_bo_link1
 // file ../../nouveau/private.h line 91
-static inline struct nouveau_bo_priv * nouveau_bo$link1(struct nouveau_bo *bo$link1)
+static inline struct nouveau_bo_priv * nouveau_bo_link1(struct nouveau_bo *bo_link1)
 {
-  return (struct nouveau_bo_priv *)bo$link1;
+  return (struct nouveau_bo_priv *)bo_link1;
 }
 
-// nouveau_bo$link2
+// nouveau_bo_link2
 // file ../../nouveau/private.h line 91
-static inline struct nouveau_bo_priv * nouveau_bo$link2(struct nouveau_bo *bo$link2)
+static inline struct nouveau_bo_priv * nouveau_bo_link2(struct nouveau_bo *bo_link2)
 {
-  return (struct nouveau_bo_priv *)bo$link2;
+  return (struct nouveau_bo_priv *)bo_link2;
 }
 
 // nouveau_bo_del
@@ -12408,16 +12408,16 @@ signed int nouveau_bo_map(struct nouveau_bo *bo, unsigned int access, struct nou
     if(bo->map == (void *)-1)
     {
       bo->map = (void *)0;
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      return -(*return_value___errno_location$1);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      return -(*return_value___errno_location_1);
     }
 
   }
 
-  signed int return_value_nouveau_bo_wait$2;
-  return_value_nouveau_bo_wait$2=nouveau_bo_wait(bo, access, client);
-  return return_value_nouveau_bo_wait$2;
+  signed int return_value_nouveau_bo_wait_2;
+  return_value_nouveau_bo_wait_2=nouveau_bo_wait(bo, access, client);
+  return return_value_nouveau_bo_wait_2;
 }
 
 // nouveau_bo_name_get
@@ -12482,9 +12482,9 @@ signed int nouveau_bo_name_ref(struct nouveau_device *dev, unsigned int name, st
 signed int nouveau_bo_new(struct nouveau_device *dev, unsigned int flags, unsigned int align, unsigned long int size, union nouveau_bo_config *config, struct nouveau_bo **pbo)
 {
   struct nouveau_bo_priv *nvbo;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct nouveau_bo_priv) /*120ul*/ );
-  nvbo = (struct nouveau_bo_priv *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct nouveau_bo_priv) /*120ul*/ );
+  nvbo = (struct nouveau_bo_priv *)return_value_calloc_1;
   struct nouveau_bo *bo = &nvbo->base;
   signed int ret;
   if(nvbo == ((struct nouveau_bo_priv *)NULL))
@@ -12538,25 +12538,25 @@ void nouveau_bo_ref(struct nouveau_bo *bo, struct nouveau_bo **pref)
   struct nouveau_bo *ref = *pref;
   if(!(bo == ((struct nouveau_bo *)NULL)))
   {
-    struct nouveau_bo_priv *return_value_nouveau_bo$1;
-    return_value_nouveau_bo$1=nouveau_bo(bo);
+    struct nouveau_bo_priv *return_value_nouveau_bo_1;
+    return_value_nouveau_bo_1=nouveau_bo(bo);
     __CPROVER_atomic_begin();
-    *(&(&return_value_nouveau_bo$1->refcnt)->atomic) = *(&(&return_value_nouveau_bo$1->refcnt)->atomic) + 1;
+    *(&(&return_value_nouveau_bo_1->refcnt)->atomic) = *(&(&return_value_nouveau_bo_1->refcnt)->atomic) + 1;
     FENCE(WRfence);
     __CPROVER_atomic_end();
   }
 
   if(!(ref == ((struct nouveau_bo *)NULL)))
   {
-    struct nouveau_bo_priv *return_value_nouveau_bo$2;
-    return_value_nouveau_bo$2=nouveau_bo(ref);
-    signed int return_value___sync_add_and_fetch$3;
+    struct nouveau_bo_priv *return_value_nouveau_bo_2;
+    return_value_nouveau_bo_2=nouveau_bo(ref);
+    signed int return_value___sync_add_and_fetch_3;
     __CPROVER_atomic_begin();
-    *(&(&return_value_nouveau_bo$2->refcnt)->atomic) = *(&(&return_value_nouveau_bo$2->refcnt)->atomic) + -1;
-    return_value___sync_add_and_fetch$3 = *(&(&return_value_nouveau_bo$2->refcnt)->atomic);
+    *(&(&return_value_nouveau_bo_2->refcnt)->atomic) = *(&(&return_value_nouveau_bo_2->refcnt)->atomic) + -1;
+    return_value___sync_add_and_fetch_3 = *(&(&return_value_nouveau_bo_2->refcnt)->atomic);
     FENCE(WRfence);
     __CPROVER_atomic_end();
-    if(return_value___sync_add_and_fetch$3 == 0)
+    if(return_value___sync_add_and_fetch_3 == 0)
       nouveau_bo_del(ref);
 
   }
@@ -12670,13 +12670,13 @@ static signed int nouveau_bo_wrap_locked(struct nouveau_device *dev, unsigned in
   for( ; !(&nvbo->head == &nvdev->bo_list); nvbo = (struct nouveau_bo_priv *)((char *)nvbo->head.next - (signed long int)80ul))
     if(nvbo->base.handle == handle)
     {
-      signed int return_value___sync_add_and_fetch$1;
+      signed int return_value___sync_add_and_fetch_1;
       __CPROVER_atomic_begin();
       *(&(&nvbo->refcnt)->atomic) = *(&(&nvbo->refcnt)->atomic) + 1;
-      return_value___sync_add_and_fetch$1 = *(&(&nvbo->refcnt)->atomic);
+      return_value___sync_add_and_fetch_1 = *(&(&nvbo->refcnt)->atomic);
       FENCE(WRfence);
       __CPROVER_atomic_end();
-      if(return_value___sync_add_and_fetch$1 == 1)
+      if(return_value___sync_add_and_fetch_1 == 1)
       {
         do
         {
@@ -12700,9 +12700,9 @@ static signed int nouveau_bo_wrap_locked(struct nouveau_device *dev, unsigned in
 
   else
   {
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct nouveau_bo_priv) /*120ul*/ );
-    nvbo = (struct nouveau_bo_priv *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct nouveau_bo_priv) /*120ul*/ );
+    nvbo = (struct nouveau_bo_priv *)return_value_calloc_2;
     if(!(nvbo == ((struct nouveau_bo_priv *)NULL)))
     {
       (&nvbo->refcnt)->atomic = 1;
@@ -12740,14 +12740,14 @@ void nouveau_bufctx_del(struct nouveau_bufctx **pbctx)
   struct nouveau_bufctx_priv *pctx;
   pctx=nouveau_bufctx(*pbctx);
   struct nouveau_bufref_priv *pref;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(!(pctx == ((struct nouveau_bufctx_priv *)NULL)))
   {
     do
     {
-      tmp_post$1 = pctx->nr_bins;
+      tmp_post_1 = pctx->nr_bins;
       pctx->nr_bins = pctx->nr_bins - 1;
-      if(tmp_post$1 == 0)
+      if(tmp_post_1 == 0)
         break;
 
       nouveau_bufctx_reset(&pctx->base, pctx->nr_bins);
@@ -12796,9 +12796,9 @@ struct nouveau_bufref * nouveau_bufctx_mthd(struct nouveau_bufctx *bctx, signed 
 signed int nouveau_bufctx_new(struct nouveau_client *client, signed int bins, struct nouveau_bufctx **pbctx)
 {
   struct nouveau_bufctx_priv *priv;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct nouveau_bufctx_priv) /*80ul*/  + sizeof(struct nouveau_bufbin_priv) /*16ul*/  * (unsigned long int)bins);
-  priv = (struct nouveau_bufctx_priv *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct nouveau_bufctx_priv) /*80ul*/  + sizeof(struct nouveau_bufbin_priv) /*16ul*/  * (unsigned long int)bins);
+  priv = (struct nouveau_bufctx_priv *)return_value_calloc_1;
   if(!(priv == ((struct nouveau_bufctx_priv *)NULL)))
   {
     do
@@ -12837,11 +12837,11 @@ struct nouveau_bufref * nouveau_bufctx_refn(struct nouveau_bufctx *bctx, signed 
   pctx=nouveau_bufctx(bctx);
   struct nouveau_bufbin_priv *pbin = &pctx->bins[(signed long int)bin];
   struct nouveau_bufref_priv *pref = pctx->free;
-  void *return_value_malloc$1;
+  void *return_value_malloc_1;
   if(pref == ((struct nouveau_bufref_priv *)NULL))
   {
-    return_value_malloc$1=malloc(sizeof(struct nouveau_bufref_priv) /*72ul*/ );
-    pref = (struct nouveau_bufref_priv *)return_value_malloc$1;
+    return_value_malloc_1=malloc(sizeof(struct nouveau_bufref_priv) /*72ul*/ );
+    pref = (struct nouveau_bufref_priv *)return_value_malloc_1;
   }
 
   else
@@ -12905,11 +12905,11 @@ static inline struct nouveau_client_priv * nouveau_client(struct nouveau_client 
   return (struct nouveau_client_priv *)client;
 }
 
-// nouveau_client$link1
+// nouveau_client_link1
 // file ../../nouveau/private.h line 37
-static inline struct nouveau_client_priv * nouveau_client$link1(struct nouveau_client *client$link1)
+static inline struct nouveau_client_priv * nouveau_client_link1(struct nouveau_client *client_link1)
 {
-  return (struct nouveau_client_priv *)client$link1;
+  return (struct nouveau_client_priv *)client_link1;
 }
 
 // nouveau_client_del
@@ -12947,17 +12947,17 @@ signed int nouveau_client_new(struct nouveau_device *dev, struct nouveau_client 
   i = 0;
   for( ; !(i >= nvdev->nr_client); i = i + 1)
   {
-    signed int return_value_ffs$1;
-    return_value_ffs$1=ffs((signed int)nvdev->client[(signed long int)i]);
-    id = return_value_ffs$1 - 1;
+    signed int return_value_ffs_1;
+    return_value_ffs_1=ffs((signed int)nvdev->client[(signed long int)i]);
+    id = return_value_ffs_1 - 1;
     if(id >= 0)
       goto out;
 
   }
-  void *return_value_realloc$2;
-  return_value_realloc$2=realloc((void *)nvdev->client, sizeof(unsigned int) /*4ul*/  * (unsigned long int)(i + 1));
-  clients = (unsigned int *)return_value_realloc$2;
-  void *return_value_calloc$3;
+  void *return_value_realloc_2;
+  return_value_realloc_2=realloc((void *)nvdev->client, sizeof(unsigned int) /*4ul*/  * (unsigned long int)(i + 1));
+  clients = (unsigned int *)return_value_realloc_2;
+  void *return_value_calloc_3;
   if(!(clients == ((unsigned int *)NULL)))
   {
     nvdev->client = clients;
@@ -12966,8 +12966,8 @@ signed int nouveau_client_new(struct nouveau_device *dev, struct nouveau_client 
 
   out:
     ;
-    return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct nouveau_client_priv) /*32ul*/ );
-    pcli = (struct nouveau_client_priv *)return_value_calloc$3;
+    return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct nouveau_client_priv) /*32ul*/ );
+    pcli = (struct nouveau_client_priv *)return_value_calloc_3;
     if(!(pcli == ((struct nouveau_client_priv *)NULL)))
     {
       nvdev->client[(signed long int)i] = nvdev->client[(signed long int)i] | (unsigned int)(1 << id);
@@ -12993,18 +12993,18 @@ static inline struct nouveau_device_priv * nouveau_device(struct nouveau_device 
   return (struct nouveau_device_priv *)dev;
 }
 
-// nouveau_device$link1
+// nouveau_device_link1
 // file ../../nouveau/private.h line 108
-static inline struct nouveau_device_priv * nouveau_device$link1(struct nouveau_device *dev$link1)
+static inline struct nouveau_device_priv * nouveau_device_link1(struct nouveau_device *dev_link1)
 {
-  return (struct nouveau_device_priv *)dev$link1;
+  return (struct nouveau_device_priv *)dev_link1;
 }
 
-// nouveau_device$link2
+// nouveau_device_link2
 // file ../../nouveau/private.h line 108
-static inline struct nouveau_device_priv * nouveau_device$link2(struct nouveau_device *dev$link2)
+static inline struct nouveau_device_priv * nouveau_device_link2(struct nouveau_device *dev_link2)
 {
-  return (struct nouveau_device_priv *)dev$link2;
+  return (struct nouveau_device_priv *)dev_link2;
 }
 
 // nouveau_device_del
@@ -13041,7 +13041,7 @@ signed int nouveau_device_new(struct nouveau_object *parent, signed int oclass, 
     .pad06={ 0, 0 }, .ram_size=0ull, .ram_user=0ull,
     .chip={ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, .name={ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 } };
   /* tag-#anon#lUN[lSYM#tag-nv_device_v0#'v0'|] */
-union anonymous$25
+union anonymous_25
 {
   // v0
   struct nv_device_v0 v0;
@@ -13049,7 +13049,7 @@ union anonymous$25
 
 /* */
   ;
-  union anonymous$25 *args = (union anonymous$25 *)data;
+  union anonymous_25 *args = (union anonymous_25 *)data;
   unsigned int argc = size;
   struct nouveau_drm *drm;
   drm=nouveau_drm(parent);
@@ -13058,10 +13058,10 @@ union anonymous$25
   unsigned long int v;
   char *tmp;
   signed int ret = -38;
-  _Bool tmp_if_expr$2;
-  signed int tmp_statement_expression$1;
+  _Bool tmp_if_expr_2;
+  signed int tmp_statement_expression_1;
   if(!(oclass == 0x00000080))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
@@ -13092,17 +13092,17 @@ union anonymous$25
 
     }
 
-    tmp_statement_expression$1 = _ret;
-    tmp_if_expr$2 = tmp_statement_expression$1 != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_statement_expression_1 = _ret;
+    tmp_if_expr_2 = tmp_statement_expression_1 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     return ret;
 
   else
   {
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct nouveau_device_priv) /*168ul*/ );
-    nvdev = (struct nouveau_device_priv *)return_value_calloc$3;
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct nouveau_device_priv) /*168ul*/ );
+    nvdev = (struct nouveau_device_priv *)return_value_calloc_3;
     if(nvdev == ((struct nouveau_device_priv *)NULL))
       return -12;
 
@@ -13168,7 +13168,7 @@ union anonymous$25
           else
             nvdev->gart_limit_percent = 80;
           nvdev->base.gart_limit = (nvdev->base.gart_size * (unsigned long int)nvdev->gart_limit_percent) / (unsigned long int)100;
-          ret=pthread_mutex_init(&nvdev->lock, (const union anonymous$27 *)(void *)0);
+          ret=pthread_mutex_init(&nvdev->lock, (const union anonymous_27 *)(void *)0);
           do
           {
             (&nvdev->bo_list)->prev = &nvdev->bo_list;
@@ -13229,8 +13229,8 @@ signed int nouveau_device_wrap(signed int fd, signed int close, struct nouveau_d
   else
   {
     drm->nvif = (_Bool)0;
-    struct nv_device_v0 literal$1 = { .version=0, .pad01={ 0, 0, 0, 0, 0, 0, 0 }, .device=~0ULL };
-    ret=nouveau_device_new(&drm->client, 0x00000080, (void *)&literal$1, (unsigned int)sizeof(struct nv_device_v0) /*16ul*/ , pdev);
+    struct nv_device_v0 literal_1 = { .version=0, .pad01={ 0, 0, 0, 0, 0, 0, 0 }, .device=~0ULL };
+    ret=nouveau_device_new(&drm->client, 0x00000080, (void *)&literal_1, (unsigned int)sizeof(struct nv_device_v0) /*16ul*/ , pdev);
     if(!(ret == 0))
     {
       nouveau_drm_del(&drm);
@@ -13259,26 +13259,26 @@ static inline struct nouveau_drm * nouveau_drm(struct nouveau_object *obj)
   return (struct nouveau_drm *)obj;
 }
 
-// nouveau_drm$link1
+// nouveau_drm_link1
 // file ../../nouveau/nouveau.h line 52
-static inline struct nouveau_drm * nouveau_drm$link1(struct nouveau_object *obj$link1)
+static inline struct nouveau_drm * nouveau_drm_link1(struct nouveau_object *obj_link1)
 {
-  for( ; !(obj$link1 == ((struct nouveau_object *)NULL)); obj$link1 = obj$link1->parent)
-    if(obj$link1->parent == ((struct nouveau_object *)NULL))
+  for( ; !(obj_link1 == ((struct nouveau_object *)NULL)); obj_link1 = obj_link1->parent)
+    if(obj_link1->parent == ((struct nouveau_object *)NULL))
       break;
 
-  return (struct nouveau_drm *)obj$link1;
+  return (struct nouveau_drm *)obj_link1;
 }
 
-// nouveau_drm$link2
+// nouveau_drm_link2
 // file ../../nouveau/nouveau.h line 52
-static inline struct nouveau_drm * nouveau_drm$link2(struct nouveau_object *obj$link2)
+static inline struct nouveau_drm * nouveau_drm_link2(struct nouveau_object *obj_link2)
 {
-  for( ; !(obj$link2 == ((struct nouveau_object *)NULL)); obj$link2 = obj$link2->parent)
-    if(obj$link2->parent == ((struct nouveau_object *)NULL))
+  for( ; !(obj_link2 == ((struct nouveau_object *)NULL)); obj_link2 = obj_link2->parent)
+    if(obj_link2->parent == ((struct nouveau_object *)NULL))
       break;
 
-  return (struct nouveau_drm *)obj$link2;
+  return (struct nouveau_drm *)obj_link2;
 }
 
 // nouveau_drm_del
@@ -13295,12 +13295,12 @@ signed int nouveau_drm_new(signed int fd, struct nouveau_drm **pdrm)
 {
   struct nouveau_drm *drm;
   struct _drmVersion *ver;
-  char *return_value_getenv$1;
-  return_value_getenv$1=getenv("NOUVEAU_LIBDRM_DEBUG");
-  debug_init(return_value_getenv$1);
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct nouveau_drm) /*48ul*/ );
-  drm = (struct nouveau_drm *)return_value_calloc$2;
+  char *return_value_getenv_1;
+  return_value_getenv_1=getenv("NOUVEAU_LIBDRM_DEBUG");
+  debug_init(return_value_getenv_1);
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct nouveau_drm) /*48ul*/ );
+  drm = (struct nouveau_drm *)return_value_calloc_2;
   if(drm == ((struct nouveau_drm *)NULL))
     return -12;
 
@@ -13358,7 +13358,7 @@ void nouveau_object_del(struct nouveau_object **pobj)
 static void nouveau_object_fini(struct nouveau_object *obj)
 {
   /* tag-#anon#lST[lSYM#tag-nvif_ioctl_v0#'ioctl'||lSYM#tag-nvif_ioctl_del#'del'|] */
-struct anonymous$3
+struct anonymous_3
 {
   // ioctl
   struct nvif_ioctl_v0 ioctl;
@@ -13368,7 +13368,7 @@ struct anonymous$3
 
 /* */
   ;
-  struct anonymous$3 args = { .ioctl={ .version=0, .type=(unsigned char)0x03, .pad02={ 0, 0, 0, 0 },
+  struct anonymous_3 args = { .ioctl={ .version=0, .type=(unsigned char)0x03, .pad02={ 0, 0, 0, 0 },
     .owner=0, .route=0, .token=0ull,
     .object=0ull, .data={  } }, .del={  } };
   if(!(obj->data == NULL))
@@ -13379,7 +13379,7 @@ struct anonymous$3
   }
 
   else
-    nouveau_object_ioctl(obj, (void *)&args, (unsigned int)sizeof(struct anonymous$3) /*24ul*/ );
+    nouveau_object_ioctl(obj, (void *)&args, (unsigned int)sizeof(struct anonymous_3) /*24ul*/ );
 }
 
 // nouveau_object_init
@@ -13389,7 +13389,7 @@ static signed int nouveau_object_init(struct nouveau_object *parent, unsigned in
   struct nouveau_drm *drm;
   drm=nouveau_drm(parent);
   /* tag-#anon#lST[lSYM#tag-nvif_ioctl_v0#'ioctl'||lSYM#tag-nvif_ioctl_new_v0#'new'|] */
-struct anonymous$4
+struct anonymous_4
 {
   // ioctl
   struct nvif_ioctl_v0 ioctl;
@@ -13399,8 +13399,8 @@ struct anonymous$4
 
 /* */
   ;
-  struct anonymous$4 *args;
-  unsigned int argc = (unsigned int)(sizeof(struct anonymous$4) /*56ul*/  + (unsigned long int)size);
+  struct anonymous_4 *args;
+  unsigned int argc = (unsigned int)(sizeof(struct anonymous_4) /*56ul*/  + (unsigned long int)size);
   signed int (*func)(struct nouveau_object *);
   signed int ret = -38;
   obj->parent = parent;
@@ -13408,20 +13408,20 @@ struct anonymous$4
   obj->oclass = (unsigned int)oclass;
   obj->length = (unsigned int)0;
   obj->data = (void *)0;
-  _Bool return_value_abi16_object$2;
-  return_value_abi16_object$2=abi16_object(obj, &func);
-  _Bool tmp_if_expr$3;
-  if(return_value_abi16_object$2 == (_Bool)0)
-    tmp_if_expr$3 = drm->nvif != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+  _Bool return_value_abi16_object_2;
+  return_value_abi16_object_2=abi16_object(obj, &func);
+  _Bool tmp_if_expr_3;
+  if(return_value_abi16_object_2 == (_Bool)0)
+    tmp_if_expr_3 = drm->nvif != (_Bool)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)argc);
-    args = (struct anonymous$4 *)return_value_malloc$1;
-    if(args == ((struct anonymous$4 *)NULL))
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)argc);
+    args = (struct anonymous_4 *)return_value_malloc_1;
+    if(args == ((struct anonymous_4 *)NULL))
       return -12;
 
     args->ioctl.version = (unsigned char)0;
@@ -13470,7 +13470,7 @@ static signed int nouveau_object_ioctl(struct nouveau_object *obj, void *data, u
   struct nouveau_drm *drm;
   drm=nouveau_drm(obj);
   /* tag-#anon#lUN[lSYM#tag-nvif_ioctl_v0#'v0'|] */
-union anonymous$0
+union anonymous_0
 {
   // v0
   struct nvif_ioctl_v0 v0;
@@ -13478,10 +13478,10 @@ union anonymous$0
 
 /* */
   ;
-  union anonymous$0 *args = (union anonymous$0 *)data;
+  union anonymous_0 *args = (union anonymous_0 *)data;
   unsigned int argc = size;
   signed int ret = -38;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   void **_data = &data;
   unsigned int *_size = &size;
   signed int _ret = ret;
@@ -13506,8 +13506,8 @@ union anonymous$0
 
   }
 
-  tmp_statement_expression$1 = _ret;
-  ret = tmp_statement_expression$1;
+  tmp_statement_expression_1 = _ret;
+  ret = tmp_statement_expression_1;
   if(ret == 0)
   {
     if(obj->length == 0u)
@@ -13530,9 +13530,9 @@ union anonymous$0
 
   else
     return ret;
-  signed int return_value_drmCommandWriteRead$2;
-  return_value_drmCommandWriteRead$2=drmCommandWriteRead(drm->fd, (unsigned long int)0x07, (void *)args, (unsigned long int)argc);
-  return return_value_drmCommandWriteRead$2;
+  signed int return_value_drmCommandWriteRead_2;
+  return_value_drmCommandWriteRead_2=drmCommandWriteRead(drm->fd, (unsigned long int)0x07, (void *)args, (unsigned long int)argc);
+  return return_value_drmCommandWriteRead_2;
 }
 
 // nouveau_object_mclass
@@ -13545,7 +13545,7 @@ signed int nouveau_object_mclass(struct nouveau_object *obj, struct nouveau_mcla
   signed int i;
   signed int j;
   cnt=nouveau_object_sclass_get(obj, &sclass);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(cnt >= 0))
     return cnt;
 
@@ -13555,11 +13555,11 @@ signed int nouveau_object_mclass(struct nouveau_object *obj, struct nouveau_mcla
     do
     {
       if(!(ret >= 0))
-        tmp_if_expr$1 = (mclass + (signed long int)i)->oclass != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (mclass + (signed long int)i)->oclass != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       j = 0;
@@ -13593,7 +13593,7 @@ signed int nouveau_object_mthd(struct nouveau_object *obj, unsigned int mthd, vo
   struct nouveau_drm *drm;
   drm=nouveau_drm(obj);
   /* tag-#anon#lST[lSYM#tag-nvif_ioctl_v0#'ioctl'||lSYM#tag-nvif_ioctl_mthd_v0#'mthd'|] */
-struct anonymous$1
+struct anonymous_1
 {
   // ioctl
   struct nvif_ioctl_v0 ioctl;
@@ -13603,8 +13603,8 @@ struct anonymous$1
 
 /* */
   ;
-  struct anonymous$1 *args;
-  unsigned int argc = (unsigned int)(sizeof(struct anonymous$1) /*32ul*/  + (unsigned long int)size);
+  struct anonymous_1 *args;
+  unsigned int argc = (unsigned int)(sizeof(struct anonymous_1) /*32ul*/  + (unsigned long int)size);
   unsigned char stack[128l];
   signed int ret;
   if(drm->nvif == (_Bool)0)
@@ -13614,16 +13614,16 @@ struct anonymous$1
   {
     if((unsigned long int)argc >= 129ul)
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)argc);
-      args = (struct anonymous$1 *)return_value_malloc$1;
-      if(args == ((struct anonymous$1 *)NULL))
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)argc);
+      args = (struct anonymous_1 *)return_value_malloc_1;
+      if(args == ((struct anonymous_1 *)NULL))
         return -12;
 
     }
 
     else
-      args = (struct anonymous$1 *)(void *)stack;
+      args = (struct anonymous_1 *)(void *)stack;
     args->ioctl.version = (unsigned char)0;
     args->ioctl.type = (unsigned char)0x04;
     args->mthd.version = (unsigned char)0;
@@ -13631,7 +13631,7 @@ struct anonymous$1
     memcpy((void *)args->mthd.data, data, (unsigned long int)size);
     ret=nouveau_object_ioctl(obj, (void *)args, argc);
     memcpy(data, (const void *)args->mthd.data, (unsigned long int)size);
-    if(!(args == (struct anonymous$1 *)stack))
+    if(!(args == (struct anonymous_1 *)stack))
       free((void *)args);
 
     return ret;
@@ -13644,9 +13644,9 @@ signed int nouveau_object_new(struct nouveau_object *parent, unsigned long int h
 {
   struct nouveau_object *obj;
   signed int ret;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct nouveau_object) /*32ul*/ );
-  obj = (struct nouveau_object *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct nouveau_object) /*32ul*/ );
+  obj = (struct nouveau_object *)return_value_malloc_1;
   if(obj == ((struct nouveau_object *)NULL))
     return -12;
 
@@ -13674,7 +13674,7 @@ signed int nouveau_object_sclass_get(struct nouveau_object *obj, struct nouveau_
   struct nouveau_drm *drm;
   drm=nouveau_drm(obj);
   /* tag-#anon#lST[lSYM#tag-nvif_ioctl_v0#'ioctl'||lSYM#tag-nvif_ioctl_sclass_v0#'sclass'|] */
-struct anonymous$2
+struct anonymous_2
 {
   // ioctl
   struct nvif_ioctl_v0 ioctl;
@@ -13684,28 +13684,28 @@ struct anonymous$2
 
 /* */
   ;
-  struct anonymous$2 *args = (struct anonymous$2 *)(void *)0;
+  struct anonymous_2 *args = (struct anonymous_2 *)(void *)0;
   struct nouveau_sclass *sclass;
   signed int ret;
   signed int cnt = 0;
   signed int i;
   unsigned int size;
-  signed int return_value_abi16_sclass$1;
+  signed int return_value_abi16_sclass_1;
   if(drm->nvif == (_Bool)0)
   {
-    return_value_abi16_sclass$1=abi16_sclass(obj, psclass);
-    return return_value_abi16_sclass$1;
+    return_value_abi16_sclass_1=abi16_sclass(obj, psclass);
+    return return_value_abi16_sclass_1;
   }
 
   else
   {
     while((_Bool)1)
     {
-      size = (unsigned int)(sizeof(struct anonymous$2) /*32ul*/  + (unsigned long int)cnt * sizeof(struct nvif_ioctl_sclass_oclass_v0) /*8ul*/ );
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)size);
-      args = (struct anonymous$2 *)return_value_malloc$2;
-      if(args == ((struct anonymous$2 *)NULL))
+      size = (unsigned int)(sizeof(struct anonymous_2) /*32ul*/  + (unsigned long int)cnt * sizeof(struct nvif_ioctl_sclass_oclass_v0) /*8ul*/ );
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)size);
+      args = (struct anonymous_2 *)return_value_malloc_2;
+      if(args == ((struct anonymous_2 *)NULL))
         return -12;
 
       args->ioctl.version = (unsigned char)0;
@@ -13726,9 +13726,9 @@ struct anonymous$2
         return ret;
 
     }
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)args->sclass.count, sizeof(struct nouveau_sclass) /*12ul*/ );
-    sclass = (struct nouveau_sclass *)return_value_calloc$3;
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)args->sclass.count, sizeof(struct nouveau_sclass) /*12ul*/ );
+    sclass = (struct nouveau_sclass *)return_value_calloc_3;
     if(!(sclass == ((struct nouveau_sclass *)NULL)))
     {
       i = 0;
@@ -13782,26 +13782,26 @@ void nouveau_pushbuf_data(struct nouveau_pushbuf *push, struct nouveau_bo *bo, u
   struct nouveau_pushbuf_krec *krec = nvpb->krec;
   struct drm_nouveau_gem_pushbuf_push *kpsh;
   struct drm_nouveau_gem_pushbuf_bo *kref;
-  _Bool tmp_if_expr$3;
-  unsigned int *tmp_post$1;
-  unsigned int *tmp_post$2;
+  _Bool tmp_if_expr_3;
+  unsigned int *tmp_post_1;
+  unsigned int *tmp_post_2;
   if(!(bo == nvpb->bo))
   {
     if(!(nvpb->bgn == push->cur))
     {
       if(!(nvpb->suffix0 == 0u))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = nvpb->suffix1 != 0u ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = nvpb->suffix1 != 0u ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
-        tmp_post$1 = push->cur;
+        tmp_post_1 = push->cur;
         push->cur = push->cur + 1l;
-        *tmp_post$1 = nvpb->suffix0;
-        tmp_post$2 = push->cur;
+        *tmp_post_1 = nvpb->suffix0;
+        tmp_post_2 = push->cur;
         push->cur = push->cur + 1l;
-        *tmp_post$2 = nvpb->suffix1;
+        *tmp_post_2 = nvpb->suffix1;
       }
 
       nouveau_pushbuf_data(push, nvpb->bo, (unsigned long int)((nvpb->bgn - nvpb->ptr) * (signed long int)4), (unsigned long int)((push->cur - nvpb->bgn) * (signed long int)4));
@@ -13810,15 +13810,15 @@ void nouveau_pushbuf_data(struct nouveau_pushbuf *push, struct nouveau_bo *bo, u
 
   }
 
-  signed int tmp_post$4;
+  signed int tmp_post_4;
   if(!(bo == ((struct nouveau_bo *)NULL)))
   {
     kref=cli_kref_get(push->client, bo);
     /* assertion kref */
     assert(kref != ((struct drm_nouveau_gem_pushbuf_bo *)NULL));
-    tmp_post$4 = krec->nr_push;
+    tmp_post_4 = krec->nr_push;
     krec->nr_push = krec->nr_push + 1;
-    kpsh = &krec->push[(signed long int)tmp_post$4];
+    kpsh = &krec->push[(signed long int)tmp_post_4];
     kpsh->bo_index = (unsigned int)(kref - krec->buffer);
     kpsh->offset = offset;
     kpsh->length = length;
@@ -13832,9 +13832,9 @@ void nouveau_pushbuf_del(struct nouveau_pushbuf **ppush)
 {
   struct nouveau_pushbuf_priv *nvpb;
   nvpb=nouveau_pushbuf(*ppush);
-  signed int tmp_post$1;
-  struct drm_nouveau_gem_pushbuf_bo *tmp_post$2;
-  signed int tmp_post$3;
+  signed int tmp_post_1;
+  struct drm_nouveau_gem_pushbuf_bo *tmp_post_2;
+  signed int tmp_post_3;
   if(!(nvpb == ((struct nouveau_pushbuf_priv *)NULL)))
   {
     struct drm_nouveau_gem_pushbuf_bo *kref;
@@ -13848,15 +13848,15 @@ void nouveau_pushbuf_del(struct nouveau_pushbuf **ppush)
       kref = krec->buffer;
       do
       {
-        tmp_post$1 = krec->nr_buffer;
+        tmp_post_1 = krec->nr_buffer;
         krec->nr_buffer = krec->nr_buffer - 1;
-        if(tmp_post$1 == 0)
+        if(tmp_post_1 == 0)
           break;
 
         unsigned long int priv;
-        tmp_post$2 = kref;
+        tmp_post_2 = kref;
         kref = kref + 1l;
-        priv = tmp_post$2->user_priv;
+        priv = tmp_post_2->user_priv;
         struct nouveau_bo *bo = (struct nouveau_bo *)(void *)priv;
         cli_kref_set(nvpb->base.client, bo, (struct drm_nouveau_gem_pushbuf_bo *)(void *)0, (struct nouveau_pushbuf *)(void *)0);
         nouveau_bo_ref((struct nouveau_bo *)(void *)0, &bo);
@@ -13868,9 +13868,9 @@ void nouveau_pushbuf_del(struct nouveau_pushbuf **ppush)
     while((_Bool)1);
     do
     {
-      tmp_post$3 = nvpb->bo_nr;
+      tmp_post_3 = nvpb->bo_nr;
       nvpb->bo_nr = nvpb->bo_nr - 1;
-      if(tmp_post$3 == 0)
+      if(tmp_post_3 == 0)
         break;
 
       nouveau_bo_ref((struct nouveau_bo *)(void *)0, &nvpb->bos[(signed long int)nvpb->bo_nr]);
@@ -13887,19 +13887,19 @@ void nouveau_pushbuf_del(struct nouveau_pushbuf **ppush)
 // file ../../nouveau/nouveau.h line 228
 signed int nouveau_pushbuf_kick(struct nouveau_pushbuf *push, struct nouveau_object *chan)
 {
-  signed int return_value_pushbuf_submit$1;
+  signed int return_value_pushbuf_submit_1;
   if(push->channel == ((struct nouveau_object *)NULL))
   {
-    return_value_pushbuf_submit$1=pushbuf_submit(push, chan);
-    return return_value_pushbuf_submit$1;
+    return_value_pushbuf_submit_1=pushbuf_submit(push, chan);
+    return return_value_pushbuf_submit_1;
   }
 
   else
   {
     pushbuf_flush(push);
-    signed int return_value_pushbuf_validate$2;
-    return_value_pushbuf_validate$2=pushbuf_validate(push, (_Bool)0);
-    return return_value_pushbuf_validate$2;
+    signed int return_value_pushbuf_validate_2;
+    return_value_pushbuf_validate_2=pushbuf_validate(push, (_Bool)0);
+    return return_value_pushbuf_validate_2;
   }
 }
 
@@ -13908,7 +13908,7 @@ signed int nouveau_pushbuf_kick(struct nouveau_pushbuf *push, struct nouveau_obj
 signed int nouveau_pushbuf_new(struct nouveau_client *client, struct nouveau_object *chan, signed int nr, unsigned int size, _Bool immediate, struct nouveau_pushbuf **ppush)
 {
   struct nouveau_drm *drm;
-  drm=nouveau_drm$link1(&client->device->object);
+  drm=nouveau_drm_link1(&client->device->object);
   struct nouveau_fifo *fifo = (struct nouveau_fifo *)chan->data;
   struct nouveau_pushbuf_priv *nvpb;
   struct nouveau_pushbuf *push;
@@ -13930,9 +13930,9 @@ signed int nouveau_pushbuf_new(struct nouveau_client *client, struct nouveau_obj
 
     else
     {
-      void *return_value_calloc$1;
-      return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct nouveau_pushbuf_priv) /*144ul*/  + (unsigned long int)nr * sizeof(struct nouveau_bo *) /*8ul*/ );
-      nvpb = (struct nouveau_pushbuf_priv *)return_value_calloc$1;
+      void *return_value_calloc_1;
+      return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct nouveau_pushbuf_priv) /*144ul*/  + (unsigned long int)nr * sizeof(struct nouveau_bo *) /*8ul*/ );
+      nvpb = (struct nouveau_pushbuf_priv *)return_value_calloc_1;
       if(nvpb == ((struct nouveau_pushbuf_priv *)NULL))
         return -12;
 
@@ -13940,9 +13940,9 @@ signed int nouveau_pushbuf_new(struct nouveau_client *client, struct nouveau_obj
       {
         nvpb->suffix0 = req.suffix0;
         nvpb->suffix1 = req.suffix1;
-        void *return_value_calloc$2;
-        return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct nouveau_pushbuf_krec) /*81960ul*/ );
-        nvpb->krec = (struct nouveau_pushbuf_krec *)return_value_calloc$2;
+        void *return_value_calloc_2;
+        return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct nouveau_pushbuf_krec) /*81960ul*/ );
+        nvpb->krec = (struct nouveau_pushbuf_krec *)return_value_calloc_2;
         nvpb->list = nvpb->krec;
         if(nvpb->krec == ((struct nouveau_pushbuf_krec *)NULL))
         {
@@ -14001,9 +14001,9 @@ unsigned int nouveau_pushbuf_refd(struct nouveau_pushbuf *push, struct nouveau_b
 {
   struct drm_nouveau_gem_pushbuf_bo *kref;
   unsigned int flags = (unsigned int)0;
-  struct nouveau_pushbuf *return_value_cli_push_get$1;
-  return_value_cli_push_get$1=cli_push_get$link1(push->client, bo);
-  if(return_value_cli_push_get$1 == push)
+  struct nouveau_pushbuf *return_value_cli_push_get_1;
+  return_value_cli_push_get_1=cli_push_get_link1(push->client, bo);
+  if(return_value_cli_push_get_1 == push)
   {
     kref=cli_kref_get(push->client, bo);
     /* assertion kref */
@@ -14023,9 +14023,9 @@ unsigned int nouveau_pushbuf_refd(struct nouveau_pushbuf *push, struct nouveau_b
 // file ../../nouveau/pushbuf.c line 736
 signed int nouveau_pushbuf_refn(struct nouveau_pushbuf *push, struct nouveau_pushbuf_refn *refs, signed int nr)
 {
-  signed int return_value_pushbuf_refn$1;
-  return_value_pushbuf_refn$1=pushbuf_refn(push, (_Bool)1, refs, nr);
-  return return_value_pushbuf_refn$1;
+  signed int return_value_pushbuf_refn_1;
+  return_value_pushbuf_refn_1=pushbuf_refn(push, (_Bool)1, refs, nr);
+  return return_value_pushbuf_refn_1;
 }
 
 // nouveau_pushbuf_reloc
@@ -14047,21 +14047,21 @@ signed int nouveau_pushbuf_space(struct nouveau_pushbuf *push, unsigned int dwor
   struct nouveau_bo *bo = (struct nouveau_bo *)(void *)0;
   _Bool flushed = (_Bool)0;
   signed int ret = 0;
-  signed int tmp_post$1;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  struct drm_nouveau_gem_pushbuf_bo *return_value_pushbuf_kref$2;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  signed int tmp_if_expr$8;
-  signed int return_value_pushbuf_validate$7;
+  signed int tmp_post_1;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  struct drm_nouveau_gem_pushbuf_bo *return_value_pushbuf_kref_2;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  signed int tmp_if_expr_8;
+  signed int return_value_pushbuf_validate_7;
   if(push->cur + (signed long int)dwords >= push->end)
   {
     if(!(nvpb->bo_next >= nvpb->bo_nr))
     {
-      tmp_post$1 = nvpb->bo_next;
+      tmp_post_1 = nvpb->bo_next;
       nvpb->bo_next = nvpb->bo_next + 1;
-      nouveau_bo_ref(nvpb->bos[(signed long int)tmp_post$1], &bo);
+      nouveau_bo_ref(nvpb->bos[(signed long int)tmp_post_1], &bo);
       if(nvpb->bo_next == nvpb->bo_nr)
       {
         if(!(push->channel == ((struct nouveau_object *)NULL)))
@@ -14088,29 +14088,29 @@ signed int nouveau_pushbuf_space(struct nouveau_pushbuf *push, unsigned int dwor
     if(!(bo == ((struct nouveau_bo *)NULL)))
     {
       if(!(push->channel == ((struct nouveau_object *)NULL)))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value_pushbuf_kref$2=pushbuf_kref(push, bo, push->flags);
-        tmp_if_expr$3 = !(return_value_pushbuf_kref$2 != ((struct drm_nouveau_gem_pushbuf_bo *)NULL)) ? (_Bool)1 : (_Bool)0;
+        return_value_pushbuf_kref_2=pushbuf_kref(push, bo, push->flags);
+        tmp_if_expr_3 = !(return_value_pushbuf_kref_2 != ((struct drm_nouveau_gem_pushbuf_bo *)NULL)) ? (_Bool)1 : (_Bool)0;
       }
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = (unsigned int)krec->nr_reloc + relocs >= (unsigned int)1024 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_5 = (unsigned int)krec->nr_reloc + relocs >= (unsigned int)1024 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (unsigned int)krec->nr_push + pushes >= (unsigned int)512 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (unsigned int)krec->nr_push + pushes >= (unsigned int)512 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
     {
       if(!(nvpb->bo == ((struct nouveau_bo *)NULL)))
       {
@@ -14141,13 +14141,13 @@ signed int nouveau_pushbuf_space(struct nouveau_pushbuf *push, unsigned int dwor
     pushbuf_kref(push, nvpb->bo, push->flags);
     if(!(flushed == (_Bool)0))
     {
-      return_value_pushbuf_validate$7=pushbuf_validate(push, (_Bool)0);
-      tmp_if_expr$8 = return_value_pushbuf_validate$7;
+      return_value_pushbuf_validate_7=pushbuf_validate(push, (_Bool)0);
+      tmp_if_expr_8 = return_value_pushbuf_validate_7;
     }
 
     else
-      tmp_if_expr$8 = 0;
-    return tmp_if_expr$8;
+      tmp_if_expr_8 = 0;
+    return tmp_if_expr_8;
   }
 }
 
@@ -14155,9 +14155,9 @@ signed int nouveau_pushbuf_space(struct nouveau_pushbuf *push, unsigned int dwor
 // file ../../nouveau/pushbuf.c line 751
 signed int nouveau_pushbuf_validate(struct nouveau_pushbuf *push)
 {
-  signed int return_value_pushbuf_validate$1;
-  return_value_pushbuf_validate$1=pushbuf_validate(push, (_Bool)1);
-  return return_value_pushbuf_validate$1;
+  signed int return_value_pushbuf_validate_1;
+  return_value_pushbuf_validate_1=pushbuf_validate(push, (_Bool)1);
+  return return_value_pushbuf_validate_1;
 }
 
 // nouveau_setparam
@@ -14167,9 +14167,9 @@ signed int nouveau_setparam(struct nouveau_device *dev, unsigned long int param,
   struct nouveau_drm *drm;
   drm=nouveau_drm(&dev->object);
   struct drm_nouveau_setparam r = { .param=param, .value=value };
-  signed int return_value_drmCommandWrite$1;
-  return_value_drmCommandWrite$1=drmCommandWrite(drm->fd, (unsigned long int)0x01, (void *)&r, sizeof(struct drm_nouveau_setparam) /*16ul*/ );
-  return return_value_drmCommandWrite$1;
+  signed int return_value_drmCommandWrite_1;
+  return_value_drmCommandWrite_1=drmCommandWrite(drm->fd, (unsigned long int)0x01, (void *)&r, sizeof(struct drm_nouveau_setparam) /*16ul*/ );
+  return return_value_drmCommandWrite_1;
 }
 
 // openclose
@@ -14181,9 +14181,9 @@ static void * openclose(void *dev)
   signed int i = 0;
   for( ; !(i >= 100000); i = i + 1)
   {
-    signed int return_value_nouveau_bo_prime_handle_ref$1;
-    return_value_nouveau_bo_prime_handle_ref$1=nouveau_bo_prime_handle_ref(nvdev, import_fd, &bo);
-    if(return_value_nouveau_bo_prime_handle_ref$1 == 0)
+    signed int return_value_nouveau_bo_prime_handle_ref_1;
+    return_value_nouveau_bo_prime_handle_ref_1=nouveau_bo_prime_handle_ref(nvdev, import_fd, &bo);
+    if(return_value_nouveau_bo_prime_handle_ref_1 == 0)
       nouveau_bo_ref((struct nouveau_bo *)(void *)0, &bo);
 
   }
@@ -14218,7 +14218,7 @@ static void pushbuf_dump(struct nouveau_pushbuf_krec *krec, signed int krec_id, 
   }
   kpsh = krec->push;
   i = 0;
-  unsigned int *tmp_post$1;
+  unsigned int *tmp_post_1;
   for( ; !(i >= krec->nr_push); kpsh = kpsh + 1l)
   {
     kref = krec->buffer + (signed long int)kpsh->bo_index;
@@ -14228,9 +14228,9 @@ static void pushbuf_dump(struct nouveau_pushbuf_krec *krec, signed int krec_id, 
     fprintf(stderr, "nouveau: ch%d: psh %08x %010llx %010llx\n", chid, kpsh->bo_index, (unsigned long long int)kpsh->offset, (unsigned long long int)(kpsh->offset + kpsh->length));
     while(!(bgn >= end))
     {
-      tmp_post$1 = bgn;
+      tmp_post_1 = bgn;
       bgn = bgn + 1l;
-      fprintf(stderr, "nouveau: \t0x%08x\n", *tmp_post$1);
+      fprintf(stderr, "nouveau: \t0x%08x\n", *tmp_post_1);
     }
     i = i + 1;
   }
@@ -14255,9 +14255,9 @@ static signed int pushbuf_flush(struct nouveau_pushbuf *push)
   else
   {
     nouveau_pushbuf_data(push, (struct nouveau_bo *)(void *)0, (unsigned long int)0, (unsigned long int)0);
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct nouveau_pushbuf_krec) /*81960ul*/ );
-    krec->next = (struct nouveau_pushbuf_krec *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct nouveau_pushbuf_krec) /*81960ul*/ );
+    krec->next = (struct nouveau_pushbuf_krec *)return_value_malloc_1;
     nvpb->krec = krec->next;
   }
   kref = krec->buffer;
@@ -14330,14 +14330,14 @@ static struct drm_nouveau_gem_pushbuf_bo * pushbuf_kref(struct nouveau_pushbuf *
 
   domains_wr = domains * (unsigned int)!(!((flags & (unsigned int)0x00000200) != 0u));
   domains_rd = domains * (unsigned int)!(!((flags & (unsigned int)0x00000100) != 0u));
-  fpush=cli_push_get$link1(push->client, bo);
+  fpush=cli_push_get_link1(push->client, bo);
   if(!(fpush == ((struct nouveau_pushbuf *)NULL)) && !(fpush == push))
     pushbuf_flush(fpush);
 
   kref=cli_kref_get(push->client, bo);
-  _Bool tmp_if_expr$2;
-  _Bool return_value_pushbuf_kref_fits$1;
-  signed int tmp_post$3;
+  _Bool tmp_if_expr_2;
+  _Bool return_value_pushbuf_kref_fits_1;
+  signed int tmp_post_3;
   if(!(kref == ((struct drm_nouveau_gem_pushbuf_bo *)NULL)))
   {
     if((kref->valid_domains & domains) == 0u)
@@ -14364,19 +14364,19 @@ static struct drm_nouveau_gem_pushbuf_bo * pushbuf_kref(struct nouveau_pushbuf *
   else
   {
     if(krec->nr_buffer == 1024)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
-      return_value_pushbuf_kref_fits$1=pushbuf_kref_fits(push, bo, &domains);
-      tmp_if_expr$2 = !(return_value_pushbuf_kref_fits$1 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+      return_value_pushbuf_kref_fits_1=pushbuf_kref_fits(push, bo, &domains);
+      tmp_if_expr_2 = !(return_value_pushbuf_kref_fits_1 != (_Bool)0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
       return (struct drm_nouveau_gem_pushbuf_bo *)(void *)0;
 
-    tmp_post$3 = krec->nr_buffer;
+    tmp_post_3 = krec->nr_buffer;
     krec->nr_buffer = krec->nr_buffer + 1;
-    kref = &krec->buffer[(signed long int)tmp_post$3];
+    kref = &krec->buffer[(signed long int)tmp_post_3];
     kref->user_priv = (unsigned long int)bo;
     kref->handle = bo->handle;
     kref->valid_domains = domains;
@@ -14390,10 +14390,10 @@ static struct drm_nouveau_gem_pushbuf_bo * pushbuf_kref(struct nouveau_pushbuf *
     else
       kref->presumed.domain = (unsigned int)(1 << 2);
     cli_kref_set(push->client, bo, kref, push);
-    struct nouveau_bo_priv *return_value_nouveau_bo$4;
-    return_value_nouveau_bo$4=nouveau_bo$link1(bo);
+    struct nouveau_bo_priv *return_value_nouveau_bo_4;
+    return_value_nouveau_bo_4=nouveau_bo_link1(bo);
     __CPROVER_atomic_begin();
-    *(&(&return_value_nouveau_bo$4->refcnt)->atomic) = *(&(&return_value_nouveau_bo$4->refcnt)->atomic) + 1;
+    *(&(&return_value_nouveau_bo_4->refcnt)->atomic) = *(&(&return_value_nouveau_bo_4->refcnt)->atomic) + 1;
     FENCE(WRfence);
     __CPROVER_atomic_end();
   }
@@ -14411,7 +14411,7 @@ static _Bool pushbuf_kref_fits(struct nouveau_pushbuf *push, struct nouveau_bo *
   struct nouveau_bo *kbo;
   struct drm_nouveau_gem_pushbuf_bo *kref;
   signed int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(*domains == 2u)
   {
     if(!(dev->vram_limit >= bo->size + krec->vram_used))
@@ -14452,11 +14452,11 @@ static _Bool pushbuf_kref_fits(struct nouveau_pushbuf *push, struct nouveau_bo *
           {
             kbo = (struct nouveau_bo *)(void *)(unsigned long int)kref->user_priv;
             if((2u & kref->valid_domains) == 0u)
-              tmp_if_expr$1 = (_Bool)1;
+              tmp_if_expr_1 = (_Bool)1;
 
             else
-              tmp_if_expr$1 = krec->vram_used + kbo->size > dev->vram_limit ? (_Bool)1 : (_Bool)0;
-            if(!tmp_if_expr$1)
+              tmp_if_expr_1 = krec->vram_used + kbo->size > dev->vram_limit ? (_Bool)1 : (_Bool)0;
+            if(!tmp_if_expr_1)
             {
               kref->valid_domains = kref->valid_domains & (unsigned int)(1 << 1);
               krec->gart_used = krec->gart_used - kbo->size;
@@ -14490,9 +14490,9 @@ static unsigned int pushbuf_krel(struct nouveau_pushbuf *push, struct nouveau_bo
   unsigned int reloc = data;
   pkref=cli_kref_get(push->client, nvpb->bo);
   bkref=cli_kref_get(push->client, bo);
-  signed int tmp_post$1 = krec->nr_reloc;
+  signed int tmp_post_1 = krec->nr_reloc;
   krec->nr_reloc = krec->nr_reloc + 1;
-  krel = &krec->reloc[(signed long int)tmp_post$1];
+  krel = &krec->reloc[(signed long int)tmp_post_1];
   /* assertion pkref */
   assert(pkref != ((struct drm_nouveau_gem_pushbuf_bo *)NULL));
   /* assertion bkref */
@@ -14558,9 +14558,9 @@ static signed int pushbuf_refn(struct nouveau_pushbuf *push, _Bool retry, struct
     {
       pushbuf_flush(push);
       nouveau_pushbuf_space(push, (unsigned int)0, (unsigned int)0, (unsigned int)0);
-      signed int return_value_pushbuf_refn$1;
-      return_value_pushbuf_refn$1=pushbuf_refn(push, (_Bool)0, refs, nr);
-      return return_value_pushbuf_refn$1;
+      signed int return_value_pushbuf_refn_1;
+      return_value_pushbuf_refn_1=pushbuf_refn(push, (_Bool)0, refs, nr);
+      return return_value_pushbuf_refn_1;
     }
 
   }
@@ -14576,12 +14576,12 @@ static void pushbuf_refn_fail(struct nouveau_pushbuf *push, signed int sref, sig
   nvpb=nouveau_pushbuf(push);
   struct nouveau_pushbuf_krec *krec = nvpb->krec;
   struct drm_nouveau_gem_pushbuf_bo *kref = krec->buffer + (signed long int)sref;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
-    tmp_post$1 = krec->nr_buffer;
+    tmp_post_1 = krec->nr_buffer;
     krec->nr_buffer = krec->nr_buffer - 1;
-    if(sref >= tmp_post$1)
+    if(sref >= tmp_post_1)
       break;
 
     struct nouveau_bo *bo = (struct nouveau_bo *)(void *)(unsigned long int)kref->user_priv;
@@ -14603,7 +14603,7 @@ static signed int pushbuf_submit(struct nouveau_pushbuf *push, struct nouveau_ob
   struct nouveau_pushbuf_krec *krec = nvpb->list;
   struct nouveau_device *dev = push->client->device;
   struct nouveau_drm *drm;
-  drm=nouveau_drm$link1(&dev->object);
+  drm=nouveau_drm_link1(&dev->object);
   struct drm_nouveau_gem_pushbuf_bo_presumed *info;
   struct drm_nouveau_gem_pushbuf_bo *kref;
   struct drm_nouveau_gem_pushbuf req;
@@ -14612,10 +14612,10 @@ static signed int pushbuf_submit(struct nouveau_pushbuf *push, struct nouveau_ob
   signed int krec_id = 0;
   signed int ret = 0;
   signed int i;
-  signed int tmp_post$1;
-  signed int tmp_post$5;
-  struct nouveau_bo_priv *return_value_nouveau_bo$6;
-  struct nouveau_bo_priv *return_value_nouveau_bo$7;
+  signed int tmp_post_1;
+  signed int tmp_post_5;
+  struct nouveau_bo_priv *return_value_nouveau_bo_6;
+  struct nouveau_bo_priv *return_value_nouveau_bo_7;
   if(!(chan->oclass == 0x80000001))
     return -22;
 
@@ -14643,28 +14643,28 @@ static signed int pushbuf_submit(struct nouveau_pushbuf *push, struct nouveau_ob
       req.gart_available = (unsigned long int)0;
       if(!((1u & nouveau_debug) == 0u))
       {
-        tmp_post$1 = krec_id;
+        tmp_post_1 = krec_id;
         krec_id = krec_id + 1;
-        pushbuf_dump(krec, tmp_post$1, (signed int)fifo->channel);
+        pushbuf_dump(krec, tmp_post_1, (signed int)fifo->channel);
       }
 
       ret=drmCommandWriteRead(drm->fd, (unsigned long int)0x41, (void *)&req, sizeof(struct drm_nouveau_gem_pushbuf) /*64ul*/ );
       nvpb->suffix0 = req.suffix0;
       nvpb->suffix1 = req.suffix1;
-      struct nouveau_device_priv *return_value_nouveau_device$2;
-      return_value_nouveau_device$2=nouveau_device$link1(dev);
-      dev->vram_limit = (req.vram_available * (unsigned long int)return_value_nouveau_device$2->vram_limit_percent) / (unsigned long int)100;
-      struct nouveau_device_priv *return_value_nouveau_device$3;
-      return_value_nouveau_device$3=nouveau_device$link1(dev);
-      dev->gart_limit = (req.gart_available * (unsigned long int)return_value_nouveau_device$3->gart_limit_percent) / (unsigned long int)100;
+      struct nouveau_device_priv *return_value_nouveau_device_2;
+      return_value_nouveau_device_2=nouveau_device_link1(dev);
+      dev->vram_limit = (req.vram_available * (unsigned long int)return_value_nouveau_device_2->vram_limit_percent) / (unsigned long int)100;
+      struct nouveau_device_priv *return_value_nouveau_device_3;
+      return_value_nouveau_device_3=nouveau_device_link1(dev);
+      dev->gart_limit = (req.gart_available * (unsigned long int)return_value_nouveau_device_3->gart_limit_percent) / (unsigned long int)100;
       if(!(ret == 0))
       {
-        char *return_value_strerror$4;
-        return_value_strerror$4=strerror(-ret);
-        fprintf(stderr, "nouveau: kernel rejected pushbuf: %s\n", return_value_strerror$4);
-        tmp_post$5 = krec_id;
+        char *return_value_strerror_4;
+        return_value_strerror_4=strerror(-ret);
+        fprintf(stderr, "nouveau: kernel rejected pushbuf: %s\n", return_value_strerror_4);
+        tmp_post_5 = krec_id;
         krec_id = krec_id + 1;
-        pushbuf_dump(krec, tmp_post$5, (signed int)fifo->channel);
+        pushbuf_dump(krec, tmp_post_5, (signed int)fifo->channel);
         break;
       }
 
@@ -14687,14 +14687,14 @@ static signed int pushbuf_submit(struct nouveau_pushbuf *push, struct nouveau_ob
 
         if(!(kref->write_domains == 0u))
         {
-          return_value_nouveau_bo$6=nouveau_bo$link1(bo);
-          return_value_nouveau_bo$6->access = return_value_nouveau_bo$6->access | (unsigned int)0x00000200;
+          return_value_nouveau_bo_6=nouveau_bo_link1(bo);
+          return_value_nouveau_bo_6->access = return_value_nouveau_bo_6->access | (unsigned int)0x00000200;
         }
 
         if(!(kref->read_domains == 0u))
         {
-          return_value_nouveau_bo$7=nouveau_bo$link1(bo);
-          return_value_nouveau_bo$7->access = return_value_nouveau_bo$7->access | (unsigned int)0x00000100;
+          return_value_nouveau_bo_7=nouveau_bo_link1(bo);
+          return_value_nouveau_bo_7->access = return_value_nouveau_bo_7->access | (unsigned int)0x00000100;
         }
 
         i = i + 1;
@@ -14716,19 +14716,19 @@ static signed int pushbuf_validate(struct nouveau_pushbuf *push, _Bool retry)
   struct nouveau_bufctx *bctx = push->bufctx;
   struct nouveau_bufref *bref;
   signed int relocs;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(bctx == ((struct nouveau_bufctx *)NULL)))
-    tmp_if_expr$1 = bctx->relocs * 2;
+    tmp_if_expr_1 = bctx->relocs * 2;
 
   else
-    tmp_if_expr$1 = 0;
-  relocs = tmp_if_expr$1;
+    tmp_if_expr_1 = 0;
+  relocs = tmp_if_expr_1;
   signed int sref;
   signed int srel;
   signed int ret;
   ret=nouveau_pushbuf_space(push, (unsigned int)relocs, (unsigned int)relocs, (unsigned int)0);
-  unsigned int *tmp_post$2;
-  unsigned int *tmp_post$3;
+  unsigned int *tmp_post_2;
+  unsigned int *tmp_post_3;
   if(bctx == ((struct nouveau_bufctx *)NULL) || !(ret == 0))
     return ret;
 
@@ -14763,13 +14763,13 @@ static signed int pushbuf_validate(struct nouveau_pushbuf *push, _Bool retry)
       if(!(bref->packet == 0u))
       {
         pushbuf_krel(push, bref->bo, bref->packet, (unsigned int)0, (unsigned int)0, (unsigned int)0);
-        tmp_post$2 = push->cur;
+        tmp_post_2 = push->cur;
         push->cur = push->cur + 1l;
-        *tmp_post$2 = (unsigned int)0;
+        *tmp_post_2 = (unsigned int)0;
         pushbuf_krel(push, bref->bo, bref->data, bref->flags, bref->vor, bref->tor);
-        tmp_post$3 = push->cur;
+        tmp_post_3 = push->cur;
         push->cur = push->cur + 1l;
-        *tmp_post$3 = (unsigned int)0;
+        *tmp_post_3 = (unsigned int)0;
       }
 
     }
@@ -14793,9 +14793,9 @@ static signed int pushbuf_validate(struct nouveau_pushbuf *push, _Bool retry)
       if(!(retry == (_Bool)0))
       {
         pushbuf_flush(push);
-        signed int return_value_pushbuf_validate$4;
-        return_value_pushbuf_validate$4=pushbuf_validate(push, (_Bool)0);
-        return return_value_pushbuf_validate$4;
+        signed int return_value_pushbuf_validate_4;
+        return_value_pushbuf_validate_4=pushbuf_validate(push, (_Bool)0);
+        return return_value_pushbuf_validate_4;
       }
 
     }
@@ -14821,20 +14821,20 @@ static signed int sort_req_list(const void *misc, const void *other)
       return (signed int)(second->property_id - first->property_id);
 }
 
-// sort_req_list$link1
+// sort_req_list_link1
 // file ../xf86drmMode.c line 1300
-static signed int sort_req_list$link1(const void *misc$link1, const void *other$link1)
+static signed int sort_req_list_link1(const void *misc_link1, const void *other_link1)
 {
-  const struct _drmModeAtomicReqItem *first$link1 = (const struct _drmModeAtomicReqItem *)misc$link1;
-  const struct _drmModeAtomicReqItem *second$link1 = (const struct _drmModeAtomicReqItem *)other$link1;
-  if(!(first$link1->object_id >= second$link1->object_id))
+  const struct _drmModeAtomicReqItem *first_link1 = (const struct _drmModeAtomicReqItem *)misc_link1;
+  const struct _drmModeAtomicReqItem *second_link1 = (const struct _drmModeAtomicReqItem *)other_link1;
+  if(!(first_link1->object_id >= second_link1->object_id))
     return -1;
 
   else
-    if(!(second$link1->object_id >= first$link1->object_id))
+    if(!(second_link1->object_id >= first_link1->object_id))
       return 1;
 
     else
-      return (signed int)(second$link1->property_id - first$link1->property_id);
+      return (signed int)(second_link1->property_id - first_link1->property_id);
 }
 

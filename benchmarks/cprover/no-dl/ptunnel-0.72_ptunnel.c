@@ -1,42 +1,42 @@
-// tag-#anon#ST[*{SYM#tag-pcap#}$SYM#tag-pcap#$'pcap_desc'|SYM#tag-bpf_program#'fp'|U32'netp'|U32'netmask'|*{S8}$S8$'pcap_err_buf'|*{S8}$S8$'pcap_data_buf'|SYM#tag-#anon#ST[*{SYM#tag-pqueue_elem_t#}$SYM#tag-pqueue_elem_t#$'head'|*{SYM#tag-pqueue_elem_t#}$SYM#tag-pqueue_elem_t#$'tail'|S32'elems'|U32'$pad0']#'pkt_q']
+// tag-#anon#ST[*{SYM#tag-pcap#}_SYM#tag-pcap#_'pcap_desc'|SYM#tag-bpf_program#'fp'|U32'netp'|U32'netmask'|*{S8}_S8_'pcap_err_buf'|*{S8}_S8_'pcap_data_buf'|SYM#tag-#anon#ST[*{SYM#tag-pqueue_elem_t#}_SYM#tag-pqueue_elem_t#_'head'|*{SYM#tag-pqueue_elem_t#}_SYM#tag-pqueue_elem_t#_'tail'|S32'elems'|U32'_pad0']#'pkt_q']
 // file ptunnel.h line 378
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[*{SYM#tag-pqueue_elem_t#}$SYM#tag-pqueue_elem_t#$'head'|*{SYM#tag-pqueue_elem_t#}$SYM#tag-pqueue_elem_t#$'tail'|S32'elems'|U32'$pad0']
+// tag-#anon#ST[*{SYM#tag-pqueue_elem_t#}_SYM#tag-pqueue_elem_t#_'head'|*{SYM#tag-pqueue_elem_t#}_SYM#tag-pqueue_elem_t#_'tail'|S32'elems'|U32'_pad0']
 // file ptunnel.h line 370
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits']
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits']
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
 struct anonymous;
 
-// tag-#anon#ST[S32'pkt_len'|U32'$pad0'|F64'last_resend'|S32'resend_count'|U16'seq_no'|U16'icmp_id'|*{SYM#tag-#anon#ST[U8'type'|U8'code'|U16'checksum'|U16'identifier'|U16'seq'|ARR0{S8}$S8$'data']#}$SYM#tag-#anon#ST[U8'type'|U8'code'|U16'checksum'|U16'identifier'|U16'seq'|ARR0{S8}$S8$'data']#$'pkt']
+// tag-#anon#ST[S32'pkt_len'|U32'_pad0'|F64'last_resend'|S32'resend_count'|U16'seq_no'|U16'icmp_id'|*{SYM#tag-#anon#ST[U8'type'|U8'code'|U16'checksum'|U16'identifier'|U16'seq'|ARR0{S8}_S8_'data']#}_SYM#tag-#anon#ST[U8'type'|U8'code'|U16'checksum'|U16'identifier'|U16'seq'|ARR0{S8}_S8_'data']#_'pkt']
 // file ptunnel.h line 289
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[S32'seq_no'|S32'length'|S32'remaining'|ARR0{S8}$S8$'data']
+// tag-#anon#ST[S32'seq_no'|S32'length'|S32'remaining'|ARR0{S8}_S8_'data']
 // file ptunnel.h line 275
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[U32'magic'|U32'dst_ip'|U32'dst_port'|U32'state'|U32'ack'|U32'data_len'|U16'seq_no'|U16'id_no'|ARR0{S8}$S8$'data']
+// tag-#anon#ST[U32'magic'|U32'dst_ip'|U32'dst_port'|U32'state'|U32'ack'|U32'data_len'|U16'seq_no'|U16'id_no'|ARR0{S8}_S8_'data']
 // file ptunnel.h line 200
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[U8'type'|U8'code'|U16'checksum'|U16'identifier'|U16'seq'|ARR0{S8}$S8$'data']
+// tag-#anon#ST[U8'type'|U8'code'|U16'checksum'|U16'identifier'|U16'seq'|ARR0{S8}_S8_'data']
 // file ptunnel.h line 241
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[U8'vers_ihl'|U8'tos'|U16'pkt_len'|U16'id'|U16'flags_frag_offset'|U8'ttl'|U8'proto'|U16'checksum'|U32'src_ip'|U32'dst_ip'|ARR0{S8}$S8$'data']
+// tag-#anon#ST[U8'vers_ihl'|U8'tos'|U16'pkt_len'|U16'id'|U16'flags_frag_offset'|U8'ttl'|U8'proto'|U16'checksum'|U32'src_ip'|U32'dst_ip'|ARR0{S8}_S8_'data']
 // file ptunnel.h line 217
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'|S32'__align']
+// tag-#anon#UN[ARR4{S8}_S8_'__size'|S32'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -169,7 +169,7 @@ extern signed int connect(signed int, struct sockaddr *, unsigned int);
 struct proxy_desc_t * create_and_insert_proxy_desc(unsigned short int id_no, unsigned short int icmp_id, signed int sock, struct sockaddr_in *addr, unsigned int dst_ip, unsigned int dst_port, unsigned int init_state, unsigned int type);
 // create_fwd_desc
 // file ptunnel.c line 1487
-struct anonymous$7 * create_fwd_desc(unsigned short int seq_no, unsigned int data_len, char *data);
+struct anonymous_7 * create_fwd_desc(unsigned short int seq_no, unsigned int data_len, char *data);
 // exit
 // file /usr/include/stdlib.h line 543
 extern void exit(signed int);
@@ -217,10 +217,10 @@ extern struct passwd * getpwnam(const char *);
 extern signed int gettimeofday(struct timeval *, struct timezone *);
 // handle_ack
 // file ptunnel.c line 1423
-void handle_ack(unsigned short int seq_no, struct anonymous$8 *ring, signed int *packets_awaiting_ack, signed int one_ack_only, signed int insert_idx, signed int *first_ack, unsigned short int *remote_ack, signed int is_pcap);
+void handle_ack(unsigned short int seq_no, struct anonymous_8 *ring, signed int *packets_awaiting_ack, signed int one_ack_only, signed int insert_idx, signed int *first_ack, unsigned short int *remote_ack, signed int is_pcap);
 // handle_data
 // file ptunnel.c line 1345
-void handle_data(struct anonymous$6 *pkt, signed int total_len, struct anonymous$7 **ring, signed int *await_send, signed int *insert_idx, unsigned short int *next_expected_seq);
+void handle_data(struct anonymous_6 *pkt, signed int total_len, struct anonymous_7 **ring, signed int *await_send, signed int *insert_idx, unsigned short int *next_expected_seq);
 // handle_packet
 // file ptunnel.c line 931
 void handle_packet(char *buf, signed int bytes, signed int is_pcap, struct sockaddr_in *addr, signed int icmp_sock);
@@ -313,16 +313,16 @@ void * pt_proxy(void *args);
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$0 *, const union anonymous$4 *);
+extern signed int pthread_mutex_init(union anonymous_0 *, const union anonymous_4 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$0 *);
+extern signed int pthread_mutex_lock(union anonymous_0 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$0 *);
+extern signed int pthread_mutex_unlock(union anonymous_0 *);
 // queue_packet
 // file ptunnel.c line 1205
-signed int queue_packet(signed int icmp_sock, unsigned char type, char *buf, signed int num_bytes, unsigned short int id_no, unsigned short int icmp_id, unsigned short int *seq, struct anonymous$8 *ring, signed int *insert_idx, signed int *await_send, unsigned int ip, unsigned int port, unsigned int state, struct sockaddr_in *dest_addr, unsigned short int next_expected_seq, signed int *first_ack, unsigned short int *ping_seq);
+signed int queue_packet(signed int icmp_sock, unsigned char type, char *buf, signed int num_bytes, unsigned short int id_no, unsigned short int icmp_id, unsigned short int *seq, struct anonymous_8 *ring, signed int *insert_idx, signed int *await_send, unsigned int ip, unsigned int port, unsigned int state, struct sockaddr_in *dest_addr, unsigned short int next_expected_seq, signed int *first_ack, unsigned short int *ping_seq);
 // rand
 // file /usr/include/stdlib.h line 374
 extern signed int rand(void);
@@ -343,7 +343,7 @@ extern signed int select(signed int, struct anonymous *, struct anonymous *, str
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
 // send_packets
 // file ptunnel.c line 1306
-unsigned int send_packets(struct anonymous$7 **ring, signed int *xfer_idx, signed int *await_send, signed int *sock);
+unsigned int send_packets(struct anonymous_7 **ring, signed int *xfer_idx, signed int *await_send, signed int *sock);
 // send_termination_msg
 // file ptunnel.c line 1571
 void send_termination_msg(struct proxy_desc_t *cur, signed int icmp_sock);
@@ -419,7 +419,7 @@ struct bpf_program
   struct bpf_insn *bf_insns;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // head
   struct pqueue_elem_t *head;
@@ -429,7 +429,7 @@ struct anonymous$2
   signed int elems;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // pcap_desc
   struct pcap *pcap_desc;
@@ -444,7 +444,7 @@ struct anonymous$5
   // pcap_data_buf
   char *pcap_data_buf;
   // pkt_q
-  struct anonymous$2 pkt_q;
+  struct anonymous_2 pkt_q;
 };
 
 struct anonymous
@@ -453,7 +453,7 @@ struct anonymous
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // pkt_len
   signed int pkt_len;
@@ -466,10 +466,10 @@ struct anonymous$8
   // icmp_id
   unsigned short int icmp_id;
   // pkt
-  struct anonymous$6 *pkt;
+  struct anonymous_6 *pkt;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // seq_no
   signed int seq_no;
@@ -481,7 +481,7 @@ struct anonymous$7
   char data[0l];
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // magic
   unsigned int magic;
@@ -503,7 +503,7 @@ struct anonymous$1
   char data[0l];
 } __attribute__ ((__packed__));
 
-struct anonymous$6
+struct anonymous_6
 {
   // type
   unsigned char type;
@@ -519,7 +519,7 @@ struct anonymous$6
   char data[0l];
 } __attribute__ ((__packed__));
 
-struct anonymous$3
+struct anonymous_3
 {
   // vers_ihl
   unsigned char vers_ihl;
@@ -545,7 +545,7 @@ struct anonymous$3
   char data[0l];
 } __attribute__ ((__packed__));
 
-union anonymous$4
+union anonymous_4
 {
   // __size
   char __size[4l];
@@ -581,7 +581,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -876,9 +876,9 @@ struct proxy_desc_t
   // last_activity
   double last_activity;
   // send_ring
-  struct anonymous$8 send_ring[64l];
+  struct anonymous_8 send_ring[64l];
   // recv_ring
-  struct anonymous$7 *recv_ring[64l];
+  struct anonymous_7 *recv_ring[64l];
   // xfer
   struct xfer_stats_t xfer;
   // next
@@ -907,7 +907,7 @@ struct timezone
 struct proxy_desc_t *chain = ((struct proxy_desc_t *)NULL);
 // chain_lock
 // file ptunnel.c line 84
-union anonymous$0 chain_lock;
+union anonymous_0 chain_lock;
 // daemonize
 // file ptunnel.c line 78
 static char daemonize = (char)0;
@@ -922,7 +922,7 @@ unsigned int given_dst_ip = (unsigned int)0;
 unsigned int given_proxy_ip = (unsigned int)0;
 // icmp_receive_buf_len
 // file ptunnel.c line 110
-const signed int icmp_receive_buf_len = (const signed int)((unsigned long int)(1024 + 20 + 8) + sizeof(struct anonymous$1) /*28ul*/ );
+const signed int icmp_receive_buf_len = (const signed int)((unsigned long int)(1024 + 20 + 8) + sizeof(struct anonymous_1) /*28ul*/ );
 // log_file
 // file ptunnel.c line 91
 struct _IO_FILE *log_file = ((struct _IO_FILE *)NULL);
@@ -940,7 +940,7 @@ signed int mode = 1;
 signed int num_threads = 0;
 // num_threads_lock
 // file ptunnel.c line 85
-union anonymous$0 num_threads_lock;
+union anonymous_0 num_threads_lock;
 // num_tunnels
 // file ptunnel.c line 99
 signed int num_tunnels = 0;
@@ -955,7 +955,7 @@ char password_digest[16l];
 char pcap = (char)0;
 // pcap_buf_size
 // file ptunnel.c line 111
-const signed int pcap_buf_size = (const signed int)(((unsigned long int)(1024 + 20 + 8) + sizeof(struct anonymous$1) /*28ul*/  + (unsigned long int)64) * (unsigned long int)64);
+const signed int pcap_buf_size = (const signed int)(((unsigned long int)(1024 + 20 + 8) + sizeof(struct anonymous_1) /*28ul*/  + (unsigned long int)64) * (unsigned long int)64);
 // pcap_device
 // file ptunnel.c line 106
 char *pcap_device = ((char *)NULL);
@@ -1022,9 +1022,9 @@ unsigned short int calc_icmp_checksum(unsigned short int *data, signed int bytes
   for( ; !(i >= bytes / 2); i = i + 1)
     sum = sum + (unsigned int)data[(signed long int)i];
   sum = (sum & (unsigned int)0xFFFF) + (sum >> 16);
-  unsigned short int return_value_htons$1;
-  return_value_htons$1=htons((unsigned short int)((unsigned int)0xFFFF - sum));
-  sum = (unsigned int)return_value_htons$1;
+  unsigned short int return_value_htons_1;
+  return_value_htons_1=htons((unsigned short int)((unsigned int)0xFFFF - sum));
+  sum = (unsigned int)return_value_htons_1;
   return (unsigned short int)sum;
 }
 
@@ -1049,9 +1049,9 @@ struct proxy_desc_t * create_and_insert_proxy_desc(unsigned short int id_no, uns
     num_tunnels = num_tunnels + 1;
     pthread_mutex_unlock(&chain_lock);
     pt_log(4, "Adding proxy desc to run loop. Type is %s. Will create socket: %s\n", type == (unsigned int)1073741824 ? "user" : "proxy", sock != 0 ? "No" : "Yes");
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct proxy_desc_t) /*2728ul*/ );
-    cur = (struct proxy_desc_t *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct proxy_desc_t) /*2728ul*/ );
+    cur = (struct proxy_desc_t *)return_value_calloc_1;
     cur->id_no = id_no;
     cur->dest_addr = *addr;
     cur->dst_ip = dst_ip;
@@ -1064,19 +1064,19 @@ struct proxy_desc_t * create_and_insert_proxy_desc(unsigned short int id_no, uns
       addr->sin_port=htons((unsigned short int)dst_port);
       addr->sin_addr.s_addr = dst_ip;
       addr->sin_family = (unsigned short int)2;
-      signed int return_value_connect$6;
-      return_value_connect$6=connect(cur->sock, (struct sockaddr *)addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(!(return_value_connect$6 >= 0))
+      signed int return_value_connect_6;
+      return_value_connect_6=connect(cur->sock, (struct sockaddr *)addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(!(return_value_connect_6 >= 0))
       {
-        char *return_value_inet_ntoa$2;
-        return_value_inet_ntoa$2=inet_ntoa(*((struct in_addr *)&addr->sin_addr.s_addr));
-        unsigned short int return_value_ntohs$3;
-        return_value_ntohs$3=ntohs(addr->sin_port);
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        char *return_value_strerror$5;
-        return_value_strerror$5=strerror(*return_value___errno_location$4);
-        pt_log(0, "Connect to %s:%d failed: %s\n", return_value_inet_ntoa$2, return_value_ntohs$3, return_value_strerror$5);
+        char *return_value_inet_ntoa_2;
+        return_value_inet_ntoa_2=inet_ntoa(*((struct in_addr *)&addr->sin_addr.s_addr));
+        unsigned short int return_value_ntohs_3;
+        return_value_ntohs_3=ntohs(addr->sin_port);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        char *return_value_strerror_5;
+        return_value_strerror_5=strerror(*return_value___errno_location_4);
+        pt_log(0, "Connect to %s:%d failed: %s\n", return_value_inet_ntoa_2, return_value_ntohs_3, return_value_strerror_5);
       }
 
     }
@@ -1090,9 +1090,9 @@ struct proxy_desc_t * create_and_insert_proxy_desc(unsigned short int id_no, uns
 
     else
       cur->pkt_type = (unsigned short int)(unprivileged != 0 ? 8 : 0);
-    void *return_value_malloc$7;
-    return_value_malloc$7=malloc((unsigned long int)icmp_receive_buf_len);
-    cur->buf = (char *)return_value_malloc$7;
+    void *return_value_malloc_7;
+    return_value_malloc_7=malloc((unsigned long int)icmp_receive_buf_len);
+    cur->buf = (char *)return_value_malloc_7;
     cur->last_activity=time_as_double();
     cur->authenticated = 0;
     pthread_mutex_lock(&chain_lock);
@@ -1107,12 +1107,12 @@ struct proxy_desc_t * create_and_insert_proxy_desc(unsigned short int id_no, uns
 
 // create_fwd_desc
 // file ptunnel.c line 1487
-struct anonymous$7 * create_fwd_desc(unsigned short int seq_no, unsigned int data_len, char *data)
+struct anonymous_7 * create_fwd_desc(unsigned short int seq_no, unsigned int data_len, char *data)
 {
-  struct anonymous$7 *fwd_desc;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$7) /*12ul*/  + (unsigned long int)data_len);
-  fwd_desc = (struct anonymous$7 *)return_value_malloc$1;
+  struct anonymous_7 *fwd_desc;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_7) /*12ul*/  + (unsigned long int)data_len);
+  fwd_desc = (struct anonymous_7 *)return_value_malloc_1;
   fwd_desc->seq_no = (signed int)seq_no;
   fwd_desc->length = (signed int)data_len;
   fwd_desc->remaining = (signed int)data_len;
@@ -1129,20 +1129,20 @@ struct challenge_t * generate_challenge(void)
   struct timeval tt;
   struct challenge_t *c;
   signed int i;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct challenge_t) /*32ul*/ );
-  c = (struct challenge_t *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct challenge_t) /*32ul*/ );
+  c = (struct challenge_t *)return_value_calloc_1;
   gettimeofday(&tt, ((struct timezone *)NULL));
   c->sec = (unsigned int)tt.tv_sec;
-  signed int return_value_rand$2;
-  return_value_rand$2=rand();
-  c->usec_rnd = (unsigned int)(tt.tv_usec + (signed long int)return_value_rand$2);
+  signed int return_value_rand_2;
+  return_value_rand_2=rand();
+  c->usec_rnd = (unsigned int)(tt.tv_usec + (signed long int)return_value_rand_2);
   i = 0;
-  signed int return_value_rand$3;
+  signed int return_value_rand_3;
   for( ; !(i >= 6); i = i + 1)
   {
-    return_value_rand$3=rand();
-    c->random[(signed long int)i] = (unsigned int)return_value_rand$3;
+    return_value_rand_3=rand();
+    c->random[(signed long int)i] = (unsigned int)return_value_rand_3;
   }
   return c;
 }
@@ -1153,9 +1153,9 @@ void generate_response(struct challenge_t *challenge)
 {
   unsigned char *buf;
   struct md5_state_s state;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct challenge_t) /*32ul*/  + (unsigned long int)16);
-  buf = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct challenge_t) /*32ul*/  + (unsigned long int)16);
+  buf = (unsigned char *)return_value_malloc_1;
   memcpy((void *)buf, (const void *)challenge, sizeof(struct challenge_t) /*32ul*/ );
   memcpy((void *)&buf[(signed long int)sizeof(struct challenge_t) /*32ul*/ ], (const void *)password_digest, (unsigned long int)16);
   memset((void *)challenge, 0, sizeof(struct challenge_t) /*32ul*/ );
@@ -1166,31 +1166,31 @@ void generate_response(struct challenge_t *challenge)
 
 // handle_ack
 // file ptunnel.c line 1423
-void handle_ack(unsigned short int seq_no, struct anonymous$8 *ring, signed int *packets_awaiting_ack, signed int one_ack_only, signed int insert_idx, signed int *first_ack, unsigned short int *remote_ack, signed int is_pcap)
+void handle_ack(unsigned short int seq_no, struct anonymous_8 *ring, signed int *packets_awaiting_ack, signed int one_ack_only, signed int insert_idx, signed int *first_ack, unsigned short int *remote_ack, signed int is_pcap)
 {
   signed int i;
   signed int j;
   signed int k;
-  struct anonymous$1 *pt_pkt;
+  struct anonymous_1 *pt_pkt;
   if(*packets_awaiting_ack >= 1)
   {
     if(!(one_ack_only == 0))
     {
       i = 0;
       for( ; !(i >= 64); i = i + 1)
-        if(!((ring + (signed long int)i)->pkt == ((struct anonymous$6 *)NULL)))
+        if(!((ring + (signed long int)i)->pkt == ((struct anonymous_6 *)NULL)))
         {
           if((ring + (signed long int)i)->seq_no == seq_no)
           {
             if(is_pcap == 0)
             {
               pt_log(4, "Received ack for only seq %d\n", seq_no);
-              pt_pkt = (struct anonymous$1 *)(ring + (signed long int)i)->pkt->data;
-              unsigned int return_value_ntohl$1;
-              return_value_ntohl$1=ntohl(pt_pkt->ack);
-              *remote_ack = (unsigned short int)return_value_ntohl$1;
+              pt_pkt = (struct anonymous_1 *)(ring + (signed long int)i)->pkt->data;
+              unsigned int return_value_ntohl_1;
+              return_value_ntohl_1=ntohl(pt_pkt->ack);
+              *remote_ack = (unsigned short int)return_value_ntohl_1;
               free((void *)(ring + (signed long int)i)->pkt);
-              (ring + (signed long int)i)->pkt = ((struct anonymous$6 *)NULL);
+              (ring + (signed long int)i)->pkt = ((struct anonymous_6 *)NULL);
               *packets_awaiting_ack = *packets_awaiting_ack - 1;
               if(i == *first_ack)
               {
@@ -1198,7 +1198,7 @@ void handle_ack(unsigned short int seq_no, struct anonymous$8 *ring, signed int 
                 for( ; !(j >= 64); j = j + 1)
                 {
                   k = (i + j) % 64;
-                  if(!((ring + (signed long int)k)->pkt == ((struct anonymous$6 *)NULL)))
+                  if(!((ring + (signed long int)k)->pkt == ((struct anonymous_6 *)NULL)))
                   {
                     *first_ack = k;
                     break;
@@ -1222,36 +1222,36 @@ void handle_ack(unsigned short int seq_no, struct anonymous$8 *ring, signed int 
 
     else
     {
-      signed int handle_ack$$1$$1$$2$$i;
+      signed int handle_ack__1__1__2__i;
       signed int can_ack = 0;
       signed int count = 0;
-      handle_ack$$1$$1$$2$$i = insert_idx - 1;
-      if(!(handle_ack$$1$$1$$2$$i >= 0))
-        handle_ack$$1$$1$$2$$i = 64 - 1;
+      handle_ack__1__1__2__i = insert_idx - 1;
+      if(!(handle_ack__1__1__2__i >= 0))
+        handle_ack__1__1__2__i = 64 - 1;
 
       pt_log(4, "Received ack-series starting at seq %d\n", seq_no);
       for( ; !(count >= 64); count = count + 1)
       {
-        if((ring + (signed long int)handle_ack$$1$$1$$2$$i)->pkt == ((struct anonymous$6 *)NULL))
+        if((ring + (signed long int)handle_ack__1__1__2__i)->pkt == ((struct anonymous_6 *)NULL))
           break;
 
-        if((ring + (signed long int)handle_ack$$1$$1$$2$$i)->seq_no == seq_no)
+        if((ring + (signed long int)handle_ack__1__1__2__i)->seq_no == seq_no)
           can_ack = 1;
 
         else
           if(can_ack == 0)
-            *first_ack = handle_ack$$1$$1$$2$$i;
+            *first_ack = handle_ack__1__1__2__i;
 
         if(!(can_ack == 0))
         {
-          free((void *)(ring + (signed long int)handle_ack$$1$$1$$2$$i)->pkt);
-          (ring + (signed long int)handle_ack$$1$$1$$2$$i)->pkt = ((struct anonymous$6 *)NULL);
+          free((void *)(ring + (signed long int)handle_ack__1__1__2__i)->pkt);
+          (ring + (signed long int)handle_ack__1__1__2__i)->pkt = ((struct anonymous_6 *)NULL);
           *packets_awaiting_ack = *packets_awaiting_ack - 1;
         }
 
-        handle_ack$$1$$1$$2$$i = handle_ack$$1$$1$$2$$i - 1;
-        if(!(handle_ack$$1$$1$$2$$i >= 0))
-          handle_ack$$1$$1$$2$$i = 64 - 1;
+        handle_ack__1__1__2__i = handle_ack__1__1__2__i - 1;
+        if(!(handle_ack__1__1__2__i >= 0))
+          handle_ack__1__1__2__i = 64 - 1;
 
       }
     }
@@ -1264,14 +1264,14 @@ __CPROVER_DUMP_L17:
 
 // handle_data
 // file ptunnel.c line 1345
-void handle_data(struct anonymous$6 *pkt, signed int total_len, struct anonymous$7 **ring, signed int *await_send, signed int *insert_idx, unsigned short int *next_expected_seq)
+void handle_data(struct anonymous_6 *pkt, signed int total_len, struct anonymous_7 **ring, signed int *await_send, signed int *insert_idx, unsigned short int *next_expected_seq)
 {
-  struct anonymous$1 *pt_pkt = (struct anonymous$1 *)pkt->data;
-  signed int expected_len = (signed int)(sizeof(struct anonymous$3) /*20ul*/  + sizeof(struct anonymous$6) /*8ul*/  + sizeof(struct anonymous$1) /*28ul*/ );
+  struct anonymous_1 *pt_pkt = (struct anonymous_1 *)pkt->data;
+  signed int expected_len = (signed int)(sizeof(struct anonymous_3) /*20ul*/  + sizeof(struct anonymous_6) /*8ul*/  + sizeof(struct anonymous_1) /*28ul*/ );
   expected_len = expected_len + (signed int)pt_pkt->data_len;
   expected_len = expected_len + expected_len % 2;
   if(!(use_udp == 0))
-    expected_len = expected_len - (signed int)sizeof(struct anonymous$3) /*20ul*/ ;
+    expected_len = expected_len - (signed int)sizeof(struct anonymous_3) /*20ul*/ ;
 
   if(!(total_len >= expected_len))
   {
@@ -1282,7 +1282,7 @@ void handle_data(struct anonymous$6 *pkt, signed int total_len, struct anonymous
 
   if(pt_pkt->seq_no == *next_expected_seq)
   {
-    if(ring[(signed long int)*insert_idx] == ((struct anonymous$7 *)NULL))
+    if(ring[(signed long int)*insert_idx] == ((struct anonymous_7 *)NULL))
     {
       ring[(signed long int)*insert_idx]=create_fwd_desc(pt_pkt->seq_no, pt_pkt->data_len, pt_pkt->data);
       *await_send = *await_send + 1;
@@ -1290,14 +1290,14 @@ void handle_data(struct anonymous$6 *pkt, signed int total_len, struct anonymous
     }
 
     else
-      if(!(ring[(signed long int)*insert_idx] == ((struct anonymous$7 *)NULL)))
+      if(!(ring[(signed long int)*insert_idx] == ((struct anonymous_7 *)NULL)))
         pt_log(4, "Dup packet?\n");
 
     *next_expected_seq = *next_expected_seq + 1;
     if(*insert_idx >= 64)
       *insert_idx = 0;
 
-    while(!(ring[(signed long int)*insert_idx] == ((struct anonymous$7 *)NULL)))
+    while(!(ring[(signed long int)*insert_idx] == ((struct anonymous_7 *)NULL)))
       if(ring[(signed long int)*insert_idx]->seq_no == (signed int)*next_expected_seq)
       {
         *next_expected_seq = *next_expected_seq + 1;
@@ -1334,7 +1334,7 @@ void handle_data(struct anonymous$6 *pkt, signed int total_len, struct anonymous
 
     if(!(pos == -1))
     {
-      if(ring[(signed long int)pos] == ((struct anonymous$7 *)NULL))
+      if(ring[(signed long int)pos] == ((struct anonymous_7 *)NULL))
       {
         pt_log(3, "Out of order. Expected: %d  Got: %d  Inserted: %d (cur = %d)\n", *next_expected_seq, pt_pkt->seq_no, pos, *insert_idx);
         ring[(signed long int)pos]=create_fwd_desc(pt_pkt->seq_no, pt_pkt->data_len, pt_pkt->data);
@@ -1350,43 +1350,43 @@ void handle_data(struct anonymous$6 *pkt, signed int total_len, struct anonymous
 // file ptunnel.c line 931
 void handle_packet(char *buf, signed int bytes, signed int is_pcap, struct sockaddr_in *addr, signed int icmp_sock)
 {
-  struct anonymous$3 *ip_pkt;
-  struct anonymous$6 *pkt;
-  struct anonymous$1 *pt_pkt;
+  struct anonymous_3 *ip_pkt;
+  struct anonymous_6 *pkt;
+  struct anonymous_1 *pt_pkt;
   struct proxy_desc_t *cur;
   unsigned int type_flag;
   unsigned int pkt_flag;
   unsigned int init_state;
   struct challenge_t *challenge;
   struct timeval tt;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$8;
-  unsigned int return_value_ntohl$7;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$14;
-  if(!((unsigned long int)bytes >= sizeof(struct anonymous$6) * 4 + 4 /*36ul*/ ))
-    pt_log(3, "Skipping this packet - too short. Expect: %d+%d = %d ; Got: %d\n", sizeof(struct anonymous$6) /*8ul*/ , sizeof(struct anonymous$1) /*28ul*/ , sizeof(struct anonymous$6) /*8ul*/  + sizeof(struct anonymous$1) /*28ul*/ , bytes);
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_8;
+  unsigned int return_value_ntohl_7;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_14;
+  if(!((unsigned long int)bytes >= sizeof(struct anonymous_6) * 4 + 4 /*36ul*/ ))
+    pt_log(3, "Skipping this packet - too short. Expect: %d+%d = %d ; Got: %d\n", sizeof(struct anonymous_6) /*8ul*/ , sizeof(struct anonymous_1) /*28ul*/ , sizeof(struct anonymous_6) /*8ul*/  + sizeof(struct anonymous_1) /*28ul*/ , bytes);
 
   else
   {
     if(!(use_udp == 0))
     {
-      ip_pkt = ((struct anonymous$3 *)NULL);
-      pkt = (struct anonymous$6 *)buf;
-      pt_pkt = (struct anonymous$1 *)pkt->data;
+      ip_pkt = ((struct anonymous_3 *)NULL);
+      pkt = (struct anonymous_6 *)buf;
+      pt_pkt = (struct anonymous_1 *)pkt->data;
     }
 
     else
     {
-      ip_pkt = (struct anonymous$3 *)buf;
-      pkt = (struct anonymous$6 *)ip_pkt->data;
-      pt_pkt = (struct anonymous$1 *)pkt->data;
+      ip_pkt = (struct anonymous_3 *)buf;
+      pkt = (struct anonymous_6 *)ip_pkt->data;
+      pt_pkt = (struct anonymous_1 *)pkt->data;
     }
-    unsigned int return_value_ntohl$15;
-    return_value_ntohl$15=ntohl(pt_pkt->magic);
-    if(return_value_ntohl$15 == 0xD5200880)
+    unsigned int return_value_ntohl_15;
+    return_value_ntohl_15=ntohl(pt_pkt->magic);
+    if(return_value_ntohl_15 == 0xD5200880)
     {
       pt_pkt->state=ntohl(pt_pkt->state);
       pkt->identifier=ntohs(pkt->identifier);
@@ -1414,11 +1414,11 @@ void handle_packet(char *buf, signed int bytes, signed int is_pcap, struct socka
         type_flag = (unsigned int)-2147483648;
       pkt_flag = pt_pkt->state & (unsigned int)-1073741824;
       pt_pkt->state = pt_pkt->state & (unsigned int)~-1073741824;
-      unsigned int return_value_ntohl$1;
-      return_value_ntohl$1=ntohl(pt_pkt->data_len);
-      unsigned int return_value_ntohl$2;
-      return_value_ntohl$2=ntohl(pt_pkt->ack);
-      pt_log(5, "Recv: %d [%d] bytes [seq = %d] [type = %s] [ack = %d] [icmp = %d] [user = %s] [pcap = %d]\n", bytes, return_value_ntohl$1, pt_pkt->seq_no, state_name[(signed long int)(pt_pkt->state & (unsigned int)~-1073741824)], return_value_ntohl$2, pkt->type, pkt_flag == (unsigned int)1073741824 ? "yes" : "no", is_pcap);
+      unsigned int return_value_ntohl_1;
+      return_value_ntohl_1=ntohl(pt_pkt->data_len);
+      unsigned int return_value_ntohl_2;
+      return_value_ntohl_2=ntohl(pt_pkt->ack);
+      pt_log(5, "Recv: %d [%d] bytes [seq = %d] [type = %s] [ack = %d] [icmp = %d] [user = %s] [pcap = %d]\n", bytes, return_value_ntohl_1, pt_pkt->seq_no, state_name[(signed long int)(pt_pkt->state & (unsigned int)~-1073741824)], return_value_ntohl_2, pkt->type, pkt_flag == (unsigned int)1073741824 ? "yes" : "no", is_pcap);
       if(pkt_flag == 1073741824u && type_flag == 2147483648u || pkt_flag == 2147483648u && type_flag == 1073741824u)
       {
         pt_pkt->data_len=ntohl(pt_pkt->data_len);
@@ -1427,9 +1427,9 @@ void handle_packet(char *buf, signed int bytes, signed int is_pcap, struct socka
         {
           if(cur == ((struct proxy_desc_t *)NULL) && type_flag == 2147483648u)
           {
-            char *return_value_inet_ntoa$3;
-            return_value_inet_ntoa$3=inet_ntoa(*((struct in_addr *)&addr->sin_addr));
-            pt_log(1, "Incoming tunnel request from %s.\n", return_value_inet_ntoa$3);
+            char *return_value_inet_ntoa_3;
+            return_value_inet_ntoa_3=inet_ntoa(*((struct in_addr *)&addr->sin_addr));
+            pt_log(1, "Incoming tunnel request from %s.\n", return_value_inet_ntoa_3);
             gettimeofday(&tt, ((struct timezone *)NULL));
             if(!(tt.tv_sec >= (signed long int)seq_expiry_tbl[(signed long int)pt_pkt->id_no]))
             {
@@ -1437,32 +1437,32 @@ void handle_packet(char *buf, signed int bytes, signed int is_pcap, struct socka
               goto __CPROVER_DUMP_L44;
             }
 
-            char *return_value_inet_ntoa$4;
-            return_value_inet_ntoa$4=inet_ntoa(*((struct in_addr *)&pt_pkt->dst_ip));
-            unsigned int return_value_ntohl$5;
-            return_value_ntohl$5=ntohl(pt_pkt->dst_port);
-            pt_log(1, "Starting new session to %s:%d with ID %d\n", return_value_inet_ntoa$4, return_value_ntohl$5, pt_pkt->id_no);
+            char *return_value_inet_ntoa_4;
+            return_value_inet_ntoa_4=inet_ntoa(*((struct in_addr *)&pt_pkt->dst_ip));
+            unsigned int return_value_ntohl_5;
+            return_value_ntohl_5=ntohl(pt_pkt->dst_port);
+            pt_log(1, "Starting new session to %s:%d with ID %d\n", return_value_inet_ntoa_4, return_value_ntohl_5, pt_pkt->id_no);
             if(!(given_dst_ip == 0u))
-              tmp_if_expr$6 = given_dst_ip != pt_pkt->dst_ip ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_6 = given_dst_ip != pt_pkt->dst_ip ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$6 = (_Bool)0;
-            if(tmp_if_expr$6)
-              tmp_if_expr$9 = (_Bool)1;
+              tmp_if_expr_6 = (_Bool)0;
+            if(tmp_if_expr_6)
+              tmp_if_expr_9 = (_Bool)1;
 
             else
             {
               if(!(tcp_port == -1))
               {
-                return_value_ntohl$7=ntohl(pt_pkt->dst_port);
-                tmp_if_expr$8 = (unsigned int)tcp_port != return_value_ntohl$7 ? (_Bool)1 : (_Bool)0;
+                return_value_ntohl_7=ntohl(pt_pkt->dst_port);
+                tmp_if_expr_8 = (unsigned int)tcp_port != return_value_ntohl_7 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$8 = (_Bool)0;
-              tmp_if_expr$9 = tmp_if_expr$8 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_8 = (_Bool)0;
+              tmp_if_expr_9 = tmp_if_expr_8 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$9)
+            if(tmp_if_expr_9)
             {
               pt_log(1, "Destination administratively prohibited!\n");
               goto __CPROVER_DUMP_L44;
@@ -1473,9 +1473,9 @@ void handle_packet(char *buf, signed int bytes, signed int is_pcap, struct socka
 
             else
               init_state = (unsigned int)2;
-            unsigned int return_value_ntohl$10;
-            return_value_ntohl$10=ntohl(pt_pkt->dst_port);
-            cur=create_and_insert_proxy_desc(pt_pkt->id_no, pkt->identifier, 0, addr, pt_pkt->dst_ip, return_value_ntohl$10, init_state, (unsigned int)-2147483648);
+            unsigned int return_value_ntohl_10;
+            return_value_ntohl_10=ntohl(pt_pkt->dst_port);
+            cur=create_and_insert_proxy_desc(pt_pkt->id_no, pkt->identifier, 0, addr, pt_pkt->dst_ip, return_value_ntohl_10, init_state, (unsigned int)-2147483648);
             if(init_state == 4u)
             {
               pt_log(4, "Sending authentication challenge..\n");
@@ -1534,14 +1534,14 @@ void handle_packet(char *buf, signed int bytes, signed int is_pcap, struct socka
                 if(type_flag == 2147483648u)
                 {
                   pt_log(4, "Received remote challenge response.\n");
-                  signed int return_value_validate_challenge$11;
-                  return_value_validate_challenge$11=validate_challenge(cur->challenge, challenge);
-                  if(!(return_value_validate_challenge$11 == 0))
-                    tmp_if_expr$12 = (_Bool)1;
+                  signed int return_value_validate_challenge_11;
+                  return_value_validate_challenge_11=validate_challenge(cur->challenge, challenge);
+                  if(!(return_value_validate_challenge_11 == 0))
+                    tmp_if_expr_12 = (_Bool)1;
 
                   else
-                    tmp_if_expr$12 = cur->authenticated != 0 ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$12)
+                    tmp_if_expr_12 = cur->authenticated != 0 ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_12)
                   {
                     pt_log(3, "Remote end authenticated successfully.\n");
                     cur->authenticated = 1;
@@ -1588,16 +1588,16 @@ void handle_packet(char *buf, signed int bytes, signed int is_pcap, struct socka
           if(!(cur->sock == 0))
           {
             if(pt_pkt->state == 2u)
-              tmp_if_expr$13 = (_Bool)1;
+              tmp_if_expr_13 = (_Bool)1;
 
             else
-              tmp_if_expr$13 = pt_pkt->state == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$13)
-              tmp_if_expr$14 = (_Bool)1;
+              tmp_if_expr_13 = pt_pkt->state == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_13)
+              tmp_if_expr_14 = (_Bool)1;
 
             else
-              tmp_if_expr$14 = pt_pkt->state == (unsigned int)1 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$14)
+              tmp_if_expr_14 = pt_pkt->state == (unsigned int)1 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_14)
               handle_data(pkt, bytes, cur->recv_ring, &cur->recv_wait_send, &cur->recv_idx, &cur->next_remote_seq);
 
             handle_ack((unsigned short int)pt_pkt->ack, cur->send_ring, &cur->send_wait_ack, 0, cur->send_idx, &cur->send_first_ack, &cur->remote_ack_val, is_pcap);
@@ -1629,51 +1629,51 @@ signed int main(signed int argc, char **argv)
   struct passwd *pwnam;
   struct group *grnam;
   signed int pid;
-  signed long int return_value_time$1;
-  return_value_time$1=time(((signed long int *)NULL));
-  srand((unsigned int)return_value_time$1);
+  signed long int return_value_time_1;
+  return_value_time_1=time(((signed long int *)NULL));
+  srand((unsigned int)return_value_time_1);
   memset((void *)password_digest, 0, (unsigned long int)16);
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)65536, sizeof(unsigned int) /*4ul*/ );
-  seq_expiry_tbl = (unsigned int *)return_value_calloc$2;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)65536, sizeof(unsigned int) /*4ul*/ );
+  seq_expiry_tbl = (unsigned int *)return_value_calloc_2;
   log_file = stdout;
   opt = 0;
   mode = 1;
   i = 1;
-  signed int return_value_strcmp$35;
-  signed int return_value_strcmp$34;
-  signed int return_value_strcmp$33;
-  signed int return_value_strcmp$32;
-  signed int return_value_strcmp$31;
-  signed int return_value_strcmp$30;
-  signed int return_value_strcmp$29;
-  signed int return_value_strcmp$28;
-  signed int return_value_strcmp$27;
-  signed int return_value_strcmp$26;
-  signed int return_value_strcmp$25;
-  signed int return_value_strcmp$24;
-  signed int return_value_strcmp$23;
-  signed int return_value_strcmp$22;
-  signed int return_value_strcmp$21;
-  signed int return_value_strcmp$20;
-  signed int return_value_strcmp$19;
-  unsigned long int return_value_strlen$3;
-  unsigned long int return_value_strlen$4;
-  signed int *return_value___errno_location$7;
-  char *tmp_if_expr$11;
-  signed int *return_value___errno_location$9;
-  char *return_value_strerror$10;
-  signed int *return_value___errno_location$12;
-  char *tmp_if_expr$16;
-  signed int *return_value___errno_location$14;
-  char *return_value_strerror$15;
-  signed int *return_value___errno_location$17;
-  char *return_value_strerror$18;
+  signed int return_value_strcmp_35;
+  signed int return_value_strcmp_34;
+  signed int return_value_strcmp_33;
+  signed int return_value_strcmp_32;
+  signed int return_value_strcmp_31;
+  signed int return_value_strcmp_30;
+  signed int return_value_strcmp_29;
+  signed int return_value_strcmp_28;
+  signed int return_value_strcmp_27;
+  signed int return_value_strcmp_26;
+  signed int return_value_strcmp_25;
+  signed int return_value_strcmp_24;
+  signed int return_value_strcmp_23;
+  signed int return_value_strcmp_22;
+  signed int return_value_strcmp_21;
+  signed int return_value_strcmp_20;
+  signed int return_value_strcmp_19;
+  unsigned long int return_value_strlen_3;
+  unsigned long int return_value_strlen_4;
+  signed int *return_value___errno_location_7;
+  char *tmp_if_expr_11;
+  signed int *return_value___errno_location_9;
+  char *return_value_strerror_10;
+  signed int *return_value___errno_location_12;
+  char *tmp_if_expr_16;
+  signed int *return_value___errno_location_14;
+  char *return_value_strerror_15;
+  signed int *return_value___errno_location_17;
+  char *return_value_strerror_18;
   for( ; !(i >= argc); i = i + 1)
   {
-    signed int return_value_strcmp$36;
-    return_value_strcmp$36=strcmp(argv[(signed long int)i], "-p");
-    if(return_value_strcmp$36 == 0)
+    signed int return_value_strcmp_36;
+    return_value_strcmp_36=strcmp(argv[(signed long int)i], "-p");
+    if(return_value_strcmp_36 == 0)
     {
       mode = 0;
       opt = 1;
@@ -1681,104 +1681,104 @@ signed int main(signed int argc, char **argv)
 
     else
     {
-      return_value_strcmp$35=strcmp(argv[(signed long int)i], "-x");
-      if(return_value_strcmp$35 == 0)
+      return_value_strcmp_35=strcmp(argv[(signed long int)i], "-x");
+      if(return_value_strcmp_35 == 0)
         opt = 3;
 
       else
       {
-        return_value_strcmp$34=strcmp(argv[(signed long int)i], "-lp");
-        if(return_value_strcmp$34 == 0)
+        return_value_strcmp_34=strcmp(argv[(signed long int)i], "-lp");
+        if(return_value_strcmp_34 == 0)
           opt = 4;
 
         else
         {
-          return_value_strcmp$33=strcmp(argv[(signed long int)i], "-da");
-          if(return_value_strcmp$33 == 0)
+          return_value_strcmp_33=strcmp(argv[(signed long int)i], "-da");
+          if(return_value_strcmp_33 == 0)
             opt = 5;
 
           else
           {
-            return_value_strcmp$32=strcmp(argv[(signed long int)i], "-dp");
-            if(return_value_strcmp$32 == 0)
+            return_value_strcmp_32=strcmp(argv[(signed long int)i], "-dp");
+            if(return_value_strcmp_32 == 0)
               opt = 6;
 
             else
             {
-              return_value_strcmp$31=strcmp(argv[(signed long int)i], "-v");
-              if(return_value_strcmp$31 == 0)
+              return_value_strcmp_31=strcmp(argv[(signed long int)i], "-v");
+              if(return_value_strcmp_31 == 0)
                 opt = 7;
 
               else
               {
-                return_value_strcmp$30=strcmp(argv[(signed long int)i], "-m");
-                if(return_value_strcmp$30 == 0)
+                return_value_strcmp_30=strcmp(argv[(signed long int)i], "-m");
+                if(return_value_strcmp_30 == 0)
                   opt = 8;
 
                 else
                 {
-                  return_value_strcmp$29=strcmp(argv[(signed long int)i], "-u");
-                  if(return_value_strcmp$29 == 0)
+                  return_value_strcmp_29=strcmp(argv[(signed long int)i], "-u");
+                  if(return_value_strcmp_29 == 0)
                     unprivileged = (char)!(unprivileged != 0);
 
                   else
                   {
-                    return_value_strcmp$28=strcmp(argv[(signed long int)i], "-c");
-                    if(return_value_strcmp$28 == 0)
+                    return_value_strcmp_28=strcmp(argv[(signed long int)i], "-c");
+                    if(return_value_strcmp_28 == 0)
                       opt = 10;
 
                     else
                     {
-                      return_value_strcmp$27=strcmp(argv[(signed long int)i], "-f");
-                      if(return_value_strcmp$27 == 0)
+                      return_value_strcmp_27=strcmp(argv[(signed long int)i], "-f");
+                      if(return_value_strcmp_27 == 0)
                         opt = 11;
 
                       else
                       {
-                        return_value_strcmp$26=strcmp(argv[(signed long int)i], "-s");
-                        if(return_value_strcmp$26 == 0)
+                        return_value_strcmp_26=strcmp(argv[(signed long int)i], "-s");
+                        if(return_value_strcmp_26 == 0)
                           print_stats = (char)!(print_stats != 0);
 
                         else
                         {
-                          return_value_strcmp$25=strcmp(argv[(signed long int)i], "-syslog");
-                          if(return_value_strcmp$25 == 0)
+                          return_value_strcmp_25=strcmp(argv[(signed long int)i], "-syslog");
+                          if(return_value_strcmp_25 == 0)
                             use_syslog = (char)!(use_syslog != 0);
 
                           else
                           {
-                            return_value_strcmp$24=strcmp(argv[(signed long int)i], "-setuid");
-                            if(return_value_strcmp$24 == 0)
+                            return_value_strcmp_24=strcmp(argv[(signed long int)i], "-setuid");
+                            if(return_value_strcmp_24 == 0)
                               opt = 12;
 
                             else
                             {
-                              return_value_strcmp$23=strcmp(argv[(signed long int)i], "-setgid");
-                              if(return_value_strcmp$23 == 0)
+                              return_value_strcmp_23=strcmp(argv[(signed long int)i], "-setgid");
+                              if(return_value_strcmp_23 == 0)
                                 opt = 13;
 
                               else
                               {
-                                return_value_strcmp$22=strcmp(argv[(signed long int)i], "-chroot");
-                                if(return_value_strcmp$22 == 0)
+                                return_value_strcmp_22=strcmp(argv[(signed long int)i], "-chroot");
+                                if(return_value_strcmp_22 == 0)
                                   opt = 14;
 
                                 else
                                 {
-                                  return_value_strcmp$21=strcmp(argv[(signed long int)i], "-setcon");
-                                  if(return_value_strcmp$21 == 0)
+                                  return_value_strcmp_21=strcmp(argv[(signed long int)i], "-setcon");
+                                  if(return_value_strcmp_21 == 0)
                                     opt = 15;
 
                                   else
                                   {
-                                    return_value_strcmp$20=strcmp(argv[(signed long int)i], "-daemon");
-                                    if(return_value_strcmp$20 == 0)
+                                    return_value_strcmp_20=strcmp(argv[(signed long int)i], "-daemon");
+                                    if(return_value_strcmp_20 == 0)
                                       opt = 16;
 
                                     else
                                     {
-                                      return_value_strcmp$19=strcmp(argv[(signed long int)i], "-udp");
-                                      if(return_value_strcmp$19 == 0)
+                                      return_value_strcmp_19=strcmp(argv[(signed long int)i], "-udp");
+                                      if(return_value_strcmp_19 == 0)
                                         use_udp = 1;
 
                                       else
@@ -1801,11 +1801,11 @@ signed int main(signed int argc, char **argv)
                                             password = argv[(signed long int)i];
                                             pt_log(4, "Password set - unauthenicated connections will be refused.\n");
                                             md5_init(&state);
-                                            return_value_strlen$3=strlen(password);
-                                            md5_append(&state, (unsigned char *)password, (signed int)return_value_strlen$3);
+                                            return_value_strlen_3=strlen(password);
+                                            md5_append(&state, (unsigned char *)password, (signed int)return_value_strlen_3);
                                             md5_finish(&state, (unsigned char *)password_digest);
-                                            return_value_strlen$4=strlen(argv[(signed long int)i]);
-                                            memset((void *)argv[(signed long int)i], 32, return_value_strlen$4);
+                                            return_value_strlen_4=strlen(argv[(signed long int)i]);
+                                            memset((void *)argv[(signed long int)i], 32, return_value_strlen_4);
                                             goto __CPROVER_DUMP_L47;
                                           }
                                           case 4:
@@ -1855,11 +1855,11 @@ signed int main(signed int argc, char **argv)
                                             if(log_file == ((struct _IO_FILE *)NULL))
                                             {
                                               log_file = stdout;
-                                              signed int *return_value___errno_location$5;
-                                              return_value___errno_location$5=__errno_location();
-                                              char *return_value_strerror$6;
-                                              return_value_strerror$6=strerror(*return_value___errno_location$5);
-                                              pt_log(0, "Failed to open log file: '%s'. Cause: %s\n", argv[(signed long int)i], return_value_strerror$6);
+                                              signed int *return_value___errno_location_5;
+                                              return_value___errno_location_5=__errno_location();
+                                              char *return_value_strerror_6;
+                                              return_value_strerror_6=strerror(*return_value___errno_location_5);
+                                              pt_log(0, "Failed to open log file: '%s'. Cause: %s\n", argv[(signed long int)i], return_value_strerror_6);
                                               pt_log(0, "Reverting log to standard out.\n");
                                             }
 
@@ -1867,23 +1867,23 @@ signed int main(signed int argc, char **argv)
                                           }
                                           case 12:
                                           {
-                                            return_value___errno_location$7=__errno_location();
-                                            *return_value___errno_location$7 = 0;
+                                            return_value___errno_location_7=__errno_location();
+                                            *return_value___errno_location_7 = 0;
                                             pwnam=getpwnam(argv[(signed long int)i]);
                                             if(pwnam == ((struct passwd *)NULL))
                                             {
-                                              signed int *return_value___errno_location$8;
-                                              return_value___errno_location$8=__errno_location();
-                                              if(!(*return_value___errno_location$8 == 0))
+                                              signed int *return_value___errno_location_8;
+                                              return_value___errno_location_8=__errno_location();
+                                              if(!(*return_value___errno_location_8 == 0))
                                               {
-                                                return_value___errno_location$9=__errno_location();
-                                                return_value_strerror$10=strerror(*return_value___errno_location$9);
-                                                tmp_if_expr$11 = return_value_strerror$10;
+                                                return_value___errno_location_9=__errno_location();
+                                                return_value_strerror_10=strerror(*return_value___errno_location_9);
+                                                tmp_if_expr_11 = return_value_strerror_10;
                                               }
 
                                               else
-                                                tmp_if_expr$11 = "unknown user";
-                                              pt_log(0, "%s: %s\n", argv[(signed long int)i], tmp_if_expr$11);
+                                                tmp_if_expr_11 = "unknown user";
+                                              pt_log(0, "%s: %s\n", argv[(signed long int)i], tmp_if_expr_11);
                                               exit(1);
                                             }
 
@@ -1895,23 +1895,23 @@ signed int main(signed int argc, char **argv)
                                           }
                                           case 13:
                                           {
-                                            return_value___errno_location$12=__errno_location();
-                                            *return_value___errno_location$12 = 0;
+                                            return_value___errno_location_12=__errno_location();
+                                            *return_value___errno_location_12 = 0;
                                             grnam=getgrnam(argv[(signed long int)i]);
                                             if(grnam == ((struct group *)NULL))
                                             {
-                                              signed int *return_value___errno_location$13;
-                                              return_value___errno_location$13=__errno_location();
-                                              if(!(*return_value___errno_location$13 == 0))
+                                              signed int *return_value___errno_location_13;
+                                              return_value___errno_location_13=__errno_location();
+                                              if(!(*return_value___errno_location_13 == 0))
                                               {
-                                                return_value___errno_location$14=__errno_location();
-                                                return_value_strerror$15=strerror(*return_value___errno_location$14);
-                                                tmp_if_expr$16 = return_value_strerror$15;
+                                                return_value___errno_location_14=__errno_location();
+                                                return_value_strerror_15=strerror(*return_value___errno_location_14);
+                                                tmp_if_expr_16 = return_value_strerror_15;
                                               }
 
                                               else
-                                                tmp_if_expr$16 = "unknown group";
-                                              pt_log(0, "%s: %s\n", argv[(signed long int)i], tmp_if_expr$16);
+                                                tmp_if_expr_16 = "unknown group";
+                                              pt_log(0, "%s: %s\n", argv[(signed long int)i], tmp_if_expr_16);
                                               exit(1);
                                             }
 
@@ -1934,9 +1934,9 @@ signed int main(signed int argc, char **argv)
                                             pid_file=fopen(argv[(signed long int)i], "w");
                                             if(pid_file == ((struct _IO_FILE *)NULL))
                                             {
-                                              return_value___errno_location$17=__errno_location();
-                                              return_value_strerror$18=strerror(*return_value___errno_location$17);
-                                              pt_log(0, "%s: %s\n", argv[(signed long int)i], return_value_strerror$18);
+                                              return_value___errno_location_17=__errno_location();
+                                              return_value_strerror_18=strerror(*return_value___errno_location_17);
+                                              pt_log(0, "%s: %s\n", argv[(signed long int)i], return_value_strerror_18);
                                             }
 
                                             goto __CPROVER_DUMP_L47;
@@ -2004,40 +2004,40 @@ signed int main(signed int argc, char **argv)
     openlog("ptunnel", 0x01, 1 << 3);
   }
 
-  _Bool tmp_if_expr$41;
-  signed int return_value_chroot$40;
+  _Bool tmp_if_expr_41;
+  signed int return_value_chroot_40;
   if(!(root_dir == ((char *)NULL)))
   {
     pt_log(1, "Restricting file access to %s\n", root_dir);
-    signed int return_value_chdir$39;
-    return_value_chdir$39=chdir(root_dir);
-    if(return_value_chdir$39 == -1)
-      tmp_if_expr$41 = (_Bool)1;
+    signed int return_value_chdir_39;
+    return_value_chdir_39=chdir(root_dir);
+    if(return_value_chdir_39 == -1)
+      tmp_if_expr_41 = (_Bool)1;
 
     else
     {
-      return_value_chroot$40=chroot(root_dir);
-      tmp_if_expr$41 = -1 == return_value_chroot$40 ? (_Bool)1 : (_Bool)0;
+      return_value_chroot_40=chroot(root_dir);
+      tmp_if_expr_41 = -1 == return_value_chroot_40 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$41)
+    if(tmp_if_expr_41)
     {
-      signed int *return_value___errno_location$37;
-      return_value___errno_location$37=__errno_location();
-      char *return_value_strerror$38;
-      return_value_strerror$38=strerror(*return_value___errno_location$37);
-      pt_log(0, "%s: %s\n", root_dir, return_value_strerror$38);
+      signed int *return_value___errno_location_37;
+      return_value___errno_location_37=__errno_location();
+      char *return_value_strerror_38;
+      return_value_strerror_38=strerror(*return_value___errno_location_37);
+      pt_log(0, "%s: %s\n", root_dir, return_value_strerror_38);
       exit(1);
     }
 
   }
 
-  signed int *return_value___errno_location$42;
-  char *return_value_strerror$43;
-  signed int return_value_setsid$49;
-  signed int *return_value___errno_location$44;
-  char *return_value_strerror$45;
-  signed int *return_value___errno_location$46;
-  char *return_value_strerror$47;
+  signed int *return_value___errno_location_42;
+  char *return_value_strerror_43;
+  signed int return_value_setsid_49;
+  signed int *return_value___errno_location_44;
+  char *return_value_strerror_45;
+  signed int *return_value___errno_location_46;
+  char *return_value_strerror_47;
   if(!(daemonize == 0))
   {
     pt_log(1, "Going to the background.\n");
@@ -2047,19 +2047,19 @@ signed int main(signed int argc, char **argv)
 
     if(!(pid >= 0))
     {
-      return_value___errno_location$42=__errno_location();
-      return_value_strerror$43=strerror(*return_value___errno_location$42);
-      pt_log(0, "fork: %s\n", return_value_strerror$43);
+      return_value___errno_location_42=__errno_location();
+      return_value_strerror_43=strerror(*return_value___errno_location_42);
+      pt_log(0, "fork: %s\n", return_value_strerror_43);
     }
 
     else
     {
-      return_value_setsid$49=setsid();
-      if(return_value_setsid$49 == -1)
+      return_value_setsid_49=setsid();
+      if(return_value_setsid_49 == -1)
       {
-        return_value___errno_location$44=__errno_location();
-        return_value_strerror$45=strerror(*return_value___errno_location$44);
-        pt_log(0, "setsid: %s\n", return_value_strerror$45);
+        return_value___errno_location_44=__errno_location();
+        return_value_strerror_45=strerror(*return_value___errno_location_44);
+        pt_log(0, "setsid: %s\n", return_value_strerror_45);
       }
 
       else
@@ -2070,18 +2070,18 @@ signed int main(signed int argc, char **argv)
 
         if(!(pid >= 0))
         {
-          return_value___errno_location$46=__errno_location();
-          return_value_strerror$47=strerror(*return_value___errno_location$46);
-          pt_log(0, "fork: %s\n", return_value_strerror$47);
+          return_value___errno_location_46=__errno_location();
+          return_value_strerror_47=strerror(*return_value___errno_location_46);
+          pt_log(0, "fork: %s\n", return_value_strerror_47);
         }
 
         else
         {
           if(!(pid_file == ((struct _IO_FILE *)NULL)))
           {
-            signed int return_value_getpid$48;
-            return_value_getpid$48=getpid();
-            fprintf(pid_file, "%d\n", return_value_getpid$48);
+            signed int return_value_getpid_48;
+            return_value_getpid_48=getpid();
+            fprintf(pid_file, "%d\n", return_value_getpid_48);
             fclose(pid_file);
           }
 
@@ -2093,8 +2093,8 @@ signed int main(signed int argc, char **argv)
     }
   }
 
-  pthread_mutex_init(&chain_lock, ((const union anonymous$4 *)NULL));
-  pthread_mutex_init(&num_threads_lock, ((const union anonymous$4 *)NULL));
+  pthread_mutex_init(&chain_lock, ((const union anonymous_4 *)NULL));
+  pthread_mutex_init(&num_threads_lock, ((const union anonymous_4 *)NULL));
   if(mode == 0)
   {
     if(tcp_listen_port == 0 || tcp_port == 0 || given_dst_ip == 0u || given_proxy_ip == 0u)
@@ -2366,18 +2366,18 @@ static void md5_process(struct md5_state_s *pms, const unsigned char *data)
 // file ptunnel.c line 892
 void pcap_packet_handler(unsigned char *refcon, struct pcap_pkthdr *hdr, const unsigned char *pkt)
 {
-  struct anonymous$2 *q;
+  struct anonymous_2 *q;
   struct pqueue_elem_t *elem;
-  struct anonymous$3 *ip;
-  q = (struct anonymous$2 *)refcon;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((sizeof(struct pqueue_elem_t) /*16ul*/  + (unsigned long int)hdr->caplen) - sizeof(struct ether_header) /*14ul*/ );
-  elem = (struct pqueue_elem_t *)return_value_malloc$1;
+  struct anonymous_3 *ip;
+  q = (struct anonymous_2 *)refcon;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((sizeof(struct pqueue_elem_t) /*16ul*/  + (unsigned long int)hdr->caplen) - sizeof(struct ether_header) /*14ul*/ );
+  elem = (struct pqueue_elem_t *)return_value_malloc_1;
   memcpy((void *)elem->data, (const void *)(pkt + (signed long int)sizeof(struct ether_header) /*14ul*/ ), (unsigned long int)hdr->caplen - sizeof(struct ether_header) /*14ul*/ );
-  ip = (struct anonymous$3 *)elem->data;
-  unsigned short int return_value_ntohs$2;
-  return_value_ntohs$2=ntohs(ip->pkt_len);
-  elem->bytes = (signed int)return_value_ntohs$2;
+  ip = (struct anonymous_3 *)elem->data;
+  unsigned short int return_value_ntohs_2;
+  return_value_ntohs_2=ntohs(ip->pkt_len);
+  elem->bytes = (signed int)return_value_ntohs_2;
   if(!((unsigned long int)hdr->caplen + 18446744073709551602ul >= (unsigned long int)elem->bytes))
   {
     pt_log(0, "Received fragmented packet - unable to reconstruct!\n");
@@ -2439,9 +2439,9 @@ signed int pt_create_udp_socket(signed int port)
 
   else
   {
-    signed int return_value_setsockopt$1;
-    return_value_setsockopt$1=setsockopt(sock, 1, 2, (const void *)&yes, (unsigned int)sizeof(signed int) /*4ul*/ );
-    if(!(return_value_setsockopt$1 >= 0))
+    signed int return_value_setsockopt_1;
+    return_value_setsockopt_1=setsockopt(sock, 1, 2, (const void *)&yes, (unsigned int)sizeof(signed int) /*4ul*/ );
+    if(!(return_value_setsockopt_1 >= 0))
     {
       pt_log(0, "Failed to set UDP REUSEADDR socket option. (Not fatal, hopefully.)\n");
       close(sock);
@@ -2451,18 +2451,18 @@ signed int pt_create_udp_socket(signed int port)
     else
     {
       yes = 1;
-      signed int return_value_setsockopt$2;
-      return_value_setsockopt$2=setsockopt(sock, 1, 15, (const void *)&yes, (unsigned int)sizeof(signed int) /*4ul*/ );
-      if(!(return_value_setsockopt$2 >= 0))
+      signed int return_value_setsockopt_2;
+      return_value_setsockopt_2=setsockopt(sock, 1, 15, (const void *)&yes, (unsigned int)sizeof(signed int) /*4ul*/ );
+      if(!(return_value_setsockopt_2 >= 0))
         pt_log(0, "Failed to set UDP REUSEPORT socket option. (Not fatal, hopefully.)\n");
 
       memset((void *)&addr, 0, sizeof(struct sockaddr_in) /*16ul*/ );
       addr.sin_family = (unsigned short int)2;
       addr.sin_addr.s_addr=htonl((unsigned int)0x00000000);
       addr.sin_port=htons((unsigned short int)port);
-      signed int return_value_bind$3;
-      return_value_bind$3=bind(sock, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(!(return_value_bind$3 >= 0))
+      signed int return_value_bind_3;
+      return_value_bind_3=bind(sock, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(!(return_value_bind_3 >= 0))
       {
         pt_log(0, "Failed to bind UDP socket to port %d (try running as root).\n", port);
         close(sock);
@@ -2484,7 +2484,7 @@ void pt_forwarder(void)
   signed int sock;
   signed int yes = 1;
   struct anonymous set;
-  struct timeval pt_forwarder$$1$$time;
+  struct timeval pt_forwarder__1__time;
   struct sockaddr_in addr;
   struct sockaddr_in dest_addr;
   unsigned int addr_len;
@@ -2492,15 +2492,15 @@ void pt_forwarder(void)
   unsigned short int rand_id;
   pt_log(4, "Starting forwarder..\n");
   sock=socket(2, 1, 0);
-  signed int return_value_setsockopt$3;
-  return_value_setsockopt$3=setsockopt(sock, 1, 2, (const void *)&yes, (unsigned int)sizeof(signed int) /*4ul*/ );
-  if(return_value_setsockopt$3 == -1)
+  signed int return_value_setsockopt_3;
+  return_value_setsockopt_3=setsockopt(sock, 1, 2, (const void *)&yes, (unsigned int)sizeof(signed int) /*4ul*/ );
+  if(return_value_setsockopt_3 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    pt_log(0, "Failed to set SO_REUSEADDR option on listening socket: %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    pt_log(0, "Failed to set SO_REUSEADDR option on listening socket: %s\n", return_value_strerror_2);
     close(sock);
     goto __CPROVER_DUMP_L13;
   }
@@ -2509,15 +2509,15 @@ void pt_forwarder(void)
   addr.sin_port=htons((unsigned short int)tcp_listen_port);
   addr.sin_addr.s_addr = (unsigned int)0x00000000;
   memset((void *)&addr.sin_zero, 0, (unsigned long int)8);
-  signed int return_value_bind$6;
-  return_value_bind$6=bind(sock, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr) /*16ul*/ );
-  if(return_value_bind$6 == -1)
+  signed int return_value_bind_6;
+  return_value_bind_6=bind(sock, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr) /*16ul*/ );
+  if(return_value_bind_6 == -1)
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    pt_log(0, "Failed to bind listening socket: %s\n", return_value_strerror$5);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    pt_log(0, "Failed to bind listening socket: %s\n", return_value_strerror_5);
     close(sock);
     goto __CPROVER_DUMP_L13;
   }
@@ -2531,9 +2531,9 @@ void pt_forwarder(void)
   else
     dest_addr.sin_port = (unsigned short int)0;
   dest_addr.sin_addr.s_addr = given_proxy_ip;
-  char *return_value_inet_ntoa$7;
-  return_value_inet_ntoa$7=inet_ntoa(*((struct in_addr *)&given_proxy_ip));
-  pt_log(3, "Proxy IP address: %s\n", return_value_inet_ntoa$7);
+  char *return_value_inet_ntoa_7;
+  return_value_inet_ntoa_7=inet_ntoa(*((struct in_addr *)&given_proxy_ip));
+  pt_log(3, "Proxy IP address: %s\n", return_value_inet_ntoa_7);
   listen(server_sock, 10);
   while((_Bool)1)
   {
@@ -2545,11 +2545,11 @@ void pt_forwarder(void)
     }
     while((_Bool)0);
     (&set)->__fds_bits[(signed long int)(server_sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&set)->__fds_bits[(signed long int)(server_sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << server_sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-    pt_forwarder$$1$$time.tv_sec = (signed long int)1;
-    pt_forwarder$$1$$time.tv_usec = (signed long int)0;
-    signed int return_value_select$10;
-    return_value_select$10=select(server_sock + 1, &set, ((struct anonymous *)NULL), ((struct anonymous *)NULL), &pt_forwarder$$1$$time);
-    if(return_value_select$10 >= 1)
+    pt_forwarder__1__time.tv_sec = (signed long int)1;
+    pt_forwarder__1__time.tv_usec = (signed long int)0;
+    signed int return_value_select_10;
+    return_value_select_10=select(server_sock + 1, &set, ((struct anonymous *)NULL), ((struct anonymous *)NULL), &pt_forwarder__1__time);
+    if(return_value_select_10 >= 1)
     {
       pt_log(1, "Incoming connection.\n");
       addr_len = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
@@ -2564,9 +2564,9 @@ void pt_forwarder(void)
       if(!(num_threads >= 1))
       {
         pt_log(2, "No running proxy thread - starting it.\n");
-        signed int return_value_pthread_create$8;
-        return_value_pthread_create$8=pthread_create(&pid, ((const union pthread_attr_t *)NULL), pt_proxy, NULL);
-        if(!(return_value_pthread_create$8 == 0))
+        signed int return_value_pthread_create_8;
+        return_value_pthread_create_8=pthread_create(&pid, ((const union pthread_attr_t *)NULL), pt_proxy, NULL);
+        if(!(return_value_pthread_create_8 == 0))
         {
           pt_log(0, "Couldn't create thread! Dropping incoming connection.\n");
           close(new_sock);
@@ -2577,9 +2577,9 @@ void pt_forwarder(void)
       }
 
       addr = dest_addr;
-      signed int return_value_rand$9;
-      return_value_rand$9=rand();
-      rand_id = (unsigned short int)return_value_rand$9;
+      signed int return_value_rand_9;
+      return_value_rand_9=rand();
+      rand_id = (unsigned short int)return_value_rand_9;
       create_and_insert_proxy_desc(rand_id, rand_id, new_sock, &addr, given_dst_ip, (unsigned int)tcp_port, (unsigned int)0, (unsigned int)1073741824);
       pthread_mutex_unlock(&num_threads_lock);
     }
@@ -2637,10 +2637,10 @@ void * pt_proxy(void *args)
   char *buf;
   double now;
   double last_status_update = 0.0;
-  struct proxy_desc_t *pt_proxy$$1$$cur;
+  struct proxy_desc_t *pt_proxy__1__cur;
   struct proxy_desc_t *prev;
   struct proxy_desc_t *tmp;
-  struct anonymous$5 pc;
+  struct anonymous_5 pc;
   struct xfer_stats_t xfer;
   pt_log(4, "Starting ping proxy..\n");
   if(!(use_udp == 0))
@@ -2674,17 +2674,17 @@ void * pt_proxy(void *args)
     }
     if(!(fwd_sock >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      pt_log(0, "Couldn't create %s socket: %s\n", unprivileged != 0 ? "unprivileged datagram" : "privileged raw", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      pt_log(0, "Couldn't create %s socket: %s\n", unprivileged != 0 ? "unprivileged datagram" : "privileged raw", return_value_strerror_2);
       return NULL;
     }
 
   }
   max_sock = fwd_sock + 1;
-  signed int return_value_pcap_setfilter$8;
+  signed int return_value_pcap_setfilter_8;
   if(!(pcap == 0))
   {
     if(!(use_udp == 0))
@@ -2697,32 +2697,32 @@ void * pt_proxy(void *args)
     if(unprivileged == 0)
     {
       pt_log(1, "Initializing pcap.\n");
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc((unsigned long int)256);
-      pc.pcap_err_buf = (char *)return_value_malloc$3;
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc((unsigned long int)pcap_buf_size);
-      pc.pcap_data_buf = (char *)return_value_malloc$4;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc((unsigned long int)256);
+      pc.pcap_err_buf = (char *)return_value_malloc_3;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc((unsigned long int)pcap_buf_size);
+      pc.pcap_data_buf = (char *)return_value_malloc_4;
       pc.pcap_desc=pcap_open_live(pcap_device, pcap_buf_size, 0, 50, pc.pcap_err_buf);
       if(!(pc.pcap_desc == ((struct pcap *)NULL)))
       {
-        signed int return_value_pcap_lookupnet$5;
-        return_value_pcap_lookupnet$5=pcap_lookupnet(pcap_device, &pc.netp, &pc.netmask, pc.pcap_err_buf);
-        if(return_value_pcap_lookupnet$5 == -1)
+        signed int return_value_pcap_lookupnet_5;
+        return_value_pcap_lookupnet_5=pcap_lookupnet(pcap_device, &pc.netp, &pc.netmask, pc.pcap_err_buf);
+        if(return_value_pcap_lookupnet_5 == -1)
         {
           pt_log(0, "pcap error: %s\n", pc.pcap_err_buf);
           pcap = (char)0;
         }
 
-        char *return_value_inet_ntoa$6;
-        return_value_inet_ntoa$6=inet_ntoa(*((struct in_addr *)&pc.netp));
-        pt_log(3, "Network: %s\n", return_value_inet_ntoa$6);
-        char *return_value_inet_ntoa$7;
-        return_value_inet_ntoa$7=inet_ntoa(*((struct in_addr *)&pc.netmask));
-        pt_log(3, "Netmask: %s\n", return_value_inet_ntoa$7);
-        signed int return_value_pcap_compile$9;
-        return_value_pcap_compile$9=pcap_compile(pc.pcap_desc, &pc.fp, pcap_filter_program, 0, pc.netp);
-        if(return_value_pcap_compile$9 == -1)
+        char *return_value_inet_ntoa_6;
+        return_value_inet_ntoa_6=inet_ntoa(*((struct in_addr *)&pc.netp));
+        pt_log(3, "Network: %s\n", return_value_inet_ntoa_6);
+        char *return_value_inet_ntoa_7;
+        return_value_inet_ntoa_7=inet_ntoa(*((struct in_addr *)&pc.netmask));
+        pt_log(3, "Netmask: %s\n", return_value_inet_ntoa_7);
+        signed int return_value_pcap_compile_9;
+        return_value_pcap_compile_9=pcap_compile(pc.pcap_desc, &pc.fp, pcap_filter_program, 0, pc.netp);
+        if(return_value_pcap_compile_9 == -1)
         {
           pt_log(0, "Failed to compile pcap filter program.\n");
           pcap_close(pc.pcap_desc);
@@ -2731,8 +2731,8 @@ void * pt_proxy(void *args)
 
         else
         {
-          return_value_pcap_setfilter$8=pcap_setfilter(pc.pcap_desc, &pc.fp);
-          if(return_value_pcap_setfilter$8 == -1)
+          return_value_pcap_setfilter_8=pcap_setfilter(pc.pcap_desc, &pc.fp);
+          if(return_value_pcap_setfilter_8 == -1)
           {
             pt_log(0, "Failed to set pcap filter program.\n");
             pcap_close(pc.pcap_desc);
@@ -2767,61 +2767,61 @@ void * pt_proxy(void *args)
   pthread_mutex_lock(&num_threads_lock);
   num_threads = num_threads + 1;
   pthread_mutex_unlock(&num_threads_lock);
-  void *return_value_malloc$10;
-  return_value_malloc$10=malloc((unsigned long int)icmp_receive_buf_len);
-  buf = (char *)return_value_malloc$10;
+  void *return_value_malloc_10;
+  return_value_malloc_10=malloc((unsigned long int)icmp_receive_buf_len);
+  buf = (char *)return_value_malloc_10;
   pt_log(1, "Ping proxy is listening in %s mode.\n", unprivileged != 0 ? "unprivileged" : "privileged");
   if(!(selinux_context == ((char *)NULL)) || !(gid == 0u) || !(uid == 0u))
     pt_log(1, "Dropping privileges now.\n");
 
-  signed int return_value_setgid$13;
-  signed int *return_value___errno_location$11;
-  char *return_value_strerror$12;
+  signed int return_value_setgid_13;
+  signed int *return_value___errno_location_11;
+  char *return_value_strerror_12;
   if(!(gid == 0u))
   {
-    return_value_setgid$13=setgid(gid);
-    if(return_value_setgid$13 == -1)
+    return_value_setgid_13=setgid(gid);
+    if(return_value_setgid_13 == -1)
     {
-      return_value___errno_location$11=__errno_location();
-      return_value_strerror$12=strerror(*return_value___errno_location$11);
-      pt_log(0, "setgid(%d): %s\n", gid, return_value_strerror$12);
+      return_value___errno_location_11=__errno_location();
+      return_value_strerror_12=strerror(*return_value___errno_location_11);
+      pt_log(0, "setgid(%d): %s\n", gid, return_value_strerror_12);
     }
 
   }
 
-  signed int return_value_setuid$16;
-  signed int *return_value___errno_location$14;
-  char *return_value_strerror$15;
+  signed int return_value_setuid_16;
+  signed int *return_value___errno_location_14;
+  char *return_value_strerror_15;
   if(!(uid == 0u))
   {
-    return_value_setuid$16=setuid(uid);
-    if(return_value_setuid$16 == -1)
+    return_value_setuid_16=setuid(uid);
+    if(return_value_setuid_16 == -1)
     {
-      return_value___errno_location$14=__errno_location();
-      return_value_strerror$15=strerror(*return_value___errno_location$14);
-      pt_log(0, "setuid(%d): %s\n", uid, return_value_strerror$15);
+      return_value___errno_location_14=__errno_location();
+      return_value_strerror_15=strerror(*return_value___errno_location_14);
+      pt_log(0, "setuid(%d): %s\n", uid, return_value_strerror_15);
     }
 
   }
 
-  signed int return_value_setcon$19;
-  signed int *return_value___errno_location$17;
-  char *return_value_strerror$18;
+  signed int return_value_setcon_19;
+  signed int *return_value___errno_location_17;
+  char *return_value_strerror_18;
   if(!(selinux_context == ((char *)NULL)))
   {
-    return_value_setcon$19=setcon(selinux_context);
-    if(return_value_setcon$19 == -1)
+    return_value_setcon_19=setcon(selinux_context);
+    if(return_value_setcon_19 == -1)
     {
-      return_value___errno_location$17=__errno_location();
-      return_value_strerror$18=strerror(*return_value___errno_location$17);
-      pt_log(0, "setcon(%s) failed: %s\n", selinux_context, return_value_strerror$18);
+      return_value___errno_location_17=__errno_location();
+      return_value_strerror_18=strerror(*return_value___errno_location_17);
+      pt_log(0, "setcon(%s) failed: %s\n", selinux_context, return_value_strerror_18);
     }
 
   }
 
-  _Bool tmp_if_expr$20;
-  _Bool tmp_if_expr$22;
-  unsigned int return_value_send_packets$27;
+  _Bool tmp_if_expr_20;
+  _Bool tmp_if_expr_22;
+  unsigned int return_value_send_packets_27;
   while((_Bool)1)
   {
     do
@@ -2834,13 +2834,13 @@ void * pt_proxy(void *args)
     (&set)->__fds_bits[(signed long int)(fwd_sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&set)->__fds_bits[(signed long int)(fwd_sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << fwd_sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
     max_sock = fwd_sock + 1;
     pthread_mutex_lock(&chain_lock);
-    pt_proxy$$1$$cur = chain;
-    for( ; !(pt_proxy$$1$$cur == ((struct proxy_desc_t *)NULL)); pt_proxy$$1$$cur = pt_proxy$$1$$cur->next)
-      if(!(pt_proxy$$1$$cur->sock == 0))
+    pt_proxy__1__cur = chain;
+    for( ; !(pt_proxy__1__cur == ((struct proxy_desc_t *)NULL)); pt_proxy__1__cur = pt_proxy__1__cur->next)
+      if(!(pt_proxy__1__cur->sock == 0))
       {
-        (&set)->__fds_bits[(signed long int)(pt_proxy$$1$$cur->sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&set)->__fds_bits[(signed long int)(pt_proxy$$1$$cur->sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << pt_proxy$$1$$cur->sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-        if(pt_proxy$$1$$cur->sock >= max_sock)
-          max_sock = pt_proxy$$1$$cur->sock + 1;
+        (&set)->__fds_bits[(signed long int)(pt_proxy__1__cur->sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&set)->__fds_bits[(signed long int)(pt_proxy__1__cur->sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << pt_proxy__1__cur->sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+        if(pt_proxy__1__cur->sock >= max_sock)
+          max_sock = pt_proxy__1__cur->sock + 1;
 
       }
 
@@ -2850,94 +2850,94 @@ void * pt_proxy(void *args)
     select(max_sock, &set, ((struct anonymous *)NULL), ((struct anonymous *)NULL), &timeout);
     pthread_mutex_lock(&chain_lock);
     prev = ((struct proxy_desc_t *)NULL);
-    pt_proxy$$1$$cur = chain;
+    pt_proxy__1__cur = chain;
     do
     {
-      if(!(pt_proxy$$1$$cur == ((struct proxy_desc_t *)NULL)))
-        tmp_if_expr$20 = pt_proxy$$1$$cur->sock != 0 ? (_Bool)1 : (_Bool)0;
+      if(!(pt_proxy__1__cur == ((struct proxy_desc_t *)NULL)))
+        tmp_if_expr_20 = pt_proxy__1__cur->sock != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$20 = (_Bool)0;
-      if(!tmp_if_expr$20)
+        tmp_if_expr_20 = (_Bool)0;
+      if(!tmp_if_expr_20)
         break;
 
-      if(pt_proxy$$1$$cur->state == 0u)
+      if(pt_proxy__1__cur->state == 0u)
       {
         pt_log(3, "Sending proxy request.\n");
-        pt_proxy$$1$$cur->last_ack=time_as_double();
-        queue_packet(fwd_sock, (unsigned char)pt_proxy$$1$$cur->pkt_type, ((char *)NULL), 0, pt_proxy$$1$$cur->id_no, pt_proxy$$1$$cur->id_no, &pt_proxy$$1$$cur->my_seq, pt_proxy$$1$$cur->send_ring, &pt_proxy$$1$$cur->send_idx, &pt_proxy$$1$$cur->send_wait_ack, pt_proxy$$1$$cur->dst_ip, pt_proxy$$1$$cur->dst_port, pt_proxy$$1$$cur->state | pt_proxy$$1$$cur->type_flag, &pt_proxy$$1$$cur->dest_addr, pt_proxy$$1$$cur->next_remote_seq, &pt_proxy$$1$$cur->send_first_ack, &pt_proxy$$1$$cur->ping_seq);
-        pt_proxy$$1$$cur->xfer.icmp_out = pt_proxy$$1$$cur->xfer.icmp_out + 1u;
-        pt_proxy$$1$$cur->state = (unsigned int)2;
+        pt_proxy__1__cur->last_ack=time_as_double();
+        queue_packet(fwd_sock, (unsigned char)pt_proxy__1__cur->pkt_type, ((char *)NULL), 0, pt_proxy__1__cur->id_no, pt_proxy__1__cur->id_no, &pt_proxy__1__cur->my_seq, pt_proxy__1__cur->send_ring, &pt_proxy__1__cur->send_idx, &pt_proxy__1__cur->send_wait_ack, pt_proxy__1__cur->dst_ip, pt_proxy__1__cur->dst_port, pt_proxy__1__cur->state | pt_proxy__1__cur->type_flag, &pt_proxy__1__cur->dest_addr, pt_proxy__1__cur->next_remote_seq, &pt_proxy__1__cur->send_first_ack, &pt_proxy__1__cur->ping_seq);
+        pt_proxy__1__cur->xfer.icmp_out = pt_proxy__1__cur->xfer.icmp_out + 1u;
+        pt_proxy__1__cur->state = (unsigned int)2;
       }
 
-      if(!(pt_proxy$$1$$cur->should_remove == 0))
+      if(!(pt_proxy__1__cur->should_remove == 0))
       {
         pt_log(1, "\nSession statistics:\n");
-        print_statistics(&pt_proxy$$1$$cur->xfer, 0);
+        print_statistics(&pt_proxy__1__cur->xfer, 0);
         pt_log(1, "\n");
-        tmp = pt_proxy$$1$$cur->next;
-        remove_proxy_desc(pt_proxy$$1$$cur, prev);
+        tmp = pt_proxy__1__cur->next;
+        remove_proxy_desc(pt_proxy__1__cur, prev);
       }
 
       else
       {
-        if(!((set.__fds_bits[(signed long int)(pt_proxy$$1$$cur->sock / 8)] & (signed long int)(1UL << pt_proxy$$1$$cur->sock % 8)) == 0l))
+        if(!((set.__fds_bits[(signed long int)(pt_proxy__1__cur->sock / 8)] & (signed long int)(1UL << pt_proxy__1__cur->sock % 8)) == 0l))
         {
-          if(!(pt_proxy$$1$$cur->send_wait_ack >= 64))
+          if(!(pt_proxy__1__cur->send_wait_ack >= 64))
           {
             if(password == ((char *)NULL))
-              tmp_if_expr$22 = (_Bool)1;
+              tmp_if_expr_22 = (_Bool)1;
 
             else
-              tmp_if_expr$22 = pt_proxy$$1$$cur->authenticated != 0 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$22)
+              tmp_if_expr_22 = pt_proxy__1__cur->authenticated != 0 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_22)
             {
-              signed long int return_value_recv$21;
-              return_value_recv$21=recv(pt_proxy$$1$$cur->sock, (void *)pt_proxy$$1$$cur->buf, (unsigned long int)tcp_receive_buf_len, 0);
-              bytes = (signed int)return_value_recv$21;
+              signed long int return_value_recv_21;
+              return_value_recv_21=recv(pt_proxy__1__cur->sock, (void *)pt_proxy__1__cur->buf, (unsigned long int)tcp_receive_buf_len, 0);
+              bytes = (signed int)return_value_recv_21;
               if(!(bytes >= 1))
               {
                 pt_log(1, "Connection closed or lost.\n");
-                tmp = pt_proxy$$1$$cur->next;
-                send_termination_msg(pt_proxy$$1$$cur, fwd_sock);
+                tmp = pt_proxy__1__cur->next;
+                send_termination_msg(pt_proxy__1__cur, fwd_sock);
                 pt_log(1, "Session statistics:\n");
-                print_statistics(&pt_proxy$$1$$cur->xfer, 0);
-                remove_proxy_desc(pt_proxy$$1$$cur, prev);
+                print_statistics(&pt_proxy__1__cur->xfer, 0);
+                remove_proxy_desc(pt_proxy__1__cur, prev);
                 goto __CPROVER_DUMP_L34;
               }
 
-              pt_proxy$$1$$cur->xfer.bytes_out = pt_proxy$$1$$cur->xfer.bytes_out + (double)bytes;
-              pt_proxy$$1$$cur->xfer.icmp_out = pt_proxy$$1$$cur->xfer.icmp_out + 1u;
-              queue_packet(fwd_sock, (unsigned char)pt_proxy$$1$$cur->pkt_type, pt_proxy$$1$$cur->buf, bytes, pt_proxy$$1$$cur->id_no, pt_proxy$$1$$cur->icmp_id, &pt_proxy$$1$$cur->my_seq, pt_proxy$$1$$cur->send_ring, &pt_proxy$$1$$cur->send_idx, &pt_proxy$$1$$cur->send_wait_ack, (unsigned int)0, (unsigned int)0, pt_proxy$$1$$cur->state | pt_proxy$$1$$cur->type_flag, &pt_proxy$$1$$cur->dest_addr, pt_proxy$$1$$cur->next_remote_seq, &pt_proxy$$1$$cur->send_first_ack, &pt_proxy$$1$$cur->ping_seq);
+              pt_proxy__1__cur->xfer.bytes_out = pt_proxy__1__cur->xfer.bytes_out + (double)bytes;
+              pt_proxy__1__cur->xfer.icmp_out = pt_proxy__1__cur->xfer.icmp_out + 1u;
+              queue_packet(fwd_sock, (unsigned char)pt_proxy__1__cur->pkt_type, pt_proxy__1__cur->buf, bytes, pt_proxy__1__cur->id_no, pt_proxy__1__cur->icmp_id, &pt_proxy__1__cur->my_seq, pt_proxy__1__cur->send_ring, &pt_proxy__1__cur->send_idx, &pt_proxy__1__cur->send_wait_ack, (unsigned int)0, (unsigned int)0, pt_proxy__1__cur->state | pt_proxy__1__cur->type_flag, &pt_proxy__1__cur->dest_addr, pt_proxy__1__cur->next_remote_seq, &pt_proxy__1__cur->send_first_ack, &pt_proxy__1__cur->ping_seq);
             }
 
           }
 
         }
 
-        prev = pt_proxy$$1$$cur;
-        tmp = pt_proxy$$1$$cur->next;
+        prev = pt_proxy__1__cur;
+        tmp = pt_proxy__1__cur->next;
       }
 
     __CPROVER_DUMP_L34:
       ;
-      pt_proxy$$1$$cur = tmp;
+      pt_proxy__1__cur = tmp;
     }
     while((_Bool)1);
     pthread_mutex_unlock(&chain_lock);
     if(!((set.__fds_bits[(signed long int)(fwd_sock / 8)] & (signed long int)(1UL << fwd_sock % 8)) == 0l))
     {
       addr_len = (unsigned int)sizeof(struct sockaddr) /*16ul*/ ;
-      signed long int return_value_recvfrom$23;
-      return_value_recvfrom$23=recvfrom(fwd_sock, (void *)buf, (unsigned long int)icmp_receive_buf_len, 0, (struct sockaddr *)&addr, &addr_len);
-      bytes = (signed int)return_value_recvfrom$23;
+      signed long int return_value_recvfrom_23;
+      return_value_recvfrom_23=recvfrom(fwd_sock, (void *)buf, (unsigned long int)icmp_receive_buf_len, 0, (struct sockaddr *)&addr, &addr_len);
+      bytes = (signed int)return_value_recvfrom_23;
       if(!(bytes >= 0))
       {
-        signed int *return_value___errno_location$24;
-        return_value___errno_location$24=__errno_location();
-        char *return_value_strerror$25;
-        return_value_strerror$25=strerror(*return_value___errno_location$24);
-        pt_log(0, "Error receiving packet on ICMP socket: %s\n", return_value_strerror$25);
+        signed int *return_value___errno_location_24;
+        return_value___errno_location_24=__errno_location();
+        char *return_value_strerror_25;
+        return_value_strerror_25=strerror(*return_value___errno_location_24);
+        pt_log(0, "Error receiving packet on ICMP socket: %s\n", return_value_strerror_25);
         break;
       }
 
@@ -2946,56 +2946,56 @@ void * pt_proxy(void *args)
 
     pthread_mutex_lock(&chain_lock);
     now=time_as_double();
-    pt_proxy$$1$$cur = chain;
-    for( ; !(pt_proxy$$1$$cur == ((struct proxy_desc_t *)NULL)); pt_proxy$$1$$cur = pt_proxy$$1$$cur->next)
+    pt_proxy__1__cur = chain;
+    for( ; !(pt_proxy__1__cur == ((struct proxy_desc_t *)NULL)); pt_proxy__1__cur = pt_proxy__1__cur->next)
     {
-      if(pt_proxy$$1$$cur->last_activity + 60.000000 < now)
+      if(pt_proxy__1__cur->last_activity + 60.000000 < now)
       {
-        char *return_value_inet_ntoa$26;
-        return_value_inet_ntoa$26=inet_ntoa(*((struct in_addr *)&pt_proxy$$1$$cur->dst_ip));
-        pt_log(1, "Dropping tunnel to %s:%d due to inactivity.\n", return_value_inet_ntoa$26, pt_proxy$$1$$cur->dst_port, pt_proxy$$1$$cur->id_no);
-        pt_proxy$$1$$cur->should_remove = 1;
+        char *return_value_inet_ntoa_26;
+        return_value_inet_ntoa_26=inet_ntoa(*((struct in_addr *)&pt_proxy__1__cur->dst_ip));
+        pt_log(1, "Dropping tunnel to %s:%d due to inactivity.\n", return_value_inet_ntoa_26, pt_proxy__1__cur->dst_port, pt_proxy__1__cur->id_no);
+        pt_proxy__1__cur->should_remove = 1;
         goto __CPROVER_DUMP_L43;
       }
 
-      if(!(pt_proxy$$1$$cur->recv_wait_send == 0))
+      if(!(pt_proxy__1__cur->recv_wait_send == 0))
       {
-        if(!(pt_proxy$$1$$cur->sock == 0))
+        if(!(pt_proxy__1__cur->sock == 0))
         {
-          return_value_send_packets$27=send_packets(pt_proxy$$1$$cur->recv_ring, &pt_proxy$$1$$cur->recv_xfer_idx, &pt_proxy$$1$$cur->recv_wait_send, &pt_proxy$$1$$cur->sock);
-          pt_proxy$$1$$cur->xfer.bytes_in = pt_proxy$$1$$cur->xfer.bytes_in + (double)return_value_send_packets$27;
+          return_value_send_packets_27=send_packets(pt_proxy__1__cur->recv_ring, &pt_proxy__1__cur->recv_xfer_idx, &pt_proxy__1__cur->recv_wait_send, &pt_proxy__1__cur->sock);
+          pt_proxy__1__cur->xfer.bytes_in = pt_proxy__1__cur->xfer.bytes_in + (double)return_value_send_packets_27;
         }
 
       }
 
-      idx = pt_proxy$$1$$cur->send_first_ack;
-      if(!(pt_proxy$$1$$cur->send_ring[(signed long int)idx].pkt == ((struct anonymous$6 *)NULL)))
+      idx = pt_proxy__1__cur->send_first_ack;
+      if(!(pt_proxy__1__cur->send_ring[(signed long int)idx].pkt == ((struct anonymous_6 *)NULL)))
       {
-        if(pt_proxy$$1$$cur->send_ring[(signed long int)idx].last_resend + 1.5 < now)
+        if(pt_proxy__1__cur->send_ring[(signed long int)idx].last_resend + 1.5 < now)
         {
-          pt_log(4, "Resending packet with seq-no %d.\n", pt_proxy$$1$$cur->send_ring[(signed long int)idx].seq_no);
-          pt_proxy$$1$$cur->send_ring[(signed long int)idx].last_resend = now;
-          pt_proxy$$1$$cur->send_ring[(signed long int)idx].pkt->seq=htons(pt_proxy$$1$$cur->ping_seq);
-          pt_proxy$$1$$cur->ping_seq = pt_proxy$$1$$cur->ping_seq + 1;
-          pt_proxy$$1$$cur->send_ring[(signed long int)idx].pkt->checksum = (unsigned short int)0;
-          unsigned short int return_value_calc_icmp_checksum$28;
-          return_value_calc_icmp_checksum$28=calc_icmp_checksum((unsigned short int *)pt_proxy$$1$$cur->send_ring[(signed long int)idx].pkt, pt_proxy$$1$$cur->send_ring[(signed long int)idx].pkt_len);
-          pt_proxy$$1$$cur->send_ring[(signed long int)idx].pkt->checksum=htons(return_value_calc_icmp_checksum$28);
-          sendto(fwd_sock, (const void *)pt_proxy$$1$$cur->send_ring[(signed long int)idx].pkt, (unsigned long int)pt_proxy$$1$$cur->send_ring[(signed long int)idx].pkt_len, 0, (struct sockaddr *)&pt_proxy$$1$$cur->dest_addr, (unsigned int)sizeof(struct sockaddr) /*16ul*/ );
-          pt_proxy$$1$$cur->xfer.icmp_resent = pt_proxy$$1$$cur->xfer.icmp_resent + 1u;
+          pt_log(4, "Resending packet with seq-no %d.\n", pt_proxy__1__cur->send_ring[(signed long int)idx].seq_no);
+          pt_proxy__1__cur->send_ring[(signed long int)idx].last_resend = now;
+          pt_proxy__1__cur->send_ring[(signed long int)idx].pkt->seq=htons(pt_proxy__1__cur->ping_seq);
+          pt_proxy__1__cur->ping_seq = pt_proxy__1__cur->ping_seq + 1;
+          pt_proxy__1__cur->send_ring[(signed long int)idx].pkt->checksum = (unsigned short int)0;
+          unsigned short int return_value_calc_icmp_checksum_28;
+          return_value_calc_icmp_checksum_28=calc_icmp_checksum((unsigned short int *)pt_proxy__1__cur->send_ring[(signed long int)idx].pkt, pt_proxy__1__cur->send_ring[(signed long int)idx].pkt_len);
+          pt_proxy__1__cur->send_ring[(signed long int)idx].pkt->checksum=htons(return_value_calc_icmp_checksum_28);
+          sendto(fwd_sock, (const void *)pt_proxy__1__cur->send_ring[(signed long int)idx].pkt, (unsigned long int)pt_proxy__1__cur->send_ring[(signed long int)idx].pkt_len, 0, (struct sockaddr *)&pt_proxy__1__cur->dest_addr, (unsigned int)sizeof(struct sockaddr) /*16ul*/ );
+          pt_proxy__1__cur->xfer.icmp_resent = pt_proxy__1__cur->xfer.icmp_resent + 1u;
         }
 
       }
 
-      if(pt_proxy$$1$$cur->last_ack + 1.0 < now)
+      if(pt_proxy__1__cur->last_ack + 1.0 < now)
       {
-        if(!(pt_proxy$$1$$cur->send_wait_ack >= 64))
+        if(!(pt_proxy__1__cur->send_wait_ack >= 64))
         {
-          if(!(1 + (signed int)pt_proxy$$1$$cur->remote_ack_val == (signed int)pt_proxy$$1$$cur->next_remote_seq))
+          if(!(1 + (signed int)pt_proxy__1__cur->remote_ack_val == (signed int)pt_proxy__1__cur->next_remote_seq))
           {
-            pt_proxy$$1$$cur->last_ack = now;
-            queue_packet(fwd_sock, (unsigned char)pt_proxy$$1$$cur->pkt_type, ((char *)NULL), 0, pt_proxy$$1$$cur->id_no, pt_proxy$$1$$cur->icmp_id, &pt_proxy$$1$$cur->my_seq, pt_proxy$$1$$cur->send_ring, &pt_proxy$$1$$cur->send_idx, &pt_proxy$$1$$cur->send_wait_ack, pt_proxy$$1$$cur->dst_ip, pt_proxy$$1$$cur->dst_port, (unsigned int)1 | pt_proxy$$1$$cur->type_flag, &pt_proxy$$1$$cur->dest_addr, pt_proxy$$1$$cur->next_remote_seq, &pt_proxy$$1$$cur->send_first_ack, &pt_proxy$$1$$cur->ping_seq);
-            pt_proxy$$1$$cur->xfer.icmp_ack_out = pt_proxy$$1$$cur->xfer.icmp_ack_out + 1u;
+            pt_proxy__1__cur->last_ack = now;
+            queue_packet(fwd_sock, (unsigned char)pt_proxy__1__cur->pkt_type, ((char *)NULL), 0, pt_proxy__1__cur->id_no, pt_proxy__1__cur->icmp_id, &pt_proxy__1__cur->my_seq, pt_proxy__1__cur->send_ring, &pt_proxy__1__cur->send_idx, &pt_proxy__1__cur->send_wait_ack, pt_proxy__1__cur->dst_ip, pt_proxy__1__cur->dst_port, (unsigned int)1 | pt_proxy__1__cur->type_flag, &pt_proxy__1__cur->dest_addr, pt_proxy__1__cur->next_remote_seq, &pt_proxy__1__cur->send_first_ack, &pt_proxy__1__cur->ping_seq);
+            pt_proxy__1__cur->xfer.icmp_ack_out = pt_proxy__1__cur->xfer.icmp_ack_out + 1u;
           }
 
         }
@@ -3009,9 +3009,9 @@ void * pt_proxy(void *args)
     pthread_mutex_unlock(&chain_lock);
     if(!(pcap == 0))
     {
-      signed int return_value_pcap_dispatch$29;
-      return_value_pcap_dispatch$29=pcap_dispatch(pc.pcap_desc, 32, pcap_packet_handler, (unsigned char *)&pc.pkt_q);
-      if(return_value_pcap_dispatch$29 >= 1)
+      signed int return_value_pcap_dispatch_29;
+      return_value_pcap_dispatch_29=pcap_dispatch(pc.pcap_desc, 32, pcap_packet_handler, (unsigned char *)&pc.pkt_q);
+      if(return_value_pcap_dispatch_29 >= 1)
       {
         struct pqueue_elem_t *cur;
         for( ; !(pc.pkt_q.head == ((struct pqueue_elem_t *)NULL)); pc.pkt_q.elems = pc.pkt_q.elems - 1)
@@ -3019,7 +3019,7 @@ void * pt_proxy(void *args)
           cur = pc.pkt_q.head;
           memset((void *)&addr, (signed int)sizeof(struct sockaddr) /*16ul*/ , (unsigned long int)0);
           addr.sin_family = (unsigned short int)2;
-          addr.sin_addr.s_addr = *((unsigned int *)&((struct anonymous$3 *)cur->data)->src_ip);
+          addr.sin_addr.s_addr = *((unsigned int *)&((struct anonymous_3 *)cur->data)->src_ip);
           handle_packet(cur->data, cur->bytes, 1, &addr, fwd_sock);
           pc.pkt_q.head = cur->next;
           free((void *)cur);
@@ -3034,14 +3034,14 @@ void * pt_proxy(void *args)
     {
       pthread_mutex_lock(&chain_lock);
       memset((void *)&xfer, 0, sizeof(struct xfer_stats_t) /*32ul*/ );
-      pt_proxy$$1$$cur = chain;
-      for( ; !(pt_proxy$$1$$cur == ((struct proxy_desc_t *)NULL)); pt_proxy$$1$$cur = pt_proxy$$1$$cur->next)
+      pt_proxy__1__cur = chain;
+      for( ; !(pt_proxy__1__cur == ((struct proxy_desc_t *)NULL)); pt_proxy__1__cur = pt_proxy__1__cur->next)
       {
-        xfer.bytes_in = xfer.bytes_in + pt_proxy$$1$$cur->xfer.bytes_in;
-        xfer.bytes_out = xfer.bytes_out + pt_proxy$$1$$cur->xfer.bytes_out;
-        xfer.icmp_in = xfer.icmp_in + pt_proxy$$1$$cur->xfer.icmp_in;
-        xfer.icmp_out = xfer.icmp_out + pt_proxy$$1$$cur->xfer.icmp_out;
-        xfer.icmp_resent = xfer.icmp_resent + pt_proxy$$1$$cur->xfer.icmp_resent;
+        xfer.bytes_in = xfer.bytes_in + pt_proxy__1__cur->xfer.bytes_in;
+        xfer.bytes_out = xfer.bytes_out + pt_proxy__1__cur->xfer.bytes_out;
+        xfer.icmp_in = xfer.icmp_in + pt_proxy__1__cur->xfer.icmp_in;
+        xfer.icmp_out = xfer.icmp_out + pt_proxy__1__cur->xfer.icmp_out;
+        xfer.icmp_resent = xfer.icmp_resent + pt_proxy__1__cur->xfer.icmp_resent;
       }
       pthread_mutex_unlock(&chain_lock);
       print_statistics(&xfer, 1);
@@ -3060,26 +3060,26 @@ void * pt_proxy(void *args)
 
 // queue_packet
 // file ptunnel.c line 1205
-signed int queue_packet(signed int icmp_sock, unsigned char type, char *buf, signed int num_bytes, unsigned short int id_no, unsigned short int icmp_id, unsigned short int *seq, struct anonymous$8 *ring, signed int *insert_idx, signed int *await_send, unsigned int ip, unsigned int port, unsigned int state, struct sockaddr_in *dest_addr, unsigned short int next_expected_seq, signed int *first_ack, unsigned short int *ping_seq)
+signed int queue_packet(signed int icmp_sock, unsigned char type, char *buf, signed int num_bytes, unsigned short int id_no, unsigned short int icmp_id, unsigned short int *seq, struct anonymous_8 *ring, signed int *insert_idx, signed int *await_send, unsigned int ip, unsigned int port, unsigned int state, struct sockaddr_in *dest_addr, unsigned short int next_expected_seq, signed int *first_ack, unsigned short int *ping_seq)
 {
-  signed int pkt_len = (signed int)(sizeof(struct anonymous$6) /*8ul*/  + sizeof(struct anonymous$1) /*28ul*/  + (unsigned long int)num_bytes);
+  signed int pkt_len = (signed int)(sizeof(struct anonymous_6) /*8ul*/  + sizeof(struct anonymous_1) /*28ul*/  + (unsigned long int)num_bytes);
   signed int err = 0;
-  struct anonymous$6 *pkt = ((struct anonymous$6 *)NULL);
-  struct anonymous$1 *pt_pkt = ((struct anonymous$1 *)NULL);
+  struct anonymous_6 *pkt = ((struct anonymous_6 *)NULL);
+  struct anonymous_1 *pt_pkt = ((struct anonymous_1 *)NULL);
   unsigned short int ack_val = (unsigned short int)((signed int)next_expected_seq - 1);
   if(!(pkt_len % 2 == 0))
     pkt_len = pkt_len + 1;
 
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)pkt_len);
-  pkt = (struct anonymous$6 *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)pkt_len);
+  pkt = (struct anonymous_6 *)return_value_malloc_1;
   pkt->type = type;
   pkt->code = (unsigned char)0;
   pkt->identifier=htons(icmp_id);
   pkt->seq=htons(*ping_seq);
   pkt->checksum = (unsigned short int)0;
   *ping_seq = *ping_seq + 1;
-  pt_pkt = (struct anonymous$1 *)pkt->data;
+  pt_pkt = (struct anonymous_1 *)pkt->data;
   pt_pkt->magic=htonl(0xD5200880);
   pt_pkt->dst_ip = ip;
   pt_pkt->dst_port=htonl(port);
@@ -3091,20 +3091,20 @@ signed int queue_packet(signed int icmp_sock, unsigned char type, char *buf, sig
   if(num_bytes >= 1 && !(buf == ((char *)NULL)))
     memcpy((void *)pt_pkt->data, (const void *)buf, (unsigned long int)num_bytes);
 
-  unsigned short int return_value_calc_icmp_checksum$2;
-  return_value_calc_icmp_checksum$2=calc_icmp_checksum((unsigned short int *)pkt, pkt_len);
-  pkt->checksum=htons(return_value_calc_icmp_checksum$2);
+  unsigned short int return_value_calc_icmp_checksum_2;
+  return_value_calc_icmp_checksum_2=calc_icmp_checksum((unsigned short int *)pkt, pkt_len);
+  pkt->checksum=htons(return_value_calc_icmp_checksum_2);
   pt_log(5, "Send: %d [%d] bytes [seq = %d] [type = %s] [ack = %d] [icmp = %d] [user = %s]\n", pkt_len, num_bytes, *seq, state_name[(signed long int)(state & (unsigned int)~-1073741824)], ack_val, type, (state & (unsigned int)1073741824) == (unsigned int)1073741824 ? "yes" : "no");
-  signed long int return_value_sendto$3;
-  return_value_sendto$3=sendto(icmp_sock, (const void *)pkt, (unsigned long int)pkt_len, 0, (struct sockaddr *)dest_addr, (unsigned int)sizeof(struct sockaddr) /*16ul*/ );
-  err = (signed int)return_value_sendto$3;
+  signed long int return_value_sendto_3;
+  return_value_sendto_3=sendto(icmp_sock, (const void *)pkt, (unsigned long int)pkt_len, 0, (struct sockaddr *)dest_addr, (unsigned int)sizeof(struct sockaddr) /*16ul*/ );
+  err = (signed int)return_value_sendto_3;
   if(!(err >= 0))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    pt_log(0, "Failed to send ICMP packet: %s\n", return_value_strerror$5);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    pt_log(0, "Failed to send ICMP packet: %s\n", return_value_strerror_5);
     return -1;
   }
 
@@ -3118,7 +3118,7 @@ signed int queue_packet(signed int icmp_sock, unsigned char type, char *buf, sig
   (ring + (signed long int)*insert_idx)->seq_no = *seq;
   (ring + (signed long int)*insert_idx)->icmp_id = icmp_id;
   *seq = *seq + 1;
-  if((ring + (signed long int)*first_ack)->pkt == ((struct anonymous$6 *)NULL))
+  if((ring + (signed long int)*first_ack)->pkt == ((struct anonymous_6 *)NULL))
     *first_ack = *insert_idx;
 
   *await_send = *await_send + 1;
@@ -3145,14 +3145,14 @@ void remove_proxy_desc(struct proxy_desc_t *cur, struct proxy_desc_t *prev)
   i = 0;
   for( ; !(i >= 64); i = i + 1)
   {
-    if(!(cur->send_ring[(signed long int)i].pkt == ((struct anonymous$6 *)NULL)))
+    if(!(cur->send_ring[(signed long int)i].pkt == ((struct anonymous_6 *)NULL)))
       free((void *)cur->send_ring[(signed long int)i].pkt);
 
-    cur->send_ring[(signed long int)i].pkt = ((struct anonymous$6 *)NULL);
-    if(!(cur->recv_ring[(signed long int)i] == ((struct anonymous$7 *)NULL)))
+    cur->send_ring[(signed long int)i].pkt = ((struct anonymous_6 *)NULL);
+    if(!(cur->recv_ring[(signed long int)i] == ((struct anonymous_7 *)NULL)))
       free((void *)cur->recv_ring[(signed long int)i]);
 
-    cur->recv_ring[(signed long int)i] = ((struct anonymous$7 *)NULL);
+    cur->recv_ring[(signed long int)i] = ((struct anonymous_7 *)NULL);
   }
   close(cur->sock);
   cur->sock = 0;
@@ -3170,22 +3170,22 @@ void remove_proxy_desc(struct proxy_desc_t *cur, struct proxy_desc_t *prev)
 
 // send_packets
 // file ptunnel.c line 1306
-unsigned int send_packets(struct anonymous$7 **ring, signed int *xfer_idx, signed int *await_send, signed int *sock)
+unsigned int send_packets(struct anonymous_7 **ring, signed int *xfer_idx, signed int *await_send, signed int *sock)
 {
-  struct anonymous$7 *fwd_desc;
+  struct anonymous_7 *fwd_desc;
   signed int bytes;
   signed int total = 0;
   while(*await_send >= 1)
   {
     fwd_desc = ring[(signed long int)*xfer_idx];
-    if(fwd_desc == ((struct anonymous$7 *)NULL))
+    if(fwd_desc == ((struct anonymous_7 *)NULL))
       break;
 
     if(fwd_desc->length >= 1)
     {
-      signed long int return_value_send$1;
-      return_value_send$1=send(*sock, (const void *)&fwd_desc->data[(signed long int)(fwd_desc->length - fwd_desc->remaining)], (unsigned long int)fwd_desc->remaining, 0);
-      bytes = (signed int)return_value_send$1;
+      signed long int return_value_send_1;
+      return_value_send_1=send(*sock, (const void *)&fwd_desc->data[(signed long int)(fwd_desc->length - fwd_desc->remaining)], (unsigned long int)fwd_desc->remaining, 0);
+      bytes = (signed int)return_value_send_1;
       if(!(bytes >= 0))
       {
         printf("Weirdness.\n");
@@ -3200,7 +3200,7 @@ unsigned int send_packets(struct anonymous$7 **ring, signed int *xfer_idx, signe
 
     if(fwd_desc->remaining == 0)
     {
-      ring[(signed long int)*xfer_idx] = ((struct anonymous$7 *)NULL);
+      ring[(signed long int)*xfer_idx] = ((struct anonymous_7 *)NULL);
       free((void *)fwd_desc);
       *xfer_idx = *xfer_idx + 1;
       *await_send = *await_send - 1;
@@ -3275,7 +3275,7 @@ void usage(char *exec_name)
   printf("Starting a client (also needs root):\n");
   printf(" [root #] %s -p proxy.pingtunnel.com -lp 8000 -da login.domain.com -dp 22 -c eth0\n", exec_name);
   printf("And then using the tunnel to ssh to login.domain.com:\n");
-  printf(" [user $] ssh -p 8000 localhost\n");
+  printf(" [user _] ssh -p 8000 localhost\n");
   printf("And that's it. Enjoy your tunnel!\n\n");
 }
 
@@ -3284,9 +3284,9 @@ void usage(char *exec_name)
 signed int validate_challenge(struct challenge_t *local, struct challenge_t *remote)
 {
   generate_response(local);
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)local, (const void *)remote, sizeof(struct challenge_t) /*32ul*/ );
-  if(return_value_memcmp$1 == 0)
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)local, (const void *)remote, sizeof(struct challenge_t) /*32ul*/ );
+  if(return_value_memcmp_1 == 0)
     return 1;
 
   else

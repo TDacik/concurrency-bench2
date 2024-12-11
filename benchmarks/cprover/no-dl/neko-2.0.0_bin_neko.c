@@ -1,114 +1,114 @@
-// #anon_enum$VAL_INT=255$VAL_NULL=0$VAL_FLOAT=1$VAL_BOOL=2$VAL_STRING=3$VAL_OBJECT=4$VAL_ARRAY=5$VAL_FUNCTION=6$VAL_ABSTRACT=7$VAL_INT32=8$VAL_PRIMITIVE=22$VAL_JITFUN=38$VAL_32_BITS=-1
+// #anon_enum_VAL_INT=255_VAL_NULL=0_VAL_FLOAT=1_VAL_BOOL=2_VAL_STRING=3_VAL_OBJECT=4_VAL_ARRAY=5_VAL_FUNCTION=6_VAL_ABSTRACT=7_VAL_INT32=8_VAL_PRIMITIVE=22_VAL_JITFUN=38_VAL_32_BITS=-1
 // file vm/neko.h line 99
-enum anonymous$7 { VAL_INT=255, VAL_NULL=0, VAL_FLOAT=1, VAL_BOOL=2, VAL_STRING=3, VAL_OBJECT=4, VAL_ARRAY=5, VAL_FUNCTION=6, VAL_ABSTRACT=7, VAL_INT32=8, VAL_PRIMITIVE=22, VAL_JITFUN=38, VAL_32_BITS=-1 };
+enum anonymous_7 { VAL_INT=255, VAL_NULL=0, VAL_FLOAT=1, VAL_BOOL=2, VAL_STRING=3, VAL_OBJECT=4, VAL_ARRAY=5, VAL_FUNCTION=6, VAL_ABSTRACT=7, VAL_INT32=8, VAL_PRIMITIVE=22, VAL_JITFUN=38, VAL_32_BITS=-1 };
 
-// tag-#anon#ST[*{*{SYM#tag-hcell#}$SYM#tag-hcell#$}$*{SYM#tag-hcell#}$SYM#tag-hcell#$$'cells'||S32'ncells'||S32'nitems'|]
+// tag-#anon#ST[*{*{SYM#tag-hcell#}_SYM#tag-hcell#_}_*{SYM#tag-hcell#}_SYM#tag-hcell#__'cells'||S32'ncells'||S32'nitems'|]
 // file vm/neko.h line 189
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[*{S8}$S8$'p'||S32'len'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'p'||S32'len'||U32'_pad0'|]
 // file vm/neko_mod.h line 50
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[*{V(*{V}$V$)->V}$V(*{V}$V$)->V$'init'||*{V(*{V}$V$)->V}$V(*{V}$V$)->V$'main'||*{V}$V$'param'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'lock'|]
+// tag-#anon#ST[*{V(*{V}_V_)->V}_V(*{V}_V_)->V_'init'||*{V(*{V}_V_)->V}_V(*{V}_V_)->V_'main'||*{V}_V_'param'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'lock'|]
 // file vm/threads.c line 80
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[*{V(*{cS8}$cS8$|S32|*{V}$V$)->V}$V(*{cS8}$cS8$|S32|*{V}$V$)->V$'prev'||*{V}$V$'prev_param'||*{V(*{cS8}$cS8$|S32|*{V}$V$)->V}$V(*{cS8}$cS8$|S32|*{V}$V$)->V$'cur'||*{V}$V$'cur_param'|]
+// tag-#anon#ST[*{V(*{cS8}_cS8_|S32|*{V}_V_)->V}_V(*{cS8}_cS8_|S32|*{V}_V_)->V_'prev'||*{V}_V_'prev_param'||*{V(*{cS8}_cS8_|S32|*{V}_V_)->V}_V(*{cS8}_cS8_|S32|*{V}_V_)->V_'cur'||*{V}_V_'cur_param'|]
 // file vm/interp.c line 198
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[EN#anon_enum$VAL_INT=255$VAL_NULL=0$VAL_FLOAT=1$VAL_BOOL=2$VAL_STRING=3$VAL_OBJECT=4$VAL_ARRAY=5$VAL_FUNCTION=6$VAL_ABSTRACT=7$VAL_INT32=8$VAL_PRIMITIVE=22$VAL_JITFUN=38$VAL_32_BITS=-1#{S32}$S32$'t'||F64'f'|]
+// tag-#anon#ST[EN#anon_enum_VAL_INT=255_VAL_NULL=0_VAL_FLOAT=1_VAL_BOOL=2_VAL_STRING=3_VAL_OBJECT=4_VAL_ARRAY=5_VAL_FUNCTION=6_VAL_ABSTRACT=7_VAL_INT32=8_VAL_PRIMITIVE=22_VAL_JITFUN=38_VAL_32_BITS=-1#{S32}_S32_'t'||F64'f'|]
 // file vm/neko.h line 141
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[EN#anon_enum$VAL_INT=255$VAL_NULL=0$VAL_FLOAT=1$VAL_BOOL=2$VAL_STRING=3$VAL_OBJECT=4$VAL_ARRAY=5$VAL_FUNCTION=6$VAL_ABSTRACT=7$VAL_INT32=8$VAL_PRIMITIVE=22$VAL_JITFUN=38$VAL_32_BITS=-1#{S32}$S32$'t'||S32'i'|]
+// tag-#anon#ST[EN#anon_enum_VAL_INT=255_VAL_NULL=0_VAL_FLOAT=1_VAL_BOOL=2_VAL_STRING=3_VAL_OBJECT=4_VAL_ARRAY=5_VAL_FUNCTION=6_VAL_ABSTRACT=7_VAL_INT32=8_VAL_PRIMITIVE=22_VAL_JITFUN=38_VAL_32_BITS=-1#{S32}_S32_'t'||S32'i'|]
 // file vm/neko.h line 146
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[EN#anon_enum$VAL_INT=255$VAL_NULL=0$VAL_FLOAT=1$VAL_BOOL=2$VAL_STRING=3$VAL_OBJECT=4$VAL_ARRAY=5$VAL_FUNCTION=6$VAL_ABSTRACT=7$VAL_INT32=8$VAL_PRIMITIVE=22$VAL_JITFUN=38$VAL_32_BITS=-1#{S32}$S32$'t'||S32'nargs'||*{V}$V$'addr'||*{SYM#tag-_value#}$SYM#tag-_value#$'env'||*{V}$V$'module'|]
+// tag-#anon#ST[EN#anon_enum_VAL_INT=255_VAL_NULL=0_VAL_FLOAT=1_VAL_BOOL=2_VAL_STRING=3_VAL_OBJECT=4_VAL_ARRAY=5_VAL_FUNCTION=6_VAL_ABSTRACT=7_VAL_INT32=8_VAL_PRIMITIVE=22_VAL_JITFUN=38_VAL_32_BITS=-1#{S32}_S32_'t'||S32'nargs'||*{V}_V_'addr'||*{SYM#tag-_value#}_SYM#tag-_value#_'env'||*{V}_V_'module'|]
 // file vm/neko.h line 158
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[EN#anon_enum$VAL_INT=255$VAL_NULL=0$VAL_FLOAT=1$VAL_BOOL=2$VAL_STRING=3$VAL_OBJECT=4$VAL_ARRAY=5$VAL_FUNCTION=6$VAL_ABSTRACT=7$VAL_INT32=8$VAL_PRIMITIVE=22$VAL_JITFUN=38$VAL_32_BITS=-1#{S32}$S32$'t'||S8'c'||U24'$pad0'|]
+// tag-#anon#ST[EN#anon_enum_VAL_INT=255_VAL_NULL=0_VAL_FLOAT=1_VAL_BOOL=2_VAL_STRING=3_VAL_OBJECT=4_VAL_ARRAY=5_VAL_FUNCTION=6_VAL_ABSTRACT=7_VAL_INT32=8_VAL_PRIMITIVE=22_VAL_JITFUN=38_VAL_32_BITS=-1#{S32}_S32_'t'||S8'c'||U24'_pad0'|]
 // file vm/neko.h line 166
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[EN#anon_enum$VAL_INT=255$VAL_NULL=0$VAL_FLOAT=1$VAL_BOOL=2$VAL_STRING=3$VAL_OBJECT=4$VAL_ARRAY=5$VAL_FUNCTION=6$VAL_ABSTRACT=7$VAL_INT32=8$VAL_PRIMITIVE=22$VAL_JITFUN=38$VAL_32_BITS=-1#{S32}$S32$'t'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'__zero'|]#}$SYM#tag-#anon#ST[S32'__zero'|]#$'kind'||*{V}$V$'data'|]
+// tag-#anon#ST[EN#anon_enum_VAL_INT=255_VAL_NULL=0_VAL_FLOAT=1_VAL_BOOL=2_VAL_STRING=3_VAL_OBJECT=4_VAL_ARRAY=5_VAL_FUNCTION=6_VAL_ABSTRACT=7_VAL_INT32=8_VAL_PRIMITIVE=22_VAL_JITFUN=38_VAL_32_BITS=-1#{S32}_S32_'t'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'__zero'|]#}_SYM#tag-#anon#ST[S32'__zero'|]#_'kind'||*{V}_V_'data'|]
 // file vm/neko.h line 176
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[EN#anon_enum$VAL_INT=255$VAL_NULL=0$VAL_FLOAT=1$VAL_BOOL=2$VAL_STRING=3$VAL_OBJECT=4$VAL_ARRAY=5$VAL_FUNCTION=6$VAL_ABSTRACT=7$VAL_INT32=8$VAL_PRIMITIVE=22$VAL_JITFUN=38$VAL_32_BITS=-1#{S32}$S32$'t'||U32'$pad0'||*{SYM#tag-_value#}$SYM#tag-_value#$'ptr'|]
+// tag-#anon#ST[EN#anon_enum_VAL_INT=255_VAL_NULL=0_VAL_FLOAT=1_VAL_BOOL=2_VAL_STRING=3_VAL_OBJECT=4_VAL_ARRAY=5_VAL_FUNCTION=6_VAL_ABSTRACT=7_VAL_INT32=8_VAL_PRIMITIVE=22_VAL_JITFUN=38_VAL_32_BITS=-1#{S32}_S32_'t'||U32'_pad0'||*{SYM#tag-_value#}_SYM#tag-_value#_'ptr'|]
 // file vm/neko.h line 171
-struct anonymous$4;
+struct anonymous_4;
 
 // tag-#anon#ST[S32'__zero'|]
 // file vm/neko.h line 121
 struct anonymous;
 
-// tag-#anon#ST[S32'id'||U32'$pad0'||*{SYM#tag-_value#}$SYM#tag-_value#$'v'|]
+// tag-#anon#ST[S32'id'||U32'_pad0'||*{SYM#tag-_value#}_SYM#tag-_value#_'v'|]
 // file vm/neko.h line 124
-struct anonymous$3;
+struct anonymous_3;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$14;
+struct anonymous_14;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$19;
+struct anonymous_19;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$16;
+struct anonymous_16;
 
 // tag-#anon#ST[U32'l'||U32'h'|]
 // file vm/builtins.c line 645
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$18;
+union anonymous_18;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$21;
+union anonymous_21;
 
 // tag-#anon#UN[F64'd'||SYM#tag-#anon#ST[U32'l'||U32'h'|]#'i'|]
 // file vm/builtins.c line 643
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$22;
+union anonymous_22;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -644,19 +644,19 @@ static inline signed int icmp(signed int a, signed int b);
 static struct _value * init_path(const char *path);
 // jit_run
 // file vm/interp.c line 265
-static signed long int jit_run(struct _neko_vm *vm, struct anonymous$8 *acc);
+static signed long int jit_run(struct _neko_vm *vm, struct anonymous_8 *acc);
 // load_primitive
 // file vm/load.c line 199
 static void * load_primitive(const char *prim, signed int nargs, struct _value *path, struct _liblist **libs);
-// load_primitive::1::ptr$object
+// load_primitive::1::ptr_object
 //
-struct _value * ptr$object();
+struct _value * ptr_object();
 // loader_loadmodule
 // file vm/load.c line 371
 static struct _value * loader_loadmodule(struct _value *mname, struct _value *vthis);
-// loader_loadmodule::1::1::r$object
+// loader_loadmodule::1::1::r_object
 //
-signed int r$object(void *, void *, signed int);
+signed int r_object(void *, void *, signed int);
 // loader_loadprim
 // file vm/load.c line 337
 static struct _value * loader_loadprim(struct _value *prim, struct _value *nargs);
@@ -852,9 +852,9 @@ void neko_process_trap(struct _neko_vm *vm);
 // neko_read_module
 // file vm/neko_mod.h line 59
 struct _neko_module * neko_read_module(signed int (*r)(void *, void *, signed int), void *p, struct _value *loader);
-// neko_read_module::r$object
+// neko_read_module::r_object
 //
-signed int r$object(void *, void *, signed int);
+signed int r_object(void *, void *, signed int);
 // neko_select_file
 // file vm/load.c line 138
 struct _value * neko_select_file(struct _value *path, const char *file, const char *ext);
@@ -879,39 +879,39 @@ signed int neko_string_reader(void *p, void *buf, signed int size);
 // neko_thread_blocking
 // file vm/threads.c line 181
 void neko_thread_blocking(void (*f)(void *), void *p);
-// neko_thread_blocking::1::do_blocking$object
+// neko_thread_blocking::1::do_blocking_object
 //
-void do_blocking$object(void (*)(void *), void *);
-// neko_thread_blocking::1::end$object
+void do_blocking_object(void (*)(void *), void *);
+// neko_thread_blocking::1::end_object
 //
-signed int end$object();
-// neko_thread_blocking::1::start$object
+signed int end_object();
+// neko_thread_blocking::1::start_object
 //
-signed int start$object();
-// neko_thread_blocking::f$object
+signed int start_object();
+// neko_thread_blocking::f_object
 //
-void f$object(void *);
+void f_object(void *);
 // neko_thread_create
 // file vm/threads.c line 128
 signed int neko_thread_create(void (*init)(void *), void (*main)(void *), void *param, void **handle);
-// neko_thread_create::init$object
+// neko_thread_create::init_object
 //
-void init$object(void *);
-// neko_thread_create::main$object
+void init_object(void *);
+// neko_thread_create::main_object
 //
-void main$object(void *);
+void main_object(void *);
 // neko_thread_register
 // file vm/threads.c line 211
 signed int neko_thread_register(signed int t);
-// neko_thread_register::1::get_sb$object
+// neko_thread_register::1::get_sb_object
 //
-signed int get_sb$object(char (*)[64l]);
-// neko_thread_register::1::my_thread$object
+signed int get_sb_object(char (*)[64l]);
+// neko_thread_register::1::my_thread_object
 //
-signed int my_thread$object(char (*)[64l]);
-// neko_thread_register::1::unreg_my_thread$object
+signed int my_thread_object(char (*)[64l]);
+// neko_thread_register::1::unreg_my_thread_object
 //
-signed int unreg_my_thread$object();
+signed int unreg_my_thread_object();
 // neko_val_buffer
 // file vm/neko.h line 425
 void neko_val_buffer(struct _buffer *b, struct _value *v);
@@ -945,9 +945,9 @@ struct _value * neko_val_field_name(signed int id);
 // neko_val_gc
 // file vm/alloc.c line 348
 void neko_val_gc(struct _value *v, void (*f)(struct _value *));
-// neko_val_gc::f$object
+// neko_val_gc::f_object
 //
-void f$object(struct _value *);
+void f_object(struct _value *);
 // neko_val_hash
 // file vm/neko.h line 432
 signed int neko_val_hash(struct _value *v);
@@ -957,9 +957,9 @@ signed int neko_val_id(const char *name);
 // neko_val_iter_fields
 // file vm/others.c line 465
 void neko_val_iter_fields(struct _value *o, void (*f)(struct _value *, signed int, void *), void *p);
-// neko_val_iter_fields::f$object
+// neko_val_iter_fields::f_object
 //
-void f$object(struct _value *, signed int, void *);
+void f_object(struct _value *, signed int, void *);
 // neko_val_ocall0
 // file vm/neko.h line 408
 struct _value * neko_val_ocall0(struct _value *o, signed int f);
@@ -1005,9 +1005,9 @@ signed int neko_vm_jit(struct _neko_vm *vm, signed int enable_jit);
 // neko_vm_redirect
 // file vm/interp.c line 210
 void neko_vm_redirect(struct _neko_vm *vm, void (*print)(const char *, signed int, void *), void *param);
-// neko_vm_redirect::print$object
+// neko_vm_redirect::print_object
 //
-void print$object(const char *, signed int, void *);
+void print_object(const char *, signed int, void *);
 // neko_vm_select
 // file vm/neko_vm.h line 51
 void neko_vm_select(struct _neko_vm *vm);
@@ -1017,12 +1017,12 @@ void neko_vm_set_custom(struct _neko_vm *vm, struct anonymous *k, void *v);
 // neko_vm_set_stats
 // file vm/neko_vm.h line 56
 void neko_vm_set_stats(struct _neko_vm *vm, void (*fstats)(struct _neko_vm *, const char *, signed int), void (*pstats)(struct _neko_vm *, const char *, signed int));
-// neko_vm_set_stats::fstats$object
+// neko_vm_set_stats::fstats_object
 //
-void fstats$object(struct _neko_vm *, const char *, signed int);
-// neko_vm_set_stats::pstats$object
+void fstats_object(struct _neko_vm *, const char *, signed int);
+// neko_vm_set_stats::pstats_object
 //
-void pstats$object(struct _neko_vm *, const char *, signed int);
+void pstats_object(struct _neko_vm *, const char *, signed int);
 // neko_vm_trusted
 // file vm/interp.c line 145
 signed int neko_vm_trusted(struct _neko_vm *vm, signed int t);
@@ -1032,21 +1032,21 @@ static void null_warn_proc(char *msg, signed int arg);
 // open_module
 // file vm/load.c line 169
 static void open_module(struct _value *path, const char *mname, signed int (**r)(void *, void *, signed int), void **p);
-// open_module::r$object$object
+// open_module::r_object_object
 //
-signed int r$object$object(void *, void *, signed int);
+signed int r_object_object(void *, void *, signed int);
 // otable_copy
 // file vm/objtable.h line 80
 void otable_copy(struct _objtable *t, struct _objtable *target);
 // otable_find
 // file vm/objtable.h line 31
 static inline struct _value ** otable_find(struct _objtable *t, signed int id);
-// otable_find$link1
+// otable_find_link1
 // file vm/objtable.h line 31
-static inline struct _value ** otable_find$link1(struct _objtable *t$link1, signed int id$link1);
-// otable_find$link2
+static inline struct _value ** otable_find_link1(struct _objtable *t_link1, signed int id_link1);
+// otable_find_link2
 // file vm/objtable.h line 31
-static inline struct _value ** otable_find$link2(struct _objtable *t$link2, signed int id$link2);
+static inline struct _value ** otable_find_link2(struct _objtable *t_link2, signed int id_link2);
 // otable_get
 // file vm/objtable.h line 53
 static inline struct _value * otable_get(struct _objtable *t, signed int id);
@@ -1056,9 +1056,9 @@ static inline void otable_init(struct _objtable *t);
 // otable_iter
 // file vm/objtable.h line 81
 void otable_iter(struct _objtable *t, void (*f)(struct _value *, signed int, void *), void *p);
-// otable_iter::f$object
+// otable_iter::f_object
 //
-void f$object(struct _value *, signed int, void *);
+void f_object(struct _value *, signed int, void *);
 // otable_optimize
 // file vm/objtable.c line 53
 void otable_optimize(struct _objtable *t);
@@ -1094,28 +1094,28 @@ extern signed int pthread_key_create(unsigned int *, void (*)(void *));
 extern signed int pthread_key_delete(unsigned int);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$22 *);
+extern signed int pthread_mutex_destroy(union anonymous_22 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$22 *, const union anonymous$21 *);
+extern signed int pthread_mutex_init(union anonymous_22 *, const union anonymous_21 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$22 *);
+extern signed int pthread_mutex_lock(union anonymous_22 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$22 *);
+extern signed int pthread_mutex_trylock(union anonymous_22 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$22 *);
+extern signed int pthread_mutex_unlock(union anonymous_22 *);
 // pthread_mutexattr_destroy
 // file /usr/include/pthread.h line 812
-extern signed int pthread_mutexattr_destroy(union anonymous$21 *);
+extern signed int pthread_mutexattr_destroy(union anonymous_21 *);
 // pthread_mutexattr_init
 // file /usr/include/pthread.h line 808
-extern signed int pthread_mutexattr_init(union anonymous$21 *);
+extern signed int pthread_mutexattr_init(union anonymous_21 *);
 // pthread_mutexattr_settype
 // file /usr/include/pthread.h line 835
-extern signed int pthread_mutexattr_settype(union anonymous$21 *, signed int);
+extern signed int pthread_mutexattr_settype(union anonymous_21 *, signed int);
 // pthread_setspecific
 // file /usr/include/pthread.h line 1124
 extern signed int pthread_setspecific(unsigned int, const void *);
@@ -1125,27 +1125,27 @@ static struct _value * read_bytecode(struct _value *str, struct _value *pos, str
 // read_debug_infos
 // file vm/module.c line 244
 static void * read_debug_infos(signed int (*r)(void *, void *, signed int), void *p, char *tmp, struct _neko_module *m);
-// read_debug_infos::r$object
+// read_debug_infos::r_object
 //
-signed int r$object(void *, void *, signed int);
+signed int r_object(void *, void *, signed int);
 // read_long
 // file vm/module.c line 68
 static void read_long(signed int (*r)(void *, void *, signed int), void *p, unsigned int *i);
-// read_long::r$object
+// read_long::r_object
 //
-signed int r$object(void *, void *, signed int);
+signed int r_object(void *, void *, signed int);
 // read_short
 // file vm/module.c line 76
 static void read_short(signed int (*r)(void *, void *, signed int), void *p, unsigned short int *i);
-// read_short::r$object
+// read_short::r_object
 //
-signed int r$object(void *, void *, signed int);
+signed int r_object(void *, void *, signed int);
 // read_string
 // file vm/module.c line 108
 static signed int read_string(signed int (*r)(void *, void *, signed int), void *p, char *buf);
-// read_string::r$object
+// read_string::r_object
 //
-signed int r$object(void *, void *, signed int);
+signed int r_object(void *, void *, signed int);
 // readlink
 // file /usr/include/unistd.h line 809
 extern signed long int readlink(const char *, char *, unsigned long int);
@@ -1163,7 +1163,7 @@ static inline signed int scmp(const char *s1, signed int l1, const char *s2, sig
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$10 *);
+extern signed int sigemptyset(struct anonymous_10 *);
 // sort
 // file vm/stats.c line 138
 static struct _statinfos * sort(struct _statinfos *list);
@@ -1207,7 +1207,7 @@ static void val_buffer_rec(struct _buffer *b, struct _value *v, struct vlist *st
 // file vm/builtins.c line 583
 static struct _value * varargs_callback(struct _value **args, signed int nargs);
 
-struct anonymous$0
+struct anonymous_0
 {
   // cells
   struct hcell **cells;
@@ -1217,7 +1217,7 @@ struct anonymous$0
   signed int nitems;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // p
   char *p;
@@ -1253,7 +1253,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$22
+union anonymous_22
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1263,7 +1263,7 @@ union anonymous$22
   signed long int __align;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // init
   void (*init)(void *);
@@ -1272,10 +1272,10 @@ struct anonymous$23
   // param
   void *param;
   // lock
-  union anonymous$22 lock;
+  union anonymous_22 lock;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // prev
   void (*prev)(const char *, signed int, void *);
@@ -1287,7 +1287,7 @@ struct anonymous$24
   void *cur_param;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // _call_addr
   void *_call_addr;
@@ -1297,7 +1297,7 @@ struct anonymous$17
   unsigned int _arch;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // si_addr
   void *si_addr;
@@ -1305,32 +1305,32 @@ struct anonymous$15
   signed short int si_addr_lsb;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // t
-  enum anonymous$7 t;
+  enum anonymous_7 t;
   // f
   double f;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // t
-  enum anonymous$7 t;
+  enum anonymous_7 t;
   // i
   signed int i;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // t
-  enum anonymous$7 t;
+  enum anonymous_7 t;
   // nargs
   signed int nargs;
   // addr
@@ -1341,28 +1341,28 @@ struct anonymous$8
   void *module;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // t
-  enum anonymous$7 t;
+  enum anonymous_7 t;
   // c
   char c;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // t
-  enum anonymous$7 t;
+  enum anonymous_7 t;
   // kind
   struct anonymous *kind;
   // data
   void *data;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // t
-  enum anonymous$7 t;
+  enum anonymous_7 t;
   // ptr
   struct _value *ptr;
 };
@@ -1373,7 +1373,7 @@ struct anonymous
   signed int __zero;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // id
   signed int id;
@@ -1381,7 +1381,7 @@ struct anonymous$3
   struct _value *v;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // si_pid
   signed int si_pid;
@@ -1389,7 +1389,7 @@ struct anonymous$11
   unsigned int si_uid;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // si_pid
   signed int si_pid;
@@ -1411,7 +1411,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // si_pid
   signed int si_pid;
@@ -1421,7 +1421,7 @@ struct anonymous$13
   union sigval si_sigval;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // si_tid
   signed int si_tid;
@@ -1431,7 +1431,7 @@ struct anonymous$12
   union sigval si_sigval;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // si_band
   signed long int si_band;
@@ -1439,27 +1439,27 @@ struct anonymous$16
   signed int si_fd;
 };
 
-union anonymous$18
+union anonymous_18
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$11 _kill;
+  struct anonymous_11 _kill;
   // _timer
-  struct anonymous$12 _timer;
+  struct anonymous_12 _timer;
   // _rt
-  struct anonymous$13 _rt;
+  struct anonymous_13 _rt;
   // _sigchld
-  struct anonymous$14 _sigchld;
+  struct anonymous_14 _sigchld;
   // _sigfault
-  struct anonymous$15 _sigfault;
+  struct anonymous_15 _sigfault;
   // _sigpoll
-  struct anonymous$16 _sigpoll;
+  struct anonymous_16 _sigpoll;
   // _sigsys
-  struct anonymous$17 _sigsys;
+  struct anonymous_17 _sigsys;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // si_signo
   signed int si_signo;
@@ -1468,10 +1468,10 @@ struct anonymous$19
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$18 _sifields;
+  union anonymous_18 _sifields;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // l
   unsigned int l;
@@ -1479,15 +1479,15 @@ struct anonymous$1
   unsigned int h;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$19 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_19 *, void *);
 };
 
-union anonymous$21
+union anonymous_21
 {
   // __size
   char __size[4l];
@@ -1495,12 +1495,12 @@ union anonymous$21
   signed int __align;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // d
   double d;
   // i
-  struct anonymous$1 i;
+  struct anonymous_1 i;
 };
 
 struct _IO_FILE
@@ -1582,7 +1582,7 @@ struct __jmp_buf_tag
   // __mask_was_saved
   signed int __mask_was_saved;
   // __saved_mask
-  struct anonymous$10 __saved_mask;
+  struct anonymous_10 __saved_mask;
 };
 
 struct _buffer
@@ -1634,7 +1634,7 @@ struct _mt_local
 struct _mt_lock
 {
   // lock
-  union anonymous$22 lock;
+  union anonymous_22 lock;
 };
 
 struct _neko_debug
@@ -1724,7 +1724,7 @@ struct _objtable
   // count
   signed int count;
   // cells
-  struct anonymous$3 *cells;
+  struct anonymous_3 *cells;
 };
 
 struct _statinfos
@@ -1764,13 +1764,13 @@ struct _stringitem
 struct _value
 {
   // t
-  enum anonymous$7 t;
+  enum anonymous_7 t;
 };
 
 struct _vobject
 {
   // t
-  enum anonymous$7 t;
+  enum anonymous_7 t;
   // table
   struct _objtable table;
   // proto
@@ -1808,9 +1808,9 @@ struct rlimit
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$9 __sigaction_handler;
+  union anonymous_9 __sigaction_handler;
   // sa_mask
-  struct anonymous$10 sa_mask;
+  struct anonymous_10 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -1953,10 +1953,10 @@ static signed long int op_last = (signed long int)67;
 signed long int *callback_return = &op_last;
 // empty_array
 // file vm/alloc.c line 80
-static struct anonymous$4 empty_array = { .t=(enum anonymous$7)VAL_ARRAY, .ptr=(struct _value *)(void *)0 };
+static struct anonymous_4 empty_array = { .t=(enum anonymous_7)VAL_ARRAY, .ptr=(struct _value *)(void *)0 };
 // empty_string
 // file vm/alloc.c line 81
-static struct anonymous$5 empty_string = { .t=(enum anonymous$7)VAL_STRING, .c=(char)0 };
+static struct anonymous_5 empty_string = { .t=(enum anonymous_7)VAL_STRING, .c=(char)0 };
 // id_add
 // file vm/alloc.c line 91
 signed int id_add;
@@ -2097,13 +2097,13 @@ extern struct _IO_FILE *stderr;
 extern struct _IO_FILE *stdout;
 // t_false
 // file vm/alloc.c line 76
-static enum anonymous$7 t_false = (enum anonymous$7)VAL_BOOL;
+static enum anonymous_7 t_false = (enum anonymous_7)VAL_BOOL;
 // t_null
 // file vm/alloc.c line 74
-static enum anonymous$7 t_null = (enum anonymous$7)VAL_NULL;
+static enum anonymous_7 t_null = (enum anonymous_7)VAL_NULL;
 // t_true
 // file vm/alloc.c line 75
-static enum anonymous$7 t_true = (enum anonymous$7)VAL_BOOL;
+static enum anonymous_7 t_true = (enum anonymous_7)VAL_BOOL;
 // val_false
 // file vm/alloc.c line 79
 struct _value *val_false;
@@ -2127,8 +2127,8 @@ struct _value *val_true = (struct _value *)&t_true;
 // file vm/threads.c line 110
 static void * ThreadMain(void *_p)
 {
-  struct anonymous$23 *lp = (struct anonymous$23 *)_p;
-  struct anonymous$23 p = *lp;
+  struct anonymous_23 *lp = (struct anonymous_23 *)_p;
+  struct anonymous_23 p = *lp;
   p.init(p.param);
   pthread_mutex_unlock(&lp->lock);
   clean_c_stack(40, (void *)clean_c_stack);
@@ -2156,20 +2156,20 @@ void _neko_failure(struct _value *msg, const char *file, signed int line)
   if(!(fname >= fname2))
     fname = fname2;
 
-  signed int return_value_neko_val_id$1;
-  return_value_neko_val_id$1=neko_val_id("msg");
-  neko_alloc_field(o, return_value_neko_val_id$1, msg);
-  signed int return_value_neko_val_id$2;
-  return_value_neko_val_id$2=neko_val_id("file");
-  struct _value *return_value_neko_alloc_string$3;
-  return_value_neko_alloc_string$3=neko_alloc_string(fname != ((char *)NULL) ? fname + (signed long int)1 : file);
-  neko_alloc_field(o, return_value_neko_val_id$2, return_value_neko_alloc_string$3);
-  signed int return_value_neko_val_id$4;
-  return_value_neko_val_id$4=neko_val_id("line");
-  neko_alloc_field(o, return_value_neko_val_id$4, (struct _value *)(signed long int)((signed int)line << 1 | 1));
-  struct _value *return_value_neko_alloc_function$5;
-  return_value_neko_alloc_function$5=neko_alloc_function((void *)failure_to_string, (unsigned int)0, "failure_to_string");
-  neko_alloc_field(o, id_string, return_value_neko_alloc_function$5);
+  signed int return_value_neko_val_id_1;
+  return_value_neko_val_id_1=neko_val_id("msg");
+  neko_alloc_field(o, return_value_neko_val_id_1, msg);
+  signed int return_value_neko_val_id_2;
+  return_value_neko_val_id_2=neko_val_id("file");
+  struct _value *return_value_neko_alloc_string_3;
+  return_value_neko_alloc_string_3=neko_alloc_string(fname != ((char *)NULL) ? fname + (signed long int)1 : file);
+  neko_alloc_field(o, return_value_neko_val_id_2, return_value_neko_alloc_string_3);
+  signed int return_value_neko_val_id_4;
+  return_value_neko_val_id_4=neko_val_id("line");
+  neko_alloc_field(o, return_value_neko_val_id_4, (struct _value *)(signed long int)((signed int)line << 1 | 1));
+  struct _value *return_value_neko_alloc_function_5;
+  return_value_neko_alloc_function_5=neko_alloc_function((void *)failure_to_string, (unsigned int)0, "failure_to_string");
+  neko_alloc_field(o, id_string, return_value_neko_alloc_function_5);
   neko_val_throw(o);
 }
 
@@ -2192,16 +2192,16 @@ static void add_rec(struct hcell **cc, signed int size, struct hcell *c)
 // file vm/module.c line 224
 static void append_array(struct _value **arr, signed int pos, struct _value *v)
 {
-  signed int len = (signed int)*((enum anonymous$7 *)*arr) >> 4;
+  signed int len = (signed int)*((enum anonymous_7 *)*arr) >> 4;
   if(pos >= len)
   {
     struct _value *a2;
     a2=neko_alloc_array((unsigned int)((len * 3) / 2));
-    memcpy((void *)&((struct anonymous$4 *)a2)->ptr, (const void *)&((struct anonymous$4 *)*arr)->ptr, (unsigned long int)len * sizeof(struct _value *) /*8ul*/ );
+    memcpy((void *)&((struct anonymous_4 *)a2)->ptr, (const void *)&((struct anonymous_4 *)*arr)->ptr, (unsigned long int)len * sizeof(struct _value *) /*8ul*/ );
     *arr = a2;
   }
 
-  (&((struct anonymous$4 *)*arr)->ptr)[(signed long int)pos] = v;
+  (&((struct anonymous_4 *)*arr)->ptr)[(signed long int)pos] = v;
 }
 
 // apply1
@@ -2209,15 +2209,15 @@ static void append_array(struct _value **arr, signed int pos, struct _value *v)
 static struct _value * apply1(struct _value *p1)
 {
   struct _value *env;
-  void *return_value_neko_local_get$1;
-  return_value_neko_local_get$1=neko_local_get(neko_vm_context);
-  env = ((struct _neko_vm *)return_value_neko_local_get$1)->env;
-  struct _value **a = &((struct anonymous$4 *)env)->ptr + (signed long int)1;
-  signed int n = ((signed int)*((enum anonymous$7 *)env) >> 4) - 1;
+  void *return_value_neko_local_get_1;
+  return_value_neko_local_get_1=neko_local_get(neko_vm_context);
+  env = ((struct _neko_vm *)return_value_neko_local_get_1)->env;
+  struct _value **a = &((struct anonymous_4 *)env)->ptr + (signed long int)1;
+  signed int n = ((signed int)*((enum anonymous_7 *)env) >> 4) - 1;
   a[(signed long int)(n - 1)] = p1;
-  struct _value *return_value_neko_val_callN$2;
-  return_value_neko_val_callN$2=neko_val_callN(a[(signed long int)-1], a, n);
-  return return_value_neko_val_callN$2;
+  struct _value *return_value_neko_val_callN_2;
+  return_value_neko_val_callN_2=neko_val_callN(a[(signed long int)-1], a, n);
+  return return_value_neko_val_callN_2;
 }
 
 // apply2
@@ -2225,16 +2225,16 @@ static struct _value * apply1(struct _value *p1)
 static struct _value * apply2(struct _value *p1, struct _value *p2)
 {
   struct _value *env;
-  void *return_value_neko_local_get$1;
-  return_value_neko_local_get$1=neko_local_get(neko_vm_context);
-  env = ((struct _neko_vm *)return_value_neko_local_get$1)->env;
-  struct _value **a = &((struct anonymous$4 *)env)->ptr + (signed long int)1;
-  signed int n = ((signed int)*((enum anonymous$7 *)env) >> 4) - 1;
+  void *return_value_neko_local_get_1;
+  return_value_neko_local_get_1=neko_local_get(neko_vm_context);
+  env = ((struct _neko_vm *)return_value_neko_local_get_1)->env;
+  struct _value **a = &((struct anonymous_4 *)env)->ptr + (signed long int)1;
+  signed int n = ((signed int)*((enum anonymous_7 *)env) >> 4) - 1;
   a[(signed long int)(n - 2)] = p1;
   a[(signed long int)(n - 1)] = p2;
-  struct _value *return_value_neko_val_callN$2;
-  return_value_neko_val_callN$2=neko_val_callN(a[(signed long int)-1], a, n);
-  return return_value_neko_val_callN$2;
+  struct _value *return_value_neko_val_callN_2;
+  return_value_neko_val_callN_2=neko_val_callN(a[(signed long int)-1], a, n);
+  return return_value_neko_val_callN_2;
 }
 
 // apply3
@@ -2242,17 +2242,17 @@ static struct _value * apply2(struct _value *p1, struct _value *p2)
 static struct _value * apply3(struct _value *p1, struct _value *p2, struct _value *p3)
 {
   struct _value *env;
-  void *return_value_neko_local_get$1;
-  return_value_neko_local_get$1=neko_local_get(neko_vm_context);
-  env = ((struct _neko_vm *)return_value_neko_local_get$1)->env;
-  struct _value **a = &((struct anonymous$4 *)env)->ptr + (signed long int)1;
-  signed int n = ((signed int)*((enum anonymous$7 *)env) >> 4) - 1;
+  void *return_value_neko_local_get_1;
+  return_value_neko_local_get_1=neko_local_get(neko_vm_context);
+  env = ((struct _neko_vm *)return_value_neko_local_get_1)->env;
+  struct _value **a = &((struct anonymous_4 *)env)->ptr + (signed long int)1;
+  signed int n = ((signed int)*((enum anonymous_7 *)env) >> 4) - 1;
   a[(signed long int)(n - 3)] = p1;
   a[(signed long int)(n - 2)] = p2;
   a[(signed long int)(n - 1)] = p3;
-  struct _value *return_value_neko_val_callN$2;
-  return_value_neko_val_callN$2=neko_val_callN(a[(signed long int)-1], a, n);
-  return return_value_neko_val_callN$2;
+  struct _value *return_value_neko_val_callN_2;
+  return_value_neko_val_callN_2=neko_val_callN(a[(signed long int)-1], a, n);
+  return return_value_neko_val_callN_2;
 }
 
 // apply4
@@ -2260,18 +2260,18 @@ static struct _value * apply3(struct _value *p1, struct _value *p2, struct _valu
 static struct _value * apply4(struct _value *p1, struct _value *p2, struct _value *p3, struct _value *p4)
 {
   struct _value *env;
-  void *return_value_neko_local_get$1;
-  return_value_neko_local_get$1=neko_local_get(neko_vm_context);
-  env = ((struct _neko_vm *)return_value_neko_local_get$1)->env;
-  struct _value **a = &((struct anonymous$4 *)env)->ptr + (signed long int)1;
-  signed int n = ((signed int)*((enum anonymous$7 *)env) >> 4) - 1;
+  void *return_value_neko_local_get_1;
+  return_value_neko_local_get_1=neko_local_get(neko_vm_context);
+  env = ((struct _neko_vm *)return_value_neko_local_get_1)->env;
+  struct _value **a = &((struct anonymous_4 *)env)->ptr + (signed long int)1;
+  signed int n = ((signed int)*((enum anonymous_7 *)env) >> 4) - 1;
   a[(signed long int)(n - 4)] = p1;
   a[(signed long int)(n - 3)] = p2;
   a[(signed long int)(n - 2)] = p3;
   a[(signed long int)(n - 1)] = p4;
-  struct _value *return_value_neko_val_callN$2;
-  return_value_neko_val_callN$2=neko_val_callN(a[(signed long int)-1], a, n);
-  return return_value_neko_val_callN$2;
+  struct _value *return_value_neko_val_callN_2;
+  return_value_neko_val_callN_2=neko_val_callN(a[(signed long int)-1], a, n);
+  return return_value_neko_val_callN_2;
 }
 
 // apply5
@@ -2279,19 +2279,19 @@ static struct _value * apply4(struct _value *p1, struct _value *p2, struct _valu
 static struct _value * apply5(struct _value *p1, struct _value *p2, struct _value *p3, struct _value *p4, struct _value *p5)
 {
   struct _value *env;
-  void *return_value_neko_local_get$1;
-  return_value_neko_local_get$1=neko_local_get(neko_vm_context);
-  env = ((struct _neko_vm *)return_value_neko_local_get$1)->env;
-  struct _value **a = &((struct anonymous$4 *)env)->ptr + (signed long int)1;
-  signed int n = ((signed int)*((enum anonymous$7 *)env) >> 4) - 1;
+  void *return_value_neko_local_get_1;
+  return_value_neko_local_get_1=neko_local_get(neko_vm_context);
+  env = ((struct _neko_vm *)return_value_neko_local_get_1)->env;
+  struct _value **a = &((struct anonymous_4 *)env)->ptr + (signed long int)1;
+  signed int n = ((signed int)*((enum anonymous_7 *)env) >> 4) - 1;
   a[(signed long int)(n - 4)] = p1;
   a[(signed long int)(n - 3)] = p2;
   a[(signed long int)(n - 2)] = p3;
   a[(signed long int)(n - 1)] = p4;
   a[(signed long int)(n - 1)] = p5;
-  struct _value *return_value_neko_val_callN$2;
-  return_value_neko_val_callN$2=neko_val_callN(a[(signed long int)-1], a, n);
-  return return_value_neko_val_callN$2;
+  struct _value *return_value_neko_val_callN_2;
+  return_value_neko_val_callN_2=neko_val_callN(a[(signed long int)-1], a, n);
+  return return_value_neko_val_callN_2;
 }
 
 // bitcount
@@ -2312,16 +2312,16 @@ static void buffer_append_new(struct _buffer *b, const char *s, signed int len)
   struct _stringitem *it;
   for( ; b->totlen >= b->blen << 2; b->blen = b->blen << 1)
     ;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(len >= b->blen))
-    tmp_if_expr$1 = b->blen;
+    tmp_if_expr_1 = b->blen;
 
   else
-    tmp_if_expr$1 = len;
-  size = tmp_if_expr$1;
-  char *return_value_neko_alloc$2;
-  return_value_neko_alloc$2=neko_alloc((unsigned int)sizeof(struct _stringitem) /*24ul*/ );
-  it = (struct _stringitem *)return_value_neko_alloc$2;
+    tmp_if_expr_1 = len;
+  size = tmp_if_expr_1;
+  char *return_value_neko_alloc_2;
+  return_value_neko_alloc_2=neko_alloc((unsigned int)sizeof(struct _stringitem) /*24ul*/ );
+  it = (struct _stringitem *)return_value_neko_alloc_2;
   it->str=neko_alloc_private((unsigned int)size);
   memcpy((void *)it->str, (const void *)s, (unsigned long int)len);
   it->size = size;
@@ -2337,16 +2337,16 @@ static struct _value * builtin_ablit(struct _value *dst, struct _value *dp, stru
   signed int dpp;
   signed int spp;
   signed int ll;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)dst) == 0)
-    tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)dst) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)dst) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
@@ -2356,11 +2356,11 @@ static struct _value * builtin_ablit(struct _value *dst, struct _value *dp, stru
     else
     {
       if((1 & (signed int)src) == 0)
-        tmp_if_expr$2 = ((signed int)*((enum anonymous$7 *)src) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = ((signed int)*((enum anonymous_7 *)src) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         return (struct _value *)(void *)0;
 
       else
@@ -2377,21 +2377,21 @@ static struct _value * builtin_ablit(struct _value *dst, struct _value *dp, stru
             spp = (signed int)(signed long int)sp >> 1;
             ll = (signed int)(signed long int)l >> 1;
             if(!(dpp + ll >= 0) || !(ll + spp >= 0) || !(dpp >= 0) || !(ll >= 0) || !(spp >= 0))
-              tmp_if_expr$3 = (_Bool)1;
+              tmp_if_expr_3 = (_Bool)1;
 
             else
-              tmp_if_expr$3 = dpp + ll > (signed int)*((enum anonymous$7 *)dst) >> 4 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$3)
-              tmp_if_expr$4 = (_Bool)1;
+              tmp_if_expr_3 = dpp + ll > (signed int)*((enum anonymous_7 *)dst) >> 4 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_3)
+              tmp_if_expr_4 = (_Bool)1;
 
             else
-              tmp_if_expr$4 = spp + ll > (signed int)*((enum anonymous$7 *)src) >> 4 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$4)
+              tmp_if_expr_4 = spp + ll > (signed int)*((enum anonymous_7 *)src) >> 4 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_4)
               return (struct _value *)(void *)0;
 
             else
             {
-              memmove((void *)(&((struct anonymous$4 *)dst)->ptr + (signed long int)dpp), (const void *)(&((struct anonymous$4 *)src)->ptr + (signed long int)spp), (unsigned long int)ll * sizeof(struct _value *) /*8ul*/ );
+              memmove((void *)(&((struct anonymous_4 *)dst)->ptr + (signed long int)dpp), (const void *)(&((struct anonymous_4 *)src)->ptr + (signed long int)spp), (unsigned long int)ll * sizeof(struct _value *) /*8ul*/ );
               return val_null;
             }
           }
@@ -2406,48 +2406,48 @@ static struct _value * builtin_aconcat(struct _value *arrs)
   signed int len;
   signed int i;
   struct _value *all;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)arrs) == 0)
-    tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)arrs) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)arrs) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  signed int tmp_post$3;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  signed int tmp_post_3;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
   {
-    len = (signed int)*((enum anonymous$7 *)arrs) >> 4;
+    len = (signed int)*((enum anonymous_7 *)arrs) >> 4;
     i = 0;
     for( ; !(i >= len); i = i + 1)
     {
-      struct _value *a = (&((struct anonymous$4 *)arrs)->ptr)[(signed long int)i];
+      struct _value *a = (&((struct anonymous_4 *)arrs)->ptr)[(signed long int)i];
       if((1 & (signed int)a) == 0)
-        tmp_if_expr$2 = ((signed int)*((enum anonymous$7 *)a) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = ((signed int)*((enum anonymous_7 *)a) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         return (struct _value *)(void *)0;
 
-      tot = tot + ((signed int)*((enum anonymous$7 *)a) >> 4);
+      tot = tot + ((signed int)*((enum anonymous_7 *)a) >> 4);
     }
     all=neko_alloc_array((unsigned int)tot);
     tot = 0;
     i = 0;
     for( ; !(i >= len); i = i + 1)
     {
-      struct _value *builtin_aconcat$$1$$2$$1$$a = (&((struct anonymous$4 *)arrs)->ptr)[(signed long int)i];
+      struct _value *builtin_aconcat__1__2__1__a = (&((struct anonymous_4 *)arrs)->ptr)[(signed long int)i];
       signed int j;
-      signed int max = (signed int)*((enum anonymous$7 *)builtin_aconcat$$1$$2$$1$$a) >> 4;
+      signed int max = (signed int)*((enum anonymous_7 *)builtin_aconcat__1__2__1__a) >> 4;
       j = 0;
       for( ; !(j >= max); j = j + 1)
       {
-        tmp_post$3 = tot;
+        tmp_post_3 = tot;
         tot = tot + 1;
-        (&((struct anonymous$4 *)all)->ptr)[(signed long int)tmp_post$3] = (&((struct anonymous$4 *)builtin_aconcat$$1$$2$$1$$a)->ptr)[(signed long int)j];
+        (&((struct anonymous_4 *)all)->ptr)[(signed long int)tmp_post_3] = (&((struct anonymous_4 *)builtin_aconcat__1__2__1__a)->ptr)[(signed long int)j];
       }
     }
     return all;
@@ -2460,21 +2460,21 @@ static struct _value * builtin_acopy(struct _value *a)
 {
   signed int i;
   struct _value *a2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)a) == 0)
-    tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)a) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)a) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
   {
-    a2=neko_alloc_array((unsigned int)((signed int)*((enum anonymous$7 *)a) >> 4));
+    a2=neko_alloc_array((unsigned int)((signed int)*((enum anonymous_7 *)a) >> 4));
     i = 0;
-    for( ; !(i >= (signed int)*((enum anonymous$7 *)a) >> 4); i = i + 1)
-      (&((struct anonymous$4 *)a2)->ptr)[(signed long int)i] = (&((struct anonymous$4 *)a)->ptr)[(signed long int)i];
+    for( ; !(i >= (signed int)*((enum anonymous_7 *)a) >> 4); i = i + 1)
+      (&((struct anonymous_4 *)a2)->ptr)[(signed long int)i] = (&((struct anonymous_4 *)a)->ptr)[(signed long int)i];
     return a2;
   }
 }
@@ -2495,7 +2495,7 @@ static struct _value * builtin_amake(struct _value *size)
     a=neko_alloc_array((unsigned int)s);
     i = 0;
     for( ; !(i >= s); i = i + 1)
-      (&((struct anonymous$4 *)a)->ptr)[(signed long int)i] = val_null;
+      (&((struct anonymous_4 *)a)->ptr)[(signed long int)i] = val_null;
     return a;
   }
 }
@@ -2510,9 +2510,9 @@ static struct _value * builtin_apply(struct _value **args, signed int nargs)
   signed int i;
   nargs = nargs - 1;
   args = args + 1l;
-  _Bool tmp_if_expr$1;
-  struct _value *return_value_neko_val_callN$2;
-  signed int tmp_post$3;
+  _Bool tmp_if_expr_1;
+  struct _value *return_value_neko_val_callN_2;
+  signed int tmp_post_3;
   if(!(nargs >= 0))
     return (struct _value *)(void *)0;
 
@@ -2520,11 +2520,11 @@ static struct _value * builtin_apply(struct _value **args, signed int nargs)
   {
     f = args[(signed long int)-1];
     if((1 & (signed int)f) == 0)
-      tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)f) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)f) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       return (struct _value *)(void *)0;
 
     else
@@ -2533,11 +2533,11 @@ static struct _value * builtin_apply(struct _value **args, signed int nargs)
 
       else
       {
-        fargs = ((struct anonymous$8 *)f)->nargs;
+        fargs = ((struct anonymous_8 *)f)->nargs;
         if(fargs == -1 || fargs == nargs)
         {
-          return_value_neko_val_callN$2=neko_val_callN(f, args, nargs);
-          return return_value_neko_val_callN$2;
+          return_value_neko_val_callN_2=neko_val_callN(f, args, nargs);
+          return return_value_neko_val_callN_2;
         }
 
         else
@@ -2547,23 +2547,23 @@ static struct _value * builtin_apply(struct _value **args, signed int nargs)
           else
           {
             env=neko_alloc_array((unsigned int)(fargs + 1));
-            (&((struct anonymous$4 *)env)->ptr)[(signed long int)0] = f;
+            (&((struct anonymous_4 *)env)->ptr)[(signed long int)0] = f;
             i = 0;
             for( ; !(i >= nargs); i = i + 1)
-              (&((struct anonymous$4 *)env)->ptr)[(signed long int)(i + 1)] = args[(signed long int)i];
+              (&((struct anonymous_4 *)env)->ptr)[(signed long int)(i + 1)] = args[(signed long int)i];
             do
             {
-              tmp_post$3 = i;
+              tmp_post_3 = i;
               i = i + 1;
-              if(tmp_post$3 >= fargs)
+              if(tmp_post_3 >= fargs)
                 break;
 
-              (&((struct anonymous$4 *)env)->ptr)[(signed long int)i] = val_null;
+              (&((struct anonymous_4 *)env)->ptr)[(signed long int)i] = val_null;
             }
             while((_Bool)1);
-            struct _value *return_value_neko_alloc_apply$4;
-            return_value_neko_alloc_apply$4=neko_alloc_apply(fargs - nargs, env);
-            return return_value_neko_alloc_apply$4;
+            struct _value *return_value_neko_alloc_apply_4;
+            return_value_neko_alloc_apply_4=neko_alloc_apply(fargs - nargs, env);
+            return return_value_neko_alloc_apply_4;
           }
       }
   }
@@ -2577,7 +2577,7 @@ static struct _value * builtin_array(struct _value **args, signed int nargs)
   a=neko_alloc_array((unsigned int)nargs);
   signed int i = 0;
   for( ; !(i >= nargs); i = i + 1)
-    (&((struct anonymous$4 *)a)->ptr)[(signed long int)i] = args[(signed long int)i];
+    (&((struct anonymous_4 *)a)->ptr)[(signed long int)i] = args[(signed long int)i];
   return a;
 }
 
@@ -2585,17 +2585,17 @@ static struct _value * builtin_array(struct _value **args, signed int nargs)
 // file vm/builtins.c line 95
 static struct _value * builtin_asize(struct _value *a)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)a) == 0)
-    tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)a) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)a) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
-    return (struct _value *)(signed long int)((signed int)((signed int)*((enum anonymous$7 *)a) >> 4) << 1 | 1);
+    return (struct _value *)(signed long int)((signed int)((signed int)*((enum anonymous_7 *)a) >> 4) << 1 | 1);
 }
 
 // builtin_asub
@@ -2606,14 +2606,14 @@ static struct _value * builtin_asub(struct _value *a, struct _value *p, struct _
   signed int i;
   signed int pp;
   signed int ll;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)a) == 0)
-    tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)a) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)a) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
@@ -2629,11 +2629,11 @@ static struct _value * builtin_asub(struct _value *a, struct _value *p, struct _
         pp = (signed int)(signed long int)p >> 1;
         ll = (signed int)(signed long int)l >> 1;
         if(!(ll + pp >= 0) || !(ll >= 0) || !(pp >= 0))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = pp + ll > (signed int)*((enum anonymous$7 *)a) >> 4 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = pp + ll > (signed int)*((enum anonymous_7 *)a) >> 4 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           return (struct _value *)(void *)0;
 
         else
@@ -2641,7 +2641,7 @@ static struct _value * builtin_asub(struct _value *a, struct _value *p, struct _
           a2=neko_alloc_array((unsigned int)ll);
           i = 0;
           for( ; !(i >= ll); i = i + 1)
-            (&((struct anonymous$4 *)a2)->ptr)[(signed long int)i] = (&((struct anonymous$4 *)a)->ptr)[(signed long int)(pp + i)];
+            (&((struct anonymous_4 *)a2)->ptr)[(signed long int)i] = (&((struct anonymous_4 *)a)->ptr)[(signed long int)(pp + i)];
           return a2;
         }
       }
@@ -2654,23 +2654,23 @@ static struct _value * builtin_call(struct _value *f, struct _value *ctx, struct
   struct _value *old;
   struct _value *ret;
   struct _neko_vm *vm;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)args) == 0)
-    tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)args) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)args) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
   {
-    void *return_value_neko_local_get$2;
-    return_value_neko_local_get$2=neko_local_get(neko_vm_context);
-    vm = (struct _neko_vm *)return_value_neko_local_get$2;
+    void *return_value_neko_local_get_2;
+    return_value_neko_local_get_2=neko_local_get(neko_vm_context);
+    vm = (struct _neko_vm *)return_value_neko_local_get_2;
     old = vm->vthis;
     vm->vthis = ctx;
-    ret=neko_val_callN(f, &((struct anonymous$4 *)args)->ptr, (signed int)*((enum anonymous$7 *)args) >> 4);
+    ret=neko_val_callN(f, &((struct anonymous_4 *)args)->ptr, (signed int)*((enum anonymous_7 *)args) >> 4);
     vm->vthis = old;
     return ret;
   }
@@ -2680,11 +2680,11 @@ static struct _value * builtin_call(struct _value *f, struct _value *ctx, struct
 // file vm/builtins.c line 1197
 static struct _value * builtin_callstack()
 {
-  void *return_value_neko_local_get$1;
-  return_value_neko_local_get$1=neko_local_get(neko_vm_context);
-  struct _value *return_value_neko_call_stack$2;
-  return_value_neko_call_stack$2=neko_call_stack((struct _neko_vm *)return_value_neko_local_get$1);
-  return return_value_neko_call_stack$2;
+  void *return_value_neko_local_get_1;
+  return_value_neko_local_get_1=neko_local_get(neko_vm_context);
+  struct _value *return_value_neko_call_stack_2;
+  return_value_neko_call_stack_2=neko_call_stack((struct _neko_vm *)return_value_neko_local_get_1);
+  return return_value_neko_call_stack_2;
 }
 
 // builtin_closure
@@ -2694,37 +2694,37 @@ static struct _value * builtin_closure(struct _value **args, signed int nargs)
   struct _value *f;
   struct _value *env;
   signed int fargs;
-  struct _value *return_value_neko_alloc_string$1;
+  struct _value *return_value_neko_alloc_string_1;
   if(!(nargs >= 2))
   {
-    return_value_neko_alloc_string$1=neko_alloc_string("Invalid closure arguments number");
-    _neko_failure(return_value_neko_alloc_string$1, "vm/builtins.c", 535);
+    return_value_neko_alloc_string_1=neko_alloc_string("Invalid closure arguments number");
+    _neko_failure(return_value_neko_alloc_string_1, "vm/builtins.c", 535);
   }
 
   f = args[(signed long int)0];
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if((1 & (signed int)f) == 0)
-    tmp_if_expr$2 = ((signed int)*((enum anonymous$7 *)f) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = ((signed int)*((enum anonymous_7 *)f) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  struct _value *return_value_neko_alloc_string$3;
-  if(!tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  struct _value *return_value_neko_alloc_string_3;
+  if(!tmp_if_expr_2)
     return (struct _value *)(void *)0;
 
   else
   {
-    fargs = ((struct anonymous$8 *)f)->nargs;
+    fargs = ((struct anonymous_8 *)f)->nargs;
     if(!(fargs == -1) && !(fargs >= nargs + -2))
     {
-      return_value_neko_alloc_string$3=neko_alloc_string("Invalid closure arguments number");
-      _neko_failure(return_value_neko_alloc_string$3, "vm/builtins.c", 541);
+      return_value_neko_alloc_string_3=neko_alloc_string("Invalid closure arguments number");
+      _neko_failure(return_value_neko_alloc_string_3, "vm/builtins.c", 541);
     }
 
     env=neko_alloc_array((unsigned int)nargs);
-    memcpy((void *)&((struct anonymous$4 *)env)->ptr, (const void *)args, (unsigned long int)nargs * sizeof(struct _value *) /*8ul*/ );
+    memcpy((void *)&((struct anonymous_4 *)env)->ptr, (const void *)args, (unsigned long int)nargs * sizeof(struct _value *) /*8ul*/ );
     f=neko_alloc_function((void *)closure_callback, (unsigned int)-1, "closure_callback");
-    ((struct anonymous$8 *)f)->env = env;
+    ((struct anonymous_8 *)f)->env = env;
     return f;
   }
 }
@@ -2742,9 +2742,9 @@ static struct _value * builtin_compare(struct _value *a, struct _value *b)
 // file vm/builtins.c line 1189
 static struct _value * builtin_excstack()
 {
-  void *return_value_neko_local_get$1;
-  return_value_neko_local_get$1=neko_local_get(neko_vm_context);
-  return ((struct _neko_vm *)return_value_neko_local_get$1)->exc_stack;
+  void *return_value_neko_local_get_1;
+  return_value_neko_local_get_1=neko_local_get(neko_vm_context);
+  return ((struct _neko_vm *)return_value_neko_local_get_1)->exc_stack;
 }
 
 // builtin_fasthash
@@ -2753,18 +2753,18 @@ static struct _value * builtin_fasthash(struct _value *f)
 {
   struct _value *acc = (struct _value *)(signed long int)((signed int)0 << 1 | 1);
   unsigned char *name;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)f) == 0)
-    tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)f) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)f) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
   {
-    name = (unsigned char *)&((struct anonymous$5 *)f)->c;
+    name = (unsigned char *)&((struct anonymous_5 *)f)->c;
     for( ; !(*name == 0); name = name + 1l)
       acc = (struct _value *)(signed long int)((signed int)(223 * ((signed int)(signed long int)acc >> 1) + (signed int)*name) << 1 | 1);
     return acc;
@@ -2780,9 +2780,9 @@ static struct _value * builtin_field(struct _value *f)
 
   else
   {
-    struct _value *return_value_neko_val_field_name$1;
-    return_value_neko_val_field_name$1=neko_val_field_name((signed int)(signed long int)f >> 1);
-    return return_value_neko_val_field_name$1;
+    struct _value *return_value_neko_val_field_name_1;
+    return_value_neko_val_field_name_1=neko_val_field_name((signed int)(signed long int)f >> 1);
+    return return_value_neko_val_field_name_1;
   }
 }
 
@@ -2790,62 +2790,62 @@ static struct _value * builtin_field(struct _value *f)
 // file vm/builtins.c line 732
 static struct _value * builtin_float(struct _value *f)
 {
-  struct _value *tmp_if_expr$3;
-  struct _value *return_value_neko_alloc_float$2;
+  struct _value *tmp_if_expr_3;
+  struct _value *return_value_neko_alloc_float_2;
   if((1 & (signed int)f) == 0)
   {
-    if((15 & (signed int)*((enum anonymous$7 *)f)) == VAL_STRING)
+    if((15 & (signed int)*((enum anonymous_7 *)f)) == VAL_STRING)
     {
-      char *c = &((struct anonymous$5 *)f)->c;
+      char *c = &((struct anonymous_5 *)f)->c;
       char *end;
-      double builtin_float$$1$$1$$f;
-      double return_value_strtod$1;
-      return_value_strtod$1=strtod(c, &end);
-      builtin_float$$1$$1$$f = (double)return_value_strtod$1;
+      double builtin_float__1__1__f;
+      double return_value_strtod_1;
+      return_value_strtod_1=strtod(c, &end);
+      builtin_float__1__1__f = (double)return_value_strtod_1;
       if(c == end)
-        tmp_if_expr$3 = val_null;
+        tmp_if_expr_3 = val_null;
 
       else
       {
-        return_value_neko_alloc_float$2=neko_alloc_float(builtin_float$$1$$1$$f);
-        tmp_if_expr$3 = return_value_neko_alloc_float$2;
+        return_value_neko_alloc_float_2=neko_alloc_float(builtin_float__1__1__f);
+        tmp_if_expr_3 = return_value_neko_alloc_float_2;
       }
-      return tmp_if_expr$3;
+      return tmp_if_expr_3;
     }
 
   }
 
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_7;
   if(!((1 & (signed int)f) == 0))
-    tmp_if_expr$7 = (_Bool)1;
+    tmp_if_expr_7 = (_Bool)1;
 
   else
-    tmp_if_expr$7 = (signed int)*((enum anonymous$7 *)f) == VAL_FLOAT ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$8 = (_Bool)1;
+    tmp_if_expr_7 = (signed int)*((enum anonymous_7 *)f) == VAL_FLOAT ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_8 = (_Bool)1;
 
   else
-    tmp_if_expr$8 = (signed int)*((enum anonymous$7 *)f) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
-  double tmp_if_expr$5;
-  double tmp_if_expr$4;
-  struct _value *return_value_neko_alloc_float$6;
-  if(tmp_if_expr$8)
+    tmp_if_expr_8 = (signed int)*((enum anonymous_7 *)f) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
+  double tmp_if_expr_5;
+  double tmp_if_expr_4;
+  struct _value *return_value_neko_alloc_float_6;
+  if(tmp_if_expr_8)
   {
     if(!((1 & (signed int)f) == 0))
-      tmp_if_expr$5 = (double)((signed int)(signed long int)f >> 1);
+      tmp_if_expr_5 = (double)((signed int)(signed long int)f >> 1);
 
     else
     {
-      if((signed int)*((enum anonymous$7 *)f) == VAL_FLOAT)
-        tmp_if_expr$4 = ((struct anonymous$25 *)f)->f;
+      if((signed int)*((enum anonymous_7 *)f) == VAL_FLOAT)
+        tmp_if_expr_4 = ((struct anonymous_25 *)f)->f;
 
       else
-        tmp_if_expr$4 = (double)((struct anonymous$26 *)f)->i;
-      tmp_if_expr$5 = tmp_if_expr$4;
+        tmp_if_expr_4 = (double)((struct anonymous_26 *)f)->i;
+      tmp_if_expr_5 = tmp_if_expr_4;
     }
-    return_value_neko_alloc_float$6=neko_alloc_float(tmp_if_expr$5);
-    return return_value_neko_alloc_float$6;
+    return_value_neko_alloc_float_6=neko_alloc_float(tmp_if_expr_5);
+    return return_value_neko_alloc_float_6;
   }
 
   else
@@ -2856,15 +2856,15 @@ static struct _value * builtin_float(struct _value *f)
 // file vm/builtins.c line 749
 static struct _value * builtin_getkind(struct _value *v)
 {
-  struct _value *return_value_neko_alloc_abstract$1;
-  _Bool tmp_if_expr$2;
+  struct _value *return_value_neko_alloc_abstract_1;
+  _Bool tmp_if_expr_2;
   if((1 & (signed int)v) == 0)
   {
-    if(!((signed int)*((enum anonymous$7 *)v) == VAL_INT32))
+    if(!((signed int)*((enum anonymous_7 *)v) == VAL_INT32))
       goto __CPROVER_DUMP_L1;
 
-    return_value_neko_alloc_abstract$1=neko_alloc_abstract(neko_k_kind, (void *)k_old_int32);
-    return return_value_neko_alloc_abstract$1;
+    return_value_neko_alloc_abstract_1=neko_alloc_abstract(neko_k_kind, (void *)k_old_int32);
+    return return_value_neko_alloc_abstract_1;
   }
 
   else
@@ -2873,18 +2873,18 @@ static struct _value * builtin_getkind(struct _value *v)
   __CPROVER_DUMP_L1:
     ;
     if((1 & (signed int)v) == 0)
-      tmp_if_expr$2 = (signed int)*((enum anonymous$7 *)v) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)*((enum anonymous_7 *)v) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       return (struct _value *)(void *)0;
 
     else
     {
-      struct _value *return_value_neko_alloc_abstract$3;
-      return_value_neko_alloc_abstract$3=neko_alloc_abstract(neko_k_kind, (void *)((struct anonymous$6 *)v)->kind);
-      return return_value_neko_alloc_abstract$3;
+      struct _value *return_value_neko_alloc_abstract_3;
+      return_value_neko_alloc_abstract_3=neko_alloc_abstract(neko_k_kind, (void *)((struct anonymous_6 *)v)->kind);
+      return return_value_neko_alloc_abstract_3;
     }
   }
 }
@@ -2893,27 +2893,27 @@ static struct _value * builtin_getkind(struct _value *v)
 // file vm/builtins.c line 995
 static struct _value * builtin_hadd(struct _value *vh, struct _value *key, struct _value *val)
 {
-  struct anonymous$0 *h;
+  struct anonymous_0 *h;
   struct hcell *c;
   signed int hkey;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)vh) == 0)
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)vh) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)vh) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = ((struct anonymous$6 *)vh)->kind == neko_k_hash ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = ((struct anonymous_6 *)vh)->kind == neko_k_hash ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(!tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(!tmp_if_expr_2)
     return (struct _value *)(void *)0;
 
   else
   {
-    h = (struct anonymous$0 *)((struct anonymous$6 *)vh)->data;
+    h = (struct anonymous_0 *)((struct anonymous_6 *)vh)->data;
     hkey=neko_val_hash(key);
     if(!(hkey >= 0))
       return (struct _value *)(void *)0;
@@ -2923,9 +2923,9 @@ static struct _value * builtin_hadd(struct _value *vh, struct _value *key, struc
       if(h->nitems >= h->ncells << 1)
         builtin_hresize(vh, (struct _value *)(signed long int)((signed int)(h->ncells << 1) << 1 | 1));
 
-      char *return_value_neko_alloc$3;
-      return_value_neko_alloc$3=neko_alloc((unsigned int)sizeof(struct hcell) /*32ul*/ );
-      c = (struct hcell *)return_value_neko_alloc$3;
+      char *return_value_neko_alloc_3;
+      return_value_neko_alloc_3=neko_alloc((unsigned int)sizeof(struct hcell) /*32ul*/ );
+      c = (struct hcell *)return_value_neko_alloc_3;
       c->hkey = hkey;
       c->key = key;
       c->val = val;
@@ -2942,20 +2942,20 @@ static struct _value * builtin_hadd(struct _value *vh, struct _value *key, struc
 // file vm/builtins.c line 413
 static struct _value * builtin_hash(struct _value *f)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)f) == 0)
-    tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)f) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)f) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
   {
-    signed int return_value_neko_val_id$2;
-    return_value_neko_val_id$2=neko_val_id(&((struct anonymous$5 *)f)->c);
-    return (struct _value *)(signed long int)((signed int)return_value_neko_val_id$2 << 1 | 1);
+    signed int return_value_neko_val_id_2;
+    return_value_neko_val_id_2=neko_val_id(&((struct anonymous_5 *)f)->c);
+    return (struct _value *)(signed long int)((signed int)return_value_neko_val_id_2 << 1 | 1);
   }
 }
 
@@ -2963,56 +2963,56 @@ static struct _value * builtin_hash(struct _value *f)
 // file vm/builtins.c line 1042
 static struct _value * builtin_hcount(struct _value *vh)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)vh) == 0)
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)vh) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)vh) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = ((struct anonymous$6 *)vh)->kind == neko_k_hash ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = ((struct anonymous_6 *)vh)->kind == neko_k_hash ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(!tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(!tmp_if_expr_2)
     return (struct _value *)(void *)0;
 
   else
-    return (struct _value *)(signed long int)((signed int)((struct anonymous$0 *)((struct anonymous$6 *)vh)->data)->nitems << 1 | 1);
+    return (struct _value *)(signed long int)((signed int)((struct anonymous_0 *)((struct anonymous_6 *)vh)->data)->nitems << 1 | 1);
 }
 
 // builtin_hget
 // file vm/builtins.c line 838
 static struct _value * builtin_hget(struct _value *vh, struct _value *key, struct _value *cmp)
 {
-  struct anonymous$0 *h;
+  struct anonymous_0 *h;
   struct hcell *c;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   if(!(cmp == val_null))
   {
     if((1 & (signed int)cmp) == 0)
-      tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)cmp) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)cmp) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      if(!(((struct anonymous$8 *)cmp)->nargs == 2))
-        tmp_if_expr$2 = ((struct anonymous$8 *)cmp)->nargs != -1 ? (_Bool)1 : (_Bool)0;
+      if(!(((struct anonymous_8 *)cmp)->nargs == 2))
+        tmp_if_expr_2 = ((struct anonymous_8 *)cmp)->nargs != -1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$3)
+    if(!tmp_if_expr_3)
       goto __CPROVER_DUMP_L7;
 
     return (struct _value *)(void *)0;
@@ -3024,30 +3024,30 @@ static struct _value * builtin_hget(struct _value *vh, struct _value *key, struc
   __CPROVER_DUMP_L7:
     ;
     if((1 & (signed int)vh) == 0)
-      tmp_if_expr$4 = (signed int)*((enum anonymous$7 *)vh) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (signed int)*((enum anonymous_7 *)vh) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = ((struct anonymous$6 *)vh)->kind == neko_k_hash ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = ((struct anonymous_6 *)vh)->kind == neko_k_hash ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(!tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(!tmp_if_expr_5)
       return (struct _value *)(void *)0;
 
     else
     {
-      h = (struct anonymous$0 *)((struct anonymous$6 *)vh)->data;
-      signed int return_value_neko_val_hash$6;
-      return_value_neko_val_hash$6=neko_val_hash(key);
-      c = h->cells[(signed long int)(return_value_neko_val_hash$6 % h->ncells)];
+      h = (struct anonymous_0 *)((struct anonymous_6 *)vh)->data;
+      signed int return_value_neko_val_hash_6;
+      return_value_neko_val_hash_6=neko_val_hash(key);
+      c = h->cells[(signed long int)(return_value_neko_val_hash_6 % h->ncells)];
       if(cmp == val_null)
         while(!(c == ((struct hcell *)NULL)))
         {
-          signed int return_value_neko_val_compare$7;
-          return_value_neko_val_compare$7=neko_val_compare(key, c->key);
-          if(return_value_neko_val_compare$7 == 0)
+          signed int return_value_neko_val_compare_7;
+          return_value_neko_val_compare_7=neko_val_compare(key, c->key);
+          if(return_value_neko_val_compare_7 == 0)
             return c->val;
 
           c = c->next;
@@ -3056,9 +3056,9 @@ static struct _value * builtin_hget(struct _value *vh, struct _value *key, struc
       else
         while(!(c == ((struct hcell *)NULL)))
         {
-          struct _value *return_value_neko_val_call2$8;
-          return_value_neko_val_call2$8=neko_val_call2(cmp, key, c->key);
-          if(return_value_neko_val_call2$8 == (struct _value *)1l)
+          struct _value *return_value_neko_val_call2_8;
+          return_value_neko_val_call2_8=neko_val_call2(cmp, key, c->key);
+          if(return_value_neko_val_call2_8 == (struct _value *)1l)
             return c->val;
 
           c = c->next;
@@ -3074,50 +3074,50 @@ static struct _value * builtin_hiter(struct _value *vh, struct _value *f)
 {
   signed int i;
   struct hcell *c;
-  struct anonymous$0 *h;
-  _Bool tmp_if_expr$1;
+  struct anonymous_0 *h;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)f) == 0)
-    tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)f) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)f) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  if(!tmp_if_expr$1)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  if(!tmp_if_expr_1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    if(!(((struct anonymous$8 *)f)->nargs == 2))
-      tmp_if_expr$2 = ((struct anonymous$8 *)f)->nargs != -1 ? (_Bool)1 : (_Bool)0;
+    if(!(((struct anonymous_8 *)f)->nargs == 2))
+      tmp_if_expr_2 = ((struct anonymous_8 *)f)->nargs != -1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$3)
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_3)
     return (struct _value *)(void *)0;
 
   else
   {
     if((1 & (signed int)vh) == 0)
-      tmp_if_expr$4 = (signed int)*((enum anonymous$7 *)vh) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (signed int)*((enum anonymous_7 *)vh) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = ((struct anonymous$6 *)vh)->kind == neko_k_hash ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = ((struct anonymous_6 *)vh)->kind == neko_k_hash ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(!tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(!tmp_if_expr_5)
       return (struct _value *)(void *)0;
 
     else
     {
-      h = (struct anonymous$0 *)((struct anonymous$6 *)vh)->data;
+      h = (struct anonymous_0 *)((struct anonymous_6 *)vh)->data;
       i = 0;
       for( ; !(i >= h->ncells); i = i + 1)
       {
@@ -3134,42 +3134,42 @@ static struct _value * builtin_hiter(struct _value *vh, struct _value *f)
 // file vm/builtins.c line 771
 static struct _value * builtin_hkey(struct _value *v)
 {
-  signed int return_value_neko_val_hash$1;
-  return_value_neko_val_hash$1=neko_val_hash(v);
-  return (struct _value *)(signed long int)((signed int)return_value_neko_val_hash$1 << 1 | 1);
+  signed int return_value_neko_val_hash_1;
+  return_value_neko_val_hash_1=neko_val_hash(v);
+  return (struct _value *)(signed long int)((signed int)return_value_neko_val_hash_1 << 1 | 1);
 }
 
 // builtin_hmem
 // file vm/builtins.c line 870
 static struct _value * builtin_hmem(struct _value *vh, struct _value *key, struct _value *cmp)
 {
-  struct anonymous$0 *h;
+  struct anonymous_0 *h;
   struct hcell *c;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   if(!(cmp == val_null))
   {
     if((1 & (signed int)cmp) == 0)
-      tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)cmp) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)cmp) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      if(!(((struct anonymous$8 *)cmp)->nargs == 2))
-        tmp_if_expr$2 = ((struct anonymous$8 *)cmp)->nargs != -1 ? (_Bool)1 : (_Bool)0;
+      if(!(((struct anonymous_8 *)cmp)->nargs == 2))
+        tmp_if_expr_2 = ((struct anonymous_8 *)cmp)->nargs != -1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$3)
+    if(!tmp_if_expr_3)
       goto __CPROVER_DUMP_L7;
 
     return (struct _value *)(void *)0;
@@ -3181,30 +3181,30 @@ static struct _value * builtin_hmem(struct _value *vh, struct _value *key, struc
   __CPROVER_DUMP_L7:
     ;
     if((1 & (signed int)vh) == 0)
-      tmp_if_expr$4 = (signed int)*((enum anonymous$7 *)vh) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (signed int)*((enum anonymous_7 *)vh) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = ((struct anonymous$6 *)vh)->kind == neko_k_hash ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = ((struct anonymous_6 *)vh)->kind == neko_k_hash ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(!tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(!tmp_if_expr_5)
       return (struct _value *)(void *)0;
 
     else
     {
-      h = (struct anonymous$0 *)((struct anonymous$6 *)vh)->data;
-      signed int return_value_neko_val_hash$6;
-      return_value_neko_val_hash$6=neko_val_hash(key);
-      c = h->cells[(signed long int)(return_value_neko_val_hash$6 % h->ncells)];
+      h = (struct anonymous_0 *)((struct anonymous_6 *)vh)->data;
+      signed int return_value_neko_val_hash_6;
+      return_value_neko_val_hash_6=neko_val_hash(key);
+      c = h->cells[(signed long int)(return_value_neko_val_hash_6 % h->ncells)];
       if(cmp == val_null)
         while(!(c == ((struct hcell *)NULL)))
         {
-          signed int return_value_neko_val_compare$7;
-          return_value_neko_val_compare$7=neko_val_compare(key, c->key);
-          if(return_value_neko_val_compare$7 == 0)
+          signed int return_value_neko_val_compare_7;
+          return_value_neko_val_compare_7=neko_val_compare(key, c->key);
+          if(return_value_neko_val_compare_7 == 0)
             return val_true;
 
           c = c->next;
@@ -3213,9 +3213,9 @@ static struct _value * builtin_hmem(struct _value *vh, struct _value *key, struc
       else
         while(!(c == ((struct hcell *)NULL)))
         {
-          struct _value *return_value_neko_val_call2$8;
-          return_value_neko_val_call2$8=neko_val_call2(cmp, key, c->key);
-          if(return_value_neko_val_call2$8 == (struct _value *)1l)
+          struct _value *return_value_neko_val_call2_8;
+          return_value_neko_val_call2_8=neko_val_call2(cmp, key, c->key);
+          if(return_value_neko_val_call2_8 == (struct _value *)1l)
             return val_true;
 
           c = c->next;
@@ -3229,30 +3229,30 @@ static struct _value * builtin_hmem(struct _value *vh, struct _value *key, struc
 // file vm/builtins.c line 781
 static struct _value * builtin_hnew(struct _value *size)
 {
-  struct anonymous$0 *h;
+  struct anonymous_0 *h;
   signed int i;
   if((1 & (signed int)size) == 0)
     return (struct _value *)(void *)0;
 
   else
   {
-    char *return_value_neko_alloc$1;
-    return_value_neko_alloc$1=neko_alloc((unsigned int)sizeof(struct anonymous$0) /*16ul*/ );
-    h = (struct anonymous$0 *)return_value_neko_alloc$1;
+    char *return_value_neko_alloc_1;
+    return_value_neko_alloc_1=neko_alloc((unsigned int)sizeof(struct anonymous_0) /*16ul*/ );
+    h = (struct anonymous_0 *)return_value_neko_alloc_1;
     h->nitems = 0;
     h->ncells = (signed int)(signed long int)size >> 1;
     if(!(h->ncells >= 1))
       h->ncells = 7;
 
-    char *return_value_neko_alloc$2;
-    return_value_neko_alloc$2=neko_alloc((unsigned int)(sizeof(struct hcell *) /*8ul*/  * (unsigned long int)h->ncells));
-    h->cells = (struct hcell **)return_value_neko_alloc$2;
+    char *return_value_neko_alloc_2;
+    return_value_neko_alloc_2=neko_alloc((unsigned int)(sizeof(struct hcell *) /*8ul*/  * (unsigned long int)h->ncells));
+    h->cells = (struct hcell **)return_value_neko_alloc_2;
     i = 0;
     for( ; !(i >= h->ncells); i = i + 1)
       h->cells[(signed long int)i] = (struct hcell *)(void *)0;
-    struct _value *return_value_neko_alloc_abstract$3;
-    return_value_neko_alloc_abstract$3=neko_alloc_abstract(neko_k_hash, (void *)h);
-    return return_value_neko_alloc_abstract$3;
+    struct _value *return_value_neko_alloc_abstract_3;
+    return_value_neko_alloc_abstract_3=neko_alloc_abstract(neko_k_hash, (void *)h);
+    return return_value_neko_alloc_abstract_3;
   }
 }
 
@@ -3260,35 +3260,35 @@ static struct _value * builtin_hnew(struct _value *size)
 // file vm/builtins.c line 902
 static struct _value * builtin_hremove(struct _value *vh, struct _value *key, struct _value *cmp)
 {
-  struct anonymous$0 *h;
+  struct anonymous_0 *h;
   struct hcell *c;
   struct hcell *prev = (struct hcell *)(void *)0;
   signed int hkey;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   if(!(cmp == val_null))
   {
     if((1 & (signed int)cmp) == 0)
-      tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)cmp) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)cmp) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      if(!(((struct anonymous$8 *)cmp)->nargs == 2))
-        tmp_if_expr$2 = ((struct anonymous$8 *)cmp)->nargs != -1 ? (_Bool)1 : (_Bool)0;
+      if(!(((struct anonymous_8 *)cmp)->nargs == 2))
+        tmp_if_expr_2 = ((struct anonymous_8 *)cmp)->nargs != -1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$3)
+    if(!tmp_if_expr_3)
       goto __CPROVER_DUMP_L7;
 
     return (struct _value *)(void *)0;
@@ -3300,31 +3300,31 @@ static struct _value * builtin_hremove(struct _value *vh, struct _value *key, st
   __CPROVER_DUMP_L7:
     ;
     if((1 & (signed int)vh) == 0)
-      tmp_if_expr$4 = (signed int)*((enum anonymous$7 *)vh) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (signed int)*((enum anonymous_7 *)vh) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = ((struct anonymous$6 *)vh)->kind == neko_k_hash ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = ((struct anonymous_6 *)vh)->kind == neko_k_hash ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(!tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(!tmp_if_expr_5)
       return (struct _value *)(void *)0;
 
     else
     {
-      h = (struct anonymous$0 *)((struct anonymous$6 *)vh)->data;
-      signed int return_value_neko_val_hash$6;
-      return_value_neko_val_hash$6=neko_val_hash(key);
-      hkey = return_value_neko_val_hash$6 % h->ncells;
+      h = (struct anonymous_0 *)((struct anonymous_6 *)vh)->data;
+      signed int return_value_neko_val_hash_6;
+      return_value_neko_val_hash_6=neko_val_hash(key);
+      hkey = return_value_neko_val_hash_6 % h->ncells;
       c = h->cells[(signed long int)hkey];
       if(cmp == val_null)
         while(!(c == ((struct hcell *)NULL)))
         {
-          signed int return_value_neko_val_compare$7;
-          return_value_neko_val_compare$7=neko_val_compare(key, c->key);
-          if(return_value_neko_val_compare$7 == 0)
+          signed int return_value_neko_val_compare_7;
+          return_value_neko_val_compare_7=neko_val_compare(key, c->key);
+          if(return_value_neko_val_compare_7 == 0)
           {
             if(prev == ((struct hcell *)NULL))
               h->cells[(signed long int)hkey] = c->next;
@@ -3342,9 +3342,9 @@ static struct _value * builtin_hremove(struct _value *vh, struct _value *key, st
       else
         while(!(c == ((struct hcell *)NULL)))
         {
-          struct _value *return_value_neko_val_call2$8;
-          return_value_neko_val_call2$8=neko_val_call2(cmp, key, c->key);
-          if(return_value_neko_val_call2$8 == (struct _value *)1l)
+          struct _value *return_value_neko_val_call2_8;
+          return_value_neko_val_call2_8=neko_val_call2(cmp, key, c->key);
+          if(return_value_neko_val_call2_8 == (struct _value *)1l)
           {
             if(prev == ((struct hcell *)NULL))
               h->cells[(signed long int)hkey] = c->next;
@@ -3367,23 +3367,23 @@ static struct _value * builtin_hremove(struct _value *vh, struct _value *key, st
 // file vm/builtins.c line 810
 static struct _value * builtin_hresize(struct _value *vh, struct _value *size)
 {
-  struct anonymous$0 *h;
+  struct anonymous_0 *h;
   struct hcell **cc;
   signed int nsize;
   signed int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)vh) == 0)
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)vh) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)vh) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = ((struct anonymous$6 *)vh)->kind == neko_k_hash ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = ((struct anonymous_6 *)vh)->kind == neko_k_hash ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(!tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(!tmp_if_expr_2)
     return (struct _value *)(void *)0;
 
   else
@@ -3392,14 +3392,14 @@ static struct _value * builtin_hresize(struct _value *vh, struct _value *size)
 
     else
     {
-      h = (struct anonymous$0 *)((struct anonymous$6 *)vh)->data;
+      h = (struct anonymous_0 *)((struct anonymous_6 *)vh)->data;
       nsize = (signed int)(signed long int)size >> 1;
       if(!(nsize >= 1))
         nsize = 7;
 
-      char *return_value_neko_alloc$3;
-      return_value_neko_alloc$3=neko_alloc((unsigned int)(sizeof(struct hcell *) /*8ul*/  * (unsigned long int)nsize));
-      cc = (struct hcell **)return_value_neko_alloc$3;
+      char *return_value_neko_alloc_3;
+      return_value_neko_alloc_3=neko_alloc((unsigned int)(sizeof(struct hcell *) /*8ul*/  * (unsigned long int)nsize));
+      cc = (struct hcell **)return_value_neko_alloc_3;
       memset((void *)cc, 0, sizeof(struct hcell *) /*8ul*/  * (unsigned long int)nsize);
       i = 0;
       for( ; !(i >= h->ncells); i = i + 1)
@@ -3414,34 +3414,34 @@ static struct _value * builtin_hresize(struct _value *vh, struct _value *size)
 // file vm/builtins.c line 949
 static struct _value * builtin_hset(struct _value *vh, struct _value *key, struct _value *val, struct _value *cmp)
 {
-  struct anonymous$0 *h;
+  struct anonymous_0 *h;
   struct hcell *c;
   signed int hkey;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   if(!(cmp == val_null))
   {
     if((1 & (signed int)cmp) == 0)
-      tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)cmp) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)cmp) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      if(!(((struct anonymous$8 *)cmp)->nargs == 2))
-        tmp_if_expr$2 = ((struct anonymous$8 *)cmp)->nargs != -1 ? (_Bool)1 : (_Bool)0;
+      if(!(((struct anonymous_8 *)cmp)->nargs == 2))
+        tmp_if_expr_2 = ((struct anonymous_8 *)cmp)->nargs != -1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$3)
+    if(!tmp_if_expr_3)
       goto __CPROVER_DUMP_L7;
 
     return (struct _value *)(void *)0;
@@ -3453,29 +3453,29 @@ static struct _value * builtin_hset(struct _value *vh, struct _value *key, struc
   __CPROVER_DUMP_L7:
     ;
     if((1 & (signed int)vh) == 0)
-      tmp_if_expr$4 = (signed int)*((enum anonymous$7 *)vh) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (signed int)*((enum anonymous_7 *)vh) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = ((struct anonymous$6 *)vh)->kind == neko_k_hash ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = ((struct anonymous_6 *)vh)->kind == neko_k_hash ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(!tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(!tmp_if_expr_5)
       return (struct _value *)(void *)0;
 
     else
     {
-      h = (struct anonymous$0 *)((struct anonymous$6 *)vh)->data;
+      h = (struct anonymous_0 *)((struct anonymous_6 *)vh)->data;
       hkey=neko_val_hash(key);
       c = h->cells[(signed long int)(hkey % h->ncells)];
       if(cmp == val_null)
         while(!(c == ((struct hcell *)NULL)))
         {
-          signed int return_value_neko_val_compare$6;
-          return_value_neko_val_compare$6=neko_val_compare(key, c->key);
-          if(return_value_neko_val_compare$6 == 0)
+          signed int return_value_neko_val_compare_6;
+          return_value_neko_val_compare_6=neko_val_compare(key, c->key);
+          if(return_value_neko_val_compare_6 == 0)
           {
             c->val = val;
             return val_false;
@@ -3487,9 +3487,9 @@ static struct _value * builtin_hset(struct _value *vh, struct _value *key, struc
       else
         while(!(c == ((struct hcell *)NULL)))
         {
-          struct _value *return_value_neko_val_call2$7;
-          return_value_neko_val_call2$7=neko_val_call2(cmp, key, c->key);
-          if(return_value_neko_val_call2$7 == (struct _value *)1l)
+          struct _value *return_value_neko_val_call2_7;
+          return_value_neko_val_call2_7=neko_val_call2(cmp, key, c->key);
+          if(return_value_neko_val_call2_7 == (struct _value *)1l)
           {
             c->val = val;
             return val_false;
@@ -3500,9 +3500,9 @@ static struct _value * builtin_hset(struct _value *vh, struct _value *key, struc
       if(h->nitems >= h->ncells << 1)
         builtin_hresize(vh, (struct _value *)(signed long int)((signed int)(h->ncells << 1) << 1 | 1));
 
-      char *return_value_neko_alloc$8;
-      return_value_neko_alloc$8=neko_alloc((unsigned int)sizeof(struct hcell) /*32ul*/ );
-      c = (struct hcell *)return_value_neko_alloc$8;
+      char *return_value_neko_alloc_8;
+      return_value_neko_alloc_8=neko_alloc((unsigned int)sizeof(struct hcell) /*32ul*/ );
+      c = (struct hcell *)return_value_neko_alloc_8;
       c->hkey = hkey;
       c->key = key;
       c->val = val;
@@ -3519,144 +3519,144 @@ static struct _value * builtin_hset(struct _value *vh, struct _value *key, struc
 // file vm/builtins.c line 1051
 static struct _value * builtin_hsize(struct _value *vh)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)vh) == 0)
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)vh) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)vh) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = ((struct anonymous$6 *)vh)->kind == neko_k_hash ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = ((struct anonymous_6 *)vh)->kind == neko_k_hash ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(!tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(!tmp_if_expr_2)
     return (struct _value *)(void *)0;
 
   else
-    return (struct _value *)(signed long int)((signed int)((struct anonymous$0 *)((struct anonymous$6 *)vh)->data)->ncells << 1 | 1);
+    return (struct _value *)(signed long int)((signed int)((struct anonymous_0 *)((struct anonymous_6 *)vh)->data)->ncells << 1 | 1);
 }
 
 // builtin_iadd
 // file vm/builtins.c line 613
 static struct _value * builtin_iadd(struct _value *a, struct _value *b)
 {
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((1 & (signed int)a) == 0))
-    tmp_if_expr$1 = (signed int)(signed long int)a >> 1;
+    tmp_if_expr_1 = (signed int)(signed long int)a >> 1;
 
   else
-    tmp_if_expr$1 = ((struct anonymous$26 *)a)->i;
-  signed int tmp_if_expr$2;
+    tmp_if_expr_1 = ((struct anonymous_26 *)a)->i;
+  signed int tmp_if_expr_2;
   if(!((1 & (signed int)b) == 0))
-    tmp_if_expr$2 = (signed int)(signed long int)b >> 1;
+    tmp_if_expr_2 = (signed int)(signed long int)b >> 1;
 
   else
-    tmp_if_expr$2 = ((struct anonymous$26 *)b)->i;
-  struct _value *tmp_if_expr$8;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
-  struct _value *return_value_neko_alloc_int32$5;
-  signed int tmp_if_expr$6;
-  signed int tmp_if_expr$7;
-  if(!((1073741824u + (unsigned int)tmp_if_expr$1 + (unsigned int)tmp_if_expr$2 & 0x80000000) == 0u))
+    tmp_if_expr_2 = ((struct anonymous_26 *)b)->i;
+  struct _value *tmp_if_expr_8;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
+  struct _value *return_value_neko_alloc_int32_5;
+  signed int tmp_if_expr_6;
+  signed int tmp_if_expr_7;
+  if(!((1073741824u + (unsigned int)tmp_if_expr_1 + (unsigned int)tmp_if_expr_2 & 0x80000000) == 0u))
   {
     if(!((1 & (signed int)a) == 0))
-      tmp_if_expr$3 = (signed int)(signed long int)a >> 1;
+      tmp_if_expr_3 = (signed int)(signed long int)a >> 1;
 
     else
-      tmp_if_expr$3 = ((struct anonymous$26 *)a)->i;
+      tmp_if_expr_3 = ((struct anonymous_26 *)a)->i;
     if(!((1 & (signed int)b) == 0))
-      tmp_if_expr$4 = (signed int)(signed long int)b >> 1;
+      tmp_if_expr_4 = (signed int)(signed long int)b >> 1;
 
     else
-      tmp_if_expr$4 = ((struct anonymous$26 *)b)->i;
-    return_value_neko_alloc_int32$5=neko_alloc_int32(tmp_if_expr$3 + tmp_if_expr$4);
-    tmp_if_expr$8 = return_value_neko_alloc_int32$5;
+      tmp_if_expr_4 = ((struct anonymous_26 *)b)->i;
+    return_value_neko_alloc_int32_5=neko_alloc_int32(tmp_if_expr_3 + tmp_if_expr_4);
+    tmp_if_expr_8 = return_value_neko_alloc_int32_5;
   }
 
   else
   {
     if(!((1 & (signed int)a) == 0))
-      tmp_if_expr$6 = (signed int)(signed long int)a >> 1;
+      tmp_if_expr_6 = (signed int)(signed long int)a >> 1;
 
     else
-      tmp_if_expr$6 = ((struct anonymous$26 *)a)->i;
+      tmp_if_expr_6 = ((struct anonymous_26 *)a)->i;
     if(!((1 & (signed int)b) == 0))
-      tmp_if_expr$7 = (signed int)(signed long int)b >> 1;
+      tmp_if_expr_7 = (signed int)(signed long int)b >> 1;
 
     else
-      tmp_if_expr$7 = ((struct anonymous$26 *)b)->i;
-    tmp_if_expr$8 = (struct _value *)(signed long int)((signed int)(tmp_if_expr$6 + tmp_if_expr$7) << 1 | 1);
+      tmp_if_expr_7 = ((struct anonymous_26 *)b)->i;
+    tmp_if_expr_8 = (struct _value *)(signed long int)((signed int)(tmp_if_expr_6 + tmp_if_expr_7) << 1 | 1);
   }
-  return tmp_if_expr$8;
+  return tmp_if_expr_8;
 }
 
 // builtin_idiv
 // file vm/builtins.c line 637
 static struct _value * builtin_idiv(struct _value *a, struct _value *b)
 {
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((1 & (signed int)b) == 0))
-    tmp_if_expr$1 = (signed int)(signed long int)b >> 1;
+    tmp_if_expr_1 = (signed int)(signed long int)b >> 1;
 
   else
-    tmp_if_expr$1 = ((struct anonymous$26 *)b)->i;
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$3;
-  struct _value *tmp_if_expr$9;
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$5;
-  struct _value *return_value_neko_alloc_int32$6;
-  signed int tmp_if_expr$7;
-  signed int tmp_if_expr$8;
-  if(tmp_if_expr$1 == 0)
+    tmp_if_expr_1 = ((struct anonymous_26 *)b)->i;
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_3;
+  struct _value *tmp_if_expr_9;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_5;
+  struct _value *return_value_neko_alloc_int32_6;
+  signed int tmp_if_expr_7;
+  signed int tmp_if_expr_8;
+  if(tmp_if_expr_1 == 0)
     return (struct _value *)(void *)0;
 
   else
   {
     if(!((1 & (signed int)a) == 0))
-      tmp_if_expr$2 = (signed int)(signed long int)a >> 1;
+      tmp_if_expr_2 = (signed int)(signed long int)a >> 1;
 
     else
-      tmp_if_expr$2 = ((struct anonymous$26 *)a)->i;
+      tmp_if_expr_2 = ((struct anonymous_26 *)a)->i;
     if(!((1 & (signed int)b) == 0))
-      tmp_if_expr$3 = (signed int)(signed long int)b >> 1;
+      tmp_if_expr_3 = (signed int)(signed long int)b >> 1;
 
     else
-      tmp_if_expr$3 = ((struct anonymous$26 *)b)->i;
-    if(!((1073741824u + (unsigned int)(tmp_if_expr$2 / tmp_if_expr$3) & 0x80000000) == 0u))
+      tmp_if_expr_3 = ((struct anonymous_26 *)b)->i;
+    if(!((1073741824u + (unsigned int)(tmp_if_expr_2 / tmp_if_expr_3) & 0x80000000) == 0u))
     {
       if(!((1 & (signed int)a) == 0))
-        tmp_if_expr$4 = (signed int)(signed long int)a >> 1;
+        tmp_if_expr_4 = (signed int)(signed long int)a >> 1;
 
       else
-        tmp_if_expr$4 = ((struct anonymous$26 *)a)->i;
+        tmp_if_expr_4 = ((struct anonymous_26 *)a)->i;
       if(!((1 & (signed int)b) == 0))
-        tmp_if_expr$5 = (signed int)(signed long int)b >> 1;
+        tmp_if_expr_5 = (signed int)(signed long int)b >> 1;
 
       else
-        tmp_if_expr$5 = ((struct anonymous$26 *)b)->i;
-      return_value_neko_alloc_int32$6=neko_alloc_int32(tmp_if_expr$4 / tmp_if_expr$5);
-      tmp_if_expr$9 = return_value_neko_alloc_int32$6;
+        tmp_if_expr_5 = ((struct anonymous_26 *)b)->i;
+      return_value_neko_alloc_int32_6=neko_alloc_int32(tmp_if_expr_4 / tmp_if_expr_5);
+      tmp_if_expr_9 = return_value_neko_alloc_int32_6;
     }
 
     else
     {
       if(!((1 & (signed int)a) == 0))
-        tmp_if_expr$7 = (signed int)(signed long int)a >> 1;
+        tmp_if_expr_7 = (signed int)(signed long int)a >> 1;
 
       else
-        tmp_if_expr$7 = ((struct anonymous$26 *)a)->i;
+        tmp_if_expr_7 = ((struct anonymous_26 *)a)->i;
       if(!((1 & (signed int)b) == 0))
-        tmp_if_expr$8 = (signed int)(signed long int)b >> 1;
+        tmp_if_expr_8 = (signed int)(signed long int)b >> 1;
 
       else
-        tmp_if_expr$8 = ((struct anonymous$26 *)b)->i;
-      tmp_if_expr$9 = (struct _value *)(signed long int)((signed int)(tmp_if_expr$7 / tmp_if_expr$8) << 1 | 1);
+        tmp_if_expr_8 = ((struct anonymous_26 *)b)->i;
+      tmp_if_expr_9 = (struct _value *)(signed long int)((signed int)(tmp_if_expr_7 / tmp_if_expr_8) << 1 | 1);
     }
-    return tmp_if_expr$9;
+    return tmp_if_expr_9;
   }
 }
 
@@ -3664,108 +3664,108 @@ static struct _value * builtin_idiv(struct _value *a, struct _value *b)
 // file vm/builtins.c line 629
 static struct _value * builtin_imult(struct _value *a, struct _value *b)
 {
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((1 & (signed int)a) == 0))
-    tmp_if_expr$1 = (signed int)(signed long int)a >> 1;
+    tmp_if_expr_1 = (signed int)(signed long int)a >> 1;
 
   else
-    tmp_if_expr$1 = ((struct anonymous$26 *)a)->i;
-  signed int tmp_if_expr$2;
+    tmp_if_expr_1 = ((struct anonymous_26 *)a)->i;
+  signed int tmp_if_expr_2;
   if(!((1 & (signed int)b) == 0))
-    tmp_if_expr$2 = (signed int)(signed long int)b >> 1;
+    tmp_if_expr_2 = (signed int)(signed long int)b >> 1;
 
   else
-    tmp_if_expr$2 = ((struct anonymous$26 *)b)->i;
-  struct _value *tmp_if_expr$8;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
-  struct _value *return_value_neko_alloc_int32$5;
-  signed int tmp_if_expr$6;
-  signed int tmp_if_expr$7;
-  if(!(((unsigned int)tmp_if_expr$1 * (unsigned int)tmp_if_expr$2 + 1073741824u & 0x80000000) == 0u))
+    tmp_if_expr_2 = ((struct anonymous_26 *)b)->i;
+  struct _value *tmp_if_expr_8;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
+  struct _value *return_value_neko_alloc_int32_5;
+  signed int tmp_if_expr_6;
+  signed int tmp_if_expr_7;
+  if(!(((unsigned int)tmp_if_expr_1 * (unsigned int)tmp_if_expr_2 + 1073741824u & 0x80000000) == 0u))
   {
     if(!((1 & (signed int)a) == 0))
-      tmp_if_expr$3 = (signed int)(signed long int)a >> 1;
+      tmp_if_expr_3 = (signed int)(signed long int)a >> 1;
 
     else
-      tmp_if_expr$3 = ((struct anonymous$26 *)a)->i;
+      tmp_if_expr_3 = ((struct anonymous_26 *)a)->i;
     if(!((1 & (signed int)b) == 0))
-      tmp_if_expr$4 = (signed int)(signed long int)b >> 1;
+      tmp_if_expr_4 = (signed int)(signed long int)b >> 1;
 
     else
-      tmp_if_expr$4 = ((struct anonymous$26 *)b)->i;
-    return_value_neko_alloc_int32$5=neko_alloc_int32(tmp_if_expr$3 * tmp_if_expr$4);
-    tmp_if_expr$8 = return_value_neko_alloc_int32$5;
+      tmp_if_expr_4 = ((struct anonymous_26 *)b)->i;
+    return_value_neko_alloc_int32_5=neko_alloc_int32(tmp_if_expr_3 * tmp_if_expr_4);
+    tmp_if_expr_8 = return_value_neko_alloc_int32_5;
   }
 
   else
   {
     if(!((1 & (signed int)a) == 0))
-      tmp_if_expr$6 = (signed int)(signed long int)a >> 1;
+      tmp_if_expr_6 = (signed int)(signed long int)a >> 1;
 
     else
-      tmp_if_expr$6 = ((struct anonymous$26 *)a)->i;
+      tmp_if_expr_6 = ((struct anonymous_26 *)a)->i;
     if(!((1 & (signed int)b) == 0))
-      tmp_if_expr$7 = (signed int)(signed long int)b >> 1;
+      tmp_if_expr_7 = (signed int)(signed long int)b >> 1;
 
     else
-      tmp_if_expr$7 = ((struct anonymous$26 *)b)->i;
-    tmp_if_expr$8 = (struct _value *)(signed long int)((signed int)(tmp_if_expr$6 * tmp_if_expr$7) << 1 | 1);
+      tmp_if_expr_7 = ((struct anonymous_26 *)b)->i;
+    tmp_if_expr_8 = (struct _value *)(signed long int)((signed int)(tmp_if_expr_6 * tmp_if_expr_7) << 1 | 1);
   }
-  return tmp_if_expr$8;
+  return tmp_if_expr_8;
 }
 
 // builtin_int
 // file vm/builtins.c line 689
 static struct _value * builtin_int(struct _value *f)
 {
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((1 & (signed int)f) == 0))
-    tmp_if_expr$1 = VAL_INT;
+    tmp_if_expr_1 = VAL_INT;
 
   else
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)f) & (1 << 4) - 1;
-  double return_value_fmod$2;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)f) & (1 << 4) - 1;
+  double return_value_fmod_2;
   char *c;
   char *end;
   signed int h;
-  _Bool tmp_if_expr$6;
-  char *tmp_post$3;
-  struct _value *tmp_if_expr$5;
-  struct _value *return_value_neko_alloc_int32$4;
-  signed long int return_value_strtol$7;
-  struct _value *tmp_if_expr$10;
-  struct _value *tmp_if_expr$9;
-  struct _value *return_value_neko_alloc_int32$8;
-  switch(tmp_if_expr$1)
+  _Bool tmp_if_expr_6;
+  char *tmp_post_3;
+  struct _value *tmp_if_expr_5;
+  struct _value *return_value_neko_alloc_int32_4;
+  signed long int return_value_strtol_7;
+  struct _value *tmp_if_expr_10;
+  struct _value *tmp_if_expr_9;
+  struct _value *return_value_neko_alloc_int32_8;
+  switch(tmp_if_expr_1)
   {
     case VAL_FLOAT:
     {
-      return_value_fmod$2=fmod(((struct anonymous$25 *)f)->f, 4294967296.0);
-      return (struct _value *)(signed long int)((signed int)(unsigned int)return_value_fmod$2 << 1 | 1);
+      return_value_fmod_2=fmod(((struct anonymous_25 *)f)->f, 4294967296.0);
+      return (struct _value *)(signed long int)((signed int)(unsigned int)return_value_fmod_2 << 1 | 1);
     }
     case VAL_STRING:
     {
-      c = &((struct anonymous$5 *)f)->c;
-      if((signed int)*((enum anonymous$7 *)f) >> 4 >= 2)
+      c = &((struct anonymous_5 *)f)->c;
+      if((signed int)*((enum anonymous_7 *)f) >> 4 >= 2)
       {
         if((signed int)*c == 48)
         {
           if((signed int)c[1l] == 120)
-            tmp_if_expr$6 = (_Bool)1;
+            tmp_if_expr_6 = (_Bool)1;
 
           else
-            tmp_if_expr$6 = (signed int)c[(signed long int)1] == 88 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$6)
+            tmp_if_expr_6 = (signed int)c[(signed long int)1] == 88 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_6)
           {
             h = 0;
             c = c + (signed long int)2;
             while(!(*c == 0))
             {
               char k;
-              tmp_post$3 = c;
+              tmp_post_3 = c;
               c = c + 1l;
-              k = *tmp_post$3;
+              k = *tmp_post_3;
               if((signed int)k >= 48 && !((signed int)k >= 58))
                 h = h << 4 | (signed int)k - 48;
 
@@ -3782,37 +3782,37 @@ static struct _value * builtin_int(struct _value *f)
             }
             if(!((1073741824u + (unsigned int)h & 0x80000000) == 0u))
             {
-              return_value_neko_alloc_int32$4=neko_alloc_int32(h);
-              tmp_if_expr$5 = return_value_neko_alloc_int32$4;
+              return_value_neko_alloc_int32_4=neko_alloc_int32(h);
+              tmp_if_expr_5 = return_value_neko_alloc_int32_4;
             }
 
             else
-              tmp_if_expr$5 = (struct _value *)(signed long int)((signed int)h << 1 | 1);
-            return tmp_if_expr$5;
+              tmp_if_expr_5 = (struct _value *)(signed long int)((signed int)h << 1 | 1);
+            return tmp_if_expr_5;
           }
 
         }
 
       }
 
-      return_value_strtol$7=strtol(c, &end, 10);
-      h = (signed int)return_value_strtol$7;
+      return_value_strtol_7=strtol(c, &end, 10);
+      h = (signed int)return_value_strtol_7;
       if(c == end)
-        tmp_if_expr$10 = val_null;
+        tmp_if_expr_10 = val_null;
 
       else
       {
         if(!((1073741824u + (unsigned int)h & 0x80000000) == 0u))
         {
-          return_value_neko_alloc_int32$8=neko_alloc_int32(h);
-          tmp_if_expr$9 = return_value_neko_alloc_int32$8;
+          return_value_neko_alloc_int32_8=neko_alloc_int32(h);
+          tmp_if_expr_9 = return_value_neko_alloc_int32_8;
         }
 
         else
-          tmp_if_expr$9 = (struct _value *)(signed long int)((signed int)h << 1 | 1);
-        tmp_if_expr$10 = tmp_if_expr$9;
+          tmp_if_expr_9 = (struct _value *)(signed long int)((signed int)h << 1 | 1);
+        tmp_if_expr_10 = tmp_if_expr_9;
       }
-      return tmp_if_expr$10;
+      return tmp_if_expr_10;
     }
     case VAL_INT:
 
@@ -3827,21 +3827,21 @@ static struct _value * builtin_int(struct _value *f)
 // file vm/builtins.c line 672
 static struct _value * builtin_isinfinite(struct _value *f)
 {
-  union anonymous$2 q;
+  union anonymous_2 q;
   unsigned int h;
   unsigned int l;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)f) == 0)
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)f) == VAL_FLOAT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)f) == VAL_FLOAT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
     return val_false;
 
   else
   {
-    q.d = ((struct anonymous$25 *)f)->f;
+    q.d = ((struct anonymous_25 *)f)->f;
     h = q.i.h;
     l = q.i.l;
     l = l | h & (unsigned int)0xFFFFF;
@@ -3854,52 +3854,52 @@ static struct _value * builtin_isinfinite(struct _value *f)
 // file vm/builtins.c line 760
 static struct _value * builtin_iskind(struct _value *v, struct _value *k)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)k) == 0)
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)k) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)k) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = ((struct anonymous$6 *)k)->kind == neko_k_kind ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = ((struct anonymous_6 *)k)->kind == neko_k_kind ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  struct _value *tmp_if_expr$6;
-  struct _value *tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  if(!tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  struct _value *tmp_if_expr_6;
+  struct _value *tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  if(!tmp_if_expr_2)
     return (struct _value *)(void *)0;
 
   else
   {
     if((1 & (signed int)v) == 0)
-      tmp_if_expr$3 = (signed int)*((enum anonymous$7 *)v) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (signed int)*((enum anonymous_7 *)v) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$6 = ((struct anonymous$6 *)v)->kind == (struct anonymous *)((struct anonymous$6 *)k)->data ? val_true : val_false;
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_6 = ((struct anonymous_6 *)v)->kind == (struct anonymous *)((struct anonymous_6 *)k)->data ? val_true : val_false;
 
     else
     {
-      if((struct anonymous *)((struct anonymous$6 *)k)->data == k_old_int32)
+      if((struct anonymous *)((struct anonymous_6 *)k)->data == k_old_int32)
       {
         if((1 & (signed int)v) == 0)
-          tmp_if_expr$4 = (signed int)*((enum anonymous$7 *)v) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (signed int)*((enum anonymous_7 *)v) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        tmp_if_expr$5 = tmp_if_expr$4 ? val_true : val_false;
+          tmp_if_expr_4 = (_Bool)0;
+        tmp_if_expr_5 = tmp_if_expr_4 ? val_true : val_false;
       }
 
       else
-        tmp_if_expr$5 = val_false;
-      tmp_if_expr$6 = tmp_if_expr$5;
+        tmp_if_expr_5 = val_false;
+      tmp_if_expr_6 = tmp_if_expr_5;
     }
-    return tmp_if_expr$6;
+    return tmp_if_expr_6;
   }
 }
 
@@ -3907,21 +3907,21 @@ static struct _value * builtin_iskind(struct _value *v, struct _value *k)
 // file vm/builtins.c line 655
 static struct _value * builtin_isnan(struct _value *f)
 {
-  union anonymous$2 q;
+  union anonymous_2 q;
   unsigned int h;
   unsigned int l;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)f) == 0)
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)f) == VAL_FLOAT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)f) == VAL_FLOAT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
     return val_false;
 
   else
   {
-    q.d = ((struct anonymous$25 *)f)->f;
+    q.d = ((struct anonymous_25 *)f)->f;
     h = q.i.h;
     l = q.i.l;
     l = l | h & (unsigned int)0xFFFFF;
@@ -3934,114 +3934,114 @@ static struct _value * builtin_isnan(struct _value *f)
 // file vm/builtins.c line 1098
 static struct _value * builtin_istrue(struct _value *f)
 {
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!(f == val_false) && !(f == val_null) && !(f == (struct _value *)1l))
   {
     if(!((1 & (signed int)f) == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)f) != VAL_INT32 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)f) != VAL_INT32 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = ((struct anonymous$26 *)f)->i != 0 ? (_Bool)1 : (_Bool)0;
-    tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = ((struct anonymous_26 *)f)->i != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  return tmp_if_expr$3 ? val_true : val_false;
+    tmp_if_expr_3 = (_Bool)0;
+  return tmp_if_expr_3 ? val_true : val_false;
 }
 
 // builtin_isub
 // file vm/builtins.c line 621
 static struct _value * builtin_isub(struct _value *a, struct _value *b)
 {
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((1 & (signed int)a) == 0))
-    tmp_if_expr$1 = (signed int)(signed long int)a >> 1;
+    tmp_if_expr_1 = (signed int)(signed long int)a >> 1;
 
   else
-    tmp_if_expr$1 = ((struct anonymous$26 *)a)->i;
-  signed int tmp_if_expr$2;
+    tmp_if_expr_1 = ((struct anonymous_26 *)a)->i;
+  signed int tmp_if_expr_2;
   if(!((1 & (signed int)b) == 0))
-    tmp_if_expr$2 = (signed int)(signed long int)b >> 1;
+    tmp_if_expr_2 = (signed int)(signed long int)b >> 1;
 
   else
-    tmp_if_expr$2 = ((struct anonymous$26 *)b)->i;
-  struct _value *tmp_if_expr$8;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
-  struct _value *return_value_neko_alloc_int32$5;
-  signed int tmp_if_expr$6;
-  signed int tmp_if_expr$7;
-  if(!((1073741824u + (unsigned int)tmp_if_expr$1 + -((unsigned int)tmp_if_expr$2) & 0x80000000) == 0u))
+    tmp_if_expr_2 = ((struct anonymous_26 *)b)->i;
+  struct _value *tmp_if_expr_8;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
+  struct _value *return_value_neko_alloc_int32_5;
+  signed int tmp_if_expr_6;
+  signed int tmp_if_expr_7;
+  if(!((1073741824u + (unsigned int)tmp_if_expr_1 + -((unsigned int)tmp_if_expr_2) & 0x80000000) == 0u))
   {
     if(!((1 & (signed int)a) == 0))
-      tmp_if_expr$3 = (signed int)(signed long int)a >> 1;
+      tmp_if_expr_3 = (signed int)(signed long int)a >> 1;
 
     else
-      tmp_if_expr$3 = ((struct anonymous$26 *)a)->i;
+      tmp_if_expr_3 = ((struct anonymous_26 *)a)->i;
     if(!((1 & (signed int)b) == 0))
-      tmp_if_expr$4 = (signed int)(signed long int)b >> 1;
+      tmp_if_expr_4 = (signed int)(signed long int)b >> 1;
 
     else
-      tmp_if_expr$4 = ((struct anonymous$26 *)b)->i;
-    return_value_neko_alloc_int32$5=neko_alloc_int32(tmp_if_expr$3 - tmp_if_expr$4);
-    tmp_if_expr$8 = return_value_neko_alloc_int32$5;
+      tmp_if_expr_4 = ((struct anonymous_26 *)b)->i;
+    return_value_neko_alloc_int32_5=neko_alloc_int32(tmp_if_expr_3 - tmp_if_expr_4);
+    tmp_if_expr_8 = return_value_neko_alloc_int32_5;
   }
 
   else
   {
     if(!((1 & (signed int)a) == 0))
-      tmp_if_expr$6 = (signed int)(signed long int)a >> 1;
+      tmp_if_expr_6 = (signed int)(signed long int)a >> 1;
 
     else
-      tmp_if_expr$6 = ((struct anonymous$26 *)a)->i;
+      tmp_if_expr_6 = ((struct anonymous_26 *)a)->i;
     if(!((1 & (signed int)b) == 0))
-      tmp_if_expr$7 = (signed int)(signed long int)b >> 1;
+      tmp_if_expr_7 = (signed int)(signed long int)b >> 1;
 
     else
-      tmp_if_expr$7 = ((struct anonymous$26 *)b)->i;
-    tmp_if_expr$8 = (struct _value *)(signed long int)((signed int)(tmp_if_expr$6 - tmp_if_expr$7) << 1 | 1);
+      tmp_if_expr_7 = ((struct anonymous_26 *)b)->i;
+    tmp_if_expr_8 = (struct _value *)(signed long int)((signed int)(tmp_if_expr_6 - tmp_if_expr_7) << 1 | 1);
   }
-  return tmp_if_expr$8;
+  return tmp_if_expr_8;
 }
 
 // builtin_nargs
 // file vm/builtins.c line 480
 static struct _value * builtin_nargs(struct _value *f)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)f) == 0)
-    tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)f) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)f) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
-    return (struct _value *)(signed long int)((signed int)((struct anonymous$8 *)f)->nargs << 1 | 1);
+    return (struct _value *)(signed long int)((signed int)((struct anonymous_8 *)f)->nargs << 1 | 1);
 }
 
 // builtin_new
 // file vm/builtins.c line 329
 static struct _value * builtin_new(struct _value *o)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(o == val_null))
   {
     if((1 & (signed int)o) == 0)
-      tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       goto __CPROVER_DUMP_L3;
 
     return (struct _value *)(void *)0;
@@ -4052,9 +4052,9 @@ static struct _value * builtin_new(struct _value *o)
 
   __CPROVER_DUMP_L3:
     ;
-    struct _value *return_value_neko_alloc_object$2;
-    return_value_neko_alloc_object$2=neko_alloc_object(o);
-    return return_value_neko_alloc_object$2;
+    struct _value *return_value_neko_alloc_object_2;
+    return_value_neko_alloc_object_2=neko_alloc_object(o);
+    return return_value_neko_alloc_object_2;
   }
 }
 
@@ -4062,41 +4062,41 @@ static struct _value * builtin_new(struct _value *o)
 // file vm/builtins.c line 1106
 static struct _value * builtin_not(struct _value *f)
 {
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(f == val_false || f == val_null || f == (struct _value *)1l)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
     if((1 & (signed int)f) == 0)
-      tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)f) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)f) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = ((struct anonymous$26 *)f)->i == 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = ((struct anonymous_26 *)f)->i == 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
   }
-  return tmp_if_expr$3 ? val_true : val_false;
+  return tmp_if_expr_3 ? val_true : val_false;
 }
 
 // builtin_objcall
 // file vm/builtins.c line 362
 static struct _value * builtin_objcall(struct _value *o, struct _value *f, struct _value *args)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)o) == 0)
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(!tmp_if_expr_1)
     return val_null;
 
   else
@@ -4106,18 +4106,18 @@ static struct _value * builtin_objcall(struct _value *o, struct _value *f, struc
     else
     {
       if((1 & (signed int)args) == 0)
-        tmp_if_expr$2 = ((signed int)*((enum anonymous$7 *)args) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = ((signed int)*((enum anonymous_7 *)args) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         return (struct _value *)(void *)0;
 
       else
       {
-        struct _value *return_value_neko_val_ocallN$3;
-        return_value_neko_val_ocallN$3=neko_val_ocallN(o, (signed int)(signed long int)f >> 1, &((struct anonymous$4 *)args)->ptr, (signed int)*((enum anonymous$7 *)args) >> 4);
-        return return_value_neko_val_ocallN$3;
+        struct _value *return_value_neko_val_ocallN_3;
+        return_value_neko_val_ocallN_3=neko_val_ocallN(o, (signed int)(signed long int)f >> 1, &((struct anonymous_4 *)args)->ptr, (signed int)*((enum anonymous_7 *)args) >> 4);
+        return return_value_neko_val_ocallN_3;
       }
     }
 }
@@ -4126,28 +4126,28 @@ static struct _value * builtin_objcall(struct _value *o, struct _value *f, struc
 // file vm/builtins.c line 374
 static struct _value * builtin_objfield(struct _value *o, struct _value *f)
 {
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  struct _value **return_value_otable_find$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  struct _value **return_value_otable_find_2;
   if((1 & (signed int)f) == 0)
     return (struct _value *)(void *)0;
 
   else
   {
     if((1 & (signed int)o) == 0)
-      tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
     {
-      return_value_otable_find$2=otable_find(&((struct _vobject *)o)->table, (signed int)(signed long int)f >> 1);
-      tmp_if_expr$3 = return_value_otable_find$2 != (struct _value **)(void *)0 ? (_Bool)1 : (_Bool)0;
+      return_value_otable_find_2=otable_find(&((struct _vobject *)o)->table, (signed int)(signed long int)f >> 1);
+      tmp_if_expr_3 = return_value_otable_find_2 != (struct _value **)(void *)0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    return tmp_if_expr$3 ? val_true : val_false;
+      tmp_if_expr_3 = (_Bool)0;
+    return tmp_if_expr_3 ? val_true : val_false;
   }
 }
 
@@ -4158,20 +4158,20 @@ static struct _value * builtin_objfields(struct _value *o)
   struct _value *a;
   struct _value **aptr;
   struct _objtable *t;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)o) == 0)
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
   {
     t = &((struct _vobject *)o)->table;
     a=neko_alloc_array((unsigned int)t->count);
-    aptr = &((struct anonymous$4 *)a)->ptr;
+    aptr = &((struct anonymous_4 *)a)->ptr;
     otable_iter(t, builtin_objfields_rec, (void *)&aptr);
     return a;
   }
@@ -4181,22 +4181,22 @@ static struct _value * builtin_objfields(struct _value *o)
 // file vm/builtins.c line 389
 static void builtin_objfields_rec(struct _value *d, signed int id, void *a)
 {
-  struct _value **tmp_post$1 = *((struct _value ***)a);
+  struct _value **tmp_post_1 = *((struct _value ***)a);
   *((struct _value ***)a) = *((struct _value ***)a) + 1l;
-  *tmp_post$1 = (struct _value *)(signed long int)((signed int)id << 1 | 1);
+  *tmp_post_1 = (struct _value *)(signed long int)((signed int)id << 1 | 1);
 }
 
 // builtin_objget
 // file vm/builtins.c line 339
 static struct _value * builtin_objget(struct _value *o, struct _value *f)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)o) == 0)
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
     return val_null;
 
   else
@@ -4205,9 +4205,9 @@ static struct _value * builtin_objget(struct _value *o, struct _value *f)
 
     else
     {
-      struct _value *return_value_neko_val_field$2;
-      return_value_neko_val_field$2=neko_val_field(o, (signed int)(signed long int)f >> 1);
-      return return_value_neko_val_field$2;
+      struct _value *return_value_neko_val_field_2;
+      return_value_neko_val_field_2=neko_val_field(o, (signed int)(signed long int)f >> 1);
+      return return_value_neko_val_field_2;
     }
 }
 
@@ -4215,13 +4215,13 @@ static struct _value * builtin_objget(struct _value *o, struct _value *f)
 // file vm/builtins.c line 463
 static struct _value * builtin_objgetproto(struct _value *o)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)o) == 0)
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
@@ -4239,13 +4239,13 @@ static struct _value * builtin_objgetproto(struct _value *o)
 // file vm/builtins.c line 383
 static struct _value * builtin_objremove(struct _value *o, struct _value *f)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)o) == 0)
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
@@ -4254,9 +4254,9 @@ static struct _value * builtin_objremove(struct _value *o, struct _value *f)
 
     else
     {
-      signed int return_value_otable_remove$2;
-      return_value_otable_remove$2=otable_remove(&((struct _vobject *)o)->table, (signed int)(signed long int)f >> 1);
-      return return_value_otable_remove$2 != 0 ? val_true : val_false;
+      signed int return_value_otable_remove_2;
+      return_value_otable_remove_2=otable_remove(&((struct _vobject *)o)->table, (signed int)(signed long int)f >> 1);
+      return return_value_otable_remove_2 != 0 ? val_true : val_false;
     }
 }
 
@@ -4264,13 +4264,13 @@ static struct _value * builtin_objremove(struct _value *o, struct _value *f)
 // file vm/builtins.c line 350
 static struct _value * builtin_objset(struct _value *o, struct _value *f, struct _value *v)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)o) == 0)
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
     return val_null;
 
   else
@@ -4288,14 +4288,14 @@ static struct _value * builtin_objset(struct _value *o, struct _value *f, struct
 // file vm/builtins.c line 448
 static struct _value * builtin_objsetproto(struct _value *o, struct _value *p)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)o) == 0)
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
@@ -4306,11 +4306,11 @@ static struct _value * builtin_objsetproto(struct _value *o, struct _value *p)
     else
     {
       if((1 & (signed int)p) == 0)
-        tmp_if_expr$2 = (signed int)*((enum anonymous$7 *)p) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)*((enum anonymous_7 *)p) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         return (struct _value *)(void *)0;
 
       ((struct _vobject *)o)->proto = (struct _vobject *)p;
@@ -4347,7 +4347,7 @@ static struct _value * builtin_print(struct _value **args, signed int nargs)
     if(!((1 & (signed int)*args) == 0))
       goto __CPROVER_DUMP_L1;
 
-    if(!((15 & (signed int)*((enum anonymous$7 *)*args)) == VAL_STRING))
+    if(!((15 & (signed int)*((enum anonymous_7 *)*args)) == VAL_STRING))
       goto __CPROVER_DUMP_L1;
 
     neko_val_print(*args);
@@ -4363,9 +4363,9 @@ static struct _value * builtin_print(struct _value **args, signed int nargs)
     i = 0;
     for( ; !(i >= nargs); i = i + 1)
       neko_val_buffer(b, args[(signed long int)i]);
-    struct _value *return_value_neko_buffer_to_string$1;
-    return_value_neko_buffer_to_string$1=neko_buffer_to_string(b);
-    neko_val_print(return_value_neko_buffer_to_string$1);
+    struct _value *return_value_neko_buffer_to_string_1;
+    return_value_neko_buffer_to_string_1=neko_buffer_to_string(b);
+    neko_val_print(return_value_neko_buffer_to_string_1);
     return neko_builtins[(signed long int)1];
   }
 }
@@ -4385,16 +4385,16 @@ static struct _value * builtin_sblit(struct _value *dst, struct _value *dp, stru
   signed int dpp;
   signed int spp;
   signed int ll;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)dst) == 0)
-    tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)dst) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)dst) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
@@ -4404,11 +4404,11 @@ static struct _value * builtin_sblit(struct _value *dst, struct _value *dp, stru
     else
     {
       if((1 & (signed int)src) == 0)
-        tmp_if_expr$2 = ((signed int)*((enum anonymous$7 *)src) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = ((signed int)*((enum anonymous_7 *)src) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         return (struct _value *)(void *)0;
 
       else
@@ -4425,21 +4425,21 @@ static struct _value * builtin_sblit(struct _value *dst, struct _value *dp, stru
             spp = (signed int)(signed long int)sp >> 1;
             ll = (signed int)(signed long int)l >> 1;
             if(!(dpp + ll >= 0) || !(ll + spp >= 0) || !(dpp >= 0) || !(ll >= 0) || !(spp >= 0))
-              tmp_if_expr$3 = (_Bool)1;
+              tmp_if_expr_3 = (_Bool)1;
 
             else
-              tmp_if_expr$3 = dpp + ll > (signed int)*((enum anonymous$7 *)dst) >> 4 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$3)
-              tmp_if_expr$4 = (_Bool)1;
+              tmp_if_expr_3 = dpp + ll > (signed int)*((enum anonymous_7 *)dst) >> 4 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_3)
+              tmp_if_expr_4 = (_Bool)1;
 
             else
-              tmp_if_expr$4 = spp + ll > (signed int)*((enum anonymous$7 *)src) >> 4 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$4)
+              tmp_if_expr_4 = spp + ll > (signed int)*((enum anonymous_7 *)src) >> 4 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_4)
               return (struct _value *)(void *)0;
 
             else
             {
-              memmove((void *)(&((struct anonymous$5 *)dst)->c + (signed long int)dpp), (const void *)(&((struct anonymous$5 *)src)->c + (signed long int)spp), (unsigned long int)ll);
+              memmove((void *)(&((struct anonymous_5 *)dst)->c + (signed long int)dpp), (const void *)(&((struct anonymous_5 *)src)->c + (signed long int)spp), (unsigned long int)ll);
               return val_null;
             }
           }
@@ -4450,20 +4450,20 @@ static struct _value * builtin_sblit(struct _value *dst, struct _value *dp, stru
 // file vm/builtins.c line 213
 static struct _value * builtin_scopy(struct _value *s)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)s) == 0)
-    tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)s) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)s) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
   {
-    struct _value *return_value_neko_copy_string$2;
-    return_value_neko_copy_string$2=neko_copy_string(&((struct anonymous$5 *)s)->c, (signed long int)((signed int)*((enum anonymous$7 *)s) >> 4));
-    return return_value_neko_copy_string$2;
+    struct _value *return_value_neko_copy_string_2;
+    return_value_neko_copy_string_2=neko_copy_string(&((struct anonymous_5 *)s)->c, (signed long int)((signed int)*((enum anonymous_7 *)s) >> 4));
+    return return_value_neko_copy_string_2;
   }
 }
 
@@ -4472,35 +4472,35 @@ static struct _value * builtin_scopy(struct _value *s)
 static struct _value * builtin_setresolver(struct _value *f)
 {
   struct _neko_vm *vm;
-  void *return_value_neko_local_get$1;
-  return_value_neko_local_get$1=neko_local_get(neko_vm_context);
-  vm = (struct _neko_vm *)return_value_neko_local_get$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
+  void *return_value_neko_local_get_1;
+  return_value_neko_local_get_1=neko_local_get(neko_vm_context);
+  vm = (struct _neko_vm *)return_value_neko_local_get_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
   if(f == val_null)
     vm->resolver = (struct _value *)(void *)0;
 
   else
   {
     if((1 & (signed int)f) == 0)
-      tmp_if_expr$2 = ((signed int)*((enum anonymous$7 *)f) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = ((signed int)*((enum anonymous_7 *)f) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      if(!(((struct anonymous$8 *)f)->nargs == 2))
-        tmp_if_expr$3 = ((struct anonymous$8 *)f)->nargs != -1 ? (_Bool)1 : (_Bool)0;
+      if(!(((struct anonymous_8 *)f)->nargs == 2))
+        tmp_if_expr_3 = ((struct anonymous_8 *)f)->nargs != -1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
       return (struct _value *)(void *)0;
 
     vm->resolver = f;
@@ -4516,14 +4516,14 @@ static struct _value * builtin_sfind(struct _value *src, struct _value *pos, str
   signed int l;
   signed int l2;
   const char *ptr;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)src) == 0)
-    tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)src) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)src) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
@@ -4533,29 +4533,29 @@ static struct _value * builtin_sfind(struct _value *src, struct _value *pos, str
     else
     {
       if((1 & (signed int)pat) == 0)
-        tmp_if_expr$2 = ((signed int)*((enum anonymous$7 *)pat) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = ((signed int)*((enum anonymous_7 *)pat) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         return (struct _value *)(void *)0;
 
       else
       {
         p = (signed int)(signed long int)pos >> 1;
-        l = (signed int)*((enum anonymous$7 *)src) >> 4;
-        l2 = (signed int)*((enum anonymous$7 *)pat) >> 4;
+        l = (signed int)*((enum anonymous_7 *)src) >> 4;
+        l2 = (signed int)*((enum anonymous_7 *)pat) >> 4;
         if(p >= l || !(p >= 0))
           return (struct _value *)(void *)0;
 
         else
         {
-          ptr = &((struct anonymous$5 *)src)->c + (signed long int)p;
+          ptr = &((struct anonymous_5 *)src)->c + (signed long int)p;
           while(l + -p >= l2)
           {
-            signed int return_value_memcmp$3;
-            return_value_memcmp$3=memcmp((const void *)ptr, (const void *)&((struct anonymous$5 *)pat)->c, (unsigned long int)l2);
-            if(return_value_memcmp$3 == 0)
+            signed int return_value_memcmp_3;
+            return_value_memcmp_3=memcmp((const void *)ptr, (const void *)&((struct anonymous_5 *)pat)->c, (unsigned long int)l2);
+            if(return_value_memcmp_3 == 0)
               return (struct _value *)(signed long int)((signed int)p << 1 | 1);
 
             p = p + 1;
@@ -4572,14 +4572,14 @@ static struct _value * builtin_sfind(struct _value *src, struct _value *pos, str
 static struct _value * builtin_sget(struct _value *s, struct _value *p)
 {
   signed int pp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)s) == 0)
-    tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)s) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)s) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
@@ -4590,15 +4590,15 @@ static struct _value * builtin_sget(struct _value *s, struct _value *p)
     {
       pp = (signed int)(signed long int)p >> 1;
       if(!(pp >= 0))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = pp >= (signed int)*((enum anonymous$7 *)s) >> 4 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = pp >= (signed int)*((enum anonymous_7 *)s) >> 4 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         return val_null;
 
       else
-        return (struct _value *)(signed long int)((signed int)(unsigned char)(&((struct anonymous$5 *)s)->c)[(signed long int)pp] << 1 | 1);
+        return (struct _value *)(signed long int)((signed int)(unsigned char)(&((struct anonymous_5 *)s)->c)[(signed long int)pp] << 1 | 1);
     }
 }
 
@@ -4613,7 +4613,7 @@ static struct _value * builtin_smake(struct _value *l)
   else
   {
     v=neko_alloc_empty_string((unsigned int)((signed int)(signed long int)l >> 1));
-    memset((void *)&((struct anonymous$5 *)v)->c, 0, (unsigned long int)((signed int)(signed long int)l >> 1));
+    memset((void *)&((struct anonymous_5 *)v)->c, 0, (unsigned long int)((signed int)(signed long int)l >> 1));
     return v;
   }
 }
@@ -4624,14 +4624,14 @@ static struct _value * builtin_sset(struct _value *s, struct _value *p, struct _
 {
   signed int pp;
   unsigned char cc;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)s) == 0)
-    tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)s) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)s) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
@@ -4646,17 +4646,17 @@ static struct _value * builtin_sset(struct _value *s, struct _value *p, struct _
       {
         pp = (signed int)(signed long int)p >> 1;
         if(!(pp >= 0))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = pp >= (signed int)*((enum anonymous$7 *)s) >> 4 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = pp >= (signed int)*((enum anonymous_7 *)s) >> 4 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           return val_null;
 
         else
         {
           cc = (unsigned char)((signed int)(signed long int)c >> 1);
-          (&((struct anonymous$5 *)s)->c)[(signed long int)pp] = (char)cc;
+          (&((struct anonymous_5 *)s)->c)[(signed long int)pp] = (char)cc;
           return (struct _value *)(signed long int)((signed int)cc << 1 | 1);
         }
       }
@@ -4666,17 +4666,17 @@ static struct _value * builtin_sset(struct _value *s, struct _value *p, struct _
 // file vm/builtins.c line 204
 static struct _value * builtin_ssize(struct _value *s)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)s) == 0)
-    tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)s) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)s) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
-    return (struct _value *)(signed long int)((signed int)((signed int)*((enum anonymous$7 *)s) >> 4) << 1 | 1);
+    return (struct _value *)(signed long int)((signed int)((signed int)*((enum anonymous_7 *)s) >> 4) << 1 | 1);
 }
 
 // builtin_ssub
@@ -4685,14 +4685,14 @@ static struct _value * builtin_ssub(struct _value *s, struct _value *p, struct _
 {
   signed int pp;
   signed int ll;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)s) == 0)
-    tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)s) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)s) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
@@ -4708,18 +4708,18 @@ static struct _value * builtin_ssub(struct _value *s, struct _value *p, struct _
         pp = (signed int)(signed long int)p >> 1;
         ll = (signed int)(signed long int)l >> 1;
         if(!(ll + pp >= 0) || !(ll >= 0) || !(pp >= 0))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = pp + ll > (signed int)*((enum anonymous$7 *)s) >> 4 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = pp + ll > (signed int)*((enum anonymous_7 *)s) >> 4 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           return (struct _value *)(void *)0;
 
         else
         {
-          struct _value *return_value_neko_copy_string$3;
-          return_value_neko_copy_string$3=neko_copy_string(&((struct anonymous$5 *)s)->c + (signed long int)pp, (signed long int)ll);
-          return return_value_neko_copy_string$3;
+          struct _value *return_value_neko_copy_string_3;
+          return_value_neko_copy_string_3=neko_copy_string(&((struct anonymous_5 *)s)->c + (signed long int)pp, (signed long int)ll);
+          return return_value_neko_copy_string_3;
         }
       }
 }
@@ -4731,9 +4731,9 @@ static struct _value * builtin_string(struct _value *v)
   struct _buffer *b;
   b=neko_alloc_buffer((const char *)(void *)0);
   neko_val_buffer(b, v);
-  struct _value *return_value_neko_buffer_to_string$1;
-  return_value_neko_buffer_to_string$1=neko_buffer_to_string(b);
-  return return_value_neko_buffer_to_string$1;
+  struct _value *return_value_neko_buffer_to_string_1;
+  return_value_neko_buffer_to_string_1=neko_buffer_to_string(b);
+  return return_value_neko_buffer_to_string_1;
 }
 
 // builtin_throw
@@ -4748,13 +4748,13 @@ static struct _value * builtin_throw(struct _value *v)
 // file vm/builtins.c line 1127
 static struct _value * builtin_typeof(struct _value *v)
 {
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((1 & (signed int)v) == 0))
-    tmp_if_expr$1 = VAL_INT;
+    tmp_if_expr_1 = VAL_INT;
 
   else
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)v) & (1 << 4) - 1;
-  switch(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)v) & (1 << 4) - 1;
+  switch(tmp_if_expr_1)
   {
     case VAL_INT:
 
@@ -4786,33 +4786,33 @@ static struct _value * builtin_typeof(struct _value *v)
 static struct _value * builtin_varargs(struct _value *f)
 {
   struct _value *fvar;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)f) == 0)
-    tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)f) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)f) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  if(!tmp_if_expr$1)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  if(!tmp_if_expr_1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    if(!(((struct anonymous$8 *)f)->nargs == 1))
-      tmp_if_expr$2 = ((struct anonymous$8 *)f)->nargs != -1 ? (_Bool)1 : (_Bool)0;
+    if(!(((struct anonymous_8 *)f)->nargs == 1))
+      tmp_if_expr_2 = ((struct anonymous_8 *)f)->nargs != -1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
     return (struct _value *)(void *)0;
 
   else
   {
     fvar=neko_alloc_function((void *)varargs_callback, (unsigned int)-1, "varargs");
-    ((struct anonymous$8 *)fvar)->env = f;
+    ((struct anonymous_8 *)fvar)->env = f;
     return fvar;
   }
 }
@@ -4853,14 +4853,14 @@ static void close_module(void *p)
 static struct _value * closure_callback(struct _value **args, signed int nargs)
 {
   struct _value *env;
-  void *return_value_neko_local_get$1;
-  return_value_neko_local_get$1=neko_local_get(neko_vm_context);
-  env = ((struct _neko_vm *)return_value_neko_local_get$1)->env;
-  signed int cargs = ((signed int)*((enum anonymous$7 *)env) >> 4) - 2;
-  struct _value **a = &((struct anonymous$4 *)env)->ptr;
+  void *return_value_neko_local_get_1;
+  return_value_neko_local_get_1=neko_local_get(neko_vm_context);
+  env = ((struct _neko_vm *)return_value_neko_local_get_1)->env;
+  signed int cargs = ((signed int)*((enum anonymous_7 *)env) >> 4) - 2;
+  struct _value **a = &((struct anonymous_4 *)env)->ptr;
   struct _value *f = a[(signed long int)0];
   struct _value *o = a[(signed long int)1];
-  signed int fargs = ((struct anonymous$8 *)f)->nargs;
+  signed int fargs = ((struct anonymous_8 *)f)->nargs;
   signed int i;
   if(!(fargs == cargs + nargs) && !(fargs == -1))
     return val_null;
@@ -4868,7 +4868,7 @@ static struct _value * closure_callback(struct _value **args, signed int nargs)
   else
   {
     if(nargs == 0)
-      a = &((struct anonymous$4 *)env)->ptr + (signed long int)2;
+      a = &((struct anonymous_4 *)env)->ptr + (signed long int)2;
 
     else
       if(cargs == 0)
@@ -4876,19 +4876,19 @@ static struct _value * closure_callback(struct _value **args, signed int nargs)
 
       else
       {
-        char *return_value_neko_alloc$2;
-        return_value_neko_alloc$2=neko_alloc((unsigned int)(sizeof(struct _value *) /*8ul*/  * (unsigned long int)(nargs + cargs)));
-        a = (struct _value **)return_value_neko_alloc$2;
+        char *return_value_neko_alloc_2;
+        return_value_neko_alloc_2=neko_alloc((unsigned int)(sizeof(struct _value *) /*8ul*/  * (unsigned long int)(nargs + cargs)));
+        a = (struct _value **)return_value_neko_alloc_2;
         i = 0;
         for( ; !(i >= cargs); i = i + 1)
-          a[(signed long int)i] = (&((struct anonymous$4 *)env)->ptr)[(signed long int)(i + 2)];
+          a[(signed long int)i] = (&((struct anonymous_4 *)env)->ptr)[(signed long int)(i + 2)];
         i = 0;
         for( ; !(i >= nargs); i = i + 1)
           a[(signed long int)(i + cargs)] = args[(signed long int)i];
       }
-    struct _value *return_value_neko_val_callEx$3;
-    return_value_neko_val_callEx$3=neko_val_callEx(o, f, a, nargs + cargs, (struct _value **)(void *)0);
-    return return_value_neko_val_callEx$3;
+    struct _value *return_value_neko_val_callEx_3;
+    return_value_neko_val_callEx_3=neko_val_callEx(o, f, a, nargs + cargs, (struct _value **)(void *)0);
+    return return_value_neko_val_callEx_3;
   }
 }
 
@@ -4911,9 +4911,9 @@ static void default_printer(const char *s, signed int len, void *out)
   while(len >= 1)
   {
     signed int p;
-    unsigned long int return_value_fwrite$1;
-    return_value_fwrite$1=fwrite((const void *)s, (unsigned long int)1, (unsigned long int)len, (struct _IO_FILE *)out);
-    p = (signed int)return_value_fwrite$1;
+    unsigned long int return_value_fwrite_1;
+    return_value_fwrite_1=fwrite((const void *)s, (unsigned long int)1, (unsigned long int)len, (struct _IO_FILE *)out);
+    p = (signed int)return_value_fwrite_1;
     if(!(p >= 1))
     {
       fputs("[ABORTED]", (struct _IO_FILE *)out);
@@ -4938,10 +4938,10 @@ static signed int do_nothing(char (*sb)[64l])
 static char * executable_path()
 {
   signed int length;
-  signed long int return_value_readlink$1;
+  signed long int return_value_readlink_1;
   static char path[1024l];
-  return_value_readlink$1=readlink("/proc/self/exe", path, sizeof(char [1024l]) /*1024ul*/ );
-  length = (signed int)return_value_readlink$1;
+  return_value_readlink_1=readlink("/proc/self/exe", path, sizeof(char [1024l]) /*1024ul*/ );
+  length = (signed int)return_value_readlink_1;
   if(length >= 1024 || !(length >= 0))
   {
     char *p;
@@ -4961,16 +4961,16 @@ static char * executable_path()
 static signed int execute_file(struct _neko_vm *vm, char *file, struct _value *mload)
 {
   struct _value *args[2l];
-  struct _value *return_value_neko_alloc_string$1;
-  return_value_neko_alloc_string$1=neko_alloc_string(file);
-  args[0] = return_value_neko_alloc_string$1;
+  struct _value *return_value_neko_alloc_string_1;
+  return_value_neko_alloc_string_1=neko_alloc_string(file);
+  args[0] = return_value_neko_alloc_string_1;
   args[1] = mload;
   struct _value *exc = (struct _value *)(void *)0;
-  signed int return_value_neko_val_id$2;
-  return_value_neko_val_id$2=neko_val_id("loadmodule");
-  struct _value *return_value_neko_val_field$3;
-  return_value_neko_val_field$3=neko_val_field(mload, return_value_neko_val_id$2);
-  neko_val_callEx(mload, return_value_neko_val_field$3, args, 2, &exc);
+  signed int return_value_neko_val_id_2;
+  return_value_neko_val_id_2=neko_val_id("loadmodule");
+  struct _value *return_value_neko_val_field_3;
+  return_value_neko_val_field_3=neko_val_field(mload, return_value_neko_val_id_2);
+  neko_val_callEx(mload, return_value_neko_val_field_3, args, 2, &exc);
   if(!(exc == ((struct _value *)NULL)))
   {
     report(vm, exc, 1);
@@ -4989,37 +4989,37 @@ static struct _value * failure_to_string()
   o=neko_val_this();
   struct _buffer *b;
   b=neko_alloc_buffer((const char *)(void *)0);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)o) == 0)
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
   {
-    signed int return_value_neko_val_id$2;
-    return_value_neko_val_id$2=neko_val_id("file");
-    struct _value *return_value_neko_val_field$3;
-    return_value_neko_val_field$3=neko_val_field(o, return_value_neko_val_id$2);
-    neko_val_buffer(b, return_value_neko_val_field$3);
+    signed int return_value_neko_val_id_2;
+    return_value_neko_val_id_2=neko_val_id("file");
+    struct _value *return_value_neko_val_field_3;
+    return_value_neko_val_field_3=neko_val_field(o, return_value_neko_val_id_2);
+    neko_val_buffer(b, return_value_neko_val_field_3);
     neko_buffer_append(b, "(");
-    signed int return_value_neko_val_id$4;
-    return_value_neko_val_id$4=neko_val_id("line");
-    struct _value *return_value_neko_val_field$5;
-    return_value_neko_val_field$5=neko_val_field(o, return_value_neko_val_id$4);
-    neko_val_buffer(b, return_value_neko_val_field$5);
+    signed int return_value_neko_val_id_4;
+    return_value_neko_val_id_4=neko_val_id("line");
+    struct _value *return_value_neko_val_field_5;
+    return_value_neko_val_field_5=neko_val_field(o, return_value_neko_val_id_4);
+    neko_val_buffer(b, return_value_neko_val_field_5);
     neko_buffer_append(b, ") : ");
-    signed int return_value_neko_val_id$6;
-    return_value_neko_val_id$6=neko_val_id("msg");
-    struct _value *return_value_neko_val_field$7;
-    return_value_neko_val_field$7=neko_val_field(o, return_value_neko_val_id$6);
-    neko_val_buffer(b, return_value_neko_val_field$7);
-    struct _value *return_value_neko_buffer_to_string$8;
-    return_value_neko_buffer_to_string$8=neko_buffer_to_string(b);
-    return return_value_neko_buffer_to_string$8;
+    signed int return_value_neko_val_id_6;
+    return_value_neko_val_id_6=neko_val_id("msg");
+    struct _value *return_value_neko_val_field_7;
+    return_value_neko_val_field_7=neko_val_field(o, return_value_neko_val_id_6);
+    neko_val_buffer(b, return_value_neko_val_field_7);
+    struct _value *return_value_neko_buffer_to_string_8;
+    return_value_neko_buffer_to_string_8=neko_buffer_to_string(b);
+    return return_value_neko_buffer_to_string_8;
   }
 }
 
@@ -5036,27 +5036,27 @@ static struct _value * get_builtin(struct _neko_module *m, signed int id)
 {
   struct _value *f;
   f=neko_val_field(*neko_builtins, id);
-  signed int return_value_neko_val_id$2;
+  signed int return_value_neko_val_id_2;
   if(f == val_null)
   {
     unsigned int i = (unsigned int)0;
     for( ; !(i >= m->nfields); i = i + 1u)
     {
-      return_value_neko_val_id$2=neko_val_id(&((struct anonymous$5 *)m->fields[(signed long int)i])->c);
-      if(return_value_neko_val_id$2 == id)
+      return_value_neko_val_id_2=neko_val_id(&((struct anonymous_5 *)m->fields[(signed long int)i])->c);
+      if(return_value_neko_val_id_2 == id)
       {
         struct _buffer *b;
         b=neko_alloc_buffer("Builtin not found : ");
         neko_val_buffer(b, m->fields[(signed long int)i]);
-        struct _value *return_value_neko_buffer_to_string$1;
-        return_value_neko_buffer_to_string$1=neko_buffer_to_string(b);
-        _neko_failure(return_value_neko_buffer_to_string$1, "vm/module.c", 129);
+        struct _value *return_value_neko_buffer_to_string_1;
+        return_value_neko_buffer_to_string_1=neko_buffer_to_string(b);
+        _neko_failure(return_value_neko_buffer_to_string_1, "vm/module.c", 129);
       }
 
     }
-    struct _value *return_value_neko_alloc_string$3;
-    return_value_neko_alloc_string$3=neko_alloc_string("Builtin not found");
-    _neko_failure(return_value_neko_alloc_string$3, "vm/module.c", 131);
+    struct _value *return_value_neko_alloc_string_3;
+    return_value_neko_alloc_string_3=neko_alloc_string("Builtin not found");
+    _neko_failure(return_value_neko_alloc_string_3, "vm/module.c", 131);
   }
 
   return f;
@@ -5066,9 +5066,9 @@ static struct _value * get_builtin(struct _neko_module *m, signed int id)
 // file vm/main.c line 214
 static void handle_signal(signed int signal)
 {
-  struct _value *return_value_neko_alloc_string$1;
-  return_value_neko_alloc_string$1=neko_alloc_string("Segmentation fault");
-  neko_val_throw(return_value_neko_alloc_string$1);
+  struct _value *return_value_neko_alloc_string_1;
+  return_value_neko_alloc_string_1=neko_alloc_string("Segmentation fault");
+  neko_val_throw(return_value_neko_alloc_string_1);
 }
 
 // hash_obj_rec
@@ -5085,14 +5085,14 @@ static void hash_obj_rec(struct _value *v, signed int f, void *_p)
 // file vm/hash.c line 39
 static void hash_rec(struct _value *v, signed int *h, struct vlist *l)
 {
-  enum anonymous$7 t;
-  signed int tmp_if_expr$1;
+  enum anonymous_7 t;
+  signed int tmp_if_expr_1;
   if(!((1 & (signed int)v) == 0))
-    tmp_if_expr$1 = VAL_INT;
+    tmp_if_expr_1 = VAL_INT;
 
   else
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)v) & (1 << 4) - 1;
-  t = (enum anonymous$7)tmp_if_expr$1;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)v) & (1 << 4) - 1;
+  t = (enum anonymous_7)tmp_if_expr_1;
   switch((signed int)t)
   {
     case VAL_INT:
@@ -5102,7 +5102,7 @@ static void hash_rec(struct _value *v, signed int *h, struct vlist *l)
     }
     case VAL_INT32:
     {
-      *h = *h * 65599 + ((struct anonymous$26 *)v)->i;
+      *h = *h * 65599 + ((struct anonymous_26 *)v)->i;
       goto __CPROVER_DUMP_L21;
     }
     case VAL_NULL:
@@ -5112,9 +5112,9 @@ static void hash_rec(struct _value *v, signed int *h, struct vlist *l)
     }
     case VAL_FLOAT:
     {
-      signed int hash_rec$$1$$1$$1$$k = (signed int)sizeof(double) /*8ul*/ ;
-      for( ; !(hash_rec$$1$$1$$1$$k == 0); *h = *h * 19 + (signed int)(&((struct anonymous$5 *)v)->c)[(signed long int)hash_rec$$1$$1$$1$$k])
-        hash_rec$$1$$1$$1$$k = hash_rec$$1$$1$$1$$k - 1;
+      signed int hash_rec__1__1__1__k = (signed int)sizeof(double) /*8ul*/ ;
+      for( ; !(hash_rec__1__1__1__k == 0); *h = *h * 19 + (signed int)(&((struct anonymous_5 *)v)->c)[(signed long int)hash_rec__1__1__1__k])
+        hash_rec__1__1__1__k = hash_rec__1__1__1__k - 1;
       goto __CPROVER_DUMP_L21;
     }
     case VAL_BOOL:
@@ -5124,9 +5124,9 @@ static void hash_rec(struct _value *v, signed int *h, struct vlist *l)
     }
     case VAL_STRING:
     {
-      signed int hash_rec$$1$$1$$2$$k = (signed int)*((enum anonymous$7 *)v) >> 4;
-      for( ; !(hash_rec$$1$$1$$2$$k == 0); *h = *h * 19 + (signed int)(&((struct anonymous$5 *)v)->c)[(signed long int)hash_rec$$1$$1$$2$$k])
-        hash_rec$$1$$1$$2$$k = hash_rec$$1$$1$$2$$k - 1;
+      signed int hash_rec__1__1__2__k = (signed int)*((enum anonymous_7 *)v) >> 4;
+      for( ; !(hash_rec__1__1__2__k == 0); *h = *h * 19 + (signed int)(&((struct anonymous_5 *)v)->c)[(signed long int)hash_rec__1__1__2__k])
+        hash_rec__1__1__2__k = hash_rec__1__1__2__k - 1;
       goto __CPROVER_DUMP_L21;
     }
     case VAL_OBJECT:
@@ -5161,13 +5161,13 @@ static void hash_rec(struct _value *v, signed int *h, struct vlist *l)
       else
       {
         struct vlist cur;
-        signed int hash_rec$$1$$1$$5$$k = (signed int)*((enum anonymous$7 *)v) >> 4;
+        signed int hash_rec__1__1__5__k = (signed int)*((enum anonymous_7 *)v) >> 4;
         cur.v = v;
         cur.next = l;
-        while(!(hash_rec$$1$$1$$5$$k == 0))
+        while(!(hash_rec__1__1__5__k == 0))
         {
-          hash_rec$$1$$1$$5$$k = hash_rec$$1$$1$$5$$k - 1;
-          hash_rec((&((struct anonymous$4 *)v)->ptr)[(signed long int)hash_rec$$1$$1$$5$$k], h, &cur);
+          hash_rec__1__1__5__k = hash_rec__1__1__5__k - 1;
+          hash_rec((&((struct anonymous_4 *)v)->ptr)[(signed long int)hash_rec__1__1__5__k], h, &cur);
         }
       }
     }
@@ -5203,22 +5203,22 @@ static struct _value * init_path(const char *path)
     path = allocated;
   }
 
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$5;
-  unsigned long int return_value_strlen$4;
-  _Bool tmp_if_expr$7;
-  unsigned long int return_value_strlen$6;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_5;
+  unsigned long int return_value_strlen_4;
+  _Bool tmp_if_expr_7;
+  unsigned long int return_value_strlen_6;
   while((_Bool)1)
   {
     if(!(*path == 0))
-      tmp_if_expr$1 = (signed int)path[(signed long int)1] == 58 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)path[(signed long int)1] == 58 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
     {
       p=strchr(path + (signed long int)2, 58);
       p2=strchr(path + (signed long int)2, 59);
@@ -5237,50 +5237,50 @@ static struct _value * init_path(const char *path)
 
     tmp=neko_alloc_array((unsigned int)2);
     if(!(p == ((char *)NULL)))
-      tmp_if_expr$2 = (signed int)p[(signed long int)-1] != 47 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)p[(signed long int)-1] != 47 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (signed int)p[(signed long int)-1] != 92 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (signed int)p[(signed long int)-1] != 92 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
       if(p == ((char *)NULL))
       {
-        return_value_strlen$4=strlen(path);
-        tmp_if_expr$5 = (signed int)path[(signed long int)(return_value_strlen$4 - (unsigned long int)1)] != 47 ? (_Bool)1 : (_Bool)0;
+        return_value_strlen_4=strlen(path);
+        tmp_if_expr_5 = (signed int)path[(signed long int)(return_value_strlen_4 - (unsigned long int)1)] != 47 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
       {
-        return_value_strlen$6=strlen(path);
-        tmp_if_expr$7 = (signed int)path[(signed long int)(return_value_strlen$6 - (unsigned long int)1)] != 92 ? (_Bool)1 : (_Bool)0;
+        return_value_strlen_6=strlen(path);
+        tmp_if_expr_7 = (signed int)path[(signed long int)(return_value_strlen_6 - (unsigned long int)1)] != 92 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = (_Bool)0;
+      tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$8)
+    if(tmp_if_expr_8)
     {
       struct _buffer *b;
       b=neko_alloc_buffer(path);
       char c = (char)47;
       neko_buffer_append_sub(b, &c, (signed long int)1);
-      (&((struct anonymous$4 *)tmp)->ptr)[(signed long int)0]=neko_buffer_to_string(b);
+      (&((struct anonymous_4 *)tmp)->ptr)[(signed long int)0]=neko_buffer_to_string(b);
     }
 
     else
-      (&((struct anonymous$4 *)tmp)->ptr)[(signed long int)0]=neko_alloc_string(path);
-    (&((struct anonymous$4 *)tmp)->ptr)[(signed long int)1] = l;
+      (&((struct anonymous_4 *)tmp)->ptr)[(signed long int)0]=neko_alloc_string(path);
+    (&((struct anonymous_4 *)tmp)->ptr)[(signed long int)1] = l;
     l = tmp;
     if(!(p == ((char *)NULL)))
       *p = (char)(p == p2 ? 59 : 58);
@@ -5297,7 +5297,7 @@ static struct _value * init_path(const char *path)
 
 // jit_run
 // file vm/interp.c line 265
-static signed long int jit_run(struct _neko_vm *vm, struct anonymous$8 *acc)
+static signed long int jit_run(struct _neko_vm *vm, struct anonymous_8 *acc)
 {
   struct _neko_module *m = (struct _neko_module *)acc->module;
   signed long int return_value;
@@ -5315,7 +5315,7 @@ static void * load_primitive(const char *prim, signed int nargs, struct _value *
   struct _liblist *l;
   struct _value * (*ptr)();
   struct _value *return_value;
-  char *tmp_post$7;
+  char *tmp_post_7;
   if(pos == ((char *)NULL))
     return (void *)0;
 
@@ -5323,14 +5323,14 @@ static void * load_primitive(const char *prim, signed int nargs, struct _value *
   {
     l = *libs;
     *pos = (char)0;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(prim);
-    len = (signed int)return_value_strlen$1 + 1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(prim);
+    len = (signed int)return_value_strlen_1 + 1;
     while(!(l == ((struct _liblist *)NULL)))
     {
-      signed int return_value_memcmp$2;
-      return_value_memcmp$2=memcmp((const void *)l->name, (const void *)prim, (unsigned long int)len);
-      if(return_value_memcmp$2 == 0)
+      signed int return_value_memcmp_2;
+      return_value_memcmp_2=memcmp((const void *)l->name, (const void *)prim, (unsigned long int)len);
+      if(return_value_memcmp_2 == 0)
         break;
 
       l = l->next;
@@ -5341,34 +5341,34 @@ static void * load_primitive(const char *prim, signed int nargs, struct _value *
       struct _value *pname;
       pname=neko_select_file(path, prim, ".ndll");
       pname = pname;
-      h=dlopen(&((struct anonymous$5 *)pname)->c, 0x00001);
+      h=dlopen(&((struct anonymous_5 *)pname)->c, 0x00001);
       if(h == NULL)
       {
         struct _buffer *b;
         b=neko_alloc_buffer("Failed to load library : ");
         neko_val_buffer(b, pname);
         neko_buffer_append(b, " (");
-        char *return_value_dlerror$3;
-        return_value_dlerror$3=dlerror();
-        neko_buffer_append(b, return_value_dlerror$3);
+        char *return_value_dlerror_3;
+        return_value_dlerror_3=dlerror();
+        neko_buffer_append(b, return_value_dlerror_3);
         neko_buffer_append(b, ")");
         *pos = (char)64;
-        struct _value *return_value_neko_buffer_to_string$4;
-        return_value_neko_buffer_to_string$4=neko_buffer_to_string(b);
-        _neko_failure(return_value_neko_buffer_to_string$4, "vm/load.c", 237);
+        struct _value *return_value_neko_buffer_to_string_4;
+        return_value_neko_buffer_to_string_4=neko_buffer_to_string(b);
+        _neko_failure(return_value_neko_buffer_to_string_4, "vm/load.c", 237);
       }
 
-      char *return_value_neko_alloc$5;
-      return_value_neko_alloc$5=neko_alloc((unsigned int)sizeof(struct _liblist) /*24ul*/ );
-      l = (struct _liblist *)return_value_neko_alloc$5;
+      char *return_value_neko_alloc_5;
+      return_value_neko_alloc_5=neko_alloc((unsigned int)sizeof(struct _liblist) /*24ul*/ );
+      l = (struct _liblist *)return_value_neko_alloc_5;
       l->handle = h;
       l->name=neko_alloc_private((unsigned int)len);
       memcpy((void *)l->name, (const void *)prim, (unsigned long int)len);
       l->next = *libs;
       *libs = l;
-      void *return_value_dlsym$6;
-      return_value_dlsym$6=dlsym(l->handle, "__neko_entry_point");
-      ptr = (struct _value * (*)())return_value_dlsym$6;
+      void *return_value_dlsym_6;
+      return_value_dlsym_6=dlsym(l->handle, "__neko_entry_point");
+      ptr = (struct _value * (*)())return_value_dlsym_6;
       if(!(ptr == ((struct _value * (*)())NULL)))
       {
         return_value=ptr();
@@ -5377,13 +5377,13 @@ static void * load_primitive(const char *prim, signed int nargs, struct _value *
 
     }
 
-    tmp_post$7 = pos;
+    tmp_post_7 = pos;
     pos = pos + 1l;
-    *tmp_post$7 = (char)64;
+    *tmp_post_7 = (char)64;
     char buf[100l];
-    unsigned long int return_value_strlen$8;
-    return_value_strlen$8=strlen(pos);
-    if(return_value_strlen$8 >= 91ul)
+    unsigned long int return_value_strlen_8;
+    return_value_strlen_8=strlen(pos);
+    if(return_value_strlen_8 >= 91ul)
       return (void *)0;
 
     else
@@ -5393,9 +5393,9 @@ static void * load_primitive(const char *prim, signed int nargs, struct _value *
 
       else
         sprintf(buf, "%s__%d", pos, nargs);
-      void *return_value_dlsym$9;
-      return_value_dlsym$9=dlsym(l->handle, buf);
-      ptr = (struct _value * (*)())return_value_dlsym$9;
+      void *return_value_dlsym_9;
+      return_value_dlsym_9=dlsym(l->handle, buf);
+      ptr = (struct _value * (*)())return_value_dlsym_9;
       if(ptr == ((struct _value * (*)())NULL))
         return (void *)0;
 
@@ -5416,47 +5416,47 @@ static struct _value * loader_loadmodule(struct _value *mname, struct _value *vt
   struct _value *o;
   o=neko_val_this();
   struct _value *cache;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)o) == 0)
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
   {
     if((1 & (signed int)mname) == 0)
-      tmp_if_expr$2 = ((signed int)*((enum anonymous$7 *)mname) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = ((signed int)*((enum anonymous_7 *)mname) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       return (struct _value *)(void *)0;
 
     else
     {
       if((1 & (signed int)vthis) == 0)
-        tmp_if_expr$3 = (signed int)*((enum anonymous$7 *)vthis) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)*((enum anonymous_7 *)vthis) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(!tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(!tmp_if_expr_3)
         return (struct _value *)(void *)0;
 
       else
       {
         cache=neko_val_field(o, id_cache);
         if((1 & (signed int)cache) == 0)
-          tmp_if_expr$4 = (signed int)*((enum anonymous$7 *)cache) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (signed int)*((enum anonymous_7 *)cache) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(!tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(!tmp_if_expr_4)
           return (struct _value *)(void *)0;
 
         else
@@ -5465,22 +5465,22 @@ static struct _value * loader_loadmodule(struct _value *mname, struct _value *vt
           void *p;
           struct _neko_module *m;
           struct _neko_vm *vm;
-          void *return_value_neko_local_get$5;
-          return_value_neko_local_get$5=neko_local_get(neko_vm_context);
-          vm = (struct _neko_vm *)return_value_neko_local_get$5;
+          void *return_value_neko_local_get_5;
+          return_value_neko_local_get_5=neko_local_get(neko_vm_context);
+          vm = (struct _neko_vm *)return_value_neko_local_get_5;
           signed int mid;
-          mid=neko_val_id(&((struct anonymous$5 *)mname)->c);
+          mid=neko_val_id(&((struct anonymous_5 *)mname)->c);
           struct _value *mv;
           mv=neko_val_field(cache, mid);
           if((1 & (signed int)mv) == 0)
           {
-            if(!((signed int)*((enum anonymous$7 *)mv) == VAL_ABSTRACT))
+            if(!((signed int)*((enum anonymous_7 *)mv) == VAL_ABSTRACT))
               goto __CPROVER_DUMP_L13;
 
-            if(!(((struct anonymous$6 *)mv)->kind == neko_kind_module))
+            if(!(((struct anonymous_6 *)mv)->kind == neko_kind_module))
               goto __CPROVER_DUMP_L13;
 
-            m = (struct _neko_module *)((struct anonymous$6 *)mv)->data;
+            m = (struct _neko_module *)((struct anonymous_6 *)mv)->data;
             return m->exports;
           }
 
@@ -5489,9 +5489,9 @@ static struct _value * loader_loadmodule(struct _value *mname, struct _value *vt
 
           __CPROVER_DUMP_L13:
             ;
-            struct _value *return_value_neko_val_field$6;
-            return_value_neko_val_field$6=neko_val_field(o, id_path);
-            open_module(return_value_neko_val_field$6, &((struct anonymous$5 *)mname)->c, &r, &p);
+            struct _value *return_value_neko_val_field_6;
+            return_value_neko_val_field_6=neko_val_field(o, id_path);
+            open_module(return_value_neko_val_field_6, &((struct anonymous_5 *)mname)->c, &r, &p);
             if(!(vm->fstats == ((void (*)(struct _neko_vm *, const char *, signed int))NULL)))
               vm->fstats(vm, "neko_read_module", 1);
 
@@ -5505,22 +5505,22 @@ static struct _value * loader_loadmodule(struct _value *mname, struct _value *vt
               struct _buffer *b;
               b=neko_alloc_buffer("Invalid module : ");
               neko_val_buffer(b, mname);
-              struct _value *return_value_neko_buffer_to_string$7;
-              return_value_neko_buffer_to_string$7=neko_buffer_to_string(b);
-              _neko_failure(return_value_neko_buffer_to_string$7, "vm/load.c", 398);
+              struct _value *return_value_neko_buffer_to_string_7;
+              return_value_neko_buffer_to_string_7=neko_buffer_to_string(b);
+              _neko_failure(return_value_neko_buffer_to_string_7, "vm/load.c", 398);
             }
 
-            m->name=neko_alloc_string(&((struct anonymous$5 *)mname)->c);
+            m->name=neko_alloc_string(&((struct anonymous_5 *)mname)->c);
             mv=neko_alloc_abstract(neko_kind_module, (void *)m);
             neko_alloc_field(cache, mid, mv);
             if(!(vm->fstats == ((void (*)(struct _neko_vm *, const char *, signed int))NULL)))
-              vm->fstats(vm, &((struct anonymous$5 *)mname)->c, 1);
+              vm->fstats(vm, &((struct anonymous_5 *)mname)->c, 1);
 
-            struct _neko_vm *return_value_neko_vm_current$8;
-            return_value_neko_vm_current$8=neko_vm_current();
-            neko_vm_execute(return_value_neko_vm_current$8, (void *)m);
+            struct _neko_vm *return_value_neko_vm_current_8;
+            return_value_neko_vm_current_8=neko_vm_current();
+            neko_vm_execute(return_value_neko_vm_current_8, (void *)m);
             if(!(vm->fstats == ((void (*)(struct _neko_vm *, const char *, signed int))NULL)))
-              vm->fstats(vm, &((struct anonymous$5 *)mname)->c, 0);
+              vm->fstats(vm, &((struct anonymous_5 *)mname)->c, 0);
 
             return m->exports;
           }
@@ -5537,26 +5537,26 @@ static struct _value * loader_loadprim(struct _value *prim, struct _value *nargs
   struct _value *o;
   o=neko_val_this();
   struct _value *libs;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)o) == 0)
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)o) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  if(!tmp_if_expr_1)
     return (struct _value *)(void *)0;
 
   else
   {
     if((1 & (signed int)prim) == 0)
-      tmp_if_expr$2 = ((signed int)*((enum anonymous$7 *)prim) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = ((signed int)*((enum anonymous_7 *)prim) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       return (struct _value *)(void *)0;
 
     else
@@ -5567,16 +5567,16 @@ static struct _value * loader_loadprim(struct _value *prim, struct _value *nargs
       {
         libs=neko_val_field(o, id_loader_libs);
         if((1 & (signed int)libs) == 0)
-          tmp_if_expr$3 = (signed int)*((enum anonymous$7 *)libs) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (signed int)*((enum anonymous_7 *)libs) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = ((struct anonymous$6 *)libs)->kind == k_loader_libs ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = ((struct anonymous_6 *)libs)->kind == k_loader_libs ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(!tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(!tmp_if_expr_4)
           return (struct _value *)(void *)0;
 
         else
@@ -5586,14 +5586,14 @@ static struct _value * loader_loadprim(struct _value *prim, struct _value *nargs
           else
           {
             struct _neko_vm *vm;
-            void *return_value_neko_local_get$5;
-            return_value_neko_local_get$5=neko_local_get(neko_vm_context);
-            vm = (struct _neko_vm *)return_value_neko_local_get$5;
+            void *return_value_neko_local_get_5;
+            return_value_neko_local_get_5=neko_local_get(neko_vm_context);
+            vm = (struct _neko_vm *)return_value_neko_local_get_5;
             void *ptr;
-            struct _value *return_value_neko_val_field$6;
-            return_value_neko_val_field$6=neko_val_field(o, id_path);
-            ptr=load_primitive(&((struct anonymous$5 *)prim)->c, (signed int)(signed long int)nargs >> 1, return_value_neko_val_field$6, (struct _liblist **)(void *)&((struct anonymous$6 *)libs)->data);
-            struct anonymous$8 *f;
+            struct _value *return_value_neko_val_field_6;
+            return_value_neko_val_field_6=neko_val_field(o, id_path);
+            ptr=load_primitive(&((struct anonymous_5 *)prim)->c, (signed int)(signed long int)nargs >> 1, return_value_neko_val_field_6, (struct _liblist **)(void *)&((struct anonymous_6 *)libs)->data);
+            struct anonymous_8 *f;
             if(ptr == NULL)
             {
               struct _buffer *b;
@@ -5602,24 +5602,24 @@ static struct _value * loader_loadprim(struct _value *prim, struct _value *nargs
               neko_buffer_append(b, "(");
               neko_val_buffer(b, nargs);
               neko_buffer_append(b, ")");
-              struct _value *return_value_neko_buffer_to_string$7;
-              return_value_neko_buffer_to_string$7=neko_buffer_to_string(b);
-              _neko_failure(return_value_neko_buffer_to_string$7, "vm/load.c", 357);
+              struct _value *return_value_neko_buffer_to_string_7;
+              return_value_neko_buffer_to_string_7=neko_buffer_to_string(b);
+              _neko_failure(return_value_neko_buffer_to_string_7, "vm/load.c", 357);
             }
 
-            struct _value *return_value_neko_copy_string$8;
-            return_value_neko_copy_string$8=neko_copy_string(&((struct anonymous$5 *)prim)->c, (signed long int)((signed int)*((enum anonymous$7 *)prim) >> 4));
-            struct _value *return_value_neko_alloc_function$9;
-            return_value_neko_alloc_function$9=neko_alloc_function(ptr, (unsigned int)((signed int)(signed long int)nargs >> 1), &((struct anonymous$5 *)return_value_neko_copy_string$8)->c);
-            f = (struct anonymous$8 *)return_value_neko_alloc_function$9;
+            struct _value *return_value_neko_copy_string_8;
+            return_value_neko_copy_string_8=neko_copy_string(&((struct anonymous_5 *)prim)->c, (signed long int)((signed int)*((enum anonymous_7 *)prim) >> 4));
+            struct _value *return_value_neko_alloc_function_9;
+            return_value_neko_alloc_function_9=neko_alloc_function(ptr, (unsigned int)((signed int)(signed long int)nargs >> 1), &((struct anonymous_5 *)return_value_neko_copy_string_8)->c);
+            f = (struct anonymous_8 *)return_value_neko_alloc_function_9;
             if(!(vm->pstats == ((void (*)(struct _neko_vm *, const char *, signed int))NULL)))
             {
               if(!((signed int)nargs >> 1 >= 7))
               {
                 struct _value *env;
                 env=neko_alloc_array((unsigned int)2);
-                (&((struct anonymous$4 *)env)->ptr)[(signed long int)0] = (struct _value *)f->module;
-                (&((struct anonymous$4 *)env)->ptr)[(signed long int)1] = (struct _value *)((signed long int)f->addr | (signed long int)1);
+                (&((struct anonymous_4 *)env)->ptr)[(signed long int)0] = (struct _value *)f->module;
+                (&((struct anonymous_4 *)env)->ptr)[(signed long int)1] = (struct _value *)((signed long int)f->addr | (signed long int)1);
                 f->addr = (void *)stats_proxy;
                 f->env = env;
               }
@@ -5642,18 +5642,18 @@ signed int main(signed int argc, char **argv)
   neko_global_init();
   vm=neko_vm_alloc((void *)0);
   neko_vm_select(vm);
-  signed int return_value_neko_has_embedded_module$7;
-  return_value_neko_has_embedded_module$7=neko_has_embedded_module(vm);
-  unsigned long int return_value_strlen$5;
-  if(return_value_neko_has_embedded_module$7 == 0)
+  signed int return_value_neko_has_embedded_module_7;
+  return_value_neko_has_embedded_module_7=neko_has_embedded_module(vm);
+  unsigned long int return_value_strlen_5;
+  if(return_value_neko_has_embedded_module_7 == 0)
   {
     signed int jit = 1;
     signed int stats = 0;
     while(argc >= 2)
     {
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(argv[(signed long int)1], "-interp");
-      if(return_value_strcmp$1 == 0)
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(argv[(signed long int)1], "-interp");
+      if(return_value_strcmp_1 == 0)
       {
         argc = argc - 1;
         argv = argv + 1l;
@@ -5662,9 +5662,9 @@ signed int main(signed int argc, char **argv)
 
       else
       {
-        signed int return_value_strcmp$2;
-        return_value_strcmp$2=strcmp(argv[(signed long int)1], "-stats");
-        if(return_value_strcmp$2 == 0)
+        signed int return_value_strcmp_2;
+        return_value_strcmp_2=strcmp(argv[(signed long int)1], "-stats");
+        if(return_value_strcmp_2 == 0)
         {
           argc = argc - 1;
           argv = argv + 1l;
@@ -5675,9 +5675,9 @@ signed int main(signed int argc, char **argv)
 
         else
         {
-          signed int return_value_strcmp$3;
-          return_value_strcmp$3=strcmp(argv[(signed long int)1], "-version");
-          if(return_value_strcmp$3 == 0)
+          signed int return_value_strcmp_3;
+          return_value_strcmp_3=strcmp(argv[(signed long int)1], "-version");
+          if(return_value_strcmp_3 == 0)
           {
             argc = argc - 1;
             argv = argv + 1l;
@@ -5692,7 +5692,7 @@ signed int main(signed int argc, char **argv)
     if(!(jit == 0))
     {
       struct sigaction act;
-      act.__sigaction_handler.sa_sigaction = (void (*)(signed int, struct anonymous$19 *, void *))(void *)0;
+      act.__sigaction_handler.sa_sigaction = (void (*)(signed int, struct anonymous_19 *, void *))(void *)0;
       act.__sigaction_handler.sa_handler = handle_signal;
       act.sa_flags = 0;
       sigemptyset(&act.sa_mask);
@@ -5717,24 +5717,24 @@ signed int main(signed int argc, char **argv)
       struct _value *v;
       neko_stats_measure(vm, "total", 0);
       v=neko_stats_build(vm);
-      struct _value *return_value_neko_alloc_string$4;
-      return_value_neko_alloc_string$4=neko_alloc_string("TOT\tTIME\tCOUNT\tNAME\n");
-      neko_val_print(return_value_neko_alloc_string$4);
+      struct _value *return_value_neko_alloc_string_4;
+      return_value_neko_alloc_string_4=neko_alloc_string("TOT\tTIME\tCOUNT\tNAME\n");
+      neko_val_print(return_value_neko_alloc_string_4);
       while(!(v == val_null))
       {
         char buf[256l];
-        struct _value **s = &((struct anonymous$4 *)v)->ptr;
+        struct _value **s = &((struct anonymous_4 *)v)->ptr;
         signed int errors = (signed int)(signed long int)s[(signed long int)4] >> 1;
-        sprintf(buf, "%d\t%d\t%d\t%s%c", (signed int)(signed long int)s[(signed long int)1] >> 1, (signed int)(signed long int)s[(signed long int)2] >> 1, (signed int)(signed long int)s[(signed long int)3] >> 1, &((struct anonymous$5 *)s[(signed long int)0])->c, errors != 0 ? 32 : 10);
+        sprintf(buf, "%d\t%d\t%d\t%s%c", (signed int)(signed long int)s[(signed long int)1] >> 1, (signed int)(signed long int)s[(signed long int)2] >> 1, (signed int)(signed long int)s[(signed long int)3] >> 1, &((struct anonymous_5 *)s[(signed long int)0])->c, errors != 0 ? 32 : 10);
         if(!(errors == 0))
         {
-          return_value_strlen$5=strlen(buf);
-          sprintf(buf + (signed long int)return_value_strlen$5, "ERRORS=%d\n", errors);
+          return_value_strlen_5=strlen(buf);
+          sprintf(buf + (signed long int)return_value_strlen_5, "ERRORS=%d\n", errors);
         }
 
-        struct _value *return_value_neko_alloc_string$6;
-        return_value_neko_alloc_string$6=neko_alloc_string(buf);
-        neko_val_print(return_value_neko_alloc_string$6);
+        struct _value *return_value_neko_alloc_string_6;
+        return_value_neko_alloc_string_6=neko_alloc_string(buf);
+        neko_val_print(return_value_neko_alloc_string_6);
         v = s[(signed long int)5];
       }
     }
@@ -5746,17 +5746,17 @@ signed int main(signed int argc, char **argv)
     mload=neko_default_loader(argv + (signed long int)1, argc - 1);
     r=neko_execute_self(vm, mload);
   }
-  signed int return_value_neko_val_id$9;
-  struct _value *return_value_neko_val_field$10;
-  signed int return_value_neko_val_id$8;
+  signed int return_value_neko_val_id_9;
+  struct _value *return_value_neko_val_field_10;
+  signed int return_value_neko_val_id_8;
   if(!(mload == ((struct _value *)NULL)))
   {
-    return_value_neko_val_id$9=neko_val_id("dump_prof");
-    return_value_neko_val_field$10=neko_val_field(mload, return_value_neko_val_id$9);
-    if(!(return_value_neko_val_field$10 == val_null))
+    return_value_neko_val_id_9=neko_val_id("dump_prof");
+    return_value_neko_val_field_10=neko_val_field(mload, return_value_neko_val_id_9);
+    if(!(return_value_neko_val_field_10 == val_null))
     {
-      return_value_neko_val_id$8=neko_val_id("dump_prof");
-      neko_val_ocall0(mload, return_value_neko_val_id$8);
+      return_value_neko_val_id_8=neko_val_id("dump_prof");
+      neko_val_ocall0(mload, return_value_neko_val_id_8);
     }
 
   }
@@ -5772,32 +5772,32 @@ signed int main(signed int argc, char **argv)
 // file vm/alloc.c line 164
 char * neko_alloc(unsigned int nbytes)
 {
-  void *tmp_if_expr$3;
-  void *return_value_GC_malloc_ignore_off_page$1;
-  void *return_value_GC_malloc$2;
+  void *tmp_if_expr_3;
+  void *return_value_GC_malloc_ignore_off_page_1;
+  void *return_value_GC_malloc_2;
   if(nbytes >= 257u)
   {
-    return_value_GC_malloc_ignore_off_page$1=GC_malloc_ignore_off_page((unsigned long int)nbytes);
-    tmp_if_expr$3 = return_value_GC_malloc_ignore_off_page$1;
+    return_value_GC_malloc_ignore_off_page_1=GC_malloc_ignore_off_page((unsigned long int)nbytes);
+    tmp_if_expr_3 = return_value_GC_malloc_ignore_off_page_1;
   }
 
   else
   {
-    return_value_GC_malloc$2=GC_malloc((unsigned long int)nbytes);
-    tmp_if_expr$3 = return_value_GC_malloc$2;
+    return_value_GC_malloc_2=GC_malloc((unsigned long int)nbytes);
+    tmp_if_expr_3 = return_value_GC_malloc_2;
   }
-  return (char *)tmp_if_expr$3;
+  return (char *)tmp_if_expr_3;
 }
 
 // neko_alloc_abstract
 // file vm/alloc.c line 215
 struct _value * neko_alloc_abstract(struct anonymous *k, void *data)
 {
-  struct anonymous$6 *v;
-  void *return_value_GC_malloc$1;
-  return_value_GC_malloc$1=GC_malloc(sizeof(struct anonymous$6) /*24ul*/ );
-  v = (struct anonymous$6 *)return_value_GC_malloc$1;
-  v->t = (enum anonymous$7)VAL_ABSTRACT;
+  struct anonymous_6 *v;
+  void *return_value_GC_malloc_1;
+  return_value_GC_malloc_1=GC_malloc(sizeof(struct anonymous_6) /*24ul*/ );
+  v = (struct anonymous_6 *)return_value_GC_malloc_1;
+  v->t = (enum anonymous_7)VAL_ABSTRACT;
   v->kind = k;
   v->data = data;
   return (struct _value *)v;
@@ -5807,12 +5807,12 @@ struct _value * neko_alloc_abstract(struct anonymous *k, void *data)
 // file vm/alloc.c line 299
 extern struct _value * neko_alloc_apply(signed int nargs, struct _value *env)
 {
-  struct anonymous$8 *v;
-  void *return_value_GC_malloc$1;
-  return_value_GC_malloc$1=GC_malloc(sizeof(struct anonymous$8) /*32ul*/ );
-  v = (struct anonymous$8 *)return_value_GC_malloc$1;
-  v->t = (enum anonymous$7)VAL_PRIMITIVE;
-  struct _value *return_value_neko_alloc_string$2;
+  struct anonymous_8 *v;
+  void *return_value_GC_malloc_1;
+  return_value_GC_malloc_1=GC_malloc(sizeof(struct anonymous_8) /*32ul*/ );
+  v = (struct anonymous_8 *)return_value_GC_malloc_1;
+  v->t = (enum anonymous_7)VAL_PRIMITIVE;
+  struct _value *return_value_neko_alloc_string_2;
   switch(nargs)
   {
     case 1:
@@ -5842,8 +5842,8 @@ extern struct _value * neko_alloc_apply(signed int nargs, struct _value *env)
     }
     default:
     {
-      return_value_neko_alloc_string$2=neko_alloc_string("Too many apply arguments");
-      _neko_failure(return_value_neko_alloc_string$2, "vm/alloc.c", 308);
+      return_value_neko_alloc_string_2=neko_alloc_string("Too many apply arguments");
+      _neko_failure(return_value_neko_alloc_string_2, "vm/alloc.c", 308);
     }
   }
   v->nargs = nargs;
@@ -5857,10 +5857,10 @@ extern struct _value * neko_alloc_apply(signed int nargs, struct _value *env)
 struct _value * neko_alloc_array(unsigned int n)
 {
   struct _value *v;
-  struct _value *return_value_neko_alloc_string$1;
-  void *tmp_if_expr$4;
-  void *return_value_GC_malloc_ignore_off_page$2;
-  void *return_value_GC_malloc$3;
+  struct _value *return_value_neko_alloc_string_1;
+  void *tmp_if_expr_4;
+  void *return_value_GC_malloc_ignore_off_page_2;
+  void *return_value_GC_malloc_3;
   if(n == 0u)
     return (struct _value *)(void *)&empty_array;
 
@@ -5868,23 +5868,23 @@ struct _value * neko_alloc_array(unsigned int n)
   {
     if(n >= 268435456u)
     {
-      return_value_neko_alloc_string$1=neko_alloc_string("max_array_size reached");
-      _neko_failure(return_value_neko_alloc_string$1, "vm/alloc.c", 209);
+      return_value_neko_alloc_string_1=neko_alloc_string("max_array_size reached");
+      _neko_failure(return_value_neko_alloc_string_1, "vm/alloc.c", 209);
     }
 
-    if(sizeof(struct _value *) /*8ul*/  * (unsigned long int)(n + 4294967295u) + sizeof(struct anonymous$4) /*16ul*/  >= 257ul)
+    if(sizeof(struct _value *) /*8ul*/  * (unsigned long int)(n + 4294967295u) + sizeof(struct anonymous_4) /*16ul*/  >= 257ul)
     {
-      return_value_GC_malloc_ignore_off_page$2=GC_malloc_ignore_off_page(sizeof(struct anonymous$4) /*16ul*/  + (unsigned long int)(n - (unsigned int)1) * sizeof(struct _value *) /*8ul*/ );
-      tmp_if_expr$4 = return_value_GC_malloc_ignore_off_page$2;
+      return_value_GC_malloc_ignore_off_page_2=GC_malloc_ignore_off_page(sizeof(struct anonymous_4) /*16ul*/  + (unsigned long int)(n - (unsigned int)1) * sizeof(struct _value *) /*8ul*/ );
+      tmp_if_expr_4 = return_value_GC_malloc_ignore_off_page_2;
     }
 
     else
     {
-      return_value_GC_malloc$3=GC_malloc(sizeof(struct anonymous$4) /*16ul*/  + (unsigned long int)(n - (unsigned int)1) * sizeof(struct _value *) /*8ul*/ );
-      tmp_if_expr$4 = return_value_GC_malloc$3;
+      return_value_GC_malloc_3=GC_malloc(sizeof(struct anonymous_4) /*16ul*/  + (unsigned long int)(n - (unsigned int)1) * sizeof(struct _value *) /*8ul*/ );
+      tmp_if_expr_4 = return_value_GC_malloc_3;
     }
-    v = (struct _value *)tmp_if_expr$4;
-    v->t = (enum anonymous$7)((unsigned int)VAL_ARRAY | n << 4);
+    v = (struct _value *)tmp_if_expr_4;
+    v->t = (enum anonymous_7)((unsigned int)VAL_ARRAY | n << 4);
     return v;
   }
 }
@@ -5894,9 +5894,9 @@ struct _value * neko_alloc_array(unsigned int n)
 struct _buffer * neko_alloc_buffer(const char *init)
 {
   struct _buffer *b;
-  char *return_value_neko_alloc$1;
-  return_value_neko_alloc$1=neko_alloc((unsigned int)sizeof(struct _buffer) /*16ul*/ );
-  b = (struct _buffer *)return_value_neko_alloc$1;
+  char *return_value_neko_alloc_1;
+  return_value_neko_alloc_1=neko_alloc((unsigned int)sizeof(struct _buffer) /*16ul*/ );
+  b = (struct _buffer *)return_value_neko_alloc_1;
   b->totlen = 0;
   b->blen = 16;
   b->data = (struct _stringitem *)(void *)0;
@@ -5910,11 +5910,11 @@ struct _buffer * neko_alloc_buffer(const char *init)
 // file vm/alloc.c line 172
 struct _value * neko_alloc_empty_string(unsigned int size)
 {
-  struct anonymous$5 *s;
-  struct _value *return_value_neko_alloc_string$1;
-  void *tmp_if_expr$4;
-  void *return_value_GC_malloc_atomic_ignore_off_page$2;
-  void *return_value_GC_malloc_atomic$3;
+  struct anonymous_5 *s;
+  struct _value *return_value_neko_alloc_string_1;
+  void *tmp_if_expr_4;
+  void *return_value_GC_malloc_atomic_ignore_off_page_2;
+  void *return_value_GC_malloc_atomic_3;
   if(size == 0u)
     return (struct _value *)&empty_string;
 
@@ -5922,23 +5922,23 @@ struct _value * neko_alloc_empty_string(unsigned int size)
   {
     if(size >= 268435456u)
     {
-      return_value_neko_alloc_string$1=neko_alloc_string("max_string_size reached");
-      _neko_failure(return_value_neko_alloc_string$1, "vm/alloc.c", 177);
+      return_value_neko_alloc_string_1=neko_alloc_string("max_string_size reached");
+      _neko_failure(return_value_neko_alloc_string_1, "vm/alloc.c", 177);
     }
 
-    if(sizeof(struct anonymous$5) /*8ul*/  + (unsigned long int)size >= 257ul)
+    if(sizeof(struct anonymous_5) /*8ul*/  + (unsigned long int)size >= 257ul)
     {
-      return_value_GC_malloc_atomic_ignore_off_page$2=GC_malloc_atomic_ignore_off_page((unsigned long int)size + sizeof(struct anonymous$5) /*8ul*/ );
-      tmp_if_expr$4 = return_value_GC_malloc_atomic_ignore_off_page$2;
+      return_value_GC_malloc_atomic_ignore_off_page_2=GC_malloc_atomic_ignore_off_page((unsigned long int)size + sizeof(struct anonymous_5) /*8ul*/ );
+      tmp_if_expr_4 = return_value_GC_malloc_atomic_ignore_off_page_2;
     }
 
     else
     {
-      return_value_GC_malloc_atomic$3=GC_malloc_atomic((unsigned long int)size + sizeof(struct anonymous$5) /*8ul*/ );
-      tmp_if_expr$4 = return_value_GC_malloc_atomic$3;
+      return_value_GC_malloc_atomic_3=GC_malloc_atomic((unsigned long int)size + sizeof(struct anonymous_5) /*8ul*/ );
+      tmp_if_expr_4 = return_value_GC_malloc_atomic_3;
     }
-    s = (struct anonymous$5 *)tmp_if_expr$4;
-    s->t = (enum anonymous$7)((unsigned int)VAL_STRING | size << 4);
+    s = (struct anonymous_5 *)tmp_if_expr_4;
+    s->t = (enum anonymous_7)((unsigned int)VAL_STRING | size << 4);
     (&s->c)[(signed long int)size] = (char)0;
     return (struct _value *)s;
   }
@@ -5955,11 +5955,11 @@ void neko_alloc_field(struct _value *obj, signed int f, struct _value *v)
 // file vm/alloc.c line 190
 struct _value * neko_alloc_float(double f)
 {
-  struct anonymous$25 *v;
-  void *return_value_GC_malloc_atomic$1;
-  return_value_GC_malloc_atomic$1=GC_malloc_atomic(sizeof(struct anonymous$25) /*12ul*/ );
-  v = (struct anonymous$25 *)return_value_GC_malloc_atomic$1;
-  v->t = (enum anonymous$7)VAL_FLOAT;
+  struct anonymous_25 *v;
+  void *return_value_GC_malloc_atomic_1;
+  return_value_GC_malloc_atomic_1=GC_malloc_atomic(sizeof(struct anonymous_25) /*12ul*/ );
+  v = (struct anonymous_25 *)return_value_GC_malloc_atomic_1;
+  v->t = (enum anonymous_7)VAL_FLOAT;
   v->f = f;
   return (struct _value *)v;
 }
@@ -5968,24 +5968,24 @@ struct _value * neko_alloc_float(double f)
 // file vm/neko.h line 418
 struct _value * neko_alloc_function(void *c_prim, unsigned int nargs, const char *name)
 {
-  struct anonymous$8 *v;
-  struct _value *return_value_neko_alloc_string$1;
+  struct anonymous_8 *v;
+  struct _value *return_value_neko_alloc_string_1;
   if(c_prim == NULL)
   {
-    return_value_neko_alloc_string$1=neko_alloc_string("alloc_function");
-    _neko_failure(return_value_neko_alloc_string$1, "vm/alloc.c", 226);
+    return_value_neko_alloc_string_1=neko_alloc_string("alloc_function");
+    _neko_failure(return_value_neko_alloc_string_1, "vm/alloc.c", 226);
   }
 
-  void *return_value_GC_malloc$2;
-  return_value_GC_malloc$2=GC_malloc(sizeof(struct anonymous$8) /*32ul*/ );
-  v = (struct anonymous$8 *)return_value_GC_malloc$2;
-  v->t = (enum anonymous$7)VAL_PRIMITIVE;
+  void *return_value_GC_malloc_2;
+  return_value_GC_malloc_2=GC_malloc(sizeof(struct anonymous_8) /*32ul*/ );
+  v = (struct anonymous_8 *)return_value_GC_malloc_2;
+  v->t = (enum anonymous_7)VAL_PRIMITIVE;
   v->addr = c_prim;
   v->nargs = (signed int)nargs;
   v->env=neko_alloc_array((unsigned int)0);
-  struct _value *return_value_neko_alloc_string$3;
-  return_value_neko_alloc_string$3=neko_alloc_string(name);
-  v->module = (void *)return_value_neko_alloc_string$3;
+  struct _value *return_value_neko_alloc_string_3;
+  return_value_neko_alloc_string_3=neko_alloc_string(name);
+  v->module = (void *)return_value_neko_alloc_string_3;
   return (struct _value *)v;
 }
 
@@ -5993,11 +5993,11 @@ struct _value * neko_alloc_function(void *c_prim, unsigned int nargs, const char
 // file vm/alloc.c line 197
 struct _value * neko_alloc_int32(signed int i)
 {
-  struct anonymous$26 *v;
-  void *return_value_GC_malloc_atomic$1;
-  return_value_GC_malloc_atomic$1=GC_malloc_atomic(sizeof(struct anonymous$26) /*8ul*/ );
-  v = (struct anonymous$26 *)return_value_GC_malloc_atomic$1;
-  v->t = (enum anonymous$7)VAL_INT32;
+  struct anonymous_26 *v;
+  void *return_value_GC_malloc_atomic_1;
+  return_value_GC_malloc_atomic_1=GC_malloc_atomic(sizeof(struct anonymous_26) /*8ul*/ );
+  v = (struct anonymous_26 *)return_value_GC_malloc_atomic_1;
+  v->t = (enum anonymous_7)VAL_INT32;
   v->i = i;
   return (struct _value *)v;
 }
@@ -6007,9 +6007,9 @@ struct _value * neko_alloc_int32(signed int i)
 struct _mt_local * neko_alloc_local()
 {
   struct _mt_local *l;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _mt_local) /*4ul*/ );
-  l = (struct _mt_local *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _mt_local) /*4ul*/ );
+  l = (struct _mt_local *)return_value_malloc_1;
   pthread_key_create(&l->key, (void (*)(void *))(void *)0);
   return l;
 }
@@ -6019,10 +6019,10 @@ struct _mt_local * neko_alloc_local()
 struct _mt_lock * neko_alloc_lock()
 {
   struct _mt_lock *l;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _mt_lock) /*40ul*/ );
-  l = (struct _mt_lock *)return_value_malloc$1;
-  union anonymous$21 a;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _mt_lock) /*40ul*/ );
+  l = (struct _mt_lock *)return_value_malloc_1;
+  union anonymous_21 a;
   pthread_mutexattr_init(&a);
   pthread_mutexattr_settype(&a, 1);
   pthread_mutex_init(&l->lock, &a);
@@ -6034,18 +6034,18 @@ struct _mt_lock * neko_alloc_lock()
 // file vm/alloc.c line 236
 struct _value * neko_alloc_module_function(void *m, signed long int pos, signed int nargs)
 {
-  struct anonymous$8 *v;
-  struct _value *return_value_neko_alloc_string$1;
+  struct anonymous_8 *v;
+  struct _value *return_value_neko_alloc_string_1;
   if(!(nargs == -1) && !(nargs >= 0))
   {
-    return_value_neko_alloc_string$1=neko_alloc_string("alloc_module_function");
-    _neko_failure(return_value_neko_alloc_string$1, "vm/alloc.c", 239);
+    return_value_neko_alloc_string_1=neko_alloc_string("alloc_module_function");
+    _neko_failure(return_value_neko_alloc_string_1, "vm/alloc.c", 239);
   }
 
-  void *return_value_GC_malloc$2;
-  return_value_GC_malloc$2=GC_malloc(sizeof(struct anonymous$8) /*32ul*/ );
-  v = (struct anonymous$8 *)return_value_GC_malloc$2;
-  v->t = (enum anonymous$7)VAL_FUNCTION;
+  void *return_value_GC_malloc_2;
+  return_value_GC_malloc_2=GC_malloc(sizeof(struct anonymous_8) /*32ul*/ );
+  v = (struct anonymous_8 *)return_value_GC_malloc_2;
+  v->t = (enum anonymous_7)VAL_FUNCTION;
   v->addr = (void *)pos;
   v->nargs = nargs;
   v->env=neko_alloc_array((unsigned int)0);
@@ -6058,27 +6058,27 @@ struct _value * neko_alloc_module_function(void *m, signed long int pos, signed 
 struct _value * neko_alloc_object(struct _value *cpy)
 {
   struct _vobject *v;
-  _Bool tmp_if_expr$2;
-  struct _value *return_value_neko_alloc_string$1;
+  _Bool tmp_if_expr_2;
+  struct _value *return_value_neko_alloc_string_1;
   if(!(cpy == ((struct _value *)NULL)) && !(cpy == val_null))
   {
     if((1 & (signed int)cpy) == 0)
-      tmp_if_expr$2 = (signed int)*((enum anonymous$7 *)cpy) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)*((enum anonymous_7 *)cpy) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
     {
-      return_value_neko_alloc_string$1=neko_alloc_string("$new");
-      neko_val_throw(return_value_neko_alloc_string$1);
+      return_value_neko_alloc_string_1=neko_alloc_string("_new");
+      neko_val_throw(return_value_neko_alloc_string_1);
     }
 
   }
 
-  void *return_value_GC_malloc$3;
-  return_value_GC_malloc$3=GC_malloc(sizeof(struct _vobject) /*32ul*/ );
-  v = (struct _vobject *)return_value_GC_malloc$3;
-  v->t = (enum anonymous$7)VAL_OBJECT;
+  void *return_value_GC_malloc_3;
+  return_value_GC_malloc_3=GC_malloc(sizeof(struct _vobject) /*32ul*/ );
+  v = (struct _vobject *)return_value_GC_malloc_3;
+  v->t = (enum anonymous_7)VAL_OBJECT;
   if(cpy == ((struct _value *)NULL) || cpy == val_null)
   {
     v->proto = (struct _vobject *)(void *)0;
@@ -6097,30 +6097,30 @@ struct _value * neko_alloc_object(struct _value *cpy)
 // file vm/alloc.c line 168
 char * neko_alloc_private(unsigned int nbytes)
 {
-  void *tmp_if_expr$3;
-  void *return_value_GC_malloc_atomic_ignore_off_page$1;
-  void *return_value_GC_malloc_atomic$2;
+  void *tmp_if_expr_3;
+  void *return_value_GC_malloc_atomic_ignore_off_page_1;
+  void *return_value_GC_malloc_atomic_2;
   if(nbytes >= 257u)
   {
-    return_value_GC_malloc_atomic_ignore_off_page$1=GC_malloc_atomic_ignore_off_page((unsigned long int)nbytes);
-    tmp_if_expr$3 = return_value_GC_malloc_atomic_ignore_off_page$1;
+    return_value_GC_malloc_atomic_ignore_off_page_1=GC_malloc_atomic_ignore_off_page((unsigned long int)nbytes);
+    tmp_if_expr_3 = return_value_GC_malloc_atomic_ignore_off_page_1;
   }
 
   else
   {
-    return_value_GC_malloc_atomic$2=GC_malloc_atomic((unsigned long int)nbytes);
-    tmp_if_expr$3 = return_value_GC_malloc_atomic$2;
+    return_value_GC_malloc_atomic_2=GC_malloc_atomic((unsigned long int)nbytes);
+    tmp_if_expr_3 = return_value_GC_malloc_atomic_2;
   }
-  return (char *)tmp_if_expr$3;
+  return (char *)tmp_if_expr_3;
 }
 
 // neko_alloc_root
 // file vm/alloc.c line 357
 struct _value ** neko_alloc_root(unsigned int nvals)
 {
-  void *return_value_GC_malloc_uncollectable$1;
-  return_value_GC_malloc_uncollectable$1=GC_malloc_uncollectable((unsigned long int)nvals * sizeof(struct _value *) /*8ul*/ );
-  return (struct _value **)return_value_GC_malloc_uncollectable$1;
+  void *return_value_GC_malloc_uncollectable_1;
+  return_value_GC_malloc_uncollectable_1=GC_malloc_uncollectable((unsigned long int)nvals * sizeof(struct _value *) /*8ul*/ );
+  return (struct _value **)return_value_GC_malloc_uncollectable_1;
 }
 
 // neko_alloc_string
@@ -6132,11 +6132,11 @@ struct _value * neko_alloc_string(const char *str)
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(str);
-    struct _value *return_value_neko_copy_string$2;
-    return_value_neko_copy_string$2=neko_copy_string(str, (signed long int)return_value_strlen$1);
-    return return_value_neko_copy_string$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(str);
+    struct _value *return_value_neko_copy_string_2;
+    return_value_neko_copy_string_2=neko_copy_string(str, (signed long int)return_value_strlen_1);
+    return return_value_neko_copy_string_2;
   }
 }
 
@@ -6147,19 +6147,19 @@ struct _value * neko_append_int(struct _neko_vm *vm, struct _value *str, signed 
   signed int len;
   signed int len2;
   struct _value *v;
-  len = (signed int)*((enum anonymous$7 *)str) >> 4;
+  len = (signed int)*((enum anonymous_7 *)str) >> 4;
   len2=sprintf(vm->tmp, "%d", x);
   v=neko_alloc_empty_string((unsigned int)(len + len2));
   if(!(way == 0))
   {
-    memcpy((void *)(char *)&((struct anonymous$5 *)v)->c, (const void *)&((struct anonymous$5 *)str)->c, (unsigned long int)len);
-    memcpy((void *)((char *)&((struct anonymous$5 *)v)->c + (signed long int)len), (const void *)vm->tmp, (unsigned long int)(len2 + 1));
+    memcpy((void *)(char *)&((struct anonymous_5 *)v)->c, (const void *)&((struct anonymous_5 *)str)->c, (unsigned long int)len);
+    memcpy((void *)((char *)&((struct anonymous_5 *)v)->c + (signed long int)len), (const void *)vm->tmp, (unsigned long int)(len2 + 1));
   }
 
   else
   {
-    memcpy((void *)(char *)&((struct anonymous$5 *)v)->c, (const void *)vm->tmp, (unsigned long int)len2);
-    memcpy((void *)((char *)&((struct anonymous$5 *)v)->c + (signed long int)len2), (const void *)&((struct anonymous$5 *)str)->c, (unsigned long int)(len + 1));
+    memcpy((void *)(char *)&((struct anonymous_5 *)v)->c, (const void *)vm->tmp, (unsigned long int)len2);
+    memcpy((void *)((char *)&((struct anonymous_5 *)v)->c + (signed long int)len2), (const void *)&((struct anonymous_5 *)str)->c, (unsigned long int)(len + 1));
   }
   return v;
 }
@@ -6168,12 +6168,12 @@ struct _value * neko_append_int(struct _neko_vm *vm, struct _value *str, signed 
 // file vm/others.c line 339
 struct _value * neko_append_strings(struct _value *s1, struct _value *s2)
 {
-  signed int len1 = (signed int)*((enum anonymous$7 *)s1) >> 4;
-  signed int len2 = (signed int)*((enum anonymous$7 *)s2) >> 4;
+  signed int len1 = (signed int)*((enum anonymous_7 *)s1) >> 4;
+  signed int len2 = (signed int)*((enum anonymous_7 *)s2) >> 4;
   struct _value *v;
   v=neko_alloc_empty_string((unsigned int)(len1 + len2));
-  memcpy((void *)(char *)&((struct anonymous$5 *)v)->c, (const void *)&((struct anonymous$5 *)s1)->c, (unsigned long int)len1);
-  memcpy((void *)((char *)&((struct anonymous$5 *)v)->c + (signed long int)len1), (const void *)&((struct anonymous$5 *)s2)->c, (unsigned long int)(len2 + 1));
+  memcpy((void *)(char *)&((struct anonymous_5 *)v)->c, (const void *)&((struct anonymous_5 *)s1)->c, (unsigned long int)len1);
+  memcpy((void *)((char *)&((struct anonymous_5 *)v)->c + (signed long int)len1), (const void *)&((struct anonymous_5 *)s2)->c, (unsigned long int)(len2 + 1));
   return v;
 }
 
@@ -6183,9 +6183,9 @@ void neko_buffer_append(struct _buffer *b, const char *s)
 {
   if(!(s == ((const char *)NULL)))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(s);
-    neko_buffer_append_sub(b, s, (signed long int)return_value_strlen$1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(s);
+    neko_buffer_append_sub(b, s, (signed long int)return_value_strlen_1);
   }
 
 }
@@ -6197,15 +6197,15 @@ void neko_buffer_append_char(struct _buffer *b, char c)
   struct _stringitem *it;
   b->totlen = b->totlen + 1;
   it = b->data;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(!(it == ((struct _stringitem *)NULL)))
   {
     if(it->len == it->size)
       goto __CPROVER_DUMP_L1;
 
-    tmp_post$1 = it->len;
+    tmp_post_1 = it->len;
     it->len = it->len + 1;
-    it->str[(signed long int)tmp_post$1] = c;
+    it->str[(signed long int)tmp_post_1] = c;
   }
 
   else
@@ -6229,8 +6229,8 @@ void neko_buffer_append_sub(struct _buffer *b, const char *s, signed long int _l
     it = b->data;
     if(!(it == ((struct _stringitem *)NULL)))
     {
-      signed int neko_buffer_append_sub$$1$$1$$free = it->size - it->len;
-      if(neko_buffer_append_sub$$1$$1$$free >= len)
+      signed int neko_buffer_append_sub__1__1__free = it->size - it->len;
+      if(neko_buffer_append_sub__1__1__free >= len)
       {
         memcpy((void *)(it->str + (signed long int)it->len), (const void *)s, (unsigned long int)len);
         it->len = it->len + len;
@@ -6239,10 +6239,10 @@ void neko_buffer_append_sub(struct _buffer *b, const char *s, signed long int _l
 
       else
       {
-        memcpy((void *)(it->str + (signed long int)it->len), (const void *)s, (unsigned long int)neko_buffer_append_sub$$1$$1$$free);
-        it->len = it->len + neko_buffer_append_sub$$1$$1$$free;
-        s = s + (signed long int)neko_buffer_append_sub$$1$$1$$free;
-        len = len - neko_buffer_append_sub$$1$$1$$free;
+        memcpy((void *)(it->str + (signed long int)it->len), (const void *)s, (unsigned long int)neko_buffer_append_sub__1__1__free);
+        it->len = it->len + neko_buffer_append_sub__1__1__free;
+        s = s + (signed long int)neko_buffer_append_sub__1__1__free;
+        len = len - neko_buffer_append_sub__1__1__free;
       }
     }
 
@@ -6261,7 +6261,7 @@ struct _value * neko_buffer_to_string(struct _buffer *b)
   struct _value *v;
   v=neko_alloc_empty_string((unsigned int)b->totlen);
   struct _stringitem *it = b->data;
-  char *s = (char *)&((struct anonymous$5 *)v)->c + (signed long int)b->totlen;
+  char *s = (char *)&((struct anonymous_5 *)v)->c + (signed long int)b->totlen;
   while(!(it == ((struct _stringitem *)NULL)))
   {
     struct _stringitem *tmp;
@@ -6277,9 +6277,9 @@ struct _value * neko_buffer_to_string(struct _buffer *b)
 // file vm/neko_vm.h line 47
 struct _value * neko_call_stack(struct _neko_vm *vm)
 {
-  struct _value *return_value_neko_flush_stack$1;
-  return_value_neko_flush_stack$1=neko_flush_stack(vm->csp, vm->spmin - (signed long int)1, (struct _value *)(void *)0);
-  return return_value_neko_flush_stack$1;
+  struct _value *return_value_neko_flush_stack_1;
+  return_value_neko_flush_stack_1=neko_flush_stack(vm->csp, vm->spmin - (signed long int)1, (struct _value *)(void *)0);
+  return return_value_neko_flush_stack_1;
 }
 
 // neko_can_jit
@@ -6294,7 +6294,7 @@ signed int neko_can_jit()
 static signed int neko_check_stack(struct _neko_module *m, unsigned char *tmp, unsigned int i, signed int stack, signed int istack)
 {
   unsigned int itmp;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   while((_Bool)1)
   {
     signed int c = (signed int)m->code[(signed long int)i];
@@ -6336,9 +6336,9 @@ static signed int neko_check_stack(struct _neko_module *m, unsigned char *tmp, u
           if(c == 26)
             stack = stack - s;
 
-          signed int return_value_neko_check_stack$1;
-          return_value_neko_check_stack$1=neko_check_stack(m, tmp, itmp, stack, istack);
-          if(return_value_neko_check_stack$1 == 0)
+          signed int return_value_neko_check_stack_1;
+          return_value_neko_check_stack_1=neko_check_stack(m, tmp, itmp, stack, istack);
+          if(return_value_neko_check_stack_1 == 0)
             return 0;
 
           if(c == 26)
@@ -6365,9 +6365,9 @@ static signed int neko_check_stack(struct _neko_module *m, unsigned char *tmp, u
           if(!(m->code[(signed long int)(i + -itmp)] == 23l))
             return 0;
 
-          signed int return_value_neko_check_stack$2;
-          return_value_neko_check_stack$2=neko_check_stack(m, tmp, i - itmp, stack, istack);
-          if(return_value_neko_check_stack$2 == 0)
+          signed int return_value_neko_check_stack_2;
+          return_value_neko_check_stack_2=neko_check_stack(m, tmp, i - itmp, stack, istack);
+          if(return_value_neko_check_stack_2 == 0)
             return 0;
 
         }
@@ -6421,11 +6421,11 @@ static signed int neko_check_stack(struct _neko_module *m, unsigned char *tmp, u
       case 63:
       {
         if(!((signed long int)stack + -(7l & m->code[(signed long int)(1u + i)]) >= (signed long int)istack))
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = m->code[(signed long int)(i + (unsigned int)1)] >> 3 != (signed long int)stack ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = m->code[(signed long int)(i + (unsigned int)1)] >> 3 != (signed long int)stack ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
           return 0;
 
         return 1;
@@ -6448,7 +6448,7 @@ struct _value * neko_copy_string(const char *str, signed long int strlen)
 {
   struct _value *v;
   v=neko_alloc_empty_string((unsigned int)strlen);
-  char *c = (char *)&((struct anonymous$5 *)v)->c;
+  char *c = (char *)&((struct anonymous_5 *)v)->c;
   memcpy((void *)c, (const void *)str, (unsigned long int)strlen);
   return v;
 }
@@ -6463,31 +6463,31 @@ struct _value * neko_default_loader(char **argv, signed int argc)
   args=neko_alloc_array((unsigned int)argc);
   signed int i = 0;
   for( ; !(i >= argc); i = i + 1)
-    (&((struct anonymous$4 *)args)->ptr)[(signed long int)i]=neko_alloc_string(argv[(signed long int)i]);
-  char *return_value_getenv$1;
-  return_value_getenv$1=getenv("NEKOPATH");
-  struct _value *return_value_init_path$2;
-  return_value_init_path$2=init_path(return_value_getenv$1);
-  neko_alloc_field(o, id_path, return_value_init_path$2);
-  struct _value *return_value_neko_alloc_object$3;
-  return_value_neko_alloc_object$3=neko_alloc_object((struct _value *)(void *)0);
-  neko_alloc_field(o, id_cache, return_value_neko_alloc_object$3);
-  struct _value *return_value_neko_alloc_abstract$4;
-  return_value_neko_alloc_abstract$4=neko_alloc_abstract(k_loader_libs, (void *)0);
-  neko_alloc_field(o, id_loader_libs, return_value_neko_alloc_abstract$4);
-  signed int return_value_neko_val_id$5;
-  return_value_neko_val_id$5=neko_val_id("args");
-  neko_alloc_field(o, return_value_neko_val_id$5, args);
-  signed int return_value_neko_val_id$6;
-  return_value_neko_val_id$6=neko_val_id("loadprim");
-  struct _value *return_value_neko_alloc_function$7;
-  return_value_neko_alloc_function$7=neko_alloc_function((void *)loader_loadprim, (unsigned int)2, "loadprim");
-  neko_alloc_field(o, return_value_neko_val_id$6, return_value_neko_alloc_function$7);
-  signed int return_value_neko_val_id$8;
-  return_value_neko_val_id$8=neko_val_id("loadmodule");
-  struct _value *return_value_neko_alloc_function$9;
-  return_value_neko_alloc_function$9=neko_alloc_function((void *)loader_loadmodule, (unsigned int)2, "loadmodule");
-  neko_alloc_field(o, return_value_neko_val_id$8, return_value_neko_alloc_function$9);
+    (&((struct anonymous_4 *)args)->ptr)[(signed long int)i]=neko_alloc_string(argv[(signed long int)i]);
+  char *return_value_getenv_1;
+  return_value_getenv_1=getenv("NEKOPATH");
+  struct _value *return_value_init_path_2;
+  return_value_init_path_2=init_path(return_value_getenv_1);
+  neko_alloc_field(o, id_path, return_value_init_path_2);
+  struct _value *return_value_neko_alloc_object_3;
+  return_value_neko_alloc_object_3=neko_alloc_object((struct _value *)(void *)0);
+  neko_alloc_field(o, id_cache, return_value_neko_alloc_object_3);
+  struct _value *return_value_neko_alloc_abstract_4;
+  return_value_neko_alloc_abstract_4=neko_alloc_abstract(k_loader_libs, (void *)0);
+  neko_alloc_field(o, id_loader_libs, return_value_neko_alloc_abstract_4);
+  signed int return_value_neko_val_id_5;
+  return_value_neko_val_id_5=neko_val_id("args");
+  neko_alloc_field(o, return_value_neko_val_id_5, args);
+  signed int return_value_neko_val_id_6;
+  return_value_neko_val_id_6=neko_val_id("loadprim");
+  struct _value *return_value_neko_alloc_function_7;
+  return_value_neko_alloc_function_7=neko_alloc_function((void *)loader_loadprim, (unsigned int)2, "loadprim");
+  neko_alloc_field(o, return_value_neko_val_id_6, return_value_neko_alloc_function_7);
+  signed int return_value_neko_val_id_8;
+  return_value_neko_val_id_8=neko_val_id("loadmodule");
+  struct _value *return_value_neko_alloc_function_9;
+  return_value_neko_alloc_function_9=neko_alloc_function((void *)loader_loadmodule, (unsigned int)2, "loadmodule");
+  neko_alloc_field(o, return_value_neko_val_id_8, return_value_neko_alloc_function_9);
   return o;
 }
 
@@ -6503,29 +6503,29 @@ struct _value * neko_exc_stack(struct _neko_vm *vm)
 signed int neko_execute_self(struct _neko_vm *vm, struct _value *mload)
 {
   struct _value *args[2l];
-  struct _value *return_value_neko_alloc_string$1;
-  return_value_neko_alloc_string$1=neko_alloc_string("std@module_read");
-  args[0] = return_value_neko_alloc_string$1;
+  struct _value *return_value_neko_alloc_string_1;
+  return_value_neko_alloc_string_1=neko_alloc_string("std@module_read");
+  args[0] = return_value_neko_alloc_string_1;
   args[1] = (struct _value *)(signed long int)((signed int)2 << 1 | 1);
   struct _value *args2[2l];
-  struct _value *return_value_neko_alloc_string$2;
-  return_value_neko_alloc_string$2=neko_alloc_string("std@module_exec");
-  args2[0] = return_value_neko_alloc_string$2;
+  struct _value *return_value_neko_alloc_string_2;
+  return_value_neko_alloc_string_2=neko_alloc_string("std@module_exec");
+  args2[0] = return_value_neko_alloc_string_2;
   args2[1] = (struct _value *)(signed long int)((signed int)1 << 1 | 1);
   struct _value *args3[2l];
-  struct _value *return_value_neko_alloc_function$3;
-  return_value_neko_alloc_function$3=neko_alloc_function((void *)read_bytecode, (unsigned int)3, "boot_read_bytecode");
-  args3[0] = return_value_neko_alloc_function$3;
+  struct _value *return_value_neko_alloc_function_3;
+  return_value_neko_alloc_function_3=neko_alloc_function((void *)read_bytecode, (unsigned int)3, "boot_read_bytecode");
+  args3[0] = return_value_neko_alloc_function_3;
   args3[1] = mload;
   struct _value *exc = (struct _value *)(void *)0;
   struct _value *module_read;
   struct _value *module_exec;
   struct _value *module_val;
-  signed int return_value_neko_val_id$4;
-  return_value_neko_val_id$4=neko_val_id("loadprim");
-  struct _value *return_value_neko_val_field$5;
-  return_value_neko_val_field$5=neko_val_field(mload, return_value_neko_val_id$4);
-  module_read=neko_val_callEx(mload, return_value_neko_val_field$5, args, 2, &exc);
+  signed int return_value_neko_val_id_4;
+  return_value_neko_val_id_4=neko_val_id("loadprim");
+  struct _value *return_value_neko_val_field_5;
+  return_value_neko_val_field_5=neko_val_field(mload, return_value_neko_val_id_4);
+  module_read=neko_val_callEx(mload, return_value_neko_val_field_5, args, 2, &exc);
   if(!(exc == ((struct _value *)NULL)))
   {
     report(vm, exc, 1);
@@ -6534,11 +6534,11 @@ signed int neko_execute_self(struct _neko_vm *vm, struct _value *mload)
 
   else
   {
-    signed int return_value_neko_val_id$6;
-    return_value_neko_val_id$6=neko_val_id("loadprim");
-    struct _value *return_value_neko_val_field$7;
-    return_value_neko_val_field$7=neko_val_field(mload, return_value_neko_val_id$6);
-    module_exec=neko_val_callEx(mload, return_value_neko_val_field$7, args2, 2, &exc);
+    signed int return_value_neko_val_id_6;
+    return_value_neko_val_id_6=neko_val_id("loadprim");
+    struct _value *return_value_neko_val_field_7;
+    return_value_neko_val_field_7=neko_val_field(mload, return_value_neko_val_id_6);
+    module_exec=neko_val_callEx(mload, return_value_neko_val_field_7, args2, 2, &exc);
     if(!(exc == ((struct _value *)NULL)))
     {
       report(vm, exc, 1);
@@ -6557,13 +6557,13 @@ signed int neko_execute_self(struct _neko_vm *vm, struct _value *mload)
 
       else
       {
-        signed int return_value_neko_val_id$8;
-        return_value_neko_val_id$8=neko_val_id("cache");
-        struct _value *return_value_neko_val_field$9;
-        return_value_neko_val_field$9=neko_val_field(mload, return_value_neko_val_id$8);
-        signed int return_value_neko_val_id$10;
-        return_value_neko_val_id$10=neko_val_id("_self");
-        neko_alloc_field(return_value_neko_val_field$9, return_value_neko_val_id$10, module_val);
+        signed int return_value_neko_val_id_8;
+        return_value_neko_val_id_8=neko_val_id("cache");
+        struct _value *return_value_neko_val_field_9;
+        return_value_neko_val_field_9=neko_val_field(mload, return_value_neko_val_id_8);
+        signed int return_value_neko_val_id_10;
+        return_value_neko_val_id_10=neko_val_id("_self");
+        neko_alloc_field(return_value_neko_val_field_9, return_value_neko_val_id_10, module_val);
         neko_val_callEx(val_null, module_exec, &module_val, 1, &exc);
         if(!(exc == ((struct _value *)NULL)))
         {
@@ -6583,9 +6583,9 @@ signed int neko_execute_self(struct _neko_vm *vm, struct _value *mload)
 signed int neko_file_reader(void *p, void *buf, signed int size)
 {
   signed int len = 0;
-  unsigned long int return_value_fread$1;
-  signed int return_value_ferror$3;
-  signed int *return_value___errno_location$2;
+  unsigned long int return_value_fread_1;
+  signed int return_value_ferror_3;
+  signed int *return_value___errno_location_2;
   while(size >= 1)
   {
     signed int l;
@@ -6594,18 +6594,18 @@ signed int neko_file_reader(void *p, void *buf, signed int size)
 
     fread_again:
       ;
-      return_value_fread$1=fread(buf, (unsigned long int)1, (unsigned long int)size, (struct _IO_FILE *)p);
-      l = (signed int)return_value_fread$1;
+      return_value_fread_1=fread(buf, (unsigned long int)1, (unsigned long int)size, (struct _IO_FILE *)p);
+      l = (signed int)return_value_fread_1;
       if(l >= 1)
         goto __CPROVER_DUMP_L4;
 
-      return_value_ferror$3=ferror((struct _IO_FILE *)p);
-      if(return_value_ferror$3 == 0)
+      return_value_ferror_3=ferror((struct _IO_FILE *)p);
+      if(return_value_ferror_3 == 0)
         break;
 
-      return_value___errno_location$2=__errno_location();
+      return_value___errno_location_2=__errno_location();
     }
-    while(*return_value___errno_location$2 == 4);
+    while(*return_value___errno_location_2 == 4);
     return len;
 
   __CPROVER_DUMP_L4:
@@ -6623,14 +6623,14 @@ static struct _value * neko_flush_stack(signed long int *cspup, signed long int 
 {
   signed int ncalls = (signed int)((cspup - csp) / (signed long int)4);
   struct _value *stack_trace;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(old == ((struct _value *)NULL))
-    tmp_if_expr$1 = 0;
+    tmp_if_expr_1 = 0;
 
   else
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)old) >> 4;
-  stack_trace=neko_alloc_array((unsigned int)(ncalls + tmp_if_expr$1));
-  struct _value **st = &((struct anonymous$4 *)stack_trace)->ptr;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)old) >> 4;
+  stack_trace=neko_alloc_array((unsigned int)(ncalls + tmp_if_expr_1));
+  struct _value **st = &((struct anonymous_4 *)stack_trace)->ptr;
   struct _neko_module *m;
   while(!(csp == cspup))
   {
@@ -6643,10 +6643,10 @@ static struct _value * neko_flush_stack(signed long int *cspup, signed long int 
         if(!(ppc >= m->codesize))
         {
           signed int idx;
-          signed int return_value_bitcount$2;
-          return_value_bitcount$2=bitcount((m->dbgidxs + (signed long int)(ppc >> 5))->bits >> (unsigned int)31 - (ppc & (unsigned int)31));
-          idx = (m->dbgidxs + (signed long int)(ppc >> 5))->base + return_value_bitcount$2;
-          *st = (&((struct anonymous$4 *)m->dbgtbl)->ptr)[(signed long int)idx];
+          signed int return_value_bitcount_2;
+          return_value_bitcount_2=bitcount((m->dbgidxs + (signed long int)(ppc >> 5))->bits >> (unsigned int)31 - (ppc & (unsigned int)31));
+          idx = (m->dbgidxs + (signed long int)(ppc >> 5))->base + return_value_bitcount_2;
+          *st = (&((struct anonymous_4 *)m->dbgtbl)->ptr)[(signed long int)idx];
         }
 
         else
@@ -6675,25 +6675,25 @@ static struct _value * neko_flush_stack(signed long int *cspup, signed long int 
     else
       csp = csp + (signed long int)4;
   }
-  signed int tmp_post$3;
-  struct _value **tmp_post$4;
-  struct _value **tmp_post$5;
+  signed int tmp_post_3;
+  struct _value **tmp_post_4;
+  struct _value **tmp_post_5;
   if(!(old == ((struct _value *)NULL)))
   {
-    struct _value **oldst = &((struct anonymous$4 *)old)->ptr;
-    ncalls = (signed int)*((enum anonymous$7 *)old) >> 4;
+    struct _value **oldst = &((struct anonymous_4 *)old)->ptr;
+    ncalls = (signed int)*((enum anonymous_7 *)old) >> 4;
     do
     {
-      tmp_post$3 = ncalls;
+      tmp_post_3 = ncalls;
       ncalls = ncalls - 1;
-      if(tmp_post$3 == 0)
+      if(tmp_post_3 == 0)
         break;
 
-      tmp_post$4 = st;
+      tmp_post_4 = st;
       st = st + 1l;
-      tmp_post$5 = oldst;
+      tmp_post_5 = oldst;
       oldst = oldst + 1l;
-      *tmp_post$4 = *tmp_post$5;
+      *tmp_post_4 = *tmp_post_5;
     }
     while((_Bool)1);
   }
@@ -6761,21 +6761,21 @@ void neko_gc_major()
 // file vm/alloc.c line 159
 void neko_gc_stats(signed int *heap, signed int *free)
 {
-  unsigned long int return_value_GC_get_heap_size$1;
-  return_value_GC_get_heap_size$1=GC_get_heap_size();
-  *heap = (signed int)return_value_GC_get_heap_size$1;
-  unsigned long int return_value_GC_get_free_bytes$2;
-  return_value_GC_get_free_bytes$2=GC_get_free_bytes();
-  *free = (signed int)return_value_GC_get_free_bytes$2;
+  unsigned long int return_value_GC_get_heap_size_1;
+  return_value_GC_get_heap_size_1=GC_get_heap_size();
+  *heap = (signed int)return_value_GC_get_heap_size_1;
+  unsigned long int return_value_GC_get_free_bytes_2;
+  return_value_GC_get_free_bytes_2=GC_get_free_bytes();
+  *free = (signed int)return_value_GC_get_free_bytes_2;
 }
 
 // neko_get_ttable
 // file vm/vm.h line 70
 extern signed long int * neko_get_ttable()
 {
-  signed long int return_value_neko_interp_loop$1;
-  return_value_neko_interp_loop$1=neko_interp_loop((struct _neko_vm *)(void *)0, (struct _neko_module *)(void *)0, (signed long int)0, (signed long int *)(void *)0);
-  return (signed long int *)return_value_neko_interp_loop$1;
+  signed long int return_value_neko_interp_loop_1;
+  return_value_neko_interp_loop_1=neko_interp_loop((struct _neko_vm *)(void *)0, (struct _neko_module *)(void *)0, (signed long int)0, (signed long int *)(void *)0);
+  return (signed long int *)return_value_neko_interp_loop_1;
 }
 
 // neko_global_free
@@ -6797,23 +6797,23 @@ void neko_global_free()
 // file vm/neko_vm.h line 35
 void neko_global_init()
 {
-  signed long int *return_value_neko_get_ttable$1;
-  return_value_neko_get_ttable$1=neko_get_ttable();
-  op_last = return_value_neko_get_ttable$1[(signed long int)67];
+  signed long int *return_value_neko_get_ttable_1;
+  return_value_neko_get_ttable_1=neko_get_ttable();
+  op_last = return_value_neko_get_ttable_1[(signed long int)67];
   empty_array.ptr = val_null;
   neko_gc_init();
   neko_vm_context=neko_alloc_local();
   neko_fields_lock=neko_alloc_lock();
-  struct _value **return_value_neko_alloc_root$2;
-  return_value_neko_alloc_root$2=neko_alloc_root((unsigned int)(((unsigned long int)(63 + 1) * sizeof(struct _objtable) /*16ul*/ ) / sizeof(struct _value *) /*8ul*/ ));
-  neko_fields = (struct _objtable *)return_value_neko_alloc_root$2;
+  struct _value **return_value_neko_alloc_root_2;
+  return_value_neko_alloc_root_2=neko_alloc_root((unsigned int)(((unsigned long int)(63 + 1) * sizeof(struct _objtable) /*16ul*/ ) / sizeof(struct _value *) /*8ul*/ ));
+  neko_fields = (struct _objtable *)return_value_neko_alloc_root_2;
   signed int i = 0;
   for( ; !(i >= 64); i = i + 1)
     otable_init(&neko_fields[(signed long int)i]);
   neko_init_builtins();
-  struct _value **return_value_neko_alloc_root$3;
-  return_value_neko_alloc_root$3=neko_alloc_root((unsigned int)1);
-  kind_names = (struct _klist **)return_value_neko_alloc_root$3;
+  struct _value **return_value_neko_alloc_root_3;
+  return_value_neko_alloc_root_3=neko_alloc_root((unsigned int)1);
+  kind_names = (struct _klist **)return_value_neko_alloc_root_3;
   *kind_names = (struct _klist *)(void *)0;
   id_loader=neko_val_id("loader");
   id_exports=neko_val_id("exports");
@@ -6848,10 +6848,10 @@ signed int neko_has_embedded_module(struct _neko_vm *vm)
   exe=executable_path();
   unsigned char id[8l];
   signed int pos;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   if(exe == ((char *)NULL))
     return 0;
 
@@ -6864,29 +6864,29 @@ signed int neko_has_embedded_module(struct _neko_vm *vm)
     else
     {
       fseek(self, (signed long int)-8, 2);
-      unsigned long int return_value_fread$1;
-      return_value_fread$1=fread((void *)id, (unsigned long int)1, (unsigned long int)8, self);
-      if(!(return_value_fread$1 == 8ul))
-        tmp_if_expr$2 = (_Bool)1;
+      unsigned long int return_value_fread_1;
+      return_value_fread_1=fread((void *)id, (unsigned long int)1, (unsigned long int)8, self);
+      if(!(return_value_fread_1 == 8ul))
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)id[(signed long int)0] != 78 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_2 = (signed int)id[(signed long int)0] != 78 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)id[(signed long int)1] != 69 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_3 = (signed int)id[(signed long int)1] != 69 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)id[(signed long int)2] != 75 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_4 = (signed int)id[(signed long int)2] != 75 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (signed int)id[(signed long int)3] != 79 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (signed int)id[(signed long int)3] != 79 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
       {
         fclose(self);
         return 0;
@@ -6911,337 +6911,337 @@ void neko_init_builtins()
 {
   neko_builtins=neko_alloc_root((unsigned int)2);
   neko_builtins[(signed long int)0]=neko_alloc_object((struct _value *)(void *)0);
-  neko_builtins[(signed long int)1]=neko_alloc_function((void *)builtin_print, (unsigned int)-1, "$print");
-  signed int return_value_neko_val_id$1;
-  return_value_neko_val_id$1=neko_val_id("print");
-  struct _value *return_value_neko_alloc_function$2;
-  return_value_neko_alloc_function$2=neko_alloc_function((void *)builtin_print, (unsigned int)-1, "$print");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$1, return_value_neko_alloc_function$2);
-  signed int return_value_neko_val_id$3;
-  return_value_neko_val_id$3=neko_val_id("array");
-  struct _value *return_value_neko_alloc_function$4;
-  return_value_neko_alloc_function$4=neko_alloc_function((void *)builtin_array, (unsigned int)-1, "$array");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$3, return_value_neko_alloc_function$4);
-  signed int return_value_neko_val_id$5;
-  return_value_neko_val_id$5=neko_val_id("amake");
-  struct _value *return_value_neko_alloc_function$6;
-  return_value_neko_alloc_function$6=neko_alloc_function((void *)builtin_amake, (unsigned int)1, "$amake");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$5, return_value_neko_alloc_function$6);
-  signed int return_value_neko_val_id$7;
-  return_value_neko_val_id$7=neko_val_id("acopy");
-  struct _value *return_value_neko_alloc_function$8;
-  return_value_neko_alloc_function$8=neko_alloc_function((void *)builtin_acopy, (unsigned int)1, "$acopy");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$7, return_value_neko_alloc_function$8);
-  signed int return_value_neko_val_id$9;
-  return_value_neko_val_id$9=neko_val_id("asize");
-  struct _value *return_value_neko_alloc_function$10;
-  return_value_neko_alloc_function$10=neko_alloc_function((void *)builtin_asize, (unsigned int)1, "$asize");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$9, return_value_neko_alloc_function$10);
-  signed int return_value_neko_val_id$11;
-  return_value_neko_val_id$11=neko_val_id("asub");
-  struct _value *return_value_neko_alloc_function$12;
-  return_value_neko_alloc_function$12=neko_alloc_function((void *)builtin_asub, (unsigned int)3, "$asub");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$11, return_value_neko_alloc_function$12);
-  signed int return_value_neko_val_id$13;
-  return_value_neko_val_id$13=neko_val_id("ablit");
-  struct _value *return_value_neko_alloc_function$14;
-  return_value_neko_alloc_function$14=neko_alloc_function((void *)builtin_ablit, (unsigned int)5, "$ablit");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$13, return_value_neko_alloc_function$14);
-  signed int return_value_neko_val_id$15;
-  return_value_neko_val_id$15=neko_val_id("aconcat");
-  struct _value *return_value_neko_alloc_function$16;
-  return_value_neko_alloc_function$16=neko_alloc_function((void *)builtin_aconcat, (unsigned int)1, "$aconcat");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$15, return_value_neko_alloc_function$16);
-  signed int return_value_neko_val_id$17;
-  return_value_neko_val_id$17=neko_val_id("smake");
-  struct _value *return_value_neko_alloc_function$18;
-  return_value_neko_alloc_function$18=neko_alloc_function((void *)builtin_smake, (unsigned int)1, "$smake");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$17, return_value_neko_alloc_function$18);
-  signed int return_value_neko_val_id$19;
-  return_value_neko_val_id$19=neko_val_id("ssize");
-  struct _value *return_value_neko_alloc_function$20;
-  return_value_neko_alloc_function$20=neko_alloc_function((void *)builtin_ssize, (unsigned int)1, "$ssize");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$19, return_value_neko_alloc_function$20);
-  signed int return_value_neko_val_id$21;
-  return_value_neko_val_id$21=neko_val_id("scopy");
-  struct _value *return_value_neko_alloc_function$22;
-  return_value_neko_alloc_function$22=neko_alloc_function((void *)builtin_scopy, (unsigned int)1, "$scopy");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$21, return_value_neko_alloc_function$22);
-  signed int return_value_neko_val_id$23;
-  return_value_neko_val_id$23=neko_val_id("ssub");
-  struct _value *return_value_neko_alloc_function$24;
-  return_value_neko_alloc_function$24=neko_alloc_function((void *)builtin_ssub, (unsigned int)3, "$ssub");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$23, return_value_neko_alloc_function$24);
-  signed int return_value_neko_val_id$25;
-  return_value_neko_val_id$25=neko_val_id("sget");
-  struct _value *return_value_neko_alloc_function$26;
-  return_value_neko_alloc_function$26=neko_alloc_function((void *)builtin_sget, (unsigned int)2, "$sget");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$25, return_value_neko_alloc_function$26);
-  signed int return_value_neko_val_id$27;
-  return_value_neko_val_id$27=neko_val_id("sset");
-  struct _value *return_value_neko_alloc_function$28;
-  return_value_neko_alloc_function$28=neko_alloc_function((void *)builtin_sset, (unsigned int)3, "$sset");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$27, return_value_neko_alloc_function$28);
-  signed int return_value_neko_val_id$29;
-  return_value_neko_val_id$29=neko_val_id("sblit");
-  struct _value *return_value_neko_alloc_function$30;
-  return_value_neko_alloc_function$30=neko_alloc_function((void *)builtin_sblit, (unsigned int)5, "$sblit");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$29, return_value_neko_alloc_function$30);
-  signed int return_value_neko_val_id$31;
-  return_value_neko_val_id$31=neko_val_id("sfind");
-  struct _value *return_value_neko_alloc_function$32;
-  return_value_neko_alloc_function$32=neko_alloc_function((void *)builtin_sfind, (unsigned int)3, "$sfind");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$31, return_value_neko_alloc_function$32);
-  signed int return_value_neko_val_id$33;
-  return_value_neko_val_id$33=neko_val_id("new");
-  struct _value *return_value_neko_alloc_function$34;
-  return_value_neko_alloc_function$34=neko_alloc_function((void *)builtin_new, (unsigned int)1, "$new");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$33, return_value_neko_alloc_function$34);
-  signed int return_value_neko_val_id$35;
-  return_value_neko_val_id$35=neko_val_id("objget");
-  struct _value *return_value_neko_alloc_function$36;
-  return_value_neko_alloc_function$36=neko_alloc_function((void *)builtin_objget, (unsigned int)2, "$objget");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$35, return_value_neko_alloc_function$36);
-  signed int return_value_neko_val_id$37;
-  return_value_neko_val_id$37=neko_val_id("objset");
-  struct _value *return_value_neko_alloc_function$38;
-  return_value_neko_alloc_function$38=neko_alloc_function((void *)builtin_objset, (unsigned int)3, "$objset");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$37, return_value_neko_alloc_function$38);
-  signed int return_value_neko_val_id$39;
-  return_value_neko_val_id$39=neko_val_id("objcall");
-  struct _value *return_value_neko_alloc_function$40;
-  return_value_neko_alloc_function$40=neko_alloc_function((void *)builtin_objcall, (unsigned int)3, "$objcall");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$39, return_value_neko_alloc_function$40);
-  signed int return_value_neko_val_id$41;
-  return_value_neko_val_id$41=neko_val_id("objfield");
-  struct _value *return_value_neko_alloc_function$42;
-  return_value_neko_alloc_function$42=neko_alloc_function((void *)builtin_objfield, (unsigned int)2, "$objfield");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$41, return_value_neko_alloc_function$42);
-  signed int return_value_neko_val_id$43;
-  return_value_neko_val_id$43=neko_val_id("objremove");
-  struct _value *return_value_neko_alloc_function$44;
-  return_value_neko_alloc_function$44=neko_alloc_function((void *)builtin_objremove, (unsigned int)2, "$objremove");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$43, return_value_neko_alloc_function$44);
-  signed int return_value_neko_val_id$45;
-  return_value_neko_val_id$45=neko_val_id("objfields");
-  struct _value *return_value_neko_alloc_function$46;
-  return_value_neko_alloc_function$46=neko_alloc_function((void *)builtin_objfields, (unsigned int)1, "$objfields");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$45, return_value_neko_alloc_function$46);
-  signed int return_value_neko_val_id$47;
-  return_value_neko_val_id$47=neko_val_id("hash");
-  struct _value *return_value_neko_alloc_function$48;
-  return_value_neko_alloc_function$48=neko_alloc_function((void *)builtin_hash, (unsigned int)1, "$hash");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$47, return_value_neko_alloc_function$48);
-  signed int return_value_neko_val_id$49;
-  return_value_neko_val_id$49=neko_val_id("fasthash");
-  struct _value *return_value_neko_alloc_function$50;
-  return_value_neko_alloc_function$50=neko_alloc_function((void *)builtin_fasthash, (unsigned int)1, "$fasthash");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$49, return_value_neko_alloc_function$50);
-  signed int return_value_neko_val_id$51;
-  return_value_neko_val_id$51=neko_val_id("field");
-  struct _value *return_value_neko_alloc_function$52;
-  return_value_neko_alloc_function$52=neko_alloc_function((void *)builtin_field, (unsigned int)1, "$field");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$51, return_value_neko_alloc_function$52);
-  signed int return_value_neko_val_id$53;
-  return_value_neko_val_id$53=neko_val_id("objsetproto");
-  struct _value *return_value_neko_alloc_function$54;
-  return_value_neko_alloc_function$54=neko_alloc_function((void *)builtin_objsetproto, (unsigned int)2, "$objsetproto");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$53, return_value_neko_alloc_function$54);
-  signed int return_value_neko_val_id$55;
-  return_value_neko_val_id$55=neko_val_id("objgetproto");
-  struct _value *return_value_neko_alloc_function$56;
-  return_value_neko_alloc_function$56=neko_alloc_function((void *)builtin_objgetproto, (unsigned int)1, "$objgetproto");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$55, return_value_neko_alloc_function$56);
-  signed int return_value_neko_val_id$57;
-  return_value_neko_val_id$57=neko_val_id("int");
-  struct _value *return_value_neko_alloc_function$58;
-  return_value_neko_alloc_function$58=neko_alloc_function((void *)builtin_int, (unsigned int)1, "$int");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$57, return_value_neko_alloc_function$58);
-  signed int return_value_neko_val_id$59;
-  return_value_neko_val_id$59=neko_val_id("float");
-  struct _value *return_value_neko_alloc_function$60;
-  return_value_neko_alloc_function$60=neko_alloc_function((void *)builtin_float, (unsigned int)1, "$float");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$59, return_value_neko_alloc_function$60);
-  signed int return_value_neko_val_id$61;
-  return_value_neko_val_id$61=neko_val_id("string");
-  struct _value *return_value_neko_alloc_function$62;
-  return_value_neko_alloc_function$62=neko_alloc_function((void *)builtin_string, (unsigned int)1, "$string");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$61, return_value_neko_alloc_function$62);
-  signed int return_value_neko_val_id$63;
-  return_value_neko_val_id$63=neko_val_id("typeof");
-  struct _value *return_value_neko_alloc_function$64;
-  return_value_neko_alloc_function$64=neko_alloc_function((void *)builtin_typeof, (unsigned int)1, "$typeof");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$63, return_value_neko_alloc_function$64);
-  signed int return_value_neko_val_id$65;
-  return_value_neko_val_id$65=neko_val_id("closure");
-  struct _value *return_value_neko_alloc_function$66;
-  return_value_neko_alloc_function$66=neko_alloc_function((void *)builtin_closure, (unsigned int)-1, "$closure");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$65, return_value_neko_alloc_function$66);
-  signed int return_value_neko_val_id$67;
-  return_value_neko_val_id$67=neko_val_id("apply");
-  struct _value *return_value_neko_alloc_function$68;
-  return_value_neko_alloc_function$68=neko_alloc_function((void *)builtin_apply, (unsigned int)-1, "$apply");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$67, return_value_neko_alloc_function$68);
-  signed int return_value_neko_val_id$69;
-  return_value_neko_val_id$69=neko_val_id("varargs");
-  struct _value *return_value_neko_alloc_function$70;
-  return_value_neko_alloc_function$70=neko_alloc_function((void *)builtin_varargs, (unsigned int)1, "$varargs");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$69, return_value_neko_alloc_function$70);
-  signed int return_value_neko_val_id$71;
-  return_value_neko_val_id$71=neko_val_id("compare");
-  struct _value *return_value_neko_alloc_function$72;
-  return_value_neko_alloc_function$72=neko_alloc_function((void *)builtin_compare, (unsigned int)2, "$compare");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$71, return_value_neko_alloc_function$72);
-  signed int return_value_neko_val_id$73;
-  return_value_neko_val_id$73=neko_val_id("pcompare");
-  struct _value *return_value_neko_alloc_function$74;
-  return_value_neko_alloc_function$74=neko_alloc_function((void *)builtin_pcompare, (unsigned int)2, "$pcompare");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$73, return_value_neko_alloc_function$74);
-  signed int return_value_neko_val_id$75;
-  return_value_neko_val_id$75=neko_val_id("not");
-  struct _value *return_value_neko_alloc_function$76;
-  return_value_neko_alloc_function$76=neko_alloc_function((void *)builtin_not, (unsigned int)1, "$not");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$75, return_value_neko_alloc_function$76);
-  signed int return_value_neko_val_id$77;
-  return_value_neko_val_id$77=neko_val_id("throw");
-  struct _value *return_value_neko_alloc_function$78;
-  return_value_neko_alloc_function$78=neko_alloc_function((void *)builtin_throw, (unsigned int)1, "$throw");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$77, return_value_neko_alloc_function$78);
-  signed int return_value_neko_val_id$79;
-  return_value_neko_val_id$79=neko_val_id("rethrow");
-  struct _value *return_value_neko_alloc_function$80;
-  return_value_neko_alloc_function$80=neko_alloc_function((void *)builtin_rethrow, (unsigned int)1, "$rethrow");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$79, return_value_neko_alloc_function$80);
-  signed int return_value_neko_val_id$81;
-  return_value_neko_val_id$81=neko_val_id("nargs");
-  struct _value *return_value_neko_alloc_function$82;
-  return_value_neko_alloc_function$82=neko_alloc_function((void *)builtin_nargs, (unsigned int)1, "$nargs");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$81, return_value_neko_alloc_function$82);
-  signed int return_value_neko_val_id$83;
-  return_value_neko_val_id$83=neko_val_id("call");
-  struct _value *return_value_neko_alloc_function$84;
-  return_value_neko_alloc_function$84=neko_alloc_function((void *)builtin_call, (unsigned int)3, "$call");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$83, return_value_neko_alloc_function$84);
-  signed int return_value_neko_val_id$85;
-  return_value_neko_val_id$85=neko_val_id("isnan");
-  struct _value *return_value_neko_alloc_function$86;
-  return_value_neko_alloc_function$86=neko_alloc_function((void *)builtin_isnan, (unsigned int)1, "$isnan");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$85, return_value_neko_alloc_function$86);
-  signed int return_value_neko_val_id$87;
-  return_value_neko_val_id$87=neko_val_id("isinfinite");
-  struct _value *return_value_neko_alloc_function$88;
-  return_value_neko_alloc_function$88=neko_alloc_function((void *)builtin_isinfinite, (unsigned int)1, "$isinfinite");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$87, return_value_neko_alloc_function$88);
-  signed int return_value_neko_val_id$89;
-  return_value_neko_val_id$89=neko_val_id("istrue");
-  struct _value *return_value_neko_alloc_function$90;
-  return_value_neko_alloc_function$90=neko_alloc_function((void *)builtin_istrue, (unsigned int)1, "$istrue");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$89, return_value_neko_alloc_function$90);
-  signed int return_value_neko_val_id$91;
-  return_value_neko_val_id$91=neko_val_id("getkind");
-  struct _value *return_value_neko_alloc_function$92;
-  return_value_neko_alloc_function$92=neko_alloc_function((void *)builtin_getkind, (unsigned int)1, "$getkind");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$91, return_value_neko_alloc_function$92);
-  signed int return_value_neko_val_id$93;
-  return_value_neko_val_id$93=neko_val_id("iskind");
-  struct _value *return_value_neko_alloc_function$94;
-  return_value_neko_alloc_function$94=neko_alloc_function((void *)builtin_iskind, (unsigned int)2, "$iskind");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$93, return_value_neko_alloc_function$94);
-  signed int return_value_neko_val_id$95;
-  return_value_neko_val_id$95=neko_val_id("hnew");
-  struct _value *return_value_neko_alloc_function$96;
-  return_value_neko_alloc_function$96=neko_alloc_function((void *)builtin_hnew, (unsigned int)1, "$hnew");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$95, return_value_neko_alloc_function$96);
-  signed int return_value_neko_val_id$97;
-  return_value_neko_val_id$97=neko_val_id("hget");
-  struct _value *return_value_neko_alloc_function$98;
-  return_value_neko_alloc_function$98=neko_alloc_function((void *)builtin_hget, (unsigned int)3, "$hget");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$97, return_value_neko_alloc_function$98);
-  signed int return_value_neko_val_id$99;
-  return_value_neko_val_id$99=neko_val_id("hmem");
-  struct _value *return_value_neko_alloc_function$100;
-  return_value_neko_alloc_function$100=neko_alloc_function((void *)builtin_hmem, (unsigned int)3, "$hmem");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$99, return_value_neko_alloc_function$100);
-  signed int return_value_neko_val_id$101;
-  return_value_neko_val_id$101=neko_val_id("hset");
-  struct _value *return_value_neko_alloc_function$102;
-  return_value_neko_alloc_function$102=neko_alloc_function((void *)builtin_hset, (unsigned int)4, "$hset");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$101, return_value_neko_alloc_function$102);
-  signed int return_value_neko_val_id$103;
-  return_value_neko_val_id$103=neko_val_id("hadd");
-  struct _value *return_value_neko_alloc_function$104;
-  return_value_neko_alloc_function$104=neko_alloc_function((void *)builtin_hadd, (unsigned int)3, "$hadd");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$103, return_value_neko_alloc_function$104);
-  signed int return_value_neko_val_id$105;
-  return_value_neko_val_id$105=neko_val_id("hremove");
-  struct _value *return_value_neko_alloc_function$106;
-  return_value_neko_alloc_function$106=neko_alloc_function((void *)builtin_hremove, (unsigned int)3, "$hremove");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$105, return_value_neko_alloc_function$106);
-  signed int return_value_neko_val_id$107;
-  return_value_neko_val_id$107=neko_val_id("hresize");
-  struct _value *return_value_neko_alloc_function$108;
-  return_value_neko_alloc_function$108=neko_alloc_function((void *)builtin_hresize, (unsigned int)2, "$hresize");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$107, return_value_neko_alloc_function$108);
-  signed int return_value_neko_val_id$109;
-  return_value_neko_val_id$109=neko_val_id("hkey");
-  struct _value *return_value_neko_alloc_function$110;
-  return_value_neko_alloc_function$110=neko_alloc_function((void *)builtin_hkey, (unsigned int)1, "$hkey");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$109, return_value_neko_alloc_function$110);
-  signed int return_value_neko_val_id$111;
-  return_value_neko_val_id$111=neko_val_id("hcount");
-  struct _value *return_value_neko_alloc_function$112;
-  return_value_neko_alloc_function$112=neko_alloc_function((void *)builtin_hcount, (unsigned int)1, "$hcount");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$111, return_value_neko_alloc_function$112);
-  signed int return_value_neko_val_id$113;
-  return_value_neko_val_id$113=neko_val_id("hsize");
-  struct _value *return_value_neko_alloc_function$114;
-  return_value_neko_alloc_function$114=neko_alloc_function((void *)builtin_hsize, (unsigned int)1, "$hsize");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$113, return_value_neko_alloc_function$114);
-  signed int return_value_neko_val_id$115;
-  return_value_neko_val_id$115=neko_val_id("hiter");
-  struct _value *return_value_neko_alloc_function$116;
-  return_value_neko_alloc_function$116=neko_alloc_function((void *)builtin_hiter, (unsigned int)2, "$hiter");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$115, return_value_neko_alloc_function$116);
-  signed int return_value_neko_val_id$117;
-  return_value_neko_val_id$117=neko_val_id("iadd");
-  struct _value *return_value_neko_alloc_function$118;
-  return_value_neko_alloc_function$118=neko_alloc_function((void *)builtin_iadd, (unsigned int)2, "$iadd");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$117, return_value_neko_alloc_function$118);
-  signed int return_value_neko_val_id$119;
-  return_value_neko_val_id$119=neko_val_id("isub");
-  struct _value *return_value_neko_alloc_function$120;
-  return_value_neko_alloc_function$120=neko_alloc_function((void *)builtin_isub, (unsigned int)2, "$isub");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$119, return_value_neko_alloc_function$120);
-  signed int return_value_neko_val_id$121;
-  return_value_neko_val_id$121=neko_val_id("imult");
-  struct _value *return_value_neko_alloc_function$122;
-  return_value_neko_alloc_function$122=neko_alloc_function((void *)builtin_imult, (unsigned int)2, "$imult");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$121, return_value_neko_alloc_function$122);
-  signed int return_value_neko_val_id$123;
-  return_value_neko_val_id$123=neko_val_id("idiv");
-  struct _value *return_value_neko_alloc_function$124;
-  return_value_neko_alloc_function$124=neko_alloc_function((void *)builtin_idiv, (unsigned int)2, "$idiv");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$123, return_value_neko_alloc_function$124);
-  signed int return_value_neko_val_id$125;
-  return_value_neko_val_id$125=neko_val_id("excstack");
-  struct _value *return_value_neko_alloc_function$126;
-  return_value_neko_alloc_function$126=neko_alloc_function((void *)builtin_excstack, (unsigned int)0, "$excstack");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$125, return_value_neko_alloc_function$126);
-  signed int return_value_neko_val_id$127;
-  return_value_neko_val_id$127=neko_val_id("callstack");
-  struct _value *return_value_neko_alloc_function$128;
-  return_value_neko_alloc_function$128=neko_alloc_function((void *)builtin_callstack, (unsigned int)0, "$callstack");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$127, return_value_neko_alloc_function$128);
-  signed int return_value_neko_val_id$129;
-  return_value_neko_val_id$129=neko_val_id("version");
-  struct _value *return_value_neko_alloc_function$130;
-  return_value_neko_alloc_function$130=neko_alloc_function((void *)builtin_version, (unsigned int)0, "$version");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$129, return_value_neko_alloc_function$130);
-  signed int return_value_neko_val_id$131;
-  return_value_neko_val_id$131=neko_val_id("setresolver");
-  struct _value *return_value_neko_alloc_function$132;
-  return_value_neko_alloc_function$132=neko_alloc_function((void *)builtin_setresolver, (unsigned int)1, "$setresolver");
-  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id$131, return_value_neko_alloc_function$132);
+  neko_builtins[(signed long int)1]=neko_alloc_function((void *)builtin_print, (unsigned int)-1, "_print");
+  signed int return_value_neko_val_id_1;
+  return_value_neko_val_id_1=neko_val_id("print");
+  struct _value *return_value_neko_alloc_function_2;
+  return_value_neko_alloc_function_2=neko_alloc_function((void *)builtin_print, (unsigned int)-1, "_print");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_1, return_value_neko_alloc_function_2);
+  signed int return_value_neko_val_id_3;
+  return_value_neko_val_id_3=neko_val_id("array");
+  struct _value *return_value_neko_alloc_function_4;
+  return_value_neko_alloc_function_4=neko_alloc_function((void *)builtin_array, (unsigned int)-1, "_array");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_3, return_value_neko_alloc_function_4);
+  signed int return_value_neko_val_id_5;
+  return_value_neko_val_id_5=neko_val_id("amake");
+  struct _value *return_value_neko_alloc_function_6;
+  return_value_neko_alloc_function_6=neko_alloc_function((void *)builtin_amake, (unsigned int)1, "_amake");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_5, return_value_neko_alloc_function_6);
+  signed int return_value_neko_val_id_7;
+  return_value_neko_val_id_7=neko_val_id("acopy");
+  struct _value *return_value_neko_alloc_function_8;
+  return_value_neko_alloc_function_8=neko_alloc_function((void *)builtin_acopy, (unsigned int)1, "_acopy");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_7, return_value_neko_alloc_function_8);
+  signed int return_value_neko_val_id_9;
+  return_value_neko_val_id_9=neko_val_id("asize");
+  struct _value *return_value_neko_alloc_function_10;
+  return_value_neko_alloc_function_10=neko_alloc_function((void *)builtin_asize, (unsigned int)1, "_asize");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_9, return_value_neko_alloc_function_10);
+  signed int return_value_neko_val_id_11;
+  return_value_neko_val_id_11=neko_val_id("asub");
+  struct _value *return_value_neko_alloc_function_12;
+  return_value_neko_alloc_function_12=neko_alloc_function((void *)builtin_asub, (unsigned int)3, "_asub");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_11, return_value_neko_alloc_function_12);
+  signed int return_value_neko_val_id_13;
+  return_value_neko_val_id_13=neko_val_id("ablit");
+  struct _value *return_value_neko_alloc_function_14;
+  return_value_neko_alloc_function_14=neko_alloc_function((void *)builtin_ablit, (unsigned int)5, "_ablit");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_13, return_value_neko_alloc_function_14);
+  signed int return_value_neko_val_id_15;
+  return_value_neko_val_id_15=neko_val_id("aconcat");
+  struct _value *return_value_neko_alloc_function_16;
+  return_value_neko_alloc_function_16=neko_alloc_function((void *)builtin_aconcat, (unsigned int)1, "_aconcat");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_15, return_value_neko_alloc_function_16);
+  signed int return_value_neko_val_id_17;
+  return_value_neko_val_id_17=neko_val_id("smake");
+  struct _value *return_value_neko_alloc_function_18;
+  return_value_neko_alloc_function_18=neko_alloc_function((void *)builtin_smake, (unsigned int)1, "_smake");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_17, return_value_neko_alloc_function_18);
+  signed int return_value_neko_val_id_19;
+  return_value_neko_val_id_19=neko_val_id("ssize");
+  struct _value *return_value_neko_alloc_function_20;
+  return_value_neko_alloc_function_20=neko_alloc_function((void *)builtin_ssize, (unsigned int)1, "_ssize");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_19, return_value_neko_alloc_function_20);
+  signed int return_value_neko_val_id_21;
+  return_value_neko_val_id_21=neko_val_id("scopy");
+  struct _value *return_value_neko_alloc_function_22;
+  return_value_neko_alloc_function_22=neko_alloc_function((void *)builtin_scopy, (unsigned int)1, "_scopy");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_21, return_value_neko_alloc_function_22);
+  signed int return_value_neko_val_id_23;
+  return_value_neko_val_id_23=neko_val_id("ssub");
+  struct _value *return_value_neko_alloc_function_24;
+  return_value_neko_alloc_function_24=neko_alloc_function((void *)builtin_ssub, (unsigned int)3, "_ssub");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_23, return_value_neko_alloc_function_24);
+  signed int return_value_neko_val_id_25;
+  return_value_neko_val_id_25=neko_val_id("sget");
+  struct _value *return_value_neko_alloc_function_26;
+  return_value_neko_alloc_function_26=neko_alloc_function((void *)builtin_sget, (unsigned int)2, "_sget");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_25, return_value_neko_alloc_function_26);
+  signed int return_value_neko_val_id_27;
+  return_value_neko_val_id_27=neko_val_id("sset");
+  struct _value *return_value_neko_alloc_function_28;
+  return_value_neko_alloc_function_28=neko_alloc_function((void *)builtin_sset, (unsigned int)3, "_sset");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_27, return_value_neko_alloc_function_28);
+  signed int return_value_neko_val_id_29;
+  return_value_neko_val_id_29=neko_val_id("sblit");
+  struct _value *return_value_neko_alloc_function_30;
+  return_value_neko_alloc_function_30=neko_alloc_function((void *)builtin_sblit, (unsigned int)5, "_sblit");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_29, return_value_neko_alloc_function_30);
+  signed int return_value_neko_val_id_31;
+  return_value_neko_val_id_31=neko_val_id("sfind");
+  struct _value *return_value_neko_alloc_function_32;
+  return_value_neko_alloc_function_32=neko_alloc_function((void *)builtin_sfind, (unsigned int)3, "_sfind");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_31, return_value_neko_alloc_function_32);
+  signed int return_value_neko_val_id_33;
+  return_value_neko_val_id_33=neko_val_id("new");
+  struct _value *return_value_neko_alloc_function_34;
+  return_value_neko_alloc_function_34=neko_alloc_function((void *)builtin_new, (unsigned int)1, "_new");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_33, return_value_neko_alloc_function_34);
+  signed int return_value_neko_val_id_35;
+  return_value_neko_val_id_35=neko_val_id("objget");
+  struct _value *return_value_neko_alloc_function_36;
+  return_value_neko_alloc_function_36=neko_alloc_function((void *)builtin_objget, (unsigned int)2, "_objget");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_35, return_value_neko_alloc_function_36);
+  signed int return_value_neko_val_id_37;
+  return_value_neko_val_id_37=neko_val_id("objset");
+  struct _value *return_value_neko_alloc_function_38;
+  return_value_neko_alloc_function_38=neko_alloc_function((void *)builtin_objset, (unsigned int)3, "_objset");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_37, return_value_neko_alloc_function_38);
+  signed int return_value_neko_val_id_39;
+  return_value_neko_val_id_39=neko_val_id("objcall");
+  struct _value *return_value_neko_alloc_function_40;
+  return_value_neko_alloc_function_40=neko_alloc_function((void *)builtin_objcall, (unsigned int)3, "_objcall");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_39, return_value_neko_alloc_function_40);
+  signed int return_value_neko_val_id_41;
+  return_value_neko_val_id_41=neko_val_id("objfield");
+  struct _value *return_value_neko_alloc_function_42;
+  return_value_neko_alloc_function_42=neko_alloc_function((void *)builtin_objfield, (unsigned int)2, "_objfield");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_41, return_value_neko_alloc_function_42);
+  signed int return_value_neko_val_id_43;
+  return_value_neko_val_id_43=neko_val_id("objremove");
+  struct _value *return_value_neko_alloc_function_44;
+  return_value_neko_alloc_function_44=neko_alloc_function((void *)builtin_objremove, (unsigned int)2, "_objremove");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_43, return_value_neko_alloc_function_44);
+  signed int return_value_neko_val_id_45;
+  return_value_neko_val_id_45=neko_val_id("objfields");
+  struct _value *return_value_neko_alloc_function_46;
+  return_value_neko_alloc_function_46=neko_alloc_function((void *)builtin_objfields, (unsigned int)1, "_objfields");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_45, return_value_neko_alloc_function_46);
+  signed int return_value_neko_val_id_47;
+  return_value_neko_val_id_47=neko_val_id("hash");
+  struct _value *return_value_neko_alloc_function_48;
+  return_value_neko_alloc_function_48=neko_alloc_function((void *)builtin_hash, (unsigned int)1, "_hash");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_47, return_value_neko_alloc_function_48);
+  signed int return_value_neko_val_id_49;
+  return_value_neko_val_id_49=neko_val_id("fasthash");
+  struct _value *return_value_neko_alloc_function_50;
+  return_value_neko_alloc_function_50=neko_alloc_function((void *)builtin_fasthash, (unsigned int)1, "_fasthash");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_49, return_value_neko_alloc_function_50);
+  signed int return_value_neko_val_id_51;
+  return_value_neko_val_id_51=neko_val_id("field");
+  struct _value *return_value_neko_alloc_function_52;
+  return_value_neko_alloc_function_52=neko_alloc_function((void *)builtin_field, (unsigned int)1, "_field");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_51, return_value_neko_alloc_function_52);
+  signed int return_value_neko_val_id_53;
+  return_value_neko_val_id_53=neko_val_id("objsetproto");
+  struct _value *return_value_neko_alloc_function_54;
+  return_value_neko_alloc_function_54=neko_alloc_function((void *)builtin_objsetproto, (unsigned int)2, "_objsetproto");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_53, return_value_neko_alloc_function_54);
+  signed int return_value_neko_val_id_55;
+  return_value_neko_val_id_55=neko_val_id("objgetproto");
+  struct _value *return_value_neko_alloc_function_56;
+  return_value_neko_alloc_function_56=neko_alloc_function((void *)builtin_objgetproto, (unsigned int)1, "_objgetproto");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_55, return_value_neko_alloc_function_56);
+  signed int return_value_neko_val_id_57;
+  return_value_neko_val_id_57=neko_val_id("int");
+  struct _value *return_value_neko_alloc_function_58;
+  return_value_neko_alloc_function_58=neko_alloc_function((void *)builtin_int, (unsigned int)1, "_int");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_57, return_value_neko_alloc_function_58);
+  signed int return_value_neko_val_id_59;
+  return_value_neko_val_id_59=neko_val_id("float");
+  struct _value *return_value_neko_alloc_function_60;
+  return_value_neko_alloc_function_60=neko_alloc_function((void *)builtin_float, (unsigned int)1, "_float");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_59, return_value_neko_alloc_function_60);
+  signed int return_value_neko_val_id_61;
+  return_value_neko_val_id_61=neko_val_id("string");
+  struct _value *return_value_neko_alloc_function_62;
+  return_value_neko_alloc_function_62=neko_alloc_function((void *)builtin_string, (unsigned int)1, "_string");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_61, return_value_neko_alloc_function_62);
+  signed int return_value_neko_val_id_63;
+  return_value_neko_val_id_63=neko_val_id("typeof");
+  struct _value *return_value_neko_alloc_function_64;
+  return_value_neko_alloc_function_64=neko_alloc_function((void *)builtin_typeof, (unsigned int)1, "_typeof");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_63, return_value_neko_alloc_function_64);
+  signed int return_value_neko_val_id_65;
+  return_value_neko_val_id_65=neko_val_id("closure");
+  struct _value *return_value_neko_alloc_function_66;
+  return_value_neko_alloc_function_66=neko_alloc_function((void *)builtin_closure, (unsigned int)-1, "_closure");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_65, return_value_neko_alloc_function_66);
+  signed int return_value_neko_val_id_67;
+  return_value_neko_val_id_67=neko_val_id("apply");
+  struct _value *return_value_neko_alloc_function_68;
+  return_value_neko_alloc_function_68=neko_alloc_function((void *)builtin_apply, (unsigned int)-1, "_apply");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_67, return_value_neko_alloc_function_68);
+  signed int return_value_neko_val_id_69;
+  return_value_neko_val_id_69=neko_val_id("varargs");
+  struct _value *return_value_neko_alloc_function_70;
+  return_value_neko_alloc_function_70=neko_alloc_function((void *)builtin_varargs, (unsigned int)1, "_varargs");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_69, return_value_neko_alloc_function_70);
+  signed int return_value_neko_val_id_71;
+  return_value_neko_val_id_71=neko_val_id("compare");
+  struct _value *return_value_neko_alloc_function_72;
+  return_value_neko_alloc_function_72=neko_alloc_function((void *)builtin_compare, (unsigned int)2, "_compare");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_71, return_value_neko_alloc_function_72);
+  signed int return_value_neko_val_id_73;
+  return_value_neko_val_id_73=neko_val_id("pcompare");
+  struct _value *return_value_neko_alloc_function_74;
+  return_value_neko_alloc_function_74=neko_alloc_function((void *)builtin_pcompare, (unsigned int)2, "_pcompare");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_73, return_value_neko_alloc_function_74);
+  signed int return_value_neko_val_id_75;
+  return_value_neko_val_id_75=neko_val_id("not");
+  struct _value *return_value_neko_alloc_function_76;
+  return_value_neko_alloc_function_76=neko_alloc_function((void *)builtin_not, (unsigned int)1, "_not");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_75, return_value_neko_alloc_function_76);
+  signed int return_value_neko_val_id_77;
+  return_value_neko_val_id_77=neko_val_id("throw");
+  struct _value *return_value_neko_alloc_function_78;
+  return_value_neko_alloc_function_78=neko_alloc_function((void *)builtin_throw, (unsigned int)1, "_throw");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_77, return_value_neko_alloc_function_78);
+  signed int return_value_neko_val_id_79;
+  return_value_neko_val_id_79=neko_val_id("rethrow");
+  struct _value *return_value_neko_alloc_function_80;
+  return_value_neko_alloc_function_80=neko_alloc_function((void *)builtin_rethrow, (unsigned int)1, "_rethrow");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_79, return_value_neko_alloc_function_80);
+  signed int return_value_neko_val_id_81;
+  return_value_neko_val_id_81=neko_val_id("nargs");
+  struct _value *return_value_neko_alloc_function_82;
+  return_value_neko_alloc_function_82=neko_alloc_function((void *)builtin_nargs, (unsigned int)1, "_nargs");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_81, return_value_neko_alloc_function_82);
+  signed int return_value_neko_val_id_83;
+  return_value_neko_val_id_83=neko_val_id("call");
+  struct _value *return_value_neko_alloc_function_84;
+  return_value_neko_alloc_function_84=neko_alloc_function((void *)builtin_call, (unsigned int)3, "_call");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_83, return_value_neko_alloc_function_84);
+  signed int return_value_neko_val_id_85;
+  return_value_neko_val_id_85=neko_val_id("isnan");
+  struct _value *return_value_neko_alloc_function_86;
+  return_value_neko_alloc_function_86=neko_alloc_function((void *)builtin_isnan, (unsigned int)1, "_isnan");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_85, return_value_neko_alloc_function_86);
+  signed int return_value_neko_val_id_87;
+  return_value_neko_val_id_87=neko_val_id("isinfinite");
+  struct _value *return_value_neko_alloc_function_88;
+  return_value_neko_alloc_function_88=neko_alloc_function((void *)builtin_isinfinite, (unsigned int)1, "_isinfinite");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_87, return_value_neko_alloc_function_88);
+  signed int return_value_neko_val_id_89;
+  return_value_neko_val_id_89=neko_val_id("istrue");
+  struct _value *return_value_neko_alloc_function_90;
+  return_value_neko_alloc_function_90=neko_alloc_function((void *)builtin_istrue, (unsigned int)1, "_istrue");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_89, return_value_neko_alloc_function_90);
+  signed int return_value_neko_val_id_91;
+  return_value_neko_val_id_91=neko_val_id("getkind");
+  struct _value *return_value_neko_alloc_function_92;
+  return_value_neko_alloc_function_92=neko_alloc_function((void *)builtin_getkind, (unsigned int)1, "_getkind");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_91, return_value_neko_alloc_function_92);
+  signed int return_value_neko_val_id_93;
+  return_value_neko_val_id_93=neko_val_id("iskind");
+  struct _value *return_value_neko_alloc_function_94;
+  return_value_neko_alloc_function_94=neko_alloc_function((void *)builtin_iskind, (unsigned int)2, "_iskind");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_93, return_value_neko_alloc_function_94);
+  signed int return_value_neko_val_id_95;
+  return_value_neko_val_id_95=neko_val_id("hnew");
+  struct _value *return_value_neko_alloc_function_96;
+  return_value_neko_alloc_function_96=neko_alloc_function((void *)builtin_hnew, (unsigned int)1, "_hnew");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_95, return_value_neko_alloc_function_96);
+  signed int return_value_neko_val_id_97;
+  return_value_neko_val_id_97=neko_val_id("hget");
+  struct _value *return_value_neko_alloc_function_98;
+  return_value_neko_alloc_function_98=neko_alloc_function((void *)builtin_hget, (unsigned int)3, "_hget");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_97, return_value_neko_alloc_function_98);
+  signed int return_value_neko_val_id_99;
+  return_value_neko_val_id_99=neko_val_id("hmem");
+  struct _value *return_value_neko_alloc_function_100;
+  return_value_neko_alloc_function_100=neko_alloc_function((void *)builtin_hmem, (unsigned int)3, "_hmem");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_99, return_value_neko_alloc_function_100);
+  signed int return_value_neko_val_id_101;
+  return_value_neko_val_id_101=neko_val_id("hset");
+  struct _value *return_value_neko_alloc_function_102;
+  return_value_neko_alloc_function_102=neko_alloc_function((void *)builtin_hset, (unsigned int)4, "_hset");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_101, return_value_neko_alloc_function_102);
+  signed int return_value_neko_val_id_103;
+  return_value_neko_val_id_103=neko_val_id("hadd");
+  struct _value *return_value_neko_alloc_function_104;
+  return_value_neko_alloc_function_104=neko_alloc_function((void *)builtin_hadd, (unsigned int)3, "_hadd");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_103, return_value_neko_alloc_function_104);
+  signed int return_value_neko_val_id_105;
+  return_value_neko_val_id_105=neko_val_id("hremove");
+  struct _value *return_value_neko_alloc_function_106;
+  return_value_neko_alloc_function_106=neko_alloc_function((void *)builtin_hremove, (unsigned int)3, "_hremove");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_105, return_value_neko_alloc_function_106);
+  signed int return_value_neko_val_id_107;
+  return_value_neko_val_id_107=neko_val_id("hresize");
+  struct _value *return_value_neko_alloc_function_108;
+  return_value_neko_alloc_function_108=neko_alloc_function((void *)builtin_hresize, (unsigned int)2, "_hresize");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_107, return_value_neko_alloc_function_108);
+  signed int return_value_neko_val_id_109;
+  return_value_neko_val_id_109=neko_val_id("hkey");
+  struct _value *return_value_neko_alloc_function_110;
+  return_value_neko_alloc_function_110=neko_alloc_function((void *)builtin_hkey, (unsigned int)1, "_hkey");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_109, return_value_neko_alloc_function_110);
+  signed int return_value_neko_val_id_111;
+  return_value_neko_val_id_111=neko_val_id("hcount");
+  struct _value *return_value_neko_alloc_function_112;
+  return_value_neko_alloc_function_112=neko_alloc_function((void *)builtin_hcount, (unsigned int)1, "_hcount");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_111, return_value_neko_alloc_function_112);
+  signed int return_value_neko_val_id_113;
+  return_value_neko_val_id_113=neko_val_id("hsize");
+  struct _value *return_value_neko_alloc_function_114;
+  return_value_neko_alloc_function_114=neko_alloc_function((void *)builtin_hsize, (unsigned int)1, "_hsize");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_113, return_value_neko_alloc_function_114);
+  signed int return_value_neko_val_id_115;
+  return_value_neko_val_id_115=neko_val_id("hiter");
+  struct _value *return_value_neko_alloc_function_116;
+  return_value_neko_alloc_function_116=neko_alloc_function((void *)builtin_hiter, (unsigned int)2, "_hiter");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_115, return_value_neko_alloc_function_116);
+  signed int return_value_neko_val_id_117;
+  return_value_neko_val_id_117=neko_val_id("iadd");
+  struct _value *return_value_neko_alloc_function_118;
+  return_value_neko_alloc_function_118=neko_alloc_function((void *)builtin_iadd, (unsigned int)2, "_iadd");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_117, return_value_neko_alloc_function_118);
+  signed int return_value_neko_val_id_119;
+  return_value_neko_val_id_119=neko_val_id("isub");
+  struct _value *return_value_neko_alloc_function_120;
+  return_value_neko_alloc_function_120=neko_alloc_function((void *)builtin_isub, (unsigned int)2, "_isub");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_119, return_value_neko_alloc_function_120);
+  signed int return_value_neko_val_id_121;
+  return_value_neko_val_id_121=neko_val_id("imult");
+  struct _value *return_value_neko_alloc_function_122;
+  return_value_neko_alloc_function_122=neko_alloc_function((void *)builtin_imult, (unsigned int)2, "_imult");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_121, return_value_neko_alloc_function_122);
+  signed int return_value_neko_val_id_123;
+  return_value_neko_val_id_123=neko_val_id("idiv");
+  struct _value *return_value_neko_alloc_function_124;
+  return_value_neko_alloc_function_124=neko_alloc_function((void *)builtin_idiv, (unsigned int)2, "_idiv");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_123, return_value_neko_alloc_function_124);
+  signed int return_value_neko_val_id_125;
+  return_value_neko_val_id_125=neko_val_id("excstack");
+  struct _value *return_value_neko_alloc_function_126;
+  return_value_neko_alloc_function_126=neko_alloc_function((void *)builtin_excstack, (unsigned int)0, "_excstack");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_125, return_value_neko_alloc_function_126);
+  signed int return_value_neko_val_id_127;
+  return_value_neko_val_id_127=neko_val_id("callstack");
+  struct _value *return_value_neko_alloc_function_128;
+  return_value_neko_alloc_function_128=neko_alloc_function((void *)builtin_callstack, (unsigned int)0, "_callstack");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_127, return_value_neko_alloc_function_128);
+  signed int return_value_neko_val_id_129;
+  return_value_neko_val_id_129=neko_val_id("version");
+  struct _value *return_value_neko_alloc_function_130;
+  return_value_neko_alloc_function_130=neko_alloc_function((void *)builtin_version, (unsigned int)0, "_version");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_129, return_value_neko_alloc_function_130);
+  signed int return_value_neko_val_id_131;
+  return_value_neko_val_id_131=neko_val_id("setresolver");
+  struct _value *return_value_neko_alloc_function_132;
+  return_value_neko_alloc_function_132=neko_alloc_function((void *)builtin_setresolver, (unsigned int)1, "_setresolver");
+  neko_alloc_field(neko_builtins[(signed long int)0], return_value_neko_val_id_131, return_value_neko_alloc_function_132);
 }
 
 // neko_init_jit
@@ -7262,20 +7262,20 @@ extern struct _value * neko_interp(struct _neko_vm *vm, void *_m, signed long in
   struct _neko_module *m = (struct _neko_module *)_m;
   struct __jmp_buf_tag old[1l];
   memcpy((void *)&old, (const void *)&vm->start, sizeof(struct __jmp_buf_tag [1l]) /*200ul*/ );
-  signed int return_value__setjmp$4;
-  return_value__setjmp$4=_setjmp(vm->start);
-  _Bool tmp_if_expr$1;
-  signed long int *tmp_post$3;
-  _Bool tmp_if_expr$5;
-  if(!(return_value__setjmp$4 == 0))
+  signed int return_value__setjmp_4;
+  return_value__setjmp_4=_setjmp(vm->start);
+  _Bool tmp_if_expr_1;
+  signed long int *tmp_post_3;
+  _Bool tmp_if_expr_5;
+  if(!(return_value__setjmp_4 == 0))
   {
     acc = (signed long int)vm->vthis;
     if(vm->trap == 0l)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = vm->trap <= init_sp ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = vm->trap <= init_sp ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       char **tmp;
       memcpy((void *)&vm->start, (const void *)&old, sizeof(struct __jmp_buf_tag [1l]) /*200ul*/ );
@@ -7291,9 +7291,9 @@ extern struct _value * neko_interp(struct _neko_vm *vm, void *_m, signed long in
     if(!(trap >= vm->sp))
     {
       vm->trap = (signed long int)0;
-      struct _value *return_value_neko_alloc_string$2;
-      return_value_neko_alloc_string$2=neko_alloc_string("Invalid Trap");
-      neko_val_throw(return_value_neko_alloc_string$2);
+      struct _value *return_value_neko_alloc_string_2;
+      return_value_neko_alloc_string_2=neko_alloc_string("Invalid Trap");
+      neko_val_throw(return_value_neko_alloc_string_2);
     }
 
     csp = vm->spmin + (signed long int)((signed int)(signed long int)trap[(signed long int)0] >> 1);
@@ -7305,21 +7305,21 @@ extern struct _value * neko_interp(struct _neko_vm *vm, void *_m, signed long in
     m = (struct _neko_module *)(signed long int *)(trap[(signed long int)4] & (signed long int)~1);
     sp = trap + (signed long int)6;
     vm->trap = (signed long int)((signed int)(signed long int)trap[(signed long int)5] >> 1);
-    for( ; !(vm->sp >= sp); *tmp_post$3 = (signed long int)0)
+    for( ; !(vm->sp >= sp); *tmp_post_3 = (signed long int)0)
     {
-      tmp_post$3 = vm->sp;
+      tmp_post_3 = vm->sp;
       vm->sp = vm->sp + 1l;
     }
     if(!((1 & (signed int)m) == 0))
       goto __CPROVER_DUMP_L9;
 
-    if(!((signed int)*((enum anonymous$7 *)m) == VAL_ABSTRACT))
+    if(!((signed int)*((enum anonymous_7 *)m) == VAL_ABSTRACT))
       goto __CPROVER_DUMP_L9;
 
-    if(!(((struct anonymous$6 *)m)->kind == neko_kind_module))
+    if(!(((struct anonymous_6 *)m)->kind == neko_kind_module))
       goto __CPROVER_DUMP_L9;
 
-    m = (struct _neko_module *)((struct anonymous$6 *)m)->data;
+    m = (struct _neko_module *)((struct anonymous_6 *)m)->data;
     pc = (signed long int *)(((signed long int)pc >> 1) + (signed long int)m->jit);
     acc=((signed long int (*)(struct _neko_vm *, void *, struct _value *, struct _neko_module *))jit_boot_seq)(vm, (void *)pc, (struct _value *)acc, m);
     return (struct _value *)acc;
@@ -7331,11 +7331,11 @@ extern struct _value * neko_interp(struct _neko_vm *vm, void *_m, signed long in
   __CPROVER_DUMP_L9:
     ;
     if(!(m->jit == NULL))
-      tmp_if_expr$5 = m->code == pc ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = m->code == pc ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
       acc=((signed long int (*)(struct _neko_vm *, void *, struct _value *, struct _neko_module *))jit_boot_seq)(vm, m->jit, (struct _value *)acc, m);
 
     else
@@ -7351,519 +7351,519 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 {
   signed long int acc = _acc;
   signed long int *pc = _pc;
-  signed long int *tmp_post$1;
-  signed long int *tmp_post$2;
-  struct _value *return_value_neko_alloc_int32$3;
-  signed long int *tmp_post$4;
-  signed long int *tmp_post$5;
-  struct _value *return_value_neko_alloc_string$6;
-  signed long int *tmp_post$9;
-  _Bool tmp_if_expr$17;
-  struct _value *return_value_neko_alloc_string$11;
-  struct _value *return_value_neko_alloc_string$14;
-  _Bool tmp_if_expr$37;
-  _Bool tmp_if_expr$36;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$35;
-  struct _value *return_value_neko_alloc_string$19;
-  struct _value *return_value_neko_alloc_string$22;
-  signed long int *tmp_post$25;
-  signed long int *tmp_post$26;
-  signed long int *tmp_post$27;
-  signed long int *tmp_post$28;
-  _Bool tmp_if_expr$32;
-  _Bool tmp_if_expr$34;
-  _Bool tmp_if_expr$33;
-  struct _value *return_value_neko_alloc_string$29;
-  signed long int *tmp_post$38;
-  _Bool tmp_if_expr$53;
-  _Bool tmp_if_expr$52;
-  struct _value *return_value_neko_alloc_string$39;
-  struct _value *return_value_neko_alloc_string$42;
-  signed long int *tmp_post$45;
-  signed long int *tmp_post$46;
-  signed long int *tmp_post$47;
-  signed long int *tmp_post$48;
-  struct _value *return_value_neko_alloc_string$49;
-  _Bool tmp_if_expr$68;
-  _Bool tmp_if_expr$67;
-  struct _value *return_value_neko_alloc_string$54;
-  struct _value *return_value_neko_alloc_string$57;
-  signed long int *tmp_post$60;
-  signed long int *tmp_post$61;
-  signed long int *tmp_post$62;
-  signed long int *tmp_post$63;
-  struct _value *return_value_neko_alloc_string$64;
-  _Bool tmp_if_expr$85;
-  _Bool tmp_if_expr$69;
-  _Bool tmp_if_expr$84;
-  signed long int *tmp_post$70;
-  struct _value *return_value_neko_alloc_string$71;
-  struct _value *return_value_neko_alloc_string$74;
-  signed long int *tmp_post$77;
-  signed long int *tmp_post$78;
-  signed long int *tmp_post$79;
-  signed long int *tmp_post$80;
-  struct _value *return_value_neko_alloc_string$81;
-  signed long int *tmp_post$86;
-  signed long int *tmp_post$87;
-  signed long int *tmp_post$88;
-  struct _value *return_value_neko_alloc_string$89;
-  signed long int *tmp_post$92;
-  _Bool tmp_if_expr$99;
-  struct _value *return_value_neko_alloc_string$93;
-  struct _value *return_value_neko_alloc_string$96;
-  signed long int *tmp_post$100;
-  _Bool tmp_if_expr$117;
-  _Bool tmp_if_expr$118;
-  _Bool tmp_if_expr$116;
-  struct _value *return_value_neko_alloc_string$101;
-  struct _value *return_value_neko_alloc_string$104;
-  signed long int *tmp_post$106;
-  signed long int *tmp_post$107;
-  signed long int *tmp_post$108;
-  signed long int *tmp_post$109;
-  _Bool tmp_if_expr$113;
-  _Bool tmp_if_expr$115;
-  _Bool tmp_if_expr$114;
-  struct _value *return_value_neko_alloc_string$110;
-  signed long int *tmp_post$119;
-  signed long int *tmp_post$120;
-  _Bool tmp_if_expr$134;
-  _Bool tmp_if_expr$133;
-  struct _value *return_value_neko_alloc_string$121;
-  struct _value *return_value_neko_alloc_string$124;
-  signed long int *tmp_post$126;
-  signed long int *tmp_post$127;
-  signed long int *tmp_post$128;
-  signed long int *tmp_post$129;
-  struct _value *return_value_neko_alloc_string$130;
-  signed long int *tmp_post$135;
-  struct _value *return_value_neko_alloc_string$136;
-  signed long int *tmp_post$138;
-  signed int tmp_post$139;
-  signed long int *tmp_post$140;
-  _Bool tmp_if_expr$144;
-  struct _value *return_value_neko_alloc_string$141;
-  struct _value *return_value_neko_alloc_string$145;
-  signed int tmp_post$148;
-  signed int tmp_post$149;
-  signed long int *tmp_post$150;
-  signed long int *tmp_post$151;
-  signed int tmp_post$153;
-  signed long int *tmp_post$154;
-  signed long int *tmp_post$155;
-  signed long int *tmp_post$156;
-  signed long int *tmp_post$157;
-  signed long int *tmp_post$158;
-  struct _value *return_value_neko_alloc_string$159;
-  _Bool tmp_if_expr$193;
-  struct _value *return_value_neko_alloc_string$162;
-  struct _value *return_value_neko_alloc_string$164;
-  signed long int *tmp_post$166;
-  signed long int *tmp_post$167;
-  signed long int *tmp_post$168;
-  signed long int *tmp_post$169;
-  struct _value *return_value_neko_alloc_string$170;
-  signed long int *tmp_post$172;
-  signed long int *tmp_post$173;
-  signed long int *tmp_post$174;
-  signed long int *tmp_post$175;
-  struct _value *return_value_neko_alloc_string$176;
-  signed int tmp_post$179;
-  signed long int *tmp_post$180;
-  struct _value *return_value_neko_alloc_string$181;
-  signed long int *tmp_post$183;
-  signed long int *tmp_post$184;
-  signed long int *tmp_post$185;
-  signed long int *tmp_post$186;
-  struct _value *return_value_neko_alloc_string$187;
-  struct _value *return_value_neko_alloc_string$190;
-  struct _value *return_value_neko_alloc_string$194;
-  _Bool tmp_if_expr$228;
-  struct _value *return_value_neko_alloc_string$197;
-  struct _value *return_value_neko_alloc_string$199;
-  signed long int *tmp_post$201;
-  signed long int *tmp_post$202;
-  signed long int *tmp_post$203;
-  signed long int *tmp_post$204;
-  struct _value *return_value_neko_alloc_string$205;
-  signed long int *tmp_post$207;
-  signed long int *tmp_post$208;
-  signed long int *tmp_post$209;
-  signed long int *tmp_post$210;
-  struct _value *return_value_neko_alloc_string$211;
-  signed int tmp_post$214;
-  signed long int *tmp_post$215;
-  struct _value *return_value_neko_alloc_string$216;
-  signed long int *tmp_post$218;
-  signed long int *tmp_post$219;
-  signed long int *tmp_post$220;
-  signed long int *tmp_post$221;
-  struct _value *return_value_neko_alloc_string$222;
-  struct _value *return_value_neko_alloc_string$225;
-  signed long int *tmp_post$229;
-  struct _value *return_value_neko_alloc_string$230;
-  _Bool tmp_if_expr$264;
-  struct _value *return_value_neko_alloc_string$233;
-  struct _value *return_value_neko_alloc_string$235;
-  signed long int *tmp_post$237;
-  signed long int *tmp_post$238;
-  signed long int *tmp_post$239;
-  signed long int *tmp_post$240;
-  struct _value *return_value_neko_alloc_string$241;
-  signed long int *tmp_post$243;
-  signed long int *tmp_post$244;
-  signed long int *tmp_post$245;
-  signed long int *tmp_post$246;
-  struct _value *return_value_neko_alloc_string$247;
-  signed int tmp_post$250;
-  signed long int *tmp_post$251;
-  struct _value *return_value_neko_alloc_string$252;
-  signed long int *tmp_post$254;
-  signed long int *tmp_post$255;
-  signed long int *tmp_post$256;
-  signed long int *tmp_post$257;
-  struct _value *return_value_neko_alloc_string$258;
-  struct _value *return_value_neko_alloc_string$261;
-  struct _value *return_value_neko_alloc_string$265;
-  struct _value *return_value_neko_alloc_string$267;
-  signed int tmp_post$270;
-  signed long int *tmp_post$271;
-  signed long int *tmp_post$272;
-  signed int tmp_post$273;
-  signed long int *tmp_post$274;
-  signed long int *tmp_post$275;
-  signed long int *tmp_post$276;
-  signed long int *tmp_post$277;
-  signed long int *tmp_post$278;
-  signed long int *tmp_post$279;
-  signed int tmp_post$281;
-  signed long int *tmp_post$282;
-  _Bool tmp_if_expr$286;
-  struct _value *return_value_neko_alloc_string$283;
-  signed long int *tmp_post$288;
-  signed long int *tmp_post$289;
-  signed long int *tmp_post$290;
-  signed long int *tmp_post$291;
-  _Bool tmp_if_expr$352;
-  struct _value *tmp_if_expr$293;
-  struct _value *return_value_neko_alloc_int32$292;
-  struct _value *return_value_neko_alloc_float$294;
-  struct _value *tmp_if_expr$296;
-  struct _value *return_value_neko_alloc_int32$295;
-  struct _value *return_value_neko_append_int$297;
-  struct _value *return_value_neko_alloc_string$298;
-  struct _value *return_value_neko_alloc_string$301;
-  signed long int *tmp_post$304;
-  signed long int *tmp_post$305;
-  signed long int *tmp_post$306;
-  signed long int *tmp_post$307;
-  struct _value *return_value_neko_alloc_string$308;
-  struct _value *return_value_neko_alloc_float$311;
-  struct _value *tmp_if_expr$313;
-  struct _value *return_value_neko_alloc_int32$312;
-  struct _value *return_value_neko_append_int$314;
-  struct _value *return_value_neko_alloc_string$315;
-  struct _value *return_value_neko_alloc_string$318;
-  signed long int *tmp_post$321;
-  signed long int *tmp_post$322;
-  signed long int *tmp_post$323;
-  signed long int *tmp_post$324;
-  struct _value *return_value_neko_alloc_string$325;
-  struct _value *return_value_neko_alloc_float$328;
-  struct _value *return_value_neko_alloc_float$329;
-  struct _value *tmp_if_expr$331;
-  struct _value *return_value_neko_alloc_int32$330;
-  struct _value *return_value_neko_alloc_float$332;
-  struct _value *return_value_neko_alloc_string$333;
-  signed long int *tmp_post$336;
-  signed long int *tmp_post$337;
-  signed long int *tmp_post$338;
-  signed long int *tmp_post$339;
-  struct _value *return_value_neko_alloc_string$340;
-  signed long int *tmp_post$343;
-  signed long int *tmp_post$344;
-  signed long int *tmp_post$345;
-  signed long int *tmp_post$346;
-  _Bool tmp_if_expr$351;
-  struct _value *return_value_neko_alloc_string$348;
-  signed long int *tmp_post$353;
-  _Bool tmp_if_expr$413;
-  struct _value *tmp_if_expr$355;
-  struct _value *return_value_neko_alloc_int32$354;
-  struct _value *return_value_neko_alloc_float$356;
-  struct _value *tmp_if_expr$358;
-  struct _value *return_value_neko_alloc_int32$357;
-  struct _value *return_value_neko_alloc_string$359;
-  struct _value *return_value_neko_alloc_string$362;
-  signed long int *tmp_post$365;
-  signed long int *tmp_post$366;
-  signed long int *tmp_post$367;
-  signed long int *tmp_post$368;
-  struct _value *return_value_neko_alloc_string$369;
-  struct _value *return_value_neko_alloc_float$372;
-  struct _value *tmp_if_expr$374;
-  struct _value *return_value_neko_alloc_int32$373;
-  struct _value *return_value_neko_alloc_string$375;
-  struct _value *return_value_neko_alloc_string$378;
-  signed long int *tmp_post$381;
-  signed long int *tmp_post$382;
-  signed long int *tmp_post$383;
-  signed long int *tmp_post$384;
-  struct _value *return_value_neko_alloc_string$385;
-  struct _value *return_value_neko_alloc_float$388;
-  struct _value *return_value_neko_alloc_float$389;
-  struct _value *tmp_if_expr$391;
-  struct _value *return_value_neko_alloc_int32$390;
-  struct _value *return_value_neko_alloc_float$392;
-  struct _value *return_value_neko_alloc_string$393;
-  signed long int *tmp_post$396;
-  signed long int *tmp_post$397;
-  signed long int *tmp_post$398;
-  signed long int *tmp_post$399;
-  struct _value *return_value_neko_alloc_string$400;
-  struct _value *return_value_neko_alloc_string$403;
-  signed long int *tmp_post$406;
-  signed long int *tmp_post$407;
-  signed long int *tmp_post$408;
-  signed long int *tmp_post$409;
-  struct _value *return_value_neko_alloc_string$410;
-  signed long int *tmp_post$414;
-  _Bool tmp_if_expr$474;
-  struct _value *tmp_if_expr$416;
-  struct _value *return_value_neko_alloc_int32$415;
-  struct _value *return_value_neko_alloc_float$417;
-  struct _value *tmp_if_expr$419;
-  struct _value *return_value_neko_alloc_int32$418;
-  struct _value *return_value_neko_alloc_string$420;
-  struct _value *return_value_neko_alloc_string$423;
-  signed long int *tmp_post$426;
-  signed long int *tmp_post$427;
-  signed long int *tmp_post$428;
-  signed long int *tmp_post$429;
-  struct _value *return_value_neko_alloc_string$430;
-  struct _value *return_value_neko_alloc_float$433;
-  struct _value *tmp_if_expr$435;
-  struct _value *return_value_neko_alloc_int32$434;
-  struct _value *return_value_neko_alloc_string$436;
-  struct _value *return_value_neko_alloc_string$439;
-  signed long int *tmp_post$442;
-  signed long int *tmp_post$443;
-  signed long int *tmp_post$444;
-  signed long int *tmp_post$445;
-  struct _value *return_value_neko_alloc_string$446;
-  struct _value *return_value_neko_alloc_float$449;
-  struct _value *return_value_neko_alloc_float$450;
-  struct _value *tmp_if_expr$452;
-  struct _value *return_value_neko_alloc_int32$451;
-  struct _value *return_value_neko_alloc_float$453;
-  struct _value *return_value_neko_alloc_string$454;
-  signed long int *tmp_post$457;
-  signed long int *tmp_post$458;
-  signed long int *tmp_post$459;
-  signed long int *tmp_post$460;
-  struct _value *return_value_neko_alloc_string$461;
-  struct _value *return_value_neko_alloc_string$464;
-  signed long int *tmp_post$467;
-  signed long int *tmp_post$468;
-  signed long int *tmp_post$469;
-  signed long int *tmp_post$470;
-  struct _value *return_value_neko_alloc_string$471;
-  signed long int *tmp_post$475;
-  _Bool tmp_if_expr$503;
-  _Bool tmp_if_expr$504;
-  _Bool tmp_if_expr$507;
-  _Bool tmp_if_expr$505;
-  _Bool tmp_if_expr$506;
-  double tmp_if_expr$477;
-  double tmp_if_expr$476;
-  double tmp_if_expr$479;
-  double tmp_if_expr$478;
-  struct _value *return_value_neko_alloc_float$480;
-  _Bool tmp_if_expr$502;
-  struct _value *return_value_neko_alloc_string$481;
-  signed long int *tmp_post$484;
-  signed long int *tmp_post$485;
-  signed long int *tmp_post$486;
-  signed long int *tmp_post$487;
-  _Bool tmp_if_expr$501;
-  struct _value *return_value_neko_alloc_string$488;
-  struct _value *return_value_neko_alloc_string$491;
-  signed long int *tmp_post$494;
-  signed long int *tmp_post$495;
-  signed long int *tmp_post$496;
-  signed long int *tmp_post$497;
-  struct _value *return_value_neko_alloc_string$498;
-  signed long int *tmp_post$508;
-  _Bool tmp_if_expr$515;
-  _Bool tmp_if_expr$513;
-  _Bool tmp_if_expr$514;
-  _Bool tmp_if_expr$512;
-  struct _value *return_value_neko_alloc_string$509;
-  _Bool tmp_if_expr$580;
-  struct _value *tmp_if_expr$517;
-  struct _value *return_value_neko_alloc_int32$516;
-  double return_value_fmod$518;
-  struct _value *return_value_neko_alloc_float$519;
-  struct _value *tmp_if_expr$521;
-  struct _value *return_value_neko_alloc_int32$520;
-  struct _value *return_value_neko_alloc_string$522;
-  struct _value *return_value_neko_alloc_string$525;
-  signed long int *tmp_post$528;
-  signed long int *tmp_post$529;
-  signed long int *tmp_post$530;
-  signed long int *tmp_post$531;
-  struct _value *return_value_neko_alloc_string$532;
-  double return_value_fmod$535;
-  struct _value *return_value_neko_alloc_float$536;
-  struct _value *tmp_if_expr$538;
-  struct _value *return_value_neko_alloc_int32$537;
-  struct _value *return_value_neko_alloc_string$539;
-  struct _value *return_value_neko_alloc_string$542;
-  signed long int *tmp_post$545;
-  signed long int *tmp_post$546;
-  signed long int *tmp_post$547;
-  signed long int *tmp_post$548;
-  struct _value *return_value_neko_alloc_string$549;
-  double return_value_fmod$552;
-  struct _value *return_value_neko_alloc_float$553;
-  double return_value_fmod$554;
-  struct _value *return_value_neko_alloc_float$555;
-  struct _value *tmp_if_expr$557;
-  struct _value *return_value_neko_alloc_int32$556;
-  double return_value_fmod$558;
-  struct _value *return_value_neko_alloc_float$559;
-  struct _value *return_value_neko_alloc_string$560;
-  signed long int *tmp_post$563;
-  signed long int *tmp_post$564;
-  signed long int *tmp_post$565;
-  signed long int *tmp_post$566;
-  struct _value *return_value_neko_alloc_string$567;
-  struct _value *return_value_neko_alloc_string$570;
-  signed long int *tmp_post$573;
-  signed long int *tmp_post$574;
-  signed long int *tmp_post$575;
-  signed long int *tmp_post$576;
-  struct _value *return_value_neko_alloc_string$577;
-  signed long int *tmp_post$581;
-  _Bool tmp_if_expr$598;
-  struct _value *tmp_if_expr$583;
-  struct _value *return_value_neko_alloc_int32$582;
-  _Bool tmp_if_expr$595;
-  _Bool tmp_if_expr$597;
-  _Bool tmp_if_expr$596;
-  signed int tmp_if_expr$584;
-  signed int tmp_if_expr$585;
-  struct _value *tmp_if_expr$591;
-  signed int tmp_if_expr$586;
-  signed int tmp_if_expr$587;
-  struct _value *return_value_neko_alloc_int32$588;
-  signed int tmp_if_expr$589;
-  signed int tmp_if_expr$590;
-  struct _value *return_value_neko_alloc_string$592;
-  signed long int *tmp_post$599;
-  _Bool tmp_if_expr$616;
-  struct _value *tmp_if_expr$601;
-  struct _value *return_value_neko_alloc_int32$600;
-  _Bool tmp_if_expr$613;
-  _Bool tmp_if_expr$615;
-  _Bool tmp_if_expr$614;
-  signed int tmp_if_expr$602;
-  signed int tmp_if_expr$603;
-  struct _value *tmp_if_expr$609;
-  signed int tmp_if_expr$604;
-  signed int tmp_if_expr$605;
-  struct _value *return_value_neko_alloc_int32$606;
-  signed int tmp_if_expr$607;
-  signed int tmp_if_expr$608;
-  struct _value *return_value_neko_alloc_string$610;
-  signed long int *tmp_post$617;
-  _Bool tmp_if_expr$634;
-  struct _value *tmp_if_expr$619;
-  struct _value *return_value_neko_alloc_int32$618;
-  _Bool tmp_if_expr$631;
-  _Bool tmp_if_expr$633;
-  _Bool tmp_if_expr$632;
-  signed int tmp_if_expr$620;
-  signed int tmp_if_expr$621;
-  struct _value *tmp_if_expr$627;
-  signed int tmp_if_expr$622;
-  signed int tmp_if_expr$623;
-  struct _value *return_value_neko_alloc_int32$624;
-  signed int tmp_if_expr$625;
-  signed int tmp_if_expr$626;
-  struct _value *return_value_neko_alloc_string$628;
-  signed long int *tmp_post$635;
-  _Bool tmp_if_expr$652;
-  struct _value *tmp_if_expr$637;
-  struct _value *return_value_neko_alloc_int32$636;
-  _Bool tmp_if_expr$649;
-  _Bool tmp_if_expr$651;
-  _Bool tmp_if_expr$650;
-  signed int tmp_if_expr$638;
-  signed int tmp_if_expr$639;
-  struct _value *tmp_if_expr$645;
-  signed int tmp_if_expr$640;
-  signed int tmp_if_expr$641;
-  struct _value *return_value_neko_alloc_int32$642;
-  signed int tmp_if_expr$643;
-  signed int tmp_if_expr$644;
-  struct _value *return_value_neko_alloc_string$646;
-  signed long int *tmp_post$653;
-  _Bool tmp_if_expr$670;
-  struct _value *tmp_if_expr$655;
-  struct _value *return_value_neko_alloc_int32$654;
-  _Bool tmp_if_expr$667;
-  _Bool tmp_if_expr$669;
-  _Bool tmp_if_expr$668;
-  signed int tmp_if_expr$656;
-  signed int tmp_if_expr$657;
-  struct _value *tmp_if_expr$663;
-  signed int tmp_if_expr$658;
-  signed int tmp_if_expr$659;
-  struct _value *return_value_neko_alloc_int32$660;
-  signed int tmp_if_expr$661;
-  signed int tmp_if_expr$662;
-  struct _value *return_value_neko_alloc_string$664;
-  signed long int *tmp_post$671;
-  _Bool tmp_if_expr$688;
-  struct _value *tmp_if_expr$673;
-  struct _value *return_value_neko_alloc_int32$672;
-  _Bool tmp_if_expr$685;
-  _Bool tmp_if_expr$687;
-  _Bool tmp_if_expr$686;
-  signed int tmp_if_expr$674;
-  signed int tmp_if_expr$675;
-  struct _value *tmp_if_expr$681;
-  signed int tmp_if_expr$676;
-  signed int tmp_if_expr$677;
-  struct _value *return_value_neko_alloc_int32$678;
-  signed int tmp_if_expr$679;
-  signed int tmp_if_expr$680;
-  struct _value *return_value_neko_alloc_string$682;
-  signed long int *tmp_post$689;
-  signed int return_value_neko_val_compare$690;
-  signed long int *tmp_post$691;
-  signed int return_value_neko_val_compare$692;
-  signed long int *tmp_post$693;
-  signed int return_value_neko_val_compare$694;
-  signed long int *tmp_post$695;
-  signed int return_value_neko_val_compare$696;
-  signed long int *tmp_post$697;
-  signed int return_value_neko_val_compare$698;
-  signed long int *tmp_post$699;
-  signed int return_value_neko_val_compare$700;
-  signed long int *tmp_post$701;
-  struct _value *tmp_if_expr$702;
-  signed int return_value_neko_val_compare$703;
-  signed long int *tmp_post$704;
-  struct _value *tmp_if_expr$705;
-  signed long int *tmp_post$706;
-  _Bool tmp_if_expr$711;
-  struct _value *return_value_neko_alloc_string$708;
-  struct _value *return_value_neko_alloc_object$712;
-  _Bool tmp_if_expr$713;
+  signed long int *tmp_post_1;
+  signed long int *tmp_post_2;
+  struct _value *return_value_neko_alloc_int32_3;
+  signed long int *tmp_post_4;
+  signed long int *tmp_post_5;
+  struct _value *return_value_neko_alloc_string_6;
+  signed long int *tmp_post_9;
+  _Bool tmp_if_expr_17;
+  struct _value *return_value_neko_alloc_string_11;
+  struct _value *return_value_neko_alloc_string_14;
+  _Bool tmp_if_expr_37;
+  _Bool tmp_if_expr_36;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_35;
+  struct _value *return_value_neko_alloc_string_19;
+  struct _value *return_value_neko_alloc_string_22;
+  signed long int *tmp_post_25;
+  signed long int *tmp_post_26;
+  signed long int *tmp_post_27;
+  signed long int *tmp_post_28;
+  _Bool tmp_if_expr_32;
+  _Bool tmp_if_expr_34;
+  _Bool tmp_if_expr_33;
+  struct _value *return_value_neko_alloc_string_29;
+  signed long int *tmp_post_38;
+  _Bool tmp_if_expr_53;
+  _Bool tmp_if_expr_52;
+  struct _value *return_value_neko_alloc_string_39;
+  struct _value *return_value_neko_alloc_string_42;
+  signed long int *tmp_post_45;
+  signed long int *tmp_post_46;
+  signed long int *tmp_post_47;
+  signed long int *tmp_post_48;
+  struct _value *return_value_neko_alloc_string_49;
+  _Bool tmp_if_expr_68;
+  _Bool tmp_if_expr_67;
+  struct _value *return_value_neko_alloc_string_54;
+  struct _value *return_value_neko_alloc_string_57;
+  signed long int *tmp_post_60;
+  signed long int *tmp_post_61;
+  signed long int *tmp_post_62;
+  signed long int *tmp_post_63;
+  struct _value *return_value_neko_alloc_string_64;
+  _Bool tmp_if_expr_85;
+  _Bool tmp_if_expr_69;
+  _Bool tmp_if_expr_84;
+  signed long int *tmp_post_70;
+  struct _value *return_value_neko_alloc_string_71;
+  struct _value *return_value_neko_alloc_string_74;
+  signed long int *tmp_post_77;
+  signed long int *tmp_post_78;
+  signed long int *tmp_post_79;
+  signed long int *tmp_post_80;
+  struct _value *return_value_neko_alloc_string_81;
+  signed long int *tmp_post_86;
+  signed long int *tmp_post_87;
+  signed long int *tmp_post_88;
+  struct _value *return_value_neko_alloc_string_89;
+  signed long int *tmp_post_92;
+  _Bool tmp_if_expr_99;
+  struct _value *return_value_neko_alloc_string_93;
+  struct _value *return_value_neko_alloc_string_96;
+  signed long int *tmp_post_100;
+  _Bool tmp_if_expr_117;
+  _Bool tmp_if_expr_118;
+  _Bool tmp_if_expr_116;
+  struct _value *return_value_neko_alloc_string_101;
+  struct _value *return_value_neko_alloc_string_104;
+  signed long int *tmp_post_106;
+  signed long int *tmp_post_107;
+  signed long int *tmp_post_108;
+  signed long int *tmp_post_109;
+  _Bool tmp_if_expr_113;
+  _Bool tmp_if_expr_115;
+  _Bool tmp_if_expr_114;
+  struct _value *return_value_neko_alloc_string_110;
+  signed long int *tmp_post_119;
+  signed long int *tmp_post_120;
+  _Bool tmp_if_expr_134;
+  _Bool tmp_if_expr_133;
+  struct _value *return_value_neko_alloc_string_121;
+  struct _value *return_value_neko_alloc_string_124;
+  signed long int *tmp_post_126;
+  signed long int *tmp_post_127;
+  signed long int *tmp_post_128;
+  signed long int *tmp_post_129;
+  struct _value *return_value_neko_alloc_string_130;
+  signed long int *tmp_post_135;
+  struct _value *return_value_neko_alloc_string_136;
+  signed long int *tmp_post_138;
+  signed int tmp_post_139;
+  signed long int *tmp_post_140;
+  _Bool tmp_if_expr_144;
+  struct _value *return_value_neko_alloc_string_141;
+  struct _value *return_value_neko_alloc_string_145;
+  signed int tmp_post_148;
+  signed int tmp_post_149;
+  signed long int *tmp_post_150;
+  signed long int *tmp_post_151;
+  signed int tmp_post_153;
+  signed long int *tmp_post_154;
+  signed long int *tmp_post_155;
+  signed long int *tmp_post_156;
+  signed long int *tmp_post_157;
+  signed long int *tmp_post_158;
+  struct _value *return_value_neko_alloc_string_159;
+  _Bool tmp_if_expr_193;
+  struct _value *return_value_neko_alloc_string_162;
+  struct _value *return_value_neko_alloc_string_164;
+  signed long int *tmp_post_166;
+  signed long int *tmp_post_167;
+  signed long int *tmp_post_168;
+  signed long int *tmp_post_169;
+  struct _value *return_value_neko_alloc_string_170;
+  signed long int *tmp_post_172;
+  signed long int *tmp_post_173;
+  signed long int *tmp_post_174;
+  signed long int *tmp_post_175;
+  struct _value *return_value_neko_alloc_string_176;
+  signed int tmp_post_179;
+  signed long int *tmp_post_180;
+  struct _value *return_value_neko_alloc_string_181;
+  signed long int *tmp_post_183;
+  signed long int *tmp_post_184;
+  signed long int *tmp_post_185;
+  signed long int *tmp_post_186;
+  struct _value *return_value_neko_alloc_string_187;
+  struct _value *return_value_neko_alloc_string_190;
+  struct _value *return_value_neko_alloc_string_194;
+  _Bool tmp_if_expr_228;
+  struct _value *return_value_neko_alloc_string_197;
+  struct _value *return_value_neko_alloc_string_199;
+  signed long int *tmp_post_201;
+  signed long int *tmp_post_202;
+  signed long int *tmp_post_203;
+  signed long int *tmp_post_204;
+  struct _value *return_value_neko_alloc_string_205;
+  signed long int *tmp_post_207;
+  signed long int *tmp_post_208;
+  signed long int *tmp_post_209;
+  signed long int *tmp_post_210;
+  struct _value *return_value_neko_alloc_string_211;
+  signed int tmp_post_214;
+  signed long int *tmp_post_215;
+  struct _value *return_value_neko_alloc_string_216;
+  signed long int *tmp_post_218;
+  signed long int *tmp_post_219;
+  signed long int *tmp_post_220;
+  signed long int *tmp_post_221;
+  struct _value *return_value_neko_alloc_string_222;
+  struct _value *return_value_neko_alloc_string_225;
+  signed long int *tmp_post_229;
+  struct _value *return_value_neko_alloc_string_230;
+  _Bool tmp_if_expr_264;
+  struct _value *return_value_neko_alloc_string_233;
+  struct _value *return_value_neko_alloc_string_235;
+  signed long int *tmp_post_237;
+  signed long int *tmp_post_238;
+  signed long int *tmp_post_239;
+  signed long int *tmp_post_240;
+  struct _value *return_value_neko_alloc_string_241;
+  signed long int *tmp_post_243;
+  signed long int *tmp_post_244;
+  signed long int *tmp_post_245;
+  signed long int *tmp_post_246;
+  struct _value *return_value_neko_alloc_string_247;
+  signed int tmp_post_250;
+  signed long int *tmp_post_251;
+  struct _value *return_value_neko_alloc_string_252;
+  signed long int *tmp_post_254;
+  signed long int *tmp_post_255;
+  signed long int *tmp_post_256;
+  signed long int *tmp_post_257;
+  struct _value *return_value_neko_alloc_string_258;
+  struct _value *return_value_neko_alloc_string_261;
+  struct _value *return_value_neko_alloc_string_265;
+  struct _value *return_value_neko_alloc_string_267;
+  signed int tmp_post_270;
+  signed long int *tmp_post_271;
+  signed long int *tmp_post_272;
+  signed int tmp_post_273;
+  signed long int *tmp_post_274;
+  signed long int *tmp_post_275;
+  signed long int *tmp_post_276;
+  signed long int *tmp_post_277;
+  signed long int *tmp_post_278;
+  signed long int *tmp_post_279;
+  signed int tmp_post_281;
+  signed long int *tmp_post_282;
+  _Bool tmp_if_expr_286;
+  struct _value *return_value_neko_alloc_string_283;
+  signed long int *tmp_post_288;
+  signed long int *tmp_post_289;
+  signed long int *tmp_post_290;
+  signed long int *tmp_post_291;
+  _Bool tmp_if_expr_352;
+  struct _value *tmp_if_expr_293;
+  struct _value *return_value_neko_alloc_int32_292;
+  struct _value *return_value_neko_alloc_float_294;
+  struct _value *tmp_if_expr_296;
+  struct _value *return_value_neko_alloc_int32_295;
+  struct _value *return_value_neko_append_int_297;
+  struct _value *return_value_neko_alloc_string_298;
+  struct _value *return_value_neko_alloc_string_301;
+  signed long int *tmp_post_304;
+  signed long int *tmp_post_305;
+  signed long int *tmp_post_306;
+  signed long int *tmp_post_307;
+  struct _value *return_value_neko_alloc_string_308;
+  struct _value *return_value_neko_alloc_float_311;
+  struct _value *tmp_if_expr_313;
+  struct _value *return_value_neko_alloc_int32_312;
+  struct _value *return_value_neko_append_int_314;
+  struct _value *return_value_neko_alloc_string_315;
+  struct _value *return_value_neko_alloc_string_318;
+  signed long int *tmp_post_321;
+  signed long int *tmp_post_322;
+  signed long int *tmp_post_323;
+  signed long int *tmp_post_324;
+  struct _value *return_value_neko_alloc_string_325;
+  struct _value *return_value_neko_alloc_float_328;
+  struct _value *return_value_neko_alloc_float_329;
+  struct _value *tmp_if_expr_331;
+  struct _value *return_value_neko_alloc_int32_330;
+  struct _value *return_value_neko_alloc_float_332;
+  struct _value *return_value_neko_alloc_string_333;
+  signed long int *tmp_post_336;
+  signed long int *tmp_post_337;
+  signed long int *tmp_post_338;
+  signed long int *tmp_post_339;
+  struct _value *return_value_neko_alloc_string_340;
+  signed long int *tmp_post_343;
+  signed long int *tmp_post_344;
+  signed long int *tmp_post_345;
+  signed long int *tmp_post_346;
+  _Bool tmp_if_expr_351;
+  struct _value *return_value_neko_alloc_string_348;
+  signed long int *tmp_post_353;
+  _Bool tmp_if_expr_413;
+  struct _value *tmp_if_expr_355;
+  struct _value *return_value_neko_alloc_int32_354;
+  struct _value *return_value_neko_alloc_float_356;
+  struct _value *tmp_if_expr_358;
+  struct _value *return_value_neko_alloc_int32_357;
+  struct _value *return_value_neko_alloc_string_359;
+  struct _value *return_value_neko_alloc_string_362;
+  signed long int *tmp_post_365;
+  signed long int *tmp_post_366;
+  signed long int *tmp_post_367;
+  signed long int *tmp_post_368;
+  struct _value *return_value_neko_alloc_string_369;
+  struct _value *return_value_neko_alloc_float_372;
+  struct _value *tmp_if_expr_374;
+  struct _value *return_value_neko_alloc_int32_373;
+  struct _value *return_value_neko_alloc_string_375;
+  struct _value *return_value_neko_alloc_string_378;
+  signed long int *tmp_post_381;
+  signed long int *tmp_post_382;
+  signed long int *tmp_post_383;
+  signed long int *tmp_post_384;
+  struct _value *return_value_neko_alloc_string_385;
+  struct _value *return_value_neko_alloc_float_388;
+  struct _value *return_value_neko_alloc_float_389;
+  struct _value *tmp_if_expr_391;
+  struct _value *return_value_neko_alloc_int32_390;
+  struct _value *return_value_neko_alloc_float_392;
+  struct _value *return_value_neko_alloc_string_393;
+  signed long int *tmp_post_396;
+  signed long int *tmp_post_397;
+  signed long int *tmp_post_398;
+  signed long int *tmp_post_399;
+  struct _value *return_value_neko_alloc_string_400;
+  struct _value *return_value_neko_alloc_string_403;
+  signed long int *tmp_post_406;
+  signed long int *tmp_post_407;
+  signed long int *tmp_post_408;
+  signed long int *tmp_post_409;
+  struct _value *return_value_neko_alloc_string_410;
+  signed long int *tmp_post_414;
+  _Bool tmp_if_expr_474;
+  struct _value *tmp_if_expr_416;
+  struct _value *return_value_neko_alloc_int32_415;
+  struct _value *return_value_neko_alloc_float_417;
+  struct _value *tmp_if_expr_419;
+  struct _value *return_value_neko_alloc_int32_418;
+  struct _value *return_value_neko_alloc_string_420;
+  struct _value *return_value_neko_alloc_string_423;
+  signed long int *tmp_post_426;
+  signed long int *tmp_post_427;
+  signed long int *tmp_post_428;
+  signed long int *tmp_post_429;
+  struct _value *return_value_neko_alloc_string_430;
+  struct _value *return_value_neko_alloc_float_433;
+  struct _value *tmp_if_expr_435;
+  struct _value *return_value_neko_alloc_int32_434;
+  struct _value *return_value_neko_alloc_string_436;
+  struct _value *return_value_neko_alloc_string_439;
+  signed long int *tmp_post_442;
+  signed long int *tmp_post_443;
+  signed long int *tmp_post_444;
+  signed long int *tmp_post_445;
+  struct _value *return_value_neko_alloc_string_446;
+  struct _value *return_value_neko_alloc_float_449;
+  struct _value *return_value_neko_alloc_float_450;
+  struct _value *tmp_if_expr_452;
+  struct _value *return_value_neko_alloc_int32_451;
+  struct _value *return_value_neko_alloc_float_453;
+  struct _value *return_value_neko_alloc_string_454;
+  signed long int *tmp_post_457;
+  signed long int *tmp_post_458;
+  signed long int *tmp_post_459;
+  signed long int *tmp_post_460;
+  struct _value *return_value_neko_alloc_string_461;
+  struct _value *return_value_neko_alloc_string_464;
+  signed long int *tmp_post_467;
+  signed long int *tmp_post_468;
+  signed long int *tmp_post_469;
+  signed long int *tmp_post_470;
+  struct _value *return_value_neko_alloc_string_471;
+  signed long int *tmp_post_475;
+  _Bool tmp_if_expr_503;
+  _Bool tmp_if_expr_504;
+  _Bool tmp_if_expr_507;
+  _Bool tmp_if_expr_505;
+  _Bool tmp_if_expr_506;
+  double tmp_if_expr_477;
+  double tmp_if_expr_476;
+  double tmp_if_expr_479;
+  double tmp_if_expr_478;
+  struct _value *return_value_neko_alloc_float_480;
+  _Bool tmp_if_expr_502;
+  struct _value *return_value_neko_alloc_string_481;
+  signed long int *tmp_post_484;
+  signed long int *tmp_post_485;
+  signed long int *tmp_post_486;
+  signed long int *tmp_post_487;
+  _Bool tmp_if_expr_501;
+  struct _value *return_value_neko_alloc_string_488;
+  struct _value *return_value_neko_alloc_string_491;
+  signed long int *tmp_post_494;
+  signed long int *tmp_post_495;
+  signed long int *tmp_post_496;
+  signed long int *tmp_post_497;
+  struct _value *return_value_neko_alloc_string_498;
+  signed long int *tmp_post_508;
+  _Bool tmp_if_expr_515;
+  _Bool tmp_if_expr_513;
+  _Bool tmp_if_expr_514;
+  _Bool tmp_if_expr_512;
+  struct _value *return_value_neko_alloc_string_509;
+  _Bool tmp_if_expr_580;
+  struct _value *tmp_if_expr_517;
+  struct _value *return_value_neko_alloc_int32_516;
+  double return_value_fmod_518;
+  struct _value *return_value_neko_alloc_float_519;
+  struct _value *tmp_if_expr_521;
+  struct _value *return_value_neko_alloc_int32_520;
+  struct _value *return_value_neko_alloc_string_522;
+  struct _value *return_value_neko_alloc_string_525;
+  signed long int *tmp_post_528;
+  signed long int *tmp_post_529;
+  signed long int *tmp_post_530;
+  signed long int *tmp_post_531;
+  struct _value *return_value_neko_alloc_string_532;
+  double return_value_fmod_535;
+  struct _value *return_value_neko_alloc_float_536;
+  struct _value *tmp_if_expr_538;
+  struct _value *return_value_neko_alloc_int32_537;
+  struct _value *return_value_neko_alloc_string_539;
+  struct _value *return_value_neko_alloc_string_542;
+  signed long int *tmp_post_545;
+  signed long int *tmp_post_546;
+  signed long int *tmp_post_547;
+  signed long int *tmp_post_548;
+  struct _value *return_value_neko_alloc_string_549;
+  double return_value_fmod_552;
+  struct _value *return_value_neko_alloc_float_553;
+  double return_value_fmod_554;
+  struct _value *return_value_neko_alloc_float_555;
+  struct _value *tmp_if_expr_557;
+  struct _value *return_value_neko_alloc_int32_556;
+  double return_value_fmod_558;
+  struct _value *return_value_neko_alloc_float_559;
+  struct _value *return_value_neko_alloc_string_560;
+  signed long int *tmp_post_563;
+  signed long int *tmp_post_564;
+  signed long int *tmp_post_565;
+  signed long int *tmp_post_566;
+  struct _value *return_value_neko_alloc_string_567;
+  struct _value *return_value_neko_alloc_string_570;
+  signed long int *tmp_post_573;
+  signed long int *tmp_post_574;
+  signed long int *tmp_post_575;
+  signed long int *tmp_post_576;
+  struct _value *return_value_neko_alloc_string_577;
+  signed long int *tmp_post_581;
+  _Bool tmp_if_expr_598;
+  struct _value *tmp_if_expr_583;
+  struct _value *return_value_neko_alloc_int32_582;
+  _Bool tmp_if_expr_595;
+  _Bool tmp_if_expr_597;
+  _Bool tmp_if_expr_596;
+  signed int tmp_if_expr_584;
+  signed int tmp_if_expr_585;
+  struct _value *tmp_if_expr_591;
+  signed int tmp_if_expr_586;
+  signed int tmp_if_expr_587;
+  struct _value *return_value_neko_alloc_int32_588;
+  signed int tmp_if_expr_589;
+  signed int tmp_if_expr_590;
+  struct _value *return_value_neko_alloc_string_592;
+  signed long int *tmp_post_599;
+  _Bool tmp_if_expr_616;
+  struct _value *tmp_if_expr_601;
+  struct _value *return_value_neko_alloc_int32_600;
+  _Bool tmp_if_expr_613;
+  _Bool tmp_if_expr_615;
+  _Bool tmp_if_expr_614;
+  signed int tmp_if_expr_602;
+  signed int tmp_if_expr_603;
+  struct _value *tmp_if_expr_609;
+  signed int tmp_if_expr_604;
+  signed int tmp_if_expr_605;
+  struct _value *return_value_neko_alloc_int32_606;
+  signed int tmp_if_expr_607;
+  signed int tmp_if_expr_608;
+  struct _value *return_value_neko_alloc_string_610;
+  signed long int *tmp_post_617;
+  _Bool tmp_if_expr_634;
+  struct _value *tmp_if_expr_619;
+  struct _value *return_value_neko_alloc_int32_618;
+  _Bool tmp_if_expr_631;
+  _Bool tmp_if_expr_633;
+  _Bool tmp_if_expr_632;
+  signed int tmp_if_expr_620;
+  signed int tmp_if_expr_621;
+  struct _value *tmp_if_expr_627;
+  signed int tmp_if_expr_622;
+  signed int tmp_if_expr_623;
+  struct _value *return_value_neko_alloc_int32_624;
+  signed int tmp_if_expr_625;
+  signed int tmp_if_expr_626;
+  struct _value *return_value_neko_alloc_string_628;
+  signed long int *tmp_post_635;
+  _Bool tmp_if_expr_652;
+  struct _value *tmp_if_expr_637;
+  struct _value *return_value_neko_alloc_int32_636;
+  _Bool tmp_if_expr_649;
+  _Bool tmp_if_expr_651;
+  _Bool tmp_if_expr_650;
+  signed int tmp_if_expr_638;
+  signed int tmp_if_expr_639;
+  struct _value *tmp_if_expr_645;
+  signed int tmp_if_expr_640;
+  signed int tmp_if_expr_641;
+  struct _value *return_value_neko_alloc_int32_642;
+  signed int tmp_if_expr_643;
+  signed int tmp_if_expr_644;
+  struct _value *return_value_neko_alloc_string_646;
+  signed long int *tmp_post_653;
+  _Bool tmp_if_expr_670;
+  struct _value *tmp_if_expr_655;
+  struct _value *return_value_neko_alloc_int32_654;
+  _Bool tmp_if_expr_667;
+  _Bool tmp_if_expr_669;
+  _Bool tmp_if_expr_668;
+  signed int tmp_if_expr_656;
+  signed int tmp_if_expr_657;
+  struct _value *tmp_if_expr_663;
+  signed int tmp_if_expr_658;
+  signed int tmp_if_expr_659;
+  struct _value *return_value_neko_alloc_int32_660;
+  signed int tmp_if_expr_661;
+  signed int tmp_if_expr_662;
+  struct _value *return_value_neko_alloc_string_664;
+  signed long int *tmp_post_671;
+  _Bool tmp_if_expr_688;
+  struct _value *tmp_if_expr_673;
+  struct _value *return_value_neko_alloc_int32_672;
+  _Bool tmp_if_expr_685;
+  _Bool tmp_if_expr_687;
+  _Bool tmp_if_expr_686;
+  signed int tmp_if_expr_674;
+  signed int tmp_if_expr_675;
+  struct _value *tmp_if_expr_681;
+  signed int tmp_if_expr_676;
+  signed int tmp_if_expr_677;
+  struct _value *return_value_neko_alloc_int32_678;
+  signed int tmp_if_expr_679;
+  signed int tmp_if_expr_680;
+  struct _value *return_value_neko_alloc_string_682;
+  signed long int *tmp_post_689;
+  signed int return_value_neko_val_compare_690;
+  signed long int *tmp_post_691;
+  signed int return_value_neko_val_compare_692;
+  signed long int *tmp_post_693;
+  signed int return_value_neko_val_compare_694;
+  signed long int *tmp_post_695;
+  signed int return_value_neko_val_compare_696;
+  signed long int *tmp_post_697;
+  signed int return_value_neko_val_compare_698;
+  signed long int *tmp_post_699;
+  signed int return_value_neko_val_compare_700;
+  signed long int *tmp_post_701;
+  struct _value *tmp_if_expr_702;
+  signed int return_value_neko_val_compare_703;
+  signed long int *tmp_post_704;
+  struct _value *tmp_if_expr_705;
+  signed long int *tmp_post_706;
+  _Bool tmp_if_expr_711;
+  struct _value *return_value_neko_alloc_string_708;
+  struct _value *return_value_neko_alloc_object_712;
+  _Bool tmp_if_expr_713;
   static void *instructions[68l] = { &&LabelAccNull, &&LabelAccTrue, &&LabelAccFalse, &&LabelAccThis, &&LabelAccInt, &&LabelAccStack, &&LabelAccGlobal, &&LabelAccEnv, &&LabelAccField, &&LabelAccArray, &&LabelAccIndex, &&LabelAccBuiltin, &&LabelSetStack, &&LabelSetGlobal, &&LabelSetEnv, &&LabelSetField, &&LabelSetArray, &&LabelSetIndex, &&LabelSetThis, &&LabelPush, &&LabelPop, &&LabelCall, &&LabelObjCall, &&LabelJump, &&LabelJumpIf, &&LabelJumpIfNot, &&LabelTrap, &&LabelEndTrap, &&LabelRet, &&LabelMakeEnv, &&LabelMakeArray, &&LabelBool, &&LabelIsNull, &&LabelIsNotNull, &&LabelAdd, &&LabelSub, &&LabelMult, &&LabelDiv, &&LabelMod, &&LabelShl, &&LabelShr, &&LabelUShr, &&LabelOr, &&LabelAnd, &&LabelXor, &&LabelEq, &&LabelNeq, &&LabelGt, &&LabelGte, &&LabelLt, &&LabelLte, &&LabelNot, &&LabelTypeOf, &&LabelCompare, &&LabelHash, &&LabelNew, &&LabelJumpTable, &&LabelApply, &&LabelAccStack0, &&LabelAccStack1, &&LabelAccIndex0, &&LabelAccIndex1, &&LabelPhysCompare, &&LabelTailCall, &&LabelLoop, &&LabelMakeArray2, &&LabelAccInt32, &&LabelLast };
   if(m == ((struct _neko_module *)NULL))
     return (signed long int)instructions;
@@ -9095,9 +9095,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                             LabelAccInt:
                               ;
-                              tmp_post$1 = pc;
+                              tmp_post_1 = pc;
                               pc = pc + 1l;
-                              acc = *tmp_post$1;
+                              acc = *tmp_post_1;
                               *pc++;
                               if(*pc++ == &&id_mod_next2)
                                 goto id_mod_next2;
@@ -9345,10 +9345,10 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                           LabelAccInt32:
                             ;
-                            tmp_post$2 = pc;
+                            tmp_post_2 = pc;
                             pc = pc + 1l;
-                            return_value_neko_alloc_int32$3=neko_alloc_int32((signed int)*tmp_post$2);
-                            acc = (signed long int)return_value_neko_alloc_int32$3;
+                            return_value_neko_alloc_int32_3=neko_alloc_int32((signed int)*tmp_post_2);
+                            acc = (signed long int)return_value_neko_alloc_int32_3;
                             *pc++;
                             if(*pc++ == &&id_mod_next2)
                               goto id_mod_next2;
@@ -10082,9 +10082,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                         LabelAccStack:
                                           ;
-                                          tmp_post$4 = pc;
+                                          tmp_post_4 = pc;
                                           pc = pc + 1l;
-                                          acc = sp[*tmp_post$4];
+                                          acc = sp[*tmp_post_4];
                                           *pc++;
                                           if(*pc++ == &&id_mod_next2)
                                             goto id_mod_next2;
@@ -10332,9 +10332,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                       LabelAccGlobal:
                                         ;
-                                        tmp_post$5 = pc;
+                                        tmp_post_5 = pc;
                                         pc = pc + 1l;
-                                        acc = *((signed long int *)*tmp_post$5);
+                                        acc = *((signed long int *)*tmp_post_5);
                                         *pc++;
                                         if(*pc++ == &&id_mod_next2)
                                           goto id_mod_next2;
@@ -10582,14 +10582,14 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                     ;
                                     while((_Bool)1)
                                     {
-                                      if(*pc >= (signed long int)((signed int)*((enum anonymous$7 *)vm->env) >> 4))
+                                      if(*pc >= (signed long int)((signed int)*((enum anonymous_7 *)vm->env) >> 4))
                                       {
                                         pc = pc + 1l;
                                         if(csp + 4l >= sp)
                                         {
-                                          signed int return_value_neko_stack_expand$7;
-                                          return_value_neko_stack_expand$7=neko_stack_expand(sp, csp, vm);
-                                          if(!(return_value_neko_stack_expand$7 == 0))
+                                          signed int return_value_neko_stack_expand_7;
+                                          return_value_neko_stack_expand_7=neko_stack_expand(sp, csp, vm);
+                                          if(!(return_value_neko_stack_expand_7 == 0))
                                           {
                                             sp = vm->sp;
                                             csp = vm->csp;
@@ -10597,8 +10597,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                           else
                                           {
-                                            return_value_neko_alloc_string$6=neko_alloc_string("Stack Overflow");
-                                            neko_val_throw(return_value_neko_alloc_string$6);
+                                            return_value_neko_alloc_string_6=neko_alloc_string("Stack Overflow");
+                                            neko_val_throw(return_value_neko_alloc_string_6);
                                           }
                                         }
 
@@ -10612,14 +10612,14 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                         *csp = (signed long int)m;
                                         vm->sp = sp;
                                         vm->csp = csp;
-                                        struct _value *return_value_neko_alloc_string$8;
-                                        return_value_neko_alloc_string$8=neko_alloc_string("Reading Outside Env");
-                                        neko_val_throw(return_value_neko_alloc_string$8);
+                                        struct _value *return_value_neko_alloc_string_8;
+                                        return_value_neko_alloc_string_8=neko_alloc_string("Reading Outside Env");
+                                        neko_val_throw(return_value_neko_alloc_string_8);
                                       }
 
-                                      tmp_post$9 = pc;
+                                      tmp_post_9 = pc;
                                       pc = pc + 1l;
-                                      acc = (signed long int)(&((struct anonymous$4 *)vm->env)->ptr)[*tmp_post$9];
+                                      acc = (signed long int)(&((struct anonymous_4 *)vm->env)->ptr)[*tmp_post_9];
                                       *pc++;
                                       if(*pc++ == &&id_mod_next2)
                                         goto id_mod_next2;
@@ -10870,18 +10870,18 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                   LabelAccField:
                                     ;
                                     if((1 & (signed int)acc) == 0)
-                                      tmp_if_expr$17 = (signed int)*((enum anonymous$7 *)acc) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+                                      tmp_if_expr_17 = (signed int)*((enum anonymous_7 *)acc) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
                                     else
-                                      tmp_if_expr$17 = (_Bool)0;
-                                    if(tmp_if_expr$17)
+                                      tmp_if_expr_17 = (_Bool)0;
+                                    if(tmp_if_expr_17)
                                     {
                                       struct _value **f;
                                       struct _value *old = (struct _value *)acc;
                                       struct _value *tacc = (struct _value *)acc;
                                       do
                                       {
-                                        f=otable_find$link1(&((struct _vobject *)acc)->table, (signed int)*pc);
+                                        f=otable_find_link1(&((struct _vobject *)acc)->table, (signed int)*pc);
                                         if(!(f == ((struct _value **)NULL)))
                                           break;
 
@@ -10897,9 +10897,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                         {
                                           vm->sp = sp;
                                           vm->csp = csp;
-                                          struct _value *return_value_neko_val_call2$10;
-                                          return_value_neko_val_call2$10=neko_val_call2(vm->resolver, old, (struct _value *)(signed long int)((signed int)*pc << 1 | 1));
-                                          acc = (signed long int)return_value_neko_val_call2$10;
+                                          struct _value *return_value_neko_val_call2_10;
+                                          return_value_neko_val_call2_10=neko_val_call2(vm->resolver, old, (struct _value *)(signed long int)((signed int)*pc << 1 | 1));
+                                          acc = (signed long int)return_value_neko_val_call2_10;
                                           sp = vm->sp;
                                           csp = vm->csp;
                                         }
@@ -10918,9 +10918,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                         pc = pc + 1l;
                                         if(csp + 4l >= sp)
                                         {
-                                          signed int return_value_neko_stack_expand$12;
-                                          return_value_neko_stack_expand$12=neko_stack_expand(sp, csp, vm);
-                                          if(!(return_value_neko_stack_expand$12 == 0))
+                                          signed int return_value_neko_stack_expand_12;
+                                          return_value_neko_stack_expand_12=neko_stack_expand(sp, csp, vm);
+                                          if(!(return_value_neko_stack_expand_12 == 0))
                                           {
                                             sp = vm->sp;
                                             csp = vm->csp;
@@ -10928,8 +10928,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                           else
                                           {
-                                            return_value_neko_alloc_string$11=neko_alloc_string("Stack Overflow");
-                                            neko_val_throw(return_value_neko_alloc_string$11);
+                                            return_value_neko_alloc_string_11=neko_alloc_string("Stack Overflow");
+                                            neko_val_throw(return_value_neko_alloc_string_11);
                                           }
                                         }
 
@@ -10943,9 +10943,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                         *csp = (signed long int)m;
                                         vm->sp = sp;
                                         vm->csp = csp;
-                                        struct _value *return_value_neko_alloc_string$13;
-                                        return_value_neko_alloc_string$13=neko_alloc_string("Invalid field access");
-                                        neko_val_throw(return_value_neko_alloc_string$13);
+                                        struct _value *return_value_neko_alloc_string_13;
+                                        return_value_neko_alloc_string_13=neko_alloc_string("Invalid field access");
+                                        neko_val_throw(return_value_neko_alloc_string_13);
                                       }
 
                                       b=neko_alloc_buffer("Invalid field access : ");
@@ -10953,9 +10953,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                       pc = pc + 1l;
                                       if(csp + 4l >= sp)
                                       {
-                                        signed int return_value_neko_stack_expand$15;
-                                        return_value_neko_stack_expand$15=neko_stack_expand(sp, csp, vm);
-                                        if(!(return_value_neko_stack_expand$15 == 0))
+                                        signed int return_value_neko_stack_expand_15;
+                                        return_value_neko_stack_expand_15=neko_stack_expand(sp, csp, vm);
+                                        if(!(return_value_neko_stack_expand_15 == 0))
                                         {
                                           sp = vm->sp;
                                           csp = vm->csp;
@@ -10963,8 +10963,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                         else
                                         {
-                                          return_value_neko_alloc_string$14=neko_alloc_string("Stack Overflow");
-                                          neko_val_throw(return_value_neko_alloc_string$14);
+                                          return_value_neko_alloc_string_14=neko_alloc_string("Stack Overflow");
+                                          neko_val_throw(return_value_neko_alloc_string_14);
                                         }
                                       }
 
@@ -10978,9 +10978,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                       *csp = (signed long int)m;
                                       vm->sp = sp;
                                       vm->csp = csp;
-                                      struct _value *return_value_neko_buffer_to_string$16;
-                                      return_value_neko_buffer_to_string$16=neko_buffer_to_string(b);
-                                      neko_val_throw(return_value_neko_buffer_to_string$16);
+                                      struct _value *return_value_neko_buffer_to_string_16;
+                                      return_value_neko_buffer_to_string_16=neko_buffer_to_string(b);
+                                      neko_val_throw(return_value_neko_buffer_to_string_16);
                                     }
                                     pc = pc + 1l;
                                     *pc++;
@@ -11233,38 +11233,38 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                   if(!((1 & (signed int)acc) == 0))
                                   {
                                     if((1 & (signed int)*sp) == 0)
-                                      tmp_if_expr$36 = ((signed int)*((enum anonymous$7 *)*sp) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
+                                      tmp_if_expr_36 = ((signed int)*((enum anonymous_7 *)*sp) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
 
                                     else
-                                      tmp_if_expr$36 = (_Bool)0;
-                                    tmp_if_expr$37 = tmp_if_expr$36 ? (_Bool)1 : (_Bool)0;
+                                      tmp_if_expr_36 = (_Bool)0;
+                                    tmp_if_expr_37 = tmp_if_expr_36 ? (_Bool)1 : (_Bool)0;
                                   }
 
                                   else
-                                    tmp_if_expr$37 = (_Bool)0;
-                                  if(tmp_if_expr$37)
+                                    tmp_if_expr_37 = (_Bool)0;
+                                  if(tmp_if_expr_37)
                                   {
                                     signed int k = (signed int)(signed long int)acc >> 1;
                                     if(!(k >= 0))
-                                      tmp_if_expr$18 = (_Bool)1;
+                                      tmp_if_expr_18 = (_Bool)1;
 
                                     else
-                                      tmp_if_expr$18 = k >= (signed int)*((enum anonymous$7 *)*sp) >> 4 ? (_Bool)1 : (_Bool)0;
-                                    if(tmp_if_expr$18)
+                                      tmp_if_expr_18 = k >= (signed int)*((enum anonymous_7 *)*sp) >> 4 ? (_Bool)1 : (_Bool)0;
+                                    if(tmp_if_expr_18)
                                       acc = (signed long int)val_null;
 
                                     else
-                                      acc = (signed long int)(&((struct anonymous$4 *)*sp)->ptr)[(signed long int)k];
+                                      acc = (signed long int)(&((struct anonymous_4 *)*sp)->ptr)[(signed long int)k];
                                   }
 
                                   else
                                   {
                                     if((1 & (signed int)*sp) == 0)
-                                      tmp_if_expr$35 = (signed int)*((enum anonymous$7 *)*sp) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+                                      tmp_if_expr_35 = (signed int)*((enum anonymous_7 *)*sp) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
                                     else
-                                      tmp_if_expr$35 = (_Bool)0;
-                                    if(tmp_if_expr$35)
+                                      tmp_if_expr_35 = (_Bool)0;
+                                    if(tmp_if_expr_35)
                                     {
                                       struct _value *_o = (struct _value *)*sp;
                                       struct _value *_arg = (struct _value *)acc;
@@ -11274,9 +11274,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                       {
                                         if(csp + 4l >= sp)
                                         {
-                                          signed int return_value_neko_stack_expand$20;
-                                          return_value_neko_stack_expand$20=neko_stack_expand(sp, csp, vm);
-                                          if(!(return_value_neko_stack_expand$20 == 0))
+                                          signed int return_value_neko_stack_expand_20;
+                                          return_value_neko_stack_expand_20=neko_stack_expand(sp, csp, vm);
+                                          if(!(return_value_neko_stack_expand_20 == 0))
                                           {
                                             sp = vm->sp;
                                             csp = vm->csp;
@@ -11284,8 +11284,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                           else
                                           {
-                                            return_value_neko_alloc_string$19=neko_alloc_string("Stack Overflow");
-                                            neko_val_throw(return_value_neko_alloc_string$19);
+                                            return_value_neko_alloc_string_19=neko_alloc_string("Stack Overflow");
+                                            neko_val_throw(return_value_neko_alloc_string_19);
                                           }
                                         }
 
@@ -11299,18 +11299,18 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                         *csp = (signed long int)m;
                                         vm->sp = sp;
                                         vm->csp = csp;
-                                        struct _value *return_value_neko_alloc_string$21;
-                                        return_value_neko_alloc_string$21=neko_alloc_string("Unsupported operation");
-                                        neko_val_throw(return_value_neko_alloc_string$21);
+                                        struct _value *return_value_neko_alloc_string_21;
+                                        return_value_neko_alloc_string_21=neko_alloc_string("Unsupported operation");
+                                        neko_val_throw(return_value_neko_alloc_string_21);
                                       }
 
                                       else
                                       {
                                         if(csp + 4l >= sp)
                                         {
-                                          signed int return_value_neko_stack_expand$23;
-                                          return_value_neko_stack_expand$23=neko_stack_expand(sp, csp, vm);
-                                          if(!(return_value_neko_stack_expand$23 == 0))
+                                          signed int return_value_neko_stack_expand_23;
+                                          return_value_neko_stack_expand_23=neko_stack_expand(sp, csp, vm);
+                                          if(!(return_value_neko_stack_expand_23 == 0))
                                           {
                                             sp = vm->sp;
                                             csp = vm->csp;
@@ -11318,8 +11318,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                           else
                                           {
-                                            return_value_neko_alloc_string$22=neko_alloc_string("Stack Overflow");
-                                            neko_val_throw(return_value_neko_alloc_string$22);
+                                            return_value_neko_alloc_string_22=neko_alloc_string("Stack Overflow");
+                                            neko_val_throw(return_value_neko_alloc_string_22);
                                           }
                                         }
 
@@ -11333,58 +11333,58 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                         *csp = (signed long int)m;
                                         vm->sp = sp;
                                         vm->csp = csp;
-                                        struct _value *return_value_neko_val_callEx$24;
-                                        return_value_neko_val_callEx$24=neko_val_callEx(_o, _f, &_arg, 1, (struct _value **)(void *)0);
-                                        acc = (signed long int)return_value_neko_val_callEx$24;
+                                        struct _value *return_value_neko_val_callEx_24;
+                                        return_value_neko_val_callEx_24=neko_val_callEx(_o, _f, &_arg, 1, (struct _value **)(void *)0);
+                                        acc = (signed long int)return_value_neko_val_callEx_24;
                                         sp = vm->sp;
                                         csp = vm->csp;
                                         m = (struct _neko_module *)*csp;
-                                        tmp_post$25 = csp;
+                                        tmp_post_25 = csp;
                                         csp = csp - 1l;
-                                        *tmp_post$25 = (signed long int)0;
+                                        *tmp_post_25 = (signed long int)0;
                                         vm->vthis = (struct _value *)*csp;
-                                        tmp_post$26 = csp;
+                                        tmp_post_26 = csp;
                                         csp = csp - 1l;
-                                        *tmp_post$26 = (signed long int)0;
+                                        *tmp_post_26 = (signed long int)0;
                                         vm->env = (struct _value *)*csp;
-                                        tmp_post$27 = csp;
+                                        tmp_post_27 = csp;
                                         csp = csp - 1l;
-                                        *tmp_post$27 = (signed long int)0;
-                                        tmp_post$28 = csp;
+                                        *tmp_post_27 = (signed long int)0;
+                                        tmp_post_28 = csp;
                                         csp = csp - 1l;
-                                        *tmp_post$28 = (signed long int)0;
+                                        *tmp_post_28 = (signed long int)0;
                                       }
                                     }
 
                                     else
                                     {
                                       if((1 & (signed int)acc) == 0)
-                                        tmp_if_expr$32 = (signed int)*((enum anonymous$7 *)acc) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
+                                        tmp_if_expr_32 = (signed int)*((enum anonymous_7 *)acc) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
 
                                       else
-                                        tmp_if_expr$32 = (_Bool)0;
-                                      if(tmp_if_expr$32)
+                                        tmp_if_expr_32 = (_Bool)0;
+                                      if(tmp_if_expr_32)
                                       {
                                         if((1 & (signed int)*sp) == 0)
-                                          tmp_if_expr$33 = ((signed int)*((enum anonymous$7 *)*sp) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
+                                          tmp_if_expr_33 = ((signed int)*((enum anonymous_7 *)*sp) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
 
                                         else
-                                          tmp_if_expr$33 = (_Bool)0;
-                                        tmp_if_expr$34 = tmp_if_expr$33 ? (_Bool)1 : (_Bool)0;
+                                          tmp_if_expr_33 = (_Bool)0;
+                                        tmp_if_expr_34 = tmp_if_expr_33 ? (_Bool)1 : (_Bool)0;
                                       }
 
                                       else
-                                        tmp_if_expr$34 = (_Bool)0;
-                                      if(tmp_if_expr$34)
+                                        tmp_if_expr_34 = (_Bool)0;
+                                      if(tmp_if_expr_34)
                                         acc = (signed long int)val_null;
 
                                       else
                                       {
                                         if(csp + 4l >= sp)
                                         {
-                                          signed int return_value_neko_stack_expand$30;
-                                          return_value_neko_stack_expand$30=neko_stack_expand(sp, csp, vm);
-                                          if(!(return_value_neko_stack_expand$30 == 0))
+                                          signed int return_value_neko_stack_expand_30;
+                                          return_value_neko_stack_expand_30=neko_stack_expand(sp, csp, vm);
+                                          if(!(return_value_neko_stack_expand_30 == 0))
                                           {
                                             sp = vm->sp;
                                             csp = vm->csp;
@@ -11392,8 +11392,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                           else
                                           {
-                                            return_value_neko_alloc_string$29=neko_alloc_string("Stack Overflow");
-                                            neko_val_throw(return_value_neko_alloc_string$29);
+                                            return_value_neko_alloc_string_29=neko_alloc_string("Stack Overflow");
+                                            neko_val_throw(return_value_neko_alloc_string_29);
                                           }
                                         }
 
@@ -11407,15 +11407,15 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                         *csp = (signed long int)m;
                                         vm->sp = sp;
                                         vm->csp = csp;
-                                        struct _value *return_value_neko_alloc_string$31;
-                                        return_value_neko_alloc_string$31=neko_alloc_string("Invalid array access");
-                                        neko_val_throw(return_value_neko_alloc_string$31);
+                                        struct _value *return_value_neko_alloc_string_31;
+                                        return_value_neko_alloc_string_31=neko_alloc_string("Invalid array access");
+                                        neko_val_throw(return_value_neko_alloc_string_31);
                                       }
                                     }
                                   }
-                                  tmp_post$38 = sp;
+                                  tmp_post_38 = sp;
                                   sp = sp + 1l;
-                                  *tmp_post$38 = (signed long int)0;
+                                  *tmp_post_38 = (signed long int)0;
                                   *pc++;
                                   if(*pc++ == &&id_mod_next2)
                                     goto id_mod_next2;
@@ -11664,14 +11664,14 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                               LabelAccIndex0:
                                 ;
                                 if((1 & (signed int)acc) == 0)
-                                  tmp_if_expr$53 = ((signed int)*((enum anonymous$7 *)acc) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
+                                  tmp_if_expr_53 = ((signed int)*((enum anonymous_7 *)acc) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
 
                                 else
-                                  tmp_if_expr$53 = (_Bool)0;
-                                if(tmp_if_expr$53)
+                                  tmp_if_expr_53 = (_Bool)0;
+                                if(tmp_if_expr_53)
                                 {
-                                  if(!((signed int)*((enum anonymous$7 *)acc) >> 4 == 0))
-                                    acc = (signed long int)*(&((struct anonymous$4 *)acc)->ptr);
+                                  if(!((signed int)*((enum anonymous_7 *)acc) >> 4 == 0))
+                                    acc = (signed long int)*(&((struct anonymous_4 *)acc)->ptr);
 
                                   else
                                     acc = (signed long int)val_null;
@@ -11680,23 +11680,23 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                 else
                                 {
                                   if((1 & (signed int)acc) == 0)
-                                    tmp_if_expr$52 = (signed int)*((enum anonymous$7 *)acc) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+                                    tmp_if_expr_52 = (signed int)*((enum anonymous_7 *)acc) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
                                   else
-                                    tmp_if_expr$52 = (_Bool)0;
-                                  if(tmp_if_expr$52)
+                                    tmp_if_expr_52 = (_Bool)0;
+                                  if(tmp_if_expr_52)
                                   {
-                                    struct _value *neko_interp_loop$$1$$1$$1$$8$$_o = (struct _value *)acc;
-                                    struct _value *neko_interp_loop$$1$$1$$1$$8$$_arg = (struct _value *)(signed long int)((signed int)0 << 1 | 1);
-                                    struct _value *neko_interp_loop$$1$$1$$1$$8$$_f;
-                                    neko_interp_loop$$1$$1$$1$$8$$_f=neko_val_field(neko_interp_loop$$1$$1$$1$$8$$_o, id_get);
-                                    if(neko_interp_loop$$1$$1$$1$$8$$_f == val_null)
+                                    struct _value *neko_interp_loop__1__1__1__8___o = (struct _value *)acc;
+                                    struct _value *neko_interp_loop__1__1__1__8___arg = (struct _value *)(signed long int)((signed int)0 << 1 | 1);
+                                    struct _value *neko_interp_loop__1__1__1__8___f;
+                                    neko_interp_loop__1__1__1__8___f=neko_val_field(neko_interp_loop__1__1__1__8___o, id_get);
+                                    if(neko_interp_loop__1__1__1__8___f == val_null)
                                     {
                                       if(csp + 4l >= sp)
                                       {
-                                        signed int return_value_neko_stack_expand$40;
-                                        return_value_neko_stack_expand$40=neko_stack_expand(sp, csp, vm);
-                                        if(!(return_value_neko_stack_expand$40 == 0))
+                                        signed int return_value_neko_stack_expand_40;
+                                        return_value_neko_stack_expand_40=neko_stack_expand(sp, csp, vm);
+                                        if(!(return_value_neko_stack_expand_40 == 0))
                                         {
                                           sp = vm->sp;
                                           csp = vm->csp;
@@ -11704,8 +11704,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                         else
                                         {
-                                          return_value_neko_alloc_string$39=neko_alloc_string("Stack Overflow");
-                                          neko_val_throw(return_value_neko_alloc_string$39);
+                                          return_value_neko_alloc_string_39=neko_alloc_string("Stack Overflow");
+                                          neko_val_throw(return_value_neko_alloc_string_39);
                                         }
                                       }
 
@@ -11719,18 +11719,18 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                       *csp = (signed long int)m;
                                       vm->sp = sp;
                                       vm->csp = csp;
-                                      struct _value *return_value_neko_alloc_string$41;
-                                      return_value_neko_alloc_string$41=neko_alloc_string("Unsupported operation");
-                                      neko_val_throw(return_value_neko_alloc_string$41);
+                                      struct _value *return_value_neko_alloc_string_41;
+                                      return_value_neko_alloc_string_41=neko_alloc_string("Unsupported operation");
+                                      neko_val_throw(return_value_neko_alloc_string_41);
                                     }
 
                                     else
                                     {
                                       if(csp + 4l >= sp)
                                       {
-                                        signed int return_value_neko_stack_expand$43;
-                                        return_value_neko_stack_expand$43=neko_stack_expand(sp, csp, vm);
-                                        if(!(return_value_neko_stack_expand$43 == 0))
+                                        signed int return_value_neko_stack_expand_43;
+                                        return_value_neko_stack_expand_43=neko_stack_expand(sp, csp, vm);
+                                        if(!(return_value_neko_stack_expand_43 == 0))
                                         {
                                           sp = vm->sp;
                                           csp = vm->csp;
@@ -11738,8 +11738,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                         else
                                         {
-                                          return_value_neko_alloc_string$42=neko_alloc_string("Stack Overflow");
-                                          neko_val_throw(return_value_neko_alloc_string$42);
+                                          return_value_neko_alloc_string_42=neko_alloc_string("Stack Overflow");
+                                          neko_val_throw(return_value_neko_alloc_string_42);
                                         }
                                       }
 
@@ -11753,26 +11753,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                       *csp = (signed long int)m;
                                       vm->sp = sp;
                                       vm->csp = csp;
-                                      struct _value *return_value_neko_val_callEx$44;
-                                      return_value_neko_val_callEx$44=neko_val_callEx(neko_interp_loop$$1$$1$$1$$8$$_o, neko_interp_loop$$1$$1$$1$$8$$_f, &neko_interp_loop$$1$$1$$1$$8$$_arg, 1, (struct _value **)(void *)0);
-                                      acc = (signed long int)return_value_neko_val_callEx$44;
+                                      struct _value *return_value_neko_val_callEx_44;
+                                      return_value_neko_val_callEx_44=neko_val_callEx(neko_interp_loop__1__1__1__8___o, neko_interp_loop__1__1__1__8___f, &neko_interp_loop__1__1__1__8___arg, 1, (struct _value **)(void *)0);
+                                      acc = (signed long int)return_value_neko_val_callEx_44;
                                       sp = vm->sp;
                                       csp = vm->csp;
                                       m = (struct _neko_module *)*csp;
-                                      tmp_post$45 = csp;
+                                      tmp_post_45 = csp;
                                       csp = csp - 1l;
-                                      *tmp_post$45 = (signed long int)0;
+                                      *tmp_post_45 = (signed long int)0;
                                       vm->vthis = (struct _value *)*csp;
-                                      tmp_post$46 = csp;
+                                      tmp_post_46 = csp;
                                       csp = csp - 1l;
-                                      *tmp_post$46 = (signed long int)0;
+                                      *tmp_post_46 = (signed long int)0;
                                       vm->env = (struct _value *)*csp;
-                                      tmp_post$47 = csp;
+                                      tmp_post_47 = csp;
                                       csp = csp - 1l;
-                                      *tmp_post$47 = (signed long int)0;
-                                      tmp_post$48 = csp;
+                                      *tmp_post_47 = (signed long int)0;
+                                      tmp_post_48 = csp;
                                       csp = csp - 1l;
-                                      *tmp_post$48 = (signed long int)0;
+                                      *tmp_post_48 = (signed long int)0;
                                     }
                                   }
 
@@ -11780,9 +11780,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                   {
                                     if(csp + 4l >= sp)
                                     {
-                                      signed int return_value_neko_stack_expand$50;
-                                      return_value_neko_stack_expand$50=neko_stack_expand(sp, csp, vm);
-                                      if(!(return_value_neko_stack_expand$50 == 0))
+                                      signed int return_value_neko_stack_expand_50;
+                                      return_value_neko_stack_expand_50=neko_stack_expand(sp, csp, vm);
+                                      if(!(return_value_neko_stack_expand_50 == 0))
                                       {
                                         sp = vm->sp;
                                         csp = vm->csp;
@@ -11790,8 +11790,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                       else
                                       {
-                                        return_value_neko_alloc_string$49=neko_alloc_string("Stack Overflow");
-                                        neko_val_throw(return_value_neko_alloc_string$49);
+                                        return_value_neko_alloc_string_49=neko_alloc_string("Stack Overflow");
+                                        neko_val_throw(return_value_neko_alloc_string_49);
                                       }
                                     }
 
@@ -11805,9 +11805,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                     *csp = (signed long int)m;
                                     vm->sp = sp;
                                     vm->csp = csp;
-                                    struct _value *return_value_neko_alloc_string$51;
-                                    return_value_neko_alloc_string$51=neko_alloc_string("Invalid array access");
-                                    neko_val_throw(return_value_neko_alloc_string$51);
+                                    struct _value *return_value_neko_alloc_string_51;
+                                    return_value_neko_alloc_string_51=neko_alloc_string("Invalid array access");
+                                    neko_val_throw(return_value_neko_alloc_string_51);
                                   }
                                 }
                                 *pc++;
@@ -12058,14 +12058,14 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                             LabelAccIndex1:
                               ;
                               if((1 & (signed int)acc) == 0)
-                                tmp_if_expr$68 = ((signed int)*((enum anonymous$7 *)acc) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
+                                tmp_if_expr_68 = ((signed int)*((enum anonymous_7 *)acc) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
 
                               else
-                                tmp_if_expr$68 = (_Bool)0;
-                              if(tmp_if_expr$68)
+                                tmp_if_expr_68 = (_Bool)0;
+                              if(tmp_if_expr_68)
                               {
-                                if((signed int)*((enum anonymous$7 *)acc) >> 4 >= 2)
-                                  acc = (signed long int)(&((struct anonymous$4 *)acc)->ptr)[(signed long int)1];
+                                if((signed int)*((enum anonymous_7 *)acc) >> 4 >= 2)
+                                  acc = (signed long int)(&((struct anonymous_4 *)acc)->ptr)[(signed long int)1];
 
                                 else
                                   acc = (signed long int)val_null;
@@ -12074,23 +12074,23 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                               else
                               {
                                 if((1 & (signed int)acc) == 0)
-                                  tmp_if_expr$67 = (signed int)*((enum anonymous$7 *)acc) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+                                  tmp_if_expr_67 = (signed int)*((enum anonymous_7 *)acc) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
                                 else
-                                  tmp_if_expr$67 = (_Bool)0;
-                                if(tmp_if_expr$67)
+                                  tmp_if_expr_67 = (_Bool)0;
+                                if(tmp_if_expr_67)
                                 {
-                                  struct _value *neko_interp_loop$$1$$1$$1$$11$$_o = (struct _value *)acc;
-                                  struct _value *neko_interp_loop$$1$$1$$1$$11$$_arg = (struct _value *)(signed long int)((signed int)1 << 1 | 1);
-                                  struct _value *neko_interp_loop$$1$$1$$1$$11$$_f;
-                                  neko_interp_loop$$1$$1$$1$$11$$_f=neko_val_field(neko_interp_loop$$1$$1$$1$$11$$_o, id_get);
-                                  if(neko_interp_loop$$1$$1$$1$$11$$_f == val_null)
+                                  struct _value *neko_interp_loop__1__1__1__11___o = (struct _value *)acc;
+                                  struct _value *neko_interp_loop__1__1__1__11___arg = (struct _value *)(signed long int)((signed int)1 << 1 | 1);
+                                  struct _value *neko_interp_loop__1__1__1__11___f;
+                                  neko_interp_loop__1__1__1__11___f=neko_val_field(neko_interp_loop__1__1__1__11___o, id_get);
+                                  if(neko_interp_loop__1__1__1__11___f == val_null)
                                   {
                                     if(csp + 4l >= sp)
                                     {
-                                      signed int return_value_neko_stack_expand$55;
-                                      return_value_neko_stack_expand$55=neko_stack_expand(sp, csp, vm);
-                                      if(!(return_value_neko_stack_expand$55 == 0))
+                                      signed int return_value_neko_stack_expand_55;
+                                      return_value_neko_stack_expand_55=neko_stack_expand(sp, csp, vm);
+                                      if(!(return_value_neko_stack_expand_55 == 0))
                                       {
                                         sp = vm->sp;
                                         csp = vm->csp;
@@ -12098,8 +12098,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                       else
                                       {
-                                        return_value_neko_alloc_string$54=neko_alloc_string("Stack Overflow");
-                                        neko_val_throw(return_value_neko_alloc_string$54);
+                                        return_value_neko_alloc_string_54=neko_alloc_string("Stack Overflow");
+                                        neko_val_throw(return_value_neko_alloc_string_54);
                                       }
                                     }
 
@@ -12113,18 +12113,18 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                     *csp = (signed long int)m;
                                     vm->sp = sp;
                                     vm->csp = csp;
-                                    struct _value *return_value_neko_alloc_string$56;
-                                    return_value_neko_alloc_string$56=neko_alloc_string("Unsupported operation");
-                                    neko_val_throw(return_value_neko_alloc_string$56);
+                                    struct _value *return_value_neko_alloc_string_56;
+                                    return_value_neko_alloc_string_56=neko_alloc_string("Unsupported operation");
+                                    neko_val_throw(return_value_neko_alloc_string_56);
                                   }
 
                                   else
                                   {
                                     if(csp + 4l >= sp)
                                     {
-                                      signed int return_value_neko_stack_expand$58;
-                                      return_value_neko_stack_expand$58=neko_stack_expand(sp, csp, vm);
-                                      if(!(return_value_neko_stack_expand$58 == 0))
+                                      signed int return_value_neko_stack_expand_58;
+                                      return_value_neko_stack_expand_58=neko_stack_expand(sp, csp, vm);
+                                      if(!(return_value_neko_stack_expand_58 == 0))
                                       {
                                         sp = vm->sp;
                                         csp = vm->csp;
@@ -12132,8 +12132,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                       else
                                       {
-                                        return_value_neko_alloc_string$57=neko_alloc_string("Stack Overflow");
-                                        neko_val_throw(return_value_neko_alloc_string$57);
+                                        return_value_neko_alloc_string_57=neko_alloc_string("Stack Overflow");
+                                        neko_val_throw(return_value_neko_alloc_string_57);
                                       }
                                     }
 
@@ -12147,26 +12147,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                     *csp = (signed long int)m;
                                     vm->sp = sp;
                                     vm->csp = csp;
-                                    struct _value *return_value_neko_val_callEx$59;
-                                    return_value_neko_val_callEx$59=neko_val_callEx(neko_interp_loop$$1$$1$$1$$11$$_o, neko_interp_loop$$1$$1$$1$$11$$_f, &neko_interp_loop$$1$$1$$1$$11$$_arg, 1, (struct _value **)(void *)0);
-                                    acc = (signed long int)return_value_neko_val_callEx$59;
+                                    struct _value *return_value_neko_val_callEx_59;
+                                    return_value_neko_val_callEx_59=neko_val_callEx(neko_interp_loop__1__1__1__11___o, neko_interp_loop__1__1__1__11___f, &neko_interp_loop__1__1__1__11___arg, 1, (struct _value **)(void *)0);
+                                    acc = (signed long int)return_value_neko_val_callEx_59;
                                     sp = vm->sp;
                                     csp = vm->csp;
                                     m = (struct _neko_module *)*csp;
-                                    tmp_post$60 = csp;
+                                    tmp_post_60 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$60 = (signed long int)0;
+                                    *tmp_post_60 = (signed long int)0;
                                     vm->vthis = (struct _value *)*csp;
-                                    tmp_post$61 = csp;
+                                    tmp_post_61 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$61 = (signed long int)0;
+                                    *tmp_post_61 = (signed long int)0;
                                     vm->env = (struct _value *)*csp;
-                                    tmp_post$62 = csp;
+                                    tmp_post_62 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$62 = (signed long int)0;
-                                    tmp_post$63 = csp;
+                                    *tmp_post_62 = (signed long int)0;
+                                    tmp_post_63 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$63 = (signed long int)0;
+                                    *tmp_post_63 = (signed long int)0;
                                   }
                                 }
 
@@ -12174,9 +12174,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                 {
                                   if(csp + 4l >= sp)
                                   {
-                                    signed int return_value_neko_stack_expand$65;
-                                    return_value_neko_stack_expand$65=neko_stack_expand(sp, csp, vm);
-                                    if(!(return_value_neko_stack_expand$65 == 0))
+                                    signed int return_value_neko_stack_expand_65;
+                                    return_value_neko_stack_expand_65=neko_stack_expand(sp, csp, vm);
+                                    if(!(return_value_neko_stack_expand_65 == 0))
                                     {
                                       sp = vm->sp;
                                       csp = vm->csp;
@@ -12184,8 +12184,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                     else
                                     {
-                                      return_value_neko_alloc_string$64=neko_alloc_string("Stack Overflow");
-                                      neko_val_throw(return_value_neko_alloc_string$64);
+                                      return_value_neko_alloc_string_64=neko_alloc_string("Stack Overflow");
+                                      neko_val_throw(return_value_neko_alloc_string_64);
                                     }
                                   }
 
@@ -12199,9 +12199,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                   *csp = (signed long int)m;
                                   vm->sp = sp;
                                   vm->csp = csp;
-                                  struct _value *return_value_neko_alloc_string$66;
-                                  return_value_neko_alloc_string$66=neko_alloc_string("Invalid array access");
-                                  neko_val_throw(return_value_neko_alloc_string$66);
+                                  struct _value *return_value_neko_alloc_string_66;
+                                  return_value_neko_alloc_string_66=neko_alloc_string("Invalid array access");
+                                  neko_val_throw(return_value_neko_alloc_string_66);
                                 }
                               }
                               *pc++;
@@ -12440,48 +12440,48 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                                   LabelAccIndex:
                                                     ;
                                                     if((1 & (signed int)acc) == 0)
-                                                      tmp_if_expr$85 = ((signed int)*((enum anonymous$7 *)acc) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
+                                                      tmp_if_expr_85 = ((signed int)*((enum anonymous_7 *)acc) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
 
                                                     else
-                                                      tmp_if_expr$85 = (_Bool)0;
-                                                    if(tmp_if_expr$85)
+                                                      tmp_if_expr_85 = (_Bool)0;
+                                                    if(tmp_if_expr_85)
                                                     {
                                                       if(!(*pc >= 0l))
-                                                        tmp_if_expr$69 = (_Bool)1;
+                                                        tmp_if_expr_69 = (_Bool)1;
 
                                                       else
-                                                        tmp_if_expr$69 = *pc >= (signed long int)((signed int)*((enum anonymous$7 *)acc) >> 4) ? (_Bool)1 : (_Bool)0;
-                                                      if(tmp_if_expr$69)
+                                                        tmp_if_expr_69 = *pc >= (signed long int)((signed int)*((enum anonymous_7 *)acc) >> 4) ? (_Bool)1 : (_Bool)0;
+                                                      if(tmp_if_expr_69)
                                                         acc = (signed long int)val_null;
 
                                                       else
-                                                        acc = (signed long int)(&((struct anonymous$4 *)acc)->ptr)[*pc];
+                                                        acc = (signed long int)(&((struct anonymous_4 *)acc)->ptr)[*pc];
                                                       pc = pc + 1l;
                                                     }
 
                                                     else
                                                     {
                                                       if((1 & (signed int)acc) == 0)
-                                                        tmp_if_expr$84 = (signed int)*((enum anonymous$7 *)acc) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+                                                        tmp_if_expr_84 = (signed int)*((enum anonymous_7 *)acc) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
                                                       else
-                                                        tmp_if_expr$84 = (_Bool)0;
-                                                      if(tmp_if_expr$84)
+                                                        tmp_if_expr_84 = (_Bool)0;
+                                                      if(tmp_if_expr_84)
                                                       {
-                                                        struct _value *neko_interp_loop$$1$$1$$1$$14$$_o = (struct _value *)acc;
-                                                        struct _value *neko_interp_loop$$1$$1$$1$$14$$_arg;
-                                                        tmp_post$70 = pc;
+                                                        struct _value *neko_interp_loop__1__1__1__14___o = (struct _value *)acc;
+                                                        struct _value *neko_interp_loop__1__1__1__14___arg;
+                                                        tmp_post_70 = pc;
                                                         pc = pc + 1l;
-                                                        neko_interp_loop$$1$$1$$1$$14$$_arg = (struct _value *)(signed long int)((signed int)*tmp_post$70 << 1 | 1);
-                                                        struct _value *neko_interp_loop$$1$$1$$1$$14$$_f;
-                                                        neko_interp_loop$$1$$1$$1$$14$$_f=neko_val_field(neko_interp_loop$$1$$1$$1$$14$$_o, id_get);
-                                                        if(neko_interp_loop$$1$$1$$1$$14$$_f == val_null)
+                                                        neko_interp_loop__1__1__1__14___arg = (struct _value *)(signed long int)((signed int)*tmp_post_70 << 1 | 1);
+                                                        struct _value *neko_interp_loop__1__1__1__14___f;
+                                                        neko_interp_loop__1__1__1__14___f=neko_val_field(neko_interp_loop__1__1__1__14___o, id_get);
+                                                        if(neko_interp_loop__1__1__1__14___f == val_null)
                                                         {
                                                           if(csp + 4l >= sp)
                                                           {
-                                                            signed int return_value_neko_stack_expand$72;
-                                                            return_value_neko_stack_expand$72=neko_stack_expand(sp, csp, vm);
-                                                            if(!(return_value_neko_stack_expand$72 == 0))
+                                                            signed int return_value_neko_stack_expand_72;
+                                                            return_value_neko_stack_expand_72=neko_stack_expand(sp, csp, vm);
+                                                            if(!(return_value_neko_stack_expand_72 == 0))
                                                             {
                                                               sp = vm->sp;
                                                               csp = vm->csp;
@@ -12489,8 +12489,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                                             else
                                                             {
-                                                              return_value_neko_alloc_string$71=neko_alloc_string("Stack Overflow");
-                                                              neko_val_throw(return_value_neko_alloc_string$71);
+                                                              return_value_neko_alloc_string_71=neko_alloc_string("Stack Overflow");
+                                                              neko_val_throw(return_value_neko_alloc_string_71);
                                                             }
                                                           }
 
@@ -12504,18 +12504,18 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                                           *csp = (signed long int)m;
                                                           vm->sp = sp;
                                                           vm->csp = csp;
-                                                          struct _value *return_value_neko_alloc_string$73;
-                                                          return_value_neko_alloc_string$73=neko_alloc_string("Unsupported operation");
-                                                          neko_val_throw(return_value_neko_alloc_string$73);
+                                                          struct _value *return_value_neko_alloc_string_73;
+                                                          return_value_neko_alloc_string_73=neko_alloc_string("Unsupported operation");
+                                                          neko_val_throw(return_value_neko_alloc_string_73);
                                                         }
 
                                                         else
                                                         {
                                                           if(csp + 4l >= sp)
                                                           {
-                                                            signed int return_value_neko_stack_expand$75;
-                                                            return_value_neko_stack_expand$75=neko_stack_expand(sp, csp, vm);
-                                                            if(!(return_value_neko_stack_expand$75 == 0))
+                                                            signed int return_value_neko_stack_expand_75;
+                                                            return_value_neko_stack_expand_75=neko_stack_expand(sp, csp, vm);
+                                                            if(!(return_value_neko_stack_expand_75 == 0))
                                                             {
                                                               sp = vm->sp;
                                                               csp = vm->csp;
@@ -12523,8 +12523,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                                             else
                                                             {
-                                                              return_value_neko_alloc_string$74=neko_alloc_string("Stack Overflow");
-                                                              neko_val_throw(return_value_neko_alloc_string$74);
+                                                              return_value_neko_alloc_string_74=neko_alloc_string("Stack Overflow");
+                                                              neko_val_throw(return_value_neko_alloc_string_74);
                                                             }
                                                           }
 
@@ -12538,26 +12538,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                                           *csp = (signed long int)m;
                                                           vm->sp = sp;
                                                           vm->csp = csp;
-                                                          struct _value *return_value_neko_val_callEx$76;
-                                                          return_value_neko_val_callEx$76=neko_val_callEx(neko_interp_loop$$1$$1$$1$$14$$_o, neko_interp_loop$$1$$1$$1$$14$$_f, &neko_interp_loop$$1$$1$$1$$14$$_arg, 1, (struct _value **)(void *)0);
-                                                          acc = (signed long int)return_value_neko_val_callEx$76;
+                                                          struct _value *return_value_neko_val_callEx_76;
+                                                          return_value_neko_val_callEx_76=neko_val_callEx(neko_interp_loop__1__1__1__14___o, neko_interp_loop__1__1__1__14___f, &neko_interp_loop__1__1__1__14___arg, 1, (struct _value **)(void *)0);
+                                                          acc = (signed long int)return_value_neko_val_callEx_76;
                                                           sp = vm->sp;
                                                           csp = vm->csp;
                                                           m = (struct _neko_module *)*csp;
-                                                          tmp_post$77 = csp;
+                                                          tmp_post_77 = csp;
                                                           csp = csp - 1l;
-                                                          *tmp_post$77 = (signed long int)0;
+                                                          *tmp_post_77 = (signed long int)0;
                                                           vm->vthis = (struct _value *)*csp;
-                                                          tmp_post$78 = csp;
+                                                          tmp_post_78 = csp;
                                                           csp = csp - 1l;
-                                                          *tmp_post$78 = (signed long int)0;
+                                                          *tmp_post_78 = (signed long int)0;
                                                           vm->env = (struct _value *)*csp;
-                                                          tmp_post$79 = csp;
+                                                          tmp_post_79 = csp;
                                                           csp = csp - 1l;
-                                                          *tmp_post$79 = (signed long int)0;
-                                                          tmp_post$80 = csp;
+                                                          *tmp_post_79 = (signed long int)0;
+                                                          tmp_post_80 = csp;
                                                           csp = csp - 1l;
-                                                          *tmp_post$80 = (signed long int)0;
+                                                          *tmp_post_80 = (signed long int)0;
                                                         }
                                                       }
 
@@ -12566,9 +12566,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                                         pc = pc + 1l;
                                                         if(csp + 4l >= sp)
                                                         {
-                                                          signed int return_value_neko_stack_expand$82;
-                                                          return_value_neko_stack_expand$82=neko_stack_expand(sp, csp, vm);
-                                                          if(!(return_value_neko_stack_expand$82 == 0))
+                                                          signed int return_value_neko_stack_expand_82;
+                                                          return_value_neko_stack_expand_82=neko_stack_expand(sp, csp, vm);
+                                                          if(!(return_value_neko_stack_expand_82 == 0))
                                                           {
                                                             sp = vm->sp;
                                                             csp = vm->csp;
@@ -12576,8 +12576,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                                           else
                                                           {
-                                                            return_value_neko_alloc_string$81=neko_alloc_string("Stack Overflow");
-                                                            neko_val_throw(return_value_neko_alloc_string$81);
+                                                            return_value_neko_alloc_string_81=neko_alloc_string("Stack Overflow");
+                                                            neko_val_throw(return_value_neko_alloc_string_81);
                                                           }
                                                         }
 
@@ -12591,9 +12591,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                                         *csp = (signed long int)m;
                                                         vm->sp = sp;
                                                         vm->csp = csp;
-                                                        struct _value *return_value_neko_alloc_string$83;
-                                                        return_value_neko_alloc_string$83=neko_alloc_string("Invalid array access");
-                                                        neko_val_throw(return_value_neko_alloc_string$83);
+                                                        struct _value *return_value_neko_alloc_string_83;
+                                                        return_value_neko_alloc_string_83=neko_alloc_string("Invalid array access");
+                                                        neko_val_throw(return_value_neko_alloc_string_83);
                                                       }
                                                     }
                                                     *pc++;
@@ -12843,9 +12843,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                                 LabelAccBuiltin:
                                                   ;
-                                                  tmp_post$86 = pc;
+                                                  tmp_post_86 = pc;
                                                   pc = pc + 1l;
-                                                  acc = *tmp_post$86;
+                                                  acc = *tmp_post_86;
                                                   *pc++;
                                                   if(*pc++ == &&id_mod_next2)
                                                     goto id_mod_next2;
@@ -13093,9 +13093,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                               LabelSetStack:
                                                 ;
-                                                tmp_post$87 = pc;
+                                                tmp_post_87 = pc;
                                                 pc = pc + 1l;
-                                                sp[*tmp_post$87] = acc;
+                                                sp[*tmp_post_87] = acc;
                                                 *pc++;
                                                 if(*pc++ == &&id_mod_next2)
                                                   goto id_mod_next2;
@@ -13343,9 +13343,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                             LabelSetGlobal:
                                               ;
-                                              tmp_post$88 = pc;
+                                              tmp_post_88 = pc;
                                               pc = pc + 1l;
-                                              *((signed long int *)*tmp_post$88) = acc;
+                                              *((signed long int *)*tmp_post_88) = acc;
                                               *pc++;
                                               if(*pc++ == &&id_mod_next2)
                                                 goto id_mod_next2;
@@ -13593,14 +13593,14 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                           ;
                                           while((_Bool)1)
                                           {
-                                            if(*pc >= (signed long int)((signed int)*((enum anonymous$7 *)vm->env) >> 4))
+                                            if(*pc >= (signed long int)((signed int)*((enum anonymous_7 *)vm->env) >> 4))
                                             {
                                               pc = pc + 1l;
                                               if(csp + 4l >= sp)
                                               {
-                                                signed int return_value_neko_stack_expand$90;
-                                                return_value_neko_stack_expand$90=neko_stack_expand(sp, csp, vm);
-                                                if(!(return_value_neko_stack_expand$90 == 0))
+                                                signed int return_value_neko_stack_expand_90;
+                                                return_value_neko_stack_expand_90=neko_stack_expand(sp, csp, vm);
+                                                if(!(return_value_neko_stack_expand_90 == 0))
                                                 {
                                                   sp = vm->sp;
                                                   csp = vm->csp;
@@ -13608,8 +13608,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                                 else
                                                 {
-                                                  return_value_neko_alloc_string$89=neko_alloc_string("Stack Overflow");
-                                                  neko_val_throw(return_value_neko_alloc_string$89);
+                                                  return_value_neko_alloc_string_89=neko_alloc_string("Stack Overflow");
+                                                  neko_val_throw(return_value_neko_alloc_string_89);
                                                 }
                                               }
 
@@ -13623,14 +13623,14 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                               *csp = (signed long int)m;
                                               vm->sp = sp;
                                               vm->csp = csp;
-                                              struct _value *return_value_neko_alloc_string$91;
-                                              return_value_neko_alloc_string$91=neko_alloc_string("Writing Outside Env");
-                                              neko_val_throw(return_value_neko_alloc_string$91);
+                                              struct _value *return_value_neko_alloc_string_91;
+                                              return_value_neko_alloc_string_91=neko_alloc_string("Writing Outside Env");
+                                              neko_val_throw(return_value_neko_alloc_string_91);
                                             }
 
-                                            tmp_post$92 = pc;
+                                            tmp_post_92 = pc;
                                             pc = pc + 1l;
-                                            (&((struct anonymous$4 *)vm->env)->ptr)[*tmp_post$92] = (struct _value *)acc;
+                                            (&((struct anonymous_4 *)vm->env)->ptr)[*tmp_post_92] = (struct _value *)acc;
                                             *pc++;
                                             if(*pc++ == &&id_mod_next2)
                                               goto id_mod_next2;
@@ -13881,26 +13881,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                         LabelSetField:
                                           ;
                                           if((1 & (signed int)*sp) == 0)
-                                            tmp_if_expr$99 = (signed int)*((enum anonymous$7 *)*sp) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+                                            tmp_if_expr_99 = (signed int)*((enum anonymous_7 *)*sp) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
                                           else
-                                            tmp_if_expr$99 = (_Bool)0;
-                                          if(tmp_if_expr$99)
+                                            tmp_if_expr_99 = (_Bool)0;
+                                          if(tmp_if_expr_99)
                                             otable_replace(&((struct _vobject *)*sp)->table, (signed int)*pc, (struct _value *)acc);
 
                                           else
                                           {
-                                            struct _value *neko_interp_loop$$1$$1$$1$$18$$v;
-                                            neko_interp_loop$$1$$1$$1$$18$$v=neko_val_field_name((signed int)*pc);
-                                            struct _buffer *neko_interp_loop$$1$$1$$1$$18$$b;
-                                            if(neko_interp_loop$$1$$1$$1$$18$$v == val_null)
+                                            struct _value *neko_interp_loop__1__1__1__18__v;
+                                            neko_interp_loop__1__1__1__18__v=neko_val_field_name((signed int)*pc);
+                                            struct _buffer *neko_interp_loop__1__1__1__18__b;
+                                            if(neko_interp_loop__1__1__1__18__v == val_null)
                                             {
                                               pc = pc + 1l;
                                               if(csp + 4l >= sp)
                                               {
-                                                signed int return_value_neko_stack_expand$94;
-                                                return_value_neko_stack_expand$94=neko_stack_expand(sp, csp, vm);
-                                                if(!(return_value_neko_stack_expand$94 == 0))
+                                                signed int return_value_neko_stack_expand_94;
+                                                return_value_neko_stack_expand_94=neko_stack_expand(sp, csp, vm);
+                                                if(!(return_value_neko_stack_expand_94 == 0))
                                                 {
                                                   sp = vm->sp;
                                                   csp = vm->csp;
@@ -13908,8 +13908,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                                 else
                                                 {
-                                                  return_value_neko_alloc_string$93=neko_alloc_string("Stack Overflow");
-                                                  neko_val_throw(return_value_neko_alloc_string$93);
+                                                  return_value_neko_alloc_string_93=neko_alloc_string("Stack Overflow");
+                                                  neko_val_throw(return_value_neko_alloc_string_93);
                                                 }
                                               }
 
@@ -13923,19 +13923,19 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                               *csp = (signed long int)m;
                                               vm->sp = sp;
                                               vm->csp = csp;
-                                              struct _value *return_value_neko_alloc_string$95;
-                                              return_value_neko_alloc_string$95=neko_alloc_string("Invalid field access");
-                                              neko_val_throw(return_value_neko_alloc_string$95);
+                                              struct _value *return_value_neko_alloc_string_95;
+                                              return_value_neko_alloc_string_95=neko_alloc_string("Invalid field access");
+                                              neko_val_throw(return_value_neko_alloc_string_95);
                                             }
 
-                                            neko_interp_loop$$1$$1$$1$$18$$b=neko_alloc_buffer("Invalid field access : ");
-                                            neko_val_buffer(neko_interp_loop$$1$$1$$1$$18$$b, neko_interp_loop$$1$$1$$1$$18$$v);
+                                            neko_interp_loop__1__1__1__18__b=neko_alloc_buffer("Invalid field access : ");
+                                            neko_val_buffer(neko_interp_loop__1__1__1__18__b, neko_interp_loop__1__1__1__18__v);
                                             pc = pc + 1l;
                                             if(csp + 4l >= sp)
                                             {
-                                              signed int return_value_neko_stack_expand$97;
-                                              return_value_neko_stack_expand$97=neko_stack_expand(sp, csp, vm);
-                                              if(!(return_value_neko_stack_expand$97 == 0))
+                                              signed int return_value_neko_stack_expand_97;
+                                              return_value_neko_stack_expand_97=neko_stack_expand(sp, csp, vm);
+                                              if(!(return_value_neko_stack_expand_97 == 0))
                                               {
                                                 sp = vm->sp;
                                                 csp = vm->csp;
@@ -13943,8 +13943,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                               else
                                               {
-                                                return_value_neko_alloc_string$96=neko_alloc_string("Stack Overflow");
-                                                neko_val_throw(return_value_neko_alloc_string$96);
+                                                return_value_neko_alloc_string_96=neko_alloc_string("Stack Overflow");
+                                                neko_val_throw(return_value_neko_alloc_string_96);
                                               }
                                             }
 
@@ -13958,13 +13958,13 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                             *csp = (signed long int)m;
                                             vm->sp = sp;
                                             vm->csp = csp;
-                                            struct _value *return_value_neko_buffer_to_string$98;
-                                            return_value_neko_buffer_to_string$98=neko_buffer_to_string(neko_interp_loop$$1$$1$$1$$18$$b);
-                                            neko_val_throw(return_value_neko_buffer_to_string$98);
+                                            struct _value *return_value_neko_buffer_to_string_98;
+                                            return_value_neko_buffer_to_string_98=neko_buffer_to_string(neko_interp_loop__1__1__1__18__b);
+                                            neko_val_throw(return_value_neko_buffer_to_string_98);
                                           }
-                                          tmp_post$100 = sp;
+                                          tmp_post_100 = sp;
                                           sp = sp + 1l;
-                                          *tmp_post$100 = (signed long int)0;
+                                          *tmp_post_100 = (signed long int)0;
                                           pc = pc + 1l;
                                           *pc++;
                                           if(*pc++ == &&id_mod_next2)
@@ -14214,22 +14214,22 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                       LabelSetArray:
                                         ;
                                         if((1 & (signed int)*sp) == 0)
-                                          tmp_if_expr$117 = ((signed int)*((enum anonymous$7 *)*sp) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
+                                          tmp_if_expr_117 = ((signed int)*((enum anonymous_7 *)*sp) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
 
                                         else
-                                          tmp_if_expr$117 = (_Bool)0;
-                                        if(tmp_if_expr$117)
-                                          tmp_if_expr$118 = ((signed int)(signed long int)sp[(signed long int)1] & 1) != 0 ? (_Bool)1 : (_Bool)0;
+                                          tmp_if_expr_117 = (_Bool)0;
+                                        if(tmp_if_expr_117)
+                                          tmp_if_expr_118 = ((signed int)(signed long int)sp[(signed long int)1] & 1) != 0 ? (_Bool)1 : (_Bool)0;
 
                                         else
-                                          tmp_if_expr$118 = (_Bool)0;
-                                        if(tmp_if_expr$118)
+                                          tmp_if_expr_118 = (_Bool)0;
+                                        if(tmp_if_expr_118)
                                         {
-                                          signed int neko_interp_loop$$1$$1$$1$$19$$k = (signed int)(signed long int)sp[(signed long int)1] >> 1;
-                                          if(neko_interp_loop$$1$$1$$1$$19$$k >= 0)
+                                          signed int neko_interp_loop__1__1__1__19__k = (signed int)(signed long int)sp[(signed long int)1] >> 1;
+                                          if(neko_interp_loop__1__1__1__19__k >= 0)
                                           {
-                                            if(!(neko_interp_loop$$1$$1$$1$$19$$k >= (signed int)*((enum anonymous$7 *)*sp) >> 4))
-                                              (&((struct anonymous$4 *)*sp)->ptr)[(signed long int)neko_interp_loop$$1$$1$$1$$19$$k] = (struct _value *)acc;
+                                            if(!(neko_interp_loop__1__1__1__19__k >= (signed int)*((enum anonymous_7 *)*sp) >> 4))
+                                              (&((struct anonymous_4 *)*sp)->ptr)[(signed long int)neko_interp_loop__1__1__1__19__k] = (struct _value *)acc;
 
                                           }
 
@@ -14238,23 +14238,23 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                         else
                                         {
                                           if((1 & (signed int)*sp) == 0)
-                                            tmp_if_expr$116 = (signed int)*((enum anonymous$7 *)*sp) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+                                            tmp_if_expr_116 = (signed int)*((enum anonymous_7 *)*sp) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
                                           else
-                                            tmp_if_expr$116 = (_Bool)0;
-                                          if(tmp_if_expr$116)
+                                            tmp_if_expr_116 = (_Bool)0;
+                                          if(tmp_if_expr_116)
                                           {
                                             struct _value *args[2l] = { (struct _value *)sp[(signed long int)1],
     (struct _value *)acc };
-                                            struct _value *neko_interp_loop$$1$$1$$1$$20$$f;
-                                            neko_interp_loop$$1$$1$$1$$20$$f=neko_val_field((struct _value *)*sp, id_set);
-                                            if(neko_interp_loop$$1$$1$$1$$20$$f == val_null)
+                                            struct _value *neko_interp_loop__1__1__1__20__f;
+                                            neko_interp_loop__1__1__1__20__f=neko_val_field((struct _value *)*sp, id_set);
+                                            if(neko_interp_loop__1__1__1__20__f == val_null)
                                             {
                                               if(csp + 4l >= sp)
                                               {
-                                                signed int return_value_neko_stack_expand$102;
-                                                return_value_neko_stack_expand$102=neko_stack_expand(sp, csp, vm);
-                                                if(!(return_value_neko_stack_expand$102 == 0))
+                                                signed int return_value_neko_stack_expand_102;
+                                                return_value_neko_stack_expand_102=neko_stack_expand(sp, csp, vm);
+                                                if(!(return_value_neko_stack_expand_102 == 0))
                                                 {
                                                   sp = vm->sp;
                                                   csp = vm->csp;
@@ -14262,8 +14262,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                                 else
                                                 {
-                                                  return_value_neko_alloc_string$101=neko_alloc_string("Stack Overflow");
-                                                  neko_val_throw(return_value_neko_alloc_string$101);
+                                                  return_value_neko_alloc_string_101=neko_alloc_string("Stack Overflow");
+                                                  neko_val_throw(return_value_neko_alloc_string_101);
                                                 }
                                               }
 
@@ -14277,16 +14277,16 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                               *csp = (signed long int)m;
                                               vm->sp = sp;
                                               vm->csp = csp;
-                                              struct _value *return_value_neko_alloc_string$103;
-                                              return_value_neko_alloc_string$103=neko_alloc_string("Unsupported operation");
-                                              neko_val_throw(return_value_neko_alloc_string$103);
+                                              struct _value *return_value_neko_alloc_string_103;
+                                              return_value_neko_alloc_string_103=neko_alloc_string("Unsupported operation");
+                                              neko_val_throw(return_value_neko_alloc_string_103);
                                             }
 
                                             if(csp + 4l >= sp)
                                             {
-                                              signed int return_value_neko_stack_expand$105;
-                                              return_value_neko_stack_expand$105=neko_stack_expand(sp, csp, vm);
-                                              if(!(return_value_neko_stack_expand$105 == 0))
+                                              signed int return_value_neko_stack_expand_105;
+                                              return_value_neko_stack_expand_105=neko_stack_expand(sp, csp, vm);
+                                              if(!(return_value_neko_stack_expand_105 == 0))
                                               {
                                                 sp = vm->sp;
                                                 csp = vm->csp;
@@ -14294,8 +14294,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                               else
                                               {
-                                                return_value_neko_alloc_string$104=neko_alloc_string("Stack Overflow");
-                                                neko_val_throw(return_value_neko_alloc_string$104);
+                                                return_value_neko_alloc_string_104=neko_alloc_string("Stack Overflow");
+                                                neko_val_throw(return_value_neko_alloc_string_104);
                                               }
                                             }
 
@@ -14309,53 +14309,53 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                             *csp = (signed long int)m;
                                             vm->sp = sp;
                                             vm->csp = csp;
-                                            neko_val_callEx((struct _value *)*sp, neko_interp_loop$$1$$1$$1$$20$$f, args, 2, (struct _value **)(void *)0);
+                                            neko_val_callEx((struct _value *)*sp, neko_interp_loop__1__1__1__20__f, args, 2, (struct _value **)(void *)0);
                                             sp = vm->sp;
                                             csp = vm->csp;
                                             m = (struct _neko_module *)*csp;
-                                            tmp_post$106 = csp;
+                                            tmp_post_106 = csp;
                                             csp = csp - 1l;
-                                            *tmp_post$106 = (signed long int)0;
+                                            *tmp_post_106 = (signed long int)0;
                                             vm->vthis = (struct _value *)*csp;
-                                            tmp_post$107 = csp;
+                                            tmp_post_107 = csp;
                                             csp = csp - 1l;
-                                            *tmp_post$107 = (signed long int)0;
+                                            *tmp_post_107 = (signed long int)0;
                                             vm->env = (struct _value *)*csp;
-                                            tmp_post$108 = csp;
+                                            tmp_post_108 = csp;
                                             csp = csp - 1l;
-                                            *tmp_post$108 = (signed long int)0;
-                                            tmp_post$109 = csp;
+                                            *tmp_post_108 = (signed long int)0;
+                                            tmp_post_109 = csp;
                                             csp = csp - 1l;
-                                            *tmp_post$109 = (signed long int)0;
+                                            *tmp_post_109 = (signed long int)0;
                                             acc = (signed long int)args[(signed long int)1];
                                           }
 
                                           else
                                           {
                                             if((1 & (signed int)sp[1l]) == 0)
-                                              tmp_if_expr$113 = (signed int)*((enum anonymous$7 *)sp[(signed long int)1]) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
+                                              tmp_if_expr_113 = (signed int)*((enum anonymous_7 *)sp[(signed long int)1]) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
 
                                             else
-                                              tmp_if_expr$113 = (_Bool)0;
-                                            if(tmp_if_expr$113)
+                                              tmp_if_expr_113 = (_Bool)0;
+                                            if(tmp_if_expr_113)
                                             {
                                               if((1 & (signed int)*sp) == 0)
-                                                tmp_if_expr$114 = ((signed int)*((enum anonymous$7 *)*sp) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
+                                                tmp_if_expr_114 = ((signed int)*((enum anonymous_7 *)*sp) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
 
                                               else
-                                                tmp_if_expr$114 = (_Bool)0;
-                                              tmp_if_expr$115 = tmp_if_expr$114 ? (_Bool)1 : (_Bool)0;
+                                                tmp_if_expr_114 = (_Bool)0;
+                                              tmp_if_expr_115 = tmp_if_expr_114 ? (_Bool)1 : (_Bool)0;
                                             }
 
                                             else
-                                              tmp_if_expr$115 = (_Bool)0;
-                                            if(!tmp_if_expr$115)
+                                              tmp_if_expr_115 = (_Bool)0;
+                                            if(!tmp_if_expr_115)
                                             {
                                               if(csp + 4l >= sp)
                                               {
-                                                signed int return_value_neko_stack_expand$111;
-                                                return_value_neko_stack_expand$111=neko_stack_expand(sp, csp, vm);
-                                                if(!(return_value_neko_stack_expand$111 == 0))
+                                                signed int return_value_neko_stack_expand_111;
+                                                return_value_neko_stack_expand_111=neko_stack_expand(sp, csp, vm);
+                                                if(!(return_value_neko_stack_expand_111 == 0))
                                                 {
                                                   sp = vm->sp;
                                                   csp = vm->csp;
@@ -14363,8 +14363,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                                 else
                                                 {
-                                                  return_value_neko_alloc_string$110=neko_alloc_string("Stack Overflow");
-                                                  neko_val_throw(return_value_neko_alloc_string$110);
+                                                  return_value_neko_alloc_string_110=neko_alloc_string("Stack Overflow");
+                                                  neko_val_throw(return_value_neko_alloc_string_110);
                                                 }
                                               }
 
@@ -14378,19 +14378,19 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                               *csp = (signed long int)m;
                                               vm->sp = sp;
                                               vm->csp = csp;
-                                              struct _value *return_value_neko_alloc_string$112;
-                                              return_value_neko_alloc_string$112=neko_alloc_string("Invalid array access");
-                                              neko_val_throw(return_value_neko_alloc_string$112);
+                                              struct _value *return_value_neko_alloc_string_112;
+                                              return_value_neko_alloc_string_112=neko_alloc_string("Invalid array access");
+                                              neko_val_throw(return_value_neko_alloc_string_112);
                                             }
 
                                           }
                                         }
-                                        tmp_post$119 = sp;
+                                        tmp_post_119 = sp;
                                         sp = sp + 1l;
-                                        *tmp_post$119 = (signed long int)0;
-                                        tmp_post$120 = sp;
+                                        *tmp_post_119 = (signed long int)0;
+                                        tmp_post_120 = sp;
                                         sp = sp + 1l;
-                                        *tmp_post$120 = (signed long int)0;
+                                        *tmp_post_120 = (signed long int)0;
                                         *pc++;
                                         if(*pc++ == &&id_mod_next2)
                                           goto id_mod_next2;
@@ -14639,16 +14639,16 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                     LabelSetIndex:
                                       ;
                                       if((1 & (signed int)*sp) == 0)
-                                        tmp_if_expr$134 = ((signed int)*((enum anonymous$7 *)*sp) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
+                                        tmp_if_expr_134 = ((signed int)*((enum anonymous_7 *)*sp) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
 
                                       else
-                                        tmp_if_expr$134 = (_Bool)0;
-                                      if(tmp_if_expr$134)
+                                        tmp_if_expr_134 = (_Bool)0;
+                                      if(tmp_if_expr_134)
                                       {
                                         if(*pc >= 0l)
                                         {
-                                          if(!(*pc >= (signed long int)((signed int)*((enum anonymous$7 *)*sp) >> 4)))
-                                            (&((struct anonymous$4 *)*sp)->ptr)[*pc] = (struct _value *)acc;
+                                          if(!(*pc >= (signed long int)((signed int)*((enum anonymous_7 *)*sp) >> 4)))
+                                            (&((struct anonymous_4 *)*sp)->ptr)[*pc] = (struct _value *)acc;
 
                                         }
 
@@ -14657,24 +14657,24 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                       else
                                       {
                                         if((1 & (signed int)*sp) == 0)
-                                          tmp_if_expr$133 = (signed int)*((enum anonymous$7 *)*sp) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+                                          tmp_if_expr_133 = (signed int)*((enum anonymous_7 *)*sp) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
                                         else
-                                          tmp_if_expr$133 = (_Bool)0;
-                                        if(tmp_if_expr$133)
+                                          tmp_if_expr_133 = (_Bool)0;
+                                        if(tmp_if_expr_133)
                                         {
-                                          struct _value *neko_interp_loop$$1$$1$$1$$24$$args[2l] = { (struct _value *)(signed long int)((signed int)*pc << 1 | 1),
+                                          struct _value *neko_interp_loop__1__1__1__24__args[2l] = { (struct _value *)(signed long int)((signed int)*pc << 1 | 1),
     (struct _value *)acc };
-                                          struct _value *neko_interp_loop$$1$$1$$1$$24$$f;
-                                          neko_interp_loop$$1$$1$$1$$24$$f=neko_val_field((struct _value *)*sp, id_set);
-                                          if(neko_interp_loop$$1$$1$$1$$24$$f == val_null)
+                                          struct _value *neko_interp_loop__1__1__1__24__f;
+                                          neko_interp_loop__1__1__1__24__f=neko_val_field((struct _value *)*sp, id_set);
+                                          if(neko_interp_loop__1__1__1__24__f == val_null)
                                           {
                                             pc = pc + 1l;
                                             if(csp + 4l >= sp)
                                             {
-                                              signed int return_value_neko_stack_expand$122;
-                                              return_value_neko_stack_expand$122=neko_stack_expand(sp, csp, vm);
-                                              if(!(return_value_neko_stack_expand$122 == 0))
+                                              signed int return_value_neko_stack_expand_122;
+                                              return_value_neko_stack_expand_122=neko_stack_expand(sp, csp, vm);
+                                              if(!(return_value_neko_stack_expand_122 == 0))
                                               {
                                                 sp = vm->sp;
                                                 csp = vm->csp;
@@ -14682,8 +14682,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                               else
                                               {
-                                                return_value_neko_alloc_string$121=neko_alloc_string("Stack Overflow");
-                                                neko_val_throw(return_value_neko_alloc_string$121);
+                                                return_value_neko_alloc_string_121=neko_alloc_string("Stack Overflow");
+                                                neko_val_throw(return_value_neko_alloc_string_121);
                                               }
                                             }
 
@@ -14697,16 +14697,16 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                             *csp = (signed long int)m;
                                             vm->sp = sp;
                                             vm->csp = csp;
-                                            struct _value *return_value_neko_alloc_string$123;
-                                            return_value_neko_alloc_string$123=neko_alloc_string("Unsupported operation");
-                                            neko_val_throw(return_value_neko_alloc_string$123);
+                                            struct _value *return_value_neko_alloc_string_123;
+                                            return_value_neko_alloc_string_123=neko_alloc_string("Unsupported operation");
+                                            neko_val_throw(return_value_neko_alloc_string_123);
                                           }
 
                                           if(csp + 4l >= sp)
                                           {
-                                            signed int return_value_neko_stack_expand$125;
-                                            return_value_neko_stack_expand$125=neko_stack_expand(sp, csp, vm);
-                                            if(!(return_value_neko_stack_expand$125 == 0))
+                                            signed int return_value_neko_stack_expand_125;
+                                            return_value_neko_stack_expand_125=neko_stack_expand(sp, csp, vm);
+                                            if(!(return_value_neko_stack_expand_125 == 0))
                                             {
                                               sp = vm->sp;
                                               csp = vm->csp;
@@ -14714,8 +14714,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                             else
                                             {
-                                              return_value_neko_alloc_string$124=neko_alloc_string("Stack Overflow");
-                                              neko_val_throw(return_value_neko_alloc_string$124);
+                                              return_value_neko_alloc_string_124=neko_alloc_string("Stack Overflow");
+                                              neko_val_throw(return_value_neko_alloc_string_124);
                                             }
                                           }
 
@@ -14729,25 +14729,25 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                           *csp = (signed long int)m;
                                           vm->sp = sp;
                                           vm->csp = csp;
-                                          neko_val_callEx((struct _value *)*sp, neko_interp_loop$$1$$1$$1$$24$$f, neko_interp_loop$$1$$1$$1$$24$$args, 2, (struct _value **)(void *)0);
+                                          neko_val_callEx((struct _value *)*sp, neko_interp_loop__1__1__1__24__f, neko_interp_loop__1__1__1__24__args, 2, (struct _value **)(void *)0);
                                           sp = vm->sp;
                                           csp = vm->csp;
                                           m = (struct _neko_module *)*csp;
-                                          tmp_post$126 = csp;
+                                          tmp_post_126 = csp;
                                           csp = csp - 1l;
-                                          *tmp_post$126 = (signed long int)0;
+                                          *tmp_post_126 = (signed long int)0;
                                           vm->vthis = (struct _value *)*csp;
-                                          tmp_post$127 = csp;
+                                          tmp_post_127 = csp;
                                           csp = csp - 1l;
-                                          *tmp_post$127 = (signed long int)0;
+                                          *tmp_post_127 = (signed long int)0;
                                           vm->env = (struct _value *)*csp;
-                                          tmp_post$128 = csp;
+                                          tmp_post_128 = csp;
                                           csp = csp - 1l;
-                                          *tmp_post$128 = (signed long int)0;
-                                          tmp_post$129 = csp;
+                                          *tmp_post_128 = (signed long int)0;
+                                          tmp_post_129 = csp;
                                           csp = csp - 1l;
-                                          *tmp_post$129 = (signed long int)0;
-                                          acc = (signed long int)neko_interp_loop$$1$$1$$1$$24$$args[(signed long int)1];
+                                          *tmp_post_129 = (signed long int)0;
+                                          acc = (signed long int)neko_interp_loop__1__1__1__24__args[(signed long int)1];
                                         }
 
                                         else
@@ -14755,9 +14755,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                           pc = pc + 1l;
                                           if(csp + 4l >= sp)
                                           {
-                                            signed int return_value_neko_stack_expand$131;
-                                            return_value_neko_stack_expand$131=neko_stack_expand(sp, csp, vm);
-                                            if(!(return_value_neko_stack_expand$131 == 0))
+                                            signed int return_value_neko_stack_expand_131;
+                                            return_value_neko_stack_expand_131=neko_stack_expand(sp, csp, vm);
+                                            if(!(return_value_neko_stack_expand_131 == 0))
                                             {
                                               sp = vm->sp;
                                               csp = vm->csp;
@@ -14765,8 +14765,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                             else
                                             {
-                                              return_value_neko_alloc_string$130=neko_alloc_string("Stack Overflow");
-                                              neko_val_throw(return_value_neko_alloc_string$130);
+                                              return_value_neko_alloc_string_130=neko_alloc_string("Stack Overflow");
+                                              neko_val_throw(return_value_neko_alloc_string_130);
                                             }
                                           }
 
@@ -14780,15 +14780,15 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                           *csp = (signed long int)m;
                                           vm->sp = sp;
                                           vm->csp = csp;
-                                          struct _value *return_value_neko_alloc_string$132;
-                                          return_value_neko_alloc_string$132=neko_alloc_string("Invalid array access");
-                                          neko_val_throw(return_value_neko_alloc_string$132);
+                                          struct _value *return_value_neko_alloc_string_132;
+                                          return_value_neko_alloc_string_132=neko_alloc_string("Invalid array access");
+                                          neko_val_throw(return_value_neko_alloc_string_132);
                                         }
                                       }
                                       pc = pc + 1l;
-                                      tmp_post$135 = sp;
+                                      tmp_post_135 = sp;
                                       sp = sp + 1l;
-                                      *tmp_post$135 = (signed long int)0;
+                                      *tmp_post_135 = (signed long int)0;
                                       *pc++;
                                       if(*pc++ == &&id_mod_next2)
                                         goto id_mod_next2;
@@ -15287,9 +15287,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                   sp = sp - 1l;
                                   if(csp >= sp)
                                   {
-                                    signed int return_value_neko_stack_expand$137;
-                                    return_value_neko_stack_expand$137=neko_stack_expand(sp, csp, vm);
-                                    if(!(return_value_neko_stack_expand$137 == 0))
+                                    signed int return_value_neko_stack_expand_137;
+                                    return_value_neko_stack_expand_137=neko_stack_expand(sp, csp, vm);
+                                    if(!(return_value_neko_stack_expand_137 == 0))
                                     {
                                       sp = vm->sp;
                                       csp = vm->csp;
@@ -15297,8 +15297,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                     else
                                     {
-                                      return_value_neko_alloc_string$136=neko_alloc_string("Stack Overflow");
-                                      neko_val_throw(return_value_neko_alloc_string$136);
+                                      return_value_neko_alloc_string_136=neko_alloc_string("Stack Overflow");
+                                      neko_val_throw(return_value_neko_alloc_string_136);
                                     }
                                   }
 
@@ -15551,19 +15551,19 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                               LabelPop:
                                 ;
                                 signed int tmp;
-                                tmp_post$138 = pc;
+                                tmp_post_138 = pc;
                                 pc = pc + 1l;
-                                tmp = (signed int)*tmp_post$138;
+                                tmp = (signed int)*tmp_post_138;
                                 do
                                 {
-                                  tmp_post$139 = tmp;
+                                  tmp_post_139 = tmp;
                                   tmp = tmp - 1;
-                                  if(!(tmp_post$139 >= 1))
+                                  if(!(tmp_post_139 >= 1))
                                     break;
 
-                                  tmp_post$140 = sp;
+                                  tmp_post_140 = sp;
                                   sp = sp + 1l;
-                                  *tmp_post$140 = (signed long int)0;
+                                  *tmp_post_140 = (signed long int)0;
                                 }
                                 while((_Bool)1);
                                 *pc++;
@@ -15814,18 +15814,18 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                             LabelApply:
                               ;
                               if((1 & (signed int)acc) == 0)
-                                tmp_if_expr$144 = ((signed int)*((enum anonymous$7 *)acc) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
+                                tmp_if_expr_144 = ((signed int)*((enum anonymous_7 *)acc) & (1 << 4) - 1) == VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
 
                               else
-                                tmp_if_expr$144 = (_Bool)0;
-                              if(!tmp_if_expr$144)
+                                tmp_if_expr_144 = (_Bool)0;
+                              if(!tmp_if_expr_144)
                               {
                                 pc = pc + 1l;
                                 if(csp + 4l >= sp)
                                 {
-                                  signed int return_value_neko_stack_expand$142;
-                                  return_value_neko_stack_expand$142=neko_stack_expand(sp, csp, vm);
-                                  if(!(return_value_neko_stack_expand$142 == 0))
+                                  signed int return_value_neko_stack_expand_142;
+                                  return_value_neko_stack_expand_142=neko_stack_expand(sp, csp, vm);
+                                  if(!(return_value_neko_stack_expand_142 == 0))
                                   {
                                     sp = vm->sp;
                                     csp = vm->csp;
@@ -15833,8 +15833,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                   else
                                   {
-                                    return_value_neko_alloc_string$141=neko_alloc_string("Stack Overflow");
-                                    neko_val_throw(return_value_neko_alloc_string$141);
+                                    return_value_neko_alloc_string_141=neko_alloc_string("Stack Overflow");
+                                    neko_val_throw(return_value_neko_alloc_string_141);
                                   }
                                 }
 
@@ -15848,12 +15848,12 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                 *csp = (signed long int)m;
                                 vm->sp = sp;
                                 vm->csp = csp;
-                                struct _value *return_value_neko_alloc_string$143;
-                                return_value_neko_alloc_string$143=neko_alloc_string("$apply");
-                                neko_val_throw(return_value_neko_alloc_string$143);
+                                struct _value *return_value_neko_alloc_string_143;
+                                return_value_neko_alloc_string_143=neko_alloc_string("_apply");
+                                neko_val_throw(return_value_neko_alloc_string_143);
                               }
 
-                              signed int fargs = ((struct anonymous$8 *)acc)->nargs;
+                              signed int fargs = ((struct anonymous_8 *)acc)->nargs;
                               if(fargs == -1 || (signed long int)fargs == *pc)
                                 goto LabelCall;
 
@@ -15862,9 +15862,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                 pc = pc + 1l;
                                 if(csp + 4l >= sp)
                                 {
-                                  signed int return_value_neko_stack_expand$146;
-                                  return_value_neko_stack_expand$146=neko_stack_expand(sp, csp, vm);
-                                  if(!(return_value_neko_stack_expand$146 == 0))
+                                  signed int return_value_neko_stack_expand_146;
+                                  return_value_neko_stack_expand_146=neko_stack_expand(sp, csp, vm);
+                                  if(!(return_value_neko_stack_expand_146 == 0))
                                   {
                                     sp = vm->sp;
                                     csp = vm->csp;
@@ -15872,8 +15872,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                   else
                                   {
-                                    return_value_neko_alloc_string$145=neko_alloc_string("Stack Overflow");
-                                    neko_val_throw(return_value_neko_alloc_string$145);
+                                    return_value_neko_alloc_string_145=neko_alloc_string("Stack Overflow");
+                                    neko_val_throw(return_value_neko_alloc_string_145);
                                   }
                                 }
 
@@ -15887,33 +15887,33 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                 *csp = (signed long int)m;
                                 vm->sp = sp;
                                 vm->csp = csp;
-                                struct _value *return_value_neko_alloc_string$147;
-                                return_value_neko_alloc_string$147=neko_alloc_string("$apply");
-                                neko_val_throw(return_value_neko_alloc_string$147);
+                                struct _value *return_value_neko_alloc_string_147;
+                                return_value_neko_alloc_string_147=neko_alloc_string("_apply");
+                                neko_val_throw(return_value_neko_alloc_string_147);
                               }
 
                               signed int i = fargs;
                               struct _value *env;
                               env=neko_alloc_array((unsigned int)(fargs + 1));
-                              (&((struct anonymous$4 *)env)->ptr)[(signed long int)0] = (struct _value *)acc;
-                              for( ; !(*pc >= (signed long int)i); (&((struct anonymous$4 *)env)->ptr)[(signed long int)tmp_post$148] = val_null)
+                              (&((struct anonymous_4 *)env)->ptr)[(signed long int)0] = (struct _value *)acc;
+                              for( ; !(*pc >= (signed long int)i); (&((struct anonymous_4 *)env)->ptr)[(signed long int)tmp_post_148] = val_null)
                               {
-                                tmp_post$148 = i;
+                                tmp_post_148 = i;
                                 i = i - 1;
                               }
-                              for( ; !(i == 0); *tmp_post$150 = (signed long int)0)
+                              for( ; !(i == 0); *tmp_post_150 = (signed long int)0)
                               {
-                                tmp_post$149 = i;
+                                tmp_post_149 = i;
                                 i = i - 1;
-                                (&((struct anonymous$4 *)env)->ptr)[(signed long int)tmp_post$149] = (struct _value *)*sp;
-                                tmp_post$150 = sp;
+                                (&((struct anonymous_4 *)env)->ptr)[(signed long int)tmp_post_149] = (struct _value *)*sp;
+                                tmp_post_150 = sp;
                                 sp = sp + 1l;
                               }
-                              tmp_post$151 = pc;
+                              tmp_post_151 = pc;
                               pc = pc + 1l;
-                              struct _value *return_value_neko_alloc_apply$152;
-                              return_value_neko_alloc_apply$152=neko_alloc_apply((signed int)((signed long int)fargs - *tmp_post$151), env);
-                              acc = (signed long int)return_value_neko_alloc_apply$152;
+                              struct _value *return_value_neko_alloc_apply_152;
+                              return_value_neko_alloc_apply_152=neko_alloc_apply((signed int)((signed long int)fargs - *tmp_post_151), env);
+                              acc = (signed long int)return_value_neko_alloc_apply_152;
                               *pc++;
                               if(*pc++ == &&id_mod_next2)
                                 goto id_mod_next2;
@@ -16161,52 +16161,52 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                           LabelTailCall:
                             ;
-                            signed int neko_interp_loop$$1$$1$$1$$30$$stack = (signed int)(*pc >> 3);
+                            signed int neko_interp_loop__1__1__1__30__stack = (signed int)(*pc >> 3);
                             signed int nargs = (signed int)(*pc & (signed long int)7);
-                            signed int neko_interp_loop$$1$$1$$1$$30$$i = nargs;
+                            signed int neko_interp_loop__1__1__1__30__i = nargs;
                             struct _value *cur_this = vm->vthis;
-                            neko_interp_loop$$1$$1$$1$$30$$stack = neko_interp_loop$$1$$1$$1$$30$$stack - nargs;
+                            neko_interp_loop__1__1__1__30__stack = neko_interp_loop__1__1__1__30__stack - nargs;
                             sp = sp + (signed long int)nargs;
-                            for( ; neko_interp_loop$$1$$1$$1$$30$$i >= 1; neko_interp_loop$$1$$1$$1$$30$$i = neko_interp_loop$$1$$1$$1$$30$$i - 1)
+                            for( ; neko_interp_loop__1__1__1__30__i >= 1; neko_interp_loop__1__1__1__30__i = neko_interp_loop__1__1__1__30__i - 1)
                             {
                               sp = sp - 1l;
-                              sp[(signed long int)neko_interp_loop$$1$$1$$1$$30$$stack] = *sp;
+                              sp[(signed long int)neko_interp_loop__1__1__1__30__stack] = *sp;
                             }
                             do
                             {
-                              tmp_post$153 = neko_interp_loop$$1$$1$$1$$30$$stack;
-                              neko_interp_loop$$1$$1$$1$$30$$stack = neko_interp_loop$$1$$1$$1$$30$$stack - 1;
-                              if(!(tmp_post$153 >= 1))
+                              tmp_post_153 = neko_interp_loop__1__1__1__30__stack;
+                              neko_interp_loop__1__1__1__30__stack = neko_interp_loop__1__1__1__30__stack - 1;
+                              if(!(tmp_post_153 >= 1))
                                 break;
 
-                              tmp_post$154 = sp;
+                              tmp_post_154 = sp;
                               sp = sp + 1l;
-                              *tmp_post$154 = (signed long int)0;
+                              *tmp_post_154 = (signed long int)0;
                             }
                             while((_Bool)1);
                             m = (struct _neko_module *)*csp;
-                            tmp_post$155 = csp;
+                            tmp_post_155 = csp;
                             csp = csp - 1l;
-                            *tmp_post$155 = (signed long int)0;
+                            *tmp_post_155 = (signed long int)0;
                             vm->vthis = (struct _value *)*csp;
-                            tmp_post$156 = csp;
+                            tmp_post_156 = csp;
                             csp = csp - 1l;
-                            *tmp_post$156 = (signed long int)0;
+                            *tmp_post_156 = (signed long int)0;
                             vm->env = (struct _value *)*csp;
-                            tmp_post$157 = csp;
+                            tmp_post_157 = csp;
                             csp = csp - 1l;
-                            *tmp_post$157 = (signed long int)0;
+                            *tmp_post_157 = (signed long int)0;
                             pc = (signed long int *)*csp;
-                            tmp_post$158 = csp;
+                            tmp_post_158 = csp;
                             csp = csp - 1l;
-                            *tmp_post$158 = (signed long int)0;
+                            *tmp_post_158 = (signed long int)0;
                             if(!((1l & acc) == 0l))
                             {
                               if(csp + 4l >= sp)
                               {
-                                signed int return_value_neko_stack_expand$160;
-                                return_value_neko_stack_expand$160=neko_stack_expand(sp, csp, vm);
-                                if(!(return_value_neko_stack_expand$160 == 0))
+                                signed int return_value_neko_stack_expand_160;
+                                return_value_neko_stack_expand_160=neko_stack_expand(sp, csp, vm);
+                                if(!(return_value_neko_stack_expand_160 == 0))
                                 {
                                   sp = vm->sp;
                                   csp = vm->csp;
@@ -16214,8 +16214,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                 else
                                 {
-                                  return_value_neko_alloc_string$159=neko_alloc_string("Stack Overflow");
-                                  neko_val_throw(return_value_neko_alloc_string$159);
+                                  return_value_neko_alloc_string_159=neko_alloc_string("Stack Overflow");
+                                  neko_val_throw(return_value_neko_alloc_string_159);
                                 }
                               }
 
@@ -16229,25 +16229,25 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                               *csp = (signed long int)m;
                               vm->sp = sp;
                               vm->csp = csp;
-                              struct _value *return_value_neko_alloc_string$161;
-                              return_value_neko_alloc_string$161=neko_alloc_string("Invalid call");
-                              neko_val_throw(return_value_neko_alloc_string$161);
+                              struct _value *return_value_neko_alloc_string_161;
+                              return_value_neko_alloc_string_161=neko_alloc_string("Invalid call");
+                              neko_val_throw(return_value_neko_alloc_string_161);
                             }
 
                             else
                             {
-                              if((signed int)*((enum anonymous$7 *)acc) == VAL_FUNCTION)
-                                tmp_if_expr$193 = nargs == ((struct anonymous$8 *)acc)->nargs ? (_Bool)1 : (_Bool)0;
+                              if((signed int)*((enum anonymous_7 *)acc) == VAL_FUNCTION)
+                                tmp_if_expr_193 = nargs == ((struct anonymous_8 *)acc)->nargs ? (_Bool)1 : (_Bool)0;
 
                               else
-                                tmp_if_expr$193 = (_Bool)0;
-                              if(tmp_if_expr$193)
+                                tmp_if_expr_193 = (_Bool)0;
+                              if(tmp_if_expr_193)
                               {
                                 if(csp + 4l >= sp)
                                 {
-                                  signed int return_value_neko_stack_expand$163;
-                                  return_value_neko_stack_expand$163=neko_stack_expand(sp, csp, vm);
-                                  if(!(return_value_neko_stack_expand$163 == 0))
+                                  signed int return_value_neko_stack_expand_163;
+                                  return_value_neko_stack_expand_163=neko_stack_expand(sp, csp, vm);
+                                  if(!(return_value_neko_stack_expand_163 == 0))
                                   {
                                     sp = vm->sp;
                                     csp = vm->csp;
@@ -16255,8 +16255,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                   else
                                   {
-                                    return_value_neko_alloc_string$162=neko_alloc_string("Stack Overflow");
-                                    neko_val_throw(return_value_neko_alloc_string$162);
+                                    return_value_neko_alloc_string_162=neko_alloc_string("Stack Overflow");
+                                    neko_val_throw(return_value_neko_alloc_string_162);
                                   }
                                 }
 
@@ -16268,23 +16268,23 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                 *csp = (signed long int)vm->vthis;
                                 csp = csp + 1l;
                                 *csp = (signed long int)m;
-                                m = (struct _neko_module *)((struct anonymous$8 *)acc)->module;
-                                pc = (signed long int *)((struct anonymous$8 *)acc)->addr;
+                                m = (struct _neko_module *)((struct anonymous_8 *)acc)->module;
+                                pc = (signed long int *)((struct anonymous_8 *)acc)->addr;
                                 vm->vthis = cur_this;
-                                vm->env = ((struct anonymous$8 *)acc)->env;
+                                vm->env = ((struct anonymous_8 *)acc)->env;
                               }
 
                               else
-                                if((signed int)*((enum anonymous$7 *)acc) == VAL_PRIMITIVE)
+                                if((signed int)*((enum anonymous_7 *)acc) == VAL_PRIMITIVE)
                                 {
-                                  if(nargs == ((struct anonymous$8 *)acc)->nargs)
+                                  if(nargs == ((struct anonymous_8 *)acc)->nargs)
                                   {
-                                    struct anonymous$8 *neko_interp_loop$$1$$1$$1$$30$$4$$1$$f = (struct anonymous$8 *)acc;
+                                    struct anonymous_8 *neko_interp_loop__1__1__1__30__4__1__f = (struct anonymous_8 *)acc;
                                     if(csp + 4l >= sp)
                                     {
-                                      signed int return_value_neko_stack_expand$165;
-                                      return_value_neko_stack_expand$165=neko_stack_expand(sp, csp, vm);
-                                      if(!(return_value_neko_stack_expand$165 == 0))
+                                      signed int return_value_neko_stack_expand_165;
+                                      return_value_neko_stack_expand_165=neko_stack_expand(sp, csp, vm);
+                                      if(!(return_value_neko_stack_expand_165 == 0))
                                       {
                                         sp = vm->sp;
                                         csp = vm->csp;
@@ -16292,8 +16292,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                       else
                                       {
-                                        return_value_neko_alloc_string$164=neko_alloc_string("Stack Overflow");
-                                        neko_val_throw(return_value_neko_alloc_string$164);
+                                        return_value_neko_alloc_string_164=neko_alloc_string("Stack Overflow");
+                                        neko_val_throw(return_value_neko_alloc_string_164);
                                       }
                                     }
 
@@ -16306,57 +16306,57 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                     csp = csp + 1l;
                                     *csp = (signed long int)m;
                                     vm->vthis = cur_this;
-                                    vm->env = ((struct anonymous$8 *)acc)->env;
+                                    vm->env = ((struct anonymous_8 *)acc)->env;
                                     vm->sp = sp;
                                     vm->csp = csp;
                                     switch(nargs)
                                     {
                                       case 0:
-                                        acc=((signed long int (*)())((struct anonymous$8 *)acc)->addr)();
+                                        acc=((signed long int (*)())((struct anonymous_8 *)acc)->addr)();
                                       case 1:
-                                        acc=((signed long int (*)(signed long int))((struct anonymous$8 *)acc)->addr)(sp[(signed long int)0]);
+                                        acc=((signed long int (*)(signed long int))((struct anonymous_8 *)acc)->addr)(sp[(signed long int)0]);
                                       case 2:
-                                        acc=((signed long int (*)(signed long int, signed long int))((struct anonymous$8 *)acc)->addr)(sp[(signed long int)1], sp[(signed long int)0]);
+                                        acc=((signed long int (*)(signed long int, signed long int))((struct anonymous_8 *)acc)->addr)(sp[(signed long int)1], sp[(signed long int)0]);
                                       case 3:
-                                        acc=((signed long int (*)(signed long int, signed long int, signed long int))((struct anonymous$8 *)acc)->addr)(sp[(signed long int)2], sp[(signed long int)1], sp[(signed long int)0]);
+                                        acc=((signed long int (*)(signed long int, signed long int, signed long int))((struct anonymous_8 *)acc)->addr)(sp[(signed long int)2], sp[(signed long int)1], sp[(signed long int)0]);
                                       case 4:
-                                        acc=((signed long int (*)(signed long int, signed long int, signed long int, signed long int))((struct anonymous$8 *)acc)->addr)(sp[(signed long int)3], sp[(signed long int)2], sp[(signed long int)1], sp[(signed long int)0]);
+                                        acc=((signed long int (*)(signed long int, signed long int, signed long int, signed long int))((struct anonymous_8 *)acc)->addr)(sp[(signed long int)3], sp[(signed long int)2], sp[(signed long int)1], sp[(signed long int)0]);
                                       case 5:
-                                        acc=((signed long int (*)(signed long int, signed long int, signed long int, signed long int, signed long int))((struct anonymous$8 *)acc)->addr)(sp[(signed long int)4], sp[(signed long int)3], sp[(signed long int)2], sp[(signed long int)1], sp[(signed long int)0]);
+                                        acc=((signed long int (*)(signed long int, signed long int, signed long int, signed long int, signed long int))((struct anonymous_8 *)acc)->addr)(sp[(signed long int)4], sp[(signed long int)3], sp[(signed long int)2], sp[(signed long int)1], sp[(signed long int)0]);
                                     }
                                     if(acc == 0l)
-                                      neko_val_throw((struct _value *)neko_interp_loop$$1$$1$$1$$30$$4$$1$$f->module);
+                                      neko_val_throw((struct _value *)neko_interp_loop__1__1__1__30__4__1__f->module);
 
                                     sp = vm->sp;
                                     csp = vm->csp;
                                     m = (struct _neko_module *)*csp;
-                                    tmp_post$166 = csp;
+                                    tmp_post_166 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$166 = (signed long int)0;
+                                    *tmp_post_166 = (signed long int)0;
                                     vm->vthis = (struct _value *)*csp;
-                                    tmp_post$167 = csp;
+                                    tmp_post_167 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$167 = (signed long int)0;
+                                    *tmp_post_167 = (signed long int)0;
                                     vm->env = (struct _value *)*csp;
-                                    tmp_post$168 = csp;
+                                    tmp_post_168 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$168 = (signed long int)0;
-                                    tmp_post$169 = csp;
+                                    *tmp_post_168 = (signed long int)0;
+                                    tmp_post_169 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$169 = (signed long int)0;
+                                    *tmp_post_169 = (signed long int)0;
                                   }
 
                                   else
-                                    if(((struct anonymous$8 *)acc)->nargs == -1)
+                                    if(((struct anonymous_8 *)acc)->nargs == -1)
                                     {
-                                      signed long int neko_interp_loop$$1$$1$$1$$30$$4$$2$$args[5l];
-                                      signed long int neko_interp_loop$$1$$1$$1$$30$$4$$2$$tmp;
-                                      struct anonymous$8 *neko_interp_loop$$1$$1$$1$$30$$4$$2$$f = (struct anonymous$8 *)acc;
+                                      signed long int neko_interp_loop__1__1__1__30__4__2__args[5l];
+                                      signed long int neko_interp_loop__1__1__1__30__4__2__tmp;
+                                      struct anonymous_8 *neko_interp_loop__1__1__1__30__4__2__f = (struct anonymous_8 *)acc;
                                       if(csp + 4l >= sp)
                                       {
-                                        signed int return_value_neko_stack_expand$171;
-                                        return_value_neko_stack_expand$171=neko_stack_expand(sp, csp, vm);
-                                        if(!(return_value_neko_stack_expand$171 == 0))
+                                        signed int return_value_neko_stack_expand_171;
+                                        return_value_neko_stack_expand_171=neko_stack_expand(sp, csp, vm);
+                                        if(!(return_value_neko_stack_expand_171 == 0))
                                         {
                                           sp = vm->sp;
                                           csp = vm->csp;
@@ -16364,8 +16364,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                         else
                                         {
-                                          return_value_neko_alloc_string$170=neko_alloc_string("Stack Overflow");
-                                          neko_val_throw(return_value_neko_alloc_string$170);
+                                          return_value_neko_alloc_string_170=neko_alloc_string("Stack Overflow");
+                                          neko_val_throw(return_value_neko_alloc_string_170);
                                         }
                                       }
 
@@ -16378,46 +16378,46 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                       csp = csp + 1l;
                                       *csp = (signed long int)m;
                                       vm->vthis = cur_this;
-                                      vm->env = ((struct anonymous$8 *)acc)->env;
+                                      vm->env = ((struct anonymous_8 *)acc)->env;
                                       vm->sp = sp;
                                       vm->csp = csp;
                                       sp = sp + (signed long int)nargs;
-                                      neko_interp_loop$$1$$1$$1$$30$$4$$2$$tmp = (signed long int)0;
-                                      for( ; !(neko_interp_loop$$1$$1$$1$$30$$4$$2$$tmp >= (signed long int)nargs); neko_interp_loop$$1$$1$$1$$30$$4$$2$$tmp = neko_interp_loop$$1$$1$$1$$30$$4$$2$$tmp + 1l)
+                                      neko_interp_loop__1__1__1__30__4__2__tmp = (signed long int)0;
+                                      for( ; !(neko_interp_loop__1__1__1__30__4__2__tmp >= (signed long int)nargs); neko_interp_loop__1__1__1__30__4__2__tmp = neko_interp_loop__1__1__1__30__4__2__tmp + 1l)
                                       {
                                         sp = sp - 1l;
-                                        neko_interp_loop$$1$$1$$1$$30$$4$$2$$args[neko_interp_loop$$1$$1$$1$$30$$4$$2$$tmp] = *sp;
+                                        neko_interp_loop__1__1__1__30__4__2__args[neko_interp_loop__1__1__1__30__4__2__tmp] = *sp;
                                       }
-                                      acc=((signed long int (*)(struct _value **, signed int))((struct anonymous$8 *)acc)->addr)((struct _value **)(void *)neko_interp_loop$$1$$1$$1$$30$$4$$2$$args, (signed int)nargs);
+                                      acc=((signed long int (*)(struct _value **, signed int))((struct anonymous_8 *)acc)->addr)((struct _value **)(void *)neko_interp_loop__1__1__1__30__4__2__args, (signed int)nargs);
                                       if(acc == 0l)
-                                        neko_val_throw((struct _value *)neko_interp_loop$$1$$1$$1$$30$$4$$2$$f->module);
+                                        neko_val_throw((struct _value *)neko_interp_loop__1__1__1__30__4__2__f->module);
 
                                       sp = vm->sp;
                                       csp = vm->csp;
                                       m = (struct _neko_module *)*csp;
-                                      tmp_post$172 = csp;
+                                      tmp_post_172 = csp;
                                       csp = csp - 1l;
-                                      *tmp_post$172 = (signed long int)0;
+                                      *tmp_post_172 = (signed long int)0;
                                       vm->vthis = (struct _value *)*csp;
-                                      tmp_post$173 = csp;
+                                      tmp_post_173 = csp;
                                       csp = csp - 1l;
-                                      *tmp_post$173 = (signed long int)0;
+                                      *tmp_post_173 = (signed long int)0;
                                       vm->env = (struct _value *)*csp;
-                                      tmp_post$174 = csp;
+                                      tmp_post_174 = csp;
                                       csp = csp - 1l;
-                                      *tmp_post$174 = (signed long int)0;
-                                      tmp_post$175 = csp;
+                                      *tmp_post_174 = (signed long int)0;
+                                      tmp_post_175 = csp;
                                       csp = csp - 1l;
-                                      *tmp_post$175 = (signed long int)0;
+                                      *tmp_post_175 = (signed long int)0;
                                     }
 
                                     else
                                     {
                                       if(csp + 4l >= sp)
                                       {
-                                        signed int return_value_neko_stack_expand$177;
-                                        return_value_neko_stack_expand$177=neko_stack_expand(sp, csp, vm);
-                                        if(!(return_value_neko_stack_expand$177 == 0))
+                                        signed int return_value_neko_stack_expand_177;
+                                        return_value_neko_stack_expand_177=neko_stack_expand(sp, csp, vm);
+                                        if(!(return_value_neko_stack_expand_177 == 0))
                                         {
                                           sp = vm->sp;
                                           csp = vm->csp;
@@ -16425,8 +16425,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                         else
                                         {
-                                          return_value_neko_alloc_string$176=neko_alloc_string("Stack Overflow");
-                                          neko_val_throw(return_value_neko_alloc_string$176);
+                                          return_value_neko_alloc_string_176=neko_alloc_string("Stack Overflow");
+                                          neko_val_throw(return_value_neko_alloc_string_176);
                                         }
                                       }
 
@@ -16440,36 +16440,36 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                       *csp = (signed long int)m;
                                       vm->sp = sp;
                                       vm->csp = csp;
-                                      struct _value *return_value_neko_alloc_string$178;
-                                      return_value_neko_alloc_string$178=neko_alloc_string("Invalid call");
-                                      neko_val_throw(return_value_neko_alloc_string$178);
+                                      struct _value *return_value_neko_alloc_string_178;
+                                      return_value_neko_alloc_string_178=neko_alloc_string("Invalid call");
+                                      neko_val_throw(return_value_neko_alloc_string_178);
                                     }
-                                  signed int neko_interp_loop$$1$$1$$1$$30$$4$$4$$tmp = (signed int)nargs;
+                                  signed int neko_interp_loop__1__1__1__30__4__4__tmp = (signed int)nargs;
                                   do
                                   {
-                                    tmp_post$179 = neko_interp_loop$$1$$1$$1$$30$$4$$4$$tmp;
-                                    neko_interp_loop$$1$$1$$1$$30$$4$$4$$tmp = neko_interp_loop$$1$$1$$1$$30$$4$$4$$tmp - 1;
-                                    if(!(tmp_post$179 >= 1))
+                                    tmp_post_179 = neko_interp_loop__1__1__1__30__4__4__tmp;
+                                    neko_interp_loop__1__1__1__30__4__4__tmp = neko_interp_loop__1__1__1__30__4__4__tmp - 1;
+                                    if(!(tmp_post_179 >= 1))
                                       break;
 
-                                    tmp_post$180 = sp;
+                                    tmp_post_180 = sp;
                                     sp = sp + 1l;
-                                    *tmp_post$180 = (signed long int)0;
+                                    *tmp_post_180 = (signed long int)0;
                                   }
                                   while((_Bool)1);
                                 }
 
                                 else
-                                  if((signed int)*((enum anonymous$7 *)acc) == VAL_JITFUN)
+                                  if((signed int)*((enum anonymous_7 *)acc) == VAL_JITFUN)
                                   {
-                                    if(nargs == ((struct anonymous$8 *)acc)->nargs)
+                                    if(nargs == ((struct anonymous_8 *)acc)->nargs)
                                     {
-                                      struct anonymous$8 *neko_interp_loop$$1$$1$$1$$30$$5$$1$$f = (struct anonymous$8 *)acc;
+                                      struct anonymous_8 *neko_interp_loop__1__1__1__30__5__1__f = (struct anonymous_8 *)acc;
                                       if(csp + 4l >= sp)
                                       {
-                                        signed int return_value_neko_stack_expand$182;
-                                        return_value_neko_stack_expand$182=neko_stack_expand(sp, csp, vm);
-                                        if(!(return_value_neko_stack_expand$182 == 0))
+                                        signed int return_value_neko_stack_expand_182;
+                                        return_value_neko_stack_expand_182=neko_stack_expand(sp, csp, vm);
+                                        if(!(return_value_neko_stack_expand_182 == 0))
                                         {
                                           sp = vm->sp;
                                           csp = vm->csp;
@@ -16477,8 +16477,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                         else
                                         {
-                                          return_value_neko_alloc_string$181=neko_alloc_string("Stack Overflow");
-                                          neko_val_throw(return_value_neko_alloc_string$181);
+                                          return_value_neko_alloc_string_181=neko_alloc_string("Stack Overflow");
+                                          neko_val_throw(return_value_neko_alloc_string_181);
                                         }
                                       }
 
@@ -16491,39 +16491,39 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                       csp = csp + 1l;
                                       *csp = (signed long int)m;
                                       vm->vthis = cur_this;
-                                      vm->env = ((struct anonymous$8 *)acc)->env;
+                                      vm->env = ((struct anonymous_8 *)acc)->env;
                                       vm->sp = sp;
                                       vm->csp = csp;
-                                      acc=jit_run(vm, (struct anonymous$8 *)acc);
+                                      acc=jit_run(vm, (struct anonymous_8 *)acc);
                                       if(acc == 0l)
-                                        neko_val_throw((struct _value *)neko_interp_loop$$1$$1$$1$$30$$5$$1$$f->module);
+                                        neko_val_throw((struct _value *)neko_interp_loop__1__1__1__30__5__1__f->module);
 
                                       sp = vm->sp;
                                       csp = vm->csp;
                                       m = (struct _neko_module *)*csp;
-                                      tmp_post$183 = csp;
+                                      tmp_post_183 = csp;
                                       csp = csp - 1l;
-                                      *tmp_post$183 = (signed long int)0;
+                                      *tmp_post_183 = (signed long int)0;
                                       vm->vthis = (struct _value *)*csp;
-                                      tmp_post$184 = csp;
+                                      tmp_post_184 = csp;
                                       csp = csp - 1l;
-                                      *tmp_post$184 = (signed long int)0;
+                                      *tmp_post_184 = (signed long int)0;
                                       vm->env = (struct _value *)*csp;
-                                      tmp_post$185 = csp;
+                                      tmp_post_185 = csp;
                                       csp = csp - 1l;
-                                      *tmp_post$185 = (signed long int)0;
-                                      tmp_post$186 = csp;
+                                      *tmp_post_185 = (signed long int)0;
+                                      tmp_post_186 = csp;
                                       csp = csp - 1l;
-                                      *tmp_post$186 = (signed long int)0;
+                                      *tmp_post_186 = (signed long int)0;
                                     }
 
                                     else
                                     {
                                       if(csp + 4l >= sp)
                                       {
-                                        signed int return_value_neko_stack_expand$188;
-                                        return_value_neko_stack_expand$188=neko_stack_expand(sp, csp, vm);
-                                        if(!(return_value_neko_stack_expand$188 == 0))
+                                        signed int return_value_neko_stack_expand_188;
+                                        return_value_neko_stack_expand_188=neko_stack_expand(sp, csp, vm);
+                                        if(!(return_value_neko_stack_expand_188 == 0))
                                         {
                                           sp = vm->sp;
                                           csp = vm->csp;
@@ -16531,8 +16531,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                         else
                                         {
-                                          return_value_neko_alloc_string$187=neko_alloc_string("Stack Overflow");
-                                          neko_val_throw(return_value_neko_alloc_string$187);
+                                          return_value_neko_alloc_string_187=neko_alloc_string("Stack Overflow");
+                                          neko_val_throw(return_value_neko_alloc_string_187);
                                         }
                                       }
 
@@ -16546,9 +16546,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                       *csp = (signed long int)m;
                                       vm->sp = sp;
                                       vm->csp = csp;
-                                      struct _value *return_value_neko_alloc_string$189;
-                                      return_value_neko_alloc_string$189=neko_alloc_string("Invalid call");
-                                      neko_val_throw(return_value_neko_alloc_string$189);
+                                      struct _value *return_value_neko_alloc_string_189;
+                                      return_value_neko_alloc_string_189=neko_alloc_string("Invalid call");
+                                      neko_val_throw(return_value_neko_alloc_string_189);
                                     }
                                   }
 
@@ -16556,9 +16556,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                   {
                                     if(csp + 4l >= sp)
                                     {
-                                      signed int return_value_neko_stack_expand$191;
-                                      return_value_neko_stack_expand$191=neko_stack_expand(sp, csp, vm);
-                                      if(!(return_value_neko_stack_expand$191 == 0))
+                                      signed int return_value_neko_stack_expand_191;
+                                      return_value_neko_stack_expand_191=neko_stack_expand(sp, csp, vm);
+                                      if(!(return_value_neko_stack_expand_191 == 0))
                                       {
                                         sp = vm->sp;
                                         csp = vm->csp;
@@ -16566,8 +16566,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                       else
                                       {
-                                        return_value_neko_alloc_string$190=neko_alloc_string("Stack Overflow");
-                                        neko_val_throw(return_value_neko_alloc_string$190);
+                                        return_value_neko_alloc_string_190=neko_alloc_string("Stack Overflow");
+                                        neko_val_throw(return_value_neko_alloc_string_190);
                                       }
                                     }
 
@@ -16581,9 +16581,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                     *csp = (signed long int)m;
                                     vm->sp = sp;
                                     vm->csp = csp;
-                                    struct _value *return_value_neko_alloc_string$192;
-                                    return_value_neko_alloc_string$192=neko_alloc_string("Invalid call");
-                                    neko_val_throw(return_value_neko_alloc_string$192);
+                                    struct _value *return_value_neko_alloc_string_192;
+                                    return_value_neko_alloc_string_192=neko_alloc_string("Invalid call");
+                                    neko_val_throw(return_value_neko_alloc_string_192);
                                   }
                             }
                             *pc++;
@@ -16841,9 +16841,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                           {
                             if(csp + 4l >= sp)
                             {
-                              signed int return_value_neko_stack_expand$195;
-                              return_value_neko_stack_expand$195=neko_stack_expand(sp, csp, vm);
-                              if(!(return_value_neko_stack_expand$195 == 0))
+                              signed int return_value_neko_stack_expand_195;
+                              return_value_neko_stack_expand_195=neko_stack_expand(sp, csp, vm);
+                              if(!(return_value_neko_stack_expand_195 == 0))
                               {
                                 sp = vm->sp;
                                 csp = vm->csp;
@@ -16851,8 +16851,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                               else
                               {
-                                return_value_neko_alloc_string$194=neko_alloc_string("Stack Overflow");
-                                neko_val_throw(return_value_neko_alloc_string$194);
+                                return_value_neko_alloc_string_194=neko_alloc_string("Stack Overflow");
+                                neko_val_throw(return_value_neko_alloc_string_194);
                               }
                             }
 
@@ -16866,25 +16866,25 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                             *csp = (signed long int)m;
                             vm->sp = sp;
                             vm->csp = csp;
-                            struct _value *return_value_neko_alloc_string$196;
-                            return_value_neko_alloc_string$196=neko_alloc_string("Invalid call");
-                            neko_val_throw(return_value_neko_alloc_string$196);
+                            struct _value *return_value_neko_alloc_string_196;
+                            return_value_neko_alloc_string_196=neko_alloc_string("Invalid call");
+                            neko_val_throw(return_value_neko_alloc_string_196);
                           }
 
                           else
                           {
-                            if((signed int)*((enum anonymous$7 *)acc) == VAL_FUNCTION)
-                              tmp_if_expr$228 = pc[(signed long int)-1] == (signed long int)((struct anonymous$8 *)acc)->nargs ? (_Bool)1 : (_Bool)0;
+                            if((signed int)*((enum anonymous_7 *)acc) == VAL_FUNCTION)
+                              tmp_if_expr_228 = pc[(signed long int)-1] == (signed long int)((struct anonymous_8 *)acc)->nargs ? (_Bool)1 : (_Bool)0;
 
                             else
-                              tmp_if_expr$228 = (_Bool)0;
-                            if(tmp_if_expr$228)
+                              tmp_if_expr_228 = (_Bool)0;
+                            if(tmp_if_expr_228)
                             {
                               if(csp + 4l >= sp)
                               {
-                                signed int return_value_neko_stack_expand$198;
-                                return_value_neko_stack_expand$198=neko_stack_expand(sp, csp, vm);
-                                if(!(return_value_neko_stack_expand$198 == 0))
+                                signed int return_value_neko_stack_expand_198;
+                                return_value_neko_stack_expand_198=neko_stack_expand(sp, csp, vm);
+                                if(!(return_value_neko_stack_expand_198 == 0))
                                 {
                                   sp = vm->sp;
                                   csp = vm->csp;
@@ -16892,8 +16892,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                 else
                                 {
-                                  return_value_neko_alloc_string$197=neko_alloc_string("Stack Overflow");
-                                  neko_val_throw(return_value_neko_alloc_string$197);
+                                  return_value_neko_alloc_string_197=neko_alloc_string("Stack Overflow");
+                                  neko_val_throw(return_value_neko_alloc_string_197);
                                 }
                               }
 
@@ -16905,23 +16905,23 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                               *csp = (signed long int)vm->vthis;
                               csp = csp + 1l;
                               *csp = (signed long int)m;
-                              m = (struct _neko_module *)((struct anonymous$8 *)acc)->module;
-                              pc = (signed long int *)((struct anonymous$8 *)acc)->addr;
+                              m = (struct _neko_module *)((struct anonymous_8 *)acc)->module;
+                              pc = (signed long int *)((struct anonymous_8 *)acc)->addr;
                               vm->vthis = vm->vthis;
-                              vm->env = ((struct anonymous$8 *)acc)->env;
+                              vm->env = ((struct anonymous_8 *)acc)->env;
                             }
 
                             else
-                              if((signed int)*((enum anonymous$7 *)acc) == VAL_PRIMITIVE)
+                              if((signed int)*((enum anonymous_7 *)acc) == VAL_PRIMITIVE)
                               {
-                                if(pc[-1l] == (signed long int)((struct anonymous$8 *)acc)->nargs)
+                                if(pc[-1l] == (signed long int)((struct anonymous_8 *)acc)->nargs)
                                 {
-                                  struct anonymous$8 *neko_interp_loop$$1$$1$$1$$33$$1$$f = (struct anonymous$8 *)acc;
+                                  struct anonymous_8 *neko_interp_loop__1__1__1__33__1__f = (struct anonymous_8 *)acc;
                                   if(csp + 4l >= sp)
                                   {
-                                    signed int return_value_neko_stack_expand$200;
-                                    return_value_neko_stack_expand$200=neko_stack_expand(sp, csp, vm);
-                                    if(!(return_value_neko_stack_expand$200 == 0))
+                                    signed int return_value_neko_stack_expand_200;
+                                    return_value_neko_stack_expand_200=neko_stack_expand(sp, csp, vm);
+                                    if(!(return_value_neko_stack_expand_200 == 0))
                                     {
                                       sp = vm->sp;
                                       csp = vm->csp;
@@ -16929,8 +16929,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                     else
                                     {
-                                      return_value_neko_alloc_string$199=neko_alloc_string("Stack Overflow");
-                                      neko_val_throw(return_value_neko_alloc_string$199);
+                                      return_value_neko_alloc_string_199=neko_alloc_string("Stack Overflow");
+                                      neko_val_throw(return_value_neko_alloc_string_199);
                                     }
                                   }
 
@@ -16943,57 +16943,57 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                   csp = csp + 1l;
                                   *csp = (signed long int)m;
                                   vm->vthis = vm->vthis;
-                                  vm->env = ((struct anonymous$8 *)acc)->env;
+                                  vm->env = ((struct anonymous_8 *)acc)->env;
                                   vm->sp = sp;
                                   vm->csp = csp;
                                   switch(pc[(signed long int)-1])
                                   {
                                     case (signed long int)0:
-                                      acc=((signed long int (*)())((struct anonymous$8 *)acc)->addr)();
+                                      acc=((signed long int (*)())((struct anonymous_8 *)acc)->addr)();
                                     case (signed long int)1:
-                                      acc=((signed long int (*)(signed long int))((struct anonymous$8 *)acc)->addr)(sp[(signed long int)0]);
+                                      acc=((signed long int (*)(signed long int))((struct anonymous_8 *)acc)->addr)(sp[(signed long int)0]);
                                     case (signed long int)2:
-                                      acc=((signed long int (*)(signed long int, signed long int))((struct anonymous$8 *)acc)->addr)(sp[(signed long int)1], sp[(signed long int)0]);
+                                      acc=((signed long int (*)(signed long int, signed long int))((struct anonymous_8 *)acc)->addr)(sp[(signed long int)1], sp[(signed long int)0]);
                                     case (signed long int)3:
-                                      acc=((signed long int (*)(signed long int, signed long int, signed long int))((struct anonymous$8 *)acc)->addr)(sp[(signed long int)2], sp[(signed long int)1], sp[(signed long int)0]);
+                                      acc=((signed long int (*)(signed long int, signed long int, signed long int))((struct anonymous_8 *)acc)->addr)(sp[(signed long int)2], sp[(signed long int)1], sp[(signed long int)0]);
                                     case (signed long int)4:
-                                      acc=((signed long int (*)(signed long int, signed long int, signed long int, signed long int))((struct anonymous$8 *)acc)->addr)(sp[(signed long int)3], sp[(signed long int)2], sp[(signed long int)1], sp[(signed long int)0]);
+                                      acc=((signed long int (*)(signed long int, signed long int, signed long int, signed long int))((struct anonymous_8 *)acc)->addr)(sp[(signed long int)3], sp[(signed long int)2], sp[(signed long int)1], sp[(signed long int)0]);
                                     case (signed long int)5:
-                                      acc=((signed long int (*)(signed long int, signed long int, signed long int, signed long int, signed long int))((struct anonymous$8 *)acc)->addr)(sp[(signed long int)4], sp[(signed long int)3], sp[(signed long int)2], sp[(signed long int)1], sp[(signed long int)0]);
+                                      acc=((signed long int (*)(signed long int, signed long int, signed long int, signed long int, signed long int))((struct anonymous_8 *)acc)->addr)(sp[(signed long int)4], sp[(signed long int)3], sp[(signed long int)2], sp[(signed long int)1], sp[(signed long int)0]);
                                   }
                                   if(acc == 0l)
-                                    neko_val_throw((struct _value *)neko_interp_loop$$1$$1$$1$$33$$1$$f->module);
+                                    neko_val_throw((struct _value *)neko_interp_loop__1__1__1__33__1__f->module);
 
                                   sp = vm->sp;
                                   csp = vm->csp;
                                   m = (struct _neko_module *)*csp;
-                                  tmp_post$201 = csp;
+                                  tmp_post_201 = csp;
                                   csp = csp - 1l;
-                                  *tmp_post$201 = (signed long int)0;
+                                  *tmp_post_201 = (signed long int)0;
                                   vm->vthis = (struct _value *)*csp;
-                                  tmp_post$202 = csp;
+                                  tmp_post_202 = csp;
                                   csp = csp - 1l;
-                                  *tmp_post$202 = (signed long int)0;
+                                  *tmp_post_202 = (signed long int)0;
                                   vm->env = (struct _value *)*csp;
-                                  tmp_post$203 = csp;
+                                  tmp_post_203 = csp;
                                   csp = csp - 1l;
-                                  *tmp_post$203 = (signed long int)0;
-                                  tmp_post$204 = csp;
+                                  *tmp_post_203 = (signed long int)0;
+                                  tmp_post_204 = csp;
                                   csp = csp - 1l;
-                                  *tmp_post$204 = (signed long int)0;
+                                  *tmp_post_204 = (signed long int)0;
                                 }
 
                                 else
-                                  if(((struct anonymous$8 *)acc)->nargs == -1)
+                                  if(((struct anonymous_8 *)acc)->nargs == -1)
                                   {
-                                    signed long int neko_interp_loop$$1$$1$$1$$33$$2$$args[5l];
-                                    signed long int neko_interp_loop$$1$$1$$1$$33$$2$$tmp;
-                                    struct anonymous$8 *neko_interp_loop$$1$$1$$1$$33$$2$$f = (struct anonymous$8 *)acc;
+                                    signed long int neko_interp_loop__1__1__1__33__2__args[5l];
+                                    signed long int neko_interp_loop__1__1__1__33__2__tmp;
+                                    struct anonymous_8 *neko_interp_loop__1__1__1__33__2__f = (struct anonymous_8 *)acc;
                                     if(csp + 4l >= sp)
                                     {
-                                      signed int return_value_neko_stack_expand$206;
-                                      return_value_neko_stack_expand$206=neko_stack_expand(sp, csp, vm);
-                                      if(!(return_value_neko_stack_expand$206 == 0))
+                                      signed int return_value_neko_stack_expand_206;
+                                      return_value_neko_stack_expand_206=neko_stack_expand(sp, csp, vm);
+                                      if(!(return_value_neko_stack_expand_206 == 0))
                                       {
                                         sp = vm->sp;
                                         csp = vm->csp;
@@ -17001,8 +17001,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                       else
                                       {
-                                        return_value_neko_alloc_string$205=neko_alloc_string("Stack Overflow");
-                                        neko_val_throw(return_value_neko_alloc_string$205);
+                                        return_value_neko_alloc_string_205=neko_alloc_string("Stack Overflow");
+                                        neko_val_throw(return_value_neko_alloc_string_205);
                                       }
                                     }
 
@@ -17015,46 +17015,46 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                     csp = csp + 1l;
                                     *csp = (signed long int)m;
                                     vm->vthis = vm->vthis;
-                                    vm->env = ((struct anonymous$8 *)acc)->env;
+                                    vm->env = ((struct anonymous_8 *)acc)->env;
                                     vm->sp = sp;
                                     vm->csp = csp;
                                     sp = sp + pc[(signed long int)-1];
-                                    neko_interp_loop$$1$$1$$1$$33$$2$$tmp = (signed long int)0;
-                                    for( ; !(neko_interp_loop$$1$$1$$1$$33$$2$$tmp >= pc[-1l]); neko_interp_loop$$1$$1$$1$$33$$2$$tmp = neko_interp_loop$$1$$1$$1$$33$$2$$tmp + 1l)
+                                    neko_interp_loop__1__1__1__33__2__tmp = (signed long int)0;
+                                    for( ; !(neko_interp_loop__1__1__1__33__2__tmp >= pc[-1l]); neko_interp_loop__1__1__1__33__2__tmp = neko_interp_loop__1__1__1__33__2__tmp + 1l)
                                     {
                                       sp = sp - 1l;
-                                      neko_interp_loop$$1$$1$$1$$33$$2$$args[neko_interp_loop$$1$$1$$1$$33$$2$$tmp] = *sp;
+                                      neko_interp_loop__1__1__1__33__2__args[neko_interp_loop__1__1__1__33__2__tmp] = *sp;
                                     }
-                                    acc=((signed long int (*)(struct _value **, signed int))((struct anonymous$8 *)acc)->addr)((struct _value **)(void *)neko_interp_loop$$1$$1$$1$$33$$2$$args, (signed int)pc[(signed long int)-1]);
+                                    acc=((signed long int (*)(struct _value **, signed int))((struct anonymous_8 *)acc)->addr)((struct _value **)(void *)neko_interp_loop__1__1__1__33__2__args, (signed int)pc[(signed long int)-1]);
                                     if(acc == 0l)
-                                      neko_val_throw((struct _value *)neko_interp_loop$$1$$1$$1$$33$$2$$f->module);
+                                      neko_val_throw((struct _value *)neko_interp_loop__1__1__1__33__2__f->module);
 
                                     sp = vm->sp;
                                     csp = vm->csp;
                                     m = (struct _neko_module *)*csp;
-                                    tmp_post$207 = csp;
+                                    tmp_post_207 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$207 = (signed long int)0;
+                                    *tmp_post_207 = (signed long int)0;
                                     vm->vthis = (struct _value *)*csp;
-                                    tmp_post$208 = csp;
+                                    tmp_post_208 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$208 = (signed long int)0;
+                                    *tmp_post_208 = (signed long int)0;
                                     vm->env = (struct _value *)*csp;
-                                    tmp_post$209 = csp;
+                                    tmp_post_209 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$209 = (signed long int)0;
-                                    tmp_post$210 = csp;
+                                    *tmp_post_209 = (signed long int)0;
+                                    tmp_post_210 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$210 = (signed long int)0;
+                                    *tmp_post_210 = (signed long int)0;
                                   }
 
                                   else
                                   {
                                     if(csp + 4l >= sp)
                                     {
-                                      signed int return_value_neko_stack_expand$212;
-                                      return_value_neko_stack_expand$212=neko_stack_expand(sp, csp, vm);
-                                      if(!(return_value_neko_stack_expand$212 == 0))
+                                      signed int return_value_neko_stack_expand_212;
+                                      return_value_neko_stack_expand_212=neko_stack_expand(sp, csp, vm);
+                                      if(!(return_value_neko_stack_expand_212 == 0))
                                       {
                                         sp = vm->sp;
                                         csp = vm->csp;
@@ -17062,8 +17062,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                       else
                                       {
-                                        return_value_neko_alloc_string$211=neko_alloc_string("Stack Overflow");
-                                        neko_val_throw(return_value_neko_alloc_string$211);
+                                        return_value_neko_alloc_string_211=neko_alloc_string("Stack Overflow");
+                                        neko_val_throw(return_value_neko_alloc_string_211);
                                       }
                                     }
 
@@ -17077,36 +17077,36 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                     *csp = (signed long int)m;
                                     vm->sp = sp;
                                     vm->csp = csp;
-                                    struct _value *return_value_neko_alloc_string$213;
-                                    return_value_neko_alloc_string$213=neko_alloc_string("Invalid call");
-                                    neko_val_throw(return_value_neko_alloc_string$213);
+                                    struct _value *return_value_neko_alloc_string_213;
+                                    return_value_neko_alloc_string_213=neko_alloc_string("Invalid call");
+                                    neko_val_throw(return_value_neko_alloc_string_213);
                                   }
-                                signed int neko_interp_loop$$1$$1$$1$$33$$4$$tmp = (signed int)pc[(signed long int)-1];
+                                signed int neko_interp_loop__1__1__1__33__4__tmp = (signed int)pc[(signed long int)-1];
                                 do
                                 {
-                                  tmp_post$214 = neko_interp_loop$$1$$1$$1$$33$$4$$tmp;
-                                  neko_interp_loop$$1$$1$$1$$33$$4$$tmp = neko_interp_loop$$1$$1$$1$$33$$4$$tmp - 1;
-                                  if(!(tmp_post$214 >= 1))
+                                  tmp_post_214 = neko_interp_loop__1__1__1__33__4__tmp;
+                                  neko_interp_loop__1__1__1__33__4__tmp = neko_interp_loop__1__1__1__33__4__tmp - 1;
+                                  if(!(tmp_post_214 >= 1))
                                     break;
 
-                                  tmp_post$215 = sp;
+                                  tmp_post_215 = sp;
                                   sp = sp + 1l;
-                                  *tmp_post$215 = (signed long int)0;
+                                  *tmp_post_215 = (signed long int)0;
                                 }
                                 while((_Bool)1);
                               }
 
                               else
-                                if((signed int)*((enum anonymous$7 *)acc) == VAL_JITFUN)
+                                if((signed int)*((enum anonymous_7 *)acc) == VAL_JITFUN)
                                 {
-                                  if(pc[-1l] == (signed long int)((struct anonymous$8 *)acc)->nargs)
+                                  if(pc[-1l] == (signed long int)((struct anonymous_8 *)acc)->nargs)
                                   {
-                                    struct anonymous$8 *neko_interp_loop$$1$$1$$1$$34$$1$$f = (struct anonymous$8 *)acc;
+                                    struct anonymous_8 *neko_interp_loop__1__1__1__34__1__f = (struct anonymous_8 *)acc;
                                     if(csp + 4l >= sp)
                                     {
-                                      signed int return_value_neko_stack_expand$217;
-                                      return_value_neko_stack_expand$217=neko_stack_expand(sp, csp, vm);
-                                      if(!(return_value_neko_stack_expand$217 == 0))
+                                      signed int return_value_neko_stack_expand_217;
+                                      return_value_neko_stack_expand_217=neko_stack_expand(sp, csp, vm);
+                                      if(!(return_value_neko_stack_expand_217 == 0))
                                       {
                                         sp = vm->sp;
                                         csp = vm->csp;
@@ -17114,8 +17114,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                       else
                                       {
-                                        return_value_neko_alloc_string$216=neko_alloc_string("Stack Overflow");
-                                        neko_val_throw(return_value_neko_alloc_string$216);
+                                        return_value_neko_alloc_string_216=neko_alloc_string("Stack Overflow");
+                                        neko_val_throw(return_value_neko_alloc_string_216);
                                       }
                                     }
 
@@ -17128,39 +17128,39 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                     csp = csp + 1l;
                                     *csp = (signed long int)m;
                                     vm->vthis = vm->vthis;
-                                    vm->env = ((struct anonymous$8 *)acc)->env;
+                                    vm->env = ((struct anonymous_8 *)acc)->env;
                                     vm->sp = sp;
                                     vm->csp = csp;
-                                    acc=jit_run(vm, (struct anonymous$8 *)acc);
+                                    acc=jit_run(vm, (struct anonymous_8 *)acc);
                                     if(acc == 0l)
-                                      neko_val_throw((struct _value *)neko_interp_loop$$1$$1$$1$$34$$1$$f->module);
+                                      neko_val_throw((struct _value *)neko_interp_loop__1__1__1__34__1__f->module);
 
                                     sp = vm->sp;
                                     csp = vm->csp;
                                     m = (struct _neko_module *)*csp;
-                                    tmp_post$218 = csp;
+                                    tmp_post_218 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$218 = (signed long int)0;
+                                    *tmp_post_218 = (signed long int)0;
                                     vm->vthis = (struct _value *)*csp;
-                                    tmp_post$219 = csp;
+                                    tmp_post_219 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$219 = (signed long int)0;
+                                    *tmp_post_219 = (signed long int)0;
                                     vm->env = (struct _value *)*csp;
-                                    tmp_post$220 = csp;
+                                    tmp_post_220 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$220 = (signed long int)0;
-                                    tmp_post$221 = csp;
+                                    *tmp_post_220 = (signed long int)0;
+                                    tmp_post_221 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$221 = (signed long int)0;
+                                    *tmp_post_221 = (signed long int)0;
                                   }
 
                                   else
                                   {
                                     if(csp + 4l >= sp)
                                     {
-                                      signed int return_value_neko_stack_expand$223;
-                                      return_value_neko_stack_expand$223=neko_stack_expand(sp, csp, vm);
-                                      if(!(return_value_neko_stack_expand$223 == 0))
+                                      signed int return_value_neko_stack_expand_223;
+                                      return_value_neko_stack_expand_223=neko_stack_expand(sp, csp, vm);
+                                      if(!(return_value_neko_stack_expand_223 == 0))
                                       {
                                         sp = vm->sp;
                                         csp = vm->csp;
@@ -17168,8 +17168,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                       else
                                       {
-                                        return_value_neko_alloc_string$222=neko_alloc_string("Stack Overflow");
-                                        neko_val_throw(return_value_neko_alloc_string$222);
+                                        return_value_neko_alloc_string_222=neko_alloc_string("Stack Overflow");
+                                        neko_val_throw(return_value_neko_alloc_string_222);
                                       }
                                     }
 
@@ -17183,9 +17183,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                     *csp = (signed long int)m;
                                     vm->sp = sp;
                                     vm->csp = csp;
-                                    struct _value *return_value_neko_alloc_string$224;
-                                    return_value_neko_alloc_string$224=neko_alloc_string("Invalid call");
-                                    neko_val_throw(return_value_neko_alloc_string$224);
+                                    struct _value *return_value_neko_alloc_string_224;
+                                    return_value_neko_alloc_string_224=neko_alloc_string("Invalid call");
+                                    neko_val_throw(return_value_neko_alloc_string_224);
                                   }
                                 }
 
@@ -17193,9 +17193,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                 {
                                   if(csp + 4l >= sp)
                                   {
-                                    signed int return_value_neko_stack_expand$226;
-                                    return_value_neko_stack_expand$226=neko_stack_expand(sp, csp, vm);
-                                    if(!(return_value_neko_stack_expand$226 == 0))
+                                    signed int return_value_neko_stack_expand_226;
+                                    return_value_neko_stack_expand_226=neko_stack_expand(sp, csp, vm);
+                                    if(!(return_value_neko_stack_expand_226 == 0))
                                     {
                                       sp = vm->sp;
                                       csp = vm->csp;
@@ -17203,8 +17203,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                     else
                                     {
-                                      return_value_neko_alloc_string$225=neko_alloc_string("Stack Overflow");
-                                      neko_val_throw(return_value_neko_alloc_string$225);
+                                      return_value_neko_alloc_string_225=neko_alloc_string("Stack Overflow");
+                                      neko_val_throw(return_value_neko_alloc_string_225);
                                     }
                                   }
 
@@ -17218,9 +17218,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                   *csp = (signed long int)m;
                                   vm->sp = sp;
                                   vm->csp = csp;
-                                  struct _value *return_value_neko_alloc_string$227;
-                                  return_value_neko_alloc_string$227=neko_alloc_string("Invalid call");
-                                  neko_val_throw(return_value_neko_alloc_string$227);
+                                  struct _value *return_value_neko_alloc_string_227;
+                                  return_value_neko_alloc_string_227=neko_alloc_string("Invalid call");
+                                  neko_val_throw(return_value_neko_alloc_string_227);
                                 }
                           }
                           *pc++;
@@ -17469,17 +17469,17 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                         LabelObjCall:
                           ;
                           struct _value *vtmp = (struct _value *)*sp;
-                          tmp_post$229 = sp;
+                          tmp_post_229 = sp;
                           sp = sp + 1l;
-                          *tmp_post$229 = (signed long int)0;
+                          *tmp_post_229 = (signed long int)0;
                           pc = pc + 1l;
                           if(!((1l & acc) == 0l))
                           {
                             if(csp + 4l >= sp)
                             {
-                              signed int return_value_neko_stack_expand$231;
-                              return_value_neko_stack_expand$231=neko_stack_expand(sp, csp, vm);
-                              if(!(return_value_neko_stack_expand$231 == 0))
+                              signed int return_value_neko_stack_expand_231;
+                              return_value_neko_stack_expand_231=neko_stack_expand(sp, csp, vm);
+                              if(!(return_value_neko_stack_expand_231 == 0))
                               {
                                 sp = vm->sp;
                                 csp = vm->csp;
@@ -17487,8 +17487,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                               else
                               {
-                                return_value_neko_alloc_string$230=neko_alloc_string("Stack Overflow");
-                                neko_val_throw(return_value_neko_alloc_string$230);
+                                return_value_neko_alloc_string_230=neko_alloc_string("Stack Overflow");
+                                neko_val_throw(return_value_neko_alloc_string_230);
                               }
                             }
 
@@ -17502,25 +17502,25 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                             *csp = (signed long int)m;
                             vm->sp = sp;
                             vm->csp = csp;
-                            struct _value *return_value_neko_alloc_string$232;
-                            return_value_neko_alloc_string$232=neko_alloc_string("Invalid call");
-                            neko_val_throw(return_value_neko_alloc_string$232);
+                            struct _value *return_value_neko_alloc_string_232;
+                            return_value_neko_alloc_string_232=neko_alloc_string("Invalid call");
+                            neko_val_throw(return_value_neko_alloc_string_232);
                           }
 
                           else
                           {
-                            if((signed int)*((enum anonymous$7 *)acc) == VAL_FUNCTION)
-                              tmp_if_expr$264 = pc[(signed long int)-1] == (signed long int)((struct anonymous$8 *)acc)->nargs ? (_Bool)1 : (_Bool)0;
+                            if((signed int)*((enum anonymous_7 *)acc) == VAL_FUNCTION)
+                              tmp_if_expr_264 = pc[(signed long int)-1] == (signed long int)((struct anonymous_8 *)acc)->nargs ? (_Bool)1 : (_Bool)0;
 
                             else
-                              tmp_if_expr$264 = (_Bool)0;
-                            if(tmp_if_expr$264)
+                              tmp_if_expr_264 = (_Bool)0;
+                            if(tmp_if_expr_264)
                             {
                               if(csp + 4l >= sp)
                               {
-                                signed int return_value_neko_stack_expand$234;
-                                return_value_neko_stack_expand$234=neko_stack_expand(sp, csp, vm);
-                                if(!(return_value_neko_stack_expand$234 == 0))
+                                signed int return_value_neko_stack_expand_234;
+                                return_value_neko_stack_expand_234=neko_stack_expand(sp, csp, vm);
+                                if(!(return_value_neko_stack_expand_234 == 0))
                                 {
                                   sp = vm->sp;
                                   csp = vm->csp;
@@ -17528,8 +17528,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                 else
                                 {
-                                  return_value_neko_alloc_string$233=neko_alloc_string("Stack Overflow");
-                                  neko_val_throw(return_value_neko_alloc_string$233);
+                                  return_value_neko_alloc_string_233=neko_alloc_string("Stack Overflow");
+                                  neko_val_throw(return_value_neko_alloc_string_233);
                                 }
                               }
 
@@ -17541,23 +17541,23 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                               *csp = (signed long int)vm->vthis;
                               csp = csp + 1l;
                               *csp = (signed long int)m;
-                              m = (struct _neko_module *)((struct anonymous$8 *)acc)->module;
-                              pc = (signed long int *)((struct anonymous$8 *)acc)->addr;
+                              m = (struct _neko_module *)((struct anonymous_8 *)acc)->module;
+                              pc = (signed long int *)((struct anonymous_8 *)acc)->addr;
                               vm->vthis = vtmp;
-                              vm->env = ((struct anonymous$8 *)acc)->env;
+                              vm->env = ((struct anonymous_8 *)acc)->env;
                             }
 
                             else
-                              if((signed int)*((enum anonymous$7 *)acc) == VAL_PRIMITIVE)
+                              if((signed int)*((enum anonymous_7 *)acc) == VAL_PRIMITIVE)
                               {
-                                if(pc[-1l] == (signed long int)((struct anonymous$8 *)acc)->nargs)
+                                if(pc[-1l] == (signed long int)((struct anonymous_8 *)acc)->nargs)
                                 {
-                                  struct anonymous$8 *neko_interp_loop$$1$$1$$1$$36$$3$$1$$f = (struct anonymous$8 *)acc;
+                                  struct anonymous_8 *neko_interp_loop__1__1__1__36__3__1__f = (struct anonymous_8 *)acc;
                                   if(csp + 4l >= sp)
                                   {
-                                    signed int return_value_neko_stack_expand$236;
-                                    return_value_neko_stack_expand$236=neko_stack_expand(sp, csp, vm);
-                                    if(!(return_value_neko_stack_expand$236 == 0))
+                                    signed int return_value_neko_stack_expand_236;
+                                    return_value_neko_stack_expand_236=neko_stack_expand(sp, csp, vm);
+                                    if(!(return_value_neko_stack_expand_236 == 0))
                                     {
                                       sp = vm->sp;
                                       csp = vm->csp;
@@ -17565,8 +17565,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                     else
                                     {
-                                      return_value_neko_alloc_string$235=neko_alloc_string("Stack Overflow");
-                                      neko_val_throw(return_value_neko_alloc_string$235);
+                                      return_value_neko_alloc_string_235=neko_alloc_string("Stack Overflow");
+                                      neko_val_throw(return_value_neko_alloc_string_235);
                                     }
                                   }
 
@@ -17579,57 +17579,57 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                   csp = csp + 1l;
                                   *csp = (signed long int)m;
                                   vm->vthis = vtmp;
-                                  vm->env = ((struct anonymous$8 *)acc)->env;
+                                  vm->env = ((struct anonymous_8 *)acc)->env;
                                   vm->sp = sp;
                                   vm->csp = csp;
                                   switch(pc[(signed long int)-1])
                                   {
                                     case (signed long int)0:
-                                      acc=((signed long int (*)())((struct anonymous$8 *)acc)->addr)();
+                                      acc=((signed long int (*)())((struct anonymous_8 *)acc)->addr)();
                                     case (signed long int)1:
-                                      acc=((signed long int (*)(signed long int))((struct anonymous$8 *)acc)->addr)(sp[(signed long int)0]);
+                                      acc=((signed long int (*)(signed long int))((struct anonymous_8 *)acc)->addr)(sp[(signed long int)0]);
                                     case (signed long int)2:
-                                      acc=((signed long int (*)(signed long int, signed long int))((struct anonymous$8 *)acc)->addr)(sp[(signed long int)1], sp[(signed long int)0]);
+                                      acc=((signed long int (*)(signed long int, signed long int))((struct anonymous_8 *)acc)->addr)(sp[(signed long int)1], sp[(signed long int)0]);
                                     case (signed long int)3:
-                                      acc=((signed long int (*)(signed long int, signed long int, signed long int))((struct anonymous$8 *)acc)->addr)(sp[(signed long int)2], sp[(signed long int)1], sp[(signed long int)0]);
+                                      acc=((signed long int (*)(signed long int, signed long int, signed long int))((struct anonymous_8 *)acc)->addr)(sp[(signed long int)2], sp[(signed long int)1], sp[(signed long int)0]);
                                     case (signed long int)4:
-                                      acc=((signed long int (*)(signed long int, signed long int, signed long int, signed long int))((struct anonymous$8 *)acc)->addr)(sp[(signed long int)3], sp[(signed long int)2], sp[(signed long int)1], sp[(signed long int)0]);
+                                      acc=((signed long int (*)(signed long int, signed long int, signed long int, signed long int))((struct anonymous_8 *)acc)->addr)(sp[(signed long int)3], sp[(signed long int)2], sp[(signed long int)1], sp[(signed long int)0]);
                                     case (signed long int)5:
-                                      acc=((signed long int (*)(signed long int, signed long int, signed long int, signed long int, signed long int))((struct anonymous$8 *)acc)->addr)(sp[(signed long int)4], sp[(signed long int)3], sp[(signed long int)2], sp[(signed long int)1], sp[(signed long int)0]);
+                                      acc=((signed long int (*)(signed long int, signed long int, signed long int, signed long int, signed long int))((struct anonymous_8 *)acc)->addr)(sp[(signed long int)4], sp[(signed long int)3], sp[(signed long int)2], sp[(signed long int)1], sp[(signed long int)0]);
                                   }
                                   if(acc == 0l)
-                                    neko_val_throw((struct _value *)neko_interp_loop$$1$$1$$1$$36$$3$$1$$f->module);
+                                    neko_val_throw((struct _value *)neko_interp_loop__1__1__1__36__3__1__f->module);
 
                                   sp = vm->sp;
                                   csp = vm->csp;
                                   m = (struct _neko_module *)*csp;
-                                  tmp_post$237 = csp;
+                                  tmp_post_237 = csp;
                                   csp = csp - 1l;
-                                  *tmp_post$237 = (signed long int)0;
+                                  *tmp_post_237 = (signed long int)0;
                                   vm->vthis = (struct _value *)*csp;
-                                  tmp_post$238 = csp;
+                                  tmp_post_238 = csp;
                                   csp = csp - 1l;
-                                  *tmp_post$238 = (signed long int)0;
+                                  *tmp_post_238 = (signed long int)0;
                                   vm->env = (struct _value *)*csp;
-                                  tmp_post$239 = csp;
+                                  tmp_post_239 = csp;
                                   csp = csp - 1l;
-                                  *tmp_post$239 = (signed long int)0;
-                                  tmp_post$240 = csp;
+                                  *tmp_post_239 = (signed long int)0;
+                                  tmp_post_240 = csp;
                                   csp = csp - 1l;
-                                  *tmp_post$240 = (signed long int)0;
+                                  *tmp_post_240 = (signed long int)0;
                                 }
 
                                 else
-                                  if(((struct anonymous$8 *)acc)->nargs == -1)
+                                  if(((struct anonymous_8 *)acc)->nargs == -1)
                                   {
-                                    signed long int neko_interp_loop$$1$$1$$1$$36$$3$$2$$args[5l];
-                                    signed long int neko_interp_loop$$1$$1$$1$$36$$3$$2$$tmp;
-                                    struct anonymous$8 *neko_interp_loop$$1$$1$$1$$36$$3$$2$$f = (struct anonymous$8 *)acc;
+                                    signed long int neko_interp_loop__1__1__1__36__3__2__args[5l];
+                                    signed long int neko_interp_loop__1__1__1__36__3__2__tmp;
+                                    struct anonymous_8 *neko_interp_loop__1__1__1__36__3__2__f = (struct anonymous_8 *)acc;
                                     if(csp + 4l >= sp)
                                     {
-                                      signed int return_value_neko_stack_expand$242;
-                                      return_value_neko_stack_expand$242=neko_stack_expand(sp, csp, vm);
-                                      if(!(return_value_neko_stack_expand$242 == 0))
+                                      signed int return_value_neko_stack_expand_242;
+                                      return_value_neko_stack_expand_242=neko_stack_expand(sp, csp, vm);
+                                      if(!(return_value_neko_stack_expand_242 == 0))
                                       {
                                         sp = vm->sp;
                                         csp = vm->csp;
@@ -17637,8 +17637,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                       else
                                       {
-                                        return_value_neko_alloc_string$241=neko_alloc_string("Stack Overflow");
-                                        neko_val_throw(return_value_neko_alloc_string$241);
+                                        return_value_neko_alloc_string_241=neko_alloc_string("Stack Overflow");
+                                        neko_val_throw(return_value_neko_alloc_string_241);
                                       }
                                     }
 
@@ -17651,46 +17651,46 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                     csp = csp + 1l;
                                     *csp = (signed long int)m;
                                     vm->vthis = vtmp;
-                                    vm->env = ((struct anonymous$8 *)acc)->env;
+                                    vm->env = ((struct anonymous_8 *)acc)->env;
                                     vm->sp = sp;
                                     vm->csp = csp;
                                     sp = sp + pc[(signed long int)-1];
-                                    neko_interp_loop$$1$$1$$1$$36$$3$$2$$tmp = (signed long int)0;
-                                    for( ; !(neko_interp_loop$$1$$1$$1$$36$$3$$2$$tmp >= pc[-1l]); neko_interp_loop$$1$$1$$1$$36$$3$$2$$tmp = neko_interp_loop$$1$$1$$1$$36$$3$$2$$tmp + 1l)
+                                    neko_interp_loop__1__1__1__36__3__2__tmp = (signed long int)0;
+                                    for( ; !(neko_interp_loop__1__1__1__36__3__2__tmp >= pc[-1l]); neko_interp_loop__1__1__1__36__3__2__tmp = neko_interp_loop__1__1__1__36__3__2__tmp + 1l)
                                     {
                                       sp = sp - 1l;
-                                      neko_interp_loop$$1$$1$$1$$36$$3$$2$$args[neko_interp_loop$$1$$1$$1$$36$$3$$2$$tmp] = *sp;
+                                      neko_interp_loop__1__1__1__36__3__2__args[neko_interp_loop__1__1__1__36__3__2__tmp] = *sp;
                                     }
-                                    acc=((signed long int (*)(struct _value **, signed int))((struct anonymous$8 *)acc)->addr)((struct _value **)(void *)neko_interp_loop$$1$$1$$1$$36$$3$$2$$args, (signed int)pc[(signed long int)-1]);
+                                    acc=((signed long int (*)(struct _value **, signed int))((struct anonymous_8 *)acc)->addr)((struct _value **)(void *)neko_interp_loop__1__1__1__36__3__2__args, (signed int)pc[(signed long int)-1]);
                                     if(acc == 0l)
-                                      neko_val_throw((struct _value *)neko_interp_loop$$1$$1$$1$$36$$3$$2$$f->module);
+                                      neko_val_throw((struct _value *)neko_interp_loop__1__1__1__36__3__2__f->module);
 
                                     sp = vm->sp;
                                     csp = vm->csp;
                                     m = (struct _neko_module *)*csp;
-                                    tmp_post$243 = csp;
+                                    tmp_post_243 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$243 = (signed long int)0;
+                                    *tmp_post_243 = (signed long int)0;
                                     vm->vthis = (struct _value *)*csp;
-                                    tmp_post$244 = csp;
+                                    tmp_post_244 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$244 = (signed long int)0;
+                                    *tmp_post_244 = (signed long int)0;
                                     vm->env = (struct _value *)*csp;
-                                    tmp_post$245 = csp;
+                                    tmp_post_245 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$245 = (signed long int)0;
-                                    tmp_post$246 = csp;
+                                    *tmp_post_245 = (signed long int)0;
+                                    tmp_post_246 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$246 = (signed long int)0;
+                                    *tmp_post_246 = (signed long int)0;
                                   }
 
                                   else
                                   {
                                     if(csp + 4l >= sp)
                                     {
-                                      signed int return_value_neko_stack_expand$248;
-                                      return_value_neko_stack_expand$248=neko_stack_expand(sp, csp, vm);
-                                      if(!(return_value_neko_stack_expand$248 == 0))
+                                      signed int return_value_neko_stack_expand_248;
+                                      return_value_neko_stack_expand_248=neko_stack_expand(sp, csp, vm);
+                                      if(!(return_value_neko_stack_expand_248 == 0))
                                       {
                                         sp = vm->sp;
                                         csp = vm->csp;
@@ -17698,8 +17698,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                       else
                                       {
-                                        return_value_neko_alloc_string$247=neko_alloc_string("Stack Overflow");
-                                        neko_val_throw(return_value_neko_alloc_string$247);
+                                        return_value_neko_alloc_string_247=neko_alloc_string("Stack Overflow");
+                                        neko_val_throw(return_value_neko_alloc_string_247);
                                       }
                                     }
 
@@ -17713,36 +17713,36 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                     *csp = (signed long int)m;
                                     vm->sp = sp;
                                     vm->csp = csp;
-                                    struct _value *return_value_neko_alloc_string$249;
-                                    return_value_neko_alloc_string$249=neko_alloc_string("Invalid call");
-                                    neko_val_throw(return_value_neko_alloc_string$249);
+                                    struct _value *return_value_neko_alloc_string_249;
+                                    return_value_neko_alloc_string_249=neko_alloc_string("Invalid call");
+                                    neko_val_throw(return_value_neko_alloc_string_249);
                                   }
-                                signed int neko_interp_loop$$1$$1$$1$$36$$3$$4$$tmp = (signed int)pc[(signed long int)-1];
+                                signed int neko_interp_loop__1__1__1__36__3__4__tmp = (signed int)pc[(signed long int)-1];
                                 do
                                 {
-                                  tmp_post$250 = neko_interp_loop$$1$$1$$1$$36$$3$$4$$tmp;
-                                  neko_interp_loop$$1$$1$$1$$36$$3$$4$$tmp = neko_interp_loop$$1$$1$$1$$36$$3$$4$$tmp - 1;
-                                  if(!(tmp_post$250 >= 1))
+                                  tmp_post_250 = neko_interp_loop__1__1__1__36__3__4__tmp;
+                                  neko_interp_loop__1__1__1__36__3__4__tmp = neko_interp_loop__1__1__1__36__3__4__tmp - 1;
+                                  if(!(tmp_post_250 >= 1))
                                     break;
 
-                                  tmp_post$251 = sp;
+                                  tmp_post_251 = sp;
                                   sp = sp + 1l;
-                                  *tmp_post$251 = (signed long int)0;
+                                  *tmp_post_251 = (signed long int)0;
                                 }
                                 while((_Bool)1);
                               }
 
                               else
-                                if((signed int)*((enum anonymous$7 *)acc) == VAL_JITFUN)
+                                if((signed int)*((enum anonymous_7 *)acc) == VAL_JITFUN)
                                 {
-                                  if(pc[-1l] == (signed long int)((struct anonymous$8 *)acc)->nargs)
+                                  if(pc[-1l] == (signed long int)((struct anonymous_8 *)acc)->nargs)
                                   {
-                                    struct anonymous$8 *neko_interp_loop$$1$$1$$1$$36$$4$$1$$f = (struct anonymous$8 *)acc;
+                                    struct anonymous_8 *neko_interp_loop__1__1__1__36__4__1__f = (struct anonymous_8 *)acc;
                                     if(csp + 4l >= sp)
                                     {
-                                      signed int return_value_neko_stack_expand$253;
-                                      return_value_neko_stack_expand$253=neko_stack_expand(sp, csp, vm);
-                                      if(!(return_value_neko_stack_expand$253 == 0))
+                                      signed int return_value_neko_stack_expand_253;
+                                      return_value_neko_stack_expand_253=neko_stack_expand(sp, csp, vm);
+                                      if(!(return_value_neko_stack_expand_253 == 0))
                                       {
                                         sp = vm->sp;
                                         csp = vm->csp;
@@ -17750,8 +17750,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                       else
                                       {
-                                        return_value_neko_alloc_string$252=neko_alloc_string("Stack Overflow");
-                                        neko_val_throw(return_value_neko_alloc_string$252);
+                                        return_value_neko_alloc_string_252=neko_alloc_string("Stack Overflow");
+                                        neko_val_throw(return_value_neko_alloc_string_252);
                                       }
                                     }
 
@@ -17764,39 +17764,39 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                     csp = csp + 1l;
                                     *csp = (signed long int)m;
                                     vm->vthis = vtmp;
-                                    vm->env = ((struct anonymous$8 *)acc)->env;
+                                    vm->env = ((struct anonymous_8 *)acc)->env;
                                     vm->sp = sp;
                                     vm->csp = csp;
-                                    acc=jit_run(vm, (struct anonymous$8 *)acc);
+                                    acc=jit_run(vm, (struct anonymous_8 *)acc);
                                     if(acc == 0l)
-                                      neko_val_throw((struct _value *)neko_interp_loop$$1$$1$$1$$36$$4$$1$$f->module);
+                                      neko_val_throw((struct _value *)neko_interp_loop__1__1__1__36__4__1__f->module);
 
                                     sp = vm->sp;
                                     csp = vm->csp;
                                     m = (struct _neko_module *)*csp;
-                                    tmp_post$254 = csp;
+                                    tmp_post_254 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$254 = (signed long int)0;
+                                    *tmp_post_254 = (signed long int)0;
                                     vm->vthis = (struct _value *)*csp;
-                                    tmp_post$255 = csp;
+                                    tmp_post_255 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$255 = (signed long int)0;
+                                    *tmp_post_255 = (signed long int)0;
                                     vm->env = (struct _value *)*csp;
-                                    tmp_post$256 = csp;
+                                    tmp_post_256 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$256 = (signed long int)0;
-                                    tmp_post$257 = csp;
+                                    *tmp_post_256 = (signed long int)0;
+                                    tmp_post_257 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$257 = (signed long int)0;
+                                    *tmp_post_257 = (signed long int)0;
                                   }
 
                                   else
                                   {
                                     if(csp + 4l >= sp)
                                     {
-                                      signed int return_value_neko_stack_expand$259;
-                                      return_value_neko_stack_expand$259=neko_stack_expand(sp, csp, vm);
-                                      if(!(return_value_neko_stack_expand$259 == 0))
+                                      signed int return_value_neko_stack_expand_259;
+                                      return_value_neko_stack_expand_259=neko_stack_expand(sp, csp, vm);
+                                      if(!(return_value_neko_stack_expand_259 == 0))
                                       {
                                         sp = vm->sp;
                                         csp = vm->csp;
@@ -17804,8 +17804,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                       else
                                       {
-                                        return_value_neko_alloc_string$258=neko_alloc_string("Stack Overflow");
-                                        neko_val_throw(return_value_neko_alloc_string$258);
+                                        return_value_neko_alloc_string_258=neko_alloc_string("Stack Overflow");
+                                        neko_val_throw(return_value_neko_alloc_string_258);
                                       }
                                     }
 
@@ -17819,9 +17819,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                     *csp = (signed long int)m;
                                     vm->sp = sp;
                                     vm->csp = csp;
-                                    struct _value *return_value_neko_alloc_string$260;
-                                    return_value_neko_alloc_string$260=neko_alloc_string("Invalid call");
-                                    neko_val_throw(return_value_neko_alloc_string$260);
+                                    struct _value *return_value_neko_alloc_string_260;
+                                    return_value_neko_alloc_string_260=neko_alloc_string("Invalid call");
+                                    neko_val_throw(return_value_neko_alloc_string_260);
                                   }
                                 }
 
@@ -17829,9 +17829,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                 {
                                   if(csp + 4l >= sp)
                                   {
-                                    signed int return_value_neko_stack_expand$262;
-                                    return_value_neko_stack_expand$262=neko_stack_expand(sp, csp, vm);
-                                    if(!(return_value_neko_stack_expand$262 == 0))
+                                    signed int return_value_neko_stack_expand_262;
+                                    return_value_neko_stack_expand_262=neko_stack_expand(sp, csp, vm);
+                                    if(!(return_value_neko_stack_expand_262 == 0))
                                     {
                                       sp = vm->sp;
                                       csp = vm->csp;
@@ -17839,8 +17839,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                     else
                                     {
-                                      return_value_neko_alloc_string$261=neko_alloc_string("Stack Overflow");
-                                      neko_val_throw(return_value_neko_alloc_string$261);
+                                      return_value_neko_alloc_string_261=neko_alloc_string("Stack Overflow");
+                                      neko_val_throw(return_value_neko_alloc_string_261);
                                     }
                                   }
 
@@ -17854,9 +17854,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                   *csp = (signed long int)m;
                                   vm->sp = sp;
                                   vm->csp = csp;
-                                  struct _value *return_value_neko_alloc_string$263;
-                                  return_value_neko_alloc_string$263=neko_alloc_string("Invalid call");
-                                  neko_val_throw(return_value_neko_alloc_string$263);
+                                  struct _value *return_value_neko_alloc_string_263;
+                                  return_value_neko_alloc_string_263=neko_alloc_string("Invalid call");
+                                  neko_val_throw(return_value_neko_alloc_string_263);
                                 }
                           }
                           *pc++;
@@ -18857,9 +18857,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                           sp = sp - (signed long int)6;
                           if(csp >= sp)
                           {
-                            signed int return_value_neko_stack_expand$266;
-                            return_value_neko_stack_expand$266=neko_stack_expand(sp, csp, vm);
-                            if(!(return_value_neko_stack_expand$266 == 0))
+                            signed int return_value_neko_stack_expand_266;
+                            return_value_neko_stack_expand_266=neko_stack_expand(sp, csp, vm);
+                            if(!(return_value_neko_stack_expand_266 == 0))
                             {
                               sp = vm->sp;
                               csp = vm->csp;
@@ -18867,8 +18867,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                             else
                             {
-                              return_value_neko_alloc_string$265=neko_alloc_string("Stack Overflow");
-                              neko_val_throw(return_value_neko_alloc_string$265);
+                              return_value_neko_alloc_string_265=neko_alloc_string("Stack Overflow");
+                              neko_val_throw(return_value_neko_alloc_string_265);
                             }
                           }
 
@@ -19129,9 +19129,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                           {
                             if(csp + 4l >= sp)
                             {
-                              signed int return_value_neko_stack_expand$268;
-                              return_value_neko_stack_expand$268=neko_stack_expand(sp, csp, vm);
-                              if(!(return_value_neko_stack_expand$268 == 0))
+                              signed int return_value_neko_stack_expand_268;
+                              return_value_neko_stack_expand_268=neko_stack_expand(sp, csp, vm);
+                              if(!(return_value_neko_stack_expand_268 == 0))
                               {
                                 sp = vm->sp;
                                 csp = vm->csp;
@@ -19139,8 +19139,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                               else
                               {
-                                return_value_neko_alloc_string$267=neko_alloc_string("Stack Overflow");
-                                neko_val_throw(return_value_neko_alloc_string$267);
+                                return_value_neko_alloc_string_267=neko_alloc_string("Stack Overflow");
+                                neko_val_throw(return_value_neko_alloc_string_267);
                               }
                             }
 
@@ -19154,23 +19154,23 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                             *csp = (signed long int)m;
                             vm->sp = sp;
                             vm->csp = csp;
-                            struct _value *return_value_neko_alloc_string$269;
-                            return_value_neko_alloc_string$269=neko_alloc_string("Invalid End Trap");
-                            neko_val_throw(return_value_neko_alloc_string$269);
+                            struct _value *return_value_neko_alloc_string_269;
+                            return_value_neko_alloc_string_269=neko_alloc_string("Invalid End Trap");
+                            neko_val_throw(return_value_neko_alloc_string_269);
                           }
 
                           vm->trap = (signed long int)((signed int)(signed long int)sp[(signed long int)5] >> 1);
-                          signed int neko_interp_loop$$1$$1$$1$$39$$tmp = (signed int)6;
+                          signed int neko_interp_loop__1__1__1__39__tmp = (signed int)6;
                           do
                           {
-                            tmp_post$270 = neko_interp_loop$$1$$1$$1$$39$$tmp;
-                            neko_interp_loop$$1$$1$$1$$39$$tmp = neko_interp_loop$$1$$1$$1$$39$$tmp - 1;
-                            if(!(tmp_post$270 >= 1))
+                            tmp_post_270 = neko_interp_loop__1__1__1__39__tmp;
+                            neko_interp_loop__1__1__1__39__tmp = neko_interp_loop__1__1__1__39__tmp - 1;
+                            if(!(tmp_post_270 >= 1))
                               break;
 
-                            tmp_post$271 = sp;
+                            tmp_post_271 = sp;
                             sp = sp + 1l;
-                            *tmp_post$271 = (signed long int)0;
+                            *tmp_post_271 = (signed long int)0;
                           }
                           while((_Bool)1);
                           *pc++;
@@ -19420,38 +19420,38 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                         LabelRet:
                           ;
-                          signed int neko_interp_loop$$1$$1$$1$$40$$tmp;
-                          tmp_post$272 = pc;
+                          signed int neko_interp_loop__1__1__1__40__tmp;
+                          tmp_post_272 = pc;
                           pc = pc + 1l;
-                          neko_interp_loop$$1$$1$$1$$40$$tmp = (signed int)*tmp_post$272;
+                          neko_interp_loop__1__1__1__40__tmp = (signed int)*tmp_post_272;
                           do
                           {
-                            tmp_post$273 = neko_interp_loop$$1$$1$$1$$40$$tmp;
-                            neko_interp_loop$$1$$1$$1$$40$$tmp = neko_interp_loop$$1$$1$$1$$40$$tmp - 1;
-                            if(!(tmp_post$273 >= 1))
+                            tmp_post_273 = neko_interp_loop__1__1__1__40__tmp;
+                            neko_interp_loop__1__1__1__40__tmp = neko_interp_loop__1__1__1__40__tmp - 1;
+                            if(!(tmp_post_273 >= 1))
                               break;
 
-                            tmp_post$274 = sp;
+                            tmp_post_274 = sp;
                             sp = sp + 1l;
-                            *tmp_post$274 = (signed long int)0;
+                            *tmp_post_274 = (signed long int)0;
                           }
                           while((_Bool)1);
                           m = (struct _neko_module *)*csp;
-                          tmp_post$275 = csp;
+                          tmp_post_275 = csp;
                           csp = csp - 1l;
-                          *tmp_post$275 = (signed long int)0;
+                          *tmp_post_275 = (signed long int)0;
                           vm->vthis = (struct _value *)*csp;
-                          tmp_post$276 = csp;
+                          tmp_post_276 = csp;
                           csp = csp - 1l;
-                          *tmp_post$276 = (signed long int)0;
+                          *tmp_post_276 = (signed long int)0;
                           vm->env = (struct _value *)*csp;
-                          tmp_post$277 = csp;
+                          tmp_post_277 = csp;
                           csp = csp - 1l;
-                          *tmp_post$277 = (signed long int)0;
+                          *tmp_post_277 = (signed long int)0;
                           pc = (signed long int *)*csp;
-                          tmp_post$278 = csp;
+                          tmp_post_278 = csp;
                           csp = csp - 1l;
-                          *tmp_post$278 = (signed long int)0;
+                          *tmp_post_278 = (signed long int)0;
                           *pc++;
                           if(*pc++ == &&id_mod_next2)
                             goto id_mod_next2;
@@ -19698,38 +19698,38 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                         LabelMakeEnv:
                           ;
                           signed int n;
-                          tmp_post$279 = pc;
+                          tmp_post_279 = pc;
                           pc = pc + 1l;
-                          n = (signed int)*tmp_post$279;
-                          signed long int neko_interp_loop$$1$$1$$1$$41$$tmp;
-                          struct _value *return_value_neko_alloc_array$280;
-                          return_value_neko_alloc_array$280=neko_alloc_array((unsigned int)n);
-                          neko_interp_loop$$1$$1$$1$$41$$tmp = (signed long int)return_value_neko_alloc_array$280;
+                          n = (signed int)*tmp_post_279;
+                          signed long int neko_interp_loop__1__1__1__41__tmp;
+                          struct _value *return_value_neko_alloc_array_280;
+                          return_value_neko_alloc_array_280=neko_alloc_array((unsigned int)n);
+                          neko_interp_loop__1__1__1__41__tmp = (signed long int)return_value_neko_alloc_array_280;
                           do
                           {
-                            tmp_post$281 = n;
+                            tmp_post_281 = n;
                             n = n - 1;
-                            if(tmp_post$281 == 0)
+                            if(tmp_post_281 == 0)
                               break;
 
-                            (&((struct anonymous$4 *)neko_interp_loop$$1$$1$$1$$41$$tmp)->ptr)[(signed long int)n] = (struct _value *)*sp;
-                            tmp_post$282 = sp;
+                            (&((struct anonymous_4 *)neko_interp_loop__1__1__1__41__tmp)->ptr)[(signed long int)n] = (struct _value *)*sp;
+                            tmp_post_282 = sp;
                             sp = sp + 1l;
-                            *tmp_post$282 = (signed long int)0;
+                            *tmp_post_282 = (signed long int)0;
                           }
                           while((_Bool)1);
                           if(!((1 & (signed int)acc) == 0))
-                            tmp_if_expr$286 = (_Bool)1;
+                            tmp_if_expr_286 = (_Bool)1;
 
                           else
-                            tmp_if_expr$286 = (signed int)*((enum anonymous$7 *)acc) != VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
-                          if(tmp_if_expr$286)
+                            tmp_if_expr_286 = (signed int)*((enum anonymous_7 *)acc) != VAL_FUNCTION ? (_Bool)1 : (_Bool)0;
+                          if(tmp_if_expr_286)
                           {
                             if(csp + 4l >= sp)
                             {
-                              signed int return_value_neko_stack_expand$284;
-                              return_value_neko_stack_expand$284=neko_stack_expand(sp, csp, vm);
-                              if(!(return_value_neko_stack_expand$284 == 0))
+                              signed int return_value_neko_stack_expand_284;
+                              return_value_neko_stack_expand_284=neko_stack_expand(sp, csp, vm);
+                              if(!(return_value_neko_stack_expand_284 == 0))
                               {
                                 sp = vm->sp;
                                 csp = vm->csp;
@@ -19737,8 +19737,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                               else
                               {
-                                return_value_neko_alloc_string$283=neko_alloc_string("Stack Overflow");
-                                neko_val_throw(return_value_neko_alloc_string$283);
+                                return_value_neko_alloc_string_283=neko_alloc_string("Stack Overflow");
+                                neko_val_throw(return_value_neko_alloc_string_283);
                               }
                             }
 
@@ -19752,15 +19752,15 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                             *csp = (signed long int)m;
                             vm->sp = sp;
                             vm->csp = csp;
-                            struct _value *return_value_neko_alloc_string$285;
-                            return_value_neko_alloc_string$285=neko_alloc_string("Invalid environment");
-                            neko_val_throw(return_value_neko_alloc_string$285);
+                            struct _value *return_value_neko_alloc_string_285;
+                            return_value_neko_alloc_string_285=neko_alloc_string("Invalid environment");
+                            neko_val_throw(return_value_neko_alloc_string_285);
                           }
 
-                          struct _value *return_value_neko_alloc_module_function$287;
-                          return_value_neko_alloc_module_function$287=neko_alloc_module_function(((struct anonymous$8 *)acc)->module, (signed long int)((struct anonymous$8 *)acc)->addr, ((struct anonymous$8 *)acc)->nargs);
-                          acc = (signed long int)return_value_neko_alloc_module_function$287;
-                          ((struct anonymous$8 *)acc)->env = (struct _value *)neko_interp_loop$$1$$1$$1$$41$$tmp;
+                          struct _value *return_value_neko_alloc_module_function_287;
+                          return_value_neko_alloc_module_function_287=neko_alloc_module_function(((struct anonymous_8 *)acc)->module, (signed long int)((struct anonymous_8 *)acc)->addr, ((struct anonymous_8 *)acc)->nargs);
+                          acc = (signed long int)return_value_neko_alloc_module_function_287;
+                          ((struct anonymous_8 *)acc)->env = (struct _value *)neko_interp_loop__1__1__1__41__tmp;
                           *pc++;
                           if(*pc++ == &&id_mod_next2)
                             goto id_mod_next2;
@@ -20006,20 +20006,20 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                         LabelMakeArray:
                           ;
-                          signed int neko_interp_loop$$1$$1$$1$$42$$n;
-                          tmp_post$288 = pc;
+                          signed int neko_interp_loop__1__1__1__42__n;
+                          tmp_post_288 = pc;
                           pc = pc + 1l;
-                          neko_interp_loop$$1$$1$$1$$42$$n = (signed int)*tmp_post$288;
+                          neko_interp_loop__1__1__1__42__n = (signed int)*tmp_post_288;
                           struct _value *arr;
-                          arr=neko_alloc_array((unsigned int)(neko_interp_loop$$1$$1$$1$$42$$n + 1));
-                          for( ; !(neko_interp_loop$$1$$1$$1$$42$$n == 0); neko_interp_loop$$1$$1$$1$$42$$n = neko_interp_loop$$1$$1$$1$$42$$n - 1)
+                          arr=neko_alloc_array((unsigned int)(neko_interp_loop__1__1__1__42__n + 1));
+                          for( ; !(neko_interp_loop__1__1__1__42__n == 0); neko_interp_loop__1__1__1__42__n = neko_interp_loop__1__1__1__42__n - 1)
                           {
-                            (&((struct anonymous$4 *)arr)->ptr)[(signed long int)neko_interp_loop$$1$$1$$1$$42$$n] = (struct _value *)*sp;
-                            tmp_post$289 = sp;
+                            (&((struct anonymous_4 *)arr)->ptr)[(signed long int)neko_interp_loop__1__1__1__42__n] = (struct _value *)*sp;
+                            tmp_post_289 = sp;
                             sp = sp + 1l;
-                            *tmp_post$289 = (signed long int)0;
+                            *tmp_post_289 = (signed long int)0;
                           }
-                          (&((struct anonymous$4 *)arr)->ptr)[(signed long int)0] = (struct _value *)acc;
+                          (&((struct anonymous_4 *)arr)->ptr)[(signed long int)0] = (struct _value *)acc;
                           acc = (signed long int)arr;
                           *pc++;
                           if(*pc++ == &&id_mod_next2)
@@ -20266,24 +20266,24 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                         LabelMakeArray2:
                           ;
-                          signed int neko_interp_loop$$1$$1$$1$$43$$n;
-                          tmp_post$290 = pc;
+                          signed int neko_interp_loop__1__1__1__43__n;
+                          tmp_post_290 = pc;
                           pc = pc + 1l;
-                          neko_interp_loop$$1$$1$$1$$43$$n = (signed int)*tmp_post$290;
-                          struct _value *neko_interp_loop$$1$$1$$1$$43$$arr;
-                          neko_interp_loop$$1$$1$$1$$43$$arr=neko_alloc_array((unsigned int)(neko_interp_loop$$1$$1$$1$$43$$n + 1));
-                          if(neko_interp_loop$$1$$1$$1$$43$$n == 2)
-                            neko_interp_loop$$1$$1$$1$$43$$n = neko_interp_loop$$1$$1$$1$$43$$n + 0;
+                          neko_interp_loop__1__1__1__43__n = (signed int)*tmp_post_290;
+                          struct _value *neko_interp_loop__1__1__1__43__arr;
+                          neko_interp_loop__1__1__1__43__arr=neko_alloc_array((unsigned int)(neko_interp_loop__1__1__1__43__n + 1));
+                          if(neko_interp_loop__1__1__1__43__n == 2)
+                            neko_interp_loop__1__1__1__43__n = neko_interp_loop__1__1__1__43__n + 0;
 
-                          (&((struct anonymous$4 *)neko_interp_loop$$1$$1$$1$$43$$arr)->ptr)[(signed long int)neko_interp_loop$$1$$1$$1$$43$$n] = (struct _value *)acc;
-                          for( ; !(neko_interp_loop$$1$$1$$1$$43$$n == 0); *tmp_post$291 = (signed long int)0)
+                          (&((struct anonymous_4 *)neko_interp_loop__1__1__1__43__arr)->ptr)[(signed long int)neko_interp_loop__1__1__1__43__n] = (struct _value *)acc;
+                          for( ; !(neko_interp_loop__1__1__1__43__n == 0); *tmp_post_291 = (signed long int)0)
                           {
-                            neko_interp_loop$$1$$1$$1$$43$$n = neko_interp_loop$$1$$1$$1$$43$$n - 1;
-                            (&((struct anonymous$4 *)neko_interp_loop$$1$$1$$1$$43$$arr)->ptr)[(signed long int)neko_interp_loop$$1$$1$$1$$43$$n] = (struct _value *)*sp;
-                            tmp_post$291 = sp;
+                            neko_interp_loop__1__1__1__43__n = neko_interp_loop__1__1__1__43__n - 1;
+                            (&((struct anonymous_4 *)neko_interp_loop__1__1__1__43__arr)->ptr)[(signed long int)neko_interp_loop__1__1__1__43__n] = (struct _value *)*sp;
+                            tmp_post_291 = sp;
                             sp = sp + 1l;
                           }
-                          acc = (signed long int)neko_interp_loop$$1$$1$$1$$43$$arr;
+                          acc = (signed long int)neko_interp_loop__1__1__1__43__arr;
                           *pc++;
                           if(*pc++ == &&id_mod_next2)
                             goto id_mod_next2;
@@ -21517,67 +21517,67 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                       LabelAdd:
                         ;
                         if(!((1l & acc) == 0l))
-                          tmp_if_expr$352 = (*sp & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
+                          tmp_if_expr_352 = (*sp & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
 
                         else
-                          tmp_if_expr$352 = (_Bool)0;
-                        if(tmp_if_expr$352)
+                          tmp_if_expr_352 = (_Bool)0;
+                        if(tmp_if_expr_352)
                         {
                           if(!((1073741824u + (unsigned int)((signed int)*sp >> 1) + (unsigned int)((signed int)acc >> 1) & 0x80000000) == 0u))
                           {
-                            return_value_neko_alloc_int32$292=neko_alloc_int32(((signed int)(signed long int)*sp >> 1) + ((signed int)(signed long int)acc >> 1));
-                            tmp_if_expr$293 = return_value_neko_alloc_int32$292;
+                            return_value_neko_alloc_int32_292=neko_alloc_int32(((signed int)(signed long int)*sp >> 1) + ((signed int)(signed long int)acc >> 1));
+                            tmp_if_expr_293 = return_value_neko_alloc_int32_292;
                           }
 
                           else
-                            tmp_if_expr$293 = (struct _value *)(signed long int)((signed int)(((signed int)(signed long int)*sp >> 1) + ((signed int)(signed long int)acc >> 1)) << 1 | 1);
-                          acc = (signed long int)tmp_if_expr$293;
+                            tmp_if_expr_293 = (struct _value *)(signed long int)((signed int)(((signed int)(signed long int)*sp >> 1) + ((signed int)(signed long int)acc >> 1)) << 1 | 1);
+                          acc = (signed long int)tmp_if_expr_293;
                           goto __CPROVER_DUMP_L546;
                         }
 
                         if(!((1l & acc) == 0l))
                         {
-                          if((signed int)*((enum anonymous$7 *)*sp) == VAL_FLOAT)
+                          if((signed int)*((enum anonymous_7 *)*sp) == VAL_FLOAT)
                           {
-                            return_value_neko_alloc_float$294=neko_alloc_float(((struct anonymous$25 *)*sp)->f + (double)((signed int)(signed long int)acc >> 1));
-                            acc = (signed long int)return_value_neko_alloc_float$294;
+                            return_value_neko_alloc_float_294=neko_alloc_float(((struct anonymous_25 *)*sp)->f + (double)((signed int)(signed long int)acc >> 1));
+                            acc = (signed long int)return_value_neko_alloc_float_294;
                           }
 
                           else
-                            if((signed int)*((enum anonymous$7 *)*sp) == VAL_INT32)
+                            if((signed int)*((enum anonymous_7 *)*sp) == VAL_INT32)
                             {
-                              if(!((1073741824u + (unsigned int)((signed int)acc >> 1) + (unsigned int)((struct anonymous$26 *)*sp)->i & 0x80000000) == 0u))
+                              if(!((1073741824u + (unsigned int)((signed int)acc >> 1) + (unsigned int)((struct anonymous_26 *)*sp)->i & 0x80000000) == 0u))
                               {
-                                return_value_neko_alloc_int32$295=neko_alloc_int32(((struct anonymous$26 *)*sp)->i + ((signed int)(signed long int)acc >> 1));
-                                tmp_if_expr$296 = return_value_neko_alloc_int32$295;
+                                return_value_neko_alloc_int32_295=neko_alloc_int32(((struct anonymous_26 *)*sp)->i + ((signed int)(signed long int)acc >> 1));
+                                tmp_if_expr_296 = return_value_neko_alloc_int32_295;
                               }
 
                               else
-                                tmp_if_expr$296 = (struct _value *)(signed long int)((signed int)(((struct anonymous$26 *)*sp)->i + ((signed int)(signed long int)acc >> 1)) << 1 | 1);
-                              acc = (signed long int)tmp_if_expr$296;
+                                tmp_if_expr_296 = (struct _value *)(signed long int)((signed int)(((struct anonymous_26 *)*sp)->i + ((signed int)(signed long int)acc >> 1)) << 1 | 1);
+                              acc = (signed long int)tmp_if_expr_296;
                             }
 
                             else
-                              if((15 & (signed int)*((enum anonymous$7 *)*sp)) == VAL_STRING)
+                              if((15 & (signed int)*((enum anonymous_7 *)*sp)) == VAL_STRING)
                               {
-                                return_value_neko_append_int$297=neko_append_int(vm, (struct _value *)*sp, (signed int)(signed long int)acc >> 1, 1);
-                                acc = (signed long int)return_value_neko_append_int$297;
+                                return_value_neko_append_int_297=neko_append_int(vm, (struct _value *)*sp, (signed int)(signed long int)acc >> 1, 1);
+                                acc = (signed long int)return_value_neko_append_int_297;
                               }
 
                               else
-                                if((signed int)*((enum anonymous$7 *)*sp) == VAL_OBJECT)
+                                if((signed int)*((enum anonymous_7 *)*sp) == VAL_OBJECT)
                                 {
-                                  struct _value *neko_interp_loop$$1$$1$$1$$44$$1$$_o = (struct _value *)*sp;
-                                  struct _value *neko_interp_loop$$1$$1$$1$$44$$1$$_arg = (struct _value *)acc;
-                                  struct _value *neko_interp_loop$$1$$1$$1$$44$$1$$_f;
-                                  neko_interp_loop$$1$$1$$1$$44$$1$$_f=neko_val_field(neko_interp_loop$$1$$1$$1$$44$$1$$_o, id_add);
-                                  if(neko_interp_loop$$1$$1$$1$$44$$1$$_f == val_null)
+                                  struct _value *neko_interp_loop__1__1__1__44__1___o = (struct _value *)*sp;
+                                  struct _value *neko_interp_loop__1__1__1__44__1___arg = (struct _value *)acc;
+                                  struct _value *neko_interp_loop__1__1__1__44__1___f;
+                                  neko_interp_loop__1__1__1__44__1___f=neko_val_field(neko_interp_loop__1__1__1__44__1___o, id_add);
+                                  if(neko_interp_loop__1__1__1__44__1___f == val_null)
                                   {
                                     if(csp + 4l >= sp)
                                     {
-                                      signed int return_value_neko_stack_expand$299;
-                                      return_value_neko_stack_expand$299=neko_stack_expand(sp, csp, vm);
-                                      if(!(return_value_neko_stack_expand$299 == 0))
+                                      signed int return_value_neko_stack_expand_299;
+                                      return_value_neko_stack_expand_299=neko_stack_expand(sp, csp, vm);
+                                      if(!(return_value_neko_stack_expand_299 == 0))
                                       {
                                         sp = vm->sp;
                                         csp = vm->csp;
@@ -21585,8 +21585,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                       else
                                       {
-                                        return_value_neko_alloc_string$298=neko_alloc_string("Stack Overflow");
-                                        neko_val_throw(return_value_neko_alloc_string$298);
+                                        return_value_neko_alloc_string_298=neko_alloc_string("Stack Overflow");
+                                        neko_val_throw(return_value_neko_alloc_string_298);
                                       }
                                     }
 
@@ -21600,18 +21600,18 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                     *csp = (signed long int)m;
                                     vm->sp = sp;
                                     vm->csp = csp;
-                                    struct _value *return_value_neko_alloc_string$300;
-                                    return_value_neko_alloc_string$300=neko_alloc_string("Unsupported operation");
-                                    neko_val_throw(return_value_neko_alloc_string$300);
+                                    struct _value *return_value_neko_alloc_string_300;
+                                    return_value_neko_alloc_string_300=neko_alloc_string("Unsupported operation");
+                                    neko_val_throw(return_value_neko_alloc_string_300);
                                   }
 
                                   else
                                   {
                                     if(csp + 4l >= sp)
                                     {
-                                      signed int return_value_neko_stack_expand$302;
-                                      return_value_neko_stack_expand$302=neko_stack_expand(sp, csp, vm);
-                                      if(!(return_value_neko_stack_expand$302 == 0))
+                                      signed int return_value_neko_stack_expand_302;
+                                      return_value_neko_stack_expand_302=neko_stack_expand(sp, csp, vm);
+                                      if(!(return_value_neko_stack_expand_302 == 0))
                                       {
                                         sp = vm->sp;
                                         csp = vm->csp;
@@ -21619,8 +21619,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                       else
                                       {
-                                        return_value_neko_alloc_string$301=neko_alloc_string("Stack Overflow");
-                                        neko_val_throw(return_value_neko_alloc_string$301);
+                                        return_value_neko_alloc_string_301=neko_alloc_string("Stack Overflow");
+                                        neko_val_throw(return_value_neko_alloc_string_301);
                                       }
                                     }
 
@@ -21634,26 +21634,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                     *csp = (signed long int)m;
                                     vm->sp = sp;
                                     vm->csp = csp;
-                                    struct _value *return_value_neko_val_callEx$303;
-                                    return_value_neko_val_callEx$303=neko_val_callEx(neko_interp_loop$$1$$1$$1$$44$$1$$_o, neko_interp_loop$$1$$1$$1$$44$$1$$_f, &neko_interp_loop$$1$$1$$1$$44$$1$$_arg, 1, (struct _value **)(void *)0);
-                                    acc = (signed long int)return_value_neko_val_callEx$303;
+                                    struct _value *return_value_neko_val_callEx_303;
+                                    return_value_neko_val_callEx_303=neko_val_callEx(neko_interp_loop__1__1__1__44__1___o, neko_interp_loop__1__1__1__44__1___f, &neko_interp_loop__1__1__1__44__1___arg, 1, (struct _value **)(void *)0);
+                                    acc = (signed long int)return_value_neko_val_callEx_303;
                                     sp = vm->sp;
                                     csp = vm->csp;
                                     m = (struct _neko_module *)*csp;
-                                    tmp_post$304 = csp;
+                                    tmp_post_304 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$304 = (signed long int)0;
+                                    *tmp_post_304 = (signed long int)0;
                                     vm->vthis = (struct _value *)*csp;
-                                    tmp_post$305 = csp;
+                                    tmp_post_305 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$305 = (signed long int)0;
+                                    *tmp_post_305 = (signed long int)0;
                                     vm->env = (struct _value *)*csp;
-                                    tmp_post$306 = csp;
+                                    tmp_post_306 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$306 = (signed long int)0;
-                                    tmp_post$307 = csp;
+                                    *tmp_post_306 = (signed long int)0;
+                                    tmp_post_307 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$307 = (signed long int)0;
+                                    *tmp_post_307 = (signed long int)0;
                                   }
                                 }
 
@@ -21661,9 +21661,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                 {
                                   if(csp + 4l >= sp)
                                   {
-                                    signed int return_value_neko_stack_expand$309;
-                                    return_value_neko_stack_expand$309=neko_stack_expand(sp, csp, vm);
-                                    if(!(return_value_neko_stack_expand$309 == 0))
+                                    signed int return_value_neko_stack_expand_309;
+                                    return_value_neko_stack_expand_309=neko_stack_expand(sp, csp, vm);
+                                    if(!(return_value_neko_stack_expand_309 == 0))
                                     {
                                       sp = vm->sp;
                                       csp = vm->csp;
@@ -21671,8 +21671,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                     else
                                     {
-                                      return_value_neko_alloc_string$308=neko_alloc_string("Stack Overflow");
-                                      neko_val_throw(return_value_neko_alloc_string$308);
+                                      return_value_neko_alloc_string_308=neko_alloc_string("Stack Overflow");
+                                      neko_val_throw(return_value_neko_alloc_string_308);
                                     }
                                   }
 
@@ -21686,56 +21686,56 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                   *csp = (signed long int)m;
                                   vm->sp = sp;
                                   vm->csp = csp;
-                                  struct _value *return_value_neko_alloc_string$310;
-                                  return_value_neko_alloc_string$310=neko_alloc_string("Invalid operation (+)");
-                                  neko_val_throw(return_value_neko_alloc_string$310);
+                                  struct _value *return_value_neko_alloc_string_310;
+                                  return_value_neko_alloc_string_310=neko_alloc_string("Invalid operation (+)");
+                                  neko_val_throw(return_value_neko_alloc_string_310);
                                 }
                           goto __CPROVER_DUMP_L546;
                         }
 
                         if(!((1l & *sp) == 0l))
                         {
-                          if((signed int)*((enum anonymous$7 *)acc) == VAL_FLOAT)
+                          if((signed int)*((enum anonymous_7 *)acc) == VAL_FLOAT)
                           {
-                            return_value_neko_alloc_float$311=neko_alloc_float((double)((signed int)(signed long int)*sp >> 1) + ((struct anonymous$25 *)acc)->f);
-                            acc = (signed long int)return_value_neko_alloc_float$311;
+                            return_value_neko_alloc_float_311=neko_alloc_float((double)((signed int)(signed long int)*sp >> 1) + ((struct anonymous_25 *)acc)->f);
+                            acc = (signed long int)return_value_neko_alloc_float_311;
                           }
 
                           else
-                            if((signed int)*((enum anonymous$7 *)acc) == VAL_INT32)
+                            if((signed int)*((enum anonymous_7 *)acc) == VAL_INT32)
                             {
-                              if(!((1073741824u + (unsigned int)((signed int)*sp >> 1) + (unsigned int)((struct anonymous$26 *)acc)->i & 0x80000000) == 0u))
+                              if(!((1073741824u + (unsigned int)((signed int)*sp >> 1) + (unsigned int)((struct anonymous_26 *)acc)->i & 0x80000000) == 0u))
                               {
-                                return_value_neko_alloc_int32$312=neko_alloc_int32(((signed int)(signed long int)*sp >> 1) + ((struct anonymous$26 *)acc)->i);
-                                tmp_if_expr$313 = return_value_neko_alloc_int32$312;
+                                return_value_neko_alloc_int32_312=neko_alloc_int32(((signed int)(signed long int)*sp >> 1) + ((struct anonymous_26 *)acc)->i);
+                                tmp_if_expr_313 = return_value_neko_alloc_int32_312;
                               }
 
                               else
-                                tmp_if_expr$313 = (struct _value *)(signed long int)((signed int)(((signed int)(signed long int)*sp >> 1) + ((struct anonymous$26 *)acc)->i) << 1 | 1);
-                              acc = (signed long int)tmp_if_expr$313;
+                                tmp_if_expr_313 = (struct _value *)(signed long int)((signed int)(((signed int)(signed long int)*sp >> 1) + ((struct anonymous_26 *)acc)->i) << 1 | 1);
+                              acc = (signed long int)tmp_if_expr_313;
                             }
 
                             else
-                              if((15 & (signed int)*((enum anonymous$7 *)acc)) == VAL_STRING)
+                              if((15 & (signed int)*((enum anonymous_7 *)acc)) == VAL_STRING)
                               {
-                                return_value_neko_append_int$314=neko_append_int(vm, (struct _value *)acc, (signed int)(signed long int)*sp >> 1, 0);
-                                acc = (signed long int)return_value_neko_append_int$314;
+                                return_value_neko_append_int_314=neko_append_int(vm, (struct _value *)acc, (signed int)(signed long int)*sp >> 1, 0);
+                                acc = (signed long int)return_value_neko_append_int_314;
                               }
 
                               else
-                                if((signed int)*((enum anonymous$7 *)acc) == VAL_OBJECT)
+                                if((signed int)*((enum anonymous_7 *)acc) == VAL_OBJECT)
                                 {
-                                  struct _value *neko_interp_loop$$1$$1$$1$$45$$1$$_o = (struct _value *)acc;
-                                  struct _value *neko_interp_loop$$1$$1$$1$$45$$1$$_arg = (struct _value *)*sp;
-                                  struct _value *neko_interp_loop$$1$$1$$1$$45$$1$$_f;
-                                  neko_interp_loop$$1$$1$$1$$45$$1$$_f=neko_val_field(neko_interp_loop$$1$$1$$1$$45$$1$$_o, id_radd);
-                                  if(neko_interp_loop$$1$$1$$1$$45$$1$$_f == val_null)
+                                  struct _value *neko_interp_loop__1__1__1__45__1___o = (struct _value *)acc;
+                                  struct _value *neko_interp_loop__1__1__1__45__1___arg = (struct _value *)*sp;
+                                  struct _value *neko_interp_loop__1__1__1__45__1___f;
+                                  neko_interp_loop__1__1__1__45__1___f=neko_val_field(neko_interp_loop__1__1__1__45__1___o, id_radd);
+                                  if(neko_interp_loop__1__1__1__45__1___f == val_null)
                                   {
                                     if(csp + 4l >= sp)
                                     {
-                                      signed int return_value_neko_stack_expand$316;
-                                      return_value_neko_stack_expand$316=neko_stack_expand(sp, csp, vm);
-                                      if(!(return_value_neko_stack_expand$316 == 0))
+                                      signed int return_value_neko_stack_expand_316;
+                                      return_value_neko_stack_expand_316=neko_stack_expand(sp, csp, vm);
+                                      if(!(return_value_neko_stack_expand_316 == 0))
                                       {
                                         sp = vm->sp;
                                         csp = vm->csp;
@@ -21743,8 +21743,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                       else
                                       {
-                                        return_value_neko_alloc_string$315=neko_alloc_string("Stack Overflow");
-                                        neko_val_throw(return_value_neko_alloc_string$315);
+                                        return_value_neko_alloc_string_315=neko_alloc_string("Stack Overflow");
+                                        neko_val_throw(return_value_neko_alloc_string_315);
                                       }
                                     }
 
@@ -21758,18 +21758,18 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                     *csp = (signed long int)m;
                                     vm->sp = sp;
                                     vm->csp = csp;
-                                    struct _value *return_value_neko_alloc_string$317;
-                                    return_value_neko_alloc_string$317=neko_alloc_string("Unsupported operation");
-                                    neko_val_throw(return_value_neko_alloc_string$317);
+                                    struct _value *return_value_neko_alloc_string_317;
+                                    return_value_neko_alloc_string_317=neko_alloc_string("Unsupported operation");
+                                    neko_val_throw(return_value_neko_alloc_string_317);
                                   }
 
                                   else
                                   {
                                     if(csp + 4l >= sp)
                                     {
-                                      signed int return_value_neko_stack_expand$319;
-                                      return_value_neko_stack_expand$319=neko_stack_expand(sp, csp, vm);
-                                      if(!(return_value_neko_stack_expand$319 == 0))
+                                      signed int return_value_neko_stack_expand_319;
+                                      return_value_neko_stack_expand_319=neko_stack_expand(sp, csp, vm);
+                                      if(!(return_value_neko_stack_expand_319 == 0))
                                       {
                                         sp = vm->sp;
                                         csp = vm->csp;
@@ -21777,8 +21777,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                       else
                                       {
-                                        return_value_neko_alloc_string$318=neko_alloc_string("Stack Overflow");
-                                        neko_val_throw(return_value_neko_alloc_string$318);
+                                        return_value_neko_alloc_string_318=neko_alloc_string("Stack Overflow");
+                                        neko_val_throw(return_value_neko_alloc_string_318);
                                       }
                                     }
 
@@ -21792,26 +21792,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                     *csp = (signed long int)m;
                                     vm->sp = sp;
                                     vm->csp = csp;
-                                    struct _value *return_value_neko_val_callEx$320;
-                                    return_value_neko_val_callEx$320=neko_val_callEx(neko_interp_loop$$1$$1$$1$$45$$1$$_o, neko_interp_loop$$1$$1$$1$$45$$1$$_f, &neko_interp_loop$$1$$1$$1$$45$$1$$_arg, 1, (struct _value **)(void *)0);
-                                    acc = (signed long int)return_value_neko_val_callEx$320;
+                                    struct _value *return_value_neko_val_callEx_320;
+                                    return_value_neko_val_callEx_320=neko_val_callEx(neko_interp_loop__1__1__1__45__1___o, neko_interp_loop__1__1__1__45__1___f, &neko_interp_loop__1__1__1__45__1___arg, 1, (struct _value **)(void *)0);
+                                    acc = (signed long int)return_value_neko_val_callEx_320;
                                     sp = vm->sp;
                                     csp = vm->csp;
                                     m = (struct _neko_module *)*csp;
-                                    tmp_post$321 = csp;
+                                    tmp_post_321 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$321 = (signed long int)0;
+                                    *tmp_post_321 = (signed long int)0;
                                     vm->vthis = (struct _value *)*csp;
-                                    tmp_post$322 = csp;
+                                    tmp_post_322 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$322 = (signed long int)0;
+                                    *tmp_post_322 = (signed long int)0;
                                     vm->env = (struct _value *)*csp;
-                                    tmp_post$323 = csp;
+                                    tmp_post_323 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$323 = (signed long int)0;
-                                    tmp_post$324 = csp;
+                                    *tmp_post_323 = (signed long int)0;
+                                    tmp_post_324 = csp;
                                     csp = csp - 1l;
-                                    *tmp_post$324 = (signed long int)0;
+                                    *tmp_post_324 = (signed long int)0;
                                   }
                                 }
 
@@ -21819,9 +21819,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                 {
                                   if(csp + 4l >= sp)
                                   {
-                                    signed int return_value_neko_stack_expand$326;
-                                    return_value_neko_stack_expand$326=neko_stack_expand(sp, csp, vm);
-                                    if(!(return_value_neko_stack_expand$326 == 0))
+                                    signed int return_value_neko_stack_expand_326;
+                                    return_value_neko_stack_expand_326=neko_stack_expand(sp, csp, vm);
+                                    if(!(return_value_neko_stack_expand_326 == 0))
                                     {
                                       sp = vm->sp;
                                       csp = vm->csp;
@@ -21829,8 +21829,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                     else
                                     {
-                                      return_value_neko_alloc_string$325=neko_alloc_string("Stack Overflow");
-                                      neko_val_throw(return_value_neko_alloc_string$325);
+                                      return_value_neko_alloc_string_325=neko_alloc_string("Stack Overflow");
+                                      neko_val_throw(return_value_neko_alloc_string_325);
                                     }
                                   }
 
@@ -21844,26 +21844,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                   *csp = (signed long int)m;
                                   vm->sp = sp;
                                   vm->csp = csp;
-                                  struct _value *return_value_neko_alloc_string$327;
-                                  return_value_neko_alloc_string$327=neko_alloc_string("Invalid operation (+)");
-                                  neko_val_throw(return_value_neko_alloc_string$327);
+                                  struct _value *return_value_neko_alloc_string_327;
+                                  return_value_neko_alloc_string_327=neko_alloc_string("Invalid operation (+)");
+                                  neko_val_throw(return_value_neko_alloc_string_327);
                                 }
                           goto __CPROVER_DUMP_L546;
                         }
 
-                        if((signed int)*((enum anonymous$7 *)acc) == VAL_FLOAT)
+                        if((signed int)*((enum anonymous_7 *)acc) == VAL_FLOAT)
                         {
-                          if((signed int)*((enum anonymous$7 *)*sp) == VAL_FLOAT)
+                          if((signed int)*((enum anonymous_7 *)*sp) == VAL_FLOAT)
                           {
-                            return_value_neko_alloc_float$328=neko_alloc_float(((struct anonymous$25 *)*sp)->f + ((struct anonymous$25 *)acc)->f);
-                            acc = (signed long int)return_value_neko_alloc_float$328;
+                            return_value_neko_alloc_float_328=neko_alloc_float(((struct anonymous_25 *)*sp)->f + ((struct anonymous_25 *)acc)->f);
+                            acc = (signed long int)return_value_neko_alloc_float_328;
                           }
 
                           else
-                            if((signed int)*((enum anonymous$7 *)*sp) == VAL_INT32)
+                            if((signed int)*((enum anonymous_7 *)*sp) == VAL_INT32)
                             {
-                              return_value_neko_alloc_float$329=neko_alloc_float((double)((struct anonymous$26 *)*sp)->i + ((struct anonymous$25 *)acc)->f);
-                              acc = (signed long int)return_value_neko_alloc_float$329;
+                              return_value_neko_alloc_float_329=neko_alloc_float((double)((struct anonymous_26 *)*sp)->i + ((struct anonymous_25 *)acc)->f);
+                              acc = (signed long int)return_value_neko_alloc_float_329;
                             }
 
                             else
@@ -21871,26 +21871,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                           goto __CPROVER_DUMP_L546;
                         }
 
-                        if((signed int)*((enum anonymous$7 *)acc) == VAL_INT32)
+                        if((signed int)*((enum anonymous_7 *)acc) == VAL_INT32)
                         {
-                          if((signed int)*((enum anonymous$7 *)*sp) == VAL_INT32)
+                          if((signed int)*((enum anonymous_7 *)*sp) == VAL_INT32)
                           {
-                            if(!((1073741824u + (unsigned int)((struct anonymous$26 *)*sp)->i + (unsigned int)((struct anonymous$26 *)acc)->i & 0x80000000) == 0u))
+                            if(!((1073741824u + (unsigned int)((struct anonymous_26 *)*sp)->i + (unsigned int)((struct anonymous_26 *)acc)->i & 0x80000000) == 0u))
                             {
-                              return_value_neko_alloc_int32$330=neko_alloc_int32(((struct anonymous$26 *)*sp)->i + ((struct anonymous$26 *)acc)->i);
-                              tmp_if_expr$331 = return_value_neko_alloc_int32$330;
+                              return_value_neko_alloc_int32_330=neko_alloc_int32(((struct anonymous_26 *)*sp)->i + ((struct anonymous_26 *)acc)->i);
+                              tmp_if_expr_331 = return_value_neko_alloc_int32_330;
                             }
 
                             else
-                              tmp_if_expr$331 = (struct _value *)(signed long int)((signed int)(((struct anonymous$26 *)*sp)->i + ((struct anonymous$26 *)acc)->i) << 1 | 1);
-                            acc = (signed long int)tmp_if_expr$331;
+                              tmp_if_expr_331 = (struct _value *)(signed long int)((signed int)(((struct anonymous_26 *)*sp)->i + ((struct anonymous_26 *)acc)->i) << 1 | 1);
+                            acc = (signed long int)tmp_if_expr_331;
                           }
 
                           else
-                            if((signed int)*((enum anonymous$7 *)*sp) == VAL_FLOAT)
+                            if((signed int)*((enum anonymous_7 *)*sp) == VAL_FLOAT)
                             {
-                              return_value_neko_alloc_float$332=neko_alloc_float(((struct anonymous$25 *)*sp)->f + (double)((struct anonymous$26 *)acc)->i);
-                              acc = (signed long int)return_value_neko_alloc_float$332;
+                              return_value_neko_alloc_float_332=neko_alloc_float(((struct anonymous_25 *)*sp)->f + (double)((struct anonymous_26 *)acc)->i);
+                              acc = (signed long int)return_value_neko_alloc_float_332;
                             }
 
                             else
@@ -21903,22 +21903,22 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                     add_next:
                       ;
-                      if((signed int)*((enum anonymous$7 *)*sp) == VAL_OBJECT)
+                      if((signed int)*((enum anonymous_7 *)*sp) == VAL_OBJECT)
                       {
-                        struct _value *neko_interp_loop$$1$$1$$1$$48$$1$$_o = (struct _value *)*sp;
-                        struct _value *neko_interp_loop$$1$$1$$1$$48$$1$$_arg = (struct _value *)acc;
-                        struct _value *neko_interp_loop$$1$$1$$1$$48$$1$$_f;
-                        neko_interp_loop$$1$$1$$1$$48$$1$$_f=neko_val_field(neko_interp_loop$$1$$1$$1$$48$$1$$_o, id_add);
-                        if(neko_interp_loop$$1$$1$$1$$48$$1$$_f == val_null)
+                        struct _value *neko_interp_loop__1__1__1__48__1___o = (struct _value *)*sp;
+                        struct _value *neko_interp_loop__1__1__1__48__1___arg = (struct _value *)acc;
+                        struct _value *neko_interp_loop__1__1__1__48__1___f;
+                        neko_interp_loop__1__1__1__48__1___f=neko_val_field(neko_interp_loop__1__1__1__48__1___o, id_add);
+                        if(neko_interp_loop__1__1__1__48__1___f == val_null)
                           goto add_2;
 
                         else
                         {
                           if(csp + 4l >= sp)
                           {
-                            signed int return_value_neko_stack_expand$334;
-                            return_value_neko_stack_expand$334=neko_stack_expand(sp, csp, vm);
-                            if(!(return_value_neko_stack_expand$334 == 0))
+                            signed int return_value_neko_stack_expand_334;
+                            return_value_neko_stack_expand_334=neko_stack_expand(sp, csp, vm);
+                            if(!(return_value_neko_stack_expand_334 == 0))
                             {
                               sp = vm->sp;
                               csp = vm->csp;
@@ -21926,8 +21926,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                             else
                             {
-                              return_value_neko_alloc_string$333=neko_alloc_string("Stack Overflow");
-                              neko_val_throw(return_value_neko_alloc_string$333);
+                              return_value_neko_alloc_string_333=neko_alloc_string("Stack Overflow");
+                              neko_val_throw(return_value_neko_alloc_string_333);
                             }
                           }
 
@@ -21941,26 +21941,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                           *csp = (signed long int)m;
                           vm->sp = sp;
                           vm->csp = csp;
-                          struct _value *return_value_neko_val_callEx$335;
-                          return_value_neko_val_callEx$335=neko_val_callEx(neko_interp_loop$$1$$1$$1$$48$$1$$_o, neko_interp_loop$$1$$1$$1$$48$$1$$_f, &neko_interp_loop$$1$$1$$1$$48$$1$$_arg, 1, (struct _value **)(void *)0);
-                          acc = (signed long int)return_value_neko_val_callEx$335;
+                          struct _value *return_value_neko_val_callEx_335;
+                          return_value_neko_val_callEx_335=neko_val_callEx(neko_interp_loop__1__1__1__48__1___o, neko_interp_loop__1__1__1__48__1___f, &neko_interp_loop__1__1__1__48__1___arg, 1, (struct _value **)(void *)0);
+                          acc = (signed long int)return_value_neko_val_callEx_335;
                           sp = vm->sp;
                           csp = vm->csp;
                           m = (struct _neko_module *)*csp;
-                          tmp_post$336 = csp;
+                          tmp_post_336 = csp;
                           csp = csp - 1l;
-                          *tmp_post$336 = (signed long int)0;
+                          *tmp_post_336 = (signed long int)0;
                           vm->vthis = (struct _value *)*csp;
-                          tmp_post$337 = csp;
+                          tmp_post_337 = csp;
                           csp = csp - 1l;
-                          *tmp_post$337 = (signed long int)0;
+                          *tmp_post_337 = (signed long int)0;
                           vm->env = (struct _value *)*csp;
-                          tmp_post$338 = csp;
+                          tmp_post_338 = csp;
                           csp = csp - 1l;
-                          *tmp_post$338 = (signed long int)0;
-                          tmp_post$339 = csp;
+                          *tmp_post_338 = (signed long int)0;
+                          tmp_post_339 = csp;
                           csp = csp - 1l;
-                          *tmp_post$339 = (signed long int)0;
+                          *tmp_post_339 = (signed long int)0;
                         }
                         goto __CPROVER_DUMP_L546;
                       }
@@ -21970,23 +21970,23 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                   add_2:
                     ;
-                    if(!((signed int)*((enum anonymous$7 *)acc) == VAL_OBJECT))
+                    if(!((signed int)*((enum anonymous_7 *)acc) == VAL_OBJECT))
                       goto add_3;
 
-                    struct _value *neko_interp_loop$$1$$1$$1$$48$$2$$1$$_o = (struct _value *)acc;
-                    struct _value *neko_interp_loop$$1$$1$$1$$48$$2$$1$$_arg = (struct _value *)*sp;
-                    struct _value *neko_interp_loop$$1$$1$$1$$48$$2$$1$$_f;
-                    neko_interp_loop$$1$$1$$1$$48$$2$$1$$_f=neko_val_field(neko_interp_loop$$1$$1$$1$$48$$2$$1$$_o, id_radd);
-                    if(neko_interp_loop$$1$$1$$1$$48$$2$$1$$_f == val_null)
+                    struct _value *neko_interp_loop__1__1__1__48__2__1___o = (struct _value *)acc;
+                    struct _value *neko_interp_loop__1__1__1__48__2__1___arg = (struct _value *)*sp;
+                    struct _value *neko_interp_loop__1__1__1__48__2__1___f;
+                    neko_interp_loop__1__1__1__48__2__1___f=neko_val_field(neko_interp_loop__1__1__1__48__2__1___o, id_radd);
+                    if(neko_interp_loop__1__1__1__48__2__1___f == val_null)
                       goto add_3;
 
                     else
                     {
                       if(csp + 4l >= sp)
                       {
-                        signed int return_value_neko_stack_expand$341;
-                        return_value_neko_stack_expand$341=neko_stack_expand(sp, csp, vm);
-                        if(!(return_value_neko_stack_expand$341 == 0))
+                        signed int return_value_neko_stack_expand_341;
+                        return_value_neko_stack_expand_341=neko_stack_expand(sp, csp, vm);
+                        if(!(return_value_neko_stack_expand_341 == 0))
                         {
                           sp = vm->sp;
                           csp = vm->csp;
@@ -21994,8 +21994,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                         else
                         {
-                          return_value_neko_alloc_string$340=neko_alloc_string("Stack Overflow");
-                          neko_val_throw(return_value_neko_alloc_string$340);
+                          return_value_neko_alloc_string_340=neko_alloc_string("Stack Overflow");
+                          neko_val_throw(return_value_neko_alloc_string_340);
                         }
                       }
 
@@ -22009,26 +22009,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                       *csp = (signed long int)m;
                       vm->sp = sp;
                       vm->csp = csp;
-                      struct _value *return_value_neko_val_callEx$342;
-                      return_value_neko_val_callEx$342=neko_val_callEx(neko_interp_loop$$1$$1$$1$$48$$2$$1$$_o, neko_interp_loop$$1$$1$$1$$48$$2$$1$$_f, &neko_interp_loop$$1$$1$$1$$48$$2$$1$$_arg, 1, (struct _value **)(void *)0);
-                      acc = (signed long int)return_value_neko_val_callEx$342;
+                      struct _value *return_value_neko_val_callEx_342;
+                      return_value_neko_val_callEx_342=neko_val_callEx(neko_interp_loop__1__1__1__48__2__1___o, neko_interp_loop__1__1__1__48__2__1___f, &neko_interp_loop__1__1__1__48__2__1___arg, 1, (struct _value **)(void *)0);
+                      acc = (signed long int)return_value_neko_val_callEx_342;
                       sp = vm->sp;
                       csp = vm->csp;
                       m = (struct _neko_module *)*csp;
-                      tmp_post$343 = csp;
+                      tmp_post_343 = csp;
                       csp = csp - 1l;
-                      *tmp_post$343 = (signed long int)0;
+                      *tmp_post_343 = (signed long int)0;
                       vm->vthis = (struct _value *)*csp;
-                      tmp_post$344 = csp;
+                      tmp_post_344 = csp;
                       csp = csp - 1l;
-                      *tmp_post$344 = (signed long int)0;
+                      *tmp_post_344 = (signed long int)0;
                       vm->env = (struct _value *)*csp;
-                      tmp_post$345 = csp;
+                      tmp_post_345 = csp;
                       csp = csp - 1l;
-                      *tmp_post$345 = (signed long int)0;
-                      tmp_post$346 = csp;
+                      *tmp_post_345 = (signed long int)0;
+                      tmp_post_346 = csp;
                       csp = csp - 1l;
-                      *tmp_post$346 = (signed long int)0;
+                      *tmp_post_346 = (signed long int)0;
                     }
                   }
 
@@ -22037,33 +22037,33 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                   add_3:
                     ;
-                    if((15 & (signed int)*((enum anonymous$7 *)acc)) == VAL_STRING)
-                      tmp_if_expr$351 = (_Bool)1;
+                    if((15 & (signed int)*((enum anonymous_7 *)acc)) == VAL_STRING)
+                      tmp_if_expr_351 = (_Bool)1;
 
                     else
-                      tmp_if_expr$351 = ((signed int)*((enum anonymous$7 *)*sp) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
-                    if(tmp_if_expr$351)
+                      tmp_if_expr_351 = ((signed int)*((enum anonymous_7 *)*sp) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
+                    if(tmp_if_expr_351)
                     {
-                      struct _buffer *neko_interp_loop$$1$$1$$1$$48$$2$$2$$1$$b;
-                      neko_interp_loop$$1$$1$$1$$48$$2$$2$$1$$b=neko_alloc_buffer((const char *)(void *)0);
+                      struct _buffer *neko_interp_loop__1__1__1__48__2__2__1__b;
+                      neko_interp_loop__1__1__1__48__2__2__1__b=neko_alloc_buffer((const char *)(void *)0);
                       vm->sp = sp;
                       vm->csp = csp;
-                      neko_val_buffer(neko_interp_loop$$1$$1$$1$$48$$2$$2$$1$$b, (struct _value *)*sp);
-                      neko_val_buffer(neko_interp_loop$$1$$1$$1$$48$$2$$2$$1$$b, (struct _value *)acc);
+                      neko_val_buffer(neko_interp_loop__1__1__1__48__2__2__1__b, (struct _value *)*sp);
+                      neko_val_buffer(neko_interp_loop__1__1__1__48__2__2__1__b, (struct _value *)acc);
                       sp = vm->sp;
                       csp = vm->csp;
-                      struct _value *return_value_neko_buffer_to_string$347;
-                      return_value_neko_buffer_to_string$347=neko_buffer_to_string(neko_interp_loop$$1$$1$$1$$48$$2$$2$$1$$b);
-                      acc = (signed long int)return_value_neko_buffer_to_string$347;
+                      struct _value *return_value_neko_buffer_to_string_347;
+                      return_value_neko_buffer_to_string_347=neko_buffer_to_string(neko_interp_loop__1__1__1__48__2__2__1__b);
+                      acc = (signed long int)return_value_neko_buffer_to_string_347;
                     }
 
                     else
                     {
                       if(csp + 4l >= sp)
                       {
-                        signed int return_value_neko_stack_expand$349;
-                        return_value_neko_stack_expand$349=neko_stack_expand(sp, csp, vm);
-                        if(!(return_value_neko_stack_expand$349 == 0))
+                        signed int return_value_neko_stack_expand_349;
+                        return_value_neko_stack_expand_349=neko_stack_expand(sp, csp, vm);
+                        if(!(return_value_neko_stack_expand_349 == 0))
                         {
                           sp = vm->sp;
                           csp = vm->csp;
@@ -22071,8 +22071,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                         else
                         {
-                          return_value_neko_alloc_string$348=neko_alloc_string("Stack Overflow");
-                          neko_val_throw(return_value_neko_alloc_string$348);
+                          return_value_neko_alloc_string_348=neko_alloc_string("Stack Overflow");
+                          neko_val_throw(return_value_neko_alloc_string_348);
                         }
                       }
 
@@ -22086,17 +22086,17 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                       *csp = (signed long int)m;
                       vm->sp = sp;
                       vm->csp = csp;
-                      struct _value *return_value_neko_alloc_string$350;
-                      return_value_neko_alloc_string$350=neko_alloc_string("Invalid operation (+)");
-                      neko_val_throw(return_value_neko_alloc_string$350);
+                      struct _value *return_value_neko_alloc_string_350;
+                      return_value_neko_alloc_string_350=neko_alloc_string("Invalid operation (+)");
+                      neko_val_throw(return_value_neko_alloc_string_350);
                     }
                   }
 
                 __CPROVER_DUMP_L546:
                   ;
-                  tmp_post$353 = sp;
+                  tmp_post_353 = sp;
                   sp = sp + 1l;
-                  *tmp_post$353 = (signed long int)0;
+                  *tmp_post_353 = (signed long int)0;
                   *pc++;
                   if(*pc++ == &&id_mod_next2)
                     goto id_mod_next2;
@@ -22342,60 +22342,60 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                   LabelSub:
                     ;
                     if(!((1l & acc) == 0l))
-                      tmp_if_expr$413 = (*sp & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_413 = (*sp & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
 
                     else
-                      tmp_if_expr$413 = (_Bool)0;
-                    if(tmp_if_expr$413)
+                      tmp_if_expr_413 = (_Bool)0;
+                    if(tmp_if_expr_413)
                     {
                       if(!((1073741824u + (unsigned int)((signed int)*sp >> 1) + -((unsigned int)((signed int)acc >> 1)) & 0x80000000) == 0u))
                       {
-                        return_value_neko_alloc_int32$354=neko_alloc_int32(((signed int)(signed long int)*sp >> 1) - ((signed int)(signed long int)acc >> 1));
-                        tmp_if_expr$355 = return_value_neko_alloc_int32$354;
+                        return_value_neko_alloc_int32_354=neko_alloc_int32(((signed int)(signed long int)*sp >> 1) - ((signed int)(signed long int)acc >> 1));
+                        tmp_if_expr_355 = return_value_neko_alloc_int32_354;
                       }
 
                       else
-                        tmp_if_expr$355 = (struct _value *)(signed long int)((signed int)(((signed int)(signed long int)*sp >> 1) - ((signed int)(signed long int)acc >> 1)) << 1 | 1);
-                      acc = (signed long int)tmp_if_expr$355;
+                        tmp_if_expr_355 = (struct _value *)(signed long int)((signed int)(((signed int)(signed long int)*sp >> 1) - ((signed int)(signed long int)acc >> 1)) << 1 | 1);
+                      acc = (signed long int)tmp_if_expr_355;
                       goto __CPROVER_DUMP_L627;
                     }
 
                     if(!((1l & acc) == 0l))
                     {
-                      if((signed int)*((enum anonymous$7 *)*sp) == VAL_FLOAT)
+                      if((signed int)*((enum anonymous_7 *)*sp) == VAL_FLOAT)
                       {
-                        return_value_neko_alloc_float$356=neko_alloc_float(((struct anonymous$25 *)*sp)->f - (double)((signed int)(signed long int)acc >> 1));
-                        acc = (signed long int)return_value_neko_alloc_float$356;
+                        return_value_neko_alloc_float_356=neko_alloc_float(((struct anonymous_25 *)*sp)->f - (double)((signed int)(signed long int)acc >> 1));
+                        acc = (signed long int)return_value_neko_alloc_float_356;
                       }
 
                       else
-                        if((signed int)*((enum anonymous$7 *)*sp) == VAL_INT32)
+                        if((signed int)*((enum anonymous_7 *)*sp) == VAL_INT32)
                         {
-                          if(!((1073741824u + (unsigned int)((struct anonymous$26 *)*sp)->i + -((unsigned int)((signed int)acc >> 1)) & 0x80000000) == 0u))
+                          if(!((1073741824u + (unsigned int)((struct anonymous_26 *)*sp)->i + -((unsigned int)((signed int)acc >> 1)) & 0x80000000) == 0u))
                           {
-                            return_value_neko_alloc_int32$357=neko_alloc_int32(((struct anonymous$26 *)*sp)->i - ((signed int)(signed long int)acc >> 1));
-                            tmp_if_expr$358 = return_value_neko_alloc_int32$357;
+                            return_value_neko_alloc_int32_357=neko_alloc_int32(((struct anonymous_26 *)*sp)->i - ((signed int)(signed long int)acc >> 1));
+                            tmp_if_expr_358 = return_value_neko_alloc_int32_357;
                           }
 
                           else
-                            tmp_if_expr$358 = (struct _value *)(signed long int)((signed int)(((struct anonymous$26 *)*sp)->i - ((signed int)(signed long int)acc >> 1)) << 1 | 1);
-                          acc = (signed long int)tmp_if_expr$358;
+                            tmp_if_expr_358 = (struct _value *)(signed long int)((signed int)(((struct anonymous_26 *)*sp)->i - ((signed int)(signed long int)acc >> 1)) << 1 | 1);
+                          acc = (signed long int)tmp_if_expr_358;
                         }
 
                         else
-                          if((signed int)*((enum anonymous$7 *)*sp) == VAL_OBJECT)
+                          if((signed int)*((enum anonymous_7 *)*sp) == VAL_OBJECT)
                           {
-                            struct _value *neko_interp_loop$$1$$1$$1$$49$$1$$_o = (struct _value *)*sp;
-                            struct _value *neko_interp_loop$$1$$1$$1$$49$$1$$_arg = (struct _value *)acc;
-                            struct _value *neko_interp_loop$$1$$1$$1$$49$$1$$_f;
-                            neko_interp_loop$$1$$1$$1$$49$$1$$_f=neko_val_field(neko_interp_loop$$1$$1$$1$$49$$1$$_o, id_sub);
-                            if(neko_interp_loop$$1$$1$$1$$49$$1$$_f == val_null)
+                            struct _value *neko_interp_loop__1__1__1__49__1___o = (struct _value *)*sp;
+                            struct _value *neko_interp_loop__1__1__1__49__1___arg = (struct _value *)acc;
+                            struct _value *neko_interp_loop__1__1__1__49__1___f;
+                            neko_interp_loop__1__1__1__49__1___f=neko_val_field(neko_interp_loop__1__1__1__49__1___o, id_sub);
+                            if(neko_interp_loop__1__1__1__49__1___f == val_null)
                             {
                               if(csp + 4l >= sp)
                               {
-                                signed int return_value_neko_stack_expand$360;
-                                return_value_neko_stack_expand$360=neko_stack_expand(sp, csp, vm);
-                                if(!(return_value_neko_stack_expand$360 == 0))
+                                signed int return_value_neko_stack_expand_360;
+                                return_value_neko_stack_expand_360=neko_stack_expand(sp, csp, vm);
+                                if(!(return_value_neko_stack_expand_360 == 0))
                                 {
                                   sp = vm->sp;
                                   csp = vm->csp;
@@ -22403,8 +22403,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                 else
                                 {
-                                  return_value_neko_alloc_string$359=neko_alloc_string("Stack Overflow");
-                                  neko_val_throw(return_value_neko_alloc_string$359);
+                                  return_value_neko_alloc_string_359=neko_alloc_string("Stack Overflow");
+                                  neko_val_throw(return_value_neko_alloc_string_359);
                                 }
                               }
 
@@ -22418,18 +22418,18 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                               *csp = (signed long int)m;
                               vm->sp = sp;
                               vm->csp = csp;
-                              struct _value *return_value_neko_alloc_string$361;
-                              return_value_neko_alloc_string$361=neko_alloc_string("Unsupported operation");
-                              neko_val_throw(return_value_neko_alloc_string$361);
+                              struct _value *return_value_neko_alloc_string_361;
+                              return_value_neko_alloc_string_361=neko_alloc_string("Unsupported operation");
+                              neko_val_throw(return_value_neko_alloc_string_361);
                             }
 
                             else
                             {
                               if(csp + 4l >= sp)
                               {
-                                signed int return_value_neko_stack_expand$363;
-                                return_value_neko_stack_expand$363=neko_stack_expand(sp, csp, vm);
-                                if(!(return_value_neko_stack_expand$363 == 0))
+                                signed int return_value_neko_stack_expand_363;
+                                return_value_neko_stack_expand_363=neko_stack_expand(sp, csp, vm);
+                                if(!(return_value_neko_stack_expand_363 == 0))
                                 {
                                   sp = vm->sp;
                                   csp = vm->csp;
@@ -22437,8 +22437,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                 else
                                 {
-                                  return_value_neko_alloc_string$362=neko_alloc_string("Stack Overflow");
-                                  neko_val_throw(return_value_neko_alloc_string$362);
+                                  return_value_neko_alloc_string_362=neko_alloc_string("Stack Overflow");
+                                  neko_val_throw(return_value_neko_alloc_string_362);
                                 }
                               }
 
@@ -22452,26 +22452,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                               *csp = (signed long int)m;
                               vm->sp = sp;
                               vm->csp = csp;
-                              struct _value *return_value_neko_val_callEx$364;
-                              return_value_neko_val_callEx$364=neko_val_callEx(neko_interp_loop$$1$$1$$1$$49$$1$$_o, neko_interp_loop$$1$$1$$1$$49$$1$$_f, &neko_interp_loop$$1$$1$$1$$49$$1$$_arg, 1, (struct _value **)(void *)0);
-                              acc = (signed long int)return_value_neko_val_callEx$364;
+                              struct _value *return_value_neko_val_callEx_364;
+                              return_value_neko_val_callEx_364=neko_val_callEx(neko_interp_loop__1__1__1__49__1___o, neko_interp_loop__1__1__1__49__1___f, &neko_interp_loop__1__1__1__49__1___arg, 1, (struct _value **)(void *)0);
+                              acc = (signed long int)return_value_neko_val_callEx_364;
                               sp = vm->sp;
                               csp = vm->csp;
                               m = (struct _neko_module *)*csp;
-                              tmp_post$365 = csp;
+                              tmp_post_365 = csp;
                               csp = csp - 1l;
-                              *tmp_post$365 = (signed long int)0;
+                              *tmp_post_365 = (signed long int)0;
                               vm->vthis = (struct _value *)*csp;
-                              tmp_post$366 = csp;
+                              tmp_post_366 = csp;
                               csp = csp - 1l;
-                              *tmp_post$366 = (signed long int)0;
+                              *tmp_post_366 = (signed long int)0;
                               vm->env = (struct _value *)*csp;
-                              tmp_post$367 = csp;
+                              tmp_post_367 = csp;
                               csp = csp - 1l;
-                              *tmp_post$367 = (signed long int)0;
-                              tmp_post$368 = csp;
+                              *tmp_post_367 = (signed long int)0;
+                              tmp_post_368 = csp;
                               csp = csp - 1l;
-                              *tmp_post$368 = (signed long int)0;
+                              *tmp_post_368 = (signed long int)0;
                             }
                           }
 
@@ -22479,9 +22479,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                           {
                             if(csp + 4l >= sp)
                             {
-                              signed int return_value_neko_stack_expand$370;
-                              return_value_neko_stack_expand$370=neko_stack_expand(sp, csp, vm);
-                              if(!(return_value_neko_stack_expand$370 == 0))
+                              signed int return_value_neko_stack_expand_370;
+                              return_value_neko_stack_expand_370=neko_stack_expand(sp, csp, vm);
+                              if(!(return_value_neko_stack_expand_370 == 0))
                               {
                                 sp = vm->sp;
                                 csp = vm->csp;
@@ -22489,8 +22489,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                               else
                               {
-                                return_value_neko_alloc_string$369=neko_alloc_string("Stack Overflow");
-                                neko_val_throw(return_value_neko_alloc_string$369);
+                                return_value_neko_alloc_string_369=neko_alloc_string("Stack Overflow");
+                                neko_val_throw(return_value_neko_alloc_string_369);
                               }
                             }
 
@@ -22504,49 +22504,49 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                             *csp = (signed long int)m;
                             vm->sp = sp;
                             vm->csp = csp;
-                            struct _value *return_value_neko_alloc_string$371;
-                            return_value_neko_alloc_string$371=neko_alloc_string("Invalid operation (-)");
-                            neko_val_throw(return_value_neko_alloc_string$371);
+                            struct _value *return_value_neko_alloc_string_371;
+                            return_value_neko_alloc_string_371=neko_alloc_string("Invalid operation (-)");
+                            neko_val_throw(return_value_neko_alloc_string_371);
                           }
                       goto __CPROVER_DUMP_L627;
                     }
 
                     if(!((1l & *sp) == 0l))
                     {
-                      if((signed int)*((enum anonymous$7 *)acc) == VAL_FLOAT)
+                      if((signed int)*((enum anonymous_7 *)acc) == VAL_FLOAT)
                       {
-                        return_value_neko_alloc_float$372=neko_alloc_float((double)((signed int)(signed long int)*sp >> 1) - ((struct anonymous$25 *)acc)->f);
-                        acc = (signed long int)return_value_neko_alloc_float$372;
+                        return_value_neko_alloc_float_372=neko_alloc_float((double)((signed int)(signed long int)*sp >> 1) - ((struct anonymous_25 *)acc)->f);
+                        acc = (signed long int)return_value_neko_alloc_float_372;
                       }
 
                       else
-                        if((signed int)*((enum anonymous$7 *)acc) == VAL_INT32)
+                        if((signed int)*((enum anonymous_7 *)acc) == VAL_INT32)
                         {
-                          if(!((1073741824u + (unsigned int)((signed int)*sp >> 1) + -((unsigned int)((struct anonymous$26 *)acc)->i) & 0x80000000) == 0u))
+                          if(!((1073741824u + (unsigned int)((signed int)*sp >> 1) + -((unsigned int)((struct anonymous_26 *)acc)->i) & 0x80000000) == 0u))
                           {
-                            return_value_neko_alloc_int32$373=neko_alloc_int32(((signed int)(signed long int)*sp >> 1) - ((struct anonymous$26 *)acc)->i);
-                            tmp_if_expr$374 = return_value_neko_alloc_int32$373;
+                            return_value_neko_alloc_int32_373=neko_alloc_int32(((signed int)(signed long int)*sp >> 1) - ((struct anonymous_26 *)acc)->i);
+                            tmp_if_expr_374 = return_value_neko_alloc_int32_373;
                           }
 
                           else
-                            tmp_if_expr$374 = (struct _value *)(signed long int)((signed int)(((signed int)(signed long int)*sp >> 1) - ((struct anonymous$26 *)acc)->i) << 1 | 1);
-                          acc = (signed long int)tmp_if_expr$374;
+                            tmp_if_expr_374 = (struct _value *)(signed long int)((signed int)(((signed int)(signed long int)*sp >> 1) - ((struct anonymous_26 *)acc)->i) << 1 | 1);
+                          acc = (signed long int)tmp_if_expr_374;
                         }
 
                         else
-                          if((signed int)*((enum anonymous$7 *)acc) == VAL_OBJECT)
+                          if((signed int)*((enum anonymous_7 *)acc) == VAL_OBJECT)
                           {
-                            struct _value *neko_interp_loop$$1$$1$$1$$50$$1$$_o = (struct _value *)acc;
-                            struct _value *neko_interp_loop$$1$$1$$1$$50$$1$$_arg = (struct _value *)*sp;
-                            struct _value *neko_interp_loop$$1$$1$$1$$50$$1$$_f;
-                            neko_interp_loop$$1$$1$$1$$50$$1$$_f=neko_val_field(neko_interp_loop$$1$$1$$1$$50$$1$$_o, id_rsub);
-                            if(neko_interp_loop$$1$$1$$1$$50$$1$$_f == val_null)
+                            struct _value *neko_interp_loop__1__1__1__50__1___o = (struct _value *)acc;
+                            struct _value *neko_interp_loop__1__1__1__50__1___arg = (struct _value *)*sp;
+                            struct _value *neko_interp_loop__1__1__1__50__1___f;
+                            neko_interp_loop__1__1__1__50__1___f=neko_val_field(neko_interp_loop__1__1__1__50__1___o, id_rsub);
+                            if(neko_interp_loop__1__1__1__50__1___f == val_null)
                             {
                               if(csp + 4l >= sp)
                               {
-                                signed int return_value_neko_stack_expand$376;
-                                return_value_neko_stack_expand$376=neko_stack_expand(sp, csp, vm);
-                                if(!(return_value_neko_stack_expand$376 == 0))
+                                signed int return_value_neko_stack_expand_376;
+                                return_value_neko_stack_expand_376=neko_stack_expand(sp, csp, vm);
+                                if(!(return_value_neko_stack_expand_376 == 0))
                                 {
                                   sp = vm->sp;
                                   csp = vm->csp;
@@ -22554,8 +22554,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                 else
                                 {
-                                  return_value_neko_alloc_string$375=neko_alloc_string("Stack Overflow");
-                                  neko_val_throw(return_value_neko_alloc_string$375);
+                                  return_value_neko_alloc_string_375=neko_alloc_string("Stack Overflow");
+                                  neko_val_throw(return_value_neko_alloc_string_375);
                                 }
                               }
 
@@ -22569,18 +22569,18 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                               *csp = (signed long int)m;
                               vm->sp = sp;
                               vm->csp = csp;
-                              struct _value *return_value_neko_alloc_string$377;
-                              return_value_neko_alloc_string$377=neko_alloc_string("Unsupported operation");
-                              neko_val_throw(return_value_neko_alloc_string$377);
+                              struct _value *return_value_neko_alloc_string_377;
+                              return_value_neko_alloc_string_377=neko_alloc_string("Unsupported operation");
+                              neko_val_throw(return_value_neko_alloc_string_377);
                             }
 
                             else
                             {
                               if(csp + 4l >= sp)
                               {
-                                signed int return_value_neko_stack_expand$379;
-                                return_value_neko_stack_expand$379=neko_stack_expand(sp, csp, vm);
-                                if(!(return_value_neko_stack_expand$379 == 0))
+                                signed int return_value_neko_stack_expand_379;
+                                return_value_neko_stack_expand_379=neko_stack_expand(sp, csp, vm);
+                                if(!(return_value_neko_stack_expand_379 == 0))
                                 {
                                   sp = vm->sp;
                                   csp = vm->csp;
@@ -22588,8 +22588,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                 else
                                 {
-                                  return_value_neko_alloc_string$378=neko_alloc_string("Stack Overflow");
-                                  neko_val_throw(return_value_neko_alloc_string$378);
+                                  return_value_neko_alloc_string_378=neko_alloc_string("Stack Overflow");
+                                  neko_val_throw(return_value_neko_alloc_string_378);
                                 }
                               }
 
@@ -22603,26 +22603,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                               *csp = (signed long int)m;
                               vm->sp = sp;
                               vm->csp = csp;
-                              struct _value *return_value_neko_val_callEx$380;
-                              return_value_neko_val_callEx$380=neko_val_callEx(neko_interp_loop$$1$$1$$1$$50$$1$$_o, neko_interp_loop$$1$$1$$1$$50$$1$$_f, &neko_interp_loop$$1$$1$$1$$50$$1$$_arg, 1, (struct _value **)(void *)0);
-                              acc = (signed long int)return_value_neko_val_callEx$380;
+                              struct _value *return_value_neko_val_callEx_380;
+                              return_value_neko_val_callEx_380=neko_val_callEx(neko_interp_loop__1__1__1__50__1___o, neko_interp_loop__1__1__1__50__1___f, &neko_interp_loop__1__1__1__50__1___arg, 1, (struct _value **)(void *)0);
+                              acc = (signed long int)return_value_neko_val_callEx_380;
                               sp = vm->sp;
                               csp = vm->csp;
                               m = (struct _neko_module *)*csp;
-                              tmp_post$381 = csp;
+                              tmp_post_381 = csp;
                               csp = csp - 1l;
-                              *tmp_post$381 = (signed long int)0;
+                              *tmp_post_381 = (signed long int)0;
                               vm->vthis = (struct _value *)*csp;
-                              tmp_post$382 = csp;
+                              tmp_post_382 = csp;
                               csp = csp - 1l;
-                              *tmp_post$382 = (signed long int)0;
+                              *tmp_post_382 = (signed long int)0;
                               vm->env = (struct _value *)*csp;
-                              tmp_post$383 = csp;
+                              tmp_post_383 = csp;
                               csp = csp - 1l;
-                              *tmp_post$383 = (signed long int)0;
-                              tmp_post$384 = csp;
+                              *tmp_post_383 = (signed long int)0;
+                              tmp_post_384 = csp;
                               csp = csp - 1l;
-                              *tmp_post$384 = (signed long int)0;
+                              *tmp_post_384 = (signed long int)0;
                             }
                           }
 
@@ -22630,9 +22630,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                           {
                             if(csp + 4l >= sp)
                             {
-                              signed int return_value_neko_stack_expand$386;
-                              return_value_neko_stack_expand$386=neko_stack_expand(sp, csp, vm);
-                              if(!(return_value_neko_stack_expand$386 == 0))
+                              signed int return_value_neko_stack_expand_386;
+                              return_value_neko_stack_expand_386=neko_stack_expand(sp, csp, vm);
+                              if(!(return_value_neko_stack_expand_386 == 0))
                               {
                                 sp = vm->sp;
                                 csp = vm->csp;
@@ -22640,8 +22640,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                               else
                               {
-                                return_value_neko_alloc_string$385=neko_alloc_string("Stack Overflow");
-                                neko_val_throw(return_value_neko_alloc_string$385);
+                                return_value_neko_alloc_string_385=neko_alloc_string("Stack Overflow");
+                                neko_val_throw(return_value_neko_alloc_string_385);
                               }
                             }
 
@@ -22655,26 +22655,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                             *csp = (signed long int)m;
                             vm->sp = sp;
                             vm->csp = csp;
-                            struct _value *return_value_neko_alloc_string$387;
-                            return_value_neko_alloc_string$387=neko_alloc_string("Invalid operation (-)");
-                            neko_val_throw(return_value_neko_alloc_string$387);
+                            struct _value *return_value_neko_alloc_string_387;
+                            return_value_neko_alloc_string_387=neko_alloc_string("Invalid operation (-)");
+                            neko_val_throw(return_value_neko_alloc_string_387);
                           }
                       goto __CPROVER_DUMP_L627;
                     }
 
-                    if((signed int)*((enum anonymous$7 *)acc) == VAL_FLOAT)
+                    if((signed int)*((enum anonymous_7 *)acc) == VAL_FLOAT)
                     {
-                      if((signed int)*((enum anonymous$7 *)*sp) == VAL_FLOAT)
+                      if((signed int)*((enum anonymous_7 *)*sp) == VAL_FLOAT)
                       {
-                        return_value_neko_alloc_float$388=neko_alloc_float(((struct anonymous$25 *)*sp)->f - ((struct anonymous$25 *)acc)->f);
-                        acc = (signed long int)return_value_neko_alloc_float$388;
+                        return_value_neko_alloc_float_388=neko_alloc_float(((struct anonymous_25 *)*sp)->f - ((struct anonymous_25 *)acc)->f);
+                        acc = (signed long int)return_value_neko_alloc_float_388;
                       }
 
                       else
-                        if((signed int)*((enum anonymous$7 *)*sp) == VAL_INT32)
+                        if((signed int)*((enum anonymous_7 *)*sp) == VAL_INT32)
                         {
-                          return_value_neko_alloc_float$389=neko_alloc_float((double)((struct anonymous$26 *)*sp)->i - ((struct anonymous$25 *)acc)->f);
-                          acc = (signed long int)return_value_neko_alloc_float$389;
+                          return_value_neko_alloc_float_389=neko_alloc_float((double)((struct anonymous_26 *)*sp)->i - ((struct anonymous_25 *)acc)->f);
+                          acc = (signed long int)return_value_neko_alloc_float_389;
                         }
 
                         else
@@ -22682,26 +22682,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                       goto __CPROVER_DUMP_L627;
                     }
 
-                    if((signed int)*((enum anonymous$7 *)acc) == VAL_INT32)
+                    if((signed int)*((enum anonymous_7 *)acc) == VAL_INT32)
                     {
-                      if((signed int)*((enum anonymous$7 *)*sp) == VAL_INT32)
+                      if((signed int)*((enum anonymous_7 *)*sp) == VAL_INT32)
                       {
-                        if(!((1073741824u + (unsigned int)((struct anonymous$26 *)*sp)->i + -((unsigned int)((struct anonymous$26 *)acc)->i) & 0x80000000) == 0u))
+                        if(!((1073741824u + (unsigned int)((struct anonymous_26 *)*sp)->i + -((unsigned int)((struct anonymous_26 *)acc)->i) & 0x80000000) == 0u))
                         {
-                          return_value_neko_alloc_int32$390=neko_alloc_int32(((struct anonymous$26 *)*sp)->i - ((struct anonymous$26 *)acc)->i);
-                          tmp_if_expr$391 = return_value_neko_alloc_int32$390;
+                          return_value_neko_alloc_int32_390=neko_alloc_int32(((struct anonymous_26 *)*sp)->i - ((struct anonymous_26 *)acc)->i);
+                          tmp_if_expr_391 = return_value_neko_alloc_int32_390;
                         }
 
                         else
-                          tmp_if_expr$391 = (struct _value *)(signed long int)((signed int)(((struct anonymous$26 *)*sp)->i - ((struct anonymous$26 *)acc)->i) << 1 | 1);
-                        acc = (signed long int)tmp_if_expr$391;
+                          tmp_if_expr_391 = (struct _value *)(signed long int)((signed int)(((struct anonymous_26 *)*sp)->i - ((struct anonymous_26 *)acc)->i) << 1 | 1);
+                        acc = (signed long int)tmp_if_expr_391;
                       }
 
                       else
-                        if((signed int)*((enum anonymous$7 *)*sp) == VAL_FLOAT)
+                        if((signed int)*((enum anonymous_7 *)*sp) == VAL_FLOAT)
                         {
-                          return_value_neko_alloc_float$392=neko_alloc_float(((struct anonymous$25 *)*sp)->f - (double)((struct anonymous$26 *)acc)->i);
-                          acc = (signed long int)return_value_neko_alloc_float$392;
+                          return_value_neko_alloc_float_392=neko_alloc_float(((struct anonymous_25 *)*sp)->f - (double)((struct anonymous_26 *)acc)->i);
+                          acc = (signed long int)return_value_neko_alloc_float_392;
                         }
 
                         else
@@ -22716,23 +22716,23 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
               id_sub_next:
                 ;
-                if(!((signed int)*((enum anonymous$7 *)*sp) == VAL_OBJECT))
+                if(!((signed int)*((enum anonymous_7 *)*sp) == VAL_OBJECT))
                   goto id_sub_next2;
 
-                struct _value *neko_interp_loop$$1$$1$$1$$53$$1$$_o = (struct _value *)*sp;
-                struct _value *neko_interp_loop$$1$$1$$1$$53$$1$$_arg = (struct _value *)acc;
-                struct _value *neko_interp_loop$$1$$1$$1$$53$$1$$_f;
-                neko_interp_loop$$1$$1$$1$$53$$1$$_f=neko_val_field(neko_interp_loop$$1$$1$$1$$53$$1$$_o, id_sub);
-                if(neko_interp_loop$$1$$1$$1$$53$$1$$_f == val_null)
+                struct _value *neko_interp_loop__1__1__1__53__1___o = (struct _value *)*sp;
+                struct _value *neko_interp_loop__1__1__1__53__1___arg = (struct _value *)acc;
+                struct _value *neko_interp_loop__1__1__1__53__1___f;
+                neko_interp_loop__1__1__1__53__1___f=neko_val_field(neko_interp_loop__1__1__1__53__1___o, id_sub);
+                if(neko_interp_loop__1__1__1__53__1___f == val_null)
                   goto id_sub_next2;
 
                 else
                 {
                   if(csp + 4l >= sp)
                   {
-                    signed int return_value_neko_stack_expand$394;
-                    return_value_neko_stack_expand$394=neko_stack_expand(sp, csp, vm);
-                    if(!(return_value_neko_stack_expand$394 == 0))
+                    signed int return_value_neko_stack_expand_394;
+                    return_value_neko_stack_expand_394=neko_stack_expand(sp, csp, vm);
+                    if(!(return_value_neko_stack_expand_394 == 0))
                     {
                       sp = vm->sp;
                       csp = vm->csp;
@@ -22740,8 +22740,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                     else
                     {
-                      return_value_neko_alloc_string$393=neko_alloc_string("Stack Overflow");
-                      neko_val_throw(return_value_neko_alloc_string$393);
+                      return_value_neko_alloc_string_393=neko_alloc_string("Stack Overflow");
+                      neko_val_throw(return_value_neko_alloc_string_393);
                     }
                   }
 
@@ -22755,26 +22755,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                   *csp = (signed long int)m;
                   vm->sp = sp;
                   vm->csp = csp;
-                  struct _value *return_value_neko_val_callEx$395;
-                  return_value_neko_val_callEx$395=neko_val_callEx(neko_interp_loop$$1$$1$$1$$53$$1$$_o, neko_interp_loop$$1$$1$$1$$53$$1$$_f, &neko_interp_loop$$1$$1$$1$$53$$1$$_arg, 1, (struct _value **)(void *)0);
-                  acc = (signed long int)return_value_neko_val_callEx$395;
+                  struct _value *return_value_neko_val_callEx_395;
+                  return_value_neko_val_callEx_395=neko_val_callEx(neko_interp_loop__1__1__1__53__1___o, neko_interp_loop__1__1__1__53__1___f, &neko_interp_loop__1__1__1__53__1___arg, 1, (struct _value **)(void *)0);
+                  acc = (signed long int)return_value_neko_val_callEx_395;
                   sp = vm->sp;
                   csp = vm->csp;
                   m = (struct _neko_module *)*csp;
-                  tmp_post$396 = csp;
+                  tmp_post_396 = csp;
                   csp = csp - 1l;
-                  *tmp_post$396 = (signed long int)0;
+                  *tmp_post_396 = (signed long int)0;
                   vm->vthis = (struct _value *)*csp;
-                  tmp_post$397 = csp;
+                  tmp_post_397 = csp;
                   csp = csp - 1l;
-                  *tmp_post$397 = (signed long int)0;
+                  *tmp_post_397 = (signed long int)0;
                   vm->env = (struct _value *)*csp;
-                  tmp_post$398 = csp;
+                  tmp_post_398 = csp;
                   csp = csp - 1l;
-                  *tmp_post$398 = (signed long int)0;
-                  tmp_post$399 = csp;
+                  *tmp_post_398 = (signed long int)0;
+                  tmp_post_399 = csp;
                   csp = csp - 1l;
-                  *tmp_post$399 = (signed long int)0;
+                  *tmp_post_399 = (signed long int)0;
                 }
               }
 
@@ -22783,19 +22783,19 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
               id_sub_next2:
                 ;
-                if((signed int)*((enum anonymous$7 *)acc) == VAL_OBJECT)
+                if((signed int)*((enum anonymous_7 *)acc) == VAL_OBJECT)
                 {
-                  struct _value *neko_interp_loop$$1$$1$$1$$53$$2$$1$$_o = (struct _value *)acc;
-                  struct _value *neko_interp_loop$$1$$1$$1$$53$$2$$1$$_arg = (struct _value *)*sp;
-                  struct _value *neko_interp_loop$$1$$1$$1$$53$$2$$1$$_f;
-                  neko_interp_loop$$1$$1$$1$$53$$2$$1$$_f=neko_val_field(neko_interp_loop$$1$$1$$1$$53$$2$$1$$_o, id_rsub);
-                  if(neko_interp_loop$$1$$1$$1$$53$$2$$1$$_f == val_null)
+                  struct _value *neko_interp_loop__1__1__1__53__2__1___o = (struct _value *)acc;
+                  struct _value *neko_interp_loop__1__1__1__53__2__1___arg = (struct _value *)*sp;
+                  struct _value *neko_interp_loop__1__1__1__53__2__1___f;
+                  neko_interp_loop__1__1__1__53__2__1___f=neko_val_field(neko_interp_loop__1__1__1__53__2__1___o, id_rsub);
+                  if(neko_interp_loop__1__1__1__53__2__1___f == val_null)
                   {
                     if(csp + 4l >= sp)
                     {
-                      signed int return_value_neko_stack_expand$401;
-                      return_value_neko_stack_expand$401=neko_stack_expand(sp, csp, vm);
-                      if(!(return_value_neko_stack_expand$401 == 0))
+                      signed int return_value_neko_stack_expand_401;
+                      return_value_neko_stack_expand_401=neko_stack_expand(sp, csp, vm);
+                      if(!(return_value_neko_stack_expand_401 == 0))
                       {
                         sp = vm->sp;
                         csp = vm->csp;
@@ -22803,8 +22803,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                       else
                       {
-                        return_value_neko_alloc_string$400=neko_alloc_string("Stack Overflow");
-                        neko_val_throw(return_value_neko_alloc_string$400);
+                        return_value_neko_alloc_string_400=neko_alloc_string("Stack Overflow");
+                        neko_val_throw(return_value_neko_alloc_string_400);
                       }
                     }
 
@@ -22818,18 +22818,18 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                     *csp = (signed long int)m;
                     vm->sp = sp;
                     vm->csp = csp;
-                    struct _value *return_value_neko_alloc_string$402;
-                    return_value_neko_alloc_string$402=neko_alloc_string("Unsupported operation");
-                    neko_val_throw(return_value_neko_alloc_string$402);
+                    struct _value *return_value_neko_alloc_string_402;
+                    return_value_neko_alloc_string_402=neko_alloc_string("Unsupported operation");
+                    neko_val_throw(return_value_neko_alloc_string_402);
                   }
 
                   else
                   {
                     if(csp + 4l >= sp)
                     {
-                      signed int return_value_neko_stack_expand$404;
-                      return_value_neko_stack_expand$404=neko_stack_expand(sp, csp, vm);
-                      if(!(return_value_neko_stack_expand$404 == 0))
+                      signed int return_value_neko_stack_expand_404;
+                      return_value_neko_stack_expand_404=neko_stack_expand(sp, csp, vm);
+                      if(!(return_value_neko_stack_expand_404 == 0))
                       {
                         sp = vm->sp;
                         csp = vm->csp;
@@ -22837,8 +22837,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                       else
                       {
-                        return_value_neko_alloc_string$403=neko_alloc_string("Stack Overflow");
-                        neko_val_throw(return_value_neko_alloc_string$403);
+                        return_value_neko_alloc_string_403=neko_alloc_string("Stack Overflow");
+                        neko_val_throw(return_value_neko_alloc_string_403);
                       }
                     }
 
@@ -22852,26 +22852,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                     *csp = (signed long int)m;
                     vm->sp = sp;
                     vm->csp = csp;
-                    struct _value *return_value_neko_val_callEx$405;
-                    return_value_neko_val_callEx$405=neko_val_callEx(neko_interp_loop$$1$$1$$1$$53$$2$$1$$_o, neko_interp_loop$$1$$1$$1$$53$$2$$1$$_f, &neko_interp_loop$$1$$1$$1$$53$$2$$1$$_arg, 1, (struct _value **)(void *)0);
-                    acc = (signed long int)return_value_neko_val_callEx$405;
+                    struct _value *return_value_neko_val_callEx_405;
+                    return_value_neko_val_callEx_405=neko_val_callEx(neko_interp_loop__1__1__1__53__2__1___o, neko_interp_loop__1__1__1__53__2__1___f, &neko_interp_loop__1__1__1__53__2__1___arg, 1, (struct _value **)(void *)0);
+                    acc = (signed long int)return_value_neko_val_callEx_405;
                     sp = vm->sp;
                     csp = vm->csp;
                     m = (struct _neko_module *)*csp;
-                    tmp_post$406 = csp;
+                    tmp_post_406 = csp;
                     csp = csp - 1l;
-                    *tmp_post$406 = (signed long int)0;
+                    *tmp_post_406 = (signed long int)0;
                     vm->vthis = (struct _value *)*csp;
-                    tmp_post$407 = csp;
+                    tmp_post_407 = csp;
                     csp = csp - 1l;
-                    *tmp_post$407 = (signed long int)0;
+                    *tmp_post_407 = (signed long int)0;
                     vm->env = (struct _value *)*csp;
-                    tmp_post$408 = csp;
+                    tmp_post_408 = csp;
                     csp = csp - 1l;
-                    *tmp_post$408 = (signed long int)0;
-                    tmp_post$409 = csp;
+                    *tmp_post_408 = (signed long int)0;
+                    tmp_post_409 = csp;
                     csp = csp - 1l;
-                    *tmp_post$409 = (signed long int)0;
+                    *tmp_post_409 = (signed long int)0;
                   }
                 }
 
@@ -22879,9 +22879,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                 {
                   if(csp + 4l >= sp)
                   {
-                    signed int return_value_neko_stack_expand$411;
-                    return_value_neko_stack_expand$411=neko_stack_expand(sp, csp, vm);
-                    if(!(return_value_neko_stack_expand$411 == 0))
+                    signed int return_value_neko_stack_expand_411;
+                    return_value_neko_stack_expand_411=neko_stack_expand(sp, csp, vm);
+                    if(!(return_value_neko_stack_expand_411 == 0))
                     {
                       sp = vm->sp;
                       csp = vm->csp;
@@ -22889,8 +22889,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                     else
                     {
-                      return_value_neko_alloc_string$410=neko_alloc_string("Stack Overflow");
-                      neko_val_throw(return_value_neko_alloc_string$410);
+                      return_value_neko_alloc_string_410=neko_alloc_string("Stack Overflow");
+                      neko_val_throw(return_value_neko_alloc_string_410);
                     }
                   }
 
@@ -22904,17 +22904,17 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                   *csp = (signed long int)m;
                   vm->sp = sp;
                   vm->csp = csp;
-                  struct _value *return_value_neko_alloc_string$412;
-                  return_value_neko_alloc_string$412=neko_alloc_string("Invalid operation (-)");
-                  neko_val_throw(return_value_neko_alloc_string$412);
+                  struct _value *return_value_neko_alloc_string_412;
+                  return_value_neko_alloc_string_412=neko_alloc_string("Invalid operation (-)");
+                  neko_val_throw(return_value_neko_alloc_string_412);
                 }
               }
 
             __CPROVER_DUMP_L627:
               ;
-              tmp_post$414 = sp;
+              tmp_post_414 = sp;
               sp = sp + 1l;
-              *tmp_post$414 = (signed long int)0;
+              *tmp_post_414 = (signed long int)0;
               *pc++;
               if(*pc++ == &&id_mod_next2)
                 goto id_mod_next2;
@@ -23160,60 +23160,60 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
               LabelMult:
                 ;
                 if(!((1l & acc) == 0l))
-                  tmp_if_expr$474 = (*sp & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_474 = (*sp & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$474 = (_Bool)0;
-                if(tmp_if_expr$474)
+                  tmp_if_expr_474 = (_Bool)0;
+                if(tmp_if_expr_474)
                 {
                   if(!(((unsigned int)((signed int)*sp >> 1) * (unsigned int)((signed int)acc >> 1) + 1073741824u & 0x80000000) == 0u))
                   {
-                    return_value_neko_alloc_int32$415=neko_alloc_int32(((signed int)(signed long int)*sp >> 1) * ((signed int)(signed long int)acc >> 1));
-                    tmp_if_expr$416 = return_value_neko_alloc_int32$415;
+                    return_value_neko_alloc_int32_415=neko_alloc_int32(((signed int)(signed long int)*sp >> 1) * ((signed int)(signed long int)acc >> 1));
+                    tmp_if_expr_416 = return_value_neko_alloc_int32_415;
                   }
 
                   else
-                    tmp_if_expr$416 = (struct _value *)(signed long int)((signed int)(((signed int)(signed long int)*sp >> 1) * ((signed int)(signed long int)acc >> 1)) << 1 | 1);
-                  acc = (signed long int)tmp_if_expr$416;
+                    tmp_if_expr_416 = (struct _value *)(signed long int)((signed int)(((signed int)(signed long int)*sp >> 1) * ((signed int)(signed long int)acc >> 1)) << 1 | 1);
+                  acc = (signed long int)tmp_if_expr_416;
                   goto __CPROVER_DUMP_L708;
                 }
 
                 if(!((1l & acc) == 0l))
                 {
-                  if((signed int)*((enum anonymous$7 *)*sp) == VAL_FLOAT)
+                  if((signed int)*((enum anonymous_7 *)*sp) == VAL_FLOAT)
                   {
-                    return_value_neko_alloc_float$417=neko_alloc_float(((struct anonymous$25 *)*sp)->f * (double)((signed int)(signed long int)acc >> 1));
-                    acc = (signed long int)return_value_neko_alloc_float$417;
+                    return_value_neko_alloc_float_417=neko_alloc_float(((struct anonymous_25 *)*sp)->f * (double)((signed int)(signed long int)acc >> 1));
+                    acc = (signed long int)return_value_neko_alloc_float_417;
                   }
 
                   else
-                    if((signed int)*((enum anonymous$7 *)*sp) == VAL_INT32)
+                    if((signed int)*((enum anonymous_7 *)*sp) == VAL_INT32)
                     {
-                      if(!(((unsigned int)((signed int)acc >> 1) * (unsigned int)((struct anonymous$26 *)*sp)->i + 1073741824u & 0x80000000) == 0u))
+                      if(!(((unsigned int)((signed int)acc >> 1) * (unsigned int)((struct anonymous_26 *)*sp)->i + 1073741824u & 0x80000000) == 0u))
                       {
-                        return_value_neko_alloc_int32$418=neko_alloc_int32(((struct anonymous$26 *)*sp)->i * ((signed int)(signed long int)acc >> 1));
-                        tmp_if_expr$419 = return_value_neko_alloc_int32$418;
+                        return_value_neko_alloc_int32_418=neko_alloc_int32(((struct anonymous_26 *)*sp)->i * ((signed int)(signed long int)acc >> 1));
+                        tmp_if_expr_419 = return_value_neko_alloc_int32_418;
                       }
 
                       else
-                        tmp_if_expr$419 = (struct _value *)(signed long int)((signed int)(((struct anonymous$26 *)*sp)->i * ((signed int)(signed long int)acc >> 1)) << 1 | 1);
-                      acc = (signed long int)tmp_if_expr$419;
+                        tmp_if_expr_419 = (struct _value *)(signed long int)((signed int)(((struct anonymous_26 *)*sp)->i * ((signed int)(signed long int)acc >> 1)) << 1 | 1);
+                      acc = (signed long int)tmp_if_expr_419;
                     }
 
                     else
-                      if((signed int)*((enum anonymous$7 *)*sp) == VAL_OBJECT)
+                      if((signed int)*((enum anonymous_7 *)*sp) == VAL_OBJECT)
                       {
-                        struct _value *neko_interp_loop$$1$$1$$1$$54$$1$$_o = (struct _value *)*sp;
-                        struct _value *neko_interp_loop$$1$$1$$1$$54$$1$$_arg = (struct _value *)acc;
-                        struct _value *neko_interp_loop$$1$$1$$1$$54$$1$$_f;
-                        neko_interp_loop$$1$$1$$1$$54$$1$$_f=neko_val_field(neko_interp_loop$$1$$1$$1$$54$$1$$_o, id_mult);
-                        if(neko_interp_loop$$1$$1$$1$$54$$1$$_f == val_null)
+                        struct _value *neko_interp_loop__1__1__1__54__1___o = (struct _value *)*sp;
+                        struct _value *neko_interp_loop__1__1__1__54__1___arg = (struct _value *)acc;
+                        struct _value *neko_interp_loop__1__1__1__54__1___f;
+                        neko_interp_loop__1__1__1__54__1___f=neko_val_field(neko_interp_loop__1__1__1__54__1___o, id_mult);
+                        if(neko_interp_loop__1__1__1__54__1___f == val_null)
                         {
                           if(csp + 4l >= sp)
                           {
-                            signed int return_value_neko_stack_expand$421;
-                            return_value_neko_stack_expand$421=neko_stack_expand(sp, csp, vm);
-                            if(!(return_value_neko_stack_expand$421 == 0))
+                            signed int return_value_neko_stack_expand_421;
+                            return_value_neko_stack_expand_421=neko_stack_expand(sp, csp, vm);
+                            if(!(return_value_neko_stack_expand_421 == 0))
                             {
                               sp = vm->sp;
                               csp = vm->csp;
@@ -23221,8 +23221,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                             else
                             {
-                              return_value_neko_alloc_string$420=neko_alloc_string("Stack Overflow");
-                              neko_val_throw(return_value_neko_alloc_string$420);
+                              return_value_neko_alloc_string_420=neko_alloc_string("Stack Overflow");
+                              neko_val_throw(return_value_neko_alloc_string_420);
                             }
                           }
 
@@ -23236,18 +23236,18 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                           *csp = (signed long int)m;
                           vm->sp = sp;
                           vm->csp = csp;
-                          struct _value *return_value_neko_alloc_string$422;
-                          return_value_neko_alloc_string$422=neko_alloc_string("Unsupported operation");
-                          neko_val_throw(return_value_neko_alloc_string$422);
+                          struct _value *return_value_neko_alloc_string_422;
+                          return_value_neko_alloc_string_422=neko_alloc_string("Unsupported operation");
+                          neko_val_throw(return_value_neko_alloc_string_422);
                         }
 
                         else
                         {
                           if(csp + 4l >= sp)
                           {
-                            signed int return_value_neko_stack_expand$424;
-                            return_value_neko_stack_expand$424=neko_stack_expand(sp, csp, vm);
-                            if(!(return_value_neko_stack_expand$424 == 0))
+                            signed int return_value_neko_stack_expand_424;
+                            return_value_neko_stack_expand_424=neko_stack_expand(sp, csp, vm);
+                            if(!(return_value_neko_stack_expand_424 == 0))
                             {
                               sp = vm->sp;
                               csp = vm->csp;
@@ -23255,8 +23255,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                             else
                             {
-                              return_value_neko_alloc_string$423=neko_alloc_string("Stack Overflow");
-                              neko_val_throw(return_value_neko_alloc_string$423);
+                              return_value_neko_alloc_string_423=neko_alloc_string("Stack Overflow");
+                              neko_val_throw(return_value_neko_alloc_string_423);
                             }
                           }
 
@@ -23270,26 +23270,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                           *csp = (signed long int)m;
                           vm->sp = sp;
                           vm->csp = csp;
-                          struct _value *return_value_neko_val_callEx$425;
-                          return_value_neko_val_callEx$425=neko_val_callEx(neko_interp_loop$$1$$1$$1$$54$$1$$_o, neko_interp_loop$$1$$1$$1$$54$$1$$_f, &neko_interp_loop$$1$$1$$1$$54$$1$$_arg, 1, (struct _value **)(void *)0);
-                          acc = (signed long int)return_value_neko_val_callEx$425;
+                          struct _value *return_value_neko_val_callEx_425;
+                          return_value_neko_val_callEx_425=neko_val_callEx(neko_interp_loop__1__1__1__54__1___o, neko_interp_loop__1__1__1__54__1___f, &neko_interp_loop__1__1__1__54__1___arg, 1, (struct _value **)(void *)0);
+                          acc = (signed long int)return_value_neko_val_callEx_425;
                           sp = vm->sp;
                           csp = vm->csp;
                           m = (struct _neko_module *)*csp;
-                          tmp_post$426 = csp;
+                          tmp_post_426 = csp;
                           csp = csp - 1l;
-                          *tmp_post$426 = (signed long int)0;
+                          *tmp_post_426 = (signed long int)0;
                           vm->vthis = (struct _value *)*csp;
-                          tmp_post$427 = csp;
+                          tmp_post_427 = csp;
                           csp = csp - 1l;
-                          *tmp_post$427 = (signed long int)0;
+                          *tmp_post_427 = (signed long int)0;
                           vm->env = (struct _value *)*csp;
-                          tmp_post$428 = csp;
+                          tmp_post_428 = csp;
                           csp = csp - 1l;
-                          *tmp_post$428 = (signed long int)0;
-                          tmp_post$429 = csp;
+                          *tmp_post_428 = (signed long int)0;
+                          tmp_post_429 = csp;
                           csp = csp - 1l;
-                          *tmp_post$429 = (signed long int)0;
+                          *tmp_post_429 = (signed long int)0;
                         }
                       }
 
@@ -23297,9 +23297,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                       {
                         if(csp + 4l >= sp)
                         {
-                          signed int return_value_neko_stack_expand$431;
-                          return_value_neko_stack_expand$431=neko_stack_expand(sp, csp, vm);
-                          if(!(return_value_neko_stack_expand$431 == 0))
+                          signed int return_value_neko_stack_expand_431;
+                          return_value_neko_stack_expand_431=neko_stack_expand(sp, csp, vm);
+                          if(!(return_value_neko_stack_expand_431 == 0))
                           {
                             sp = vm->sp;
                             csp = vm->csp;
@@ -23307,8 +23307,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                           else
                           {
-                            return_value_neko_alloc_string$430=neko_alloc_string("Stack Overflow");
-                            neko_val_throw(return_value_neko_alloc_string$430);
+                            return_value_neko_alloc_string_430=neko_alloc_string("Stack Overflow");
+                            neko_val_throw(return_value_neko_alloc_string_430);
                           }
                         }
 
@@ -23322,49 +23322,49 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                         *csp = (signed long int)m;
                         vm->sp = sp;
                         vm->csp = csp;
-                        struct _value *return_value_neko_alloc_string$432;
-                        return_value_neko_alloc_string$432=neko_alloc_string("Invalid operation (*)");
-                        neko_val_throw(return_value_neko_alloc_string$432);
+                        struct _value *return_value_neko_alloc_string_432;
+                        return_value_neko_alloc_string_432=neko_alloc_string("Invalid operation (*)");
+                        neko_val_throw(return_value_neko_alloc_string_432);
                       }
                   goto __CPROVER_DUMP_L708;
                 }
 
                 if(!((1l & *sp) == 0l))
                 {
-                  if((signed int)*((enum anonymous$7 *)acc) == VAL_FLOAT)
+                  if((signed int)*((enum anonymous_7 *)acc) == VAL_FLOAT)
                   {
-                    return_value_neko_alloc_float$433=neko_alloc_float((double)((signed int)(signed long int)*sp >> 1) * ((struct anonymous$25 *)acc)->f);
-                    acc = (signed long int)return_value_neko_alloc_float$433;
+                    return_value_neko_alloc_float_433=neko_alloc_float((double)((signed int)(signed long int)*sp >> 1) * ((struct anonymous_25 *)acc)->f);
+                    acc = (signed long int)return_value_neko_alloc_float_433;
                   }
 
                   else
-                    if((signed int)*((enum anonymous$7 *)acc) == VAL_INT32)
+                    if((signed int)*((enum anonymous_7 *)acc) == VAL_INT32)
                     {
-                      if(!(((unsigned int)((signed int)*sp >> 1) * (unsigned int)((struct anonymous$26 *)acc)->i + 1073741824u & 0x80000000) == 0u))
+                      if(!(((unsigned int)((signed int)*sp >> 1) * (unsigned int)((struct anonymous_26 *)acc)->i + 1073741824u & 0x80000000) == 0u))
                       {
-                        return_value_neko_alloc_int32$434=neko_alloc_int32(((signed int)(signed long int)*sp >> 1) * ((struct anonymous$26 *)acc)->i);
-                        tmp_if_expr$435 = return_value_neko_alloc_int32$434;
+                        return_value_neko_alloc_int32_434=neko_alloc_int32(((signed int)(signed long int)*sp >> 1) * ((struct anonymous_26 *)acc)->i);
+                        tmp_if_expr_435 = return_value_neko_alloc_int32_434;
                       }
 
                       else
-                        tmp_if_expr$435 = (struct _value *)(signed long int)((signed int)(((signed int)(signed long int)*sp >> 1) * ((struct anonymous$26 *)acc)->i) << 1 | 1);
-                      acc = (signed long int)tmp_if_expr$435;
+                        tmp_if_expr_435 = (struct _value *)(signed long int)((signed int)(((signed int)(signed long int)*sp >> 1) * ((struct anonymous_26 *)acc)->i) << 1 | 1);
+                      acc = (signed long int)tmp_if_expr_435;
                     }
 
                     else
-                      if((signed int)*((enum anonymous$7 *)acc) == VAL_OBJECT)
+                      if((signed int)*((enum anonymous_7 *)acc) == VAL_OBJECT)
                       {
-                        struct _value *neko_interp_loop$$1$$1$$1$$55$$1$$_o = (struct _value *)acc;
-                        struct _value *neko_interp_loop$$1$$1$$1$$55$$1$$_arg = (struct _value *)*sp;
-                        struct _value *neko_interp_loop$$1$$1$$1$$55$$1$$_f;
-                        neko_interp_loop$$1$$1$$1$$55$$1$$_f=neko_val_field(neko_interp_loop$$1$$1$$1$$55$$1$$_o, id_rmult);
-                        if(neko_interp_loop$$1$$1$$1$$55$$1$$_f == val_null)
+                        struct _value *neko_interp_loop__1__1__1__55__1___o = (struct _value *)acc;
+                        struct _value *neko_interp_loop__1__1__1__55__1___arg = (struct _value *)*sp;
+                        struct _value *neko_interp_loop__1__1__1__55__1___f;
+                        neko_interp_loop__1__1__1__55__1___f=neko_val_field(neko_interp_loop__1__1__1__55__1___o, id_rmult);
+                        if(neko_interp_loop__1__1__1__55__1___f == val_null)
                         {
                           if(csp + 4l >= sp)
                           {
-                            signed int return_value_neko_stack_expand$437;
-                            return_value_neko_stack_expand$437=neko_stack_expand(sp, csp, vm);
-                            if(!(return_value_neko_stack_expand$437 == 0))
+                            signed int return_value_neko_stack_expand_437;
+                            return_value_neko_stack_expand_437=neko_stack_expand(sp, csp, vm);
+                            if(!(return_value_neko_stack_expand_437 == 0))
                             {
                               sp = vm->sp;
                               csp = vm->csp;
@@ -23372,8 +23372,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                             else
                             {
-                              return_value_neko_alloc_string$436=neko_alloc_string("Stack Overflow");
-                              neko_val_throw(return_value_neko_alloc_string$436);
+                              return_value_neko_alloc_string_436=neko_alloc_string("Stack Overflow");
+                              neko_val_throw(return_value_neko_alloc_string_436);
                             }
                           }
 
@@ -23387,18 +23387,18 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                           *csp = (signed long int)m;
                           vm->sp = sp;
                           vm->csp = csp;
-                          struct _value *return_value_neko_alloc_string$438;
-                          return_value_neko_alloc_string$438=neko_alloc_string("Unsupported operation");
-                          neko_val_throw(return_value_neko_alloc_string$438);
+                          struct _value *return_value_neko_alloc_string_438;
+                          return_value_neko_alloc_string_438=neko_alloc_string("Unsupported operation");
+                          neko_val_throw(return_value_neko_alloc_string_438);
                         }
 
                         else
                         {
                           if(csp + 4l >= sp)
                           {
-                            signed int return_value_neko_stack_expand$440;
-                            return_value_neko_stack_expand$440=neko_stack_expand(sp, csp, vm);
-                            if(!(return_value_neko_stack_expand$440 == 0))
+                            signed int return_value_neko_stack_expand_440;
+                            return_value_neko_stack_expand_440=neko_stack_expand(sp, csp, vm);
+                            if(!(return_value_neko_stack_expand_440 == 0))
                             {
                               sp = vm->sp;
                               csp = vm->csp;
@@ -23406,8 +23406,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                             else
                             {
-                              return_value_neko_alloc_string$439=neko_alloc_string("Stack Overflow");
-                              neko_val_throw(return_value_neko_alloc_string$439);
+                              return_value_neko_alloc_string_439=neko_alloc_string("Stack Overflow");
+                              neko_val_throw(return_value_neko_alloc_string_439);
                             }
                           }
 
@@ -23421,26 +23421,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                           *csp = (signed long int)m;
                           vm->sp = sp;
                           vm->csp = csp;
-                          struct _value *return_value_neko_val_callEx$441;
-                          return_value_neko_val_callEx$441=neko_val_callEx(neko_interp_loop$$1$$1$$1$$55$$1$$_o, neko_interp_loop$$1$$1$$1$$55$$1$$_f, &neko_interp_loop$$1$$1$$1$$55$$1$$_arg, 1, (struct _value **)(void *)0);
-                          acc = (signed long int)return_value_neko_val_callEx$441;
+                          struct _value *return_value_neko_val_callEx_441;
+                          return_value_neko_val_callEx_441=neko_val_callEx(neko_interp_loop__1__1__1__55__1___o, neko_interp_loop__1__1__1__55__1___f, &neko_interp_loop__1__1__1__55__1___arg, 1, (struct _value **)(void *)0);
+                          acc = (signed long int)return_value_neko_val_callEx_441;
                           sp = vm->sp;
                           csp = vm->csp;
                           m = (struct _neko_module *)*csp;
-                          tmp_post$442 = csp;
+                          tmp_post_442 = csp;
                           csp = csp - 1l;
-                          *tmp_post$442 = (signed long int)0;
+                          *tmp_post_442 = (signed long int)0;
                           vm->vthis = (struct _value *)*csp;
-                          tmp_post$443 = csp;
+                          tmp_post_443 = csp;
                           csp = csp - 1l;
-                          *tmp_post$443 = (signed long int)0;
+                          *tmp_post_443 = (signed long int)0;
                           vm->env = (struct _value *)*csp;
-                          tmp_post$444 = csp;
+                          tmp_post_444 = csp;
                           csp = csp - 1l;
-                          *tmp_post$444 = (signed long int)0;
-                          tmp_post$445 = csp;
+                          *tmp_post_444 = (signed long int)0;
+                          tmp_post_445 = csp;
                           csp = csp - 1l;
-                          *tmp_post$445 = (signed long int)0;
+                          *tmp_post_445 = (signed long int)0;
                         }
                       }
 
@@ -23448,9 +23448,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                       {
                         if(csp + 4l >= sp)
                         {
-                          signed int return_value_neko_stack_expand$447;
-                          return_value_neko_stack_expand$447=neko_stack_expand(sp, csp, vm);
-                          if(!(return_value_neko_stack_expand$447 == 0))
+                          signed int return_value_neko_stack_expand_447;
+                          return_value_neko_stack_expand_447=neko_stack_expand(sp, csp, vm);
+                          if(!(return_value_neko_stack_expand_447 == 0))
                           {
                             sp = vm->sp;
                             csp = vm->csp;
@@ -23458,8 +23458,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                           else
                           {
-                            return_value_neko_alloc_string$446=neko_alloc_string("Stack Overflow");
-                            neko_val_throw(return_value_neko_alloc_string$446);
+                            return_value_neko_alloc_string_446=neko_alloc_string("Stack Overflow");
+                            neko_val_throw(return_value_neko_alloc_string_446);
                           }
                         }
 
@@ -23473,26 +23473,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                         *csp = (signed long int)m;
                         vm->sp = sp;
                         vm->csp = csp;
-                        struct _value *return_value_neko_alloc_string$448;
-                        return_value_neko_alloc_string$448=neko_alloc_string("Invalid operation (*)");
-                        neko_val_throw(return_value_neko_alloc_string$448);
+                        struct _value *return_value_neko_alloc_string_448;
+                        return_value_neko_alloc_string_448=neko_alloc_string("Invalid operation (*)");
+                        neko_val_throw(return_value_neko_alloc_string_448);
                       }
                   goto __CPROVER_DUMP_L708;
                 }
 
-                if((signed int)*((enum anonymous$7 *)acc) == VAL_FLOAT)
+                if((signed int)*((enum anonymous_7 *)acc) == VAL_FLOAT)
                 {
-                  if((signed int)*((enum anonymous$7 *)*sp) == VAL_FLOAT)
+                  if((signed int)*((enum anonymous_7 *)*sp) == VAL_FLOAT)
                   {
-                    return_value_neko_alloc_float$449=neko_alloc_float(((struct anonymous$25 *)*sp)->f * ((struct anonymous$25 *)acc)->f);
-                    acc = (signed long int)return_value_neko_alloc_float$449;
+                    return_value_neko_alloc_float_449=neko_alloc_float(((struct anonymous_25 *)*sp)->f * ((struct anonymous_25 *)acc)->f);
+                    acc = (signed long int)return_value_neko_alloc_float_449;
                   }
 
                   else
-                    if((signed int)*((enum anonymous$7 *)*sp) == VAL_INT32)
+                    if((signed int)*((enum anonymous_7 *)*sp) == VAL_INT32)
                     {
-                      return_value_neko_alloc_float$450=neko_alloc_float((double)((struct anonymous$26 *)*sp)->i * ((struct anonymous$25 *)acc)->f);
-                      acc = (signed long int)return_value_neko_alloc_float$450;
+                      return_value_neko_alloc_float_450=neko_alloc_float((double)((struct anonymous_26 *)*sp)->i * ((struct anonymous_25 *)acc)->f);
+                      acc = (signed long int)return_value_neko_alloc_float_450;
                     }
 
                     else
@@ -23500,26 +23500,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                   goto __CPROVER_DUMP_L708;
                 }
 
-                if((signed int)*((enum anonymous$7 *)acc) == VAL_INT32)
+                if((signed int)*((enum anonymous_7 *)acc) == VAL_INT32)
                 {
-                  if((signed int)*((enum anonymous$7 *)*sp) == VAL_INT32)
+                  if((signed int)*((enum anonymous_7 *)*sp) == VAL_INT32)
                   {
-                    if(!(((unsigned int)((struct anonymous$26 *)*sp)->i * (unsigned int)((struct anonymous$26 *)acc)->i + 1073741824u & 0x80000000) == 0u))
+                    if(!(((unsigned int)((struct anonymous_26 *)*sp)->i * (unsigned int)((struct anonymous_26 *)acc)->i + 1073741824u & 0x80000000) == 0u))
                     {
-                      return_value_neko_alloc_int32$451=neko_alloc_int32(((struct anonymous$26 *)*sp)->i * ((struct anonymous$26 *)acc)->i);
-                      tmp_if_expr$452 = return_value_neko_alloc_int32$451;
+                      return_value_neko_alloc_int32_451=neko_alloc_int32(((struct anonymous_26 *)*sp)->i * ((struct anonymous_26 *)acc)->i);
+                      tmp_if_expr_452 = return_value_neko_alloc_int32_451;
                     }
 
                     else
-                      tmp_if_expr$452 = (struct _value *)(signed long int)((signed int)(((struct anonymous$26 *)*sp)->i * ((struct anonymous$26 *)acc)->i) << 1 | 1);
-                    acc = (signed long int)tmp_if_expr$452;
+                      tmp_if_expr_452 = (struct _value *)(signed long int)((signed int)(((struct anonymous_26 *)*sp)->i * ((struct anonymous_26 *)acc)->i) << 1 | 1);
+                    acc = (signed long int)tmp_if_expr_452;
                   }
 
                   else
-                    if((signed int)*((enum anonymous$7 *)*sp) == VAL_FLOAT)
+                    if((signed int)*((enum anonymous_7 *)*sp) == VAL_FLOAT)
                     {
-                      return_value_neko_alloc_float$453=neko_alloc_float(((struct anonymous$25 *)*sp)->f * (double)((struct anonymous$26 *)acc)->i);
-                      acc = (signed long int)return_value_neko_alloc_float$453;
+                      return_value_neko_alloc_float_453=neko_alloc_float(((struct anonymous_25 *)*sp)->f * (double)((struct anonymous_26 *)acc)->i);
+                      acc = (signed long int)return_value_neko_alloc_float_453;
                     }
 
                     else
@@ -23534,23 +23534,23 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
           id_mult_next:
             ;
-            if(!((signed int)*((enum anonymous$7 *)*sp) == VAL_OBJECT))
+            if(!((signed int)*((enum anonymous_7 *)*sp) == VAL_OBJECT))
               goto id_mult_next2;
 
-            struct _value *neko_interp_loop$$1$$1$$1$$58$$1$$_o = (struct _value *)*sp;
-            struct _value *neko_interp_loop$$1$$1$$1$$58$$1$$_arg = (struct _value *)acc;
-            struct _value *neko_interp_loop$$1$$1$$1$$58$$1$$_f;
-            neko_interp_loop$$1$$1$$1$$58$$1$$_f=neko_val_field(neko_interp_loop$$1$$1$$1$$58$$1$$_o, id_mult);
-            if(neko_interp_loop$$1$$1$$1$$58$$1$$_f == val_null)
+            struct _value *neko_interp_loop__1__1__1__58__1___o = (struct _value *)*sp;
+            struct _value *neko_interp_loop__1__1__1__58__1___arg = (struct _value *)acc;
+            struct _value *neko_interp_loop__1__1__1__58__1___f;
+            neko_interp_loop__1__1__1__58__1___f=neko_val_field(neko_interp_loop__1__1__1__58__1___o, id_mult);
+            if(neko_interp_loop__1__1__1__58__1___f == val_null)
               goto id_mult_next2;
 
             else
             {
               if(csp + 4l >= sp)
               {
-                signed int return_value_neko_stack_expand$455;
-                return_value_neko_stack_expand$455=neko_stack_expand(sp, csp, vm);
-                if(!(return_value_neko_stack_expand$455 == 0))
+                signed int return_value_neko_stack_expand_455;
+                return_value_neko_stack_expand_455=neko_stack_expand(sp, csp, vm);
+                if(!(return_value_neko_stack_expand_455 == 0))
                 {
                   sp = vm->sp;
                   csp = vm->csp;
@@ -23558,8 +23558,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                 else
                 {
-                  return_value_neko_alloc_string$454=neko_alloc_string("Stack Overflow");
-                  neko_val_throw(return_value_neko_alloc_string$454);
+                  return_value_neko_alloc_string_454=neko_alloc_string("Stack Overflow");
+                  neko_val_throw(return_value_neko_alloc_string_454);
                 }
               }
 
@@ -23573,26 +23573,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
               *csp = (signed long int)m;
               vm->sp = sp;
               vm->csp = csp;
-              struct _value *return_value_neko_val_callEx$456;
-              return_value_neko_val_callEx$456=neko_val_callEx(neko_interp_loop$$1$$1$$1$$58$$1$$_o, neko_interp_loop$$1$$1$$1$$58$$1$$_f, &neko_interp_loop$$1$$1$$1$$58$$1$$_arg, 1, (struct _value **)(void *)0);
-              acc = (signed long int)return_value_neko_val_callEx$456;
+              struct _value *return_value_neko_val_callEx_456;
+              return_value_neko_val_callEx_456=neko_val_callEx(neko_interp_loop__1__1__1__58__1___o, neko_interp_loop__1__1__1__58__1___f, &neko_interp_loop__1__1__1__58__1___arg, 1, (struct _value **)(void *)0);
+              acc = (signed long int)return_value_neko_val_callEx_456;
               sp = vm->sp;
               csp = vm->csp;
               m = (struct _neko_module *)*csp;
-              tmp_post$457 = csp;
+              tmp_post_457 = csp;
               csp = csp - 1l;
-              *tmp_post$457 = (signed long int)0;
+              *tmp_post_457 = (signed long int)0;
               vm->vthis = (struct _value *)*csp;
-              tmp_post$458 = csp;
+              tmp_post_458 = csp;
               csp = csp - 1l;
-              *tmp_post$458 = (signed long int)0;
+              *tmp_post_458 = (signed long int)0;
               vm->env = (struct _value *)*csp;
-              tmp_post$459 = csp;
+              tmp_post_459 = csp;
               csp = csp - 1l;
-              *tmp_post$459 = (signed long int)0;
-              tmp_post$460 = csp;
+              *tmp_post_459 = (signed long int)0;
+              tmp_post_460 = csp;
               csp = csp - 1l;
-              *tmp_post$460 = (signed long int)0;
+              *tmp_post_460 = (signed long int)0;
             }
           }
 
@@ -23601,19 +23601,19 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
           id_mult_next2:
             ;
-            if((signed int)*((enum anonymous$7 *)acc) == VAL_OBJECT)
+            if((signed int)*((enum anonymous_7 *)acc) == VAL_OBJECT)
             {
-              struct _value *neko_interp_loop$$1$$1$$1$$58$$2$$1$$_o = (struct _value *)acc;
-              struct _value *neko_interp_loop$$1$$1$$1$$58$$2$$1$$_arg = (struct _value *)*sp;
-              struct _value *neko_interp_loop$$1$$1$$1$$58$$2$$1$$_f;
-              neko_interp_loop$$1$$1$$1$$58$$2$$1$$_f=neko_val_field(neko_interp_loop$$1$$1$$1$$58$$2$$1$$_o, id_rmult);
-              if(neko_interp_loop$$1$$1$$1$$58$$2$$1$$_f == val_null)
+              struct _value *neko_interp_loop__1__1__1__58__2__1___o = (struct _value *)acc;
+              struct _value *neko_interp_loop__1__1__1__58__2__1___arg = (struct _value *)*sp;
+              struct _value *neko_interp_loop__1__1__1__58__2__1___f;
+              neko_interp_loop__1__1__1__58__2__1___f=neko_val_field(neko_interp_loop__1__1__1__58__2__1___o, id_rmult);
+              if(neko_interp_loop__1__1__1__58__2__1___f == val_null)
               {
                 if(csp + 4l >= sp)
                 {
-                  signed int return_value_neko_stack_expand$462;
-                  return_value_neko_stack_expand$462=neko_stack_expand(sp, csp, vm);
-                  if(!(return_value_neko_stack_expand$462 == 0))
+                  signed int return_value_neko_stack_expand_462;
+                  return_value_neko_stack_expand_462=neko_stack_expand(sp, csp, vm);
+                  if(!(return_value_neko_stack_expand_462 == 0))
                   {
                     sp = vm->sp;
                     csp = vm->csp;
@@ -23621,8 +23621,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                   else
                   {
-                    return_value_neko_alloc_string$461=neko_alloc_string("Stack Overflow");
-                    neko_val_throw(return_value_neko_alloc_string$461);
+                    return_value_neko_alloc_string_461=neko_alloc_string("Stack Overflow");
+                    neko_val_throw(return_value_neko_alloc_string_461);
                   }
                 }
 
@@ -23636,18 +23636,18 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                 *csp = (signed long int)m;
                 vm->sp = sp;
                 vm->csp = csp;
-                struct _value *return_value_neko_alloc_string$463;
-                return_value_neko_alloc_string$463=neko_alloc_string("Unsupported operation");
-                neko_val_throw(return_value_neko_alloc_string$463);
+                struct _value *return_value_neko_alloc_string_463;
+                return_value_neko_alloc_string_463=neko_alloc_string("Unsupported operation");
+                neko_val_throw(return_value_neko_alloc_string_463);
               }
 
               else
               {
                 if(csp + 4l >= sp)
                 {
-                  signed int return_value_neko_stack_expand$465;
-                  return_value_neko_stack_expand$465=neko_stack_expand(sp, csp, vm);
-                  if(!(return_value_neko_stack_expand$465 == 0))
+                  signed int return_value_neko_stack_expand_465;
+                  return_value_neko_stack_expand_465=neko_stack_expand(sp, csp, vm);
+                  if(!(return_value_neko_stack_expand_465 == 0))
                   {
                     sp = vm->sp;
                     csp = vm->csp;
@@ -23655,8 +23655,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                   else
                   {
-                    return_value_neko_alloc_string$464=neko_alloc_string("Stack Overflow");
-                    neko_val_throw(return_value_neko_alloc_string$464);
+                    return_value_neko_alloc_string_464=neko_alloc_string("Stack Overflow");
+                    neko_val_throw(return_value_neko_alloc_string_464);
                   }
                 }
 
@@ -23670,26 +23670,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                 *csp = (signed long int)m;
                 vm->sp = sp;
                 vm->csp = csp;
-                struct _value *return_value_neko_val_callEx$466;
-                return_value_neko_val_callEx$466=neko_val_callEx(neko_interp_loop$$1$$1$$1$$58$$2$$1$$_o, neko_interp_loop$$1$$1$$1$$58$$2$$1$$_f, &neko_interp_loop$$1$$1$$1$$58$$2$$1$$_arg, 1, (struct _value **)(void *)0);
-                acc = (signed long int)return_value_neko_val_callEx$466;
+                struct _value *return_value_neko_val_callEx_466;
+                return_value_neko_val_callEx_466=neko_val_callEx(neko_interp_loop__1__1__1__58__2__1___o, neko_interp_loop__1__1__1__58__2__1___f, &neko_interp_loop__1__1__1__58__2__1___arg, 1, (struct _value **)(void *)0);
+                acc = (signed long int)return_value_neko_val_callEx_466;
                 sp = vm->sp;
                 csp = vm->csp;
                 m = (struct _neko_module *)*csp;
-                tmp_post$467 = csp;
+                tmp_post_467 = csp;
                 csp = csp - 1l;
-                *tmp_post$467 = (signed long int)0;
+                *tmp_post_467 = (signed long int)0;
                 vm->vthis = (struct _value *)*csp;
-                tmp_post$468 = csp;
+                tmp_post_468 = csp;
                 csp = csp - 1l;
-                *tmp_post$468 = (signed long int)0;
+                *tmp_post_468 = (signed long int)0;
                 vm->env = (struct _value *)*csp;
-                tmp_post$469 = csp;
+                tmp_post_469 = csp;
                 csp = csp - 1l;
-                *tmp_post$469 = (signed long int)0;
-                tmp_post$470 = csp;
+                *tmp_post_469 = (signed long int)0;
+                tmp_post_470 = csp;
                 csp = csp - 1l;
-                *tmp_post$470 = (signed long int)0;
+                *tmp_post_470 = (signed long int)0;
               }
             }
 
@@ -23697,9 +23697,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
             {
               if(csp + 4l >= sp)
               {
-                signed int return_value_neko_stack_expand$472;
-                return_value_neko_stack_expand$472=neko_stack_expand(sp, csp, vm);
-                if(!(return_value_neko_stack_expand$472 == 0))
+                signed int return_value_neko_stack_expand_472;
+                return_value_neko_stack_expand_472=neko_stack_expand(sp, csp, vm);
+                if(!(return_value_neko_stack_expand_472 == 0))
                 {
                   sp = vm->sp;
                   csp = vm->csp;
@@ -23707,8 +23707,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                 else
                 {
-                  return_value_neko_alloc_string$471=neko_alloc_string("Stack Overflow");
-                  neko_val_throw(return_value_neko_alloc_string$471);
+                  return_value_neko_alloc_string_471=neko_alloc_string("Stack Overflow");
+                  neko_val_throw(return_value_neko_alloc_string_471);
                 }
               }
 
@@ -23722,17 +23722,17 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
               *csp = (signed long int)m;
               vm->sp = sp;
               vm->csp = csp;
-              struct _value *return_value_neko_alloc_string$473;
-              return_value_neko_alloc_string$473=neko_alloc_string("Invalid operation (*)");
-              neko_val_throw(return_value_neko_alloc_string$473);
+              struct _value *return_value_neko_alloc_string_473;
+              return_value_neko_alloc_string_473=neko_alloc_string("Invalid operation (*)");
+              neko_val_throw(return_value_neko_alloc_string_473);
             }
           }
 
         __CPROVER_DUMP_L708:
           ;
-          tmp_post$475 = sp;
+          tmp_post_475 = sp;
           sp = sp + 1l;
-          *tmp_post$475 = (signed long int)0;
+          *tmp_post_475 = (signed long int)0;
           *pc++;
           if(*pc++ == &&id_mod_next2)
             goto id_mod_next2;
@@ -23979,85 +23979,85 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
         LabelDiv:
           ;
           if(!((1 & (signed int)acc) == 0))
-            tmp_if_expr$503 = (_Bool)1;
+            tmp_if_expr_503 = (_Bool)1;
 
           else
-            tmp_if_expr$503 = (signed int)*((enum anonymous$7 *)acc) == VAL_FLOAT ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$503)
-            tmp_if_expr$504 = (_Bool)1;
+            tmp_if_expr_503 = (signed int)*((enum anonymous_7 *)acc) == VAL_FLOAT ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_503)
+            tmp_if_expr_504 = (_Bool)1;
 
           else
-            tmp_if_expr$504 = (signed int)*((enum anonymous$7 *)acc) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$504)
+            tmp_if_expr_504 = (signed int)*((enum anonymous_7 *)acc) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_504)
           {
             if(!((1 & (signed int)*sp) == 0))
-              tmp_if_expr$505 = (_Bool)1;
+              tmp_if_expr_505 = (_Bool)1;
 
             else
-              tmp_if_expr$505 = (signed int)*((enum anonymous$7 *)*sp) == VAL_FLOAT ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$505)
-              tmp_if_expr$506 = (_Bool)1;
+              tmp_if_expr_505 = (signed int)*((enum anonymous_7 *)*sp) == VAL_FLOAT ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_505)
+              tmp_if_expr_506 = (_Bool)1;
 
             else
-              tmp_if_expr$506 = (signed int)*((enum anonymous$7 *)*sp) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
-            tmp_if_expr$507 = tmp_if_expr$506 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_506 = (signed int)*((enum anonymous_7 *)*sp) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_507 = tmp_if_expr_506 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$507 = (_Bool)0;
-          if(tmp_if_expr$507)
+            tmp_if_expr_507 = (_Bool)0;
+          if(tmp_if_expr_507)
           {
             if(!((1 & (signed int)*sp) == 0))
-              tmp_if_expr$477 = (double)((signed int)(signed long int)*sp >> 1);
+              tmp_if_expr_477 = (double)((signed int)(signed long int)*sp >> 1);
 
             else
             {
-              if((signed int)*((enum anonymous$7 *)*sp) == VAL_FLOAT)
-                tmp_if_expr$476 = ((struct anonymous$25 *)*sp)->f;
+              if((signed int)*((enum anonymous_7 *)*sp) == VAL_FLOAT)
+                tmp_if_expr_476 = ((struct anonymous_25 *)*sp)->f;
 
               else
-                tmp_if_expr$476 = (double)((struct anonymous$26 *)*sp)->i;
-              tmp_if_expr$477 = tmp_if_expr$476;
+                tmp_if_expr_476 = (double)((struct anonymous_26 *)*sp)->i;
+              tmp_if_expr_477 = tmp_if_expr_476;
             }
             if(!((1 & (signed int)acc) == 0))
-              tmp_if_expr$479 = (double)((signed int)(signed long int)acc >> 1);
+              tmp_if_expr_479 = (double)((signed int)(signed long int)acc >> 1);
 
             else
             {
-              if((signed int)*((enum anonymous$7 *)acc) == VAL_FLOAT)
-                tmp_if_expr$478 = ((struct anonymous$25 *)acc)->f;
+              if((signed int)*((enum anonymous_7 *)acc) == VAL_FLOAT)
+                tmp_if_expr_478 = ((struct anonymous_25 *)acc)->f;
 
               else
-                tmp_if_expr$478 = (double)((struct anonymous$26 *)acc)->i;
-              tmp_if_expr$479 = tmp_if_expr$478;
+                tmp_if_expr_478 = (double)((struct anonymous_26 *)acc)->i;
+              tmp_if_expr_479 = tmp_if_expr_478;
             }
-            return_value_neko_alloc_float$480=neko_alloc_float((double)tmp_if_expr$477 / tmp_if_expr$479);
-            acc = (signed long int)return_value_neko_alloc_float$480;
+            return_value_neko_alloc_float_480=neko_alloc_float((double)tmp_if_expr_477 / tmp_if_expr_479);
+            acc = (signed long int)return_value_neko_alloc_float_480;
             goto __CPROVER_DUMP_L755;
           }
 
           if((1 & (signed int)*sp) == 0)
-            tmp_if_expr$502 = (signed int)*((enum anonymous$7 *)*sp) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_502 = (signed int)*((enum anonymous_7 *)*sp) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$502 = (_Bool)0;
-          if(!tmp_if_expr$502)
+            tmp_if_expr_502 = (_Bool)0;
+          if(!tmp_if_expr_502)
             goto div_next;
 
-          struct _value *neko_interp_loop$$1$$1$$1$$59$$_o = (struct _value *)*sp;
-          struct _value *neko_interp_loop$$1$$1$$1$$59$$_arg = (struct _value *)acc;
-          struct _value *neko_interp_loop$$1$$1$$1$$59$$_f;
-          neko_interp_loop$$1$$1$$1$$59$$_f=neko_val_field(neko_interp_loop$$1$$1$$1$$59$$_o, id_div);
-          if(neko_interp_loop$$1$$1$$1$$59$$_f == val_null)
+          struct _value *neko_interp_loop__1__1__1__59___o = (struct _value *)*sp;
+          struct _value *neko_interp_loop__1__1__1__59___arg = (struct _value *)acc;
+          struct _value *neko_interp_loop__1__1__1__59___f;
+          neko_interp_loop__1__1__1__59___f=neko_val_field(neko_interp_loop__1__1__1__59___o, id_div);
+          if(neko_interp_loop__1__1__1__59___f == val_null)
             goto div_next;
 
           else
           {
             if(csp + 4l >= sp)
             {
-              signed int return_value_neko_stack_expand$482;
-              return_value_neko_stack_expand$482=neko_stack_expand(sp, csp, vm);
-              if(!(return_value_neko_stack_expand$482 == 0))
+              signed int return_value_neko_stack_expand_482;
+              return_value_neko_stack_expand_482=neko_stack_expand(sp, csp, vm);
+              if(!(return_value_neko_stack_expand_482 == 0))
               {
                 sp = vm->sp;
                 csp = vm->csp;
@@ -24065,8 +24065,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
               else
               {
-                return_value_neko_alloc_string$481=neko_alloc_string("Stack Overflow");
-                neko_val_throw(return_value_neko_alloc_string$481);
+                return_value_neko_alloc_string_481=neko_alloc_string("Stack Overflow");
+                neko_val_throw(return_value_neko_alloc_string_481);
               }
             }
 
@@ -24080,26 +24080,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
             *csp = (signed long int)m;
             vm->sp = sp;
             vm->csp = csp;
-            struct _value *return_value_neko_val_callEx$483;
-            return_value_neko_val_callEx$483=neko_val_callEx(neko_interp_loop$$1$$1$$1$$59$$_o, neko_interp_loop$$1$$1$$1$$59$$_f, &neko_interp_loop$$1$$1$$1$$59$$_arg, 1, (struct _value **)(void *)0);
-            acc = (signed long int)return_value_neko_val_callEx$483;
+            struct _value *return_value_neko_val_callEx_483;
+            return_value_neko_val_callEx_483=neko_val_callEx(neko_interp_loop__1__1__1__59___o, neko_interp_loop__1__1__1__59___f, &neko_interp_loop__1__1__1__59___arg, 1, (struct _value **)(void *)0);
+            acc = (signed long int)return_value_neko_val_callEx_483;
             sp = vm->sp;
             csp = vm->csp;
             m = (struct _neko_module *)*csp;
-            tmp_post$484 = csp;
+            tmp_post_484 = csp;
             csp = csp - 1l;
-            *tmp_post$484 = (signed long int)0;
+            *tmp_post_484 = (signed long int)0;
             vm->vthis = (struct _value *)*csp;
-            tmp_post$485 = csp;
+            tmp_post_485 = csp;
             csp = csp - 1l;
-            *tmp_post$485 = (signed long int)0;
+            *tmp_post_485 = (signed long int)0;
             vm->env = (struct _value *)*csp;
-            tmp_post$486 = csp;
+            tmp_post_486 = csp;
             csp = csp - 1l;
-            *tmp_post$486 = (signed long int)0;
-            tmp_post$487 = csp;
+            *tmp_post_486 = (signed long int)0;
+            tmp_post_487 = csp;
             csp = csp - 1l;
-            *tmp_post$487 = (signed long int)0;
+            *tmp_post_487 = (signed long int)0;
           }
         }
 
@@ -24109,23 +24109,23 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
         div_next:
           ;
           if((1 & (signed int)acc) == 0)
-            tmp_if_expr$501 = (signed int)*((enum anonymous$7 *)acc) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_501 = (signed int)*((enum anonymous_7 *)acc) == VAL_OBJECT ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$501 = (_Bool)0;
-          if(tmp_if_expr$501)
+            tmp_if_expr_501 = (_Bool)0;
+          if(tmp_if_expr_501)
           {
-            struct _value *neko_interp_loop$$1$$1$$1$$60$$1$$_o = (struct _value *)acc;
-            struct _value *neko_interp_loop$$1$$1$$1$$60$$1$$_arg = (struct _value *)*sp;
-            struct _value *neko_interp_loop$$1$$1$$1$$60$$1$$_f;
-            neko_interp_loop$$1$$1$$1$$60$$1$$_f=neko_val_field(neko_interp_loop$$1$$1$$1$$60$$1$$_o, id_rdiv);
-            if(neko_interp_loop$$1$$1$$1$$60$$1$$_f == val_null)
+            struct _value *neko_interp_loop__1__1__1__60__1___o = (struct _value *)acc;
+            struct _value *neko_interp_loop__1__1__1__60__1___arg = (struct _value *)*sp;
+            struct _value *neko_interp_loop__1__1__1__60__1___f;
+            neko_interp_loop__1__1__1__60__1___f=neko_val_field(neko_interp_loop__1__1__1__60__1___o, id_rdiv);
+            if(neko_interp_loop__1__1__1__60__1___f == val_null)
             {
               if(csp + 4l >= sp)
               {
-                signed int return_value_neko_stack_expand$489;
-                return_value_neko_stack_expand$489=neko_stack_expand(sp, csp, vm);
-                if(!(return_value_neko_stack_expand$489 == 0))
+                signed int return_value_neko_stack_expand_489;
+                return_value_neko_stack_expand_489=neko_stack_expand(sp, csp, vm);
+                if(!(return_value_neko_stack_expand_489 == 0))
                 {
                   sp = vm->sp;
                   csp = vm->csp;
@@ -24133,8 +24133,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                 else
                 {
-                  return_value_neko_alloc_string$488=neko_alloc_string("Stack Overflow");
-                  neko_val_throw(return_value_neko_alloc_string$488);
+                  return_value_neko_alloc_string_488=neko_alloc_string("Stack Overflow");
+                  neko_val_throw(return_value_neko_alloc_string_488);
                 }
               }
 
@@ -24148,18 +24148,18 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
               *csp = (signed long int)m;
               vm->sp = sp;
               vm->csp = csp;
-              struct _value *return_value_neko_alloc_string$490;
-              return_value_neko_alloc_string$490=neko_alloc_string("Unsupported operation");
-              neko_val_throw(return_value_neko_alloc_string$490);
+              struct _value *return_value_neko_alloc_string_490;
+              return_value_neko_alloc_string_490=neko_alloc_string("Unsupported operation");
+              neko_val_throw(return_value_neko_alloc_string_490);
             }
 
             else
             {
               if(csp + 4l >= sp)
               {
-                signed int return_value_neko_stack_expand$492;
-                return_value_neko_stack_expand$492=neko_stack_expand(sp, csp, vm);
-                if(!(return_value_neko_stack_expand$492 == 0))
+                signed int return_value_neko_stack_expand_492;
+                return_value_neko_stack_expand_492=neko_stack_expand(sp, csp, vm);
+                if(!(return_value_neko_stack_expand_492 == 0))
                 {
                   sp = vm->sp;
                   csp = vm->csp;
@@ -24167,8 +24167,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                 else
                 {
-                  return_value_neko_alloc_string$491=neko_alloc_string("Stack Overflow");
-                  neko_val_throw(return_value_neko_alloc_string$491);
+                  return_value_neko_alloc_string_491=neko_alloc_string("Stack Overflow");
+                  neko_val_throw(return_value_neko_alloc_string_491);
                 }
               }
 
@@ -24182,26 +24182,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
               *csp = (signed long int)m;
               vm->sp = sp;
               vm->csp = csp;
-              struct _value *return_value_neko_val_callEx$493;
-              return_value_neko_val_callEx$493=neko_val_callEx(neko_interp_loop$$1$$1$$1$$60$$1$$_o, neko_interp_loop$$1$$1$$1$$60$$1$$_f, &neko_interp_loop$$1$$1$$1$$60$$1$$_arg, 1, (struct _value **)(void *)0);
-              acc = (signed long int)return_value_neko_val_callEx$493;
+              struct _value *return_value_neko_val_callEx_493;
+              return_value_neko_val_callEx_493=neko_val_callEx(neko_interp_loop__1__1__1__60__1___o, neko_interp_loop__1__1__1__60__1___f, &neko_interp_loop__1__1__1__60__1___arg, 1, (struct _value **)(void *)0);
+              acc = (signed long int)return_value_neko_val_callEx_493;
               sp = vm->sp;
               csp = vm->csp;
               m = (struct _neko_module *)*csp;
-              tmp_post$494 = csp;
+              tmp_post_494 = csp;
               csp = csp - 1l;
-              *tmp_post$494 = (signed long int)0;
+              *tmp_post_494 = (signed long int)0;
               vm->vthis = (struct _value *)*csp;
-              tmp_post$495 = csp;
+              tmp_post_495 = csp;
               csp = csp - 1l;
-              *tmp_post$495 = (signed long int)0;
+              *tmp_post_495 = (signed long int)0;
               vm->env = (struct _value *)*csp;
-              tmp_post$496 = csp;
+              tmp_post_496 = csp;
               csp = csp - 1l;
-              *tmp_post$496 = (signed long int)0;
-              tmp_post$497 = csp;
+              *tmp_post_496 = (signed long int)0;
+              tmp_post_497 = csp;
               csp = csp - 1l;
-              *tmp_post$497 = (signed long int)0;
+              *tmp_post_497 = (signed long int)0;
             }
           }
 
@@ -24209,9 +24209,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
           {
             if(csp + 4l >= sp)
             {
-              signed int return_value_neko_stack_expand$499;
-              return_value_neko_stack_expand$499=neko_stack_expand(sp, csp, vm);
-              if(!(return_value_neko_stack_expand$499 == 0))
+              signed int return_value_neko_stack_expand_499;
+              return_value_neko_stack_expand_499=neko_stack_expand(sp, csp, vm);
+              if(!(return_value_neko_stack_expand_499 == 0))
               {
                 sp = vm->sp;
                 csp = vm->csp;
@@ -24219,8 +24219,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
               else
               {
-                return_value_neko_alloc_string$498=neko_alloc_string("Stack Overflow");
-                neko_val_throw(return_value_neko_alloc_string$498);
+                return_value_neko_alloc_string_498=neko_alloc_string("Stack Overflow");
+                neko_val_throw(return_value_neko_alloc_string_498);
               }
             }
 
@@ -24234,17 +24234,17 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
             *csp = (signed long int)m;
             vm->sp = sp;
             vm->csp = csp;
-            struct _value *return_value_neko_alloc_string$500;
-            return_value_neko_alloc_string$500=neko_alloc_string("Invalid operation (/)");
-            neko_val_throw(return_value_neko_alloc_string$500);
+            struct _value *return_value_neko_alloc_string_500;
+            return_value_neko_alloc_string_500=neko_alloc_string("Invalid operation (/)");
+            neko_val_throw(return_value_neko_alloc_string_500);
           }
         }
 
       __CPROVER_DUMP_L755:
         ;
-        tmp_post$508 = sp;
+        tmp_post_508 = sp;
         sp = sp + 1l;
-        *tmp_post$508 = (signed long int)0;
+        *tmp_post_508 = (signed long int)0;
         *pc++;
         if(*pc++ == &&id_mod_next2)
           goto id_mod_next2;
@@ -24490,36 +24490,36 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
         LabelMod:
           ;
           if(acc == 1l)
-            tmp_if_expr$515 = (_Bool)1;
+            tmp_if_expr_515 = (_Bool)1;
 
           else
           {
             if((1 & (signed int)acc) == 0)
-              tmp_if_expr$513 = (signed int)*((enum anonymous$7 *)acc) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_513 = (signed int)*((enum anonymous_7 *)acc) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$513 = (_Bool)0;
-            if(tmp_if_expr$513)
-              tmp_if_expr$514 = ((struct anonymous$26 *)acc)->i == 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_513 = (_Bool)0;
+            if(tmp_if_expr_513)
+              tmp_if_expr_514 = ((struct anonymous_26 *)acc)->i == 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$514 = (_Bool)0;
-            tmp_if_expr$515 = tmp_if_expr$514 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_514 = (_Bool)0;
+            tmp_if_expr_515 = tmp_if_expr_514 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$515)
+          if(tmp_if_expr_515)
           {
             if(!((1 & (signed int)*sp) == 0))
-              tmp_if_expr$512 = (_Bool)1;
+              tmp_if_expr_512 = (_Bool)1;
 
             else
-              tmp_if_expr$512 = (signed int)*((enum anonymous$7 *)*sp) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$512)
+              tmp_if_expr_512 = (signed int)*((enum anonymous_7 *)*sp) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_512)
             {
               if(csp + 4l >= sp)
               {
-                signed int return_value_neko_stack_expand$510;
-                return_value_neko_stack_expand$510=neko_stack_expand(sp, csp, vm);
-                if(!(return_value_neko_stack_expand$510 == 0))
+                signed int return_value_neko_stack_expand_510;
+                return_value_neko_stack_expand_510=neko_stack_expand(sp, csp, vm);
+                if(!(return_value_neko_stack_expand_510 == 0))
                 {
                   sp = vm->sp;
                   csp = vm->csp;
@@ -24527,8 +24527,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                 else
                 {
-                  return_value_neko_alloc_string$509=neko_alloc_string("Stack Overflow");
-                  neko_val_throw(return_value_neko_alloc_string$509);
+                  return_value_neko_alloc_string_509=neko_alloc_string("Stack Overflow");
+                  neko_val_throw(return_value_neko_alloc_string_509);
                 }
               }
 
@@ -24542,69 +24542,69 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
               *csp = (signed long int)m;
               vm->sp = sp;
               vm->csp = csp;
-              struct _value *return_value_neko_alloc_string$511;
-              return_value_neko_alloc_string$511=neko_alloc_string("Invalid operation (%)");
-              neko_val_throw(return_value_neko_alloc_string$511);
+              struct _value *return_value_neko_alloc_string_511;
+              return_value_neko_alloc_string_511=neko_alloc_string("Invalid operation (%)");
+              neko_val_throw(return_value_neko_alloc_string_511);
             }
 
           }
 
           if(!((1l & acc) == 0l))
-            tmp_if_expr$580 = (*sp & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_580 = (*sp & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$580 = (_Bool)0;
-          if(tmp_if_expr$580)
+            tmp_if_expr_580 = (_Bool)0;
+          if(tmp_if_expr_580)
           {
             if(!((1073741824u + (unsigned int)(((signed int)*sp >> 1) % ((signed int)acc >> 1)) & 0x80000000) == 0u))
             {
-              return_value_neko_alloc_int32$516=neko_alloc_int32(((signed int)(signed long int)*sp >> 1) % ((signed int)(signed long int)acc >> 1));
-              tmp_if_expr$517 = return_value_neko_alloc_int32$516;
+              return_value_neko_alloc_int32_516=neko_alloc_int32(((signed int)(signed long int)*sp >> 1) % ((signed int)(signed long int)acc >> 1));
+              tmp_if_expr_517 = return_value_neko_alloc_int32_516;
             }
 
             else
-              tmp_if_expr$517 = (struct _value *)(signed long int)((signed int)(((signed int)(signed long int)*sp >> 1) % ((signed int)(signed long int)acc >> 1)) << 1 | 1);
-            acc = (signed long int)tmp_if_expr$517;
+              tmp_if_expr_517 = (struct _value *)(signed long int)((signed int)(((signed int)(signed long int)*sp >> 1) % ((signed int)(signed long int)acc >> 1)) << 1 | 1);
+            acc = (signed long int)tmp_if_expr_517;
             goto __CPROVER_DUMP_L849;
           }
 
           if(!((1l & acc) == 0l))
           {
-            if((signed int)*((enum anonymous$7 *)*sp) == VAL_FLOAT)
+            if((signed int)*((enum anonymous_7 *)*sp) == VAL_FLOAT)
             {
-              return_value_fmod$518=fmod(((struct anonymous$25 *)*sp)->f, (double)((signed int)(signed long int)acc >> 1));
-              return_value_neko_alloc_float$519=neko_alloc_float(return_value_fmod$518);
-              acc = (signed long int)return_value_neko_alloc_float$519;
+              return_value_fmod_518=fmod(((struct anonymous_25 *)*sp)->f, (double)((signed int)(signed long int)acc >> 1));
+              return_value_neko_alloc_float_519=neko_alloc_float(return_value_fmod_518);
+              acc = (signed long int)return_value_neko_alloc_float_519;
             }
 
             else
-              if((signed int)*((enum anonymous$7 *)*sp) == VAL_INT32)
+              if((signed int)*((enum anonymous_7 *)*sp) == VAL_INT32)
               {
-                if(!((1073741824u + (unsigned int)(((struct anonymous$26 *)*sp)->i % ((signed int)acc >> 1)) & 0x80000000) == 0u))
+                if(!((1073741824u + (unsigned int)(((struct anonymous_26 *)*sp)->i % ((signed int)acc >> 1)) & 0x80000000) == 0u))
                 {
-                  return_value_neko_alloc_int32$520=neko_alloc_int32(((struct anonymous$26 *)*sp)->i % ((signed int)(signed long int)acc >> 1));
-                  tmp_if_expr$521 = return_value_neko_alloc_int32$520;
+                  return_value_neko_alloc_int32_520=neko_alloc_int32(((struct anonymous_26 *)*sp)->i % ((signed int)(signed long int)acc >> 1));
+                  tmp_if_expr_521 = return_value_neko_alloc_int32_520;
                 }
 
                 else
-                  tmp_if_expr$521 = (struct _value *)(signed long int)((signed int)(((struct anonymous$26 *)*sp)->i % ((signed int)(signed long int)acc >> 1)) << 1 | 1);
-                acc = (signed long int)tmp_if_expr$521;
+                  tmp_if_expr_521 = (struct _value *)(signed long int)((signed int)(((struct anonymous_26 *)*sp)->i % ((signed int)(signed long int)acc >> 1)) << 1 | 1);
+                acc = (signed long int)tmp_if_expr_521;
               }
 
               else
-                if((signed int)*((enum anonymous$7 *)*sp) == VAL_OBJECT)
+                if((signed int)*((enum anonymous_7 *)*sp) == VAL_OBJECT)
                 {
-                  struct _value *neko_interp_loop$$1$$1$$1$$62$$1$$_o = (struct _value *)*sp;
-                  struct _value *neko_interp_loop$$1$$1$$1$$62$$1$$_arg = (struct _value *)acc;
-                  struct _value *neko_interp_loop$$1$$1$$1$$62$$1$$_f;
-                  neko_interp_loop$$1$$1$$1$$62$$1$$_f=neko_val_field(neko_interp_loop$$1$$1$$1$$62$$1$$_o, id_mod);
-                  if(neko_interp_loop$$1$$1$$1$$62$$1$$_f == val_null)
+                  struct _value *neko_interp_loop__1__1__1__62__1___o = (struct _value *)*sp;
+                  struct _value *neko_interp_loop__1__1__1__62__1___arg = (struct _value *)acc;
+                  struct _value *neko_interp_loop__1__1__1__62__1___f;
+                  neko_interp_loop__1__1__1__62__1___f=neko_val_field(neko_interp_loop__1__1__1__62__1___o, id_mod);
+                  if(neko_interp_loop__1__1__1__62__1___f == val_null)
                   {
                     if(csp + 4l >= sp)
                     {
-                      signed int return_value_neko_stack_expand$523;
-                      return_value_neko_stack_expand$523=neko_stack_expand(sp, csp, vm);
-                      if(!(return_value_neko_stack_expand$523 == 0))
+                      signed int return_value_neko_stack_expand_523;
+                      return_value_neko_stack_expand_523=neko_stack_expand(sp, csp, vm);
+                      if(!(return_value_neko_stack_expand_523 == 0))
                       {
                         sp = vm->sp;
                         csp = vm->csp;
@@ -24612,8 +24612,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                       else
                       {
-                        return_value_neko_alloc_string$522=neko_alloc_string("Stack Overflow");
-                        neko_val_throw(return_value_neko_alloc_string$522);
+                        return_value_neko_alloc_string_522=neko_alloc_string("Stack Overflow");
+                        neko_val_throw(return_value_neko_alloc_string_522);
                       }
                     }
 
@@ -24627,18 +24627,18 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                     *csp = (signed long int)m;
                     vm->sp = sp;
                     vm->csp = csp;
-                    struct _value *return_value_neko_alloc_string$524;
-                    return_value_neko_alloc_string$524=neko_alloc_string("Unsupported operation");
-                    neko_val_throw(return_value_neko_alloc_string$524);
+                    struct _value *return_value_neko_alloc_string_524;
+                    return_value_neko_alloc_string_524=neko_alloc_string("Unsupported operation");
+                    neko_val_throw(return_value_neko_alloc_string_524);
                   }
 
                   else
                   {
                     if(csp + 4l >= sp)
                     {
-                      signed int return_value_neko_stack_expand$526;
-                      return_value_neko_stack_expand$526=neko_stack_expand(sp, csp, vm);
-                      if(!(return_value_neko_stack_expand$526 == 0))
+                      signed int return_value_neko_stack_expand_526;
+                      return_value_neko_stack_expand_526=neko_stack_expand(sp, csp, vm);
+                      if(!(return_value_neko_stack_expand_526 == 0))
                       {
                         sp = vm->sp;
                         csp = vm->csp;
@@ -24646,8 +24646,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                       else
                       {
-                        return_value_neko_alloc_string$525=neko_alloc_string("Stack Overflow");
-                        neko_val_throw(return_value_neko_alloc_string$525);
+                        return_value_neko_alloc_string_525=neko_alloc_string("Stack Overflow");
+                        neko_val_throw(return_value_neko_alloc_string_525);
                       }
                     }
 
@@ -24661,26 +24661,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                     *csp = (signed long int)m;
                     vm->sp = sp;
                     vm->csp = csp;
-                    struct _value *return_value_neko_val_callEx$527;
-                    return_value_neko_val_callEx$527=neko_val_callEx(neko_interp_loop$$1$$1$$1$$62$$1$$_o, neko_interp_loop$$1$$1$$1$$62$$1$$_f, &neko_interp_loop$$1$$1$$1$$62$$1$$_arg, 1, (struct _value **)(void *)0);
-                    acc = (signed long int)return_value_neko_val_callEx$527;
+                    struct _value *return_value_neko_val_callEx_527;
+                    return_value_neko_val_callEx_527=neko_val_callEx(neko_interp_loop__1__1__1__62__1___o, neko_interp_loop__1__1__1__62__1___f, &neko_interp_loop__1__1__1__62__1___arg, 1, (struct _value **)(void *)0);
+                    acc = (signed long int)return_value_neko_val_callEx_527;
                     sp = vm->sp;
                     csp = vm->csp;
                     m = (struct _neko_module *)*csp;
-                    tmp_post$528 = csp;
+                    tmp_post_528 = csp;
                     csp = csp - 1l;
-                    *tmp_post$528 = (signed long int)0;
+                    *tmp_post_528 = (signed long int)0;
                     vm->vthis = (struct _value *)*csp;
-                    tmp_post$529 = csp;
+                    tmp_post_529 = csp;
                     csp = csp - 1l;
-                    *tmp_post$529 = (signed long int)0;
+                    *tmp_post_529 = (signed long int)0;
                     vm->env = (struct _value *)*csp;
-                    tmp_post$530 = csp;
+                    tmp_post_530 = csp;
                     csp = csp - 1l;
-                    *tmp_post$530 = (signed long int)0;
-                    tmp_post$531 = csp;
+                    *tmp_post_530 = (signed long int)0;
+                    tmp_post_531 = csp;
                     csp = csp - 1l;
-                    *tmp_post$531 = (signed long int)0;
+                    *tmp_post_531 = (signed long int)0;
                   }
                 }
 
@@ -24688,9 +24688,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                 {
                   if(csp + 4l >= sp)
                   {
-                    signed int return_value_neko_stack_expand$533;
-                    return_value_neko_stack_expand$533=neko_stack_expand(sp, csp, vm);
-                    if(!(return_value_neko_stack_expand$533 == 0))
+                    signed int return_value_neko_stack_expand_533;
+                    return_value_neko_stack_expand_533=neko_stack_expand(sp, csp, vm);
+                    if(!(return_value_neko_stack_expand_533 == 0))
                     {
                       sp = vm->sp;
                       csp = vm->csp;
@@ -24698,8 +24698,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                     else
                     {
-                      return_value_neko_alloc_string$532=neko_alloc_string("Stack Overflow");
-                      neko_val_throw(return_value_neko_alloc_string$532);
+                      return_value_neko_alloc_string_532=neko_alloc_string("Stack Overflow");
+                      neko_val_throw(return_value_neko_alloc_string_532);
                     }
                   }
 
@@ -24713,50 +24713,50 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                   *csp = (signed long int)m;
                   vm->sp = sp;
                   vm->csp = csp;
-                  struct _value *return_value_neko_alloc_string$534;
-                  return_value_neko_alloc_string$534=neko_alloc_string("Invalid operation (%)");
-                  neko_val_throw(return_value_neko_alloc_string$534);
+                  struct _value *return_value_neko_alloc_string_534;
+                  return_value_neko_alloc_string_534=neko_alloc_string("Invalid operation (%)");
+                  neko_val_throw(return_value_neko_alloc_string_534);
                 }
             goto __CPROVER_DUMP_L849;
           }
 
           if(!((1l & *sp) == 0l))
           {
-            if((signed int)*((enum anonymous$7 *)acc) == VAL_FLOAT)
+            if((signed int)*((enum anonymous_7 *)acc) == VAL_FLOAT)
             {
-              return_value_fmod$535=fmod((double)((signed int)(signed long int)*sp >> 1), ((struct anonymous$25 *)acc)->f);
-              return_value_neko_alloc_float$536=neko_alloc_float(return_value_fmod$535);
-              acc = (signed long int)return_value_neko_alloc_float$536;
+              return_value_fmod_535=fmod((double)((signed int)(signed long int)*sp >> 1), ((struct anonymous_25 *)acc)->f);
+              return_value_neko_alloc_float_536=neko_alloc_float(return_value_fmod_535);
+              acc = (signed long int)return_value_neko_alloc_float_536;
             }
 
             else
-              if((signed int)*((enum anonymous$7 *)acc) == VAL_INT32)
+              if((signed int)*((enum anonymous_7 *)acc) == VAL_INT32)
               {
-                if(!((1073741824u + (unsigned int)(((signed int)*sp >> 1) % ((struct anonymous$26 *)acc)->i) & 0x80000000) == 0u))
+                if(!((1073741824u + (unsigned int)(((signed int)*sp >> 1) % ((struct anonymous_26 *)acc)->i) & 0x80000000) == 0u))
                 {
-                  return_value_neko_alloc_int32$537=neko_alloc_int32(((signed int)(signed long int)*sp >> 1) % ((struct anonymous$26 *)acc)->i);
-                  tmp_if_expr$538 = return_value_neko_alloc_int32$537;
+                  return_value_neko_alloc_int32_537=neko_alloc_int32(((signed int)(signed long int)*sp >> 1) % ((struct anonymous_26 *)acc)->i);
+                  tmp_if_expr_538 = return_value_neko_alloc_int32_537;
                 }
 
                 else
-                  tmp_if_expr$538 = (struct _value *)(signed long int)((signed int)(((signed int)(signed long int)*sp >> 1) % ((struct anonymous$26 *)acc)->i) << 1 | 1);
-                acc = (signed long int)tmp_if_expr$538;
+                  tmp_if_expr_538 = (struct _value *)(signed long int)((signed int)(((signed int)(signed long int)*sp >> 1) % ((struct anonymous_26 *)acc)->i) << 1 | 1);
+                acc = (signed long int)tmp_if_expr_538;
               }
 
               else
-                if((signed int)*((enum anonymous$7 *)acc) == VAL_OBJECT)
+                if((signed int)*((enum anonymous_7 *)acc) == VAL_OBJECT)
                 {
-                  struct _value *neko_interp_loop$$1$$1$$1$$63$$1$$_o = (struct _value *)acc;
-                  struct _value *neko_interp_loop$$1$$1$$1$$63$$1$$_arg = (struct _value *)*sp;
-                  struct _value *neko_interp_loop$$1$$1$$1$$63$$1$$_f;
-                  neko_interp_loop$$1$$1$$1$$63$$1$$_f=neko_val_field(neko_interp_loop$$1$$1$$1$$63$$1$$_o, id_rmod);
-                  if(neko_interp_loop$$1$$1$$1$$63$$1$$_f == val_null)
+                  struct _value *neko_interp_loop__1__1__1__63__1___o = (struct _value *)acc;
+                  struct _value *neko_interp_loop__1__1__1__63__1___arg = (struct _value *)*sp;
+                  struct _value *neko_interp_loop__1__1__1__63__1___f;
+                  neko_interp_loop__1__1__1__63__1___f=neko_val_field(neko_interp_loop__1__1__1__63__1___o, id_rmod);
+                  if(neko_interp_loop__1__1__1__63__1___f == val_null)
                   {
                     if(csp + 4l >= sp)
                     {
-                      signed int return_value_neko_stack_expand$540;
-                      return_value_neko_stack_expand$540=neko_stack_expand(sp, csp, vm);
-                      if(!(return_value_neko_stack_expand$540 == 0))
+                      signed int return_value_neko_stack_expand_540;
+                      return_value_neko_stack_expand_540=neko_stack_expand(sp, csp, vm);
+                      if(!(return_value_neko_stack_expand_540 == 0))
                       {
                         sp = vm->sp;
                         csp = vm->csp;
@@ -24764,8 +24764,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                       else
                       {
-                        return_value_neko_alloc_string$539=neko_alloc_string("Stack Overflow");
-                        neko_val_throw(return_value_neko_alloc_string$539);
+                        return_value_neko_alloc_string_539=neko_alloc_string("Stack Overflow");
+                        neko_val_throw(return_value_neko_alloc_string_539);
                       }
                     }
 
@@ -24779,18 +24779,18 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                     *csp = (signed long int)m;
                     vm->sp = sp;
                     vm->csp = csp;
-                    struct _value *return_value_neko_alloc_string$541;
-                    return_value_neko_alloc_string$541=neko_alloc_string("Unsupported operation");
-                    neko_val_throw(return_value_neko_alloc_string$541);
+                    struct _value *return_value_neko_alloc_string_541;
+                    return_value_neko_alloc_string_541=neko_alloc_string("Unsupported operation");
+                    neko_val_throw(return_value_neko_alloc_string_541);
                   }
 
                   else
                   {
                     if(csp + 4l >= sp)
                     {
-                      signed int return_value_neko_stack_expand$543;
-                      return_value_neko_stack_expand$543=neko_stack_expand(sp, csp, vm);
-                      if(!(return_value_neko_stack_expand$543 == 0))
+                      signed int return_value_neko_stack_expand_543;
+                      return_value_neko_stack_expand_543=neko_stack_expand(sp, csp, vm);
+                      if(!(return_value_neko_stack_expand_543 == 0))
                       {
                         sp = vm->sp;
                         csp = vm->csp;
@@ -24798,8 +24798,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                       else
                       {
-                        return_value_neko_alloc_string$542=neko_alloc_string("Stack Overflow");
-                        neko_val_throw(return_value_neko_alloc_string$542);
+                        return_value_neko_alloc_string_542=neko_alloc_string("Stack Overflow");
+                        neko_val_throw(return_value_neko_alloc_string_542);
                       }
                     }
 
@@ -24813,26 +24813,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                     *csp = (signed long int)m;
                     vm->sp = sp;
                     vm->csp = csp;
-                    struct _value *return_value_neko_val_callEx$544;
-                    return_value_neko_val_callEx$544=neko_val_callEx(neko_interp_loop$$1$$1$$1$$63$$1$$_o, neko_interp_loop$$1$$1$$1$$63$$1$$_f, &neko_interp_loop$$1$$1$$1$$63$$1$$_arg, 1, (struct _value **)(void *)0);
-                    acc = (signed long int)return_value_neko_val_callEx$544;
+                    struct _value *return_value_neko_val_callEx_544;
+                    return_value_neko_val_callEx_544=neko_val_callEx(neko_interp_loop__1__1__1__63__1___o, neko_interp_loop__1__1__1__63__1___f, &neko_interp_loop__1__1__1__63__1___arg, 1, (struct _value **)(void *)0);
+                    acc = (signed long int)return_value_neko_val_callEx_544;
                     sp = vm->sp;
                     csp = vm->csp;
                     m = (struct _neko_module *)*csp;
-                    tmp_post$545 = csp;
+                    tmp_post_545 = csp;
                     csp = csp - 1l;
-                    *tmp_post$545 = (signed long int)0;
+                    *tmp_post_545 = (signed long int)0;
                     vm->vthis = (struct _value *)*csp;
-                    tmp_post$546 = csp;
+                    tmp_post_546 = csp;
                     csp = csp - 1l;
-                    *tmp_post$546 = (signed long int)0;
+                    *tmp_post_546 = (signed long int)0;
                     vm->env = (struct _value *)*csp;
-                    tmp_post$547 = csp;
+                    tmp_post_547 = csp;
                     csp = csp - 1l;
-                    *tmp_post$547 = (signed long int)0;
-                    tmp_post$548 = csp;
+                    *tmp_post_547 = (signed long int)0;
+                    tmp_post_548 = csp;
                     csp = csp - 1l;
-                    *tmp_post$548 = (signed long int)0;
+                    *tmp_post_548 = (signed long int)0;
                   }
                 }
 
@@ -24840,9 +24840,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                 {
                   if(csp + 4l >= sp)
                   {
-                    signed int return_value_neko_stack_expand$550;
-                    return_value_neko_stack_expand$550=neko_stack_expand(sp, csp, vm);
-                    if(!(return_value_neko_stack_expand$550 == 0))
+                    signed int return_value_neko_stack_expand_550;
+                    return_value_neko_stack_expand_550=neko_stack_expand(sp, csp, vm);
+                    if(!(return_value_neko_stack_expand_550 == 0))
                     {
                       sp = vm->sp;
                       csp = vm->csp;
@@ -24850,8 +24850,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                     else
                     {
-                      return_value_neko_alloc_string$549=neko_alloc_string("Stack Overflow");
-                      neko_val_throw(return_value_neko_alloc_string$549);
+                      return_value_neko_alloc_string_549=neko_alloc_string("Stack Overflow");
+                      neko_val_throw(return_value_neko_alloc_string_549);
                     }
                   }
 
@@ -24865,28 +24865,28 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                   *csp = (signed long int)m;
                   vm->sp = sp;
                   vm->csp = csp;
-                  struct _value *return_value_neko_alloc_string$551;
-                  return_value_neko_alloc_string$551=neko_alloc_string("Invalid operation (%)");
-                  neko_val_throw(return_value_neko_alloc_string$551);
+                  struct _value *return_value_neko_alloc_string_551;
+                  return_value_neko_alloc_string_551=neko_alloc_string("Invalid operation (%)");
+                  neko_val_throw(return_value_neko_alloc_string_551);
                 }
             goto __CPROVER_DUMP_L849;
           }
 
-          if((signed int)*((enum anonymous$7 *)acc) == VAL_FLOAT)
+          if((signed int)*((enum anonymous_7 *)acc) == VAL_FLOAT)
           {
-            if((signed int)*((enum anonymous$7 *)*sp) == VAL_FLOAT)
+            if((signed int)*((enum anonymous_7 *)*sp) == VAL_FLOAT)
             {
-              return_value_fmod$552=fmod(((struct anonymous$25 *)*sp)->f, ((struct anonymous$25 *)acc)->f);
-              return_value_neko_alloc_float$553=neko_alloc_float(return_value_fmod$552);
-              acc = (signed long int)return_value_neko_alloc_float$553;
+              return_value_fmod_552=fmod(((struct anonymous_25 *)*sp)->f, ((struct anonymous_25 *)acc)->f);
+              return_value_neko_alloc_float_553=neko_alloc_float(return_value_fmod_552);
+              acc = (signed long int)return_value_neko_alloc_float_553;
             }
 
             else
-              if((signed int)*((enum anonymous$7 *)*sp) == VAL_INT32)
+              if((signed int)*((enum anonymous_7 *)*sp) == VAL_INT32)
               {
-                return_value_fmod$554=fmod((double)((struct anonymous$26 *)*sp)->i, ((struct anonymous$25 *)acc)->f);
-                return_value_neko_alloc_float$555=neko_alloc_float(return_value_fmod$554);
-                acc = (signed long int)return_value_neko_alloc_float$555;
+                return_value_fmod_554=fmod((double)((struct anonymous_26 *)*sp)->i, ((struct anonymous_25 *)acc)->f);
+                return_value_neko_alloc_float_555=neko_alloc_float(return_value_fmod_554);
+                acc = (signed long int)return_value_neko_alloc_float_555;
               }
 
               else
@@ -24894,27 +24894,27 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
             goto __CPROVER_DUMP_L849;
           }
 
-          if((signed int)*((enum anonymous$7 *)acc) == VAL_INT32)
+          if((signed int)*((enum anonymous_7 *)acc) == VAL_INT32)
           {
-            if((signed int)*((enum anonymous$7 *)*sp) == VAL_INT32)
+            if((signed int)*((enum anonymous_7 *)*sp) == VAL_INT32)
             {
-              if(!((1073741824u + (unsigned int)(((struct anonymous$26 *)*sp)->i % ((struct anonymous$26 *)acc)->i) & 0x80000000) == 0u))
+              if(!((1073741824u + (unsigned int)(((struct anonymous_26 *)*sp)->i % ((struct anonymous_26 *)acc)->i) & 0x80000000) == 0u))
               {
-                return_value_neko_alloc_int32$556=neko_alloc_int32(((struct anonymous$26 *)*sp)->i % ((struct anonymous$26 *)acc)->i);
-                tmp_if_expr$557 = return_value_neko_alloc_int32$556;
+                return_value_neko_alloc_int32_556=neko_alloc_int32(((struct anonymous_26 *)*sp)->i % ((struct anonymous_26 *)acc)->i);
+                tmp_if_expr_557 = return_value_neko_alloc_int32_556;
               }
 
               else
-                tmp_if_expr$557 = (struct _value *)(signed long int)((signed int)(((struct anonymous$26 *)*sp)->i % ((struct anonymous$26 *)acc)->i) << 1 | 1);
-              acc = (signed long int)tmp_if_expr$557;
+                tmp_if_expr_557 = (struct _value *)(signed long int)((signed int)(((struct anonymous_26 *)*sp)->i % ((struct anonymous_26 *)acc)->i) << 1 | 1);
+              acc = (signed long int)tmp_if_expr_557;
             }
 
             else
-              if((signed int)*((enum anonymous$7 *)*sp) == VAL_FLOAT)
+              if((signed int)*((enum anonymous_7 *)*sp) == VAL_FLOAT)
               {
-                return_value_fmod$558=fmod(((struct anonymous$25 *)*sp)->f, (double)((struct anonymous$26 *)acc)->i);
-                return_value_neko_alloc_float$559=neko_alloc_float(return_value_fmod$558);
-                acc = (signed long int)return_value_neko_alloc_float$559;
+                return_value_fmod_558=fmod(((struct anonymous_25 *)*sp)->f, (double)((struct anonymous_26 *)acc)->i);
+                return_value_neko_alloc_float_559=neko_alloc_float(return_value_fmod_558);
+                acc = (signed long int)return_value_neko_alloc_float_559;
               }
 
               else
@@ -24929,23 +24929,23 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
     id_mod_next:
       ;
-      if(!((signed int)*((enum anonymous$7 *)*sp) == VAL_OBJECT))
+      if(!((signed int)*((enum anonymous_7 *)*sp) == VAL_OBJECT))
         goto id_mod_next2;
 
-      struct _value *neko_interp_loop$$1$$1$$1$$66$$1$$_o = (struct _value *)*sp;
-      struct _value *neko_interp_loop$$1$$1$$1$$66$$1$$_arg = (struct _value *)acc;
-      struct _value *neko_interp_loop$$1$$1$$1$$66$$1$$_f;
-      neko_interp_loop$$1$$1$$1$$66$$1$$_f=neko_val_field(neko_interp_loop$$1$$1$$1$$66$$1$$_o, id_mod);
-      if(neko_interp_loop$$1$$1$$1$$66$$1$$_f == val_null)
+      struct _value *neko_interp_loop__1__1__1__66__1___o = (struct _value *)*sp;
+      struct _value *neko_interp_loop__1__1__1__66__1___arg = (struct _value *)acc;
+      struct _value *neko_interp_loop__1__1__1__66__1___f;
+      neko_interp_loop__1__1__1__66__1___f=neko_val_field(neko_interp_loop__1__1__1__66__1___o, id_mod);
+      if(neko_interp_loop__1__1__1__66__1___f == val_null)
         goto id_mod_next2;
 
       else
       {
         if(csp + 4l >= sp)
         {
-          signed int return_value_neko_stack_expand$561;
-          return_value_neko_stack_expand$561=neko_stack_expand(sp, csp, vm);
-          if(!(return_value_neko_stack_expand$561 == 0))
+          signed int return_value_neko_stack_expand_561;
+          return_value_neko_stack_expand_561=neko_stack_expand(sp, csp, vm);
+          if(!(return_value_neko_stack_expand_561 == 0))
           {
             sp = vm->sp;
             csp = vm->csp;
@@ -24953,8 +24953,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
           else
           {
-            return_value_neko_alloc_string$560=neko_alloc_string("Stack Overflow");
-            neko_val_throw(return_value_neko_alloc_string$560);
+            return_value_neko_alloc_string_560=neko_alloc_string("Stack Overflow");
+            neko_val_throw(return_value_neko_alloc_string_560);
           }
         }
 
@@ -24968,26 +24968,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
         *csp = (signed long int)m;
         vm->sp = sp;
         vm->csp = csp;
-        struct _value *return_value_neko_val_callEx$562;
-        return_value_neko_val_callEx$562=neko_val_callEx(neko_interp_loop$$1$$1$$1$$66$$1$$_o, neko_interp_loop$$1$$1$$1$$66$$1$$_f, &neko_interp_loop$$1$$1$$1$$66$$1$$_arg, 1, (struct _value **)(void *)0);
-        acc = (signed long int)return_value_neko_val_callEx$562;
+        struct _value *return_value_neko_val_callEx_562;
+        return_value_neko_val_callEx_562=neko_val_callEx(neko_interp_loop__1__1__1__66__1___o, neko_interp_loop__1__1__1__66__1___f, &neko_interp_loop__1__1__1__66__1___arg, 1, (struct _value **)(void *)0);
+        acc = (signed long int)return_value_neko_val_callEx_562;
         sp = vm->sp;
         csp = vm->csp;
         m = (struct _neko_module *)*csp;
-        tmp_post$563 = csp;
+        tmp_post_563 = csp;
         csp = csp - 1l;
-        *tmp_post$563 = (signed long int)0;
+        *tmp_post_563 = (signed long int)0;
         vm->vthis = (struct _value *)*csp;
-        tmp_post$564 = csp;
+        tmp_post_564 = csp;
         csp = csp - 1l;
-        *tmp_post$564 = (signed long int)0;
+        *tmp_post_564 = (signed long int)0;
         vm->env = (struct _value *)*csp;
-        tmp_post$565 = csp;
+        tmp_post_565 = csp;
         csp = csp - 1l;
-        *tmp_post$565 = (signed long int)0;
-        tmp_post$566 = csp;
+        *tmp_post_565 = (signed long int)0;
+        tmp_post_566 = csp;
         csp = csp - 1l;
-        *tmp_post$566 = (signed long int)0;
+        *tmp_post_566 = (signed long int)0;
       }
     }
 
@@ -24996,19 +24996,19 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
     id_mod_next2:
       ;
-      if((signed int)*((enum anonymous$7 *)acc) == VAL_OBJECT)
+      if((signed int)*((enum anonymous_7 *)acc) == VAL_OBJECT)
       {
-        struct _value *neko_interp_loop$$1$$1$$1$$66$$2$$1$$_o = (struct _value *)acc;
-        struct _value *neko_interp_loop$$1$$1$$1$$66$$2$$1$$_arg = (struct _value *)*sp;
-        struct _value *neko_interp_loop$$1$$1$$1$$66$$2$$1$$_f;
-        neko_interp_loop$$1$$1$$1$$66$$2$$1$$_f=neko_val_field(neko_interp_loop$$1$$1$$1$$66$$2$$1$$_o, id_rmod);
-        if(neko_interp_loop$$1$$1$$1$$66$$2$$1$$_f == val_null)
+        struct _value *neko_interp_loop__1__1__1__66__2__1___o = (struct _value *)acc;
+        struct _value *neko_interp_loop__1__1__1__66__2__1___arg = (struct _value *)*sp;
+        struct _value *neko_interp_loop__1__1__1__66__2__1___f;
+        neko_interp_loop__1__1__1__66__2__1___f=neko_val_field(neko_interp_loop__1__1__1__66__2__1___o, id_rmod);
+        if(neko_interp_loop__1__1__1__66__2__1___f == val_null)
         {
           if(csp + 4l >= sp)
           {
-            signed int return_value_neko_stack_expand$568;
-            return_value_neko_stack_expand$568=neko_stack_expand(sp, csp, vm);
-            if(!(return_value_neko_stack_expand$568 == 0))
+            signed int return_value_neko_stack_expand_568;
+            return_value_neko_stack_expand_568=neko_stack_expand(sp, csp, vm);
+            if(!(return_value_neko_stack_expand_568 == 0))
             {
               sp = vm->sp;
               csp = vm->csp;
@@ -25016,8 +25016,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
             else
             {
-              return_value_neko_alloc_string$567=neko_alloc_string("Stack Overflow");
-              neko_val_throw(return_value_neko_alloc_string$567);
+              return_value_neko_alloc_string_567=neko_alloc_string("Stack Overflow");
+              neko_val_throw(return_value_neko_alloc_string_567);
             }
           }
 
@@ -25031,18 +25031,18 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
           *csp = (signed long int)m;
           vm->sp = sp;
           vm->csp = csp;
-          struct _value *return_value_neko_alloc_string$569;
-          return_value_neko_alloc_string$569=neko_alloc_string("Unsupported operation");
-          neko_val_throw(return_value_neko_alloc_string$569);
+          struct _value *return_value_neko_alloc_string_569;
+          return_value_neko_alloc_string_569=neko_alloc_string("Unsupported operation");
+          neko_val_throw(return_value_neko_alloc_string_569);
         }
 
         else
         {
           if(csp + 4l >= sp)
           {
-            signed int return_value_neko_stack_expand$571;
-            return_value_neko_stack_expand$571=neko_stack_expand(sp, csp, vm);
-            if(!(return_value_neko_stack_expand$571 == 0))
+            signed int return_value_neko_stack_expand_571;
+            return_value_neko_stack_expand_571=neko_stack_expand(sp, csp, vm);
+            if(!(return_value_neko_stack_expand_571 == 0))
             {
               sp = vm->sp;
               csp = vm->csp;
@@ -25050,8 +25050,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
             else
             {
-              return_value_neko_alloc_string$570=neko_alloc_string("Stack Overflow");
-              neko_val_throw(return_value_neko_alloc_string$570);
+              return_value_neko_alloc_string_570=neko_alloc_string("Stack Overflow");
+              neko_val_throw(return_value_neko_alloc_string_570);
             }
           }
 
@@ -25065,26 +25065,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
           *csp = (signed long int)m;
           vm->sp = sp;
           vm->csp = csp;
-          struct _value *return_value_neko_val_callEx$572;
-          return_value_neko_val_callEx$572=neko_val_callEx(neko_interp_loop$$1$$1$$1$$66$$2$$1$$_o, neko_interp_loop$$1$$1$$1$$66$$2$$1$$_f, &neko_interp_loop$$1$$1$$1$$66$$2$$1$$_arg, 1, (struct _value **)(void *)0);
-          acc = (signed long int)return_value_neko_val_callEx$572;
+          struct _value *return_value_neko_val_callEx_572;
+          return_value_neko_val_callEx_572=neko_val_callEx(neko_interp_loop__1__1__1__66__2__1___o, neko_interp_loop__1__1__1__66__2__1___f, &neko_interp_loop__1__1__1__66__2__1___arg, 1, (struct _value **)(void *)0);
+          acc = (signed long int)return_value_neko_val_callEx_572;
           sp = vm->sp;
           csp = vm->csp;
           m = (struct _neko_module *)*csp;
-          tmp_post$573 = csp;
+          tmp_post_573 = csp;
           csp = csp - 1l;
-          *tmp_post$573 = (signed long int)0;
+          *tmp_post_573 = (signed long int)0;
           vm->vthis = (struct _value *)*csp;
-          tmp_post$574 = csp;
+          tmp_post_574 = csp;
           csp = csp - 1l;
-          *tmp_post$574 = (signed long int)0;
+          *tmp_post_574 = (signed long int)0;
           vm->env = (struct _value *)*csp;
-          tmp_post$575 = csp;
+          tmp_post_575 = csp;
           csp = csp - 1l;
-          *tmp_post$575 = (signed long int)0;
-          tmp_post$576 = csp;
+          *tmp_post_575 = (signed long int)0;
+          tmp_post_576 = csp;
           csp = csp - 1l;
-          *tmp_post$576 = (signed long int)0;
+          *tmp_post_576 = (signed long int)0;
         }
       }
 
@@ -25092,9 +25092,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
       {
         if(csp + 4l >= sp)
         {
-          signed int return_value_neko_stack_expand$578;
-          return_value_neko_stack_expand$578=neko_stack_expand(sp, csp, vm);
-          if(!(return_value_neko_stack_expand$578 == 0))
+          signed int return_value_neko_stack_expand_578;
+          return_value_neko_stack_expand_578=neko_stack_expand(sp, csp, vm);
+          if(!(return_value_neko_stack_expand_578 == 0))
           {
             sp = vm->sp;
             csp = vm->csp;
@@ -25102,8 +25102,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
           else
           {
-            return_value_neko_alloc_string$577=neko_alloc_string("Stack Overflow");
-            neko_val_throw(return_value_neko_alloc_string$577);
+            return_value_neko_alloc_string_577=neko_alloc_string("Stack Overflow");
+            neko_val_throw(return_value_neko_alloc_string_577);
           }
         }
 
@@ -25117,17 +25117,17 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
         *csp = (signed long int)m;
         vm->sp = sp;
         vm->csp = csp;
-        struct _value *return_value_neko_alloc_string$579;
-        return_value_neko_alloc_string$579=neko_alloc_string("Invalid operation (%)");
-        neko_val_throw(return_value_neko_alloc_string$579);
+        struct _value *return_value_neko_alloc_string_579;
+        return_value_neko_alloc_string_579=neko_alloc_string("Invalid operation (%)");
+        neko_val_throw(return_value_neko_alloc_string_579);
       }
     }
 
   __CPROVER_DUMP_L849:
     ;
-    tmp_post$581 = sp;
+    tmp_post_581 = sp;
     sp = sp + 1l;
-    *tmp_post$581 = (signed long int)0;
+    *tmp_post_581 = (signed long int)0;
     *pc++;
     if(*pc++ == &&id_mod_next2)
       goto id_mod_next2;
@@ -25362,94 +25362,94 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                 LabelShl:
                                   ;
                                   if(!((1l & acc) == 0l))
-                                    tmp_if_expr$598 = (*sp & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
+                                    tmp_if_expr_598 = (*sp & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
 
                                   else
-                                    tmp_if_expr$598 = (_Bool)0;
-                                  if(tmp_if_expr$598)
+                                    tmp_if_expr_598 = (_Bool)0;
+                                  if(tmp_if_expr_598)
                                   {
                                     if(!((1073741824u + (unsigned int)(((signed int)*sp >> 1) << ((signed int)acc >> 1)) & 0x80000000) == 0u))
                                     {
-                                      return_value_neko_alloc_int32$582=neko_alloc_int32(((signed int)(signed long int)*sp >> 1) << ((signed int)(signed long int)acc >> 1));
-                                      tmp_if_expr$583 = return_value_neko_alloc_int32$582;
+                                      return_value_neko_alloc_int32_582=neko_alloc_int32(((signed int)(signed long int)*sp >> 1) << ((signed int)(signed long int)acc >> 1));
+                                      tmp_if_expr_583 = return_value_neko_alloc_int32_582;
                                     }
 
                                     else
-                                      tmp_if_expr$583 = (struct _value *)(signed long int)((signed int)(((signed int)(signed long int)*sp >> 1) << ((signed int)(signed long int)acc >> 1)) << 1 | 1);
-                                    acc = (signed long int)tmp_if_expr$583;
+                                      tmp_if_expr_583 = (struct _value *)(signed long int)((signed int)(((signed int)(signed long int)*sp >> 1) << ((signed int)(signed long int)acc >> 1)) << 1 | 1);
+                                    acc = (signed long int)tmp_if_expr_583;
                                   }
 
                                   else
                                   {
                                     if(!((1 & (signed int)acc) == 0))
-                                      tmp_if_expr$595 = (_Bool)1;
+                                      tmp_if_expr_595 = (_Bool)1;
 
                                     else
-                                      tmp_if_expr$595 = (signed int)*((enum anonymous$7 *)acc) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
-                                    if(tmp_if_expr$595)
+                                      tmp_if_expr_595 = (signed int)*((enum anonymous_7 *)acc) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
+                                    if(tmp_if_expr_595)
                                     {
                                       if(!((1 & (signed int)*sp) == 0))
-                                        tmp_if_expr$596 = (_Bool)1;
+                                        tmp_if_expr_596 = (_Bool)1;
 
                                       else
-                                        tmp_if_expr$596 = (signed int)*((enum anonymous$7 *)*sp) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
-                                      tmp_if_expr$597 = tmp_if_expr$596 ? (_Bool)1 : (_Bool)0;
+                                        tmp_if_expr_596 = (signed int)*((enum anonymous_7 *)*sp) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
+                                      tmp_if_expr_597 = tmp_if_expr_596 ? (_Bool)1 : (_Bool)0;
                                     }
 
                                     else
-                                      tmp_if_expr$597 = (_Bool)0;
-                                    if(tmp_if_expr$597)
+                                      tmp_if_expr_597 = (_Bool)0;
+                                    if(tmp_if_expr_597)
                                     {
                                       if(!((1 & (signed int)*sp) == 0))
-                                        tmp_if_expr$584 = (signed int)(signed long int)*sp >> 1;
+                                        tmp_if_expr_584 = (signed int)(signed long int)*sp >> 1;
 
                                       else
-                                        tmp_if_expr$584 = ((struct anonymous$26 *)*sp)->i;
+                                        tmp_if_expr_584 = ((struct anonymous_26 *)*sp)->i;
                                       if(!((1 & (signed int)acc) == 0))
-                                        tmp_if_expr$585 = (signed int)(signed long int)acc >> 1;
+                                        tmp_if_expr_585 = (signed int)(signed long int)acc >> 1;
 
                                       else
-                                        tmp_if_expr$585 = ((struct anonymous$26 *)acc)->i;
-                                      if(!((1073741824u + (unsigned int)(tmp_if_expr$584 << tmp_if_expr$585) & 0x80000000) == 0u))
+                                        tmp_if_expr_585 = ((struct anonymous_26 *)acc)->i;
+                                      if(!((1073741824u + (unsigned int)(tmp_if_expr_584 << tmp_if_expr_585) & 0x80000000) == 0u))
                                       {
                                         if(!((1 & (signed int)*sp) == 0))
-                                          tmp_if_expr$586 = (signed int)(signed long int)*sp >> 1;
+                                          tmp_if_expr_586 = (signed int)(signed long int)*sp >> 1;
 
                                         else
-                                          tmp_if_expr$586 = ((struct anonymous$26 *)*sp)->i;
+                                          tmp_if_expr_586 = ((struct anonymous_26 *)*sp)->i;
                                         if(!((1 & (signed int)acc) == 0))
-                                          tmp_if_expr$587 = (signed int)(signed long int)acc >> 1;
+                                          tmp_if_expr_587 = (signed int)(signed long int)acc >> 1;
 
                                         else
-                                          tmp_if_expr$587 = ((struct anonymous$26 *)acc)->i;
-                                        return_value_neko_alloc_int32$588=neko_alloc_int32(tmp_if_expr$586 << tmp_if_expr$587);
-                                        tmp_if_expr$591 = return_value_neko_alloc_int32$588;
+                                          tmp_if_expr_587 = ((struct anonymous_26 *)acc)->i;
+                                        return_value_neko_alloc_int32_588=neko_alloc_int32(tmp_if_expr_586 << tmp_if_expr_587);
+                                        tmp_if_expr_591 = return_value_neko_alloc_int32_588;
                                       }
 
                                       else
                                       {
                                         if(!((1 & (signed int)*sp) == 0))
-                                          tmp_if_expr$589 = (signed int)(signed long int)*sp >> 1;
+                                          tmp_if_expr_589 = (signed int)(signed long int)*sp >> 1;
 
                                         else
-                                          tmp_if_expr$589 = ((struct anonymous$26 *)*sp)->i;
+                                          tmp_if_expr_589 = ((struct anonymous_26 *)*sp)->i;
                                         if(!((1 & (signed int)acc) == 0))
-                                          tmp_if_expr$590 = (signed int)(signed long int)acc >> 1;
+                                          tmp_if_expr_590 = (signed int)(signed long int)acc >> 1;
 
                                         else
-                                          tmp_if_expr$590 = ((struct anonymous$26 *)acc)->i;
-                                        tmp_if_expr$591 = (struct _value *)(signed long int)((signed int)(tmp_if_expr$589 << tmp_if_expr$590) << 1 | 1);
+                                          tmp_if_expr_590 = ((struct anonymous_26 *)acc)->i;
+                                        tmp_if_expr_591 = (struct _value *)(signed long int)((signed int)(tmp_if_expr_589 << tmp_if_expr_590) << 1 | 1);
                                       }
-                                      acc = (signed long int)tmp_if_expr$591;
+                                      acc = (signed long int)tmp_if_expr_591;
                                     }
 
                                     else
                                     {
                                       if(csp + 4l >= sp)
                                       {
-                                        signed int return_value_neko_stack_expand$593;
-                                        return_value_neko_stack_expand$593=neko_stack_expand(sp, csp, vm);
-                                        if(!(return_value_neko_stack_expand$593 == 0))
+                                        signed int return_value_neko_stack_expand_593;
+                                        return_value_neko_stack_expand_593=neko_stack_expand(sp, csp, vm);
+                                        if(!(return_value_neko_stack_expand_593 == 0))
                                         {
                                           sp = vm->sp;
                                           csp = vm->csp;
@@ -25457,8 +25457,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                         else
                                         {
-                                          return_value_neko_alloc_string$592=neko_alloc_string("Stack Overflow");
-                                          neko_val_throw(return_value_neko_alloc_string$592);
+                                          return_value_neko_alloc_string_592=neko_alloc_string("Stack Overflow");
+                                          neko_val_throw(return_value_neko_alloc_string_592);
                                         }
                                       }
 
@@ -25472,14 +25472,14 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                       *csp = (signed long int)m;
                                       vm->sp = sp;
                                       vm->csp = csp;
-                                      struct _value *return_value_neko_alloc_string$594;
-                                      return_value_neko_alloc_string$594=neko_alloc_string("Invalid operation (<<)");
-                                      neko_val_throw(return_value_neko_alloc_string$594);
+                                      struct _value *return_value_neko_alloc_string_594;
+                                      return_value_neko_alloc_string_594=neko_alloc_string("Invalid operation (<<)");
+                                      neko_val_throw(return_value_neko_alloc_string_594);
                                     }
                                   }
-                                  tmp_post$599 = sp;
+                                  tmp_post_599 = sp;
                                   sp = sp + 1l;
-                                  *tmp_post$599 = (signed long int)0;
+                                  *tmp_post_599 = (signed long int)0;
                                   *pc++;
                                   if(*pc++ == &&id_mod_next2)
                                     goto id_mod_next2;
@@ -25728,94 +25728,94 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                               LabelShr:
                                 ;
                                 if(!((1l & acc) == 0l))
-                                  tmp_if_expr$616 = (*sp & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
+                                  tmp_if_expr_616 = (*sp & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
 
                                 else
-                                  tmp_if_expr$616 = (_Bool)0;
-                                if(tmp_if_expr$616)
+                                  tmp_if_expr_616 = (_Bool)0;
+                                if(tmp_if_expr_616)
                                 {
                                   if(!((1073741824u + (unsigned int)(((signed int)*sp >> 1) >> ((signed int)acc >> 1)) & 0x80000000) == 0u))
                                   {
-                                    return_value_neko_alloc_int32$600=neko_alloc_int32(((signed int)(signed long int)*sp >> 1) >> ((signed int)(signed long int)acc >> 1));
-                                    tmp_if_expr$601 = return_value_neko_alloc_int32$600;
+                                    return_value_neko_alloc_int32_600=neko_alloc_int32(((signed int)(signed long int)*sp >> 1) >> ((signed int)(signed long int)acc >> 1));
+                                    tmp_if_expr_601 = return_value_neko_alloc_int32_600;
                                   }
 
                                   else
-                                    tmp_if_expr$601 = (struct _value *)(signed long int)((signed int)(((signed int)(signed long int)*sp >> 1) >> ((signed int)(signed long int)acc >> 1)) << 1 | 1);
-                                  acc = (signed long int)tmp_if_expr$601;
+                                    tmp_if_expr_601 = (struct _value *)(signed long int)((signed int)(((signed int)(signed long int)*sp >> 1) >> ((signed int)(signed long int)acc >> 1)) << 1 | 1);
+                                  acc = (signed long int)tmp_if_expr_601;
                                 }
 
                                 else
                                 {
                                   if(!((1 & (signed int)acc) == 0))
-                                    tmp_if_expr$613 = (_Bool)1;
+                                    tmp_if_expr_613 = (_Bool)1;
 
                                   else
-                                    tmp_if_expr$613 = (signed int)*((enum anonymous$7 *)acc) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
-                                  if(tmp_if_expr$613)
+                                    tmp_if_expr_613 = (signed int)*((enum anonymous_7 *)acc) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
+                                  if(tmp_if_expr_613)
                                   {
                                     if(!((1 & (signed int)*sp) == 0))
-                                      tmp_if_expr$614 = (_Bool)1;
+                                      tmp_if_expr_614 = (_Bool)1;
 
                                     else
-                                      tmp_if_expr$614 = (signed int)*((enum anonymous$7 *)*sp) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
-                                    tmp_if_expr$615 = tmp_if_expr$614 ? (_Bool)1 : (_Bool)0;
+                                      tmp_if_expr_614 = (signed int)*((enum anonymous_7 *)*sp) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
+                                    tmp_if_expr_615 = tmp_if_expr_614 ? (_Bool)1 : (_Bool)0;
                                   }
 
                                   else
-                                    tmp_if_expr$615 = (_Bool)0;
-                                  if(tmp_if_expr$615)
+                                    tmp_if_expr_615 = (_Bool)0;
+                                  if(tmp_if_expr_615)
                                   {
                                     if(!((1 & (signed int)*sp) == 0))
-                                      tmp_if_expr$602 = (signed int)(signed long int)*sp >> 1;
+                                      tmp_if_expr_602 = (signed int)(signed long int)*sp >> 1;
 
                                     else
-                                      tmp_if_expr$602 = ((struct anonymous$26 *)*sp)->i;
+                                      tmp_if_expr_602 = ((struct anonymous_26 *)*sp)->i;
                                     if(!((1 & (signed int)acc) == 0))
-                                      tmp_if_expr$603 = (signed int)(signed long int)acc >> 1;
+                                      tmp_if_expr_603 = (signed int)(signed long int)acc >> 1;
 
                                     else
-                                      tmp_if_expr$603 = ((struct anonymous$26 *)acc)->i;
-                                    if(!((1073741824u + (unsigned int)(tmp_if_expr$602 >> tmp_if_expr$603) & 0x80000000) == 0u))
+                                      tmp_if_expr_603 = ((struct anonymous_26 *)acc)->i;
+                                    if(!((1073741824u + (unsigned int)(tmp_if_expr_602 >> tmp_if_expr_603) & 0x80000000) == 0u))
                                     {
                                       if(!((1 & (signed int)*sp) == 0))
-                                        tmp_if_expr$604 = (signed int)(signed long int)*sp >> 1;
+                                        tmp_if_expr_604 = (signed int)(signed long int)*sp >> 1;
 
                                       else
-                                        tmp_if_expr$604 = ((struct anonymous$26 *)*sp)->i;
+                                        tmp_if_expr_604 = ((struct anonymous_26 *)*sp)->i;
                                       if(!((1 & (signed int)acc) == 0))
-                                        tmp_if_expr$605 = (signed int)(signed long int)acc >> 1;
+                                        tmp_if_expr_605 = (signed int)(signed long int)acc >> 1;
 
                                       else
-                                        tmp_if_expr$605 = ((struct anonymous$26 *)acc)->i;
-                                      return_value_neko_alloc_int32$606=neko_alloc_int32(tmp_if_expr$604 >> tmp_if_expr$605);
-                                      tmp_if_expr$609 = return_value_neko_alloc_int32$606;
+                                        tmp_if_expr_605 = ((struct anonymous_26 *)acc)->i;
+                                      return_value_neko_alloc_int32_606=neko_alloc_int32(tmp_if_expr_604 >> tmp_if_expr_605);
+                                      tmp_if_expr_609 = return_value_neko_alloc_int32_606;
                                     }
 
                                     else
                                     {
                                       if(!((1 & (signed int)*sp) == 0))
-                                        tmp_if_expr$607 = (signed int)(signed long int)*sp >> 1;
+                                        tmp_if_expr_607 = (signed int)(signed long int)*sp >> 1;
 
                                       else
-                                        tmp_if_expr$607 = ((struct anonymous$26 *)*sp)->i;
+                                        tmp_if_expr_607 = ((struct anonymous_26 *)*sp)->i;
                                       if(!((1 & (signed int)acc) == 0))
-                                        tmp_if_expr$608 = (signed int)(signed long int)acc >> 1;
+                                        tmp_if_expr_608 = (signed int)(signed long int)acc >> 1;
 
                                       else
-                                        tmp_if_expr$608 = ((struct anonymous$26 *)acc)->i;
-                                      tmp_if_expr$609 = (struct _value *)(signed long int)((signed int)(tmp_if_expr$607 >> tmp_if_expr$608) << 1 | 1);
+                                        tmp_if_expr_608 = ((struct anonymous_26 *)acc)->i;
+                                      tmp_if_expr_609 = (struct _value *)(signed long int)((signed int)(tmp_if_expr_607 >> tmp_if_expr_608) << 1 | 1);
                                     }
-                                    acc = (signed long int)tmp_if_expr$609;
+                                    acc = (signed long int)tmp_if_expr_609;
                                   }
 
                                   else
                                   {
                                     if(csp + 4l >= sp)
                                     {
-                                      signed int return_value_neko_stack_expand$611;
-                                      return_value_neko_stack_expand$611=neko_stack_expand(sp, csp, vm);
-                                      if(!(return_value_neko_stack_expand$611 == 0))
+                                      signed int return_value_neko_stack_expand_611;
+                                      return_value_neko_stack_expand_611=neko_stack_expand(sp, csp, vm);
+                                      if(!(return_value_neko_stack_expand_611 == 0))
                                       {
                                         sp = vm->sp;
                                         csp = vm->csp;
@@ -25823,8 +25823,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                       else
                                       {
-                                        return_value_neko_alloc_string$610=neko_alloc_string("Stack Overflow");
-                                        neko_val_throw(return_value_neko_alloc_string$610);
+                                        return_value_neko_alloc_string_610=neko_alloc_string("Stack Overflow");
+                                        neko_val_throw(return_value_neko_alloc_string_610);
                                       }
                                     }
 
@@ -25838,14 +25838,14 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                     *csp = (signed long int)m;
                                     vm->sp = sp;
                                     vm->csp = csp;
-                                    struct _value *return_value_neko_alloc_string$612;
-                                    return_value_neko_alloc_string$612=neko_alloc_string("Invalid operation (>>)");
-                                    neko_val_throw(return_value_neko_alloc_string$612);
+                                    struct _value *return_value_neko_alloc_string_612;
+                                    return_value_neko_alloc_string_612=neko_alloc_string("Invalid operation (>>)");
+                                    neko_val_throw(return_value_neko_alloc_string_612);
                                   }
                                 }
-                                tmp_post$617 = sp;
+                                tmp_post_617 = sp;
                                 sp = sp + 1l;
-                                *tmp_post$617 = (signed long int)0;
+                                *tmp_post_617 = (signed long int)0;
                                 *pc++;
                                 if(*pc++ == &&id_mod_next2)
                                   goto id_mod_next2;
@@ -26094,94 +26094,94 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                             LabelUShr:
                               ;
                               if(!((1l & acc) == 0l))
-                                tmp_if_expr$634 = (*sp & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
+                                tmp_if_expr_634 = (*sp & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
 
                               else
-                                tmp_if_expr$634 = (_Bool)0;
-                              if(tmp_if_expr$634)
+                                tmp_if_expr_634 = (_Bool)0;
+                              if(tmp_if_expr_634)
                               {
                                 if(!((1073741824u + ((unsigned int)((signed int)*sp >> 1) >> ((signed int)acc >> 1)) & 0x80000000) == 0u))
                                 {
-                                  return_value_neko_alloc_int32$618=neko_alloc_int32((signed int)((unsigned int)((signed int)(signed long int)*sp >> 1) >> ((signed int)(signed long int)acc >> 1)));
-                                  tmp_if_expr$619 = return_value_neko_alloc_int32$618;
+                                  return_value_neko_alloc_int32_618=neko_alloc_int32((signed int)((unsigned int)((signed int)(signed long int)*sp >> 1) >> ((signed int)(signed long int)acc >> 1)));
+                                  tmp_if_expr_619 = return_value_neko_alloc_int32_618;
                                 }
 
                                 else
-                                  tmp_if_expr$619 = (struct _value *)(signed long int)((signed int)((unsigned int)((signed int)(signed long int)*sp >> 1) >> ((signed int)(signed long int)acc >> 1)) << 1 | 1);
-                                acc = (signed long int)tmp_if_expr$619;
+                                  tmp_if_expr_619 = (struct _value *)(signed long int)((signed int)((unsigned int)((signed int)(signed long int)*sp >> 1) >> ((signed int)(signed long int)acc >> 1)) << 1 | 1);
+                                acc = (signed long int)tmp_if_expr_619;
                               }
 
                               else
                               {
                                 if(!((1 & (signed int)acc) == 0))
-                                  tmp_if_expr$631 = (_Bool)1;
+                                  tmp_if_expr_631 = (_Bool)1;
 
                                 else
-                                  tmp_if_expr$631 = (signed int)*((enum anonymous$7 *)acc) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
-                                if(tmp_if_expr$631)
+                                  tmp_if_expr_631 = (signed int)*((enum anonymous_7 *)acc) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
+                                if(tmp_if_expr_631)
                                 {
                                   if(!((1 & (signed int)*sp) == 0))
-                                    tmp_if_expr$632 = (_Bool)1;
+                                    tmp_if_expr_632 = (_Bool)1;
 
                                   else
-                                    tmp_if_expr$632 = (signed int)*((enum anonymous$7 *)*sp) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
-                                  tmp_if_expr$633 = tmp_if_expr$632 ? (_Bool)1 : (_Bool)0;
+                                    tmp_if_expr_632 = (signed int)*((enum anonymous_7 *)*sp) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
+                                  tmp_if_expr_633 = tmp_if_expr_632 ? (_Bool)1 : (_Bool)0;
                                 }
 
                                 else
-                                  tmp_if_expr$633 = (_Bool)0;
-                                if(tmp_if_expr$633)
+                                  tmp_if_expr_633 = (_Bool)0;
+                                if(tmp_if_expr_633)
                                 {
                                   if(!((1 & (signed int)*sp) == 0))
-                                    tmp_if_expr$620 = (signed int)(signed long int)*sp >> 1;
+                                    tmp_if_expr_620 = (signed int)(signed long int)*sp >> 1;
 
                                   else
-                                    tmp_if_expr$620 = ((struct anonymous$26 *)*sp)->i;
+                                    tmp_if_expr_620 = ((struct anonymous_26 *)*sp)->i;
                                   if(!((1 & (signed int)acc) == 0))
-                                    tmp_if_expr$621 = (signed int)(signed long int)acc >> 1;
+                                    tmp_if_expr_621 = (signed int)(signed long int)acc >> 1;
 
                                   else
-                                    tmp_if_expr$621 = ((struct anonymous$26 *)acc)->i;
-                                  if(!((1073741824u + ((unsigned int)tmp_if_expr$620 >> tmp_if_expr$621) & 0x80000000) == 0u))
+                                    tmp_if_expr_621 = ((struct anonymous_26 *)acc)->i;
+                                  if(!((1073741824u + ((unsigned int)tmp_if_expr_620 >> tmp_if_expr_621) & 0x80000000) == 0u))
                                   {
                                     if(!((1 & (signed int)*sp) == 0))
-                                      tmp_if_expr$622 = (signed int)(signed long int)*sp >> 1;
+                                      tmp_if_expr_622 = (signed int)(signed long int)*sp >> 1;
 
                                     else
-                                      tmp_if_expr$622 = ((struct anonymous$26 *)*sp)->i;
+                                      tmp_if_expr_622 = ((struct anonymous_26 *)*sp)->i;
                                     if(!((1 & (signed int)acc) == 0))
-                                      tmp_if_expr$623 = (signed int)(signed long int)acc >> 1;
+                                      tmp_if_expr_623 = (signed int)(signed long int)acc >> 1;
 
                                     else
-                                      tmp_if_expr$623 = ((struct anonymous$26 *)acc)->i;
-                                    return_value_neko_alloc_int32$624=neko_alloc_int32((signed int)((unsigned int)tmp_if_expr$622 >> tmp_if_expr$623));
-                                    tmp_if_expr$627 = return_value_neko_alloc_int32$624;
+                                      tmp_if_expr_623 = ((struct anonymous_26 *)acc)->i;
+                                    return_value_neko_alloc_int32_624=neko_alloc_int32((signed int)((unsigned int)tmp_if_expr_622 >> tmp_if_expr_623));
+                                    tmp_if_expr_627 = return_value_neko_alloc_int32_624;
                                   }
 
                                   else
                                   {
                                     if(!((1 & (signed int)*sp) == 0))
-                                      tmp_if_expr$625 = (signed int)(signed long int)*sp >> 1;
+                                      tmp_if_expr_625 = (signed int)(signed long int)*sp >> 1;
 
                                     else
-                                      tmp_if_expr$625 = ((struct anonymous$26 *)*sp)->i;
+                                      tmp_if_expr_625 = ((struct anonymous_26 *)*sp)->i;
                                     if(!((1 & (signed int)acc) == 0))
-                                      tmp_if_expr$626 = (signed int)(signed long int)acc >> 1;
+                                      tmp_if_expr_626 = (signed int)(signed long int)acc >> 1;
 
                                     else
-                                      tmp_if_expr$626 = ((struct anonymous$26 *)acc)->i;
-                                    tmp_if_expr$627 = (struct _value *)(signed long int)((signed int)((unsigned int)tmp_if_expr$625 >> tmp_if_expr$626) << 1 | 1);
+                                      tmp_if_expr_626 = ((struct anonymous_26 *)acc)->i;
+                                    tmp_if_expr_627 = (struct _value *)(signed long int)((signed int)((unsigned int)tmp_if_expr_625 >> tmp_if_expr_626) << 1 | 1);
                                   }
-                                  acc = (signed long int)tmp_if_expr$627;
+                                  acc = (signed long int)tmp_if_expr_627;
                                 }
 
                                 else
                                 {
                                   if(csp + 4l >= sp)
                                   {
-                                    signed int return_value_neko_stack_expand$629;
-                                    return_value_neko_stack_expand$629=neko_stack_expand(sp, csp, vm);
-                                    if(!(return_value_neko_stack_expand$629 == 0))
+                                    signed int return_value_neko_stack_expand_629;
+                                    return_value_neko_stack_expand_629=neko_stack_expand(sp, csp, vm);
+                                    if(!(return_value_neko_stack_expand_629 == 0))
                                     {
                                       sp = vm->sp;
                                       csp = vm->csp;
@@ -26189,8 +26189,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                     else
                                     {
-                                      return_value_neko_alloc_string$628=neko_alloc_string("Stack Overflow");
-                                      neko_val_throw(return_value_neko_alloc_string$628);
+                                      return_value_neko_alloc_string_628=neko_alloc_string("Stack Overflow");
+                                      neko_val_throw(return_value_neko_alloc_string_628);
                                     }
                                   }
 
@@ -26204,14 +26204,14 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                   *csp = (signed long int)m;
                                   vm->sp = sp;
                                   vm->csp = csp;
-                                  struct _value *return_value_neko_alloc_string$630;
-                                  return_value_neko_alloc_string$630=neko_alloc_string("Invalid operation (>>>)");
-                                  neko_val_throw(return_value_neko_alloc_string$630);
+                                  struct _value *return_value_neko_alloc_string_630;
+                                  return_value_neko_alloc_string_630=neko_alloc_string("Invalid operation (>>>)");
+                                  neko_val_throw(return_value_neko_alloc_string_630);
                                 }
                               }
-                              tmp_post$635 = sp;
+                              tmp_post_635 = sp;
                               sp = sp + 1l;
-                              *tmp_post$635 = (signed long int)0;
+                              *tmp_post_635 = (signed long int)0;
                               *pc++;
                               if(*pc++ == &&id_mod_next2)
                                 goto id_mod_next2;
@@ -26460,94 +26460,94 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                           LabelOr:
                             ;
                             if(!((1l & acc) == 0l))
-                              tmp_if_expr$652 = (*sp & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
+                              tmp_if_expr_652 = (*sp & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
 
                             else
-                              tmp_if_expr$652 = (_Bool)0;
-                            if(tmp_if_expr$652)
+                              tmp_if_expr_652 = (_Bool)0;
+                            if(tmp_if_expr_652)
                             {
                               if(!((((unsigned int)((signed int)*sp >> 1) | (unsigned int)((signed int)acc >> 1)) + 1073741824u & 0x80000000) == 0u))
                               {
-                                return_value_neko_alloc_int32$636=neko_alloc_int32((signed int)(signed long int)*sp >> 1 | (signed int)(signed long int)acc >> 1);
-                                tmp_if_expr$637 = return_value_neko_alloc_int32$636;
+                                return_value_neko_alloc_int32_636=neko_alloc_int32((signed int)(signed long int)*sp >> 1 | (signed int)(signed long int)acc >> 1);
+                                tmp_if_expr_637 = return_value_neko_alloc_int32_636;
                               }
 
                               else
-                                tmp_if_expr$637 = (struct _value *)(signed long int)((signed int)((signed int)(signed long int)*sp >> 1 | (signed int)(signed long int)acc >> 1) << 1 | 1);
-                              acc = (signed long int)tmp_if_expr$637;
+                                tmp_if_expr_637 = (struct _value *)(signed long int)((signed int)((signed int)(signed long int)*sp >> 1 | (signed int)(signed long int)acc >> 1) << 1 | 1);
+                              acc = (signed long int)tmp_if_expr_637;
                             }
 
                             else
                             {
                               if(!((1 & (signed int)acc) == 0))
-                                tmp_if_expr$649 = (_Bool)1;
+                                tmp_if_expr_649 = (_Bool)1;
 
                               else
-                                tmp_if_expr$649 = (signed int)*((enum anonymous$7 *)acc) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
-                              if(tmp_if_expr$649)
+                                tmp_if_expr_649 = (signed int)*((enum anonymous_7 *)acc) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
+                              if(tmp_if_expr_649)
                               {
                                 if(!((1 & (signed int)*sp) == 0))
-                                  tmp_if_expr$650 = (_Bool)1;
+                                  tmp_if_expr_650 = (_Bool)1;
 
                                 else
-                                  tmp_if_expr$650 = (signed int)*((enum anonymous$7 *)*sp) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
-                                tmp_if_expr$651 = tmp_if_expr$650 ? (_Bool)1 : (_Bool)0;
+                                  tmp_if_expr_650 = (signed int)*((enum anonymous_7 *)*sp) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
+                                tmp_if_expr_651 = tmp_if_expr_650 ? (_Bool)1 : (_Bool)0;
                               }
 
                               else
-                                tmp_if_expr$651 = (_Bool)0;
-                              if(tmp_if_expr$651)
+                                tmp_if_expr_651 = (_Bool)0;
+                              if(tmp_if_expr_651)
                               {
                                 if(!((1 & (signed int)*sp) == 0))
-                                  tmp_if_expr$638 = (signed int)(signed long int)*sp >> 1;
+                                  tmp_if_expr_638 = (signed int)(signed long int)*sp >> 1;
 
                                 else
-                                  tmp_if_expr$638 = ((struct anonymous$26 *)*sp)->i;
+                                  tmp_if_expr_638 = ((struct anonymous_26 *)*sp)->i;
                                 if(!((1 & (signed int)acc) == 0))
-                                  tmp_if_expr$639 = (signed int)(signed long int)acc >> 1;
+                                  tmp_if_expr_639 = (signed int)(signed long int)acc >> 1;
 
                                 else
-                                  tmp_if_expr$639 = ((struct anonymous$26 *)acc)->i;
-                                if(!((((unsigned int)tmp_if_expr$638 | (unsigned int)tmp_if_expr$639) + 1073741824u & 0x80000000) == 0u))
+                                  tmp_if_expr_639 = ((struct anonymous_26 *)acc)->i;
+                                if(!((((unsigned int)tmp_if_expr_638 | (unsigned int)tmp_if_expr_639) + 1073741824u & 0x80000000) == 0u))
                                 {
                                   if(!((1 & (signed int)*sp) == 0))
-                                    tmp_if_expr$640 = (signed int)(signed long int)*sp >> 1;
+                                    tmp_if_expr_640 = (signed int)(signed long int)*sp >> 1;
 
                                   else
-                                    tmp_if_expr$640 = ((struct anonymous$26 *)*sp)->i;
+                                    tmp_if_expr_640 = ((struct anonymous_26 *)*sp)->i;
                                   if(!((1 & (signed int)acc) == 0))
-                                    tmp_if_expr$641 = (signed int)(signed long int)acc >> 1;
+                                    tmp_if_expr_641 = (signed int)(signed long int)acc >> 1;
 
                                   else
-                                    tmp_if_expr$641 = ((struct anonymous$26 *)acc)->i;
-                                  return_value_neko_alloc_int32$642=neko_alloc_int32(tmp_if_expr$640 | tmp_if_expr$641);
-                                  tmp_if_expr$645 = return_value_neko_alloc_int32$642;
+                                    tmp_if_expr_641 = ((struct anonymous_26 *)acc)->i;
+                                  return_value_neko_alloc_int32_642=neko_alloc_int32(tmp_if_expr_640 | tmp_if_expr_641);
+                                  tmp_if_expr_645 = return_value_neko_alloc_int32_642;
                                 }
 
                                 else
                                 {
                                   if(!((1 & (signed int)*sp) == 0))
-                                    tmp_if_expr$643 = (signed int)(signed long int)*sp >> 1;
+                                    tmp_if_expr_643 = (signed int)(signed long int)*sp >> 1;
 
                                   else
-                                    tmp_if_expr$643 = ((struct anonymous$26 *)*sp)->i;
+                                    tmp_if_expr_643 = ((struct anonymous_26 *)*sp)->i;
                                   if(!((1 & (signed int)acc) == 0))
-                                    tmp_if_expr$644 = (signed int)(signed long int)acc >> 1;
+                                    tmp_if_expr_644 = (signed int)(signed long int)acc >> 1;
 
                                   else
-                                    tmp_if_expr$644 = ((struct anonymous$26 *)acc)->i;
-                                  tmp_if_expr$645 = (struct _value *)(signed long int)((signed int)(tmp_if_expr$643 | tmp_if_expr$644) << 1 | 1);
+                                    tmp_if_expr_644 = ((struct anonymous_26 *)acc)->i;
+                                  tmp_if_expr_645 = (struct _value *)(signed long int)((signed int)(tmp_if_expr_643 | tmp_if_expr_644) << 1 | 1);
                                 }
-                                acc = (signed long int)tmp_if_expr$645;
+                                acc = (signed long int)tmp_if_expr_645;
                               }
 
                               else
                               {
                                 if(csp + 4l >= sp)
                                 {
-                                  signed int return_value_neko_stack_expand$647;
-                                  return_value_neko_stack_expand$647=neko_stack_expand(sp, csp, vm);
-                                  if(!(return_value_neko_stack_expand$647 == 0))
+                                  signed int return_value_neko_stack_expand_647;
+                                  return_value_neko_stack_expand_647=neko_stack_expand(sp, csp, vm);
+                                  if(!(return_value_neko_stack_expand_647 == 0))
                                   {
                                     sp = vm->sp;
                                     csp = vm->csp;
@@ -26555,8 +26555,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                   else
                                   {
-                                    return_value_neko_alloc_string$646=neko_alloc_string("Stack Overflow");
-                                    neko_val_throw(return_value_neko_alloc_string$646);
+                                    return_value_neko_alloc_string_646=neko_alloc_string("Stack Overflow");
+                                    neko_val_throw(return_value_neko_alloc_string_646);
                                   }
                                 }
 
@@ -26570,14 +26570,14 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                                 *csp = (signed long int)m;
                                 vm->sp = sp;
                                 vm->csp = csp;
-                                struct _value *return_value_neko_alloc_string$648;
-                                return_value_neko_alloc_string$648=neko_alloc_string("Invalid operation (|)");
-                                neko_val_throw(return_value_neko_alloc_string$648);
+                                struct _value *return_value_neko_alloc_string_648;
+                                return_value_neko_alloc_string_648=neko_alloc_string("Invalid operation (|)");
+                                neko_val_throw(return_value_neko_alloc_string_648);
                               }
                             }
-                            tmp_post$653 = sp;
+                            tmp_post_653 = sp;
                             sp = sp + 1l;
-                            *tmp_post$653 = (signed long int)0;
+                            *tmp_post_653 = (signed long int)0;
                             *pc++;
                             if(*pc++ == &&id_mod_next2)
                               goto id_mod_next2;
@@ -26826,94 +26826,94 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                         LabelAnd:
                           ;
                           if(!((1l & acc) == 0l))
-                            tmp_if_expr$670 = (*sp & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
+                            tmp_if_expr_670 = (*sp & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
 
                           else
-                            tmp_if_expr$670 = (_Bool)0;
-                          if(tmp_if_expr$670)
+                            tmp_if_expr_670 = (_Bool)0;
+                          if(tmp_if_expr_670)
                           {
                             if(!((((unsigned int)((signed int)*sp >> 1) & (unsigned int)((signed int)acc >> 1)) + 1073741824u & 0x80000000) == 0u))
                             {
-                              return_value_neko_alloc_int32$654=neko_alloc_int32((signed int)(signed long int)*sp >> 1 & (signed int)(signed long int)acc >> 1);
-                              tmp_if_expr$655 = return_value_neko_alloc_int32$654;
+                              return_value_neko_alloc_int32_654=neko_alloc_int32((signed int)(signed long int)*sp >> 1 & (signed int)(signed long int)acc >> 1);
+                              tmp_if_expr_655 = return_value_neko_alloc_int32_654;
                             }
 
                             else
-                              tmp_if_expr$655 = (struct _value *)(signed long int)((signed int)((signed int)(signed long int)*sp >> 1 & (signed int)(signed long int)acc >> 1) << 1 | 1);
-                            acc = (signed long int)tmp_if_expr$655;
+                              tmp_if_expr_655 = (struct _value *)(signed long int)((signed int)((signed int)(signed long int)*sp >> 1 & (signed int)(signed long int)acc >> 1) << 1 | 1);
+                            acc = (signed long int)tmp_if_expr_655;
                           }
 
                           else
                           {
                             if(!((1 & (signed int)acc) == 0))
-                              tmp_if_expr$667 = (_Bool)1;
+                              tmp_if_expr_667 = (_Bool)1;
 
                             else
-                              tmp_if_expr$667 = (signed int)*((enum anonymous$7 *)acc) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
-                            if(tmp_if_expr$667)
+                              tmp_if_expr_667 = (signed int)*((enum anonymous_7 *)acc) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
+                            if(tmp_if_expr_667)
                             {
                               if(!((1 & (signed int)*sp) == 0))
-                                tmp_if_expr$668 = (_Bool)1;
+                                tmp_if_expr_668 = (_Bool)1;
 
                               else
-                                tmp_if_expr$668 = (signed int)*((enum anonymous$7 *)*sp) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
-                              tmp_if_expr$669 = tmp_if_expr$668 ? (_Bool)1 : (_Bool)0;
+                                tmp_if_expr_668 = (signed int)*((enum anonymous_7 *)*sp) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
+                              tmp_if_expr_669 = tmp_if_expr_668 ? (_Bool)1 : (_Bool)0;
                             }
 
                             else
-                              tmp_if_expr$669 = (_Bool)0;
-                            if(tmp_if_expr$669)
+                              tmp_if_expr_669 = (_Bool)0;
+                            if(tmp_if_expr_669)
                             {
                               if(!((1 & (signed int)*sp) == 0))
-                                tmp_if_expr$656 = (signed int)(signed long int)*sp >> 1;
+                                tmp_if_expr_656 = (signed int)(signed long int)*sp >> 1;
 
                               else
-                                tmp_if_expr$656 = ((struct anonymous$26 *)*sp)->i;
+                                tmp_if_expr_656 = ((struct anonymous_26 *)*sp)->i;
                               if(!((1 & (signed int)acc) == 0))
-                                tmp_if_expr$657 = (signed int)(signed long int)acc >> 1;
+                                tmp_if_expr_657 = (signed int)(signed long int)acc >> 1;
 
                               else
-                                tmp_if_expr$657 = ((struct anonymous$26 *)acc)->i;
-                              if(!((((unsigned int)tmp_if_expr$656 & (unsigned int)tmp_if_expr$657) + 1073741824u & 0x80000000) == 0u))
+                                tmp_if_expr_657 = ((struct anonymous_26 *)acc)->i;
+                              if(!((((unsigned int)tmp_if_expr_656 & (unsigned int)tmp_if_expr_657) + 1073741824u & 0x80000000) == 0u))
                               {
                                 if(!((1 & (signed int)*sp) == 0))
-                                  tmp_if_expr$658 = (signed int)(signed long int)*sp >> 1;
+                                  tmp_if_expr_658 = (signed int)(signed long int)*sp >> 1;
 
                                 else
-                                  tmp_if_expr$658 = ((struct anonymous$26 *)*sp)->i;
+                                  tmp_if_expr_658 = ((struct anonymous_26 *)*sp)->i;
                                 if(!((1 & (signed int)acc) == 0))
-                                  tmp_if_expr$659 = (signed int)(signed long int)acc >> 1;
+                                  tmp_if_expr_659 = (signed int)(signed long int)acc >> 1;
 
                                 else
-                                  tmp_if_expr$659 = ((struct anonymous$26 *)acc)->i;
-                                return_value_neko_alloc_int32$660=neko_alloc_int32(tmp_if_expr$658 & tmp_if_expr$659);
-                                tmp_if_expr$663 = return_value_neko_alloc_int32$660;
+                                  tmp_if_expr_659 = ((struct anonymous_26 *)acc)->i;
+                                return_value_neko_alloc_int32_660=neko_alloc_int32(tmp_if_expr_658 & tmp_if_expr_659);
+                                tmp_if_expr_663 = return_value_neko_alloc_int32_660;
                               }
 
                               else
                               {
                                 if(!((1 & (signed int)*sp) == 0))
-                                  tmp_if_expr$661 = (signed int)(signed long int)*sp >> 1;
+                                  tmp_if_expr_661 = (signed int)(signed long int)*sp >> 1;
 
                                 else
-                                  tmp_if_expr$661 = ((struct anonymous$26 *)*sp)->i;
+                                  tmp_if_expr_661 = ((struct anonymous_26 *)*sp)->i;
                                 if(!((1 & (signed int)acc) == 0))
-                                  tmp_if_expr$662 = (signed int)(signed long int)acc >> 1;
+                                  tmp_if_expr_662 = (signed int)(signed long int)acc >> 1;
 
                                 else
-                                  tmp_if_expr$662 = ((struct anonymous$26 *)acc)->i;
-                                tmp_if_expr$663 = (struct _value *)(signed long int)((signed int)(tmp_if_expr$661 & tmp_if_expr$662) << 1 | 1);
+                                  tmp_if_expr_662 = ((struct anonymous_26 *)acc)->i;
+                                tmp_if_expr_663 = (struct _value *)(signed long int)((signed int)(tmp_if_expr_661 & tmp_if_expr_662) << 1 | 1);
                               }
-                              acc = (signed long int)tmp_if_expr$663;
+                              acc = (signed long int)tmp_if_expr_663;
                             }
 
                             else
                             {
                               if(csp + 4l >= sp)
                               {
-                                signed int return_value_neko_stack_expand$665;
-                                return_value_neko_stack_expand$665=neko_stack_expand(sp, csp, vm);
-                                if(!(return_value_neko_stack_expand$665 == 0))
+                                signed int return_value_neko_stack_expand_665;
+                                return_value_neko_stack_expand_665=neko_stack_expand(sp, csp, vm);
+                                if(!(return_value_neko_stack_expand_665 == 0))
                                 {
                                   sp = vm->sp;
                                   csp = vm->csp;
@@ -26921,8 +26921,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                                 else
                                 {
-                                  return_value_neko_alloc_string$664=neko_alloc_string("Stack Overflow");
-                                  neko_val_throw(return_value_neko_alloc_string$664);
+                                  return_value_neko_alloc_string_664=neko_alloc_string("Stack Overflow");
+                                  neko_val_throw(return_value_neko_alloc_string_664);
                                 }
                               }
 
@@ -26936,14 +26936,14 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                               *csp = (signed long int)m;
                               vm->sp = sp;
                               vm->csp = csp;
-                              struct _value *return_value_neko_alloc_string$666;
-                              return_value_neko_alloc_string$666=neko_alloc_string("Invalid operation (&)");
-                              neko_val_throw(return_value_neko_alloc_string$666);
+                              struct _value *return_value_neko_alloc_string_666;
+                              return_value_neko_alloc_string_666=neko_alloc_string("Invalid operation (&)");
+                              neko_val_throw(return_value_neko_alloc_string_666);
                             }
                           }
-                          tmp_post$671 = sp;
+                          tmp_post_671 = sp;
                           sp = sp + 1l;
-                          *tmp_post$671 = (signed long int)0;
+                          *tmp_post_671 = (signed long int)0;
                           *pc++;
                           if(*pc++ == &&id_mod_next2)
                             goto id_mod_next2;
@@ -27192,94 +27192,94 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                       LabelXor:
                         ;
                         if(!((1l & acc) == 0l))
-                          tmp_if_expr$688 = (*sp & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
+                          tmp_if_expr_688 = (*sp & (signed long int)1) != 0l ? (_Bool)1 : (_Bool)0;
 
                         else
-                          tmp_if_expr$688 = (_Bool)0;
-                        if(tmp_if_expr$688)
+                          tmp_if_expr_688 = (_Bool)0;
+                        if(tmp_if_expr_688)
                         {
                           if(!((((unsigned int)((signed int)*sp >> 1) ^ (unsigned int)((signed int)acc >> 1)) + 1073741824u & 0x80000000) == 0u))
                           {
-                            return_value_neko_alloc_int32$672=neko_alloc_int32((signed int)(signed long int)*sp >> 1 ^ (signed int)(signed long int)acc >> 1);
-                            tmp_if_expr$673 = return_value_neko_alloc_int32$672;
+                            return_value_neko_alloc_int32_672=neko_alloc_int32((signed int)(signed long int)*sp >> 1 ^ (signed int)(signed long int)acc >> 1);
+                            tmp_if_expr_673 = return_value_neko_alloc_int32_672;
                           }
 
                           else
-                            tmp_if_expr$673 = (struct _value *)(signed long int)((signed int)((signed int)(signed long int)*sp >> 1 ^ (signed int)(signed long int)acc >> 1) << 1 | 1);
-                          acc = (signed long int)tmp_if_expr$673;
+                            tmp_if_expr_673 = (struct _value *)(signed long int)((signed int)((signed int)(signed long int)*sp >> 1 ^ (signed int)(signed long int)acc >> 1) << 1 | 1);
+                          acc = (signed long int)tmp_if_expr_673;
                         }
 
                         else
                         {
                           if(!((1 & (signed int)acc) == 0))
-                            tmp_if_expr$685 = (_Bool)1;
+                            tmp_if_expr_685 = (_Bool)1;
 
                           else
-                            tmp_if_expr$685 = (signed int)*((enum anonymous$7 *)acc) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
-                          if(tmp_if_expr$685)
+                            tmp_if_expr_685 = (signed int)*((enum anonymous_7 *)acc) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
+                          if(tmp_if_expr_685)
                           {
                             if(!((1 & (signed int)*sp) == 0))
-                              tmp_if_expr$686 = (_Bool)1;
+                              tmp_if_expr_686 = (_Bool)1;
 
                             else
-                              tmp_if_expr$686 = (signed int)*((enum anonymous$7 *)*sp) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
-                            tmp_if_expr$687 = tmp_if_expr$686 ? (_Bool)1 : (_Bool)0;
+                              tmp_if_expr_686 = (signed int)*((enum anonymous_7 *)*sp) == VAL_INT32 ? (_Bool)1 : (_Bool)0;
+                            tmp_if_expr_687 = tmp_if_expr_686 ? (_Bool)1 : (_Bool)0;
                           }
 
                           else
-                            tmp_if_expr$687 = (_Bool)0;
-                          if(tmp_if_expr$687)
+                            tmp_if_expr_687 = (_Bool)0;
+                          if(tmp_if_expr_687)
                           {
                             if(!((1 & (signed int)*sp) == 0))
-                              tmp_if_expr$674 = (signed int)(signed long int)*sp >> 1;
+                              tmp_if_expr_674 = (signed int)(signed long int)*sp >> 1;
 
                             else
-                              tmp_if_expr$674 = ((struct anonymous$26 *)*sp)->i;
+                              tmp_if_expr_674 = ((struct anonymous_26 *)*sp)->i;
                             if(!((1 & (signed int)acc) == 0))
-                              tmp_if_expr$675 = (signed int)(signed long int)acc >> 1;
+                              tmp_if_expr_675 = (signed int)(signed long int)acc >> 1;
 
                             else
-                              tmp_if_expr$675 = ((struct anonymous$26 *)acc)->i;
-                            if(!((((unsigned int)tmp_if_expr$674 ^ (unsigned int)tmp_if_expr$675) + 1073741824u & 0x80000000) == 0u))
+                              tmp_if_expr_675 = ((struct anonymous_26 *)acc)->i;
+                            if(!((((unsigned int)tmp_if_expr_674 ^ (unsigned int)tmp_if_expr_675) + 1073741824u & 0x80000000) == 0u))
                             {
                               if(!((1 & (signed int)*sp) == 0))
-                                tmp_if_expr$676 = (signed int)(signed long int)*sp >> 1;
+                                tmp_if_expr_676 = (signed int)(signed long int)*sp >> 1;
 
                               else
-                                tmp_if_expr$676 = ((struct anonymous$26 *)*sp)->i;
+                                tmp_if_expr_676 = ((struct anonymous_26 *)*sp)->i;
                               if(!((1 & (signed int)acc) == 0))
-                                tmp_if_expr$677 = (signed int)(signed long int)acc >> 1;
+                                tmp_if_expr_677 = (signed int)(signed long int)acc >> 1;
 
                               else
-                                tmp_if_expr$677 = ((struct anonymous$26 *)acc)->i;
-                              return_value_neko_alloc_int32$678=neko_alloc_int32(tmp_if_expr$676 ^ tmp_if_expr$677);
-                              tmp_if_expr$681 = return_value_neko_alloc_int32$678;
+                                tmp_if_expr_677 = ((struct anonymous_26 *)acc)->i;
+                              return_value_neko_alloc_int32_678=neko_alloc_int32(tmp_if_expr_676 ^ tmp_if_expr_677);
+                              tmp_if_expr_681 = return_value_neko_alloc_int32_678;
                             }
 
                             else
                             {
                               if(!((1 & (signed int)*sp) == 0))
-                                tmp_if_expr$679 = (signed int)(signed long int)*sp >> 1;
+                                tmp_if_expr_679 = (signed int)(signed long int)*sp >> 1;
 
                               else
-                                tmp_if_expr$679 = ((struct anonymous$26 *)*sp)->i;
+                                tmp_if_expr_679 = ((struct anonymous_26 *)*sp)->i;
                               if(!((1 & (signed int)acc) == 0))
-                                tmp_if_expr$680 = (signed int)(signed long int)acc >> 1;
+                                tmp_if_expr_680 = (signed int)(signed long int)acc >> 1;
 
                               else
-                                tmp_if_expr$680 = ((struct anonymous$26 *)acc)->i;
-                              tmp_if_expr$681 = (struct _value *)(signed long int)((signed int)(tmp_if_expr$679 ^ tmp_if_expr$680) << 1 | 1);
+                                tmp_if_expr_680 = ((struct anonymous_26 *)acc)->i;
+                              tmp_if_expr_681 = (struct _value *)(signed long int)((signed int)(tmp_if_expr_679 ^ tmp_if_expr_680) << 1 | 1);
                             }
-                            acc = (signed long int)tmp_if_expr$681;
+                            acc = (signed long int)tmp_if_expr_681;
                           }
 
                           else
                           {
                             if(csp + 4l >= sp)
                             {
-                              signed int return_value_neko_stack_expand$683;
-                              return_value_neko_stack_expand$683=neko_stack_expand(sp, csp, vm);
-                              if(!(return_value_neko_stack_expand$683 == 0))
+                              signed int return_value_neko_stack_expand_683;
+                              return_value_neko_stack_expand_683=neko_stack_expand(sp, csp, vm);
+                              if(!(return_value_neko_stack_expand_683 == 0))
                               {
                                 sp = vm->sp;
                                 csp = vm->csp;
@@ -27287,8 +27287,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                               else
                               {
-                                return_value_neko_alloc_string$682=neko_alloc_string("Stack Overflow");
-                                neko_val_throw(return_value_neko_alloc_string$682);
+                                return_value_neko_alloc_string_682=neko_alloc_string("Stack Overflow");
+                                neko_val_throw(return_value_neko_alloc_string_682);
                               }
                             }
 
@@ -27302,14 +27302,14 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                             *csp = (signed long int)m;
                             vm->sp = sp;
                             vm->csp = csp;
-                            struct _value *return_value_neko_alloc_string$684;
-                            return_value_neko_alloc_string$684=neko_alloc_string("Invalid operation (^)");
-                            neko_val_throw(return_value_neko_alloc_string$684);
+                            struct _value *return_value_neko_alloc_string_684;
+                            return_value_neko_alloc_string_684=neko_alloc_string("Invalid operation (^)");
+                            neko_val_throw(return_value_neko_alloc_string_684);
                           }
                         }
-                        tmp_post$689 = sp;
+                        tmp_post_689 = sp;
                         sp = sp + 1l;
-                        *tmp_post$689 = (signed long int)0;
+                        *tmp_post_689 = (signed long int)0;
                         *pc++;
                         if(*pc++ == &&id_mod_next2)
                           goto id_mod_next2;
@@ -27559,13 +27559,13 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                       ;
                       vm->sp = sp;
                       vm->csp = csp;
-                      return_value_neko_val_compare$690=neko_val_compare((struct _value *)*sp, (struct _value *)acc);
-                      acc = (signed long int)return_value_neko_val_compare$690;
+                      return_value_neko_val_compare_690=neko_val_compare((struct _value *)*sp, (struct _value *)acc);
+                      acc = (signed long int)return_value_neko_val_compare_690;
                       sp = vm->sp;
                       csp = vm->csp;
-                      tmp_post$691 = sp;
+                      tmp_post_691 = sp;
                       sp = sp + 1l;
-                      *tmp_post$691 = (signed long int)0;
+                      *tmp_post_691 = (signed long int)0;
                       acc = (signed long int)(acc == (signed long int)0 && acc != (signed long int)0xFE ? val_true : val_false);
                       *pc++;
                       if(*pc++ == &&id_mod_next2)
@@ -27816,13 +27816,13 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                     ;
                     vm->sp = sp;
                     vm->csp = csp;
-                    return_value_neko_val_compare$692=neko_val_compare((struct _value *)*sp, (struct _value *)acc);
-                    acc = (signed long int)(return_value_neko_val_compare$692 == 0 ? val_false : val_true);
+                    return_value_neko_val_compare_692=neko_val_compare((struct _value *)*sp, (struct _value *)acc);
+                    acc = (signed long int)(return_value_neko_val_compare_692 == 0 ? val_false : val_true);
                     sp = vm->sp;
                     csp = vm->csp;
-                    tmp_post$693 = sp;
+                    tmp_post_693 = sp;
                     sp = sp + 1l;
-                    *tmp_post$693 = (signed long int)0;
+                    *tmp_post_693 = (signed long int)0;
                     *pc++;
                     if(*pc++ == &&id_mod_next2)
                       goto id_mod_next2;
@@ -28072,13 +28072,13 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                   ;
                   vm->sp = sp;
                   vm->csp = csp;
-                  return_value_neko_val_compare$694=neko_val_compare((struct _value *)*sp, (struct _value *)acc);
-                  acc = (signed long int)return_value_neko_val_compare$694;
+                  return_value_neko_val_compare_694=neko_val_compare((struct _value *)*sp, (struct _value *)acc);
+                  acc = (signed long int)return_value_neko_val_compare_694;
                   sp = vm->sp;
                   csp = vm->csp;
-                  tmp_post$695 = sp;
+                  tmp_post_695 = sp;
                   sp = sp + 1l;
-                  *tmp_post$695 = (signed long int)0;
+                  *tmp_post_695 = (signed long int)0;
                   acc = (signed long int)(acc < (signed long int)0 && acc != (signed long int)0xFE ? val_true : val_false);
                   *pc++;
                   if(*pc++ == &&id_mod_next2)
@@ -28329,13 +28329,13 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                 ;
                 vm->sp = sp;
                 vm->csp = csp;
-                return_value_neko_val_compare$696=neko_val_compare((struct _value *)*sp, (struct _value *)acc);
-                acc = (signed long int)return_value_neko_val_compare$696;
+                return_value_neko_val_compare_696=neko_val_compare((struct _value *)*sp, (struct _value *)acc);
+                acc = (signed long int)return_value_neko_val_compare_696;
                 sp = vm->sp;
                 csp = vm->csp;
-                tmp_post$697 = sp;
+                tmp_post_697 = sp;
                 sp = sp + 1l;
-                *tmp_post$697 = (signed long int)0;
+                *tmp_post_697 = (signed long int)0;
                 acc = (signed long int)(acc <= (signed long int)0 && acc != (signed long int)0xFE ? val_true : val_false);
                 *pc++;
                 if(*pc++ == &&id_mod_next2)
@@ -28584,13 +28584,13 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                   ;
                   vm->sp = sp;
                   vm->csp = csp;
-                  return_value_neko_val_compare$698=neko_val_compare((struct _value *)*sp, (struct _value *)acc);
-                  acc = (signed long int)return_value_neko_val_compare$698;
+                  return_value_neko_val_compare_698=neko_val_compare((struct _value *)*sp, (struct _value *)acc);
+                  acc = (signed long int)return_value_neko_val_compare_698;
                   sp = vm->sp;
                   csp = vm->csp;
-                  tmp_post$699 = sp;
+                  tmp_post_699 = sp;
                   sp = sp + 1l;
-                  *tmp_post$699 = (signed long int)0;
+                  *tmp_post_699 = (signed long int)0;
                   acc = (signed long int)(acc > (signed long int)0 && acc != (signed long int)0xFE ? val_true : val_false);
                   *pc++;
                   if(*pc++ == &&id_mod_next2)
@@ -28841,13 +28841,13 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                 ;
                 vm->sp = sp;
                 vm->csp = csp;
-                return_value_neko_val_compare$700=neko_val_compare((struct _value *)*sp, (struct _value *)acc);
-                acc = (signed long int)return_value_neko_val_compare$700;
+                return_value_neko_val_compare_700=neko_val_compare((struct _value *)*sp, (struct _value *)acc);
+                acc = (signed long int)return_value_neko_val_compare_700;
                 sp = vm->sp;
                 csp = vm->csp;
-                tmp_post$701 = sp;
+                tmp_post_701 = sp;
                 sp = sp + 1l;
-                *tmp_post$701 = (signed long int)0;
+                *tmp_post_701 = (signed long int)0;
                 acc = (signed long int)(acc >= (signed long int)0 && acc != (signed long int)0xFE ? val_true : val_false);
                 *pc++;
                 if(*pc++ == &&id_mod_next2)
@@ -29097,11 +29097,11 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
             LabelTypeOf:
               ;
               if(!((1 & (signed int)acc) == 0))
-                tmp_if_expr$702 = (struct _value *)(signed long int)((signed int)1 << 1 | 1);
+                tmp_if_expr_702 = (struct _value *)(signed long int)((signed int)1 << 1 | 1);
 
               else
-                tmp_if_expr$702 = NEKO_TYPEOF[(signed long int)((signed int)*((enum anonymous$7 *)acc) & (1 << 4) - 1)];
-              acc = (signed long int)tmp_if_expr$702;
+                tmp_if_expr_702 = NEKO_TYPEOF[(signed long int)((signed int)*((enum anonymous_7 *)acc) & (1 << 4) - 1)];
+              acc = (signed long int)tmp_if_expr_702;
               *pc++;
               if(*pc++ == &&id_mod_next2)
                 goto id_mod_next2;
@@ -29351,14 +29351,14 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
             ;
             vm->sp = sp;
             vm->csp = csp;
-            return_value_neko_val_compare$703=neko_val_compare((struct _value *)*sp, (struct _value *)acc);
-            acc = (signed long int)return_value_neko_val_compare$703;
+            return_value_neko_val_compare_703=neko_val_compare((struct _value *)*sp, (struct _value *)acc);
+            acc = (signed long int)return_value_neko_val_compare_703;
             sp = vm->sp;
             csp = vm->csp;
             acc = (signed long int)(acc == (signed long int)0xFE ? val_null : (struct _value *)(signed long int)((signed int)acc << 1 | 1));
-            tmp_post$704 = sp;
+            tmp_post_704 = sp;
             sp = sp + 1l;
-            *tmp_post$704 = (signed long int)0;
+            *tmp_post_704 = (signed long int)0;
             *pc++;
             if(*pc++ == &&id_mod_next2)
               goto id_mod_next2;
@@ -29607,14 +29607,14 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
         LabelPhysCompare:
           ;
           if(!(acc >= *sp))
-            tmp_if_expr$705 = (struct _value *)(signed long int)((signed int)1 << 1 | 1);
+            tmp_if_expr_705 = (struct _value *)(signed long int)((signed int)1 << 1 | 1);
 
           else
-            tmp_if_expr$705 = *sp < acc ? (struct _value *)(signed long int)((signed int)-1 << 1 | 1) : (struct _value *)(signed long int)((signed int)0 << 1 | 1);
-          acc = (signed long int)tmp_if_expr$705;
-          tmp_post$706 = sp;
+            tmp_if_expr_705 = *sp < acc ? (struct _value *)(signed long int)((signed int)-1 << 1 | 1) : (struct _value *)(signed long int)((signed int)0 << 1 | 1);
+          acc = (signed long int)tmp_if_expr_705;
+          tmp_post_706 = sp;
           sp = sp + 1l;
-          *tmp_post$706 = (signed long int)0;
+          *tmp_post_706 = (signed long int)0;
           *pc++;
           if(*pc++ == &&id_mod_next2)
             goto id_mod_next2;
@@ -29860,26 +29860,26 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
             LabelHash:
               ;
               if((1 & (signed int)acc) == 0)
-                tmp_if_expr$711 = ((signed int)*((enum anonymous$7 *)acc) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_711 = ((signed int)*((enum anonymous_7 *)acc) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$711 = (_Bool)0;
-              if(tmp_if_expr$711)
+                tmp_if_expr_711 = (_Bool)0;
+              if(tmp_if_expr_711)
               {
                 vm->sp = sp;
                 vm->csp = csp;
-                signed int return_value_neko_val_id$707;
-                return_value_neko_val_id$707=neko_val_id(&((struct anonymous$5 *)acc)->c);
-                acc = (signed long int)(struct _value *)(signed long int)((signed int)return_value_neko_val_id$707 << 1 | 1);
+                signed int return_value_neko_val_id_707;
+                return_value_neko_val_id_707=neko_val_id(&((struct anonymous_5 *)acc)->c);
+                acc = (signed long int)(struct _value *)(signed long int)((signed int)return_value_neko_val_id_707 << 1 | 1);
               }
 
               else
               {
                 if(csp + 4l >= sp)
                 {
-                  signed int return_value_neko_stack_expand$709;
-                  return_value_neko_stack_expand$709=neko_stack_expand(sp, csp, vm);
-                  if(!(return_value_neko_stack_expand$709 == 0))
+                  signed int return_value_neko_stack_expand_709;
+                  return_value_neko_stack_expand_709=neko_stack_expand(sp, csp, vm);
+                  if(!(return_value_neko_stack_expand_709 == 0))
                   {
                     sp = vm->sp;
                     csp = vm->csp;
@@ -29887,8 +29887,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
 
                   else
                   {
-                    return_value_neko_alloc_string$708=neko_alloc_string("Stack Overflow");
-                    neko_val_throw(return_value_neko_alloc_string$708);
+                    return_value_neko_alloc_string_708=neko_alloc_string("Stack Overflow");
+                    neko_val_throw(return_value_neko_alloc_string_708);
                   }
                 }
 
@@ -29902,9 +29902,9 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
                 *csp = (signed long int)m;
                 vm->sp = sp;
                 vm->csp = csp;
-                struct _value *return_value_neko_alloc_string$710;
-                return_value_neko_alloc_string$710=neko_alloc_string("$hash");
-                neko_val_throw(return_value_neko_alloc_string$710);
+                struct _value *return_value_neko_alloc_string_710;
+                return_value_neko_alloc_string_710=neko_alloc_string("_hash");
+                neko_val_throw(return_value_neko_alloc_string_710);
               }
               *pc++;
               if(*pc++ == &&id_mod_next2)
@@ -30155,8 +30155,8 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
             ;
             vm->sp = sp;
             vm->csp = csp;
-            return_value_neko_alloc_object$712=neko_alloc_object((struct _value *)acc);
-            acc = (signed long int)return_value_neko_alloc_object$712;
+            return_value_neko_alloc_object_712=neko_alloc_object((struct _value *)acc);
+            acc = (signed long int)return_value_neko_alloc_object_712;
             *pc++;
             if(*pc++ == &&id_mod_next2)
               goto id_mod_next2;
@@ -30405,11 +30405,11 @@ signed long int neko_interp_loop(struct _neko_vm *vm, struct _neko_module *m, si
         LabelJumpTable:
           ;
           if(!((1 & (signed int)acc) == 0))
-            tmp_if_expr$713 = (unsigned int)acc < (unsigned int)*pc ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_713 = (unsigned int)acc < (unsigned int)*pc ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$713 = (_Bool)0;
-          if(tmp_if_expr$713)
+            tmp_if_expr_713 = (_Bool)0;
+          if(tmp_if_expr_713)
             pc = pc + acc;
 
           else
@@ -30930,9 +30930,9 @@ void neko_kind_share(struct anonymous **k, const char *name)
   struct _klist *l = *kind_names;
   while(!(l == ((struct _klist *)NULL)))
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(l->name, name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(l->name, name);
+    if(return_value_strcmp_1 == 0)
     {
       *k = l->k;
       goto __CPROVER_DUMP_L4;
@@ -30940,9 +30940,9 @@ void neko_kind_share(struct anonymous **k, const char *name)
 
     l = l->next;
   }
-  char *return_value_neko_alloc$2;
-  return_value_neko_alloc$2=neko_alloc((unsigned int)sizeof(struct _klist) /*24ul*/ );
-  l = (struct _klist *)return_value_neko_alloc$2;
+  char *return_value_neko_alloc_2;
+  return_value_neko_alloc_2=neko_alloc((unsigned int)sizeof(struct _klist) /*24ul*/ );
+  l = (struct _klist *)return_value_neko_alloc_2;
   l->k = *k;
   l->name = name;
   l->next = *kind_names;
@@ -30961,9 +30961,9 @@ void * neko_local_get(struct _mt_local *l)
 
   else
   {
-    void *return_value_pthread_getspecific$1;
-    return_value_pthread_getspecific$1=pthread_getspecific(l->key);
-    return return_value_pthread_getspecific$1;
+    void *return_value_pthread_getspecific_1;
+    return_value_pthread_getspecific_1=pthread_getspecific(l->key);
+    return return_value_pthread_getspecific_1;
   }
 }
 
@@ -30992,9 +30992,9 @@ void neko_lock_release(struct _mt_lock *l)
 // file vm/threads.c line 327
 signed int neko_lock_try(struct _mt_lock *l)
 {
-  signed int return_value_pthread_mutex_trylock$1;
-  return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&l->lock);
-  return (signed int)(return_value_pthread_mutex_trylock$1 == 0);
+  signed int return_value_pthread_mutex_trylock_1;
+  return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&l->lock);
+  return (signed int)(return_value_pthread_mutex_trylock_1 == 0);
 }
 
 // neko_module_jit
@@ -31010,7 +31010,7 @@ void neko_process_trap(struct _neko_vm *vm)
 {
   signed long int *sp;
   signed long int *trap;
-  signed long int *tmp_post$1;
+  signed long int *tmp_post_1;
   if(!(vm->trap == 0l))
   {
     trap = vm->spmax - vm->trap;
@@ -31022,9 +31022,9 @@ void neko_process_trap(struct _neko_vm *vm)
     vm->jit_val = (void *)(signed long int *)(trap[(signed long int)3] & (signed long int)~1);
     sp = trap + (signed long int)6;
     vm->trap = (signed long int)((signed int)(signed long int)trap[(signed long int)5] >> 1);
-    for( ; !(vm->sp >= sp); *tmp_post$1 = (signed long int)0)
+    for( ; !(vm->sp >= sp); *tmp_post_1 = (signed long int)0)
     {
-      tmp_post$1 = vm->sp;
+      tmp_post_1 = vm->sp;
       vm->sp = vm->sp + 1l;
     }
   }
@@ -31042,42 +31042,42 @@ struct _neko_module * neko_read_module(signed int (*r)(void *, void *, signed in
   char *tmp = (char *)(void *)0;
   unsigned char version = (unsigned char)1;
   struct _neko_module *m;
-  char *return_value_neko_alloc$1;
-  return_value_neko_alloc$1=neko_alloc((unsigned int)sizeof(struct _neko_module) /*96ul*/ );
-  m = (struct _neko_module *)return_value_neko_alloc$1;
+  char *return_value_neko_alloc_1;
+  return_value_neko_alloc_1=neko_alloc((unsigned int)sizeof(struct _neko_module) /*96ul*/ );
+  m = (struct _neko_module *)return_value_neko_alloc_1;
   struct _neko_vm *vm;
-  void *return_value_neko_local_get$2;
-  return_value_neko_local_get$2=neko_local_get(neko_vm_context);
-  vm = (struct _neko_vm *)return_value_neko_local_get$2;
+  void *return_value_neko_local_get_2;
+  return_value_neko_local_get_2=neko_local_get(neko_vm_context);
+  vm = (struct _neko_vm *)return_value_neko_local_get_2;
   read_long(r, p, &itmp);
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  unsigned int tmp_if_expr$7;
-  signed int return_value_read_string$12;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  unsigned int tmp_if_expr_7;
+  signed int return_value_read_string_12;
   signed int return_value_1;
-  signed int return_value_read_string$13;
-  double return_value_atof$14;
-  void *return_value_read_debug_infos$15;
+  signed int return_value_read_string_13;
+  double return_value_atof_14;
+  void *return_value_read_debug_infos_15;
   signed int return_value_2;
-  unsigned int tmp_post$18;
-  unsigned int tmp_post$19;
-  unsigned int tmp_post$20;
-  unsigned int tmp_post$21;
-  unsigned int tmp_post$22;
-  unsigned int tmp_post$23;
-  unsigned int tmp_post$24;
-  _Bool tmp_if_expr$25;
-  _Bool tmp_if_expr$26;
-  struct _value *return_value_get_builtin$27;
-  struct _value *return_value_neko_alloc_string$28;
-  struct _value *return_value_neko_alloc_string$29;
-  _Bool tmp_if_expr$30;
-  signed int return_value_neko_check_stack$32;
-  signed int tmp_if_expr$35;
-  _Bool tmp_if_expr$33;
-  signed int return_value_neko_check_stack$34;
+  unsigned int tmp_post_18;
+  unsigned int tmp_post_19;
+  unsigned int tmp_post_20;
+  unsigned int tmp_post_21;
+  unsigned int tmp_post_22;
+  unsigned int tmp_post_23;
+  unsigned int tmp_post_24;
+  _Bool tmp_if_expr_25;
+  _Bool tmp_if_expr_26;
+  struct _value *return_value_get_builtin_27;
+  struct _value *return_value_neko_alloc_string_28;
+  struct _value *return_value_neko_alloc_string_29;
+  _Bool tmp_if_expr_30;
+  signed int return_value_neko_check_stack_32;
+  signed int tmp_if_expr_35;
+  _Bool tmp_if_expr_33;
+  signed int return_value_neko_check_stack_34;
   if(!(itmp == 1330333006u))
   {
     free((void *)tmp);
@@ -31090,26 +31090,26 @@ struct _neko_module * neko_read_module(signed int (*r)(void *, void *, signed in
     read_long(r, p, &m->nfields);
     read_long(r, p, &m->codesize);
     if(m->nglobals >= 65536u)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = m->nfields < (unsigned int)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_3 = m->nfields < (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = m->nfields > (unsigned int)0xFFFF ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_4 = m->nfields > (unsigned int)0xFFFF ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = m->codesize < (unsigned int)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_5 = m->codesize < (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = m->codesize > (unsigned int)0xFFFFF ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = m->codesize > (unsigned int)0xFFFFF ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
     {
       free((void *)tmp);
       return (struct _neko_module *)(void *)0;
@@ -31118,31 +31118,31 @@ struct _neko_module * neko_read_module(signed int (*r)(void *, void *, signed in
     else
     {
       if(1u + m->codesize >= 257u)
-        tmp_if_expr$7 = m->codesize + (unsigned int)1;
+        tmp_if_expr_7 = m->codesize + (unsigned int)1;
 
       else
-        tmp_if_expr$7 = (unsigned int)0x100;
-      void *return_value_malloc$8;
-      return_value_malloc$8=malloc(sizeof(char) /*1ul*/  * (unsigned long int)tmp_if_expr$7);
-      tmp = (char *)return_value_malloc$8;
+        tmp_if_expr_7 = (unsigned int)0x100;
+      void *return_value_malloc_8;
+      return_value_malloc_8=malloc(sizeof(char) /*1ul*/  * (unsigned long int)tmp_if_expr_7);
+      tmp = (char *)return_value_malloc_8;
       m->jit = (void *)0;
       m->jit_gc = (struct _value *)(void *)0;
       m->dbgtbl = val_null;
       m->dbgidxs = (struct _neko_debug *)(void *)0;
-      char *return_value_neko_alloc$9;
-      return_value_neko_alloc$9=neko_alloc((unsigned int)((unsigned long int)m->nglobals * sizeof(struct _value *) /*8ul*/ ));
-      m->globals = (struct _value **)return_value_neko_alloc$9;
-      char *return_value_neko_alloc$10;
-      return_value_neko_alloc$10=neko_alloc((unsigned int)(sizeof(struct _value **) /*8ul*/  * (unsigned long int)m->nfields));
-      m->fields = (struct _value **)return_value_neko_alloc$10;
+      char *return_value_neko_alloc_9;
+      return_value_neko_alloc_9=neko_alloc((unsigned int)((unsigned long int)m->nglobals * sizeof(struct _value *) /*8ul*/ ));
+      m->globals = (struct _value **)return_value_neko_alloc_9;
+      char *return_value_neko_alloc_10;
+      return_value_neko_alloc_10=neko_alloc((unsigned int)(sizeof(struct _value **) /*8ul*/  * (unsigned long int)m->nfields));
+      m->fields = (struct _value **)return_value_neko_alloc_10;
       m->loader = loader;
       m->exports=neko_alloc_object((struct _value *)(void *)0);
       if(!(vm->fstats == ((void (*)(struct _neko_vm *, const char *, signed int))NULL)))
         vm->fstats(vm, "neko_read_module_data", 1);
 
-      struct _value *return_value_neko_alloc_abstract$11;
-      return_value_neko_alloc_abstract$11=neko_alloc_abstract(neko_kind_module, (void *)m);
-      neko_alloc_field(m->exports, neko_id_module, return_value_neko_alloc_abstract$11);
+      struct _value *return_value_neko_alloc_abstract_11;
+      return_value_neko_alloc_abstract_11=neko_alloc_abstract(neko_kind_module, (void *)m);
+      neko_alloc_field(m->exports, neko_id_module, return_value_neko_alloc_abstract_11);
       i = (unsigned int)0;
       if(!(i >= m->nglobals))
       {
@@ -31156,8 +31156,8 @@ struct _neko_module * neko_read_module(signed int (*r)(void *, void *, signed in
 
         if((signed int)t == 1)
         {
-          return_value_read_string$12=read_string(r, p, tmp);
-          if(return_value_read_string$12 == -1)
+          return_value_read_string_12=read_string(r, p, tmp);
+          if(return_value_read_string_12 == -1)
           {
             free((void *)tmp);
             return (struct _neko_module *)(void *)0;
@@ -31174,24 +31174,24 @@ struct _neko_module * neko_read_module(signed int (*r)(void *, void *, signed in
           m->globals[(signed long int)i]=neko_alloc_module_function((void *)m, (signed long int)(itmp & (unsigned int)0xFFFFFF), (signed int)(itmp >> 24));
           read_short(r, p, &stmp);
           m->globals[(signed long int)i]=neko_alloc_empty_string((unsigned int)stmp);
-          return_value_1=r(p, (void *)&((struct anonymous$5 *)m->globals[(signed long int)i])->c, (signed int)stmp);
+          return_value_1=r(p, (void *)&((struct anonymous_5 *)m->globals[(signed long int)i])->c, (signed int)stmp);
           if(return_value_1 == -1)
           {
             free((void *)tmp);
             return (struct _neko_module *)(void *)0;
           }
 
-          return_value_read_string$13=read_string(r, p, tmp);
-          if(return_value_read_string$13 == -1)
+          return_value_read_string_13=read_string(r, p, tmp);
+          if(return_value_read_string_13 == -1)
           {
             free((void *)tmp);
             return (struct _neko_module *)(void *)0;
           }
 
-          return_value_atof$14=atof(tmp);
-          m->globals[(signed long int)i]=neko_alloc_float(return_value_atof$14);
-          return_value_read_debug_infos$15=read_debug_infos(r, p, tmp, m);
-          if(return_value_read_debug_infos$15 == NULL)
+          return_value_atof_14=atof(tmp);
+          m->globals[(signed long int)i]=neko_alloc_float(return_value_atof_14);
+          return_value_read_debug_infos_15=read_debug_infos(r, p, tmp, m);
+          if(return_value_read_debug_infos_15 == NULL)
           {
             tmp = (char *)(void *)0;
             free((void *)tmp);
@@ -31217,9 +31217,9 @@ struct _neko_module * neko_read_module(signed int (*r)(void *, void *, signed in
       i = (unsigned int)0;
       for( ; !(i >= m->nfields); i = i + 1u)
       {
-        signed int return_value_read_string$16;
-        return_value_read_string$16=read_string(r, p, tmp);
-        if(return_value_read_string$16 == -1)
+        signed int return_value_read_string_16;
+        return_value_read_string_16=read_string(r, p, tmp);
+        if(return_value_read_string_16 == -1)
         {
           free((void *)tmp);
           return (struct _neko_module *)(void *)0;
@@ -31233,9 +31233,9 @@ struct _neko_module * neko_read_module(signed int (*r)(void *, void *, signed in
         vm->fstats(vm, "neko_read_module_code", 1);
       }
 
-      char *return_value_neko_alloc_private$17;
-      return_value_neko_alloc_private$17=neko_alloc_private((unsigned int)(sizeof(signed long int) /*8ul*/  * (unsigned long int)(m->codesize + (unsigned int)1)));
-      m->code = (signed long int *)return_value_neko_alloc_private$17;
+      char *return_value_neko_alloc_private_17;
+      return_value_neko_alloc_private_17=neko_alloc_private((unsigned int)(sizeof(signed long int) /*8ul*/  * (unsigned long int)(m->codesize + (unsigned int)1)));
+      m->code = (signed long int *)return_value_neko_alloc_private_17;
       i = (unsigned int)0;
       if(!(i >= m->codesize))
       {
@@ -31250,19 +31250,19 @@ struct _neko_module * neko_read_module(signed int (*r)(void *, void *, signed in
         tmp[(signed long int)i] = (char)1;
         if((3 & (signed int)t) == 0)
         {
-          tmp_post$18 = i;
+          tmp_post_18 = i;
           i = i + 1u;
-          m->code[(signed long int)tmp_post$18] = (signed long int)((signed int)t >> 2);
-          tmp_post$19 = i;
+          m->code[(signed long int)tmp_post_18] = (signed long int)((signed int)t >> 2);
+          tmp_post_19 = i;
           i = i + 1u;
-          m->code[(signed long int)tmp_post$19] = (signed long int)((signed int)t >> 3);
+          m->code[(signed long int)tmp_post_19] = (signed long int)((signed int)t >> 3);
           tmp[(signed long int)i] = (char)0;
-          tmp_post$20 = i;
+          tmp_post_20 = i;
           i = i + 1u;
-          m->code[(signed long int)tmp_post$20] = (signed long int)((signed int)t >> 2 & 1);
-          tmp_post$21 = i;
+          m->code[(signed long int)tmp_post_20] = (signed long int)((signed int)t >> 2 & 1);
+          tmp_post_21 = i;
           i = i + 1u;
-          m->code[(signed long int)tmp_post$21] = (signed long int)((signed int)t >> 2);
+          m->code[(signed long int)tmp_post_21] = (signed long int)((signed int)t >> 2);
           if((signed int)t == 2)
           {
             signed int return_value_4;
@@ -31287,18 +31287,18 @@ struct _neko_module * neko_read_module(signed int (*r)(void *, void *, signed in
             }
 
             tmp[(signed long int)i] = (char)0;
-            tmp_post$22 = i;
+            tmp_post_22 = i;
             i = i + 1u;
-            m->code[(signed long int)tmp_post$22] = (signed long int)t;
+            m->code[(signed long int)tmp_post_22] = (signed long int)t;
           }
-          tmp_post$23 = i;
+          tmp_post_23 = i;
           i = i + 1u;
-          m->code[(signed long int)tmp_post$23] = (signed long int)((signed int)t >> 2);
+          m->code[(signed long int)tmp_post_23] = (signed long int)((signed int)t >> 2);
           read_long(r, p, &itmp);
           tmp[(signed long int)i] = (char)0;
-          tmp_post$24 = i;
+          tmp_post_24 = i;
           i = i + 1u;
-          m->code[(signed long int)tmp_post$24] = (signed long int)(signed int)itmp;
+          m->code[(signed long int)tmp_post_24] = (signed long int)(signed int)itmp;
         }
 
       }
@@ -31317,11 +31317,11 @@ struct _neko_module * neko_read_module(signed int (*r)(void *, void *, signed in
         signed int c = (signed int)m->code[(signed long int)i];
         itmp = (unsigned int)m->code[(signed long int)(i + (unsigned int)1)];
         if(c >= 67)
-          tmp_if_expr$25 = (_Bool)1;
+          tmp_if_expr_25 = (_Bool)1;
 
         else
-          tmp_if_expr$25 = (signed int)tmp[(signed long int)(i + (unsigned int)1)] == parameter_table[(signed long int)c] ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$25)
+          tmp_if_expr_25 = (signed int)tmp[(signed long int)(i + (unsigned int)1)] == parameter_table[(signed long int)c] ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_25)
         {
           free((void *)tmp);
           return (struct _neko_module *)(void *)0;
@@ -31352,11 +31352,11 @@ struct _neko_module * neko_read_module(signed int (*r)(void *, void *, signed in
           {
             itmp = itmp + i;
             if(!(m->codesize >= itmp))
-              tmp_if_expr$26 = (_Bool)1;
+              tmp_if_expr_26 = (_Bool)1;
 
             else
-              tmp_if_expr$26 = !(tmp[(signed long int)itmp] != 0) ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$26)
+              tmp_if_expr_26 = !(tmp[(signed long int)itmp] != 0) ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_26)
             {
               free((void *)tmp);
               return (struct _neko_module *)(void *)0;
@@ -31422,8 +31422,8 @@ struct _neko_module * neko_read_module(signed int (*r)(void *, void *, signed in
 
               else
               {
-                return_value_get_builtin$27=get_builtin(m, f);
-                m->code[(signed long int)(i + (unsigned int)1)] = (signed long int)return_value_get_builtin$27;
+                return_value_get_builtin_27=get_builtin(m, f);
+                m->code[(signed long int)(i + (unsigned int)1)] = (signed long int)return_value_get_builtin_27;
               }
             break;
           }
@@ -31463,8 +31463,8 @@ struct _neko_module * neko_read_module(signed int (*r)(void *, void *, signed in
           {
             if(itmp >= 256u)
             {
-              return_value_neko_alloc_string$28=neko_alloc_string("Too much big environment");
-              _neko_failure(return_value_neko_alloc_string$28, "vm/module.c", 537);
+              return_value_neko_alloc_string_28=neko_alloc_string("Too much big environment");
+              _neko_failure(return_value_neko_alloc_string_28, "vm/module.c", 537);
             }
 
             break;
@@ -31473,8 +31473,8 @@ struct _neko_module * neko_read_module(signed int (*r)(void *, void *, signed in
           {
             if(itmp >= 65537u)
             {
-              return_value_neko_alloc_string$29=neko_alloc_string("Too much big array");
-              _neko_failure(return_value_neko_alloc_string$29, "vm/module.c", 541);
+              return_value_neko_alloc_string_29=neko_alloc_string("Too much big array");
+              _neko_failure(return_value_neko_alloc_string_29, "vm/module.c", 541);
             }
 
             if((signed int)version >= 2)
@@ -31485,11 +31485,11 @@ struct _neko_module * neko_read_module(signed int (*r)(void *, void *, signed in
           case (signed long int)56:
           {
             if(itmp >= 513u)
-              tmp_if_expr$30 = (_Bool)1;
+              tmp_if_expr_30 = (_Bool)1;
 
             else
-              tmp_if_expr$30 = i + (unsigned int)1 + itmp * (unsigned int)2 >= m->codesize ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$30)
+              tmp_if_expr_30 = i + (unsigned int)1 + itmp * (unsigned int)2 >= m->codesize ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_30)
             {
               free((void *)tmp);
               return (struct _neko_module *)(void *)0;
@@ -31502,19 +31502,19 @@ struct _neko_module * neko_read_module(signed int (*r)(void *, void *, signed in
           i = i + 1u;
 
       }
-      unsigned char *neko_read_module$$1$$9$$stmp;
-      void *return_value_malloc$31;
-      return_value_malloc$31=malloc((unsigned long int)(m->codesize + (unsigned int)1));
-      neko_read_module$$1$$9$$stmp = (unsigned char *)return_value_malloc$31;
+      unsigned char *neko_read_module__1__9__stmp;
+      void *return_value_malloc_31;
+      return_value_malloc_31=malloc((unsigned long int)(m->codesize + (unsigned int)1));
+      neko_read_module__1__9__stmp = (unsigned char *)return_value_malloc_31;
       unsigned int prev = (unsigned int)0;
-      memset((void *)neko_read_module$$1$$9$$stmp, (signed int)(unsigned char)-1, (unsigned long int)(m->codesize + (unsigned int)1));
+      memset((void *)neko_read_module__1__9__stmp, (signed int)(unsigned char)-1, (unsigned long int)(m->codesize + (unsigned int)1));
       if(vm->trusted_code == 0)
       {
-        return_value_neko_check_stack$32=neko_check_stack(m, neko_read_module$$1$$9$$stmp, (unsigned int)0, 0, 0);
-        if(!(return_value_neko_check_stack$32 == 0))
+        return_value_neko_check_stack_32=neko_check_stack(m, neko_read_module__1__9__stmp, (unsigned int)0, 0, 0);
+        if(!(return_value_neko_check_stack_32 == 0))
           goto __CPROVER_DUMP_L89;
 
-        free((void *)neko_read_module$$1$$9$$stmp);
+        free((void *)neko_read_module__1__9__stmp);
         free((void *)tmp);
         return (struct _neko_module *)(void *)0;
       }
@@ -31527,45 +31527,45 @@ struct _neko_module * neko_read_module(signed int (*r)(void *, void *, signed in
         i = (unsigned int)0;
         for( ; !(i >= m->nglobals); i = i + 1u)
         {
-          struct anonymous$8 *neko_read_module$$1$$9$$2$$1$$f = (struct anonymous$8 *)m->globals[(signed long int)i];
-          if(!((1 & (signed int)neko_read_module$$1$$9$$2$$1$$f) == 0))
-            tmp_if_expr$35 = VAL_INT;
+          struct anonymous_8 *neko_read_module__1__9__2__1__f = (struct anonymous_8 *)m->globals[(signed long int)i];
+          if(!((1 & (signed int)neko_read_module__1__9__2__1__f) == 0))
+            tmp_if_expr_35 = VAL_INT;
 
           else
-            tmp_if_expr$35 = (signed int)*((enum anonymous$7 *)neko_read_module$$1$$9$$2$$1$$f) & (1 << 4) - 1;
-          if(tmp_if_expr$35 == VAL_FUNCTION)
+            tmp_if_expr_35 = (signed int)*((enum anonymous_7 *)neko_read_module__1__9__2__1__f) & (1 << 4) - 1;
+          if(tmp_if_expr_35 == VAL_FUNCTION)
           {
-            itmp = (unsigned int)(signed long int)neko_read_module$$1$$9$$2$$1$$f->addr;
+            itmp = (unsigned int)(signed long int)neko_read_module__1__9__2__1__f->addr;
             if(itmp >= m->codesize)
-              tmp_if_expr$33 = (_Bool)1;
+              tmp_if_expr_33 = (_Bool)1;
 
             else
-              tmp_if_expr$33 = !(tmp[(signed long int)itmp] != 0) ? (_Bool)1 : (_Bool)0;
-            if(!(itmp >= prev) || tmp_if_expr$33)
+              tmp_if_expr_33 = !(tmp[(signed long int)itmp] != 0) ? (_Bool)1 : (_Bool)0;
+            if(!(itmp >= prev) || tmp_if_expr_33)
             {
-              free((void *)neko_read_module$$1$$9$$stmp);
+              free((void *)neko_read_module__1__9__stmp);
               free((void *)tmp);
               return (struct _neko_module *)(void *)0;
             }
 
             if(vm->trusted_code == 0)
             {
-              return_value_neko_check_stack$34=neko_check_stack(m, neko_read_module$$1$$9$$stmp, itmp, neko_read_module$$1$$9$$2$$1$$f->nargs, neko_read_module$$1$$9$$2$$1$$f->nargs);
-              if(return_value_neko_check_stack$34 == 0)
+              return_value_neko_check_stack_34=neko_check_stack(m, neko_read_module__1__9__stmp, itmp, neko_read_module__1__9__2__1__f->nargs, neko_read_module__1__9__2__1__f->nargs);
+              if(return_value_neko_check_stack_34 == 0)
               {
-                free((void *)neko_read_module$$1$$9$$stmp);
+                free((void *)neko_read_module__1__9__stmp);
                 free((void *)tmp);
                 return (struct _neko_module *)(void *)0;
               }
 
             }
 
-            neko_read_module$$1$$9$$2$$1$$f->addr = (void *)(m->code + (signed long int)itmp);
+            neko_read_module__1__9__2__1__f->addr = (void *)(m->code + (signed long int)itmp);
             prev = itmp;
           }
 
         }
-        free((void *)neko_read_module$$1$$9$$stmp);
+        free((void *)neko_read_module__1__9__stmp);
         free((void *)tmp);
         if(!(vm->fstats == ((void (*)(struct _neko_vm *, const char *, signed int))NULL)))
           vm->fstats(vm, "neko_read_module_check", 0);
@@ -31589,9 +31589,9 @@ struct _neko_module * neko_read_module(signed int (*r)(void *, void *, signed in
         i = (unsigned int)0;
         for( ; m->codesize >= i; i = i + 1u)
         {
-          signed long int neko_read_module$$1$$11$$1$$1$$c = m->code[(signed long int)i];
-          m->code[(signed long int)i] = jtbl[neko_read_module$$1$$11$$1$$1$$c];
-          i = i + (unsigned int)parameter_table[neko_read_module$$1$$11$$1$$1$$c];
+          signed long int neko_read_module__1__11__1__1__c = m->code[(signed long int)i];
+          m->code[(signed long int)i] = jtbl[neko_read_module__1__11__1__1__c];
+          i = i + (unsigned int)parameter_table[neko_read_module__1__11__1__1__c];
         }
         if(!(vm->fstats == ((void (*)(struct _neko_vm *, const char *, signed int))NULL)))
           vm->fstats(vm, "neko_read_module_thread", 0);
@@ -31612,9 +31612,9 @@ struct _value * neko_select_file(struct _value *path, const char *file, const ch
   b=neko_alloc_buffer(file);
   neko_buffer_append(b, ext);
   ff=neko_buffer_to_string(b);
-  signed int return_value_stat$2;
-  return_value_stat$2=stat(&((struct anonymous$5 *)ff)->c, &s);
-  if(return_value_stat$2 == 0)
+  signed int return_value_stat_2;
+  return_value_stat_2=stat(&((struct anonymous_5 *)ff)->c, &s);
+  if(return_value_stat_2 == 0)
   {
     char *p;
     p=strchr(file, 47);
@@ -31627,30 +31627,30 @@ struct _value * neko_select_file(struct _value *path, const char *file, const ch
     b=neko_alloc_buffer("./");
     neko_buffer_append(b, file);
     neko_buffer_append(b, ext);
-    struct _value *return_value_neko_buffer_to_string$1;
-    return_value_neko_buffer_to_string$1=neko_buffer_to_string(b);
-    return return_value_neko_buffer_to_string$1;
+    struct _value *return_value_neko_buffer_to_string_1;
+    return_value_neko_buffer_to_string_1=neko_buffer_to_string(b);
+    return return_value_neko_buffer_to_string_1;
   }
 
   while((1 & (signed int)path) == 0)
   {
-    if(!((15 & (signed int)*((enum anonymous$7 *)path)) == VAL_ARRAY))
+    if(!((15 & (signed int)*((enum anonymous_7 *)path)) == VAL_ARRAY))
       break;
 
-    if(!((signed int)*((enum anonymous$7 *)path) >> 4 == 2))
+    if(!((signed int)*((enum anonymous_7 *)path) >> 4 == 2))
       break;
 
-    struct _value *neko_select_file$$1$$2$$p = (&((struct anonymous$4 *)path)->ptr)[(signed long int)0];
-    struct _buffer *neko_select_file$$1$$2$$b;
-    neko_select_file$$1$$2$$b=neko_alloc_buffer((const char *)(void *)0);
-    path = (&((struct anonymous$4 *)path)->ptr)[(signed long int)1];
-    neko_val_buffer(neko_select_file$$1$$2$$b, neko_select_file$$1$$2$$p);
-    neko_val_buffer(neko_select_file$$1$$2$$b, ff);
-    neko_select_file$$1$$2$$p=neko_buffer_to_string(neko_select_file$$1$$2$$b);
-    signed int return_value_stat$3;
-    return_value_stat$3=stat(&((struct anonymous$5 *)neko_select_file$$1$$2$$p)->c, &s);
-    if(return_value_stat$3 == 0)
-      return neko_select_file$$1$$2$$p;
+    struct _value *neko_select_file__1__2__p = (&((struct anonymous_4 *)path)->ptr)[(signed long int)0];
+    struct _buffer *neko_select_file__1__2__b;
+    neko_select_file__1__2__b=neko_alloc_buffer((const char *)(void *)0);
+    path = (&((struct anonymous_4 *)path)->ptr)[(signed long int)1];
+    neko_val_buffer(neko_select_file__1__2__b, neko_select_file__1__2__p);
+    neko_val_buffer(neko_select_file__1__2__b, ff);
+    neko_select_file__1__2__p=neko_buffer_to_string(neko_select_file__1__2__b);
+    signed int return_value_stat_3;
+    return_value_stat_3=stat(&((struct anonymous_5 *)neko_select_file__1__2__p)->c, &s);
+    if(return_value_stat_3 == 0)
+      return neko_select_file__1__2__p;
 
   }
   return ff;
@@ -31668,15 +31668,15 @@ void neko_set_stack_base(void *s)
 void neko_setup_trap(struct _neko_vm *vm)
 {
   vm->sp = vm->sp - (signed long int)6;
-  signed int return_value_neko_stack_expand$2;
-  struct _value *return_value_neko_alloc_string$1;
+  signed int return_value_neko_stack_expand_2;
+  struct _value *return_value_neko_alloc_string_1;
   if(vm->csp >= vm->sp)
   {
-    return_value_neko_stack_expand$2=neko_stack_expand(vm->sp, vm->csp, vm);
-    if(return_value_neko_stack_expand$2 == 0)
+    return_value_neko_stack_expand_2=neko_stack_expand(vm->sp, vm->csp, vm);
+    if(return_value_neko_stack_expand_2 == 0)
     {
-      return_value_neko_alloc_string$1=neko_alloc_string("Stack Overflow");
-      neko_val_throw(return_value_neko_alloc_string$1);
+      return_value_neko_alloc_string_1=neko_alloc_string("Stack Overflow");
+      neko_val_throw(return_value_neko_alloc_string_1);
     }
 
   }
@@ -31706,9 +31706,9 @@ signed int neko_stack_expand(signed long int *sp, signed long int *csp, struct _
 
   else
   {
-    char *return_value_neko_alloc$1;
-    return_value_neko_alloc$1=neko_alloc((unsigned int)((unsigned long int)size * sizeof(signed long int) /*8ul*/ ));
-    nsp = (signed long int *)return_value_neko_alloc$1;
+    char *return_value_neko_alloc_1;
+    return_value_neko_alloc_1=neko_alloc((unsigned int)((unsigned long int)size * sizeof(signed long int) /*8ul*/ ));
+    nsp = (signed long int *)return_value_neko_alloc_1;
     i = (signed int)((unsigned long int)((signed long int)(csp + (signed long int)1) - (signed long int)vm->spmin) / sizeof(signed long int) /*8ul*/ );
     memcpy((void *)nsp, (const void *)vm->spmin, sizeof(signed long int) /*8ul*/  * (unsigned long int)i);
     vm->csp = (nsp + (signed long int)i) - (signed long int)1;
@@ -31727,8 +31727,8 @@ struct _value * neko_stats_build(struct _neko_vm *vm)
 {
   struct _value *v = val_null;
   struct _statinfos *s = list;
-  _Bool tmp_if_expr$2;
-  signed int return_value_memcmp$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_memcmp_1;
   while(!(s == ((struct _statinfos *)NULL)))
   {
     struct _statinfos *s2 = s->next;
@@ -31737,13 +31737,13 @@ struct _value * neko_stats_build(struct _neko_vm *vm)
     {
       if(s2->ksize == s->ksize)
       {
-        return_value_memcmp$1=memcmp((const void *)s->kind, (const void *)s2->kind, (unsigned long int)s->ksize);
-        tmp_if_expr$2 = return_value_memcmp$1 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_memcmp_1=memcmp((const void *)s->kind, (const void *)s2->kind, (unsigned long int)s->ksize);
+        tmp_if_expr_2 = return_value_memcmp_1 == 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
       {
         s->nerrors = s->nerrors + s2->nerrors;
         s->ncalls = s->ncalls + s2->ncalls;
@@ -31768,12 +31768,12 @@ struct _value * neko_stats_build(struct _neko_vm *vm)
   {
     struct _value *tmp;
     tmp=neko_alloc_array((unsigned int)6);
-    (&((struct anonymous$4 *)tmp)->ptr)[(signed long int)0]=neko_alloc_string(s->kind);
-    (&((struct anonymous$4 *)tmp)->ptr)[(signed long int)1] = (struct _value *)(signed long int)((signed int)s->totaltime << 1 | 1);
-    (&((struct anonymous$4 *)tmp)->ptr)[(signed long int)2] = (struct _value *)(signed long int)((signed int)(s->totaltime - s->subtime) << 1 | 1);
-    (&((struct anonymous$4 *)tmp)->ptr)[(signed long int)3] = (struct _value *)(signed long int)((signed int)s->ncalls << 1 | 1);
-    (&((struct anonymous$4 *)tmp)->ptr)[(signed long int)4] = (struct _value *)(signed long int)((signed int)s->nerrors << 1 | 1);
-    (&((struct anonymous$4 *)tmp)->ptr)[(signed long int)5] = v;
+    (&((struct anonymous_4 *)tmp)->ptr)[(signed long int)0]=neko_alloc_string(s->kind);
+    (&((struct anonymous_4 *)tmp)->ptr)[(signed long int)1] = (struct _value *)(signed long int)((signed int)s->totaltime << 1 | 1);
+    (&((struct anonymous_4 *)tmp)->ptr)[(signed long int)2] = (struct _value *)(signed long int)((signed int)(s->totaltime - s->subtime) << 1 | 1);
+    (&((struct anonymous_4 *)tmp)->ptr)[(signed long int)3] = (struct _value *)(signed long int)((signed int)s->ncalls << 1 | 1);
+    (&((struct anonymous_4 *)tmp)->ptr)[(signed long int)4] = (struct _value *)(signed long int)((signed int)s->nerrors << 1 | 1);
+    (&((struct anonymous_4 *)tmp)->ptr)[(signed long int)5] = v;
     v = tmp;
     s = s->next;
   }
@@ -31785,12 +31785,12 @@ struct _value * neko_stats_build(struct _neko_vm *vm)
 void neko_stats_measure(struct _neko_vm *vm, const char *kind, signed int start)
 {
   signed int ksize;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(kind);
-  ksize = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(kind);
+  ksize = (signed int)return_value_strlen_1;
   struct _statinfos *s;
-  signed int return_value_memcmp$2;
-  signed int return_value_memcmp$4;
+  signed int return_value_memcmp_2;
+  signed int return_value_memcmp_4;
   if(!(start == 0))
   {
     signed int time;
@@ -31802,8 +31802,8 @@ void neko_stats_measure(struct _neko_vm *vm, const char *kind, signed int start)
       {
         if(s->starttime == 0)
         {
-          return_value_memcmp$2=memcmp((const void *)kind, (const void *)s->kind, (unsigned long int)ksize);
-          if(return_value_memcmp$2 == 0)
+          return_value_memcmp_2=memcmp((const void *)kind, (const void *)s->kind, (unsigned long int)ksize);
+          if(return_value_memcmp_2 == 0)
             break;
 
         }
@@ -31814,9 +31814,9 @@ void neko_stats_measure(struct _neko_vm *vm, const char *kind, signed int start)
     }
     if(s == ((struct _statinfos *)NULL))
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(struct _statinfos) /*48ul*/ );
-      s = (struct _statinfos *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(struct _statinfos) /*48ul*/ );
+      s = (struct _statinfos *)return_value_malloc_3;
       s->kind=strdup(kind);
       s->ksize = ksize;
       s->ncalls = 0;
@@ -31841,8 +31841,8 @@ void neko_stats_measure(struct _neko_vm *vm, const char *kind, signed int start)
       struct _statinfos *next;
       if(ksize == s->ksize)
       {
-        return_value_memcmp$4=memcmp((const void *)kind, (const void *)s->kind, (unsigned long int)ksize);
-        if(return_value_memcmp$4 == 0)
+        return_value_memcmp_4=memcmp((const void *)kind, (const void *)s->kind, (unsigned long int)ksize);
+        if(return_value_memcmp_4 == 0)
           break;
 
       }
@@ -31855,9 +31855,9 @@ void neko_stats_measure(struct _neko_vm *vm, const char *kind, signed int start)
     if(!(s == ((struct _statinfos *)NULL)))
     {
       signed int delta;
-      signed int return_value_precise_timer$5;
-      return_value_precise_timer$5=precise_timer();
-      delta = return_value_precise_timer$5 - s->starttime;
+      signed int return_value_precise_timer_5;
+      return_value_precise_timer_5=precise_timer();
+      delta = return_value_precise_timer_5 - s->starttime;
       s->totaltime = s->totaltime + delta;
       stack = s->stack;
       if(!(stack == ((struct _statinfos *)NULL)))
@@ -31875,15 +31875,15 @@ void neko_stats_measure(struct _neko_vm *vm, const char *kind, signed int start)
 // file vm/module.c line 621
 signed int neko_string_reader(void *p, void *buf, signed int size)
 {
-  struct anonymous$20 *sp = (struct anonymous$20 *)p;
+  struct anonymous_20 *sp = (struct anonymous_20 *)p;
   signed int delta;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(sp->len >= size)
-    tmp_if_expr$1 = size;
+    tmp_if_expr_1 = size;
 
   else
-    tmp_if_expr$1 = sp->len;
-  delta = tmp_if_expr$1;
+    tmp_if_expr_1 = sp->len;
+  delta = tmp_if_expr_1;
   memcpy(buf, (const void *)sp->p, (unsigned long int)delta);
   sp->p = sp->p + (signed long int)delta;
   sp->len = sp->len - delta;
@@ -31894,7 +31894,7 @@ signed int neko_string_reader(void *p, void *buf, signed int size)
 // file vm/threads.c line 181
 void neko_thread_blocking(void (*f)(void *), void *p)
 {
-  struct _value *return_value_neko_alloc_string$4;
+  struct _value *return_value_neko_alloc_string_4;
   static signed int (*end)() = (signed int (*)())(void *)0;
   static signed int (*start)() = (signed int (*)())(void *)0;
   static void (*do_blocking)(void (*)(void *), void *) = (void (*)(void (*)(void *), void *))(void *)0;
@@ -31911,23 +31911,23 @@ void neko_thread_blocking(void (*f)(void *), void *p)
 
     else
     {
-      void *neko_thread_blocking$$1$$2$$self;
-      neko_thread_blocking$$1$$2$$self=GC_dlopen((const char *)(void *)0, 0);
-      void *return_value_dlsym$1;
-      return_value_dlsym$1=dlsym(neko_thread_blocking$$1$$2$$self, "GC_do_blocking");
-      do_blocking = (void (*)(void (*)(void *), void *))return_value_dlsym$1;
+      void *neko_thread_blocking__1__2__self;
+      neko_thread_blocking__1__2__self=GC_dlopen((const char *)(void *)0, 0);
+      void *return_value_dlsym_1;
+      return_value_dlsym_1=dlsym(neko_thread_blocking__1__2__self, "GC_do_blocking");
+      do_blocking = (void (*)(void (*)(void *), void *))return_value_dlsym_1;
       if(do_blocking == ((void (*)(void (*)(void *), void *))NULL))
       {
-        void *return_value_dlsym$2;
-        return_value_dlsym$2=dlsym(neko_thread_blocking$$1$$2$$self, "GC_start_blocking");
-        start = (signed int (*)())return_value_dlsym$2;
-        void *return_value_dlsym$3;
-        return_value_dlsym$3=dlsym(neko_thread_blocking$$1$$2$$self, "GC_end_blocking");
-        end = (signed int (*)())return_value_dlsym$3;
+        void *return_value_dlsym_2;
+        return_value_dlsym_2=dlsym(neko_thread_blocking__1__2__self, "GC_start_blocking");
+        start = (signed int (*)())return_value_dlsym_2;
+        void *return_value_dlsym_3;
+        return_value_dlsym_3=dlsym(neko_thread_blocking__1__2__self, "GC_end_blocking");
+        end = (signed int (*)())return_value_dlsym_3;
         if(end == ((signed int (*)())NULL) || start == ((signed int (*)())NULL))
         {
-          return_value_neko_alloc_string$4=neko_alloc_string("Could not init GC blocking API");
-          neko_val_throw(return_value_neko_alloc_string$4);
+          return_value_neko_alloc_string_4=neko_alloc_string("Could not init GC blocking API");
+          neko_val_throw(return_value_neko_alloc_string_4);
         }
 
       }
@@ -31940,18 +31940,18 @@ void neko_thread_blocking(void (*f)(void *), void *p)
 // file vm/threads.c line 128
 signed int neko_thread_create(void (*init)(void *), void (*main)(void *), void *param, void **handle)
 {
-  struct anonymous$23 p;
+  struct anonymous_23 p;
   p.init = init;
   p.main = main;
   p.param = param;
   union pthread_attr_t attr;
   pthread_attr_init(&attr);
   pthread_attr_setdetachstate(&attr, 1);
-  pthread_mutex_init(&p.lock, (const union anonymous$21 *)(void *)0);
+  pthread_mutex_init(&p.lock, (const union anonymous_21 *)(void *)0);
   pthread_mutex_lock(&p.lock);
-  signed int return_value_GC_pthread_create$1;
-  return_value_GC_pthread_create$1=GC_pthread_create((unsigned long int *)handle, &attr, ThreadMain, (void *)&p);
-  if(!(return_value_GC_pthread_create$1 == 0))
+  signed int return_value_GC_pthread_create_1;
+  return_value_GC_pthread_create_1=GC_pthread_create((unsigned long int *)handle, &attr, ThreadMain, (void *)&p);
+  if(!(return_value_GC_pthread_create_1 == 0))
   {
     pthread_attr_destroy(&attr);
     pthread_mutex_destroy(&p.lock);
@@ -31997,17 +31997,17 @@ signed int neko_thread_register(signed int t)
 
     else
     {
-      void *neko_thread_register$$1$$3$$self;
-      neko_thread_register$$1$$3$$self=GC_dlopen((const char *)(void *)0, 0);
-      void *return_value_dlsym$1;
-      return_value_dlsym$1=dlsym(neko_thread_register$$1$$3$$self, "GC_register_my_thread");
-      my_thread = (signed int (*)(char (*)[64l]))return_value_dlsym$1;
-      void *return_value_dlsym$2;
-      return_value_dlsym$2=dlsym(neko_thread_register$$1$$3$$self, "GC_get_stack_base");
-      get_sb = (signed int (*)(char (*)[64l]))return_value_dlsym$2;
-      void *return_value_dlsym$3;
-      return_value_dlsym$3=dlsym(neko_thread_register$$1$$3$$self, "GC_unregister_my_thread");
-      unreg_my_thread = (signed int (*)())return_value_dlsym$3;
+      void *neko_thread_register__1__3__self;
+      neko_thread_register__1__3__self=GC_dlopen((const char *)(void *)0, 0);
+      void *return_value_dlsym_1;
+      return_value_dlsym_1=dlsym(neko_thread_register__1__3__self, "GC_register_my_thread");
+      my_thread = (signed int (*)(char (*)[64l]))return_value_dlsym_1;
+      void *return_value_dlsym_2;
+      return_value_dlsym_2=dlsym(neko_thread_register__1__3__self, "GC_get_stack_base");
+      get_sb = (signed int (*)(char (*)[64l]))return_value_dlsym_2;
+      void *return_value_dlsym_3;
+      return_value_dlsym_3=dlsym(neko_thread_register__1__3__self, "GC_unregister_my_thread");
+      unreg_my_thread = (signed int (*)())return_value_dlsym_3;
       if(my_thread == ((signed int (*)(char (*)[64l]))NULL))
         my_thread = do_nothing;
 
@@ -32017,9 +32017,9 @@ signed int neko_thread_register(signed int t)
       if(unreg_my_thread == ((signed int (*)())NULL))
         unreg_my_thread = (signed int (*)())do_nothing;
 
-      signed int return_value_neko_thread_register$4;
-      return_value_neko_thread_register$4=neko_thread_register(t);
-      return return_value_neko_thread_register$4;
+      signed int return_value_neko_thread_register_4;
+      return_value_neko_thread_register_4=neko_thread_register(t);
+      return return_value_neko_thread_register_4;
     }
 }
 
@@ -32034,18 +32034,18 @@ void neko_val_buffer(struct _buffer *b, struct _value *v)
 // file vm/callback.c line 145
 struct _value * neko_val_call0(struct _value *f)
 {
-  struct _value *return_value_neko_val_callN$1;
-  return_value_neko_val_callN$1=neko_val_callN(f, (struct _value **)(void *)0, 0);
-  return return_value_neko_val_callN$1;
+  struct _value *return_value_neko_val_callN_1;
+  return_value_neko_val_callN_1=neko_val_callN(f, (struct _value **)(void *)0, 0);
+  return return_value_neko_val_callN_1;
 }
 
 // neko_val_call1
 // file vm/neko.h line 404
 struct _value * neko_val_call1(struct _value *f, struct _value *v)
 {
-  struct _value *return_value_neko_val_callN$1;
-  return_value_neko_val_callN$1=neko_val_callN(f, &v, 1);
-  return return_value_neko_val_callN$1;
+  struct _value *return_value_neko_val_callN_1;
+  return_value_neko_val_callN_1=neko_val_callN(f, &v, 1);
+  return return_value_neko_val_callN_1;
 }
 
 // neko_val_call2
@@ -32053,9 +32053,9 @@ struct _value * neko_val_call1(struct _value *f, struct _value *v)
 struct _value * neko_val_call2(struct _value *f, struct _value *v1, struct _value *v2)
 {
   struct _value *args[2l] = { v1, v2 };
-  struct _value *return_value_neko_val_callN$1;
-  return_value_neko_val_callN$1=neko_val_callN(f, args, 2);
-  return return_value_neko_val_callN$1;
+  struct _value *return_value_neko_val_callN_1;
+  return_value_neko_val_callN_1=neko_val_callN(f, args, 2);
+  return return_value_neko_val_callN_1;
 }
 
 // neko_val_call3
@@ -32063,9 +32063,9 @@ struct _value * neko_val_call2(struct _value *f, struct _value *v1, struct _valu
 struct _value * neko_val_call3(struct _value *f, struct _value *arg1, struct _value *arg2, struct _value *arg3)
 {
   struct _value *args[3l] = { arg1, arg2, arg3 };
-  struct _value *return_value_neko_val_callN$1;
-  return_value_neko_val_callN$1=neko_val_callN(f, args, 3);
-  return return_value_neko_val_callN$1;
+  struct _value *return_value_neko_val_callN_1;
+  return_value_neko_val_callN_1=neko_val_callN(f, args, 3);
+  return return_value_neko_val_callN_1;
 }
 
 // neko_val_callEx
@@ -32073,9 +32073,9 @@ struct _value * neko_val_call3(struct _value *f, struct _value *arg1, struct _va
 struct _value * neko_val_callEx(struct _value *vthis, struct _value *f, struct _value **args, signed int nargs, struct _value **exc)
 {
   struct _neko_vm *vm;
-  void *return_value_neko_local_get$1;
-  return_value_neko_local_get$1=neko_local_get(neko_vm_context);
-  vm = (struct _neko_vm *)return_value_neko_local_get$1;
+  void *return_value_neko_local_get_1;
+  return_value_neko_local_get_1=neko_local_get(neko_vm_context);
+  vm = (struct _neko_vm *)return_value_neko_local_get_1;
   struct _value *old_this = vm->vthis;
   struct _value *old_env = vm->env;
   struct _value *ret = val_null;
@@ -32086,9 +32086,9 @@ struct _value * neko_val_callEx(struct _value *vthis, struct _value *f, struct _
   if(!(exc == ((struct _value **)NULL)))
   {
     memcpy((void *)&oldjmp, (const void *)&vm->start, sizeof(struct __jmp_buf_tag [1l]) /*200ul*/ );
-    signed int return_value__setjmp$2;
-    return_value__setjmp$2=_setjmp(vm->start);
-    if(!(return_value__setjmp$2 == 0))
+    signed int return_value__setjmp_2;
+    return_value__setjmp_2=_setjmp(vm->start);
+    if(!(return_value__setjmp_2 == 0))
     {
       *exc = vm->vthis;
       neko_process_trap(vm);
@@ -32101,87 +32101,87 @@ struct _value * neko_val_callEx(struct _value *vthis, struct _value *f, struct _
     neko_setup_trap(vm);
   }
 
-  struct _value *return_value_neko_alloc_string$3;
+  struct _value *return_value_neko_alloc_string_3;
   if(!((unsigned long int)&vm >= (unsigned long int)vm->c_stack_max))
   {
-    return_value_neko_alloc_string$3=neko_alloc_string("C Stack Overflow");
-    neko_val_throw(return_value_neko_alloc_string$3);
+    return_value_neko_alloc_string_3=neko_alloc_string("C Stack Overflow");
+    neko_val_throw(return_value_neko_alloc_string_3);
   }
 
-  struct _value *return_value_neko_alloc_string$4;
+  struct _value *return_value_neko_alloc_string_4;
   if(!((1 & (signed int)f) == 0))
   {
-    return_value_neko_alloc_string$4=neko_alloc_string("Invalid call");
-    neko_val_throw(return_value_neko_alloc_string$4);
+    return_value_neko_alloc_string_4=neko_alloc_string("Invalid call");
+    neko_val_throw(return_value_neko_alloc_string_4);
   }
 
-  struct _value *return_value_neko_alloc_string$5;
+  struct _value *return_value_neko_alloc_string_5;
   struct _value *return_value;
-  struct _value *return_value_neko_alloc_string$6;
-  _Bool tmp_if_expr$9;
-  signed int return_value_neko_stack_expand$8;
-  struct _value *return_value_neko_alloc_string$10;
-  struct _value *return_value_neko_alloc_string$11;
-  if((signed int)*((enum anonymous$7 *)f) == VAL_PRIMITIVE)
+  struct _value *return_value_neko_alloc_string_6;
+  _Bool tmp_if_expr_9;
+  signed int return_value_neko_stack_expand_8;
+  struct _value *return_value_neko_alloc_string_10;
+  struct _value *return_value_neko_alloc_string_11;
+  if((signed int)*((enum anonymous_7 *)f) == VAL_PRIMITIVE)
   {
-    vm->env = ((struct anonymous$8 *)f)->env;
-    if(nargs == ((struct anonymous$8 *)f)->nargs)
+    vm->env = ((struct anonymous_8 *)f)->env;
+    if(nargs == ((struct anonymous_8 *)f)->nargs)
     {
       if(nargs >= 6)
       {
-        return_value_neko_alloc_string$5=neko_alloc_string("Too many arguments for a call");
-        _neko_failure(return_value_neko_alloc_string$5, "vm/callback.c", 72);
+        return_value_neko_alloc_string_5=neko_alloc_string("Too many arguments for a call");
+        _neko_failure(return_value_neko_alloc_string_5, "vm/callback.c", 72);
       }
 
       switch(nargs)
       {
         case 0:
-          ret=((struct _value * (*)())((struct anonymous$8 *)f)->addr)();
+          ret=((struct _value * (*)())((struct anonymous_8 *)f)->addr)();
         case 1:
-          ret=((struct _value * (*)(struct _value *))((struct anonymous$8 *)f)->addr)(args[(signed long int)0]);
+          ret=((struct _value * (*)(struct _value *))((struct anonymous_8 *)f)->addr)(args[(signed long int)0]);
         case 2:
-          ret=((struct _value * (*)(struct _value *, struct _value *))((struct anonymous$8 *)f)->addr)(args[(signed long int)0], args[(signed long int)1]);
+          ret=((struct _value * (*)(struct _value *, struct _value *))((struct anonymous_8 *)f)->addr)(args[(signed long int)0], args[(signed long int)1]);
         case 3:
-          ret=((struct _value * (*)(struct _value *, struct _value *, struct _value *))((struct anonymous$8 *)f)->addr)(args[(signed long int)0], args[(signed long int)1], args[(signed long int)2]);
+          ret=((struct _value * (*)(struct _value *, struct _value *, struct _value *))((struct anonymous_8 *)f)->addr)(args[(signed long int)0], args[(signed long int)1], args[(signed long int)2]);
         case 4:
-          ret=((struct _value * (*)(struct _value *, struct _value *, struct _value *, struct _value *))((struct anonymous$8 *)f)->addr)(args[(signed long int)0], args[(signed long int)1], args[(signed long int)2], args[(signed long int)3]);
+          ret=((struct _value * (*)(struct _value *, struct _value *, struct _value *, struct _value *))((struct anonymous_8 *)f)->addr)(args[(signed long int)0], args[(signed long int)1], args[(signed long int)2], args[(signed long int)3]);
         case 5:
-          ret=((struct _value * (*)(struct _value *, struct _value *, struct _value *, struct _value *, struct _value *))((struct anonymous$8 *)f)->addr)(args[(signed long int)0], args[(signed long int)1], args[(signed long int)2], args[(signed long int)3], args[(signed long int)4]);
+          ret=((struct _value * (*)(struct _value *, struct _value *, struct _value *, struct _value *, struct _value *))((struct anonymous_8 *)f)->addr)(args[(signed long int)0], args[(signed long int)1], args[(signed long int)2], args[(signed long int)3], args[(signed long int)4]);
       }
     }
 
     else
-      if(((struct anonymous$8 *)f)->nargs == -1)
+      if(((struct anonymous_8 *)f)->nargs == -1)
       {
-        return_value=((struct _value * (*)(struct _value **, signed int))((struct anonymous$8 *)f)->addr)(args, nargs);
+        return_value=((struct _value * (*)(struct _value **, signed int))((struct anonymous_8 *)f)->addr)(args, nargs);
         ret = (struct _value *)return_value;
       }
 
       else
       {
-        return_value_neko_alloc_string$6=neko_alloc_string("Invalid call");
-        neko_val_throw(return_value_neko_alloc_string$6);
+        return_value_neko_alloc_string_6=neko_alloc_string("Invalid call");
+        neko_val_throw(return_value_neko_alloc_string_6);
       }
     if(ret == ((struct _value *)NULL))
-      neko_val_throw((struct _value *)((struct anonymous$8 *)f)->module);
+      neko_val_throw((struct _value *)((struct anonymous_8 *)f)->module);
 
   }
 
   else
-    if((15 & (signed int)*((enum anonymous$7 *)f)) == VAL_FUNCTION)
+    if((15 & (signed int)*((enum anonymous_7 *)f)) == VAL_FUNCTION)
     {
-      if(nargs == ((struct anonymous$8 *)f)->nargs)
+      if(nargs == ((struct anonymous_8 *)f)->nargs)
       {
         signed int n;
         if(vm->csp + 4l >= vm->sp + -((signed long int)nargs))
         {
-          return_value_neko_stack_expand$8=neko_stack_expand(vm->sp, vm->csp, vm);
-          tmp_if_expr$9 = !(return_value_neko_stack_expand$8 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_neko_stack_expand_8=neko_stack_expand(vm->sp, vm->csp, vm);
+          tmp_if_expr_9 = !(return_value_neko_stack_expand_8 != 0) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        if(tmp_if_expr$9)
+          tmp_if_expr_9 = (_Bool)0;
+        if(tmp_if_expr_9)
         {
           if(!(exc == ((struct _value **)NULL)))
           {
@@ -32189,9 +32189,9 @@ struct _value * neko_val_callEx(struct _value *vthis, struct _value *f, struct _
             memcpy((void *)&vm->start, (const void *)&oldjmp, sizeof(struct __jmp_buf_tag [1l]) /*200ul*/ );
           }
 
-          struct _value *return_value_neko_alloc_string$7;
-          return_value_neko_alloc_string$7=neko_alloc_string("Stack Overflow");
-          _neko_failure(return_value_neko_alloc_string$7, "vm/callback.c", 107);
+          struct _value *return_value_neko_alloc_string_7;
+          return_value_neko_alloc_string_7=neko_alloc_string("Stack Overflow");
+          _neko_failure(return_value_neko_alloc_string_7, "vm/callback.c", 107);
         }
 
         else
@@ -32202,8 +32202,8 @@ struct _value * neko_val_callEx(struct _value *vthis, struct _value *f, struct _
             vm->sp = vm->sp - 1l;
             *vm->sp = (signed long int)args[(signed long int)n];
           }
-          vm->env = ((struct anonymous$8 *)f)->env;
-          if((signed int)*((enum anonymous$7 *)f) == VAL_FUNCTION)
+          vm->env = ((struct anonymous_8 *)f)->env;
+          if((signed int)*((enum anonymous_7 *)f) == VAL_FUNCTION)
           {
             vm->csp = vm->csp + 1l;
             *vm->csp = (signed long int)callback_return;
@@ -32213,28 +32213,28 @@ struct _value * neko_val_callEx(struct _value *vthis, struct _value *f, struct _
             *vm->csp = (signed long int)0;
             vm->csp = vm->csp + 1l;
             *vm->csp = (signed long int)0;
-            ret=neko_interp(vm, ((struct anonymous$8 *)f)->module, (signed long int)val_null, (signed long int *)((struct anonymous$8 *)f)->addr);
+            ret=neko_interp(vm, ((struct anonymous_8 *)f)->module, (signed long int)val_null, (signed long int *)((struct anonymous_8 *)f)->addr);
           }
 
           else
           {
-            struct _neko_module *m = (struct _neko_module *)((struct anonymous$8 *)f)->module;
-            ret=((struct _value * (*)(struct _neko_vm *, void *, struct _value *, struct _neko_module *))jit_boot_seq)(vm, ((struct anonymous$8 *)f)->addr, val_null, m);
+            struct _neko_module *m = (struct _neko_module *)((struct anonymous_8 *)f)->module;
+            ret=((struct _value * (*)(struct _neko_vm *, void *, struct _value *, struct _neko_module *))jit_boot_seq)(vm, ((struct anonymous_8 *)f)->addr, val_null, m);
           }
         }
       }
 
       else
       {
-        return_value_neko_alloc_string$10=neko_alloc_string("Invalid call");
-        neko_val_throw(return_value_neko_alloc_string$10);
+        return_value_neko_alloc_string_10=neko_alloc_string("Invalid call");
+        neko_val_throw(return_value_neko_alloc_string_10);
       }
     }
 
     else
     {
-      return_value_neko_alloc_string$11=neko_alloc_string("Invalid call");
-      neko_val_throw(return_value_neko_alloc_string$11);
+      return_value_neko_alloc_string_11=neko_alloc_string("Invalid call");
+      neko_val_throw(return_value_neko_alloc_string_11);
     }
   if(!(exc == ((struct _value **)NULL)))
   {
@@ -32251,9 +32251,9 @@ struct _value * neko_val_callEx(struct _value *vthis, struct _value *f, struct _
 // file vm/neko.h line 407
 struct _value * neko_val_callN(struct _value *f, struct _value **args, signed int nargs)
 {
-  struct _value *return_value_neko_val_callEx$1;
-  return_value_neko_val_callEx$1=neko_val_callEx((struct _value *)(void *)0, f, args, nargs, (struct _value **)(void *)0);
-  return return_value_neko_val_callEx$1;
+  struct _value *return_value_neko_val_callEx_1;
+  return_value_neko_val_callEx_1=neko_val_callEx((struct _value *)(void *)0, f, args, nargs, (struct _value **)(void *)0);
+  return return_value_neko_val_callEx_1;
 }
 
 // neko_val_compare
@@ -32261,198 +32261,198 @@ struct _value * neko_val_callN(struct _value *f, struct _value **args, signed in
 signed int neko_val_compare(struct _value *a, struct _value *b)
 {
   char tmp_buf[32l];
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((1 & (signed int)a) == 0))
-    tmp_if_expr$1 = VAL_INT;
+    tmp_if_expr_1 = VAL_INT;
 
   else
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)a) & (1 << 4) - 1;
-  signed int tmp_if_expr$2;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)a) & (1 << 4) - 1;
+  signed int tmp_if_expr_2;
   if(!((1 & (signed int)b) == 0))
-    tmp_if_expr$2 = VAL_INT;
+    tmp_if_expr_2 = VAL_INT;
 
   else
-    tmp_if_expr$2 = (signed int)*((enum anonymous$7 *)b) & (1 << 4) - 1;
-  signed int return_value_icmp$3;
-  signed int return_value_icmp$4;
-  signed int return_value_icmp$5;
-  signed int return_value_icmp$6;
-  signed int return_value_fcmp$7;
-  signed int return_value_fcmp$8;
-  signed int return_value_sprintf$9;
-  signed int return_value_scmp$10;
-  signed int return_value_sprintf$11;
-  signed int return_value_scmp$12;
-  signed int return_value_fcmp$13;
-  signed int return_value_fcmp$14;
-  signed int return_value_fcmp$15;
-  signed int return_value_sprintf$16;
-  signed int return_value_scmp$17;
-  signed int return_value_sprintf$18;
-  signed int return_value_scmp$19;
-  signed int return_value_sprintf$20;
-  signed int return_value_scmp$21;
-  signed int return_value_sprintf$22;
-  signed int return_value_scmp$23;
-  signed int return_value_scmp$24;
-  signed int return_value_scmp$25;
-  signed int return_value_scmp$26;
-  if(!((tmp_if_expr$1 << 8 | tmp_if_expr$2) == 65535))
+    tmp_if_expr_2 = (signed int)*((enum anonymous_7 *)b) & (1 << 4) - 1;
+  signed int return_value_icmp_3;
+  signed int return_value_icmp_4;
+  signed int return_value_icmp_5;
+  signed int return_value_icmp_6;
+  signed int return_value_fcmp_7;
+  signed int return_value_fcmp_8;
+  signed int return_value_sprintf_9;
+  signed int return_value_scmp_10;
+  signed int return_value_sprintf_11;
+  signed int return_value_scmp_12;
+  signed int return_value_fcmp_13;
+  signed int return_value_fcmp_14;
+  signed int return_value_fcmp_15;
+  signed int return_value_sprintf_16;
+  signed int return_value_scmp_17;
+  signed int return_value_sprintf_18;
+  signed int return_value_scmp_19;
+  signed int return_value_sprintf_20;
+  signed int return_value_scmp_21;
+  signed int return_value_sprintf_22;
+  signed int return_value_scmp_23;
+  signed int return_value_scmp_24;
+  signed int return_value_scmp_25;
+  signed int return_value_scmp_26;
+  if(!((tmp_if_expr_1 << 8 | tmp_if_expr_2) == 65535))
   {
-    if((tmp_if_expr$1 << 8 | tmp_if_expr$2) == 2303)
+    if((tmp_if_expr_1 << 8 | tmp_if_expr_2) == 2303)
       goto __CPROVER_DUMP_L6;
 
-    if((tmp_if_expr$1 << 8 | tmp_if_expr$2) == 65288)
+    if((tmp_if_expr_1 << 8 | tmp_if_expr_2) == 65288)
       goto __CPROVER_DUMP_L7;
 
-    if((tmp_if_expr$1 << 8 | tmp_if_expr$2) == 2056)
+    if((tmp_if_expr_1 << 8 | tmp_if_expr_2) == 2056)
       goto __CPROVER_DUMP_L8;
 
-    if((tmp_if_expr$1 << 8 | tmp_if_expr$2) == 65281)
+    if((tmp_if_expr_1 << 8 | tmp_if_expr_2) == 65281)
       goto __CPROVER_DUMP_L9;
 
-    if((tmp_if_expr$1 << 8 | tmp_if_expr$2) == 2049)
+    if((tmp_if_expr_1 << 8 | tmp_if_expr_2) == 2049)
       goto __CPROVER_DUMP_L10;
 
-    if((tmp_if_expr$1 << 8 | tmp_if_expr$2) == 65283)
+    if((tmp_if_expr_1 << 8 | tmp_if_expr_2) == 65283)
       goto __CPROVER_DUMP_L11;
 
-    if((tmp_if_expr$1 << 8 | tmp_if_expr$2) == 2051)
+    if((tmp_if_expr_1 << 8 | tmp_if_expr_2) == 2051)
       goto __CPROVER_DUMP_L12;
 
-    if((tmp_if_expr$1 << 8 | tmp_if_expr$2) == 511)
+    if((tmp_if_expr_1 << 8 | tmp_if_expr_2) == 511)
       goto __CPROVER_DUMP_L13;
 
-    if((tmp_if_expr$1 << 8 | tmp_if_expr$2) == 264)
+    if((tmp_if_expr_1 << 8 | tmp_if_expr_2) == 264)
       goto __CPROVER_DUMP_L14;
 
-    if((tmp_if_expr$1 << 8 | tmp_if_expr$2) == 257)
+    if((tmp_if_expr_1 << 8 | tmp_if_expr_2) == 257)
       goto __CPROVER_DUMP_L15;
 
-    if((tmp_if_expr$1 << 8 | tmp_if_expr$2) == 259)
+    if((tmp_if_expr_1 << 8 | tmp_if_expr_2) == 259)
       goto __CPROVER_DUMP_L16;
 
-    if((tmp_if_expr$1 << 8 | tmp_if_expr$2) == 1023)
+    if((tmp_if_expr_1 << 8 | tmp_if_expr_2) == 1023)
       goto __CPROVER_DUMP_L17;
 
-    if((tmp_if_expr$1 << 8 | tmp_if_expr$2) == 776)
+    if((tmp_if_expr_1 << 8 | tmp_if_expr_2) == 776)
       goto __CPROVER_DUMP_L18;
 
-    if((tmp_if_expr$1 << 8 | tmp_if_expr$2) == 769)
+    if((tmp_if_expr_1 << 8 | tmp_if_expr_2) == 769)
       goto __CPROVER_DUMP_L19;
 
-    if((tmp_if_expr$1 << 8 | tmp_if_expr$2) == 770)
+    if((tmp_if_expr_1 << 8 | tmp_if_expr_2) == 770)
       goto __CPROVER_DUMP_L20;
 
-    if((tmp_if_expr$1 << 8 | tmp_if_expr$2) == 515)
+    if((tmp_if_expr_1 << 8 | tmp_if_expr_2) == 515)
       goto __CPROVER_DUMP_L21;
 
-    if((tmp_if_expr$1 << 8 | tmp_if_expr$2) == 771)
+    if((tmp_if_expr_1 << 8 | tmp_if_expr_2) == 771)
       goto __CPROVER_DUMP_L22;
 
-    if((tmp_if_expr$1 << 8 | tmp_if_expr$2) == 514)
+    if((tmp_if_expr_1 << 8 | tmp_if_expr_2) == 514)
       goto __CPROVER_DUMP_L23;
 
-    if((tmp_if_expr$1 << 8 | tmp_if_expr$2) == 1028)
+    if((tmp_if_expr_1 << 8 | tmp_if_expr_2) == 1028)
       goto __CPROVER_DUMP_L24;
 
   }
 
   else
   {
-    return_value_icmp$3=icmp((signed int)(signed long int)a >> 1, (signed int)(signed long int)b >> 1);
-    return return_value_icmp$3;
+    return_value_icmp_3=icmp((signed int)(signed long int)a >> 1, (signed int)(signed long int)b >> 1);
+    return return_value_icmp_3;
 
   __CPROVER_DUMP_L6:
     ;
-    return_value_icmp$4=icmp(((struct anonymous$26 *)a)->i, (signed int)(signed long int)b >> 1);
-    return return_value_icmp$4;
+    return_value_icmp_4=icmp(((struct anonymous_26 *)a)->i, (signed int)(signed long int)b >> 1);
+    return return_value_icmp_4;
 
   __CPROVER_DUMP_L7:
     ;
-    return_value_icmp$5=icmp((signed int)(signed long int)a >> 1, ((struct anonymous$26 *)b)->i);
-    return return_value_icmp$5;
+    return_value_icmp_5=icmp((signed int)(signed long int)a >> 1, ((struct anonymous_26 *)b)->i);
+    return return_value_icmp_5;
 
   __CPROVER_DUMP_L8:
     ;
-    return_value_icmp$6=icmp(((struct anonymous$26 *)a)->i, ((struct anonymous$26 *)b)->i);
-    return return_value_icmp$6;
+    return_value_icmp_6=icmp(((struct anonymous_26 *)a)->i, ((struct anonymous_26 *)b)->i);
+    return return_value_icmp_6;
 
   __CPROVER_DUMP_L9:
     ;
-    return_value_fcmp$7=fcmp((double)((signed int)(signed long int)a >> 1), ((struct anonymous$25 *)b)->f);
-    return return_value_fcmp$7;
+    return_value_fcmp_7=fcmp((double)((signed int)(signed long int)a >> 1), ((struct anonymous_25 *)b)->f);
+    return return_value_fcmp_7;
 
   __CPROVER_DUMP_L10:
     ;
-    return_value_fcmp$8=fcmp((double)((struct anonymous$26 *)a)->i, ((struct anonymous$25 *)b)->f);
-    return return_value_fcmp$8;
+    return_value_fcmp_8=fcmp((double)((struct anonymous_26 *)a)->i, ((struct anonymous_25 *)b)->f);
+    return return_value_fcmp_8;
 
   __CPROVER_DUMP_L11:
     ;
-    return_value_sprintf$9=sprintf(tmp_buf, "%d", (signed int)(signed long int)a >> 1);
-    return_value_scmp$10=scmp(tmp_buf, return_value_sprintf$9, &((struct anonymous$5 *)b)->c, (signed int)*((enum anonymous$7 *)b) >> 4);
-    return return_value_scmp$10;
+    return_value_sprintf_9=sprintf(tmp_buf, "%d", (signed int)(signed long int)a >> 1);
+    return_value_scmp_10=scmp(tmp_buf, return_value_sprintf_9, &((struct anonymous_5 *)b)->c, (signed int)*((enum anonymous_7 *)b) >> 4);
+    return return_value_scmp_10;
 
   __CPROVER_DUMP_L12:
     ;
-    return_value_sprintf$11=sprintf(tmp_buf, "%d", ((struct anonymous$26 *)a)->i);
-    return_value_scmp$12=scmp(tmp_buf, return_value_sprintf$11, &((struct anonymous$5 *)b)->c, (signed int)*((enum anonymous$7 *)b) >> 4);
-    return return_value_scmp$12;
+    return_value_sprintf_11=sprintf(tmp_buf, "%d", ((struct anonymous_26 *)a)->i);
+    return_value_scmp_12=scmp(tmp_buf, return_value_sprintf_11, &((struct anonymous_5 *)b)->c, (signed int)*((enum anonymous_7 *)b) >> 4);
+    return return_value_scmp_12;
 
   __CPROVER_DUMP_L13:
     ;
-    return_value_fcmp$13=fcmp(((struct anonymous$25 *)a)->f, (double)((signed int)(signed long int)b >> 1));
-    return return_value_fcmp$13;
+    return_value_fcmp_13=fcmp(((struct anonymous_25 *)a)->f, (double)((signed int)(signed long int)b >> 1));
+    return return_value_fcmp_13;
 
   __CPROVER_DUMP_L14:
     ;
-    return_value_fcmp$14=fcmp(((struct anonymous$25 *)a)->f, (double)((struct anonymous$26 *)b)->i);
-    return return_value_fcmp$14;
+    return_value_fcmp_14=fcmp(((struct anonymous_25 *)a)->f, (double)((struct anonymous_26 *)b)->i);
+    return return_value_fcmp_14;
 
   __CPROVER_DUMP_L15:
     ;
-    return_value_fcmp$15=fcmp(((struct anonymous$25 *)a)->f, ((struct anonymous$25 *)b)->f);
-    return return_value_fcmp$15;
+    return_value_fcmp_15=fcmp(((struct anonymous_25 *)a)->f, ((struct anonymous_25 *)b)->f);
+    return return_value_fcmp_15;
 
   __CPROVER_DUMP_L16:
     ;
-    return_value_sprintf$16=sprintf(tmp_buf, "%.15g", ((struct anonymous$25 *)a)->f);
-    return_value_scmp$17=scmp(tmp_buf, return_value_sprintf$16, &((struct anonymous$5 *)b)->c, (signed int)*((enum anonymous$7 *)b) >> 4);
-    return return_value_scmp$17;
+    return_value_sprintf_16=sprintf(tmp_buf, "%.15g", ((struct anonymous_25 *)a)->f);
+    return_value_scmp_17=scmp(tmp_buf, return_value_sprintf_16, &((struct anonymous_5 *)b)->c, (signed int)*((enum anonymous_7 *)b) >> 4);
+    return return_value_scmp_17;
 
   __CPROVER_DUMP_L17:
     ;
-    return_value_sprintf$18=sprintf(tmp_buf, "%d", (signed int)(signed long int)b >> 1);
-    return_value_scmp$19=scmp(&((struct anonymous$5 *)a)->c, (signed int)*((enum anonymous$7 *)a) >> 4, tmp_buf, return_value_sprintf$18);
-    return return_value_scmp$19;
+    return_value_sprintf_18=sprintf(tmp_buf, "%d", (signed int)(signed long int)b >> 1);
+    return_value_scmp_19=scmp(&((struct anonymous_5 *)a)->c, (signed int)*((enum anonymous_7 *)a) >> 4, tmp_buf, return_value_sprintf_18);
+    return return_value_scmp_19;
 
   __CPROVER_DUMP_L18:
     ;
-    return_value_sprintf$20=sprintf(tmp_buf, "%d", ((struct anonymous$26 *)b)->i);
-    return_value_scmp$21=scmp(&((struct anonymous$5 *)a)->c, (signed int)*((enum anonymous$7 *)a) >> 4, tmp_buf, return_value_sprintf$20);
-    return return_value_scmp$21;
+    return_value_sprintf_20=sprintf(tmp_buf, "%d", ((struct anonymous_26 *)b)->i);
+    return_value_scmp_21=scmp(&((struct anonymous_5 *)a)->c, (signed int)*((enum anonymous_7 *)a) >> 4, tmp_buf, return_value_sprintf_20);
+    return return_value_scmp_21;
 
   __CPROVER_DUMP_L19:
     ;
-    return_value_sprintf$22=sprintf(tmp_buf, "%.15g", ((struct anonymous$25 *)b)->f);
-    return_value_scmp$23=scmp(&((struct anonymous$5 *)a)->c, (signed int)*((enum anonymous$7 *)a) >> 4, tmp_buf, return_value_sprintf$22);
-    return return_value_scmp$23;
+    return_value_sprintf_22=sprintf(tmp_buf, "%.15g", ((struct anonymous_25 *)b)->f);
+    return_value_scmp_23=scmp(&((struct anonymous_5 *)a)->c, (signed int)*((enum anonymous_7 *)a) >> 4, tmp_buf, return_value_sprintf_22);
+    return return_value_scmp_23;
 
   __CPROVER_DUMP_L20:
     ;
-    return_value_scmp$24=scmp(&((struct anonymous$5 *)a)->c, (signed int)*((enum anonymous$7 *)a) >> 4, b == val_true ? "true" : "false", b == val_true ? 4 : 5);
-    return return_value_scmp$24;
+    return_value_scmp_24=scmp(&((struct anonymous_5 *)a)->c, (signed int)*((enum anonymous_7 *)a) >> 4, b == val_true ? "true" : "false", b == val_true ? 4 : 5);
+    return return_value_scmp_24;
 
   __CPROVER_DUMP_L21:
     ;
-    return_value_scmp$25=scmp(a == val_true ? "true" : "false", a == val_true ? 4 : 5, &((struct anonymous$5 *)b)->c, (signed int)*((enum anonymous$7 *)b) >> 4);
-    return return_value_scmp$25;
+    return_value_scmp_25=scmp(a == val_true ? "true" : "false", a == val_true ? 4 : 5, &((struct anonymous_5 *)b)->c, (signed int)*((enum anonymous_7 *)b) >> 4);
+    return return_value_scmp_25;
 
   __CPROVER_DUMP_L22:
     ;
-    return_value_scmp$26=scmp(&((struct anonymous$5 *)a)->c, (signed int)*((enum anonymous$7 *)a) >> 4, &((struct anonymous$5 *)b)->c, (signed int)*((enum anonymous$7 *)b) >> 4);
-    return return_value_scmp$26;
+    return_value_scmp_26=scmp(&((struct anonymous_5 *)a)->c, (signed int)*((enum anonymous_7 *)a) >> 4, &((struct anonymous_5 *)b)->c, (signed int)*((enum anonymous_7 *)b) >> 4);
+    return return_value_scmp_26;
 
   __CPROVER_DUMP_L23:
     ;
@@ -32489,7 +32489,7 @@ struct _value * neko_val_field(struct _value *_o, signed int id)
   struct _vobject *o = (struct _vobject *)_o;
   do
   {
-    f=otable_find$link2(&o->table, id);
+    f=otable_find_link2(&o->table, id);
     if(!(f == ((struct _value **)NULL)))
       return *f;
 
@@ -32503,26 +32503,26 @@ struct _value * neko_val_field(struct _value *_o, signed int id)
 // file vm/neko.h line 398
 struct _value * neko_val_field_name(signed int id)
 {
-  struct _value *return_value_otable_get$1;
-  return_value_otable_get$1=otable_get(&neko_fields[(signed long int)(id & 63)], id);
-  return return_value_otable_get$1;
+  struct _value *return_value_otable_get_1;
+  return_value_otable_get_1=otable_get(&neko_fields[(signed long int)(id & 63)], id);
+  return return_value_otable_get_1;
 }
 
 // neko_val_gc
 // file vm/alloc.c line 348
 void neko_val_gc(struct _value *v, void (*f)(struct _value *))
 {
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if((1 & (signed int)v) == 0)
-    tmp_if_expr$2 = (signed int)*((enum anonymous$7 *)v) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = (signed int)*((enum anonymous_7 *)v) == VAL_ABSTRACT ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  struct _value *return_value_neko_alloc_string$1;
-  if(!tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  struct _value *return_value_neko_alloc_string_1;
+  if(!tmp_if_expr_2)
   {
-    return_value_neko_alloc_string$1=neko_alloc_string("val_gc");
-    _neko_failure(return_value_neko_alloc_string$1, "vm/alloc.c", 350);
+    return_value_neko_alloc_string_1=neko_alloc_string("val_gc");
+    _neko_failure(return_value_neko_alloc_string_1, "vm/alloc.c", 350);
   }
 
   if(!(f == ((void (*)(struct _value *))NULL)))
@@ -32561,7 +32561,7 @@ signed int neko_val_id(const char *name)
     signed int max;
     signed int mid;
     signed int cid;
-    struct anonymous$3 *c;
+    struct anonymous_3 *c;
     neko_lock_acquire(neko_fields_lock);
     min = 0;
     max = t->count;
@@ -32585,10 +32585,10 @@ signed int neko_val_id(const char *name)
     }
     if(fdata == val_null)
     {
-      struct anonymous$3 *c2;
-      char *return_value_neko_alloc$1;
-      return_value_neko_alloc$1=neko_alloc((unsigned int)(sizeof(struct anonymous$3) /*16ul*/  * (unsigned long int)(t->count + 1)));
-      c2 = (struct anonymous$3 *)return_value_neko_alloc$1;
+      struct anonymous_3 *c2;
+      char *return_value_neko_alloc_1;
+      return_value_neko_alloc_1=neko_alloc((unsigned int)(sizeof(struct anonymous_3) /*16ul*/  * (unsigned long int)(t->count + 1)));
+      c2 = (struct anonymous_3 *)return_value_neko_alloc_1;
       mid = min + max >> 1;
       min = 0;
       for( ; !(min >= mid); min = min + 1)
@@ -32605,20 +32605,20 @@ signed int neko_val_id(const char *name)
     neko_lock_release(neko_fields_lock);
   }
 
-  signed int return_value_scmp$3;
+  signed int return_value_scmp_3;
   if(!(fdata == val_null))
   {
-    return_value_scmp$3=scmp(&((struct anonymous$5 *)fdata)->c, (signed int)*((enum anonymous$7 *)fdata) >> 4, oname, (signed int)(name - oname));
-    if(!(return_value_scmp$3 == 0))
+    return_value_scmp_3=scmp(&((struct anonymous_5 *)fdata)->c, (signed int)*((enum anonymous_7 *)fdata) >> 4, oname, (signed int)(name - oname));
+    if(!(return_value_scmp_3 == 0))
     {
       struct _buffer *b;
       b=neko_alloc_buffer("Field conflict between ");
       neko_val_buffer(b, fdata);
       neko_buffer_append(b, " and ");
       neko_buffer_append(b, oname);
-      struct _value *return_value_neko_buffer_to_string$2;
-      return_value_neko_buffer_to_string$2=neko_buffer_to_string(b);
-      _neko_failure(return_value_neko_buffer_to_string$2, "vm/others.c", 442);
+      struct _value *return_value_neko_buffer_to_string_2;
+      return_value_neko_buffer_to_string_2=neko_buffer_to_string(b);
+      _neko_failure(return_value_neko_buffer_to_string_2, "vm/others.c", 442);
     }
 
   }
@@ -32637,18 +32637,18 @@ void neko_val_iter_fields(struct _value *o, void (*f)(struct _value *, signed in
 // file vm/neko.h line 408
 struct _value * neko_val_ocall0(struct _value *o, signed int f)
 {
-  struct _value *return_value_neko_val_ocallN$1;
-  return_value_neko_val_ocallN$1=neko_val_ocallN(o, f, (struct _value **)(void *)0, 0);
-  return return_value_neko_val_ocallN$1;
+  struct _value *return_value_neko_val_ocallN_1;
+  return_value_neko_val_ocallN_1=neko_val_ocallN(o, f, (struct _value **)(void *)0, 0);
+  return return_value_neko_val_ocallN_1;
 }
 
 // neko_val_ocall1
 // file vm/callback.c line 167
 struct _value * neko_val_ocall1(struct _value *o, signed int f, struct _value *arg)
 {
-  struct _value *return_value_neko_val_ocallN$1;
-  return_value_neko_val_ocallN$1=neko_val_ocallN(o, f, &arg, 1);
-  return return_value_neko_val_ocallN$1;
+  struct _value *return_value_neko_val_ocallN_1;
+  return_value_neko_val_ocallN_1=neko_val_ocallN(o, f, &arg, 1);
+  return return_value_neko_val_ocallN_1;
 }
 
 // neko_val_ocall2
@@ -32656,20 +32656,20 @@ struct _value * neko_val_ocall1(struct _value *o, signed int f, struct _value *a
 struct _value * neko_val_ocall2(struct _value *o, signed int f, struct _value *arg1, struct _value *arg2)
 {
   struct _value *args[2l] = { arg1, arg2 };
-  struct _value *return_value_neko_val_ocallN$1;
-  return_value_neko_val_ocallN$1=neko_val_ocallN(o, f, args, 2);
-  return return_value_neko_val_ocallN$1;
+  struct _value *return_value_neko_val_ocallN_1;
+  return_value_neko_val_ocallN_1=neko_val_ocallN(o, f, args, 2);
+  return return_value_neko_val_ocallN_1;
 }
 
 // neko_val_ocallN
 // file vm/neko.h line 411
 struct _value * neko_val_ocallN(struct _value *o, signed int f, struct _value **args, signed int nargs)
 {
-  struct _value *return_value_neko_val_field$1;
-  return_value_neko_val_field$1=neko_val_field(o, f);
-  struct _value *return_value_neko_val_callEx$2;
-  return_value_neko_val_callEx$2=neko_val_callEx(o, return_value_neko_val_field$1, args, nargs, (struct _value **)(void *)0);
-  return return_value_neko_val_callEx$2;
+  struct _value *return_value_neko_val_field_1;
+  return_value_neko_val_field_1=neko_val_field(o, f);
+  struct _value *return_value_neko_val_callEx_2;
+  return_value_neko_val_callEx_2=neko_val_callEx(o, return_value_neko_val_field_1, args, nargs, (struct _value **)(void *)0);
+  return return_value_neko_val_callEx_2;
 }
 
 // neko_val_print
@@ -32677,13 +32677,13 @@ struct _value * neko_val_ocallN(struct _value *o, signed int f, struct _value **
 void neko_val_print(struct _value *v)
 {
   struct _neko_vm *vm;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((1 & (signed int)v) == 0)
-    tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)v) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)v) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     struct _buffer *b;
     b=neko_alloc_buffer((const char *)(void *)0);
@@ -32691,10 +32691,10 @@ void neko_val_print(struct _value *v)
     v=neko_buffer_to_string(b);
   }
 
-  void *return_value_neko_local_get$2;
-  return_value_neko_local_get$2=neko_local_get(neko_vm_context);
-  vm = (struct _neko_vm *)return_value_neko_local_get$2;
-  vm->print(&((struct anonymous$5 *)v)->c, (signed int)*((enum anonymous$7 *)v) >> 4, vm->print_param);
+  void *return_value_neko_local_get_2;
+  return_value_neko_local_get_2=neko_local_get(neko_vm_context);
+  vm = (struct _neko_vm *)return_value_neko_local_get_2;
+  vm->print(&((struct anonymous_5 *)v)->c, (signed int)*((enum anonymous_7 *)v) >> 4, vm->print_param);
 }
 
 // neko_val_rethrow
@@ -32702,9 +32702,9 @@ void neko_val_print(struct _value *v)
 void neko_val_rethrow(struct _value *v)
 {
   struct _neko_vm *vm;
-  void *return_value_neko_local_get$1;
-  return_value_neko_local_get$1=neko_local_get(neko_vm_context);
-  vm = (struct _neko_vm *)return_value_neko_local_get$1;
+  void *return_value_neko_local_get_1;
+  return_value_neko_local_get_1=neko_local_get(neko_vm_context);
+  vm = (struct _neko_vm *)return_value_neko_local_get_1;
   vm->vthis = v;
   if(*((char **)vm->start) == jit_handle_trap)
     ((void (*)(struct _neko_vm *))jit_handle_trap)(vm);
@@ -32717,9 +32717,9 @@ void neko_val_rethrow(struct _value *v)
 // file vm/callback.c line 176
 struct _value * neko_val_this()
 {
-  void *return_value_neko_local_get$1;
-  return_value_neko_local_get$1=neko_local_get(neko_vm_context);
-  return (struct _value *)((struct _neko_vm *)return_value_neko_local_get$1)->vthis;
+  void *return_value_neko_local_get_1;
+  return_value_neko_local_get_1=neko_local_get(neko_vm_context);
+  return (struct _value *)((struct _neko_vm *)return_value_neko_local_get_1)->vthis;
 }
 
 // neko_val_throw
@@ -32727,9 +32727,9 @@ struct _value * neko_val_this()
 void neko_val_throw(struct _value *v)
 {
   struct _neko_vm *vm;
-  void *return_value_neko_local_get$1;
-  return_value_neko_local_get$1=neko_local_get(neko_vm_context);
-  vm = (struct _neko_vm *)return_value_neko_local_get$1;
+  void *return_value_neko_local_get_1;
+  return_value_neko_local_get_1=neko_local_get(neko_vm_context);
+  vm = (struct _neko_vm *)return_value_neko_local_get_1;
   vm->exc_stack=neko_alloc_array((unsigned int)0);
   vm->vthis = v;
   if(*((char **)vm->start) == jit_handle_trap)
@@ -32744,21 +32744,21 @@ void neko_val_throw(struct _value *v)
 struct _neko_vm * neko_vm_alloc(void *custom)
 {
   struct _neko_vm *vm;
-  char *return_value_neko_alloc$1;
-  return_value_neko_alloc$1=neko_alloc((unsigned int)sizeof(struct _neko_vm) /*440ul*/ );
-  vm = (struct _neko_vm *)return_value_neko_alloc$1;
+  char *return_value_neko_alloc_1;
+  return_value_neko_alloc_1=neko_alloc((unsigned int)sizeof(struct _neko_vm) /*440ul*/ );
+  vm = (struct _neko_vm *)return_value_neko_alloc_1;
   struct rlimit st;
   signed int stack_size;
-  signed int return_value_getrlimit$2;
-  return_value_getrlimit$2=getrlimit((enum __rlimit_resource)RLIMIT_STACK, &st);
-  if(st.rlim_cur == 18446744073709551615ul || !(return_value_getrlimit$2 == 0))
+  signed int return_value_getrlimit_2;
+  return_value_getrlimit_2=getrlimit((enum __rlimit_resource)RLIMIT_STACK, &st);
+  if(st.rlim_cur == 18446744073709551615ul || !(return_value_getrlimit_2 == 0))
     stack_size = 8192 << 10;
 
   else
     stack_size = (signed int)st.rlim_cur;
-  char *return_value_neko_alloc$3;
-  return_value_neko_alloc$3=neko_alloc((unsigned int)((unsigned long int)(1 << 8) * sizeof(signed long int) /*8ul*/ ));
-  vm->spmin = (signed long int *)return_value_neko_alloc$3;
+  char *return_value_neko_alloc_3;
+  return_value_neko_alloc_3=neko_alloc((unsigned int)((unsigned long int)(1 << 8) * sizeof(signed long int) /*8ul*/ ));
+  vm->spmin = (signed long int *)return_value_neko_alloc_3;
   vm->print = default_printer;
   vm->print_param = (void *)stdout;
   vm->clist = (struct _custom_list *)(void *)0;
@@ -32782,9 +32782,9 @@ struct _neko_vm * neko_vm_alloc(void *custom)
 // file vm/interp.c line 160
 struct _neko_vm * neko_vm_current()
 {
-  void *return_value_neko_local_get$1;
-  return_value_neko_local_get$1=neko_local_get(neko_vm_context);
-  return (struct _neko_vm *)return_value_neko_local_get$1;
+  void *return_value_neko_local_get_1;
+  return_value_neko_local_get_1=neko_local_get(neko_vm_context);
+  return (struct _neko_vm *)return_value_neko_local_get_1;
 }
 
 // neko_vm_custom
@@ -32805,66 +32805,66 @@ void neko_vm_dump_stack(struct _neko_vm *vm)
 {
   signed long int *cspup = vm->csp;
   signed long int *csp = vm->spmin - (signed long int)1;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
   while(!(csp == cspup))
   {
     struct _neko_module *m = (struct _neko_module *)csp[(signed long int)4];
     printf("Called from ");
     if(!(m == ((struct _neko_module *)NULL)))
     {
-      printf("%s ", &((struct anonymous$5 *)m->name)->c);
+      printf("%s ", &((struct anonymous_5 *)m->name)->c);
       if(!(m->dbgidxs == ((struct _neko_debug *)NULL)))
       {
         signed int ppc = (signed int)((((signed long int **)csp)[(signed long int)1] - (signed long int)2) - m->code);
         signed int idx;
-        signed int return_value_bitcount$1;
-        return_value_bitcount$1=bitcount((m->dbgidxs + (signed long int)(ppc >> 5))->bits >> 31 - (ppc & 31));
-        idx = (m->dbgidxs + (signed long int)(ppc >> 5))->base + return_value_bitcount$1;
-        struct _value *s = (&((struct anonymous$4 *)m->dbgtbl)->ptr)[(signed long int)idx];
+        signed int return_value_bitcount_1;
+        return_value_bitcount_1=bitcount((m->dbgidxs + (signed long int)(ppc >> 5))->bits >> 31 - (ppc & 31));
+        idx = (m->dbgidxs + (signed long int)(ppc >> 5))->base + return_value_bitcount_1;
+        struct _value *s = (&((struct anonymous_4 *)m->dbgtbl)->ptr)[(signed long int)idx];
         if((1 & (signed int)s) == 0)
-          tmp_if_expr$7 = ((signed int)*((enum anonymous$7 *)s) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = ((signed int)*((enum anonymous_7 *)s) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(tmp_if_expr$7)
-          printf("%s", &((struct anonymous$5 *)s)->c);
+          tmp_if_expr_7 = (_Bool)0;
+        if(tmp_if_expr_7)
+          printf("%s", &((struct anonymous_5 *)s)->c);
 
         else
         {
           if((1 & (signed int)s) == 0)
-            tmp_if_expr$2 = ((signed int)*((enum anonymous$7 *)s) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = ((signed int)*((enum anonymous_7 *)s) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          if(tmp_if_expr$2)
-            tmp_if_expr$3 = (signed int)*((enum anonymous$7 *)s) >> 4 == 2 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = (_Bool)0;
+          if(tmp_if_expr_2)
+            tmp_if_expr_3 = (signed int)*((enum anonymous_7 *)s) >> 4 == 2 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = (_Bool)0;
+          if(tmp_if_expr_3)
           {
-            if((1 & (signed int)((struct anonymous$4 *)s)->ptr) == 0)
-              tmp_if_expr$4 = ((signed int)*((enum anonymous$7 *)(&((struct anonymous$4 *)s)->ptr)[(signed long int)0]) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
+            if((1 & (signed int)((struct anonymous_4 *)s)->ptr) == 0)
+              tmp_if_expr_4 = ((signed int)*((enum anonymous_7 *)(&((struct anonymous_4 *)s)->ptr)[(signed long int)0]) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$4 = (_Bool)0;
-            tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_4 = (_Bool)0;
+            tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          if(tmp_if_expr$5)
-            tmp_if_expr$6 = ((signed int)(signed long int)(&((struct anonymous$4 *)s)->ptr)[(signed long int)1] & 1) != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = (_Bool)0;
+          if(tmp_if_expr_5)
+            tmp_if_expr_6 = ((signed int)(signed long int)(&((struct anonymous_4 *)s)->ptr)[(signed long int)1] & 1) != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          if(tmp_if_expr$6)
-            printf("file %s line %d", &((struct anonymous$5 *)(&((struct anonymous$4 *)s)->ptr)[(signed long int)0])->c, (signed int)(signed long int)(&((struct anonymous$4 *)s)->ptr)[(signed long int)1] >> 1);
+            tmp_if_expr_6 = (_Bool)0;
+          if(tmp_if_expr_6)
+            printf("file %s line %d", &((struct anonymous_5 *)(&((struct anonymous_4 *)s)->ptr)[(signed long int)0])->c, (signed int)(signed long int)(&((struct anonymous_4 *)s)->ptr)[(signed long int)1] >> 1);
 
           else
             printf("???");
@@ -32893,7 +32893,7 @@ struct _value * neko_vm_execute(struct _neko_vm *vm, void *_m)
   neko_vm_select(vm);
   i = (unsigned int)0;
   for( ; !(i >= m->nfields); i = i + 1u)
-    neko_val_id(&((struct anonymous$5 *)m->fields[(signed long int)i])->c);
+    neko_val_id(&((struct anonymous_5 *)m->fields[(signed long int)i])->c);
   vm->env=neko_alloc_array((unsigned int)0);
   vm->vthis = val_null;
   ret=neko_interp(vm, (void *)m, (signed long int)val_null, m->code);
@@ -32924,22 +32924,22 @@ signed int neko_vm_jit(struct _neko_vm *vm, signed int enable_jit)
 // file vm/interp.c line 210
 void neko_vm_redirect(struct _neko_vm *vm, void (*print)(const char *, signed int, void *), void *param)
 {
-  struct anonymous$24 *p;
+  struct anonymous_24 *p;
   if(print == ((void (*)(const char *, signed int, void *))NULL))
   {
     if(!(vm->print == redirected_print))
       goto __CPROVER_DUMP_L3;
 
-    p = (struct anonymous$24 *)vm->print_param;
+    p = (struct anonymous_24 *)vm->print_param;
     vm->print = p->prev;
     vm->print_param = p->prev_param;
   }
 
   else
   {
-    char *return_value_neko_alloc$1;
-    return_value_neko_alloc$1=neko_alloc((unsigned int)sizeof(struct anonymous$24) /*32ul*/ );
-    p = (struct anonymous$24 *)return_value_neko_alloc$1;
+    char *return_value_neko_alloc_1;
+    return_value_neko_alloc_1=neko_alloc((unsigned int)sizeof(struct anonymous_24) /*32ul*/ );
+    p = (struct anonymous_24 *)return_value_neko_alloc_1;
     p->prev = vm->print;
     p->prev_param = vm->print_param;
     p->cur = print;
@@ -32985,9 +32985,9 @@ void neko_vm_set_custom(struct _neko_vm *vm, struct anonymous *k, void *v)
 
     prev = c;
   }
-  char *return_value_neko_alloc$1;
-  return_value_neko_alloc$1=neko_alloc((unsigned int)sizeof(struct _custom_list) /*24ul*/ );
-  c = (struct _custom_list *)return_value_neko_alloc$1;
+  char *return_value_neko_alloc_1;
+  return_value_neko_alloc_1=neko_alloc((unsigned int)sizeof(struct _custom_list) /*24ul*/ );
+  c = (struct _custom_list *)return_value_neko_alloc_1;
   c->tag = k;
   c->custom = v;
   c->next = vm->clist;
@@ -33029,32 +33029,32 @@ static void open_module(struct _value *path, const char *mname, signed int (**r)
   struct _value *fname;
   char *ext;
   ext=strrchr(mname, 46);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(ext == ((char *)NULL)))
-    tmp_if_expr$1 = (signed int)ext[(signed long int)1] == 110 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)ext[(signed long int)1] == 110 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (signed int)ext[(signed long int)2] == 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (signed int)ext[(signed long int)2] == 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     fname=neko_select_file(path, mname, "");
 
   else
     fname=neko_select_file(path, mname, ".n");
-  f=fopen(&((struct anonymous$5 *)fname)->c, "rb");
+  f=fopen(&((struct anonymous_5 *)fname)->c, "rb");
   if(f == ((struct _IO_FILE *)NULL))
   {
     struct _buffer *b;
     b=neko_alloc_buffer("Module not found : ");
     neko_buffer_append(b, mname);
-    struct _value *return_value_neko_buffer_to_string$3;
-    return_value_neko_buffer_to_string$3=neko_buffer_to_string(b);
-    _neko_failure(return_value_neko_buffer_to_string$3, "vm/load.c", 181);
+    struct _value *return_value_neko_buffer_to_string_3;
+    return_value_neko_buffer_to_string_3=neko_buffer_to_string(b);
+    _neko_failure(return_value_neko_buffer_to_string_3, "vm/load.c", 181);
   }
 
   *r = neko_file_reader;
@@ -33066,10 +33066,10 @@ static void open_module(struct _value *path, const char *mname, signed int (**r)
 void otable_copy(struct _objtable *t, struct _objtable *target)
 {
   target->count = t->count;
-  char *return_value_neko_alloc$1;
-  return_value_neko_alloc$1=neko_alloc((unsigned int)(sizeof(struct anonymous$3) /*16ul*/  * (unsigned long int)t->count));
-  target->cells = (struct anonymous$3 *)return_value_neko_alloc$1;
-  memcpy((void *)target->cells, (const void *)t->cells, sizeof(struct anonymous$3) /*16ul*/  * (unsigned long int)t->count);
+  char *return_value_neko_alloc_1;
+  return_value_neko_alloc_1=neko_alloc((unsigned int)(sizeof(struct anonymous_3) /*16ul*/  * (unsigned long int)t->count));
+  target->cells = (struct anonymous_3 *)return_value_neko_alloc_1;
+  memcpy((void *)target->cells, (const void *)t->cells, sizeof(struct anonymous_3) /*16ul*/  * (unsigned long int)t->count);
 }
 
 // otable_find
@@ -33079,7 +33079,7 @@ static inline struct _value ** otable_find(struct _objtable *t, signed int id)
   signed int min;
   signed int max;
   signed int mid;
-  struct anonymous$3 *c;
+  struct anonymous_3 *c;
   signed int cid;
   min = 0;
   max = t->count;
@@ -33101,60 +33101,60 @@ static inline struct _value ** otable_find(struct _objtable *t, signed int id)
   return (struct _value **)(void *)0;
 }
 
-// otable_find$link1
+// otable_find_link1
 // file vm/objtable.h line 31
-static inline struct _value ** otable_find$link1(struct _objtable *t$link1, signed int id$link1)
+static inline struct _value ** otable_find_link1(struct _objtable *t_link1, signed int id_link1)
 {
-  signed int min$link1;
-  signed int max$link1;
-  signed int mid$link1;
-  struct anonymous$3 *c$link1;
-  signed int cid$link1;
-  min$link1 = 0;
-  max$link1 = t$link1->count;
-  c$link1 = t$link1->cells;
-  while(!(min$link1 >= max$link1))
+  signed int min_link1;
+  signed int max_link1;
+  signed int mid_link1;
+  struct anonymous_3 *c_link1;
+  signed int cid_link1;
+  min_link1 = 0;
+  max_link1 = t_link1->count;
+  c_link1 = t_link1->cells;
+  while(!(min_link1 >= max_link1))
   {
-    mid$link1 = min$link1 + max$link1 >> 1;
-    cid$link1 = (c$link1 + (signed long int)mid$link1)->id;
-    if(!(cid$link1 >= id$link1))
-      min$link1 = mid$link1 + 1;
+    mid_link1 = min_link1 + max_link1 >> 1;
+    cid_link1 = (c_link1 + (signed long int)mid_link1)->id;
+    if(!(cid_link1 >= id_link1))
+      min_link1 = mid_link1 + 1;
 
     else
-      if(!(id$link1 >= cid$link1))
-        max$link1 = mid$link1;
+      if(!(id_link1 >= cid_link1))
+        max_link1 = mid_link1;
 
       else
-        return &(c$link1 + (signed long int)mid$link1)->v;
+        return &(c_link1 + (signed long int)mid_link1)->v;
   }
   return (struct _value **)(void *)0;
 }
 
-// otable_find$link2
+// otable_find_link2
 // file vm/objtable.h line 31
-static inline struct _value ** otable_find$link2(struct _objtable *t$link2, signed int id$link2)
+static inline struct _value ** otable_find_link2(struct _objtable *t_link2, signed int id_link2)
 {
-  signed int min$link2;
-  signed int max$link2;
-  signed int mid$link2;
-  struct anonymous$3 *c$link2;
-  signed int cid$link2;
-  min$link2 = 0;
-  max$link2 = t$link2->count;
-  c$link2 = t$link2->cells;
-  while(!(min$link2 >= max$link2))
+  signed int min_link2;
+  signed int max_link2;
+  signed int mid_link2;
+  struct anonymous_3 *c_link2;
+  signed int cid_link2;
+  min_link2 = 0;
+  max_link2 = t_link2->count;
+  c_link2 = t_link2->cells;
+  while(!(min_link2 >= max_link2))
   {
-    mid$link2 = min$link2 + max$link2 >> 1;
-    cid$link2 = (c$link2 + (signed long int)mid$link2)->id;
-    if(!(cid$link2 >= id$link2))
-      min$link2 = mid$link2 + 1;
+    mid_link2 = min_link2 + max_link2 >> 1;
+    cid_link2 = (c_link2 + (signed long int)mid_link2)->id;
+    if(!(cid_link2 >= id_link2))
+      min_link2 = mid_link2 + 1;
 
     else
-      if(!(id$link2 >= cid$link2))
-        max$link2 = mid$link2;
+      if(!(id_link2 >= cid_link2))
+        max_link2 = mid_link2;
 
       else
-        return &(c$link2 + (signed long int)mid$link2)->v;
+        return &(c_link2 + (signed long int)mid_link2)->v;
   }
   return (struct _value **)(void *)0;
 }
@@ -33166,7 +33166,7 @@ static inline struct _value * otable_get(struct _objtable *t, signed int id)
   signed int min;
   signed int max;
   signed int mid;
-  struct anonymous$3 *c;
+  struct anonymous_3 *c;
   signed int cid;
   min = 0;
   max = t->count;
@@ -33193,7 +33193,7 @@ static inline struct _value * otable_get(struct _objtable *t, signed int id)
 static inline void otable_init(struct _objtable *t)
 {
   t->count = 0;
-  t->cells = (struct anonymous$3 *)(void *)0;
+  t->cells = (struct anonymous_3 *)(void *)0;
 }
 
 // otable_iter
@@ -33202,7 +33202,7 @@ void otable_iter(struct _objtable *t, void (*f)(struct _value *, signed int, voi
 {
   signed int i;
   signed int n = t->count;
-  struct anonymous$3 *c = t->cells;
+  struct anonymous_3 *c = t->cells;
   i = 0;
   if(!(i >= n))
   {
@@ -33219,17 +33219,17 @@ void otable_optimize(struct _objtable *t)
   signed int max = t->count;
   signed int i;
   signed int cur = 0;
-  struct anonymous$3 *c = t->cells;
+  struct anonymous_3 *c = t->cells;
   i = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   for( ; !(i >= max); i = i + 1)
   {
     struct _value *v = (c + (signed long int)i)->v;
     if(!(v == val_null))
     {
-      tmp_post$1 = cur;
+      tmp_post_1 = cur;
       cur = cur + 1;
-      c[(signed long int)tmp_post$1] = c[(signed long int)i];
+      c[(signed long int)tmp_post_1] = c[(signed long int)i];
     }
 
   }
@@ -33247,7 +33247,7 @@ signed int otable_remove(struct _objtable *t, signed int id)
   signed int max = t->count;
   signed int mid;
   signed int cid;
-  struct anonymous$3 *c = t->cells;
+  struct anonymous_3 *c = t->cells;
   if(max == 0)
     return 0;
 
@@ -33285,7 +33285,7 @@ void otable_replace(struct _objtable *t, signed int id, struct _value *data)
   signed int max = t->count;
   signed int mid;
   signed int cid;
-  struct anonymous$3 *c = t->cells;
+  struct anonymous_3 *c = t->cells;
   while(!(min >= max))
   {
     mid = min + max >> 1;
@@ -33304,9 +33304,9 @@ void otable_replace(struct _objtable *t, signed int id, struct _value *data)
       }
   }
   mid = min + max >> 1;
-  char *return_value_neko_alloc$1;
-  return_value_neko_alloc$1=neko_alloc((unsigned int)(sizeof(struct anonymous$3) /*16ul*/  * (unsigned long int)(t->count + 1)));
-  c = (struct anonymous$3 *)return_value_neko_alloc$1;
+  char *return_value_neko_alloc_1;
+  return_value_neko_alloc_1=neko_alloc((unsigned int)(sizeof(struct anonymous_3) /*16ul*/  * (unsigned long int)(t->count + 1)));
+  c = (struct anonymous_3 *)return_value_neko_alloc_1;
   min = 0;
   for( ; !(min >= mid); min = min + 1)
     c[(signed long int)min] = t->cells[(signed long int)min];
@@ -33342,7 +33342,7 @@ static signed int precise_timer()
 static struct _value * read_bytecode(struct _value *str, struct _value *pos, struct _value *len)
 {
   unsigned long int rlen;
-  rlen=fread((void *)(&((struct anonymous$5 *)str)->c + (signed long int)((signed int)(signed long int)pos >> 1)), (unsigned long int)1, (unsigned long int)((signed int)(signed long int)len >> 1), self);
+  rlen=fread((void *)(&((struct anonymous_5 *)str)->c + (signed long int)((signed int)(signed long int)pos >> 1)), (unsigned long int)1, (unsigned long int)((signed int)(signed long int)len >> 1), self);
   return (struct _value *)(signed long int)((signed int)rlen << 1 | 1);
 }
 
@@ -33365,7 +33365,7 @@ static void * read_debug_infos(signed int (*r)(void *, void *, signed int), void
   signed int lot_of_files = 0;
   signed int return_value;
   return_value=r(p, (void *)&c, 1);
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   if(return_value == -1)
   {
     free((void *)tmp);
@@ -33402,15 +33402,15 @@ static void * read_debug_infos(signed int (*r)(void *, void *, signed int), void
       i = (unsigned int)0;
       if(!(i >= nfiles))
       {
-        signed int return_value_read_string$1;
-        return_value_read_string$1=read_string(r, p, tmp);
-        if(return_value_read_string$1 == -1)
+        signed int return_value_read_string_1;
+        return_value_read_string_1=read_string(r, p, tmp);
+        if(return_value_read_string_1 == -1)
         {
           free((void *)tmp);
           return (void *)0;
         }
 
-        (&((struct anonymous$4 *)files)->ptr)[(signed long int)i]=neko_alloc_string(tmp);
+        (&((struct anonymous_4 *)files)->ptr)[(signed long int)i]=neko_alloc_string(tmp);
         i = i + 1u;
       }
 
@@ -33423,11 +33423,11 @@ static void * read_debug_infos(signed int (*r)(void *, void *, signed int), void
 
       else
       {
-        curfile = (&((struct anonymous$4 *)files)->ptr)[(signed long int)0];
+        curfile = (&((struct anonymous_4 *)files)->ptr)[(signed long int)0];
         positions=neko_alloc_array((unsigned int)2 + npos / (unsigned int)20);
-        char *return_value_neko_alloc_private$2;
-        return_value_neko_alloc_private$2=neko_alloc_private((unsigned int)(sizeof(struct _neko_debug) /*8ul*/  * (unsigned long int)(npos + (unsigned int)31 >> 5)));
-        bits = (struct _neko_debug *)return_value_neko_alloc_private$2;
+        char *return_value_neko_alloc_private_2;
+        return_value_neko_alloc_private_2=neko_alloc_private((unsigned int)(sizeof(struct _neko_debug) /*8ul*/  * (unsigned long int)(npos + (unsigned int)31 >> 5)));
+        bits = (struct _neko_debug *)return_value_neko_alloc_private_2;
         m->dbgidxs = bits;
         bits = bits - 1l;
         i = (unsigned int)0;
@@ -33460,13 +33460,13 @@ static void * read_debug_infos(signed int (*r)(void *, void *, signed int), void
 
             else
               nfiles = (unsigned int)c;
-            if(nfiles >= (unsigned int)((signed int)*((enum anonymous$7 *)files) >> 4))
+            if(nfiles >= (unsigned int)((signed int)*((enum anonymous_7 *)files) >> 4))
             {
               free((void *)tmp);
               return (void *)0;
             }
 
-            curfile = (&((struct anonymous$4 *)files)->ptr)[(signed long int)nfiles];
+            curfile = (&((struct anonymous_4 *)files)->ptr)[(signed long int)nfiles];
             pp = (struct _value *)(void *)0;
           }
 
@@ -33484,8 +33484,8 @@ static void * read_debug_infos(signed int (*r)(void *, void *, signed int), void
               if(pp == ((struct _value *)NULL))
               {
                 pp=neko_alloc_array((unsigned int)2);
-                (&((struct anonymous$4 *)pp)->ptr)[(signed long int)0] = curfile;
-                (&((struct anonymous$4 *)pp)->ptr)[(signed long int)1] = (struct _value *)(signed long int)((signed int)curline << 1 | 1);
+                (&((struct anonymous_4 *)pp)->ptr)[(signed long int)0] = curfile;
+                (&((struct anonymous_4 *)pp)->ptr)[(signed long int)1] = (struct _value *)(signed long int)((signed int)curline << 1 | 1);
                 pos_index = pos_index + 1;
                 append_array(&positions, pos_index, pp);
                 if((31u & i) == 0u)
@@ -33501,9 +33501,9 @@ static void * read_debug_infos(signed int (*r)(void *, void *, signed int), void
                 count = count - 1;
               }
 
-              tmp_post$3 = count;
+              tmp_post_3 = count;
               count = count - 1;
-              if(!(tmp_post$3 == 0))
+              if(!(tmp_post_3 == 0))
               {
                 if((31u & i) == 0u)
                 {
@@ -33530,8 +33530,8 @@ static void * read_debug_infos(signed int (*r)(void *, void *, signed int), void
               {
                 curline = curline + ((signed int)c >> 3);
                 pp=neko_alloc_array((unsigned int)2);
-                (&((struct anonymous$4 *)pp)->ptr)[(signed long int)0] = curfile;
-                (&((struct anonymous$4 *)pp)->ptr)[(signed long int)1] = (struct _value *)(signed long int)((signed int)curline << 1 | 1);
+                (&((struct anonymous_4 *)pp)->ptr)[(signed long int)0] = curfile;
+                (&((struct anonymous_4 *)pp)->ptr)[(signed long int)1] = (struct _value *)(signed long int)((signed int)curline << 1 | 1);
                 pos_index = pos_index + 1;
                 append_array(&positions, pos_index, pp);
                 if((31u & i) == 0u)
@@ -33568,8 +33568,8 @@ static void * read_debug_infos(signed int (*r)(void *, void *, signed int), void
 
                 curline = (signed int)c >> 3 | (signed int)b2 << 5 | (signed int)b3 << 13;
                 pp=neko_alloc_array((unsigned int)2);
-                (&((struct anonymous$4 *)pp)->ptr)[(signed long int)0] = curfile;
-                (&((struct anonymous$4 *)pp)->ptr)[(signed long int)1] = (struct _value *)(signed long int)((signed int)curline << 1 | 1);
+                (&((struct anonymous_4 *)pp)->ptr)[(signed long int)0] = curfile;
+                (&((struct anonymous_4 *)pp)->ptr)[(signed long int)1] = (struct _value *)(signed long int)((signed int)curline << 1 | 1);
                 pos_index = pos_index + 1;
                 append_array(&positions, pos_index, pp);
                 if((31u & i) == 0u)
@@ -33587,7 +33587,7 @@ static void * read_debug_infos(signed int (*r)(void *, void *, signed int), void
 
         pos_index = pos_index + 1;
         m->dbgtbl=neko_alloc_array((unsigned int)pos_index);
-        memcpy((void *)&((struct anonymous$4 *)m->dbgtbl)->ptr, (const void *)&((struct anonymous$4 *)positions)->ptr, (unsigned long int)pos_index * sizeof(struct _value *) /*8ul*/ );
+        memcpy((void *)&((struct anonymous_4 *)m->dbgtbl)->ptr, (const void *)&((struct anonymous_4 *)positions)->ptr, (unsigned long int)pos_index * sizeof(struct _value *) /*8ul*/ );
         return (void *)m;
       }
     }
@@ -33622,7 +33622,7 @@ static signed int read_string(signed int (*r)(void *, void *, signed int), void 
 {
   signed int i = 0;
   char c;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(!(i >= 0x100))
   {
     signed int return_value;
@@ -33630,9 +33630,9 @@ static signed int read_string(signed int (*r)(void *, void *, signed int), void 
     if(return_value == -1)
       return -1;
 
-    tmp_post$1 = i;
+    tmp_post_1 = i;
     i = i + 1;
-    buf[(signed long int)tmp_post$1] = c;
+    buf[(signed long int)tmp_post_1] = c;
     if((signed int)c == 0)
       return i;
 
@@ -33645,7 +33645,7 @@ static signed int read_string(signed int (*r)(void *, void *, signed int), void 
 // file vm/interp.c line 205
 static void redirected_print(const char *s, signed int size, void *_p)
 {
-  struct anonymous$24 *p = (struct anonymous$24 *)_p;
+  struct anonymous_24 *p = (struct anonymous_24 *)_p;
   p->cur(s, size, p->cur_param);
 }
 
@@ -33659,15 +33659,15 @@ static void report(struct _neko_vm *vm, struct _value *exc, signed int isexc)
   struct _value *st;
   st=neko_exc_stack(vm);
   i = 0;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  for( ; !(i >= (signed int)*((enum anonymous$7 *)st) >> 4); i = i + 1)
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  for( ; !(i >= (signed int)*((enum anonymous_7 *)st) >> 4); i = i + 1)
   {
-    struct _value *s = (&((struct anonymous$4 *)st)->ptr)[(signed long int)i];
+    struct _value *s = (&((struct anonymous_4 *)st)->ptr)[(signed long int)i];
     neko_buffer_append(b, "Called from ");
     if(s == val_null)
       neko_buffer_append(b, "a C function");
@@ -33675,50 +33675,50 @@ static void report(struct _neko_vm *vm, struct _value *exc, signed int isexc)
     else
     {
       if((1 & (signed int)s) == 0)
-        tmp_if_expr$6 = ((signed int)*((enum anonymous$7 *)s) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = ((signed int)*((enum anonymous_7 *)s) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(tmp_if_expr$6)
+        tmp_if_expr_6 = (_Bool)0;
+      if(tmp_if_expr_6)
       {
-        neko_buffer_append(b, &((struct anonymous$5 *)s)->c);
+        neko_buffer_append(b, &((struct anonymous_5 *)s)->c);
         neko_buffer_append(b, " (no debug available)");
       }
 
       else
       {
         if((1 & (signed int)s) == 0)
-          tmp_if_expr$1 = ((signed int)*((enum anonymous$7 *)s) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = ((signed int)*((enum anonymous_7 *)s) & (1 << 4) - 1) == VAL_ARRAY ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
-          tmp_if_expr$2 = (signed int)*((enum anonymous$7 *)s) >> 4 == 2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
+          tmp_if_expr_2 = (signed int)*((enum anonymous_7 *)s) >> 4 == 2 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
         {
-          if((1 & (signed int)((struct anonymous$4 *)s)->ptr) == 0)
-            tmp_if_expr$3 = ((signed int)*((enum anonymous$7 *)(&((struct anonymous$4 *)s)->ptr)[(signed long int)0]) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
+          if((1 & (signed int)((struct anonymous_4 *)s)->ptr) == 0)
+            tmp_if_expr_3 = ((signed int)*((enum anonymous_7 *)(&((struct anonymous_4 *)s)->ptr)[(signed long int)0]) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = (_Bool)0;
+          tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
-          tmp_if_expr$5 = ((signed int)(signed long int)(&((struct anonymous$4 *)s)->ptr)[(signed long int)1] & 1) != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
+          tmp_if_expr_5 = ((signed int)(signed long int)(&((struct anonymous_4 *)s)->ptr)[(signed long int)1] & 1) != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
         {
-          neko_val_buffer(b, (&((struct anonymous$4 *)s)->ptr)[(signed long int)0]);
+          neko_val_buffer(b, (&((struct anonymous_4 *)s)->ptr)[(signed long int)0]);
           neko_buffer_append(b, " line ");
-          neko_val_buffer(b, (&((struct anonymous$4 *)s)->ptr)[(signed long int)1]);
+          neko_val_buffer(b, (&((struct anonymous_4 *)s)->ptr)[(signed long int)1]);
         }
 
         else
@@ -33731,9 +33731,9 @@ static void report(struct _neko_vm *vm, struct _value *exc, signed int isexc)
     neko_buffer_append(b, "Uncaught exception - ");
 
   neko_val_buffer(b, exc);
-  struct _value *return_value_neko_buffer_to_string$7;
-  return_value_neko_buffer_to_string$7=neko_buffer_to_string(b);
-  fprintf(stderr, "%s\n", &((struct anonymous$5 *)return_value_neko_buffer_to_string$7)->c);
+  struct _value *return_value_neko_buffer_to_string_7;
+  return_value_neko_buffer_to_string_7=neko_buffer_to_string(b);
+  fprintf(stderr, "%s\n", &((struct anonymous_5 *)return_value_neko_buffer_to_string_7)->c);
 }
 
 // scmp
@@ -33742,17 +33742,17 @@ static inline signed int scmp(const char *s1, signed int l1, const char *s2, sig
 {
   signed int r;
   r=memcmp((const void *)s1, (const void *)s2, (unsigned long int)(l1 < l2 ? l1 : l2));
-  signed int tmp_if_expr$2;
-  signed int return_value_icmp$1;
+  signed int tmp_if_expr_2;
+  signed int return_value_icmp_1;
   if(!(r == 0))
-    tmp_if_expr$2 = r;
+    tmp_if_expr_2 = r;
 
   else
   {
-    return_value_icmp$1=icmp(l1, l2);
-    tmp_if_expr$2 = return_value_icmp$1;
+    return_value_icmp_1=icmp(l1, l2);
+    tmp_if_expr_2 = return_value_icmp_1;
   }
-  return tmp_if_expr$2;
+  return tmp_if_expr_2;
 }
 
 // sort
@@ -33769,7 +33769,7 @@ static struct _statinfos * sort(struct _statinfos *list)
   signed int qsize;
   signed int i;
   insize = 1;
-  signed int return_value_cmp$1;
+  signed int return_value_cmp_1;
   for( ; !(list == ((struct _statinfos *)NULL)); insize = insize * 2)
   {
     p = list;
@@ -33810,8 +33810,8 @@ static struct _statinfos * sort(struct _statinfos *list)
 
           else
           {
-            return_value_cmp$1=cmp(p, q);
-            if(!(return_value_cmp$1 >= 1))
+            return_value_cmp_1=cmp(p, q);
+            if(!(return_value_cmp_1 >= 1))
             {
               e = p;
               p = p->next;
@@ -33846,17 +33846,17 @@ static struct _statinfos * sort(struct _statinfos *list)
 static struct _value * stats_proxy(struct _value *p1, struct _value *p2, struct _value *p3, struct _value *p4, struct _value *p5, struct _value *p6)
 {
   struct _neko_vm *vm;
-  void *return_value_neko_local_get$1;
-  return_value_neko_local_get$1=neko_local_get(neko_vm_context);
-  vm = (struct _neko_vm *)return_value_neko_local_get$1;
+  void *return_value_neko_local_get_1;
+  return_value_neko_local_get_1=neko_local_get(neko_vm_context);
+  vm = (struct _neko_vm *)return_value_neko_local_get_1;
   struct _value *env = vm->env;
   struct _value *ret;
   if(!(vm->pstats == ((void (*)(struct _neko_vm *, const char *, signed int))NULL)))
-    vm->pstats(vm, &((struct anonymous$5 *)(&((struct anonymous$4 *)env)->ptr)[(signed long int)0])->c, 1);
+    vm->pstats(vm, &((struct anonymous_5 *)(&((struct anonymous_4 *)env)->ptr)[(signed long int)0])->c, 1);
 
-  ret=((struct _value * (*)(struct _value *, struct _value *, struct _value *, struct _value *, struct _value *, struct _value *))((signed long int)(&((struct anonymous$4 *)vm->env)->ptr)[(signed long int)1] & (signed long int)~1))(p1, p2, p3, p4, p5, p6);
+  ret=((struct _value * (*)(struct _value *, struct _value *, struct _value *, struct _value *, struct _value *, struct _value *))((signed long int)(&((struct anonymous_4 *)vm->env)->ptr)[(signed long int)1] & (signed long int)~1))(p1, p2, p3, p4, p5, p6);
   if(!(vm->pstats == ((void (*)(struct _neko_vm *, const char *, signed int))NULL)))
-    vm->pstats(vm, &((struct anonymous$5 *)(&((struct anonymous$4 *)env)->ptr)[(signed long int)0])->c, 0);
+    vm->pstats(vm, &((struct anonymous_5 *)(&((struct anonymous_4 *)env)->ptr)[(signed long int)0])->c, 0);
 
   return ret;
 }
@@ -33874,9 +33874,9 @@ static void val_buffer_fields(struct _value *v, signed int f, void *_l)
     neko_buffer_append_sub(l->b, " ", (signed long int)1);
     l->prev = 1;
   }
-  struct _value *return_value_neko_val_field_name$1;
-  return_value_neko_val_field_name$1=neko_val_field_name(f);
-  neko_val_buffer(l->b, return_value_neko_val_field_name$1);
+  struct _value *return_value_neko_val_field_name_1;
+  return_value_neko_val_field_name_1=neko_val_field_name(f);
+  neko_val_buffer(l->b, return_value_neko_val_field_name_1);
   neko_buffer_append_sub(l->b, " => ", (signed long int)4);
   val_buffer_rec(l->b, v, (struct vlist *)l);
 }
@@ -33888,43 +33888,43 @@ static void val_buffer_rec(struct _buffer *b, struct _value *v, struct vlist *st
   char buf[32l];
   signed int i;
   signed int l;
-  struct vlist *val_buffer_rec$$1$$vtmp = stack;
-  for( ; !(val_buffer_rec$$1$$vtmp == ((struct vlist *)NULL)); val_buffer_rec$$1$$vtmp = val_buffer_rec$$1$$vtmp->next)
-    if(val_buffer_rec$$1$$vtmp->v == v)
+  struct vlist *val_buffer_rec__1__vtmp = stack;
+  for( ; !(val_buffer_rec__1__vtmp == ((struct vlist *)NULL)); val_buffer_rec__1__vtmp = val_buffer_rec__1__vtmp->next)
+    if(val_buffer_rec__1__vtmp->v == v)
     {
       neko_buffer_append_sub(b, "...", (signed long int)3);
       goto __CPROVER_DUMP_L30;
     }
 
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((1 & (signed int)v) == 0))
-    tmp_if_expr$1 = VAL_INT;
+    tmp_if_expr_1 = VAL_INT;
 
   else
-    tmp_if_expr$1 = (signed int)*((enum anonymous$7 *)v) & (1 << 4) - 1;
-  signed int return_value_sprintf$2;
-  signed int return_value_sprintf$3;
-  signed int return_value_sprintf$4;
+    tmp_if_expr_1 = (signed int)*((enum anonymous_7 *)v) & (1 << 4) - 1;
+  signed int return_value_sprintf_2;
+  signed int return_value_sprintf_3;
+  signed int return_value_sprintf_4;
   struct _value *s;
-  _Bool tmp_if_expr$5;
-  signed int return_value_sprintf$6;
-  switch(tmp_if_expr$1)
+  _Bool tmp_if_expr_5;
+  signed int return_value_sprintf_6;
+  switch(tmp_if_expr_1)
   {
     case VAL_INT:
     {
-      return_value_sprintf$2=sprintf(buf, "%d", (signed int)(signed long int)v >> 1);
-      neko_buffer_append_sub(b, buf, (signed long int)return_value_sprintf$2);
+      return_value_sprintf_2=sprintf(buf, "%d", (signed int)(signed long int)v >> 1);
+      neko_buffer_append_sub(b, buf, (signed long int)return_value_sprintf_2);
       break;
     }
     case VAL_STRING:
     {
-      neko_buffer_append_sub(b, &((struct anonymous$5 *)v)->c, (signed long int)((signed int)*((enum anonymous$7 *)v) >> 4));
+      neko_buffer_append_sub(b, &((struct anonymous_5 *)v)->c, (signed long int)((signed int)*((enum anonymous_7 *)v) >> 4));
       break;
     }
     case VAL_FLOAT:
     {
-      return_value_sprintf$3=sprintf(buf, "%.15g", ((struct anonymous$25 *)v)->f);
-      neko_buffer_append_sub(b, buf, (signed long int)return_value_sprintf$3);
+      return_value_sprintf_3=sprintf(buf, "%.15g", ((struct anonymous_25 *)v)->f);
+      neko_buffer_append_sub(b, buf, (signed long int)return_value_sprintf_3);
       break;
     }
     case VAL_NULL:
@@ -33943,8 +33943,8 @@ static void val_buffer_rec(struct _buffer *b, struct _value *v, struct vlist *st
     }
     case VAL_FUNCTION:
     {
-      return_value_sprintf$4=sprintf(buf, "#function:%d", ((struct anonymous$8 *)v)->nargs);
-      neko_buffer_append_sub(b, buf, (signed long int)return_value_sprintf$4);
+      return_value_sprintf_4=sprintf(buf, "#function:%d", ((struct anonymous_8 *)v)->nargs);
+      neko_buffer_append_sub(b, buf, (signed long int)return_value_sprintf_4);
       break;
     }
     case VAL_OBJECT:
@@ -33954,12 +33954,12 @@ static void val_buffer_rec(struct _buffer *b, struct _value *v, struct vlist *st
         s=neko_val_callEx(v, s, (struct _value **)(void *)0, 0, (struct _value **)(void *)0);
 
       if((1 & (signed int)s) == 0)
-        tmp_if_expr$5 = ((signed int)*((enum anonymous$7 *)s) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = ((signed int)*((enum anonymous_7 *)s) & (1 << 4) - 1) == VAL_STRING ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
-        neko_buffer_append_sub(b, &((struct anonymous$5 *)s)->c, (signed long int)((signed int)*((enum anonymous$7 *)s) >> 4));
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
+        neko_buffer_append_sub(b, &((struct anonymous_5 *)s)->c, (signed long int)((signed int)*((enum anonymous_7 *)s) >> 4));
 
       else
       {
@@ -33981,15 +33981,15 @@ static void val_buffer_rec(struct _buffer *b, struct _value *v, struct vlist *st
     case VAL_ARRAY:
     {
       neko_buffer_append_sub(b, "[", (signed long int)1);
-      l = (signed int)*((enum anonymous$7 *)v) >> 4;
-      struct vlist val_buffer_rec$$1$$2$$2$$vtmp;
-      val_buffer_rec$$1$$2$$2$$vtmp.v = v;
-      val_buffer_rec$$1$$2$$2$$vtmp.next = stack;
+      l = (signed int)*((enum anonymous_7 *)v) >> 4;
+      struct vlist val_buffer_rec__1__2__2__vtmp;
+      val_buffer_rec__1__2__2__vtmp.v = v;
+      val_buffer_rec__1__2__2__vtmp.next = stack;
       i = 0;
       for( ; !(i >= l); i = i + 1)
       {
-        struct _value *vi = (&((struct anonymous$4 *)v)->ptr)[(signed long int)i];
-        val_buffer_rec(b, vi, &val_buffer_rec$$1$$2$$2$$vtmp);
+        struct _value *vi = (&((struct anonymous_4 *)v)->ptr)[(signed long int)i];
+        val_buffer_rec(b, vi, &val_buffer_rec__1__2__2__vtmp);
         if(!(i == l + -1))
           neko_buffer_append_sub(b, ",", (signed long int)1);
 
@@ -33999,8 +33999,8 @@ static void val_buffer_rec(struct _buffer *b, struct _value *v, struct vlist *st
     }
     case VAL_INT32:
     {
-      return_value_sprintf$6=sprintf(buf, "%d", ((struct anonymous$26 *)v)->i);
-      neko_buffer_append_sub(b, buf, (signed long int)return_value_sprintf$6);
+      return_value_sprintf_6=sprintf(buf, "%d", ((struct anonymous_26 *)v)->i);
+      neko_buffer_append_sub(b, buf, (signed long int)return_value_sprintf_6);
       break;
     }
     case VAL_ABSTRACT:
@@ -34021,16 +34021,16 @@ __CPROVER_DUMP_L30:
 static struct _value * varargs_callback(struct _value **args, signed int nargs)
 {
   struct _value *f;
-  void *return_value_neko_local_get$1;
-  return_value_neko_local_get$1=neko_local_get(neko_vm_context);
-  f = ((struct _neko_vm *)return_value_neko_local_get$1)->env;
+  void *return_value_neko_local_get_1;
+  return_value_neko_local_get_1=neko_local_get(neko_vm_context);
+  f = ((struct _neko_vm *)return_value_neko_local_get_1)->env;
   struct _value *a;
   a=neko_alloc_array((unsigned int)nargs);
   signed int i = 0;
   for( ; !(i >= nargs); i = i + 1)
-    (&((struct anonymous$4 *)a)->ptr)[(signed long int)i] = args[(signed long int)i];
-  struct _value *return_value_neko_val_call1$2;
-  return_value_neko_val_call1$2=neko_val_call1(f, a);
-  return return_value_neko_val_call1$2;
+    (&((struct anonymous_4 *)a)->ptr)[(signed long int)i] = args[(signed long int)i];
+  struct _value *return_value_neko_val_call1_2;
+  return_value_neko_val_call1_2=neko_val_call1(f, a);
+  return return_value_neko_val_call1_2;
 }
 

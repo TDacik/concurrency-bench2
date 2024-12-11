@@ -1,42 +1,42 @@
-// #anon_enum$TYPE_NONE=0$TYPE_SCHAR=1$TYPE_UCHAR=2$TYPE_SHORT=3$TYPE_USHORT=4$TYPE_INT=5$TYPE_UINT=6$TYPE_LONGINT=7$TYPE_ULONGINT=8$TYPE_LONGLONGINT=9$TYPE_ULONGLONGINT=10$TYPE_DOUBLE=11$TYPE_LONGDOUBLE=12$TYPE_CHAR=13$TYPE_WIDE_CHAR=14$TYPE_STRING=15$TYPE_WIDE_STRING=16$TYPE_POINTER=17$TYPE_COUNT_SCHAR_POINTER=18$TYPE_COUNT_SHORT_POINTER=19$TYPE_COUNT_INT_POINTER=20$TYPE_COUNT_LONGINT_POINTER=21$TYPE_COUNT_LONGLONGINT_POINTER=22
+// #anon_enum_TYPE_NONE=0_TYPE_SCHAR=1_TYPE_UCHAR=2_TYPE_SHORT=3_TYPE_USHORT=4_TYPE_INT=5_TYPE_UINT=6_TYPE_LONGINT=7_TYPE_ULONGINT=8_TYPE_LONGLONGINT=9_TYPE_ULONGLONGINT=10_TYPE_DOUBLE=11_TYPE_LONGDOUBLE=12_TYPE_CHAR=13_TYPE_WIDE_CHAR=14_TYPE_STRING=15_TYPE_WIDE_STRING=16_TYPE_POINTER=17_TYPE_COUNT_SCHAR_POINTER=18_TYPE_COUNT_SHORT_POINTER=19_TYPE_COUNT_INT_POINTER=20_TYPE_COUNT_LONGINT_POINTER=21_TYPE_COUNT_LONGLONGINT_POINTER=22
 // file printf-args.h line 49
-enum anonymous$1 { TYPE_NONE=0, TYPE_SCHAR=1, TYPE_UCHAR=2, TYPE_SHORT=3, TYPE_USHORT=4, TYPE_INT=5, TYPE_UINT=6, TYPE_LONGINT=7, TYPE_ULONGINT=8, TYPE_LONGLONGINT=9, TYPE_ULONGLONGINT=10, TYPE_DOUBLE=11, TYPE_LONGDOUBLE=12, TYPE_CHAR=13, TYPE_WIDE_CHAR=14, TYPE_STRING=15, TYPE_WIDE_STRING=16, TYPE_POINTER=17, TYPE_COUNT_SCHAR_POINTER=18, TYPE_COUNT_SHORT_POINTER=19, TYPE_COUNT_INT_POINTER=20, TYPE_COUNT_LONGINT_POINTER=21, TYPE_COUNT_LONGLONGINT_POINTER=22 };
+enum anonymous_1 { TYPE_NONE=0, TYPE_SCHAR=1, TYPE_UCHAR=2, TYPE_SHORT=3, TYPE_USHORT=4, TYPE_INT=5, TYPE_UINT=6, TYPE_LONGINT=7, TYPE_ULONGINT=8, TYPE_LONGLONGINT=9, TYPE_ULONGLONGINT=10, TYPE_DOUBLE=11, TYPE_LONGDOUBLE=12, TYPE_CHAR=13, TYPE_WIDE_CHAR=14, TYPE_STRING=15, TYPE_WIDE_STRING=16, TYPE_POINTER=17, TYPE_COUNT_SCHAR_POINTER=18, TYPE_COUNT_SHORT_POINTER=19, TYPE_COUNT_INT_POINTER=20, TYPE_COUNT_LONGINT_POINTER=21, TYPE_COUNT_LONGLONGINT_POINTER=22 };
 
-// tag-#anon#ST[*{cS8}$cS8$'dir_start'||*{cS8}$cS8$'dir_end'||S32'flags'||U32'$pad0'||*{cS8}$cS8$'width_start'||*{cS8}$cS8$'width_end'||U64'width_arg_index'||*{cS8}$cS8$'precision_start'||*{cS8}$cS8$'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'$pad1'||U64'arg_index'|]
+// tag-#anon#ST[*{cS8}_cS8_'dir_start'||*{cS8}_cS8_'dir_end'||S32'flags'||U32'_pad0'||*{cS8}_cS8_'width_start'||*{cS8}_cS8_'width_end'||U64'width_arg_index'||*{cS8}_cS8_'precision_start'||*{cS8}_cS8_'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'_pad1'||U64'arg_index'|]
 // file printf-parse.h line 53
 struct anonymous;
 
-// tag-#anon#ST[EN#anon_enum$TYPE_NONE=0$TYPE_SCHAR=1$TYPE_UCHAR=2$TYPE_SHORT=3$TYPE_USHORT=4$TYPE_INT=5$TYPE_UINT=6$TYPE_LONGINT=7$TYPE_ULONGINT=8$TYPE_LONGLONGINT=9$TYPE_ULONGLONGINT=10$TYPE_DOUBLE=11$TYPE_LONGDOUBLE=12$TYPE_CHAR=13$TYPE_WIDE_CHAR=14$TYPE_STRING=15$TYPE_WIDE_STRING=16$TYPE_POINTER=17$TYPE_COUNT_SCHAR_POINTER=18$TYPE_COUNT_SHORT_POINTER=19$TYPE_COUNT_INT_POINTER=20$TYPE_COUNT_LONGINT_POINTER=21$TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}$U32$'type'||U96'$pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}$cS8$'a_string'||*{cS32}$cS32$'a_wide_string'||*{V}$V$'a_pointer'||*{S8}$S8$'a_count_schar_pointer'||*{S16}$S16$'a_count_short_pointer'||*{S32}$S32$'a_count_int_pointer'||*{S64}$S64$'a_count_longint_pointer'||*{S64}$S64$'a_count_longlongint_pointer'|]#'a'|]
+// tag-#anon#ST[EN#anon_enum_TYPE_NONE=0_TYPE_SCHAR=1_TYPE_UCHAR=2_TYPE_SHORT=3_TYPE_USHORT=4_TYPE_INT=5_TYPE_UINT=6_TYPE_LONGINT=7_TYPE_ULONGINT=8_TYPE_LONGLONGINT=9_TYPE_ULONGLONGINT=10_TYPE_DOUBLE=11_TYPE_LONGDOUBLE=12_TYPE_CHAR=13_TYPE_WIDE_CHAR=14_TYPE_STRING=15_TYPE_WIDE_STRING=16_TYPE_POINTER=17_TYPE_COUNT_SCHAR_POINTER=18_TYPE_COUNT_SHORT_POINTER=19_TYPE_COUNT_INT_POINTER=20_TYPE_COUNT_LONGINT_POINTER=21_TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}_U32_'type'||U96'_pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}_cS8_'a_string'||*{cS32}_cS32_'a_wide_string'||*{V}_V_'a_pointer'||*{S8}_S8_'a_count_schar_pointer'||*{S16}_S16_'a_count_short_pointer'||*{S32}_S32_'a_count_int_pointer'||*{S64}_S64_'a_count_longint_pointer'||*{S64}_S64_'a_count_longlongint_pointer'|]#'a'|]
 // file printf-args.h line 91
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[U64'count'||*{SYM#tag-#anon#ST[*{cS8}$cS8$'dir_start'||*{cS8}$cS8$'dir_end'||S32'flags'||U32'$pad0'||*{cS8}$cS8$'width_start'||*{cS8}$cS8$'width_end'||U64'width_arg_index'||*{cS8}$cS8$'precision_start'||*{cS8}$cS8$'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'$pad1'||U64'arg_index'|]#}$SYM#tag-#anon#ST[*{cS8}$cS8$'dir_start'||*{cS8}$cS8$'dir_end'||S32'flags'||U32'$pad0'||*{cS8}$cS8$'width_start'||*{cS8}$cS8$'width_end'||U64'width_arg_index'||*{cS8}$cS8$'precision_start'||*{cS8}$cS8$'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'$pad1'||U64'arg_index'|]#$'dir'||U64'max_width_length'||U64'max_precision_length'||ARR7{SYM#tag-#anon#ST[*{cS8}$cS8$'dir_start'||*{cS8}$cS8$'dir_end'||S32'flags'||U32'$pad0'||*{cS8}$cS8$'width_start'||*{cS8}$cS8$'width_end'||U64'width_arg_index'||*{cS8}$cS8$'precision_start'||*{cS8}$cS8$'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'$pad1'||U64'arg_index'|]#}$SYM#tag-#anon#ST[*{cS8}$cS8$'dir_start'||*{cS8}$cS8$'dir_end'||S32'flags'||U32'$pad0'||*{cS8}$cS8$'width_start'||*{cS8}$cS8$'width_end'||U64'width_arg_index'||*{cS8}$cS8$'precision_start'||*{cS8}$cS8$'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'$pad1'||U64'arg_index'|]#$'direct_alloc_dir'|]
+// tag-#anon#ST[U64'count'||*{SYM#tag-#anon#ST[*{cS8}_cS8_'dir_start'||*{cS8}_cS8_'dir_end'||S32'flags'||U32'_pad0'||*{cS8}_cS8_'width_start'||*{cS8}_cS8_'width_end'||U64'width_arg_index'||*{cS8}_cS8_'precision_start'||*{cS8}_cS8_'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'_pad1'||U64'arg_index'|]#}_SYM#tag-#anon#ST[*{cS8}_cS8_'dir_start'||*{cS8}_cS8_'dir_end'||S32'flags'||U32'_pad0'||*{cS8}_cS8_'width_start'||*{cS8}_cS8_'width_end'||U64'width_arg_index'||*{cS8}_cS8_'precision_start'||*{cS8}_cS8_'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'_pad1'||U64'arg_index'|]#_'dir'||U64'max_width_length'||U64'max_precision_length'||ARR7{SYM#tag-#anon#ST[*{cS8}_cS8_'dir_start'||*{cS8}_cS8_'dir_end'||S32'flags'||U32'_pad0'||*{cS8}_cS8_'width_start'||*{cS8}_cS8_'width_end'||U64'width_arg_index'||*{cS8}_cS8_'precision_start'||*{cS8}_cS8_'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'_pad1'||U64'arg_index'|]#}_SYM#tag-#anon#ST[*{cS8}_cS8_'dir_start'||*{cS8}_cS8_'dir_end'||S32'flags'||U32'_pad0'||*{cS8}_cS8_'width_start'||*{cS8}_cS8_'width_end'||U64'width_arg_index'||*{cS8}_cS8_'precision_start'||*{cS8}_cS8_'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'_pad1'||U64'arg_index'|]#_'direct_alloc_dir'|]
 // file printf-parse.h line 70
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[U64'count'||*{SYM#tag-#anon#ST[EN#anon_enum$TYPE_NONE=0$TYPE_SCHAR=1$TYPE_UCHAR=2$TYPE_SHORT=3$TYPE_USHORT=4$TYPE_INT=5$TYPE_UINT=6$TYPE_LONGINT=7$TYPE_ULONGINT=8$TYPE_LONGLONGINT=9$TYPE_ULONGLONGINT=10$TYPE_DOUBLE=11$TYPE_LONGDOUBLE=12$TYPE_CHAR=13$TYPE_WIDE_CHAR=14$TYPE_STRING=15$TYPE_WIDE_STRING=16$TYPE_POINTER=17$TYPE_COUNT_SCHAR_POINTER=18$TYPE_COUNT_SHORT_POINTER=19$TYPE_COUNT_INT_POINTER=20$TYPE_COUNT_LONGINT_POINTER=21$TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}$U32$'type'||U96'$pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}$cS8$'a_string'||*{cS32}$cS32$'a_wide_string'||*{V}$V$'a_pointer'||*{S8}$S8$'a_count_schar_pointer'||*{S16}$S16$'a_count_short_pointer'||*{S32}$S32$'a_count_int_pointer'||*{S64}$S64$'a_count_longint_pointer'||*{S64}$S64$'a_count_longlongint_pointer'|]#'a'|]#}$SYM#tag-#anon#ST[EN#anon_enum$TYPE_NONE=0$TYPE_SCHAR=1$TYPE_UCHAR=2$TYPE_SHORT=3$TYPE_USHORT=4$TYPE_INT=5$TYPE_UINT=6$TYPE_LONGINT=7$TYPE_ULONGINT=8$TYPE_LONGLONGINT=9$TYPE_ULONGLONGINT=10$TYPE_DOUBLE=11$TYPE_LONGDOUBLE=12$TYPE_CHAR=13$TYPE_WIDE_CHAR=14$TYPE_STRING=15$TYPE_WIDE_STRING=16$TYPE_POINTER=17$TYPE_COUNT_SCHAR_POINTER=18$TYPE_COUNT_SHORT_POINTER=19$TYPE_COUNT_INT_POINTER=20$TYPE_COUNT_LONGINT_POINTER=21$TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}$U32$'type'||U96'$pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}$cS8$'a_string'||*{cS32}$cS32$'a_wide_string'||*{V}$V$'a_pointer'||*{S8}$S8$'a_count_schar_pointer'||*{S16}$S16$'a_count_short_pointer'||*{S32}$S32$'a_count_int_pointer'||*{S64}$S64$'a_count_longint_pointer'||*{S64}$S64$'a_count_longlongint_pointer'|]#'a'|]#$'arg'||ARR7{SYM#tag-#anon#ST[EN#anon_enum$TYPE_NONE=0$TYPE_SCHAR=1$TYPE_UCHAR=2$TYPE_SHORT=3$TYPE_USHORT=4$TYPE_INT=5$TYPE_UINT=6$TYPE_LONGINT=7$TYPE_ULONGINT=8$TYPE_LONGLONGINT=9$TYPE_ULONGLONGINT=10$TYPE_DOUBLE=11$TYPE_LONGDOUBLE=12$TYPE_CHAR=13$TYPE_WIDE_CHAR=14$TYPE_STRING=15$TYPE_WIDE_STRING=16$TYPE_POINTER=17$TYPE_COUNT_SCHAR_POINTER=18$TYPE_COUNT_SHORT_POINTER=19$TYPE_COUNT_INT_POINTER=20$TYPE_COUNT_LONGINT_POINTER=21$TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}$U32$'type'||U96'$pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}$cS8$'a_string'||*{cS32}$cS32$'a_wide_string'||*{V}$V$'a_pointer'||*{S8}$S8$'a_count_schar_pointer'||*{S16}$S16$'a_count_short_pointer'||*{S32}$S32$'a_count_int_pointer'||*{S64}$S64$'a_count_longint_pointer'||*{S64}$S64$'a_count_longlongint_pointer'|]#'a'|]#}$SYM#tag-#anon#ST[EN#anon_enum$TYPE_NONE=0$TYPE_SCHAR=1$TYPE_UCHAR=2$TYPE_SHORT=3$TYPE_USHORT=4$TYPE_INT=5$TYPE_UINT=6$TYPE_LONGINT=7$TYPE_ULONGINT=8$TYPE_LONGLONGINT=9$TYPE_ULONGLONGINT=10$TYPE_DOUBLE=11$TYPE_LONGDOUBLE=12$TYPE_CHAR=13$TYPE_WIDE_CHAR=14$TYPE_STRING=15$TYPE_WIDE_STRING=16$TYPE_POINTER=17$TYPE_COUNT_SCHAR_POINTER=18$TYPE_COUNT_SHORT_POINTER=19$TYPE_COUNT_INT_POINTER=20$TYPE_COUNT_LONGINT_POINTER=21$TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}$U32$'type'||U96'$pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}$cS8$'a_string'||*{cS32}$cS32$'a_wide_string'||*{V}$V$'a_pointer'||*{S8}$S8$'a_count_schar_pointer'||*{S16}$S16$'a_count_short_pointer'||*{S32}$S32$'a_count_int_pointer'||*{S64}$S64$'a_count_longint_pointer'||*{S64}$S64$'a_count_longlongint_pointer'|]#'a'|]#$'direct_alloc_arg'|]
+// tag-#anon#ST[U64'count'||*{SYM#tag-#anon#ST[EN#anon_enum_TYPE_NONE=0_TYPE_SCHAR=1_TYPE_UCHAR=2_TYPE_SHORT=3_TYPE_USHORT=4_TYPE_INT=5_TYPE_UINT=6_TYPE_LONGINT=7_TYPE_ULONGINT=8_TYPE_LONGLONGINT=9_TYPE_ULONGLONGINT=10_TYPE_DOUBLE=11_TYPE_LONGDOUBLE=12_TYPE_CHAR=13_TYPE_WIDE_CHAR=14_TYPE_STRING=15_TYPE_WIDE_STRING=16_TYPE_POINTER=17_TYPE_COUNT_SCHAR_POINTER=18_TYPE_COUNT_SHORT_POINTER=19_TYPE_COUNT_INT_POINTER=20_TYPE_COUNT_LONGINT_POINTER=21_TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}_U32_'type'||U96'_pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}_cS8_'a_string'||*{cS32}_cS32_'a_wide_string'||*{V}_V_'a_pointer'||*{S8}_S8_'a_count_schar_pointer'||*{S16}_S16_'a_count_short_pointer'||*{S32}_S32_'a_count_int_pointer'||*{S64}_S64_'a_count_longint_pointer'||*{S64}_S64_'a_count_longlongint_pointer'|]#'a'|]#}_SYM#tag-#anon#ST[EN#anon_enum_TYPE_NONE=0_TYPE_SCHAR=1_TYPE_UCHAR=2_TYPE_SHORT=3_TYPE_USHORT=4_TYPE_INT=5_TYPE_UINT=6_TYPE_LONGINT=7_TYPE_ULONGINT=8_TYPE_LONGLONGINT=9_TYPE_ULONGLONGINT=10_TYPE_DOUBLE=11_TYPE_LONGDOUBLE=12_TYPE_CHAR=13_TYPE_WIDE_CHAR=14_TYPE_STRING=15_TYPE_WIDE_STRING=16_TYPE_POINTER=17_TYPE_COUNT_SCHAR_POINTER=18_TYPE_COUNT_SHORT_POINTER=19_TYPE_COUNT_INT_POINTER=20_TYPE_COUNT_LONGINT_POINTER=21_TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}_U32_'type'||U96'_pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}_cS8_'a_string'||*{cS32}_cS32_'a_wide_string'||*{V}_V_'a_pointer'||*{S8}_S8_'a_count_schar_pointer'||*{S16}_S16_'a_count_short_pointer'||*{S32}_S32_'a_count_int_pointer'||*{S64}_S64_'a_count_longint_pointer'||*{S64}_S64_'a_count_longlongint_pointer'|]#'a'|]#_'arg'||ARR7{SYM#tag-#anon#ST[EN#anon_enum_TYPE_NONE=0_TYPE_SCHAR=1_TYPE_UCHAR=2_TYPE_SHORT=3_TYPE_USHORT=4_TYPE_INT=5_TYPE_UINT=6_TYPE_LONGINT=7_TYPE_ULONGINT=8_TYPE_LONGLONGINT=9_TYPE_ULONGLONGINT=10_TYPE_DOUBLE=11_TYPE_LONGDOUBLE=12_TYPE_CHAR=13_TYPE_WIDE_CHAR=14_TYPE_STRING=15_TYPE_WIDE_STRING=16_TYPE_POINTER=17_TYPE_COUNT_SCHAR_POINTER=18_TYPE_COUNT_SHORT_POINTER=19_TYPE_COUNT_INT_POINTER=20_TYPE_COUNT_LONGINT_POINTER=21_TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}_U32_'type'||U96'_pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}_cS8_'a_string'||*{cS32}_cS32_'a_wide_string'||*{V}_V_'a_pointer'||*{S8}_S8_'a_count_schar_pointer'||*{S16}_S16_'a_count_short_pointer'||*{S32}_S32_'a_count_int_pointer'||*{S64}_S64_'a_count_longint_pointer'||*{S64}_S64_'a_count_longlongint_pointer'|]#'a'|]#}_SYM#tag-#anon#ST[EN#anon_enum_TYPE_NONE=0_TYPE_SCHAR=1_TYPE_UCHAR=2_TYPE_SHORT=3_TYPE_USHORT=4_TYPE_INT=5_TYPE_UINT=6_TYPE_LONGINT=7_TYPE_ULONGINT=8_TYPE_LONGLONGINT=9_TYPE_ULONGLONGINT=10_TYPE_DOUBLE=11_TYPE_LONGDOUBLE=12_TYPE_CHAR=13_TYPE_WIDE_CHAR=14_TYPE_STRING=15_TYPE_WIDE_STRING=16_TYPE_POINTER=17_TYPE_COUNT_SCHAR_POINTER=18_TYPE_COUNT_SHORT_POINTER=19_TYPE_COUNT_INT_POINTER=20_TYPE_COUNT_LONGINT_POINTER=21_TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}_U32_'type'||U96'_pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}_cS8_'a_string'||*{cS32}_cS32_'a_wide_string'||*{V}_V_'a_pointer'||*{S8}_S8_'a_count_schar_pointer'||*{S16}_S16_'a_count_short_pointer'||*{S32}_S32_'a_count_int_pointer'||*{S64}_S64_'a_count_longint_pointer'||*{S64}_S64_'a_count_longlongint_pointer'|]#'a'|]#_'direct_alloc_arg'|]
 // file printf-args.h line 141
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}$cS8$'a_string'||*{cS32}$cS32$'a_wide_string'||*{V}$V$'a_pointer'||*{S8}$S8$'a_count_schar_pointer'||*{S16}$S16$'a_count_short_pointer'||*{S32}$S32$'a_count_int_pointer'||*{S64}$S64$'a_count_longint_pointer'||*{S64}$S64$'a_count_longlongint_pointer'|]
+// tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}_cS8_'a_string'||*{cS32}_cS32_'a_wide_string'||*{V}_V_'a_pointer'||*{S8}_S8_'a_count_schar_pointer'||*{S16}_S16_'a_count_short_pointer'||*{S32}_S32_'a_count_int_pointer'||*{S64}_S64_'a_count_longint_pointer'||*{S64}_S64_'a_count_longlongint_pointer'|]
 // file printf-args.h line 94
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$4;
+union anonymous_4;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -209,9 +209,9 @@ signed int acq_get_info(struct acq *acq, signed int type);
 // acq_init
 // file library-usage/acquisition.c line 120
 struct acq * acq_init(const char *devstring, void (*cb)(void *, unsigned long int, float *, float *, signed int *), void *cbdata);
-// acq_init::cb$object
+// acq_init::cb_object
 //
-void cb$object(void *, unsigned long int, float *, float *, signed int *);
+void cb_object(void *, unsigned long int, float *, float *, signed int *);
 // acq_loop_fn
 // file library-usage/acquisition.c line 57
 static void * acq_loop_fn(void *arg);
@@ -593,12 +593,12 @@ struct selected_channels * egdi_alloc_input_groups(struct devmodule *mdev, unsig
 // egdi_create_eegdev
 // file core.c line 277
 struct eegdev * egdi_create_eegdev(struct egdi_plugin_info *info);
-// egdi_create_eegdev::$tmp::tmp_if_expr$10$object
+// egdi_create_eegdev::_tmp::tmp_if_expr_10_object
 //
-signed int tmp_if_expr$10$object(struct devmodule *);
-// egdi_create_eegdev::$tmp::tmp_if_expr$11$object
+signed int tmp_if_expr_10_object(struct devmodule *);
+// egdi_create_eegdev::_tmp::tmp_if_expr_11_object
 //
-signed int tmp_if_expr$11$object(struct devmodule *);
+signed int tmp_if_expr_11_object(struct devmodule *);
 // egdi_free_config
 // file configuration.h line 35
 void egdi_free_config(struct egdi_config *cf);
@@ -697,7 +697,7 @@ signed int gl_sockets_startup(signed int version);
 extern signed int glthread_once_singlethreaded(signed int *once_control);
 // glthread_recursive_lock_init_multithreaded
 // file glthread/lock.c line 284
-extern signed int glthread_recursive_lock_init_multithreaded(union anonymous$4 *lock);
+extern signed int glthread_recursive_lock_init_multithreaded(union anonymous_4 *lock);
 // identity
 // file typecast.c line 77
 static void identity(void * restrict d, const void * restrict s, union gval sc, unsigned long int len);
@@ -748,22 +748,22 @@ static void optimize_inbufgrp(struct input_buffer_group *ibgrp, unsigned int *ng
 extern signed int printf(const char *, ...);
 // printf_fetchargs
 // file printf-args.c line 36
-extern signed int printf_fetchargs(__builtin_va_list args, struct anonymous$2 *a);
+extern signed int printf_fetchargs(__builtin_va_list args, struct anonymous_2 *a);
 // printf_parse
 // file printf-parse.c line 83
-extern signed int printf_parse(const char *format, struct anonymous$5 *d, struct anonymous$2 *a);
+extern signed int printf_parse(const char *format, struct anonymous_5 *d, struct anonymous_2 *a);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$7 *);
+extern signed int pthread_cond_destroy(union anonymous_7 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$7 *, const union anonymous$6 *);
+extern signed int pthread_cond_init(union anonymous_7 *, const union anonymous_6 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$7 *);
+extern signed int pthread_cond_signal(union anonymous_7 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$7 *, union anonymous$4 *);
+extern signed int pthread_cond_wait(union anonymous_7 *, union anonymous_4 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -772,25 +772,25 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$4 *);
+extern signed int pthread_mutex_destroy(union anonymous_4 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$4 *, const union anonymous$6 *);
+extern signed int pthread_mutex_init(union anonymous_4 *, const union anonymous_6 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$4 *);
+extern signed int pthread_mutex_lock(union anonymous_4 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$4 *);
+extern signed int pthread_mutex_unlock(union anonymous_4 *);
 // pthread_mutexattr_destroy
 // file /usr/include/pthread.h line 812
-extern signed int pthread_mutexattr_destroy(union anonymous$6 *);
+extern signed int pthread_mutexattr_destroy(union anonymous_6 *);
 // pthread_mutexattr_init
 // file /usr/include/pthread.h line 808
-extern signed int pthread_mutexattr_init(union anonymous$6 *);
+extern signed int pthread_mutexattr_init(union anonymous_6 *);
 // pthread_mutexattr_settype
 // file /usr/include/pthread.h line 835
-extern signed int pthread_mutexattr_settype(union anonymous$6 *, signed int);
+extern signed int pthread_mutexattr_settype(union anonymous_6 *, signed int);
 // pthread_once
 // file /usr/include/pthread.h line 496
 extern signed int pthread_once(signed int *, void (*)(void));
@@ -884,39 +884,39 @@ inline unsigned long int xsum4(unsigned long int size1, unsigned long int size2,
 // yy_fatal_error
 // file conffile.lex.c line 1659
 static void yy_fatal_error(const char *msg, void *yyscanner);
-// yy_fatal_error$link1
+// yy_fatal_error_link1
 // file confline.lex.c line 1645
-static void yy_fatal_error$link1(const char *msg$link1, void *yyscanner$link1);
+static void yy_fatal_error_link1(const char *msg_link1, void *yyscanner_link1);
 // yy_get_next_buffer
 // file conffile.lex.c line 1022
 static signed int yy_get_next_buffer(void *yyscanner);
-// yy_get_next_buffer$link1
+// yy_get_next_buffer_link1
 // file confline.lex.c line 1008
-static signed int yy_get_next_buffer$link1(void *yyscanner$link1);
+static signed int yy_get_next_buffer_link1(void *yyscanner_link1);
 // yy_get_previous_state
 // file conffile.lex.c line 1157
 static signed int yy_get_previous_state(void *yyscanner);
-// yy_get_previous_state$link1
+// yy_get_previous_state_link1
 // file confline.lex.c line 1143
-static signed int yy_get_previous_state$link1(void *yyscanner$link1);
+static signed int yy_get_previous_state_link1(void *yyscanner_link1);
 // yy_init_globals
 // file conffile.lex.c line 1904
 static signed int yy_init_globals(void *yyscanner);
-// yy_init_globals$link1
+// yy_init_globals_link1
 // file confline.lex.c line 1890
-static signed int yy_init_globals$link1(void *yyscanner$link1);
+static signed int yy_init_globals_link1(void *yyscanner_link1);
 // yy_try_NUL_trans
 // file conffile.lex.c line 1190
 static signed int yy_try_NUL_trans(signed int yy_current_state, void *yyscanner);
-// yy_try_NUL_trans$link1
+// yy_try_NUL_trans_link1
 // file confline.lex.c line 1176
-static signed int yy_try_NUL_trans$link1(signed int yy_current_state$link1, void *yyscanner$link1);
+static signed int yy_try_NUL_trans_link1(signed int yy_current_state_link1, void *yyscanner_link1);
 // yydestruct
 // file conffile.tab.c line 956
 static void yydestruct(const char *yymsg, signed int yytype, union value *yyvaluep, struct cfdata *pp);
-// yydestruct$link1
+// yydestruct_link1
 // file confline.tab.c line 958
-static void yydestruct$link1(const char *yymsg$link1, signed int yytype$link1, union value *yyvaluep$link1, struct cfldata *pp$link1);
+static void yydestruct_link1(const char *yymsg_link1, signed int yytype_link1, union value *yyvaluep_link1, struct cfldata *pp_link1);
 
 struct anonymous
 {
@@ -944,7 +944,7 @@ struct anonymous
   unsigned long int arg_index;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // a_schar
   signed char a_schar;
@@ -994,15 +994,15 @@ union anonymous$3
   signed long long int *a_count_longlongint_pointer;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // type
-  enum anonymous$1 type;
+  enum anonymous_1 type;
   // a
-  union anonymous$3 a;
+  union anonymous_3 a;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // __lock
   signed int __lock;
@@ -1022,7 +1022,7 @@ struct anonymous$8
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // count
   unsigned long int count;
@@ -1036,17 +1036,17 @@ struct anonymous$5
   struct anonymous direct_alloc_dir[7l];
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // count
   unsigned long int count;
   // arg
-  struct anonymous$0 *arg;
+  struct anonymous_0 *arg;
   // direct_alloc_arg
-  struct anonymous$0 direct_alloc_arg[7l];
+  struct anonymous_0 direct_alloc_arg[7l];
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __size
   char __size[4l];
@@ -1054,10 +1054,10 @@ union anonymous$6
   signed int __align;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __data
-  struct anonymous$8 __data;
+  struct anonymous_8 __data;
   // __size
   char __size[48l];
   // __align
@@ -1092,7 +1092,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1205,9 +1205,9 @@ struct acq
   // thid
   unsigned long int thid;
   // lock
-  union anonymous$4 lock;
+  union anonymous_4 lock;
   // cond
-  union anonymous$7 cond;
+  union anonymous_7 cond;
   // running
   signed int running;
   // cb
@@ -1359,11 +1359,11 @@ struct eegdev
   // ns_read
   unsigned long int ns_read;
   // synclock
-  union anonymous$4 synclock;
+  union anonymous_4 synclock;
   // apilock
-  union anonymous$4 apilock;
+  union anonymous_4 apilock;
   // available
-  union anonymous$7 available;
+  union anonymous_7 available;
   // acq_order
   signed int acq_order;
   // acquiring
@@ -1666,118 +1666,118 @@ extern struct _IO_FILE *stdin;
 extern struct _IO_FILE *stdout;
 // stype_lock
 // file sensortypes.c line 38
-static union anonymous$4 stype_lock;
+static union anonymous_4 stype_lock;
 // stype_once
 // file sensortypes.c line 37
 static signed int stype_once = 0;
 // yy_accept
 // file conffile.lex.c line 390
 static const signed short int yy_accept[16l] = { (const signed short int)0, (const signed short int)1, (const signed short int)1, (const signed short int)7, (const signed short int)6, (const signed short int)5, (const signed short int)3, (const signed short int)6, (const signed short int)4, (const signed short int)1, (const signed short int)2, (const signed short int)5, (const signed short int)3, (const signed short int)4, (const signed short int)1, (const signed short int)0 };
-// yy_accept$link1
+// yy_accept_link1
 // file confline.lex.c line 390
-static const signed short int yy_accept$link1[11l] = { (const signed short int)0, (const signed short int)1, (const signed short int)1, (const signed short int)5, (const signed short int)4, (const signed short int)3, (const signed short int)1, (const signed short int)2, (const signed short int)3, (const signed short int)1, (const signed short int)0 };
+static const signed short int yy_accept_link1[11l] = { (const signed short int)0, (const signed short int)1, (const signed short int)1, (const signed short int)5, (const signed short int)4, (const signed short int)3, (const signed short int)1, (const signed short int)2, (const signed short int)3, (const signed short int)1, (const signed short int)0 };
 // yy_base
 // file conffile.lex.c line 433
 static const signed short int yy_base[17l] = { (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)14, (const signed short int)15, (const signed short int)11, (const signed short int)15, (const signed short int)9, (const signed short int)0, (const signed short int)5, (const signed short int)15, (const signed short int)8, (const signed short int)15, (const signed short int)0, (const signed short int)3, (const signed short int)15, (const signed short int)7 };
-// yy_base$link1
+// yy_base_link1
 // file confline.lex.c line 432
-static const signed short int yy_base$link1[13l] = { (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)7, (const signed short int)8, (const signed short int)0, (const signed short int)0, (const signed short int)8, (const signed short int)0, (const signed short int)0, (const signed short int)8, (const signed short int)4, (const signed short int)2 };
+static const signed short int yy_base_link1[13l] = { (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)7, (const signed short int)8, (const signed short int)0, (const signed short int)0, (const signed short int)8, (const signed short int)0, (const signed short int)0, (const signed short int)8, (const signed short int)4, (const signed short int)2 };
 // yy_chk
 // file conffile.lex.c line 452
 static const signed short int yy_chk[23l] = { (const signed short int)0, (const signed short int)1, (const signed short int)1, (const signed short int)1, (const signed short int)1, (const signed short int)1, (const signed short int)1, (const signed short int)1, (const signed short int)16, (const signed short int)14, (const signed short int)11, (const signed short int)9, (const signed short int)7, (const signed short int)5, (const signed short int)3, (const signed short int)15, (const signed short int)15, (const signed short int)15, (const signed short int)15, (const signed short int)15, (const signed short int)15, (const signed short int)15, (const signed short int)15 };
-// yy_chk$link1
+// yy_chk_link1
 // file confline.lex.c line 450
-static const signed short int yy_chk$link1[13l] = { (const signed short int)0, (const signed short int)1, (const signed short int)1, (const signed short int)1, (const signed short int)1, (const signed short int)12, (const signed short int)11, (const signed short int)3, (const signed short int)10, (const signed short int)10, (const signed short int)10, (const signed short int)10, (const signed short int)10 };
+static const signed short int yy_chk_link1[13l] = { (const signed short int)0, (const signed short int)1, (const signed short int)1, (const signed short int)1, (const signed short int)1, (const signed short int)12, (const signed short int)11, (const signed short int)3, (const signed short int)10, (const signed short int)10, (const signed short int)10, (const signed short int)10, (const signed short int)10 };
 // yy_def
 // file conffile.lex.c line 439
 static const signed short int yy_def[17l] = { (const signed short int)0, (const signed short int)15, (const signed short int)1, (const signed short int)15, (const signed short int)15, (const signed short int)15, (const signed short int)15, (const signed short int)15, (const signed short int)16, (const signed short int)15, (const signed short int)15, (const signed short int)15, (const signed short int)15, (const signed short int)16, (const signed short int)15, (const signed short int)0, (const signed short int)15 };
-// yy_def$link1
+// yy_def_link1
 // file confline.lex.c line 438
-static const signed short int yy_def$link1[13l] = { (const signed short int)0, (const signed short int)10, (const signed short int)1, (const signed short int)10, (const signed short int)10, (const signed short int)11, (const signed short int)12, (const signed short int)10, (const signed short int)11, (const signed short int)12, (const signed short int)0, (const signed short int)10, (const signed short int)10 };
+static const signed short int yy_def_link1[13l] = { (const signed short int)0, (const signed short int)10, (const signed short int)1, (const signed short int)10, (const signed short int)10, (const signed short int)11, (const signed short int)12, (const signed short int)10, (const signed short int)11, (const signed short int)12, (const signed short int)0, (const signed short int)10, (const signed short int)10 };
 // yy_ec
 // file conffile.lex.c line 396
 static const signed int yy_ec[256l] = { 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 3, 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 5, 1, 1, 1, 1, 1, 1, 1, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 1, 1, 1, 7, 1, 1, 1, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 1, 1, 1, 1, 6, 1, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
-// yy_ec$link1
+// yy_ec_link1
 // file confline.lex.c line 395
-static const signed int yy_ec$link1[256l] = { 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 1, 1, 1, 3, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+static const signed int yy_ec_link1[256l] = { 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 1, 1, 1, 3, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
 // yy_meta
 // file conffile.lex.c line 428
 static const signed int yy_meta[8l] = { 0, 1, 1, 2, 1, 1, 1, 1 };
-// yy_meta$link1
+// yy_meta_link1
 // file confline.lex.c line 427
-static const signed int yy_meta$link1[5l] = { 0, 1, 2, 3, 1 };
+static const signed int yy_meta_link1[5l] = { 0, 1, 2, 3, 1 };
 // yy_nxt
 // file conffile.lex.c line 445
 static const signed short int yy_nxt[23l] = { (const signed short int)0, (const signed short int)4, (const signed short int)5, (const signed short int)6, (const signed short int)7, (const signed short int)8, (const signed short int)9, (const signed short int)10, (const signed short int)13, (const signed short int)14, (const signed short int)11, (const signed short int)14, (const signed short int)12, (const signed short int)11, (const signed short int)15, (const signed short int)3, (const signed short int)15, (const signed short int)15, (const signed short int)15, (const signed short int)15, (const signed short int)15, (const signed short int)15, (const signed short int)15 };
-// yy_nxt$link1
+// yy_nxt_link1
 // file confline.lex.c line 444
-static const signed short int yy_nxt$link1[13l] = { (const signed short int)0, (const signed short int)4, (const signed short int)5, (const signed short int)6, (const signed short int)7, (const signed short int)9, (const signed short int)8, (const signed short int)10, (const signed short int)3, (const signed short int)10, (const signed short int)10, (const signed short int)10, (const signed short int)10 };
+static const signed short int yy_nxt_link1[13l] = { (const signed short int)0, (const signed short int)4, (const signed short int)5, (const signed short int)6, (const signed short int)7, (const signed short int)9, (const signed short int)8, (const signed short int)10, (const signed short int)3, (const signed short int)10, (const signed short int)10, (const signed short int)10, (const signed short int)10 };
 // yy_rule_can_match_eol
 // file conffile.lex.c line 460
 static const signed int yy_rule_can_match_eol[7l] = { 0, 0, 0, 1, 0, 0, 0 };
-// yy_rule_can_match_eol$link1
+// yy_rule_can_match_eol_link1
 // file confline.lex.c line 457
-static const signed int yy_rule_can_match_eol$link1[5l] = { 0, 0, 0, 0, 0 };
+static const signed int yy_rule_can_match_eol_link1[5l] = { 0, 0, 0, 0, 0 };
 // yycheck
 // file conffile.tab.c line 521
 static const unsigned char yycheck[6l] = { (const unsigned char)0, (const unsigned char)5, (const unsigned char)3, (const unsigned char)3, (const unsigned char)4, (const unsigned char)4 };
-// yycheck$link1
+// yycheck_link1
 // file confline.tab.c line 522
-static const signed char yycheck$link1[9l] = { (const signed char)3, (const signed char)0, (const signed char)4, (const signed char)3, (const signed char)10, (const signed char)-1, (const signed char)4, (const signed char)4, (const signed char)3 };
+static const signed char yycheck_link1[9l] = { (const signed char)3, (const signed char)0, (const signed char)4, (const signed char)3, (const signed char)10, (const signed char)-1, (const signed char)4, (const signed char)4, (const signed char)3 };
 // yydefact
 // file conffile.tab.c line 496
 static const unsigned char yydefact[9l] = { (const unsigned char)2, (const unsigned char)0, (const unsigned char)1, (const unsigned char)0, (const unsigned char)4, (const unsigned char)3, (const unsigned char)0, (const unsigned char)0, (const unsigned char)5 };
-// yydefact$link1
+// yydefact_link1
 // file confline.tab.c line 496
-static const unsigned char yydefact$link1[13l] = { (const unsigned char)2, (const unsigned char)5, (const unsigned char)0, (const unsigned char)3, (const unsigned char)1, (const unsigned char)0, (const unsigned char)0, (const unsigned char)4, (const unsigned char)6, (const unsigned char)0, (const unsigned char)0, (const unsigned char)8, (const unsigned char)7 };
+static const unsigned char yydefact_link1[13l] = { (const unsigned char)2, (const unsigned char)5, (const unsigned char)0, (const unsigned char)3, (const unsigned char)1, (const unsigned char)0, (const unsigned char)0, (const unsigned char)4, (const unsigned char)6, (const unsigned char)0, (const unsigned char)0, (const unsigned char)8, (const unsigned char)7 };
 // yydefgoto
 // file conffile.tab.c line 508
 static const signed char yydefgoto[3l] = { (const signed char)-1, (const signed char)1, (const signed char)5 };
-// yydefgoto$link1
+// yydefgoto_link1
 // file confline.tab.c line 509
-static const signed char yydefgoto$link1[5l] = { (const signed char)-1, (const signed char)2, (const signed char)3, (const signed char)7, (const signed char)8 };
+static const signed char yydefgoto_link1[5l] = { (const signed char)-1, (const signed char)2, (const signed char)3, (const signed char)7, (const signed char)8 };
 // yypact
 // file conffile.tab.c line 488
 static const signed char yypact[9l] = { (const signed char)-5, (const signed char)0, (const signed char)-5, (const signed char)-4, (const signed char)-5, (const signed char)-5, (const signed char)-1, (const signed char)1, (const signed char)-5 };
-// yypact$link1
+// yypact_link1
 // file confline.tab.c line 487
-static const signed char yypact$link1[13l] = { (const signed char)-3, (const signed char)-7, (const signed char)1, (const signed char)-2, (const signed char)-7, (const signed char)0, (const signed char)2, (const signed char)3, (const signed char)-7, (const signed char)5, (const signed char)0, (const signed char)-7, (const signed char)-7 };
+static const signed char yypact_link1[13l] = { (const signed char)-3, (const signed char)-7, (const signed char)1, (const signed char)-2, (const signed char)-7, (const signed char)0, (const signed char)2, (const signed char)3, (const signed char)-7, (const signed char)5, (const signed char)0, (const signed char)-7, (const signed char)-7 };
 // yypgoto
 // file conffile.tab.c line 502
 static const signed char yypgoto[3l] = { (const signed char)-5, (const signed char)-5, (const signed char)-5 };
-// yypgoto$link1
+// yypgoto_link1
 // file confline.tab.c line 503
-static const signed char yypgoto$link1[5l] = { (const signed char)-7, (const signed char)-7, (const signed char)-7, (const signed char)-7, (const signed char)-6 };
+static const signed char yypgoto_link1[5l] = { (const signed char)-7, (const signed char)-7, (const signed char)-7, (const signed char)-7, (const signed char)-6 };
 // yyr1
 // file conffile.tab.c line 534
 static const unsigned char yyr1[6l] = { (const unsigned char)0, (const unsigned char)6, (const unsigned char)7, (const unsigned char)7, (const unsigned char)7, (const unsigned char)8 };
-// yyr1$link1
+// yyr1_link1
 // file confline.tab.c line 536
-static const unsigned char yyr1$link1[9l] = { (const unsigned char)0, (const unsigned char)5, (const unsigned char)6, (const unsigned char)6, (const unsigned char)6, (const unsigned char)7, (const unsigned char)8, (const unsigned char)8, (const unsigned char)9 };
+static const unsigned char yyr1_link1[9l] = { (const unsigned char)0, (const unsigned char)5, (const unsigned char)6, (const unsigned char)6, (const unsigned char)6, (const unsigned char)7, (const unsigned char)8, (const unsigned char)8, (const unsigned char)9 };
 // yyr2
 // file conffile.tab.c line 540
 static const unsigned char yyr2[6l] = { (const unsigned char)0, (const unsigned char)2, (const unsigned char)0, (const unsigned char)2, (const unsigned char)2, (const unsigned char)4 };
-// yyr2$link1
+// yyr2_link1
 // file confline.tab.c line 542
-static const unsigned char yyr2$link1[9l] = { (const unsigned char)0, (const unsigned char)2, (const unsigned char)0, (const unsigned char)1, (const unsigned char)3, (const unsigned char)1, (const unsigned char)1, (const unsigned char)3, (const unsigned char)3 };
+static const unsigned char yyr2_link1[9l] = { (const unsigned char)0, (const unsigned char)2, (const unsigned char)0, (const unsigned char)1, (const unsigned char)3, (const unsigned char)1, (const unsigned char)1, (const unsigned char)3, (const unsigned char)3 };
 // yystos
 // file conffile.tab.c line 528
 static const unsigned char yystos[9l] = { (const unsigned char)0, (const unsigned char)7, (const unsigned char)0, (const unsigned char)3, (const unsigned char)4, (const unsigned char)8, (const unsigned char)5, (const unsigned char)3, (const unsigned char)4 };
-// yystos$link1
+// yystos_link1
 // file confline.tab.c line 529
-static const unsigned char yystos$link1[13l] = { (const unsigned char)0, (const unsigned char)3, (const unsigned char)6, (const unsigned char)7, (const unsigned char)0, (const unsigned char)4, (const unsigned char)3, (const unsigned char)8, (const unsigned char)9, (const unsigned char)4, (const unsigned char)4, (const unsigned char)3, (const unsigned char)9 };
+static const unsigned char yystos_link1[13l] = { (const unsigned char)0, (const unsigned char)3, (const unsigned char)6, (const unsigned char)7, (const unsigned char)0, (const unsigned char)4, (const unsigned char)3, (const unsigned char)8, (const unsigned char)9, (const unsigned char)4, (const unsigned char)4, (const unsigned char)3, (const unsigned char)9 };
 // yytable
 // file conffile.tab.c line 516
 static const unsigned char yytable[6l] = { (const unsigned char)2, (const unsigned char)6, (const unsigned char)7, (const unsigned char)3, (const unsigned char)4, (const unsigned char)8 };
-// yytable$link1
+// yytable_link1
 // file confline.tab.c line 517
-static const unsigned char yytable$link1[9l] = { (const unsigned char)1, (const unsigned char)4, (const unsigned char)5, (const unsigned char)6, (const unsigned char)12, (const unsigned char)0, (const unsigned char)9, (const unsigned char)10, (const unsigned char)11 };
+static const unsigned char yytable_link1[9l] = { (const unsigned char)1, (const unsigned char)4, (const unsigned char)5, (const unsigned char)6, (const unsigned char)12, (const unsigned char)0, (const unsigned char)9, (const unsigned char)10, (const unsigned char)11 };
 // yytranslate
 // file conffile.tab.c line 419
 static const unsigned char yytranslate[260l] = { (const unsigned char)0, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)5, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)1, (const unsigned char)2, (const unsigned char)3, (const unsigned char)4 };
-// yytranslate$link1
+// yytranslate_link1
 // file confline.tab.c line 418
-static const unsigned char yytranslate$link1[259l] = { (const unsigned char)0, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)4, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)1, (const unsigned char)2, (const unsigned char)3 };
+static const unsigned char yytranslate_link1[259l] = { (const unsigned char)0, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)4, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)1, (const unsigned char)2, (const unsigned char)3 };
 
 // acq_close
 // file library-usage/acquisition.c line 158
@@ -1833,11 +1833,11 @@ struct acq * acq_init(const char *devstring, void (*cb)(void *, unsigned long in
 {
   struct acq *acq;
   signed int i;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(sizeof(struct acq) /*256ul*/ , (unsigned long int)1);
-  acq = (struct acq *)return_value_calloc$1;
-  _Bool tmp_if_expr$8;
-  signed int return_value_egd_acq_setup$7;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(sizeof(struct acq) /*256ul*/ , (unsigned long int)1);
+  acq = (struct acq *)return_value_calloc_1;
+  _Bool tmp_if_expr_8;
+  signed int return_value_egd_acq_setup_7;
   if(acq == ((struct acq *)NULL))
     return (struct acq *)(void *)0;
 
@@ -1846,39 +1846,39 @@ struct acq * acq_init(const char *devstring, void (*cb)(void *, unsigned long in
     acq->dev=egd_open(devstring);
     if(acq->dev == ((struct eegdev *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      fprintf(stderr, "Connection error: %s\n", return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      fprintf(stderr, "Connection error: %s\n", return_value_strerror_3);
       goto exit;
     }
 
-    signed int return_value_configure_egd_acq$6;
-    return_value_configure_egd_acq$6=configure_egd_acq(acq);
-    if(!(return_value_configure_egd_acq$6 == 0))
-      tmp_if_expr$8 = (_Bool)1;
+    signed int return_value_configure_egd_acq_6;
+    return_value_configure_egd_acq_6=configure_egd_acq(acq);
+    if(!(return_value_configure_egd_acq_6 == 0))
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
-      return_value_egd_acq_setup$7=egd_acq_setup(acq->dev, (unsigned int)3, acq->strides, (unsigned int)3, acq->grp);
-      tmp_if_expr$8 = return_value_egd_acq_setup$7 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_egd_acq_setup_7=egd_acq_setup(acq->dev, (unsigned int)3, acq->strides, (unsigned int)3, acq->grp);
+      tmp_if_expr_8 = return_value_egd_acq_setup_7 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$8)
+    if(tmp_if_expr_8)
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      fprintf(stderr, "Acq_setup: %s\n", return_value_strerror$5);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      fprintf(stderr, "Acq_setup: %s\n", return_value_strerror_5);
       goto exit;
     }
 
     acq->cb = cb;
     acq->cbdata = (void *)(cbdata != NULL ? (struct acq *)cbdata : acq);
-    signed int return_value_pthread_create$9;
-    return_value_pthread_create$9=pthread_create(&acq->thid, (const union pthread_attr_t *)(void *)0, acq_loop_fn, (void *)acq);
-    if(return_value_pthread_create$9 == 0)
+    signed int return_value_pthread_create_9;
+    return_value_pthread_create_9=pthread_create(&acq->thid, (const union pthread_attr_t *)(void *)0, acq_loop_fn, (void *)acq);
+    if(return_value_pthread_create_9 == 0)
       return acq;
 
     else
@@ -1927,9 +1927,9 @@ static void * acq_loop_fn(void *arg)
     if(!(ns >= 1l))
       break;
 
-    signed long int return_value_xdf_write$1;
-    return_value_xdf_write$1=xdf_write(acq->xdf, (unsigned long int)ns, buff[(signed long int)0], buff[(signed long int)1], buff[(signed long int)2]);
-    if(!(return_value_xdf_write$1 >= 0l))
+    signed long int return_value_xdf_write_1;
+    return_value_xdf_write_1=xdf_write(acq->xdf, (unsigned long int)ns, buff[(signed long int)0], buff[(signed long int)1], buff[(signed long int)2]);
+    if(!(return_value_xdf_write_1 >= 0l))
       break;
 
     if(!(acq->cb == ((void (*)(void *, unsigned long int, float *, float *, signed int *))NULL)))
@@ -1945,9 +1945,9 @@ signed int acq_prepare_rec(struct acq *acq, const char *filename)
 {
   struct xdf *xdf;
   signed int j;
-  signed int acq_prepare_rec$$1$$fs;
-  signed int return_value_setup_xdf_channel_group$1;
-  signed int return_value_xdf_prepare_transfer$2;
+  signed int acq_prepare_rec__1__fs;
+  signed int return_value_setup_xdf_channel_group_1;
+  signed int return_value_xdf_prepare_transfer_2;
   if(filename == ((const char *)NULL) || acq == ((struct acq *)NULL))
     return 0;
 
@@ -1956,19 +1956,19 @@ signed int acq_prepare_rec(struct acq *acq, const char *filename)
     xdf=xdf_open(filename, 0, (enum xdffiletype)XDF_BDF);
     if(!(xdf == ((struct xdf *)NULL)))
     {
-      acq_prepare_rec$$1$$fs=egd_get_cap(acq->dev, 0, (void *)0);
-      xdf_set_conf(xdf, (enum xdffield)XDF_F_REC_DURATION, 1.0, XDF_F_REC_NSAMPLE, acq_prepare_rec$$1$$fs, XDF_NOF);
+      acq_prepare_rec__1__fs=egd_get_cap(acq->dev, 0, (void *)0);
+      xdf_set_conf(xdf, (enum xdffield)XDF_F_REC_DURATION, 1.0, XDF_F_REC_NSAMPLE, acq_prepare_rec__1__fs, XDF_NOF);
       j = 0;
       for( ; !(j >= 3); j = j + 1)
       {
-        return_value_setup_xdf_channel_group$1=setup_xdf_channel_group(acq, j, xdf);
-        if(!(return_value_setup_xdf_channel_group$1 == 0))
+        return_value_setup_xdf_channel_group_1=setup_xdf_channel_group(acq, j, xdf);
+        if(!(return_value_setup_xdf_channel_group_1 == 0))
           goto abort;
 
       }
       xdf_define_arrays(xdf, (unsigned int)3, acq->strides);
-      return_value_xdf_prepare_transfer$2=xdf_prepare_transfer(xdf);
-      if(!(return_value_xdf_prepare_transfer$2 == 0))
+      return_value_xdf_prepare_transfer_2=xdf_prepare_transfer(xdf);
+      if(!(return_value_xdf_prepare_transfer_2 == 0))
         goto abort;
 
       acq->xdf = xdf;
@@ -1980,11 +1980,11 @@ signed int acq_prepare_rec(struct acq *acq, const char *filename)
 
     abort:
       ;
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      fprintf(stderr, "Preparing recording file: %s\n", return_value_strerror$4);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      fprintf(stderr, "Preparing recording file: %s\n", return_value_strerror_4);
       xdf_close(xdf);
       return -1;
     }
@@ -1995,13 +1995,13 @@ signed int acq_prepare_rec(struct acq *acq, const char *filename)
 // file library-usage/acquisition.c line 277
 signed int acq_start(struct acq *acq)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(acq == ((struct acq *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(acq->xdf != ((struct xdf *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(acq->xdf != ((struct xdf *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return -1;
 
   else
@@ -2019,13 +2019,13 @@ signed int acq_start(struct acq *acq)
 // file library-usage/acquisition.c line 294
 signed int acq_stop(struct acq *acq)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(acq == ((struct acq *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(acq->xdf != ((struct xdf *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(acq->xdf != ((struct xdf *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return -1;
 
   else
@@ -2047,29 +2047,29 @@ static signed int add_sensor_type(const char *sname, struct sensor_type *start)
   unsigned int len;
   struct sensor_type *newtype;
   struct sensor_type *curr = start != ((struct sensor_type *)NULL) ? start : &first;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(sname);
-  len = (unsigned int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(sname);
+  len = (unsigned int)return_value_strlen_1;
   if(len == 0u)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
     return -1;
   }
 
   while(!(curr->next == ((struct sensor_type *)NULL)))
   {
     curr = curr->next;
-    signed int return_value_strcmp$3;
-    return_value_strcmp$3=strcmp(sname, curr->name);
-    if(return_value_strcmp$3 == 0)
+    signed int return_value_strcmp_3;
+    return_value_strcmp_3=strcmp(sname, curr->name);
+    if(return_value_strcmp_3 == 0)
       return curr->stype;
 
   }
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(sizeof(struct sensor_type) /*16ul*/  + (unsigned long int)len + (unsigned long int)1);
-  newtype = (struct sensor_type *)return_value_malloc$4;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(sizeof(struct sensor_type) /*16ul*/  + (unsigned long int)len + (unsigned long int)1);
+  newtype = (struct sensor_type *)return_value_malloc_4;
   if(newtype == ((struct sensor_type *)NULL))
     return -1;
 
@@ -2398,16 +2398,16 @@ static void castnosc_int32_t_float(void * restrict d, const void * restrict s, u
 struct yy_buffer_state * cff__create_buffer(struct _IO_FILE *file, signed int size, void *yyscanner)
 {
   struct yy_buffer_state *b;
-  void *return_value_cff_alloc$1;
-  return_value_cff_alloc$1=cff_alloc(sizeof(struct yy_buffer_state) /*72ul*/ , yyscanner);
-  b = (struct yy_buffer_state *)return_value_cff_alloc$1;
+  void *return_value_cff_alloc_1;
+  return_value_cff_alloc_1=cff_alloc(sizeof(struct yy_buffer_state) /*72ul*/ , yyscanner);
+  b = (struct yy_buffer_state *)return_value_cff_alloc_1;
   if(b == ((struct yy_buffer_state *)NULL))
     yy_fatal_error("out of dynamic memory in cff__create_buffer()", yyscanner);
 
   b->yy_buf_size = (unsigned long int)size;
-  void *return_value_cff_alloc$2;
-  return_value_cff_alloc$2=cff_alloc(b->yy_buf_size + (unsigned long int)2, yyscanner);
-  b->yy_ch_buf = (char *)return_value_cff_alloc$2;
+  void *return_value_cff_alloc_2;
+  return_value_cff_alloc_2=cff_alloc(b->yy_buf_size + (unsigned long int)2, yyscanner);
+  b->yy_ch_buf = (char *)return_value_cff_alloc_2;
   if(b->yy_ch_buf == ((char *)NULL))
     yy_fatal_error("out of dynamic memory in cff__create_buffer()", yyscanner);
 
@@ -2421,15 +2421,15 @@ struct yy_buffer_state * cff__create_buffer(struct _IO_FILE *file, signed int si
 void cff__delete_buffer(struct yy_buffer_state *b, void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(b == ((struct yy_buffer_state *)NULL)))
   {
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(b == tmp_if_expr$1)
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(b == tmp_if_expr_1)
       yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top] = (struct yy_buffer_state *)0;
 
     if(!(b->yy_is_our_buffer == 0))
@@ -2445,7 +2445,7 @@ void cff__delete_buffer(struct yy_buffer_state *b, void *yyscanner)
 void cff__flush_buffer(struct yy_buffer_state *b, void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(b == ((struct yy_buffer_state *)NULL)))
   {
     b->yy_n_chars = (unsigned long int)0;
@@ -2455,11 +2455,11 @@ void cff__flush_buffer(struct yy_buffer_state *b, void *yyscanner)
     b->yy_at_bol = 1;
     b->yy_buffer_status = 0;
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(b == tmp_if_expr$1)
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(b == tmp_if_expr_1)
       cff__load_buffer_state(yyscanner);
 
   }
@@ -2471,29 +2471,29 @@ void cff__flush_buffer(struct yy_buffer_state *b, void *yyscanner)
 static void cff__init_buffer(struct yy_buffer_state *b, struct _IO_FILE *file, void *yyscanner)
 {
   signed int oerrno;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  oerrno = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  oerrno = *return_value___errno_location_1;
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
   cff__flush_buffer(b, yyscanner);
   b->yy_input_file = file;
   b->yy_fill_buffer = 1;
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_2;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-  if(!(b == tmp_if_expr$2))
+    tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+  if(!(b == tmp_if_expr_2))
   {
     b->yy_bs_lineno = 1;
     b->yy_bs_column = 0;
   }
 
   b->yy_is_interactive = 0;
-  signed int *return_value___errno_location$3;
-  return_value___errno_location$3=__errno_location();
-  *return_value___errno_location$3 = oerrno;
+  signed int *return_value___errno_location_3;
+  return_value___errno_location_3=__errno_location();
+  *return_value___errno_location_3 = oerrno;
 }
 
 // cff__load_buffer_state
@@ -2513,26 +2513,26 @@ static void cff__load_buffer_state(void *yyscanner)
 struct yy_buffer_state * cff__scan_buffer(char *base, unsigned long int size, void *yyscanner)
 {
   struct yy_buffer_state *b;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(size >= 2ul))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)base[(signed long int)(size - (unsigned long int)2)] != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (signed int)base[(signed long int)(size - (unsigned long int)2)] != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)base[(signed long int)(size - (unsigned long int)1)] != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)base[(signed long int)(size - (unsigned long int)1)] != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return ((struct yy_buffer_state *)NULL);
 
   else
   {
-    void *return_value_cff_alloc$3;
-    return_value_cff_alloc$3=cff_alloc(sizeof(struct yy_buffer_state) /*72ul*/ , yyscanner);
-    b = (struct yy_buffer_state *)return_value_cff_alloc$3;
+    void *return_value_cff_alloc_3;
+    return_value_cff_alloc_3=cff_alloc(sizeof(struct yy_buffer_state) /*72ul*/ , yyscanner);
+    b = (struct yy_buffer_state *)return_value_cff_alloc_3;
     if(b == ((struct yy_buffer_state *)NULL))
       yy_fatal_error("out of dynamic memory in cff__scan_buffer()", yyscanner);
 
@@ -2560,9 +2560,9 @@ struct yy_buffer_state * cff__scan_bytes(const char *yybytes, unsigned long int 
   unsigned long int n;
   unsigned long int i;
   n = _yybytes_len + (unsigned long int)2;
-  void *return_value_cff_alloc$1;
-  return_value_cff_alloc$1=cff_alloc(n, yyscanner);
-  buf = (char *)return_value_cff_alloc$1;
+  void *return_value_cff_alloc_1;
+  return_value_cff_alloc_1=cff_alloc(n, yyscanner);
+  buf = (char *)return_value_cff_alloc_1;
   if(buf == ((char *)NULL))
     yy_fatal_error("out of dynamic memory in cff__scan_bytes()", yyscanner);
 
@@ -2583,11 +2583,11 @@ struct yy_buffer_state * cff__scan_bytes(const char *yybytes, unsigned long int 
 // file conffile.lex.c line 1612
 struct yy_buffer_state * cff__scan_string(const char *yystr, void *yyscanner)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(yystr);
-  struct yy_buffer_state *return_value_cff__scan_bytes$2;
-  return_value_cff__scan_bytes$2=cff__scan_bytes(yystr, return_value_strlen$1, yyscanner);
-  return return_value_cff__scan_bytes$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(yystr);
+  struct yy_buffer_state *return_value_cff__scan_bytes_2;
+  return_value_cff__scan_bytes_2=cff__scan_bytes(yystr, return_value_strlen_1, yyscanner);
+  return return_value_cff__scan_bytes_2;
 }
 
 // cff__switch_to_buffer
@@ -2596,21 +2596,21 @@ void cff__switch_to_buffer(struct yy_buffer_state *new_buffer, void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
   cff_ensure_buffer_stack(yyscanner);
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  struct yy_buffer_state *tmp_if_expr$2;
-  if(!(tmp_if_expr$1 == new_buffer))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  struct yy_buffer_state *tmp_if_expr_2;
+  if(!(tmp_if_expr_1 == new_buffer))
   {
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$2 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_2 == ((struct yy_buffer_state *)NULL)))
     {
       *yyg->yy_c_buf_p = yyg->yy_hold_char;
       yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_buf_pos = yyg->yy_c_buf_p;
@@ -2629,9 +2629,9 @@ void cff__switch_to_buffer(struct yy_buffer_state *new_buffer, void *yyscanner)
 void * cff_alloc(unsigned long int size, void *yyscanner)
 {
   (void)yyscanner;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(size);
-  return return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(size);
+  return return_value_malloc_1;
 }
 
 // cff_ensure_buffer_stack
@@ -2643,9 +2643,9 @@ static void cff_ensure_buffer_stack(void *yyscanner)
   if(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL))
   {
     num_to_alloc = (unsigned long int)1;
-    void *return_value_cff_alloc$1;
-    return_value_cff_alloc$1=cff_alloc(num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ , yyscanner);
-    yyg->yy_buffer_stack = (struct yy_buffer_state **)return_value_cff_alloc$1;
+    void *return_value_cff_alloc_1;
+    return_value_cff_alloc_1=cff_alloc(num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ , yyscanner);
+    yyg->yy_buffer_stack = (struct yy_buffer_state **)return_value_cff_alloc_1;
     if(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL))
       yy_fatal_error("out of dynamic memory in cff_ensure_buffer_stack()", yyscanner);
 
@@ -2659,9 +2659,9 @@ static void cff_ensure_buffer_stack(void *yyscanner)
   {
     signed int grow_size = 8;
     num_to_alloc = yyg->yy_buffer_stack_max + (unsigned long int)grow_size;
-    void *return_value_cff_realloc$2;
-    return_value_cff_realloc$2=cff_realloc((void *)yyg->yy_buffer_stack, num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ , yyscanner);
-    yyg->yy_buffer_stack = (struct yy_buffer_state **)return_value_cff_realloc$2;
+    void *return_value_cff_realloc_2;
+    return_value_cff_realloc_2=cff_realloc((void *)yyg->yy_buffer_stack, num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ , yyscanner);
+    yyg->yy_buffer_stack = (struct yy_buffer_state **)return_value_cff_realloc_2;
     if(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL))
       yy_fatal_error("out of dynamic memory in cff_ensure_buffer_stack()", yyscanner);
 
@@ -2695,13 +2695,13 @@ void cff_free(void *ptr, void *yyscanner)
 signed int cff_get_column(void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
     return 0;
 
   else
@@ -2745,13 +2745,13 @@ unsigned long int cff_get_leng(void *yyscanner)
 signed int cff_get_lineno(void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
     return 0;
 
   else
@@ -2792,7 +2792,7 @@ extern signed int cff_lex(union value *yylval_param, void *yyscanner)
   signed int yy_act;
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
   yyg->yylval_r = yylval_param;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(yyg->yy_init == 0)
   {
     yyg->yy_init = 1;
@@ -2806,11 +2806,11 @@ extern signed int cff_lex(union value *yylval_param, void *yyscanner)
       yyg->yyout_r = stdout;
 
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
     {
       cff_ensure_buffer_stack(yyscanner);
       yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]=cff__create_buffer(yyg->yyin_r, 16384, yyscanner);
@@ -2821,7 +2821,7 @@ extern signed int cff_lex(union value *yylval_param, void *yyscanner)
 
   struct cfdata *pp = (struct cfdata *)yyg->yyextra_r;
   signed int yy_amount_of_matched_text;
-  signed int return_value_yy_get_next_buffer$4;
+  signed int return_value_yy_get_next_buffer_4;
   while((_Bool)1)
   {
     yy_cp = yyg->yy_c_buf_p;
@@ -2922,9 +2922,9 @@ extern signed int cff_lex(union value *yylval_param, void *yyscanner)
 
       __CPROVER_DUMP_L20:
         ;
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(yyg->yytext_r);
-        if(return_value_strlen$2 >= 64ul)
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(yyg->yytext_r);
+        if(return_value_strlen_2 >= 64ul)
           return -1;
 
         strcpy(pp->tokbuff[(signed long int)pp->itok], yyg->yytext_r);
@@ -2952,8 +2952,8 @@ extern signed int cff_lex(union value *yylval_param, void *yyscanner)
 
         __CPROVER_DUMP_L26:
           ;
-          unsigned long int return_value_fwrite$3;
-          return_value_fwrite$3=fwrite((const void *)yyg->yytext_r, yyg->yyleng_r, (unsigned long int)1, yyg->yyout_r);
+          unsigned long int return_value_fwrite_3;
+          return_value_fwrite_3=fwrite((const void *)yyg->yytext_r, yyg->yyleng_r, (unsigned long int)1, yyg->yyout_r);
         }
         while((_Bool)0);
         goto __CPROVER_DUMP_L40;
@@ -2996,13 +2996,13 @@ extern signed int cff_lex(union value *yylval_param, void *yyscanner)
           }
         }
 
-        return_value_yy_get_next_buffer$4=yy_get_next_buffer(yyscanner);
-        if(!(return_value_yy_get_next_buffer$4 == 1))
+        return_value_yy_get_next_buffer_4=yy_get_next_buffer(yyscanner);
+        if(!(return_value_yy_get_next_buffer_4 == 1))
         {
-          if(return_value_yy_get_next_buffer$4 == 0)
+          if(return_value_yy_get_next_buffer_4 == 0)
             goto __CPROVER_DUMP_L36;
 
-          if(return_value_yy_get_next_buffer$4 == 2)
+          if(return_value_yy_get_next_buffer_4 == 2)
             goto __CPROVER_DUMP_L37;
 
           goto __CPROVER_DUMP_L38;
@@ -3051,24 +3051,24 @@ extern signed int cff_lex(union value *yylval_param, void *yyscanner)
 signed int cff_lex_destroy(void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_1;
+  struct yy_buffer_state *tmp_if_expr_2;
   do
   {
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
       break;
 
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    cff__delete_buffer(tmp_if_expr$2, yyscanner);
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    cff__delete_buffer(tmp_if_expr_2, yyscanner);
     yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top] = (struct yy_buffer_state *)(void *)0;
     cff_pop_buffer_state(yyscanner);
   }
@@ -3089,27 +3089,27 @@ signed int cff_lex_init(void **ptr_yy_globals)
 {
   if(ptr_yy_globals == ((void **)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return 1;
   }
 
-  void *return_value_cff_alloc$2;
-  return_value_cff_alloc$2=cff_alloc(sizeof(struct yyguts_t) /*160ul*/ , (void *)0);
-  *ptr_yy_globals = (void *)return_value_cff_alloc$2;
+  void *return_value_cff_alloc_2;
+  return_value_cff_alloc_2=cff_alloc(sizeof(struct yyguts_t) /*160ul*/ , (void *)0);
+  *ptr_yy_globals = (void *)return_value_cff_alloc_2;
   if(*ptr_yy_globals == NULL)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 12;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 12;
     return 1;
   }
 
   memset(*ptr_yy_globals, 0x00, sizeof(struct yyguts_t) /*160ul*/ );
-  signed int return_value_yy_init_globals$4;
-  return_value_yy_init_globals$4=yy_init_globals(*ptr_yy_globals);
-  return return_value_yy_init_globals$4;
+  signed int return_value_yy_init_globals_4;
+  return_value_yy_init_globals_4=yy_init_globals(*ptr_yy_globals);
+  return return_value_yy_init_globals_4;
 }
 
 // cff_lex_init_extra
@@ -3120,28 +3120,28 @@ signed int cff_lex_init_extra(void *yy_user_defined, void **ptr_yy_globals)
   cff_set_extra(yy_user_defined, (void *)&dummy_yyguts);
   if(ptr_yy_globals == ((void **)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return 1;
   }
 
-  void *return_value_cff_alloc$2;
-  return_value_cff_alloc$2=cff_alloc(sizeof(struct yyguts_t) /*160ul*/ , (void *)&dummy_yyguts);
-  *ptr_yy_globals = (void *)return_value_cff_alloc$2;
+  void *return_value_cff_alloc_2;
+  return_value_cff_alloc_2=cff_alloc(sizeof(struct yyguts_t) /*160ul*/ , (void *)&dummy_yyguts);
+  *ptr_yy_globals = (void *)return_value_cff_alloc_2;
   if(*ptr_yy_globals == NULL)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 12;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 12;
     return 1;
   }
 
   memset(*ptr_yy_globals, 0x00, sizeof(struct yyguts_t) /*160ul*/ );
   cff_set_extra(yy_user_defined, *ptr_yy_globals);
-  signed int return_value_yy_init_globals$4;
-  return_value_yy_init_globals$4=yy_init_globals(*ptr_yy_globals);
-  return return_value_yy_init_globals$4;
+  signed int return_value_yy_init_globals_4;
+  return_value_yy_init_globals_4=yy_init_globals(*ptr_yy_globals);
+  return return_value_yy_init_globals_4;
 }
 
 // cff_parse
@@ -3195,9 +3195,9 @@ yysetstate:
 
     signed short int *yyss1 = yyss;
     union yyalloc *yyptr;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(yystacksize * (sizeof(signed short int) /*2ul*/  + sizeof(union value) /*8ul*/ ) + (sizeof(union yyalloc) /*8ul*/  - (unsigned long int)1));
-    yyptr = (union yyalloc *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(yystacksize * (sizeof(signed short int) /*2ul*/  + sizeof(union value) /*8ul*/ ) + (sizeof(union yyalloc) /*8ul*/  - (unsigned long int)1));
+    yyptr = (union yyalloc *)return_value_malloc_1;
     if(yyptr == ((union yyalloc *)NULL))
       goto yyexhaustedlab;
 
@@ -3212,11 +3212,11 @@ yysetstate:
     while((_Bool)0);
     do
     {
-      unsigned long int cff_parse$$1$$1$$1$$2$$yynewbytes;
+      unsigned long int cff_parse__1__1__1__2__yynewbytes;
       __builtin_memcpy((void *)&yyptr->yyvs_alloc, (const void *)yyvs, yysize * sizeof(union value) /*8ul*/ );
       yyvs = &yyptr->yyvs_alloc;
-      cff_parse$$1$$1$$1$$2$$yynewbytes = yystacksize * sizeof(union value) /*8ul*/  + (sizeof(union yyalloc) /*8ul*/  - (unsigned long int)1);
-      yyptr = yyptr + (signed long int)(cff_parse$$1$$1$$1$$2$$yynewbytes / sizeof(union yyalloc) /*8ul*/ );
+      cff_parse__1__1__1__2__yynewbytes = yystacksize * sizeof(union value) /*8ul*/  + (sizeof(union yyalloc) /*8ul*/  - (unsigned long int)1);
+      yyptr = yyptr + (signed long int)(cff_parse__1__1__1__2__yynewbytes / sizeof(union yyalloc) /*8ul*/ );
     }
     while((_Bool)0);
     if(!(yyss1 == yyssa))
@@ -3229,11 +3229,11 @@ yysetstate:
 
   }
 
-  signed int tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  signed int tmp_if_expr$6;
-  signed int tmp_if_expr$5;
+  signed int tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  signed int tmp_if_expr_6;
+  signed int tmp_if_expr_5;
   if(!(yystate == 2))
   {
 
@@ -3254,19 +3254,19 @@ yysetstate:
       else
       {
         if(!((unsigned int)yychar >= 260u))
-          tmp_if_expr$2 = (signed int)yytranslate[(signed long int)yychar];
+          tmp_if_expr_2 = (signed int)yytranslate[(signed long int)yychar];
 
         else
-          tmp_if_expr$2 = 2;
-        yytoken = tmp_if_expr$2;
+          tmp_if_expr_2 = 2;
+        yytoken = tmp_if_expr_2;
       }
       yyn = yyn + yytoken;
       if(yyn >= 6 || !(yyn >= 0))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)yycheck[(signed long int)yyn] != yytoken ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)yycheck[(signed long int)yyn] != yytoken ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_3)
       {
         yyn = (signed int)yytable[(signed long int)yyn];
         if(!(yyn >= 1))
@@ -3309,11 +3309,11 @@ yysetstate:
       yyn = (signed int)yyr1[(signed long int)yyn];
       yystate = (signed int)yypgoto[(signed long int)(yyn - 6)] + (signed int)*yyssp;
       if(yystate >= 0 && !(yystate >= 6))
-        tmp_if_expr$4 = (signed int)yycheck[(signed long int)yystate] == (signed int)*yyssp ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (signed int)yycheck[(signed long int)yystate] == (signed int)*yyssp ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
         yystate = (signed int)yytable[(signed long int)yystate];
 
       else
@@ -3325,18 +3325,18 @@ yysetstate:
   yyerrlab:
     ;
     if(yychar == -2)
-      tmp_if_expr$6 = -2;
+      tmp_if_expr_6 = -2;
 
     else
     {
       if(!((unsigned int)yychar >= 260u))
-        tmp_if_expr$5 = (signed int)yytranslate[(signed long int)yychar];
+        tmp_if_expr_5 = (signed int)yytranslate[(signed long int)yychar];
 
       else
-        tmp_if_expr$5 = 2;
-      tmp_if_expr$6 = tmp_if_expr$5;
+        tmp_if_expr_5 = 2;
+      tmp_if_expr_6 = tmp_if_expr_5;
     }
-    yytoken = tmp_if_expr$6;
+    yytoken = tmp_if_expr_6;
     if(yyerrstatus == 0)
     {
       cff_nerrs = cff_nerrs + 1;
@@ -3424,15 +3424,15 @@ yyexhaustedlab:
 
 yyreturn:
   ;
-  signed int tmp_if_expr$7;
+  signed int tmp_if_expr_7;
   if(!(yychar == -2))
   {
     if(!((unsigned int)yychar >= 260u))
-      tmp_if_expr$7 = (signed int)yytranslate[(signed long int)yychar];
+      tmp_if_expr_7 = (signed int)yytranslate[(signed long int)yychar];
 
     else
-      tmp_if_expr$7 = 2;
-    yytoken = tmp_if_expr$7;
+      tmp_if_expr_7 = 2;
+    yytoken = tmp_if_expr_7;
     yydestruct("Cleanup: discarding lookahead", yytoken, &yylval, pp);
   }
 
@@ -3454,32 +3454,32 @@ yyreturn:
 void cff_pop_buffer_state(void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  struct yy_buffer_state *tmp_if_expr$2;
-  struct yy_buffer_state *tmp_if_expr$3;
-  if(!(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL)))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  struct yy_buffer_state *tmp_if_expr_2;
+  struct yy_buffer_state *tmp_if_expr_3;
+  if(!(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL)))
   {
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    cff__delete_buffer(tmp_if_expr$2, yyscanner);
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    cff__delete_buffer(tmp_if_expr_2, yyscanner);
     yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top] = (struct yy_buffer_state *)(void *)0;
     if(yyg->yy_buffer_stack_top >= 1ul)
       yyg->yy_buffer_stack_top = yyg->yy_buffer_stack_top - 1ul;
 
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$3 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_3 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$3 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$3 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_3 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_3 == ((struct yy_buffer_state *)NULL)))
     {
       cff__load_buffer_state(yyscanner);
       yyg->yy_did_buffer_switch_on_eof = 1;
@@ -3494,17 +3494,17 @@ void cff_pop_buffer_state(void *yyscanner)
 void cff_push_buffer_state(struct yy_buffer_state *new_buffer, void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_1;
+  struct yy_buffer_state *tmp_if_expr_2;
   if(!(new_buffer == ((struct yy_buffer_state *)NULL)))
   {
     cff_ensure_buffer_stack(yyscanner);
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL)))
     {
       *yyg->yy_c_buf_p = yyg->yy_hold_char;
       yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_buf_pos = yyg->yy_c_buf_p;
@@ -3512,11 +3512,11 @@ void cff_push_buffer_state(struct yy_buffer_state *new_buffer, void *yyscanner)
     }
 
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$2 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_2 == ((struct yy_buffer_state *)NULL)))
       yyg->yy_buffer_stack_top = yyg->yy_buffer_stack_top + 1ul;
 
     yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top] = new_buffer;
@@ -3531,9 +3531,9 @@ void cff_push_buffer_state(struct yy_buffer_state *new_buffer, void *yyscanner)
 void * cff_realloc(void *ptr, unsigned long int size, void *yyscanner)
 {
   (void)yyscanner;
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc(ptr, size);
-  return return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc(ptr, size);
+  return return_value_realloc_1;
 }
 
 // cff_restart
@@ -3541,25 +3541,25 @@ void * cff_realloc(void *ptr, unsigned long int size, void *yyscanner)
 void cff_restart(struct _IO_FILE *input_file, void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
   {
     cff_ensure_buffer_stack(yyscanner);
     yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]=cff__create_buffer(yyg->yyin_r, 16384, yyscanner);
   }
 
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_2;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-  cff__init_buffer(tmp_if_expr$2, input_file, yyscanner);
+    tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+  cff__init_buffer(tmp_if_expr_2, input_file, yyscanner);
   cff__load_buffer_state(yyscanner);
 }
 
@@ -3568,13 +3568,13 @@ void cff_restart(struct _IO_FILE *input_file, void *yyscanner)
 void cff_set_column(signed int column_no, void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
     yy_fatal_error("cff_set_column called with no buffer", yyscanner);
 
   yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_bs_column = column_no;
@@ -3609,13 +3609,13 @@ void cff_set_in(struct _IO_FILE *in_str, void *yyscanner)
 void cff_set_lineno(signed int line_number, void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
     yy_fatal_error("cff_set_lineno called with no buffer", yyscanner);
 
   yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_bs_lineno = line_number;
@@ -3642,18 +3642,18 @@ void cff_set_out(struct _IO_FILE *out_str, void *yyscanner)
 struct yy_buffer_state * cfl__create_buffer(struct _IO_FILE *file, signed int size, void *yyscanner)
 {
   struct yy_buffer_state *b;
-  void *return_value_cfl_alloc$1;
-  return_value_cfl_alloc$1=cfl_alloc(sizeof(struct yy_buffer_state) /*72ul*/ , yyscanner);
-  b = (struct yy_buffer_state *)return_value_cfl_alloc$1;
+  void *return_value_cfl_alloc_1;
+  return_value_cfl_alloc_1=cfl_alloc(sizeof(struct yy_buffer_state) /*72ul*/ , yyscanner);
+  b = (struct yy_buffer_state *)return_value_cfl_alloc_1;
   if(b == ((struct yy_buffer_state *)NULL))
-    yy_fatal_error$link1("out of dynamic memory in cfl__create_buffer()", yyscanner);
+    yy_fatal_error_link1("out of dynamic memory in cfl__create_buffer()", yyscanner);
 
   b->yy_buf_size = (unsigned long int)size;
-  void *return_value_cfl_alloc$2;
-  return_value_cfl_alloc$2=cfl_alloc(b->yy_buf_size + (unsigned long int)2, yyscanner);
-  b->yy_ch_buf = (char *)return_value_cfl_alloc$2;
+  void *return_value_cfl_alloc_2;
+  return_value_cfl_alloc_2=cfl_alloc(b->yy_buf_size + (unsigned long int)2, yyscanner);
+  b->yy_ch_buf = (char *)return_value_cfl_alloc_2;
   if(b->yy_ch_buf == ((char *)NULL))
-    yy_fatal_error$link1("out of dynamic memory in cfl__create_buffer()", yyscanner);
+    yy_fatal_error_link1("out of dynamic memory in cfl__create_buffer()", yyscanner);
 
   b->yy_is_our_buffer = 1;
   cfl__init_buffer(b, file, yyscanner);
@@ -3665,15 +3665,15 @@ struct yy_buffer_state * cfl__create_buffer(struct _IO_FILE *file, signed int si
 void cfl__delete_buffer(struct yy_buffer_state *b, void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(b == ((struct yy_buffer_state *)NULL)))
   {
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(b == tmp_if_expr$1)
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(b == tmp_if_expr_1)
       yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top] = (struct yy_buffer_state *)0;
 
     if(!(b->yy_is_our_buffer == 0))
@@ -3689,7 +3689,7 @@ void cfl__delete_buffer(struct yy_buffer_state *b, void *yyscanner)
 void cfl__flush_buffer(struct yy_buffer_state *b, void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(b == ((struct yy_buffer_state *)NULL)))
   {
     b->yy_n_chars = (unsigned long int)0;
@@ -3699,11 +3699,11 @@ void cfl__flush_buffer(struct yy_buffer_state *b, void *yyscanner)
     b->yy_at_bol = 1;
     b->yy_buffer_status = 0;
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(b == tmp_if_expr$1)
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(b == tmp_if_expr_1)
       cfl__load_buffer_state(yyscanner);
 
   }
@@ -3715,29 +3715,29 @@ void cfl__flush_buffer(struct yy_buffer_state *b, void *yyscanner)
 static void cfl__init_buffer(struct yy_buffer_state *b, struct _IO_FILE *file, void *yyscanner)
 {
   signed int oerrno;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  oerrno = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  oerrno = *return_value___errno_location_1;
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
   cfl__flush_buffer(b, yyscanner);
   b->yy_input_file = file;
   b->yy_fill_buffer = 1;
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_2;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-  if(!(b == tmp_if_expr$2))
+    tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+  if(!(b == tmp_if_expr_2))
   {
     b->yy_bs_lineno = 1;
     b->yy_bs_column = 0;
   }
 
   b->yy_is_interactive = 0;
-  signed int *return_value___errno_location$3;
-  return_value___errno_location$3=__errno_location();
-  *return_value___errno_location$3 = oerrno;
+  signed int *return_value___errno_location_3;
+  return_value___errno_location_3=__errno_location();
+  *return_value___errno_location_3 = oerrno;
 }
 
 // cfl__load_buffer_state
@@ -3757,28 +3757,28 @@ static void cfl__load_buffer_state(void *yyscanner)
 struct yy_buffer_state * cfl__scan_buffer(char *base, unsigned long int size, void *yyscanner)
 {
   struct yy_buffer_state *b;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(size >= 2ul))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)base[(signed long int)(size - (unsigned long int)2)] != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (signed int)base[(signed long int)(size - (unsigned long int)2)] != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)base[(signed long int)(size - (unsigned long int)1)] != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)base[(signed long int)(size - (unsigned long int)1)] != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return ((struct yy_buffer_state *)NULL);
 
   else
   {
-    void *return_value_cfl_alloc$3;
-    return_value_cfl_alloc$3=cfl_alloc(sizeof(struct yy_buffer_state) /*72ul*/ , yyscanner);
-    b = (struct yy_buffer_state *)return_value_cfl_alloc$3;
+    void *return_value_cfl_alloc_3;
+    return_value_cfl_alloc_3=cfl_alloc(sizeof(struct yy_buffer_state) /*72ul*/ , yyscanner);
+    b = (struct yy_buffer_state *)return_value_cfl_alloc_3;
     if(b == ((struct yy_buffer_state *)NULL))
-      yy_fatal_error$link1("out of dynamic memory in cfl__scan_buffer()", yyscanner);
+      yy_fatal_error_link1("out of dynamic memory in cfl__scan_buffer()", yyscanner);
 
     b->yy_buf_size = size - (unsigned long int)2;
     b->yy_ch_buf = base;
@@ -3804,11 +3804,11 @@ struct yy_buffer_state * cfl__scan_bytes(const char *yybytes, unsigned long int 
   unsigned long int n;
   unsigned long int i;
   n = _yybytes_len + (unsigned long int)2;
-  void *return_value_cfl_alloc$1;
-  return_value_cfl_alloc$1=cfl_alloc(n, yyscanner);
-  buf = (char *)return_value_cfl_alloc$1;
+  void *return_value_cfl_alloc_1;
+  return_value_cfl_alloc_1=cfl_alloc(n, yyscanner);
+  buf = (char *)return_value_cfl_alloc_1;
   if(buf == ((char *)NULL))
-    yy_fatal_error$link1("out of dynamic memory in cfl__scan_bytes()", yyscanner);
+    yy_fatal_error_link1("out of dynamic memory in cfl__scan_bytes()", yyscanner);
 
   i = (unsigned long int)0;
   for( ; !(i >= _yybytes_len); i = i + 1ul)
@@ -3817,7 +3817,7 @@ struct yy_buffer_state * cfl__scan_bytes(const char *yybytes, unsigned long int 
   buf[(signed long int)_yybytes_len] = buf[(signed long int)(_yybytes_len + (unsigned long int)1)];
   b=cfl__scan_buffer(buf, n, yyscanner);
   if(b == ((struct yy_buffer_state *)NULL))
-    yy_fatal_error$link1("bad buffer in cfl__scan_bytes()", yyscanner);
+    yy_fatal_error_link1("bad buffer in cfl__scan_bytes()", yyscanner);
 
   b->yy_is_our_buffer = 1;
   return b;
@@ -3827,11 +3827,11 @@ struct yy_buffer_state * cfl__scan_bytes(const char *yybytes, unsigned long int 
 // file confline.lex.c line 1598
 struct yy_buffer_state * cfl__scan_string(const char *yystr, void *yyscanner)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(yystr);
-  struct yy_buffer_state *return_value_cfl__scan_bytes$2;
-  return_value_cfl__scan_bytes$2=cfl__scan_bytes(yystr, return_value_strlen$1, yyscanner);
-  return return_value_cfl__scan_bytes$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(yystr);
+  struct yy_buffer_state *return_value_cfl__scan_bytes_2;
+  return_value_cfl__scan_bytes_2=cfl__scan_bytes(yystr, return_value_strlen_1, yyscanner);
+  return return_value_cfl__scan_bytes_2;
 }
 
 // cfl__switch_to_buffer
@@ -3840,21 +3840,21 @@ void cfl__switch_to_buffer(struct yy_buffer_state *new_buffer, void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
   cfl_ensure_buffer_stack(yyscanner);
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  struct yy_buffer_state *tmp_if_expr$2;
-  if(!(tmp_if_expr$1 == new_buffer))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  struct yy_buffer_state *tmp_if_expr_2;
+  if(!(tmp_if_expr_1 == new_buffer))
   {
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$2 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_2 == ((struct yy_buffer_state *)NULL)))
     {
       *yyg->yy_c_buf_p = yyg->yy_hold_char;
       yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_buf_pos = yyg->yy_c_buf_p;
@@ -3873,9 +3873,9 @@ void cfl__switch_to_buffer(struct yy_buffer_state *new_buffer, void *yyscanner)
 void * cfl_alloc(unsigned long int size, void *yyscanner)
 {
   (void)yyscanner;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(size);
-  return return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(size);
+  return return_value_malloc_1;
 }
 
 // cfl_ensure_buffer_stack
@@ -3887,11 +3887,11 @@ static void cfl_ensure_buffer_stack(void *yyscanner)
   if(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL))
   {
     num_to_alloc = (unsigned long int)1;
-    void *return_value_cfl_alloc$1;
-    return_value_cfl_alloc$1=cfl_alloc(num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ , yyscanner);
-    yyg->yy_buffer_stack = (struct yy_buffer_state **)return_value_cfl_alloc$1;
+    void *return_value_cfl_alloc_1;
+    return_value_cfl_alloc_1=cfl_alloc(num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ , yyscanner);
+    yyg->yy_buffer_stack = (struct yy_buffer_state **)return_value_cfl_alloc_1;
     if(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL))
-      yy_fatal_error$link1("out of dynamic memory in cfl_ensure_buffer_stack()", yyscanner);
+      yy_fatal_error_link1("out of dynamic memory in cfl_ensure_buffer_stack()", yyscanner);
 
     memset((void *)yyg->yy_buffer_stack, 0, num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ );
     yyg->yy_buffer_stack_max = num_to_alloc;
@@ -3903,11 +3903,11 @@ static void cfl_ensure_buffer_stack(void *yyscanner)
   {
     signed int grow_size = 8;
     num_to_alloc = yyg->yy_buffer_stack_max + (unsigned long int)grow_size;
-    void *return_value_cfl_realloc$2;
-    return_value_cfl_realloc$2=cfl_realloc((void *)yyg->yy_buffer_stack, num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ , yyscanner);
-    yyg->yy_buffer_stack = (struct yy_buffer_state **)return_value_cfl_realloc$2;
+    void *return_value_cfl_realloc_2;
+    return_value_cfl_realloc_2=cfl_realloc((void *)yyg->yy_buffer_stack, num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ , yyscanner);
+    yyg->yy_buffer_stack = (struct yy_buffer_state **)return_value_cfl_realloc_2;
     if(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL))
-      yy_fatal_error$link1("out of dynamic memory in cfl_ensure_buffer_stack()", yyscanner);
+      yy_fatal_error_link1("out of dynamic memory in cfl_ensure_buffer_stack()", yyscanner);
 
     memset((void *)(yyg->yy_buffer_stack + (signed long int)yyg->yy_buffer_stack_max), 0, (unsigned long int)grow_size * sizeof(struct yy_buffer_state *) /*8ul*/ );
     yyg->yy_buffer_stack_max = num_to_alloc;
@@ -3940,13 +3940,13 @@ void cfl_free(void *ptr, void *yyscanner)
 signed int cfl_get_column(void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
     return 0;
 
   else
@@ -3990,13 +3990,13 @@ unsigned long int cfl_get_leng(void *yyscanner)
 signed int cfl_get_lineno(void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
     return 0;
 
   else
@@ -4037,7 +4037,7 @@ extern signed int cfl_lex(union value *yylval_param, void *yyscanner)
   signed int yy_act;
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
   yyg->yylval_r = yylval_param;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(yyg->yy_init == 0)
   {
     yyg->yy_init = 1;
@@ -4051,11 +4051,11 @@ extern signed int cfl_lex(union value *yylval_param, void *yyscanner)
       yyg->yyout_r = stdout;
 
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
     {
       cfl_ensure_buffer_stack(yyscanner);
       yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]=cfl__create_buffer(yyg->yyin_r, 16384, yyscanner);
@@ -4066,7 +4066,7 @@ extern signed int cfl_lex(union value *yylval_param, void *yyscanner)
 
   struct cfldata *pp = (struct cfldata *)yyg->yyextra_r;
   signed int yy_amount_of_matched_text;
-  signed int return_value_yy_get_next_buffer$4;
+  signed int return_value_yy_get_next_buffer_4;
   while((_Bool)1)
   {
     yy_cp = yyg->yy_c_buf_p;
@@ -4078,21 +4078,21 @@ extern signed int cfl_lex(union value *yylval_param, void *yyscanner)
 
     yy_match:
       ;
-      unsigned char yy_c = (unsigned char)yy_ec$link1[(signed long int)(unsigned int)(unsigned char)*yy_cp];
-      if(!(yy_accept$link1[(signed long int)yy_current_state] == 0))
+      unsigned char yy_c = (unsigned char)yy_ec_link1[(signed long int)(unsigned int)(unsigned char)*yy_cp];
+      if(!(yy_accept_link1[(signed long int)yy_current_state] == 0))
       {
         yyg->yy_last_accepting_state = yy_current_state;
         yyg->yy_last_accepting_cpos = yy_cp;
       }
 
-      while(!((signed int)yy_chk$link1[(signed long int)((signed int)yy_base$link1[(signed long int)yy_current_state] + (signed int)yy_c)] == yy_current_state))
+      while(!((signed int)yy_chk_link1[(signed long int)((signed int)yy_base_link1[(signed long int)yy_current_state] + (signed int)yy_c)] == yy_current_state))
       {
-        yy_current_state = (signed int)yy_def$link1[(signed long int)yy_current_state];
+        yy_current_state = (signed int)yy_def_link1[(signed long int)yy_current_state];
         if(yy_current_state >= 11)
-          yy_c = (unsigned char)yy_meta$link1[(signed long int)(unsigned int)yy_c];
+          yy_c = (unsigned char)yy_meta_link1[(signed long int)(unsigned int)yy_c];
 
       }
-      yy_current_state = (signed int)yy_nxt$link1[(signed long int)((unsigned int)yy_base$link1[(signed long int)yy_current_state] + (unsigned int)yy_c)];
+      yy_current_state = (signed int)yy_nxt_link1[(signed long int)((unsigned int)yy_base_link1[(signed long int)yy_current_state] + (unsigned int)yy_c)];
       yy_cp = yy_cp + 1l;
       if(!(yy_current_state == 10))
         goto yy_match;
@@ -4102,7 +4102,7 @@ extern signed int cfl_lex(union value *yylval_param, void *yyscanner)
 
     yy_find_action:
       ;
-      yy_act = (signed int)yy_accept$link1[(signed long int)yy_current_state];
+      yy_act = (signed int)yy_accept_link1[(signed long int)yy_current_state];
       yyg->yytext_r = yy_bp;
       yyg->yyleng_r = (unsigned long int)(yy_cp - yy_bp);
       yyg->yy_hold_char = *yy_cp;
@@ -4110,7 +4110,7 @@ extern signed int cfl_lex(union value *yylval_param, void *yyscanner)
       yyg->yy_c_buf_p = yy_cp;
       if(!(yy_act == 5))
       {
-        if(!(yy_rule_can_match_eol$link1[(signed long int)yy_act] == 0))
+        if(!(yy_rule_can_match_eol_link1[(signed long int)yy_act] == 0))
         {
           unsigned long int yyl = (unsigned long int)0;
           for( ; !(yyl >= yyg->yyleng_r); yyl = yyl + 1ul)
@@ -4161,9 +4161,9 @@ extern signed int cfl_lex(union value *yylval_param, void *yyscanner)
 
       __CPROVER_DUMP_L20:
         ;
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(yyg->yytext_r);
-        if(return_value_strlen$2 >= 64ul)
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(yyg->yytext_r);
+        if(return_value_strlen_2 >= 64ul)
           return -1;
 
         strcpy(pp->tokbuff[(signed long int)pp->itok], yyg->yytext_r);
@@ -4183,8 +4183,8 @@ extern signed int cfl_lex(union value *yylval_param, void *yyscanner)
 
         __CPROVER_DUMP_L24:
           ;
-          unsigned long int return_value_fwrite$3;
-          return_value_fwrite$3=fwrite((const void *)yyg->yytext_r, yyg->yyleng_r, (unsigned long int)1, yyg->yyout_r);
+          unsigned long int return_value_fwrite_3;
+          return_value_fwrite_3=fwrite((const void *)yyg->yytext_r, yyg->yyleng_r, (unsigned long int)1, yyg->yyout_r);
         }
         while((_Bool)0);
         goto __CPROVER_DUMP_L38;
@@ -4208,8 +4208,8 @@ extern signed int cfl_lex(union value *yylval_param, void *yyscanner)
         {
           signed int yy_next_state;
           yyg->yy_c_buf_p = yyg->yytext_r + (signed long int)yy_amount_of_matched_text;
-          yy_current_state=yy_get_previous_state$link1(yyscanner);
-          yy_next_state=yy_try_NUL_trans$link1(yy_current_state, yyscanner);
+          yy_current_state=yy_get_previous_state_link1(yyscanner);
+          yy_next_state=yy_try_NUL_trans_link1(yy_current_state, yyscanner);
           yy_bp = yyg->yytext_r + (signed long int)0;
           if(!(yy_next_state == 0))
           {
@@ -4227,13 +4227,13 @@ extern signed int cfl_lex(union value *yylval_param, void *yyscanner)
           }
         }
 
-        return_value_yy_get_next_buffer$4=yy_get_next_buffer$link1(yyscanner);
-        if(!(return_value_yy_get_next_buffer$4 == 1))
+        return_value_yy_get_next_buffer_4=yy_get_next_buffer_link1(yyscanner);
+        if(!(return_value_yy_get_next_buffer_4 == 1))
         {
-          if(return_value_yy_get_next_buffer$4 == 0)
+          if(return_value_yy_get_next_buffer_4 == 0)
             goto __CPROVER_DUMP_L34;
 
-          if(return_value_yy_get_next_buffer$4 == 2)
+          if(return_value_yy_get_next_buffer_4 == 2)
             goto __CPROVER_DUMP_L35;
 
           goto __CPROVER_DUMP_L36;
@@ -4250,7 +4250,7 @@ extern signed int cfl_lex(union value *yylval_param, void *yyscanner)
     __CPROVER_DUMP_L34:
       ;
       yyg->yy_c_buf_p = yyg->yytext_r + (signed long int)yy_amount_of_matched_text;
-      yy_current_state=yy_get_previous_state$link1(yyscanner);
+      yy_current_state=yy_get_previous_state_link1(yyscanner);
       yy_cp = yyg->yy_c_buf_p;
       yy_bp = yyg->yytext_r + (signed long int)0;
     }
@@ -4259,7 +4259,7 @@ extern signed int cfl_lex(union value *yylval_param, void *yyscanner)
   __CPROVER_DUMP_L35:
     ;
     yyg->yy_c_buf_p = &yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_ch_buf[(signed long int)yyg->yy_n_chars];
-    yy_current_state=yy_get_previous_state$link1(yyscanner);
+    yy_current_state=yy_get_previous_state_link1(yyscanner);
     yy_cp = yyg->yy_c_buf_p;
     yy_bp = yyg->yytext_r + (signed long int)0;
     goto yy_find_action;
@@ -4270,7 +4270,7 @@ extern signed int cfl_lex(union value *yylval_param, void *yyscanner)
 
   __CPROVER_DUMP_L37:
     ;
-    yy_fatal_error$link1("fatal flex scanner internal error--no action found", yyscanner);
+    yy_fatal_error_link1("fatal flex scanner internal error--no action found", yyscanner);
 
   __CPROVER_DUMP_L38:
     ;
@@ -4282,24 +4282,24 @@ extern signed int cfl_lex(union value *yylval_param, void *yyscanner)
 signed int cfl_lex_destroy(void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_1;
+  struct yy_buffer_state *tmp_if_expr_2;
   do
   {
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
       break;
 
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    cfl__delete_buffer(tmp_if_expr$2, yyscanner);
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    cfl__delete_buffer(tmp_if_expr_2, yyscanner);
     yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top] = (struct yy_buffer_state *)(void *)0;
     cfl_pop_buffer_state(yyscanner);
   }
@@ -4308,7 +4308,7 @@ signed int cfl_lex_destroy(void *yyscanner)
   yyg->yy_buffer_stack = (struct yy_buffer_state **)(void *)0;
   cfl_free((void *)yyg->yy_start_stack, yyscanner);
   yyg->yy_start_stack = (signed int *)(void *)0;
-  yy_init_globals$link1(yyscanner);
+  yy_init_globals_link1(yyscanner);
   cfl_free(yyscanner, yyscanner);
   yyscanner = (void *)0;
   return 0;
@@ -4320,27 +4320,27 @@ signed int cfl_lex_init(void **ptr_yy_globals)
 {
   if(ptr_yy_globals == ((void **)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return 1;
   }
 
-  void *return_value_cfl_alloc$2;
-  return_value_cfl_alloc$2=cfl_alloc(sizeof(struct yyguts_t) /*160ul*/ , (void *)0);
-  *ptr_yy_globals = (void *)return_value_cfl_alloc$2;
+  void *return_value_cfl_alloc_2;
+  return_value_cfl_alloc_2=cfl_alloc(sizeof(struct yyguts_t) /*160ul*/ , (void *)0);
+  *ptr_yy_globals = (void *)return_value_cfl_alloc_2;
   if(*ptr_yy_globals == NULL)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 12;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 12;
     return 1;
   }
 
   memset(*ptr_yy_globals, 0x00, sizeof(struct yyguts_t) /*160ul*/ );
-  signed int return_value_yy_init_globals$4;
-  return_value_yy_init_globals$4=yy_init_globals$link1(*ptr_yy_globals);
-  return return_value_yy_init_globals$4;
+  signed int return_value_yy_init_globals_4;
+  return_value_yy_init_globals_4=yy_init_globals_link1(*ptr_yy_globals);
+  return return_value_yy_init_globals_4;
 }
 
 // cfl_lex_init_extra
@@ -4351,28 +4351,28 @@ signed int cfl_lex_init_extra(void *yy_user_defined, void **ptr_yy_globals)
   cfl_set_extra(yy_user_defined, (void *)&dummy_yyguts);
   if(ptr_yy_globals == ((void **)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return 1;
   }
 
-  void *return_value_cfl_alloc$2;
-  return_value_cfl_alloc$2=cfl_alloc(sizeof(struct yyguts_t) /*160ul*/ , (void *)&dummy_yyguts);
-  *ptr_yy_globals = (void *)return_value_cfl_alloc$2;
+  void *return_value_cfl_alloc_2;
+  return_value_cfl_alloc_2=cfl_alloc(sizeof(struct yyguts_t) /*160ul*/ , (void *)&dummy_yyguts);
+  *ptr_yy_globals = (void *)return_value_cfl_alloc_2;
   if(*ptr_yy_globals == NULL)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 12;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 12;
     return 1;
   }
 
   memset(*ptr_yy_globals, 0x00, sizeof(struct yyguts_t) /*160ul*/ );
   cfl_set_extra(yy_user_defined, *ptr_yy_globals);
-  signed int return_value_yy_init_globals$4;
-  return_value_yy_init_globals$4=yy_init_globals$link1(*ptr_yy_globals);
-  return return_value_yy_init_globals$4;
+  signed int return_value_yy_init_globals_4;
+  return_value_yy_init_globals_4=yy_init_globals_link1(*ptr_yy_globals);
+  return return_value_yy_init_globals_4;
 }
 
 // cfl_parse
@@ -4426,9 +4426,9 @@ yysetstate:
 
     signed short int *yyss1 = yyss;
     union yyalloc *yyptr;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(yystacksize * (sizeof(signed short int) /*2ul*/  + sizeof(union value) /*8ul*/ ) + (sizeof(union yyalloc) /*8ul*/  - (unsigned long int)1));
-    yyptr = (union yyalloc *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(yystacksize * (sizeof(signed short int) /*2ul*/  + sizeof(union value) /*8ul*/ ) + (sizeof(union yyalloc) /*8ul*/  - (unsigned long int)1));
+    yyptr = (union yyalloc *)return_value_malloc_1;
     if(yyptr == ((union yyalloc *)NULL))
       goto yyexhaustedlab;
 
@@ -4443,11 +4443,11 @@ yysetstate:
     while((_Bool)0);
     do
     {
-      unsigned long int cfl_parse$$1$$1$$1$$2$$yynewbytes;
+      unsigned long int cfl_parse__1__1__1__2__yynewbytes;
       __builtin_memcpy((void *)&yyptr->yyvs_alloc, (const void *)yyvs, yysize * sizeof(union value) /*8ul*/ );
       yyvs = &yyptr->yyvs_alloc;
-      cfl_parse$$1$$1$$1$$2$$yynewbytes = yystacksize * sizeof(union value) /*8ul*/  + (sizeof(union yyalloc) /*8ul*/  - (unsigned long int)1);
-      yyptr = yyptr + (signed long int)(cfl_parse$$1$$1$$1$$2$$yynewbytes / sizeof(union yyalloc) /*8ul*/ );
+      cfl_parse__1__1__1__2__yynewbytes = yystacksize * sizeof(union value) /*8ul*/  + (sizeof(union yyalloc) /*8ul*/  - (unsigned long int)1);
+      yyptr = yyptr + (signed long int)(cfl_parse__1__1__1__2__yynewbytes / sizeof(union yyalloc) /*8ul*/ );
     }
     while((_Bool)0);
     if(!(yyss1 == yyssa))
@@ -4460,17 +4460,17 @@ yysetstate:
 
   }
 
-  signed int tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  signed int tmp_if_expr$6;
-  signed int tmp_if_expr$5;
+  signed int tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  signed int tmp_if_expr_6;
+  signed int tmp_if_expr_5;
   if(!(yystate == 4))
   {
 
   yybackup:
     ;
-    yyn = (signed int)yypact$link1[(signed long int)yystate];
+    yyn = (signed int)yypact_link1[(signed long int)yystate];
     if(!(yyn == -7))
     {
       if(yychar == -2)
@@ -4485,21 +4485,21 @@ yysetstate:
       else
       {
         if(!((unsigned int)yychar >= 259u))
-          tmp_if_expr$2 = (signed int)yytranslate$link1[(signed long int)yychar];
+          tmp_if_expr_2 = (signed int)yytranslate_link1[(signed long int)yychar];
 
         else
-          tmp_if_expr$2 = 2;
-        yytoken = tmp_if_expr$2;
+          tmp_if_expr_2 = 2;
+        yytoken = tmp_if_expr_2;
       }
       yyn = yyn + yytoken;
       if(yyn >= 9 || !(yyn >= 0))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)yycheck$link1[(signed long int)yyn] != yytoken ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)yycheck_link1[(signed long int)yyn] != yytoken ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_3)
       {
-        yyn = (signed int)yytable$link1[(signed long int)yyn];
+        yyn = (signed int)yytable_link1[(signed long int)yyn];
         if(!(yyn >= 1))
         {
           yyn = -yyn;
@@ -4521,13 +4521,13 @@ yysetstate:
 
   yydefault:
     ;
-    yyn = (signed int)yydefact$link1[(signed long int)yystate];
+    yyn = (signed int)yydefact_link1[(signed long int)yystate];
     if(!(yyn == 0))
     {
 
     yyreduce:
       ;
-      yylen = (signed int)yyr2$link1[(signed long int)yyn];
+      yylen = (signed int)yyr2_link1[(signed long int)yyn];
       yyval = yyvsp[(signed long int)(1 - yylen)];
       switch(yyn)
       {
@@ -4544,18 +4544,18 @@ yysetstate:
       yylen = 0;
       yyvsp = yyvsp + 1l;
       *yyvsp = yyval;
-      yyn = (signed int)yyr1$link1[(signed long int)yyn];
-      yystate = (signed int)yypgoto$link1[(signed long int)(yyn - 5)] + (signed int)*yyssp;
+      yyn = (signed int)yyr1_link1[(signed long int)yyn];
+      yystate = (signed int)yypgoto_link1[(signed long int)(yyn - 5)] + (signed int)*yyssp;
       if(yystate >= 0 && !(yystate >= 9))
-        tmp_if_expr$4 = (signed int)yycheck$link1[(signed long int)yystate] == (signed int)*yyssp ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (signed int)yycheck_link1[(signed long int)yystate] == (signed int)*yyssp ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
-        yystate = (signed int)yytable$link1[(signed long int)yystate];
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
+        yystate = (signed int)yytable_link1[(signed long int)yystate];
 
       else
-        yystate = (signed int)yydefgoto$link1[(signed long int)(yyn - 5)];
+        yystate = (signed int)yydefgoto_link1[(signed long int)(yyn - 5)];
       goto yynewstate;
     }
 
@@ -4563,18 +4563,18 @@ yysetstate:
   yyerrlab:
     ;
     if(yychar == -2)
-      tmp_if_expr$6 = -2;
+      tmp_if_expr_6 = -2;
 
     else
     {
       if(!((unsigned int)yychar >= 259u))
-        tmp_if_expr$5 = (signed int)yytranslate$link1[(signed long int)yychar];
+        tmp_if_expr_5 = (signed int)yytranslate_link1[(signed long int)yychar];
 
       else
-        tmp_if_expr$5 = 2;
-      tmp_if_expr$6 = tmp_if_expr$5;
+        tmp_if_expr_5 = 2;
+      tmp_if_expr_6 = tmp_if_expr_5;
     }
-    yytoken = tmp_if_expr$6;
+    yytoken = tmp_if_expr_6;
     if(yyerrstatus == 0)
     {
       cfl_nerrs = cfl_nerrs + 1;
@@ -4592,7 +4592,7 @@ yysetstate:
 
       else
       {
-        yydestruct$link1("Error: discarding", yytoken, &yylval, pp);
+        yydestruct_link1("Error: discarding", yytoken, &yylval, pp);
         yychar = -2;
       }
     }
@@ -4611,15 +4611,15 @@ yysetstate:
     yyerrstatus = 3;
     do
     {
-      yyn = (signed int)yypact$link1[(signed long int)yystate];
+      yyn = (signed int)yypact_link1[(signed long int)yystate];
       if(!(yyn == -7))
       {
         yyn = yyn + 1;
         if(yyn >= 0 && !(yyn >= 9))
         {
-          if((signed int)yycheck$link1[(signed long int)yyn] == 1)
+          if((signed int)yycheck_link1[(signed long int)yyn] == 1)
           {
-            yyn = (signed int)yytable$link1[(signed long int)yyn];
+            yyn = (signed int)yytable_link1[(signed long int)yyn];
             if(yyn >= 1)
               break;
 
@@ -4632,7 +4632,7 @@ yysetstate:
       if(yyssp == yyss)
         goto yyabortlab;
 
-      yydestruct$link1("Error: popping", (signed int)yystos$link1[(signed long int)yystate], yyvsp, pp);
+      yydestruct_link1("Error: popping", (signed int)yystos_link1[(signed long int)yystate], yyvsp, pp);
       yyvsp = yyvsp - (signed long int)1;
       yyssp = yyssp - (signed long int)1;
       yystate = (signed int)*yyssp;
@@ -4662,23 +4662,23 @@ yyexhaustedlab:
 
 yyreturn:
   ;
-  signed int tmp_if_expr$7;
+  signed int tmp_if_expr_7;
   if(!(yychar == -2))
   {
     if(!((unsigned int)yychar >= 259u))
-      tmp_if_expr$7 = (signed int)yytranslate$link1[(signed long int)yychar];
+      tmp_if_expr_7 = (signed int)yytranslate_link1[(signed long int)yychar];
 
     else
-      tmp_if_expr$7 = 2;
-    yytoken = tmp_if_expr$7;
-    yydestruct$link1("Cleanup: discarding lookahead", yytoken, &yylval, pp);
+      tmp_if_expr_7 = 2;
+    yytoken = tmp_if_expr_7;
+    yydestruct_link1("Cleanup: discarding lookahead", yytoken, &yylval, pp);
   }
 
   yyvsp = yyvsp - (signed long int)yylen;
   yyssp = yyssp - (signed long int)yylen;
   for( ; !(yyssp == yyss); yyssp = yyssp - (signed long int)1)
   {
-    yydestruct$link1("Cleanup: popping", (signed int)yystos$link1[(signed long int)*yyssp], yyvsp, pp);
+    yydestruct_link1("Cleanup: popping", (signed int)yystos_link1[(signed long int)*yyssp], yyvsp, pp);
     yyvsp = yyvsp - (signed long int)1;
   }
   if(!(yyss == yyssa))
@@ -4692,32 +4692,32 @@ yyreturn:
 void cfl_pop_buffer_state(void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  struct yy_buffer_state *tmp_if_expr$2;
-  struct yy_buffer_state *tmp_if_expr$3;
-  if(!(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL)))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  struct yy_buffer_state *tmp_if_expr_2;
+  struct yy_buffer_state *tmp_if_expr_3;
+  if(!(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL)))
   {
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    cfl__delete_buffer(tmp_if_expr$2, yyscanner);
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    cfl__delete_buffer(tmp_if_expr_2, yyscanner);
     yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top] = (struct yy_buffer_state *)(void *)0;
     if(yyg->yy_buffer_stack_top >= 1ul)
       yyg->yy_buffer_stack_top = yyg->yy_buffer_stack_top - 1ul;
 
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$3 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_3 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$3 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$3 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_3 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_3 == ((struct yy_buffer_state *)NULL)))
     {
       cfl__load_buffer_state(yyscanner);
       yyg->yy_did_buffer_switch_on_eof = 1;
@@ -4732,17 +4732,17 @@ void cfl_pop_buffer_state(void *yyscanner)
 void cfl_push_buffer_state(struct yy_buffer_state *new_buffer, void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_1;
+  struct yy_buffer_state *tmp_if_expr_2;
   if(!(new_buffer == ((struct yy_buffer_state *)NULL)))
   {
     cfl_ensure_buffer_stack(yyscanner);
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL)))
     {
       *yyg->yy_c_buf_p = yyg->yy_hold_char;
       yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_buf_pos = yyg->yy_c_buf_p;
@@ -4750,11 +4750,11 @@ void cfl_push_buffer_state(struct yy_buffer_state *new_buffer, void *yyscanner)
     }
 
     if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+      tmp_if_expr_2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$2 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_2 == ((struct yy_buffer_state *)NULL)))
       yyg->yy_buffer_stack_top = yyg->yy_buffer_stack_top + 1ul;
 
     yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top] = new_buffer;
@@ -4769,9 +4769,9 @@ void cfl_push_buffer_state(struct yy_buffer_state *new_buffer, void *yyscanner)
 void * cfl_realloc(void *ptr, unsigned long int size, void *yyscanner)
 {
   (void)yyscanner;
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc(ptr, size);
-  return return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc(ptr, size);
+  return return_value_realloc_1;
 }
 
 // cfl_restart
@@ -4779,25 +4779,25 @@ void * cfl_realloc(void *ptr, unsigned long int size, void *yyscanner)
 void cfl_restart(struct _IO_FILE *input_file, void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
   {
     cfl_ensure_buffer_stack(yyscanner);
     yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]=cfl__create_buffer(yyg->yyin_r, 16384, yyscanner);
   }
 
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_2;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_2 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-  cfl__init_buffer(tmp_if_expr$2, input_file, yyscanner);
+    tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+  cfl__init_buffer(tmp_if_expr_2, input_file, yyscanner);
   cfl__load_buffer_state(yyscanner);
 }
 
@@ -4806,14 +4806,14 @@ void cfl_restart(struct _IO_FILE *input_file, void *yyscanner)
 void cfl_set_column(signed int column_no, void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
-    yy_fatal_error$link1("cfl_set_column called with no buffer", yyscanner);
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
+    yy_fatal_error_link1("cfl_set_column called with no buffer", yyscanner);
 
   yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_bs_column = column_no;
 }
@@ -4847,14 +4847,14 @@ void cfl_set_in(struct _IO_FILE *in_str, void *yyscanner)
 void cfl_set_lineno(signed int line_number, void *yyscanner)
 {
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yyg->yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
+    tmp_if_expr_1 = yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
-    yy_fatal_error$link1("cfl_set_lineno called with no buffer", yyscanner);
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
+    yy_fatal_error_link1("cfl_set_lineno called with no buffer", yyscanner);
 
   yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_bs_lineno = line_number;
 }
@@ -4891,9 +4891,9 @@ static signed int configure_egd_acq(struct acq *acq)
     egd_channel_info(dev, stype, (unsigned int)0, 5, &isint, 0);
     acq->grp[(signed long int)i].sensortype = stype;
     acq->grp[(signed long int)i].index = (unsigned int)0;
-    signed int return_value_egd_get_numch$1;
-    return_value_egd_get_numch$1=egd_get_numch(dev, stype);
-    acq->grp[(signed long int)i].nch = (unsigned int)return_value_egd_get_numch$1;
+    signed int return_value_egd_get_numch_1;
+    return_value_egd_get_numch_1=egd_get_numch(dev, stype);
+    acq->grp[(signed long int)i].nch = (unsigned int)return_value_egd_get_numch_1;
     acq->grp[(signed long int)i].iarray = (unsigned int)i;
     acq->grp[(signed long int)i].arr_offset = (unsigned int)0;
     acq->grp[(signed long int)i].datatype = isint != 0 ? 0 : 1;
@@ -4935,15 +4935,15 @@ signed int egd_acq_setup(struct eegdev *dev, unsigned int narr, const unsigned l
 {
   signed int acquiring;
   signed int retval = -1;
-  signed int return_value_reterrno$1;
-  signed int return_value_reterrno$2;
-  void *return_value_malloc$4;
+  signed int return_value_reterrno_1;
+  signed int return_value_reterrno_2;
+  void *return_value_malloc_4;
   signed int return_value;
-  void *return_value_malloc$5;
+  void *return_value_malloc_5;
   if(dev == ((struct eegdev *)NULL) || grp == ((struct grpconf *)NULL) && !(ngrp == 0u) || strides == ((const unsigned long int *)NULL) && !(narr == 0u))
   {
-    return_value_reterrno$1=reterrno(22);
-    return return_value_reterrno$1;
+    return_value_reterrno_1=reterrno(22);
+    return return_value_reterrno_1;
   }
 
   else
@@ -4953,20 +4953,20 @@ signed int egd_acq_setup(struct eegdev *dev, unsigned int narr, const unsigned l
     pthread_mutex_unlock(&dev->synclock);
     if(!(acquiring == 0))
     {
-      return_value_reterrno$2=reterrno(1);
-      return return_value_reterrno$2;
+      return_value_reterrno_2=reterrno(1);
+      return return_value_reterrno_2;
     }
 
     else
     {
       pthread_mutex_lock(&dev->apilock);
-      signed int return_value_validate_groups_settings$3;
-      return_value_validate_groups_settings$3=validate_groups_settings(dev, ngrp, grp);
-      if(return_value_validate_groups_settings$3 == 0)
+      signed int return_value_validate_groups_settings_3;
+      return_value_validate_groups_settings_3=validate_groups_settings(dev, ngrp, grp);
+      if(return_value_validate_groups_settings_3 == 0)
       {
         free((void *)dev->strides);
-        return_value_malloc$4=malloc((unsigned long int)narr * sizeof(const unsigned long int) /*8ul*/ );
-        dev->strides = (unsigned long int *)return_value_malloc$4;
+        return_value_malloc_4=malloc((unsigned long int)narr * sizeof(const unsigned long int) /*8ul*/ );
+        dev->strides = (unsigned long int *)return_value_malloc_4;
         if(!(dev->strides == ((unsigned long int *)NULL)))
         {
           dev->narr = narr;
@@ -4978,8 +4978,8 @@ signed int egd_acq_setup(struct eegdev *dev, unsigned int narr, const unsigned l
             free((void *)dev->buffer);
             dev->buff_ns = (unsigned long int)((unsigned int)10 * dev->cap.sampling_freq);
             dev->buffsize = (unsigned long int)((unsigned int)10 * dev->cap.sampling_freq) * dev->buff_samlen;
-            return_value_malloc$5=malloc(dev->buffsize);
-            dev->buffer = (char *)return_value_malloc$5;
+            return_value_malloc_5=malloc(dev->buffsize);
+            dev->buffer = (char *)return_value_malloc_5;
             if(!(dev->buffer == ((char *)NULL)))
               retval = 0;
 
@@ -5010,29 +5010,29 @@ signed int egd_channel_info(struct eegdev *dev, signed int stype, unsigned int i
   struct egd_chinfo chinfo = { .label=(const char *)(void *)0, .unit=((const char *)NULL), .transducter=((const char *)NULL),
     .prefiltering=((const char *)NULL), .isint=(_Bool)0,
     .dtype=0, .min={ .valdouble=0.000000 }, .max={ .valdouble=0.000000 } };
-  union anonymous$4 *apilock = (union anonymous$4 *)&dev->apilock;
-  signed int return_value_reterrno$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_reterrno$2;
-  _Bool tmp_if_expr$4;
+  union anonymous_4 *apilock = (union anonymous_4 *)&dev->apilock;
+  signed int return_value_reterrno_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_reterrno_2;
+  _Bool tmp_if_expr_4;
   if(dev == ((struct eegdev *)NULL))
   {
-    return_value_reterrno$1=reterrno(22);
-    return return_value_reterrno$1;
+    return_value_reterrno_1=reterrno(22);
+    return return_value_reterrno_1;
   }
 
   else
   {
     nmax = dev->cap.type_nch;
     if(stype >= 3 || !(stype >= 0))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = index >= nmax[(signed long int)stype] ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = index >= nmax[(signed long int)stype] ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
-      return_value_reterrno$2=reterrno(22);
-      return return_value_reterrno$2;
+      return_value_reterrno_2=reterrno(22);
+      return return_value_reterrno_2;
     }
 
     else
@@ -5046,14 +5046,14 @@ signed int egd_channel_info(struct eegdev *dev, signed int stype, unsigned int i
       if(retval == 0 && !(field == 0))
       {
         if(field >= 9 || !(field >= 0))
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
           arg=va_arg(ap, __typeof__(arg));
-          tmp_if_expr$4 = arg == (void *)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = arg == (void *)0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
           retval=reterrno(22);
 
         else
@@ -5077,9 +5077,9 @@ signed int egd_close(struct eegdev *dev)
   signed int acquiring;
   if(dev == ((struct eegdev *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -5121,12 +5121,12 @@ signed long int egd_get_available(struct eegdev *dev)
 {
   signed int ns;
   signed int error;
-  signed int return_value_reterrno$1;
-  signed int return_value_reterrno$2;
+  signed int return_value_reterrno_1;
+  signed int return_value_reterrno_2;
   if(dev == ((struct eegdev *)NULL))
   {
-    return_value_reterrno$1=reterrno(22);
-    return (signed long int)return_value_reterrno$1;
+    return_value_reterrno_1=reterrno(22);
+    return (signed long int)return_value_reterrno_1;
   }
 
   else
@@ -5137,8 +5137,8 @@ signed long int egd_get_available(struct eegdev *dev)
     pthread_mutex_unlock(&dev->synclock);
     if(ns == 0 && !(error == 0))
     {
-      return_value_reterrno$2=reterrno(error);
-      return (signed long int)return_value_reterrno$2;
+      return_value_reterrno_2=reterrno(error);
+      return (signed long int)return_value_reterrno_2;
     }
 
     else
@@ -5151,13 +5151,13 @@ signed long int egd_get_available(struct eegdev *dev)
 signed int egd_get_cap(struct eegdev *dev, signed int cap, void *val)
 {
   signed int retval = 0;
-  signed int return_value_reterrno$1;
-  unsigned long int return_value_strlen$2;
-  unsigned long int return_value_strlen$3;
+  signed int return_value_reterrno_1;
+  unsigned long int return_value_strlen_2;
+  unsigned long int return_value_strlen_3;
   if(dev == ((struct eegdev *)NULL) || val == NULL && !(cap == 0))
   {
-    return_value_reterrno$1=reterrno(22);
-    return return_value_reterrno$1;
+    return_value_reterrno_1=reterrno(22);
+    return return_value_reterrno_1;
   }
 
   else
@@ -5181,23 +5181,23 @@ signed int egd_get_cap(struct eegdev *dev, signed int cap, void *val)
       case 2:
       {
         *((const char **)val) = dev->cap.device_type;
-        return_value_strlen$2=strlen(dev->cap.device_type);
-        retval = (signed int)return_value_strlen$2;
+        return_value_strlen_2=strlen(dev->cap.device_type);
+        retval = (signed int)return_value_strlen_2;
         break;
       }
       case 3:
       {
         *((const char **)val) = dev->cap.device_id;
-        return_value_strlen$3=strlen(dev->cap.device_id);
-        retval = (signed int)return_value_strlen$3;
+        return_value_strlen_3=strlen(dev->cap.device_id);
+        retval = (signed int)return_value_strlen_3;
         break;
       }
       default:
       {
         retval = -1;
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        *return_value___errno_location$4 = 22;
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        *return_value___errno_location_4 = 22;
       }
     }
     return retval;
@@ -5222,12 +5222,12 @@ void (*egd_get_cast_fn(unsigned int itype, unsigned int otype, unsigned int scal
 // file ../../src/core/eegdev.h line 87
 signed long int egd_get_data(struct eegdev *dev, unsigned long int ns, ...)
 {
-  signed int return_value_reterrno$1;
-  signed int return_value_reterrno$2;
+  signed int return_value_reterrno_1;
+  signed int return_value_reterrno_2;
   if(dev == ((struct eegdev *)NULL))
   {
-    return_value_reterrno$1=reterrno(22);
-    return (signed long int)return_value_reterrno$1;
+    return_value_reterrno_1=reterrno(22);
+    return (signed long int)return_value_reterrno_1;
   }
 
   else
@@ -5238,8 +5238,8 @@ signed long int egd_get_data(struct eegdev *dev, unsigned long int ns, ...)
     unsigned int curr_s = dev->last_read;
     struct array_config * restrict ac = dev->arrconf;
     char * restrict ringbuffer = dev->buffer;
-    const signed long int ringbuffer$array_size0 = (signed long int)dev->narr;
-    char * restrict buffout[ringbuffer$array_size0];
+    const signed long int ringbuffer_array_size0 = (signed long int)dev->narr;
+    char * restrict buffout[ringbuffer_array_size0];
     __builtin_va_list ap;
     signed int error;
     va_start(ap, ns);
@@ -5250,8 +5250,8 @@ signed long int egd_get_data(struct eegdev *dev, unsigned long int ns, ...)
     error=wait_for_data(dev, &ns);
     if(ns == 0ul && !(error == 0))
     {
-      return_value_reterrno$2=reterrno(error);
-      return (signed long int)return_value_reterrno$2;
+      return_value_reterrno_2=reterrno(error);
+      return (signed long int)return_value_reterrno_2;
     }
 
     else
@@ -5302,11 +5302,11 @@ static inline unsigned int egd_get_data_size(unsigned int type)
 // file ../../src/core/eegdev.h line 79
 signed int egd_get_numch(struct eegdev *dev, signed int stype)
 {
-  signed int return_value_reterrno$1;
+  signed int return_value_reterrno_1;
   if(dev == ((struct eegdev *)NULL) || stype >= 3 || !(stype >= 0))
   {
-    return_value_reterrno$1=reterrno(22);
-    return return_value_reterrno$1;
+    return_value_reterrno_1=reterrno(22);
+    return return_value_reterrno_1;
   }
 
   else
@@ -5327,19 +5327,19 @@ struct eegdev * egd_open(const char *confstring)
   struct conf cf;
   struct eegdev *dev = (struct eegdev *)(void *)0;
   const char *device;
-  signed int return_value_init_configuration$1;
-  return_value_init_configuration$1=init_configuration(&cf, confstring);
-  _Bool tmp_if_expr$3;
-  signed int return_value_load_configuration_file$2;
-  if(!(return_value_init_configuration$1 == 0))
-    tmp_if_expr$3 = (_Bool)1;
+  signed int return_value_init_configuration_1;
+  return_value_init_configuration_1=init_configuration(&cf, confstring);
+  _Bool tmp_if_expr_3;
+  signed int return_value_load_configuration_file_2;
+  if(!(return_value_init_configuration_1 == 0))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_load_configuration_file$2=load_configuration_file(&cf, "eegdev.conf", 1);
-    tmp_if_expr$3 = return_value_load_configuration_file$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_load_configuration_file_2=load_configuration_file(&cf, "eegdev.conf", 1);
+    tmp_if_expr_3 = return_value_load_configuration_file_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
   {
     free_configuration(&cf);
     return (struct eegdev *)(void *)0;
@@ -5348,9 +5348,9 @@ struct eegdev * egd_open(const char *confstring)
   else
   {
     device=get_conf_setting(&cf, "device", "any");
-    signed int return_value_strcmp$4;
-    return_value_strcmp$4=strcmp(device, "any");
-    if(return_value_strcmp$4 == 0)
+    signed int return_value_strcmp_4;
+    return_value_strcmp_4=strcmp(device, "any");
+    if(return_value_strcmp_4 == 0)
       dev=open_any(&cf);
 
     else
@@ -5369,9 +5369,9 @@ const char * egd_sensor_name(signed int stype)
     if(curr->stype == stype)
       return curr->name;
 
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 22;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 22;
   return (const char *)(void *)0;
 }
 
@@ -5383,9 +5383,9 @@ signed int egd_sensor_type(const char *name)
   struct sensor_type *curr = &first;
   if(name == ((const char *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -5393,9 +5393,9 @@ signed int egd_sensor_type(const char *name)
   while(!(curr->next == ((struct sensor_type *)NULL)))
   {
     curr = curr->next;
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(name, curr->name);
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(name, curr->name);
+    if(return_value_strcmp_2 == 0)
       return curr->stype;
 
   }
@@ -5410,12 +5410,12 @@ signed int egd_sensor_type(const char *name)
 signed int egd_start(struct eegdev *dev)
 {
   signed int acquiring;
-  signed int return_value_reterrno$1;
-  signed int return_value_reterrno$2;
+  signed int return_value_reterrno_1;
+  signed int return_value_reterrno_2;
   if(dev == ((struct eegdev *)NULL))
   {
-    return_value_reterrno$1=reterrno(22);
-    return return_value_reterrno$1;
+    return_value_reterrno_1=reterrno(22);
+    return return_value_reterrno_1;
   }
 
   else
@@ -5425,8 +5425,8 @@ signed int egd_start(struct eegdev *dev)
     pthread_mutex_unlock(&dev->synclock);
     if(!(acquiring == 0))
     {
-      return_value_reterrno$2=reterrno(1);
-      return return_value_reterrno$2;
+      return_value_reterrno_2=reterrno(1);
+      return return_value_reterrno_2;
     }
 
     else
@@ -5448,12 +5448,12 @@ signed int egd_start(struct eegdev *dev)
 signed int egd_stop(struct eegdev *dev)
 {
   signed int acquiring;
-  signed int return_value_reterrno$1;
-  signed int return_value_reterrno$2;
+  signed int return_value_reterrno_1;
+  signed int return_value_reterrno_2;
   if(dev == ((struct eegdev *)NULL))
   {
-    return_value_reterrno$1=reterrno(22);
-    return return_value_reterrno$1;
+    return_value_reterrno_1=reterrno(22);
+    return return_value_reterrno_1;
   }
 
   else
@@ -5463,8 +5463,8 @@ signed int egd_stop(struct eegdev *dev)
     pthread_mutex_unlock(&dev->synclock);
     if(acquiring == 0)
     {
-      return_value_reterrno$2=reterrno(1);
-      return return_value_reterrno$2;
+      return_value_reterrno_2=reterrno(1);
+      return return_value_reterrno_2;
     }
 
     else
@@ -5485,13 +5485,13 @@ void egd_update_capabilities(struct eegdev *dev)
   signed int stype;
   unsigned int num_stypes = (unsigned int)0;
   stype = 0;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   for( ; !(stype >= 3); stype = stype + 1)
     if(dev->cap.type_nch[(signed long int)stype] >= 1u)
     {
-      tmp_post$1 = num_stypes;
+      tmp_post_1 = num_stypes;
       num_stypes = num_stypes + 1u;
-      dev->provided_stypes[(signed long int)tmp_post$1] = stype;
+      dev->provided_stypes[(signed long int)tmp_post_1] = stype;
     }
 
   dev->provided_stypes[(signed long int)num_stypes] = -1;
@@ -5507,12 +5507,12 @@ signed int egdi_add_setting(struct egdi_config *cf, const char *name, const char
   unsigned int nmax;
   void *newbuff;
   struct setting *set;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  nlen = return_value_strlen$1 + (unsigned long int)1;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(value);
-  vlen = return_value_strlen$2 + (unsigned long int)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  nlen = return_value_strlen_1 + (unsigned long int)1;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(value);
+  vlen = return_value_strlen_2 + (unsigned long int)1;
   for( ; !(cf->maxsize >= cf->cursize + nlen + vlen); cf->buffer = (char *)newbuff)
   {
     newbuff=realloc((void *)cf->buffer, cf->maxsize + (unsigned long int)1024);
@@ -5553,28 +5553,28 @@ struct selected_channels * egdi_alloc_input_groups(struct devmodule *mdev, unsig
   dev->ngrp = ngrp;
   dev->nconf = dev->ngrp;
   dev->nsel = dev->nconf;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)ngrp, sizeof(struct selected_channels) /*40ul*/ );
-  dev->selch = (struct selected_channels *)return_value_calloc$1;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)ngrp, sizeof(struct input_buffer_group) /*40ul*/ );
-  dev->inbuffgrp = (struct input_buffer_group *)return_value_calloc$2;
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc((unsigned long int)ngrp, sizeof(struct array_config) /*16ul*/ );
-  dev->arrconf = (struct array_config *)return_value_calloc$3;
-  _Bool tmp_if_expr$4;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)ngrp, sizeof(struct selected_channels) /*40ul*/ );
+  dev->selch = (struct selected_channels *)return_value_calloc_1;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)ngrp, sizeof(struct input_buffer_group) /*40ul*/ );
+  dev->inbuffgrp = (struct input_buffer_group *)return_value_calloc_2;
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc((unsigned long int)ngrp, sizeof(struct array_config) /*16ul*/ );
+  dev->arrconf = (struct array_config *)return_value_calloc_3;
+  _Bool tmp_if_expr_4;
   if(dev->selch == ((struct selected_channels *)NULL))
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = !(dev->inbuffgrp != ((struct input_buffer_group *)NULL)) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_4 = !(dev->inbuffgrp != ((struct input_buffer_group *)NULL)) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = !(dev->arrconf != ((struct array_config *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = !(dev->arrconf != ((struct array_config *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_5)
     return (struct selected_channels *)(void *)0;
 
   else
@@ -5590,78 +5590,78 @@ struct eegdev * egdi_create_eegdev(struct egdi_plugin_info *info)
   struct eegdev_operations ops;
   struct core_interface *ci;
   unsigned long int dsize = ((unsigned long int)info->struct_size + sizeof(struct eegdev) /*424ul*/ ) - sizeof(struct devmodule) /*48ul*/ ;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, dsize);
-  dev = (struct eegdev *)return_value_calloc$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_pthread_cond_init$2;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, dsize);
+  dev = (struct eegdev *)return_value_calloc_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_pthread_cond_init_2;
   if(dev == ((struct eegdev *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_pthread_cond_init$2=pthread_cond_init(&dev->available, (const union anonymous$6 *)(void *)0);
-    tmp_if_expr$3 = return_value_pthread_cond_init$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pthread_cond_init_2=pthread_cond_init(&dev->available, (const union anonymous_6 *)(void *)0);
+    tmp_if_expr_3 = return_value_pthread_cond_init_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
-
-  else
-  {
-    stinit = stinit + 1;
-    tmp_if_expr$4 = !(stinit != 0) ? (_Bool)1 : (_Bool)0;
-  }
-  _Bool tmp_if_expr$6;
-  signed int return_value_pthread_mutex_init$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$6 = (_Bool)1;
-
-  else
-  {
-    return_value_pthread_mutex_init$5=pthread_mutex_init(&dev->synclock, (const union anonymous$6 *)(void *)0);
-    tmp_if_expr$6 = return_value_pthread_mutex_init$5 != 0 ? (_Bool)1 : (_Bool)0;
-  }
-  _Bool tmp_if_expr$7;
-  if(tmp_if_expr$6)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
     stinit = stinit + 1;
-    tmp_if_expr$7 = !(stinit != 0) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = !(stinit != 0) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$9;
-  signed int return_value_pthread_mutex_init$8;
-  if(tmp_if_expr$7)
-    tmp_if_expr$9 = (_Bool)1;
+  _Bool tmp_if_expr_6;
+  signed int return_value_pthread_mutex_init_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
   {
-    return_value_pthread_mutex_init$8=pthread_mutex_init(&dev->apilock, (const union anonymous$6 *)(void *)0);
-    tmp_if_expr$9 = return_value_pthread_mutex_init$8 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_pthread_mutex_init_5=pthread_mutex_init(&dev->synclock, (const union anonymous_6 *)(void *)0);
+    tmp_if_expr_6 = return_value_pthread_mutex_init_5 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  signed int (*tmp_if_expr$10)(struct devmodule *);
-  signed int (*tmp_if_expr$11)(struct devmodule *);
-  signed int tmp_post$12;
-  signed int tmp_post$13;
-  if(!tmp_if_expr$9)
+  _Bool tmp_if_expr_7;
+  if(tmp_if_expr_6)
+    tmp_if_expr_7 = (_Bool)1;
+
+  else
+  {
+    stinit = stinit + 1;
+    tmp_if_expr_7 = !(stinit != 0) ? (_Bool)1 : (_Bool)0;
+  }
+  _Bool tmp_if_expr_9;
+  signed int return_value_pthread_mutex_init_8;
+  if(tmp_if_expr_7)
+    tmp_if_expr_9 = (_Bool)1;
+
+  else
+  {
+    return_value_pthread_mutex_init_8=pthread_mutex_init(&dev->apilock, (const union anonymous_6 *)(void *)0);
+    tmp_if_expr_9 = return_value_pthread_mutex_init_8 != 0 ? (_Bool)1 : (_Bool)0;
+  }
+  signed int (*tmp_if_expr_10)(struct devmodule *);
+  signed int (*tmp_if_expr_11)(struct devmodule *);
+  signed int tmp_post_12;
+  signed int tmp_post_13;
+  if(!tmp_if_expr_9)
   {
     ops.close_device = info->close_device;
     ops.set_channel_groups = info->set_channel_groups;
     ops.fill_chinfo = info->fill_chinfo;
     if(!(info->start_acq == ((signed int (*)(struct devmodule *))NULL)))
-      tmp_if_expr$10 = info->start_acq;
+      tmp_if_expr_10 = info->start_acq;
 
     else
-      tmp_if_expr$10 = noaction;
-    ops.start_acq = tmp_if_expr$10;
+      tmp_if_expr_10 = noaction;
+    ops.start_acq = tmp_if_expr_10;
     if(!(info->stop_acq == ((signed int (*)(struct devmodule *))NULL)))
-      tmp_if_expr$11 = info->stop_acq;
+      tmp_if_expr_11 = info->stop_acq;
 
     else
-      tmp_if_expr$11 = noaction;
-    ops.stop_acq = tmp_if_expr$11;
+      tmp_if_expr_11 = noaction;
+    ops.stop_acq = tmp_if_expr_11;
     memcpy((void *)&dev->ops, (const void *)&ops, sizeof(struct eegdev_operations) /*40ul*/ );
     ci = (struct core_interface *)&dev->module.ci;
     ci->update_ringbuffer = egdi_update_ringbuffer;
@@ -5678,14 +5678,14 @@ struct eegdev * egdi_create_eegdev(struct egdi_plugin_info *info)
 
   fail:
     ;
-    tmp_post$12 = stinit;
+    tmp_post_12 = stinit;
     stinit = stinit - 1;
-    if(!(tmp_post$12 == 0))
+    if(!(tmp_post_12 == 0))
       pthread_mutex_destroy(&dev->synclock);
 
-    tmp_post$13 = stinit;
+    tmp_post_13 = stinit;
     stinit = stinit - 1;
-    if(!(tmp_post$13 == 0))
+    if(!(tmp_post_13 == 0))
       pthread_cond_destroy(&dev->available);
 
     free((void *)dev);
@@ -5714,9 +5714,9 @@ const char * egdi_get_setting_value(struct egdi_config *cf, const char *name)
   while(!(i == 0u))
   {
     i = i - 1u;
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(buff + (signed long int)(cf->settings + (signed long int)i)->c_offset, name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(buff + (signed long int)(cf->settings + (signed long int)i)->c_offset, name);
+    if(return_value_strcmp_1 == 0)
       return buff + (signed long int)(cf->settings + (signed long int)i)->v_offset;
 
   }
@@ -5747,22 +5747,22 @@ signed int egdi_parse_conffile(struct egdi_config *cf, const char *filename)
   fp=fopen(filename, "r");
   if(fp == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(*return_value___errno_location$2 == 2)
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(*return_value___errno_location_2 == 2)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 0;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 0;
       return 0;
     }
 
     return -1;
   }
 
-  signed int return_value_cff_lex_init_extra$3;
-  return_value_cff_lex_init_extra$3=cff_lex_init_extra((void *)&p, &p.scaninfo);
-  if(!(return_value_cff_lex_init_extra$3 == 0))
+  signed int return_value_cff_lex_init_extra_3;
+  return_value_cff_lex_init_extra_3=cff_lex_init_extra((void *)&p, &p.scaninfo);
+  if(!(return_value_cff_lex_init_extra_3 == 0))
   {
     fclose(fp);
     return -1;
@@ -5792,9 +5792,9 @@ signed int egdi_parse_confline(struct egdi_config *cf, const char *confstr)
 
   else
   {
-    signed int return_value_cfl_lex_init_extra$1;
-    return_value_cfl_lex_init_extra$1=cfl_lex_init_extra((void *)&p, &p.scaninfo);
-    if(!(return_value_cfl_lex_init_extra$1 == 0))
+    signed int return_value_cfl_lex_init_extra_1;
+    return_value_cfl_lex_init_extra_1=cfl_lex_init_extra((void *)&p, &p.scaninfo);
+    if(!(return_value_cfl_lex_init_extra_1 == 0))
       return -1;
 
     else
@@ -5846,17 +5846,17 @@ static signed int egdi_set_cap(struct devmodule *mdev, struct systemcap *cap)
 {
   char *strbuff;
   unsigned long int lentype;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(cap->device_type);
-  lentype = return_value_strlen$1 + (unsigned long int)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(cap->device_type);
+  lentype = return_value_strlen_1 + (unsigned long int)1;
   unsigned long int lenid;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(cap->device_id);
-  lenid = return_value_strlen$2 + (unsigned long int)1;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(cap->device_id);
+  lenid = return_value_strlen_2 + (unsigned long int)1;
   struct eegdev *dev = (struct eegdev *)((unsigned long int)(signed long int)mdev - 376ul);
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(lenid + lentype);
-  strbuff = (char *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(lenid + lentype);
+  strbuff = (char *)return_value_malloc_3;
   if(strbuff == ((char *)NULL))
     return -1;
 
@@ -5890,7 +5890,7 @@ signed int egdi_update_ringbuffer(struct devmodule *mdev, const void *in, unsign
   unsigned long int nsread;
   unsigned long int ns_be_written;
   struct eegdev *dev = (struct eegdev *)((unsigned long int)(signed long int)mdev - 376ul);
-  union anonymous$4 *synclock = &dev->synclock;
+  union anonymous_4 *synclock = &dev->synclock;
   pthread_mutex_lock(synclock);
   nsread = dev->ns_read;
   acquiring = dev->acquiring;
@@ -5956,8 +5956,8 @@ static void free_configuration(struct conf *cf)
 static const char * get_charset_aliases(void)
 {
   const char *cp = charset_aliases;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(cp == ((const char *)NULL))
   {
     const char *dir;
@@ -5965,11 +5965,11 @@ static const char * get_charset_aliases(void)
     char *file_name;
     dir=getenv("CHARSETALIASDIR");
     if(dir == ((const char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)dir[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)dir[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       dir = "/usr/lib/x86_64-linux-gnu";
 
     unsigned long int dir_len;
@@ -5978,14 +5978,14 @@ static const char * get_charset_aliases(void)
     base_len=strlen(base);
     signed int add_slash;
     if(dir_len >= 1ul)
-      tmp_if_expr$2 = !((signed int)dir[(signed long int)(dir_len - (unsigned long int)1)] == 47) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = !((signed int)dir[(signed long int)(dir_len - (unsigned long int)1)] == 47) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    add_slash = (signed int)tmp_if_expr$2;
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(dir_len + (unsigned long int)add_slash + base_len + (unsigned long int)1);
-    file_name = (char *)return_value_malloc$3;
+      tmp_if_expr_2 = (_Bool)0;
+    add_slash = (signed int)tmp_if_expr_2;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(dir_len + (unsigned long int)add_slash + base_len + (unsigned long int)1);
+    file_name = (char *)return_value_malloc_3;
     if(!(file_name == ((char *)NULL)))
     {
       memcpy((void *)file_name, (const void *)dir, dir_len);
@@ -6046,9 +6046,9 @@ static const char * get_charset_aliases(void)
               else
               {
                 ungetc(c, fp);
-                signed int return_value_fscanf$4;
-                return_value_fscanf$4=fscanf(fp, "%50s %50s", (const void *)buf1, (const void *)buf2);
-                if(!(return_value_fscanf$4 >= 2))
+                signed int return_value_fscanf_4;
+                return_value_fscanf_4=fscanf(fp, "%50s %50s", (const void *)buf1, (const void *)buf2);
+                if(!(return_value_fscanf_4 >= 2))
                   break;
 
                 l1=strlen(buf1);
@@ -6057,17 +6057,17 @@ static const char * get_charset_aliases(void)
                 if(res_size == 0ul)
                 {
                   res_size = l1 + (unsigned long int)1 + l2 + (unsigned long int)1;
-                  void *return_value_malloc$5;
-                  return_value_malloc$5=malloc(res_size + (unsigned long int)1);
-                  res_ptr = (char *)return_value_malloc$5;
+                  void *return_value_malloc_5;
+                  return_value_malloc_5=malloc(res_size + (unsigned long int)1);
+                  res_ptr = (char *)return_value_malloc_5;
                 }
 
                 else
                 {
                   res_size = res_size + l1 + (unsigned long int)1 + l2 + (unsigned long int)1;
-                  void *return_value_realloc$6;
-                  return_value_realloc$6=realloc((void *)res_ptr, res_size + (unsigned long int)1);
-                  res_ptr = (char *)return_value_realloc$6;
+                  void *return_value_realloc_6;
+                  return_value_realloc_6=realloc((void *)res_ptr, res_size + (unsigned long int)1);
+                  res_ptr = (char *)return_value_realloc_6;
                 }
                 if(res_ptr == ((char *)NULL))
                 {
@@ -6123,18 +6123,18 @@ static const char * get_conf_setting(struct conf *cf, const char *name, const ch
 // file core.c line 214
 static signed int get_field_info(struct egd_chinfo *info, signed int field, void *arg)
 {
-  double tmp_if_expr$2;
-  double tmp_if_expr$1;
-  double tmp_if_expr$4;
-  double tmp_if_expr$3;
-  double tmp_if_expr$6;
-  double tmp_if_expr$5;
-  double tmp_if_expr$8;
-  double tmp_if_expr$7;
-  double tmp_if_expr$10;
-  double tmp_if_expr$9;
-  double tmp_if_expr$12;
-  double tmp_if_expr$11;
+  double tmp_if_expr_2;
+  double tmp_if_expr_1;
+  double tmp_if_expr_4;
+  double tmp_if_expr_3;
+  double tmp_if_expr_6;
+  double tmp_if_expr_5;
+  double tmp_if_expr_8;
+  double tmp_if_expr_7;
+  double tmp_if_expr_10;
+  double tmp_if_expr_9;
+  double tmp_if_expr_12;
+  double tmp_if_expr_11;
   if(field == 1)
     safe_strncpy((char *)arg, info->label, (unsigned long int)32);
 
@@ -6146,93 +6146,93 @@ static signed int get_field_info(struct egd_chinfo *info, signed int field, void
       if(field == 2)
       {
         if(info->dtype == 0)
-          tmp_if_expr$2 = (double)info->min.valint32_t;
+          tmp_if_expr_2 = (double)info->min.valint32_t;
 
         else
         {
           if(info->dtype == 1)
-            tmp_if_expr$1 = (double)info->min.valfloat;
+            tmp_if_expr_1 = (double)info->min.valfloat;
 
           else
-            tmp_if_expr$1 = info->min.valdouble;
-          tmp_if_expr$2 = tmp_if_expr$1;
+            tmp_if_expr_1 = info->min.valdouble;
+          tmp_if_expr_2 = tmp_if_expr_1;
         }
-        *((signed int *)arg) = (signed int)tmp_if_expr$2;
+        *((signed int *)arg) = (signed int)tmp_if_expr_2;
         if(info->dtype == 0)
-          tmp_if_expr$4 = (double)info->max.valint32_t;
+          tmp_if_expr_4 = (double)info->max.valint32_t;
 
         else
         {
           if(info->dtype == 1)
-            tmp_if_expr$3 = (double)info->max.valfloat;
+            tmp_if_expr_3 = (double)info->max.valfloat;
 
           else
-            tmp_if_expr$3 = info->max.valdouble;
-          tmp_if_expr$4 = tmp_if_expr$3;
+            tmp_if_expr_3 = info->max.valdouble;
+          tmp_if_expr_4 = tmp_if_expr_3;
         }
-        ((signed int *)arg)[(signed long int)1] = (signed int)tmp_if_expr$4;
+        ((signed int *)arg)[(signed long int)1] = (signed int)tmp_if_expr_4;
       }
 
       else
         if(field == 3)
         {
           if(info->dtype == 0)
-            tmp_if_expr$6 = (double)info->min.valint32_t;
+            tmp_if_expr_6 = (double)info->min.valint32_t;
 
           else
           {
             if(info->dtype == 1)
-              tmp_if_expr$5 = (double)info->min.valfloat;
+              tmp_if_expr_5 = (double)info->min.valfloat;
 
             else
-              tmp_if_expr$5 = info->min.valdouble;
-            tmp_if_expr$6 = tmp_if_expr$5;
+              tmp_if_expr_5 = info->min.valdouble;
+            tmp_if_expr_6 = tmp_if_expr_5;
           }
-          *((float *)arg) = (float)tmp_if_expr$6;
+          *((float *)arg) = (float)tmp_if_expr_6;
           if(info->dtype == 0)
-            tmp_if_expr$8 = (double)info->max.valint32_t;
+            tmp_if_expr_8 = (double)info->max.valint32_t;
 
           else
           {
             if(info->dtype == 1)
-              tmp_if_expr$7 = (double)info->max.valfloat;
+              tmp_if_expr_7 = (double)info->max.valfloat;
 
             else
-              tmp_if_expr$7 = info->max.valdouble;
-            tmp_if_expr$8 = tmp_if_expr$7;
+              tmp_if_expr_7 = info->max.valdouble;
+            tmp_if_expr_8 = tmp_if_expr_7;
           }
-          ((float *)arg)[(signed long int)1] = (float)tmp_if_expr$8;
+          ((float *)arg)[(signed long int)1] = (float)tmp_if_expr_8;
         }
 
         else
           if(field == 4)
           {
             if(info->dtype == 0)
-              tmp_if_expr$10 = (double)info->min.valint32_t;
+              tmp_if_expr_10 = (double)info->min.valint32_t;
 
             else
             {
               if(info->dtype == 1)
-                tmp_if_expr$9 = (double)info->min.valfloat;
+                tmp_if_expr_9 = (double)info->min.valfloat;
 
               else
-                tmp_if_expr$9 = info->min.valdouble;
-              tmp_if_expr$10 = tmp_if_expr$9;
+                tmp_if_expr_9 = info->min.valdouble;
+              tmp_if_expr_10 = tmp_if_expr_9;
             }
-            *((double *)arg) = tmp_if_expr$10;
+            *((double *)arg) = tmp_if_expr_10;
             if(info->dtype == 0)
-              tmp_if_expr$12 = (double)info->max.valint32_t;
+              tmp_if_expr_12 = (double)info->max.valint32_t;
 
             else
             {
               if(info->dtype == 1)
-                tmp_if_expr$11 = (double)info->max.valfloat;
+                tmp_if_expr_11 = (double)info->max.valfloat;
 
               else
-                tmp_if_expr$11 = info->max.valdouble;
-              tmp_if_expr$12 = tmp_if_expr$11;
+                tmp_if_expr_11 = info->max.valdouble;
+              tmp_if_expr_12 = tmp_if_expr_11;
             }
-            ((double *)arg)[(signed long int)1] = tmp_if_expr$12;
+            ((double *)arg)[(signed long int)1] = tmp_if_expr_12;
           }
 
           else
@@ -6281,9 +6281,9 @@ extern signed int glthread_once_singlethreaded(signed int *once_control)
 
 // glthread_recursive_lock_init_multithreaded
 // file glthread/lock.c line 284
-extern signed int glthread_recursive_lock_init_multithreaded(union anonymous$4 *lock)
+extern signed int glthread_recursive_lock_init_multithreaded(union anonymous_4 *lock)
 {
-  union anonymous$6 attributes;
+  union anonymous_6 attributes;
   signed int err;
   err=pthread_mutexattr_init(&attributes);
   if(!(err == 0))
@@ -6339,9 +6339,9 @@ static signed int init_configuration(struct conf *cf, const char *str)
   if(cf->confpath == ((const char *)NULL))
     cf->confpath = default_confpath;
 
-  signed int return_value_egdi_parse_confline$1;
-  return_value_egdi_parse_confline$1=egdi_parse_confline(&cf->config[(signed long int)2], str);
-  return return_value_egdi_parse_confline$1;
+  signed int return_value_egdi_parse_confline_1;
+  return_value_egdi_parse_confline_1=egdi_parse_confline(&cf->config[(signed long int)2], str);
+  return return_value_egdi_parse_confline_1;
 }
 
 // load_configuration_file
@@ -6349,19 +6349,19 @@ static signed int init_configuration(struct conf *cf, const char *str)
 static signed int load_configuration_file(struct conf *cf, const char *file, signed int global)
 {
   unsigned long int pathlen;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(cf->confpath);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(file);
-  pathlen = return_value_strlen$1 + return_value_strlen$2 + (unsigned long int)2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(cf->confpath);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(file);
+  pathlen = return_value_strlen_1 + return_value_strlen_2 + (unsigned long int)2;
   signed int index = global != 0 ? 0 : 1;
-  const signed long int index$array_size0 = (signed long int)pathlen;
-  char filepath[index$array_size0];
+  const signed long int index_array_size0 = (signed long int)pathlen;
+  char filepath[index_array_size0];
   sprintf(filepath, "%s/%s", cf->confpath, file);
   egdi_reinit_config(&cf->config[(signed long int)index]);
-  signed int return_value_egdi_parse_conffile$3;
-  return_value_egdi_parse_conffile$3=egdi_parse_conffile(&cf->config[(signed long int)index], filepath);
-  return return_value_egdi_parse_conffile$3;
+  signed int return_value_egdi_parse_conffile_3;
+  return_value_egdi_parse_conffile_3=egdi_parse_conffile(&cf->config[(signed long int)index], filepath);
+  return return_value_egdi_parse_conffile_3;
 }
 
 // locale_charset
@@ -6375,37 +6375,37 @@ extern const char * locale_charset(void)
     codeset = "";
 
   aliases=get_charset_aliases();
-  signed int return_value_strcmp$4;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  unsigned long int return_value_strlen$1;
-  unsigned long int return_value_strlen$2;
-  for( ; !((signed int)*aliases == 0); aliases = aliases + (signed long int)(return_value_strlen$2 + (unsigned long int)1))
+  signed int return_value_strcmp_4;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  unsigned long int return_value_strlen_1;
+  unsigned long int return_value_strlen_2;
+  for( ; !((signed int)*aliases == 0); aliases = aliases + (signed long int)(return_value_strlen_2 + (unsigned long int)1))
   {
-    return_value_strcmp$4=strcmp(codeset, aliases);
-    if(return_value_strcmp$4 == 0)
-      tmp_if_expr$6 = (_Bool)1;
+    return_value_strcmp_4=strcmp(codeset, aliases);
+    if(return_value_strcmp_4 == 0)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
       if((signed int)*aliases == 42)
-        tmp_if_expr$5 = (signed int)aliases[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (signed int)aliases[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (_Bool)0;
+      tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
     {
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(aliases);
-      codeset = aliases + (signed long int)return_value_strlen$3 + (signed long int)1;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(aliases);
+      codeset = aliases + (signed long int)return_value_strlen_3 + (signed long int)1;
       break;
     }
 
-    return_value_strlen$1=strlen(aliases);
-    aliases = aliases + (signed long int)(return_value_strlen$1 + (unsigned long int)1);
-    return_value_strlen$2=strlen(aliases);
+    return_value_strlen_1=strlen(aliases);
+    aliases = aliases + (signed long int)(return_value_strlen_1 + (unsigned long int)1);
+    return_value_strlen_2=strlen(aliases);
   }
   if((signed int)*codeset == 0)
     codeset = "ASCII";
@@ -6438,34 +6438,34 @@ signed int main(signed int argc, char **argv)
   }
   while((_Bool)1);
   acq=acq_init(devstring, data_cb, (void *)0);
-  signed int return_value_getchar$4;
-  signed int return_value_getchar$5;
+  signed int return_value_getchar_4;
+  signed int return_value_getchar_5;
   if(acq == ((struct acq *)NULL))
     return 1;
 
   else
   {
-    signed int return_value_acq_get_info$1;
-    return_value_acq_get_info$1=acq_get_info(acq, 0);
-    fs = (unsigned int)return_value_acq_get_info$1;
+    signed int return_value_acq_get_info_1;
+    return_value_acq_get_info_1=acq_get_info(acq, 0);
+    fs = (unsigned int)return_value_acq_get_info_1;
     do
     {
       nstot = (unsigned long int)0;
       printf("Enter a filename for recording (Ctrl+D to exit):\n");
-      signed int return_value_scanf$2;
-      return_value_scanf$2=scanf(" %255s%*1c", (const void *)str);
-      if(return_value_scanf$2 == -1)
+      signed int return_value_scanf_2;
+      return_value_scanf_2=scanf(" %255s%*1c", (const void *)str);
+      if(return_value_scanf_2 == -1)
         break;
 
-      signed int return_value_acq_prepare_rec$3;
-      return_value_acq_prepare_rec$3=acq_prepare_rec(acq, str);
-      if(return_value_acq_prepare_rec$3 == 0)
+      signed int return_value_acq_prepare_rec_3;
+      return_value_acq_prepare_rec_3=acq_prepare_rec(acq, str);
+      if(return_value_acq_prepare_rec_3 == 0)
       {
         printf("Press ENTER to start recording\n");
         do
         {
-          return_value_getchar$4=getchar();
-          if(return_value_getchar$4 == 10)
+          return_value_getchar_4=getchar();
+          if(return_value_getchar_4 == 10)
             break;
 
         }
@@ -6474,8 +6474,8 @@ signed int main(signed int argc, char **argv)
         printf("Press ENTER to stop recording\n");
         do
         {
-          return_value_getchar$5=getchar();
-          if(return_value_getchar$5 == 10)
+          return_value_getchar_5=getchar();
+          if(return_value_getchar_5 == 10)
             break;
 
         }
@@ -6512,11 +6512,11 @@ static struct eegdev * open_any(struct conf *cf)
       break;
 
   }
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(dev == ((struct eegdev *)NULL))
   {
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 19;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 19;
   }
 
   return dev;
@@ -6528,8 +6528,8 @@ static struct eegdev * open_init_device(struct egdi_plugin_info *info, unsigned 
 {
   struct eegdev *dev;
   unsigned int i;
-  const signed long int i$array_size0 = (signed long int)(nopt + (unsigned int)1);
-  const char *optval[i$array_size0];
+  const signed long int i_array_size0 = (signed long int)(nopt + (unsigned int)1);
+  const char *optval[i_array_size0];
   const char *name;
   const char *defvalue;
   i = (unsigned int)0;
@@ -6541,17 +6541,17 @@ static struct eegdev * open_init_device(struct egdi_plugin_info *info, unsigned 
   }
   optval[(signed long int)nopt] = (const char *)(void *)0;
   dev=egdi_create_eegdev(info);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   signed int return_value;
   if(dev == ((struct eegdev *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
   {
     return_value=info->open_device(&dev->module, optval);
-    tmp_if_expr$1 = return_value != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = return_value != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$1)
+  if(tmp_if_expr_1)
   {
     egd_destroy_eegdev(dev);
     return (struct eegdev *)(void *)0;
@@ -6578,28 +6578,28 @@ static struct eegdev * open_plugin_device(const char *dname, struct conf *cf)
   unsigned int nopt;
   snprintf(path, sizeof(char [128l]) /*128ul*/ , "%s/%s.so", dir != ((const char *)NULL) ? dir : "/usr/lib/x86_64-linux-gnu/eegdev", dname);
   handle=dlopen(path, 0x00001 | 0);
-  _Bool tmp_if_expr$3;
-  void *return_value_dlsym$2;
+  _Bool tmp_if_expr_3;
+  void *return_value_dlsym_2;
   if(handle == NULL)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_dlsym$2=dlsym(handle, "eegdev_plugin_info");
-    info = (struct egdi_plugin_info *)return_value_dlsym$2;
-    tmp_if_expr$3 = !(info != ((struct egdi_plugin_info *)NULL)) ? (_Bool)1 : (_Bool)0;
+    return_value_dlsym_2=dlsym(handle, "eegdev_plugin_info");
+    info = (struct egdi_plugin_info *)return_value_dlsym_2;
+    tmp_if_expr_3 = !(info != ((struct egdi_plugin_info *)NULL)) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = info->plugin_abi != (unsigned int)5 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = info->plugin_abi != (unsigned int)5 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_4)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 38;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 38;
     goto fail;
   }
 
@@ -6609,9 +6609,9 @@ static struct eegdev * open_plugin_device(const char *dname, struct conf *cf)
       ;
 
   snprintf(confname, sizeof(char [64l]) /*64ul*/ , "%s.conf", dname);
-  signed int return_value_load_configuration_file$5;
-  return_value_load_configuration_file$5=load_configuration_file(cf, confname, 0);
-  if(return_value_load_configuration_file$5 == 0)
+  signed int return_value_load_configuration_file_5;
+  return_value_load_configuration_file_5=load_configuration_file(cf, confname, 0);
+  if(return_value_load_configuration_file_5 == 0)
   {
     dev=open_init_device(info, nopt, cf);
     if(dev == ((struct eegdev *)NULL))
@@ -6671,43 +6671,43 @@ static void optimize_inbufgrp(struct input_buffer_group *ibgrp, unsigned int *ng
 
 // printf_fetchargs
 // file printf-args.c line 36
-extern signed int printf_fetchargs(__builtin_va_list args, struct anonymous$2 *a)
+extern signed int printf_fetchargs(__builtin_va_list args, struct anonymous_2 *a)
 {
   unsigned long int i;
-  struct anonymous$0 *ap;
+  struct anonymous_0 *ap;
   i = (unsigned long int)0;
   ap = &a->arg[(signed long int)0];
-  signed int return_value_gcc_builtin_va_arg$1;
-  signed int return_value_gcc_builtin_va_arg$2;
-  signed int return_value_gcc_builtin_va_arg$3;
-  signed int return_value_gcc_builtin_va_arg$4;
-  unsigned int return_value_gcc_builtin_va_arg$5;
+  signed int return_value_gcc_builtin_va_arg_1;
+  signed int return_value_gcc_builtin_va_arg_2;
+  signed int return_value_gcc_builtin_va_arg_3;
+  signed int return_value_gcc_builtin_va_arg_4;
+  unsigned int return_value_gcc_builtin_va_arg_5;
   for( ; !(i >= a->count); ap = ap + 1l)
   {
     switch((signed int)ap->type)
     {
       case TYPE_SCHAR:
       {
-        return_value_gcc_builtin_va_arg$1=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg$1));
-        ap->a.a_schar = (signed char)return_value_gcc_builtin_va_arg$1;
+        return_value_gcc_builtin_va_arg_1=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg_1));
+        ap->a.a_schar = (signed char)return_value_gcc_builtin_va_arg_1;
         break;
       }
       case TYPE_UCHAR:
       {
-        return_value_gcc_builtin_va_arg$2=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg$2));
-        ap->a.a_uchar = (unsigned char)return_value_gcc_builtin_va_arg$2;
+        return_value_gcc_builtin_va_arg_2=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg_2));
+        ap->a.a_uchar = (unsigned char)return_value_gcc_builtin_va_arg_2;
         break;
       }
       case TYPE_SHORT:
       {
-        return_value_gcc_builtin_va_arg$3=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg$3));
-        ap->a.a_short = (signed short int)return_value_gcc_builtin_va_arg$3;
+        return_value_gcc_builtin_va_arg_3=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg_3));
+        ap->a.a_short = (signed short int)return_value_gcc_builtin_va_arg_3;
         break;
       }
       case TYPE_USHORT:
       {
-        return_value_gcc_builtin_va_arg$4=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg$4));
-        ap->a.a_ushort = (unsigned short int)return_value_gcc_builtin_va_arg$4;
+        return_value_gcc_builtin_va_arg_4=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg_4));
+        ap->a.a_ushort = (unsigned short int)return_value_gcc_builtin_va_arg_4;
         break;
       }
       case TYPE_INT:
@@ -6757,8 +6757,8 @@ extern signed int printf_fetchargs(__builtin_va_list args, struct anonymous$2 *a
       }
       case TYPE_WIDE_CHAR:
       {
-        return_value_gcc_builtin_va_arg$5=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg$5));
-        ap->a.a_wide_char = return_value_gcc_builtin_va_arg$5;
+        return_value_gcc_builtin_va_arg_5=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg_5));
+        ap->a.a_wide_char = return_value_gcc_builtin_va_arg_5;
         break;
       }
       case TYPE_STRING:
@@ -6818,7 +6818,7 @@ extern signed int printf_fetchargs(__builtin_va_list args, struct anonymous$2 *a
 
 // printf_parse
 // file printf-parse.c line 83
-extern signed int printf_parse(const char *format, struct anonymous$5 *d, struct anonymous$2 *a)
+extern signed int printf_parse(const char *format, struct anonymous_5 *d, struct anonymous_2 *a)
 {
   const char *cp = format;
   unsigned long int arg_posn = (unsigned long int)0;
@@ -6832,41 +6832,41 @@ extern signed int printf_parse(const char *format, struct anonymous$5 *d, struct
   a->count = (unsigned long int)0;
   a_allocated = (unsigned long int)7;
   a->arg = a->direct_alloc_arg;
-  const char *tmp_post$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  unsigned long int tmp_post$6;
-  void *tmp_if_expr$9;
-  void *return_value_realloc$7;
-  void *return_value_malloc$8;
-  unsigned long int tmp_post$10;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  unsigned long int tmp_post$14;
-  void *tmp_if_expr$17;
-  void *return_value_realloc$15;
-  void *return_value_malloc$16;
-  unsigned long int tmp_post$18;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$20;
-  const char *tmp_post$21;
-  unsigned long int tmp_post$22;
-  void *tmp_if_expr$25;
-  void *return_value_realloc$23;
-  void *return_value_malloc$24;
-  unsigned long int tmp_post$26;
-  void *tmp_if_expr$29;
-  void *return_value_realloc$27;
-  void *return_value_malloc$28;
+  const char *tmp_post_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  unsigned long int tmp_post_6;
+  void *tmp_if_expr_9;
+  void *return_value_realloc_7;
+  void *return_value_malloc_8;
+  unsigned long int tmp_post_10;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  unsigned long int tmp_post_14;
+  void *tmp_if_expr_17;
+  void *return_value_realloc_15;
+  void *return_value_malloc_16;
+  unsigned long int tmp_post_18;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_20;
+  const char *tmp_post_21;
+  unsigned long int tmp_post_22;
+  void *tmp_if_expr_25;
+  void *return_value_realloc_23;
+  void *return_value_malloc_24;
+  unsigned long int tmp_post_26;
+  void *tmp_if_expr_29;
+  void *return_value_realloc_27;
+  void *return_value_malloc_28;
   while(!((signed int)*cp == 0))
   {
     char c;
-    tmp_post$1 = cp;
+    tmp_post_1 = cp;
     cp = cp + 1l;
-    c = *tmp_post$1;
+    c = *tmp_post_1;
     if((signed int)c == 37)
     {
       unsigned long int arg_index = ~((unsigned long int)0);
@@ -6884,46 +6884,46 @@ extern signed int printf_parse(const char *format, struct anonymous$5 *d, struct
       {
         if(!((signed int)*cp >= 58))
         {
-          const char *printf_parse$$1$$1$$1$$1$$np = cp;
+          const char *printf_parse__1__1__1__1__np = cp;
           do
           {
-            if((signed int)*printf_parse$$1$$1$$1$$1$$np >= 48)
-              tmp_if_expr$2 = (signed int)*printf_parse$$1$$1$$1$$1$$np <= 57 ? (_Bool)1 : (_Bool)0;
+            if((signed int)*printf_parse__1__1__1__1__np >= 48)
+              tmp_if_expr_2 = (signed int)*printf_parse__1__1__1__1__np <= 57 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$2 = (_Bool)0;
-            if(!tmp_if_expr$2)
+              tmp_if_expr_2 = (_Bool)0;
+            if(!tmp_if_expr_2)
               break;
 
-            printf_parse$$1$$1$$1$$1$$np = printf_parse$$1$$1$$1$$1$$np + 1l;
+            printf_parse__1__1__1__1__np = printf_parse__1__1__1__1__np + 1l;
           }
           while((_Bool)1);
-          if((signed int)*printf_parse$$1$$1$$1$$1$$np == 36)
+          if((signed int)*printf_parse__1__1__1__1__np == 36)
           {
-            unsigned long int printf_parse$$1$$1$$1$$1$$2$$n = (unsigned long int)0;
-            printf_parse$$1$$1$$1$$1$$np = cp;
+            unsigned long int printf_parse__1__1__1__1__2__n = (unsigned long int)0;
+            printf_parse__1__1__1__1__np = cp;
             do
             {
-              if((signed int)*printf_parse$$1$$1$$1$$1$$np >= 48)
-                tmp_if_expr$3 = (signed int)*printf_parse$$1$$1$$1$$1$$np <= 57 ? (_Bool)1 : (_Bool)0;
+              if((signed int)*printf_parse__1__1__1__1__np >= 48)
+                tmp_if_expr_3 = (signed int)*printf_parse__1__1__1__1__np <= 57 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$3 = (_Bool)0;
-              if(!tmp_if_expr$3)
+                tmp_if_expr_3 = (_Bool)0;
+              if(!tmp_if_expr_3)
                 break;
 
-              printf_parse$$1$$1$$1$$1$$2$$n=xsum(printf_parse$$1$$1$$1$$1$$2$$n <= 18446744073709551615UL / (unsigned long int)10 ? (unsigned long int)printf_parse$$1$$1$$1$$1$$2$$n * (unsigned long int)10 : 18446744073709551615UL, (unsigned long int)((signed int)*printf_parse$$1$$1$$1$$1$$np - 48));
-              printf_parse$$1$$1$$1$$1$$np = printf_parse$$1$$1$$1$$1$$np + 1l;
+              printf_parse__1__1__1__1__2__n=xsum(printf_parse__1__1__1__1__2__n <= 18446744073709551615UL / (unsigned long int)10 ? (unsigned long int)printf_parse__1__1__1__1__2__n * (unsigned long int)10 : 18446744073709551615UL, (unsigned long int)((signed int)*printf_parse__1__1__1__1__np - 48));
+              printf_parse__1__1__1__1__np = printf_parse__1__1__1__1__np + 1l;
             }
             while((_Bool)1);
-            if(printf_parse$$1$$1$$1$$1$$2$$n == 0ul)
+            if(printf_parse__1__1__1__1__2__n == 0ul)
               goto error;
 
-            if(printf_parse$$1$$1$$1$$1$$2$$n == 18446744073709551615UL)
+            if(printf_parse__1__1__1__1__2__n == 18446744073709551615UL)
               goto error;
 
-            arg_index = printf_parse$$1$$1$$1$$1$$2$$n - (unsigned long int)1;
-            cp = printf_parse$$1$$1$$1$$1$$np + (signed long int)1;
+            arg_index = printf_parse__1__1__1__1__2__n - (unsigned long int)1;
+            cp = printf_parse__1__1__1__1__np + (signed long int)1;
           }
 
         }
@@ -7000,11 +7000,11 @@ extern signed int printf_parse(const char *format, struct anonymous$5 *d, struct
             do
             {
               if((signed int)*np >= 48)
-                tmp_if_expr$4 = (signed int)*np <= 57 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_4 = (signed int)*np <= 57 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$4 = (_Bool)0;
-              if(!tmp_if_expr$4)
+                tmp_if_expr_4 = (_Bool)0;
+              if(!tmp_if_expr_4)
                 break;
 
               np = np + 1l;
@@ -7012,29 +7012,29 @@ extern signed int printf_parse(const char *format, struct anonymous$5 *d, struct
             while((_Bool)1);
             if((signed int)*np == 36)
             {
-              unsigned long int printf_parse$$1$$1$$1$$3$$1$$2$$n = (unsigned long int)0;
+              unsigned long int printf_parse__1__1__1__3__1__2__n = (unsigned long int)0;
               np = cp;
               do
               {
                 if((signed int)*np >= 48)
-                  tmp_if_expr$5 = (signed int)*np <= 57 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_5 = (signed int)*np <= 57 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$5 = (_Bool)0;
-                if(!tmp_if_expr$5)
+                  tmp_if_expr_5 = (_Bool)0;
+                if(!tmp_if_expr_5)
                   break;
 
-                printf_parse$$1$$1$$1$$3$$1$$2$$n=xsum(printf_parse$$1$$1$$1$$3$$1$$2$$n <= 18446744073709551615UL / (unsigned long int)10 ? (unsigned long int)printf_parse$$1$$1$$1$$3$$1$$2$$n * (unsigned long int)10 : 18446744073709551615UL, (unsigned long int)((signed int)*np - 48));
+                printf_parse__1__1__1__3__1__2__n=xsum(printf_parse__1__1__1__3__1__2__n <= 18446744073709551615UL / (unsigned long int)10 ? (unsigned long int)printf_parse__1__1__1__3__1__2__n * (unsigned long int)10 : 18446744073709551615UL, (unsigned long int)((signed int)*np - 48));
                 np = np + 1l;
               }
               while((_Bool)1);
-              if(printf_parse$$1$$1$$1$$3$$1$$2$$n == 0ul)
+              if(printf_parse__1__1__1__3__1__2__n == 0ul)
                 goto error;
 
-              if(printf_parse$$1$$1$$1$$3$$1$$2$$n == 18446744073709551615UL)
+              if(printf_parse__1__1__1__3__1__2__n == 18446744073709551615UL)
                 goto error;
 
-              dp->width_arg_index = printf_parse$$1$$1$$1$$3$$1$$2$$n - (unsigned long int)1;
+              dp->width_arg_index = printf_parse__1__1__1__3__1__2__n - (unsigned long int)1;
               cp = np + (signed long int)1;
             }
 
@@ -7044,9 +7044,9 @@ extern signed int printf_parse(const char *format, struct anonymous$5 *d, struct
 
         if(dp->width_arg_index == 18446744073709551615ul)
         {
-          tmp_post$6 = arg_posn;
+          tmp_post_6 = arg_posn;
           arg_posn = arg_posn + 1ul;
-          dp->width_arg_index = tmp_post$6;
+          dp->width_arg_index = tmp_post_6;
           if(dp->width_arg_index == 18446744073709551615ul)
             goto error;
 
@@ -7056,43 +7056,43 @@ extern signed int printf_parse(const char *format, struct anonymous$5 *d, struct
         if(n >= a_allocated)
         {
           unsigned long int memory_size;
-          struct anonymous$0 *memory;
+          struct anonymous_0 *memory;
           a_allocated = a_allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)a_allocated * (unsigned long int)2 : 18446744073709551615UL;
           if(n >= a_allocated)
             a_allocated=xsum(n, (unsigned long int)1);
 
-          memory_size = a_allocated <= 18446744073709551615UL / sizeof(struct anonymous$0) /*32ul*/  ? (unsigned long int)a_allocated * sizeof(struct anonymous$0) /*32ul*/  : 18446744073709551615UL;
+          memory_size = a_allocated <= 18446744073709551615UL / sizeof(struct anonymous_0) /*32ul*/  ? (unsigned long int)a_allocated * sizeof(struct anonymous_0) /*32ul*/  : 18446744073709551615UL;
           if(memory_size == 18446744073709551615UL)
             goto out_of_memory;
 
           if(!(a->arg == a->direct_alloc_arg))
           {
-            return_value_realloc$7=realloc((void *)a->arg, memory_size);
-            tmp_if_expr$9 = return_value_realloc$7;
+            return_value_realloc_7=realloc((void *)a->arg, memory_size);
+            tmp_if_expr_9 = return_value_realloc_7;
           }
 
           else
           {
-            return_value_malloc$8=malloc(memory_size);
-            tmp_if_expr$9 = return_value_malloc$8;
+            return_value_malloc_8=malloc(memory_size);
+            tmp_if_expr_9 = return_value_malloc_8;
           }
-          memory = (struct anonymous$0 *)tmp_if_expr$9;
-          if(memory == ((struct anonymous$0 *)NULL))
+          memory = (struct anonymous_0 *)tmp_if_expr_9;
+          if(memory == ((struct anonymous_0 *)NULL))
             goto out_of_memory;
 
           if(a->arg == a->direct_alloc_arg)
-            memcpy((void *)memory, (const void *)a->arg, a->count * sizeof(struct anonymous$0) /*32ul*/ );
+            memcpy((void *)memory, (const void *)a->arg, a->count * sizeof(struct anonymous_0) /*32ul*/ );
 
           a->arg = memory;
         }
 
-        for( ; n >= a->count; (a->arg + (signed long int)tmp_post$10)->type = (enum anonymous$1)TYPE_NONE)
+        for( ; n >= a->count; (a->arg + (signed long int)tmp_post_10)->type = (enum anonymous_1)TYPE_NONE)
         {
-          tmp_post$10 = a->count;
+          tmp_post_10 = a->count;
           a->count = a->count + 1ul;
         }
         if((signed int)(a->arg + (signed long int)n)->type == TYPE_NONE)
-          (a->arg + (signed long int)n)->type = (enum anonymous$1)TYPE_INT;
+          (a->arg + (signed long int)n)->type = (enum anonymous_1)TYPE_INT;
 
         else
           if(!((signed int)(a->arg + (signed long int)n)->type == TYPE_INT))
@@ -7110,11 +7110,11 @@ extern signed int printf_parse(const char *format, struct anonymous$5 *d, struct
             do
             {
               if((signed int)*cp >= 48)
-                tmp_if_expr$11 = (signed int)*cp <= 57 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_11 = (signed int)*cp <= 57 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$11 = (_Bool)0;
-              if(!tmp_if_expr$11)
+                tmp_if_expr_11 = (_Bool)0;
+              if(!tmp_if_expr_11)
                 break;
 
               cp = cp + 1l;
@@ -7144,46 +7144,46 @@ extern signed int printf_parse(const char *format, struct anonymous$5 *d, struct
           {
             if(!((signed int)*cp >= 58))
             {
-              const char *printf_parse$$1$$1$$1$$5$$1$$1$$np = cp;
+              const char *printf_parse__1__1__1__5__1__1__np = cp;
               do
               {
-                if((signed int)*printf_parse$$1$$1$$1$$5$$1$$1$$np >= 48)
-                  tmp_if_expr$12 = (signed int)*printf_parse$$1$$1$$1$$5$$1$$1$$np <= 57 ? (_Bool)1 : (_Bool)0;
+                if((signed int)*printf_parse__1__1__1__5__1__1__np >= 48)
+                  tmp_if_expr_12 = (signed int)*printf_parse__1__1__1__5__1__1__np <= 57 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$12 = (_Bool)0;
-                if(!tmp_if_expr$12)
+                  tmp_if_expr_12 = (_Bool)0;
+                if(!tmp_if_expr_12)
                   break;
 
-                printf_parse$$1$$1$$1$$5$$1$$1$$np = printf_parse$$1$$1$$1$$5$$1$$1$$np + 1l;
+                printf_parse__1__1__1__5__1__1__np = printf_parse__1__1__1__5__1__1__np + 1l;
               }
               while((_Bool)1);
-              if((signed int)*printf_parse$$1$$1$$1$$5$$1$$1$$np == 36)
+              if((signed int)*printf_parse__1__1__1__5__1__1__np == 36)
               {
-                unsigned long int printf_parse$$1$$1$$1$$5$$1$$1$$2$$n = (unsigned long int)0;
-                printf_parse$$1$$1$$1$$5$$1$$1$$np = cp;
+                unsigned long int printf_parse__1__1__1__5__1__1__2__n = (unsigned long int)0;
+                printf_parse__1__1__1__5__1__1__np = cp;
                 do
                 {
-                  if((signed int)*printf_parse$$1$$1$$1$$5$$1$$1$$np >= 48)
-                    tmp_if_expr$13 = (signed int)*printf_parse$$1$$1$$1$$5$$1$$1$$np <= 57 ? (_Bool)1 : (_Bool)0;
+                  if((signed int)*printf_parse__1__1__1__5__1__1__np >= 48)
+                    tmp_if_expr_13 = (signed int)*printf_parse__1__1__1__5__1__1__np <= 57 ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$13 = (_Bool)0;
-                  if(!tmp_if_expr$13)
+                    tmp_if_expr_13 = (_Bool)0;
+                  if(!tmp_if_expr_13)
                     break;
 
-                  printf_parse$$1$$1$$1$$5$$1$$1$$2$$n=xsum(printf_parse$$1$$1$$1$$5$$1$$1$$2$$n <= 18446744073709551615UL / (unsigned long int)10 ? (unsigned long int)printf_parse$$1$$1$$1$$5$$1$$1$$2$$n * (unsigned long int)10 : 18446744073709551615UL, (unsigned long int)((signed int)*printf_parse$$1$$1$$1$$5$$1$$1$$np - 48));
-                  printf_parse$$1$$1$$1$$5$$1$$1$$np = printf_parse$$1$$1$$1$$5$$1$$1$$np + 1l;
+                  printf_parse__1__1__1__5__1__1__2__n=xsum(printf_parse__1__1__1__5__1__1__2__n <= 18446744073709551615UL / (unsigned long int)10 ? (unsigned long int)printf_parse__1__1__1__5__1__1__2__n * (unsigned long int)10 : 18446744073709551615UL, (unsigned long int)((signed int)*printf_parse__1__1__1__5__1__1__np - 48));
+                  printf_parse__1__1__1__5__1__1__np = printf_parse__1__1__1__5__1__1__np + 1l;
                 }
                 while((_Bool)1);
-                if(printf_parse$$1$$1$$1$$5$$1$$1$$2$$n == 0ul)
+                if(printf_parse__1__1__1__5__1__1__2__n == 0ul)
                   goto error;
 
-                if(printf_parse$$1$$1$$1$$5$$1$$1$$2$$n == 18446744073709551615UL)
+                if(printf_parse__1__1__1__5__1__1__2__n == 18446744073709551615UL)
                   goto error;
 
-                dp->precision_arg_index = printf_parse$$1$$1$$1$$5$$1$$1$$2$$n - (unsigned long int)1;
-                cp = printf_parse$$1$$1$$1$$5$$1$$1$$np + (signed long int)1;
+                dp->precision_arg_index = printf_parse__1__1__1__5__1__1__2__n - (unsigned long int)1;
+                cp = printf_parse__1__1__1__5__1__1__np + (signed long int)1;
               }
 
             }
@@ -7192,58 +7192,58 @@ extern signed int printf_parse(const char *format, struct anonymous$5 *d, struct
 
           if(dp->precision_arg_index == 18446744073709551615ul)
           {
-            tmp_post$14 = arg_posn;
+            tmp_post_14 = arg_posn;
             arg_posn = arg_posn + 1ul;
-            dp->precision_arg_index = tmp_post$14;
+            dp->precision_arg_index = tmp_post_14;
             if(dp->precision_arg_index == 18446744073709551615ul)
               goto error;
 
           }
 
-          unsigned long int printf_parse$$1$$1$$1$$5$$1$$3$$n = dp->precision_arg_index;
-          if(printf_parse$$1$$1$$1$$5$$1$$3$$n >= a_allocated)
+          unsigned long int printf_parse__1__1__1__5__1__3__n = dp->precision_arg_index;
+          if(printf_parse__1__1__1__5__1__3__n >= a_allocated)
           {
-            unsigned long int printf_parse$$1$$1$$1$$5$$1$$3$$1$$memory_size;
-            struct anonymous$0 *printf_parse$$1$$1$$1$$5$$1$$3$$1$$memory;
+            unsigned long int printf_parse__1__1__1__5__1__3__1__memory_size;
+            struct anonymous_0 *printf_parse__1__1__1__5__1__3__1__memory;
             a_allocated = a_allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)a_allocated * (unsigned long int)2 : 18446744073709551615UL;
-            if(printf_parse$$1$$1$$1$$5$$1$$3$$n >= a_allocated)
-              a_allocated=xsum(printf_parse$$1$$1$$1$$5$$1$$3$$n, (unsigned long int)1);
+            if(printf_parse__1__1__1__5__1__3__n >= a_allocated)
+              a_allocated=xsum(printf_parse__1__1__1__5__1__3__n, (unsigned long int)1);
 
-            printf_parse$$1$$1$$1$$5$$1$$3$$1$$memory_size = a_allocated <= 18446744073709551615UL / sizeof(struct anonymous$0) /*32ul*/  ? (unsigned long int)a_allocated * sizeof(struct anonymous$0) /*32ul*/  : 18446744073709551615UL;
-            if(printf_parse$$1$$1$$1$$5$$1$$3$$1$$memory_size == 18446744073709551615UL)
+            printf_parse__1__1__1__5__1__3__1__memory_size = a_allocated <= 18446744073709551615UL / sizeof(struct anonymous_0) /*32ul*/  ? (unsigned long int)a_allocated * sizeof(struct anonymous_0) /*32ul*/  : 18446744073709551615UL;
+            if(printf_parse__1__1__1__5__1__3__1__memory_size == 18446744073709551615UL)
               goto out_of_memory;
 
             if(!(a->arg == a->direct_alloc_arg))
             {
-              return_value_realloc$15=realloc((void *)a->arg, printf_parse$$1$$1$$1$$5$$1$$3$$1$$memory_size);
-              tmp_if_expr$17 = return_value_realloc$15;
+              return_value_realloc_15=realloc((void *)a->arg, printf_parse__1__1__1__5__1__3__1__memory_size);
+              tmp_if_expr_17 = return_value_realloc_15;
             }
 
             else
             {
-              return_value_malloc$16=malloc(printf_parse$$1$$1$$1$$5$$1$$3$$1$$memory_size);
-              tmp_if_expr$17 = return_value_malloc$16;
+              return_value_malloc_16=malloc(printf_parse__1__1__1__5__1__3__1__memory_size);
+              tmp_if_expr_17 = return_value_malloc_16;
             }
-            printf_parse$$1$$1$$1$$5$$1$$3$$1$$memory = (struct anonymous$0 *)tmp_if_expr$17;
-            if(printf_parse$$1$$1$$1$$5$$1$$3$$1$$memory == ((struct anonymous$0 *)NULL))
+            printf_parse__1__1__1__5__1__3__1__memory = (struct anonymous_0 *)tmp_if_expr_17;
+            if(printf_parse__1__1__1__5__1__3__1__memory == ((struct anonymous_0 *)NULL))
               goto out_of_memory;
 
             if(a->arg == a->direct_alloc_arg)
-              memcpy((void *)printf_parse$$1$$1$$1$$5$$1$$3$$1$$memory, (const void *)a->arg, a->count * sizeof(struct anonymous$0) /*32ul*/ );
+              memcpy((void *)printf_parse__1__1__1__5__1__3__1__memory, (const void *)a->arg, a->count * sizeof(struct anonymous_0) /*32ul*/ );
 
-            a->arg = printf_parse$$1$$1$$1$$5$$1$$3$$1$$memory;
+            a->arg = printf_parse__1__1__1__5__1__3__1__memory;
           }
 
-          for( ; printf_parse$$1$$1$$1$$5$$1$$3$$n >= a->count; (a->arg + (signed long int)tmp_post$18)->type = (enum anonymous$1)TYPE_NONE)
+          for( ; printf_parse__1__1__1__5__1__3__n >= a->count; (a->arg + (signed long int)tmp_post_18)->type = (enum anonymous_1)TYPE_NONE)
           {
-            tmp_post$18 = a->count;
+            tmp_post_18 = a->count;
             a->count = a->count + 1ul;
           }
-          if((signed int)(a->arg + (signed long int)printf_parse$$1$$1$$1$$5$$1$$3$$n)->type == TYPE_NONE)
-            (a->arg + (signed long int)printf_parse$$1$$1$$1$$5$$1$$3$$n)->type = (enum anonymous$1)TYPE_INT;
+          if((signed int)(a->arg + (signed long int)printf_parse__1__1__1__5__1__3__n)->type == TYPE_NONE)
+            (a->arg + (signed long int)printf_parse__1__1__1__5__1__3__n)->type = (enum anonymous_1)TYPE_INT;
 
           else
-            if(!((signed int)(a->arg + (signed long int)printf_parse$$1$$1$$1$$5$$1$$3$$n)->type == TYPE_INT))
+            if(!((signed int)(a->arg + (signed long int)printf_parse__1__1__1__5__1__3__n)->type == TYPE_INT))
               goto error;
 
         }
@@ -7255,11 +7255,11 @@ extern signed int printf_parse(const char *format, struct anonymous$5 *d, struct
           do
           {
             if((signed int)*cp >= 48)
-              tmp_if_expr$19 = (signed int)*cp <= 57 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_19 = (signed int)*cp <= 57 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$19 = (_Bool)0;
-            if(!tmp_if_expr$19)
+              tmp_if_expr_19 = (_Bool)0;
+            if(!tmp_if_expr_19)
               break;
 
             cp = cp + 1l;
@@ -7273,7 +7273,7 @@ extern signed int printf_parse(const char *format, struct anonymous$5 *d, struct
         }
       }
 
-      enum anonymous$1 type;
+      enum anonymous_1 type;
       signed int flags = 0;
       while((_Bool)1)
         if((signed int)*cp == 104)
@@ -7306,11 +7306,11 @@ extern signed int printf_parse(const char *format, struct anonymous$5 *d, struct
               else
               {
                 if((signed int)*cp == 122)
-                  tmp_if_expr$20 = (_Bool)1;
+                  tmp_if_expr_20 = (_Bool)1;
 
                 else
-                  tmp_if_expr$20 = (signed int)*cp == 90 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$20)
+                  tmp_if_expr_20 = (signed int)*cp == 90 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_20)
                 {
                   flags = flags + 8;
                   cp = cp + 1l;
@@ -7329,9 +7329,9 @@ extern signed int printf_parse(const char *format, struct anonymous$5 *d, struct
 
     __CPROVER_DUMP_L91:
       ;
-      tmp_post$21 = cp;
+      tmp_post_21 = cp;
       cp = cp + 1l;
-      c = *tmp_post$21;
+      c = *tmp_post_21;
       switch((signed int)c)
       {
         case 100:
@@ -7339,22 +7339,22 @@ extern signed int printf_parse(const char *format, struct anonymous$5 *d, struct
         case 105:
         {
           if(flags >= 16 || !((4 & flags) == 0))
-            type = (enum anonymous$1)TYPE_LONGLONGINT;
+            type = (enum anonymous_1)TYPE_LONGLONGINT;
 
           else
             if(flags >= 8)
-              type = (enum anonymous$1)TYPE_LONGINT;
+              type = (enum anonymous_1)TYPE_LONGINT;
 
             else
               if(!((2 & flags) == 0))
-                type = (enum anonymous$1)TYPE_SCHAR;
+                type = (enum anonymous_1)TYPE_SCHAR;
 
               else
                 if(!((1 & flags) == 0))
-                  type = (enum anonymous$1)TYPE_SHORT;
+                  type = (enum anonymous_1)TYPE_SHORT;
 
                 else
-                  type = (enum anonymous$1)TYPE_INT;
+                  type = (enum anonymous_1)TYPE_INT;
           break;
         }
         case 111:
@@ -7366,22 +7366,22 @@ extern signed int printf_parse(const char *format, struct anonymous$5 *d, struct
         case 88:
         {
           if(flags >= 16 || !((4 & flags) == 0))
-            type = (enum anonymous$1)TYPE_ULONGLONGINT;
+            type = (enum anonymous_1)TYPE_ULONGLONGINT;
 
           else
             if(flags >= 8)
-              type = (enum anonymous$1)TYPE_ULONGINT;
+              type = (enum anonymous_1)TYPE_ULONGINT;
 
             else
               if(!((2 & flags) == 0))
-                type = (enum anonymous$1)TYPE_UCHAR;
+                type = (enum anonymous_1)TYPE_UCHAR;
 
               else
                 if(!((1 & flags) == 0))
-                  type = (enum anonymous$1)TYPE_USHORT;
+                  type = (enum anonymous_1)TYPE_USHORT;
 
                 else
-                  type = (enum anonymous$1)TYPE_UINT;
+                  type = (enum anonymous_1)TYPE_UINT;
           break;
         }
         case 102:
@@ -7401,71 +7401,71 @@ extern signed int printf_parse(const char *format, struct anonymous$5 *d, struct
         case 65:
         {
           if(flags >= 16 || !((4 & flags) == 0))
-            type = (enum anonymous$1)TYPE_LONGDOUBLE;
+            type = (enum anonymous_1)TYPE_LONGDOUBLE;
 
           else
-            type = (enum anonymous$1)TYPE_DOUBLE;
+            type = (enum anonymous_1)TYPE_DOUBLE;
           break;
         }
         case 99:
         {
           if(flags >= 8)
-            type = (enum anonymous$1)TYPE_WIDE_CHAR;
+            type = (enum anonymous_1)TYPE_WIDE_CHAR;
 
           else
-            type = (enum anonymous$1)TYPE_CHAR;
+            type = (enum anonymous_1)TYPE_CHAR;
           break;
         }
         case 67:
         {
-          type = (enum anonymous$1)TYPE_WIDE_CHAR;
+          type = (enum anonymous_1)TYPE_WIDE_CHAR;
           c = (char)99;
           break;
         }
         case 115:
         {
           if(flags >= 8)
-            type = (enum anonymous$1)TYPE_WIDE_STRING;
+            type = (enum anonymous_1)TYPE_WIDE_STRING;
 
           else
-            type = (enum anonymous$1)TYPE_STRING;
+            type = (enum anonymous_1)TYPE_STRING;
           break;
         }
         case 83:
         {
-          type = (enum anonymous$1)TYPE_WIDE_STRING;
+          type = (enum anonymous_1)TYPE_WIDE_STRING;
           c = (char)115;
           break;
         }
         case 112:
         {
-          type = (enum anonymous$1)TYPE_POINTER;
+          type = (enum anonymous_1)TYPE_POINTER;
           break;
         }
         case 110:
         {
           if(flags >= 16 || !((4 & flags) == 0))
-            type = (enum anonymous$1)TYPE_COUNT_LONGLONGINT_POINTER;
+            type = (enum anonymous_1)TYPE_COUNT_LONGLONGINT_POINTER;
 
           else
             if(flags >= 8)
-              type = (enum anonymous$1)TYPE_COUNT_LONGINT_POINTER;
+              type = (enum anonymous_1)TYPE_COUNT_LONGINT_POINTER;
 
             else
               if(!((2 & flags) == 0))
-                type = (enum anonymous$1)TYPE_COUNT_SCHAR_POINTER;
+                type = (enum anonymous_1)TYPE_COUNT_SCHAR_POINTER;
 
               else
                 if(!((1 & flags) == 0))
-                  type = (enum anonymous$1)TYPE_COUNT_SHORT_POINTER;
+                  type = (enum anonymous_1)TYPE_COUNT_SHORT_POINTER;
 
                 else
-                  type = (enum anonymous$1)TYPE_COUNT_INT_POINTER;
+                  type = (enum anonymous_1)TYPE_COUNT_INT_POINTER;
           break;
         }
         case 37:
         {
-          type = (enum anonymous$1)TYPE_NONE;
+          type = (enum anonymous_1)TYPE_NONE;
           break;
         }
         default:
@@ -7476,58 +7476,58 @@ extern signed int printf_parse(const char *format, struct anonymous$5 *d, struct
         dp->arg_index = arg_index;
         if(dp->arg_index == 18446744073709551615ul)
         {
-          tmp_post$22 = arg_posn;
+          tmp_post_22 = arg_posn;
           arg_posn = arg_posn + 1ul;
-          dp->arg_index = tmp_post$22;
+          dp->arg_index = tmp_post_22;
           if(dp->arg_index == 18446744073709551615ul)
             goto error;
 
         }
 
-        unsigned long int printf_parse$$1$$1$$1$$6$$2$$2$$n = dp->arg_index;
-        if(printf_parse$$1$$1$$1$$6$$2$$2$$n >= a_allocated)
+        unsigned long int printf_parse__1__1__1__6__2__2__n = dp->arg_index;
+        if(printf_parse__1__1__1__6__2__2__n >= a_allocated)
         {
-          unsigned long int printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory_size;
-          struct anonymous$0 *printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory;
+          unsigned long int printf_parse__1__1__1__6__2__2__1__memory_size;
+          struct anonymous_0 *printf_parse__1__1__1__6__2__2__1__memory;
           a_allocated = a_allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)a_allocated * (unsigned long int)2 : 18446744073709551615UL;
-          if(printf_parse$$1$$1$$1$$6$$2$$2$$n >= a_allocated)
-            a_allocated=xsum(printf_parse$$1$$1$$1$$6$$2$$2$$n, (unsigned long int)1);
+          if(printf_parse__1__1__1__6__2__2__n >= a_allocated)
+            a_allocated=xsum(printf_parse__1__1__1__6__2__2__n, (unsigned long int)1);
 
-          printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory_size = a_allocated <= 18446744073709551615UL / sizeof(struct anonymous$0) /*32ul*/  ? (unsigned long int)a_allocated * sizeof(struct anonymous$0) /*32ul*/  : 18446744073709551615UL;
-          if(printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory_size == 18446744073709551615UL)
+          printf_parse__1__1__1__6__2__2__1__memory_size = a_allocated <= 18446744073709551615UL / sizeof(struct anonymous_0) /*32ul*/  ? (unsigned long int)a_allocated * sizeof(struct anonymous_0) /*32ul*/  : 18446744073709551615UL;
+          if(printf_parse__1__1__1__6__2__2__1__memory_size == 18446744073709551615UL)
             goto out_of_memory;
 
           if(!(a->arg == a->direct_alloc_arg))
           {
-            return_value_realloc$23=realloc((void *)a->arg, printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory_size);
-            tmp_if_expr$25 = return_value_realloc$23;
+            return_value_realloc_23=realloc((void *)a->arg, printf_parse__1__1__1__6__2__2__1__memory_size);
+            tmp_if_expr_25 = return_value_realloc_23;
           }
 
           else
           {
-            return_value_malloc$24=malloc(printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory_size);
-            tmp_if_expr$25 = return_value_malloc$24;
+            return_value_malloc_24=malloc(printf_parse__1__1__1__6__2__2__1__memory_size);
+            tmp_if_expr_25 = return_value_malloc_24;
           }
-          printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory = (struct anonymous$0 *)tmp_if_expr$25;
-          if(printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory == ((struct anonymous$0 *)NULL))
+          printf_parse__1__1__1__6__2__2__1__memory = (struct anonymous_0 *)tmp_if_expr_25;
+          if(printf_parse__1__1__1__6__2__2__1__memory == ((struct anonymous_0 *)NULL))
             goto out_of_memory;
 
           if(a->arg == a->direct_alloc_arg)
-            memcpy((void *)printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory, (const void *)a->arg, a->count * sizeof(struct anonymous$0) /*32ul*/ );
+            memcpy((void *)printf_parse__1__1__1__6__2__2__1__memory, (const void *)a->arg, a->count * sizeof(struct anonymous_0) /*32ul*/ );
 
-          a->arg = printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory;
+          a->arg = printf_parse__1__1__1__6__2__2__1__memory;
         }
 
-        for( ; printf_parse$$1$$1$$1$$6$$2$$2$$n >= a->count; (a->arg + (signed long int)tmp_post$26)->type = (enum anonymous$1)TYPE_NONE)
+        for( ; printf_parse__1__1__1__6__2__2__n >= a->count; (a->arg + (signed long int)tmp_post_26)->type = (enum anonymous_1)TYPE_NONE)
         {
-          tmp_post$26 = a->count;
+          tmp_post_26 = a->count;
           a->count = a->count + 1ul;
         }
-        if((signed int)(a->arg + (signed long int)printf_parse$$1$$1$$1$$6$$2$$2$$n)->type == TYPE_NONE)
-          (a->arg + (signed long int)printf_parse$$1$$1$$1$$6$$2$$2$$n)->type = type;
+        if((signed int)(a->arg + (signed long int)printf_parse__1__1__1__6__2__2__n)->type == TYPE_NONE)
+          (a->arg + (signed long int)printf_parse__1__1__1__6__2__2__n)->type = type;
 
         else
-          if(!((a->arg + (signed long int)printf_parse$$1$$1$$1$$6$$2$$2$$n)->type == type))
+          if(!((a->arg + (signed long int)printf_parse__1__1__1__6__2__2__n)->type == type))
             goto error;
 
       }
@@ -7537,32 +7537,32 @@ extern signed int printf_parse(const char *format, struct anonymous$5 *d, struct
       d->count = d->count + 1ul;
       if(d->count >= d_allocated)
       {
-        unsigned long int printf_parse$$1$$1$$1$$7$$memory_size;
-        struct anonymous *printf_parse$$1$$1$$1$$7$$memory;
+        unsigned long int printf_parse__1__1__1__7__memory_size;
+        struct anonymous *printf_parse__1__1__1__7__memory;
         d_allocated = d_allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)d_allocated * (unsigned long int)2 : 18446744073709551615UL;
-        printf_parse$$1$$1$$1$$7$$memory_size = d_allocated <= 18446744073709551615UL / sizeof(struct anonymous) /*88ul*/  ? (unsigned long int)d_allocated * sizeof(struct anonymous) /*88ul*/  : 18446744073709551615UL;
-        if(printf_parse$$1$$1$$1$$7$$memory_size == 18446744073709551615UL)
+        printf_parse__1__1__1__7__memory_size = d_allocated <= 18446744073709551615UL / sizeof(struct anonymous) /*88ul*/  ? (unsigned long int)d_allocated * sizeof(struct anonymous) /*88ul*/  : 18446744073709551615UL;
+        if(printf_parse__1__1__1__7__memory_size == 18446744073709551615UL)
           goto out_of_memory;
 
         if(!(d->dir == d->direct_alloc_dir))
         {
-          return_value_realloc$27=realloc((void *)d->dir, printf_parse$$1$$1$$1$$7$$memory_size);
-          tmp_if_expr$29 = return_value_realloc$27;
+          return_value_realloc_27=realloc((void *)d->dir, printf_parse__1__1__1__7__memory_size);
+          tmp_if_expr_29 = return_value_realloc_27;
         }
 
         else
         {
-          return_value_malloc$28=malloc(printf_parse$$1$$1$$1$$7$$memory_size);
-          tmp_if_expr$29 = return_value_malloc$28;
+          return_value_malloc_28=malloc(printf_parse__1__1__1__7__memory_size);
+          tmp_if_expr_29 = return_value_malloc_28;
         }
-        printf_parse$$1$$1$$1$$7$$memory = (struct anonymous *)tmp_if_expr$29;
-        if(printf_parse$$1$$1$$1$$7$$memory == ((struct anonymous *)NULL))
+        printf_parse__1__1__1__7__memory = (struct anonymous *)tmp_if_expr_29;
+        if(printf_parse__1__1__1__7__memory == ((struct anonymous *)NULL))
           goto out_of_memory;
 
         if(d->dir == d->direct_alloc_dir)
-          memcpy((void *)printf_parse$$1$$1$$1$$7$$memory, (const void *)d->dir, d->count * sizeof(struct anonymous) /*88ul*/ );
+          memcpy((void *)printf_parse__1__1__1__7__memory, (const void *)d->dir, d->count * sizeof(struct anonymous) /*88ul*/ );
 
-        d->dir = printf_parse$$1$$1$$1$$7$$memory;
+        d->dir = printf_parse__1__1__1__7__memory;
       }
 
     }
@@ -7581,9 +7581,9 @@ error:
   if(!(d->dir == d->direct_alloc_dir))
     free((void *)d->dir);
 
-  signed int *return_value___errno_location$30;
-  return_value___errno_location$30=__errno_location();
-  *return_value___errno_location$30 = 22;
+  signed int *return_value___errno_location_30;
+  return_value___errno_location_30=__errno_location();
+  *return_value___errno_location_30 = 22;
   return -1;
 
 out_of_memory:
@@ -7594,9 +7594,9 @@ out_of_memory:
   if(!(d->dir == d->direct_alloc_dir))
     free((void *)d->dir);
 
-  signed int *return_value___errno_location$31;
-  return_value___errno_location$31=__errno_location();
-  *return_value___errno_location$31 = 12;
+  signed int *return_value___errno_location_31;
+  return_value___errno_location_31=__errno_location();
+  *return_value___errno_location_31 = 12;
   return -1;
 }
 
@@ -7604,9 +7604,9 @@ out_of_memory:
 // file core.c line 39
 static signed int reterrno(signed int err)
 {
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = err;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = err;
   return -1;
 }
 
@@ -7642,7 +7642,7 @@ static void sensor_type_exit(void)
 // file sensortypes.c line 88
 static void sensor_type_init(void)
 {
-  pthread_mutex_init(&stype_lock, (const union anonymous$6 *)(void *)0);
+  pthread_mutex_init(&stype_lock, (const union anonymous_6 *)(void *)0);
   add_sensor_type("eeg", (struct sensor_type *)(void *)0);
   add_sensor_type("trigger", (struct sensor_type *)(void *)0);
   add_sensor_type("undefined", (struct sensor_type *)(void *)0);
@@ -7703,9 +7703,9 @@ static signed int setup_xdf_channel_group(struct acq *acq, signed int igrp, stru
   for( ; !(j >= grp->nch); j = j + 1u)
   {
     egd_channel_info(acq->dev, grp->sensortype, j, 1, (const void *)label, 0);
-    struct xdfch *return_value_xdf_add_channel$1;
-    return_value_xdf_add_channel$1=xdf_add_channel(xdf, label);
-    if(return_value_xdf_add_channel$1 == ((struct xdfch *)NULL))
+    struct xdfch *return_value_xdf_add_channel_1;
+    return_value_xdf_add_channel_1=xdf_add_channel(xdf, label);
+    if(return_value_xdf_add_channel_1 == ((struct xdfch *)NULL))
       return -1;
 
   }
@@ -7719,26 +7719,26 @@ static signed int validate_groups_settings(struct eegdev *dev, unsigned int ngrp
   unsigned int i;
   unsigned int stype;
   i = (unsigned int)0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  signed int return_value_reterrno$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_reterrno_1;
   for( ; !(i >= ngrp); i = i + 1u)
   {
     stype = (unsigned int)(grp + (signed long int)i)->sensortype;
     if(stype >= 3u)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (grp + (signed long int)i)->index + (grp + (signed long int)i)->nch > dev->cap.type_nch[(signed long int)stype] ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = (grp + (signed long int)i)->index + (grp + (signed long int)i)->nch > dev->cap.type_nch[(signed long int)stype] ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (grp + (signed long int)i)->datatype >= 3 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (grp + (signed long int)i)->datatype >= 3 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
-      return_value_reterrno$1=reterrno(22);
-      return return_value_reterrno$1;
+      return_value_reterrno_1=reterrno(22);
+      return return_value_reterrno_1;
     }
 
   }
@@ -7749,49 +7749,49 @@ static signed int validate_groups_settings(struct eegdev *dev, unsigned int ngrp
 // file vasnprintf.h line 72
 extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char *format, void **args)
 {
-  struct anonymous$5 d;
-  struct anonymous$2 a;
-  signed int return_value_printf_parse$1;
-  return_value_printf_parse$1=printf_parse(format, &d, &a);
-  void *return_value_malloc$6;
-  void *return_value_realloc$7;
-  unsigned long int tmp_post$8;
-  const char *tmp_post$9;
-  void *return_value_malloc$10;
-  void *return_value_realloc$11;
-  char *tmp_post$12;
-  char *tmp_post$13;
-  char *tmp_post$14;
-  char *tmp_post$15;
-  char *tmp_post$16;
-  char *tmp_post$17;
-  char *tmp_post$18;
-  char *tmp_post$19;
-  char *tmp_post$20;
-  const char *tmp_post$21;
-  char *tmp_post$22;
-  const char *tmp_post$23;
-  char *tmp_post$24;
-  char *tmp_post$25;
-  char *tmp_post$26;
-  unsigned int tmp_post$27;
-  unsigned int tmp_post$28;
-  void *return_value_malloc$30;
-  void *return_value_realloc$31;
-  signed int tmp_if_expr$38;
-  _Bool tmp_if_expr$37;
-  void *return_value_malloc$40;
-  void *return_value_realloc$41;
-  void *return_value_malloc$44;
-  void *return_value_realloc$45;
-  if(!(return_value_printf_parse$1 >= 0))
+  struct anonymous_5 d;
+  struct anonymous_2 a;
+  signed int return_value_printf_parse_1;
+  return_value_printf_parse_1=printf_parse(format, &d, &a);
+  void *return_value_malloc_6;
+  void *return_value_realloc_7;
+  unsigned long int tmp_post_8;
+  const char *tmp_post_9;
+  void *return_value_malloc_10;
+  void *return_value_realloc_11;
+  char *tmp_post_12;
+  char *tmp_post_13;
+  char *tmp_post_14;
+  char *tmp_post_15;
+  char *tmp_post_16;
+  char *tmp_post_17;
+  char *tmp_post_18;
+  char *tmp_post_19;
+  char *tmp_post_20;
+  const char *tmp_post_21;
+  char *tmp_post_22;
+  const char *tmp_post_23;
+  char *tmp_post_24;
+  char *tmp_post_25;
+  char *tmp_post_26;
+  unsigned int tmp_post_27;
+  unsigned int tmp_post_28;
+  void *return_value_malloc_30;
+  void *return_value_realloc_31;
+  signed int tmp_if_expr_38;
+  _Bool tmp_if_expr_37;
+  void *return_value_malloc_40;
+  void *return_value_realloc_41;
+  void *return_value_malloc_44;
+  void *return_value_realloc_45;
+  if(!(return_value_printf_parse_1 >= 0))
     return (char *)(void *)0;
 
   else
   {
-    signed int return_value_printf_fetchargs$3;
-    return_value_printf_fetchargs$3=printf_fetchargs(args, &a);
-    if(!(return_value_printf_fetchargs$3 >= 0))
+    signed int return_value_printf_fetchargs_3;
+    return_value_printf_fetchargs_3=printf_fetchargs(args, &a);
+    if(!(return_value_printf_fetchargs_3 >= 0))
     {
       if(!(d.dir == d.direct_alloc_dir))
         free((void *)d.dir);
@@ -7799,9 +7799,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
       if(!(a.arg == a.direct_alloc_arg))
         free((void *)a.arg);
 
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 22;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 22;
       return (char *)(void *)0;
     }
 
@@ -7817,9 +7817,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
     buf_neededlength=xsum4((unsigned long int)7, d.max_width_length, d.max_precision_length, (unsigned long int)6);
     if(!(buf_neededlength >= 4000ul))
     {
-      void *return_value___builtin_alloca$4;
-      return_value___builtin_alloca$4=__builtin_alloca(buf_neededlength * sizeof(char) /*1ul*/ );
-      buf = (char *)return_value___builtin_alloca$4;
+      void *return_value___builtin_alloca_4;
+      return_value___builtin_alloca_4=__builtin_alloca(buf_neededlength * sizeof(char) /*1ul*/ );
+      buf = (char *)return_value___builtin_alloca_4;
       buf_malloced = (char *)(void *)0;
     }
 
@@ -7829,9 +7829,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
       if(buf_memsize == 18446744073709551615UL)
         goto out_of_memory_1;
 
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc(buf_memsize);
-      buf = (char *)return_value_malloc$5;
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc(buf_memsize);
+      buf = (char *)return_value_malloc_5;
       if(buf == ((char *)NULL))
         goto out_of_memory_1;
 
@@ -7857,42 +7857,42 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
       if(!(cp == dp->dir_start))
       {
         unsigned long int n = (unsigned long int)(dp->dir_start - cp);
-        unsigned long int vasnprintf$$1$$2$$5$$1$$1$$augmented_length;
-        vasnprintf$$1$$2$$5$$1$$1$$augmented_length=xsum(length, n);
-        if(!(allocated >= vasnprintf$$1$$2$$5$$1$$1$$augmented_length))
+        unsigned long int vasnprintf__1__2__5__1__1__augmented_length;
+        vasnprintf__1__2__5__1__1__augmented_length=xsum(length, n);
+        if(!(allocated >= vasnprintf__1__2__5__1__1__augmented_length))
         {
-          unsigned long int vasnprintf$$1$$2$$5$$1$$1$$1$$memory_size;
-          char *vasnprintf$$1$$2$$5$$1$$1$$1$$memory;
+          unsigned long int vasnprintf__1__2__5__1__1__1__memory_size;
+          char *vasnprintf__1__2__5__1__1__1__memory;
           allocated = allocated > (unsigned long int)0 ? (allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)allocated * (unsigned long int)2 : 18446744073709551615UL) : (unsigned long int)12;
-          if(!(allocated >= vasnprintf$$1$$2$$5$$1$$1$$augmented_length))
-            allocated = vasnprintf$$1$$2$$5$$1$$1$$augmented_length;
+          if(!(allocated >= vasnprintf__1__2__5__1__1__augmented_length))
+            allocated = vasnprintf__1__2__5__1__1__augmented_length;
 
-          vasnprintf$$1$$2$$5$$1$$1$$1$$memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
-          if(vasnprintf$$1$$2$$5$$1$$1$$1$$memory_size == 18446744073709551615UL)
+          vasnprintf__1__2__5__1__1__1__memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
+          if(vasnprintf__1__2__5__1__1__1__memory_size == 18446744073709551615UL)
             goto out_of_memory;
 
           if(result == ((char *)NULL) || result == resultbuf)
           {
-            return_value_malloc$6=malloc(vasnprintf$$1$$2$$5$$1$$1$$1$$memory_size);
-            vasnprintf$$1$$2$$5$$1$$1$$1$$memory = (char *)return_value_malloc$6;
+            return_value_malloc_6=malloc(vasnprintf__1__2__5__1__1__1__memory_size);
+            vasnprintf__1__2__5__1__1__1__memory = (char *)return_value_malloc_6;
           }
 
           else
           {
-            return_value_realloc$7=realloc((void *)result, vasnprintf$$1$$2$$5$$1$$1$$1$$memory_size);
-            vasnprintf$$1$$2$$5$$1$$1$$1$$memory = (char *)return_value_realloc$7;
+            return_value_realloc_7=realloc((void *)result, vasnprintf__1__2__5__1__1__1__memory_size);
+            vasnprintf__1__2__5__1__1__1__memory = (char *)return_value_realloc_7;
           }
-          if(vasnprintf$$1$$2$$5$$1$$1$$1$$memory == ((char *)NULL))
+          if(vasnprintf__1__2__5__1__1__1__memory == ((char *)NULL))
             goto out_of_memory;
 
           if(result == resultbuf && length >= 1ul)
-            memcpy((void *)vasnprintf$$1$$2$$5$$1$$1$$1$$memory, (const void *)result, length);
+            memcpy((void *)vasnprintf__1__2__5__1__1__1__memory, (const void *)result, length);
 
-          result = vasnprintf$$1$$2$$5$$1$$1$$1$$memory;
+          result = vasnprintf__1__2__5__1__1__1__memory;
         }
 
         memcpy((void *)(result + (signed long int)length), (const void *)(const char *)cp, n);
-        length = vasnprintf$$1$$2$$5$$1$$1$$augmented_length;
+        length = vasnprintf__1__2__5__1__1__augmented_length;
       }
 
       if(i == d.count)
@@ -7919,14 +7919,14 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
 
           if(result == ((char *)NULL) || result == resultbuf)
           {
-            return_value_malloc$10=malloc(memory_size);
-            memory = (char *)return_value_malloc$10;
+            return_value_malloc_10=malloc(memory_size);
+            memory = (char *)return_value_malloc_10;
           }
 
           else
           {
-            return_value_realloc$11=realloc((void *)result, memory_size);
-            memory = (char *)return_value_realloc$11;
+            return_value_realloc_11=realloc((void *)result, memory_size);
+            memory = (char *)return_value_realloc_11;
           }
           if(memory == ((char *)NULL))
             goto out_of_memory;
@@ -7980,77 +7980,77 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
 
         else
         {
-          enum anonymous$1 type = (a.arg + (signed long int)dp->arg_index)->type;
+          enum anonymous_1 type = (a.arg + (signed long int)dp->arg_index)->type;
           signed int flags = dp->flags;
           char *fbp;
           unsigned int prefix_count;
           signed int prefixes[2l];
           signed int orig_errno;
           fbp = buf;
-          tmp_post$12 = fbp;
+          tmp_post_12 = fbp;
           fbp = fbp + 1l;
-          *tmp_post$12 = (char)37;
+          *tmp_post_12 = (char)37;
           if(!((1 & flags) == 0))
           {
-            tmp_post$13 = fbp;
+            tmp_post_13 = fbp;
             fbp = fbp + 1l;
-            *tmp_post$13 = (char)39;
+            *tmp_post_13 = (char)39;
           }
 
           if(!((2 & flags) == 0))
           {
-            tmp_post$14 = fbp;
+            tmp_post_14 = fbp;
             fbp = fbp + 1l;
-            *tmp_post$14 = (char)45;
+            *tmp_post_14 = (char)45;
           }
 
           if(!((4 & flags) == 0))
           {
-            tmp_post$15 = fbp;
+            tmp_post_15 = fbp;
             fbp = fbp + 1l;
-            *tmp_post$15 = (char)43;
+            *tmp_post_15 = (char)43;
           }
 
           if(!((8 & flags) == 0))
           {
-            tmp_post$16 = fbp;
+            tmp_post_16 = fbp;
             fbp = fbp + 1l;
-            *tmp_post$16 = (char)32;
+            *tmp_post_16 = (char)32;
           }
 
           if(!((16 & flags) == 0))
           {
-            tmp_post$17 = fbp;
+            tmp_post_17 = fbp;
             fbp = fbp + 1l;
-            *tmp_post$17 = (char)35;
+            *tmp_post_17 = (char)35;
           }
 
           if(!((64 & flags) == 0))
           {
-            tmp_post$18 = fbp;
+            tmp_post_18 = fbp;
             fbp = fbp + 1l;
-            *tmp_post$18 = (char)73;
+            *tmp_post_18 = (char)73;
           }
 
           if(!((32 & flags) == 0))
           {
-            tmp_post$19 = fbp;
+            tmp_post_19 = fbp;
             fbp = fbp + 1l;
-            *tmp_post$19 = (char)48;
+            *tmp_post_19 = (char)48;
           }
 
           if(!(dp->width_start == dp->width_end))
           {
-            unsigned long int vasnprintf$$1$$2$$5$$1$$3$$2$$1$$1$$n = (unsigned long int)(dp->width_end - dp->width_start);
-            memcpy((void *)fbp, (const void *)dp->width_start, vasnprintf$$1$$2$$5$$1$$3$$2$$1$$1$$n * sizeof(char) /*1ul*/ );
-            fbp = fbp + (signed long int)vasnprintf$$1$$2$$5$$1$$3$$2$$1$$1$$n;
+            unsigned long int vasnprintf__1__2__5__1__3__2__1__1__n = (unsigned long int)(dp->width_end - dp->width_start);
+            memcpy((void *)fbp, (const void *)dp->width_start, vasnprintf__1__2__5__1__3__2__1__1__n * sizeof(char) /*1ul*/ );
+            fbp = fbp + (signed long int)vasnprintf__1__2__5__1__3__2__1__1__n;
           }
 
           if(!(dp->precision_start == dp->precision_end))
           {
-            unsigned long int vasnprintf$$1$$2$$5$$1$$3$$2$$2$$1$$n = (unsigned long int)(dp->precision_end - dp->precision_start);
-            memcpy((void *)fbp, (const void *)dp->precision_start, vasnprintf$$1$$2$$5$$1$$3$$2$$2$$1$$n * sizeof(char) /*1ul*/ );
-            fbp = fbp + (signed long int)vasnprintf$$1$$2$$5$$1$$3$$2$$2$$1$$n;
+            unsigned long int vasnprintf__1__2__5__1__3__2__2__1__n = (unsigned long int)(dp->precision_end - dp->precision_start);
+            memcpy((void *)fbp, (const void *)dp->precision_start, vasnprintf__1__2__5__1__3__2__2__1__n * sizeof(char) /*1ul*/ );
+            fbp = fbp + (signed long int)vasnprintf__1__2__5__1__3__2__2__1__n;
           }
 
           switch((signed int)type)
@@ -8059,9 +8059,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
 
             case TYPE_ULONGLONGINT:
             {
-              tmp_post$24 = fbp;
+              tmp_post_24 = fbp;
               fbp = fbp + 1l;
-              *tmp_post$24 = (char)108;
+              *tmp_post_24 = (char)108;
             }
             case TYPE_LONGINT:
 
@@ -8071,16 +8071,16 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
 
             case TYPE_WIDE_STRING:
             {
-              tmp_post$25 = fbp;
+              tmp_post_25 = fbp;
               fbp = fbp + 1l;
-              *tmp_post$25 = (char)108;
+              *tmp_post_25 = (char)108;
               break;
             }
             case TYPE_LONGDOUBLE:
             {
-              tmp_post$26 = fbp;
+              tmp_post_26 = fbp;
               fbp = fbp + 1l;
-              *tmp_post$26 = (char)76;
+              *tmp_post_26 = (char)76;
             }
           }
           *fbp = dp->conversion;
@@ -8091,9 +8091,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
             if(!((signed int)(a.arg + (signed long int)dp->width_arg_index)->type == TYPE_INT))
               abort();
 
-            tmp_post$27 = prefix_count;
+            tmp_post_27 = prefix_count;
             prefix_count = prefix_count + 1u;
-            prefixes[(signed long int)tmp_post$27] = (a.arg + (signed long int)dp->width_arg_index)->a.a_int;
+            prefixes[(signed long int)tmp_post_27] = (a.arg + (signed long int)dp->width_arg_index)->a.a_int;
           }
 
           if(!(dp->precision_arg_index == 18446744073709551615ul))
@@ -8101,51 +8101,51 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
             if(!((signed int)(a.arg + (signed long int)dp->precision_arg_index)->type == TYPE_INT))
               abort();
 
-            tmp_post$28 = prefix_count;
+            tmp_post_28 = prefix_count;
             prefix_count = prefix_count + 1u;
-            prefixes[(signed long int)tmp_post$28] = (a.arg + (signed long int)dp->precision_arg_index)->a.a_int;
+            prefixes[(signed long int)tmp_post_28] = (a.arg + (signed long int)dp->precision_arg_index)->a.a_int;
           }
 
-          unsigned long int return_value_xsum$32;
-          return_value_xsum$32=xsum(length, (((unsigned long int)2 + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
-          if(!(allocated >= return_value_xsum$32))
+          unsigned long int return_value_xsum_32;
+          return_value_xsum_32=xsum(length, (((unsigned long int)2 + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
+          if(!(allocated >= return_value_xsum_32))
           {
-            unsigned long int vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory_size;
-            char *vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory;
+            unsigned long int vasnprintf__1__2__5__1__3__2__6__memory_size;
+            char *vasnprintf__1__2__5__1__3__2__6__memory;
             allocated = allocated > (unsigned long int)0 ? (allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)allocated * (unsigned long int)2 : 18446744073709551615UL) : (unsigned long int)12;
-            unsigned long int return_value_xsum$29;
-            return_value_xsum$29=xsum(length, (((unsigned long int)2 + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
-            if(!(allocated >= return_value_xsum$29))
+            unsigned long int return_value_xsum_29;
+            return_value_xsum_29=xsum(length, (((unsigned long int)2 + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
+            if(!(allocated >= return_value_xsum_29))
               allocated=xsum(length, (((unsigned long int)2 + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
 
-            vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
-            if(vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory_size == 18446744073709551615UL)
+            vasnprintf__1__2__5__1__3__2__6__memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
+            if(vasnprintf__1__2__5__1__3__2__6__memory_size == 18446744073709551615UL)
               goto out_of_memory;
 
             if(result == ((char *)NULL) || result == resultbuf)
             {
-              return_value_malloc$30=malloc(vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory_size);
-              vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory = (char *)return_value_malloc$30;
+              return_value_malloc_30=malloc(vasnprintf__1__2__5__1__3__2__6__memory_size);
+              vasnprintf__1__2__5__1__3__2__6__memory = (char *)return_value_malloc_30;
             }
 
             else
             {
-              return_value_realloc$31=realloc((void *)result, vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory_size);
-              vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory = (char *)return_value_realloc$31;
+              return_value_realloc_31=realloc((void *)result, vasnprintf__1__2__5__1__3__2__6__memory_size);
+              vasnprintf__1__2__5__1__3__2__6__memory = (char *)return_value_realloc_31;
             }
-            if(vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory == ((char *)NULL))
+            if(vasnprintf__1__2__5__1__3__2__6__memory == ((char *)NULL))
               goto out_of_memory;
 
             if(result == resultbuf && length >= 1ul)
-              memcpy((void *)vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory, (const void *)result, length);
+              memcpy((void *)vasnprintf__1__2__5__1__3__2__6__memory, (const void *)result, length);
 
-            result = vasnprintf$$1$$2$$5$$1$$3$$2$$6$$memory;
+            result = vasnprintf__1__2__5__1__3__2__6__memory;
           }
 
           *((char *)(result + (signed long int)length)) = (char)0;
-          signed int *return_value___errno_location$33;
-          return_value___errno_location$33=__errno_location();
-          orig_errno = *return_value___errno_location$33;
+          signed int *return_value___errno_location_33;
+          return_value___errno_location_33=__errno_location();
+          orig_errno = *return_value___errno_location_33;
           do
           {
             signed int count = -1;
@@ -8155,29 +8155,29 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               maxlen = (unsigned long int)0x7fffffff / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ );
 
             maxlen = maxlen * (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ );
-            signed int *return_value___errno_location$34;
-            return_value___errno_location$34=__errno_location();
-            *return_value___errno_location$34 = 0;
+            signed int *return_value___errno_location_34;
+            return_value___errno_location_34=__errno_location();
+            *return_value___errno_location_34 = 0;
             switch((signed int)type)
             {
               case TYPE_SCHAR:
               {
-                signed int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$1$$arg = (signed int)(a.arg + (signed long int)dp->arg_index)->a.a_schar;
+                signed int vasnprintf__1__2__5__1__3__2__7__1__1__1__arg = (signed int)(a.arg + (signed long int)dp->arg_index)->a.a_schar;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$1$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__1__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$1$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__1__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$1$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__1__arg, &count);
                     break;
                   }
                   default:
@@ -8187,22 +8187,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_UCHAR:
               {
-                unsigned int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$2$$arg = (unsigned int)(a.arg + (signed long int)dp->arg_index)->a.a_uchar;
+                unsigned int vasnprintf__1__2__5__1__3__2__7__1__1__2__arg = (unsigned int)(a.arg + (signed long int)dp->arg_index)->a.a_uchar;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$2$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__2__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$2$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__2__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$2$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__2__arg, &count);
                     break;
                   }
                   default:
@@ -8212,22 +8212,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_SHORT:
               {
-                signed int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$3$$arg = (signed int)(a.arg + (signed long int)dp->arg_index)->a.a_short;
+                signed int vasnprintf__1__2__5__1__3__2__7__1__1__3__arg = (signed int)(a.arg + (signed long int)dp->arg_index)->a.a_short;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$3$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__3__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$3$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__3__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$3$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__3__arg, &count);
                     break;
                   }
                   default:
@@ -8237,22 +8237,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_USHORT:
               {
-                unsigned int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$4$$arg = (unsigned int)(a.arg + (signed long int)dp->arg_index)->a.a_ushort;
+                unsigned int vasnprintf__1__2__5__1__3__2__7__1__1__4__arg = (unsigned int)(a.arg + (signed long int)dp->arg_index)->a.a_ushort;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$4$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__4__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$4$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__4__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$4$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__4__arg, &count);
                     break;
                   }
                   default:
@@ -8262,22 +8262,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_INT:
               {
-                signed int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$5$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_int;
+                signed int vasnprintf__1__2__5__1__3__2__7__1__1__5__arg = (a.arg + (signed long int)dp->arg_index)->a.a_int;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$5$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__5__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$5$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__5__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$5$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__5__arg, &count);
                     break;
                   }
                   default:
@@ -8287,22 +8287,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_UINT:
               {
-                unsigned int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$6$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_uint;
+                unsigned int vasnprintf__1__2__5__1__3__2__7__1__1__6__arg = (a.arg + (signed long int)dp->arg_index)->a.a_uint;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$6$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__6__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$6$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__6__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$6$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__6__arg, &count);
                     break;
                   }
                   default:
@@ -8312,22 +8312,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_LONGINT:
               {
-                signed long int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$7$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_longint;
+                signed long int vasnprintf__1__2__5__1__3__2__7__1__1__7__arg = (a.arg + (signed long int)dp->arg_index)->a.a_longint;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$7$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__7__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$7$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__7__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$7$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__7__arg, &count);
                     break;
                   }
                   default:
@@ -8337,22 +8337,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_ULONGINT:
               {
-                unsigned long int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$8$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_ulongint;
+                unsigned long int vasnprintf__1__2__5__1__3__2__7__1__1__8__arg = (a.arg + (signed long int)dp->arg_index)->a.a_ulongint;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$8$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__8__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$8$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__8__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$8$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__8__arg, &count);
                     break;
                   }
                   default:
@@ -8362,22 +8362,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_LONGLONGINT:
               {
-                signed long long int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$9$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_longlongint;
+                signed long long int vasnprintf__1__2__5__1__3__2__7__1__1__9__arg = (a.arg + (signed long int)dp->arg_index)->a.a_longlongint;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$9$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__9__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$9$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__9__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$9$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__9__arg, &count);
                     break;
                   }
                   default:
@@ -8387,22 +8387,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_ULONGLONGINT:
               {
-                unsigned long long int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$10$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_ulonglongint;
+                unsigned long long int vasnprintf__1__2__5__1__3__2__7__1__1__10__arg = (a.arg + (signed long int)dp->arg_index)->a.a_ulonglongint;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$10$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__10__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$10$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__10__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$10$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__10__arg, &count);
                     break;
                   }
                   default:
@@ -8437,22 +8437,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_LONGDOUBLE:
               {
-                long double vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$12$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_longdouble;
+                long double vasnprintf__1__2__5__1__3__2__7__1__1__12__arg = (a.arg + (signed long int)dp->arg_index)->a.a_longdouble;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$12$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__12__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$12$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__12__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$12$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__12__arg, &count);
                     break;
                   }
                   default:
@@ -8462,22 +8462,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_CHAR:
               {
-                signed int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$13$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_char;
+                signed int vasnprintf__1__2__5__1__3__2__7__1__1__13__arg = (a.arg + (signed long int)dp->arg_index)->a.a_char;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$13$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__13__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$13$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__13__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$13$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__13__arg, &count);
                     break;
                   }
                   default:
@@ -8487,22 +8487,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_WIDE_CHAR:
               {
-                unsigned int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$14$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_wide_char;
+                unsigned int vasnprintf__1__2__5__1__3__2__7__1__1__14__arg = (a.arg + (signed long int)dp->arg_index)->a.a_wide_char;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$14$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__14__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$14$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__14__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$14$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__14__arg, &count);
                     break;
                   }
                   default:
@@ -8512,22 +8512,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_STRING:
               {
-                const char *vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$15$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_string;
+                const char *vasnprintf__1__2__5__1__3__2__7__1__1__15__arg = (a.arg + (signed long int)dp->arg_index)->a.a_string;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$15$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__15__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$15$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__15__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$15$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__15__arg, &count);
                     break;
                   }
                   default:
@@ -8537,22 +8537,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_WIDE_STRING:
               {
-                const signed int *vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$16$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_wide_string;
+                const signed int *vasnprintf__1__2__5__1__3__2__7__1__1__16__arg = (a.arg + (signed long int)dp->arg_index)->a.a_wide_string;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$16$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__16__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$16$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__16__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$16$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__16__arg, &count);
                     break;
                   }
                   default:
@@ -8562,22 +8562,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               }
               case TYPE_POINTER:
               {
-                void *vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$17$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_pointer;
+                void *vasnprintf__1__2__5__1__3__2__7__1__1__17__arg = (a.arg + (signed long int)dp->arg_index)->a.a_pointer;
                 switch(prefix_count)
                 {
                   case (unsigned int)0:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$17$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__2__7__1__1__17__arg, &count);
                     break;
                   }
                   case (unsigned int)1:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$17$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__2__7__1__1__17__arg, &count);
                     break;
                   }
                   case (unsigned int)2:
                   {
-                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$1$$17$$arg, &count);
+                    retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__2__7__1__1__17__arg, &count);
                     break;
                   }
                   default:
@@ -8616,9 +8616,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
             if(!(count >= 0))
             {
               signed int saved_errno;
-              signed int *return_value___errno_location$35;
-              return_value___errno_location$35=__errno_location();
-              saved_errno = *return_value___errno_location$35;
+              signed int *return_value___errno_location_35;
+              return_value___errno_location_35=__errno_location();
+              saved_errno = *return_value___errno_location_35;
               if(!(result == ((char *)NULL)) && !(result == resultbuf))
                 free((void *)result);
 
@@ -8631,21 +8631,21 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               if(!(a.arg == a.direct_alloc_arg))
                 free((void *)a.arg);
 
-              signed int *return_value___errno_location$36;
-              return_value___errno_location$36=__errno_location();
+              signed int *return_value___errno_location_36;
+              return_value___errno_location_36=__errno_location();
               if(!(saved_errno == 0))
-                tmp_if_expr$38 = saved_errno;
+                tmp_if_expr_38 = saved_errno;
 
               else
               {
                 if((signed int)dp->conversion == 99)
-                  tmp_if_expr$37 = (_Bool)1;
+                  tmp_if_expr_37 = (_Bool)1;
 
                 else
-                  tmp_if_expr$37 = (signed int)dp->conversion == 115 ? (_Bool)1 : (_Bool)0;
-                tmp_if_expr$38 = tmp_if_expr$37 ? 84 : 22;
+                  tmp_if_expr_37 = (signed int)dp->conversion == 115 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_38 = tmp_if_expr_37 ? 84 : 22;
               }
-              *return_value___errno_location$36 = tmp_if_expr$38;
+              *return_value___errno_location_36 = tmp_if_expr_38;
               return (char *)(void *)0;
             }
 
@@ -8656,40 +8656,40 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
 
               else
               {
-                unsigned long int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$n;
-                unsigned long int return_value_xsum$39;
-                return_value_xsum$39=xsum(length, (((unsigned long int)((unsigned int)count + (unsigned int)2) + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
-                vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$n=xmax(return_value_xsum$39, allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)allocated * (unsigned long int)2 : 18446744073709551615UL);
-                if(!(allocated >= vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$n))
+                unsigned long int vasnprintf__1__2__5__1__3__2__7__1__5__1__n;
+                unsigned long int return_value_xsum_39;
+                return_value_xsum_39=xsum(length, (((unsigned long int)((unsigned int)count + (unsigned int)2) + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
+                vasnprintf__1__2__5__1__3__2__7__1__5__1__n=xmax(return_value_xsum_39, allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)allocated * (unsigned long int)2 : 18446744073709551615UL);
+                if(!(allocated >= vasnprintf__1__2__5__1__3__2__7__1__5__1__n))
                 {
-                  unsigned long int vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory_size;
-                  char *vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory;
+                  unsigned long int vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory_size;
+                  char *vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory;
                   allocated = allocated > (unsigned long int)0 ? (allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)allocated * (unsigned long int)2 : 18446744073709551615UL) : (unsigned long int)12;
-                  if(!(allocated >= vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$n))
-                    allocated = vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$n;
+                  if(!(allocated >= vasnprintf__1__2__5__1__3__2__7__1__5__1__n))
+                    allocated = vasnprintf__1__2__5__1__3__2__7__1__5__1__n;
 
-                  vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
-                  if(vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory_size == 18446744073709551615UL)
+                  vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
+                  if(vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory_size == 18446744073709551615UL)
                     goto out_of_memory;
 
                   if(result == ((char *)NULL) || result == resultbuf)
                   {
-                    return_value_malloc$40=malloc(vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory_size);
-                    vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory = (char *)return_value_malloc$40;
+                    return_value_malloc_40=malloc(vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory_size);
+                    vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory = (char *)return_value_malloc_40;
                   }
 
                   else
                   {
-                    return_value_realloc$41=realloc((void *)result, vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory_size);
-                    vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory = (char *)return_value_realloc$41;
+                    return_value_realloc_41=realloc((void *)result, vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory_size);
+                    vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory = (char *)return_value_realloc_41;
                   }
-                  if(vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory == ((char *)NULL))
+                  if(vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory == ((char *)NULL))
                     goto out_of_memory;
 
                   if(result == resultbuf && length >= 1ul)
-                    memcpy((void *)vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory, (const void *)result, length);
+                    memcpy((void *)vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory, (const void *)result, length);
 
-                  result = vasnprintf$$1$$2$$5$$1$$3$$2$$7$$1$$5$$1$$1$$memory;
+                  result = vasnprintf__1__2__5__1__3__2__7__1__5__1__1__memory;
                 }
 
                 continue;
@@ -8700,59 +8700,59 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
             break;
           }
           while((_Bool)1);
-          signed int *return_value___errno_location$42;
-          return_value___errno_location$42=__errno_location();
-          *return_value___errno_location$42 = orig_errno;
+          signed int *return_value___errno_location_42;
+          return_value___errno_location_42=__errno_location();
+          *return_value___errno_location_42 = orig_errno;
         }
       }
       cp = dp->dir_end;
       i = i + 1ul;
     }
-    unsigned long int return_value_xsum$46;
-    return_value_xsum$46=xsum(length, (unsigned long int)1);
-    if(!(allocated >= return_value_xsum$46))
+    unsigned long int return_value_xsum_46;
+    return_value_xsum_46=xsum(length, (unsigned long int)1);
+    if(!(allocated >= return_value_xsum_46))
     {
-      unsigned long int vasnprintf$$1$$2$$6$$memory_size;
-      char *vasnprintf$$1$$2$$6$$memory;
+      unsigned long int vasnprintf__1__2__6__memory_size;
+      char *vasnprintf__1__2__6__memory;
       allocated = allocated > (unsigned long int)0 ? (allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)allocated * (unsigned long int)2 : 18446744073709551615UL) : (unsigned long int)12;
-      unsigned long int return_value_xsum$43;
-      return_value_xsum$43=xsum(length, (unsigned long int)1);
-      if(!(allocated >= return_value_xsum$43))
+      unsigned long int return_value_xsum_43;
+      return_value_xsum_43=xsum(length, (unsigned long int)1);
+      if(!(allocated >= return_value_xsum_43))
         allocated=xsum(length, (unsigned long int)1);
 
-      vasnprintf$$1$$2$$6$$memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
-      if(vasnprintf$$1$$2$$6$$memory_size == 18446744073709551615UL)
+      vasnprintf__1__2__6__memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
+      if(vasnprintf__1__2__6__memory_size == 18446744073709551615UL)
         goto out_of_memory;
 
       if(result == ((char *)NULL) || result == resultbuf)
       {
-        return_value_malloc$44=malloc(vasnprintf$$1$$2$$6$$memory_size);
-        vasnprintf$$1$$2$$6$$memory = (char *)return_value_malloc$44;
+        return_value_malloc_44=malloc(vasnprintf__1__2__6__memory_size);
+        vasnprintf__1__2__6__memory = (char *)return_value_malloc_44;
       }
 
       else
       {
-        return_value_realloc$45=realloc((void *)result, vasnprintf$$1$$2$$6$$memory_size);
-        vasnprintf$$1$$2$$6$$memory = (char *)return_value_realloc$45;
+        return_value_realloc_45=realloc((void *)result, vasnprintf__1__2__6__memory_size);
+        vasnprintf__1__2__6__memory = (char *)return_value_realloc_45;
       }
-      if(vasnprintf$$1$$2$$6$$memory == ((char *)NULL))
+      if(vasnprintf__1__2__6__memory == ((char *)NULL))
         goto out_of_memory;
 
       if(result == resultbuf && length >= 1ul)
-        memcpy((void *)vasnprintf$$1$$2$$6$$memory, (const void *)result, length);
+        memcpy((void *)vasnprintf__1__2__6__memory, (const void *)result, length);
 
-      result = vasnprintf$$1$$2$$6$$memory;
+      result = vasnprintf__1__2__6__memory;
     }
 
     result[(signed long int)length] = (char)0;
     if(!(result == resultbuf) && !(1ul + length >= allocated))
     {
-      char *vasnprintf$$1$$2$$7$$memory;
-      void *return_value_realloc$47;
-      return_value_realloc$47=realloc((void *)result, (length + (unsigned long int)1) * sizeof(char) /*1ul*/ );
-      vasnprintf$$1$$2$$7$$memory = (char *)return_value_realloc$47;
-      if(!(vasnprintf$$1$$2$$7$$memory == ((char *)NULL)))
-        result = vasnprintf$$1$$2$$7$$memory;
+      char *vasnprintf__1__2__7__memory;
+      void *return_value_realloc_47;
+      return_value_realloc_47=realloc((void *)result, (length + (unsigned long int)1) * sizeof(char) /*1ul*/ );
+      vasnprintf__1__2__7__memory = (char *)return_value_realloc_47;
+      if(!(vasnprintf__1__2__7__memory == ((char *)NULL)))
+        result = vasnprintf__1__2__7__memory;
 
     }
 
@@ -8782,9 +8782,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
     if(!(a.arg == a.direct_alloc_arg))
       free((void *)a.arg);
 
-    signed int *return_value___errno_location$48;
-    return_value___errno_location$48=__errno_location();
-    *return_value___errno_location$48 = 75;
+    signed int *return_value___errno_location_48;
+    return_value___errno_location_48=__errno_location();
+    *return_value___errno_location_48 = 75;
     return (char *)(void *)0;
 
   out_of_memory:
@@ -8804,9 +8804,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
     if(!(a.arg == a.direct_alloc_arg))
       free((void *)a.arg);
 
-    signed int *return_value___errno_location$49;
-    return_value___errno_location$49=__errno_location();
-    *return_value___errno_location$49 = 12;
+    signed int *return_value___errno_location_49;
+    return_value___errno_location_49=__errno_location();
+    *return_value___errno_location_49 = 12;
     return (char *)(void *)0;
   }
 }
@@ -8834,13 +8834,13 @@ static signed int wait_for_data(struct eegdev *dev, unsigned long int *reqns)
     pthread_cond_wait(&dev->available, &dev->synclock);
   }
   while((_Bool)1);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(error == 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(dev->acquiring != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(dev->acquiring != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(!(dev->ns_written >= *reqns + dev->ns_read))
       *reqns = dev->ns_written - dev->ns_read;
@@ -8871,24 +8871,24 @@ inline unsigned long int xsum(unsigned long int size1, unsigned long int size2)
 // file xsize.h line 74
 inline unsigned long int xsum3(unsigned long int size1, unsigned long int size2, unsigned long int size3)
 {
-  unsigned long int return_value_xsum$1;
-  return_value_xsum$1=xsum(size1, size2);
-  unsigned long int return_value_xsum$2;
-  return_value_xsum$2=xsum(return_value_xsum$1, size3);
-  return return_value_xsum$2;
+  unsigned long int return_value_xsum_1;
+  return_value_xsum_1=xsum(size1, size2);
+  unsigned long int return_value_xsum_2;
+  return_value_xsum_2=xsum(return_value_xsum_1, size3);
+  return return_value_xsum_2;
 }
 
 // xsum4
 // file xsize.h line 84
 inline unsigned long int xsum4(unsigned long int size1, unsigned long int size2, unsigned long int size3, unsigned long int size4)
 {
-  unsigned long int return_value_xsum$1;
-  return_value_xsum$1=xsum(size1, size2);
-  unsigned long int return_value_xsum$2;
-  return_value_xsum$2=xsum(return_value_xsum$1, size3);
-  unsigned long int return_value_xsum$3;
-  return_value_xsum$3=xsum(return_value_xsum$2, size4);
-  return return_value_xsum$3;
+  unsigned long int return_value_xsum_1;
+  return_value_xsum_1=xsum(size1, size2);
+  unsigned long int return_value_xsum_2;
+  return_value_xsum_2=xsum(return_value_xsum_1, size3);
+  unsigned long int return_value_xsum_3;
+  return_value_xsum_3=xsum(return_value_xsum_2, size4);
+  return return_value_xsum_3;
 }
 
 // yy_fatal_error
@@ -8899,11 +8899,11 @@ static void yy_fatal_error(const char *msg, void *yyscanner)
   exit(2);
 }
 
-// yy_fatal_error$link1
+// yy_fatal_error_link1
 // file confline.lex.c line 1645
-static void yy_fatal_error$link1(const char *msg$link1, void *yyscanner$link1)
+static void yy_fatal_error_link1(const char *msg_link1, void *yyscanner_link1)
 {
-  fprintf(stderr, "%s\n", msg$link1);
+  fprintf(stderr, "%s\n", msg_link1);
   exit(2);
 }
 
@@ -8920,12 +8920,12 @@ static signed int yy_get_next_buffer(void *yyscanner)
   if(!(yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_ch_buf + 1l + (signed long int)yyg->yy_n_chars >= yyg->yy_c_buf_p))
     yy_fatal_error("fatal flex scanner internal error--end of buffer missed", yyscanner);
 
-  char *tmp_post$1;
-  char *tmp_post$2;
-  _Bool tmp_if_expr$4;
-  unsigned long int tmp_post$5;
-  signed int return_value_ferror$6;
-  signed int return_value_ferror$8;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  _Bool tmp_if_expr_4;
+  unsigned long int tmp_post_5;
+  signed int return_value_ferror_6;
+  signed int return_value_ferror_8;
   if(yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_fill_buffer == 0)
   {
     if(yyg->yy_c_buf_p - yyg->yytext_r == 1l)
@@ -8940,11 +8940,11 @@ static signed int yy_get_next_buffer(void *yyscanner)
     i = 0;
     for( ; !(i >= number_to_move); i = i + 1)
     {
-      tmp_post$1 = dest;
+      tmp_post_1 = dest;
       dest = dest + 1l;
-      tmp_post$2 = source;
+      tmp_post_2 = source;
       source = source + 1l;
-      *tmp_post$1 = *tmp_post$2;
+      *tmp_post_1 = *tmp_post_2;
     }
     if(yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_buffer_status == 2)
     {
@@ -8961,15 +8961,15 @@ static signed int yy_get_next_buffer(void *yyscanner)
         signed int yy_c_buf_p_offset = (signed int)(yyg->yy_c_buf_p - b->yy_ch_buf);
         if(!(b->yy_is_our_buffer == 0))
         {
-          unsigned long int yy_get_next_buffer$$1$$3$$1$$1$$new_size = b->yy_buf_size * (unsigned long int)2;
-          if(!(yy_get_next_buffer$$1$$3$$1$$1$$new_size >= 1ul))
+          unsigned long int yy_get_next_buffer__1__3__1__1__new_size = b->yy_buf_size * (unsigned long int)2;
+          if(!(yy_get_next_buffer__1__3__1__1__new_size >= 1ul))
             b->yy_buf_size = b->yy_buf_size + b->yy_buf_size / (unsigned long int)8;
 
           else
             b->yy_buf_size = b->yy_buf_size * (unsigned long int)2;
-          void *return_value_cff_realloc$3;
-          return_value_cff_realloc$3=cff_realloc((void *)b->yy_ch_buf, b->yy_buf_size + (unsigned long int)2, yyscanner);
-          b->yy_ch_buf = (char *)return_value_cff_realloc$3;
+          void *return_value_cff_realloc_3;
+          return_value_cff_realloc_3=cff_realloc((void *)b->yy_ch_buf, b->yy_buf_size + (unsigned long int)2, yyscanner);
+          b->yy_ch_buf = (char *)return_value_cff_realloc_3;
         }
 
         else
@@ -8992,12 +8992,12 @@ static signed int yy_get_next_buffer(void *yyscanner)
           if(!(n >= num_to_read))
           {
             c=_IO_getc(yyg->yyin_r);
-            tmp_if_expr$4 = c != -1 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = c != -1 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(c == 10 || !tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(c == 10 || !tmp_if_expr_4)
             break;
 
           (&yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move])[(signed long int)n] = (char)c;
@@ -9006,15 +9006,15 @@ static signed int yy_get_next_buffer(void *yyscanner)
         while((_Bool)1);
         if(c == 10)
         {
-          tmp_post$5 = n;
+          tmp_post_5 = n;
           n = n + 1ul;
-          (&yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move])[(signed long int)tmp_post$5] = (char)c;
+          (&yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move])[(signed long int)tmp_post_5] = (char)c;
         }
 
         if(c == -1)
         {
-          return_value_ferror$6=ferror(yyg->yyin_r);
-          if(!(return_value_ferror$6 == 0))
+          return_value_ferror_6=ferror(yyg->yyin_r);
+          if(!(return_value_ferror_6 == 0))
             yy_fatal_error("input in flex scanner failed", yyscanner);
 
         }
@@ -9024,30 +9024,30 @@ static signed int yy_get_next_buffer(void *yyscanner)
 
       else
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        *return_value___errno_location$7 = 0;
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        *return_value___errno_location_7 = 0;
         do
         {
           yyg->yy_n_chars=fread((void *)&yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move], (unsigned long int)1, num_to_read, yyg->yyin_r);
           if(!(yyg->yy_n_chars == 0ul))
             break;
 
-          return_value_ferror$8=ferror(yyg->yyin_r);
-          if(return_value_ferror$8 == 0)
+          return_value_ferror_8=ferror(yyg->yyin_r);
+          if(return_value_ferror_8 == 0)
             break;
 
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          if(!(*return_value___errno_location$9 == 4))
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          if(!(*return_value___errno_location_9 == 4))
           {
             yy_fatal_error("input in flex scanner failed", yyscanner);
             break;
           }
 
-          signed int *return_value___errno_location$10;
-          return_value___errno_location$10=__errno_location();
-          *return_value___errno_location$10 = 0;
+          signed int *return_value___errno_location_10;
+          return_value___errno_location_10=__errno_location();
+          *return_value___errno_location_10 = 0;
           clearerr(yyg->yyin_r);
         }
         while((_Bool)1);
@@ -9074,9 +9074,9 @@ static signed int yy_get_next_buffer(void *yyscanner)
     if(!(yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_buf_size >= yyg->yy_n_chars + (unsigned long int)number_to_move))
     {
       unsigned long int new_size = yyg->yy_n_chars + (unsigned long int)number_to_move + (yyg->yy_n_chars >> 1);
-      void *return_value_cff_realloc$11;
-      return_value_cff_realloc$11=cff_realloc((void *)yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_ch_buf, new_size, yyscanner);
-      yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_ch_buf = (char *)return_value_cff_realloc$11;
+      void *return_value_cff_realloc_11;
+      return_value_cff_realloc_11=cff_realloc((void *)yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_ch_buf, new_size, yyscanner);
+      yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_ch_buf = (char *)return_value_cff_realloc_11;
       if(yyg->yy_buffer_stack[(signed long int)yyg->yy_buffer_stack_top]->yy_ch_buf == ((char *)NULL))
         yy_fatal_error("out of dynamic memory in yy_get_next_buffer()", yyscanner);
 
@@ -9090,28 +9090,28 @@ static signed int yy_get_next_buffer(void *yyscanner)
   }
 }
 
-// yy_get_next_buffer$link1
+// yy_get_next_buffer_link1
 // file confline.lex.c line 1008
-static signed int yy_get_next_buffer$link1(void *yyscanner$link1)
+static signed int yy_get_next_buffer_link1(void *yyscanner_link1)
 {
-  struct yyguts_t *yyg$link1 = (struct yyguts_t *)yyscanner$link1;
-  char *dest$link1 = yyg$link1->yy_buffer_stack[(signed long int)yyg$link1->yy_buffer_stack_top]->yy_ch_buf;
-  char *source$link1 = yyg$link1->yytext_r;
-  signed int number_to_move$link1;
-  signed int i$link1;
-  signed int ret_val$link1;
-  if(!(yyg$link1->yy_buffer_stack[(signed long int)yyg$link1->yy_buffer_stack_top]->yy_ch_buf + 1l + (signed long int)yyg$link1->yy_n_chars >= yyg$link1->yy_c_buf_p))
-    yy_fatal_error$link1("fatal flex scanner internal error--end of buffer missed", yyscanner$link1);
+  struct yyguts_t *yyg_link1 = (struct yyguts_t *)yyscanner_link1;
+  char *dest_link1 = yyg_link1->yy_buffer_stack[(signed long int)yyg_link1->yy_buffer_stack_top]->yy_ch_buf;
+  char *source_link1 = yyg_link1->yytext_r;
+  signed int number_to_move_link1;
+  signed int i_link1;
+  signed int ret_val_link1;
+  if(!(yyg_link1->yy_buffer_stack[(signed long int)yyg_link1->yy_buffer_stack_top]->yy_ch_buf + 1l + (signed long int)yyg_link1->yy_n_chars >= yyg_link1->yy_c_buf_p))
+    yy_fatal_error_link1("fatal flex scanner internal error--end of buffer missed", yyscanner_link1);
 
-  char *tmp_post$1$link1;
-  char *tmp_post$2$link1;
-  _Bool tmp_if_expr$4$link1;
-  unsigned long int tmp_post$5$link1;
-  signed int return_value_ferror$6$link1;
-  signed int return_value_ferror$8$link1;
-  if(yyg$link1->yy_buffer_stack[(signed long int)yyg$link1->yy_buffer_stack_top]->yy_fill_buffer == 0)
+  char *tmp_post_1_link1;
+  char *tmp_post_2_link1;
+  _Bool tmp_if_expr_4_link1;
+  unsigned long int tmp_post_5_link1;
+  signed int return_value_ferror_6_link1;
+  signed int return_value_ferror_8_link1;
+  if(yyg_link1->yy_buffer_stack[(signed long int)yyg_link1->yy_buffer_stack_top]->yy_fill_buffer == 0)
   {
-    if(yyg$link1->yy_c_buf_p - yyg$link1->yytext_r == 1l)
+    if(yyg_link1->yy_c_buf_p - yyg_link1->yytext_r == 1l)
       return 1;
 
     return 2;
@@ -9119,157 +9119,157 @@ static signed int yy_get_next_buffer$link1(void *yyscanner$link1)
 
   else
   {
-    number_to_move$link1 = (signed int)(yyg$link1->yy_c_buf_p - yyg$link1->yytext_r) - 1;
-    i$link1 = 0;
-    for( ; !(i$link1 >= number_to_move$link1); i$link1 = i$link1 + 1)
+    number_to_move_link1 = (signed int)(yyg_link1->yy_c_buf_p - yyg_link1->yytext_r) - 1;
+    i_link1 = 0;
+    for( ; !(i_link1 >= number_to_move_link1); i_link1 = i_link1 + 1)
     {
-      tmp_post$1$link1 = dest$link1;
-      dest$link1 = dest$link1 + 1l;
-      tmp_post$2$link1 = source$link1;
-      source$link1 = source$link1 + 1l;
-      *tmp_post$1$link1 = *tmp_post$2$link1;
+      tmp_post_1_link1 = dest_link1;
+      dest_link1 = dest_link1 + 1l;
+      tmp_post_2_link1 = source_link1;
+      source_link1 = source_link1 + 1l;
+      *tmp_post_1_link1 = *tmp_post_2_link1;
     }
-    if(yyg$link1->yy_buffer_stack[(signed long int)yyg$link1->yy_buffer_stack_top]->yy_buffer_status == 2)
+    if(yyg_link1->yy_buffer_stack[(signed long int)yyg_link1->yy_buffer_stack_top]->yy_buffer_status == 2)
     {
-      yyg$link1->yy_n_chars = (unsigned long int)0;
-      yyg$link1->yy_buffer_stack[(signed long int)yyg$link1->yy_buffer_stack_top]->yy_n_chars = yyg$link1->yy_n_chars;
+      yyg_link1->yy_n_chars = (unsigned long int)0;
+      yyg_link1->yy_buffer_stack[(signed long int)yyg_link1->yy_buffer_stack_top]->yy_n_chars = yyg_link1->yy_n_chars;
     }
 
     else
     {
-      unsigned long int num_to_read$link1 = (yyg$link1->yy_buffer_stack[(signed long int)yyg$link1->yy_buffer_stack_top]->yy_buf_size - (unsigned long int)number_to_move$link1) - (unsigned long int)1;
-      while(!(num_to_read$link1 >= 1ul))
+      unsigned long int num_to_read_link1 = (yyg_link1->yy_buffer_stack[(signed long int)yyg_link1->yy_buffer_stack_top]->yy_buf_size - (unsigned long int)number_to_move_link1) - (unsigned long int)1;
+      while(!(num_to_read_link1 >= 1ul))
       {
-        struct yy_buffer_state *b$link1 = yyg$link1->yy_buffer_stack[(signed long int)yyg$link1->yy_buffer_stack_top];
-        signed int yy_c_buf_p_offset$link1 = (signed int)(yyg$link1->yy_c_buf_p - b$link1->yy_ch_buf);
-        if(!(b$link1->yy_is_our_buffer == 0))
+        struct yy_buffer_state *b_link1 = yyg_link1->yy_buffer_stack[(signed long int)yyg_link1->yy_buffer_stack_top];
+        signed int yy_c_buf_p_offset_link1 = (signed int)(yyg_link1->yy_c_buf_p - b_link1->yy_ch_buf);
+        if(!(b_link1->yy_is_our_buffer == 0))
         {
-          unsigned long int new_size$link1 = b$link1->yy_buf_size * (unsigned long int)2;
-          if(!(new_size$link1 >= 1ul))
-            b$link1->yy_buf_size = b$link1->yy_buf_size + b$link1->yy_buf_size / (unsigned long int)8;
+          unsigned long int new_size_link1 = b_link1->yy_buf_size * (unsigned long int)2;
+          if(!(new_size_link1 >= 1ul))
+            b_link1->yy_buf_size = b_link1->yy_buf_size + b_link1->yy_buf_size / (unsigned long int)8;
 
           else
-            b$link1->yy_buf_size = b$link1->yy_buf_size * (unsigned long int)2;
-          void *return_value_cfl_realloc$3;
-          return_value_cfl_realloc$3=cfl_realloc((void *)b$link1->yy_ch_buf, b$link1->yy_buf_size + (unsigned long int)2, yyscanner$link1);
-          b$link1->yy_ch_buf = (char *)return_value_cfl_realloc$3;
+            b_link1->yy_buf_size = b_link1->yy_buf_size * (unsigned long int)2;
+          void *return_value_cfl_realloc_3;
+          return_value_cfl_realloc_3=cfl_realloc((void *)b_link1->yy_ch_buf, b_link1->yy_buf_size + (unsigned long int)2, yyscanner_link1);
+          b_link1->yy_ch_buf = (char *)return_value_cfl_realloc_3;
         }
 
         else
-          b$link1->yy_ch_buf = ((char *)NULL);
-        if(b$link1->yy_ch_buf == ((char *)NULL))
-          yy_fatal_error$link1("fatal error - scanner input buffer overflow", yyscanner$link1);
+          b_link1->yy_ch_buf = ((char *)NULL);
+        if(b_link1->yy_ch_buf == ((char *)NULL))
+          yy_fatal_error_link1("fatal error - scanner input buffer overflow", yyscanner_link1);
 
-        yyg$link1->yy_c_buf_p = &b$link1->yy_ch_buf[(signed long int)yy_c_buf_p_offset$link1];
-        num_to_read$link1 = (yyg$link1->yy_buffer_stack[(signed long int)yyg$link1->yy_buffer_stack_top]->yy_buf_size - (unsigned long int)number_to_move$link1) - (unsigned long int)1;
+        yyg_link1->yy_c_buf_p = &b_link1->yy_ch_buf[(signed long int)yy_c_buf_p_offset_link1];
+        num_to_read_link1 = (yyg_link1->yy_buffer_stack[(signed long int)yyg_link1->yy_buffer_stack_top]->yy_buf_size - (unsigned long int)number_to_move_link1) - (unsigned long int)1;
       }
-      if(num_to_read$link1 >= 8193ul)
-        num_to_read$link1 = (unsigned long int)8192;
+      if(num_to_read_link1 >= 8193ul)
+        num_to_read_link1 = (unsigned long int)8192;
 
-      if(!(yyg$link1->yy_buffer_stack[(signed long int)yyg$link1->yy_buffer_stack_top]->yy_is_interactive == 0))
+      if(!(yyg_link1->yy_buffer_stack[(signed long int)yyg_link1->yy_buffer_stack_top]->yy_is_interactive == 0))
       {
-        signed int c$link1 = 42;
-        unsigned long int n$link1 = (unsigned long int)0;
+        signed int c_link1 = 42;
+        unsigned long int n_link1 = (unsigned long int)0;
         do
         {
-          if(!(n$link1 >= num_to_read$link1))
+          if(!(n_link1 >= num_to_read_link1))
           {
-            c$link1=_IO_getc(yyg$link1->yyin_r);
-            tmp_if_expr$4$link1 = c$link1 != -1 ? (_Bool)1 : (_Bool)0;
+            c_link1=_IO_getc(yyg_link1->yyin_r);
+            tmp_if_expr_4_link1 = c_link1 != -1 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$4$link1 = (_Bool)0;
-          if(c$link1 == 10 || !tmp_if_expr$4$link1)
+            tmp_if_expr_4_link1 = (_Bool)0;
+          if(c_link1 == 10 || !tmp_if_expr_4_link1)
             break;
 
-          (&yyg$link1->yy_buffer_stack[(signed long int)yyg$link1->yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move$link1])[(signed long int)n$link1] = (char)c$link1;
-          n$link1 = n$link1 + 1ul;
+          (&yyg_link1->yy_buffer_stack[(signed long int)yyg_link1->yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move_link1])[(signed long int)n_link1] = (char)c_link1;
+          n_link1 = n_link1 + 1ul;
         }
         while((_Bool)1);
-        if(c$link1 == 10)
+        if(c_link1 == 10)
         {
-          tmp_post$5$link1 = n$link1;
-          n$link1 = n$link1 + 1ul;
-          (&yyg$link1->yy_buffer_stack[(signed long int)yyg$link1->yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move$link1])[(signed long int)tmp_post$5$link1] = (char)c$link1;
+          tmp_post_5_link1 = n_link1;
+          n_link1 = n_link1 + 1ul;
+          (&yyg_link1->yy_buffer_stack[(signed long int)yyg_link1->yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move_link1])[(signed long int)tmp_post_5_link1] = (char)c_link1;
         }
 
-        if(c$link1 == -1)
+        if(c_link1 == -1)
         {
-          return_value_ferror$6$link1=ferror(yyg$link1->yyin_r);
-          if(!(return_value_ferror$6$link1 == 0))
-            yy_fatal_error$link1("input in flex scanner failed", yyscanner$link1);
+          return_value_ferror_6_link1=ferror(yyg_link1->yyin_r);
+          if(!(return_value_ferror_6_link1 == 0))
+            yy_fatal_error_link1("input in flex scanner failed", yyscanner_link1);
 
         }
 
-        yyg$link1->yy_n_chars = n$link1;
+        yyg_link1->yy_n_chars = n_link1;
       }
 
       else
       {
-        signed int *return_value___errno_location$7$link1;
-        return_value___errno_location$7$link1=__errno_location();
-        *return_value___errno_location$7$link1 = 0;
+        signed int *return_value___errno_location_7_link1;
+        return_value___errno_location_7_link1=__errno_location();
+        *return_value___errno_location_7_link1 = 0;
         do
         {
-          yyg$link1->yy_n_chars=fread((void *)&yyg$link1->yy_buffer_stack[(signed long int)yyg$link1->yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move$link1], (unsigned long int)1, num_to_read$link1, yyg$link1->yyin_r);
-          if(!(yyg$link1->yy_n_chars == 0ul))
+          yyg_link1->yy_n_chars=fread((void *)&yyg_link1->yy_buffer_stack[(signed long int)yyg_link1->yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move_link1], (unsigned long int)1, num_to_read_link1, yyg_link1->yyin_r);
+          if(!(yyg_link1->yy_n_chars == 0ul))
             break;
 
-          return_value_ferror$8$link1=ferror(yyg$link1->yyin_r);
-          if(return_value_ferror$8$link1 == 0)
+          return_value_ferror_8_link1=ferror(yyg_link1->yyin_r);
+          if(return_value_ferror_8_link1 == 0)
             break;
 
-          signed int *return_value___errno_location$9$link1;
-          return_value___errno_location$9$link1=__errno_location();
-          if(!(*return_value___errno_location$9$link1 == 4))
+          signed int *return_value___errno_location_9_link1;
+          return_value___errno_location_9_link1=__errno_location();
+          if(!(*return_value___errno_location_9_link1 == 4))
           {
-            yy_fatal_error$link1("input in flex scanner failed", yyscanner$link1);
+            yy_fatal_error_link1("input in flex scanner failed", yyscanner_link1);
             break;
           }
 
-          signed int *return_value___errno_location$10$link1;
-          return_value___errno_location$10$link1=__errno_location();
-          *return_value___errno_location$10$link1 = 0;
-          clearerr(yyg$link1->yyin_r);
+          signed int *return_value___errno_location_10_link1;
+          return_value___errno_location_10_link1=__errno_location();
+          *return_value___errno_location_10_link1 = 0;
+          clearerr(yyg_link1->yyin_r);
         }
         while((_Bool)1);
       }
-      yyg$link1->yy_buffer_stack[(signed long int)yyg$link1->yy_buffer_stack_top]->yy_n_chars = yyg$link1->yy_n_chars;
+      yyg_link1->yy_buffer_stack[(signed long int)yyg_link1->yy_buffer_stack_top]->yy_n_chars = yyg_link1->yy_n_chars;
     }
-    if(yyg$link1->yy_n_chars == 0ul)
+    if(yyg_link1->yy_n_chars == 0ul)
     {
-      if(number_to_move$link1 == 0)
+      if(number_to_move_link1 == 0)
       {
-        ret_val$link1 = 1;
-        cfl_restart(yyg$link1->yyin_r, yyscanner$link1);
+        ret_val_link1 = 1;
+        cfl_restart(yyg_link1->yyin_r, yyscanner_link1);
       }
 
       else
       {
-        ret_val$link1 = 2;
-        yyg$link1->yy_buffer_stack[(signed long int)yyg$link1->yy_buffer_stack_top]->yy_buffer_status = 2;
+        ret_val_link1 = 2;
+        yyg_link1->yy_buffer_stack[(signed long int)yyg_link1->yy_buffer_stack_top]->yy_buffer_status = 2;
       }
     }
 
     else
-      ret_val$link1 = 0;
-    if(!(yyg$link1->yy_buffer_stack[(signed long int)yyg$link1->yy_buffer_stack_top]->yy_buf_size >= yyg$link1->yy_n_chars + (unsigned long int)number_to_move$link1))
+      ret_val_link1 = 0;
+    if(!(yyg_link1->yy_buffer_stack[(signed long int)yyg_link1->yy_buffer_stack_top]->yy_buf_size >= yyg_link1->yy_n_chars + (unsigned long int)number_to_move_link1))
     {
-      unsigned long int yy_get_next_buffer$$1$$5$$new_size$link1 = yyg$link1->yy_n_chars + (unsigned long int)number_to_move$link1 + (yyg$link1->yy_n_chars >> 1);
-      void *return_value_cfl_realloc$11;
-      return_value_cfl_realloc$11=cfl_realloc((void *)yyg$link1->yy_buffer_stack[(signed long int)yyg$link1->yy_buffer_stack_top]->yy_ch_buf, yy_get_next_buffer$$1$$5$$new_size$link1, yyscanner$link1);
-      yyg$link1->yy_buffer_stack[(signed long int)yyg$link1->yy_buffer_stack_top]->yy_ch_buf = (char *)return_value_cfl_realloc$11;
-      if(yyg$link1->yy_buffer_stack[(signed long int)yyg$link1->yy_buffer_stack_top]->yy_ch_buf == ((char *)NULL))
-        yy_fatal_error$link1("out of dynamic memory in yy_get_next_buffer()", yyscanner$link1);
+      unsigned long int yy_get_next_buffer__1__5__new_size_link1 = yyg_link1->yy_n_chars + (unsigned long int)number_to_move_link1 + (yyg_link1->yy_n_chars >> 1);
+      void *return_value_cfl_realloc_11;
+      return_value_cfl_realloc_11=cfl_realloc((void *)yyg_link1->yy_buffer_stack[(signed long int)yyg_link1->yy_buffer_stack_top]->yy_ch_buf, yy_get_next_buffer__1__5__new_size_link1, yyscanner_link1);
+      yyg_link1->yy_buffer_stack[(signed long int)yyg_link1->yy_buffer_stack_top]->yy_ch_buf = (char *)return_value_cfl_realloc_11;
+      if(yyg_link1->yy_buffer_stack[(signed long int)yyg_link1->yy_buffer_stack_top]->yy_ch_buf == ((char *)NULL))
+        yy_fatal_error_link1("out of dynamic memory in yy_get_next_buffer()", yyscanner_link1);
 
     }
 
-    yyg$link1->yy_n_chars = yyg$link1->yy_n_chars + (unsigned long int)number_to_move$link1;
-    yyg$link1->yy_buffer_stack[(signed long int)yyg$link1->yy_buffer_stack_top]->yy_ch_buf[(signed long int)yyg$link1->yy_n_chars] = (char)0;
-    yyg$link1->yy_buffer_stack[(signed long int)yyg$link1->yy_buffer_stack_top]->yy_ch_buf[(signed long int)(yyg$link1->yy_n_chars + (unsigned long int)1)] = (char)0;
-    yyg$link1->yytext_r = &yyg$link1->yy_buffer_stack[(signed long int)yyg$link1->yy_buffer_stack_top]->yy_ch_buf[(signed long int)0];
-    return ret_val$link1;
+    yyg_link1->yy_n_chars = yyg_link1->yy_n_chars + (unsigned long int)number_to_move_link1;
+    yyg_link1->yy_buffer_stack[(signed long int)yyg_link1->yy_buffer_stack_top]->yy_ch_buf[(signed long int)yyg_link1->yy_n_chars] = (char)0;
+    yyg_link1->yy_buffer_stack[(signed long int)yyg_link1->yy_buffer_stack_top]->yy_ch_buf[(signed long int)(yyg_link1->yy_n_chars + (unsigned long int)1)] = (char)0;
+    yyg_link1->yytext_r = &yyg_link1->yy_buffer_stack[(signed long int)yyg_link1->yy_buffer_stack_top]->yy_ch_buf[(signed long int)0];
+    return ret_val_link1;
   }
 }
 
@@ -9282,16 +9282,16 @@ static signed int yy_get_previous_state(void *yyscanner)
   struct yyguts_t *yyg = (struct yyguts_t *)yyscanner;
   yy_current_state = yyg->yy_start;
   yy_cp = yyg->yytext_r + (signed long int)0;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   for( ; !(yy_cp >= yyg->yy_c_buf_p); yy_cp = yy_cp + 1l)
   {
     unsigned char yy_c;
     if(!(*yy_cp == 0))
-      tmp_if_expr$1 = yy_ec[(signed long int)(unsigned int)(unsigned char)*yy_cp];
+      tmp_if_expr_1 = yy_ec[(signed long int)(unsigned int)(unsigned char)*yy_cp];
 
     else
-      tmp_if_expr$1 = 1;
-    yy_c = (unsigned char)tmp_if_expr$1;
+      tmp_if_expr_1 = 1;
+    yy_c = (unsigned char)tmp_if_expr_1;
     if(!(yy_accept[(signed long int)yy_current_state] == 0))
     {
       yyg->yy_last_accepting_state = yy_current_state;
@@ -9310,41 +9310,41 @@ static signed int yy_get_previous_state(void *yyscanner)
   return yy_current_state;
 }
 
-// yy_get_previous_state$link1
+// yy_get_previous_state_link1
 // file confline.lex.c line 1143
-static signed int yy_get_previous_state$link1(void *yyscanner$link1)
+static signed int yy_get_previous_state_link1(void *yyscanner_link1)
 {
-  signed int yy_current_state$link1;
-  char *yy_cp$link1;
-  struct yyguts_t *yyg$link1 = (struct yyguts_t *)yyscanner$link1;
-  yy_current_state$link1 = yyg$link1->yy_start;
-  yy_cp$link1 = yyg$link1->yytext_r + (signed long int)0;
-  signed int tmp_if_expr$1$link1;
-  for( ; !(yy_cp$link1 >= yyg$link1->yy_c_buf_p); yy_cp$link1 = yy_cp$link1 + 1l)
+  signed int yy_current_state_link1;
+  char *yy_cp_link1;
+  struct yyguts_t *yyg_link1 = (struct yyguts_t *)yyscanner_link1;
+  yy_current_state_link1 = yyg_link1->yy_start;
+  yy_cp_link1 = yyg_link1->yytext_r + (signed long int)0;
+  signed int tmp_if_expr_1_link1;
+  for( ; !(yy_cp_link1 >= yyg_link1->yy_c_buf_p); yy_cp_link1 = yy_cp_link1 + 1l)
   {
-    unsigned char yy_c$link1;
-    if(!(*yy_cp$link1 == 0))
-      tmp_if_expr$1$link1 = yy_ec$link1[(signed long int)(unsigned int)(unsigned char)*yy_cp$link1];
+    unsigned char yy_c_link1;
+    if(!(*yy_cp_link1 == 0))
+      tmp_if_expr_1_link1 = yy_ec_link1[(signed long int)(unsigned int)(unsigned char)*yy_cp_link1];
 
     else
-      tmp_if_expr$1$link1 = 1;
-    yy_c$link1 = (unsigned char)tmp_if_expr$1$link1;
-    if(!(yy_accept$link1[(signed long int)yy_current_state$link1] == 0))
+      tmp_if_expr_1_link1 = 1;
+    yy_c_link1 = (unsigned char)tmp_if_expr_1_link1;
+    if(!(yy_accept_link1[(signed long int)yy_current_state_link1] == 0))
     {
-      yyg$link1->yy_last_accepting_state = yy_current_state$link1;
-      yyg$link1->yy_last_accepting_cpos = yy_cp$link1;
+      yyg_link1->yy_last_accepting_state = yy_current_state_link1;
+      yyg_link1->yy_last_accepting_cpos = yy_cp_link1;
     }
 
-    while(!((signed int)yy_chk$link1[(signed long int)((signed int)yy_base$link1[(signed long int)yy_current_state$link1] + (signed int)yy_c$link1)] == yy_current_state$link1))
+    while(!((signed int)yy_chk_link1[(signed long int)((signed int)yy_base_link1[(signed long int)yy_current_state_link1] + (signed int)yy_c_link1)] == yy_current_state_link1))
     {
-      yy_current_state$link1 = (signed int)yy_def$link1[(signed long int)yy_current_state$link1];
-      if(yy_current_state$link1 >= 11)
-        yy_c$link1 = (unsigned char)yy_meta$link1[(signed long int)(unsigned int)yy_c$link1];
+      yy_current_state_link1 = (signed int)yy_def_link1[(signed long int)yy_current_state_link1];
+      if(yy_current_state_link1 >= 11)
+        yy_c_link1 = (unsigned char)yy_meta_link1[(signed long int)(unsigned int)yy_c_link1];
 
     }
-    yy_current_state$link1 = (signed int)yy_nxt$link1[(signed long int)((unsigned int)yy_base$link1[(signed long int)yy_current_state$link1] + (unsigned int)yy_c$link1)];
+    yy_current_state_link1 = (signed int)yy_nxt_link1[(signed long int)((unsigned int)yy_base_link1[(signed long int)yy_current_state_link1] + (unsigned int)yy_c_link1)];
   }
-  return yy_current_state$link1;
+  return yy_current_state_link1;
 }
 
 // yy_init_globals
@@ -9366,22 +9366,22 @@ static signed int yy_init_globals(void *yyscanner)
   return 0;
 }
 
-// yy_init_globals$link1
+// yy_init_globals_link1
 // file confline.lex.c line 1890
-static signed int yy_init_globals$link1(void *yyscanner$link1)
+static signed int yy_init_globals_link1(void *yyscanner_link1)
 {
-  struct yyguts_t *yyg$link1 = (struct yyguts_t *)yyscanner$link1;
-  yyg$link1->yy_buffer_stack = ((struct yy_buffer_state **)NULL);
-  yyg$link1->yy_buffer_stack_top = (unsigned long int)0;
-  yyg$link1->yy_buffer_stack_max = (unsigned long int)0;
-  yyg$link1->yy_c_buf_p = (char *)0;
-  yyg$link1->yy_init = 0;
-  yyg$link1->yy_start = 0;
-  yyg$link1->yy_start_stack_ptr = 0;
-  yyg$link1->yy_start_stack_depth = 0;
-  yyg$link1->yy_start_stack = (signed int *)(void *)0;
-  yyg$link1->yyin_r = (struct _IO_FILE *)0;
-  yyg$link1->yyout_r = (struct _IO_FILE *)0;
+  struct yyguts_t *yyg_link1 = (struct yyguts_t *)yyscanner_link1;
+  yyg_link1->yy_buffer_stack = ((struct yy_buffer_state **)NULL);
+  yyg_link1->yy_buffer_stack_top = (unsigned long int)0;
+  yyg_link1->yy_buffer_stack_max = (unsigned long int)0;
+  yyg_link1->yy_c_buf_p = (char *)0;
+  yyg_link1->yy_init = 0;
+  yyg_link1->yy_start = 0;
+  yyg_link1->yy_start_stack_ptr = 0;
+  yyg_link1->yy_start_stack_depth = 0;
+  yyg_link1->yy_start_stack = (signed int *)(void *)0;
+  yyg_link1->yyin_r = (struct _IO_FILE *)0;
+  yyg_link1->yyout_r = (struct _IO_FILE *)0;
   return 0;
 }
 
@@ -9412,31 +9412,31 @@ static signed int yy_try_NUL_trans(signed int yy_current_state, void *yyscanner)
   return yy_is_jam != 0 ? 0 : yy_current_state;
 }
 
-// yy_try_NUL_trans$link1
+// yy_try_NUL_trans_link1
 // file confline.lex.c line 1176
-static signed int yy_try_NUL_trans$link1(signed int yy_current_state$link1, void *yyscanner$link1)
+static signed int yy_try_NUL_trans_link1(signed int yy_current_state_link1, void *yyscanner_link1)
 {
-  signed int yy_is_jam$link1;
-  struct yyguts_t *yyg$link1 = (struct yyguts_t *)yyscanner$link1;
-  char *yy_cp$link1 = yyg$link1->yy_c_buf_p;
-  unsigned char yy_c$link1 = (unsigned char)1;
-  if(!(yy_accept$link1[(signed long int)yy_current_state$link1] == 0))
+  signed int yy_is_jam_link1;
+  struct yyguts_t *yyg_link1 = (struct yyguts_t *)yyscanner_link1;
+  char *yy_cp_link1 = yyg_link1->yy_c_buf_p;
+  unsigned char yy_c_link1 = (unsigned char)1;
+  if(!(yy_accept_link1[(signed long int)yy_current_state_link1] == 0))
   {
-    yyg$link1->yy_last_accepting_state = yy_current_state$link1;
-    yyg$link1->yy_last_accepting_cpos = yy_cp$link1;
+    yyg_link1->yy_last_accepting_state = yy_current_state_link1;
+    yyg_link1->yy_last_accepting_cpos = yy_cp_link1;
   }
 
-  while(!((signed int)yy_chk$link1[(signed long int)((signed int)yy_base$link1[(signed long int)yy_current_state$link1] + (signed int)yy_c$link1)] == yy_current_state$link1))
+  while(!((signed int)yy_chk_link1[(signed long int)((signed int)yy_base_link1[(signed long int)yy_current_state_link1] + (signed int)yy_c_link1)] == yy_current_state_link1))
   {
-    yy_current_state$link1 = (signed int)yy_def$link1[(signed long int)yy_current_state$link1];
-    if(yy_current_state$link1 >= 11)
-      yy_c$link1 = (unsigned char)yy_meta$link1[(signed long int)(unsigned int)yy_c$link1];
+    yy_current_state_link1 = (signed int)yy_def_link1[(signed long int)yy_current_state_link1];
+    if(yy_current_state_link1 >= 11)
+      yy_c_link1 = (unsigned char)yy_meta_link1[(signed long int)(unsigned int)yy_c_link1];
 
   }
-  yy_current_state$link1 = (signed int)yy_nxt$link1[(signed long int)((unsigned int)yy_base$link1[(signed long int)yy_current_state$link1] + (unsigned int)yy_c$link1)];
-  yy_is_jam$link1 = (signed int)(yy_current_state$link1 == 10);
-  (void)yyg$link1;
-  return yy_is_jam$link1 != 0 ? 0 : yy_current_state$link1;
+  yy_current_state_link1 = (signed int)yy_nxt_link1[(signed long int)((unsigned int)yy_base_link1[(signed long int)yy_current_state_link1] + (unsigned int)yy_c_link1)];
+  yy_is_jam_link1 = (signed int)(yy_current_state_link1 == 10);
+  (void)yyg_link1;
+  return yy_is_jam_link1 != 0 ? 0 : yy_current_state_link1;
 }
 
 // yydestruct
@@ -9451,15 +9451,15 @@ static void yydestruct(const char *yymsg, signed int yytype, union value *yyvalu
   (void)yytype;
 }
 
-// yydestruct$link1
+// yydestruct_link1
 // file confline.tab.c line 958
-static void yydestruct$link1(const char *yymsg$link1, signed int yytype$link1, union value *yyvaluep$link1, struct cfldata *pp$link1)
+static void yydestruct_link1(const char *yymsg_link1, signed int yytype_link1, union value *yyvaluep_link1, struct cfldata *pp_link1)
 {
-  (void)yyvaluep$link1;
-  (void)pp$link1;
-  if(yymsg$link1 == ((const char *)NULL))
-    yymsg$link1 = "Deleting";
+  (void)yyvaluep_link1;
+  (void)pp_link1;
+  if(yymsg_link1 == ((const char *)NULL))
+    yymsg_link1 = "Deleting";
 
-  (void)yytype$link1;
+  (void)yytype_link1;
 }
 

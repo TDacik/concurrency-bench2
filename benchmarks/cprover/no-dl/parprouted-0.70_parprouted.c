@@ -1,26 +1,26 @@
-// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#}$SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#$'__cancel_jmp_buf'||ARR4{*{V}$V$}$*{V}$V$$'__pad'|]
+// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#}_SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#_'__cancel_jmp_buf'||ARR4{*{V}_V_}_*{V}_V__'__pad'|]
 // file /usr/include/pthread.h line 525
 struct anonymous;
 
-// tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]
+// tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]
 // file /usr/include/pthread.h line 527
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#UN[ARR16{S8}$S8$'ifrn_name'|]
+// tag-#anon#UN[ARR16{S8}_S8_'ifrn_name'|]
 // file /usr/include/net/if.h line 130
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}$S8$'ifru_slave'||ARR16{S8}$S8$'ifru_newname'||*{S8}$S8$'ifru_data'|]
+// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}_S8_'ifru_slave'||ARR16{S8}_S8_'ifru_newname'||*{S8}_S8_'ifru_data'|]
 // file /usr/include/net/if.h line 135
-union anonymous$3;
+union anonymous_3;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -189,9 +189,9 @@ signed int ipaddr_known(struct arptab_entry *list, struct in_addr addr, char *if
 // main_thread
 // file parprouted.c line 355
 void * main_thread();
-// main_thread::1::1::__cancel_routine$object
+// main_thread::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // malloc
 // file /usr/include/stdlib.h line 466
 extern void * malloc(unsigned long int);
@@ -230,16 +230,16 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$1 *, const union anonymous$2 *);
+extern signed int pthread_mutex_init(union anonymous_1 *, const union anonymous_2 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$1 *);
+extern signed int pthread_mutex_lock(union anonymous_1 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$1 *);
+extern signed int pthread_mutex_trylock(union anonymous_1 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$1 *);
+extern signed int pthread_mutex_unlock(union anonymous_1 *);
 // pthread_setcancelstate
 // file /usr/include/pthread.h line 508
 extern signed int pthread_setcancelstate(signed int, signed int *);
@@ -322,7 +322,7 @@ extern signed int usleep(unsigned int);
 // file /usr/include/x86_64-linux-gnu/sys/wait.h line 125
 extern signed int waitpid(signed int, signed int *, signed int);
 
-struct anonymous$4
+struct anonymous_4
 {
   // __cancel_jmp_buf
   signed long int __cancel_jmp_buf[8l];
@@ -333,18 +333,18 @@ struct anonymous$4
 struct anonymous
 {
   // __cancel_jmp_buf
-  struct anonymous$4 __cancel_jmp_buf[1l];
+  struct anonymous_4 __cancel_jmp_buf[1l];
   // __pad
   void *__pad[4l];
 };
 
-union anonymous$0
+union anonymous_0
 {
   // ifrn_name
   char ifrn_name[16l];
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __size
   char __size[4l];
@@ -380,7 +380,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -414,7 +414,7 @@ struct ifmap
   unsigned char port;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // ifru_addr
   struct sockaddr ifru_addr;
@@ -631,9 +631,9 @@ struct arptab_entry
 struct ifreq
 {
   // ifr_ifrn
-  union anonymous$0 ifr_ifrn;
+  union anonymous_0 ifr_ifrn;
   // ifr_ifru
-  union anonymous$3 ifr_ifru;
+  union anonymous_3 ifr_ifru;
 };
 
 union pthread_attr_t
@@ -662,7 +662,7 @@ struct sockaddr_in
 struct arptab_entry **arptab;
 // arptab_mutex
 // file parprouted.c line 38
-union anonymous$1 arptab_mutex;
+union anonymous_1 arptab_mutex;
 // debug
 // file parprouted.c line 24
 signed int debug = 0;
@@ -698,7 +698,7 @@ struct _req_struct *req_queue = (struct _req_struct *)(void *)0;
 signed int req_queue_len = 0;
 // req_queue_mutex
 // file arp.c line 43
-union anonymous$1 req_queue_mutex;
+union anonymous_1 req_queue_mutex;
 // req_queue_tail
 // file arp.c line 41
 struct _req_struct *req_queue_tail = (struct _req_struct *)(void *)0;
@@ -719,76 +719,76 @@ extern void * arp(char *ifname)
   struct ifreq ifr;
   pthread_setcancelstate(0, (signed int *)(void *)0);
   pthread_setcanceltype(0, (signed int *)(void *)0);
-  unsigned short int tmp_statement_expression$1;
-  unsigned short int arp$$1$$1$$__v;
+  unsigned short int tmp_statement_expression_1;
+  unsigned short int arp__1__1____v;
   unsigned short int __x = (unsigned short int)0x0806;
-  asm("rorw $8, %w0" : "=r"(arp$$1$$1$$__v) : "0"(__x) : "cc");
-  tmp_statement_expression$1 = arp$$1$$1$$__v;
-  sock=socket(17, 3, (signed int)tmp_statement_expression$1);
+  asm("rorw _8, %w0" : "=r"(arp__1__1____v) : "0"(__x) : "cc");
+  tmp_statement_expression_1 = arp__1__1____v;
+  sock=socket(17, 3, (signed int)tmp_statement_expression_1);
   if(sock == -1)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    fprintf(stderr, "Socket error %d.\n", *return_value___errno_location$2);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    fprintf(stderr, "Socket error %d.\n", *return_value___errno_location_2);
     exit(1);
   }
 
   memset((void *)ifr.ifr_ifrn.ifrn_name, 0, (unsigned long int)16);
   __builtin_strncpy(ifr.ifr_ifrn.ifrn_name, (char *)ifname, (unsigned long int)16);
-  signed int return_value_ioctl$5;
-  return_value_ioctl$5=ioctl(sock, (unsigned long int)0x8927, &ifr);
-  if(!(return_value_ioctl$5 >= 0))
+  signed int return_value_ioctl_5;
+  return_value_ioctl_5=ioctl(sock, (unsigned long int)0x8927, &ifr);
+  if(!(return_value_ioctl_5 >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    syslog(3, "error: ioctl SIOCGIFHWADDR for %s: %s\n", (char *)ifname, return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    syslog(3, "error: ioctl SIOCGIFHWADDR for %s: %s\n", (char *)ifname, return_value_strerror_4);
     abort();
   }
 
   memset((void *)ifs.sll_addr, 0, (unsigned long int)6);
   memcpy((void *)ifs.sll_addr, (const void *)ifr.ifr_ifru.ifru_hwaddr.sa_data, (unsigned long int)6);
-  signed int return_value_ioctl$8;
-  return_value_ioctl$8=ioctl(sock, (unsigned long int)0x8933, &ifr);
-  if(!(return_value_ioctl$8 >= 0))
+  signed int return_value_ioctl_8;
+  return_value_ioctl_8=ioctl(sock, (unsigned long int)0x8933, &ifr);
+  if(!(return_value_ioctl_8 >= 0))
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    char *return_value_strerror$7;
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    syslog(3, "error: ioctl SIOCGIFINDEX for %s: %s", (char *)ifname, return_value_strerror$7);
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    char *return_value_strerror_7;
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    syslog(3, "error: ioctl SIOCGIFINDEX for %s: %s", (char *)ifname, return_value_strerror_7);
     abort();
   }
 
   ifs.sll_family = (unsigned short int)17;
-  unsigned short int tmp_statement_expression$9;
+  unsigned short int tmp_statement_expression_9;
   unsigned short int __v;
-  unsigned short int arp$$1$$5$$__x = (unsigned short int)0x0806;
-  asm("rorw $8, %w0" : "=r"(__v) : "0"(arp$$1$$5$$__x) : "cc");
-  tmp_statement_expression$9 = __v;
-  ifs.sll_protocol = tmp_statement_expression$9;
+  unsigned short int arp__1__5____x = (unsigned short int)0x0806;
+  asm("rorw _8, %w0" : "=r"(__v) : "0"(arp__1__5____x) : "cc");
+  tmp_statement_expression_9 = __v;
+  ifs.sll_protocol = tmp_statement_expression_9;
   ifs.sll_ifindex = ifr.ifr_ifru.ifru_ivalue;
   ifs.sll_hatype = (unsigned short int)1;
   ifs.sll_pkttype = (unsigned char)1;
   ifs.sll_halen = (unsigned char)6;
-  signed int return_value_bind$11;
-  return_value_bind$11=bind(sock, (struct sockaddr *)&ifs, (unsigned int)sizeof(struct sockaddr_ll) /*20ul*/ );
-  if(!(return_value_bind$11 >= 0))
+  signed int return_value_bind_11;
+  return_value_bind_11=bind(sock, (struct sockaddr *)&ifs, (unsigned int)sizeof(struct sockaddr_ll) /*20ul*/ );
+  if(!(return_value_bind_11 >= 0))
   {
-    signed int *return_value___errno_location$10;
-    return_value___errno_location$10=__errno_location();
-    fprintf(stderr, "Bind %s: %d\n", (char *)ifname, *return_value___errno_location$10);
+    signed int *return_value___errno_location_10;
+    return_value___errno_location_10=__errno_location();
+    fprintf(stderr, "Bind %s: %d\n", (char *)ifname, *return_value___errno_location_10);
     abort();
   }
 
-  unsigned short int tmp_statement_expression$23;
-  char *return_value_inet_ntoa$16;
-  signed int tmp_statement_expression$21;
-  unsigned short int tmp_statement_expression$12;
-  char *return_value_inet_ntoa$24;
-  signed int tmp_statement_expression$25;
-  char *return_value_inet_ntoa$27;
+  unsigned short int tmp_statement_expression_23;
+  char *return_value_inet_ntoa_16;
+  signed int tmp_statement_expression_21;
+  unsigned short int tmp_statement_expression_12;
+  char *return_value_inet_ntoa_24;
+  signed int tmp_statement_expression_25;
+  char *return_value_inet_ntoa_27;
   while((_Bool)1)
   {
     struct _ether_arp_frame frame;
@@ -800,15 +800,15 @@ extern void * arp(char *ifname)
     {
       pthread_testcancel();
       usleep((unsigned int)300);
-      signed int return_value_arp_recv$13;
-      return_value_arp_recv$13=arp_recv(sock, &frame);
-      if(return_value_arp_recv$13 >= 1)
+      signed int return_value_arp_recv_13;
+      return_value_arp_recv_13=arp_recv(sock, &frame);
+      if(return_value_arp_recv_13 >= 1)
       {
-        unsigned short int arp$$1$$7$$1$$1$$__v;
-        unsigned short int arp$$1$$7$$1$$1$$__x = (unsigned short int)2;
-        asm("rorw $8, %w0" : "=r"(arp$$1$$7$$1$$1$$__v) : "0"(arp$$1$$7$$1$$1$$__x) : "cc");
-        tmp_statement_expression$23 = arp$$1$$7$$1$$1$$__v;
-        if(frame.arp.ea_hdr.ar_op == tmp_statement_expression$23)
+        unsigned short int arp__1__7__1__1____v;
+        unsigned short int arp__1__7__1__1____x = (unsigned short int)2;
+        asm("rorw _8, %w0" : "=r"(arp__1__7__1__1____v) : "0"(arp__1__7__1__1____x) : "cc");
+        tmp_statement_expression_23 = arp__1__7__1__1____v;
+        if(frame.arp.ea_hdr.ar_op == tmp_statement_expression_23)
         {
           struct arpreq k_arpreq;
           signed int arpsock;
@@ -816,11 +816,11 @@ extern void * arp(char *ifname)
           arpsock=socket(2, 2, 0);
           if(!(arpsock >= 0))
           {
-            signed int *return_value___errno_location$14;
-            return_value___errno_location$14=__errno_location();
-            char *return_value_strerror$15;
-            return_value_strerror$15=strerror(*return_value___errno_location$14);
-            syslog(3, "error: ARP socket for %s: %s", (char *)ifname, return_value_strerror$15);
+            signed int *return_value___errno_location_14;
+            return_value___errno_location_14=__errno_location();
+            char *return_value_strerror_15;
+            return_value_strerror_15=strerror(*return_value___errno_location_14);
+            syslog(3, "error: ARP socket for %s: %s", (char *)ifname, return_value_strerror_15);
             goto __CPROVER_DUMP_L20;
           }
 
@@ -836,21 +836,21 @@ extern void * arp(char *ifname)
           memcpy((void *)&sin->sin_addr.s_addr, (const void *)&frame.arp.arp_spa, sizeof(struct in_addr) /*4ul*/ );
           if(!(debug == 0))
           {
-            return_value_inet_ntoa$16=inet_ntoa(sin->sin_addr);
-            printf("Received reply: updating kernel ARP table for %s(%s).\n", return_value_inet_ntoa$16, (char *)ifname);
+            return_value_inet_ntoa_16=inet_ntoa(sin->sin_addr);
+            printf("Received reply: updating kernel ARP table for %s(%s).\n", return_value_inet_ntoa_16, (char *)ifname);
           }
 
-          signed int return_value_ioctl$20;
-          return_value_ioctl$20=ioctl(arpsock, (unsigned long int)0x8955, &k_arpreq);
-          if(!(return_value_ioctl$20 >= 0))
+          signed int return_value_ioctl_20;
+          return_value_ioctl_20=ioctl(arpsock, (unsigned long int)0x8955, &k_arpreq);
+          if(!(return_value_ioctl_20 >= 0))
           {
-            char *return_value_inet_ntoa$17;
-            return_value_inet_ntoa$17=inet_ntoa(sin->sin_addr);
-            signed int *return_value___errno_location$18;
-            return_value___errno_location$18=__errno_location();
-            char *return_value_strerror$19;
-            return_value_strerror$19=strerror(*return_value___errno_location$18);
-            syslog(3, "error: ioctl SIOCSARP for %s(%s): %s", return_value_inet_ntoa$17, (char *)ifname, return_value_strerror$19);
+            char *return_value_inet_ntoa_17;
+            return_value_inet_ntoa_17=inet_ntoa(sin->sin_addr);
+            signed int *return_value___errno_location_18;
+            return_value___errno_location_18=__errno_location();
+            char *return_value_strerror_19;
+            return_value_strerror_19=strerror(*return_value___errno_location_18);
+            syslog(3, "error: ioctl SIOCSARP for %s(%s): %s", return_value_inet_ntoa_17, (char *)ifname, return_value_strerror_19);
             close(arpsock);
             goto __CPROVER_DUMP_L20;
           }
@@ -862,10 +862,10 @@ extern void * arp(char *ifname)
           {
             unsigned long int __s1_len;
             unsigned long int __s2_len;
-            signed int return_value___builtin_strcmp$22;
-            return_value___builtin_strcmp$22=__builtin_strcmp(ifaces[(signed long int)i], ifname);
-            tmp_statement_expression$21 = return_value___builtin_strcmp$22;
-            if(!(tmp_statement_expression$21 == 0))
+            signed int return_value___builtin_strcmp_22;
+            return_value___builtin_strcmp_22=__builtin_strcmp(ifaces[(signed long int)i], ifname);
+            tmp_statement_expression_21 = return_value___builtin_strcmp_22;
+            if(!(tmp_statement_expression_21 == 0))
               arp_req(ifaces[(signed long int)i], sin->sin_addr, 1);
 
           }
@@ -876,25 +876,25 @@ extern void * arp(char *ifname)
 
     __CPROVER_DUMP_L20:
       ;
-      unsigned short int arp$$1$$7$$2$$__v;
-      unsigned short int arp$$1$$7$$2$$__x = (unsigned short int)1;
-      asm("rorw $8, %w0" : "=r"(arp$$1$$7$$2$$__v) : "0"(arp$$1$$7$$2$$__x) : "cc");
-      tmp_statement_expression$12 = arp$$1$$7$$2$$__v;
+      unsigned short int arp__1__7__2____v;
+      unsigned short int arp__1__7__2____x = (unsigned short int)1;
+      asm("rorw _8, %w0" : "=r"(arp__1__7__2____v) : "0"(arp__1__7__2____x) : "cc");
+      tmp_statement_expression_12 = arp__1__7__2____v;
     }
-    while(!(frame.arp.ea_hdr.ar_op == tmp_statement_expression$12));
+    while(!(frame.arp.ea_hdr.ar_op == tmp_statement_expression_12));
     memcpy((void *)&src, (const void *)(char *)frame.arp.arp_spa, (unsigned long int)4);
     memcpy((void *)&dst, (const void *)(char *)frame.arp.arp_tpa, (unsigned long int)4);
     dia.s_addr = (unsigned int)dst;
     sia.s_addr = (unsigned int)src;
     if(!(debug == 0))
     {
-      return_value_inet_ntoa$24=inet_ntoa(dia);
-      printf("Received ARP request for %s on iface %s\n", return_value_inet_ntoa$24, (char *)ifname);
+      return_value_inet_ntoa_24=inet_ntoa(dia);
+      printf("Received ARP request for %s on iface %s\n", return_value_inet_ntoa_24, (char *)ifname);
     }
 
-    signed int return_value_memcmp$28;
-    return_value_memcmp$28=memcmp((const void *)&dia, (const void *)&sia, sizeof(struct in_addr) /*4ul*/ );
-    if(!(return_value_memcmp$28 == 0))
+    signed int return_value_memcmp_28;
+    return_value_memcmp_28=memcmp((const void *)&dia, (const void *)&sia, sizeof(struct in_addr) /*4ul*/ );
+    if(!(return_value_memcmp_28 == 0))
     {
       if(!(dia.s_addr == 0u))
       {
@@ -902,19 +902,19 @@ extern void * arp(char *ifname)
         i = 0;
         for( ; last_iface_idx >= i; i = i + 1)
         {
-          unsigned long int arp$$1$$7$$3$$1$$1$$1$$__s1_len;
-          unsigned long int arp$$1$$7$$3$$1$$1$$1$$__s2_len;
-          signed int return_value___builtin_strcmp$26;
-          return_value___builtin_strcmp$26=__builtin_strcmp(ifaces[(signed long int)i], ifname);
-          tmp_statement_expression$25 = return_value___builtin_strcmp$26;
-          if(!(tmp_statement_expression$25 == 0))
+          unsigned long int arp__1__7__3__1__1__1____s1_len;
+          unsigned long int arp__1__7__3__1__1__1____s2_len;
+          signed int return_value___builtin_strcmp_26;
+          return_value___builtin_strcmp_26=__builtin_strcmp(ifaces[(signed long int)i], ifname);
+          tmp_statement_expression_25 = return_value___builtin_strcmp_26;
+          if(!(tmp_statement_expression_25 == 0))
             arp_req(ifaces[(signed long int)i], dia, 0);
 
         }
         if(!(debug == 0))
         {
-          return_value_inet_ntoa$27=inet_ntoa(sia);
-          printf("Adding %s to request queue\n", return_value_inet_ntoa$27);
+          return_value_inet_ntoa_27=inet_ntoa(sia);
+          printf("Adding %s to request queue\n", return_value_inet_ntoa_27);
         }
 
         rq_add(&frame, &ifs);
@@ -933,9 +933,9 @@ signed int arp_recv(signed int sock, struct _ether_arp_frame *frame)
   char packet[4096l];
   signed int nread;
   memset((void *)frame, 0, sizeof(struct _ether_arp_frame) /*42ul*/ );
-  signed long int return_value_recv$1;
-  return_value_recv$1=recv(sock, (void *)&packet, sizeof(char [4096l]) /*4096ul*/ , 0);
-  nread = (signed int)return_value_recv$1;
+  signed long int return_value_recv_1;
+  return_value_recv_1=recv(sock, (void *)&packet, sizeof(char [4096l]) /*4096ul*/ , 0);
+  nread = (signed int)return_value_recv_1;
   if((unsigned long int)nread >= 43ul)
     nread = (signed int)sizeof(struct _ether_arp_frame) /*42ul*/ ;
 
@@ -947,51 +947,51 @@ signed int arp_recv(signed int sock, struct _ether_arp_frame *frame)
 // file arp.c line 88
 void arp_reply(struct _ether_arp_frame *reqframe, struct sockaddr_ll *ifs)
 {
-  struct ether_arp *arp_reply$$1$$arp = &reqframe->arp;
+  struct ether_arp *arp_reply__1__arp = &reqframe->arp;
   unsigned char ip[4l];
   signed int sock;
-  unsigned short int tmp_statement_expression$1;
+  unsigned short int tmp_statement_expression_1;
   unsigned short int __v;
   unsigned short int __x = (unsigned short int)0x0806;
-  asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-  tmp_statement_expression$1 = __v;
-  sock=socket(17, 3, (signed int)tmp_statement_expression$1);
-  signed int return_value_bind$4;
-  return_value_bind$4=bind(sock, (struct sockaddr *)ifs, (unsigned int)sizeof(struct sockaddr_ll) /*20ul*/ );
-  if(!(return_value_bind$4 >= 0))
+  asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+  tmp_statement_expression_1 = __v;
+  sock=socket(17, 3, (signed int)tmp_statement_expression_1);
+  signed int return_value_bind_4;
+  return_value_bind_4=bind(sock, (struct sockaddr *)ifs, (unsigned int)sizeof(struct sockaddr_ll) /*20ul*/ );
+  if(!(return_value_bind_4 >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    fprintf(stderr, "arp_reply() bind: %s\n", return_value_strerror$3);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    fprintf(stderr, "arp_reply() bind: %s\n", return_value_strerror_3);
     abort();
   }
 
-  memcpy((void *)&reqframe->ether_hdr.ether_dhost, (const void *)&arp_reply$$1$$arp->arp_sha, (unsigned long int)6);
+  memcpy((void *)&reqframe->ether_hdr.ether_dhost, (const void *)&arp_reply__1__arp->arp_sha, (unsigned long int)6);
   memcpy((void *)&reqframe->ether_hdr.ether_shost, (const void *)ifs->sll_addr, (unsigned long int)6);
-  memcpy((void *)&arp_reply$$1$$arp->arp_tha, (const void *)&arp_reply$$1$$arp->arp_sha, (unsigned long int)6);
-  memcpy((void *)&arp_reply$$1$$arp->arp_sha, (const void *)ifs->sll_addr, (unsigned long int)6);
-  memcpy((void *)ip, (const void *)&arp_reply$$1$$arp->arp_spa, (unsigned long int)4);
-  memcpy((void *)&arp_reply$$1$$arp->arp_spa, (const void *)&arp_reply$$1$$arp->arp_tpa, (unsigned long int)4);
-  memcpy((void *)&arp_reply$$1$$arp->arp_tpa, (const void *)ip, (unsigned long int)4);
-  unsigned short int tmp_statement_expression$5;
-  unsigned short int arp_reply$$1$$3$$__v;
-  unsigned short int arp_reply$$1$$3$$__x = (unsigned short int)2;
-  asm("rorw $8, %w0" : "=r"(arp_reply$$1$$3$$__v) : "0"(arp_reply$$1$$3$$__x) : "cc");
-  tmp_statement_expression$5 = arp_reply$$1$$3$$__v;
-  arp_reply$$1$$arp->ea_hdr.ar_op = tmp_statement_expression$5;
+  memcpy((void *)&arp_reply__1__arp->arp_tha, (const void *)&arp_reply__1__arp->arp_sha, (unsigned long int)6);
+  memcpy((void *)&arp_reply__1__arp->arp_sha, (const void *)ifs->sll_addr, (unsigned long int)6);
+  memcpy((void *)ip, (const void *)&arp_reply__1__arp->arp_spa, (unsigned long int)4);
+  memcpy((void *)&arp_reply__1__arp->arp_spa, (const void *)&arp_reply__1__arp->arp_tpa, (unsigned long int)4);
+  memcpy((void *)&arp_reply__1__arp->arp_tpa, (const void *)ip, (unsigned long int)4);
+  unsigned short int tmp_statement_expression_5;
+  unsigned short int arp_reply__1__3____v;
+  unsigned short int arp_reply__1__3____x = (unsigned short int)2;
+  asm("rorw _8, %w0" : "=r"(arp_reply__1__3____v) : "0"(arp_reply__1__3____x) : "cc");
+  tmp_statement_expression_5 = arp_reply__1__3____v;
+  arp_reply__1__arp->ea_hdr.ar_op = tmp_statement_expression_5;
   if(!(debug == 0))
   {
     struct in_addr sia;
     struct in_addr dia;
-    sia.s_addr = (unsigned int)*((signed long int *)arp_reply$$1$$arp->arp_spa);
-    dia.s_addr = (unsigned int)*((signed long int *)arp_reply$$1$$arp->arp_tpa);
-    char *return_value_inet_ntoa$6;
-    return_value_inet_ntoa$6=inet_ntoa(sia);
-    char *return_value_inet_ntoa$7;
-    return_value_inet_ntoa$7=inet_ntoa(dia);
-    printf("Replying to %s faking %s\n", return_value_inet_ntoa$6, return_value_inet_ntoa$7);
+    sia.s_addr = (unsigned int)*((signed long int *)arp_reply__1__arp->arp_spa);
+    dia.s_addr = (unsigned int)*((signed long int *)arp_reply__1__arp->arp_tpa);
+    char *return_value_inet_ntoa_6;
+    return_value_inet_ntoa_6=inet_ntoa(sia);
+    char *return_value_inet_ntoa_7;
+    return_value_inet_ntoa_7=inet_ntoa(dia);
+    printf("Replying to %s faking %s\n", return_value_inet_ntoa_6, return_value_inet_ntoa_7);
   }
 
   sendto(sock, (const void *)reqframe, sizeof(struct _ether_arp_frame) /*42ul*/ , 0, (struct sockaddr *)ifs, (unsigned int)sizeof(struct sockaddr_ll) /*20ul*/ );
@@ -1003,73 +1003,73 @@ void arp_reply(struct _ether_arp_frame *reqframe, struct sockaddr_ll *ifs)
 extern void arp_req(char *ifname, struct in_addr remaddr, signed int gratuitous)
 {
   struct _ether_arp_frame frame;
-  struct ether_arp *arp_req$$1$$arp = &frame.arp;
+  struct ether_arp *arp_req__1__arp = &frame.arp;
   signed int sock;
   struct sockaddr_ll ifs;
   struct ifreq ifr;
   unsigned long int ifaddr;
   struct sockaddr_in *sin;
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$2;
-  return_value___builtin_strcmp$2=__builtin_strcmp(ifname, "");
-  tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-  unsigned short int tmp_statement_expression$3;
-  unsigned short int tmp_statement_expression$10;
-  unsigned short int tmp_statement_expression$14;
-  unsigned short int tmp_statement_expression$15;
-  unsigned short int tmp_statement_expression$16;
-  unsigned short int tmp_statement_expression$17;
-  char *return_value_inet_ntoa$18;
-  if(!(tmp_statement_expression$1 == 0))
+  signed int return_value___builtin_strcmp_2;
+  return_value___builtin_strcmp_2=__builtin_strcmp(ifname, "");
+  tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+  unsigned short int tmp_statement_expression_3;
+  unsigned short int tmp_statement_expression_10;
+  unsigned short int tmp_statement_expression_14;
+  unsigned short int tmp_statement_expression_15;
+  unsigned short int tmp_statement_expression_16;
+  unsigned short int tmp_statement_expression_17;
+  char *return_value_inet_ntoa_18;
+  if(!(tmp_statement_expression_1 == 0))
   {
     unsigned short int __v;
     unsigned short int __x = (unsigned short int)0x0806;
-    asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-    tmp_statement_expression$3 = __v;
-    sock=socket(17, 3, (signed int)tmp_statement_expression$3);
+    asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+    tmp_statement_expression_3 = __v;
+    sock=socket(17, 3, (signed int)tmp_statement_expression_3);
     memset((void *)ifr.ifr_ifrn.ifrn_name, 0, (unsigned long int)16);
     __builtin_strncpy(ifr.ifr_ifrn.ifrn_name, (char *)ifname, (unsigned long int)16);
-    signed int return_value_ioctl$6;
-    return_value_ioctl$6=ioctl(sock, (unsigned long int)0x8927, &ifr);
-    if(!(return_value_ioctl$6 >= 0))
+    signed int return_value_ioctl_6;
+    return_value_ioctl_6=ioctl(sock, (unsigned long int)0x8927, &ifr);
+    if(!(return_value_ioctl_6 >= 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      syslog(3, "error in arp_req(): ioctl SIOCGIFHWADDR for %s: %s\n", (char *)ifname, return_value_strerror$5);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      syslog(3, "error in arp_req(): ioctl SIOCGIFHWADDR for %s: %s\n", (char *)ifname, return_value_strerror_5);
       abort();
     }
 
     memset((void *)ifs.sll_addr, 0, (unsigned long int)6);
     memcpy((void *)ifs.sll_addr, (const void *)ifr.ifr_ifru.ifru_hwaddr.sa_data, (unsigned long int)6);
-    signed int return_value_ioctl$9;
-    return_value_ioctl$9=ioctl(sock, (unsigned long int)0x8933, &ifr);
-    if(!(return_value_ioctl$9 >= 0))
+    signed int return_value_ioctl_9;
+    return_value_ioctl_9=ioctl(sock, (unsigned long int)0x8933, &ifr);
+    if(!(return_value_ioctl_9 >= 0))
     {
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      char *return_value_strerror$8;
-      return_value_strerror$8=strerror(*return_value___errno_location$7);
-      syslog(3, "error in arp_req(): ioctl SIOCGIFINDEX for %s: %s", (char *)ifname, return_value_strerror$8);
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      char *return_value_strerror_8;
+      return_value_strerror_8=strerror(*return_value___errno_location_7);
+      syslog(3, "error in arp_req(): ioctl SIOCGIFINDEX for %s: %s", (char *)ifname, return_value_strerror_8);
       goto __CPROVER_DUMP_L21;
     }
 
     ifs.sll_family = (unsigned short int)17;
-    unsigned short int arp_req$$1$$5$$__v;
-    unsigned short int arp_req$$1$$5$$__x = (unsigned short int)0x0806;
-    asm("rorw $8, %w0" : "=r"(arp_req$$1$$5$$__v) : "0"(arp_req$$1$$5$$__x) : "cc");
-    tmp_statement_expression$10 = arp_req$$1$$5$$__v;
-    ifs.sll_protocol = tmp_statement_expression$10;
+    unsigned short int arp_req__1__5____v;
+    unsigned short int arp_req__1__5____x = (unsigned short int)0x0806;
+    asm("rorw _8, %w0" : "=r"(arp_req__1__5____v) : "0"(arp_req__1__5____x) : "cc");
+    tmp_statement_expression_10 = arp_req__1__5____v;
+    ifs.sll_protocol = tmp_statement_expression_10;
     ifs.sll_ifindex = ifr.ifr_ifru.ifru_ivalue;
     ifs.sll_hatype = (unsigned short int)1;
     ifs.sll_pkttype = (unsigned char)1;
     ifs.sll_halen = (unsigned char)6;
-    signed int return_value_ioctl$13;
-    return_value_ioctl$13=ioctl(sock, (unsigned long int)0x8915, &ifr);
-    if(return_value_ioctl$13 == 0)
+    signed int return_value_ioctl_13;
+    return_value_ioctl_13=ioctl(sock, (unsigned long int)0x8915, &ifr);
+    if(return_value_ioctl_13 == 0)
     {
       sin = (struct sockaddr_in *)&ifr.ifr_ifru.ifru_addr;
       ifaddr = (unsigned long int)sin->sin_addr.s_addr;
@@ -1077,49 +1077,49 @@ extern void arp_req(char *ifname, struct in_addr remaddr, signed int gratuitous)
 
     else
     {
-      signed int *return_value___errno_location$11;
-      return_value___errno_location$11=__errno_location();
-      char *return_value_strerror$12;
-      return_value_strerror$12=strerror(*return_value___errno_location$11);
-      syslog(3, "error: ioctl SIOCGIFADDR for %s: %s", (char *)ifname, return_value_strerror$12);
+      signed int *return_value___errno_location_11;
+      return_value___errno_location_11=__errno_location();
+      char *return_value_strerror_12;
+      return_value_strerror_12=strerror(*return_value___errno_location_11);
+      syslog(3, "error: ioctl SIOCGIFADDR for %s: %s", (char *)ifname, return_value_strerror_12);
       goto __CPROVER_DUMP_L21;
     }
     memset((void *)&frame.ether_hdr.ether_dhost, 0xFF, (unsigned long int)6);
     memcpy((void *)&frame.ether_hdr.ether_shost, (const void *)ifs.sll_addr, (unsigned long int)6);
-    unsigned short int arp_req$$1$$8$$__v;
-    unsigned short int arp_req$$1$$8$$__x = (unsigned short int)0x0806;
-    asm("rorw $8, %w0" : "=r"(arp_req$$1$$8$$__v) : "0"(arp_req$$1$$8$$__x) : "cc");
-    tmp_statement_expression$14 = arp_req$$1$$8$$__v;
-    frame.ether_hdr.ether_type = tmp_statement_expression$14;
-    unsigned short int arp_req$$1$$9$$__v;
-    unsigned short int arp_req$$1$$9$$__x = (unsigned short int)1;
-    asm("rorw $8, %w0" : "=r"(arp_req$$1$$9$$__v) : "0"(arp_req$$1$$9$$__x) : "cc");
-    tmp_statement_expression$15 = arp_req$$1$$9$$__v;
-    arp_req$$1$$arp->ea_hdr.ar_hrd = tmp_statement_expression$15;
-    unsigned short int arp_req$$1$$10$$__v;
-    unsigned short int arp_req$$1$$10$$__x = (unsigned short int)0x0800;
-    asm("rorw $8, %w0" : "=r"(arp_req$$1$$10$$__v) : "0"(arp_req$$1$$10$$__x) : "cc");
-    tmp_statement_expression$16 = arp_req$$1$$10$$__v;
-    arp_req$$1$$arp->ea_hdr.ar_pro = tmp_statement_expression$16;
-    arp_req$$1$$arp->ea_hdr.ar_hln = (unsigned char)6;
-    arp_req$$1$$arp->ea_hdr.ar_pln = (unsigned char)4;
-    memset((void *)&arp_req$$1$$arp->arp_tha, 0, (unsigned long int)6);
-    memcpy((void *)&arp_req$$1$$arp->arp_sha, (const void *)ifs.sll_addr, (unsigned long int)6);
-    memcpy((void *)&arp_req$$1$$arp->arp_tpa, (const void *)&remaddr.s_addr, (unsigned long int)4);
+    unsigned short int arp_req__1__8____v;
+    unsigned short int arp_req__1__8____x = (unsigned short int)0x0806;
+    asm("rorw _8, %w0" : "=r"(arp_req__1__8____v) : "0"(arp_req__1__8____x) : "cc");
+    tmp_statement_expression_14 = arp_req__1__8____v;
+    frame.ether_hdr.ether_type = tmp_statement_expression_14;
+    unsigned short int arp_req__1__9____v;
+    unsigned short int arp_req__1__9____x = (unsigned short int)1;
+    asm("rorw _8, %w0" : "=r"(arp_req__1__9____v) : "0"(arp_req__1__9____x) : "cc");
+    tmp_statement_expression_15 = arp_req__1__9____v;
+    arp_req__1__arp->ea_hdr.ar_hrd = tmp_statement_expression_15;
+    unsigned short int arp_req__1__10____v;
+    unsigned short int arp_req__1__10____x = (unsigned short int)0x0800;
+    asm("rorw _8, %w0" : "=r"(arp_req__1__10____v) : "0"(arp_req__1__10____x) : "cc");
+    tmp_statement_expression_16 = arp_req__1__10____v;
+    arp_req__1__arp->ea_hdr.ar_pro = tmp_statement_expression_16;
+    arp_req__1__arp->ea_hdr.ar_hln = (unsigned char)6;
+    arp_req__1__arp->ea_hdr.ar_pln = (unsigned char)4;
+    memset((void *)&arp_req__1__arp->arp_tha, 0, (unsigned long int)6);
+    memcpy((void *)&arp_req__1__arp->arp_sha, (const void *)ifs.sll_addr, (unsigned long int)6);
+    memcpy((void *)&arp_req__1__arp->arp_tpa, (const void *)&remaddr.s_addr, (unsigned long int)4);
     if(!(gratuitous == 0))
-      memcpy((void *)&arp_req$$1$$arp->arp_spa, (const void *)&remaddr.s_addr, (unsigned long int)4);
+      memcpy((void *)&arp_req__1__arp->arp_spa, (const void *)&remaddr.s_addr, (unsigned long int)4);
 
     else
-      memcpy((void *)&arp_req$$1$$arp->arp_spa, (const void *)&ifaddr, (unsigned long int)4);
-    unsigned short int arp_req$$1$$11$$__v;
-    unsigned short int arp_req$$1$$11$$__x = (unsigned short int)1;
-    asm("rorw $8, %w0" : "=r"(arp_req$$1$$11$$__v) : "0"(arp_req$$1$$11$$__x) : "cc");
-    tmp_statement_expression$17 = arp_req$$1$$11$$__v;
-    arp_req$$1$$arp->ea_hdr.ar_op = tmp_statement_expression$17;
+      memcpy((void *)&arp_req__1__arp->arp_spa, (const void *)&ifaddr, (unsigned long int)4);
+    unsigned short int arp_req__1__11____v;
+    unsigned short int arp_req__1__11____x = (unsigned short int)1;
+    asm("rorw _8, %w0" : "=r"(arp_req__1__11____v) : "0"(arp_req__1__11____x) : "cc");
+    tmp_statement_expression_17 = arp_req__1__11____v;
+    arp_req__1__arp->ea_hdr.ar_op = tmp_statement_expression_17;
     if(!(debug == 0))
     {
-      return_value_inet_ntoa$18=inet_ntoa(remaddr);
-      printf("Sending ARP request for %s to %s\n", return_value_inet_ntoa$18, ifname);
+      return_value_inet_ntoa_18=inet_ntoa(remaddr);
+      printf("Sending ARP request for %s to %s\n", return_value_inet_ntoa_18, ifname);
     }
 
     sendto(sock, (const void *)&frame, sizeof(struct _ether_arp_frame) /*42ul*/ , 0, (struct sockaddr *)&ifs, (unsigned int)sizeof(struct sockaddr_ll) /*20ul*/ );
@@ -1166,16 +1166,16 @@ signed int findentry(struct in_addr ipaddr)
 // file arp.c line 47
 signed int ipaddr_known(struct arptab_entry *list, struct in_addr addr, char *ifname)
 {
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   for( ; !(list == ((struct arptab_entry *)NULL)); list = list->next)
     if(addr.s_addr == list->ipaddr_ia.s_addr)
     {
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$2;
-      return_value___builtin_strcmp$2=__builtin_strcmp(ifname, list->ifname);
-      tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-      if(!(tmp_statement_expression$1 == 0))
+      signed int return_value___builtin_strcmp_2;
+      return_value___builtin_strcmp_2=__builtin_strcmp(ifname, list->ifname);
+      tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+      if(!(tmp_statement_expression_1 == 0))
       {
         if(list->incomplete == 0)
           return 1;
@@ -1184,11 +1184,11 @@ signed int ipaddr_known(struct arptab_entry *list, struct in_addr addr, char *if
 
     }
 
-  char *return_value_inet_ntoa$3;
+  char *return_value_inet_ntoa_3;
   if(!(debug == 0))
   {
-    return_value_inet_ntoa$3=inet_ntoa(addr);
-    printf("Did not find match for %s(%s)\n", return_value_inet_ntoa$3, ifname);
+    return_value_inet_ntoa_3=inet_ntoa(addr);
+    printf("Did not find match for %s(%s)\n", return_value_inet_ntoa_3, ifname);
   }
 
   return 0;
@@ -1201,23 +1201,23 @@ signed int main(signed int argc, char **argv)
   signed int child_pid;
   signed int i;
   signed int help = 1;
-  char *return_value___xpg_basename$1;
-  return_value___xpg_basename$1=__xpg_basename(argv[(signed long int)0]);
-  progname = (char *)return_value___xpg_basename$1;
+  char *return_value___xpg_basename_1;
+  return_value___xpg_basename_1=__xpg_basename(argv[(signed long int)0]);
+  progname = (char *)return_value___xpg_basename_1;
   i = 1;
-  signed int tmp_statement_expression$9;
-  signed int tmp_statement_expression$7;
-  signed int tmp_statement_expression$2;
-  _Bool tmp_if_expr$6;
-  signed int tmp_statement_expression$4;
+  signed int tmp_statement_expression_9;
+  signed int tmp_statement_expression_7;
+  signed int tmp_statement_expression_2;
+  _Bool tmp_if_expr_6;
+  signed int tmp_statement_expression_4;
   for( ; !(i >= argc); i = i + 1)
   {
-    unsigned long int main$$1$$1$$1$$1$$__s1_len;
-    unsigned long int main$$1$$1$$1$$1$$__s2_len;
-    signed int return_value___builtin_strcmp$10;
-    return_value___builtin_strcmp$10=__builtin_strcmp(argv[(signed long int)i], "-d");
-    tmp_statement_expression$9 = return_value___builtin_strcmp$10;
-    if(tmp_statement_expression$9 == 0)
+    unsigned long int main__1__1__1__1____s1_len;
+    unsigned long int main__1__1__1__1____s2_len;
+    signed int return_value___builtin_strcmp_10;
+    return_value___builtin_strcmp_10=__builtin_strcmp(argv[(signed long int)i], "-d");
+    tmp_statement_expression_9 = return_value___builtin_strcmp_10;
+    if(tmp_statement_expression_9 == 0)
     {
       debug = 1;
       help = 0;
@@ -1225,12 +1225,12 @@ signed int main(signed int argc, char **argv)
 
     else
     {
-      unsigned long int main$$1$$1$$1$$3$$__s1_len;
-      unsigned long int main$$1$$1$$1$$3$$__s2_len;
-      signed int return_value___builtin_strcmp$8;
-      return_value___builtin_strcmp$8=__builtin_strcmp(argv[(signed long int)i], "-p");
-      tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-      if(tmp_statement_expression$7 == 0)
+      unsigned long int main__1__1__1__3____s1_len;
+      unsigned long int main__1__1__1__3____s2_len;
+      signed int return_value___builtin_strcmp_8;
+      return_value___builtin_strcmp_8=__builtin_strcmp(argv[(signed long int)i], "-p");
+      tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+      if(tmp_statement_expression_7 == 0)
       {
         option_arpperm = 1;
         help = 0;
@@ -1238,24 +1238,24 @@ signed int main(signed int argc, char **argv)
 
       else
       {
-        unsigned long int main$$1$$1$$1$$5$$__s1_len;
-        unsigned long int main$$1$$1$$1$$5$$__s2_len;
-        signed int return_value___builtin_strcmp$3;
-        return_value___builtin_strcmp$3=__builtin_strcmp(argv[(signed long int)i], "-h");
-        tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-        if(tmp_statement_expression$2 == 0)
-          tmp_if_expr$6 = (_Bool)1;
+        unsigned long int main__1__1__1__5____s1_len;
+        unsigned long int main__1__1__1__5____s2_len;
+        signed int return_value___builtin_strcmp_3;
+        return_value___builtin_strcmp_3=__builtin_strcmp(argv[(signed long int)i], "-h");
+        tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+        if(tmp_statement_expression_2 == 0)
+          tmp_if_expr_6 = (_Bool)1;
 
         else
         {
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$5;
-          return_value___builtin_strcmp$5=__builtin_strcmp(argv[(signed long int)i], "--help");
-          tmp_statement_expression$4 = return_value___builtin_strcmp$5;
-          tmp_if_expr$6 = !(tmp_statement_expression$4 != 0) ? (_Bool)1 : (_Bool)0;
+          signed int return_value___builtin_strcmp_5;
+          return_value___builtin_strcmp_5=__builtin_strcmp(argv[(signed long int)i], "--help");
+          tmp_statement_expression_4 = return_value___builtin_strcmp_5;
+          tmp_if_expr_6 = !(tmp_statement_expression_4 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$6)
+        if(tmp_if_expr_6)
           break;
 
         else
@@ -1280,20 +1280,20 @@ signed int main(signed int argc, char **argv)
     child_pid=fork();
     if(!(child_pid >= 0))
     {
-      signed int *return_value___errno_location$11;
-      return_value___errno_location$11=__errno_location();
-      char *return_value_strerror$12;
-      return_value_strerror$12=strerror(*return_value___errno_location$11);
-      fprintf(stderr, "could not fork(): %s", return_value_strerror$12);
+      signed int *return_value___errno_location_11;
+      return_value___errno_location_11=__errno_location();
+      char *return_value_strerror_12;
+      return_value_strerror_12=strerror(*return_value___errno_location_11);
+      fprintf(stderr, "could not fork(): %s", return_value_strerror_12);
       exit(1);
     }
 
     else
       if(child_pid >= 1)
       {
-        signed int return_value_waitpid$13;
-        return_value_waitpid$13=waitpid(child_pid, (signed int *)(void *)0, 0);
-        if(!(return_value_waitpid$13 == child_pid))
+        signed int return_value_waitpid_13;
+        return_value_waitpid_13=waitpid(child_pid, (signed int *)(void *)0, 0);
+        if(!(return_value_waitpid_13 == child_pid))
         {
           perror(progname);
           exit(1);
@@ -1324,24 +1324,24 @@ signed int main(signed int argc, char **argv)
   signal(2, (void (*)(signed int))sighandler);
   signal(15, (void (*)(signed int))sighandler);
   signal(1, (void (*)(signed int))sighandler);
-  void *return_value_malloc$15;
-  return_value_malloc$15=malloc(sizeof(struct arptab_entry **) /*8ul*/ );
-  arptab = (struct arptab_entry **)return_value_malloc$15;
+  void *return_value_malloc_15;
+  return_value_malloc_15=malloc(sizeof(struct arptab_entry **) /*8ul*/ );
+  arptab = (struct arptab_entry **)return_value_malloc_15;
   if(arptab == ((struct arptab_entry **)NULL))
   {
-    signed int *return_value___errno_location$14;
-    return_value___errno_location$14=__errno_location();
-    errstr=strerror(*return_value___errno_location$14);
+    signed int *return_value___errno_location_14;
+    return_value___errno_location_14=__errno_location();
+    errstr=strerror(*return_value___errno_location_14);
     syslog(6, "No memory: %s", errstr);
   }
 
   *arptab = (struct arptab_entry *)(void *)0;
-  pthread_mutex_init(&arptab_mutex, (const union anonymous$2 *)(void *)0);
-  pthread_mutex_init(&req_queue_mutex, (const union anonymous$2 *)(void *)0);
+  pthread_mutex_init(&arptab_mutex, (const union anonymous_2 *)(void *)0);
+  pthread_mutex_init(&req_queue_mutex, (const union anonymous_2 *)(void *)0);
   last_thread_idx = last_thread_idx + 1;
-  signed int return_value_pthread_create$16;
-  return_value_pthread_create$16=pthread_create(&my_threads[(signed long int)last_thread_idx], (const union pthread_attr_t *)(void *)0, (void * (*)(void *))main_thread, (void *)0);
-  if(!(return_value_pthread_create$16 == 0))
+  signed int return_value_pthread_create_16;
+  return_value_pthread_create_16=pthread_create(&my_threads[(signed long int)last_thread_idx], (const union pthread_attr_t *)(void *)0, (void * (*)(void *))main_thread, (void *)0);
+  if(!(return_value_pthread_create_16 == 0))
   {
     syslog(3, "Error creating main thread.");
     abort();
@@ -1351,9 +1351,9 @@ signed int main(signed int argc, char **argv)
   for( ; last_iface_idx >= i; i = i + 1)
   {
     last_thread_idx = last_thread_idx + 1;
-    signed int return_value_pthread_create$17;
-    return_value_pthread_create$17=pthread_create(&my_threads[(signed long int)last_thread_idx], (const union pthread_attr_t *)(void *)0, (void * (*)(void *))(void *)arp, (void *)ifaces[(signed long int)i]);
-    if(!(return_value_pthread_create$17 == 0))
+    signed int return_value_pthread_create_17;
+    return_value_pthread_create_17=pthread_create(&my_threads[(signed long int)last_thread_idx], (const union pthread_attr_t *)(void *)0, (void * (*)(void *))(void *)arp, (void *)ifaces[(signed long int)i]);
+    if(!(return_value_pthread_create_17 == 0))
     {
       syslog(3, "Error creating ARP thread for %s.", ifaces[(signed long int)i]);
       abort();
@@ -1363,19 +1363,19 @@ signed int main(signed int argc, char **argv)
       printf("Created ARP thread for %s.\n", ifaces[(signed long int)i]);
 
   }
-  signed int return_value_pthread_join$18;
-  return_value_pthread_join$18=pthread_join(my_threads[(signed long int)0], (void **)(void *)0);
-  if(!(return_value_pthread_join$18 == 0))
+  signed int return_value_pthread_join_18;
+  return_value_pthread_join_18=pthread_join(my_threads[(signed long int)0], (void **)(void *)0);
+  if(!(return_value_pthread_join_18 == 0))
   {
     syslog(3, "Error joining thread.");
     abort();
   }
 
-  signed int return_value_waitpid$19;
+  signed int return_value_waitpid_19;
   do
   {
-    return_value_waitpid$19=waitpid(-1, (signed int *)(void *)0, 1);
-    if(return_value_waitpid$19 == 0)
+    return_value_waitpid_19=waitpid(-1, (signed int *)(void *)0, 1);
+    if(return_value_waitpid_19 == 0)
       break;
 
   }
@@ -1393,7 +1393,7 @@ void * main_thread()
   signal(1, (void (*)(signed int))sighandler);
   pthread_setcancelstate(0, (signed int *)(void *)0);
   pthread_setcanceltype(0, (signed int *)(void *)0);
-  signed long int return_value_time$1;
+  signed long int return_value_time_1;
   do
   {
     struct anonymous __cancel_buf;
@@ -1424,8 +1424,8 @@ void * main_thread()
       usleep((unsigned int)1000000);
       if(option_arpperm == 0)
       {
-        return_value_time$1=time((signed long int *)(void *)0);
-        if(return_value_time$1 + -last_refresh >= 51l)
+        return_value_time_1=time((signed long int *)(void *)0);
+        if(return_value_time_1 + -last_refresh >= 51l)
         {
           pthread_mutex_lock(&arptab_mutex);
           refresharp(*arptab);
@@ -1466,37 +1466,37 @@ extern void parseproc()
   arpf=fopen("/proc/net/arp", "r");
   if(arpf == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    errstr=strerror(*return_value___errno_location$1);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    errstr=strerror(*return_value___errno_location_1);
     syslog(6, "Error during ARP table open: %s", errstr);
   }
 
   firstline = 1;
-  signed int return_value_feof$2;
-  char *return_value_inet_ntoa$8;
-  char *return_value_inet_ntoa$14;
-  char *return_value_inet_ntoa$15;
+  signed int return_value_feof_2;
+  char *return_value_inet_ntoa_8;
+  char *return_value_inet_ntoa_14;
+  char *return_value_inet_ntoa_15;
   do
   {
-    return_value_feof$2=feof(arpf);
-    if(!(return_value_feof$2 == 0))
+    return_value_feof_2=feof(arpf);
+    if(!(return_value_feof_2 == 0))
       break;
 
-    char *return_value_fgets$18;
-    return_value_fgets$18=fgets(line, 255, arpf);
-    if(return_value_fgets$18 == ((char *)NULL))
+    char *return_value_fgets_18;
+    return_value_fgets_18=fgets(line, 255, arpf);
+    if(return_value_fgets_18 == ((char *)NULL))
     {
-      signed int return_value_ferror$4;
-      return_value_ferror$4=ferror(arpf);
-      if(return_value_ferror$4 == 0)
+      signed int return_value_ferror_4;
+      return_value_ferror_4=ferror(arpf);
+      if(return_value_ferror_4 == 0)
         break;
 
       else
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        errstr=strerror(*return_value___errno_location$3);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        errstr=strerror(*return_value___errno_location_3);
         syslog(6, "Error during ARP table open: %s", errstr);
       }
     }
@@ -1513,30 +1513,30 @@ extern void parseproc()
         printf("read ARP line %s", (const void *)line);
 
       incomplete = 0;
-      char *return_value_strstr$5;
-      return_value_strstr$5=strstr(line, "00:00:00:00:00:00");
-      if(!(return_value_strstr$5 == ((char *)NULL)))
+      char *return_value_strstr_5;
+      return_value_strstr_5=strstr(line, "00:00:00:00:00:00");
+      if(!(return_value_strstr_5 == ((char *)NULL)))
         incomplete = 1;
 
-      char *return_value_strstr$6;
-      return_value_strstr$6=strstr(line, "0x0");
-      if(!(return_value_strstr$6 == ((char *)NULL)))
+      char *return_value_strstr_6;
+      return_value_strstr_6=strstr(line, "0x0");
+      if(!(return_value_strstr_6 == ((char *)NULL)))
         incomplete = 1;
 
       ip=strtok(line, " ");
-      signed int return_value_inet_aton$7;
-      return_value_inet_aton$7=inet_aton(ip, &ipaddr);
-      if(return_value_inet_aton$7 == -1)
+      signed int return_value_inet_aton_7;
+      return_value_inet_aton_7=inet_aton(ip, &ipaddr);
+      if(return_value_inet_aton_7 == -1)
         syslog(6, "Error parsing IP address %s", ip);
 
-      signed int return_value_findentry$9;
-      return_value_findentry$9=findentry(ipaddr);
-      if(!((incomplete & (signed int)(return_value_findentry$9 == 0)) == 0))
+      signed int return_value_findentry_9;
+      return_value_findentry_9=findentry(ipaddr);
+      if(!((incomplete & (signed int)(return_value_findentry_9 == 0)) == 0))
       {
         if(!(debug == 0))
         {
-          return_value_inet_ntoa$8=inet_ntoa(ipaddr);
-          printf("incomplete entry %s found, request on all interfaces\n", return_value_inet_ntoa$8);
+          return_value_inet_ntoa_8=inet_ntoa(ipaddr);
+          printf("incomplete entry %s found, request on all interfaces\n", return_value_inet_ntoa_8);
         }
 
         i = 0;
@@ -1549,13 +1549,13 @@ extern void parseproc()
       mac=strtok((char *)(void *)0, " ");
       mask=strtok((char *)(void *)0, " ");
       dev=strtok((char *)(void *)0, " ");
-      unsigned long int return_value_strlen$11;
-      return_value_strlen$11=strlen(dev);
-      if((signed int)dev[-1l + (signed long int)return_value_strlen$11] == 10)
+      unsigned long int return_value_strlen_11;
+      return_value_strlen_11=strlen(dev);
+      if((signed int)dev[-1l + (signed long int)return_value_strlen_11] == 10)
       {
-        unsigned long int return_value_strlen$10;
-        return_value_strlen$10=strlen(dev);
-        dev[(signed long int)(return_value_strlen$10 - (unsigned long int)1)] = (char)0;
+        unsigned long int return_value_strlen_10;
+        return_value_strlen_10=strlen(dev);
+        dev[(signed long int)(return_value_strlen_10 - (unsigned long int)1)] = (char)0;
       }
 
       entry=replace_entry(ipaddr, dev);
@@ -1568,16 +1568,16 @@ extern void parseproc()
 
       entry->ipaddr_ia.s_addr = ipaddr.s_addr;
       entry->incomplete = incomplete;
-      unsigned long int return_value_strlen$12;
-      return_value_strlen$12=strlen(mac);
-      if(!(return_value_strlen$12 >= 20ul))
+      unsigned long int return_value_strlen_12;
+      return_value_strlen_12=strlen(mac);
+      if(!(return_value_strlen_12 >= 20ul))
         __builtin_strncpy(entry->hwaddr, mac, (unsigned long int)20);
 
       else
         syslog(6, "Error during ARP table parsing");
-      unsigned long int return_value_strlen$13;
-      return_value_strlen$13=strlen(dev);
-      if(!(return_value_strlen$13 >= 20ul))
+      unsigned long int return_value_strlen_13;
+      return_value_strlen_13=strlen(dev);
+      if(!(return_value_strlen_13 >= 20ul))
         __builtin_strncpy(entry->ifname, dev, (unsigned long int)20);
 
       else
@@ -1586,8 +1586,8 @@ extern void parseproc()
       {
         if(!(entry->want_route == (signed int)(incomplete == 0)))
         {
-          return_value_inet_ntoa$14=inet_ntoa(entry->ipaddr_ia);
-          printf("%s(%s): set want_route %d\n", return_value_inet_ntoa$14, (const void *)entry->ifname, !(incomplete != 0));
+          return_value_inet_ntoa_14=inet_ntoa(entry->ipaddr_ia);
+          printf("%s(%s): set want_route %d\n", return_value_inet_ntoa_14, (const void *)entry->ifname, !(incomplete != 0));
         }
 
       }
@@ -1595,14 +1595,14 @@ extern void parseproc()
       entry->want_route = (signed int)!(incomplete != 0);
       if(!(entry->want_route == 0))
       {
-        signed int return_value_remove_other_routes$16;
-        return_value_remove_other_routes$16=remove_other_routes(entry->ipaddr_ia, entry->ifname);
-        if(return_value_remove_other_routes$16 >= 1)
+        signed int return_value_remove_other_routes_16;
+        return_value_remove_other_routes_16=remove_other_routes(entry->ipaddr_ia, entry->ifname);
+        if(return_value_remove_other_routes_16 >= 1)
         {
           if(!(debug == 0))
           {
-            return_value_inet_ntoa$15=inet_ntoa(entry->ipaddr_ia);
-            printf("Found ARP entry %s(%s), removed entries via other interfaces\n", return_value_inet_ntoa$15, (const void *)entry->ifname);
+            return_value_inet_ntoa_15=inet_ntoa(entry->ipaddr_ia);
+            printf("Found ARP entry %s(%s), removed entries via other interfaces\n", return_value_inet_ntoa_15, (const void *)entry->ifname);
           }
 
         }
@@ -1616,9 +1616,9 @@ extern void parseproc()
         {
           if(!(entry->want_route == 0))
           {
-            char *return_value_inet_ntoa$17;
-            return_value_inet_ntoa$17=inet_ntoa(entry->ipaddr_ia);
-            printf("arptab entry: '%s' HWAddr: '%s' Dev: '%s' route_added:%d want_route:%d\n", return_value_inet_ntoa$17, (const void *)entry->hwaddr, (const void *)entry->ifname, entry->route_added, entry->want_route);
+            char *return_value_inet_ntoa_17;
+            return_value_inet_ntoa_17=inet_ntoa(entry->ipaddr_ia);
+            printf("arptab entry: '%s' HWAddr: '%s' Dev: '%s' route_added:%d want_route:%d\n", return_value_inet_ntoa_17, (const void *)entry->hwaddr, (const void *)entry->ifname, entry->route_added, entry->want_route);
           }
 
         }
@@ -1628,13 +1628,13 @@ extern void parseproc()
     }
   }
   while((_Bool)1);
-  signed int return_value_fclose$20;
-  return_value_fclose$20=fclose(arpf);
-  if(!(return_value_fclose$20 == 0))
+  signed int return_value_fclose_20;
+  return_value_fclose_20=fclose(arpf);
+  if(!(return_value_fclose_20 == 0))
   {
-    signed int *return_value___errno_location$19;
-    return_value___errno_location$19=__errno_location();
-    errstr=strerror(*return_value___errno_location$19);
+    signed int *return_value___errno_location_19;
+    return_value___errno_location_19=__errno_location();
+    errstr=strerror(*return_value___errno_location_19);
     syslog(6, "Error during ARP table open: %s", errstr);
   }
 
@@ -1646,35 +1646,35 @@ extern void processarp(signed int in_cleanup)
 {
   struct arptab_entry *cur_entry = *arptab;
   struct arptab_entry *prev_entry = (struct arptab_entry *)(void *)0;
-  char *return_value_inet_ntoa$1;
-  _Bool tmp_if_expr$4;
-  signed long int return_value_time$3;
-  char *return_value_inet_ntoa$2;
+  char *return_value_inet_ntoa_1;
+  _Bool tmp_if_expr_4;
+  signed long int return_value_time_3;
+  char *return_value_inet_ntoa_2;
   while(!(cur_entry == ((struct arptab_entry *)NULL)))
   {
     if(!(debug == 0) && !(verbose == 0))
     {
-      return_value_inet_ntoa$1=inet_ntoa(cur_entry->ipaddr_ia);
-      printf("Working on route %s(%s) tstamp %u want_route %d\n", return_value_inet_ntoa$1, (const void *)cur_entry->ifname, (signed int)cur_entry->tstamp, cur_entry->want_route);
+      return_value_inet_ntoa_1=inet_ntoa(cur_entry->ipaddr_ia);
+      printf("Working on route %s(%s) tstamp %u want_route %d\n", return_value_inet_ntoa_1, (const void *)cur_entry->ifname, (signed int)cur_entry->tstamp, cur_entry->want_route);
     }
 
     if(cur_entry->want_route == 0)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_time$3=time((signed long int *)(void *)0);
-      tmp_if_expr$4 = return_value_time$3 - cur_entry->tstamp > (signed long int)60 ? (_Bool)1 : (_Bool)0;
+      return_value_time_3=time((signed long int *)(void *)0);
+      tmp_if_expr_4 = return_value_time_3 - cur_entry->tstamp > (signed long int)60 ? (_Bool)1 : (_Bool)0;
     }
-    if(!(in_cleanup == 0) || tmp_if_expr$4)
+    if(!(in_cleanup == 0) || tmp_if_expr_4)
     {
       if(!(cur_entry->route_added == 0))
         route_remove(cur_entry);
 
       if(!(debug == 0))
       {
-        return_value_inet_ntoa$2=inet_ntoa(cur_entry->ipaddr_ia);
-        printf("Delete arp %s(%s)\n", return_value_inet_ntoa$2, (const void *)cur_entry->ifname);
+        return_value_inet_ntoa_2=inet_ntoa(cur_entry->ipaddr_ia);
+        printf("Delete arp %s(%s)\n", return_value_inet_ntoa_2, (const void *)cur_entry->ifname);
       }
 
       if(!(prev_entry == ((struct arptab_entry *)NULL)))
@@ -1701,9 +1701,9 @@ extern void processarp(signed int in_cleanup)
   cur_entry = *arptab;
   while(!(cur_entry == ((struct arptab_entry *)NULL)))
   {
-    signed long int return_value_time$5;
-    return_value_time$5=time((signed long int *)(void *)0);
-    if(!(return_value_time$5 + -cur_entry->tstamp >= 61l))
+    signed long int return_value_time_5;
+    return_value_time_5=time((signed long int *)(void *)0);
+    if(!(return_value_time_5 + -cur_entry->tstamp >= 61l))
     {
       if(!(cur_entry->want_route == 0))
       {
@@ -1740,24 +1740,24 @@ signed int remove_other_routes(struct in_addr ipaddr, const char *dev)
   struct arptab_entry *cur_entry;
   signed int removed = 0;
   cur_entry = *arptab;
-  signed int tmp_statement_expression$2;
-  char *return_value_inet_ntoa$1;
+  signed int tmp_statement_expression_2;
+  char *return_value_inet_ntoa_1;
   for( ; !(cur_entry == ((struct arptab_entry *)NULL)); cur_entry = cur_entry->next)
     if(ipaddr.s_addr == cur_entry->ipaddr_ia.s_addr)
     {
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$3;
-      return_value___builtin_strcmp$3=__builtin_strcmp(dev, cur_entry->ifname);
-      tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-      if(!(tmp_statement_expression$2 == 0))
+      signed int return_value___builtin_strcmp_3;
+      return_value___builtin_strcmp_3=__builtin_strcmp(dev, cur_entry->ifname);
+      tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+      if(!(tmp_statement_expression_2 == 0))
       {
         if(!(debug == 0))
         {
           if(!(cur_entry->want_route == 0))
           {
-            return_value_inet_ntoa$1=inet_ntoa(ipaddr);
-            printf("Marking entry %s(%s) for removal\n", return_value_inet_ntoa$1, (const void *)cur_entry->ifname);
+            return_value_inet_ntoa_1=inet_ntoa(ipaddr);
+            printf("Marking entry %s(%s) for removal\n", return_value_inet_ntoa_1, (const void *)cur_entry->ifname);
           }
 
         }
@@ -1777,38 +1777,38 @@ struct arptab_entry * replace_entry(struct in_addr ipaddr, char *dev)
 {
   struct arptab_entry *cur_entry = *arptab;
   struct arptab_entry *prev_entry = (struct arptab_entry *)(void *)0;
-  unsigned long int return_value_strlen$1;
-  signed int return_value_strncmp$2;
+  unsigned long int return_value_strlen_1;
+  signed int return_value_strncmp_2;
   for( ; !(cur_entry == ((struct arptab_entry *)NULL)); cur_entry = cur_entry->next)
   {
     if(ipaddr.s_addr == cur_entry->ipaddr_ia.s_addr)
     {
-      return_value_strlen$1=strlen(dev);
-      return_value_strncmp$2=strncmp(cur_entry->ifname, dev, return_value_strlen$1);
-      if(return_value_strncmp$2 == 0)
+      return_value_strlen_1=strlen(dev);
+      return_value_strncmp_2=strncmp(cur_entry->ifname, dev, return_value_strlen_1);
+      if(return_value_strncmp_2 == 0)
         break;
 
     }
 
     prev_entry = cur_entry;
   }
-  char *return_value_inet_ntoa$3;
+  char *return_value_inet_ntoa_3;
   if(cur_entry == ((struct arptab_entry *)NULL))
   {
     if(!(debug == 0))
     {
-      return_value_inet_ntoa$3=inet_ntoa(ipaddr);
-      printf("Creating new arptab entry %s(%s)\n", return_value_inet_ntoa$3, dev);
+      return_value_inet_ntoa_3=inet_ntoa(ipaddr);
+      printf("Creating new arptab entry %s(%s)\n", return_value_inet_ntoa_3, dev);
     }
 
-    void *return_value_malloc$5;
-    return_value_malloc$5=malloc(sizeof(struct arptab_entry) /*80ul*/ );
-    cur_entry = (struct arptab_entry *)return_value_malloc$5;
+    void *return_value_malloc_5;
+    return_value_malloc_5=malloc(sizeof(struct arptab_entry) /*80ul*/ );
+    cur_entry = (struct arptab_entry *)return_value_malloc_5;
     if(cur_entry == ((struct arptab_entry *)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      errstr=strerror(*return_value___errno_location$4);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      errstr=strerror(*return_value___errno_location_4);
       syslog(6, "No memory: %s", errstr);
     }
 
@@ -1835,18 +1835,18 @@ signed int route_add(struct arptab_entry *cur_entry)
 {
   char routecmd_str[255l];
   signed int success = 1;
-  char *return_value_inet_ntoa$2;
-  return_value_inet_ntoa$2=inet_ntoa(cur_entry->ipaddr_ia);
-  signed int return_value_snprintf$3;
-  return_value_snprintf$3=snprintf(routecmd_str, (unsigned long int)(255 - 1), "/sbin/ip route add %s/32 metric 50 dev %s scope link", return_value_inet_ntoa$2, (const void *)cur_entry->ifname);
-  if(return_value_snprintf$3 >= 255)
+  char *return_value_inet_ntoa_2;
+  return_value_inet_ntoa_2=inet_ntoa(cur_entry->ipaddr_ia);
+  signed int return_value_snprintf_3;
+  return_value_snprintf_3=snprintf(routecmd_str, (unsigned long int)(255 - 1), "/sbin/ip route add %s/32 metric 50 dev %s scope link", return_value_inet_ntoa_2, (const void *)cur_entry->ifname);
+  if(return_value_snprintf_3 >= 255)
     syslog(6, "ip route command too large to fit in buffer!");
 
   else
   {
-    signed int return_value_system$1;
-    return_value_system$1=system(routecmd_str);
-    if(!(return_value_system$1 == 0))
+    signed int return_value_system_1;
+    return_value_system_1=system(routecmd_str);
+    if(!(return_value_system_1 == 0))
     {
       syslog(6, "'%s' unsuccessful, will try to remove!", (const void *)routecmd_str);
       if(!(debug == 0))
@@ -1876,18 +1876,18 @@ signed int route_remove(struct arptab_entry *cur_entry)
 {
   char routecmd_str[255l];
   signed int success = 1;
-  char *return_value_inet_ntoa$2;
-  return_value_inet_ntoa$2=inet_ntoa(cur_entry->ipaddr_ia);
-  signed int return_value_snprintf$3;
-  return_value_snprintf$3=snprintf(routecmd_str, (unsigned long int)(255 - 1), "/sbin/ip route del %s/32 metric 50 dev %s scope link", return_value_inet_ntoa$2, (const void *)cur_entry->ifname);
-  if(return_value_snprintf$3 >= 255)
+  char *return_value_inet_ntoa_2;
+  return_value_inet_ntoa_2=inet_ntoa(cur_entry->ipaddr_ia);
+  signed int return_value_snprintf_3;
+  return_value_snprintf_3=snprintf(routecmd_str, (unsigned long int)(255 - 1), "/sbin/ip route del %s/32 metric 50 dev %s scope link", return_value_inet_ntoa_2, (const void *)cur_entry->ifname);
+  if(return_value_snprintf_3 >= 255)
     syslog(6, "ip route command too large to fit in buffer!");
 
   else
   {
-    signed int return_value_system$1;
-    return_value_system$1=system(routecmd_str);
-    if(!(return_value_system$1 == 0))
+    signed int return_value_system_1;
+    return_value_system_1=system(routecmd_str);
+    if(!(return_value_system_1 == 0))
     {
       syslog(6, "'%s' unsuccessful!", (const void *)routecmd_str);
       if(!(debug == 0))
@@ -1915,16 +1915,16 @@ signed int route_remove(struct arptab_entry *cur_entry)
 signed int rq_add(struct _ether_arp_frame *req_frame, struct sockaddr_ll *req_if)
 {
   struct _req_struct *new_entry;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(struct _req_struct) /*72ul*/ );
-  new_entry = (struct _req_struct *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(struct _req_struct) /*72ul*/ );
+  new_entry = (struct _req_struct *)return_value_malloc_3;
   if(new_entry == ((struct _req_struct *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    syslog(6, "No memory: %s", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    syslog(6, "No memory: %s", return_value_strerror_2);
     return 0;
   }
 
@@ -1967,7 +1967,7 @@ void rq_process(struct in_addr ipaddr, signed int ifindex)
   pthread_mutex_unlock(&arptab_mutex);
   pthread_mutex_lock(&req_queue_mutex);
   cur_entry = req_queue;
-  char *return_value_inet_ntoa$1;
+  char *return_value_inet_ntoa_1;
   while(!(cur_entry == ((struct _req_struct *)NULL)))
   {
     if((signed long int)ipaddr.s_addr == *((signed long int *)cur_entry->req_frame.arp.arp_tpa))
@@ -1976,8 +1976,8 @@ void rq_process(struct in_addr ipaddr, signed int ifindex)
       {
         if(!(debug == 0))
         {
-          return_value_inet_ntoa$1=inet_ntoa(ipaddr);
-          printf("Found %s in request queue\n", return_value_inet_ntoa$1);
+          return_value_inet_ntoa_1=inet_ntoa(ipaddr);
+          printf("Found %s in request queue\n", return_value_inet_ntoa_1);
         }
 
         arp_reply(&cur_entry->req_frame, &cur_entry->req_if);

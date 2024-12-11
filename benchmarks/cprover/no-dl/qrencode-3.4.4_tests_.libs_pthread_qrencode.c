@@ -1,46 +1,46 @@
-// #anon_enum$QR_ECLEVEL_L=0$QR_ECLEVEL_M=1$QR_ECLEVEL_Q=2$QR_ECLEVEL_H=3
+// #anon_enum_QR_ECLEVEL_L=0_QR_ECLEVEL_M=1_QR_ECLEVEL_Q=2_QR_ECLEVEL_H=3
 // file ../qrencode.h line 124
-enum anonymous$7 { QR_ECLEVEL_L=0, QR_ECLEVEL_M=1, QR_ECLEVEL_Q=2, QR_ECLEVEL_H=3 };
+enum anonymous_7 { QR_ECLEVEL_L=0, QR_ECLEVEL_M=1, QR_ECLEVEL_Q=2, QR_ECLEVEL_H=3 };
 
-// #anon_enum$QR_MODE_NUL=-1$QR_MODE_NUM=0$QR_MODE_AN=1$QR_MODE_8=2$QR_MODE_KANJI=3$QR_MODE_STRUCTURE=4$QR_MODE_ECI=5$QR_MODE_FNC1FIRST=6$QR_MODE_FNC1SECOND=7
+// #anon_enum_QR_MODE_NUL=-1_QR_MODE_NUM=0_QR_MODE_AN=1_QR_MODE_8=2_QR_MODE_KANJI=3_QR_MODE_STRUCTURE=4_QR_MODE_ECI=5_QR_MODE_FNC1FIRST=6_QR_MODE_FNC1SECOND=7
 // file ../qrencode.h line 109
-enum anonymous$8 { QR_MODE_NUL=-1, QR_MODE_NUM=0, QR_MODE_AN=1, QR_MODE_8=2, QR_MODE_KANJI=3, QR_MODE_STRUCTURE=4, QR_MODE_ECI=5, QR_MODE_FNC1FIRST=6, QR_MODE_FNC1SECOND=7 };
+enum anonymous_8 { QR_MODE_NUL=-1, QR_MODE_NUM=0, QR_MODE_AN=1, QR_MODE_8=2, QR_MODE_KANJI=3, QR_MODE_STRUCTURE=4, QR_MODE_ECI=5, QR_MODE_FNC1FIRST=6, QR_MODE_FNC1SECOND=7 };
 
-// tag-#anon#ST[S32'dataLength'||U32'$pad0'||*{U8}$U8$'data'||S32'eccLength'||U32'$pad1'||*{U8}$U8$'ecc'|]
+// tag-#anon#ST[S32'dataLength'||U32'_pad0'||*{U8}_U8_'data'||S32'eccLength'||U32'_pad1'||*{U8}_U8_'ecc'|]
 // file qrencode.c line 43
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[S32'length'||U32'$pad0'||*{U8}$U8$'data'|]
+// tag-#anon#ST[S32'length'||U32'_pad0'||*{U8}_U8_'data'|]
 // file bitstream.h line 25
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S32'version'||S32'dataLength'||S32'eccLength'||U32'$pad0'||*{U8}$U8$'datacode'||*{U8}$U8$'ecccode'||*{SYM#tag-#anon#ST[S32'dataLength'||U32'$pad0'||*{U8}$U8$'data'||S32'eccLength'||U32'$pad1'||*{U8}$U8$'ecc'|]#}$SYM#tag-#anon#ST[S32'dataLength'||U32'$pad0'||*{U8}$U8$'data'||S32'eccLength'||U32'$pad1'||*{U8}$U8$'ecc'|]#$'rsblock'||S32'oddbits'||S32'count'|]
+// tag-#anon#ST[S32'version'||S32'dataLength'||S32'eccLength'||U32'_pad0'||*{U8}_U8_'datacode'||*{U8}_U8_'ecccode'||*{SYM#tag-#anon#ST[S32'dataLength'||U32'_pad0'||*{U8}_U8_'data'||S32'eccLength'||U32'_pad1'||*{U8}_U8_'ecc'|]#}_SYM#tag-#anon#ST[S32'dataLength'||U32'_pad0'||*{U8}_U8_'data'||S32'eccLength'||U32'_pad1'||*{U8}_U8_'ecc'|]#_'rsblock'||S32'oddbits'||S32'count'|]
 // file qrencode.c line 199
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S32'version'||S32'dataLength'||S32'eccLength'||U32'$pad0'||*{U8}$U8$'datacode'||*{U8}$U8$'ecccode'||S32'b1'||S32'blocks'||*{SYM#tag-#anon#ST[S32'dataLength'||U32'$pad0'||*{U8}$U8$'data'||S32'eccLength'||U32'$pad1'||*{U8}$U8$'ecc'|]#}$SYM#tag-#anon#ST[S32'dataLength'||U32'$pad0'||*{U8}$U8$'data'||S32'eccLength'||U32'$pad1'||*{U8}$U8$'ecc'|]#$'rsblock'||S32'count'||U32'$pad1'|]
+// tag-#anon#ST[S32'version'||S32'dataLength'||S32'eccLength'||U32'_pad0'||*{U8}_U8_'datacode'||*{U8}_U8_'ecccode'||S32'b1'||S32'blocks'||*{SYM#tag-#anon#ST[S32'dataLength'||U32'_pad0'||*{U8}_U8_'data'||S32'eccLength'||U32'_pad1'||*{U8}_U8_'ecc'|]#}_SYM#tag-#anon#ST[S32'dataLength'||U32'_pad0'||*{U8}_U8_'data'||S32'eccLength'||U32'_pad1'||*{U8}_U8_'ecc'|]#_'rsblock'||S32'count'||U32'_pad1'|]
 // file qrencode.c line 50
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S32'version'||S32'width'||*{U8}$U8$'data'|]
+// tag-#anon#ST[S32'version'||S32'width'||*{U8}_U8_'data'|]
 // file ../qrencode.h line 375
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[S32'width'||ARR4{S32}$S32$'ec'|]
+// tag-#anon#ST[S32'width'||ARR4{S32}_S32_'ec'|]
 // file mqrspec.c line 45
 struct anonymous;
 
-// tag-#anon#ST[S32'width'||S32'words'||S32'remainder'||ARR4{S32}$S32$'ec'|]
+// tag-#anon#ST[S32'width'||S32'words'||S32'remainder'||ARR4{S32}_S32_'ec'|]
 // file qrspec.c line 46
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S32'width'||U32'$pad0'||*{U8}$U8$'frame'||S32'x'||S32'y'||S32'dir'||S32'bit'||S32'mqr'||U32'$pad1'|]
+// tag-#anon#ST[S32'width'||U32'_pad0'||*{U8}_U8_'frame'||S32'x'||S32'y'||S32'dir'||S32'bit'||S32'mqr'||U32'_pad1'|]
 // file qrencode.c line 290
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -100,37 +100,37 @@ struct timezone;
 
 // BitStream_allocate
 // file bitstream.c line 44
-static signed int BitStream_allocate(struct anonymous$9 *bstream, signed int length);
+static signed int BitStream_allocate(struct anonymous_9 *bstream, signed int length);
 // BitStream_append
 // file bitstream.h line 31
-extern signed int BitStream_append(struct anonymous$9 *bstream, struct anonymous$9 *arg);
+extern signed int BitStream_append(struct anonymous_9 *bstream, struct anonymous_9 *arg);
 // BitStream_appendBytes
 // file bitstream.h line 33
-extern signed int BitStream_appendBytes(struct anonymous$9 *bstream, signed int size, unsigned char *data);
+extern signed int BitStream_appendBytes(struct anonymous_9 *bstream, signed int size, unsigned char *data);
 // BitStream_appendNum
 // file bitstream.h line 32
-extern signed int BitStream_appendNum(struct anonymous$9 *bstream, signed int bits, unsigned int num);
+extern signed int BitStream_appendNum(struct anonymous_9 *bstream, signed int bits, unsigned int num);
 // BitStream_free
 // file bitstream.h line 36
-extern void BitStream_free(struct anonymous$9 *bstream);
+extern void BitStream_free(struct anonymous_9 *bstream);
 // BitStream_new
 // file bitstream.h line 30
-extern struct anonymous$9 * BitStream_new(void);
+extern struct anonymous_9 * BitStream_new(void);
 // BitStream_newFromBytes
 // file bitstream.c line 96
-static struct anonymous$9 * BitStream_newFromBytes(signed int size, unsigned char *data);
+static struct anonymous_9 * BitStream_newFromBytes(signed int size, unsigned char *data);
 // BitStream_newFromNum
 // file bitstream.c line 66
-static struct anonymous$9 * BitStream_newFromNum(signed int bits, unsigned int num);
+static struct anonymous_9 * BitStream_newFromNum(signed int bits, unsigned int num);
 // BitStream_toByte
 // file bitstream.h line 35
-extern unsigned char * BitStream_toByte(struct anonymous$9 *bstream);
+extern unsigned char * BitStream_toByte(struct anonymous_9 *bstream);
 // FrameFiller_new
 // file qrencode.c line 299
-static struct anonymous$6 * FrameFiller_new(signed int width, unsigned char *frame, signed int mqr);
+static struct anonymous_6 * FrameFiller_new(signed int width, unsigned char *frame, signed int mqr);
 // FrameFiller_next
 // file qrencode.c line 316
-static unsigned char * FrameFiller_next(struct anonymous$6 *filler);
+static unsigned char * FrameFiller_next(struct anonymous_6 *filler);
 // FrameFiller_test
 // file qrencode.c line 374
 extern unsigned char * FrameFiller_test(signed int version);
@@ -142,25 +142,25 @@ extern unsigned char * FrameFiller_testMQR(signed int version);
 extern signed int MMask_evaluateSymbol(signed int width, unsigned char *frame);
 // MMask_makeMask
 // file mmask.h line 25
-extern unsigned char * MMask_makeMask(signed int version, unsigned char *frame, signed int mask, enum anonymous$7 level);
+extern unsigned char * MMask_makeMask(signed int version, unsigned char *frame, signed int mask, enum anonymous_7 level);
 // MMask_makeMaskedFrame
 // file mmask.c line 95
 extern unsigned char * MMask_makeMaskedFrame(signed int width, unsigned char *frame, signed int mask);
 // MMask_mask
 // file mmask.h line 26
-extern unsigned char * MMask_mask(signed int version, unsigned char *frame, enum anonymous$7 level);
+extern unsigned char * MMask_mask(signed int version, unsigned char *frame, enum anonymous_7 level);
 // MMask_writeFormatInformation
 // file mmask.c line 34
-extern void MMask_writeFormatInformation(signed int version, signed int width, unsigned char *frame, signed int mask, enum anonymous$7 level);
+extern void MMask_writeFormatInformation(signed int version, signed int width, unsigned char *frame, signed int mask, enum anonymous_7 level);
 // MQRraw_free
 // file qrencode.c line 275
-void MQRraw_free(struct anonymous$5 *raw);
+void MQRraw_free(struct anonymous_5 *raw);
 // MQRraw_getCode
 // file qrencode.c line 260
-unsigned char MQRraw_getCode(struct anonymous$5 *raw);
+unsigned char MQRraw_getCode(struct anonymous_5 *raw);
 // MQRraw_new
 // file qrencode.c line 211
-struct anonymous$5 * MQRraw_new(struct _QRinput *input);
+struct anonymous_5 * MQRraw_new(struct _QRinput *input);
 // MQRspec_clearCache
 // file mqrspec.h line 143
 extern void MQRspec_clearCache(void);
@@ -169,25 +169,25 @@ extern void MQRspec_clearCache(void);
 static unsigned char * MQRspec_createFrame(signed int version);
 // MQRspec_getDataLength
 // file mqrspec.h line 50
-extern signed int MQRspec_getDataLength(signed int version, enum anonymous$7 level);
+extern signed int MQRspec_getDataLength(signed int version, enum anonymous_7 level);
 // MQRspec_getDataLengthBit
 // file mqrspec.h line 42
-extern signed int MQRspec_getDataLengthBit(signed int version, enum anonymous$7 level);
+extern signed int MQRspec_getDataLengthBit(signed int version, enum anonymous_7 level);
 // MQRspec_getECCLength
 // file mqrspec.h line 58
-extern signed int MQRspec_getECCLength(signed int version, enum anonymous$7 level);
+extern signed int MQRspec_getECCLength(signed int version, enum anonymous_7 level);
 // MQRspec_getFormatInfo
 // file mqrspec.c line 142
-extern unsigned int MQRspec_getFormatInfo(signed int mask, signed int version, enum anonymous$7 level);
+extern unsigned int MQRspec_getFormatInfo(signed int mask, signed int version, enum anonymous_7 level);
 // MQRspec_getWidth
 // file mqrspec.h line 73
 extern signed int MQRspec_getWidth(signed int version);
 // MQRspec_lengthIndicator
 // file mqrspec.h line 92
-extern signed int MQRspec_lengthIndicator(enum anonymous$8 mode, signed int version);
+extern signed int MQRspec_lengthIndicator(enum anonymous_8 mode, signed int version);
 // MQRspec_maximumWords
 // file mqrspec.c line 107
-extern signed int MQRspec_maximumWords(enum anonymous$8 mode, signed int version);
+extern signed int MQRspec_maximumWords(enum anonymous_8 mode, signed int version);
 // MQRspec_newFrame
 // file mqrspec.h line 138
 extern unsigned char * MQRspec_newFrame(signed int version);
@@ -205,37 +205,37 @@ extern signed int Mask_calcRunLength(signed int width, unsigned char *frame, sig
 extern signed int Mask_evaluateSymbol(signed int width, unsigned char *frame);
 // Mask_makeMask
 // file mask.h line 25
-extern unsigned char * Mask_makeMask(signed int width, unsigned char *frame, signed int mask, enum anonymous$7 level);
+extern unsigned char * Mask_makeMask(signed int width, unsigned char *frame, signed int mask, enum anonymous_7 level);
 // Mask_makeMaskedFrame
 // file mask.c line 151
 extern unsigned char * Mask_makeMaskedFrame(signed int width, unsigned char *frame, signed int mask);
 // Mask_mask
 // file mask.h line 26
-extern unsigned char * Mask_mask(signed int width, unsigned char *frame, enum anonymous$7 level);
+extern unsigned char * Mask_mask(signed int width, unsigned char *frame, enum anonymous_7 level);
 // Mask_mask0
 // file mask.c line 103
 static signed int Mask_mask0(signed int width, const unsigned char *s, unsigned char *d);
-// Mask_mask0$link1
+// Mask_mask0_link1
 // file mmask.c line 68
-static void Mask_mask0$link1(signed int width$link1, const unsigned char *s$link1, unsigned char *d$link1);
+static void Mask_mask0_link1(signed int width_link1, const unsigned char *s_link1, unsigned char *d_link1);
 // Mask_mask1
 // file mask.c line 108
 static signed int Mask_mask1(signed int width, const unsigned char *s, unsigned char *d);
-// Mask_mask1$link1
+// Mask_mask1_link1
 // file mmask.c line 73
-static void Mask_mask1$link1(signed int width$link1, const unsigned char *s$link1, unsigned char *d$link1);
+static void Mask_mask1_link1(signed int width_link1, const unsigned char *s_link1, unsigned char *d_link1);
 // Mask_mask2
 // file mask.c line 113
 static signed int Mask_mask2(signed int width, const unsigned char *s, unsigned char *d);
-// Mask_mask2$link1
+// Mask_mask2_link1
 // file mmask.c line 78
-static void Mask_mask2$link1(signed int width$link1, const unsigned char *s$link1, unsigned char *d$link1);
+static void Mask_mask2_link1(signed int width_link1, const unsigned char *s_link1, unsigned char *d_link1);
 // Mask_mask3
 // file mask.c line 118
 static signed int Mask_mask3(signed int width, const unsigned char *s, unsigned char *d);
-// Mask_mask3$link1
+// Mask_mask3_link1
 // file mmask.c line 83
-static void Mask_mask3$link1(signed int width$link1, const unsigned char *s$link1, unsigned char *d$link1);
+static void Mask_mask3_link1(signed int width_link1, const unsigned char *s_link1, unsigned char *d_link1);
 // Mask_mask4
 // file mask.c line 123
 static signed int Mask_mask4(signed int width, const unsigned char *s, unsigned char *d);
@@ -250,7 +250,7 @@ static signed int Mask_mask6(signed int width, const unsigned char *s, unsigned 
 static signed int Mask_mask7(signed int width, const unsigned char *s, unsigned char *d);
 // Mask_writeFormatInformation
 // file mask.c line 34
-extern signed int Mask_writeFormatInformation(signed int width, unsigned char *frame, signed int mask, enum anonymous$7 level);
+extern signed int Mask_writeFormatInformation(signed int width, unsigned char *frame, signed int mask, enum anonymous_7 level);
 // QRcode_APIVersion
 // file qrencode.c line 909
 extern void QRcode_APIVersion(signed int *major_version, signed int *minor_version, signed int *micro_version);
@@ -274,22 +274,22 @@ extern signed int QRcode_List_size(struct _QRcode_List *qrlist);
 extern void QRcode_clearCache(void);
 // QRcode_encodeData
 // file qrencode.c line 710
-extern struct anonymous$1 * QRcode_encodeData(signed int size, const unsigned char *data, signed int version, enum anonymous$7 level);
+extern struct anonymous_1 * QRcode_encodeData(signed int size, const unsigned char *data, signed int version, enum anonymous_7 level);
 // QRcode_encodeDataMQR
 // file qrencode.c line 724
-extern struct anonymous$1 * QRcode_encodeDataMQR(signed int size, const unsigned char *data, signed int version, enum anonymous$7 level);
+extern struct anonymous_1 * QRcode_encodeDataMQR(signed int size, const unsigned char *data, signed int version, enum anonymous_7 level);
 // QRcode_encodeDataReal
 // file qrencode.c line 681
-static struct anonymous$1 * QRcode_encodeDataReal(const unsigned char *data, signed int length, signed int version, enum anonymous$7 level, signed int mqr);
+static struct anonymous_1 * QRcode_encodeDataReal(const unsigned char *data, signed int length, signed int version, enum anonymous_7 level, signed int mqr);
 // QRcode_encodeDataStructured
 // file qrencode.c line 884
-extern struct _QRcode_List * QRcode_encodeDataStructured(signed int size, const unsigned char *data, signed int version, enum anonymous$7 level);
+extern struct _QRcode_List * QRcode_encodeDataStructured(signed int size, const unsigned char *data, signed int version, enum anonymous_7 level);
 // QRcode_encodeDataStructuredReal
 // file qrencode.c line 848
-static struct _QRcode_List * QRcode_encodeDataStructuredReal(signed int size, const unsigned char *data, signed int version, enum anonymous$7 level, signed int eightbit, enum anonymous$8 hint, signed int casesensitive);
+static struct _QRcode_List * QRcode_encodeDataStructuredReal(signed int size, const unsigned char *data, signed int version, enum anonymous_7 level, signed int eightbit, enum anonymous_8 hint, signed int casesensitive);
 // QRcode_encodeInput
 // file qrencode.c line 629
-extern struct anonymous$1 * QRcode_encodeInput(struct _QRinput *input);
+extern struct anonymous_1 * QRcode_encodeInput(struct _QRinput *input);
 // QRcode_encodeInputStructured
 // file qrencode.c line 802
 extern struct _QRcode_List * QRcode_encodeInputStructured(struct _QRinput_Struct *s);
@@ -298,37 +298,37 @@ extern struct _QRcode_List * QRcode_encodeInputStructured(struct _QRinput_Struct
 static struct _QRcode_List * QRcode_encodeInputToStructured(struct _QRinput *input);
 // QRcode_encodeMask
 // file qrencode.c line 463
-struct anonymous$1 * QRcode_encodeMask(struct _QRinput *input, signed int mask);
+struct anonymous_1 * QRcode_encodeMask(struct _QRinput *input, signed int mask);
 // QRcode_encodeMaskMQR
 // file qrencode.c line 547
-struct anonymous$1 * QRcode_encodeMaskMQR(struct _QRinput *input, signed int mask);
+struct anonymous_1 * QRcode_encodeMaskMQR(struct _QRinput *input, signed int mask);
 // QRcode_encodeString
 // file ../qrencode.h line 426
-extern struct anonymous$1 * QRcode_encodeString(const char *string, signed int version, enum anonymous$7 level, enum anonymous$8 hint, signed int casesensitive);
+extern struct anonymous_1 * QRcode_encodeString(const char *string, signed int version, enum anonymous_7 level, enum anonymous_8 hint, signed int casesensitive);
 // QRcode_encodeString8bit
 // file qrencode.c line 715
-extern struct anonymous$1 * QRcode_encodeString8bit(const char *string, signed int version, enum anonymous$7 level);
+extern struct anonymous_1 * QRcode_encodeString8bit(const char *string, signed int version, enum anonymous_7 level);
 // QRcode_encodeString8bitMQR
 // file qrencode.c line 729
-extern struct anonymous$1 * QRcode_encodeString8bitMQR(const char *string, signed int version, enum anonymous$7 level);
+extern struct anonymous_1 * QRcode_encodeString8bitMQR(const char *string, signed int version, enum anonymous_7 level);
 // QRcode_encodeString8bitStructured
 // file qrencode.c line 888
-extern struct _QRcode_List * QRcode_encodeString8bitStructured(const char *string, signed int version, enum anonymous$7 level);
+extern struct _QRcode_List * QRcode_encodeString8bitStructured(const char *string, signed int version, enum anonymous_7 level);
 // QRcode_encodeStringMQR
 // file qrencode.c line 676
-extern struct anonymous$1 * QRcode_encodeStringMQR(const char *string, signed int version, enum anonymous$7 level, enum anonymous$8 hint, signed int casesensitive);
+extern struct anonymous_1 * QRcode_encodeStringMQR(const char *string, signed int version, enum anonymous_7 level, enum anonymous_8 hint, signed int casesensitive);
 // QRcode_encodeStringReal
 // file qrencode.c line 638
-static struct anonymous$1 * QRcode_encodeStringReal(const char *string, signed int version, enum anonymous$7 level, signed int mqr, enum anonymous$8 hint, signed int casesensitive);
+static struct anonymous_1 * QRcode_encodeStringReal(const char *string, signed int version, enum anonymous_7 level, signed int mqr, enum anonymous_8 hint, signed int casesensitive);
 // QRcode_encodeStringStructured
 // file qrencode.c line 896
-extern struct _QRcode_List * QRcode_encodeStringStructured(const char *string, signed int version, enum anonymous$7 level, enum anonymous$8 hint, signed int casesensitive);
+extern struct _QRcode_List * QRcode_encodeStringStructured(const char *string, signed int version, enum anonymous_7 level, enum anonymous_8 hint, signed int casesensitive);
 // QRcode_free
 // file ../qrencode.h line 470
-extern void QRcode_free(struct anonymous$1 *qrcode);
+extern void QRcode_free(struct anonymous_1 *qrcode);
 // QRcode_new
 // file qrencode.c line 441
-struct anonymous$1 * QRcode_new(signed int version, signed int width, unsigned char *data);
+struct anonymous_1 * QRcode_new(signed int version, signed int width, unsigned char *data);
 // QRinput_InputList_freeEntry
 // file qrinput.c line 1458
 static void QRinput_InputList_freeEntry(struct _QRinput_InputList *entry);
@@ -343,7 +343,7 @@ static struct _QRinput_List * QRinput_List_dup(struct _QRinput_List *entry);
 static void QRinput_List_freeEntry(struct _QRinput_List *entry);
 // QRinput_List_newEntry
 // file qrinput.c line 48
-static struct _QRinput_List * QRinput_List_newEntry(enum anonymous$8 mode, signed int size, const unsigned char *data);
+static struct _QRinput_List * QRinput_List_newEntry(enum anonymous_8 mode, signed int size, const unsigned char *data);
 // QRinput_List_shrinkEntry
 // file qrinput.c line 1541
 static signed int QRinput_List_shrinkEntry(struct _QRinput_List *entry, signed int bytes);
@@ -367,7 +367,7 @@ extern struct _QRinput_Struct * QRinput_Struct_new(void);
 extern void QRinput_Struct_setParity(struct _QRinput_Struct *s, unsigned char parity);
 // QRinput_append
 // file qrencode.h line 200
-extern signed int QRinput_append(struct _QRinput *input, enum anonymous$8 mode, signed int size, const unsigned char *data);
+extern signed int QRinput_append(struct _QRinput *input, enum anonymous_8 mode, signed int size, const unsigned char *data);
 // QRinput_appendECIheader
 // file qrinput.c line 275
 extern signed int QRinput_appendECIheader(struct _QRinput *input, unsigned int ecinum);
@@ -376,16 +376,16 @@ extern signed int QRinput_appendECIheader(struct _QRinput *input, unsigned int e
 static void QRinput_appendEntry(struct _QRinput *input, struct _QRinput_List *entry);
 // QRinput_appendPaddingBit
 // file qrinput.c line 1191
-static signed int QRinput_appendPaddingBit(struct anonymous$9 *bstream, struct _QRinput *input);
+static signed int QRinput_appendPaddingBit(struct anonymous_9 *bstream, struct _QRinput *input);
 // QRinput_appendPaddingBitMQR
 // file qrinput.c line 1256
-static signed int QRinput_appendPaddingBitMQR(struct anonymous$9 *bstream, struct _QRinput *input);
+static signed int QRinput_appendPaddingBitMQR(struct anonymous_9 *bstream, struct _QRinput *input);
 // QRinput_calcParity
 // file qrinput.c line 308
 static unsigned char QRinput_calcParity(struct _QRinput *input);
 // QRinput_check
 // file qrinput.c line 864
-extern signed int QRinput_check(enum anonymous$8 mode, signed int size, const unsigned char *data);
+extern signed int QRinput_check(enum anonymous_8 mode, signed int size, const unsigned char *data);
 // QRinput_checkModeAn
 // file qrinput.c line 482
 static signed int QRinput_checkModeAn(signed int size, const char *data);
@@ -463,13 +463,13 @@ static signed int QRinput_estimateVersion(struct _QRinput *input);
 extern void QRinput_free(struct _QRinput *input);
 // QRinput_getBitStream
 // file qrinput.c line 1398
-extern struct anonymous$9 * QRinput_getBitStream(struct _QRinput *input);
+extern struct anonymous_9 * QRinput_getBitStream(struct _QRinput *input);
 // QRinput_getByteStream
 // file qrinput.h line 78
 extern unsigned char * QRinput_getByteStream(struct _QRinput *input);
 // QRinput_getErrorCorrectionLevel
 // file qrinput.c line 173
-extern enum anonymous$7 QRinput_getErrorCorrectionLevel(struct _QRinput *input);
+extern enum anonymous_7 QRinput_getErrorCorrectionLevel(struct _QRinput *input);
 // QRinput_getVersion
 // file qrinput.c line 156
 extern signed int QRinput_getVersion(struct _QRinput *input);
@@ -481,25 +481,25 @@ static signed int QRinput_insertFNC1Header(struct _QRinput *input);
 extern signed int QRinput_insertStructuredAppendHeader(struct _QRinput *input, signed int size, signed int number, unsigned char parity);
 // QRinput_isSplittableMode
 // file qrinput.c line 39
-signed int QRinput_isSplittableMode(enum anonymous$8 mode);
+signed int QRinput_isSplittableMode(enum anonymous_8 mode);
 // QRinput_lengthOfCode
 // file qrinput.c line 1002
-extern signed int QRinput_lengthOfCode(enum anonymous$8 mode, signed int version, signed int bits);
+extern signed int QRinput_lengthOfCode(enum anonymous_8 mode, signed int version, signed int bits);
 // QRinput_mergeBitStream
 // file qrinput.c line 1355
-extern struct anonymous$9 * QRinput_mergeBitStream(struct _QRinput *input);
+extern struct anonymous_9 * QRinput_mergeBitStream(struct _QRinput *input);
 // QRinput_new
 // file qrinput.c line 110
 extern struct _QRinput * QRinput_new(void);
 // QRinput_new2
 // file qrencode.h line 172
-extern struct _QRinput * QRinput_new2(signed int version, enum anonymous$7 level);
+extern struct _QRinput * QRinput_new2(signed int version, enum anonymous_7 level);
 // QRinput_newMQR
 // file qrencode.h line 184
-extern struct _QRinput * QRinput_newMQR(signed int version, enum anonymous$7 level);
+extern struct _QRinput * QRinput_newMQR(signed int version, enum anonymous_7 level);
 // QRinput_setErrorCorrectionLevel
 // file qrinput.c line 178
-extern signed int QRinput_setErrorCorrectionLevel(struct _QRinput *input, enum anonymous$7 level);
+extern signed int QRinput_setErrorCorrectionLevel(struct _QRinput *input, enum anonymous_7 level);
 // QRinput_setFNC1First
 // file qrinput.c line 1706
 extern signed int QRinput_setFNC1First(struct _QRinput *input);
@@ -511,7 +511,7 @@ extern signed int QRinput_setFNC1Second(struct _QRinput *input, unsigned char ap
 extern signed int QRinput_setVersion(struct _QRinput *input, signed int version);
 // QRinput_setVersionAndErrorCorrectionLevel
 // file qrinput.c line 190
-extern signed int QRinput_setVersionAndErrorCorrectionLevel(struct _QRinput *input, signed int version, enum anonymous$7 level);
+extern signed int QRinput_setVersionAndErrorCorrectionLevel(struct _QRinput *input, signed int version, enum anonymous_7 level);
 // QRinput_splitEntry
 // file qrinput.c line 1556
 extern signed int QRinput_splitEntry(struct _QRinput_List *entry, signed int bytes);
@@ -520,13 +520,13 @@ extern signed int QRinput_splitEntry(struct _QRinput_List *entry, signed int byt
 extern struct _QRinput_Struct * QRinput_splitQRinputToStruct(struct _QRinput *input);
 // QRraw_free
 // file qrencode.c line 185
-void QRraw_free(struct anonymous$4 *raw);
+void QRraw_free(struct anonymous_4 *raw);
 // QRraw_getCode
 // file qrencode.c line 162
-unsigned char QRraw_getCode(struct anonymous$4 *raw);
+unsigned char QRraw_getCode(struct anonymous_4 *raw);
 // QRraw_new
 // file qrencode.c line 112
-struct anonymous$4 * QRraw_new(struct _QRinput *input);
+struct anonymous_4 * QRraw_new(struct _QRinput *input);
 // QRspec_clearCache
 // file qrspec.h line 162
 extern void QRspec_clearCache(void);
@@ -535,19 +535,19 @@ extern void QRspec_clearCache(void);
 static unsigned char * QRspec_createFrame(signed int version);
 // QRspec_getDataLength
 // file qrspec.h line 42
-extern signed int QRspec_getDataLength(signed int version, enum anonymous$7 level);
+extern signed int QRspec_getDataLength(signed int version, enum anonymous_7 level);
 // QRspec_getECCLength
 // file qrspec.h line 50
-extern signed int QRspec_getECCLength(signed int version, enum anonymous$7 level);
+extern signed int QRspec_getECCLength(signed int version, enum anonymous_7 level);
 // QRspec_getEccSpec
 // file qrspec.h line 106
-void QRspec_getEccSpec(signed int version, enum anonymous$7 level, signed int *spec);
+void QRspec_getEccSpec(signed int version, enum anonymous_7 level, signed int *spec);
 // QRspec_getFormatInfo
 // file qrspec.c line 386
-extern unsigned int QRspec_getFormatInfo(signed int mask, enum anonymous$7 level);
+extern unsigned int QRspec_getFormatInfo(signed int mask, enum anonymous_7 level);
 // QRspec_getMinimumVersion
 // file qrspec.h line 58
-extern signed int QRspec_getMinimumVersion(signed int size, enum anonymous$7 level);
+extern signed int QRspec_getMinimumVersion(signed int size, enum anonymous_7 level);
 // QRspec_getRemainder
 // file qrspec.h line 72
 extern signed int QRspec_getRemainder(signed int version);
@@ -559,10 +559,10 @@ extern unsigned int QRspec_getVersionPattern(signed int version);
 extern signed int QRspec_getWidth(signed int version);
 // QRspec_lengthIndicator
 // file qrspec.h line 84
-extern signed int QRspec_lengthIndicator(enum anonymous$8 mode, signed int version);
+extern signed int QRspec_lengthIndicator(enum anonymous_8 mode, signed int version);
 // QRspec_maximumWords
 // file qrspec.h line 92
-extern signed int QRspec_maximumWords(enum anonymous$8 mode, signed int version);
+extern signed int QRspec_maximumWords(enum anonymous_8 mode, signed int version);
 // QRspec_newFrame
 // file qrspec.h line 157
 extern unsigned char * QRspec_newFrame(signed int version);
@@ -574,31 +574,31 @@ static void QRspec_putAlignmentMarker(unsigned char *frame, signed int width, si
 static void QRspec_putAlignmentPattern(signed int version, unsigned char *frame, signed int width);
 // RSblock_init
 // file qrencode.c line 72
-static signed int RSblock_init(struct anonymous$3 *blocks, signed int *spec, unsigned char *data, unsigned char *ecc);
+static signed int RSblock_init(struct anonymous_3 *blocks, signed int *spec, unsigned char *data, unsigned char *ecc);
 // RSblock_initBlock
 // file qrencode.c line 62
-static void RSblock_initBlock(struct anonymous$3 *block, signed int dl, unsigned char *data, signed int el, unsigned char *ecc, struct _RS *rs);
+static void RSblock_initBlock(struct anonymous_3 *block, signed int dl, unsigned char *data, signed int el, unsigned char *ecc, struct _RS *rs);
 // Split_eat8
 // file split.c line 189
-static signed int Split_eat8(const char *string, struct _QRinput *input, enum anonymous$8 hint);
+static signed int Split_eat8(const char *string, struct _QRinput *input, enum anonymous_8 hint);
 // Split_eatAn
 // file split.c line 123
-static signed int Split_eatAn(const char *string, struct _QRinput *input, enum anonymous$8 hint);
+static signed int Split_eatAn(const char *string, struct _QRinput *input, enum anonymous_8 hint);
 // Split_eatKanji
 // file split.c line 172
-static signed int Split_eatKanji(const char *string, struct _QRinput *input, enum anonymous$8 hint);
+static signed int Split_eatKanji(const char *string, struct _QRinput *input, enum anonymous_8 hint);
 // Split_eatNum
 // file split.c line 83
-static signed int Split_eatNum(const char *string, struct _QRinput *input, enum anonymous$8 hint);
+static signed int Split_eatNum(const char *string, struct _QRinput *input, enum anonymous_8 hint);
 // Split_identifyMode
 // file split.c line 53
-static enum anonymous$8 Split_identifyMode(const char *string, enum anonymous$8 hint);
+static enum anonymous_8 Split_identifyMode(const char *string, enum anonymous_8 hint);
 // Split_splitString
 // file split.c line 259
-static signed int Split_splitString(const char *string, struct _QRinput *input, enum anonymous$8 hint);
+static signed int Split_splitString(const char *string, struct _QRinput *input, enum anonymous_8 hint);
 // Split_splitStringToQRinput
 // file split.h line 44
-extern signed int Split_splitStringToQRinput(const char *string, struct _QRinput *input, enum anonymous$8 hint, signed int casesensitive);
+extern signed int Split_splitStringToQRinput(const char *string, struct _QRinput *input, enum anonymous_8 hint, signed int casesensitive);
 // __errno_location
 // file /usr/include/x86_64-linux-gnu/bits/errno.h line 50
 extern signed int * __errno_location(void);
@@ -610,7 +610,7 @@ extern signed int abs(signed int);
 extern void * calloc(unsigned long int, unsigned long int);
 // dupAndToUpper
 // file split.c line 282
-static char * dupAndToUpper(const char *str, enum anonymous$8 hint);
+static char * dupAndToUpper(const char *str, enum anonymous_8 hint);
 // encode_rs_char
 // file rscode.h line 37
 extern void encode_rs_char(struct _RS *rs, const unsigned char *data, unsigned char *parity);
@@ -676,16 +676,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$0 *);
+extern signed int pthread_mutex_lock(union anonymous_0 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$0 *);
+extern signed int pthread_mutex_unlock(union anonymous_0 *);
 // putFinderPattern
 // file qrspec.c line 413
 static void putFinderPattern(unsigned char *frame, signed int width, signed int ox, signed int oy);
-// putFinderPattern$link1
+// putFinderPattern_link1
 // file mqrspec.c line 175
-static void putFinderPattern$link1(unsigned char *frame$link1, signed int width$link1, signed int ox$link1, signed int oy$link1);
+static void putFinderPattern_link1(unsigned char *frame_link1, signed int width_link1, signed int ox_link1, signed int oy_link1);
 // strdup
 // file /usr/include/string.h line 175
 extern char * strdup(const char *);
@@ -699,7 +699,7 @@ void timerStart(const char *str);
 // file pthread_qrencode.c line 20
 void timerStop(void);
 
-struct anonymous$3
+struct anonymous_3
 {
   // dataLength
   signed int dataLength;
@@ -711,7 +711,7 @@ struct anonymous$3
   unsigned char *ecc;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // length
   signed int length;
@@ -719,7 +719,7 @@ struct anonymous$9
   unsigned char *data;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // version
   signed int version;
@@ -732,14 +732,14 @@ struct anonymous$5
   // ecccode
   unsigned char *ecccode;
   // rsblock
-  struct anonymous$3 *rsblock;
+  struct anonymous_3 *rsblock;
   // oddbits
   signed int oddbits;
   // count
   signed int count;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // version
   signed int version;
@@ -756,12 +756,12 @@ struct anonymous$4
   // blocks
   signed int blocks;
   // rsblock
-  struct anonymous$3 *rsblock;
+  struct anonymous_3 *rsblock;
   // count
   signed int count;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // version
   signed int version;
@@ -779,7 +779,7 @@ struct anonymous
   signed int ec[4l];
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // width
   signed int width;
@@ -791,7 +791,7 @@ struct anonymous$2
   signed int ec[4l];
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // width
   signed int width;
@@ -837,7 +837,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -922,7 +922,7 @@ struct _IO_marker
 struct _QRcode_List
 {
   // code
-  struct anonymous$1 *code;
+  struct anonymous_1 *code;
   // next
   struct _QRcode_List *next;
 };
@@ -932,7 +932,7 @@ struct _QRinput
   // version
   signed int version;
   // level
-  enum anonymous$7 level;
+  enum anonymous_7 level;
   // head
   struct _QRinput_List *head;
   // tail
@@ -956,13 +956,13 @@ struct _QRinput_InputList
 struct _QRinput_List
 {
   // mode
-  enum anonymous$8 mode;
+  enum anonymous_8 mode;
   // size
   signed int size;
   // data
   unsigned char *data;
   // bstream
-  struct anonymous$9 *bstream;
+  struct anonymous_9 *bstream;
   // next
   struct _QRinput_List *next;
 };
@@ -1087,52 +1087,52 @@ static const unsigned int formatInfo[4l][8l] = { { (const unsigned int)0x77c4, (
     { (const unsigned int)0x5412, (const unsigned int)0x5125, (const unsigned int)0x5e7c, (const unsigned int)0x5b4b, (const unsigned int)0x45f9, (const unsigned int)0x40ce, (const unsigned int)0x4f97, (const unsigned int)0x4aa0 },
     { (const unsigned int)0x355f, (const unsigned int)0x3068, (const unsigned int)0x3f31, (const unsigned int)0x3a06, (const unsigned int)0x24b4, (const unsigned int)0x2183, (const unsigned int)0x2eda, (const unsigned int)0x2bed },
     { (const unsigned int)0x1689, (const unsigned int)0x13be, (const unsigned int)0x1ce7, (const unsigned int)0x19d0, (const unsigned int)0x0762, (const unsigned int)0x0255, (const unsigned int)0x0d0c, (const unsigned int)0x083b } };
-// formatInfo$link1
+// formatInfo_link1
 // file mqrspec.c line 126
-static const unsigned int formatInfo$link1[4l][8l] = { { (const unsigned int)0x4445, (const unsigned int)0x55ae, (const unsigned int)0x6793, (const unsigned int)0x7678, (const unsigned int)0x06de, (const unsigned int)0x1735, (const unsigned int)0x2508, (const unsigned int)0x34e3 },
+static const unsigned int formatInfo_link1[4l][8l] = { { (const unsigned int)0x4445, (const unsigned int)0x55ae, (const unsigned int)0x6793, (const unsigned int)0x7678, (const unsigned int)0x06de, (const unsigned int)0x1735, (const unsigned int)0x2508, (const unsigned int)0x34e3 },
     { (const unsigned int)0x4172, (const unsigned int)0x5099, (const unsigned int)0x62a4, (const unsigned int)0x734f, (const unsigned int)0x03e9, (const unsigned int)0x1202, (const unsigned int)0x203f, (const unsigned int)0x31d4 },
     { (const unsigned int)0x4e2b, (const unsigned int)0x5fc0, (const unsigned int)0x6dfd, (const unsigned int)0x7c16, (const unsigned int)0x0cb0, (const unsigned int)0x1d5b, (const unsigned int)0x2f66, (const unsigned int)0x3e8d },
     { (const unsigned int)0x4b1c, (const unsigned int)0x5af7, (const unsigned int)0x68ca, (const unsigned int)0x7921, (const unsigned int)0x0987, (const unsigned int)0x186c, (const unsigned int)0x2a51, (const unsigned int)0x3bba } };
 // frames
 // file qrspec.c line 402
 static unsigned char *frames[41l];
-// frames$link1
+// frames_link1
 // file mqrspec.c line 164
-static unsigned char *frames$link1[5l];
+static unsigned char *frames_link1[5l];
 // frames_mutex
 // file qrspec.c line 404
-static union anonymous$0 frames_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 frames_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
-// frames_mutex$link1
+// frames_mutex_link1
 // file mqrspec.c line 166
-static union anonymous$0 frames_mutex$link1 = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 frames_mutex_link1 = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // lengthTableBits
 // file qrspec.c line 138
 static const signed int lengthTableBits[4l][3l] = { { 10, 12, 14 }, { 9, 11, 13 }, { 8, 16, 16 }, { 8, 10, 12 } };
-// lengthTableBits$link1
+// lengthTableBits_link1
 // file mqrspec.c line 95
-static const signed int lengthTableBits$link1[4l][4l] = { { 3, 4, 5, 6 }, { 0, 3, 4, 5 }, { 0, 0, 4, 5 }, { 0, 0, 3, 4 } };
+static const signed int lengthTableBits_link1[4l][4l] = { { 3, 4, 5, 6 }, { 0, 3, 4, 5 }, { 0, 0, 4, 5 }, { 0, 0, 3, 4 } };
 // maskMakers
 // file mask.c line 145
 static signed int (*maskMakers[8l])(signed int, const unsigned char *, unsigned char *);
 // maskMakers
 // file mask.c line 145
 static signed int (*maskMakers[8l])(signed int, const unsigned char *, unsigned char *) = { Mask_mask0, Mask_mask1, Mask_mask2, Mask_mask3, Mask_mask4, Mask_mask5, Mask_mask6, Mask_mask7 };
-// maskMakers$link1
+// maskMakers_link1
 // file mmask.c line 90
-static void (*maskMakers$link1[4l])(signed int, const unsigned char *, unsigned char *);
-// maskMakers$link1
+static void (*maskMakers_link1[4l])(signed int, const unsigned char *, unsigned char *);
+// maskMakers_link1
 // file mmask.c line 90
-static void (*maskMakers$link1[4l])(signed int, const unsigned char *, unsigned char *) = { Mask_mask0$link1, Mask_mask1$link1, Mask_mask2$link1, Mask_mask3$link1 };
+static void (*maskMakers_link1[4l])(signed int, const unsigned char *, unsigned char *) = { Mask_mask0_link1, Mask_mask1_link1, Mask_mask2_link1, Mask_mask3_link1 };
 // mqrspecCapacity
 // file mqrspec.c line 54
 static const struct anonymous mqrspecCapacity[5l] = { { .width=0, .ec={ 0, 0, 0, 0 } }, { .width=11, .ec={ 2, 0, 0, 0 } }, { .width=13, .ec={ 5, 6, 0, 0 } }, { .width=15, .ec={ 6, 8, 0, 0 } }, { .width=17, .ec={ 8, 10, 14, 0 } } };
 // qrspecCapacity
 // file qrspec.c line 57
-static const struct anonymous$2 qrspecCapacity[41l] = { { .width=0, .words=0, .remainder=0, .ec={ 0, 0, 0, 0 } },
+static const struct anonymous_2 qrspecCapacity[41l] = { { .width=0, .words=0, .remainder=0, .ec={ 0, 0, 0, 0 } },
     { .width=21, .words=26, .remainder=0, .ec={ 7, 10, 13, 17 } },
     { .width=25, .words=44, .remainder=7, .ec={ 10, 16, 22, 28 } },
     { .width=29, .words=70, .remainder=7, .ec={ 15, 26, 36, 44 } },
@@ -1178,7 +1178,7 @@ static const struct anonymous$2 qrspecCapacity[41l] = { { .width=0, .words=0, .r
 static struct _RS *rslist = (struct _RS *)(void *)0;
 // rslist_mutex
 // file rscode.c line 64
-static union anonymous$0 rslist_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 rslist_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // stderr
@@ -1199,17 +1199,17 @@ static const unsigned int versionPattern[34l] = { (const unsigned int)0x07c94, (
 
 // BitStream_allocate
 // file bitstream.c line 44
-static signed int BitStream_allocate(struct anonymous$9 *bstream, signed int length)
+static signed int BitStream_allocate(struct anonymous_9 *bstream, signed int length)
 {
   unsigned char *data;
-  if(bstream == ((struct anonymous$9 *)NULL))
+  if(bstream == ((struct anonymous_9 *)NULL))
     return -1;
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)length);
-    data = (unsigned char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)length);
+    data = (unsigned char *)return_value_malloc_1;
     if(data == ((unsigned char *)NULL))
       return -1;
 
@@ -1227,10 +1227,10 @@ static signed int BitStream_allocate(struct anonymous$9 *bstream, signed int len
 
 // BitStream_append
 // file bitstream.h line 31
-extern signed int BitStream_append(struct anonymous$9 *bstream, struct anonymous$9 *arg)
+extern signed int BitStream_append(struct anonymous_9 *bstream, struct anonymous_9 *arg)
 {
   unsigned char *data;
-  if(arg == ((struct anonymous$9 *)NULL))
+  if(arg == ((struct anonymous_9 *)NULL))
     return -1;
 
   else
@@ -1241,18 +1241,18 @@ extern signed int BitStream_append(struct anonymous$9 *bstream, struct anonymous
     {
       if(bstream->length == 0)
       {
-        signed int return_value_BitStream_allocate$1;
-        return_value_BitStream_allocate$1=BitStream_allocate(bstream, arg->length);
-        if(!(return_value_BitStream_allocate$1 == 0))
+        signed int return_value_BitStream_allocate_1;
+        return_value_BitStream_allocate_1=BitStream_allocate(bstream, arg->length);
+        if(!(return_value_BitStream_allocate_1 == 0))
           return -1;
 
         memcpy((void *)bstream->data, (const void *)arg->data, (unsigned long int)arg->length);
         return 0;
       }
 
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)(bstream->length + arg->length));
-      data = (unsigned char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)(bstream->length + arg->length));
+      data = (unsigned char *)return_value_malloc_2;
       if(data == ((unsigned char *)NULL))
         return -1;
 
@@ -1270,9 +1270,9 @@ extern signed int BitStream_append(struct anonymous$9 *bstream, struct anonymous
 
 // BitStream_appendBytes
 // file bitstream.h line 33
-extern signed int BitStream_appendBytes(struct anonymous$9 *bstream, signed int size, unsigned char *data)
+extern signed int BitStream_appendBytes(struct anonymous_9 *bstream, signed int size, unsigned char *data)
 {
-  struct anonymous$9 *b;
+  struct anonymous_9 *b;
   signed int ret;
   if(size == 0)
     return 0;
@@ -1280,7 +1280,7 @@ extern signed int BitStream_appendBytes(struct anonymous$9 *bstream, signed int 
   else
   {
     b=BitStream_newFromBytes(size, data);
-    if(b == ((struct anonymous$9 *)NULL))
+    if(b == ((struct anonymous_9 *)NULL))
       return -1;
 
     else
@@ -1294,9 +1294,9 @@ extern signed int BitStream_appendBytes(struct anonymous$9 *bstream, signed int 
 
 // BitStream_appendNum
 // file bitstream.h line 32
-extern signed int BitStream_appendNum(struct anonymous$9 *bstream, signed int bits, unsigned int num)
+extern signed int BitStream_appendNum(struct anonymous_9 *bstream, signed int bits, unsigned int num)
 {
-  struct anonymous$9 *b;
+  struct anonymous_9 *b;
   signed int ret;
   if(bits == 0)
     return 0;
@@ -1304,7 +1304,7 @@ extern signed int BitStream_appendNum(struct anonymous$9 *bstream, signed int bi
   else
   {
     b=BitStream_newFromNum(bits, num);
-    if(b == ((struct anonymous$9 *)NULL))
+    if(b == ((struct anonymous_9 *)NULL))
       return -1;
 
     else
@@ -1318,9 +1318,9 @@ extern signed int BitStream_appendNum(struct anonymous$9 *bstream, signed int bi
 
 // BitStream_free
 // file bitstream.h line 36
-extern void BitStream_free(struct anonymous$9 *bstream)
+extern void BitStream_free(struct anonymous_9 *bstream)
 {
-  if(!(bstream == ((struct anonymous$9 *)NULL)))
+  if(!(bstream == ((struct anonymous_9 *)NULL)))
   {
     free((void *)bstream->data);
     free((void *)bstream);
@@ -1330,14 +1330,14 @@ extern void BitStream_free(struct anonymous$9 *bstream)
 
 // BitStream_new
 // file bitstream.h line 30
-extern struct anonymous$9 * BitStream_new(void)
+extern struct anonymous_9 * BitStream_new(void)
 {
-  struct anonymous$9 *bstream;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$9) /*16ul*/ );
-  bstream = (struct anonymous$9 *)return_value_malloc$1;
-  if(bstream == ((struct anonymous$9 *)NULL))
-    return (struct anonymous$9 *)(void *)0;
+  struct anonymous_9 *bstream;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_9) /*16ul*/ );
+  bstream = (struct anonymous_9 *)return_value_malloc_1;
+  if(bstream == ((struct anonymous_9 *)NULL))
+    return (struct anonymous_9 *)(void *)0;
 
   else
   {
@@ -1349,25 +1349,25 @@ extern struct anonymous$9 * BitStream_new(void)
 
 // BitStream_newFromBytes
 // file bitstream.c line 96
-static struct anonymous$9 * BitStream_newFromBytes(signed int size, unsigned char *data)
+static struct anonymous_9 * BitStream_newFromBytes(signed int size, unsigned char *data)
 {
   unsigned char mask;
   signed int i;
   signed int j;
   unsigned char *p;
-  struct anonymous$9 *bstream;
+  struct anonymous_9 *bstream;
   bstream=BitStream_new();
-  if(bstream == ((struct anonymous$9 *)NULL))
-    return (struct anonymous$9 *)(void *)0;
+  if(bstream == ((struct anonymous_9 *)NULL))
+    return (struct anonymous_9 *)(void *)0;
 
   else
   {
-    signed int return_value_BitStream_allocate$1;
-    return_value_BitStream_allocate$1=BitStream_allocate(bstream, size * 8);
-    if(!(return_value_BitStream_allocate$1 == 0))
+    signed int return_value_BitStream_allocate_1;
+    return_value_BitStream_allocate_1=BitStream_allocate(bstream, size * 8);
+    if(!(return_value_BitStream_allocate_1 == 0))
     {
       BitStream_free(bstream);
-      return (struct anonymous$9 *)(void *)0;
+      return (struct anonymous_9 *)(void *)0;
     }
 
     else
@@ -1396,24 +1396,24 @@ static struct anonymous$9 * BitStream_newFromBytes(signed int size, unsigned cha
 
 // BitStream_newFromNum
 // file bitstream.c line 66
-static struct anonymous$9 * BitStream_newFromNum(signed int bits, unsigned int num)
+static struct anonymous_9 * BitStream_newFromNum(signed int bits, unsigned int num)
 {
   unsigned int mask;
   signed int i;
   unsigned char *p;
-  struct anonymous$9 *bstream;
+  struct anonymous_9 *bstream;
   bstream=BitStream_new();
-  if(bstream == ((struct anonymous$9 *)NULL))
-    return (struct anonymous$9 *)(void *)0;
+  if(bstream == ((struct anonymous_9 *)NULL))
+    return (struct anonymous_9 *)(void *)0;
 
   else
   {
-    signed int return_value_BitStream_allocate$1;
-    return_value_BitStream_allocate$1=BitStream_allocate(bstream, bits);
-    if(!(return_value_BitStream_allocate$1 == 0))
+    signed int return_value_BitStream_allocate_1;
+    return_value_BitStream_allocate_1=BitStream_allocate(bstream, bits);
+    if(!(return_value_BitStream_allocate_1 == 0))
     {
       BitStream_free(bstream);
-      return (struct anonymous$9 *)(void *)0;
+      return (struct anonymous_9 *)(void *)0;
     }
 
     else
@@ -1438,7 +1438,7 @@ static struct anonymous$9 * BitStream_newFromNum(signed int bits, unsigned int n
 
 // BitStream_toByte
 // file bitstream.h line 35
-extern unsigned char * BitStream_toByte(struct anonymous$9 *bstream)
+extern unsigned char * BitStream_toByte(struct anonymous_9 *bstream)
 {
   signed int i;
   signed int j;
@@ -1453,9 +1453,9 @@ extern unsigned char * BitStream_toByte(struct anonymous$9 *bstream)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)((size + 7) / 8));
-    data = (unsigned char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)((size + 7) / 8));
+    data = (unsigned char *)return_value_malloc_1;
     if(data == ((unsigned char *)NULL))
       return (unsigned char *)(void *)0;
 
@@ -1496,14 +1496,14 @@ extern unsigned char * BitStream_toByte(struct anonymous$9 *bstream)
 
 // FrameFiller_new
 // file qrencode.c line 299
-static struct anonymous$6 * FrameFiller_new(signed int width, unsigned char *frame, signed int mqr)
+static struct anonymous_6 * FrameFiller_new(signed int width, unsigned char *frame, signed int mqr)
 {
-  struct anonymous$6 *filler;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$6) /*40ul*/ );
-  filler = (struct anonymous$6 *)return_value_malloc$1;
-  if(filler == ((struct anonymous$6 *)NULL))
-    return (struct anonymous$6 *)(void *)0;
+  struct anonymous_6 *filler;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_6) /*40ul*/ );
+  filler = (struct anonymous_6 *)return_value_malloc_1;
+  if(filler == ((struct anonymous_6 *)NULL))
+    return (struct anonymous_6 *)(void *)0;
 
   else
   {
@@ -1520,7 +1520,7 @@ static struct anonymous$6 * FrameFiller_new(signed int width, unsigned char *fra
 
 // FrameFiller_next
 // file qrencode.c line 316
-static unsigned char * FrameFiller_next(struct anonymous$6 *filler)
+static unsigned char * FrameFiller_next(struct anonymous_6 *filler)
 {
   unsigned char *p;
   signed int x;
@@ -1598,9 +1598,9 @@ static unsigned char * FrameFiller_next(struct anonymous$6 *filler)
       filler->y = y;
       if(!((0x80 & (signed int)p[(signed long int)(w * y + x)]) == 0))
       {
-        unsigned char *return_value_FrameFiller_next$1;
-        return_value_FrameFiller_next$1=FrameFiller_next(filler);
-        return return_value_FrameFiller_next$1;
+        unsigned char *return_value_FrameFiller_next_1;
+        return_value_FrameFiller_next_1=FrameFiller_next(filler);
+        return return_value_FrameFiller_next_1;
       }
 
       return &p[(signed long int)(y * w + x)];
@@ -1615,7 +1615,7 @@ extern unsigned char * FrameFiller_test(signed int version)
   signed int width;
   unsigned char *frame;
   unsigned char *p;
-  struct anonymous$6 *filler;
+  struct anonymous_6 *filler;
   signed int i;
   signed int length;
   width=QRspec_getWidth(version);
@@ -1626,7 +1626,7 @@ extern unsigned char * FrameFiller_test(signed int version)
   else
   {
     filler=FrameFiller_new(width, frame, 0);
-    if(filler == ((struct anonymous$6 *)NULL))
+    if(filler == ((struct anonymous_6 *)NULL))
     {
       free((void *)frame);
       return (unsigned char *)(void *)0;
@@ -1634,13 +1634,13 @@ extern unsigned char * FrameFiller_test(signed int version)
 
     else
     {
-      signed int return_value_QRspec_getDataLength$1;
-      return_value_QRspec_getDataLength$1=QRspec_getDataLength(version, (enum anonymous$7)QR_ECLEVEL_L);
-      signed int return_value_QRspec_getECCLength$2;
-      return_value_QRspec_getECCLength$2=QRspec_getECCLength(version, (enum anonymous$7)QR_ECLEVEL_L);
-      signed int return_value_QRspec_getRemainder$3;
-      return_value_QRspec_getRemainder$3=QRspec_getRemainder(version);
-      length = return_value_QRspec_getDataLength$1 * 8 + return_value_QRspec_getECCLength$2 * 8 + return_value_QRspec_getRemainder$3;
+      signed int return_value_QRspec_getDataLength_1;
+      return_value_QRspec_getDataLength_1=QRspec_getDataLength(version, (enum anonymous_7)QR_ECLEVEL_L);
+      signed int return_value_QRspec_getECCLength_2;
+      return_value_QRspec_getECCLength_2=QRspec_getECCLength(version, (enum anonymous_7)QR_ECLEVEL_L);
+      signed int return_value_QRspec_getRemainder_3;
+      return_value_QRspec_getRemainder_3=QRspec_getRemainder(version);
+      length = return_value_QRspec_getDataLength_1 * 8 + return_value_QRspec_getECCLength_2 * 8 + return_value_QRspec_getRemainder_3;
       i = 0;
       for( ; !(i >= length); i = i + 1)
       {
@@ -1667,7 +1667,7 @@ extern unsigned char * FrameFiller_testMQR(signed int version)
   signed int width;
   unsigned char *frame;
   unsigned char *p;
-  struct anonymous$6 *filler;
+  struct anonymous_6 *filler;
   signed int i;
   signed int length;
   width=MQRspec_getWidth(version);
@@ -1678,7 +1678,7 @@ extern unsigned char * FrameFiller_testMQR(signed int version)
   else
   {
     filler=FrameFiller_new(width, frame, 1);
-    if(filler == ((struct anonymous$6 *)NULL))
+    if(filler == ((struct anonymous_6 *)NULL))
     {
       free((void *)frame);
       return (unsigned char *)(void *)0;
@@ -1686,11 +1686,11 @@ extern unsigned char * FrameFiller_testMQR(signed int version)
 
     else
     {
-      signed int return_value_MQRspec_getDataLengthBit$1;
-      return_value_MQRspec_getDataLengthBit$1=MQRspec_getDataLengthBit(version, (enum anonymous$7)QR_ECLEVEL_L);
-      signed int return_value_MQRspec_getECCLength$2;
-      return_value_MQRspec_getECCLength$2=MQRspec_getECCLength(version, (enum anonymous$7)QR_ECLEVEL_L);
-      length = return_value_MQRspec_getDataLengthBit$1 + return_value_MQRspec_getECCLength$2 * 8;
+      signed int return_value_MQRspec_getDataLengthBit_1;
+      return_value_MQRspec_getDataLengthBit_1=MQRspec_getDataLengthBit(version, (enum anonymous_7)QR_ECLEVEL_L);
+      signed int return_value_MQRspec_getECCLength_2;
+      return_value_MQRspec_getECCLength_2=MQRspec_getECCLength(version, (enum anonymous_7)QR_ECLEVEL_L);
+      length = return_value_MQRspec_getDataLengthBit_1 + return_value_MQRspec_getECCLength_2 * 8;
       i = 0;
       for( ; !(i >= length); i = i + 1)
       {
@@ -1735,28 +1735,28 @@ extern signed int MMask_evaluateSymbol(signed int width, unsigned char *frame)
 
 // MMask_makeMask
 // file mmask.h line 25
-extern unsigned char * MMask_makeMask(signed int version, unsigned char *frame, signed int mask, enum anonymous$7 level)
+extern unsigned char * MMask_makeMask(signed int version, unsigned char *frame, signed int mask, enum anonymous_7 level)
 {
   unsigned char *masked;
   signed int width;
   if(mask >= 4 || !(mask >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return (unsigned char *)(void *)0;
   }
 
   width=MQRspec_getWidth(version);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(width * width));
-  masked = (unsigned char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(width * width));
+  masked = (unsigned char *)return_value_malloc_2;
   if(masked == ((unsigned char *)NULL))
     return (unsigned char *)(void *)0;
 
   else
   {
-    maskMakers$link1[(signed long int)mask](width, frame, masked);
+    maskMakers_link1[(signed long int)mask](width, frame, masked);
     MMask_writeFormatInformation(version, width, masked, mask, level);
     return masked;
   }
@@ -1767,22 +1767,22 @@ extern unsigned char * MMask_makeMask(signed int version, unsigned char *frame, 
 extern unsigned char * MMask_makeMaskedFrame(signed int width, unsigned char *frame, signed int mask)
 {
   unsigned char *masked;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(width * width));
-  masked = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(width * width));
+  masked = (unsigned char *)return_value_malloc_1;
   if(masked == ((unsigned char *)NULL))
     return (unsigned char *)(void *)0;
 
   else
   {
-    maskMakers$link1[(signed long int)mask](width, frame, masked);
+    maskMakers_link1[(signed long int)mask](width, frame, masked);
     return masked;
   }
 }
 
 // MMask_mask
 // file mmask.h line 26
-extern unsigned char * MMask_mask(signed int version, unsigned char *frame, enum anonymous$7 level)
+extern unsigned char * MMask_mask(signed int version, unsigned char *frame, enum anonymous_7 level)
 {
   signed int i;
   unsigned char *mask;
@@ -1791,9 +1791,9 @@ extern unsigned char * MMask_mask(signed int version, unsigned char *frame, enum
   signed int score;
   signed int width;
   width=MQRspec_getWidth(version);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(width * width));
-  mask = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(width * width));
+  mask = (unsigned char *)return_value_malloc_1;
   if(mask == ((unsigned char *)NULL))
     return (unsigned char *)(void *)0;
 
@@ -1804,7 +1804,7 @@ extern unsigned char * MMask_mask(signed int version, unsigned char *frame, enum
     if(!(i >= 4))
     {
       score = 0;
-      maskMakers$link1[(signed long int)i](width, frame, mask);
+      maskMakers_link1[(signed long int)i](width, frame, mask);
       MMask_writeFormatInformation(version, width, mask, i, level);
       score=MMask_evaluateSymbol(width, mask);
       if(!(maxScore >= score))
@@ -1812,9 +1812,9 @@ extern unsigned char * MMask_mask(signed int version, unsigned char *frame, enum
         maxScore = score;
         free((void *)bestMask);
         bestMask = mask;
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc((unsigned long int)(width * width));
-        mask = (unsigned char *)return_value_malloc$2;
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc((unsigned long int)(width * width));
+        mask = (unsigned char *)return_value_malloc_2;
       }
 
       i = i + 1;
@@ -1827,7 +1827,7 @@ extern unsigned char * MMask_mask(signed int version, unsigned char *frame, enum
 
 // MMask_writeFormatInformation
 // file mmask.c line 34
-extern void MMask_writeFormatInformation(signed int version, signed int width, unsigned char *frame, signed int mask, enum anonymous$7 level)
+extern void MMask_writeFormatInformation(signed int version, signed int width, unsigned char *frame, signed int mask, enum anonymous_7 level)
 {
   unsigned int format;
   unsigned char v;
@@ -1851,9 +1851,9 @@ extern void MMask_writeFormatInformation(signed int version, signed int width, u
 
 // MQRraw_free
 // file qrencode.c line 275
-void MQRraw_free(struct anonymous$5 *raw)
+void MQRraw_free(struct anonymous_5 *raw)
 {
-  if(!(raw == ((struct anonymous$5 *)NULL)))
+  if(!(raw == ((struct anonymous_5 *)NULL)))
   {
     free((void *)raw->datacode);
     free((void *)raw->ecccode);
@@ -1865,7 +1865,7 @@ void MQRraw_free(struct anonymous$5 *raw)
 
 // MQRraw_getCode
 // file qrencode.c line 260
-unsigned char MQRraw_getCode(struct anonymous$5 *raw)
+unsigned char MQRraw_getCode(struct anonymous_5 *raw)
 {
   unsigned char ret;
   if(!(raw->count >= raw->dataLength))
@@ -1883,52 +1883,52 @@ unsigned char MQRraw_getCode(struct anonymous$5 *raw)
 
 // MQRraw_new
 // file qrencode.c line 211
-struct anonymous$5 * MQRraw_new(struct _QRinput *input)
+struct anonymous_5 * MQRraw_new(struct _QRinput *input)
 {
-  struct anonymous$5 *raw;
+  struct anonymous_5 *raw;
   struct _RS *rs;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$5) /*48ul*/ );
-  raw = (struct anonymous$5 *)return_value_malloc$1;
-  if(raw == ((struct anonymous$5 *)NULL))
-    return (struct anonymous$5 *)(void *)0;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_5) /*48ul*/ );
+  raw = (struct anonymous_5 *)return_value_malloc_1;
+  if(raw == ((struct anonymous_5 *)NULL))
+    return (struct anonymous_5 *)(void *)0;
 
   else
   {
     raw->version = input->version;
     raw->dataLength=MQRspec_getDataLength(input->version, input->level);
     raw->eccLength=MQRspec_getECCLength(input->version, input->level);
-    signed int return_value_MQRspec_getDataLengthBit$2;
-    return_value_MQRspec_getDataLengthBit$2=MQRspec_getDataLengthBit(input->version, input->level);
-    raw->oddbits = raw->dataLength * 8 - return_value_MQRspec_getDataLengthBit$2;
+    signed int return_value_MQRspec_getDataLengthBit_2;
+    return_value_MQRspec_getDataLengthBit_2=MQRspec_getDataLengthBit(input->version, input->level);
+    raw->oddbits = raw->dataLength * 8 - return_value_MQRspec_getDataLengthBit_2;
     raw->datacode=QRinput_getByteStream(input);
     if(raw->datacode == ((unsigned char *)NULL))
     {
       free((void *)raw);
-      return (struct anonymous$5 *)(void *)0;
+      return (struct anonymous_5 *)(void *)0;
     }
 
     else
     {
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc((unsigned long int)raw->eccLength);
-      raw->ecccode = (unsigned char *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc((unsigned long int)raw->eccLength);
+      raw->ecccode = (unsigned char *)return_value_malloc_3;
       if(raw->ecccode == ((unsigned char *)NULL))
       {
         free((void *)raw->datacode);
         free((void *)raw);
-        return (struct anonymous$5 *)(void *)0;
+        return (struct anonymous_5 *)(void *)0;
       }
 
       else
       {
-        void *return_value_calloc$4;
-        return_value_calloc$4=calloc((unsigned long int)1, sizeof(struct anonymous$3) /*32ul*/ );
-        raw->rsblock = (struct anonymous$3 *)return_value_calloc$4;
-        if(raw->rsblock == ((struct anonymous$3 *)NULL))
+        void *return_value_calloc_4;
+        return_value_calloc_4=calloc((unsigned long int)1, sizeof(struct anonymous_3) /*32ul*/ );
+        raw->rsblock = (struct anonymous_3 *)return_value_calloc_4;
+        if(raw->rsblock == ((struct anonymous_3 *)NULL))
         {
           MQRraw_free(raw);
-          return (struct anonymous$5 *)(void *)0;
+          return (struct anonymous_5 *)(void *)0;
         }
 
         else
@@ -1937,7 +1937,7 @@ struct anonymous$5 * MQRraw_new(struct _QRinput *input)
           if(rs == ((struct _RS *)NULL))
           {
             MQRraw_free(raw);
-            return (struct anonymous$5 *)(void *)0;
+            return (struct anonymous_5 *)(void *)0;
           }
 
           else
@@ -1957,14 +1957,14 @@ struct anonymous$5 * MQRraw_new(struct _QRinput *input)
 extern void MQRspec_clearCache(void)
 {
   signed int i;
-  pthread_mutex_lock(&frames_mutex$link1);
+  pthread_mutex_lock(&frames_mutex_link1);
   i = 1;
   for( ; !(i >= 5); i = i + 1)
   {
-    free((void *)frames$link1[(signed long int)i]);
-    frames$link1[(signed long int)i] = (unsigned char *)(void *)0;
+    free((void *)frames_link1[(signed long int)i]);
+    frames_link1[(signed long int)i] = (unsigned char *)(void *)0;
   }
-  pthread_mutex_unlock(&frames_mutex$link1);
+  pthread_mutex_unlock(&frames_mutex_link1);
 }
 
 // MQRspec_createFrame
@@ -1978,16 +1978,16 @@ static unsigned char * MQRspec_createFrame(signed int version)
   signed int x;
   signed int y;
   width = mqrspecCapacity[(signed long int)version].width;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(width * width));
-  frame = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(width * width));
+  frame = (unsigned char *)return_value_malloc_1;
   if(frame == ((unsigned char *)NULL))
     return (unsigned char *)(void *)0;
 
   else
   {
     memset((void *)frame, 0, (unsigned long int)(width * width));
-    putFinderPattern$link1(frame, width, 0, 0);
+    putFinderPattern_link1(frame, width, 0, 0);
     p = frame;
     y = 0;
     for( ; !(y >= 7); y = y + 1)
@@ -2020,16 +2020,16 @@ static unsigned char * MQRspec_createFrame(signed int version)
 
 // MQRspec_getDataLength
 // file mqrspec.h line 50
-extern signed int MQRspec_getDataLength(signed int version, enum anonymous$7 level)
+extern signed int MQRspec_getDataLength(signed int version, enum anonymous_7 level)
 {
-  signed int return_value_MQRspec_getDataLengthBit$1;
-  return_value_MQRspec_getDataLengthBit$1=MQRspec_getDataLengthBit(version, level);
-  return (return_value_MQRspec_getDataLengthBit$1 + 4) / 8;
+  signed int return_value_MQRspec_getDataLengthBit_1;
+  return_value_MQRspec_getDataLengthBit_1=MQRspec_getDataLengthBit(version, level);
+  return (return_value_MQRspec_getDataLengthBit_1 + 4) / 8;
 }
 
 // MQRspec_getDataLengthBit
 // file mqrspec.h line 42
-extern signed int MQRspec_getDataLengthBit(signed int version, enum anonymous$7 level)
+extern signed int MQRspec_getDataLengthBit(signed int version, enum anonymous_7 level)
 {
   signed int w;
   signed int ecc;
@@ -2044,14 +2044,14 @@ extern signed int MQRspec_getDataLengthBit(signed int version, enum anonymous$7 
 
 // MQRspec_getECCLength
 // file mqrspec.h line 58
-extern signed int MQRspec_getECCLength(signed int version, enum anonymous$7 level)
+extern signed int MQRspec_getECCLength(signed int version, enum anonymous_7 level)
 {
   return mqrspecCapacity[(signed long int)version].ec[(signed long int)level];
 }
 
 // MQRspec_getFormatInfo
 // file mqrspec.c line 142
-extern unsigned int MQRspec_getFormatInfo(signed int mask, signed int version, enum anonymous$7 level)
+extern unsigned int MQRspec_getFormatInfo(signed int mask, signed int version, enum anonymous_7 level)
 {
   signed int type;
   if(mask >= 4 || !(mask >= 0))
@@ -2072,7 +2072,7 @@ extern unsigned int MQRspec_getFormatInfo(signed int mask, signed int version, e
           return (unsigned int)0;
 
         else
-          return formatInfo$link1[(signed long int)mask][(signed long int)type];
+          return formatInfo_link1[(signed long int)mask][(signed long int)type];
       }
 }
 
@@ -2085,18 +2085,18 @@ extern signed int MQRspec_getWidth(signed int version)
 
 // MQRspec_lengthIndicator
 // file mqrspec.h line 92
-extern signed int MQRspec_lengthIndicator(enum anonymous$8 mode, signed int version)
+extern signed int MQRspec_lengthIndicator(enum anonymous_8 mode, signed int version)
 {
-  return lengthTableBits$link1[(signed long int)mode][(signed long int)(version - 1)];
+  return lengthTableBits_link1[(signed long int)mode][(signed long int)(version - 1)];
 }
 
 // MQRspec_maximumWords
 // file mqrspec.c line 107
-extern signed int MQRspec_maximumWords(enum anonymous$8 mode, signed int version)
+extern signed int MQRspec_maximumWords(enum anonymous_8 mode, signed int version)
 {
   signed int bits;
   signed int words;
-  bits = lengthTableBits$link1[(signed long int)mode][(signed long int)(version - 1)];
+  bits = lengthTableBits_link1[(signed long int)mode][(signed long int)(version - 1)];
   words = (1 << bits) - 1;
   if((signed int)mode == QR_MODE_KANJI)
     words = words * 2;
@@ -2115,26 +2115,26 @@ extern unsigned char * MQRspec_newFrame(signed int version)
 
   else
   {
-    pthread_mutex_lock(&frames_mutex$link1);
-    if(frames$link1[(signed long int)version] == ((unsigned char *)NULL))
-      frames$link1[(signed long int)version]=MQRspec_createFrame(version);
+    pthread_mutex_lock(&frames_mutex_link1);
+    if(frames_link1[(signed long int)version] == ((unsigned char *)NULL))
+      frames_link1[(signed long int)version]=MQRspec_createFrame(version);
 
-    pthread_mutex_unlock(&frames_mutex$link1);
-    if(frames$link1[(signed long int)version] == ((unsigned char *)NULL))
+    pthread_mutex_unlock(&frames_mutex_link1);
+    if(frames_link1[(signed long int)version] == ((unsigned char *)NULL))
       return (unsigned char *)(void *)0;
 
     else
     {
       width = mqrspecCapacity[(signed long int)version].width;
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)(width * width));
-      frame = (unsigned char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)(width * width));
+      frame = (unsigned char *)return_value_malloc_1;
       if(frame == ((unsigned char *)NULL))
         return (unsigned char *)(void *)0;
 
       else
       {
-        memcpy((void *)frame, (const void *)frames$link1[(signed long int)version], (unsigned long int)(width * width));
+        memcpy((void *)frame, (const void *)frames_link1[(signed long int)version], (unsigned long int)(width * width));
         return frame;
       }
     }
@@ -2149,8 +2149,8 @@ extern signed int Mask_calcN1N3(signed int length, signed int *runLength)
   signed int demerit = 0;
   signed int fact;
   i = 0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   for( ; !(i >= length); i = i + 1)
   {
     if(runLength[(signed long int)i] >= 5)
@@ -2172,21 +2172,21 @@ extern signed int Mask_calcN1N3(signed int length, signed int *runLength)
                 if(runLength[(signed long int)(2 + i)] == fact)
                 {
                   if(i == 3)
-                    tmp_if_expr$2 = (_Bool)1;
+                    tmp_if_expr_2 = (_Bool)1;
 
                   else
-                    tmp_if_expr$2 = runLength[(signed long int)(i - 3)] >= 4 * fact ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$2)
+                    tmp_if_expr_2 = runLength[(signed long int)(i - 3)] >= 4 * fact ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_2)
                     demerit = demerit + 40;
 
                   else
                   {
                     if(4 + i >= length)
-                      tmp_if_expr$1 = (_Bool)1;
+                      tmp_if_expr_1 = (_Bool)1;
 
                     else
-                      tmp_if_expr$1 = runLength[(signed long int)(i + 3)] >= 4 * fact ? (_Bool)1 : (_Bool)0;
-                    if(tmp_if_expr$1)
+                      tmp_if_expr_1 = runLength[(signed long int)(i + 3)] >= 4 * fact ? (_Bool)1 : (_Bool)0;
+                    if(tmp_if_expr_1)
                       demerit = demerit + 40;
 
                   }
@@ -2280,44 +2280,44 @@ extern signed int Mask_evaluateSymbol(signed int width, unsigned char *frame)
   signed int demerit = 0;
   signed int runLength[178l];
   signed int length;
-  signed int return_value_Mask_calcN2$1;
-  return_value_Mask_calcN2$1=Mask_calcN2(width, frame);
-  demerit = demerit + return_value_Mask_calcN2$1;
+  signed int return_value_Mask_calcN2_1;
+  return_value_Mask_calcN2_1=Mask_calcN2(width, frame);
+  demerit = demerit + return_value_Mask_calcN2_1;
   y = 0;
   for( ; !(y >= width); y = y + 1)
   {
     length=Mask_calcRunLength(width, frame + (signed long int)(y * width), 0, runLength);
-    signed int return_value_Mask_calcN1N3$2;
-    return_value_Mask_calcN1N3$2=Mask_calcN1N3(length, runLength);
-    demerit = demerit + return_value_Mask_calcN1N3$2;
+    signed int return_value_Mask_calcN1N3_2;
+    return_value_Mask_calcN1N3_2=Mask_calcN1N3(length, runLength);
+    demerit = demerit + return_value_Mask_calcN1N3_2;
   }
   x = 0;
   for( ; !(x >= width); x = x + 1)
   {
     length=Mask_calcRunLength(width, frame + (signed long int)x, 1, runLength);
-    signed int return_value_Mask_calcN1N3$3;
-    return_value_Mask_calcN1N3$3=Mask_calcN1N3(length, runLength);
-    demerit = demerit + return_value_Mask_calcN1N3$3;
+    signed int return_value_Mask_calcN1N3_3;
+    return_value_Mask_calcN1N3_3=Mask_calcN1N3(length, runLength);
+    demerit = demerit + return_value_Mask_calcN1N3_3;
   }
   return demerit;
 }
 
 // Mask_makeMask
 // file mask.h line 25
-extern unsigned char * Mask_makeMask(signed int width, unsigned char *frame, signed int mask, enum anonymous$7 level)
+extern unsigned char * Mask_makeMask(signed int width, unsigned char *frame, signed int mask, enum anonymous_7 level)
 {
   unsigned char *masked;
   if(mask >= 8 || !(mask >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return (unsigned char *)(void *)0;
   }
 
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(width * width));
-  masked = (unsigned char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(width * width));
+  masked = (unsigned char *)return_value_malloc_2;
   if(masked == ((unsigned char *)NULL))
     return (unsigned char *)(void *)0;
 
@@ -2334,9 +2334,9 @@ extern unsigned char * Mask_makeMask(signed int width, unsigned char *frame, sig
 extern unsigned char * Mask_makeMaskedFrame(signed int width, unsigned char *frame, signed int mask)
 {
   unsigned char *masked;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(width * width));
-  masked = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(width * width));
+  masked = (unsigned char *)return_value_malloc_1;
   if(masked == ((unsigned char *)NULL))
     return (unsigned char *)(void *)0;
 
@@ -2349,7 +2349,7 @@ extern unsigned char * Mask_makeMaskedFrame(signed int width, unsigned char *fra
 
 // Mask_mask
 // file mask.h line 26
-extern unsigned char * Mask_mask(signed int width, unsigned char *frame, enum anonymous$7 level)
+extern unsigned char * Mask_mask(signed int width, unsigned char *frame, enum anonymous_7 level)
 {
   signed int i;
   unsigned char *mask;
@@ -2359,9 +2359,9 @@ extern unsigned char * Mask_mask(signed int width, unsigned char *frame, enum an
   signed int bratio;
   signed int demerit;
   signed int w2 = width * width;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)w2);
-  mask = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)w2);
+  mask = (unsigned char *)return_value_malloc_1;
   if(mask == ((unsigned char *)NULL))
     return (unsigned char *)(void *)0;
 
@@ -2373,24 +2373,24 @@ extern unsigned char * Mask_mask(signed int width, unsigned char *frame, enum an
     {
       demerit = 0;
       blacks=maskMakers[(signed long int)i](width, frame, mask);
-      signed int return_value_Mask_writeFormatInformation$2;
-      return_value_Mask_writeFormatInformation$2=Mask_writeFormatInformation(width, mask, i, level);
-      blacks = blacks + return_value_Mask_writeFormatInformation$2;
+      signed int return_value_Mask_writeFormatInformation_2;
+      return_value_Mask_writeFormatInformation_2=Mask_writeFormatInformation(width, mask, i, level);
+      blacks = blacks + return_value_Mask_writeFormatInformation_2;
       bratio = ((200 * blacks + w2) / w2) / 2;
-      signed int return_value_abs$3;
-      return_value_abs$3=abs(bratio - 50);
-      demerit = (return_value_abs$3 / 5) * 10;
-      signed int return_value_Mask_evaluateSymbol$4;
-      return_value_Mask_evaluateSymbol$4=Mask_evaluateSymbol(width, mask);
-      demerit = demerit + return_value_Mask_evaluateSymbol$4;
+      signed int return_value_abs_3;
+      return_value_abs_3=abs(bratio - 50);
+      demerit = (return_value_abs_3 / 5) * 10;
+      signed int return_value_Mask_evaluateSymbol_4;
+      return_value_Mask_evaluateSymbol_4=Mask_evaluateSymbol(width, mask);
+      demerit = demerit + return_value_Mask_evaluateSymbol_4;
       if(!(demerit >= minDemerit))
       {
         minDemerit = demerit;
         free((void *)bestMask);
         bestMask = mask;
-        void *return_value_malloc$5;
-        return_value_malloc$5=malloc((unsigned long int)w2);
-        mask = (unsigned char *)return_value_malloc$5;
+        void *return_value_malloc_5;
+        return_value_malloc_5=malloc((unsigned long int)w2);
+        mask = (unsigned char *)return_value_malloc_5;
       }
 
       i = i + 1;
@@ -2427,24 +2427,24 @@ static signed int Mask_mask0(signed int width, const unsigned char *s, unsigned 
   return b;
 }
 
-// Mask_mask0$link1
+// Mask_mask0_link1
 // file mmask.c line 68
-static void Mask_mask0$link1(signed int width$link1, const unsigned char *s$link1, unsigned char *d$link1)
+static void Mask_mask0_link1(signed int width_link1, const unsigned char *s_link1, unsigned char *d_link1)
 {
-  signed int x$link1;
-  signed int y$link1 = 0;
-  for( ; !(y$link1 >= width$link1); y$link1 = y$link1 + 1)
+  signed int x_link1;
+  signed int y_link1 = 0;
+  for( ; !(y_link1 >= width_link1); y_link1 = y_link1 + 1)
   {
-    x$link1 = 0;
-    for( ; !(x$link1 >= width$link1); x$link1 = x$link1 + 1)
+    x_link1 = 0;
+    for( ; !(x_link1 >= width_link1); x_link1 = x_link1 + 1)
     {
-      if(!((0x80 & (signed int)*s$link1) == 0))
-        *d$link1 = *s$link1;
+      if(!((0x80 & (signed int)*s_link1) == 0))
+        *d_link1 = *s_link1;
 
       else
-        *d$link1 = (unsigned char)((signed int)*s$link1 ^ (signed int)((y$link1 & 1) == 0));
-      s$link1 = s$link1 + 1l;
-      d$link1 = d$link1 + 1l;
+        *d_link1 = (unsigned char)((signed int)*s_link1 ^ (signed int)((y_link1 & 1) == 0));
+      s_link1 = s_link1 + 1l;
+      d_link1 = d_link1 + 1l;
     }
   }
 }
@@ -2475,24 +2475,24 @@ static signed int Mask_mask1(signed int width, const unsigned char *s, unsigned 
   return b;
 }
 
-// Mask_mask1$link1
+// Mask_mask1_link1
 // file mmask.c line 73
-static void Mask_mask1$link1(signed int width$link1, const unsigned char *s$link1, unsigned char *d$link1)
+static void Mask_mask1_link1(signed int width_link1, const unsigned char *s_link1, unsigned char *d_link1)
 {
-  signed int x$link1;
-  signed int y$link1 = 0;
-  for( ; !(y$link1 >= width$link1); y$link1 = y$link1 + 1)
+  signed int x_link1;
+  signed int y_link1 = 0;
+  for( ; !(y_link1 >= width_link1); y_link1 = y_link1 + 1)
   {
-    x$link1 = 0;
-    for( ; !(x$link1 >= width$link1); x$link1 = x$link1 + 1)
+    x_link1 = 0;
+    for( ; !(x_link1 >= width_link1); x_link1 = x_link1 + 1)
     {
-      if(!((0x80 & (signed int)*s$link1) == 0))
-        *d$link1 = *s$link1;
+      if(!((0x80 & (signed int)*s_link1) == 0))
+        *d_link1 = *s_link1;
 
       else
-        *d$link1 = (unsigned char)((signed int)*s$link1 ^ (signed int)((y$link1 / 2 + x$link1 / 3 & 1) == 0));
-      s$link1 = s$link1 + 1l;
-      d$link1 = d$link1 + 1l;
+        *d_link1 = (unsigned char)((signed int)*s_link1 ^ (signed int)((y_link1 / 2 + x_link1 / 3 & 1) == 0));
+      s_link1 = s_link1 + 1l;
+      d_link1 = d_link1 + 1l;
     }
   }
 }
@@ -2523,24 +2523,24 @@ static signed int Mask_mask2(signed int width, const unsigned char *s, unsigned 
   return b;
 }
 
-// Mask_mask2$link1
+// Mask_mask2_link1
 // file mmask.c line 78
-static void Mask_mask2$link1(signed int width$link1, const unsigned char *s$link1, unsigned char *d$link1)
+static void Mask_mask2_link1(signed int width_link1, const unsigned char *s_link1, unsigned char *d_link1)
 {
-  signed int x$link1;
-  signed int y$link1 = 0;
-  for( ; !(y$link1 >= width$link1); y$link1 = y$link1 + 1)
+  signed int x_link1;
+  signed int y_link1 = 0;
+  for( ; !(y_link1 >= width_link1); y_link1 = y_link1 + 1)
   {
-    x$link1 = 0;
-    for( ; !(x$link1 >= width$link1); x$link1 = x$link1 + 1)
+    x_link1 = 0;
+    for( ; !(x_link1 >= width_link1); x_link1 = x_link1 + 1)
     {
-      if(!((0x80 & (signed int)*s$link1) == 0))
-        *d$link1 = *s$link1;
+      if(!((0x80 & (signed int)*s_link1) == 0))
+        *d_link1 = *s_link1;
 
       else
-        *d$link1 = (unsigned char)((signed int)*s$link1 ^ (signed int)(((x$link1 * y$link1 & 1) + (x$link1 * y$link1) % 3 & 1) == 0));
-      s$link1 = s$link1 + 1l;
-      d$link1 = d$link1 + 1l;
+        *d_link1 = (unsigned char)((signed int)*s_link1 ^ (signed int)(((x_link1 * y_link1 & 1) + (x_link1 * y_link1) % 3 & 1) == 0));
+      s_link1 = s_link1 + 1l;
+      d_link1 = d_link1 + 1l;
     }
   }
 }
@@ -2571,24 +2571,24 @@ static signed int Mask_mask3(signed int width, const unsigned char *s, unsigned 
   return b;
 }
 
-// Mask_mask3$link1
+// Mask_mask3_link1
 // file mmask.c line 83
-static void Mask_mask3$link1(signed int width$link1, const unsigned char *s$link1, unsigned char *d$link1)
+static void Mask_mask3_link1(signed int width_link1, const unsigned char *s_link1, unsigned char *d_link1)
 {
-  signed int x$link1;
-  signed int y$link1 = 0;
-  for( ; !(y$link1 >= width$link1); y$link1 = y$link1 + 1)
+  signed int x_link1;
+  signed int y_link1 = 0;
+  for( ; !(y_link1 >= width_link1); y_link1 = y_link1 + 1)
   {
-    x$link1 = 0;
-    for( ; !(x$link1 >= width$link1); x$link1 = x$link1 + 1)
+    x_link1 = 0;
+    for( ; !(x_link1 >= width_link1); x_link1 = x_link1 + 1)
     {
-      if(!((0x80 & (signed int)*s$link1) == 0))
-        *d$link1 = *s$link1;
+      if(!((0x80 & (signed int)*s_link1) == 0))
+        *d_link1 = *s_link1;
 
       else
-        *d$link1 = (unsigned char)((signed int)*s$link1 ^ (signed int)(((x$link1 + y$link1 & 1) + (x$link1 * y$link1) % 3 & 1) == 0));
-      s$link1 = s$link1 + 1l;
-      d$link1 = d$link1 + 1l;
+        *d_link1 = (unsigned char)((signed int)*s_link1 ^ (signed int)(((x_link1 + y_link1 & 1) + (x_link1 * y_link1) % 3 & 1) == 0));
+      s_link1 = s_link1 + 1l;
+      d_link1 = d_link1 + 1l;
     }
   }
 }
@@ -2699,7 +2699,7 @@ static signed int Mask_mask7(signed int width, const unsigned char *s, unsigned 
 
 // Mask_writeFormatInformation
 // file mask.c line 34
-extern signed int Mask_writeFormatInformation(signed int width, unsigned char *frame, signed int mask, enum anonymous$7 level)
+extern signed int Mask_writeFormatInformation(signed int width, unsigned char *frame, signed int mask, enum anonymous_7 level)
 {
   unsigned int format;
   unsigned char v;
@@ -2799,16 +2799,16 @@ static void QRcode_List_freeEntry(struct _QRcode_List *entry)
 static struct _QRcode_List * QRcode_List_newEntry(void)
 {
   struct _QRcode_List *entry;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _QRcode_List) /*16ul*/ );
-  entry = (struct _QRcode_List *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _QRcode_List) /*16ul*/ );
+  entry = (struct _QRcode_List *)return_value_malloc_1;
   if(entry == ((struct _QRcode_List *)NULL))
     return (struct _QRcode_List *)(void *)0;
 
   else
   {
     entry->next = (struct _QRcode_List *)(void *)0;
-    entry->code = (struct anonymous$1 *)(void *)0;
+    entry->code = (struct anonymous_1 *)(void *)0;
     return entry;
   }
 }
@@ -2835,35 +2835,35 @@ extern void QRcode_clearCache(void)
 
 // QRcode_encodeData
 // file qrencode.c line 710
-extern struct anonymous$1 * QRcode_encodeData(signed int size, const unsigned char *data, signed int version, enum anonymous$7 level)
+extern struct anonymous_1 * QRcode_encodeData(signed int size, const unsigned char *data, signed int version, enum anonymous_7 level)
 {
-  struct anonymous$1 *return_value_QRcode_encodeDataReal$1;
-  return_value_QRcode_encodeDataReal$1=QRcode_encodeDataReal(data, size, version, level, 0);
-  return return_value_QRcode_encodeDataReal$1;
+  struct anonymous_1 *return_value_QRcode_encodeDataReal_1;
+  return_value_QRcode_encodeDataReal_1=QRcode_encodeDataReal(data, size, version, level, 0);
+  return return_value_QRcode_encodeDataReal_1;
 }
 
 // QRcode_encodeDataMQR
 // file qrencode.c line 724
-extern struct anonymous$1 * QRcode_encodeDataMQR(signed int size, const unsigned char *data, signed int version, enum anonymous$7 level)
+extern struct anonymous_1 * QRcode_encodeDataMQR(signed int size, const unsigned char *data, signed int version, enum anonymous_7 level)
 {
-  struct anonymous$1 *return_value_QRcode_encodeDataReal$1;
-  return_value_QRcode_encodeDataReal$1=QRcode_encodeDataReal(data, size, version, level, 1);
-  return return_value_QRcode_encodeDataReal$1;
+  struct anonymous_1 *return_value_QRcode_encodeDataReal_1;
+  return_value_QRcode_encodeDataReal_1=QRcode_encodeDataReal(data, size, version, level, 1);
+  return return_value_QRcode_encodeDataReal_1;
 }
 
 // QRcode_encodeDataReal
 // file qrencode.c line 681
-static struct anonymous$1 * QRcode_encodeDataReal(const unsigned char *data, signed int length, signed int version, enum anonymous$7 level, signed int mqr)
+static struct anonymous_1 * QRcode_encodeDataReal(const unsigned char *data, signed int length, signed int version, enum anonymous_7 level, signed int mqr)
 {
   struct _QRinput *input;
-  struct anonymous$1 *code;
+  struct anonymous_1 *code;
   signed int ret;
   if(data == ((const unsigned char *)NULL) || length == 0)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
-    return (struct anonymous$1 *)(void *)0;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
+    return (struct anonymous_1 *)(void *)0;
   }
 
   if(!(mqr == 0))
@@ -2872,15 +2872,15 @@ static struct anonymous$1 * QRcode_encodeDataReal(const unsigned char *data, sig
   else
     input=QRinput_new2(version, level);
   if(input == ((struct _QRinput *)NULL))
-    return (struct anonymous$1 *)(void *)0;
+    return (struct anonymous_1 *)(void *)0;
 
   else
   {
-    ret=QRinput_append(input, (enum anonymous$8)QR_MODE_8, length, data);
+    ret=QRinput_append(input, (enum anonymous_8)QR_MODE_8, length, data);
     if(!(ret >= 0))
     {
       QRinput_free(input);
-      return (struct anonymous$1 *)(void *)0;
+      return (struct anonymous_1 *)(void *)0;
     }
 
     else
@@ -2894,33 +2894,33 @@ static struct anonymous$1 * QRcode_encodeDataReal(const unsigned char *data, sig
 
 // QRcode_encodeDataStructured
 // file qrencode.c line 884
-extern struct _QRcode_List * QRcode_encodeDataStructured(signed int size, const unsigned char *data, signed int version, enum anonymous$7 level)
+extern struct _QRcode_List * QRcode_encodeDataStructured(signed int size, const unsigned char *data, signed int version, enum anonymous_7 level)
 {
-  struct _QRcode_List *return_value_QRcode_encodeDataStructuredReal$1;
-  return_value_QRcode_encodeDataStructuredReal$1=QRcode_encodeDataStructuredReal(size, data, version, level, 1, (enum anonymous$8)QR_MODE_NUL, 0);
-  return return_value_QRcode_encodeDataStructuredReal$1;
+  struct _QRcode_List *return_value_QRcode_encodeDataStructuredReal_1;
+  return_value_QRcode_encodeDataStructuredReal_1=QRcode_encodeDataStructuredReal(size, data, version, level, 1, (enum anonymous_8)QR_MODE_NUL, 0);
+  return return_value_QRcode_encodeDataStructuredReal_1;
 }
 
 // QRcode_encodeDataStructuredReal
 // file qrencode.c line 848
-static struct _QRcode_List * QRcode_encodeDataStructuredReal(signed int size, const unsigned char *data, signed int version, enum anonymous$7 level, signed int eightbit, enum anonymous$8 hint, signed int casesensitive)
+static struct _QRcode_List * QRcode_encodeDataStructuredReal(signed int size, const unsigned char *data, signed int version, enum anonymous_7 level, signed int eightbit, enum anonymous_8 hint, signed int casesensitive)
 {
   struct _QRinput *input;
   struct _QRcode_List *codes;
   signed int ret;
   if(!(version >= 1))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return (struct _QRcode_List *)(void *)0;
   }
 
   if(eightbit == 0 && !((signed int)hint == QR_MODE_8) && !((signed int)hint == QR_MODE_KANJI))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
     return (struct _QRcode_List *)(void *)0;
   }
 
@@ -2931,7 +2931,7 @@ static struct _QRcode_List * QRcode_encodeDataStructuredReal(signed int size, co
   else
   {
     if(!(eightbit == 0))
-      ret=QRinput_append(input, (enum anonymous$8)QR_MODE_8, size, data);
+      ret=QRinput_append(input, (enum anonymous_8)QR_MODE_8, size, data);
 
     else
       ret=Split_splitStringToQRinput((char *)data, input, hint, casesensitive);
@@ -2952,20 +2952,20 @@ static struct _QRcode_List * QRcode_encodeDataStructuredReal(signed int size, co
 
 // QRcode_encodeInput
 // file qrencode.c line 629
-extern struct anonymous$1 * QRcode_encodeInput(struct _QRinput *input)
+extern struct anonymous_1 * QRcode_encodeInput(struct _QRinput *input)
 {
   if(!(input->mqr == 0))
   {
-    struct anonymous$1 *return_value_QRcode_encodeMaskMQR$1;
-    return_value_QRcode_encodeMaskMQR$1=QRcode_encodeMaskMQR(input, -1);
-    return return_value_QRcode_encodeMaskMQR$1;
+    struct anonymous_1 *return_value_QRcode_encodeMaskMQR_1;
+    return_value_QRcode_encodeMaskMQR_1=QRcode_encodeMaskMQR(input, -1);
+    return return_value_QRcode_encodeMaskMQR_1;
   }
 
   else
   {
-    struct anonymous$1 *return_value_QRcode_encodeMask$2;
-    return_value_QRcode_encodeMask$2=QRcode_encodeMask(input, -1);
-    return return_value_QRcode_encodeMask$2;
+    struct anonymous_1 *return_value_QRcode_encodeMask_2;
+    return_value_QRcode_encodeMask_2=QRcode_encodeMask(input, -1);
+    return return_value_QRcode_encodeMask_2;
   }
 }
 
@@ -2999,7 +2999,7 @@ extern struct _QRcode_List * QRcode_encodeInputStructured(struct _QRinput_Struct
       tail = tail->next;
     }
     tail->code=QRcode_encodeInput(list->input);
-    if(tail->code == ((struct anonymous$1 *)NULL))
+    if(tail->code == ((struct anonymous_1 *)NULL))
       goto ABORT;
 
   }
@@ -3031,53 +3031,53 @@ static struct _QRcode_List * QRcode_encodeInputToStructured(struct _QRinput *inp
 
 // QRcode_encodeMask
 // file qrencode.c line 463
-struct anonymous$1 * QRcode_encodeMask(struct _QRinput *input, signed int mask)
+struct anonymous_1 * QRcode_encodeMask(struct _QRinput *input, signed int mask)
 {
   signed int width;
   signed int version;
-  struct anonymous$4 *raw;
+  struct anonymous_4 *raw;
   unsigned char *frame;
   unsigned char *masked;
   unsigned char *p;
   unsigned char code;
   unsigned char bit;
-  struct anonymous$6 *filler;
+  struct anonymous_6 *filler;
   signed int i;
   signed int j;
-  struct anonymous$1 *qrcode = (struct anonymous$1 *)(void *)0;
+  struct anonymous_1 *qrcode = (struct anonymous_1 *)(void *)0;
   if(!(input->mqr == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
-    return (struct anonymous$1 *)(void *)0;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
+    return (struct anonymous_1 *)(void *)0;
   }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(input->version >= 0))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = input->version > 40 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = input->version > 40 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
-    return (struct anonymous$1 *)(void *)0;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
+    return (struct anonymous_1 *)(void *)0;
   }
 
   if((signed int)input->level >= 4)
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    *return_value___errno_location$4 = 22;
-    return (struct anonymous$1 *)(void *)0;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    *return_value___errno_location_4 = 22;
+    return (struct anonymous_1 *)(void *)0;
   }
 
   raw=QRraw_new(input);
-  if(raw == ((struct anonymous$4 *)NULL))
-    return (struct anonymous$1 *)(void *)0;
+  if(raw == ((struct anonymous_4 *)NULL))
+    return (struct anonymous_1 *)(void *)0;
 
   else
   {
@@ -3087,17 +3087,17 @@ struct anonymous$1 * QRcode_encodeMask(struct _QRinput *input, signed int mask)
     if(frame == ((unsigned char *)NULL))
     {
       QRraw_free(raw);
-      return (struct anonymous$1 *)(void *)0;
+      return (struct anonymous_1 *)(void *)0;
     }
 
     else
     {
       filler=FrameFiller_new(width, frame, 0);
-      if(filler == ((struct anonymous$6 *)NULL))
+      if(filler == ((struct anonymous_6 *)NULL))
       {
         QRraw_free(raw);
         free((void *)frame);
-        return (struct anonymous$1 *)(void *)0;
+        return (struct anonymous_1 *)(void *)0;
       }
 
       else
@@ -3119,7 +3119,7 @@ struct anonymous$1 * QRcode_encodeMask(struct _QRinput *input, signed int mask)
           }
         }
         QRraw_free(raw);
-        raw = (struct anonymous$4 *)(void *)0;
+        raw = (struct anonymous_4 *)(void *)0;
         j=QRspec_getRemainder(version);
         i = 0;
         for( ; !(i >= j); i = i + 1)
@@ -3132,9 +3132,9 @@ struct anonymous$1 * QRcode_encodeMask(struct _QRinput *input, signed int mask)
         }
         if(mask == -2)
         {
-          void *return_value_malloc$5;
-          return_value_malloc$5=malloc((unsigned long int)(width * width));
-          masked = (unsigned char *)return_value_malloc$5;
+          void *return_value_malloc_5;
+          return_value_malloc_5=malloc((unsigned long int)(width * width));
+          masked = (unsigned char *)return_value_malloc_5;
           memcpy((void *)masked, (const void *)frame, (unsigned long int)(width * width));
         }
 
@@ -3147,7 +3147,7 @@ struct anonymous$1 * QRcode_encodeMask(struct _QRinput *input, signed int mask)
         if(!(masked == ((unsigned char *)NULL)))
         {
           qrcode=QRcode_new(version, width, masked);
-          if(qrcode == ((struct anonymous$1 *)NULL))
+          if(qrcode == ((struct anonymous_1 *)NULL))
             free((void *)masked);
 
         }
@@ -3166,54 +3166,54 @@ struct anonymous$1 * QRcode_encodeMask(struct _QRinput *input, signed int mask)
 
 // QRcode_encodeMaskMQR
 // file qrencode.c line 547
-struct anonymous$1 * QRcode_encodeMaskMQR(struct _QRinput *input, signed int mask)
+struct anonymous_1 * QRcode_encodeMaskMQR(struct _QRinput *input, signed int mask)
 {
   signed int width;
   signed int version;
-  struct anonymous$5 *raw;
+  struct anonymous_5 *raw;
   unsigned char *frame;
   unsigned char *masked;
   unsigned char *p;
   unsigned char code;
   unsigned char bit;
-  struct anonymous$6 *filler;
+  struct anonymous_6 *filler;
   signed int i;
   signed int j;
-  struct anonymous$1 *qrcode = (struct anonymous$1 *)(void *)0;
+  struct anonymous_1 *qrcode = (struct anonymous_1 *)(void *)0;
   if(input->mqr == 0)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
-    return (struct anonymous$1 *)(void *)0;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
+    return (struct anonymous_1 *)(void *)0;
   }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(input->version >= 1))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = input->version > 4 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = input->version > 4 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
-    return (struct anonymous$1 *)(void *)0;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
+    return (struct anonymous_1 *)(void *)0;
   }
 
   if((signed int)input->level >= 3)
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    *return_value___errno_location$4 = 22;
-    return (struct anonymous$1 *)(void *)0;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    *return_value___errno_location_4 = 22;
+    return (struct anonymous_1 *)(void *)0;
   }
 
   raw=MQRraw_new(input);
-  _Bool tmp_if_expr$5;
-  if(raw == ((struct anonymous$5 *)NULL))
-    return (struct anonymous$1 *)(void *)0;
+  _Bool tmp_if_expr_5;
+  if(raw == ((struct anonymous_5 *)NULL))
+    return (struct anonymous_1 *)(void *)0;
 
   else
   {
@@ -3223,17 +3223,17 @@ struct anonymous$1 * QRcode_encodeMaskMQR(struct _QRinput *input, signed int mas
     if(frame == ((unsigned char *)NULL))
     {
       MQRraw_free(raw);
-      return (struct anonymous$1 *)(void *)0;
+      return (struct anonymous_1 *)(void *)0;
     }
 
     else
     {
       filler=FrameFiller_new(width, frame, 1);
-      if(filler == ((struct anonymous$6 *)NULL))
+      if(filler == ((struct anonymous_6 *)NULL))
       {
         MQRraw_free(raw);
         free((void *)frame);
-        return (struct anonymous$1 *)(void *)0;
+        return (struct anonymous_1 *)(void *)0;
       }
 
       else
@@ -3243,11 +3243,11 @@ struct anonymous$1 * QRcode_encodeMaskMQR(struct _QRinput *input, signed int mas
         {
           code=MQRraw_getCode(raw);
           if(!(raw->oddbits == 0))
-            tmp_if_expr$5 = i == raw->dataLength - 1 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = i == raw->dataLength - 1 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          if(tmp_if_expr$5)
+            tmp_if_expr_5 = (_Bool)0;
+          if(tmp_if_expr_5)
           {
             bit = (unsigned char)(1 << raw->oddbits - 1);
             j = 0;
@@ -3278,7 +3278,7 @@ struct anonymous$1 * QRcode_encodeMaskMQR(struct _QRinput *input, signed int mas
           }
         }
         MQRraw_free(raw);
-        raw = (struct anonymous$5 *)(void *)0;
+        raw = (struct anonymous_5 *)(void *)0;
         if(!(mask >= 0))
           masked=MMask_mask(version, frame, input->level);
 
@@ -3301,100 +3301,100 @@ struct anonymous$1 * QRcode_encodeMaskMQR(struct _QRinput *input, signed int mas
 
 // QRcode_encodeString
 // file ../qrencode.h line 426
-extern struct anonymous$1 * QRcode_encodeString(const char *string, signed int version, enum anonymous$7 level, enum anonymous$8 hint, signed int casesensitive)
+extern struct anonymous_1 * QRcode_encodeString(const char *string, signed int version, enum anonymous_7 level, enum anonymous_8 hint, signed int casesensitive)
 {
-  struct anonymous$1 *return_value_QRcode_encodeStringReal$1;
-  return_value_QRcode_encodeStringReal$1=QRcode_encodeStringReal(string, version, level, 0, hint, casesensitive);
-  return return_value_QRcode_encodeStringReal$1;
+  struct anonymous_1 *return_value_QRcode_encodeStringReal_1;
+  return_value_QRcode_encodeStringReal_1=QRcode_encodeStringReal(string, version, level, 0, hint, casesensitive);
+  return return_value_QRcode_encodeStringReal_1;
 }
 
 // QRcode_encodeString8bit
 // file qrencode.c line 715
-extern struct anonymous$1 * QRcode_encodeString8bit(const char *string, signed int version, enum anonymous$7 level)
+extern struct anonymous_1 * QRcode_encodeString8bit(const char *string, signed int version, enum anonymous_7 level)
 {
   if(string == ((const char *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
-    return (struct anonymous$1 *)(void *)0;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
+    return (struct anonymous_1 *)(void *)0;
   }
 
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(string);
-  struct anonymous$1 *return_value_QRcode_encodeDataReal$3;
-  return_value_QRcode_encodeDataReal$3=QRcode_encodeDataReal((unsigned char *)string, (signed int)return_value_strlen$2, version, level, 0);
-  return return_value_QRcode_encodeDataReal$3;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(string);
+  struct anonymous_1 *return_value_QRcode_encodeDataReal_3;
+  return_value_QRcode_encodeDataReal_3=QRcode_encodeDataReal((unsigned char *)string, (signed int)return_value_strlen_2, version, level, 0);
+  return return_value_QRcode_encodeDataReal_3;
 }
 
 // QRcode_encodeString8bitMQR
 // file qrencode.c line 729
-extern struct anonymous$1 * QRcode_encodeString8bitMQR(const char *string, signed int version, enum anonymous$7 level)
+extern struct anonymous_1 * QRcode_encodeString8bitMQR(const char *string, signed int version, enum anonymous_7 level)
 {
   if(string == ((const char *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
-    return (struct anonymous$1 *)(void *)0;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
+    return (struct anonymous_1 *)(void *)0;
   }
 
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(string);
-  struct anonymous$1 *return_value_QRcode_encodeDataReal$3;
-  return_value_QRcode_encodeDataReal$3=QRcode_encodeDataReal((unsigned char *)string, (signed int)return_value_strlen$2, version, level, 1);
-  return return_value_QRcode_encodeDataReal$3;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(string);
+  struct anonymous_1 *return_value_QRcode_encodeDataReal_3;
+  return_value_QRcode_encodeDataReal_3=QRcode_encodeDataReal((unsigned char *)string, (signed int)return_value_strlen_2, version, level, 1);
+  return return_value_QRcode_encodeDataReal_3;
 }
 
 // QRcode_encodeString8bitStructured
 // file qrencode.c line 888
-extern struct _QRcode_List * QRcode_encodeString8bitStructured(const char *string, signed int version, enum anonymous$7 level)
+extern struct _QRcode_List * QRcode_encodeString8bitStructured(const char *string, signed int version, enum anonymous_7 level)
 {
   if(string == ((const char *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return (struct _QRcode_List *)(void *)0;
   }
 
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(string);
-  struct _QRcode_List *return_value_QRcode_encodeDataStructured$3;
-  return_value_QRcode_encodeDataStructured$3=QRcode_encodeDataStructured((signed int)return_value_strlen$2, (unsigned char *)string, version, level);
-  return return_value_QRcode_encodeDataStructured$3;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(string);
+  struct _QRcode_List *return_value_QRcode_encodeDataStructured_3;
+  return_value_QRcode_encodeDataStructured_3=QRcode_encodeDataStructured((signed int)return_value_strlen_2, (unsigned char *)string, version, level);
+  return return_value_QRcode_encodeDataStructured_3;
 }
 
 // QRcode_encodeStringMQR
 // file qrencode.c line 676
-extern struct anonymous$1 * QRcode_encodeStringMQR(const char *string, signed int version, enum anonymous$7 level, enum anonymous$8 hint, signed int casesensitive)
+extern struct anonymous_1 * QRcode_encodeStringMQR(const char *string, signed int version, enum anonymous_7 level, enum anonymous_8 hint, signed int casesensitive)
 {
-  struct anonymous$1 *return_value_QRcode_encodeStringReal$1;
-  return_value_QRcode_encodeStringReal$1=QRcode_encodeStringReal(string, version, level, 1, hint, casesensitive);
-  return return_value_QRcode_encodeStringReal$1;
+  struct anonymous_1 *return_value_QRcode_encodeStringReal_1;
+  return_value_QRcode_encodeStringReal_1=QRcode_encodeStringReal(string, version, level, 1, hint, casesensitive);
+  return return_value_QRcode_encodeStringReal_1;
 }
 
 // QRcode_encodeStringReal
 // file qrencode.c line 638
-static struct anonymous$1 * QRcode_encodeStringReal(const char *string, signed int version, enum anonymous$7 level, signed int mqr, enum anonymous$8 hint, signed int casesensitive)
+static struct anonymous_1 * QRcode_encodeStringReal(const char *string, signed int version, enum anonymous_7 level, signed int mqr, enum anonymous_8 hint, signed int casesensitive)
 {
   struct _QRinput *input;
-  struct anonymous$1 *code;
+  struct anonymous_1 *code;
   signed int ret;
   if(string == ((const char *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
-    return (struct anonymous$1 *)(void *)0;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
+    return (struct anonymous_1 *)(void *)0;
   }
 
   if(!((signed int)hint == QR_MODE_8) && !((signed int)hint == QR_MODE_KANJI))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
-    return (struct anonymous$1 *)(void *)0;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
+    return (struct anonymous_1 *)(void *)0;
   }
 
   if(!(mqr == 0))
@@ -3403,7 +3403,7 @@ static struct anonymous$1 * QRcode_encodeStringReal(const char *string, signed i
   else
     input=QRinput_new2(version, level);
   if(input == ((struct _QRinput *)NULL))
-    return (struct anonymous$1 *)(void *)0;
+    return (struct anonymous_1 *)(void *)0;
 
   else
   {
@@ -3411,7 +3411,7 @@ static struct anonymous$1 * QRcode_encodeStringReal(const char *string, signed i
     if(!(ret >= 0))
     {
       QRinput_free(input);
-      return (struct anonymous$1 *)(void *)0;
+      return (struct anonymous_1 *)(void *)0;
     }
 
     else
@@ -3425,28 +3425,28 @@ static struct anonymous$1 * QRcode_encodeStringReal(const char *string, signed i
 
 // QRcode_encodeStringStructured
 // file qrencode.c line 896
-extern struct _QRcode_List * QRcode_encodeStringStructured(const char *string, signed int version, enum anonymous$7 level, enum anonymous$8 hint, signed int casesensitive)
+extern struct _QRcode_List * QRcode_encodeStringStructured(const char *string, signed int version, enum anonymous_7 level, enum anonymous_8 hint, signed int casesensitive)
 {
   if(string == ((const char *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return (struct _QRcode_List *)(void *)0;
   }
 
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(string);
-  struct _QRcode_List *return_value_QRcode_encodeDataStructuredReal$3;
-  return_value_QRcode_encodeDataStructuredReal$3=QRcode_encodeDataStructuredReal((signed int)return_value_strlen$2, (unsigned char *)string, version, level, 0, hint, casesensitive);
-  return return_value_QRcode_encodeDataStructuredReal$3;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(string);
+  struct _QRcode_List *return_value_QRcode_encodeDataStructuredReal_3;
+  return_value_QRcode_encodeDataStructuredReal_3=QRcode_encodeDataStructuredReal((signed int)return_value_strlen_2, (unsigned char *)string, version, level, 0, hint, casesensitive);
+  return return_value_QRcode_encodeDataStructuredReal_3;
 }
 
 // QRcode_free
 // file ../qrencode.h line 470
-extern void QRcode_free(struct anonymous$1 *qrcode)
+extern void QRcode_free(struct anonymous_1 *qrcode)
 {
-  if(!(qrcode == ((struct anonymous$1 *)NULL)))
+  if(!(qrcode == ((struct anonymous_1 *)NULL)))
   {
     free((void *)qrcode->data);
     free((void *)qrcode);
@@ -3456,14 +3456,14 @@ extern void QRcode_free(struct anonymous$1 *qrcode)
 
 // QRcode_new
 // file qrencode.c line 441
-struct anonymous$1 * QRcode_new(signed int version, signed int width, unsigned char *data)
+struct anonymous_1 * QRcode_new(signed int version, signed int width, unsigned char *data)
 {
-  struct anonymous$1 *qrcode;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$1) /*16ul*/ );
-  qrcode = (struct anonymous$1 *)return_value_malloc$1;
-  if(qrcode == ((struct anonymous$1 *)NULL))
-    return (struct anonymous$1 *)(void *)0;
+  struct anonymous_1 *qrcode;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_1) /*16ul*/ );
+  qrcode = (struct anonymous_1 *)return_value_malloc_1;
+  if(qrcode == ((struct anonymous_1 *)NULL))
+    return (struct anonymous_1 *)(void *)0;
 
   else
   {
@@ -3491,9 +3491,9 @@ static void QRinput_InputList_freeEntry(struct _QRinput_InputList *entry)
 static struct _QRinput_InputList * QRinput_InputList_newEntry(struct _QRinput *input)
 {
   struct _QRinput_InputList *entry;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _QRinput_InputList) /*16ul*/ );
-  entry = (struct _QRinput_InputList *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _QRinput_InputList) /*16ul*/ );
+  entry = (struct _QRinput_InputList *)return_value_malloc_1;
   if(entry == ((struct _QRinput_InputList *)NULL))
     return (struct _QRinput_InputList *)(void *)0;
 
@@ -3510,9 +3510,9 @@ static struct _QRinput_InputList * QRinput_InputList_newEntry(struct _QRinput *i
 static struct _QRinput_List * QRinput_List_dup(struct _QRinput_List *entry)
 {
   struct _QRinput_List *n;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _QRinput_List) /*32ul*/ );
-  n = (struct _QRinput_List *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _QRinput_List) /*32ul*/ );
+  n = (struct _QRinput_List *)return_value_malloc_1;
   if(n == ((struct _QRinput_List *)NULL))
     return (struct _QRinput_List *)(void *)0;
 
@@ -3520,9 +3520,9 @@ static struct _QRinput_List * QRinput_List_dup(struct _QRinput_List *entry)
   {
     n->mode = entry->mode;
     n->size = entry->size;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)n->size);
-    n->data = (unsigned char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)n->size);
+    n->data = (unsigned char *)return_value_malloc_2;
     if(n->data == ((unsigned char *)NULL))
     {
       free((void *)n);
@@ -3532,7 +3532,7 @@ static struct _QRinput_List * QRinput_List_dup(struct _QRinput_List *entry)
     else
     {
       memcpy((void *)n->data, (const void *)entry->data, (unsigned long int)entry->size);
-      n->bstream = (struct anonymous$9 *)(void *)0;
+      n->bstream = (struct anonymous_9 *)(void *)0;
       n->next = (struct _QRinput_List *)(void *)0;
       return n;
     }
@@ -3554,22 +3554,22 @@ static void QRinput_List_freeEntry(struct _QRinput_List *entry)
 
 // QRinput_List_newEntry
 // file qrinput.c line 48
-static struct _QRinput_List * QRinput_List_newEntry(enum anonymous$8 mode, signed int size, const unsigned char *data)
+static struct _QRinput_List * QRinput_List_newEntry(enum anonymous_8 mode, signed int size, const unsigned char *data)
 {
   struct _QRinput_List *entry;
-  signed int return_value_QRinput_check$2;
-  return_value_QRinput_check$2=QRinput_check(mode, size, data);
-  if(!(return_value_QRinput_check$2 == 0))
+  signed int return_value_QRinput_check_2;
+  return_value_QRinput_check_2=QRinput_check(mode, size, data);
+  if(!(return_value_QRinput_check_2 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return (struct _QRinput_List *)(void *)0;
   }
 
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(struct _QRinput_List) /*32ul*/ );
-  entry = (struct _QRinput_List *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(struct _QRinput_List) /*32ul*/ );
+  entry = (struct _QRinput_List *)return_value_malloc_3;
   if(entry == ((struct _QRinput_List *)NULL))
     return (struct _QRinput_List *)(void *)0;
 
@@ -3579,9 +3579,9 @@ static struct _QRinput_List * QRinput_List_newEntry(enum anonymous$8 mode, signe
     entry->size = size;
     if(size >= 1)
     {
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc((unsigned long int)size);
-      entry->data = (unsigned char *)return_value_malloc$4;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc((unsigned long int)size);
+      entry->data = (unsigned char *)return_value_malloc_4;
       if(entry->data == ((unsigned char *)NULL))
       {
         free((void *)entry);
@@ -3591,7 +3591,7 @@ static struct _QRinput_List * QRinput_List_newEntry(enum anonymous$8 mode, signe
       memcpy((void *)entry->data, (const void *)data, (unsigned long int)size);
     }
 
-    entry->bstream = (struct anonymous$9 *)(void *)0;
+    entry->bstream = (struct anonymous_9 *)(void *)0;
     entry->next = (struct _QRinput_List *)(void *)0;
     return entry;
   }
@@ -3602,9 +3602,9 @@ static struct _QRinput_List * QRinput_List_newEntry(enum anonymous$8 mode, signe
 static signed int QRinput_List_shrinkEntry(struct _QRinput_List *entry, signed int bytes)
 {
   unsigned char *data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)bytes);
-  data = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)bytes);
+  data = (unsigned char *)return_value_malloc_1;
   if(data == ((unsigned char *)NULL))
     return -1;
 
@@ -3625,9 +3625,9 @@ extern signed int QRinput_Struct_appendInput(struct _QRinput_Struct *s, struct _
   struct _QRinput_InputList *e;
   if(!(input->mqr == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -3662,9 +3662,9 @@ static unsigned char QRinput_Struct_calcParity(struct _QRinput_Struct *s)
   list = s->head;
   while(!(list == ((struct _QRinput_InputList *)NULL)))
   {
-    unsigned char return_value_QRinput_calcParity$1;
-    return_value_QRinput_calcParity$1=QRinput_calcParity(list->input);
-    parity = parity ^ return_value_QRinput_calcParity$1;
+    unsigned char return_value_QRinput_calcParity_1;
+    return_value_QRinput_calcParity_1=QRinput_calcParity(list->input);
+    parity = parity ^ return_value_QRinput_calcParity_1;
     list = list->next;
   }
   QRinput_Struct_setParity(s, parity);
@@ -3708,9 +3708,9 @@ extern signed int QRinput_Struct_insertStructuredAppendHeaders(struct _QRinput_S
     list = s->head;
     while(!(list == ((struct _QRinput_InputList *)NULL)))
     {
-      signed int return_value_QRinput_insertStructuredAppendHeader$1;
-      return_value_QRinput_insertStructuredAppendHeader$1=QRinput_insertStructuredAppendHeader(list->input, s->size, i, (unsigned char)s->parity);
-      if(!(return_value_QRinput_insertStructuredAppendHeader$1 == 0))
+      signed int return_value_QRinput_insertStructuredAppendHeader_1;
+      return_value_QRinput_insertStructuredAppendHeader_1=QRinput_insertStructuredAppendHeader(list->input, s->size, i, (unsigned char)s->parity);
+      if(!(return_value_QRinput_insertStructuredAppendHeader_1 == 0))
         return -1;
 
       i = i + 1;
@@ -3725,9 +3725,9 @@ extern signed int QRinput_Struct_insertStructuredAppendHeaders(struct _QRinput_S
 extern struct _QRinput_Struct * QRinput_Struct_new(void)
 {
   struct _QRinput_Struct *s;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _QRinput_Struct) /*24ul*/ );
-  s = (struct _QRinput_Struct *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _QRinput_Struct) /*24ul*/ );
+  s = (struct _QRinput_Struct *)return_value_malloc_1;
   if(s == ((struct _QRinput_Struct *)NULL))
     return (struct _QRinput_Struct *)(void *)0;
 
@@ -3750,7 +3750,7 @@ extern void QRinput_Struct_setParity(struct _QRinput_Struct *s, unsigned char pa
 
 // QRinput_append
 // file qrencode.h line 200
-extern signed int QRinput_append(struct _QRinput *input, enum anonymous$8 mode, signed int size, const unsigned char *data)
+extern signed int QRinput_append(struct _QRinput *input, enum anonymous_8 mode, signed int size, const unsigned char *data)
 {
   struct _QRinput_List *entry;
   entry=QRinput_List_newEntry(mode, size, data);
@@ -3771,9 +3771,9 @@ extern signed int QRinput_appendECIheader(struct _QRinput *input, unsigned int e
   unsigned char data[4l];
   if(ecinum >= 1000000u)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -3781,9 +3781,9 @@ extern signed int QRinput_appendECIheader(struct _QRinput *input, unsigned int e
   data[(signed long int)1] = (unsigned char)(ecinum >> 8 & (unsigned int)0xff);
   data[(signed long int)2] = (unsigned char)(ecinum >> 16 & (unsigned int)0xff);
   data[(signed long int)3] = (unsigned char)(ecinum >> 24 & (unsigned int)0xff);
-  signed int return_value_QRinput_append$2;
-  return_value_QRinput_append$2=QRinput_append(input, (enum anonymous$8)QR_MODE_ECI, 4, data);
-  return return_value_QRinput_append$2;
+  signed int return_value_QRinput_append_2;
+  return_value_QRinput_append_2=QRinput_append(input, (enum anonymous_8)QR_MODE_ECI, 4, data);
+  return return_value_QRinput_append_2;
 }
 
 // QRinput_appendEntry
@@ -3806,7 +3806,7 @@ static void QRinput_appendEntry(struct _QRinput *input, struct _QRinput_List *en
 
 // QRinput_appendPaddingBit
 // file qrinput.c line 1191
-static signed int QRinput_appendPaddingBit(struct anonymous$9 *bstream, struct _QRinput *input)
+static signed int QRinput_appendPaddingBit(struct anonymous_9 *bstream, struct _QRinput *input)
 {
   signed int bits;
   signed int maxbits;
@@ -3814,7 +3814,7 @@ static signed int QRinput_appendPaddingBit(struct anonymous$9 *bstream, struct _
   signed int maxwords;
   signed int i;
   signed int ret;
-  struct anonymous$9 *padding = (struct anonymous$9 *)(void *)0;
+  struct anonymous_9 *padding = (struct anonymous_9 *)(void *)0;
   unsigned char *padbuf;
   signed int padlen;
   bits = bstream->length;
@@ -3822,9 +3822,9 @@ static signed int QRinput_appendPaddingBit(struct anonymous$9 *bstream, struct _
   maxbits = maxwords * 8;
   if(!(maxbits >= bits))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 34;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 34;
     return -1;
   }
 
@@ -3840,7 +3840,7 @@ static signed int QRinput_appendPaddingBit(struct anonymous$9 *bstream, struct _
     {
       words = (bits + 4 + 7) / 8;
       padding=BitStream_new();
-      if(padding == ((struct anonymous$9 *)NULL))
+      if(padding == ((struct anonymous_9 *)NULL))
         return -1;
 
       ret=BitStream_appendNum(padding, words * 8 - bits, (unsigned int)0);
@@ -3849,9 +3849,9 @@ static signed int QRinput_appendPaddingBit(struct anonymous$9 *bstream, struct _
         padlen = maxwords - words;
         if(padlen >= 1)
         {
-          void *return_value_malloc$2;
-          return_value_malloc$2=malloc((unsigned long int)padlen);
-          padbuf = (unsigned char *)return_value_malloc$2;
+          void *return_value_malloc_2;
+          return_value_malloc_2=malloc((unsigned long int)padlen);
+          padbuf = (unsigned char *)return_value_malloc_2;
           if(padbuf == ((unsigned char *)NULL))
           {
             ret = -1;
@@ -3882,7 +3882,7 @@ static signed int QRinput_appendPaddingBit(struct anonymous$9 *bstream, struct _
 
 // QRinput_appendPaddingBitMQR
 // file qrinput.c line 1256
-static signed int QRinput_appendPaddingBitMQR(struct anonymous$9 *bstream, struct _QRinput *input)
+static signed int QRinput_appendPaddingBitMQR(struct anonymous_9 *bstream, struct _QRinput *input)
 {
   signed int bits;
   signed int maxbits;
@@ -3891,7 +3891,7 @@ static signed int QRinput_appendPaddingBitMQR(struct anonymous$9 *bstream, struc
   signed int i;
   signed int ret;
   signed int termbits;
-  struct anonymous$9 *padding = (struct anonymous$9 *)(void *)0;
+  struct anonymous_9 *padding = (struct anonymous_9 *)(void *)0;
   unsigned char *padbuf;
   signed int padlen;
   bits = bstream->length;
@@ -3899,9 +3899,9 @@ static signed int QRinput_appendPaddingBitMQR(struct anonymous$9 *bstream, struc
   maxwords = maxbits / 8;
   if(!(maxbits >= bits))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 34;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 34;
     return -1;
   }
 
@@ -3929,7 +3929,7 @@ static signed int QRinput_appendPaddingBitMQR(struct anonymous$9 *bstream, struc
       else
         termbits = termbits + (words * 8 - bits);
       padding=BitStream_new();
-      if(padding == ((struct anonymous$9 *)NULL))
+      if(padding == ((struct anonymous_9 *)NULL))
         return -1;
 
       ret=BitStream_appendNum(padding, termbits, (unsigned int)0);
@@ -3938,9 +3938,9 @@ static signed int QRinput_appendPaddingBitMQR(struct anonymous$9 *bstream, struc
         padlen = maxwords - words;
         if(padlen >= 1)
         {
-          void *return_value_malloc$2;
-          return_value_malloc$2=malloc((unsigned long int)padlen);
-          padbuf = (unsigned char *)return_value_malloc$2;
+          void *return_value_malloc_2;
+          return_value_malloc_2=malloc((unsigned long int)padlen);
+          padbuf = (unsigned char *)return_value_malloc_2;
           if(padbuf == ((unsigned char *)NULL))
           {
             ret = -1;
@@ -3999,12 +3999,12 @@ static unsigned char QRinput_calcParity(struct _QRinput *input)
 
 // QRinput_check
 // file qrinput.c line 864
-extern signed int QRinput_check(enum anonymous$8 mode, signed int size, const unsigned char *data)
+extern signed int QRinput_check(enum anonymous_8 mode, signed int size, const unsigned char *data)
 {
-  signed int return_value_QRinput_checkModeNum$1;
-  signed int return_value_QRinput_checkModeAn$2;
-  signed int return_value_QRinput_checkModeKanji$3;
-  signed int return_value_QRinput_checkModeFNC1Second$4;
+  signed int return_value_QRinput_checkModeNum_1;
+  signed int return_value_QRinput_checkModeAn_2;
+  signed int return_value_QRinput_checkModeKanji_3;
+  signed int return_value_QRinput_checkModeFNC1Second_4;
   if((signed int)mode == QR_MODE_FNC1FIRST && !(size >= 0) || !(size >= 1))
     return -1;
 
@@ -4013,18 +4013,18 @@ extern signed int QRinput_check(enum anonymous$8 mode, signed int size, const un
     {
       case QR_MODE_NUM:
       {
-        return_value_QRinput_checkModeNum$1=QRinput_checkModeNum(size, (const char *)data);
-        return return_value_QRinput_checkModeNum$1;
+        return_value_QRinput_checkModeNum_1=QRinput_checkModeNum(size, (const char *)data);
+        return return_value_QRinput_checkModeNum_1;
       }
       case QR_MODE_AN:
       {
-        return_value_QRinput_checkModeAn$2=QRinput_checkModeAn(size, (const char *)data);
-        return return_value_QRinput_checkModeAn$2;
+        return_value_QRinput_checkModeAn_2=QRinput_checkModeAn(size, (const char *)data);
+        return return_value_QRinput_checkModeAn_2;
       }
       case QR_MODE_KANJI:
       {
-        return_value_QRinput_checkModeKanji$3=QRinput_checkModeKanji(size, data);
-        return return_value_QRinput_checkModeKanji$3;
+        return_value_QRinput_checkModeKanji_3=QRinput_checkModeKanji(size, data);
+        return return_value_QRinput_checkModeKanji_3;
       }
       case QR_MODE_8:
         return 0;
@@ -4036,8 +4036,8 @@ extern signed int QRinput_check(enum anonymous$8 mode, signed int size, const un
         return 0;
       case QR_MODE_FNC1SECOND:
       {
-        return_value_QRinput_checkModeFNC1Second$4=QRinput_checkModeFNC1Second(size, data);
-        return return_value_QRinput_checkModeFNC1Second$4;
+        return_value_QRinput_checkModeFNC1Second_4=QRinput_checkModeFNC1Second(size, data);
+        return return_value_QRinput_checkModeFNC1Second_4;
       }
       case QR_MODE_NUL:
         ;
@@ -4051,15 +4051,15 @@ extern signed int QRinput_check(enum anonymous$8 mode, signed int size, const un
 static signed int QRinput_checkModeAn(signed int size, const char *data)
 {
   signed int i = 0;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   for( ; !(i >= size); i = i + 1)
   {
     if(!((0x80 & (signed int)data[(signed long int)i]) == 0))
-      tmp_if_expr$1 = -1;
+      tmp_if_expr_1 = -1;
 
     else
-      tmp_if_expr$1 = (signed int)QRinput_anTable[(signed long int)(signed int)data[(signed long int)i]];
-    if(!(tmp_if_expr$1 >= 0))
+      tmp_if_expr_1 = (signed int)QRinput_anTable[(signed long int)(signed int)data[(signed long int)i]];
+    if(!(tmp_if_expr_1 >= 0))
       return -1;
 
   }
@@ -4105,15 +4105,15 @@ static signed int QRinput_checkModeKanji(signed int size, const unsigned char *d
 static signed int QRinput_checkModeNum(signed int size, const char *data)
 {
   signed int i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(i >= size); i = i + 1)
   {
     if(!((signed int)data[(signed long int)i] >= 48))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)data[(signed long int)i] > 57 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)data[(signed long int)i] > 57 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return -1;
 
   }
@@ -4127,12 +4127,12 @@ static signed int QRinput_convertData(struct _QRinput *input)
   signed int bits;
   signed int ver;
   ver=QRinput_estimateVersion(input);
-  signed int return_value_QRinput_getVersion$1;
-  return_value_QRinput_getVersion$1=QRinput_getVersion(input);
-  if(!(return_value_QRinput_getVersion$1 >= ver))
+  signed int return_value_QRinput_getVersion_1;
+  return_value_QRinput_getVersion_1=QRinput_getVersion(input);
+  if(!(return_value_QRinput_getVersion_1 >= ver))
     QRinput_setVersion(input, ver);
 
-  signed int return_value_QRinput_getVersion$3;
+  signed int return_value_QRinput_getVersion_3;
   do
   {
     bits=QRinput_createBitStream(input);
@@ -4142,16 +4142,16 @@ static signed int QRinput_convertData(struct _QRinput *input)
     ver=QRspec_getMinimumVersion((bits + 7) / 8, input->level);
     if(!(ver >= 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 34;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 34;
       return -1;
     }
 
     else
     {
-      return_value_QRinput_getVersion$3=QRinput_getVersion(input);
-      if(!(return_value_QRinput_getVersion$3 >= ver))
+      return_value_QRinput_getVersion_3=QRinput_getVersion(input);
+      if(!(return_value_QRinput_getVersion_3 >= ver))
         QRinput_setVersion(input, ver);
 
       else
@@ -4237,20 +4237,20 @@ static signed int QRinput_encodeBitStream(struct _QRinput_List *entry, signed in
   signed int ret;
   struct _QRinput_List *st1 = (struct _QRinput_List *)(void *)0;
   struct _QRinput_List *st2 = (struct _QRinput_List *)(void *)0;
-  if(!(entry->bstream == ((struct anonymous$9 *)NULL)))
+  if(!(entry->bstream == ((struct anonymous_9 *)NULL)))
   {
     BitStream_free(entry->bstream);
-    entry->bstream = (struct anonymous$9 *)(void *)0;
+    entry->bstream = (struct anonymous_9 *)(void *)0;
   }
 
   words=QRspec_maximumWords(entry->mode, version);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(words == 0))
-    tmp_if_expr$1 = entry->size > words ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = entry->size > words ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     st1=QRinput_List_newEntry(entry->mode, words, entry->data);
     if(st1 == ((struct _QRinput_List *)NULL))
@@ -4269,7 +4269,7 @@ static signed int QRinput_encodeBitStream(struct _QRinput_List *entry, signed in
       goto ABORT;
 
     entry->bstream=BitStream_new();
-    if(entry->bstream == ((struct anonymous$9 *)NULL))
+    if(entry->bstream == ((struct anonymous_9 *)NULL))
       goto ABORT;
 
     ret=BitStream_append(entry->bstream, st1->bstream);
@@ -4341,7 +4341,7 @@ static signed int QRinput_encodeMode8(struct _QRinput_List *entry, signed int ve
 {
   signed int ret;
   entry->bstream=BitStream_new();
-  if(entry->bstream == ((struct anonymous$9 *)NULL))
+  if(entry->bstream == ((struct anonymous_9 *)NULL))
     return -1;
 
   else
@@ -4350,9 +4350,9 @@ static signed int QRinput_encodeMode8(struct _QRinput_List *entry, signed int ve
     {
       if(!(version >= 3))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = 22;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = 22;
         goto ABORT;
       }
 
@@ -4360,9 +4360,9 @@ static signed int QRinput_encodeMode8(struct _QRinput_List *entry, signed int ve
       if(!(ret >= 0))
         goto ABORT;
 
-      signed int return_value_MQRspec_lengthIndicator$2;
-      return_value_MQRspec_lengthIndicator$2=MQRspec_lengthIndicator((enum anonymous$8)QR_MODE_8, version);
-      ret=BitStream_appendNum(entry->bstream, return_value_MQRspec_lengthIndicator$2, (unsigned int)entry->size);
+      signed int return_value_MQRspec_lengthIndicator_2;
+      return_value_MQRspec_lengthIndicator_2=MQRspec_lengthIndicator((enum anonymous_8)QR_MODE_8, version);
+      ret=BitStream_appendNum(entry->bstream, return_value_MQRspec_lengthIndicator_2, (unsigned int)entry->size);
       if(!(ret >= 0))
         goto ABORT;
 
@@ -4374,9 +4374,9 @@ static signed int QRinput_encodeMode8(struct _QRinput_List *entry, signed int ve
       if(!(ret >= 0))
         goto ABORT;
 
-      signed int return_value_QRspec_lengthIndicator$3;
-      return_value_QRspec_lengthIndicator$3=QRspec_lengthIndicator((enum anonymous$8)QR_MODE_8, version);
-      ret=BitStream_appendNum(entry->bstream, return_value_QRspec_lengthIndicator$3, (unsigned int)entry->size);
+      signed int return_value_QRspec_lengthIndicator_3;
+      return_value_QRspec_lengthIndicator_3=QRspec_lengthIndicator((enum anonymous_8)QR_MODE_8, version);
+      ret=BitStream_appendNum(entry->bstream, return_value_QRspec_lengthIndicator_3, (unsigned int)entry->size);
       if(!(ret >= 0))
         goto ABORT;
 
@@ -4391,7 +4391,7 @@ static signed int QRinput_encodeMode8(struct _QRinput_List *entry, signed int ve
     ABORT:
       ;
       BitStream_free(entry->bstream);
-      entry->bstream = (struct anonymous$9 *)(void *)0;
+      entry->bstream = (struct anonymous_9 *)(void *)0;
       return -1;
     }
   }
@@ -4406,10 +4406,10 @@ static signed int QRinput_encodeModeAn(struct _QRinput_List *entry, signed int v
   signed int ret;
   unsigned int val;
   entry->bstream=BitStream_new();
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$5;
-  signed int tmp_if_expr$6;
-  if(entry->bstream == ((struct anonymous$9 *)NULL))
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_5;
+  signed int tmp_if_expr_6;
+  if(entry->bstream == ((struct anonymous_9 *)NULL))
     return -1;
 
   else
@@ -4418,9 +4418,9 @@ static signed int QRinput_encodeModeAn(struct _QRinput_List *entry, signed int v
     {
       if(!(version >= 2))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = 22;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = 22;
         goto ABORT;
       }
 
@@ -4428,9 +4428,9 @@ static signed int QRinput_encodeModeAn(struct _QRinput_List *entry, signed int v
       if(!(ret >= 0))
         goto ABORT;
 
-      signed int return_value_MQRspec_lengthIndicator$2;
-      return_value_MQRspec_lengthIndicator$2=MQRspec_lengthIndicator((enum anonymous$8)QR_MODE_AN, version);
-      ret=BitStream_appendNum(entry->bstream, return_value_MQRspec_lengthIndicator$2, (unsigned int)entry->size);
+      signed int return_value_MQRspec_lengthIndicator_2;
+      return_value_MQRspec_lengthIndicator_2=MQRspec_lengthIndicator((enum anonymous_8)QR_MODE_AN, version);
+      ret=BitStream_appendNum(entry->bstream, return_value_MQRspec_lengthIndicator_2, (unsigned int)entry->size);
       if(!(ret >= 0))
         goto ABORT;
 
@@ -4442,9 +4442,9 @@ static signed int QRinput_encodeModeAn(struct _QRinput_List *entry, signed int v
       if(!(ret >= 0))
         goto ABORT;
 
-      signed int return_value_QRspec_lengthIndicator$3;
-      return_value_QRspec_lengthIndicator$3=QRspec_lengthIndicator((enum anonymous$8)QR_MODE_AN, version);
-      ret=BitStream_appendNum(entry->bstream, return_value_QRspec_lengthIndicator$3, (unsigned int)entry->size);
+      signed int return_value_QRspec_lengthIndicator_3;
+      return_value_QRspec_lengthIndicator_3=QRspec_lengthIndicator((enum anonymous_8)QR_MODE_AN, version);
+      ret=BitStream_appendNum(entry->bstream, return_value_QRspec_lengthIndicator_3, (unsigned int)entry->size);
       if(!(ret >= 0))
         goto ABORT;
 
@@ -4454,17 +4454,17 @@ static signed int QRinput_encodeModeAn(struct _QRinput_List *entry, signed int v
     for( ; !(i >= words); i = i + 1)
     {
       if(!((0x80 & (signed int)entry->data[(signed long int)(2 * i)]) == 0))
-        tmp_if_expr$4 = -1;
+        tmp_if_expr_4 = -1;
 
       else
-        tmp_if_expr$4 = (signed int)QRinput_anTable[(signed long int)(signed int)entry->data[(signed long int)(i * 2)]];
-      val = (unsigned int)tmp_if_expr$4 * (unsigned int)45;
+        tmp_if_expr_4 = (signed int)QRinput_anTable[(signed long int)(signed int)entry->data[(signed long int)(i * 2)]];
+      val = (unsigned int)tmp_if_expr_4 * (unsigned int)45;
       if(!((0x80 & (signed int)entry->data[(signed long int)(2 * i + 1)]) == 0))
-        tmp_if_expr$5 = -1;
+        tmp_if_expr_5 = -1;
 
       else
-        tmp_if_expr$5 = (signed int)QRinput_anTable[(signed long int)(signed int)entry->data[(signed long int)(i * 2 + 1)]];
-      val = val + (unsigned int)tmp_if_expr$5;
+        tmp_if_expr_5 = (signed int)QRinput_anTable[(signed long int)(signed int)entry->data[(signed long int)(i * 2 + 1)]];
+      val = val + (unsigned int)tmp_if_expr_5;
       ret=BitStream_appendNum(entry->bstream, 11, val);
       if(!(ret >= 0))
         goto ABORT;
@@ -4473,11 +4473,11 @@ static signed int QRinput_encodeModeAn(struct _QRinput_List *entry, signed int v
     if(!((1 & entry->size) == 0))
     {
       if(!((0x80 & (signed int)entry->data[(signed long int)(2 * words)]) == 0))
-        tmp_if_expr$6 = -1;
+        tmp_if_expr_6 = -1;
 
       else
-        tmp_if_expr$6 = (signed int)QRinput_anTable[(signed long int)(signed int)entry->data[(signed long int)(words * 2)]];
-      val = (unsigned int)tmp_if_expr$6;
+        tmp_if_expr_6 = (signed int)QRinput_anTable[(signed long int)(signed int)entry->data[(signed long int)(words * 2)]];
+      val = (unsigned int)tmp_if_expr_6;
       ret=BitStream_appendNum(entry->bstream, 6, val);
       if(!(ret >= 0))
         goto ABORT;
@@ -4489,7 +4489,7 @@ static signed int QRinput_encodeModeAn(struct _QRinput_List *entry, signed int v
   ABORT:
     ;
     BitStream_free(entry->bstream);
-    entry->bstream = (struct anonymous$9 *)(void *)0;
+    entry->bstream = (struct anonymous_9 *)(void *)0;
     return -1;
   }
 }
@@ -4503,7 +4503,7 @@ static signed int QRinput_encodeModeECI(struct _QRinput_List *entry, signed int 
   unsigned int ecinum;
   unsigned int code;
   entry->bstream=BitStream_new();
-  if(entry->bstream == ((struct anonymous$9 *)NULL))
+  if(entry->bstream == ((struct anonymous_9 *)NULL))
     return -1;
 
   else
@@ -4543,7 +4543,7 @@ static signed int QRinput_encodeModeECI(struct _QRinput_List *entry, signed int 
     ABORT:
       ;
       BitStream_free(entry->bstream);
-      entry->bstream = (struct anonymous$9 *)(void *)0;
+      entry->bstream = (struct anonymous_9 *)(void *)0;
       return -1;
     }
   }
@@ -4555,7 +4555,7 @@ static signed int QRinput_encodeModeFNC1Second(struct _QRinput_List *entry, sign
 {
   signed int ret;
   entry->bstream=BitStream_new();
-  if(entry->bstream == ((struct anonymous$9 *)NULL))
+  if(entry->bstream == ((struct anonymous_9 *)NULL))
     return -1;
 
   else
@@ -4576,7 +4576,7 @@ static signed int QRinput_encodeModeFNC1Second(struct _QRinput_List *entry, sign
     ABORT:
       ;
       BitStream_free(entry->bstream);
-      entry->bstream = (struct anonymous$9 *)(void *)0;
+      entry->bstream = (struct anonymous_9 *)(void *)0;
       return -1;
     }
   }
@@ -4591,7 +4591,7 @@ static signed int QRinput_encodeModeKanji(struct _QRinput_List *entry, signed in
   unsigned int val;
   unsigned int h;
   entry->bstream=BitStream_new();
-  if(entry->bstream == ((struct anonymous$9 *)NULL))
+  if(entry->bstream == ((struct anonymous_9 *)NULL))
     return -1;
 
   else
@@ -4600,9 +4600,9 @@ static signed int QRinput_encodeModeKanji(struct _QRinput_List *entry, signed in
     {
       if(!(version >= 2))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = 22;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = 22;
         goto ABORT;
       }
 
@@ -4610,9 +4610,9 @@ static signed int QRinput_encodeModeKanji(struct _QRinput_List *entry, signed in
       if(!(ret >= 0))
         goto ABORT;
 
-      signed int return_value_MQRspec_lengthIndicator$2;
-      return_value_MQRspec_lengthIndicator$2=MQRspec_lengthIndicator((enum anonymous$8)QR_MODE_KANJI, version);
-      ret=BitStream_appendNum(entry->bstream, return_value_MQRspec_lengthIndicator$2, (unsigned int)(entry->size / 2));
+      signed int return_value_MQRspec_lengthIndicator_2;
+      return_value_MQRspec_lengthIndicator_2=MQRspec_lengthIndicator((enum anonymous_8)QR_MODE_KANJI, version);
+      ret=BitStream_appendNum(entry->bstream, return_value_MQRspec_lengthIndicator_2, (unsigned int)(entry->size / 2));
       if(!(ret >= 0))
         goto ABORT;
 
@@ -4624,9 +4624,9 @@ static signed int QRinput_encodeModeKanji(struct _QRinput_List *entry, signed in
       if(!(ret >= 0))
         goto ABORT;
 
-      signed int return_value_QRspec_lengthIndicator$3;
-      return_value_QRspec_lengthIndicator$3=QRspec_lengthIndicator((enum anonymous$8)QR_MODE_KANJI, version);
-      ret=BitStream_appendNum(entry->bstream, return_value_QRspec_lengthIndicator$3, (unsigned int)(entry->size / 2));
+      signed int return_value_QRspec_lengthIndicator_3;
+      return_value_QRspec_lengthIndicator_3=QRspec_lengthIndicator((enum anonymous_8)QR_MODE_KANJI, version);
+      ret=BitStream_appendNum(entry->bstream, return_value_QRspec_lengthIndicator_3, (unsigned int)(entry->size / 2));
       if(!(ret >= 0))
         goto ABORT;
 
@@ -4652,7 +4652,7 @@ static signed int QRinput_encodeModeKanji(struct _QRinput_List *entry, signed in
   ABORT:
     ;
     BitStream_free(entry->bstream);
-    entry->bstream = (struct anonymous$9 *)(void *)0;
+    entry->bstream = (struct anonymous_9 *)(void *)0;
     return -1;
   }
 }
@@ -4666,7 +4666,7 @@ static signed int QRinput_encodeModeNum(struct _QRinput_List *entry, signed int 
   signed int ret;
   unsigned int val;
   entry->bstream=BitStream_new();
-  if(entry->bstream == ((struct anonymous$9 *)NULL))
+  if(entry->bstream == ((struct anonymous_9 *)NULL))
     return -1;
 
   else
@@ -4681,9 +4681,9 @@ static signed int QRinput_encodeModeNum(struct _QRinput_List *entry, signed int 
 
       }
 
-      signed int return_value_MQRspec_lengthIndicator$1;
-      return_value_MQRspec_lengthIndicator$1=MQRspec_lengthIndicator((enum anonymous$8)QR_MODE_NUM, version);
-      ret=BitStream_appendNum(entry->bstream, return_value_MQRspec_lengthIndicator$1, (unsigned int)entry->size);
+      signed int return_value_MQRspec_lengthIndicator_1;
+      return_value_MQRspec_lengthIndicator_1=MQRspec_lengthIndicator((enum anonymous_8)QR_MODE_NUM, version);
+      ret=BitStream_appendNum(entry->bstream, return_value_MQRspec_lengthIndicator_1, (unsigned int)entry->size);
       if(!(ret >= 0))
         goto ABORT;
 
@@ -4695,9 +4695,9 @@ static signed int QRinput_encodeModeNum(struct _QRinput_List *entry, signed int 
       if(!(ret >= 0))
         goto ABORT;
 
-      signed int return_value_QRspec_lengthIndicator$2;
-      return_value_QRspec_lengthIndicator$2=QRspec_lengthIndicator((enum anonymous$8)QR_MODE_NUM, version);
-      ret=BitStream_appendNum(entry->bstream, return_value_QRspec_lengthIndicator$2, (unsigned int)entry->size);
+      signed int return_value_QRspec_lengthIndicator_2;
+      return_value_QRspec_lengthIndicator_2=QRspec_lengthIndicator((enum anonymous_8)QR_MODE_NUM, version);
+      ret=BitStream_appendNum(entry->bstream, return_value_QRspec_lengthIndicator_2, (unsigned int)entry->size);
       if(!(ret >= 0))
         goto ABORT;
 
@@ -4739,7 +4739,7 @@ static signed int QRinput_encodeModeNum(struct _QRinput_List *entry, signed int 
   ABORT:
     ;
     BitStream_free(entry->bstream);
-    entry->bstream = (struct anonymous$9 *)(void *)0;
+    entry->bstream = (struct anonymous_9 *)(void *)0;
     return -1;
   }
 }
@@ -4751,14 +4751,14 @@ static signed int QRinput_encodeModeStructure(struct _QRinput_List *entry, signe
   signed int ret;
   if(!(mqr == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
   entry->bstream=BitStream_new();
-  if(entry->bstream == ((struct anonymous$9 *)NULL))
+  if(entry->bstream == ((struct anonymous_9 *)NULL))
     return -1;
 
   else
@@ -4787,7 +4787,7 @@ static signed int QRinput_encodeModeStructure(struct _QRinput_List *entry, signe
     ABORT:
       ;
       BitStream_free(entry->bstream);
-      entry->bstream = (struct anonymous$9 *)(void *)0;
+      entry->bstream = (struct anonymous_9 *)(void *)0;
       return -1;
     }
   }
@@ -4802,9 +4802,9 @@ extern signed int QRinput_estimateBitStreamSize(struct _QRinput *input, signed i
   list = input->head;
   while(!(list == ((struct _QRinput_List *)NULL)))
   {
-    signed int return_value_QRinput_estimateBitStreamSizeOfEntry$1;
-    return_value_QRinput_estimateBitStreamSizeOfEntry$1=QRinput_estimateBitStreamSizeOfEntry(list, version, input->mqr);
-    bits = bits + return_value_QRinput_estimateBitStreamSizeOfEntry$1;
+    signed int return_value_QRinput_estimateBitStreamSizeOfEntry_1;
+    return_value_QRinput_estimateBitStreamSizeOfEntry_1=QRinput_estimateBitStreamSizeOfEntry(list, version, input->mqr);
+    bits = bits + return_value_QRinput_estimateBitStreamSizeOfEntry_1;
     list = list->next;
   }
   return bits;
@@ -4982,13 +4982,13 @@ extern void QRinput_free(struct _QRinput *input)
 
 // QRinput_getBitStream
 // file qrinput.c line 1398
-extern struct anonymous$9 * QRinput_getBitStream(struct _QRinput *input)
+extern struct anonymous_9 * QRinput_getBitStream(struct _QRinput *input)
 {
-  struct anonymous$9 *bstream;
+  struct anonymous_9 *bstream;
   signed int ret;
   bstream=QRinput_mergeBitStream(input);
-  if(bstream == ((struct anonymous$9 *)NULL))
-    return (struct anonymous$9 *)(void *)0;
+  if(bstream == ((struct anonymous_9 *)NULL))
+    return (struct anonymous_9 *)(void *)0;
 
   else
   {
@@ -5000,7 +5000,7 @@ extern struct anonymous$9 * QRinput_getBitStream(struct _QRinput *input)
     if(!(ret >= 0))
     {
       BitStream_free(bstream);
-      return (struct anonymous$9 *)(void *)0;
+      return (struct anonymous_9 *)(void *)0;
     }
 
     else
@@ -5012,10 +5012,10 @@ extern struct anonymous$9 * QRinput_getBitStream(struct _QRinput *input)
 // file qrinput.h line 78
 extern unsigned char * QRinput_getByteStream(struct _QRinput *input)
 {
-  struct anonymous$9 *bstream;
+  struct anonymous_9 *bstream;
   unsigned char *array;
   bstream=QRinput_getBitStream(input);
-  if(bstream == ((struct anonymous$9 *)NULL))
+  if(bstream == ((struct anonymous_9 *)NULL))
     return (unsigned char *)(void *)0;
 
   else
@@ -5028,7 +5028,7 @@ extern unsigned char * QRinput_getByteStream(struct _QRinput *input)
 
 // QRinput_getErrorCorrectionLevel
 // file qrinput.c line 173
-extern enum anonymous$7 QRinput_getErrorCorrectionLevel(struct _QRinput *input)
+extern enum anonymous_7 QRinput_getErrorCorrectionLevel(struct _QRinput *input)
 {
   return input->level;
 }
@@ -5046,24 +5046,24 @@ static signed int QRinput_insertFNC1Header(struct _QRinput *input)
 {
   struct _QRinput_List *entry = (struct _QRinput_List *)(void *)0;
   if(input->fnc1 == 1)
-    entry=QRinput_List_newEntry((enum anonymous$8)QR_MODE_FNC1FIRST, 0, (const unsigned char *)(void *)0);
+    entry=QRinput_List_newEntry((enum anonymous_8)QR_MODE_FNC1FIRST, 0, (const unsigned char *)(void *)0);
 
   else
     if(input->fnc1 == 2)
-      entry=QRinput_List_newEntry((enum anonymous$8)QR_MODE_FNC1SECOND, 1, &input->appid);
+      entry=QRinput_List_newEntry((enum anonymous_8)QR_MODE_FNC1SECOND, 1, &input->appid);
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(entry == ((struct _QRinput_List *)NULL))
     return -1;
 
   else
   {
     if(!((signed int)input->head->mode == QR_MODE_STRUCTURE))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)input->head->mode != QR_MODE_ECI ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)input->head->mode != QR_MODE_ECI ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       entry->next = input->head;
       input->head = entry;
@@ -5086,24 +5086,24 @@ extern signed int QRinput_insertStructuredAppendHeader(struct _QRinput *input, s
   unsigned char buf[3l];
   if(size >= 17)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
   if(!(number >= 1) || !(size >= number))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
     return -1;
   }
 
   buf[(signed long int)0] = (unsigned char)size;
   buf[(signed long int)1] = (unsigned char)number;
   buf[(signed long int)2] = parity;
-  entry=QRinput_List_newEntry((enum anonymous$8)QR_MODE_STRUCTURE, 3, buf);
+  entry=QRinput_List_newEntry((enum anonymous_8)QR_MODE_STRUCTURE, 3, buf);
   if(entry == ((struct _QRinput_List *)NULL))
     return -1;
 
@@ -5117,23 +5117,23 @@ extern signed int QRinput_insertStructuredAppendHeader(struct _QRinput *input, s
 
 // QRinput_isSplittableMode
 // file qrinput.c line 39
-signed int QRinput_isSplittableMode(enum anonymous$8 mode)
+signed int QRinput_isSplittableMode(enum anonymous_8 mode)
 {
   return (signed int)((signed int)mode >= QR_MODE_NUM && (signed int)mode <= QR_MODE_KANJI);
 }
 
 // QRinput_lengthOfCode
 // file qrinput.c line 1002
-extern signed int QRinput_lengthOfCode(enum anonymous$8 mode, signed int version, signed int bits)
+extern signed int QRinput_lengthOfCode(enum anonymous_8 mode, signed int version, signed int bits)
 {
   signed int payload;
   signed int size;
   signed int chunks;
   signed int remain;
   signed int maxsize;
-  signed int return_value_QRspec_lengthIndicator$1;
-  return_value_QRspec_lengthIndicator$1=QRspec_lengthIndicator(mode, version);
-  payload = (bits - 4) - return_value_QRspec_lengthIndicator$1;
+  signed int return_value_QRspec_lengthIndicator_1;
+  return_value_QRspec_lengthIndicator_1=QRspec_lengthIndicator(mode, version);
+  payload = (bits - 4) - return_value_QRspec_lengthIndicator_1;
   switch((signed int)mode)
   {
     case QR_MODE_NUM:
@@ -5190,17 +5190,17 @@ extern signed int QRinput_lengthOfCode(enum anonymous$8 mode, signed int version
 
 // QRinput_mergeBitStream
 // file qrinput.c line 1355
-extern struct anonymous$9 * QRinput_mergeBitStream(struct _QRinput *input)
+extern struct anonymous_9 * QRinput_mergeBitStream(struct _QRinput *input)
 {
-  struct anonymous$9 *bstream;
+  struct anonymous_9 *bstream;
   struct _QRinput_List *list;
   signed int ret;
   if(!(input->mqr == 0))
   {
-    signed int return_value_QRinput_createBitStream$1;
-    return_value_QRinput_createBitStream$1=QRinput_createBitStream(input);
-    if(!(return_value_QRinput_createBitStream$1 >= 0))
-      return (struct anonymous$9 *)(void *)0;
+    signed int return_value_QRinput_createBitStream_1;
+    return_value_QRinput_createBitStream_1=QRinput_createBitStream(input);
+    if(!(return_value_QRinput_createBitStream_1 >= 0))
+      return (struct anonymous_9 *)(void *)0;
 
   }
 
@@ -5208,22 +5208,22 @@ extern struct anonymous$9 * QRinput_mergeBitStream(struct _QRinput *input)
   {
     if(!(input->fnc1 == 0))
     {
-      signed int return_value_QRinput_insertFNC1Header$2;
-      return_value_QRinput_insertFNC1Header$2=QRinput_insertFNC1Header(input);
-      if(!(return_value_QRinput_insertFNC1Header$2 >= 0))
-        return (struct anonymous$9 *)(void *)0;
+      signed int return_value_QRinput_insertFNC1Header_2;
+      return_value_QRinput_insertFNC1Header_2=QRinput_insertFNC1Header(input);
+      if(!(return_value_QRinput_insertFNC1Header_2 >= 0))
+        return (struct anonymous_9 *)(void *)0;
 
     }
 
-    signed int return_value_QRinput_convertData$3;
-    return_value_QRinput_convertData$3=QRinput_convertData(input);
-    if(!(return_value_QRinput_convertData$3 >= 0))
-      return (struct anonymous$9 *)(void *)0;
+    signed int return_value_QRinput_convertData_3;
+    return_value_QRinput_convertData_3=QRinput_convertData(input);
+    if(!(return_value_QRinput_convertData_3 >= 0))
+      return (struct anonymous_9 *)(void *)0;
 
   }
   bstream=BitStream_new();
-  if(bstream == ((struct anonymous$9 *)NULL))
-    return (struct anonymous$9 *)(void *)0;
+  if(bstream == ((struct anonymous_9 *)NULL))
+    return (struct anonymous_9 *)(void *)0;
 
   else
   {
@@ -5234,7 +5234,7 @@ extern struct anonymous$9 * QRinput_mergeBitStream(struct _QRinput *input)
       if(!(ret >= 0))
       {
         BitStream_free(bstream);
-        return (struct anonymous$9 *)(void *)0;
+        return (struct anonymous_9 *)(void *)0;
       }
 
     }
@@ -5246,27 +5246,27 @@ extern struct anonymous$9 * QRinput_mergeBitStream(struct _QRinput *input)
 // file qrinput.c line 110
 extern struct _QRinput * QRinput_new(void)
 {
-  struct _QRinput *return_value_QRinput_new2$1;
-  return_value_QRinput_new2$1=QRinput_new2(0, (enum anonymous$7)QR_ECLEVEL_L);
-  return return_value_QRinput_new2$1;
+  struct _QRinput *return_value_QRinput_new2_1;
+  return_value_QRinput_new2_1=QRinput_new2(0, (enum anonymous_7)QR_ECLEVEL_L);
+  return return_value_QRinput_new2_1;
 }
 
 // QRinput_new2
 // file qrencode.h line 172
-extern struct _QRinput * QRinput_new2(signed int version, enum anonymous$7 level)
+extern struct _QRinput * QRinput_new2(signed int version, enum anonymous_7 level)
 {
   struct _QRinput *input;
   if(version >= 41 || (signed int)level >= 4 || !(version >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return (struct _QRinput *)(void *)0;
   }
 
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct _QRinput) /*40ul*/ );
-  input = (struct _QRinput *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct _QRinput) /*40ul*/ );
+  input = (struct _QRinput *)return_value_malloc_2;
   if(input == ((struct _QRinput *)NULL))
     return (struct _QRinput *)(void *)0;
 
@@ -5284,14 +5284,14 @@ extern struct _QRinput * QRinput_new2(signed int version, enum anonymous$7 level
 
 // QRinput_newMQR
 // file qrencode.h line 184
-extern struct _QRinput * QRinput_newMQR(signed int version, enum anonymous$7 level)
+extern struct _QRinput * QRinput_newMQR(signed int version, enum anonymous_7 level)
 {
   struct _QRinput *input;
-  signed int return_value_MQRspec_getECCLength$1;
+  signed int return_value_MQRspec_getECCLength_1;
   if(!(version >= 5) && version >= 1)
   {
-    return_value_MQRspec_getECCLength$1=MQRspec_getECCLength(version, level);
-    if(return_value_MQRspec_getECCLength$1 == 0)
+    return_value_MQRspec_getECCLength_1=MQRspec_getECCLength(version, level);
+    if(return_value_MQRspec_getECCLength_1 == 0)
       goto INVALID;
 
     input=QRinput_new2(version, level);
@@ -5307,22 +5307,22 @@ extern struct _QRinput * QRinput_newMQR(signed int version, enum anonymous$7 lev
 
   INVALID:
     ;
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
     return (struct _QRinput *)(void *)0;
   }
 }
 
 // QRinput_setErrorCorrectionLevel
 // file qrinput.c line 178
-extern signed int QRinput_setErrorCorrectionLevel(struct _QRinput *input, enum anonymous$7 level)
+extern signed int QRinput_setErrorCorrectionLevel(struct _QRinput *input, enum anonymous_7 level)
 {
   if((signed int)level >= 4 || !(input->mqr == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -5336,9 +5336,9 @@ extern signed int QRinput_setFNC1First(struct _QRinput *input)
 {
   if(!(input->mqr == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -5352,9 +5352,9 @@ extern signed int QRinput_setFNC1Second(struct _QRinput *input, unsigned char ap
 {
   if(!(input->mqr == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -5369,9 +5369,9 @@ extern signed int QRinput_setVersion(struct _QRinput *input, signed int version)
 {
   if(version >= 41 || !(input->mqr == 0) || !(version >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -5381,16 +5381,16 @@ extern signed int QRinput_setVersion(struct _QRinput *input, signed int version)
 
 // QRinput_setVersionAndErrorCorrectionLevel
 // file qrinput.c line 190
-extern signed int QRinput_setVersionAndErrorCorrectionLevel(struct _QRinput *input, signed int version, enum anonymous$7 level)
+extern signed int QRinput_setVersionAndErrorCorrectionLevel(struct _QRinput *input, signed int version, enum anonymous_7 level)
 {
   if(!(input->mqr == 0))
   {
     if(version >= 5 || !(version >= 1))
       goto INVALID;
 
-    signed int return_value_MQRspec_getECCLength$1;
-    return_value_MQRspec_getECCLength$1=MQRspec_getECCLength(version, level);
-    if(return_value_MQRspec_getECCLength$1 == 0)
+    signed int return_value_MQRspec_getECCLength_1;
+    return_value_MQRspec_getECCLength_1=MQRspec_getECCLength(version, level);
+    if(return_value_MQRspec_getECCLength_1 == 0)
       goto INVALID;
 
   }
@@ -5410,9 +5410,9 @@ extern signed int QRinput_setVersionAndErrorCorrectionLevel(struct _QRinput *inp
 
 INVALID:
   ;
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  *return_value___errno_location$2 = 22;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  *return_value___errno_location_2 = 22;
   return -1;
 }
 
@@ -5460,9 +5460,9 @@ extern struct _QRinput_Struct * QRinput_splitQRinputToStruct(struct _QRinput *in
   struct _QRinput_List *prev;
   if(!(input->mqr == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return (struct _QRinput_Struct *)(void *)0;
   }
 
@@ -5481,12 +5481,12 @@ extern struct _QRinput_Struct * QRinput_splitQRinputToStruct(struct _QRinput *in
 
     else
     {
-      unsigned char return_value_QRinput_calcParity$2;
-      return_value_QRinput_calcParity$2=QRinput_calcParity(input);
-      QRinput_Struct_setParity(s, return_value_QRinput_calcParity$2);
-      signed int return_value_QRspec_getDataLength$3;
-      return_value_QRspec_getDataLength$3=QRspec_getDataLength(input->version, input->level);
-      maxbits = return_value_QRspec_getDataLength$3 * 8 - 20;
+      unsigned char return_value_QRinput_calcParity_2;
+      return_value_QRinput_calcParity_2=QRinput_calcParity(input);
+      QRinput_Struct_setParity(s, return_value_QRinput_calcParity_2);
+      signed int return_value_QRspec_getDataLength_3;
+      return_value_QRspec_getDataLength_3=QRspec_getDataLength(input->version, input->level);
+      maxbits = return_value_QRspec_getDataLength_3 * 8 - 20;
       if(!(maxbits >= 1))
       {
         QRinput_Struct_free(s);
@@ -5562,9 +5562,9 @@ extern struct _QRinput_Struct * QRinput_splitQRinputToStruct(struct _QRinput *in
           if(s->size >= 17)
           {
             QRinput_Struct_free(s);
-            signed int *return_value___errno_location$4;
-            return_value___errno_location$4=__errno_location();
-            *return_value___errno_location$4 = 34;
+            signed int *return_value___errno_location_4;
+            return_value___errno_location_4=__errno_location();
+            *return_value___errno_location_4 = 34;
             return (struct _QRinput_Struct *)(void *)0;
           }
 
@@ -5594,9 +5594,9 @@ extern struct _QRinput_Struct * QRinput_splitQRinputToStruct(struct _QRinput *in
 
 // QRraw_free
 // file qrencode.c line 185
-void QRraw_free(struct anonymous$4 *raw)
+void QRraw_free(struct anonymous_4 *raw)
 {
-  if(!(raw == ((struct anonymous$4 *)NULL)))
+  if(!(raw == ((struct anonymous_4 *)NULL)))
   {
     free((void *)raw->datacode);
     free((void *)raw->ecccode);
@@ -5608,7 +5608,7 @@ void QRraw_free(struct anonymous$4 *raw)
 
 // QRraw_getCode
 // file qrencode.c line 162
-unsigned char QRraw_getCode(struct anonymous$4 *raw)
+unsigned char QRraw_getCode(struct anonymous_4 *raw)
 {
   signed int col;
   signed int row;
@@ -5639,16 +5639,16 @@ unsigned char QRraw_getCode(struct anonymous$4 *raw)
 
 // QRraw_new
 // file qrencode.c line 112
-struct anonymous$4 * QRraw_new(struct _QRinput *input)
+struct anonymous_4 * QRraw_new(struct _QRinput *input)
 {
-  struct anonymous$4 *raw;
+  struct anonymous_4 *raw;
   signed int spec[5l];
   signed int ret;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$4) /*56ul*/ );
-  raw = (struct anonymous$4 *)return_value_malloc$1;
-  if(raw == ((struct anonymous$4 *)NULL))
-    return (struct anonymous$4 *)(void *)0;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_4) /*56ul*/ );
+  raw = (struct anonymous_4 *)return_value_malloc_1;
+  if(raw == ((struct anonymous_4 *)NULL))
+    return (struct anonymous_4 *)(void *)0;
 
   else
   {
@@ -5656,7 +5656,7 @@ struct anonymous$4 * QRraw_new(struct _QRinput *input)
     if(raw->datacode == ((unsigned char *)NULL))
     {
       free((void *)raw);
-      return (struct anonymous$4 *)(void *)0;
+      return (struct anonymous_4 *)(void *)0;
     }
 
     else
@@ -5666,26 +5666,26 @@ struct anonymous$4 * QRraw_new(struct _QRinput *input)
       raw->b1 = spec[(signed long int)0];
       raw->dataLength = spec[(signed long int)0] * spec[(signed long int)1] + spec[(signed long int)3] * spec[(signed long int)4];
       raw->eccLength = (spec[(signed long int)0] + spec[(signed long int)3]) * spec[(signed long int)2];
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)raw->eccLength);
-      raw->ecccode = (unsigned char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)raw->eccLength);
+      raw->ecccode = (unsigned char *)return_value_malloc_2;
       if(raw->ecccode == ((unsigned char *)NULL))
       {
         free((void *)raw->datacode);
         free((void *)raw);
-        return (struct anonymous$4 *)(void *)0;
+        return (struct anonymous_4 *)(void *)0;
       }
 
       else
       {
         raw->blocks = spec[(signed long int)0] + spec[(signed long int)3];
-        void *return_value_calloc$3;
-        return_value_calloc$3=calloc((unsigned long int)raw->blocks, sizeof(struct anonymous$3) /*32ul*/ );
-        raw->rsblock = (struct anonymous$3 *)return_value_calloc$3;
-        if(raw->rsblock == ((struct anonymous$3 *)NULL))
+        void *return_value_calloc_3;
+        return_value_calloc_3=calloc((unsigned long int)raw->blocks, sizeof(struct anonymous_3) /*32ul*/ );
+        raw->rsblock = (struct anonymous_3 *)return_value_calloc_3;
+        if(raw->rsblock == ((struct anonymous_3 *)NULL))
         {
           QRraw_free(raw);
-          return (struct anonymous$4 *)(void *)0;
+          return (struct anonymous_4 *)(void *)0;
         }
 
         else
@@ -5694,7 +5694,7 @@ struct anonymous$4 * QRraw_new(struct _QRinput *input)
           if(!(ret >= 0))
           {
             QRraw_free(raw);
-            return (struct anonymous$4 *)(void *)0;
+            return (struct anonymous_4 *)(void *)0;
           }
 
           else
@@ -5736,9 +5736,9 @@ static unsigned char * QRspec_createFrame(signed int version)
   unsigned int verinfo;
   unsigned int v;
   width = qrspecCapacity[(signed long int)version].width;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(width * width));
-  frame = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(width * width));
+  frame = (unsigned char *)return_value_malloc_1;
   if(frame == ((unsigned char *)NULL))
     return (unsigned char *)(void *)0;
 
@@ -5826,21 +5826,21 @@ static unsigned char * QRspec_createFrame(signed int version)
 
 // QRspec_getDataLength
 // file qrspec.h line 42
-extern signed int QRspec_getDataLength(signed int version, enum anonymous$7 level)
+extern signed int QRspec_getDataLength(signed int version, enum anonymous_7 level)
 {
   return qrspecCapacity[(signed long int)version].words - qrspecCapacity[(signed long int)version].ec[(signed long int)level];
 }
 
 // QRspec_getECCLength
 // file qrspec.h line 50
-extern signed int QRspec_getECCLength(signed int version, enum anonymous$7 level)
+extern signed int QRspec_getECCLength(signed int version, enum anonymous_7 level)
 {
   return qrspecCapacity[(signed long int)version].ec[(signed long int)level];
 }
 
 // QRspec_getEccSpec
 // file qrspec.h line 106
-void QRspec_getEccSpec(signed int version, enum anonymous$7 level, signed int *spec)
+void QRspec_getEccSpec(signed int version, enum anonymous_7 level, signed int *spec)
 {
   signed int b1;
   signed int b2;
@@ -5871,7 +5871,7 @@ void QRspec_getEccSpec(signed int version, enum anonymous$7 level, signed int *s
 
 // QRspec_getFormatInfo
 // file qrspec.c line 386
-extern unsigned int QRspec_getFormatInfo(signed int mask, enum anonymous$7 level)
+extern unsigned int QRspec_getFormatInfo(signed int mask, enum anonymous_7 level)
 {
   if(mask >= 8 || !(mask >= 0))
     return (unsigned int)0;
@@ -5882,7 +5882,7 @@ extern unsigned int QRspec_getFormatInfo(signed int mask, enum anonymous$7 level
 
 // QRspec_getMinimumVersion
 // file qrspec.h line 58
-extern signed int QRspec_getMinimumVersion(signed int size, enum anonymous$7 level)
+extern signed int QRspec_getMinimumVersion(signed int size, enum anonymous_7 level)
 {
   signed int i;
   signed int words;
@@ -5924,12 +5924,12 @@ extern signed int QRspec_getWidth(signed int version)
 
 // QRspec_lengthIndicator
 // file qrspec.h line 84
-extern signed int QRspec_lengthIndicator(enum anonymous$8 mode, signed int version)
+extern signed int QRspec_lengthIndicator(enum anonymous_8 mode, signed int version)
 {
   signed int l;
-  signed int return_value_QRinput_isSplittableMode$1;
-  return_value_QRinput_isSplittableMode$1=QRinput_isSplittableMode(mode);
-  if(return_value_QRinput_isSplittableMode$1 == 0)
+  signed int return_value_QRinput_isSplittableMode_1;
+  return_value_QRinput_isSplittableMode_1=QRinput_isSplittableMode(mode);
+  if(return_value_QRinput_isSplittableMode_1 == 0)
     return 0;
 
   else
@@ -5949,14 +5949,14 @@ extern signed int QRspec_lengthIndicator(enum anonymous$8 mode, signed int versi
 
 // QRspec_maximumWords
 // file qrspec.h line 92
-extern signed int QRspec_maximumWords(enum anonymous$8 mode, signed int version)
+extern signed int QRspec_maximumWords(enum anonymous_8 mode, signed int version)
 {
   signed int l;
   signed int bits;
   signed int words;
-  signed int return_value_QRinput_isSplittableMode$1;
-  return_value_QRinput_isSplittableMode$1=QRinput_isSplittableMode(mode);
-  if(return_value_QRinput_isSplittableMode$1 == 0)
+  signed int return_value_QRinput_isSplittableMode_1;
+  return_value_QRinput_isSplittableMode_1=QRinput_isSplittableMode(mode);
+  if(return_value_QRinput_isSplittableMode_1 == 0)
     return 0;
 
   else
@@ -6001,9 +6001,9 @@ extern unsigned char * QRspec_newFrame(signed int version)
     else
     {
       width = qrspecCapacity[(signed long int)version].width;
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc((unsigned long int)(width * width));
-      frame = (unsigned char *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc((unsigned long int)(width * width));
+      frame = (unsigned char *)return_value_malloc_1;
       if(frame == ((unsigned char *)NULL))
         return (unsigned char *)(void *)0;
 
@@ -6092,10 +6092,10 @@ static void QRspec_putAlignmentPattern(signed int version, unsigned char *frame,
 
 // RSblock_init
 // file qrencode.c line 72
-static signed int RSblock_init(struct anonymous$3 *blocks, signed int *spec, unsigned char *data, unsigned char *ecc)
+static signed int RSblock_init(struct anonymous_3 *blocks, signed int *spec, unsigned char *data, unsigned char *ecc)
 {
   signed int i;
-  struct anonymous$3 *block;
+  struct anonymous_3 *block;
   unsigned char *dp;
   unsigned char *ep;
   struct _RS *rs;
@@ -6148,7 +6148,7 @@ static signed int RSblock_init(struct anonymous$3 *blocks, signed int *spec, uns
 
 // RSblock_initBlock
 // file qrencode.c line 62
-static void RSblock_initBlock(struct anonymous$3 *block, signed int dl, unsigned char *data, signed int el, unsigned char *ecc, struct _RS *rs)
+static void RSblock_initBlock(struct anonymous_3 *block, signed int dl, unsigned char *data, signed int el, unsigned char *ecc, struct _RS *rs)
 {
   block->dataLength = dl;
   block->data = data;
@@ -6159,11 +6159,11 @@ static void RSblock_initBlock(struct anonymous$3 *block, signed int dl, unsigned
 
 // Split_eat8
 // file split.c line 189
-static signed int Split_eat8(const char *string, struct _QRinput *input, enum anonymous$8 hint)
+static signed int Split_eat8(const char *string, struct _QRinput *input, enum anonymous_8 hint)
 {
   const char *p;
   const char *q;
-  enum anonymous$8 mode;
+  enum anonymous_8 mode;
   signed int ret;
   signed int run;
   signed int dif;
@@ -6171,11 +6171,11 @@ static signed int Split_eat8(const char *string, struct _QRinput *input, enum an
   signed int ln;
   signed int l8;
   signed int swcost;
-  la=QRspec_lengthIndicator((enum anonymous$8)QR_MODE_AN, input->version);
-  ln=QRspec_lengthIndicator((enum anonymous$8)QR_MODE_NUM, input->version);
-  l8=QRspec_lengthIndicator((enum anonymous$8)QR_MODE_8, input->version);
+  la=QRspec_lengthIndicator((enum anonymous_8)QR_MODE_AN, input->version);
+  ln=QRspec_lengthIndicator((enum anonymous_8)QR_MODE_NUM, input->version);
+  l8=QRspec_lengthIndicator((enum anonymous_8)QR_MODE_8, input->version);
   p = string + (signed long int)1;
-  signed int tmp_if_expr$5;
+  signed int tmp_if_expr_5;
   while(!((signed int)*p == 0))
   {
     mode=Split_identifyMode(p, hint);
@@ -6187,20 +6187,20 @@ static signed int Split_eat8(const char *string, struct _QRinput *input, enum an
       q = p;
       for( ; !((signed int)(208 + (unsigned char)(signed int)*q) >= 10); q = q + 1l)
         ;
-      enum anonymous$8 return_value_Split_identifyMode$1;
-      return_value_Split_identifyMode$1=Split_identifyMode(q, hint);
-      if((signed int)return_value_Split_identifyMode$1 == QR_MODE_8)
+      enum anonymous_8 return_value_Split_identifyMode_1;
+      return_value_Split_identifyMode_1=Split_identifyMode(q, hint);
+      if((signed int)return_value_Split_identifyMode_1 == QR_MODE_8)
         swcost = 4 + l8;
 
       else
         swcost = 0;
-      signed int return_value_QRinput_estimateBitsMode8$2;
-      return_value_QRinput_estimateBitsMode8$2=QRinput_estimateBitsMode8((signed int)(p - string));
-      signed int return_value_QRinput_estimateBitsModeNum$3;
-      return_value_QRinput_estimateBitsModeNum$3=QRinput_estimateBitsModeNum((signed int)(q - p));
-      signed int return_value_QRinput_estimateBitsMode8$4;
-      return_value_QRinput_estimateBitsMode8$4=QRinput_estimateBitsMode8((signed int)(q - string));
-      dif = (return_value_QRinput_estimateBitsMode8$2 + return_value_QRinput_estimateBitsModeNum$3 + 4 + ln + swcost) - return_value_QRinput_estimateBitsMode8$4;
+      signed int return_value_QRinput_estimateBitsMode8_2;
+      return_value_QRinput_estimateBitsMode8_2=QRinput_estimateBitsMode8((signed int)(p - string));
+      signed int return_value_QRinput_estimateBitsModeNum_3;
+      return_value_QRinput_estimateBitsModeNum_3=QRinput_estimateBitsModeNum((signed int)(q - p));
+      signed int return_value_QRinput_estimateBitsMode8_4;
+      return_value_QRinput_estimateBitsMode8_4=QRinput_estimateBitsMode8((signed int)(q - string));
+      dif = (return_value_QRinput_estimateBitsMode8_2 + return_value_QRinput_estimateBitsModeNum_3 + 4 + ln + swcost) - return_value_QRinput_estimateBitsMode8_4;
       if(!(dif >= 0))
         break;
 
@@ -6215,30 +6215,30 @@ static signed int Split_eat8(const char *string, struct _QRinput *input, enum an
         do
         {
           if(!((0x80 & (signed int)*q) == 0))
-            tmp_if_expr$5 = -1;
+            tmp_if_expr_5 = -1;
 
           else
-            tmp_if_expr$5 = (signed int)QRinput_anTable[(signed long int)(signed int)*q];
-          if(!(tmp_if_expr$5 >= 0))
+            tmp_if_expr_5 = (signed int)QRinput_anTable[(signed long int)(signed int)*q];
+          if(!(tmp_if_expr_5 >= 0))
             break;
 
           q = q + 1l;
         }
         while((_Bool)1);
-        enum anonymous$8 return_value_Split_identifyMode$6;
-        return_value_Split_identifyMode$6=Split_identifyMode(q, hint);
-        if((signed int)return_value_Split_identifyMode$6 == QR_MODE_8)
+        enum anonymous_8 return_value_Split_identifyMode_6;
+        return_value_Split_identifyMode_6=Split_identifyMode(q, hint);
+        if((signed int)return_value_Split_identifyMode_6 == QR_MODE_8)
           swcost = 4 + l8;
 
         else
           swcost = 0;
-        signed int return_value_QRinput_estimateBitsMode8$7;
-        return_value_QRinput_estimateBitsMode8$7=QRinput_estimateBitsMode8((signed int)(p - string));
-        signed int return_value_QRinput_estimateBitsModeAn$8;
-        return_value_QRinput_estimateBitsModeAn$8=QRinput_estimateBitsModeAn((signed int)(q - p));
-        signed int return_value_QRinput_estimateBitsMode8$9;
-        return_value_QRinput_estimateBitsMode8$9=QRinput_estimateBitsMode8((signed int)(q - string));
-        dif = (return_value_QRinput_estimateBitsMode8$7 + return_value_QRinput_estimateBitsModeAn$8 + 4 + la + swcost) - return_value_QRinput_estimateBitsMode8$9;
+        signed int return_value_QRinput_estimateBitsMode8_7;
+        return_value_QRinput_estimateBitsMode8_7=QRinput_estimateBitsMode8((signed int)(p - string));
+        signed int return_value_QRinput_estimateBitsModeAn_8;
+        return_value_QRinput_estimateBitsModeAn_8=QRinput_estimateBitsModeAn((signed int)(q - p));
+        signed int return_value_QRinput_estimateBitsMode8_9;
+        return_value_QRinput_estimateBitsMode8_9=QRinput_estimateBitsMode8((signed int)(q - string));
+        dif = (return_value_QRinput_estimateBitsMode8_7 + return_value_QRinput_estimateBitsModeAn_8 + 4 + la + swcost) - return_value_QRinput_estimateBitsMode8_9;
         if(!(dif >= 0))
           break;
 
@@ -6250,7 +6250,7 @@ static signed int Split_eat8(const char *string, struct _QRinput *input, enum an
         p = p + 1l;
   }
   run = (signed int)(p - string);
-  ret=QRinput_append(input, (enum anonymous$8)QR_MODE_8, run, (unsigned char *)string);
+  ret=QRinput_append(input, (enum anonymous_8)QR_MODE_8, run, (unsigned char *)string);
   if(!(ret >= 0))
     return -1;
 
@@ -6260,7 +6260,7 @@ static signed int Split_eat8(const char *string, struct _QRinput *input, enum an
 
 // Split_eatAn
 // file split.c line 123
-static signed int Split_eatAn(const char *string, struct _QRinput *input, enum anonymous$8 hint)
+static signed int Split_eatAn(const char *string, struct _QRinput *input, enum anonymous_8 hint)
 {
   const char *p;
   const char *q;
@@ -6269,19 +6269,19 @@ static signed int Split_eatAn(const char *string, struct _QRinput *input, enum a
   signed int dif;
   signed int la;
   signed int ln;
-  la=QRspec_lengthIndicator((enum anonymous$8)QR_MODE_AN, input->version);
-  ln=QRspec_lengthIndicator((enum anonymous$8)QR_MODE_NUM, input->version);
+  la=QRspec_lengthIndicator((enum anonymous_8)QR_MODE_AN, input->version);
+  ln=QRspec_lengthIndicator((enum anonymous_8)QR_MODE_NUM, input->version);
   p = string;
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$4;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_4;
   do
   {
     if(!((0x80 & (signed int)*p) == 0))
-      tmp_if_expr$1 = -1;
+      tmp_if_expr_1 = -1;
 
     else
-      tmp_if_expr$1 = (signed int)QRinput_anTable[(signed long int)(signed int)*p];
-    if(!(tmp_if_expr$1 >= 0))
+      tmp_if_expr_1 = (signed int)QRinput_anTable[(signed long int)(signed int)*p];
+    if(!(tmp_if_expr_1 >= 0))
       break;
 
     if(!((signed int)(208 + (unsigned char)(signed int)*p) >= 10))
@@ -6289,18 +6289,18 @@ static signed int Split_eatAn(const char *string, struct _QRinput *input, enum a
       q = p;
       for( ; !((signed int)(208 + (unsigned char)(signed int)*q) >= 10); q = q + 1l)
         ;
-      signed int return_value_QRinput_estimateBitsModeAn$2;
-      return_value_QRinput_estimateBitsModeAn$2=QRinput_estimateBitsModeAn((signed int)(p - string));
-      signed int return_value_QRinput_estimateBitsModeNum$3;
-      return_value_QRinput_estimateBitsModeNum$3=QRinput_estimateBitsModeNum((signed int)(q - p));
+      signed int return_value_QRinput_estimateBitsModeAn_2;
+      return_value_QRinput_estimateBitsModeAn_2=QRinput_estimateBitsModeAn((signed int)(p - string));
+      signed int return_value_QRinput_estimateBitsModeNum_3;
+      return_value_QRinput_estimateBitsModeNum_3=QRinput_estimateBitsModeNum((signed int)(q - p));
       if(!((0x80 & (signed int)*q) == 0))
-        tmp_if_expr$4 = -1;
+        tmp_if_expr_4 = -1;
 
       else
-        tmp_if_expr$4 = (signed int)QRinput_anTable[(signed long int)(signed int)*q];
-      signed int return_value_QRinput_estimateBitsModeAn$5;
-      return_value_QRinput_estimateBitsModeAn$5=QRinput_estimateBitsModeAn((signed int)(q - string));
-      dif = (return_value_QRinput_estimateBitsModeAn$2 + return_value_QRinput_estimateBitsModeNum$3 + 4 + ln + (tmp_if_expr$4 >= 0 ? 4 + ln : 0)) - return_value_QRinput_estimateBitsModeAn$5;
+        tmp_if_expr_4 = (signed int)QRinput_anTable[(signed long int)(signed int)*q];
+      signed int return_value_QRinput_estimateBitsModeAn_5;
+      return_value_QRinput_estimateBitsModeAn_5=QRinput_estimateBitsModeAn((signed int)(q - string));
+      dif = (return_value_QRinput_estimateBitsModeAn_2 + return_value_QRinput_estimateBitsModeNum_3 + 4 + ln + (tmp_if_expr_4 >= 0 ? 4 + ln : 0)) - return_value_QRinput_estimateBitsModeAn_5;
       if(!(dif >= 0))
         break;
 
@@ -6313,35 +6313,35 @@ static signed int Split_eatAn(const char *string, struct _QRinput *input, enum a
   }
   while((_Bool)1);
   run = (signed int)(p - string);
-  signed int tmp_if_expr$10;
+  signed int tmp_if_expr_10;
   if(!(*p == 0))
   {
     if(!((0x80 & (signed int)*p) == 0))
-      tmp_if_expr$10 = -1;
+      tmp_if_expr_10 = -1;
 
     else
-      tmp_if_expr$10 = (signed int)QRinput_anTable[(signed long int)(signed int)*p];
-    if(!(tmp_if_expr$10 >= 0))
+      tmp_if_expr_10 = (signed int)QRinput_anTable[(signed long int)(signed int)*p];
+    if(!(tmp_if_expr_10 >= 0))
     {
-      signed int return_value_QRinput_estimateBitsModeAn$6;
-      return_value_QRinput_estimateBitsModeAn$6=QRinput_estimateBitsModeAn(run);
-      signed int return_value_QRinput_estimateBitsMode8$7;
-      return_value_QRinput_estimateBitsMode8$7=QRinput_estimateBitsMode8(1);
-      signed int return_value_QRinput_estimateBitsMode8$8;
-      return_value_QRinput_estimateBitsMode8$8=QRinput_estimateBitsMode8(run + 1);
-      dif = (return_value_QRinput_estimateBitsModeAn$6 + 4 + la + return_value_QRinput_estimateBitsMode8$7) - return_value_QRinput_estimateBitsMode8$8;
+      signed int return_value_QRinput_estimateBitsModeAn_6;
+      return_value_QRinput_estimateBitsModeAn_6=QRinput_estimateBitsModeAn(run);
+      signed int return_value_QRinput_estimateBitsMode8_7;
+      return_value_QRinput_estimateBitsMode8_7=QRinput_estimateBitsMode8(1);
+      signed int return_value_QRinput_estimateBitsMode8_8;
+      return_value_QRinput_estimateBitsMode8_8=QRinput_estimateBitsMode8(run + 1);
+      dif = (return_value_QRinput_estimateBitsModeAn_6 + 4 + la + return_value_QRinput_estimateBitsMode8_7) - return_value_QRinput_estimateBitsMode8_8;
       if(dif >= 1)
       {
-        signed int return_value_Split_eat8$9;
-        return_value_Split_eat8$9=Split_eat8(string, input, hint);
-        return return_value_Split_eat8$9;
+        signed int return_value_Split_eat8_9;
+        return_value_Split_eat8_9=Split_eat8(string, input, hint);
+        return return_value_Split_eat8_9;
       }
 
     }
 
   }
 
-  ret=QRinput_append(input, (enum anonymous$8)QR_MODE_AN, run, (unsigned char *)string);
+  ret=QRinput_append(input, (enum anonymous_8)QR_MODE_AN, run, (unsigned char *)string);
   if(!(ret >= 0))
     return -1;
 
@@ -6351,24 +6351,24 @@ static signed int Split_eatAn(const char *string, struct _QRinput *input, enum a
 
 // Split_eatKanji
 // file split.c line 172
-static signed int Split_eatKanji(const char *string, struct _QRinput *input, enum anonymous$8 hint)
+static signed int Split_eatKanji(const char *string, struct _QRinput *input, enum anonymous_8 hint)
 {
   const char *p;
   signed int ret;
   signed int run;
   p = string;
-  enum anonymous$8 return_value_Split_identifyMode$1;
+  enum anonymous_8 return_value_Split_identifyMode_1;
   do
   {
-    return_value_Split_identifyMode$1=Split_identifyMode(p, hint);
-    if(!((signed int)return_value_Split_identifyMode$1 == QR_MODE_KANJI))
+    return_value_Split_identifyMode_1=Split_identifyMode(p, hint);
+    if(!((signed int)return_value_Split_identifyMode_1 == QR_MODE_KANJI))
       break;
 
     p = p + (signed long int)2;
   }
   while((_Bool)1);
   run = (signed int)(p - string);
-  ret=QRinput_append(input, (enum anonymous$8)QR_MODE_KANJI, run, (unsigned char *)string);
+  ret=QRinput_append(input, (enum anonymous_8)QR_MODE_KANJI, run, (unsigned char *)string);
   if(!(ret >= 0))
     return -1;
 
@@ -6378,15 +6378,15 @@ static signed int Split_eatKanji(const char *string, struct _QRinput *input, enu
 
 // Split_eatNum
 // file split.c line 83
-static signed int Split_eatNum(const char *string, struct _QRinput *input, enum anonymous$8 hint)
+static signed int Split_eatNum(const char *string, struct _QRinput *input, enum anonymous_8 hint)
 {
   const char *p;
   signed int ret;
   signed int run;
   signed int dif;
   signed int ln;
-  enum anonymous$8 mode;
-  ln=QRspec_lengthIndicator((enum anonymous$8)QR_MODE_NUM, input->version);
+  enum anonymous_8 mode;
+  ln=QRspec_lengthIndicator((enum anonymous_8)QR_MODE_NUM, input->version);
   p = string;
   for( ; !((signed int)(208 + (unsigned char)(signed int)*p) >= 10); p = p + 1l)
     ;
@@ -6394,41 +6394,41 @@ static signed int Split_eatNum(const char *string, struct _QRinput *input, enum 
   mode=Split_identifyMode(p, hint);
   if((signed int)mode == QR_MODE_8)
   {
-    signed int return_value_QRinput_estimateBitsModeNum$1;
-    return_value_QRinput_estimateBitsModeNum$1=QRinput_estimateBitsModeNum(run);
-    signed int return_value_QRinput_estimateBitsMode8$2;
-    return_value_QRinput_estimateBitsMode8$2=QRinput_estimateBitsMode8(1);
-    signed int return_value_QRinput_estimateBitsMode8$3;
-    return_value_QRinput_estimateBitsMode8$3=QRinput_estimateBitsMode8(run + 1);
-    dif = (return_value_QRinput_estimateBitsModeNum$1 + 4 + ln + return_value_QRinput_estimateBitsMode8$2) - return_value_QRinput_estimateBitsMode8$3;
+    signed int return_value_QRinput_estimateBitsModeNum_1;
+    return_value_QRinput_estimateBitsModeNum_1=QRinput_estimateBitsModeNum(run);
+    signed int return_value_QRinput_estimateBitsMode8_2;
+    return_value_QRinput_estimateBitsMode8_2=QRinput_estimateBitsMode8(1);
+    signed int return_value_QRinput_estimateBitsMode8_3;
+    return_value_QRinput_estimateBitsMode8_3=QRinput_estimateBitsMode8(run + 1);
+    dif = (return_value_QRinput_estimateBitsModeNum_1 + 4 + ln + return_value_QRinput_estimateBitsMode8_2) - return_value_QRinput_estimateBitsMode8_3;
     if(dif >= 1)
     {
-      signed int return_value_Split_eat8$4;
-      return_value_Split_eat8$4=Split_eat8(string, input, hint);
-      return return_value_Split_eat8$4;
+      signed int return_value_Split_eat8_4;
+      return_value_Split_eat8_4=Split_eat8(string, input, hint);
+      return return_value_Split_eat8_4;
     }
 
   }
 
   if((signed int)mode == QR_MODE_AN)
   {
-    signed int return_value_QRinput_estimateBitsModeNum$5;
-    return_value_QRinput_estimateBitsModeNum$5=QRinput_estimateBitsModeNum(run);
-    signed int return_value_QRinput_estimateBitsModeAn$6;
-    return_value_QRinput_estimateBitsModeAn$6=QRinput_estimateBitsModeAn(1);
-    signed int return_value_QRinput_estimateBitsModeAn$7;
-    return_value_QRinput_estimateBitsModeAn$7=QRinput_estimateBitsModeAn(run + 1);
-    dif = (return_value_QRinput_estimateBitsModeNum$5 + 4 + ln + return_value_QRinput_estimateBitsModeAn$6) - return_value_QRinput_estimateBitsModeAn$7;
+    signed int return_value_QRinput_estimateBitsModeNum_5;
+    return_value_QRinput_estimateBitsModeNum_5=QRinput_estimateBitsModeNum(run);
+    signed int return_value_QRinput_estimateBitsModeAn_6;
+    return_value_QRinput_estimateBitsModeAn_6=QRinput_estimateBitsModeAn(1);
+    signed int return_value_QRinput_estimateBitsModeAn_7;
+    return_value_QRinput_estimateBitsModeAn_7=QRinput_estimateBitsModeAn(run + 1);
+    dif = (return_value_QRinput_estimateBitsModeNum_5 + 4 + ln + return_value_QRinput_estimateBitsModeAn_6) - return_value_QRinput_estimateBitsModeAn_7;
     if(dif >= 1)
     {
-      signed int return_value_Split_eatAn$8;
-      return_value_Split_eatAn$8=Split_eatAn(string, input, hint);
-      return return_value_Split_eatAn$8;
+      signed int return_value_Split_eatAn_8;
+      return_value_Split_eatAn_8=Split_eatAn(string, input, hint);
+      return return_value_Split_eatAn_8;
     }
 
   }
 
-  ret=QRinput_append(input, (enum anonymous$8)QR_MODE_NUM, run, (unsigned char *)string);
+  ret=QRinput_append(input, (enum anonymous_8)QR_MODE_NUM, run, (unsigned char *)string);
   if(!(ret >= 0))
     return -1;
 
@@ -6438,30 +6438,30 @@ static signed int Split_eatNum(const char *string, struct _QRinput *input, enum 
 
 // Split_identifyMode
 // file split.c line 53
-static enum anonymous$8 Split_identifyMode(const char *string, enum anonymous$8 hint)
+static enum anonymous_8 Split_identifyMode(const char *string, enum anonymous_8 hint)
 {
   unsigned char c;
   unsigned char d;
   unsigned int word;
   c = (unsigned char)string[(signed long int)0];
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if((signed int)c == 0)
-    return (enum anonymous$8)QR_MODE_NUL;
+    return (enum anonymous_8)QR_MODE_NUL;
 
   else
   {
     if(!((signed int)(208 + (unsigned char)(signed int)(signed char)c) >= 10))
-      return (enum anonymous$8)QR_MODE_NUM;
+      return (enum anonymous_8)QR_MODE_NUM;
 
     else
     {
       if(!((0x80 & (signed int)c) == 0))
-        tmp_if_expr$1 = -1;
+        tmp_if_expr_1 = -1;
 
       else
-        tmp_if_expr$1 = (signed int)QRinput_anTable[(signed long int)(signed int)c];
-      if(tmp_if_expr$1 >= 0)
-        return (enum anonymous$8)QR_MODE_AN;
+        tmp_if_expr_1 = (signed int)QRinput_anTable[(signed long int)(signed int)c];
+      if(tmp_if_expr_1 >= 0)
+        return (enum anonymous_8)QR_MODE_AN;
 
       else
         if((signed int)hint == QR_MODE_KANJI)
@@ -6471,23 +6471,23 @@ static enum anonymous$8 Split_identifyMode(const char *string, enum anonymous$8 
           {
             word = (unsigned int)c << 8 | (unsigned int)d;
             if(word >= 33088u && !(word >= 40957u) || word >= 57408u && !(word >= 60352u))
-              return (enum anonymous$8)QR_MODE_KANJI;
+              return (enum anonymous_8)QR_MODE_KANJI;
 
           }
 
         }
 
     }
-    return (enum anonymous$8)QR_MODE_8;
+    return (enum anonymous_8)QR_MODE_8;
   }
 }
 
 // Split_splitString
 // file split.c line 259
-static signed int Split_splitString(const char *string, struct _QRinput *input, enum anonymous$8 hint)
+static signed int Split_splitString(const char *string, struct _QRinput *input, enum anonymous_8 hint)
 {
   signed int length;
-  enum anonymous$8 mode;
+  enum anonymous_8 mode;
   if((signed int)*string == 0)
     return 0;
 
@@ -6516,30 +6516,30 @@ static signed int Split_splitString(const char *string, struct _QRinput *input, 
 
       else
       {
-        signed int return_value_Split_splitString$1;
-        return_value_Split_splitString$1=Split_splitString(&string[(signed long int)length], input, hint);
-        return return_value_Split_splitString$1;
+        signed int return_value_Split_splitString_1;
+        return_value_Split_splitString_1=Split_splitString(&string[(signed long int)length], input, hint);
+        return return_value_Split_splitString_1;
       }
   }
 }
 
 // Split_splitStringToQRinput
 // file split.h line 44
-extern signed int Split_splitStringToQRinput(const char *string, struct _QRinput *input, enum anonymous$8 hint, signed int casesensitive)
+extern signed int Split_splitStringToQRinput(const char *string, struct _QRinput *input, enum anonymous_8 hint, signed int casesensitive)
 {
   char *newstr;
   signed int ret;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(string == ((const char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)*string == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)*string == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -6560,11 +6560,11 @@ extern signed int Split_splitStringToQRinput(const char *string, struct _QRinput
 
 // dupAndToUpper
 // file split.c line 282
-static char * dupAndToUpper(const char *str, enum anonymous$8 hint)
+static char * dupAndToUpper(const char *str, enum anonymous_8 hint)
 {
   char *newstr;
   char *p;
-  enum anonymous$8 mode;
+  enum anonymous_8 mode;
   newstr=strdup(str);
   if(newstr == ((char *)NULL))
     return (char *)(void *)0;
@@ -6603,8 +6603,8 @@ extern void encode_rs_char(struct _RS *rs, const unsigned char *data, unsigned c
   unsigned char feedback;
   memset((void *)parity, 0, (unsigned long int)rs->nroots * sizeof(unsigned char) /*1ul*/ );
   i = 0;
-  signed int return_value_modnn$1;
-  signed int return_value_modnn$2;
+  signed int return_value_modnn_1;
+  signed int return_value_modnn_2;
   for( ; !(i >= rs->nn + -rs->nroots + -rs->pad); i = i + 1)
   {
     feedback = rs->index_of[(signed long int)((signed int)data[(signed long int)i] ^ (signed int)parity[(signed long int)0])];
@@ -6613,16 +6613,16 @@ extern void encode_rs_char(struct _RS *rs, const unsigned char *data, unsigned c
       j = 1;
       for( ; !(j >= rs->nroots); j = j + 1)
       {
-        return_value_modnn$1=modnn(rs, (signed int)feedback + (signed int)rs->genpoly[(signed long int)(rs->nroots - j)]);
-        parity[(signed long int)j] = parity[(signed long int)j] ^ rs->alpha_to[(signed long int)return_value_modnn$1];
+        return_value_modnn_1=modnn(rs, (signed int)feedback + (signed int)rs->genpoly[(signed long int)(rs->nroots - j)]);
+        parity[(signed long int)j] = parity[(signed long int)j] ^ rs->alpha_to[(signed long int)return_value_modnn_1];
       }
     }
 
     memmove((void *)&parity[(signed long int)0], (const void *)&parity[(signed long int)1], sizeof(unsigned char) /*1ul*/  * (unsigned long int)(rs->nroots - 1));
     if(!((signed int)feedback == rs->nn))
     {
-      return_value_modnn$2=modnn(rs, (signed int)feedback + (signed int)rs->genpoly[(signed long int)0]);
-      parity[(signed long int)(rs->nroots - 1)] = rs->alpha_to[(signed long int)return_value_modnn$2];
+      return_value_modnn_2=modnn(rs, (signed int)feedback + (signed int)rs->genpoly[(signed long int)0]);
+      parity[(signed long int)(rs->nroots - 1)] = rs->alpha_to[(signed long int)return_value_modnn_2];
     }
 
     else
@@ -6634,7 +6634,7 @@ extern void encode_rs_char(struct _RS *rs, const unsigned char *data, unsigned c
 // file pthread_qrencode.c line 29
 void * encode_ver1to10(void *arg)
 {
-  struct anonymous$1 *code;
+  struct anonymous_1 *code;
   signed int i;
   signed int version;
   i = 0;
@@ -6644,8 +6644,8 @@ void * encode_ver1to10(void *arg)
     for( ; !(version >= 11); version = version + 1)
     {
       static const char *data = "This is test.";
-      code=QRcode_encodeString(data, version, (enum anonymous$7)QR_ECLEVEL_L, (enum anonymous$8)QR_MODE_8, 0);
-      if(code == ((struct anonymous$1 *)NULL))
+      code=QRcode_encodeString(data, version, (enum anonymous_7)QR_ECLEVEL_L, (enum anonymous_8)QR_MODE_8, 0);
+      if(code == ((struct anonymous_1 *)NULL))
         perror("Failed to encode:");
 
       else
@@ -6659,7 +6659,7 @@ void * encode_ver1to10(void *arg)
 // file pthread_qrencode.c line 64
 void * encode_ver31to40(void *arg)
 {
-  struct anonymous$1 *code;
+  struct anonymous_1 *code;
   signed int i;
   signed int version;
   i = 0;
@@ -6669,8 +6669,8 @@ void * encode_ver31to40(void *arg)
     for( ; !(version >= 41); version = version + 1)
     {
       static const char *data = "This is test.";
-      code=QRcode_encodeString(data, version, (enum anonymous$7)QR_ECLEVEL_L, (enum anonymous$8)QR_MODE_8, 0);
-      if(code == ((struct anonymous$1 *)NULL))
+      code=QRcode_encodeString(data, version, (enum anonymous_7)QR_ECLEVEL_L, (enum anonymous_8)QR_MODE_8, 0);
+      if(code == ((struct anonymous_1 *)NULL))
         perror("Failed to encode:");
 
       else
@@ -6763,11 +6763,11 @@ static struct _RS * init_rs_char(signed int symsize, signed int gfpoly, signed i
   signed int root;
   signed int iprim;
   rs = (struct _RS *)(void *)0;
-  void *return_value_calloc$1;
-  void *return_value_malloc$2;
-  void *return_value_malloc$3;
-  void *return_value_malloc$4;
-  signed int return_value_modnn$5;
+  void *return_value_calloc_1;
+  void *return_value_malloc_2;
+  void *return_value_malloc_3;
+  void *return_value_malloc_4;
+  signed int return_value_modnn_5;
   if(!(symsize >= 9) && symsize >= 0)
   {
     if(!(fcr >= 1 << symsize) && fcr >= 0)
@@ -6778,15 +6778,15 @@ static struct _RS * init_rs_char(signed int symsize, signed int gfpoly, signed i
         {
           if(!(pad >= (1 << symsize) + -1 + -nroots) && pad >= 0)
           {
-            return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct _RS) /*64ul*/ );
-            rs = (struct _RS *)return_value_calloc$1;
+            return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct _RS) /*64ul*/ );
+            rs = (struct _RS *)return_value_calloc_1;
             if(!(rs == ((struct _RS *)NULL)))
             {
               rs->mm = symsize;
               rs->nn = (1 << symsize) - 1;
               rs->pad = pad;
-              return_value_malloc$2=malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)(rs->nn + 1));
-              rs->alpha_to = (unsigned char *)return_value_malloc$2;
+              return_value_malloc_2=malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)(rs->nn + 1));
+              rs->alpha_to = (unsigned char *)return_value_malloc_2;
               if(rs->alpha_to == ((unsigned char *)NULL))
               {
                 free((void *)rs);
@@ -6795,8 +6795,8 @@ static struct _RS * init_rs_char(signed int symsize, signed int gfpoly, signed i
 
               else
               {
-                return_value_malloc$3=malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)(rs->nn + 1));
-                rs->index_of = (unsigned char *)return_value_malloc$3;
+                return_value_malloc_3=malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)(rs->nn + 1));
+                rs->index_of = (unsigned char *)return_value_malloc_3;
                 if(rs->index_of == ((unsigned char *)NULL))
                 {
                   free((void *)rs->alpha_to);
@@ -6830,8 +6830,8 @@ static struct _RS * init_rs_char(signed int symsize, signed int gfpoly, signed i
 
                   else
                   {
-                    return_value_malloc$4=malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)(nroots + 1));
-                    rs->genpoly = (unsigned char *)return_value_malloc$4;
+                    return_value_malloc_4=malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)(nroots + 1));
+                    rs->genpoly = (unsigned char *)return_value_malloc_4;
                     if(rs->genpoly == ((unsigned char *)NULL))
                     {
                       free((void *)rs->alpha_to);
@@ -6860,15 +6860,15 @@ static struct _RS * init_rs_char(signed int symsize, signed int gfpoly, signed i
                         for( ; j >= 1; j = j - 1)
                           if(!((signed int)rs->genpoly[(signed long int)j] == 0))
                           {
-                            return_value_modnn$5=modnn(rs, (signed int)rs->index_of[(signed long int)rs->genpoly[(signed long int)j]] + root);
-                            rs->genpoly[(signed long int)j] = (unsigned char)((signed int)rs->genpoly[(signed long int)(j - 1)] ^ (signed int)rs->alpha_to[(signed long int)return_value_modnn$5]);
+                            return_value_modnn_5=modnn(rs, (signed int)rs->index_of[(signed long int)rs->genpoly[(signed long int)j]] + root);
+                            rs->genpoly[(signed long int)j] = (unsigned char)((signed int)rs->genpoly[(signed long int)(j - 1)] ^ (signed int)rs->alpha_to[(signed long int)return_value_modnn_5]);
                           }
 
                           else
                             rs->genpoly[(signed long int)j] = rs->genpoly[(signed long int)(j - 1)];
-                        signed int return_value_modnn$6;
-                        return_value_modnn$6=modnn(rs, (signed int)rs->index_of[(signed long int)rs->genpoly[(signed long int)0]] + root);
-                        rs->genpoly[(signed long int)0] = rs->alpha_to[(signed long int)return_value_modnn$6];
+                        signed int return_value_modnn_6;
+                        return_value_modnn_6=modnn(rs, (signed int)rs->index_of[(signed long int)rs->genpoly[(signed long int)0]] + root);
+                        rs->genpoly[(signed long int)0] = rs->alpha_to[(signed long int)return_value_modnn_6];
                         i = i + 1;
                       }
                       i = 0;
@@ -6966,24 +6966,24 @@ static void putFinderPattern(unsigned char *frame, signed int width, signed int 
   }
 }
 
-// putFinderPattern$link1
+// putFinderPattern_link1
 // file mqrspec.c line 175
-static void putFinderPattern$link1(unsigned char *frame$link1, signed int width$link1, signed int ox$link1, signed int oy$link1)
+static void putFinderPattern_link1(unsigned char *frame_link1, signed int width_link1, signed int ox_link1, signed int oy_link1)
 {
-  signed int x$link1;
-  signed int y$link1;
-  const unsigned char *s$link1;
-  frame$link1 = frame$link1 + (signed long int)(oy$link1 * width$link1 + ox$link1);
-  static const unsigned char finder$link1[49l] = { (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc0, (const unsigned char)0xc0, (const unsigned char)0xc0, (const unsigned char)0xc0, (const unsigned char)0xc0, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc0, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc0, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc0, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc0, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc0, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc0, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc0, (const unsigned char)0xc0, (const unsigned char)0xc0, (const unsigned char)0xc0, (const unsigned char)0xc0, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1 };
-  s$link1 = finder$link1;
-  y$link1 = 0;
-  for( ; !(y$link1 >= 7); y$link1 = y$link1 + 1)
+  signed int x_link1;
+  signed int y_link1;
+  const unsigned char *s_link1;
+  frame_link1 = frame_link1 + (signed long int)(oy_link1 * width_link1 + ox_link1);
+  static const unsigned char finder_link1[49l] = { (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc0, (const unsigned char)0xc0, (const unsigned char)0xc0, (const unsigned char)0xc0, (const unsigned char)0xc0, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc0, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc0, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc0, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc0, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc0, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc0, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc0, (const unsigned char)0xc0, (const unsigned char)0xc0, (const unsigned char)0xc0, (const unsigned char)0xc0, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1, (const unsigned char)0xc1 };
+  s_link1 = finder_link1;
+  y_link1 = 0;
+  for( ; !(y_link1 >= 7); y_link1 = y_link1 + 1)
   {
-    x$link1 = 0;
-    for( ; !(x$link1 >= 7); x$link1 = x$link1 + 1)
-      frame$link1[(signed long int)x$link1] = s$link1[(signed long int)x$link1];
-    frame$link1 = frame$link1 + (signed long int)width$link1;
-    s$link1 = s$link1 + (signed long int)7;
+    x_link1 = 0;
+    for( ; !(x_link1 >= 7); x_link1 = x_link1 + 1)
+      frame_link1[(signed long int)x_link1] = s_link1[(signed long int)x_link1];
+    frame_link1 = frame_link1 + (signed long int)width_link1;
+    s_link1 = s_link1 + (signed long int)7;
   }
 }
 

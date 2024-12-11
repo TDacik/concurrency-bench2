@@ -1,8 +1,8 @@
-// tag-#anon#ST[*{SYM#tag-stringlist#}$SYM#tag-stringlist#$'lines'||S64'mtime'||ARR4097{S8}$S8$'file'||U56'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-stringlist#}_SYM#tag-stringlist#_'lines'||S64'mtime'||ARR4097{S8}_S8_'file'||U56'_pad0'|]
 // file configfile.h line 31
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -114,9 +114,9 @@ extern signed int __xstat(signed int, const char *, struct stat *);
 // bsearch
 // file /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h line 20
 static inline void * bsearch(const void *__key, const void *__base, unsigned long int __nmemb, unsigned long int __size, signed int (*__compar)(const void *, const void *));
-// bsearch::__compar$object
+// bsearch::__compar_object
 //
-signed int __compar$object(const void *, const void *);
+signed int __compar_object(const void *, const void *);
 // cache_servers
 // file cache.c line 385
 signed int cache_servers(struct _SMBCCTX *ctx);
@@ -140,34 +140,34 @@ static void compute_bits(void);
 static unsigned long int compute_mask(unsigned long int size);
 // config_free
 // file configfile.c line 347
-void config_free(struct anonymous$0 *cf);
+void config_free(struct anonymous_0 *cf);
 // config_has_section
 // file configfile.c line 161
-signed int config_has_section(struct anonymous$0 *cf, const char *section);
+signed int config_has_section(struct anonymous_0 *cf, const char *section);
 // config_init
 // file configfile.h line 37
-signed int config_init(struct anonymous$0 *cf, const char *file);
+signed int config_init(struct anonymous_0 *cf, const char *file);
 // config_read_bool
 // file configfile.h line 43
-signed int config_read_bool(struct anonymous$0 *cf, const char *section, const char *key, signed int *value);
+signed int config_read_bool(struct anonymous_0 *cf, const char *section, const char *key, signed int *value);
 // config_read_file
 // file configfile.c line 69
-static signed int config_read_file(struct anonymous$0 *cf);
+static signed int config_read_file(struct anonymous_0 *cf);
 // config_read_int
 // file configfile.c line 224
-signed int config_read_int(struct anonymous$0 *cf, const char *section, const char *key, signed int *value);
+signed int config_read_int(struct anonymous_0 *cf, const char *section, const char *key, signed int *value);
 // config_read_section_keys
 // file configfile.c line 299
-signed int config_read_section_keys(struct anonymous$0 *cf, const char *section, struct stringlist **value);
+signed int config_read_section_keys(struct anonymous_0 *cf, const char *section, struct stringlist **value);
 // config_read_string
 // file configfile.h line 41
-signed int config_read_string(struct anonymous$0 *cf, const char *section, const char *key, char **value);
+signed int config_read_string(struct anonymous_0 *cf, const char *section, const char *key, char **value);
 // config_read_stringlist
 // file configfile.h line 44
-signed int config_read_stringlist(struct anonymous$0 *cf, const char *section, const char *key, struct stringlist **value, char sep);
+signed int config_read_stringlist(struct anonymous_0 *cf, const char *section, const char *key, struct stringlist **value, char sep);
 // config_reload_ifneeded
 // file configfile.c line 148
-signed int config_reload_ifneeded(struct anonymous$0 *cf);
+signed int config_reload_ifneeded(struct anonymous_0 *cf);
 // exit
 // file /usr/include/stdlib.h line 543
 extern void exit(signed int);
@@ -203,16 +203,16 @@ static void fusesmb_auth_fn(const char *server, const char *share, char *workgro
 static void fusesmb_cache_auth_fn(const char *server, const char *share, char *workgroup, signed int wgmaxlen, char *username, signed int unmaxlen, char *password, signed int pwmaxlen);
 // fusesmb_cache_new_context
 // file smbctx.h line 26
-struct _SMBCCTX * fusesmb_cache_new_context(struct anonymous$0 *cf);
+struct _SMBCCTX * fusesmb_cache_new_context(struct anonymous_0 *cf);
 // fusesmb_context
 // file smbctx.c line 248
 static struct _SMBCCTX * fusesmb_context(void (*fn)(const char *, const char *, char *, signed int, char *, signed int, char *, signed int));
-// fusesmb_context::fn$object
+// fusesmb_context::fn_object
 //
-void fn$object(const char *, const char *, char *, signed int, char *, signed int, char *, signed int);
+void fn_object(const char *, const char *, char *, signed int, char *, signed int, char *, signed int);
 // fusesmb_new_context
 // file smbctx.c line 276
-struct _SMBCCTX * fusesmb_new_context(struct anonymous$0 *cf, union anonymous *mutex);
+struct _SMBCCTX * fusesmb_new_context(struct anonymous_0 *cf, union anonymous *mutex);
 // getenv
 // file /usr/include/stdlib.h line 564
 extern char * getenv(const char *);
@@ -231,12 +231,12 @@ extern unsigned long int hash_count(struct hash_t *hash);
 // hash_create
 // file hash.h line 189
 extern struct hash_t * hash_create(unsigned long int hash_maxcount, signed int (*compfun)(const void *, const void *), unsigned long int (*hashfun)(const void *));
-// hash_create::compfun$object
+// hash_create::compfun_object
 //
-signed int compfun$object(const void *, const void *);
-// hash_create::hashfun$object
+signed int compfun_object(const void *, const void *);
+// hash_create::hashfun_object
 //
-unsigned long int hashfun$object(const void *);
+unsigned long int hashfun_object(const void *);
 // hash_delete
 // file hash.c line 590
 extern struct hnode_t * hash_delete(struct hash_t *hash, struct hnode_t *node);
@@ -258,12 +258,12 @@ static unsigned long int hash_fun_default(const void *hash_key);
 // hash_init
 // file hash.c line 398
 extern struct hash_t * hash_init(struct hash_t *hash, unsigned long int hash_maxcount, signed int (*compfun)(const void *, const void *), unsigned long int (*hashfun)(const void *), struct hnode_t **hash_table, unsigned long int hash_nchains);
-// hash_init::compfun$object
+// hash_init::compfun_object
 //
-signed int compfun$object(const void *, const void *);
-// hash_init::hashfun$object
+signed int compfun_object(const void *, const void *);
+// hash_init::hashfun_object
 //
-unsigned long int hashfun$object(const void *);
+unsigned long int hashfun_object(const void *);
 // hash_insert
 // file hash.c line 518
 extern void hash_insert(struct hash_t *hash, struct hnode_t *node, const void *hash_key);
@@ -291,12 +291,12 @@ extern struct hnode_t * hash_scan_next(struct hscan_t *scan);
 // hash_set_allocator
 // file hash.c line 330
 extern void hash_set_allocator(struct hash_t *hash, struct hnode_t * (*al)(void *), void (*fr)(struct hnode_t *, void *), void *hash_context);
-// hash_set_allocator::al$object
+// hash_set_allocator::al_object
 //
-struct hnode_t * al$object(void *);
-// hash_set_allocator::fr$object
+struct hnode_t * al_object(void *);
+// hash_set_allocator::fr_object
 //
-void fr$object(struct hnode_t *, void *);
+void fr_object(struct hnode_t *, void *);
 // hash_size
 // file hash.c line 814
 extern unsigned long int hash_size(struct hash_t *hash);
@@ -348,15 +348,15 @@ extern signed int mkstemp(char *);
 // nmblookup
 // file cache.c line 89
 static signed int nmblookup(const char *wg, struct stringlist *sl, struct hash_t *ipcache);
-// nmblookup$link1
+// nmblookup_link1
 // file smbctx.c line 29
-static signed int nmblookup$link1(const char *ip_server, char *output, unsigned long int outputsize);
+static signed int nmblookup_link1(const char *ip_server, char *output, unsigned long int outputsize);
 // options_free
 // file cache.c line 72
 static void options_free(struct fusesmb_cache_opt *opt);
 // options_read
 // file cache.c line 58
-static void options_read(struct anonymous$0 *cfg, struct fusesmb_cache_opt *opt);
+static void options_read(struct anonymous_0 *cfg, struct fusesmb_cache_opt *opt);
 // pclose
 // file /usr/include/stdio.h line 878
 extern signed int pclose(struct _IO_FILE *);
@@ -456,9 +456,9 @@ extern signed int snprintf(char *, unsigned long int, const char *, ...);
 // stat
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf);
-// stat$link1
+// stat_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
-static inline signed int stat$link1(const char *__path$link1, struct stat *__statbuf$link1);
+static inline signed int stat_link1(const char *__path_link1, struct stat *__statbuf_link1);
 // strcasecmp
 // file /usr/include/string.h line 533
 extern signed int strcasecmp(const char *, const char *);
@@ -502,7 +502,7 @@ extern signed int unlink(const char *);
 // file cache.c line 283
 static void * workgroup_listing_thread(void *args);
 
-struct anonymous$0
+struct anonymous_0
 {
   // lines
   struct stringlist *lines;
@@ -905,10 +905,10 @@ union anonymous cache_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // cfg
 // file cache.c line 55
-struct anonymous$0 cfg;
+struct anonymous_0 cfg;
 // fusesmb_auth_fn_cfg
 // file smbctx.c line 26
-struct anonymous$0 *fusesmb_auth_fn_cfg = (struct anonymous$0 *)(void *)0;
+struct anonymous_0 *fusesmb_auth_fn_cfg = (struct anonymous_0 *)(void *)0;
 // fusesmb_auth_fn_cfg_mutex
 // file smbctx.c line 27
 union anonymous *fusesmb_auth_fn_cfg_mutex = (union anonymous *)(void *)0;
@@ -961,7 +961,7 @@ signed int cache_servers(struct _SMBCCTX *ctx)
   cache=sl_init();
   unsigned long int i;
   dir=ctx->opendir(ctx, "smb://");
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(dir == ((struct _SMBCFILE *)NULL))
   {
     ctx->closedir(ctx, dir);
@@ -972,9 +972,9 @@ signed int cache_servers(struct _SMBCCTX *ctx)
   else
   {
     unsigned long int *threads;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(unsigned long int) /*8ul*/ );
-    threads = (unsigned long int *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(unsigned long int) /*8ul*/ );
+    threads = (unsigned long int *)return_value_malloc_1;
     if(threads == ((unsigned long int *)NULL))
       return -1;
 
@@ -988,27 +988,27 @@ signed int cache_servers(struct _SMBCCTX *ctx)
       if(!(workgroup_dirent == ((struct smbc_dirent *)NULL)))
       {
         if(workgroup_dirent->namelen == 0u)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = workgroup_dirent->smbc_type != (unsigned int)1 ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$2)
+          tmp_if_expr_2 = workgroup_dirent->smbc_type != (unsigned int)1 ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_2)
         {
           char *thread_arg;
-          char *return_value___strdup$3;
-          return_value___strdup$3=__strdup(workgroup_dirent->name);
-          thread_arg = return_value___strdup$3;
+          char *return_value___strdup_3;
+          return_value___strdup_3=__strdup(workgroup_dirent->name);
+          thread_arg = return_value___strdup_3;
           if(!(opts.ignore_workgroups == ((struct stringlist *)NULL)))
           {
-            char *return_value_sl_find$4;
-            return_value_sl_find$4=sl_find(opts.ignore_workgroups, workgroup_dirent->name);
+            char *return_value_sl_find_4;
+            return_value_sl_find_4=sl_find(opts.ignore_workgroups, workgroup_dirent->name);
           }
 
           if(!(thread_arg == ((char *)NULL)))
           {
-            signed int cache_servers$$1$$2$$rc;
-            cache_servers$$1$$2$$rc=pthread_create(&threads[(signed long int)num_threads], &thread_attr, workgroup_listing_thread, (void *)thread_arg);
-            if(!(cache_servers$$1$$2$$rc == 0))
+            signed int cache_servers__1__2__rc;
+            cache_servers__1__2__rc=pthread_create(&threads[(signed long int)num_threads], &thread_attr, workgroup_listing_thread, (void *)thread_arg);
+            if(!(cache_servers__1__2__rc == 0))
             {
               fprintf(stderr, "Failed to create thread for workgroup: %s\n", (const void *)workgroup_dirent->name);
               free((void *)thread_arg);
@@ -1017,9 +1017,9 @@ signed int cache_servers(struct _SMBCCTX *ctx)
             else
             {
               num_threads = num_threads + 1u;
-              void *return_value_realloc$5;
-              return_value_realloc$5=realloc((void *)threads, (unsigned long int)(num_threads + (unsigned int)1) * sizeof(unsigned long int) /*8ul*/ );
-              threads = (unsigned long int *)return_value_realloc$5;
+              void *return_value_realloc_5;
+              return_value_realloc_5=realloc((void *)threads, (unsigned long int)(num_threads + (unsigned int)1) * sizeof(unsigned long int) /*8ul*/ );
+              threads = (unsigned long int *)return_value_realloc_5;
             }
           }
 
@@ -1047,13 +1047,13 @@ signed int cache_servers(struct _SMBCCTX *ctx)
       sl_casesort(cache);
       char cachefile[1024l];
       char tmp_cachefile[1024l];
-      char *return_value_getenv$6;
-      return_value_getenv$6=getenv("HOME");
-      snprintf(tmp_cachefile, (unsigned long int)1024, "%s/.smb/fusesmb.cache.XXXXX", return_value_getenv$6);
+      char *return_value_getenv_6;
+      return_value_getenv_6=getenv("HOME");
+      snprintf(tmp_cachefile, (unsigned long int)1024, "%s/.smb/fusesmb.cache.XXXXX", return_value_getenv_6);
       mkstemp(tmp_cachefile);
-      char *return_value_getenv$7;
-      return_value_getenv$7=getenv("HOME");
-      snprintf(cachefile, (unsigned long int)1024, "%s/.smb/fusesmb.cache", return_value_getenv$7);
+      char *return_value_getenv_7;
+      return_value_getenv_7=getenv("HOME");
+      snprintf(cachefile, (unsigned long int)1024, "%s/.smb/fusesmb.cache", return_value_getenv_7);
       unsigned int oldmask;
       oldmask=umask((unsigned int)022);
       struct _IO_FILE *fp;
@@ -1068,13 +1068,13 @@ signed int cache_servers(struct _SMBCCTX *ctx)
       else
       {
         i = (unsigned long int)0;
-        unsigned long int return_value_sl_count$8;
-        return_value_sl_count$8=sl_count(cache);
-        if(!(i >= return_value_sl_count$8))
+        unsigned long int return_value_sl_count_8;
+        return_value_sl_count_8=sl_count(cache);
+        if(!(i >= return_value_sl_count_8))
         {
-          char *return_value_sl_item$9;
-          return_value_sl_item$9=sl_item(cache, i);
-          fprintf(fp, "%s\n", return_value_sl_item$9);
+          char *return_value_sl_item_9;
+          return_value_sl_item_9=sl_item(cache, i);
+          fprintf(fp, "%s\n", return_value_sl_item_9);
           i = i + 1ul;
         }
 
@@ -1111,10 +1111,10 @@ static void compute_bits(void)
 // file hash.c line 108
 static unsigned long int compute_mask(unsigned long int size)
 {
-  signed int return_value_is_power_of_two$1;
-  return_value_is_power_of_two$1=is_power_of_two(size);
+  signed int return_value_is_power_of_two_1;
+  return_value_is_power_of_two_1=is_power_of_two(size);
   /* assertion is_power_of_two(size) */
-  assert(return_value_is_power_of_two$1 != 0);
+  assert(return_value_is_power_of_two_1 != 0);
   /* assertion size >= 2 */
   assert(size >= (unsigned long int)2);
   return size - (unsigned long int)1;
@@ -1122,26 +1122,26 @@ static unsigned long int compute_mask(unsigned long int size)
 
 // config_free
 // file configfile.c line 347
-void config_free(struct anonymous$0 *cf)
+void config_free(struct anonymous_0 *cf)
 {
   sl_free(cf->lines);
 }
 
 // config_has_section
 // file configfile.c line 161
-signed int config_has_section(struct anonymous$0 *cf, const char *section)
+signed int config_has_section(struct anonymous_0 *cf, const char *section)
 {
-  signed long int config_has_section$array_size0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(section);
-  config_has_section$array_size0 = (signed long int)(return_value_strlen$1 + (unsigned long int)3);
-  char buf[config_has_section$array_size0];
+  signed long int config_has_section_array_size0;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(section);
+  config_has_section_array_size0 = (signed long int)(return_value_strlen_1 + (unsigned long int)3);
+  char buf[config_has_section_array_size0];
   strcpy(buf, "[");
   strcat(buf, section);
   strcat(buf, "]");
-  char *return_value_sl_find$2;
-  return_value_sl_find$2=sl_find(cf->lines, buf);
-  if(!(return_value_sl_find$2 == ((char *)NULL)))
+  char *return_value_sl_find_2;
+  return_value_sl_find_2=sl_find(cf->lines, buf);
+  if(!(return_value_sl_find_2 == ((char *)NULL)))
     return 0;
 
   else
@@ -1150,12 +1150,12 @@ signed int config_has_section(struct anonymous$0 *cf, const char *section)
 
 // config_init
 // file configfile.h line 37
-signed int config_init(struct anonymous$0 *cf, const char *file)
+signed int config_init(struct anonymous_0 *cf, const char *file)
 {
   struct stat st;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat$link1(file, &st);
-  if(return_value_stat$1 == -1)
+  signed int return_value_stat_1;
+  return_value_stat_1=stat_link1(file, &st);
+  if(return_value_stat_1 == -1)
     return -1;
 
   else
@@ -1176,53 +1176,53 @@ signed int config_init(struct anonymous$0 *cf, const char *file)
 
 // config_read_bool
 // file configfile.h line 43
-signed int config_read_bool(struct anonymous$0 *cf, const char *section, const char *key, signed int *value)
+signed int config_read_bool(struct anonymous_0 *cf, const char *section, const char *key, signed int *value)
 {
   char *str;
-  signed int return_value_config_read_string$9;
-  return_value_config_read_string$9=config_read_string(cf, section, key, &str);
-  _Bool tmp_if_expr$4;
-  signed int tmp_statement_expression$2;
-  _Bool tmp_if_expr$8;
-  signed int tmp_statement_expression$6;
-  if(return_value_config_read_string$9 == 0)
+  signed int return_value_config_read_string_9;
+  return_value_config_read_string_9=config_read_string(cf, section, key, &str);
+  _Bool tmp_if_expr_4;
+  signed int tmp_statement_expression_2;
+  _Bool tmp_if_expr_8;
+  signed int tmp_statement_expression_6;
+  if(return_value_config_read_string_9 == 0)
   {
-    signed int return_value_strcasecmp$1;
-    return_value_strcasecmp$1=strcasecmp("true", str);
-    if(return_value_strcasecmp$1 == 0)
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value_strcasecmp_1;
+    return_value_strcasecmp_1=strcasecmp("true", str);
+    if(return_value_strcasecmp_1 == 0)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
       unsigned long int __s1_len;
       unsigned long int __s2_len;
-      signed int return_value___builtin_strcmp$3;
-      return_value___builtin_strcmp$3=__builtin_strcmp("1", str);
-      tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-      tmp_if_expr$4 = tmp_statement_expression$2 == 0 ? (_Bool)1 : (_Bool)0;
+      signed int return_value___builtin_strcmp_3;
+      return_value___builtin_strcmp_3=__builtin_strcmp("1", str);
+      tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+      tmp_if_expr_4 = tmp_statement_expression_2 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
     {
       *value = 1;
       free((void *)str);
       return 0;
     }
 
-    signed int return_value_strcasecmp$5;
-    return_value_strcasecmp$5=strcasecmp("false", str);
-    if(return_value_strcasecmp$5 == 0)
-      tmp_if_expr$8 = (_Bool)1;
+    signed int return_value_strcasecmp_5;
+    return_value_strcasecmp_5=strcasecmp("false", str);
+    if(return_value_strcasecmp_5 == 0)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
     {
-      unsigned long int config_read_bool$$1$$1$$3$$__s1_len;
-      unsigned long int config_read_bool$$1$$1$$3$$__s2_len;
-      signed int return_value___builtin_strcmp$7;
-      return_value___builtin_strcmp$7=__builtin_strcmp("0", str);
-      tmp_statement_expression$6 = return_value___builtin_strcmp$7;
-      tmp_if_expr$8 = tmp_statement_expression$6 == 0 ? (_Bool)1 : (_Bool)0;
+      unsigned long int config_read_bool__1__1__3____s1_len;
+      unsigned long int config_read_bool__1__1__3____s2_len;
+      signed int return_value___builtin_strcmp_7;
+      return_value___builtin_strcmp_7=__builtin_strcmp("0", str);
+      tmp_statement_expression_6 = return_value___builtin_strcmp_7;
+      tmp_if_expr_8 = tmp_statement_expression_6 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$8)
+    if(tmp_if_expr_8)
     {
       *value = 0;
       free((void *)str);
@@ -1237,12 +1237,12 @@ signed int config_read_bool(struct anonymous$0 *cf, const char *section, const c
 
 // config_read_file
 // file configfile.c line 69
-static signed int config_read_file(struct anonymous$0 *cf)
+static signed int config_read_file(struct anonymous_0 *cf)
 {
   char buf[4096l];
   struct _IO_FILE *fp;
   fp=fopen(cf->file, "r");
-  signed int return_value_feof$1;
+  signed int return_value_feof_1;
   if(fp == ((struct _IO_FILE *)NULL))
     return -1;
 
@@ -1251,13 +1251,13 @@ static signed int config_read_file(struct anonymous$0 *cf)
     sl_clear(cf->lines);
     do
     {
-      return_value_feof$1=feof(fp);
-      if(!(return_value_feof$1 == 0))
+      return_value_feof_1=feof(fp);
+      if(!(return_value_feof_1 == 0))
         break;
 
-      char *return_value_fgets$2;
-      return_value_fgets$2=fgets(buf, (signed int)sizeof(char [4096l]) /*4096ul*/ , fp);
-      if(!(return_value_fgets$2 == ((char *)NULL)))
+      char *return_value_fgets_2;
+      return_value_fgets_2=fgets(buf, (signed int)sizeof(char [4096l]) /*4096ul*/ , fp);
+      if(!(return_value_fgets_2 == ((char *)NULL)))
       {
         char *stripped_string;
         stripped_string=strip_whitespace_check_comment(buf);
@@ -1278,9 +1278,9 @@ static signed int config_read_file(struct anonymous$0 *cf)
           __CPROVER_DUMP_L6:
             ;
             char *end;
-            unsigned long int return_value_strlen$3;
-            return_value_strlen$3=strlen(stripped_string);
-            end = (stripped_string + (signed long int)return_value_strlen$3) - (signed long int)1;
+            unsigned long int return_value_strlen_3;
+            return_value_strlen_3=strlen(stripped_string);
+            end = (stripped_string + (signed long int)return_value_strlen_3) - (signed long int)1;
             for( ; (_Bool)1; end = end - 1l)
             {
               if(!((signed int)*end == 9))
@@ -1301,9 +1301,9 @@ static signed int config_read_file(struct anonymous$0 *cf)
             ;
             char section_string[4096l];
             snprintf(section_string, sizeof(char [4096l]) /*4096ul*/ , "[%s]", stripped_string);
-            signed int return_value_sl_add$4;
-            return_value_sl_add$4=sl_add(cf->lines, section_string, 1);
-            if(return_value_sl_add$4 == -1)
+            signed int return_value_sl_add_4;
+            return_value_sl_add_4=sl_add(cf->lines, section_string, 1);
+            if(return_value_sl_add_4 == -1)
               continue;
 
           }
@@ -1326,9 +1326,9 @@ static signed int config_read_file(struct anonymous$0 *cf)
               continue;
 
             snprintf(value_string, sizeof(char [4096l]) /*4096ul*/ , "%s=%s", key, value);
-            signed int return_value_sl_add$5;
-            return_value_sl_add$5=sl_add(cf->lines, value_string, 1);
-            if(return_value_sl_add$5 == -1)
+            signed int return_value_sl_add_5;
+            return_value_sl_add_5=sl_add(cf->lines, value_string, 1);
+            if(return_value_sl_add_5 == -1)
               continue;
 
           }
@@ -1345,18 +1345,18 @@ static signed int config_read_file(struct anonymous$0 *cf)
 
 // config_read_int
 // file configfile.c line 224
-signed int config_read_int(struct anonymous$0 *cf, const char *section, const char *key, signed int *value)
+signed int config_read_int(struct anonymous_0 *cf, const char *section, const char *key, signed int *value)
 {
   char *str;
-  signed int return_value_config_read_string$2;
-  return_value_config_read_string$2=config_read_string(cf, section, key, &str);
-  if(return_value_config_read_string$2 == 0)
+  signed int return_value_config_read_string_2;
+  return_value_config_read_string_2=config_read_string(cf, section, key, &str);
+  if(return_value_config_read_string_2 == 0)
   {
     char *p;
     signed int ret;
-    signed long int return_value_strtol$1;
-    return_value_strtol$1=strtol(str, &p, 10);
-    ret = (signed int)return_value_strtol$1;
+    signed long int return_value_strtol_1;
+    return_value_strtol_1=strtol(str, &p, 10);
+    ret = (signed int)return_value_strtol_1;
     if(!((signed int)*p == 0))
       return -1;
 
@@ -1370,20 +1370,20 @@ signed int config_read_int(struct anonymous$0 *cf, const char *section, const ch
 
 // config_read_section_keys
 // file configfile.c line 299
-signed int config_read_section_keys(struct anonymous$0 *cf, const char *section, struct stringlist **value)
+signed int config_read_section_keys(struct anonymous_0 *cf, const char *section, struct stringlist **value)
 {
   unsigned long int i;
-  signed long int i$array_size0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(section);
-  i$array_size0 = (signed long int)(return_value_strlen$1 + (unsigned long int)3);
-  char cmp_section[i$array_size0];
+  signed long int i_array_size0;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(section);
+  i_array_size0 = (signed long int)(return_value_strlen_1 + (unsigned long int)3);
+  char cmp_section[i_array_size0];
   strcpy(cmp_section, "[");
   strcat(cmp_section, section);
   strcat(cmp_section, "]");
   char section_found = (char)0;
   *value=sl_init();
-  unsigned long int return_value_sl_count$2;
+  unsigned long int return_value_sl_count_2;
   if(*value == ((struct stringlist *)NULL))
     return -1;
 
@@ -1392,15 +1392,15 @@ signed int config_read_section_keys(struct anonymous$0 *cf, const char *section,
     i = (unsigned long int)0;
     do
     {
-      return_value_sl_count$2=sl_count(cf->lines);
-      if(i >= return_value_sl_count$2)
+      return_value_sl_count_2=sl_count(cf->lines);
+      if(i >= return_value_sl_count_2)
         break;
 
-      char *return_value_sl_item$3;
-      return_value_sl_item$3=sl_item(cf->lines, i);
-      signed int return_value_strncasecmp$4;
-      return_value_strncasecmp$4=strncasecmp(return_value_sl_item$3, cmp_section, (unsigned long int)i$array_size0);
-      if(return_value_strncasecmp$4 == 0)
+      char *return_value_sl_item_3;
+      return_value_sl_item_3=sl_item(cf->lines, i);
+      signed int return_value_strncasecmp_4;
+      return_value_strncasecmp_4=strncasecmp(return_value_sl_item_3, cmp_section, (unsigned long int)i_array_size0);
+      if(return_value_strncasecmp_4 == 0)
       {
         if((signed int)section_found == 0)
         {
@@ -1412,30 +1412,30 @@ signed int config_read_section_keys(struct anonymous$0 *cf, const char *section,
 
       if((signed int)section_found == 1)
       {
-        char *return_value_sl_item$5;
-        return_value_sl_item$5=sl_item(cf->lines, i);
-        signed int return_value_strncasecmp$6;
-        return_value_strncasecmp$6=strncasecmp(return_value_sl_item$5, "[", (unsigned long int)1);
-        if(return_value_strncasecmp$6 == 0)
+        char *return_value_sl_item_5;
+        return_value_sl_item_5=sl_item(cf->lines, i);
+        signed int return_value_strncasecmp_6;
+        return_value_strncasecmp_6=strncasecmp(return_value_sl_item_5, "[", (unsigned long int)1);
+        if(return_value_strncasecmp_6 == 0)
           break;
 
         char buf[4096l];
-        char *return_value_sl_item$7;
-        return_value_sl_item$7=sl_item(cf->lines, i);
-        __builtin_strncpy(buf, return_value_sl_item$7, (unsigned long int)4096);
+        char *return_value_sl_item_7;
+        return_value_sl_item_7=sl_item(cf->lines, i);
+        __builtin_strncpy(buf, return_value_sl_item_7, (unsigned long int)4096);
         char *sep;
         sep=index(buf, 61);
         if(sep == ((char *)NULL))
           goto __CPROVER_DUMP_L9;
 
         *sep = (char)0;
-        unsigned long int return_value_strlen$9;
-        return_value_strlen$9=strlen(buf);
-        if(!(return_value_strlen$9 == 0ul))
+        unsigned long int return_value_strlen_9;
+        return_value_strlen_9=strlen(buf);
+        if(!(return_value_strlen_9 == 0ul))
         {
-          signed int return_value_sl_add$8;
-          return_value_sl_add$8=sl_add(*value, buf, 1);
-          if(return_value_sl_add$8 == -1)
+          signed int return_value_sl_add_8;
+          return_value_sl_add_8=sl_add(*value, buf, 1);
+          if(return_value_sl_add_8 == -1)
             goto __CPROVER_DUMP_L9;
 
         }
@@ -1448,9 +1448,9 @@ signed int config_read_section_keys(struct anonymous$0 *cf, const char *section,
       i = i + 1ul;
     }
     while((_Bool)1);
-    unsigned long int return_value_sl_count$10;
-    return_value_sl_count$10=sl_count(*value);
-    if(return_value_sl_count$10 >= 1ul)
+    unsigned long int return_value_sl_count_10;
+    return_value_sl_count_10=sl_count(*value);
+    if(return_value_sl_count_10 >= 1ul)
       return 0;
 
     else
@@ -1464,19 +1464,19 @@ signed int config_read_section_keys(struct anonymous$0 *cf, const char *section,
 
 // config_read_string
 // file configfile.h line 41
-signed int config_read_string(struct anonymous$0 *cf, const char *section, const char *key, char **value)
+signed int config_read_string(struct anonymous_0 *cf, const char *section, const char *key, char **value)
 {
   unsigned long int i;
-  signed long int i$array_size0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(section);
-  i$array_size0 = (signed long int)(return_value_strlen$1 + (unsigned long int)3);
-  char cmp_section[i$array_size0];
-  signed long int cmp_section$array_size0;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(key);
-  cmp_section$array_size0 = (signed long int)(return_value_strlen$2 + (unsigned long int)2);
-  char cmp_key[cmp_section$array_size0];
+  signed long int i_array_size0;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(section);
+  i_array_size0 = (signed long int)(return_value_strlen_1 + (unsigned long int)3);
+  char cmp_section[i_array_size0];
+  signed long int cmp_section_array_size0;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(key);
+  cmp_section_array_size0 = (signed long int)(return_value_strlen_2 + (unsigned long int)2);
+  char cmp_key[cmp_section_array_size0];
   strcpy(cmp_section, "[");
   strcat(cmp_section, section);
   strcat(cmp_section, "]");
@@ -1484,19 +1484,19 @@ signed int config_read_string(struct anonymous$0 *cf, const char *section, const
   strcat(cmp_key, "=");
   char section_found = (char)0;
   i = (unsigned long int)0;
-  unsigned long int return_value_sl_count$3;
-  unsigned long int return_value_sl_count$14;
+  unsigned long int return_value_sl_count_3;
+  unsigned long int return_value_sl_count_14;
   do
   {
-    return_value_sl_count$3=sl_count(cf->lines);
-    if(i >= return_value_sl_count$3)
+    return_value_sl_count_3=sl_count(cf->lines);
+    if(i >= return_value_sl_count_3)
       break;
 
-    char *return_value_sl_item$4;
-    return_value_sl_item$4=sl_item(cf->lines, i);
-    signed int return_value_strncasecmp$5;
-    return_value_strncasecmp$5=strncasecmp(return_value_sl_item$4, cmp_section, (unsigned long int)i$array_size0);
-    if(return_value_strncasecmp$5 == 0)
+    char *return_value_sl_item_4;
+    return_value_sl_item_4=sl_item(cf->lines, i);
+    signed int return_value_strncasecmp_5;
+    return_value_strncasecmp_5=strncasecmp(return_value_sl_item_4, cmp_section, (unsigned long int)i_array_size0);
+    if(return_value_strncasecmp_5 == 0)
     {
       if((signed int)section_found == 0)
       {
@@ -1508,39 +1508,39 @@ signed int config_read_string(struct anonymous$0 *cf, const char *section, const
 
     if((signed int)section_found == 1)
     {
-      return_value_sl_count$14=sl_count(cf->lines);
-      if(!(i >= return_value_sl_count$14))
+      return_value_sl_count_14=sl_count(cf->lines);
+      if(!(i >= return_value_sl_count_14))
       {
-        char *return_value_sl_item$6;
-        return_value_sl_item$6=sl_item(cf->lines, i);
-        signed int return_value_strncasecmp$7;
-        return_value_strncasecmp$7=strncasecmp(return_value_sl_item$6, "[", (unsigned long int)1);
-        if(return_value_strncasecmp$7 == 0)
+        char *return_value_sl_item_6;
+        return_value_sl_item_6=sl_item(cf->lines, i);
+        signed int return_value_strncasecmp_7;
+        return_value_strncasecmp_7=strncasecmp(return_value_sl_item_6, "[", (unsigned long int)1);
+        if(return_value_strncasecmp_7 == 0)
           return -1;
 
-        char *return_value_sl_item$11;
-        return_value_sl_item$11=sl_item(cf->lines, i);
-        unsigned long int return_value_strlen$12;
-        return_value_strlen$12=strlen(cmp_key);
-        signed int return_value_strncasecmp$13;
-        return_value_strncasecmp$13=strncasecmp(return_value_sl_item$11, cmp_key, return_value_strlen$12);
-        if(return_value_strncasecmp$13 == 0)
+        char *return_value_sl_item_11;
+        return_value_sl_item_11=sl_item(cf->lines, i);
+        unsigned long int return_value_strlen_12;
+        return_value_strlen_12=strlen(cmp_key);
+        signed int return_value_strncasecmp_13;
+        return_value_strncasecmp_13=strncasecmp(return_value_sl_item_11, cmp_key, return_value_strlen_12);
+        if(return_value_strncasecmp_13 == 0)
         {
           char *retval;
-          char *return_value_sl_item$8;
-          return_value_sl_item$8=sl_item(cf->lines, i);
-          retval=index(return_value_sl_item$8, 61);
+          char *return_value_sl_item_8;
+          return_value_sl_item_8=sl_item(cf->lines, i);
+          retval=index(return_value_sl_item_8, 61);
           if(retval == ((char *)NULL))
             return -1;
 
           retval = retval + 1l;
-          unsigned long int return_value_strlen$10;
-          return_value_strlen$10=strlen(retval);
-          if(!(return_value_strlen$10 == 0ul))
+          unsigned long int return_value_strlen_10;
+          return_value_strlen_10=strlen(retval);
+          if(!(return_value_strlen_10 == 0ul))
           {
-            char *return_value___strdup$9;
-            return_value___strdup$9=__strdup(retval);
-            *value = return_value___strdup$9;
+            char *return_value___strdup_9;
+            return_value___strdup_9=__strdup(retval);
+            *value = return_value___strdup_9;
             return 0;
           }
 
@@ -1559,12 +1559,12 @@ signed int config_read_string(struct anonymous$0 *cf, const char *section, const
 
 // config_read_stringlist
 // file configfile.h line 44
-signed int config_read_stringlist(struct anonymous$0 *cf, const char *section, const char *key, struct stringlist **value, char sep)
+signed int config_read_stringlist(struct anonymous_0 *cf, const char *section, const char *key, struct stringlist **value, char sep)
 {
   char *str;
-  signed int return_value_config_read_string$2;
-  return_value_config_read_string$2=config_read_string(cf, section, key, &str);
-  if(return_value_config_read_string$2 == 0)
+  signed int return_value_config_read_string_2;
+  return_value_config_read_string_2=config_read_string(cf, section, key, &str);
+  if(return_value_config_read_string_2 == 0)
   {
     *value=sl_init();
     char *next;
@@ -1587,13 +1587,13 @@ signed int config_read_stringlist(struct anonymous$0 *cf, const char *section, c
       start = next;
     }
     while((_Bool)1);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(start);
-    if(!(return_value_strlen$1 == 0ul))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(start);
+    if(!(return_value_strlen_1 == 0ul))
     {
-      char *config_read_stringlist$$1$$1$$2$$stripped;
-      config_read_stringlist$$1$$1$$2$$stripped=strip_whitespace(start);
-      sl_add(*value, config_read_stringlist$$1$$1$$2$$stripped, 1);
+      char *config_read_stringlist__1__1__2__stripped;
+      config_read_stringlist__1__1__2__stripped=strip_whitespace(start);
+      sl_add(*value, config_read_stringlist__1__1__2__stripped, 1);
     }
 
     free((void *)str);
@@ -1605,12 +1605,12 @@ signed int config_read_stringlist(struct anonymous$0 *cf, const char *section, c
 
 // config_reload_ifneeded
 // file configfile.c line 148
-signed int config_reload_ifneeded(struct anonymous$0 *cf)
+signed int config_reload_ifneeded(struct anonymous_0 *cf)
 {
   struct stat st;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat$link1(cf->file, &st);
-  if(return_value_stat$1 == -1)
+  signed int return_value_stat_1;
+  return_value_stat_1=stat_link1(cf->file, &st);
+  if(return_value_stat_1 == -1)
     return -1;
 
   else
@@ -1620,9 +1620,9 @@ signed int config_reload_ifneeded(struct anonymous$0 *cf)
     else
     {
       cf->mtime = st.st_mtim.tv_sec;
-      signed int return_value_config_read_file$2;
-      return_value_config_read_file$2=config_read_file(cf);
-      return return_value_config_read_file$2;
+      signed int return_value_config_read_file_2;
+      return_value_config_read_file_2=config_read_file(cf);
+      return return_value_config_read_file_2;
     }
 }
 
@@ -1632,13 +1632,13 @@ static void fusesmb_auth_fn(const char *server, const char *share, char *workgro
 {
   (void)workgroup;
   (void)wgmaxlen;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(server == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)server[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)server[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     char sv_section[1024l] = { '/', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
     strcat(sv_section, server);
@@ -1647,13 +1647,13 @@ static void fusesmb_auth_fn(const char *server, const char *share, char *workgro
     char *un;
     char *pw;
     pthread_mutex_lock(fusesmb_auth_fn_cfg_mutex);
-    signed int return_value_config_read_string$3;
-    return_value_config_read_string$3=config_read_string(fusesmb_auth_fn_cfg, sv_section, "username", &un);
-    if(return_value_config_read_string$3 == 0)
+    signed int return_value_config_read_string_3;
+    return_value_config_read_string_3=config_read_string(fusesmb_auth_fn_cfg, sv_section, "username", &un);
+    if(return_value_config_read_string_3 == 0)
     {
-      signed int return_value_config_read_string$2;
-      return_value_config_read_string$2=config_read_string(fusesmb_auth_fn_cfg, sv_section, "password", &pw);
-      if(return_value_config_read_string$2 == 0)
+      signed int return_value_config_read_string_2;
+      return_value_config_read_string_2=config_read_string(fusesmb_auth_fn_cfg, sv_section, "password", &pw);
+      if(return_value_config_read_string_2 == 0)
       {
         pthread_mutex_unlock(fusesmb_auth_fn_cfg_mutex);
         __builtin_strncpy(username, un, (unsigned long int)unmaxlen);
@@ -1668,13 +1668,13 @@ static void fusesmb_auth_fn(const char *server, const char *share, char *workgro
 
     strcpy(sv_section, "/");
     strcat(sv_section, server);
-    signed int return_value_config_read_string$5;
-    return_value_config_read_string$5=config_read_string(fusesmb_auth_fn_cfg, sv_section, "username", &un);
-    if(return_value_config_read_string$5 == 0)
+    signed int return_value_config_read_string_5;
+    return_value_config_read_string_5=config_read_string(fusesmb_auth_fn_cfg, sv_section, "username", &un);
+    if(return_value_config_read_string_5 == 0)
     {
-      signed int return_value_config_read_string$4;
-      return_value_config_read_string$4=config_read_string(fusesmb_auth_fn_cfg, sv_section, "password", &pw);
-      if(return_value_config_read_string$4 == 0)
+      signed int return_value_config_read_string_4;
+      return_value_config_read_string_4=config_read_string(fusesmb_auth_fn_cfg, sv_section, "password", &pw);
+      if(return_value_config_read_string_4 == 0)
       {
         pthread_mutex_unlock(fusesmb_auth_fn_cfg_mutex);
         __builtin_strncpy(username, un, (unsigned long int)unmaxlen);
@@ -1687,13 +1687,13 @@ static void fusesmb_auth_fn(const char *server, const char *share, char *workgro
       free((void *)un);
     }
 
-    signed int return_value_config_read_string$7;
-    return_value_config_read_string$7=config_read_string(fusesmb_auth_fn_cfg, "global", "username", &un);
-    if(return_value_config_read_string$7 == 0)
+    signed int return_value_config_read_string_7;
+    return_value_config_read_string_7=config_read_string(fusesmb_auth_fn_cfg, "global", "username", &un);
+    if(return_value_config_read_string_7 == 0)
     {
-      signed int return_value_config_read_string$6;
-      return_value_config_read_string$6=config_read_string(fusesmb_auth_fn_cfg, "global", "password", &pw);
-      if(return_value_config_read_string$6 == 0)
+      signed int return_value_config_read_string_6;
+      return_value_config_read_string_6=config_read_string(fusesmb_auth_fn_cfg, "global", "password", &pw);
+      if(return_value_config_read_string_6 == 0)
       {
         pthread_mutex_unlock(fusesmb_auth_fn_cfg_mutex);
         __builtin_strncpy(username, un, (unsigned long int)unmaxlen);
@@ -1724,31 +1724,31 @@ static void fusesmb_cache_auth_fn(const char *server, const char *share, char *w
   (void)workgroup;
   (void)wgmaxlen;
   char sv[1024l];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(server == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)server[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)server[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     fprintf(stderr, "empty server name");
 
   else
   {
-    nmblookup$link1(server, sv, (unsigned long int)1024);
+    nmblookup_link1(server, sv, (unsigned long int)1024);
     char sv_section[1024l] = { '/', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
     strcat(sv_section, sv);
     strcat(sv_section, "/");
     strcat(sv_section, share);
     char *un;
     char *pw;
-    signed int return_value_config_read_string$3;
-    return_value_config_read_string$3=config_read_string(fusesmb_auth_fn_cfg, sv_section, "username", &un);
-    if(return_value_config_read_string$3 == 0)
+    signed int return_value_config_read_string_3;
+    return_value_config_read_string_3=config_read_string(fusesmb_auth_fn_cfg, sv_section, "username", &un);
+    if(return_value_config_read_string_3 == 0)
     {
-      signed int return_value_config_read_string$2;
-      return_value_config_read_string$2=config_read_string(fusesmb_auth_fn_cfg, sv_section, "password", &pw);
-      if(return_value_config_read_string$2 == 0)
+      signed int return_value_config_read_string_2;
+      return_value_config_read_string_2=config_read_string(fusesmb_auth_fn_cfg, sv_section, "password", &pw);
+      if(return_value_config_read_string_2 == 0)
       {
         __builtin_strncpy(username, un, (unsigned long int)unmaxlen);
         __builtin_strncpy(password, pw, (unsigned long int)pwmaxlen);
@@ -1762,13 +1762,13 @@ static void fusesmb_cache_auth_fn(const char *server, const char *share, char *w
 
     strcpy(sv_section, "/");
     strcat(sv_section, sv);
-    signed int return_value_config_read_string$5;
-    return_value_config_read_string$5=config_read_string(fusesmb_auth_fn_cfg, sv_section, "username", &un);
-    if(return_value_config_read_string$5 == 0)
+    signed int return_value_config_read_string_5;
+    return_value_config_read_string_5=config_read_string(fusesmb_auth_fn_cfg, sv_section, "username", &un);
+    if(return_value_config_read_string_5 == 0)
     {
-      signed int return_value_config_read_string$4;
-      return_value_config_read_string$4=config_read_string(fusesmb_auth_fn_cfg, sv_section, "password", &pw);
-      if(return_value_config_read_string$4 == 0)
+      signed int return_value_config_read_string_4;
+      return_value_config_read_string_4=config_read_string(fusesmb_auth_fn_cfg, sv_section, "password", &pw);
+      if(return_value_config_read_string_4 == 0)
       {
         __builtin_strncpy(username, un, (unsigned long int)unmaxlen);
         __builtin_strncpy(password, pw, (unsigned long int)pwmaxlen);
@@ -1780,13 +1780,13 @@ static void fusesmb_cache_auth_fn(const char *server, const char *share, char *w
       free((void *)un);
     }
 
-    signed int return_value_config_read_string$7;
-    return_value_config_read_string$7=config_read_string(fusesmb_auth_fn_cfg, "global", "username", &un);
-    if(return_value_config_read_string$7 == 0)
+    signed int return_value_config_read_string_7;
+    return_value_config_read_string_7=config_read_string(fusesmb_auth_fn_cfg, "global", "username", &un);
+    if(return_value_config_read_string_7 == 0)
     {
-      signed int return_value_config_read_string$6;
-      return_value_config_read_string$6=config_read_string(fusesmb_auth_fn_cfg, "global", "password", &pw);
-      if(return_value_config_read_string$6 == 0)
+      signed int return_value_config_read_string_6;
+      return_value_config_read_string_6=config_read_string(fusesmb_auth_fn_cfg, "global", "password", &pw);
+      if(return_value_config_read_string_6 == 0)
       {
         __builtin_strncpy(username, un, (unsigned long int)unmaxlen);
         __builtin_strncpy(password, pw, (unsigned long int)pwmaxlen);
@@ -1809,12 +1809,12 @@ __CPROVER_DUMP_L10:
 
 // fusesmb_cache_new_context
 // file smbctx.h line 26
-struct _SMBCCTX * fusesmb_cache_new_context(struct anonymous$0 *cf)
+struct _SMBCCTX * fusesmb_cache_new_context(struct anonymous_0 *cf)
 {
   fusesmb_auth_fn_cfg = cf;
-  struct _SMBCCTX *return_value_fusesmb_context$1;
-  return_value_fusesmb_context$1=fusesmb_context(fusesmb_cache_auth_fn);
-  return return_value_fusesmb_context$1;
+  struct _SMBCCTX *return_value_fusesmb_context_1;
+  return_value_fusesmb_context_1=fusesmb_context(fusesmb_cache_auth_fn);
+  return return_value_fusesmb_context_1;
 }
 
 // fusesmb_context
@@ -1838,13 +1838,13 @@ static struct _SMBCCTX * fusesmb_context(void (*fn)(const char *, const char *, 
 
 // fusesmb_new_context
 // file smbctx.c line 276
-struct _SMBCCTX * fusesmb_new_context(struct anonymous$0 *cf, union anonymous *mutex)
+struct _SMBCCTX * fusesmb_new_context(struct anonymous_0 *cf, union anonymous *mutex)
 {
   fusesmb_auth_fn_cfg = cf;
   fusesmb_auth_fn_cfg_mutex = mutex;
-  struct _SMBCCTX *return_value_fusesmb_context$1;
-  return_value_fusesmb_context$1=fusesmb_context(fusesmb_auth_fn);
-  return return_value_fusesmb_context$1;
+  struct _SMBCCTX *return_value_fusesmb_context_1;
+  return_value_fusesmb_context_1=fusesmb_context(fusesmb_auth_fn);
+  return return_value_fusesmb_context_1;
 }
 
 // grow_table
@@ -1854,9 +1854,9 @@ static void grow_table(struct hash_t *hash)
   struct hnode_t **newtable;
   /* assertion 2 * hash->hash_nchains > hash->hash_nchains */
   assert((unsigned long int)2 * hash->hash_nchains > hash->hash_nchains);
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)hash->hash_table, sizeof(struct hnode_t *) /*8ul*/  * hash->hash_nchains * (unsigned long int)2);
-  newtable = (struct hnode_t **)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)hash->hash_table, sizeof(struct hnode_t *) /*8ul*/  * hash->hash_nchains * (unsigned long int)2);
+  newtable = (struct hnode_t **)return_value_realloc_1;
   if(!(newtable == ((struct hnode_t **)NULL)))
   {
     unsigned long int hash_mask = hash->hash_mask << 1 | (unsigned long int)1;
@@ -1897,10 +1897,10 @@ static void grow_table(struct hash_t *hash)
     hash->hash_highmark = hash->hash_highmark * (unsigned long int)2;
   }
 
-  signed int return_value_hash_verify$2;
-  return_value_hash_verify$2=hash_verify(hash);
+  signed int return_value_hash_verify_2;
+  return_value_hash_verify_2=hash_verify(hash);
   /* assertion hash_verify(hash) */
-  assert(return_value_hash_verify$2 != 0);
+  assert(return_value_hash_verify_2 != 0);
 }
 
 // hash_alloc_insert
@@ -1924,13 +1924,13 @@ extern signed int hash_alloc_insert(struct hash_t *hash, const void *hash_key, v
 // file hash.c line 842
 static signed int hash_comp_default(const void *key1, const void *key2)
 {
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$2;
-  return_value___builtin_strcmp$2=__builtin_strcmp((const char *)key1, (const char *)key2);
-  tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-  return tmp_statement_expression$1;
+  signed int return_value___builtin_strcmp_2;
+  return_value___builtin_strcmp_2=__builtin_strcmp((const char *)key1, (const char *)key2);
+  tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+  return tmp_statement_expression_1;
 }
 
 // hash_count
@@ -1948,14 +1948,14 @@ extern struct hash_t * hash_create(unsigned long int hash_maxcount, signed int (
   if(hash_val_t_bit == 0)
     compute_bits();
 
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct hash_t) /*104ul*/ );
-  hash = (struct hash_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct hash_t) /*104ul*/ );
+  hash = (struct hash_t *)return_value_malloc_1;
   if(!(hash == ((struct hash_t *)NULL)))
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct hnode_t *) /*8ul*/  * (1UL << 6));
-    hash->hash_table = (struct hnode_t **)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct hnode_t *) /*8ul*/  * (1UL << 6));
+    hash->hash_table = (struct hnode_t **)return_value_malloc_2;
     if(!(hash->hash_table == ((struct hnode_t **)NULL)))
     {
       hash->hash_nchains = 1UL << 6;
@@ -1971,10 +1971,10 @@ extern struct hash_t * hash_create(unsigned long int hash_maxcount, signed int (
       hash->hash_mask = (1UL << 6) - (unsigned long int)1;
       hash->hash_dynamic = 1;
       clear_table(hash);
-      signed int return_value_hash_verify$3;
-      return_value_hash_verify$3=hash_verify(hash);
+      signed int return_value_hash_verify_3;
+      return_value_hash_verify_3=hash_verify(hash);
       /* assertion hash_verify(hash) */
-      assert(return_value_hash_verify$3 != 0);
+      assert(return_value_hash_verify_3 != 0);
       return hash;
     }
 
@@ -1990,10 +1990,10 @@ extern struct hnode_t * hash_delete(struct hash_t *hash, struct hnode_t *node)
 {
   unsigned long int hash_chain;
   struct hnode_t *hptr;
-  struct hnode_t *return_value_hash_lookup$1;
-  return_value_hash_lookup$1=hash_lookup(hash, node->hash_key);
+  struct hnode_t *return_value_hash_lookup_1;
+  return_value_hash_lookup_1=hash_lookup(hash, node->hash_key);
   /* assertion hash_lookup(hash, node->hash_key) == node */
-  assert(return_value_hash_lookup$1 == node);
+  assert(return_value_hash_lookup_1 == node);
   /* assertion hash_val_t_bit != 0 */
   assert(hash_val_t_bit != 0);
   if(!(hash->hash_dynamic == 0))
@@ -2022,10 +2022,10 @@ extern struct hnode_t * hash_delete(struct hash_t *hash, struct hnode_t *node)
     hptr->hash_next = node->hash_next;
   }
   hash->hash_nodecount = hash->hash_nodecount - 1ul;
-  signed int return_value_hash_verify$2;
-  return_value_hash_verify$2=hash_verify(hash);
+  signed int return_value_hash_verify_2;
+  return_value_hash_verify_2=hash_verify(hash);
   /* assertion hash_verify(hash) */
-  assert(return_value_hash_verify$2 != 0);
+  assert(return_value_hash_verify_2 != 0);
   node->hash_next = (struct hnode_t *)(void *)0;
   return node;
 }
@@ -2082,16 +2082,16 @@ static unsigned long int hash_fun_default(const void *hash_key)
 {
   const unsigned char *str = (const unsigned char *)hash_key;
   unsigned long int acc = (unsigned long int)0;
-  const unsigned char *tmp_post$1;
+  const unsigned char *tmp_post_1;
   for( ; !(*str == 0); acc = acc & (unsigned long int)0xffffffffU)
   {
     static unsigned long int randbox[16l] = { (unsigned long int)0x49848f1bU, (unsigned long int)0xe6255dbaU, (unsigned long int)0x36da5bdcU, (unsigned long int)0x47bf94e9U, (unsigned long int)0x8cbcce22U, (unsigned long int)0x559fc06aU, (unsigned long int)0xd268f536U, (unsigned long int)0xe10af79aU, (unsigned long int)0xc1af4d69U, (unsigned long int)0x1d2917b5U, (unsigned long int)0xec4c304dU, (unsigned long int)0x9ee5016cU, (unsigned long int)0x69232f74U, (unsigned long int)0xfead7bb3U, (unsigned long int)0xe9089ab6U, (unsigned long int)0xf012f6aeU };
     acc = acc ^ randbox[(signed long int)((unsigned long int)*str + acc & (unsigned long int)0xf)];
     acc = acc << 1 | acc >> 31;
     acc = acc & (unsigned long int)0xffffffffU;
-    tmp_post$1 = str;
+    tmp_post_1 = str;
     str = str + 1l;
-    acc = acc ^ randbox[(signed long int)((unsigned long int)((signed int)*tmp_post$1 >> 4) + acc & (unsigned long int)0xf)];
+    acc = acc ^ randbox[(signed long int)((unsigned long int)((signed int)*tmp_post_1 >> 4) + acc & (unsigned long int)0xf)];
     acc = acc << 2 | acc >> 30;
   }
   return acc;
@@ -2104,10 +2104,10 @@ extern struct hash_t * hash_init(struct hash_t *hash, unsigned long int hash_max
   if(hash_val_t_bit == 0)
     compute_bits();
 
-  signed int return_value_is_power_of_two$1;
-  return_value_is_power_of_two$1=is_power_of_two(hash_nchains);
+  signed int return_value_is_power_of_two_1;
+  return_value_is_power_of_two_1=is_power_of_two(hash_nchains);
   /* assertion is_power_of_two(hash_nchains) */
-  assert(return_value_is_power_of_two$1 != 0);
+  assert(return_value_is_power_of_two_1 != 0);
   hash->hash_table = hash_table;
   hash->hash_nchains = hash_nchains;
   hash->hash_nodecount = (unsigned long int)0;
@@ -2117,10 +2117,10 @@ extern struct hash_t * hash_init(struct hash_t *hash, unsigned long int hash_max
   hash->hash_dynamic = 0;
   hash->hash_mask=compute_mask(hash_nchains);
   clear_table(hash);
-  signed int return_value_hash_verify$2;
-  return_value_hash_verify$2=hash_verify(hash);
+  signed int return_value_hash_verify_2;
+  return_value_hash_verify_2=hash_verify(hash);
   /* assertion hash_verify(hash) */
-  assert(return_value_hash_verify$2 != 0);
+  assert(return_value_hash_verify_2 != 0);
   return hash;
 }
 
@@ -2136,10 +2136,10 @@ extern void hash_insert(struct hash_t *hash, struct hnode_t *node, const void *h
   assert(node->hash_next == (struct hnode_t *)(void *)0);
   /* assertion hash->hash_nodecount < hash->hash_maxcount */
   assert(hash->hash_nodecount < hash->hash_maxcount);
-  struct hnode_t *return_value_hash_lookup$1;
-  return_value_hash_lookup$1=hash_lookup(hash, hash_key);
+  struct hnode_t *return_value_hash_lookup_1;
+  return_value_hash_lookup_1=hash_lookup(hash, hash_key);
   /* assertion hash_lookup(hash, hash_key) == ((void *)0) */
-  assert(return_value_hash_lookup$1 == (struct hnode_t *)(void *)0);
+  assert(return_value_hash_lookup_1 == (struct hnode_t *)(void *)0);
   if(!(hash->hash_dynamic == 0))
   {
     if(hash->hash_nodecount >= hash->hash_highmark)
@@ -2154,10 +2154,10 @@ extern void hash_insert(struct hash_t *hash, struct hnode_t *node, const void *h
   node->hash_next = hash->hash_table[(signed long int)hash_chain];
   hash->hash_table[(signed long int)hash_chain] = node;
   hash->hash_nodecount = hash->hash_nodecount + 1ul;
-  signed int return_value_hash_verify$2;
-  return_value_hash_verify$2=hash_verify(hash);
+  signed int return_value_hash_verify_2;
+  return_value_hash_verify_2=hash_verify(hash);
   /* assertion hash_verify(hash) */
-  assert(return_value_hash_verify$2 != 0);
+  assert(return_value_hash_verify_2 != 0);
 }
 
 // hash_isempty
@@ -2209,15 +2209,15 @@ extern void hash_scan_begin(struct hscan_t *scan, struct hash_t *hash)
   unsigned long int hash_chain;
   scan->hash_table = hash;
   hash_chain = (unsigned long int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(hash_chain >= hash_nchains))
-      tmp_if_expr$1 = hash->hash_table[(signed long int)hash_chain] == ((struct hnode_t *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = hash->hash_table[(signed long int)hash_chain] == ((struct hnode_t *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     hash_chain = hash_chain + 1ul;
@@ -2239,10 +2239,10 @@ extern struct hnode_t * hash_scan_delete(struct hash_t *hash, struct hnode_t *no
 {
   unsigned long int hash_chain;
   struct hnode_t *hptr;
-  struct hnode_t *return_value_hash_lookup$1;
-  return_value_hash_lookup$1=hash_lookup(hash, node->hash_key);
+  struct hnode_t *return_value_hash_lookup_1;
+  return_value_hash_lookup_1=hash_lookup(hash, node->hash_key);
   /* assertion hash_lookup(hash, node->hash_key) == node */
-  assert(return_value_hash_lookup$1 == node);
+  assert(return_value_hash_lookup_1 == node);
   /* assertion hash_val_t_bit != 0 */
   assert(hash_val_t_bit != 0);
   hash_chain = node->hash_hkey & hash->hash_mask;
@@ -2257,10 +2257,10 @@ extern struct hnode_t * hash_scan_delete(struct hash_t *hash, struct hnode_t *no
     hptr->hash_next = node->hash_next;
   }
   hash->hash_nodecount = hash->hash_nodecount - 1ul;
-  signed int return_value_hash_verify$2;
-  return_value_hash_verify$2=hash_verify(hash);
+  signed int return_value_hash_verify_2;
+  return_value_hash_verify_2=hash_verify(hash);
   /* assertion hash_verify(hash) */
-  assert(return_value_hash_verify$2 != 0);
+  assert(return_value_hash_verify_2 != 0);
   node->hash_next = (struct hnode_t *)(void *)0;
   return node;
 }
@@ -2340,14 +2340,14 @@ extern signed int hash_verify(struct hash_t *hash)
     if(hash->hash_lowmark >= hash->hash_highmark)
       return 0;
 
-    signed int return_value_is_power_of_two$1;
-    return_value_is_power_of_two$1=is_power_of_two(hash->hash_highmark);
-    if(return_value_is_power_of_two$1 == 0)
+    signed int return_value_is_power_of_two_1;
+    return_value_is_power_of_two_1=is_power_of_two(hash->hash_highmark);
+    if(return_value_is_power_of_two_1 == 0)
       return 0;
 
-    signed int return_value_is_power_of_two$2;
-    return_value_is_power_of_two$2=is_power_of_two(hash->hash_lowmark);
-    if(return_value_is_power_of_two$2 == 0)
+    signed int return_value_is_power_of_two_2;
+    return_value_is_power_of_two_2=is_power_of_two(hash->hash_lowmark);
+    if(return_value_is_power_of_two_2 == 0)
       return 0;
 
   }
@@ -2376,9 +2376,9 @@ extern signed int hash_verify(struct hash_t *hash)
 static struct hnode_t * hnode_alloc(void *hash_context)
 {
   (void)hash_context;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct hnode_t) /*32ul*/ );
-  return (struct hnode_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct hnode_t) /*32ul*/ );
+  return (struct hnode_t *)return_value_malloc_1;
 }
 
 // hnode_create
@@ -2386,9 +2386,9 @@ static struct hnode_t * hnode_alloc(void *hash_context)
 extern struct hnode_t * hnode_create(void *hash_data)
 {
   struct hnode_t *node;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct hnode_t) /*32ul*/ );
-  node = (struct hnode_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct hnode_t) /*32ul*/ );
+  node = (struct hnode_t *)return_value_malloc_1;
   if(!(node == ((struct hnode_t *)NULL)))
   {
     node->hash_data = hash_data;
@@ -2463,22 +2463,22 @@ static signed int is_power_of_two(unsigned long int arg)
 signed int main(signed int argc, char **argv)
 {
   char pidfile[1024l];
-  char *return_value_getenv$1;
-  return_value_getenv$1=getenv("HOME");
-  snprintf(pidfile, (unsigned long int)1024, "%s/.smb/fusesmb.cache.pid", return_value_getenv$1);
+  char *return_value_getenv_1;
+  return_value_getenv_1=getenv("HOME");
+  snprintf(pidfile, (unsigned long int)1024, "%s/.smb/fusesmb.cache.pid", return_value_getenv_1);
   char configfile[1024l];
-  char *return_value_getenv$2;
-  return_value_getenv$2=getenv("HOME");
-  snprintf(configfile, (unsigned long int)1024, "%s/.smb/fusesmb.conf", return_value_getenv$2);
-  signed int return_value_config_init$5;
-  return_value_config_init$5=config_init(&cfg, configfile);
-  if(return_value_config_init$5 == -1)
+  char *return_value_getenv_2;
+  return_value_getenv_2=getenv("HOME");
+  snprintf(configfile, (unsigned long int)1024, "%s/.smb/fusesmb.conf", return_value_getenv_2);
+  signed int return_value_config_init_5;
+  return_value_config_init_5=config_init(&cfg, configfile);
+  if(return_value_config_init_5 == -1)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fprintf(stderr, "Could not open config file: %s (%s)", (const void *)configfile, return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fprintf(stderr, "Could not open config file: %s (%s)", (const void *)configfile, return_value_strerror_4);
     exit(1);
   }
 
@@ -2488,9 +2488,9 @@ signed int main(signed int argc, char **argv)
   {
     signed int pid;
     signed int sid;
-    signed int return_value_stat$7;
-    return_value_stat$7=stat(pidfile, &st);
-    if(!(return_value_stat$7 == -1))
+    signed int return_value_stat_7;
+    return_value_stat_7=stat(pidfile, &st);
+    if(!(return_value_stat_7 == -1))
     {
       struct _IO_FILE *f;
       signed int pid_from_file;
@@ -2505,9 +2505,9 @@ signed int main(signed int argc, char **argv)
 
         else
         {
-          signed int return_value_kill$6;
-          return_value_kill$6=kill(pid_from_file, 0);
-          if(return_value_kill$6 == 0)
+          signed int return_value_kill_6;
+          return_value_kill_6=kill(pid_from_file, 0);
+          if(return_value_kill_6 == 0)
           {
             fprintf(stderr, "Error: %s is already running with %d\n", argv[(signed long int)0], pid_from_file);
             exit(1);
@@ -2533,9 +2533,9 @@ signed int main(signed int argc, char **argv)
     if(!(sid >= 0))
       exit(1);
 
-    signed int return_value_chdir$8;
-    return_value_chdir$8=chdir("/");
-    if(!(return_value_chdir$8 >= 0))
+    signed int return_value_chdir_8;
+    return_value_chdir_8=chdir("/");
+    if(!(return_value_chdir_8 >= 0))
       exit(1);
 
     unsigned int oldmask;
@@ -2572,12 +2572,12 @@ static signed int nmblookup(const char *wg, struct stringlist *sl, struct hash_t
   snprintf(wg_cmd, (unsigned long int)512, "nmblookup '%s'", wg);
   struct _IO_FILE *pipe;
   pipe=popen(wg_cmd, "r");
-  signed int return_value_feof$3;
-  const unsigned short int **return_value___ctype_b_loc$5;
-  signed int return_value_feof$9;
-  signed int return_value_feof$13;
-  char *return_value___strdup$16;
-  char *return_value___strdup$17;
+  signed int return_value_feof_3;
+  const unsigned short int **return_value___ctype_b_loc_5;
+  signed int return_value_feof_9;
+  signed int return_value_feof_13;
+  char *return_value___strdup_16;
+  char *return_value___strdup_17;
   if(pipe == ((struct _IO_FILE *)NULL))
     return -1;
 
@@ -2585,9 +2585,9 @@ static signed int nmblookup(const char *wg, struct stringlist *sl, struct hash_t
   {
     signed int ip_cmd_size = 8192;
     char *ip_cmd;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)ip_cmd_size * sizeof(char) /*1ul*/ );
-    ip_cmd = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)ip_cmd_size * sizeof(char) /*1ul*/ );
+    ip_cmd = (char *)return_value_malloc_1;
     if(ip_cmd == ((char *)NULL))
       return -1;
 
@@ -2595,25 +2595,25 @@ static signed int nmblookup(const char *wg, struct stringlist *sl, struct hash_t
     {
       strcpy(ip_cmd, "nmblookup -A ");
       signed int ip_cmd_len;
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(ip_cmd);
-      ip_cmd_len = (signed int)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(ip_cmd);
+      ip_cmd_len = (signed int)return_value_strlen_2;
       do
       {
-        return_value_feof$3=feof(pipe);
-        if(!(return_value_feof$3 == 0))
+        return_value_feof_3=feof(pipe);
+        if(!(return_value_feof_3 == 0))
           break;
 
-        char nmblookup$$1$$1$$buf[4096l];
-        char *return_value_fgets$4;
-        return_value_fgets$4=fgets(nmblookup$$1$$1$$buf, 4096, pipe);
-        if(!(return_value_fgets$4 == ((char *)NULL)))
+        char nmblookup__1__1__buf[4096l];
+        char *return_value_fgets_4;
+        return_value_fgets_4=fgets(nmblookup__1__1__buf, 4096, pipe);
+        if(!(return_value_fgets_4 == ((char *)NULL)))
         {
-          char *pip = nmblookup$$1$$1$$buf;
+          char *pip = nmblookup__1__1__buf;
           do
           {
-            return_value___ctype_b_loc$5=__ctype_b_loc();
-            if((2048 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)*pip]) == 0)
+            return_value___ctype_b_loc_5=__ctype_b_loc();
+            if((2048 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)*pip]) == 0)
             {
               if(!((signed int)*pip == 46))
               {
@@ -2629,30 +2629,30 @@ static signed int nmblookup(const char *wg, struct stringlist *sl, struct hash_t
           while((_Bool)1);
           *pip = (char)0;
           signed int len;
-          unsigned long int return_value_strlen$6;
-          return_value_strlen$6=strlen(nmblookup$$1$$1$$buf);
-          len = (signed int)return_value_strlen$6;
+          unsigned long int return_value_strlen_6;
+          return_value_strlen_6=strlen(nmblookup__1__1__buf);
+          len = (signed int)return_value_strlen_6;
           if(!(len == 0))
           {
             ip_cmd_len = ip_cmd_len + len;
             if(ip_cmd_len >= ip_cmd_size + -1)
             {
               ip_cmd_size = ip_cmd_size * 2;
-              char *nmblookup$$1$$1$$2$$tmp;
-              void *return_value_realloc$7;
-              return_value_realloc$7=realloc((void *)ip_cmd, (unsigned long int)ip_cmd_size * sizeof(char) /*1ul*/ );
-              nmblookup$$1$$1$$2$$tmp = (char *)return_value_realloc$7;
-              if(nmblookup$$1$$1$$2$$tmp == ((char *)NULL))
+              char *nmblookup__1__1__2__tmp;
+              void *return_value_realloc_7;
+              return_value_realloc_7=realloc((void *)ip_cmd, (unsigned long int)ip_cmd_size * sizeof(char) /*1ul*/ );
+              nmblookup__1__1__2__tmp = (char *)return_value_realloc_7;
+              if(nmblookup__1__1__2__tmp == ((char *)NULL))
               {
                 ip_cmd_size = ip_cmd_size / 2;
                 ip_cmd_len = ip_cmd_len - len;
                 continue;
               }
 
-              ip_cmd = nmblookup$$1$$1$$2$$tmp;
+              ip_cmd = nmblookup__1__1__2__tmp;
             }
 
-            strcat(ip_cmd, nmblookup$$1$$1$$buf);
+            strcat(ip_cmd, nmblookup__1__1__buf);
           }
 
         }
@@ -2660,9 +2660,9 @@ static signed int nmblookup(const char *wg, struct stringlist *sl, struct hash_t
       }
       while((_Bool)1);
       pclose(pipe);
-      unsigned long int return_value_strlen$8;
-      return_value_strlen$8=strlen(ip_cmd);
-      if(return_value_strlen$8 == 13ul)
+      unsigned long int return_value_strlen_8;
+      return_value_strlen_8=strlen(ip_cmd);
+      if(return_value_strlen_8 == 13ul)
       {
         free((void *)ip_cmd);
         return 0;
@@ -2681,23 +2681,23 @@ static signed int nmblookup(const char *wg, struct stringlist *sl, struct hash_t
         {
           do
           {
-            return_value_feof$9=feof(pipe);
-            if(!(return_value_feof$9 == 0))
+            return_value_feof_9=feof(pipe);
+            if(!(return_value_feof_9 == 0))
               break;
 
             char buf2[4096l];
             char buf[4096l];
             char ip[32l];
             char *start = buf;
-            char *return_value_fgets$10;
-            return_value_fgets$10=fgets(buf2, 4096, pipe);
-            if(!(return_value_fgets$10 == ((char *)NULL)))
+            char *return_value_fgets_10;
+            return_value_fgets_10=fgets(buf2, 4096, pipe);
+            if(!(return_value_fgets_10 == ((char *)NULL)))
             {
-              unsigned long int return_value_strlen$11;
-              return_value_strlen$11=strlen("Looking up status of ");
-              signed int return_value_strncmp$12;
-              return_value_strncmp$12=strncmp(buf2, "Looking up status of ", return_value_strlen$11);
-              if(return_value_strncmp$12 == 0)
+              unsigned long int return_value_strlen_11;
+              return_value_strlen_11=strlen("Looking up status of ");
+              signed int return_value_strncmp_12;
+              return_value_strncmp_12=strncmp(buf2, "Looking up status of ", return_value_strlen_11);
+              if(return_value_strncmp_12 == 0)
               {
                 char *tmp;
                 tmp=rindex(buf2, 32);
@@ -2712,22 +2712,22 @@ static signed int nmblookup(const char *wg, struct stringlist *sl, struct hash_t
                 continue;
               do
               {
-                return_value_feof$13=feof(pipe);
-                if(!(return_value_feof$13 == 0))
+                return_value_feof_13=feof(pipe);
+                if(!(return_value_feof_13 == 0))
                   break;
 
-                char *return_value_fgets$14;
-                return_value_fgets$14=fgets(buf, 4096, pipe);
-                if(return_value_fgets$14 == ((char *)NULL))
+                char *return_value_fgets_14;
+                return_value_fgets_14=fgets(buf, 4096, pipe);
+                if(return_value_fgets_14 == ((char *)NULL))
                   break;
 
                 char *sep = buf;
                 if(!((signed int)buf[0l] == 9))
                   break;
 
-                char *return_value_strstr$15;
-                return_value_strstr$15=strstr(buf, "<GROUP>");
-                if(!(return_value_strstr$15 == ((char *)NULL)))
+                char *return_value_strstr_15;
+                return_value_strstr_15=strstr(buf, "<GROUP>");
+                if(!(return_value_strstr_15 == ((char *)NULL)))
                   break;
 
                 sep=strstr(buf, "<00>");
@@ -2755,13 +2755,13 @@ static signed int nmblookup(const char *wg, struct stringlist *sl, struct hash_t
               __CPROVER_DUMP_L23:
                 ;
                 sl_add(sl, start, 1);
-                struct hnode_t *return_value_hash_lookup$18;
-                return_value_hash_lookup$18=hash_lookup(ipcache, (const void *)start);
-                if(return_value_hash_lookup$18 == ((struct hnode_t *)NULL))
+                struct hnode_t *return_value_hash_lookup_18;
+                return_value_hash_lookup_18=hash_lookup(ipcache, (const void *)start);
+                if(return_value_hash_lookup_18 == ((struct hnode_t *)NULL))
                 {
-                  return_value___strdup$16=__strdup(start);
-                  return_value___strdup$17=__strdup(ip);
-                  hash_alloc_insert(ipcache, (const void *)return_value___strdup$16, (void *)return_value___strdup$17);
+                  return_value___strdup_16=__strdup(start);
+                  return_value___strdup_17=__strdup(ip);
+                  hash_alloc_insert(ipcache, (const void *)return_value___strdup_16, (void *)return_value___strdup_17);
                 }
 
               }
@@ -2779,73 +2779,73 @@ static signed int nmblookup(const char *wg, struct stringlist *sl, struct hash_t
   }
 }
 
-// nmblookup$link1
+// nmblookup_link1
 // file smbctx.c line 29
-static signed int nmblookup$link1(const char *ip_server, char *output, unsigned long int outputsize)
+static signed int nmblookup_link1(const char *ip_server, char *output, unsigned long int outputsize)
 {
   char ipcmd[1024l] = { 'n', 'm', 'b', 'l', 'o', 'o', 'k', 'u', 'p', ' ', '-', 'A', ' ', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   strcat(ipcmd, ip_server);
-  struct _IO_FILE *pipe$link1;
-  pipe$link1=popen(ipcmd, "r");
-  signed int return_value_feof$1;
-  signed int return_value_feof$5;
-  if(pipe$link1 == ((struct _IO_FILE *)NULL))
+  struct _IO_FILE *pipe_link1;
+  pipe_link1=popen(ipcmd, "r");
+  signed int return_value_feof_1;
+  signed int return_value_feof_5;
+  if(pipe_link1 == ((struct _IO_FILE *)NULL))
     return -1;
 
   else
   {
     do
     {
-      return_value_feof$1=feof(pipe$link1);
-      if(!(return_value_feof$1 == 0))
+      return_value_feof_1=feof(pipe_link1);
+      if(!(return_value_feof_1 == 0))
         break;
 
       char buf2[4096l];
-      char buf$link1[4096l];
+      char buf_link1[4096l];
       char ip[32l];
-      char *start = buf$link1;
-      char *return_value_fgets$2;
-      return_value_fgets$2=fgets(buf2, 4096, pipe$link1);
-      if(!(return_value_fgets$2 == ((char *)NULL)))
+      char *start = buf_link1;
+      char *return_value_fgets_2;
+      return_value_fgets_2=fgets(buf2, 4096, pipe_link1);
+      if(!(return_value_fgets_2 == ((char *)NULL)))
       {
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen("Looking up status of ");
-        signed int return_value_strncmp$4;
-        return_value_strncmp$4=strncmp(buf2, "Looking up status of ", return_value_strlen$3);
-        if(return_value_strncmp$4 == 0)
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen("Looking up status of ");
+        signed int return_value_strncmp_4;
+        return_value_strncmp_4=strncmp(buf2, "Looking up status of ", return_value_strlen_3);
+        if(return_value_strncmp_4 == 0)
         {
-          char *tmp$link1;
-          tmp$link1=rindex(buf2, 32);
-          tmp$link1 = tmp$link1 + 1l;
+          char *tmp_link1;
+          tmp_link1=rindex(buf2, 32);
+          tmp_link1 = tmp_link1 + 1l;
           char *end;
-          end=index(tmp$link1, 10);
+          end=index(tmp_link1, 10);
           *end = (char)0;
-          strcpy(ip, tmp$link1);
+          strcpy(ip, tmp_link1);
         }
 
         else
           continue;
         do
         {
-          return_value_feof$5=feof(pipe$link1);
-          if(!(return_value_feof$5 == 0))
+          return_value_feof_5=feof(pipe_link1);
+          if(!(return_value_feof_5 == 0))
             break;
 
-          char *return_value_fgets$6;
-          return_value_fgets$6=fgets(buf$link1, 4096, pipe$link1);
-          if(return_value_fgets$6 == ((char *)NULL))
+          char *return_value_fgets_6;
+          return_value_fgets_6=fgets(buf_link1, 4096, pipe_link1);
+          if(return_value_fgets_6 == ((char *)NULL))
             break;
 
-          char *sep = buf$link1;
-          if(!((signed int)buf$link1[0l] == 9))
+          char *sep = buf_link1;
+          if(!((signed int)buf_link1[0l] == 9))
             break;
 
-          char *return_value_strstr$7;
-          return_value_strstr$7=strstr(buf$link1, "<GROUP>");
-          if(!(return_value_strstr$7 == ((char *)NULL)))
+          char *return_value_strstr_7;
+          return_value_strstr_7=strstr(buf_link1, "<GROUP>");
+          if(!(return_value_strstr_7 == ((char *)NULL)))
             break;
 
-          sep=strstr(buf$link1, "<00>");
+          sep=strstr(buf_link1, "<00>");
           if(sep == ((char *)NULL))
             break;
 
@@ -2876,7 +2876,7 @@ static signed int nmblookup$link1(const char *ip_server, char *output, unsigned 
 
     }
     while((_Bool)1);
-    pclose(pipe$link1);
+    pclose(pipe_link1);
     return 0;
   }
 }
@@ -2895,18 +2895,18 @@ static void options_free(struct fusesmb_cache_opt *opt)
 
 // options_read
 // file cache.c line 58
-static void options_read(struct anonymous$0 *cfg, struct fusesmb_cache_opt *opt)
+static void options_read(struct anonymous_0 *cfg, struct fusesmb_cache_opt *opt)
 {
   opt->ignore_servers = (struct stringlist *)(void *)0;
-  signed int return_value_config_read_stringlist$1;
-  return_value_config_read_stringlist$1=config_read_stringlist(cfg, "ignore", "servers", &opt->ignore_servers, (char)44);
-  if(return_value_config_read_stringlist$1 == -1)
+  signed int return_value_config_read_stringlist_1;
+  return_value_config_read_stringlist_1=config_read_stringlist(cfg, "ignore", "servers", &opt->ignore_servers, (char)44);
+  if(return_value_config_read_stringlist_1 == -1)
     opt->ignore_servers = (struct stringlist *)(void *)0;
 
   opt->ignore_workgroups = (struct stringlist *)(void *)0;
-  signed int return_value_config_read_stringlist$2;
-  return_value_config_read_stringlist$2=config_read_stringlist(cfg, "ignore", "workgroups", &opt->ignore_workgroups, (char)44);
-  if(return_value_config_read_stringlist$2 == -1)
+  signed int return_value_config_read_stringlist_2;
+  return_value_config_read_stringlist_2=config_read_stringlist(cfg, "ignore", "workgroups", &opt->ignore_workgroups, (char)44);
+  if(return_value_config_read_stringlist_2 == -1)
     opt->ignore_workgroups = (struct stringlist *)(void *)0;
 
 }
@@ -2924,10 +2924,10 @@ static signed int server_listing(struct _SMBCCTX *ctx, struct stringlist *cache,
   struct smbc_dirent *share_dirent;
   struct _SMBCFILE *dir;
   dir=ctx->opendir(ctx, tmp_path);
-  _Bool tmp_if_expr$1;
-  signed int tmp_statement_expression$2;
-  _Bool tmp_if_expr$6;
-  signed int tmp_statement_expression$4;
+  _Bool tmp_if_expr_1;
+  signed int tmp_statement_expression_2;
+  _Bool tmp_if_expr_6;
+  signed int tmp_statement_expression_4;
   if(dir == ((struct _SMBCFILE *)NULL))
   {
     ctx->closedir(ctx, dir);
@@ -2940,46 +2940,46 @@ static signed int server_listing(struct _SMBCCTX *ctx, struct stringlist *cache,
     if(!(share_dirent == ((struct smbc_dirent *)NULL)))
     {
       if(!(share_dirent->smbc_type == 3u))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = share_dirent->namelen == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = share_dirent->namelen == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_1)
       {
-        unsigned long int server_listing$$1$$4$$1$$__s1_len;
-        unsigned long int server_listing$$1$$4$$1$$__s2_len;
-        signed int return_value___builtin_strcmp$3;
-        return_value___builtin_strcmp$3=__builtin_strcmp("ADMIN$", share_dirent->name);
-        tmp_statement_expression$2 = return_value___builtin_strcmp$3;
-        if(tmp_statement_expression$2 == 0)
-          tmp_if_expr$6 = (_Bool)1;
+        unsigned long int server_listing__1__4__1____s1_len;
+        unsigned long int server_listing__1__4__1____s2_len;
+        signed int return_value___builtin_strcmp_3;
+        return_value___builtin_strcmp_3=__builtin_strcmp("ADMIN_", share_dirent->name);
+        tmp_statement_expression_2 = return_value___builtin_strcmp_3;
+        if(tmp_statement_expression_2 == 0)
+          tmp_if_expr_6 = (_Bool)1;
 
         else
         {
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$5;
-          return_value___builtin_strcmp$5=__builtin_strcmp("print$", share_dirent->name);
-          tmp_statement_expression$4 = return_value___builtin_strcmp$5;
-          tmp_if_expr$6 = 0 == tmp_statement_expression$4 ? (_Bool)1 : (_Bool)0;
+          signed int return_value___builtin_strcmp_5;
+          return_value___builtin_strcmp_5=__builtin_strcmp("print_", share_dirent->name);
+          tmp_statement_expression_4 = return_value___builtin_strcmp_5;
+          tmp_if_expr_6 = 0 == tmp_statement_expression_4 ? (_Bool)1 : (_Bool)0;
         }
-        if(!tmp_if_expr$6)
+        if(!tmp_if_expr_6)
         {
           signed int len;
-          unsigned long int return_value_strlen$7;
-          return_value_strlen$7=strlen(wg);
-          unsigned long int return_value_strlen$8;
-          return_value_strlen$8=strlen(sv);
-          unsigned long int return_value_strlen$9;
-          return_value_strlen$9=strlen(share_dirent->name);
-          len = (signed int)(return_value_strlen$7 + return_value_strlen$8 + return_value_strlen$9 + (unsigned long int)4);
-          const signed long int len$array_size0 = (signed long int)len;
-          char tmp[len$array_size0];
+          unsigned long int return_value_strlen_7;
+          return_value_strlen_7=strlen(wg);
+          unsigned long int return_value_strlen_8;
+          return_value_strlen_8=strlen(sv);
+          unsigned long int return_value_strlen_9;
+          return_value_strlen_9=strlen(share_dirent->name);
+          len = (signed int)(return_value_strlen_7 + return_value_strlen_8 + return_value_strlen_9 + (unsigned long int)4);
+          const signed long int len_array_size0 = (signed long int)len;
+          char tmp[len_array_size0];
           snprintf(tmp, (unsigned long int)len, "/%s/%s/%s", wg, sv, (const void *)share_dirent->name);
           pthread_mutex_lock(&cache_mutex);
-          signed int return_value_sl_add$10;
-          return_value_sl_add$10=sl_add(cache, tmp, 1);
-          if(return_value_sl_add$10 == -1)
+          signed int return_value_sl_add_10;
+          return_value_sl_add_10=sl_add(cache, tmp, 1);
+          if(return_value_sl_add_10 == -1)
           {
             pthread_mutex_unlock(&cache_mutex);
             fprintf(stderr, "sl_add failed\n");
@@ -3013,7 +3013,7 @@ static void shrink_table(struct hash_t *hash)
   assert(hash->hash_nchains >= (unsigned long int)2);
   hash_nchains = hash->hash_nchains / (unsigned long int)2;
   hash_chain = (unsigned long int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(hash_chain >= hash_nchains); hash_chain = hash_chain + 1ul)
   {
     low_chain = hash->hash_table[(signed long int)hash_chain];
@@ -3022,11 +3022,11 @@ static void shrink_table(struct hash_t *hash)
     do
     {
       if(!(low_tail == ((struct hnode_t *)NULL)))
-        tmp_if_expr$1 = low_tail->hash_next != ((struct hnode_t *)NULL) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = low_tail->hash_next != ((struct hnode_t *)NULL) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       low_tail = low_tail->hash_next;
@@ -3043,9 +3043,9 @@ static void shrink_table(struct hash_t *hash)
         /* assertion hash->hash_table[hash_chain] == ((void *)0) */
         assert(hash->hash_table[(signed long int)hash_chain] == (struct hnode_t *)(void *)0);
   }
-  void *return_value_realloc$2;
-  return_value_realloc$2=realloc((void *)hash->hash_table, sizeof(struct hnode_t *) /*8ul*/  * hash_nchains);
-  newtable = (struct hnode_t **)return_value_realloc$2;
+  void *return_value_realloc_2;
+  return_value_realloc_2=realloc((void *)hash->hash_table, sizeof(struct hnode_t *) /*8ul*/  * hash_nchains);
+  newtable = (struct hnode_t **)return_value_realloc_2;
   if(!(newtable == ((struct hnode_t **)NULL)))
     hash->hash_table = newtable;
 
@@ -3053,10 +3053,10 @@ static void shrink_table(struct hash_t *hash)
   hash->hash_nchains = hash_nchains;
   hash->hash_lowmark = hash->hash_lowmark / (unsigned long int)2;
   hash->hash_highmark = hash->hash_highmark / (unsigned long int)2;
-  signed int return_value_hash_verify$3;
-  return_value_hash_verify$3=hash_verify(hash);
+  signed int return_value_hash_verify_3;
+  return_value_hash_verify_3=hash_verify(hash);
   /* assertion hash_verify(hash) */
-  assert(return_value_hash_verify$3 != 0);
+  assert(return_value_hash_verify_3 != 0);
 }
 
 // sl_add
@@ -3066,9 +3066,9 @@ inline signed int sl_add(struct stringlist *sl, char *str, signed int do_malloc)
   if(sl->numlines == sl->maxlines)
   {
     char **new;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)sl->lines, (sl->maxlines + (unsigned long int)128) * sizeof(char *) /*8ul*/ );
-    new = (char **)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)sl->lines, (sl->maxlines + (unsigned long int)128) * sizeof(char *) /*8ul*/ );
+    new = (char **)return_value_realloc_1;
     if(new == ((char **)NULL))
       return -1;
 
@@ -3078,11 +3078,11 @@ inline signed int sl_add(struct stringlist *sl, char *str, signed int do_malloc)
 
   if(!(do_malloc == 0))
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(str);
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((return_value_strlen$2 + (unsigned long int)1) * sizeof(char) /*1ul*/ );
-    sl->lines[(signed long int)sl->numlines] = (char *)return_value_malloc$3;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(str);
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((return_value_strlen_2 + (unsigned long int)1) * sizeof(char) /*1ul*/ );
+    sl->lines[(signed long int)sl->numlines] = (char *)return_value_malloc_3;
     if(sl->lines[(signed long int)sl->numlines] == ((char *)NULL))
       return -1;
 
@@ -3105,11 +3105,11 @@ char * sl_casefind(struct stringlist *sl, const char *str)
   if((signed int)sl->sorted == 2)
   {
     char **res;
-    unsigned long int return_value_sl_count$1;
-    return_value_sl_count$1=sl_count(sl);
-    void *return_value_bsearch$2;
-    return_value_bsearch$2=bsearch((const void *)&str, (const void *)sl->lines, return_value_sl_count$1, sizeof(char *) /*8ul*/ , sl_strcasecmp);
-    res = (char **)return_value_bsearch$2;
+    unsigned long int return_value_sl_count_1;
+    return_value_sl_count_1=sl_count(sl);
+    void *return_value_bsearch_2;
+    return_value_bsearch_2=bsearch((const void *)&str, (const void *)sl->lines, return_value_sl_count_1, sizeof(char *) /*8ul*/ , sl_strcasecmp);
+    res = (char **)return_value_bsearch_2;
     if(!(res == ((char **)NULL)))
       return *res;
 
@@ -3117,22 +3117,22 @@ char * sl_casefind(struct stringlist *sl, const char *str)
   }
 
   unsigned long int i = (unsigned long int)0;
-  unsigned long int return_value_sl_count$3;
+  unsigned long int return_value_sl_count_3;
   do
   {
-    return_value_sl_count$3=sl_count(sl);
-    if(i >= return_value_sl_count$3)
+    return_value_sl_count_3=sl_count(sl);
+    if(i >= return_value_sl_count_3)
       break;
 
-    char *return_value_sl_item$5;
-    return_value_sl_item$5=sl_item(sl, i);
-    signed int return_value_strcasecmp$6;
-    return_value_strcasecmp$6=strcasecmp(return_value_sl_item$5, str);
-    if(return_value_strcasecmp$6 == 0)
+    char *return_value_sl_item_5;
+    return_value_sl_item_5=sl_item(sl, i);
+    signed int return_value_strcasecmp_6;
+    return_value_strcasecmp_6=strcasecmp(return_value_sl_item_5, str);
+    if(return_value_strcasecmp_6 == 0)
     {
-      char *return_value_sl_item$4;
-      return_value_sl_item$4=sl_item(sl, i);
-      return return_value_sl_item$4;
+      char *return_value_sl_item_4;
+      return_value_sl_item_4=sl_item(sl, i);
+      return return_value_sl_item_4;
     }
 
     i = i + 1ul;
@@ -3145,9 +3145,9 @@ char * sl_casefind(struct stringlist *sl, const char *str)
 // file stringlist.h line 50
 void sl_casesort(struct stringlist *sl)
 {
-  unsigned long int return_value_sl_count$1;
-  return_value_sl_count$1=sl_count(sl);
-  qsort((void *)sl->lines, return_value_sl_count$1, sizeof(char *) /*8ul*/ , sl_strcasecmp);
+  unsigned long int return_value_sl_count_1;
+  return_value_sl_count_1=sl_count(sl);
+  qsort((void *)sl->lines, return_value_sl_count_1, sizeof(char *) /*8ul*/ , sl_strcasecmp);
   sl->sorted = (char)2;
 }
 
@@ -3156,11 +3156,11 @@ void sl_casesort(struct stringlist *sl)
 void sl_clear(struct stringlist *sl)
 {
   unsigned long int i = (unsigned long int)0;
-  unsigned long int return_value_sl_count$1;
+  unsigned long int return_value_sl_count_1;
   do
   {
-    return_value_sl_count$1=sl_count(sl);
-    if(i >= return_value_sl_count$1)
+    return_value_sl_count_1=sl_count(sl);
+    if(i >= return_value_sl_count_1)
       break;
 
     free((void *)sl->lines[(signed long int)i]);
@@ -3184,11 +3184,11 @@ char * sl_find(struct stringlist *sl, const char *str)
   if((signed int)sl->sorted == 1)
   {
     char **res;
-    unsigned long int return_value_sl_count$1;
-    return_value_sl_count$1=sl_count(sl);
-    void *return_value_bsearch$2;
-    return_value_bsearch$2=bsearch((const void *)&str, (const void *)sl->lines, return_value_sl_count$1, sizeof(char *) /*8ul*/ , sl_strcmp);
-    res = (char **)return_value_bsearch$2;
+    unsigned long int return_value_sl_count_1;
+    return_value_sl_count_1=sl_count(sl);
+    void *return_value_bsearch_2;
+    return_value_bsearch_2=bsearch((const void *)&str, (const void *)sl->lines, return_value_sl_count_1, sizeof(char *) /*8ul*/ , sl_strcmp);
+    res = (char **)return_value_bsearch_2;
     if(!(res == ((char **)NULL)))
       return *res;
 
@@ -3196,26 +3196,26 @@ char * sl_find(struct stringlist *sl, const char *str)
   }
 
   unsigned long int i = (unsigned long int)0;
-  unsigned long int return_value_sl_count$3;
-  signed int tmp_statement_expression$5;
+  unsigned long int return_value_sl_count_3;
+  signed int tmp_statement_expression_5;
   do
   {
-    return_value_sl_count$3=sl_count(sl);
-    if(i >= return_value_sl_count$3)
+    return_value_sl_count_3=sl_count(sl);
+    if(i >= return_value_sl_count_3)
       break;
 
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    char *return_value_sl_item$6;
-    return_value_sl_item$6=sl_item(sl, i);
-    signed int return_value___builtin_strcmp$7;
-    return_value___builtin_strcmp$7=__builtin_strcmp(return_value_sl_item$6, str);
-    tmp_statement_expression$5 = return_value___builtin_strcmp$7;
-    if(tmp_statement_expression$5 == 0)
+    char *return_value_sl_item_6;
+    return_value_sl_item_6=sl_item(sl, i);
+    signed int return_value___builtin_strcmp_7;
+    return_value___builtin_strcmp_7=__builtin_strcmp(return_value_sl_item_6, str);
+    tmp_statement_expression_5 = return_value___builtin_strcmp_7;
+    if(tmp_statement_expression_5 == 0)
     {
-      char *return_value_sl_item$4;
-      return_value_sl_item$4=sl_item(sl, i);
-      return return_value_sl_item$4;
+      char *return_value_sl_item_4;
+      return_value_sl_item_4=sl_item(sl, i);
+      return return_value_sl_item_4;
     }
 
     i = i + 1ul;
@@ -3229,7 +3229,7 @@ char * sl_find(struct stringlist *sl, const char *str)
 void sl_free(struct stringlist *sl)
 {
   unsigned long int i;
-  unsigned long int return_value_sl_count$1;
+  unsigned long int return_value_sl_count_1;
   if(!(sl == ((struct stringlist *)NULL)))
   {
     if(!(sl->lines == ((char **)NULL)))
@@ -3237,8 +3237,8 @@ void sl_free(struct stringlist *sl)
       i = (unsigned long int)0;
       do
       {
-        return_value_sl_count$1=sl_count(sl);
-        if(i >= return_value_sl_count$1)
+        return_value_sl_count_1=sl_count(sl);
+        if(i >= return_value_sl_count_1)
           break;
 
         free((void *)sl->lines[(signed long int)i]);
@@ -3258,17 +3258,17 @@ void sl_free(struct stringlist *sl)
 struct stringlist * sl_init(void)
 {
   struct stringlist *sl;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct stringlist) /*32ul*/ );
-  sl = (struct stringlist *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct stringlist) /*32ul*/ );
+  sl = (struct stringlist *)return_value_malloc_1;
   if(sl == ((struct stringlist *)NULL))
     return (struct stringlist *)(void *)0;
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)128 * sizeof(char *) /*8ul*/ );
-    sl->lines = (char **)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)128 * sizeof(char *) /*8ul*/ );
+    sl->lines = (char **)return_value_malloc_2;
     if(sl->lines == ((char **)NULL))
       return (struct stringlist *)(void *)0;
 
@@ -3286,16 +3286,16 @@ struct stringlist * sl_init(void)
 // file stringlist.h line 47
 inline char * sl_item(struct stringlist *sl, unsigned long int index)
 {
-  unsigned long int return_value_sl_count$1;
-  return_value_sl_count$1=sl_count(sl);
-  if(return_value_sl_count$1 == 0ul)
+  unsigned long int return_value_sl_count_1;
+  return_value_sl_count_1=sl_count(sl);
+  if(return_value_sl_count_1 == 0ul)
     return (char *)(void *)0;
 
   else
   {
-    unsigned long int return_value_sl_count$2;
-    return_value_sl_count$2=sl_count(sl);
-    if(index >= return_value_sl_count$2)
+    unsigned long int return_value_sl_count_2;
+    return_value_sl_count_2=sl_count(sl);
+    if(index >= return_value_sl_count_2)
       return (char *)(void *)0;
 
     else
@@ -3307,9 +3307,9 @@ inline char * sl_item(struct stringlist *sl, unsigned long int index)
 // file stringlist.c line 198
 void sl_sort(struct stringlist *sl)
 {
-  unsigned long int return_value_sl_count$1;
-  return_value_sl_count$1=sl_count(sl);
-  qsort((void *)sl->lines, return_value_sl_count$1, sizeof(char *) /*8ul*/ , sl_strcmp);
+  unsigned long int return_value_sl_count_1;
+  return_value_sl_count_1=sl_count(sl);
+  qsort((void *)sl->lines, return_value_sl_count_1, sizeof(char *) /*8ul*/ , sl_strcmp);
   sl->sorted = (char)1;
 }
 
@@ -3317,40 +3317,40 @@ void sl_sort(struct stringlist *sl)
 // file stringlist.c line 36
 static signed int sl_strcasecmp(const void *p1, const void *p2)
 {
-  signed int return_value_strcasecmp$1;
-  return_value_strcasecmp$1=strcasecmp(*((char * const *)p1), *((char * const *)p2));
-  return return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
+  return_value_strcasecmp_1=strcasecmp(*((char * const *)p1), *((char * const *)p2));
+  return return_value_strcasecmp_1;
 }
 
 // sl_strcmp
 // file stringlist.c line 31
 static signed int sl_strcmp(const void *p1, const void *p2)
 {
-  signed int tmp_statement_expression$1;
+  signed int tmp_statement_expression_1;
   unsigned long int __s1_len;
   unsigned long int __s2_len;
-  signed int return_value___builtin_strcmp$2;
-  return_value___builtin_strcmp$2=__builtin_strcmp(*((char * const *)p1), *((char * const *)p2));
-  tmp_statement_expression$1 = return_value___builtin_strcmp$2;
-  return tmp_statement_expression$1;
+  signed int return_value___builtin_strcmp_2;
+  return_value___builtin_strcmp_2=__builtin_strcmp(*((char * const *)p1), *((char * const *)p2));
+  tmp_statement_expression_1 = return_value___builtin_strcmp_2;
+  return tmp_statement_expression_1;
 }
 
 // stat
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___xstat$1;
-  return_value___xstat$1=__xstat(1, __path, __statbuf);
-  return return_value___xstat$1;
+  signed int return_value___xstat_1;
+  return_value___xstat_1=__xstat(1, __path, __statbuf);
+  return return_value___xstat_1;
 }
 
-// stat$link1
+// stat_link1
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
-static inline signed int stat$link1(const char *__path$link1, struct stat *__statbuf$link1)
+static inline signed int stat_link1(const char *__path_link1, struct stat *__statbuf_link1)
 {
-  signed int return_value___xstat$1$link1;
-  return_value___xstat$1$link1=__xstat(1, __path$link1, __statbuf$link1);
-  return return_value___xstat$1$link1;
+  signed int return_value___xstat_1_link1;
+  return_value___xstat_1_link1=__xstat(1, __path_link1, __statbuf_link1);
+  return return_value___xstat_1_link1;
 }
 
 // strip_whitespace
@@ -3359,9 +3359,9 @@ static char * strip_whitespace(const char *str)
 {
   char *start = (char *)str;
   char *end;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  end = (start + (signed long int)return_value_strlen$1) - (signed long int)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  end = (start + (signed long int)return_value_strlen_1) - (signed long int)1;
   for( ; (_Bool)1; start = start + 1l)
     if(!((signed int)*start == 9))
     {
@@ -3370,14 +3370,14 @@ static char * strip_whitespace(const char *str)
 
     }
 
-  const unsigned short int **return_value___ctype_b_loc$2;
+  const unsigned short int **return_value___ctype_b_loc_2;
   do
   {
 
   __CPROVER_DUMP_L3:
     ;
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*end]) == 0)
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*end]) == 0)
       break;
 
     *end = (char)0;
@@ -3397,9 +3397,9 @@ static char * strip_whitespace_check_comment(const char *str)
 {
   char *start = (char *)str;
   char *end;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  end = (start + (signed long int)return_value_strlen$1) - (signed long int)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  end = (start + (signed long int)return_value_strlen_1) - (signed long int)1;
   for( ; (_Bool)1; start = start + 1l)
     if(!((signed int)*start == 9))
     {
@@ -3408,33 +3408,33 @@ static char * strip_whitespace_check_comment(const char *str)
 
     }
 
-  const unsigned short int **return_value___ctype_b_loc$2;
+  const unsigned short int **return_value___ctype_b_loc_2;
   do
   {
 
   __CPROVER_DUMP_L3:
     ;
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*end]) == 0)
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*end]) == 0)
       break;
 
     *end = (char)0;
     end = end - 1l;
   }
   while((_Bool)1);
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if((signed int)*start == 35)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = (signed int)*start == 59 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_3 = (signed int)*start == 59 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = (signed int)*start == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = (signed int)*start == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_4)
     return (char *)(void *)0;
 
   else
@@ -3448,10 +3448,10 @@ static void * workgroup_listing_thread(void *args)
   char *wg = (char *)args;
   struct hash_t *ip_cache;
   ip_cache=hash_create((unsigned long int)0x7fffffffffffffffL * 2UL + 1UL, (signed int (*)(const void *, const void *))(void *)0, (unsigned long int (*)(const void *))(void *)0);
-  _Bool tmp_if_expr$1;
-  signed int tmp_statement_expression$4;
-  char *return_value_sl_item$13;
-  char *return_value_sl_item$14;
+  _Bool tmp_if_expr_1;
+  signed int tmp_statement_expression_4;
+  char *return_value_sl_item_13;
+  char *return_value_sl_item_14;
   if(ip_cache == ((struct hash_t *)NULL))
     return (void *)0;
 
@@ -3483,14 +3483,14 @@ static void * workgroup_listing_thread(void *args)
         if(!(server_dirent == ((struct smbc_dirent *)NULL)))
         {
           if(server_dirent->namelen == 0u)
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = server_dirent->smbc_type != (unsigned int)2 ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$1)
+            tmp_if_expr_1 = server_dirent->smbc_type != (unsigned int)2 ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_1)
           {
-            signed int return_value_sl_add$2;
-            return_value_sl_add$2=sl_add(servers, server_dirent->name, 1);
+            signed int return_value_sl_add_2;
+            return_value_sl_add_2=sl_add(servers, server_dirent->name, 1);
           }
 
         }
@@ -3503,54 +3503,54 @@ static void * workgroup_listing_thread(void *args)
       nmblookup(wg, servers, ip_cache);
       sl_casesort(servers);
       unsigned long int i = (unsigned long int)0;
-      unsigned long int return_value_sl_count$3;
-      return_value_sl_count$3=sl_count(servers);
-      if(!(i >= return_value_sl_count$3))
+      unsigned long int return_value_sl_count_3;
+      return_value_sl_count_3=sl_count(servers);
+      if(!(i >= return_value_sl_count_3))
       {
         if(i >= 1ul)
         {
           unsigned long int __s1_len;
           unsigned long int __s2_len;
-          char *return_value_sl_item$5;
-          return_value_sl_item$5=sl_item(servers, i);
-          char *return_value_sl_item$6;
-          return_value_sl_item$6=sl_item(servers, i - (unsigned long int)1);
-          signed int return_value___builtin_strcmp$7;
-          return_value___builtin_strcmp$7=__builtin_strcmp(return_value_sl_item$5, return_value_sl_item$6);
-          tmp_statement_expression$4 = return_value___builtin_strcmp$7;
+          char *return_value_sl_item_5;
+          return_value_sl_item_5=sl_item(servers, i);
+          char *return_value_sl_item_6;
+          return_value_sl_item_6=sl_item(servers, i - (unsigned long int)1);
+          signed int return_value___builtin_strcmp_7;
+          return_value___builtin_strcmp_7=__builtin_strcmp(return_value_sl_item_5, return_value_sl_item_6);
+          tmp_statement_expression_4 = return_value___builtin_strcmp_7;
         }
 
         if(!(opts.ignore_servers == ((struct stringlist *)NULL)))
         {
-          char *return_value_sl_item$8;
-          return_value_sl_item$8=sl_item(servers, i);
-          char *return_value_sl_find$9;
-          return_value_sl_find$9=sl_find(opts.ignore_servers, return_value_sl_item$8);
+          char *return_value_sl_item_8;
+          return_value_sl_item_8=sl_item(servers, i);
+          char *return_value_sl_find_9;
+          return_value_sl_find_9=sl_find(opts.ignore_servers, return_value_sl_item_8);
         }
 
         char sv[1024l] = { '/', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-        char *return_value_sl_item$10;
-        return_value_sl_item$10=sl_item(servers, i);
-        strcat(sv, return_value_sl_item$10);
+        char *return_value_sl_item_10;
+        return_value_sl_item_10=sl_item(servers, i);
+        strcat(sv, return_value_sl_item_10);
         signed int ignore = 0;
-        signed int return_value_config_read_bool$11;
-        return_value_config_read_bool$11=config_read_bool(&cfg, sv, "ignore", &ignore);
-        if(!(return_value_config_read_bool$11 == 0))
+        signed int return_value_config_read_bool_11;
+        return_value_config_read_bool_11=config_read_bool(&cfg, sv, "ignore", &ignore);
+        if(!(return_value_config_read_bool_11 == 0))
         {
           struct hnode_t *node;
-          char *return_value_sl_item$12;
-          return_value_sl_item$12=sl_item(servers, i);
-          node=hash_lookup(ip_cache, (const void *)return_value_sl_item$12);
+          char *return_value_sl_item_12;
+          return_value_sl_item_12=sl_item(servers, i);
+          node=hash_lookup(ip_cache, (const void *)return_value_sl_item_12);
           if(node == ((struct hnode_t *)NULL))
           {
-            return_value_sl_item$13=sl_item(servers, i);
-            server_listing(ctx, cache, wg, return_value_sl_item$13, (const char *)(void *)0);
+            return_value_sl_item_13=sl_item(servers, i);
+            server_listing(ctx, cache, wg, return_value_sl_item_13, (const char *)(void *)0);
           }
 
           else
           {
-            return_value_sl_item$14=sl_item(servers, i);
-            server_listing(ctx, cache, wg, return_value_sl_item$14, (const char *)node->hash_data);
+            return_value_sl_item_14=sl_item(servers, i);
+            server_listing(ctx, cache, wg, return_value_sl_item_14, (const char *)node->hash_data);
           }
         }
 

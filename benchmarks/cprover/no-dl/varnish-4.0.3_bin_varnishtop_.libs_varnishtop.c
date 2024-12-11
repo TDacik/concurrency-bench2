@@ -1,102 +1,102 @@
-// tag-#anon#ST[*{SYM#tag-chunk#}$SYM#tag-chunk#$'vtqe_next'||*{*{SYM#tag-chunk#}$SYM#tag-chunk#$}$*{SYM#tag-chunk#}$SYM#tag-chunk#$$'vtqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-chunk#}_SYM#tag-chunk#_'vtqe_next'||*{*{SYM#tag-chunk#}_SYM#tag-chunk#_}_*{SYM#tag-chunk#}_SYM#tag-chunk#__'vtqe_prev'|]
 // file vsl_dispatch.c line 105
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[*{SYM#tag-membit#}$SYM#tag-membit#$'vtqe_next'||*{*{SYM#tag-membit#}$SYM#tag-membit#$}$*{SYM#tag-membit#}$SYM#tag-membit#$$'vtqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-membit#}_SYM#tag-membit#_'vtqe_next'||*{*{SYM#tag-membit#}_SYM#tag-membit#_}_*{SYM#tag-membit#}_SYM#tag-membit#__'vtqe_prev'|]
 // file vxp.h line 48
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[*{SYM#tag-membit#}$SYM#tag-membit#$'vtqh_first'||*{*{SYM#tag-membit#}$SYM#tag-membit#$}$*{SYM#tag-membit#}$SYM#tag-membit#$$'vtqh_last'|]
+// tag-#anon#ST[*{SYM#tag-membit#}_SYM#tag-membit#_'vtqh_first'||*{*{SYM#tag-membit#}_SYM#tag-membit#_}_*{SYM#tag-membit#}_SYM#tag-membit#__'vtqh_last'|]
 // file vxp.h line 70
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[*{SYM#tag-synth#}$SYM#tag-synth#$'vtqe_next'||*{*{SYM#tag-synth#}$SYM#tag-synth#$}$*{SYM#tag-synth#}$SYM#tag-synth#$$'vtqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-synth#}_SYM#tag-synth#_'vtqe_next'||*{*{SYM#tag-synth#}_SYM#tag-synth#_}_*{SYM#tag-synth#}_SYM#tag-synth#__'vtqe_prev'|]
 // file vsl_dispatch.c line 86
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[*{SYM#tag-synth#}$SYM#tag-synth#$'vtqh_first'||*{*{SYM#tag-synth#}$SYM#tag-synth#$}$*{SYM#tag-synth#}$SYM#tag-synth#$$'vtqh_last'|]
+// tag-#anon#ST[*{SYM#tag-synth#}_SYM#tag-synth#_'vtqh_first'||*{*{SYM#tag-synth#}_SYM#tag-synth#_}_*{SYM#tag-synth#}_SYM#tag-synth#__'vtqh_last'|]
 // file vsl_dispatch.c line 162
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[*{SYM#tag-token#}$SYM#tag-token#$'vtqe_next'||*{*{SYM#tag-token#}$SYM#tag-token#$}$*{SYM#tag-token#}$SYM#tag-token#$$'vtqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-token#}_SYM#tag-token#_'vtqe_next'||*{*{SYM#tag-token#}_SYM#tag-token#_}_*{SYM#tag-token#}_SYM#tag-token#__'vtqe_prev'|]
 // file vxp.h line 56
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[*{SYM#tag-token#}$SYM#tag-token#$'vtqh_first'||*{*{SYM#tag-token#}$SYM#tag-token#$}$*{SYM#tag-token#}$SYM#tag-token#$$'vtqh_last'|]
+// tag-#anon#ST[*{SYM#tag-token#}_SYM#tag-token#_'vtqh_first'||*{*{SYM#tag-token#}_SYM#tag-token#_}_*{SYM#tag-token#}_SYM#tag-token#__'vtqh_last'|]
 // file vxp.h line 69
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[*{SYM#tag-top#}$SYM#tag-top#$'rbe_left'||*{SYM#tag-top#}$SYM#tag-top#$'rbe_right'||*{SYM#tag-top#}$SYM#tag-top#$'rbe_parent'||S32'rbe_color'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-top#}_SYM#tag-top#_'rbe_left'||*{SYM#tag-top#}_SYM#tag-top#_'rbe_right'||*{SYM#tag-top#}_SYM#tag-top#_'rbe_parent'||S32'rbe_color'||U32'_pad0'|]
 // file varnishtop.c line 73
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[*{SYM#tag-vsc_pt#}$SYM#tag-vsc_pt#$'vtqe_next'||*{*{SYM#tag-vsc_pt#}$SYM#tag-vsc_pt#$}$*{SYM#tag-vsc_pt#}$SYM#tag-vsc_pt#$$'vtqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-vsc_pt#}_SYM#tag-vsc_pt#_'vtqe_next'||*{*{SYM#tag-vsc_pt#}_SYM#tag-vsc_pt#_}_*{SYM#tag-vsc_pt#}_SYM#tag-vsc_pt#__'vtqe_prev'|]
 // file vsc.c line 70
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[*{SYM#tag-vsc_pt#}$SYM#tag-vsc_pt#$'vtqh_first'||*{*{SYM#tag-vsc_pt#}$SYM#tag-vsc_pt#$}$*{SYM#tag-vsc_pt#}$SYM#tag-vsc_pt#$$'vtqh_last'|]
+// tag-#anon#ST[*{SYM#tag-vsc_pt#}_SYM#tag-vsc_pt#_'vtqh_first'||*{*{SYM#tag-vsc_pt#}_SYM#tag-vsc_pt#_}_*{SYM#tag-vsc_pt#}_SYM#tag-vsc_pt#__'vtqh_last'|]
 // file vsc.c line 93
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[*{SYM#tag-vsc_sf#}$SYM#tag-vsc_sf#$'vtqe_next'||*{*{SYM#tag-vsc_sf#}$SYM#tag-vsc_sf#$}$*{SYM#tag-vsc_sf#}$SYM#tag-vsc_sf#$$'vtqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-vsc_sf#}_SYM#tag-vsc_sf#_'vtqe_next'||*{*{SYM#tag-vsc_sf#}_SYM#tag-vsc_sf#_}_*{SYM#tag-vsc_sf#}_SYM#tag-vsc_sf#__'vtqe_prev'|]
 // file vsc.c line 77
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[*{SYM#tag-vsc_sf#}$SYM#tag-vsc_sf#$'vtqh_first'||*{*{SYM#tag-vsc_sf#}$SYM#tag-vsc_sf#$}$*{SYM#tag-vsc_sf#}$SYM#tag-vsc_sf#$$'vtqh_last'|]
+// tag-#anon#ST[*{SYM#tag-vsc_sf#}_SYM#tag-vsc_sf#_'vtqh_first'||*{*{SYM#tag-vsc_sf#}_SYM#tag-vsc_sf#_}_*{SYM#tag-vsc_sf#}_SYM#tag-vsc_sf#__'vtqh_last'|]
 // file vsc.c line 94
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[*{SYM#tag-vsc_vf#}$SYM#tag-vsc_vf#$'vtqe_next'||*{*{SYM#tag-vsc_vf#}$SYM#tag-vsc_vf#$}$*{SYM#tag-vsc_vf#}$SYM#tag-vsc_vf#$$'vtqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-vsc_vf#}_SYM#tag-vsc_vf#_'vtqe_next'||*{*{SYM#tag-vsc_vf#}_SYM#tag-vsc_vf#_}_*{SYM#tag-vsc_vf#}_SYM#tag-vsc_vf#__'vtqe_prev'|]
 // file vsc.c line 61
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[*{SYM#tag-vsc_vf#}$SYM#tag-vsc_vf#$'vtqh_first'||*{*{SYM#tag-vsc_vf#}$SYM#tag-vsc_vf#$}$*{SYM#tag-vsc_vf#}$SYM#tag-vsc_vf#$$'vtqh_last'|]
+// tag-#anon#ST[*{SYM#tag-vsc_vf#}_SYM#tag-vsc_vf#_'vtqh_first'||*{*{SYM#tag-vsc_vf#}_SYM#tag-vsc_vf#_}_*{SYM#tag-vsc_vf#}_SYM#tag-vsc_vf#__'vtqh_last'|]
 // file vsc.c line 92
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[*{SYM#tag-vslf#}$SYM#tag-vslf#$'vtqe_next'||*{*{SYM#tag-vslf#}$SYM#tag-vslf#$}$*{SYM#tag-vslf#}$SYM#tag-vslf#$$'vtqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-vslf#}_SYM#tag-vslf#_'vtqe_next'||*{*{SYM#tag-vslf#}_SYM#tag-vslf#_}_*{SYM#tag-vslf#}_SYM#tag-vslf#__'vtqe_prev'|]
 // file vsl_api.h line 63
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[*{SYM#tag-vslf#}$SYM#tag-vslf#$'vtqh_first'||*{*{SYM#tag-vslf#}$SYM#tag-vslf#$}$*{SYM#tag-vslf#}$SYM#tag-vslf#$$'vtqh_last'|]
+// tag-#anon#ST[*{SYM#tag-vslf#}_SYM#tag-vslf#_'vtqh_first'||*{*{SYM#tag-vslf#}_SYM#tag-vslf#_}_*{SYM#tag-vslf#}_SYM#tag-vslf#__'vtqh_last'|]
 // file vsl_api.h line 69
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[*{SYM#tag-vtx#}$SYM#tag-vtx#$'vtqe_next'||*{*{SYM#tag-vtx#}$SYM#tag-vtx#$}$*{SYM#tag-vtx#}$SYM#tag-vtx#$$'vtqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-vtx#}_SYM#tag-vtx#_'vtqe_next'||*{*{SYM#tag-vtx#}_SYM#tag-vtx#_}_*{SYM#tag-vtx#}_SYM#tag-vtx#__'vtqe_prev'|]
 // file vsl_dispatch.c line 141
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[*{SYM#tag-vtx#}$SYM#tag-vtx#$'vtqh_first'||*{*{SYM#tag-vtx#}$SYM#tag-vtx#$}$*{SYM#tag-vtx#}$SYM#tag-vtx#$$'vtqh_last'|]
+// tag-#anon#ST[*{SYM#tag-vtx#}_SYM#tag-vtx#_'vtqh_first'||*{*{SYM#tag-vtx#}_SYM#tag-vtx#_}_*{SYM#tag-vtx#}_SYM#tag-vtx#__'vtqh_last'|]
 // file vsl_dispatch.c line 157
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[*{SYM#tag-vtx_key#}$SYM#tag-vtx_key#$'rbe_left'||*{SYM#tag-vtx_key#}$SYM#tag-vtx_key#$'rbe_right'||*{SYM#tag-vtx_key#}$SYM#tag-vtx_key#$'rbe_parent'||S32'rbe_color'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-vtx_key#}_SYM#tag-vtx_key#_'rbe_left'||*{SYM#tag-vtx_key#}_SYM#tag-vtx_key#_'rbe_right'||*{SYM#tag-vtx_key#}_SYM#tag-vtx_key#_'rbe_parent'||S32'rbe_color'||U32'_pad0'|]
 // file vsl_dispatch.c line 133
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[*{U32}$U32$'data'||U64'space'|]
+// tag-#anon#ST[*{U32}_U32_'data'||U64'space'|]
 // file vsl_dispatch.c line 107
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[SYM#tag-VSLC_ptr#'start'||SYM#tag-#anon#ST[*{SYM#tag-chunk#}$SYM#tag-chunk#$'vtqe_next'||*{*{SYM#tag-chunk#}$SYM#tag-chunk#$}$*{SYM#tag-chunk#}$SYM#tag-chunk#$$'vtqe_prev'|]#'shmref'|]
+// tag-#anon#ST[SYM#tag-VSLC_ptr#'start'||SYM#tag-#anon#ST[*{SYM#tag-chunk#}_SYM#tag-chunk#_'vtqe_next'||*{*{SYM#tag-chunk#}_SYM#tag-chunk#_}_*{SYM#tag-chunk#}_SYM#tag-chunk#__'vtqe_prev'|]#'shmref'|]
 // file vsl_dispatch.c line 103
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[SYM#tag-vslc_raw#'c'||SYM#tag-VSL_transaction#'trans'||ARR2{*{SYM#tag-VSL_transaction#}$SYM#tag-VSL_transaction#$}$*{SYM#tag-VSL_transaction#}$SYM#tag-VSL_transaction#$$'ptrans'||SYM#tag-VSLC_ptr#'start'||S64'len'||U64'offset'|]
+// tag-#anon#ST[SYM#tag-vslc_raw#'c'||SYM#tag-VSL_transaction#'trans'||ARR2{*{SYM#tag-VSL_transaction#}_SYM#tag-VSL_transaction#_}_*{SYM#tag-VSL_transaction#}_SYM#tag-VSL_transaction#__'ptrans'||SYM#tag-VSLC_ptr#'start'||S64'len'||U64'offset'|]
 // file vsl_dispatch.c line 193
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[U64'attr'||ARR5{S32}$S32$'chars'||U32'$pad0'|]
+// tag-#anon#ST[U64'attr'||ARR5{S32}_S32_'chars'||U32'_pad0'|]
 // file /usr/include/curses.h line 397
 struct anonymous;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[SYM#tag-VSLC_ptr#'start'||SYM#tag-#anon#ST[*{SYM#tag-chunk#}$SYM#tag-chunk#$'vtqe_next'||*{*{SYM#tag-chunk#}$SYM#tag-chunk#$}$*{SYM#tag-chunk#}$SYM#tag-chunk#$$'vtqe_prev'|]#'shmref'|]#'shm'||SYM#tag-#anon#ST[*{U32}$U32$'data'||U64'space'|]#'buf'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[SYM#tag-VSLC_ptr#'start'||SYM#tag-#anon#ST[*{SYM#tag-chunk#}_SYM#tag-chunk#_'vtqe_next'||*{*{SYM#tag-chunk#}_SYM#tag-chunk#_}_*{SYM#tag-chunk#}_SYM#tag-chunk#__'vtqe_prev'|]#'shmref'|]#'shm'||SYM#tag-#anon#ST[*{U32}_U32_'data'||U64'space'|]#'buf'|]
 // file vsl_dispatch.c line 102
-union anonymous$21;
+union anonymous_21;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-SHA256Context
 // file ../../include/vsha256.h line 34
@@ -477,15 +477,15 @@ static void SHA256_Transform(unsigned int *state, const unsigned char *block);
 // SHA256_Update
 // file ../../include/vsha256.h line 41
 void SHA256_Update(struct SHA256Context *ctx, const void *in, unsigned long int len);
-// VAS_Fail$object
+// VAS_Fail_object
 //
-void VAS_Fail$object(const char *, const char *, signed int, const char *, signed int, enum vas_e);
+void VAS_Fail_object(const char *, const char *, signed int, const char *, signed int, enum vas_e);
 // VAS_Fail_default
 // file ../../lib/libvarnish/vas.c line 41
 static void VAS_Fail_default(const char *func, const char *file, signed int line, const char *cond, signed int err, enum vas_e kind);
-// VAS_Fail_default$link1
+// VAS_Fail_default_link1
 // file ../libvarnish/vas.c line 41
-static void VAS_Fail_default$link1(const char *func$link1, const char *file$link1, signed int line$link1, const char *cond$link1, signed int err$link1, enum vas_e kind$link1);
+static void VAS_Fail_default_link1(const char *func_link1, const char *file_link1, signed int line_link1, const char *cond_link1, signed int err_link1, enum vas_e kind_link1);
 // VAV_BackSlash
 // file ../libvarnish/vav.c line 51
 signed int VAV_BackSlash(const char *s, char *res);
@@ -576,15 +576,15 @@ signed int VSB_error(struct vsb *s);
 // VSB_extend
 // file ../../lib/libvarnish/vsb.c line 138
 static signed int VSB_extend(struct vsb *s, signed int addlen);
-// VSB_extend$link1
+// VSB_extend_link1
 // file ../libvarnish/vsb.c line 138
-static signed int VSB_extend$link1(struct vsb *s$link1, signed int addlen$link1);
+static signed int VSB_extend_link1(struct vsb *s_link1, signed int addlen_link1);
 // VSB_extendsize
 // file ../../lib/libvarnish/vsb.c line 119
 static signed int VSB_extendsize(signed int size);
-// VSB_extendsize$link1
+// VSB_extendsize_link1
 // file ../libvarnish/vsb.c line 119
-static signed int VSB_extendsize$link1(signed int size$link1);
+static signed int VSB_extendsize_link1(signed int size_link1);
 // VSB_finish
 // file ../../lib/libvarnish/vsb.c line 474
 signed int VSB_finish(struct vsb *s);
@@ -597,18 +597,18 @@ struct vsb * VSB_new(struct vsb *s, char *buf, signed int length, signed int fla
 // VSB_newbuf
 // file ../../lib/libvarnish/vsb.c line 165
 static struct vsb * VSB_newbuf(struct vsb *s, char *buf, signed int length, signed int flags);
-// VSB_newbuf$link1
+// VSB_newbuf_link1
 // file ../libvarnish/vsb.c line 165
-static struct vsb * VSB_newbuf$link1(struct vsb *s$link1, char *buf$link1, signed int length$link1, signed int flags$link1);
+static struct vsb * VSB_newbuf_link1(struct vsb *s_link1, char *buf_link1, signed int length_link1, signed int flags_link1);
 // VSB_printf
 // file ../../lib/libvarnish/vsb.c line 417
 signed int VSB_printf(struct vsb *s, const char *fmt, ...);
 // VSB_put_byte
 // file ../../lib/libvarnish/vsb.c line 265
 static void VSB_put_byte(struct vsb *s, signed int c);
-// VSB_put_byte$link1
+// VSB_put_byte_link1
 // file ../libvarnish/vsb.c line 265
-static void VSB_put_byte$link1(struct vsb *s$link1, signed int c$link1);
+static void VSB_put_byte_link1(struct vsb *s_link1, signed int c_link1);
 // VSB_putc
 // file ../../lib/libvarnish/vsb.c line 432
 signed int VSB_putc(struct vsb *s, signed int c);
@@ -639,9 +639,9 @@ void * VSC_Get(struct VSM_data *vd, struct VSM_fantom *fantom, const char *type,
 // VSC_Iter
 // file vsc.c line 507
 signed int VSC_Iter(struct VSM_data *vd, struct VSM_fantom *fantom, signed int (*func)(void *, struct VSC_point *), void *priv);
-// VSC_Iter::func$object
+// VSC_Iter::func_object
 //
-signed int func$object(void *, struct VSC_point *);
+signed int func_object(void *, struct VSC_point *);
 // VSC_LevelDesc
 // file vsc.c line 535
 struct VSC_level_desc * VSC_LevelDesc(unsigned int level);
@@ -657,15 +657,15 @@ void VSLQ_Delete(struct VSLQ **pvslq);
 // VSLQ_Dispatch
 // file ../../include/vapi/vsl.h line 486
 signed int VSLQ_Dispatch(struct VSLQ *vslq, signed int (*func)(struct VSL_data *, struct VSL_transaction * const *, void *), void *priv);
-// VSLQ_Dispatch::func$object
+// VSLQ_Dispatch::func_object
 //
-signed int func$object(struct VSL_data *, struct VSL_transaction * const *, void *);
+signed int func_object(struct VSL_data *, struct VSL_transaction * const *, void *);
 // VSLQ_Flush
 // file ../../include/vapi/vsl.h line 502
 signed int VSLQ_Flush(struct VSLQ *vslq, signed int (*func)(struct VSL_data *, struct VSL_transaction * const *, void *), void *priv);
-// VSLQ_Flush::func$object
+// VSLQ_Flush::func_object
 //
-signed int func$object(struct VSL_data *, struct VSL_transaction * const *, void *);
+signed int func_object(struct VSL_data *, struct VSL_transaction * const *, void *);
 // VSLQ_Name2Grouping
 // file ../../include/vapi/vsl.h line 229
 signed int VSLQ_Name2Grouping(const char *name, signed int l);
@@ -696,15 +696,15 @@ const char * VSL_Error(struct VSL_data *vsl);
 // VSL_Glob2Tags
 // file vsl_arg.c line 88
 signed int VSL_Glob2Tags(const char *glob, signed int l, void (*func)(signed int, void *), void *priv);
-// VSL_Glob2Tags::func$object
+// VSL_Glob2Tags::func_object
 //
-void func$object(signed int, void *);
+void func_object(signed int, void *);
 // VSL_List2Tags
 // file vsl_arg.c line 157
 signed int VSL_List2Tags(const char *list, signed int l, void (*func)(signed int, void *), void *priv);
-// VSL_List2Tags::func$object
+// VSL_List2Tags::func_object
 //
-void func$object(signed int, void *);
+void func_object(signed int, void *);
 // VSL_Match
 // file ../../include/vapi/vsl.h line 339
 signed int VSL_Match(struct VSL_data *vsl, struct VSL_cursor *c);
@@ -843,15 +843,15 @@ extern signed int * __errno_location(void);
 // _assert_VSB_integrity
 // file ../../lib/libvarnish/vsb.c line 79
 static void _assert_VSB_integrity(const char *fun, struct vsb *s);
-// _assert_VSB_integrity$link1
+// _assert_VSB_integrity_link1
 // file ../libvarnish/vsb.c line 79
-static void _assert_VSB_integrity$link1(const char *fun$link1, struct vsb *s$link1);
+static void _assert_VSB_integrity_link1(const char *fun_link1, struct vsb *s_link1);
 // _assert_VSB_state
 // file ../../lib/libvarnish/vsb.c line 95
 static void _assert_VSB_state(const char *fun, struct vsb *s, signed int state);
-// _assert_VSB_state$link1
+// _assert_VSB_state_link1
 // file ../libvarnish/vsb.c line 95
-static void _assert_VSB_state$link1(const char *fun$link1, struct vsb *s$link1, signed int state$link1);
+static void _assert_VSB_state_link1(const char *fun_link1, struct vsb *s_link1, signed int state_link1);
 // abort
 // file /usr/include/stdlib.h line 515
 extern void abort(void);
@@ -1029,9 +1029,9 @@ extern struct real_pcre * pcre_compile(const char *, signed int, const char **, 
 // pcre_exec
 // file /usr/include/pcre.h line 573
 extern signed int pcre_exec(const struct real_pcre *, const struct pcre_extra *, const char *, signed int, signed int, signed int, signed int *, signed int);
-// pcre_free$object
+// pcre_free_object
 //
-void pcre_free$object(void *);
+void pcre_free_object(void *);
 // pcre_free_study
 // file /usr/include/pcre.h line 636
 extern void pcre_free_study(struct pcre_extra *);
@@ -1052,10 +1052,10 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 773
-extern signed int pthread_mutex_lock(union anonymous$0 *);
+extern signed int pthread_mutex_lock(union anonymous_0 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 784
-extern signed int pthread_mutex_unlock(union anonymous$0 *);
+extern signed int pthread_mutex_unlock(union anonymous_0 *);
 // pwrite
 // file /usr/include/unistd.h line 384
 extern signed long int pwrite(signed int, const void *, unsigned long int, signed long int);
@@ -1230,39 +1230,39 @@ static inline void vbit_clr(struct vbitmap *vb, unsigned int bit);
 // vbit_destroy
 // file ../../include/vbm.h line 75
 static inline void vbit_destroy(struct vbitmap *vb);
-// vbit_destroy$link1
+// vbit_destroy_link1
 // file ../../include/vbm.h line 75
-static inline void vbit_destroy$link1(struct vbitmap *vb$link1);
-// vbit_destroy$link2
+static inline void vbit_destroy_link1(struct vbitmap *vb_link1);
+// vbit_destroy_link2
 // file ../../include/vbm.h line 75
-static inline void vbit_destroy$link2(struct vbitmap *vb$link2);
+static inline void vbit_destroy_link2(struct vbitmap *vb_link2);
 // vbit_expand
 // file ../../include/vbm.h line 48
 static inline void vbit_expand(struct vbitmap *vb, unsigned int bit);
-// vbit_expand$link1
+// vbit_expand_link1
 // file ../../include/vbm.h line 48
-static inline void vbit_expand$link1(struct vbitmap *vb$link1, unsigned int bit$link1);
-// vbit_expand$link2
+static inline void vbit_expand_link1(struct vbitmap *vb_link1, unsigned int bit_link1);
+// vbit_expand_link2
 // file ../../include/vbm.h line 48
-static inline void vbit_expand$link2(struct vbitmap *vb$link2, unsigned int bit$link2);
+static inline void vbit_expand_link2(struct vbitmap *vb_link2, unsigned int bit_link2);
 // vbit_init
 // file ../../include/vbm.h line 62
 static inline struct vbitmap * vbit_init(unsigned int initial);
-// vbit_init$link1
+// vbit_init_link1
 // file ../../include/vbm.h line 62
-static inline struct vbitmap * vbit_init$link1(unsigned int initial$link1);
-// vbit_init$link2
+static inline struct vbitmap * vbit_init_link1(unsigned int initial_link1);
+// vbit_init_link2
 // file ../../include/vbm.h line 62
-static inline struct vbitmap * vbit_init$link2(unsigned int initial$link2);
+static inline struct vbitmap * vbit_init_link2(unsigned int initial_link2);
 // vbit_set
 // file ../../include/vbm.h line 85
 static inline void vbit_set(struct vbitmap *vb, unsigned int bit);
 // vbit_test
 // file ../../include/vbm.h line 102
 static inline signed int vbit_test(struct vbitmap *vb, unsigned int bit);
-// vbit_test$link1
+// vbit_test_link1
 // file ../../include/vbm.h line 102
-static inline signed int vbit_test$link1(struct vbitmap *vb$link1, unsigned int bit$link1);
+static inline signed int vbit_test_link1(struct vbitmap *vb_link1, unsigned int bit_link1);
 // vex_Free
 // file vxp.h line 146
 void vex_Free(struct vex **pvex);
@@ -1316,7 +1316,7 @@ static struct vsc * vsc_setup(struct VSM_data *vd);
 static signed int vsl_IX_arg(struct VSL_data *vsl, signed int opt, const char *arg);
 // vsl_IX_free
 // file vsl.c line 111
-static void vsl_IX_free(struct anonymous$1 *filters);
+static void vsl_IX_free(struct anonymous_1 *filters);
 // vsl_diag
 // file vsl_api.h line 40
 signed int vsl_diag(struct VSL_data *vsl, const char *fmt, ...);
@@ -1325,7 +1325,7 @@ signed int vsl_diag(struct VSL_data *vsl, const char *fmt, ...);
 static signed int vsl_ix_arg(struct VSL_data *vsl, signed int opt, const char *arg);
 // vsl_match_IX
 // file vsl.c line 166
-static signed int vsl_match_IX(struct VSL_data *vsl, const struct anonymous$1 *list, struct VSL_cursor *c);
+static signed int vsl_match_IX(struct VSL_data *vsl, const struct anonymous_1 *list, struct VSL_cursor *c);
 // vsl_vbm_bitclr
 // file vsl_arg.c line 224
 void vsl_vbm_bitclr(signed int bit, void *priv);
@@ -1371,9 +1371,9 @@ static signed int vslc_vtx_reset(struct VSL_cursor *cursor);
 // vslq_callback
 // file vsl_dispatch.c line 906
 static signed int vslq_callback(struct VSLQ *vslq, struct vtx *vtx, signed int (*func)(struct VSL_data *, struct VSL_transaction * const *, void *), void *priv);
-// vslq_callback::func$object
+// vslq_callback::func_object
 //
-signed int func$object(struct VSL_data *, struct VSL_transaction * const *, void *);
+signed int func_object(struct VSL_data *, struct VSL_transaction * const *, void *);
 // vslq_deletequery
 // file vsl_api.h line 100
 void vslq_deletequery(struct vslq_query **pquery);
@@ -1389,15 +1389,15 @@ static signed int vslq_next(struct VSLQ *vslq);
 // vslq_process_ready
 // file vsl_dispatch.c line 1264
 static signed int vslq_process_ready(struct VSLQ *vslq, signed int (*func)(struct VSL_data *, struct VSL_transaction * const *, void *), void *priv);
-// vslq_process_ready::func$object
+// vslq_process_ready::func_object
 //
-signed int func$object(struct VSL_data *, struct VSL_transaction * const *, void *);
+signed int func_object(struct VSL_data *, struct VSL_transaction * const *, void *);
 // vslq_raw
 // file vsl_dispatch.c line 1138
 static signed int vslq_raw(struct VSLQ *vslq, signed int (*func)(struct VSL_data *, struct VSL_transaction * const *, void *), void *priv);
-// vslq_raw::func$object
+// vslq_raw::func_object
 //
-signed int func$object(struct VSL_data *, struct VSL_transaction * const *, void *);
+signed int func_object(struct VSL_data *, struct VSL_transaction * const *, void *);
 // vslq_runquery
 // file vsl_api.h line 101
 signed int vslq_runquery(struct vslq_query *query, struct VSL_transaction * const *ptrans);
@@ -1588,7 +1588,7 @@ extern signed long int writev(signed int, struct iovec *, signed int);
 // file /usr/include/curses.h line 845
 extern void wtimeout(struct _win_st *, signed int);
 
-struct anonymous$22
+struct anonymous_22
 {
   // vtqe_next
   struct chunk *vtqe_next;
@@ -1596,7 +1596,7 @@ struct anonymous$22
   struct chunk **vtqe_prev;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // vtqe_next
   struct membit *vtqe_next;
@@ -1604,7 +1604,7 @@ struct anonymous$13
   struct membit **vtqe_prev;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // vtqh_first
   struct membit *vtqh_first;
@@ -1612,7 +1612,7 @@ struct anonymous$16
   struct membit **vtqh_last;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // vtqe_next
   struct synth *vtqe_next;
@@ -1620,7 +1620,7 @@ struct anonymous$20
   struct synth **vtqe_prev;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // vtqh_first
   struct synth *vtqh_first;
@@ -1628,7 +1628,7 @@ struct anonymous$19
   struct synth **vtqh_last;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // vtqe_next
   struct token *vtqe_next;
@@ -1636,7 +1636,7 @@ struct anonymous$14
   struct token **vtqe_prev;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // vtqh_first
   struct token *vtqh_first;
@@ -1644,7 +1644,7 @@ struct anonymous$15
   struct token **vtqh_last;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // rbe_left
   struct top *rbe_left;
@@ -1656,7 +1656,7 @@ struct anonymous$3
   signed int rbe_color;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // vtqe_next
   struct vsc_pt *vtqe_next;
@@ -1664,7 +1664,7 @@ struct anonymous$10
   struct vsc_pt **vtqe_prev;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // vtqh_first
   struct vsc_pt *vtqh_first;
@@ -1672,7 +1672,7 @@ struct anonymous$7
   struct vsc_pt **vtqh_last;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // vtqe_next
   struct vsc_sf *vtqe_next;
@@ -1680,7 +1680,7 @@ struct anonymous$11
   struct vsc_sf **vtqe_prev;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // vtqh_first
   struct vsc_sf *vtqh_first;
@@ -1688,7 +1688,7 @@ struct anonymous$8
   struct vsc_sf **vtqh_last;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // vtqe_next
   struct vsc_vf *vtqe_next;
@@ -1696,7 +1696,7 @@ struct anonymous$9
   struct vsc_vf **vtqe_prev;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // vtqh_first
   struct vsc_vf *vtqh_first;
@@ -1704,7 +1704,7 @@ struct anonymous$6
   struct vsc_vf **vtqh_last;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // vtqe_next
   struct vslf *vtqe_next;
@@ -1712,7 +1712,7 @@ struct anonymous$2
   struct vslf **vtqe_prev;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // vtqh_first
   struct vslf *vtqh_first;
@@ -1720,7 +1720,7 @@ struct anonymous$1
   struct vslf **vtqh_last;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // vtqe_next
   struct vtx *vtqe_next;
@@ -1728,7 +1728,7 @@ struct anonymous$18
   struct vtx **vtqe_prev;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // vtqh_first
   struct vtx *vtqh_first;
@@ -1736,7 +1736,7 @@ struct anonymous$4
   struct vtx **vtqh_last;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // rbe_left
   struct vtx_key *rbe_left;
@@ -1748,7 +1748,7 @@ struct anonymous$17
   signed int rbe_color;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // data
   unsigned int *data;
@@ -1764,12 +1764,12 @@ struct VSLC_ptr
   unsigned int priv;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // start
   struct VSLC_ptr start;
   // shmref
-  struct anonymous$22 shmref;
+  struct anonymous_22 shmref;
 };
 
 struct VSL_cursor
@@ -1808,7 +1808,7 @@ struct VSL_transaction
   struct VSL_cursor *c;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // c
   struct vslc_raw c;
@@ -1832,12 +1832,12 @@ struct anonymous
   signed int chars[5l];
 };
 
-union anonymous$21
+union anonymous_21
 {
   // shm
-  struct anonymous$23 shm;
+  struct anonymous_23 shm;
   // buf
-  struct anonymous$24 buf;
+  struct anonymous_24 buf;
 };
 
 struct __pthread_internal_list
@@ -1868,7 +1868,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -2337,19 +2337,19 @@ struct VSLQ
   // tree
   struct vtx_tree tree;
   // ready
-  struct anonymous$4 ready;
+  struct anonymous_4 ready;
   // incomplete
-  struct anonymous$4 incomplete;
+  struct anonymous_4 incomplete;
   // n_outstanding
   unsigned int n_outstanding;
   // shmrefs
   struct chunkhead shmrefs;
   // cache
-  struct anonymous$4 cache;
+  struct anonymous_4 cache;
   // n_cache
   unsigned int n_cache;
   // raw
-  struct anonymous$5 raw;
+  struct anonymous_5 raw;
 };
 
 struct VSL_data
@@ -2365,9 +2365,9 @@ struct VSL_data
   // vbm_supress
   struct vbitmap *vbm_supress;
   // vslf_select
-  struct anonymous$1 vslf_select;
+  struct anonymous_1 vslf_select;
   // vslf_suppress
-  struct anonymous$1 vslf_suppress;
+  struct anonymous_1 vslf_suppress;
   // b_opt
   signed int b_opt;
   // c_opt
@@ -2716,14 +2716,14 @@ struct chunk
   unsigned int magic;
   // type
   enum chunk_t type;
-  // $anon0
-  union anonymous$21 $anon0;
+  // _anon0
+  union anonymous_21 _anon0;
   // len
   unsigned long int len;
   // vtx
   struct vtx *vtx;
   // list
-  struct anonymous$22 list;
+  struct anonymous_22 list;
 };
 
 struct cli
@@ -2775,7 +2775,7 @@ struct iovec
 struct membit
 {
   // list
-  struct anonymous$13 list;
+  struct anonymous_13 list;
   // ptr
   void *ptr;
 };
@@ -2831,7 +2831,7 @@ struct synth
   // magic
   unsigned int magic;
   // list
-  struct anonymous$20 list;
+  struct anonymous_20 list;
   // offset
   unsigned long int offset;
   // data
@@ -2901,7 +2901,7 @@ struct token
   // e
   const char *e;
   // list
-  struct anonymous$14 list;
+  struct anonymous_14 list;
   // cnt
   unsigned int cnt;
   // dec
@@ -2921,9 +2921,9 @@ struct top
   // hash
   unsigned int hash;
   // e_order
-  struct anonymous$3 e_order;
+  struct anonymous_3 e_order;
   // e_key
-  struct anonymous$3 e_key;
+  struct anonymous_3 e_key;
   // count
   double count;
 };
@@ -3055,11 +3055,11 @@ struct vsc
   // magic
   unsigned int magic;
   // vf_list
-  struct anonymous$6 vf_list;
+  struct anonymous_6 vf_list;
   // pt_list
-  struct anonymous$7 pt_list;
+  struct anonymous_7 pt_list;
   // sf_list
-  struct anonymous$8 sf_list;
+  struct anonymous_8 sf_list;
   // iter_fantom
   struct VSM_fantom iter_fantom;
 };
@@ -3069,7 +3069,7 @@ struct vsc_pt
   // magic
   unsigned int magic;
   // list
-  struct anonymous$10 list;
+  struct anonymous_10 list;
   // point
   struct VSC_point point;
 };
@@ -3079,7 +3079,7 @@ struct vsc_sf
   // magic
   unsigned int magic;
   // list
-  struct anonymous$11 list;
+  struct anonymous_11 list;
   // flags
   signed int flags;
   // type
@@ -3095,7 +3095,7 @@ struct vsc_vf
   // magic
   unsigned int magic;
   // list
-  struct anonymous$9 list;
+  struct anonymous_9 list;
   // fantom
   struct VSM_fantom fantom;
   // section
@@ -3181,7 +3181,7 @@ struct vslf
   // magic
   unsigned int magic;
   // list
-  struct anonymous$2 list;
+  struct anonymous_2 list;
   // tags
   struct vbitmap *tags;
   // vre
@@ -3201,7 +3201,7 @@ struct vtx_key
   // vxid
   unsigned int vxid;
   // entry
-  struct anonymous$17 entry;
+  struct anonymous_17 entry;
 };
 
 struct vtx
@@ -3211,9 +3211,9 @@ struct vtx
   // magic
   unsigned int magic;
   // list_child
-  struct anonymous$18 list_child;
+  struct anonymous_18 list_child;
   // list_vtx
-  struct anonymous$18 list_vtx;
+  struct anonymous_18 list_vtx;
   // t_start
   double t_start;
   // flags
@@ -3225,7 +3225,7 @@ struct vtx
   // parent
   struct vtx *parent;
   // child
-  struct anonymous$4 child;
+  struct anonymous_4 child;
   // n_child
   unsigned int n_child;
   // n_childready
@@ -3233,7 +3233,7 @@ struct vtx
   // n_descend
   unsigned int n_descend;
   // synth
-  struct anonymous$19 synth;
+  struct anonymous_19 synth;
   // shmchunks
   struct chunk shmchunks[3l];
   // shmchunks_free
@@ -3257,9 +3257,9 @@ struct vxp
   // e
   const char *e;
   // tokens
-  struct anonymous$15 tokens;
+  struct anonymous_15 tokens;
   // membits
-  struct anonymous$16 membits;
+  struct anonymous_16 membits;
   // t
   struct token *t;
   // vex_options
@@ -3861,9 +3861,9 @@ static signed int f_flag = 0;
 // fmts
 // file ../../lib/libvarnish/vtim.c line 114
 static const char *fmts[6l] = { "%a, %d %b %Y %T GMT", "%A, %d-%b-%y %T GMT", "%a %b %d %T %Y", "%F %T", "%FT%T", (const char *)(void *)0 };
-// fmts$link1
+// fmts_link1
 // file ../libvarnish/vtim.c line 114
-static const char *fmts$link1[6l] = { "%a, %d %b %Y %T GMT", "%A, %d-%b-%y %T GMT", "%a %b %d %T %Y", "%F %T", "%FT%T", (const char *)(void *)0 };
+static const char *fmts_link1[6l] = { "%a, %d %b %Y %T GMT", "%A, %d-%b-%y %T GMT", "%a %b %d %T %Y", "%F %T", "%FT%T", (const char *)(void *)0 };
 // h_key
 // file varnishtop.c line 79
 static struct t_key h_key = { .rbh_root=(struct top *)(void *)0 };
@@ -3875,7 +3875,7 @@ static struct t_order h_order = { .rbh_root=(struct top *)(void *)0 };
 static unsigned int maxfieldlen = (unsigned int)0;
 // mtx
 // file varnishtop.c line 105
-static union anonymous$0 mtx = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 mtx = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // ntop
@@ -4038,22 +4038,22 @@ void SHA256_Test(void)
   for( ; !(p->input == ((const char *)NULL)); p = p + 1l)
   {
     SHA256_Init(&c);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(p->input);
-    SHA256_Update(&c, (const void *)p->input, return_value_strlen$1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(p->input);
+    SHA256_Update(&c, (const void *)p->input, return_value_strlen_1);
     SHA256_Final(o, &c);
     do
     {
 
     __CPROVER_DUMP_L2:
       ;
-      signed int return_value_memcmp$3;
-      return_value_memcmp$3=memcmp((const void *)o, (const void *)p->output, (unsigned long int)32);
-      if(!(return_value_memcmp$3 == 0))
+      signed int return_value_memcmp_3;
+      return_value_memcmp_3=memcmp((const void *)o, (const void *)p->output, (unsigned long int)32);
+      if(!(return_value_memcmp_3 == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("SHA256_Test", "../libvarnish/vsha256.c", 331, "(memcmp(o, p->output, 32)) == 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("SHA256_Test", "../libvarnish/vsha256.c", 331, "(memcmp(o, p->output, 32)) == 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     }
@@ -4378,38 +4378,38 @@ static void VAS_Fail_default(const char *func, const char *file, signed int line
 
       else
         fprintf(stderr, "Assert error in %s(), %s line %d:\n  Condition(%s) not true.\n", func, file, line, cond);
-  char *return_value_strerror$1;
+  char *return_value_strerror_1;
   if(!(err == 0))
   {
-    return_value_strerror$1=strerror(err);
-    fprintf(stderr, "  errno = %d (%s)\n", err, return_value_strerror$1);
+    return_value_strerror_1=strerror(err);
+    fprintf(stderr, "  errno = %d (%s)\n", err, return_value_strerror_1);
   }
 
   abort();
 }
 
-// VAS_Fail_default$link1
+// VAS_Fail_default_link1
 // file ../libvarnish/vas.c line 41
-static void VAS_Fail_default$link1(const char *func$link1, const char *file$link1, signed int line$link1, const char *cond$link1, signed int err$link1, enum vas_e kind$link1)
+static void VAS_Fail_default_link1(const char *func_link1, const char *file_link1, signed int line_link1, const char *cond_link1, signed int err_link1, enum vas_e kind_link1)
 {
-  if((signed int)kind$link1 == VAS_MISSING)
-    fprintf(stderr, "Missing errorhandling code in %s(), %s line %d:\n  Condition(%s) not true.\n", func$link1, file$link1, line$link1, cond$link1);
+  if((signed int)kind_link1 == VAS_MISSING)
+    fprintf(stderr, "Missing errorhandling code in %s(), %s line %d:\n  Condition(%s) not true.\n", func_link1, file_link1, line_link1, cond_link1);
 
   else
-    if((signed int)kind$link1 == VAS_INCOMPLETE)
-      fprintf(stderr, "Incomplete code in %s(), %s line %d:\n", func$link1, file$link1, line$link1);
+    if((signed int)kind_link1 == VAS_INCOMPLETE)
+      fprintf(stderr, "Incomplete code in %s(), %s line %d:\n", func_link1, file_link1, line_link1);
 
     else
-      if((signed int)kind$link1 == VAS_WRONG)
-        fprintf(stderr, "Wrong turn in %s(), %s line %d:\n", func$link1, file$link1, line$link1);
+      if((signed int)kind_link1 == VAS_WRONG)
+        fprintf(stderr, "Wrong turn in %s(), %s line %d:\n", func_link1, file_link1, line_link1);
 
       else
-        fprintf(stderr, "Assert error in %s(), %s line %d:\n  Condition(%s) not true.\n", func$link1, file$link1, line$link1, cond$link1);
-  char *return_value_strerror$1$link1;
-  if(!(err$link1 == 0))
+        fprintf(stderr, "Assert error in %s(), %s line %d:\n  Condition(%s) not true.\n", func_link1, file_link1, line_link1, cond_link1);
+  char *return_value_strerror_1_link1;
+  if(!(err_link1 == 0))
   {
-    return_value_strerror$1$link1=strerror(err$link1);
-    fprintf(stderr, "  errno = %d (%s)\n", err$link1, return_value_strerror$1$link1);
+    return_value_strerror_1_link1=strerror(err_link1);
+    fprintf(stderr, "  errno = %d (%s)\n", err_link1, return_value_strerror_1_link1);
   }
 
   abort();
@@ -4425,15 +4425,15 @@ signed int VAV_BackSlash(const char *s, char *res)
   do
     if(!((signed int)*s == 92))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VAV_BackSlash", "../libvarnish/vav.c", 57, "*s == '\\\\'", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VAV_BackSlash", "../libvarnish/vav.c", 57, "*s == '\\\\'", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   c = (char)0;
   r = (signed int)c;
-  signed int return_value_sscanf$4;
+  signed int return_value_sscanf_4;
   switch((signed int)s[(signed long int)1])
   {
     case 110:
@@ -4485,9 +4485,9 @@ signed int VAV_BackSlash(const char *s, char *res)
       r = 1;
       for( ; !(r >= 4); r = r + 1)
       {
-        const unsigned short int **return_value___ctype_b_loc$2;
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        if((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)s[(signed long int)r]]) == 0)
+        const unsigned short int **return_value___ctype_b_loc_2;
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        if((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)s[(signed long int)r]]) == 0)
           break;
 
         if((signed int)s[(signed long int)r] + -48 >= 8)
@@ -4500,8 +4500,8 @@ signed int VAV_BackSlash(const char *s, char *res)
     }
     case 120:
     {
-      return_value_sscanf$4=sscanf(s + (signed long int)1, "x%02x", &u);
-      if(return_value_sscanf$4 == 1)
+      return_value_sscanf_4=sscanf(s + (signed long int)1, "x%02x", &u);
+      if(return_value_sscanf_4 == 1)
       {
 
       __CPROVER_DUMP_L13:
@@ -4509,9 +4509,9 @@ signed int VAV_BackSlash(const char *s, char *res)
         do
           if(!((4294967040u & u) == 0u))
           {
-            signed int *return_value___errno_location$3;
-            return_value___errno_location$3=__errno_location();
-            VAS_Fail("VAV_BackSlash", "../libvarnish/vav.c", 93, "(u & ~0xff) == 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_3;
+            return_value___errno_location_3=__errno_location();
+            VAS_Fail("VAV_BackSlash", "../libvarnish/vav.c", 93, "(u & ~0xff) == 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
           }
 
         while((_Bool)0);
@@ -4544,17 +4544,17 @@ char * VAV_BackSlashDecode(const char *s, const char *e)
   do
     if(e == ((const char *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VAV_BackSlashDecode", "../libvarnish/vav.c", 115, "e != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VAV_BackSlashDecode", "../libvarnish/vav.c", 115, "e != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)((e - s) + (signed long int)1), (unsigned long int)1);
-  p = (char *)return_value_calloc$2;
-  char *tmp_post$3;
-  const char *tmp_post$4;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)((e - s) + (signed long int)1), (unsigned long int)1);
+  p = (char *)return_value_calloc_2;
+  char *tmp_post_3;
+  const char *tmp_post_4;
   if(p == ((char *)NULL))
     return p;
 
@@ -4565,11 +4565,11 @@ char * VAV_BackSlashDecode(const char *s, const char *e)
     while(!(q >= e))
       if(!((signed int)*q == 92))
       {
-        tmp_post$3 = r;
+        tmp_post_3 = r;
         r = r + 1l;
-        tmp_post$4 = q;
+        tmp_post_4 = q;
         q = q + 1l;
-        *tmp_post$3 = *tmp_post$4;
+        *tmp_post_3 = *tmp_post_4;
       }
 
       else
@@ -4606,20 +4606,20 @@ char ** VAV_Parse(const char *s, signed int *argc, signed int flag)
   do
     if(s == ((const char *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VAV_Parse", "../libvarnish/vav.c", 143, "s != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VAV_Parse", "../libvarnish/vav.c", 143, "s != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   nargv = 1;
   largv = 16;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc(sizeof(char *) /*8ul*/ , (unsigned long int)largv);
-  argv = (char **)return_value_calloc$2;
-  _Bool tmp_if_expr$5;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  signed int tmp_post$10;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc(sizeof(char *) /*8ul*/ , (unsigned long int)largv);
+  argv = (char **)return_value_calloc_2;
+  _Bool tmp_if_expr_5;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  signed int tmp_post_10;
   if(argv == ((char **)NULL))
     return (char **)(void *)0;
 
@@ -4627,9 +4627,9 @@ char ** VAV_Parse(const char *s, signed int *argc, signed int flag)
   {
     while(!((signed int)*s == 0))
     {
-      const unsigned short int **return_value___ctype_b_loc$3;
-      return_value___ctype_b_loc$3=__ctype_b_loc();
-      if(!((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*s]) == 0))
+      const unsigned short int **return_value___ctype_b_loc_3;
+      return_value___ctype_b_loc_3=__ctype_b_loc();
+      if(!((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*s]) == 0))
         s = s + 1l;
 
       else
@@ -4677,14 +4677,14 @@ char ** VAV_Parse(const char *s, signed int *argc, signed int flag)
             if(quote == 0)
             {
               if((signed int)*s == 0)
-                tmp_if_expr$5 = (_Bool)1;
+                tmp_if_expr_5 = (_Bool)1;
 
               else
               {
-                return_value___ctype_b_loc$4=__ctype_b_loc();
-                tmp_if_expr$5 = ((signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)*s] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+                return_value___ctype_b_loc_4=__ctype_b_loc();
+                tmp_if_expr_5 = ((signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)*s] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$5)
+              if(tmp_if_expr_5)
                 break;
 
               if(!((2 & flag) == 0))
@@ -4716,15 +4716,15 @@ char ** VAV_Parse(const char *s, signed int *argc, signed int flag)
         if(1 + nargv >= largv)
         {
           largv = largv + largv;
-          void *return_value_realloc$6;
-          return_value_realloc$6=realloc((void *)argv, sizeof(char *) /*8ul*/  * (unsigned long int)largv);
-          argv = (char **)return_value_realloc$6;
+          void *return_value_realloc_6;
+          return_value_realloc_6=realloc((void *)argv, sizeof(char *) /*8ul*/  * (unsigned long int)largv);
+          argv = (char **)return_value_realloc_6;
           do
             if(argv == ((char **)NULL))
             {
-              signed int *return_value___errno_location$7;
-              return_value___errno_location$7=__errno_location();
-              VAS_Fail("VAV_Parse", "../libvarnish/vav.c", 194, "argv != NULL", *return_value___errno_location$7, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_7;
+              return_value___errno_location_7=__errno_location();
+              VAS_Fail("VAV_Parse", "../libvarnish/vav.c", 194, "argv != NULL", *return_value___errno_location_7, (enum vas_e)VAS_ASSERT);
             }
 
           while((_Bool)0);
@@ -4732,15 +4732,15 @@ char ** VAV_Parse(const char *s, signed int *argc, signed int flag)
 
         if(!((4 & flag) == 0))
         {
-          void *return_value_malloc$8;
-          return_value_malloc$8=malloc((unsigned long int)((signed long int)1 + (s - p)));
-          argv[(signed long int)nargv] = (char *)return_value_malloc$8;
+          void *return_value_malloc_8;
+          return_value_malloc_8=malloc((unsigned long int)((signed long int)1 + (s - p)));
+          argv[(signed long int)nargv] = (char *)return_value_malloc_8;
           do
             if(argv[(signed long int)nargv] == ((char *)NULL))
             {
-              signed int *return_value___errno_location$9;
-              return_value___errno_location$9=__errno_location();
-              VAS_Fail("VAV_Parse", "../libvarnish/vav.c", 198, "argv[nargv] != NULL", *return_value___errno_location$9, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_9;
+              return_value___errno_location_9=__errno_location();
+              VAS_Fail("VAV_Parse", "../libvarnish/vav.c", 198, "argv[nargv] != NULL", *return_value___errno_location_9, (enum vas_e)VAS_ASSERT);
             }
 
           while((_Bool)0);
@@ -4751,9 +4751,9 @@ char ** VAV_Parse(const char *s, signed int *argc, signed int flag)
 
         else
         {
-          tmp_post$10 = nargv;
+          tmp_post_10 = nargv;
           nargv = nargv + 1;
-          argv[(signed long int)tmp_post$10]=VAV_BackSlashDecode(p, s);
+          argv[(signed long int)tmp_post_10]=VAV_BackSlashDecode(p, s);
         }
         if(!((signed int)*s == 0))
           s = s + 1l;
@@ -4782,9 +4782,9 @@ void VCLI_AuthResponse(signed int S_fd, const char *challenge, char *response)
   SHA256_Update(&ctx, (const void *)"\n", (unsigned long int)1);
   do
   {
-    signed long int return_value_read$2;
-    return_value_read$2=read(S_fd, (void *)buf, sizeof(unsigned char [8192l]) /*8192ul*/ );
-    i = (signed int)return_value_read$2;
+    signed long int return_value_read_2;
+    return_value_read_2=read(S_fd, (void *)buf, sizeof(unsigned char [8192l]) /*8192ul*/ );
+    i = (signed int)return_value_read_2;
     if(i >= 1)
       SHA256_Update(&ctx, (const void *)buf, (unsigned long int)i);
 
@@ -4812,25 +4812,25 @@ void VCLI_Out(struct cli *cli, const char *fmt, ...)
     {
       if(cli == ((struct cli *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("VCLI_Out", "../libvarnish/cli_common.c", 61, "(cli) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("VCLI_Out", "../libvarnish/cli_common.c", 61, "(cli) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(cli->magic == 1077466480u))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          VAS_Fail("VCLI_Out", "../libvarnish/cli_common.c", 61, "(cli)->magic == 0x4038d570", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          VAS_Fail("VCLI_Out", "../libvarnish/cli_common.c", 61, "(cli)->magic == 0x4038d570", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
     }
     while((_Bool)0);
-    signed long int return_value_VSB_len$3;
-    return_value_VSB_len$3=VSB_len(cli->sb);
-    if(!(return_value_VSB_len$3 >= (signed long int)*cli->limit))
+    signed long int return_value_VSB_len_3;
+    return_value_VSB_len_3=VSB_len(cli->sb);
+    if(!(return_value_VSB_len_3 >= (signed long int)*cli->limit))
       VSB_vprintf(cli->sb, fmt, ap);
 
     else
@@ -4855,33 +4855,33 @@ __CPROVER_DUMP_L1:
   {
     if(cli == ((struct cli *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VCLI_Overflow", "../libvarnish/cli_common.c", 76, "(cli) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VCLI_Overflow", "../libvarnish/cli_common.c", 76, "(cli) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(cli->magic == 1077466480u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VCLI_Overflow", "../libvarnish/cli_common.c", 76, "(cli)->magic == 0x4038d570", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VCLI_Overflow", "../libvarnish/cli_common.c", 76, "(cli)->magic == 0x4038d570", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$4;
-  signed long int return_value_VSB_len$3;
+  _Bool tmp_if_expr_4;
+  signed long int return_value_VSB_len_3;
   if((signed int)cli->result == CLIS_TRUNCATED)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value_VSB_len$3=VSB_len(cli->sb);
-    tmp_if_expr$4 = return_value_VSB_len$3 >= (signed long int)*cli->limit ? (_Bool)1 : (_Bool)0;
+    return_value_VSB_len_3=VSB_len(cli->sb);
+    tmp_if_expr_4 = return_value_VSB_len_3 >= (signed long int)*cli->limit ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$4)
+  if(tmp_if_expr_4)
     return 1;
 
   else
@@ -4899,17 +4899,17 @@ __CPROVER_DUMP_L1:
   {
     if(cli == ((struct cli *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VCLI_Quote", "../libvarnish/cli_common.c", 88, "(cli) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VCLI_Quote", "../libvarnish/cli_common.c", 88, "(cli) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(cli->magic == 1077466480u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VCLI_Quote", "../libvarnish/cli_common.c", 88, "(cli)->magic == 0x4038d570", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VCLI_Quote", "../libvarnish/cli_common.c", 88, "(cli)->magic == 0x4038d570", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -4949,9 +4949,9 @@ signed int VCLI_ReadResult(signed int fd, unsigned int *status, char **ptr, doub
         {
           err = "CLI communication error (body)";
           *status = u;
-          void *return_value_malloc$1;
-          return_value_malloc$1=malloc((unsigned long int)((signed long int)v + 1L));
-          p = (char *)return_value_malloc$1;
+          void *return_value_malloc_1;
+          return_value_malloc_1=malloc((unsigned long int)((signed long int)v + 1L));
+          p = (char *)return_value_malloc_1;
           if(!(p == ((char *)NULL)))
           {
             i=read_tmo(fd, p, v + (unsigned int)1, tmo);
@@ -5007,17 +5007,17 @@ void VCLI_SetResult(struct cli *cli, unsigned int res)
     {
       if(cli == ((struct cli *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("VCLI_SetResult", "../libvarnish/cli_common.c", 97, "(cli) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("VCLI_SetResult", "../libvarnish/cli_common.c", 97, "(cli) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(cli->magic == 1077466480u))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          VAS_Fail("VCLI_SetResult", "../libvarnish/cli_common.c", 97, "(cli)->magic == 0x4038d570", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          VAS_Fail("VCLI_SetResult", "../libvarnish/cli_common.c", 97, "(cli)->magic == 0x4038d570", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -5045,18 +5045,18 @@ signed int VCLI_WriteResult(signed int fd, unsigned int status, const char *resu
   do
     if(!(status >= 100u))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VCLI_WriteResult", "../libvarnish/cli_common.c", 117, "status >= 100", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VCLI_WriteResult", "../libvarnish/cli_common.c", 117, "status >= 100", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   do
     if(status >= 1000u)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("VCLI_WriteResult", "../libvarnish/cli_common.c", 118, "status <= 999", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("VCLI_WriteResult", "../libvarnish/cli_common.c", 118, "status <= 999", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -5065,21 +5065,21 @@ signed int VCLI_WriteResult(signed int fd, unsigned int status, const char *resu
   do
     if(!(i == 13))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("VCLI_WriteResult", "../libvarnish/cli_common.c", 124, "i == CLI_LINE0_LEN", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("VCLI_WriteResult", "../libvarnish/cli_common.c", 124, "i == CLI_LINE0_LEN", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   do
   {
-    unsigned long int return_value_strtoul$5;
-    return_value_strtoul$5=strtoul(res + (signed long int)3, (char ** restrict )(void *)0, 10);
-    if(!(return_value_strtoul$5 == len))
+    unsigned long int return_value_strtoul_5;
+    return_value_strtoul_5=strtoul(res + (signed long int)3, (char ** restrict )(void *)0, 10);
+    if(!(return_value_strtoul_5 == len))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      VAS_Fail("VCLI_WriteResult", "../libvarnish/cli_common.c", 125, "strtoul(res + 3, NULL, 10) == len", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      VAS_Fail("VCLI_WriteResult", "../libvarnish/cli_common.c", 125, "strtoul(res + 3, NULL, 10) == len", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
     }
 
   }
@@ -5094,9 +5094,9 @@ signed int VCLI_WriteResult(signed int fd, unsigned int status, const char *resu
   l = i;
   for( ; !(i >= 3); i = i + 1)
     l = l + (signed int)iov[(signed long int)i].iov_len;
-  signed long int return_value_writev$6;
-  return_value_writev$6=writev(fd, iov, 3);
-  i = (signed int)return_value_writev$6;
+  signed long int return_value_writev_6;
+  return_value_writev_6=writev(fd, iov, 3);
+  i = (signed int)return_value_writev_6;
   return (signed int)(i != l);
 }
 
@@ -5115,30 +5115,30 @@ signed int VIN_N_Arg(const char *n_arg, char **name, char **dir, char **vsl)
 {
   char nm[4096l];
   char dn[4096l];
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_6;
   if(n_arg == ((const char *)NULL))
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_6 = (_Bool)1;
 
   else
-    tmp_if_expr$6 = (signed int)*n_arg == 0 ? (_Bool)1 : (_Bool)0;
-  unsigned long int return_value_strlen$5;
-  if(tmp_if_expr$6)
+    tmp_if_expr_6 = (signed int)*n_arg == 0 ? (_Bool)1 : (_Bool)0;
+  unsigned long int return_value_strlen_5;
+  if(tmp_if_expr_6)
   {
-    signed int return_value_gethostname$1;
-    return_value_gethostname$1=gethostname(nm, sizeof(char [4096l]) /*4096ul*/ );
-    if(!(return_value_gethostname$1 == 0))
+    signed int return_value_gethostname_1;
+    return_value_gethostname_1=gethostname(nm, sizeof(char [4096l]) /*4096ul*/ );
+    if(!(return_value_gethostname_1 == 0))
       return -1;
 
   }
 
   else
   {
-    return_value_strlen$5=strlen(n_arg);
-    if(return_value_strlen$5 >= sizeof(char [4096l]) /*4096ul*/ )
+    return_value_strlen_5=strlen(n_arg);
+    if(return_value_strlen_5 >= sizeof(char [4096l]) /*4096ul*/ )
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 36;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 36;
       return -1;
     }
 
@@ -5148,32 +5148,32 @@ signed int VIN_N_Arg(const char *n_arg, char **name, char **dir, char **vsl)
 
       __CPROVER_DUMP_L5:
         ;
-        signed int return_value_snprintf$4;
-        return_value_snprintf$4=snprintf(nm, sizeof(char [4096l]) /*4096ul*/ , "%s", n_arg);
-        if((unsigned long int)return_value_snprintf$4 >= sizeof(char [4096l]) /*4096ul*/ )
+        signed int return_value_snprintf_4;
+        return_value_snprintf_4=snprintf(nm, sizeof(char [4096l]) /*4096ul*/ , "%s", n_arg);
+        if((unsigned long int)return_value_snprintf_4 >= sizeof(char [4096l]) /*4096ul*/ )
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          VAS_Fail("VIN_N_Arg", "../libvarnish/vin.c", 62, "snprintf(nm, sizeof nm, \"%s\", n_arg) < sizeof nm", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          VAS_Fail("VIN_N_Arg", "../libvarnish/vin.c", 62, "snprintf(nm, sizeof nm, \"%s\", n_arg) < sizeof nm", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
         }
 
       }
       while((_Bool)0);
   }
-  unsigned long int return_value_strlen$10;
-  unsigned long int return_value_strlen$11;
+  unsigned long int return_value_strlen_10;
+  unsigned long int return_value_strlen_11;
   if((signed int)nm[0l] == 47)
     strcpy(dn, nm);
 
   else
   {
-    return_value_strlen$10=strlen("/var/lib/varnish");
-    return_value_strlen$11=strlen(nm);
-    if(1ul + return_value_strlen$10 + return_value_strlen$11 >= sizeof(char [4096l]) /*4096ul*/ )
+    return_value_strlen_10=strlen("/var/lib/varnish");
+    return_value_strlen_11=strlen(nm);
+    if(1ul + return_value_strlen_10 + return_value_strlen_11 >= sizeof(char [4096l]) /*4096ul*/ )
     {
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      *return_value___errno_location$7 = 36;
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      *return_value___errno_location_7 = 36;
       return -1;
     }
 
@@ -5183,27 +5183,27 @@ signed int VIN_N_Arg(const char *n_arg, char **name, char **dir, char **vsl)
 
       __CPROVER_DUMP_L9:
         ;
-        signed int return_value_snprintf$9;
-        return_value_snprintf$9=snprintf(dn, sizeof(char [4096l]) /*4096ul*/ , "%s/%s", (const void *)"/var/lib/varnish", (const void *)nm);
-        if((unsigned long int)return_value_snprintf$9 >= sizeof(char [4096l]) /*4096ul*/ )
+        signed int return_value_snprintf_9;
+        return_value_snprintf_9=snprintf(dn, sizeof(char [4096l]) /*4096ul*/ , "%s/%s", (const void *)"/var/lib/varnish", (const void *)nm);
+        if((unsigned long int)return_value_snprintf_9 >= sizeof(char [4096l]) /*4096ul*/ )
         {
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          VAS_Fail("VIN_N_Arg", "../libvarnish/vin.c", 74, "snprintf(dn, sizeof dn, \"%s/%s\", \"/var/lib/varnish\", nm) < sizeof dn", *return_value___errno_location$8, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          VAS_Fail("VIN_N_Arg", "../libvarnish/vin.c", 74, "snprintf(dn, sizeof dn, \"%s/%s\", \"/var/lib/varnish\", nm) < sizeof dn", *return_value___errno_location_8, (enum vas_e)VAS_ASSERT);
         }
 
       }
       while((_Bool)0);
   }
-  unsigned long int return_value_strlen$13;
-  return_value_strlen$13=strlen(dn);
-  unsigned long int return_value_strlen$14;
-  return_value_strlen$14=strlen("_.vsm");
-  if(1ul + return_value_strlen$13 + return_value_strlen$14 >= sizeof(char [4096l]) /*4096ul*/ )
+  unsigned long int return_value_strlen_13;
+  return_value_strlen_13=strlen(dn);
+  unsigned long int return_value_strlen_14;
+  return_value_strlen_14=strlen("_.vsm");
+  if(1ul + return_value_strlen_13 + return_value_strlen_14 >= sizeof(char [4096l]) /*4096ul*/ )
   {
-    signed int *return_value___errno_location$12;
-    return_value___errno_location$12=__errno_location();
-    *return_value___errno_location$12 = 36;
+    signed int *return_value___errno_location_12;
+    return_value___errno_location_12=__errno_location();
+    *return_value___errno_location_12 = 36;
     return -1;
   }
 
@@ -5243,13 +5243,13 @@ signed int VIN_N_Arg(const char *n_arg, char **name, char **dir, char **vsl)
 
         __CPROVER_DUMP_L15:
           ;
-          signed int return_value_snprintf$16;
-          return_value_snprintf$16=snprintf(nm, sizeof(char [4096l]) /*4096ul*/ , "%s%s", (const void *)dn, (const void *)"_.vsm");
-          if((unsigned long int)return_value_snprintf$16 >= sizeof(char [4096l]) /*4096ul*/ )
+          signed int return_value_snprintf_16;
+          return_value_snprintf_16=snprintf(nm, sizeof(char [4096l]) /*4096ul*/ , "%s%s", (const void *)dn, (const void *)"_.vsm");
+          if((unsigned long int)return_value_snprintf_16 >= sizeof(char [4096l]) /*4096ul*/ )
           {
-            signed int *return_value___errno_location$15;
-            return_value___errno_location$15=__errno_location();
-            VAS_Fail("VIN_N_Arg", "../libvarnish/vin.c", 96, "snprintf(nm, sizeof nm, \"%s%s\", dn, \"_.vsm\") < sizeof nm", *return_value___errno_location$15, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_15;
+            return_value___errno_location_15=__errno_location();
+            VAS_Fail("VIN_N_Arg", "../libvarnish/vin.c", 96, "snprintf(nm, sizeof nm, \"%s%s\", dn, \"_.vsm\") < sizeof nm", *return_value___errno_location_15, (enum vas_e)VAS_ASSERT);
           }
 
         }
@@ -5280,27 +5280,27 @@ signed int VPF_Close(struct vpf_fh *pfh)
   error=vpf_verify(pfh);
   if(!(error == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = error;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = error;
     return -1;
   }
 
-  signed int return_value_close$3;
-  return_value_close$3=close(pfh->pf_fd);
-  signed int *return_value___errno_location$2;
-  if(return_value_close$3 == -1)
+  signed int return_value_close_3;
+  return_value_close_3=close(pfh->pf_fd);
+  signed int *return_value___errno_location_2;
+  if(return_value_close_3 == -1)
   {
-    return_value___errno_location$2=__errno_location();
-    error = *return_value___errno_location$2;
+    return_value___errno_location_2=__errno_location();
+    error = *return_value___errno_location_2;
   }
 
   free((void *)pfh);
   if(!(error == 0))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    *return_value___errno_location$4 = error;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    *return_value___errno_location_4 = error;
     return -1;
   }
 
@@ -5316,10 +5316,10 @@ struct vpf_fh * VPF_Open(const char *path, unsigned int mode, signed int *pidptr
   signed int error;
   signed int fd;
   signed int len;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct vpf_fh) /*4120ul*/ );
-  pfh = (struct vpf_fh *)return_value_malloc$1;
-  signed int *return_value___errno_location$5;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct vpf_fh) /*4120ul*/ );
+  pfh = (struct vpf_fh *)return_value_malloc_1;
+  signed int *return_value___errno_location_5;
   if(pfh == ((struct vpf_fh *)NULL))
     return (struct vpf_fh *)(void *)0;
 
@@ -5328,9 +5328,9 @@ struct vpf_fh * VPF_Open(const char *path, unsigned int mode, signed int *pidptr
     do
       if(path == ((const char *)NULL))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VPF_Open", "../../lib/libvarnish/vpf.c", 115, "path != NULL", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VPF_Open", "../../lib/libvarnish/vpf.c", 115, "path != NULL", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -5338,30 +5338,30 @@ struct vpf_fh * VPF_Open(const char *path, unsigned int mode, signed int *pidptr
     if(len >= (signed int)sizeof(char [4097l]) /*4097*/ )
     {
       free((void *)pfh);
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = 36;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = 36;
       return (struct vpf_fh *)(void *)0;
     }
 
     fd=flopen(pfh->pf_path, 01 | 0100 | 01000 | 04000, mode);
     if(fd == -1)
     {
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      if(*return_value___errno_location$7 == 11)
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      if(*return_value___errno_location_7 == 11)
       {
         if(!(pidptr == ((signed int *)NULL)))
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          *return_value___errno_location$4=vpf_read(pfh->pf_path, pidptr);
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          if(*return_value___errno_location$6 == 0)
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          *return_value___errno_location_4=vpf_read(pfh->pf_path, pidptr);
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          if(*return_value___errno_location_6 == 0)
           {
-            return_value___errno_location$5=__errno_location();
-            *return_value___errno_location$5 = 17;
+            return_value___errno_location_5=__errno_location();
+            *return_value___errno_location_5 = 17;
           }
 
         }
@@ -5372,19 +5372,19 @@ struct vpf_fh * VPF_Open(const char *path, unsigned int mode, signed int *pidptr
       return (struct vpf_fh *)(void *)0;
     }
 
-    signed int return_value_fstat$10;
-    return_value_fstat$10=fstat(fd, &sb);
-    if(return_value_fstat$10 == -1)
+    signed int return_value_fstat_10;
+    return_value_fstat_10=fstat(fd, &sb);
+    if(return_value_fstat_10 == -1)
     {
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      error = *return_value___errno_location$8;
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      error = *return_value___errno_location_8;
       unlink(pfh->pf_path);
       close(fd);
       free((void *)pfh);
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      *return_value___errno_location$9 = error;
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      *return_value___errno_location_9 = error;
       return (struct vpf_fh *)(void *)0;
     }
 
@@ -5399,9 +5399,9 @@ struct vpf_fh * VPF_Open(const char *path, unsigned int mode, signed int *pidptr
 // file ../../include/vpf.h line 38
 signed int VPF_Remove(struct vpf_fh *pfh)
 {
-  signed int return_value__VPF_Remove$1;
-  return_value__VPF_Remove$1=_VPF_Remove(pfh, 1);
-  return return_value__VPF_Remove$1;
+  signed int return_value__VPF_Remove_1;
+  return_value__VPF_Remove_1=_VPF_Remove(pfh, 1);
+  return return_value__VPF_Remove_1;
 }
 
 // VPF_Write
@@ -5411,58 +5411,58 @@ signed int VPF_Write(struct vpf_fh *pfh)
   char pidstr[16l];
   signed int error;
   signed int fd;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1=vpf_verify(pfh);
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  if(!(*return_value___errno_location$2 == 0))
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1=vpf_verify(pfh);
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  if(!(*return_value___errno_location_2 == 0))
     return -1;
 
   else
   {
     fd = pfh->pf_fd;
-    signed int return_value_ftruncate$5;
-    return_value_ftruncate$5=ftruncate(fd, (signed long int)0);
-    if(return_value_ftruncate$5 == -1)
+    signed int return_value_ftruncate_5;
+    return_value_ftruncate_5=ftruncate(fd, (signed long int)0);
+    if(return_value_ftruncate_5 == -1)
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      error = *return_value___errno_location$3;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      error = *return_value___errno_location_3;
       _VPF_Remove(pfh, 0);
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = error;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = error;
       return -1;
     }
 
-    signed int return_value_getpid$6;
-    return_value_getpid$6=getpid();
-    error=snprintf(pidstr, sizeof(char [16l]) /*16ul*/ , "%ju", (unsigned long int)return_value_getpid$6);
+    signed int return_value_getpid_6;
+    return_value_getpid_6=getpid();
+    error=snprintf(pidstr, sizeof(char [16l]) /*16ul*/ , "%ju", (unsigned long int)return_value_getpid_6);
     do
       if((unsigned long int)error >= sizeof(char [16l]) /*16ul*/ )
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        VAS_Fail("VPF_Write", "../../lib/libvarnish/vpf.c", 192, "error < sizeof pidstr", *return_value___errno_location$7, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        VAS_Fail("VPF_Write", "../../lib/libvarnish/vpf.c", 192, "error < sizeof pidstr", *return_value___errno_location_7, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
-    unsigned long int return_value_strlen$10;
-    return_value_strlen$10=strlen(pidstr);
-    signed long int return_value_pwrite$11;
-    return_value_pwrite$11=pwrite(fd, (const void *)pidstr, return_value_strlen$10, (signed long int)0);
-    unsigned long int return_value_strlen$12;
-    return_value_strlen$12=strlen(pidstr);
-    if(!(return_value_pwrite$11 == (signed long int)return_value_strlen$12))
+    unsigned long int return_value_strlen_10;
+    return_value_strlen_10=strlen(pidstr);
+    signed long int return_value_pwrite_11;
+    return_value_pwrite_11=pwrite(fd, (const void *)pidstr, return_value_strlen_10, (signed long int)0);
+    unsigned long int return_value_strlen_12;
+    return_value_strlen_12=strlen(pidstr);
+    if(!(return_value_pwrite_11 == (signed long int)return_value_strlen_12))
     {
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      error = *return_value___errno_location$8;
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      error = *return_value___errno_location_8;
       _VPF_Remove(pfh, 0);
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      *return_value___errno_location$9 = error;
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      *return_value___errno_location_9 = error;
       return -1;
     }
 
@@ -5479,9 +5479,9 @@ struct vre * VRE_compile(const char *pattern, signed int options, const char **e
   *erroffset = 0;
   do
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(sizeof(struct vre) /*32ul*/ , (unsigned long int)1);
-    v = (struct vre *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(sizeof(struct vre) /*32ul*/ , (unsigned long int)1);
+    v = (struct vre *)return_value_calloc_1;
     if(!(v == ((struct vre *)NULL)))
       v->magic = 0xe83097dc;
 
@@ -5515,9 +5515,9 @@ struct vre * VRE_compile(const char *pattern, signed int options, const char **e
       {
         if(v->re_extra == ((struct pcre_extra *)NULL))
         {
-          void *return_value_calloc$2;
-          return_value_calloc$2=calloc((unsigned long int)1, sizeof(struct pcre_extra) /*64ul*/ );
-          v->re_extra = (struct pcre_extra *)return_value_calloc$2;
+          void *return_value_calloc_2;
+          return_value_calloc_2=calloc((unsigned long int)1, sizeof(struct pcre_extra) /*64ul*/ );
+          v->re_extra = (struct pcre_extra *)return_value_calloc_2;
           v->my_extra = 1;
           if(v->re_extra == ((struct pcre_extra *)NULL))
           {
@@ -5545,17 +5545,17 @@ __CPROVER_DUMP_L1:
   {
     if(code == ((const struct vre *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VRE_exec", "../libvarnish/vre.c", 106, "(code) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VRE_exec", "../libvarnish/vre.c", 106, "(code) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(code->magic == 0xe83097dc))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VRE_exec", "../libvarnish/vre.c", 106, "(code)->magic == 0xe83097dc", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VRE_exec", "../libvarnish/vre.c", 106, "(code)->magic == 0xe83097dc", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -5581,9 +5581,9 @@ __CPROVER_DUMP_L1:
     code->re_extra->flags = code->re_extra->flags & (unsigned long int)~0x0002;
     code->re_extra->flags = code->re_extra->flags & (unsigned long int)~0x0010;
   }
-  signed int return_value_pcre_exec$3;
-  return_value_pcre_exec$3=pcre_exec(code->re, code->re_extra, subject, length, startoffset, options, ovector, ovecsize);
-  return return_value_pcre_exec$3;
+  signed int return_value_pcre_exec_3;
+  return_value_pcre_exec_3=pcre_exec(code->re, code->re_extra, subject, length, startoffset, options, ovector, ovecsize);
+  return return_value_pcre_exec_3;
 }
 
 // VRE_free
@@ -5598,9 +5598,9 @@ __CPROVER_DUMP_L1:
   do
     if(!(v->magic == 0xe83097dc))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VRE_free", "../libvarnish/vre.c", 134, "(v)->magic == 0xe83097dc", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VRE_free", "../libvarnish/vre.c", 134, "(v)->magic == 0xe83097dc", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -5655,9 +5655,9 @@ signed int VSB_bcpy(struct vsb *s, const void *buf, unsigned long int len)
   _assert_VSB_integrity("VSB_bcpy", s);
   _assert_VSB_state("VSB_bcpy", s, 0);
   VSB_clear(s);
-  signed int return_value_VSB_bcat$1;
-  return_value_VSB_bcat$1=VSB_bcat(s, buf, len);
-  return return_value_VSB_bcat$1;
+  signed int return_value_VSB_bcat_1;
+  return_value_VSB_bcat_1=VSB_bcat(s, buf, len);
+  return return_value_VSB_bcat_1;
 }
 
 // VSB_cat
@@ -5666,7 +5666,7 @@ signed int VSB_cat(struct vsb *s, const char *str)
 {
   _assert_VSB_integrity("VSB_cat", s);
   _assert_VSB_state("VSB_cat", s, 0);
-  const char *tmp_post$1;
+  const char *tmp_post_1;
   if(!(s->s_error == 0))
     return -1;
 
@@ -5674,9 +5674,9 @@ signed int VSB_cat(struct vsb *s, const char *str)
   {
     while(!((signed int)*str == 0))
     {
-      tmp_post$1 = str;
+      tmp_post_1 = str;
       str = str + 1l;
-      VSB_put_byte(s, (signed int)*tmp_post$1);
+      VSB_put_byte(s, (signed int)*tmp_post_1);
       if(!(s->s_error == 0))
         return -1;
 
@@ -5704,9 +5704,9 @@ signed int VSB_cpy(struct vsb *s, const char *str)
   _assert_VSB_integrity("VSB_cpy", s);
   _assert_VSB_state("VSB_cpy", s, 0);
   VSB_clear(s);
-  signed int return_value_VSB_cat$1;
-  return_value_VSB_cat$1=VSB_cat(s, str);
-  return return_value_VSB_cat$1;
+  signed int return_value_VSB_cat_1;
+  return_value_VSB_cat_1=VSB_cat(s, str);
+  return return_value_VSB_cat_1;
 }
 
 // VSB_data
@@ -5760,9 +5760,9 @@ static signed int VSB_extend(struct vsb *s, signed int addlen)
   else
   {
     newsize=VSB_extendsize((signed int)(s->s_size + (signed long int)addlen));
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)newsize);
-    newbuf = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)newsize);
+    newbuf = (char *)return_value_malloc_1;
     if(newbuf == ((char *)NULL))
       return -1;
 
@@ -5783,36 +5783,36 @@ static signed int VSB_extend(struct vsb *s, signed int addlen)
   }
 }
 
-// VSB_extend$link1
+// VSB_extend_link1
 // file ../libvarnish/vsb.c line 138
-static signed int VSB_extend$link1(struct vsb *s$link1, signed int addlen$link1)
+static signed int VSB_extend_link1(struct vsb *s_link1, signed int addlen_link1)
 {
-  char *newbuf$link1;
-  signed int newsize$link1;
-  if((0x00000001 & s$link1->s_flags) == 0)
+  char *newbuf_link1;
+  signed int newsize_link1;
+  if((0x00000001 & s_link1->s_flags) == 0)
     return -1;
 
   else
   {
-    newsize$link1=VSB_extendsize$link1((signed int)(s$link1->s_size + (signed long int)addlen$link1));
-    void *return_value_malloc$1$link1;
-    return_value_malloc$1$link1=malloc((unsigned long int)newsize$link1);
-    newbuf$link1 = (char *)return_value_malloc$1$link1;
-    if(newbuf$link1 == ((char *)NULL))
+    newsize_link1=VSB_extendsize_link1((signed int)(s_link1->s_size + (signed long int)addlen_link1));
+    void *return_value_malloc_1_link1;
+    return_value_malloc_1_link1=malloc((unsigned long int)newsize_link1);
+    newbuf_link1 = (char *)return_value_malloc_1_link1;
+    if(newbuf_link1 == ((char *)NULL))
       return -1;
 
     else
     {
-      memcpy((void *)newbuf$link1, (const void *)s$link1->s_buf, (unsigned long int)s$link1->s_size);
-      if(!((0x00010000 & s$link1->s_flags) == 0))
-        free((void *)s$link1->s_buf);
+      memcpy((void *)newbuf_link1, (const void *)s_link1->s_buf, (unsigned long int)s_link1->s_size);
+      if(!((0x00010000 & s_link1->s_flags) == 0))
+        free((void *)s_link1->s_buf);
 
       else
         do
-          s$link1->s_flags = s$link1->s_flags | 0x00010000;
+          s_link1->s_flags = s_link1->s_flags | 0x00010000;
         while((_Bool)0);
-      s$link1->s_buf = newbuf$link1;
-      s$link1->s_size = (signed long int)newsize$link1;
+      s_link1->s_buf = newbuf_link1;
+      s_link1->s_size = (signed long int)newsize_link1;
       return 0;
     }
   }
@@ -5835,39 +5835,39 @@ static signed int VSB_extendsize(signed int size)
   do
     if(!(newsize >= size))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSB_extendsize", "../../lib/libvarnish/vsb.c", 130, "newsize >= size", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSB_extendsize", "../../lib/libvarnish/vsb.c", 130, "newsize >= size", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   return newsize;
 }
 
-// VSB_extendsize$link1
+// VSB_extendsize_link1
 // file ../libvarnish/vsb.c line 119
-static signed int VSB_extendsize$link1(signed int size$link1)
+static signed int VSB_extendsize_link1(signed int size_link1)
 {
-  signed int newsize$link1;
-  if(!(size$link1 >= 4096))
+  signed int newsize_link1;
+  if(!(size_link1 >= 4096))
   {
-    newsize$link1 = 16;
-    for( ; !(newsize$link1 >= size$link1); newsize$link1 = newsize$link1 * 2)
+    newsize_link1 = 16;
+    for( ; !(newsize_link1 >= size_link1); newsize_link1 = newsize_link1 * 2)
       ;
   }
 
   else
-    newsize$link1 = size$link1 + (4096 - 1) & ~(4096 - 1);
+    newsize_link1 = size_link1 + (4096 - 1) & ~(4096 - 1);
   do
-    if(!(newsize$link1 >= size$link1))
+    if(!(newsize_link1 >= size_link1))
     {
-      signed int *return_value___errno_location$1$link1;
-      return_value___errno_location$1$link1=__errno_location();
-      VAS_Fail("VSB_extendsize", "../libvarnish/vsb.c", 130, "newsize >= size", *return_value___errno_location$1$link1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1_link1;
+      return_value___errno_location_1_link1=__errno_location();
+      VAS_Fail("VSB_extendsize", "../libvarnish/vsb.c", 130, "newsize >= size", *return_value___errno_location_1_link1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
-  return newsize$link1;
+  return newsize_link1;
 }
 
 // VSB_finish
@@ -5880,9 +5880,9 @@ signed int VSB_finish(struct vsb *s)
   do
     s->s_flags = s->s_flags | 0x00020000;
   while((_Bool)0);
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = s->s_error;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = s->s_error;
   if(!(s->s_error == 0))
     return -1;
 
@@ -5909,42 +5909,42 @@ struct vsb * VSB_new(struct vsb *s, char *buf, signed int length, signed int fla
   do
     if(!(length >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSB_new", "../../lib/libvarnish/vsb.c", 202, "length >= 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSB_new", "../../lib/libvarnish/vsb.c", 202, "length >= 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   do
     if(!((-65536 & flags) == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("VSB_new", "../../lib/libvarnish/vsb.c", 204, "(flags & ~0x0000ffff) == 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("VSB_new", "../../lib/libvarnish/vsb.c", 204, "(flags & ~0x0000ffff) == 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   flags = flags & 0x0000ffff;
-  struct vsb *return_value_VSB_newbuf$3;
+  struct vsb *return_value_VSB_newbuf_3;
   if(!(s == ((struct vsb *)NULL)))
   {
-    return_value_VSB_newbuf$3=VSB_newbuf(s, buf, length, flags);
-    return return_value_VSB_newbuf$3;
+    return_value_VSB_newbuf_3=VSB_newbuf(s, buf, length, flags);
+    return return_value_VSB_newbuf_3;
   }
 
   else
   {
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc(sizeof(struct vsb) /*48ul*/ );
-    s = (struct vsb *)return_value_malloc$4;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc(sizeof(struct vsb) /*48ul*/ );
+    s = (struct vsb *)return_value_malloc_4;
     if(s == ((struct vsb *)NULL))
       return (struct vsb *)(void *)0;
 
     else
     {
-      struct vsb *return_value_VSB_newbuf$5;
-      return_value_VSB_newbuf$5=VSB_newbuf(s, buf, length, flags);
-      if(return_value_VSB_newbuf$5 == ((struct vsb *)NULL))
+      struct vsb *return_value_VSB_newbuf_5;
+      return_value_VSB_newbuf_5=VSB_newbuf(s, buf, length, flags);
+      if(return_value_VSB_newbuf_5 == ((struct vsb *)NULL))
       {
         free((void *)s);
         return (struct vsb *)(void *)0;
@@ -5974,14 +5974,14 @@ static struct vsb * VSB_newbuf(struct vsb *s, char *buf, signed int length, sign
     do
       if(!(s->s_size >= 2l))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("VSB_newbuf", "../../lib/libvarnish/vsb.c", 176, "s->s_size > 1", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("VSB_newbuf", "../../lib/libvarnish/vsb.c", 176, "s->s_size > 1", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
 
-  signed int return_value_VSB_extendsize$2;
+  signed int return_value_VSB_extendsize_2;
   if(!(s->s_buf == ((char *)NULL)))
     return s;
 
@@ -5989,13 +5989,13 @@ static struct vsb * VSB_newbuf(struct vsb *s, char *buf, signed int length, sign
   {
     if(!((0x00000001 & flags) == 0))
     {
-      return_value_VSB_extendsize$2=VSB_extendsize((signed int)s->s_size);
-      s->s_size = (signed long int)return_value_VSB_extendsize$2;
+      return_value_VSB_extendsize_2=VSB_extendsize((signed int)s->s_size);
+      s->s_size = (signed long int)return_value_VSB_extendsize_2;
     }
 
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)s->s_size);
-    s->s_buf = (char *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)s->s_size);
+    s->s_buf = (char *)return_value_malloc_3;
     if(s->s_buf == ((char *)NULL))
       return (struct vsb *)(void *)0;
 
@@ -6009,50 +6009,50 @@ static struct vsb * VSB_newbuf(struct vsb *s, char *buf, signed int length, sign
   }
 }
 
-// VSB_newbuf$link1
+// VSB_newbuf_link1
 // file ../libvarnish/vsb.c line 165
-static struct vsb * VSB_newbuf$link1(struct vsb *s$link1, char *buf$link1, signed int length$link1, signed int flags$link1)
+static struct vsb * VSB_newbuf_link1(struct vsb *s_link1, char *buf_link1, signed int length_link1, signed int flags_link1)
 {
-  memset((void *)s$link1, 0, sizeof(struct vsb) /*48ul*/ );
-  s$link1->magic = (unsigned int)0x4a82dd8a;
-  s$link1->s_flags = flags$link1;
-  s$link1->s_size = (signed long int)length$link1;
-  s$link1->s_buf = buf$link1;
-  if((0x00000001 & s$link1->s_flags) == 0)
+  memset((void *)s_link1, 0, sizeof(struct vsb) /*48ul*/ );
+  s_link1->magic = (unsigned int)0x4a82dd8a;
+  s_link1->s_flags = flags_link1;
+  s_link1->s_size = (signed long int)length_link1;
+  s_link1->s_buf = buf_link1;
+  if((0x00000001 & s_link1->s_flags) == 0)
     do
-      if(!(s$link1->s_size >= 2l))
+      if(!(s_link1->s_size >= 2l))
       {
-        signed int *return_value___errno_location$1$link1;
-        return_value___errno_location$1$link1=__errno_location();
-        VAS_Fail("VSB_newbuf", "../libvarnish/vsb.c", 176, "s->s_size > 1", *return_value___errno_location$1$link1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1_link1;
+        return_value___errno_location_1_link1=__errno_location();
+        VAS_Fail("VSB_newbuf", "../libvarnish/vsb.c", 176, "s->s_size > 1", *return_value___errno_location_1_link1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
 
-  signed int return_value_VSB_extendsize$2$link1;
-  if(!(s$link1->s_buf == ((char *)NULL)))
-    return s$link1;
+  signed int return_value_VSB_extendsize_2_link1;
+  if(!(s_link1->s_buf == ((char *)NULL)))
+    return s_link1;
 
   else
   {
-    if(!((0x00000001 & flags$link1) == 0))
+    if(!((0x00000001 & flags_link1) == 0))
     {
-      return_value_VSB_extendsize$2$link1=VSB_extendsize$link1((signed int)s$link1->s_size);
-      s$link1->s_size = (signed long int)return_value_VSB_extendsize$2$link1;
+      return_value_VSB_extendsize_2_link1=VSB_extendsize_link1((signed int)s_link1->s_size);
+      s_link1->s_size = (signed long int)return_value_VSB_extendsize_2_link1;
     }
 
-    void *return_value_malloc$3$link1;
-    return_value_malloc$3$link1=malloc((unsigned long int)s$link1->s_size);
-    s$link1->s_buf = (char *)return_value_malloc$3$link1;
-    if(s$link1->s_buf == ((char *)NULL))
+    void *return_value_malloc_3_link1;
+    return_value_malloc_3_link1=malloc((unsigned long int)s_link1->s_size);
+    s_link1->s_buf = (char *)return_value_malloc_3_link1;
+    if(s_link1->s_buf == ((char *)NULL))
       return (struct vsb *)(void *)0;
 
     else
     {
       do
-        s$link1->s_flags = s$link1->s_flags | 0x00010000;
+        s_link1->s_flags = s_link1->s_flags | 0x00010000;
       while((_Bool)0);
-      return s$link1;
+      return s_link1;
     }
   }
 }
@@ -6075,14 +6075,14 @@ static void VSB_put_byte(struct vsb *s, signed int c)
 {
   _assert_VSB_integrity("VSB_put_byte", s);
   _assert_VSB_state("VSB_put_byte", s, 0);
-  signed long int tmp_post$2;
+  signed long int tmp_post_2;
   if(s->s_error == 0)
   {
     if(!(s->s_size + -(1l + s->s_len) >= 1l))
     {
-      signed int return_value_VSB_extend$1;
-      return_value_VSB_extend$1=VSB_extend(s, 1);
-      if(!(return_value_VSB_extend$1 >= 0))
+      signed int return_value_VSB_extend_1;
+      return_value_VSB_extend_1=VSB_extend(s, 1);
+      if(!(return_value_VSB_extend_1 >= 0))
         s->s_error = 12;
 
       if(!(s->s_error == 0))
@@ -6090,9 +6090,9 @@ static void VSB_put_byte(struct vsb *s, signed int c)
 
     }
 
-    tmp_post$2 = s->s_len;
+    tmp_post_2 = s->s_len;
     s->s_len = s->s_len + 1l;
-    s->s_buf[tmp_post$2] = (char)c;
+    s->s_buf[tmp_post_2] = (char)c;
   }
 
 
@@ -6100,30 +6100,30 @@ __CPROVER_DUMP_L4:
   ;
 }
 
-// VSB_put_byte$link1
+// VSB_put_byte_link1
 // file ../libvarnish/vsb.c line 265
-static void VSB_put_byte$link1(struct vsb *s$link1, signed int c$link1)
+static void VSB_put_byte_link1(struct vsb *s_link1, signed int c_link1)
 {
-  _assert_VSB_integrity$link1("VSB_put_byte", s$link1);
-  _assert_VSB_state$link1("VSB_put_byte", s$link1, 0);
-  signed long int tmp_post$2$link1;
-  if(s$link1->s_error == 0)
+  _assert_VSB_integrity_link1("VSB_put_byte", s_link1);
+  _assert_VSB_state_link1("VSB_put_byte", s_link1, 0);
+  signed long int tmp_post_2_link1;
+  if(s_link1->s_error == 0)
   {
-    if(!(s$link1->s_size + -(1l + s$link1->s_len) >= 1l))
+    if(!(s_link1->s_size + -(1l + s_link1->s_len) >= 1l))
     {
-      signed int return_value_VSB_extend$1$link1;
-      return_value_VSB_extend$1$link1=VSB_extend$link1(s$link1, 1);
-      if(!(return_value_VSB_extend$1$link1 >= 0))
-        s$link1->s_error = 12;
+      signed int return_value_VSB_extend_1_link1;
+      return_value_VSB_extend_1_link1=VSB_extend_link1(s_link1, 1);
+      if(!(return_value_VSB_extend_1_link1 >= 0))
+        s_link1->s_error = 12;
 
-      if(!(s$link1->s_error == 0))
+      if(!(s_link1->s_error == 0))
         goto __CPROVER_DUMP_L4;
 
     }
 
-    tmp_post$2$link1 = s$link1->s_len;
-    s$link1->s_len = s$link1->s_len + 1l;
-    s$link1->s_buf[tmp_post$2$link1] = (char)c$link1;
+    tmp_post_2_link1 = s_link1->s_len;
+    s_link1->s_len = s_link1->s_len + 1l;
+    s_link1->s_buf[tmp_post_2_link1] = (char)c_link1;
   }
 
 
@@ -6150,38 +6150,38 @@ void VSB_quote(struct vsb *s, const char *p, signed int len, signed int how)
   const char *q;
   signed int quote = 0;
   (void)how;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(len == -1)
   {
-    return_value_strlen$1=strlen(p);
-    len = (signed int)return_value_strlen$1;
+    return_value_strlen_1=strlen(p);
+    len = (signed int)return_value_strlen_1;
   }
 
   q = p;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   for( ; !(q >= p + (signed long int)len); q = q + 1l)
   {
-    const unsigned short int **return_value___ctype_b_loc$2;
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if((32768 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*q]) == 0)
-      tmp_if_expr$3 = (_Bool)1;
+    const unsigned short int **return_value___ctype_b_loc_2;
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if((32768 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*q]) == 0)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)*q == 34 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_3 = (signed int)*q == 34 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)*q == 92 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)*q == 92 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
       quote = quote + 1;
       break;
     }
 
   }
-  const unsigned short int **return_value___ctype_b_loc$5;
+  const unsigned short int **return_value___ctype_b_loc_5;
   if(quote == 0)
     VSB_bcat(s, (const void *)p, (unsigned long int)len);
 
@@ -6222,8 +6222,8 @@ void VSB_quote(struct vsb *s, const char *p, signed int len, signed int how)
         }
         default:
         {
-          return_value___ctype_b_loc$5=__ctype_b_loc();
-          if(!((32768 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)*q]) == 0))
+          return_value___ctype_b_loc_5=__ctype_b_loc();
+          if(!((32768 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)*q]) == 0))
             VSB_putc(s, (signed int)*q);
 
           else
@@ -6243,28 +6243,28 @@ signed int VSB_setpos(struct vsb *s, signed long int pos)
   do
     if(!(pos >= 0l))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSB_setpos", "../../lib/libvarnish/vsb.c", 248, "pos >= 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSB_setpos", "../../lib/libvarnish/vsb.c", 248, "pos >= 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   do
     if(pos >= s->s_size)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("VSB_setpos", "../../lib/libvarnish/vsb.c", 251, "pos < s->s_size", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("VSB_setpos", "../../lib/libvarnish/vsb.c", 251, "pos < s->s_size", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(pos >= 0l))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = pos > s->s_len ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = pos > s->s_len ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
     return -1;
 
   else
@@ -6280,7 +6280,7 @@ signed int VSB_trim(struct vsb *s)
 {
   _assert_VSB_integrity("VSB_trim", s);
   _assert_VSB_state("VSB_trim", s, 0);
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   if(!(s->s_error == 0))
     return -1;
 
@@ -6288,8 +6288,8 @@ signed int VSB_trim(struct vsb *s)
   {
     for( ; s->s_len >= 1l; s->s_len = s->s_len - 1l)
     {
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)s->s_buf[s->s_len + -1l]]) == 0)
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)s->s_buf[s->s_len + -1l]]) == 0)
         break;
 
     }
@@ -6306,16 +6306,16 @@ const char * VSB_unquote(struct vsb *s, const char *p, signed int len, signed in
   unsigned long int u;
   char c;
   (void)how;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(len == -1)
   {
-    return_value_strlen$1=strlen(p);
-    len = (signed int)return_value_strlen$1;
+    return_value_strlen_1=strlen(p);
+    len = (signed int)return_value_strlen_1;
   }
 
   q = p;
-  signed int *return_value___errno_location$2;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_2;
+  signed int *return_value___errno_location_3;
   for( ; !(q >= p + (signed long int)len); q = q + 1l)
     if(!((signed int)*q == 92))
       VSB_bcat(s, (const void *)q, (unsigned long int)1);
@@ -6359,11 +6359,11 @@ const char * VSB_unquote(struct vsb *s, const char *p, signed int len, signed in
 
         case 55:
         {
-          return_value___errno_location$2=__errno_location();
-          *return_value___errno_location$2 = 0;
+          return_value___errno_location_2=__errno_location();
+          *return_value___errno_location_2 = 0;
           u=strtoul(q, &r, 8);
-          return_value___errno_location$3=__errno_location();
-          if(!((18446744073709551360ul & u) == 0ul) || !(*return_value___errno_location$3 == 0))
+          return_value___errno_location_3=__errno_location();
+          if(!((18446744073709551360ul & u) == 0ul) || !(*return_value___errno_location_3 == 0))
             return "\\ooo sequence out of range";
 
           c = (char)u;
@@ -6389,14 +6389,14 @@ signed int VSB_vprintf(struct vsb *s, const char *fmt, void **ap)
   do
     if(fmt == ((const char *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSB_vprintf", "../../lib/libvarnish/vsb.c", 366, "fmt != ((void *)0)", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSB_vprintf", "../../lib/libvarnish/vsb.c", 366, "fmt != ((void *)0)", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
-  _Bool tmp_if_expr$3;
-  signed int return_value_VSB_extend$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_VSB_extend_2;
   if(!(s->s_error == 0))
     return -1;
 
@@ -6409,14 +6409,14 @@ signed int VSB_vprintf(struct vsb *s, const char *fmt, void **ap)
       ap_copy = ((void **)NULL);
       if(!(s->s_size + -(1l + s->s_len) >= (signed long int)len))
       {
-        return_value_VSB_extend$2=VSB_extend(s, (signed int)((signed long int)len - (s->s_size - (s->s_len + (signed long int)1))));
-        tmp_if_expr$3 = return_value_VSB_extend$2 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_VSB_extend_2=VSB_extend(s, (signed int)((signed long int)len - (s->s_size - (s->s_len + (signed long int)1))));
+        tmp_if_expr_3 = return_value_VSB_extend_2 == 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
     }
-    while(tmp_if_expr$3);
+    while(tmp_if_expr_3);
     if(!(s->s_size + -(1l + s->s_len) >= (signed long int)len))
       len = (signed int)(s->s_size - (s->s_len + (signed long int)1));
 
@@ -6431,9 +6431,9 @@ signed int VSB_vprintf(struct vsb *s, const char *fmt, void **ap)
     do
       if(s->s_len >= s->s_size)
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        VAS_Fail("VSB_vprintf", "../../lib/libvarnish/vsb.c", 406, "s->s_len < s->s_size", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        VAS_Fail("VSB_vprintf", "../../lib/libvarnish/vsb.c", 406, "s->s_len < s->s_size", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -6449,25 +6449,25 @@ signed int VSB_vprintf(struct vsb *s, const char *fmt, void **ap)
 // file vsc.c line 289
 signed int VSC_Arg(struct VSM_data *vd, signed int arg, const char *opt)
 {
-  signed int return_value_vsc_f_arg$1;
-  signed int return_value_VSM_n_Arg$2;
-  signed int return_value_VSM_N_Arg$3;
+  signed int return_value_vsc_f_arg_1;
+  signed int return_value_VSM_n_Arg_2;
+  signed int return_value_VSM_N_Arg_3;
   switch(arg)
   {
     case 102:
     {
-      return_value_vsc_f_arg$1=vsc_f_arg(vd, opt);
-      return return_value_vsc_f_arg$1;
+      return_value_vsc_f_arg_1=vsc_f_arg(vd, opt);
+      return return_value_vsc_f_arg_1;
     }
     case 110:
     {
-      return_value_VSM_n_Arg$2=VSM_n_Arg(vd, opt);
-      return return_value_VSM_n_Arg$2;
+      return_value_VSM_n_Arg_2=VSM_n_Arg(vd, opt);
+      return return_value_VSM_n_Arg_2;
     }
     case 78:
     {
-      return_value_VSM_N_Arg$3=VSM_N_Arg(vd, opt);
-      return return_value_VSM_N_Arg$3;
+      return_value_VSM_N_Arg_3=VSM_N_Arg(vd, opt);
+      return return_value_VSM_N_Arg_3;
     }
     default:
       return 0;
@@ -6486,17 +6486,17 @@ __CPROVER_DUMP_L1:
   {
     if(vd == ((struct VSM_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSC_Delete", "vsc.c", 165, "(vd) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSC_Delete", "vsc.c", 165, "(vd) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vd->magic == 1849415323u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSC_Delete", "vsc.c", 165, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSC_Delete", "vsc.c", 165, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -6511,17 +6511,17 @@ __CPROVER_DUMP_L5:
   {
     if(vsc == ((struct vsc *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("VSC_Delete", "vsc.c", 168, "(vsc) != NULL", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("VSC_Delete", "vsc.c", 168, "(vsc) != NULL", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsc->magic == 863196490u))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        VAS_Fail("VSC_Delete", "vsc.c", 168, "(vsc)->magic == 0x3373554a", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        VAS_Fail("VSC_Delete", "vsc.c", 168, "(vsc)->magic == 0x3373554a", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -6549,13 +6549,13 @@ void * VSC_Get(struct VSM_data *vd, struct VSM_fantom *fantom, const char *type,
   if(fantom == ((struct VSM_fantom *)NULL))
     fantom = &f2;
 
-  enum VSM_valid_e return_value_VSM_StillValid$2;
-  return_value_VSM_StillValid$2=VSM_StillValid(vd, fantom);
-  signed int return_value_VSM_Get$1;
-  if((signed int)return_value_VSM_StillValid$2 == VSM_invalid)
+  enum VSM_valid_e return_value_VSM_StillValid_2;
+  return_value_VSM_StillValid_2=VSM_StillValid(vd, fantom);
+  signed int return_value_VSM_Get_1;
+  if((signed int)return_value_VSM_StillValid_2 == VSM_invalid)
   {
-    return_value_VSM_Get$1=VSM_Get(vd, fantom, "Stat", type, ident);
-    if(!(return_value_VSM_Get$1 == 0))
+    return_value_VSM_Get_1=VSM_Get(vd, fantom, "Stat", type, ident);
+    if(!(return_value_VSM_Get_1 == 0))
       goto __CPROVER_DUMP_L2;
 
     return (void *)0;
@@ -6578,9 +6578,9 @@ signed int VSC_Iter(struct VSM_data *vd, struct VSM_fantom *fantom, signed int (
   vsc=vsc_setup(vd);
   struct vsc_pt *pt;
   signed int i;
-  enum VSM_valid_e return_value_VSM_StillValid$1;
-  return_value_VSM_StillValid$1=VSM_StillValid(vd, &vsc->iter_fantom);
-  if(!((signed int)return_value_VSM_StillValid$1 == VSM_valid))
+  enum VSM_valid_e return_value_VSM_StillValid_1;
+  return_value_VSM_StillValid_1=VSM_StillValid(vd, &vsc->iter_fantom);
+  if(!((signed int)return_value_VSM_StillValid_1 == VSM_valid))
   {
     func(priv, (struct VSC_point *)(void *)0);
     vsc_build_vf_list(vd);
@@ -6625,18 +6625,18 @@ struct VSC_level_desc * VSC_LevelDesc(unsigned int level)
 // file vsc.c line 313
 struct VSC_C_main * VSC_Main(struct VSM_data *vd, struct VSM_fantom *fantom)
 {
-  void *return_value_VSC_Get$1;
-  return_value_VSC_Get$1=VSC_Get(vd, fantom, VSC_type_main, "");
-  return (struct VSC_C_main *)return_value_VSC_Get$1;
+  void *return_value_VSC_Get_1;
+  return_value_VSC_Get_1=VSC_Get(vd, fantom, VSC_type_main, "");
+  return (struct VSC_C_main *)return_value_VSC_Get_1;
 }
 
 // VSC_Mgt
 // file vsc.c line 304
 struct VSC_C_mgt * VSC_Mgt(struct VSM_data *vd, struct VSM_fantom *fantom)
 {
-  void *return_value_VSC_Get$1;
-  return_value_VSC_Get$1=VSC_Get(vd, fantom, VSC_type_mgt, "");
-  return (struct VSC_C_mgt *)return_value_VSC_Get$1;
+  void *return_value_VSC_Get_1;
+  return_value_VSC_Get_1=VSC_Get(vd, fantom, VSC_type_mgt, "");
+  return (struct VSC_C_mgt *)return_value_VSC_Get_1;
 }
 
 // VSLQ_Delete
@@ -6651,9 +6651,9 @@ __CPROVER_DUMP_L1:
   do
     if(pvslq == ((struct VSLQ **)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSLQ_Delete", "vsl_dispatch.c", 1100, "(pvslq) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSLQ_Delete", "vsl_dispatch.c", 1100, "(pvslq) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -6666,17 +6666,17 @@ __CPROVER_DUMP_L3:
   {
     if(vslq == ((struct VSLQ *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("VSLQ_Delete", "vsl_dispatch.c", 1103, "(vslq) != NULL", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("VSLQ_Delete", "vsl_dispatch.c", 1103, "(vslq) != NULL", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vslq->magic == 598261399u))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        VAS_Fail("VSLQ_Delete", "vsl_dispatch.c", 1103, "(vslq)->magic == 0x23A8BE97", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        VAS_Fail("VSLQ_Delete", "vsl_dispatch.c", 1103, "(vslq)->magic == 0x23A8BE97", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -6689,9 +6689,9 @@ __CPROVER_DUMP_L7:
   do
     if(!(vslq->incomplete.vtqh_first == ((struct vtx *)NULL)))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      VAS_Fail("VSLQ_Delete", "vsl_dispatch.c", 1106, "(((&vslq->incomplete)->vtqh_first == ((void *)0))) != 0", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      VAS_Fail("VSLQ_Delete", "vsl_dispatch.c", 1106, "(((&vslq->incomplete)->vtqh_first == ((void *)0))) != 0", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -6705,17 +6705,17 @@ __CPROVER_DUMP_L7:
     {
       if(vtx == ((struct vtx *)NULL))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        VAS_Fail("VSLQ_Delete", "vsl_dispatch.c", 1110, "(vtx) != NULL", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        VAS_Fail("VSLQ_Delete", "vsl_dispatch.c", 1110, "(vtx) != NULL", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(vtx->magic == 0xACC21D09))
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          VAS_Fail("VSLQ_Delete", "vsl_dispatch.c", 1110, "(vtx)->magic == 0xACC21D09", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          VAS_Fail("VSLQ_Delete", "vsl_dispatch.c", 1110, "(vtx)->magic == 0xACC21D09", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -6737,9 +6737,9 @@ __CPROVER_DUMP_L7:
     do
       if((8u & vtx->flags) == 0u)
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        VAS_Fail("VSLQ_Delete", "vsl_dispatch.c", 1112, "(vtx->flags & 0x8) != 0", *return_value___errno_location$7, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        VAS_Fail("VSLQ_Delete", "vsl_dispatch.c", 1112, "(vtx->flags & 0x8) != 0", *return_value___errno_location_7, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -6751,9 +6751,9 @@ __CPROVER_DUMP_L19:
   do
     if(!(vslq->n_outstanding == 0u))
     {
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      VAS_Fail("VSLQ_Delete", "vsl_dispatch.c", 1115, "(vslq->n_outstanding) == 0", *return_value___errno_location$8, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      VAS_Fail("VSLQ_Delete", "vsl_dispatch.c", 1115, "(vslq->n_outstanding) == 0", *return_value___errno_location_8, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -6768,9 +6768,9 @@ __CPROVER_DUMP_L21:
   do
     if(!(vslq->query == ((struct vslq_query *)NULL)))
     {
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      VAS_Fail("VSLQ_Delete", "vsl_dispatch.c", 1122, "(vslq->query) == 0", *return_value___errno_location$9, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      VAS_Fail("VSLQ_Delete", "vsl_dispatch.c", 1122, "(vslq->query) == 0", *return_value___errno_location_9, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -6782,9 +6782,9 @@ __CPROVER_DUMP_L21:
     do
       if(vslq->n_cache == 0u)
       {
-        signed int *return_value___errno_location$10;
-        return_value___errno_location$10=__errno_location();
-        VAS_Fail("VSLQ_Delete", "vsl_dispatch.c", 1125, "(vslq->n_cache) != 0", *return_value___errno_location$10, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_10;
+        return_value___errno_location_10=__errno_location();
+        VAS_Fail("VSLQ_Delete", "vsl_dispatch.c", 1125, "(vslq->n_cache) != 0", *return_value___errno_location_10, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -6830,27 +6830,27 @@ __CPROVER_DUMP_L1:
   {
     if(vslq == ((struct VSLQ *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSLQ_Dispatch", "vsl_dispatch.c", 1296, "(vslq) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSLQ_Dispatch", "vsl_dispatch.c", 1296, "(vslq) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vslq->magic == 598261399u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSLQ_Dispatch", "vsl_dispatch.c", 1296, "(vslq)->magic == 0x23A8BE97", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSLQ_Dispatch", "vsl_dispatch.c", 1296, "(vslq)->magic == 0x23A8BE97", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
-  signed int return_value_vslq_raw$3;
+  signed int return_value_vslq_raw_3;
   if((signed int)vslq->grouping == VSL_g_raw)
   {
-    return_value_vslq_raw$3=vslq_raw(vslq, func, priv);
-    return return_value_vslq_raw$3;
+    return_value_vslq_raw_3=vslq_raw(vslq, func, priv);
+    return return_value_vslq_raw_3;
   }
 
   else
@@ -6878,17 +6878,17 @@ __CPROVER_DUMP_L1:
           {
             if(vtx == ((struct vtx *)NULL))
             {
-              signed int *return_value___errno_location$4;
-              return_value___errno_location$4=__errno_location();
-              VAS_Fail("VSLQ_Dispatch", "vsl_dispatch.c", 1317, "(vtx) != NULL", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_4;
+              return_value___errno_location_4=__errno_location();
+              VAS_Fail("VSLQ_Dispatch", "vsl_dispatch.c", 1317, "(vtx) != NULL", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
             }
 
             do
               if(!(vtx->magic == 0xACC21D09))
               {
-                signed int *return_value___errno_location$5;
-                return_value___errno_location$5=__errno_location();
-                VAS_Fail("VSLQ_Dispatch", "vsl_dispatch.c", 1317, "(vtx)->magic == 0xACC21D09", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+                signed int *return_value___errno_location_5;
+                return_value___errno_location_5=__errno_location();
+                VAS_Fail("VSLQ_Dispatch", "vsl_dispatch.c", 1317, "(vtx)->magic == 0xACC21D09", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
               }
 
             while((_Bool)0);
@@ -6904,9 +6904,9 @@ __CPROVER_DUMP_L1:
           do
             if((4u & vtx->flags) == 0u)
             {
-              signed int *return_value___errno_location$6;
-              return_value___errno_location$6=__errno_location();
-              VAS_Fail("VSLQ_Dispatch", "vsl_dispatch.c", 1321, "(vtx->flags & 0x4) != 0", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_6;
+              return_value___errno_location_6=__errno_location();
+              VAS_Fail("VSLQ_Dispatch", "vsl_dispatch.c", 1321, "(vtx->flags & 0x4) != 0", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
             }
 
           while((_Bool)0);
@@ -6921,17 +6921,17 @@ __CPROVER_DUMP_L1:
           {
             if(vtx == ((struct vtx *)NULL))
             {
-              signed int *return_value___errno_location$7;
-              return_value___errno_location$7=__errno_location();
-              VAS_Fail("VSLQ_Dispatch", "vsl_dispatch.c", 1327, "(vtx) != NULL", *return_value___errno_location$7, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_7;
+              return_value___errno_location_7=__errno_location();
+              VAS_Fail("VSLQ_Dispatch", "vsl_dispatch.c", 1327, "(vtx) != NULL", *return_value___errno_location_7, (enum vas_e)VAS_ASSERT);
             }
 
             do
               if(!(vtx->magic == 0xACC21D09))
               {
-                signed int *return_value___errno_location$8;
-                return_value___errno_location$8=__errno_location();
-                VAS_Fail("VSLQ_Dispatch", "vsl_dispatch.c", 1327, "(vtx)->magic == 0xACC21D09", *return_value___errno_location$8, (enum vas_e)VAS_ASSERT);
+                signed int *return_value___errno_location_8;
+                return_value___errno_location_8=__errno_location();
+                VAS_Fail("VSLQ_Dispatch", "vsl_dispatch.c", 1327, "(vtx)->magic == 0xACC21D09", *return_value___errno_location_8, (enum vas_e)VAS_ASSERT);
               }
 
             while((_Bool)0);
@@ -6944,9 +6944,9 @@ __CPROVER_DUMP_L1:
           do
             if((4u & vtx->flags) == 0u)
             {
-              signed int *return_value___errno_location$9;
-              return_value___errno_location$9=__errno_location();
-              VAS_Fail("VSLQ_Dispatch", "vsl_dispatch.c", 1329, "(vtx->flags & 0x4) != 0", *return_value___errno_location$9, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_9;
+              return_value___errno_location_9=__errno_location();
+              VAS_Fail("VSLQ_Dispatch", "vsl_dispatch.c", 1329, "(vtx->flags & 0x4) != 0", *return_value___errno_location_9, (enum vas_e)VAS_ASSERT);
             }
 
           while((_Bool)0);
@@ -6988,17 +6988,17 @@ __CPROVER_DUMP_L1:
   {
     if(vslq == ((struct VSLQ *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSLQ_Flush", "vsl_dispatch.c", 1355, "(vslq) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSLQ_Flush", "vsl_dispatch.c", 1355, "(vslq) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vslq->magic == 598261399u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSLQ_Flush", "vsl_dispatch.c", 1355, "(vslq)->magic == 0x23A8BE97", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSLQ_Flush", "vsl_dispatch.c", 1355, "(vslq)->magic == 0x23A8BE97", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -7014,17 +7014,17 @@ __CPROVER_DUMP_L1:
     {
       if(vtx == ((struct vtx *)NULL))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        VAS_Fail("VSLQ_Flush", "vsl_dispatch.c", 1359, "(vtx) != NULL", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        VAS_Fail("VSLQ_Flush", "vsl_dispatch.c", 1359, "(vtx) != NULL", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(vtx->magic == 0xACC21D09))
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          VAS_Fail("VSLQ_Flush", "vsl_dispatch.c", 1359, "(vtx)->magic == 0xACC21D09", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          VAS_Fail("VSLQ_Flush", "vsl_dispatch.c", 1359, "(vtx)->magic == 0xACC21D09", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -7036,17 +7036,17 @@ __CPROVER_DUMP_L1:
     do
       if(!((4u & vtx->flags) == 0u))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        VAS_Fail("VSLQ_Flush", "vsl_dispatch.c", 1360, "(vtx->flags & 0x4) == 0", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        VAS_Fail("VSLQ_Flush", "vsl_dispatch.c", 1360, "(vtx->flags & 0x4) == 0", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
     vtx_force(vslq, vtx, "flush");
   }
-  signed int return_value_vslq_process_ready$6;
-  return_value_vslq_process_ready$6=vslq_process_ready(vslq, func, priv);
-  return return_value_vslq_process_ready$6;
+  signed int return_value_vslq_process_ready_6;
+  return_value_vslq_process_ready_6=vslq_process_ready(vslq, func, priv);
+  return return_value_vslq_process_ready_6;
 }
 
 // VSLQ_Name2Grouping
@@ -7055,24 +7055,24 @@ signed int VSLQ_Name2Grouping(const char *name, signed int l)
 {
   signed int i;
   signed int n;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(l == -1)
   {
-    return_value_strlen$1=strlen(name);
-    l = (signed int)return_value_strlen$1;
+    return_value_strlen_1=strlen(name);
+    l = (signed int)return_value_strlen_1;
   }
 
   n = -1;
   i = 0;
   for( ; !(i >= VSL_g__MAX); i = i + 1)
   {
-    signed int return_value_strncasecmp$3;
-    return_value_strncasecmp$3=strncasecmp(name, VSLQ_grouping[(signed long int)i], (unsigned long int)l);
-    if(return_value_strncasecmp$3 == 0)
+    signed int return_value_strncasecmp_3;
+    return_value_strncasecmp_3=strncasecmp(name, VSLQ_grouping[(signed long int)i], (unsigned long int)l);
+    if(return_value_strncasecmp_3 == 0)
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(VSLQ_grouping[(signed long int)i]);
-      if(return_value_strlen$2 == (unsigned long int)l)
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(VSLQ_grouping[(signed long int)i]);
+      if(return_value_strlen_2 == (unsigned long int)l)
         return i;
 
       if(n == -1)
@@ -7099,17 +7099,17 @@ __CPROVER_DUMP_L1:
   {
     if(vsl == ((struct VSL_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSLQ_New", "vsl_dispatch.c", 1052, "(vsl) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSLQ_New", "vsl_dispatch.c", 1052, "(vsl) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsl->magic == 0x8E6C92AA))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSLQ_New", "vsl_dispatch.c", 1052, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSLQ_New", "vsl_dispatch.c", 1052, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -7121,9 +7121,9 @@ __CPROVER_DUMP_L5:
   do
     if(cp == ((struct VSL_cursor **)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("VSLQ_New", "vsl_dispatch.c", 1053, "(cp) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("VSLQ_New", "vsl_dispatch.c", 1053, "(cp) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -7147,9 +7147,9 @@ __CPROVER_DUMP_L5:
       query = (struct vslq_query *)(void *)0;
     do
     {
-      void *return_value_calloc$4;
-      return_value_calloc$4=calloc(sizeof(struct VSLQ) /*256ul*/ , (unsigned long int)1);
-      vslq = (struct VSLQ *)return_value_calloc$4;
+      void *return_value_calloc_4;
+      return_value_calloc_4=calloc(sizeof(struct VSLQ) /*256ul*/ , (unsigned long int)1);
+      vslq = (struct VSLQ *)return_value_calloc_4;
       if(!(vslq == ((struct VSLQ *)NULL)))
         vslq->magic = (unsigned int)0x23A8BE97;
 
@@ -7161,9 +7161,9 @@ __CPROVER_DUMP_L5:
     do
       if(vslq == ((struct VSLQ *)NULL))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        VAS_Fail("VSLQ_New", "vsl_dispatch.c", 1066, "(vslq) != 0", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        VAS_Fail("VSLQ_New", "vsl_dispatch.c", 1066, "(vslq) != 0", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -7227,17 +7227,17 @@ __CPROVER_DUMP_L1:
   {
     if(vsl == ((struct VSL_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSL_Arg", "vsl_arg.c", 320, "(vsl) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSL_Arg", "vsl_arg.c", 320, "(vsl) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsl->magic == 0x8E6C92AA))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSL_Arg", "vsl_arg.c", 320, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSL_Arg", "vsl_arg.c", 320, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -7254,14 +7254,14 @@ __CPROVER_DUMP_L1:
 
   }
 
-  signed int return_value_vsl_ix_arg$3;
-  signed int return_value_vsl_IX_arg$4;
-  const unsigned short int **return_value___ctype_b_loc$5;
-  signed int return_value_vsl_diag$6;
-  signed int return_value_vsl_diag$7;
-  const unsigned short int **return_value___ctype_b_loc$8;
-  signed int return_value_vsl_diag$9;
-  signed int return_value_vsl_diag$10;
+  signed int return_value_vsl_ix_arg_3;
+  signed int return_value_vsl_IX_arg_4;
+  const unsigned short int **return_value___ctype_b_loc_5;
+  signed int return_value_vsl_diag_6;
+  signed int return_value_vsl_diag_7;
+  const unsigned short int **return_value___ctype_b_loc_8;
+  signed int return_value_vsl_diag_9;
+  signed int return_value_vsl_diag_10;
   switch(opt)
   {
     case 98:
@@ -7283,23 +7283,23 @@ __CPROVER_DUMP_L1:
 
     case 120:
     {
-      return_value_vsl_ix_arg$3=vsl_ix_arg(vsl, opt, arg);
-      return return_value_vsl_ix_arg$3;
+      return_value_vsl_ix_arg_3=vsl_ix_arg(vsl, opt, arg);
+      return return_value_vsl_ix_arg_3;
     }
     case 73:
 
     case 88:
     {
-      return_value_vsl_IX_arg$4=vsl_IX_arg(vsl, opt, arg);
-      return return_value_vsl_IX_arg$4;
+      return_value_vsl_IX_arg_4=vsl_IX_arg(vsl, opt, arg);
+      return return_value_vsl_IX_arg_4;
     }
     case 76:
     {
       l=strtol(arg, &p, 0);
       do
       {
-        return_value___ctype_b_loc$5=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)*p]) == 0)
+        return_value___ctype_b_loc_5=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)*p]) == 0)
           break;
 
         p = p + 1l;
@@ -7307,14 +7307,14 @@ __CPROVER_DUMP_L1:
       while((_Bool)1);
       if(!((signed int)*p == 0))
       {
-        return_value_vsl_diag$6=vsl_diag(vsl, "-L: Syntax error");
-        return return_value_vsl_diag$6;
+        return_value_vsl_diag_6=vsl_diag(vsl, "-L: Syntax error");
+        return return_value_vsl_diag_6;
       }
 
       if(l >= 2147483648l || !(l >= 0l))
       {
-        return_value_vsl_diag$7=vsl_diag(vsl, "-L: Range error");
-        return return_value_vsl_diag$7;
+        return_value_vsl_diag_7=vsl_diag(vsl, "-L: Range error");
+        return return_value_vsl_diag_7;
       }
 
       vsl->L_opt = (signed int)l;
@@ -7325,8 +7325,8 @@ __CPROVER_DUMP_L1:
       d=strtod(arg, &p);
       do
       {
-        return_value___ctype_b_loc$8=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$8)[(signed long int)(signed int)*p]) == 0)
+        return_value___ctype_b_loc_8=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_8)[(signed long int)(signed int)*p]) == 0)
           break;
 
         p = p + 1l;
@@ -7334,14 +7334,14 @@ __CPROVER_DUMP_L1:
       while((_Bool)1);
       if(!((signed int)*p == 0))
       {
-        return_value_vsl_diag$9=vsl_diag(vsl, "-P: Syntax error");
-        return return_value_vsl_diag$9;
+        return_value_vsl_diag_9=vsl_diag(vsl, "-P: Syntax error");
+        return return_value_vsl_diag_9;
       }
 
       if(d < 0.)
       {
-        return_value_vsl_diag$10=vsl_diag(vsl, "-L: Range error");
-        return return_value_vsl_diag$10;
+        return_value_vsl_diag_10=vsl_diag(vsl, "-L: Range error");
+        return return_value_vsl_diag_10;
       }
 
       vsl->T_opt = d;
@@ -7368,9 +7368,9 @@ signed int VSL_Check(struct VSL_cursor *cursor, struct VSLC_ptr *ptr)
     do
       if(tbl == ((struct vslc_tbl *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("VSL_Check", "vsl_cursor.c", 478, "(tbl) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("VSL_Check", "vsl_cursor.c", 478, "(tbl) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -7380,9 +7380,9 @@ signed int VSL_Check(struct VSL_cursor *cursor, struct VSLC_ptr *ptr)
     do
       if(!(tbl->magic == 1342685406u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSL_Check", "vsl_cursor.c", 478, "((tbl))->magic == (0x5007C0DE)", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSL_Check", "vsl_cursor.c", 478, "((tbl))->magic == (0x5007C0DE)", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -7415,17 +7415,17 @@ __CPROVER_DUMP_L1:
   {
     if(vsl == ((struct VSL_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSL_CursorFile", "vsl_cursor.c", 390, "(vsl) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSL_CursorFile", "vsl_cursor.c", 390, "(vsl) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsl->magic == 0x8E6C92AA))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSL_CursorFile", "vsl_cursor.c", 390, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSL_CursorFile", "vsl_cursor.c", 390, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -7437,16 +7437,16 @@ __CPROVER_DUMP_L5:
   do
     if(name == ((const char *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("VSL_CursorFile", "vsl_cursor.c", 391, "(name) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("VSL_CursorFile", "vsl_cursor.c", 391, "(name) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   (void)options;
-  signed int return_value_strcmp$6;
-  return_value_strcmp$6=strcmp(name, "-");
-  if(return_value_strcmp$6 == 0)
+  signed int return_value_strcmp_6;
+  return_value_strcmp_6=strcmp(name, "-");
+  if(return_value_strcmp_6 == 0)
     fd = 0;
 
   else
@@ -7454,20 +7454,20 @@ __CPROVER_DUMP_L5:
     fd=open(name, 00);
     if(!(fd >= 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      vsl_diag(vsl, "Could not open %s: %s\n", name, return_value_strerror$5);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      vsl_diag(vsl, "Could not open %s: %s\n", name, return_value_strerror_5);
       return (struct VSL_cursor *)(void *)0;
     }
 
     close_fd = 1;
   }
   i=vslc_file_readn(fd, (void *)buf, sizeof(char [4l]) /*4ul*/ );
-  char *tmp_if_expr$9;
-  signed int *return_value___errno_location$7;
-  char *return_value_strerror$8;
+  char *tmp_if_expr_9;
+  signed int *return_value___errno_location_7;
+  char *return_value_strerror_8;
   if(!(i >= 1l))
   {
     if(!(close_fd == 0))
@@ -7475,29 +7475,29 @@ __CPROVER_DUMP_L5:
 
     if(!(i >= 0l))
     {
-      return_value___errno_location$7=__errno_location();
-      return_value_strerror$8=strerror(*return_value___errno_location$7);
-      tmp_if_expr$9 = return_value_strerror$8;
+      return_value___errno_location_7=__errno_location();
+      return_value_strerror_8=strerror(*return_value___errno_location_7);
+      tmp_if_expr_9 = return_value_strerror_8;
     }
 
     else
-      tmp_if_expr$9 = "EOF";
-    vsl_diag(vsl, "VSL file read error: %s\n", tmp_if_expr$9);
+      tmp_if_expr_9 = "EOF";
+    vsl_diag(vsl, "VSL file read error: %s\n", tmp_if_expr_9);
     return (struct VSL_cursor *)(void *)0;
   }
 
   do
     if(!((unsigned long int)i == sizeof(char [4l]) /*4ul*/ ))
     {
-      signed int *return_value___errno_location$10;
-      return_value___errno_location$10=__errno_location();
-      VAS_Fail("VSL_CursorFile", "vsl_cursor.c", 414, "i == sizeof buf", *return_value___errno_location$10, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_10;
+      return_value___errno_location_10=__errno_location();
+      VAS_Fail("VSL_CursorFile", "vsl_cursor.c", 414, "i == sizeof buf", *return_value___errno_location_10, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
-  signed int return_value_memcmp$11;
-  return_value_memcmp$11=memcmp((const void *)buf, (const void *)"VSL", sizeof(char [4l]) /*4ul*/ );
-  if(!(return_value_memcmp$11 == 0))
+  signed int return_value_memcmp_11;
+  return_value_memcmp_11=memcmp((const void *)buf, (const void *)"VSL", sizeof(char [4l]) /*4ul*/ );
+  if(!(return_value_memcmp_11 == 0))
   {
     if(!(close_fd == 0))
       close(fd);
@@ -7510,9 +7510,9 @@ __CPROVER_DUMP_L5:
   {
     do
     {
-      void *return_value_calloc$12;
-      return_value_calloc$12=calloc(sizeof(struct vslc_file) /*72ul*/ , (unsigned long int)1);
-      c = (struct vslc_file *)return_value_calloc$12;
+      void *return_value_calloc_12;
+      return_value_calloc_12=calloc(sizeof(struct vslc_file) /*72ul*/ , (unsigned long int)1);
+      c = (struct vslc_file *)return_value_calloc_12;
       if(!(c == ((struct vslc_file *)NULL)))
         c->magic = (unsigned int)0x1D65FFEF;
 
@@ -7534,18 +7534,18 @@ __CPROVER_DUMP_L5:
       c->fd = fd;
       c->close_fd = close_fd;
       c->buflen = (signed long int)((8192 + 3) / 4);
-      void *return_value_malloc$13;
-      return_value_malloc$13=malloc((unsigned long int)(c->buflen * (signed long int)4));
-      c->buf = (unsigned int *)return_value_malloc$13;
+      void *return_value_malloc_13;
+      return_value_malloc_13=malloc((unsigned long int)(c->buflen * (signed long int)4));
+      c->buf = (unsigned int *)return_value_malloc_13;
 
     __CPROVER_DUMP_L20:
       ;
       do
         if(c->buf == ((unsigned int *)NULL))
         {
-          signed int *return_value___errno_location$14;
-          return_value___errno_location$14=__errno_location();
-          VAS_Fail("VSL_CursorFile", "vsl_cursor.c", 436, "(c->buf) != 0", *return_value___errno_location$14, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_14;
+          return_value___errno_location_14=__errno_location();
+          VAS_Fail("VSL_CursorFile", "vsl_cursor.c", 436, "(c->buf) != 0", *return_value___errno_location_14, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -7568,17 +7568,17 @@ __CPROVER_DUMP_L1:
   {
     if(vsl == ((struct VSL_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSL_CursorVSM", "vsl_cursor.c", 232, "(vsl) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSL_CursorVSM", "vsl_cursor.c", 232, "(vsl) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsl->magic == 0x8E6C92AA))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSL_CursorVSM", "vsl_cursor.c", 232, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSL_CursorVSM", "vsl_cursor.c", 232, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -7591,25 +7591,25 @@ __CPROVER_DUMP_L5:
   {
     if(vsm == ((struct VSM_data *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("VSL_CursorVSM", "vsl_cursor.c", 233, "(vsm) != NULL", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("VSL_CursorVSM", "vsl_cursor.c", 233, "(vsm) != NULL", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsm->magic == 1849415323u))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        VAS_Fail("VSL_CursorVSM", "vsl_cursor.c", 233, "(vsm)->magic == 0x6e3bd69b", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        VAS_Fail("VSL_CursorVSM", "vsl_cursor.c", 233, "(vsm)->magic == 0x6e3bd69b", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
-  signed int return_value_VSM_Get$5;
-  return_value_VSM_Get$5=VSM_Get(vsm, &vf, "Log", "", "");
-  if(return_value_VSM_Get$5 == 0)
+  signed int return_value_VSM_Get_5;
+  return_value_VSM_Get_5=VSM_Get(vsm, &vf, "Log", "", "");
+  if(return_value_VSM_Get_5 == 0)
   {
     vsl_diag(vsl, "No VSL chunk found (child not started ?)\n");
     return (struct VSL_cursor *)(void *)0;
@@ -7618,9 +7618,9 @@ __CPROVER_DUMP_L5:
   else
   {
     head = (struct VSL_head *)vf.b;
-    signed int return_value_memcmp$6;
-    return_value_memcmp$6=memcmp((const void *)head->marker, (const void *)"VSLHEAD0", sizeof(char [8l]) /*8ul*/ );
-    if(!(return_value_memcmp$6 == 0))
+    signed int return_value_memcmp_6;
+    return_value_memcmp_6=memcmp((const void *)head->marker, (const void *)"VSLHEAD0", sizeof(char [8l]) /*8ul*/ );
+    if(!(return_value_memcmp_6 == 0))
     {
       vsl_diag(vsl, "Not a VSL chunk\n");
       return (struct VSL_cursor *)(void *)0;
@@ -7637,9 +7637,9 @@ __CPROVER_DUMP_L5:
       {
         do
         {
-          void *return_value_calloc$7;
-          return_value_calloc$7=calloc(sizeof(struct vslc_vsm) /*272ul*/ , (unsigned long int)1);
-          c = (struct vslc_vsm *)return_value_calloc$7;
+          void *return_value_calloc_7;
+          return_value_calloc_7=calloc(sizeof(struct vslc_vsm) /*272ul*/ , (unsigned long int)1);
+          c = (struct vslc_vsm *)return_value_calloc_7;
           if(!(c == ((struct vslc_vsm *)NULL)))
             c->magic = (unsigned int)0x4D3903A6;
 
@@ -7677,13 +7677,13 @@ __CPROVER_DUMP_L5:
 
             __CPROVER_DUMP_L16:
               ;
-              signed int return_value_vslc_vsm_reset$9;
-              return_value_vslc_vsm_reset$9=vslc_vsm_reset(&c->cursor);
-              if(!(return_value_vslc_vsm_reset$9 == 0))
+              signed int return_value_vslc_vsm_reset_9;
+              return_value_vslc_vsm_reset_9=vslc_vsm_reset(&c->cursor);
+              if(!(return_value_vslc_vsm_reset_9 == 0))
               {
-                signed int *return_value___errno_location$8;
-                return_value___errno_location$8=__errno_location();
-                VAS_Fail("VSL_CursorVSM", "vsl_cursor.c", 274, "(vslc_vsm_reset(&c->cursor)) == 0", *return_value___errno_location$8, (enum vas_e)VAS_ASSERT);
+                signed int *return_value___errno_location_8;
+                return_value___errno_location_8=__errno_location();
+                VAS_Fail("VSL_CursorVSM", "vsl_cursor.c", 274, "(vslc_vsm_reset(&c->cursor)) == 0", *return_value___errno_location_8, (enum vas_e)VAS_ASSERT);
               }
 
             }
@@ -7705,24 +7705,24 @@ __CPROVER_DUMP_L1:
   {
     if(vsl == ((struct VSL_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSL_Delete", "vsl.c", 131, "(vsl) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSL_Delete", "vsl.c", 131, "(vsl) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsl->magic == 0x8E6C92AA))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSL_Delete", "vsl.c", 131, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSL_Delete", "vsl.c", 131, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
-  vbit_destroy$link1(vsl->vbm_select);
-  vbit_destroy$link1(vsl->vbm_supress);
+  vbit_destroy_link1(vsl->vbm_select);
+  vbit_destroy_link1(vsl->vbm_supress);
   vsl_IX_free(&vsl->vslf_select);
   vsl_IX_free(&vsl->vslf_suppress);
   VSL_ResetError(vsl);
@@ -7745,9 +7745,9 @@ void VSL_DeleteCursor(struct VSL_cursor *cursor)
     do
       if(tbl == ((struct vslc_tbl *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("VSL_DeleteCursor", "vsl_cursor.c", 446, "(tbl) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("VSL_DeleteCursor", "vsl_cursor.c", 446, "(tbl) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -7757,9 +7757,9 @@ void VSL_DeleteCursor(struct VSL_cursor *cursor)
     do
       if(!(tbl->magic == 1342685406u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSL_DeleteCursor", "vsl_cursor.c", 446, "((tbl))->magic == (0x5007C0DE)", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSL_DeleteCursor", "vsl_cursor.c", 446, "((tbl))->magic == (0x5007C0DE)", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -7781,30 +7781,30 @@ __CPROVER_DUMP_L1:
   {
     if(vsl == ((struct VSL_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSL_Error", "vsl.c", 145, "(vsl) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSL_Error", "vsl.c", 145, "(vsl) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsl->magic == 0x8E6C92AA))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSL_Error", "vsl.c", 145, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSL_Error", "vsl.c", 145, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
-  char *return_value_VSB_data$3;
+  char *return_value_VSB_data_3;
   if(vsl->diag == ((struct vsb *)NULL))
     return (const char *)(void *)0;
 
   else
   {
-    return_value_VSB_data$3=VSB_data(vsl->diag);
-    return return_value_VSB_data$3;
+    return_value_VSB_data_3=VSB_data(vsl->diag);
+    return return_value_VSB_data_3;
   }
 }
 
@@ -7824,17 +7824,17 @@ __CPROVER_DUMP_L1:
   do
     if(glob == ((const char *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSL_Glob2Tags", "vsl_arg.c", 95, "(glob) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSL_Glob2Tags", "vsl_arg.c", 95, "(glob) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
   if(!(l >= 0))
   {
-    return_value_strlen$2=strlen(glob);
-    l = (signed int)return_value_strlen$2;
+    return_value_strlen_2=strlen(glob);
+    l = (signed int)return_value_strlen_2;
   }
 
   if(l == 0 || (unsigned long int)l >= 64ul)
@@ -7842,9 +7842,9 @@ __CPROVER_DUMP_L1:
 
   else
   {
-    char *return_value_strchr$3;
-    return_value_strchr$3=strchr(glob, 42);
-    if(!(return_value_strchr$3 == ((char *)NULL)))
+    char *return_value_strchr_3;
+    return_value_strchr_3=strchr(glob, 42);
+    if(!(return_value_strchr_3 == ((char *)NULL)))
     {
       if((signed int)*glob == 42)
       {
@@ -7872,9 +7872,9 @@ __CPROVER_DUMP_L1:
     {
       memcpy((void *)buf, (const void *)glob, (unsigned long int)l);
       buf[(signed long int)l] = (char)0;
-      char *return_value_strchr$4;
-      return_value_strchr$4=strchr(buf, 42);
-      if(!(return_value_strchr$4 == ((char *)NULL)))
+      char *return_value_strchr_4;
+      return_value_strchr_4=strchr(buf, 42);
+      if(!(return_value_strchr_4 == ((char *)NULL)))
         return -3;
 
       else
@@ -7898,25 +7898,25 @@ __CPROVER_DUMP_L1:
           {
             if(!(VSL_tags[(signed long int)i] == ((const char *)NULL)))
             {
-              unsigned long int return_value_strlen$5;
-              return_value_strlen$5=strlen(VSL_tags[(signed long int)i]);
-              l2 = (signed int)return_value_strlen$5;
+              unsigned long int return_value_strlen_5;
+              return_value_strlen_5=strlen(VSL_tags[(signed long int)i]);
+              l2 = (signed int)return_value_strlen_5;
               if(l2 >= l)
               {
                 if(!(pre == 0))
                 {
-                  signed int return_value_strcasecmp$6;
-                  return_value_strcasecmp$6=strcasecmp(buf, (VSL_tags[(signed long int)i] + (signed long int)l2) - (signed long int)l);
-                  if(!(return_value_strcasecmp$6 == 0))
+                  signed int return_value_strcasecmp_6;
+                  return_value_strcasecmp_6=strcasecmp(buf, (VSL_tags[(signed long int)i] + (signed long int)l2) - (signed long int)l);
+                  if(!(return_value_strcasecmp_6 == 0))
                     goto __CPROVER_DUMP_L19;
 
                 }
 
                 else
                 {
-                  signed int return_value_strncasecmp$7;
-                  return_value_strncasecmp$7=strncasecmp(buf, VSL_tags[(signed long int)i], (unsigned long int)l);
-                  if(!(return_value_strncasecmp$7 == 0))
+                  signed int return_value_strncasecmp_7;
+                  return_value_strncasecmp_7=strncasecmp(buf, VSL_tags[(signed long int)i], (unsigned long int)l);
+                  if(!(return_value_strncasecmp_7 == 0))
                     goto __CPROVER_DUMP_L19;
 
                 }
@@ -7951,11 +7951,11 @@ signed int VSL_List2Tags(const char *list, signed int l, void (*func)(signed int
   const char *e;
   signed int r;
   signed int t;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(!(l >= 0))
   {
-    return_value_strlen$1=strlen(list);
-    l = (signed int)return_value_strlen$1;
+    return_value_strlen_1=strlen(list);
+    l = (signed int)return_value_strlen_1;
   }
 
   p = list;
@@ -8000,35 +8000,35 @@ __CPROVER_DUMP_L1:
   {
     if(vsl == ((struct VSL_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSL_Match", "vsl.c", 194, "(vsl) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSL_Match", "vsl.c", 194, "(vsl) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsl->magic == 0x8E6C92AA))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSL_Match", "vsl.c", 194, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSL_Match", "vsl.c", 194, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(c == ((struct VSL_cursor *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = c->rec.ptr == (const unsigned int *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$9;
-  signed int return_value_vsl_match_IX$8;
-  signed int return_value_vbit_test$7;
-  _Bool tmp_if_expr$6;
-  signed int return_value_vsl_match_IX$5;
-  signed int return_value_vbit_test$4;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = c->rec.ptr == (const unsigned int *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_9;
+  signed int return_value_vsl_match_IX_8;
+  signed int return_value_vbit_test_7;
+  _Bool tmp_if_expr_6;
+  signed int return_value_vsl_match_IX_5;
+  signed int return_value_vbit_test_4;
+  if(tmp_if_expr_3)
     return 0;
 
   else
@@ -8066,38 +8066,38 @@ __CPROVER_DUMP_L1:
           ;
           if(!(vsl->vslf_select.vtqh_first == ((struct vslf *)NULL)))
           {
-            return_value_vsl_match_IX$8=vsl_match_IX(vsl, &vsl->vslf_select, c);
-            tmp_if_expr$9 = return_value_vsl_match_IX$8 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_vsl_match_IX_8=vsl_match_IX(vsl, &vsl->vslf_select, c);
+            tmp_if_expr_9 = return_value_vsl_match_IX_8 != 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$9 = (_Bool)0;
-          if(tmp_if_expr$9)
+            tmp_if_expr_9 = (_Bool)0;
+          if(tmp_if_expr_9)
             return 1;
 
           else
           {
-            return_value_vbit_test$7=vbit_test$link1(vsl->vbm_select, (unsigned int)tag);
-            if(!(return_value_vbit_test$7 == 0))
+            return_value_vbit_test_7=vbit_test_link1(vsl->vbm_select, (unsigned int)tag);
+            if(!(return_value_vbit_test_7 == 0))
               return 1;
 
             else
             {
               if(!(vsl->vslf_suppress.vtqh_first == ((struct vslf *)NULL)))
               {
-                return_value_vsl_match_IX$5=vsl_match_IX(vsl, &vsl->vslf_suppress, c);
-                tmp_if_expr$6 = return_value_vsl_match_IX$5 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_vsl_match_IX_5=vsl_match_IX(vsl, &vsl->vslf_suppress, c);
+                tmp_if_expr_6 = return_value_vsl_match_IX_5 != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$6 = (_Bool)0;
-              if(tmp_if_expr$6)
+                tmp_if_expr_6 = (_Bool)0;
+              if(tmp_if_expr_6)
                 return 0;
 
               else
               {
-                return_value_vbit_test$4=vbit_test$link1(vsl->vbm_supress, (unsigned int)tag);
-                if(!(return_value_vbit_test$4 == 0))
+                return_value_vbit_test_4=vbit_test_link1(vsl->vbm_supress, (unsigned int)tag);
+                if(!(return_value_vbit_test_4 == 0))
                   return 0;
 
               }
@@ -8115,25 +8115,25 @@ signed int VSL_Name2Tag(const char *name, signed int l)
 {
   signed int i;
   signed int n;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(l == -1)
   {
-    return_value_strlen$1=strlen(name);
-    l = (signed int)return_value_strlen$1;
+    return_value_strlen_1=strlen(name);
+    l = (signed int)return_value_strlen_1;
   }
 
   n = -1;
   i = 0;
-  signed int return_value_strncasecmp$3;
+  signed int return_value_strncasecmp_3;
   for( ; !(i >= 256); i = i + 1)
     if(!(VSL_tags[(signed long int)i] == ((const char *)NULL)))
     {
-      return_value_strncasecmp$3=strncasecmp(name, VSL_tags[(signed long int)i], (unsigned long int)l);
-      if(return_value_strncasecmp$3 == 0)
+      return_value_strncasecmp_3=strncasecmp(name, VSL_tags[(signed long int)i], (unsigned long int)l);
+      if(return_value_strncasecmp_3 == 0)
       {
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(VSL_tags[(signed long int)i]);
-        if(return_value_strlen$2 == (unsigned long int)l)
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(VSL_tags[(signed long int)i]);
+        if(return_value_strlen_2 == (unsigned long int)l)
           return i;
 
         if(n == -1)
@@ -8155,9 +8155,9 @@ struct VSL_data * VSL_New(void)
   struct VSL_data *vsl;
   do
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(sizeof(struct VSL_data) /*104ul*/ , (unsigned long int)1);
-    vsl = (struct VSL_data *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(sizeof(struct VSL_data) /*104ul*/ , (unsigned long int)1);
+    vsl = (struct VSL_data *)return_value_calloc_1;
     if(!(vsl == ((struct VSL_data *)NULL)))
       vsl->magic = 0x8E6C92AA;
 
@@ -8170,8 +8170,8 @@ struct VSL_data * VSL_New(void)
   {
     vsl->L_opt = 1000;
     vsl->T_opt = 120.;
-    vsl->vbm_select=vbit_init$link1((unsigned int)256);
-    vsl->vbm_supress=vbit_init$link1((unsigned int)256);
+    vsl->vbm_select=vbit_init_link1((unsigned int)256);
+    vsl->vbm_supress=vbit_init_link1((unsigned int)256);
     do
     {
       (&vsl->vslf_select)->vtqh_first = (struct vslf *)(void *)0;
@@ -8199,9 +8199,9 @@ signed int VSL_Next(struct VSL_cursor *cursor)
     do
       if(tbl == ((struct vslc_tbl *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("VSL_Next", "vsl_cursor.c", 468, "(tbl) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("VSL_Next", "vsl_cursor.c", 468, "(tbl) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -8211,9 +8211,9 @@ signed int VSL_Next(struct VSL_cursor *cursor)
     do
       if(!(tbl->magic == 1342685406u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSL_Next", "vsl_cursor.c", 468, "((tbl))->magic == (0x5007C0DE)", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSL_Next", "vsl_cursor.c", 468, "((tbl))->magic == (0x5007C0DE)", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -8225,9 +8225,9 @@ __CPROVER_DUMP_L6:
   do
     if(tbl->next == ((signed int (*)(struct VSL_cursor *))NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("VSL_Next", "vsl_cursor.c", 469, "(tbl->next) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("VSL_Next", "vsl_cursor.c", 469, "(tbl->next) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -8252,32 +8252,32 @@ __CPROVER_DUMP_L1:
   {
     if(vsl == ((struct VSL_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSL_Print", "vsl.c", 243, "(vsl) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSL_Print", "vsl.c", 243, "(vsl) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsl->magic == 0x8E6C92AA))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSL_Print", "vsl.c", 243, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSL_Print", "vsl.c", 243, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(c == ((struct VSL_cursor *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = c->rec.ptr == (const unsigned int *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  signed int tmp_if_expr$4;
-  unsigned int tmp_post$6;
-  _Bool tmp_if_expr$9;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = c->rec.ptr == (const unsigned int *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  signed int tmp_if_expr_4;
+  unsigned int tmp_post_6;
+  _Bool tmp_if_expr_9;
+  if(tmp_if_expr_3)
     return 0;
 
   else
@@ -8289,28 +8289,28 @@ __CPROVER_DUMP_L1:
     vxid = c->rec.ptr[(signed long int)1] & ~(3U << 30);
     len = c->rec.ptr[(signed long int)0] & (unsigned int)0xffff;
     if(!((1073741824u & c->rec.ptr[1l]) == 0u))
-      tmp_if_expr$4 = 99;
+      tmp_if_expr_4 = 99;
 
     else
-      tmp_if_expr$4 = (c->rec.ptr[(signed long int)1] & 1U << 31) != 0u ? 98 : 45;
-    type = tmp_if_expr$4;
+      tmp_if_expr_4 = (c->rec.ptr[(signed long int)1] & 1U << 31) != 0u ? 98 : 45;
+    type = tmp_if_expr_4;
     data = (const char *)(c->rec.ptr + (signed long int)2);
     if(!((2u & VSL_tagflags[(signed long int)tag]) == 0u))
     {
       do
       {
-        signed int return_value_fprintf$5;
-        return_value_fprintf$5=fprintf((struct _IO_FILE *)fo, "%10u %-14s %c \"", vxid, VSL_tags[(signed long int)tag], type);
-        if(!(return_value_fprintf$5 >= 0))
+        signed int return_value_fprintf_5;
+        return_value_fprintf_5=fprintf((struct _IO_FILE *)fo, "%10u %-14s %c \"", vxid, VSL_tags[(signed long int)tag], type);
+        if(!(return_value_fprintf_5 >= 0))
           return -5;
 
       }
       while((_Bool)0);
       do
       {
-        tmp_post$6 = len;
+        tmp_post_6 = len;
         len = len - 1u;
-        if(!(tmp_post$6 >= 1u))
+        if(!(tmp_post_6 >= 1u))
           break;
 
         if(len == 0u && (signed int)tag == SLT_Debug)
@@ -8321,16 +8321,16 @@ __CPROVER_DUMP_L1:
         }
 
         if((signed int)*data >= 32)
-          tmp_if_expr$9 = (signed int)*data <= 126 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_9 = (signed int)*data <= 126 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        if(tmp_if_expr$9)
+          tmp_if_expr_9 = (_Bool)0;
+        if(tmp_if_expr_9)
           do
           {
-            signed int return_value_fprintf$7;
-            return_value_fprintf$7=fprintf((struct _IO_FILE *)fo, "%c", *data);
-            if(!(return_value_fprintf$7 >= 0))
+            signed int return_value_fprintf_7;
+            return_value_fprintf_7=fprintf((struct _IO_FILE *)fo, "%c", *data);
+            if(!(return_value_fprintf_7 >= 0))
               return -5;
 
           }
@@ -8339,9 +8339,9 @@ __CPROVER_DUMP_L1:
         else
           do
           {
-            signed int return_value_fprintf$8;
-            return_value_fprintf$8=fprintf((struct _IO_FILE *)fo, "%%%02x", (unsigned char)*data);
-            if(!(return_value_fprintf$8 >= 0))
+            signed int return_value_fprintf_8;
+            return_value_fprintf_8=fprintf((struct _IO_FILE *)fo, "%%%02x", (unsigned char)*data);
+            if(!(return_value_fprintf_8 >= 0))
               return -5;
 
           }
@@ -8351,9 +8351,9 @@ __CPROVER_DUMP_L1:
       while((_Bool)1);
       do
       {
-        signed int return_value_fprintf$10;
-        return_value_fprintf$10=fprintf((struct _IO_FILE *)fo, "\"\n");
-        if(!(return_value_fprintf$10 >= 0))
+        signed int return_value_fprintf_10;
+        return_value_fprintf_10=fprintf((struct _IO_FILE *)fo, "\"\n");
+        if(!(return_value_fprintf_10 >= 0))
           return -5;
 
       }
@@ -8363,9 +8363,9 @@ __CPROVER_DUMP_L1:
     else
       do
       {
-        signed int return_value_fprintf$11;
-        return_value_fprintf$11=fprintf((struct _IO_FILE *)fo, "%10u %-14s %c %.*s\n", vxid, VSL_tags[(signed long int)tag], type, (signed int)len, data);
-        if(!(return_value_fprintf$11 >= 0))
+        signed int return_value_fprintf_11;
+        return_value_fprintf_11=fprintf((struct _IO_FILE *)fo, "%10u %-14s %c %.*s\n", vxid, VSL_tags[(signed long int)tag], type, (signed int)len, data);
+        if(!(return_value_fprintf_11 >= 0))
           return -5;
 
       }
@@ -8389,9 +8389,9 @@ signed int VSL_PrintAll(struct VSL_data *vsl, struct VSL_cursor *c, void *fo)
       if(!(i >= 1))
         return i;
 
-      signed int return_value_VSL_Match$1;
-      return_value_VSL_Match$1=VSL_Match(vsl, c);
-      if(!(return_value_VSL_Match$1 == 0))
+      signed int return_value_VSL_Match_1;
+      return_value_VSL_Match_1=VSL_Match(vsl, c);
+      if(!(return_value_VSL_Match_1 == 0))
       {
         i=VSL_Print(vsl, c, fo);
         if(!(i == 0))
@@ -8416,31 +8416,31 @@ __CPROVER_DUMP_L1:
   {
     if(vsl == ((struct VSL_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSL_PrintTerse", "vsl.c", 281, "(vsl) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSL_PrintTerse", "vsl.c", 281, "(vsl) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsl->magic == 0x8E6C92AA))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSL_PrintTerse", "vsl.c", 281, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSL_PrintTerse", "vsl.c", 281, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(c == ((struct VSL_cursor *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = c->rec.ptr == (const unsigned int *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  unsigned int tmp_post$5;
-  _Bool tmp_if_expr$8;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = c->rec.ptr == (const unsigned int *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  unsigned int tmp_post_5;
+  _Bool tmp_if_expr_8;
+  if(tmp_if_expr_3)
     return 0;
 
   else
@@ -8455,18 +8455,18 @@ __CPROVER_DUMP_L1:
     {
       do
       {
-        signed int return_value_fprintf$4;
-        return_value_fprintf$4=fprintf((struct _IO_FILE *)fo, "%-14s \"", VSL_tags[(signed long int)tag]);
-        if(!(return_value_fprintf$4 >= 0))
+        signed int return_value_fprintf_4;
+        return_value_fprintf_4=fprintf((struct _IO_FILE *)fo, "%-14s \"", VSL_tags[(signed long int)tag]);
+        if(!(return_value_fprintf_4 >= 0))
           return -5;
 
       }
       while((_Bool)0);
       do
       {
-        tmp_post$5 = len;
+        tmp_post_5 = len;
         len = len - 1u;
-        if(!(tmp_post$5 >= 1u))
+        if(!(tmp_post_5 >= 1u))
           break;
 
         if(len == 0u && (signed int)tag == SLT_Debug)
@@ -8477,16 +8477,16 @@ __CPROVER_DUMP_L1:
         }
 
         if((signed int)*data >= 32)
-          tmp_if_expr$8 = (signed int)*data <= 126 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = (signed int)*data <= 126 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        if(tmp_if_expr$8)
+          tmp_if_expr_8 = (_Bool)0;
+        if(tmp_if_expr_8)
           do
           {
-            signed int return_value_fprintf$6;
-            return_value_fprintf$6=fprintf((struct _IO_FILE *)fo, "%c", *data);
-            if(!(return_value_fprintf$6 >= 0))
+            signed int return_value_fprintf_6;
+            return_value_fprintf_6=fprintf((struct _IO_FILE *)fo, "%c", *data);
+            if(!(return_value_fprintf_6 >= 0))
               return -5;
 
           }
@@ -8495,9 +8495,9 @@ __CPROVER_DUMP_L1:
         else
           do
           {
-            signed int return_value_fprintf$7;
-            return_value_fprintf$7=fprintf((struct _IO_FILE *)fo, "%%%02x", (unsigned char)*data);
-            if(!(return_value_fprintf$7 >= 0))
+            signed int return_value_fprintf_7;
+            return_value_fprintf_7=fprintf((struct _IO_FILE *)fo, "%%%02x", (unsigned char)*data);
+            if(!(return_value_fprintf_7 >= 0))
               return -5;
 
           }
@@ -8507,9 +8507,9 @@ __CPROVER_DUMP_L1:
       while((_Bool)1);
       do
       {
-        signed int return_value_fprintf$9;
-        return_value_fprintf$9=fprintf((struct _IO_FILE *)fo, "\"\n");
-        if(!(return_value_fprintf$9 >= 0))
+        signed int return_value_fprintf_9;
+        return_value_fprintf_9=fprintf((struct _IO_FILE *)fo, "\"\n");
+        if(!(return_value_fprintf_9 >= 0))
           return -5;
 
       }
@@ -8519,9 +8519,9 @@ __CPROVER_DUMP_L1:
     else
       do
       {
-        signed int return_value_fprintf$10;
-        return_value_fprintf$10=fprintf((struct _IO_FILE *)fo, "%-14s %.*s\n", VSL_tags[(signed long int)tag], (signed int)len, data);
-        if(!(return_value_fprintf$10 >= 0))
+        signed int return_value_fprintf_10;
+        return_value_fprintf_10=fprintf((struct _IO_FILE *)fo, "%-14s %.*s\n", VSL_tags[(signed long int)tag], (signed int)len, data);
+        if(!(return_value_fprintf_10 >= 0))
           return -5;
 
       }
@@ -8545,17 +8545,17 @@ __CPROVER_DUMP_L1:
   {
     if(vsl == ((struct VSL_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSL_PrintTransactions", "vsl.c", 336, "(vsl) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSL_PrintTransactions", "vsl.c", 336, "(vsl) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsl->magic == 0x8E6C92AA))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSL_PrintTransactions", "vsl.c", 336, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSL_PrintTransactions", "vsl.c", 336, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -8564,8 +8564,8 @@ __CPROVER_DUMP_L1:
   if(fo == NULL)
     fo = (void *)stdout;
 
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   if(*pt == ((struct VSL_transaction *)NULL))
     return 0;
 
@@ -8575,11 +8575,11 @@ __CPROVER_DUMP_L1:
     for( ; !(t == ((struct VSL_transaction *)NULL)); t = *pt)
     {
       if(!(vsl->c_opt == 0))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = vsl->b_opt != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = vsl->b_opt != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
         switch((signed int)t->type)
         {
           case VSL_t_req:
@@ -8609,11 +8609,11 @@ __CPROVER_DUMP_L1:
         ;
         verbose = 0;
         if(t->level == 0u)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = vsl->v_opt != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = vsl->v_opt != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
           verbose = 1;
 
         if(!(t->level == 0u))
@@ -8621,9 +8621,9 @@ __CPROVER_DUMP_L1:
           if(t->level >= 4u)
             do
             {
-              signed int return_value_fprintf$5;
-              return_value_fprintf$5=fprintf((struct _IO_FILE *)fo, "*%1.1u* ", t->level);
-              if(!(return_value_fprintf$5 >= 0))
+              signed int return_value_fprintf_5;
+              return_value_fprintf_5=fprintf((struct _IO_FILE *)fo, "*%1.1u* ", t->level);
+              if(!(return_value_fprintf_5 >= 0))
                 return -5;
 
             }
@@ -8632,18 +8632,18 @@ __CPROVER_DUMP_L1:
           else
             do
             {
-              signed int return_value_fprintf$6;
-              return_value_fprintf$6=fprintf((struct _IO_FILE *)fo, "%-3.*s ", t->level, (const void *)"***");
-              if(!(return_value_fprintf$6 >= 0))
+              signed int return_value_fprintf_6;
+              return_value_fprintf_6=fprintf((struct _IO_FILE *)fo, "%-3.*s ", t->level, (const void *)"***");
+              if(!(return_value_fprintf_6 >= 0))
                 return -5;
 
             }
             while((_Bool)0);
           do
           {
-            signed int return_value_fprintf$7;
-            return_value_fprintf$7=fprintf((struct _IO_FILE *)fo, "%*.s%-14s %*.s%-10u\n", verbose != 0 ? 10 + 1 : 0, (const void *)" ", VSL_transactions[(signed long int)t->type], verbose != 0 ? 1 + 1 : 0, (const void *)" ", t->vxid);
-            if(!(return_value_fprintf$7 >= 0))
+            signed int return_value_fprintf_7;
+            return_value_fprintf_7=fprintf((struct _IO_FILE *)fo, "%*.s%-14s %*.s%-10u\n", verbose != 0 ? 10 + 1 : 0, (const void *)" ", VSL_transactions[(signed long int)t->type], verbose != 0 ? 1 + 1 : 0, (const void *)" ", t->vxid);
+            if(!(return_value_fprintf_7 >= 0))
               return -5;
 
           }
@@ -8660,16 +8660,16 @@ __CPROVER_DUMP_L1:
           if(i == 0)
             break;
 
-          signed int return_value_VSL_Match$8;
-          return_value_VSL_Match$8=VSL_Match(vsl, t->c);
-          if(!(return_value_VSL_Match$8 == 0))
+          signed int return_value_VSL_Match_8;
+          return_value_VSL_Match_8=VSL_Match(vsl, t->c);
+          if(!(return_value_VSL_Match_8 == 0))
           {
             if(t->level >= 4u)
               do
               {
-                signed int return_value_fprintf$9;
-                return_value_fprintf$9=fprintf((struct _IO_FILE *)fo, "-%1.1u- ", t->level);
-                if(!(return_value_fprintf$9 >= 0))
+                signed int return_value_fprintf_9;
+                return_value_fprintf_9=fprintf((struct _IO_FILE *)fo, "-%1.1u- ", t->level);
+                if(!(return_value_fprintf_9 >= 0))
                   return -5;
 
               }
@@ -8679,9 +8679,9 @@ __CPROVER_DUMP_L1:
               if(!(t->level == 0u))
                 do
                 {
-                  signed int return_value_fprintf$10;
-                  return_value_fprintf$10=fprintf((struct _IO_FILE *)fo, "%-3.*s ", t->level, (const void *)"---");
-                  if(!(return_value_fprintf$10 >= 0))
+                  signed int return_value_fprintf_10;
+                  return_value_fprintf_10=fprintf((struct _IO_FILE *)fo, "%-3.*s ", t->level, (const void *)"---");
+                  if(!(return_value_fprintf_10 >= 0))
                     return -5;
 
                 }
@@ -8707,9 +8707,9 @@ __CPROVER_DUMP_L1:
     if(!(delim == 0))
       do
       {
-        signed int return_value_fprintf$11;
-        return_value_fprintf$11=fprintf((struct _IO_FILE *)fo, "\n");
-        if(!(return_value_fprintf$11 >= 0))
+        signed int return_value_fprintf_11;
+        return_value_fprintf_11=fprintf((struct _IO_FILE *)fo, "\n");
+        if(!(return_value_fprintf_11 >= 0))
           return -5;
 
       }
@@ -8730,9 +8730,9 @@ signed int VSL_ResetCursor(struct VSL_cursor *cursor)
     do
       if(tbl == ((struct vslc_tbl *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("VSL_ResetCursor", "vsl_cursor.c", 457, "(tbl) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("VSL_ResetCursor", "vsl_cursor.c", 457, "(tbl) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -8742,9 +8742,9 @@ signed int VSL_ResetCursor(struct VSL_cursor *cursor)
     do
       if(!(tbl->magic == 1342685406u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSL_ResetCursor", "vsl_cursor.c", 457, "((tbl))->magic == (0x5007C0DE)", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSL_ResetCursor", "vsl_cursor.c", 457, "((tbl))->magic == (0x5007C0DE)", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -8772,17 +8772,17 @@ __CPROVER_DUMP_L1:
   {
     if(vsl == ((struct VSL_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSL_ResetError", "vsl.c", 157, "(vsl) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSL_ResetError", "vsl.c", 157, "(vsl) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsl->magic == 0x8E6C92AA))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSL_ResetError", "vsl.c", 157, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSL_ResetError", "vsl.c", 157, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -8808,29 +8808,29 @@ __CPROVER_DUMP_L1:
   {
     if(vsl == ((struct VSL_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSL_Write", "vsl.c", 433, "(vsl) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSL_Write", "vsl.c", 433, "(vsl) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsl->magic == 0x8E6C92AA))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSL_Write", "vsl.c", 433, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSL_Write", "vsl.c", 433, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(c == ((struct VSL_cursor *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = c->rec.ptr == (const unsigned int *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = c->rec.ptr == (const unsigned int *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
     return 0;
 
   else
@@ -8862,9 +8862,9 @@ signed int VSL_WriteAll(struct VSL_data *vsl, struct VSL_cursor *c, void *fo)
       if(!(i >= 1))
         return i;
 
-      signed int return_value_VSL_Match$1;
-      return_value_VSL_Match$1=VSL_Match(vsl, c);
-      if(!(return_value_VSL_Match$1 == 0))
+      signed int return_value_VSL_Match_1;
+      return_value_VSL_Match_1=VSL_Match(vsl, c);
+      if(!(return_value_VSL_Match_1 == 0))
       {
         i=VSL_Write(vsl, c, fo);
         if(!(i == 0))
@@ -8884,30 +8884,30 @@ struct _IO_FILE * VSL_WriteOpen(struct VSL_data *vsl, const char *name, signed i
   f=fopen(name, append != 0 ? "a" : "w");
   if(f == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    vsl_diag(vsl, "%s", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    vsl_diag(vsl, "%s", return_value_strerror_2);
     return (struct _IO_FILE *)(void *)0;
   }
 
   if(!(unbuf == 0))
     setbuf(f, (char *)(void *)0);
 
-  signed long int return_value_ftell$6;
-  return_value_ftell$6=ftell(f);
-  if(return_value_ftell$6 == 0l)
+  signed long int return_value_ftell_6;
+  return_value_ftell_6=ftell(f);
+  if(return_value_ftell_6 == 0l)
   {
-    unsigned long int return_value_fwrite$5;
-    return_value_fwrite$5=fwrite((const void *)head, (unsigned long int)1, sizeof(const char [4l]) /*4ul*/ , f);
-    if(!(return_value_fwrite$5 == sizeof(const char [4l]) /*4ul*/ ))
+    unsigned long int return_value_fwrite_5;
+    return_value_fwrite_5=fwrite((const void *)head, (unsigned long int)1, sizeof(const char [4l]) /*4ul*/ , f);
+    if(!(return_value_fwrite_5 == sizeof(const char [4l]) /*4ul*/ ))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      vsl_diag(vsl, "%s", return_value_strerror$4);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      vsl_diag(vsl, "%s", return_value_strerror_4);
       fclose(f);
       return (struct _IO_FILE *)(void *)0;
     }
@@ -8952,23 +8952,23 @@ __CPROVER_DUMP_L1:
   {
     if(vd == ((struct VSM_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSM_Abandoned", "vsm.c", 313, "(vd) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSM_Abandoned", "vsm.c", 313, "(vd) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vd->magic == 1849415323u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSM_Abandoned", "vsm.c", 313, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSM_Abandoned", "vsm.c", 313, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(vd->head == ((struct VSM_head *)NULL))
     return 1;
 
@@ -8988,15 +8988,15 @@ __CPROVER_DUMP_L1:
         {
           now=VTIM_mono();
           if(vd->head->age == vd->age_ok)
-            tmp_if_expr$4 = now - vd->t_ok > 2. ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = now - vd->t_ok > 2. ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(tmp_if_expr_4)
           {
-            signed int return_value_stat$3;
-            return_value_stat$3=stat(vd->fname, &st);
-            if(!(return_value_stat$3 == 0))
+            signed int return_value_stat_3;
+            return_value_stat_3=stat(vd->fname, &st);
+            if(!(return_value_stat_3 == 0))
               return 1;
 
             if(!(st.st_dev == vd->fstat.st_dev))
@@ -9030,17 +9030,17 @@ __CPROVER_DUMP_L1:
   {
     if(vd == ((struct VSM_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSM_Close", "vsm.c", 291, "(vd) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSM_Close", "vsm.c", 291, "(vd) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vd->magic == 1849415323u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSM_Close", "vsm.c", 291, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSM_Close", "vsm.c", 291, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -9051,9 +9051,9 @@ __CPROVER_DUMP_L1:
     do
       if(!(vd->vsm_fd >= 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        VAS_Fail("VSM_Close", "vsm.c", 296, "vd->vsm_fd >= 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        VAS_Fail("VSM_Close", "vsm.c", 296, "vd->vsm_fd >= 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -9062,13 +9062,13 @@ __CPROVER_DUMP_L1:
 
     __CPROVER_DUMP_L7:
       ;
-      signed int return_value_munmap$5;
-      return_value_munmap$5=munmap((void *)vd->b, (unsigned long int)(vd->e - vd->b));
-      if(!(return_value_munmap$5 == 0))
+      signed int return_value_munmap_5;
+      return_value_munmap_5=munmap((void *)vd->b, (unsigned long int)(vd->e - vd->b));
+      if(!(return_value_munmap_5 == 0))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        VAS_Fail("VSM_Close", "vsm.c", 297, "(munmap((void*)vd->b, vd->e - vd->b)) == 0", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        VAS_Fail("VSM_Close", "vsm.c", 297, "(munmap((void*)vd->b, vd->e - vd->b)) == 0", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
       }
 
     }
@@ -9081,13 +9081,13 @@ __CPROVER_DUMP_L1:
 
     __CPROVER_DUMP_L9:
       ;
-      signed int return_value_close$7;
-      return_value_close$7=close(vd->vsm_fd);
-      if(!(return_value_close$7 == 0))
+      signed int return_value_close_7;
+      return_value_close_7=close(vd->vsm_fd);
+      if(!(return_value_close_7 == 0))
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        VAS_Fail("VSM_Close", "vsm.c", 301, "(close(vd->vsm_fd)) == 0", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        VAS_Fail("VSM_Close", "vsm.c", 301, "(close(vd->vsm_fd)) == 0", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
       }
 
     }
@@ -9108,17 +9108,17 @@ __CPROVER_DUMP_L1:
   {
     if(vd == ((struct VSM_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSM_Delete", "vsm.c", 190, "(vd) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSM_Delete", "vsm.c", 190, "(vd) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vd->magic == 1849415323u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSM_Delete", "vsm.c", 190, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSM_Delete", "vsm.c", 190, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -9150,30 +9150,30 @@ __CPROVER_DUMP_L1:
   {
     if(vd == ((struct VSM_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSM_Error", "vsm.c", 105, "(vd) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSM_Error", "vsm.c", 105, "(vd) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vd->magic == 1849415323u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSM_Error", "vsm.c", 105, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSM_Error", "vsm.c", 105, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
-  char *return_value_VSB_data$3;
+  char *return_value_VSB_data_3;
   if(vd->diag == ((struct vsb *)NULL))
     return (const char *)(void *)0;
 
   else
   {
-    return_value_VSB_data$3=VSB_data(vd->diag);
-    return return_value_VSB_data$3;
+    return_value_VSB_data_3=VSB_data(vd->diag);
+    return return_value_VSB_data_3;
   }
 }
 
@@ -9188,40 +9188,40 @@ __CPROVER_DUMP_L1:
   {
     if(vd == ((struct VSM_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSM_Get", "vsm.c", 441, "(vd) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSM_Get", "vsm.c", 441, "(vd) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vd->magic == 1849415323u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSM_Get", "vsm.c", 441, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSM_Get", "vsm.c", 441, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
   VSM__iter0(vd, vf);
-  signed int return_value_VSM__itern$3;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$6;
+  signed int return_value_VSM__itern_3;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_6;
   do
   {
-    return_value_VSM__itern$3=VSM__itern(vd, vf);
-    if(return_value_VSM__itern$3 == 0)
+    return_value_VSM__itern_3=VSM__itern(vd, vf);
+    if(return_value_VSM__itern_3 == 0)
       break;
 
-    signed int return_value_strcmp$4;
-    return_value_strcmp$4=strcmp(vf->class, class);
-    if(return_value_strcmp$4 == 0)
+    signed int return_value_strcmp_4;
+    return_value_strcmp_4=strcmp(vf->class, class);
+    if(return_value_strcmp_4 == 0)
     {
       if(!(type == ((const char *)NULL)))
       {
-        return_value_strcmp$5=strcmp(vf->type, type);
-        if(return_value_strcmp$5 == 0)
+        return_value_strcmp_5=strcmp(vf->type, type);
+        if(return_value_strcmp_5 == 0)
           goto __CPROVER_DUMP_L6;
 
       }
@@ -9233,8 +9233,8 @@ __CPROVER_DUMP_L1:
         ;
         if(!(ident == ((const char *)NULL)))
         {
-          return_value_strcmp$6=strcmp(vf->ident, ident);
-          if(return_value_strcmp$6 == 0)
+          return_value_strcmp_6=strcmp(vf->ident, ident);
+          if(return_value_strcmp_6 == 0)
             goto __CPROVER_DUMP_L7;
 
         }
@@ -9266,17 +9266,17 @@ __CPROVER_DUMP_L1:
   {
     if(vd == ((struct VSM_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSM_N_Arg", "vsm.c", 162, "(vd) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSM_N_Arg", "vsm.c", 162, "(vd) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vd->magic == 1849415323u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSM_N_Arg", "vsm.c", 162, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSM_N_Arg", "vsm.c", 162, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -9288,17 +9288,17 @@ __CPROVER_DUMP_L5:
   do
     if(arg == ((const char *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("VSM_N_Arg", "vsm.c", 163, "(arg) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("VSM_N_Arg", "vsm.c", 163, "(arg) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
-  signed int return_value_vsm_diag$4;
+  signed int return_value_vsm_diag_4;
   if(!(vd->head == ((struct VSM_head *)NULL)))
   {
-    return_value_vsm_diag$4=vsm_diag(vd, "VSM_N_Arg: Already open\n");
-    return return_value_vsm_diag$4;
+    return_value_vsm_diag_4=vsm_diag(vd, "VSM_N_Arg: Already open\n");
+    return return_value_vsm_diag_4;
   }
 
   else
@@ -9317,9 +9317,9 @@ __CPROVER_DUMP_L5:
         do
           if(vd->name == ((char *)NULL))
           {
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            VAS_Fail("VSM_N_Arg", "vsm.c", 167, "((vd->name)) != 0", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            VAS_Fail("VSM_N_Arg", "vsm.c", 167, "((vd->name)) != 0", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
           }
 
         while((_Bool)0);
@@ -9343,9 +9343,9 @@ __CPROVER_DUMP_L5:
         do
           if(vd->fname == ((char *)NULL))
           {
-            signed int *return_value___errno_location$6;
-            return_value___errno_location$6=__errno_location();
-            VAS_Fail("VSM_N_Arg", "vsm.c", 168, "((vd->fname)) != 0", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_6;
+            return_value___errno_location_6=__errno_location();
+            VAS_Fail("VSM_N_Arg", "vsm.c", 168, "((vd->fname)) != 0", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
           }
 
         while((_Bool)0);
@@ -9371,17 +9371,17 @@ __CPROVER_DUMP_L1:
   {
     if(vd == ((struct VSM_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSM_Name", "vsm.c", 179, "(vd) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSM_Name", "vsm.c", 179, "(vd) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vd->magic == 1849415323u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSM_Name", "vsm.c", 179, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSM_Name", "vsm.c", 179, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -9397,9 +9397,9 @@ struct VSM_data * VSM_New(void)
   struct VSM_data *vd;
   do
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(sizeof(struct VSM_data) /*240ul*/ , (unsigned long int)1);
-    vd = (struct VSM_data *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(sizeof(struct VSM_data) /*240ul*/ , (unsigned long int)1);
+    vd = (struct VSM_data *)return_value_calloc_1;
     if(!(vd == ((struct VSM_data *)NULL)))
       vd->magic = (unsigned int)0x6e3bd69b;
 
@@ -9422,9 +9422,9 @@ struct VSM_data * VSM_New(void)
       do
         if(vd->name == ((char *)NULL))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          VAS_Fail("VSM_New", "vsm.c", 72, "((vd->name)) != 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          VAS_Fail("VSM_New", "vsm.c", 72, "((vd->name)) != 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -9438,17 +9438,17 @@ struct VSM_data * VSM_New(void)
     {
       if(vd == ((struct VSM_data *)NULL))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        VAS_Fail("VSM_New", "vsm.c", 75, "(vd) != NULL", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        VAS_Fail("VSM_New", "vsm.c", 75, "(vd) != NULL", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(vd->magic == 1849415323u))
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          VAS_Fail("VSM_New", "vsm.c", 75, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          VAS_Fail("VSM_New", "vsm.c", 75, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -9472,25 +9472,25 @@ __CPROVER_DUMP_L1:
   {
     if(vd == ((struct VSM_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSM_Open", "vsm.c", 219, "(vd) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSM_Open", "vsm.c", 219, "(vd) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vd->magic == 1849415323u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSM_Open", "vsm.c", 219, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSM_Open", "vsm.c", 219, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
-  signed int return_value_vsm_diag$6;
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
+  signed int return_value_vsm_diag_6;
   if(!(vd->head == ((struct VSM_head *)NULL)))
     return 0;
 
@@ -9508,9 +9508,9 @@ __CPROVER_DUMP_L1:
       do
         if(vd->fname == ((char *)NULL))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          VAS_Fail("VSM_Open", "vsm.c", 230, "(vd->fname) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          VAS_Fail("VSM_Open", "vsm.c", 230, "(vd->fname) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -9519,10 +9519,10 @@ __CPROVER_DUMP_L1:
     vd->vsm_fd=open(vd->fname, 00);
     if(!(vd->vsm_fd >= 0))
     {
-      return_value___errno_location$4=__errno_location();
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      return_value_vsm_diag$6=vsm_diag(vd, "Cannot open %s: %s\n", vd->fname, return_value_strerror$5);
-      return return_value_vsm_diag$6;
+      return_value___errno_location_4=__errno_location();
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      return_value_vsm_diag_6=vsm_diag(vd, "Cannot open %s: %s\n", vd->fname, return_value_strerror_5);
+      return return_value_vsm_diag_6;
     }
 
     else
@@ -9532,13 +9532,13 @@ __CPROVER_DUMP_L1:
 
       __CPROVER_DUMP_L9:
         ;
-        signed int return_value_fstat$8;
-        return_value_fstat$8=fstat(vd->vsm_fd, &vd->fstat);
-        if(!(return_value_fstat$8 == 0))
+        signed int return_value_fstat_8;
+        return_value_fstat_8=fstat(vd->vsm_fd, &vd->fstat);
+        if(!(return_value_fstat_8 == 0))
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          VAS_Fail("VSM_Open", "vsm.c", 238, "(fstat(vd->vsm_fd, &vd->fstat)) == 0", *return_value___errno_location$7, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          VAS_Fail("VSM_Open", "vsm.c", 238, "(fstat(vd->vsm_fd, &vd->fstat)) == 0", *return_value___errno_location_7, (enum vas_e)VAS_ASSERT);
         }
 
       }
@@ -9550,26 +9550,26 @@ __CPROVER_DUMP_L1:
 
         __CPROVER_DUMP_L11:
           ;
-          signed int return_value_close$10;
-          return_value_close$10=close(vd->vsm_fd);
-          if(!(return_value_close$10 == 0))
+          signed int return_value_close_10;
+          return_value_close_10=close(vd->vsm_fd);
+          if(!(return_value_close_10 == 0))
           {
-            signed int *return_value___errno_location$9;
-            return_value___errno_location$9=__errno_location();
-            VAS_Fail("VSM_Open", "vsm.c", 240, "(close(vd->vsm_fd)) == 0", *return_value___errno_location$9, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_9;
+            return_value___errno_location_9=__errno_location();
+            VAS_Fail("VSM_Open", "vsm.c", 240, "(close(vd->vsm_fd)) == 0", *return_value___errno_location_9, (enum vas_e)VAS_ASSERT);
           }
 
         }
         while((_Bool)0);
         vd->vsm_fd = -1;
-        signed int return_value_vsm_diag$11;
-        return_value_vsm_diag$11=vsm_diag(vd, "%s is not a regular file\n", vd->fname);
-        return return_value_vsm_diag$11;
+        signed int return_value_vsm_diag_11;
+        return_value_vsm_diag_11=vsm_diag(vd, "%s is not a regular file\n", vd->fname);
+        return return_value_vsm_diag_11;
       }
 
-      signed long int return_value_read$12;
-      return_value_read$12=read(vd->vsm_fd, (void *)&slh, sizeof(struct VSM_head) /*48ul*/ );
-      i = (signed int)return_value_read$12;
+      signed long int return_value_read_12;
+      return_value_read_12=read(vd->vsm_fd, (void *)&slh, sizeof(struct VSM_head) /*48ul*/ );
+      i = (signed int)return_value_read_12;
       if(!((unsigned long int)i == sizeof(struct VSM_head) /*48ul*/ ))
       {
         do
@@ -9577,51 +9577,51 @@ __CPROVER_DUMP_L1:
 
         __CPROVER_DUMP_L14:
           ;
-          signed int return_value_close$14;
-          return_value_close$14=close(vd->vsm_fd);
-          if(!(return_value_close$14 == 0))
+          signed int return_value_close_14;
+          return_value_close_14=close(vd->vsm_fd);
+          if(!(return_value_close_14 == 0))
           {
-            signed int *return_value___errno_location$13;
-            return_value___errno_location$13=__errno_location();
-            VAS_Fail("VSM_Open", "vsm.c", 248, "(close(vd->vsm_fd)) == 0", *return_value___errno_location$13, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_13;
+            return_value___errno_location_13=__errno_location();
+            VAS_Fail("VSM_Open", "vsm.c", 248, "(close(vd->vsm_fd)) == 0", *return_value___errno_location_13, (enum vas_e)VAS_ASSERT);
           }
 
         }
         while((_Bool)0);
         vd->vsm_fd = -1;
-        signed int *return_value___errno_location$15;
-        return_value___errno_location$15=__errno_location();
-        char *return_value_strerror$16;
-        return_value_strerror$16=strerror(*return_value___errno_location$15);
-        signed int return_value_vsm_diag$17;
-        return_value_vsm_diag$17=vsm_diag(vd, "Cannot read %s: %s\n", vd->fname, return_value_strerror$16);
-        return return_value_vsm_diag$17;
+        signed int *return_value___errno_location_15;
+        return_value___errno_location_15=__errno_location();
+        char *return_value_strerror_16;
+        return_value_strerror_16=strerror(*return_value___errno_location_15);
+        signed int return_value_vsm_diag_17;
+        return_value_vsm_diag_17=vsm_diag(vd, "Cannot read %s: %s\n", vd->fname, return_value_strerror_16);
+        return return_value_vsm_diag_17;
       }
 
-      signed int return_value_memcmp$21;
-      return_value_memcmp$21=memcmp((const void *)slh.marker, (const void *)"VSMHEAD0", sizeof(char [8l]) /*8ul*/ );
-      if(!(return_value_memcmp$21 == 0))
+      signed int return_value_memcmp_21;
+      return_value_memcmp_21=memcmp((const void *)slh.marker, (const void *)"VSMHEAD0", sizeof(char [8l]) /*8ul*/ );
+      if(!(return_value_memcmp_21 == 0))
       {
         do
         {
 
         __CPROVER_DUMP_L17:
           ;
-          signed int return_value_close$19;
-          return_value_close$19=close(vd->vsm_fd);
-          if(!(return_value_close$19 == 0))
+          signed int return_value_close_19;
+          return_value_close_19=close(vd->vsm_fd);
+          if(!(return_value_close_19 == 0))
           {
-            signed int *return_value___errno_location$18;
-            return_value___errno_location$18=__errno_location();
-            VAS_Fail("VSM_Open", "vsm.c", 255, "(close(vd->vsm_fd)) == 0", *return_value___errno_location$18, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_18;
+            return_value___errno_location_18=__errno_location();
+            VAS_Fail("VSM_Open", "vsm.c", 255, "(close(vd->vsm_fd)) == 0", *return_value___errno_location_18, (enum vas_e)VAS_ASSERT);
           }
 
         }
         while((_Bool)0);
         vd->vsm_fd = -1;
-        signed int return_value_vsm_diag$20;
-        return_value_vsm_diag$20=vsm_diag(vd, "Not a VSM file %s\n", vd->fname);
-        return return_value_vsm_diag$20;
+        signed int return_value_vsm_diag_20;
+        return_value_vsm_diag_20=vsm_diag(vd, "Not a VSM file %s\n", vd->fname);
+        return return_value_vsm_diag_20;
       }
 
       if(vd->N_opt == 0)
@@ -9633,21 +9633,21 @@ __CPROVER_DUMP_L1:
 
           __CPROVER_DUMP_L20:
             ;
-            signed int return_value_close$23;
-            return_value_close$23=close(vd->vsm_fd);
-            if(!(return_value_close$23 == 0))
+            signed int return_value_close_23;
+            return_value_close_23=close(vd->vsm_fd);
+            if(!(return_value_close_23 == 0))
             {
-              signed int *return_value___errno_location$22;
-              return_value___errno_location$22=__errno_location();
-              VAS_Fail("VSM_Open", "vsm.c", 261, "(close(vd->vsm_fd)) == 0", *return_value___errno_location$22, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_22;
+              return_value___errno_location_22=__errno_location();
+              VAS_Fail("VSM_Open", "vsm.c", 261, "(close(vd->vsm_fd)) == 0", *return_value___errno_location_22, (enum vas_e)VAS_ASSERT);
             }
 
           }
           while((_Bool)0);
           vd->vsm_fd = -1;
-          signed int return_value_vsm_diag$24;
-          return_value_vsm_diag$24=vsm_diag(vd, "Abandoned VSM file (Varnish not running?) %s\n", vd->fname);
-          return return_value_vsm_diag$24;
+          signed int return_value_vsm_diag_24;
+          return_value_vsm_diag_24=vsm_diag(vd, "Abandoned VSM file (Varnish not running?) %s\n", vd->fname);
+          return return_value_vsm_diag_24;
         }
 
       }
@@ -9660,25 +9660,25 @@ __CPROVER_DUMP_L1:
 
         __CPROVER_DUMP_L23:
           ;
-          signed int return_value_close$26;
-          return_value_close$26=close(vd->vsm_fd);
-          if(!(return_value_close$26 == 0))
+          signed int return_value_close_26;
+          return_value_close_26=close(vd->vsm_fd);
+          if(!(return_value_close_26 == 0))
           {
-            signed int *return_value___errno_location$25;
-            return_value___errno_location$25=__errno_location();
-            VAS_Fail("VSM_Open", "vsm.c", 271, "(close(vd->vsm_fd)) == 0", *return_value___errno_location$25, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_25;
+            return_value___errno_location_25=__errno_location();
+            VAS_Fail("VSM_Open", "vsm.c", 271, "(close(vd->vsm_fd)) == 0", *return_value___errno_location_25, (enum vas_e)VAS_ASSERT);
           }
 
         }
         while((_Bool)0);
         vd->vsm_fd = -1;
-        signed int *return_value___errno_location$27;
-        return_value___errno_location$27=__errno_location();
-        char *return_value_strerror$28;
-        return_value_strerror$28=strerror(*return_value___errno_location$27);
-        signed int return_value_vsm_diag$29;
-        return_value_vsm_diag$29=vsm_diag(vd, "Cannot mmap %s: %s\n", vd->fname, return_value_strerror$28);
-        return return_value_vsm_diag$29;
+        signed int *return_value___errno_location_27;
+        return_value___errno_location_27=__errno_location();
+        char *return_value_strerror_28;
+        return_value_strerror_28=strerror(*return_value___errno_location_27);
+        signed int return_value_vsm_diag_29;
+        return_value_vsm_diag_29=vsm_diag(vd, "Cannot mmap %s: %s\n", vd->fname, return_value_strerror_28);
+        return return_value_vsm_diag_29;
       }
 
       vd->head = (struct VSM_head *)v;
@@ -9702,17 +9702,17 @@ __CPROVER_DUMP_L1:
   {
     if(vd == ((struct VSM_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSM_ResetError", "vsm.c", 119, "(vd) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSM_ResetError", "vsm.c", 119, "(vd) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vd->magic == 1849415323u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSM_ResetError", "vsm.c", 119, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSM_ResetError", "vsm.c", 119, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -9738,17 +9738,17 @@ __CPROVER_DUMP_L1:
   {
     if(vd == ((struct VSM_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSM_StillValid", "vsm.c", 411, "(vd) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSM_StillValid", "vsm.c", 411, "(vd) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vd->magic == 1849415323u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSM_StillValid", "vsm.c", 411, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSM_StillValid", "vsm.c", 411, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -9760,15 +9760,15 @@ __CPROVER_DUMP_L5:
   do
     if(vf == ((struct VSM_fantom *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("VSM_StillValid", "vsm.c", 412, "(vf) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("VSM_StillValid", "vsm.c", 412, "(vf) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
-  signed int return_value_VSM__itern$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
+  signed int return_value_VSM__itern_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
   if(vd->head == ((struct VSM_head *)NULL))
     return (enum VSM_valid_e)VSM_invalid;
 
@@ -9798,33 +9798,33 @@ __CPROVER_DUMP_L5:
           VSM__iter0(vd, &f2);
           do
           {
-            return_value_VSM__itern$4=VSM__itern(vd, &f2);
-            if(return_value_VSM__itern$4 == 0)
+            return_value_VSM__itern_4=VSM__itern(vd, &f2);
+            if(return_value_VSM__itern_4 == 0)
               break;
 
             if(!(f2.chunk == vf->chunk))
-              tmp_if_expr$5 = (_Bool)1;
+              tmp_if_expr_5 = (_Bool)1;
 
             else
-              tmp_if_expr$5 = f2.b != vf->b ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$5)
-              tmp_if_expr$6 = (_Bool)1;
+              tmp_if_expr_5 = f2.b != vf->b ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_5)
+              tmp_if_expr_6 = (_Bool)1;
 
             else
-              tmp_if_expr$6 = f2.e != vf->e ? (_Bool)1 : (_Bool)0;
-            if(!tmp_if_expr$6)
+              tmp_if_expr_6 = f2.e != vf->e ? (_Bool)1 : (_Bool)0;
+            if(!tmp_if_expr_6)
             {
-              signed int return_value_strcmp$7;
-              return_value_strcmp$7=strcmp(f2.class, vf->class);
-              if(return_value_strcmp$7 == 0)
+              signed int return_value_strcmp_7;
+              return_value_strcmp_7=strcmp(f2.class, vf->class);
+              if(return_value_strcmp_7 == 0)
               {
-                signed int return_value_strcmp$8;
-                return_value_strcmp$8=strcmp(f2.type, vf->type);
-                if(return_value_strcmp$8 == 0)
+                signed int return_value_strcmp_8;
+                return_value_strcmp_8=strcmp(f2.type, vf->type);
+                if(return_value_strcmp_8 == 0)
                 {
-                  signed int return_value_strcmp$9;
-                  return_value_strcmp$9=strcmp(f2.ident, vf->ident);
-                  if(return_value_strcmp$9 == 0)
+                  signed int return_value_strcmp_9;
+                  return_value_strcmp_9=strcmp(f2.ident, vf->ident);
+                  if(return_value_strcmp_9 == 0)
                   {
                     vf->priv = (unsigned long int)vd->head->alloc_seq;
                     return (enum VSM_valid_e)VSM_similar;
@@ -9854,17 +9854,17 @@ __CPROVER_DUMP_L1:
   {
     if(vd == ((struct VSM_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSM__iter0", "vsm.c", 351, "(vd) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSM__iter0", "vsm.c", 351, "(vd) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vd->magic == 1849415323u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSM__iter0", "vsm.c", 351, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSM__iter0", "vsm.c", 351, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -9876,9 +9876,9 @@ __CPROVER_DUMP_L5:
   do
     if(vf == ((struct VSM_fantom *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("VSM__iter0", "vsm.c", 352, "(vf) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("VSM__iter0", "vsm.c", 352, "(vf) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -9897,17 +9897,17 @@ __CPROVER_DUMP_L1:
   {
     if(vd == ((struct VSM_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSM__itern", "vsm.c", 362, "(vd) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSM__itern", "vsm.c", 362, "(vd) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vd->magic == 1849415323u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSM__itern", "vsm.c", 362, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSM__itern", "vsm.c", 362, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -9919,24 +9919,24 @@ __CPROVER_DUMP_L5:
   do
     if(vf == ((struct VSM_fantom *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("VSM__itern", "vsm.c", 363, "(vf) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("VSM__itern", "vsm.c", 363, "(vf) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_6;
   if(vd->head == ((struct VSM_head *)NULL))
     return 0;
 
   else
   {
     if(vd->N_opt == 0)
-      tmp_if_expr$6 = vd->head->alloc_seq == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = vd->head->alloc_seq == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (_Bool)0;
+    if(tmp_if_expr_6)
       return 0;
 
     else
@@ -9959,9 +9959,9 @@ __CPROVER_DUMP_L5:
         do
           if(c == vf->chunk)
           {
-            signed int *return_value___errno_location$4;
-            return_value___errno_location$4=__errno_location();
-            VAS_Fail("VSM__itern", "vsm.c", 378, "c != vf->chunk", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_4;
+            return_value___errno_location_4=__errno_location();
+            VAS_Fail("VSM__itern", "vsm.c", 378, "c != vf->chunk", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
           }
 
         while((_Bool)0);
@@ -9979,9 +9979,9 @@ __CPROVER_DUMP_L5:
           do
             if(!(vf->chunk == ((struct VSM_chunk *)NULL)))
             {
-              signed int *return_value___errno_location$5;
-              return_value___errno_location$5=__errno_location();
-              VAS_Fail("VSM__itern", "vsm.c", 383, "(vf->chunk) == 0", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_5;
+              return_value___errno_location_5=__errno_location();
+              VAS_Fail("VSM__itern", "vsm.c", 383, "(vf->chunk) == 0", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
             }
 
           while((_Bool)0);
@@ -9993,15 +9993,15 @@ __CPROVER_DUMP_L5:
     do
       if(c == ((struct VSM_chunk *)NULL))
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        VAS_Fail("VSM__itern", "vsm.c", 386, "(c) != 0", *return_value___errno_location$7, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        VAS_Fail("VSM__itern", "vsm.c", 386, "(c) != 0", *return_value___errno_location_7, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
-    signed int return_value_memcmp$8;
-    return_value_memcmp$8=memcmp((const void *)c->marker, (const void *)"VSMCHUNK", sizeof(char [8l]) /*8ul*/ );
-    if(!(return_value_memcmp$8 == 0))
+    signed int return_value_memcmp_8;
+    return_value_memcmp_8=memcmp((const void *)c->marker, (const void *)"VSMCHUNK", sizeof(char [8l]) /*8ul*/ );
+    if(!(return_value_memcmp_8 == 0))
       return 0;
 
     else
@@ -10034,42 +10034,42 @@ __CPROVER_DUMP_L1:
   {
     if(vd == ((struct VSM_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VSM_n_Arg", "vsm.c", 135, "(vd) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VSM_n_Arg", "vsm.c", 135, "(vd) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vd->magic == 1849415323u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("VSM_n_Arg", "vsm.c", 135, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("VSM_n_Arg", "vsm.c", 135, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
-  signed int return_value_vsm_diag$3;
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
-  signed int return_value_vsm_diag$6;
+  signed int return_value_vsm_diag_3;
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
+  signed int return_value_vsm_diag_6;
   if(!(vd->head == ((struct VSM_head *)NULL)))
   {
-    return_value_vsm_diag$3=vsm_diag(vd, "VSM_n_Arg: Already open\n");
-    return return_value_vsm_diag$3;
+    return_value_vsm_diag_3=vsm_diag(vd, "VSM_n_Arg: Already open\n");
+    return return_value_vsm_diag_3;
   }
 
   else
   {
-    signed int return_value_VIN_N_Arg$7;
-    return_value_VIN_N_Arg$7=VIN_N_Arg(arg, &name, (char **)(void *)0, &fname);
-    if(!(return_value_VIN_N_Arg$7 == 0))
+    signed int return_value_VIN_N_Arg_7;
+    return_value_VIN_N_Arg_7=VIN_N_Arg(arg, &name, (char **)(void *)0, &fname);
+    if(!(return_value_VIN_N_Arg_7 == 0))
     {
-      return_value___errno_location$4=__errno_location();
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      return_value_vsm_diag$6=vsm_diag(vd, "Invalid instance name: %s\n", return_value_strerror$5);
-      return return_value_vsm_diag$6;
+      return_value___errno_location_4=__errno_location();
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      return_value_vsm_diag_6=vsm_diag(vd, "Invalid instance name: %s\n", return_value_strerror_5);
+      return return_value_vsm_diag_6;
     }
 
     else
@@ -10080,9 +10080,9 @@ __CPROVER_DUMP_L1:
       do
         if(name == ((char *)NULL))
         {
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          VAS_Fail("VSM_n_Arg", "vsm.c", 142, "(name) != 0", *return_value___errno_location$8, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          VAS_Fail("VSM_n_Arg", "vsm.c", 142, "(name) != 0", *return_value___errno_location_8, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -10092,9 +10092,9 @@ __CPROVER_DUMP_L1:
       do
         if(fname == ((char *)NULL))
         {
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          VAS_Fail("VSM_n_Arg", "vsm.c", 143, "(fname) != 0", *return_value___errno_location$9, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          VAS_Fail("VSM_n_Arg", "vsm.c", 143, "(fname) != 0", *return_value___errno_location_9, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -10124,13 +10124,13 @@ void VTIM_format(double t, char *p)
 
   __CPROVER_DUMP_L1:
     ;
-    unsigned long int return_value_strftime$2;
-    return_value_strftime$2=strftime(p, (unsigned long int)30, "%a, %d %b %Y %T GMT", &tm);
-    if(return_value_strftime$2 == 0ul)
+    unsigned long int return_value_strftime_2;
+    return_value_strftime_2=strftime(p, (unsigned long int)30, "%a, %d %b %Y %T GMT", &tm);
+    if(return_value_strftime_2 == 0ul)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VTIM_format", "../../lib/libvarnish/vtim.c", 110, "(strftime(p, 30, \"%a, %d %b %Y %T GMT\", &tm)) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VTIM_format", "../../lib/libvarnish/vtim.c", 110, "(strftime(p, 30, \"%a, %d %b %Y %T GMT\", &tm)) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   }
@@ -10147,13 +10147,13 @@ double VTIM_mono(void)
 
   __CPROVER_DUMP_L1:
     ;
-    signed int return_value_clock_gettime$2;
-    return_value_clock_gettime$2=clock_gettime(1, &ts);
-    if(!(return_value_clock_gettime$2 == 0))
+    signed int return_value_clock_gettime_2;
+    return_value_clock_gettime_2=clock_gettime(1, &ts);
+    if(!(return_value_clock_gettime_2 == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VTIM_mono", "../../lib/libvarnish/vtim.c", 76, "(clock_gettime(1, &ts)) == 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VTIM_mono", "../../lib/libvarnish/vtim.c", 76, "(clock_gettime(1, &ts)) == 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   }
@@ -10171,14 +10171,14 @@ double VTIM_parse(const char *p)
   for( ; !(*r == ((const char *)NULL)); r = r + 1l)
   {
     memset((void *)&tm, 0, sizeof(struct tm) /*56ul*/ );
-    char *return_value_strptime$2;
-    return_value_strptime$2=strptime(p, *r, &tm);
-    if(!(return_value_strptime$2 == ((char *)NULL)))
+    char *return_value_strptime_2;
+    return_value_strptime_2=strptime(p, *r, &tm);
+    if(!(return_value_strptime_2 == ((char *)NULL)))
     {
       tm.tm_isdst = -1;
-      signed long int return_value_timegm$1;
-      return_value_timegm$1=timegm(&tm);
-      t = (double)return_value_timegm$1;
+      signed long int return_value_timegm_1;
+      return_value_timegm_1=timegm(&tm);
+      t = (double)return_value_timegm_1;
       return t;
     }
 
@@ -10196,13 +10196,13 @@ double VTIM_real(void)
 
   __CPROVER_DUMP_L1:
     ;
-    signed int return_value_clock_gettime$2;
-    return_value_clock_gettime$2=clock_gettime(0, &ts);
-    if(!(return_value_clock_gettime$2 == 0))
+    signed int return_value_clock_gettime_2;
+    return_value_clock_gettime_2=clock_gettime(0, &ts);
+    if(!(return_value_clock_gettime_2 == 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VTIM_real", "../../lib/libvarnish/vtim.c", 92, "(clock_gettime(0, &ts)) == 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VTIM_real", "../../lib/libvarnish/vtim.c", 92, "(clock_gettime(0, &ts)) == 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   }
@@ -10224,9 +10224,9 @@ void VTIM_sleep(double t)
 struct timespec VTIM_timespec(double t)
 {
   struct timespec tv;
-  double return_value_trunc$1;
-  return_value_trunc$1=trunc(t);
-  tv.tv_sec = (signed long int)return_value_trunc$1;
+  double return_value_trunc_1;
+  return_value_trunc_1=trunc(t);
+  tv.tv_sec = (signed long int)return_value_trunc_1;
   tv.tv_nsec = (signed long int)(signed int)(1e9 * (t - (double)tv.tv_sec));
   return tv;
 }
@@ -10236,9 +10236,9 @@ struct timespec VTIM_timespec(double t)
 struct timeval VTIM_timeval(double t)
 {
   struct timeval tv;
-  double return_value_trunc$1;
-  return_value_trunc$1=trunc(t);
-  tv.tv_sec = (signed long int)return_value_trunc$1;
+  double return_value_trunc_1;
+  return_value_trunc_1=trunc(t);
+  tv.tv_sec = (signed long int)return_value_trunc_1;
   tv.tv_usec = (signed long int)(signed int)(1e6 * (t - (double)tv.tv_sec));
   return tv;
 }
@@ -10249,13 +10249,13 @@ signed int VUT_Arg(signed int opt, const char *arg)
 {
   signed int i;
   char *p;
-  signed int return_value_VUT_g_Arg$1;
-  signed long int return_value_strtol$2;
-  signed int return_value_VSM_n_Arg$5;
-  const char *return_value_VSM_Error$4;
-  signed int return_value_VSM_N_Arg$8;
-  const char *return_value_VSM_Error$7;
-  const char *return_value_VSL_Error$13;
+  signed int return_value_VUT_g_Arg_1;
+  signed long int return_value_strtol_2;
+  signed int return_value_VSM_n_Arg_5;
+  const char *return_value_VSM_Error_4;
+  signed int return_value_VSM_N_Arg_8;
+  const char *return_value_VSM_Error_7;
+  const char *return_value_VSL_Error_13;
   switch(opt)
   {
     case 100:
@@ -10270,13 +10270,13 @@ signed int VUT_Arg(signed int opt, const char *arg)
     }
     case 103:
     {
-      return_value_VUT_g_Arg$1=VUT_g_Arg(arg);
-      return return_value_VUT_g_Arg$1;
+      return_value_VUT_g_Arg_1=VUT_g_Arg(arg);
+      return return_value_VUT_g_Arg_1;
     }
     case 107:
     {
-      return_value_strtol$2=strtol(arg, &p, 10);
-      VUT.k_arg = (signed int)return_value_strtol$2;
+      return_value_strtol_2=strtol(arg, &p, 10);
+      VUT.k_arg = (signed int)return_value_strtol_2;
       if(!((signed int)*p == 0) || !(VUT.k_arg >= 1))
         VUT_Error(1, "-k: Invalid number '%s'", arg);
 
@@ -10293,17 +10293,17 @@ signed int VUT_Arg(signed int opt, const char *arg)
       do
         if(VUT.vsm == ((struct VSM_data *)NULL))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          VAS_Fail("VUT_Arg", "../../lib/libvarnishtools/vut.c", 159, "(VUT.vsm) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          VAS_Fail("VUT_Arg", "../../lib/libvarnishtools/vut.c", 159, "(VUT.vsm) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
-      return_value_VSM_n_Arg$5=VSM_n_Arg(VUT.vsm, arg);
-      if(!(return_value_VSM_n_Arg$5 >= 1))
+      return_value_VSM_n_Arg_5=VSM_n_Arg(VUT.vsm, arg);
+      if(!(return_value_VSM_n_Arg_5 >= 1))
       {
-        return_value_VSM_Error$4=VSM_Error(VUT.vsm);
-        VUT_Error(1, "%s", return_value_VSM_Error$4);
+        return_value_VSM_Error_4=VSM_Error(VUT.vsm);
+        VUT_Error(1, "%s", return_value_VSM_Error_4);
       }
 
       return 1;
@@ -10319,17 +10319,17 @@ signed int VUT_Arg(signed int opt, const char *arg)
       do
         if(VUT.vsm == ((struct VSM_data *)NULL))
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          VAS_Fail("VUT_Arg", "../../lib/libvarnishtools/vut.c", 167, "(VUT.vsm) != 0", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          VAS_Fail("VUT_Arg", "../../lib/libvarnishtools/vut.c", 167, "(VUT.vsm) != 0", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
-      return_value_VSM_N_Arg$8=VSM_N_Arg(VUT.vsm, arg);
-      if(!(return_value_VSM_N_Arg$8 >= 1))
+      return_value_VSM_N_Arg_8=VSM_N_Arg(VUT.vsm, arg);
+      if(!(return_value_VSM_N_Arg_8 >= 1))
       {
-        return_value_VSM_Error$7=VSM_Error(VUT.vsm);
-        VUT_Error(1, "%s", return_value_VSM_Error$7);
+        return_value_VSM_Error_7=VSM_Error(VUT.vsm);
+        VUT_Error(1, "%s", return_value_VSM_Error_7);
       }
 
       VUT.d_opt = 1;
@@ -10351,9 +10351,9 @@ signed int VUT_Arg(signed int opt, const char *arg)
           do
             if(VUT.P_arg == ((char *)NULL))
             {
-              signed int *return_value___errno_location$9;
-              return_value___errno_location$9=__errno_location();
-              VAS_Fail("VUT_Arg", "../../lib/libvarnishtools/vut.c", 174, "((VUT.P_arg)) != 0", *return_value___errno_location$9, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_9;
+              return_value___errno_location_9=__errno_location();
+              VAS_Fail("VUT_Arg", "../../lib/libvarnishtools/vut.c", 174, "((VUT.P_arg)) != 0", *return_value___errno_location_9, (enum vas_e)VAS_ASSERT);
             }
 
           while((_Bool)0);
@@ -10381,9 +10381,9 @@ signed int VUT_Arg(signed int opt, const char *arg)
           do
             if(VUT.q_arg == ((char *)NULL))
             {
-              signed int *return_value___errno_location$10;
-              return_value___errno_location$10=__errno_location();
-              VAS_Fail("VUT_Arg", "../../lib/libvarnishtools/vut.c", 178, "((VUT.q_arg)) != 0", *return_value___errno_location$10, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_10;
+              return_value___errno_location_10=__errno_location();
+              VAS_Fail("VUT_Arg", "../../lib/libvarnishtools/vut.c", 178, "((VUT.q_arg)) != 0", *return_value___errno_location_10, (enum vas_e)VAS_ASSERT);
             }
 
           while((_Bool)0);
@@ -10411,9 +10411,9 @@ signed int VUT_Arg(signed int opt, const char *arg)
           do
             if(VUT.r_arg == ((char *)NULL))
             {
-              signed int *return_value___errno_location$11;
-              return_value___errno_location$11=__errno_location();
-              VAS_Fail("VUT_Arg", "../../lib/libvarnishtools/vut.c", 182, "((VUT.r_arg)) != 0", *return_value___errno_location$11, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_11;
+              return_value___errno_location_11=__errno_location();
+              VAS_Fail("VUT_Arg", "../../lib/libvarnishtools/vut.c", 182, "((VUT.r_arg)) != 0", *return_value___errno_location_11, (enum vas_e)VAS_ASSERT);
             }
 
           while((_Bool)0);
@@ -10438,17 +10438,17 @@ signed int VUT_Arg(signed int opt, const char *arg)
       do
         if(VUT.vsl == ((struct VSL_data *)NULL))
         {
-          signed int *return_value___errno_location$12;
-          return_value___errno_location$12=__errno_location();
-          VAS_Fail("VUT_Arg", "../../lib/libvarnishtools/vut.c", 189, "(VUT.vsl) != 0", *return_value___errno_location$12, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_12;
+          return_value___errno_location_12=__errno_location();
+          VAS_Fail("VUT_Arg", "../../lib/libvarnishtools/vut.c", 189, "(VUT.vsl) != 0", *return_value___errno_location_12, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
       i=VSL_Arg(VUT.vsl, opt, arg);
       if(!(i >= 0))
       {
-        return_value_VSL_Error$13=VSL_Error(VUT.vsl);
-        VUT_Error(1, "%s", return_value_VSL_Error$13);
+        return_value_VSL_Error_13=VSL_Error(VUT.vsl);
+        VUT_Error(1, "%s", return_value_VSL_Error_13);
       }
 
       return i;
@@ -10467,9 +10467,9 @@ __CPROVER_DUMP_L1:
   do
     if(fmt == ((const char *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VUT_Error", "../../lib/libvarnishtools/vut.c", 109, "(fmt) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VUT_Error", "../../lib/libvarnishtools/vut.c", 109, "(fmt) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -10496,9 +10496,9 @@ __CPROVER_DUMP_L1:
   do
     if(!(VUT.pfh == ((struct vpf_fh *)NULL)))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VUT_Fini", "../../lib/libvarnishtools/vut.c", 277, "(VUT.pfh) == 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VUT_Fini", "../../lib/libvarnishtools/vut.c", 277, "(VUT.pfh) == 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -10531,9 +10531,9 @@ void VUT_Init(const char *progname)
     do
       if(VUT.name == ((char *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("VUT_Init", "../../lib/libvarnishtools/vut.c", 201, "((VUT.name)) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("VUT_Init", "../../lib/libvarnishtools/vut.c", 201, "((VUT.name)) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -10546,9 +10546,9 @@ __CPROVER_DUMP_L7:
   do
     if(!(VUT.vsl == ((struct VSL_data *)NULL)))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("VUT_Init", "../../lib/libvarnishtools/vut.c", 203, "(VUT.vsl) == 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("VUT_Init", "../../lib/libvarnishtools/vut.c", 203, "(VUT.vsl) == 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -10559,9 +10559,9 @@ __CPROVER_DUMP_L9:
   do
     if(VUT.vsl == ((struct VSL_data *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("VUT_Init", "../../lib/libvarnishtools/vut.c", 205, "(VUT.vsl) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("VUT_Init", "../../lib/libvarnishtools/vut.c", 205, "(VUT.vsl) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -10580,9 +10580,9 @@ __CPROVER_DUMP_L1:
   do
     if(VUT.vslq == ((struct VSLQ *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VUT_Main", "../../lib/libvarnishtools/vut.c", 295, "(VUT.vslq) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VUT_Main", "../../lib/libvarnishtools/vut.c", 295, "(VUT.vslq) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -10613,9 +10613,9 @@ __CPROVER_DUMP_L1:
       do
         if(!(VUT.r_arg == ((char *)NULL)))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          VAS_Fail("VUT_Main", "../../lib/libvarnishtools/vut.c", 315, "(VUT.r_arg) == 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          VAS_Fail("VUT_Main", "../../lib/libvarnishtools/vut.c", 315, "(VUT.r_arg) == 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -10625,16 +10625,16 @@ __CPROVER_DUMP_L1:
       do
         if(VUT.vsm == ((struct VSM_data *)NULL))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          VAS_Fail("VUT_Main", "../../lib/libvarnishtools/vut.c", 316, "(VUT.vsm) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          VAS_Fail("VUT_Main", "../../lib/libvarnishtools/vut.c", 316, "(VUT.vsm) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
       VTIM_sleep(0.1);
-      signed int return_value_VSM_Open$4;
-      return_value_VSM_Open$4=VSM_Open(VUT.vsm);
-      if(!(return_value_VSM_Open$4 == 0))
+      signed int return_value_VSM_Open_4;
+      return_value_VSM_Open_4=VSM_Open(VUT.vsm);
+      if(!(return_value_VSM_Open_4 == 0))
       {
         VSM_ResetError(VUT.vsm);
         continue;
@@ -10655,9 +10655,9 @@ __CPROVER_DUMP_L1:
       do
         if(VUT.vslq == ((struct VSLQ *)NULL))
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          VAS_Fail("VUT_Main", "../../lib/libvarnishtools/vut.c", 330, "(VUT.vslq) != 0", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          VAS_Fail("VUT_Main", "../../lib/libvarnishtools/vut.c", 330, "(VUT.vslq) != 0", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -10667,9 +10667,9 @@ __CPROVER_DUMP_L1:
       do
         if(!(c == ((struct VSL_cursor *)NULL)))
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          VAS_Fail("VUT_Main", "../../lib/libvarnishtools/vut.c", 331, "(c) == 0", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          VAS_Fail("VUT_Main", "../../lib/libvarnishtools/vut.c", 331, "(c) == 0", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -10710,9 +10710,9 @@ __CPROVER_DUMP_L1:
     do
       if(!(VUT.vslq == ((struct VSLQ *)NULL)))
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        VAS_Fail("VUT_Main", "../../lib/libvarnishtools/vut.c", 360, "(VUT.vslq) == 0", *return_value___errno_location$7, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        VAS_Fail("VUT_Main", "../../lib/libvarnishtools/vut.c", 360, "(VUT.vslq) == 0", *return_value___errno_location_7, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -10741,16 +10741,16 @@ __CPROVER_DUMP_L1:
   do
     if(VUT.vsl == ((struct VSL_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("VUT_Setup", "../../lib/libvarnishtools/vut.c", 214, "(VUT.vsl) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("VUT_Setup", "../../lib/libvarnishtools/vut.c", 214, "(VUT.vsl) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   if(!(VUT.r_arg == ((char *)NULL)) && !(VUT.vsm == ((struct VSM_data *)NULL)))
     VUT_Error(1, "Can't have both -n and -r options");
 
-  const char *return_value_VSM_Error$4;
+  const char *return_value_VSM_Error_4;
   if(!(VUT.r_arg == ((char *)NULL)))
   {
     do
@@ -10767,9 +10767,9 @@ __CPROVER_DUMP_L1:
         do
           if(VUT.name == ((char *)NULL))
           {
-            signed int *return_value___errno_location$2;
-            return_value___errno_location$2=__errno_location();
-            VAS_Fail("VUT_Setup", "../../lib/libvarnishtools/vut.c", 220, "((VUT.name)) != 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_2;
+            return_value___errno_location_2=__errno_location();
+            VAS_Fail("VUT_Setup", "../../lib/libvarnishtools/vut.c", 220, "((VUT.name)) != 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
           }
 
         while((_Bool)0);
@@ -10793,18 +10793,18 @@ __CPROVER_DUMP_L1:
     do
       if(VUT.vsm == ((struct VSM_data *)NULL))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        VAS_Fail("VUT_Setup", "../../lib/libvarnishtools/vut.c", 226, "(VUT.vsm) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        VAS_Fail("VUT_Setup", "../../lib/libvarnishtools/vut.c", 226, "(VUT.vsm) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
-    signed int return_value_VSM_Open$5;
-    return_value_VSM_Open$5=VSM_Open(VUT.vsm);
-    if(!(return_value_VSM_Open$5 == 0))
+    signed int return_value_VSM_Open_5;
+    return_value_VSM_Open_5=VSM_Open(VUT.vsm);
+    if(!(return_value_VSM_Open_5 == 0))
     {
-      return_value_VSM_Error$4=VSM_Error(VUT.vsm);
-      VUT_Error(1, "Can't open VSM file (%s)", return_value_VSM_Error$4);
+      return_value_VSM_Error_4=VSM_Error(VUT.vsm);
+      VUT_Error(1, "Can't open VSM file (%s)", return_value_VSM_Error_4);
     }
 
     do
@@ -10812,22 +10812,22 @@ __CPROVER_DUMP_L1:
       if(!(VUT.name == ((char *)NULL)))
         free((void *)VUT.name);
 
-      const char *return_value_VSM_Name$8;
-      return_value_VSM_Name$8=VSM_Name(VUT.vsm);
-      if(!(return_value_VSM_Name$8 == ((const char *)NULL)))
+      const char *return_value_VSM_Name_8;
+      return_value_VSM_Name_8=VSM_Name(VUT.vsm);
+      if(!(return_value_VSM_Name_8 == ((const char *)NULL)))
       {
-        const char *return_value_VSM_Name$6;
-        return_value_VSM_Name$6=VSM_Name(VUT.vsm);
-        VUT.name=strdup(return_value_VSM_Name$6);
+        const char *return_value_VSM_Name_6;
+        return_value_VSM_Name_6=VSM_Name(VUT.vsm);
+        VUT.name=strdup(return_value_VSM_Name_6);
 
       __CPROVER_DUMP_L15:
         ;
         do
           if(VUT.name == ((char *)NULL))
           {
-            signed int *return_value___errno_location$7;
-            return_value___errno_location$7=__errno_location();
-            VAS_Fail("VUT_Setup", "../../lib/libvarnishtools/vut.c", 230, "((VUT.name)) != 0", *return_value___errno_location$7, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_7;
+            return_value___errno_location_7=__errno_location();
+            VAS_Fail("VUT_Setup", "../../lib/libvarnishtools/vut.c", 230, "((VUT.name)) != 0", *return_value___errno_location_7, (enum vas_e)VAS_ASSERT);
           }
 
         while((_Bool)0);
@@ -10839,19 +10839,19 @@ __CPROVER_DUMP_L1:
     while((_Bool)0);
     c=VSL_CursorVSM(VUT.vsl, VUT.vsm, (unsigned int)((VUT.d_opt != 0 ? 1 << 2 : 1 << 0) | 1 << 1));
   }
-  const char *return_value_VSL_Error$9;
+  const char *return_value_VSL_Error_9;
   if(c == ((struct VSL_cursor *)NULL))
   {
-    return_value_VSL_Error$9=VSL_Error(VUT.vsl);
-    VUT_Error(1, "Can't open log (%s)", return_value_VSL_Error$9);
+    return_value_VSL_Error_9=VSL_Error(VUT.vsl);
+    VUT_Error(1, "Can't open log (%s)", return_value_VSL_Error_9);
   }
 
   VUT.vslq=VSLQ_New(VUT.vsl, &c, (enum VSL_grouping_e)VUT.g_arg, VUT.q_arg);
-  const char *return_value_VSL_Error$10;
+  const char *return_value_VSL_Error_10;
   if(VUT.vslq == ((struct VSLQ *)NULL))
   {
-    return_value_VSL_Error$10=VSL_Error(VUT.vsl);
-    VUT_Error(1, "Query expression error:\n%s", return_value_VSL_Error$10);
+    return_value_VSL_Error_10=VSL_Error(VUT.vsl);
+    VUT_Error(1, "Query expression error:\n%s", return_value_VSL_Error_10);
   }
 
 
@@ -10860,9 +10860,9 @@ __CPROVER_DUMP_L21:
   do
     if(!(c == ((struct VSL_cursor *)NULL)))
     {
-      signed int *return_value___errno_location$11;
-      return_value___errno_location$11=__errno_location();
-      VAS_Fail("VUT_Setup", "../../lib/libvarnishtools/vut.c", 242, "(c) == 0", *return_value___errno_location$11, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_11;
+      return_value___errno_location_11=__errno_location();
+      VAS_Fail("VUT_Setup", "../../lib/libvarnishtools/vut.c", 242, "(c) == 0", *return_value___errno_location_11, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -10870,8 +10870,8 @@ __CPROVER_DUMP_L21:
   signal(2, vut_sigint);
   signal(15, vut_sigint);
   signal(10, vut_sigusr1);
-  signed int *return_value___errno_location$13;
-  char *return_value_strerror$14;
+  signed int *return_value___errno_location_13;
+  char *return_value_strerror_14;
   if(!(VUT.P_arg == ((char *)NULL)))
   {
 
@@ -10880,33 +10880,33 @@ __CPROVER_DUMP_L21:
     do
       if(!(VUT.pfh == ((struct vpf_fh *)NULL)))
       {
-        signed int *return_value___errno_location$12;
-        return_value___errno_location$12=__errno_location();
-        VAS_Fail("VUT_Setup", "../../lib/libvarnishtools/vut.c", 252, "(VUT.pfh) == 0", *return_value___errno_location$12, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_12;
+        return_value___errno_location_12=__errno_location();
+        VAS_Fail("VUT_Setup", "../../lib/libvarnishtools/vut.c", 252, "(VUT.pfh) == 0", *return_value___errno_location_12, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
     VUT.pfh=VPF_Open(VUT.P_arg, (unsigned int)0644, (signed int *)(void *)0);
     if(VUT.pfh == ((struct vpf_fh *)NULL))
     {
-      return_value___errno_location$13=__errno_location();
-      return_value_strerror$14=strerror(*return_value___errno_location$13);
-      VUT_Error(1, "%s: %s", VUT.P_arg, return_value_strerror$14);
+      return_value___errno_location_13=__errno_location();
+      return_value_strerror_14=strerror(*return_value___errno_location_13);
+      VUT_Error(1, "%s: %s", VUT.P_arg, return_value_strerror_14);
     }
 
   }
 
-  signed int return_value_daemon$17;
-  signed int *return_value___errno_location$15;
-  char *return_value_strerror$16;
+  signed int return_value_daemon_17;
+  signed int *return_value___errno_location_15;
+  char *return_value_strerror_16;
   if(!(VUT.D_opt == 0))
   {
-    return_value_daemon$17=daemon(0, 0);
-    if(return_value_daemon$17 == -1)
+    return_value_daemon_17=daemon(0, 0);
+    if(return_value_daemon_17 == -1)
     {
-      return_value___errno_location$15=__errno_location();
-      return_value_strerror$16=strerror(*return_value___errno_location$15);
-      VUT_Error(1, "Daemon mode: %s", return_value_strerror$16);
+      return_value___errno_location_15=__errno_location();
+      return_value_strerror_16=strerror(*return_value___errno_location_15);
+      VUT_Error(1, "Daemon mode: %s", return_value_strerror_16);
     }
 
   }
@@ -10919,13 +10919,13 @@ __CPROVER_DUMP_L21:
 
     __CPROVER_DUMP_L28:
       ;
-      signed int return_value_atexit$19;
-      return_value_atexit$19=atexit(vut_vpf_remove);
-      if(!(return_value_atexit$19 == 0))
+      signed int return_value_atexit_19;
+      return_value_atexit_19=atexit(vut_vpf_remove);
+      if(!(return_value_atexit_19 == 0))
       {
-        signed int *return_value___errno_location$18;
-        return_value___errno_location$18=__errno_location();
-        VAS_Fail("VUT_Setup", "../../lib/libvarnishtools/vut.c", 265, "(atexit(vut_vpf_remove)) == 0", *return_value___errno_location$18, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_18;
+        return_value___errno_location_18=__errno_location();
+        VAS_Fail("VUT_Setup", "../../lib/libvarnishtools/vut.c", 265, "(atexit(vut_vpf_remove)) == 0", *return_value___errno_location_18, (enum vas_e)VAS_ASSERT);
       }
 
     }
@@ -10957,30 +10957,30 @@ static signed int _VPF_Remove(struct vpf_fh *pfh, signed int freeit)
   error=vpf_verify(pfh);
   if(!(error == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = error;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = error;
     return -1;
   }
 
-  signed int return_value_unlink$3;
-  return_value_unlink$3=unlink(pfh->pf_path);
-  signed int *return_value___errno_location$2;
-  if(return_value_unlink$3 == -1)
+  signed int return_value_unlink_3;
+  return_value_unlink_3=unlink(pfh->pf_path);
+  signed int *return_value___errno_location_2;
+  if(return_value_unlink_3 == -1)
   {
-    return_value___errno_location$2=__errno_location();
-    error = *return_value___errno_location$2;
+    return_value___errno_location_2=__errno_location();
+    error = *return_value___errno_location_2;
   }
 
-  signed int return_value_close$5;
-  return_value_close$5=close(pfh->pf_fd);
-  signed int *return_value___errno_location$4;
-  if(return_value_close$5 == -1)
+  signed int return_value_close_5;
+  return_value_close_5=close(pfh->pf_fd);
+  signed int *return_value___errno_location_4;
+  if(return_value_close_5 == -1)
   {
     if(error == 0)
     {
-      return_value___errno_location$4=__errno_location();
-      error = *return_value___errno_location$4;
+      return_value___errno_location_4=__errno_location();
+      error = *return_value___errno_location_4;
     }
 
   }
@@ -10992,9 +10992,9 @@ static signed int _VPF_Remove(struct vpf_fh *pfh, signed int freeit)
     pfh->pf_fd = -1;
   if(!(error == 0))
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    *return_value___errno_location$6 = error;
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    *return_value___errno_location_6 = error;
     return -1;
   }
 
@@ -11010,80 +11010,80 @@ static void _assert_VSB_integrity(const char *fun, struct vsb *s)
   do
     if(s == ((struct vsb *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("_assert_VSB_integrity", "../../lib/libvarnish/vsb.c", 85, "s != ((void *)0)", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("_assert_VSB_integrity", "../../lib/libvarnish/vsb.c", 85, "s != ((void *)0)", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   do
     if(!(s->magic == 1250090378u))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("_assert_VSB_integrity", "../../lib/libvarnish/vsb.c", 87, "s->magic == 0x4a82dd8a", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("_assert_VSB_integrity", "../../lib/libvarnish/vsb.c", 87, "s->magic == 0x4a82dd8a", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   do
     if(s->s_buf == ((char *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("_assert_VSB_integrity", "../../lib/libvarnish/vsb.c", 89, "s->s_buf != ((void *)0)", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("_assert_VSB_integrity", "../../lib/libvarnish/vsb.c", 89, "s->s_buf != ((void *)0)", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   do
     if(s->s_len >= s->s_size)
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      VAS_Fail("_assert_VSB_integrity", "../../lib/libvarnish/vsb.c", 91, "s->s_len < s->s_size", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      VAS_Fail("_assert_VSB_integrity", "../../lib/libvarnish/vsb.c", 91, "s->s_len < s->s_size", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
 }
 
-// _assert_VSB_integrity$link1
+// _assert_VSB_integrity_link1
 // file ../libvarnish/vsb.c line 79
-static void _assert_VSB_integrity$link1(const char *fun$link1, struct vsb *s$link1)
+static void _assert_VSB_integrity_link1(const char *fun_link1, struct vsb *s_link1)
 {
-  (void)fun$link1;
-  (void)s$link1;
+  (void)fun_link1;
+  (void)s_link1;
   do
-    if(s$link1 == ((struct vsb *)NULL))
+    if(s_link1 == ((struct vsb *)NULL))
     {
-      signed int *return_value___errno_location$1$link1;
-      return_value___errno_location$1$link1=__errno_location();
-      VAS_Fail("_assert_VSB_integrity", "../libvarnish/vsb.c", 85, "s != ((void *)0)", *return_value___errno_location$1$link1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1_link1;
+      return_value___errno_location_1_link1=__errno_location();
+      VAS_Fail("_assert_VSB_integrity", "../libvarnish/vsb.c", 85, "s != ((void *)0)", *return_value___errno_location_1_link1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   do
-    if(!(s$link1->magic == 1250090378u))
+    if(!(s_link1->magic == 1250090378u))
     {
-      signed int *return_value___errno_location$2$link1;
-      return_value___errno_location$2$link1=__errno_location();
-      VAS_Fail("_assert_VSB_integrity", "../libvarnish/vsb.c", 87, "s->magic == 0x4a82dd8a", *return_value___errno_location$2$link1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2_link1;
+      return_value___errno_location_2_link1=__errno_location();
+      VAS_Fail("_assert_VSB_integrity", "../libvarnish/vsb.c", 87, "s->magic == 0x4a82dd8a", *return_value___errno_location_2_link1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   do
-    if(s$link1->s_buf == ((char *)NULL))
+    if(s_link1->s_buf == ((char *)NULL))
     {
-      signed int *return_value___errno_location$3$link1;
-      return_value___errno_location$3$link1=__errno_location();
-      VAS_Fail("_assert_VSB_integrity", "../libvarnish/vsb.c", 89, "s->s_buf != ((void *)0)", *return_value___errno_location$3$link1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3_link1;
+      return_value___errno_location_3_link1=__errno_location();
+      VAS_Fail("_assert_VSB_integrity", "../libvarnish/vsb.c", 89, "s->s_buf != ((void *)0)", *return_value___errno_location_3_link1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   do
-    if(s$link1->s_len >= s$link1->s_size)
+    if(s_link1->s_len >= s_link1->s_size)
     {
-      signed int *return_value___errno_location$4$link1;
-      return_value___errno_location$4$link1=__errno_location();
-      VAS_Fail("_assert_VSB_integrity", "../libvarnish/vsb.c", 91, "s->s_len < s->s_size", *return_value___errno_location$4$link1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_4_link1;
+      return_value___errno_location_4_link1=__errno_location();
+      VAS_Fail("_assert_VSB_integrity", "../libvarnish/vsb.c", 91, "s->s_len < s->s_size", *return_value___errno_location_4_link1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -11099,27 +11099,27 @@ static void _assert_VSB_state(const char *fun, struct vsb *s, signed int state)
   do
     if(!((0x00020000 & s->s_flags) == state))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("_assert_VSB_state", "../../lib/libvarnish/vsb.c", 103, "(s->s_flags & 0x00020000) == state", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("_assert_VSB_state", "../../lib/libvarnish/vsb.c", 103, "(s->s_flags & 0x00020000) == state", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
 }
 
-// _assert_VSB_state$link1
+// _assert_VSB_state_link1
 // file ../libvarnish/vsb.c line 95
-static void _assert_VSB_state$link1(const char *fun$link1, struct vsb *s$link1, signed int state$link1)
+static void _assert_VSB_state_link1(const char *fun_link1, struct vsb *s_link1, signed int state_link1)
 {
-  (void)fun$link1;
-  (void)s$link1;
-  (void)state$link1;
+  (void)fun_link1;
+  (void)s_link1;
+  (void)state_link1;
   do
-    if(!((0x00020000 & s$link1->s_flags) == state$link1))
+    if(!((0x00020000 & s_link1->s_flags) == state_link1))
     {
-      signed int *return_value___errno_location$1$link1;
-      return_value___errno_location$1$link1=__errno_location();
-      VAS_Fail("_assert_VSB_state", "../libvarnish/vsb.c", 103, "(s->s_flags & 0x00020000) == state", *return_value___errno_location$1$link1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1_link1;
+      return_value___errno_location_1_link1=__errno_location();
+      VAS_Fail("_assert_VSB_state", "../libvarnish/vsb.c", 103, "(s->s_flags & 0x00020000) == state", *return_value___errno_location_1_link1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -11140,20 +11140,20 @@ static signed int accumulate(struct VSL_data *vsl, struct VSL_transaction * cons
   struct VSL_transaction *tr;
   (void)priv;
   tr = pt[(signed long int)0];
-  signed int return_value_VSL_Next$1;
-  _Bool tmp_if_expr$4;
-  const unsigned short int **return_value___ctype_b_loc$3;
+  signed int return_value_VSL_Next_1;
+  _Bool tmp_if_expr_4;
+  const unsigned short int **return_value___ctype_b_loc_3;
   for( ; !(tr == ((struct VSL_transaction *)NULL)); tr = *pt)
   {
     do
     {
-      return_value_VSL_Next$1=VSL_Next(tr->c);
-      if(!(return_value_VSL_Next$1 == 1))
+      return_value_VSL_Next_1=VSL_Next(tr->c);
+      if(!(return_value_VSL_Next_1 == 1))
         break;
 
-      signed int return_value_VSL_Match$2;
-      return_value_VSL_Match$2=VSL_Match(vsl, tr->c);
-      if(!(return_value_VSL_Match$2 == 0))
+      signed int return_value_VSL_Match_2;
+      return_value_VSL_Match_2=VSL_Match(vsl, tr->c);
+      if(!(return_value_VSL_Match_2 == 0))
       {
         tag = tr->c->rec.ptr[(signed long int)0] >> 24;
         b = (const char *)(tr->c->rec.ptr + (signed long int)2);
@@ -11168,14 +11168,14 @@ static signed int accumulate(struct VSL_data *vsl, struct VSL_transaction * cons
           if(!(f_flag == 0))
           {
             if((signed int)*p == 58)
-              tmp_if_expr$4 = (_Bool)1;
+              tmp_if_expr_4 = (_Bool)1;
 
             else
             {
-              return_value___ctype_b_loc$3=__ctype_b_loc();
-              tmp_if_expr$4 = ((signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*p] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+              return_value___ctype_b_loc_3=__ctype_b_loc();
+              tmp_if_expr_4 = ((signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*p] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$4)
+            if(tmp_if_expr_4)
               break;
 
           }
@@ -11194,13 +11194,13 @@ static signed int accumulate(struct VSL_data *vsl, struct VSL_transaction * cons
 
           __CPROVER_DUMP_L8:
             ;
-            signed int return_value_pthread_mutex_lock$6;
-            return_value_pthread_mutex_lock$6=pthread_mutex_lock(&mtx);
-            if(!(return_value_pthread_mutex_lock$6 == 0))
+            signed int return_value_pthread_mutex_lock_6;
+            return_value_pthread_mutex_lock_6=pthread_mutex_lock(&mtx);
+            if(!(return_value_pthread_mutex_lock_6 == 0))
             {
-              signed int *return_value___errno_location$5;
-              return_value___errno_location$5=__errno_location();
-              VAS_Fail("accumulate", "varnishtop.c", 153, "(pthread_mutex_lock(&mtx)) == 0", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_5;
+              return_value___errno_location_5=__errno_location();
+              VAS_Fail("accumulate", "varnishtop.c", 153, "(pthread_mutex_lock(&mtx)) == 0", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
             }
 
           }
@@ -11216,15 +11216,15 @@ static signed int accumulate(struct VSL_data *vsl, struct VSL_transaction * cons
           else
           {
             ntop = ntop + 1u;
-            void *return_value_calloc$7;
-            return_value_calloc$7=calloc(sizeof(struct top) /*104ul*/ , (unsigned long int)1);
-            tp = (struct top *)return_value_calloc$7;
+            void *return_value_calloc_7;
+            return_value_calloc_7=calloc(sizeof(struct top) /*104ul*/ , (unsigned long int)1);
+            tp = (struct top *)return_value_calloc_7;
             do
               if(tp == ((struct top *)NULL))
               {
-                signed int *return_value___errno_location$8;
-                return_value___errno_location$8=__errno_location();
-                VAS_Fail("accumulate", "varnishtop.c", 163, "tp != NULL", *return_value___errno_location$8, (enum vas_e)VAS_ASSERT);
+                signed int *return_value___errno_location_8;
+                return_value___errno_location_8=__errno_location();
+                VAS_Fail("accumulate", "varnishtop.c", 163, "tp != NULL", *return_value___errno_location_8, (enum vas_e)VAS_ASSERT);
               }
 
             while((_Bool)0);
@@ -11240,9 +11240,9 @@ static signed int accumulate(struct VSL_data *vsl, struct VSL_transaction * cons
             do
               if(tp->rec_data == ((const char *)NULL))
               {
-                signed int *return_value___errno_location$9;
-                return_value___errno_location$9=__errno_location();
-                VAS_Fail("accumulate", "varnishtop.c", 170, "(tp->rec_data) != 0", *return_value___errno_location$9, (enum vas_e)VAS_ASSERT);
+                signed int *return_value___errno_location_9;
+                return_value___errno_location_9=__errno_location();
+                VAS_Fail("accumulate", "varnishtop.c", 170, "(tp->rec_data) != 0", *return_value___errno_location_9, (enum vas_e)VAS_ASSERT);
               }
 
             while((_Bool)0);
@@ -11254,13 +11254,13 @@ static signed int accumulate(struct VSL_data *vsl, struct VSL_transaction * cons
 
           __CPROVER_DUMP_L15:
             ;
-            signed int return_value_pthread_mutex_unlock$11;
-            return_value_pthread_mutex_unlock$11=pthread_mutex_unlock(&mtx);
-            if(!(return_value_pthread_mutex_unlock$11 == 0))
+            signed int return_value_pthread_mutex_unlock_11;
+            return_value_pthread_mutex_unlock_11=pthread_mutex_unlock(&mtx);
+            if(!(return_value_pthread_mutex_unlock_11 == 0))
             {
-              signed int *return_value___errno_location$10;
-              return_value___errno_location$10=__errno_location();
-              VAS_Fail("accumulate", "varnishtop.c", 174, "(pthread_mutex_unlock(&mtx)) == 0", *return_value___errno_location$10, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_10;
+              return_value___errno_location_10=__errno_location();
+              VAS_Fail("accumulate", "varnishtop.c", 174, "(pthread_mutex_unlock(&mtx)) == 0", *return_value___errno_location_10, (enum vas_e)VAS_ASSERT);
             }
 
           }
@@ -11305,17 +11305,17 @@ __CPROVER_DUMP_L1:
   {
     if(chunk == ((struct chunk *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("chunk_appendbuf", "vsl_dispatch.c", 376, "(chunk) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("chunk_appendbuf", "vsl_dispatch.c", 376, "(chunk) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(chunk->magic == 1222377876u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("chunk_appendbuf", "vsl_dispatch.c", 376, "(chunk)->magic == 0x48DC0194", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("chunk_appendbuf", "vsl_dispatch.c", 376, "(chunk)->magic == 0x48DC0194", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -11324,22 +11324,22 @@ __CPROVER_DUMP_L1:
   do
     if(!((signed int)chunk->type == chunk_t_buf))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("chunk_appendbuf", "vsl_dispatch.c", 377, "chunk->type == chunk_t_buf", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("chunk_appendbuf", "vsl_dispatch.c", 377, "chunk->type == chunk_t_buf", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
-  if(!(chunk->$anon0.buf.space >= chunk->len + len))
+  if(!(chunk->_anon0.buf.space >= chunk->len + len))
   {
-    for( ; !(chunk->$anon0.buf.space >= chunk->len + len); chunk->$anon0.buf.space = chunk->$anon0.buf.space * (unsigned long int)2)
+    for( ; !(chunk->_anon0.buf.space >= chunk->len + len); chunk->_anon0.buf.space = chunk->_anon0.buf.space * (unsigned long int)2)
       ;
-    void *return_value_realloc$4;
-    return_value_realloc$4=realloc((void *)chunk->$anon0.buf.data, sizeof(unsigned int) /*4ul*/  * chunk->$anon0.buf.space);
-    chunk->$anon0.buf.data = (unsigned int *)return_value_realloc$4;
+    void *return_value_realloc_4;
+    return_value_realloc_4=realloc((void *)chunk->_anon0.buf.data, sizeof(unsigned int) /*4ul*/  * chunk->_anon0.buf.space);
+    chunk->_anon0.buf.data = (unsigned int *)return_value_realloc_4;
   }
 
-  memcpy((void *)(chunk->$anon0.buf.data + (signed long int)chunk->len), (const void *)ptr, sizeof(unsigned int) /*4ul*/  * len);
+  memcpy((void *)(chunk->_anon0.buf.data + (signed long int)chunk->len), (const void *)ptr, sizeof(unsigned int) /*4ul*/  * len);
   chunk->len = chunk->len + len;
 }
 
@@ -11354,17 +11354,17 @@ __CPROVER_DUMP_L1:
   {
     if(*pchunk == ((struct chunk *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("chunk_freebuf", "vsl_dispatch.c", 364, "(*pchunk) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("chunk_freebuf", "vsl_dispatch.c", 364, "(*pchunk) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!((*pchunk)->magic == 1222377876u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("chunk_freebuf", "vsl_dispatch.c", 364, "(*pchunk)->magic == 0x48DC0194", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("chunk_freebuf", "vsl_dispatch.c", 364, "(*pchunk)->magic == 0x48DC0194", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -11373,13 +11373,13 @@ __CPROVER_DUMP_L1:
   do
     if(!((signed int)(*pchunk)->type == chunk_t_buf))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("chunk_freebuf", "vsl_dispatch.c", 365, "(*pchunk)->type == chunk_t_buf", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("chunk_freebuf", "vsl_dispatch.c", 365, "(*pchunk)->type == chunk_t_buf", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
-  free((void *)(*pchunk)->$anon0.buf.data);
+  free((void *)(*pchunk)->_anon0.buf.data);
   do
   {
     (*pchunk)->magic = (unsigned int)0;
@@ -11396,9 +11396,9 @@ static struct chunk * chunk_newbuf(struct vtx *vtx, const unsigned int *ptr, uns
   struct chunk *chunk;
   do
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(sizeof(struct chunk) /*72ul*/ , (unsigned long int)1);
-    chunk = (struct chunk *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(sizeof(struct chunk) /*72ul*/ , (unsigned long int)1);
+    chunk = (struct chunk *)return_value_calloc_1;
     if(!(chunk == ((struct chunk *)NULL)))
       chunk->magic = (unsigned int)0x48DC0194;
 
@@ -11410,33 +11410,33 @@ __CPROVER_DUMP_L3:
   do
     if(chunk == ((struct chunk *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("chunk_newbuf", "vsl_dispatch.c", 346, "(chunk) != 0", *return_value___errno_location$2, (enum vas_e)VAS_MISSING);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("chunk_newbuf", "vsl_dispatch.c", 346, "(chunk) != 0", *return_value___errno_location_2, (enum vas_e)VAS_MISSING);
     }
 
   while((_Bool)0);
   chunk->type = (enum chunk_t)chunk_t_buf;
   chunk->vtx = vtx;
-  chunk->$anon0.buf.space = (unsigned long int)64;
-  for( ; !(chunk->$anon0.buf.space >= len); chunk->$anon0.buf.space = chunk->$anon0.buf.space * (unsigned long int)2)
+  chunk->_anon0.buf.space = (unsigned long int)64;
+  for( ; !(chunk->_anon0.buf.space >= len); chunk->_anon0.buf.space = chunk->_anon0.buf.space * (unsigned long int)2)
     ;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(unsigned int) /*4ul*/  * chunk->$anon0.buf.space);
-  chunk->$anon0.buf.data = (unsigned int *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(unsigned int) /*4ul*/  * chunk->_anon0.buf.space);
+  chunk->_anon0.buf.data = (unsigned int *)return_value_malloc_3;
 
 __CPROVER_DUMP_L7:
   ;
   do
-    if(chunk->$anon0.buf.data == ((unsigned int *)NULL))
+    if(chunk->_anon0.buf.data == ((unsigned int *)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      VAS_Fail("chunk_newbuf", "vsl_dispatch.c", 353, "(chunk->buf.data) != 0", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      VAS_Fail("chunk_newbuf", "vsl_dispatch.c", 353, "(chunk->buf.data) != 0", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
-  memcpy((void *)chunk->$anon0.buf.data, (const void *)ptr, sizeof(unsigned int) /*4ul*/  * len);
+  memcpy((void *)chunk->_anon0.buf.data, (const void *)ptr, sizeof(unsigned int) /*4ul*/  * len);
   chunk->len = len;
   return chunk;
 }
@@ -11454,17 +11454,17 @@ __CPROVER_DUMP_L1:
   {
     if(chunk == ((struct chunk *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("chunk_shm_to_buf", "vsl_dispatch.c", 395, "(chunk) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("chunk_shm_to_buf", "vsl_dispatch.c", 395, "(chunk) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(chunk->magic == 1222377876u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("chunk_shm_to_buf", "vsl_dispatch.c", 395, "(chunk)->magic == 0x48DC0194", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("chunk_shm_to_buf", "vsl_dispatch.c", 395, "(chunk)->magic == 0x48DC0194", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -11473,9 +11473,9 @@ __CPROVER_DUMP_L1:
   do
     if(!((signed int)chunk->type == chunk_t_shm))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("chunk_shm_to_buf", "vsl_dispatch.c", 396, "chunk->type == chunk_t_shm", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("chunk_shm_to_buf", "vsl_dispatch.c", 396, "chunk->type == chunk_t_shm", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -11487,44 +11487,44 @@ __CPROVER_DUMP_L7:
   {
     if(vtx == ((struct vtx *)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      VAS_Fail("chunk_shm_to_buf", "vsl_dispatch.c", 398, "(vtx) != NULL", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      VAS_Fail("chunk_shm_to_buf", "vsl_dispatch.c", 398, "(vtx) != NULL", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vtx->magic == 0xACC21D09))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        VAS_Fail("chunk_shm_to_buf", "vsl_dispatch.c", 398, "(vtx)->magic == 0xACC21D09", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        VAS_Fail("chunk_shm_to_buf", "vsl_dispatch.c", 398, "(vtx)->magic == 0xACC21D09", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
   buf = *((struct chunkhead *)chunk->list.vtqe_prev)->vtqh_last;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_7;
   if(!(buf == ((struct chunk *)NULL)))
-    tmp_if_expr$7 = (signed int)buf->type == chunk_t_buf ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_7 = (signed int)buf->type == chunk_t_buf ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$7 = (_Bool)0;
-  if(tmp_if_expr$7)
-    chunk_appendbuf(buf, chunk->$anon0.shm.start.ptr, chunk->len);
+    tmp_if_expr_7 = (_Bool)0;
+  if(tmp_if_expr_7)
+    chunk_appendbuf(buf, chunk->_anon0.shm.start.ptr, chunk->len);
 
   else
   {
-    buf=chunk_newbuf(vtx, chunk->$anon0.shm.start.ptr, chunk->len);
+    buf=chunk_newbuf(vtx, chunk->_anon0.shm.start.ptr, chunk->len);
 
   __CPROVER_DUMP_L14:
     ;
     do
       if(buf == ((struct chunk *)NULL))
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        VAS_Fail("chunk_shm_to_buf", "vsl_dispatch.c", 407, "(buf) != 0", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        VAS_Fail("chunk_shm_to_buf", "vsl_dispatch.c", 407, "(buf) != 0", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -11540,12 +11540,12 @@ __CPROVER_DUMP_L7:
   vtx->c.chunk = (struct chunk *)(void *)0;
   do
   {
-    if(!(chunk->$anon0.shm.shmref.vtqe_next == ((struct chunk *)NULL)))
-      chunk->$anon0.shm.shmref.vtqe_next->$anon0.shm.shmref.vtqe_prev = chunk->$anon0.shm.shmref.vtqe_prev;
+    if(!(chunk->_anon0.shm.shmref.vtqe_next == ((struct chunk *)NULL)))
+      chunk->_anon0.shm.shmref.vtqe_next->_anon0.shm.shmref.vtqe_prev = chunk->_anon0.shm.shmref.vtqe_prev;
 
     else
-      (&vslq->shmrefs)->vtqh_last = chunk->$anon0.shm.shmref.vtqe_prev;
-    *chunk->$anon0.shm.shmref.vtqe_prev = chunk->$anon0.shm.shmref.vtqe_next;
+      (&vslq->shmrefs)->vtqh_last = chunk->_anon0.shm.shmref.vtqe_prev;
+    *chunk->_anon0.shm.shmref.vtqe_prev = chunk->_anon0.shm.shmref.vtqe_next;
   }
   while((_Bool)0);
   do
@@ -11589,9 +11589,9 @@ static inline signed int cmp_key(struct top *a, struct top *b)
 
       else
       {
-        signed int return_value_memcmp$1;
-        return_value_memcmp$1=memcmp((const void *)a->rec_data, (const void *)b->rec_data, (unsigned long int)a->clen);
-        return return_value_memcmp$1;
+        signed int return_value_memcmp_1;
+        return_value_memcmp_1=memcmp((const void *)a->rec_data, (const void *)b->rec_data, (unsigned long int)a->clen);
+        return return_value_memcmp_1;
       }
 }
 
@@ -11606,9 +11606,9 @@ static inline signed int cmp_order(struct top *a, struct top *b)
     if(a->count < b->count)
       return 1;
 
-  signed int return_value_cmp_key$1;
-  return_value_cmp_key$1=cmp_key(a, b);
-  return return_value_cmp_key$1;
+  signed int return_value_cmp_key_1;
+  return_value_cmp_key_1=cmp_key(a, b);
+  return return_value_cmp_key_1;
 }
 
 // do_curses
@@ -11618,16 +11618,16 @@ static void * do_curses(void *arg)
   signed int i;
   (void)arg;
   i = 0;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   for( ; !(i >= 256); i = i + 1)
     if(!(VSL_tags[(signed long int)i] == ((const char *)NULL)))
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(VSL_tags[(signed long int)i]);
-      if(!((unsigned long int)maxfieldlen >= return_value_strlen$2))
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(VSL_tags[(signed long int)i]);
+      if(!((unsigned long int)maxfieldlen >= return_value_strlen_2))
       {
-        return_value_strlen$1=strlen(VSL_tags[(signed long int)i]);
-        maxfieldlen = (unsigned int)return_value_strlen$1;
+        return_value_strlen_1=strlen(VSL_tags[(signed long int)i]);
+        maxfieldlen = (unsigned int)return_value_strlen_1;
       }
 
     }
@@ -11639,19 +11639,19 @@ static void * do_curses(void *arg)
   intrflush(stdscr, (_Bool)0);
   curs_set(0);
   werase(stdscr);
-  signed int tmp_if_expr$8;
+  signed int tmp_if_expr_8;
   do
   {
 
   __CPROVER_DUMP_L5:
     ;
-    signed int return_value_pthread_mutex_lock$4;
-    return_value_pthread_mutex_lock$4=pthread_mutex_lock(&mtx);
-    if(!(return_value_pthread_mutex_lock$4 == 0))
+    signed int return_value_pthread_mutex_lock_4;
+    return_value_pthread_mutex_lock_4=pthread_mutex_lock(&mtx);
+    if(!(return_value_pthread_mutex_lock_4 == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("do_curses", "varnishtop.c", 255, "(pthread_mutex_lock(&mtx)) == 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("do_curses", "varnishtop.c", 255, "(pthread_mutex_lock(&mtx)) == 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
     update((signed int)period);
@@ -11660,32 +11660,32 @@ static void * do_curses(void *arg)
 
     __CPROVER_DUMP_L7:
       ;
-      signed int return_value_pthread_mutex_unlock$6;
-      return_value_pthread_mutex_unlock$6=pthread_mutex_unlock(&mtx);
-      if(!(return_value_pthread_mutex_unlock$6 == 0))
+      signed int return_value_pthread_mutex_unlock_6;
+      return_value_pthread_mutex_unlock_6=pthread_mutex_unlock(&mtx);
+      if(!(return_value_pthread_mutex_unlock_6 == 0))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        VAS_Fail("do_curses", "varnishtop.c", 257, "(pthread_mutex_unlock(&mtx)) == 0", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        VAS_Fail("do_curses", "varnishtop.c", 257, "(pthread_mutex_unlock(&mtx)) == 0", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
       }
 
     }
     while((_Bool)0);
     wtimeout(stdscr, 1000);
-    signed int return_value_wgetch$7;
-    return_value_wgetch$7=wgetch(stdscr);
-    if(!(return_value_wgetch$7 == -1))
+    signed int return_value_wgetch_7;
+    return_value_wgetch_7=wgetch(stdscr);
+    if(!(return_value_wgetch_7 == -1))
     {
-      if(return_value_wgetch$7 == 0632)
+      if(return_value_wgetch_7 == 0632)
         goto __CPROVER_DUMP_L10;
 
-      if(return_value_wgetch$7 == 12 || return_value_wgetch$7 == 20)
+      if(return_value_wgetch_7 == 12 || return_value_wgetch_7 == 20)
         goto __CPROVER_DUMP_L11;
 
-      if(return_value_wgetch$7 == 26)
+      if(return_value_wgetch_7 == 26)
         goto __CPROVER_DUMP_L14;
 
-      if(return_value_wgetch$7 == 3 || return_value_wgetch$7 == 17 || return_value_wgetch$7 == 81 || return_value_wgetch$7 == 113)
+      if(return_value_wgetch_7 == 3 || return_value_wgetch_7 == 17 || return_value_wgetch_7 == 81 || return_value_wgetch_7 == 113)
         goto __CPROVER_DUMP_L17;
 
     }
@@ -11702,11 +11702,11 @@ static void * do_curses(void *arg)
     __CPROVER_DUMP_L11:
       ;
       if(!(stdscr == ((struct _win_st *)NULL)))
-        tmp_if_expr$8 = (signed int)stdscr->_maxy + 1;
+        tmp_if_expr_8 = (signed int)stdscr->_maxy + 1;
 
       else
-        tmp_if_expr$8 = -1;
-      wredrawln(stdscr, 0, tmp_if_expr$8);
+        tmp_if_expr_8 = -1;
+      wredrawln(stdscr, 0, tmp_if_expr_8);
       wrefresh(stdscr);
       goto __CPROVER_DUMP_L20;
 
@@ -11718,13 +11718,13 @@ static void * do_curses(void *arg)
 
       __CPROVER_DUMP_L15:
         ;
-        signed int return_value_raise$10;
-        return_value_raise$10=raise(20);
-        if(!(return_value_raise$10 == 0))
+        signed int return_value_raise_10;
+        return_value_raise_10=raise(20);
+        if(!(return_value_raise_10 == 0))
         {
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          VAS_Fail("do_curses", "varnishtop.c", 275, "(raise(20)) == 0", *return_value___errno_location$9, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          VAS_Fail("do_curses", "varnishtop.c", 275, "(raise(20)) == 0", *return_value___errno_location_9, (enum vas_e)VAS_ASSERT);
         }
 
       }
@@ -11735,13 +11735,13 @@ static void * do_curses(void *arg)
 
       __CPROVER_DUMP_L17:
         ;
-        signed int return_value_raise$12;
-        return_value_raise$12=raise(2);
-        if(!(return_value_raise$12 == 0))
+        signed int return_value_raise_12;
+        return_value_raise_12=raise(2);
+        if(!(return_value_raise_12 == 0))
         {
-          signed int *return_value___errno_location$11;
-          return_value___errno_location$11=__errno_location();
-          VAS_Fail("do_curses", "varnishtop.c", 281, "(raise(2)) == 0", *return_value___errno_location$11, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_11;
+          return_value___errno_location_11=__errno_location();
+          VAS_Fail("do_curses", "varnishtop.c", 281, "(raise(2)) == 0", *return_value___errno_location_11, (enum vas_e)VAS_ASSERT);
         }
 
       }
@@ -11782,7 +11782,7 @@ signed int flopen(const char *path, signed int flags, ...)
   signed int fd;
   signed int operation;
   signed int serrno;
-  signed int flopen$$1$$trunc;
+  signed int flopen__1__trunc;
   struct flock lock;
   struct stat sb;
   struct stat fsb;
@@ -11791,9 +11791,9 @@ signed int flopen(const char *path, signed int flags, ...)
   {
     __builtin_va_list ap;
     va_start(ap, flags);
-    signed int return_value_gcc_builtin_va_arg$1;
-    return_value_gcc_builtin_va_arg$1=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg$1));
-    mode = (unsigned int)return_value_gcc_builtin_va_arg$1;
+    signed int return_value_gcc_builtin_va_arg_1;
+    return_value_gcc_builtin_va_arg_1=va_arg(ap, __typeof__(return_value_gcc_builtin_va_arg_1));
+    mode = (unsigned int)return_value_gcc_builtin_va_arg_1;
     va_end(ap);
   }
 
@@ -11801,47 +11801,47 @@ signed int flopen(const char *path, signed int flags, ...)
   lock.l_type = (signed short int)((flags & 0003) == 00 ? 0 : 1);
   lock.l_whence = (signed short int)0;
   operation = (flags & 04000) != 0 ? 6 : 7;
-  flopen$$1$$trunc = flags & 01000;
+  flopen__1__trunc = flags & 01000;
   flags = flags & ~01000;
-  signed int return_value_ftruncate$11;
+  signed int return_value_ftruncate_11;
   do
   {
     fd=open(path, flags, mode);
     if(fd == -1)
       return -1;
 
-    signed int return_value_fcntl$4;
-    return_value_fcntl$4=fcntl(fd, operation, &lock);
-    if(return_value_fcntl$4 == -1)
+    signed int return_value_fcntl_4;
+    return_value_fcntl_4=fcntl(fd, operation, &lock);
+    if(return_value_fcntl_4 == -1)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      serrno = *return_value___errno_location$2;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      serrno = *return_value___errno_location_2;
       close(fd);
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = serrno;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = serrno;
       return -1;
     }
 
-    signed int return_value_stat$5;
-    return_value_stat$5=stat(path, &sb);
-    if(return_value_stat$5 == -1)
+    signed int return_value_stat_5;
+    return_value_stat_5=stat(path, &sb);
+    if(return_value_stat_5 == -1)
       close(fd);
 
     else
     {
-      signed int return_value_fstat$8;
-      return_value_fstat$8=fstat(fd, &fsb);
-      if(return_value_fstat$8 == -1)
+      signed int return_value_fstat_8;
+      return_value_fstat_8=fstat(fd, &fsb);
+      if(return_value_fstat_8 == -1)
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        serrno = *return_value___errno_location$6;
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        serrno = *return_value___errno_location_6;
         close(fd);
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        *return_value___errno_location$7 = serrno;
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        *return_value___errno_location_7 = serrno;
         return -1;
       }
 
@@ -11850,18 +11850,18 @@ signed int flopen(const char *path, signed int flags, ...)
 
       else
       {
-        if(!(flopen$$1$$trunc == 0))
+        if(!(flopen__1__trunc == 0))
         {
-          return_value_ftruncate$11=ftruncate(fd, (signed long int)0);
-          if(!(return_value_ftruncate$11 == 0))
+          return_value_ftruncate_11=ftruncate(fd, (signed long int)0);
+          if(!(return_value_ftruncate_11 == 0))
           {
-            signed int *return_value___errno_location$9;
-            return_value___errno_location$9=__errno_location();
-            serrno = *return_value___errno_location$9;
+            signed int *return_value___errno_location_9;
+            return_value___errno_location_9=__errno_location();
+            serrno = *return_value___errno_location_9;
             close(fd);
-            signed int *return_value___errno_location$10;
-            return_value___errno_location$10=__errno_location();
-            *return_value___errno_location$10 = serrno;
+            signed int *return_value___errno_location_10;
+            return_value___errno_location_10=__errno_location();
+            *return_value___errno_location_10 = serrno;
             return -1;
           }
 
@@ -11882,9 +11882,9 @@ signed int fltest(signed int fd, signed int *pid)
   memset((void *)&lock, 0, sizeof(struct flock) /*32ul*/ );
   lock.l_type = (signed short int)1;
   lock.l_whence = (signed short int)0;
-  signed int return_value_fcntl$1;
-  return_value_fcntl$1=fcntl(fd, 5, &lock);
-  if(return_value_fcntl$1 == -1)
+  signed int return_value_fcntl_1;
+  return_value_fcntl_1=fcntl(fd, 5, &lock);
+  if(return_value_fcntl_1 == -1)
     return -1;
 
   else
@@ -11912,32 +11912,32 @@ __CPROVER_DUMP_L1:
   {
     if(vsc == ((struct vsc *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("iter_lck", "../../include/tbl/vsc_all.h", 37, "(vsc) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("iter_lck", "../../include/tbl/vsc_all.h", 37, "(vsc) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsc->magic == 863196490u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("iter_lck", "../../include/tbl/vsc_all.h", 37, "(vsc)->magic == 0x3373554a", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("iter_lck", "../../include/tbl/vsc_all.h", 37, "(vsc)->magic == 0x3373554a", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
   st = (struct VSC_C_lck *)vf->fantom.b;
-  struct VSC_desc *tmp_post$3 = descs;
+  struct VSC_desc *tmp_post_3 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->creat, tmp_post$3, vf);
-  struct VSC_desc *tmp_post$4 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->creat, tmp_post_3, vf);
+  struct VSC_desc *tmp_post_4 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->destroy, tmp_post$4, vf);
-  struct VSC_desc *tmp_post$5 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->destroy, tmp_post_4, vf);
+  struct VSC_desc *tmp_post_5 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->locks, tmp_post$5, vf);
+  vsc_add_pt(vsc, (const volatile void *)&st->locks, tmp_post_5, vf);
 }
 
 // iter_main
@@ -11952,380 +11952,380 @@ __CPROVER_DUMP_L1:
   {
     if(vsc == ((struct vsc *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("iter_main", "../../include/tbl/vsc_all.h", 43, "(vsc) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("iter_main", "../../include/tbl/vsc_all.h", 43, "(vsc) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsc->magic == 863196490u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("iter_main", "../../include/tbl/vsc_all.h", 43, "(vsc)->magic == 0x3373554a", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("iter_main", "../../include/tbl/vsc_all.h", 43, "(vsc)->magic == 0x3373554a", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
   st = (struct VSC_C_main *)vf->fantom.b;
-  struct VSC_desc *tmp_post$3 = descs;
+  struct VSC_desc *tmp_post_3 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->uptime, tmp_post$3, vf);
-  struct VSC_desc *tmp_post$4 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->uptime, tmp_post_3, vf);
+  struct VSC_desc *tmp_post_4 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->sess_conn, tmp_post$4, vf);
-  struct VSC_desc *tmp_post$5 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->sess_conn, tmp_post_4, vf);
+  struct VSC_desc *tmp_post_5 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->sess_drop, tmp_post$5, vf);
-  struct VSC_desc *tmp_post$6 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->sess_drop, tmp_post_5, vf);
+  struct VSC_desc *tmp_post_6 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->sess_fail, tmp_post$6, vf);
-  struct VSC_desc *tmp_post$7 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->sess_fail, tmp_post_6, vf);
+  struct VSC_desc *tmp_post_7 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->sess_pipe_overflow, tmp_post$7, vf);
-  struct VSC_desc *tmp_post$8 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->sess_pipe_overflow, tmp_post_7, vf);
+  struct VSC_desc *tmp_post_8 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->client_req_400, tmp_post$8, vf);
-  struct VSC_desc *tmp_post$9 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->client_req_400, tmp_post_8, vf);
+  struct VSC_desc *tmp_post_9 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->client_req_411, tmp_post$9, vf);
-  struct VSC_desc *tmp_post$10 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->client_req_411, tmp_post_9, vf);
+  struct VSC_desc *tmp_post_10 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->client_req_413, tmp_post$10, vf);
-  struct VSC_desc *tmp_post$11 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->client_req_413, tmp_post_10, vf);
+  struct VSC_desc *tmp_post_11 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->client_req_417, tmp_post$11, vf);
-  struct VSC_desc *tmp_post$12 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->client_req_417, tmp_post_11, vf);
+  struct VSC_desc *tmp_post_12 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->client_req, tmp_post$12, vf);
-  struct VSC_desc *tmp_post$13 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->client_req, tmp_post_12, vf);
+  struct VSC_desc *tmp_post_13 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->cache_hit, tmp_post$13, vf);
-  struct VSC_desc *tmp_post$14 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->cache_hit, tmp_post_13, vf);
+  struct VSC_desc *tmp_post_14 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->cache_hitpass, tmp_post$14, vf);
-  struct VSC_desc *tmp_post$15 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->cache_hitpass, tmp_post_14, vf);
+  struct VSC_desc *tmp_post_15 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->cache_miss, tmp_post$15, vf);
-  struct VSC_desc *tmp_post$16 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->cache_miss, tmp_post_15, vf);
+  struct VSC_desc *tmp_post_16 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->backend_conn, tmp_post$16, vf);
-  struct VSC_desc *tmp_post$17 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->backend_conn, tmp_post_16, vf);
+  struct VSC_desc *tmp_post_17 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->backend_unhealthy, tmp_post$17, vf);
-  struct VSC_desc *tmp_post$18 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->backend_unhealthy, tmp_post_17, vf);
+  struct VSC_desc *tmp_post_18 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->backend_busy, tmp_post$18, vf);
-  struct VSC_desc *tmp_post$19 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->backend_busy, tmp_post_18, vf);
+  struct VSC_desc *tmp_post_19 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->backend_fail, tmp_post$19, vf);
-  struct VSC_desc *tmp_post$20 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->backend_fail, tmp_post_19, vf);
+  struct VSC_desc *tmp_post_20 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->backend_reuse, tmp_post$20, vf);
-  struct VSC_desc *tmp_post$21 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->backend_reuse, tmp_post_20, vf);
+  struct VSC_desc *tmp_post_21 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->backend_toolate, tmp_post$21, vf);
-  struct VSC_desc *tmp_post$22 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->backend_toolate, tmp_post_21, vf);
+  struct VSC_desc *tmp_post_22 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->backend_recycle, tmp_post$22, vf);
-  struct VSC_desc *tmp_post$23 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->backend_recycle, tmp_post_22, vf);
+  struct VSC_desc *tmp_post_23 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->backend_retry, tmp_post$23, vf);
-  struct VSC_desc *tmp_post$24 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->backend_retry, tmp_post_23, vf);
+  struct VSC_desc *tmp_post_24 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->fetch_head, tmp_post$24, vf);
-  struct VSC_desc *tmp_post$25 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->fetch_head, tmp_post_24, vf);
+  struct VSC_desc *tmp_post_25 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->fetch_length, tmp_post$25, vf);
-  struct VSC_desc *tmp_post$26 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->fetch_length, tmp_post_25, vf);
+  struct VSC_desc *tmp_post_26 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->fetch_chunked, tmp_post$26, vf);
-  struct VSC_desc *tmp_post$27 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->fetch_chunked, tmp_post_26, vf);
+  struct VSC_desc *tmp_post_27 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->fetch_eof, tmp_post$27, vf);
-  struct VSC_desc *tmp_post$28 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->fetch_eof, tmp_post_27, vf);
+  struct VSC_desc *tmp_post_28 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->fetch_bad, tmp_post$28, vf);
-  struct VSC_desc *tmp_post$29 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->fetch_bad, tmp_post_28, vf);
+  struct VSC_desc *tmp_post_29 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->fetch_close, tmp_post$29, vf);
-  struct VSC_desc *tmp_post$30 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->fetch_close, tmp_post_29, vf);
+  struct VSC_desc *tmp_post_30 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->fetch_oldhttp, tmp_post$30, vf);
-  struct VSC_desc *tmp_post$31 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->fetch_oldhttp, tmp_post_30, vf);
+  struct VSC_desc *tmp_post_31 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->fetch_zero, tmp_post$31, vf);
-  struct VSC_desc *tmp_post$32 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->fetch_zero, tmp_post_31, vf);
+  struct VSC_desc *tmp_post_32 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->fetch_1xx, tmp_post$32, vf);
-  struct VSC_desc *tmp_post$33 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->fetch_1xx, tmp_post_32, vf);
+  struct VSC_desc *tmp_post_33 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->fetch_204, tmp_post$33, vf);
-  struct VSC_desc *tmp_post$34 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->fetch_204, tmp_post_33, vf);
+  struct VSC_desc *tmp_post_34 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->fetch_304, tmp_post$34, vf);
-  struct VSC_desc *tmp_post$35 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->fetch_304, tmp_post_34, vf);
+  struct VSC_desc *tmp_post_35 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->fetch_failed, tmp_post$35, vf);
-  struct VSC_desc *tmp_post$36 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->fetch_failed, tmp_post_35, vf);
+  struct VSC_desc *tmp_post_36 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->fetch_no_thread, tmp_post$36, vf);
-  struct VSC_desc *tmp_post$37 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->fetch_no_thread, tmp_post_36, vf);
+  struct VSC_desc *tmp_post_37 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->pools, tmp_post$37, vf);
-  struct VSC_desc *tmp_post$38 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->pools, tmp_post_37, vf);
+  struct VSC_desc *tmp_post_38 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->threads, tmp_post$38, vf);
-  struct VSC_desc *tmp_post$39 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->threads, tmp_post_38, vf);
+  struct VSC_desc *tmp_post_39 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->threads_limited, tmp_post$39, vf);
-  struct VSC_desc *tmp_post$40 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->threads_limited, tmp_post_39, vf);
+  struct VSC_desc *tmp_post_40 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->threads_created, tmp_post$40, vf);
-  struct VSC_desc *tmp_post$41 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->threads_created, tmp_post_40, vf);
+  struct VSC_desc *tmp_post_41 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->threads_destroyed, tmp_post$41, vf);
-  struct VSC_desc *tmp_post$42 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->threads_destroyed, tmp_post_41, vf);
+  struct VSC_desc *tmp_post_42 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->threads_failed, tmp_post$42, vf);
-  struct VSC_desc *tmp_post$43 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->threads_failed, tmp_post_42, vf);
+  struct VSC_desc *tmp_post_43 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->thread_queue_len, tmp_post$43, vf);
-  struct VSC_desc *tmp_post$44 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->thread_queue_len, tmp_post_43, vf);
+  struct VSC_desc *tmp_post_44 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->busy_sleep, tmp_post$44, vf);
-  struct VSC_desc *tmp_post$45 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->busy_sleep, tmp_post_44, vf);
+  struct VSC_desc *tmp_post_45 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->busy_wakeup, tmp_post$45, vf);
-  struct VSC_desc *tmp_post$46 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->busy_wakeup, tmp_post_45, vf);
+  struct VSC_desc *tmp_post_46 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->sess_queued, tmp_post$46, vf);
-  struct VSC_desc *tmp_post$47 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->sess_queued, tmp_post_46, vf);
+  struct VSC_desc *tmp_post_47 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->sess_dropped, tmp_post$47, vf);
-  struct VSC_desc *tmp_post$48 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->sess_dropped, tmp_post_47, vf);
+  struct VSC_desc *tmp_post_48 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->n_object, tmp_post$48, vf);
-  struct VSC_desc *tmp_post$49 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->n_object, tmp_post_48, vf);
+  struct VSC_desc *tmp_post_49 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->n_vampireobject, tmp_post$49, vf);
-  struct VSC_desc *tmp_post$50 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->n_vampireobject, tmp_post_49, vf);
+  struct VSC_desc *tmp_post_50 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->n_objectcore, tmp_post$50, vf);
-  struct VSC_desc *tmp_post$51 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->n_objectcore, tmp_post_50, vf);
+  struct VSC_desc *tmp_post_51 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->n_objecthead, tmp_post$51, vf);
-  struct VSC_desc *tmp_post$52 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->n_objecthead, tmp_post_51, vf);
+  struct VSC_desc *tmp_post_52 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->n_waitinglist, tmp_post$52, vf);
-  struct VSC_desc *tmp_post$53 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->n_waitinglist, tmp_post_52, vf);
+  struct VSC_desc *tmp_post_53 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->n_backend, tmp_post$53, vf);
-  struct VSC_desc *tmp_post$54 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->n_backend, tmp_post_53, vf);
+  struct VSC_desc *tmp_post_54 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->n_expired, tmp_post$54, vf);
-  struct VSC_desc *tmp_post$55 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->n_expired, tmp_post_54, vf);
+  struct VSC_desc *tmp_post_55 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->n_lru_nuked, tmp_post$55, vf);
-  struct VSC_desc *tmp_post$56 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->n_lru_nuked, tmp_post_55, vf);
+  struct VSC_desc *tmp_post_56 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->n_lru_moved, tmp_post$56, vf);
-  struct VSC_desc *tmp_post$57 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->n_lru_moved, tmp_post_56, vf);
+  struct VSC_desc *tmp_post_57 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->losthdr, tmp_post$57, vf);
-  struct VSC_desc *tmp_post$58 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->losthdr, tmp_post_57, vf);
+  struct VSC_desc *tmp_post_58 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->s_sess, tmp_post$58, vf);
-  struct VSC_desc *tmp_post$59 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->s_sess, tmp_post_58, vf);
+  struct VSC_desc *tmp_post_59 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->s_req, tmp_post$59, vf);
-  struct VSC_desc *tmp_post$60 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->s_req, tmp_post_59, vf);
+  struct VSC_desc *tmp_post_60 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->s_pipe, tmp_post$60, vf);
-  struct VSC_desc *tmp_post$61 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->s_pipe, tmp_post_60, vf);
+  struct VSC_desc *tmp_post_61 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->s_pass, tmp_post$61, vf);
-  struct VSC_desc *tmp_post$62 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->s_pass, tmp_post_61, vf);
+  struct VSC_desc *tmp_post_62 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->s_fetch, tmp_post$62, vf);
-  struct VSC_desc *tmp_post$63 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->s_fetch, tmp_post_62, vf);
+  struct VSC_desc *tmp_post_63 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->s_synth, tmp_post$63, vf);
-  struct VSC_desc *tmp_post$64 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->s_synth, tmp_post_63, vf);
+  struct VSC_desc *tmp_post_64 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->s_req_hdrbytes, tmp_post$64, vf);
-  struct VSC_desc *tmp_post$65 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->s_req_hdrbytes, tmp_post_64, vf);
+  struct VSC_desc *tmp_post_65 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->s_req_bodybytes, tmp_post$65, vf);
-  struct VSC_desc *tmp_post$66 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->s_req_bodybytes, tmp_post_65, vf);
+  struct VSC_desc *tmp_post_66 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->s_resp_hdrbytes, tmp_post$66, vf);
-  struct VSC_desc *tmp_post$67 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->s_resp_hdrbytes, tmp_post_66, vf);
+  struct VSC_desc *tmp_post_67 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->s_resp_bodybytes, tmp_post$67, vf);
-  struct VSC_desc *tmp_post$68 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->s_resp_bodybytes, tmp_post_67, vf);
+  struct VSC_desc *tmp_post_68 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->s_pipe_hdrbytes, tmp_post$68, vf);
-  struct VSC_desc *tmp_post$69 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->s_pipe_hdrbytes, tmp_post_68, vf);
+  struct VSC_desc *tmp_post_69 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->s_pipe_in, tmp_post$69, vf);
-  struct VSC_desc *tmp_post$70 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->s_pipe_in, tmp_post_69, vf);
+  struct VSC_desc *tmp_post_70 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->s_pipe_out, tmp_post$70, vf);
-  struct VSC_desc *tmp_post$71 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->s_pipe_out, tmp_post_70, vf);
+  struct VSC_desc *tmp_post_71 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->sess_closed, tmp_post$71, vf);
-  struct VSC_desc *tmp_post$72 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->sess_closed, tmp_post_71, vf);
+  struct VSC_desc *tmp_post_72 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->sess_pipeline, tmp_post$72, vf);
-  struct VSC_desc *tmp_post$73 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->sess_pipeline, tmp_post_72, vf);
+  struct VSC_desc *tmp_post_73 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->sess_readahead, tmp_post$73, vf);
-  struct VSC_desc *tmp_post$74 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->sess_readahead, tmp_post_73, vf);
+  struct VSC_desc *tmp_post_74 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->sess_herd, tmp_post$74, vf);
-  struct VSC_desc *tmp_post$75 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->sess_herd, tmp_post_74, vf);
+  struct VSC_desc *tmp_post_75 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->shm_records, tmp_post$75, vf);
-  struct VSC_desc *tmp_post$76 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->shm_records, tmp_post_75, vf);
+  struct VSC_desc *tmp_post_76 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->shm_writes, tmp_post$76, vf);
-  struct VSC_desc *tmp_post$77 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->shm_writes, tmp_post_76, vf);
+  struct VSC_desc *tmp_post_77 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->shm_flushes, tmp_post$77, vf);
-  struct VSC_desc *tmp_post$78 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->shm_flushes, tmp_post_77, vf);
+  struct VSC_desc *tmp_post_78 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->shm_cont, tmp_post$78, vf);
-  struct VSC_desc *tmp_post$79 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->shm_cont, tmp_post_78, vf);
+  struct VSC_desc *tmp_post_79 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->shm_cycles, tmp_post$79, vf);
-  struct VSC_desc *tmp_post$80 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->shm_cycles, tmp_post_79, vf);
+  struct VSC_desc *tmp_post_80 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->sms_nreq, tmp_post$80, vf);
-  struct VSC_desc *tmp_post$81 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->sms_nreq, tmp_post_80, vf);
+  struct VSC_desc *tmp_post_81 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->sms_nobj, tmp_post$81, vf);
-  struct VSC_desc *tmp_post$82 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->sms_nobj, tmp_post_81, vf);
+  struct VSC_desc *tmp_post_82 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->sms_nbytes, tmp_post$82, vf);
-  struct VSC_desc *tmp_post$83 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->sms_nbytes, tmp_post_82, vf);
+  struct VSC_desc *tmp_post_83 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->sms_balloc, tmp_post$83, vf);
-  struct VSC_desc *tmp_post$84 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->sms_balloc, tmp_post_83, vf);
+  struct VSC_desc *tmp_post_84 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->sms_bfree, tmp_post$84, vf);
-  struct VSC_desc *tmp_post$85 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->sms_bfree, tmp_post_84, vf);
+  struct VSC_desc *tmp_post_85 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->backend_req, tmp_post$85, vf);
-  struct VSC_desc *tmp_post$86 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->backend_req, tmp_post_85, vf);
+  struct VSC_desc *tmp_post_86 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->n_vcl, tmp_post$86, vf);
-  struct VSC_desc *tmp_post$87 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->n_vcl, tmp_post_86, vf);
+  struct VSC_desc *tmp_post_87 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->n_vcl_avail, tmp_post$87, vf);
-  struct VSC_desc *tmp_post$88 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->n_vcl_avail, tmp_post_87, vf);
+  struct VSC_desc *tmp_post_88 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->n_vcl_discard, tmp_post$88, vf);
-  struct VSC_desc *tmp_post$89 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->n_vcl_discard, tmp_post_88, vf);
+  struct VSC_desc *tmp_post_89 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->bans, tmp_post$89, vf);
-  struct VSC_desc *tmp_post$90 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->bans, tmp_post_89, vf);
+  struct VSC_desc *tmp_post_90 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->bans_completed, tmp_post$90, vf);
-  struct VSC_desc *tmp_post$91 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->bans_completed, tmp_post_90, vf);
+  struct VSC_desc *tmp_post_91 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->bans_obj, tmp_post$91, vf);
-  struct VSC_desc *tmp_post$92 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->bans_obj, tmp_post_91, vf);
+  struct VSC_desc *tmp_post_92 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->bans_req, tmp_post$92, vf);
-  struct VSC_desc *tmp_post$93 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->bans_req, tmp_post_92, vf);
+  struct VSC_desc *tmp_post_93 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->bans_added, tmp_post$93, vf);
-  struct VSC_desc *tmp_post$94 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->bans_added, tmp_post_93, vf);
+  struct VSC_desc *tmp_post_94 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->bans_deleted, tmp_post$94, vf);
-  struct VSC_desc *tmp_post$95 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->bans_deleted, tmp_post_94, vf);
+  struct VSC_desc *tmp_post_95 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->bans_tested, tmp_post$95, vf);
-  struct VSC_desc *tmp_post$96 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->bans_tested, tmp_post_95, vf);
+  struct VSC_desc *tmp_post_96 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->bans_obj_killed, tmp_post$96, vf);
-  struct VSC_desc *tmp_post$97 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->bans_obj_killed, tmp_post_96, vf);
+  struct VSC_desc *tmp_post_97 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->bans_lurker_tested, tmp_post$97, vf);
-  struct VSC_desc *tmp_post$98 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->bans_lurker_tested, tmp_post_97, vf);
+  struct VSC_desc *tmp_post_98 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->bans_tests_tested, tmp_post$98, vf);
-  struct VSC_desc *tmp_post$99 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->bans_tests_tested, tmp_post_98, vf);
+  struct VSC_desc *tmp_post_99 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->bans_lurker_tests_tested, tmp_post$99, vf);
-  struct VSC_desc *tmp_post$100 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->bans_lurker_tests_tested, tmp_post_99, vf);
+  struct VSC_desc *tmp_post_100 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->bans_lurker_obj_killed, tmp_post$100, vf);
-  struct VSC_desc *tmp_post$101 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->bans_lurker_obj_killed, tmp_post_100, vf);
+  struct VSC_desc *tmp_post_101 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->bans_dups, tmp_post$101, vf);
-  struct VSC_desc *tmp_post$102 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->bans_dups, tmp_post_101, vf);
+  struct VSC_desc *tmp_post_102 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->bans_lurker_contention, tmp_post$102, vf);
-  struct VSC_desc *tmp_post$103 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->bans_lurker_contention, tmp_post_102, vf);
+  struct VSC_desc *tmp_post_103 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->bans_persisted_bytes, tmp_post$103, vf);
-  struct VSC_desc *tmp_post$104 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->bans_persisted_bytes, tmp_post_103, vf);
+  struct VSC_desc *tmp_post_104 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->bans_persisted_fragmentation, tmp_post$104, vf);
-  struct VSC_desc *tmp_post$105 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->bans_persisted_fragmentation, tmp_post_104, vf);
+  struct VSC_desc *tmp_post_105 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->n_purges, tmp_post$105, vf);
-  struct VSC_desc *tmp_post$106 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->n_purges, tmp_post_105, vf);
+  struct VSC_desc *tmp_post_106 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->n_obj_purged, tmp_post$106, vf);
-  struct VSC_desc *tmp_post$107 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->n_obj_purged, tmp_post_106, vf);
+  struct VSC_desc *tmp_post_107 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->exp_mailed, tmp_post$107, vf);
-  struct VSC_desc *tmp_post$108 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->exp_mailed, tmp_post_107, vf);
+  struct VSC_desc *tmp_post_108 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->exp_received, tmp_post$108, vf);
-  struct VSC_desc *tmp_post$109 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->exp_received, tmp_post_108, vf);
+  struct VSC_desc *tmp_post_109 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->hcb_nolock, tmp_post$109, vf);
-  struct VSC_desc *tmp_post$110 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->hcb_nolock, tmp_post_109, vf);
+  struct VSC_desc *tmp_post_110 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->hcb_lock, tmp_post$110, vf);
-  struct VSC_desc *tmp_post$111 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->hcb_lock, tmp_post_110, vf);
+  struct VSC_desc *tmp_post_111 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->hcb_insert, tmp_post$111, vf);
-  struct VSC_desc *tmp_post$112 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->hcb_insert, tmp_post_111, vf);
+  struct VSC_desc *tmp_post_112 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->esi_errors, tmp_post$112, vf);
-  struct VSC_desc *tmp_post$113 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->esi_errors, tmp_post_112, vf);
+  struct VSC_desc *tmp_post_113 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->esi_warnings, tmp_post$113, vf);
-  struct VSC_desc *tmp_post$114 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->esi_warnings, tmp_post_113, vf);
+  struct VSC_desc *tmp_post_114 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->vmods, tmp_post$114, vf);
-  struct VSC_desc *tmp_post$115 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->vmods, tmp_post_114, vf);
+  struct VSC_desc *tmp_post_115 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->n_gzip, tmp_post$115, vf);
-  struct VSC_desc *tmp_post$116 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->n_gzip, tmp_post_115, vf);
+  struct VSC_desc *tmp_post_116 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->n_gunzip, tmp_post$116, vf);
-  struct VSC_desc *tmp_post$117 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->n_gunzip, tmp_post_116, vf);
+  struct VSC_desc *tmp_post_117 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->vsm_free, tmp_post$117, vf);
-  struct VSC_desc *tmp_post$118 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->vsm_free, tmp_post_117, vf);
+  struct VSC_desc *tmp_post_118 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->vsm_used, tmp_post$118, vf);
-  struct VSC_desc *tmp_post$119 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->vsm_used, tmp_post_118, vf);
+  struct VSC_desc *tmp_post_119 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->vsm_cooling, tmp_post$119, vf);
-  struct VSC_desc *tmp_post$120 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->vsm_cooling, tmp_post_119, vf);
+  struct VSC_desc *tmp_post_120 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->vsm_overflow, tmp_post$120, vf);
-  struct VSC_desc *tmp_post$121 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->vsm_overflow, tmp_post_120, vf);
+  struct VSC_desc *tmp_post_121 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->vsm_overflowed, tmp_post$121, vf);
+  vsc_add_pt(vsc, (const volatile void *)&st->vsm_overflowed, tmp_post_121, vf);
 }
 
 // iter_mempool
@@ -12340,56 +12340,56 @@ __CPROVER_DUMP_L1:
   {
     if(vsc == ((struct vsc *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("iter_mempool", "../../include/tbl/vsc_all.h", 65, "(vsc) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("iter_mempool", "../../include/tbl/vsc_all.h", 65, "(vsc) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsc->magic == 863196490u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("iter_mempool", "../../include/tbl/vsc_all.h", 65, "(vsc)->magic == 0x3373554a", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("iter_mempool", "../../include/tbl/vsc_all.h", 65, "(vsc)->magic == 0x3373554a", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
   st = (struct VSC_C_mempool *)vf->fantom.b;
-  struct VSC_desc *tmp_post$3 = descs;
+  struct VSC_desc *tmp_post_3 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->live, tmp_post$3, vf);
-  struct VSC_desc *tmp_post$4 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->live, tmp_post_3, vf);
+  struct VSC_desc *tmp_post_4 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->pool, tmp_post$4, vf);
-  struct VSC_desc *tmp_post$5 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->pool, tmp_post_4, vf);
+  struct VSC_desc *tmp_post_5 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->sz_wanted, tmp_post$5, vf);
-  struct VSC_desc *tmp_post$6 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->sz_wanted, tmp_post_5, vf);
+  struct VSC_desc *tmp_post_6 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->sz_needed, tmp_post$6, vf);
-  struct VSC_desc *tmp_post$7 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->sz_needed, tmp_post_6, vf);
+  struct VSC_desc *tmp_post_7 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->allocs, tmp_post$7, vf);
-  struct VSC_desc *tmp_post$8 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->allocs, tmp_post_7, vf);
+  struct VSC_desc *tmp_post_8 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->frees, tmp_post$8, vf);
-  struct VSC_desc *tmp_post$9 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->frees, tmp_post_8, vf);
+  struct VSC_desc *tmp_post_9 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->recycle, tmp_post$9, vf);
-  struct VSC_desc *tmp_post$10 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->recycle, tmp_post_9, vf);
+  struct VSC_desc *tmp_post_10 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->timeout, tmp_post$10, vf);
-  struct VSC_desc *tmp_post$11 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->timeout, tmp_post_10, vf);
+  struct VSC_desc *tmp_post_11 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->toosmall, tmp_post$11, vf);
-  struct VSC_desc *tmp_post$12 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->toosmall, tmp_post_11, vf);
+  struct VSC_desc *tmp_post_12 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->surplus, tmp_post$12, vf);
-  struct VSC_desc *tmp_post$13 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->surplus, tmp_post_12, vf);
+  struct VSC_desc *tmp_post_13 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->randry, tmp_post$13, vf);
+  vsc_add_pt(vsc, (const volatile void *)&st->randry, tmp_post_13, vf);
 }
 
 // iter_mgt
@@ -12404,44 +12404,44 @@ __CPROVER_DUMP_L1:
   {
     if(vsc == ((struct vsc *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("iter_mgt", "../../include/tbl/vsc_all.h", 31, "(vsc) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("iter_mgt", "../../include/tbl/vsc_all.h", 31, "(vsc) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsc->magic == 863196490u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("iter_mgt", "../../include/tbl/vsc_all.h", 31, "(vsc)->magic == 0x3373554a", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("iter_mgt", "../../include/tbl/vsc_all.h", 31, "(vsc)->magic == 0x3373554a", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
   st = (struct VSC_C_mgt *)vf->fantom.b;
-  struct VSC_desc *tmp_post$3 = descs;
+  struct VSC_desc *tmp_post_3 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->uptime, tmp_post$3, vf);
-  struct VSC_desc *tmp_post$4 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->uptime, tmp_post_3, vf);
+  struct VSC_desc *tmp_post_4 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->child_start, tmp_post$4, vf);
-  struct VSC_desc *tmp_post$5 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->child_start, tmp_post_4, vf);
+  struct VSC_desc *tmp_post_5 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->child_exit, tmp_post$5, vf);
-  struct VSC_desc *tmp_post$6 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->child_exit, tmp_post_5, vf);
+  struct VSC_desc *tmp_post_6 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->child_stop, tmp_post$6, vf);
-  struct VSC_desc *tmp_post$7 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->child_stop, tmp_post_6, vf);
+  struct VSC_desc *tmp_post_7 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->child_died, tmp_post$7, vf);
-  struct VSC_desc *tmp_post$8 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->child_died, tmp_post_7, vf);
+  struct VSC_desc *tmp_post_8 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->child_dump, tmp_post$8, vf);
-  struct VSC_desc *tmp_post$9 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->child_dump, tmp_post_8, vf);
+  struct VSC_desc *tmp_post_9 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->child_panic, tmp_post$9, vf);
+  vsc_add_pt(vsc, (const volatile void *)&st->child_panic, tmp_post_9, vf);
 }
 
 // iter_sma
@@ -12456,44 +12456,44 @@ __CPROVER_DUMP_L1:
   {
     if(vsc == ((struct vsc *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("iter_sma", "../../include/tbl/vsc_all.h", 47, "(vsc) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("iter_sma", "../../include/tbl/vsc_all.h", 47, "(vsc) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsc->magic == 863196490u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("iter_sma", "../../include/tbl/vsc_all.h", 47, "(vsc)->magic == 0x3373554a", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("iter_sma", "../../include/tbl/vsc_all.h", 47, "(vsc)->magic == 0x3373554a", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
   st = (struct VSC_C_sma *)vf->fantom.b;
-  struct VSC_desc *tmp_post$3 = descs;
+  struct VSC_desc *tmp_post_3 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->c_req, tmp_post$3, vf);
-  struct VSC_desc *tmp_post$4 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->c_req, tmp_post_3, vf);
+  struct VSC_desc *tmp_post_4 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->c_fail, tmp_post$4, vf);
-  struct VSC_desc *tmp_post$5 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->c_fail, tmp_post_4, vf);
+  struct VSC_desc *tmp_post_5 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->c_bytes, tmp_post$5, vf);
-  struct VSC_desc *tmp_post$6 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->c_bytes, tmp_post_5, vf);
+  struct VSC_desc *tmp_post_6 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->c_freed, tmp_post$6, vf);
-  struct VSC_desc *tmp_post$7 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->c_freed, tmp_post_6, vf);
+  struct VSC_desc *tmp_post_7 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->g_alloc, tmp_post$7, vf);
-  struct VSC_desc *tmp_post$8 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->g_alloc, tmp_post_7, vf);
+  struct VSC_desc *tmp_post_8 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->g_bytes, tmp_post$8, vf);
-  struct VSC_desc *tmp_post$9 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->g_bytes, tmp_post_8, vf);
+  struct VSC_desc *tmp_post_9 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->g_space, tmp_post$9, vf);
+  vsc_add_pt(vsc, (const volatile void *)&st->g_space, tmp_post_9, vf);
 }
 
 // iter_smf
@@ -12508,69 +12508,69 @@ __CPROVER_DUMP_L1:
   {
     if(vsc == ((struct vsc *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("iter_smf", "../../include/tbl/vsc_all.h", 53, "(vsc) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("iter_smf", "../../include/tbl/vsc_all.h", 53, "(vsc) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsc->magic == 863196490u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("iter_smf", "../../include/tbl/vsc_all.h", 53, "(vsc)->magic == 0x3373554a", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("iter_smf", "../../include/tbl/vsc_all.h", 53, "(vsc)->magic == 0x3373554a", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
   st = (struct VSC_C_smf *)vf->fantom.b;
-  struct VSC_desc *tmp_post$3 = descs;
+  struct VSC_desc *tmp_post_3 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->c_req, tmp_post$3, vf);
-  struct VSC_desc *tmp_post$4 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->c_req, tmp_post_3, vf);
+  struct VSC_desc *tmp_post_4 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->c_fail, tmp_post$4, vf);
-  struct VSC_desc *tmp_post$5 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->c_fail, tmp_post_4, vf);
+  struct VSC_desc *tmp_post_5 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->c_bytes, tmp_post$5, vf);
-  struct VSC_desc *tmp_post$6 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->c_bytes, tmp_post_5, vf);
+  struct VSC_desc *tmp_post_6 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->c_freed, tmp_post$6, vf);
-  struct VSC_desc *tmp_post$7 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->c_freed, tmp_post_6, vf);
+  struct VSC_desc *tmp_post_7 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->g_alloc, tmp_post$7, vf);
-  struct VSC_desc *tmp_post$8 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->g_alloc, tmp_post_7, vf);
+  struct VSC_desc *tmp_post_8 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->g_bytes, tmp_post$8, vf);
-  struct VSC_desc *tmp_post$9 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->g_bytes, tmp_post_8, vf);
+  struct VSC_desc *tmp_post_9 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->g_space, tmp_post$9, vf);
-  struct VSC_desc *tmp_post$10 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->g_space, tmp_post_9, vf);
+  struct VSC_desc *tmp_post_10 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->g_smf, tmp_post$10, vf);
-  struct VSC_desc *tmp_post$11 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->g_smf, tmp_post_10, vf);
+  struct VSC_desc *tmp_post_11 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->g_smf_frag, tmp_post$11, vf);
-  struct VSC_desc *tmp_post$12 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->g_smf_frag, tmp_post_11, vf);
+  struct VSC_desc *tmp_post_12 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->g_smf_large, tmp_post$12, vf);
+  vsc_add_pt(vsc, (const volatile void *)&st->g_smf_large, tmp_post_12, vf);
 }
 
 // iter_test
 // file vsc.c line 454
 static inline signed int iter_test(const char *s1, const char *s2, signed int wc)
 {
-  signed int return_value_strcmp$1;
-  _Bool tmp_if_expr$2;
+  signed int return_value_strcmp_1;
+  _Bool tmp_if_expr_2;
   if(s1 == ((const char *)NULL))
     return 0;
 
   else
     if(wc == 0)
     {
-      return_value_strcmp$1=strcmp(s1, s2);
-      return return_value_strcmp$1;
+      return_value_strcmp_1=strcmp(s1, s2);
+      return return_value_strcmp_1;
     }
 
     else
@@ -12578,11 +12578,11 @@ static inline signed int iter_test(const char *s1, const char *s2, signed int wc
       do
       {
         if(!((signed int)*s1 == 0))
-          tmp_if_expr$2 = *s1 == *s2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = *s1 == *s2 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(!tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(!tmp_if_expr_2)
           break;
 
         s1 = s1 + 1l;
@@ -12605,50 +12605,50 @@ __CPROVER_DUMP_L1:
   {
     if(vsc == ((struct vsc *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("iter_vbe", "../../include/tbl/vsc_all.h", 59, "(vsc) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("iter_vbe", "../../include/tbl/vsc_all.h", 59, "(vsc) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsc->magic == 863196490u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("iter_vbe", "../../include/tbl/vsc_all.h", 59, "(vsc)->magic == 0x3373554a", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("iter_vbe", "../../include/tbl/vsc_all.h", 59, "(vsc)->magic == 0x3373554a", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
   st = (struct VSC_C_vbe *)vf->fantom.b;
-  struct VSC_desc *tmp_post$3 = descs;
+  struct VSC_desc *tmp_post_3 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->vcls, tmp_post$3, vf);
-  struct VSC_desc *tmp_post$4 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->vcls, tmp_post_3, vf);
+  struct VSC_desc *tmp_post_4 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->happy, tmp_post$4, vf);
-  struct VSC_desc *tmp_post$5 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->happy, tmp_post_4, vf);
+  struct VSC_desc *tmp_post_5 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->bereq_hdrbytes, tmp_post$5, vf);
-  struct VSC_desc *tmp_post$6 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->bereq_hdrbytes, tmp_post_5, vf);
+  struct VSC_desc *tmp_post_6 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->bereq_bodybytes, tmp_post$6, vf);
-  struct VSC_desc *tmp_post$7 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->bereq_bodybytes, tmp_post_6, vf);
+  struct VSC_desc *tmp_post_7 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->beresp_hdrbytes, tmp_post$7, vf);
-  struct VSC_desc *tmp_post$8 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->beresp_hdrbytes, tmp_post_7, vf);
+  struct VSC_desc *tmp_post_8 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->beresp_bodybytes, tmp_post$8, vf);
-  struct VSC_desc *tmp_post$9 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->beresp_bodybytes, tmp_post_8, vf);
+  struct VSC_desc *tmp_post_9 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->pipe_hdrbytes, tmp_post$9, vf);
-  struct VSC_desc *tmp_post$10 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->pipe_hdrbytes, tmp_post_9, vf);
+  struct VSC_desc *tmp_post_10 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->pipe_out, tmp_post$10, vf);
-  struct VSC_desc *tmp_post$11 = descs;
+  vsc_add_pt(vsc, (const volatile void *)&st->pipe_out, tmp_post_10, vf);
+  struct VSC_desc *tmp_post_11 = descs;
   descs = descs + 1l;
-  vsc_add_pt(vsc, (const volatile void *)&st->pipe_in, tmp_post$11, vf);
+  vsc_add_pt(vsc, (const volatile void *)&st->pipe_in, tmp_post_11, vf);
 }
 
 // main
@@ -12659,9 +12659,9 @@ signed int main(signed int argc, char **argv)
   signed int once = 0;
   unsigned long int thr;
   VUT_Init(progname);
-  signed int *return_value___errno_location$3;
-  signed long int return_value_strtol$4;
-  signed int *return_value___errno_location$5;
+  signed int *return_value___errno_location_3;
+  signed long int return_value_strtol_4;
+  signed int *return_value___errno_location_5;
   do
   {
     o=getopt(argc, argv, vopt_optstring);
@@ -12677,13 +12677,13 @@ signed int main(signed int argc, char **argv)
 
         __CPROVER_DUMP_L2:
           ;
-          signed int return_value_VUT_Arg$2;
-          return_value_VUT_Arg$2=VUT_Arg(100, (const char *)(void *)0);
-          if(return_value_VUT_Arg$2 == 0)
+          signed int return_value_VUT_Arg_2;
+          return_value_VUT_Arg_2=VUT_Arg(100, (const char *)(void *)0);
+          if(return_value_VUT_Arg_2 == 0)
           {
-            signed int *return_value___errno_location$1;
-            return_value___errno_location$1=__errno_location();
-            VAS_Fail("main", "varnishtop.c", 330, "(VUT_Arg('d', ((void *)0))) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_1;
+            return_value___errno_location_1=__errno_location();
+            VAS_Fail("main", "varnishtop.c", 330, "(VUT_Arg('d', ((void *)0))) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
           }
 
         }
@@ -12700,12 +12700,12 @@ signed int main(signed int argc, char **argv)
         usage(0);
       case 112:
       {
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = 0;
-        return_value_strtol$4=strtol(optarg, (char ** restrict )(void *)0, 0);
-        period = (float)return_value_strtol$4;
-        return_value___errno_location$5=__errno_location();
-        if(!(*return_value___errno_location$5 == 0))
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = 0;
+        return_value_strtol_4=strtol(optarg, (char ** restrict )(void *)0, 0);
+        period = (float)return_value_strtol_4;
+        return_value___errno_location_5=__errno_location();
+        if(!(*return_value___errno_location_5 == 0))
         {
           fprintf(stderr, "Syntax error, %s is not a number", optarg);
           exit(1);
@@ -12715,9 +12715,9 @@ signed int main(signed int argc, char **argv)
       }
       default:
       {
-        signed int return_value_VUT_Arg$6;
-        return_value_VUT_Arg$6=VUT_Arg(o, optarg);
-        if(return_value_VUT_Arg$6 == 0)
+        signed int return_value_VUT_Arg_6;
+        return_value_VUT_Arg_6=VUT_Arg(o, optarg);
+        if(return_value_VUT_Arg_6 == 0)
           usage(1);
 
       }
@@ -12727,15 +12727,15 @@ signed int main(signed int argc, char **argv)
   VUT_Setup();
   if(once == 0)
   {
-    signed int return_value_pthread_create$9;
-    return_value_pthread_create$9=pthread_create(&thr, (const union pthread_attr_t *)(void *)0, do_curses, (void *)0);
-    if(!(return_value_pthread_create$9 == 0))
+    signed int return_value_pthread_create_9;
+    return_value_pthread_create_9=pthread_create(&thr, (const union pthread_attr_t *)(void *)0, do_curses, (void *)0);
+    if(!(return_value_pthread_create_9 == 0))
     {
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      char *return_value_strerror$8;
-      return_value_strerror$8=strerror(*return_value___errno_location$7);
-      fprintf(stderr, "pthread_create(): %s\n", return_value_strerror$8);
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      char *return_value_strerror_8;
+      return_value_strerror_8=strerror(*return_value___errno_location_7);
+      fprintf(stderr, "pthread_create(): %s\n", return_value_strerror_8);
       exit(1);
     }
 
@@ -12775,15 +12775,15 @@ static signed int read_tmo(signed int fd, char *ptr, unsigned int len, double tm
     i=poll(&pfd, (unsigned long int)1, to);
     if(i == 0)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 110;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 110;
       return -1;
     }
 
-    signed long int return_value_read$2;
-    return_value_read$2=read(fd, (void *)ptr, (unsigned long int)len);
-    i = (signed int)return_value_read$2;
+    signed long int return_value_read_2;
+    return_value_read_2=read(fd, (void *)ptr, (unsigned long int)len);
+    i = (signed int)return_value_read_2;
     if(!(i >= 0))
       return i;
 
@@ -13120,7 +13120,7 @@ struct top * t_key_VRB_MINMAX(struct t_key *head, signed int val)
 // file varnishtop.c line 114
 struct top * t_key_VRB_NEXT(struct top *elm)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(elm->e_key.rbe_right == ((struct top *)NULL)))
   {
     elm = elm->e_key.rbe_right;
@@ -13131,11 +13131,11 @@ struct top * t_key_VRB_NEXT(struct top *elm)
   else
   {
     if(!(elm->e_key.rbe_parent == ((struct top *)NULL)))
-      tmp_if_expr$1 = elm == elm->e_key.rbe_parent->e_key.rbe_left ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = elm == elm->e_key.rbe_parent->e_key.rbe_left ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       elm = elm->e_key.rbe_parent;
 
     else
@@ -13180,7 +13180,7 @@ struct top * t_key_VRB_NFIND(struct t_key *head, struct top *elm)
 // file varnishtop.c line 114
 struct top * t_key_VRB_PREV(struct top *elm)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(elm->e_key.rbe_left == ((struct top *)NULL)))
   {
     elm = elm->e_key.rbe_left;
@@ -13191,11 +13191,11 @@ struct top * t_key_VRB_PREV(struct top *elm)
   else
   {
     if(!(elm->e_key.rbe_parent == ((struct top *)NULL)))
-      tmp_if_expr$1 = elm == elm->e_key.rbe_parent->e_key.rbe_right ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = elm == elm->e_key.rbe_parent->e_key.rbe_right ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       elm = elm->e_key.rbe_parent;
 
     else
@@ -13330,14 +13330,14 @@ color:
 void t_key_VRB_REMOVE_COLOR(struct t_key *head, struct top *parent, struct top *elm)
 {
   struct top *tmp;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_6;
   while((_Bool)1)
   {
     if(!(elm == ((struct top *)NULL)))
@@ -13356,9 +13356,9 @@ void t_key_VRB_REMOVE_COLOR(struct t_key *head, struct top *parent, struct top *
     do
       if(parent == ((struct top *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("t_key_VRB_REMOVE_COLOR", "varnishtop.c", 114, "(parent) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("t_key_VRB_REMOVE_COLOR", "varnishtop.c", 114, "(parent) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -13411,23 +13411,23 @@ void t_key_VRB_REMOVE_COLOR(struct t_key *head, struct top *parent, struct top *
       }
 
       if(tmp->e_key.rbe_left == ((struct top *)NULL))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = tmp->e_key.rbe_left->e_key.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = tmp->e_key.rbe_left->e_key.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
         if(tmp->e_key.rbe_right == ((struct top *)NULL))
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = tmp->e_key.rbe_right->e_key.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = tmp->e_key.rbe_right->e_key.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
       {
         tmp->e_key.rbe_color = 1;
         elm = parent;
@@ -13437,11 +13437,11 @@ void t_key_VRB_REMOVE_COLOR(struct t_key *head, struct top *parent, struct top *
       else
       {
         if(tmp->e_key.rbe_right == ((struct top *)NULL))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = tmp->e_key.rbe_right->e_key.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = tmp->e_key.rbe_right->e_key.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
         {
           struct top *oleft = tmp->e_key.rbe_left;
           if(!(oleft == ((struct top *)NULL)))
@@ -13578,23 +13578,23 @@ void t_key_VRB_REMOVE_COLOR(struct t_key *head, struct top *parent, struct top *
       }
 
       if(tmp->e_key.rbe_left == ((struct top *)NULL))
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = tmp->e_key.rbe_left->e_key.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = tmp->e_key.rbe_left->e_key.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
       {
         if(tmp->e_key.rbe_right == ((struct top *)NULL))
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
-          tmp_if_expr$8 = tmp->e_key.rbe_right->e_key.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$9 = tmp_if_expr$8 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = tmp->e_key.rbe_right->e_key.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_9 = tmp_if_expr_8 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$9 = (_Bool)0;
-      if(tmp_if_expr$9)
+        tmp_if_expr_9 = (_Bool)0;
+      if(tmp_if_expr_9)
       {
         tmp->e_key.rbe_color = 1;
         elm = parent;
@@ -13604,11 +13604,11 @@ void t_key_VRB_REMOVE_COLOR(struct t_key *head, struct top *parent, struct top *
       else
       {
         if(tmp->e_key.rbe_left == ((struct top *)NULL))
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = tmp->e_key.rbe_left->e_key.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = tmp->e_key.rbe_left->e_key.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
         {
           struct top *oright = tmp->e_key.rbe_right;
           if(!(oright == ((struct top *)NULL)))
@@ -14027,7 +14027,7 @@ struct top * t_order_VRB_MINMAX(struct t_order *head, signed int val)
 // file varnishtop.c line 112
 struct top * t_order_VRB_NEXT(struct top *elm)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(elm->e_order.rbe_right == ((struct top *)NULL)))
   {
     elm = elm->e_order.rbe_right;
@@ -14038,11 +14038,11 @@ struct top * t_order_VRB_NEXT(struct top *elm)
   else
   {
     if(!(elm->e_order.rbe_parent == ((struct top *)NULL)))
-      tmp_if_expr$1 = elm == elm->e_order.rbe_parent->e_order.rbe_left ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = elm == elm->e_order.rbe_parent->e_order.rbe_left ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       elm = elm->e_order.rbe_parent;
 
     else
@@ -14087,7 +14087,7 @@ struct top * t_order_VRB_NFIND(struct t_order *head, struct top *elm)
 // file varnishtop.c line 112
 struct top * t_order_VRB_PREV(struct top *elm)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(elm->e_order.rbe_left == ((struct top *)NULL)))
   {
     elm = elm->e_order.rbe_left;
@@ -14098,11 +14098,11 @@ struct top * t_order_VRB_PREV(struct top *elm)
   else
   {
     if(!(elm->e_order.rbe_parent == ((struct top *)NULL)))
-      tmp_if_expr$1 = elm == elm->e_order.rbe_parent->e_order.rbe_right ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = elm == elm->e_order.rbe_parent->e_order.rbe_right ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       elm = elm->e_order.rbe_parent;
 
     else
@@ -14237,14 +14237,14 @@ color:
 void t_order_VRB_REMOVE_COLOR(struct t_order *head, struct top *parent, struct top *elm)
 {
   struct top *tmp;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_6;
   while((_Bool)1)
   {
     if(!(elm == ((struct top *)NULL)))
@@ -14263,9 +14263,9 @@ void t_order_VRB_REMOVE_COLOR(struct t_order *head, struct top *parent, struct t
     do
       if(parent == ((struct top *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("t_order_VRB_REMOVE_COLOR", "varnishtop.c", 112, "(parent) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("t_order_VRB_REMOVE_COLOR", "varnishtop.c", 112, "(parent) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -14318,23 +14318,23 @@ void t_order_VRB_REMOVE_COLOR(struct t_order *head, struct top *parent, struct t
       }
 
       if(tmp->e_order.rbe_left == ((struct top *)NULL))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = tmp->e_order.rbe_left->e_order.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = tmp->e_order.rbe_left->e_order.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
         if(tmp->e_order.rbe_right == ((struct top *)NULL))
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = tmp->e_order.rbe_right->e_order.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = tmp->e_order.rbe_right->e_order.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
       {
         tmp->e_order.rbe_color = 1;
         elm = parent;
@@ -14344,11 +14344,11 @@ void t_order_VRB_REMOVE_COLOR(struct t_order *head, struct top *parent, struct t
       else
       {
         if(tmp->e_order.rbe_right == ((struct top *)NULL))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = tmp->e_order.rbe_right->e_order.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = tmp->e_order.rbe_right->e_order.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
         {
           struct top *oleft = tmp->e_order.rbe_left;
           if(!(oleft == ((struct top *)NULL)))
@@ -14485,23 +14485,23 @@ void t_order_VRB_REMOVE_COLOR(struct t_order *head, struct top *parent, struct t
       }
 
       if(tmp->e_order.rbe_left == ((struct top *)NULL))
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = tmp->e_order.rbe_left->e_order.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = tmp->e_order.rbe_left->e_order.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
       {
         if(tmp->e_order.rbe_right == ((struct top *)NULL))
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
-          tmp_if_expr$8 = tmp->e_order.rbe_right->e_order.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$9 = tmp_if_expr$8 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = tmp->e_order.rbe_right->e_order.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_9 = tmp_if_expr_8 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$9 = (_Bool)0;
-      if(tmp_if_expr$9)
+        tmp_if_expr_9 = (_Bool)0;
+      if(tmp_if_expr_9)
       {
         tmp->e_order.rbe_color = 1;
         elm = parent;
@@ -14511,11 +14511,11 @@ void t_order_VRB_REMOVE_COLOR(struct t_order *head, struct top *parent, struct t
       else
       {
         if(tmp->e_order.rbe_left == ((struct top *)NULL))
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = tmp->e_order.rbe_left->e_order.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = tmp->e_order.rbe_left->e_order.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
         {
           struct top *oright = tmp->e_order.rbe_right;
           if(!(oright == ((struct top *)NULL)))
@@ -14622,8 +14622,8 @@ static void update(signed int p)
   double t = (double)0;
   signed long int now;
   now=time((signed long int *)(void *)0);
-  unsigned long int return_value_strlen$1;
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_1;
+  unsigned long int return_value_strlen_2;
   static signed long int last = (signed long int)0;
   if(!(now == last))
   {
@@ -14636,14 +14636,14 @@ static void update(signed int p)
     werase(stdscr);
     if(!(end_of_file == 0))
     {
-      return_value_strlen$1=strlen(VUT.name);
-      mvprintw(0, (signed int)(((unsigned long int)(COLS - 1) - return_value_strlen$1) - (unsigned long int)5), "%s (EOF)", VUT.name);
+      return_value_strlen_1=strlen(VUT.name);
+      mvprintw(0, (signed int)(((unsigned long int)(COLS - 1) - return_value_strlen_1) - (unsigned long int)5), "%s (EOF)", VUT.name);
     }
 
     else
     {
-      return_value_strlen$2=strlen(VUT.name);
-      mvprintw(0, (signed int)((unsigned long int)(COLS - 1) - return_value_strlen$2), "%s", VUT.name);
+      return_value_strlen_2=strlen(VUT.name);
+      mvprintw(0, (signed int)((unsigned long int)(COLS - 1) - return_value_strlen_2), "%s", VUT.name);
     }
     mvprintw(0, 0, "list length %u", ntop);
     tp=t_order_VRB_MINMAX(&h_order, -1);
@@ -14743,26 +14743,26 @@ static inline void vbit_destroy(struct vbitmap *vb)
 
 }
 
-// vbit_destroy$link1
+// vbit_destroy_link1
 // file ../../include/vbm.h line 75
-static inline void vbit_destroy$link1(struct vbitmap *vb$link1)
+static inline void vbit_destroy_link1(struct vbitmap *vb_link1)
 {
-  if(!(vb$link1 == ((struct vbitmap *)NULL)))
+  if(!(vb_link1 == ((struct vbitmap *)NULL)))
   {
-    free((void *)vb$link1->bits);
-    free((void *)vb$link1);
+    free((void *)vb_link1->bits);
+    free((void *)vb_link1);
   }
 
 }
 
-// vbit_destroy$link2
+// vbit_destroy_link2
 // file ../../include/vbm.h line 75
-static inline void vbit_destroy$link2(struct vbitmap *vb$link2)
+static inline void vbit_destroy_link2(struct vbitmap *vb_link2)
 {
-  if(!(vb$link2 == ((struct vbitmap *)NULL)))
+  if(!(vb_link2 == ((struct vbitmap *)NULL)))
   {
-    free((void *)vb$link2->bits);
-    free((void *)vb$link2);
+    free((void *)vb_link2->bits);
+    free((void *)vb_link2);
   }
 
 }
@@ -14774,15 +14774,15 @@ static inline void vbit_expand(struct vbitmap *vb, unsigned int bit)
   unsigned char *p;
   bit = bit + (unsigned int)(1024 - 1);
   bit = bit - bit % (unsigned int)1024;
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)vb->bits, (unsigned long int)(bit / (unsigned int)8));
-  p = (unsigned char *)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)vb->bits, (unsigned long int)(bit / (unsigned int)8));
+  p = (unsigned char *)return_value_realloc_1;
   do
     if(p == ((unsigned char *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vbit_expand", "../../include/vbm.h", 55, "p != NULL", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vbit_expand", "../../include/vbm.h", 55, "p != NULL", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -14791,52 +14791,52 @@ static inline void vbit_expand(struct vbitmap *vb, unsigned int bit)
   vb->nbits = bit;
 }
 
-// vbit_expand$link1
+// vbit_expand_link1
 // file ../../include/vbm.h line 48
-static inline void vbit_expand$link1(struct vbitmap *vb$link1, unsigned int bit$link1)
+static inline void vbit_expand_link1(struct vbitmap *vb_link1, unsigned int bit_link1)
 {
-  unsigned char *p$link1;
-  bit$link1 = bit$link1 + (unsigned int)(1024 - 1);
-  bit$link1 = bit$link1 - bit$link1 % (unsigned int)1024;
-  void *return_value_realloc$1$link1;
-  return_value_realloc$1$link1=realloc((void *)vb$link1->bits, (unsigned long int)(bit$link1 / (unsigned int)8));
-  p$link1 = (unsigned char *)return_value_realloc$1$link1;
+  unsigned char *p_link1;
+  bit_link1 = bit_link1 + (unsigned int)(1024 - 1);
+  bit_link1 = bit_link1 - bit_link1 % (unsigned int)1024;
+  void *return_value_realloc_1_link1;
+  return_value_realloc_1_link1=realloc((void *)vb_link1->bits, (unsigned long int)(bit_link1 / (unsigned int)8));
+  p_link1 = (unsigned char *)return_value_realloc_1_link1;
   do
-    if(p$link1 == ((unsigned char *)NULL))
+    if(p_link1 == ((unsigned char *)NULL))
     {
-      signed int *return_value___errno_location$2$link1;
-      return_value___errno_location$2$link1=__errno_location();
-      VAS_Fail("vbit_expand", "../../include/vbm.h", 55, "p != NULL", *return_value___errno_location$2$link1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2_link1;
+      return_value___errno_location_2_link1=__errno_location();
+      VAS_Fail("vbit_expand", "../../include/vbm.h", 55, "p != NULL", *return_value___errno_location_2_link1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
-  memset((void *)(p$link1 + (signed long int)(vb$link1->nbits / (unsigned int)8)), 0, (unsigned long int)((bit$link1 - vb$link1->nbits) / (unsigned int)8));
-  vb$link1->bits = (unsigned int *)(void *)p$link1;
-  vb$link1->nbits = bit$link1;
+  memset((void *)(p_link1 + (signed long int)(vb_link1->nbits / (unsigned int)8)), 0, (unsigned long int)((bit_link1 - vb_link1->nbits) / (unsigned int)8));
+  vb_link1->bits = (unsigned int *)(void *)p_link1;
+  vb_link1->nbits = bit_link1;
 }
 
-// vbit_expand$link2
+// vbit_expand_link2
 // file ../../include/vbm.h line 48
-static inline void vbit_expand$link2(struct vbitmap *vb$link2, unsigned int bit$link2)
+static inline void vbit_expand_link2(struct vbitmap *vb_link2, unsigned int bit_link2)
 {
-  unsigned char *p$link2;
-  bit$link2 = bit$link2 + (unsigned int)(1024 - 1);
-  bit$link2 = bit$link2 - bit$link2 % (unsigned int)1024;
-  void *return_value_realloc$1$link2;
-  return_value_realloc$1$link2=realloc((void *)vb$link2->bits, (unsigned long int)(bit$link2 / (unsigned int)8));
-  p$link2 = (unsigned char *)return_value_realloc$1$link2;
+  unsigned char *p_link2;
+  bit_link2 = bit_link2 + (unsigned int)(1024 - 1);
+  bit_link2 = bit_link2 - bit_link2 % (unsigned int)1024;
+  void *return_value_realloc_1_link2;
+  return_value_realloc_1_link2=realloc((void *)vb_link2->bits, (unsigned long int)(bit_link2 / (unsigned int)8));
+  p_link2 = (unsigned char *)return_value_realloc_1_link2;
   do
-    if(p$link2 == ((unsigned char *)NULL))
+    if(p_link2 == ((unsigned char *)NULL))
     {
-      signed int *return_value___errno_location$2$link2;
-      return_value___errno_location$2$link2=__errno_location();
-      VAS_Fail("vbit_expand", "../../include/vbm.h", 55, "p != NULL", *return_value___errno_location$2$link2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2_link2;
+      return_value___errno_location_2_link2=__errno_location();
+      VAS_Fail("vbit_expand", "../../include/vbm.h", 55, "p != NULL", *return_value___errno_location_2_link2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
-  memset((void *)(p$link2 + (signed long int)(vb$link2->nbits / (unsigned int)8)), 0, (unsigned long int)((bit$link2 - vb$link2->nbits) / (unsigned int)8));
-  vb$link2->bits = (unsigned int *)(void *)p$link2;
-  vb$link2->nbits = bit$link2;
+  memset((void *)(p_link2 + (signed long int)(vb_link2->nbits / (unsigned int)8)), 0, (unsigned long int)((bit_link2 - vb_link2->nbits) / (unsigned int)8));
+  vb_link2->bits = (unsigned int *)(void *)p_link2;
+  vb_link2->nbits = bit_link2;
 }
 
 // vbit_init
@@ -14844,15 +14844,15 @@ static inline void vbit_expand$link2(struct vbitmap *vb$link2, unsigned int bit$
 static inline struct vbitmap * vbit_init(unsigned int initial)
 {
   struct vbitmap *vb;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(sizeof(struct vbitmap) /*16ul*/ , (unsigned long int)1);
-  vb = (struct vbitmap *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(sizeof(struct vbitmap) /*16ul*/ , (unsigned long int)1);
+  vb = (struct vbitmap *)return_value_calloc_1;
   do
     if(vb == ((struct vbitmap *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vbit_init", "../../include/vbm.h", 67, "vb != NULL", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vbit_init", "../../include/vbm.h", 67, "vb != NULL", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -14863,52 +14863,52 @@ static inline struct vbitmap * vbit_init(unsigned int initial)
   return vb;
 }
 
-// vbit_init$link1
+// vbit_init_link1
 // file ../../include/vbm.h line 62
-static inline struct vbitmap * vbit_init$link1(unsigned int initial$link1)
+static inline struct vbitmap * vbit_init_link1(unsigned int initial_link1)
 {
-  struct vbitmap *vb$link1;
-  void *return_value_calloc$1$link1;
-  return_value_calloc$1$link1=calloc(sizeof(struct vbitmap) /*16ul*/ , (unsigned long int)1);
-  vb$link1 = (struct vbitmap *)return_value_calloc$1$link1;
+  struct vbitmap *vb_link1;
+  void *return_value_calloc_1_link1;
+  return_value_calloc_1_link1=calloc(sizeof(struct vbitmap) /*16ul*/ , (unsigned long int)1);
+  vb_link1 = (struct vbitmap *)return_value_calloc_1_link1;
   do
-    if(vb$link1 == ((struct vbitmap *)NULL))
+    if(vb_link1 == ((struct vbitmap *)NULL))
     {
-      signed int *return_value___errno_location$2$link1;
-      return_value___errno_location$2$link1=__errno_location();
-      VAS_Fail("vbit_init", "../../include/vbm.h", 67, "vb != NULL", *return_value___errno_location$2$link1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2_link1;
+      return_value___errno_location_2_link1=__errno_location();
+      VAS_Fail("vbit_init", "../../include/vbm.h", 67, "vb != NULL", *return_value___errno_location_2_link1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
-  if(initial$link1 == 0u)
-    initial$link1 = (unsigned int)1024;
+  if(initial_link1 == 0u)
+    initial_link1 = (unsigned int)1024;
 
-  vbit_expand$link1(vb$link1, initial$link1);
-  return vb$link1;
+  vbit_expand_link1(vb_link1, initial_link1);
+  return vb_link1;
 }
 
-// vbit_init$link2
+// vbit_init_link2
 // file ../../include/vbm.h line 62
-static inline struct vbitmap * vbit_init$link2(unsigned int initial$link2)
+static inline struct vbitmap * vbit_init_link2(unsigned int initial_link2)
 {
-  struct vbitmap *vb$link2;
-  void *return_value_calloc$1$link2;
-  return_value_calloc$1$link2=calloc(sizeof(struct vbitmap) /*16ul*/ , (unsigned long int)1);
-  vb$link2 = (struct vbitmap *)return_value_calloc$1$link2;
+  struct vbitmap *vb_link2;
+  void *return_value_calloc_1_link2;
+  return_value_calloc_1_link2=calloc(sizeof(struct vbitmap) /*16ul*/ , (unsigned long int)1);
+  vb_link2 = (struct vbitmap *)return_value_calloc_1_link2;
   do
-    if(vb$link2 == ((struct vbitmap *)NULL))
+    if(vb_link2 == ((struct vbitmap *)NULL))
     {
-      signed int *return_value___errno_location$2$link2;
-      return_value___errno_location$2$link2=__errno_location();
-      VAS_Fail("vbit_init", "../../include/vbm.h", 67, "vb != NULL", *return_value___errno_location$2$link2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2_link2;
+      return_value___errno_location_2_link2=__errno_location();
+      VAS_Fail("vbit_init", "../../include/vbm.h", 67, "vb != NULL", *return_value___errno_location_2_link2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
-  if(initial$link2 == 0u)
-    initial$link2 = (unsigned int)1024;
+  if(initial_link2 == 0u)
+    initial_link2 = (unsigned int)1024;
 
-  vbit_expand$link2(vb$link2, initial$link2);
-  return vb$link2;
+  vbit_expand_link2(vb_link2, initial_link2);
+  return vb_link2;
 }
 
 // vbit_set
@@ -14932,15 +14932,15 @@ static inline signed int vbit_test(struct vbitmap *vb, unsigned int bit)
     return (signed int)(vb->bits[(signed long int)((unsigned long int)bit / (sizeof(unsigned int) /*4ul*/  * (unsigned long int)8))] & 1U << (unsigned long int)bit % (sizeof(unsigned int) /*4ul*/  * (unsigned long int)8));
 }
 
-// vbit_test$link1
+// vbit_test_link1
 // file ../../include/vbm.h line 102
-static inline signed int vbit_test$link1(struct vbitmap *vb$link1, unsigned int bit$link1)
+static inline signed int vbit_test_link1(struct vbitmap *vb_link1, unsigned int bit_link1)
 {
-  if(bit$link1 >= vb$link1->nbits)
+  if(bit_link1 >= vb_link1->nbits)
     return 0;
 
   else
-    return (signed int)(vb$link1->bits[(signed long int)((unsigned long int)bit$link1 / (sizeof(unsigned int) /*4ul*/  * (unsigned long int)8))] & 1U << (unsigned long int)bit$link1 % (sizeof(unsigned int) /*4ul*/  * (unsigned long int)8));
+    return (signed int)(vb_link1->bits[(signed long int)((unsigned long int)bit_link1 / (sizeof(unsigned int) /*4ul*/  * (unsigned long int)8))] & 1U << (unsigned long int)bit_link1 % (sizeof(unsigned int) /*4ul*/  * (unsigned long int)8));
 }
 
 // vex_Free
@@ -14950,7 +14950,7 @@ void vex_Free(struct vex **pvex)
   if(!((*pvex)->lhs == ((struct vex_lhs *)NULL)))
   {
     if(!((*pvex)->lhs->tags == ((struct vbitmap *)NULL)))
-      vbit_destroy$link2((*pvex)->lhs->tags);
+      vbit_destroy_link2((*pvex)->lhs->tags);
 
     if(!((*pvex)->lhs->prefix == ((char *)NULL)))
       free((void *)(*pvex)->lhs->prefix);
@@ -14988,9 +14988,9 @@ void vex_Free(struct vex **pvex)
     do
       if(!((*pvex)->a == ((struct vex *)NULL)))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("vex_Free", "vxp_parse.c", 519, "((*pvex)->a) == 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("vex_Free", "vxp_parse.c", 519, "((*pvex)->a) == 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -15005,9 +15005,9 @@ void vex_Free(struct vex **pvex)
     do
       if(!((*pvex)->b == ((struct vex *)NULL)))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vex_Free", "vxp_parse.c", 523, "((*pvex)->b) == 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vex_Free", "vxp_parse.c", 523, "((*pvex)->b) == 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -15034,9 +15034,9 @@ __CPROVER_DUMP_L1:
   do
     if(query == ((const char *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vex_New", "vxp.c", 204, "(query) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vex_New", "vxp.c", 204, "(query) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -15046,17 +15046,17 @@ __CPROVER_DUMP_L3:
   do
     if(sb == ((struct vsb *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vex_New", "vxp.c", 205, "(sb) != 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vex_New", "vxp.c", 205, "(sb) != 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   vxp=vxp_New(sb);
   vxp->b = query;
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(query);
-  vxp->e = query + (signed long int)return_value_strlen$3;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(query);
+  vxp->e = query + (signed long int)return_value_strlen_3;
   vxp->vex_options = options;
   if(!((1u & options) == 0u))
     vxp->vre_options = vxp->vre_options | (signed int)VRE_CASELESS;
@@ -15071,9 +15071,9 @@ __CPROVER_DUMP_L3:
     do
       if(!(vxp == ((struct vxp *)NULL)))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        VAS_Fail("vex_New", "vxp.c", 221, "(vxp) == 0", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        VAS_Fail("vex_New", "vxp.c", 221, "(vxp) == 0", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -15090,9 +15090,9 @@ __CPROVER_DUMP_L3:
     do
       if(!(vxp == ((struct vxp *)NULL)))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        VAS_Fail("vex_New", "vxp.c", 233, "(vxp) == 0", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        VAS_Fail("vex_New", "vxp.c", 233, "(vxp) == 0", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -15107,9 +15107,9 @@ static struct vex * vex_alloc(struct vxp *vxp)
   struct vex *vex;
   do
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(sizeof(struct vex) /*48ul*/ , (unsigned long int)1);
-    vex = (struct vex *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(sizeof(struct vex) /*48ul*/ , (unsigned long int)1);
+    vex = (struct vex *)return_value_calloc_1;
     if(!(vex == ((struct vex *)NULL)))
       vex->magic = 0xC7DB792D;
 
@@ -15121,9 +15121,9 @@ __CPROVER_DUMP_L3:
   do
     if(vex == ((struct vex *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vex_alloc", "vxp_parse.c", 58, "(vex) != 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vex_alloc", "vxp_parse.c", 58, "(vex) != 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -15141,21 +15141,21 @@ static signed int vpf_read(const char *path, signed int *pidptr)
   signed int fd;
   signed int i;
   fd=open(path, 00);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(fd == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return *return_value___errno_location$1;
+    return_value___errno_location_1=__errno_location();
+    return *return_value___errno_location_1;
   }
 
   else
   {
-    signed long int return_value_read$2;
-    return_value_read$2=read(fd, (void *)buf, sizeof(char [16l]) /*16ul*/  - (unsigned long int)1);
-    i = (signed int)return_value_read$2;
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    error = *return_value___errno_location$3;
+    signed long int return_value_read_2;
+    return_value_read_2=read(fd, (void *)buf, sizeof(char [16l]) /*16ul*/  - (unsigned long int)1);
+    i = (signed int)return_value_read_2;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    error = *return_value___errno_location_3;
     close(fd);
     if(i == -1)
       return error;
@@ -15163,9 +15163,9 @@ static signed int vpf_read(const char *path, signed int *pidptr)
     else
     {
       buf[(signed long int)i] = (char)0;
-      signed long int return_value_strtol$4;
-      return_value_strtol$4=strtol(buf, &endptr, 10);
-      *pidptr = (signed int)return_value_strtol$4;
+      signed long int return_value_strtol_4;
+      return_value_strtol_4=strtol(buf, &endptr, 10);
+      *pidptr = (signed int)return_value_strtol_4;
       if(!(endptr == buf + (signed long int)i))
         return 22;
 
@@ -15180,35 +15180,35 @@ static signed int vpf_read(const char *path, signed int *pidptr)
 static signed int vpf_verify(struct vpf_fh *pfh)
 {
   struct stat sb;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(pfh == ((struct vpf_fh *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = pfh->pf_fd == -1 ? (_Bool)1 : (_Bool)0;
-  signed int *return_value___errno_location$2;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = pfh->pf_fd == -1 ? (_Bool)1 : (_Bool)0;
+  signed int *return_value___errno_location_2;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_1)
     return 22;
 
   else
   {
-    signed int return_value_fstat$3;
-    return_value_fstat$3=fstat(pfh->pf_fd, &sb);
-    if(return_value_fstat$3 == -1)
+    signed int return_value_fstat_3;
+    return_value_fstat_3=fstat(pfh->pf_fd, &sb);
+    if(return_value_fstat_3 == -1)
     {
-      return_value___errno_location$2=__errno_location();
-      return *return_value___errno_location$2;
+      return_value___errno_location_2=__errno_location();
+      return *return_value___errno_location_2;
     }
 
     else
     {
       if(!(sb.st_dev == pfh->pf_dev))
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = sb.st_ino != pfh->pf_ino ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = sb.st_ino != pfh->pf_ino ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
         return 22;
 
       else
@@ -15224,9 +15224,9 @@ static void vsc_add_pt(struct vsc *vsc, const volatile void *ptr, struct VSC_des
   struct vsc_pt *pt;
   do
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(sizeof(struct vsc_pt) /*48ul*/ , (unsigned long int)1);
-    pt = (struct vsc_pt *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(sizeof(struct vsc_pt) /*48ul*/ , (unsigned long int)1);
+    pt = (struct vsc_pt *)return_value_calloc_1;
     if(!(pt == ((struct vsc_pt *)NULL)))
       pt->magic = 0xa4ff159a;
 
@@ -15238,9 +15238,9 @@ __CPROVER_DUMP_L3:
   do
     if(pt == ((struct vsc_pt *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vsc_add_pt", "vsc.c", 371, "(pt) != 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vsc_add_pt", "vsc.c", 371, "(pt) != 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -15265,9 +15265,9 @@ static void vsc_add_vf(struct vsc *vsc, struct VSM_fantom *fantom, struct VSC_ty
   struct vsc_vf *vf2;
   do
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(sizeof(struct vsc_vf) /*240ul*/ , (unsigned long int)1);
-    vf = (struct vsc_vf *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(sizeof(struct vsc_vf) /*240ul*/ , (unsigned long int)1);
+    vf = (struct vsc_vf *)return_value_calloc_1;
     if(!(vf == ((struct vsc_vf *)NULL)))
       vf->magic = (unsigned int)0x516519f8;
 
@@ -15279,9 +15279,9 @@ __CPROVER_DUMP_L3:
   do
     if(vf == ((struct vsc_vf *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vsc_add_vf", "vsc.c", 345, "(vf) != 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vsc_add_vf", "vsc.c", 345, "(vf) != 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -15335,25 +15335,25 @@ static void vsc_build_pt_list(struct VSM_data *vd)
     {
       if(vf == ((struct vsc_vf *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 31, "(vf) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 31, "(vf) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(vf->magic == 1365580280u))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 31, "(vf)->magic == 0x516519f8", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 31, "(vf)->magic == 0x516519f8", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
     }
     while((_Bool)0);
-    signed int return_value_strcmp$3;
-    return_value_strcmp$3=strcmp(vf->fantom.type, VSC_type_mgt);
-    if(return_value_strcmp$3 == 0)
+    signed int return_value_strcmp_3;
+    return_value_strcmp_3=strcmp(vf->fantom.type, VSC_type_mgt);
+    if(return_value_strcmp_3 == 0)
       iter_mgt(vsc, VSC_desc_mgt, vf);
 
 
@@ -15363,25 +15363,25 @@ static void vsc_build_pt_list(struct VSM_data *vd)
     {
       if(vf == ((struct vsc_vf *)NULL))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 37, "(vf) != NULL", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 37, "(vf) != NULL", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(vf->magic == 1365580280u))
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 37, "(vf)->magic == 0x516519f8", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 37, "(vf)->magic == 0x516519f8", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
     }
     while((_Bool)0);
-    signed int return_value_strcmp$6;
-    return_value_strcmp$6=strcmp(vf->fantom.type, VSC_type_lck);
-    if(return_value_strcmp$6 == 0)
+    signed int return_value_strcmp_6;
+    return_value_strcmp_6=strcmp(vf->fantom.type, VSC_type_lck);
+    if(return_value_strcmp_6 == 0)
       iter_lck(vsc, VSC_desc_lck, vf);
 
 
@@ -15391,25 +15391,25 @@ static void vsc_build_pt_list(struct VSM_data *vd)
     {
       if(vf == ((struct vsc_vf *)NULL))
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 43, "(vf) != NULL", *return_value___errno_location$7, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 43, "(vf) != NULL", *return_value___errno_location_7, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(vf->magic == 1365580280u))
         {
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 43, "(vf)->magic == 0x516519f8", *return_value___errno_location$8, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 43, "(vf)->magic == 0x516519f8", *return_value___errno_location_8, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
     }
     while((_Bool)0);
-    signed int return_value_strcmp$9;
-    return_value_strcmp$9=strcmp(vf->fantom.type, VSC_type_main);
-    if(return_value_strcmp$9 == 0)
+    signed int return_value_strcmp_9;
+    return_value_strcmp_9=strcmp(vf->fantom.type, VSC_type_main);
+    if(return_value_strcmp_9 == 0)
       iter_main(vsc, VSC_desc_main, vf);
 
 
@@ -15419,25 +15419,25 @@ static void vsc_build_pt_list(struct VSM_data *vd)
     {
       if(vf == ((struct vsc_vf *)NULL))
       {
-        signed int *return_value___errno_location$10;
-        return_value___errno_location$10=__errno_location();
-        VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 47, "(vf) != NULL", *return_value___errno_location$10, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_10;
+        return_value___errno_location_10=__errno_location();
+        VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 47, "(vf) != NULL", *return_value___errno_location_10, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(vf->magic == 1365580280u))
         {
-          signed int *return_value___errno_location$11;
-          return_value___errno_location$11=__errno_location();
-          VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 47, "(vf)->magic == 0x516519f8", *return_value___errno_location$11, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_11;
+          return_value___errno_location_11=__errno_location();
+          VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 47, "(vf)->magic == 0x516519f8", *return_value___errno_location_11, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
     }
     while((_Bool)0);
-    signed int return_value_strcmp$12;
-    return_value_strcmp$12=strcmp(vf->fantom.type, VSC_type_sma);
-    if(return_value_strcmp$12 == 0)
+    signed int return_value_strcmp_12;
+    return_value_strcmp_12=strcmp(vf->fantom.type, VSC_type_sma);
+    if(return_value_strcmp_12 == 0)
       iter_sma(vsc, VSC_desc_sma, vf);
 
 
@@ -15447,25 +15447,25 @@ static void vsc_build_pt_list(struct VSM_data *vd)
     {
       if(vf == ((struct vsc_vf *)NULL))
       {
-        signed int *return_value___errno_location$13;
-        return_value___errno_location$13=__errno_location();
-        VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 53, "(vf) != NULL", *return_value___errno_location$13, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_13;
+        return_value___errno_location_13=__errno_location();
+        VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 53, "(vf) != NULL", *return_value___errno_location_13, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(vf->magic == 1365580280u))
         {
-          signed int *return_value___errno_location$14;
-          return_value___errno_location$14=__errno_location();
-          VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 53, "(vf)->magic == 0x516519f8", *return_value___errno_location$14, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_14;
+          return_value___errno_location_14=__errno_location();
+          VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 53, "(vf)->magic == 0x516519f8", *return_value___errno_location_14, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
     }
     while((_Bool)0);
-    signed int return_value_strcmp$15;
-    return_value_strcmp$15=strcmp(vf->fantom.type, VSC_type_smf);
-    if(return_value_strcmp$15 == 0)
+    signed int return_value_strcmp_15;
+    return_value_strcmp_15=strcmp(vf->fantom.type, VSC_type_smf);
+    if(return_value_strcmp_15 == 0)
       iter_smf(vsc, VSC_desc_smf, vf);
 
 
@@ -15475,25 +15475,25 @@ static void vsc_build_pt_list(struct VSM_data *vd)
     {
       if(vf == ((struct vsc_vf *)NULL))
       {
-        signed int *return_value___errno_location$16;
-        return_value___errno_location$16=__errno_location();
-        VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 59, "(vf) != NULL", *return_value___errno_location$16, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_16;
+        return_value___errno_location_16=__errno_location();
+        VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 59, "(vf) != NULL", *return_value___errno_location_16, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(vf->magic == 1365580280u))
         {
-          signed int *return_value___errno_location$17;
-          return_value___errno_location$17=__errno_location();
-          VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 59, "(vf)->magic == 0x516519f8", *return_value___errno_location$17, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_17;
+          return_value___errno_location_17=__errno_location();
+          VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 59, "(vf)->magic == 0x516519f8", *return_value___errno_location_17, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
     }
     while((_Bool)0);
-    signed int return_value_strcmp$18;
-    return_value_strcmp$18=strcmp(vf->fantom.type, VSC_type_vbe);
-    if(return_value_strcmp$18 == 0)
+    signed int return_value_strcmp_18;
+    return_value_strcmp_18=strcmp(vf->fantom.type, VSC_type_vbe);
+    if(return_value_strcmp_18 == 0)
       iter_vbe(vsc, VSC_desc_vbe, vf);
 
 
@@ -15503,25 +15503,25 @@ static void vsc_build_pt_list(struct VSM_data *vd)
     {
       if(vf == ((struct vsc_vf *)NULL))
       {
-        signed int *return_value___errno_location$19;
-        return_value___errno_location$19=__errno_location();
-        VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 65, "(vf) != NULL", *return_value___errno_location$19, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_19;
+        return_value___errno_location_19=__errno_location();
+        VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 65, "(vf) != NULL", *return_value___errno_location_19, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(vf->magic == 1365580280u))
         {
-          signed int *return_value___errno_location$20;
-          return_value___errno_location$20=__errno_location();
-          VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 65, "(vf)->magic == 0x516519f8", *return_value___errno_location$20, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_20;
+          return_value___errno_location_20=__errno_location();
+          VAS_Fail("vsc_build_pt_list", "../../include/tbl/vsc_all.h", 65, "(vf)->magic == 0x516519f8", *return_value___errno_location_20, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
     }
     while((_Bool)0);
-    signed int return_value_strcmp$21;
-    return_value_strcmp$21=strcmp(vf->fantom.type, VSC_type_mempool);
-    if(return_value_strcmp$21 == 0)
+    signed int return_value_strcmp_21;
+    return_value_strcmp_21=strcmp(vf->fantom.type, VSC_type_mempool);
+    if(return_value_strcmp_21 == 0)
       iter_mempool(vsc, VSC_desc_mempool, vf);
 
   }
@@ -15536,50 +15536,50 @@ static void vsc_build_vf_list(struct VSM_data *vd)
   vsc_delete_pt_list(vsc);
   vsc_delete_vf_list(vsc);
   VSM__iter0(vd, &vsc->iter_fantom);
-  signed int return_value_VSM__itern$1;
+  signed int return_value_VSM__itern_1;
   do
   {
-    return_value_VSM__itern$1=VSM__itern(vd, &vsc->iter_fantom);
-    if(return_value_VSM__itern$1 == 0)
+    return_value_VSM__itern_1=VSM__itern(vd, &vsc->iter_fantom);
+    if(return_value_VSM__itern_1 == 0)
       break;
 
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(vsc->iter_fantom.class, "Stat");
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(vsc->iter_fantom.class, "Stat");
+    if(return_value_strcmp_2 == 0)
     {
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(vsc->iter_fantom.type, "MAIN");
-      if(return_value_strcmp$3 == 0)
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(vsc->iter_fantom.type, "MAIN");
+      if(return_value_strcmp_3 == 0)
         vsc_add_vf(vsc, &vsc->iter_fantom, &VSC_type_desc_main, 0);
 
-      signed int return_value_strcmp$4;
-      return_value_strcmp$4=strcmp(vsc->iter_fantom.type, "MGT");
-      if(return_value_strcmp$4 == 0)
+      signed int return_value_strcmp_4;
+      return_value_strcmp_4=strcmp(vsc->iter_fantom.type, "MGT");
+      if(return_value_strcmp_4 == 0)
         vsc_add_vf(vsc, &vsc->iter_fantom, &VSC_type_desc_mgt, 1);
 
-      signed int return_value_strcmp$5;
-      return_value_strcmp$5=strcmp(vsc->iter_fantom.type, "MEMPOOL");
-      if(return_value_strcmp$5 == 0)
+      signed int return_value_strcmp_5;
+      return_value_strcmp_5=strcmp(vsc->iter_fantom.type, "MEMPOOL");
+      if(return_value_strcmp_5 == 0)
         vsc_add_vf(vsc, &vsc->iter_fantom, &VSC_type_desc_mempool, 2);
 
-      signed int return_value_strcmp$6;
-      return_value_strcmp$6=strcmp(vsc->iter_fantom.type, "SMA");
-      if(return_value_strcmp$6 == 0)
+      signed int return_value_strcmp_6;
+      return_value_strcmp_6=strcmp(vsc->iter_fantom.type, "SMA");
+      if(return_value_strcmp_6 == 0)
         vsc_add_vf(vsc, &vsc->iter_fantom, &VSC_type_desc_sma, 3);
 
-      signed int return_value_strcmp$7;
-      return_value_strcmp$7=strcmp(vsc->iter_fantom.type, "SMF");
-      if(return_value_strcmp$7 == 0)
+      signed int return_value_strcmp_7;
+      return_value_strcmp_7=strcmp(vsc->iter_fantom.type, "SMF");
+      if(return_value_strcmp_7 == 0)
         vsc_add_vf(vsc, &vsc->iter_fantom, &VSC_type_desc_smf, 4);
 
-      signed int return_value_strcmp$8;
-      return_value_strcmp$8=strcmp(vsc->iter_fantom.type, "VBE");
-      if(return_value_strcmp$8 == 0)
+      signed int return_value_strcmp_8;
+      return_value_strcmp_8=strcmp(vsc->iter_fantom.type, "VBE");
+      if(return_value_strcmp_8 == 0)
         vsc_add_vf(vsc, &vsc->iter_fantom, &VSC_type_desc_vbe, 5);
 
-      signed int return_value_strcmp$9;
-      return_value_strcmp$9=strcmp(vsc->iter_fantom.type, "LCK");
-      if(return_value_strcmp$9 == 0)
+      signed int return_value_strcmp_9;
+      return_value_strcmp_9=strcmp(vsc->iter_fantom.type, "LCK");
+      if(return_value_strcmp_9 == 0)
         vsc_add_vf(vsc, &vsc->iter_fantom, &VSC_type_desc_lck, 6);
 
     }
@@ -15603,17 +15603,17 @@ static void vsc_delete_pt_list(struct vsc *vsc)
     {
       if(pt == ((struct vsc_pt *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("vsc_delete_pt_list", "vsc.c", 138, "(pt) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("vsc_delete_pt_list", "vsc.c", 138, "(pt) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(pt->magic == 0xa4ff159a))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          VAS_Fail("vsc_delete_pt_list", "vsc.c", 138, "(pt)->magic == 0xa4ff159a", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          VAS_Fail("vsc_delete_pt_list", "vsc.c", 138, "(pt)->magic == 0xa4ff159a", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -15653,17 +15653,17 @@ static void vsc_delete_sf_list(struct vsc *vsc)
     {
       if(sf == ((struct vsc_sf *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("vsc_delete_sf_list", "vsc.c", 151, "(sf) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("vsc_delete_sf_list", "vsc.c", 151, "(sf) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(sf->magic == 1434745053u))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          VAS_Fail("vsc_delete_sf_list", "vsc.c", 151, "(sf)->magic == 0x558478dd", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          VAS_Fail("vsc_delete_sf_list", "vsc.c", 151, "(sf)->magic == 0x558478dd", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -15706,17 +15706,17 @@ static void vsc_delete_vf_list(struct vsc *vsc)
     {
       if(vf == ((struct vsc_vf *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("vsc_delete_vf_list", "vsc.c", 125, "(vf) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("vsc_delete_vf_list", "vsc.c", 125, "(vf) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(vf->magic == 1365580280u))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          VAS_Fail("vsc_delete_vf_list", "vsc.c", 125, "(vf)->magic == 0x516519f8", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          VAS_Fail("vsc_delete_vf_list", "vsc.c", 125, "(vf)->magic == 0x516519f8", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -15761,9 +15761,9 @@ __CPROVER_DUMP_L1:
   do
     if(vd == ((struct VSM_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vsc_f_arg", "vsc.c", 189, "(vd) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vsc_f_arg", "vsc.c", 189, "(vd) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -15773,9 +15773,9 @@ __CPROVER_DUMP_L3:
   do
     if(opt == ((const char *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vsc_f_arg", "vsc.c", 190, "(opt) != 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vsc_f_arg", "vsc.c", 190, "(opt) != 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -15788,20 +15788,20 @@ __CPROVER_DUMP_L3:
   memset((void *)parts, 0, sizeof(char *[3l]) /*24ul*/ );
   i = 0;
   p = opt;
-  _Bool tmp_if_expr$3;
-  char *tmp_post$6;
-  const char *tmp_post$7;
+  _Bool tmp_if_expr_3;
+  char *tmp_post_6;
+  const char *tmp_post_7;
   for( ; !((signed int)*p == 0); i = i + 1)
   {
     q = p;
     do
     {
       if(!((signed int)*q == 0))
-        tmp_if_expr$3 = (signed int)*q != 46 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)*q != 46 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(!tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(!tmp_if_expr_3)
         break;
 
       if((signed int)*q == 92)
@@ -15812,18 +15812,18 @@ __CPROVER_DUMP_L3:
     while((_Bool)1);
     if(!(i >= 3))
     {
-      void *return_value_malloc$4;
-      return_value_malloc$4=malloc((unsigned long int)(((signed long int)1 + q) - p));
-      parts[(signed long int)i] = (char *)return_value_malloc$4;
+      void *return_value_malloc_4;
+      return_value_malloc_4=malloc((unsigned long int)(((signed long int)1 + q) - p));
+      parts[(signed long int)i] = (char *)return_value_malloc_4;
 
     __CPROVER_DUMP_L12:
       ;
       do
         if(parts[(signed long int)i] == ((char *)NULL))
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          VAS_Fail("vsc_f_arg", "vsc.c", 205, "(parts[i]) != 0", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          VAS_Fail("vsc_f_arg", "vsc.c", 205, "(parts[i]) != 0", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -15831,7 +15831,7 @@ __CPROVER_DUMP_L3:
       parts[(signed long int)i][q - p] = (char)0;
       r = parts[(signed long int)i];
       p = r;
-      for( ; (_Bool)1; *tmp_post$6 = *tmp_post$7)
+      for( ; (_Bool)1; *tmp_post_6 = *tmp_post_7)
       {
         if((signed int)*p == 92)
           p = p + 1l;
@@ -15839,9 +15839,9 @@ __CPROVER_DUMP_L3:
         if((signed int)*p == 0)
           break;
 
-        tmp_post$6 = r;
+        tmp_post_6 = r;
         r = r + 1l;
-        tmp_post$7 = p;
+        tmp_post_7 = p;
         p = p + 1l;
       }
       *r = (char)0;
@@ -15852,9 +15852,9 @@ __CPROVER_DUMP_L3:
       p = p + 1l;
 
   }
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$16;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_16;
   if(i >= 4 || !(i >= 1))
   {
     vsm_diag(vd, "-f: Wrong number of elements");
@@ -15868,9 +15868,9 @@ __CPROVER_DUMP_L3:
   {
     do
     {
-      void *return_value_calloc$8;
-      return_value_calloc$8=calloc(sizeof(struct vsc_sf) /*56ul*/ , (unsigned long int)1);
-      sf = (struct vsc_sf *)return_value_calloc$8;
+      void *return_value_calloc_8;
+      return_value_calloc_8=calloc(sizeof(struct vsc_sf) /*56ul*/ , (unsigned long int)1);
+      sf = (struct vsc_sf *)return_value_calloc_8;
       if(!(sf == ((struct vsc_sf *)NULL)))
         sf->magic = (unsigned int)0x558478dd;
 
@@ -15882,9 +15882,9 @@ __CPROVER_DUMP_L3:
     do
       if(sf == ((struct vsc_sf *)NULL))
       {
-        signed int *return_value___errno_location$9;
-        return_value___errno_location$9=__errno_location();
-        VAS_Fail("vsc_f_arg", "vsc.c", 233, "(sf) != 0", *return_value___errno_location$9, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_9;
+        return_value___errno_location_9=__errno_location();
+        VAS_Fail("vsc_f_arg", "vsc.c", 233, "(sf) != 0", *return_value___errno_location_9, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -15895,9 +15895,9 @@ __CPROVER_DUMP_L3:
     do
       if(parts[0l] == ((char *)NULL))
       {
-        signed int *return_value___errno_location$10;
-        return_value___errno_location$10=__errno_location();
-        VAS_Fail("vsc_f_arg", "vsc.c", 235, "(parts[0]) != 0", *return_value___errno_location$10, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_10;
+        return_value___errno_location_10=__errno_location();
+        VAS_Fail("vsc_f_arg", "vsc.c", 235, "(parts[0]) != 0", *return_value___errno_location_10, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -15910,9 +15910,9 @@ __CPROVER_DUMP_L3:
       do
         if(parts[1l] == ((char *)NULL))
         {
-          signed int *return_value___errno_location$11;
-          return_value___errno_location$11=__errno_location();
-          VAS_Fail("vsc_f_arg", "vsc.c", 238, "(parts[1]) != 0", *return_value___errno_location$11, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_11;
+          return_value___errno_location_11=__errno_location();
+          VAS_Fail("vsc_f_arg", "vsc.c", 238, "(parts[1]) != 0", *return_value___errno_location_11, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -15928,9 +15928,9 @@ __CPROVER_DUMP_L3:
         do
           if(parts[1l] == ((char *)NULL))
           {
-            signed int *return_value___errno_location$12;
-            return_value___errno_location$12=__errno_location();
-            VAS_Fail("vsc_f_arg", "vsc.c", 241, "(parts[1]) != 0", *return_value___errno_location$12, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_12;
+            return_value___errno_location_12=__errno_location();
+            VAS_Fail("vsc_f_arg", "vsc.c", 241, "(parts[1]) != 0", *return_value___errno_location_12, (enum vas_e)VAS_ASSERT);
           }
 
         while((_Bool)0);
@@ -15941,9 +15941,9 @@ __CPROVER_DUMP_L3:
         do
           if(parts[2l] == ((char *)NULL))
           {
-            signed int *return_value___errno_location$13;
-            return_value___errno_location$13=__errno_location();
-            VAS_Fail("vsc_f_arg", "vsc.c", 243, "(parts[2]) != 0", *return_value___errno_location$13, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_13;
+            return_value___errno_location_13=__errno_location();
+            VAS_Fail("vsc_f_arg", "vsc.c", 243, "(parts[2]) != 0", *return_value___errno_location_13, (enum vas_e)VAS_ASSERT);
           }
 
         while((_Bool)0);
@@ -15954,11 +15954,11 @@ __CPROVER_DUMP_L3:
     {
       r=strchr(sf->type, 42);
       if(!(r == ((char *)NULL)))
-        tmp_if_expr$14 = (signed int)r[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_14 = (signed int)r[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$14 = (_Bool)0;
-      if(tmp_if_expr$14)
+        tmp_if_expr_14 = (_Bool)0;
+      if(tmp_if_expr_14)
       {
         *r = (char)0;
         sf->flags = sf->flags | 1 << 1;
@@ -15974,11 +15974,11 @@ __CPROVER_DUMP_L3:
     {
       r=strchr(sf->ident, 42);
       if(!(r == ((char *)NULL)))
-        tmp_if_expr$15 = (signed int)r[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_15 = (signed int)r[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$15 = (_Bool)0;
-      if(tmp_if_expr$15)
+        tmp_if_expr_15 = (_Bool)0;
+      if(tmp_if_expr_15)
       {
         *r = (char)0;
         sf->flags = sf->flags | 1 << 2;
@@ -15994,11 +15994,11 @@ __CPROVER_DUMP_L3:
     {
       r=strchr(sf->name, 42);
       if(!(r == ((char *)NULL)))
-        tmp_if_expr$16 = (signed int)r[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_16 = (signed int)r[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$16 = (_Bool)0;
-      if(tmp_if_expr$16)
+        tmp_if_expr_16 = (_Bool)0;
+      if(tmp_if_expr_16)
       {
         *r = (char)0;
         sf->flags = sf->flags | 1 << 3;
@@ -16049,8 +16049,8 @@ static void vsc_filter_pt_list(struct VSM_data *vd)
   struct vsc_sf *sf;
   struct vsc_pt *pt;
   struct vsc_pt *pt2;
-  /* tag-#anon#lST[l*{lSYM#tag-vsc_pt#}$lSYM#tag-vsc_pt#$'vtqh_first'||l*{l*{lSYM#tag-vsc_pt#}$lSYM#tag-vsc_pt#$}$l*{lSYM#tag-vsc_pt#}$lSYM#tag-vsc_pt#$$'vtqh_last'|] */
-struct anonymous$12
+  /* tag-#anon#lST[l*{lSYM#tag-vsc_pt#}_lSYM#tag-vsc_pt#_'vtqh_first'||l*{l*{lSYM#tag-vsc_pt#}_lSYM#tag-vsc_pt#_}_l*{lSYM#tag-vsc_pt#}_lSYM#tag-vsc_pt#__'vtqh_last'|] */
+struct anonymous_12
 {
   // vtqh_first
   struct vsc_pt *vtqh_first;
@@ -16060,8 +16060,8 @@ struct anonymous$12
 
 /* */
   ;
-  struct anonymous$12 pt_list;
-  _Bool tmp_if_expr$3;
+  struct anonymous_12 pt_list;
+  _Bool tmp_if_expr_3;
   if(!(vsc->sf_list.vtqh_first == ((struct vsc_sf *)NULL)))
   {
     do
@@ -16080,17 +16080,17 @@ struct anonymous$12
       {
         if(sf == ((struct vsc_sf *)NULL))
         {
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          VAS_Fail("vsc_filter_pt_list", "vsc.c", 479, "(sf) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          VAS_Fail("vsc_filter_pt_list", "vsc.c", 479, "(sf) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
         }
 
         do
           if(!(sf->magic == 1434745053u))
           {
-            signed int *return_value___errno_location$2;
-            return_value___errno_location$2=__errno_location();
-            VAS_Fail("vsc_filter_pt_list", "vsc.c", 479, "(sf)->magic == 0x558478dd", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_2;
+            return_value___errno_location_2=__errno_location();
+            VAS_Fail("vsc_filter_pt_list", "vsc.c", 479, "(sf)->magic == 0x558478dd", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
           }
 
         while((_Bool)0);
@@ -16102,12 +16102,12 @@ struct anonymous$12
         if(!(pt == ((struct vsc_pt *)NULL)))
         {
           pt2 = pt->list.vtqe_next;
-          tmp_if_expr$3 = 1 != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = 1 != 0 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(!tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(!tmp_if_expr_3)
           break;
 
 
@@ -16117,33 +16117,33 @@ struct anonymous$12
         {
           if(pt == ((struct vsc_pt *)NULL))
           {
-            signed int *return_value___errno_location$4;
-            return_value___errno_location$4=__errno_location();
-            VAS_Fail("vsc_filter_pt_list", "vsc.c", 481, "(pt) != NULL", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_4;
+            return_value___errno_location_4=__errno_location();
+            VAS_Fail("vsc_filter_pt_list", "vsc.c", 481, "(pt) != NULL", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
           }
 
           do
             if(!(pt->magic == 0xa4ff159a))
             {
-              signed int *return_value___errno_location$5;
-              return_value___errno_location$5=__errno_location();
-              VAS_Fail("vsc_filter_pt_list", "vsc.c", 481, "(pt)->magic == 0xa4ff159a", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_5;
+              return_value___errno_location_5=__errno_location();
+              VAS_Fail("vsc_filter_pt_list", "vsc.c", 481, "(pt)->magic == 0xa4ff159a", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
             }
 
           while((_Bool)0);
         }
         while((_Bool)0);
-        signed int return_value_iter_test$6;
-        return_value_iter_test$6=iter_test(sf->type, pt->point.section->type, sf->flags & 1 << 1);
-        if(return_value_iter_test$6 == 0)
+        signed int return_value_iter_test_6;
+        return_value_iter_test_6=iter_test(sf->type, pt->point.section->type, sf->flags & 1 << 1);
+        if(return_value_iter_test_6 == 0)
         {
-          signed int return_value_iter_test$7;
-          return_value_iter_test$7=iter_test(sf->ident, pt->point.section->ident, sf->flags & 1 << 2);
-          if(return_value_iter_test$7 == 0)
+          signed int return_value_iter_test_7;
+          return_value_iter_test_7=iter_test(sf->ident, pt->point.section->ident, sf->flags & 1 << 2);
+          if(return_value_iter_test_7 == 0)
           {
-            signed int return_value_iter_test$8;
-            return_value_iter_test$8=iter_test(sf->name, pt->point.desc->name, sf->flags & 1 << 3);
-            if(return_value_iter_test$8 == 0)
+            signed int return_value_iter_test_8;
+            return_value_iter_test_8=iter_test(sf->name, pt->point.desc->name, sf->flags & 1 << 3);
+            if(return_value_iter_test_8 == 0)
             {
               do
               {
@@ -16213,17 +16213,17 @@ __CPROVER_DUMP_L1:
   {
     if(vd == ((struct VSM_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vsc_setup", "vsc.c", 105, "(vd) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vsc_setup", "vsc.c", 105, "(vd) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vd->magic == 1849415323u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vsc_setup", "vsc.c", 105, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vsc_setup", "vsc.c", 105, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -16233,9 +16233,9 @@ __CPROVER_DUMP_L1:
   {
     do
     {
-      void *return_value_calloc$3;
-      return_value_calloc$3=calloc(sizeof(struct vsc) /*232ul*/ , (unsigned long int)1);
-      vd->vsc = (struct vsc *)return_value_calloc$3;
+      void *return_value_calloc_3;
+      return_value_calloc_3=calloc(sizeof(struct vsc) /*232ul*/ , (unsigned long int)1);
+      vd->vsc = (struct vsc *)return_value_calloc_3;
       if(!(vd->vsc == ((struct vsc *)NULL)))
         vd->vsc->magic = (unsigned int)0x3373554a;
 
@@ -16268,17 +16268,17 @@ __CPROVER_DUMP_L10:
   {
     if(vd->vsc == ((struct vsc *)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      VAS_Fail("vsc_setup", "vsc.c", 112, "(vd->vsc) != NULL", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      VAS_Fail("vsc_setup", "vsc.c", 112, "(vd->vsc) != NULL", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vd->vsc->magic == 863196490u))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        VAS_Fail("vsc_setup", "vsc.c", 112, "(vd->vsc)->magic == 0x3373554a", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        VAS_Fail("vsc_setup", "vsc.c", 112, "(vd->vsc)->magic == 0x3373554a", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -16307,17 +16307,17 @@ __CPROVER_DUMP_L1:
   {
     if(vsl == ((struct VSL_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vsl_IX_arg", "vsl_arg.c", 262, "(vsl) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vsl_IX_arg", "vsl_arg.c", 262, "(vsl) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsl->magic == 0x8E6C92AA))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vsl_IX_arg", "vsl_arg.c", 262, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vsl_IX_arg", "vsl_arg.c", 262, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -16326,9 +16326,9 @@ __CPROVER_DUMP_L1:
   vsl->flags = vsl->flags | (unsigned int)(1 << 0);
   b = arg;
   e=strchr(b, 58);
-  signed int return_value_vsl_diag$4;
-  signed int return_value_vsl_diag$5;
-  signed int return_value_vsl_diag$6;
+  signed int return_value_vsl_diag_4;
+  signed int return_value_vsl_diag_5;
+  signed int return_value_vsl_diag_6;
   if(!(e == ((const char *)NULL)))
   {
     tags=vbit_init((unsigned int)256);
@@ -16338,9 +16338,9 @@ __CPROVER_DUMP_L1:
     do
       if(tags == ((struct vbitmap *)NULL))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        VAS_Fail("vsl_IX_arg", "vsl_arg.c", 269, "(tags) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        VAS_Fail("vsl_IX_arg", "vsl_arg.c", 269, "(tags) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -16351,22 +16351,22 @@ __CPROVER_DUMP_L1:
 
     if(i == -1)
     {
-      return_value_vsl_diag$4=vsl_diag(vsl, "-%c: \"%*.*s\" matches zero tags", (char)opt, l, l, b);
-      return return_value_vsl_diag$4;
+      return_value_vsl_diag_4=vsl_diag(vsl, "-%c: \"%*.*s\" matches zero tags", (char)opt, l, l, b);
+      return return_value_vsl_diag_4;
     }
 
     else
       if(i == -2)
       {
-        return_value_vsl_diag$5=vsl_diag(vsl, "-%c: \"%*.*s\" is ambiguous", (char)opt, l, l, b);
-        return return_value_vsl_diag$5;
+        return_value_vsl_diag_5=vsl_diag(vsl, "-%c: \"%*.*s\" is ambiguous", (char)opt, l, l, b);
+        return return_value_vsl_diag_5;
       }
 
       else
         if(!(i >= -2))
         {
-          return_value_vsl_diag$6=vsl_diag(vsl, "-%c: Syntax error in \"%*.*s\"", (char)opt, l, l, b);
-          return return_value_vsl_diag$6;
+          return_value_vsl_diag_6=vsl_diag(vsl, "-%c: Syntax error in \"%*.*s\"", (char)opt, l, l, b);
+          return return_value_vsl_diag_6;
         }
 
     b = e + (signed long int)1;
@@ -16378,16 +16378,16 @@ __CPROVER_DUMP_L1:
     if(!(tags == ((struct vbitmap *)NULL)))
       vbit_destroy(tags);
 
-    signed int return_value_vsl_diag$7;
-    return_value_vsl_diag$7=vsl_diag(vsl, "-%c: Regex error at position %d (%s)\n", (char)opt, off, err);
-    return return_value_vsl_diag$7;
+    signed int return_value_vsl_diag_7;
+    return_value_vsl_diag_7=vsl_diag(vsl, "-%c: Regex error at position %d (%s)\n", (char)opt, off, err);
+    return return_value_vsl_diag_7;
   }
 
   do
   {
-    void *return_value_calloc$8;
-    return_value_calloc$8=calloc(sizeof(struct vslf) /*40ul*/ , (unsigned long int)1);
-    vslf = (struct vslf *)return_value_calloc$8;
+    void *return_value_calloc_8;
+    return_value_calloc_8=calloc(sizeof(struct vslf) /*40ul*/ , (unsigned long int)1);
+    vslf = (struct vslf *)return_value_calloc_8;
     if(!(vslf == ((struct vslf *)NULL)))
       vslf->magic = (unsigned int)0x08650B39;
 
@@ -16399,9 +16399,9 @@ __CPROVER_DUMP_L15:
   do
     if(vslf == ((struct vslf *)NULL))
     {
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      VAS_Fail("vsl_IX_arg", "vsl_arg.c", 298, "(vslf) != 0", *return_value___errno_location$9, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      VAS_Fail("vsl_IX_arg", "vsl_arg.c", 298, "(vslf) != 0", *return_value___errno_location_9, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -16422,9 +16422,9 @@ __CPROVER_DUMP_L15:
     do
       if(!(opt == 88))
       {
-        signed int *return_value___errno_location$10;
-        return_value___errno_location$10=__errno_location();
-        VAS_Fail("vsl_IX_arg", "vsl_arg.c", 305, "opt == 'X'", *return_value___errno_location$10, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_10;
+        return_value___errno_location_10=__errno_location();
+        VAS_Fail("vsl_IX_arg", "vsl_arg.c", 305, "opt == 'X'", *return_value___errno_location_10, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -16442,7 +16442,7 @@ __CPROVER_DUMP_L15:
 
 // vsl_IX_free
 // file vsl.c line 111
-static void vsl_IX_free(struct anonymous$1 *filters)
+static void vsl_IX_free(struct anonymous_1 *filters)
 {
   struct vslf *vslf;
   while(!(filters->vtqh_first == ((struct vslf *)NULL)))
@@ -16455,17 +16455,17 @@ static void vsl_IX_free(struct anonymous$1 *filters)
     {
       if(vslf == ((struct vslf *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("vsl_IX_free", "vsl.c", 117, "(vslf) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("vsl_IX_free", "vsl.c", 117, "(vslf) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(vslf->magic == 140839737u))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          VAS_Fail("vsl_IX_free", "vsl.c", 117, "(vslf)->magic == 0x08650B39", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          VAS_Fail("vsl_IX_free", "vsl.c", 117, "(vslf)->magic == 0x08650B39", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -16482,7 +16482,7 @@ static void vsl_IX_free(struct anonymous$1 *filters)
     }
     while((_Bool)0);
     if(!(vslf->tags == ((struct vbitmap *)NULL)))
-      vbit_destroy$link1(vslf->tags);
+      vbit_destroy_link1(vslf->tags);
 
 
   __CPROVER_DUMP_L9:
@@ -16490,9 +16490,9 @@ static void vsl_IX_free(struct anonymous$1 *filters)
     do
       if(vslf->vre == ((struct vre *)NULL))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        VAS_Fail("vsl_IX_free", "vsl.c", 121, "(vslf->vre) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        VAS_Fail("vsl_IX_free", "vsl.c", 121, "(vslf->vre) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -16503,9 +16503,9 @@ static void vsl_IX_free(struct anonymous$1 *filters)
     do
       if(!(vslf->vre == ((struct vre *)NULL)))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        VAS_Fail("vsl_IX_free", "vsl.c", 123, "(vslf->vre) == 0", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        VAS_Fail("vsl_IX_free", "vsl.c", 123, "(vslf->vre) == 0", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -16524,17 +16524,17 @@ __CPROVER_DUMP_L1:
   {
     if(vsl == ((struct VSL_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vsl_diag", "vsl.c", 77, "(vsl) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vsl_diag", "vsl.c", 77, "(vsl) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsl->magic == 0x8E6C92AA))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vsl_diag", "vsl.c", 77, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vsl_diag", "vsl.c", 77, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -16546,9 +16546,9 @@ __CPROVER_DUMP_L5:
   do
     if(fmt == ((const char *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vsl_diag", "vsl.c", 78, "(fmt) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vsl_diag", "vsl.c", 78, "(fmt) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -16561,9 +16561,9 @@ __CPROVER_DUMP_L7:
   do
     if(vsl->diag == ((struct vsb *)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      VAS_Fail("vsl_diag", "vsl.c", 82, "(vsl->diag) != 0", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      VAS_Fail("vsl_diag", "vsl.c", 82, "(vsl->diag) != 0", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -16576,13 +16576,13 @@ __CPROVER_DUMP_L7:
 
   __CPROVER_DUMP_L9:
     ;
-    signed int return_value_VSB_finish$6;
-    return_value_VSB_finish$6=VSB_finish(vsl->diag);
-    if(!(return_value_VSB_finish$6 == 0))
+    signed int return_value_VSB_finish_6;
+    return_value_VSB_finish_6=VSB_finish(vsl->diag);
+    if(!(return_value_VSB_finish_6 == 0))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      VAS_Fail("vsl_diag", "vsl.c", 87, "(VSB_finish(vsl->diag)) == 0", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      VAS_Fail("vsl_diag", "vsl.c", 87, "(VSB_finish(vsl->diag)) == 0", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
     }
 
   }
@@ -16602,17 +16602,17 @@ __CPROVER_DUMP_L1:
   {
     if(vsl == ((struct VSL_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vsl_ix_arg", "vsl_arg.c", 235, "(vsl) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vsl_ix_arg", "vsl_arg.c", 235, "(vsl) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vsl->magic == 0x8E6C92AA))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vsl_ix_arg", "vsl_arg.c", 235, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vsl_ix_arg", "vsl_arg.c", 235, "(vsl)->magic == 0x8E6C92AA", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -16620,27 +16620,27 @@ __CPROVER_DUMP_L1:
   while((_Bool)0);
   vsl->flags = vsl->flags | (unsigned int)(1 << 0);
   i=VSL_List2Tags(arg, -1, opt == 120 ? vsl_vbm_bitset : vsl_vbm_bitclr, (void *)vsl->vbm_supress);
-  signed int return_value_vsl_diag$3;
-  signed int return_value_vsl_diag$4;
-  signed int return_value_vsl_diag$5;
+  signed int return_value_vsl_diag_3;
+  signed int return_value_vsl_diag_4;
+  signed int return_value_vsl_diag_5;
   if(i == -1)
   {
-    return_value_vsl_diag$3=vsl_diag(vsl, "-%c: \"%s\" matches zero tags", (char)opt, arg);
-    return return_value_vsl_diag$3;
+    return_value_vsl_diag_3=vsl_diag(vsl, "-%c: \"%s\" matches zero tags", (char)opt, arg);
+    return return_value_vsl_diag_3;
   }
 
   else
     if(i == -2)
     {
-      return_value_vsl_diag$4=vsl_diag(vsl, "-%c: \"%s\" is ambiguous", (char)opt, arg);
-      return return_value_vsl_diag$4;
+      return_value_vsl_diag_4=vsl_diag(vsl, "-%c: \"%s\" is ambiguous", (char)opt, arg);
+      return return_value_vsl_diag_4;
     }
 
     else
       if(i == -3)
       {
-        return_value_vsl_diag$5=vsl_diag(vsl, "-%c: Syntax error in \"%s\"", (char)opt, arg);
-        return return_value_vsl_diag$5;
+        return_value_vsl_diag_5=vsl_diag(vsl, "-%c: Syntax error in \"%s\"", (char)opt, arg);
+        return return_value_vsl_diag_5;
       }
 
   return 1;
@@ -16648,7 +16648,7 @@ __CPROVER_DUMP_L1:
 
 // vsl_match_IX
 // file vsl.c line 166
-static signed int vsl_match_IX(struct VSL_data *vsl, const struct anonymous$1 *list, struct VSL_cursor *c)
+static signed int vsl_match_IX(struct VSL_data *vsl, const struct anonymous_1 *list, struct VSL_cursor *c)
 {
   enum VSL_tag_e tag;
   const char *cdata;
@@ -16659,7 +16659,7 @@ static signed int vsl_match_IX(struct VSL_data *vsl, const struct anonymous$1 *l
   cdata = (const char *)(c->rec.ptr + (signed long int)2);
   len = (signed int)(c->rec.ptr[(signed long int)0] & (unsigned int)0xffff);
   vslf = list->vtqh_first;
-  signed int return_value_vbit_test$3;
+  signed int return_value_vbit_test_3;
   for( ; !(vslf == ((struct vslf *)NULL)); vslf = vslf->list.vtqe_next)
   {
 
@@ -16669,17 +16669,17 @@ static signed int vsl_match_IX(struct VSL_data *vsl, const struct anonymous$1 *l
     {
       if(vslf == ((struct vslf *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("vsl_match_IX", "vsl.c", 180, "(vslf) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("vsl_match_IX", "vsl.c", 180, "(vslf) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(vslf->magic == 140839737u))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          VAS_Fail("vsl_match_IX", "vsl.c", 180, "(vslf)->magic == 0x08650B39", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          VAS_Fail("vsl_match_IX", "vsl.c", 180, "(vslf)->magic == 0x08650B39", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -16687,15 +16687,15 @@ static signed int vsl_match_IX(struct VSL_data *vsl, const struct anonymous$1 *l
     while((_Bool)0);
     if(!(vslf->tags == ((struct vbitmap *)NULL)))
     {
-      return_value_vbit_test$3=vbit_test$link1(vslf->tags, (unsigned int)tag);
-      if(return_value_vbit_test$3 == 0)
+      return_value_vbit_test_3=vbit_test_link1(vslf->tags, (unsigned int)tag);
+      if(return_value_vbit_test_3 == 0)
         goto __CPROVER_DUMP_L8;
 
     }
 
-    signed int return_value_VRE_exec$4;
-    return_value_VRE_exec$4=VRE_exec(vslf->vre, cdata, len, 0, 0, (signed int *)(void *)0, 0, (struct vre_limits *)(void *)0);
-    if(return_value_VRE_exec$4 >= 0)
+    signed int return_value_VRE_exec_4;
+    return_value_VRE_exec_4=VRE_exec(vslf->vre, cdata, len, 0, 0, (signed int *)(void *)0, 0, (struct vre_limits *)(void *)0);
+    if(return_value_VRE_exec_4 >= 0)
       return 1;
 
 
@@ -16730,9 +16730,9 @@ static void vslc_file_delete(struct VSL_cursor *cursor)
     do
       if(c == ((struct vslc_file *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("vslc_file_delete", "vsl_cursor.c", 297, "(c) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("vslc_file_delete", "vsl_cursor.c", 297, "(c) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -16742,9 +16742,9 @@ static void vslc_file_delete(struct VSL_cursor *cursor)
     do
       if(!(c->magic == 493223919u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vslc_file_delete", "vsl_cursor.c", 297, "((c))->magic == (0x1D65FFEF)", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vslc_file_delete", "vsl_cursor.c", 297, "((c))->magic == (0x1D65FFEF)", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -16753,9 +16753,9 @@ static void vslc_file_delete(struct VSL_cursor *cursor)
   do
     if(!(&c->cursor == cursor))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vslc_file_delete", "vsl_cursor.c", 298, "&c->cursor == cursor", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vslc_file_delete", "vsl_cursor.c", 298, "&c->cursor == cursor", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -16786,9 +16786,9 @@ static signed int vslc_file_next(struct VSL_cursor *cursor)
     do
       if(c == ((struct vslc_file *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("vslc_file_next", "vsl_cursor.c", 329, "(c) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("vslc_file_next", "vsl_cursor.c", 329, "(c) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -16798,9 +16798,9 @@ static signed int vslc_file_next(struct VSL_cursor *cursor)
     do
       if(!(c->magic == 493223919u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vslc_file_next", "vsl_cursor.c", 329, "((c))->magic == (0x1D65FFEF)", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vslc_file_next", "vsl_cursor.c", 329, "((c))->magic == (0x1D65FFEF)", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -16809,9 +16809,9 @@ static signed int vslc_file_next(struct VSL_cursor *cursor)
   do
     if(!(&c->cursor == cursor))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vslc_file_next", "vsl_cursor.c", 330, "&c->cursor == cursor", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vslc_file_next", "vsl_cursor.c", 330, "&c->cursor == cursor", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -16826,9 +16826,9 @@ static signed int vslc_file_next(struct VSL_cursor *cursor)
       do
         if(!(c->buflen >= 2l))
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          VAS_Fail("vslc_file_next", "vsl_cursor.c", 337, "c->buflen >= 2", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          VAS_Fail("vslc_file_next", "vsl_cursor.c", 337, "c->buflen >= 2", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -16842,9 +16842,9 @@ static signed int vslc_file_next(struct VSL_cursor *cursor)
       do
         if(!(i == 8l))
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          VAS_Fail("vslc_file_next", "vsl_cursor.c", 343, "i == VSL_BYTES(2)", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          VAS_Fail("vslc_file_next", "vsl_cursor.c", 343, "i == VSL_BYTES(2)", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -16853,18 +16853,18 @@ static signed int vslc_file_next(struct VSL_cursor *cursor)
       {
         for( ; !((unsigned long int)c->buflen >= l); c->buflen = (signed long int)((unsigned long int)2 * l))
           ;
-        void *return_value_realloc$6;
-        return_value_realloc$6=realloc((void *)c->buf, (unsigned long int)(c->buflen * (signed long int)4));
-        c->buf = (unsigned int *)return_value_realloc$6;
+        void *return_value_realloc_6;
+        return_value_realloc_6=realloc((void *)c->buf, (unsigned long int)(c->buflen * (signed long int)4));
+        c->buf = (unsigned int *)return_value_realloc_6;
 
       __CPROVER_DUMP_L16:
         ;
         do
           if(c->buf == ((unsigned int *)NULL))
           {
-            signed int *return_value___errno_location$7;
-            return_value___errno_location$7=__errno_location();
-            VAS_Fail("vslc_file_next", "vsl_cursor.c", 349, "(c->buf) != 0", *return_value___errno_location$7, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_7;
+            return_value___errno_location_7=__errno_location();
+            VAS_Fail("vslc_file_next", "vsl_cursor.c", 349, "(c->buf) != 0", *return_value___errno_location_7, (enum vas_e)VAS_ASSERT);
           }
 
         while((_Bool)0);
@@ -16882,9 +16882,9 @@ static signed int vslc_file_next(struct VSL_cursor *cursor)
         do
           if(!((unsigned long int)i == (l + 18446744073709551614ul) * 4ul))
           {
-            signed int *return_value___errno_location$8;
-            return_value___errno_location$8=__errno_location();
-            VAS_Fail("vslc_file_next", "vsl_cursor.c", 358, "i == VSL_BYTES(l - 2)", *return_value___errno_location$8, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_8;
+            return_value___errno_location_8=__errno_location();
+            VAS_Fail("vslc_file_next", "vsl_cursor.c", 358, "i == VSL_BYTES(l - 2)", *return_value___errno_location_8, (enum vas_e)VAS_ASSERT);
           }
 
         while((_Bool)0);
@@ -16932,9 +16932,9 @@ static signed int vslc_raw_next(struct VSL_cursor *cursor)
     do
       if(c == ((struct vslc_raw *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("vslc_raw_next", "vsl_dispatch.c", 228, "(c) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("vslc_raw_next", "vsl_dispatch.c", 228, "(c) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -16944,9 +16944,9 @@ static signed int vslc_raw_next(struct VSL_cursor *cursor)
     do
       if(!(c->magic == 612285764u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vslc_raw_next", "vsl_dispatch.c", 228, "((c))->magic == (0x247EBD44)", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vslc_raw_next", "vsl_dispatch.c", 228, "((c))->magic == (0x247EBD44)", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -16955,9 +16955,9 @@ static signed int vslc_raw_next(struct VSL_cursor *cursor)
   do
     if(!(&c->cursor == cursor))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vslc_raw_next", "vsl_dispatch.c", 229, "&c->cursor == cursor", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vslc_raw_next", "vsl_dispatch.c", 229, "&c->cursor == cursor", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -16967,9 +16967,9 @@ __CPROVER_DUMP_L8:
   do
     if(c->ptr == ((const unsigned int *)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      VAS_Fail("vslc_raw_next", "vsl_dispatch.c", 231, "(c->ptr) != 0", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      VAS_Fail("vslc_raw_next", "vsl_dispatch.c", 231, "(c->ptr) != 0", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -16997,9 +16997,9 @@ static signed int vslc_raw_reset(struct VSL_cursor *cursor)
     do
       if(c == ((struct vslc_raw *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("vslc_raw_reset", "vsl_dispatch.c", 246, "(c) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("vslc_raw_reset", "vsl_dispatch.c", 246, "(c) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -17009,9 +17009,9 @@ static signed int vslc_raw_reset(struct VSL_cursor *cursor)
     do
       if(!(c->magic == 612285764u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vslc_raw_reset", "vsl_dispatch.c", 246, "((c))->magic == (0x247EBD44)", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vslc_raw_reset", "vsl_dispatch.c", 246, "((c))->magic == (0x247EBD44)", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -17020,9 +17020,9 @@ static signed int vslc_raw_reset(struct VSL_cursor *cursor)
   do
     if(!(&c->cursor == cursor))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vslc_raw_reset", "vsl_dispatch.c", 247, "&c->cursor == cursor", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vslc_raw_reset", "vsl_dispatch.c", 247, "&c->cursor == cursor", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -17032,9 +17032,9 @@ __CPROVER_DUMP_L8:
   do
     if(c->ptr == ((const unsigned int *)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      VAS_Fail("vslc_raw_reset", "vsl_dispatch.c", 249, "(c->ptr) != 0", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      VAS_Fail("vslc_raw_reset", "vsl_dispatch.c", 249, "(c->ptr) != 0", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -17056,9 +17056,9 @@ static signed int vslc_vsm_check(struct VSL_cursor *cursor, struct VSLC_ptr *ptr
     do
       if(c == ((struct vslc_vsm *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("vslc_vsm_check", "vsl_cursor.c", 82, "(c) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("vslc_vsm_check", "vsl_cursor.c", 82, "(c) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -17068,9 +17068,9 @@ static signed int vslc_vsm_check(struct VSL_cursor *cursor, struct VSLC_ptr *ptr
     do
       if(!(c->magic == 1295582118u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vslc_vsm_check", "vsl_cursor.c", 82, "((c))->magic == (0x4D3903A6)", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vslc_vsm_check", "vsl_cursor.c", 82, "((c))->magic == (0x4D3903A6)", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -17079,9 +17079,9 @@ static signed int vslc_vsm_check(struct VSL_cursor *cursor, struct VSLC_ptr *ptr
   do
     if(!(&c->cursor == cursor))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vslc_vsm_check", "vsl_cursor.c", 83, "&c->cursor == cursor", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vslc_vsm_check", "vsl_cursor.c", 83, "&c->cursor == cursor", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -17132,9 +17132,9 @@ static void vslc_vsm_delete(struct VSL_cursor *cursor)
     do
       if(c == ((struct vslc_vsm *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("vslc_vsm_delete", "vsl_cursor.c", 71, "(c) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("vslc_vsm_delete", "vsl_cursor.c", 71, "(c) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -17144,9 +17144,9 @@ static void vslc_vsm_delete(struct VSL_cursor *cursor)
     do
       if(!(c->magic == 1295582118u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vslc_vsm_delete", "vsl_cursor.c", 71, "((c))->magic == (0x4D3903A6)", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vslc_vsm_delete", "vsl_cursor.c", 71, "((c))->magic == (0x4D3903A6)", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -17155,9 +17155,9 @@ static void vslc_vsm_delete(struct VSL_cursor *cursor)
   do
     if(!(&c->cursor == cursor))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vslc_vsm_delete", "vsl_cursor.c", 72, "&c->cursor == cursor", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vslc_vsm_delete", "vsl_cursor.c", 72, "&c->cursor == cursor", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -17182,9 +17182,9 @@ static signed int vslc_vsm_next(struct VSL_cursor *cursor)
     do
       if(c == ((struct vslc_vsm *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 123, "(c) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 123, "(c) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -17194,9 +17194,9 @@ static signed int vslc_vsm_next(struct VSL_cursor *cursor)
     do
       if(!(c->magic == 1295582118u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 123, "((c))->magic == (0x4D3903A6)", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 123, "((c))->magic == (0x4D3903A6)", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -17205,9 +17205,9 @@ static signed int vslc_vsm_next(struct VSL_cursor *cursor)
   do
     if(!(&c->cursor == cursor))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 124, "&c->cursor == cursor", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 124, "&c->cursor == cursor", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -17218,17 +17218,17 @@ __CPROVER_DUMP_L8:
   {
     if(c->vsm == ((struct VSM_data *)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 125, "(c->vsm) != NULL", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 125, "(c->vsm) != NULL", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(c->vsm->magic == 1849415323u))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 125, "(c->vsm)->magic == 0x6e3bd69b", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 125, "(c->vsm)->magic == 0x6e3bd69b", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -17240,33 +17240,33 @@ __CPROVER_DUMP_L12:
   do
     if(c->next.ptr == ((const unsigned int *)NULL))
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 128, "(c->next.ptr) != 0", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 128, "(c->next.ptr) != 0", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   do
     if(!(c->next.ptr >= c->head->log))
     {
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 129, "c->next.ptr >= c->head->log", *return_value___errno_location$7, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 129, "c->next.ptr >= c->head->log", *return_value___errno_location_7, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   do
     if(c->next.ptr >= c->end)
     {
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 130, "c->next.ptr < c->end", *return_value___errno_location$8, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 130, "c->next.ptr < c->end", *return_value___errno_location_8, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   i=vslc_vsm_check(&c->cursor, &c->next);
-  _Bool tmp_if_expr$11;
-  signed int return_value_VSM_Abandoned$10;
+  _Bool tmp_if_expr_11;
+  signed int return_value_VSM_Abandoned_10;
   if(!(i >= 1))
     return -3;
 
@@ -17274,17 +17274,17 @@ __CPROVER_DUMP_L12:
   {
     if(*c->next.ptr == 4265952581u)
     {
-      enum VSM_valid_e return_value_VSM_StillValid$9;
-      return_value_VSM_StillValid$9=VSM_StillValid(c->vsm, &c->vf);
-      if((signed int)return_value_VSM_StillValid$9 == VSM_invalid)
-        tmp_if_expr$11 = (_Bool)1;
+      enum VSM_valid_e return_value_VSM_StillValid_9;
+      return_value_VSM_StillValid_9=VSM_StillValid(c->vsm, &c->vf);
+      if((signed int)return_value_VSM_StillValid_9 == VSM_invalid)
+        tmp_if_expr_11 = (_Bool)1;
 
       else
       {
-        return_value_VSM_Abandoned$10=VSM_Abandoned(c->vsm);
-        tmp_if_expr$11 = return_value_VSM_Abandoned$10 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_VSM_Abandoned_10=VSM_Abandoned(c->vsm);
+        tmp_if_expr_11 = return_value_VSM_Abandoned_10 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$11)
+      if(tmp_if_expr_11)
         return -2;
 
     }
@@ -17294,18 +17294,18 @@ __CPROVER_DUMP_L12:
       do
         if(!(c->next.ptr >= c->head->log))
         {
-          signed int *return_value___errno_location$12;
-          return_value___errno_location$12=__errno_location();
-          VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 145, "c->next.ptr >= c->head->log", *return_value___errno_location$12, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_12;
+          return_value___errno_location_12=__errno_location();
+          VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 145, "c->next.ptr >= c->head->log", *return_value___errno_location_12, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
       do
         if(c->next.ptr >= c->end)
         {
-          signed int *return_value___errno_location$13;
-          return_value___errno_location$13=__errno_location();
-          VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 146, "c->next.ptr < c->end", *return_value___errno_location$13, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_13;
+          return_value___errno_location_13=__errno_location();
+          VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 146, "c->next.ptr < c->end", *return_value___errno_location_13, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -17315,9 +17315,9 @@ __CPROVER_DUMP_L12:
       do
         if(c->head->seq == 0u)
         {
-          signed int *return_value___errno_location$14;
-          return_value___errno_location$14=__errno_location();
-          VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 147, "(c->head->seq) != 0", *return_value___errno_location$14, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_14;
+          return_value___errno_location_14=__errno_location();
+          VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 147, "(c->head->seq) != 0", *return_value___errno_location_14, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -17328,9 +17328,9 @@ __CPROVER_DUMP_L12:
       do
         if(t == 0u)
         {
-          signed int *return_value___errno_location$15;
-          return_value___errno_location$15=__errno_location();
-          VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 149, "(t) != 0", *return_value___errno_location$15, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_15;
+          return_value___errno_location_15=__errno_location();
+          VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 149, "(t) != 0", *return_value___errno_location_15, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -17339,9 +17339,9 @@ __CPROVER_DUMP_L12:
         do
           if(c->next.ptr == c->head->log)
           {
-            signed int *return_value___errno_location$16;
-            return_value___errno_location$16=__errno_location();
-            VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 153, "c->next.ptr != c->head->log", *return_value___errno_location$16, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_16;
+            return_value___errno_location_16=__errno_location();
+            VAS_Fail("vslc_vsm_next", "vsl_cursor.c", 153, "c->next.ptr != c->head->log", *return_value___errno_location_16, (enum vas_e)VAS_ASSERT);
           }
 
         while((_Bool)0);
@@ -17400,9 +17400,9 @@ static signed int vslc_vsm_reset(struct VSL_cursor *cursor)
     do
       if(c == ((struct vslc_vsm *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("vslc_vsm_reset", "vsl_cursor.c", 197, "(c) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("vslc_vsm_reset", "vsl_cursor.c", 197, "(c) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -17412,9 +17412,9 @@ static signed int vslc_vsm_reset(struct VSL_cursor *cursor)
     do
       if(!(c->magic == 1295582118u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vslc_vsm_reset", "vsl_cursor.c", 197, "((c))->magic == (0x4D3903A6)", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vslc_vsm_reset", "vsl_cursor.c", 197, "((c))->magic == (0x4D3903A6)", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -17423,9 +17423,9 @@ static signed int vslc_vsm_reset(struct VSL_cursor *cursor)
   do
     if(!(&c->cursor == cursor))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vslc_vsm_reset", "vsl_cursor.c", 198, "&c->cursor == cursor", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vslc_vsm_reset", "vsl_cursor.c", 198, "&c->cursor == cursor", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -17436,9 +17436,9 @@ static signed int vslc_vsm_reset(struct VSL_cursor *cursor)
   do
     if(!(c->head->segments[(signed long int)segment] >= 0l))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      VAS_Fail("vslc_vsm_reset", "vsl_cursor.c", 209, "c->head->segments[segment] >= 0", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      VAS_Fail("vslc_vsm_reset", "vsl_cursor.c", 209, "c->head->segments[segment] >= 0", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -17460,9 +17460,9 @@ static signed int vslc_vtx_next(struct VSL_cursor *cursor)
     do
       if(c == ((struct vslc_vtx *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 269, "(c) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 269, "(c) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -17472,9 +17472,9 @@ static signed int vslc_vtx_next(struct VSL_cursor *cursor)
     do
       if(!(c->magic == 1959154239u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 269, "((c))->magic == (0x74C6523F)", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 269, "((c))->magic == (0x74C6523F)", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -17483,9 +17483,9 @@ static signed int vslc_vtx_next(struct VSL_cursor *cursor)
   do
     if(!(&c->cursor == cursor))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 270, "&c->cursor == cursor", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 270, "&c->cursor == cursor", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -17496,17 +17496,17 @@ __CPROVER_DUMP_L8:
   {
     if(c->vtx == ((struct vtx *)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 271, "(c->vtx) != NULL", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 271, "(c->vtx) != NULL", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(c->vtx->magic == 0xACC21D09))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 271, "(c->vtx)->magic == 0xACC21D09", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 271, "(c->vtx)->magic == 0xACC21D09", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -17515,26 +17515,26 @@ __CPROVER_DUMP_L8:
 
 __CPROVER_DUMP_L12:
   ;
-  _Bool tmp_if_expr$13;
+  _Bool tmp_if_expr_13;
   while((_Bool)1)
   {
     if(!(c->synth == ((struct synth *)NULL)))
       do
         if(!(c->synth->magic == 0xC654479F))
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 274, "(c->synth)->magic == 0xC654479F", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 274, "(c->synth)->magic == 0xC654479F", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
 
     if(!(c->synth == ((struct synth *)NULL)))
-      tmp_if_expr$13 = c->synth->offset == c->offset ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_13 = c->synth->offset == c->offset ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$13 = (_Bool)0;
-    if(tmp_if_expr$13)
+      tmp_if_expr_13 = (_Bool)0;
+    if(tmp_if_expr_13)
     {
       c->cursor.rec.ptr = c->synth->data;
       c->synth = c->synth->list.vtqe_next;
@@ -17545,9 +17545,9 @@ __CPROVER_DUMP_L12:
       do
         if(!(c->vtx->len >= c->offset))
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 281, "c->offset <= c->vtx->len", *return_value___errno_location$7, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 281, "c->offset <= c->vtx->len", *return_value___errno_location_7, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -17567,17 +17567,17 @@ __CPROVER_DUMP_L12:
       {
         if(c->chunk == ((struct chunk *)NULL))
         {
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 291, "(c->chunk) != NULL", *return_value___errno_location$8, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 291, "(c->chunk) != NULL", *return_value___errno_location_8, (enum vas_e)VAS_ASSERT);
         }
 
         do
           if(!(c->chunk->magic == 1222377876u))
           {
-            signed int *return_value___errno_location$9;
-            return_value___errno_location$9=__errno_location();
-            VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 291, "(c->chunk)->magic == 0x48DC0194", *return_value___errno_location$9, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_9;
+            return_value___errno_location_9=__errno_location();
+            VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 291, "(c->chunk)->magic == 0x48DC0194", *return_value___errno_location_9, (enum vas_e)VAS_ASSERT);
           }
 
         while((_Bool)0);
@@ -17594,17 +17594,17 @@ __CPROVER_DUMP_L12:
         {
           if(c->chunk == ((struct chunk *)NULL))
           {
-            signed int *return_value___errno_location$10;
-            return_value___errno_location$10=__errno_location();
-            VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 295, "(c->chunk) != NULL", *return_value___errno_location$10, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_10;
+            return_value___errno_location_10=__errno_location();
+            VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 295, "(c->chunk) != NULL", *return_value___errno_location_10, (enum vas_e)VAS_ASSERT);
           }
 
           do
             if(!(c->chunk->magic == 1222377876u))
             {
-              signed int *return_value___errno_location$11;
-              return_value___errno_location$11=__errno_location();
-              VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 295, "(c->chunk)->magic == 0x48DC0194", *return_value___errno_location$11, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_11;
+              return_value___errno_location_11=__errno_location();
+              VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 295, "(c->chunk)->magic == 0x48DC0194", *return_value___errno_location_11, (enum vas_e)VAS_ASSERT);
             }
 
           while((_Bool)0);
@@ -17612,20 +17612,20 @@ __CPROVER_DUMP_L12:
         while((_Bool)0);
       }
       if((signed int)c->chunk->type == chunk_t_shm)
-        ptr = c->chunk->$anon0.shm.start.ptr;
+        ptr = c->chunk->_anon0.shm.start.ptr;
 
       else
       {
         do
           if(!((signed int)c->chunk->type == chunk_t_buf))
           {
-            signed int *return_value___errno_location$12;
-            return_value___errno_location$12=__errno_location();
-            VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 302, "c->chunk->type == chunk_t_buf", *return_value___errno_location$12, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_12;
+            return_value___errno_location_12=__errno_location();
+            VAS_Fail("vslc_vtx_next", "vsl_dispatch.c", 302, "c->chunk->type == chunk_t_buf", *return_value___errno_location_12, (enum vas_e)VAS_ASSERT);
           }
 
         while((_Bool)0);
-        ptr = c->chunk->$anon0.buf.data;
+        ptr = c->chunk->_anon0.buf.data;
       }
       c->cursor.rec.ptr = (ptr + (signed long int)c->offset) - (signed long int)c->chunkstart;
       c->offset = c->offset + (unsigned long int)((c->cursor.rec.ptr + (signed long int)2 + (signed long int)(((c->cursor.rec.ptr[(signed long int)0] & (unsigned int)0xffff) + (unsigned int)3) / (unsigned int)4)) - c->cursor.rec.ptr);
@@ -17648,9 +17648,9 @@ static signed int vslc_vtx_reset(struct VSL_cursor *cursor)
     do
       if(c == ((struct vslc_vtx *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("vslc_vtx_reset", "vsl_dispatch.c", 319, "(c) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("vslc_vtx_reset", "vsl_dispatch.c", 319, "(c) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -17660,9 +17660,9 @@ static signed int vslc_vtx_reset(struct VSL_cursor *cursor)
     do
       if(!(c->magic == 1959154239u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vslc_vtx_reset", "vsl_dispatch.c", 319, "((c))->magic == (0x74C6523F)", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vslc_vtx_reset", "vsl_dispatch.c", 319, "((c))->magic == (0x74C6523F)", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -17671,9 +17671,9 @@ static signed int vslc_vtx_reset(struct VSL_cursor *cursor)
   do
     if(!(&c->cursor == cursor))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vslc_vtx_reset", "vsl_dispatch.c", 320, "&c->cursor == cursor", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vslc_vtx_reset", "vsl_dispatch.c", 320, "&c->cursor == cursor", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -17684,17 +17684,17 @@ __CPROVER_DUMP_L8:
   {
     if(c->vtx == ((struct vtx *)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      VAS_Fail("vslc_vtx_reset", "vsl_dispatch.c", 321, "(c->vtx) != NULL", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      VAS_Fail("vslc_vtx_reset", "vsl_dispatch.c", 321, "(c->vtx) != NULL", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(c->vtx->magic == 0xACC21D09))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        VAS_Fail("vslc_vtx_reset", "vsl_dispatch.c", 321, "(c->vtx)->magic == 0xACC21D09", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        VAS_Fail("vslc_vtx_reset", "vsl_dispatch.c", 321, "(c->vtx)->magic == 0xACC21D09", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -17713,12 +17713,12 @@ __CPROVER_DUMP_L8:
 static signed int vslq_callback(struct VSLQ *vslq, struct vtx *vtx, signed int (*func)(struct VSL_data *, struct VSL_transaction * const *, void *), void *priv)
 {
   unsigned int n = vtx->n_descend + (unsigned int)1;
-  const signed long int n$array_size0 = (signed long int)n;
-  struct vtx *vtxs[n$array_size0];
-  const signed long int vtxs$array_size0 = (signed long int)n;
-  struct VSL_transaction trans[vtxs$array_size0];
-  const signed long int trans$array_size0 = (signed long int)(n + (unsigned int)1);
-  struct VSL_transaction *ptrans[trans$array_size0];
+  const signed long int n_array_size0 = (signed long int)n;
+  struct vtx *vtxs[n_array_size0];
+  const signed long int vtxs_array_size0 = (signed long int)n;
+  struct VSL_transaction trans[vtxs_array_size0];
+  const signed long int trans_array_size0 = (signed long int)(n + (unsigned int)1);
+  struct VSL_transaction *ptrans[trans_array_size0];
   unsigned int i;
   unsigned int j;
 
@@ -17727,9 +17727,9 @@ __CPROVER_DUMP_L1:
   do
     if(vslq == ((struct VSLQ *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vslq_callback", "vsl_dispatch.c", 915, "(vslq) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vslq_callback", "vsl_dispatch.c", 915, "(vslq) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -17740,17 +17740,17 @@ __CPROVER_DUMP_L3:
   {
     if(vtx == ((struct vtx *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vslq_callback", "vsl_dispatch.c", 916, "(vtx) != NULL", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vslq_callback", "vsl_dispatch.c", 916, "(vtx) != NULL", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vtx->magic == 0xACC21D09))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        VAS_Fail("vslq_callback", "vsl_dispatch.c", 916, "(vtx)->magic == 0xACC21D09", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        VAS_Fail("vslq_callback", "vsl_dispatch.c", 916, "(vtx)->magic == 0xACC21D09", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -17762,9 +17762,9 @@ __CPROVER_DUMP_L7:
   do
     if((8u & vtx->flags) == 0u)
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      VAS_Fail("vslq_callback", "vsl_dispatch.c", 917, "(vtx->flags & 0x8) != 0", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      VAS_Fail("vslq_callback", "vsl_dispatch.c", 917, "(vtx->flags & 0x8) != 0", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -17774,13 +17774,13 @@ __CPROVER_DUMP_L9:
   do
     if(func == ((signed int (*)(struct VSL_data *, struct VSL_transaction * const *, void *))NULL))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      VAS_Fail("vslq_callback", "vsl_dispatch.c", 918, "(func) != 0", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      VAS_Fail("vslq_callback", "vsl_dispatch.c", 918, "(func) != 0", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
-  signed int return_value_vslq_runquery$8;
+  signed int return_value_vslq_runquery_8;
   if((signed int)vslq->grouping == VSL_g_session)
   {
     if((signed int)vtx->type == VSL_t_sess)
@@ -17825,9 +17825,9 @@ __CPROVER_DUMP_L9:
           do
             if(i >= n)
             {
-              signed int *return_value___errno_location$6;
-              return_value___errno_location$6=__errno_location();
-              VAS_Fail("vslq_callback", "vsl_dispatch.c", 940, "i < n", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_6;
+              return_value___errno_location_6=__errno_location();
+              VAS_Fail("vslq_callback", "vsl_dispatch.c", 940, "i < n", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
             }
 
           while((_Bool)0);
@@ -17849,9 +17849,9 @@ __CPROVER_DUMP_L9:
       do
         if(!(i == n))
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          VAS_Fail("vslq_callback", "vsl_dispatch.c", 957, "i == n", *return_value___errno_location$7, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          VAS_Fail("vslq_callback", "vsl_dispatch.c", 957, "i == n", *return_value___errno_location_7, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -17861,8 +17861,8 @@ __CPROVER_DUMP_L9:
       ptrans[(signed long int)i] = (struct VSL_transaction *)(void *)0;
       if(!(vslq->query == ((struct vslq_query *)NULL)))
       {
-        return_value_vslq_runquery$8=vslq_runquery(vslq->query, ptrans);
-        if(!(return_value_vslq_runquery$8 == 0))
+        return_value_vslq_runquery_8=vslq_runquery(vslq->query, ptrans);
+        if(!(return_value_vslq_runquery_8 == 0))
           goto __CPROVER_DUMP_L24;
 
         return 0;
@@ -17892,9 +17892,9 @@ __CPROVER_DUMP_L1:
   do
     if(pquery == ((struct vslq_query **)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vslq_deletequery", "vsl_query.c", 329, "(pquery) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vslq_deletequery", "vsl_query.c", 329, "(pquery) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -17907,17 +17907,17 @@ __CPROVER_DUMP_L3:
   {
     if(query == ((struct vslq_query *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vslq_deletequery", "vsl_query.c", 332, "(query) != NULL", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vslq_deletequery", "vsl_query.c", 332, "(query) != NULL", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(query->magic == 304292517u))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        VAS_Fail("vslq_deletequery", "vsl_query.c", 332, "(query)->magic == 0x122322A5", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        VAS_Fail("vslq_deletequery", "vsl_query.c", 332, "(query)->magic == 0x122322A5", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -17929,9 +17929,9 @@ __CPROVER_DUMP_L7:
   do
     if(query->vex == ((struct vex *)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      VAS_Fail("vslq_deletequery", "vsl_query.c", 334, "(query->vex) != 0", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      VAS_Fail("vslq_deletequery", "vsl_query.c", 334, "(query->vex) != 0", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -17942,9 +17942,9 @@ __CPROVER_DUMP_L9:
   do
     if(!(query->vex == ((struct vex *)NULL)))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      VAS_Fail("vslq_deletequery", "vsl_query.c", 336, "(query->vex) == 0", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      VAS_Fail("vslq_deletequery", "vsl_query.c", 336, "(query->vex) == 0", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -17968,25 +17968,25 @@ __CPROVER_DUMP_L1:
   {
     if(vex == ((struct vex *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vslq_exec", "vsl_query.c", 268, "(vex) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vslq_exec", "vsl_query.c", 268, "(vex) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vex->magic == 0xC7DB792D))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vslq_exec", "vsl_query.c", 268, "(vex)->magic == 0xC7DB792D", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vslq_exec", "vsl_query.c", 268, "(vex)->magic == 0xC7DB792D", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
   }
   while((_Bool)0);
-  signed int return_value_vslq_exec$5;
-  signed int return_value_vslq_exec$8;
-  signed int return_value_vslq_test$11;
+  signed int return_value_vslq_exec_5;
+  signed int return_value_vslq_exec_8;
+  signed int return_value_vslq_test_11;
   switch(vex->tok)
   {
     case (unsigned int)136:
@@ -17997,9 +17997,9 @@ __CPROVER_DUMP_L1:
       do
         if(vex->a == ((struct vex *)NULL))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          VAS_Fail("vslq_exec", "vsl_query.c", 272, "(vex->a) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          VAS_Fail("vslq_exec", "vsl_query.c", 272, "(vex->a) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -18009,9 +18009,9 @@ __CPROVER_DUMP_L1:
       do
         if(vex->b == ((struct vex *)NULL))
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          VAS_Fail("vslq_exec", "vsl_query.c", 273, "(vex->b) != 0", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          VAS_Fail("vslq_exec", "vsl_query.c", 273, "(vex->b) != 0", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -18019,8 +18019,8 @@ __CPROVER_DUMP_L1:
       if(!(r == 0))
         return r;
 
-      return_value_vslq_exec$5=vslq_exec(vex->b, ptrans);
-      return return_value_vslq_exec$5;
+      return_value_vslq_exec_5=vslq_exec(vex->b, ptrans);
+      return return_value_vslq_exec_5;
     }
     case (unsigned int)129:
     {
@@ -18030,9 +18030,9 @@ __CPROVER_DUMP_L1:
       do
         if(vex->a == ((struct vex *)NULL))
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          VAS_Fail("vslq_exec", "vsl_query.c", 279, "(vex->a) != 0", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          VAS_Fail("vslq_exec", "vsl_query.c", 279, "(vex->a) != 0", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -18042,9 +18042,9 @@ __CPROVER_DUMP_L1:
       do
         if(vex->b == ((struct vex *)NULL))
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          VAS_Fail("vslq_exec", "vsl_query.c", 280, "(vex->b) != 0", *return_value___errno_location$7, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          VAS_Fail("vslq_exec", "vsl_query.c", 280, "(vex->b) != 0", *return_value___errno_location_7, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -18052,8 +18052,8 @@ __CPROVER_DUMP_L1:
       if(!(r >= 1))
         return r;
 
-      return_value_vslq_exec$8=vslq_exec(vex->b, ptrans);
-      return return_value_vslq_exec$8;
+      return_value_vslq_exec_8=vslq_exec(vex->b, ptrans);
+      return return_value_vslq_exec_8;
     }
     case (unsigned int)135:
     {
@@ -18063,9 +18063,9 @@ __CPROVER_DUMP_L1:
       do
         if(vex->a == ((struct vex *)NULL))
         {
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          VAS_Fail("vslq_exec", "vsl_query.c", 286, "(vex->a) != 0", *return_value___errno_location$9, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          VAS_Fail("vslq_exec", "vsl_query.c", 286, "(vex->a) != 0", *return_value___errno_location_9, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -18075,9 +18075,9 @@ __CPROVER_DUMP_L1:
       do
         if(!(vex->b == ((struct vex *)NULL)))
         {
-          signed int *return_value___errno_location$10;
-          return_value___errno_location$10=__errno_location();
-          VAS_Fail("vslq_exec", "vsl_query.c", 287, "(vex->b) == 0", *return_value___errno_location$10, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_10;
+          return_value___errno_location_10=__errno_location();
+          VAS_Fail("vslq_exec", "vsl_query.c", 287, "(vex->b) == 0", *return_value___errno_location_10, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -18089,8 +18089,8 @@ __CPROVER_DUMP_L1:
     }
     default:
     {
-      return_value_vslq_test$11=vslq_test(vex, ptrans);
-      return return_value_vslq_test$11;
+      return_value_vslq_test_11=vslq_test(vex, ptrans);
+      return return_value_vslq_test_11;
     }
   }
   return 0;
@@ -18110,9 +18110,9 @@ __CPROVER_DUMP_L1:
   do
     if(querystring == ((const char *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vslq_newquery", "vsl_query.c", 307, "(querystring) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vslq_newquery", "vsl_query.c", 307, "(querystring) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -18123,9 +18123,9 @@ __CPROVER_DUMP_L3:
   do
     if(vsb == ((struct vsb *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vslq_newquery", "vsl_query.c", 310, "(vsb) != 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vslq_newquery", "vsl_query.c", 310, "(vsb) != 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -18135,31 +18135,31 @@ __CPROVER_DUMP_L3:
 
   __CPROVER_DUMP_L5:
     ;
-    signed int return_value_VSB_finish$4;
-    return_value_VSB_finish$4=VSB_finish(vsb);
-    if(!(return_value_VSB_finish$4 == 0))
+    signed int return_value_VSB_finish_4;
+    return_value_VSB_finish_4=VSB_finish(vsb);
+    if(!(return_value_VSB_finish_4 == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vslq_newquery", "vsl_query.c", 312, "(VSB_finish(vsb)) == 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vslq_newquery", "vsl_query.c", 312, "(VSB_finish(vsb)) == 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   }
   while((_Bool)0);
-  char *return_value_VSB_data$5;
+  char *return_value_VSB_data_5;
   if(vex == ((struct vex *)NULL))
   {
-    return_value_VSB_data$5=VSB_data(vsb);
-    vsl_diag(vsl, "%s", return_value_VSB_data$5);
+    return_value_VSB_data_5=VSB_data(vsb);
+    vsl_diag(vsl, "%s", return_value_VSB_data_5);
   }
 
   else
   {
     do
     {
-      void *return_value_calloc$6;
-      return_value_calloc$6=calloc(sizeof(struct vslq_query) /*16ul*/ , (unsigned long int)1);
-      query = (struct vslq_query *)return_value_calloc$6;
+      void *return_value_calloc_6;
+      return_value_calloc_6=calloc(sizeof(struct vslq_query) /*16ul*/ , (unsigned long int)1);
+      query = (struct vslq_query *)return_value_calloc_6;
       if(!(query == ((struct vslq_query *)NULL)))
         query->magic = (unsigned int)0x122322A5;
 
@@ -18171,9 +18171,9 @@ __CPROVER_DUMP_L3:
     do
       if(query == ((struct vslq_query *)NULL))
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        VAS_Fail("vslq_newquery", "vsl_query.c", 317, "(query) != 0", *return_value___errno_location$7, (enum vas_e)VAS_MISSING);
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        VAS_Fail("vslq_newquery", "vsl_query.c", 317, "(query) != 0", *return_value___errno_location_7, (enum vas_e)VAS_MISSING);
       }
 
     while((_Bool)0);
@@ -18219,9 +18219,9 @@ static signed int vslq_next(struct VSLQ *vslq)
     do
       if(!(len >= 1l))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("vslq_next", "vsl_dispatch.c", 1244, "len > 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("vslq_next", "vsl_dispatch.c", 1244, "len > 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -18240,9 +18240,9 @@ static signed int vslq_next(struct VSLQ *vslq)
         do
           if(vtx == ((struct vtx *)NULL))
           {
-            signed int *return_value___errno_location$2;
-            return_value___errno_location$2=__errno_location();
-            VAS_Fail("vslq_next", "vsl_dispatch.c", 1252, "(vtx) != 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_2;
+            return_value___errno_location_2=__errno_location();
+            VAS_Fail("vslq_next", "vsl_dispatch.c", 1252, "(vtx) != 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
           }
 
         while((_Bool)0);
@@ -18271,9 +18271,9 @@ __CPROVER_DUMP_L1:
   do
     if(vslq == ((struct VSLQ *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vslq_process_ready", "vsl_dispatch.c", 1269, "(vslq) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vslq_process_ready", "vsl_dispatch.c", 1269, "(vslq) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -18287,17 +18287,17 @@ __CPROVER_DUMP_L1:
     {
       if(vtx == ((struct vtx *)NULL))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vslq_process_ready", "vsl_dispatch.c", 1273, "(vtx) != NULL", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vslq_process_ready", "vsl_dispatch.c", 1273, "(vtx) != NULL", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(vtx->magic == 0xACC21D09))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          VAS_Fail("vslq_process_ready", "vsl_dispatch.c", 1273, "(vtx)->magic == 0xACC21D09", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          VAS_Fail("vslq_process_ready", "vsl_dispatch.c", 1273, "(vtx)->magic == 0xACC21D09", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -18319,9 +18319,9 @@ __CPROVER_DUMP_L1:
     do
       if((8u & vtx->flags) == 0u)
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        VAS_Fail("vslq_process_ready", "vsl_dispatch.c", 1275, "(vtx->flags & 0x8) != 0", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        VAS_Fail("vslq_process_ready", "vsl_dispatch.c", 1275, "(vtx->flags & 0x8) != 0", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -18335,9 +18335,9 @@ __CPROVER_DUMP_L1:
     do
       if(!(vtx == ((struct vtx *)NULL)))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        VAS_Fail("vslq_process_ready", "vsl_dispatch.c", 1279, "(vtx) == 0", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        VAS_Fail("vslq_process_ready", "vsl_dispatch.c", 1279, "(vtx) == 0", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -18357,18 +18357,18 @@ static signed int vslq_raw(struct VSLQ *vslq, signed int (*func)(struct VSL_data
   do
     if(!((signed int)vslq->grouping == VSL_g_raw))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vslq_raw", "vsl_dispatch.c", 1143, "vslq->grouping == VSL_g_raw", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vslq_raw", "vsl_dispatch.c", 1143, "vslq->grouping == VSL_g_raw", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   do
     if(!((unsigned long int)vslq->raw.len >= vslq->raw.offset))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vslq_raw", "vsl_dispatch.c", 1145, "vslq->raw.offset <= vslq->raw.len", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vslq_raw", "vsl_dispatch.c", 1145, "vslq->raw.offset <= vslq->raw.len", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -18386,9 +18386,9 @@ static signed int vslq_raw(struct VSLQ *vslq, signed int (*func)(struct VSL_data
       do
         if(vslq->c->rec.ptr == ((const unsigned int *)NULL))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          VAS_Fail("vslq_raw", "vsl_dispatch.c", 1151, "(vslq->c->rec.ptr) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          VAS_Fail("vslq_raw", "vsl_dispatch.c", 1151, "(vslq->c->rec.ptr) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -18401,9 +18401,9 @@ static signed int vslq_raw(struct VSLQ *vslq, signed int (*func)(struct VSL_data
       do
         if(!(vslq->raw.len >= 1l))
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          VAS_Fail("vslq_raw", "vsl_dispatch.c", 1160, "vslq->raw.len > 0", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          VAS_Fail("vslq_raw", "vsl_dispatch.c", 1160, "vslq->raw.len > 0", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -18418,15 +18418,15 @@ static signed int vslq_raw(struct VSLQ *vslq, signed int (*func)(struct VSL_data
       break;
 
   }
-  signed int return_value_vslq_runquery$5;
+  signed int return_value_vslq_runquery_5;
   if(func == ((signed int (*)(struct VSL_data *, struct VSL_transaction * const *, void *))NULL))
     return i;
 
   else
     if(!(vslq->query == ((struct vslq_query *)NULL)))
     {
-      return_value_vslq_runquery$5=vslq_runquery(vslq->query, vslq->raw.ptrans);
-      if(!(return_value_vslq_runquery$5 == 0))
+      return_value_vslq_runquery_5=vslq_runquery(vslq->query, vslq->raw.ptrans);
+      if(!(return_value_vslq_runquery_5 == 0))
         goto __CPROVER_DUMP_L13;
 
       return i;
@@ -18459,17 +18459,17 @@ __CPROVER_DUMP_L1:
   {
     if(query == ((struct vslq_query *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vslq_runquery", "vsl_query.c", 348, "(query) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vslq_runquery", "vsl_query.c", 348, "(query) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(query->magic == 304292517u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vslq_runquery", "vsl_query.c", 348, "(query)->magic == 0x122322A5", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vslq_runquery", "vsl_query.c", 348, "(query)->magic == 0x122322A5", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -18484,13 +18484,13 @@ __CPROVER_DUMP_L1:
 
     __CPROVER_DUMP_L6:
       ;
-      signed int return_value_VSL_ResetCursor$4;
-      return_value_VSL_ResetCursor$4=VSL_ResetCursor(t->c);
-      if(!(return_value_VSL_ResetCursor$4 == 0))
+      signed int return_value_VSL_ResetCursor_4;
+      return_value_VSL_ResetCursor_4=VSL_ResetCursor(t->c);
+      if(!(return_value_VSL_ResetCursor_4 == 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        VAS_Fail("vslq_runquery", "vsl_query.c", 352, "(VSL_ResetCursor(t->c)) == 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        VAS_Fail("vslq_runquery", "vsl_query.c", 352, "(VSL_ResetCursor(t->c)) == 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
       }
 
     }
@@ -18519,17 +18519,17 @@ static signed int vslq_shmref_check(struct VSLQ *vslq)
     {
       if(chunk == ((struct chunk *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("vslq_shmref_check", "vsl_dispatch.c", 1198, "(chunk) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("vslq_shmref_check", "vsl_dispatch.c", 1198, "(chunk) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(chunk->magic == 1222377876u))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          VAS_Fail("vslq_shmref_check", "vsl_dispatch.c", 1198, "(chunk)->magic == 0x48DC0194", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          VAS_Fail("vslq_shmref_check", "vsl_dispatch.c", 1198, "(chunk)->magic == 0x48DC0194", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -18538,13 +18538,13 @@ static signed int vslq_shmref_check(struct VSLQ *vslq)
     do
       if(!((signed int)chunk->type == chunk_t_shm))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        VAS_Fail("vslq_shmref_check", "vsl_dispatch.c", 1199, "chunk->type == chunk_t_shm", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        VAS_Fail("vslq_shmref_check", "vsl_dispatch.c", 1199, "chunk->type == chunk_t_shm", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
-    i=VSL_Check(vslq->c, &chunk->$anon0.shm.start);
+    i=VSL_Check(vslq->c, &chunk->_anon0.shm.start);
     if(i == 2)
       return 0;
 
@@ -18572,17 +18572,17 @@ __CPROVER_DUMP_L1:
   {
     if(vex == ((struct vex *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vslq_test", "vsl_query.c", 220, "(vex) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vslq_test", "vsl_query.c", 220, "(vex) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vex->magic == 0xC7DB792D))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vslq_test", "vsl_query.c", 220, "(vex)->magic == 0xC7DB792D", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vslq_test", "vsl_query.c", 220, "(vex)->magic == 0xC7DB792D", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -18595,17 +18595,17 @@ __CPROVER_DUMP_L5:
   {
     if(vex->lhs == ((struct vex_lhs *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vslq_test", "vsl_query.c", 221, "(vex->lhs) != NULL", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vslq_test", "vsl_query.c", 221, "(vex->lhs) != NULL", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vex->lhs->magic == 450090893u))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        VAS_Fail("vslq_test", "vsl_query.c", 221, "(vex->lhs)->magic == 0x1AD3D78D", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        VAS_Fail("vslq_test", "vsl_query.c", 221, "(vex->lhs)->magic == 0x1AD3D78D", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -18617,9 +18617,9 @@ __CPROVER_DUMP_L9:
   do
     if(vex->lhs->tags == ((struct vbitmap *)NULL))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      VAS_Fail("vslq_test", "vsl_query.c", 222, "(vex->lhs->tags) != 0", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      VAS_Fail("vslq_test", "vsl_query.c", 222, "(vex->lhs->tags) != 0", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -18654,13 +18654,13 @@ __CPROVER_DUMP_L9:
 
     __CPROVER_DUMP_L14:
       ;
-      signed int return_value_VSL_ResetCursor$7;
-      return_value_VSL_ResetCursor$7=VSL_ResetCursor(t->c);
-      if(!(return_value_VSL_ResetCursor$7 == 0))
+      signed int return_value_VSL_ResetCursor_7;
+      return_value_VSL_ResetCursor_7=VSL_ResetCursor(t->c);
+      if(!(return_value_VSL_ResetCursor_7 == 0))
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        VAS_Fail("vslq_test", "vsl_query.c", 241, "(VSL_ResetCursor(t->c)) == 0", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        VAS_Fail("vslq_test", "vsl_query.c", 241, "(VSL_ResetCursor(t->c)) == 0", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
       }
 
     }
@@ -18677,9 +18677,9 @@ __CPROVER_DUMP_L9:
       do
         if(!(i == 1))
         {
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          VAS_Fail("vslq_test", "vsl_query.c", 248, "i == 1", *return_value___errno_location$8, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          VAS_Fail("vslq_test", "vsl_query.c", 248, "i == 1", *return_value___errno_location_8, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -18689,15 +18689,15 @@ __CPROVER_DUMP_L9:
       do
         if(t->c->rec.ptr == ((const unsigned int *)NULL))
         {
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          VAS_Fail("vslq_test", "vsl_query.c", 249, "(t->c->rec.ptr) != 0", *return_value___errno_location$9, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          VAS_Fail("vslq_test", "vsl_query.c", 249, "(t->c->rec.ptr) != 0", *return_value___errno_location_9, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
-      signed int return_value_vbit_test$10;
-      return_value_vbit_test$10=vbit_test(vex->lhs->tags, t->c->rec.ptr[(signed long int)0] >> 24);
-      if(!(return_value_vbit_test$10 == 0))
+      signed int return_value_vbit_test_10;
+      return_value_vbit_test_10=vbit_test(vex->lhs->tags, t->c->rec.ptr[(signed long int)0] >> 24);
+      if(!(return_value_vbit_test_10 == 0))
       {
         i=vslq_test_rec(vex, &t->c->rec);
         if(!(i == 0))
@@ -18731,9 +18731,9 @@ __CPROVER_DUMP_L1:
   do
     if(vex == ((struct vex *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vslq_test_rec", "vsl_query.c", 81, "(vex) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vslq_test_rec", "vsl_query.c", 81, "(vex) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -18743,20 +18743,20 @@ __CPROVER_DUMP_L3:
   do
     if(rec == ((struct VSLC_ptr *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vslq_test_rec", "vsl_query.c", 82, "(rec) != 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vslq_test_rec", "vsl_query.c", 82, "(rec) != 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   b = (const char *)(rec->ptr + (signed long int)2);
   e = (b + (signed long int)(rec->ptr[(signed long int)0] & (unsigned int)0xffff)) - (signed long int)1;
-  const unsigned short int **return_value___ctype_b_loc$4;
+  const unsigned short int **return_value___ctype_b_loc_4;
   if(!(vex->lhs->prefix == ((char *)NULL)))
   {
-    signed int return_value_strncasecmp$3;
-    return_value_strncasecmp$3=strncasecmp(b, vex->lhs->prefix, (unsigned long int)vex->lhs->prefixlen);
-    if(!(return_value_strncasecmp$3 == 0))
+    signed int return_value_strncasecmp_3;
+    return_value_strncasecmp_3=strncasecmp(b, vex->lhs->prefix, (unsigned long int)vex->lhs->prefixlen);
+    if(!(return_value_strncasecmp_3 == 0))
       return 0;
 
     if(!((signed int)b[(signed long int)vex->lhs->prefixlen] == 58))
@@ -18765,31 +18765,31 @@ __CPROVER_DUMP_L3:
     b = b + (signed long int)(vex->lhs->prefixlen + 1);
     for( ; !(*b == 0); b = b + 1l)
     {
-      return_value___ctype_b_loc$4=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)*b]) == 0)
+      return_value___ctype_b_loc_4=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)*b]) == 0)
         break;
 
     }
   }
 
-  _Bool tmp_if_expr$5;
-  const unsigned short int **return_value___ctype_b_loc$6;
-  const unsigned short int **return_value___ctype_b_loc$7;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$13;
-  const unsigned short int **return_value___ctype_b_loc$12;
-  _Bool tmp_if_expr$15;
-  const unsigned short int **return_value___ctype_b_loc$14;
-  signed int *return_value___errno_location$16;
-  signed int *return_value___errno_location$17;
-  signed int *return_value___errno_location$18;
-  signed int *return_value___errno_location$19;
-  signed int *return_value___errno_location$20;
-  signed int *return_value___errno_location$21;
-  signed int *return_value___errno_location$22;
-  _Bool tmp_if_expr$30;
-  _Bool tmp_if_expr$32;
-  signed int *return_value___errno_location$33;
+  _Bool tmp_if_expr_5;
+  const unsigned short int **return_value___ctype_b_loc_6;
+  const unsigned short int **return_value___ctype_b_loc_7;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_13;
+  const unsigned short int **return_value___ctype_b_loc_12;
+  _Bool tmp_if_expr_15;
+  const unsigned short int **return_value___ctype_b_loc_14;
+  signed int *return_value___errno_location_16;
+  signed int *return_value___errno_location_17;
+  signed int *return_value___errno_location_18;
+  signed int *return_value___errno_location_19;
+  signed int *return_value___errno_location_20;
+  signed int *return_value___errno_location_21;
+  signed int *return_value___errno_location_22;
+  _Bool tmp_if_expr_30;
+  _Bool tmp_if_expr_32;
+  signed int *return_value___errno_location_33;
   if(vex->lhs->field >= 1)
   {
     e = b;
@@ -18797,26 +18797,26 @@ __CPROVER_DUMP_L3:
     do
     {
       if(!(*e == 0))
-        tmp_if_expr$5 = i < vex->lhs->field ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = i < vex->lhs->field ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(!tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(!tmp_if_expr_5)
         break;
 
       b = e;
       for( ; !(*b == 0); b = b + 1l)
       {
-        return_value___ctype_b_loc$6=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$6)[(signed long int)(signed int)*b]) == 0)
+        return_value___ctype_b_loc_6=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_6)[(signed long int)(signed int)*b]) == 0)
           break;
 
       }
       e = b;
       for( ; !(*e == 0); e = e + 1l)
       {
-        return_value___ctype_b_loc$7=__ctype_b_loc();
-        if(!((8192 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)*e]) == 0))
+        return_value___ctype_b_loc_7=__ctype_b_loc();
+        if(!((8192 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)*e]) == 0))
           break;
 
       }
@@ -18826,18 +18826,18 @@ __CPROVER_DUMP_L3:
     do
       if(!(e >= b))
       {
-        signed int *return_value___errno_location$8;
-        return_value___errno_location$8=__errno_location();
-        VAS_Fail("vslq_test_rec", "vsl_query.c", 111, "b <= e", *return_value___errno_location$8, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_8;
+        return_value___errno_location_8=__errno_location();
+        VAS_Fail("vslq_test_rec", "vsl_query.c", 111, "b <= e", *return_value___errno_location_8, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
     if((signed int)*b == 0)
-      tmp_if_expr$9 = (_Bool)1;
+      tmp_if_expr_9 = (_Bool)1;
 
     else
-      tmp_if_expr$9 = i < vex->lhs->field ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$9)
+      tmp_if_expr_9 = i < vex->lhs->field ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_9)
       goto __CPROVER_DUMP_L21;
 
     return 0;
@@ -18861,17 +18861,17 @@ __CPROVER_DUMP_L3:
       {
         if(rhs == ((struct vex_rhs *)NULL))
         {
-          signed int *return_value___errno_location$10;
-          return_value___errno_location$10=__errno_location();
-          VAS_Fail("vslq_test_rec", "vsl_query.c", 122, "(rhs) != NULL", *return_value___errno_location$10, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_10;
+          return_value___errno_location_10=__errno_location();
+          VAS_Fail("vslq_test_rec", "vsl_query.c", 122, "(rhs) != NULL", *return_value___errno_location_10, (enum vas_e)VAS_ASSERT);
         }
 
         do
           if(!(rhs->magic == 1058052453u))
           {
-            signed int *return_value___errno_location$11;
-            return_value___errno_location$11=__errno_location();
-            VAS_Fail("vslq_test_rec", "vsl_query.c", 122, "(rhs)->magic == 0x3F109965", *return_value___errno_location$11, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_11;
+            return_value___errno_location_11=__errno_location();
+            VAS_Fail("vslq_test_rec", "vsl_query.c", 122, "(rhs)->magic == 0x3F109965", *return_value___errno_location_11, (enum vas_e)VAS_ASSERT);
           }
 
         while((_Bool)0);
@@ -18888,14 +18888,14 @@ __CPROVER_DUMP_L3:
           {
             lhs_int=strtoll(b, &p, 0);
             if((signed int)*p == 0)
-              tmp_if_expr$13 = (_Bool)1;
+              tmp_if_expr_13 = (_Bool)1;
 
             else
             {
-              return_value___ctype_b_loc$12=__ctype_b_loc();
-              tmp_if_expr$13 = ((signed int)(*return_value___ctype_b_loc$12)[(signed long int)(signed int)*p] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+              return_value___ctype_b_loc_12=__ctype_b_loc();
+              tmp_if_expr_13 = ((signed int)(*return_value___ctype_b_loc_12)[(signed long int)(signed int)*p] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$13)
+            if(tmp_if_expr_13)
               break;
 
             return 0;
@@ -18904,22 +18904,22 @@ __CPROVER_DUMP_L3:
           {
             lhs_float=strtod(b, &p);
             if((signed int)*p == 0)
-              tmp_if_expr$15 = (_Bool)1;
+              tmp_if_expr_15 = (_Bool)1;
 
             else
             {
-              return_value___ctype_b_loc$14=__ctype_b_loc();
-              tmp_if_expr$15 = ((signed int)(*return_value___ctype_b_loc$14)[(signed long int)(signed int)*p] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+              return_value___ctype_b_loc_14=__ctype_b_loc();
+              tmp_if_expr_15 = ((signed int)(*return_value___ctype_b_loc_14)[(signed long int)(signed int)*p] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$15)
+            if(tmp_if_expr_15)
               break;
 
             return 0;
           }
           default:
           {
-            return_value___errno_location$16=__errno_location();
-            VAS_Fail("vslq_test_rec", "vsl_query.c", 150, "Wrong RHS type", *return_value___errno_location$16, (enum vas_e)VAS_WRONG);
+            return_value___errno_location_16=__errno_location();
+            VAS_Fail("vslq_test_rec", "vsl_query.c", 150, "Wrong RHS type", *return_value___errno_location_16, (enum vas_e)VAS_WRONG);
           }
         }
       }
@@ -18945,8 +18945,8 @@ __CPROVER_DUMP_L3:
             }
             default:
             {
-              return_value___errno_location$17=__errno_location();
-              VAS_Fail("vslq_test_rec", "vsl_query.c", 160, "Wrong RHS type", *return_value___errno_location$17, (enum vas_e)VAS_WRONG);
+              return_value___errno_location_17=__errno_location();
+              VAS_Fail("vslq_test_rec", "vsl_query.c", 160, "Wrong RHS type", *return_value___errno_location_17, (enum vas_e)VAS_WRONG);
             }
           }
         case (unsigned int)133:
@@ -18968,8 +18968,8 @@ __CPROVER_DUMP_L3:
             }
             default:
             {
-              return_value___errno_location$18=__errno_location();
-              VAS_Fail("vslq_test_rec", "vsl_query.c", 162, "Wrong RHS type", *return_value___errno_location$18, (enum vas_e)VAS_WRONG);
+              return_value___errno_location_18=__errno_location();
+              VAS_Fail("vslq_test_rec", "vsl_query.c", 162, "Wrong RHS type", *return_value___errno_location_18, (enum vas_e)VAS_WRONG);
             }
           }
         case (unsigned int)60:
@@ -18991,8 +18991,8 @@ __CPROVER_DUMP_L3:
             }
             default:
             {
-              return_value___errno_location$19=__errno_location();
-              VAS_Fail("vslq_test_rec", "vsl_query.c", 164, "Wrong RHS type", *return_value___errno_location$19, (enum vas_e)VAS_WRONG);
+              return_value___errno_location_19=__errno_location();
+              VAS_Fail("vslq_test_rec", "vsl_query.c", 164, "Wrong RHS type", *return_value___errno_location_19, (enum vas_e)VAS_WRONG);
             }
           }
         case (unsigned int)62:
@@ -19014,8 +19014,8 @@ __CPROVER_DUMP_L3:
             }
             default:
             {
-              return_value___errno_location$20=__errno_location();
-              VAS_Fail("vslq_test_rec", "vsl_query.c", 166, "Wrong RHS type", *return_value___errno_location$20, (enum vas_e)VAS_WRONG);
+              return_value___errno_location_20=__errno_location();
+              VAS_Fail("vslq_test_rec", "vsl_query.c", 166, "Wrong RHS type", *return_value___errno_location_20, (enum vas_e)VAS_WRONG);
             }
           }
         case (unsigned int)132:
@@ -19037,8 +19037,8 @@ __CPROVER_DUMP_L3:
             }
             default:
             {
-              return_value___errno_location$21=__errno_location();
-              VAS_Fail("vslq_test_rec", "vsl_query.c", 168, "Wrong RHS type", *return_value___errno_location$21, (enum vas_e)VAS_WRONG);
+              return_value___errno_location_21=__errno_location();
+              VAS_Fail("vslq_test_rec", "vsl_query.c", 168, "Wrong RHS type", *return_value___errno_location_21, (enum vas_e)VAS_WRONG);
             }
           }
         case (unsigned int)131:
@@ -19060,8 +19060,8 @@ __CPROVER_DUMP_L3:
             }
             default:
             {
-              return_value___errno_location$22=__errno_location();
-              VAS_Fail("vslq_test_rec", "vsl_query.c", 170, "Wrong RHS type", *return_value___errno_location$22, (enum vas_e)VAS_WRONG);
+              return_value___errno_location_22=__errno_location();
+              VAS_Fail("vslq_test_rec", "vsl_query.c", 170, "Wrong RHS type", *return_value___errno_location_22, (enum vas_e)VAS_WRONG);
             }
           }
         case (unsigned int)137:
@@ -19069,9 +19069,9 @@ __CPROVER_DUMP_L3:
           do
             if(!((signed int)rhs->type == VEX_STRING))
             {
-              signed int *return_value___errno_location$23;
-              return_value___errno_location$23=__errno_location();
-              VAS_Fail("vslq_test_rec", "vsl_query.c", 172, "rhs->type == VEX_STRING", *return_value___errno_location$23, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_23;
+              return_value___errno_location_23=__errno_location();
+              VAS_Fail("vslq_test_rec", "vsl_query.c", 172, "rhs->type == VEX_STRING", *return_value___errno_location_23, (enum vas_e)VAS_ASSERT);
             }
 
           while((_Bool)0);
@@ -19080,18 +19080,18 @@ __CPROVER_DUMP_L3:
 
           if(!((1u & vex->options) == 0u))
           {
-            signed int return_value_strncasecmp$24;
-            return_value_strncasecmp$24=strncasecmp(b, rhs->val_string, (unsigned long int)(e - b));
-            if(!(return_value_strncasecmp$24 == 0))
+            signed int return_value_strncasecmp_24;
+            return_value_strncasecmp_24=strncasecmp(b, rhs->val_string, (unsigned long int)(e - b));
+            if(!(return_value_strncasecmp_24 == 0))
               return 0;
 
           }
 
           else
           {
-            signed int return_value_strncmp$25;
-            return_value_strncmp$25=strncmp(b, rhs->val_string, (unsigned long int)(e - b));
-            if(!(return_value_strncmp$25 == 0))
+            signed int return_value_strncmp_25;
+            return_value_strncmp_25=strncmp(b, rhs->val_string, (unsigned long int)(e - b));
+            if(!(return_value_strncmp_25 == 0))
               return 0;
 
           }
@@ -19102,9 +19102,9 @@ __CPROVER_DUMP_L3:
           do
             if(!((signed int)rhs->type == VEX_STRING))
             {
-              signed int *return_value___errno_location$26;
-              return_value___errno_location$26=__errno_location();
-              VAS_Fail("vslq_test_rec", "vsl_query.c", 184, "rhs->type == VEX_STRING", *return_value___errno_location$26, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_26;
+              return_value___errno_location_26=__errno_location();
+              VAS_Fail("vslq_test_rec", "vsl_query.c", 184, "rhs->type == VEX_STRING", *return_value___errno_location_26, (enum vas_e)VAS_ASSERT);
             }
 
           while((_Bool)0);
@@ -19113,18 +19113,18 @@ __CPROVER_DUMP_L3:
 
           if(!((1u & vex->options) == 0u))
           {
-            signed int return_value_strncasecmp$27;
-            return_value_strncasecmp$27=strncasecmp(b, rhs->val_string, (unsigned long int)(e - b));
-            if(!(return_value_strncasecmp$27 == 0))
+            signed int return_value_strncasecmp_27;
+            return_value_strncasecmp_27=strncasecmp(b, rhs->val_string, (unsigned long int)(e - b));
+            if(!(return_value_strncasecmp_27 == 0))
               return 1;
 
           }
 
           else
           {
-            signed int return_value_strncmp$28;
-            return_value_strncmp$28=strncmp(b, rhs->val_string, (unsigned long int)(e - b));
-            if(!(return_value_strncmp$28 == 0))
+            signed int return_value_strncmp_28;
+            return_value_strncmp_28=strncmp(b, rhs->val_string, (unsigned long int)(e - b));
+            if(!(return_value_strncmp_28 == 0))
               return 1;
 
           }
@@ -19135,15 +19135,15 @@ __CPROVER_DUMP_L3:
           do
           {
             if((signed int)rhs->type == VEX_REGEX)
-              tmp_if_expr$30 = rhs->val_regex != (struct vre *)(void *)0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_30 = rhs->val_regex != (struct vre *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$30 = (_Bool)0;
-            if(!tmp_if_expr$30)
+              tmp_if_expr_30 = (_Bool)0;
+            if(!tmp_if_expr_30)
             {
-              signed int *return_value___errno_location$29;
-              return_value___errno_location$29=__errno_location();
-              VAS_Fail("vslq_test_rec", "vsl_query.c", 196, "rhs->type == VEX_REGEX && rhs->val_regex != NULL", *return_value___errno_location$29, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_29;
+              return_value___errno_location_29=__errno_location();
+              VAS_Fail("vslq_test_rec", "vsl_query.c", 196, "rhs->type == VEX_REGEX && rhs->val_regex != NULL", *return_value___errno_location_29, (enum vas_e)VAS_ASSERT);
             }
 
           }
@@ -19159,15 +19159,15 @@ __CPROVER_DUMP_L3:
           do
           {
             if((signed int)rhs->type == VEX_REGEX)
-              tmp_if_expr$32 = rhs->val_regex != (struct vre *)(void *)0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_32 = rhs->val_regex != (struct vre *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$32 = (_Bool)0;
-            if(!tmp_if_expr$32)
+              tmp_if_expr_32 = (_Bool)0;
+            if(!tmp_if_expr_32)
             {
-              signed int *return_value___errno_location$31;
-              return_value___errno_location$31=__errno_location();
-              VAS_Fail("vslq_test_rec", "vsl_query.c", 202, "rhs->type == VEX_REGEX && rhs->val_regex != NULL", *return_value___errno_location$31, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_31;
+              return_value___errno_location_31=__errno_location();
+              VAS_Fail("vslq_test_rec", "vsl_query.c", 202, "rhs->type == VEX_REGEX && rhs->val_regex != NULL", *return_value___errno_location_31, (enum vas_e)VAS_ASSERT);
             }
 
           }
@@ -19180,8 +19180,8 @@ __CPROVER_DUMP_L3:
         }
         default:
         {
-          return_value___errno_location$33=__errno_location();
-          VAS_Fail("vslq_test_rec", "vsl_query.c", 208, "Bad expression token", *return_value___errno_location$33, (enum vas_e)VAS_WRONG);
+          return_value___errno_location_33=__errno_location();
+          VAS_Fail("vslq_test_rec", "vsl_query.c", 208, "Bad expression token", *return_value___errno_location_33, (enum vas_e)VAS_WRONG);
         }
       }
       return 0;
@@ -19201,17 +19201,17 @@ __CPROVER_DUMP_L1:
   {
     if(vd == ((struct VSM_data *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vsm_diag", "vsm.c", 86, "(vd) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vsm_diag", "vsm.c", 86, "(vd) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vd->magic == 1849415323u))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vsm_diag", "vsm.c", 86, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vsm_diag", "vsm.c", 86, "(vd)->magic == 0x6e3bd69b", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -19223,9 +19223,9 @@ __CPROVER_DUMP_L5:
   do
     if(fmt == ((const char *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vsm_diag", "vsm.c", 87, "(fmt) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vsm_diag", "vsm.c", 87, "(fmt) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -19238,9 +19238,9 @@ __CPROVER_DUMP_L7:
   do
     if(vd->diag == ((struct vsb *)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      VAS_Fail("vsm_diag", "vsm.c", 91, "(vd->diag) != 0", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      VAS_Fail("vsm_diag", "vsm.c", 91, "(vd->diag) != 0", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -19253,13 +19253,13 @@ __CPROVER_DUMP_L7:
 
   __CPROVER_DUMP_L9:
     ;
-    signed int return_value_VSB_finish$6;
-    return_value_VSB_finish$6=VSB_finish(vd->diag);
-    if(!(return_value_VSB_finish$6 == 0))
+    signed int return_value_VSB_finish_6;
+    return_value_VSB_finish_6=VSB_finish(vd->diag);
+    if(!(return_value_VSB_finish_6 == 0))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      VAS_Fail("vsm_diag", "vsm.c", 96, "(VSB_finish(vd->diag)) == 0", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      VAS_Fail("vsm_diag", "vsm.c", 96, "(VSB_finish(vd->diag)) == 0", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
     }
 
   }
@@ -19278,9 +19278,9 @@ __CPROVER_DUMP_L1:
   do
     if(vslq == ((struct VSLQ *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vtx_add", "vsl_dispatch.c", 609, "(vslq) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vtx_add", "vsl_dispatch.c", 609, "(vslq) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -19291,9 +19291,9 @@ __CPROVER_DUMP_L3:
   do
     if(vtx == ((struct vtx *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vtx_add", "vsl_dispatch.c", 611, "(vtx) != 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vtx_add", "vsl_dispatch.c", 611, "(vtx) != 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -19303,13 +19303,13 @@ __CPROVER_DUMP_L3:
 
   __CPROVER_DUMP_L5:
     ;
-    struct vtx_key *return_value_vtx_tree_VRB_INSERT$4;
-    return_value_vtx_tree_VRB_INSERT$4=vtx_tree_VRB_INSERT(&vslq->tree, &vtx->key);
-    if(!(return_value_vtx_tree_VRB_INSERT$4 == ((struct vtx_key *)NULL)))
+    struct vtx_key *return_value_vtx_tree_VRB_INSERT_4;
+    return_value_vtx_tree_VRB_INSERT_4=vtx_tree_VRB_INSERT(&vslq->tree, &vtx->key);
+    if(!(return_value_vtx_tree_VRB_INSERT_4 == ((struct vtx_key *)NULL)))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vtx_add", "vsl_dispatch.c", 613, "(vtx_tree_VRB_INSERT(&vslq->tree, &vtx->key)) == 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vtx_add", "vsl_dispatch.c", 613, "(vtx_tree_VRB_INSERT(&vslq->tree, &vtx->key)) == 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   }
@@ -19337,14 +19337,14 @@ __CPROVER_DUMP_L1:
   do
     if(vtx == ((struct vtx *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vtx_append", "vsl_dispatch.c", 428, "(vtx) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vtx_append", "vsl_dispatch.c", 428, "(vtx) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$9;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_9;
   if(!(len == 0ul))
   {
 
@@ -19353,20 +19353,20 @@ __CPROVER_DUMP_L1:
     do
       if(start == ((struct VSLC_ptr *)NULL))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vtx_append", "vsl_dispatch.c", 431, "(start) != 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vtx_append", "vsl_dispatch.c", 431, "(start) != 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
-    signed int return_value_VSL_Check$10;
-    return_value_VSL_Check$10=VSL_Check(vslq->c, start);
-    if(return_value_VSL_Check$10 == 2)
-      tmp_if_expr$11 = !((&vtx->shmchunks_free)->vtqh_first == (struct chunk *)(void *)0) ? (_Bool)1 : (_Bool)0;
+    signed int return_value_VSL_Check_10;
+    return_value_VSL_Check_10=VSL_Check(vslq->c, start);
+    if(return_value_VSL_Check_10 == 2)
+      tmp_if_expr_11 = !((&vtx->shmchunks_free)->vtqh_first == (struct chunk *)(void *)0) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$11 = (_Bool)0;
-    if(tmp_if_expr$11)
+      tmp_if_expr_11 = (_Bool)0;
+    if(tmp_if_expr_11)
     {
       chunk = (&vtx->shmchunks_free)->vtqh_first;
 
@@ -19376,17 +19376,17 @@ __CPROVER_DUMP_L1:
       {
         if(chunk == ((struct chunk *)NULL))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          VAS_Fail("vtx_append", "vsl_dispatch.c", 437, "(chunk) != NULL", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          VAS_Fail("vtx_append", "vsl_dispatch.c", 437, "(chunk) != NULL", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
         }
 
         do
           if(!(chunk->magic == 1222377876u))
           {
-            signed int *return_value___errno_location$4;
-            return_value___errno_location$4=__errno_location();
-            VAS_Fail("vtx_append", "vsl_dispatch.c", 437, "(chunk)->magic == 0x48DC0194", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_4;
+            return_value___errno_location_4=__errno_location();
+            VAS_Fail("vtx_append", "vsl_dispatch.c", 437, "(chunk)->magic == 0x48DC0194", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
           }
 
         while((_Bool)0);
@@ -19395,18 +19395,18 @@ __CPROVER_DUMP_L1:
       do
         if(!((signed int)chunk->type == chunk_t_shm))
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          VAS_Fail("vtx_append", "vsl_dispatch.c", 438, "chunk->type == chunk_t_shm", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          VAS_Fail("vtx_append", "vsl_dispatch.c", 438, "chunk->type == chunk_t_shm", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
       do
         if(!(chunk->vtx == vtx))
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          VAS_Fail("vtx_append", "vsl_dispatch.c", 439, "chunk->vtx == vtx", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          VAS_Fail("vtx_append", "vsl_dispatch.c", 439, "chunk->vtx == vtx", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -19420,7 +19420,7 @@ __CPROVER_DUMP_L1:
         *chunk->list.vtqe_prev = chunk->list.vtqe_next;
       }
       while((_Bool)0);
-      chunk->$anon0.shm.start = *start;
+      chunk->_anon0.shm.start = *start;
       chunk->len = len;
       do
       {
@@ -19432,10 +19432,10 @@ __CPROVER_DUMP_L1:
       while((_Bool)0);
       do
       {
-        chunk->$anon0.shm.shmref.vtqe_next = (struct chunk *)(void *)0;
-        chunk->$anon0.shm.shmref.vtqe_prev = (&vslq->shmrefs)->vtqh_last;
+        chunk->_anon0.shm.shmref.vtqe_next = (struct chunk *)(void *)0;
+        chunk->_anon0.shm.shmref.vtqe_prev = (&vslq->shmrefs)->vtqh_last;
         *(&vslq->shmrefs)->vtqh_last = chunk;
-        (&vslq->shmrefs)->vtqh_last = &chunk->$anon0.shm.shmref.vtqe_next;
+        (&vslq->shmrefs)->vtqh_last = &chunk->_anon0.shm.shmref.vtqe_next;
       }
       while((_Bool)0);
     }
@@ -19448,20 +19448,20 @@ __CPROVER_DUMP_L1:
           do
             if(!(chunk->magic == 1222377876u))
             {
-              signed int *return_value___errno_location$7;
-              return_value___errno_location$7=__errno_location();
-              VAS_Fail("vtx_append", "vsl_dispatch.c", 450, "(chunk)->magic == 0x48DC0194", *return_value___errno_location$7, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_7;
+              return_value___errno_location_7=__errno_location();
+              VAS_Fail("vtx_append", "vsl_dispatch.c", 450, "(chunk)->magic == 0x48DC0194", *return_value___errno_location_7, (enum vas_e)VAS_ASSERT);
             }
 
           while((_Bool)0);
 
       while((_Bool)0);
       if(!(chunk == ((struct chunk *)NULL)))
-        tmp_if_expr$9 = (signed int)chunk->type == chunk_t_buf ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_9 = (signed int)chunk->type == chunk_t_buf ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$9 = (_Bool)0;
-      if(tmp_if_expr$9)
+        tmp_if_expr_9 = (_Bool)0;
+      if(tmp_if_expr_9)
         chunk_appendbuf(chunk, start->ptr, len);
 
       else
@@ -19473,9 +19473,9 @@ __CPROVER_DUMP_L1:
         do
           if(chunk == ((struct chunk *)NULL))
           {
-            signed int *return_value___errno_location$8;
-            return_value___errno_location$8=__errno_location();
-            VAS_Fail("vtx_append", "vsl_dispatch.c", 457, "(chunk) != 0", *return_value___errno_location$8, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_8;
+            return_value___errno_location_8=__errno_location();
+            VAS_Fail("vtx_append", "vsl_dispatch.c", 457, "(chunk) != 0", *return_value___errno_location_8, (enum vas_e)VAS_ASSERT);
           }
 
         while((_Bool)0);
@@ -19520,9 +19520,9 @@ __CPROVER_DUMP_L1:
   do
     if(!((4u & vtx->flags) == 0u))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vtx_force", "vsl_dispatch.c", 890, "(vtx->flags & 0x4) == 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vtx_force", "vsl_dispatch.c", 890, "(vtx->flags & 0x4) == 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -19532,9 +19532,9 @@ __CPROVER_DUMP_L3:
   do
     if(!((8u & vtx->flags) == 0u))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vtx_force", "vsl_dispatch.c", 891, "(vtx->flags & 0x8) == 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vtx_force", "vsl_dispatch.c", 891, "(vtx->flags & 0x8) == 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -19553,9 +19553,9 @@ __CPROVER_DUMP_L7:
   do
     if((4u & vtx->flags) == 0u)
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vtx_force", "vsl_dispatch.c", 900, "(vtx->flags & 0x4) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vtx_force", "vsl_dispatch.c", 900, "(vtx->flags & 0x4) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -19589,9 +19589,9 @@ __CPROVER_DUMP_L1:
   do
     if(vslq == ((struct VSLQ *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vtx_lookup", "vsl_dispatch.c", 594, "(vslq) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vtx_lookup", "vsl_dispatch.c", 594, "(vslq) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -19608,9 +19608,9 @@ __CPROVER_DUMP_L1:
       do
         if(vtx == ((struct vtx *)NULL))
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          VAS_Fail("vtx_lookup", "vsl_dispatch.c", 599, "(vtx) != NULL", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          VAS_Fail("vtx_lookup", "vsl_dispatch.c", 599, "(vtx) != NULL", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -19620,9 +19620,9 @@ __CPROVER_DUMP_L1:
       do
         if(!(vtx->magic == 0xACC21D09))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          VAS_Fail("vtx_lookup", "vsl_dispatch.c", 599, "((vtx))->magic == (0xACC21D09)", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          VAS_Fail("vtx_lookup", "vsl_dispatch.c", 599, "((vtx))->magic == (0xACC21D09)", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -19642,9 +19642,9 @@ __CPROVER_DUMP_L1:
   do
     if(vslq == ((struct VSLQ *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vtx_mark_complete", "vsl_dispatch.c", 625, "(vslq) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vtx_mark_complete", "vsl_dispatch.c", 625, "(vslq) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -19654,9 +19654,9 @@ __CPROVER_DUMP_L3:
   do
     if((2u & vtx->flags) == 0u)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vtx_mark_complete", "vsl_dispatch.c", 626, "(vtx->flags & 0x2) != 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vtx_mark_complete", "vsl_dispatch.c", 626, "(vtx->flags & 0x2) != 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -19666,9 +19666,9 @@ __CPROVER_DUMP_L5:
   do
     if(!((4u & vtx->flags) == 0u))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vtx_mark_complete", "vsl_dispatch.c", 627, "(vtx->flags & 0x4) == 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vtx_mark_complete", "vsl_dispatch.c", 627, "(vtx->flags & 0x4) == 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -19686,7 +19686,7 @@ __CPROVER_DUMP_L5:
     *vtx->list_vtx.vtqe_prev = vtx->list_vtx.vtqe_next;
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   while((_Bool)1)
   {
 
@@ -19695,18 +19695,18 @@ __CPROVER_DUMP_L5:
     do
       if(!((8u & vtx->flags) == 0u))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        VAS_Fail("vtx_mark_complete", "vsl_dispatch.c", 636, "(vtx->flags & 0x8) == 0", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        VAS_Fail("vtx_mark_complete", "vsl_dispatch.c", 636, "(vtx->flags & 0x8) == 0", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
     if(!((4u & vtx->flags) == 0u))
-      tmp_if_expr$5 = vtx->n_child == vtx->n_childready ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = vtx->n_child == vtx->n_childready ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
       vtx->flags = vtx->flags | (unsigned int)0x8;
 
     else
@@ -19729,9 +19729,9 @@ __CPROVER_DUMP_L5:
     do
       if(!(vtx->n_child >= vtx->n_childready))
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        VAS_Fail("vtx_mark_complete", "vsl_dispatch.c", 649, "vtx->n_child >= vtx->n_childready", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        VAS_Fail("vtx_mark_complete", "vsl_dispatch.c", 649, "vtx->n_child >= vtx->n_childready", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -19750,9 +19750,9 @@ __CPROVER_DUMP_L1:
   do
     if(vslq == ((struct VSLQ *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vtx_new", "vsl_dispatch.c", 471, "(vslq) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vtx_new", "vsl_dispatch.c", 471, "(vslq) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -19764,9 +19764,9 @@ __CPROVER_DUMP_L1:
     do
       if(vslq->cache.vtqh_first == ((struct vtx *)NULL))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vtx_new", "vsl_dispatch.c", 473, "(((&vslq->cache)->vtqh_first == ((void *)0))) == 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vtx_new", "vsl_dispatch.c", 473, "(((&vslq->cache)->vtqh_first == ((void *)0))) == 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -19788,9 +19788,9 @@ __CPROVER_DUMP_L1:
   {
     do
     {
-      void *return_value_calloc$3;
-      return_value_calloc$3=calloc(sizeof(struct vtx) /*496ul*/ , (unsigned long int)1);
-      vtx = (struct vtx *)return_value_calloc$3;
+      void *return_value_calloc_3;
+      return_value_calloc_3=calloc(sizeof(struct vtx) /*496ul*/ , (unsigned long int)1);
+      vtx = (struct vtx *)return_value_calloc_3;
       if(!(vtx == ((struct vtx *)NULL)))
         vtx->magic = 0xACC21D09;
 
@@ -19802,9 +19802,9 @@ __CPROVER_DUMP_L1:
     do
       if(vtx == ((struct vtx *)NULL))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        VAS_Fail("vtx_new", "vsl_dispatch.c", 479, "(vtx) != 0", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        VAS_Fail("vtx_new", "vsl_dispatch.c", 479, "(vtx) != 0", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -19859,17 +19859,17 @@ __CPROVER_DUMP_L18:
   {
     if(vtx == ((struct vtx *)NULL))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      VAS_Fail("vtx_new", "vsl_dispatch.c", 498, "(vtx) != NULL", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      VAS_Fail("vtx_new", "vsl_dispatch.c", 498, "(vtx) != NULL", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vtx->magic == 0xACC21D09))
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        VAS_Fail("vtx_new", "vsl_dispatch.c", 498, "(vtx)->magic == 0xACC21D09", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        VAS_Fail("vtx_new", "vsl_dispatch.c", 498, "(vtx)->magic == 0xACC21D09", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -19904,9 +19904,9 @@ __CPROVER_DUMP_L1:
   do
     if(str == ((const char *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vtx_parse_link", "vsl_dispatch.c", 682, "(str) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vtx_parse_link", "vsl_dispatch.c", 682, "(str) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -19916,9 +19916,9 @@ __CPROVER_DUMP_L3:
   do
     if(ptype == ((enum VSL_transaction_e *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vtx_parse_link", "vsl_dispatch.c", 683, "(ptype) != 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vtx_parse_link", "vsl_dispatch.c", 683, "(ptype) != 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -19928,9 +19928,9 @@ __CPROVER_DUMP_L5:
   do
     if(pvxid == ((unsigned int *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vtx_parse_link", "vsl_dispatch.c", 684, "(pvxid) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vtx_parse_link", "vsl_dispatch.c", 684, "(pvxid) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -19940,15 +19940,15 @@ __CPROVER_DUMP_L7:
   do
     if(preason == ((enum VSL_reason_e *)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      VAS_Fail("vtx_parse_link", "vsl_dispatch.c", 685, "(preason) != 0", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      VAS_Fail("vtx_parse_link", "vsl_dispatch.c", 685, "(preason) != 0", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   i=sscanf(str, "%15s %u %15s", (const void *)type, &vxid, (const void *)reason);
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$6;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_6;
   if(!(i >= 1))
     return 0;
 
@@ -19957,8 +19957,8 @@ __CPROVER_DUMP_L7:
     j = 0;
     for( ; !(j >= VSL_t__MAX); j = j + 1)
     {
-      return_value_strcmp$5=strcmp(type, vsl_t_names[(signed long int)j]);
-      if(return_value_strcmp$5 == 0)
+      return_value_strcmp_5=strcmp(type, vsl_t_names[(signed long int)j]);
+      if(return_value_strcmp_5 == 0)
         break;
 
     }
@@ -19981,8 +19981,8 @@ __CPROVER_DUMP_L7:
         j = 0;
         for( ; !(j >= VSL_r__MAX); j = j + 1)
         {
-          return_value_strcmp$6=strcmp(reason, vsl_r_names[(signed long int)j]);
-          if(return_value_strcmp$6 == 0)
+          return_value_strcmp_6=strcmp(reason, vsl_r_names[(signed long int)j]);
+          if(return_value_strcmp_6 == 0)
             break;
 
         }
@@ -20011,9 +20011,9 @@ __CPROVER_DUMP_L1:
   do
     if(vslq == ((struct VSLQ *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vtx_retire", "vsl_dispatch.c", 524, "(vslq) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vtx_retire", "vsl_dispatch.c", 524, "(vslq) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -20023,9 +20023,9 @@ __CPROVER_DUMP_L3:
   do
     if(pvtx == ((struct vtx **)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vtx_retire", "vsl_dispatch.c", 525, "(pvtx) != 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vtx_retire", "vsl_dispatch.c", 525, "(pvtx) != 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -20038,17 +20038,17 @@ __CPROVER_DUMP_L5:
   {
     if(vtx == ((struct vtx *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vtx_retire", "vsl_dispatch.c", 529, "(vtx) != NULL", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vtx_retire", "vsl_dispatch.c", 529, "(vtx) != NULL", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vtx->magic == 0xACC21D09))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        VAS_Fail("vtx_retire", "vsl_dispatch.c", 529, "(vtx)->magic == 0xACC21D09", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        VAS_Fail("vtx_retire", "vsl_dispatch.c", 529, "(vtx)->magic == 0xACC21D09", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -20060,9 +20060,9 @@ __CPROVER_DUMP_L9:
   do
     if((4u & vtx->flags) == 0u)
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      VAS_Fail("vtx_retire", "vsl_dispatch.c", 531, "(vtx->flags & 0x4) != 0", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      VAS_Fail("vtx_retire", "vsl_dispatch.c", 531, "(vtx->flags & 0x4) != 0", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -20072,9 +20072,9 @@ __CPROVER_DUMP_L11:
   do
     if((8u & vtx->flags) == 0u)
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      VAS_Fail("vtx_retire", "vsl_dispatch.c", 532, "(vtx->flags & 0x8) != 0", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      VAS_Fail("vtx_retire", "vsl_dispatch.c", 532, "(vtx->flags & 0x8) != 0", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -20084,9 +20084,9 @@ __CPROVER_DUMP_L13:
   do
     if(!(vtx->parent == ((struct vtx *)NULL)))
     {
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      VAS_Fail("vtx_retire", "vsl_dispatch.c", 533, "(vtx->parent) == 0", *return_value___errno_location$7, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      VAS_Fail("vtx_retire", "vsl_dispatch.c", 533, "(vtx->parent) == 0", *return_value___errno_location_7, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -20096,9 +20096,9 @@ __CPROVER_DUMP_L13:
     do
       if(!(child->parent == vtx))
       {
-        signed int *return_value___errno_location$8;
-        return_value___errno_location$8=__errno_location();
-        VAS_Fail("vtx_retire", "vsl_dispatch.c", 537, "child->parent == vtx", *return_value___errno_location$8, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_8;
+        return_value___errno_location_8=__errno_location();
+        VAS_Fail("vtx_retire", "vsl_dispatch.c", 537, "child->parent == vtx", *return_value___errno_location_8, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -20108,18 +20108,18 @@ __CPROVER_DUMP_L13:
     do
       if(vtx->n_child == 0u)
       {
-        signed int *return_value___errno_location$9;
-        return_value___errno_location$9=__errno_location();
-        VAS_Fail("vtx_retire", "vsl_dispatch.c", 538, "(vtx->n_child) != 0", *return_value___errno_location$9, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_9;
+        return_value___errno_location_9=__errno_location();
+        VAS_Fail("vtx_retire", "vsl_dispatch.c", 538, "(vtx->n_child) != 0", *return_value___errno_location_9, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
     do
       if(!(vtx->n_descend >= 1u + child->n_descend))
       {
-        signed int *return_value___errno_location$10;
-        return_value___errno_location$10=__errno_location();
-        VAS_Fail("vtx_retire", "vsl_dispatch.c", 539, "vtx->n_descend >= child->n_descend + 1", *return_value___errno_location$10, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_10;
+        return_value___errno_location_10=__errno_location();
+        VAS_Fail("vtx_retire", "vsl_dispatch.c", 539, "vtx->n_descend >= child->n_descend + 1", *return_value___errno_location_10, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -20143,9 +20143,9 @@ __CPROVER_DUMP_L13:
     do
       if(!(child == ((struct vtx *)NULL)))
       {
-        signed int *return_value___errno_location$11;
-        return_value___errno_location$11=__errno_location();
-        VAS_Fail("vtx_retire", "vsl_dispatch.c", 545, "(child) == 0", *return_value___errno_location$11, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_11;
+        return_value___errno_location_11=__errno_location();
+        VAS_Fail("vtx_retire", "vsl_dispatch.c", 545, "(child) == 0", *return_value___errno_location_11, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -20156,9 +20156,9 @@ __CPROVER_DUMP_L27:
   do
     if(!(vtx->n_child == 0u))
     {
-      signed int *return_value___errno_location$12;
-      return_value___errno_location$12=__errno_location();
-      VAS_Fail("vtx_retire", "vsl_dispatch.c", 547, "(vtx->n_child) == 0", *return_value___errno_location$12, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_12;
+      return_value___errno_location_12=__errno_location();
+      VAS_Fail("vtx_retire", "vsl_dispatch.c", 547, "(vtx->n_child) == 0", *return_value___errno_location_12, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -20168,9 +20168,9 @@ __CPROVER_DUMP_L29:
   do
     if(!(vtx->n_descend == 0u))
     {
-      signed int *return_value___errno_location$13;
-      return_value___errno_location$13=__errno_location();
-      VAS_Fail("vtx_retire", "vsl_dispatch.c", 548, "(vtx->n_descend) == 0", *return_value___errno_location$13, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_13;
+      return_value___errno_location_13=__errno_location();
+      VAS_Fail("vtx_retire", "vsl_dispatch.c", 548, "(vtx->n_descend) == 0", *return_value___errno_location_13, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -20180,13 +20180,13 @@ __CPROVER_DUMP_L29:
 
   __CPROVER_DUMP_L31:
     ;
-    struct vtx_key *return_value_vtx_tree_VRB_REMOVE$15;
-    return_value_vtx_tree_VRB_REMOVE$15=vtx_tree_VRB_REMOVE(&vslq->tree, &vtx->key);
-    if(return_value_vtx_tree_VRB_REMOVE$15 == ((struct vtx_key *)NULL))
+    struct vtx_key *return_value_vtx_tree_VRB_REMOVE_15;
+    return_value_vtx_tree_VRB_REMOVE_15=vtx_tree_VRB_REMOVE(&vslq->tree, &vtx->key);
+    if(return_value_vtx_tree_VRB_REMOVE_15 == ((struct vtx_key *)NULL))
     {
-      signed int *return_value___errno_location$14;
-      return_value___errno_location$14=__errno_location();
-      VAS_Fail("vtx_retire", "vsl_dispatch.c", 550, "(vtx_tree_VRB_REMOVE(&vslq->tree, &vtx->key)) != 0", *return_value___errno_location$14, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_14;
+      return_value___errno_location_14=__errno_location();
+      VAS_Fail("vtx_retire", "vsl_dispatch.c", 550, "(vtx_tree_VRB_REMOVE(&vslq->tree, &vtx->key)) != 0", *return_value___errno_location_14, (enum vas_e)VAS_ASSERT);
     }
 
   }
@@ -20203,17 +20203,17 @@ __CPROVER_DUMP_L29:
     {
       if(synth == ((struct synth *)NULL))
       {
-        signed int *return_value___errno_location$16;
-        return_value___errno_location$16=__errno_location();
-        VAS_Fail("vtx_retire", "vsl_dispatch.c", 556, "(synth) != NULL", *return_value___errno_location$16, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_16;
+        return_value___errno_location_16=__errno_location();
+        VAS_Fail("vtx_retire", "vsl_dispatch.c", 556, "(synth) != NULL", *return_value___errno_location_16, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(synth->magic == 0xC654479F))
         {
-          signed int *return_value___errno_location$17;
-          return_value___errno_location$17=__errno_location();
-          VAS_Fail("vtx_retire", "vsl_dispatch.c", 556, "(synth)->magic == 0xC654479F", *return_value___errno_location$17, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_17;
+          return_value___errno_location_17=__errno_location();
+          VAS_Fail("vtx_retire", "vsl_dispatch.c", 556, "(synth)->magic == 0xC654479F", *return_value___errno_location_17, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -20246,17 +20246,17 @@ __CPROVER_DUMP_L29:
     {
       if(chunk == ((struct chunk *)NULL))
       {
-        signed int *return_value___errno_location$18;
-        return_value___errno_location$18=__errno_location();
-        VAS_Fail("vtx_retire", "vsl_dispatch.c", 563, "(chunk) != NULL", *return_value___errno_location$18, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_18;
+        return_value___errno_location_18=__errno_location();
+        VAS_Fail("vtx_retire", "vsl_dispatch.c", 563, "(chunk) != NULL", *return_value___errno_location_18, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(chunk->magic == 1222377876u))
         {
-          signed int *return_value___errno_location$19;
-          return_value___errno_location$19=__errno_location();
-          VAS_Fail("vtx_retire", "vsl_dispatch.c", 563, "(chunk)->magic == 0x48DC0194", *return_value___errno_location$19, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_19;
+          return_value___errno_location_19=__errno_location();
+          VAS_Fail("vtx_retire", "vsl_dispatch.c", 563, "(chunk)->magic == 0x48DC0194", *return_value___errno_location_19, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -20276,12 +20276,12 @@ __CPROVER_DUMP_L29:
     {
       do
       {
-        if(!(chunk->$anon0.shm.shmref.vtqe_next == ((struct chunk *)NULL)))
-          chunk->$anon0.shm.shmref.vtqe_next->$anon0.shm.shmref.vtqe_prev = chunk->$anon0.shm.shmref.vtqe_prev;
+        if(!(chunk->_anon0.shm.shmref.vtqe_next == ((struct chunk *)NULL)))
+          chunk->_anon0.shm.shmref.vtqe_next->_anon0.shm.shmref.vtqe_prev = chunk->_anon0.shm.shmref.vtqe_prev;
 
         else
-          (&vslq->shmrefs)->vtqh_last = chunk->$anon0.shm.shmref.vtqe_prev;
-        *chunk->$anon0.shm.shmref.vtqe_prev = chunk->$anon0.shm.shmref.vtqe_next;
+          (&vslq->shmrefs)->vtqh_last = chunk->_anon0.shm.shmref.vtqe_prev;
+        *chunk->_anon0.shm.shmref.vtqe_prev = chunk->_anon0.shm.shmref.vtqe_next;
       }
       while((_Bool)0);
       do
@@ -20303,9 +20303,9 @@ __CPROVER_DUMP_L29:
       do
         if(!((signed int)chunk->type == chunk_t_buf))
         {
-          signed int *return_value___errno_location$20;
-          return_value___errno_location$20=__errno_location();
-          VAS_Fail("vtx_retire", "vsl_dispatch.c", 569, "chunk->type == chunk_t_buf", *return_value___errno_location$20, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_20;
+          return_value___errno_location_20=__errno_location();
+          VAS_Fail("vtx_retire", "vsl_dispatch.c", 569, "chunk->type == chunk_t_buf", *return_value___errno_location_20, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -20316,9 +20316,9 @@ __CPROVER_DUMP_L29:
       do
         if(!(chunk == ((struct chunk *)NULL)))
         {
-          signed int *return_value___errno_location$21;
-          return_value___errno_location$21=__errno_location();
-          VAS_Fail("vtx_retire", "vsl_dispatch.c", 571, "(chunk) == 0", *return_value___errno_location$21, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_21;
+          return_value___errno_location_21=__errno_location();
+          VAS_Fail("vtx_retire", "vsl_dispatch.c", 571, "(chunk) == 0", *return_value___errno_location_21, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -20331,9 +20331,9 @@ __CPROVER_DUMP_L62:
   do
     if(vslq->n_outstanding == 0u)
     {
-      signed int *return_value___errno_location$22;
-      return_value___errno_location$22=__errno_location();
-      VAS_Fail("vtx_retire", "vsl_dispatch.c", 575, "(vslq->n_outstanding) != 0", *return_value___errno_location$22, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_22;
+      return_value___errno_location_22=__errno_location();
+      VAS_Fail("vtx_retire", "vsl_dispatch.c", 575, "(vslq->n_outstanding) != 0", *return_value___errno_location_22, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -20373,11 +20373,11 @@ static void vtx_scan(struct VSLQ *vslq, struct vtx *vtx)
 {
   const unsigned int *ptr;
   enum VSL_tag_e tag;
-  signed int return_value_vslc_vtx_next$1;
+  signed int return_value_vslc_vtx_next_1;
   while((4u & vtx->flags) == 0u)
   {
-    return_value_vslc_vtx_next$1=vslc_vtx_next(&vtx->c.cursor);
-    if(!(return_value_vslc_vtx_next$1 == 1))
+    return_value_vslc_vtx_next_1=vslc_vtx_next(&vtx->c.cursor);
+    if(!(return_value_vslc_vtx_next_1 == 1))
       break;
 
     ptr = vtx->c.cursor.rec.ptr;
@@ -20390,9 +20390,9 @@ static void vtx_scan(struct VSLQ *vslq, struct vtx *vtx)
       do
         if((signed int)tag == SLT__Batch)
         {
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          VAS_Fail("vtx_scan", "vsl_dispatch.c", 856, "tag != SLT__Batch", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          VAS_Fail("vtx_scan", "vsl_dispatch.c", 856, "tag != SLT__Batch", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -20423,9 +20423,9 @@ static void vtx_scan(struct VSLQ *vslq, struct vtx *vtx)
           do
             if(!((2u & vtx->flags) == 0u))
             {
-              signed int *return_value___errno_location$3;
-              return_value___errno_location$3=__errno_location();
-              VAS_Fail("vtx_scan", "vsl_dispatch.c", 873, "(vtx->flags & 0x2) == 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+              signed int *return_value___errno_location_3;
+              return_value___errno_location_3=__errno_location();
+              VAS_Fail("vtx_scan", "vsl_dispatch.c", 873, "(vtx->flags & 0x2) == 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
             }
 
           while((_Bool)0);
@@ -20449,9 +20449,9 @@ static signed int vtx_scan_begin(struct VSLQ *vslq, struct vtx *vtx, const unsig
   do
     if(!(*ptr >> 24 == 74u))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vtx_scan_begin", "vsl_dispatch.c", 722, "VSL_TAG(ptr) == SLT_Begin", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vtx_scan_begin", "vsl_dispatch.c", 722, "VSL_TAG(ptr) == SLT_Begin", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -20461,20 +20461,20 @@ __CPROVER_DUMP_L3:
   do
     if(!((8u & vtx->flags) == 0u))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vtx_scan_begin", "vsl_dispatch.c", 724, "(vtx->flags & 0x8) == 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vtx_scan_begin", "vsl_dispatch.c", 724, "(vtx->flags & 0x8) == 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   i=vtx_parse_link((const char *)(ptr + (signed long int)2), &type, &p_vxid, &reason);
-  signed int return_value_vtx_diag_tag$3;
-  signed int return_value_vtx_diag_tag$4;
-  signed int return_value_vtx_diag_tag$9;
+  signed int return_value_vtx_diag_tag_3;
+  signed int return_value_vtx_diag_tag_4;
+  signed int return_value_vtx_diag_tag_9;
   if(!(i == 3))
   {
-    return_value_vtx_diag_tag$3=vtx_diag_tag(vtx, ptr, "parse error");
-    return return_value_vtx_diag_tag$3;
+    return_value_vtx_diag_tag_3=vtx_diag_tag(vtx, ptr, "parse error");
+    return return_value_vtx_diag_tag_3;
   }
 
   else
@@ -20497,8 +20497,8 @@ __CPROVER_DUMP_L3:
     else
       if(p_vxid == vtx->key.vxid)
       {
-        return_value_vtx_diag_tag$4=vtx_diag_tag(vtx, ptr, "link to self");
-        return return_value_vtx_diag_tag$4;
+        return_value_vtx_diag_tag_4=vtx_diag_tag(vtx, ptr, "link to self");
+        return return_value_vtx_diag_tag_4;
       }
 
       else
@@ -20526,9 +20526,9 @@ __CPROVER_DUMP_L3:
             {
               if(!(vtx->parent->key.vxid == p_vxid))
               {
-                signed int return_value_vtx_diag_tag$5;
-                return_value_vtx_diag_tag$5=vtx_diag_tag(vtx, ptr, "link mismatch");
-                return return_value_vtx_diag_tag$5;
+                signed int return_value_vtx_diag_tag_5;
+                return_value_vtx_diag_tag_5=vtx_diag_tag(vtx, ptr, "link mismatch");
+                return return_value_vtx_diag_tag_5;
               }
 
               return 0;
@@ -20546,9 +20546,9 @@ __CPROVER_DUMP_L3:
                 do
                   if(p_vtx == ((struct vtx *)NULL))
                   {
-                    signed int *return_value___errno_location$6;
-                    return_value___errno_location$6=__errno_location();
-                    VAS_Fail("vtx_scan_begin", "vsl_dispatch.c", 766, "(p_vtx) != 0", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+                    signed int *return_value___errno_location_6;
+                    return_value___errno_location_6=__errno_location();
+                    VAS_Fail("vtx_scan_begin", "vsl_dispatch.c", 766, "(p_vtx) != 0", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
                   }
 
                 while((_Bool)0);
@@ -20563,17 +20563,17 @@ __CPROVER_DUMP_L3:
                 {
                   if(p_vtx == ((struct vtx *)NULL))
                   {
-                    signed int *return_value___errno_location$7;
-                    return_value___errno_location$7=__errno_location();
-                    VAS_Fail("vtx_scan_begin", "vsl_dispatch.c", 768, "(p_vtx) != NULL", *return_value___errno_location$7, (enum vas_e)VAS_ASSERT);
+                    signed int *return_value___errno_location_7;
+                    return_value___errno_location_7=__errno_location();
+                    VAS_Fail("vtx_scan_begin", "vsl_dispatch.c", 768, "(p_vtx) != NULL", *return_value___errno_location_7, (enum vas_e)VAS_ASSERT);
                   }
 
                   do
                     if(!(p_vtx->magic == 0xACC21D09))
                     {
-                      signed int *return_value___errno_location$8;
-                      return_value___errno_location$8=__errno_location();
-                      VAS_Fail("vtx_scan_begin", "vsl_dispatch.c", 768, "(p_vtx)->magic == 0xACC21D09", *return_value___errno_location$8, (enum vas_e)VAS_ASSERT);
+                      signed int *return_value___errno_location_8;
+                      return_value___errno_location_8=__errno_location();
+                      VAS_Fail("vtx_scan_begin", "vsl_dispatch.c", 768, "(p_vtx)->magic == 0xACC21D09", *return_value___errno_location_8, (enum vas_e)VAS_ASSERT);
                     }
 
                   while((_Bool)0);
@@ -20581,8 +20581,8 @@ __CPROVER_DUMP_L3:
                 while((_Bool)0);
                 if(!((4u & p_vtx->flags) == 0u))
                 {
-                  return_value_vtx_diag_tag$9=vtx_diag_tag(vtx, ptr, "link too late");
-                  return return_value_vtx_diag_tag$9;
+                  return_value_vtx_diag_tag_9=vtx_diag_tag(vtx, ptr, "link too late");
+                  return return_value_vtx_diag_tag_9;
                 }
 
               }
@@ -20605,9 +20605,9 @@ static signed int vtx_scan_link(struct VSLQ *vslq, struct vtx *vtx, const unsign
   do
     if(!(*ptr >> 24 == 73u))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vtx_scan_link", "vsl_dispatch.c", 789, "VSL_TAG(ptr) == SLT_Link", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vtx_scan_link", "vsl_dispatch.c", 789, "VSL_TAG(ptr) == SLT_Link", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -20617,22 +20617,22 @@ __CPROVER_DUMP_L3:
   do
     if(!((8u & vtx->flags) == 0u))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vtx_scan_link", "vsl_dispatch.c", 791, "(vtx->flags & 0x8) == 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vtx_scan_link", "vsl_dispatch.c", 791, "(vtx->flags & 0x8) == 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   i=vtx_parse_link((const char *)(ptr + (signed long int)2), &c_type, &c_vxid, &c_reason);
-  signed int return_value_vtx_diag_tag$3;
-  signed int return_value_vtx_diag_tag$4;
-  signed int return_value_vtx_diag_tag$5;
-  signed int return_value_vtx_diag_tag$10;
-  signed int return_value_vtx_diag_tag$11;
+  signed int return_value_vtx_diag_tag_3;
+  signed int return_value_vtx_diag_tag_4;
+  signed int return_value_vtx_diag_tag_5;
+  signed int return_value_vtx_diag_tag_10;
+  signed int return_value_vtx_diag_tag_11;
   if(!(i == 3))
   {
-    return_value_vtx_diag_tag$3=vtx_diag_tag(vtx, ptr, "parse error");
-    return return_value_vtx_diag_tag$3;
+    return_value_vtx_diag_tag_3=vtx_diag_tag(vtx, ptr, "parse error");
+    return return_value_vtx_diag_tag_3;
   }
 
   else
@@ -20659,15 +20659,15 @@ __CPROVER_DUMP_L3:
         ;
         if(c_vxid == 0u)
         {
-          return_value_vtx_diag_tag$4=vtx_diag_tag(vtx, ptr, "illegal link vxid");
-          return return_value_vtx_diag_tag$4;
+          return_value_vtx_diag_tag_4=vtx_diag_tag(vtx, ptr, "illegal link vxid");
+          return return_value_vtx_diag_tag_4;
         }
 
         else
           if(c_vxid == vtx->key.vxid)
           {
-            return_value_vtx_diag_tag$5=vtx_diag_tag(vtx, ptr, "link to self");
-            return return_value_vtx_diag_tag$5;
+            return_value_vtx_diag_tag_5=vtx_diag_tag(vtx, ptr, "link to self");
+            return return_value_vtx_diag_tag_5;
           }
 
           else
@@ -20682,9 +20682,9 @@ __CPROVER_DUMP_L3:
               do
                 if(c_vtx == ((struct vtx *)NULL))
                 {
-                  signed int *return_value___errno_location$6;
-                  return_value___errno_location$6=__errno_location();
-                  VAS_Fail("vtx_scan_link", "vsl_dispatch.c", 814, "(c_vtx) != 0", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+                  signed int *return_value___errno_location_6;
+                  return_value___errno_location_6=__errno_location();
+                  VAS_Fail("vtx_scan_link", "vsl_dispatch.c", 814, "(c_vtx) != 0", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
                 }
 
               while((_Bool)0);
@@ -20694,9 +20694,9 @@ __CPROVER_DUMP_L3:
               do
                 if(!(c_vtx->parent == ((struct vtx *)NULL)))
                 {
-                  signed int *return_value___errno_location$7;
-                  return_value___errno_location$7=__errno_location();
-                  VAS_Fail("vtx_scan_link", "vsl_dispatch.c", 815, "(c_vtx->parent) == 0", *return_value___errno_location$7, (enum vas_e)VAS_ASSERT);
+                  signed int *return_value___errno_location_7;
+                  return_value___errno_location_7=__errno_location();
+                  VAS_Fail("vtx_scan_link", "vsl_dispatch.c", 815, "(c_vtx->parent) == 0", *return_value___errno_location_7, (enum vas_e)VAS_ASSERT);
                 }
 
               while((_Bool)0);
@@ -20715,17 +20715,17 @@ __CPROVER_DUMP_L3:
               {
                 if(c_vtx == ((struct vtx *)NULL))
                 {
-                  signed int *return_value___errno_location$8;
-                  return_value___errno_location$8=__errno_location();
-                  VAS_Fail("vtx_scan_link", "vsl_dispatch.c", 822, "(c_vtx) != NULL", *return_value___errno_location$8, (enum vas_e)VAS_ASSERT);
+                  signed int *return_value___errno_location_8;
+                  return_value___errno_location_8=__errno_location();
+                  VAS_Fail("vtx_scan_link", "vsl_dispatch.c", 822, "(c_vtx) != NULL", *return_value___errno_location_8, (enum vas_e)VAS_ASSERT);
                 }
 
                 do
                   if(!(c_vtx->magic == 0xACC21D09))
                   {
-                    signed int *return_value___errno_location$9;
-                    return_value___errno_location$9=__errno_location();
-                    VAS_Fail("vtx_scan_link", "vsl_dispatch.c", 822, "(c_vtx)->magic == 0xACC21D09", *return_value___errno_location$9, (enum vas_e)VAS_ASSERT);
+                    signed int *return_value___errno_location_9;
+                    return_value___errno_location_9=__errno_location();
+                    VAS_Fail("vtx_scan_link", "vsl_dispatch.c", 822, "(c_vtx)->magic == 0xACC21D09", *return_value___errno_location_9, (enum vas_e)VAS_ASSERT);
                   }
 
                 while((_Bool)0);
@@ -20737,15 +20737,15 @@ __CPROVER_DUMP_L3:
               else
                 if(!(c_vtx->parent == vtx))
                 {
-                  return_value_vtx_diag_tag$10=vtx_diag_tag(vtx, ptr, "duplicate link");
-                  return return_value_vtx_diag_tag$10;
+                  return_value_vtx_diag_tag_10=vtx_diag_tag(vtx, ptr, "duplicate link");
+                  return return_value_vtx_diag_tag_10;
                 }
 
                 else
                   if(!((4u & c_vtx->flags) == 0u))
                   {
-                    return_value_vtx_diag_tag$11=vtx_diag_tag(vtx, ptr, "link too late");
-                    return return_value_vtx_diag_tag$11;
+                    return_value_vtx_diag_tag_11=vtx_diag_tag(vtx, ptr, "link too late");
+                    return return_value_vtx_diag_tag_11;
                   }
 
                   else
@@ -20779,17 +20779,17 @@ __CPROVER_DUMP_L1:
   {
     if(parent == ((struct vtx *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vtx_set_parent", "vsl_dispatch.c", 658, "(parent) != NULL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vtx_set_parent", "vsl_dispatch.c", 658, "(parent) != NULL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(parent->magic == 0xACC21D09))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vtx_set_parent", "vsl_dispatch.c", 658, "(parent)->magic == 0xACC21D09", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vtx_set_parent", "vsl_dispatch.c", 658, "(parent)->magic == 0xACC21D09", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -20802,17 +20802,17 @@ __CPROVER_DUMP_L5:
   {
     if(child == ((struct vtx *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vtx_set_parent", "vsl_dispatch.c", 659, "(child) != NULL", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vtx_set_parent", "vsl_dispatch.c", 659, "(child) != NULL", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(child->magic == 0xACC21D09))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        VAS_Fail("vtx_set_parent", "vsl_dispatch.c", 659, "(child)->magic == 0xACC21D09", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        VAS_Fail("vtx_set_parent", "vsl_dispatch.c", 659, "(child)->magic == 0xACC21D09", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -20821,9 +20821,9 @@ __CPROVER_DUMP_L5:
   do
     if(parent == child)
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      VAS_Fail("vtx_set_parent", "vsl_dispatch.c", 660, "parent != child", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      VAS_Fail("vtx_set_parent", "vsl_dispatch.c", 660, "parent != child", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -20833,9 +20833,9 @@ __CPROVER_DUMP_L11:
   do
     if(!((4u & parent->flags) == 0u))
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      VAS_Fail("vtx_set_parent", "vsl_dispatch.c", 661, "(parent->flags & 0x4) == 0", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      VAS_Fail("vtx_set_parent", "vsl_dispatch.c", 661, "(parent->flags & 0x4) == 0", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -20845,9 +20845,9 @@ __CPROVER_DUMP_L13:
   do
     if(!((4u & child->flags) == 0u))
     {
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      VAS_Fail("vtx_set_parent", "vsl_dispatch.c", 662, "(child->flags & 0x4) == 0", *return_value___errno_location$7, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      VAS_Fail("vtx_set_parent", "vsl_dispatch.c", 662, "(child->flags & 0x4) == 0", *return_value___errno_location_7, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -20857,9 +20857,9 @@ __CPROVER_DUMP_L15:
   do
     if(!(child->parent == ((struct vtx *)NULL)))
     {
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      VAS_Fail("vtx_set_parent", "vsl_dispatch.c", 663, "(child->parent) == 0", *return_value___errno_location$8, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      VAS_Fail("vtx_set_parent", "vsl_dispatch.c", 663, "(child->parent) == 0", *return_value___errno_location_8, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -20893,9 +20893,9 @@ static void vtx_synth_rec(struct vtx *vtx, unsigned int tag, const char *fmt, ..
   signed int buflen;
   do
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc(sizeof(struct synth) /*104ul*/ , (unsigned long int)1);
-    synth = (struct synth *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc(sizeof(struct synth) /*104ul*/ , (unsigned long int)1);
+    synth = (struct synth *)return_value_calloc_1;
     if(!(synth == ((struct synth *)NULL)))
       synth->magic = 0xC654479F;
 
@@ -20907,9 +20907,9 @@ __CPROVER_DUMP_L3:
   do
     if(synth == ((struct synth *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vtx_synth_rec", "vsl_dispatch.c", 983, "(synth) != 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vtx_synth_rec", "vsl_dispatch.c", 983, "(synth) != 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -20920,9 +20920,9 @@ __CPROVER_DUMP_L3:
   do
     if(!(l >= 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vtx_synth_rec", "vsl_dispatch.c", 989, "l >= 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vtx_synth_rec", "vsl_dispatch.c", 989, "l >= 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -20930,9 +20930,9 @@ __CPROVER_DUMP_L3:
   if(!(buflen + -1 >= l))
     l = buflen - 1;
 
-  signed int tmp_post$4 = l;
+  signed int tmp_post_4 = l;
   l = l + 1;
-  buf[(signed long int)tmp_post$4] = (char)0;
+  buf[(signed long int)tmp_post_4] = (char)0;
   synth->data[(signed long int)1] = vtx->key.vxid;
   switch((signed int)vtx->type)
   {
@@ -20956,17 +20956,17 @@ __CPROVER_DUMP_L3:
     {
       if(it == ((struct synth *)NULL))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        VAS_Fail("vtx_synth_rec", "vsl_dispatch.c", 1010, "(it) != NULL", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        VAS_Fail("vtx_synth_rec", "vsl_dispatch.c", 1010, "(it) != NULL", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
       }
 
       do
         if(!(it->magic == 0xC654479F))
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          VAS_Fail("vtx_synth_rec", "vsl_dispatch.c", 1010, "(it)->magic == 0xC654479F", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          VAS_Fail("vtx_synth_rec", "vsl_dispatch.c", 1010, "(it)->magic == 0xC654479F", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -21008,21 +21008,21 @@ __CPROVER_DUMP_L3:
       do
         if(!(vtx->c.synth->magic == 0xC654479F))
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          VAS_Fail("vtx_synth_rec", "vsl_dispatch.c", 1020, "(vtx->c.synth)->magic == 0xC654479F", *return_value___errno_location$7, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          VAS_Fail("vtx_synth_rec", "vsl_dispatch.c", 1020, "(vtx->c.synth)->magic == 0xC654479F", *return_value___errno_location_7, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
 
   while((_Bool)0);
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_8;
   if(vtx->c.synth == ((struct synth *)NULL))
-    tmp_if_expr$8 = (_Bool)1;
+    tmp_if_expr_8 = (_Bool)1;
 
   else
-    tmp_if_expr$8 = vtx->c.synth->offset > synth->offset ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$8)
+    tmp_if_expr_8 = vtx->c.synth->offset > synth->offset ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_8)
     vtx->c.synth = synth;
 
 }
@@ -21448,14 +21448,14 @@ color:
 static void vtx_tree_VRB_REMOVE_COLOR(struct vtx_tree *head, struct vtx_key *parent, struct vtx_key *elm)
 {
   struct vtx_key *tmp;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_6;
   while((_Bool)1)
   {
     if(!(elm == ((struct vtx_key *)NULL)))
@@ -21474,9 +21474,9 @@ static void vtx_tree_VRB_REMOVE_COLOR(struct vtx_tree *head, struct vtx_key *par
     do
       if(parent == ((struct vtx_key *)NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("vtx_tree_VRB_REMOVE_COLOR", "vsl_dispatch.c", 221, "(parent) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("vtx_tree_VRB_REMOVE_COLOR", "vsl_dispatch.c", 221, "(parent) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -21529,23 +21529,23 @@ static void vtx_tree_VRB_REMOVE_COLOR(struct vtx_tree *head, struct vtx_key *par
       }
 
       if(tmp->entry.rbe_left == ((struct vtx_key *)NULL))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = tmp->entry.rbe_left->entry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = tmp->entry.rbe_left->entry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
         if(tmp->entry.rbe_right == ((struct vtx_key *)NULL))
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = tmp->entry.rbe_right->entry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = tmp->entry.rbe_right->entry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(tmp_if_expr_5)
       {
         tmp->entry.rbe_color = 1;
         elm = parent;
@@ -21555,11 +21555,11 @@ static void vtx_tree_VRB_REMOVE_COLOR(struct vtx_tree *head, struct vtx_key *par
       else
       {
         if(tmp->entry.rbe_right == ((struct vtx_key *)NULL))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = tmp->entry.rbe_right->entry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = tmp->entry.rbe_right->entry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
         {
           struct vtx_key *oleft = tmp->entry.rbe_left;
           if(!(oleft == ((struct vtx_key *)NULL)))
@@ -21696,23 +21696,23 @@ static void vtx_tree_VRB_REMOVE_COLOR(struct vtx_tree *head, struct vtx_key *par
       }
 
       if(tmp->entry.rbe_left == ((struct vtx_key *)NULL))
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = tmp->entry.rbe_left->entry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = tmp->entry.rbe_left->entry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
       {
         if(tmp->entry.rbe_right == ((struct vtx_key *)NULL))
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
-          tmp_if_expr$8 = tmp->entry.rbe_right->entry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$9 = tmp_if_expr$8 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = tmp->entry.rbe_right->entry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_9 = tmp_if_expr_8 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$9 = (_Bool)0;
-      if(tmp_if_expr$9)
+        tmp_if_expr_9 = (_Bool)0;
+      if(tmp_if_expr_9)
       {
         tmp->entry.rbe_color = 1;
         elm = parent;
@@ -21722,11 +21722,11 @@ static void vtx_tree_VRB_REMOVE_COLOR(struct vtx_tree *head, struct vtx_key *par
       else
       {
         if(tmp->entry.rbe_left == ((struct vtx_key *)NULL))
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = tmp->entry.rbe_left->entry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = tmp->entry.rbe_left->entry.rbe_color == 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
         {
           struct vtx_key *oright = tmp->entry.rbe_right;
           if(!(oright == ((struct vtx_key *)NULL)))
@@ -21839,9 +21839,9 @@ static signed int vut_dispatch(struct VSL_data *vsl, struct VSL_transaction * co
     do
       if(VUT.dispatch_f == ((signed int (*)(struct VSL_data *, struct VSL_transaction * const *, void *))NULL))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        VAS_Fail("vut_dispatch", "../../lib/libvarnishtools/vut.c", 95, "(VUT.dispatch_f) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        VAS_Fail("vut_dispatch", "../../lib/libvarnishtools/vut.c", 95, "(VUT.dispatch_f) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -21905,9 +21905,9 @@ __CPROVER_DUMP_L1:
   do
     if(p == NULL)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vxp_Alloc", "vxp.c", 156, "(p) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vxp_Alloc", "vxp.c", 156, "(p) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -21927,9 +21927,9 @@ __CPROVER_DUMP_L1:
   do
     if(pvxp == ((struct vxp **)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vxp_Delete", "vxp.c", 183, "(pvxp) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vxp_Delete", "vxp.c", 183, "(pvxp) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -21942,17 +21942,17 @@ __CPROVER_DUMP_L3:
   {
     if(vxp == ((struct vxp *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vxp_Delete", "vxp.c", 186, "(vxp) != NULL", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vxp_Delete", "vxp.c", 186, "(vxp) != NULL", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
     do
       if(!(vxp->magic == 1506277036u))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        VAS_Fail("vxp_Delete", "vxp.c", 186, "(vxp)->magic == 0x59C7F6AC", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        VAS_Fail("vxp_Delete", "vxp.c", 186, "(vxp)->magic == 0x59C7F6AC", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -21987,18 +21987,18 @@ __CPROVER_DUMP_L3:
 static void vxp_DoFree(struct vxp *vxp, void *p)
 {
   struct membit *mb;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(sizeof(struct membit) /*24ul*/ , (unsigned long int)1);
-  mb = (struct membit *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(sizeof(struct membit) /*24ul*/ , (unsigned long int)1);
+  mb = (struct membit *)return_value_calloc_1;
 
 __CPROVER_DUMP_L1:
   ;
   do
     if(mb == ((struct membit *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vxp_DoFree", "vxp.c", 145, "(mb) != 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vxp_DoFree", "vxp.c", 145, "(mb) != 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -22034,9 +22034,9 @@ __CPROVER_DUMP_L1:
   do
     if(vxp == ((struct vxp *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vxp_ErrWhere", "vxp.c", 104, "(vxp) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vxp_ErrWhere", "vxp.c", 104, "(vxp) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -22046,9 +22046,9 @@ __CPROVER_DUMP_L3:
   do
     if(t == ((struct token *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vxp_ErrWhere", "vxp.c", 105, "(t) != 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vxp_ErrWhere", "vxp.c", 105, "(t) != 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -22068,27 +22068,27 @@ void vxp_Lexer(struct vxp *vxp)
   unsigned int u;
   char quote;
   p = vxp->b;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$16;
-  const unsigned short int **return_value___ctype_b_loc$15;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$20;
-  _Bool tmp_if_expr$21;
-  const unsigned short int **return_value___ctype_b_loc$5;
-  _Bool tmp_if_expr$7;
-  const unsigned short int **return_value___ctype_b_loc$6;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_16;
+  const unsigned short int **return_value___ctype_b_loc_15;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_20;
+  _Bool tmp_if_expr_21;
+  const unsigned short int **return_value___ctype_b_loc_5;
+  _Bool tmp_if_expr_7;
+  const unsigned short int **return_value___ctype_b_loc_6;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
   while(!(p >= vxp->e))
   {
-    const unsigned short int **return_value___ctype_b_loc$1;
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if(!((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*p]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_1;
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if(!((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*p]) == 0))
       p = p + 1l;
 
     else
@@ -22102,9 +22102,9 @@ void vxp_Lexer(struct vxp *vxp)
         do
           if(q == ((const char *)NULL))
           {
-            signed int *return_value___errno_location$2;
-            return_value___errno_location$2=__errno_location();
-            VAS_Fail("vxp_Lexer", "vxp_lexer.c", 120, "(q) != 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+            signed int *return_value___errno_location_2;
+            return_value___errno_location_2=__errno_location();
+            VAS_Fail("vxp_Lexer", "vxp_lexer.c", 120, "(q) != 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
           }
 
         while((_Bool)0);
@@ -22115,11 +22115,11 @@ void vxp_Lexer(struct vxp *vxp)
       else
       {
         if((signed int)*p == 34)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = (signed int)*p == 39 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (signed int)*p == 39 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
         {
           quote = *p;
           q = p + (signed long int)1;
@@ -22143,97 +22143,97 @@ void vxp_Lexer(struct vxp *vxp)
             goto __CPROVER_DUMP_L44;
           }
 
-          signed int return_value_vxp_decstr$3;
-          return_value_vxp_decstr$3=vxp_decstr(vxp, 1);
-          if(!(return_value_vxp_decstr$3 == 0))
+          signed int return_value_vxp_decstr_3;
+          return_value_vxp_decstr_3=vxp_decstr(vxp, 1);
+          if(!(return_value_vxp_decstr_3 == 0))
             goto __CPROVER_DUMP_L44;
 
           p = q;
           continue;
         }
 
-        const unsigned short int **return_value___ctype_b_loc$14;
-        return_value___ctype_b_loc$14=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$14)[(signed long int)(signed int)*p]) == 0))
-          tmp_if_expr$16 = (_Bool)1;
+        const unsigned short int **return_value___ctype_b_loc_14;
+        return_value___ctype_b_loc_14=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_14)[(signed long int)(signed int)*p]) == 0))
+          tmp_if_expr_16 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$15=__ctype_b_loc();
-          tmp_if_expr$16 = ((signed int)(*return_value___ctype_b_loc$15)[(signed long int)(signed int)*p] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_15=__ctype_b_loc();
+          tmp_if_expr_16 = ((signed int)(*return_value___ctype_b_loc_15)[(signed long int)(signed int)*p] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$16)
-          tmp_if_expr$17 = (_Bool)1;
+        if(tmp_if_expr_16)
+          tmp_if_expr_17 = (_Bool)1;
 
         else
-          tmp_if_expr$17 = (signed int)*p == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$17)
-          tmp_if_expr$18 = (_Bool)1;
+          tmp_if_expr_17 = (signed int)*p == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_17)
+          tmp_if_expr_18 = (_Bool)1;
 
         else
-          tmp_if_expr$18 = (signed int)*p == 45 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$18)
-          tmp_if_expr$19 = (_Bool)1;
+          tmp_if_expr_18 = (signed int)*p == 45 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_18)
+          tmp_if_expr_19 = (_Bool)1;
 
         else
-          tmp_if_expr$19 = (signed int)*p == 43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$19)
-          tmp_if_expr$20 = (_Bool)1;
+          tmp_if_expr_19 = (signed int)*p == 43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_19)
+          tmp_if_expr_20 = (_Bool)1;
 
         else
-          tmp_if_expr$20 = (signed int)*p == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$20)
-          tmp_if_expr$21 = (_Bool)1;
+          tmp_if_expr_20 = (signed int)*p == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_20)
+          tmp_if_expr_21 = (_Bool)1;
 
         else
-          tmp_if_expr$21 = (signed int)*p == 42 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$21)
+          tmp_if_expr_21 = (signed int)*p == 42 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_21)
         {
           q = p;
           for( ; !(q >= vxp->e); q = q + 1l)
           {
-            return_value___ctype_b_loc$5=__ctype_b_loc();
-            if(!((1024 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)*q]) == 0))
-              tmp_if_expr$7 = (_Bool)1;
+            return_value___ctype_b_loc_5=__ctype_b_loc();
+            if(!((1024 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)*q]) == 0))
+              tmp_if_expr_7 = (_Bool)1;
 
             else
             {
-              return_value___ctype_b_loc$6=__ctype_b_loc();
-              tmp_if_expr$7 = ((signed int)(*return_value___ctype_b_loc$6)[(signed long int)(signed int)*q] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+              return_value___ctype_b_loc_6=__ctype_b_loc();
+              tmp_if_expr_7 = ((signed int)(*return_value___ctype_b_loc_6)[(signed long int)(signed int)*q] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$7)
-              tmp_if_expr$8 = (_Bool)1;
+            if(tmp_if_expr_7)
+              tmp_if_expr_8 = (_Bool)1;
 
             else
-              tmp_if_expr$8 = (signed int)*q == 95 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$8)
-              tmp_if_expr$9 = (_Bool)1;
+              tmp_if_expr_8 = (signed int)*q == 95 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_8)
+              tmp_if_expr_9 = (_Bool)1;
 
             else
-              tmp_if_expr$9 = (signed int)*q == 45 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$9)
-              tmp_if_expr$10 = (_Bool)1;
+              tmp_if_expr_9 = (signed int)*q == 45 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_9)
+              tmp_if_expr_10 = (_Bool)1;
 
             else
-              tmp_if_expr$10 = (signed int)*q == 43 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$10)
-              tmp_if_expr$11 = (_Bool)1;
+              tmp_if_expr_10 = (signed int)*q == 43 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_10)
+              tmp_if_expr_11 = (_Bool)1;
 
             else
-              tmp_if_expr$11 = (signed int)*q == 46 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$11)
-              tmp_if_expr$12 = (_Bool)1;
+              tmp_if_expr_11 = (signed int)*q == 46 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_11)
+              tmp_if_expr_12 = (_Bool)1;
 
             else
-              tmp_if_expr$12 = (signed int)*q == 42 ? (_Bool)1 : (_Bool)0;
-            if(!tmp_if_expr$12)
+              tmp_if_expr_12 = (signed int)*q == 42 ? (_Bool)1 : (_Bool)0;
+            if(!tmp_if_expr_12)
               break;
 
           }
           vxp_add_token(vxp, (unsigned int)140, p, q);
-          signed int return_value_vxp_decstr$13;
-          return_value_vxp_decstr$13=vxp_decstr(vxp, 0);
-          if(!(return_value_vxp_decstr$13 == 0))
+          signed int return_value_vxp_decstr_13;
+          return_value_vxp_decstr_13=vxp_decstr(vxp, 0);
+          if(!(return_value_vxp_decstr_13 == 0))
             goto __CPROVER_DUMP_L44;
 
           p = q;
@@ -22264,17 +22264,17 @@ __CPROVER_DUMP_L1:
   do
     if(sb == ((struct vsb *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vxp_New", "vxp.c", 166, "(sb) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vxp_New", "vxp.c", 166, "(sb) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   do
   {
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc(sizeof(struct vxp) /*96ul*/ , (unsigned long int)1);
-    vxp = (struct vxp *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc(sizeof(struct vxp) /*96ul*/ , (unsigned long int)1);
+    vxp = (struct vxp *)return_value_calloc_2;
     if(!(vxp == ((struct vxp *)NULL)))
       vxp->magic = (unsigned int)0x59C7F6AC;
 
@@ -22286,9 +22286,9 @@ __CPROVER_DUMP_L5:
   do
     if(vxp == ((struct vxp *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vxp_New", "vxp.c", 169, "(vxp) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vxp_New", "vxp.c", 169, "(vxp) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -22318,9 +22318,9 @@ __CPROVER_DUMP_L1:
   do
     if(vxp->t == ((struct token *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vxp_NextToken", "vxp.c", 117, "(vxp->t) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vxp_NextToken", "vxp.c", 117, "(vxp->t) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -22356,9 +22356,9 @@ struct vex * vxp_Parse(struct vxp *vxp)
       do
         if(!(vex == ((struct vex *)NULL)))
         {
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          VAS_Fail("vxp_Parse", "vxp_parse.c", 488, "(vex) == 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          VAS_Fail("vxp_Parse", "vxp_parse.c", 488, "(vex) == 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -22381,9 +22381,9 @@ __CPROVER_DUMP_L1:
   do
     if(vxp == ((struct vxp *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vxp_Pos", "vxp.c", 61, "(vxp) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vxp_Pos", "vxp.c", 61, "(vxp) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -22393,9 +22393,9 @@ __CPROVER_DUMP_L3:
   do
     if(vsb == ((struct vsb *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vxp_Pos", "vxp.c", 62, "(vsb) != 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vxp_Pos", "vxp.c", 62, "(vsb) != 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -22405,18 +22405,18 @@ __CPROVER_DUMP_L5:
   do
     if(t == ((struct token *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vxp_Pos", "vxp.c", 63, "(t) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vxp_Pos", "vxp.c", 63, "(t) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   do
     if(!(t->b >= vxp->b))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      VAS_Fail("vxp_Pos", "vxp.c", 64, "t->b >= vxp->b", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      VAS_Fail("vxp_Pos", "vxp.c", 64, "t->b >= vxp->b", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -22446,18 +22446,18 @@ void vxp__Expect(struct vxp *vxp, unsigned int tok)
 static void vxp_add_token(struct vxp *vxp, unsigned int tok, const char *b, const char *e)
 {
   struct token *t;
-  void *return_value_vxp_Alloc$1;
-  return_value_vxp_Alloc$1=vxp_Alloc(vxp, (unsigned int)sizeof(struct token) /*56ul*/ );
-  t = (struct token *)return_value_vxp_Alloc$1;
+  void *return_value_vxp_Alloc_1;
+  return_value_vxp_Alloc_1=vxp_Alloc(vxp, (unsigned int)sizeof(struct token) /*56ul*/ );
+  t = (struct token *)return_value_vxp_Alloc_1;
 
 __CPROVER_DUMP_L1:
   ;
   do
     if(t == ((struct token *)NULL))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vxp_add_token", "vxp_lexer.c", 50, "(t) != 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vxp_add_token", "vxp_lexer.c", 50, "(t) != 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -22503,9 +22503,9 @@ static signed int vxp_decstr(struct vxp *vxp, signed int quoted)
   do
     if(!(vxp->t->tok == 140u))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vxp_decstr", "vxp_lexer.c", 69, "vxp->t->tok == VAL", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vxp_decstr", "vxp_lexer.c", 69, "vxp->t->tok == VAL", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -22516,9 +22516,9 @@ static signed int vxp_decstr(struct vxp *vxp, signed int quoted)
     do
       if(!(e - b >= 2l))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        VAS_Fail("vxp_decstr", "vxp_lexer.c", 74, "e - b >= 2", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        VAS_Fail("vxp_decstr", "vxp_lexer.c", 74, "e - b >= 2", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -22527,9 +22527,9 @@ static signed int vxp_decstr(struct vxp *vxp, signed int quoted)
   }
 
   l = (unsigned int)(e - b);
-  void *return_value_vxp_Alloc$3;
-  return_value_vxp_Alloc$3=vxp_Alloc(vxp, l + (unsigned int)1);
-  vxp->t->dec = (char *)return_value_vxp_Alloc$3;
+  void *return_value_vxp_Alloc_3;
+  return_value_vxp_Alloc_3=vxp_Alloc(vxp, l + (unsigned int)1);
+  vxp->t->dec = (char *)return_value_vxp_Alloc_3;
   s = vxp->t->dec;
 
 __CPROVER_DUMP_L6:
@@ -22537,14 +22537,14 @@ __CPROVER_DUMP_L6:
   do
     if(vxp->t->dec == ((char *)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      VAS_Fail("vxp_decstr", "vxp_lexer.c", 80, "(vxp->t->dec) != 0", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      VAS_Fail("vxp_decstr", "vxp_lexer.c", 80, "(vxp->t->dec) != 0", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   p = b;
-  char *tmp_post$5;
+  char *tmp_post_5;
   for( ; !(p >= e); p = p + 1l)
     if(esc == 0)
     {
@@ -22560,9 +22560,9 @@ __CPROVER_DUMP_L6:
     __CPROVER_DUMP_L9:
       ;
       esc = 0;
-      tmp_post$5 = s;
+      tmp_post_5 = s;
       s = s + 1l;
-      *tmp_post$5 = *p;
+      *tmp_post_5 = *p;
     }
   *s = (char)0;
   if(!(p == e) || !(esc == 0))
@@ -22612,9 +22612,9 @@ __CPROVER_DUMP_L1:
   do
     if(pvex == ((struct vex **)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vxp_expr_and", "vxp_parse.c", 411, "(pvex) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vxp_expr_and", "vxp_parse.c", 411, "(pvex) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -22624,9 +22624,9 @@ __CPROVER_DUMP_L3:
   do
     if(!(*pvex == ((struct vex *)NULL)))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vxp_expr_and", "vxp_parse.c", 412, "(*pvex) == 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vxp_expr_and", "vxp_parse.c", 412, "(*pvex) == 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -22646,9 +22646,9 @@ __CPROVER_DUMP_L3:
     do
       if(*pvex == ((struct vex *)NULL))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        VAS_Fail("vxp_expr_and", "vxp_parse.c", 418, "(*pvex) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        VAS_Fail("vxp_expr_and", "vxp_parse.c", 418, "(*pvex) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -22682,9 +22682,9 @@ __CPROVER_DUMP_L1:
   do
     if(pvex == ((struct vex **)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vxp_expr_cmp", "vxp_parse.c", 280, "(pvex) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vxp_expr_cmp", "vxp_parse.c", 280, "(pvex) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -22694,9 +22694,9 @@ __CPROVER_DUMP_L3:
   do
     if(!(*pvex == ((struct vex *)NULL)))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vxp_expr_cmp", "vxp_parse.c", 281, "(*pvex) == 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vxp_expr_cmp", "vxp_parse.c", 281, "(*pvex) == 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -22707,9 +22707,9 @@ __CPROVER_DUMP_L5:
   do
     if(*pvex == ((struct vex *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vxp_expr_cmp", "vxp_parse.c", 283, "(*pvex) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vxp_expr_cmp", "vxp_parse.c", 283, "(*pvex) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -22768,14 +22768,14 @@ __CPROVER_DUMP_L5:
       goto __CPROVER_DUMP_L18;
 
   while((_Bool)0);
-  signed int *return_value___errno_location$4;
-  signed int *return_value___errno_location$5;
+  signed int *return_value___errno_location_4;
+  signed int *return_value___errno_location_5;
   switch((*pvex)->tok)
   {
     case (unsigned int)0:
     {
-      return_value___errno_location$4=__errno_location();
-      VAS_Fail("vxp_expr_cmp", "vxp_parse.c", 325, "Missing token", *return_value___errno_location$4, (enum vas_e)VAS_WRONG);
+      return_value___errno_location_4=__errno_location();
+      VAS_Fail("vxp_expr_cmp", "vxp_parse.c", 325, "Missing token", *return_value___errno_location_4, (enum vas_e)VAS_WRONG);
     }
     case (unsigned int)130:
 
@@ -22808,8 +22808,8 @@ __CPROVER_DUMP_L5:
     }
     default:
     {
-      return_value___errno_location$5=__errno_location();
-      VAS_Fail("vxp_expr_cmp", "vxp_parse.c", 344, "", *return_value___errno_location$5, (enum vas_e)VAS_INCOMPLETE);
+      return_value___errno_location_5=__errno_location();
+      VAS_Fail("vxp_expr_cmp", "vxp_parse.c", 344, "", *return_value___errno_location_5, (enum vas_e)VAS_INCOMPLETE);
     }
   }
 
@@ -22827,9 +22827,9 @@ __CPROVER_DUMP_L1:
   do
     if(pvex == ((struct vex **)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vxp_expr_group", "vxp_parse.c", 359, "(pvex) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vxp_expr_group", "vxp_parse.c", 359, "(pvex) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -22839,9 +22839,9 @@ __CPROVER_DUMP_L3:
   do
     if(!(*pvex == ((struct vex *)NULL)))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vxp_expr_group", "vxp_parse.c", 360, "(*pvex) == 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vxp_expr_group", "vxp_parse.c", 360, "(*pvex) == 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -22896,9 +22896,9 @@ __CPROVER_DUMP_L1:
   do
     if(plhs == ((struct vex_lhs **)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vxp_expr_lhs", "vxp_parse.c", 69, "(plhs) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vxp_expr_lhs", "vxp_parse.c", 69, "(plhs) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -22908,17 +22908,17 @@ __CPROVER_DUMP_L3:
   do
     if(!(*plhs == ((struct vex_lhs *)NULL)))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vxp_expr_lhs", "vxp_parse.c", 70, "(*plhs) == 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vxp_expr_lhs", "vxp_parse.c", 70, "(*plhs) == 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   do
   {
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc(sizeof(struct vex_lhs) /*40ul*/ , (unsigned long int)1);
-    *plhs = (struct vex_lhs *)return_value_calloc$3;
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc(sizeof(struct vex_lhs) /*40ul*/ , (unsigned long int)1);
+    *plhs = (struct vex_lhs *)return_value_calloc_3;
     if(!(*plhs == ((struct vex_lhs *)NULL)))
       (*plhs)->magic = (unsigned int)0x1AD3D78D;
 
@@ -22930,13 +22930,13 @@ __CPROVER_DUMP_L7:
   do
     if(*plhs == ((struct vex_lhs *)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      VAS_Fail("vxp_expr_lhs", "vxp_parse.c", 72, "(*plhs) != 0", *return_value___errno_location$4, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      VAS_Fail("vxp_expr_lhs", "vxp_parse.c", 72, "(*plhs) != 0", *return_value___errno_location_4, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
-  (*plhs)->tags=vbit_init$link2((unsigned int)256);
+  (*plhs)->tags=vbit_init_link2((unsigned int)256);
   (*plhs)->level = -1;
   if(vxp->t->tok == 123u)
   {
@@ -22948,9 +22948,9 @@ __CPROVER_DUMP_L7:
       goto __CPROVER_DUMP_L37;
     }
 
-    signed long int return_value_strtol$5;
-    return_value_strtol$5=strtol(vxp->t->dec, &p, 0);
-    (*plhs)->level = (signed int)return_value_strtol$5;
+    signed long int return_value_strtol_5;
+    return_value_strtol_5=strtol(vxp->t->dec, &p, 0);
+    (*plhs)->level = (signed int)return_value_strtol_5;
     if(!((*plhs)->level >= 0))
     {
       VSB_printf(vxp->sb, "Expected positive integer ");
@@ -23026,9 +23026,9 @@ __CPROVER_DUMP_L7:
     do
       if(!(i >= 1))
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        VAS_Fail("vxp_expr_lhs", "vxp_parse.c", 133, "i > 0", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        VAS_Fail("vxp_expr_lhs", "vxp_parse.c", 133, "i > 0", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -23054,9 +23054,9 @@ __CPROVER_DUMP_L7:
     do
       if(vxp->t->dec == ((char *)NULL))
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        VAS_Fail("vxp_expr_lhs", "vxp_parse.c", 149, "(vxp->t->dec) != 0", *return_value___errno_location$7, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        VAS_Fail("vxp_expr_lhs", "vxp_parse.c", 149, "(vxp->t->dec) != 0", *return_value___errno_location_7, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -23067,19 +23067,19 @@ __CPROVER_DUMP_L7:
     do
       if((*plhs)->prefix == ((char *)NULL))
       {
-        signed int *return_value___errno_location$8;
-        return_value___errno_location$8=__errno_location();
-        VAS_Fail("vxp_expr_lhs", "vxp_parse.c", 151, "((*plhs)->prefix) != 0", *return_value___errno_location$8, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_8;
+        return_value___errno_location_8=__errno_location();
+        VAS_Fail("vxp_expr_lhs", "vxp_parse.c", 151, "((*plhs)->prefix) != 0", *return_value___errno_location_8, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
-    unsigned long int return_value_strlen$9;
-    return_value_strlen$9=strlen((*plhs)->prefix);
-    (*plhs)->prefixlen = (signed int)return_value_strlen$9;
+    unsigned long int return_value_strlen_9;
+    return_value_strlen_9=strlen((*plhs)->prefix);
+    (*plhs)->prefixlen = (signed int)return_value_strlen_9;
     vxp_NextToken(vxp);
   }
 
-  _Bool tmp_if_expr$11;
+  _Bool tmp_if_expr_11;
   if(vxp->t->tok == 91u)
   {
     vxp_NextToken(vxp);
@@ -23090,15 +23090,15 @@ __CPROVER_DUMP_L7:
       goto __CPROVER_DUMP_L37;
     }
 
-    signed long int return_value_strtol$10;
-    return_value_strtol$10=strtol(vxp->t->dec, &p, 0);
-    (*plhs)->field = (signed int)return_value_strtol$10;
+    signed long int return_value_strtol_10;
+    return_value_strtol_10=strtol(vxp->t->dec, &p, 0);
+    (*plhs)->field = (signed int)return_value_strtol_10;
     if(!(*p == 0))
-      tmp_if_expr$11 = (_Bool)1;
+      tmp_if_expr_11 = (_Bool)1;
 
     else
-      tmp_if_expr$11 = (*plhs)->field <= 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$11)
+      tmp_if_expr_11 = (*plhs)->field <= 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_11)
     {
       VSB_printf(vxp->sb, "Expected positive integer ");
       vxp_ErrWhere(vxp, vxp->t, -1);
@@ -23134,9 +23134,9 @@ __CPROVER_DUMP_L1:
   do
     if(pvex == ((struct vex **)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vxp_expr_not", "vxp_parse.c", 384, "(pvex) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vxp_expr_not", "vxp_parse.c", 384, "(pvex) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -23146,9 +23146,9 @@ __CPROVER_DUMP_L3:
   do
     if(!(*pvex == ((struct vex *)NULL)))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vxp_expr_not", "vxp_parse.c", 385, "(*pvex) == 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vxp_expr_not", "vxp_parse.c", 385, "(*pvex) == 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -23161,9 +23161,9 @@ __CPROVER_DUMP_L3:
     do
       if(*pvex == ((struct vex *)NULL))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        VAS_Fail("vxp_expr_not", "vxp_parse.c", 389, "(*pvex) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        VAS_Fail("vxp_expr_not", "vxp_parse.c", 389, "(*pvex) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -23187,9 +23187,9 @@ __CPROVER_DUMP_L1:
   do
     if(prhs == ((struct vex_rhs **)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vxp_expr_num", "vxp_parse.c", 182, "(prhs) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vxp_expr_num", "vxp_parse.c", 182, "(prhs) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -23199,14 +23199,14 @@ __CPROVER_DUMP_L3:
   do
     if(!(*prhs == ((struct vex_rhs *)NULL)))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vxp_expr_num", "vxp_parse.c", 183, "(*prhs) == 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vxp_expr_num", "vxp_parse.c", 183, "(*prhs) == 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
-  const unsigned short int **return_value___ctype_b_loc$6;
-  const unsigned short int **return_value___ctype_b_loc$7;
+  const unsigned short int **return_value___ctype_b_loc_6;
+  const unsigned short int **return_value___ctype_b_loc_7;
   if(!(vxp->t->tok == 140u))
   {
     VSB_printf(vxp->sb, "Expected number got '%.*s' ", (signed int)(vxp->t->e - vxp->t->b), vxp->t->b);
@@ -23221,17 +23221,17 @@ __CPROVER_DUMP_L3:
     do
       if(vxp->t->dec == ((char *)NULL))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        VAS_Fail("vxp_expr_num", "vxp_parse.c", 189, "(vxp->t->dec) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        VAS_Fail("vxp_expr_num", "vxp_parse.c", 189, "(vxp->t->dec) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
     do
     {
-      void *return_value_calloc$4;
-      return_value_calloc$4=calloc(sizeof(struct vex_rhs) /*48ul*/ , (unsigned long int)1);
-      *prhs = (struct vex_rhs *)return_value_calloc$4;
+      void *return_value_calloc_4;
+      return_value_calloc_4=calloc(sizeof(struct vex_rhs) /*48ul*/ , (unsigned long int)1);
+      *prhs = (struct vex_rhs *)return_value_calloc_4;
       if(!(*prhs == ((struct vex_rhs *)NULL)))
         (*prhs)->magic = (unsigned int)0x3F109965;
 
@@ -23243,22 +23243,22 @@ __CPROVER_DUMP_L3:
     do
       if(*prhs == ((struct vex_rhs *)NULL))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        VAS_Fail("vxp_expr_num", "vxp_parse.c", 191, "(*prhs) != 0", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        VAS_Fail("vxp_expr_num", "vxp_parse.c", 191, "(*prhs) != 0", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
-    char *return_value_strchr$8;
-    return_value_strchr$8=strchr(vxp->t->dec, 46);
-    if(!(return_value_strchr$8 == ((char *)NULL)))
+    char *return_value_strchr_8;
+    return_value_strchr_8=strchr(vxp->t->dec, 46);
+    if(!(return_value_strchr_8 == ((char *)NULL)))
     {
       (*prhs)->type = (enum vex_rhs_e)VEX_FLOAT;
       (*prhs)->val_float=strtod(vxp->t->dec, &endptr);
       do
       {
-        return_value___ctype_b_loc$6=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$6)[(signed long int)(signed int)*endptr]) == 0)
+        return_value___ctype_b_loc_6=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_6)[(signed long int)(signed int)*endptr]) == 0)
           break;
 
         endptr = endptr + 1l;
@@ -23279,8 +23279,8 @@ __CPROVER_DUMP_L3:
       (*prhs)->val_int=strtoll(vxp->t->dec, &endptr, 0);
       do
       {
-        return_value___ctype_b_loc$7=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)*endptr]) == 0)
+        return_value___ctype_b_loc_7=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)*endptr]) == 0)
           break;
 
         endptr = endptr + 1l;
@@ -23312,9 +23312,9 @@ __CPROVER_DUMP_L1:
   do
     if(pvex == ((struct vex **)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vxp_expr_or", "vxp_parse.c", 439, "(pvex) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vxp_expr_or", "vxp_parse.c", 439, "(pvex) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -23324,9 +23324,9 @@ __CPROVER_DUMP_L3:
   do
     if(!(*pvex == ((struct vex *)NULL)))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vxp_expr_or", "vxp_parse.c", 440, "(*pvex) == 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vxp_expr_or", "vxp_parse.c", 440, "(*pvex) == 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -23346,9 +23346,9 @@ __CPROVER_DUMP_L3:
     do
       if(*pvex == ((struct vex *)NULL))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        VAS_Fail("vxp_expr_or", "vxp_parse.c", 446, "(*pvex) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        VAS_Fail("vxp_expr_or", "vxp_parse.c", 446, "(*pvex) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -23384,9 +23384,9 @@ __CPROVER_DUMP_L1:
   do
     if(prhs == ((struct vex_rhs **)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vxp_expr_regex", "vxp_parse.c", 245, "(prhs) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vxp_expr_regex", "vxp_parse.c", 245, "(prhs) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -23396,9 +23396,9 @@ __CPROVER_DUMP_L3:
   do
     if(!(*prhs == ((struct vex_rhs *)NULL)))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vxp_expr_regex", "vxp_parse.c", 246, "(*prhs) == 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vxp_expr_regex", "vxp_parse.c", 246, "(*prhs) == 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -23416,17 +23416,17 @@ __CPROVER_DUMP_L3:
     do
       if(vxp->t->dec == ((char *)NULL))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        VAS_Fail("vxp_expr_regex", "vxp_parse.c", 253, "(vxp->t->dec) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        VAS_Fail("vxp_expr_regex", "vxp_parse.c", 253, "(vxp->t->dec) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
     do
     {
-      void *return_value_calloc$4;
-      return_value_calloc$4=calloc(sizeof(struct vex_rhs) /*48ul*/ , (unsigned long int)1);
-      *prhs = (struct vex_rhs *)return_value_calloc$4;
+      void *return_value_calloc_4;
+      return_value_calloc_4=calloc(sizeof(struct vex_rhs) /*48ul*/ , (unsigned long int)1);
+      *prhs = (struct vex_rhs *)return_value_calloc_4;
       if(!(*prhs == ((struct vex_rhs *)NULL)))
         (*prhs)->magic = (unsigned int)0x3F109965;
 
@@ -23438,9 +23438,9 @@ __CPROVER_DUMP_L3:
     do
       if(*prhs == ((struct vex_rhs *)NULL))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        VAS_Fail("vxp_expr_regex", "vxp_parse.c", 255, "(*prhs) != 0", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        VAS_Fail("vxp_expr_regex", "vxp_parse.c", 255, "(*prhs) != 0", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -23455,9 +23455,9 @@ __CPROVER_DUMP_L3:
       do
         if(errptr == ((const char *)NULL))
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          VAS_Fail("vxp_expr_regex", "vxp_parse.c", 261, "(errptr) != 0", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          VAS_Fail("vxp_expr_regex", "vxp_parse.c", 261, "(errptr) != 0", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
         }
 
       while((_Bool)0);
@@ -23480,9 +23480,9 @@ __CPROVER_DUMP_L1:
   do
     if(prhs == ((struct vex_rhs **)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vxp_expr_str", "vxp_parse.c", 220, "(prhs) != 0", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vxp_expr_str", "vxp_parse.c", 220, "(prhs) != 0", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -23492,9 +23492,9 @@ __CPROVER_DUMP_L3:
   do
     if(!(*prhs == ((struct vex_rhs *)NULL)))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vxp_expr_str", "vxp_parse.c", 221, "(*prhs) == 0", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vxp_expr_str", "vxp_parse.c", 221, "(*prhs) == 0", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
@@ -23512,17 +23512,17 @@ __CPROVER_DUMP_L3:
     do
       if(vxp->t->dec == ((char *)NULL))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        VAS_Fail("vxp_expr_str", "vxp_parse.c", 227, "(vxp->t->dec) != 0", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        VAS_Fail("vxp_expr_str", "vxp_parse.c", 227, "(vxp->t->dec) != 0", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
     do
     {
-      void *return_value_calloc$4;
-      return_value_calloc$4=calloc(sizeof(struct vex_rhs) /*48ul*/ , (unsigned long int)1);
-      *prhs = (struct vex_rhs *)return_value_calloc$4;
+      void *return_value_calloc_4;
+      return_value_calloc_4=calloc(sizeof(struct vex_rhs) /*48ul*/ , (unsigned long int)1);
+      *prhs = (struct vex_rhs *)return_value_calloc_4;
       if(!(*prhs == ((struct vex_rhs *)NULL)))
         (*prhs)->magic = (unsigned int)0x3F109965;
 
@@ -23534,9 +23534,9 @@ __CPROVER_DUMP_L3:
     do
       if(*prhs == ((struct vex_rhs *)NULL))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        VAS_Fail("vxp_expr_str", "vxp_parse.c", 229, "(*prhs) != 0", *return_value___errno_location$5, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        VAS_Fail("vxp_expr_str", "vxp_parse.c", 229, "(*prhs) != 0", *return_value___errno_location_5, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -23548,9 +23548,9 @@ __CPROVER_DUMP_L3:
     do
       if((*prhs)->val_string == ((char *)NULL))
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        VAS_Fail("vxp_expr_str", "vxp_parse.c", 232, "((*prhs)->val_string) != 0", *return_value___errno_location$6, (enum vas_e)VAS_ASSERT);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        VAS_Fail("vxp_expr_str", "vxp_parse.c", 232, "((*prhs)->val_string) != 0", *return_value___errno_location_6, (enum vas_e)VAS_ASSERT);
       }
 
     while((_Bool)0);
@@ -23563,445 +23563,445 @@ __CPROVER_DUMP_L3:
 // file vxp.h line 44
 unsigned int vxp_fixed_token(const char *p, const char **q)
 {
-  const unsigned short int **return_value___ctype_b_loc$1;
-  _Bool tmp_if_expr$3;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  signed int tmp_if_expr$17;
-  const unsigned short int **return_value___ctype_b_loc$9;
-  _Bool tmp_if_expr$11;
-  const unsigned short int **return_value___ctype_b_loc$10;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$16;
-  const unsigned short int **return_value___ctype_b_loc$18;
-  _Bool tmp_if_expr$20;
-  const unsigned short int **return_value___ctype_b_loc$19;
-  _Bool tmp_if_expr$21;
-  _Bool tmp_if_expr$22;
-  _Bool tmp_if_expr$23;
-  _Bool tmp_if_expr$24;
-  _Bool tmp_if_expr$25;
-  signed int tmp_if_expr$34;
-  const unsigned short int **return_value___ctype_b_loc$26;
-  _Bool tmp_if_expr$28;
-  const unsigned short int **return_value___ctype_b_loc$27;
-  _Bool tmp_if_expr$29;
-  _Bool tmp_if_expr$30;
-  _Bool tmp_if_expr$31;
-  _Bool tmp_if_expr$32;
-  _Bool tmp_if_expr$33;
-  const unsigned short int **return_value___ctype_b_loc$35;
-  _Bool tmp_if_expr$37;
-  const unsigned short int **return_value___ctype_b_loc$36;
-  _Bool tmp_if_expr$38;
-  _Bool tmp_if_expr$39;
-  _Bool tmp_if_expr$40;
-  _Bool tmp_if_expr$41;
-  _Bool tmp_if_expr$42;
-  signed int tmp_if_expr$51;
-  const unsigned short int **return_value___ctype_b_loc$43;
-  _Bool tmp_if_expr$45;
-  const unsigned short int **return_value___ctype_b_loc$44;
-  _Bool tmp_if_expr$46;
-  _Bool tmp_if_expr$47;
-  _Bool tmp_if_expr$48;
-  _Bool tmp_if_expr$49;
-  _Bool tmp_if_expr$50;
-  const unsigned short int **return_value___ctype_b_loc$52;
-  _Bool tmp_if_expr$54;
-  const unsigned short int **return_value___ctype_b_loc$53;
-  _Bool tmp_if_expr$55;
-  _Bool tmp_if_expr$56;
-  _Bool tmp_if_expr$57;
-  _Bool tmp_if_expr$58;
-  _Bool tmp_if_expr$59;
-  signed int tmp_if_expr$68;
-  const unsigned short int **return_value___ctype_b_loc$60;
-  _Bool tmp_if_expr$62;
-  const unsigned short int **return_value___ctype_b_loc$61;
-  _Bool tmp_if_expr$63;
-  _Bool tmp_if_expr$64;
-  _Bool tmp_if_expr$65;
-  _Bool tmp_if_expr$66;
-  _Bool tmp_if_expr$67;
-  const unsigned short int **return_value___ctype_b_loc$69;
-  _Bool tmp_if_expr$71;
-  const unsigned short int **return_value___ctype_b_loc$70;
-  _Bool tmp_if_expr$72;
-  _Bool tmp_if_expr$73;
-  _Bool tmp_if_expr$74;
-  _Bool tmp_if_expr$75;
-  _Bool tmp_if_expr$76;
-  signed int tmp_if_expr$85;
-  const unsigned short int **return_value___ctype_b_loc$77;
-  _Bool tmp_if_expr$79;
-  const unsigned short int **return_value___ctype_b_loc$78;
-  _Bool tmp_if_expr$80;
-  _Bool tmp_if_expr$81;
-  _Bool tmp_if_expr$82;
-  _Bool tmp_if_expr$83;
-  _Bool tmp_if_expr$84;
-  const unsigned short int **return_value___ctype_b_loc$86;
-  _Bool tmp_if_expr$88;
-  const unsigned short int **return_value___ctype_b_loc$87;
-  _Bool tmp_if_expr$89;
-  _Bool tmp_if_expr$90;
-  _Bool tmp_if_expr$91;
-  _Bool tmp_if_expr$92;
-  _Bool tmp_if_expr$93;
-  signed int tmp_if_expr$102;
-  const unsigned short int **return_value___ctype_b_loc$94;
-  _Bool tmp_if_expr$96;
-  const unsigned short int **return_value___ctype_b_loc$95;
-  _Bool tmp_if_expr$97;
-  _Bool tmp_if_expr$98;
-  _Bool tmp_if_expr$99;
-  _Bool tmp_if_expr$100;
-  _Bool tmp_if_expr$101;
-  const unsigned short int **return_value___ctype_b_loc$103;
-  _Bool tmp_if_expr$105;
-  const unsigned short int **return_value___ctype_b_loc$104;
-  _Bool tmp_if_expr$106;
-  _Bool tmp_if_expr$107;
-  _Bool tmp_if_expr$108;
-  _Bool tmp_if_expr$109;
-  _Bool tmp_if_expr$110;
-  signed int tmp_if_expr$119;
-  const unsigned short int **return_value___ctype_b_loc$111;
-  _Bool tmp_if_expr$113;
-  const unsigned short int **return_value___ctype_b_loc$112;
-  _Bool tmp_if_expr$114;
-  _Bool tmp_if_expr$115;
-  _Bool tmp_if_expr$116;
-  _Bool tmp_if_expr$117;
-  _Bool tmp_if_expr$118;
-  const unsigned short int **return_value___ctype_b_loc$120;
-  _Bool tmp_if_expr$122;
-  const unsigned short int **return_value___ctype_b_loc$121;
-  _Bool tmp_if_expr$123;
-  _Bool tmp_if_expr$124;
-  _Bool tmp_if_expr$125;
-  _Bool tmp_if_expr$126;
-  _Bool tmp_if_expr$127;
-  signed int tmp_if_expr$136;
-  const unsigned short int **return_value___ctype_b_loc$128;
-  _Bool tmp_if_expr$130;
-  const unsigned short int **return_value___ctype_b_loc$129;
-  _Bool tmp_if_expr$131;
-  _Bool tmp_if_expr$132;
-  _Bool tmp_if_expr$133;
-  _Bool tmp_if_expr$134;
-  _Bool tmp_if_expr$135;
-  const unsigned short int **return_value___ctype_b_loc$137;
-  _Bool tmp_if_expr$139;
-  const unsigned short int **return_value___ctype_b_loc$138;
-  _Bool tmp_if_expr$140;
-  _Bool tmp_if_expr$141;
-  _Bool tmp_if_expr$142;
-  _Bool tmp_if_expr$143;
-  _Bool tmp_if_expr$144;
-  signed int tmp_if_expr$153;
-  const unsigned short int **return_value___ctype_b_loc$145;
-  _Bool tmp_if_expr$147;
-  const unsigned short int **return_value___ctype_b_loc$146;
-  _Bool tmp_if_expr$148;
-  _Bool tmp_if_expr$149;
-  _Bool tmp_if_expr$150;
-  _Bool tmp_if_expr$151;
-  _Bool tmp_if_expr$152;
-  const unsigned short int **return_value___ctype_b_loc$154;
-  _Bool tmp_if_expr$156;
-  const unsigned short int **return_value___ctype_b_loc$155;
-  _Bool tmp_if_expr$157;
-  _Bool tmp_if_expr$158;
-  _Bool tmp_if_expr$159;
-  _Bool tmp_if_expr$160;
-  _Bool tmp_if_expr$161;
-  signed int tmp_if_expr$170;
-  const unsigned short int **return_value___ctype_b_loc$162;
-  _Bool tmp_if_expr$164;
-  const unsigned short int **return_value___ctype_b_loc$163;
-  _Bool tmp_if_expr$165;
-  _Bool tmp_if_expr$166;
-  _Bool tmp_if_expr$167;
-  _Bool tmp_if_expr$168;
-  _Bool tmp_if_expr$169;
-  const unsigned short int **return_value___ctype_b_loc$171;
-  _Bool tmp_if_expr$173;
-  const unsigned short int **return_value___ctype_b_loc$172;
-  _Bool tmp_if_expr$174;
-  _Bool tmp_if_expr$175;
-  _Bool tmp_if_expr$176;
-  _Bool tmp_if_expr$177;
-  _Bool tmp_if_expr$178;
-  signed int tmp_if_expr$187;
-  const unsigned short int **return_value___ctype_b_loc$179;
-  _Bool tmp_if_expr$181;
-  const unsigned short int **return_value___ctype_b_loc$180;
-  _Bool tmp_if_expr$182;
-  _Bool tmp_if_expr$183;
-  _Bool tmp_if_expr$184;
-  _Bool tmp_if_expr$185;
-  _Bool tmp_if_expr$186;
-  const unsigned short int **return_value___ctype_b_loc$188;
-  _Bool tmp_if_expr$190;
-  const unsigned short int **return_value___ctype_b_loc$189;
-  _Bool tmp_if_expr$191;
-  _Bool tmp_if_expr$192;
-  _Bool tmp_if_expr$193;
-  _Bool tmp_if_expr$194;
-  _Bool tmp_if_expr$195;
-  signed int tmp_if_expr$204;
-  const unsigned short int **return_value___ctype_b_loc$196;
-  _Bool tmp_if_expr$198;
-  const unsigned short int **return_value___ctype_b_loc$197;
-  _Bool tmp_if_expr$199;
-  _Bool tmp_if_expr$200;
-  _Bool tmp_if_expr$201;
-  _Bool tmp_if_expr$202;
-  _Bool tmp_if_expr$203;
-  const unsigned short int **return_value___ctype_b_loc$205;
-  _Bool tmp_if_expr$207;
-  const unsigned short int **return_value___ctype_b_loc$206;
-  _Bool tmp_if_expr$208;
-  _Bool tmp_if_expr$209;
-  _Bool tmp_if_expr$210;
-  _Bool tmp_if_expr$211;
-  _Bool tmp_if_expr$212;
-  signed int tmp_if_expr$221;
-  const unsigned short int **return_value___ctype_b_loc$213;
-  _Bool tmp_if_expr$215;
-  const unsigned short int **return_value___ctype_b_loc$214;
-  _Bool tmp_if_expr$216;
-  _Bool tmp_if_expr$217;
-  _Bool tmp_if_expr$218;
-  _Bool tmp_if_expr$219;
-  _Bool tmp_if_expr$220;
-  const unsigned short int **return_value___ctype_b_loc$222;
-  _Bool tmp_if_expr$224;
-  const unsigned short int **return_value___ctype_b_loc$223;
-  _Bool tmp_if_expr$225;
-  _Bool tmp_if_expr$226;
-  _Bool tmp_if_expr$227;
-  _Bool tmp_if_expr$228;
-  _Bool tmp_if_expr$229;
-  signed int tmp_if_expr$238;
-  const unsigned short int **return_value___ctype_b_loc$230;
-  _Bool tmp_if_expr$232;
-  const unsigned short int **return_value___ctype_b_loc$231;
-  _Bool tmp_if_expr$233;
-  _Bool tmp_if_expr$234;
-  _Bool tmp_if_expr$235;
-  _Bool tmp_if_expr$236;
-  _Bool tmp_if_expr$237;
-  const unsigned short int **return_value___ctype_b_loc$239;
-  _Bool tmp_if_expr$241;
-  const unsigned short int **return_value___ctype_b_loc$240;
-  _Bool tmp_if_expr$242;
-  _Bool tmp_if_expr$243;
-  _Bool tmp_if_expr$244;
-  _Bool tmp_if_expr$245;
-  _Bool tmp_if_expr$246;
-  signed int tmp_if_expr$255;
-  const unsigned short int **return_value___ctype_b_loc$247;
-  _Bool tmp_if_expr$249;
-  const unsigned short int **return_value___ctype_b_loc$248;
-  _Bool tmp_if_expr$250;
-  _Bool tmp_if_expr$251;
-  _Bool tmp_if_expr$252;
-  _Bool tmp_if_expr$253;
-  _Bool tmp_if_expr$254;
-  const unsigned short int **return_value___ctype_b_loc$256;
-  _Bool tmp_if_expr$258;
-  const unsigned short int **return_value___ctype_b_loc$257;
-  _Bool tmp_if_expr$259;
-  _Bool tmp_if_expr$260;
-  _Bool tmp_if_expr$261;
-  _Bool tmp_if_expr$262;
-  _Bool tmp_if_expr$263;
-  signed int tmp_if_expr$272;
-  const unsigned short int **return_value___ctype_b_loc$264;
-  _Bool tmp_if_expr$266;
-  const unsigned short int **return_value___ctype_b_loc$265;
-  _Bool tmp_if_expr$267;
-  _Bool tmp_if_expr$268;
-  _Bool tmp_if_expr$269;
-  _Bool tmp_if_expr$270;
-  _Bool tmp_if_expr$271;
-  const unsigned short int **return_value___ctype_b_loc$273;
-  _Bool tmp_if_expr$275;
-  const unsigned short int **return_value___ctype_b_loc$274;
-  _Bool tmp_if_expr$276;
-  _Bool tmp_if_expr$277;
-  _Bool tmp_if_expr$278;
-  _Bool tmp_if_expr$279;
-  _Bool tmp_if_expr$280;
-  signed int tmp_if_expr$289;
-  const unsigned short int **return_value___ctype_b_loc$281;
-  _Bool tmp_if_expr$283;
-  const unsigned short int **return_value___ctype_b_loc$282;
-  _Bool tmp_if_expr$284;
-  _Bool tmp_if_expr$285;
-  _Bool tmp_if_expr$286;
-  _Bool tmp_if_expr$287;
-  _Bool tmp_if_expr$288;
-  const unsigned short int **return_value___ctype_b_loc$290;
-  _Bool tmp_if_expr$292;
-  const unsigned short int **return_value___ctype_b_loc$291;
-  _Bool tmp_if_expr$293;
-  _Bool tmp_if_expr$294;
-  _Bool tmp_if_expr$295;
-  _Bool tmp_if_expr$296;
-  _Bool tmp_if_expr$297;
-  signed int tmp_if_expr$306;
-  const unsigned short int **return_value___ctype_b_loc$298;
-  _Bool tmp_if_expr$300;
-  const unsigned short int **return_value___ctype_b_loc$299;
-  _Bool tmp_if_expr$301;
-  _Bool tmp_if_expr$302;
-  _Bool tmp_if_expr$303;
-  _Bool tmp_if_expr$304;
-  _Bool tmp_if_expr$305;
-  const unsigned short int **return_value___ctype_b_loc$307;
-  _Bool tmp_if_expr$309;
-  const unsigned short int **return_value___ctype_b_loc$308;
-  _Bool tmp_if_expr$310;
-  _Bool tmp_if_expr$311;
-  _Bool tmp_if_expr$312;
-  _Bool tmp_if_expr$313;
-  _Bool tmp_if_expr$314;
-  signed int tmp_if_expr$323;
-  const unsigned short int **return_value___ctype_b_loc$315;
-  _Bool tmp_if_expr$317;
-  const unsigned short int **return_value___ctype_b_loc$316;
-  _Bool tmp_if_expr$318;
-  _Bool tmp_if_expr$319;
-  _Bool tmp_if_expr$320;
-  _Bool tmp_if_expr$321;
-  _Bool tmp_if_expr$322;
-  const unsigned short int **return_value___ctype_b_loc$324;
-  _Bool tmp_if_expr$326;
-  const unsigned short int **return_value___ctype_b_loc$325;
-  _Bool tmp_if_expr$327;
-  _Bool tmp_if_expr$328;
-  _Bool tmp_if_expr$329;
-  _Bool tmp_if_expr$330;
-  _Bool tmp_if_expr$331;
-  signed int tmp_if_expr$340;
-  const unsigned short int **return_value___ctype_b_loc$332;
-  _Bool tmp_if_expr$334;
-  const unsigned short int **return_value___ctype_b_loc$333;
-  _Bool tmp_if_expr$335;
-  _Bool tmp_if_expr$336;
-  _Bool tmp_if_expr$337;
-  _Bool tmp_if_expr$338;
-  _Bool tmp_if_expr$339;
-  const unsigned short int **return_value___ctype_b_loc$341;
-  _Bool tmp_if_expr$343;
-  const unsigned short int **return_value___ctype_b_loc$342;
-  _Bool tmp_if_expr$344;
-  _Bool tmp_if_expr$345;
-  _Bool tmp_if_expr$346;
-  _Bool tmp_if_expr$347;
-  _Bool tmp_if_expr$348;
-  signed int tmp_if_expr$357;
-  const unsigned short int **return_value___ctype_b_loc$349;
-  _Bool tmp_if_expr$351;
-  const unsigned short int **return_value___ctype_b_loc$350;
-  _Bool tmp_if_expr$352;
-  _Bool tmp_if_expr$353;
-  _Bool tmp_if_expr$354;
-  _Bool tmp_if_expr$355;
-  _Bool tmp_if_expr$356;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  _Bool tmp_if_expr_3;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  signed int tmp_if_expr_17;
+  const unsigned short int **return_value___ctype_b_loc_9;
+  _Bool tmp_if_expr_11;
+  const unsigned short int **return_value___ctype_b_loc_10;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_16;
+  const unsigned short int **return_value___ctype_b_loc_18;
+  _Bool tmp_if_expr_20;
+  const unsigned short int **return_value___ctype_b_loc_19;
+  _Bool tmp_if_expr_21;
+  _Bool tmp_if_expr_22;
+  _Bool tmp_if_expr_23;
+  _Bool tmp_if_expr_24;
+  _Bool tmp_if_expr_25;
+  signed int tmp_if_expr_34;
+  const unsigned short int **return_value___ctype_b_loc_26;
+  _Bool tmp_if_expr_28;
+  const unsigned short int **return_value___ctype_b_loc_27;
+  _Bool tmp_if_expr_29;
+  _Bool tmp_if_expr_30;
+  _Bool tmp_if_expr_31;
+  _Bool tmp_if_expr_32;
+  _Bool tmp_if_expr_33;
+  const unsigned short int **return_value___ctype_b_loc_35;
+  _Bool tmp_if_expr_37;
+  const unsigned short int **return_value___ctype_b_loc_36;
+  _Bool tmp_if_expr_38;
+  _Bool tmp_if_expr_39;
+  _Bool tmp_if_expr_40;
+  _Bool tmp_if_expr_41;
+  _Bool tmp_if_expr_42;
+  signed int tmp_if_expr_51;
+  const unsigned short int **return_value___ctype_b_loc_43;
+  _Bool tmp_if_expr_45;
+  const unsigned short int **return_value___ctype_b_loc_44;
+  _Bool tmp_if_expr_46;
+  _Bool tmp_if_expr_47;
+  _Bool tmp_if_expr_48;
+  _Bool tmp_if_expr_49;
+  _Bool tmp_if_expr_50;
+  const unsigned short int **return_value___ctype_b_loc_52;
+  _Bool tmp_if_expr_54;
+  const unsigned short int **return_value___ctype_b_loc_53;
+  _Bool tmp_if_expr_55;
+  _Bool tmp_if_expr_56;
+  _Bool tmp_if_expr_57;
+  _Bool tmp_if_expr_58;
+  _Bool tmp_if_expr_59;
+  signed int tmp_if_expr_68;
+  const unsigned short int **return_value___ctype_b_loc_60;
+  _Bool tmp_if_expr_62;
+  const unsigned short int **return_value___ctype_b_loc_61;
+  _Bool tmp_if_expr_63;
+  _Bool tmp_if_expr_64;
+  _Bool tmp_if_expr_65;
+  _Bool tmp_if_expr_66;
+  _Bool tmp_if_expr_67;
+  const unsigned short int **return_value___ctype_b_loc_69;
+  _Bool tmp_if_expr_71;
+  const unsigned short int **return_value___ctype_b_loc_70;
+  _Bool tmp_if_expr_72;
+  _Bool tmp_if_expr_73;
+  _Bool tmp_if_expr_74;
+  _Bool tmp_if_expr_75;
+  _Bool tmp_if_expr_76;
+  signed int tmp_if_expr_85;
+  const unsigned short int **return_value___ctype_b_loc_77;
+  _Bool tmp_if_expr_79;
+  const unsigned short int **return_value___ctype_b_loc_78;
+  _Bool tmp_if_expr_80;
+  _Bool tmp_if_expr_81;
+  _Bool tmp_if_expr_82;
+  _Bool tmp_if_expr_83;
+  _Bool tmp_if_expr_84;
+  const unsigned short int **return_value___ctype_b_loc_86;
+  _Bool tmp_if_expr_88;
+  const unsigned short int **return_value___ctype_b_loc_87;
+  _Bool tmp_if_expr_89;
+  _Bool tmp_if_expr_90;
+  _Bool tmp_if_expr_91;
+  _Bool tmp_if_expr_92;
+  _Bool tmp_if_expr_93;
+  signed int tmp_if_expr_102;
+  const unsigned short int **return_value___ctype_b_loc_94;
+  _Bool tmp_if_expr_96;
+  const unsigned short int **return_value___ctype_b_loc_95;
+  _Bool tmp_if_expr_97;
+  _Bool tmp_if_expr_98;
+  _Bool tmp_if_expr_99;
+  _Bool tmp_if_expr_100;
+  _Bool tmp_if_expr_101;
+  const unsigned short int **return_value___ctype_b_loc_103;
+  _Bool tmp_if_expr_105;
+  const unsigned short int **return_value___ctype_b_loc_104;
+  _Bool tmp_if_expr_106;
+  _Bool tmp_if_expr_107;
+  _Bool tmp_if_expr_108;
+  _Bool tmp_if_expr_109;
+  _Bool tmp_if_expr_110;
+  signed int tmp_if_expr_119;
+  const unsigned short int **return_value___ctype_b_loc_111;
+  _Bool tmp_if_expr_113;
+  const unsigned short int **return_value___ctype_b_loc_112;
+  _Bool tmp_if_expr_114;
+  _Bool tmp_if_expr_115;
+  _Bool tmp_if_expr_116;
+  _Bool tmp_if_expr_117;
+  _Bool tmp_if_expr_118;
+  const unsigned short int **return_value___ctype_b_loc_120;
+  _Bool tmp_if_expr_122;
+  const unsigned short int **return_value___ctype_b_loc_121;
+  _Bool tmp_if_expr_123;
+  _Bool tmp_if_expr_124;
+  _Bool tmp_if_expr_125;
+  _Bool tmp_if_expr_126;
+  _Bool tmp_if_expr_127;
+  signed int tmp_if_expr_136;
+  const unsigned short int **return_value___ctype_b_loc_128;
+  _Bool tmp_if_expr_130;
+  const unsigned short int **return_value___ctype_b_loc_129;
+  _Bool tmp_if_expr_131;
+  _Bool tmp_if_expr_132;
+  _Bool tmp_if_expr_133;
+  _Bool tmp_if_expr_134;
+  _Bool tmp_if_expr_135;
+  const unsigned short int **return_value___ctype_b_loc_137;
+  _Bool tmp_if_expr_139;
+  const unsigned short int **return_value___ctype_b_loc_138;
+  _Bool tmp_if_expr_140;
+  _Bool tmp_if_expr_141;
+  _Bool tmp_if_expr_142;
+  _Bool tmp_if_expr_143;
+  _Bool tmp_if_expr_144;
+  signed int tmp_if_expr_153;
+  const unsigned short int **return_value___ctype_b_loc_145;
+  _Bool tmp_if_expr_147;
+  const unsigned short int **return_value___ctype_b_loc_146;
+  _Bool tmp_if_expr_148;
+  _Bool tmp_if_expr_149;
+  _Bool tmp_if_expr_150;
+  _Bool tmp_if_expr_151;
+  _Bool tmp_if_expr_152;
+  const unsigned short int **return_value___ctype_b_loc_154;
+  _Bool tmp_if_expr_156;
+  const unsigned short int **return_value___ctype_b_loc_155;
+  _Bool tmp_if_expr_157;
+  _Bool tmp_if_expr_158;
+  _Bool tmp_if_expr_159;
+  _Bool tmp_if_expr_160;
+  _Bool tmp_if_expr_161;
+  signed int tmp_if_expr_170;
+  const unsigned short int **return_value___ctype_b_loc_162;
+  _Bool tmp_if_expr_164;
+  const unsigned short int **return_value___ctype_b_loc_163;
+  _Bool tmp_if_expr_165;
+  _Bool tmp_if_expr_166;
+  _Bool tmp_if_expr_167;
+  _Bool tmp_if_expr_168;
+  _Bool tmp_if_expr_169;
+  const unsigned short int **return_value___ctype_b_loc_171;
+  _Bool tmp_if_expr_173;
+  const unsigned short int **return_value___ctype_b_loc_172;
+  _Bool tmp_if_expr_174;
+  _Bool tmp_if_expr_175;
+  _Bool tmp_if_expr_176;
+  _Bool tmp_if_expr_177;
+  _Bool tmp_if_expr_178;
+  signed int tmp_if_expr_187;
+  const unsigned short int **return_value___ctype_b_loc_179;
+  _Bool tmp_if_expr_181;
+  const unsigned short int **return_value___ctype_b_loc_180;
+  _Bool tmp_if_expr_182;
+  _Bool tmp_if_expr_183;
+  _Bool tmp_if_expr_184;
+  _Bool tmp_if_expr_185;
+  _Bool tmp_if_expr_186;
+  const unsigned short int **return_value___ctype_b_loc_188;
+  _Bool tmp_if_expr_190;
+  const unsigned short int **return_value___ctype_b_loc_189;
+  _Bool tmp_if_expr_191;
+  _Bool tmp_if_expr_192;
+  _Bool tmp_if_expr_193;
+  _Bool tmp_if_expr_194;
+  _Bool tmp_if_expr_195;
+  signed int tmp_if_expr_204;
+  const unsigned short int **return_value___ctype_b_loc_196;
+  _Bool tmp_if_expr_198;
+  const unsigned short int **return_value___ctype_b_loc_197;
+  _Bool tmp_if_expr_199;
+  _Bool tmp_if_expr_200;
+  _Bool tmp_if_expr_201;
+  _Bool tmp_if_expr_202;
+  _Bool tmp_if_expr_203;
+  const unsigned short int **return_value___ctype_b_loc_205;
+  _Bool tmp_if_expr_207;
+  const unsigned short int **return_value___ctype_b_loc_206;
+  _Bool tmp_if_expr_208;
+  _Bool tmp_if_expr_209;
+  _Bool tmp_if_expr_210;
+  _Bool tmp_if_expr_211;
+  _Bool tmp_if_expr_212;
+  signed int tmp_if_expr_221;
+  const unsigned short int **return_value___ctype_b_loc_213;
+  _Bool tmp_if_expr_215;
+  const unsigned short int **return_value___ctype_b_loc_214;
+  _Bool tmp_if_expr_216;
+  _Bool tmp_if_expr_217;
+  _Bool tmp_if_expr_218;
+  _Bool tmp_if_expr_219;
+  _Bool tmp_if_expr_220;
+  const unsigned short int **return_value___ctype_b_loc_222;
+  _Bool tmp_if_expr_224;
+  const unsigned short int **return_value___ctype_b_loc_223;
+  _Bool tmp_if_expr_225;
+  _Bool tmp_if_expr_226;
+  _Bool tmp_if_expr_227;
+  _Bool tmp_if_expr_228;
+  _Bool tmp_if_expr_229;
+  signed int tmp_if_expr_238;
+  const unsigned short int **return_value___ctype_b_loc_230;
+  _Bool tmp_if_expr_232;
+  const unsigned short int **return_value___ctype_b_loc_231;
+  _Bool tmp_if_expr_233;
+  _Bool tmp_if_expr_234;
+  _Bool tmp_if_expr_235;
+  _Bool tmp_if_expr_236;
+  _Bool tmp_if_expr_237;
+  const unsigned short int **return_value___ctype_b_loc_239;
+  _Bool tmp_if_expr_241;
+  const unsigned short int **return_value___ctype_b_loc_240;
+  _Bool tmp_if_expr_242;
+  _Bool tmp_if_expr_243;
+  _Bool tmp_if_expr_244;
+  _Bool tmp_if_expr_245;
+  _Bool tmp_if_expr_246;
+  signed int tmp_if_expr_255;
+  const unsigned short int **return_value___ctype_b_loc_247;
+  _Bool tmp_if_expr_249;
+  const unsigned short int **return_value___ctype_b_loc_248;
+  _Bool tmp_if_expr_250;
+  _Bool tmp_if_expr_251;
+  _Bool tmp_if_expr_252;
+  _Bool tmp_if_expr_253;
+  _Bool tmp_if_expr_254;
+  const unsigned short int **return_value___ctype_b_loc_256;
+  _Bool tmp_if_expr_258;
+  const unsigned short int **return_value___ctype_b_loc_257;
+  _Bool tmp_if_expr_259;
+  _Bool tmp_if_expr_260;
+  _Bool tmp_if_expr_261;
+  _Bool tmp_if_expr_262;
+  _Bool tmp_if_expr_263;
+  signed int tmp_if_expr_272;
+  const unsigned short int **return_value___ctype_b_loc_264;
+  _Bool tmp_if_expr_266;
+  const unsigned short int **return_value___ctype_b_loc_265;
+  _Bool tmp_if_expr_267;
+  _Bool tmp_if_expr_268;
+  _Bool tmp_if_expr_269;
+  _Bool tmp_if_expr_270;
+  _Bool tmp_if_expr_271;
+  const unsigned short int **return_value___ctype_b_loc_273;
+  _Bool tmp_if_expr_275;
+  const unsigned short int **return_value___ctype_b_loc_274;
+  _Bool tmp_if_expr_276;
+  _Bool tmp_if_expr_277;
+  _Bool tmp_if_expr_278;
+  _Bool tmp_if_expr_279;
+  _Bool tmp_if_expr_280;
+  signed int tmp_if_expr_289;
+  const unsigned short int **return_value___ctype_b_loc_281;
+  _Bool tmp_if_expr_283;
+  const unsigned short int **return_value___ctype_b_loc_282;
+  _Bool tmp_if_expr_284;
+  _Bool tmp_if_expr_285;
+  _Bool tmp_if_expr_286;
+  _Bool tmp_if_expr_287;
+  _Bool tmp_if_expr_288;
+  const unsigned short int **return_value___ctype_b_loc_290;
+  _Bool tmp_if_expr_292;
+  const unsigned short int **return_value___ctype_b_loc_291;
+  _Bool tmp_if_expr_293;
+  _Bool tmp_if_expr_294;
+  _Bool tmp_if_expr_295;
+  _Bool tmp_if_expr_296;
+  _Bool tmp_if_expr_297;
+  signed int tmp_if_expr_306;
+  const unsigned short int **return_value___ctype_b_loc_298;
+  _Bool tmp_if_expr_300;
+  const unsigned short int **return_value___ctype_b_loc_299;
+  _Bool tmp_if_expr_301;
+  _Bool tmp_if_expr_302;
+  _Bool tmp_if_expr_303;
+  _Bool tmp_if_expr_304;
+  _Bool tmp_if_expr_305;
+  const unsigned short int **return_value___ctype_b_loc_307;
+  _Bool tmp_if_expr_309;
+  const unsigned short int **return_value___ctype_b_loc_308;
+  _Bool tmp_if_expr_310;
+  _Bool tmp_if_expr_311;
+  _Bool tmp_if_expr_312;
+  _Bool tmp_if_expr_313;
+  _Bool tmp_if_expr_314;
+  signed int tmp_if_expr_323;
+  const unsigned short int **return_value___ctype_b_loc_315;
+  _Bool tmp_if_expr_317;
+  const unsigned short int **return_value___ctype_b_loc_316;
+  _Bool tmp_if_expr_318;
+  _Bool tmp_if_expr_319;
+  _Bool tmp_if_expr_320;
+  _Bool tmp_if_expr_321;
+  _Bool tmp_if_expr_322;
+  const unsigned short int **return_value___ctype_b_loc_324;
+  _Bool tmp_if_expr_326;
+  const unsigned short int **return_value___ctype_b_loc_325;
+  _Bool tmp_if_expr_327;
+  _Bool tmp_if_expr_328;
+  _Bool tmp_if_expr_329;
+  _Bool tmp_if_expr_330;
+  _Bool tmp_if_expr_331;
+  signed int tmp_if_expr_340;
+  const unsigned short int **return_value___ctype_b_loc_332;
+  _Bool tmp_if_expr_334;
+  const unsigned short int **return_value___ctype_b_loc_333;
+  _Bool tmp_if_expr_335;
+  _Bool tmp_if_expr_336;
+  _Bool tmp_if_expr_337;
+  _Bool tmp_if_expr_338;
+  _Bool tmp_if_expr_339;
+  const unsigned short int **return_value___ctype_b_loc_341;
+  _Bool tmp_if_expr_343;
+  const unsigned short int **return_value___ctype_b_loc_342;
+  _Bool tmp_if_expr_344;
+  _Bool tmp_if_expr_345;
+  _Bool tmp_if_expr_346;
+  _Bool tmp_if_expr_347;
+  _Bool tmp_if_expr_348;
+  signed int tmp_if_expr_357;
+  const unsigned short int **return_value___ctype_b_loc_349;
+  _Bool tmp_if_expr_351;
+  const unsigned short int **return_value___ctype_b_loc_350;
+  _Bool tmp_if_expr_352;
+  _Bool tmp_if_expr_353;
+  _Bool tmp_if_expr_354;
+  _Bool tmp_if_expr_355;
+  _Bool tmp_if_expr_356;
   switch((signed int)p[(signed long int)0])
   {
     case 33:
     {
       if((signed int)p[1l] == 61)
       {
-        return_value___ctype_b_loc$1=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)p[1l]]) == 0))
-          tmp_if_expr$3 = (_Bool)1;
+        return_value___ctype_b_loc_1=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)p[1l]]) == 0))
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$2=__ctype_b_loc();
-          tmp_if_expr$3 = ((signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_2=__ctype_b_loc();
+          tmp_if_expr_3 = ((signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = (_Bool)1;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_4 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$5)
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_5 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_5)
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_6 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$7)
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_7 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_7)
+          tmp_if_expr_8 = (_Bool)1;
 
         else
-          tmp_if_expr$8 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$8)
+          tmp_if_expr_8 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_8)
         {
-          return_value___ctype_b_loc$9=__ctype_b_loc();
-          if(!((1024 & (signed int)(*return_value___ctype_b_loc$9)[(signed long int)(signed int)p[2l]]) == 0))
-            tmp_if_expr$11 = (_Bool)1;
+          return_value___ctype_b_loc_9=__ctype_b_loc();
+          if(!((1024 & (signed int)(*return_value___ctype_b_loc_9)[(signed long int)(signed int)p[2l]]) == 0))
+            tmp_if_expr_11 = (_Bool)1;
 
           else
           {
-            return_value___ctype_b_loc$10=__ctype_b_loc();
-            tmp_if_expr$11 = ((signed int)(*return_value___ctype_b_loc$10)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+            return_value___ctype_b_loc_10=__ctype_b_loc();
+            tmp_if_expr_11 = ((signed int)(*return_value___ctype_b_loc_10)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$11)
-            tmp_if_expr$12 = (_Bool)1;
+          if(tmp_if_expr_11)
+            tmp_if_expr_12 = (_Bool)1;
 
           else
-            tmp_if_expr$12 = (signed int)p[(signed long int)2] == 95 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$12)
-            tmp_if_expr$13 = (_Bool)1;
+            tmp_if_expr_12 = (signed int)p[(signed long int)2] == 95 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_12)
+            tmp_if_expr_13 = (_Bool)1;
 
           else
-            tmp_if_expr$13 = (signed int)p[(signed long int)2] == 45 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$13)
-            tmp_if_expr$14 = (_Bool)1;
+            tmp_if_expr_13 = (signed int)p[(signed long int)2] == 45 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_13)
+            tmp_if_expr_14 = (_Bool)1;
 
           else
-            tmp_if_expr$14 = (signed int)p[(signed long int)2] == 43 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$14)
-            tmp_if_expr$15 = (_Bool)1;
+            tmp_if_expr_14 = (signed int)p[(signed long int)2] == 43 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_14)
+            tmp_if_expr_15 = (_Bool)1;
 
           else
-            tmp_if_expr$15 = (signed int)p[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$15)
-            tmp_if_expr$16 = (_Bool)1;
+            tmp_if_expr_15 = (signed int)p[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_15)
+            tmp_if_expr_16 = (_Bool)1;
 
           else
-            tmp_if_expr$16 = (signed int)p[(signed long int)2] == 42 ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$17 = (signed int)!tmp_if_expr$16;
+            tmp_if_expr_16 = (signed int)p[(signed long int)2] == 42 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_17 = (signed int)!tmp_if_expr_16;
         }
 
         else
-          tmp_if_expr$17 = 1;
-        if(!(tmp_if_expr$17 == 0))
+          tmp_if_expr_17 = 1;
+        if(!(tmp_if_expr_17 == 0))
         {
           *q = p + (signed long int)2;
           return (unsigned int)133;
@@ -24011,82 +24011,82 @@ unsigned int vxp_fixed_token(const char *p, const char **q)
 
       if((signed int)p[1l] == 126)
       {
-        return_value___ctype_b_loc$18=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$18)[(signed long int)(signed int)p[1l]]) == 0))
-          tmp_if_expr$20 = (_Bool)1;
+        return_value___ctype_b_loc_18=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_18)[(signed long int)(signed int)p[1l]]) == 0))
+          tmp_if_expr_20 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$19=__ctype_b_loc();
-          tmp_if_expr$20 = ((signed int)(*return_value___ctype_b_loc$19)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_19=__ctype_b_loc();
+          tmp_if_expr_20 = ((signed int)(*return_value___ctype_b_loc_19)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$20)
-          tmp_if_expr$21 = (_Bool)1;
+        if(tmp_if_expr_20)
+          tmp_if_expr_21 = (_Bool)1;
 
         else
-          tmp_if_expr$21 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$21)
-          tmp_if_expr$22 = (_Bool)1;
+          tmp_if_expr_21 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_21)
+          tmp_if_expr_22 = (_Bool)1;
 
         else
-          tmp_if_expr$22 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$22)
-          tmp_if_expr$23 = (_Bool)1;
+          tmp_if_expr_22 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_22)
+          tmp_if_expr_23 = (_Bool)1;
 
         else
-          tmp_if_expr$23 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$23)
-          tmp_if_expr$24 = (_Bool)1;
+          tmp_if_expr_23 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_23)
+          tmp_if_expr_24 = (_Bool)1;
 
         else
-          tmp_if_expr$24 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$24)
-          tmp_if_expr$25 = (_Bool)1;
+          tmp_if_expr_24 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_24)
+          tmp_if_expr_25 = (_Bool)1;
 
         else
-          tmp_if_expr$25 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$25)
+          tmp_if_expr_25 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_25)
         {
-          return_value___ctype_b_loc$26=__ctype_b_loc();
-          if(!((1024 & (signed int)(*return_value___ctype_b_loc$26)[(signed long int)(signed int)p[2l]]) == 0))
-            tmp_if_expr$28 = (_Bool)1;
+          return_value___ctype_b_loc_26=__ctype_b_loc();
+          if(!((1024 & (signed int)(*return_value___ctype_b_loc_26)[(signed long int)(signed int)p[2l]]) == 0))
+            tmp_if_expr_28 = (_Bool)1;
 
           else
           {
-            return_value___ctype_b_loc$27=__ctype_b_loc();
-            tmp_if_expr$28 = ((signed int)(*return_value___ctype_b_loc$27)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+            return_value___ctype_b_loc_27=__ctype_b_loc();
+            tmp_if_expr_28 = ((signed int)(*return_value___ctype_b_loc_27)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$28)
-            tmp_if_expr$29 = (_Bool)1;
+          if(tmp_if_expr_28)
+            tmp_if_expr_29 = (_Bool)1;
 
           else
-            tmp_if_expr$29 = (signed int)p[(signed long int)2] == 95 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$29)
-            tmp_if_expr$30 = (_Bool)1;
+            tmp_if_expr_29 = (signed int)p[(signed long int)2] == 95 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_29)
+            tmp_if_expr_30 = (_Bool)1;
 
           else
-            tmp_if_expr$30 = (signed int)p[(signed long int)2] == 45 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$30)
-            tmp_if_expr$31 = (_Bool)1;
+            tmp_if_expr_30 = (signed int)p[(signed long int)2] == 45 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_30)
+            tmp_if_expr_31 = (_Bool)1;
 
           else
-            tmp_if_expr$31 = (signed int)p[(signed long int)2] == 43 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$31)
-            tmp_if_expr$32 = (_Bool)1;
+            tmp_if_expr_31 = (signed int)p[(signed long int)2] == 43 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_31)
+            tmp_if_expr_32 = (_Bool)1;
 
           else
-            tmp_if_expr$32 = (signed int)p[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$32)
-            tmp_if_expr$33 = (_Bool)1;
+            tmp_if_expr_32 = (signed int)p[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_32)
+            tmp_if_expr_33 = (_Bool)1;
 
           else
-            tmp_if_expr$33 = (signed int)p[(signed long int)2] == 42 ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$34 = (signed int)!tmp_if_expr$33;
+            tmp_if_expr_33 = (signed int)p[(signed long int)2] == 42 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_34 = (signed int)!tmp_if_expr_33;
         }
 
         else
-          tmp_if_expr$34 = 1;
-        if(!(tmp_if_expr$34 == 0))
+          tmp_if_expr_34 = 1;
+        if(!(tmp_if_expr_34 == 0))
         {
           *q = p + (signed long int)2;
           return (unsigned int)134;
@@ -24098,82 +24098,82 @@ unsigned int vxp_fixed_token(const char *p, const char **q)
     }
     case 40:
     {
-      return_value___ctype_b_loc$35=__ctype_b_loc();
-      if(!((1024 & (signed int)(*return_value___ctype_b_loc$35)[(signed long int)(signed int)*p]) == 0))
-        tmp_if_expr$37 = (_Bool)1;
+      return_value___ctype_b_loc_35=__ctype_b_loc();
+      if(!((1024 & (signed int)(*return_value___ctype_b_loc_35)[(signed long int)(signed int)*p]) == 0))
+        tmp_if_expr_37 = (_Bool)1;
 
       else
       {
-        return_value___ctype_b_loc$36=__ctype_b_loc();
-        tmp_if_expr$37 = ((signed int)(*return_value___ctype_b_loc$36)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_36=__ctype_b_loc();
+        tmp_if_expr_37 = ((signed int)(*return_value___ctype_b_loc_36)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$37)
-        tmp_if_expr$38 = (_Bool)1;
+      if(tmp_if_expr_37)
+        tmp_if_expr_38 = (_Bool)1;
 
       else
-        tmp_if_expr$38 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$38)
-        tmp_if_expr$39 = (_Bool)1;
+        tmp_if_expr_38 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_38)
+        tmp_if_expr_39 = (_Bool)1;
 
       else
-        tmp_if_expr$39 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$39)
-        tmp_if_expr$40 = (_Bool)1;
+        tmp_if_expr_39 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_39)
+        tmp_if_expr_40 = (_Bool)1;
 
       else
-        tmp_if_expr$40 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$40)
-        tmp_if_expr$41 = (_Bool)1;
+        tmp_if_expr_40 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_40)
+        tmp_if_expr_41 = (_Bool)1;
 
       else
-        tmp_if_expr$41 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$41)
-        tmp_if_expr$42 = (_Bool)1;
+        tmp_if_expr_41 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_41)
+        tmp_if_expr_42 = (_Bool)1;
 
       else
-        tmp_if_expr$42 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$42)
+        tmp_if_expr_42 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_42)
       {
-        return_value___ctype_b_loc$43=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$43)[(signed long int)(signed int)p[1l]]) == 0))
-          tmp_if_expr$45 = (_Bool)1;
+        return_value___ctype_b_loc_43=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_43)[(signed long int)(signed int)p[1l]]) == 0))
+          tmp_if_expr_45 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$44=__ctype_b_loc();
-          tmp_if_expr$45 = ((signed int)(*return_value___ctype_b_loc$44)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_44=__ctype_b_loc();
+          tmp_if_expr_45 = ((signed int)(*return_value___ctype_b_loc_44)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$45)
-          tmp_if_expr$46 = (_Bool)1;
+        if(tmp_if_expr_45)
+          tmp_if_expr_46 = (_Bool)1;
 
         else
-          tmp_if_expr$46 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$46)
-          tmp_if_expr$47 = (_Bool)1;
+          tmp_if_expr_46 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_46)
+          tmp_if_expr_47 = (_Bool)1;
 
         else
-          tmp_if_expr$47 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$47)
-          tmp_if_expr$48 = (_Bool)1;
+          tmp_if_expr_47 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_47)
+          tmp_if_expr_48 = (_Bool)1;
 
         else
-          tmp_if_expr$48 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$48)
-          tmp_if_expr$49 = (_Bool)1;
+          tmp_if_expr_48 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_48)
+          tmp_if_expr_49 = (_Bool)1;
 
         else
-          tmp_if_expr$49 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$49)
-          tmp_if_expr$50 = (_Bool)1;
+          tmp_if_expr_49 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_49)
+          tmp_if_expr_50 = (_Bool)1;
 
         else
-          tmp_if_expr$50 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$51 = (signed int)!tmp_if_expr$50;
+          tmp_if_expr_50 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_51 = (signed int)!tmp_if_expr_50;
       }
 
       else
-        tmp_if_expr$51 = 1;
-      if(!(tmp_if_expr$51 == 0))
+        tmp_if_expr_51 = 1;
+      if(!(tmp_if_expr_51 == 0))
       {
         *q = p + (signed long int)1;
         return (unsigned int)40;
@@ -24183,82 +24183,82 @@ unsigned int vxp_fixed_token(const char *p, const char **q)
     }
     case 41:
     {
-      return_value___ctype_b_loc$52=__ctype_b_loc();
-      if(!((1024 & (signed int)(*return_value___ctype_b_loc$52)[(signed long int)(signed int)*p]) == 0))
-        tmp_if_expr$54 = (_Bool)1;
+      return_value___ctype_b_loc_52=__ctype_b_loc();
+      if(!((1024 & (signed int)(*return_value___ctype_b_loc_52)[(signed long int)(signed int)*p]) == 0))
+        tmp_if_expr_54 = (_Bool)1;
 
       else
       {
-        return_value___ctype_b_loc$53=__ctype_b_loc();
-        tmp_if_expr$54 = ((signed int)(*return_value___ctype_b_loc$53)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_53=__ctype_b_loc();
+        tmp_if_expr_54 = ((signed int)(*return_value___ctype_b_loc_53)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$54)
-        tmp_if_expr$55 = (_Bool)1;
+      if(tmp_if_expr_54)
+        tmp_if_expr_55 = (_Bool)1;
 
       else
-        tmp_if_expr$55 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$55)
-        tmp_if_expr$56 = (_Bool)1;
+        tmp_if_expr_55 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_55)
+        tmp_if_expr_56 = (_Bool)1;
 
       else
-        tmp_if_expr$56 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$56)
-        tmp_if_expr$57 = (_Bool)1;
+        tmp_if_expr_56 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_56)
+        tmp_if_expr_57 = (_Bool)1;
 
       else
-        tmp_if_expr$57 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$57)
-        tmp_if_expr$58 = (_Bool)1;
+        tmp_if_expr_57 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_57)
+        tmp_if_expr_58 = (_Bool)1;
 
       else
-        tmp_if_expr$58 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$58)
-        tmp_if_expr$59 = (_Bool)1;
+        tmp_if_expr_58 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_58)
+        tmp_if_expr_59 = (_Bool)1;
 
       else
-        tmp_if_expr$59 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$59)
+        tmp_if_expr_59 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_59)
       {
-        return_value___ctype_b_loc$60=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$60)[(signed long int)(signed int)p[1l]]) == 0))
-          tmp_if_expr$62 = (_Bool)1;
+        return_value___ctype_b_loc_60=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_60)[(signed long int)(signed int)p[1l]]) == 0))
+          tmp_if_expr_62 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$61=__ctype_b_loc();
-          tmp_if_expr$62 = ((signed int)(*return_value___ctype_b_loc$61)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_61=__ctype_b_loc();
+          tmp_if_expr_62 = ((signed int)(*return_value___ctype_b_loc_61)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$62)
-          tmp_if_expr$63 = (_Bool)1;
+        if(tmp_if_expr_62)
+          tmp_if_expr_63 = (_Bool)1;
 
         else
-          tmp_if_expr$63 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$63)
-          tmp_if_expr$64 = (_Bool)1;
+          tmp_if_expr_63 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_63)
+          tmp_if_expr_64 = (_Bool)1;
 
         else
-          tmp_if_expr$64 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$64)
-          tmp_if_expr$65 = (_Bool)1;
+          tmp_if_expr_64 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_64)
+          tmp_if_expr_65 = (_Bool)1;
 
         else
-          tmp_if_expr$65 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$65)
-          tmp_if_expr$66 = (_Bool)1;
+          tmp_if_expr_65 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_65)
+          tmp_if_expr_66 = (_Bool)1;
 
         else
-          tmp_if_expr$66 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$66)
-          tmp_if_expr$67 = (_Bool)1;
+          tmp_if_expr_66 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_66)
+          tmp_if_expr_67 = (_Bool)1;
 
         else
-          tmp_if_expr$67 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$68 = (signed int)!tmp_if_expr$67;
+          tmp_if_expr_67 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_68 = (signed int)!tmp_if_expr_67;
       }
 
       else
-        tmp_if_expr$68 = 1;
-      if(!(tmp_if_expr$68 == 0))
+        tmp_if_expr_68 = 1;
+      if(!(tmp_if_expr_68 == 0))
       {
         *q = p + (signed long int)1;
         return (unsigned int)41;
@@ -24268,82 +24268,82 @@ unsigned int vxp_fixed_token(const char *p, const char **q)
     }
     case 44:
     {
-      return_value___ctype_b_loc$69=__ctype_b_loc();
-      if(!((1024 & (signed int)(*return_value___ctype_b_loc$69)[(signed long int)(signed int)*p]) == 0))
-        tmp_if_expr$71 = (_Bool)1;
+      return_value___ctype_b_loc_69=__ctype_b_loc();
+      if(!((1024 & (signed int)(*return_value___ctype_b_loc_69)[(signed long int)(signed int)*p]) == 0))
+        tmp_if_expr_71 = (_Bool)1;
 
       else
       {
-        return_value___ctype_b_loc$70=__ctype_b_loc();
-        tmp_if_expr$71 = ((signed int)(*return_value___ctype_b_loc$70)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_70=__ctype_b_loc();
+        tmp_if_expr_71 = ((signed int)(*return_value___ctype_b_loc_70)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$71)
-        tmp_if_expr$72 = (_Bool)1;
+      if(tmp_if_expr_71)
+        tmp_if_expr_72 = (_Bool)1;
 
       else
-        tmp_if_expr$72 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$72)
-        tmp_if_expr$73 = (_Bool)1;
+        tmp_if_expr_72 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_72)
+        tmp_if_expr_73 = (_Bool)1;
 
       else
-        tmp_if_expr$73 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$73)
-        tmp_if_expr$74 = (_Bool)1;
+        tmp_if_expr_73 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_73)
+        tmp_if_expr_74 = (_Bool)1;
 
       else
-        tmp_if_expr$74 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$74)
-        tmp_if_expr$75 = (_Bool)1;
+        tmp_if_expr_74 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_74)
+        tmp_if_expr_75 = (_Bool)1;
 
       else
-        tmp_if_expr$75 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$75)
-        tmp_if_expr$76 = (_Bool)1;
+        tmp_if_expr_75 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_75)
+        tmp_if_expr_76 = (_Bool)1;
 
       else
-        tmp_if_expr$76 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$76)
+        tmp_if_expr_76 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_76)
       {
-        return_value___ctype_b_loc$77=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$77)[(signed long int)(signed int)p[1l]]) == 0))
-          tmp_if_expr$79 = (_Bool)1;
+        return_value___ctype_b_loc_77=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_77)[(signed long int)(signed int)p[1l]]) == 0))
+          tmp_if_expr_79 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$78=__ctype_b_loc();
-          tmp_if_expr$79 = ((signed int)(*return_value___ctype_b_loc$78)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_78=__ctype_b_loc();
+          tmp_if_expr_79 = ((signed int)(*return_value___ctype_b_loc_78)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$79)
-          tmp_if_expr$80 = (_Bool)1;
+        if(tmp_if_expr_79)
+          tmp_if_expr_80 = (_Bool)1;
 
         else
-          tmp_if_expr$80 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$80)
-          tmp_if_expr$81 = (_Bool)1;
+          tmp_if_expr_80 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_80)
+          tmp_if_expr_81 = (_Bool)1;
 
         else
-          tmp_if_expr$81 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$81)
-          tmp_if_expr$82 = (_Bool)1;
+          tmp_if_expr_81 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_81)
+          tmp_if_expr_82 = (_Bool)1;
 
         else
-          tmp_if_expr$82 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$82)
-          tmp_if_expr$83 = (_Bool)1;
+          tmp_if_expr_82 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_82)
+          tmp_if_expr_83 = (_Bool)1;
 
         else
-          tmp_if_expr$83 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$83)
-          tmp_if_expr$84 = (_Bool)1;
+          tmp_if_expr_83 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_83)
+          tmp_if_expr_84 = (_Bool)1;
 
         else
-          tmp_if_expr$84 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$85 = (signed int)!tmp_if_expr$84;
+          tmp_if_expr_84 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_85 = (signed int)!tmp_if_expr_84;
       }
 
       else
-        tmp_if_expr$85 = 1;
-      if(!(tmp_if_expr$85 == 0))
+        tmp_if_expr_85 = 1;
+      if(!(tmp_if_expr_85 == 0))
       {
         *q = p + (signed long int)1;
         return (unsigned int)44;
@@ -24353,82 +24353,82 @@ unsigned int vxp_fixed_token(const char *p, const char **q)
     }
     case 58:
     {
-      return_value___ctype_b_loc$86=__ctype_b_loc();
-      if(!((1024 & (signed int)(*return_value___ctype_b_loc$86)[(signed long int)(signed int)*p]) == 0))
-        tmp_if_expr$88 = (_Bool)1;
+      return_value___ctype_b_loc_86=__ctype_b_loc();
+      if(!((1024 & (signed int)(*return_value___ctype_b_loc_86)[(signed long int)(signed int)*p]) == 0))
+        tmp_if_expr_88 = (_Bool)1;
 
       else
       {
-        return_value___ctype_b_loc$87=__ctype_b_loc();
-        tmp_if_expr$88 = ((signed int)(*return_value___ctype_b_loc$87)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_87=__ctype_b_loc();
+        tmp_if_expr_88 = ((signed int)(*return_value___ctype_b_loc_87)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$88)
-        tmp_if_expr$89 = (_Bool)1;
+      if(tmp_if_expr_88)
+        tmp_if_expr_89 = (_Bool)1;
 
       else
-        tmp_if_expr$89 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$89)
-        tmp_if_expr$90 = (_Bool)1;
+        tmp_if_expr_89 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_89)
+        tmp_if_expr_90 = (_Bool)1;
 
       else
-        tmp_if_expr$90 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$90)
-        tmp_if_expr$91 = (_Bool)1;
+        tmp_if_expr_90 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_90)
+        tmp_if_expr_91 = (_Bool)1;
 
       else
-        tmp_if_expr$91 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$91)
-        tmp_if_expr$92 = (_Bool)1;
+        tmp_if_expr_91 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_91)
+        tmp_if_expr_92 = (_Bool)1;
 
       else
-        tmp_if_expr$92 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$92)
-        tmp_if_expr$93 = (_Bool)1;
+        tmp_if_expr_92 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_92)
+        tmp_if_expr_93 = (_Bool)1;
 
       else
-        tmp_if_expr$93 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$93)
+        tmp_if_expr_93 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_93)
       {
-        return_value___ctype_b_loc$94=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$94)[(signed long int)(signed int)p[1l]]) == 0))
-          tmp_if_expr$96 = (_Bool)1;
+        return_value___ctype_b_loc_94=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_94)[(signed long int)(signed int)p[1l]]) == 0))
+          tmp_if_expr_96 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$95=__ctype_b_loc();
-          tmp_if_expr$96 = ((signed int)(*return_value___ctype_b_loc$95)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_95=__ctype_b_loc();
+          tmp_if_expr_96 = ((signed int)(*return_value___ctype_b_loc_95)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$96)
-          tmp_if_expr$97 = (_Bool)1;
+        if(tmp_if_expr_96)
+          tmp_if_expr_97 = (_Bool)1;
 
         else
-          tmp_if_expr$97 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$97)
-          tmp_if_expr$98 = (_Bool)1;
+          tmp_if_expr_97 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_97)
+          tmp_if_expr_98 = (_Bool)1;
 
         else
-          tmp_if_expr$98 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$98)
-          tmp_if_expr$99 = (_Bool)1;
+          tmp_if_expr_98 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_98)
+          tmp_if_expr_99 = (_Bool)1;
 
         else
-          tmp_if_expr$99 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$99)
-          tmp_if_expr$100 = (_Bool)1;
+          tmp_if_expr_99 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_99)
+          tmp_if_expr_100 = (_Bool)1;
 
         else
-          tmp_if_expr$100 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$100)
-          tmp_if_expr$101 = (_Bool)1;
+          tmp_if_expr_100 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_100)
+          tmp_if_expr_101 = (_Bool)1;
 
         else
-          tmp_if_expr$101 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$102 = (signed int)!tmp_if_expr$101;
+          tmp_if_expr_101 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_102 = (signed int)!tmp_if_expr_101;
       }
 
       else
-        tmp_if_expr$102 = 1;
-      if(!(tmp_if_expr$102 == 0))
+        tmp_if_expr_102 = 1;
+      if(!(tmp_if_expr_102 == 0))
       {
         *q = p + (signed long int)1;
         return (unsigned int)58;
@@ -24440,82 +24440,82 @@ unsigned int vxp_fixed_token(const char *p, const char **q)
     {
       if((signed int)p[1l] == 61)
       {
-        return_value___ctype_b_loc$103=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$103)[(signed long int)(signed int)p[1l]]) == 0))
-          tmp_if_expr$105 = (_Bool)1;
+        return_value___ctype_b_loc_103=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_103)[(signed long int)(signed int)p[1l]]) == 0))
+          tmp_if_expr_105 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$104=__ctype_b_loc();
-          tmp_if_expr$105 = ((signed int)(*return_value___ctype_b_loc$104)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_104=__ctype_b_loc();
+          tmp_if_expr_105 = ((signed int)(*return_value___ctype_b_loc_104)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$105)
-          tmp_if_expr$106 = (_Bool)1;
+        if(tmp_if_expr_105)
+          tmp_if_expr_106 = (_Bool)1;
 
         else
-          tmp_if_expr$106 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$106)
-          tmp_if_expr$107 = (_Bool)1;
+          tmp_if_expr_106 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_106)
+          tmp_if_expr_107 = (_Bool)1;
 
         else
-          tmp_if_expr$107 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$107)
-          tmp_if_expr$108 = (_Bool)1;
+          tmp_if_expr_107 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_107)
+          tmp_if_expr_108 = (_Bool)1;
 
         else
-          tmp_if_expr$108 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$108)
-          tmp_if_expr$109 = (_Bool)1;
+          tmp_if_expr_108 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_108)
+          tmp_if_expr_109 = (_Bool)1;
 
         else
-          tmp_if_expr$109 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$109)
-          tmp_if_expr$110 = (_Bool)1;
+          tmp_if_expr_109 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_109)
+          tmp_if_expr_110 = (_Bool)1;
 
         else
-          tmp_if_expr$110 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$110)
+          tmp_if_expr_110 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_110)
         {
-          return_value___ctype_b_loc$111=__ctype_b_loc();
-          if(!((1024 & (signed int)(*return_value___ctype_b_loc$111)[(signed long int)(signed int)p[2l]]) == 0))
-            tmp_if_expr$113 = (_Bool)1;
+          return_value___ctype_b_loc_111=__ctype_b_loc();
+          if(!((1024 & (signed int)(*return_value___ctype_b_loc_111)[(signed long int)(signed int)p[2l]]) == 0))
+            tmp_if_expr_113 = (_Bool)1;
 
           else
           {
-            return_value___ctype_b_loc$112=__ctype_b_loc();
-            tmp_if_expr$113 = ((signed int)(*return_value___ctype_b_loc$112)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+            return_value___ctype_b_loc_112=__ctype_b_loc();
+            tmp_if_expr_113 = ((signed int)(*return_value___ctype_b_loc_112)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$113)
-            tmp_if_expr$114 = (_Bool)1;
+          if(tmp_if_expr_113)
+            tmp_if_expr_114 = (_Bool)1;
 
           else
-            tmp_if_expr$114 = (signed int)p[(signed long int)2] == 95 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$114)
-            tmp_if_expr$115 = (_Bool)1;
+            tmp_if_expr_114 = (signed int)p[(signed long int)2] == 95 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_114)
+            tmp_if_expr_115 = (_Bool)1;
 
           else
-            tmp_if_expr$115 = (signed int)p[(signed long int)2] == 45 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$115)
-            tmp_if_expr$116 = (_Bool)1;
+            tmp_if_expr_115 = (signed int)p[(signed long int)2] == 45 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_115)
+            tmp_if_expr_116 = (_Bool)1;
 
           else
-            tmp_if_expr$116 = (signed int)p[(signed long int)2] == 43 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$116)
-            tmp_if_expr$117 = (_Bool)1;
+            tmp_if_expr_116 = (signed int)p[(signed long int)2] == 43 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_116)
+            tmp_if_expr_117 = (_Bool)1;
 
           else
-            tmp_if_expr$117 = (signed int)p[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$117)
-            tmp_if_expr$118 = (_Bool)1;
+            tmp_if_expr_117 = (signed int)p[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_117)
+            tmp_if_expr_118 = (_Bool)1;
 
           else
-            tmp_if_expr$118 = (signed int)p[(signed long int)2] == 42 ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$119 = (signed int)!tmp_if_expr$118;
+            tmp_if_expr_118 = (signed int)p[(signed long int)2] == 42 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_119 = (signed int)!tmp_if_expr_118;
         }
 
         else
-          tmp_if_expr$119 = 1;
-        if(!(tmp_if_expr$119 == 0))
+          tmp_if_expr_119 = 1;
+        if(!(tmp_if_expr_119 == 0))
         {
           *q = p + (signed long int)2;
           return (unsigned int)132;
@@ -24523,82 +24523,82 @@ unsigned int vxp_fixed_token(const char *p, const char **q)
 
       }
 
-      return_value___ctype_b_loc$120=__ctype_b_loc();
-      if(!((1024 & (signed int)(*return_value___ctype_b_loc$120)[(signed long int)(signed int)*p]) == 0))
-        tmp_if_expr$122 = (_Bool)1;
+      return_value___ctype_b_loc_120=__ctype_b_loc();
+      if(!((1024 & (signed int)(*return_value___ctype_b_loc_120)[(signed long int)(signed int)*p]) == 0))
+        tmp_if_expr_122 = (_Bool)1;
 
       else
       {
-        return_value___ctype_b_loc$121=__ctype_b_loc();
-        tmp_if_expr$122 = ((signed int)(*return_value___ctype_b_loc$121)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_121=__ctype_b_loc();
+        tmp_if_expr_122 = ((signed int)(*return_value___ctype_b_loc_121)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$122)
-        tmp_if_expr$123 = (_Bool)1;
+      if(tmp_if_expr_122)
+        tmp_if_expr_123 = (_Bool)1;
 
       else
-        tmp_if_expr$123 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$123)
-        tmp_if_expr$124 = (_Bool)1;
+        tmp_if_expr_123 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_123)
+        tmp_if_expr_124 = (_Bool)1;
 
       else
-        tmp_if_expr$124 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$124)
-        tmp_if_expr$125 = (_Bool)1;
+        tmp_if_expr_124 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_124)
+        tmp_if_expr_125 = (_Bool)1;
 
       else
-        tmp_if_expr$125 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$125)
-        tmp_if_expr$126 = (_Bool)1;
+        tmp_if_expr_125 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_125)
+        tmp_if_expr_126 = (_Bool)1;
 
       else
-        tmp_if_expr$126 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$126)
-        tmp_if_expr$127 = (_Bool)1;
+        tmp_if_expr_126 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_126)
+        tmp_if_expr_127 = (_Bool)1;
 
       else
-        tmp_if_expr$127 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$127)
+        tmp_if_expr_127 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_127)
       {
-        return_value___ctype_b_loc$128=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$128)[(signed long int)(signed int)p[1l]]) == 0))
-          tmp_if_expr$130 = (_Bool)1;
+        return_value___ctype_b_loc_128=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_128)[(signed long int)(signed int)p[1l]]) == 0))
+          tmp_if_expr_130 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$129=__ctype_b_loc();
-          tmp_if_expr$130 = ((signed int)(*return_value___ctype_b_loc$129)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_129=__ctype_b_loc();
+          tmp_if_expr_130 = ((signed int)(*return_value___ctype_b_loc_129)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$130)
-          tmp_if_expr$131 = (_Bool)1;
+        if(tmp_if_expr_130)
+          tmp_if_expr_131 = (_Bool)1;
 
         else
-          tmp_if_expr$131 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$131)
-          tmp_if_expr$132 = (_Bool)1;
+          tmp_if_expr_131 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_131)
+          tmp_if_expr_132 = (_Bool)1;
 
         else
-          tmp_if_expr$132 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$132)
-          tmp_if_expr$133 = (_Bool)1;
+          tmp_if_expr_132 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_132)
+          tmp_if_expr_133 = (_Bool)1;
 
         else
-          tmp_if_expr$133 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$133)
-          tmp_if_expr$134 = (_Bool)1;
+          tmp_if_expr_133 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_133)
+          tmp_if_expr_134 = (_Bool)1;
 
         else
-          tmp_if_expr$134 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$134)
-          tmp_if_expr$135 = (_Bool)1;
+          tmp_if_expr_134 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_134)
+          tmp_if_expr_135 = (_Bool)1;
 
         else
-          tmp_if_expr$135 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$136 = (signed int)!tmp_if_expr$135;
+          tmp_if_expr_135 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_136 = (signed int)!tmp_if_expr_135;
       }
 
       else
-        tmp_if_expr$136 = 1;
-      if(!(tmp_if_expr$136 == 0))
+        tmp_if_expr_136 = 1;
+      if(!(tmp_if_expr_136 == 0))
       {
         *q = p + (signed long int)1;
         return (unsigned int)60;
@@ -24610,82 +24610,82 @@ unsigned int vxp_fixed_token(const char *p, const char **q)
     {
       if((signed int)p[1l] == 61)
       {
-        return_value___ctype_b_loc$137=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$137)[(signed long int)(signed int)p[1l]]) == 0))
-          tmp_if_expr$139 = (_Bool)1;
+        return_value___ctype_b_loc_137=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_137)[(signed long int)(signed int)p[1l]]) == 0))
+          tmp_if_expr_139 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$138=__ctype_b_loc();
-          tmp_if_expr$139 = ((signed int)(*return_value___ctype_b_loc$138)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_138=__ctype_b_loc();
+          tmp_if_expr_139 = ((signed int)(*return_value___ctype_b_loc_138)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$139)
-          tmp_if_expr$140 = (_Bool)1;
+        if(tmp_if_expr_139)
+          tmp_if_expr_140 = (_Bool)1;
 
         else
-          tmp_if_expr$140 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$140)
-          tmp_if_expr$141 = (_Bool)1;
+          tmp_if_expr_140 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_140)
+          tmp_if_expr_141 = (_Bool)1;
 
         else
-          tmp_if_expr$141 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$141)
-          tmp_if_expr$142 = (_Bool)1;
+          tmp_if_expr_141 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_141)
+          tmp_if_expr_142 = (_Bool)1;
 
         else
-          tmp_if_expr$142 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$142)
-          tmp_if_expr$143 = (_Bool)1;
+          tmp_if_expr_142 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_142)
+          tmp_if_expr_143 = (_Bool)1;
 
         else
-          tmp_if_expr$143 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$143)
-          tmp_if_expr$144 = (_Bool)1;
+          tmp_if_expr_143 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_143)
+          tmp_if_expr_144 = (_Bool)1;
 
         else
-          tmp_if_expr$144 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$144)
+          tmp_if_expr_144 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_144)
         {
-          return_value___ctype_b_loc$145=__ctype_b_loc();
-          if(!((1024 & (signed int)(*return_value___ctype_b_loc$145)[(signed long int)(signed int)p[2l]]) == 0))
-            tmp_if_expr$147 = (_Bool)1;
+          return_value___ctype_b_loc_145=__ctype_b_loc();
+          if(!((1024 & (signed int)(*return_value___ctype_b_loc_145)[(signed long int)(signed int)p[2l]]) == 0))
+            tmp_if_expr_147 = (_Bool)1;
 
           else
           {
-            return_value___ctype_b_loc$146=__ctype_b_loc();
-            tmp_if_expr$147 = ((signed int)(*return_value___ctype_b_loc$146)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+            return_value___ctype_b_loc_146=__ctype_b_loc();
+            tmp_if_expr_147 = ((signed int)(*return_value___ctype_b_loc_146)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$147)
-            tmp_if_expr$148 = (_Bool)1;
+          if(tmp_if_expr_147)
+            tmp_if_expr_148 = (_Bool)1;
 
           else
-            tmp_if_expr$148 = (signed int)p[(signed long int)2] == 95 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$148)
-            tmp_if_expr$149 = (_Bool)1;
+            tmp_if_expr_148 = (signed int)p[(signed long int)2] == 95 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_148)
+            tmp_if_expr_149 = (_Bool)1;
 
           else
-            tmp_if_expr$149 = (signed int)p[(signed long int)2] == 45 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$149)
-            tmp_if_expr$150 = (_Bool)1;
+            tmp_if_expr_149 = (signed int)p[(signed long int)2] == 45 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_149)
+            tmp_if_expr_150 = (_Bool)1;
 
           else
-            tmp_if_expr$150 = (signed int)p[(signed long int)2] == 43 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$150)
-            tmp_if_expr$151 = (_Bool)1;
+            tmp_if_expr_150 = (signed int)p[(signed long int)2] == 43 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_150)
+            tmp_if_expr_151 = (_Bool)1;
 
           else
-            tmp_if_expr$151 = (signed int)p[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$151)
-            tmp_if_expr$152 = (_Bool)1;
+            tmp_if_expr_151 = (signed int)p[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_151)
+            tmp_if_expr_152 = (_Bool)1;
 
           else
-            tmp_if_expr$152 = (signed int)p[(signed long int)2] == 42 ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$153 = (signed int)!tmp_if_expr$152;
+            tmp_if_expr_152 = (signed int)p[(signed long int)2] == 42 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_153 = (signed int)!tmp_if_expr_152;
         }
 
         else
-          tmp_if_expr$153 = 1;
-        if(!(tmp_if_expr$153 == 0))
+          tmp_if_expr_153 = 1;
+        if(!(tmp_if_expr_153 == 0))
         {
           *q = p + (signed long int)2;
           return (unsigned int)130;
@@ -24699,82 +24699,82 @@ unsigned int vxp_fixed_token(const char *p, const char **q)
     {
       if((signed int)p[1l] == 61)
       {
-        return_value___ctype_b_loc$154=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$154)[(signed long int)(signed int)p[1l]]) == 0))
-          tmp_if_expr$156 = (_Bool)1;
+        return_value___ctype_b_loc_154=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_154)[(signed long int)(signed int)p[1l]]) == 0))
+          tmp_if_expr_156 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$155=__ctype_b_loc();
-          tmp_if_expr$156 = ((signed int)(*return_value___ctype_b_loc$155)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_155=__ctype_b_loc();
+          tmp_if_expr_156 = ((signed int)(*return_value___ctype_b_loc_155)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$156)
-          tmp_if_expr$157 = (_Bool)1;
+        if(tmp_if_expr_156)
+          tmp_if_expr_157 = (_Bool)1;
 
         else
-          tmp_if_expr$157 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$157)
-          tmp_if_expr$158 = (_Bool)1;
+          tmp_if_expr_157 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_157)
+          tmp_if_expr_158 = (_Bool)1;
 
         else
-          tmp_if_expr$158 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$158)
-          tmp_if_expr$159 = (_Bool)1;
+          tmp_if_expr_158 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_158)
+          tmp_if_expr_159 = (_Bool)1;
 
         else
-          tmp_if_expr$159 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$159)
-          tmp_if_expr$160 = (_Bool)1;
+          tmp_if_expr_159 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_159)
+          tmp_if_expr_160 = (_Bool)1;
 
         else
-          tmp_if_expr$160 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$160)
-          tmp_if_expr$161 = (_Bool)1;
+          tmp_if_expr_160 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_160)
+          tmp_if_expr_161 = (_Bool)1;
 
         else
-          tmp_if_expr$161 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$161)
+          tmp_if_expr_161 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_161)
         {
-          return_value___ctype_b_loc$162=__ctype_b_loc();
-          if(!((1024 & (signed int)(*return_value___ctype_b_loc$162)[(signed long int)(signed int)p[2l]]) == 0))
-            tmp_if_expr$164 = (_Bool)1;
+          return_value___ctype_b_loc_162=__ctype_b_loc();
+          if(!((1024 & (signed int)(*return_value___ctype_b_loc_162)[(signed long int)(signed int)p[2l]]) == 0))
+            tmp_if_expr_164 = (_Bool)1;
 
           else
           {
-            return_value___ctype_b_loc$163=__ctype_b_loc();
-            tmp_if_expr$164 = ((signed int)(*return_value___ctype_b_loc$163)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+            return_value___ctype_b_loc_163=__ctype_b_loc();
+            tmp_if_expr_164 = ((signed int)(*return_value___ctype_b_loc_163)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$164)
-            tmp_if_expr$165 = (_Bool)1;
+          if(tmp_if_expr_164)
+            tmp_if_expr_165 = (_Bool)1;
 
           else
-            tmp_if_expr$165 = (signed int)p[(signed long int)2] == 95 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$165)
-            tmp_if_expr$166 = (_Bool)1;
+            tmp_if_expr_165 = (signed int)p[(signed long int)2] == 95 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_165)
+            tmp_if_expr_166 = (_Bool)1;
 
           else
-            tmp_if_expr$166 = (signed int)p[(signed long int)2] == 45 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$166)
-            tmp_if_expr$167 = (_Bool)1;
+            tmp_if_expr_166 = (signed int)p[(signed long int)2] == 45 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_166)
+            tmp_if_expr_167 = (_Bool)1;
 
           else
-            tmp_if_expr$167 = (signed int)p[(signed long int)2] == 43 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$167)
-            tmp_if_expr$168 = (_Bool)1;
+            tmp_if_expr_167 = (signed int)p[(signed long int)2] == 43 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_167)
+            tmp_if_expr_168 = (_Bool)1;
 
           else
-            tmp_if_expr$168 = (signed int)p[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$168)
-            tmp_if_expr$169 = (_Bool)1;
+            tmp_if_expr_168 = (signed int)p[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_168)
+            tmp_if_expr_169 = (_Bool)1;
 
           else
-            tmp_if_expr$169 = (signed int)p[(signed long int)2] == 42 ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$170 = (signed int)!tmp_if_expr$169;
+            tmp_if_expr_169 = (signed int)p[(signed long int)2] == 42 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_170 = (signed int)!tmp_if_expr_169;
         }
 
         else
-          tmp_if_expr$170 = 1;
-        if(!(tmp_if_expr$170 == 0))
+          tmp_if_expr_170 = 1;
+        if(!(tmp_if_expr_170 == 0))
         {
           *q = p + (signed long int)2;
           return (unsigned int)131;
@@ -24782,82 +24782,82 @@ unsigned int vxp_fixed_token(const char *p, const char **q)
 
       }
 
-      return_value___ctype_b_loc$171=__ctype_b_loc();
-      if(!((1024 & (signed int)(*return_value___ctype_b_loc$171)[(signed long int)(signed int)*p]) == 0))
-        tmp_if_expr$173 = (_Bool)1;
+      return_value___ctype_b_loc_171=__ctype_b_loc();
+      if(!((1024 & (signed int)(*return_value___ctype_b_loc_171)[(signed long int)(signed int)*p]) == 0))
+        tmp_if_expr_173 = (_Bool)1;
 
       else
       {
-        return_value___ctype_b_loc$172=__ctype_b_loc();
-        tmp_if_expr$173 = ((signed int)(*return_value___ctype_b_loc$172)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_172=__ctype_b_loc();
+        tmp_if_expr_173 = ((signed int)(*return_value___ctype_b_loc_172)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$173)
-        tmp_if_expr$174 = (_Bool)1;
+      if(tmp_if_expr_173)
+        tmp_if_expr_174 = (_Bool)1;
 
       else
-        tmp_if_expr$174 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$174)
-        tmp_if_expr$175 = (_Bool)1;
+        tmp_if_expr_174 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_174)
+        tmp_if_expr_175 = (_Bool)1;
 
       else
-        tmp_if_expr$175 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$175)
-        tmp_if_expr$176 = (_Bool)1;
+        tmp_if_expr_175 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_175)
+        tmp_if_expr_176 = (_Bool)1;
 
       else
-        tmp_if_expr$176 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$176)
-        tmp_if_expr$177 = (_Bool)1;
+        tmp_if_expr_176 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_176)
+        tmp_if_expr_177 = (_Bool)1;
 
       else
-        tmp_if_expr$177 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$177)
-        tmp_if_expr$178 = (_Bool)1;
+        tmp_if_expr_177 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_177)
+        tmp_if_expr_178 = (_Bool)1;
 
       else
-        tmp_if_expr$178 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$178)
+        tmp_if_expr_178 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_178)
       {
-        return_value___ctype_b_loc$179=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$179)[(signed long int)(signed int)p[1l]]) == 0))
-          tmp_if_expr$181 = (_Bool)1;
+        return_value___ctype_b_loc_179=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_179)[(signed long int)(signed int)p[1l]]) == 0))
+          tmp_if_expr_181 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$180=__ctype_b_loc();
-          tmp_if_expr$181 = ((signed int)(*return_value___ctype_b_loc$180)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_180=__ctype_b_loc();
+          tmp_if_expr_181 = ((signed int)(*return_value___ctype_b_loc_180)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$181)
-          tmp_if_expr$182 = (_Bool)1;
+        if(tmp_if_expr_181)
+          tmp_if_expr_182 = (_Bool)1;
 
         else
-          tmp_if_expr$182 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$182)
-          tmp_if_expr$183 = (_Bool)1;
+          tmp_if_expr_182 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_182)
+          tmp_if_expr_183 = (_Bool)1;
 
         else
-          tmp_if_expr$183 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$183)
-          tmp_if_expr$184 = (_Bool)1;
+          tmp_if_expr_183 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_183)
+          tmp_if_expr_184 = (_Bool)1;
 
         else
-          tmp_if_expr$184 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$184)
-          tmp_if_expr$185 = (_Bool)1;
+          tmp_if_expr_184 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_184)
+          tmp_if_expr_185 = (_Bool)1;
 
         else
-          tmp_if_expr$185 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$185)
-          tmp_if_expr$186 = (_Bool)1;
+          tmp_if_expr_185 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_185)
+          tmp_if_expr_186 = (_Bool)1;
 
         else
-          tmp_if_expr$186 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$187 = (signed int)!tmp_if_expr$186;
+          tmp_if_expr_186 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_187 = (signed int)!tmp_if_expr_186;
       }
 
       else
-        tmp_if_expr$187 = 1;
-      if(!(tmp_if_expr$187 == 0))
+        tmp_if_expr_187 = 1;
+      if(!(tmp_if_expr_187 == 0))
       {
         *q = p + (signed long int)1;
         return (unsigned int)62;
@@ -24867,82 +24867,82 @@ unsigned int vxp_fixed_token(const char *p, const char **q)
     }
     case 91:
     {
-      return_value___ctype_b_loc$188=__ctype_b_loc();
-      if(!((1024 & (signed int)(*return_value___ctype_b_loc$188)[(signed long int)(signed int)*p]) == 0))
-        tmp_if_expr$190 = (_Bool)1;
+      return_value___ctype_b_loc_188=__ctype_b_loc();
+      if(!((1024 & (signed int)(*return_value___ctype_b_loc_188)[(signed long int)(signed int)*p]) == 0))
+        tmp_if_expr_190 = (_Bool)1;
 
       else
       {
-        return_value___ctype_b_loc$189=__ctype_b_loc();
-        tmp_if_expr$190 = ((signed int)(*return_value___ctype_b_loc$189)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_189=__ctype_b_loc();
+        tmp_if_expr_190 = ((signed int)(*return_value___ctype_b_loc_189)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$190)
-        tmp_if_expr$191 = (_Bool)1;
+      if(tmp_if_expr_190)
+        tmp_if_expr_191 = (_Bool)1;
 
       else
-        tmp_if_expr$191 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$191)
-        tmp_if_expr$192 = (_Bool)1;
+        tmp_if_expr_191 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_191)
+        tmp_if_expr_192 = (_Bool)1;
 
       else
-        tmp_if_expr$192 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$192)
-        tmp_if_expr$193 = (_Bool)1;
+        tmp_if_expr_192 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_192)
+        tmp_if_expr_193 = (_Bool)1;
 
       else
-        tmp_if_expr$193 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$193)
-        tmp_if_expr$194 = (_Bool)1;
+        tmp_if_expr_193 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_193)
+        tmp_if_expr_194 = (_Bool)1;
 
       else
-        tmp_if_expr$194 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$194)
-        tmp_if_expr$195 = (_Bool)1;
+        tmp_if_expr_194 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_194)
+        tmp_if_expr_195 = (_Bool)1;
 
       else
-        tmp_if_expr$195 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$195)
+        tmp_if_expr_195 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_195)
       {
-        return_value___ctype_b_loc$196=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$196)[(signed long int)(signed int)p[1l]]) == 0))
-          tmp_if_expr$198 = (_Bool)1;
+        return_value___ctype_b_loc_196=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_196)[(signed long int)(signed int)p[1l]]) == 0))
+          tmp_if_expr_198 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$197=__ctype_b_loc();
-          tmp_if_expr$198 = ((signed int)(*return_value___ctype_b_loc$197)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_197=__ctype_b_loc();
+          tmp_if_expr_198 = ((signed int)(*return_value___ctype_b_loc_197)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$198)
-          tmp_if_expr$199 = (_Bool)1;
+        if(tmp_if_expr_198)
+          tmp_if_expr_199 = (_Bool)1;
 
         else
-          tmp_if_expr$199 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$199)
-          tmp_if_expr$200 = (_Bool)1;
+          tmp_if_expr_199 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_199)
+          tmp_if_expr_200 = (_Bool)1;
 
         else
-          tmp_if_expr$200 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$200)
-          tmp_if_expr$201 = (_Bool)1;
+          tmp_if_expr_200 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_200)
+          tmp_if_expr_201 = (_Bool)1;
 
         else
-          tmp_if_expr$201 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$201)
-          tmp_if_expr$202 = (_Bool)1;
+          tmp_if_expr_201 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_201)
+          tmp_if_expr_202 = (_Bool)1;
 
         else
-          tmp_if_expr$202 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$202)
-          tmp_if_expr$203 = (_Bool)1;
+          tmp_if_expr_202 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_202)
+          tmp_if_expr_203 = (_Bool)1;
 
         else
-          tmp_if_expr$203 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$204 = (signed int)!tmp_if_expr$203;
+          tmp_if_expr_203 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_204 = (signed int)!tmp_if_expr_203;
       }
 
       else
-        tmp_if_expr$204 = 1;
-      if(!(tmp_if_expr$204 == 0))
+        tmp_if_expr_204 = 1;
+      if(!(tmp_if_expr_204 == 0))
       {
         *q = p + (signed long int)1;
         return (unsigned int)91;
@@ -24952,82 +24952,82 @@ unsigned int vxp_fixed_token(const char *p, const char **q)
     }
     case 93:
     {
-      return_value___ctype_b_loc$205=__ctype_b_loc();
-      if(!((1024 & (signed int)(*return_value___ctype_b_loc$205)[(signed long int)(signed int)*p]) == 0))
-        tmp_if_expr$207 = (_Bool)1;
+      return_value___ctype_b_loc_205=__ctype_b_loc();
+      if(!((1024 & (signed int)(*return_value___ctype_b_loc_205)[(signed long int)(signed int)*p]) == 0))
+        tmp_if_expr_207 = (_Bool)1;
 
       else
       {
-        return_value___ctype_b_loc$206=__ctype_b_loc();
-        tmp_if_expr$207 = ((signed int)(*return_value___ctype_b_loc$206)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_206=__ctype_b_loc();
+        tmp_if_expr_207 = ((signed int)(*return_value___ctype_b_loc_206)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$207)
-        tmp_if_expr$208 = (_Bool)1;
+      if(tmp_if_expr_207)
+        tmp_if_expr_208 = (_Bool)1;
 
       else
-        tmp_if_expr$208 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$208)
-        tmp_if_expr$209 = (_Bool)1;
+        tmp_if_expr_208 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_208)
+        tmp_if_expr_209 = (_Bool)1;
 
       else
-        tmp_if_expr$209 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$209)
-        tmp_if_expr$210 = (_Bool)1;
+        tmp_if_expr_209 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_209)
+        tmp_if_expr_210 = (_Bool)1;
 
       else
-        tmp_if_expr$210 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$210)
-        tmp_if_expr$211 = (_Bool)1;
+        tmp_if_expr_210 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_210)
+        tmp_if_expr_211 = (_Bool)1;
 
       else
-        tmp_if_expr$211 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$211)
-        tmp_if_expr$212 = (_Bool)1;
+        tmp_if_expr_211 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_211)
+        tmp_if_expr_212 = (_Bool)1;
 
       else
-        tmp_if_expr$212 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$212)
+        tmp_if_expr_212 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_212)
       {
-        return_value___ctype_b_loc$213=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$213)[(signed long int)(signed int)p[1l]]) == 0))
-          tmp_if_expr$215 = (_Bool)1;
+        return_value___ctype_b_loc_213=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_213)[(signed long int)(signed int)p[1l]]) == 0))
+          tmp_if_expr_215 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$214=__ctype_b_loc();
-          tmp_if_expr$215 = ((signed int)(*return_value___ctype_b_loc$214)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_214=__ctype_b_loc();
+          tmp_if_expr_215 = ((signed int)(*return_value___ctype_b_loc_214)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$215)
-          tmp_if_expr$216 = (_Bool)1;
+        if(tmp_if_expr_215)
+          tmp_if_expr_216 = (_Bool)1;
 
         else
-          tmp_if_expr$216 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$216)
-          tmp_if_expr$217 = (_Bool)1;
+          tmp_if_expr_216 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_216)
+          tmp_if_expr_217 = (_Bool)1;
 
         else
-          tmp_if_expr$217 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$217)
-          tmp_if_expr$218 = (_Bool)1;
+          tmp_if_expr_217 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_217)
+          tmp_if_expr_218 = (_Bool)1;
 
         else
-          tmp_if_expr$218 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$218)
-          tmp_if_expr$219 = (_Bool)1;
+          tmp_if_expr_218 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_218)
+          tmp_if_expr_219 = (_Bool)1;
 
         else
-          tmp_if_expr$219 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$219)
-          tmp_if_expr$220 = (_Bool)1;
+          tmp_if_expr_219 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_219)
+          tmp_if_expr_220 = (_Bool)1;
 
         else
-          tmp_if_expr$220 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$221 = (signed int)!tmp_if_expr$220;
+          tmp_if_expr_220 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_221 = (signed int)!tmp_if_expr_220;
       }
 
       else
-        tmp_if_expr$221 = 1;
-      if(!(tmp_if_expr$221 == 0))
+        tmp_if_expr_221 = 1;
+      if(!(tmp_if_expr_221 == 0))
       {
         *q = p + (signed long int)1;
         return (unsigned int)93;
@@ -25041,82 +25041,82 @@ unsigned int vxp_fixed_token(const char *p, const char **q)
       {
         if((signed int)p[2l] == 100)
         {
-          return_value___ctype_b_loc$222=__ctype_b_loc();
-          if(!((1024 & (signed int)(*return_value___ctype_b_loc$222)[(signed long int)(signed int)p[2l]]) == 0))
-            tmp_if_expr$224 = (_Bool)1;
+          return_value___ctype_b_loc_222=__ctype_b_loc();
+          if(!((1024 & (signed int)(*return_value___ctype_b_loc_222)[(signed long int)(signed int)p[2l]]) == 0))
+            tmp_if_expr_224 = (_Bool)1;
 
           else
           {
-            return_value___ctype_b_loc$223=__ctype_b_loc();
-            tmp_if_expr$224 = ((signed int)(*return_value___ctype_b_loc$223)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+            return_value___ctype_b_loc_223=__ctype_b_loc();
+            tmp_if_expr_224 = ((signed int)(*return_value___ctype_b_loc_223)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$224)
-            tmp_if_expr$225 = (_Bool)1;
+          if(tmp_if_expr_224)
+            tmp_if_expr_225 = (_Bool)1;
 
           else
-            tmp_if_expr$225 = (signed int)p[(signed long int)2] == 95 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$225)
-            tmp_if_expr$226 = (_Bool)1;
+            tmp_if_expr_225 = (signed int)p[(signed long int)2] == 95 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_225)
+            tmp_if_expr_226 = (_Bool)1;
 
           else
-            tmp_if_expr$226 = (signed int)p[(signed long int)2] == 45 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$226)
-            tmp_if_expr$227 = (_Bool)1;
+            tmp_if_expr_226 = (signed int)p[(signed long int)2] == 45 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_226)
+            tmp_if_expr_227 = (_Bool)1;
 
           else
-            tmp_if_expr$227 = (signed int)p[(signed long int)2] == 43 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$227)
-            tmp_if_expr$228 = (_Bool)1;
+            tmp_if_expr_227 = (signed int)p[(signed long int)2] == 43 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_227)
+            tmp_if_expr_228 = (_Bool)1;
 
           else
-            tmp_if_expr$228 = (signed int)p[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$228)
-            tmp_if_expr$229 = (_Bool)1;
+            tmp_if_expr_228 = (signed int)p[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_228)
+            tmp_if_expr_229 = (_Bool)1;
 
           else
-            tmp_if_expr$229 = (signed int)p[(signed long int)2] == 42 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$229)
+            tmp_if_expr_229 = (signed int)p[(signed long int)2] == 42 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_229)
           {
-            return_value___ctype_b_loc$230=__ctype_b_loc();
-            if(!((1024 & (signed int)(*return_value___ctype_b_loc$230)[(signed long int)(signed int)p[3l]]) == 0))
-              tmp_if_expr$232 = (_Bool)1;
+            return_value___ctype_b_loc_230=__ctype_b_loc();
+            if(!((1024 & (signed int)(*return_value___ctype_b_loc_230)[(signed long int)(signed int)p[3l]]) == 0))
+              tmp_if_expr_232 = (_Bool)1;
 
             else
             {
-              return_value___ctype_b_loc$231=__ctype_b_loc();
-              tmp_if_expr$232 = ((signed int)(*return_value___ctype_b_loc$231)[(signed long int)(signed int)p[(signed long int)3]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+              return_value___ctype_b_loc_231=__ctype_b_loc();
+              tmp_if_expr_232 = ((signed int)(*return_value___ctype_b_loc_231)[(signed long int)(signed int)p[(signed long int)3]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$232)
-              tmp_if_expr$233 = (_Bool)1;
+            if(tmp_if_expr_232)
+              tmp_if_expr_233 = (_Bool)1;
 
             else
-              tmp_if_expr$233 = (signed int)p[(signed long int)3] == 95 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$233)
-              tmp_if_expr$234 = (_Bool)1;
+              tmp_if_expr_233 = (signed int)p[(signed long int)3] == 95 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_233)
+              tmp_if_expr_234 = (_Bool)1;
 
             else
-              tmp_if_expr$234 = (signed int)p[(signed long int)3] == 45 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$234)
-              tmp_if_expr$235 = (_Bool)1;
+              tmp_if_expr_234 = (signed int)p[(signed long int)3] == 45 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_234)
+              tmp_if_expr_235 = (_Bool)1;
 
             else
-              tmp_if_expr$235 = (signed int)p[(signed long int)3] == 43 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$235)
-              tmp_if_expr$236 = (_Bool)1;
+              tmp_if_expr_235 = (signed int)p[(signed long int)3] == 43 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_235)
+              tmp_if_expr_236 = (_Bool)1;
 
             else
-              tmp_if_expr$236 = (signed int)p[(signed long int)3] == 46 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$236)
-              tmp_if_expr$237 = (_Bool)1;
+              tmp_if_expr_236 = (signed int)p[(signed long int)3] == 46 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_236)
+              tmp_if_expr_237 = (_Bool)1;
 
             else
-              tmp_if_expr$237 = (signed int)p[(signed long int)3] == 42 ? (_Bool)1 : (_Bool)0;
-            tmp_if_expr$238 = (signed int)!tmp_if_expr$237;
+              tmp_if_expr_237 = (signed int)p[(signed long int)3] == 42 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_238 = (signed int)!tmp_if_expr_237;
           }
 
           else
-            tmp_if_expr$238 = 1;
-          if(!(tmp_if_expr$238 == 0))
+            tmp_if_expr_238 = 1;
+          if(!(tmp_if_expr_238 == 0))
           {
             *q = p + (signed long int)3;
             return (unsigned int)129;
@@ -25132,82 +25132,82 @@ unsigned int vxp_fixed_token(const char *p, const char **q)
     {
       if((signed int)p[1l] == 113)
       {
-        return_value___ctype_b_loc$239=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$239)[(signed long int)(signed int)p[1l]]) == 0))
-          tmp_if_expr$241 = (_Bool)1;
+        return_value___ctype_b_loc_239=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_239)[(signed long int)(signed int)p[1l]]) == 0))
+          tmp_if_expr_241 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$240=__ctype_b_loc();
-          tmp_if_expr$241 = ((signed int)(*return_value___ctype_b_loc$240)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_240=__ctype_b_loc();
+          tmp_if_expr_241 = ((signed int)(*return_value___ctype_b_loc_240)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$241)
-          tmp_if_expr$242 = (_Bool)1;
+        if(tmp_if_expr_241)
+          tmp_if_expr_242 = (_Bool)1;
 
         else
-          tmp_if_expr$242 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$242)
-          tmp_if_expr$243 = (_Bool)1;
+          tmp_if_expr_242 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_242)
+          tmp_if_expr_243 = (_Bool)1;
 
         else
-          tmp_if_expr$243 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$243)
-          tmp_if_expr$244 = (_Bool)1;
+          tmp_if_expr_243 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_243)
+          tmp_if_expr_244 = (_Bool)1;
 
         else
-          tmp_if_expr$244 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$244)
-          tmp_if_expr$245 = (_Bool)1;
+          tmp_if_expr_244 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_244)
+          tmp_if_expr_245 = (_Bool)1;
 
         else
-          tmp_if_expr$245 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$245)
-          tmp_if_expr$246 = (_Bool)1;
+          tmp_if_expr_245 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_245)
+          tmp_if_expr_246 = (_Bool)1;
 
         else
-          tmp_if_expr$246 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$246)
+          tmp_if_expr_246 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_246)
         {
-          return_value___ctype_b_loc$247=__ctype_b_loc();
-          if(!((1024 & (signed int)(*return_value___ctype_b_loc$247)[(signed long int)(signed int)p[2l]]) == 0))
-            tmp_if_expr$249 = (_Bool)1;
+          return_value___ctype_b_loc_247=__ctype_b_loc();
+          if(!((1024 & (signed int)(*return_value___ctype_b_loc_247)[(signed long int)(signed int)p[2l]]) == 0))
+            tmp_if_expr_249 = (_Bool)1;
 
           else
           {
-            return_value___ctype_b_loc$248=__ctype_b_loc();
-            tmp_if_expr$249 = ((signed int)(*return_value___ctype_b_loc$248)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+            return_value___ctype_b_loc_248=__ctype_b_loc();
+            tmp_if_expr_249 = ((signed int)(*return_value___ctype_b_loc_248)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$249)
-            tmp_if_expr$250 = (_Bool)1;
+          if(tmp_if_expr_249)
+            tmp_if_expr_250 = (_Bool)1;
 
           else
-            tmp_if_expr$250 = (signed int)p[(signed long int)2] == 95 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$250)
-            tmp_if_expr$251 = (_Bool)1;
+            tmp_if_expr_250 = (signed int)p[(signed long int)2] == 95 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_250)
+            tmp_if_expr_251 = (_Bool)1;
 
           else
-            tmp_if_expr$251 = (signed int)p[(signed long int)2] == 45 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$251)
-            tmp_if_expr$252 = (_Bool)1;
+            tmp_if_expr_251 = (signed int)p[(signed long int)2] == 45 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_251)
+            tmp_if_expr_252 = (_Bool)1;
 
           else
-            tmp_if_expr$252 = (signed int)p[(signed long int)2] == 43 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$252)
-            tmp_if_expr$253 = (_Bool)1;
+            tmp_if_expr_252 = (signed int)p[(signed long int)2] == 43 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_252)
+            tmp_if_expr_253 = (_Bool)1;
 
           else
-            tmp_if_expr$253 = (signed int)p[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$253)
-            tmp_if_expr$254 = (_Bool)1;
+            tmp_if_expr_253 = (signed int)p[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_253)
+            tmp_if_expr_254 = (_Bool)1;
 
           else
-            tmp_if_expr$254 = (signed int)p[(signed long int)2] == 42 ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$255 = (signed int)!tmp_if_expr$254;
+            tmp_if_expr_254 = (signed int)p[(signed long int)2] == 42 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_255 = (signed int)!tmp_if_expr_254;
         }
 
         else
-          tmp_if_expr$255 = 1;
-        if(!(tmp_if_expr$255 == 0))
+          tmp_if_expr_255 = 1;
+        if(!(tmp_if_expr_255 == 0))
         {
           *q = p + (signed long int)2;
           return (unsigned int)137;
@@ -25223,82 +25223,82 @@ unsigned int vxp_fixed_token(const char *p, const char **q)
       {
         if((signed int)p[2l] == 116)
         {
-          return_value___ctype_b_loc$256=__ctype_b_loc();
-          if(!((1024 & (signed int)(*return_value___ctype_b_loc$256)[(signed long int)(signed int)p[2l]]) == 0))
-            tmp_if_expr$258 = (_Bool)1;
+          return_value___ctype_b_loc_256=__ctype_b_loc();
+          if(!((1024 & (signed int)(*return_value___ctype_b_loc_256)[(signed long int)(signed int)p[2l]]) == 0))
+            tmp_if_expr_258 = (_Bool)1;
 
           else
           {
-            return_value___ctype_b_loc$257=__ctype_b_loc();
-            tmp_if_expr$258 = ((signed int)(*return_value___ctype_b_loc$257)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+            return_value___ctype_b_loc_257=__ctype_b_loc();
+            tmp_if_expr_258 = ((signed int)(*return_value___ctype_b_loc_257)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$258)
-            tmp_if_expr$259 = (_Bool)1;
+          if(tmp_if_expr_258)
+            tmp_if_expr_259 = (_Bool)1;
 
           else
-            tmp_if_expr$259 = (signed int)p[(signed long int)2] == 95 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$259)
-            tmp_if_expr$260 = (_Bool)1;
+            tmp_if_expr_259 = (signed int)p[(signed long int)2] == 95 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_259)
+            tmp_if_expr_260 = (_Bool)1;
 
           else
-            tmp_if_expr$260 = (signed int)p[(signed long int)2] == 45 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$260)
-            tmp_if_expr$261 = (_Bool)1;
+            tmp_if_expr_260 = (signed int)p[(signed long int)2] == 45 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_260)
+            tmp_if_expr_261 = (_Bool)1;
 
           else
-            tmp_if_expr$261 = (signed int)p[(signed long int)2] == 43 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$261)
-            tmp_if_expr$262 = (_Bool)1;
+            tmp_if_expr_261 = (signed int)p[(signed long int)2] == 43 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_261)
+            tmp_if_expr_262 = (_Bool)1;
 
           else
-            tmp_if_expr$262 = (signed int)p[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$262)
-            tmp_if_expr$263 = (_Bool)1;
+            tmp_if_expr_262 = (signed int)p[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_262)
+            tmp_if_expr_263 = (_Bool)1;
 
           else
-            tmp_if_expr$263 = (signed int)p[(signed long int)2] == 42 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$263)
+            tmp_if_expr_263 = (signed int)p[(signed long int)2] == 42 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_263)
           {
-            return_value___ctype_b_loc$264=__ctype_b_loc();
-            if(!((1024 & (signed int)(*return_value___ctype_b_loc$264)[(signed long int)(signed int)p[3l]]) == 0))
-              tmp_if_expr$266 = (_Bool)1;
+            return_value___ctype_b_loc_264=__ctype_b_loc();
+            if(!((1024 & (signed int)(*return_value___ctype_b_loc_264)[(signed long int)(signed int)p[3l]]) == 0))
+              tmp_if_expr_266 = (_Bool)1;
 
             else
             {
-              return_value___ctype_b_loc$265=__ctype_b_loc();
-              tmp_if_expr$266 = ((signed int)(*return_value___ctype_b_loc$265)[(signed long int)(signed int)p[(signed long int)3]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+              return_value___ctype_b_loc_265=__ctype_b_loc();
+              tmp_if_expr_266 = ((signed int)(*return_value___ctype_b_loc_265)[(signed long int)(signed int)p[(signed long int)3]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$266)
-              tmp_if_expr$267 = (_Bool)1;
+            if(tmp_if_expr_266)
+              tmp_if_expr_267 = (_Bool)1;
 
             else
-              tmp_if_expr$267 = (signed int)p[(signed long int)3] == 95 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$267)
-              tmp_if_expr$268 = (_Bool)1;
+              tmp_if_expr_267 = (signed int)p[(signed long int)3] == 95 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_267)
+              tmp_if_expr_268 = (_Bool)1;
 
             else
-              tmp_if_expr$268 = (signed int)p[(signed long int)3] == 45 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$268)
-              tmp_if_expr$269 = (_Bool)1;
+              tmp_if_expr_268 = (signed int)p[(signed long int)3] == 45 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_268)
+              tmp_if_expr_269 = (_Bool)1;
 
             else
-              tmp_if_expr$269 = (signed int)p[(signed long int)3] == 43 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$269)
-              tmp_if_expr$270 = (_Bool)1;
+              tmp_if_expr_269 = (signed int)p[(signed long int)3] == 43 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_269)
+              tmp_if_expr_270 = (_Bool)1;
 
             else
-              tmp_if_expr$270 = (signed int)p[(signed long int)3] == 46 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$270)
-              tmp_if_expr$271 = (_Bool)1;
+              tmp_if_expr_270 = (signed int)p[(signed long int)3] == 46 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_270)
+              tmp_if_expr_271 = (_Bool)1;
 
             else
-              tmp_if_expr$271 = (signed int)p[(signed long int)3] == 42 ? (_Bool)1 : (_Bool)0;
-            tmp_if_expr$272 = (signed int)!tmp_if_expr$271;
+              tmp_if_expr_271 = (signed int)p[(signed long int)3] == 42 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_272 = (signed int)!tmp_if_expr_271;
           }
 
           else
-            tmp_if_expr$272 = 1;
-          if(!(tmp_if_expr$272 == 0))
+            tmp_if_expr_272 = 1;
+          if(!(tmp_if_expr_272 == 0))
           {
             *q = p + (signed long int)3;
             return (unsigned int)135;
@@ -25310,82 +25310,82 @@ unsigned int vxp_fixed_token(const char *p, const char **q)
 
       if((signed int)p[1l] == 101)
       {
-        return_value___ctype_b_loc$273=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$273)[(signed long int)(signed int)p[1l]]) == 0))
-          tmp_if_expr$275 = (_Bool)1;
+        return_value___ctype_b_loc_273=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_273)[(signed long int)(signed int)p[1l]]) == 0))
+          tmp_if_expr_275 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$274=__ctype_b_loc();
-          tmp_if_expr$275 = ((signed int)(*return_value___ctype_b_loc$274)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_274=__ctype_b_loc();
+          tmp_if_expr_275 = ((signed int)(*return_value___ctype_b_loc_274)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$275)
-          tmp_if_expr$276 = (_Bool)1;
+        if(tmp_if_expr_275)
+          tmp_if_expr_276 = (_Bool)1;
 
         else
-          tmp_if_expr$276 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$276)
-          tmp_if_expr$277 = (_Bool)1;
+          tmp_if_expr_276 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_276)
+          tmp_if_expr_277 = (_Bool)1;
 
         else
-          tmp_if_expr$277 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$277)
-          tmp_if_expr$278 = (_Bool)1;
+          tmp_if_expr_277 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_277)
+          tmp_if_expr_278 = (_Bool)1;
 
         else
-          tmp_if_expr$278 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$278)
-          tmp_if_expr$279 = (_Bool)1;
+          tmp_if_expr_278 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_278)
+          tmp_if_expr_279 = (_Bool)1;
 
         else
-          tmp_if_expr$279 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$279)
-          tmp_if_expr$280 = (_Bool)1;
+          tmp_if_expr_279 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_279)
+          tmp_if_expr_280 = (_Bool)1;
 
         else
-          tmp_if_expr$280 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$280)
+          tmp_if_expr_280 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_280)
         {
-          return_value___ctype_b_loc$281=__ctype_b_loc();
-          if(!((1024 & (signed int)(*return_value___ctype_b_loc$281)[(signed long int)(signed int)p[2l]]) == 0))
-            tmp_if_expr$283 = (_Bool)1;
+          return_value___ctype_b_loc_281=__ctype_b_loc();
+          if(!((1024 & (signed int)(*return_value___ctype_b_loc_281)[(signed long int)(signed int)p[2l]]) == 0))
+            tmp_if_expr_283 = (_Bool)1;
 
           else
           {
-            return_value___ctype_b_loc$282=__ctype_b_loc();
-            tmp_if_expr$283 = ((signed int)(*return_value___ctype_b_loc$282)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+            return_value___ctype_b_loc_282=__ctype_b_loc();
+            tmp_if_expr_283 = ((signed int)(*return_value___ctype_b_loc_282)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$283)
-            tmp_if_expr$284 = (_Bool)1;
+          if(tmp_if_expr_283)
+            tmp_if_expr_284 = (_Bool)1;
 
           else
-            tmp_if_expr$284 = (signed int)p[(signed long int)2] == 95 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$284)
-            tmp_if_expr$285 = (_Bool)1;
+            tmp_if_expr_284 = (signed int)p[(signed long int)2] == 95 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_284)
+            tmp_if_expr_285 = (_Bool)1;
 
           else
-            tmp_if_expr$285 = (signed int)p[(signed long int)2] == 45 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$285)
-            tmp_if_expr$286 = (_Bool)1;
+            tmp_if_expr_285 = (signed int)p[(signed long int)2] == 45 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_285)
+            tmp_if_expr_286 = (_Bool)1;
 
           else
-            tmp_if_expr$286 = (signed int)p[(signed long int)2] == 43 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$286)
-            tmp_if_expr$287 = (_Bool)1;
+            tmp_if_expr_286 = (signed int)p[(signed long int)2] == 43 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_286)
+            tmp_if_expr_287 = (_Bool)1;
 
           else
-            tmp_if_expr$287 = (signed int)p[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$287)
-            tmp_if_expr$288 = (_Bool)1;
+            tmp_if_expr_287 = (signed int)p[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_287)
+            tmp_if_expr_288 = (_Bool)1;
 
           else
-            tmp_if_expr$288 = (signed int)p[(signed long int)2] == 42 ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$289 = (signed int)!tmp_if_expr$288;
+            tmp_if_expr_288 = (signed int)p[(signed long int)2] == 42 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_289 = (signed int)!tmp_if_expr_288;
         }
 
         else
-          tmp_if_expr$289 = 1;
-        if(!(tmp_if_expr$289 == 0))
+          tmp_if_expr_289 = 1;
+        if(!(tmp_if_expr_289 == 0))
         {
           *q = p + (signed long int)2;
           return (unsigned int)138;
@@ -25399,82 +25399,82 @@ unsigned int vxp_fixed_token(const char *p, const char **q)
     {
       if((signed int)p[1l] == 114)
       {
-        return_value___ctype_b_loc$290=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$290)[(signed long int)(signed int)p[1l]]) == 0))
-          tmp_if_expr$292 = (_Bool)1;
+        return_value___ctype_b_loc_290=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_290)[(signed long int)(signed int)p[1l]]) == 0))
+          tmp_if_expr_292 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$291=__ctype_b_loc();
-          tmp_if_expr$292 = ((signed int)(*return_value___ctype_b_loc$291)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_291=__ctype_b_loc();
+          tmp_if_expr_292 = ((signed int)(*return_value___ctype_b_loc_291)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$292)
-          tmp_if_expr$293 = (_Bool)1;
+        if(tmp_if_expr_292)
+          tmp_if_expr_293 = (_Bool)1;
 
         else
-          tmp_if_expr$293 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$293)
-          tmp_if_expr$294 = (_Bool)1;
+          tmp_if_expr_293 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_293)
+          tmp_if_expr_294 = (_Bool)1;
 
         else
-          tmp_if_expr$294 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$294)
-          tmp_if_expr$295 = (_Bool)1;
+          tmp_if_expr_294 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_294)
+          tmp_if_expr_295 = (_Bool)1;
 
         else
-          tmp_if_expr$295 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$295)
-          tmp_if_expr$296 = (_Bool)1;
+          tmp_if_expr_295 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_295)
+          tmp_if_expr_296 = (_Bool)1;
 
         else
-          tmp_if_expr$296 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$296)
-          tmp_if_expr$297 = (_Bool)1;
+          tmp_if_expr_296 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_296)
+          tmp_if_expr_297 = (_Bool)1;
 
         else
-          tmp_if_expr$297 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$297)
+          tmp_if_expr_297 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_297)
         {
-          return_value___ctype_b_loc$298=__ctype_b_loc();
-          if(!((1024 & (signed int)(*return_value___ctype_b_loc$298)[(signed long int)(signed int)p[2l]]) == 0))
-            tmp_if_expr$300 = (_Bool)1;
+          return_value___ctype_b_loc_298=__ctype_b_loc();
+          if(!((1024 & (signed int)(*return_value___ctype_b_loc_298)[(signed long int)(signed int)p[2l]]) == 0))
+            tmp_if_expr_300 = (_Bool)1;
 
           else
           {
-            return_value___ctype_b_loc$299=__ctype_b_loc();
-            tmp_if_expr$300 = ((signed int)(*return_value___ctype_b_loc$299)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+            return_value___ctype_b_loc_299=__ctype_b_loc();
+            tmp_if_expr_300 = ((signed int)(*return_value___ctype_b_loc_299)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$300)
-            tmp_if_expr$301 = (_Bool)1;
+          if(tmp_if_expr_300)
+            tmp_if_expr_301 = (_Bool)1;
 
           else
-            tmp_if_expr$301 = (signed int)p[(signed long int)2] == 95 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$301)
-            tmp_if_expr$302 = (_Bool)1;
+            tmp_if_expr_301 = (signed int)p[(signed long int)2] == 95 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_301)
+            tmp_if_expr_302 = (_Bool)1;
 
           else
-            tmp_if_expr$302 = (signed int)p[(signed long int)2] == 45 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$302)
-            tmp_if_expr$303 = (_Bool)1;
+            tmp_if_expr_302 = (signed int)p[(signed long int)2] == 45 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_302)
+            tmp_if_expr_303 = (_Bool)1;
 
           else
-            tmp_if_expr$303 = (signed int)p[(signed long int)2] == 43 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$303)
-            tmp_if_expr$304 = (_Bool)1;
+            tmp_if_expr_303 = (signed int)p[(signed long int)2] == 43 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_303)
+            tmp_if_expr_304 = (_Bool)1;
 
           else
-            tmp_if_expr$304 = (signed int)p[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$304)
-            tmp_if_expr$305 = (_Bool)1;
+            tmp_if_expr_304 = (signed int)p[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_304)
+            tmp_if_expr_305 = (_Bool)1;
 
           else
-            tmp_if_expr$305 = (signed int)p[(signed long int)2] == 42 ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$306 = (signed int)!tmp_if_expr$305;
+            tmp_if_expr_305 = (signed int)p[(signed long int)2] == 42 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_306 = (signed int)!tmp_if_expr_305;
         }
 
         else
-          tmp_if_expr$306 = 1;
-        if(!(tmp_if_expr$306 == 0))
+          tmp_if_expr_306 = 1;
+        if(!(tmp_if_expr_306 == 0))
         {
           *q = p + (signed long int)2;
           return (unsigned int)136;
@@ -25486,82 +25486,82 @@ unsigned int vxp_fixed_token(const char *p, const char **q)
     }
     case 123:
     {
-      return_value___ctype_b_loc$307=__ctype_b_loc();
-      if(!((1024 & (signed int)(*return_value___ctype_b_loc$307)[(signed long int)(signed int)*p]) == 0))
-        tmp_if_expr$309 = (_Bool)1;
+      return_value___ctype_b_loc_307=__ctype_b_loc();
+      if(!((1024 & (signed int)(*return_value___ctype_b_loc_307)[(signed long int)(signed int)*p]) == 0))
+        tmp_if_expr_309 = (_Bool)1;
 
       else
       {
-        return_value___ctype_b_loc$308=__ctype_b_loc();
-        tmp_if_expr$309 = ((signed int)(*return_value___ctype_b_loc$308)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_308=__ctype_b_loc();
+        tmp_if_expr_309 = ((signed int)(*return_value___ctype_b_loc_308)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$309)
-        tmp_if_expr$310 = (_Bool)1;
+      if(tmp_if_expr_309)
+        tmp_if_expr_310 = (_Bool)1;
 
       else
-        tmp_if_expr$310 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$310)
-        tmp_if_expr$311 = (_Bool)1;
+        tmp_if_expr_310 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_310)
+        tmp_if_expr_311 = (_Bool)1;
 
       else
-        tmp_if_expr$311 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$311)
-        tmp_if_expr$312 = (_Bool)1;
+        tmp_if_expr_311 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_311)
+        tmp_if_expr_312 = (_Bool)1;
 
       else
-        tmp_if_expr$312 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$312)
-        tmp_if_expr$313 = (_Bool)1;
+        tmp_if_expr_312 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_312)
+        tmp_if_expr_313 = (_Bool)1;
 
       else
-        tmp_if_expr$313 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$313)
-        tmp_if_expr$314 = (_Bool)1;
+        tmp_if_expr_313 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_313)
+        tmp_if_expr_314 = (_Bool)1;
 
       else
-        tmp_if_expr$314 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$314)
+        tmp_if_expr_314 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_314)
       {
-        return_value___ctype_b_loc$315=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$315)[(signed long int)(signed int)p[1l]]) == 0))
-          tmp_if_expr$317 = (_Bool)1;
+        return_value___ctype_b_loc_315=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_315)[(signed long int)(signed int)p[1l]]) == 0))
+          tmp_if_expr_317 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$316=__ctype_b_loc();
-          tmp_if_expr$317 = ((signed int)(*return_value___ctype_b_loc$316)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_316=__ctype_b_loc();
+          tmp_if_expr_317 = ((signed int)(*return_value___ctype_b_loc_316)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$317)
-          tmp_if_expr$318 = (_Bool)1;
+        if(tmp_if_expr_317)
+          tmp_if_expr_318 = (_Bool)1;
 
         else
-          tmp_if_expr$318 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$318)
-          tmp_if_expr$319 = (_Bool)1;
+          tmp_if_expr_318 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_318)
+          tmp_if_expr_319 = (_Bool)1;
 
         else
-          tmp_if_expr$319 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$319)
-          tmp_if_expr$320 = (_Bool)1;
+          tmp_if_expr_319 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_319)
+          tmp_if_expr_320 = (_Bool)1;
 
         else
-          tmp_if_expr$320 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$320)
-          tmp_if_expr$321 = (_Bool)1;
+          tmp_if_expr_320 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_320)
+          tmp_if_expr_321 = (_Bool)1;
 
         else
-          tmp_if_expr$321 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$321)
-          tmp_if_expr$322 = (_Bool)1;
+          tmp_if_expr_321 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_321)
+          tmp_if_expr_322 = (_Bool)1;
 
         else
-          tmp_if_expr$322 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$323 = (signed int)!tmp_if_expr$322;
+          tmp_if_expr_322 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_323 = (signed int)!tmp_if_expr_322;
       }
 
       else
-        tmp_if_expr$323 = 1;
-      if(!(tmp_if_expr$323 == 0))
+        tmp_if_expr_323 = 1;
+      if(!(tmp_if_expr_323 == 0))
       {
         *q = p + (signed long int)1;
         return (unsigned int)123;
@@ -25571,82 +25571,82 @@ unsigned int vxp_fixed_token(const char *p, const char **q)
     }
     case 125:
     {
-      return_value___ctype_b_loc$324=__ctype_b_loc();
-      if(!((1024 & (signed int)(*return_value___ctype_b_loc$324)[(signed long int)(signed int)*p]) == 0))
-        tmp_if_expr$326 = (_Bool)1;
+      return_value___ctype_b_loc_324=__ctype_b_loc();
+      if(!((1024 & (signed int)(*return_value___ctype_b_loc_324)[(signed long int)(signed int)*p]) == 0))
+        tmp_if_expr_326 = (_Bool)1;
 
       else
       {
-        return_value___ctype_b_loc$325=__ctype_b_loc();
-        tmp_if_expr$326 = ((signed int)(*return_value___ctype_b_loc$325)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_325=__ctype_b_loc();
+        tmp_if_expr_326 = ((signed int)(*return_value___ctype_b_loc_325)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$326)
-        tmp_if_expr$327 = (_Bool)1;
+      if(tmp_if_expr_326)
+        tmp_if_expr_327 = (_Bool)1;
 
       else
-        tmp_if_expr$327 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$327)
-        tmp_if_expr$328 = (_Bool)1;
+        tmp_if_expr_327 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_327)
+        tmp_if_expr_328 = (_Bool)1;
 
       else
-        tmp_if_expr$328 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$328)
-        tmp_if_expr$329 = (_Bool)1;
+        tmp_if_expr_328 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_328)
+        tmp_if_expr_329 = (_Bool)1;
 
       else
-        tmp_if_expr$329 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$329)
-        tmp_if_expr$330 = (_Bool)1;
+        tmp_if_expr_329 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_329)
+        tmp_if_expr_330 = (_Bool)1;
 
       else
-        tmp_if_expr$330 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$330)
-        tmp_if_expr$331 = (_Bool)1;
+        tmp_if_expr_330 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_330)
+        tmp_if_expr_331 = (_Bool)1;
 
       else
-        tmp_if_expr$331 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$331)
+        tmp_if_expr_331 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_331)
       {
-        return_value___ctype_b_loc$332=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$332)[(signed long int)(signed int)p[1l]]) == 0))
-          tmp_if_expr$334 = (_Bool)1;
+        return_value___ctype_b_loc_332=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_332)[(signed long int)(signed int)p[1l]]) == 0))
+          tmp_if_expr_334 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$333=__ctype_b_loc();
-          tmp_if_expr$334 = ((signed int)(*return_value___ctype_b_loc$333)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_333=__ctype_b_loc();
+          tmp_if_expr_334 = ((signed int)(*return_value___ctype_b_loc_333)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$334)
-          tmp_if_expr$335 = (_Bool)1;
+        if(tmp_if_expr_334)
+          tmp_if_expr_335 = (_Bool)1;
 
         else
-          tmp_if_expr$335 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$335)
-          tmp_if_expr$336 = (_Bool)1;
+          tmp_if_expr_335 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_335)
+          tmp_if_expr_336 = (_Bool)1;
 
         else
-          tmp_if_expr$336 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$336)
-          tmp_if_expr$337 = (_Bool)1;
+          tmp_if_expr_336 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_336)
+          tmp_if_expr_337 = (_Bool)1;
 
         else
-          tmp_if_expr$337 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$337)
-          tmp_if_expr$338 = (_Bool)1;
+          tmp_if_expr_337 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_337)
+          tmp_if_expr_338 = (_Bool)1;
 
         else
-          tmp_if_expr$338 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$338)
-          tmp_if_expr$339 = (_Bool)1;
+          tmp_if_expr_338 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_338)
+          tmp_if_expr_339 = (_Bool)1;
 
         else
-          tmp_if_expr$339 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$340 = (signed int)!tmp_if_expr$339;
+          tmp_if_expr_339 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_340 = (signed int)!tmp_if_expr_339;
       }
 
       else
-        tmp_if_expr$340 = 1;
-      if(!(tmp_if_expr$340 == 0))
+        tmp_if_expr_340 = 1;
+      if(!(tmp_if_expr_340 == 0))
       {
         *q = p + (signed long int)1;
         return (unsigned int)125;
@@ -25656,82 +25656,82 @@ unsigned int vxp_fixed_token(const char *p, const char **q)
     }
     case 126:
     {
-      return_value___ctype_b_loc$341=__ctype_b_loc();
-      if(!((1024 & (signed int)(*return_value___ctype_b_loc$341)[(signed long int)(signed int)*p]) == 0))
-        tmp_if_expr$343 = (_Bool)1;
+      return_value___ctype_b_loc_341=__ctype_b_loc();
+      if(!((1024 & (signed int)(*return_value___ctype_b_loc_341)[(signed long int)(signed int)*p]) == 0))
+        tmp_if_expr_343 = (_Bool)1;
 
       else
       {
-        return_value___ctype_b_loc$342=__ctype_b_loc();
-        tmp_if_expr$343 = ((signed int)(*return_value___ctype_b_loc$342)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_342=__ctype_b_loc();
+        tmp_if_expr_343 = ((signed int)(*return_value___ctype_b_loc_342)[(signed long int)(signed int)p[(signed long int)0]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$343)
-        tmp_if_expr$344 = (_Bool)1;
+      if(tmp_if_expr_343)
+        tmp_if_expr_344 = (_Bool)1;
 
       else
-        tmp_if_expr$344 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$344)
-        tmp_if_expr$345 = (_Bool)1;
+        tmp_if_expr_344 = (signed int)p[(signed long int)0] == 95 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_344)
+        tmp_if_expr_345 = (_Bool)1;
 
       else
-        tmp_if_expr$345 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$345)
-        tmp_if_expr$346 = (_Bool)1;
+        tmp_if_expr_345 = (signed int)p[(signed long int)0] == 45 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_345)
+        tmp_if_expr_346 = (_Bool)1;
 
       else
-        tmp_if_expr$346 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$346)
-        tmp_if_expr$347 = (_Bool)1;
+        tmp_if_expr_346 = (signed int)p[(signed long int)0] == 43 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_346)
+        tmp_if_expr_347 = (_Bool)1;
 
       else
-        tmp_if_expr$347 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$347)
-        tmp_if_expr$348 = (_Bool)1;
+        tmp_if_expr_347 = (signed int)p[(signed long int)0] == 46 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_347)
+        tmp_if_expr_348 = (_Bool)1;
 
       else
-        tmp_if_expr$348 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$348)
+        tmp_if_expr_348 = (signed int)p[(signed long int)0] == 42 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_348)
       {
-        return_value___ctype_b_loc$349=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$349)[(signed long int)(signed int)p[1l]]) == 0))
-          tmp_if_expr$351 = (_Bool)1;
+        return_value___ctype_b_loc_349=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_349)[(signed long int)(signed int)p[1l]]) == 0))
+          tmp_if_expr_351 = (_Bool)1;
 
         else
         {
-          return_value___ctype_b_loc$350=__ctype_b_loc();
-          tmp_if_expr$351 = ((signed int)(*return_value___ctype_b_loc$350)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_350=__ctype_b_loc();
+          tmp_if_expr_351 = ((signed int)(*return_value___ctype_b_loc_350)[(signed long int)(signed int)p[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$351)
-          tmp_if_expr$352 = (_Bool)1;
+        if(tmp_if_expr_351)
+          tmp_if_expr_352 = (_Bool)1;
 
         else
-          tmp_if_expr$352 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$352)
-          tmp_if_expr$353 = (_Bool)1;
+          tmp_if_expr_352 = (signed int)p[(signed long int)1] == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_352)
+          tmp_if_expr_353 = (_Bool)1;
 
         else
-          tmp_if_expr$353 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$353)
-          tmp_if_expr$354 = (_Bool)1;
+          tmp_if_expr_353 = (signed int)p[(signed long int)1] == 45 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_353)
+          tmp_if_expr_354 = (_Bool)1;
 
         else
-          tmp_if_expr$354 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$354)
-          tmp_if_expr$355 = (_Bool)1;
+          tmp_if_expr_354 = (signed int)p[(signed long int)1] == 43 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_354)
+          tmp_if_expr_355 = (_Bool)1;
 
         else
-          tmp_if_expr$355 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$355)
-          tmp_if_expr$356 = (_Bool)1;
+          tmp_if_expr_355 = (signed int)p[(signed long int)1] == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_355)
+          tmp_if_expr_356 = (_Bool)1;
 
         else
-          tmp_if_expr$356 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$357 = (signed int)!tmp_if_expr$356;
+          tmp_if_expr_356 = (signed int)p[(signed long int)1] == 42 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_357 = (signed int)!tmp_if_expr_356;
       }
 
       else
-        tmp_if_expr$357 = 1;
-      if(!(tmp_if_expr$357 == 0))
+        tmp_if_expr_357 = 1;
+      if(!(tmp_if_expr_357 == 0))
       {
         *q = p + (signed long int)1;
         return (unsigned int)126;
@@ -25753,36 +25753,36 @@ static void vxp_quote(struct vxp *vxp, const char *b, const char *e, signed int 
   do
     if(!(e >= b))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      VAS_Fail("vxp_quote", "vxp.c", 77, "b <= e", *return_value___errno_location$1, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      VAS_Fail("vxp_quote", "vxp.c", 77, "b <= e", *return_value___errno_location_1, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   do
     if(!(b >= vxp->b))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      VAS_Fail("vxp_quote", "vxp.c", 78, "b >= vxp->b", *return_value___errno_location$2, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      VAS_Fail("vxp_quote", "vxp.c", 78, "b >= vxp->b", *return_value___errno_location_2, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   do
     if(!(vxp->e >= e))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      VAS_Fail("vxp_quote", "vxp.c", 79, "e <= vxp->e", *return_value___errno_location$3, (enum vas_e)VAS_ASSERT);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      VAS_Fail("vxp_quote", "vxp.c", 79, "e <= vxp->e", *return_value___errno_location_3, (enum vas_e)VAS_ASSERT);
     }
 
   while((_Bool)0);
   p = vxp->b;
   for( ; !(p >= vxp->e); p = p + 1l)
   {
-    const unsigned short int **return_value___ctype_b_loc$4;
-    return_value___ctype_b_loc$4=__ctype_b_loc();
-    if(!((8192 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)*p]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_4;
+    return_value___ctype_b_loc_4=__ctype_b_loc();
+    if(!((8192 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)*p]) == 0))
       VSB_bcat(vxp->sb, (const void *)" ", (unsigned long int)1);
 
     else

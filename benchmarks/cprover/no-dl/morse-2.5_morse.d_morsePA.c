@@ -1,60 +1,60 @@
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$5;
+struct anonymous_5;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$9;
+struct anonymous_9;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$4;
+struct anonymous_4;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$1;
+struct anonymous_1;
 
 // tag-#anon#ST[S32'time'||S32'volume'||S32'pitch'|]
 // file beepPA.c line 41
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -276,10 +276,10 @@ extern signed int pthread_attr_setschedparam(union pthread_attr_t *, struct sche
 extern signed int pthread_attr_setschedpolicy(union pthread_attr_t *, signed int);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$6 *);
+extern signed int pthread_cond_signal(union anonymous_6 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$6 *, union anonymous *);
+extern signed int pthread_cond_wait(union anonymous_6 *, union anonymous *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -324,7 +324,7 @@ static void show(char *s);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$8 *);
+extern signed int sigemptyset(struct anonymous_8 *);
 // sin
 // file /usr/include/x86_64-linux-gnu/bits/mathcalls.h line 65
 extern double sin(double);
@@ -374,7 +374,7 @@ static void toneflush(void);
 // file morse.c line 1417
 static void youraddchar(char c);
 
-struct anonymous$13
+struct anonymous_13
 {
   // _call_addr
   void *_call_addr;
@@ -384,7 +384,7 @@ struct anonymous$13
   unsigned int _arch;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // si_addr
   void *si_addr;
@@ -392,13 +392,13 @@ struct anonymous$11
   signed short int si_addr_lsb;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // __lock
   signed int __lock;
@@ -418,7 +418,7 @@ struct anonymous$5
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // si_pid
   signed int si_pid;
@@ -426,7 +426,7 @@ struct anonymous$0
   unsigned int si_uid;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // si_pid
   signed int si_pid;
@@ -448,7 +448,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // si_pid
   signed int si_pid;
@@ -458,7 +458,7 @@ struct anonymous$2
   union sigval si_sigval;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // si_tid
   signed int si_tid;
@@ -468,7 +468,7 @@ struct anonymous$1
   union sigval si_sigval;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // si_band
   signed long int si_band;
@@ -476,27 +476,27 @@ struct anonymous$12
   signed int si_fd;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$0 _kill;
+  struct anonymous_0 _kill;
   // _timer
-  struct anonymous$1 _timer;
+  struct anonymous_1 _timer;
   // _rt
-  struct anonymous$2 _rt;
+  struct anonymous_2 _rt;
   // _sigchld
-  struct anonymous$9 _sigchld;
+  struct anonymous_9 _sigchld;
   // _sigfault
-  struct anonymous$11 _sigfault;
+  struct anonymous_11 _sigfault;
   // _sigpoll
-  struct anonymous$12 _sigpoll;
+  struct anonymous_12 _sigpoll;
   // _sigsys
-  struct anonymous$13 _sigsys;
+  struct anonymous_13 _sigsys;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // si_signo
   signed int si_signo;
@@ -505,10 +505,10 @@ struct anonymous$4
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$3 _sifields;
+  union anonymous_3 _sifields;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // time
   signed int time;
@@ -518,18 +518,18 @@ struct anonymous$10
   signed int pitch;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$4 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_4 *, void *);
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __data
-  struct anonymous$5 __data;
+  struct anonymous_5 __data;
   // __size
   char __size[48l];
   // __align
@@ -695,9 +695,9 @@ struct sched_param
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$7 __sigaction_handler;
+  union anonymous_7 __sigaction_handler;
   // sa_mask
-  struct anonymous$8 sa_mask;
+  struct anonymous_8 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -733,13 +733,13 @@ static _Bool allprosigns = (_Bool)0;
 static _Bool allpunctuation = (_Bool)0;
 // beep_cv
 // file beepPA.c line 31
-static union anonymous$6 beep_cv = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_6 beep_cv = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // beep_info
 // file beepPA.c line 45
-static struct anonymous$10 beep_info = { .time=0, .volume=0, .pitch=0 };
+static struct anonymous_10 beep_info = { .time=0, .volume=0, .pitch=0 };
 // beep_mutex
 // file beepPA.c line 30
 static union anonymous beep_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
@@ -994,9 +994,9 @@ signed int BeepInit(void)
   snddev=pa_simple_new((const char *)(void *)0, "Morse Code Trainer", (enum pa_stream_direction)PA_STREAM_PLAYBACK, (const char *)(void *)0, "beep", &sample_format, (const struct pa_channel_map *)(void *)0, (const struct pa_buffer_attr *)(void *)0, &error);
   if(snddev == ((struct pa_simple *)NULL))
   {
-    const char *return_value_pa_strerror$1;
-    return_value_pa_strerror$1=pa_strerror(error);
-    fprintf(stderr, "Could not initialize audio: %s\n", return_value_pa_strerror$1);
+    const char *return_value_pa_strerror_1;
+    return_value_pa_strerror_1=pa_strerror(error);
+    fprintf(stderr, "Could not initialize audio: %s\n", return_value_pa_strerror_1);
     return 1;
   }
 
@@ -1043,18 +1043,18 @@ signed int BeepWait(void)
 // file /usr/include/x86_64-linux-gnu/bits/stdlib-float.h line 26
 static inline double atof(const char *__nptr)
 {
-  double return_value_strtod$1;
-  return_value_strtod$1=strtod(__nptr, (char **)(void *)0);
-  return return_value_strtod$1;
+  double return_value_strtod_1;
+  return_value_strtod_1=strtod(__nptr, (char **)(void *)0);
+  return return_value_strtod_1;
 }
 
 // atoi
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // beep_threadfunc
@@ -1113,9 +1113,9 @@ static void dowords(signed int c)
   if(!(c == 7) && !(c == -2) && !(c == -1))
     linepos = linepos + 1;
 
-  const unsigned short int **return_value___ctype_b_loc$1;
-  return_value___ctype_b_loc$1=__ctype_b_loc();
-  if(!((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)c]) == 0))
+  const unsigned short int **return_value___ctype_b_loc_1;
+  return_value___ctype_b_loc_1=__ctype_b_loc();
+  if(!((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)c]) == 0))
   {
     if(linepos + wordlen >= 78)
       c = 10;
@@ -1125,15 +1125,15 @@ static void dowords(signed int c)
   if(c == 10)
     linepos = 0;
 
-  const unsigned short int **return_value___ctype_b_loc$7;
-  return_value___ctype_b_loc$7=__ctype_b_loc();
-  signed long int return_value_time$2;
-  double return_value_difftime$3;
-  _Bool tmp_if_expr$4;
-  signed int tmp_post$6;
+  const unsigned short int **return_value___ctype_b_loc_7;
+  return_value___ctype_b_loc_7=__ctype_b_loc();
+  signed long int return_value_time_2;
+  double return_value_difftime_3;
+  _Bool tmp_if_expr_4;
+  signed int tmp_post_6;
   static char word[21l];
   static signed int wordc = 0;
-  if(c == 7 || c == -2 || c == -1 || !((8192 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)c]) == 0))
+  if(c == 7 || c == -2 || c == -1 || !((8192 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)c]) == 0))
   {
     if(wordc >= 1)
     {
@@ -1143,9 +1143,9 @@ static void dowords(signed int c)
 
       if(timeout >= 1)
       {
-        return_value_time$2=time((signed long int *)(void *)0);
-        return_value_difftime$3=difftime(return_value_time$2, starttime);
-        if(return_value_difftime$3 > (double)timeout)
+        return_value_time_2=time((signed long int *)(void *)0);
+        return_value_difftime_3=difftime(return_value_time_2, starttime);
+        if(return_value_difftime_3 > (double)timeout)
           timeout = 0;
 
       }
@@ -1238,11 +1238,11 @@ static void dowords(signed int c)
         tryagain:
           ;
           if(showletters == (_Bool)0 && tryingagain == 0 && !(error_threshold >= 1000) && !(testing == (_Bool)0))
-            tmp_if_expr$4 = errorlog[(signed long int)(signed int)*wordp] > error_threshold ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = errorlog[(signed long int)(signed int)*wordp] > error_threshold ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(tmp_if_expr_4)
           {
             toneflush();
             printf("[%c]", *wordp);
@@ -1269,9 +1269,9 @@ static void dowords(signed int c)
           slowpoke = 0;
           while(behindness >= 1)
           {
-            signed int return_value_testterminal$5;
-            return_value_testterminal$5=testterminal();
-            if(tryagaincount >= 1 && !(return_value_testterminal$5 == 0))
+            signed int return_value_testterminal_5;
+            return_value_testterminal_5=testterminal();
+            if(tryagaincount >= 1 && !(return_value_testterminal_5 == 0))
             {
               printf("Try again.\n");
               linepos = 0;
@@ -1429,18 +1429,18 @@ static void dowords(signed int c)
 
   else
   {
-    tmp_post$6 = wordc;
+    tmp_post_6 = wordc;
     wordc = wordc + 1;
-    word[(signed long int)tmp_post$6] = (char)c;
+    word[(signed long int)tmp_post_6] = (char)c;
   }
 
 __CPROVER_DUMP_L56:
   ;
-  const unsigned short int **return_value___ctype_b_loc$8;
+  const unsigned short int **return_value___ctype_b_loc_8;
   if(wordc == wordlen)
   {
-    return_value___ctype_b_loc$8=__ctype_b_loc();
-    if(!(c == 7) && !(c == -2) && !(c == -1) && (8192 & (signed int)(*return_value___ctype_b_loc$8)[(signed long int)c]) == 0)
+    return_value___ctype_b_loc_8=__ctype_b_loc();
+    if(!(c == 7) && !(c == -2) && !(c == -1) && (8192 & (signed int)(*return_value___ctype_b_loc_8)[(signed long int)c]) == 0)
       dowords((signed int)32);
 
   }
@@ -1451,9 +1451,9 @@ __CPROVER_DUMP_L56:
 // file /usr/include/x86_64-linux-gnu/bits/stdio.h line 44
 static inline signed int getchar(void)
 {
-  signed int return_value__IO_getc$1;
-  return_value__IO_getc$1=_IO_getc(stdin);
-  return return_value__IO_getc$1;
+  signed int return_value__IO_getc_1;
+  return_value__IO_getc_1=_IO_getc(stdin);
+  return return_value__IO_getc_1;
 }
 
 // main
@@ -1464,13 +1464,13 @@ signed int main(signed int argc, char **argv)
   char *p;
   signed int ii;
   struct sigaction handler;
-  signed int return_value_fileno$1;
-  signed int return_value_isatty$2;
+  signed int return_value_fileno_1;
+  signed int return_value_isatty_2;
   if(argc == 1)
   {
-    return_value_fileno$1=fileno(stdin);
-    return_value_isatty$2=isatty(return_value_fileno$1);
-    if(!(return_value_isatty$2 == 0))
+    return_value_fileno_1=fileno(stdin);
+    return_value_isatty_2=isatty(return_value_fileno_1);
+    if(!(return_value_isatty_2 == 0))
     {
       printf("Usage:\n");
       printf("morse [options] < text_file\n");
@@ -1543,13 +1543,13 @@ signed int main(signed int argc, char **argv)
 
   }
 
-  double return_value_atof$3;
-  double return_value_atof$4;
-  double return_value_atof$5;
-  double return_value_atof$6;
-  double return_value_atof$7;
-  double return_value_atof$8;
-  double return_value_atof$9;
+  double return_value_atof_3;
+  double return_value_atof_4;
+  double return_value_atof_5;
+  double return_value_atof_6;
+  double return_value_atof_7;
+  double return_value_atof_8;
+  double return_value_atof_9;
   do
   {
     ch=getopt(argc, argv, "ABC:E:F:IM:N:R:STX:abcdef:g:ilmn:p:qrstv:w:x:");
@@ -1584,8 +1584,8 @@ signed int main(signed int argc, char **argv)
       }
       case 70:
       {
-        return_value_atof$3=atof(optarg);
-        fwords_per_minute = (float)return_value_atof$3;
+        return_value_atof_3=atof(optarg);
+        fwords_per_minute = (float)return_value_atof_3;
         break;
       }
       case 73:
@@ -1632,8 +1632,8 @@ signed int main(signed int argc, char **argv)
       }
       case 88:
       {
-        return_value_atof$4=atof(optarg);
-        error_volume = (float)return_value_atof$4;
+        return_value_atof_4=atof(optarg);
+        error_volume = (float)return_value_atof_4;
         break;
       }
       case 97:
@@ -1663,14 +1663,14 @@ signed int main(signed int argc, char **argv)
       }
       case 102:
       {
-        return_value_atof$5=atof(optarg);
-        frequency1 = (float)return_value_atof$5;
+        return_value_atof_5=atof(optarg);
+        frequency1 = (float)return_value_atof_5;
         break;
       }
       case 103:
       {
-        return_value_atof$6=atof(optarg);
-        frequency2 = (float)return_value_atof$6;
+        return_value_atof_6=atof(optarg);
+        frequency2 = (float)return_value_atof_6;
         break;
       }
       case 105:
@@ -1729,8 +1729,8 @@ signed int main(signed int argc, char **argv)
       }
       case 118:
       {
-        return_value_atof$7=atof(optarg);
-        volume = (float)return_value_atof$7;
+        return_value_atof_7=atof(optarg);
+        volume = (float)return_value_atof_7;
         if(volume < 0.000000f)
           volume = (float)0.;
 
@@ -1741,14 +1741,14 @@ signed int main(signed int argc, char **argv)
       }
       case 119:
       {
-        return_value_atof$8=atof(optarg);
-        words_per_minute = (float)return_value_atof$8;
+        return_value_atof_8=atof(optarg);
+        words_per_minute = (float)return_value_atof_8;
         break;
       }
       case 120:
       {
-        return_value_atof$9=atof(optarg);
-        error_frequency = (float)return_value_atof$9;
+        return_value_atof_9=atof(optarg);
+        error_frequency = (float)return_value_atof_9;
         break;
       }
       default:
@@ -1766,9 +1766,9 @@ signed int main(signed int argc, char **argv)
 
   new_words_per_minute();
   frequency = frequency1;
-  signed int return_value_BeepInit$10;
-  return_value_BeepInit$10=BeepInit();
-  if(!(return_value_BeepInit$10 == 0))
+  signed int return_value_BeepInit_10;
+  return_value_BeepInit_10=BeepInit();
+  if(!(return_value_BeepInit_10 == 0))
   {
     fprintf(stderr, "Can't access speaker.\n");
     exit(1);
@@ -1865,25 +1865,25 @@ signed int main(signed int argc, char **argv)
     code[(signed long int)(signed int)(unsigned char)-89] = ".-.-..";
   }
 
-  unsigned long int return_value_strlen$11;
-  signed int tmp_statement_expression$12;
-  signed int tmp_if_expr$14;
-  const signed int **return_value___ctype_tolower_loc$13;
-  const signed int **return_value___ctype_tolower_loc$15;
+  unsigned long int return_value_strlen_11;
+  signed int tmp_statement_expression_12;
+  signed int tmp_if_expr_14;
+  const signed int **return_value___ctype_tolower_loc_13;
+  const signed int **return_value___ctype_tolower_loc_15;
   if(!(user_charset == ((char *)NULL)))
   {
     ii = 0;
     do
     {
-      return_value_strlen$11=strlen(user_charset);
-      if((unsigned long int)ii >= return_value_strlen$11)
+      return_value_strlen_11=strlen(user_charset);
+      if((unsigned long int)ii >= return_value_strlen_11)
         break;
 
       signed int __res;
-      return_value___ctype_tolower_loc$15=__ctype_tolower_loc();
-      __res = (*return_value___ctype_tolower_loc$15)[(signed long int)(signed int)user_charset[(signed long int)ii]];
-      tmp_statement_expression$12 = __res;
-      user_charset[(signed long int)ii] = (char)tmp_statement_expression$12;
+      return_value___ctype_tolower_loc_15=__ctype_tolower_loc();
+      __res = (*return_value___ctype_tolower_loc_15)[(signed long int)(signed int)user_charset[(signed long int)ii]];
+      tmp_statement_expression_12 = __res;
+      user_charset[(signed long int)ii] = (char)tmp_statement_expression_12;
       ii = ii + 1;
     }
     while((_Bool)1);
@@ -1891,9 +1891,9 @@ signed int main(signed int argc, char **argv)
     for( ; !(ii >= 256); ii = ii + 1)
       if(!(code[(signed long int)ii] == ((char *)NULL)))
       {
-        char *return_value___builtin_strchr$16;
-        return_value___builtin_strchr$16=__builtin_strchr(user_charset, ii);
-        if(!(return_value___builtin_strchr$16 == ((char *)NULL)))
+        char *return_value___builtin_strchr_16;
+        return_value___builtin_strchr_16=__builtin_strchr(user_charset, ii);
+        if(!(return_value___builtin_strchr_16 == ((char *)NULL)))
           randomfactor[(signed long int)ii] = 7 - 1;
 
         else
@@ -1915,9 +1915,9 @@ signed int main(signed int argc, char **argv)
 
     else
     {
-      unsigned long int return_value_strlen$17;
-      return_value_strlen$17=strlen(code[(signed long int)ii]);
-      randomfactor[(signed long int)ii] = (signed int)((unsigned long int)7 - return_value_strlen$17);
+      unsigned long int return_value_strlen_17;
+      return_value_strlen_17=strlen(code[(signed long int)ii]);
+      randomfactor[(signed long int)ii] = (signed int)((unsigned long int)7 - return_value_strlen_17);
       if(!(randomfactor[(signed long int)ii] >= 1))
         randomfactor[(signed long int)ii] = 1;
 
@@ -1939,8 +1939,8 @@ signed int main(signed int argc, char **argv)
 
   tone(frequency, (float)0.25, (float)0);
   toneflush();
-  signed long int return_value_time$19;
-  double return_value_difftime$20;
+  signed long int return_value_time_19;
+  double return_value_difftime_20;
   if(!(typeaway == (_Bool)0))
   {
     _Bool notdoneyet;
@@ -1966,9 +1966,9 @@ signed int main(signed int argc, char **argv)
           break;
         }
 
-        const unsigned short int **return_value___ctype_b_loc$18;
-        return_value___ctype_b_loc$18=__ctype_b_loc();
-        if(!((8192 & (signed int)(*return_value___ctype_b_loc$18)[(signed long int)yourchar]) == 0))
+        const unsigned short int **return_value___ctype_b_loc_18;
+        return_value___ctype_b_loc_18=__ctype_b_loc();
+        if(!((8192 & (signed int)(*return_value___ctype_b_loc_18)[(signed long int)yourchar]) == 0))
         {
           if(!(showletters == (_Bool)0))
           {
@@ -1986,9 +1986,9 @@ signed int main(signed int argc, char **argv)
       yourlength = yourlength - jj;
       if(timeout >= 1)
       {
-        return_value_time$19=time((signed long int *)(void *)0);
-        return_value_difftime$20=difftime(return_value_time$19, starttime);
-        if(return_value_difftime$20 > (double)timeout)
+        return_value_time_19=time((signed long int *)(void *)0);
+        return_value_difftime_20=difftime(return_value_time_19, starttime);
+        if(return_value_difftime_20 > (double)timeout)
           break;
 
       }
@@ -2001,25 +2001,25 @@ signed int main(signed int argc, char **argv)
     {
       float randexp;
       float randnum;
-      signed long int return_value_time$21;
-      return_value_time$21=time((signed long int *)(void *)0);
-      srand48(return_value_time$21);
+      signed long int return_value_time_21;
+      return_value_time_21=time((signed long int *)(void *)0);
+      srand48(return_value_time_21);
       randexp = (float)(1. / (1. - 1. / (double)(float)3.5));
       while((_Bool)1)
       {
         if(timeout == 0 || wordcount == 0)
           break;
 
-        signed int return_value_randomletter$22;
-        return_value_randomletter$22=randomletter();
-        dowords(return_value_randomletter$22);
+        signed int return_value_randomletter_22;
+        return_value_randomletter_22=randomletter();
+        dowords(return_value_randomletter_22);
         if(wordlen == 20)
         {
-          signed long int return_value_lrand48$23;
-          return_value_lrand48$23=lrand48();
-          signed long int return_value_time$24;
-          return_value_time$24=time((signed long int *)(void *)0);
-          randnum = (float)((return_value_lrand48$23 >> 9) + (signed long int)return_value_time$24 >> 4 & (signed long int)0x00FFFFFF);
+          signed long int return_value_lrand48_23;
+          return_value_lrand48_23=lrand48();
+          signed long int return_value_time_24;
+          return_value_time_24=time((signed long int *)(void *)0);
+          randnum = (float)((return_value_lrand48_23 >> 9) + (signed long int)return_value_time_24 >> 4 & (signed long int)0x00FFFFFF);
           randnum = randnum - randexp * (float)(signed int)(randnum / randexp);
           if(randnum >= 1.000000f && !(linepos == 0))
             dowords((signed int)32);
@@ -2104,33 +2104,33 @@ signed int main(signed int argc, char **argv)
 // file morse.c line 1234
 static void morse(signed int c)
 {
-  const unsigned short int **return_value___ctype_b_loc$1;
-  return_value___ctype_b_loc$1=__ctype_b_loc();
-  _Bool tmp_if_expr$6;
-  signed int tmp_statement_expression$2;
-  signed int tmp_if_expr$4;
-  const signed int **return_value___ctype_tolower_loc$3;
-  const signed int **return_value___ctype_tolower_loc$5;
-  if(!((1024 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)c]) == 0))
+  const unsigned short int **return_value___ctype_b_loc_1;
+  return_value___ctype_b_loc_1=__ctype_b_loc();
+  _Bool tmp_if_expr_6;
+  signed int tmp_statement_expression_2;
+  signed int tmp_if_expr_4;
+  const signed int **return_value___ctype_tolower_loc_3;
+  const signed int **return_value___ctype_tolower_loc_5;
+  if(!((1024 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)c]) == 0))
   {
     signed int __res;
     __res=tolower(c);
-    tmp_statement_expression$2 = __res;
-    tmp_if_expr$6 = code[(signed long int)tmp_statement_expression$2] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_statement_expression_2 = __res;
+    tmp_if_expr_6 = code[(signed long int)tmp_statement_expression_2] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$6 = (_Bool)0;
-  _Bool tmp_if_expr$7;
-  if(tmp_if_expr$6)
-    tmp_if_expr$7 = (_Bool)1;
+    tmp_if_expr_6 = (_Bool)0;
+  _Bool tmp_if_expr_7;
+  if(tmp_if_expr_6)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
-    tmp_if_expr$7 = (code[(signed long int)(signed int)37] == (char *)(void *)0 ? (c == -1 || c == 4 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$7)
+    tmp_if_expr_7 = (code[(signed long int)(signed int)37] == (char *)(void *)0 ? (c == -1 || c == 4 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_7)
     c = 32;
 
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_8;
   if(!(showletters == (_Bool)0))
   {
     if(c == 4 || c == -1)
@@ -2174,11 +2174,11 @@ static void morse(signed int c)
                     if(!(allprosigns == (_Bool)0))
                     {
                       if(c == 94)
-                        tmp_if_expr$8 = code[(signed long int)(signed int)94] != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+                        tmp_if_expr_8 = code[(signed long int)(signed int)94] != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
                       else
-                        tmp_if_expr$8 = (_Bool)0;
-                      if(!(showmorse == (_Bool)0) && tmp_if_expr$8)
+                        tmp_if_expr_8 = (_Bool)0;
+                      if(!(showmorse == (_Bool)0) && tmp_if_expr_8)
                         printf("<AA>");
 
                       else
@@ -2200,20 +2200,20 @@ static void morse(signed int c)
     fflush(stdout);
   }
 
-  const unsigned short int **return_value___ctype_b_loc$11;
-  return_value___ctype_b_loc$11=__ctype_b_loc();
-  const unsigned short int **return_value___ctype_b_loc$9;
-  if(!((1024 & (signed int)(*return_value___ctype_b_loc$11)[(signed long int)c]) == 0))
+  const unsigned short int **return_value___ctype_b_loc_11;
+  return_value___ctype_b_loc_11=__ctype_b_loc();
+  const unsigned short int **return_value___ctype_b_loc_9;
+  if(!((1024 & (signed int)(*return_value___ctype_b_loc_11)[(signed long int)c]) == 0))
   {
     if(!(testing == (_Bool)0))
     {
-      return_value___ctype_b_loc$9=__ctype_b_loc();
-      testaddchar((char)((c - (((signed int)(*return_value___ctype_b_loc$9)[(signed long int)(signed int)c] & (signed int)(unsigned short int)256) != 0 ? 65 : 97)) + 97));
+      return_value___ctype_b_loc_9=__ctype_b_loc();
+      testaddchar((char)((c - (((signed int)(*return_value___ctype_b_loc_9)[(signed long int)(signed int)c] & (signed int)(unsigned short int)256) != 0 ? 65 : 97)) + 97));
     }
 
-    const unsigned short int **return_value___ctype_b_loc$10;
-    return_value___ctype_b_loc$10=__ctype_b_loc();
-    show(code[(signed long int)((c - (((signed int)(*return_value___ctype_b_loc$10)[(signed long int)(signed int)c] & (signed int)(unsigned short int)256) != 0 ? 65 : 97)) + 97)]);
+    const unsigned short int **return_value___ctype_b_loc_10;
+    return_value___ctype_b_loc_10=__ctype_b_loc();
+    show(code[(signed long int)((c - (((signed int)(*return_value___ctype_b_loc_10)[(signed long int)(signed int)c] & (signed int)(unsigned short int)256) != 0 ? 65 : 97)) + 97)]);
   }
 
   else
@@ -2314,9 +2314,9 @@ static void play_tone()
 {
   signed int len = (signed int)((double)(sample_format.rate * (unsigned int)beep_info.time) / 1000.0);
   signed short int *sample;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)len * sizeof(signed short int) /*2ul*/ );
-  sample = (signed short int *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)len * sizeof(signed short int) /*2ul*/ );
+  sample = (signed short int *)return_value_malloc_1;
   if(!(sample == ((signed short int *)NULL)))
   {
     if(beep_info.volume == 0)
@@ -2333,9 +2333,9 @@ static void play_tone()
       for( ; !(c >= len); c = c + 2)
       {
         t = (double)c / (double)sample_format.rate;
-        double return_value_sin$2;
-        return_value_sin$2=sin(3.14159265358979323846 * (double)2 * t * (double)beep_info.pitch);
-        v = ((double)beep_info.volume / 100.0) * return_value_sin$2;
+        double return_value_sin_2;
+        return_value_sin_2=sin(3.14159265358979323846 * (double)2 * t * (double)beep_info.pitch);
+        v = ((double)beep_info.volume / 100.0) * return_value_sin_2;
         if(t < 0.01)
           v = v * (t / 0.01);
 
@@ -2346,9 +2346,9 @@ static void play_tone()
         sample[(signed long int)c] = sample[(signed long int)(c + 1)];
       }
     }
-    signed int return_value_pa_simple_write$3;
-    return_value_pa_simple_write$3=pa_simple_write(snddev, (const void *)(unsigned char *)sample, (unsigned long int)len * sizeof(signed short int) /*2ul*/ , (signed int *)(void *)0);
-    if(!(return_value_pa_simple_write$3 >= 0))
+    signed int return_value_pa_simple_write_3;
+    return_value_pa_simple_write_3=pa_simple_write(snddev, (const void *)(unsigned char *)sample, (unsigned long int)len * sizeof(signed short int) /*2ul*/ , (signed int *)(void *)0);
+    if(!(return_value_pa_simple_write_3 >= 0))
     {
       fprintf(stderr, "pa_simple_Write failed\n");
       exit(1);
@@ -2401,10 +2401,10 @@ static signed int randomletter(void)
   signed int sum;
   signed int sum2;
   signed long int ranspot;
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
   static signed long int norepeat;
-  norepeat = ((signed long int)return_value_time$1 / (signed long int)31) % (signed long int)17291;
+  norepeat = ((signed long int)return_value_time_1 / (signed long int)31) % (signed long int)17291;
   ii = 0;
   for( ; !(ii >= 256); ii = ii + 1)
     if(randomfactor[(signed long int)ii] >= 1)
@@ -2417,9 +2417,9 @@ static signed int randomletter(void)
   static signed int lasttime = -1;
   do
   {
-    signed long int return_value_lrand48$2;
-    return_value_lrand48$2=lrand48();
-    ranspot = ((return_value_lrand48$2 >> 4) % (signed long int)sum + norepeat) % (signed long int)sum;
+    signed long int return_value_lrand48_2;
+    return_value_lrand48_2=lrand48();
+    ranspot = ((return_value_lrand48_2 >> 4) % (signed long int)sum + norepeat) % (signed long int)sum;
     sum2 = 0;
     ii = 0;
     for( ; !(ii >= 256); ii = ii + 1)
@@ -2441,10 +2441,10 @@ static signed int randomletter(void)
 static signed int readterminal(char **string)
 {
   signed int n;
-  signed long int return_value_read$1;
+  signed long int return_value_read_1;
   static char line[210l];
-  return_value_read$1=read(termfd, (void *)line, sizeof(char [210l]) /*210ul*/  - (unsigned long int)1);
-  n = (signed int)return_value_read$1;
+  return_value_read_1=read(termfd, (void *)line, sizeof(char [210l]) /*210ul*/  - (unsigned long int)1);
+  n = (signed int)return_value_read_1;
   if(n >= 1)
   {
     line[(signed long int)n] = (char)0;
@@ -2513,12 +2513,12 @@ static void report(void)
 static void show(char *s)
 {
   char c;
-  char *tmp_post$1;
+  char *tmp_post_1;
   do
   {
-    tmp_post$1 = s;
+    tmp_post_1 = s;
     s = s + 1l;
-    c = *tmp_post$1;
+    c = *tmp_post_1;
     if((signed int)c == 0)
       break;
 
@@ -2553,9 +2553,9 @@ static void suspend(signed int sig)
   handler.__sigaction_handler.sa_handler = suspend;
   sigaction(20, &handler, (struct sigaction *)(void *)0);
   cleanup();
-  signed int return_value_getpid$1;
-  return_value_getpid$1=getpid();
-  kill(return_value_getpid$1, 19);
+  signed int return_value_getpid_1;
+  return_value_getpid_1=getpid();
+  kill(return_value_getpid_1, 19);
   if(!(termopen == 0))
     openterminal();
 
@@ -2576,9 +2576,9 @@ static void testaddchar(char c)
     die();
   }
 
-  const unsigned short int **return_value___ctype_b_loc$1;
-  return_value___ctype_b_loc$1=__ctype_b_loc();
-  if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)c]) == 0)
+  const unsigned short int **return_value___ctype_b_loc_1;
+  return_value___ctype_b_loc_1=__ctype_b_loc();
+  if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)c]) == 0)
     behindness = behindness + 1;
 
 }
@@ -2590,10 +2590,10 @@ static signed int testterminal(void)
   signed int errorcount;
   signed int resync;
   errorcount = 0;
-  _Bool tmp_if_expr$2;
-  const unsigned short int **return_value___ctype_b_loc$3;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_2;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
   if(testlength == 0)
     return errorcount;
 
@@ -2612,14 +2612,14 @@ static signed int testterminal(void)
         signed int yourchar;
         signed int yourcharnocase;
         correctchar = (signed int)teststring[(signed long int)(((testpointer - testlength) + 1 + testinc + (20 + 1) * 10) % ((20 + 1) * 10))];
-        const unsigned short int **return_value___ctype_b_loc$1;
-        return_value___ctype_b_loc$1=__ctype_b_loc();
-        if(!((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)correctchar]) == 0))
-          tmp_if_expr$2 = (_Bool)1;
+        const unsigned short int **return_value___ctype_b_loc_1;
+        return_value___ctype_b_loc_1=__ctype_b_loc();
+        if(!((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)correctchar]) == 0))
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = code[(signed long int)correctchar] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = code[(signed long int)correctchar] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
         {
           if(!(showtesting == (_Bool)0))
           {
@@ -2634,24 +2634,24 @@ static signed int testterminal(void)
         else
         {
           yourchar = (signed int)yourstring[(signed long int)(((yourpointer - yourlength) + 1 + yourinc + (20 + 1) * 10) % ((20 + 1) * 10))];
-          const unsigned short int **return_value___ctype_b_loc$4;
-          return_value___ctype_b_loc$4=__ctype_b_loc();
-          if(!((1024 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)yourchar]) == 0))
+          const unsigned short int **return_value___ctype_b_loc_4;
+          return_value___ctype_b_loc_4=__ctype_b_loc();
+          if(!((1024 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)yourchar]) == 0))
           {
-            return_value___ctype_b_loc$3=__ctype_b_loc();
-            yourcharnocase = (yourchar - (((signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)yourchar] & (signed int)(unsigned short int)256) != 0 ? 65 : 97)) + 97;
+            return_value___ctype_b_loc_3=__ctype_b_loc();
+            yourcharnocase = (yourchar - (((signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)yourchar] & (signed int)(unsigned short int)256) != 0 ? 65 : 97)) + 97;
           }
 
           else
             yourcharnocase = yourchar;
-          const unsigned short int **return_value___ctype_b_loc$5;
-          return_value___ctype_b_loc$5=__ctype_b_loc();
-          if(!((8192 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)yourchar]) == 0))
-            tmp_if_expr$6 = (_Bool)1;
+          const unsigned short int **return_value___ctype_b_loc_5;
+          return_value___ctype_b_loc_5=__ctype_b_loc();
+          if(!((8192 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)yourchar]) == 0))
+            tmp_if_expr_6 = (_Bool)1;
 
           else
-            tmp_if_expr$6 = code[(signed long int)yourcharnocase] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$6)
+            tmp_if_expr_6 = code[(signed long int)yourcharnocase] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_6)
           {
             if(yourchar == 4 || yourchar == 27)
             {
@@ -2679,14 +2679,14 @@ static signed int testterminal(void)
                   for( ; !(testinc >= resync); testinc = testinc + 1)
                   {
                     correctchar = (signed int)teststring[(signed long int)(((testpointer - testlength) + 1 + testinc + (20 + 1) * 10) % ((20 + 1) * 10))];
-                    const unsigned short int **return_value___ctype_b_loc$7;
-                    return_value___ctype_b_loc$7=__ctype_b_loc();
-                    if(!((8192 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)correctchar]) == 0))
-                      tmp_if_expr$8 = (_Bool)1;
+                    const unsigned short int **return_value___ctype_b_loc_7;
+                    return_value___ctype_b_loc_7=__ctype_b_loc();
+                    if(!((8192 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)correctchar]) == 0))
+                      tmp_if_expr_8 = (_Bool)1;
 
                     else
-                      tmp_if_expr$8 = code[(signed long int)correctchar] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-                    if(tmp_if_expr$8)
+                      tmp_if_expr_8 = code[(signed long int)correctchar] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+                    if(tmp_if_expr_8)
                     {
                       if(!(showtesting == (_Bool)0))
                         printf("%c", correctchar);
@@ -2849,17 +2849,17 @@ static signed int testterminal(void)
 // file /usr/include/ctype.h line 215
 static inline signed int tolower(signed int __c)
 {
-  signed int tmp_if_expr$2;
-  const signed int **return_value___ctype_tolower_loc$1;
+  signed int tmp_if_expr_2;
+  const signed int **return_value___ctype_tolower_loc_1;
   if(__c >= -128 && !(__c >= 256))
   {
-    return_value___ctype_tolower_loc$1=__ctype_tolower_loc();
-    tmp_if_expr$2 = (*return_value___ctype_tolower_loc$1)[(signed long int)__c];
+    return_value___ctype_tolower_loc_1=__ctype_tolower_loc();
+    tmp_if_expr_2 = (*return_value___ctype_tolower_loc_1)[(signed long int)__c];
   }
 
   else
-    tmp_if_expr$2 = __c;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = __c;
+  return tmp_if_expr_2;
 }
 
 // tone

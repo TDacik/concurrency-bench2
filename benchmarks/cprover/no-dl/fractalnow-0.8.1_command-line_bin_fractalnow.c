@@ -1,34 +1,34 @@
-// #anon_enum$LEFT=0$TOP=1$RIGHT=2$BOTTOM=3$TOPLEFT=4$TOPRIGHT=5$BOTTOMRIGHT=6$BOTTOMLEFT=7$CENTER=8
+// #anon_enum_LEFT=0_TOP=1_RIGHT=2_BOTTOM=3_TOPLEFT=4_TOPRIGHT=5_BOTTOMRIGHT=6_BOTTOMLEFT=7_CENTER=8
 // file src/image.c line 154
-enum anonymous$5 { LEFT=0, TOP=1, RIGHT=2, BOTTOM=3, TOPLEFT=4, TOPRIGHT=5, BOTTOMRIGHT=6, BOTTOMLEFT=7, CENTER=8 };
+enum anonymous_5 { LEFT=0, TOP=1, RIGHT=2, BOTTOM=3, TOPLEFT=4, TOPRIGHT=5, BOTTOMRIGHT=6, BOTTOMLEFT=7, CENTER=8 };
 
-// #anon_enum$MPFR_RNDN=0$MPFR_RNDZ=1$MPFR_RNDU=2$MPFR_RNDD=3$MPFR_RNDA=4$MPFR_RNDF=5$MPFR_RNDNA=-1
+// #anon_enum_MPFR_RNDN=0_MPFR_RNDZ=1_MPFR_RNDU=2_MPFR_RNDD=3_MPFR_RNDA=4_MPFR_RNDF=5_MPFR_RNDNA=-1
 // file /usr/include/mpfr.h line 79
-enum anonymous$3 { MPFR_RNDN=0, MPFR_RNDZ=1, MPFR_RNDU=2, MPFR_RNDD=3, MPFR_RNDA=4, MPFR_RNDF=5, MPFR_RNDNA=-1 };
+enum anonymous_3 { MPFR_RNDN=0, MPFR_RNDZ=1, MPFR_RNDU=2, MPFR_RNDD=3, MPFR_RNDA=4, MPFR_RNDF=5, MPFR_RNDNA=-1 };
 
-// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[S64'_mpfr_prec'|S32'_mpfr_sign'|U32'$pad0'|S64'_mpfr_exp'|*{U64}$U64$'_mpfr_d']#}$SYM#tag-#anon#ST[S64'_mpfr_prec'|S32'_mpfr_sign'|U32'$pad0'|S64'_mpfr_exp'|*{U64}$U64$'_mpfr_d']#$'re'|ARR1{SYM#tag-#anon#ST[S64'_mpfr_prec'|S32'_mpfr_sign'|U32'$pad0'|S64'_mpfr_exp'|*{U64}$U64$'_mpfr_d']#}$SYM#tag-#anon#ST[S64'_mpfr_prec'|S32'_mpfr_sign'|U32'$pad0'|S64'_mpfr_exp'|*{U64}$U64$'_mpfr_d']#$'im']
+// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[S64'_mpfr_prec'|S32'_mpfr_sign'|U32'_pad0'|S64'_mpfr_exp'|*{U64}_U64_'_mpfr_d']#}_SYM#tag-#anon#ST[S64'_mpfr_prec'|S32'_mpfr_sign'|U32'_pad0'|S64'_mpfr_exp'|*{U64}_U64_'_mpfr_d']#_'re'|ARR1{SYM#tag-#anon#ST[S64'_mpfr_prec'|S32'_mpfr_sign'|U32'_pad0'|S64'_mpfr_exp'|*{U64}_U64_'_mpfr_d']#}_SYM#tag-#anon#ST[S64'_mpfr_prec'|S32'_mpfr_sign'|U32'_pad0'|S64'_mpfr_exp'|*{U64}_U64_'_mpfr_d']#_'im']
 // file /usr/include/mpc.h line 104
 struct anonymous;
 
-// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
+// tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S64'_mpfr_prec'|S32'_mpfr_sign'|U32'$pad0'|S64'_mpfr_exp'|*{U64}$U64$'_mpfr_d']
+// tag-#anon#ST[S64'_mpfr_prec'|S32'_mpfr_sign'|U32'_pad0'|S64'_mpfr_exp'|*{U64}_U64_'_mpfr_d']
 // file /usr/include/mpfr.h line 177
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'|S32'__align']
+// tag-#anon#UN[ARR4{S8}_S8_'__size'|S32'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}$V$'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'|U32'__futex'|U64'__total_seq'|U64'__wakeup_seq'|U64'__woken_seq'|*{V}_V_'__mutex'|U32'__nwaiters'|U32'__broadcast_seq']#'__data'|ARR48{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$1;
+union anonymous_1;
 
 // tag-ArrayValue
 // file ../lib/include/fractal_cache.h line 82

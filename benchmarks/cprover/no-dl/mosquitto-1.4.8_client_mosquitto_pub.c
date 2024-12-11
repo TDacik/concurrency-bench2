@@ -1,58 +1,58 @@
-// tag-#anon#ST[ARR128{U8}$U8$'cert_verify_md'||ARR128{U8}$U8$'finish_md'||S32'finish_md_len'||ARR128{U8}$U8$'peer_finish_md'||S32'peer_finish_md_len'||U64'message_size'||S32'message_type'||U32'$pad0'||*{cSYM#tag-ssl_cipher_st#}$cSYM#tag-ssl_cipher_st#$'new_cipher'||*{SYM#tag-dh_st#}$SYM#tag-dh_st#$'dh'||*{SYM#tag-ec_key_st#}$SYM#tag-ec_key_st#$'ecdh'||S32'next_state'||S32'reuse_message'||S32'cert_req'||S32'ctype_num'||ARR9{S8}$S8$'ctype'||U56'$pad1'||*{SYM#tag-stack_st_X509_NAME#}$SYM#tag-stack_st_X509_NAME#$'ca_names'||S32'use_rsa_tmp'||S32'key_block_length'||*{U8}$U8$'key_block'||*{cSYM#tag-evp_cipher_st#}$cSYM#tag-evp_cipher_st#$'new_sym_enc'||*{cSYM#tag-env_md_st#}$cSYM#tag-env_md_st#$'new_hash'||S32'new_mac_pkey_type'||S32'new_mac_secret_size'||*{cSYM#tag-ssl_comp_st#}$cSYM#tag-ssl_comp_st#$'new_compression'||S32'cert_request'||U32'$pad2'|]
+// tag-#anon#ST[ARR128{U8}_U8_'cert_verify_md'||ARR128{U8}_U8_'finish_md'||S32'finish_md_len'||ARR128{U8}_U8_'peer_finish_md'||S32'peer_finish_md_len'||U64'message_size'||S32'message_type'||U32'_pad0'||*{cSYM#tag-ssl_cipher_st#}_cSYM#tag-ssl_cipher_st#_'new_cipher'||*{SYM#tag-dh_st#}_SYM#tag-dh_st#_'dh'||*{SYM#tag-ec_key_st#}_SYM#tag-ec_key_st#_'ecdh'||S32'next_state'||S32'reuse_message'||S32'cert_req'||S32'ctype_num'||ARR9{S8}_S8_'ctype'||U56'_pad1'||*{SYM#tag-stack_st_X509_NAME#}_SYM#tag-stack_st_X509_NAME#_'ca_names'||S32'use_rsa_tmp'||S32'key_block_length'||*{U8}_U8_'key_block'||*{cSYM#tag-evp_cipher_st#}_cSYM#tag-evp_cipher_st#_'new_sym_enc'||*{cSYM#tag-env_md_st#}_cSYM#tag-env_md_st#_'new_hash'||S32'new_mac_pkey_type'||S32'new_mac_secret_size'||*{cSYM#tag-ssl_comp_st#}_cSYM#tag-ssl_comp_st#_'new_compression'||S32'cert_request'||U32'_pad2'|]
 // file /usr/include/openssl/ssl3.h line 553
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$7;
+struct anonymous_7;
 
 // tag-#anon#ST[S32'sess_connect'||S32'sess_connect_renegotiate'||S32'sess_connect_good'||S32'sess_accept'||S32'sess_accept_renegotiate'||S32'sess_accept_good'||S32'sess_miss'||S32'sess_timeout'||S32'sess_cache_full'||S32'sess_hit'||S32'sess_cb_hit'|]
 // file /usr/include/openssl/ssl.h line 964
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[U32'conn_id_length'||U32'cert_type'||U32'cert_length'||U32'csl'||U32'clear'||U32'enc'||ARR32{U8}$U8$'ccl'||U32'cipher_spec_length'||U32'session_id_length'||U32'clen'||U32'rlen'|]
+// tag-#anon#ST[U32'conn_id_length'||U32'cert_type'||U32'cert_length'||U32'csl'||U32'clear'||U32'enc'||ARR32{U8}_U8_'ccl'||U32'cipher_spec_length'||U32'session_id_length'||U32'clen'||U32'rlen'|]
 // file /usr/include/openssl/ssl2.h line 203
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#UN[*{S32}$S32$'inherit'||*{SYM#tag-stack_st_ASIdOrRange#}$SYM#tag-stack_st_ASIdOrRange#$'asIdsOrRanges'|]
+// tag-#anon#UN[*{S32}_S32_'inherit'||*{SYM#tag-stack_st_ASIdOrRange#}_SYM#tag-stack_st_ASIdOrRange#_'asIdsOrRanges'|]
 // file /usr/include/openssl/x509v3.h line 783
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||*{SYM#tag-otherName_st#}$SYM#tag-otherName_st#$'otherName'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'rfc822Name'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'dNSName'||*{SYM#tag-asn1_type_st#}$SYM#tag-asn1_type_st#$'x400Address'||*{SYM#tag-X509_name_st#}$SYM#tag-X509_name_st#$'directoryName'||*{SYM#tag-EDIPartyName_st#}$SYM#tag-EDIPartyName_st#$'ediPartyName'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'uniformResourceIdentifier'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'iPAddress'||*{SYM#tag-asn1_object_st#}$SYM#tag-asn1_object_st#$'registeredID'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'ip'||*{SYM#tag-X509_name_st#}$SYM#tag-X509_name_st#$'dirn'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'ia5'||*{SYM#tag-asn1_object_st#}$SYM#tag-asn1_object_st#$'rid'||*{SYM#tag-asn1_type_st#}$SYM#tag-asn1_type_st#$'other'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||*{SYM#tag-otherName_st#}_SYM#tag-otherName_st#_'otherName'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'rfc822Name'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'dNSName'||*{SYM#tag-asn1_type_st#}_SYM#tag-asn1_type_st#_'x400Address'||*{SYM#tag-X509_name_st#}_SYM#tag-X509_name_st#_'directoryName'||*{SYM#tag-EDIPartyName_st#}_SYM#tag-EDIPartyName_st#_'ediPartyName'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'uniformResourceIdentifier'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'iPAddress'||*{SYM#tag-asn1_object_st#}_SYM#tag-asn1_object_st#_'registeredID'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'ip'||*{SYM#tag-X509_name_st#}_SYM#tag-X509_name_st#_'dirn'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'ia5'||*{SYM#tag-asn1_object_st#}_SYM#tag-asn1_object_st#_'rid'||*{SYM#tag-asn1_type_st#}_SYM#tag-asn1_type_st#_'other'|]
 // file /usr/include/openssl/x509v3.h line 188
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||*{SYM#tag-rsa_st#}$SYM#tag-rsa_st#$'rsa'||*{SYM#tag-dsa_st#}$SYM#tag-dsa_st#$'dsa'||*{SYM#tag-dh_st#}$SYM#tag-dh_st#$'dh'||*{SYM#tag-ec_key_st#}$SYM#tag-ec_key_st#$'ec'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||*{SYM#tag-rsa_st#}_SYM#tag-rsa_st#_'rsa'||*{SYM#tag-dsa_st#}_SYM#tag-dsa_st#_'dsa'||*{SYM#tag-dh_st#}_SYM#tag-dh_st#_'dh'||*{SYM#tag-ec_key_st#}_SYM#tag-ec_key_st#_'ec'|]
 // file /usr/include/openssl/evp.h line 135
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'asn1_string'||*{SYM#tag-asn1_object_st#}$SYM#tag-asn1_object_st#$'object'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'integer'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'enumerated'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bit_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'octet_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'printablestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'t61string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'ia5string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bmpstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'universalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utctime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalizedtime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'visiblestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utf8string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'set'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'sequence'||*{SYM#tag-ASN1_VALUE_st#}$SYM#tag-ASN1_VALUE_st#$'asn1_value'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'asn1_string'||*{SYM#tag-asn1_object_st#}_SYM#tag-asn1_object_st#_'object'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'integer'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'enumerated'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bit_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'octet_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'printablestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'t61string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'ia5string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bmpstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'universalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utctime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalizedtime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'visiblestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utf8string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'set'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'sequence'||*{SYM#tag-ASN1_VALUE_st#}_SYM#tag-ASN1_VALUE_st#_'asn1_value'|]
 // file /usr/include/openssl/asn1.h line 526
 union anonymous;
 
-// tag-#anon#UN[*{SYM#tag-stack_st_GENERAL_NAME#}$SYM#tag-stack_st_GENERAL_NAME#$'fullname'||*{SYM#tag-stack_st_X509_NAME_ENTRY#}$SYM#tag-stack_st_X509_NAME_ENTRY#$'relativename'|]
+// tag-#anon#UN[*{SYM#tag-stack_st_GENERAL_NAME#}_SYM#tag-stack_st_GENERAL_NAME#_'fullname'||*{SYM#tag-stack_st_X509_NAME_ENTRY#}_SYM#tag-stack_st_X509_NAME_ENTRY#_'relativename'|]
 // file /usr/include/openssl/x509v3.h line 228
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[*{V(S32|S32|*{V}$V$)->V}$V(S32|S32|*{V}$V$)->V$'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32}$S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32$'cb_2'|]
+// tag-#anon#UN[*{V(S32|S32|*{V}_V_)->V}_V(S32|S32|*{V}_V_)->V_'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32}_S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32_'cb_2'|]
 // file /usr/include/openssl/bn.h line 351
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$1;
+union anonymous_1;
 
 // tag-ASIdentifierChoice_st
 // file /usr/include/openssl/x509v3.h line 781
@@ -831,7 +831,7 @@ signed int _mosquitto_message_remove(struct mosquitto *mosq, unsigned short int 
 void _mosquitto_message_retry_check(struct mosquitto *mosq);
 // _mosquitto_message_retry_check_actual
 // file messages_mosq.c line 312
-void _mosquitto_message_retry_check_actual(struct mosquitto *mosq, struct mosquitto_message_all *messages, union anonymous$1 *mutex);
+void _mosquitto_message_retry_check_actual(struct mosquitto *mosq, struct mosquitto_message_all *messages, union anonymous_1 *mutex);
 // _mosquitto_messages_reconnect_reset
 // file ./messages_mosq.h line 26
 void _mosquitto_messages_reconnect_reset(struct mosquitto *mosq);
@@ -975,7 +975,7 @@ void _mosquitto_write_string(struct _mosquitto_packet *packet, const char *str, 
 void _mosquitto_write_uint16(struct _mosquitto_packet *packet, unsigned short int word);
 // ares_fds
 // file /usr/include/ares.h line 385
-signed int ares_fds(struct ares_channeldata *, struct anonymous$2 *, struct anonymous$2 *);
+signed int ares_fds(struct ares_channeldata *, struct anonymous_2 *, struct anonymous_2 *);
 // ares_init
 // file /usr/include/ares.h line 303
 signed int ares_init(struct ares_channeldata **);
@@ -990,7 +990,7 @@ signed int ares_library_init(signed int);
 signed int ares_parse_srv_reply(const unsigned char *, signed int, struct ares_srv_reply **);
 // ares_process
 // file /usr/include/ares.h line 397
-void ares_process(struct ares_channeldata *, struct anonymous$2 *, struct anonymous$2 *);
+void ares_process(struct ares_channeldata *, struct anonymous_2 *, struct anonymous_2 *);
 // ares_search
 // file /usr/include/ares.h line 353
 void ares_search(struct ares_channeldata *, const char *, signed int, signed int, void (*)(void *, signed int, signed int, unsigned char *, signed int), void *);
@@ -1141,9 +1141,9 @@ signed int mosquitto_connect_bind_async(struct mosquitto *mosq, const char *host
 // mosquitto_connect_callback_set
 // file ../lib/mosquitto.h line 1111
 void mosquitto_connect_callback_set(struct mosquitto *mosq, void (*on_connect)(struct mosquitto *, void *, signed int));
-// mosquitto_connect_callback_set::on_connect$object
+// mosquitto_connect_callback_set::on_connect_object
 //
-void on_connect$object(struct mosquitto *, void *, signed int);
+void on_connect_object(struct mosquitto *, void *, signed int);
 // mosquitto_connect_srv
 // file ../lib/mosquitto.h line 486
 signed int mosquitto_connect_srv(struct mosquitto *mosq, const char *host, signed int keepalive, const char *bind_address);
@@ -1156,9 +1156,9 @@ signed int mosquitto_disconnect(struct mosquitto *mosq);
 // mosquitto_disconnect_callback_set
 // file ../lib/mosquitto.h line 1131
 void mosquitto_disconnect_callback_set(struct mosquitto *mosq, void (*on_disconnect)(struct mosquitto *, void *, signed int));
-// mosquitto_disconnect_callback_set::on_disconnect$object
+// mosquitto_disconnect_callback_set::on_disconnect_object
 //
-void on_disconnect$object(struct mosquitto *, void *, signed int);
+void on_disconnect_object(struct mosquitto *, void *, signed int);
 // mosquitto_lib_cleanup
 // file ../lib/mosquitto.h line 188
 signed int mosquitto_lib_cleanup(void);
@@ -1171,9 +1171,9 @@ signed int mosquitto_lib_version(signed int *major, signed int *minor, signed in
 // mosquitto_log_callback_set
 // file ../lib/mosquitto.h line 1234
 void mosquitto_log_callback_set(struct mosquitto *mosq, void (*on_log)(struct mosquitto *, void *, signed int, const char *));
-// mosquitto_log_callback_set::on_log$object
+// mosquitto_log_callback_set::on_log_object
 //
-void on_log$object(struct mosquitto *, void *, signed int, const char *);
+void on_log_object(struct mosquitto *, void *, signed int, const char *);
 // mosquitto_loop
 // file ../lib/mosquitto.h line 722
 signed int mosquitto_loop(struct mosquitto *mosq, signed int timeout, signed int max_packets);
@@ -1201,9 +1201,9 @@ signed int mosquitto_max_inflight_messages_set(struct mosquitto *mosq, unsigned 
 // mosquitto_message_callback_set
 // file mosquitto.c line 1249
 void mosquitto_message_callback_set(struct mosquitto *mosq, void (*on_message)(struct mosquitto *, void *, struct mosquitto_message *));
-// mosquitto_message_callback_set::on_message$object
+// mosquitto_message_callback_set::on_message_object
 //
-void on_message$object(struct mosquitto *, void *, struct mosquitto_message *);
+void on_message_object(struct mosquitto *, void *, struct mosquitto_message *);
 // mosquitto_message_copy
 // file messages_mosq.c line 59
 signed int mosquitto_message_copy(struct mosquitto_message *dst, struct mosquitto_message *src);
@@ -1228,9 +1228,9 @@ signed int mosquitto_publish(struct mosquitto *mosq, signed int *mid, const char
 // mosquitto_publish_callback_set
 // file ../lib/mosquitto.h line 1149
 void mosquitto_publish_callback_set(struct mosquitto *mosq, void (*on_publish)(struct mosquitto *, void *, signed int));
-// mosquitto_publish_callback_set::on_publish$object
+// mosquitto_publish_callback_set::on_publish_object
 //
-void on_publish$object(struct mosquitto *, void *, signed int);
+void on_publish_object(struct mosquitto *, void *, signed int);
 // mosquitto_reconnect
 // file mosquitto.c line 467
 signed int mosquitto_reconnect(struct mosquitto *mosq);
@@ -1267,9 +1267,9 @@ signed int mosquitto_subscribe(struct mosquitto *mosq, signed int *mid, const ch
 // mosquitto_subscribe_callback_set
 // file mosquitto.c line 1256
 void mosquitto_subscribe_callback_set(struct mosquitto *mosq, void (*on_subscribe)(struct mosquitto *, void *, signed int, signed int, const signed int *));
-// mosquitto_subscribe_callback_set::on_subscribe$object
+// mosquitto_subscribe_callback_set::on_subscribe_object
 //
-void on_subscribe$object(struct mosquitto *, void *, signed int, signed int, const signed int *);
+void on_subscribe_object(struct mosquitto *, void *, signed int, signed int, const signed int *);
 // mosquitto_threaded_set
 // file thread_mosq.c line 102
 signed int mosquitto_threaded_set(struct mosquitto *mosq, _Bool threaded);
@@ -1288,9 +1288,9 @@ signed int mosquitto_tls_psk_set(struct mosquitto *mosq, const char *psk, const 
 // mosquitto_tls_set
 // file ../lib/mosquitto.h line 996
 signed int mosquitto_tls_set(struct mosquitto *mosq, const char *cafile, const char *capath, const char *certfile, const char *keyfile, signed int (*pw_callback)(char *, signed int, signed int, void *));
-// mosquitto_tls_set::pw_callback$object
+// mosquitto_tls_set::pw_callback_object
 //
-signed int pw_callback$object(char *, signed int, signed int, void *);
+signed int pw_callback_object(char *, signed int, signed int, void *);
 // mosquitto_topic_matches_sub
 // file util_mosq.c line 220
 signed int mosquitto_topic_matches_sub(const char *sub, const char *topic, _Bool *result);
@@ -1300,9 +1300,9 @@ signed int mosquitto_unsubscribe(struct mosquitto *mosq, signed int *mid, const 
 // mosquitto_unsubscribe_callback_set
 // file mosquitto.c line 1263
 void mosquitto_unsubscribe_callback_set(struct mosquitto *mosq, void (*on_unsubscribe)(struct mosquitto *, void *, signed int));
-// mosquitto_unsubscribe_callback_set::on_unsubscribe$object
+// mosquitto_unsubscribe_callback_set::on_unsubscribe_object
 //
-void on_unsubscribe$object(struct mosquitto *, void *, signed int);
+void on_unsubscribe_object(struct mosquitto *, void *, signed int);
 // mosquitto_user_data_set
 // file mosquitto.c line 1277
 void mosquitto_user_data_set(struct mosquitto *mosq, void *userdata);
@@ -1338,7 +1338,7 @@ void print_usage(void);
 extern signed int printf(const char *, ...);
 // pselect
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 118
-extern signed int pselect(signed int, struct anonymous$2 *, struct anonymous$2 *, struct anonymous$2 *, struct timespec *, const struct anonymous$7 *);
+extern signed int pselect(signed int, struct anonymous_2 *, struct anonymous_2 *, struct anonymous_2 *, struct timespec *, const struct anonymous_7 *);
 // psk_client_callback
 // file net_mosq.c line 253
 static unsigned int psk_client_callback(struct ssl_st *ssl, const char *hint, char *identity, unsigned int max_identity_len, unsigned char *psk, unsigned int max_psk_len);
@@ -1356,16 +1356,16 @@ extern signed int pthread_equal(unsigned long int, unsigned long int);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$1 *);
+extern signed int pthread_mutex_destroy(union anonymous_1 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$1 *, const union anonymous$3 *);
+extern signed int pthread_mutex_init(union anonymous_1 *, const union anonymous_3 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$1 *);
+extern signed int pthread_mutex_lock(union anonymous_1 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$1 *);
+extern signed int pthread_mutex_unlock(union anonymous_1 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -1448,7 +1448,7 @@ extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$11
+struct anonymous_11
 {
   // cert_verify_md
   unsigned char cert_verify_md[128l];
@@ -1502,19 +1502,19 @@ struct anonymous$11
   signed int cert_request;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // sess_connect
   signed int sess_connect;
@@ -1540,7 +1540,7 @@ struct anonymous$12
   signed int sess_cb_hit;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // conn_id_length
   unsigned int conn_id_length;
@@ -1566,7 +1566,7 @@ struct anonymous$10
   unsigned int rlen;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // inherit
   signed int *inherit;
@@ -1574,7 +1574,7 @@ union anonymous$4
   struct stack_st_ASIdOrRange *asIdsOrRanges;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // ptr
   char *ptr;
@@ -1608,7 +1608,7 @@ union anonymous$5
   struct asn1_type_st *other;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // ptr
   char *ptr;
@@ -1668,7 +1668,7 @@ union anonymous
   struct ASN1_VALUE_st *asn1_value;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // fullname
   struct stack_st_GENERAL_NAME *fullname;
@@ -1676,7 +1676,7 @@ union anonymous$0
   struct stack_st_X509_NAME_ENTRY *relativename;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // cb_1
   void (*cb_1)(signed int, signed int, void *);
@@ -1684,7 +1684,7 @@ union anonymous$6
   signed int (*cb_2)(signed int, signed int, struct bn_gencb_st *);
 };
 
-union anonymous$9
+union anonymous_9
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -1694,7 +1694,7 @@ union anonymous$9
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __size
   char __size[4l];
@@ -1730,7 +1730,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1745,7 +1745,7 @@ struct ASIdentifierChoice_st
   // type
   signed int type;
   // u
-  union anonymous$4 u;
+  union anonymous_4 u;
 };
 
 struct ASIdentifiers_st
@@ -1781,7 +1781,7 @@ struct DIST_POINT_NAME_st
   // type
   signed int type;
   // name
-  union anonymous$0 name;
+  union anonymous_0 name;
   // dpname
   struct X509_name_st *dpname;
 };
@@ -1807,7 +1807,7 @@ struct GENERAL_NAME_st
   // type
   signed int type;
   // d
-  union anonymous$5 d;
+  union anonymous_5 d;
 };
 
 struct ISSUING_DIST_POINT_st
@@ -2203,7 +2203,7 @@ struct bn_gencb_st
   // arg
   void *arg;
   // cb
-  union anonymous$6 cb;
+  union anonymous_6 cb;
 };
 
 struct bn_mont_ctx_st
@@ -2653,7 +2653,7 @@ struct evp_pkey_st
   // engine
   struct engine_st *engine;
   // pkey
-  union anonymous$8 pkey;
+  union anonymous_8 pkey;
   // save_parameters
   signed int save_parameters;
   // attributes
@@ -2679,7 +2679,7 @@ struct hmac_ctx_st
 struct in6_addr
 {
   // __in6_u
-  union anonymous$9 __in6_u;
+  union anonymous_9 __in6_u;
 };
 
 struct in_addr
@@ -2861,23 +2861,23 @@ struct mosquitto
   // want_connect
   _Bool want_connect;
   // callback_mutex
-  union anonymous$1 callback_mutex;
+  union anonymous_1 callback_mutex;
   // log_callback_mutex
-  union anonymous$1 log_callback_mutex;
+  union anonymous_1 log_callback_mutex;
   // msgtime_mutex
-  union anonymous$1 msgtime_mutex;
+  union anonymous_1 msgtime_mutex;
   // out_packet_mutex
-  union anonymous$1 out_packet_mutex;
+  union anonymous_1 out_packet_mutex;
   // current_out_packet_mutex
-  union anonymous$1 current_out_packet_mutex;
+  union anonymous_1 current_out_packet_mutex;
   // state_mutex
-  union anonymous$1 state_mutex;
+  union anonymous_1 state_mutex;
   // in_message_mutex
-  union anonymous$1 in_message_mutex;
+  union anonymous_1 in_message_mutex;
   // out_message_mutex
-  union anonymous$1 out_message_mutex;
+  union anonymous_1 out_message_mutex;
   // mid_mutex
-  union anonymous$1 mid_mutex;
+  union anonymous_1 mid_mutex;
   // thread_id
   unsigned long int thread_id;
   // clean_session
@@ -3219,7 +3219,7 @@ struct ssl2_state_st
   // write_sequence
   unsigned long int write_sequence;
   // tmp
-  struct anonymous$10 tmp;
+  struct anonymous_10 tmp;
 };
 
 struct ssl3_buffer_st
@@ -3339,7 +3339,7 @@ struct ssl3_state_st
   // server_opaque_prf_input_len
   unsigned long int server_opaque_prf_input_len;
   // tmp
-  struct anonymous$11 tmp;
+  struct anonymous_11 tmp;
   // previous_client_finished
   unsigned char previous_client_finished[64l];
   // previous_client_finished_len
@@ -3427,7 +3427,7 @@ struct ssl_ctx_st
   // get_session_cb
   struct ssl_session_st * (*get_session_cb)(struct ssl_st *, unsigned char *, signed int, signed int *);
   // stats
-  struct anonymous$12 stats;
+  struct anonymous_12 stats;
   // references
   signed int references;
   // app_verify_callback
@@ -4320,25 +4320,25 @@ void _mosquitto_check_keepalive(struct mosquitto *mosq)
   last_msg_out = mosq->last_msg_out;
   last_msg_in = mosq->last_msg_in;
   pthread_mutex_unlock(&mosq->msgtime_mutex);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(!(mosq->keepalive == 0))
   {
     if(!(mosq->sock == -1))
     {
       if(now + -last_msg_out >= (signed long int)mosq->keepalive)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = now - last_msg_in >= (signed long int)mosq->keepalive ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = now - last_msg_in >= (signed long int)mosq->keepalive ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
         if((signed int)mosq->state == mosq_cs_connected)
-          tmp_if_expr$1 = mosq->ping_t == (signed long int)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = mosq->ping_t == (signed long int)0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
         {
           _mosquitto_send_pingreq(mosq);
           pthread_mutex_lock(&mosq->msgtime_mutex);
@@ -4428,9 +4428,9 @@ static signed int _mosquitto_connect_init(struct mosquitto *mosq, const char *ho
             mosq->sockpairW = -1;
           }
 
-          signed int return_value__mosquitto_socketpair$1;
-          return_value__mosquitto_socketpair$1=_mosquitto_socketpair(&mosq->sockpairR, &mosq->sockpairW);
-          if(!(return_value__mosquitto_socketpair$1 == 0))
+          signed int return_value__mosquitto_socketpair_1;
+          return_value__mosquitto_socketpair_1=_mosquitto_socketpair(&mosq->sockpairR, &mosq->sockpairW);
+          if(!(return_value__mosquitto_socketpair_1 == 0))
             _mosquitto_log_printf(mosq, 0x04, "Warning: Unable to open socket pair, outgoing publish commands may be delayed.");
 
           return 0;
@@ -4444,15 +4444,15 @@ static signed int _mosquitto_connect_init(struct mosquitto *mosq, const char *ho
 void _mosquitto_destroy(struct mosquitto *mosq)
 {
   struct _mosquitto_packet *packet;
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
   if(!(mosq == ((struct mosquitto *)NULL)))
   {
     if(!(mosq->threaded == (_Bool)0))
     {
-      return_value_pthread_self$1=pthread_self();
-      return_value_pthread_equal$2=pthread_equal(mosq->thread_id, return_value_pthread_self$1);
-      if(return_value_pthread_equal$2 == 0)
+      return_value_pthread_self_1=pthread_self();
+      return_value_pthread_equal_2=pthread_equal(mosq->thread_id, return_value_pthread_self_1);
+      if(return_value_pthread_equal_2 == 0)
       {
         pthread_cancel(mosq->thread_id);
         pthread_join(mosq->thread_id, (void **)(void *)0);
@@ -4589,9 +4589,9 @@ void _mosquitto_destroy(struct mosquitto *mosq)
 // file ./util_mosq.h line 35
 struct _IO_FILE * _mosquitto_fopen(const char *path, const char *mode)
 {
-  struct _IO_FILE *return_value_fopen$1;
-  return_value_fopen$1=fopen(path, mode);
-  return return_value_fopen$1;
+  struct _IO_FILE *return_value_fopen_1;
+  return_value_fopen_1=fopen(path, mode);
+  return return_value_fopen_1;
 }
 
 // _mosquitto_free
@@ -4665,9 +4665,9 @@ signed int _mosquitto_handle_pingreq(struct mosquitto *mosq)
   /* assertion mosq */
   assert(mosq != ((struct mosquitto *)NULL));
   _mosquitto_log_printf(mosq, 0x10, "Client %s received PINGREQ", mosq->id);
-  signed int return_value__mosquitto_send_pingresp$1;
-  return_value__mosquitto_send_pingresp$1=_mosquitto_send_pingresp(mosq);
-  return return_value__mosquitto_send_pingresp$1;
+  signed int return_value__mosquitto_send_pingresp_1;
+  return_value__mosquitto_send_pingresp_1=_mosquitto_send_pingresp(mosq);
+  return return_value__mosquitto_send_pingresp_1;
 }
 
 // _mosquitto_handle_pingresp
@@ -4696,9 +4696,9 @@ signed int _mosquitto_handle_pubackcomp(struct mosquitto *mosq, const char *type
   else
   {
     _mosquitto_log_printf(mosq, 0x10, "Client %s received %s (Mid: %d)", mosq->id, type, mid);
-    signed int return_value__mosquitto_message_delete$1;
-    return_value__mosquitto_message_delete$1=_mosquitto_message_delete(mosq, mid, (enum mosquitto_msg_direction)mosq_md_out);
-    if(return_value__mosquitto_message_delete$1 == 0)
+    signed int return_value__mosquitto_message_delete_1;
+    return_value__mosquitto_message_delete_1=_mosquitto_message_delete(mosq, mid, (enum mosquitto_msg_direction)mosq_md_out);
+    if(return_value__mosquitto_message_delete_1 == 0)
     {
       pthread_mutex_lock(&mosq->callback_mutex);
       if(!(mosq->on_publish == ((void (*)(struct mosquitto *, void *, signed int))NULL)))
@@ -4720,69 +4720,69 @@ signed int _mosquitto_handle_pubackcomp(struct mosquitto *mosq, const char *type
 signed int _mosquitto_handle_publish(struct mosquitto *mosq)
 {
   unsigned char header;
-  struct mosquitto_message_all *_mosquitto_handle_publish$$1$$message;
+  struct mosquitto_message_all *_mosquitto_handle_publish__1__message;
   signed int rc = 0;
   unsigned short int mid;
   /* assertion mosq */
   assert(mosq != ((struct mosquitto *)NULL));
-  void *return_value__mosquitto_calloc$1;
-  return_value__mosquitto_calloc$1=_mosquitto_calloc((unsigned long int)1, sizeof(struct mosquitto_message_all) /*64ul*/ );
-  _mosquitto_handle_publish$$1$$message = (struct mosquitto_message_all *)return_value__mosquitto_calloc$1;
-  if(_mosquitto_handle_publish$$1$$message == ((struct mosquitto_message_all *)NULL))
+  void *return_value__mosquitto_calloc_1;
+  return_value__mosquitto_calloc_1=_mosquitto_calloc((unsigned long int)1, sizeof(struct mosquitto_message_all) /*64ul*/ );
+  _mosquitto_handle_publish__1__message = (struct mosquitto_message_all *)return_value__mosquitto_calloc_1;
+  if(_mosquitto_handle_publish__1__message == ((struct mosquitto_message_all *)NULL))
     return 1;
 
   else
   {
     header = mosq->in_packet.command;
-    _mosquitto_handle_publish$$1$$message->dup = (_Bool)(((signed int)header & 0x08) >> 3);
-    _mosquitto_handle_publish$$1$$message->msg.qos = ((signed int)header & 0x06) >> 1;
-    _mosquitto_handle_publish$$1$$message->msg.retain = (_Bool)((signed int)header & 0x01);
-    rc=_mosquitto_read_string(&mosq->in_packet, &_mosquitto_handle_publish$$1$$message->msg.topic);
+    _mosquitto_handle_publish__1__message->dup = (_Bool)(((signed int)header & 0x08) >> 3);
+    _mosquitto_handle_publish__1__message->msg.qos = ((signed int)header & 0x06) >> 1;
+    _mosquitto_handle_publish__1__message->msg.retain = (_Bool)((signed int)header & 0x01);
+    rc=_mosquitto_read_string(&mosq->in_packet, &_mosquitto_handle_publish__1__message->msg.topic);
     if(!(rc == 0))
     {
-      _mosquitto_message_cleanup(&_mosquitto_handle_publish$$1$$message);
+      _mosquitto_message_cleanup(&_mosquitto_handle_publish__1__message);
       return rc;
     }
 
     else
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(_mosquitto_handle_publish$$1$$message->msg.topic);
-      if(return_value_strlen$2 == 0ul)
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(_mosquitto_handle_publish__1__message->msg.topic);
+      if(return_value_strlen_2 == 0ul)
       {
-        _mosquitto_message_cleanup(&_mosquitto_handle_publish$$1$$message);
+        _mosquitto_message_cleanup(&_mosquitto_handle_publish__1__message);
         return 2;
       }
 
       else
       {
-        if(_mosquitto_handle_publish$$1$$message->msg.qos >= 1)
+        if(_mosquitto_handle_publish__1__message->msg.qos >= 1)
         {
           rc=_mosquitto_read_uint16(&mosq->in_packet, &mid);
           if(!(rc == 0))
           {
-            _mosquitto_message_cleanup(&_mosquitto_handle_publish$$1$$message);
+            _mosquitto_message_cleanup(&_mosquitto_handle_publish__1__message);
             return rc;
           }
 
-          _mosquitto_handle_publish$$1$$message->msg.mid = (signed int)mid;
+          _mosquitto_handle_publish__1__message->msg.mid = (signed int)mid;
         }
 
-        _mosquitto_handle_publish$$1$$message->msg.payloadlen = (signed int)(mosq->in_packet.remaining_length - mosq->in_packet.pos);
-        if(!(_mosquitto_handle_publish$$1$$message->msg.payloadlen == 0))
+        _mosquitto_handle_publish__1__message->msg.payloadlen = (signed int)(mosq->in_packet.remaining_length - mosq->in_packet.pos);
+        if(!(_mosquitto_handle_publish__1__message->msg.payloadlen == 0))
         {
-          _mosquitto_handle_publish$$1$$message->msg.payload=_mosquitto_calloc((unsigned long int)(_mosquitto_handle_publish$$1$$message->msg.payloadlen + 1), sizeof(unsigned char) /*1ul*/ );
-          if(_mosquitto_handle_publish$$1$$message->msg.payload == NULL)
+          _mosquitto_handle_publish__1__message->msg.payload=_mosquitto_calloc((unsigned long int)(_mosquitto_handle_publish__1__message->msg.payloadlen + 1), sizeof(unsigned char) /*1ul*/ );
+          if(_mosquitto_handle_publish__1__message->msg.payload == NULL)
           {
-            _mosquitto_message_cleanup(&_mosquitto_handle_publish$$1$$message);
+            _mosquitto_message_cleanup(&_mosquitto_handle_publish__1__message);
             return 1;
           }
 
-          rc=_mosquitto_read_bytes(&mosq->in_packet, _mosquitto_handle_publish$$1$$message->msg.payload, (unsigned int)_mosquitto_handle_publish$$1$$message->msg.payloadlen);
+          rc=_mosquitto_read_bytes(&mosq->in_packet, _mosquitto_handle_publish__1__message->msg.payload, (unsigned int)_mosquitto_handle_publish__1__message->msg.payloadlen);
           if(rc == 0)
             goto __CPROVER_DUMP_L7;
 
-          _mosquitto_message_cleanup(&_mosquitto_handle_publish$$1$$message);
+          _mosquitto_message_cleanup(&_mosquitto_handle_publish__1__message);
           return rc;
         }
 
@@ -4791,9 +4791,9 @@ signed int _mosquitto_handle_publish(struct mosquitto *mosq)
 
         __CPROVER_DUMP_L7:
           ;
-          _mosquitto_log_printf(mosq, 0x10, "Client %s received PUBLISH (d%d, q%d, r%d, m%d, '%s', ... (%ld bytes))", mosq->id, _mosquitto_handle_publish$$1$$message->dup, _mosquitto_handle_publish$$1$$message->msg.qos, _mosquitto_handle_publish$$1$$message->msg.retain, _mosquitto_handle_publish$$1$$message->msg.mid, _mosquitto_handle_publish$$1$$message->msg.topic, (signed long int)_mosquitto_handle_publish$$1$$message->msg.payloadlen);
-          _mosquitto_handle_publish$$1$$message->timestamp=mosquitto_time();
-          switch(_mosquitto_handle_publish$$1$$message->msg.qos)
+          _mosquitto_log_printf(mosq, 0x10, "Client %s received PUBLISH (d%d, q%d, r%d, m%d, '%s', ... (%ld bytes))", mosq->id, _mosquitto_handle_publish__1__message->dup, _mosquitto_handle_publish__1__message->msg.qos, _mosquitto_handle_publish__1__message->msg.retain, _mosquitto_handle_publish__1__message->msg.mid, _mosquitto_handle_publish__1__message->msg.topic, (signed long int)_mosquitto_handle_publish__1__message->msg.payloadlen);
+          _mosquitto_handle_publish__1__message->timestamp=mosquitto_time();
+          switch(_mosquitto_handle_publish__1__message->msg.qos)
           {
             case 0:
             {
@@ -4801,41 +4801,41 @@ signed int _mosquitto_handle_publish(struct mosquitto *mosq)
               if(!(mosq->on_message == ((void (*)(struct mosquitto *, void *, struct mosquitto_message *))NULL)))
               {
                 mosq->in_callback = (_Bool)1;
-                mosq->on_message(mosq, mosq->userdata, &_mosquitto_handle_publish$$1$$message->msg);
+                mosq->on_message(mosq, mosq->userdata, &_mosquitto_handle_publish__1__message->msg);
                 mosq->in_callback = (_Bool)0;
               }
 
               pthread_mutex_unlock(&mosq->callback_mutex);
-              _mosquitto_message_cleanup(&_mosquitto_handle_publish$$1$$message);
+              _mosquitto_message_cleanup(&_mosquitto_handle_publish__1__message);
               return 0;
             }
             case 1:
             {
-              rc=_mosquitto_send_puback(mosq, (unsigned short int)_mosquitto_handle_publish$$1$$message->msg.mid);
+              rc=_mosquitto_send_puback(mosq, (unsigned short int)_mosquitto_handle_publish__1__message->msg.mid);
               pthread_mutex_lock(&mosq->callback_mutex);
               if(!(mosq->on_message == ((void (*)(struct mosquitto *, void *, struct mosquitto_message *))NULL)))
               {
                 mosq->in_callback = (_Bool)1;
-                mosq->on_message(mosq, mosq->userdata, &_mosquitto_handle_publish$$1$$message->msg);
+                mosq->on_message(mosq, mosq->userdata, &_mosquitto_handle_publish__1__message->msg);
                 mosq->in_callback = (_Bool)0;
               }
 
               pthread_mutex_unlock(&mosq->callback_mutex);
-              _mosquitto_message_cleanup(&_mosquitto_handle_publish$$1$$message);
+              _mosquitto_message_cleanup(&_mosquitto_handle_publish__1__message);
               return rc;
             }
             case 2:
             {
-              rc=_mosquitto_send_pubrec(mosq, (unsigned short int)_mosquitto_handle_publish$$1$$message->msg.mid);
+              rc=_mosquitto_send_pubrec(mosq, (unsigned short int)_mosquitto_handle_publish__1__message->msg.mid);
               pthread_mutex_lock(&mosq->in_message_mutex);
-              _mosquitto_handle_publish$$1$$message->state = (enum mosquitto_msg_state)mosq_ms_wait_for_pubrel;
-              _mosquitto_message_queue(mosq, _mosquitto_handle_publish$$1$$message, (enum mosquitto_msg_direction)mosq_md_in);
+              _mosquitto_handle_publish__1__message->state = (enum mosquitto_msg_state)mosq_ms_wait_for_pubrel;
+              _mosquitto_message_queue(mosq, _mosquitto_handle_publish__1__message, (enum mosquitto_msg_direction)mosq_md_in);
               pthread_mutex_unlock(&mosq->in_message_mutex);
               return rc;
             }
             default:
             {
-              _mosquitto_message_cleanup(&_mosquitto_handle_publish$$1$$message);
+              _mosquitto_message_cleanup(&_mosquitto_handle_publish__1__message);
               return 2;
             }
           }
@@ -4881,7 +4881,7 @@ signed int _mosquitto_handle_pubrec(struct mosquitto *mosq)
 signed int _mosquitto_handle_pubrel(struct mosquitto_db *db, struct mosquitto *mosq)
 {
   unsigned short int mid;
-  struct mosquitto_message_all *_mosquitto_handle_pubrel$$1$$message = (struct mosquitto_message_all *)(void *)0;
+  struct mosquitto_message_all *_mosquitto_handle_pubrel__1__message = (struct mosquitto_message_all *)(void *)0;
   signed int rc;
   /* assertion mosq */
   assert(mosq != ((struct mosquitto *)NULL));
@@ -4905,20 +4905,20 @@ signed int _mosquitto_handle_pubrel(struct mosquitto_db *db, struct mosquitto *m
     else
     {
       _mosquitto_log_printf(mosq, 0x10, "Client %s received PUBREL (Mid: %d)", mosq->id, mid);
-      signed int return_value__mosquitto_message_remove$1;
-      return_value__mosquitto_message_remove$1=_mosquitto_message_remove(mosq, mid, (enum mosquitto_msg_direction)mosq_md_in, &_mosquitto_handle_pubrel$$1$$message);
-      if(return_value__mosquitto_message_remove$1 == 0)
+      signed int return_value__mosquitto_message_remove_1;
+      return_value__mosquitto_message_remove_1=_mosquitto_message_remove(mosq, mid, (enum mosquitto_msg_direction)mosq_md_in, &_mosquitto_handle_pubrel__1__message);
+      if(return_value__mosquitto_message_remove_1 == 0)
       {
         pthread_mutex_lock(&mosq->callback_mutex);
         if(!(mosq->on_message == ((void (*)(struct mosquitto *, void *, struct mosquitto_message *))NULL)))
         {
           mosq->in_callback = (_Bool)1;
-          mosq->on_message(mosq, mosq->userdata, &_mosquitto_handle_pubrel$$1$$message->msg);
+          mosq->on_message(mosq, mosq->userdata, &_mosquitto_handle_pubrel__1__message->msg);
           mosq->in_callback = (_Bool)0;
         }
 
         pthread_mutex_unlock(&mosq->callback_mutex);
-        _mosquitto_message_cleanup(&_mosquitto_handle_pubrel$$1$$message);
+        _mosquitto_message_cleanup(&_mosquitto_handle_pubrel__1__message);
       }
 
       rc=_mosquitto_send_pubcomp(mosq, mid);
@@ -4936,7 +4936,7 @@ signed int _mosquitto_handle_pubrel(struct mosquitto_db *db, struct mosquitto *m
 signed int _mosquitto_handle_suback(struct mosquitto *mosq)
 {
   unsigned short int mid;
-  unsigned char _mosquitto_handle_suback$$1$$qos;
+  unsigned char _mosquitto_handle_suback__1__qos;
   signed int *granted_qos;
   signed int qos_count;
   signed int i = 0;
@@ -4951,9 +4951,9 @@ signed int _mosquitto_handle_suback(struct mosquitto *mosq)
   else
   {
     qos_count = (signed int)(mosq->in_packet.remaining_length - mosq->in_packet.pos);
-    void *return_value__mosquitto_malloc$1;
-    return_value__mosquitto_malloc$1=_mosquitto_malloc((unsigned long int)qos_count * sizeof(signed int) /*4ul*/ );
-    granted_qos = (signed int *)return_value__mosquitto_malloc$1;
+    void *return_value__mosquitto_malloc_1;
+    return_value__mosquitto_malloc_1=_mosquitto_malloc((unsigned long int)qos_count * sizeof(signed int) /*4ul*/ );
+    granted_qos = (signed int *)return_value__mosquitto_malloc_1;
     if(granted_qos == ((signed int *)NULL))
       return 1;
 
@@ -4961,14 +4961,14 @@ signed int _mosquitto_handle_suback(struct mosquitto *mosq)
     {
       for( ; !(mosq->in_packet.pos >= mosq->in_packet.remaining_length); i = i + 1)
       {
-        rc=_mosquitto_read_byte(&mosq->in_packet, &_mosquitto_handle_suback$$1$$qos);
+        rc=_mosquitto_read_byte(&mosq->in_packet, &_mosquitto_handle_suback__1__qos);
         if(!(rc == 0))
         {
           _mosquitto_free((void *)granted_qos);
           return rc;
         }
 
-        granted_qos[(signed long int)i] = (signed int)_mosquitto_handle_suback$$1$$qos;
+        granted_qos[(signed long int)i] = (signed int)_mosquitto_handle_suback__1__qos;
       }
       pthread_mutex_lock(&mosq->callback_mutex);
       if(!(mosq->on_subscribe == ((void (*)(struct mosquitto *, void *, signed int, signed int, const signed int *))NULL)))
@@ -5019,9 +5019,9 @@ signed int _mosquitto_hex2bin(const char *hex, unsigned char *bin, signed int bi
 {
   struct bignum_st *bn = (struct bignum_st *)(void *)0;
   signed int len;
-  signed int return_value_BN_hex2bn$1;
-  return_value_BN_hex2bn$1=BN_hex2bn(&bn, hex);
-  if(return_value_BN_hex2bn$1 == 0)
+  signed int return_value_BN_hex2bn_1;
+  return_value_BN_hex2bn_1=BN_hex2bn(&bn, hex);
+  if(return_value_BN_hex2bn_1 == 0)
   {
     if(!(bn == ((struct bignum_st *)NULL)))
       BN_free(bn);
@@ -5031,9 +5031,9 @@ signed int _mosquitto_hex2bin(const char *hex, unsigned char *bin, signed int bi
 
   else
   {
-    signed int return_value_BN_num_bits$2;
-    return_value_BN_num_bits$2=BN_num_bits(bn);
-    if(!(bin_max_len >= (7 + return_value_BN_num_bits$2) / 8))
+    signed int return_value_BN_num_bits_2;
+    return_value_BN_num_bits_2=BN_num_bits(bn);
+    if(!(bin_max_len >= (7 + return_value_BN_num_bits_2) / 8))
     {
       BN_free(bn);
       return 0;
@@ -5062,12 +5062,12 @@ signed int _mosquitto_log_printf(struct mosquitto *mosq, signed int priority, co
   pthread_mutex_lock(&mosq->log_callback_mutex);
   if(!(mosq->on_log == ((void (*)(struct mosquitto *, void *, signed int, const char *))NULL)))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(fmt);
-    len = (signed int)(return_value_strlen$1 + (unsigned long int)500);
-    void *return_value__mosquitto_malloc$2;
-    return_value__mosquitto_malloc$2=_mosquitto_malloc((unsigned long int)len * sizeof(char) /*1ul*/ );
-    s = (char *)return_value__mosquitto_malloc$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(fmt);
+    len = (signed int)(return_value_strlen_1 + (unsigned long int)500);
+    void *return_value__mosquitto_malloc_2;
+    return_value__mosquitto_malloc_2=_mosquitto_malloc((unsigned long int)len * sizeof(char) /*1ul*/ );
+    s = (char *)return_value__mosquitto_malloc_2;
     if(s == ((char *)NULL))
     {
       pthread_mutex_unlock(&mosq->log_callback_mutex);
@@ -5128,13 +5128,13 @@ void * _mosquitto_malloc(unsigned long int size)
 void _mosquitto_message_cleanup(struct mosquitto_message_all **message)
 {
   struct mosquitto_message_all *msg;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(message == ((struct mosquitto_message_all **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*message != ((struct mosquitto_message_all *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = !(*message != ((struct mosquitto_message_all *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     msg = *message;
     if(!(msg->msg.topic == ((char *)NULL)))
@@ -5171,13 +5171,13 @@ void _mosquitto_message_cleanup_all(struct mosquitto *mosq)
 // file messages_mosq.c line 83
 signed int _mosquitto_message_delete(struct mosquitto *mosq, unsigned short int mid, enum mosquitto_msg_direction dir)
 {
-  struct mosquitto_message_all *_mosquitto_message_delete$$1$$message;
+  struct mosquitto_message_all *_mosquitto_message_delete__1__message;
   signed int rc;
   /* assertion mosq */
   assert(mosq != ((struct mosquitto *)NULL));
-  rc=_mosquitto_message_remove(mosq, mid, dir, &_mosquitto_message_delete$$1$$message);
+  rc=_mosquitto_message_remove(mosq, mid, dir, &_mosquitto_message_delete__1__message);
   if(rc == 0)
-    _mosquitto_message_cleanup(&_mosquitto_message_delete$$1$$message);
+    _mosquitto_message_cleanup(&_mosquitto_message_delete__1__message);
 
   return rc;
 }
@@ -5186,16 +5186,16 @@ signed int _mosquitto_message_delete(struct mosquitto *mosq, unsigned short int 
 // file messages_mosq.c line 371
 signed int _mosquitto_message_out_update(struct mosquitto *mosq, unsigned short int mid, enum mosquitto_msg_state state)
 {
-  struct mosquitto_message_all *_mosquitto_message_out_update$$1$$message;
+  struct mosquitto_message_all *_mosquitto_message_out_update__1__message;
   /* assertion mosq */
   assert(mosq != ((struct mosquitto *)NULL));
   pthread_mutex_lock(&mosq->out_message_mutex);
-  _mosquitto_message_out_update$$1$$message = mosq->out_messages;
-  for( ; !(_mosquitto_message_out_update$$1$$message == ((struct mosquitto_message_all *)NULL)); _mosquitto_message_out_update$$1$$message = _mosquitto_message_out_update$$1$$message->next)
-    if(_mosquitto_message_out_update$$1$$message->msg.mid == (signed int)mid)
+  _mosquitto_message_out_update__1__message = mosq->out_messages;
+  for( ; !(_mosquitto_message_out_update__1__message == ((struct mosquitto_message_all *)NULL)); _mosquitto_message_out_update__1__message = _mosquitto_message_out_update__1__message->next)
+    if(_mosquitto_message_out_update__1__message->msg.mid == (signed int)mid)
     {
-      _mosquitto_message_out_update$$1$$message->state = state;
-      _mosquitto_message_out_update$$1$$message->timestamp=mosquitto_time();
+      _mosquitto_message_out_update__1__message->state = state;
+      _mosquitto_message_out_update__1__message->timestamp=mosquitto_time();
       pthread_mutex_unlock(&mosq->out_message_mutex);
       return 0;
     }
@@ -5213,7 +5213,7 @@ signed int _mosquitto_message_queue(struct mosquitto *mosq, struct mosquitto_mes
   assert(mosq != ((struct mosquitto *)NULL));
   /* assertion message */
   assert(message != ((struct mosquitto_message_all *)NULL));
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)dir == mosq_md_out)
   {
     mosq->out_queue_len = mosq->out_queue_len + 1;
@@ -5227,11 +5227,11 @@ signed int _mosquitto_message_queue(struct mosquitto *mosq, struct mosquitto_mes
     if(message->msg.qos >= 1)
     {
       if(mosq->max_inflight_messages == 0)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = mosq->inflight_messages < mosq->max_inflight_messages ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = mosq->inflight_messages < mosq->max_inflight_messages ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         mosq->inflight_messages = mosq->inflight_messages + 1;
 
       else
@@ -5266,7 +5266,7 @@ signed int _mosquitto_message_remove(struct mosquitto *mosq, unsigned short int 
   assert(mosq != ((struct mosquitto *)NULL));
   /* assertion message */
   assert(message != ((struct mosquitto_message_all **)NULL));
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)dir == mosq_md_out)
   {
     pthread_mutex_lock(&mosq->out_message_mutex);
@@ -5304,11 +5304,11 @@ signed int _mosquitto_message_remove(struct mosquitto *mosq, unsigned short int 
       for( ; !(cur == ((struct mosquitto_message_all *)NULL)); cur = cur->next)
       {
         if(mosq->max_inflight_messages == 0)
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = mosq->inflight_messages < mosq->max_inflight_messages ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = mosq->inflight_messages < mosq->max_inflight_messages ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
         {
           if(cur->msg.qos >= 1)
           {
@@ -5399,7 +5399,7 @@ void _mosquitto_message_retry_check(struct mosquitto *mosq)
 
 // _mosquitto_message_retry_check_actual
 // file messages_mosq.c line 312
-void _mosquitto_message_retry_check_actual(struct mosquitto *mosq, struct mosquitto_message_all *messages, union anonymous$1 *mutex)
+void _mosquitto_message_retry_check_actual(struct mosquitto *mosq, struct mosquitto_message_all *messages, union anonymous_1 *mutex)
 {
   signed long int now;
   now=mosquitto_time();
@@ -5441,65 +5441,65 @@ void _mosquitto_message_retry_check_actual(struct mosquitto *mosq, struct mosqui
 // file ./messages_mosq.h line 26
 void _mosquitto_messages_reconnect_reset(struct mosquitto *mosq)
 {
-  struct mosquitto_message_all *_mosquitto_messages_reconnect_reset$$1$$message;
+  struct mosquitto_message_all *_mosquitto_messages_reconnect_reset__1__message;
   struct mosquitto_message_all *prev = (struct mosquitto_message_all *)(void *)0;
   /* assertion mosq */
   assert(mosq != ((struct mosquitto *)NULL));
   pthread_mutex_lock(&mosq->in_message_mutex);
-  _mosquitto_messages_reconnect_reset$$1$$message = mosq->in_messages;
+  _mosquitto_messages_reconnect_reset__1__message = mosq->in_messages;
   mosq->in_queue_len = 0;
-  for( ; !(_mosquitto_messages_reconnect_reset$$1$$message == ((struct mosquitto_message_all *)NULL)); _mosquitto_messages_reconnect_reset$$1$$message = _mosquitto_messages_reconnect_reset$$1$$message->next)
+  for( ; !(_mosquitto_messages_reconnect_reset__1__message == ((struct mosquitto_message_all *)NULL)); _mosquitto_messages_reconnect_reset__1__message = _mosquitto_messages_reconnect_reset__1__message->next)
   {
     mosq->in_queue_len = mosq->in_queue_len + 1;
-    _mosquitto_messages_reconnect_reset$$1$$message->timestamp = (signed long int)0;
-    if(!(_mosquitto_messages_reconnect_reset$$1$$message->msg.qos == 2))
+    _mosquitto_messages_reconnect_reset__1__message->timestamp = (signed long int)0;
+    if(!(_mosquitto_messages_reconnect_reset__1__message->msg.qos == 2))
     {
       if(!(prev == ((struct mosquitto_message_all *)NULL)))
       {
-        prev->next = _mosquitto_messages_reconnect_reset$$1$$message->next;
-        _mosquitto_message_cleanup(&_mosquitto_messages_reconnect_reset$$1$$message);
-        _mosquitto_messages_reconnect_reset$$1$$message = prev;
+        prev->next = _mosquitto_messages_reconnect_reset__1__message->next;
+        _mosquitto_message_cleanup(&_mosquitto_messages_reconnect_reset__1__message);
+        _mosquitto_messages_reconnect_reset__1__message = prev;
       }
 
       else
       {
-        mosq->in_messages = _mosquitto_messages_reconnect_reset$$1$$message->next;
-        _mosquitto_message_cleanup(&_mosquitto_messages_reconnect_reset$$1$$message);
-        _mosquitto_messages_reconnect_reset$$1$$message = mosq->in_messages;
+        mosq->in_messages = _mosquitto_messages_reconnect_reset__1__message->next;
+        _mosquitto_message_cleanup(&_mosquitto_messages_reconnect_reset__1__message);
+        _mosquitto_messages_reconnect_reset__1__message = mosq->in_messages;
       }
     }
 
-    prev = _mosquitto_messages_reconnect_reset$$1$$message;
+    prev = _mosquitto_messages_reconnect_reset__1__message;
   }
   mosq->in_messages_last = prev;
   pthread_mutex_unlock(&mosq->in_message_mutex);
   pthread_mutex_lock(&mosq->out_message_mutex);
   mosq->inflight_messages = 0;
-  _mosquitto_messages_reconnect_reset$$1$$message = mosq->out_messages;
+  _mosquitto_messages_reconnect_reset__1__message = mosq->out_messages;
   mosq->out_queue_len = 0;
-  _Bool tmp_if_expr$1;
-  for( ; !(_mosquitto_messages_reconnect_reset$$1$$message == ((struct mosquitto_message_all *)NULL)); _mosquitto_messages_reconnect_reset$$1$$message = _mosquitto_messages_reconnect_reset$$1$$message->next)
+  _Bool tmp_if_expr_1;
+  for( ; !(_mosquitto_messages_reconnect_reset__1__message == ((struct mosquitto_message_all *)NULL)); _mosquitto_messages_reconnect_reset__1__message = _mosquitto_messages_reconnect_reset__1__message->next)
   {
     mosq->out_queue_len = mosq->out_queue_len + 1;
-    _mosquitto_messages_reconnect_reset$$1$$message->timestamp = (signed long int)0;
+    _mosquitto_messages_reconnect_reset__1__message->timestamp = (signed long int)0;
     if(mosq->max_inflight_messages == 0)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = mosq->inflight_messages < mosq->max_inflight_messages ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = mosq->inflight_messages < mosq->max_inflight_messages ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
-      if(_mosquitto_messages_reconnect_reset$$1$$message->msg.qos >= 1)
+      if(_mosquitto_messages_reconnect_reset__1__message->msg.qos >= 1)
         mosq->inflight_messages = mosq->inflight_messages + 1;
 
-      if(_mosquitto_messages_reconnect_reset$$1$$message->msg.qos == 1)
-        _mosquitto_messages_reconnect_reset$$1$$message->state = (enum mosquitto_msg_state)mosq_ms_wait_for_puback;
+      if(_mosquitto_messages_reconnect_reset__1__message->msg.qos == 1)
+        _mosquitto_messages_reconnect_reset__1__message->state = (enum mosquitto_msg_state)mosq_ms_wait_for_puback;
 
     }
 
     else
-      _mosquitto_messages_reconnect_reset$$1$$message->state = (enum mosquitto_msg_state)mosq_ms_invalid;
-    prev = _mosquitto_messages_reconnect_reset$$1$$message;
+      _mosquitto_messages_reconnect_reset__1__message->state = (enum mosquitto_msg_state)mosq_ms_invalid;
+    prev = _mosquitto_messages_reconnect_reset__1__message;
   }
   mosq->out_messages_last = prev;
   pthread_mutex_unlock(&mosq->out_message_mutex);
@@ -5558,9 +5558,9 @@ signed long int _mosquitto_net_read(struct mosquitto *mosq, void *buf, unsigned 
   unsigned long int e;
   /* assertion mosq */
   assert(mosq != ((struct mosquitto *)NULL));
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   if(!(mosq->ssl == ((struct ssl_st *)NULL)))
   {
     ret=SSL_read(mosq->ssl, buf, (signed int)count);
@@ -5570,9 +5570,9 @@ signed long int _mosquitto_net_read(struct mosquitto *mosq, void *buf, unsigned 
       if(err == 2)
       {
         ret = -1;
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = 11;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = 11;
       }
 
       else
@@ -5580,9 +5580,9 @@ signed long int _mosquitto_net_read(struct mosquitto *mosq, void *buf, unsigned 
         {
           ret = -1;
           mosq->want_write = (_Bool)1;
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          *return_value___errno_location$3 = 11;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          *return_value___errno_location_3 = 11;
         }
 
         else
@@ -5590,14 +5590,14 @@ signed long int _mosquitto_net_read(struct mosquitto *mosq, void *buf, unsigned 
           e=ERR_get_error();
           while(!(e == 0ul))
           {
-            char *return_value_ERR_error_string$4;
-            return_value_ERR_error_string$4=ERR_error_string(e, ebuf);
-            _mosquitto_log_printf(mosq, 0x08, "OpenSSL Error: %s", return_value_ERR_error_string$4);
+            char *return_value_ERR_error_string_4;
+            return_value_ERR_error_string_4=ERR_error_string(e, ebuf);
+            _mosquitto_log_printf(mosq, 0x08, "OpenSSL Error: %s", return_value_ERR_error_string_4);
             e=ERR_get_error();
           }
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          *return_value___errno_location$5 = 71;
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          *return_value___errno_location_5 = 71;
         }
     }
 
@@ -5606,9 +5606,9 @@ signed long int _mosquitto_net_read(struct mosquitto *mosq, void *buf, unsigned 
 
   else
   {
-    signed long int return_value_read$6;
-    return_value_read$6=read(mosq->sock, buf, count);
-    return return_value_read$6;
+    signed long int return_value_read_6;
+    return_value_read_6=read(mosq->sock, buf, count);
+    return return_value_read_6;
   }
 }
 
@@ -5622,9 +5622,9 @@ signed long int _mosquitto_net_write(struct mosquitto *mosq, void *buf, unsigned
   unsigned long int e;
   /* assertion mosq */
   assert(mosq != ((struct mosquitto *)NULL));
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  *return_value___errno_location$1 = 0;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  *return_value___errno_location_1 = 0;
   if(!(mosq->ssl == ((struct ssl_st *)NULL)))
   {
     mosq->want_write = (_Bool)0;
@@ -5635,9 +5635,9 @@ signed long int _mosquitto_net_write(struct mosquitto *mosq, void *buf, unsigned
       if(err == 2)
       {
         ret = -1;
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = 11;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = 11;
       }
 
       else
@@ -5645,9 +5645,9 @@ signed long int _mosquitto_net_write(struct mosquitto *mosq, void *buf, unsigned
         {
           ret = -1;
           mosq->want_write = (_Bool)1;
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          *return_value___errno_location$3 = 11;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          *return_value___errno_location_3 = 11;
         }
 
         else
@@ -5655,14 +5655,14 @@ signed long int _mosquitto_net_write(struct mosquitto *mosq, void *buf, unsigned
           e=ERR_get_error();
           while(!(e == 0ul))
           {
-            char *return_value_ERR_error_string$4;
-            return_value_ERR_error_string$4=ERR_error_string(e, ebuf);
-            _mosquitto_log_printf(mosq, 0x08, "OpenSSL Error: %s", return_value_ERR_error_string$4);
+            char *return_value_ERR_error_string_4;
+            return_value_ERR_error_string_4=ERR_error_string(e, ebuf);
+            _mosquitto_log_printf(mosq, 0x08, "OpenSSL Error: %s", return_value_ERR_error_string_4);
             e=ERR_get_error();
           }
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          *return_value___errno_location$5 = 71;
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          *return_value___errno_location_5 = 71;
         }
     }
 
@@ -5671,9 +5671,9 @@ signed long int _mosquitto_net_write(struct mosquitto *mosq, void *buf, unsigned
 
   else
   {
-    signed long int return_value_write$6;
-    return_value_write$6=write(mosq->sock, buf, count);
-    return return_value_write$6;
+    signed long int return_value_write_6;
+    return_value_write_6=write(mosq->sock, buf, count);
+    return return_value_write_6;
   }
 }
 
@@ -5690,7 +5690,7 @@ signed int _mosquitto_packet_alloc(struct _mosquitto_packet *packet)
   remaining_length = packet->remaining_length;
   packet->payload = (unsigned char *)(void *)0;
   packet->remaining_count = (signed char)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     byte = (unsigned char)(remaining_length % (unsigned int)128);
@@ -5701,21 +5701,21 @@ signed int _mosquitto_packet_alloc(struct _mosquitto_packet *packet)
     remaining_bytes[(signed long int)packet->remaining_count] = byte;
     packet->remaining_count = packet->remaining_count + 1;
     if(remaining_length >= 1u)
-      tmp_if_expr$1 = (signed int)packet->remaining_count < 5 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)packet->remaining_count < 5 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
   }
-  while(tmp_if_expr$1);
+  while(tmp_if_expr_1);
   if((signed int)packet->remaining_count == 5)
     return 9;
 
   else
   {
     packet->packet_length = packet->remaining_length + (unsigned int)1 + (unsigned int)packet->remaining_count;
-    void *return_value__mosquitto_malloc$2;
-    return_value__mosquitto_malloc$2=_mosquitto_malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)packet->packet_length);
-    packet->payload = (unsigned char *)return_value__mosquitto_malloc$2;
+    void *return_value__mosquitto_malloc_2;
+    return_value__mosquitto_malloc_2=_mosquitto_malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)packet->packet_length);
+    packet->payload = (unsigned char *)return_value__mosquitto_malloc_2;
     if(packet->payload == ((unsigned char *)NULL))
       return 1;
 
@@ -5757,67 +5757,67 @@ signed int _mosquitto_packet_handle(struct mosquitto *mosq)
 {
   /* assertion mosq */
   assert(mosq != ((struct mosquitto *)NULL));
-  signed int return_value__mosquitto_handle_pingreq$1;
-  signed int return_value__mosquitto_handle_pingresp$2;
-  signed int return_value__mosquitto_handle_pubackcomp$3;
-  signed int return_value__mosquitto_handle_pubackcomp$4;
-  signed int return_value__mosquitto_handle_publish$5;
-  signed int return_value__mosquitto_handle_pubrec$6;
-  signed int return_value__mosquitto_handle_pubrel$7;
-  signed int return_value__mosquitto_handle_connack$8;
-  signed int return_value__mosquitto_handle_suback$9;
-  signed int return_value__mosquitto_handle_unsuback$10;
+  signed int return_value__mosquitto_handle_pingreq_1;
+  signed int return_value__mosquitto_handle_pingresp_2;
+  signed int return_value__mosquitto_handle_pubackcomp_3;
+  signed int return_value__mosquitto_handle_pubackcomp_4;
+  signed int return_value__mosquitto_handle_publish_5;
+  signed int return_value__mosquitto_handle_pubrec_6;
+  signed int return_value__mosquitto_handle_pubrel_7;
+  signed int return_value__mosquitto_handle_connack_8;
+  signed int return_value__mosquitto_handle_suback_9;
+  signed int return_value__mosquitto_handle_unsuback_10;
   switch((signed int)mosq->in_packet.command & 0xF0)
   {
     case 0xC0:
     {
-      return_value__mosquitto_handle_pingreq$1=_mosquitto_handle_pingreq(mosq);
-      return return_value__mosquitto_handle_pingreq$1;
+      return_value__mosquitto_handle_pingreq_1=_mosquitto_handle_pingreq(mosq);
+      return return_value__mosquitto_handle_pingreq_1;
     }
     case 0xD0:
     {
-      return_value__mosquitto_handle_pingresp$2=_mosquitto_handle_pingresp(mosq);
-      return return_value__mosquitto_handle_pingresp$2;
+      return_value__mosquitto_handle_pingresp_2=_mosquitto_handle_pingresp(mosq);
+      return return_value__mosquitto_handle_pingresp_2;
     }
     case 0x40:
     {
-      return_value__mosquitto_handle_pubackcomp$3=_mosquitto_handle_pubackcomp(mosq, "PUBACK");
-      return return_value__mosquitto_handle_pubackcomp$3;
+      return_value__mosquitto_handle_pubackcomp_3=_mosquitto_handle_pubackcomp(mosq, "PUBACK");
+      return return_value__mosquitto_handle_pubackcomp_3;
     }
     case 0x70:
     {
-      return_value__mosquitto_handle_pubackcomp$4=_mosquitto_handle_pubackcomp(mosq, "PUBCOMP");
-      return return_value__mosquitto_handle_pubackcomp$4;
+      return_value__mosquitto_handle_pubackcomp_4=_mosquitto_handle_pubackcomp(mosq, "PUBCOMP");
+      return return_value__mosquitto_handle_pubackcomp_4;
     }
     case 0x30:
     {
-      return_value__mosquitto_handle_publish$5=_mosquitto_handle_publish(mosq);
-      return return_value__mosquitto_handle_publish$5;
+      return_value__mosquitto_handle_publish_5=_mosquitto_handle_publish(mosq);
+      return return_value__mosquitto_handle_publish_5;
     }
     case 0x50:
     {
-      return_value__mosquitto_handle_pubrec$6=_mosquitto_handle_pubrec(mosq);
-      return return_value__mosquitto_handle_pubrec$6;
+      return_value__mosquitto_handle_pubrec_6=_mosquitto_handle_pubrec(mosq);
+      return return_value__mosquitto_handle_pubrec_6;
     }
     case 0x60:
     {
-      return_value__mosquitto_handle_pubrel$7=_mosquitto_handle_pubrel((struct mosquitto_db *)(void *)0, mosq);
-      return return_value__mosquitto_handle_pubrel$7;
+      return_value__mosquitto_handle_pubrel_7=_mosquitto_handle_pubrel((struct mosquitto_db *)(void *)0, mosq);
+      return return_value__mosquitto_handle_pubrel_7;
     }
     case 0x20:
     {
-      return_value__mosquitto_handle_connack$8=_mosquitto_handle_connack(mosq);
-      return return_value__mosquitto_handle_connack$8;
+      return_value__mosquitto_handle_connack_8=_mosquitto_handle_connack(mosq);
+      return return_value__mosquitto_handle_connack_8;
     }
     case 0x90:
     {
-      return_value__mosquitto_handle_suback$9=_mosquitto_handle_suback(mosq);
-      return return_value__mosquitto_handle_suback$9;
+      return_value__mosquitto_handle_suback_9=_mosquitto_handle_suback(mosq);
+      return return_value__mosquitto_handle_suback_9;
     }
     case 0xB0:
     {
-      return_value__mosquitto_handle_unsuback$10=_mosquitto_handle_unsuback(mosq);
-      return return_value__mosquitto_handle_unsuback$10;
+      return_value__mosquitto_handle_unsuback_10=_mosquitto_handle_unsuback(mosq);
+      return return_value__mosquitto_handle_unsuback_10;
     }
     default:
     {
@@ -5849,21 +5849,21 @@ signed int _mosquitto_packet_queue(struct mosquitto *mosq, struct _mosquitto_pac
   pthread_mutex_unlock(&mosq->out_packet_mutex);
   if(!(mosq->sockpairW == -1))
   {
-    signed long int return_value_write$1;
-    return_value_write$1=write(mosq->sockpairW, (const void *)&sockpair_data, (unsigned long int)1);
+    signed long int return_value_write_1;
+    return_value_write_1=write(mosq->sockpairW, (const void *)&sockpair_data, (unsigned long int)1);
   }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if((signed int)mosq->in_callback == 0)
-    tmp_if_expr$3 = (signed int)mosq->threaded == 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = (signed int)mosq->threaded == 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
   {
-    signed int return_value__mosquitto_packet_write$2;
-    return_value__mosquitto_packet_write$2=_mosquitto_packet_write(mosq);
-    return return_value__mosquitto_packet_write$2;
+    signed int return_value__mosquitto_packet_write_2;
+    return_value__mosquitto_packet_write_2=_mosquitto_packet_write(mosq);
+    return return_value__mosquitto_packet_write_2;
   }
 
   else
@@ -5877,12 +5877,12 @@ signed int _mosquitto_packet_read(struct mosquitto *mosq)
   unsigned char byte;
   signed long int read_length;
   signed int rc = 0;
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
-  _Bool tmp_if_expr$8;
-  signed int *return_value___errno_location$7;
-  _Bool tmp_if_expr$13;
-  signed int *return_value___errno_location$12;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
+  _Bool tmp_if_expr_8;
+  signed int *return_value___errno_location_7;
+  _Bool tmp_if_expr_13;
+  signed int *return_value___errno_location_12;
   if(mosq == ((struct mosquitto *)NULL))
     return 3;
 
@@ -5907,24 +5907,24 @@ signed int _mosquitto_packet_read(struct mosquitto *mosq)
             if(read_length == 0l)
               return 7;
 
-            signed int *return_value___errno_location$2;
-            return_value___errno_location$2=__errno_location();
-            if(*return_value___errno_location$2 == 11)
-              tmp_if_expr$4 = (_Bool)1;
+            signed int *return_value___errno_location_2;
+            return_value___errno_location_2=__errno_location();
+            if(*return_value___errno_location_2 == 11)
+              tmp_if_expr_4 = (_Bool)1;
 
             else
             {
-              return_value___errno_location$3=__errno_location();
-              tmp_if_expr$4 = *return_value___errno_location$3 == 11 ? (_Bool)1 : (_Bool)0;
+              return_value___errno_location_3=__errno_location();
+              tmp_if_expr_4 = *return_value___errno_location_3 == 11 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$4)
+            if(tmp_if_expr_4)
               return 0;
 
             else
             {
-              signed int *return_value___errno_location$1;
-              return_value___errno_location$1=__errno_location();
-              if(*return_value___errno_location$1 == 104)
+              signed int *return_value___errno_location_1;
+              return_value___errno_location_1=__errno_location();
+              if(*return_value___errno_location_1 == 104)
                 return 7;
 
               return 14;
@@ -5952,24 +5952,24 @@ signed int _mosquitto_packet_read(struct mosquitto *mosq)
               if(read_length == 0l)
                 return 7;
 
-              signed int *return_value___errno_location$6;
-              return_value___errno_location$6=__errno_location();
-              if(*return_value___errno_location$6 == 11)
-                tmp_if_expr$8 = (_Bool)1;
+              signed int *return_value___errno_location_6;
+              return_value___errno_location_6=__errno_location();
+              if(*return_value___errno_location_6 == 11)
+                tmp_if_expr_8 = (_Bool)1;
 
               else
               {
-                return_value___errno_location$7=__errno_location();
-                tmp_if_expr$8 = *return_value___errno_location$7 == 11 ? (_Bool)1 : (_Bool)0;
+                return_value___errno_location_7=__errno_location();
+                tmp_if_expr_8 = *return_value___errno_location_7 == 11 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$8)
+              if(tmp_if_expr_8)
                 return 0;
 
               else
               {
-                signed int *return_value___errno_location$5;
-                return_value___errno_location$5=__errno_location();
-                if(*return_value___errno_location$5 == 104)
+                signed int *return_value___errno_location_5;
+                return_value___errno_location_5=__errno_location();
+                if(*return_value___errno_location_5 == 104)
                   return 7;
 
                 return 14;
@@ -5980,9 +5980,9 @@ signed int _mosquitto_packet_read(struct mosquitto *mosq)
           mosq->in_packet.remaining_count = mosq->in_packet.remaining_count * (signed char)-1;
           if(mosq->in_packet.remaining_length >= 1u)
           {
-            void *return_value__mosquitto_malloc$9;
-            return_value__mosquitto_malloc$9=_mosquitto_malloc((unsigned long int)mosq->in_packet.remaining_length * sizeof(unsigned char) /*1ul*/ );
-            mosq->in_packet.payload = (unsigned char *)return_value__mosquitto_malloc$9;
+            void *return_value__mosquitto_malloc_9;
+            return_value__mosquitto_malloc_9=_mosquitto_malloc((unsigned long int)mosq->in_packet.remaining_length * sizeof(unsigned char) /*1ul*/ );
+            mosq->in_packet.payload = (unsigned char *)return_value__mosquitto_malloc_9;
             if(mosq->in_packet.payload == ((unsigned char *)NULL))
               return 1;
 
@@ -6002,17 +6002,17 @@ signed int _mosquitto_packet_read(struct mosquitto *mosq)
 
           else
           {
-            signed int *return_value___errno_location$11;
-            return_value___errno_location$11=__errno_location();
-            if(*return_value___errno_location$11 == 11)
-              tmp_if_expr$13 = (_Bool)1;
+            signed int *return_value___errno_location_11;
+            return_value___errno_location_11=__errno_location();
+            if(*return_value___errno_location_11 == 11)
+              tmp_if_expr_13 = (_Bool)1;
 
             else
             {
-              return_value___errno_location$12=__errno_location();
-              tmp_if_expr$13 = *return_value___errno_location$12 == 11 ? (_Bool)1 : (_Bool)0;
+              return_value___errno_location_12=__errno_location();
+              tmp_if_expr_13 = *return_value___errno_location_12 == 11 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$13)
+            if(tmp_if_expr_13)
             {
               if(mosq->in_packet.to_process >= 1001u)
               {
@@ -6026,9 +6026,9 @@ signed int _mosquitto_packet_read(struct mosquitto *mosq)
 
             else
             {
-              signed int *return_value___errno_location$10;
-              return_value___errno_location$10=__errno_location();
-              if(*return_value___errno_location$10 == 104)
+              signed int *return_value___errno_location_10;
+              return_value___errno_location_10=__errno_location();
+              if(*return_value___errno_location_10 == 104)
                 return 7;
 
               return 14;
@@ -6051,8 +6051,8 @@ signed int _mosquitto_packet_write(struct mosquitto *mosq)
 {
   signed long int write_length;
   struct _mosquitto_packet *packet;
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
   if(mosq == ((struct mosquitto *)NULL))
     return 3;
 
@@ -6100,17 +6100,17 @@ signed int _mosquitto_packet_write(struct mosquitto *mosq)
 
             else
             {
-              signed int *return_value___errno_location$2;
-              return_value___errno_location$2=__errno_location();
-              if(*return_value___errno_location$2 == 11)
-                tmp_if_expr$4 = (_Bool)1;
+              signed int *return_value___errno_location_2;
+              return_value___errno_location_2=__errno_location();
+              if(*return_value___errno_location_2 == 11)
+                tmp_if_expr_4 = (_Bool)1;
 
               else
               {
-                return_value___errno_location$3=__errno_location();
-                tmp_if_expr$4 = *return_value___errno_location$3 == 11 ? (_Bool)1 : (_Bool)0;
+                return_value___errno_location_3=__errno_location();
+                tmp_if_expr_4 = *return_value___errno_location_3 == 11 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$4)
+              if(tmp_if_expr_4)
               {
                 pthread_mutex_unlock(&mosq->current_out_packet_mutex);
                 return 0;
@@ -6119,9 +6119,9 @@ signed int _mosquitto_packet_write(struct mosquitto *mosq)
               else
               {
                 pthread_mutex_unlock(&mosq->current_out_packet_mutex);
-                signed int *return_value___errno_location$1;
-                return_value___errno_location$1=__errno_location();
-                if(*return_value___errno_location$1 == 104)
+                signed int *return_value___errno_location_1;
+                return_value___errno_location_1=__errno_location();
+                if(*return_value___errno_location_1 == 104)
                   return 7;
 
                 return 14;
@@ -6249,9 +6249,9 @@ signed int _mosquitto_read_string(struct _mosquitto_packet *packet, char **str)
 
     else
     {
-      void *return_value__mosquitto_malloc$1;
-      return_value__mosquitto_malloc$1=_mosquitto_malloc((unsigned long int)((signed int)len + 1));
-      *str = (char *)return_value__mosquitto_malloc$1;
+      void *return_value__mosquitto_malloc_1;
+      return_value__mosquitto_malloc_1=_mosquitto_malloc((unsigned long int)((signed int)len + 1));
+      *str = (char *)return_value__mosquitto_malloc_1;
       if(!(*str == ((char *)NULL)))
       {
         memcpy((void *)*str, (const void *)&packet->payload[(signed long int)packet->pos], (unsigned long int)len);
@@ -6302,18 +6302,18 @@ static signed int _mosquitto_reconnect(struct mosquitto *mosq, _Bool blocking)
 {
   signed int rc;
   struct _mosquitto_packet *packet;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(mosq == ((struct mosquitto *)NULL))
     return 3;
 
   else
   {
     if(mosq->host == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = mosq->port <= 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = mosq->port <= 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return 3;
 
     else
@@ -6367,16 +6367,16 @@ static signed int _mosquitto_reconnect(struct mosquitto *mosq, _Bool blocking)
       else
         if(!(mosq->socks5_host == ((char *)NULL)))
         {
-          signed int return_value_mosquitto__socks5_send$2;
-          return_value_mosquitto__socks5_send$2=mosquitto__socks5_send(mosq);
-          return return_value_mosquitto__socks5_send$2;
+          signed int return_value_mosquitto__socks5_send_2;
+          return_value_mosquitto__socks5_send_2=mosquitto__socks5_send(mosq);
+          return return_value_mosquitto__socks5_send_2;
         }
 
         else
         {
-          signed int return_value__mosquitto_send_connect$3;
-          return_value__mosquitto_send_connect$3=_mosquitto_send_connect(mosq, mosq->keepalive, mosq->clean_session);
-          return return_value__mosquitto_send_connect$3;
+          signed int return_value__mosquitto_send_connect_3;
+          return_value__mosquitto_send_connect_3=_mosquitto_send_connect(mosq, mosq->keepalive, mosq->clean_session);
+          return return_value__mosquitto_send_connect_3;
         }
     }
   }
@@ -6390,9 +6390,9 @@ signed int _mosquitto_send_command_with_mid(struct mosquitto *mosq, unsigned cha
   signed int rc;
   /* assertion mosq */
   assert(mosq != ((struct mosquitto *)NULL));
-  void *return_value__mosquitto_calloc$1;
-  return_value__mosquitto_calloc$1=_mosquitto_calloc((unsigned long int)1, sizeof(struct _mosquitto_packet) /*40ul*/ );
-  packet = (struct _mosquitto_packet *)return_value__mosquitto_calloc$1;
+  void *return_value__mosquitto_calloc_1;
+  return_value__mosquitto_calloc_1=_mosquitto_calloc((unsigned long int)1, sizeof(struct _mosquitto_packet) /*40ul*/ );
+  packet = (struct _mosquitto_packet *)return_value__mosquitto_calloc_1;
   if(packet == ((struct _mosquitto_packet *)NULL))
     return 1;
 
@@ -6414,9 +6414,9 @@ signed int _mosquitto_send_command_with_mid(struct mosquitto *mosq, unsigned cha
     {
       packet->payload[(signed long int)(packet->pos + (unsigned int)0)] = (unsigned char)(((signed int)mid & 0xFF00) >> 8);
       packet->payload[(signed long int)(packet->pos + (unsigned int)1)] = (unsigned char)((signed int)mid & 0x00FF);
-      signed int return_value__mosquitto_packet_queue$2;
-      return_value__mosquitto_packet_queue$2=_mosquitto_packet_queue(mosq, packet);
-      return return_value__mosquitto_packet_queue$2;
+      signed int return_value__mosquitto_packet_queue_2;
+      return_value__mosquitto_packet_queue_2=_mosquitto_packet_queue(mosq, packet);
+      return return_value__mosquitto_packet_queue_2;
     }
   }
 }
@@ -6432,16 +6432,16 @@ signed int _mosquitto_send_connect(struct mosquitto *mosq, unsigned short int ke
   signed int rc;
   unsigned char version;
   char *clientid;
-  char *_mosquitto_send_connect$$1$$username;
-  char *_mosquitto_send_connect$$1$$password;
+  char *_mosquitto_send_connect__1__username;
+  char *_mosquitto_send_connect__1__password;
   signed int headerlen;
   /* assertion mosq */
   assert(mosq != ((struct mosquitto *)NULL));
   /* assertion mosq->id */
   assert(mosq->id != ((char *)NULL));
   clientid = mosq->id;
-  _mosquitto_send_connect$$1$$username = mosq->username;
-  _mosquitto_send_connect$$1$$password = mosq->password;
+  _mosquitto_send_connect__1__username = mosq->username;
+  _mosquitto_send_connect__1__password = mosq->password;
   if((signed int)mosq->protocol == mosq_p_mqtt31)
   {
     version = (unsigned char)3;
@@ -6457,37 +6457,37 @@ signed int _mosquitto_send_connect(struct mosquitto *mosq, unsigned short int ke
 
     else
       return 3;
-  void *return_value__mosquitto_calloc$1;
-  return_value__mosquitto_calloc$1=_mosquitto_calloc((unsigned long int)1, sizeof(struct _mosquitto_packet) /*40ul*/ );
-  packet = (struct _mosquitto_packet *)return_value__mosquitto_calloc$1;
+  void *return_value__mosquitto_calloc_1;
+  return_value__mosquitto_calloc_1=_mosquitto_calloc((unsigned long int)1, sizeof(struct _mosquitto_packet) /*40ul*/ );
+  packet = (struct _mosquitto_packet *)return_value__mosquitto_calloc_1;
   if(packet == ((struct _mosquitto_packet *)NULL))
     return 1;
 
   else
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(clientid);
-    payloadlen = (signed int)((unsigned long int)2 + return_value_strlen$2);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(clientid);
+    payloadlen = (signed int)((unsigned long int)2 + return_value_strlen_2);
     if(!(mosq->will == ((struct mosquitto_message *)NULL)))
     {
       will = (unsigned char)1;
       /* assertion mosq->will->topic */
       assert(mosq->will->topic != ((char *)NULL));
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(mosq->will->topic);
-      payloadlen = payloadlen + (signed int)((unsigned long int)2 + return_value_strlen$3 + (unsigned long int)2 + (unsigned long int)mosq->will->payloadlen);
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(mosq->will->topic);
+      payloadlen = payloadlen + (signed int)((unsigned long int)2 + return_value_strlen_3 + (unsigned long int)2 + (unsigned long int)mosq->will->payloadlen);
     }
 
-    if(!(_mosquitto_send_connect$$1$$username == ((char *)NULL)))
+    if(!(_mosquitto_send_connect__1__username == ((char *)NULL)))
     {
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(_mosquitto_send_connect$$1$$username);
-      payloadlen = payloadlen + (signed int)((unsigned long int)2 + return_value_strlen$4);
-      if(!(_mosquitto_send_connect$$1$$password == ((char *)NULL)))
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(_mosquitto_send_connect__1__username);
+      payloadlen = payloadlen + (signed int)((unsigned long int)2 + return_value_strlen_4);
+      if(!(_mosquitto_send_connect__1__password == ((char *)NULL)))
       {
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(_mosquitto_send_connect$$1$$password);
-        payloadlen = payloadlen + (signed int)((unsigned long int)2 + return_value_strlen$5);
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(_mosquitto_send_connect__1__password);
+        payloadlen = payloadlen + (signed int)((unsigned long int)2 + return_value_strlen_5);
       }
 
     }
@@ -6505,17 +6505,17 @@ signed int _mosquitto_send_connect(struct mosquitto *mosq, unsigned short int ke
     {
       if((signed int)version == 3)
       {
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen("MQIsdp");
-        _mosquitto_write_string(packet, "MQIsdp", (unsigned short int)return_value_strlen$6);
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen("MQIsdp");
+        _mosquitto_write_string(packet, "MQIsdp", (unsigned short int)return_value_strlen_6);
       }
 
       else
         if((signed int)version == 4)
         {
-          unsigned long int return_value_strlen$7;
-          return_value_strlen$7=strlen("MQTT");
-          _mosquitto_write_string(packet, "MQTT", (unsigned short int)return_value_strlen$7);
+          unsigned long int return_value_strlen_7;
+          return_value_strlen_7=strlen("MQTT");
+          _mosquitto_write_string(packet, "MQTT", (unsigned short int)return_value_strlen_7);
         }
 
       _mosquitto_write_byte(packet, version);
@@ -6523,7 +6523,7 @@ signed int _mosquitto_send_connect(struct mosquitto *mosq, unsigned short int ke
       if(!(will == 0))
         byte = (unsigned char)((signed int)byte | ((signed int)mosq->will->retain & 0x1) << 5 | (mosq->will->qos & 0x3) << 3 | ((signed int)will & 0x1) << 2);
 
-      if(!(_mosquitto_send_connect$$1$$username == ((char *)NULL)))
+      if(!(_mosquitto_send_connect__1__username == ((char *)NULL)))
       {
         byte = (unsigned char)((signed int)byte | 0x1 << 7);
         if(!(mosq->password == ((char *)NULL)))
@@ -6533,36 +6533,36 @@ signed int _mosquitto_send_connect(struct mosquitto *mosq, unsigned short int ke
 
       _mosquitto_write_byte(packet, byte);
       _mosquitto_write_uint16(packet, keepalive);
-      unsigned long int return_value_strlen$8;
-      return_value_strlen$8=strlen(clientid);
-      _mosquitto_write_string(packet, clientid, (unsigned short int)return_value_strlen$8);
+      unsigned long int return_value_strlen_8;
+      return_value_strlen_8=strlen(clientid);
+      _mosquitto_write_string(packet, clientid, (unsigned short int)return_value_strlen_8);
       if(!(will == 0))
       {
-        unsigned long int return_value_strlen$9;
-        return_value_strlen$9=strlen(mosq->will->topic);
-        _mosquitto_write_string(packet, mosq->will->topic, (unsigned short int)return_value_strlen$9);
+        unsigned long int return_value_strlen_9;
+        return_value_strlen_9=strlen(mosq->will->topic);
+        _mosquitto_write_string(packet, mosq->will->topic, (unsigned short int)return_value_strlen_9);
         _mosquitto_write_string(packet, (const char *)mosq->will->payload, (unsigned short int)mosq->will->payloadlen);
       }
 
-      if(!(_mosquitto_send_connect$$1$$username == ((char *)NULL)))
+      if(!(_mosquitto_send_connect__1__username == ((char *)NULL)))
       {
-        unsigned long int return_value_strlen$10;
-        return_value_strlen$10=strlen(_mosquitto_send_connect$$1$$username);
-        _mosquitto_write_string(packet, _mosquitto_send_connect$$1$$username, (unsigned short int)return_value_strlen$10);
-        if(!(_mosquitto_send_connect$$1$$password == ((char *)NULL)))
+        unsigned long int return_value_strlen_10;
+        return_value_strlen_10=strlen(_mosquitto_send_connect__1__username);
+        _mosquitto_write_string(packet, _mosquitto_send_connect__1__username, (unsigned short int)return_value_strlen_10);
+        if(!(_mosquitto_send_connect__1__password == ((char *)NULL)))
         {
-          unsigned long int return_value_strlen$11;
-          return_value_strlen$11=strlen(_mosquitto_send_connect$$1$$password);
-          _mosquitto_write_string(packet, _mosquitto_send_connect$$1$$password, (unsigned short int)return_value_strlen$11);
+          unsigned long int return_value_strlen_11;
+          return_value_strlen_11=strlen(_mosquitto_send_connect__1__password);
+          _mosquitto_write_string(packet, _mosquitto_send_connect__1__password, (unsigned short int)return_value_strlen_11);
         }
 
       }
 
       mosq->keepalive = keepalive;
       _mosquitto_log_printf(mosq, 0x10, "Client %s sending CONNECT", clientid);
-      signed int return_value__mosquitto_packet_queue$12;
-      return_value__mosquitto_packet_queue$12=_mosquitto_packet_queue(mosq, packet);
-      return return_value__mosquitto_packet_queue$12;
+      signed int return_value__mosquitto_packet_queue_12;
+      return_value__mosquitto_packet_queue_12=_mosquitto_packet_queue(mosq, packet);
+      return return_value__mosquitto_packet_queue_12;
     }
   }
 }
@@ -6574,9 +6574,9 @@ signed int _mosquitto_send_disconnect(struct mosquitto *mosq)
   /* assertion mosq */
   assert(mosq != ((struct mosquitto *)NULL));
   _mosquitto_log_printf(mosq, 0x10, "Client %s sending DISCONNECT", mosq->id);
-  signed int return_value__mosquitto_send_simple_command$1;
-  return_value__mosquitto_send_simple_command$1=_mosquitto_send_simple_command(mosq, (unsigned char)0xE0);
-  return return_value__mosquitto_send_simple_command$1;
+  signed int return_value__mosquitto_send_simple_command_1;
+  return_value__mosquitto_send_simple_command_1=_mosquitto_send_simple_command(mosq, (unsigned char)0xE0);
+  return return_value__mosquitto_send_simple_command_1;
 }
 
 // _mosquitto_send_pingreq
@@ -6601,9 +6601,9 @@ signed int _mosquitto_send_pingresp(struct mosquitto *mosq)
   if(!(mosq == ((struct mosquitto *)NULL)))
     _mosquitto_log_printf(mosq, 0x10, "Client %s sending PINGRESP", mosq->id);
 
-  signed int return_value__mosquitto_send_simple_command$1;
-  return_value__mosquitto_send_simple_command$1=_mosquitto_send_simple_command(mosq, (unsigned char)0xD0);
-  return return_value__mosquitto_send_simple_command$1;
+  signed int return_value__mosquitto_send_simple_command_1;
+  return_value__mosquitto_send_simple_command_1=_mosquitto_send_simple_command(mosq, (unsigned char)0xD0);
+  return return_value__mosquitto_send_simple_command_1;
 }
 
 // _mosquitto_send_puback
@@ -6613,9 +6613,9 @@ signed int _mosquitto_send_puback(struct mosquitto *mosq, unsigned short int mid
   if(!(mosq == ((struct mosquitto *)NULL)))
     _mosquitto_log_printf(mosq, 0x10, "Client %s sending PUBACK (Mid: %d)", mosq->id, mid);
 
-  signed int return_value__mosquitto_send_command_with_mid$1;
-  return_value__mosquitto_send_command_with_mid$1=_mosquitto_send_command_with_mid(mosq, (unsigned char)0x40, mid, (_Bool)0);
-  return return_value__mosquitto_send_command_with_mid$1;
+  signed int return_value__mosquitto_send_command_with_mid_1;
+  return_value__mosquitto_send_command_with_mid_1=_mosquitto_send_command_with_mid(mosq, (unsigned char)0x40, mid, (_Bool)0);
+  return return_value__mosquitto_send_command_with_mid_1;
 }
 
 // _mosquitto_send_pubcomp
@@ -6625,9 +6625,9 @@ signed int _mosquitto_send_pubcomp(struct mosquitto *mosq, unsigned short int mi
   if(!(mosq == ((struct mosquitto *)NULL)))
     _mosquitto_log_printf(mosq, 0x10, "Client %s sending PUBCOMP (Mid: %d)", mosq->id, mid);
 
-  signed int return_value__mosquitto_send_command_with_mid$1;
-  return_value__mosquitto_send_command_with_mid$1=_mosquitto_send_command_with_mid(mosq, (unsigned char)0x70, mid, (_Bool)0);
-  return return_value__mosquitto_send_command_with_mid$1;
+  signed int return_value__mosquitto_send_command_with_mid_1;
+  return_value__mosquitto_send_command_with_mid_1=_mosquitto_send_command_with_mid(mosq, (unsigned char)0x70, mid, (_Bool)0);
+  return return_value__mosquitto_send_command_with_mid_1;
 }
 
 // _mosquitto_send_publish
@@ -6644,9 +6644,9 @@ signed int _mosquitto_send_publish(struct mosquitto *mosq, unsigned short int mi
   else
   {
     _mosquitto_log_printf(mosq, 0x10, "Client %s sending PUBLISH (d%d, q%d, r%d, m%d, '%s', ... (%ld bytes))", mosq->id, dup, qos, retain, mid, topic, (signed long int)payloadlen);
-    signed int return_value__mosquitto_send_real_publish$1;
-    return_value__mosquitto_send_real_publish$1=_mosquitto_send_real_publish(mosq, mid, topic, payloadlen, payload, qos, retain, dup);
-    return return_value__mosquitto_send_real_publish$1;
+    signed int return_value__mosquitto_send_real_publish_1;
+    return_value__mosquitto_send_real_publish_1=_mosquitto_send_real_publish(mosq, mid, topic, payloadlen, payload, qos, retain, dup);
+    return return_value__mosquitto_send_real_publish_1;
   }
 }
 
@@ -6657,9 +6657,9 @@ signed int _mosquitto_send_pubrec(struct mosquitto *mosq, unsigned short int mid
   if(!(mosq == ((struct mosquitto *)NULL)))
     _mosquitto_log_printf(mosq, 0x10, "Client %s sending PUBREC (Mid: %d)", mosq->id, mid);
 
-  signed int return_value__mosquitto_send_command_with_mid$1;
-  return_value__mosquitto_send_command_with_mid$1=_mosquitto_send_command_with_mid(mosq, (unsigned char)0x50, mid, (_Bool)0);
-  return return_value__mosquitto_send_command_with_mid$1;
+  signed int return_value__mosquitto_send_command_with_mid_1;
+  return_value__mosquitto_send_command_with_mid_1=_mosquitto_send_command_with_mid(mosq, (unsigned char)0x50, mid, (_Bool)0);
+  return return_value__mosquitto_send_command_with_mid_1;
 }
 
 // _mosquitto_send_pubrel
@@ -6669,9 +6669,9 @@ signed int _mosquitto_send_pubrel(struct mosquitto *mosq, unsigned short int mid
   if(!(mosq == ((struct mosquitto *)NULL)))
     _mosquitto_log_printf(mosq, 0x10, "Client %s sending PUBREL (Mid: %d)", mosq->id, mid);
 
-  signed int return_value__mosquitto_send_command_with_mid$1;
-  return_value__mosquitto_send_command_with_mid$1=_mosquitto_send_command_with_mid(mosq, (unsigned char)(0x60 | 2), mid, (_Bool)0);
-  return return_value__mosquitto_send_command_with_mid$1;
+  signed int return_value__mosquitto_send_command_with_mid_1;
+  return_value__mosquitto_send_command_with_mid_1=_mosquitto_send_command_with_mid(mosq, (unsigned char)(0x60 | 2), mid, (_Bool)0);
+  return return_value__mosquitto_send_command_with_mid_1;
 }
 
 // _mosquitto_send_real_publish
@@ -6685,15 +6685,15 @@ signed int _mosquitto_send_real_publish(struct mosquitto *mosq, unsigned short i
   assert(mosq != ((struct mosquitto *)NULL));
   /* assertion topic */
   assert(topic != ((const char *)NULL));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(topic);
-  packetlen = (signed int)((unsigned long int)2 + return_value_strlen$1 + (unsigned long int)payloadlen);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(topic);
+  packetlen = (signed int)((unsigned long int)2 + return_value_strlen_1 + (unsigned long int)payloadlen);
   if(qos >= 1)
     packetlen = packetlen + 2;
 
-  void *return_value__mosquitto_calloc$2;
-  return_value__mosquitto_calloc$2=_mosquitto_calloc((unsigned long int)1, sizeof(struct _mosquitto_packet) /*40ul*/ );
-  packet = (struct _mosquitto_packet *)return_value__mosquitto_calloc$2;
+  void *return_value__mosquitto_calloc_2;
+  return_value__mosquitto_calloc_2=_mosquitto_calloc((unsigned long int)1, sizeof(struct _mosquitto_packet) /*40ul*/ );
+  packet = (struct _mosquitto_packet *)return_value__mosquitto_calloc_2;
   if(packet == ((struct _mosquitto_packet *)NULL))
     return 1;
 
@@ -6711,18 +6711,18 @@ signed int _mosquitto_send_real_publish(struct mosquitto *mosq, unsigned short i
 
     else
     {
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(topic);
-      _mosquitto_write_string(packet, topic, (unsigned short int)return_value_strlen$3);
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(topic);
+      _mosquitto_write_string(packet, topic, (unsigned short int)return_value_strlen_3);
       if(qos >= 1)
         _mosquitto_write_uint16(packet, mid);
 
       if(!(payloadlen == 0u))
         _mosquitto_write_bytes(packet, payload, payloadlen);
 
-      signed int return_value__mosquitto_packet_queue$4;
-      return_value__mosquitto_packet_queue$4=_mosquitto_packet_queue(mosq, packet);
-      return return_value__mosquitto_packet_queue$4;
+      signed int return_value__mosquitto_packet_queue_4;
+      return_value__mosquitto_packet_queue_4=_mosquitto_packet_queue(mosq, packet);
+      return return_value__mosquitto_packet_queue_4;
     }
   }
 }
@@ -6735,9 +6735,9 @@ signed int _mosquitto_send_simple_command(struct mosquitto *mosq, unsigned char 
   signed int rc;
   /* assertion mosq */
   assert(mosq != ((struct mosquitto *)NULL));
-  void *return_value__mosquitto_calloc$1;
-  return_value__mosquitto_calloc$1=_mosquitto_calloc((unsigned long int)1, sizeof(struct _mosquitto_packet) /*40ul*/ );
-  packet = (struct _mosquitto_packet *)return_value__mosquitto_calloc$1;
+  void *return_value__mosquitto_calloc_1;
+  return_value__mosquitto_calloc_1=_mosquitto_calloc((unsigned long int)1, sizeof(struct _mosquitto_packet) /*40ul*/ );
+  packet = (struct _mosquitto_packet *)return_value__mosquitto_calloc_1;
   if(packet == ((struct _mosquitto_packet *)NULL))
     return 1;
 
@@ -6754,9 +6754,9 @@ signed int _mosquitto_send_simple_command(struct mosquitto *mosq, unsigned char 
 
     else
     {
-      signed int return_value__mosquitto_packet_queue$2;
-      return_value__mosquitto_packet_queue$2=_mosquitto_packet_queue(mosq, packet);
-      return return_value__mosquitto_packet_queue$2;
+      signed int return_value__mosquitto_packet_queue_2;
+      return_value__mosquitto_packet_queue_2=_mosquitto_packet_queue(mosq, packet);
+      return return_value__mosquitto_packet_queue_2;
     }
   }
 }
@@ -6773,17 +6773,17 @@ signed int _mosquitto_send_subscribe(struct mosquitto *mosq, signed int *mid, co
   assert(mosq != ((struct mosquitto *)NULL));
   /* assertion topic */
   assert(topic != ((const char *)NULL));
-  void *return_value__mosquitto_calloc$1;
-  return_value__mosquitto_calloc$1=_mosquitto_calloc((unsigned long int)1, sizeof(struct _mosquitto_packet) /*40ul*/ );
-  packet = (struct _mosquitto_packet *)return_value__mosquitto_calloc$1;
+  void *return_value__mosquitto_calloc_1;
+  return_value__mosquitto_calloc_1=_mosquitto_calloc((unsigned long int)1, sizeof(struct _mosquitto_packet) /*40ul*/ );
+  packet = (struct _mosquitto_packet *)return_value__mosquitto_calloc_1;
   if(packet == ((struct _mosquitto_packet *)NULL))
     return 1;
 
   else
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(topic);
-    packetlen = (unsigned int)((unsigned long int)(2 + 2) + return_value_strlen$2 + (unsigned long int)1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(topic);
+    packetlen = (unsigned int)((unsigned long int)(2 + 2) + return_value_strlen_2 + (unsigned long int)1);
     packet->command = (unsigned char)(0x80 | 1 << 1);
     packet->remaining_length = packetlen;
     rc=_mosquitto_packet_alloc(packet);
@@ -6800,14 +6800,14 @@ signed int _mosquitto_send_subscribe(struct mosquitto *mosq, signed int *mid, co
         *mid = (signed int)local_mid;
 
       _mosquitto_write_uint16(packet, local_mid);
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(topic);
-      _mosquitto_write_string(packet, topic, (unsigned short int)return_value_strlen$3);
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(topic);
+      _mosquitto_write_string(packet, topic, (unsigned short int)return_value_strlen_3);
       _mosquitto_write_byte(packet, topic_qos);
       _mosquitto_log_printf(mosq, 0x10, "Client %s sending SUBSCRIBE (Mid: %d, Topic: %s, QoS: %d)", mosq->id, local_mid, topic, topic_qos);
-      signed int return_value__mosquitto_packet_queue$4;
-      return_value__mosquitto_packet_queue$4=_mosquitto_packet_queue(mosq, packet);
-      return return_value__mosquitto_packet_queue$4;
+      signed int return_value__mosquitto_packet_queue_4;
+      return_value__mosquitto_packet_queue_4=_mosquitto_packet_queue(mosq, packet);
+      return return_value__mosquitto_packet_queue_4;
     }
   }
 }
@@ -6824,17 +6824,17 @@ signed int _mosquitto_send_unsubscribe(struct mosquitto *mosq, signed int *mid, 
   assert(mosq != ((struct mosquitto *)NULL));
   /* assertion topic */
   assert(topic != ((const char *)NULL));
-  void *return_value__mosquitto_calloc$1;
-  return_value__mosquitto_calloc$1=_mosquitto_calloc((unsigned long int)1, sizeof(struct _mosquitto_packet) /*40ul*/ );
-  packet = (struct _mosquitto_packet *)return_value__mosquitto_calloc$1;
+  void *return_value__mosquitto_calloc_1;
+  return_value__mosquitto_calloc_1=_mosquitto_calloc((unsigned long int)1, sizeof(struct _mosquitto_packet) /*40ul*/ );
+  packet = (struct _mosquitto_packet *)return_value__mosquitto_calloc_1;
   if(packet == ((struct _mosquitto_packet *)NULL))
     return 1;
 
   else
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(topic);
-    packetlen = (unsigned int)((unsigned long int)(2 + 2) + return_value_strlen$2);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(topic);
+    packetlen = (unsigned int)((unsigned long int)(2 + 2) + return_value_strlen_2);
     packet->command = (unsigned char)(0xA0 | 1 << 1);
     packet->remaining_length = packetlen;
     rc=_mosquitto_packet_alloc(packet);
@@ -6851,13 +6851,13 @@ signed int _mosquitto_send_unsubscribe(struct mosquitto *mosq, signed int *mid, 
         *mid = (signed int)local_mid;
 
       _mosquitto_write_uint16(packet, local_mid);
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(topic);
-      _mosquitto_write_string(packet, topic, (unsigned short int)return_value_strlen$3);
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(topic);
+      _mosquitto_write_string(packet, topic, (unsigned short int)return_value_strlen_3);
       _mosquitto_log_printf(mosq, 0x10, "Client %s sending UNSUBSCRIBE (Mid: %d, Topic: %s)", mosq->id, local_mid, topic);
-      signed int return_value__mosquitto_packet_queue$4;
-      return_value__mosquitto_packet_queue$4=_mosquitto_packet_queue(mosq, packet);
-      return return_value__mosquitto_packet_queue$4;
+      signed int return_value__mosquitto_packet_queue_4;
+      return_value__mosquitto_packet_queue_4=_mosquitto_packet_queue(mosq, packet);
+      return return_value__mosquitto_packet_queue_4;
     }
   }
 }
@@ -6874,28 +6874,28 @@ signed int _mosquitto_server_certificate_verify(signed int preverify_ok, struct 
 
   else
   {
-    signed int return_value_SSL_get_ex_data_X509_STORE_CTX_idx$1;
-    return_value_SSL_get_ex_data_X509_STORE_CTX_idx$1=SSL_get_ex_data_X509_STORE_CTX_idx();
-    void *return_value_X509_STORE_CTX_get_ex_data$2;
-    return_value_X509_STORE_CTX_get_ex_data$2=X509_STORE_CTX_get_ex_data(ctx, return_value_SSL_get_ex_data_X509_STORE_CTX_idx$1);
-    ssl = (struct ssl_st *)return_value_X509_STORE_CTX_get_ex_data$2;
-    void *return_value_SSL_get_ex_data$3;
-    return_value_SSL_get_ex_data$3=SSL_get_ex_data(ssl, tls_ex_index_mosq);
-    mosq = (struct mosquitto *)return_value_SSL_get_ex_data$3;
+    signed int return_value_SSL_get_ex_data_X509_STORE_CTX_idx_1;
+    return_value_SSL_get_ex_data_X509_STORE_CTX_idx_1=SSL_get_ex_data_X509_STORE_CTX_idx();
+    void *return_value_X509_STORE_CTX_get_ex_data_2;
+    return_value_X509_STORE_CTX_get_ex_data_2=X509_STORE_CTX_get_ex_data(ctx, return_value_SSL_get_ex_data_X509_STORE_CTX_idx_1);
+    ssl = (struct ssl_st *)return_value_X509_STORE_CTX_get_ex_data_2;
+    void *return_value_SSL_get_ex_data_3;
+    return_value_SSL_get_ex_data_3=SSL_get_ex_data(ssl, tls_ex_index_mosq);
+    mosq = (struct mosquitto *)return_value_SSL_get_ex_data_3;
     if(mosq == ((struct mosquitto *)NULL))
       return 0;
 
     else
       if((signed int)mosq->tls_insecure == 0)
       {
-        signed int return_value_X509_STORE_CTX_get_error_depth$5;
-        return_value_X509_STORE_CTX_get_error_depth$5=X509_STORE_CTX_get_error_depth(ctx);
-        if(return_value_X509_STORE_CTX_get_error_depth$5 == 0)
+        signed int return_value_X509_STORE_CTX_get_error_depth_5;
+        return_value_X509_STORE_CTX_get_error_depth_5=X509_STORE_CTX_get_error_depth(ctx);
+        if(return_value_X509_STORE_CTX_get_error_depth_5 == 0)
         {
           cert=X509_STORE_CTX_get_current_cert(ctx);
-          signed int return_value__mosquitto_verify_certificate_hostname$4;
-          return_value__mosquitto_verify_certificate_hostname$4=_mosquitto_verify_certificate_hostname(cert, mosq->host);
-          return return_value__mosquitto_verify_certificate_hostname$4;
+          signed int return_value__mosquitto_verify_certificate_hostname_4;
+          return_value__mosquitto_verify_certificate_hostname_4=_mosquitto_verify_certificate_hostname(cert, mosq->host);
+          return return_value__mosquitto_verify_certificate_hostname_4;
         }
 
         else
@@ -6944,14 +6944,14 @@ signed int _mosquitto_socket_connect(struct mosquitto *mosq, const char *host, u
   signed int rc;
   signed int ret;
   struct bio_st *bio;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$7;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$4;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_7;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_4;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_8;
   if(host == ((const char *)NULL) || mosq == ((struct mosquitto *)NULL) || port == 0)
     return 3;
 
@@ -6964,50 +6964,50 @@ signed int _mosquitto_socket_connect(struct mosquitto *mosq, const char *host, u
     else
     {
       if(!(mosq->tls_cafile == ((char *)NULL)))
-        tmp_if_expr$11 = (_Bool)1;
+        tmp_if_expr_11 = (_Bool)1;
 
       else
-        tmp_if_expr$11 = mosq->tls_capath != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$11)
-        tmp_if_expr$12 = (_Bool)1;
+        tmp_if_expr_11 = mosq->tls_capath != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_11)
+        tmp_if_expr_12 = (_Bool)1;
 
       else
-        tmp_if_expr$12 = mosq->tls_psk != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$12)
+        tmp_if_expr_12 = mosq->tls_psk != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_12)
       {
         if(mosq->tls_version == ((char *)NULL))
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_7 = (_Bool)1;
 
         else
         {
-          return_value_strcmp$6=strcmp(mosq->tls_version, "tlsv1.2");
-          tmp_if_expr$7 = !(return_value_strcmp$6 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_strcmp_6=strcmp(mosq->tls_version, "tlsv1.2");
+          tmp_if_expr_7 = !(return_value_strcmp_6 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$7)
+        if(tmp_if_expr_7)
         {
-          const struct ssl_method_st *return_value_TLSv1_2_client_method$1;
-          return_value_TLSv1_2_client_method$1=TLSv1_2_client_method();
-          mosq->ssl_ctx=SSL_CTX_new(return_value_TLSv1_2_client_method$1);
+          const struct ssl_method_st *return_value_TLSv1_2_client_method_1;
+          return_value_TLSv1_2_client_method_1=TLSv1_2_client_method();
+          mosq->ssl_ctx=SSL_CTX_new(return_value_TLSv1_2_client_method_1);
         }
 
         else
         {
-          return_value_strcmp$5=strcmp(mosq->tls_version, "tlsv1.1");
-          if(return_value_strcmp$5 == 0)
+          return_value_strcmp_5=strcmp(mosq->tls_version, "tlsv1.1");
+          if(return_value_strcmp_5 == 0)
           {
-            const struct ssl_method_st *return_value_TLSv1_1_client_method$2;
-            return_value_TLSv1_1_client_method$2=TLSv1_1_client_method();
-            mosq->ssl_ctx=SSL_CTX_new(return_value_TLSv1_1_client_method$2);
+            const struct ssl_method_st *return_value_TLSv1_1_client_method_2;
+            return_value_TLSv1_1_client_method_2=TLSv1_1_client_method();
+            mosq->ssl_ctx=SSL_CTX_new(return_value_TLSv1_1_client_method_2);
           }
 
           else
           {
-            return_value_strcmp$4=strcmp(mosq->tls_version, "tlsv1");
-            if(return_value_strcmp$4 == 0)
+            return_value_strcmp_4=strcmp(mosq->tls_version, "tlsv1");
+            if(return_value_strcmp_4 == 0)
             {
-              const struct ssl_method_st *return_value_TLSv1_client_method$3;
-              return_value_TLSv1_client_method$3=TLSv1_client_method();
-              mosq->ssl_ctx=SSL_CTX_new(return_value_TLSv1_client_method$3);
+              const struct ssl_method_st *return_value_TLSv1_client_method_3;
+              return_value_TLSv1_client_method_3=TLSv1_client_method();
+              mosq->ssl_ctx=SSL_CTX_new(return_value_TLSv1_client_method_3);
             }
 
             else
@@ -7040,21 +7040,21 @@ signed int _mosquitto_socket_connect(struct mosquitto *mosq, const char *host, u
         }
 
         if(!(mosq->tls_cafile == ((char *)NULL)))
-          tmp_if_expr$9 = (_Bool)1;
+          tmp_if_expr_9 = (_Bool)1;
 
         else
-          tmp_if_expr$9 = mosq->tls_capath != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$9)
+          tmp_if_expr_9 = mosq->tls_capath != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_9)
         {
           ret=SSL_CTX_load_verify_locations(mosq->ssl_ctx, mosq->tls_cafile, mosq->tls_capath);
           if(ret == 0)
           {
             if(!(mosq->tls_cafile == ((char *)NULL)))
-              tmp_if_expr$8 = mosq->tls_capath != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_8 = mosq->tls_capath != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$8 = (_Bool)0;
-            if(tmp_if_expr$8)
+              tmp_if_expr_8 = (_Bool)0;
+            if(tmp_if_expr_8)
               _mosquitto_log_printf(mosq, 0x08, "Error: Unable to load CA certificates, check cafile \"%s\" and capath \"%s\".", mosq->tls_cafile, mosq->tls_capath);
 
             else
@@ -7133,9 +7133,9 @@ signed int _mosquitto_socket_connect(struct mosquitto *mosq, const char *host, u
 
         SSL_set_bio(mosq->ssl, bio, bio);
         mosq->sock = sock;
-        signed int return_value_mosquitto__socket_connect_tls$10;
-        return_value_mosquitto__socket_connect_tls$10=mosquitto__socket_connect_tls(mosq);
-        if(!(return_value_mosquitto__socket_connect_tls$10 == 0))
+        signed int return_value_mosquitto__socket_connect_tls_10;
+        return_value_mosquitto__socket_connect_tls_10=mosquitto__socket_connect_tls(mosq);
+        if(!(return_value_mosquitto__socket_connect_tls_10 == 0))
           return 8;
 
       }
@@ -7160,9 +7160,9 @@ signed int _mosquitto_socket_nonblock(signed int sock)
 
   else
   {
-    signed int return_value_fcntl$1;
-    return_value_fcntl$1=fcntl(sock, 4, opt | 04000);
-    if(return_value_fcntl$1 == -1)
+    signed int return_value_fcntl_1;
+    return_value_fcntl_1=fcntl(sock, 4, opt | 04000);
+    if(return_value_fcntl_1 == -1)
     {
       close(sock);
       return 1;
@@ -7178,16 +7178,16 @@ signed int _mosquitto_socket_nonblock(signed int sock)
 signed int _mosquitto_socketpair(signed int *pairR, signed int *pairW)
 {
   signed int sv[2l];
-  signed int return_value_socketpair$1;
-  return_value_socketpair$1=socketpair(1, 1, 0, sv);
-  if(return_value_socketpair$1 == -1)
+  signed int return_value_socketpair_1;
+  return_value_socketpair_1=socketpair(1, 1, 0, sv);
+  if(return_value_socketpair_1 == -1)
     return 14;
 
   else
   {
-    signed int return_value__mosquitto_socket_nonblock$2;
-    return_value__mosquitto_socket_nonblock$2=_mosquitto_socket_nonblock(sv[(signed long int)0]);
-    if(!(return_value__mosquitto_socket_nonblock$2 == 0))
+    signed int return_value__mosquitto_socket_nonblock_2;
+    return_value__mosquitto_socket_nonblock_2=_mosquitto_socket_nonblock(sv[(signed long int)0]);
+    if(!(return_value__mosquitto_socket_nonblock_2 == 0))
     {
       close(sv[(signed long int)0]);
       close(sv[(signed long int)1]);
@@ -7196,9 +7196,9 @@ signed int _mosquitto_socketpair(signed int *pairR, signed int *pairW)
 
     else
     {
-      signed int return_value__mosquitto_socket_nonblock$3;
-      return_value__mosquitto_socket_nonblock$3=_mosquitto_socket_nonblock(sv[(signed long int)1]);
-      if(!(return_value__mosquitto_socket_nonblock$3 == 0))
+      signed int return_value__mosquitto_socket_nonblock_3;
+      return_value__mosquitto_socket_nonblock_3=_mosquitto_socket_nonblock(sv[(signed long int)1]);
+      if(!(return_value__mosquitto_socket_nonblock_3 == 0))
       {
         close(sv[(signed long int)0]);
         close(sv[(signed long int)1]);
@@ -7265,19 +7265,19 @@ signed int _mosquitto_try_connect(struct mosquitto *mosq, const char *host, unsi
   signed int rc = 0;
   *sock = -1;
   memset((void *)&hints, 0, sizeof(struct addrinfo) /*48ul*/ );
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(mosq->tls_cafile == ((char *)NULL)))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = mosq->tls_capath != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = mosq->tls_capath != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = mosq->tls_psk != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = mosq->tls_psk != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     hints.ai_family = 2;
 
   else
@@ -7287,9 +7287,9 @@ signed int _mosquitto_try_connect(struct mosquitto *mosq, const char *host, unsi
   s=getaddrinfo(host, (const char *)(void *)0, &hints, &ainfo);
   if(!(s == 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = s;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = s;
     return 15;
   }
 
@@ -7299,22 +7299,22 @@ signed int _mosquitto_try_connect(struct mosquitto *mosq, const char *host, unsi
     if(!(s == 0))
     {
       freeaddrinfo(ainfo);
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = s;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = s;
       return 15;
     }
 
   }
 
   rp = ainfo;
-  _Bool tmp_if_expr$12;
-  signed int *return_value___errno_location$11;
-  _Bool tmp_if_expr$14;
-  signed int *return_value___errno_location$13;
-  signed int *return_value___errno_location$7;
-  _Bool tmp_if_expr$9;
-  signed int *return_value___errno_location$8;
+  _Bool tmp_if_expr_12;
+  signed int *return_value___errno_location_11;
+  _Bool tmp_if_expr_14;
+  signed int *return_value___errno_location_13;
+  signed int *return_value___errno_location_7;
+  _Bool tmp_if_expr_9;
+  signed int *return_value___errno_location_8;
   for( ; !(rp == ((struct addrinfo *)NULL)); rp = rp->ai_next)
   {
     *sock=socket(rp->ai_family, rp->ai_socktype, rp->ai_protocol);
@@ -7337,9 +7337,9 @@ signed int _mosquitto_try_connect(struct mosquitto *mosq, const char *host, unsi
         rp_bind = ainfo_bind;
         for( ; !(rp_bind == ((struct addrinfo *)NULL)); rp_bind = rp_bind->ai_next)
         {
-          signed int return_value_bind$5;
-          return_value_bind$5=bind(*sock, rp_bind->ai_addr, rp_bind->ai_addrlen);
-          if(return_value_bind$5 == 0)
+          signed int return_value_bind_5;
+          return_value_bind_5=bind(*sock, rp_bind->ai_addr, rp_bind->ai_addrlen);
+          if(return_value_bind_5 == 0)
             break;
 
         }
@@ -7356,9 +7356,9 @@ signed int _mosquitto_try_connect(struct mosquitto *mosq, const char *host, unsi
         ;
         if(blocking == (_Bool)0)
         {
-          signed int return_value__mosquitto_socket_nonblock$6;
-          return_value__mosquitto_socket_nonblock$6=_mosquitto_socket_nonblock(*sock);
-          if(!(return_value__mosquitto_socket_nonblock$6 == 0))
+          signed int return_value__mosquitto_socket_nonblock_6;
+          return_value__mosquitto_socket_nonblock_6=_mosquitto_socket_nonblock(*sock);
+          if(!(return_value__mosquitto_socket_nonblock_6 == 0))
           {
             close(*sock);
             goto __CPROVER_DUMP_L28;
@@ -7368,44 +7368,44 @@ signed int _mosquitto_try_connect(struct mosquitto *mosq, const char *host, unsi
 
         rc=connect(*sock, rp->ai_addr, rp->ai_addrlen);
         if(rc == 0)
-          tmp_if_expr$12 = (_Bool)1;
+          tmp_if_expr_12 = (_Bool)1;
 
         else
         {
-          return_value___errno_location$11=__errno_location();
-          tmp_if_expr$12 = *return_value___errno_location$11 == 115 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_11=__errno_location();
+          tmp_if_expr_12 = *return_value___errno_location_11 == 115 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$12)
-          tmp_if_expr$14 = (_Bool)1;
+        if(tmp_if_expr_12)
+          tmp_if_expr_14 = (_Bool)1;
 
         else
         {
-          return_value___errno_location$13=__errno_location();
-          tmp_if_expr$14 = *return_value___errno_location$13 == 11 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_13=__errno_location();
+          tmp_if_expr_14 = *return_value___errno_location_13 == 11 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$14)
+        if(tmp_if_expr_14)
         {
           if(!(rc >= 0))
           {
-            return_value___errno_location$7=__errno_location();
-            if(*return_value___errno_location$7 == 115)
-              tmp_if_expr$9 = (_Bool)1;
+            return_value___errno_location_7=__errno_location();
+            if(*return_value___errno_location_7 == 115)
+              tmp_if_expr_9 = (_Bool)1;
 
             else
             {
-              return_value___errno_location$8=__errno_location();
-              tmp_if_expr$9 = *return_value___errno_location$8 == 11 ? (_Bool)1 : (_Bool)0;
+              return_value___errno_location_8=__errno_location();
+              tmp_if_expr_9 = *return_value___errno_location_8 == 11 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$9)
+            if(tmp_if_expr_9)
               rc = -1;
 
           }
 
           if(!(blocking == (_Bool)0))
           {
-            signed int return_value__mosquitto_socket_nonblock$10;
-            return_value__mosquitto_socket_nonblock$10=_mosquitto_socket_nonblock(*sock);
-            if(!(return_value__mosquitto_socket_nonblock$10 == 0))
+            signed int return_value__mosquitto_socket_nonblock_10;
+            return_value__mosquitto_socket_nonblock_10=_mosquitto_socket_nonblock(*sock);
+            if(!(return_value__mosquitto_socket_nonblock_10 == 0))
             {
               close(*sock);
               goto __CPROVER_DUMP_L28;
@@ -7453,30 +7453,30 @@ signed int _mosquitto_verify_certificate_hostname(struct x509_st *cert, const ch
   signed int ipv4_ok;
   ipv6_ok=inet_pton(10, hostname, (void *)&ipv6_addr);
   ipv4_ok=inet_pton(2, hostname, (void *)&ipv4_addr);
-  void *return_value_X509_get_ext_d2i$1;
-  return_value_X509_get_ext_d2i$1=X509_get_ext_d2i(cert, 85, (signed int *)(void *)0, (signed int *)(void *)0);
-  san = (struct stack_st_GENERAL_NAME *)return_value_X509_get_ext_d2i$1;
-  signed int return_value_sk_num$2;
-  signed int return_value_mosquitto__cmp_hostname_wildcard$4;
+  void *return_value_X509_get_ext_d2i_1;
+  return_value_X509_get_ext_d2i_1=X509_get_ext_d2i(cert, 85, (signed int *)(void *)0, (signed int *)(void *)0);
+  san = (struct stack_st_GENERAL_NAME *)return_value_X509_get_ext_d2i_1;
+  signed int return_value_sk_num_2;
+  signed int return_value_mosquitto__cmp_hostname_wildcard_4;
   if(!(san == ((struct stack_st_GENERAL_NAME *)NULL)))
   {
     i = 0;
     do
     {
-      return_value_sk_num$2=sk_num((struct stack_st *)(1 != 0 ? san : (struct stack_st_GENERAL_NAME *)0));
-      if(i >= return_value_sk_num$2)
+      return_value_sk_num_2=sk_num((struct stack_st *)(1 != 0 ? san : (struct stack_st_GENERAL_NAME *)0));
+      if(i >= return_value_sk_num_2)
         break;
 
-      void *return_value_sk_value$3;
-      return_value_sk_value$3=sk_value((struct stack_st *)(1 != 0 ? san : (struct stack_st_GENERAL_NAME *)0), i);
-      nval = (struct GENERAL_NAME_st *)return_value_sk_value$3;
+      void *return_value_sk_value_3;
+      return_value_sk_value_3=sk_value((struct stack_st *)(1 != 0 ? san : (struct stack_st_GENERAL_NAME *)0), i);
+      nval = (struct GENERAL_NAME_st *)return_value_sk_value_3;
       if(nval->type == 2)
       {
         data=ASN1_STRING_data(nval->d.dNSName);
         if(!(data == ((const unsigned char *)NULL)))
         {
-          return_value_mosquitto__cmp_hostname_wildcard$4=mosquitto__cmp_hostname_wildcard((char *)data, hostname);
-          if(return_value_mosquitto__cmp_hostname_wildcard$4 == 0)
+          return_value_mosquitto__cmp_hostname_wildcard_4=mosquitto__cmp_hostname_wildcard((char *)data, hostname);
+          if(return_value_mosquitto__cmp_hostname_wildcard_4 == 0)
             return 1;
 
         }
@@ -7490,9 +7490,9 @@ signed int _mosquitto_verify_certificate_hostname(struct x509_st *cert, const ch
           data=ASN1_STRING_data(nval->d.iPAddress);
           if(nval->d.iPAddress->length == 4 && !(ipv4_ok == 0))
           {
-            signed int return_value_memcmp$5;
-            return_value_memcmp$5=memcmp((const void *)ipv4_addr, (const void *)data, (unsigned long int)4);
-            if(return_value_memcmp$5 == 0)
+            signed int return_value_memcmp_5;
+            return_value_memcmp_5=memcmp((const void *)ipv4_addr, (const void *)data, (unsigned long int)4);
+            if(return_value_memcmp_5 == 0)
               return 1;
 
           }
@@ -7502,9 +7502,9 @@ signed int _mosquitto_verify_certificate_hostname(struct x509_st *cert, const ch
             {
               if(!(ipv6_ok == 0))
               {
-                signed int return_value_memcmp$6;
-                return_value_memcmp$6=memcmp((const void *)ipv6_addr, (const void *)data, (unsigned long int)16);
-                if(return_value_memcmp$6 == 0)
+                signed int return_value_memcmp_6;
+                return_value_memcmp_6=memcmp((const void *)ipv6_addr, (const void *)data, (unsigned long int)16);
+                if(return_value_memcmp_6 == 0)
                   return 1;
 
               }
@@ -7528,14 +7528,14 @@ signed int _mosquitto_verify_certificate_hostname(struct x509_st *cert, const ch
   __CPROVER_DUMP_L9:
     ;
     subj=X509_get_subject_name(cert);
-    signed int return_value_X509_NAME_get_text_by_NID$8;
-    return_value_X509_NAME_get_text_by_NID$8=X509_NAME_get_text_by_NID(subj, 13, name, (signed int)sizeof(char [256l]) /*256ul*/ );
-    if(return_value_X509_NAME_get_text_by_NID$8 >= 1)
+    signed int return_value_X509_NAME_get_text_by_NID_8;
+    return_value_X509_NAME_get_text_by_NID_8=X509_NAME_get_text_by_NID(subj, 13, name, (signed int)sizeof(char [256l]) /*256ul*/ );
+    if(return_value_X509_NAME_get_text_by_NID_8 >= 1)
     {
       name[(signed long int)(sizeof(char [256l]) /*256ul*/  - (unsigned long int)1)] = (char)0;
-      signed int return_value_mosquitto__cmp_hostname_wildcard$7;
-      return_value_mosquitto__cmp_hostname_wildcard$7=mosquitto__cmp_hostname_wildcard(name, hostname);
-      if(return_value_mosquitto__cmp_hostname_wildcard$7 == 0)
+      signed int return_value_mosquitto__cmp_hostname_wildcard_7;
+      return_value_mosquitto__cmp_hostname_wildcard_7=mosquitto__cmp_hostname_wildcard(name, hostname);
+      if(return_value_mosquitto__cmp_hostname_wildcard_7 == 0)
         return 1;
 
     }
@@ -7589,9 +7589,9 @@ signed int _mosquitto_will_set(struct mosquitto *mosq, const char *topic, signed
 
       else
       {
-        signed int return_value_mosquitto_pub_topic_check$1;
-        return_value_mosquitto_pub_topic_check$1=mosquitto_pub_topic_check(topic);
-        if(!(return_value_mosquitto_pub_topic_check$1 == 0))
+        signed int return_value_mosquitto_pub_topic_check_1;
+        return_value_mosquitto_pub_topic_check_1=mosquitto_pub_topic_check(topic);
+        if(!(return_value_mosquitto_pub_topic_check_1 == 0))
           return 3;
 
         else
@@ -7614,9 +7614,9 @@ signed int _mosquitto_will_set(struct mosquitto *mosq, const char *topic, signed
             mosq->will = (struct mosquitto_message *)(void *)0;
           }
 
-          void *return_value__mosquitto_calloc$2;
-          return_value__mosquitto_calloc$2=_mosquitto_calloc((unsigned long int)1, sizeof(struct mosquitto_message) /*40ul*/ );
-          mosq->will = (struct mosquitto_message *)return_value__mosquitto_calloc$2;
+          void *return_value__mosquitto_calloc_2;
+          return_value__mosquitto_calloc_2=_mosquitto_calloc((unsigned long int)1, sizeof(struct mosquitto_message) /*40ul*/ );
+          mosq->will = (struct mosquitto_message *)return_value__mosquitto_calloc_2;
           if(mosq->will == ((struct mosquitto_message *)NULL))
             return 1;
 
@@ -7764,104 +7764,104 @@ void client_config_cleanup(struct mosq_config *cfg)
 static signed int client_config_line_proc(struct mosq_config *cfg, signed int pub_or_sub, signed int argc, char **argv)
 {
   signed int i = 1;
-  _Bool tmp_if_expr$97;
-  signed int return_value_strcmp$96;
-  _Bool tmp_if_expr$1;
-  signed int return_value_strcmp$94;
-  signed int return_value_strcmp$93;
-  signed int return_value_strcmp$92;
-  signed int return_value_strcmp$91;
-  signed int return_value_strcmp$90;
-  signed int return_value_strcmp$89;
-  signed int return_value_strcmp$86;
-  _Bool tmp_if_expr$88;
-  signed int return_value_strcmp$87;
-  signed int return_value_strcmp$83;
-  _Bool tmp_if_expr$85;
-  signed int return_value_strcmp$84;
-  signed int return_value_strcmp$82;
-  signed int return_value_strcmp$79;
-  _Bool tmp_if_expr$81;
-  signed int return_value_strcmp$80;
-  signed int return_value_strcmp$78;
-  signed int return_value_strcmp$75;
-  _Bool tmp_if_expr$77;
-  signed int return_value_strcmp$76;
-  signed int return_value_strcmp$72;
-  _Bool tmp_if_expr$74;
-  signed int return_value_strcmp$73;
-  signed int return_value_strcmp$69;
-  _Bool tmp_if_expr$71;
-  signed int return_value_strcmp$70;
-  signed int return_value_strcmp$68;
-  signed int return_value_strcmp$65;
-  _Bool tmp_if_expr$67;
-  signed int return_value_strcmp$66;
-  signed int return_value_strcmp$62;
-  _Bool tmp_if_expr$64;
-  signed int return_value_strcmp$63;
-  signed int return_value_strcmp$61;
-  signed int return_value_strcmp$58;
-  _Bool tmp_if_expr$60;
-  signed int return_value_strcmp$59;
-  signed int return_value_strcmp$55;
-  _Bool tmp_if_expr$57;
-  signed int return_value_strcmp$56;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$54;
-  signed int return_value_strcmp$53;
-  signed int return_value_strcmp$52;
-  signed int return_value_strcmp$49;
-  _Bool tmp_if_expr$51;
-  signed int return_value_strcmp$50;
-  _Bool tmp_if_expr$7;
-  signed int return_value_strcmp$48;
-  signed int return_value_strcmp$45;
-  _Bool tmp_if_expr$47;
-  signed int return_value_strcmp$46;
-  signed int return_value_strcmp$42;
-  _Bool tmp_if_expr$44;
-  signed int return_value_strcmp$43;
-  signed int return_value_strcmp$41;
-  signed int return_value_strcmp$38;
-  _Bool tmp_if_expr$40;
-  signed int return_value_strcmp$39;
-  signed int return_value_strcmp$35;
-  _Bool tmp_if_expr$37;
-  signed int return_value_strcmp$36;
-  signed int return_value_strcmp$34;
-  signed int return_value_strcmp$31;
-  _Bool tmp_if_expr$33;
-  signed int return_value_strcmp$32;
-  signed int return_value_strcmp$28;
-  _Bool tmp_if_expr$30;
-  signed int return_value_strcmp$29;
-  signed int return_value_strcmp$27;
-  signed int return_value_strcmp$26;
-  _Bool tmp_if_expr$14;
-  signed int return_value_strcmp$25;
-  signed int return_value_strcmp$24;
-  signed int return_value_strcmp$21;
-  _Bool tmp_if_expr$23;
-  signed int return_value_strcmp$22;
-  signed int return_value_strcmp$20;
-  signed int return_value_strcmp$19;
-  signed int return_value_strcmp$16;
-  _Bool tmp_if_expr$18;
-  signed int return_value_strcmp$17;
+  _Bool tmp_if_expr_97;
+  signed int return_value_strcmp_96;
+  _Bool tmp_if_expr_1;
+  signed int return_value_strcmp_94;
+  signed int return_value_strcmp_93;
+  signed int return_value_strcmp_92;
+  signed int return_value_strcmp_91;
+  signed int return_value_strcmp_90;
+  signed int return_value_strcmp_89;
+  signed int return_value_strcmp_86;
+  _Bool tmp_if_expr_88;
+  signed int return_value_strcmp_87;
+  signed int return_value_strcmp_83;
+  _Bool tmp_if_expr_85;
+  signed int return_value_strcmp_84;
+  signed int return_value_strcmp_82;
+  signed int return_value_strcmp_79;
+  _Bool tmp_if_expr_81;
+  signed int return_value_strcmp_80;
+  signed int return_value_strcmp_78;
+  signed int return_value_strcmp_75;
+  _Bool tmp_if_expr_77;
+  signed int return_value_strcmp_76;
+  signed int return_value_strcmp_72;
+  _Bool tmp_if_expr_74;
+  signed int return_value_strcmp_73;
+  signed int return_value_strcmp_69;
+  _Bool tmp_if_expr_71;
+  signed int return_value_strcmp_70;
+  signed int return_value_strcmp_68;
+  signed int return_value_strcmp_65;
+  _Bool tmp_if_expr_67;
+  signed int return_value_strcmp_66;
+  signed int return_value_strcmp_62;
+  _Bool tmp_if_expr_64;
+  signed int return_value_strcmp_63;
+  signed int return_value_strcmp_61;
+  signed int return_value_strcmp_58;
+  _Bool tmp_if_expr_60;
+  signed int return_value_strcmp_59;
+  signed int return_value_strcmp_55;
+  _Bool tmp_if_expr_57;
+  signed int return_value_strcmp_56;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_54;
+  signed int return_value_strcmp_53;
+  signed int return_value_strcmp_52;
+  signed int return_value_strcmp_49;
+  _Bool tmp_if_expr_51;
+  signed int return_value_strcmp_50;
+  _Bool tmp_if_expr_7;
+  signed int return_value_strcmp_48;
+  signed int return_value_strcmp_45;
+  _Bool tmp_if_expr_47;
+  signed int return_value_strcmp_46;
+  signed int return_value_strcmp_42;
+  _Bool tmp_if_expr_44;
+  signed int return_value_strcmp_43;
+  signed int return_value_strcmp_41;
+  signed int return_value_strcmp_38;
+  _Bool tmp_if_expr_40;
+  signed int return_value_strcmp_39;
+  signed int return_value_strcmp_35;
+  _Bool tmp_if_expr_37;
+  signed int return_value_strcmp_36;
+  signed int return_value_strcmp_34;
+  signed int return_value_strcmp_31;
+  _Bool tmp_if_expr_33;
+  signed int return_value_strcmp_32;
+  signed int return_value_strcmp_28;
+  _Bool tmp_if_expr_30;
+  signed int return_value_strcmp_29;
+  signed int return_value_strcmp_27;
+  signed int return_value_strcmp_26;
+  _Bool tmp_if_expr_14;
+  signed int return_value_strcmp_25;
+  signed int return_value_strcmp_24;
+  signed int return_value_strcmp_21;
+  _Bool tmp_if_expr_23;
+  signed int return_value_strcmp_22;
+  signed int return_value_strcmp_20;
+  signed int return_value_strcmp_19;
+  signed int return_value_strcmp_16;
+  _Bool tmp_if_expr_18;
+  signed int return_value_strcmp_17;
   for( ; !(i >= argc); i = i + 1)
   {
-    signed int return_value_strcmp$95;
-    return_value_strcmp$95=strcmp(argv[(signed long int)i], "-p");
-    if(return_value_strcmp$95 == 0)
-      tmp_if_expr$97 = (_Bool)1;
+    signed int return_value_strcmp_95;
+    return_value_strcmp_95=strcmp(argv[(signed long int)i], "-p");
+    if(return_value_strcmp_95 == 0)
+      tmp_if_expr_97 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$96=strcmp(argv[(signed long int)i], "--port");
-      tmp_if_expr$97 = !(return_value_strcmp$96 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_96=strcmp(argv[(signed long int)i], "--port");
+      tmp_if_expr_97 = !(return_value_strcmp_96 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$97)
+    if(tmp_if_expr_97)
     {
       if(i == argc + -1)
       {
@@ -7873,11 +7873,11 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
       {
         cfg->port=atoi(argv[(signed long int)(i + 1)]);
         if(!(cfg->port >= 1))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = cfg->port > 65535 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = cfg->port > 65535 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
         {
           fprintf(stderr, "Error: Invalid port given: %d\n", cfg->port);
           return 1;
@@ -7889,8 +7889,8 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
     else
     {
-      return_value_strcmp$94=strcmp(argv[(signed long int)i], "-A");
-      if(return_value_strcmp$94 == 0)
+      return_value_strcmp_94=strcmp(argv[(signed long int)i], "-A");
+      if(return_value_strcmp_94 == 0)
       {
         if(i == argc + -1)
         {
@@ -7905,8 +7905,8 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
       else
       {
-        return_value_strcmp$93=strcmp(argv[(signed long int)i], "--cafile");
-        if(return_value_strcmp$93 == 0)
+        return_value_strcmp_93=strcmp(argv[(signed long int)i], "--cafile");
+        if(return_value_strcmp_93 == 0)
         {
           if(i == argc + -1)
           {
@@ -7921,8 +7921,8 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
         else
         {
-          return_value_strcmp$92=strcmp(argv[(signed long int)i], "--capath");
-          if(return_value_strcmp$92 == 0)
+          return_value_strcmp_92=strcmp(argv[(signed long int)i], "--capath");
+          if(return_value_strcmp_92 == 0)
           {
             if(i == argc + -1)
             {
@@ -7937,8 +7937,8 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
           else
           {
-            return_value_strcmp$91=strcmp(argv[(signed long int)i], "--cert");
-            if(return_value_strcmp$91 == 0)
+            return_value_strcmp_91=strcmp(argv[(signed long int)i], "--cert");
+            if(return_value_strcmp_91 == 0)
             {
               if(i == argc + -1)
               {
@@ -7953,8 +7953,8 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
             else
             {
-              return_value_strcmp$90=strcmp(argv[(signed long int)i], "--ciphers");
-              if(return_value_strcmp$90 == 0)
+              return_value_strcmp_90=strcmp(argv[(signed long int)i], "--ciphers");
+              if(return_value_strcmp_90 == 0)
               {
                 if(i == argc + -1)
                 {
@@ -7969,8 +7969,8 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
               else
               {
-                return_value_strcmp$89=strcmp(argv[(signed long int)i], "-C");
-                if(return_value_strcmp$89 == 0)
+                return_value_strcmp_89=strcmp(argv[(signed long int)i], "-C");
+                if(return_value_strcmp_89 == 0)
                 {
                   if(pub_or_sub == 1)
                     goto unknown_option;
@@ -7999,30 +7999,30 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                 else
                 {
-                  return_value_strcmp$86=strcmp(argv[(signed long int)i], "-d");
-                  if(return_value_strcmp$86 == 0)
-                    tmp_if_expr$88 = (_Bool)1;
+                  return_value_strcmp_86=strcmp(argv[(signed long int)i], "-d");
+                  if(return_value_strcmp_86 == 0)
+                    tmp_if_expr_88 = (_Bool)1;
 
                   else
                   {
-                    return_value_strcmp$87=strcmp(argv[(signed long int)i], "--debug");
-                    tmp_if_expr$88 = !(return_value_strcmp$87 != 0) ? (_Bool)1 : (_Bool)0;
+                    return_value_strcmp_87=strcmp(argv[(signed long int)i], "--debug");
+                    tmp_if_expr_88 = !(return_value_strcmp_87 != 0) ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$88)
+                  if(tmp_if_expr_88)
                     cfg->debug = (_Bool)1;
 
                   else
                   {
-                    return_value_strcmp$83=strcmp(argv[(signed long int)i], "-f");
-                    if(return_value_strcmp$83 == 0)
-                      tmp_if_expr$85 = (_Bool)1;
+                    return_value_strcmp_83=strcmp(argv[(signed long int)i], "-f");
+                    if(return_value_strcmp_83 == 0)
+                      tmp_if_expr_85 = (_Bool)1;
 
                     else
                     {
-                      return_value_strcmp$84=strcmp(argv[(signed long int)i], "--file");
-                      tmp_if_expr$85 = !(return_value_strcmp$84 != 0) ? (_Bool)1 : (_Bool)0;
+                      return_value_strcmp_84=strcmp(argv[(signed long int)i], "--file");
+                      tmp_if_expr_85 = !(return_value_strcmp_84 != 0) ? (_Bool)1 : (_Bool)0;
                     }
-                    if(tmp_if_expr$85)
+                    if(tmp_if_expr_85)
                     {
                       if(pub_or_sub == 2)
                         goto unknown_option;
@@ -8050,22 +8050,22 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                     else
                     {
-                      return_value_strcmp$82=strcmp(argv[(signed long int)i], "--help");
-                      if(return_value_strcmp$82 == 0)
+                      return_value_strcmp_82=strcmp(argv[(signed long int)i], "--help");
+                      if(return_value_strcmp_82 == 0)
                         return 2;
 
                       else
                       {
-                        return_value_strcmp$79=strcmp(argv[(signed long int)i], "-h");
-                        if(return_value_strcmp$79 == 0)
-                          tmp_if_expr$81 = (_Bool)1;
+                        return_value_strcmp_79=strcmp(argv[(signed long int)i], "-h");
+                        if(return_value_strcmp_79 == 0)
+                          tmp_if_expr_81 = (_Bool)1;
 
                         else
                         {
-                          return_value_strcmp$80=strcmp(argv[(signed long int)i], "--host");
-                          tmp_if_expr$81 = !(return_value_strcmp$80 != 0) ? (_Bool)1 : (_Bool)0;
+                          return_value_strcmp_80=strcmp(argv[(signed long int)i], "--host");
+                          tmp_if_expr_81 = !(return_value_strcmp_80 != 0) ? (_Bool)1 : (_Bool)0;
                         }
-                        if(tmp_if_expr$81)
+                        if(tmp_if_expr_81)
                         {
                           if(i == argc + -1)
                           {
@@ -8080,22 +8080,22 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                         else
                         {
-                          return_value_strcmp$78=strcmp(argv[(signed long int)i], "--insecure");
-                          if(return_value_strcmp$78 == 0)
+                          return_value_strcmp_78=strcmp(argv[(signed long int)i], "--insecure");
+                          if(return_value_strcmp_78 == 0)
                             cfg->insecure = (_Bool)1;
 
                           else
                           {
-                            return_value_strcmp$75=strcmp(argv[(signed long int)i], "-i");
-                            if(return_value_strcmp$75 == 0)
-                              tmp_if_expr$77 = (_Bool)1;
+                            return_value_strcmp_75=strcmp(argv[(signed long int)i], "-i");
+                            if(return_value_strcmp_75 == 0)
+                              tmp_if_expr_77 = (_Bool)1;
 
                             else
                             {
-                              return_value_strcmp$76=strcmp(argv[(signed long int)i], "--id");
-                              tmp_if_expr$77 = !(return_value_strcmp$76 != 0) ? (_Bool)1 : (_Bool)0;
+                              return_value_strcmp_76=strcmp(argv[(signed long int)i], "--id");
+                              tmp_if_expr_77 = !(return_value_strcmp_76 != 0) ? (_Bool)1 : (_Bool)0;
                             }
-                            if(tmp_if_expr$77)
+                            if(tmp_if_expr_77)
                             {
                               if(!(cfg->id_prefix == ((char *)NULL)))
                               {
@@ -8116,16 +8116,16 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                             else
                             {
-                              return_value_strcmp$72=strcmp(argv[(signed long int)i], "-I");
-                              if(return_value_strcmp$72 == 0)
-                                tmp_if_expr$74 = (_Bool)1;
+                              return_value_strcmp_72=strcmp(argv[(signed long int)i], "-I");
+                              if(return_value_strcmp_72 == 0)
+                                tmp_if_expr_74 = (_Bool)1;
 
                               else
                               {
-                                return_value_strcmp$73=strcmp(argv[(signed long int)i], "--id-prefix");
-                                tmp_if_expr$74 = !(return_value_strcmp$73 != 0) ? (_Bool)1 : (_Bool)0;
+                                return_value_strcmp_73=strcmp(argv[(signed long int)i], "--id-prefix");
+                                tmp_if_expr_74 = !(return_value_strcmp_73 != 0) ? (_Bool)1 : (_Bool)0;
                               }
-                              if(tmp_if_expr$74)
+                              if(tmp_if_expr_74)
                               {
                                 if(!(cfg->id == ((char *)NULL)))
                                 {
@@ -8146,16 +8146,16 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                               else
                               {
-                                return_value_strcmp$69=strcmp(argv[(signed long int)i], "-k");
-                                if(return_value_strcmp$69 == 0)
-                                  tmp_if_expr$71 = (_Bool)1;
+                                return_value_strcmp_69=strcmp(argv[(signed long int)i], "-k");
+                                if(return_value_strcmp_69 == 0)
+                                  tmp_if_expr_71 = (_Bool)1;
 
                                 else
                                 {
-                                  return_value_strcmp$70=strcmp(argv[(signed long int)i], "--keepalive");
-                                  tmp_if_expr$71 = !(return_value_strcmp$70 != 0) ? (_Bool)1 : (_Bool)0;
+                                  return_value_strcmp_70=strcmp(argv[(signed long int)i], "--keepalive");
+                                  tmp_if_expr_71 = !(return_value_strcmp_70 != 0) ? (_Bool)1 : (_Bool)0;
                                 }
-                                if(tmp_if_expr$71)
+                                if(tmp_if_expr_71)
                                 {
                                   if(i == argc + -1)
                                   {
@@ -8178,8 +8178,8 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                 else
                                 {
-                                  return_value_strcmp$68=strcmp(argv[(signed long int)i], "--key");
-                                  if(return_value_strcmp$68 == 0)
+                                  return_value_strcmp_68=strcmp(argv[(signed long int)i], "--key");
+                                  if(return_value_strcmp_68 == 0)
                                   {
                                     if(i == argc + -1)
                                     {
@@ -8194,16 +8194,16 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                   else
                                   {
-                                    return_value_strcmp$65=strcmp(argv[(signed long int)i], "-l");
-                                    if(return_value_strcmp$65 == 0)
-                                      tmp_if_expr$67 = (_Bool)1;
+                                    return_value_strcmp_65=strcmp(argv[(signed long int)i], "-l");
+                                    if(return_value_strcmp_65 == 0)
+                                      tmp_if_expr_67 = (_Bool)1;
 
                                     else
                                     {
-                                      return_value_strcmp$66=strcmp(argv[(signed long int)i], "--stdin-line");
-                                      tmp_if_expr$67 = !(return_value_strcmp$66 != 0) ? (_Bool)1 : (_Bool)0;
+                                      return_value_strcmp_66=strcmp(argv[(signed long int)i], "--stdin-line");
+                                      tmp_if_expr_67 = !(return_value_strcmp_66 != 0) ? (_Bool)1 : (_Bool)0;
                                     }
-                                    if(tmp_if_expr$67)
+                                    if(tmp_if_expr_67)
                                     {
                                       if(pub_or_sub == 2)
                                         goto unknown_option;
@@ -8220,16 +8220,16 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                     else
                                     {
-                                      return_value_strcmp$62=strcmp(argv[(signed long int)i], "-m");
-                                      if(return_value_strcmp$62 == 0)
-                                        tmp_if_expr$64 = (_Bool)1;
+                                      return_value_strcmp_62=strcmp(argv[(signed long int)i], "-m");
+                                      if(return_value_strcmp_62 == 0)
+                                        tmp_if_expr_64 = (_Bool)1;
 
                                       else
                                       {
-                                        return_value_strcmp$63=strcmp(argv[(signed long int)i], "--message");
-                                        tmp_if_expr$64 = !(return_value_strcmp$63 != 0) ? (_Bool)1 : (_Bool)0;
+                                        return_value_strcmp_63=strcmp(argv[(signed long int)i], "--message");
+                                        tmp_if_expr_64 = !(return_value_strcmp_63 != 0) ? (_Bool)1 : (_Bool)0;
                                       }
-                                      if(tmp_if_expr$64)
+                                      if(tmp_if_expr_64)
                                       {
                                         if(pub_or_sub == 2)
                                           goto unknown_option;
@@ -8250,9 +8250,9 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
                                           else
                                           {
                                             cfg->message=strdup(argv[(signed long int)(i + 1)]);
-                                            unsigned long int return_value_strlen$2;
-                                            return_value_strlen$2=strlen(cfg->message);
-                                            cfg->msglen = (signed long int)return_value_strlen$2;
+                                            unsigned long int return_value_strlen_2;
+                                            return_value_strlen_2=strlen(cfg->message);
+                                            cfg->msglen = (signed long int)return_value_strlen_2;
                                             cfg->pub_mode = 1;
                                           }
                                         i = i + 1;
@@ -8260,8 +8260,8 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                       else
                                       {
-                                        return_value_strcmp$61=strcmp(argv[(signed long int)i], "-M");
-                                        if(return_value_strcmp$61 == 0)
+                                        return_value_strcmp_61=strcmp(argv[(signed long int)i], "-M");
+                                        if(return_value_strcmp_61 == 0)
                                         {
                                           if(i == argc + -1)
                                           {
@@ -8271,25 +8271,25 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                           else
                                           {
-                                            signed int return_value_atoi$3;
-                                            return_value_atoi$3=atoi(argv[(signed long int)(i + 1)]);
-                                            cfg->max_inflight = (unsigned int)return_value_atoi$3;
+                                            signed int return_value_atoi_3;
+                                            return_value_atoi_3=atoi(argv[(signed long int)(i + 1)]);
+                                            cfg->max_inflight = (unsigned int)return_value_atoi_3;
                                           }
                                           i = i + 1;
                                         }
 
                                         else
                                         {
-                                          return_value_strcmp$58=strcmp(argv[(signed long int)i], "-n");
-                                          if(return_value_strcmp$58 == 0)
-                                            tmp_if_expr$60 = (_Bool)1;
+                                          return_value_strcmp_58=strcmp(argv[(signed long int)i], "-n");
+                                          if(return_value_strcmp_58 == 0)
+                                            tmp_if_expr_60 = (_Bool)1;
 
                                           else
                                           {
-                                            return_value_strcmp$59=strcmp(argv[(signed long int)i], "--null-message");
-                                            tmp_if_expr$60 = !(return_value_strcmp$59 != 0) ? (_Bool)1 : (_Bool)0;
+                                            return_value_strcmp_59=strcmp(argv[(signed long int)i], "--null-message");
+                                            tmp_if_expr_60 = !(return_value_strcmp_59 != 0) ? (_Bool)1 : (_Bool)0;
                                           }
-                                          if(tmp_if_expr$60)
+                                          if(tmp_if_expr_60)
                                           {
                                             if(pub_or_sub == 2)
                                               goto unknown_option;
@@ -8306,16 +8306,16 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                           else
                                           {
-                                            return_value_strcmp$55=strcmp(argv[(signed long int)i], "-V");
-                                            if(return_value_strcmp$55 == 0)
-                                              tmp_if_expr$57 = (_Bool)1;
+                                            return_value_strcmp_55=strcmp(argv[(signed long int)i], "-V");
+                                            if(return_value_strcmp_55 == 0)
+                                              tmp_if_expr_57 = (_Bool)1;
 
                                             else
                                             {
-                                              return_value_strcmp$56=strcmp(argv[(signed long int)i], "--protocol-version");
-                                              tmp_if_expr$57 = !(return_value_strcmp$56 != 0) ? (_Bool)1 : (_Bool)0;
+                                              return_value_strcmp_56=strcmp(argv[(signed long int)i], "--protocol-version");
+                                              tmp_if_expr_57 = !(return_value_strcmp_56 != 0) ? (_Bool)1 : (_Bool)0;
                                             }
-                                            if(tmp_if_expr$57)
+                                            if(tmp_if_expr_57)
                                             {
                                               if(i == argc + -1)
                                               {
@@ -8325,15 +8325,15 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                               else
                                               {
-                                                signed int return_value_strcmp$5;
-                                                return_value_strcmp$5=strcmp(argv[(signed long int)(i + 1)], "mqttv31");
-                                                if(return_value_strcmp$5 == 0)
+                                                signed int return_value_strcmp_5;
+                                                return_value_strcmp_5=strcmp(argv[(signed long int)(i + 1)], "mqttv31");
+                                                if(return_value_strcmp_5 == 0)
                                                   cfg->protocol_version = 3;
 
                                                 else
                                                 {
-                                                  return_value_strcmp$4=strcmp(argv[(signed long int)(i + 1)], "mqttv311");
-                                                  if(return_value_strcmp$4 == 0)
+                                                  return_value_strcmp_4=strcmp(argv[(signed long int)(i + 1)], "mqttv311");
+                                                  if(return_value_strcmp_4 == 0)
                                                     cfg->protocol_version = 4;
 
                                                   else
@@ -8348,8 +8348,8 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                             else
                                             {
-                                              return_value_strcmp$54=strcmp(argv[(signed long int)i], "--proxy");
-                                              if(return_value_strcmp$54 == 0)
+                                              return_value_strcmp_54=strcmp(argv[(signed long int)i], "--proxy");
+                                              if(return_value_strcmp_54 == 0)
                                               {
                                                 if(i == argc + -1)
                                                 {
@@ -8359,9 +8359,9 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                                 else
                                                 {
-                                                  signed int return_value_mosquitto__parse_socks_url$6;
-                                                  return_value_mosquitto__parse_socks_url$6=mosquitto__parse_socks_url(cfg, argv[(signed long int)(i + 1)]);
-                                                  if(!(return_value_mosquitto__parse_socks_url$6 == 0))
+                                                  signed int return_value_mosquitto__parse_socks_url_6;
+                                                  return_value_mosquitto__parse_socks_url_6=mosquitto__parse_socks_url(cfg, argv[(signed long int)(i + 1)]);
+                                                  if(!(return_value_mosquitto__parse_socks_url_6 == 0))
                                                     return 1;
 
                                                   i = i + 1;
@@ -8370,8 +8370,8 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                               else
                                               {
-                                                return_value_strcmp$53=strcmp(argv[(signed long int)i], "--psk");
-                                                if(return_value_strcmp$53 == 0)
+                                                return_value_strcmp_53=strcmp(argv[(signed long int)i], "--psk");
+                                                if(return_value_strcmp_53 == 0)
                                                 {
                                                   if(i == argc + -1)
                                                   {
@@ -8386,8 +8386,8 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                                 else
                                                 {
-                                                  return_value_strcmp$52=strcmp(argv[(signed long int)i], "--psk-identity");
-                                                  if(return_value_strcmp$52 == 0)
+                                                  return_value_strcmp_52=strcmp(argv[(signed long int)i], "--psk-identity");
+                                                  if(return_value_strcmp_52 == 0)
                                                   {
                                                     if(i == argc + -1)
                                                     {
@@ -8402,16 +8402,16 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                                   else
                                                   {
-                                                    return_value_strcmp$49=strcmp(argv[(signed long int)i], "-q");
-                                                    if(return_value_strcmp$49 == 0)
-                                                      tmp_if_expr$51 = (_Bool)1;
+                                                    return_value_strcmp_49=strcmp(argv[(signed long int)i], "-q");
+                                                    if(return_value_strcmp_49 == 0)
+                                                      tmp_if_expr_51 = (_Bool)1;
 
                                                     else
                                                     {
-                                                      return_value_strcmp$50=strcmp(argv[(signed long int)i], "--qos");
-                                                      tmp_if_expr$51 = !(return_value_strcmp$50 != 0) ? (_Bool)1 : (_Bool)0;
+                                                      return_value_strcmp_50=strcmp(argv[(signed long int)i], "--qos");
+                                                      tmp_if_expr_51 = !(return_value_strcmp_50 != 0) ? (_Bool)1 : (_Bool)0;
                                                     }
-                                                    if(tmp_if_expr$51)
+                                                    if(tmp_if_expr_51)
                                                     {
                                                       if(i == argc + -1)
                                                       {
@@ -8423,11 +8423,11 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
                                                       {
                                                         cfg->qos=atoi(argv[(signed long int)(i + 1)]);
                                                         if(!(cfg->qos >= 0))
-                                                          tmp_if_expr$7 = (_Bool)1;
+                                                          tmp_if_expr_7 = (_Bool)1;
 
                                                         else
-                                                          tmp_if_expr$7 = cfg->qos > 2 ? (_Bool)1 : (_Bool)0;
-                                                        if(tmp_if_expr$7)
+                                                          tmp_if_expr_7 = cfg->qos > 2 ? (_Bool)1 : (_Bool)0;
+                                                        if(tmp_if_expr_7)
                                                         {
                                                           fprintf(stderr, "Error: Invalid QoS given: %d\n", cfg->qos);
                                                           return 1;
@@ -8439,22 +8439,22 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                                     else
                                                     {
-                                                      return_value_strcmp$48=strcmp(argv[(signed long int)i], "--quiet");
-                                                      if(return_value_strcmp$48 == 0)
+                                                      return_value_strcmp_48=strcmp(argv[(signed long int)i], "--quiet");
+                                                      if(return_value_strcmp_48 == 0)
                                                         cfg->quiet = (_Bool)1;
 
                                                       else
                                                       {
-                                                        return_value_strcmp$45=strcmp(argv[(signed long int)i], "-r");
-                                                        if(return_value_strcmp$45 == 0)
-                                                          tmp_if_expr$47 = (_Bool)1;
+                                                        return_value_strcmp_45=strcmp(argv[(signed long int)i], "-r");
+                                                        if(return_value_strcmp_45 == 0)
+                                                          tmp_if_expr_47 = (_Bool)1;
 
                                                         else
                                                         {
-                                                          return_value_strcmp$46=strcmp(argv[(signed long int)i], "--retain");
-                                                          tmp_if_expr$47 = !(return_value_strcmp$46 != 0) ? (_Bool)1 : (_Bool)0;
+                                                          return_value_strcmp_46=strcmp(argv[(signed long int)i], "--retain");
+                                                          tmp_if_expr_47 = !(return_value_strcmp_46 != 0) ? (_Bool)1 : (_Bool)0;
                                                         }
-                                                        if(tmp_if_expr$47)
+                                                        if(tmp_if_expr_47)
                                                         {
                                                           if(pub_or_sub == 2)
                                                             goto unknown_option;
@@ -8464,16 +8464,16 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                                         else
                                                         {
-                                                          return_value_strcmp$42=strcmp(argv[(signed long int)i], "-s");
-                                                          if(return_value_strcmp$42 == 0)
-                                                            tmp_if_expr$44 = (_Bool)1;
+                                                          return_value_strcmp_42=strcmp(argv[(signed long int)i], "-s");
+                                                          if(return_value_strcmp_42 == 0)
+                                                            tmp_if_expr_44 = (_Bool)1;
 
                                                           else
                                                           {
-                                                            return_value_strcmp$43=strcmp(argv[(signed long int)i], "--stdin-file");
-                                                            tmp_if_expr$44 = !(return_value_strcmp$43 != 0) ? (_Bool)1 : (_Bool)0;
+                                                            return_value_strcmp_43=strcmp(argv[(signed long int)i], "--stdin-file");
+                                                            tmp_if_expr_44 = !(return_value_strcmp_43 != 0) ? (_Bool)1 : (_Bool)0;
                                                           }
-                                                          if(tmp_if_expr$44)
+                                                          if(tmp_if_expr_44)
                                                           {
                                                             if(pub_or_sub == 2)
                                                               goto unknown_option;
@@ -8490,22 +8490,22 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                                           else
                                                           {
-                                                            return_value_strcmp$41=strcmp(argv[(signed long int)i], "-S");
-                                                            if(return_value_strcmp$41 == 0)
+                                                            return_value_strcmp_41=strcmp(argv[(signed long int)i], "-S");
+                                                            if(return_value_strcmp_41 == 0)
                                                               cfg->use_srv = (_Bool)1;
 
                                                             else
                                                             {
-                                                              return_value_strcmp$38=strcmp(argv[(signed long int)i], "-t");
-                                                              if(return_value_strcmp$38 == 0)
-                                                                tmp_if_expr$40 = (_Bool)1;
+                                                              return_value_strcmp_38=strcmp(argv[(signed long int)i], "-t");
+                                                              if(return_value_strcmp_38 == 0)
+                                                                tmp_if_expr_40 = (_Bool)1;
 
                                                               else
                                                               {
-                                                                return_value_strcmp$39=strcmp(argv[(signed long int)i], "--topic");
-                                                                tmp_if_expr$40 = !(return_value_strcmp$39 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                return_value_strcmp_39=strcmp(argv[(signed long int)i], "--topic");
+                                                                tmp_if_expr_40 = !(return_value_strcmp_39 != 0) ? (_Bool)1 : (_Bool)0;
                                                               }
-                                                              if(tmp_if_expr$40)
+                                                              if(tmp_if_expr_40)
                                                               {
                                                                 if(i == argc + -1)
                                                                 {
@@ -8517,9 +8517,9 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
                                                                 {
                                                                   if(pub_or_sub == 1)
                                                                   {
-                                                                    signed int return_value_mosquitto_pub_topic_check$8;
-                                                                    return_value_mosquitto_pub_topic_check$8=mosquitto_pub_topic_check(argv[(signed long int)(i + 1)]);
-                                                                    if(return_value_mosquitto_pub_topic_check$8 == 3)
+                                                                    signed int return_value_mosquitto_pub_topic_check_8;
+                                                                    return_value_mosquitto_pub_topic_check_8=mosquitto_pub_topic_check(argv[(signed long int)(i + 1)]);
+                                                                    if(return_value_mosquitto_pub_topic_check_8 == 3)
                                                                     {
                                                                       fprintf(stderr, "Error: Invalid publish topic '%s', does it contain '+' or '#'?\n", argv[(signed long int)(i + 1)]);
                                                                       return 1;
@@ -8530,18 +8530,18 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                                                   else
                                                                   {
-                                                                    signed int return_value_mosquitto_sub_topic_check$9;
-                                                                    return_value_mosquitto_sub_topic_check$9=mosquitto_sub_topic_check(argv[(signed long int)(i + 1)]);
-                                                                    if(return_value_mosquitto_sub_topic_check$9 == 3)
+                                                                    signed int return_value_mosquitto_sub_topic_check_9;
+                                                                    return_value_mosquitto_sub_topic_check_9=mosquitto_sub_topic_check(argv[(signed long int)(i + 1)]);
+                                                                    if(return_value_mosquitto_sub_topic_check_9 == 3)
                                                                     {
                                                                       fprintf(stderr, "Error: Invalid subscription topic '%s', are all '+' and '#' wildcards correct?\n", argv[(signed long int)(i + 1)]);
                                                                       return 1;
                                                                     }
 
                                                                     cfg->topic_count = cfg->topic_count + 1;
-                                                                    void *return_value_realloc$10;
-                                                                    return_value_realloc$10=realloc((void *)cfg->topics, (unsigned long int)cfg->topic_count * sizeof(char *) /*8ul*/ );
-                                                                    cfg->topics = (char **)return_value_realloc$10;
+                                                                    void *return_value_realloc_10;
+                                                                    return_value_realloc_10=realloc((void *)cfg->topics, (unsigned long int)cfg->topic_count * sizeof(char *) /*8ul*/ );
+                                                                    cfg->topics = (char **)return_value_realloc_10;
                                                                     cfg->topics[(signed long int)(cfg->topic_count - 1)]=strdup(argv[(signed long int)(i + 1)]);
                                                                   }
                                                                   i = i + 1;
@@ -8550,16 +8550,16 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                                               else
                                                               {
-                                                                return_value_strcmp$35=strcmp(argv[(signed long int)i], "-T");
-                                                                if(return_value_strcmp$35 == 0)
-                                                                  tmp_if_expr$37 = (_Bool)1;
+                                                                return_value_strcmp_35=strcmp(argv[(signed long int)i], "-T");
+                                                                if(return_value_strcmp_35 == 0)
+                                                                  tmp_if_expr_37 = (_Bool)1;
 
                                                                 else
                                                                 {
-                                                                  return_value_strcmp$36=strcmp(argv[(signed long int)i], "--filter-out");
-                                                                  tmp_if_expr$37 = !(return_value_strcmp$36 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                  return_value_strcmp_36=strcmp(argv[(signed long int)i], "--filter-out");
+                                                                  tmp_if_expr_37 = !(return_value_strcmp_36 != 0) ? (_Bool)1 : (_Bool)0;
                                                                 }
-                                                                if(tmp_if_expr$37)
+                                                                if(tmp_if_expr_37)
                                                                 {
                                                                   if(pub_or_sub == 1)
                                                                     goto unknown_option;
@@ -8572,18 +8572,18 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                                                   else
                                                                   {
-                                                                    signed int return_value_mosquitto_sub_topic_check$11;
-                                                                    return_value_mosquitto_sub_topic_check$11=mosquitto_sub_topic_check(argv[(signed long int)(i + 1)]);
-                                                                    if(return_value_mosquitto_sub_topic_check$11 == 3)
+                                                                    signed int return_value_mosquitto_sub_topic_check_11;
+                                                                    return_value_mosquitto_sub_topic_check_11=mosquitto_sub_topic_check(argv[(signed long int)(i + 1)]);
+                                                                    if(return_value_mosquitto_sub_topic_check_11 == 3)
                                                                     {
                                                                       fprintf(stderr, "Error: Invalid filter topic '%s', are all '+' and '#' wildcards correct?\n", argv[(signed long int)(i + 1)]);
                                                                       return 1;
                                                                     }
 
                                                                     cfg->filter_out_count = cfg->filter_out_count + 1;
-                                                                    void *return_value_realloc$12;
-                                                                    return_value_realloc$12=realloc((void *)cfg->filter_outs, (unsigned long int)cfg->filter_out_count * sizeof(char *) /*8ul*/ );
-                                                                    cfg->filter_outs = (char **)return_value_realloc$12;
+                                                                    void *return_value_realloc_12;
+                                                                    return_value_realloc_12=realloc((void *)cfg->filter_outs, (unsigned long int)cfg->filter_out_count * sizeof(char *) /*8ul*/ );
+                                                                    cfg->filter_outs = (char **)return_value_realloc_12;
                                                                     cfg->filter_outs[(signed long int)(cfg->filter_out_count - 1)]=strdup(argv[(signed long int)(i + 1)]);
                                                                   }
                                                                   i = i + 1;
@@ -8591,8 +8591,8 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                                                 else
                                                                 {
-                                                                  return_value_strcmp$34=strcmp(argv[(signed long int)i], "--tls-version");
-                                                                  if(return_value_strcmp$34 == 0)
+                                                                  return_value_strcmp_34=strcmp(argv[(signed long int)i], "--tls-version");
+                                                                  if(return_value_strcmp_34 == 0)
                                                                   {
                                                                     if(i == argc + -1)
                                                                     {
@@ -8607,16 +8607,16 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                                                   else
                                                                   {
-                                                                    return_value_strcmp$31=strcmp(argv[(signed long int)i], "-u");
-                                                                    if(return_value_strcmp$31 == 0)
-                                                                      tmp_if_expr$33 = (_Bool)1;
+                                                                    return_value_strcmp_31=strcmp(argv[(signed long int)i], "-u");
+                                                                    if(return_value_strcmp_31 == 0)
+                                                                      tmp_if_expr_33 = (_Bool)1;
 
                                                                     else
                                                                     {
-                                                                      return_value_strcmp$32=strcmp(argv[(signed long int)i], "--username");
-                                                                      tmp_if_expr$33 = !(return_value_strcmp$32 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                      return_value_strcmp_32=strcmp(argv[(signed long int)i], "--username");
+                                                                      tmp_if_expr_33 = !(return_value_strcmp_32 != 0) ? (_Bool)1 : (_Bool)0;
                                                                     }
-                                                                    if(tmp_if_expr$33)
+                                                                    if(tmp_if_expr_33)
                                                                     {
                                                                       if(i == argc + -1)
                                                                       {
@@ -8631,16 +8631,16 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                                                     else
                                                                     {
-                                                                      return_value_strcmp$28=strcmp(argv[(signed long int)i], "-P");
-                                                                      if(return_value_strcmp$28 == 0)
-                                                                        tmp_if_expr$30 = (_Bool)1;
+                                                                      return_value_strcmp_28=strcmp(argv[(signed long int)i], "-P");
+                                                                      if(return_value_strcmp_28 == 0)
+                                                                        tmp_if_expr_30 = (_Bool)1;
 
                                                                       else
                                                                       {
-                                                                        return_value_strcmp$29=strcmp(argv[(signed long int)i], "--pw");
-                                                                        tmp_if_expr$30 = !(return_value_strcmp$29 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                        return_value_strcmp_29=strcmp(argv[(signed long int)i], "--pw");
+                                                                        tmp_if_expr_30 = !(return_value_strcmp_29 != 0) ? (_Bool)1 : (_Bool)0;
                                                                       }
-                                                                      if(tmp_if_expr$30)
+                                                                      if(tmp_if_expr_30)
                                                                       {
                                                                         if(i == argc + -1)
                                                                         {
@@ -8655,8 +8655,8 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                                                       else
                                                                       {
-                                                                        return_value_strcmp$27=strcmp(argv[(signed long int)i], "--will-payload");
-                                                                        if(return_value_strcmp$27 == 0)
+                                                                        return_value_strcmp_27=strcmp(argv[(signed long int)i], "--will-payload");
+                                                                        if(return_value_strcmp_27 == 0)
                                                                         {
                                                                           if(i == argc + -1)
                                                                           {
@@ -8667,17 +8667,17 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
                                                                           else
                                                                           {
                                                                             cfg->will_payload=strdup(argv[(signed long int)(i + 1)]);
-                                                                            unsigned long int return_value_strlen$13;
-                                                                            return_value_strlen$13=strlen(cfg->will_payload);
-                                                                            cfg->will_payloadlen = (signed long int)return_value_strlen$13;
+                                                                            unsigned long int return_value_strlen_13;
+                                                                            return_value_strlen_13=strlen(cfg->will_payload);
+                                                                            cfg->will_payloadlen = (signed long int)return_value_strlen_13;
                                                                           }
                                                                           i = i + 1;
                                                                         }
 
                                                                         else
                                                                         {
-                                                                          return_value_strcmp$26=strcmp(argv[(signed long int)i], "--will-qos");
-                                                                          if(return_value_strcmp$26 == 0)
+                                                                          return_value_strcmp_26=strcmp(argv[(signed long int)i], "--will-qos");
+                                                                          if(return_value_strcmp_26 == 0)
                                                                           {
                                                                             if(i == argc + -1)
                                                                             {
@@ -8689,11 +8689,11 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
                                                                             {
                                                                               cfg->will_qos=atoi(argv[(signed long int)(i + 1)]);
                                                                               if(!(cfg->will_qos >= 0))
-                                                                                tmp_if_expr$14 = (_Bool)1;
+                                                                                tmp_if_expr_14 = (_Bool)1;
 
                                                                               else
-                                                                                tmp_if_expr$14 = cfg->will_qos > 2 ? (_Bool)1 : (_Bool)0;
-                                                                              if(tmp_if_expr$14)
+                                                                                tmp_if_expr_14 = cfg->will_qos > 2 ? (_Bool)1 : (_Bool)0;
+                                                                              if(tmp_if_expr_14)
                                                                               {
                                                                                 fprintf(stderr, "Error: Invalid will QoS %d.\n\n", cfg->will_qos);
                                                                                 return 1;
@@ -8705,14 +8705,14 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                                                           else
                                                                           {
-                                                                            return_value_strcmp$25=strcmp(argv[(signed long int)i], "--will-retain");
-                                                                            if(return_value_strcmp$25 == 0)
+                                                                            return_value_strcmp_25=strcmp(argv[(signed long int)i], "--will-retain");
+                                                                            if(return_value_strcmp_25 == 0)
                                                                               cfg->will_retain = (_Bool)1;
 
                                                                             else
                                                                             {
-                                                                              return_value_strcmp$24=strcmp(argv[(signed long int)i], "--will-topic");
-                                                                              if(return_value_strcmp$24 == 0)
+                                                                              return_value_strcmp_24=strcmp(argv[(signed long int)i], "--will-topic");
+                                                                              if(return_value_strcmp_24 == 0)
                                                                               {
                                                                                 if(i == argc + -1)
                                                                                 {
@@ -8722,9 +8722,9 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                                                                 else
                                                                                 {
-                                                                                  signed int return_value_mosquitto_pub_topic_check$15;
-                                                                                  return_value_mosquitto_pub_topic_check$15=mosquitto_pub_topic_check(argv[(signed long int)(i + 1)]);
-                                                                                  if(return_value_mosquitto_pub_topic_check$15 == 3)
+                                                                                  signed int return_value_mosquitto_pub_topic_check_15;
+                                                                                  return_value_mosquitto_pub_topic_check_15=mosquitto_pub_topic_check(argv[(signed long int)(i + 1)]);
+                                                                                  if(return_value_mosquitto_pub_topic_check_15 == 3)
                                                                                   {
                                                                                     fprintf(stderr, "Error: Invalid will topic '%s', does it contain '+' or '#'?\n", argv[(signed long int)(i + 1)]);
                                                                                     return 1;
@@ -8737,16 +8737,16 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                                                               else
                                                                               {
-                                                                                return_value_strcmp$21=strcmp(argv[(signed long int)i], "-c");
-                                                                                if(return_value_strcmp$21 == 0)
-                                                                                  tmp_if_expr$23 = (_Bool)1;
+                                                                                return_value_strcmp_21=strcmp(argv[(signed long int)i], "-c");
+                                                                                if(return_value_strcmp_21 == 0)
+                                                                                  tmp_if_expr_23 = (_Bool)1;
 
                                                                                 else
                                                                                 {
-                                                                                  return_value_strcmp$22=strcmp(argv[(signed long int)i], "--disable-clean-session");
-                                                                                  tmp_if_expr$23 = !(return_value_strcmp$22 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                                  return_value_strcmp_22=strcmp(argv[(signed long int)i], "--disable-clean-session");
+                                                                                  tmp_if_expr_23 = !(return_value_strcmp_22 != 0) ? (_Bool)1 : (_Bool)0;
                                                                                 }
-                                                                                if(tmp_if_expr$23)
+                                                                                if(tmp_if_expr_23)
                                                                                 {
                                                                                   if(pub_or_sub == 1)
                                                                                     goto unknown_option;
@@ -8756,8 +8756,8 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                                                                 else
                                                                                 {
-                                                                                  return_value_strcmp$20=strcmp(argv[(signed long int)i], "-N");
-                                                                                  if(return_value_strcmp$20 == 0)
+                                                                                  return_value_strcmp_20=strcmp(argv[(signed long int)i], "-N");
+                                                                                  if(return_value_strcmp_20 == 0)
                                                                                   {
                                                                                     if(pub_or_sub == 1)
                                                                                       goto unknown_option;
@@ -8767,8 +8767,8 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                                                                   else
                                                                                   {
-                                                                                    return_value_strcmp$19=strcmp(argv[(signed long int)i], "-R");
-                                                                                    if(return_value_strcmp$19 == 0)
+                                                                                    return_value_strcmp_19=strcmp(argv[(signed long int)i], "-R");
+                                                                                    if(return_value_strcmp_19 == 0)
                                                                                     {
                                                                                       if(pub_or_sub == 1)
                                                                                         goto unknown_option;
@@ -8778,16 +8778,16 @@ static signed int client_config_line_proc(struct mosq_config *cfg, signed int pu
 
                                                                                     else
                                                                                     {
-                                                                                      return_value_strcmp$16=strcmp(argv[(signed long int)i], "-v");
-                                                                                      if(return_value_strcmp$16 == 0)
-                                                                                        tmp_if_expr$18 = (_Bool)1;
+                                                                                      return_value_strcmp_16=strcmp(argv[(signed long int)i], "-v");
+                                                                                      if(return_value_strcmp_16 == 0)
+                                                                                        tmp_if_expr_18 = (_Bool)1;
 
                                                                                       else
                                                                                       {
-                                                                                        return_value_strcmp$17=strcmp(argv[(signed long int)i], "--verbose");
-                                                                                        tmp_if_expr$18 = !(return_value_strcmp$17 != 0) ? (_Bool)1 : (_Bool)0;
+                                                                                        return_value_strcmp_17=strcmp(argv[(signed long int)i], "--verbose");
+                                                                                        tmp_if_expr_18 = !(return_value_strcmp_17 != 0) ? (_Bool)1 : (_Bool)0;
                                                                                       }
-                                                                                      if(tmp_if_expr$18)
+                                                                                      if(tmp_if_expr_18)
                                                                                       {
                                                                                         if(pub_or_sub == 1)
                                                                                           goto unknown_option;
@@ -8864,14 +8864,14 @@ signed int client_config_load(struct mosq_config *cfg, signed int pub_or_sub, si
   env=getenv("XDG_CONFIG_HOME");
   if(!(env == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(env);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen("/mosquitto_pub");
-    len = (signed int)(return_value_strlen$1 + return_value_strlen$2 + (unsigned long int)1);
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)len);
-    loc = (char *)return_value_malloc$3;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(env);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen("/mosquitto_pub");
+    len = (signed int)(return_value_strlen_1 + return_value_strlen_2 + (unsigned long int)1);
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)len);
+    loc = (char *)return_value_malloc_3;
     if(pub_or_sub == 1)
       snprintf(loc, (unsigned long int)len, "%s/mosquitto_pub", env);
 
@@ -8885,14 +8885,14 @@ signed int client_config_load(struct mosq_config *cfg, signed int pub_or_sub, si
     env=getenv("HOME");
     if(!(env == ((char *)NULL)))
     {
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(env);
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen("/.config/mosquitto_pub");
-      len = (signed int)(return_value_strlen$4 + return_value_strlen$5 + (unsigned long int)1);
-      void *return_value_malloc$6;
-      return_value_malloc$6=malloc((unsigned long int)len);
-      loc = (char *)return_value_malloc$6;
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(env);
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen("/.config/mosquitto_pub");
+      len = (signed int)(return_value_strlen_4 + return_value_strlen_5 + (unsigned long int)1);
+      void *return_value_malloc_6;
+      return_value_malloc_6=malloc((unsigned long int)len);
+      loc = (char *)return_value_malloc_6;
       if(pub_or_sub == 1)
         snprintf(loc, (unsigned long int)len, "%s/.config/mosquitto_pub", env);
 
@@ -8904,9 +8904,9 @@ signed int client_config_load(struct mosq_config *cfg, signed int pub_or_sub, si
     else
       fprintf(stderr, "Warning: Unable to locate configuration directory, default config not loaded.\n");
   }
-  char *return_value_fgets$7;
-  unsigned long int return_value_strlen$8;
-  unsigned long int return_value_strlen$9;
+  char *return_value_fgets_7;
+  unsigned long int return_value_strlen_8;
+  unsigned long int return_value_strlen_9;
   if(!(loc == ((char *)NULL)))
   {
     fptr=fopen(loc, "rt");
@@ -8914,26 +8914,26 @@ signed int client_config_load(struct mosq_config *cfg, signed int pub_or_sub, si
     {
       do
       {
-        return_value_fgets$7=fgets(line, 1024, fptr);
-        if(return_value_fgets$7 == ((char *)NULL))
+        return_value_fgets_7=fgets(line, 1024, fptr);
+        if(return_value_fgets_7 == ((char *)NULL))
           break;
 
         if(!((signed int)line[0l] == 35))
         {
           do
           {
-            return_value_strlen$8=strlen(line);
-            if(!((signed int)line[-1l + (signed long int)return_value_strlen$8] == 10))
+            return_value_strlen_8=strlen(line);
+            if(!((signed int)line[-1l + (signed long int)return_value_strlen_8] == 10))
             {
-              return_value_strlen$9=strlen(line);
-              if(!((signed int)line[-1l + (signed long int)return_value_strlen$9] == 13))
+              return_value_strlen_9=strlen(line);
+              if(!((signed int)line[-1l + (signed long int)return_value_strlen_9] == 13))
                 break;
 
             }
 
-            unsigned long int return_value_strlen$10;
-            return_value_strlen$10=strlen(line);
-            line[(signed long int)(return_value_strlen$10 - (unsigned long int)1)] = (char)0;
+            unsigned long int return_value_strlen_10;
+            return_value_strlen_10=strlen(line);
+            line[(signed long int)(return_value_strlen_10 - (unsigned long int)1)] = (char)0;
           }
           while((_Bool)1);
           args[(signed long int)1]=strtok(line, " ");
@@ -8966,11 +8966,11 @@ signed int client_config_load(struct mosq_config *cfg, signed int pub_or_sub, si
   }
 
   rc=client_config_line_proc(cfg, pub_or_sub, argc, argv);
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$15;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_15;
   if(!(rc == 0))
     return rc;
 
@@ -9015,23 +9015,23 @@ signed int client_config_load(struct mosq_config *cfg, signed int pub_or_sub, si
         }
 
         if(!(cfg->certfile == ((char *)NULL)))
-          tmp_if_expr$11 = !(cfg->keyfile != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_11 = !(cfg->keyfile != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$11 = (_Bool)0;
-        if(tmp_if_expr$11)
-          tmp_if_expr$13 = (_Bool)1;
+          tmp_if_expr_11 = (_Bool)0;
+        if(tmp_if_expr_11)
+          tmp_if_expr_13 = (_Bool)1;
 
         else
         {
           if(!(cfg->keyfile == ((char *)NULL)))
-            tmp_if_expr$12 = !(cfg->certfile != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_12 = !(cfg->certfile != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$12 = (_Bool)0;
-          tmp_if_expr$13 = tmp_if_expr$12 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_12 = (_Bool)0;
+          tmp_if_expr_13 = tmp_if_expr_12 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$13)
+        if(tmp_if_expr_13)
         {
           fprintf(stderr, "Error: Both certfile and keyfile must be provided if one of them is.\n");
           return 1;
@@ -9040,11 +9040,11 @@ signed int client_config_load(struct mosq_config *cfg, signed int pub_or_sub, si
         else
         {
           if(!(cfg->cafile == ((char *)NULL)))
-            tmp_if_expr$14 = (_Bool)1;
+            tmp_if_expr_14 = (_Bool)1;
 
           else
-            tmp_if_expr$14 = cfg->capath != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$14)
+            tmp_if_expr_14 = cfg->capath != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_14)
           {
             if(cfg->psk == ((char *)NULL))
               goto __CPROVER_DUMP_L33;
@@ -9081,11 +9081,11 @@ signed int client_config_load(struct mosq_config *cfg, signed int pub_or_sub, si
                 if((signed int)cfg->clean_session == 0)
                 {
                   if(!(cfg->id_prefix == ((char *)NULL)))
-                    tmp_if_expr$15 = (_Bool)1;
+                    tmp_if_expr_15 = (_Bool)1;
 
                   else
-                    tmp_if_expr$15 = !(cfg->id != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$15)
+                    tmp_if_expr_15 = !(cfg->id != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_15)
                   {
                     if(cfg->quiet == (_Bool)0)
                       fprintf(stderr, "Error: You must provide a client id if you are using the -c option.\n");
@@ -9138,17 +9138,17 @@ signed int client_connect(struct mosquitto *mosq, struct mosq_config *cfg)
     {
       if(rc == 14)
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        strerror_r(*return_value___errno_location$1, err, (unsigned long int)1024);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        strerror_r(*return_value___errno_location_1, err, (unsigned long int)1024);
         fprintf(stderr, "Error: %s\n", (const void *)err);
       }
 
       else
       {
-        const char *return_value_mosquitto_strerror$2;
-        return_value_mosquitto_strerror$2=mosquitto_strerror(rc);
-        fprintf(stderr, "Unable to connect (%s).\n", return_value_mosquitto_strerror$2);
+        const char *return_value_mosquitto_strerror_2;
+        return_value_mosquitto_strerror_2=mosquitto_strerror(rc);
+        fprintf(stderr, "Unable to connect (%s).\n", return_value_mosquitto_strerror_2);
       }
     }
 
@@ -9168,11 +9168,11 @@ signed int client_id_generate(struct mosq_config *cfg, const char *id_base)
   char hostname[256l];
   if(!(cfg->id_prefix == ((char *)NULL)))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(cfg->id_prefix);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)10);
-    cfg->id = (char *)return_value_malloc$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(cfg->id_prefix);
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)10);
+    cfg->id = (char *)return_value_malloc_2;
     if(cfg->id == ((char *)NULL))
     {
       if(cfg->quiet == (_Bool)0)
@@ -9182,11 +9182,11 @@ signed int client_id_generate(struct mosq_config *cfg, const char *id_base)
       return 1;
     }
 
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(cfg->id_prefix);
-    signed int return_value_getpid$4;
-    return_value_getpid$4=getpid();
-    snprintf(cfg->id, return_value_strlen$3 + (unsigned long int)10, "%s%d", cfg->id_prefix, return_value_getpid$4);
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(cfg->id_prefix);
+    signed int return_value_getpid_4;
+    return_value_getpid_4=getpid();
+    snprintf(cfg->id, return_value_strlen_3 + (unsigned long int)10, "%s%d", cfg->id_prefix, return_value_getpid_4);
   }
 
   else
@@ -9195,16 +9195,16 @@ signed int client_id_generate(struct mosq_config *cfg, const char *id_base)
       hostname[(signed long int)0] = (char)0;
       gethostname(hostname, (unsigned long int)256);
       hostname[(signed long int)255] = (char)0;
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen(id_base);
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen("/-");
-      unsigned long int return_value_strlen$7;
-      return_value_strlen$7=strlen(hostname);
-      len = (signed int)(return_value_strlen$5 + return_value_strlen$6 + (unsigned long int)6 + return_value_strlen$7);
-      void *return_value_malloc$8;
-      return_value_malloc$8=malloc((unsigned long int)len);
-      cfg->id = (char *)return_value_malloc$8;
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen(id_base);
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen("/-");
+      unsigned long int return_value_strlen_7;
+      return_value_strlen_7=strlen(hostname);
+      len = (signed int)(return_value_strlen_5 + return_value_strlen_6 + (unsigned long int)6 + return_value_strlen_7);
+      void *return_value_malloc_8;
+      return_value_malloc_8=malloc((unsigned long int)len);
+      cfg->id = (char *)return_value_malloc_8;
       if(cfg->id == ((char *)NULL))
       {
         if(cfg->quiet == (_Bool)0)
@@ -9214,12 +9214,12 @@ signed int client_id_generate(struct mosq_config *cfg, const char *id_base)
         return 1;
       }
 
-      signed int return_value_getpid$9;
-      return_value_getpid$9=getpid();
-      snprintf(cfg->id, (unsigned long int)len, "%s/%d-%s", id_base, return_value_getpid$9, (const void *)hostname);
-      unsigned long int return_value_strlen$10;
-      return_value_strlen$10=strlen(cfg->id);
-      if(return_value_strlen$10 >= 24ul)
+      signed int return_value_getpid_9;
+      return_value_getpid_9=getpid();
+      snprintf(cfg->id, (unsigned long int)len, "%s/%d-%s", id_base, return_value_getpid_9, (const void *)hostname);
+      unsigned long int return_value_strlen_10;
+      return_value_strlen_10=strlen(cfg->id);
+      if(return_value_strlen_10 >= 24ul)
         cfg->id[(signed long int)23] = (char)0;
 
     }
@@ -9232,17 +9232,17 @@ signed int client_id_generate(struct mosq_config *cfg, const char *id_base)
 signed int client_opts_set(struct mosquitto *mosq, struct mosq_config *cfg)
 {
   signed int rc;
-  signed int return_value_mosquitto_will_set$1;
-  signed int return_value_mosquitto_username_pw_set$2;
-  _Bool tmp_if_expr$4;
-  signed int return_value_mosquitto_tls_set$3;
-  signed int return_value_mosquitto_tls_insecure_set$5;
-  signed int return_value_mosquitto_tls_psk_set$6;
-  signed int return_value_mosquitto_tls_opts_set$7;
+  signed int return_value_mosquitto_will_set_1;
+  signed int return_value_mosquitto_username_pw_set_2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_mosquitto_tls_set_3;
+  signed int return_value_mosquitto_tls_insecure_set_5;
+  signed int return_value_mosquitto_tls_psk_set_6;
+  signed int return_value_mosquitto_tls_opts_set_7;
   if(!(cfg->will_topic == ((char *)NULL)))
   {
-    return_value_mosquitto_will_set$1=mosquitto_will_set(mosq, cfg->will_topic, (signed int)cfg->will_payloadlen, (const void *)cfg->will_payload, cfg->will_qos, cfg->will_retain);
-    if(return_value_mosquitto_will_set$1 == 0)
+    return_value_mosquitto_will_set_1=mosquitto_will_set(mosq, cfg->will_topic, (signed int)cfg->will_payloadlen, (const void *)cfg->will_payload, cfg->will_qos, cfg->will_retain);
+    if(return_value_mosquitto_will_set_1 == 0)
       goto __CPROVER_DUMP_L2;
 
     if(cfg->quiet == (_Bool)0)
@@ -9259,8 +9259,8 @@ signed int client_opts_set(struct mosquitto *mosq, struct mosq_config *cfg)
     ;
     if(!(cfg->username == ((char *)NULL)))
     {
-      return_value_mosquitto_username_pw_set$2=mosquitto_username_pw_set(mosq, cfg->username, cfg->password);
-      if(return_value_mosquitto_username_pw_set$2 == 0)
+      return_value_mosquitto_username_pw_set_2=mosquitto_username_pw_set(mosq, cfg->username, cfg->password);
+      if(return_value_mosquitto_username_pw_set_2 == 0)
         goto __CPROVER_DUMP_L4;
 
       if(cfg->quiet == (_Bool)0)
@@ -9276,14 +9276,14 @@ signed int client_opts_set(struct mosquitto *mosq, struct mosq_config *cfg)
     __CPROVER_DUMP_L4:
       ;
       if(!(cfg->cafile == ((char *)NULL)))
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = cfg->capath != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = cfg->capath != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
       {
-        return_value_mosquitto_tls_set$3=mosquitto_tls_set(mosq, cfg->cafile, cfg->capath, cfg->certfile, cfg->keyfile, (signed int (*)(char *, signed int, signed int, void *))(void *)0);
-        if(return_value_mosquitto_tls_set$3 == 0)
+        return_value_mosquitto_tls_set_3=mosquitto_tls_set(mosq, cfg->cafile, cfg->capath, cfg->certfile, cfg->keyfile, (signed int (*)(char *, signed int, signed int, void *))(void *)0);
+        if(return_value_mosquitto_tls_set_3 == 0)
           goto __CPROVER_DUMP_L8;
 
         if(cfg->quiet == (_Bool)0)
@@ -9300,8 +9300,8 @@ signed int client_opts_set(struct mosquitto *mosq, struct mosq_config *cfg)
         ;
         if(!(cfg->insecure == (_Bool)0))
         {
-          return_value_mosquitto_tls_insecure_set$5=mosquitto_tls_insecure_set(mosq, (_Bool)1);
-          if(return_value_mosquitto_tls_insecure_set$5 == 0)
+          return_value_mosquitto_tls_insecure_set_5=mosquitto_tls_insecure_set(mosq, (_Bool)1);
+          if(return_value_mosquitto_tls_insecure_set_5 == 0)
             goto __CPROVER_DUMP_L10;
 
           if(cfg->quiet == (_Bool)0)
@@ -9318,8 +9318,8 @@ signed int client_opts_set(struct mosquitto *mosq, struct mosq_config *cfg)
           ;
           if(!(cfg->psk == ((char *)NULL)))
           {
-            return_value_mosquitto_tls_psk_set$6=mosquitto_tls_psk_set(mosq, cfg->psk, cfg->psk_identity, (const char *)(void *)0);
-            if(return_value_mosquitto_tls_psk_set$6 == 0)
+            return_value_mosquitto_tls_psk_set_6=mosquitto_tls_psk_set(mosq, cfg->psk, cfg->psk_identity, (const char *)(void *)0);
+            if(return_value_mosquitto_tls_psk_set_6 == 0)
               goto __CPROVER_DUMP_L12;
 
             if(cfg->quiet == (_Bool)0)
@@ -9336,8 +9336,8 @@ signed int client_opts_set(struct mosquitto *mosq, struct mosq_config *cfg)
             ;
             if(!(cfg->tls_version == ((char *)NULL)))
             {
-              return_value_mosquitto_tls_opts_set$7=mosquitto_tls_opts_set(mosq, 1, cfg->tls_version, cfg->ciphers);
-              if(return_value_mosquitto_tls_opts_set$7 == 0)
+              return_value_mosquitto_tls_opts_set_7=mosquitto_tls_opts_set(mosq, 1, cfg->tls_version, cfg->ciphers);
+              if(return_value_mosquitto_tls_opts_set_7 == 0)
                 goto __CPROVER_DUMP_L14;
 
               if(cfg->quiet == (_Bool)0)
@@ -9443,9 +9443,9 @@ signed int load_file(const char *filename)
         }
 
     fseek(fptr, (signed long int)0, 0);
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)msglen);
-    message = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)msglen);
+    message = (char *)return_value_malloc_1;
     if(message == ((char *)NULL))
     {
       fclose(fptr);
@@ -9460,9 +9460,9 @@ signed int load_file(const char *filename)
       pos = (signed long int)0;
       while(!(pos >= msglen))
       {
-        unsigned long int return_value_fread$2;
-        return_value_fread$2=fread((void *)&message[pos], sizeof(char) /*1ul*/ , (unsigned long int)(msglen - pos), fptr);
-        rlen = (signed long int)return_value_fread$2;
+        unsigned long int return_value_fread_2;
+        return_value_fread_2=fread((void *)&message[pos], sizeof(char) /*1ul*/ , (unsigned long int)(msglen - pos), fptr);
+        rlen = (signed long int)return_value_fread_2;
         pos = pos + rlen;
       }
       fclose(fptr);
@@ -9480,19 +9480,19 @@ signed int load_stdin(void)
   char buf[1024l];
   char *aux_message = (char *)(void *)0;
   mode = 3;
-  signed int return_value_feof$1;
+  signed int return_value_feof_1;
   do
   {
-    return_value_feof$1=feof(stdin);
-    if(!(return_value_feof$1 == 0))
+    return_value_feof_1=feof(stdin);
+    if(!(return_value_feof_1 == 0))
       break;
 
-    unsigned long int return_value_fread$2;
-    return_value_fread$2=fread((void *)buf, (unsigned long int)1, (unsigned long int)1024, stdin);
-    rlen = (signed long int)return_value_fread$2;
-    void *return_value_realloc$3;
-    return_value_realloc$3=realloc((void *)message, (unsigned long int)(pos + rlen));
-    aux_message = (char *)return_value_realloc$3;
+    unsigned long int return_value_fread_2;
+    return_value_fread_2=fread((void *)buf, (unsigned long int)1, (unsigned long int)1024, stdin);
+    rlen = (signed long int)return_value_fread_2;
+    void *return_value_realloc_3;
+    return_value_realloc_3=realloc((void *)message, (unsigned long int)(pos + rlen));
+    aux_message = (char *)return_value_realloc_3;
     if(aux_message == ((char *)NULL))
     {
       if(quiet == (_Bool)0)
@@ -9534,10 +9534,10 @@ signed int main(signed int argc, char **argv)
   signed int buf_len_actual;
   signed int read_len;
   signed int pos;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)buf_len);
-  buf = (char *)return_value_malloc$1;
-  char *return_value_fgets$7;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)buf_len);
+  buf = (char *)return_value_malloc_1;
+  char *return_value_fgets_7;
   if(buf == ((char *)NULL))
   {
     fprintf(stderr, "Error: Out of memory.\n");
@@ -9572,9 +9572,9 @@ signed int main(signed int argc, char **argv)
       quiet = cfg.quiet;
       if(cfg.pub_mode == 3)
       {
-        signed int return_value_load_stdin$2;
-        return_value_load_stdin$2=load_stdin();
-        if(!(return_value_load_stdin$2 == 0))
+        signed int return_value_load_stdin_2;
+        return_value_load_stdin_2=load_stdin();
+        if(!(return_value_load_stdin_2 == 0))
         {
           fprintf(stderr, "Error loading input from stdin.\n");
           return 1;
@@ -9585,9 +9585,9 @@ signed int main(signed int argc, char **argv)
       else
         if(!(cfg.file_input == ((char *)NULL)))
         {
-          signed int return_value_load_file$3;
-          return_value_load_file$3=load_file(cfg.file_input);
-          if(!(return_value_load_file$3 == 0))
+          signed int return_value_load_file_3;
+          return_value_load_file_3=load_file(cfg.file_input);
+          if(!(return_value_load_file_3 == 0))
           {
             fprintf(stderr, "Error loading input file \"%s\".\n", cfg.file_input);
             return 1;
@@ -9605,9 +9605,9 @@ signed int main(signed int argc, char **argv)
       else
       {
         mosquitto_lib_init();
-        signed int return_value_client_id_generate$4;
-        return_value_client_id_generate$4=client_id_generate(&cfg, "mosqpub");
-        if(!(return_value_client_id_generate$4 == 0))
+        signed int return_value_client_id_generate_4;
+        return_value_client_id_generate_4=client_id_generate(&cfg, "mosqpub");
+        if(!(return_value_client_id_generate_4 == 0))
           return 1;
 
         else
@@ -9615,9 +9615,9 @@ signed int main(signed int argc, char **argv)
           mosq=mosquitto_new(cfg.id, (_Bool)1, (void *)0);
           if(mosq == ((struct mosquitto *)NULL))
           {
-            signed int *return_value___errno_location$5;
-            return_value___errno_location$5=__errno_location();
-            switch(*return_value___errno_location$5)
+            signed int *return_value___errno_location_5;
+            return_value___errno_location_5=__errno_location();
+            switch(*return_value___errno_location_5)
             {
               case 12:
               {
@@ -9641,9 +9641,9 @@ signed int main(signed int argc, char **argv)
           mosquitto_connect_callback_set(mosq, my_connect_callback);
           mosquitto_disconnect_callback_set(mosq, my_disconnect_callback);
           mosquitto_publish_callback_set(mosq, my_publish_callback);
-          signed int return_value_client_opts_set$6;
-          return_value_client_opts_set$6=client_opts_set(mosq, &cfg);
-          if(!(return_value_client_opts_set$6 == 0))
+          signed int return_value_client_opts_set_6;
+          return_value_client_opts_set_6=client_opts_set(mosq, &cfg);
+          if(!(return_value_client_opts_set_6 == 0))
             return 1;
 
           else
@@ -9667,13 +9667,13 @@ signed int main(signed int argc, char **argv)
                     read_len = buf_len;
                     do
                     {
-                      return_value_fgets$7=fgets(&buf[(signed long int)pos], read_len, stdin);
-                      if(return_value_fgets$7 == ((char *)NULL))
+                      return_value_fgets_7=fgets(&buf[(signed long int)pos], read_len, stdin);
+                      if(return_value_fgets_7 == ((char *)NULL))
                         break;
 
-                      unsigned long int return_value_strlen$8;
-                      return_value_strlen$8=strlen(buf);
-                      buf_len_actual = (signed int)return_value_strlen$8;
+                      unsigned long int return_value_strlen_8;
+                      return_value_strlen_8=strlen(buf);
+                      buf_len_actual = (signed int)return_value_strlen_8;
                       if((signed int)buf[(signed long int)(buf_len_actual + -1)] == 10)
                       {
                         buf[(signed long int)(buf_len_actual - 1)] = (char)0;
@@ -9694,9 +9694,9 @@ signed int main(signed int argc, char **argv)
                         buf_len = buf_len + 1024;
                         pos = pos + 1023;
                         read_len = 1024;
-                        void *return_value_realloc$9;
-                        return_value_realloc$9=realloc((void *)buf, (unsigned long int)buf_len);
-                        buf = (char *)return_value_realloc$9;
+                        void *return_value_realloc_9;
+                        return_value_realloc_9=realloc((void *)buf, (unsigned long int)buf_len);
+                        buf = (char *)return_value_realloc_9;
                         if(buf == ((char *)NULL))
                         {
                           fprintf(stderr, "Error: Out of memory.\n");
@@ -9706,9 +9706,9 @@ signed int main(signed int argc, char **argv)
                       }
                     }
                     while((_Bool)1);
-                    signed int return_value_feof$10;
-                    return_value_feof$10=feof(stdin);
-                    if(!(return_value_feof$10 == 0))
+                    signed int return_value_feof_10;
+                    return_value_feof_10=feof(stdin);
+                    if(!(return_value_feof_10 == 0))
                     {
                       last_mid = mid_sent;
                       status = 2;
@@ -9747,9 +9747,9 @@ signed int main(signed int argc, char **argv)
               mosquitto_lib_cleanup();
               if(!(rc == 0))
               {
-                const char *return_value_mosquitto_strerror$11;
-                return_value_mosquitto_strerror$11=mosquitto_strerror(rc);
-                fprintf(stderr, "Error: %s\n", return_value_mosquitto_strerror$11);
+                const char *return_value_mosquitto_strerror_11;
+                return_value_mosquitto_strerror_11=mosquitto_strerror(rc);
+                fprintf(stderr, "Error: %s\n", return_value_mosquitto_strerror_11);
               }
 
               return rc;
@@ -9777,9 +9777,9 @@ signed int mosquitto__cmp_hostname_wildcard(char *certname, const char *hostname
         return 1;
 
       certname = certname + (signed long int)2;
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(hostname);
-      len = (signed int)return_value_strlen$1;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(hostname);
+      len = (signed int)return_value_strlen_1;
       i = 0;
       for( ; !(i >= len + -1); i = i + 1)
         if((signed int)hostname[(signed long int)i] == 46)
@@ -9788,16 +9788,16 @@ signed int mosquitto__cmp_hostname_wildcard(char *certname, const char *hostname
           break;
         }
 
-      signed int return_value_strcasecmp$2;
-      return_value_strcasecmp$2=strcasecmp(certname, hostname);
-      return return_value_strcasecmp$2;
+      signed int return_value_strcasecmp_2;
+      return_value_strcasecmp_2=strcasecmp(certname, hostname);
+      return return_value_strcasecmp_2;
     }
 
     else
     {
-      signed int return_value_strcasecmp$3;
-      return_value_strcasecmp$3=strcasecmp(certname, hostname);
-      return return_value_strcasecmp$3;
+      signed int return_value_strcasecmp_3;
+      return_value_strcasecmp_3=strcasecmp(certname, hostname);
+      return return_value_strcasecmp_3;
     }
 }
 
@@ -9807,8 +9807,8 @@ static signed int mosquitto__parse_socks_url(struct mosq_config *cfg, char *url)
 {
   char *str;
   signed int i;
-  char *mosquitto__parse_socks_url$$1$$username = (char *)(void *)0;
-  char *mosquitto__parse_socks_url$$1$$password = (char *)(void *)0;
+  char *mosquitto__parse_socks_url__1__username = (char *)(void *)0;
+  char *mosquitto__parse_socks_url__1__password = (char *)(void *)0;
   char *host = (char *)(void *)0;
   char *port = (char *)(void *)0;
   char *username_or_host = (char *)(void *)0;
@@ -9816,15 +9816,15 @@ static signed int mosquitto__parse_socks_url(struct mosq_config *cfg, char *url)
   signed int len;
   _Bool have_auth = (_Bool)0;
   signed int port_int;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen("socks5h://");
-  signed int return_value_strncmp$3;
-  return_value_strncmp$3=strncmp(url, "socks5h://", return_value_strlen$2);
-  if(return_value_strncmp$3 == 0)
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen("socks5h://");
+  signed int return_value_strncmp_3;
+  return_value_strncmp_3=strncmp(url, "socks5h://", return_value_strlen_2);
+  if(return_value_strncmp_3 == 0)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen("socks5h://");
-    str = url + (signed long int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen("socks5h://");
+    str = url + (signed long int)return_value_strlen_1;
   }
 
   else
@@ -9834,11 +9834,11 @@ static signed int mosquitto__parse_socks_url(struct mosq_config *cfg, char *url)
   }
   start = 0;
   i = 0;
-  unsigned long int return_value_strlen$4;
+  unsigned long int return_value_strlen_4;
   do
   {
-    return_value_strlen$4=strlen(str);
-    if((unsigned long int)i >= return_value_strlen$4)
+    return_value_strlen_4=strlen(str);
+    if((unsigned long int)i >= return_value_strlen_4)
       break;
 
     if((signed int)str[(signed long int)i] == 58)
@@ -9852,9 +9852,9 @@ static signed int mosquitto__parse_socks_url(struct mosq_config *cfg, char *url)
           goto cleanup;
 
         len = i - start;
-        void *return_value_malloc$5;
-        return_value_malloc$5=malloc((unsigned long int)(len + 1));
-        host = (char *)return_value_malloc$5;
+        void *return_value_malloc_5;
+        return_value_malloc_5=malloc((unsigned long int)(len + 1));
+        host = (char *)return_value_malloc_5;
         memcpy((void *)host, (const void *)&str[(signed long int)start], (unsigned long int)len);
         host[(signed long int)len] = (char)0;
         start = i + 1;
@@ -9864,9 +9864,9 @@ static signed int mosquitto__parse_socks_url(struct mosq_config *cfg, char *url)
         if(username_or_host == ((char *)NULL))
         {
           len = i - start;
-          void *return_value_malloc$6;
-          return_value_malloc$6=malloc((unsigned long int)(len + 1));
-          username_or_host = (char *)return_value_malloc$6;
+          void *return_value_malloc_6;
+          return_value_malloc_6=malloc((unsigned long int)(len + 1));
+          username_or_host = (char *)return_value_malloc_6;
           memcpy((void *)username_or_host, (const void *)&str[(signed long int)start], (unsigned long int)len);
           username_or_host[(signed long int)len] = (char)0;
           start = i + 1;
@@ -9883,28 +9883,28 @@ static signed int mosquitto__parse_socks_url(struct mosq_config *cfg, char *url)
         have_auth = (_Bool)1;
         if(!(username_or_host == ((char *)NULL)))
         {
-          mosquitto__parse_socks_url$$1$$username = username_or_host;
+          mosquitto__parse_socks_url__1__username = username_or_host;
           username_or_host = (char *)(void *)0;
           len = i - start;
-          void *return_value_malloc$7;
-          return_value_malloc$7=malloc((unsigned long int)(len + 1));
-          mosquitto__parse_socks_url$$1$$password = (char *)return_value_malloc$7;
-          memcpy((void *)mosquitto__parse_socks_url$$1$$password, (const void *)&str[(signed long int)start], (unsigned long int)len);
-          mosquitto__parse_socks_url$$1$$password[(signed long int)len] = (char)0;
+          void *return_value_malloc_7;
+          return_value_malloc_7=malloc((unsigned long int)(len + 1));
+          mosquitto__parse_socks_url__1__password = (char *)return_value_malloc_7;
+          memcpy((void *)mosquitto__parse_socks_url__1__password, (const void *)&str[(signed long int)start], (unsigned long int)len);
+          mosquitto__parse_socks_url__1__password[(signed long int)len] = (char)0;
           start = i + 1;
         }
 
         else
         {
-          if(!(mosquitto__parse_socks_url$$1$$username == ((char *)NULL)))
+          if(!(mosquitto__parse_socks_url__1__username == ((char *)NULL)))
             goto cleanup;
 
           len = i - start;
-          void *return_value_malloc$8;
-          return_value_malloc$8=malloc((unsigned long int)(len + 1));
-          mosquitto__parse_socks_url$$1$$username = (char *)return_value_malloc$8;
-          memcpy((void *)mosquitto__parse_socks_url$$1$$username, (const void *)&str[(signed long int)start], (unsigned long int)len);
-          mosquitto__parse_socks_url$$1$$username[(signed long int)len] = (char)0;
+          void *return_value_malloc_8;
+          return_value_malloc_8=malloc((unsigned long int)(len + 1));
+          mosquitto__parse_socks_url__1__username = (char *)return_value_malloc_8;
+          memcpy((void *)mosquitto__parse_socks_url__1__username, (const void *)&str[(signed long int)start], (unsigned long int)len);
+          mosquitto__parse_socks_url__1__username[(signed long int)len] = (char)0;
           start = i + 1;
         }
       }
@@ -9917,9 +9917,9 @@ static signed int mosquitto__parse_socks_url(struct mosq_config *cfg, char *url)
     len = i - start;
     if(!(host == ((char *)NULL)))
     {
-      void *return_value_malloc$9;
-      return_value_malloc$9=malloc((unsigned long int)(len + 1));
-      port = (char *)return_value_malloc$9;
+      void *return_value_malloc_9;
+      return_value_malloc_9=malloc((unsigned long int)(len + 1));
+      port = (char *)return_value_malloc_9;
       memcpy((void *)port, (const void *)&str[(signed long int)start], (unsigned long int)len);
       port[(signed long int)len] = (char)0;
     }
@@ -9929,35 +9929,35 @@ static signed int mosquitto__parse_socks_url(struct mosq_config *cfg, char *url)
       {
         host = username_or_host;
         username_or_host = (char *)(void *)0;
-        void *return_value_malloc$10;
-        return_value_malloc$10=malloc((unsigned long int)(len + 1));
-        port = (char *)return_value_malloc$10;
+        void *return_value_malloc_10;
+        return_value_malloc_10=malloc((unsigned long int)(len + 1));
+        port = (char *)return_value_malloc_10;
         memcpy((void *)port, (const void *)&str[(signed long int)start], (unsigned long int)len);
         port[(signed long int)len] = (char)0;
       }
 
       else
       {
-        void *return_value_malloc$11;
-        return_value_malloc$11=malloc((unsigned long int)(len + 1));
-        host = (char *)return_value_malloc$11;
+        void *return_value_malloc_11;
+        return_value_malloc_11=malloc((unsigned long int)(len + 1));
+        host = (char *)return_value_malloc_11;
         memcpy((void *)host, (const void *)&str[(signed long int)start], (unsigned long int)len);
         host[(signed long int)len] = (char)0;
       }
   }
 
-  signed int return_value_mosquitto__urldecode$12;
-  signed int return_value_mosquitto__urldecode$13;
+  signed int return_value_mosquitto__urldecode_12;
+  signed int return_value_mosquitto__urldecode_13;
   if(host == ((char *)NULL))
     fprintf(stderr, "Error: Invalid proxy.\n");
 
   else
   {
-    return_value_mosquitto__urldecode$12=mosquitto__urldecode(mosquitto__parse_socks_url$$1$$username);
-    if(return_value_mosquitto__urldecode$12 == 0)
+    return_value_mosquitto__urldecode_12=mosquitto__urldecode(mosquitto__parse_socks_url__1__username);
+    if(return_value_mosquitto__urldecode_12 == 0)
     {
-      return_value_mosquitto__urldecode$13=mosquitto__urldecode(mosquitto__parse_socks_url$$1$$password);
-      if(return_value_mosquitto__urldecode$13 == 0)
+      return_value_mosquitto__urldecode_13=mosquitto__urldecode(mosquitto__parse_socks_url__1__password);
+      if(return_value_mosquitto__urldecode_13 == 0)
       {
         if(!(port == ((char *)NULL)))
         {
@@ -9973,8 +9973,8 @@ static signed int mosquitto__parse_socks_url(struct mosq_config *cfg, char *url)
 
         else
           port_int = 1080;
-        cfg->socks5_username = mosquitto__parse_socks_url$$1$$username;
-        cfg->socks5_password = mosquitto__parse_socks_url$$1$$password;
+        cfg->socks5_username = mosquitto__parse_socks_url__1__username;
+        cfg->socks5_password = mosquitto__parse_socks_url__1__password;
         cfg->socks5_host = host;
         cfg->socks5_port = port_int;
         return 0;
@@ -9989,11 +9989,11 @@ cleanup:
   if(!(username_or_host == ((char *)NULL)))
     free((void *)username_or_host);
 
-  if(!(mosquitto__parse_socks_url$$1$$username == ((char *)NULL)))
-    free((void *)mosquitto__parse_socks_url$$1$$username);
+  if(!(mosquitto__parse_socks_url__1__username == ((char *)NULL)))
+    free((void *)mosquitto__parse_socks_url__1__username);
 
-  if(!(mosquitto__parse_socks_url$$1$$password == ((char *)NULL)))
-    free((void *)mosquitto__parse_socks_url$$1$$password);
+  if(!(mosquitto__parse_socks_url__1__password == ((char *)NULL)))
+    free((void *)mosquitto__parse_socks_url__1__password);
 
   if(!(host == ((char *)NULL)))
     free((void *)host);
@@ -10043,14 +10043,14 @@ signed int mosquitto__socks5_read(struct mosquitto *mosq)
   signed long int len;
   unsigned char *payload;
   unsigned char i;
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
-  signed int return_value_mosquitto__socks5_send$5;
-  signed int return_value_mosquitto__socks5_send$6;
-  _Bool tmp_if_expr$10;
-  signed int *return_value___errno_location$9;
-  _Bool tmp_if_expr$15;
-  signed int *return_value___errno_location$14;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
+  signed int return_value_mosquitto__socks5_send_5;
+  signed int return_value_mosquitto__socks5_send_6;
+  _Bool tmp_if_expr_10;
+  signed int *return_value___errno_location_9;
+  _Bool tmp_if_expr_15;
+  signed int *return_value___errno_location_14;
   if((signed int)mosq->state == mosq_cs_socks5_start)
   {
     while(mosq->in_packet.to_process >= 1u)
@@ -10064,25 +10064,25 @@ signed int mosquitto__socks5_read(struct mosquitto *mosq)
 
       else
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        if(*return_value___errno_location$2 == 11)
-          tmp_if_expr$4 = (_Bool)1;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        if(*return_value___errno_location_2 == 11)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
-          return_value___errno_location$3=__errno_location();
-          tmp_if_expr$4 = *return_value___errno_location$3 == 11 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_3=__errno_location();
+          tmp_if_expr_4 = *return_value___errno_location_3 == 11 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
           return 0;
 
         else
         {
           _mosquitto_packet_cleanup(&mosq->in_packet);
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          switch(*return_value___errno_location$1)
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          switch(*return_value___errno_location_1)
           {
             case 0:
               return 16;
@@ -10106,15 +10106,15 @@ signed int mosquitto__socks5_read(struct mosquitto *mosq)
       {
         _mosquitto_packet_cleanup(&mosq->in_packet);
         mosq->state = (enum mosquitto_client_state)mosq_cs_socks5_auth_ok;
-        return_value_mosquitto__socks5_send$5=mosquitto__socks5_send(mosq);
-        return return_value_mosquitto__socks5_send$5;
+        return_value_mosquitto__socks5_send_5=mosquitto__socks5_send(mosq);
+        return return_value_mosquitto__socks5_send_5;
       }
       case 0x02:
       {
         _mosquitto_packet_cleanup(&mosq->in_packet);
         mosq->state = (enum mosquitto_client_state)mosq_cs_socks5_send_userpass;
-        return_value_mosquitto__socks5_send$6=mosquitto__socks5_send(mosq);
-        return return_value_mosquitto__socks5_send$6;
+        return_value_mosquitto__socks5_send_6=mosquitto__socks5_send(mosq);
+        return return_value_mosquitto__socks5_send_6;
       }
       default:
       {
@@ -10138,25 +10138,25 @@ signed int mosquitto__socks5_read(struct mosquitto *mosq)
 
         else
         {
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          if(*return_value___errno_location$8 == 11)
-            tmp_if_expr$10 = (_Bool)1;
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          if(*return_value___errno_location_8 == 11)
+            tmp_if_expr_10 = (_Bool)1;
 
           else
           {
-            return_value___errno_location$9=__errno_location();
-            tmp_if_expr$10 = *return_value___errno_location$9 == 11 ? (_Bool)1 : (_Bool)0;
+            return_value___errno_location_9=__errno_location();
+            tmp_if_expr_10 = *return_value___errno_location_9 == 11 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$10)
+          if(tmp_if_expr_10)
             return 0;
 
           else
           {
             _mosquitto_packet_cleanup(&mosq->in_packet);
-            signed int *return_value___errno_location$7;
-            return_value___errno_location$7=__errno_location();
-            switch(*return_value___errno_location$7)
+            signed int *return_value___errno_location_7;
+            return_value___errno_location_7=__errno_location();
+            switch(*return_value___errno_location_7)
             {
               case 0:
                 return 16;
@@ -10178,9 +10178,9 @@ signed int mosquitto__socks5_read(struct mosquitto *mosq)
       {
         _mosquitto_packet_cleanup(&mosq->in_packet);
         mosq->state = (enum mosquitto_client_state)mosq_cs_socks5_auth_ok;
-        signed int return_value_mosquitto__socks5_send$11;
-        return_value_mosquitto__socks5_send$11=mosquitto__socks5_send(mosq);
-        return return_value_mosquitto__socks5_send$11;
+        signed int return_value_mosquitto__socks5_send_11;
+        return_value_mosquitto__socks5_send_11=mosquitto__socks5_send(mosq);
+        return return_value_mosquitto__socks5_send_11;
       }
 
       else
@@ -10226,25 +10226,25 @@ signed int mosquitto__socks5_read(struct mosquitto *mosq)
 
           else
           {
-            signed int *return_value___errno_location$13;
-            return_value___errno_location$13=__errno_location();
-            if(*return_value___errno_location$13 == 11)
-              tmp_if_expr$15 = (_Bool)1;
+            signed int *return_value___errno_location_13;
+            return_value___errno_location_13=__errno_location();
+            if(*return_value___errno_location_13 == 11)
+              tmp_if_expr_15 = (_Bool)1;
 
             else
             {
-              return_value___errno_location$14=__errno_location();
-              tmp_if_expr$15 = *return_value___errno_location$14 == 11 ? (_Bool)1 : (_Bool)0;
+              return_value___errno_location_14=__errno_location();
+              tmp_if_expr_15 = *return_value___errno_location_14 == 11 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$15)
+            if(tmp_if_expr_15)
               return 0;
 
             else
             {
               _mosquitto_packet_cleanup(&mosq->in_packet);
-              signed int *return_value___errno_location$12;
-              return_value___errno_location$12=__errno_location();
-              switch(*return_value___errno_location$12)
+              signed int *return_value___errno_location_12;
+              return_value___errno_location_12=__errno_location();
+              switch(*return_value___errno_location_12)
               {
                 case 0:
                   return 16;
@@ -10291,9 +10291,9 @@ signed int mosquitto__socks5_read(struct mosquitto *mosq)
                 _mosquitto_packet_cleanup(&mosq->in_packet);
                 return 2;
               }
-          void *return_value__mosquitto_realloc$16;
-          return_value__mosquitto_realloc$16=_mosquitto_realloc((void *)mosq->in_packet.payload, (unsigned long int)mosq->in_packet.packet_length);
-          payload = (unsigned char *)return_value__mosquitto_realloc$16;
+          void *return_value__mosquitto_realloc_16;
+          return_value__mosquitto_realloc_16=_mosquitto_realloc((void *)mosq->in_packet.payload, (unsigned long int)mosq->in_packet.packet_length);
+          payload = (unsigned char *)return_value__mosquitto_realloc_16;
           if(!(payload == ((unsigned char *)NULL)))
             mosq->in_packet.payload = payload;
 
@@ -10315,9 +10315,9 @@ signed int mosquitto__socks5_read(struct mosquitto *mosq)
         {
           _mosquitto_packet_cleanup(&mosq->in_packet);
           mosq->state = (enum mosquitto_client_state)mosq_cs_new;
-          signed int return_value__mosquitto_send_connect$17;
-          return_value__mosquitto_send_connect$17=_mosquitto_send_connect(mosq, mosq->keepalive, mosq->clean_session);
-          return return_value__mosquitto_send_connect$17;
+          signed int return_value__mosquitto_send_connect_17;
+          return_value__mosquitto_send_connect_17=_mosquitto_send_connect(mosq, mosq->keepalive, mosq->clean_session);
+          return return_value__mosquitto_send_connect_17;
         }
 
         else
@@ -10351,9 +10351,9 @@ signed int mosquitto__socks5_read(struct mosquitto *mosq)
 
       else
       {
-        signed int return_value__mosquitto_packet_read$18;
-        return_value__mosquitto_packet_read$18=_mosquitto_packet_read(mosq);
-        return return_value__mosquitto_packet_read$18;
+        signed int return_value__mosquitto_packet_read_18;
+        return_value__mosquitto_packet_read_18=_mosquitto_packet_read(mosq);
+        return return_value__mosquitto_packet_read_18;
       }
   return 0;
 }
@@ -10368,9 +10368,9 @@ signed int mosquitto__socks5_send(struct mosquitto *mosq)
   signed int plen;
   if((signed int)mosq->state == mosq_cs_socks5_new)
   {
-    void *return_value__mosquitto_calloc$1;
-    return_value__mosquitto_calloc$1=_mosquitto_calloc((unsigned long int)1, sizeof(struct _mosquitto_packet) /*40ul*/ );
-    packet = (struct _mosquitto_packet *)return_value__mosquitto_calloc$1;
+    void *return_value__mosquitto_calloc_1;
+    return_value__mosquitto_calloc_1=_mosquitto_calloc((unsigned long int)1, sizeof(struct _mosquitto_packet) /*40ul*/ );
+    packet = (struct _mosquitto_packet *)return_value__mosquitto_calloc_1;
     if(packet == ((struct _mosquitto_packet *)NULL))
       return 1;
 
@@ -10379,9 +10379,9 @@ signed int mosquitto__socks5_send(struct mosquitto *mosq)
 
     else
       packet->packet_length = (unsigned int)3;
-    void *return_value__mosquitto_malloc$2;
-    return_value__mosquitto_malloc$2=_mosquitto_malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)packet->packet_length);
-    packet->payload = (unsigned char *)return_value__mosquitto_malloc$2;
+    void *return_value__mosquitto_malloc_2;
+    return_value__mosquitto_malloc_2=_mosquitto_malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)packet->packet_length);
+    packet->payload = (unsigned char *)return_value__mosquitto_malloc_2;
     packet->payload[(signed long int)0] = (unsigned char)0x05;
     if(!(mosq->socks5_username == ((char *)NULL)))
     {
@@ -10401,9 +10401,9 @@ signed int mosquitto__socks5_send(struct mosquitto *mosq)
     mosq->in_packet.pos = (unsigned int)0;
     mosq->in_packet.packet_length = (unsigned int)2;
     mosq->in_packet.to_process = (unsigned int)2;
-    void *return_value__mosquitto_malloc$3;
-    return_value__mosquitto_malloc$3=_mosquitto_malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)2);
-    mosq->in_packet.payload = (unsigned char *)return_value__mosquitto_malloc$3;
+    void *return_value__mosquitto_malloc_3;
+    return_value__mosquitto_malloc_3=_mosquitto_malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)2);
+    mosq->in_packet.payload = (unsigned char *)return_value__mosquitto_malloc_3;
     if(mosq->in_packet.payload == ((unsigned char *)NULL))
     {
       _mosquitto_free((void *)packet->payload);
@@ -10411,29 +10411,29 @@ signed int mosquitto__socks5_send(struct mosquitto *mosq)
       return 1;
     }
 
-    signed int return_value__mosquitto_packet_queue$4;
-    return_value__mosquitto_packet_queue$4=_mosquitto_packet_queue(mosq, packet);
-    return return_value__mosquitto_packet_queue$4;
+    signed int return_value__mosquitto_packet_queue_4;
+    return_value__mosquitto_packet_queue_4=_mosquitto_packet_queue(mosq, packet);
+    return return_value__mosquitto_packet_queue_4;
   }
 
   else
     if((signed int)mosq->state == mosq_cs_socks5_auth_ok)
     {
-      void *return_value__mosquitto_calloc$5;
-      return_value__mosquitto_calloc$5=_mosquitto_calloc((unsigned long int)1, sizeof(struct _mosquitto_packet) /*40ul*/ );
-      packet = (struct _mosquitto_packet *)return_value__mosquitto_calloc$5;
+      void *return_value__mosquitto_calloc_5;
+      return_value__mosquitto_calloc_5=_mosquitto_calloc((unsigned long int)1, sizeof(struct _mosquitto_packet) /*40ul*/ );
+      packet = (struct _mosquitto_packet *)return_value__mosquitto_calloc_5;
       if(packet == ((struct _mosquitto_packet *)NULL))
         return 1;
 
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen(mosq->host);
-      packet->packet_length = (unsigned int)((unsigned long int)7 + return_value_strlen$6);
-      void *return_value__mosquitto_malloc$7;
-      return_value__mosquitto_malloc$7=_mosquitto_malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)packet->packet_length);
-      packet->payload = (unsigned char *)return_value__mosquitto_malloc$7;
-      unsigned long int return_value_strlen$8;
-      return_value_strlen$8=strlen(mosq->host);
-      slen = (signed int)return_value_strlen$8;
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen(mosq->host);
+      packet->packet_length = (unsigned int)((unsigned long int)7 + return_value_strlen_6);
+      void *return_value__mosquitto_malloc_7;
+      return_value__mosquitto_malloc_7=_mosquitto_malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)packet->packet_length);
+      packet->payload = (unsigned char *)return_value__mosquitto_malloc_7;
+      unsigned long int return_value_strlen_8;
+      return_value_strlen_8=strlen(mosq->host);
+      slen = (signed int)return_value_strlen_8;
       packet->payload[(signed long int)0] = (unsigned char)0x05;
       packet->payload[(signed long int)1] = (unsigned char)1;
       packet->payload[(signed long int)2] = (unsigned char)0;
@@ -10448,9 +10448,9 @@ signed int mosquitto__socks5_send(struct mosquitto *mosq)
       mosq->in_packet.pos = (unsigned int)0;
       mosq->in_packet.packet_length = (unsigned int)5;
       mosq->in_packet.to_process = (unsigned int)5;
-      void *return_value__mosquitto_malloc$9;
-      return_value__mosquitto_malloc$9=_mosquitto_malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)5);
-      mosq->in_packet.payload = (unsigned char *)return_value__mosquitto_malloc$9;
+      void *return_value__mosquitto_malloc_9;
+      return_value__mosquitto_malloc_9=_mosquitto_malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)5);
+      mosq->in_packet.payload = (unsigned char *)return_value__mosquitto_malloc_9;
       if(mosq->in_packet.payload == ((unsigned char *)NULL))
       {
         _mosquitto_free((void *)packet->payload);
@@ -10458,30 +10458,30 @@ signed int mosquitto__socks5_send(struct mosquitto *mosq)
         return 1;
       }
 
-      signed int return_value__mosquitto_packet_queue$10;
-      return_value__mosquitto_packet_queue$10=_mosquitto_packet_queue(mosq, packet);
-      return return_value__mosquitto_packet_queue$10;
+      signed int return_value__mosquitto_packet_queue_10;
+      return_value__mosquitto_packet_queue_10=_mosquitto_packet_queue(mosq, packet);
+      return return_value__mosquitto_packet_queue_10;
     }
 
     else
       if((signed int)mosq->state == mosq_cs_socks5_send_userpass)
       {
-        void *return_value__mosquitto_calloc$11;
-        return_value__mosquitto_calloc$11=_mosquitto_calloc((unsigned long int)1, sizeof(struct _mosquitto_packet) /*40ul*/ );
-        packet = (struct _mosquitto_packet *)return_value__mosquitto_calloc$11;
+        void *return_value__mosquitto_calloc_11;
+        return_value__mosquitto_calloc_11=_mosquitto_calloc((unsigned long int)1, sizeof(struct _mosquitto_packet) /*40ul*/ );
+        packet = (struct _mosquitto_packet *)return_value__mosquitto_calloc_11;
         if(packet == ((struct _mosquitto_packet *)NULL))
           return 1;
 
-        unsigned long int return_value_strlen$12;
-        return_value_strlen$12=strlen(mosq->socks5_username);
-        ulen = (signed int)return_value_strlen$12;
-        unsigned long int return_value_strlen$13;
-        return_value_strlen$13=strlen(mosq->socks5_password);
-        plen = (signed int)return_value_strlen$13;
+        unsigned long int return_value_strlen_12;
+        return_value_strlen_12=strlen(mosq->socks5_username);
+        ulen = (signed int)return_value_strlen_12;
+        unsigned long int return_value_strlen_13;
+        return_value_strlen_13=strlen(mosq->socks5_password);
+        plen = (signed int)return_value_strlen_13;
         packet->packet_length = (unsigned int)(3 + ulen + plen);
-        void *return_value__mosquitto_malloc$14;
-        return_value__mosquitto_malloc$14=_mosquitto_malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)packet->packet_length);
-        packet->payload = (unsigned char *)return_value__mosquitto_malloc$14;
+        void *return_value__mosquitto_malloc_14;
+        return_value__mosquitto_malloc_14=_mosquitto_malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)packet->packet_length);
+        packet->payload = (unsigned char *)return_value__mosquitto_malloc_14;
         packet->payload[(signed long int)0] = (unsigned char)0x01;
         packet->payload[(signed long int)1] = (unsigned char)ulen;
         memcpy((void *)&packet->payload[(signed long int)2], (const void *)mosq->socks5_username, (unsigned long int)ulen);
@@ -10493,9 +10493,9 @@ signed int mosquitto__socks5_send(struct mosquitto *mosq)
         mosq->in_packet.pos = (unsigned int)0;
         mosq->in_packet.packet_length = (unsigned int)2;
         mosq->in_packet.to_process = (unsigned int)2;
-        void *return_value__mosquitto_malloc$15;
-        return_value__mosquitto_malloc$15=_mosquitto_malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)2);
-        mosq->in_packet.payload = (unsigned char *)return_value__mosquitto_malloc$15;
+        void *return_value__mosquitto_malloc_15;
+        return_value__mosquitto_malloc_15=_mosquitto_malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)2);
+        mosq->in_packet.payload = (unsigned char *)return_value__mosquitto_malloc_15;
         if(mosq->in_packet.payload == ((unsigned char *)NULL))
         {
           _mosquitto_free((void *)packet->payload);
@@ -10503,9 +10503,9 @@ signed int mosquitto__socks5_send(struct mosquitto *mosq)
           return 1;
         }
 
-        signed int return_value__mosquitto_packet_queue$16;
-        return_value__mosquitto_packet_queue$16=_mosquitto_packet_queue(mosq, packet);
-        return return_value__mosquitto_packet_queue$16;
+        signed int return_value__mosquitto_packet_queue_16;
+        return_value__mosquitto_packet_queue_16=_mosquitto_packet_queue(mosq, packet);
+        return return_value__mosquitto_packet_queue_16;
       }
 
   return 0;
@@ -10518,25 +10518,25 @@ static signed int mosquitto__urldecode(char *str)
   signed int i;
   signed int j;
   signed int len;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
   if(str == ((char *)NULL))
     return 0;
 
   else
   {
-    char *return_value_strchr$1;
-    return_value_strchr$1=strchr(str, 37);
-    if(return_value_strchr$1 == ((char *)NULL))
+    char *return_value_strchr_1;
+    return_value_strchr_1=strchr(str, 37);
+    if(return_value_strchr_1 == ((char *)NULL))
       return 0;
 
     else
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(str);
-      len = (signed int)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(str);
+      len = (signed int)return_value_strlen_2;
       i = 0;
       for( ; !(i >= len); i = i + 1)
         if((signed int)str[(signed long int)i] == 37)
@@ -10545,11 +10545,11 @@ static signed int mosquitto__urldecode(char *str)
             return 1;
 
           if((signed int)str[(signed long int)(1 + i)] == 50)
-            tmp_if_expr$6 = (signed int)str[(signed long int)(i + 2)] == 53 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = (signed int)str[(signed long int)(i + 2)] == 53 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          if(tmp_if_expr$6)
+            tmp_if_expr_6 = (_Bool)0;
+          if(tmp_if_expr_6)
           {
             str[(signed long int)i] = (char)37;
             len = len - 2;
@@ -10564,16 +10564,16 @@ static signed int mosquitto__urldecode(char *str)
             if((signed int)str[(signed long int)(1 + i)] == 51)
             {
               if((signed int)str[(signed long int)(2 + i)] == 65)
-                tmp_if_expr$4 = (_Bool)1;
+                tmp_if_expr_4 = (_Bool)1;
 
               else
-                tmp_if_expr$4 = (signed int)str[(signed long int)(i + 2)] == 97 ? (_Bool)1 : (_Bool)0;
-              tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_4 = (signed int)str[(signed long int)(i + 2)] == 97 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$5 = (_Bool)0;
-            if(tmp_if_expr$5)
+              tmp_if_expr_5 = (_Bool)0;
+            if(tmp_if_expr_5)
             {
               str[(signed long int)i] = (char)58;
               len = len - 2;
@@ -10586,11 +10586,11 @@ static signed int mosquitto__urldecode(char *str)
             else
             {
               if((signed int)str[(signed long int)(1 + i)] == 52)
-                tmp_if_expr$3 = (signed int)str[(signed long int)(i + 2)] == 48 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_3 = (signed int)str[(signed long int)(i + 2)] == 48 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$3 = (_Bool)0;
-              if(tmp_if_expr$3)
+                tmp_if_expr_3 = (_Bool)0;
+              if(tmp_if_expr_3)
               {
                 str[(signed long int)i] = (char)58;
                 len = len - 2;
@@ -10638,18 +10638,18 @@ const char * mosquitto_connack_string(signed int connack_code)
 // file mosquitto.c line 427
 signed int mosquitto_connect(struct mosquitto *mosq, const char *host, signed int port, signed int keepalive)
 {
-  signed int return_value_mosquitto_connect_bind$1;
-  return_value_mosquitto_connect_bind$1=mosquitto_connect_bind(mosq, host, port, keepalive, (const char *)(void *)0);
-  return return_value_mosquitto_connect_bind$1;
+  signed int return_value_mosquitto_connect_bind_1;
+  return_value_mosquitto_connect_bind_1=mosquitto_connect_bind(mosq, host, port, keepalive, (const char *)(void *)0);
+  return return_value_mosquitto_connect_bind_1;
 }
 
 // mosquitto_connect_async
 // file mosquitto.c line 445
 signed int mosquitto_connect_async(struct mosquitto *mosq, const char *host, signed int port, signed int keepalive)
 {
-  signed int return_value_mosquitto_connect_bind_async$1;
-  return_value_mosquitto_connect_bind_async$1=mosquitto_connect_bind_async(mosq, host, port, keepalive, (const char *)(void *)0);
-  return return_value_mosquitto_connect_bind_async$1;
+  signed int return_value_mosquitto_connect_bind_async_1;
+  return_value_mosquitto_connect_bind_async_1=mosquitto_connect_bind_async(mosq, host, port, keepalive, (const char *)(void *)0);
+  return return_value_mosquitto_connect_bind_async_1;
 }
 
 // mosquitto_connect_bind
@@ -10666,9 +10666,9 @@ signed int mosquitto_connect_bind(struct mosquitto *mosq, const char *host, sign
     pthread_mutex_lock(&mosq->state_mutex);
     mosq->state = (enum mosquitto_client_state)mosq_cs_new;
     pthread_mutex_unlock(&mosq->state_mutex);
-    signed int return_value__mosquitto_reconnect$1;
-    return_value__mosquitto_reconnect$1=_mosquitto_reconnect(mosq, (_Bool)1);
-    return return_value__mosquitto_reconnect$1;
+    signed int return_value__mosquitto_reconnect_1;
+    return_value__mosquitto_reconnect_1=_mosquitto_reconnect(mosq, (_Bool)1);
+    return return_value__mosquitto_reconnect_1;
   }
 }
 
@@ -10686,9 +10686,9 @@ signed int mosquitto_connect_bind_async(struct mosquitto *mosq, const char *host
     pthread_mutex_lock(&mosq->state_mutex);
     mosq->state = (enum mosquitto_client_state)mosq_cs_connect_async;
     pthread_mutex_unlock(&mosq->state_mutex);
-    signed int return_value__mosquitto_reconnect$1;
-    return_value__mosquitto_reconnect$1=_mosquitto_reconnect(mosq, (_Bool)0);
-    return return_value__mosquitto_reconnect$1;
+    signed int return_value__mosquitto_reconnect_1;
+    return_value__mosquitto_reconnect_1=_mosquitto_reconnect(mosq, (_Bool)0);
+    return return_value__mosquitto_reconnect_1;
   }
 }
 
@@ -10707,8 +10707,8 @@ signed int mosquitto_connect_srv(struct mosquitto *mosq, const char *host, signe
 {
   char *h;
   signed int rc;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
   if(mosq == ((struct mosquitto *)NULL))
     return 3;
 
@@ -10723,24 +10723,24 @@ signed int mosquitto_connect_srv(struct mosquitto *mosq, const char *host, signe
       if(!(host == ((const char *)NULL)))
       {
         if(!(mosq->tls_cafile == ((char *)NULL)))
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = mosq->tls_capath != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$7)
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_7 = mosq->tls_capath != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_7)
+          tmp_if_expr_8 = (_Bool)1;
 
         else
-          tmp_if_expr$8 = mosq->tls_psk != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$8)
+          tmp_if_expr_8 = mosq->tls_psk != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_8)
         {
-          unsigned long int return_value_strlen$1;
-          return_value_strlen$1=strlen(host);
-          unsigned long int return_value_strlen$2;
-          return_value_strlen$2=strlen("_secure-mqtt._tcp.");
-          void *return_value__mosquitto_malloc$3;
-          return_value__mosquitto_malloc$3=_mosquitto_malloc(return_value_strlen$1 + return_value_strlen$2 + (unsigned long int)1);
-          h = (char *)return_value__mosquitto_malloc$3;
+          unsigned long int return_value_strlen_1;
+          return_value_strlen_1=strlen(host);
+          unsigned long int return_value_strlen_2;
+          return_value_strlen_2=strlen("_secure-mqtt._tcp.");
+          void *return_value__mosquitto_malloc_3;
+          return_value__mosquitto_malloc_3=_mosquitto_malloc(return_value_strlen_1 + return_value_strlen_2 + (unsigned long int)1);
+          h = (char *)return_value__mosquitto_malloc_3;
           if(h == ((char *)NULL))
             return 1;
 
@@ -10749,13 +10749,13 @@ signed int mosquitto_connect_srv(struct mosquitto *mosq, const char *host, signe
 
         else
         {
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(host);
-          unsigned long int return_value_strlen$5;
-          return_value_strlen$5=strlen("_mqtt._tcp.");
-          void *return_value__mosquitto_malloc$6;
-          return_value__mosquitto_malloc$6=_mosquitto_malloc(return_value_strlen$4 + return_value_strlen$5 + (unsigned long int)1);
-          h = (char *)return_value__mosquitto_malloc$6;
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(host);
+          unsigned long int return_value_strlen_5;
+          return_value_strlen_5=strlen("_mqtt._tcp.");
+          void *return_value__mosquitto_malloc_6;
+          return_value__mosquitto_malloc_6=_mosquitto_malloc(return_value_strlen_4 + return_value_strlen_5 + (unsigned long int)1);
+          h = (char *)return_value__mosquitto_malloc_6;
           if(h == ((char *)NULL))
             return 1;
 
@@ -10803,9 +10803,9 @@ signed int mosquitto_disconnect(struct mosquitto *mosq)
 
     else
     {
-      signed int return_value__mosquitto_send_disconnect$1;
-      return_value__mosquitto_send_disconnect$1=_mosquitto_send_disconnect(mosq);
-      return return_value__mosquitto_send_disconnect$1;
+      signed int return_value__mosquitto_send_disconnect_1;
+      return_value__mosquitto_send_disconnect_1=_mosquitto_send_disconnect(mosq);
+      return return_value__mosquitto_send_disconnect_1;
     }
   }
 }
@@ -10868,29 +10868,29 @@ void mosquitto_log_callback_set(struct mosquitto *mosq, void (*on_log)(struct mo
 signed int mosquitto_loop(struct mosquitto *mosq, signed int timeout, signed int max_packets)
 {
   struct timespec local_timeout;
-  struct anonymous$2 readfds;
-  struct anonymous$2 writefds;
+  struct anonymous_2 readfds;
+  struct anonymous_2 writefds;
   signed int fdcount;
   signed int rc;
   char pairbuf;
   signed int maxfd = 0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  signed int return_value_SSL_pending$4;
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  signed int return_value_SSL_pending_4;
+  _Bool tmp_if_expr_8;
   if(mosq == ((struct mosquitto *)NULL) || !(max_packets >= 1))
     return 3;
 
   else
   {
     if(mosq->sock >= 1024)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = mosq->sockpairR >= 1024 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = mosq->sockpairR >= 1024 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return 3;
 
     else
@@ -10898,15 +10898,15 @@ signed int mosquitto_loop(struct mosquitto *mosq, signed int timeout, signed int
       do
       {
         signed int __d0;
-        signed int mosquitto_loop$$1$$2$$__d1;
-        asm("cld; rep; stosq" : "=c"(__d0), "=D"(mosquitto_loop$$1$$2$$__d1) : "a"(0), "0"(sizeof(struct anonymous$2) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->__fds_bits[(signed long int)0]) : "memory");
+        signed int mosquitto_loop__1__2____d1;
+        asm("cld; rep; stosq" : "=c"(__d0), "=D"(mosquitto_loop__1__2____d1) : "a"(0), "0"(sizeof(struct anonymous_2) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->__fds_bits[(signed long int)0]) : "memory");
       }
       while((_Bool)0);
       do
       {
-        signed int mosquitto_loop$$1$$3$$__d0;
+        signed int mosquitto_loop__1__3____d0;
         signed int __d1;
-        asm("cld; rep; stosq" : "=c"(mosquitto_loop$$1$$3$$__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$2) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&writefds)->__fds_bits[(signed long int)0]) : "memory");
+        asm("cld; rep; stosq" : "=c"(mosquitto_loop__1__3____d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_2) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&writefds)->__fds_bits[(signed long int)0]) : "memory");
       }
       while((_Bool)0);
       if(!(mosq->sock == -1))
@@ -10916,11 +10916,11 @@ signed int mosquitto_loop(struct mosquitto *mosq, signed int timeout, signed int
         pthread_mutex_lock(&mosq->current_out_packet_mutex);
         pthread_mutex_lock(&mosq->out_packet_mutex);
         if(!(mosq->out_packet == ((struct _mosquitto_packet *)NULL)))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = mosq->current_out_packet != ((struct _mosquitto_packet *)NULL) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = mosq->current_out_packet != ((struct _mosquitto_packet *)NULL) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           (&writefds)->__fds_bits[(signed long int)(mosq->sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&writefds)->__fds_bits[(signed long int)(mosq->sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << mosq->sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
 
         if(!(mosq->ssl == ((struct ssl_st *)NULL)))
@@ -10977,12 +10977,12 @@ signed int mosquitto_loop(struct mosquitto *mosq, signed int timeout, signed int
         local_timeout.tv_sec = (signed long int)1;
         local_timeout.tv_nsec = (signed long int)0;
       }
-      fdcount=pselect(maxfd + 1, &readfds, &writefds, (struct anonymous$2 *)(void *)0, &local_timeout, (const struct anonymous$7 *)(void *)0);
+      fdcount=pselect(maxfd + 1, &readfds, &writefds, (struct anonymous_2 *)(void *)0, &local_timeout, (const struct anonymous_7 *)(void *)0);
       if(fdcount == -1)
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        if(*return_value___errno_location$3 == 4)
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        if(*return_value___errno_location_3 == 4)
           return 0;
 
         else
@@ -11008,31 +11008,31 @@ signed int mosquitto_loop(struct mosquitto *mosq, signed int timeout, signed int
               {
                 rc=mosquitto_loop_read(mosq, max_packets);
                 if(!(rc == 0))
-                  tmp_if_expr$6 = (_Bool)1;
+                  tmp_if_expr_6 = (_Bool)1;
 
                 else
-                  tmp_if_expr$6 = mosq->sock == -1 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$6)
+                  tmp_if_expr_6 = mosq->sock == -1 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_6)
                   return rc;
 
                 if(!(mosq->ssl == ((struct ssl_st *)NULL)))
                 {
-                  return_value_SSL_pending$4=SSL_pending(mosq->ssl);
-                  tmp_if_expr$5 = return_value_SSL_pending$4 != 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_SSL_pending_4=SSL_pending(mosq->ssl);
+                  tmp_if_expr_5 = return_value_SSL_pending_4 != 0 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$5 = (_Bool)0;
+                  tmp_if_expr_5 = (_Bool)0;
               }
-              while(tmp_if_expr$5);
+              while(tmp_if_expr_5);
           }
 
           if(!(mosq->sockpairR == -1))
           {
             if(!((readfds.__fds_bits[(signed long int)(mosq->sockpairR / 8)] & (signed long int)(1UL << mosq->sockpairR % 8)) == 0l))
             {
-              signed long int return_value_read$7;
-              return_value_read$7=read(mosq->sockpairR, (void *)&pairbuf, (unsigned long int)1);
+              signed long int return_value_read_7;
+              return_value_read_7=read(mosq->sockpairR, (void *)&pairbuf, (unsigned long int)1);
               (&writefds)->__fds_bits[(signed long int)(mosq->sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&writefds)->__fds_bits[(signed long int)(mosq->sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << mosq->sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
             }
 
@@ -11052,11 +11052,11 @@ signed int mosquitto_loop(struct mosquitto *mosq, signed int timeout, signed int
             {
               rc=mosquitto_loop_write(mosq, max_packets);
               if(!(rc == 0))
-                tmp_if_expr$8 = (_Bool)1;
+                tmp_if_expr_8 = (_Bool)1;
 
               else
-                tmp_if_expr$8 = mosq->sock == -1 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$8)
+                tmp_if_expr_8 = mosq->sock == -1 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_8)
                 return rc;
 
             }
@@ -11068,9 +11068,9 @@ signed int mosquitto_loop(struct mosquitto *mosq, signed int timeout, signed int
           ares_process(mosq->achan, &readfds, &writefds);
 
       }
-      signed int return_value_mosquitto_loop_misc$9;
-      return_value_mosquitto_loop_misc$9=mosquitto_loop_misc(mosq);
-      return return_value_mosquitto_loop_misc$9;
+      signed int return_value_mosquitto_loop_misc_9;
+      return_value_mosquitto_loop_misc_9=mosquitto_loop_misc(mosq);
+      return return_value_mosquitto_loop_misc_9;
     }
   }
 }
@@ -11083,7 +11083,7 @@ signed int mosquitto_loop_forever(struct mosquitto *mosq, signed int timeout, si
   signed int rc;
   unsigned int reconnects = (unsigned int)0;
   unsigned long int reconnect_delay;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(mosq == ((struct mosquitto *)NULL))
     return 3;
 
@@ -11114,9 +11114,9 @@ signed int mosquitto_loop_forever(struct mosquitto *mosq, signed int timeout, si
 
     __CPROVER_DUMP_L6:
       ;
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 71)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 71)
         return rc;
 
       do
@@ -11133,11 +11133,11 @@ signed int mosquitto_loop_forever(struct mosquitto *mosq, signed int timeout, si
         {
           pthread_mutex_unlock(&mosq->state_mutex);
           if(mosq->reconnect_delay >= 1u)
-            tmp_if_expr$2 = mosq->reconnect_exponential_backoff != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = mosq->reconnect_exponential_backoff != (_Bool)0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          if(tmp_if_expr$2)
+            tmp_if_expr_2 = (_Bool)0;
+          if(tmp_if_expr_2)
             reconnect_delay = (unsigned long int)(mosq->reconnect_delay * reconnects * reconnects);
 
           else
@@ -11232,10 +11232,10 @@ signed int mosquitto_loop_read(struct mosquitto *mosq, signed int max_packets)
 {
   signed int rc;
   signed int i;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
   if(!(max_packets >= 1))
     return 3;
 
@@ -11259,26 +11259,26 @@ signed int mosquitto_loop_read(struct mosquitto *mosq, signed int max_packets)
       else
         rc=_mosquitto_packet_read(mosq);
       if(!(rc == 0))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$2=__errno_location();
-        tmp_if_expr$3 = *return_value___errno_location$2 == 11 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_2=__errno_location();
+        tmp_if_expr_3 = *return_value___errno_location_2 == 11 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
-        tmp_if_expr$5 = (_Bool)1;
+      if(tmp_if_expr_3)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$4=__errno_location();
-        tmp_if_expr$5 = *return_value___errno_location$4 == 11 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_4=__errno_location();
+        tmp_if_expr_5 = *return_value___errno_location_4 == 11 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
+      if(tmp_if_expr_5)
       {
-        signed int return_value__mosquitto_loop_rc_handle$1;
-        return_value__mosquitto_loop_rc_handle$1=_mosquitto_loop_rc_handle(mosq, rc);
-        return return_value__mosquitto_loop_rc_handle$1;
+        signed int return_value__mosquitto_loop_rc_handle_1;
+        return_value__mosquitto_loop_rc_handle_1=_mosquitto_loop_rc_handle(mosq, rc);
+        return return_value__mosquitto_loop_rc_handle_1;
       }
 
     }
@@ -11290,13 +11290,13 @@ signed int mosquitto_loop_read(struct mosquitto *mosq, signed int max_packets)
 // file ../lib/mosquitto.h line 778
 signed int mosquitto_loop_start(struct mosquitto *mosq)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(mosq == ((struct mosquitto *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = mosq->threaded != (_Bool)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = mosq->threaded != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 3;
 
   else
@@ -11312,21 +11312,21 @@ signed int mosquitto_loop_start(struct mosquitto *mosq)
 signed int mosquitto_loop_stop(struct mosquitto *mosq, _Bool force)
 {
   char sockpair_data = (char)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(mosq == ((struct mosquitto *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(mosq->threaded != (_Bool)0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(mosq->threaded != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 3;
 
   else
   {
     if(!(mosq->sockpairW == -1))
     {
-      signed long int return_value_write$2;
-      return_value_write$2=write(mosq->sockpairW, (const void *)&sockpair_data, (unsigned long int)1);
+      signed long int return_value_write_2;
+      return_value_write_2=write(mosq->sockpairW, (const void *)&sockpair_data, (unsigned long int)1);
     }
 
     if(!(force == (_Bool)0))
@@ -11345,10 +11345,10 @@ signed int mosquitto_loop_write(struct mosquitto *mosq, signed int max_packets)
 {
   signed int rc;
   signed int i;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
   if(!(max_packets >= 1))
     return 3;
 
@@ -11368,26 +11368,26 @@ signed int mosquitto_loop_write(struct mosquitto *mosq, signed int max_packets)
     {
       rc=_mosquitto_packet_write(mosq);
       if(!(rc == 0))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$2=__errno_location();
-        tmp_if_expr$3 = *return_value___errno_location$2 == 11 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_2=__errno_location();
+        tmp_if_expr_3 = *return_value___errno_location_2 == 11 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
-        tmp_if_expr$5 = (_Bool)1;
+      if(tmp_if_expr_3)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$4=__errno_location();
-        tmp_if_expr$5 = *return_value___errno_location$4 == 11 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_4=__errno_location();
+        tmp_if_expr_5 = *return_value___errno_location_4 == 11 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
+      if(tmp_if_expr_5)
       {
-        signed int return_value__mosquitto_loop_rc_handle$1;
-        return_value__mosquitto_loop_rc_handle$1=_mosquitto_loop_rc_handle(mosq, rc);
-        return return_value__mosquitto_loop_rc_handle$1;
+        signed int return_value__mosquitto_loop_rc_handle_1;
+        return_value__mosquitto_loop_rc_handle_1=_mosquitto_loop_rc_handle(mosq, rc);
+        return return_value__mosquitto_loop_rc_handle_1;
       }
 
     }
@@ -11464,13 +11464,13 @@ signed int mosquitto_message_copy(struct mosquitto_message *dst, struct mosquitt
 void mosquitto_message_free(struct mosquitto_message **message)
 {
   struct mosquitto_message *msg;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(message == ((struct mosquitto_message **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*message != ((struct mosquitto_message *)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = !(*message != ((struct mosquitto_message *)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     msg = *message;
     if(!(msg->topic == ((char *)NULL)))
@@ -11503,16 +11503,16 @@ struct mosquitto * mosquitto_new(const char *id, _Bool clean_session, void *user
   signed int rc;
   if(id == ((const char *)NULL) && (signed int)clean_session == 0)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return (struct mosquitto *)(void *)0;
   }
 
   signal(13, (void (*)(signed int))1);
-  void *return_value__mosquitto_calloc$2;
-  return_value__mosquitto_calloc$2=_mosquitto_calloc((unsigned long int)1, sizeof(struct mosquitto) /*832ul*/ );
-  mosq = (struct mosquitto *)return_value__mosquitto_calloc$2;
+  void *return_value__mosquitto_calloc_2;
+  return_value__mosquitto_calloc_2=_mosquitto_calloc((unsigned long int)1, sizeof(struct mosquitto) /*832ul*/ );
+  mosq = (struct mosquitto *)return_value__mosquitto_calloc_2;
   if(!(mosq == ((struct mosquitto *)NULL)))
   {
     mosq->sock = -1;
@@ -11525,17 +11525,17 @@ struct mosquitto * mosquitto_new(const char *id, _Bool clean_session, void *user
       mosquitto_destroy(mosq);
       if(rc == 3)
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = 22;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = 22;
       }
 
       else
         if(rc == 1)
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          *return_value___errno_location$4 = 12;
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          *return_value___errno_location_4 = 12;
         }
 
       return (struct mosquitto *)(void *)0;
@@ -11545,9 +11545,9 @@ struct mosquitto * mosquitto_new(const char *id, _Bool clean_session, void *user
 
   else
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    *return_value___errno_location$5 = 12;
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    *return_value___errno_location_5 = 12;
   }
   return mosq;
 }
@@ -11590,18 +11590,18 @@ signed int mosquitto_opts_set(struct mosquitto *mosq, enum mosq_opt_t option, vo
 signed int mosquitto_pub_topic_check(const char *str)
 {
   signed int len = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(str == ((const char *)NULL)); str = &str[(signed long int)1])
   {
     if(*str == 0)
       break;
 
     if((signed int)*str == 43)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)str[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)str[(signed long int)0] == 35 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return 3;
 
     len = len + 1;
@@ -11617,7 +11617,7 @@ signed int mosquitto_pub_topic_check(const char *str)
 // file ../lib/mosquitto.h line 600
 signed int mosquitto_publish(struct mosquitto *mosq, signed int *mid, const char *topic, signed int payloadlen, const void *payload, signed int qos, _Bool retain)
 {
-  struct mosquitto_message_all *mosquitto_publish$$1$$message;
+  struct mosquitto_message_all *mosquitto_publish__1__message;
   unsigned short int local_mid;
   signed int queue_status;
   if(topic == ((const char *)NULL) || mosq == ((struct mosquitto *)NULL) || qos >= 3 || !(qos >= 0))
@@ -11633,9 +11633,9 @@ signed int mosquitto_publish(struct mosquitto *mosq, signed int *mid, const char
 
       else
       {
-        signed int return_value_mosquitto_pub_topic_check$1;
-        return_value_mosquitto_pub_topic_check$1=mosquitto_pub_topic_check(topic);
-        if(!(return_value_mosquitto_pub_topic_check$1 == 0))
+        signed int return_value_mosquitto_pub_topic_check_1;
+        return_value_mosquitto_pub_topic_check_1=mosquitto_pub_topic_check(topic);
+        if(!(return_value_mosquitto_pub_topic_check_1 == 0))
           return 3;
 
         else
@@ -11646,70 +11646,70 @@ signed int mosquitto_publish(struct mosquitto *mosq, signed int *mid, const char
 
           if(qos == 0)
           {
-            signed int return_value__mosquitto_send_publish$2;
-            return_value__mosquitto_send_publish$2=_mosquitto_send_publish(mosq, local_mid, topic, (unsigned int)payloadlen, payload, qos, retain, (_Bool)0);
-            return return_value__mosquitto_send_publish$2;
+            signed int return_value__mosquitto_send_publish_2;
+            return_value__mosquitto_send_publish_2=_mosquitto_send_publish(mosq, local_mid, topic, (unsigned int)payloadlen, payload, qos, retain, (_Bool)0);
+            return return_value__mosquitto_send_publish_2;
           }
 
           else
           {
-            void *return_value__mosquitto_calloc$3;
-            return_value__mosquitto_calloc$3=_mosquitto_calloc((unsigned long int)1, sizeof(struct mosquitto_message_all) /*64ul*/ );
-            mosquitto_publish$$1$$message = (struct mosquitto_message_all *)return_value__mosquitto_calloc$3;
-            if(mosquitto_publish$$1$$message == ((struct mosquitto_message_all *)NULL))
+            void *return_value__mosquitto_calloc_3;
+            return_value__mosquitto_calloc_3=_mosquitto_calloc((unsigned long int)1, sizeof(struct mosquitto_message_all) /*64ul*/ );
+            mosquitto_publish__1__message = (struct mosquitto_message_all *)return_value__mosquitto_calloc_3;
+            if(mosquitto_publish__1__message == ((struct mosquitto_message_all *)NULL))
               return 1;
 
-            mosquitto_publish$$1$$message->next = (struct mosquitto_message_all *)(void *)0;
-            mosquitto_publish$$1$$message->timestamp=mosquitto_time();
-            mosquitto_publish$$1$$message->msg.mid = (signed int)local_mid;
-            mosquitto_publish$$1$$message->msg.topic=_mosquitto_strdup(topic);
-            if(mosquitto_publish$$1$$message->msg.topic == ((char *)NULL))
+            mosquitto_publish__1__message->next = (struct mosquitto_message_all *)(void *)0;
+            mosquitto_publish__1__message->timestamp=mosquitto_time();
+            mosquitto_publish__1__message->msg.mid = (signed int)local_mid;
+            mosquitto_publish__1__message->msg.topic=_mosquitto_strdup(topic);
+            if(mosquitto_publish__1__message->msg.topic == ((char *)NULL))
             {
-              _mosquitto_message_cleanup(&mosquitto_publish$$1$$message);
+              _mosquitto_message_cleanup(&mosquitto_publish__1__message);
               return 1;
             }
 
             if(!(payloadlen == 0))
             {
-              mosquitto_publish$$1$$message->msg.payloadlen = payloadlen;
-              mosquitto_publish$$1$$message->msg.payload=_mosquitto_malloc((unsigned long int)payloadlen * sizeof(unsigned char) /*1ul*/ );
-              if(mosquitto_publish$$1$$message->msg.payload == NULL)
+              mosquitto_publish__1__message->msg.payloadlen = payloadlen;
+              mosquitto_publish__1__message->msg.payload=_mosquitto_malloc((unsigned long int)payloadlen * sizeof(unsigned char) /*1ul*/ );
+              if(mosquitto_publish__1__message->msg.payload == NULL)
               {
-                _mosquitto_message_cleanup(&mosquitto_publish$$1$$message);
+                _mosquitto_message_cleanup(&mosquitto_publish__1__message);
                 return 1;
               }
 
-              memcpy(mosquitto_publish$$1$$message->msg.payload, payload, (unsigned long int)payloadlen * sizeof(unsigned char) /*1ul*/ );
+              memcpy(mosquitto_publish__1__message->msg.payload, payload, (unsigned long int)payloadlen * sizeof(unsigned char) /*1ul*/ );
             }
 
             else
             {
-              mosquitto_publish$$1$$message->msg.payloadlen = 0;
-              mosquitto_publish$$1$$message->msg.payload = (void *)0;
+              mosquitto_publish__1__message->msg.payloadlen = 0;
+              mosquitto_publish__1__message->msg.payload = (void *)0;
             }
-            mosquitto_publish$$1$$message->msg.qos = qos;
-            mosquitto_publish$$1$$message->msg.retain = retain;
-            mosquitto_publish$$1$$message->dup = (_Bool)0;
+            mosquitto_publish__1__message->msg.qos = qos;
+            mosquitto_publish__1__message->msg.retain = retain;
+            mosquitto_publish__1__message->dup = (_Bool)0;
             pthread_mutex_lock(&mosq->out_message_mutex);
-            queue_status=_mosquitto_message_queue(mosq, mosquitto_publish$$1$$message, (enum mosquitto_msg_direction)mosq_md_out);
+            queue_status=_mosquitto_message_queue(mosq, mosquitto_publish__1__message, (enum mosquitto_msg_direction)mosq_md_out);
             if(queue_status == 0)
             {
               if(qos == 1)
-                mosquitto_publish$$1$$message->state = (enum mosquitto_msg_state)mosq_ms_wait_for_puback;
+                mosquitto_publish__1__message->state = (enum mosquitto_msg_state)mosq_ms_wait_for_puback;
 
               else
                 if(qos == 2)
-                  mosquitto_publish$$1$$message->state = (enum mosquitto_msg_state)mosq_ms_wait_for_pubrec;
+                  mosquitto_publish__1__message->state = (enum mosquitto_msg_state)mosq_ms_wait_for_pubrec;
 
               pthread_mutex_unlock(&mosq->out_message_mutex);
-              signed int return_value__mosquitto_send_publish$4;
-              return_value__mosquitto_send_publish$4=_mosquitto_send_publish(mosq, (unsigned short int)mosquitto_publish$$1$$message->msg.mid, mosquitto_publish$$1$$message->msg.topic, (unsigned int)mosquitto_publish$$1$$message->msg.payloadlen, mosquitto_publish$$1$$message->msg.payload, mosquitto_publish$$1$$message->msg.qos, mosquitto_publish$$1$$message->msg.retain, mosquitto_publish$$1$$message->dup);
-              return return_value__mosquitto_send_publish$4;
+              signed int return_value__mosquitto_send_publish_4;
+              return_value__mosquitto_send_publish_4=_mosquitto_send_publish(mosq, (unsigned short int)mosquitto_publish__1__message->msg.mid, mosquitto_publish__1__message->msg.topic, (unsigned int)mosquitto_publish__1__message->msg.payloadlen, mosquitto_publish__1__message->msg.payload, mosquitto_publish__1__message->msg.qos, mosquitto_publish__1__message->msg.retain, mosquitto_publish__1__message->dup);
+              return return_value__mosquitto_send_publish_4;
             }
 
             else
             {
-              mosquitto_publish$$1$$message->state = (enum mosquitto_msg_state)mosq_ms_invalid;
+              mosquitto_publish__1__message->state = (enum mosquitto_msg_state)mosq_ms_invalid;
               pthread_mutex_unlock(&mosq->out_message_mutex);
               return 0;
             }
@@ -11731,18 +11731,18 @@ void mosquitto_publish_callback_set(struct mosquitto *mosq, void (*on_publish)(s
 // file mosquitto.c line 467
 signed int mosquitto_reconnect(struct mosquitto *mosq)
 {
-  signed int return_value__mosquitto_reconnect$1;
-  return_value__mosquitto_reconnect$1=_mosquitto_reconnect(mosq, (_Bool)1);
-  return return_value__mosquitto_reconnect$1;
+  signed int return_value__mosquitto_reconnect_1;
+  return_value__mosquitto_reconnect_1=_mosquitto_reconnect(mosq, (_Bool)1);
+  return return_value__mosquitto_reconnect_1;
 }
 
 // mosquitto_reconnect_async
 // file mosquitto.c line 462
 signed int mosquitto_reconnect_async(struct mosquitto *mosq)
 {
-  signed int return_value__mosquitto_reconnect$1;
-  return_value__mosquitto_reconnect$1=_mosquitto_reconnect(mosq, (_Bool)0);
-  return return_value__mosquitto_reconnect$1;
+  signed int return_value__mosquitto_reconnect_1;
+  return_value__mosquitto_reconnect_1=_mosquitto_reconnect(mosq, (_Bool)0);
+  return return_value__mosquitto_reconnect_1;
 }
 
 // mosquitto_reconnect_delay_set
@@ -11800,9 +11800,9 @@ signed int mosquitto_reinitialise(struct mosquitto *mosq, const char *id, _Bool 
 
       else
       {
-        void *return_value__mosquitto_calloc$1;
-        return_value__mosquitto_calloc$1=_mosquitto_calloc((unsigned long int)24, sizeof(char) /*1ul*/ );
-        mosq->id = (char *)return_value__mosquitto_calloc$1;
+        void *return_value__mosquitto_calloc_1;
+        return_value__mosquitto_calloc_1=_mosquitto_calloc((unsigned long int)24, sizeof(char) /*1ul*/ );
+        mosq->id = (char *)return_value__mosquitto_calloc_1;
         if(mosq->id == ((char *)NULL))
           return 1;
 
@@ -11814,9 +11814,9 @@ signed int mosquitto_reinitialise(struct mosquitto *mosq, const char *id, _Bool 
         i = 5;
         for( ; !(i >= 23); i = i + 1)
         {
-          signed int return_value_rand$2;
-          return_value_rand$2=rand();
-          mosq->id[(signed long int)i] = (char)(return_value_rand$2 % 73 + 48);
+          signed int return_value_rand_2;
+          return_value_rand_2=rand();
+          mosq->id[(signed long int)i] = (char)(return_value_rand_2 % 73 + 48);
         }
       }
       mosq->in_packet.payload = (unsigned char *)(void *)0;
@@ -11852,15 +11852,15 @@ signed int mosquitto_reinitialise(struct mosquitto *mosq, const char *id, _Bool 
       mosq->tls_cert_reqs = 0x01;
       mosq->tls_insecure = (_Bool)0;
       mosq->want_write = (_Bool)0;
-      pthread_mutex_init(&mosq->callback_mutex, (const union anonymous$3 *)(void *)0);
-      pthread_mutex_init(&mosq->log_callback_mutex, (const union anonymous$3 *)(void *)0);
-      pthread_mutex_init(&mosq->state_mutex, (const union anonymous$3 *)(void *)0);
-      pthread_mutex_init(&mosq->out_packet_mutex, (const union anonymous$3 *)(void *)0);
-      pthread_mutex_init(&mosq->current_out_packet_mutex, (const union anonymous$3 *)(void *)0);
-      pthread_mutex_init(&mosq->msgtime_mutex, (const union anonymous$3 *)(void *)0);
-      pthread_mutex_init(&mosq->in_message_mutex, (const union anonymous$3 *)(void *)0);
-      pthread_mutex_init(&mosq->out_message_mutex, (const union anonymous$3 *)(void *)0);
-      pthread_mutex_init(&mosq->mid_mutex, (const union anonymous$3 *)(void *)0);
+      pthread_mutex_init(&mosq->callback_mutex, (const union anonymous_3 *)(void *)0);
+      pthread_mutex_init(&mosq->log_callback_mutex, (const union anonymous_3 *)(void *)0);
+      pthread_mutex_init(&mosq->state_mutex, (const union anonymous_3 *)(void *)0);
+      pthread_mutex_init(&mosq->out_packet_mutex, (const union anonymous_3 *)(void *)0);
+      pthread_mutex_init(&mosq->current_out_packet_mutex, (const union anonymous_3 *)(void *)0);
+      pthread_mutex_init(&mosq->msgtime_mutex, (const union anonymous_3 *)(void *)0);
+      pthread_mutex_init(&mosq->in_message_mutex, (const union anonymous_3 *)(void *)0);
+      pthread_mutex_init(&mosq->out_message_mutex, (const union anonymous_3 *)(void *)0);
+      pthread_mutex_init(&mosq->mid_mutex, (const union anonymous_3 *)(void *)0);
       mosq->thread_id=pthread_self();
       return 0;
     }
@@ -11881,22 +11881,22 @@ signed int mosquitto_socket(struct mosquitto *mosq)
 // file ../lib/mosquitto.h line 1349
 signed int mosquitto_socks5_set(struct mosquitto *mosq, const char *host, signed int port, const char *username, const char *password)
 {
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(mosq == ((struct mosquitto *)NULL))
     return 3;
 
   else
   {
     if(host == ((const char *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
-      return_value_strlen$1=strlen(host);
-      tmp_if_expr$2 = return_value_strlen$1 > (unsigned long int)256 ? (_Bool)1 : (_Bool)0;
+      return_value_strlen_1=strlen(host);
+      tmp_if_expr_2 = return_value_strlen_1 > (unsigned long int)256 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
       return 3;
 
     else
@@ -11954,8 +11954,8 @@ signed int mosquitto_socks5_set(struct mosquitto *mosq, const char *host, signed
 // file ../lib/mosquitto.h line 1369
 const char * mosquitto_strerror(signed int mosq_errno)
 {
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   switch(mosq_errno)
   {
     case -1:
@@ -11990,9 +11990,9 @@ const char * mosquitto_strerror(signed int mosq_errno)
       return "Unknown error.";
     case 14:
     {
-      return_value___errno_location$1=__errno_location();
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      return return_value_strerror$2;
+      return_value___errno_location_1=__errno_location();
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      return return_value_strerror_2;
     }
     case 15:
       return "Lookup error.";
@@ -12009,9 +12009,9 @@ signed int mosquitto_sub_topic_check(const char *str)
 {
   char c = (char)0;
   signed int len = 0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
   for( ; !(str == ((const char *)NULL)); str = &str[(signed long int)1])
   {
     if(*str == 0)
@@ -12020,18 +12020,18 @@ signed int mosquitto_sub_topic_check(const char *str)
     if((signed int)*str == 43)
     {
       if(!((signed int)c == 0) && !((signed int)c == 47))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
       {
         if(!((signed int)str[1l] == 0))
-          tmp_if_expr$1 = (signed int)str[(signed long int)1] != 47 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (signed int)str[(signed long int)1] != 47 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$2)
+      if(tmp_if_expr_2)
         return 3;
 
     }
@@ -12040,11 +12040,11 @@ signed int mosquitto_sub_topic_check(const char *str)
       if((signed int)*str == 35)
       {
         if(!((signed int)c == 0) && !((signed int)c == 47))
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = (signed int)str[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (signed int)str[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
           return 3;
 
       }
@@ -12071,15 +12071,15 @@ signed int mosquitto_sub_topic_tokenise(const char *subtopic, char ***topics, si
   signed int tlen;
   signed int i;
   signed int j;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(topics == ((char ***)NULL) || count == ((signed int *)NULL) || subtopic == ((const char *)NULL))
     return 3;
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(subtopic);
-    len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(subtopic);
+    len = (signed int)return_value_strlen_1;
     i = 0;
     for( ; !(i >= len); i = i + 1)
       if((signed int)subtopic[(signed long int)i] == 47)
@@ -12089,9 +12089,9 @@ signed int mosquitto_sub_topic_tokenise(const char *subtopic, char ***topics, si
 
       }
 
-    void *return_value__mosquitto_calloc$2;
-    return_value__mosquitto_calloc$2=_mosquitto_calloc((unsigned long int)hier_count, sizeof(char *) /*8ul*/ );
-    *topics = (char **)return_value__mosquitto_calloc$2;
+    void *return_value__mosquitto_calloc_2;
+    return_value__mosquitto_calloc_2=_mosquitto_calloc((unsigned long int)hier_count, sizeof(char *) /*8ul*/ );
+    *topics = (char **)return_value__mosquitto_calloc_2;
     if(*topics == ((char **)NULL))
       return 1;
 
@@ -12104,19 +12104,19 @@ signed int mosquitto_sub_topic_tokenise(const char *subtopic, char ***topics, si
       for( ; !(i >= 1 + len); i = i + 1)
       {
         if((signed int)subtopic[(signed long int)i] == 47)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = (signed int)subtopic[(signed long int)i] == 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (signed int)subtopic[(signed long int)i] == 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
         {
           stop = i;
           if(!(start == stop))
           {
             tlen = (stop - start) + 1;
-            void *return_value__mosquitto_calloc$3;
-            return_value__mosquitto_calloc$3=_mosquitto_calloc((unsigned long int)tlen, sizeof(char) /*1ul*/ );
-            (*topics)[(signed long int)hier] = (char *)return_value__mosquitto_calloc$3;
+            void *return_value__mosquitto_calloc_3;
+            return_value__mosquitto_calloc_3=_mosquitto_calloc((unsigned long int)tlen, sizeof(char) /*1ul*/ );
+            (*topics)[(signed long int)hier] = (char *)return_value__mosquitto_calloc_3;
             if((*topics)[(signed long int)hier] == ((char *)NULL))
             {
               i = 0;
@@ -12149,13 +12149,13 @@ signed int mosquitto_sub_topic_tokenise(const char *subtopic, char ***topics, si
 signed int mosquitto_sub_topic_tokens_free(char ***topics, signed int count)
 {
   signed int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(topics == ((char ***)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(*topics != ((char **)NULL)) ? (_Bool)1 : (_Bool)0;
-  if(!(count >= 1) || tmp_if_expr$1)
+    tmp_if_expr_1 = !(*topics != ((char **)NULL)) ? (_Bool)1 : (_Bool)0;
+  if(!(count >= 1) || tmp_if_expr_1)
     return 3;
 
   else
@@ -12183,16 +12183,16 @@ signed int mosquitto_subscribe(struct mosquitto *mosq, signed int *mid, const ch
 
     else
     {
-      signed int return_value_mosquitto_sub_topic_check$1;
-      return_value_mosquitto_sub_topic_check$1=mosquitto_sub_topic_check(sub);
-      if(!(return_value_mosquitto_sub_topic_check$1 == 0))
+      signed int return_value_mosquitto_sub_topic_check_1;
+      return_value_mosquitto_sub_topic_check_1=mosquitto_sub_topic_check(sub);
+      if(!(return_value_mosquitto_sub_topic_check_1 == 0))
         return 3;
 
       else
       {
-        signed int return_value__mosquitto_send_subscribe$2;
-        return_value__mosquitto_send_subscribe$2=_mosquitto_send_subscribe(mosq, mid, sub, (unsigned char)qos);
-        return return_value__mosquitto_send_subscribe$2;
+        signed int return_value__mosquitto_send_subscribe_2;
+        return_value__mosquitto_send_subscribe_2=_mosquitto_send_subscribe(mosq, mid, sub, (unsigned char)qos);
+        return return_value__mosquitto_send_subscribe_2;
       }
     }
 }
@@ -12247,10 +12247,10 @@ signed int mosquitto_tls_insecure_set(struct mosquitto *mosq, _Bool value)
 // file ../lib/mosquitto.h line 1060
 signed int mosquitto_tls_opts_set(struct mosquitto *mosq, signed int cert_reqs, const char *tls_version, const char *ciphers)
 {
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcasecmp$2;
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcasecmp$4;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcasecmp_2;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcasecmp_4;
   if(mosq == ((struct mosquitto *)NULL))
     return 3;
 
@@ -12259,25 +12259,25 @@ signed int mosquitto_tls_opts_set(struct mosquitto *mosq, signed int cert_reqs, 
     mosq->tls_cert_reqs = cert_reqs;
     if(!(tls_version == ((const char *)NULL)))
     {
-      signed int return_value_strcasecmp$1;
-      return_value_strcasecmp$1=strcasecmp(tls_version, "tlsv1.2");
-      if(return_value_strcasecmp$1 == 0)
-        tmp_if_expr$3 = (_Bool)1;
+      signed int return_value_strcasecmp_1;
+      return_value_strcasecmp_1=strcasecmp(tls_version, "tlsv1.2");
+      if(return_value_strcasecmp_1 == 0)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value_strcasecmp$2=strcasecmp(tls_version, "tlsv1.1");
-        tmp_if_expr$3 = !(return_value_strcasecmp$2 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcasecmp_2=strcasecmp(tls_version, "tlsv1.1");
+        tmp_if_expr_3 = !(return_value_strcasecmp_2 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
-        tmp_if_expr$5 = (_Bool)1;
+      if(tmp_if_expr_3)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_strcasecmp$4=strcasecmp(tls_version, "tlsv1");
-        tmp_if_expr$5 = !(return_value_strcasecmp$4 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcasecmp_4=strcasecmp(tls_version, "tlsv1");
+        tmp_if_expr_5 = !(return_value_strcasecmp_4 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
+      if(tmp_if_expr_5)
       {
         mosq->tls_version=_mosquitto_strdup(tls_version);
         if(mosq->tls_version == ((char *)NULL))
@@ -12319,11 +12319,11 @@ signed int mosquitto_tls_psk_set(struct mosquitto *mosq, const char *psk, const 
 
   else
   {
-    unsigned long int return_value_strspn$1;
-    return_value_strspn$1=strspn(psk, "0123456789abcdefABCDEF");
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(psk);
-    if(!(return_value_strspn$1 >= return_value_strlen$2))
+    unsigned long int return_value_strspn_1;
+    return_value_strspn_1=strspn(psk, "0123456789abcdefABCDEF");
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(psk);
+    if(!(return_value_strspn_1 >= return_value_strlen_2))
       return 3;
 
     else
@@ -12496,40 +12496,40 @@ signed int mosquitto_topic_matches_sub(const char *sub, const char *topic, _Bool
   signed int spos;
   signed int tpos;
   _Bool multilevel_wildcard = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
   if(result == ((_Bool *)NULL) || sub == ((const char *)NULL) || topic == ((const char *)NULL))
     return 3;
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(sub);
-    slen = (signed int)return_value_strlen$1;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(topic);
-    tlen = (signed int)return_value_strlen$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(sub);
+    slen = (signed int)return_value_strlen_1;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(topic);
+    tlen = (signed int)return_value_strlen_2;
     if(!(slen == 0) && !(tlen == 0))
     {
       if((signed int)*sub == 36)
-        tmp_if_expr$3 = (signed int)topic[(signed long int)0] != 36 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)topic[(signed long int)0] != 36 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
         if((signed int)*topic == 36)
-          tmp_if_expr$4 = (signed int)sub[(signed long int)0] != 36 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (signed int)sub[(signed long int)0] != 36 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (_Bool)0;
+        tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$5)
+      if(!tmp_if_expr_5)
         goto __CPROVER_DUMP_L8;
 
       *result = (_Bool)0;
@@ -12646,16 +12646,16 @@ signed int mosquitto_unsubscribe(struct mosquitto *mosq, signed int *mid, const 
 
     else
     {
-      signed int return_value_mosquitto_sub_topic_check$1;
-      return_value_mosquitto_sub_topic_check$1=mosquitto_sub_topic_check(sub);
-      if(!(return_value_mosquitto_sub_topic_check$1 == 0))
+      signed int return_value_mosquitto_sub_topic_check_1;
+      return_value_mosquitto_sub_topic_check_1=mosquitto_sub_topic_check(sub);
+      if(!(return_value_mosquitto_sub_topic_check_1 == 0))
         return 3;
 
       else
       {
-        signed int return_value__mosquitto_send_unsubscribe$2;
-        return_value__mosquitto_send_unsubscribe$2=_mosquitto_send_unsubscribe(mosq, mid, sub);
-        return return_value__mosquitto_send_unsubscribe$2;
+        signed int return_value__mosquitto_send_unsubscribe_2;
+        return_value__mosquitto_send_unsubscribe_2=_mosquitto_send_unsubscribe(mosq, mid, sub);
+        return return_value__mosquitto_send_unsubscribe_2;
       }
     }
 }
@@ -12731,24 +12731,24 @@ signed int mosquitto_username_pw_set(struct mosquitto *mosq, const char *usernam
 // file mosquitto.c line 1191
 _Bool mosquitto_want_write(struct mosquitto *mosq)
 {
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(mosq->out_packet == ((struct _mosquitto_packet *)NULL)))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = mosq->current_out_packet != ((struct _mosquitto_packet *)NULL) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$1;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = mosq->current_out_packet != ((struct _mosquitto_packet *)NULL) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(tmp_if_expr_2)
     return (_Bool)1;
 
   else
   {
     if(!(mosq->ssl == ((struct ssl_st *)NULL)))
-      tmp_if_expr$1 = mosq->want_write != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = mosq->want_write != (_Bool)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       return (_Bool)1;
 
     else
@@ -12765,9 +12765,9 @@ signed int mosquitto_will_clear(struct mosquitto *mosq)
 
   else
   {
-    signed int return_value__mosquitto_will_clear$1;
-    return_value__mosquitto_will_clear$1=_mosquitto_will_clear(mosq);
-    return return_value__mosquitto_will_clear$1;
+    signed int return_value__mosquitto_will_clear_1;
+    return_value__mosquitto_will_clear_1=_mosquitto_will_clear(mosq);
+    return return_value__mosquitto_will_clear_1;
   }
 }
 
@@ -12780,9 +12780,9 @@ signed int mosquitto_will_set(struct mosquitto *mosq, const char *topic, signed 
 
   else
   {
-    signed int return_value__mosquitto_will_set$1;
-    return_value__mosquitto_will_set$1=_mosquitto_will_set(mosq, topic, payloadlen, payload, qos, retain);
-    return return_value__mosquitto_will_set$1;
+    signed int return_value__mosquitto_will_set_1;
+    return_value__mosquitto_will_set_1=_mosquitto_will_set(mosq, topic, payloadlen, payload, qos, retain);
+    return return_value__mosquitto_will_set_1;
   }
 }
 
@@ -12849,9 +12849,9 @@ void my_connect_callback(struct mosquitto *mosq, void *obj, signed int result)
   else
     if(quiet == (_Bool)0 && !(result == 0))
     {
-      const char *return_value_mosquitto_connack_string$1;
-      return_value_mosquitto_connack_string$1=mosquitto_connack_string(result);
-      fprintf(stderr, "%s\n", return_value_mosquitto_connack_string$1);
+      const char *return_value_mosquitto_connack_string_1;
+      return_value_mosquitto_connack_string_1=mosquitto_connack_string(result);
+      fprintf(stderr, "%s\n", return_value_mosquitto_connack_string_1);
     }
 
 }
@@ -12974,9 +12974,9 @@ static unsigned int psk_client_callback(struct ssl_st *ssl, const char *hint, ch
 {
   struct mosquitto *mosq;
   signed int len;
-  void *return_value_SSL_get_ex_data$1;
-  return_value_SSL_get_ex_data$1=SSL_get_ex_data(ssl, tls_ex_index_mosq);
-  mosq = (struct mosquitto *)return_value_SSL_get_ex_data$1;
+  void *return_value_SSL_get_ex_data_1;
+  return_value_SSL_get_ex_data_1=SSL_get_ex_data(ssl, tls_ex_index_mosq);
+  mosq = (struct mosquitto *)return_value_SSL_get_ex_data_1;
   if(mosq == ((struct mosquitto *)NULL))
     return (unsigned int)0;
 

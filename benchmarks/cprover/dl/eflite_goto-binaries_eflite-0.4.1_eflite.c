@@ -1,72 +1,72 @@
-// #anon_enum$CST_AUDIO_LINEAR16=0$CST_AUDIO_LINEAR8=1$CST_AUDIO_MULAW=2
+// #anon_enum_CST_AUDIO_LINEAR16=0_CST_AUDIO_LINEAR8=1_CST_AUDIO_MULAW=2
 // file /usr/include/flite/cst_audio.h line 56
-enum anonymous$2 { CST_AUDIO_LINEAR16=0, CST_AUDIO_LINEAR8=1, CST_AUDIO_MULAW=2 };
+enum anonymous_2 { CST_AUDIO_LINEAR16=0, CST_AUDIO_LINEAR8=1, CST_AUDIO_MULAW=2 };
 
-// #anon_enum$L_SPEAK_PUNCTUATION=0$L_MAX=1
+// #anon_enum_L_SPEAK_PUNCTUATION=0_L_MAX=1
 // file language.h line 18
-enum anonymous$14 { L_SPEAK_PUNCTUATION=0, L_MAX=1 };
+enum anonymous_14 { L_SPEAK_PUNCTUATION=0, L_MAX=1 };
 
-// #anon_enum$NONE=0$SPEECH=1$TONE=2
+// #anon_enum_NONE=0_SPEECH=1_TONE=2
 // file fs.c line 141
-enum anonymous$12 { NONE=0, SPEECH=1, TONE=2 };
+enum anonymous_12 { NONE=0, SPEECH=1, TONE=2 };
 
-// #anon_enum$S_SPEED=0$S_PITCH=1$S_VOLUME=2$S_MAX=3
+// #anon_enum_S_SPEED=0_S_PITCH=1_S_VOLUME=2_S_MAX=3
 // file synthesizer.h line 36
-enum anonymous$9 { S_SPEED=0, S_PITCH=1, S_VOLUME=2, S_MAX=3 };
+enum anonymous_9 { S_SPEED=0, S_PITCH=1, S_VOLUME=2, S_MAX=3 };
 
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#}$SYM#tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]#$'__cancel_jmp_buf'||ARR4{*{V}$V$}$*{V}$V$$'__pad'|]
+// tag-#anon#ST[ARR1{SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#}_SYM#tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]#_'__cancel_jmp_buf'||ARR4{*{V}_V_}_*{V}_V__'__pad'|]
 // file /usr/include/pthread.h line 534
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[ARR8{S64}$S64$'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'$pad0'|]
+// tag-#anon#ST[ARR8{S64}_S64_'__cancel_jmp_buf'||S32'__mask_was_saved'||U32'_pad0'|]
 // file /usr/include/pthread.h line 536
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[EN#anon_enum$NONE=0$SPEECH=1$TONE=2#{U32}$U32$'type'||U32'$pad0'||*{V}$V$'data'|]
+// tag-#anon#ST[EN#anon_enum_NONE=0_SPEECH=1_TONE=2#{U32}_U32_'type'||U32'_pad0'||*{V}_V_'data'|]
 // file fs.c line 143
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 140
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S32'lang'||U32'$pad0'||*{S8}$S8$'name'|]
+// tag-#anon#ST[S32'lang'||U32'_pad0'||*{S8}_S8_'name'|]
 // file synthesizer.h line 29
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 129
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[F32'fval'||S32'ival'||*{V}$V$'vval'|]
+// tag-#anon#UN[F32'fval'||S32'ival'||*{V}_V_'vval'|]
 // file /usr/include/flite/cst_val.h line 70
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 138
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-#anon#UN[SYM#tag-cst_val_cons_struct#'cc'||SYM#tag-cst_val_atom_struct#'a'|]
 // file /usr/include/flite/cst_val.h line 79
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
 union anonymous;
 
@@ -250,13 +250,13 @@ extern signed int * __errno_location(void);
 extern signed int __fxstat(signed int, signed int, struct stat *);
 // __pthread_register_cancel
 // file /usr/include/pthread.h line 691
-extern void __pthread_register_cancel(struct anonymous$6 *);
+extern void __pthread_register_cancel(struct anonymous_6 *);
 // __pthread_unregister_cancel
 // file /usr/include/pthread.h line 703
-extern void __pthread_unregister_cancel(struct anonymous$6 *);
+extern void __pthread_unregister_cancel(struct anonymous_6 *);
 // __pthread_unwind_next
 // file /usr/include/pthread.h line 744
-extern void __pthread_unwind_next(struct anonymous$6 *);
+extern void __pthread_unwind_next(struct anonymous_6 *);
 // __rawmemchr
 // file /usr/include/x86_64-linux-gnu/bits/string2.h line 393
 extern void * __rawmemchr(const void *, signed int);
@@ -271,7 +271,7 @@ extern char * __strdup(const char *);
 extern signed int __xstat(signed int, const char *, struct stat *);
 // ac_destroy
 // file fs.c line 489
-static void ac_destroy(struct anonymous$13 *ac);
+static void ac_destroy(struct anonymous_13 *ac);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
 extern signed int accept(signed int, union anonymous, unsigned int *);
@@ -284,12 +284,12 @@ void add_tone_command(struct synth_struct *s, signed int freq, signed int dur, s
 // atoi
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr);
-// atoi$link1
+// atoi_link1
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1(const char *__nptr$link1);
-// atoi$link2
+static inline signed int atoi_link1(const char *__nptr_link1);
+// atoi_link2
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link2(const char *__nptr$link2);
+static inline signed int atoi_link2(const char *__nptr_link2);
 // audio_close
 // file /usr/include/flite/cst_audio.h line 75
 signed int audio_close(struct cst_audiodev_struct *);
@@ -301,7 +301,7 @@ signed int audio_drain(struct cst_audiodev_struct *);
 signed int audio_flush(struct cst_audiodev_struct *);
 // audio_open
 // file /usr/include/flite/cst_audio.h line 74
-struct cst_audiodev_struct * audio_open(signed int, signed int, enum anonymous$2);
+struct cst_audiodev_struct * audio_open(signed int, signed int, enum anonymous_2);
 // audio_write
 // file /usr/include/flite/cst_audio.h line 76
 signed int audio_write(struct cst_audiodev_struct *, void *, signed int);
@@ -413,9 +413,9 @@ signed int is_dir(char *name);
 // language_open
 // file fs.c line 1033
 struct lang_struct * language_open(void *context, char * (*lookup)(void *, const char *));
-// language_open::lookup$object
+// language_open::lookup_object
 //
-char * lookup$object(void *, const char *);
+char * lookup_object(void *, const char *);
 // listen
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 233
 extern signed int listen(signed int, signed int);
@@ -452,18 +452,18 @@ extern void perror(const char *);
 // play
 // file fs.c line 528
 static void * play(void *s);
-// play::1::1::1::__cancel_routine$object
+// play::1::1::1::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
-// play::1::1::2::__cancel_routine$object
+void __cancel_routine_object(void *);
+// play::1::1::2::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
-// play::1::1::5::__cancel_routine$object
+void __cancel_routine_object(void *);
+// play::1::1::5::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
-// play::1::1::6::__cancel_routine$object
+void __cancel_routine_object(void *);
+// play::1::1::6::__cancel_routine_object
 //
-void __cancel_routine$object(void *);
+void __cancel_routine_object(void *);
 // printf
 // file /usr/include/stdio.h line 362
 extern signed int printf(const char *, ...);
@@ -475,16 +475,16 @@ extern signed int pthread_attr_init(union pthread_attr_t *);
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 984
-extern signed int pthread_cond_destroy(union anonymous$1 *);
+extern signed int pthread_cond_destroy(union anonymous_1 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_init(union anonymous$1 *, const union anonymous$3 *);
+extern signed int pthread_cond_init(union anonymous_1 *, const union anonymous_3 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 988
-extern signed int pthread_cond_signal(union anonymous$1 *);
+extern signed int pthread_cond_signal(union anonymous_1 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 1000
-extern signed int pthread_cond_wait(union anonymous$1 *, union anonymous$0 *);
+extern signed int pthread_cond_wait(union anonymous_1 *, union anonymous_0 *);
 // pthread_create
 // file /usr/include/pthread.h line 244
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -496,16 +496,16 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_init(union anonymous$0 *, const union anonymous$3 *);
+extern signed int pthread_mutex_init(union anonymous_0 *, const union anonymous_3 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 773
-extern signed int pthread_mutex_lock(union anonymous$0 *);
+extern signed int pthread_mutex_lock(union anonymous_0 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 784
-extern signed int pthread_mutex_unlock(union anonymous$0 *);
+extern signed int pthread_mutex_unlock(union anonymous_0 *);
 // pthread_mutexattr_init
 // file /usr/include/pthread.h line 817
-extern signed int pthread_mutexattr_init(union anonymous$3 *);
+extern signed int pthread_mutexattr_init(union anonymous_3 *);
 // pthread_setcancelstate
 // file /usr/include/pthread.h line 517
 extern signed int pthread_setcancelstate(signed int, signed int *);
@@ -550,16 +550,16 @@ static signed int s_close(struct synth_struct *s);
 static signed int s_flush(struct synth_struct *s);
 // s_get_param
 // file fs.c line 971
-static signed int s_get_param(struct synth_struct *s, enum anonymous$9 par, signed int *value);
+static signed int s_get_param(struct synth_struct *s, enum anonymous_9 par, signed int *value);
 // s_set_param
 // file fs.c line 986
-static signed int s_set_param(struct synth_struct *s, enum anonymous$9 par, signed int value);
+static signed int s_set_param(struct synth_struct *s, enum anonymous_9 par, signed int value);
 // s_synth
 // file fs.c line 816
 static signed int s_synth(struct synth_struct *s, unsigned char *buffer);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$16 *, struct anonymous$16 *, struct anonymous$16 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_16 *, struct anonymous_16 *, struct anonymous_16 *, struct timeval *);
 // setting_add
 // file es.c line 309
 void setting_add(char *name, char *value);
@@ -632,9 +632,9 @@ extern signed long int strtol(const char *, char ** restrict , signed int);
 // synth_open
 // file fs.c line 347
 struct synth_struct * synth_open(void *context, char * (*lookup)(void *, const char *));
-// synth_open::lookup$object
+// synth_open::lookup_object
 //
-char * lookup$object(void *, const char *);
+char * lookup_object(void *, const char *);
 // synthesize
 // file fs.c line 654
 static void * synthesize(void *s);
@@ -663,19 +663,19 @@ static void wave_unlock(void *function_name);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$16
+struct anonymous_16
 {
   // fds_bits
   signed long int fds_bits[16l];
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // __cancel_jmp_buf
   signed long int __cancel_jmp_buf[8l];
@@ -683,23 +683,23 @@ struct anonymous$5
   signed int __mask_was_saved;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // __cancel_jmp_buf
-  struct anonymous$5 __cancel_jmp_buf[1l];
+  struct anonymous_5 __cancel_jmp_buf[1l];
   // __pad
   void *__pad[4l];
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // type
-  enum anonymous$12 type;
+  enum anonymous_12 type;
   // data
   void *data;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // __lock
   signed int __lock;
@@ -719,7 +719,7 @@ struct anonymous$4
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // lang
   signed int lang;
@@ -727,7 +727,7 @@ struct anonymous$8
   char *name;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __size
   char __size[4l];
@@ -735,7 +735,7 @@ union anonymous$3
   signed int __align;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // fval
   float fval;
@@ -745,10 +745,10 @@ union anonymous$10
   void *vval;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
-  struct anonymous$4 __data;
+  struct anonymous_4 __data;
   // __size
   char __size[48l];
   // __align
@@ -783,7 +783,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -808,10 +808,10 @@ struct cst_val_atom_struct
   // ref_count
   signed short int ref_count;
   // v
-  union anonymous$10 v;
+  union anonymous_10 v;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // cc
   struct cst_val_cons_struct cc;
@@ -819,7 +819,7 @@ union anonymous$11
   struct cst_val_atom_struct a;
 };
 
-union anonymous$15
+union anonymous_15
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -958,7 +958,7 @@ struct __jmp_buf_tag
   // __mask_was_saved
   signed int __mask_was_saved;
   // __saved_mask
-  struct anonymous$7 __saved_mask;
+  struct anonymous_7 __saved_mask;
 };
 
 struct client
@@ -982,9 +982,9 @@ struct cst_audiodev_struct
   // real_channels
   signed int real_channels;
   // fmt
-  enum anonymous$2 fmt;
+  enum anonymous_2 fmt;
   // real_fmt
-  enum anonymous$2 real_fmt;
+  enum anonymous_2 real_fmt;
   // byteswap
   signed int byteswap;
   // rateconv
@@ -1068,7 +1068,7 @@ struct cst_utterance_struct
 struct cst_val_struct
 {
   // c
-  union anonymous$11 c;
+  union anonymous_11 c;
 };
 
 struct cst_voice_struct
@@ -1108,7 +1108,7 @@ struct lang_struct
   // state
   struct lang_state *state;
   // lang
-  struct anonymous$8 *lang;
+  struct anonymous_8 *lang;
   // synth
   struct synth_struct *synth;
   // s_buf
@@ -1124,9 +1124,9 @@ struct lang_struct
   // speak_string
   signed int (*speak_string)(struct lang_struct *, unsigned char *);
   // get_param
-  signed int (*get_param)(struct lang_struct *, enum anonymous$14, signed int *);
+  signed int (*get_param)(struct lang_struct *, enum anonymous_14, signed int *);
   // set_param
-  signed int (*set_param)(struct lang_struct *, enum anonymous$14, signed int);
+  signed int (*set_param)(struct lang_struct *, enum anonymous_14, signed int);
 };
 
 struct option
@@ -1242,7 +1242,7 @@ struct synth_struct
   // state
   struct synth_state *state;
   // lang
-  struct anonymous$8 *lang;
+  struct anonymous_8 *lang;
   // name
   char *name;
   // lib_handle
@@ -1260,9 +1260,9 @@ struct synth_struct
   // index_wait
   signed int (*index_wait)(struct synth_struct *, signed int, signed int);
   // get_param
-  signed int (*get_param)(struct synth_struct *, enum anonymous$9, signed int *);
+  signed int (*get_param)(struct synth_struct *, enum anonymous_9, signed int *);
   // set_param
-  signed int (*set_param)(struct synth_struct *, enum anonymous$9, signed int);
+  signed int (*set_param)(struct synth_struct *, enum anonymous_9, signed int);
 };
 
 struct timeval
@@ -1276,7 +1276,7 @@ struct timeval
 
 // ac
 // file fs.c line 163
-static struct anonymous$13 *ac;
+static struct anonymous_13 *ac;
 // ac_head
 // file fs.c line 165
 static signed int ac_head;
@@ -1339,7 +1339,7 @@ static signed int default_param[3l];
 struct lang_struct lang;
 // languages
 // file fs.c line 1012
-struct anonymous$8 languages[3l] = { { .lang=0, .name="British English" }, { .lang=1, .name="German" }, { .lang=2, .name="no language" } };
+struct anonymous_8 languages[3l] = { { .lang=0, .name="British English" }, { .lang=1, .name="German" }, { .lang=2, .name="no language" } };
 // lang
 // file fs.c line 1018
 struct lang_struct lang = { .state=(struct lang_state *)(void *)0, .lang=&languages[(signed long int)0],
@@ -1348,11 +1348,11 @@ struct lang_struct lang = { .state=(struct lang_state *)(void *)0, .lang=&langua
     .s_buf_used=0, .s_buf_size=0,
     .close=(signed int (*)(struct lang_struct *))(void *)0, .change_synth=(signed int (*)(struct lang_struct *, struct synth_struct *))(void *)0,
     .speak_string=(signed int (*)(struct lang_struct *, unsigned char *))(void *)0,
-    .get_param=(signed int (*)(struct lang_struct *, enum anonymous$14, signed int *))(void *)0,
-    .set_param=(signed int (*)(struct lang_struct *, enum anonymous$14, signed int))(void *)0 };
-// lang$link1
+    .get_param=(signed int (*)(struct lang_struct *, enum anonymous_14, signed int *))(void *)0,
+    .set_param=(signed int (*)(struct lang_struct *, enum anonymous_14, signed int))(void *)0 };
+// lang_link1
 // file es.c line 283
-static struct lang_struct *lang$link1;
+static struct lang_struct *lang_link1;
 // longopts
 // file es.c line 753
 static struct option longopts[2l] = { { .name="version", .has_arg=0, .flag=(signed int *)(void *)0, .val=118 },
@@ -1360,7 +1360,7 @@ static struct option longopts[2l] = { { .name="version", .has_arg=0, .flag=(sign
     .val=0 } };
 // mt_attr
 // file fs.c line 184
-static union anonymous$3 mt_attr;
+static union anonymous_3 mt_attr;
 // numclients
 // file es.c line 285
 static signed int numclients = 0;
@@ -1421,13 +1421,13 @@ static char *text;
 static signed int text_buffered = 0;
 // text_condition
 // file fs.c line 175
-static union anonymous$1 text_condition;
+static union anonymous_1 text_condition;
 // text_head
 // file fs.c line 179
 static signed int text_head;
 // text_mutex
 // file fs.c line 174
-static union anonymous$0 text_mutex;
+static union anonymous_0 text_mutex;
 // text_size
 // file fs.c line 178
 static signed int text_size;
@@ -1460,10 +1460,10 @@ static signed int tone_volume;
 static struct cst_voice_struct *v = (struct cst_voice_struct *)(void *)0;
 // wave_condition
 // file fs.c line 161
-static union anonymous$1 wave_condition;
+static union anonymous_1 wave_condition;
 // wave_mutex
 // file fs.c line 160
-static union anonymous$0 wave_mutex;
+static union anonymous_0 wave_mutex;
 // wave_thread
 // file fs.c line 158
 static unsigned long int wave_thread;
@@ -1475,19 +1475,19 @@ static signed int wave_thread_active;
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx)
 {
-  signed long int return_value___builtin_bswap32$1;
-  return_value___builtin_bswap32$1=__builtin_bswap32((signed long int)__bsx);
-  return (unsigned int)return_value___builtin_bswap32$1;
+  signed long int return_value___builtin_bswap32_1;
+  return_value___builtin_bswap32_1=__builtin_bswap32((signed long int)__bsx);
+  return (unsigned int)return_value___builtin_bswap32_1;
 }
 
 // ac_destroy
 // file fs.c line 489
-static void ac_destroy(struct anonymous$13 *ac)
+static void ac_destroy(struct anonymous_13 *ac)
 {
   if((signed int)ac->type == SPEECH || (signed int)ac->type == TONE)
     cst_wave_free((struct cst_wave_struct *)ac->data);
 
-  ac->type = (enum anonymous$12)NONE;
+  ac->type = (enum anonymous_12)NONE;
 }
 
 // add_command
@@ -1497,9 +1497,9 @@ static void add_command(struct synth_struct *s, signed int id, unsigned char *bu
   signed int len;
   /* assertion s->state->initialized */
   assert(s->state->initialized != 0);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen((char *)buffer);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen((char *)buffer);
+  len = (signed int)return_value_strlen_1;
   if(!(text_thread_active == 0))
     pthread_mutex_lock(&text_mutex);
 
@@ -1507,9 +1507,9 @@ static void add_command(struct synth_struct *s, signed int id, unsigned char *bu
   {
     text_size = text_size << 1;
     text_size = text_size + len;
-    void *return_value_realloc$2;
-    return_value_realloc$2=realloc((void *)text, (unsigned long int)text_size);
-    text = (char *)return_value_realloc$2;
+    void *return_value_realloc_2;
+    return_value_realloc_2=realloc((void *)text, (unsigned long int)text_size);
+    text = (char *)return_value_realloc_2;
     if(text == ((char *)NULL))
     {
       fprintf(stderr, "Out of memory: text_size=%d\n", text_size);
@@ -1518,9 +1518,9 @@ static void add_command(struct synth_struct *s, signed int id, unsigned char *bu
 
   }
 
-  signed int tmp_post$3 = text_tail;
+  signed int tmp_post_3 = text_tail;
   text_tail = text_tail + 1;
-  text[(signed long int)tmp_post$3] = (char)id;
+  text[(signed long int)tmp_post_3] = (char)id;
   strcpy(text + (signed long int)text_tail, (char *)buffer);
   text_tail = text_tail + len + 1;
   text[(signed long int)text_tail] = (char)0;
@@ -1545,36 +1545,36 @@ __CPROVER_DUMP_L6:
 // file fs.c line 822
 void add_tone_command(struct synth_struct *s, signed int freq, signed int dur, signed int vol)
 {
-  char add_tone_command$$1$$buf[40l];
-  sprintf(add_tone_command$$1$$buf, "%d %d %d", freq, dur, vol);
-  add_command(s, 2, (unsigned char *)add_tone_command$$1$$buf);
+  char add_tone_command__1__buf[40l];
+  sprintf(add_tone_command__1__buf, "%d %d %d", freq, dur, vol);
+  add_command(s, 2, (unsigned char *)add_tone_command__1__buf);
 }
 
 // atoi
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
-// atoi$link1
+// atoi_link1
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link1(const char *__nptr$link1)
+static inline signed int atoi_link1(const char *__nptr_link1)
 {
-  signed long int return_value_strtol$1$link1;
-  return_value_strtol$1$link1=strtol(__nptr$link1, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link1;
+  signed long int return_value_strtol_1_link1;
+  return_value_strtol_1_link1=strtol(__nptr_link1, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link1;
 }
 
-// atoi$link2
+// atoi_link2
 // file /usr/include/stdlib.h line 278
-static inline signed int atoi$link2(const char *__nptr$link2)
+static inline signed int atoi_link2(const char *__nptr_link2)
 {
-  signed long int return_value_strtol$1$link2;
-  return_value_strtol$1$link2=strtol(__nptr$link2, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1$link2;
+  signed long int return_value_strtol_1_link2;
+  return_value_strtol_1_link2=strtol(__nptr_link2, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1_link2;
 }
 
 // client_init
@@ -1657,13 +1657,13 @@ void es_addtext(struct client *client, char *buf)
   i = 0;
   if(!(i >= 3))
   {
-    lang$link1->synth->get_param(lang$link1->synth, (enum anonymous$9)i, &val);
+    lang_link1->synth->get_param(lang_link1->synth, (enum anonymous_9)i, &val);
     if(!(val == client->param[(signed long int)i]))
     {
       if(!(text_buffered == 0))
         es_synthesize();
 
-      lang$link1->synth->set_param(lang$link1->synth, (enum anonymous$9)i, client->param[(signed long int)i]);
+      lang_link1->synth->set_param(lang_link1->synth, (enum anonymous_9)i, client->param[(signed long int)i]);
     }
 
     i = i + 1;
@@ -1671,23 +1671,23 @@ void es_addtext(struct client *client, char *buf)
 
   q = (unsigned char *)obuf;
   p = (unsigned char *)buf;
-  unsigned char *tmp_post$1;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
+  unsigned char *tmp_post_1;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
   for( ; !(*p == 0); p = p + 1l)
   {
     if(q - (unsigned char *)obuf >= 897l)
     {
       *q = (unsigned char)0;
-      lang$link1->synth->synth(lang$link1->synth, (unsigned char *)obuf);
+      lang_link1->synth->synth(lang_link1->synth, (unsigned char *)obuf);
       q = (unsigned char *)obuf;
     }
 
     if(client->punct[(signed long int)(signed int)*p] == 0)
     {
-      tmp_post$1 = q;
+      tmp_post_1 = q;
       q = q + 1l;
-      *tmp_post$1 = *p;
+      *tmp_post_1 = *p;
     }
 
     else
@@ -1696,9 +1696,9 @@ void es_addtext(struct client *client, char *buf)
       {
         if(!((signed int)q[-1l] == 32))
         {
-          tmp_post$2 = q;
+          tmp_post_2 = q;
           q = q + 1l;
-          *tmp_post$2 = (unsigned char)32;
+          *tmp_post_2 = (unsigned char)32;
         }
 
       }
@@ -1706,13 +1706,13 @@ void es_addtext(struct client *client, char *buf)
       strcpy((char *)q, ascii[(signed long int)(signed int)*p]);
       for( ; !(*q == 0); q = q + 1l)
         ;
-      tmp_post$3 = q;
+      tmp_post_3 = q;
       q = q + 1l;
-      *tmp_post$3 = (unsigned char)32;
+      *tmp_post_3 = (unsigned char)32;
     }
   }
   *q = (unsigned char)0;
-  lang$link1->synth->synth(lang$link1->synth, (unsigned char *)obuf);
+  lang_link1->synth->synth(lang_link1->synth, (unsigned char *)obuf);
   text_buffered = 1;
 }
 
@@ -1720,7 +1720,7 @@ void es_addtext(struct client *client, char *buf)
 // file es.c line 386
 void es_synthesize()
 {
-  lang$link1->synth->flush(lang$link1->synth);
+  lang_link1->synth->flush(lang_link1->synth);
   text_buffered = 0;
 }
 
@@ -1733,8 +1733,8 @@ void finish(signed int sig)
     close((client + (signed long int)i)->fd);
   close(sock);
   unlink(sockname);
-  if(!(lang$link1 == ((struct lang_struct *)NULL)))
-    lang$link1->synth->close(lang$link1->synth);
+  if(!(lang_link1 == ((struct lang_struct *)NULL)))
+    lang_link1->synth->close(lang_link1->synth);
 
   exit(0);
 }
@@ -1743,9 +1743,9 @@ void finish(signed int sig)
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 467
 static inline signed int fstat(signed int __fd, struct stat *__statbuf)
 {
-  signed int return_value___fxstat$1;
-  return_value___fxstat$1=__fxstat(1, __fd, __statbuf);
-  return return_value___fxstat$1;
+  signed int return_value___fxstat_1;
+  return_value___fxstat_1=__fxstat(1, __fd, __statbuf);
+  return return_value___fxstat_1;
 }
 
 // generate_tone
@@ -1757,18 +1757,18 @@ struct cst_wave_struct * generate_tone(signed int freq, signed int dur, signed i
   float n;
   signed int i;
   struct cst_wave_struct *wptr;
-  void *return_value_cst_safe_alloc$1;
-  return_value_cst_safe_alloc$1=cst_safe_alloc((signed int)(sizeof(struct cst_wave_struct) /*32ul*/  * (unsigned long int)1));
-  wptr = (struct cst_wave_struct *)return_value_cst_safe_alloc$1;
+  void *return_value_cst_safe_alloc_1;
+  return_value_cst_safe_alloc_1=cst_safe_alloc((signed int)(sizeof(struct cst_wave_struct) /*32ul*/  * (unsigned long int)1));
+  wptr = (struct cst_wave_struct *)return_value_cst_safe_alloc_1;
   if(wptr == ((struct cst_wave_struct *)NULL))
     return wptr;
 
   else
   {
     wptr->num_samples = (signed int)(max / step);
-    void *return_value_cst_safe_alloc$2;
-    return_value_cst_safe_alloc$2=cst_safe_alloc((signed int)(sizeof(signed short int) /*2ul*/  * (unsigned long int)wptr->num_samples));
-    wptr->samples = (signed short int *)return_value_cst_safe_alloc$2;
+    void *return_value_cst_safe_alloc_2;
+    return_value_cst_safe_alloc_2=cst_safe_alloc((signed int)(sizeof(signed short int) /*2ul*/  * (unsigned long int)wptr->num_samples));
+    wptr->samples = (signed short int *)return_value_cst_safe_alloc_2;
     if(wptr->samples == ((signed short int *)NULL))
     {
       free((void *)wptr);
@@ -1783,9 +1783,9 @@ struct cst_wave_struct * generate_tone(signed int freq, signed int dur, signed i
       n = (float)0;
       for( ; !(i >= wptr->num_samples); i = i + 1)
       {
-        double return_value_sin$3;
-        return_value_sin$3=sin((double)n);
-        wptr->samples[(signed long int)i] = (signed short int)(return_value_sin$3 * (double)vol);
+        double return_value_sin_3;
+        return_value_sin_3=sin((double)n);
+        wptr->samples[(signed long int)i] = (signed short int)(return_value_sin_3 * (double)vol);
         n = n + step;
       }
       return wptr;
@@ -1803,12 +1803,12 @@ signed int handle(struct client *client)
   char *p;
   signed int in_braces = 0;
   signed int result;
-  signed long int return_value_read$1;
-  return_value_read$1=read(client->fd, (void *)buf, (unsigned long int)(bufsize - 1));
-  size = (signed int)return_value_read$1;
-  signed int return_value_string_is_complete$2;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
+  signed long int return_value_read_1;
+  return_value_read_1=read(client->fd, (void *)buf, (unsigned long int)(bufsize - 1));
+  size = (signed int)return_value_read_1;
+  signed int return_value_string_is_complete_2;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
   if(size == 0)
     return 1;
 
@@ -1817,20 +1817,20 @@ signed int handle(struct client *client)
     buf[(signed long int)size] = (char)0;
     do
     {
-      return_value_string_is_complete$2=string_is_complete(buf, size);
-      if(!(return_value_string_is_complete$2 == 0))
+      return_value_string_is_complete_2=string_is_complete(buf, size);
+      if(!(return_value_string_is_complete_2 == 0))
         break;
 
       bufsize = bufsize + 200;
-      void *return_value_realloc$3;
-      return_value_realloc$3=realloc((void *)buf, (unsigned long int)bufsize);
-      buf = (char *)return_value_realloc$3;
+      void *return_value_realloc_3;
+      return_value_realloc_3=realloc((void *)buf, (unsigned long int)bufsize);
+      buf = (char *)return_value_realloc_3;
       if(buf == ((char *)NULL))
         exit(1);
 
-      signed long int return_value_read$4;
-      return_value_read$4=read(client->fd, (void *)(buf + (signed long int)size), (unsigned long int)200);
-      result = (signed int)return_value_read$4;
+      signed long int return_value_read_4;
+      return_value_read_4=read(client->fd, (void *)(buf + (signed long int)size), (unsigned long int)200);
+      result = (signed int)return_value_read_4;
       if(!(result >= 1))
       {
         buf[(signed long int)size] = (char)0;
@@ -1847,18 +1847,18 @@ signed int handle(struct client *client)
     for( ; !(i >= size); i = i + 1)
     {
       if((signed int)buf[(signed long int)i] == 13)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = (signed int)buf[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
-      if(in_braces == 0 && tmp_if_expr$6)
+        tmp_if_expr_6 = (signed int)buf[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
+      if(in_braces == 0 && tmp_if_expr_6)
       {
         if((signed int)*p == 108)
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = (signed int)*p == 113 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (signed int)*p == 113 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_5)
         {
           if((signed int)p[1l] == 32)
           {
@@ -1940,9 +1940,9 @@ signed int lookup_int(char *name, signed int defval)
 
   else
   {
-    signed int return_value_atoi$1;
-    return_value_atoi$1=atoi(val);
-    return return_value_atoi$1;
+    signed int return_value_atoi_1;
+    return_value_atoi_1=atoi(val);
+    return return_value_atoi_1;
   }
 }
 
@@ -1953,9 +1953,9 @@ char * lookup_string(void *context, const char *name)
   struct setting *p;
   if(settings == ((struct setting *)NULL))
   {
-    signed int return_value_settings_init$1;
-    return_value_settings_init$1=settings_init();
-    if(return_value_settings_init$1 == -1)
+    signed int return_value_settings_init_1;
+    return_value_settings_init_1=settings_init();
+    if(return_value_settings_init_1 == -1)
     {
       fprintf(stderr, "Fatal:  Cannot initialize settings\n");
       exit(1);
@@ -1966,9 +1966,9 @@ char * lookup_string(void *context, const char *name)
   p = settings;
   while(!(p == ((struct setting *)NULL)))
   {
-    signed int return_value_strcasecmp$2;
-    return_value_strcasecmp$2=strcasecmp(p->name, name);
-    if(return_value_strcasecmp$2 == 0)
+    signed int return_value_strcasecmp_2;
+    return_value_strcasecmp_2=strcasecmp(p->name, name);
+    if(return_value_strcasecmp_2 == 0)
       return p->value;
 
     p = p->next;
@@ -1980,7 +1980,7 @@ char * lookup_string(void *context, const char *name)
 // file es.c line 759
 signed int main(signed int argc, char **argv)
 {
-  struct anonymous$16 fds;
+  struct anonymous_16 fds;
   signed int i;
   signed int maxclients = 0;
   char *infile = (char *)(void *)0;
@@ -1994,9 +1994,9 @@ signed int main(signed int argc, char **argv)
   signed int daemon_only = 0;
   while(!(more_opts == 0))
   {
-    signed int return_value_getopt_long$1;
-    return_value_getopt_long$1=getopt_long(argc, argv, "Ddf:vc:", (struct option *)&longopts, (signed int *)(void *)0);
-    switch(return_value_getopt_long$1)
+    signed int return_value_getopt_long_1;
+    return_value_getopt_long_1=getopt_long(argc, argv, "Ddf:vc:", (struct option *)&longopts, (signed int *)(void *)0);
+    switch(return_value_getopt_long_1)
     {
       case 68:
       {
@@ -2027,42 +2027,42 @@ signed int main(signed int argc, char **argv)
         more_opts = 0;
     }
   }
-  signed int tmp_statement_expression$3;
-  signed int return_value_is_dir$2;
+  signed int tmp_statement_expression_3;
+  signed int return_value_is_dir_2;
   if(!(input == ((char *)NULL)))
   {
     unsigned long int __s1_len;
     unsigned long int __s2_len;
-    signed int return_value___builtin_strcmp$4;
-    return_value___builtin_strcmp$4=__builtin_strcmp(input, "-");
-    tmp_statement_expression$3 = return_value___builtin_strcmp$4;
-    if(!(tmp_statement_expression$3 == 0))
+    signed int return_value___builtin_strcmp_4;
+    return_value___builtin_strcmp_4=__builtin_strcmp(input, "-");
+    tmp_statement_expression_3 = return_value___builtin_strcmp_4;
+    if(!(tmp_statement_expression_3 == 0))
     {
-      return_value_is_dir$2=is_dir(input);
-      if(return_value_is_dir$2 == 0)
+      return_value_is_dir_2=is_dir(input);
+      if(return_value_is_dir_2 == 0)
         infile = input;
 
     }
 
   }
 
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc((unsigned long int)bufsize);
-  buf = (char *)return_value_malloc$5;
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc((unsigned long int)bufsize);
+  buf = (char *)return_value_malloc_5;
   if(buf == ((char *)NULL))
     exit(1);
 
-  _Bool tmp_if_expr$9;
-  unsigned long int return_value_strlen$8;
+  _Bool tmp_if_expr_9;
+  unsigned long int return_value_strlen_8;
   if(context == ((char *)NULL))
-    tmp_if_expr$9 = (_Bool)1;
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_strlen$8=strlen(context);
-    tmp_if_expr$9 = return_value_strlen$8 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_8=strlen(context);
+    tmp_if_expr_9 = return_value_strlen_8 == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$9)
+  if(tmp_if_expr_9)
   {
     sockname=lookup_string((void *)0, "socketfile");
     if(sockname == ((char *)NULL))
@@ -2072,17 +2072,17 @@ signed int main(signed int argc, char **argv)
 
   else
   {
-    signed int return_value_snprintf$6;
-    return_value_snprintf$6=snprintf(buf, (unsigned long int)bufsize, "/tmp/es_%s.socket", context);
-    if(return_value_snprintf$6 >= bufsize)
+    signed int return_value_snprintf_6;
+    return_value_snprintf_6=snprintf(buf, (unsigned long int)bufsize, "/tmp/es_%s.socket", context);
+    if(return_value_snprintf_6 >= bufsize)
     {
       perror("Context argument too long.");
       exit(1);
     }
 
-    char *return_value___strdup$7;
-    return_value___strdup$7=__strdup(buf);
-    sockname = return_value___strdup$7;
+    char *return_value___strdup_7;
+    return_value___strdup_7=__strdup(buf);
+    sockname = return_value___strdup_7;
     if(sockname == ((char *)NULL))
     {
       perror("Could not allocate space");
@@ -2122,21 +2122,21 @@ signed int main(signed int argc, char **argv)
   }
   punct_some=lookup_string((void *)0, "punct_some");
   if(punct_some == ((char *)NULL))
-    punct_some = "@#$%^&_[]{}\\|";
+    punct_some = "@#_%^&_[]{}\\|";
 
   punct_all=lookup_string((void *)0, "punct_all");
   if(punct_all == ((char *)NULL))
-    punct_all = "!@#$%^&*()-=_+[]\\|{};':\",./<>?";
+    punct_all = "!@#_%^&*()-=_+[]\\|{};':\",./<>?";
 
   tone_volume=lookup_int("tone_volume", 8192);
-  signed int return_value_lookup_int$10;
-  return_value_lookup_int$10=lookup_int("speaker_tones", 1);
-  if(return_value_lookup_int$10 == 0)
+  signed int return_value_lookup_int_10;
+  return_value_lookup_int_10=lookup_int("speaker_tones", 1);
+  if(return_value_lookup_int_10 == 0)
     tone_flags = tone_flags & 0xfe;
 
-  signed int return_value_lookup_int$11;
-  return_value_lookup_int$11=lookup_int("soundcard_tones", 1);
-  if(return_value_lookup_int$11 == 0)
+  signed int return_value_lookup_int_11;
+  return_value_lookup_int_11=lookup_int("soundcard_tones", 1);
+  if(return_value_lookup_int_11 == 0)
     tone_flags = tone_flags & 0xfd;
 
   unlink(sockname);
@@ -2147,8 +2147,8 @@ signed int main(signed int argc, char **argv)
   chmod(sockname, (unsigned int)0666);
   signal(2, finish);
   signal(15, finish);
-  lang$link1=language_open((void *)0, lookup_string);
-  if(lang$link1 == ((struct lang_struct *)NULL))
+  lang_link1=language_open((void *)0, lookup_string);
+  if(lang_link1 == ((struct lang_struct *)NULL))
     exit(1);
 
   if(debug == 0)
@@ -2157,12 +2157,12 @@ signed int main(signed int argc, char **argv)
   i = 0;
   if(!(i >= 3))
   {
-    lang$link1->synth->get_param(lang$link1->synth, (enum anonymous$9)i, &default_param[(signed long int)i]);
+    lang_link1->synth->get_param(lang_link1->synth, (enum anonymous_9)i, &default_param[(signed long int)i]);
     i = i + 1;
   }
 
   default_param[(signed long int)S_VOLUME]=lookup_int("speech_volume", default_param[(signed long int)S_VOLUME]);
-  signed int tmp_post$13;
+  signed int tmp_post_13;
   do
   {
 
@@ -2170,7 +2170,7 @@ signed int main(signed int argc, char **argv)
     ;
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$16) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_16) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->fds_bits[(signed long int)0]) : "memory");
     max = sock;
     (&fds)->fds_bits[(signed long int)(sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&fds)->fds_bits[(signed long int)(sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
     i = 0;
@@ -2181,20 +2181,20 @@ signed int main(signed int argc, char **argv)
 
       (&fds)->fds_bits[(signed long int)((client + (signed long int)i)->fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&fds)->fds_bits[(signed long int)((client + (signed long int)i)->fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)1 << (client + (signed long int)i)->fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ );
     }
-    select(max + 1, &fds, (struct anonymous$16 *)(void *)0, (struct anonymous$16 *)(void *)0, (struct timeval *)(void *)0);
+    select(max + 1, &fds, (struct anonymous_16 *)(void *)0, (struct anonymous_16 *)(void *)0, (struct timeval *)(void *)0);
     if(!((fds.fds_bits[(signed long int)(sock / 8)] & 1l << sock % 8) == 0l))
     {
       if(numclients == maxclients)
       {
         maxclients = maxclients + 1;
-        void *return_value_realloc$12;
-        return_value_realloc$12=realloc((void *)client, (unsigned long int)maxclients * sizeof(struct client) /*272ul*/ );
-        client = (struct client *)return_value_realloc$12;
+        void *return_value_realloc_12;
+        return_value_realloc_12=realloc((void *)client, (unsigned long int)maxclients * sizeof(struct client) /*272ul*/ );
+        client = (struct client *)return_value_realloc_12;
       }
 
-      tmp_post$13 = numclients;
+      tmp_post_13 = numclients;
       numclients = numclients + 1;
-      (client + (signed long int)tmp_post$13)->fd=accept(sock, (struct sockaddr *)0, ((unsigned int *)NULL));
+      (client + (signed long int)tmp_post_13)->fd=accept(sock, (struct sockaddr *)0, ((unsigned int *)NULL));
       client_init(&client[(signed long int)i]);
     }
 
@@ -2204,9 +2204,9 @@ signed int main(signed int argc, char **argv)
       for( ; !(i >= numclients); i = i + 1)
         if(!((fds.fds_bits[(signed long int)((client + (signed long int)i)->fd / 8)] & 1l << (client + (signed long int)i)->fd % 8) == 0l))
         {
-          signed int return_value_handle$14;
-          return_value_handle$14=handle(&client[(signed long int)i]);
-          if(!(return_value_handle$14 == 0))
+          signed int return_value_handle_14;
+          return_value_handle_14=handle(&client[(signed long int)i]);
+          if(!(return_value_handle_14 == 0))
           {
             close((client + (signed long int)i)->fd);
             numclients = numclients - 1;
@@ -2231,7 +2231,7 @@ void parse(struct client *client, char *buf)
   signed int i;
   signed int count;
   char *token[10l];
-  signed int parse$$1$$state;
+  signed int parse__1__state;
   signed int tmp;
   char *p;
   if((signed int)*buf == 108)
@@ -2268,19 +2268,19 @@ void parse(struct client *client, char *buf)
   for( ; (signed int)*buf == 32; buf = buf + 1l)
     ;
   count = 0;
-  parse$$1$$state = count;
-  i = parse$$1$$state;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
+  parse__1__state = count;
+  i = parse__1__state;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
   for( ; !(buf[(signed long int)i] == 0); i = i + 1)
-    switch(parse$$1$$state)
+    switch(parse__1__state)
     {
       case 0:
       {
         if((signed int)buf[(signed long int)i] == 32)
         {
           buf[(signed long int)i] = (char)0;
-          parse$$1$$state = 1;
+          parse__1__state = 1;
           break;
         }
 
@@ -2292,12 +2292,12 @@ void parse(struct client *client, char *buf)
         {
           if(!(count >= 9))
           {
-            tmp_post$1 = count;
+            tmp_post_1 = count;
             count = count + 1;
-            token[(signed long int)tmp_post$1] = buf + (signed long int)i + (signed long int)1;
+            token[(signed long int)tmp_post_1] = buf + (signed long int)i + (signed long int)1;
           }
 
-          parse$$1$$state = 2;
+          parse__1__state = 2;
         }
 
         else
@@ -2305,12 +2305,12 @@ void parse(struct client *client, char *buf)
           {
             if(!(count >= 9))
             {
-              tmp_post$2 = count;
+              tmp_post_2 = count;
               count = count + 1;
-              token[(signed long int)tmp_post$2] = buf + (signed long int)i;
+              token[(signed long int)tmp_post_2] = buf + (signed long int)i;
             }
 
-            parse$$1$$state = 0;
+            parse__1__state = 0;
           }
 
         break;
@@ -2319,39 +2319,39 @@ void parse(struct client *client, char *buf)
         if((signed int)buf[(signed long int)i] == 125)
         {
           buf[(signed long int)i] = (char)0;
-          parse$$1$$state = 1;
+          parse__1__state = 1;
         }
 
     }
-  signed int tmp_statement_expression$31;
+  signed int tmp_statement_expression_31;
   unsigned long int __s1_len;
-  unsigned long int parse$$1$$3$$__s2_len;
-  signed int return_value___builtin_strcmp$32;
-  return_value___builtin_strcmp$32=__builtin_strcmp(buf, "q");
-  tmp_statement_expression$31 = return_value___builtin_strcmp$32;
-  _Bool tmp_if_expr$33;
-  if(tmp_statement_expression$31 == 0)
-    tmp_if_expr$33 = token[(signed long int)0] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+  unsigned long int parse__1__3____s2_len;
+  signed int return_value___builtin_strcmp_32;
+  return_value___builtin_strcmp_32=__builtin_strcmp(buf, "q");
+  tmp_statement_expression_31 = return_value___builtin_strcmp_32;
+  _Bool tmp_if_expr_33;
+  if(tmp_statement_expression_31 == 0)
+    tmp_if_expr_33 = token[(signed long int)0] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$33 = (_Bool)0;
-  signed int tmp_statement_expression$29;
-  signed int tmp_statement_expression$26;
-  _Bool tmp_if_expr$28;
-  signed int tmp_statement_expression$20;
-  _Bool tmp_if_expr$24;
-  signed int tmp_statement_expression$22;
-  _Bool tmp_if_expr$25;
-  signed int tmp_statement_expression$14;
-  _Bool tmp_if_expr$18;
-  signed int tmp_statement_expression$16;
-  _Bool tmp_if_expr$19;
-  signed int tmp_statement_expression$12;
-  signed int tmp_statement_expression$10;
-  signed int tmp_statement_expression$7;
-  _Bool tmp_if_expr$9;
-  signed int return_value_strcasecmp$6;
-  if(tmp_if_expr$33)
+    tmp_if_expr_33 = (_Bool)0;
+  signed int tmp_statement_expression_29;
+  signed int tmp_statement_expression_26;
+  _Bool tmp_if_expr_28;
+  signed int tmp_statement_expression_20;
+  _Bool tmp_if_expr_24;
+  signed int tmp_statement_expression_22;
+  _Bool tmp_if_expr_25;
+  signed int tmp_statement_expression_14;
+  _Bool tmp_if_expr_18;
+  signed int tmp_statement_expression_16;
+  _Bool tmp_if_expr_19;
+  signed int tmp_statement_expression_12;
+  signed int tmp_statement_expression_10;
+  signed int tmp_statement_expression_7;
+  _Bool tmp_if_expr_9;
+  signed int return_value_strcasecmp_6;
+  if(tmp_if_expr_33)
   {
     remove_dectalk_codes(token[(signed long int)0]);
     es_addtext(client, token[(signed long int)0]);
@@ -2359,27 +2359,27 @@ void parse(struct client *client, char *buf)
 
   else
   {
-    unsigned long int parse$$1$$5$$__s1_len;
-    unsigned long int parse$$1$$5$$__s2_len;
-    signed int return_value___builtin_strcmp$30;
-    return_value___builtin_strcmp$30=__builtin_strcmp(buf, "d");
-    tmp_statement_expression$29 = return_value___builtin_strcmp$30;
-    if(tmp_statement_expression$29 == 0)
+    unsigned long int parse__1__5____s1_len;
+    unsigned long int parse__1__5____s2_len;
+    signed int return_value___builtin_strcmp_30;
+    return_value___builtin_strcmp_30=__builtin_strcmp(buf, "d");
+    tmp_statement_expression_29 = return_value___builtin_strcmp_30;
+    if(tmp_statement_expression_29 == 0)
       es_synthesize();
 
     else
     {
-      unsigned long int parse$$1$$7$$__s1_len;
-      unsigned long int parse$$1$$7$$__s2_len;
-      signed int return_value___builtin_strcmp$27;
-      return_value___builtin_strcmp$27=__builtin_strcmp(buf, "tts_say");
-      tmp_statement_expression$26 = return_value___builtin_strcmp$27;
-      if(tmp_statement_expression$26 == 0)
-        tmp_if_expr$28 = token[(signed long int)0] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      unsigned long int parse__1__7____s1_len;
+      unsigned long int parse__1__7____s2_len;
+      signed int return_value___builtin_strcmp_27;
+      return_value___builtin_strcmp_27=__builtin_strcmp(buf, "tts_say");
+      tmp_statement_expression_26 = return_value___builtin_strcmp_27;
+      if(tmp_statement_expression_26 == 0)
+        tmp_if_expr_28 = token[(signed long int)0] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$28 = (_Bool)0;
-      if(tmp_if_expr$28)
+        tmp_if_expr_28 = (_Bool)0;
+      if(tmp_if_expr_28)
       {
         remove_dectalk_codes(token[(signed long int)0]);
         es_addtext(client, token[(signed long int)0]);
@@ -2388,63 +2388,63 @@ void parse(struct client *client, char *buf)
 
       else
       {
-        unsigned long int parse$$1$$9$$__s1_len;
-        unsigned long int parse$$1$$9$$__s2_len;
-        signed int return_value___builtin_strcmp$21;
-        return_value___builtin_strcmp$21=__builtin_strcmp(buf, "r");
-        tmp_statement_expression$20 = return_value___builtin_strcmp$21;
-        if(tmp_statement_expression$20 == 0)
-          tmp_if_expr$24 = (_Bool)1;
+        unsigned long int parse__1__9____s1_len;
+        unsigned long int parse__1__9____s2_len;
+        signed int return_value___builtin_strcmp_21;
+        return_value___builtin_strcmp_21=__builtin_strcmp(buf, "r");
+        tmp_statement_expression_20 = return_value___builtin_strcmp_21;
+        if(tmp_statement_expression_20 == 0)
+          tmp_if_expr_24 = (_Bool)1;
 
         else
         {
-          unsigned long int parse$$1$$10$$__s1_len;
-          unsigned long int parse$$1$$10$$__s2_len;
-          signed int return_value___builtin_strcmp$23;
-          return_value___builtin_strcmp$23=__builtin_strcmp(buf, "tts_set_speech_rate");
-          tmp_statement_expression$22 = return_value___builtin_strcmp$23;
-          tmp_if_expr$24 = !(tmp_statement_expression$22 != 0) ? (_Bool)1 : (_Bool)0;
+          unsigned long int parse__1__10____s1_len;
+          unsigned long int parse__1__10____s2_len;
+          signed int return_value___builtin_strcmp_23;
+          return_value___builtin_strcmp_23=__builtin_strcmp(buf, "tts_set_speech_rate");
+          tmp_statement_expression_22 = return_value___builtin_strcmp_23;
+          tmp_if_expr_24 = !(tmp_statement_expression_22 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$24)
-          tmp_if_expr$25 = token[(signed long int)0] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_24)
+          tmp_if_expr_25 = token[(signed long int)0] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$25 = (_Bool)0;
-        if(tmp_if_expr$25)
+          tmp_if_expr_25 = (_Bool)0;
+        if(tmp_if_expr_25)
         {
           if(!(text_buffered == 0))
             es_synthesize(client);
 
-          signed int return_value_atoi$3;
-          return_value_atoi$3=atoi(token[(signed long int)0]);
-          client->param[(signed long int)S_SPEED] = (return_value_atoi$3 * 23) / 4;
+          signed int return_value_atoi_3;
+          return_value_atoi_3=atoi(token[(signed long int)0]);
+          client->param[(signed long int)S_SPEED] = (return_value_atoi_3 * 23) / 4;
         }
 
         else
         {
-          unsigned long int parse$$1$$12$$__s1_len;
+          unsigned long int parse__1__12____s1_len;
           unsigned long int __s2_len;
-          signed int return_value___builtin_strcmp$15;
-          return_value___builtin_strcmp$15=__builtin_strcmp(buf, "v");
-          tmp_statement_expression$14 = return_value___builtin_strcmp$15;
-          if(tmp_statement_expression$14 == 0)
-            tmp_if_expr$18 = (_Bool)1;
+          signed int return_value___builtin_strcmp_15;
+          return_value___builtin_strcmp_15=__builtin_strcmp(buf, "v");
+          tmp_statement_expression_14 = return_value___builtin_strcmp_15;
+          if(tmp_statement_expression_14 == 0)
+            tmp_if_expr_18 = (_Bool)1;
 
           else
           {
-            unsigned long int parse$$1$$13$$__s1_len;
-            unsigned long int parse$$1$$13$$__s2_len;
-            signed int return_value___builtin_strcmp$17;
-            return_value___builtin_strcmp$17=__builtin_strcmp(buf, "tts_set_speech_volume");
-            tmp_statement_expression$16 = return_value___builtin_strcmp$17;
-            tmp_if_expr$18 = !(tmp_statement_expression$16 != 0) ? (_Bool)1 : (_Bool)0;
+            unsigned long int parse__1__13____s1_len;
+            unsigned long int parse__1__13____s2_len;
+            signed int return_value___builtin_strcmp_17;
+            return_value___builtin_strcmp_17=__builtin_strcmp(buf, "tts_set_speech_volume");
+            tmp_statement_expression_16 = return_value___builtin_strcmp_17;
+            tmp_if_expr_18 = !(tmp_statement_expression_16 != 0) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$18)
-            tmp_if_expr$19 = token[(signed long int)0] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_18)
+            tmp_if_expr_19 = token[(signed long int)0] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$19 = (_Bool)0;
-          if(tmp_if_expr$19)
+            tmp_if_expr_19 = (_Bool)0;
+          if(tmp_if_expr_19)
           {
             if(!(text_buffered == 0))
               es_synthesize(client);
@@ -2454,55 +2454,55 @@ void parse(struct client *client, char *buf)
 
           else
           {
-            unsigned long int parse$$1$$15$$__s1_len;
-            unsigned long int parse$$1$$15$$__s2_len;
-            signed int return_value___builtin_strcmp$13;
-            return_value___builtin_strcmp$13=__builtin_strcmp(buf, "reset");
-            tmp_statement_expression$12 = return_value___builtin_strcmp$13;
-            if(tmp_statement_expression$12 == 0)
+            unsigned long int parse__1__15____s1_len;
+            unsigned long int parse__1__15____s2_len;
+            signed int return_value___builtin_strcmp_13;
+            return_value___builtin_strcmp_13=__builtin_strcmp(buf, "reset");
+            tmp_statement_expression_12 = return_value___builtin_strcmp_13;
+            if(tmp_statement_expression_12 == 0)
               client_init(client);
 
             else
             {
-              unsigned long int parse$$1$$17$$__s1_len;
-              unsigned long int parse$$1$$17$$__s2_len;
-              signed int return_value___builtin_strcmp$11;
-              return_value___builtin_strcmp$11=__builtin_strcmp(buf, "s");
-              tmp_statement_expression$10 = return_value___builtin_strcmp$11;
-              if(tmp_statement_expression$10 == 0)
-                lang$link1->synth->clear(lang$link1->synth);
+              unsigned long int parse__1__17____s1_len;
+              unsigned long int parse__1__17____s2_len;
+              signed int return_value___builtin_strcmp_11;
+              return_value___builtin_strcmp_11=__builtin_strcmp(buf, "s");
+              tmp_statement_expression_10 = return_value___builtin_strcmp_11;
+              if(tmp_statement_expression_10 == 0)
+                lang_link1->synth->clear(lang_link1->synth);
 
               else
               {
-                unsigned long int parse$$1$$19$$__s1_len;
-                unsigned long int parse$$1$$19$$__s2_len;
-                signed int return_value___builtin_strcmp$8;
-                return_value___builtin_strcmp$8=__builtin_strcmp(buf, "tts_set_punctuations");
-                tmp_statement_expression$7 = return_value___builtin_strcmp$8;
-                if(tmp_statement_expression$7 == 0)
-                  tmp_if_expr$9 = token[(signed long int)0] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+                unsigned long int parse__1__19____s1_len;
+                unsigned long int parse__1__19____s2_len;
+                signed int return_value___builtin_strcmp_8;
+                return_value___builtin_strcmp_8=__builtin_strcmp(buf, "tts_set_punctuations");
+                tmp_statement_expression_7 = return_value___builtin_strcmp_8;
+                if(tmp_statement_expression_7 == 0)
+                  tmp_if_expr_9 = token[(signed long int)0] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$9 = (_Bool)0;
-                if(tmp_if_expr$9)
+                  tmp_if_expr_9 = (_Bool)0;
+                if(tmp_if_expr_9)
                 {
                   memset((void *)client->punct, 0, sizeof(char [256l]) /*256ul*/ );
-                  signed int return_value_strcasecmp$4;
-                  return_value_strcasecmp$4=strcasecmp(token[(signed long int)0], "none");
-                  if(!(return_value_strcasecmp$4 == 0))
+                  signed int return_value_strcasecmp_4;
+                  return_value_strcasecmp_4=strcasecmp(token[(signed long int)0], "none");
+                  if(!(return_value_strcasecmp_4 == 0))
                     punct_add(client, punct_some);
 
-                  signed int return_value_strcasecmp$5;
-                  return_value_strcasecmp$5=strcasecmp(token[(signed long int)0], "all");
-                  if(return_value_strcasecmp$5 == 0)
+                  signed int return_value_strcasecmp_5;
+                  return_value_strcasecmp_5=strcasecmp(token[(signed long int)0], "all");
+                  if(return_value_strcasecmp_5 == 0)
                     punct_add(client, punct_all);
 
                 }
 
                 else
                 {
-                  return_value_strcasecmp$6=strcasecmp(buf, "t");
-                  if(return_value_strcasecmp$6 == 0)
+                  return_value_strcasecmp_6=strcasecmp(buf, "t");
+                  if(return_value_strcasecmp_6 == 0)
                   {
                     if(!(token[0l] == ((char *)NULL)))
                     {
@@ -2512,7 +2512,7 @@ void parse(struct client *client, char *buf)
                         freq=atoi(token[(signed long int)0]);
                         signed int dur;
                         dur=atoi(token[(signed long int)1]);
-                        do_tone(lang$link1->synth, freq, dur, tone_volume, tone_flags);
+                        do_tone(lang_link1->synth, freq, dur, tone_volume, tone_flags);
                       }
 
                     }
@@ -2533,7 +2533,7 @@ void parse(struct client *client, char *buf)
 // file es.c line 693
 void passthrough(char *infile, signed int outfd)
 {
-  char passthrough$$1$$buf[500l];
+  char passthrough__1__buf[500l];
   signed int size;
   signed int fd;
   signal(17, finish);
@@ -2547,18 +2547,18 @@ void passthrough(char *infile, signed int outfd)
 
   else
     fd = 0;
-  signed int tmp_if_expr$4;
-  signed int return_value_open$3;
+  signed int tmp_if_expr_4;
+  signed int return_value_open_3;
   while((_Bool)1)
   {
-    signed long int return_value_read$1;
-    return_value_read$1=read(fd, (void *)passthrough$$1$$buf, sizeof(char [500l]) /*500ul*/ );
-    size = (signed int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(fd, (void *)passthrough__1__buf, sizeof(char [500l]) /*500ul*/ );
+    size = (signed int)return_value_read_1;
     if(size == -1)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      if(*return_value___errno_location$2 == 9)
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      if(*return_value___errno_location_2 == 9)
         exit(0);
 
       else
@@ -2568,33 +2568,33 @@ void passthrough(char *infile, signed int outfd)
     if(size == 0)
     {
       signed int is_fifo;
-      struct stat passthrough$$1$$3$$2$$stat;
-      fstat(fd, &passthrough$$1$$3$$2$$stat);
-      is_fifo = (signed int)((passthrough$$1$$3$$2$$stat.st_mode & (unsigned int)0170000) == (unsigned int)0010000);
+      struct stat passthrough__1__3__2__stat;
+      fstat(fd, &passthrough__1__3__2__stat);
+      is_fifo = (signed int)((passthrough__1__3__2__stat.st_mode & (unsigned int)0170000) == (unsigned int)0010000);
       close(fd);
       if(!(is_fifo == 0))
       {
         if(!(infile == ((char *)NULL)))
         {
-          return_value_open$3=open(infile, 00);
-          tmp_if_expr$4 = return_value_open$3;
+          return_value_open_3=open(infile, 00);
+          tmp_if_expr_4 = return_value_open_3;
         }
 
         else
-          tmp_if_expr$4 = 0;
-        fd = tmp_if_expr$4;
+          tmp_if_expr_4 = 0;
+        fd = tmp_if_expr_4;
         continue;
       }
 
       exit(0);
     }
 
-    if((signed int)passthrough$$1$$buf[0l] == 3)
+    if((signed int)passthrough__1__buf[0l] == 3)
       break;
 
-    signed long int return_value_write$5;
-    return_value_write$5=write(outfd, (const void *)passthrough$$1$$buf, (unsigned long int)size);
-    if(!(return_value_write$5 == (signed long int)size))
+    signed long int return_value_write_5;
+    return_value_write_5=write(outfd, (const void *)passthrough__1__buf, (unsigned long int)size);
+    if(!(return_value_write_5 == (signed long int)size))
       terror("write");
 
   }
@@ -2614,18 +2614,18 @@ static void * play(void *s)
   {
     do
     {
-      struct anonymous$6 play$$1$$1$$1$$__cancel_buf;
-      void (*play$$1$$1$$1$$__cancel_routine)(void *) = wave_unlock;
-      void *play$$1$$1$$1$$__cancel_arg = (void *)"play";
-      signed int play$$1$$1$$1$$__not_first_call;
-      play$$1$$1$$1$$__not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)play$$1$$1$$1$$__cancel_buf.__cancel_jmp_buf, 0);
-      if(!((signed long int)play$$1$$1$$1$$__not_first_call == 0l))
+      struct anonymous_6 play__1__1__1____cancel_buf;
+      void (*play__1__1__1____cancel_routine)(void *) = wave_unlock;
+      void *play__1__1__1____cancel_arg = (void *)"play";
+      signed int play__1__1__1____not_first_call;
+      play__1__1__1____not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)play__1__1__1____cancel_buf.__cancel_jmp_buf, 0);
+      if(!((signed long int)play__1__1__1____not_first_call == 0l))
       {
-        play$$1$$1$$1$$__cancel_routine(play$$1$$1$$1$$__cancel_arg);
-        __pthread_unwind_next(&play$$1$$1$$1$$__cancel_buf);
+        play__1__1__1____cancel_routine(play__1__1__1____cancel_arg);
+        __pthread_unwind_next(&play__1__1__1____cancel_buf);
       }
 
-      __pthread_register_cancel(&play$$1$$1$$1$$__cancel_buf);
+      __pthread_register_cancel(&play__1__1__1____cancel_buf);
       do
       {
         pthread_mutex_lock(&wave_mutex);
@@ -2646,38 +2646,38 @@ static void * play(void *s)
         ;
       }
       while((_Bool)0);
-      __pthread_unregister_cancel(&play$$1$$1$$1$$__cancel_buf);
+      __pthread_unregister_cancel(&play__1__1__1____cancel_buf);
     }
     while((_Bool)0);
     pthread_testcancel();
     do
     {
-      struct anonymous$6 play$$1$$1$$2$$__cancel_buf;
+      struct anonymous_6 play__1__1__2____cancel_buf;
       void (*__cancel_routine)(void *) = wave_unlock;
       void *__cancel_arg = (void *)"play";
       signed int __not_first_call;
-      __not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)play$$1$$1$$2$$__cancel_buf.__cancel_jmp_buf, 0);
+      __not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)play__1__1__2____cancel_buf.__cancel_jmp_buf, 0);
       if(!((signed long int)__not_first_call == 0l))
       {
         __cancel_routine(__cancel_arg);
-        __pthread_unwind_next(&play$$1$$1$$2$$__cancel_buf);
+        __pthread_unwind_next(&play__1__1__2____cancel_buf);
       }
 
-      __pthread_register_cancel(&play$$1$$1$$2$$__cancel_buf);
+      __pthread_register_cancel(&play__1__1__2____cancel_buf);
       do
       {
         pthread_mutex_lock(&wave_mutex);
         pthread_testcancel();
         /* assertion audiodev == ((void *)0) */
         assert(audiodev == (struct cst_audiodev_struct *)(void *)0);
-        audiodev=audio_open(wptr->sample_rate, wptr->num_channels, (enum anonymous$2)CST_AUDIO_LINEAR16);
+        audiodev=audio_open(wptr->sample_rate, wptr->num_channels, (enum anonymous_2)CST_AUDIO_LINEAR16);
         pthread_mutex_unlock(&wave_mutex);
 
       __CPROVER_DUMP_L12:
         ;
       }
       while((_Bool)0);
-      __pthread_unregister_cancel(&play$$1$$1$$2$$__cancel_buf);
+      __pthread_unregister_cancel(&play__1__1__2____cancel_buf);
     }
     while((_Bool)0);
     if(audiodev == ((struct cst_audiodev_struct *)NULL))
@@ -2699,14 +2699,14 @@ static void * play(void *s)
     pthread_testcancel();
     do
     {
-      struct anonymous$6 __cancel_buf;
-      void (*play$$1$$1$$5$$__cancel_routine)(void *) = text_unlock;
-      void *play$$1$$1$$5$$__cancel_arg = (void *)"play";
-      signed int play$$1$$1$$5$$__not_first_call;
-      play$$1$$1$$5$$__not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)__cancel_buf.__cancel_jmp_buf, 0);
-      if(!((signed long int)play$$1$$1$$5$$__not_first_call == 0l))
+      struct anonymous_6 __cancel_buf;
+      void (*play__1__1__5____cancel_routine)(void *) = text_unlock;
+      void *play__1__1__5____cancel_arg = (void *)"play";
+      signed int play__1__1__5____not_first_call;
+      play__1__1__5____not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)__cancel_buf.__cancel_jmp_buf, 0);
+      if(!((signed long int)play__1__1__5____not_first_call == 0l))
       {
-        play$$1$$1$$5$$__cancel_routine(play$$1$$1$$5$$__cancel_arg);
+        play__1__1__5____cancel_routine(play__1__1__5____cancel_arg);
         __pthread_unwind_next(&__cancel_buf);
       }
 
@@ -2730,18 +2730,18 @@ static void * play(void *s)
     while((_Bool)0);
     do
     {
-      struct anonymous$6 play$$1$$1$$6$$__cancel_buf;
-      void (*play$$1$$1$$6$$__cancel_routine)(void *) = wave_unlock;
-      void *play$$1$$1$$6$$__cancel_arg = (void *)"play";
-      signed int play$$1$$1$$6$$__not_first_call;
-      play$$1$$1$$6$$__not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)play$$1$$1$$6$$__cancel_buf.__cancel_jmp_buf, 0);
-      if(!((signed long int)play$$1$$1$$6$$__not_first_call == 0l))
+      struct anonymous_6 play__1__1__6____cancel_buf;
+      void (*play__1__1__6____cancel_routine)(void *) = wave_unlock;
+      void *play__1__1__6____cancel_arg = (void *)"play";
+      signed int play__1__1__6____not_first_call;
+      play__1__1__6____not_first_call=__sigsetjmp((struct __jmp_buf_tag *)(void *)play__1__1__6____cancel_buf.__cancel_jmp_buf, 0);
+      if(!((signed long int)play__1__1__6____not_first_call == 0l))
       {
-        play$$1$$1$$6$$__cancel_routine(play$$1$$1$$6$$__cancel_arg);
-        __pthread_unwind_next(&play$$1$$1$$6$$__cancel_buf);
+        play__1__1__6____cancel_routine(play__1__1__6____cancel_arg);
+        __pthread_unwind_next(&play__1__1__6____cancel_buf);
       }
 
-      __pthread_register_cancel(&play$$1$$1$$6$$__cancel_buf);
+      __pthread_register_cancel(&play__1__1__6____cancel_buf);
       do
       {
         pthread_mutex_lock(&wave_mutex);
@@ -2755,7 +2755,7 @@ static void * play(void *s)
         else
           if(!(ac_size >> 1 >= ac_head))
           {
-            memmove((void *)ac, (const void *)(ac + (signed long int)ac_head), (unsigned long int)(ac_tail - ac_head) * sizeof(struct anonymous$13) /*16ul*/ );
+            memmove((void *)ac, (const void *)(ac + (signed long int)ac_head), (unsigned long int)(ac_tail - ac_head) * sizeof(struct anonymous_13) /*16ul*/ );
             ac_tail = ac_tail - ac_head;
             if(ac_synthpos >= 1)
               ac_synthpos = ac_synthpos - ac_head;
@@ -2769,7 +2769,7 @@ static void * play(void *s)
         ;
       }
       while((_Bool)0);
-      __pthread_unregister_cancel(&play$$1$$1$$6$$__cancel_buf);
+      __pthread_unregister_cancel(&play__1__1__6____cancel_buf);
     }
     while((_Bool)0);
   }
@@ -2889,7 +2889,7 @@ static signed int s_clear(struct synth_struct *s)
     exit(4);
   }
 
-  pthread_cond_init(&wave_condition, (const union anonymous$3 *)(void *)0);
+  pthread_cond_init(&wave_condition, (const union anonymous_3 *)(void *)0);
   return 0;
 }
 
@@ -2930,11 +2930,11 @@ static signed int s_close(struct synth_struct *s)
     if(!(text == ((char *)NULL)))
       free((void *)text);
 
-    if(!(ac == ((struct anonymous$13 *)NULL)))
+    if(!(ac == ((struct anonymous_13 *)NULL)))
       free((void *)ac);
 
     text = (char *)(void *)0;
-    ac = (struct anonymous$13 *)(void *)0;
+    ac = (struct anonymous_13 *)(void *)0;
   }
 
   return 0;
@@ -2978,7 +2978,7 @@ static signed int s_flush(struct synth_struct *s)
 
 // s_get_param
 // file fs.c line 971
-static signed int s_get_param(struct synth_struct *s, enum anonymous$9 par, signed int *value)
+static signed int s_get_param(struct synth_struct *s, enum anonymous_9 par, signed int *value)
 {
   if((signed int)par >= 0 && !((signed int)par >= S_MAX))
   {
@@ -2992,11 +2992,11 @@ static signed int s_get_param(struct synth_struct *s, enum anonymous$9 par, sign
 
 // s_set_param
 // file fs.c line 986
-static signed int s_set_param(struct synth_struct *s, enum anonymous$9 par, signed int value)
+static signed int s_set_param(struct synth_struct *s, enum anonymous_9 par, signed int value)
 {
   verify_language(s);
-  double return_value_exp$1;
-  double return_value_exp$2;
+  double return_value_exp_1;
+  double return_value_exp_2;
   switch((signed int)par)
   {
     case S_SPEED:
@@ -3006,9 +3006,9 @@ static signed int s_set_param(struct synth_struct *s, enum anonymous$9 par, sign
     }
     case S_PITCH:
     {
-      return_value_exp$1=exp((double)((float)value / (float)1000));
-      return_value_exp$2=exp((double)1);
-      feat_set_float(v->features, "int_f0_target_mean", (float)((return_value_exp$1 * (double)100) / return_value_exp$2));
+      return_value_exp_1=exp((double)((float)value / (float)1000));
+      return_value_exp_2=exp((double)1);
+      feat_set_float(v->features, "int_f0_target_mean", (float)((return_value_exp_1 * (double)100) / return_value_exp_2));
       break;
     }
     case S_VOLUME:
@@ -3033,11 +3033,11 @@ static signed int s_synth(struct synth_struct *s, unsigned char *buffer)
 void setting_add(char *name, char *value)
 {
   struct setting *p = settings;
-  void *return_value_malloc$1;
+  void *return_value_malloc_1;
   if(p == ((struct setting *)NULL))
   {
-    return_value_malloc$1=malloc(sizeof(struct setting) /*24ul*/ );
-    settings = (struct setting *)return_value_malloc$1;
+    return_value_malloc_1=malloc(sizeof(struct setting) /*24ul*/ );
+    settings = (struct setting *)return_value_malloc_1;
     p = settings;
   }
 
@@ -3045,17 +3045,17 @@ void setting_add(char *name, char *value)
   {
     for( ; !(p->next == ((struct setting *)NULL)); p = p->next)
       ;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct setting) /*24ul*/ );
-    p->next = (struct setting *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct setting) /*24ul*/ );
+    p->next = (struct setting *)return_value_malloc_2;
     p = p->next;
   }
-  char *return_value___strdup$3;
-  return_value___strdup$3=__strdup(name);
-  p->name = return_value___strdup$3;
-  char *return_value___strdup$4;
-  return_value___strdup$4=__strdup(value);
-  p->value = return_value___strdup$4;
+  char *return_value___strdup_3;
+  return_value___strdup_3=__strdup(name);
+  p->name = return_value___strdup_3;
+  char *return_value___strdup_4;
+  return_value___strdup_4=__strdup(value);
+  p->value = return_value___strdup_4;
   p->next = (struct setting *)(void *)0;
 }
 
@@ -3064,17 +3064,17 @@ void setting_add(char *name, char *value)
 signed int settings_init()
 {
   struct _IO_FILE *fp;
-  char settings_init$$1$$buf[513l];
+  char settings_init__1__buf[513l];
   char *p;
   p=getenv("HOME");
-  snprintf(settings_init$$1$$buf, sizeof(char [513l]) /*513ul*/ , "%s/.es.conf", p);
-  fp=fopen(settings_init$$1$$buf, "r");
+  snprintf(settings_init__1__buf, sizeof(char [513l]) /*513ul*/ , "%s/.es.conf", p);
+  fp=fopen(settings_init__1__buf, "r");
   if(fp == ((struct _IO_FILE *)NULL))
     fp=fopen("/etc/es.conf", "r");
 
-  char *return_value_fgets$1;
-  _Bool tmp_if_expr$2;
-  char *tmp_post$5;
+  char *return_value_fgets_1;
+  _Bool tmp_if_expr_2;
+  char *tmp_post_5;
   if(fp == ((struct _IO_FILE *)NULL))
     return 1;
 
@@ -3082,29 +3082,29 @@ signed int settings_init()
   {
     do
     {
-      return_value_fgets$1=fgets(settings_init$$1$$buf, 512, fp);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(settings_init__1__buf, 512, fp);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
-      p = settings_init$$1$$buf;
+      p = settings_init__1__buf;
       for( ; (signed int)*p >= 32; p = p + 1l)
         ;
       if((signed int)*p == 13)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)*p == 10 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (signed int)*p == 10 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         *p = (char)0;
 
-      p = settings_init$$1$$buf;
-      signed int return_value_strncasecmp$4;
-      return_value_strncasecmp$4=strncasecmp(settings_init$$1$$buf, "env ", (unsigned long int)4);
-      if(return_value_strncasecmp$4 == 0)
+      p = settings_init__1__buf;
+      signed int return_value_strncasecmp_4;
+      return_value_strncasecmp_4=strncasecmp(settings_init__1__buf, "env ", (unsigned long int)4);
+      if(return_value_strncasecmp_4 == 0)
       {
-        char *return_value___strdup$3;
-        return_value___strdup$3=__strdup(settings_init$$1$$buf + (signed long int)4);
-        putenv(return_value___strdup$3);
+        char *return_value___strdup_3;
+        return_value___strdup_3=__strdup(settings_init__1__buf + (signed long int)4);
+        putenv(return_value___strdup_3);
         continue;
       }
 
@@ -3114,10 +3114,10 @@ signed int settings_init()
 
       if((signed int)*p == 61)
       {
-        tmp_post$5 = p;
+        tmp_post_5 = p;
         p = p + 1l;
-        *tmp_post$5 = (char)0;
-        setting_add(settings_init$$1$$buf, p);
+        *tmp_post_5 = (char)0;
+        setting_add(settings_init__1__buf, p);
       }
 
     }
@@ -3131,25 +3131,25 @@ signed int settings_init()
 // file es.h line 37
 signed int sockconnect(const char *name)
 {
-  signed int return_value_sockconnect_tcp$1;
-  signed int return_value_sockconnect_unix$2;
+  signed int return_value_sockconnect_tcp_1;
+  signed int return_value_sockconnect_unix_2;
   if(name == ((const char *)NULL))
     return -1;
 
   else
   {
-    char *return_value___builtin_strchr$3;
-    return_value___builtin_strchr$3=__builtin_strchr(name, 58);
-    if(!(return_value___builtin_strchr$3 == ((char *)NULL)))
+    char *return_value___builtin_strchr_3;
+    return_value___builtin_strchr_3=__builtin_strchr(name, 58);
+    if(!(return_value___builtin_strchr_3 == ((char *)NULL)))
     {
-      return_value_sockconnect_tcp$1=sockconnect_tcp(name);
-      return return_value_sockconnect_tcp$1;
+      return_value_sockconnect_tcp_1=sockconnect_tcp(name);
+      return return_value_sockconnect_tcp_1;
     }
 
     else
     {
-      return_value_sockconnect_unix$2=sockconnect_unix(name);
-      return return_value_sockconnect_unix$2;
+      return_value_sockconnect_unix_2=sockconnect_unix(name);
+      return return_value_sockconnect_unix_2;
     }
   }
 }
@@ -3165,7 +3165,7 @@ static signed int sockconnect_tcp(const char *port)
   char *p;
   signed int len;
   p=strstr(port, ":");
-  portnum=atoi$link1(p + (signed long int)1);
+  portnum=atoi_link1(p + (signed long int)1);
   len = (signed int)(p - port);
   if(len >= 1024)
   {
@@ -3184,16 +3184,16 @@ static signed int sockconnect_tcp(const char *port)
 
   memset((void *)&servaddr, 0, sizeof(struct sockaddr_in) /*16ul*/ );
   servaddr.sin_family = (unsigned short int)2;
-  unsigned short int tmp_statement_expression$1;
+  unsigned short int tmp_statement_expression_1;
   unsigned short int __v;
   unsigned short int __x = (unsigned short int)portnum;
-  asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-  tmp_statement_expression$1 = __v;
-  servaddr.sin_port = tmp_statement_expression$1;
+  asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+  tmp_statement_expression_1 = __v;
+  servaddr.sin_port = tmp_statement_expression_1;
   servaddr.sin_addr.s_addr=inet_addr(host);
-  signed int return_value_connect$2;
-  return_value_connect$2=connect(fd, (struct sockaddr *)&servaddr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-  if(!(return_value_connect$2 >= 0))
+  signed int return_value_connect_2;
+  return_value_connect_2=connect(fd, (struct sockaddr *)&servaddr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+  if(!(return_value_connect_2 >= 0))
     return -1;
 
   else
@@ -3205,14 +3205,14 @@ static signed int sockconnect_tcp(const char *port)
 signed int sockconnect_unix(const char *fname)
 {
   struct sockaddr_un addr;
-  signed int sockconnect_unix$$1$$sock;
+  signed int sockconnect_unix__1__sock;
   if(fname == ((const char *)NULL))
     return -1;
 
   else
   {
-    sockconnect_unix$$1$$sock=socket(1, 1, 0);
-    if(sockconnect_unix$$1$$sock == -1)
+    sockconnect_unix__1__sock=socket(1, 1, 0);
+    if(sockconnect_unix__1__sock == -1)
     {
       perror("socket");
       return -1;
@@ -3222,16 +3222,16 @@ signed int sockconnect_unix(const char *fname)
     {
       addr.sun_family = (unsigned short int)1;
       __builtin_strncpy(addr.sun_path, fname, sizeof(char [108l]) /*108ul*/ );
-      signed int return_value_connect$1;
-      return_value_connect$1=connect(sockconnect_unix$$1$$sock, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
-      if(return_value_connect$1 == -1)
+      signed int return_value_connect_1;
+      return_value_connect_1=connect(sockconnect_unix__1__sock, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
+      if(return_value_connect_1 == -1)
       {
-        close(sockconnect_unix$$1$$sock);
+        close(sockconnect_unix__1__sock);
         return -1;
       }
 
       else
-        return sockconnect_unix$$1$$sock;
+        return sockconnect_unix__1__sock;
     }
   }
 }
@@ -3240,25 +3240,25 @@ signed int sockconnect_unix(const char *fname)
 // file es.h line 40
 signed int sockopen(const char *name)
 {
-  signed int return_value_sockopen_tcp$1;
-  signed int return_value_sockopen_unix$2;
+  signed int return_value_sockopen_tcp_1;
+  signed int return_value_sockopen_unix_2;
   if(name == ((const char *)NULL))
     return -1;
 
   else
   {
-    char *return_value___builtin_strchr$3;
-    return_value___builtin_strchr$3=__builtin_strchr(name, 58);
-    if(!(return_value___builtin_strchr$3 == ((char *)NULL)))
+    char *return_value___builtin_strchr_3;
+    return_value___builtin_strchr_3=__builtin_strchr(name, 58);
+    if(!(return_value___builtin_strchr_3 == ((char *)NULL)))
     {
-      return_value_sockopen_tcp$1=sockopen_tcp(name);
-      return return_value_sockopen_tcp$1;
+      return_value_sockopen_tcp_1=sockopen_tcp(name);
+      return return_value_sockopen_tcp_1;
     }
 
     else
     {
-      return_value_sockopen_unix$2=sockopen_unix(name);
-      return return_value_sockopen_unix$2;
+      return_value_sockopen_unix_2=sockopen_unix(name);
+      return return_value_sockopen_unix_2;
     }
   }
 }
@@ -3268,82 +3268,82 @@ signed int sockopen(const char *name)
 signed int sockopen_tcp(const char *name)
 {
   signed int port;
-  signed int sockopen_tcp$$1$$sock;
-  sockopen_tcp$$1$$sock=socket(2, 1, 0);
+  signed int sockopen_tcp__1__sock;
+  sockopen_tcp__1__sock=socket(2, 1, 0);
   struct sockaddr_in serv_addr;
   const char *p;
-  char *return_value___builtin_strchr$1;
-  return_value___builtin_strchr$1=__builtin_strchr(name, 58);
-  p = return_value___builtin_strchr$1;
+  char *return_value___builtin_strchr_1;
+  return_value___builtin_strchr_1=__builtin_strchr(name, 58);
+  p = return_value___builtin_strchr_1;
   if(p == ((const char *)NULL))
   {
     fprintf(stderr, "Argh! Internal error!\n");
     exit(1);
   }
 
-  port=atoi$link2(p + (signed long int)1);
+  port=atoi_link2(p + (signed long int)1);
   memset((void *)&serv_addr, 0, sizeof(struct sockaddr) /*16ul*/ );
   serv_addr.sin_family = (unsigned short int)2;
   serv_addr.sin_addr.s_addr=__bswap_32((unsigned int)0x00000000);
-  unsigned short int tmp_statement_expression$2;
+  unsigned short int tmp_statement_expression_2;
   unsigned short int __v;
   unsigned short int __x = (unsigned short int)port;
-  asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-  tmp_statement_expression$2 = __v;
-  serv_addr.sin_port = tmp_statement_expression$2;
-  signed int return_value_bind$3;
-  return_value_bind$3=bind(sockopen_tcp$$1$$sock, (struct sockaddr *)&serv_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-  if(!(return_value_bind$3 >= 0))
+  asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+  tmp_statement_expression_2 = __v;
+  serv_addr.sin_port = tmp_statement_expression_2;
+  signed int return_value_bind_3;
+  return_value_bind_3=bind(sockopen_tcp__1__sock, (struct sockaddr *)&serv_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+  if(!(return_value_bind_3 >= 0))
   {
     fprintf(stderr, "Error in binding to port %d.\n", port);
     exit(1);
   }
 
-  signed int return_value_listen$4;
-  return_value_listen$4=listen(sockopen_tcp$$1$$sock, 5);
-  if(return_value_listen$4 == -1)
+  signed int return_value_listen_4;
+  return_value_listen_4=listen(sockopen_tcp__1__sock, 5);
+  if(return_value_listen_4 == -1)
   {
     perror("listen");
     exit(1);
   }
 
-  return sockopen_tcp$$1$$sock;
+  return sockopen_tcp__1__sock;
 }
 
 // sockopen_unix
 // file sockopen.c line 15
 signed int sockopen_unix(const char *fname)
 {
-  signed int sockopen_unix$$1$$sock;
+  signed int sockopen_unix__1__sock;
   struct sockaddr_un addr;
-  sockopen_unix$$1$$sock=socket(1, 1, 0);
-  if(sockopen_unix$$1$$sock == -1)
+  sockopen_unix__1__sock=socket(1, 1, 0);
+  if(sockopen_unix__1__sock == -1)
     return -1;
 
   else
   {
     addr.sun_family = (unsigned short int)1;
     __builtin_strncpy(addr.sun_path, fname, sizeof(char [108l]) /*108ul*/ );
-    signed int return_value_bind$1;
-    return_value_bind$1=bind(sockopen_unix$$1$$sock, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
-    if(return_value_bind$1 == -1)
+    signed int return_value_bind_1;
+    return_value_bind_1=bind(sockopen_unix__1__sock, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
+    if(return_value_bind_1 == -1)
     {
-      close(sockopen_unix$$1$$sock);
+      close(sockopen_unix__1__sock);
       return -1;
     }
 
     else
     {
-      signed int return_value_listen$2;
-      return_value_listen$2=listen(sockopen_unix$$1$$sock, 512);
-      if(return_value_listen$2 == -1)
+      signed int return_value_listen_2;
+      return_value_listen_2=listen(sockopen_unix__1__sock, 512);
+      if(return_value_listen_2 == -1)
       {
-        close(sockopen_unix$$1$$sock);
+        close(sockopen_unix__1__sock);
         return -1;
       }
 
       else
-        return sockopen_unix$$1$$sock;
+        return sockopen_unix__1__sock;
     }
   }
 }
@@ -3352,9 +3352,9 @@ signed int sockopen_unix(const char *fname)
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 453
 static inline signed int stat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___xstat$1;
-  return_value___xstat$1=__xstat(1, __path, __statbuf);
-  return return_value___xstat$1;
+  signed int return_value___xstat_1;
+  return_value___xstat_1=__xstat(1, __path, __statbuf);
+  return return_value___xstat_1;
 }
 
 // string_is_complete
@@ -3409,37 +3409,37 @@ struct synth_struct * synth_open(void *context, char * (*lookup)(void *, const c
     pthread_attr_init(&ta);
     pthread_mutexattr_init(&mt_attr);
     pthread_mutex_init(&text_mutex, &mt_attr);
-    pthread_cond_init(&text_condition, (const union anonymous$3 *)(void *)0);
+    pthread_cond_init(&text_condition, (const union anonymous_3 *)(void *)0);
     text_thread_active = 0;
     text_thread_cancel = 0;
     text_size = 4096;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)text_size);
-    text = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)text_size);
+    text = (char *)return_value_malloc_1;
     text_synthpos = 0;
     text_tail = text_synthpos;
     text_head = text_tail;
     wave_thread_active = 0;
     ac_size = 64;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)ac_size * sizeof(struct anonymous$13) /*16ul*/ );
-    ac = (struct anonymous$13 *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)ac_size * sizeof(struct anonymous_13) /*16ul*/ );
+    ac = (struct anonymous_13 *)return_value_malloc_2;
     ac_synthpos = 0;
     ac_tail = ac_synthpos;
     ac_head = ac_tail;
-    if(text == ((char *)NULL) || ac == ((struct anonymous$13 *)NULL))
+    if(text == ((char *)NULL) || ac == ((struct anonymous_13 *)NULL))
       return (struct synth_struct *)(void *)0;
 
     pthread_mutex_init(&wave_mutex, &mt_attr);
-    pthread_cond_init(&wave_condition, (const union anonymous$3 *)(void *)0);
+    pthread_cond_init(&wave_condition, (const union anonymous_3 *)(void *)0);
     time_left = (float)0;
   }
 
   ref_count = ref_count + 1;
-  signed int return_value_strcasecmp$4;
-  return_value_strcasecmp$4=strcasecmp(language, "english");
-  signed int return_value_strcasecmp$3;
-  if(return_value_strcasecmp$4 == 0)
+  signed int return_value_strcasecmp_4;
+  return_value_strcasecmp_4=strcasecmp(language, "english");
+  signed int return_value_strcasecmp_3;
+  if(return_value_strcasecmp_4 == 0)
   {
     langi = 0;
     s = &state[(signed long int)langi];
@@ -3447,8 +3447,8 @@ struct synth_struct * synth_open(void *context, char * (*lookup)(void *, const c
 
   else
   {
-    return_value_strcasecmp$3=strcasecmp(language, "german");
-    if(return_value_strcasecmp$3 == 0)
+    return_value_strcasecmp_3=strcasecmp(language, "german");
+    if(return_value_strcasecmp_3 == 0)
     {
       langi = 1;
       s = &state[(signed long int)langi];
@@ -3485,8 +3485,8 @@ static void * synthesize(void *s)
   signed int freq;
   signed int dur;
   signed int vol;
-  signed int return_value_sscanf$1;
-  signed int tmp_post$3;
+  signed int return_value_sscanf_1;
+  signed int tmp_post_3;
   while((_Bool)1)
   {
     signed int playlen;
@@ -3513,23 +3513,23 @@ static void * synthesize(void *s)
     command_length=strlen(text + (signed long int)text_head);
     /* assertion command_length < text_tail - text_head */
     assert(command_length < (unsigned long int)(text_tail - text_head));
-    const signed long int command_length$array_size0 = (signed long int)(command_length + (unsigned long int)1);
-    char synthesize$$1$$1$$buf[command_length$array_size0];
-    strcpy(synthesize$$1$$1$$buf, text + (signed long int)text_head);
+    const signed long int command_length_array_size0 = (signed long int)(command_length + (unsigned long int)1);
+    char synthesize__1__1__buf[command_length_array_size0];
+    strcpy(synthesize__1__1__buf, text + (signed long int)text_head);
     pthread_mutex_unlock(&text_mutex);
     pthread_mutex_unlock(&wave_mutex); //added mutex
-    command = (signed int)synthesize$$1$$1$$buf[(signed long int)0];
+    command = (signed int)synthesize__1__1__buf[(signed long int)0];
     switch(command)
     {
       case 1:
       {
-        wptr=flite_text_to_wave(synthesize$$1$$1$$buf + (signed long int)1, v);
+        wptr=flite_text_to_wave(synthesize__1__1__buf + (signed long int)1, v);
         break;
       }
       case 2:
       {
-        return_value_sscanf$1=sscanf(synthesize$$1$$1$$buf + (signed long int)1, "%d %d %d", &freq, &dur, &vol);
-        if(!(return_value_sscanf$1 == 3))
+        return_value_sscanf_1=sscanf(synthesize__1__1__buf + (signed long int)1, "%d %d %d", &freq, &dur, &vol);
+        if(!(return_value_sscanf_1 == 3))
           break;
 
         wptr=generate_tone(freq, dur, vol);
@@ -3544,10 +3544,10 @@ static void * synthesize(void *s)
     if(ac_size == 1 + ac_tail)
     {
       ac_size = ac_size << 1;
-      void *return_value_realloc$2;
-      return_value_realloc$2=realloc((void *)ac, (unsigned long int)ac_size * sizeof(struct anonymous$13) /*16ul*/ );
-      ac = (struct anonymous$13 *)return_value_realloc$2;
-      if(ac == ((struct anonymous$13 *)NULL))
+      void *return_value_realloc_2;
+      return_value_realloc_2=realloc((void *)ac, (unsigned long int)ac_size * sizeof(struct anonymous_13) /*16ul*/ );
+      ac = (struct anonymous_13 *)return_value_realloc_2;
+      if(ac == ((struct anonymous_13 *)NULL))
       {
         fprintf(stderr, "Out of memory, ac_size=%d\n", ac_size);
         exit(1);
@@ -3555,10 +3555,10 @@ static void * synthesize(void *s)
 
     }
 
-    (ac + (signed long int)ac_tail)->type = (enum anonymous$12)command;
-    tmp_post$3 = ac_tail;
+    (ac + (signed long int)ac_tail)->type = (enum anonymous_12)command;
+    tmp_post_3 = ac_tail;
     ac_tail = ac_tail + 1;
-    (ac + (signed long int)tmp_post$3)->data = (void *)wptr;
+    (ac + (signed long int)tmp_post_3)->data = (void *)wptr;
     pthread_mutex_lock(&text_mutex);
     time_left = time_left + (float)playlen / (float)wptr->sample_rate;
     if(!(text_head >= text_synthpos))
@@ -3595,12 +3595,12 @@ static void * synthesize(void *s)
 void terror(const char *s)
 {
   signed int errnum;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  errnum = *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  return_value_strerror$2=strerror(errnum);
-  fprintf(stderr, "%s: %s\n", s, return_value_strerror$2);
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  errnum = *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  return_value_strerror_2=strerror(errnum);
+  fprintf(stderr, "%s: %s\n", s, return_value_strerror_2);
   exit(errnum);
 }
 

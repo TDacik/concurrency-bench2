@@ -1,12 +1,12 @@
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -411,7 +411,7 @@ extern signed int printf(const char *, ...);
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$0 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_0 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -432,7 +432,7 @@ extern signed long int recv(signed int, void *, unsigned long int, signed int);
 void * run_bridge(void *arg);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$1 *, struct anonymous$1 *, struct anonymous$1 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_1 *, struct anonymous_1 *, struct anonymous_1 *, struct timeval *);
 // send_nvt_command
 // file src/nvt.c line 101
 signed int send_nvt_command(signed int fd, struct nvt_vars *vars, unsigned char action, unsigned char opt);
@@ -533,13 +533,13 @@ signed int writeFile(unsigned char *name, signed int fd);
 // file src/util.h line 1
 signed int writePipe(signed int fd, unsigned char msg);
 
-struct anonymous$1
+struct anonymous_1
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __size
   char __size[4l];
@@ -1183,14 +1183,14 @@ signed int dce_read(struct modem_config *cfg, unsigned char *data, signed int le
 {
   if(!(cfg->dce_data.is_ip232 == 0))
   {
-    signed int return_value_ip232_read$1;
-    return_value_ip232_read$1=ip232_read(cfg, data, len);
-    return return_value_ip232_read$1;
+    signed int return_value_ip232_read_1;
+    return_value_ip232_read_1=ip232_read(cfg, data, len);
+    return return_value_ip232_read_1;
   }
 
-  signed int return_value_ser_read$2;
-  return_value_ser_read$2=ser_read(cfg->dce_data.fd, data, len);
-  return return_value_ser_read$2;
+  signed int return_value_ser_read_2;
+  return_value_ser_read_2=ser_read(cfg->dce_data.fd, data, len);
+  return return_value_ser_read_2;
 }
 
 // dce_set_control_lines
@@ -1353,14 +1353,14 @@ signed int dce_write(struct modem_config *cfg, unsigned char *data, signed int l
 {
   if(!(cfg->dce_data.is_ip232 == 0))
   {
-    signed int return_value_ip232_write$1;
-    return_value_ip232_write$1=ip232_write(cfg, data, len);
-    return return_value_ip232_write$1;
+    signed int return_value_ip232_write_1;
+    return_value_ip232_write_1=ip232_write(cfg, data, len);
+    return return_value_ip232_write_1;
   }
 
-  signed int return_value_ser_write$2;
-  return_value_ser_write$2=ser_write(cfg->dce_data.fd, data, len);
-  return return_value_ser_write$2;
+  signed int return_value_ser_write_2;
+  return_value_ser_write_2=ser_write(cfg->dce_data.fd, data, len);
+  return return_value_ser_write_2;
 }
 
 // getCommand
@@ -1368,9 +1368,9 @@ signed int dce_write(struct modem_config *cfg, unsigned char *data, signed int l
 signed int getCommand(unsigned char *line, signed int flags, signed int *index, signed int *num, signed int len)
 {
   signed int cmd;
-  signed int tmp_post$1 = *index;
+  signed int tmp_post_1 = *index;
   *index = *index + 1;
-  cmd = (signed int)line[(signed long int)tmp_post$1];
+  cmd = (signed int)line[(signed long int)tmp_post_1];
   *num=getNumber(line, index, len);
   return cmd;
 }
@@ -1382,8 +1382,8 @@ signed int getData(unsigned char *line, signed int *index, signed int len, signe
   signed int alpha = 0;
   signed int done = 0;
   *data_start = *index;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   while(!(*index >= len))
   {
     if(done == 1)
@@ -1394,11 +1394,11 @@ signed int getData(unsigned char *line, signed int *index, signed int len, signe
       case 32:
       {
         if(complex_parse == 0)
-          tmp_if_expr$1 = *index != *data_start ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = *index != *data_start ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
           done = 1;
 
         else
@@ -1443,11 +1443,11 @@ signed int getData(unsigned char *line, signed int *index, signed int len, signe
       default:
       {
         if(complex_parse == 0)
-          tmp_if_expr$2 = *index != *data_start ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = *index != *data_start ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(alpha == 0 && tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(alpha == 0 && tmp_if_expr_2)
           done = 1;
 
         else
@@ -1468,17 +1468,17 @@ signed int getNumber(unsigned char *line, signed int *index, signed int len)
 {
   signed int num = 0;
   signed int found = 0;
-  const unsigned short int **return_value___ctype_b_loc$1;
-  signed int tmp_post$2;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  signed int tmp_post_2;
   for( ; !(*index >= len); found = 1)
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)line[(signed long int)*index]]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)line[(signed long int)*index]]) == 0)
       break;
 
-    tmp_post$2 = *index;
+    tmp_post_2 = *index;
     *index = *index + 1;
-    num = (num * 10 + (signed int)line[(signed long int)tmp_post$2]) - 48;
+    num = (num * 10 + (signed int)line[(signed long int)tmp_post_2]) - 48;
   }
   if(found == 0)
     return -1;
@@ -1531,32 +1531,32 @@ signed int get_new_cts_state(struct modem_config *cfg, signed int up)
 // file src/modem_core.c line 137
 signed int get_new_dcd_state(struct modem_config *cfg, signed int up)
 {
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   if(cfg->dcd_on == 1)
     return cfg->invert_dcd == 1 ? 0 : 2;
 
   else
   {
     if(up == 1)
-      tmp_if_expr$1 = cfg->invert_dcd == 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = cfg->invert_dcd == 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       if(up == 0)
-        tmp_if_expr$2 = cfg->invert_dcd == 1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = cfg->invert_dcd == 1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       return 2;
 
     else
@@ -1568,32 +1568,32 @@ signed int get_new_dcd_state(struct modem_config *cfg, signed int up)
 // file src/modem_core.c line 125
 signed int get_new_dsr_state(struct modem_config *cfg, signed int up)
 {
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   if(cfg->dsr_on == 1)
     return cfg->invert_dsr == 1 ? 0 : 1;
 
   else
   {
     if(up == 1)
-      tmp_if_expr$1 = cfg->invert_dsr == 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = cfg->invert_dsr == 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       if(up == 0)
-        tmp_if_expr$2 = cfg->invert_dsr == 1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = cfg->invert_dsr == 1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       return 1;
 
     else
@@ -1657,22 +1657,22 @@ signed int getcmd(unsigned char *line, signed int *index, signed int *num, signe
   *num = 0;
   *data_start = 0;
   *data_end = 0;
-  signed int return_value_parseCommand$3;
-  signed int return_value_parseCommand$5;
-  signed int return_value_parseCommand$7;
-  signed int return_value_parseCommand$9;
-  signed int return_value_parseRegister$11;
-  signed int return_value_parseCommand$12;
-  signed int return_value_parseRegister$14;
-  signed int return_value_parseCommand$15;
+  signed int return_value_parseCommand_3;
+  signed int return_value_parseCommand_5;
+  signed int return_value_parseCommand_7;
+  signed int return_value_parseCommand_9;
+  signed int return_value_parseRegister_11;
+  signed int return_value_parseCommand_12;
+  signed int return_value_parseRegister_14;
+  signed int return_value_parseCommand_15;
   if(line == ((unsigned char *)NULL))
     return -4;
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen((const char *)line);
-    len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen((const char *)line);
+    len = (signed int)return_value_strlen_1;
     for( ; !(*index >= len); *index = *index + 1)
     {
       cmd=toupper((signed int)line[(signed long int)*index]);
@@ -1687,9 +1687,9 @@ signed int getcmd(unsigned char *line, signed int *index, signed int *num, signe
           *index = *index + 1;
           while(!(*index >= len))
           {
-            signed int return_value_toupper$2;
-            return_value_toupper$2=toupper((signed int)line[(signed long int)*index]);
-            switch(return_value_toupper$2)
+            signed int return_value_toupper_2;
+            return_value_toupper_2=toupper((signed int)line[(signed long int)*index]);
+            switch(return_value_toupper_2)
             {
               case 32:
                 break;
@@ -1697,8 +1697,8 @@ signed int getcmd(unsigned char *line, signed int *index, signed int *num, signe
                 return -2;
               default:
               {
-                return_value_parseCommand$3=parseCommand(line, 512, index, num, len);
-                return return_value_parseCommand$3;
+                return_value_parseCommand_3=parseCommand(line, 512, index, num, len);
+                return return_value_parseCommand_3;
               }
             }
             *index = *index + 1;
@@ -1710,9 +1710,9 @@ signed int getcmd(unsigned char *line, signed int *index, signed int *num, signe
           *index = *index + 1;
           while(!(*index >= len))
           {
-            signed int return_value_toupper$4;
-            return_value_toupper$4=toupper((signed int)line[(signed long int)*index]);
-            switch(return_value_toupper$4)
+            signed int return_value_toupper_4;
+            return_value_toupper_4=toupper((signed int)line[(signed long int)*index]);
+            switch(return_value_toupper_4)
             {
               case 32:
                 break;
@@ -1720,8 +1720,8 @@ signed int getcmd(unsigned char *line, signed int *index, signed int *num, signe
                 return -2;
               default:
               {
-                return_value_parseCommand$5=parseCommand(line, 1024, index, num, len);
-                return return_value_parseCommand$5;
+                return_value_parseCommand_5=parseCommand(line, 1024, index, num, len);
+                return return_value_parseCommand_5;
               }
             }
             *index = *index + 1;
@@ -1733,9 +1733,9 @@ signed int getcmd(unsigned char *line, signed int *index, signed int *num, signe
           *index = *index + 1;
           while(!(*index >= len))
           {
-            signed int return_value_toupper$6;
-            return_value_toupper$6=toupper((signed int)line[(signed long int)*index]);
-            switch(return_value_toupper$6)
+            signed int return_value_toupper_6;
+            return_value_toupper_6=toupper((signed int)line[(signed long int)*index]);
+            switch(return_value_toupper_6)
             {
               case 32:
                 break;
@@ -1743,8 +1743,8 @@ signed int getcmd(unsigned char *line, signed int *index, signed int *num, signe
                 return -2;
               default:
               {
-                return_value_parseCommand$7=parseCommand(line, 8192, index, num, len);
-                return return_value_parseCommand$7;
+                return_value_parseCommand_7=parseCommand(line, 8192, index, num, len);
+                return return_value_parseCommand_7;
               }
             }
             *index = *index + 1;
@@ -1756,9 +1756,9 @@ signed int getcmd(unsigned char *line, signed int *index, signed int *num, signe
           *index = *index + 1;
           while(!(*index >= len))
           {
-            signed int return_value_toupper$8;
-            return_value_toupper$8=toupper((signed int)line[(signed long int)*index]);
-            switch(return_value_toupper$8)
+            signed int return_value_toupper_8;
+            return_value_toupper_8=toupper((signed int)line[(signed long int)*index]);
+            switch(return_value_toupper_8)
             {
               case 32:
                 break;
@@ -1766,8 +1766,8 @@ signed int getcmd(unsigned char *line, signed int *index, signed int *num, signe
                 return -2;
               default:
               {
-                return_value_parseCommand$9=parseCommand(line, 2048, index, num, len);
-                return return_value_parseCommand$9;
+                return_value_parseCommand_9=parseCommand(line, 2048, index, num, len);
+                return return_value_parseCommand_9;
               }
             }
             *index = *index + 1;
@@ -1779,9 +1779,9 @@ signed int getcmd(unsigned char *line, signed int *index, signed int *num, signe
           *index = *index + 1;
           while(!(*index >= len))
           {
-            signed int return_value_toupper$10;
-            return_value_toupper$10=toupper((signed int)line[(signed long int)*index]);
-            switch(return_value_toupper$10)
+            signed int return_value_toupper_10;
+            return_value_toupper_10=toupper((signed int)line[(signed long int)*index]);
+            switch(return_value_toupper_10)
             {
               case 32:
                 break;
@@ -1789,13 +1789,13 @@ signed int getcmd(unsigned char *line, signed int *index, signed int *num, signe
                 return -2;
               case 90:
               {
-                return_value_parseRegister$11=parseRegister(line, 256, index, num, len, data_start, data_end, 1);
-                return return_value_parseRegister$11;
+                return_value_parseRegister_11=parseRegister(line, 256, index, num, len, data_start, data_end, 1);
+                return return_value_parseRegister_11;
               }
               default:
               {
-                return_value_parseCommand$12=parseCommand(line, 256, index, num, len);
-                return return_value_parseCommand$12;
+                return_value_parseCommand_12=parseCommand(line, 256, index, num, len);
+                return return_value_parseCommand_12;
               }
             }
             *index = *index + 1;
@@ -1808,9 +1808,9 @@ signed int getcmd(unsigned char *line, signed int *index, signed int *num, signe
           *num = 0;
           if(!(*index >= len))
           {
-            signed int return_value_toupper$13;
-            return_value_toupper$13=toupper((signed int)line[(signed long int)*index]);
-            switch(return_value_toupper$13)
+            signed int return_value_toupper_13;
+            return_value_toupper_13=toupper((signed int)line[(signed long int)*index]);
+            switch(return_value_toupper_13)
             {
               case 0:
                 return cmd;
@@ -1836,13 +1836,13 @@ signed int getcmd(unsigned char *line, signed int *index, signed int *num, signe
         }
         case 83:
         {
-          return_value_parseRegister$14=parseRegister(line, 0, index, num, len, data_start, data_end, 0);
-          return return_value_parseRegister$14;
+          return_value_parseRegister_14=parseRegister(line, 0, index, num, len, data_start, data_end, 0);
+          return return_value_parseRegister_14;
         }
         default:
         {
-          return_value_parseCommand$15=parseCommand(line, 0, index, num, len);
-          return return_value_parseCommand$15;
+          return_value_parseCommand_15=parseCommand(line, 0, index, num, len);
+          return return_value_parseCommand_15;
         }
       }
     }
@@ -1857,7 +1857,7 @@ signed int init(signed int argc, char **argv, struct modem_config *cfg, signed i
   signed int i = 0;
   signed int j = 0;
   signed int opt = 0;
-  signed int init$$1$$trace_flags = 0;
+  signed int init__1__trace_flags = 0;
   unsigned char *tok;
   signed int dce_set = 0;
   signed int tty_set = 0;
@@ -1874,11 +1874,11 @@ signed int init(signed int argc, char **argv, struct modem_config *cfg, signed i
   mdm_init_config(&cfg[(signed long int)0]);
   (cfg + (signed long int)0)->dte_speed = 38400;
   (cfg + (signed long int)0)->dce_speed = 38400;
-  unsigned long int return_value_strlen$1;
-  char *return_value_strtok$2;
-  char *return_value_strtok$3;
-  signed int return_value_atoi$4;
-  struct _IO_FILE *return_value_fopen$5;
+  unsigned long int return_value_strlen_1;
+  char *return_value_strtok_2;
+  char *return_value_strtok_3;
+  signed int return_value_atoi_4;
+  struct _IO_FILE *return_value_fopen_5;
   while(opt >= 0 && !(i >= max_modem))
   {
     opt=getopt(argc, argv, "p:s:S:d:v:hw:i:Il:L:t:n:a:A:c:C:N:B:T:D:");
@@ -1886,35 +1886,35 @@ signed int init(signed int argc, char **argv, struct modem_config *cfg, signed i
     {
       case 116:
       {
-        init$$1$$trace_flags=log_get_trace_flags();
+        init__1__trace_flags=log_get_trace_flags();
         j = 0;
         do
         {
-          return_value_strlen$1=strlen(optarg);
-          if((unsigned long int)j >= return_value_strlen$1)
+          return_value_strlen_1=strlen(optarg);
+          if((unsigned long int)j >= return_value_strlen_1)
             break;
 
           switch((signed int)optarg[(signed long int)j])
           {
             case 115:
             {
-              init$$1$$trace_flags = init$$1$$trace_flags | 1;
+              init__1__trace_flags = init__1__trace_flags | 1;
               break;
             }
             case 83:
             {
-              init$$1$$trace_flags = init$$1$$trace_flags | 2;
+              init__1__trace_flags = init__1__trace_flags | 2;
               break;
             }
             case 105:
             {
-              init$$1$$trace_flags = init$$1$$trace_flags | 4;
+              init__1__trace_flags = init__1__trace_flags | 4;
               break;
             }
             case 73:
-              init$$1$$trace_flags = init$$1$$trace_flags | 8;
+              init__1__trace_flags = init__1__trace_flags | 8;
           }
-          log_set_trace_flags(init$$1$$trace_flags);
+          log_set_trace_flags(init__1__trace_flags);
           j = j + 1;
         }
         while((_Bool)1);
@@ -1972,22 +1972,22 @@ signed int init(signed int argc, char **argv, struct modem_config *cfg, signed i
       }
       case 110:
       {
-        return_value_strtok$2=strtok(optarg, "=");
-        tok = (unsigned char *)return_value_strtok$2;
-        return_value_strtok$3=strtok((char *)(void *)0, "=");
-        pb_add(tok, (unsigned char *)return_value_strtok$3);
+        return_value_strtok_2=strtok(optarg, "=");
+        tok = (unsigned char *)return_value_strtok_2;
+        return_value_strtok_3=strtok((char *)(void *)0, "=");
+        pb_add(tok, (unsigned char *)return_value_strtok_3);
         break;
       }
       case 108:
       {
-        return_value_atoi$4=atoi(optarg);
-        log_set_level(return_value_atoi$4);
+        return_value_atoi_4=atoi(optarg);
+        log_set_level(return_value_atoi_4);
         break;
       }
       case 76:
       {
-        return_value_fopen$5=fopen(optarg, "w+");
-        log_set_file(return_value_fopen$5);
+        return_value_fopen_5=fopen(optarg, "w+");
+        log_set_file(return_value_fopen_5);
         break;
       }
       case 115:
@@ -2159,11 +2159,11 @@ signed int ip232_init_conn(struct modem_config *cfg)
       {
         log_start(1);
         fprintf(log_file, "Could not initialize ip232 server socket");
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        fprintf(log_file, " (%s)\n", return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        fprintf(log_file, " (%s)\n", return_value_strerror_2);
         log_end();
       }
 
@@ -2171,20 +2171,20 @@ signed int ip232_init_conn(struct modem_config *cfg)
     exit(-1);
   }
 
-  signed int return_value_pipe$5;
-  return_value_pipe$5=pipe(cfg->dce_data.dp[(signed long int)0]);
-  if(return_value_pipe$5 == -1)
+  signed int return_value_pipe_5;
+  return_value_pipe_5=pipe(cfg->dce_data.dp[(signed long int)0]);
+  if(return_value_pipe_5 == -1)
   {
     do
       if(log_level >= 1)
       {
         log_start(1);
         fprintf(log_file, "ip232 thread incoming IPC pipe could not be created");
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        char *return_value_strerror$4;
-        return_value_strerror$4=strerror(*return_value___errno_location$3);
-        fprintf(log_file, " (%s)\n", return_value_strerror$4);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        char *return_value_strerror_4;
+        return_value_strerror_4=strerror(*return_value___errno_location_3);
+        fprintf(log_file, " (%s)\n", return_value_strerror_4);
         log_end();
       }
 
@@ -2192,20 +2192,20 @@ signed int ip232_init_conn(struct modem_config *cfg)
     exit(-1);
   }
 
-  signed int return_value_pipe$8;
-  return_value_pipe$8=pipe(cfg->dce_data.dp[(signed long int)1]);
-  if(return_value_pipe$8 == -1)
+  signed int return_value_pipe_8;
+  return_value_pipe_8=pipe(cfg->dce_data.dp[(signed long int)1]);
+  if(return_value_pipe_8 == -1)
   {
     do
       if(log_level >= 1)
       {
         log_start(1);
         fprintf(log_file, "ip232 thread outgoing IPC pipe could not be created");
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        char *return_value_strerror$7;
-        return_value_strerror$7=strerror(*return_value___errno_location$6);
-        fprintf(log_file, " (%s)\n", return_value_strerror$7);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        char *return_value_strerror_7;
+        return_value_strerror_7=strerror(*return_value___errno_location_6);
+        fprintf(log_file, " (%s)\n", return_value_strerror_7);
         log_end();
       }
 
@@ -2271,13 +2271,13 @@ signed int ip232_read(struct modem_config *cfg, unsigned char *data, signed int 
     exit(-1);
   }
 
-  signed int tmp_post$2;
-  signed int tmp_post$3;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
   if(!(cfg->dce_data.ip232_is_connected == 0))
   {
-    signed long int return_value_recv$1;
-    return_value_recv$1=recv(cfg->dce_data.fd, (void *)buf, (unsigned long int)len, 0);
-    res = (signed int)return_value_recv$1;
+    signed long int return_value_recv_1;
+    return_value_recv_1=recv(cfg->dce_data.fd, (void *)buf, (unsigned long int)len, 0);
+    res = (signed int)return_value_recv_1;
     if(!(res >= 1))
     {
       do
@@ -2326,9 +2326,9 @@ signed int ip232_read(struct modem_config *cfg, unsigned char *data, signed int 
             }
             case 255:
             {
-              tmp_post$2 = text_len;
+              tmp_post_2 = text_len;
               text_len = text_len + 1;
-              data[(signed long int)tmp_post$2] = (unsigned char)255;
+              data[(signed long int)tmp_post_2] = (unsigned char)255;
             }
           }
         }
@@ -2339,9 +2339,9 @@ signed int ip232_read(struct modem_config *cfg, unsigned char *data, signed int 
 
           else
           {
-            tmp_post$3 = text_len;
+            tmp_post_3 = text_len;
             text_len = text_len + 1;
-            data[(signed long int)tmp_post$3] = ch;
+            data[(signed long int)tmp_post_3] = ch;
           }
       }
     }
@@ -2349,9 +2349,9 @@ signed int ip232_read(struct modem_config *cfg, unsigned char *data, signed int 
 
   else
   {
-    signed long int return_value_read$4;
-    return_value_read$4=read(cfg->dce_data.dp[(signed long int)0][(signed long int)0], (void *)buf, sizeof(unsigned char [256l]) /*256ul*/ );
-    res = (signed int)return_value_read$4;
+    signed long int return_value_read_4;
+    return_value_read_4=read(cfg->dce_data.dp[(signed long int)0][(signed long int)0], (void *)buf, sizeof(unsigned char [256l]) /*256ul*/ );
+    res = (signed int)return_value_read_4;
     if((signed int)buf[0l] == 43)
     {
       do
@@ -2426,7 +2426,7 @@ void * ip232_thread(void *arg)
   signed int rc;
   signed int res = 0;
   unsigned char buf[256l];
-  struct anonymous$1 readfs;
+  struct anonymous_1 readfs;
   signed int max_fd = 0;
   signed int cSocket;
   do
@@ -2438,7 +2438,7 @@ void * ip232_thread(void *arg)
     }
 
   while((_Bool)0);
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   do
   {
 
@@ -2446,18 +2446,18 @@ void * ip232_thread(void *arg)
     ;
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$1) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfs)->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_1) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfs)->__fds_bits[(signed long int)0]) : "memory");
     (&readfs)->__fds_bits[(signed long int)(cfg->dce_data.dp[(signed long int)1][(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&readfs)->__fds_bits[(signed long int)(cfg->dce_data.dp[(signed long int)1][(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << cfg->dce_data.dp[(signed long int)1][(signed long int)0] % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
     max_fd = cfg->dce_data.dp[(signed long int)1][(signed long int)0];
     if(accept_pending == 0)
     {
       (&readfs)->__fds_bits[(signed long int)(cfg->dce_data.sSocket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&readfs)->__fds_bits[(signed long int)(cfg->dce_data.sSocket / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << cfg->dce_data.sSocket % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
       if(!(cfg->dce_data.sSocket >= max_fd))
-        tmp_if_expr$1 = max_fd;
+        tmp_if_expr_1 = max_fd;
 
       else
-        tmp_if_expr$1 = cfg->dce_data.sSocket;
-      max_fd = tmp_if_expr$1;
+        tmp_if_expr_1 = cfg->dce_data.sSocket;
+      max_fd = tmp_if_expr_1;
     }
 
     do
@@ -2469,14 +2469,14 @@ void * ip232_thread(void *arg)
       }
 
     while((_Bool)0);
-    rc=select(max_fd + 1, &readfs, (struct anonymous$1 *)(void *)0, (struct anonymous$1 *)(void *)0, (struct timeval *)(void *)0);
+    rc=select(max_fd + 1, &readfs, (struct anonymous_1 *)(void *)0, (struct anonymous_1 *)(void *)0, (struct timeval *)(void *)0);
     if(rc >= 0)
     {
       if(!((readfs.__fds_bits[(signed long int)(cfg->dce_data.dp[1l][0l] / 8)] & (signed long int)(1UL << cfg->dce_data.dp[1l][0l] % 8)) == 0l))
       {
-        signed long int return_value_read$2;
-        return_value_read$2=read(cfg->dce_data.dp[(signed long int)1][(signed long int)0], (void *)buf, sizeof(unsigned char [256l]) /*256ul*/  - (unsigned long int)1);
-        res = (signed int)return_value_read$2;
+        signed long int return_value_read_2;
+        return_value_read_2=read(cfg->dce_data.dp[(signed long int)1][(signed long int)0], (void *)buf, sizeof(unsigned char [256l]) /*256ul*/  - (unsigned long int)1);
+        res = (signed int)return_value_read_2;
         do
           if(log_level >= 5)
           {
@@ -2548,19 +2548,19 @@ signed int ip232_write(struct modem_config *cfg, unsigned char *data, signed int
   signed int text_len = 0;
   log_trace(2, data, len);
   retval = len;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
   if(!(cfg->dce_data.ip232_is_connected == 0))
   {
     while(!(i >= len))
     {
       if(!(double_iac == 0))
       {
-        tmp_post$1 = text_len;
+        tmp_post_1 = text_len;
         text_len = text_len + 1;
-        text[(signed long int)tmp_post$1] = (unsigned char)255;
+        text[(signed long int)tmp_post_1] = (unsigned char)255;
         double_iac = 0;
         i = i + 1;
       }
@@ -2568,19 +2568,19 @@ signed int ip232_write(struct modem_config *cfg, unsigned char *data, signed int
       else
         if((signed int)data[(signed long int)i] == 255)
         {
-          tmp_post$2 = text_len;
+          tmp_post_2 = text_len;
           text_len = text_len + 1;
-          text[(signed long int)tmp_post$2] = (unsigned char)255;
+          text[(signed long int)tmp_post_2] = (unsigned char)255;
           double_iac = 1;
         }
 
         else
         {
-          tmp_post$3 = text_len;
+          tmp_post_3 = text_len;
           text_len = text_len + 1;
-          tmp_post$4 = i;
+          tmp_post_4 = i;
           i = i + 1;
-          text[(signed long int)tmp_post$3] = data[(signed long int)tmp_post$4];
+          text[(signed long int)tmp_post_3] = data[(signed long int)tmp_post_4];
         }
       if((unsigned long int)text_len == sizeof(unsigned char [1024l]) /*1024ul*/ )
       {
@@ -2623,11 +2623,11 @@ signed int ip_accept(signed int sSocket)
       {
         log_start(2);
         fprintf(log_file, "Could not accept incoming connection");
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        fprintf(log_file, " (%s)\n", return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        fprintf(log_file, " (%s)\n", return_value_strerror_2);
         log_end();
       }
 
@@ -2637,19 +2637,19 @@ signed int ip_accept(signed int sSocket)
 
   else
   {
-    signed int return_value_getpeername$6;
-    return_value_getpeername$6=getpeername(cSocket, (struct sockaddr *)&clientName, (unsigned int *)&clientLength);
-    if(return_value_getpeername$6 == -1)
+    signed int return_value_getpeername_6;
+    return_value_getpeername_6=getpeername(cSocket, (struct sockaddr *)&clientName, (unsigned int *)&clientLength);
+    if(return_value_getpeername_6 == -1)
       do
         if(log_level >= 3)
         {
           log_start(3);
           fprintf(log_file, "Could not obtain peer name");
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          char *return_value_strerror$4;
-          return_value_strerror$4=strerror(*return_value___errno_location$3);
-          fprintf(log_file, " (%s)\n", return_value_strerror$4);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          char *return_value_strerror_4;
+          return_value_strerror_4=strerror(*return_value___errno_location_3);
+          fprintf(log_file, " (%s)\n", return_value_strerror_4);
           log_end();
         }
 
@@ -2660,9 +2660,9 @@ signed int ip_accept(signed int sSocket)
         if(log_level >= 4)
         {
           log_start(4);
-          char *return_value_inet_ntoa$5;
-          return_value_inet_ntoa$5=inet_ntoa(clientName.sin_addr);
-          fprintf(log_file, "Connection accepted from %s", return_value_inet_ntoa$5);
+          char *return_value_inet_ntoa_5;
+          return_value_inet_ntoa_5=inet_ntoa(clientName.sin_addr);
+          fprintf(log_file, "Connection accepted from %s", return_value_inet_ntoa_5);
           log_end();
         }
 
@@ -2700,17 +2700,17 @@ signed int ip_connect(unsigned char *addy)
     }
 
   while((_Bool)0);
-  char *return_value_strtok$1;
-  return_value_strtok$1=strtok((char *)addy, ":");
-  address = (unsigned char *)return_value_strtok$1;
-  char *return_value_strtok$2;
-  return_value_strtok$2=strtok((char *)(unsigned char *)0, ":");
-  tmp = (unsigned char *)return_value_strtok$2;
-  unsigned long int return_value_strlen$3;
+  char *return_value_strtok_1;
+  return_value_strtok_1=strtok((char *)addy, ":");
+  address = (unsigned char *)return_value_strtok_1;
+  char *return_value_strtok_2;
+  return_value_strtok_2=strtok((char *)(unsigned char *)0, ":");
+  tmp = (unsigned char *)return_value_strtok_2;
+  unsigned long int return_value_strlen_3;
   if(!(tmp == ((unsigned char *)NULL)))
   {
-    return_value_strlen$3=strlen((const char *)tmp);
-    if(return_value_strlen$3 >= 1ul)
+    return_value_strlen_3=strlen((const char *)tmp);
+    if(return_value_strlen_3 >= 1ul)
       port=atoi((const char *)tmp);
 
   }
@@ -2728,20 +2728,20 @@ signed int ip_connect(unsigned char *addy)
   hp=gethostbyname((const char *)address);
   if(hp == ((struct hostent *)NULL))
   {
-    signed int return_value_inet_aton$6;
-    return_value_inet_aton$6=inet_aton((const char *)address, &cin_addr);
-    if(!(return_value_inet_aton$6 == 1))
+    signed int return_value_inet_aton_6;
+    return_value_inet_aton_6=inet_aton((const char *)address, &cin_addr);
+    if(!(return_value_inet_aton_6 == 1))
     {
       do
         if(log_level >= 2)
         {
           log_start(2);
           fprintf(log_file, "Host %s was invalid", addy);
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          char *return_value_strerror$5;
-          return_value_strerror$5=strerror(*return_value___errno_location$4);
-          fprintf(log_file, " (%s)\n", return_value_strerror$5);
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          char *return_value_strerror_5;
+          return_value_strerror_5=strerror(*return_value___errno_location_4);
+          fprintf(log_file, " (%s)\n", return_value_strerror_5);
           log_end();
         }
 
@@ -2764,11 +2764,11 @@ signed int ip_connect(unsigned char *addy)
       {
         log_start(2);
         fprintf(log_file, "could not create client socket");
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        char *return_value_strerror$8;
-        return_value_strerror$8=strerror(*return_value___errno_location$7);
-        fprintf(log_file, " (%s)\n", return_value_strerror$8);
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        char *return_value_strerror_8;
+        return_value_strerror_8=strerror(*return_value___errno_location_7);
+        fprintf(log_file, " (%s)\n", return_value_strerror_8);
         log_end();
       }
 
@@ -2778,20 +2778,20 @@ signed int ip_connect(unsigned char *addy)
 
   else
   {
-    signed int return_value_connect$11;
-    return_value_connect$11=connect(sd, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-    if(return_value_connect$11 == -1)
+    signed int return_value_connect_11;
+    return_value_connect_11=connect(sd, (struct sockaddr *)&pin, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+    if(return_value_connect_11 == -1)
     {
       do
         if(log_level >= 2)
         {
           log_start(2);
           fprintf(log_file, "could not connect to address");
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          char *return_value_strerror$10;
-          return_value_strerror$10=strerror(*return_value___errno_location$9);
-          fprintf(log_file, " (%s)\n", return_value_strerror$10);
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          char *return_value_strerror_10;
+          return_value_strerror_10=strerror(*return_value___errno_location_9);
+          fprintf(log_file, " (%s)\n", return_value_strerror_10);
           log_end();
         }
 
@@ -2868,11 +2868,11 @@ signed int ip_init_server_conn(signed int port)
       {
         log_start(1);
         fprintf(log_file, "Server socket could not be created");
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        fprintf(log_file, " (%s)\n", return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        fprintf(log_file, " (%s)\n", return_value_strerror_2);
         log_end();
       }
 
@@ -2888,11 +2888,11 @@ signed int ip_init_server_conn(signed int port)
         {
           log_start(2);
           fprintf(log_file, "bind address checking could not be turned off");
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          char *return_value_strerror$4;
-          return_value_strerror$4=strerror(*return_value___errno_location$3);
-          fprintf(log_file, " (%s)\n", return_value_strerror$4);
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          char *return_value_strerror_4;
+          return_value_strerror_4=strerror(*return_value___errno_location_3);
+          fprintf(log_file, " (%s)\n", return_value_strerror_4);
           log_end();
         }
 
@@ -2918,11 +2918,11 @@ signed int ip_init_server_conn(signed int port)
         {
           log_start(1);
           fprintf(log_file, "Server socket could not be bound to port");
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          char *return_value_strerror$6;
-          return_value_strerror$6=strerror(*return_value___errno_location$5);
-          fprintf(log_file, " (%s)\n", return_value_strerror$6);
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          char *return_value_strerror_6;
+          return_value_strerror_6=strerror(*return_value___errno_location_5);
+          fprintf(log_file, " (%s)\n", return_value_strerror_6);
           log_end();
         }
 
@@ -2958,11 +2958,11 @@ signed int ip_init_server_conn(signed int port)
           {
             log_start(1);
             fprintf(log_file, "Server socket could not listen on port");
-            signed int *return_value___errno_location$7;
-            return_value___errno_location$7=__errno_location();
-            char *return_value_strerror$8;
-            return_value_strerror$8=strerror(*return_value___errno_location$7);
-            fprintf(log_file, " (%s)\n", return_value_strerror$8);
+            signed int *return_value___errno_location_7;
+            return_value___errno_location_7=__errno_location();
+            char *return_value_strerror_8;
+            return_value_strerror_8=strerror(*return_value___errno_location_7);
+            fprintf(log_file, " (%s)\n", return_value_strerror_8);
             log_end();
           }
 
@@ -2989,9 +2989,9 @@ signed int ip_init_server_conn(signed int port)
 signed int ip_read(signed int fd, unsigned char *data, signed int len)
 {
   signed int res;
-  signed long int return_value_recv$1;
-  return_value_recv$1=recv(fd, (void *)data, (unsigned long int)len, 0);
-  res = (signed int)return_value_recv$1;
+  signed long int return_value_recv_1;
+  return_value_recv_1=recv(fd, (void *)data, (unsigned long int)len, 0);
+  res = (signed int)return_value_recv_1;
   log_trace(4, data, res);
   return res;
 }
@@ -3002,7 +3002,7 @@ void * ip_thread(void *arg)
 {
   struct modem_config *cfg = (struct modem_config *)arg;
   signed int action_pending = 0;
-  struct anonymous$1 readfs;
+  struct anonymous_1 readfs;
   signed int max_fd;
   signed int res = 0;
   unsigned char buf[256l];
@@ -3016,14 +3016,14 @@ void * ip_thread(void *arg)
     }
 
   while((_Bool)0);
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   while((_Bool)1)
   {
     do
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$1) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfs)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_1) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfs)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     (&readfs)->__fds_bits[(signed long int)(cfg->data.cp[(signed long int)1][(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&readfs)->__fds_bits[(signed long int)(cfg->data.cp[(signed long int)1][(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << cfg->data.cp[(signed long int)1][(signed long int)0] % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
@@ -3040,11 +3040,11 @@ void * ip_thread(void *arg)
             {
               (&readfs)->__fds_bits[(signed long int)(cfg->line_data.fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&readfs)->__fds_bits[(signed long int)(cfg->line_data.fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << cfg->line_data.fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
               if(!(cfg->line_data.fd >= max_fd))
-                tmp_if_expr$1 = max_fd;
+                tmp_if_expr_1 = max_fd;
 
               else
-                tmp_if_expr$1 = cfg->line_data.fd;
-              max_fd = tmp_if_expr$1;
+                tmp_if_expr_1 = cfg->line_data.fd;
+              max_fd = tmp_if_expr_1;
             }
 
           }
@@ -3056,18 +3056,18 @@ void * ip_thread(void *arg)
     }
 
     max_fd = max_fd + 1;
-    rc=select(max_fd, &readfs, (struct anonymous$1 *)(void *)0, (struct anonymous$1 *)(void *)0, (struct timeval *)(void *)0);
+    rc=select(max_fd, &readfs, (struct anonymous_1 *)(void *)0, (struct anonymous_1 *)(void *)0, (struct timeval *)(void *)0);
     if(rc == -1)
       do
         if(log_level >= 3)
         {
           log_start(3);
           fprintf(log_file, "Select returned error");
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          char *return_value_strerror$3;
-          return_value_strerror$3=strerror(*return_value___errno_location$2);
-          fprintf(log_file, " (%s)\n", return_value_strerror$3);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          char *return_value_strerror_3;
+          return_value_strerror_3=strerror(*return_value___errno_location_2);
+          fprintf(log_file, " (%s)\n", return_value_strerror_3);
           log_end();
         }
 
@@ -3088,9 +3088,9 @@ void * ip_thread(void *arg)
             }
 
           while((_Bool)0);
-          signed long int return_value_recv$4;
-          return_value_recv$4=recv(cfg->line_data.fd, (void *)buf, sizeof(unsigned char [256l]) /*256ul*/ , 0);
-          res = (signed int)return_value_recv$4;
+          signed long int return_value_recv_4;
+          return_value_recv_4=recv(cfg->line_data.fd, (void *)buf, sizeof(unsigned char [256l]) /*256ul*/ , 0);
+          res = (signed int)return_value_recv_4;
           if(!(res >= 1))
           {
             do
@@ -3127,9 +3127,9 @@ void * ip_thread(void *arg)
 
       if(!((readfs.__fds_bits[(signed long int)(cfg->data.cp[1l][0l] / 8)] & (signed long int)(1UL << cfg->data.cp[1l][0l] % 8)) == 0l))
       {
-        signed long int return_value_read$5;
-        return_value_read$5=read(cfg->data.cp[(signed long int)1][(signed long int)0], (void *)buf, sizeof(unsigned char [256l]) /*256ul*/  - (unsigned long int)1);
-        res = (signed int)return_value_read$5;
+        signed long int return_value_read_5;
+        return_value_read_5=read(cfg->data.cp[(signed long int)1][(signed long int)0], (void *)buf, sizeof(unsigned char [256l]) /*256ul*/  - (unsigned long int)1);
+        res = (signed int)return_value_read_5;
         do
           if(log_level >= 5)
           {
@@ -3160,9 +3160,9 @@ void * ip_thread(void *arg)
 signed int ip_write(signed int fd, unsigned char *data, signed int len)
 {
   log_trace(8, data, len);
-  signed long int return_value_write$1;
-  return_value_write$1=write(fd, (const void *)data, (unsigned long int)len);
-  return (signed int)return_value_write$1;
+  signed long int return_value_write_1;
+  return_value_write_1=write(fd, (const void *)data, (unsigned long int)len);
+  return (signed int)return_value_write_1;
 }
 
 // line_connect
@@ -3288,10 +3288,10 @@ signed int line_write(struct modem_config *cfg, unsigned char *data, signed int 
   signed int double_iac = 0;
   unsigned char text[1024l];
   signed int text_len = 0;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
   if(!(cfg->line_data.is_telnet == 0))
   {
     if(cfg->line_data.nvt_data.binary_xmit == 0)
@@ -3302,9 +3302,9 @@ signed int line_write(struct modem_config *cfg, unsigned char *data, signed int 
     {
       if(!(double_iac == 0))
       {
-        tmp_post$1 = text_len;
+        tmp_post_1 = text_len;
         text_len = text_len + 1;
-        text[(signed long int)tmp_post$1] = (unsigned char)255;
+        text[(signed long int)tmp_post_1] = (unsigned char)255;
         double_iac = 0;
         i = i + 1;
       }
@@ -3312,19 +3312,19 @@ signed int line_write(struct modem_config *cfg, unsigned char *data, signed int 
       else
         if((signed int)data[(signed long int)i] == 255)
         {
-          tmp_post$2 = text_len;
+          tmp_post_2 = text_len;
           text_len = text_len + 1;
-          text[(signed long int)tmp_post$2] = (unsigned char)255;
+          text[(signed long int)tmp_post_2] = (unsigned char)255;
           double_iac = 1;
         }
 
         else
         {
-          tmp_post$3 = text_len;
+          tmp_post_3 = text_len;
           text_len = text_len + 1;
-          tmp_post$4 = i;
+          tmp_post_4 = i;
           i = i + 1;
-          text[(signed long int)tmp_post$3] = data[(signed long int)tmp_post$4];
+          text[(signed long int)tmp_post_3] = data[(signed long int)tmp_post_4];
         }
       if(text_len == 1024)
       {
@@ -3344,9 +3344,9 @@ signed int line_write(struct modem_config *cfg, unsigned char *data, signed int 
 
   __CPROVER_DUMP_L8:
     ;
-    signed int return_value_ip_write$5;
-    return_value_ip_write$5=ip_write(cfg->line_data.fd, data, len);
-    return return_value_ip_write$5;
+    signed int return_value_ip_write_5;
+    return_value_ip_write_5=ip_write(cfg->line_data.fd, data, len);
+    return return_value_ip_write_5;
   }
 }
 
@@ -3356,9 +3356,9 @@ void log_end()
 {
   fprintf(log_file, "\n");
   fflush(log_file);
-  signed int return_value_pthread_mutex_unlock$1;
-  return_value_pthread_mutex_unlock$1=pthread_mutex_unlock(&log_mutex);
-  if(return_value_pthread_mutex_unlock$1 == -1)
+  signed int return_value_pthread_mutex_unlock_1;
+  return_value_pthread_mutex_unlock_1=pthread_mutex_unlock(&log_mutex);
+  if(return_value_pthread_mutex_unlock_1 == -1)
     perror("Could not lock the log mutex");
 
 }
@@ -3389,9 +3389,9 @@ signed int log_init(void)
   log_desc[(signed long int)6] = (unsigned char *)"ENTER_EXIT";
   log_desc[(signed long int)7] = (unsigned char *)"DEBUG_X";
   log_desc[(signed long int)10] = (unsigned char *)"";
-  signed int return_value_pthread_mutex_init$1;
-  return_value_pthread_mutex_init$1=pthread_mutex_init(&log_mutex, (const union anonymous$0 *)(void *)0);
-  if(return_value_pthread_mutex_init$1 == -1)
+  signed int return_value_pthread_mutex_init_1;
+  return_value_pthread_mutex_init_1=pthread_mutex_init(&log_mutex, (const union anonymous_0 *)(void *)0);
+  if(return_value_pthread_mutex_init_1 == -1)
   {
     perror("Could not create Log Mutex");
     exit(-1);
@@ -3427,20 +3427,20 @@ void log_start(signed int level)
 {
   unsigned char t[23l];
   signed long int now;
-  signed int return_value_pthread_mutex_lock$3;
-  return_value_pthread_mutex_lock$3=pthread_mutex_lock(&log_mutex);
-  if(return_value_pthread_mutex_lock$3 == -1)
+  signed int return_value_pthread_mutex_lock_3;
+  return_value_pthread_mutex_lock_3=pthread_mutex_lock(&log_mutex);
+  if(return_value_pthread_mutex_lock_3 == -1)
     perror("Could not lock the log mutex");
 
   else
   {
     now=time((signed long int *)(void *)0);
-    struct tm *return_value_localtime$1;
-    return_value_localtime$1=localtime(&now);
-    strftime((char *)t, (unsigned long int)22, "%Y-%m-%d %H:%M:%S", return_value_localtime$1);
-    unsigned long int return_value_pthread_self$2;
-    return_value_pthread_self$2=pthread_self();
-    fprintf(log_file, "%s:%5.5d:%s:", (const void *)t, (signed int)return_value_pthread_self$2, log_desc[(signed long int)level]);
+    struct tm *return_value_localtime_1;
+    return_value_localtime_1=localtime(&now);
+    strftime((char *)t, (unsigned long int)22, "%Y-%m-%d %H:%M:%S", return_value_localtime_1);
+    unsigned long int return_value_pthread_self_2;
+    return_value_pthread_self_2=pthread_self();
+    fprintf(log_file, "%s:%5.5d:%s:", (const void *)t, (signed int)return_value_pthread_self_2, log_desc[(signed long int)level]);
   }
 }
 
@@ -3518,7 +3518,7 @@ signed int main(signed int argc, char **argv)
   signed int i;
   signed int rc;
   signed int sSocket = 0;
-  struct anonymous$1 readfs;
+  struct anonymous_1 readfs;
   signed int max_fd = 0;
   signed int accept_pending = 0;
   signed int res = 0;
@@ -3543,20 +3543,20 @@ signed int main(signed int argc, char **argv)
   i = 0;
   for( ; !(i >= modem_count); i = i + 1)
   {
-    signed int return_value_pipe$3;
-    return_value_pipe$3=pipe(cfg[(signed long int)i].data.mp[(signed long int)0]);
-    if(return_value_pipe$3 == -1)
+    signed int return_value_pipe_3;
+    return_value_pipe_3=pipe(cfg[(signed long int)i].data.mp[(signed long int)0]);
+    if(return_value_pipe_3 == -1)
     {
       do
         if(log_level >= 1)
         {
           log_start(1);
           fprintf(log_file, "Bridge task incoming IPC pipe could not be created");
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          char *return_value_strerror$2;
-          return_value_strerror$2=strerror(*return_value___errno_location$1);
-          fprintf(log_file, " (%s)\n", return_value_strerror$2);
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          char *return_value_strerror_2;
+          return_value_strerror_2=strerror(*return_value___errno_location_1);
+          fprintf(log_file, " (%s)\n", return_value_strerror_2);
           log_end();
         }
 
@@ -3564,20 +3564,20 @@ signed int main(signed int argc, char **argv)
       exit(-1);
     }
 
-    signed int return_value_pipe$6;
-    return_value_pipe$6=pipe(cfg[(signed long int)i].data.mp[(signed long int)1]);
-    if(return_value_pipe$6 == -1)
+    signed int return_value_pipe_6;
+    return_value_pipe_6=pipe(cfg[(signed long int)i].data.mp[(signed long int)1]);
+    if(return_value_pipe_6 == -1)
     {
       do
         if(log_level >= 1)
         {
           log_start(1);
           fprintf(log_file, "Bridge task outgoing IPC pipe could not be created");
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          char *return_value_strerror$5;
-          return_value_strerror$5=strerror(*return_value___errno_location$4);
-          fprintf(log_file, " (%s)\n", return_value_strerror$5);
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          char *return_value_strerror_5;
+          return_value_strerror_5=strerror(*return_value___errno_location_4);
+          fprintf(log_file, " (%s)\n", return_value_strerror_5);
           log_end();
         }
 
@@ -3585,9 +3585,9 @@ signed int main(signed int argc, char **argv)
       exit(-1);
     }
 
-    signed int return_value_dce_init_conn$7;
-    return_value_dce_init_conn$7=dce_init_conn(&cfg[(signed long int)i]);
-    if(!(return_value_dce_init_conn$7 >= 0))
+    signed int return_value_dce_init_conn_7;
+    return_value_dce_init_conn_7=dce_init_conn(&cfg[(signed long int)i]);
+    if(!(return_value_dce_init_conn_7 >= 0))
     {
       do
         if(log_level >= 1)
@@ -3610,11 +3610,11 @@ signed int main(signed int argc, char **argv)
         {
           log_start(1);
           fprintf(log_file, "IP thread could not be started");
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          char *return_value_strerror$9;
-          return_value_strerror$9=strerror(*return_value___errno_location$8);
-          fprintf(log_file, " (%s)\n", return_value_strerror$9);
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          char *return_value_strerror_9;
+          return_value_strerror_9=strerror(*return_value___errno_location_8);
+          fprintf(log_file, " (%s)\n", return_value_strerror_9);
           log_end();
         }
 
@@ -3623,7 +3623,7 @@ signed int main(signed int argc, char **argv)
     }
 
   }
-  signed int tmp_if_expr$10;
+  signed int tmp_if_expr_10;
   do
   {
 
@@ -3631,18 +3631,18 @@ signed int main(signed int argc, char **argv)
     ;
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$1) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfs)->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_1) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfs)->__fds_bits[(signed long int)0]) : "memory");
     max_fd = 0;
     i = 0;
     for( ; !(i >= modem_count); i = i + 1)
     {
       (&readfs)->__fds_bits[(signed long int)(cfg[(signed long int)i].data.mp[(signed long int)0][(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&readfs)->__fds_bits[(signed long int)(cfg[(signed long int)i].data.mp[(signed long int)0][(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << cfg[(signed long int)i].data.mp[(signed long int)0][(signed long int)0] % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
       if(!(cfg[(signed long int)i].data.mp[0l][0l] >= max_fd))
-        tmp_if_expr$10 = max_fd;
+        tmp_if_expr_10 = max_fd;
 
       else
-        tmp_if_expr$10 = cfg[(signed long int)i].data.mp[(signed long int)0][(signed long int)0];
-      max_fd = tmp_if_expr$10;
+        tmp_if_expr_10 = cfg[(signed long int)i].data.mp[(signed long int)0][(signed long int)0];
+      max_fd = tmp_if_expr_10;
     }
     if(accept_pending == 0)
     {
@@ -3659,14 +3659,14 @@ signed int main(signed int argc, char **argv)
       }
 
     while((_Bool)0);
-    select(max_fd + 1, &readfs, (struct anonymous$1 *)(void *)0, (struct anonymous$1 *)(void *)0, (struct timeval *)(void *)0);
+    select(max_fd + 1, &readfs, (struct anonymous_1 *)(void *)0, (struct anonymous_1 *)(void *)0, (struct timeval *)(void *)0);
     i = 0;
     for( ; !(i >= modem_count); i = i + 1)
       if(!((readfs.__fds_bits[(signed long int)(cfg[(signed long int)i].data.mp[0l][0l] / 8)] & (signed long int)(1UL << cfg[(signed long int)i].data.mp[0l][0l] % 8)) == 0l))
       {
-        signed long int return_value_read$11;
-        return_value_read$11=read(cfg[(signed long int)i].data.mp[(signed long int)0][(signed long int)0], (void *)buf, sizeof(unsigned char [255l]) /*255ul*/  - (unsigned long int)1);
-        res = (signed int)return_value_read$11;
+        signed long int return_value_read_11;
+        return_value_read_11=read(cfg[(signed long int)i].data.mp[(signed long int)0][(signed long int)0], (void *)buf, sizeof(unsigned char [255l]) /*255ul*/  - (unsigned long int)1);
+        res = (signed int)return_value_read_11;
         if(res >= 0)
         {
           buf[(signed long int)res] = (unsigned char)0;
@@ -3751,13 +3751,13 @@ signed int main(signed int argc, char **argv)
           cSocket=ip_accept(sSocket);
           if(cSocket >= 0)
           {
-            unsigned long int return_value_strlen$13;
-            return_value_strlen$13=strlen((const char *)all_busy);
-            if(!(return_value_strlen$13 >= 1ul))
+            unsigned long int return_value_strlen_13;
+            return_value_strlen_13=strlen((const char *)all_busy);
+            if(!(return_value_strlen_13 >= 1ul))
             {
-              unsigned long int return_value_strlen$12;
-              return_value_strlen$12=strlen((const char *)MDM_BUSY);
-              ip_write(cSocket, (unsigned char *)MDM_BUSY, (signed int)return_value_strlen$12);
+              unsigned long int return_value_strlen_12;
+              return_value_strlen_12=strlen((const char *)MDM_BUSY);
+              ip_write(cSocket, (unsigned char *)MDM_BUSY, (signed int)return_value_strlen_12);
             }
 
             else
@@ -3841,9 +3841,9 @@ signed int mdm_connect(struct modem_config *cfg)
   mdm_off_hook(cfg);
   if(cfg->conn_type == 0)
   {
-    signed int return_value_line_connect$1;
-    return_value_line_connect$1=line_connect(cfg);
-    if(return_value_line_connect$1 == 0)
+    signed int return_value_line_connect_1;
+    return_value_line_connect_1=line_connect(cfg);
+    if(return_value_line_connect_1 == 0)
     {
       cfg->conn_type = 1;
       mdm_set_control_lines(cfg);
@@ -3888,9 +3888,9 @@ signed int mdm_disconnect(struct modem_config *cfg)
   cfg->break_len = 0;
   cfg->line_ringing = 0;
   cfg->pre_break_delay = 0;
-  signed int return_value_line_disconnect$1;
-  return_value_line_disconnect$1=line_disconnect(cfg);
-  if(return_value_line_disconnect$1 == 0)
+  signed int return_value_line_disconnect_1;
+  return_value_line_disconnect_1=line_disconnect(cfg);
+  if(return_value_line_disconnect_1 == 0)
   {
     type = cfg->conn_type;
     cfg->conn_type = 0;
@@ -3924,18 +3924,18 @@ signed int mdm_handle_char(struct modem_config *cfg, unsigned char ch)
   if(cfg->echo == 1)
     mdm_write_char(cfg, ch);
 
-  _Bool tmp_if_expr$1;
-  signed int tmp_post$2;
+  _Bool tmp_if_expr_1;
+  signed int tmp_post_2;
   if(cfg->cmd_started == 1)
   {
     if(ch == (unsigned char)cfg->s[5l])
     {
       if(cfg->cur_line_idx == 0)
-        tmp_if_expr$1 = cfg->echo == 1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = cfg->echo == 1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
         mdm_write_char(cfg, (unsigned char)84);
 
       else
@@ -3954,9 +3954,9 @@ signed int mdm_handle_char(struct modem_config *cfg, unsigned char ch)
 
       else
       {
-        tmp_post$2 = cfg->cur_line_idx;
+        tmp_post_2 = cfg->cur_line_idx;
         cfg->cur_line_idx = cfg->cur_line_idx + 1;
-        cfg->cur_line[(signed long int)((unsigned long int)tmp_post$2 % sizeof(unsigned char [1024l]) /*1024ul*/ )] = ch;
+        cfg->cur_line[(signed long int)((unsigned long int)tmp_post_2 % sizeof(unsigned char [1024l]) /*1024ul*/ )] = ch;
       }
   }
 
@@ -3989,9 +3989,9 @@ signed int mdm_handle_char(struct modem_config *cfg, unsigned char ch)
             }
 
           while((_Bool)0);
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen((const char *)cfg->last_cmd);
-          cfg->cur_line_idx = (signed int)return_value_strlen$3;
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen((const char *)cfg->last_cmd);
+          cfg->cur_line_idx = (signed int)return_value_strlen_3;
           strncpy((char *)cfg->cur_line, (const char *)cfg->last_cmd, (unsigned long int)cfg->cur_line_idx);
           mdm_parse_cmd(cfg);
           cfg->cmd_started = 0;
@@ -4025,14 +4025,14 @@ signed int mdm_handle_char(struct modem_config *cfg, unsigned char ch)
 // file src/modem_core.h line 155
 signed int mdm_handle_timeout(struct modem_config *cfg)
 {
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(cfg->pre_break_delay == 1)
-    tmp_if_expr$2 = cfg->break_len == 3 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = cfg->break_len == 3 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  _Bool tmp_if_expr$1;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(tmp_if_expr_2)
   {
     do
       if(log_level >= 4)
@@ -4066,11 +4066,11 @@ signed int mdm_handle_timeout(struct modem_config *cfg)
     else
     {
       if(cfg->pre_break_delay == 1)
-        tmp_if_expr$1 = cfg->break_len > 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = cfg->break_len > 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
       {
         do
           if(log_level >= 7)
@@ -4188,9 +4188,9 @@ void mdm_init_config(struct modem_config *cfg)
 // file src/modem_core.c line 254
 signed int mdm_listen(struct modem_config *cfg)
 {
-  signed int return_value_line_listen$1;
-  return_value_line_listen$1=line_listen(cfg);
-  return return_value_line_listen$1;
+  signed int return_value_line_listen_1;
+  return_value_line_listen_1=line_listen(cfg);
+  return return_value_line_listen_1;
 }
 
 // mdm_off_hook
@@ -4242,8 +4242,8 @@ signed int mdm_parse_cmd(struct modem_config *cfg)
     }
 
   while((_Bool)0);
-  unsigned long int return_value_strlen$3;
-  unsigned long int return_value_strlen$4;
+  unsigned long int return_value_strlen_3;
+  unsigned long int return_value_strlen_4;
   while(!(done == 1))
   {
     if(!(cmd == -2))
@@ -4382,15 +4382,15 @@ signed int mdm_parse_cmd(struct modem_config *cfg)
       else
         if(num == 76)
         {
-          unsigned long int return_value_strlen$1;
-          return_value_strlen$1=strlen((const char *)cfg->last_dialno);
-          strncpy((char *)cfg->dialno, (const char *)cfg->last_dialno, return_value_strlen$1);
+          unsigned long int return_value_strlen_1;
+          return_value_strlen_1=strlen((const char *)cfg->last_dialno);
+          strncpy((char *)cfg->dialno, (const char *)cfg->last_dialno, return_value_strlen_1);
           cfg->dial_type = cfg->dial_type;
           cfg->memory_dial = 1;
           mdm_write(cfg, cfg->crlf, 2);
-          unsigned long int return_value_strlen$2;
-          return_value_strlen$2=strlen((const char *)cfg->dialno);
-          mdm_write(cfg, cfg->dialno, (signed int)return_value_strlen$2);
+          unsigned long int return_value_strlen_2;
+          return_value_strlen_2=strlen((const char *)cfg->dialno);
+          mdm_write(cfg, cfg->dialno, (signed int)return_value_strlen_2);
         }
 
         else
@@ -4400,8 +4400,8 @@ signed int mdm_parse_cmd(struct modem_config *cfg)
           cfg->dial_type = (unsigned char)0;
           cfg->last_dial_type = (unsigned char)0;
         }
-      return_value_strlen$3=strlen((const char *)cfg->dialno);
-      if(return_value_strlen$3 >= 1ul)
+      return_value_strlen_3=strlen((const char *)cfg->dialno);
+      if(return_value_strlen_3 >= 1ul)
         mdm_connect(cfg);
 
       else
@@ -4501,8 +4501,8 @@ signed int mdm_parse_cmd(struct modem_config *cfg)
     __CPROVER_DUMP_L47:
       ;
       sprintf((char *)tmp, "%s%3.3d", (const void *)cfg->crlf, cfg->s[(signed long int)num]);
-      return_value_strlen$4=strlen((const char *)tmp);
-      mdm_write(cfg, tmp, (signed int)return_value_strlen$4);
+      return_value_strlen_4=strlen((const char *)tmp);
+      mdm_write(cfg, tmp, (signed int)return_value_strlen_4);
       continue;
 
     __CPROVER_DUMP_L48:
@@ -4687,9 +4687,9 @@ signed int mdm_print_speed(struct modem_config *cfg)
 
 __CPROVER_DUMP_L3:
   ;
-  signed int return_value_get_connect_response$1;
-  return_value_get_connect_response$1=get_connect_response(speed, cfg->response_code_level);
-  mdm_send_response(return_value_get_connect_response$1, cfg);
+  signed int return_value_get_connect_response_1;
+  return_value_get_connect_response_1=get_connect_response(speed, cfg->response_code_level);
+  mdm_send_response(return_value_get_connect_response_1, cfg);
   return 0;
 }
 
@@ -4721,9 +4721,9 @@ void mdm_send_response(signed int msg, struct modem_config *cfg)
         }
 
       while((_Bool)0);
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen((const char *)mdm_responses[(signed long int)msg]);
-      mdm_write(cfg, mdm_responses[(signed long int)msg], (signed int)return_value_strlen$1);
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen((const char *)mdm_responses[(signed long int)msg]);
+      mdm_write(cfg, mdm_responses[(signed long int)msg], (signed int)return_value_strlen_1);
     }
 
     else
@@ -4738,9 +4738,9 @@ void mdm_send_response(signed int msg, struct modem_config *cfg)
 
       while((_Bool)0);
       sprintf((char *)msgID, "%d", msg);
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen((const char *)msgID);
-      mdm_write(cfg, msgID, (signed int)return_value_strlen$2);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen((const char *)msgID);
+      mdm_write(cfg, msgID, (signed int)return_value_strlen_2);
     }
     mdm_write(cfg, cfg->crlf, 2);
   }
@@ -4772,21 +4772,21 @@ signed int mdm_send_ring(struct modem_config *cfg)
     }
 
   while((_Bool)0);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(cfg->cmd_mode == 0)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     if(!(cfg->s[0l] == 0))
-      tmp_if_expr$1 = cfg->rings >= cfg->s[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = cfg->rings >= cfg->s[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
     mdm_answer(cfg);
 
   return 0;
@@ -4798,15 +4798,15 @@ signed int mdm_set_control_lines(struct modem_config *cfg)
 {
   signed int state = 0;
   signed int up = cfg->conn_type == 0 ? 0 : 1;
-  signed int return_value_get_new_cts_state$1;
-  return_value_get_new_cts_state$1=get_new_cts_state(cfg, up);
-  state = state | return_value_get_new_cts_state$1;
-  signed int return_value_get_new_dsr_state$2;
-  return_value_get_new_dsr_state$2=get_new_dsr_state(cfg, up);
-  state = state | return_value_get_new_dsr_state$2;
-  signed int return_value_get_new_dcd_state$3;
-  return_value_get_new_dcd_state$3=get_new_dcd_state(cfg, up);
-  state = state | return_value_get_new_dcd_state$3;
+  signed int return_value_get_new_cts_state_1;
+  return_value_get_new_cts_state_1=get_new_cts_state(cfg, up);
+  state = state | return_value_get_new_cts_state_1;
+  signed int return_value_get_new_dsr_state_2;
+  return_value_get_new_dsr_state_2=get_new_dsr_state(cfg, up);
+  state = state | return_value_get_new_dsr_state_2;
+  signed int return_value_get_new_dcd_state_3;
+  return_value_get_new_dcd_state_3=get_new_dcd_state(cfg, up);
+  state = state | return_value_get_new_dcd_state_3;
   do
     if(log_level >= 4)
     {
@@ -4864,9 +4864,9 @@ signed int parseCommand(unsigned char *line, signed int flags, signed int *index
 
   }
 
-  signed int return_value_toupper$1;
-  return_value_toupper$1=toupper(cmd);
-  return return_value_toupper$1 | flags;
+  signed int return_value_toupper_1;
+  return_value_toupper_1=toupper(cmd);
+  return return_value_toupper_1 | flags;
 }
 
 // parseRegister
@@ -4875,8 +4875,8 @@ signed int parseRegister(unsigned char *line, signed int flags, signed int *inde
 {
   signed int cmd = 0;
   cmd=getCommand(line, flags, index, num, len);
-  signed int tmp_post$1;
-  signed int return_value_getData$2;
+  signed int tmp_post_1;
+  signed int return_value_getData_2;
   if(num < ((signed int *)NULL))
     return -2;
 
@@ -4888,15 +4888,15 @@ signed int parseRegister(unsigned char *line, signed int flags, signed int *inde
 
     else
     {
-      tmp_post$1 = *index;
+      tmp_post_1 = *index;
       *index = *index + 1;
-      switch((signed int)line[(signed long int)tmp_post$1])
+      switch((signed int)line[(signed long int)tmp_post_1])
       {
         case 61:
         {
           skip(line, index, len, (unsigned char)32);
-          return_value_getData$2=getData(line, index, len, data_start, data_end, complex_parse);
-          if(!(return_value_getData$2 >= 0))
+          return_value_getData_2=getData(line, index, len, data_start, data_end, complex_parse);
+          if(!(return_value_getData_2 >= 0))
             return -2;
 
           break;
@@ -4912,9 +4912,9 @@ signed int parseRegister(unsigned char *line, signed int flags, signed int *inde
         default:
           return -2;
       }
-      signed int return_value_toupper$3;
-      return_value_toupper$3=toupper(cmd);
-      return return_value_toupper$3 | flags;
+      signed int return_value_toupper_3;
+      return_value_toupper_3=toupper(cmd);
+      return return_value_toupper_3 | flags;
     }
   }
 }
@@ -4927,16 +4927,16 @@ signed int parse_ip_data(struct modem_config *cfg, unsigned char *data, signed i
   unsigned char ch;
   unsigned char text[1025l];
   signed int text_len = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(cfg->line_data.first_char == 1)
   {
     cfg->line_data.first_char = 0;
     if((signed int)*data == 0xff)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)data[(signed long int)0] == 0x1a ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)data[(signed long int)0] == 0x1a ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       do
         if(log_level >= 4)
@@ -4952,10 +4952,10 @@ signed int parse_ip_data(struct modem_config *cfg, unsigned char *data, signed i
 
   }
 
-  signed int return_value_parse_nvt_subcommand$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
+  signed int return_value_parse_nvt_subcommand_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
   if(cfg->line_data.is_telnet == 1)
   {
     while(!(i >= len))
@@ -4989,16 +4989,16 @@ signed int parse_ip_data(struct modem_config *cfg, unsigned char *data, signed i
           }
           case 250:
           {
-            return_value_parse_nvt_subcommand$2=parse_nvt_subcommand(cfg->line_data.fd, &cfg->line_data.nvt_data, data + (signed long int)i, len - i);
-            i = i + return_value_parse_nvt_subcommand$2;
+            return_value_parse_nvt_subcommand_2=parse_nvt_subcommand(cfg->line_data.fd, &cfg->line_data.nvt_data, data + (signed long int)i, len - i);
+            i = i + return_value_parse_nvt_subcommand_2;
             break;
           }
           case 255:
             if(!(cfg->line_data.nvt_data.binary_recv == 0))
             {
-              tmp_post$3 = text_len;
+              tmp_post_3 = text_len;
               text_len = text_len + 1;
-              text[(signed long int)tmp_post$3] = (unsigned char)255;
+              text[(signed long int)tmp_post_3] = (unsigned char)255;
             }
 
           default:
@@ -5008,11 +5008,11 @@ signed int parse_ip_data(struct modem_config *cfg, unsigned char *data, signed i
 
       else
       {
-        tmp_post$4 = text_len;
+        tmp_post_4 = text_len;
         text_len = text_len + 1;
-        tmp_post$5 = i;
+        tmp_post_5 = i;
         i = i + 1;
-        text[(signed long int)tmp_post$4] = data[(signed long int)tmp_post$5];
+        text[(signed long int)tmp_post_4] = data[(signed long int)tmp_post_5];
       }
       if(text_len == 1024)
       {
@@ -5153,21 +5153,21 @@ signed int parse_nvt_subcommand(signed int fd, struct nvt_vars *vars, unsigned c
 
     }
 
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(rc >= 6)
   {
     if((signed int)data[4l] == 1)
     {
       if(opt == 24 || opt == 32 || opt == 35 || opt == 36 || opt == 39)
       {
-        tmp_post$1 = response_len;
+        tmp_post_1 = response_len;
         response_len = response_len + 1;
-        response[(signed long int)tmp_post$1] = (unsigned char)0;
+        response[(signed long int)tmp_post_1] = (unsigned char)0;
         if(opt == 24)
         {
-          unsigned long int return_value_strlen$2;
-          return_value_strlen$2=strlen((const char *)tty_type);
-          slen = (signed int)return_value_strlen$2;
+          unsigned long int return_value_strlen_2;
+          return_value_strlen_2=strlen((const char *)tty_type);
+          slen = (signed int)return_value_strlen_2;
           strncpy((char *)(response + (signed long int)response_len), (const char *)tty_type, (unsigned long int)slen);
           response_len = response_len + slen;
           goto __CPROVER_DUMP_L6;
@@ -5182,29 +5182,29 @@ signed int parse_nvt_subcommand(signed int fd, struct nvt_vars *vars, unsigned c
 
 __CPROVER_DUMP_L6:
   ;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
-  signed int tmp_post$6;
-  signed int tmp_post$7;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
+  signed int tmp_post_6;
+  signed int tmp_post_7;
   if(!(response_len == 0))
   {
-    tmp_post$3 = resp_len;
+    tmp_post_3 = resp_len;
     resp_len = resp_len + 1;
-    resp[(signed long int)tmp_post$3] = (unsigned char)255;
-    tmp_post$4 = resp_len;
+    resp[(signed long int)tmp_post_3] = (unsigned char)255;
+    tmp_post_4 = resp_len;
     resp_len = resp_len + 1;
-    resp[(signed long int)tmp_post$4] = (unsigned char)250;
-    tmp_post$5 = resp_len;
+    resp[(signed long int)tmp_post_4] = (unsigned char)250;
+    tmp_post_5 = resp_len;
     resp_len = resp_len + 1;
-    resp[(signed long int)tmp_post$5] = (unsigned char)opt;
+    resp[(signed long int)tmp_post_5] = (unsigned char)opt;
     resp_len = resp_len + response_len;
-    tmp_post$6 = resp_len;
+    tmp_post_6 = resp_len;
     resp_len = resp_len + 1;
-    resp[(signed long int)tmp_post$6] = (unsigned char)255;
-    tmp_post$7 = resp_len;
+    resp[(signed long int)tmp_post_6] = (unsigned char)255;
+    tmp_post_7 = resp_len;
     resp_len = resp_len + 1;
-    resp[(signed long int)tmp_post$7] = (unsigned char)240;
+    resp[(signed long int)tmp_post_7] = (unsigned char)240;
     ip_write(fd, resp, resp_len);
   }
 
@@ -5224,16 +5224,16 @@ signed int pb_add(unsigned char *from, unsigned char *to)
     }
 
   while((_Bool)0);
-  unsigned long int return_value_strlen$2;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_2;
+  unsigned long int return_value_strlen_1;
   if(!(from == ((unsigned char *)NULL)) && !(to == ((unsigned char *)NULL)) && !(size >= 100))
   {
-    return_value_strlen$2=strlen((const char *)from);
-    if(!(return_value_strlen$2 >= 1ul))
+    return_value_strlen_2=strlen((const char *)from);
+    if(!(return_value_strlen_2 >= 1ul))
       goto __CPROVER_DUMP_L5;
 
-    return_value_strlen$1=strlen((const char *)to);
-    if(!(return_value_strlen$1 >= 1ul))
+    return_value_strlen_1=strlen((const char *)to);
+    if(!(return_value_strlen_1 >= 1ul))
       goto __CPROVER_DUMP_L5;
 
     strncpy((char *)phone_book[(signed long int)size][(signed long int)0], (const char *)from, sizeof(unsigned char [128l]) /*128ul*/ );
@@ -5293,9 +5293,9 @@ unsigned char * pb_search(unsigned char *number)
   i = 0;
   for( ; !(i >= size); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp((const char *)phone_book[(signed long int)i][(signed long int)0], (const char *)number);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp((const char *)phone_book[(signed long int)i][(signed long int)0], (const char *)number);
+    if(return_value_strcmp_1 == 0)
     {
       do
         if(log_level >= 4)
@@ -5366,7 +5366,7 @@ void * run_bridge(void *arg)
   struct timeval timer;
   struct timeval *ptimer;
   signed int max_fd = 0;
-  struct anonymous$1 readfs;
+  struct anonymous_1 readfs;
   signed int res = 0;
   unsigned char buf[256l];
   signed int rc = 0;
@@ -5381,20 +5381,20 @@ void * run_bridge(void *arg)
     }
 
   while((_Bool)0);
-  signed int return_value_pipe$3;
-  return_value_pipe$3=pipe(cfg->data.wp[(signed long int)0]);
-  if(return_value_pipe$3 == -1)
+  signed int return_value_pipe_3;
+  return_value_pipe_3=pipe(cfg->data.wp[(signed long int)0]);
+  if(return_value_pipe_3 == -1)
   {
     do
       if(log_level >= 1)
       {
         log_start(1);
         fprintf(log_file, "Control line watch task incoming IPC pipe could not be created");
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        fprintf(log_file, " (%s)\n", return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        fprintf(log_file, " (%s)\n", return_value_strerror_2);
         log_end();
       }
 
@@ -5402,20 +5402,20 @@ void * run_bridge(void *arg)
     exit(-1);
   }
 
-  signed int return_value_pipe$6;
-  return_value_pipe$6=pipe(cfg->data.cp[(signed long int)0]);
-  if(return_value_pipe$6 == -1)
+  signed int return_value_pipe_6;
+  return_value_pipe_6=pipe(cfg->data.cp[(signed long int)0]);
+  if(return_value_pipe_6 == -1)
   {
     do
       if(log_level >= 1)
       {
         log_start(1);
         fprintf(log_file, "IP thread incoming IPC pipe could not be created");
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        char *return_value_strerror$5;
-        return_value_strerror$5=strerror(*return_value___errno_location$4);
-        fprintf(log_file, " (%s)\n", return_value_strerror$5);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        char *return_value_strerror_5;
+        return_value_strerror_5=strerror(*return_value___errno_location_4);
+        fprintf(log_file, " (%s)\n", return_value_strerror_5);
         log_end();
       }
 
@@ -5423,20 +5423,20 @@ void * run_bridge(void *arg)
     exit(-1);
   }
 
-  signed int return_value_pipe$9;
-  return_value_pipe$9=pipe(cfg->data.cp[(signed long int)1]);
-  if(return_value_pipe$9 == -1)
+  signed int return_value_pipe_9;
+  return_value_pipe_9=pipe(cfg->data.cp[(signed long int)1]);
+  if(return_value_pipe_9 == -1)
   {
     do
       if(log_level >= 1)
       {
         log_start(1);
         fprintf(log_file, "IP thread outgoing IPC pipe could not be created");
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        char *return_value_strerror$8;
-        return_value_strerror$8=strerror(*return_value___errno_location$7);
-        fprintf(log_file, " (%s)\n", return_value_strerror$8);
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        char *return_value_strerror_8;
+        return_value_strerror_8=strerror(*return_value___errno_location_7);
+        fprintf(log_file, " (%s)\n", return_value_strerror_8);
         log_end();
       }
 
@@ -5455,16 +5455,16 @@ void * run_bridge(void *arg)
   mdm_parse_cmd(cfg);
   if(cfg->data.direct_conn == 1u)
   {
-    unsigned long int return_value_strlen$11;
-    return_value_strlen$11=strlen((const char *)cfg->data.direct_conn_num);
-    if(return_value_strlen$11 >= 1ul)
+    unsigned long int return_value_strlen_11;
+    return_value_strlen_11=strlen((const char *)cfg->data.direct_conn_num);
+    if(return_value_strlen_11 >= 1ul)
     {
       if(!((signed int)cfg->data.direct_conn_num[0l] == 58))
       {
         strncpy((char *)cfg->dialno, (const char *)cfg->data.direct_conn_num, sizeof(unsigned char [256l]) /*256ul*/ );
-        signed int return_value_line_connect$10;
-        return_value_line_connect$10=line_connect(cfg);
-        if(!(return_value_line_connect$10 == 0))
+        signed int return_value_line_connect_10;
+        return_value_line_connect_10=line_connect(cfg);
+        if(!(return_value_line_connect_10 == 0))
         {
           do
             if(log_level >= 1)
@@ -5487,15 +5487,15 @@ void * run_bridge(void *arg)
   }
 
   cfg->allow_transmit = 1;
-  signed int tmp_if_expr$16;
-  signed int tmp_if_expr$17;
-  signed int tmp_if_expr$18;
-  _Bool tmp_if_expr$20;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$26;
-  _Bool tmp_if_expr$27;
-  _Bool tmp_if_expr$25;
-  _Bool tmp_if_expr$28;
+  signed int tmp_if_expr_16;
+  signed int tmp_if_expr_17;
+  signed int tmp_if_expr_18;
+  _Bool tmp_if_expr_20;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_26;
+  _Bool tmp_if_expr_27;
+  _Bool tmp_if_expr_25;
+  _Bool tmp_if_expr_28;
   while((_Bool)1)
   {
     if(!(last_conn_type == cfg->conn_type))
@@ -5512,14 +5512,14 @@ void * run_bridge(void *arg)
       writePipe(cfg->data.cp[(signed long int)1][(signed long int)1], (unsigned char)78);
       if(cfg->conn_type == 1)
       {
-        unsigned long int return_value_strlen$12;
-        return_value_strlen$12=strlen((const char *)cfg->data.local_connect);
-        if(return_value_strlen$12 >= 1ul)
+        unsigned long int return_value_strlen_12;
+        return_value_strlen_12=strlen((const char *)cfg->data.local_connect);
+        if(return_value_strlen_12 >= 1ul)
           writeFile(cfg->data.local_connect, cfg->line_data.fd);
 
-        unsigned long int return_value_strlen$13;
-        return_value_strlen$13=strlen((const char *)cfg->data.remote_connect);
-        if(return_value_strlen$13 >= 1ul)
+        unsigned long int return_value_strlen_13;
+        return_value_strlen_13=strlen((const char *)cfg->data.remote_connect);
+        if(return_value_strlen_13 >= 1ul)
           writeFile(cfg->data.remote_connect, cfg->line_data.fd);
 
       }
@@ -5527,14 +5527,14 @@ void * run_bridge(void *arg)
       else
         if(cfg->conn_type == 2)
         {
-          unsigned long int return_value_strlen$14;
-          return_value_strlen$14=strlen((const char *)cfg->data.local_answer);
-          if(return_value_strlen$14 >= 1ul)
+          unsigned long int return_value_strlen_14;
+          return_value_strlen_14=strlen((const char *)cfg->data.local_answer);
+          if(return_value_strlen_14 >= 1ul)
             writeFile(cfg->data.local_answer, cfg->line_data.fd);
 
-          unsigned long int return_value_strlen$15;
-          return_value_strlen$15=strlen((const char *)cfg->data.remote_answer);
-          if(return_value_strlen$15 >= 1ul)
+          unsigned long int return_value_strlen_15;
+          return_value_strlen_15=strlen((const char *)cfg->data.remote_answer);
+          if(return_value_strlen_15 >= 1ul)
             writeFile(cfg->data.remote_answer, cfg->line_data.fd);
 
         }
@@ -5567,28 +5567,28 @@ void * run_bridge(void *arg)
 
     while((_Bool)0);
     if(!(cfg->dce_data.fd >= cfg->data.mp[1l][0l]))
-      tmp_if_expr$16 = cfg->data.mp[(signed long int)1][(signed long int)0];
+      tmp_if_expr_16 = cfg->data.mp[(signed long int)1][(signed long int)0];
 
     else
-      tmp_if_expr$16 = cfg->dce_data.fd;
-    max_fd = tmp_if_expr$16;
+      tmp_if_expr_16 = cfg->dce_data.fd;
+    max_fd = tmp_if_expr_16;
     if(!(cfg->data.wp[0l][0l] >= max_fd))
-      tmp_if_expr$17 = max_fd;
+      tmp_if_expr_17 = max_fd;
 
     else
-      tmp_if_expr$17 = cfg->data.wp[(signed long int)0][(signed long int)0];
-    max_fd = tmp_if_expr$17;
+      tmp_if_expr_17 = cfg->data.wp[(signed long int)0][(signed long int)0];
+    max_fd = tmp_if_expr_17;
     if(!(cfg->data.cp[0l][0l] >= max_fd))
-      tmp_if_expr$18 = max_fd;
+      tmp_if_expr_18 = max_fd;
 
     else
-      tmp_if_expr$18 = cfg->data.cp[(signed long int)0][(signed long int)0];
-    max_fd = tmp_if_expr$18;
+      tmp_if_expr_18 = cfg->data.cp[(signed long int)0][(signed long int)0];
+    max_fd = tmp_if_expr_18;
     do
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$1) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfs)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_1) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfs)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     (&readfs)->__fds_bits[(signed long int)(cfg->data.mp[(signed long int)1][(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&readfs)->__fds_bits[(signed long int)(cfg->data.mp[(signed long int)1][(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << cfg->data.mp[(signed long int)1][(signed long int)0] % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
@@ -5599,11 +5599,11 @@ void * run_bridge(void *arg)
     if(cfg->cmd_mode == 0)
     {
       if(cfg->pre_break_delay == 0)
-        tmp_if_expr$20 = (_Bool)1;
+        tmp_if_expr_20 = (_Bool)1;
 
       else
-        tmp_if_expr$20 = cfg->break_len == 3 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$20)
+        tmp_if_expr_20 = cfg->break_len == 3 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_20)
       {
         do
           if(log_level >= 7)
@@ -5622,11 +5622,11 @@ void * run_bridge(void *arg)
       else
       {
         if(cfg->pre_break_delay == 1)
-          tmp_if_expr$19 = cfg->break_len > 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_19 = cfg->break_len > 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$19 = (_Bool)0;
-        if(tmp_if_expr$19)
+          tmp_if_expr_19 = (_Bool)0;
+        if(tmp_if_expr_19)
         {
           do
             if(log_level >= 7)
@@ -5688,18 +5688,18 @@ void * run_bridge(void *arg)
       }
 
     max_fd = max_fd + 1;
-    rc=select(max_fd, &readfs, (struct anonymous$1 *)(void *)0, (struct anonymous$1 *)(void *)0, ptimer);
+    rc=select(max_fd, &readfs, (struct anonymous_1 *)(void *)0, (struct anonymous_1 *)(void *)0, ptimer);
     if(rc == -1)
       do
         if(log_level >= 3)
         {
           log_start(3);
           fprintf(log_file, "Select returned error");
-          signed int *return_value___errno_location$21;
-          return_value___errno_location$21=__errno_location();
-          char *return_value_strerror$22;
-          return_value_strerror$22=strerror(*return_value___errno_location$21);
-          fprintf(log_file, " (%s)\n", return_value_strerror$22);
+          signed int *return_value___errno_location_21;
+          return_value___errno_location_21=__errno_location();
+          char *return_value_strerror_22;
+          return_value_strerror_22=strerror(*return_value___errno_location_21);
+          fprintf(log_file, " (%s)\n", return_value_strerror_22);
           log_end();
         }
 
@@ -5709,31 +5709,31 @@ void * run_bridge(void *arg)
       if(rc == 0)
       {
         if(cfg->cmd_mode == 1)
-          tmp_if_expr$26 = cfg->conn_type == 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_26 = cfg->conn_type == 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$26 = (_Bool)0;
-        if(tmp_if_expr$26)
-          tmp_if_expr$27 = cfg->line_data.valid_conn == 1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_26 = (_Bool)0;
+        if(tmp_if_expr_26)
+          tmp_if_expr_27 = cfg->line_data.valid_conn == 1 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$27 = (_Bool)0;
-        if(tmp_if_expr$27)
+          tmp_if_expr_27 = (_Bool)0;
+        if(tmp_if_expr_27)
         {
           if(cfg->s[0l] == 0)
-            tmp_if_expr$25 = cfg->rings == 10 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_25 = cfg->rings == 10 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$25 = (_Bool)0;
-          if(tmp_if_expr$25)
+            tmp_if_expr_25 = (_Bool)0;
+          if(tmp_if_expr_25)
           {
-            unsigned long int return_value_strlen$24;
-            return_value_strlen$24=strlen((const char *)cfg->data.no_answer);
-            if(return_value_strlen$24 == 0ul)
+            unsigned long int return_value_strlen_24;
+            return_value_strlen_24=strlen((const char *)cfg->data.no_answer);
+            if(return_value_strlen_24 == 0ul)
             {
-              unsigned long int return_value_strlen$23;
-              return_value_strlen$23=strlen((const char *)MDM_NO_ANSWER);
-              line_write(cfg, (unsigned char *)MDM_NO_ANSWER, (signed int)return_value_strlen$23);
+              unsigned long int return_value_strlen_23;
+              return_value_strlen_23=strlen((const char *)MDM_NO_ANSWER);
+              line_write(cfg, (unsigned char *)MDM_NO_ANSWER, (signed int)return_value_strlen_23);
             }
 
             else
@@ -5773,11 +5773,11 @@ void * run_bridge(void *arg)
       if(res >= 1)
       {
         if(cfg->conn_type == 0)
-          tmp_if_expr$28 = cfg->off_hook == 1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_28 = cfg->off_hook == 1 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$28 = (_Bool)0;
-        if(tmp_if_expr$28)
+          tmp_if_expr_28 = (_Bool)0;
+        if(tmp_if_expr_28)
         {
           mdm_disconnect(cfg);
           mdm_send_response(0, cfg);
@@ -5791,9 +5791,9 @@ void * run_bridge(void *arg)
 
     if(!((readfs.__fds_bits[(signed long int)(cfg->data.wp[0l][0l] / 8)] & (signed long int)(1UL << cfg->data.wp[0l][0l] % 8)) == 0l))
     {
-      signed long int return_value_read$29;
-      return_value_read$29=read(cfg->data.wp[(signed long int)0][(signed long int)0], (void *)buf, sizeof(unsigned char [256l]) /*256ul*/  - (unsigned long int)1);
-      res = (signed int)return_value_read$29;
+      signed long int return_value_read_29;
+      return_value_read_29=read(cfg->data.wp[(signed long int)0][(signed long int)0], (void *)buf, sizeof(unsigned char [256l]) /*256ul*/  - (unsigned long int)1);
+      res = (signed int)return_value_read_29;
       buf[(signed long int)res] = (unsigned char)0;
       do
         if(log_level >= 5)
@@ -5820,9 +5820,9 @@ void * run_bridge(void *arg)
     ;
     if(!((readfs.__fds_bits[(signed long int)(cfg->data.cp[0l][0l] / 8)] & (signed long int)(1UL << cfg->data.cp[0l][0l] % 8)) == 0l))
     {
-      signed long int return_value_read$30;
-      return_value_read$30=read(cfg->data.cp[(signed long int)0][(signed long int)0], (void *)buf, sizeof(unsigned char [256l]) /*256ul*/ );
-      res = (signed int)return_value_read$30;
+      signed long int return_value_read_30;
+      return_value_read_30=read(cfg->data.cp[(signed long int)0][(signed long int)0], (void *)buf, sizeof(unsigned char [256l]) /*256ul*/ );
+      res = (signed int)return_value_read_30;
       do
         if(log_level >= 5)
         {
@@ -5867,9 +5867,9 @@ void * run_bridge(void *arg)
         }
 
       while((_Bool)0);
-      signed long int return_value_read$31;
-      return_value_read$31=read(cfg->data.mp[(signed long int)1][(signed long int)0], (void *)buf, sizeof(unsigned char [256l]) /*256ul*/ );
-      res = (signed int)return_value_read$31;
+      signed long int return_value_read_31;
+      return_value_read_31=read(cfg->data.mp[(signed long int)1][(signed long int)0], (void *)buf, sizeof(unsigned char [256l]) /*256ul*/ );
+      res = (signed int)return_value_read_31;
       if((signed int)buf[0l] == 43)
         accept_connection(cfg);
 
@@ -6010,11 +6010,11 @@ signed int ser_get_bps_const(signed int speed)
         {
           log_start(1);
           fprintf(log_file, "Unknown baud rate");
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          char *return_value_strerror$2;
-          return_value_strerror$2=strerror(*return_value___errno_location$1);
-          fprintf(log_file, " (%s)\n", return_value_strerror$2);
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          char *return_value_strerror_2;
+          return_value_strerror_2=strerror(*return_value___errno_location_1);
+          fprintf(log_file, " (%s)\n", return_value_strerror_2);
           log_end();
         }
 
@@ -6039,20 +6039,20 @@ signed int ser_get_bps_const(signed int speed)
 signed int ser_get_control_lines(signed int fd)
 {
   signed int status;
-  signed int return_value_ioctl$3;
-  return_value_ioctl$3=ioctl(fd, (unsigned long int)0x5415, &status);
-  if(!(return_value_ioctl$3 >= 0))
+  signed int return_value_ioctl_3;
+  return_value_ioctl_3=ioctl(fd, (unsigned long int)0x5415, &status);
+  if(!(return_value_ioctl_3 >= 0))
   {
     do
       if(log_level >= 1)
       {
         log_start(1);
         fprintf(log_file, "Could not obtain serial port status");
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        fprintf(log_file, " (%s)\n", return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        fprintf(log_file, " (%s)\n", return_value_strerror_2);
         log_end();
       }
 
@@ -6099,11 +6099,11 @@ signed int ser_init_conn(unsigned char *tty, signed int speed)
         {
           log_start(1);
           fprintf(log_file, "TTY %s could not be opened", tty);
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          char *return_value_strerror$2;
-          return_value_strerror$2=strerror(*return_value___errno_location$1);
-          fprintf(log_file, " (%s)\n", return_value_strerror$2);
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          char *return_value_strerror_2;
+          return_value_strerror_2=strerror(*return_value___errno_location_1);
+          fprintf(log_file, " (%s)\n", return_value_strerror_2);
           log_end();
         }
 
@@ -6160,9 +6160,9 @@ signed int ser_init_conn(unsigned char *tty, signed int speed)
 signed int ser_read(signed int fd, unsigned char *data, signed int len)
 {
   signed int res;
-  signed long int return_value_read$1;
-  return_value_read$1=read(fd, (void *)data, (unsigned long int)len);
-  res = (signed int)return_value_read$1;
+  signed long int return_value_read_1;
+  return_value_read_1=read(fd, (void *)data, (unsigned long int)len);
+  res = (signed int)return_value_read_1;
   log_trace(1, data, res);
   return res;
 }
@@ -6172,26 +6172,26 @@ signed int ser_read(signed int fd, unsigned char *data, signed int len)
 signed int ser_set_control_lines(signed int fd, signed int state)
 {
   unsigned int status;
-  signed int return_value_ser_get_control_lines$1;
-  return_value_ser_get_control_lines$1=ser_get_control_lines(fd);
-  status = (unsigned int)return_value_ser_get_control_lines$1;
+  signed int return_value_ser_get_control_lines_1;
+  return_value_ser_get_control_lines_1=ser_get_control_lines(fd);
+  status = (unsigned int)return_value_ser_get_control_lines_1;
   {
     status = status & (unsigned int)~(0x004 | 0x002);
     status = status | (unsigned int)state;
-    signed int return_value_ioctl$4;
-    return_value_ioctl$4=ioctl(fd, (unsigned long int)0x5418, &status);
-    if(!(return_value_ioctl$4 >= 0))
+    signed int return_value_ioctl_4;
+    return_value_ioctl_4=ioctl(fd, (unsigned long int)0x5418, &status);
+    if(!(return_value_ioctl_4 >= 0))
     {
       do
         if(log_level >= 1)
         {
           log_start(1);
           fprintf(log_file, "Could not set serial port status");
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          char *return_value_strerror$3;
-          return_value_strerror$3=strerror(*return_value___errno_location$2);
-          fprintf(log_file, " (%s)\n", return_value_strerror$3);
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          char *return_value_strerror_3;
+          return_value_strerror_3=strerror(*return_value___errno_location_2);
+          fprintf(log_file, " (%s)\n", return_value_strerror_3);
           log_end();
         }
 
@@ -6209,20 +6209,20 @@ signed int ser_set_control_lines(signed int fd, signed int state)
 signed int ser_set_flow_control(signed int fd, signed int status)
 {
   struct termios tio;
-  signed int return_value_tcgetattr$3;
-  return_value_tcgetattr$3=tcgetattr(fd, &tio);
-  if(!(return_value_tcgetattr$3 == 0))
+  signed int return_value_tcgetattr_3;
+  return_value_tcgetattr_3=tcgetattr(fd, &tio);
+  if(!(return_value_tcgetattr_3 == 0))
   {
     do
       if(log_level >= 1)
       {
         log_start(1);
         fprintf(log_file, "Could not get serial port attributes");
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        fprintf(log_file, " (%s)\n", return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        fprintf(log_file, " (%s)\n", return_value_strerror_2);
         log_end();
       }
 
@@ -6234,20 +6234,20 @@ signed int ser_set_flow_control(signed int fd, signed int status)
   {
     tio.c_cflag = tio.c_cflag & ~((unsigned int)(0002000 | 0010000) | 020000000000);
     tio.c_cflag = tio.c_cflag | (unsigned int)status;
-    signed int return_value_tcsetattr$6;
-    return_value_tcsetattr$6=tcsetattr(fd, 0, &tio);
-    if(!(return_value_tcsetattr$6 == 0))
+    signed int return_value_tcsetattr_6;
+    return_value_tcsetattr_6=tcsetattr(fd, 0, &tio);
+    if(!(return_value_tcsetattr_6 == 0))
     {
       do
         if(log_level >= 1)
         {
           log_start(1);
           fprintf(log_file, "Could not set serial port attributes");
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          char *return_value_strerror$5;
-          return_value_strerror$5=strerror(*return_value___errno_location$4);
-          fprintf(log_file, " (%s)\n", return_value_strerror$5);
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          char *return_value_strerror_5;
+          return_value_strerror_5=strerror(*return_value___errno_location_4);
+          fprintf(log_file, " (%s)\n", return_value_strerror_5);
           log_end();
         }
 
@@ -6265,9 +6265,9 @@ signed int ser_set_flow_control(signed int fd, signed int status)
 signed int ser_write(signed int fd, unsigned char *data, signed int len)
 {
   log_trace(2, data, len);
-  signed long int return_value_write$1;
-  return_value_write$1=write(fd, (const void *)data, (unsigned long int)len);
-  return (signed int)return_value_write$1;
+  signed long int return_value_write_1;
+  return_value_write_1=write(fd, (const void *)data, (unsigned long int)len);
+  return (signed int)return_value_write_1;
 }
 
 // sh_init_config
@@ -6319,11 +6319,11 @@ signed int spawn_ctrl_thread(struct modem_config *cfg)
       {
         log_start(1);
         fprintf(log_file, "CTRL thread could not be started");
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        fprintf(log_file, " (%s)\n", return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        fprintf(log_file, " (%s)\n", return_value_strerror_2);
         log_end();
       }
 
@@ -6357,11 +6357,11 @@ signed int spawn_ip232_thread(struct modem_config *cfg)
       {
         log_start(1);
         fprintf(log_file, "ip232 thread could not be started");
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        fprintf(log_file, " (%s)\n", return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        fprintf(log_file, " (%s)\n", return_value_strerror_2);
         log_end();
       }
 
@@ -6395,11 +6395,11 @@ signed int spawn_ip_thread(struct modem_config *cfg)
       {
         log_start(1);
         fprintf(log_file, "IP thread could not be started");
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        fprintf(log_file, " (%s)\n", return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        fprintf(log_file, " (%s)\n", return_value_strerror_2);
         log_end();
       }
 
@@ -6417,14 +6417,14 @@ signed int writeFile(unsigned char *name, signed int fd)
   struct _IO_FILE *file;
   unsigned char buf[255l];
   unsigned long int len;
-  unsigned long int writeFile$$1$$size = (unsigned long int)1;
+  unsigned long int writeFile__1__size = (unsigned long int)1;
   unsigned long int max = (unsigned long int)255;
   file=fopen((const char *)name, "rb");
   if(!(file == ((struct _IO_FILE *)NULL)))
   {
     do
     {
-      len=fread((void *)buf, writeFile$$1$$size, max, file);
+      len=fread((void *)buf, writeFile__1__size, max, file);
       if(!(len >= 1ul))
         break;
 
@@ -6447,8 +6447,8 @@ signed int writePipe(signed int fd, unsigned char msg)
   tmp[(signed long int)0] = msg;
   tmp[(signed long int)1] = (unsigned char)10;
   tmp[(signed long int)2] = (unsigned char)0;
-  signed long int return_value_write$1;
-  return_value_write$1=write(fd, (const void *)tmp, (unsigned long int)2);
-  return (signed int)return_value_write$1;
+  signed long int return_value_write_1;
+  return_value_write_1=write(fd, (const void *)tmp, (unsigned long int)2);
+  return (signed int)return_value_write_1;
 }
 

@@ -1,126 +1,126 @@
-// #anon_enum$TYPE_NONE=0$TYPE_SCHAR=1$TYPE_UCHAR=2$TYPE_SHORT=3$TYPE_USHORT=4$TYPE_INT=5$TYPE_UINT=6$TYPE_LONGINT=7$TYPE_ULONGINT=8$TYPE_LONGLONGINT=9$TYPE_ULONGLONGINT=10$TYPE_DOUBLE=11$TYPE_LONGDOUBLE=12$TYPE_CHAR=13$TYPE_WIDE_CHAR=14$TYPE_STRING=15$TYPE_WIDE_STRING=16$TYPE_POINTER=17$TYPE_COUNT_SCHAR_POINTER=18$TYPE_COUNT_SHORT_POINTER=19$TYPE_COUNT_INT_POINTER=20$TYPE_COUNT_LONGINT_POINTER=21$TYPE_COUNT_LONGLONGINT_POINTER=22
+// #anon_enum_TYPE_NONE=0_TYPE_SCHAR=1_TYPE_UCHAR=2_TYPE_SHORT=3_TYPE_USHORT=4_TYPE_INT=5_TYPE_UINT=6_TYPE_LONGINT=7_TYPE_ULONGINT=8_TYPE_LONGLONGINT=9_TYPE_ULONGLONGINT=10_TYPE_DOUBLE=11_TYPE_LONGDOUBLE=12_TYPE_CHAR=13_TYPE_WIDE_CHAR=14_TYPE_STRING=15_TYPE_WIDE_STRING=16_TYPE_POINTER=17_TYPE_COUNT_SCHAR_POINTER=18_TYPE_COUNT_SHORT_POINTER=19_TYPE_COUNT_INT_POINTER=20_TYPE_COUNT_LONGINT_POINTER=21_TYPE_COUNT_LONGLONGINT_POINTER=22
 // file printf-args.h line 49
-enum anonymous$12 { TYPE_NONE=0, TYPE_SCHAR=1, TYPE_UCHAR=2, TYPE_SHORT=3, TYPE_USHORT=4, TYPE_INT=5, TYPE_UINT=6, TYPE_LONGINT=7, TYPE_ULONGINT=8, TYPE_LONGLONGINT=9, TYPE_ULONGLONGINT=10, TYPE_DOUBLE=11, TYPE_LONGDOUBLE=12, TYPE_CHAR=13, TYPE_WIDE_CHAR=14, TYPE_STRING=15, TYPE_WIDE_STRING=16, TYPE_POINTER=17, TYPE_COUNT_SCHAR_POINTER=18, TYPE_COUNT_SHORT_POINTER=19, TYPE_COUNT_INT_POINTER=20, TYPE_COUNT_LONGINT_POINTER=21, TYPE_COUNT_LONGLONGINT_POINTER=22 };
+enum anonymous_12 { TYPE_NONE=0, TYPE_SCHAR=1, TYPE_UCHAR=2, TYPE_SHORT=3, TYPE_USHORT=4, TYPE_INT=5, TYPE_UINT=6, TYPE_LONGINT=7, TYPE_ULONGINT=8, TYPE_LONGLONGINT=9, TYPE_ULONGLONGINT=10, TYPE_DOUBLE=11, TYPE_LONGDOUBLE=12, TYPE_CHAR=13, TYPE_WIDE_CHAR=14, TYPE_STRING=15, TYPE_WIDE_STRING=16, TYPE_POINTER=17, TYPE_COUNT_SCHAR_POINTER=18, TYPE_COUNT_SHORT_POINTER=19, TYPE_COUNT_INT_POINTER=20, TYPE_COUNT_LONGINT_POINTER=21, TYPE_COUNT_LONGLONGINT_POINTER=22 };
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[*{cS8}$cS8$'dir_start'||*{cS8}$cS8$'dir_end'||S32'flags'||U32'$pad0'||*{cS8}$cS8$'width_start'||*{cS8}$cS8$'width_end'||U64'width_arg_index'||*{cS8}$cS8$'precision_start'||*{cS8}$cS8$'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'$pad1'||U64'arg_index'|]
+// tag-#anon#ST[*{cS8}_cS8_'dir_start'||*{cS8}_cS8_'dir_end'||S32'flags'||U32'_pad0'||*{cS8}_cS8_'width_start'||*{cS8}_cS8_'width_end'||U64'width_arg_index'||*{cS8}_cS8_'precision_start'||*{cS8}_cS8_'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'_pad1'||U64'arg_index'|]
 // file printf-parse.h line 53
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[EN#anon_enum$TYPE_NONE=0$TYPE_SCHAR=1$TYPE_UCHAR=2$TYPE_SHORT=3$TYPE_USHORT=4$TYPE_INT=5$TYPE_UINT=6$TYPE_LONGINT=7$TYPE_ULONGINT=8$TYPE_LONGLONGINT=9$TYPE_ULONGLONGINT=10$TYPE_DOUBLE=11$TYPE_LONGDOUBLE=12$TYPE_CHAR=13$TYPE_WIDE_CHAR=14$TYPE_STRING=15$TYPE_WIDE_STRING=16$TYPE_POINTER=17$TYPE_COUNT_SCHAR_POINTER=18$TYPE_COUNT_SHORT_POINTER=19$TYPE_COUNT_INT_POINTER=20$TYPE_COUNT_LONGINT_POINTER=21$TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}$U32$'type'||U96'$pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}$cS8$'a_string'||*{cS32}$cS32$'a_wide_string'||*{V}$V$'a_pointer'||*{S8}$S8$'a_count_schar_pointer'||*{S16}$S16$'a_count_short_pointer'||*{S32}$S32$'a_count_int_pointer'||*{S64}$S64$'a_count_longint_pointer'||*{S64}$S64$'a_count_longlongint_pointer'|]#'a'|]
+// tag-#anon#ST[EN#anon_enum_TYPE_NONE=0_TYPE_SCHAR=1_TYPE_UCHAR=2_TYPE_SHORT=3_TYPE_USHORT=4_TYPE_INT=5_TYPE_UINT=6_TYPE_LONGINT=7_TYPE_ULONGINT=8_TYPE_LONGLONGINT=9_TYPE_ULONGLONGINT=10_TYPE_DOUBLE=11_TYPE_LONGDOUBLE=12_TYPE_CHAR=13_TYPE_WIDE_CHAR=14_TYPE_STRING=15_TYPE_WIDE_STRING=16_TYPE_POINTER=17_TYPE_COUNT_SCHAR_POINTER=18_TYPE_COUNT_SHORT_POINTER=19_TYPE_COUNT_INT_POINTER=20_TYPE_COUNT_LONGINT_POINTER=21_TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}_U32_'type'||U96'_pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}_cS8_'a_string'||*{cS32}_cS32_'a_wide_string'||*{V}_V_'a_pointer'||*{S8}_S8_'a_count_schar_pointer'||*{S16}_S16_'a_count_short_pointer'||*{S32}_S32_'a_count_int_pointer'||*{S64}_S64_'a_count_longint_pointer'||*{S64}_S64_'a_count_longlongint_pointer'|]#'a'|]
 // file printf-args.h line 91
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$7;
+struct anonymous_7;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$16;
+struct anonymous_16;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$21;
+struct anonymous_21;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[U64'count'||*{SYM#tag-#anon#ST[*{cS8}$cS8$'dir_start'||*{cS8}$cS8$'dir_end'||S32'flags'||U32'$pad0'||*{cS8}$cS8$'width_start'||*{cS8}$cS8$'width_end'||U64'width_arg_index'||*{cS8}$cS8$'precision_start'||*{cS8}$cS8$'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'$pad1'||U64'arg_index'|]#}$SYM#tag-#anon#ST[*{cS8}$cS8$'dir_start'||*{cS8}$cS8$'dir_end'||S32'flags'||U32'$pad0'||*{cS8}$cS8$'width_start'||*{cS8}$cS8$'width_end'||U64'width_arg_index'||*{cS8}$cS8$'precision_start'||*{cS8}$cS8$'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'$pad1'||U64'arg_index'|]#$'dir'||U64'max_width_length'||U64'max_precision_length'||ARR7{SYM#tag-#anon#ST[*{cS8}$cS8$'dir_start'||*{cS8}$cS8$'dir_end'||S32'flags'||U32'$pad0'||*{cS8}$cS8$'width_start'||*{cS8}$cS8$'width_end'||U64'width_arg_index'||*{cS8}$cS8$'precision_start'||*{cS8}$cS8$'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'$pad1'||U64'arg_index'|]#}$SYM#tag-#anon#ST[*{cS8}$cS8$'dir_start'||*{cS8}$cS8$'dir_end'||S32'flags'||U32'$pad0'||*{cS8}$cS8$'width_start'||*{cS8}$cS8$'width_end'||U64'width_arg_index'||*{cS8}$cS8$'precision_start'||*{cS8}$cS8$'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'$pad1'||U64'arg_index'|]#$'direct_alloc_dir'|]
+// tag-#anon#ST[U64'count'||*{SYM#tag-#anon#ST[*{cS8}_cS8_'dir_start'||*{cS8}_cS8_'dir_end'||S32'flags'||U32'_pad0'||*{cS8}_cS8_'width_start'||*{cS8}_cS8_'width_end'||U64'width_arg_index'||*{cS8}_cS8_'precision_start'||*{cS8}_cS8_'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'_pad1'||U64'arg_index'|]#}_SYM#tag-#anon#ST[*{cS8}_cS8_'dir_start'||*{cS8}_cS8_'dir_end'||S32'flags'||U32'_pad0'||*{cS8}_cS8_'width_start'||*{cS8}_cS8_'width_end'||U64'width_arg_index'||*{cS8}_cS8_'precision_start'||*{cS8}_cS8_'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'_pad1'||U64'arg_index'|]#_'dir'||U64'max_width_length'||U64'max_precision_length'||ARR7{SYM#tag-#anon#ST[*{cS8}_cS8_'dir_start'||*{cS8}_cS8_'dir_end'||S32'flags'||U32'_pad0'||*{cS8}_cS8_'width_start'||*{cS8}_cS8_'width_end'||U64'width_arg_index'||*{cS8}_cS8_'precision_start'||*{cS8}_cS8_'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'_pad1'||U64'arg_index'|]#}_SYM#tag-#anon#ST[*{cS8}_cS8_'dir_start'||*{cS8}_cS8_'dir_end'||S32'flags'||U32'_pad0'||*{cS8}_cS8_'width_start'||*{cS8}_cS8_'width_end'||U64'width_arg_index'||*{cS8}_cS8_'precision_start'||*{cS8}_cS8_'precision_end'||U64'precision_arg_index'||S8'conversion'||U56'_pad1'||U64'arg_index'|]#_'direct_alloc_dir'|]
 // file printf-parse.h line 70
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[U64'count'||*{SYM#tag-#anon#ST[EN#anon_enum$TYPE_NONE=0$TYPE_SCHAR=1$TYPE_UCHAR=2$TYPE_SHORT=3$TYPE_USHORT=4$TYPE_INT=5$TYPE_UINT=6$TYPE_LONGINT=7$TYPE_ULONGINT=8$TYPE_LONGLONGINT=9$TYPE_ULONGLONGINT=10$TYPE_DOUBLE=11$TYPE_LONGDOUBLE=12$TYPE_CHAR=13$TYPE_WIDE_CHAR=14$TYPE_STRING=15$TYPE_WIDE_STRING=16$TYPE_POINTER=17$TYPE_COUNT_SCHAR_POINTER=18$TYPE_COUNT_SHORT_POINTER=19$TYPE_COUNT_INT_POINTER=20$TYPE_COUNT_LONGINT_POINTER=21$TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}$U32$'type'||U96'$pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}$cS8$'a_string'||*{cS32}$cS32$'a_wide_string'||*{V}$V$'a_pointer'||*{S8}$S8$'a_count_schar_pointer'||*{S16}$S16$'a_count_short_pointer'||*{S32}$S32$'a_count_int_pointer'||*{S64}$S64$'a_count_longint_pointer'||*{S64}$S64$'a_count_longlongint_pointer'|]#'a'|]#}$SYM#tag-#anon#ST[EN#anon_enum$TYPE_NONE=0$TYPE_SCHAR=1$TYPE_UCHAR=2$TYPE_SHORT=3$TYPE_USHORT=4$TYPE_INT=5$TYPE_UINT=6$TYPE_LONGINT=7$TYPE_ULONGINT=8$TYPE_LONGLONGINT=9$TYPE_ULONGLONGINT=10$TYPE_DOUBLE=11$TYPE_LONGDOUBLE=12$TYPE_CHAR=13$TYPE_WIDE_CHAR=14$TYPE_STRING=15$TYPE_WIDE_STRING=16$TYPE_POINTER=17$TYPE_COUNT_SCHAR_POINTER=18$TYPE_COUNT_SHORT_POINTER=19$TYPE_COUNT_INT_POINTER=20$TYPE_COUNT_LONGINT_POINTER=21$TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}$U32$'type'||U96'$pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}$cS8$'a_string'||*{cS32}$cS32$'a_wide_string'||*{V}$V$'a_pointer'||*{S8}$S8$'a_count_schar_pointer'||*{S16}$S16$'a_count_short_pointer'||*{S32}$S32$'a_count_int_pointer'||*{S64}$S64$'a_count_longint_pointer'||*{S64}$S64$'a_count_longlongint_pointer'|]#'a'|]#$'arg'||ARR7{SYM#tag-#anon#ST[EN#anon_enum$TYPE_NONE=0$TYPE_SCHAR=1$TYPE_UCHAR=2$TYPE_SHORT=3$TYPE_USHORT=4$TYPE_INT=5$TYPE_UINT=6$TYPE_LONGINT=7$TYPE_ULONGINT=8$TYPE_LONGLONGINT=9$TYPE_ULONGLONGINT=10$TYPE_DOUBLE=11$TYPE_LONGDOUBLE=12$TYPE_CHAR=13$TYPE_WIDE_CHAR=14$TYPE_STRING=15$TYPE_WIDE_STRING=16$TYPE_POINTER=17$TYPE_COUNT_SCHAR_POINTER=18$TYPE_COUNT_SHORT_POINTER=19$TYPE_COUNT_INT_POINTER=20$TYPE_COUNT_LONGINT_POINTER=21$TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}$U32$'type'||U96'$pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}$cS8$'a_string'||*{cS32}$cS32$'a_wide_string'||*{V}$V$'a_pointer'||*{S8}$S8$'a_count_schar_pointer'||*{S16}$S16$'a_count_short_pointer'||*{S32}$S32$'a_count_int_pointer'||*{S64}$S64$'a_count_longint_pointer'||*{S64}$S64$'a_count_longlongint_pointer'|]#'a'|]#}$SYM#tag-#anon#ST[EN#anon_enum$TYPE_NONE=0$TYPE_SCHAR=1$TYPE_UCHAR=2$TYPE_SHORT=3$TYPE_USHORT=4$TYPE_INT=5$TYPE_UINT=6$TYPE_LONGINT=7$TYPE_ULONGINT=8$TYPE_LONGLONGINT=9$TYPE_ULONGLONGINT=10$TYPE_DOUBLE=11$TYPE_LONGDOUBLE=12$TYPE_CHAR=13$TYPE_WIDE_CHAR=14$TYPE_STRING=15$TYPE_WIDE_STRING=16$TYPE_POINTER=17$TYPE_COUNT_SCHAR_POINTER=18$TYPE_COUNT_SHORT_POINTER=19$TYPE_COUNT_INT_POINTER=20$TYPE_COUNT_LONGINT_POINTER=21$TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}$U32$'type'||U96'$pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}$cS8$'a_string'||*{cS32}$cS32$'a_wide_string'||*{V}$V$'a_pointer'||*{S8}$S8$'a_count_schar_pointer'||*{S16}$S16$'a_count_short_pointer'||*{S32}$S32$'a_count_int_pointer'||*{S64}$S64$'a_count_longint_pointer'||*{S64}$S64$'a_count_longlongint_pointer'|]#'a'|]#$'direct_alloc_arg'|]
+// tag-#anon#ST[U64'count'||*{SYM#tag-#anon#ST[EN#anon_enum_TYPE_NONE=0_TYPE_SCHAR=1_TYPE_UCHAR=2_TYPE_SHORT=3_TYPE_USHORT=4_TYPE_INT=5_TYPE_UINT=6_TYPE_LONGINT=7_TYPE_ULONGINT=8_TYPE_LONGLONGINT=9_TYPE_ULONGLONGINT=10_TYPE_DOUBLE=11_TYPE_LONGDOUBLE=12_TYPE_CHAR=13_TYPE_WIDE_CHAR=14_TYPE_STRING=15_TYPE_WIDE_STRING=16_TYPE_POINTER=17_TYPE_COUNT_SCHAR_POINTER=18_TYPE_COUNT_SHORT_POINTER=19_TYPE_COUNT_INT_POINTER=20_TYPE_COUNT_LONGINT_POINTER=21_TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}_U32_'type'||U96'_pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}_cS8_'a_string'||*{cS32}_cS32_'a_wide_string'||*{V}_V_'a_pointer'||*{S8}_S8_'a_count_schar_pointer'||*{S16}_S16_'a_count_short_pointer'||*{S32}_S32_'a_count_int_pointer'||*{S64}_S64_'a_count_longint_pointer'||*{S64}_S64_'a_count_longlongint_pointer'|]#'a'|]#}_SYM#tag-#anon#ST[EN#anon_enum_TYPE_NONE=0_TYPE_SCHAR=1_TYPE_UCHAR=2_TYPE_SHORT=3_TYPE_USHORT=4_TYPE_INT=5_TYPE_UINT=6_TYPE_LONGINT=7_TYPE_ULONGINT=8_TYPE_LONGLONGINT=9_TYPE_ULONGLONGINT=10_TYPE_DOUBLE=11_TYPE_LONGDOUBLE=12_TYPE_CHAR=13_TYPE_WIDE_CHAR=14_TYPE_STRING=15_TYPE_WIDE_STRING=16_TYPE_POINTER=17_TYPE_COUNT_SCHAR_POINTER=18_TYPE_COUNT_SHORT_POINTER=19_TYPE_COUNT_INT_POINTER=20_TYPE_COUNT_LONGINT_POINTER=21_TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}_U32_'type'||U96'_pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}_cS8_'a_string'||*{cS32}_cS32_'a_wide_string'||*{V}_V_'a_pointer'||*{S8}_S8_'a_count_schar_pointer'||*{S16}_S16_'a_count_short_pointer'||*{S32}_S32_'a_count_int_pointer'||*{S64}_S64_'a_count_longint_pointer'||*{S64}_S64_'a_count_longlongint_pointer'|]#'a'|]#_'arg'||ARR7{SYM#tag-#anon#ST[EN#anon_enum_TYPE_NONE=0_TYPE_SCHAR=1_TYPE_UCHAR=2_TYPE_SHORT=3_TYPE_USHORT=4_TYPE_INT=5_TYPE_UINT=6_TYPE_LONGINT=7_TYPE_ULONGINT=8_TYPE_LONGLONGINT=9_TYPE_ULONGLONGINT=10_TYPE_DOUBLE=11_TYPE_LONGDOUBLE=12_TYPE_CHAR=13_TYPE_WIDE_CHAR=14_TYPE_STRING=15_TYPE_WIDE_STRING=16_TYPE_POINTER=17_TYPE_COUNT_SCHAR_POINTER=18_TYPE_COUNT_SHORT_POINTER=19_TYPE_COUNT_INT_POINTER=20_TYPE_COUNT_LONGINT_POINTER=21_TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}_U32_'type'||U96'_pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}_cS8_'a_string'||*{cS32}_cS32_'a_wide_string'||*{V}_V_'a_pointer'||*{S8}_S8_'a_count_schar_pointer'||*{S16}_S16_'a_count_short_pointer'||*{S32}_S32_'a_count_int_pointer'||*{S64}_S64_'a_count_longint_pointer'||*{S64}_S64_'a_count_longlongint_pointer'|]#'a'|]#}_SYM#tag-#anon#ST[EN#anon_enum_TYPE_NONE=0_TYPE_SCHAR=1_TYPE_UCHAR=2_TYPE_SHORT=3_TYPE_USHORT=4_TYPE_INT=5_TYPE_UINT=6_TYPE_LONGINT=7_TYPE_ULONGINT=8_TYPE_LONGLONGINT=9_TYPE_ULONGLONGINT=10_TYPE_DOUBLE=11_TYPE_LONGDOUBLE=12_TYPE_CHAR=13_TYPE_WIDE_CHAR=14_TYPE_STRING=15_TYPE_WIDE_STRING=16_TYPE_POINTER=17_TYPE_COUNT_SCHAR_POINTER=18_TYPE_COUNT_SHORT_POINTER=19_TYPE_COUNT_INT_POINTER=20_TYPE_COUNT_LONGINT_POINTER=21_TYPE_COUNT_LONGLONGINT_POINTER=22#{U32}_U32_'type'||U96'_pad0'||SYM#tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}_cS8_'a_string'||*{cS32}_cS32_'a_wide_string'||*{V}_V_'a_pointer'||*{S8}_S8_'a_count_schar_pointer'||*{S16}_S16_'a_count_short_pointer'||*{S32}_S32_'a_count_int_pointer'||*{S64}_S64_'a_count_longint_pointer'||*{S64}_S64_'a_count_longlongint_pointer'|]#'a'|]#_'direct_alloc_arg'|]
 // file printf-args.h line 141
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[r*{*{SYM#tag-detached_bitstream#}$SYM#tag-detached_bitstream#$}$*{SYM#tag-detached_bitstream#}$SYM#tag-detached_bitstream#$$'root'||U32'size'||U32'$pad0'|]
+// tag-#anon#ST[r*{*{SYM#tag-detached_bitstream#}_SYM#tag-detached_bitstream#_}_*{SYM#tag-detached_bitstream#}_SYM#tag-detached_bitstream#__'root'||U32'size'||U32'_pad0'|]
 // file expand.c line 161
-struct anonymous$33;
+struct anonymous_33;
 
-// tag-#anon#ST[r*{*{SYM#tag-emit_blk#}$SYM#tag-emit_blk#$}$*{SYM#tag-emit_blk#}$SYM#tag-emit_blk#$$'root'||U32'size'||U32'$pad0'|]
+// tag-#anon#ST[r*{*{SYM#tag-emit_blk#}_SYM#tag-emit_blk#_}_*{SYM#tag-emit_blk#}_SYM#tag-emit_blk#__'root'||U32'size'||U32'_pad0'|]
 // file expand.c line 155
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[r*{*{SYM#tag-in_blk#}$SYM#tag-in_blk#$}$*{SYM#tag-in_blk#}$SYM#tag-in_blk#$$'root'||U32'size'||U32'$pad0'|]
+// tag-#anon#ST[r*{*{SYM#tag-in_blk#}_SYM#tag-in_blk#_}_*{SYM#tag-in_blk#}_SYM#tag-in_blk#__'root'||U32'size'||U32'_pad0'|]
 // file compress.c line 56
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[r*{*{SYM#tag-in_blk#}$SYM#tag-in_blk#$}$*{SYM#tag-in_blk#}$SYM#tag-in_blk#$$'root'||U32'size'||U32'modulus'||U32'head'||U32'$pad0'|]$link1
+// tag-#anon#ST[r*{*{SYM#tag-in_blk#}_SYM#tag-in_blk#_}_*{SYM#tag-in_blk#}_SYM#tag-in_blk#__'root'||U32'size'||U32'modulus'||U32'head'||U32'_pad0'|]_link1
 // file expand.c line 150
-struct anonymous$27;
+struct anonymous_27;
 
-// tag-#anon#ST[r*{*{SYM#tag-out_blk#}$SYM#tag-out_blk#$}$*{SYM#tag-out_blk#}$SYM#tag-out_blk#$$'root'||U32'size'||U32'$pad0'|]
+// tag-#anon#ST[r*{*{SYM#tag-out_blk#}_SYM#tag-out_blk#_}_*{SYM#tag-out_blk#}_SYM#tag-out_blk#__'root'||U32'size'||U32'_pad0'|]
 // file expand.c line 156
-struct anonymous$30;
+struct anonymous_30;
 
-// tag-#anon#ST[r*{*{SYM#tag-retr_blk#}$SYM#tag-retr_blk#$}$*{SYM#tag-retr_blk#}$SYM#tag-retr_blk#$$'root'||U32'size'||U32'$pad0'|]
+// tag-#anon#ST[r*{*{SYM#tag-retr_blk#}_SYM#tag-retr_blk#_}_*{SYM#tag-retr_blk#}_SYM#tag-retr_blk#__'root'||U32'size'||U32'_pad0'|]
 // file expand.c line 154
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[r*{*{SYM#tag-unord_blk#}$SYM#tag-unord_blk#$}$*{SYM#tag-unord_blk#}$SYM#tag-unord_blk#$$'root'||U32'size'||U32'$pad0'|]
+// tag-#anon#ST[r*{*{SYM#tag-unord_blk#}_SYM#tag-unord_blk#_}_*{SYM#tag-unord_blk#}_SYM#tag-unord_blk#__'root'||U32'size'||U32'_pad0'|]
 // file expand.c line 158
-struct anonymous$32;
+struct anonymous_32;
 
-// tag-#anon#ST[r*{*{SYM#tag-work_blk#}$SYM#tag-work_blk#$}$*{SYM#tag-work_blk#}$SYM#tag-work_blk#$$'root'||U32'size'||U32'$pad0'|]
+// tag-#anon#ST[r*{*{SYM#tag-work_blk#}_SYM#tag-work_blk#_}_*{SYM#tag-work_blk#}_SYM#tag-work_blk#__'root'||U32'size'||U32'_pad0'|]
 // file compress.c line 57
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[r*{SYM#tag-block#}$SYM#tag-block#$'root'||U32'size'||U32'modulus'||U32'head'||U32'$pad0'|]
+// tag-#anon#ST[r*{SYM#tag-block#}_SYM#tag-block#_'root'||U32'size'||U32'modulus'||U32'head'||U32'_pad0'|]
 // file process.c line 236
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[r*{SYM#tag-head_blk#}$SYM#tag-head_blk#$'root'||U32'size'||U32'modulus'||U32'head'||U32'$pad0'|]
+// tag-#anon#ST[r*{SYM#tag-head_blk#}_SYM#tag-head_blk#_'root'||U32'size'||U32'modulus'||U32'head'||U32'_pad0'|]
 // file expand.c line 157
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$22;
+union anonymous_22;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$20;
+union anonymous_20;
 
-// tag-#anon#UN[F128'value'||ARR4{U32}$U32$'word'|]
+// tag-#anon#UN[F128'value'||ARR4{U32}_U32_'word'|]
 // file isnan.c line 80
-union anonymous$25;
+union anonymous_25;
 
-// tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}$cS8$'a_string'||*{cS32}$cS32$'a_wide_string'||*{V}$V$'a_pointer'||*{S8}$S8$'a_count_schar_pointer'||*{S16}$S16$'a_count_short_pointer'||*{S32}$S32$'a_count_int_pointer'||*{S64}$S64$'a_count_longint_pointer'||*{S64}$S64$'a_count_longlongint_pointer'|]
+// tag-#anon#UN[S8'a_schar'||U8'a_uchar'||S16'a_short'||U16'a_ushort'||S32'a_int'||U32'a_uint'||S64'a_longint'||U64'a_ulongint'||S64'a_longlongint'||U64'a_ulonglongint'||F32'a_float'||F64'a_double'||F128'a_longdouble'||S32'a_char'||U32'a_wide_char'||*{cS8}_cS8_'a_string'||*{cS32}_cS32_'a_wide_string'||*{V}_V_'a_pointer'||*{S8}_S8_'a_count_schar_pointer'||*{S16}_S16_'a_count_short_pointer'||*{S32}_S32_'a_count_int_pointer'||*{S64}_S64_'a_count_longint_pointer'||*{S64}_S64_'a_count_longlongint_pointer'|]
 // file printf-args.h line 94
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$6;
+union anonymous_6;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -148,9 +148,9 @@ struct arg;
 
 // tag-bitstream
 // file decode.h line 38
-struct bitstream$0;
+struct bitstream_0;
 
-// tag-bitstream$link1
+// tag-bitstream_link1
 // file decode.h line 38
 struct bitstream;
 
@@ -190,9 +190,9 @@ struct header;
 // file compress.c line 33
 struct in_blk;
 
-// tag-in_blk$link1
+// tag-in_blk_link1
 // file decode.h line 36
-struct in_blk$0;
+struct in_blk_0;
 
 // tag-out_blk
 // file expand.c line 138
@@ -342,9 +342,9 @@ static _Bool can_parse(void);
 // can_reorder
 // file compress.c line 225
 static _Bool can_reorder(void);
-// can_reorder$link1
+// can_reorder_link1
 // file expand.c line 695
-static _Bool can_reorder$link1(void);
+static _Bool can_reorder_link1(void);
 // can_retrieve
 // file expand.c line 547
 static _Bool can_retrieve(void);
@@ -354,9 +354,9 @@ static _Bool can_scan(void);
 // can_terminate
 // file compress.c line 247
 static _Bool can_terminate(void);
-// can_terminate$link1
+// can_terminate_link1
 // file expand.c line 818
-static _Bool can_terminate$link1(void);
+static _Bool can_terminate_link1(void);
 // can_transmit
 // file compress.c line 197
 static _Bool can_transmit(void);
@@ -432,9 +432,9 @@ static void do_parse(void);
 // do_reorder
 // file compress.c line 232
 static void do_reorder(void);
-// do_reorder$link1
+// do_reorder_link1
 // file expand.c line 704
-static void do_reorder$link1(void);
+static void do_reorder_link1(void);
 // do_retrieve
 // file expand.c line 553
 static void do_retrieve(void);
@@ -588,9 +588,9 @@ void infox(signed int x, const char *fmt, ...);
 // init
 // file compress.c line 318
 static void init(void);
-// init$link1
+// init_link1
 // file expand.c line 880
-static void init$link1(void);
+static void init_link1(void);
 // init_io
 // file process.c line 473
 static void init_io(void);
@@ -657,15 +657,15 @@ extern unsigned int ntohl(unsigned int);
 // on_input_avail
 // file compress.c line 255
 static void on_input_avail(void *buffer, unsigned long int size);
-// on_input_avail$link1
+// on_input_avail_link1
 // file expand.c line 827
-static void on_input_avail$link1(void *buffer$link1, unsigned long int size$link1);
+static void on_input_avail_link1(void *buffer_link1, unsigned long int size_link1);
 // on_write_complete
 // file compress.c line 273
 static void on_write_complete(void *buffer);
-// on_write_complete$link1
+// on_write_complete_link1
 // file expand.c line 866
-static void on_write_complete$link1(void *buffer$link1);
+static void on_write_complete_link1(void *buffer_link1);
 // open
 // file /usr/include/fcntl.h line 146
 extern signed int open(const char *, signed int, ...);
@@ -689,7 +689,7 @@ static void output_regf_uninit(signed int outfd, struct stat *sbuf);
 static void package_merge(unsigned short int (*tree)[21l], unsigned int * restrict count, const unsigned long int * restrict leaf_weight, unsigned long int as);
 // parse
 // file parse.c line 147
-signed int parse(struct parser_state * restrict ps, struct header * restrict hd, struct bitstream$0 *bs, unsigned int *garbage);
+signed int parse(struct parser_state * restrict ps, struct header * restrict hd, struct bitstream_0 *bs, unsigned int *garbage);
 // parser_init
 // file decode.h line 71
 void parser_init(struct parser_state *ps, signed int my_bs100k);
@@ -701,7 +701,7 @@ static void primary_thread(void);
 extern signed int printf(const char *, ...);
 // printf_fetchargs
 // file printf-args.c line 36
-extern signed int printf_fetchargs(__builtin_va_list args, struct anonymous$1 *a);
+extern signed int printf_fetchargs(__builtin_va_list args, struct anonymous_1 *a);
 // printf_frexp
 // file printf-frexp.c line 67
 extern double printf_frexp(double x, signed int *expptr);
@@ -710,19 +710,19 @@ extern double printf_frexp(double x, signed int *expptr);
 extern long double printf_frexpl(long double x, signed int *expptr);
 // printf_parse
 // file printf-parse.c line 83
-extern signed int printf_parse(const char *format, struct anonymous$10 *d, struct anonymous$1 *a);
+extern signed int printf_parse(const char *format, struct anonymous_10 *d, struct anonymous_1 *a);
 // promote
 // file signals.c line 264
 static void promote(void);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$8 *);
+extern signed int pthread_cond_broadcast(union anonymous_8 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$8 *);
+extern signed int pthread_cond_signal(union anonymous_8 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$8 *, union anonymous$6 *);
+extern signed int pthread_cond_wait(union anonymous_8 *, union anonymous_6 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -737,16 +737,16 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$6 *);
+extern signed int pthread_mutex_lock(union anonymous_6 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$6 *);
+extern signed int pthread_mutex_unlock(union anonymous_6 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$11 *, struct anonymous$11 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_11 *, struct anonymous_11 *);
 // read
 // file /usr/include/unistd.h line 360
 extern signed long int read(signed int, void *, unsigned long int);
@@ -755,7 +755,7 @@ extern signed long int read(signed int, void *, unsigned long int);
 extern void * realloc(void *, unsigned long int);
 // retrieve
 // file decode.c line 519
-signed int retrieve(struct decoder_state * restrict ds, struct bitstream$0 *bs);
+signed int retrieve(struct decoder_state * restrict ds, struct bitstream_0 *bs);
 // rpl_fprintf
 // file ../lib/stdio.h line 595
 extern signed int rpl_fprintf(struct _IO_FILE *fp, const char *format, ...);
@@ -764,7 +764,7 @@ extern signed int rpl_fprintf(struct _IO_FILE *fp, const char *format, ...);
 extern signed int rpl_isnanl(long double x);
 // scan
 // file parse.c line 275
-signed int scan(struct bitstream$0 *bs, unsigned int skip);
+signed int scan(struct bitstream_0 *bs, unsigned int skip);
 // sched_lock
 // file process.h line 173
 void sched_lock(void);
@@ -791,22 +791,22 @@ void setup_signals(void);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$11 *, signed int);
+extern signed int sigaddset(struct anonymous_11 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$11 *);
+extern signed int sigemptyset(struct anonymous_11 *);
 // sigismember
 // file /usr/include/signal.h line 227
-extern signed int sigismember(const struct anonymous$11 *, signed int);
+extern signed int sigismember(const struct anonymous_11 *, signed int);
 // signal_handler
 // file signals.c line 122
 static void signal_handler(signed int caught);
 // sigpending
 // file /usr/include/signal.h line 263
-extern signed int sigpending(struct anonymous$11 *);
+extern signed int sigpending(struct anonymous_11 *);
 // sigsuspend
 // file /usr/include/signal.h line 256
-extern signed int sigsuspend(const struct anonymous$11 *);
+extern signed int sigsuspend(const struct anonymous_11 *);
 // sink_thread_proc
 // file process.c line 334
 static void sink_thread_proc(void);
@@ -993,9 +993,9 @@ static void trsort(signed int *ISA, signed int *SA, signed int n, signed int dep
 // uninit
 // file compress.c line 336
 static void uninit(void);
-// uninit$link1
+// uninit_link1
 // file expand.c line 904
-static void uninit$link1(void);
+static void uninit_link1(void);
 // uninit_io
 // file process.c line 485
 static void uninit_io(void);
@@ -1062,21 +1062,21 @@ static void write_trailer(void);
 // x2nrealloc
 // file ../lib/xalloc.h line 179
 inline void * x2nrealloc(void *p, unsigned long int *pn, unsigned long int s);
-// x2nrealloc$link1
+// x2nrealloc_link1
 // file xalloc.h line 179
-static inline void * x2nrealloc$link1(void *p$link10, unsigned long int *pn$link10, unsigned long int s$link10);
+static inline void * x2nrealloc_link1(void *p_link10, unsigned long int *pn_link10, unsigned long int s_link10);
 // x2realloc
 // file xmalloc.c line 74
 void * x2realloc(void *p, unsigned long int *pn);
 // xaction
 // file signals.c line 76
 static void xaction(signed int sig, void (*handler)(signed int));
-// xaction::handler$object
+// xaction::handler_object
 //
-void handler$object(signed int);
+void handler_object(signed int);
 // xadd
 // file signals.c line 42
-static void xadd(struct anonymous$11 *set, signed int sig);
+static void xadd(struct anonymous_11 *set, signed int sig);
 // xalloc_die
 // file ../lib/xalloc.h line 55
 extern void xalloc_die(void);
@@ -1089,24 +1089,24 @@ inline char * xcharalloc(unsigned long int n);
 // xcreate
 // file process.c line 88
 static unsigned long int xcreate(void (*entry)(void));
-// xcreate::entry$object
+// xcreate::entry_object
 //
-void entry$object(void);
+void entry_object(void);
 // xempty
 // file signals.c line 35
-static void xempty(struct anonymous$11 *set);
+static void xempty(struct anonymous_11 *set);
 // xmalloc
 // file ../lib/xalloc.h line 57
 void * xmalloc(unsigned long int n);
 // xmask
 // file signals.c line 49
-static void xmask(signed int how, const struct anonymous$11 *set, struct anonymous$11 *oset);
+static void xmask(signed int how, const struct anonymous_11 *set, struct anonymous_11 *oset);
 // xmax
 // file xsize.h line 94
 inline unsigned long int xmax(unsigned long int size1, unsigned long int size2);
 // xmember
 // file signals.c line 63
-static _Bool xmember(const struct anonymous$11 *set, signed int sig);
+static _Bool xmember(const struct anonymous_11 *set, signed int sig);
 // xmemdup
 // file xmalloc.c line 111
 void * xmemdup(const void *p, unsigned long int s);
@@ -1118,7 +1118,7 @@ inline void * xnmalloc(unsigned long int n, unsigned long int s);
 inline void * xnrealloc(void *p, unsigned long int n, unsigned long int s);
 // xpending
 // file signals.c line 56
-static void xpending(struct anonymous$11 *set);
+static void xpending(struct anonymous_11 *set);
 // xraise
 // file signals.h line 26
 void xraise(signed int sig);
@@ -1150,7 +1150,7 @@ void xwrite(const void *vbuf, unsigned long int size);
 // file ../lib/xalloc.h line 59
 void * xzalloc(unsigned long int s);
 
-struct anonymous$19
+struct anonymous_19
 {
   // _call_addr
   void *_call_addr;
@@ -1160,7 +1160,7 @@ struct anonymous$19
   unsigned int _arch;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // si_addr
   void *si_addr;
@@ -1168,7 +1168,7 @@ struct anonymous$17
   signed short int si_addr_lsb;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // dir_start
   const char *dir_start;
@@ -1194,13 +1194,13 @@ struct anonymous$3
   unsigned long int arg_index;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // __val
   unsigned long int __val[16l];
 };
 
-union anonymous$4
+union anonymous_4
 {
   // a_schar
   signed char a_schar;
@@ -1250,15 +1250,15 @@ union anonymous$4
   signed long long int *a_count_longlongint_pointer;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // type
-  enum anonymous$12 type;
+  enum anonymous_12 type;
   // a
-  union anonymous$4 a;
+  union anonymous_4 a;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // __lock
   signed int __lock;
@@ -1278,7 +1278,7 @@ struct anonymous$7
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // si_pid
   signed int si_pid;
@@ -1286,7 +1286,7 @@ struct anonymous$13
   unsigned int si_uid;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // si_pid
   signed int si_pid;
@@ -1308,7 +1308,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // si_pid
   signed int si_pid;
@@ -1318,7 +1318,7 @@ struct anonymous$15
   union sigval si_sigval;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // si_tid
   signed int si_tid;
@@ -1328,7 +1328,7 @@ struct anonymous$14
   union sigval si_sigval;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // si_band
   signed long int si_band;
@@ -1336,27 +1336,27 @@ struct anonymous$18
   signed int si_fd;
 };
 
-union anonymous$20
+union anonymous_20
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$13 _kill;
+  struct anonymous_13 _kill;
   // _timer
-  struct anonymous$14 _timer;
+  struct anonymous_14 _timer;
   // _rt
-  struct anonymous$15 _rt;
+  struct anonymous_15 _rt;
   // _sigchld
-  struct anonymous$16 _sigchld;
+  struct anonymous_16 _sigchld;
   // _sigfault
-  struct anonymous$17 _sigfault;
+  struct anonymous_17 _sigfault;
   // _sigpoll
-  struct anonymous$18 _sigpoll;
+  struct anonymous_18 _sigpoll;
   // _sigsys
-  struct anonymous$19 _sigsys;
+  struct anonymous_19 _sigsys;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // si_signo
   signed int si_signo;
@@ -1365,34 +1365,34 @@ struct anonymous$21
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$20 _sifields;
+  union anonymous_20 _sifields;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // count
   unsigned long int count;
   // dir
-  struct anonymous$3 *dir;
+  struct anonymous_3 *dir;
   // max_width_length
   unsigned long int max_width_length;
   // max_precision_length
   unsigned long int max_precision_length;
   // direct_alloc_dir
-  struct anonymous$3 direct_alloc_dir[7l];
+  struct anonymous_3 direct_alloc_dir[7l];
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // count
   unsigned long int count;
   // arg
-  struct anonymous$2 *arg;
+  struct anonymous_2 *arg;
   // direct_alloc_arg
-  struct anonymous$2 direct_alloc_arg[7l];
+  struct anonymous_2 direct_alloc_arg[7l];
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // root
   struct detached_bitstream ** restrict root;
@@ -1400,7 +1400,7 @@ struct anonymous$33
   unsigned int size;
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // root
   struct emit_blk ** restrict root;
@@ -1408,7 +1408,7 @@ struct anonymous$29
   unsigned int size;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // root
   struct in_blk ** restrict root;
@@ -1416,10 +1416,10 @@ struct anonymous$23
   unsigned int size;
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // root
-  struct in_blk$0 ** restrict root;
+  struct in_blk_0 ** restrict root;
   // size
   unsigned int size;
   // modulus
@@ -1428,7 +1428,7 @@ struct anonymous$27
   unsigned int head;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // root
   struct out_blk ** restrict root;
@@ -1436,7 +1436,7 @@ struct anonymous$30
   unsigned int size;
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // root
   struct retr_blk ** restrict root;
@@ -1444,7 +1444,7 @@ struct anonymous$28
   unsigned int size;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // root
   struct unord_blk ** restrict root;
@@ -1452,7 +1452,7 @@ struct anonymous$32
   unsigned int size;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // root
   struct work_blk ** restrict root;
@@ -1460,7 +1460,7 @@ struct anonymous$24
   unsigned int size;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // root
   struct block * restrict root;
@@ -1472,7 +1472,7 @@ struct anonymous$9
   unsigned int head;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // root
   struct head_blk * restrict root;
@@ -1484,15 +1484,15 @@ struct anonymous$31
   unsigned int head;
 };
 
-union anonymous$22
+union anonymous_22
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$21 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_21 *, void *);
 };
 
-union anonymous$25
+union anonymous_25
 {
   // value
   long double value;
@@ -1500,10 +1500,10 @@ union anonymous$25
   unsigned int word[4l];
 };
 
-union anonymous$8
+union anonymous_8
 {
   // __data
-  struct anonymous$7 __data;
+  struct anonymous_7 __data;
   // __size
   char __size[48l];
   // __align
@@ -1538,7 +1538,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1640,7 +1640,7 @@ struct arg
   const char *val;
 };
 
-struct bitstream$0
+struct bitstream_0
 {
   // live
   unsigned int live;
@@ -1663,7 +1663,7 @@ struct bitstream
   // buff
   unsigned long int buff;
   // block
-  struct in_blk$0 *block;
+  struct in_blk_0 *block;
   // data
   const unsigned int *data;
   // limit
@@ -1838,7 +1838,7 @@ struct in_blk
   unsigned long int left;
 };
 
-struct in_blk$0
+struct in_blk_0
 {
   // buffer
   void *buffer;
@@ -1969,9 +1969,9 @@ struct retriever_internal_state
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$22 __sigaction_handler;
+  union anonymous_22 __sigaction_handler;
   // sa_mask
-  struct anonymous$11 sa_mask;
+  struct anonymous_11 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -2153,7 +2153,7 @@ static const unsigned char big_dfa[49l][256l] = { { (const unsigned char)2, (con
     { (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48, (const unsigned char)48 } };
 // blocked
 // file signals.c line 139
-static struct anonymous$11 blocked;
+static struct anonymous_11 blocked;
 // blocked_signals
 // file signals.c line 101
 static const signed int blocked_signals[2l] = { 13, 25 };
@@ -2165,7 +2165,7 @@ unsigned int bs100k = (unsigned int)9;
 static volatile signed int caught_index;
 // coll_q
 // file compress.c line 56
-static struct anonymous$23 coll_q;
+static struct anonymous_23 coll_q;
 // collect_token
 // file compress.c line 62
 static _Bool collect_token = (_Bool)1;
@@ -2197,7 +2197,7 @@ unsigned int crc_table[256l] = { (unsigned int)0x00000000, (unsigned int)0x04C11
 _Bool decompress;
 // emit_q
 // file expand.c line 155
-static struct anonymous$29 emit_q;
+static struct anonymous_29 emit_q;
 // envsep
 // file main.c line 152
 static const char envsep[3l] = { ' ', '\t', 0 };
@@ -2213,12 +2213,12 @@ static const char * const ev_name[3l] = { "LBZIP2", "BZIP2", "BZIP" };
 // expansion
 // file expand.c line 929
 struct process expansion;
-// task_list$link1
+// task_list_link1
 // file expand.c line 920
-static struct task task_list$link1[6l];
-// task_list$link1
+static struct task task_list_link1[6l];
+// task_list_link1
 // file expand.c line 920
-static struct task task_list$link1[6l] = { { .name="reorder", .ready=can_reorder$link1, .run=do_reorder$link1 },
+static struct task task_list_link1[6l] = { { .name="reorder", .ready=can_reorder_link1, .run=do_reorder_link1 },
     { .name="parse", .ready=can_parse, .run=do_parse },
     { .name="emit", .ready=can_emit, .run=do_emit },
     { .name="retrieve", .ready=can_retrieve, .run=do_retrieve },
@@ -2226,9 +2226,9 @@ static struct task task_list$link1[6l] = { { .name="reorder", .ready=can_reorder
     { .name=(const char *)(void *)0, .ready=(_Bool (*)(void))(void *)0, .run=(void (*)(void))(void *)0 } };
 // expansion
 // file expand.c line 929
-struct process expansion = { .tasks=task_list$link1, .init=init$link1, .uninit=uninit$link1,
-    .finished=can_terminate$link1, .on_block=on_input_avail$link1,
-    .on_written=on_write_complete$link1 };
+struct process expansion = { .tasks=task_list_link1, .init=init_link1, .uninit=uninit_link1,
+    .finished=can_terminate_link1, .on_block=on_input_avail_link1,
+    .on_written=on_write_complete_link1 };
 // finish
 // file process.c line 237
 static _Bool finish;
@@ -2237,7 +2237,7 @@ static _Bool finish;
 _Bool force;
 // handled
 // file signals.c line 140
-static struct anonymous$11 handled;
+static struct anonymous_11 handled;
 // handled_signals
 // file signals.c line 106
 static const signed int handled_signals[4l] = { 10, 12, 2, 15 };
@@ -2252,7 +2252,7 @@ unsigned long int in_granul;
 unsigned int in_slots;
 // input_q
 // file expand.c line 150
-static struct anonymous$27 input_q;
+static struct anonymous_27 input_q;
 // ispec
 // file main.c line 50
 struct filespec ispec;
@@ -2338,7 +2338,7 @@ static char *opathn;
 static struct position order;
 // order_q
 // file expand.c line 157
-static struct anonymous$31 order_q;
+static struct anonymous_31 order_q;
 // ospec
 // file main.c line 51
 struct filespec ospec;
@@ -2353,7 +2353,7 @@ unsigned int out_slots;
 static enum outmode outmode = (enum outmode)2;
 // output_q
 // file process.c line 236
-static struct anonymous$9 output_q;
+static struct anonymous_9 output_q;
 // par
 // file expand.c line 165
 static struct parser_state par;
@@ -2386,42 +2386,42 @@ static const unsigned short int rand_table[512l] = { (const unsigned short int)6
 static unsigned long int reord_offs;
 // reord_q
 // file compress.c line 58
-static struct anonymous$24 reord_q;
-// reord_q$link1
+static struct anonymous_24 reord_q;
+// reord_q_link1
 // file expand.c line 156
-static struct anonymous$30 reord_q$link1;
+static struct anonymous_30 reord_q_link1;
 // request_close
 // file process.c line 223
 static _Bool request_close;
 // retr_q
 // file expand.c line 154
-static struct anonymous$28 retr_q;
+static struct anonymous_28 retr_q;
 // saved
 // file signals.c line 141
-static struct anonymous$11 saved;
+static struct anonymous_11 saved;
 // scan_q
 // file expand.c line 161
-static struct anonymous$33 scan_q;
+static struct anonymous_33 scan_q;
 // sched_cond
 // file process.c line 210
-static union anonymous$8 sched_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_8 sched_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // sched_mutex
 // file process.c line 209
-static union anonymous$6 sched_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_6 sched_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // sink_cond
 // file process.c line 208
-static union anonymous$8 sink_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_8 sink_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // sink_mutex
 // file process.c line 207
-static union anonymous$6 sink_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_6 sink_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // sink_thread
@@ -2432,13 +2432,13 @@ static unsigned long int sink_thread;
 _Bool small;
 // source_cond
 // file process.c line 206
-static union anonymous$8 source_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_8 source_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // source_mutex
 // file process.c line 205
-static union anonymous$6 source_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_6 source_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // source_thread
@@ -2482,7 +2482,7 @@ unsigned int total_in_slots;
 unsigned int total_out_slots;
 // trans_q
 // file compress.c line 57
-static struct anonymous$24 trans_q;
+static struct anonymous_24 trans_q;
 // ultra
 // file main.c line 49
 _Bool ultra;
@@ -2491,7 +2491,7 @@ _Bool ultra;
 static struct work_blk *unfinished_work;
 // unord_q
 // file expand.c line 158
-static struct anonymous$32 unord_q;
+static struct anonymous_32 unord_q;
 // utimensat_works_really
 // file utimens.c line 74
 static signed int utimensat_works_really;
@@ -2515,7 +2515,7 @@ static void advance(struct detached_bitstream bs)
   parser_bs = bs;
   while(!(input_q.size == 0u))
   {
-    struct in_blk$0 *blk;
+    struct in_blk_0 *blk;
     /* assertion (0u) < (input_q).size */
     assert(0u < input_q.size);
     blk = input_q.root[(signed long int)(input_q.head + 0u + (unsigned int)1 < (input_q.head + 0u + (unsigned int)1) - input_q.modulus ? input_q.head + 0u + (unsigned int)1 : (input_q.head + 0u + (unsigned int)1) - input_q.modulus)];
@@ -2599,7 +2599,7 @@ static unsigned int assign_codes(unsigned int *code, unsigned char *length, cons
   best_cost = (unsigned int)-1;
   best_height = (unsigned int)20;
   height = (unsigned int)2;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   for( ; !(height >= 21u); height = height + 1u)
     if(1UL << height >= (unsigned long int)as)
     {
@@ -2626,11 +2626,11 @@ static unsigned int assign_codes(unsigned int *code, unsigned char *length, cons
       for( ; !(symbol >= as); symbol = symbol + 1u)
       {
         if(!((signed int)length[(signed long int)(symbol + 4294967295u)] + -((signed int)length[(signed long int)symbol]) >= (signed int)length[(signed long int)symbol] + -((signed int)length[(signed long int)(symbol + 4294967295u)])))
-          tmp_if_expr$1 = (signed int)length[(signed long int)symbol] - (signed int)length[(signed long int)(symbol - (unsigned int)1)];
+          tmp_if_expr_1 = (signed int)length[(signed long int)symbol] - (signed int)length[(signed long int)(symbol - (unsigned int)1)];
 
         else
-          tmp_if_expr$1 = (signed int)length[(signed long int)(symbol - (unsigned int)1)] - (signed int)length[(signed long int)symbol];
-        cost = cost + (unsigned int)(2 * tmp_if_expr$1);
+          tmp_if_expr_1 = (signed int)length[(signed long int)(symbol - (unsigned int)1)] - (signed int)length[(signed long int)symbol];
+        cost = cost + (unsigned int)(2 * tmp_if_expr_1);
       }
       cost = cost + (unsigned int)5 + as;
       if(!(cost >= best_cost))
@@ -2663,12 +2663,12 @@ static unsigned int assign_codes(unsigned int *code, unsigned char *length, cons
   /* assertion leaf == as */
   assert(leaf == as);
   symbol = (unsigned int)0;
-  unsigned int tmp_post$2;
+  unsigned int tmp_post_2;
   for( ; !(symbol >= as); symbol = symbol + 1u)
   {
-    tmp_post$2 = base_code[(signed long int)length[(signed long int)symbol]];
+    tmp_post_2 = base_code[(signed long int)length[(signed long int)symbol]];
     base_code[(signed long int)length[(signed long int)symbol]] = base_code[(signed long int)length[(signed long int)symbol]] + 1u;
-    code[(signed long int)symbol] = tmp_post$2;
+    code[(signed long int)symbol] = tmp_post_2;
   }
   return best_cost;
 }
@@ -2677,7 +2677,7 @@ static unsigned int assign_codes(unsigned int *code, unsigned char *length, cons
 // file expand.c line 255
 static struct bitstream attach(struct detached_bitstream dbs)
 {
-  struct in_blk$0 *blk;
+  struct in_blk_0 *blk;
   unsigned long int id;
   unsigned long int limit;
   const unsigned int *base;
@@ -2693,7 +2693,7 @@ static struct bitstream attach(struct detached_bitstream dbs)
   {
     /* assertion eof */
     assert(eof != (_Bool)0);
-    bs.block = (struct in_blk$0 *)(void *)0;
+    bs.block = (struct in_blk_0 *)(void *)0;
     bs.data = (const unsigned int *)(void *)0;
     bs.limit = (const unsigned int *)(void *)0;
     /* assertion !bs.eof || bs.live < 32 */
@@ -2732,14 +2732,14 @@ static struct bitstream attach(struct detached_bitstream dbs)
 // file signals.h line 27
 void bailout(void)
 {
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  signed int return_value_pthread_equal$2;
-  return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, main_thread);
-  if(!(return_value_pthread_equal$2 == 0))
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  signed int return_value_pthread_equal_2;
+  return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, main_thread);
+  if(!(return_value_pthread_equal_2 == 0))
   {
     cleanup();
-    xmask(1, &blocked, (struct anonymous$11 *)(void *)0);
+    xmask(1, &blocked, (struct anonymous_11 *)(void *)0);
     _exit(1);
   }
 
@@ -2774,25 +2774,25 @@ static void build_tree(unsigned int * restrict tree, unsigned long int * restric
   r = (unsigned int)as;
   s = (unsigned int)as;
   t = (unsigned int)(as - 1);
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   for( ; t >= 1u; t = t - 1u)
   {
     if(!(s >= 1u))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
       if(!(2u + t >= r))
-        tmp_if_expr$3 = weight[(signed long int)(r - (unsigned int)2)] < weight[(signed long int)(s - (unsigned int)1)] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = weight[(signed long int)(r - (unsigned int)2)] < weight[(signed long int)(s - (unsigned int)1)] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
     {
       tree[(signed long int)(r - (unsigned int)1)] = t;
       tree[(signed long int)(r - (unsigned int)2)] = t;
@@ -2804,18 +2804,18 @@ static void build_tree(unsigned int * restrict tree, unsigned long int * restric
     else
     {
       if(!(r >= 2u + t))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
       {
         if(s >= 2u)
-          tmp_if_expr$1 = weight[(signed long int)(s - (unsigned int)2)] <= weight[(signed long int)(r - (unsigned int)1)] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = weight[(signed long int)(s - (unsigned int)2)] <= weight[(signed long int)(r - (unsigned int)1)] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$2)
+      if(tmp_if_expr_2)
       {
         w1 = weight[(signed long int)(s - (unsigned int)1)];
         w2 = weight[(signed long int)(s - (unsigned int)2)];
@@ -2868,14 +2868,14 @@ static _Bool can_collect_seq(void)
 // file expand.c line 644
 static _Bool can_emit(void)
 {
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(!(emit_q.size == 0u))
   {
     if(out_slots >= 3u)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
@@ -2887,141 +2887,141 @@ static _Bool can_emit(void)
         {
           /* assertion (0) < (order_q).size */
           assert((unsigned int)0 < order_q.size);
-          tmp_if_expr$1 = (*emit_q.root)->base.minor == (order_q.root + (signed long int)(order_q.head + (unsigned int)0 + (unsigned int)1 < (order_q.head + (unsigned int)0 + (unsigned int)1) - order_q.modulus ? order_q.head + (unsigned int)0 + (unsigned int)1 : (order_q.head + (unsigned int)0 + (unsigned int)1) - order_q.modulus))->base.minor ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (*emit_q.root)->base.minor == (order_q.root + (signed long int)(order_q.head + (unsigned int)0 + (unsigned int)1 < (order_q.head + (unsigned int)0 + (unsigned int)1) - order_q.modulus ? order_q.head + (unsigned int)0 + (unsigned int)1 : (order_q.head + (unsigned int)0 + (unsigned int)1) - order_q.modulus))->base.minor ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  return tmp_if_expr$4;
+    tmp_if_expr_4 = (_Bool)0;
+  return tmp_if_expr_4;
 }
 
 // can_parse
 // file expand.c line 387
 static _Bool can_parse(void)
 {
-  _Bool tmp_if_expr$2;
-  _Bool return_value_can_attach$1;
+  _Bool tmp_if_expr_2;
+  _Bool return_value_can_attach_1;
   if(parsing_done == (_Bool)0 && work_units >= 1u && !(parse_token == (_Bool)0))
   {
-    return_value_can_attach$1=can_attach(parser_bs);
-    tmp_if_expr$2 = return_value_can_attach$1 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+    return_value_can_attach_1=can_attach(parser_bs);
+    tmp_if_expr_2 = return_value_can_attach_1 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = (_Bool)0;
+  return tmp_if_expr_2;
 }
 
 // can_reorder
 // file compress.c line 225
 static _Bool can_reorder(void)
 {
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(!(reord_q.size == 0u))
   {
     if((*reord_q.root)->pos.major == order.major)
-      tmp_if_expr$1 = (*reord_q.root)->pos.minor == order.minor ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (*reord_q.root)->pos.minor == order.minor ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = (_Bool)0;
+  return tmp_if_expr_2;
 }
 
-// can_reorder$link1
+// can_reorder_link1
 // file expand.c line 695
-static _Bool can_reorder$link1(void)
+static _Bool can_reorder_link1(void)
 {
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2$link1;
-  _Bool tmp_if_expr$1$link1;
-  if(!(reord_q$link1.size == 0u))
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2_link1;
+  _Bool tmp_if_expr_1_link1;
+  if(!(reord_q_link1.size == 0u))
   {
     if(!(order_q.size == 0u))
     {
       /* assertion (0) < (order_q).size */
       assert((unsigned int)0 < order_q.size);
-      if(!((order_q.root + (signed long int)(1u + order_q.head >= 1u + order_q.head + -order_q.modulus ? 1u + order_q.head + -order_q.modulus : 1u + order_q.head))->base.major >= (*reord_q$link1.root)->base.major))
-        tmp_if_expr$2$link1 = (_Bool)1;
+      if(!((order_q.root + (signed long int)(1u + order_q.head >= 1u + order_q.head + -order_q.modulus ? 1u + order_q.head + -order_q.modulus : 1u + order_q.head))->base.major >= (*reord_q_link1.root)->base.major))
+        tmp_if_expr_2_link1 = (_Bool)1;
 
       else
       {
         /* assertion (0) < (order_q).size */
         assert((unsigned int)0 < order_q.size);
-        if((order_q.root + (signed long int)(1u + order_q.head >= 1u + order_q.head + -order_q.modulus ? 1u + order_q.head + -order_q.modulus : 1u + order_q.head))->base.major == (*reord_q$link1.root)->base.major)
+        if((order_q.root + (signed long int)(1u + order_q.head >= 1u + order_q.head + -order_q.modulus ? 1u + order_q.head + -order_q.modulus : 1u + order_q.head))->base.major == (*reord_q_link1.root)->base.major)
         {
           /* assertion (0) < (order_q).size */
           assert((unsigned int)0 < order_q.size);
-          tmp_if_expr$1$link1 = (order_q.root + (signed long int)(order_q.head + (unsigned int)0 + (unsigned int)1 < (order_q.head + (unsigned int)0 + (unsigned int)1) - order_q.modulus ? order_q.head + (unsigned int)0 + (unsigned int)1 : (order_q.head + (unsigned int)0 + (unsigned int)1) - order_q.modulus))->base.minor < (*reord_q$link1.root)->base.minor ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1_link1 = (order_q.root + (signed long int)(order_q.head + (unsigned int)0 + (unsigned int)1 < (order_q.head + (unsigned int)0 + (unsigned int)1) - order_q.modulus ? order_q.head + (unsigned int)0 + (unsigned int)1 : (order_q.head + (unsigned int)0 + (unsigned int)1) - order_q.modulus))->base.minor < (*reord_q_link1.root)->base.minor ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$1$link1 = (_Bool)0;
-        tmp_if_expr$2$link1 = tmp_if_expr$1$link1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1_link1 = (_Bool)0;
+        tmp_if_expr_2_link1 = tmp_if_expr_1_link1 ? (_Bool)1 : (_Bool)0;
       }
-      tmp_if_expr$3 = !tmp_if_expr$2$link1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = !tmp_if_expr_2_link1 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    tmp_if_expr$4 = (tmp_if_expr$3 ? (_Bool)1 : (!(order_q.size != 0u) && parsing_done != (_Bool)0 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    tmp_if_expr_4 = (tmp_if_expr_3 ? (_Bool)1 : (!(order_q.size != 0u) && parsing_done != (_Bool)0 ? (_Bool)1 : (_Bool)0)) ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  return tmp_if_expr$4;
+    tmp_if_expr_4 = (_Bool)0;
+  return tmp_if_expr_4;
 }
 
 // can_retrieve
 // file expand.c line 547
 static _Bool can_retrieve(void)
 {
-  _Bool tmp_if_expr$2;
-  _Bool return_value_can_attach$1;
+  _Bool tmp_if_expr_2;
+  _Bool return_value_can_attach_1;
   if(!(retr_q.size == 0u))
   {
-    return_value_can_attach$1=can_attach((*retr_q.root)->curr_pos);
-    tmp_if_expr$2 = return_value_can_attach$1 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+    return_value_can_attach_1=can_attach((*retr_q.root)->curr_pos);
+    tmp_if_expr_2 = return_value_can_attach_1 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = (_Bool)0;
+  return tmp_if_expr_2;
 }
 
 // can_scan
 // file expand.c line 744
 static _Bool can_scan(void)
 {
-  _Bool tmp_if_expr$2;
-  _Bool return_value_can_attach$1;
+  _Bool tmp_if_expr_2;
+  _Bool return_value_can_attach_1;
   if(ultra == (_Bool)0 && !(scan_q.size == 0u) && (work_units >= 2u || parse_token == (_Bool)0 && work_units >= 1u))
   {
-    return_value_can_attach$1=can_attach(*(*scan_q.root));
-    tmp_if_expr$2 = return_value_can_attach$1 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+    return_value_can_attach_1=can_attach(*(*scan_q.root));
+    tmp_if_expr_2 = return_value_can_attach_1 != (_Bool)0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = (_Bool)0;
+  return tmp_if_expr_2;
 }
 
 // can_terminate
@@ -3031,9 +3031,9 @@ static _Bool can_terminate(void)
   return eof != (_Bool)0 && !(coll_q.size != 0u) && work_units == num_worker && out_slots == total_out_slots;
 }
 
-// can_terminate$link1
+// can_terminate_link1
 // file expand.c line 818
-static _Bool can_terminate$link1(void)
+static _Bool can_terminate_link1(void)
 {
   return eof != (_Bool)0 && parsing_done != (_Bool)0 && parse_token != (_Bool)0 && work_units == num_worker && out_slots == total_out_slots;
 }
@@ -3042,37 +3042,37 @@ static _Bool can_terminate$link1(void)
 // file compress.c line 197
 static _Bool can_transmit(void)
 {
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(!(trans_q.size == 0u))
   {
     if(out_slots >= 3u)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       if(out_slots >= 1u)
       {
         if((*trans_q.root)->pos.major == order.major)
-          tmp_if_expr$1 = (*trans_q.root)->pos.minor == order.minor ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (*trans_q.root)->pos.minor == order.minor ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  return tmp_if_expr$4;
+    tmp_if_expr_4 = (_Bool)0;
+  return tmp_if_expr_4;
 }
 
 // cleanup
@@ -3112,34 +3112,34 @@ signed int collect(struct encoder_state *s, const unsigned char *inbuf, unsigned
   unsigned int run;
   unsigned int save_crc;
   unsigned int crc = s->block_crc;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(s->rle_state >= 0)
-    tmp_if_expr$1 = s->rle_state < 4 + 255 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = s->rle_state < 4 + 255 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
   /* assertion s->rle_state >= 0 && s->rle_state < (4+255) */
-  assert(tmp_if_expr$1);
-  const unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
-  const unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
-  const unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
-  const unsigned char *tmp_post$8;
-  unsigned char *tmp_post$9;
-  const unsigned char *tmp_post$10;
-  unsigned char *tmp_post$11;
-  const unsigned char *tmp_post$12;
-  unsigned char *tmp_post$13;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$14;
-  const unsigned char *tmp_post$17;
-  unsigned char *tmp_post$18;
-  const unsigned char *tmp_post$19;
-  unsigned char *tmp_post$20;
-  unsigned char *tmp_post$21;
+  assert(tmp_if_expr_1);
+  const unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
+  const unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
+  const unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
+  const unsigned char *tmp_post_8;
+  unsigned char *tmp_post_9;
+  const unsigned char *tmp_post_10;
+  unsigned char *tmp_post_11;
+  const unsigned char *tmp_post_12;
+  unsigned char *tmp_post_13;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_14;
+  const unsigned char *tmp_post_17;
+  unsigned char *tmp_post_18;
+  const unsigned char *tmp_post_19;
+  unsigned char *tmp_post_20;
+  unsigned char *tmp_post_21;
   if(!(s->rle_state == 0))
     ch = s->rle_character;
 
@@ -3162,9 +3162,9 @@ signed int collect(struct encoder_state *s, const unsigned char *inbuf, unsigned
         goto done;
       }
 
-      tmp_post$2 = p;
+      tmp_post_2 = p;
       p = p + 1l;
-      ch = (unsigned int)*tmp_post$2;
+      ch = (unsigned int)*tmp_post_2;
       crc = crc << 8 ^ crc_table[(signed long int)(crc >> 24 ^ ch)];
       do
       {
@@ -3172,9 +3172,9 @@ signed int collect(struct encoder_state *s, const unsigned char *inbuf, unsigned
       state1:
         ;
         s->cmap[(signed long int)ch] = (_Bool)1;
-        tmp_post$3 = q;
+        tmp_post_3 = q;
         q = q + 1l;
-        *tmp_post$3 = (unsigned char)ch;
+        *tmp_post_3 = (unsigned char)ch;
         if(!(qMax >= q))
         {
           s->rle_state = -1;
@@ -3189,16 +3189,16 @@ signed int collect(struct encoder_state *s, const unsigned char *inbuf, unsigned
         }
 
         last = ch;
-        tmp_post$4 = p;
+        tmp_post_4 = p;
         p = p + 1l;
-        ch = (unsigned int)*tmp_post$4;
+        ch = (unsigned int)*tmp_post_4;
         crc = crc << 8 ^ crc_table[(signed long int)(crc >> 24 ^ ch)];
         if(!(ch == last))
         {
           s->cmap[(signed long int)ch] = (_Bool)1;
-          tmp_post$5 = q;
+          tmp_post_5 = q;
           q = q + 1l;
-          *tmp_post$5 = (unsigned char)ch;
+          *tmp_post_5 = (unsigned char)ch;
           if(!(qMax >= q))
           {
             s->rle_state = -1;
@@ -3213,16 +3213,16 @@ signed int collect(struct encoder_state *s, const unsigned char *inbuf, unsigned
           }
 
           last = ch;
-          tmp_post$6 = p;
+          tmp_post_6 = p;
           p = p + 1l;
-          ch = (unsigned int)*tmp_post$6;
+          ch = (unsigned int)*tmp_post_6;
           crc = crc << 8 ^ crc_table[(signed long int)(crc >> 24 ^ ch)];
           if(!(ch == last))
           {
             s->cmap[(signed long int)ch] = (_Bool)1;
-            tmp_post$7 = q;
+            tmp_post_7 = q;
             q = q + 1l;
-            *tmp_post$7 = (unsigned char)ch;
+            *tmp_post_7 = (unsigned char)ch;
             if(!(qMax >= q))
             {
               s->rle_state = -1;
@@ -3237,16 +3237,16 @@ signed int collect(struct encoder_state *s, const unsigned char *inbuf, unsigned
             }
 
             last = ch;
-            tmp_post$8 = p;
+            tmp_post_8 = p;
             p = p + 1l;
-            ch = (unsigned int)*tmp_post$8;
+            ch = (unsigned int)*tmp_post_8;
             crc = crc << 8 ^ crc_table[(signed long int)(crc >> 24 ^ ch)];
             if(!(ch == last))
             {
               s->cmap[(signed long int)ch] = (_Bool)1;
-              tmp_post$9 = q;
+              tmp_post_9 = q;
               q = q + 1l;
-              *tmp_post$9 = (unsigned char)ch;
+              *tmp_post_9 = (unsigned char)ch;
               if(!(qMax >= q))
               {
                 s->rle_state = -1;
@@ -3261,9 +3261,9 @@ signed int collect(struct encoder_state *s, const unsigned char *inbuf, unsigned
               }
 
               last = ch;
-              tmp_post$10 = p;
+              tmp_post_10 = p;
               p = p + 1l;
-              ch = (unsigned int)*tmp_post$10;
+              ch = (unsigned int)*tmp_post_10;
               crc = crc << 8 ^ crc_table[(signed long int)(crc >> 24 ^ ch)];
               if(!(ch == last))
                 goto state1;
@@ -3277,9 +3277,9 @@ signed int collect(struct encoder_state *s, const unsigned char *inbuf, unsigned
 
       state2:
         ;
-        tmp_post$11 = q;
+        tmp_post_11 = q;
         q = q + 1l;
-        *tmp_post$11 = (unsigned char)ch;
+        *tmp_post_11 = (unsigned char)ch;
         if(!(qMax >= q))
         {
           s->rle_state = -1;
@@ -3293,36 +3293,36 @@ signed int collect(struct encoder_state *s, const unsigned char *inbuf, unsigned
           goto done;
         }
 
-        tmp_post$12 = p;
+        tmp_post_12 = p;
         p = p + 1l;
-        ch = (unsigned int)*tmp_post$12;
+        ch = (unsigned int)*tmp_post_12;
         crc = crc << 8 ^ crc_table[(signed long int)(crc >> 24 ^ ch)];
         if(!(ch == last))
           goto state1;
 
-        tmp_post$13 = q;
+        tmp_post_13 = q;
         q = q + 1l;
-        *tmp_post$13 = (unsigned char)ch;
+        *tmp_post_13 = (unsigned char)ch;
         if(q >= qMax)
         {
           if(!(qMax >= q))
-            tmp_if_expr$15 = (_Bool)1;
+            tmp_if_expr_15 = (_Bool)1;
 
           else
           {
             if(!(p >= pLim))
-              tmp_if_expr$14 = (unsigned int)*p == last ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_14 = (unsigned int)*p == last ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$14 = (_Bool)0;
-            tmp_if_expr$15 = tmp_if_expr$14 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_14 = (_Bool)0;
+            tmp_if_expr_15 = tmp_if_expr_14 ? (_Bool)1 : (_Bool)0;
           }
-          tmp_if_expr$16 = tmp_if_expr$15 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_16 = tmp_if_expr_15 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$16 = (_Bool)0;
-        if(tmp_if_expr$16)
+          tmp_if_expr_16 = (_Bool)0;
+        if(tmp_if_expr_16)
         {
           s->rle_state = -1;
           goto done;
@@ -3335,18 +3335,18 @@ signed int collect(struct encoder_state *s, const unsigned char *inbuf, unsigned
           goto done;
         }
 
-        tmp_post$17 = p;
+        tmp_post_17 = p;
         p = p + 1l;
-        ch = (unsigned int)*tmp_post$17;
+        ch = (unsigned int)*tmp_post_17;
         crc = crc << 8 ^ crc_table[(signed long int)(crc >> 24 ^ ch)];
         if(!(ch == last))
           goto state1;
 
         /* assertion q < qMax */
         assert(q < qMax);
-        tmp_post$18 = q;
+        tmp_post_18 = q;
         q = q + 1l;
-        *tmp_post$18 = (unsigned char)ch;
+        *tmp_post_18 = (unsigned char)ch;
         run = (unsigned int)4;
 
       __CPROVER_DUMP_L26:
@@ -3361,17 +3361,17 @@ signed int collect(struct encoder_state *s, const unsigned char *inbuf, unsigned
           goto done;
         }
 
-        tmp_post$19 = p;
+        tmp_post_19 = p;
         p = p + 1l;
-        ch = (unsigned int)*tmp_post$19;
+        ch = (unsigned int)*tmp_post_19;
         save_crc = crc;
         crc = crc << 8 ^ crc_table[(signed long int)(crc >> 24 ^ ch)];
         if(ch == last)
           goto __CPROVER_DUMP_L28;
 
-        tmp_post$20 = q;
+        tmp_post_20 = q;
         q = q + 1l;
-        *tmp_post$20 = (unsigned char)(run - (unsigned int)4);
+        *tmp_post_20 = (unsigned char)(run - (unsigned int)4);
         s->cmap[(signed long int)(run - (unsigned int)4)] = (_Bool)1;
       }
       while(qMax >= q);
@@ -3387,36 +3387,36 @@ signed int collect(struct encoder_state *s, const unsigned char *inbuf, unsigned
 
     __CPROVER_DUMP_L29:
       ;
-      tmp_post$21 = q;
+      tmp_post_21 = q;
       q = q + 1l;
-      *tmp_post$21 = (unsigned char)((4 + 255) - 4);
+      *tmp_post_21 = (unsigned char)((4 + 255) - 4);
     }
   }
 
 finish_run:
   ;
-  _Bool tmp_if_expr$23;
-  _Bool tmp_if_expr$22;
-  unsigned char *tmp_post$24;
-  unsigned char *tmp_post$25;
-  unsigned char *tmp_post$26;
-  for( ; (_Bool)1; *tmp_post$26 = (unsigned char)ch)
+  _Bool tmp_if_expr_23;
+  _Bool tmp_if_expr_22;
+  unsigned char *tmp_post_24;
+  unsigned char *tmp_post_25;
+  unsigned char *tmp_post_26;
+  for( ; (_Bool)1; *tmp_post_26 = (unsigned char)ch)
   {
     if(q >= qMax)
     {
       if(!(qMax >= q))
-        tmp_if_expr$23 = (_Bool)1;
+        tmp_if_expr_23 = (_Bool)1;
 
       else
       {
         if(s->rle_state == 3 && !(p >= pLim))
-          tmp_if_expr$22 = (unsigned int)*p == ch ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_22 = (unsigned int)*p == ch ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$22 = (_Bool)0;
-        tmp_if_expr$23 = tmp_if_expr$22 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_22 = (_Bool)0;
+        tmp_if_expr_23 = tmp_if_expr_22 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$23)
+      if(tmp_if_expr_23)
       {
         s->rle_state = -1;
         goto done;
@@ -3437,9 +3437,9 @@ finish_run:
       {
         if(!((unsigned int)*p == ch))
         {
-          tmp_post$24 = q;
+          tmp_post_24 = q;
           q = q + 1l;
-          *tmp_post$24 = (unsigned char)(s->rle_state - 4);
+          *tmp_post_24 = (unsigned char)(s->rle_state - 4);
           s->cmap[(signed long int)(s->rle_state - 4)] = (_Bool)1;
           goto state0;
         }
@@ -3449,9 +3449,9 @@ finish_run:
         s->rle_state = s->rle_state + 1;
         if(s->rle_state == 4)
         {
-          tmp_post$25 = q;
+          tmp_post_25 = q;
           q = q + 1l;
-          *tmp_post$25 = (unsigned char)((4 + 255) - 4);
+          *tmp_post_25 = (unsigned char)((4 + 255) - 4);
           s->cmap[(signed long int)((4 + 255) - 4)] = (_Bool)1;
           goto state0;
         }
@@ -3466,7 +3466,7 @@ finish_run:
     p = p + 1l;
     crc = crc << 8 ^ crc_table[(signed long int)(crc >> 24 ^ ch)];
     s->rle_state = s->rle_state + 1;
-    tmp_post$26 = q;
+    tmp_post_26 = q;
     q = q + 1l;
   }
 
@@ -3491,11 +3491,11 @@ static void compute_depths(unsigned int * restrict count, unsigned int * restric
   node = (unsigned int)2;
   depth = (unsigned int)1;
   avail = (unsigned int)2;
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   for( ; !(depth >= 31u); avail = used << 1)
   {
     used = (unsigned int)0;
-    for( ; !(node >= as); tree[(signed long int)tmp_post$1] = depth)
+    for( ; !(node >= as); tree[(signed long int)tmp_post_1] = depth)
     {
       if(!(1u + tree[(signed long int)tree[(signed long int)node]] == depth))
         break;
@@ -3503,7 +3503,7 @@ static void compute_depths(unsigned int * restrict count, unsigned int * restric
       /* assertion avail > used */
       assert(avail > used);
       used = used + 1u;
-      tmp_post$1 = node;
+      tmp_post_1 = node;
       node = node + 1u;
     }
     count[(signed long int)depth] = avail - used;
@@ -3527,8 +3527,8 @@ static signed int construct_BWT(const unsigned char *T, signed int *SA, signed i
   signed long int c1;
   signed long int c2;
   c1 = (signed long int)(256 - 2);
-  signed int *tmp_post$1;
-  signed int tmp_if_expr$2;
+  signed int *tmp_post_1;
+  signed int tmp_if_expr_2;
   for( ; c1 >= 0l; c1 = c1 - 1l)
   {
     i = SA + (signed long int)bucket_B[c1 << 8 | c1 + (signed long int)1];
@@ -3569,14 +3569,14 @@ static signed int construct_BWT(const unsigned char *T, signed int *SA, signed i
 
         /* assertion k < j */
         assert(k < j);
-        tmp_post$1 = k;
+        tmp_post_1 = k;
         k = k - 1l;
         if(!(t == 0))
-          tmp_if_expr$2 = (signed int)T[(signed long int)(t - 1)];
+          tmp_if_expr_2 = (signed int)T[(signed long int)(t - 1)];
 
         else
-          tmp_if_expr$2 = (signed int)T[(signed long int)(n - 1)];
-        *tmp_post$1 = (signed long int)tmp_if_expr$2 > c2 ? ~t : t;
+          tmp_if_expr_2 = (signed int)T[(signed long int)(n - 1)];
+        *tmp_post_1 = (signed long int)tmp_if_expr_2 > c2 ? ~t : t;
       }
 
       else
@@ -3591,7 +3591,7 @@ static signed int construct_BWT(const unsigned char *T, signed int *SA, signed i
   k = SA + (signed long int)bucket_A[c2];
   i = SA;
   j = SA + (signed long int)n;
-  signed int *tmp_post$3;
+  signed int *tmp_post_3;
   for( ; !(i >= j); i = i + 1l)
   {
     s = *i;
@@ -3626,9 +3626,9 @@ static signed int construct_BWT(const unsigned char *T, signed int *SA, signed i
       }
       /* assertion i <= k */
       assert(i <= k);
-      tmp_post$3 = k;
+      tmp_post_3 = k;
       k = k + 1l;
-      *tmp_post$3 = c1 < c2 ? ~((signed int)c1) : t;
+      *tmp_post_3 = c1 < c2 ? ~((signed int)c1) : t;
     }
 
     else
@@ -3698,13 +3698,13 @@ static char decimal_point_char(void)
   char pointbuf[5l];
   sprintf(pointbuf, "%#.0f", 1.0);
   point = &pointbuf[(signed long int)1];
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((signed int)*point == 0))
-    tmp_if_expr$1 = (signed int)point[(signed long int)0];
+    tmp_if_expr_1 = (signed int)point[(signed long int)0];
 
   else
-    tmp_if_expr$1 = 46;
-  return (char)tmp_if_expr$1;
+    tmp_if_expr_1 = 46;
+  return (char)tmp_if_expr_1;
 }
 
 // decode
@@ -3737,9 +3737,9 @@ void decode(struct decoder_state *ds)
   if(!((signed long int)ds->rand == 0l))
   {
     unsigned char *block;
-    void *return_value_xmalloc$1;
-    return_value_xmalloc$1=xmalloc((unsigned long int)ds->block_size);
-    block = (unsigned char *)return_value_xmalloc$1;
+    void *return_value_xmalloc_1;
+    return_value_xmalloc_1=xmalloc((unsigned long int)ds->block_size);
+    block = (unsigned char *)return_value_xmalloc_1;
     j = tt[(signed long int)ds->bwt_idx];
     i = (unsigned int)0;
     for( ; !(i >= ds->block_size); i = i + 1u)
@@ -3762,13 +3762,13 @@ void decode(struct decoder_state *ds)
 
   ds->rle_state = 0;
   ds->rle_crc = (unsigned int)-1;
-  unsigned int tmp_if_expr$2;
+  unsigned int tmp_if_expr_2;
   if(!(ds->rand == (_Bool)0))
-    tmp_if_expr$2 = (unsigned int)0;
+    tmp_if_expr_2 = (unsigned int)0;
 
   else
-    tmp_if_expr$2 = ds->tt[(signed long int)ds->bwt_idx];
-  ds->rle_index = tmp_if_expr$2;
+    tmp_if_expr_2 = ds->tt[(signed long int)ds->bwt_idx];
+  ds->rle_index = tmp_if_expr_2;
   ds->rle_avail = ds->block_size;
   ds->rle_prev = (unsigned char)0;
   ds->rle_char = (unsigned char)0;
@@ -3786,13 +3786,13 @@ void decoder_free(struct decoder_state *ds)
 // file decode.c line 1141
 void decoder_init(struct decoder_state *ds)
 {
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc(sizeof(struct retriever_internal_state) /*58368ul*/ );
-  ds->internal_state = (struct retriever_internal_state *)return_value_xmalloc$1;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc(sizeof(struct retriever_internal_state) /*58368ul*/ );
+  ds->internal_state = (struct retriever_internal_state *)return_value_xmalloc_1;
   ds->internal_state->state = (unsigned int)0;
-  void *return_value_xnmalloc$2;
-  return_value_xnmalloc$2=xnmalloc((unsigned long int)900000, sizeof(unsigned int) /*4ul*/ );
-  ds->tt = (unsigned int *)return_value_xnmalloc$2;
+  void *return_value_xnmalloc_2;
+  return_value_xnmalloc_2=xnmalloc((unsigned long int)900000, sizeof(unsigned int) /*4ul*/ );
+  ds->tt = (unsigned int *)return_value_xnmalloc_2;
   ds->block_size = (unsigned int)0;
 }
 
@@ -3801,7 +3801,7 @@ void decoder_init(struct decoder_state *ds)
 static struct detached_bitstream detach(struct bitstream bs)
 {
   struct detached_bitstream dbs;
-  struct in_blk$0 *blk;
+  struct in_blk_0 *blk;
   unsigned int bit_offset;
   unsigned long int offset;
   signed long int remains;
@@ -3810,13 +3810,13 @@ static struct detached_bitstream detach(struct bitstream bs)
   /* assertion remains >= 0 */
   assert(remains >= (signed long int)0);
   blk = bs.block;
-  unsigned long int tmp_if_expr$1;
-  if(!(blk == ((struct in_blk$0 *)NULL)))
-    tmp_if_expr$1 = (blk->offset + blk->size) - (unsigned long int)remains;
+  unsigned long int tmp_if_expr_1;
+  if(!(blk == ((struct in_blk_0 *)NULL)))
+    tmp_if_expr_1 = (blk->offset + blk->size) - (unsigned long int)remains;
 
   else
-    tmp_if_expr$1 = tail_offs;
-  offset = tmp_if_expr$1;
+    tmp_if_expr_1 = tail_offs;
+  offset = tmp_if_expr_1;
   offset = offset < tail_offs ? offset : tail_offs;
   dbs.live = bs.live;
   dbs.buff = bs.buff;
@@ -3830,7 +3830,7 @@ static struct detached_bitstream detach(struct bitstream bs)
   assert((unsigned long int)32u * dbs.offset - (unsigned long int)dbs.live == (unsigned long int)32u * offset + (unsigned long int)bit_offset);
   dbs.pos.major = offset / (in_granul / (unsigned long int)4);
   dbs.pos.minor = (offset % (in_granul / (unsigned long int)4) << 32) + (unsigned long int)(bit_offset << 27);
-  if(!(blk == ((struct in_blk$0 *)NULL)))
+  if(!(blk == ((struct in_blk_0 *)NULL)))
   {
     blk->ref_count = blk->ref_count - 1u;
     if(blk->ref_count == 0u)
@@ -3876,12 +3876,12 @@ signed int divbwt(unsigned char *T, signed int *SA, signed int n)
   else
   {
     T[(signed long int)n] = T[(signed long int)0];
-    void *return_value_xcalloc$1;
-    return_value_xcalloc$1=xcalloc((unsigned long int)256, sizeof(signed int) /*4ul*/ );
-    bucket_A = (signed int *)return_value_xcalloc$1;
-    void *return_value_xcalloc$2;
-    return_value_xcalloc$2=xcalloc((unsigned long int)(256 * 256), sizeof(signed int) /*4ul*/ );
-    bucket_B = (signed int *)return_value_xcalloc$2;
+    void *return_value_xcalloc_1;
+    return_value_xcalloc_1=xcalloc((unsigned long int)256, sizeof(signed int) /*4ul*/ );
+    bucket_A = (signed int *)return_value_xcalloc_1;
+    void *return_value_xcalloc_2;
+    return_value_xcalloc_2=xcalloc((unsigned long int)(256 * 256), sizeof(signed int) /*4ul*/ );
+    bucket_B = (signed int *)return_value_xcalloc_2;
     m=sort_typeBstar(T, SA, bucket_A, bucket_B, n);
     if(m >= 1)
       pidx=construct_BWT(T, SA, bucket_A, bucket_B, n);
@@ -3910,9 +3910,9 @@ static void do_collect(void)
   iblk = coll_q.root[(signed long int)coll_q.size];
   work_units = work_units - 1u;
   sched_unlock();
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc(sizeof(struct work_blk) /*72ul*/ );
-  wblk = (struct work_blk *)return_value_xmalloc$1;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc(sizeof(struct work_blk) /*72ul*/ );
+  wblk = (struct work_blk *)return_value_xmalloc_1;
   wblk->pos = iblk->pos;
   wblk->next = iblk->pos;
   wblk->enc=encoder_init((unsigned long int)(bs100k * 100000u), 8u);
@@ -3920,16 +3920,16 @@ static void do_collect(void)
   collect(wblk->enc, iblk->next, &iblk->left);
   wblk->weight = wblk->weight - iblk->left;
   iblk->next = iblk->next + (signed long int)wblk->weight;
-  unsigned int tmp_post$2;
+  unsigned int tmp_post_2;
   if(iblk->left >= 1ul)
   {
     wblk->next.minor = wblk->next.minor + 1ul;
     iblk->pos.minor = iblk->pos.minor + 1ul;
     sched_lock();
     coll_q.root[(signed long int)coll_q.size] = iblk;
-    tmp_post$2 = coll_q.size;
+    tmp_post_2 = coll_q.size;
     coll_q.size = coll_q.size + 1u;
-    up_heap((void *)coll_q.root, tmp_post$2);
+    up_heap((void *)coll_q.root, tmp_post_2);
     sched_unlock();
   }
 
@@ -3943,9 +3943,9 @@ static void do_collect(void)
   wblk->size=encode(wblk->enc, &wblk->crc);
   sched_lock();
   trans_q.root[(signed long int)trans_q.size] = wblk;
-  unsigned int tmp_post$3 = trans_q.size;
+  unsigned int tmp_post_3 = trans_q.size;
   trans_q.size = trans_q.size + 1u;
-  up_heap((void *)trans_q.root, tmp_post$3);
+  up_heap((void *)trans_q.root, tmp_post_3);
 }
 
 // do_collect_seq
@@ -3972,22 +3972,22 @@ static void do_collect_seq(void)
   sched_unlock();
   if(wblk == ((struct work_blk *)NULL))
   {
-    void *return_value_xmalloc$1;
-    return_value_xmalloc$1=xmalloc(sizeof(struct work_blk) /*72ul*/ );
-    wblk = (struct work_blk *)return_value_xmalloc$1;
+    void *return_value_xmalloc_1;
+    return_value_xmalloc_1=xmalloc(sizeof(struct work_blk) /*72ul*/ );
+    wblk = (struct work_blk *)return_value_xmalloc_1;
     wblk->pos = iblk->pos;
     wblk->next = iblk->pos;
     wblk->enc=encoder_init((unsigned long int)(bs100k * 100000u), 8u);
     wblk->weight = (unsigned long int)0;
   }
 
-  unsigned int tmp_post$3;
+  unsigned int tmp_post_3;
   if(!(iblk == ((struct in_blk *)NULL)))
   {
     wblk->size = iblk->left;
-    signed int return_value_collect$2;
-    return_value_collect$2=collect(wblk->enc, iblk->next, &iblk->left);
-    done = (_Bool)return_value_collect$2;
+    signed int return_value_collect_2;
+    return_value_collect_2=collect(wblk->enc, iblk->next, &iblk->left);
+    done = (_Bool)return_value_collect_2;
     wblk->size = wblk->size - iblk->left;
     wblk->weight = wblk->weight + wblk->size;
     iblk->next = iblk->next + (signed long int)wblk->size;
@@ -3997,9 +3997,9 @@ static void do_collect_seq(void)
       iblk->pos.minor = iblk->pos.minor + 1ul;
       sched_lock();
       coll_q.root[(signed long int)coll_q.size] = iblk;
-      tmp_post$3 = coll_q.size;
+      tmp_post_3 = coll_q.size;
       coll_q.size = coll_q.size + 1u;
-      up_heap((void *)coll_q.root, tmp_post$3);
+      up_heap((void *)coll_q.root, tmp_post_3);
       sched_unlock();
     }
 
@@ -4012,7 +4012,7 @@ static void do_collect_seq(void)
     }
   }
 
-  unsigned int tmp_post$4;
+  unsigned int tmp_post_4;
   if(done == (_Bool)0)
   {
     sched_lock();
@@ -4028,9 +4028,9 @@ static void do_collect_seq(void)
     wblk->size=encode(wblk->enc, &wblk->crc);
     sched_lock();
     trans_q.root[(signed long int)trans_q.size] = wblk;
-    tmp_post$4 = trans_q.size;
+    tmp_post_4 = trans_q.size;
     trans_q.size = trans_q.size + 1u;
-    up_heap((void *)trans_q.root, tmp_post$4);
+    up_heap((void *)trans_q.root, tmp_post_4);
   }
 }
 
@@ -4046,9 +4046,9 @@ static void do_emit(void)
   down_heap((void *)emit_q.root, emit_q.size);
   eb = emit_q.root[(signed long int)emit_q.size];
   sched_unlock();
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc(sizeof(struct out_blk) /*48ul*/  + out_granul);
-  oblk = (struct out_blk *)return_value_xmalloc$1;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc(sizeof(struct out_blk) /*48ul*/  + out_granul);
+  oblk = (struct out_blk *)return_value_xmalloc_1;
   oblk->size = out_granul;
   oblk->blk_sz = eb->ds.block_size;
   rv = eb->status;
@@ -4058,16 +4058,16 @@ static void do_emit(void)
   oblk->size = out_granul - oblk->size;
   oblk->status = rv;
   oblk->base = eb->base;
-  unsigned int tmp_post$2;
+  unsigned int tmp_post_2;
   if(rv == 1)
   {
     oblk->end_offset = (unsigned long int)0;
     eb->base.minor = eb->base.minor + 1ul;
     sched_lock();
     emit_q.root[(signed long int)emit_q.size] = eb;
-    tmp_post$2 = emit_q.size;
+    tmp_post_2 = emit_q.size;
     emit_q.size = emit_q.size + 1u;
-    up_heap((void *)emit_q.root, tmp_post$2);
+    up_heap((void *)emit_q.root, tmp_post_2);
   }
 
   else
@@ -4079,17 +4079,17 @@ static void do_emit(void)
     sched_lock();
     work_units = work_units + 1u;
   }
-  reord_q$link1.root[(signed long int)reord_q$link1.size] = oblk;
-  unsigned int tmp_post$3 = reord_q$link1.size;
-  reord_q$link1.size = reord_q$link1.size + 1u;
-  up_heap((void *)reord_q$link1.root, tmp_post$3);
+  reord_q_link1.root[(signed long int)reord_q_link1.size] = oblk;
+  unsigned int tmp_post_3 = reord_q_link1.size;
+  reord_q_link1.size = reord_q_link1.size + 1u;
+  up_heap((void *)reord_q_link1.root, tmp_post_3);
 }
 
 // do_mtf
 // file encode.c line 356
 static unsigned int do_mtf(unsigned short int *mtfv, unsigned int *mtffreq, unsigned char *cmap, signed int nblock, signed int EOB)
 {
-  unsigned char do_mtf$$1$$order[255l];
+  unsigned char do_mtf__1__order[255l];
   signed int i;
   signed int k;
   signed int t;
@@ -4104,16 +4104,16 @@ static unsigned int do_mtf(unsigned short int *mtfv, unsigned int *mtffreq, unsi
   u = (unsigned char)0;
   i = 0;
   for( ; !(i >= 255); i = i + 1)
-    do_mtf$$1$$order[(signed long int)i] = (unsigned char)(i + 1);
+    do_mtf__1__order[(signed long int)i] = (unsigned char)(i + 1);
   i = 0;
-  unsigned int *tmp_post$1;
-  unsigned short int *tmp_post$2;
-  unsigned short int *tmp_post$3;
+  unsigned int *tmp_post_1;
+  unsigned short int *tmp_post_2;
+  unsigned short int *tmp_post_3;
   for( ; !(i >= nblock); i = i + 1)
   {
-    tmp_post$1 = bwt;
+    tmp_post_1 = bwt;
     bwt = bwt + 1l;
-    c = cmap[(signed long int)*tmp_post$1];
+    c = cmap[(signed long int)*tmp_post_1];
     if(c == u)
       k = k + 1;
 
@@ -4122,16 +4122,16 @@ static unsigned int do_mtf(unsigned short int *mtfv, unsigned int *mtffreq, unsi
       if(!((signed long int)k == 0l))
         do
         {
-          tmp_post$2 = mtfv;
+          tmp_post_2 = mtfv;
           mtfv = mtfv + 1l;
           k = k - 1;
-          *tmp_post$2 = (unsigned short int)(k & 1);
-          mtffreq[(signed long int)*tmp_post$2] = mtffreq[(signed long int)*tmp_post$2] + 1u;
+          *tmp_post_2 = (unsigned short int)(k & 1);
+          mtffreq[(signed long int)*tmp_post_2] = mtffreq[(signed long int)*tmp_post_2] + 1u;
           k = k >> 1;
         }
         while(!(k == 0));
 
-      unsigned char *p = do_mtf$$1$$order;
+      unsigned char *p = do_mtf__1__order;
       t = (signed int)*p;
       *p = u;
       for( ; (_Bool)1; *p = u)
@@ -4154,29 +4154,29 @@ static unsigned int do_mtf(unsigned short int *mtfv, unsigned int *mtffreq, unsi
 
     __CPROVER_DUMP_L11:
       ;
-      t = (signed int)((p - do_mtf$$1$$order) + (signed long int)2);
-      tmp_post$3 = mtfv;
+      t = (signed int)((p - do_mtf__1__order) + (signed long int)2);
+      tmp_post_3 = mtfv;
       mtfv = mtfv + 1l;
-      *tmp_post$3 = (unsigned short int)t;
+      *tmp_post_3 = (unsigned short int)t;
       mtffreq[(signed long int)t] = mtffreq[(signed long int)t] + 1u;
     }
   }
-  unsigned short int *tmp_post$4;
+  unsigned short int *tmp_post_4;
   if(!((signed long int)k == 0l))
     do
     {
-      tmp_post$4 = mtfv;
+      tmp_post_4 = mtfv;
       mtfv = mtfv + 1l;
       k = k - 1;
-      *tmp_post$4 = (unsigned short int)(k & 1);
-      mtffreq[(signed long int)*tmp_post$4] = mtffreq[(signed long int)*tmp_post$4] + 1u;
+      *tmp_post_4 = (unsigned short int)(k & 1);
+      mtffreq[(signed long int)*tmp_post_4] = mtffreq[(signed long int)*tmp_post_4] + 1u;
       k = k >> 1;
     }
     while(!(k == 0));
 
-  unsigned short int *tmp_post$5 = mtfv;
+  unsigned short int *tmp_post_5 = mtfv;
   mtfv = mtfv + 1l;
-  *tmp_post$5 = (unsigned short int)EOB;
+  *tmp_post_5 = (unsigned short int)EOB;
   mtffreq[(signed long int)EOB] = mtffreq[(signed long int)EOB] + 1u;
   return (unsigned int)(mtfv - mtfv0);
 }
@@ -4193,12 +4193,12 @@ static void do_parse(void)
   work_units = work_units - 1u;
   true_bitstream=attach(parser_bs);
   rv=parse(&par, &head_blk.hdr, &true_bitstream, &garbage);
-  struct detached_bitstream return_value_detach$1;
-  return_value_detach$1=detach(true_bitstream);
-  advance(return_value_detach$1);
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
-  unsigned int tmp_post$5;
+  struct detached_bitstream return_value_detach_1;
+  return_value_detach_1=detach(true_bitstream);
+  advance(return_value_detach_1);
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
+  unsigned int tmp_post_5;
   if(rv == 1)
   {
     parse_token = (_Bool)1;
@@ -4226,14 +4226,14 @@ static void do_parse(void)
 
       if(parser_bs.offset == tail_offs && !(parser_bs.live >= 8u * eof_missing))
       {
-        const char *return_value_err2str$2;
-        return_value_err2str$2=err2str(19);
-        failf(&ispec, "compressed data error: %s", return_value_err2str$2);
+        const char *return_value_err2str_2;
+        return_value_err2str_2=err2str(19);
+        failf(&ispec, "compressed data error: %s", return_value_err2str_2);
       }
 
       while(!(input_q.size == 0u))
       {
-        struct in_blk$0 *blk;
+        struct in_blk_0 *blk;
         /* assertion !(!(input_q).size) */
         assert(!(!(input_q.size != 0u)));
         input_q.size = input_q.size - 1u;
@@ -4250,12 +4250,12 @@ static void do_parse(void)
       }
       while(!(retr_q.size == 0u))
       {
-        struct retr_blk *do_parse$$1$$2$$4$$rb;
+        struct retr_blk *do_parse__1__2__4__rb;
         retr_q.size = retr_q.size - 1u;
         down_heap((void *)retr_q.root, retr_q.size);
-        do_parse$$1$$2$$4$$rb = retr_q.root[(signed long int)retr_q.size];
-        decoder_free(&do_parse$$1$$2$$4$$rb->ds);
-        free((void *)do_parse$$1$$2$$4$$rb);
+        do_parse__1__2__4__rb = retr_q.root[(signed long int)retr_q.size];
+        decoder_free(&do_parse__1__2__4__rb->ds);
+        free((void *)do_parse__1__2__4__rb);
         work_units = work_units + 1u;
       }
       while(!(scan_q.size == 0u))
@@ -4286,9 +4286,9 @@ static void do_parse(void)
     {
       if(!(rv == 0))
       {
-        const char *return_value_err2str$3;
-        return_value_err2str$3=err2str(rv);
-        failf(&ispec, "compressed data error: %s", return_value_err2str$3);
+        const char *return_value_err2str_3;
+        return_value_err2str_3=err2str(rv);
+        failf(&ispec, "compressed data error: %s", return_value_err2str_3);
       }
 
       head_blk.base = parser_bs.pos;
@@ -4316,48 +4316,48 @@ static void do_parse(void)
           }
         }
 
-        struct unord_blk *do_parse$$1$$4$$ublk;
+        struct unord_blk *do_parse__1__4__ublk;
         unord_q.size = unord_q.size - 1u;
         down_heap((void *)unord_q.root, unord_q.size);
-        do_parse$$1$$4$$ublk = unord_q.root[(signed long int)unord_q.size];
-        if(!(do_parse$$1$$4$$ublk->complete == (_Bool)0))
-          free((void *)do_parse$$1$$4$$ublk);
+        do_parse__1__4__ublk = unord_q.root[(signed long int)unord_q.size];
+        if(!(do_parse__1__4__ublk->complete == (_Bool)0))
+          free((void *)do_parse__1__4__ublk);
 
         else
         {
-          do_parse$$1$$4$$ublk->complete = (_Bool)1;
-          do_parse$$1$$4$$ublk->legitimate = (_Bool)0;
+          do_parse__1__4__ublk->complete = (_Bool)1;
+          do_parse__1__4__ublk->legitimate = (_Bool)0;
         }
       }
       if(!(unord_q.size == 0u))
       {
         if((*unord_q.root)->base.major == parser_bs.pos.major)
-          tmp_if_expr$6 = (*unord_q.root)->base.minor == parser_bs.pos.minor ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = (*unord_q.root)->base.minor == parser_bs.pos.minor ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = (_Bool)0;
+        tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = (_Bool)0;
+      if(tmp_if_expr_7)
       {
-        struct unord_blk *do_parse$$1$$5$$ublk;
+        struct unord_blk *do_parse__1__5__ublk;
         unord_q.size = unord_q.size - 1u;
         down_heap((void *)unord_q.root, unord_q.size);
-        do_parse$$1$$5$$ublk = unord_q.root[(signed long int)unord_q.size];
-        advance(do_parse$$1$$5$$ublk->end_pos);
-        if(!(do_parse$$1$$5$$ublk->complete == (_Bool)0))
+        do_parse__1__5__ublk = unord_q.root[(signed long int)unord_q.size];
+        advance(do_parse__1__5__ublk->end_pos);
+        if(!(do_parse__1__5__ublk->complete == (_Bool)0))
         {
           parse_token = (_Bool)1;
-          free((void *)do_parse$$1$$5$$ublk);
+          free((void *)do_parse__1__5__ublk);
         }
 
         else
         {
-          do_parse$$1$$5$$ublk->complete = (_Bool)1;
-          do_parse$$1$$5$$ublk->legitimate = (_Bool)1;
+          do_parse__1__5__ublk->complete = (_Bool)1;
+          do_parse__1__5__ublk->legitimate = (_Bool)1;
         }
         work_units = work_units + 1u;
       }
@@ -4365,17 +4365,17 @@ static void do_parse(void)
       else
       {
         struct retr_blk *rb;
-        void *return_value_xmalloc$4;
-        return_value_xmalloc$4=xmalloc(sizeof(struct retr_blk) /*1152ul*/ );
-        rb = (struct retr_blk *)return_value_xmalloc$4;
+        void *return_value_xmalloc_4;
+        return_value_xmalloc_4=xmalloc(sizeof(struct retr_blk) /*1152ul*/ );
+        rb = (struct retr_blk *)return_value_xmalloc_4;
         rb->unord_link = (struct unord_blk *)(void *)0;
         decoder_init(&rb->ds);
         rb->curr_pos = parser_bs;
         rb->base = parser_bs.pos;
         retr_q.root[(signed long int)retr_q.size] = rb;
-        tmp_post$5 = retr_q.size;
+        tmp_post_5 = retr_q.size;
         retr_q.size = retr_q.size + 1u;
-        up_heap((void *)retr_q.root, tmp_post$5);
+        up_heap((void *)retr_q.root, tmp_post_5);
       }
     }
 }
@@ -4394,50 +4394,50 @@ static void do_reorder(void)
   free((void *)wblk);
 }
 
-// do_reorder$link1
+// do_reorder_link1
 // file expand.c line 704
-static void do_reorder$link1(void)
+static void do_reorder_link1(void)
 {
   struct out_blk *oblk;
   struct head_blk ord;
   unsigned long int offs_incr;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(order_q.size == 0u)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
     /* assertion (0) < (order_q).size */
     assert((unsigned int)0 < order_q.size);
-    if(!((*reord_q$link1.root)->base.major >= (order_q.root + (signed long int)(1u + order_q.head >= 1u + order_q.head + -order_q.modulus ? 1u + order_q.head + -order_q.modulus : 1u + order_q.head))->base.major))
-      tmp_if_expr$2 = (_Bool)1;
+    if(!((*reord_q_link1.root)->base.major >= (order_q.root + (signed long int)(1u + order_q.head >= 1u + order_q.head + -order_q.modulus ? 1u + order_q.head + -order_q.modulus : 1u + order_q.head))->base.major))
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
       /* assertion (0) < (order_q).size */
       assert((unsigned int)0 < order_q.size);
-      if((*reord_q$link1.root)->base.major == (order_q.root + (signed long int)(1u + order_q.head >= 1u + order_q.head + -order_q.modulus ? 1u + order_q.head + -order_q.modulus : 1u + order_q.head))->base.major)
+      if((*reord_q_link1.root)->base.major == (order_q.root + (signed long int)(1u + order_q.head >= 1u + order_q.head + -order_q.modulus ? 1u + order_q.head + -order_q.modulus : 1u + order_q.head))->base.major)
       {
         /* assertion (0) < (order_q).size */
         assert((unsigned int)0 < order_q.size);
-        tmp_if_expr$1 = (*reord_q$link1.root)->base.minor < (order_q.root + (signed long int)(order_q.head + (unsigned int)0 + (unsigned int)1 < (order_q.head + (unsigned int)0 + (unsigned int)1) - order_q.modulus ? order_q.head + (unsigned int)0 + (unsigned int)1 : (order_q.head + (unsigned int)0 + (unsigned int)1) - order_q.modulus))->base.minor ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (*reord_q_link1.root)->base.minor < (order_q.root + (signed long int)(order_q.head + (unsigned int)0 + (unsigned int)1 < (order_q.head + (unsigned int)0 + (unsigned int)1) - order_q.modulus ? order_q.head + (unsigned int)0 + (unsigned int)1 : (order_q.head + (unsigned int)0 + (unsigned int)1) - order_q.modulus))->base.minor ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (_Bool)0;
+      tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
     }
-    tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
   }
-  unsigned long int tmp_if_expr$4;
-  const char *return_value_err2str$5;
-  if(tmp_if_expr$3)
+  unsigned long int tmp_if_expr_4;
+  const char *return_value_err2str_5;
+  if(tmp_if_expr_3)
   {
-    reord_q$link1.size = reord_q$link1.size - 1u;
-    down_heap((void *)reord_q$link1.root, reord_q$link1.size);
-    free((void *)reord_q$link1.root[(signed long int)reord_q$link1.size]);
+    reord_q_link1.size = reord_q_link1.size - 1u;
+    down_heap((void *)reord_q_link1.root, reord_q_link1.size);
+    free((void *)reord_q_link1.root[(signed long int)reord_q_link1.size]);
     out_slots = out_slots + 1u;
   }
 
@@ -4448,15 +4448,15 @@ static void do_reorder$link1(void)
     order_q.size = order_q.size - 1u;
     order_q.head = order_q.head + 1u < (order_q.head + 1u) - order_q.modulus ? order_q.head + 1u : (order_q.head + 1u) - order_q.modulus;
     ord = order_q.root[(signed long int)order_q.head];
-    reord_q$link1.size = reord_q$link1.size - 1u;
-    down_heap((void *)reord_q$link1.root, reord_q$link1.size);
-    oblk = reord_q$link1.root[(signed long int)reord_q$link1.size];
+    reord_q_link1.size = reord_q_link1.size - 1u;
+    down_heap((void *)reord_q_link1.root, reord_q_link1.size);
+    oblk = reord_q_link1.root[(signed long int)reord_q_link1.size];
     if(!(reord_offs >= oblk->end_offset))
-      tmp_if_expr$4 = oblk->end_offset - reord_offs;
+      tmp_if_expr_4 = oblk->end_offset - reord_offs;
 
     else
-      tmp_if_expr$4 = (unsigned long int)0u;
-    offs_incr = tmp_if_expr$4;
+      tmp_if_expr_4 = (unsigned long int)0u;
+    offs_incr = tmp_if_expr_4;
     reord_offs = reord_offs + offs_incr;
     if(!(100000u * (unsigned int)ord.hdr.bs100k >= oblk->blk_sz))
       oblk->status = 17;
@@ -4482,8 +4482,8 @@ static void do_reorder$link1(void)
 
       if(!(oblk->status == 0))
       {
-        return_value_err2str$5=err2str(oblk->status);
-        failf(&ispec, "compressed data error: %s", return_value_err2str$5);
+        return_value_err2str_5=err2str(oblk->status);
+        failf(&ispec, "compressed data error: %s", return_value_err2str_5);
       }
 
     }
@@ -4507,12 +4507,12 @@ static void do_retrieve(void)
   true_bitstream=attach(rb->curr_pos);
   rv=retrieve(&rb->ds, &true_bitstream);
   rb->curr_pos=detach(true_bitstream);
-  _Bool tmp_if_expr$1;
-  unsigned int tmp_post$2;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  unsigned int tmp_post$7;
+  _Bool tmp_if_expr_1;
+  unsigned int tmp_post_2;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  unsigned int tmp_post_7;
   if(!(parsing_done == (_Bool)0))
   {
     decoder_free(&rb->ds);
@@ -4540,11 +4540,11 @@ static void do_retrieve(void)
     __CPROVER_DUMP_L2:
       ;
       if(rb->unord_link == ((struct unord_blk *)NULL))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = rb->unord_link->complete != (_Bool)0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = rb->unord_link->complete != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         advance(rb->curr_pos);
 
       else
@@ -4552,19 +4552,19 @@ static void do_retrieve(void)
       if(rv == 1)
       {
         retr_q.root[(signed long int)retr_q.size] = rb;
-        tmp_post$2 = retr_q.size;
+        tmp_post_2 = retr_q.size;
         retr_q.size = retr_q.size + 1u;
-        up_heap((void *)retr_q.root, tmp_post$2);
+        up_heap((void *)retr_q.root, tmp_post_2);
       }
 
       else
       {
         if(!(rb->unord_link == ((struct unord_blk *)NULL)))
-          tmp_if_expr$5 = !(rb->unord_link->complete != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = !(rb->unord_link->complete != (_Bool)0) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
         {
           rb->unord_link->complete = (_Bool)1;
           rb->unord_link->end_pos = rb->curr_pos;
@@ -4573,19 +4573,19 @@ static void do_retrieve(void)
         else
         {
           if(rb->unord_link == ((struct unord_blk *)NULL))
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_4 = (_Bool)1;
 
           else
           {
             if(!(rb->unord_link->complete == (_Bool)0))
-              tmp_if_expr$3 = rb->unord_link->legitimate != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_3 = rb->unord_link->legitimate != (_Bool)0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$3 = (_Bool)0;
-            tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_3 = (_Bool)0;
+            tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
           }
           /* assertion rb->unord_link == ((void *)0) || (rb->unord_link->complete && rb->unord_link->legitimate) */
-          assert(tmp_if_expr$4);
+          assert(tmp_if_expr_4);
           /* assertion !parse_token */
           assert(!(parse_token != (_Bool)0));
           parse_token = (_Bool)1;
@@ -4595,9 +4595,9 @@ static void do_retrieve(void)
         if(rv == 0)
           decode(&rb->ds);
 
-        void *return_value_xmalloc$6;
-        return_value_xmalloc$6=xmalloc(sizeof(struct emit_blk) /*1112ul*/ );
-        eb = (struct emit_blk *)return_value_xmalloc$6;
+        void *return_value_xmalloc_6;
+        return_value_xmalloc_6=xmalloc(sizeof(struct emit_blk) /*1112ul*/ );
+        eb = (struct emit_blk *)return_value_xmalloc_6;
         eb->ds = rb->ds;
         eb->base = rb->base;
         eb->end_offset = rb->curr_pos.offset;
@@ -4605,9 +4605,9 @@ static void do_retrieve(void)
         eb->status = rv;
         sched_lock();
         emit_q.root[(signed long int)emit_q.size] = eb;
-        tmp_post$7 = emit_q.size;
+        tmp_post_7 = emit_q.size;
         emit_q.size = emit_q.size + 1u;
-        up_heap((void *)emit_q.root, tmp_post$7);
+        up_heap((void *)emit_q.root, tmp_post_7);
       }
     }
 }
@@ -4639,12 +4639,12 @@ static void do_scan(void)
   true_bitstream=attach(*bs);
   scan_result=scan(&true_bitstream, skip);
   *bs=detach(true_bitstream);
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  unsigned int tmp_post$2;
-  unsigned int tmp_post$4;
-  _Bool tmp_if_expr$8;
-  unsigned int tmp_post$7;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  unsigned int tmp_post_2;
+  unsigned int tmp_post_4;
+  _Bool tmp_if_expr_8;
+  unsigned int tmp_post_7;
   if(!(scan_result == 0) || !(parsing_done == (_Bool)0))
   {
     work_units = work_units + 1u;
@@ -4654,57 +4654,57 @@ static void do_scan(void)
   else
   {
     if(!(parser_bs.pos.major >= bs->pos.major))
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
       if(parser_bs.pos.major == bs->pos.major)
-        tmp_if_expr$5 = parser_bs.pos.minor < bs->pos.minor ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = parser_bs.pos.minor < bs->pos.minor ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (_Bool)0;
+      tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$6)
+    if(!tmp_if_expr_6)
       work_units = work_units + 1u;
 
     else
     {
       struct unord_blk *ub;
       struct retr_blk *rb;
-      void *return_value_xmalloc$1;
-      return_value_xmalloc$1=xmalloc(sizeof(struct unord_blk) /*72ul*/ );
-      ub = (struct unord_blk *)return_value_xmalloc$1;
+      void *return_value_xmalloc_1;
+      return_value_xmalloc_1=xmalloc(sizeof(struct unord_blk) /*72ul*/ );
+      ub = (struct unord_blk *)return_value_xmalloc_1;
       ub->base = bs->pos;
       ub->end_pos = *bs;
       ub->complete = (_Bool)0;
       unord_q.root[(signed long int)unord_q.size] = ub;
-      tmp_post$2 = unord_q.size;
+      tmp_post_2 = unord_q.size;
       unord_q.size = unord_q.size + 1u;
-      up_heap((void *)unord_q.root, tmp_post$2);
-      void *return_value_xmalloc$3;
-      return_value_xmalloc$3=xmalloc(sizeof(struct retr_blk) /*1152ul*/ );
-      rb = (struct retr_blk *)return_value_xmalloc$3;
+      up_heap((void *)unord_q.root, tmp_post_2);
+      void *return_value_xmalloc_3;
+      return_value_xmalloc_3=xmalloc(sizeof(struct retr_blk) /*1152ul*/ );
+      rb = (struct retr_blk *)return_value_xmalloc_3;
       rb->unord_link = ub;
       decoder_init(&rb->ds);
       rb->curr_pos = *bs;
       rb->base = bs->pos;
       retr_q.root[(signed long int)retr_q.size] = rb;
-      tmp_post$4 = retr_q.size;
+      tmp_post_4 = retr_q.size;
       retr_q.size = retr_q.size + 1u;
-      up_heap((void *)retr_q.root, tmp_post$4);
+      up_heap((void *)retr_q.root, tmp_post_4);
     }
     if(!(true_bitstream.data == true_bitstream.limit))
-      tmp_if_expr$8 = bs->offset >= head_offs ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_8 = bs->offset >= head_offs ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    if(tmp_if_expr$8)
+      tmp_if_expr_8 = (_Bool)0;
+    if(tmp_if_expr_8)
     {
       scan_q.root[(signed long int)scan_q.size] = bs;
-      tmp_post$7 = scan_q.size;
+      tmp_post_7 = scan_q.size;
       scan_q.size = scan_q.size + 1u;
-      up_heap((void *)scan_q.root, tmp_post$7);
+      up_heap((void *)scan_q.root, tmp_post_7);
     }
 
     else
@@ -4722,16 +4722,16 @@ static void do_transmit(void)
   wblk = trans_q.root[(signed long int)trans_q.size];
   out_slots = out_slots - 1u;
   sched_unlock();
-  void *return_value_xnmalloc$1;
-  return_value_xnmalloc$1=xnmalloc((wblk->size + (unsigned long int)3) / (unsigned long int)4, sizeof(unsigned int) /*4ul*/ );
-  wblk->buffer = (void *)(unsigned int *)return_value_xnmalloc$1;
+  void *return_value_xnmalloc_1;
+  return_value_xnmalloc_1=xnmalloc((wblk->size + (unsigned long int)3) / (unsigned long int)4, sizeof(unsigned int) /*4ul*/ );
+  wblk->buffer = (void *)(unsigned int *)return_value_xnmalloc_1;
   transmit(wblk->enc, wblk->buffer);
   sched_lock();
   work_units = work_units + 1u;
   reord_q.root[(signed long int)reord_q.size] = wblk;
-  unsigned int tmp_post$2 = reord_q.size;
+  unsigned int tmp_post_2 = reord_q.size;
   reord_q.size = reord_q.size + 1u;
-  up_heap((void *)reord_q.root, tmp_post$2);
+  up_heap((void *)reord_q.root, tmp_post_2);
 }
 
 // down_heap
@@ -4744,45 +4744,45 @@ void down_heap(void *vroot, unsigned int size)
   el = root[(signed long int)size];
   root[(signed long int)size] = root[(signed long int)0];
   j = (unsigned int)0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
   while(!(2u * j + 1u >= size))
   {
     unsigned int child = j * (unsigned int)2 + (unsigned int)1;
     if(!(1u + child >= size))
     {
       if(!(root[(signed long int)(1u + child)]->major >= root[(signed long int)child]->major))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
       {
         if(root[(signed long int)(1u + child)]->major == root[(signed long int)child]->major)
-          tmp_if_expr$1 = root[(signed long int)(child + (unsigned int)1)]->minor < root[(signed long int)child]->minor ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = root[(signed long int)(child + (unsigned int)1)]->minor < root[(signed long int)child]->minor ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$2)
+      if(tmp_if_expr_2)
         child = child + 1u;
 
     }
 
     if(!(root[(signed long int)child]->major >= el->major))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
       if(root[(signed long int)child]->major == el->major)
-        tmp_if_expr$3 = root[(signed long int)child]->minor < el->minor ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = root[(signed long int)child]->minor < el->minor ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$4)
+    if(!tmp_if_expr_4)
       break;
 
     root[(signed long int)j] = root[(signed long int)child];
@@ -4797,19 +4797,19 @@ struct timespec dtotimespec(double sec)
 {
   double min_representable = (double)(signed long int)(!(!((signed long int)0 < (signed long int)-1)) ? (signed long int)0 : ((signed long int)~((signed long int)0) < (signed long int)-1 ? ~((signed long int)0) : ~((signed long int)(!(!((signed long int)0 < (signed long int)-1)) ? (signed long int)-1 : (((signed long int)1 << sizeof(signed long int) /*8ul*/  * (unsigned long int)8 - (unsigned long int)2) - (signed long int)1) * (signed long int)2 + (signed long int)1))));
   double max_representable = ((double)(signed long int)(!(!((signed long int)0 < (signed long int)-1)) ? (signed long int)-1 : (((signed long int)1 << sizeof(signed long int) /*8ul*/  * (unsigned long int)8 - (unsigned long int)2) - (signed long int)1) * (signed long int)2 + (signed long int)1) * (double)1000000000 + (double)(1000000000 - 1)) / (double)1000000000;
-  struct timespec return_value_make_timespec$1;
-  struct timespec return_value_make_timespec$2;
+  struct timespec return_value_make_timespec_1;
+  struct timespec return_value_make_timespec_2;
   if(!(min_representable < sec))
   {
-    return_value_make_timespec$1=make_timespec((signed long int)(!(!((signed long int)0 < (signed long int)-1)) ? (signed long int)0 : ((signed long int)~((signed long int)0) < (signed long int)-1 ? ~((signed long int)0) : ~((signed long int)(!(!((signed long int)0 < (signed long int)-1)) ? (signed long int)-1 : (((signed long int)1 << sizeof(signed long int) /*8ul*/  * (unsigned long int)8 - (unsigned long int)2) - (signed long int)1) * (signed long int)2 + (signed long int)1)))), (signed long int)0);
-    return return_value_make_timespec$1;
+    return_value_make_timespec_1=make_timespec((signed long int)(!(!((signed long int)0 < (signed long int)-1)) ? (signed long int)0 : ((signed long int)~((signed long int)0) < (signed long int)-1 ? ~((signed long int)0) : ~((signed long int)(!(!((signed long int)0 < (signed long int)-1)) ? (signed long int)-1 : (((signed long int)1 << sizeof(signed long int) /*8ul*/  * (unsigned long int)8 - (unsigned long int)2) - (signed long int)1) * (signed long int)2 + (signed long int)1)))), (signed long int)0);
+    return return_value_make_timespec_1;
   }
 
   else
     if(!(sec < max_representable))
     {
-      return_value_make_timespec$2=make_timespec((signed long int)(!(!((signed long int)0 < (signed long int)-1)) ? (signed long int)-1 : (((signed long int)1 << sizeof(signed long int) /*8ul*/  * (unsigned long int)8 - (unsigned long int)2) - (signed long int)1) * (signed long int)2 + (signed long int)1), (signed long int)(1000000000 - 1));
-      return return_value_make_timespec$2;
+      return_value_make_timespec_2=make_timespec((signed long int)(!(!((signed long int)0 < (signed long int)-1)) ? (signed long int)-1 : (((signed long int)1 << sizeof(signed long int) /*8ul*/  * (unsigned long int)8 - (unsigned long int)2) - (signed long int)1) * (signed long int)2 + (signed long int)1), (signed long int)(1000000000 - 1));
+      return return_value_make_timespec_2;
     }
 
     else
@@ -4826,9 +4826,9 @@ struct timespec dtotimespec(double sec)
         ns = ns + (signed long int)1000000000;
       }
 
-      struct timespec return_value_make_timespec$3;
-      return_value_make_timespec$3=make_timespec(s, ns);
-      return return_value_make_timespec$3;
+      struct timespec return_value_make_timespec_3;
+      return_value_make_timespec_3=make_timespec(s, ns);
+      return return_value_make_timespec_3;
     }
 }
 
@@ -4848,14 +4848,14 @@ signed int emit(struct decoder_state *ds, void *buf, unsigned long int *buf_sz)
   assert(ds != ((struct decoder_state *)NULL));
   /* assertion buf */
   assert(buf != NULL);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(buf_sz == ((unsigned long int *)NULL)))
-    tmp_if_expr$1 = *buf_sz > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = *buf_sz > (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
   /* assertion buf_sz && *buf_sz > 0 */
-  assert(tmp_if_expr$1);
+  assert(tmp_if_expr_1);
   t = ds->tt;
   b = (unsigned char *)buf;
   m = (unsigned int)*buf_sz;
@@ -4884,78 +4884,78 @@ signed int emit(struct decoder_state *ds, void *buf, unsigned long int *buf_sz)
     abort();
   }
 
-  unsigned int tmp_post$2 = m;
+  unsigned int tmp_post_2 = m;
   m = m - 1u;
-  unsigned char *tmp_post$3;
-  unsigned int tmp_post$4;
-  unsigned int tmp_post$5;
-  unsigned char *tmp_post$6;
-  unsigned int tmp_post$7;
-  unsigned int tmp_post$8;
-  unsigned char *tmp_post$9;
-  unsigned int tmp_post$10;
-  unsigned int tmp_post$11;
-  unsigned char *tmp_post$12;
-  unsigned char tmp_post$13;
-  unsigned char *tmp_post$14;
-  unsigned int tmp_post$15;
-  unsigned int tmp_post$16;
-  unsigned char *tmp_post$17;
-  if(!(tmp_post$2 == 0u))
+  unsigned char *tmp_post_3;
+  unsigned int tmp_post_4;
+  unsigned int tmp_post_5;
+  unsigned char *tmp_post_6;
+  unsigned int tmp_post_7;
+  unsigned int tmp_post_8;
+  unsigned char *tmp_post_9;
+  unsigned int tmp_post_10;
+  unsigned int tmp_post_11;
+  unsigned char *tmp_post_12;
+  unsigned char tmp_post_13;
+  unsigned char *tmp_post_14;
+  unsigned int tmp_post_15;
+  unsigned int tmp_post_16;
+  unsigned char *tmp_post_17;
+  if(!(tmp_post_2 == 0u))
   {
-    tmp_post$3 = b;
+    tmp_post_3 = b;
     b = b + 1l;
-    *tmp_post$3 = c;
-    s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post$3)];
+    *tmp_post_3 = c;
+    s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post_3)];
     if(c == d)
     {
-      tmp_post$4 = a;
+      tmp_post_4 = a;
       a = a - 1u;
-      if(!(tmp_post$4 == 0u))
+      if(!(tmp_post_4 == 0u))
       {
         p = t[(signed long int)(p >> 8)];
         c = (unsigned char)p;
 
       __CPROVER_DUMP_L4:
         ;
-        tmp_post$5 = m;
+        tmp_post_5 = m;
         m = m - 1u;
-        if(tmp_post$5 == 0u)
+        if(tmp_post_5 == 0u)
           ds->rle_state = 2;
 
         else
         {
-          tmp_post$6 = b;
+          tmp_post_6 = b;
           b = b + 1l;
-          *tmp_post$6 = c;
-          s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post$6)];
+          *tmp_post_6 = c;
+          s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post_6)];
           if(c == d)
           {
-            tmp_post$7 = a;
+            tmp_post_7 = a;
             a = a - 1u;
-            if(!(tmp_post$7 == 0u))
+            if(!(tmp_post_7 == 0u))
             {
               p = t[(signed long int)(p >> 8)];
               c = (unsigned char)p;
 
             __CPROVER_DUMP_L6:
               ;
-              tmp_post$8 = m;
+              tmp_post_8 = m;
               m = m - 1u;
-              if(tmp_post$8 == 0u)
+              if(tmp_post_8 == 0u)
                 ds->rle_state = 3;
 
               else
               {
-                tmp_post$9 = b;
+                tmp_post_9 = b;
                 b = b + 1l;
-                *tmp_post$9 = c;
-                s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post$9)];
+                *tmp_post_9 = c;
+                s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post_9)];
                 if(c == d)
                 {
-                  tmp_post$10 = a;
+                  tmp_post_10 = a;
                   a = a - 1u;
-                  if(tmp_post$10 == 0u)
+                  if(tmp_post_10 == 0u)
                     return 14;
 
                   p = t[(signed long int)(p >> 8)];
@@ -4968,15 +4968,15 @@ signed int emit(struct decoder_state *ds, void *buf, unsigned long int *buf_sz)
                     c = c - (unsigned char)m;
                     do
                     {
-                      tmp_post$11 = m;
+                      tmp_post_11 = m;
                       m = m - 1u;
-                      if(tmp_post$11 == 0u)
+                      if(tmp_post_11 == 0u)
                         break;
 
-                      tmp_post$12 = b;
+                      tmp_post_12 = b;
                       b = b + 1l;
-                      *tmp_post$12 = d;
-                      s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post$12)];
+                      *tmp_post_12 = d;
+                      s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post_12)];
                     }
                     while((_Bool)1);
                     ds->rle_state = 4;
@@ -4987,40 +4987,40 @@ signed int emit(struct decoder_state *ds, void *buf, unsigned long int *buf_sz)
                     m = m - (unsigned int)c;
                     do
                     {
-                      tmp_post$13 = c;
+                      tmp_post_13 = c;
                       c = c - 1;
-                      if(tmp_post$13 == 0)
+                      if(tmp_post_13 == 0)
                         break;
 
-                      tmp_post$14 = b;
+                      tmp_post_14 = b;
                       b = b + 1l;
-                      *tmp_post$14 = d;
-                      s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post$14)];
+                      *tmp_post_14 = d;
+                      s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post_14)];
                     }
                     while((_Bool)1);
 
                   __CPROVER_DUMP_L14:
                     ;
-                    tmp_post$15 = a;
+                    tmp_post_15 = a;
                     a = a - 1u;
-                    if(!(tmp_post$15 == 0u))
+                    if(!(tmp_post_15 == 0u))
                     {
                       p = t[(signed long int)(p >> 8)];
                       c = (unsigned char)p;
 
                     __CPROVER_DUMP_L15:
                       ;
-                      tmp_post$16 = m;
+                      tmp_post_16 = m;
                       m = m - 1u;
-                      if(tmp_post$16 == 0u)
+                      if(tmp_post_16 == 0u)
                         ds->rle_state = 5;
 
                       else
                       {
-                        tmp_post$17 = b;
+                        tmp_post_17 = b;
                         b = b + 1l;
-                        *tmp_post$17 = c;
-                        s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post$17)];
+                        *tmp_post_17 = c;
+                        s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post_17)];
                       }
                     }
 
@@ -5039,121 +5039,121 @@ signed int emit(struct decoder_state *ds, void *buf, unsigned long int *buf_sz)
 
   }
 
-  unsigned int tmp_post$18;
-  unsigned int tmp_post$19;
-  unsigned char *tmp_post$20;
-  unsigned int tmp_post$21;
-  unsigned int tmp_post$22;
-  unsigned char *tmp_post$23;
-  unsigned int tmp_post$24;
-  unsigned int tmp_post$25;
-  unsigned char *tmp_post$26;
-  unsigned int tmp_post$27;
-  unsigned int tmp_post$28;
-  unsigned char *tmp_post$29;
-  unsigned int tmp_post$30;
-  unsigned int tmp_post$31;
-  unsigned char *tmp_post$32;
-  unsigned int tmp_post$33;
-  unsigned int tmp_post$34;
-  unsigned char *tmp_post$35;
-  unsigned int tmp_post$36;
-  unsigned int tmp_post$37;
-  unsigned char *tmp_post$38;
-  unsigned char tmp_post$39;
-  unsigned char *tmp_post$40;
-  unsigned int tmp_post$41;
-  unsigned int tmp_post$42;
-  unsigned char *tmp_post$43;
+  unsigned int tmp_post_18;
+  unsigned int tmp_post_19;
+  unsigned char *tmp_post_20;
+  unsigned int tmp_post_21;
+  unsigned int tmp_post_22;
+  unsigned char *tmp_post_23;
+  unsigned int tmp_post_24;
+  unsigned int tmp_post_25;
+  unsigned char *tmp_post_26;
+  unsigned int tmp_post_27;
+  unsigned int tmp_post_28;
+  unsigned char *tmp_post_29;
+  unsigned int tmp_post_30;
+  unsigned int tmp_post_31;
+  unsigned char *tmp_post_32;
+  unsigned int tmp_post_33;
+  unsigned int tmp_post_34;
+  unsigned char *tmp_post_35;
+  unsigned int tmp_post_36;
+  unsigned int tmp_post_37;
+  unsigned char *tmp_post_38;
+  unsigned char tmp_post_39;
+  unsigned char *tmp_post_40;
+  unsigned int tmp_post_41;
+  unsigned int tmp_post_42;
+  unsigned char *tmp_post_43;
   if(!(a == 0xFFFFFFFFu) && !(m == 0xFFFFFFFFu))
     do
     {
-      tmp_post$18 = a;
+      tmp_post_18 = a;
       a = a - 1u;
-      if(tmp_post$18 == 0u)
+      if(tmp_post_18 == 0u)
         break;
 
       d = c;
       p = t[(signed long int)(p >> 8)];
       c = (unsigned char)p;
-      tmp_post$19 = m;
+      tmp_post_19 = m;
       m = m - 1u;
-      if(tmp_post$19 == 0u)
+      if(tmp_post_19 == 0u)
       {
         ds->rle_state = 1;
         break;
       }
 
-      tmp_post$20 = b;
+      tmp_post_20 = b;
       b = b + 1l;
-      *tmp_post$20 = c;
-      s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post$20)];
+      *tmp_post_20 = c;
+      s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post_20)];
       if(!(c == d))
       {
-        tmp_post$21 = a;
+        tmp_post_21 = a;
         a = a - 1u;
-        if(tmp_post$21 == 0u)
+        if(tmp_post_21 == 0u)
           break;
 
         d = c;
         p = t[(signed long int)(p >> 8)];
         c = (unsigned char)p;
-        tmp_post$22 = m;
+        tmp_post_22 = m;
         m = m - 1u;
-        if(tmp_post$22 == 0u)
+        if(tmp_post_22 == 0u)
         {
           ds->rle_state = 1;
           break;
         }
 
-        tmp_post$23 = b;
+        tmp_post_23 = b;
         b = b + 1l;
-        *tmp_post$23 = c;
-        s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post$23)];
+        *tmp_post_23 = c;
+        s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post_23)];
         if(!(c == d))
         {
-          tmp_post$24 = a;
+          tmp_post_24 = a;
           a = a - 1u;
-          if(tmp_post$24 == 0u)
+          if(tmp_post_24 == 0u)
             break;
 
           d = c;
           p = t[(signed long int)(p >> 8)];
           c = (unsigned char)p;
-          tmp_post$25 = m;
+          tmp_post_25 = m;
           m = m - 1u;
-          if(tmp_post$25 == 0u)
+          if(tmp_post_25 == 0u)
           {
             ds->rle_state = 1;
             break;
           }
 
-          tmp_post$26 = b;
+          tmp_post_26 = b;
           b = b + 1l;
-          *tmp_post$26 = c;
-          s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post$26)];
+          *tmp_post_26 = c;
+          s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post_26)];
           if(!(c == d))
           {
-            tmp_post$27 = a;
+            tmp_post_27 = a;
             a = a - 1u;
-            if(tmp_post$27 == 0u)
+            if(tmp_post_27 == 0u)
               break;
 
             d = c;
             p = t[(signed long int)(p >> 8)];
             c = (unsigned char)p;
-            tmp_post$28 = m;
+            tmp_post_28 = m;
             m = m - 1u;
-            if(tmp_post$28 == 0u)
+            if(tmp_post_28 == 0u)
             {
               ds->rle_state = 1;
               break;
             }
 
-            tmp_post$29 = b;
+            tmp_post_29 = b;
             b = b + 1l;
-            *tmp_post$29 = c;
-            s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post$29)];
+            *tmp_post_29 = c;
+            s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post_29)];
             if(!(c == d))
               continue;
 
@@ -5163,51 +5163,51 @@ signed int emit(struct decoder_state *ds, void *buf, unsigned long int *buf_sz)
 
       }
 
-      tmp_post$30 = a;
+      tmp_post_30 = a;
       a = a - 1u;
-      if(tmp_post$30 == 0u)
+      if(tmp_post_30 == 0u)
         break;
 
       p = t[(signed long int)(p >> 8)];
       c = (unsigned char)p;
-      tmp_post$31 = m;
+      tmp_post_31 = m;
       m = m - 1u;
-      if(tmp_post$31 == 0u)
+      if(tmp_post_31 == 0u)
       {
         ds->rle_state = 2;
         break;
       }
 
-      tmp_post$32 = b;
+      tmp_post_32 = b;
       b = b + 1l;
-      *tmp_post$32 = c;
-      s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post$32)];
+      *tmp_post_32 = c;
+      s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post_32)];
       if(c == d)
       {
-        tmp_post$33 = a;
+        tmp_post_33 = a;
         a = a - 1u;
-        if(tmp_post$33 == 0u)
+        if(tmp_post_33 == 0u)
           break;
 
         p = t[(signed long int)(p >> 8)];
         c = (unsigned char)p;
-        tmp_post$34 = m;
+        tmp_post_34 = m;
         m = m - 1u;
-        if(tmp_post$34 == 0u)
+        if(tmp_post_34 == 0u)
         {
           ds->rle_state = 3;
           break;
         }
 
-        tmp_post$35 = b;
+        tmp_post_35 = b;
         b = b + 1l;
-        *tmp_post$35 = c;
-        s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post$35)];
+        *tmp_post_35 = c;
+        s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post_35)];
         if(c == d)
         {
-          tmp_post$36 = a;
+          tmp_post_36 = a;
           a = a - 1u;
-          if(tmp_post$36 == 0u)
+          if(tmp_post_36 == 0u)
             return 14;
 
           p = t[(signed long int)(p >> 8)];
@@ -5217,15 +5217,15 @@ signed int emit(struct decoder_state *ds, void *buf, unsigned long int *buf_sz)
             c = c - (unsigned char)m;
             do
             {
-              tmp_post$37 = m;
+              tmp_post_37 = m;
               m = m - 1u;
-              if(tmp_post$37 == 0u)
+              if(tmp_post_37 == 0u)
                 break;
 
-              tmp_post$38 = b;
+              tmp_post_38 = b;
               b = b + 1l;
-              *tmp_post$38 = d;
-              s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post$38)];
+              *tmp_post_38 = d;
+              s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post_38)];
             }
             while((_Bool)1);
             ds->rle_state = 4;
@@ -5235,36 +5235,36 @@ signed int emit(struct decoder_state *ds, void *buf, unsigned long int *buf_sz)
           m = m - (unsigned int)c;
           do
           {
-            tmp_post$39 = c;
+            tmp_post_39 = c;
             c = c - 1;
-            if(tmp_post$39 == 0)
+            if(tmp_post_39 == 0)
               break;
 
-            tmp_post$40 = b;
+            tmp_post_40 = b;
             b = b + 1l;
-            *tmp_post$40 = d;
-            s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post$40)];
+            *tmp_post_40 = d;
+            s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post_40)];
           }
           while((_Bool)1);
-          tmp_post$41 = a;
+          tmp_post_41 = a;
           a = a - 1u;
-          if(tmp_post$41 == 0u)
+          if(tmp_post_41 == 0u)
             break;
 
           p = t[(signed long int)(p >> 8)];
           c = (unsigned char)p;
-          tmp_post$42 = m;
+          tmp_post_42 = m;
           m = m - 1u;
-          if(tmp_post$42 == 0u)
+          if(tmp_post_42 == 0u)
           {
             ds->rle_state = 5;
             break;
           }
 
-          tmp_post$43 = b;
+          tmp_post_43 = b;
           b = b + 1l;
-          *tmp_post$43 = c;
-          s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post$43)];
+          *tmp_post_43 = c;
+          s = s << 8 ^ crc_table[(signed long int)(s >> 24 ^ (unsigned int)*tmp_post_43)];
         }
 
       }
@@ -5311,40 +5311,40 @@ unsigned long int encode(struct encoder_state *s, unsigned int *crc)
   unsigned int p;
   unsigned int EOB;
   unsigned char cmap[256l];
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   if(s->rle_state >= 4)
   {
     /* assertion s->nblock < s->max_block_size */
     assert(s->nblock < s->max_block_size);
-    tmp_post$1 = s->nblock;
+    tmp_post_1 = s->nblock;
     s->nblock = s->nblock + 1u;
-    s->block[(signed long int)tmp_post$1] = (unsigned char)(s->rle_state - 4);
+    s->block[(signed long int)tmp_post_1] = (unsigned char)(s->rle_state - 4);
     s->cmap[(signed long int)(s->rle_state - 4)] = (_Bool)1;
   }
 
   /* assertion s->nblock > 0 */
   assert(s->nblock > (unsigned int)0);
-  unsigned int return_value_make_map_e$2;
-  return_value_make_map_e$2=make_map_e(cmap, s->cmap);
-  EOB = return_value_make_map_e$2 + (unsigned int)1;
+  unsigned int return_value_make_map_e_2;
+  return_value_make_map_e_2=make_map_e(cmap, s->cmap);
+  EOB = return_value_make_map_e_2 + (unsigned int)1;
   /* assertion EOB >= 2 */
   assert(EOB >= (unsigned int)2);
   /* assertion EOB < 258 */
   assert(EOB < (unsigned int)258);
   /* assertion s->nblock > 0 */
   assert(s->nblock > (unsigned int)0);
-  void *return_value_xnmalloc$3;
-  return_value_xnmalloc$3=xnmalloc((unsigned long int)(s->nblock + (unsigned int)50), sizeof(unsigned int) /*4ul*/ );
-  s->mtfv = (void *)(unsigned int *)return_value_xnmalloc$3;
-  signed int return_value_divbwt$4;
-  return_value_divbwt$4=divbwt(s->block, (signed int *)s->mtfv, (signed int)s->nblock);
-  s->bwt_idx = (unsigned int)return_value_divbwt$4;
+  void *return_value_xnmalloc_3;
+  return_value_xnmalloc_3=xnmalloc((unsigned long int)(s->nblock + (unsigned int)50), sizeof(unsigned int) /*4ul*/ );
+  s->mtfv = (void *)(unsigned int *)return_value_xnmalloc_3;
+  signed int return_value_divbwt_4;
+  return_value_divbwt_4=divbwt(s->block, (signed int *)s->mtfv, (signed int)s->nblock);
+  s->bwt_idx = (unsigned int)return_value_divbwt_4;
   free((void *)s->block);
   s->nmtf=do_mtf((unsigned short int *)s->mtfv, s->code[(signed long int)0], cmap, (signed int)s->nblock, (signed int)EOB);
   cost = (unsigned int)(48 + 32 + 1 + 24 + 00 + 3 + 15 + 00 + 00 + 00);
-  unsigned int return_value_generate_prefix_code$5;
-  return_value_generate_prefix_code$5=generate_prefix_code(s);
-  cost = cost + return_value_generate_prefix_code$5;
+  unsigned int return_value_generate_prefix_code_5;
+  return_value_generate_prefix_code_5=generate_prefix_code(s);
+  cost = cost + return_value_generate_prefix_code_5;
   sp = s->selector;
   smp = s->selectorMTF;
   p = (unsigned int)0x543210;
@@ -5352,7 +5352,7 @@ unsigned long int encode(struct encoder_state *s, unsigned int *crc)
   assert((signed int)*sp < 6);
   /* assertion s->tmap_old2new[*sp] == 0 */
   assert(s->tmap_old2new[(signed long int)*sp] == (unsigned int)0);
-  unsigned char *tmp_post$7;
+  unsigned char *tmp_post_7;
   do
   {
     c = *sp;
@@ -5373,13 +5373,13 @@ unsigned long int encode(struct encoder_state *s, unsigned int *crc)
     l = z ^ z - (unsigned int)1;
     h = ~l;
     p = (p | l) & (p << 4 | h | (unsigned int)c);
-    signed int return_value___builtin_ctz$6;
-    return_value___builtin_ctz$6=__builtin_ctz(h);
-    j = (unsigned char)((return_value___builtin_ctz$6 >> 2) - 1);
+    signed int return_value___builtin_ctz_6;
+    return_value___builtin_ctz_6=__builtin_ctz(h);
+    j = (unsigned char)((return_value___builtin_ctz_6 >> 2) - 1);
     sp = sp + 1l;
-    tmp_post$7 = smp;
+    tmp_post_7 = smp;
     smp = smp + 1l;
-    *tmp_post$7 = j;
+    *tmp_post_7 = j;
     cost = cost + (unsigned int)((signed int)j + 1);
   }
   while((_Bool)1);
@@ -5387,18 +5387,18 @@ unsigned long int encode(struct encoder_state *s, unsigned int *crc)
   j = (unsigned char)(8 - (signed int)j & 0x7);
   s->num_selectors = s->num_selectors + (unsigned int)j;
   cost = cost + (unsigned int)j;
-  unsigned char tmp_post$8;
-  unsigned char *tmp_post$9;
+  unsigned char tmp_post_8;
+  unsigned char *tmp_post_9;
   do
   {
-    tmp_post$8 = j;
+    tmp_post_8 = j;
     j = j - 1;
-    if(tmp_post$8 == 0)
+    if(tmp_post_8 == 0)
       break;
 
-    tmp_post$9 = smp;
+    tmp_post_9 = smp;
     smp = smp + 1l;
-    *tmp_post$9 = (unsigned char)0;
+    *tmp_post_9 = (unsigned char)0;
   }
   while((_Bool)1);
   /* assertion cost % 8 == 0 */
@@ -5426,9 +5426,9 @@ unsigned long int encode(struct encoder_state *s, unsigned int *crc)
 struct encoder_state * encoder_init(unsigned long int max_block_size, unsigned int cluster_factor)
 {
   struct encoder_state *s;
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc(sizeof(struct encoder_state) /*14376ul*/ );
-  s = (struct encoder_state *)return_value_xmalloc$1;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc(sizeof(struct encoder_state) /*14376ul*/ );
+  s = (struct encoder_state *)return_value_xmalloc_1;
   /* assertion s != 0 */
   assert(s != ((struct encoder_state *)NULL));
   /* assertion max_block_size > 0 && max_block_size <= 900000 */
@@ -5437,15 +5437,15 @@ struct encoder_state * encoder_init(unsigned long int max_block_size, unsigned i
   assert(cluster_factor > (unsigned int)0 && cluster_factor <= (unsigned int)65535);
   s->max_block_size = (unsigned int)max_block_size;
   s->cluster_factor = cluster_factor;
-  void *return_value_xmalloc$2;
-  return_value_xmalloc$2=xmalloc((unsigned long int)(18000 + 1 + 1));
-  s->selector = (unsigned char *)return_value_xmalloc$2;
-  void *return_value_xmalloc$3;
-  return_value_xmalloc$3=xmalloc((unsigned long int)(18000 + 1 + 7));
-  s->selectorMTF = (unsigned char *)return_value_xmalloc$3;
-  void *return_value_xmalloc$4;
-  return_value_xmalloc$4=xmalloc(max_block_size + (unsigned long int)1);
-  s->block = (unsigned char *)return_value_xmalloc$4;
+  void *return_value_xmalloc_2;
+  return_value_xmalloc_2=xmalloc((unsigned long int)(18000 + 1 + 1));
+  s->selector = (unsigned char *)return_value_xmalloc_2;
+  void *return_value_xmalloc_3;
+  return_value_xmalloc_3=xmalloc((unsigned long int)(18000 + 1 + 7));
+  s->selectorMTF = (unsigned char *)return_value_xmalloc_3;
+  void *return_value_xmalloc_4;
+  return_value_xmalloc_4=xmalloc(max_block_size + (unsigned long int)1);
+  s->block = (unsigned char *)return_value_xmalloc_4;
   bzero((void *)s->cmap, (unsigned long int)256u * sizeof(_Bool) /*1ul*/ );
   s->rle_state = 0;
   s->block_crc = (unsigned int)-1;
@@ -5459,8 +5459,8 @@ static const char * err2str(signed int err)
 {
   /* assertion err >= ERR_MAGIC && err <= ERR_EOF */
   assert(err >= 3 && err <= 19);
-  static const char *err2str$$1$$table[17l] = { "bad stream header magic", "bad block header magic", "empty source alphabet", "bad number of trees", "no coding groups", "invalid selector", "invalid delta code", "invalid prefix code", "incomplete prefix code", "empty block", "unterminated block", "missing run length", "block CRC mismatch", "stream CRC mismatch", "block overflow", "primary index too large", "unexpected end of file" };
-  return err2str$$1$$table[(signed long int)(err - 3)];
+  static const char *err2str__1__table[17l] = { "bad stream header magic", "bad block header magic", "empty source alphabet", "bad number of trees", "no coding groups", "invalid selector", "invalid delta code", "invalid prefix code", "incomplete prefix code", "empty block", "unterminated block", "missing run length", "block CRC mismatch", "stream CRC mismatch", "block overflow", "primary index too large", "unexpected end of file" };
+  return err2str__1__table[(signed long int)(err - 3)];
 }
 
 // fail
@@ -5517,13 +5517,13 @@ signed int fdutimens(signed int fd, const char *file, struct timespec *timespec)
 {
   struct timespec adjusted_timespec[2l];
   struct timespec *ts;
-  struct timespec *tmp_if_expr$1;
+  struct timespec *tmp_if_expr_1;
   if(!(timespec == ((struct timespec *)NULL)))
-    tmp_if_expr$1 = adjusted_timespec;
+    tmp_if_expr_1 = adjusted_timespec;
 
   else
-    tmp_if_expr$1 = (struct timespec *)(void *)0;
-  ts = tmp_if_expr$1;
+    tmp_if_expr_1 = (struct timespec *)(void *)0;
+  ts = tmp_if_expr_1;
   signed int adjustment_needed = 0;
   struct stat st;
   if(!(ts == ((struct timespec *)NULL)))
@@ -5533,22 +5533,22 @@ signed int fdutimens(signed int fd, const char *file, struct timespec *timespec)
     adjustment_needed=validate_timespec(ts);
   }
 
-  signed int tmp_if_expr$5;
-  signed int return_value_stat$3;
-  signed int return_value_fstat$4;
-  signed int *return_value___errno_location$6;
-  _Bool tmp_if_expr$8;
-  signed int *return_value___errno_location$7;
-  signed int *return_value___errno_location$9;
-  _Bool tmp_if_expr$11;
-  signed int *return_value___errno_location$10;
-  signed int tmp_if_expr$14;
-  signed int return_value_stat$12;
-  signed int return_value_fstat$13;
-  _Bool return_value_update_timespec$15;
-  signed int return_value_fstat$19;
-  signed long int return_value_get_stat_atime_ns$17;
-  signed long int return_value_get_stat_mtime_ns$18;
+  signed int tmp_if_expr_5;
+  signed int return_value_stat_3;
+  signed int return_value_fstat_4;
+  signed int *return_value___errno_location_6;
+  _Bool tmp_if_expr_8;
+  signed int *return_value___errno_location_7;
+  signed int *return_value___errno_location_9;
+  _Bool tmp_if_expr_11;
+  signed int *return_value___errno_location_10;
+  signed int tmp_if_expr_14;
+  signed int return_value_stat_12;
+  signed int return_value_fstat_13;
+  _Bool return_value_update_timespec_15;
+  signed int return_value_fstat_19;
+  signed long int return_value_get_stat_atime_ns_17;
+  signed long int return_value_get_stat_mtime_ns_18;
   if(!(adjustment_needed >= 0))
     return -1;
 
@@ -5556,9 +5556,9 @@ signed int fdutimens(signed int fd, const char *file, struct timespec *timespec)
   {
     if(file == ((const char *)NULL) && !(fd >= 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 9;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 9;
       return -1;
     }
 
@@ -5569,16 +5569,16 @@ signed int fdutimens(signed int fd, const char *file, struct timespec *timespec)
       {
         if(!(fd >= 0))
         {
-          return_value_stat$3=stat(file, &st);
-          tmp_if_expr$5 = return_value_stat$3;
+          return_value_stat_3=stat(file, &st);
+          tmp_if_expr_5 = return_value_stat_3;
         }
 
         else
         {
-          return_value_fstat$4=fstat(fd, &st);
-          tmp_if_expr$5 = return_value_fstat$4;
+          return_value_fstat_4=fstat(fd, &st);
+          tmp_if_expr_5 = return_value_fstat_4;
         }
-        if(!(tmp_if_expr$5 == 0))
+        if(!(tmp_if_expr_5 == 0))
           return -1;
 
         if(ts->tv_nsec == 1073741822l)
@@ -5596,19 +5596,19 @@ signed int fdutimens(signed int fd, const char *file, struct timespec *timespec)
         result=utimensat(-100, file, ts, 0);
         if(result >= 1)
         {
-          return_value___errno_location$6=__errno_location();
-          *return_value___errno_location$6 = 38;
+          return_value___errno_location_6=__errno_location();
+          *return_value___errno_location_6 = 38;
         }
 
         if(result == 0)
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
         {
-          return_value___errno_location$7=__errno_location();
-          tmp_if_expr$8 = *return_value___errno_location$7 != 38 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_7=__errno_location();
+          tmp_if_expr_8 = *return_value___errno_location_7 != 38 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$8)
+        if(tmp_if_expr_8)
         {
           utimensat_works_really = 1;
           return result;
@@ -5621,19 +5621,19 @@ signed int fdutimens(signed int fd, const char *file, struct timespec *timespec)
         result=futimens(fd, ts);
         if(result >= 1)
         {
-          return_value___errno_location$9=__errno_location();
-          *return_value___errno_location$9 = 38;
+          return_value___errno_location_9=__errno_location();
+          *return_value___errno_location_9 = 38;
         }
 
         if(result == 0)
-          tmp_if_expr$11 = (_Bool)1;
+          tmp_if_expr_11 = (_Bool)1;
 
         else
         {
-          return_value___errno_location$10=__errno_location();
-          tmp_if_expr$11 = *return_value___errno_location$10 != 38 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_10=__errno_location();
+          tmp_if_expr_11 = *return_value___errno_location_10 != 38 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$11)
+        if(tmp_if_expr_11)
         {
           utimensat_works_really = 1;
           return result;
@@ -5651,24 +5651,24 @@ signed int fdutimens(signed int fd, const char *file, struct timespec *timespec)
       {
         if(!(fd >= 0))
         {
-          return_value_stat$12=stat(file, &st);
-          tmp_if_expr$14 = return_value_stat$12;
+          return_value_stat_12=stat(file, &st);
+          tmp_if_expr_14 = return_value_stat_12;
         }
 
         else
         {
-          return_value_fstat$13=fstat(fd, &st);
-          tmp_if_expr$14 = return_value_fstat$13;
+          return_value_fstat_13=fstat(fd, &st);
+          tmp_if_expr_14 = return_value_fstat_13;
         }
-        if(!(tmp_if_expr$14 == 0))
+        if(!(tmp_if_expr_14 == 0))
           return -1;
 
       }
 
       if(!(ts == ((struct timespec *)NULL)))
       {
-        return_value_update_timespec$15=update_timespec(&st, &ts);
-        if(!(return_value_update_timespec$15 == (_Bool)0))
+        return_value_update_timespec_15=update_timespec(&st, &ts);
+        if(!(return_value_update_timespec_15 == (_Bool)0))
           return 0;
 
       }
@@ -5690,16 +5690,16 @@ signed int fdutimens(signed int fd, const char *file, struct timespec *timespec)
       t = (struct timeval *)(void *)0;
     if(!(fd >= 0))
     {
-      signed int return_value_futimesat$16;
-      return_value_futimesat$16=futimesat(-100, file, t);
-      return return_value_futimesat$16;
+      signed int return_value_futimesat_16;
+      return_value_futimesat_16=futimesat(-100, file, t);
+      return return_value_futimesat_16;
     }
 
     else
     {
-      signed int return_value_futimesat$20;
-      return_value_futimesat$20=futimesat(fd, (const char *)(void *)0, t);
-      if(return_value_futimesat$20 == 0)
+      signed int return_value_futimesat_20;
+      return_value_futimesat_20=futimesat(fd, (const char *)(void *)0, t);
+      if(return_value_futimesat_20 == 0)
       {
         if(!(t == ((struct timeval *)NULL)))
         {
@@ -5707,8 +5707,8 @@ signed int fdutimens(signed int fd, const char *file, struct timespec *timespec)
           _Bool mbig = (signed long int)500000 <= (t + (signed long int)1)->tv_usec;
           if(!(((signed int)abig | (signed int)mbig) == 0))
           {
-            return_value_fstat$19=fstat(fd, &st);
-            if(return_value_fstat$19 == 0)
+            return_value_fstat_19=fstat(fd, &st);
+            if(return_value_fstat_19 == 0)
             {
               signed long int adiff = st.st_atim.tv_sec - (t + (signed long int)0)->tv_sec;
               signed long int mdiff = st.st_mtim.tv_sec - (t + (signed long int)1)->tv_sec;
@@ -5718,8 +5718,8 @@ signed int fdutimens(signed int fd, const char *file, struct timespec *timespec)
               truncated_timeval[(signed long int)1] = t[(signed long int)1];
               if(adiff == 1l && !(abig == (_Bool)0))
               {
-                return_value_get_stat_atime_ns$17=get_stat_atime_ns(&st);
-                if(return_value_get_stat_atime_ns$17 == 0l)
+                return_value_get_stat_atime_ns_17=get_stat_atime_ns(&st);
+                if(return_value_get_stat_atime_ns_17 == 0l)
                 {
                   tt = truncated_timeval;
                   (tt + (signed long int)0)->tv_usec = (signed long int)0;
@@ -5729,8 +5729,8 @@ signed int fdutimens(signed int fd, const char *file, struct timespec *timespec)
 
               if(mdiff == 1l && !(mbig == (_Bool)0))
               {
-                return_value_get_stat_mtime_ns$18=get_stat_mtime_ns(&st);
-                if(return_value_get_stat_mtime_ns$18 == 0l)
+                return_value_get_stat_mtime_ns_18=get_stat_mtime_ns(&st);
+                if(return_value_get_stat_mtime_ns_18 == 0l)
                 {
                   tt = truncated_timeval;
                   (tt + (signed long int)1)->tv_usec = (signed long int)0;
@@ -5756,9 +5756,9 @@ signed int fdutimens(signed int fd, const char *file, struct timespec *timespec)
 
     else
     {
-      signed int return_value_utimes$21;
-      return_value_utimes$21=utimes(file, t);
-      return return_value_utimes$21;
+      signed int return_value_utimes_21;
+      return_value_utimes_21=utimes(file, t);
+      return return_value_utimes_21;
     }
   }
 }
@@ -5889,13 +5889,13 @@ unsigned int generate_prefix_code(struct encoder_state *s)
     mtfv[(signed long int)i] = (unsigned short int)as;
   generate_initial_trees(s, nm, nt);
   iter = s->cluster_factor;
-  unsigned int tmp_post$1;
-  unsigned char *tmp_post$3;
+  unsigned int tmp_post_1;
+  unsigned char *tmp_post_3;
   do
   {
-    tmp_post$1 = iter;
+    tmp_post_1 = iter;
     iter = iter - 1u;
-    if(!(tmp_post$1 >= 1u))
+    if(!(tmp_post_1 >= 1u))
       break;
 
     unsigned long int len_pack[259l];
@@ -5912,14 +5912,14 @@ unsigned int generate_prefix_code(struct encoder_state *s)
     gs = mtfv;
     for( ; !(gs >= mtfv + (signed long int)nm); gs = gs + (signed long int)50)
     {
-      signed int return_value_find_best_tree$2;
-      return_value_find_best_tree$2=find_best_tree(gs, nt, len_pack);
-      t = (unsigned int)return_value_find_best_tree$2;
+      signed int return_value_find_best_tree_2;
+      return_value_find_best_tree_2=find_best_tree(gs, nt, len_pack);
+      t = (unsigned int)return_value_find_best_tree_2;
       /* assertion t < nt */
       assert(t < nt);
-      tmp_post$3 = sp;
+      tmp_post_3 = sp;
       sp = sp + 1l;
-      *tmp_post$3 = (unsigned char)t;
+      *tmp_post_3 = (unsigned char)t;
       i = (unsigned int)0;
       for( ; !(i >= 50u); i = i + 1u)
         s->frequency[(signed long int)t][(signed long int)gs[(signed long int)i]] = s->frequency[(signed long int)t][(signed long int)gs[(signed long int)i]] + 1u;
@@ -5934,30 +5934,30 @@ unsigned int generate_prefix_code(struct encoder_state *s)
   while((_Bool)1);
   cost = (unsigned int)0;
   unsigned int not_seen = (unsigned int)((1 << nt) - 1);
-  unsigned int generate_prefix_code$$1$$3$$t;
-  unsigned int generate_prefix_code$$1$$3$$v;
-  unsigned char *generate_prefix_code$$1$$3$$sp = s->selector;
+  unsigned int generate_prefix_code__1__3__t;
+  unsigned int generate_prefix_code__1__3__v;
+  unsigned char *generate_prefix_code__1__3__sp = s->selector;
   nt = (unsigned int)0;
-  unsigned char *tmp_post$4;
+  unsigned char *tmp_post_4;
   while(not_seen >= 1u)
   {
-    tmp_post$4 = generate_prefix_code$$1$$3$$sp;
-    generate_prefix_code$$1$$3$$sp = generate_prefix_code$$1$$3$$sp + 1l;
-    generate_prefix_code$$1$$3$$t = (unsigned int)*tmp_post$4;
-    if(generate_prefix_code$$1$$3$$t >= 6u)
+    tmp_post_4 = generate_prefix_code__1__3__sp;
+    generate_prefix_code__1__3__sp = generate_prefix_code__1__3__sp + 1l;
+    generate_prefix_code__1__3__t = (unsigned int)*tmp_post_4;
+    if(generate_prefix_code__1__3__t >= 6u)
       break;
 
-    if(!((not_seen & (unsigned int)(1 << generate_prefix_code$$1$$3$$t)) == 0u))
+    if(!((not_seen & (unsigned int)(1 << generate_prefix_code__1__3__t)) == 0u))
     {
-      not_seen = not_seen - (unsigned int)(1 << generate_prefix_code$$1$$3$$t);
-      s->tmap_old2new[(signed long int)generate_prefix_code$$1$$3$$t] = nt;
-      s->tmap_new2old[(signed long int)nt] = generate_prefix_code$$1$$3$$t;
+      not_seen = not_seen - (unsigned int)(1 << generate_prefix_code__1__3__t);
+      s->tmap_old2new[(signed long int)generate_prefix_code__1__3__t] = nt;
+      s->tmap_new2old[(signed long int)nt] = generate_prefix_code__1__3__t;
       nt = nt + 1u;
-      unsigned int return_value_assign_codes$5;
-      return_value_assign_codes$5=assign_codes(s->code[(signed long int)generate_prefix_code$$1$$3$$t], s->length[(signed long int)generate_prefix_code$$1$$3$$t], s->frequency[(signed long int)generate_prefix_code$$1$$3$$t], as);
-      cost = cost + return_value_assign_codes$5;
-      s->code[(signed long int)generate_prefix_code$$1$$3$$t][(signed long int)as] = (unsigned int)0;
-      s->length[(signed long int)generate_prefix_code$$1$$3$$t][(signed long int)as] = (unsigned char)0;
+      unsigned int return_value_assign_codes_5;
+      return_value_assign_codes_5=assign_codes(s->code[(signed long int)generate_prefix_code__1__3__t], s->length[(signed long int)generate_prefix_code__1__3__t], s->frequency[(signed long int)generate_prefix_code__1__3__t], as);
+      cost = cost + return_value_assign_codes_5;
+      s->code[(signed long int)generate_prefix_code__1__3__t][(signed long int)as] = (unsigned int)0;
+      s->length[(signed long int)generate_prefix_code__1__3__t][(signed long int)as] = (unsigned char)0;
     }
 
   }
@@ -5966,12 +5966,12 @@ unsigned int generate_prefix_code(struct encoder_state *s)
   if(nt == 1u)
   {
     nt = (unsigned int)2;
-    generate_prefix_code$$1$$3$$t = s->tmap_new2old[(signed long int)0] ^ (unsigned int)1;
-    s->tmap_old2new[(signed long int)generate_prefix_code$$1$$3$$t] = (unsigned int)1;
-    s->tmap_new2old[(signed long int)1] = generate_prefix_code$$1$$3$$t;
-    generate_prefix_code$$1$$3$$v = (unsigned int)0;
-    for( ; !(generate_prefix_code$$1$$3$$v >= 258u); generate_prefix_code$$1$$3$$v = generate_prefix_code$$1$$3$$v + 1u)
-      s->length[(signed long int)generate_prefix_code$$1$$3$$t][(signed long int)generate_prefix_code$$1$$3$$v] = (unsigned char)20;
+    generate_prefix_code__1__3__t = s->tmap_new2old[(signed long int)0] ^ (unsigned int)1;
+    s->tmap_old2new[(signed long int)generate_prefix_code__1__3__t] = (unsigned int)1;
+    s->tmap_new2old[(signed long int)1] = generate_prefix_code__1__3__t;
+    generate_prefix_code__1__3__v = (unsigned int)0;
+    for( ; !(generate_prefix_code__1__3__v >= 258u); generate_prefix_code__1__3__v = generate_prefix_code__1__3__v + 1u)
+      s->length[(signed long int)generate_prefix_code__1__3__t][(signed long int)generate_prefix_code__1__3__v] = (unsigned char)20;
     cost = cost + as + (unsigned int)5;
   }
 
@@ -6044,9 +6044,9 @@ inline signed long int get_stat_mtime_ns(struct stat *st)
 // file ../lib/timespec.h line 107
 void gettime(struct timespec *ts)
 {
-  signed int return_value_clock_gettime$1;
-  return_value_clock_gettime$1=clock_gettime(0, ts);
-  if(!(return_value_clock_gettime$1 == 0))
+  signed int return_value_clock_gettime_1;
+  return_value_clock_gettime_1=clock_gettime(0, ts);
+  if(!(return_value_clock_gettime_1 == 0))
   {
     struct timeval tv;
     gettimeofday(&tv, (struct timezone *)(void *)0);
@@ -6063,23 +6063,23 @@ void halt(void)
   signed int sig;
   signed int ret;
   ret=sigsuspend(&saved);
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   if(ret == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    tmp_if_expr$2 = 4 == *return_value___errno_location$1 ? (_Bool)1 : (_Bool)0;
+    return_value___errno_location_1=__errno_location();
+    tmp_if_expr_2 = 4 == *return_value___errno_location_1 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
+    tmp_if_expr_2 = (_Bool)0;
   /* assertion -1 == ret && 4 == (*__errno_location ()) */
-  assert(tmp_if_expr$2);
+  assert(tmp_if_expr_2);
   sig = handled_signals[(signed long int)caught_index];
-  _Bool return_value_xmember$3;
-  return_value_xmember$3=xmember(&handled, sig);
+  _Bool return_value_xmember_3;
+  return_value_xmember_3=xmember(&handled, sig);
   /* assertion xmember(&handled, sig) */
-  assert(return_value_xmember$3 != (_Bool)0);
+  assert(return_value_xmember_3 != (_Bool)0);
   if(!(sig == 10))
   {
     if(sig == 12)
@@ -6147,17 +6147,17 @@ void infox(signed int x, const char *fmt, ...)
 // file compress.c line 318
 static void init(void)
 {
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc((unsigned long int)in_slots * sizeof(struct in_blk *) /*8ul*/ );
-  coll_q.root = (struct in_blk ** restrict )return_value_xmalloc$1;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc((unsigned long int)in_slots * sizeof(struct in_blk *) /*8ul*/ );
+  coll_q.root = (struct in_blk ** restrict )return_value_xmalloc_1;
   coll_q.size = (unsigned int)0;
-  void *return_value_xmalloc$2;
-  return_value_xmalloc$2=xmalloc((unsigned long int)work_units * sizeof(struct work_blk *) /*8ul*/ );
-  trans_q.root = (struct work_blk ** restrict )return_value_xmalloc$2;
+  void *return_value_xmalloc_2;
+  return_value_xmalloc_2=xmalloc((unsigned long int)work_units * sizeof(struct work_blk *) /*8ul*/ );
+  trans_q.root = (struct work_blk ** restrict )return_value_xmalloc_2;
   trans_q.size = (unsigned int)0;
-  void *return_value_xmalloc$3;
-  return_value_xmalloc$3=xmalloc((unsigned long int)out_slots * sizeof(struct work_blk *) /*8ul*/ );
-  reord_q.root = (struct work_blk ** restrict )return_value_xmalloc$3;
+  void *return_value_xmalloc_3;
+  return_value_xmalloc_3=xmalloc((unsigned long int)out_slots * sizeof(struct work_blk *) /*8ul*/ );
+  reord_q.root = (struct work_blk ** restrict )return_value_xmalloc_3;
   reord_q.size = (unsigned int)0;
   next_id = (unsigned long int)0;
   order.major = (unsigned long int)0;
@@ -6168,42 +6168,42 @@ static void init(void)
   write_header();
 }
 
-// init$link1
+// init_link1
 // file expand.c line 880
-static void init$link1(void)
+static void init_link1(void)
 {
-  void *return_value_xmalloc$1$link1;
-  return_value_xmalloc$1$link1=xmalloc((unsigned long int)in_slots * sizeof(struct in_blk$0 *) /*8ul*/ );
-  input_q.root = (struct in_blk$0 ** restrict )return_value_xmalloc$1$link1;
+  void *return_value_xmalloc_1_link1;
+  return_value_xmalloc_1_link1=xmalloc((unsigned long int)in_slots * sizeof(struct in_blk_0 *) /*8ul*/ );
+  input_q.root = (struct in_blk_0 ** restrict )return_value_xmalloc_1_link1;
   input_q.modulus = in_slots;
   input_q.size = (unsigned int)0;
   input_q.head = input_q.size;
-  void *return_value_xmalloc$2$link1;
-  return_value_xmalloc$2$link1=xmalloc((unsigned long int)in_slots * sizeof(struct detached_bitstream *) /*8ul*/ );
-  scan_q.root = (struct detached_bitstream ** restrict )return_value_xmalloc$2$link1;
+  void *return_value_xmalloc_2_link1;
+  return_value_xmalloc_2_link1=xmalloc((unsigned long int)in_slots * sizeof(struct detached_bitstream *) /*8ul*/ );
+  scan_q.root = (struct detached_bitstream ** restrict )return_value_xmalloc_2_link1;
   scan_q.size = (unsigned int)0;
-  void *return_value_xmalloc$3$link1;
-  return_value_xmalloc$3$link1=xmalloc((unsigned long int)work_units * sizeof(struct retr_blk *) /*8ul*/ );
-  retr_q.root = (struct retr_blk ** restrict )return_value_xmalloc$3$link1;
+  void *return_value_xmalloc_3_link1;
+  return_value_xmalloc_3_link1=xmalloc((unsigned long int)work_units * sizeof(struct retr_blk *) /*8ul*/ );
+  retr_q.root = (struct retr_blk ** restrict )return_value_xmalloc_3_link1;
   retr_q.size = (unsigned int)0;
-  void *return_value_xmalloc$4;
-  return_value_xmalloc$4=xmalloc((unsigned long int)work_units * sizeof(struct emit_blk *) /*8ul*/ );
-  emit_q.root = (struct emit_blk ** restrict )return_value_xmalloc$4;
+  void *return_value_xmalloc_4;
+  return_value_xmalloc_4=xmalloc((unsigned long int)work_units * sizeof(struct emit_blk *) /*8ul*/ );
+  emit_q.root = (struct emit_blk ** restrict )return_value_xmalloc_4;
   emit_q.size = (unsigned int)0;
-  void *return_value_xmalloc$5;
-  return_value_xmalloc$5=xmalloc((unsigned long int)(work_units + out_slots > 1u + 2u ? (work_units + out_slots) - (1u + 2u) : (unsigned int)0) * sizeof(struct unord_blk *) /*8ul*/ );
-  unord_q.root = (struct unord_blk ** restrict )return_value_xmalloc$5;
+  void *return_value_xmalloc_5;
+  return_value_xmalloc_5=xmalloc((unsigned long int)(work_units + out_slots > 1u + 2u ? (work_units + out_slots) - (1u + 2u) : (unsigned int)0) * sizeof(struct unord_blk *) /*8ul*/ );
+  unord_q.root = (struct unord_blk ** restrict )return_value_xmalloc_5;
   unord_q.size = (unsigned int)0;
-  void *return_value_xmalloc$6;
-  return_value_xmalloc$6=xmalloc((unsigned long int)(work_units + out_slots) * sizeof(struct head_blk) /*24ul*/ );
-  order_q.root = (struct head_blk *)return_value_xmalloc$6;
+  void *return_value_xmalloc_6;
+  return_value_xmalloc_6=xmalloc((unsigned long int)(work_units + out_slots) * sizeof(struct head_blk) /*24ul*/ );
+  order_q.root = (struct head_blk *)return_value_xmalloc_6;
   order_q.modulus = work_units + out_slots;
   order_q.size = (unsigned int)0;
   order_q.head = order_q.size;
-  void *return_value_xmalloc$7;
-  return_value_xmalloc$7=xmalloc((unsigned long int)out_slots * sizeof(struct out_blk *) /*8ul*/ );
-  reord_q$link1.root = (struct out_blk ** restrict )return_value_xmalloc$7;
-  reord_q$link1.size = (unsigned int)0;
+  void *return_value_xmalloc_7;
+  return_value_xmalloc_7=xmalloc((unsigned long int)out_slots * sizeof(struct out_blk *) /*8ul*/ );
+  reord_q_link1.root = (struct out_blk ** restrict )return_value_xmalloc_7;
+  reord_q_link1.size = (unsigned int)0;
   head_offs = (unsigned long int)0;
   tail_offs = (unsigned long int)0;
   eof_missing = (unsigned int)0;
@@ -6220,9 +6220,9 @@ static void init_io(void)
 {
   request_close = (_Bool)0;
   finish = (_Bool)0;
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc((unsigned long int)out_slots * sizeof(struct block) /*24ul*/ );
-  output_q.root = (struct block *)return_value_xmalloc$1;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc((unsigned long int)out_slots * sizeof(struct block) /*24ul*/ );
+  output_q.root = (struct block *)return_value_xmalloc_1;
   output_q.modulus = out_slots;
   output_q.size = (unsigned int)0;
   output_q.head = output_q.size;
@@ -6235,8 +6235,8 @@ static void init_io(void)
 static signed int input_init(struct arg *operand, struct stat *sbuf)
 {
   ispec.total = (unsigned long int)0u;
-  _Bool tmp_if_expr$9;
-  signed int return_value_suffix_xform$8;
+  _Bool tmp_if_expr_9;
+  signed int return_value_suffix_xform_8;
   if(operand == ((struct arg *)NULL))
   {
     ispec.fd = 0;
@@ -6250,13 +6250,13 @@ static signed int input_init(struct arg *operand, struct stat *sbuf)
   {
     if(force == (_Bool)0)
     {
-      signed int return_value_lstat$2;
-      return_value_lstat$2=lstat(operand->val, sbuf);
-      if(return_value_lstat$2 == -1)
+      signed int return_value_lstat_2;
+      return_value_lstat_2=lstat(operand->val, sbuf);
+      if(return_value_lstat_2 == -1)
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        warnx(*return_value___errno_location$1, "skipping \"%s\": lstat()", operand->val);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        warnx(*return_value___errno_location_1, "skipping \"%s\": lstat()", operand->val);
         return -1;
       }
 
@@ -6284,13 +6284,13 @@ static signed int input_init(struct arg *operand, struct stat *sbuf)
 
     if(decompress == (_Bool)0)
     {
-      return_value_suffix_xform$8=suffix_xform(operand->val, ((char **)NULL));
-      tmp_if_expr$9 = return_value_suffix_xform$8 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_suffix_xform_8=suffix_xform(operand->val, ((char **)NULL));
+      tmp_if_expr_9 = return_value_suffix_xform_8 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$9 = (_Bool)0;
-    if(tmp_if_expr$9)
+      tmp_if_expr_9 = (_Bool)0;
+    if(tmp_if_expr_9)
       warn("skipping \"%s\": compressed suffix", operand->val);
 
     else
@@ -6299,16 +6299,16 @@ static signed int input_init(struct arg *operand, struct stat *sbuf)
       infd=open(operand->val, 00 | 0400);
       if(infd == -1)
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        warnx(*return_value___errno_location$3, "skipping \"%s\": open()", operand->val);
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        warnx(*return_value___errno_location_3, "skipping \"%s\": open()", operand->val);
       }
 
       else
       {
-        signed int return_value_fstat$4;
-        return_value_fstat$4=fstat(infd, sbuf);
-        if(!(return_value_fstat$4 == -1))
+        signed int return_value_fstat_4;
+        return_value_fstat_4=fstat(infd, sbuf);
+        if(!(return_value_fstat_4 == -1))
         {
           ispec.fd = infd;
           ispec.sep = "\"";
@@ -6319,16 +6319,16 @@ static signed int input_init(struct arg *operand, struct stat *sbuf)
           return 0;
         }
 
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        warnx(*return_value___errno_location$5, "skipping \"%s\": fstat()", operand->val);
-        signed int return_value_close$7;
-        return_value_close$7=close(infd);
-        if(return_value_close$7 == -1)
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        warnx(*return_value___errno_location_5, "skipping \"%s\": fstat()", operand->val);
+        signed int return_value_close_7;
+        return_value_close_7=close(infd);
+        if(return_value_close_7 == -1)
         {
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          failx(*return_value___errno_location$6, "close(\"%s\")", operand->val);
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          failx(*return_value___errno_location_6, "close(\"%s\")", operand->val);
         }
 
       }
@@ -6343,17 +6343,17 @@ static void input_oprnd_rm(struct arg *operand)
 {
   /* assertion 0 != operand */
   assert(((struct arg *)NULL) != operand);
-  signed int return_value_unlink$3;
-  return_value_unlink$3=unlink(operand->val);
-  signed int *return_value___errno_location$2;
-  if(return_value_unlink$3 == -1)
+  signed int return_value_unlink_3;
+  return_value_unlink_3=unlink(operand->val);
+  signed int *return_value___errno_location_2;
+  if(return_value_unlink_3 == -1)
   {
-    return_value___errno_location$2=__errno_location();
-    if(!(*return_value___errno_location$2 == 2))
+    return_value___errno_location_2=__errno_location();
+    if(!(*return_value___errno_location_2 == 2))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      warnx(*return_value___errno_location$1, "unlink(\"%s\")", operand->val);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      warnx(*return_value___errno_location_1, "unlink(\"%s\")", operand->val);
     }
 
   }
@@ -6364,13 +6364,13 @@ static void input_oprnd_rm(struct arg *operand)
 // file main.c line 771
 static void input_uninit(void)
 {
-  signed int return_value_close$2;
-  return_value_close$2=close(ispec.fd);
-  if(return_value_close$2 == -1)
+  signed int return_value_close_2;
+  return_value_close_2=close(ispec.fd);
+  if(return_value_close_2 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    failx(*return_value___errno_location$1, "close(%s%s%s)", ispec.sep, ispec.fmt, ispec.sep);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    failx(*return_value___errno_location_1, "close(%s%s%s)", ispec.sep, ispec.fmt, ispec.sep);
   }
 
 }
@@ -6379,94 +6379,94 @@ static void input_uninit(void)
 // file vasnprintf.c line 311
 static signed int is_infinite_or_zerol(long double x)
 {
-  signed int return_value_rpl_isnanl$1;
-  return_value_rpl_isnanl$1=rpl_isnanl(x);
-  return (signed int)(return_value_rpl_isnanl$1 != 0 ? (_Bool)1 : (IEEE_FLOAT_EQUAL(x + x, x) ? (_Bool)1 : (_Bool)0));
+  signed int return_value_rpl_isnanl_1;
+  return_value_rpl_isnanl_1=rpl_isnanl(x);
+  return (signed int)(return_value_rpl_isnanl_1 != 0 ? (_Bool)1 : (IEEE_FLOAT_EQUAL(x + x, x) ? (_Bool)1 : (_Bool)0));
 }
 
 // log_generic
 // file main.c line 90
 static void log_generic(struct filespec *fs, signed int code, const char *fmt, void **args, signed int nl)
 {
-  signed int return_value_rpl_fprintf$1;
-  return_value_rpl_fprintf$1=rpl_fprintf(stderr, "%s: ", pname);
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int return_value_rpl_fprintf$2;
-  if(!(return_value_rpl_fprintf$1 >= 0))
-    tmp_if_expr$4 = (_Bool)1;
+  signed int return_value_rpl_fprintf_1;
+  return_value_rpl_fprintf_1=rpl_fprintf(stderr, "%s: ", pname);
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int return_value_rpl_fprintf_2;
+  if(!(return_value_rpl_fprintf_1 >= 0))
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
     if(!(fs == ((struct filespec *)NULL)))
     {
-      return_value_rpl_fprintf$2=rpl_fprintf(stderr, "%s%s%s: ", fs->sep, fs->fmt, fs->sep);
-      tmp_if_expr$3 = 0 > return_value_rpl_fprintf$2 ? (_Bool)1 : (_Bool)0;
+      return_value_rpl_fprintf_2=rpl_fprintf(stderr, "%s%s%s: ", fs->sep, fs->fmt, fs->sep);
+      tmp_if_expr_3 = 0 > return_value_rpl_fprintf_2 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$6;
-  signed int return_value_vfprintf$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$6 = (_Bool)1;
+  _Bool tmp_if_expr_6;
+  signed int return_value_vfprintf_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
   {
-    return_value_vfprintf$5=vfprintf(stderr, fmt, args);
-    tmp_if_expr$6 = 0 > return_value_vfprintf$5 ? (_Bool)1 : (_Bool)0;
+    return_value_vfprintf_5=vfprintf(stderr, fmt, args);
+    tmp_if_expr_6 = 0 > return_value_vfprintf_5 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$9;
-  char *return_value_strerror$7;
-  signed int return_value_rpl_fprintf$8;
-  if(tmp_if_expr$6)
-    tmp_if_expr$10 = (_Bool)1;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_9;
+  char *return_value_strerror_7;
+  signed int return_value_rpl_fprintf_8;
+  if(tmp_if_expr_6)
+    tmp_if_expr_10 = (_Bool)1;
 
   else
   {
     if(!(code == 0))
     {
-      return_value_strerror$7=strerror(code);
-      return_value_rpl_fprintf$8=rpl_fprintf(stderr, ": %s", return_value_strerror$7);
-      tmp_if_expr$9 = 0 > return_value_rpl_fprintf$8 ? (_Bool)1 : (_Bool)0;
+      return_value_strerror_7=strerror(code);
+      return_value_rpl_fprintf_8=rpl_fprintf(stderr, ": %s", return_value_strerror_7);
+      tmp_if_expr_9 = 0 > return_value_rpl_fprintf_8 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$9 = (_Bool)0;
-    tmp_if_expr$10 = tmp_if_expr$9 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_9 = (_Bool)0;
+    tmp_if_expr_10 = tmp_if_expr_9 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$12;
-  signed int return_value_rpl_fprintf$11;
-  if(tmp_if_expr$10)
-    tmp_if_expr$13 = (_Bool)1;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_12;
+  signed int return_value_rpl_fprintf_11;
+  if(tmp_if_expr_10)
+    tmp_if_expr_13 = (_Bool)1;
 
   else
   {
     if(!(nl == 0))
     {
-      return_value_rpl_fprintf$11=rpl_fprintf(stderr, "\n");
-      tmp_if_expr$12 = 0 > return_value_rpl_fprintf$11 ? (_Bool)1 : (_Bool)0;
+      return_value_rpl_fprintf_11=rpl_fprintf(stderr, "\n");
+      tmp_if_expr_12 = 0 > return_value_rpl_fprintf_11 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$12 = (_Bool)0;
-    tmp_if_expr$13 = tmp_if_expr$12 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_12 = (_Bool)0;
+    tmp_if_expr_13 = tmp_if_expr_12 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$15;
-  signed int return_value_fflush$14;
-  if(tmp_if_expr$13)
-    tmp_if_expr$15 = (_Bool)1;
+  _Bool tmp_if_expr_15;
+  signed int return_value_fflush_14;
+  if(tmp_if_expr_13)
+    tmp_if_expr_15 = (_Bool)1;
 
   else
   {
-    return_value_fflush$14=fflush(stderr);
-    tmp_if_expr$15 = 0 != return_value_fflush$14 ? (_Bool)1 : (_Bool)0;
+    return_value_fflush_14=fflush(stderr);
+    tmp_if_expr_15 = 0 != return_value_fflush_14 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$15)
+  if(tmp_if_expr_15)
     bailout();
 
 }
@@ -6477,13 +6477,13 @@ signed int lutimens(const char *file, struct timespec *timespec)
 {
   struct timespec adjusted_timespec[2l];
   struct timespec *ts;
-  struct timespec *tmp_if_expr$1;
+  struct timespec *tmp_if_expr_1;
   if(!(timespec == ((struct timespec *)NULL)))
-    tmp_if_expr$1 = adjusted_timespec;
+    tmp_if_expr_1 = adjusted_timespec;
 
   else
-    tmp_if_expr$1 = (struct timespec *)(void *)0;
-  ts = tmp_if_expr$1;
+    tmp_if_expr_1 = (struct timespec *)(void *)0;
+  ts = tmp_if_expr_1;
   signed int adjustment_needed = 0;
   struct stat st;
   if(!(ts == ((struct timespec *)NULL)))
@@ -6493,13 +6493,13 @@ signed int lutimens(const char *file, struct timespec *timespec)
     adjustment_needed=validate_timespec(ts);
   }
 
-  signed int *return_value___errno_location$3;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
-  signed int return_value_lstat$6;
-  _Bool return_value_update_timespec$7;
-  signed int return_value_lstat$8;
-  signed int return_value_fdutimens$9;
+  signed int *return_value___errno_location_3;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
+  signed int return_value_lstat_6;
+  _Bool return_value_update_timespec_7;
+  signed int return_value_lstat_8;
+  signed int return_value_fdutimens_9;
   if(!(adjustment_needed >= 0))
     return -1;
 
@@ -6510,9 +6510,9 @@ signed int lutimens(const char *file, struct timespec *timespec)
       signed int result;
       if(adjustment_needed == 2)
       {
-        signed int return_value_lstat$2;
-        return_value_lstat$2=lstat(file, &st);
-        if(!(return_value_lstat$2 == 0))
+        signed int return_value_lstat_2;
+        return_value_lstat_2=lstat(file, &st);
+        if(!(return_value_lstat_2 == 0))
           return -1;
 
         if(ts->tv_nsec == 1073741822l)
@@ -6528,19 +6528,19 @@ signed int lutimens(const char *file, struct timespec *timespec)
       result=utimensat(-100, file, ts, 0x100);
       if(result >= 1)
       {
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = 38;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = 38;
       }
 
       if(result == 0)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$4=__errno_location();
-        tmp_if_expr$5 = *return_value___errno_location$4 != 38 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_4=__errno_location();
+        tmp_if_expr_5 = *return_value___errno_location_4 != 38 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
+      if(tmp_if_expr_5)
       {
         utimensat_works_really = 1;
         lutimensat_works_really = 1;
@@ -6554,16 +6554,16 @@ signed int lutimens(const char *file, struct timespec *timespec)
     {
       if(!(adjustment_needed == 3))
       {
-        return_value_lstat$6=lstat(file, &st);
-        if(!(return_value_lstat$6 == 0))
+        return_value_lstat_6=lstat(file, &st);
+        if(!(return_value_lstat_6 == 0))
           return -1;
 
       }
 
       if(!(ts == ((struct timespec *)NULL)))
       {
-        return_value_update_timespec$7=update_timespec(&st, &ts);
-        if(!(return_value_update_timespec$7 == (_Bool)0))
+        return_value_update_timespec_7=update_timespec(&st, &ts);
+        if(!(return_value_update_timespec_7 == (_Bool)0))
           return 0;
 
       }
@@ -6572,8 +6572,8 @@ signed int lutimens(const char *file, struct timespec *timespec)
 
     if(adjustment_needed == 0)
     {
-      return_value_lstat$8=lstat(file, &st);
-      if(return_value_lstat$8 == 0)
+      return_value_lstat_8=lstat(file, &st);
+      if(return_value_lstat_8 == 0)
         goto __CPROVER_DUMP_L17;
 
       return -1;
@@ -6586,15 +6586,15 @@ signed int lutimens(const char *file, struct timespec *timespec)
       ;
       if(!((61440u & st.st_mode) == 40960u))
       {
-        return_value_fdutimens$9=fdutimens(-1, file, ts);
-        return return_value_fdutimens$9;
+        return_value_fdutimens_9=fdutimens(-1, file, ts);
+        return return_value_fdutimens_9;
       }
 
       else
       {
-        signed int *return_value___errno_location$10;
-        return_value___errno_location$10=__errno_location();
-        *return_value___errno_location$10 = 38;
+        signed int *return_value___errno_location_10;
+        return_value___errno_location_10=__errno_location();
+        *return_value___errno_location_10 = 38;
         return -1;
       }
     }
@@ -6607,13 +6607,13 @@ signed int main(signed int argc, char **argv)
 {
   struct arg *operands;
   pname=strrchr(argv[(signed long int)0], 47);
-  const char *tmp_if_expr$1;
+  const char *tmp_if_expr_1;
   if(!(pname == ((const char *)NULL)))
-    tmp_if_expr$1 = pname + (signed long int)1;
+    tmp_if_expr_1 = pname + (signed long int)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)0];
-  pname = tmp_if_expr$1;
+    tmp_if_expr_1 = argv[(signed long int)0];
+  pname = tmp_if_expr_1;
   static char stderr_buf[8192l];
   setbuf(stderr, stderr_buf);
   setup_signals();
@@ -6627,9 +6627,9 @@ signed int main(signed int argc, char **argv)
     if(!(ret == -1))
     {
       cli();
-      signed int return_value_output_init$2;
-      return_value_output_init$2=output_init(operands, &instat);
-      if(!(return_value_output_init$2 == -1))
+      signed int return_value_output_init_2;
+      return_value_output_init_2=output_init(operands, &instat);
+      if(!(return_value_output_init_2 == -1))
       {
         work();
         if((signed int)outmode == OM_REGF)
@@ -6672,15 +6672,15 @@ signed int main(signed int argc, char **argv)
   while(!(operands == ((struct arg *)NULL)));
   /* assertion 0 == opathn */
   assert(((char *)NULL) == opathn);
-  signed int return_value_close$4;
+  signed int return_value_close_4;
   if((signed int)outmode == OM_STDOUT)
   {
-    return_value_close$4=close(1);
-    if(return_value_close$4 == -1)
+    return_value_close_4=close(1);
+    if(return_value_close_4 == -1)
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      failx(*return_value___errno_location$3, "close(stdout)");
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      failx(*return_value___errno_location_3, "close(stdout)");
     }
 
   }
@@ -6704,15 +6704,15 @@ static void make_code_lengths(unsigned char *length, unsigned int *frequency, un
   /* assertion as <= (2+255+1) */
   assert(as <= (unsigned int)(2 + 255 + 1));
   i = (unsigned int)0;
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   for( ; !(i >= as); i = i + 1u)
   {
     if(!(frequency[(signed long int)i] >= 1u))
-      tmp_if_expr$1 = 1u;
+      tmp_if_expr_1 = 1u;
 
     else
-      tmp_if_expr$1 = frequency[(signed long int)i];
-    weight[(signed long int)i] = (unsigned long int)tmp_if_expr$1 << 32 | (unsigned long int)0x10000 | (unsigned long int)((unsigned int)(2 + 255 + 1) - i);
+      tmp_if_expr_1 = frequency[(signed long int)i];
+    weight[(signed long int)i] = (unsigned long int)tmp_if_expr_1 << 32 | (unsigned long int)0x10000 | (unsigned long int)((unsigned int)(2 + 255 + 1) - i);
   }
   sort_alphabet(weight, weight + (signed long int)as);
   build_tree(V, weight, (signed int)as);
@@ -6769,7 +6769,7 @@ inline struct timespec make_timespec(signed long int s, signed long int ns)
 static void make_tree(struct retriever_internal_state *rs)
 {
   unsigned int n;
-  const unsigned char *make_tree$$1$$L;
+  const unsigned char *make_tree__1__L;
   unsigned int *C;
   unsigned long int *B;
   unsigned short int *P;
@@ -6783,7 +6783,7 @@ static void make_tree(struct retriever_internal_state *rs)
   unsigned long int inc;
   unsigned long int v;
   n = rs->alpha_size;
-  make_tree$$1$$L = rs->code_len;
+  make_tree__1__L = rs->code_len;
   C = rs->tree[(signed long int)rs->t].count;
   B = rs->tree[(signed long int)rs->t].base;
   P = rs->tree[(signed long int)rs->t].perm;
@@ -6794,7 +6794,7 @@ static void make_tree(struct retriever_internal_state *rs)
   s = (unsigned int)0;
   for( ; !(s >= n); s = s + 1u)
   {
-    k = (unsigned int)make_tree$$1$$L[(signed long int)s];
+    k = (unsigned int)make_tree__1__L[(signed long int)s];
     C[(signed long int)k] = C[(signed long int)k] + 1u;
   }
   /* assertion C[0] == 0 */
@@ -6803,13 +6803,13 @@ static void make_tree(struct retriever_internal_state *rs)
   k = (unsigned int)1;
   for( ; !(k >= 21u); k = k + 1u)
     sofar = sofar + ((unsigned long int)C[(signed long int)k] << (unsigned int)20 - k);
-  _Bool tmp_if_expr$1;
-  unsigned int tmp_post$2;
-  unsigned int tmp_post$3;
-  unsigned int tmp_post$4;
-  unsigned int tmp_post$5;
-  unsigned int tmp_post$6;
-  unsigned long int tmp_post$7;
+  _Bool tmp_if_expr_1;
+  unsigned int tmp_post_2;
+  unsigned int tmp_post_3;
+  unsigned int tmp_post_4;
+  unsigned int tmp_post_5;
+  unsigned int tmp_post_6;
+  unsigned long int tmp_post_7;
   if(!(sofar == 1048576ul))
     rs->mtf[(signed long int)rs->t] = (unsigned int)(sofar < (unsigned long int)(1 << 20) ? 11 : 10);
 
@@ -6834,15 +6834,15 @@ static void make_tree(struct retriever_internal_state *rs)
       /* assertion k > 1 */
       assert(k > (unsigned int)1);
       if(k >= 21u)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = B[(signed long int)k] == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = B[(signed long int)k] == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
       /* assertion k > 20 || B[k] == 0 */
-      assert(tmp_if_expr$1);
-      tmp_post$2 = k;
+      assert(tmp_if_expr_1);
+      tmp_post_2 = k;
       k = k - 1u;
-      B[(signed long int)tmp_post$2] = (unsigned long int)-1;
+      B[(signed long int)tmp_post_2] = (unsigned long int)-1;
     }
     while(C[(signed long int)k] == 0u);
     cum = (unsigned int)0;
@@ -6855,22 +6855,22 @@ static void make_tree(struct retriever_internal_state *rs)
     }
     /* assertion cum == n */
     assert(cum == n);
-    tmp_post$3 = C[(signed long int)make_tree$$1$$L[(signed long int)0]];
-    C[(signed long int)make_tree$$1$$L[(signed long int)0]] = C[(signed long int)make_tree$$1$$L[(signed long int)0]] + 1u;
-    P[(signed long int)tmp_post$3] = (unsigned short int)(256 + 1);
-    tmp_post$4 = C[(signed long int)make_tree$$1$$L[(signed long int)1]];
-    C[(signed long int)make_tree$$1$$L[(signed long int)1]] = C[(signed long int)make_tree$$1$$L[(signed long int)1]] + 1u;
-    P[(signed long int)tmp_post$4] = (unsigned short int)(256 + 2);
+    tmp_post_3 = C[(signed long int)make_tree__1__L[(signed long int)0]];
+    C[(signed long int)make_tree__1__L[(signed long int)0]] = C[(signed long int)make_tree__1__L[(signed long int)0]] + 1u;
+    P[(signed long int)tmp_post_3] = (unsigned short int)(256 + 1);
+    tmp_post_4 = C[(signed long int)make_tree__1__L[(signed long int)1]];
+    C[(signed long int)make_tree__1__L[(signed long int)1]] = C[(signed long int)make_tree__1__L[(signed long int)1]] + 1u;
+    P[(signed long int)tmp_post_4] = (unsigned short int)(256 + 2);
     s = (unsigned int)2;
     for( ; !(s >= n + 4294967295u); s = s + 1u)
     {
-      tmp_post$5 = C[(signed long int)make_tree$$1$$L[(signed long int)s]];
-      C[(signed long int)make_tree$$1$$L[(signed long int)s]] = C[(signed long int)make_tree$$1$$L[(signed long int)s]] + 1u;
-      P[(signed long int)tmp_post$5] = (unsigned short int)(s - (unsigned int)1);
+      tmp_post_5 = C[(signed long int)make_tree__1__L[(signed long int)s]];
+      C[(signed long int)make_tree__1__L[(signed long int)s]] = C[(signed long int)make_tree__1__L[(signed long int)s]] + 1u;
+      P[(signed long int)tmp_post_5] = (unsigned short int)(s - (unsigned int)1);
     }
-    tmp_post$6 = C[(signed long int)make_tree$$1$$L[(signed long int)(n - (unsigned int)1)]];
-    C[(signed long int)make_tree$$1$$L[(signed long int)(n - (unsigned int)1)]] = C[(signed long int)make_tree$$1$$L[(signed long int)(n - (unsigned int)1)]] + 1u;
-    P[(signed long int)tmp_post$6] = (unsigned short int)0;
+    tmp_post_6 = C[(signed long int)make_tree__1__L[(signed long int)(n - (unsigned int)1)]];
+    C[(signed long int)make_tree__1__L[(signed long int)(n - (unsigned int)1)]] = C[(signed long int)make_tree__1__L[(signed long int)(n - (unsigned int)1)]] + 1u;
+    P[(signed long int)tmp_post_6] = (unsigned short int)0;
     code = (unsigned int)0;
     inc = (unsigned long int)(1 << 10 - 1);
     k = (unsigned int)1;
@@ -6882,9 +6882,9 @@ static void make_tree(struct retriever_internal_state *rs)
         unsigned short int x = (unsigned short int)((unsigned int)((signed int)P[(signed long int)s] << 5) | k);
         v = (unsigned long int)code;
         code = code + (unsigned int)inc;
-        for( ; !(v >= (unsigned long int)code); S[(signed long int)tmp_post$7] = x)
+        for( ; !(v >= (unsigned long int)code); S[(signed long int)tmp_post_7] = x)
         {
-          tmp_post$7 = v;
+          tmp_post_7 = v;
           v = v + 1ul;
         }
       }
@@ -6916,7 +6916,7 @@ static void make_tree(struct retriever_internal_state *rs)
 static unsigned char mtf_one(unsigned char **imtf_row, unsigned char *imtf_slide, unsigned char c)
 {
   unsigned char *pp;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   if(!((unsigned int)c >= 16u))
   {
     unsigned int nn = (unsigned int)c;
@@ -7052,15 +7052,15 @@ static unsigned char mtf_one(unsigned char **imtf_row, unsigned char *imtf_slide
     }
 
     unsigned char **lno = imtf_row + (signed long int)((unsigned int)c / 16u);
-    unsigned char *mtf_one$$1$$2$$2$$bb = *lno;
-    pp = mtf_one$$1$$2$$2$$bb + (signed long int)((unsigned int)c % 16u);
+    unsigned char *mtf_one__1__2__2__bb = *lno;
+    pp = mtf_one__1__2__2__bb + (signed long int)((unsigned int)c % 16u);
     c = *pp;
-    while(!(mtf_one$$1$$2$$2$$bb >= pp))
+    while(!(mtf_one__1__2__2__bb >= pp))
     {
       unsigned char *tt;
-      tmp_post$1 = pp;
+      tmp_post_1 = pp;
       pp = pp - 1l;
-      tt = tmp_post$1;
+      tt = tmp_post_1;
       *tt = *pp;
     }
     while(!(imtf_row >= lno))
@@ -7081,12 +7081,12 @@ static unsigned char mtf_one(unsigned char **imtf_row, unsigned char *imtf_slide
 static void on_input_avail(void *buffer, unsigned long int size)
 {
   struct in_blk *iblk;
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc(sizeof(struct in_blk) /*48ul*/ );
-  iblk = (struct in_blk *)return_value_xmalloc$1;
-  unsigned long int tmp_post$2 = next_id;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc(sizeof(struct in_blk) /*48ul*/ );
+  iblk = (struct in_blk *)return_value_xmalloc_1;
+  unsigned long int tmp_post_2 = next_id;
   next_id = next_id + 1ul;
-  iblk->pos.major = tmp_post$2;
+  iblk->pos.major = tmp_post_2;
   iblk->pos.minor = (unsigned long int)0u;
   iblk->buffer = buffer;
   iblk->size = size;
@@ -7094,54 +7094,54 @@ static void on_input_avail(void *buffer, unsigned long int size)
   iblk->left = size;
   sched_lock();
   coll_q.root[(signed long int)coll_q.size] = iblk;
-  unsigned int tmp_post$3 = coll_q.size;
+  unsigned int tmp_post_3 = coll_q.size;
   coll_q.size = coll_q.size + 1u;
-  up_heap((void *)coll_q.root, tmp_post$3);
+  up_heap((void *)coll_q.root, tmp_post_3);
   sched_unlock();
 }
 
-// on_input_avail$link1
+// on_input_avail_link1
 // file expand.c line 827
-static void on_input_avail$link1(void *buffer$link1, unsigned long int size$link1)
+static void on_input_avail_link1(void *buffer_link1, unsigned long int size_link1)
 {
-  struct in_blk$0 *iblk$link1;
+  struct in_blk_0 *iblk_link1;
   struct detached_bitstream *scan_task;
   unsigned int missing;
-  void *return_value_xmalloc$1$link1;
-  return_value_xmalloc$1$link1=xmalloc(sizeof(struct in_blk$0) /*32ul*/ );
-  iblk$link1 = (struct in_blk$0 *)return_value_xmalloc$1$link1;
-  iblk$link1->buffer = buffer$link1;
-  iblk$link1->size = (size$link1 + (unsigned long int)3) / (unsigned long int)4;
-  iblk$link1->ref_count = 1u;
-  iblk$link1->offset = tail_offs;
-  missing = (unsigned int)(-size$link1 % (unsigned long int)4);
-  bzero((void *)((char *)buffer$link1 + (signed long int)size$link1), (unsigned long int)missing);
-  void *return_value_xmalloc$2;
-  return_value_xmalloc$2=xmalloc(sizeof(struct detached_bitstream) /*48ul*/ );
-  scan_task = (struct detached_bitstream *)return_value_xmalloc$2;
+  void *return_value_xmalloc_1_link1;
+  return_value_xmalloc_1_link1=xmalloc(sizeof(struct in_blk_0) /*32ul*/ );
+  iblk_link1 = (struct in_blk_0 *)return_value_xmalloc_1_link1;
+  iblk_link1->buffer = buffer_link1;
+  iblk_link1->size = (size_link1 + (unsigned long int)3) / (unsigned long int)4;
+  iblk_link1->ref_count = 1u;
+  iblk_link1->offset = tail_offs;
+  missing = (unsigned int)(-size_link1 % (unsigned long int)4);
+  bzero((void *)((char *)buffer_link1 + (signed long int)size_link1), (unsigned long int)missing);
+  void *return_value_xmalloc_2;
+  return_value_xmalloc_2=xmalloc(sizeof(struct detached_bitstream) /*48ul*/ );
+  scan_task = (struct detached_bitstream *)return_value_xmalloc_2;
   *scan_task=bits_init(tail_offs);
   sched_lock();
-  unsigned int tmp_post$3$link1;
+  unsigned int tmp_post_3_link1;
   if(!(parsing_done == (_Bool)0))
   {
     sched_unlock();
-    free((void *)iblk$link1);
+    free((void *)iblk_link1);
     free((void *)scan_task);
-    source_release_buffer(buffer$link1);
+    source_release_buffer(buffer_link1);
   }
 
   else
   {
     eof_missing = missing;
-    tail_offs = tail_offs + iblk$link1->size;
+    tail_offs = tail_offs + iblk_link1->size;
     /* assertion (input_q).size < (input_q).modulus */
     assert(input_q.size < input_q.modulus);
     input_q.size = input_q.size + 1u;
-    input_q.root[(signed long int)(input_q.head + input_q.size < (input_q.head + input_q.size) - input_q.modulus ? input_q.head + input_q.size : (input_q.head + input_q.size) - input_q.modulus)] = iblk$link1;
+    input_q.root[(signed long int)(input_q.head + input_q.size < (input_q.head + input_q.size) - input_q.modulus ? input_q.head + input_q.size : (input_q.head + input_q.size) - input_q.modulus)] = iblk_link1;
     scan_q.root[(signed long int)scan_q.size] = scan_task;
-    tmp_post$3$link1 = scan_q.size;
+    tmp_post_3_link1 = scan_q.size;
     scan_q.size = scan_q.size + 1u;
-    up_heap((void *)scan_q.root, tmp_post$3$link1);
+    up_heap((void *)scan_q.root, tmp_post_3_link1);
     sched_unlock();
   }
 }
@@ -7156,11 +7156,11 @@ static void on_write_complete(void *buffer)
   sched_unlock();
 }
 
-// on_write_complete$link1
+// on_write_complete_link1
 // file expand.c line 866
-static void on_write_complete$link1(void *buffer$link1)
+static void on_write_complete_link1(void *buffer_link1)
 {
-  struct out_blk *oblk = (struct out_blk *)buffer$link1;
+  struct out_blk *oblk = (struct out_blk *)buffer_link1;
   free((void *)(oblk - (signed long int)1));
   sched_lock();
   out_slots = out_slots + 1u;
@@ -7217,14 +7217,14 @@ static void opts_setup(struct arg **operands, unsigned long int argc, char **arg
       tok=strtok(ev_val, envsep);
       while(!(tok == ((char *)NULL)))
       {
-        struct arg *opts_setup$$1$$1$$1$$1$$1$$1$$1$$arg;
-        void *return_value_xmalloc$1;
-        return_value_xmalloc$1=xmalloc(sizeof(struct arg) /*16ul*/ );
-        opts_setup$$1$$1$$1$$1$$1$$1$$1$$arg = (struct arg *)return_value_xmalloc$1;
-        opts_setup$$1$$1$$1$$1$$1$$1$$1$$arg->next = (struct arg *)(void *)0;
-        opts_setup$$1$$1$$1$$1$$1$$1$$1$$arg->val = tok;
-        *link_at = opts_setup$$1$$1$$1$$1$$1$$1$$1$$arg;
-        link_at = &opts_setup$$1$$1$$1$$1$$1$$1$$1$$arg->next;
+        struct arg *opts_setup__1__1__1__1__1__1__1__arg;
+        void *return_value_xmalloc_1;
+        return_value_xmalloc_1=xmalloc(sizeof(struct arg) /*16ul*/ );
+        opts_setup__1__1__1__1__1__1__1__arg = (struct arg *)return_value_xmalloc_1;
+        opts_setup__1__1__1__1__1__1__1__arg->next = (struct arg *)(void *)0;
+        opts_setup__1__1__1__1__1__1__1__arg->val = tok;
+        *link_at = opts_setup__1__1__1__1__1__1__1__arg;
+        link_at = &opts_setup__1__1__1__1__1__1__1__arg->next;
         tok=strtok(((char *)NULL), envsep);
       }
     }
@@ -7233,49 +7233,49 @@ static void opts_setup(struct arg **operands, unsigned long int argc, char **arg
   ofs = (unsigned long int)1u;
   for( ; !(ofs >= argc); ofs = ofs + 1ul)
   {
-    struct arg *opts_setup$$1$$1$$2$$1$$arg;
-    void *return_value_xmalloc$2;
-    return_value_xmalloc$2=xmalloc(sizeof(struct arg) /*16ul*/ );
-    opts_setup$$1$$1$$2$$1$$arg = (struct arg *)return_value_xmalloc$2;
-    opts_setup$$1$$1$$2$$1$$arg->next = (struct arg *)(void *)0;
-    opts_setup$$1$$1$$2$$1$$arg->val = argv[(signed long int)ofs];
-    *link_at = opts_setup$$1$$1$$2$$1$$arg;
-    link_at = &opts_setup$$1$$1$$2$$1$$arg->next;
+    struct arg *opts_setup__1__1__2__1__arg;
+    void *return_value_xmalloc_2;
+    return_value_xmalloc_2=xmalloc(sizeof(struct arg) /*16ul*/ );
+    opts_setup__1__1__2__1__arg = (struct arg *)return_value_xmalloc_2;
+    opts_setup__1__1__2__1__arg->next = (struct arg *)(void *)0;
+    opts_setup__1__1__2__1__arg->val = argv[(signed long int)ofs];
+    *link_at = opts_setup__1__1__2__1__arg;
+    link_at = &opts_setup__1__1__2__1__arg->next;
   }
-  signed long int return_value_sysconf$3;
-  return_value_sysconf$3=sysconf(76);
-  mx_worker = (unsigned long int)return_value_sysconf$3;
+  signed long int return_value_sysconf_3;
+  return_value_sysconf_3=sysconf(76);
+  mx_worker = (unsigned long int)return_value_sysconf_3;
   mx_worker = mx_worker < ((unsigned long int)((unsigned int)0x7fffffff * 2U + 1U) < 18446744073709551615UL / sizeof(unsigned long int) /*8ul*/  ? (unsigned long int)((unsigned int)0x7fffffff * 2U + 1U) : 18446744073709551615UL / sizeof(unsigned long int) /*8ul*/ ) ? mx_worker : ((unsigned long int)((unsigned int)0x7fffffff * 2U + 1U) < 18446744073709551615UL / sizeof(unsigned long int) /*8ul*/  ? (unsigned long int)((unsigned int)0x7fffffff * 2U + 1U) : 18446744073709551615UL / sizeof(unsigned long int) /*8ul*/ );
-  signed int return_value_strcmp$7;
-  return_value_strcmp$7=strcmp(pname, "bunzip2");
-  _Bool tmp_if_expr$9;
-  signed int return_value_strcmp$8;
-  if(return_value_strcmp$7 == 0)
-    tmp_if_expr$9 = (_Bool)1;
+  signed int return_value_strcmp_7;
+  return_value_strcmp_7=strcmp(pname, "bunzip2");
+  _Bool tmp_if_expr_9;
+  signed int return_value_strcmp_8;
+  if(return_value_strcmp_7 == 0)
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$8=strcmp(pname, "lbunzip2");
-    tmp_if_expr$9 = return_value_strcmp$8 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_8=strcmp(pname, "lbunzip2");
+    tmp_if_expr_9 = return_value_strcmp_8 == 0 ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_strcmp$4;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strcmp$5;
-  if(tmp_if_expr$9)
+  signed int return_value_strcmp_4;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strcmp_5;
+  if(tmp_if_expr_9)
     decompress = (_Bool)1;
 
   else
   {
-    return_value_strcmp$4=strcmp(pname, "bzcat");
-    if(return_value_strcmp$4 == 0)
-      tmp_if_expr$6 = (_Bool)1;
+    return_value_strcmp_4=strcmp(pname, "bzcat");
+    if(return_value_strcmp_4 == 0)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$5=strcmp(pname, "lbzcat");
-      tmp_if_expr$6 = return_value_strcmp$5 == 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_5=strcmp(pname, "lbzcat");
+      tmp_if_expr_6 = return_value_strcmp_5 == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
     {
       outmode = (enum outmode)OM_STDOUT;
       decompress = (_Bool)1;
@@ -7283,7 +7283,7 @@ static void opts_setup(struct arg **operands, unsigned long int argc, char **arg
 
   }
   link_at = operands;
-  /* #anon_enum$AS_CONTINUE=0$AS_STOP=1$AS_USAGE=2$AS_VERSION=3 */
+  /* #anon_enum_AS_CONTINUE=0_AS_STOP=1_AS_USAGE=2_AS_VERSION=3 */
 enum anonymous { AS_CONTINUE=0, AS_STOP=1, AS_USAGE=2, AS_VERSION=3 };
 
 /* */
@@ -7293,26 +7293,26 @@ enum anonymous { AS_CONTINUE=0, AS_STOP=1, AS_USAGE=2, AS_VERSION=3 };
   struct arg *next;
   args_state = (enum anonymous)AS_CONTINUE;
   arg = *operands;
-  signed int return_value_strcmp$28;
-  signed int return_value_strcmp$27;
-  signed int return_value_strcmp$26;
-  signed int return_value_strcmp$25;
-  signed int return_value_strcmp$24;
-  signed int return_value_strcmp$23;
-  signed int return_value_strcmp$22;
-  signed int return_value_strcmp$21;
-  signed int return_value_strcmp$20;
-  signed int return_value_strcmp$19;
-  signed int return_value_strcmp$18;
-  signed int return_value_strcmp$17;
-  signed int return_value_strcmp$14;
-  _Bool tmp_if_expr$16;
-  signed int return_value_strcmp$15;
-  signed int return_value_strcmp$13;
-  signed int return_value_strcmp$12;
-  signed int return_value_strcmp$11;
-  signed int return_value_strcmp$10;
-  unsigned long int return_value_xstrtol$29;
+  signed int return_value_strcmp_28;
+  signed int return_value_strcmp_27;
+  signed int return_value_strcmp_26;
+  signed int return_value_strcmp_25;
+  signed int return_value_strcmp_24;
+  signed int return_value_strcmp_23;
+  signed int return_value_strcmp_22;
+  signed int return_value_strcmp_21;
+  signed int return_value_strcmp_20;
+  signed int return_value_strcmp_19;
+  signed int return_value_strcmp_18;
+  signed int return_value_strcmp_17;
+  signed int return_value_strcmp_14;
+  _Bool tmp_if_expr_16;
+  signed int return_value_strcmp_15;
+  signed int return_value_strcmp_13;
+  signed int return_value_strcmp_12;
+  signed int return_value_strcmp_11;
+  signed int return_value_strcmp_10;
+  unsigned long int return_value_xstrtol_29;
   for( ; (signed int)args_state == AS_CONTINUE && !(arg == ((struct arg *)NULL)); arg = next)
   {
     const char *argscan = arg->val;
@@ -7333,103 +7333,103 @@ enum anonymous { AS_CONTINUE=0, AS_STOP=1, AS_USAGE=2, AS_VERSION=3 };
 
         else
         {
-          return_value_strcmp$28=strcmp("stdout", argscan);
-          if(return_value_strcmp$28 == 0)
+          return_value_strcmp_28=strcmp("stdout", argscan);
+          if(return_value_strcmp_28 == 0)
             opts_outmode((char)99);
 
           else
           {
-            return_value_strcmp$27=strcmp("test", argscan);
-            if(return_value_strcmp$27 == 0)
+            return_value_strcmp_27=strcmp("test", argscan);
+            if(return_value_strcmp_27 == 0)
               opts_outmode((char)116);
 
             else
             {
-              return_value_strcmp$26=strcmp("decompress", argscan);
-              if(return_value_strcmp$26 == 0)
+              return_value_strcmp_26=strcmp("decompress", argscan);
+              if(return_value_strcmp_26 == 0)
                 opts_decompress((char)100);
 
               else
               {
-                return_value_strcmp$25=strcmp("compress", argscan);
-                if(return_value_strcmp$25 == 0)
+                return_value_strcmp_25=strcmp("compress", argscan);
+                if(return_value_strcmp_25 == 0)
                   opts_decompress((char)122);
 
                 else
                 {
-                  return_value_strcmp$24=strcmp("fast", argscan);
-                  if(return_value_strcmp$24 == 0)
+                  return_value_strcmp_24=strcmp("fast", argscan);
+                  if(return_value_strcmp_24 == 0)
                     bs100k = (unsigned int)1;
 
                   else
                   {
-                    return_value_strcmp$23=strcmp("best", argscan);
-                    if(return_value_strcmp$23 == 0)
+                    return_value_strcmp_23=strcmp("best", argscan);
+                    if(return_value_strcmp_23 == 0)
                       bs100k = (unsigned int)9;
 
                     else
                     {
-                      return_value_strcmp$22=strcmp("force", argscan);
-                      if(return_value_strcmp$22 == 0)
+                      return_value_strcmp_22=strcmp("force", argscan);
+                      if(return_value_strcmp_22 == 0)
                         force = (_Bool)1;
 
                       else
                       {
-                        return_value_strcmp$21=strcmp("keep", argscan);
-                        if(return_value_strcmp$21 == 0)
+                        return_value_strcmp_21=strcmp("keep", argscan);
+                        if(return_value_strcmp_21 == 0)
                           keep = (_Bool)1;
 
                         else
                         {
-                          return_value_strcmp$20=strcmp("small", argscan);
-                          if(return_value_strcmp$20 == 0)
+                          return_value_strcmp_20=strcmp("small", argscan);
+                          if(return_value_strcmp_20 == 0)
                             small = (_Bool)1;
 
                           else
                           {
-                            return_value_strcmp$19=strcmp("sequential", argscan);
-                            if(return_value_strcmp$19 == 0)
+                            return_value_strcmp_19=strcmp("sequential", argscan);
+                            if(return_value_strcmp_19 == 0)
                               ultra = (_Bool)1;
 
                             else
                             {
-                              return_value_strcmp$18=strcmp("verbose", argscan);
-                              if(return_value_strcmp$18 == 0)
+                              return_value_strcmp_18=strcmp("verbose", argscan);
+                              if(return_value_strcmp_18 == 0)
                                 verbose = (_Bool)1;
 
                               else
                               {
-                                return_value_strcmp$17=strcmp("help", argscan);
-                                if(return_value_strcmp$17 == 0)
+                                return_value_strcmp_17=strcmp("help", argscan);
+                                if(return_value_strcmp_17 == 0)
                                   args_state = (enum anonymous)AS_USAGE;
 
                                 else
                                 {
-                                  return_value_strcmp$14=strcmp("license", argscan);
-                                  if(return_value_strcmp$14 == 0)
-                                    tmp_if_expr$16 = (_Bool)1;
+                                  return_value_strcmp_14=strcmp("license", argscan);
+                                  if(return_value_strcmp_14 == 0)
+                                    tmp_if_expr_16 = (_Bool)1;
 
                                   else
                                   {
-                                    return_value_strcmp$15=strcmp("version", argscan);
-                                    tmp_if_expr$16 = 0 == return_value_strcmp$15 ? (_Bool)1 : (_Bool)0;
+                                    return_value_strcmp_15=strcmp("version", argscan);
+                                    tmp_if_expr_16 = 0 == return_value_strcmp_15 ? (_Bool)1 : (_Bool)0;
                                   }
-                                  if(tmp_if_expr$16)
+                                  if(tmp_if_expr_16)
                                     args_state = (enum anonymous)AS_VERSION;
 
                                   else
                                   {
-                                    return_value_strcmp$13=strcmp("quiet", argscan);
-                                    if(!(return_value_strcmp$13 == 0))
+                                    return_value_strcmp_13=strcmp("quiet", argscan);
+                                    if(!(return_value_strcmp_13 == 0))
                                     {
-                                      return_value_strcmp$12=strcmp("repetitive-fast", argscan);
-                                      if(!(return_value_strcmp$12 == 0))
+                                      return_value_strcmp_12=strcmp("repetitive-fast", argscan);
+                                      if(!(return_value_strcmp_12 == 0))
                                       {
-                                        return_value_strcmp$11=strcmp("repetitive-best", argscan);
-                                        if(!(return_value_strcmp$11 == 0))
+                                        return_value_strcmp_11=strcmp("repetitive-best", argscan);
+                                        if(!(return_value_strcmp_11 == 0))
                                         {
-                                          return_value_strcmp$10=strcmp("exponential", argscan);
-                                          if(!(return_value_strcmp$10 == 0))
+                                          return_value_strcmp_10=strcmp("exponential", argscan);
+                                          if(!(return_value_strcmp_10 == 0))
                                             fail("unknown option \"%s\", specify \"-h\" for help", arg->val);
 
                                         }
@@ -7567,8 +7567,8 @@ enum anonymous { AS_CONTINUE=0, AS_STOP=1, AS_USAGE=2, AS_VERSION=3 };
 
               if(opt == 110)
               {
-                return_value_xstrtol$29=xstrtol(argscan, opt, (unsigned long int)1, mx_worker);
-                num_worker = (unsigned int)return_value_xstrtol$29;
+                return_value_xstrtol_29=xstrtol(argscan, opt, (unsigned long int)1, mx_worker);
+                num_worker = (unsigned int)return_value_xstrtol_29;
               }
 
               else
@@ -7610,14 +7610,14 @@ enum anonymous { AS_CONTINUE=0, AS_STOP=1, AS_USAGE=2, AS_VERSION=3 };
 
   }
 
-  signed int return_value_isatty$30;
-  signed int return_value_isatty$31;
+  signed int return_value_isatty_30;
+  signed int return_value_isatty_31;
   if(!(decompress == (_Bool)0))
   {
     if(*operands == ((struct arg *)NULL))
     {
-      return_value_isatty$30=isatty(0);
-      if(!(return_value_isatty$30 == 0))
+      return_value_isatty_30=isatty(0);
+      if(!(return_value_isatty_30 == 0))
         fail("won't read compressed data from a terminal, specify \"-h\" for help");
 
     }
@@ -7627,8 +7627,8 @@ enum anonymous { AS_CONTINUE=0, AS_STOP=1, AS_USAGE=2, AS_VERSION=3 };
   else
     if((signed int)outmode == OM_STDOUT)
     {
-      return_value_isatty$31=isatty(1);
-      if(!(return_value_isatty$31 == 0))
+      return_value_isatty_31=isatty(1);
+      if(!(return_value_isatty_31 == 0))
         fail("won't write compressed data to a terminal, specify \"-h\" for help");
 
     }
@@ -7652,8 +7652,8 @@ enum anonymous { AS_CONTINUE=0, AS_STOP=1, AS_USAGE=2, AS_VERSION=3 };
 static signed int output_init(struct arg *operand, struct stat *sbuf)
 {
   ospec.total = (unsigned long int)0u;
-  signed int return_value_unlink$4;
-  signed int *return_value___errno_location$3;
+  signed int return_value_unlink_4;
+  signed int *return_value___errno_location_3;
   switch((signed int)outmode)
   {
     case OM_STDOUT:
@@ -7685,23 +7685,23 @@ static signed int output_init(struct arg *operand, struct stat *sbuf)
         if(len >= 18446744073709551611ul)
           fail("\"%s\": size_t overflow in cpn_alloc\n", operand->val);
 
-        void *return_value_xmalloc$1;
-        return_value_xmalloc$1=xmalloc(len + sizeof(char [5l]) /*5ul*/ );
-        tmp = (char *)return_value_xmalloc$1;
+        void *return_value_xmalloc_1;
+        return_value_xmalloc_1=xmalloc(len + sizeof(char [5l]) /*5ul*/ );
+        tmp = (char *)return_value_xmalloc_1;
         memcpy((void *)tmp, (const void *)operand->val, len);
         strcpy(tmp + (signed long int)len, ".bz2");
       }
       if(!(force == (_Bool)0))
       {
-        return_value_unlink$4=unlink(tmp);
-        if(return_value_unlink$4 == -1)
+        return_value_unlink_4=unlink(tmp);
+        if(return_value_unlink_4 == -1)
         {
-          return_value___errno_location$3=__errno_location();
-          if(!(*return_value___errno_location$3 == 2))
+          return_value___errno_location_3=__errno_location();
+          if(!(*return_value___errno_location_3 == 2))
           {
-            signed int *return_value___errno_location$2;
-            return_value___errno_location$2=__errno_location();
-            infox(*return_value___errno_location$2, "unlink(\"%s\")", tmp);
+            signed int *return_value___errno_location_2;
+            return_value___errno_location_2=__errno_location();
+            infox(*return_value___errno_location_2, "unlink(\"%s\")", tmp);
           }
 
         }
@@ -7711,9 +7711,9 @@ static signed int output_init(struct arg *operand, struct stat *sbuf)
       ospec.fd=open(tmp, 01 | 0100 | 0200, sbuf->st_mode & (unsigned int)(0400 | 0200));
       if(ospec.fd == -1)
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        warnx(*return_value___errno_location$5, "skipping \"%s\": open(\"%s\")", operand->val, tmp);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        warnx(*return_value___errno_location_5, "skipping \"%s\": open(\"%s\")", operand->val, tmp);
         free((void *)tmp);
       }
 
@@ -7739,13 +7739,13 @@ static void output_regf_uninit(signed int outfd, struct stat *sbuf)
 {
   /* assertion 0 != opathn */
   assert(((char *)NULL) != opathn);
-  signed int return_value_fchown$4;
-  return_value_fchown$4=fchown(outfd, sbuf->st_uid, sbuf->st_gid);
-  if(return_value_fchown$4 == -1)
+  signed int return_value_fchown_4;
+  return_value_fchown_4=fchown(outfd, sbuf->st_uid, sbuf->st_gid);
+  if(return_value_fchown_4 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    warnx(*return_value___errno_location$1, "fchown(\"%s\")", opathn);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    warnx(*return_value___errno_location_1, "fchown(\"%s\")", opathn);
   }
 
   else
@@ -7753,35 +7753,35 @@ static void output_regf_uninit(signed int outfd, struct stat *sbuf)
     if(!((3584u & sbuf->st_mode) == 0u))
       warn("\"%s\": won't restore any of setuid, setgid, sticky", opathn);
 
-    signed int return_value_fchmod$3;
-    return_value_fchmod$3=fchmod(outfd, sbuf->st_mode & (unsigned int)(0400 | 0200 | 0100 | (0400 | 0200 | 0100) >> 3 | ((0400 | 0200 | 0100) >> 3) >> 3));
-    if(return_value_fchmod$3 == -1)
+    signed int return_value_fchmod_3;
+    return_value_fchmod_3=fchmod(outfd, sbuf->st_mode & (unsigned int)(0400 | 0200 | 0100 | (0400 | 0200 | 0100) >> 3 | ((0400 | 0200 | 0100) >> 3) >> 3));
+    if(return_value_fchmod_3 == -1)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      warnx(*return_value___errno_location$2, "fchmod(\"%s\")", opathn);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      warnx(*return_value___errno_location_2, "fchmod(\"%s\")", opathn);
     }
 
   }
   struct timespec ts[2l];
   ts[(signed long int)0]=get_stat_atime(sbuf);
   ts[(signed long int)1]=get_stat_mtime(sbuf);
-  signed int return_value_fdutimens$6;
-  return_value_fdutimens$6=fdutimens(outfd, opathn, ts);
-  if(return_value_fdutimens$6 == -1)
+  signed int return_value_fdutimens_6;
+  return_value_fdutimens_6=fdutimens(outfd, opathn, ts);
+  if(return_value_fdutimens_6 == -1)
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    warnx(*return_value___errno_location$5, "fdutimens(\"%s\")", opathn);
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    warnx(*return_value___errno_location_5, "fdutimens(\"%s\")", opathn);
   }
 
-  signed int return_value_close$8;
-  return_value_close$8=close(outfd);
-  if(return_value_close$8 == -1)
+  signed int return_value_close_8;
+  return_value_close_8=close(outfd);
+  if(return_value_close_8 == -1)
   {
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    failx(*return_value___errno_location$7, "close(\"%s\")", opathn);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    failx(*return_value___errno_location_7, "close(\"%s\")", opathn);
   }
 
   free((void *)opathn);
@@ -7800,23 +7800,23 @@ static void package_merge(unsigned short int (*tree)[21l], unsigned int * restri
   unsigned long int depth;
   pkg_weight[(signed long int)0] = (unsigned long int)-1;
   depth = (unsigned long int)1;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   for( ; !(depth >= 21ul); depth = depth + 1ul)
   {
     tree[(signed long int)depth][(signed long int)0] = (unsigned short int)2;
     if(!((4278190080ul & leaf_weight[(signed long int)as]) >= (4278190080ul & leaf_weight[-1l + (signed long int)as])))
-      tmp_if_expr$1 = leaf_weight[(signed long int)(as - (unsigned long int)1)] & (unsigned long int)0xFF000000;
+      tmp_if_expr_1 = leaf_weight[(signed long int)(as - (unsigned long int)1)] & (unsigned long int)0xFF000000;
 
     else
-      tmp_if_expr$1 = leaf_weight[(signed long int)as] & (unsigned long int)0xFF000000;
-    pkg_weight[(signed long int)depth] = (leaf_weight[(signed long int)as] + leaf_weight[(signed long int)(as - (unsigned long int)1)] & ~((unsigned long int)0xFFFFFFFF)) + tmp_if_expr$1 + (unsigned long int)0x01000000;
+      tmp_if_expr_1 = leaf_weight[(signed long int)as] & (unsigned long int)0xFF000000;
+    pkg_weight[(signed long int)depth] = (leaf_weight[(signed long int)as] + leaf_weight[(signed long int)(as - (unsigned long int)1)] & ~((unsigned long int)0xFFFFFFFF)) + tmp_if_expr_1 + (unsigned long int)0x01000000;
     prev_weight[(signed long int)depth] = leaf_weight[(signed long int)(as - (unsigned long int)1)];
     curr_weight[(signed long int)depth] = leaf_weight[(signed long int)(as - (unsigned long int)2)];
   }
   width = (unsigned long int)2;
-  unsigned long int tmp_if_expr$2;
-  unsigned long int tmp_post$3;
-  unsigned long int tmp_if_expr$4;
+  unsigned long int tmp_if_expr_2;
+  unsigned long int tmp_post_3;
+  unsigned long int tmp_if_expr_4;
   for( ; !(width >= as); width = width + 1ul)
   {
     count[(signed long int)0] = (unsigned int)20;
@@ -7830,16 +7830,16 @@ static void package_merge(unsigned short int (*tree)[21l], unsigned int * restri
         {
           memcpy((void *)&tree[(signed long int)depth][(signed long int)1], (const void *)&tree[(signed long int)(depth - (unsigned long int)1)][(signed long int)0], (unsigned long int)20 * sizeof(unsigned short int) /*2ul*/ );
           if(!((4278190080ul & prev_weight[(signed long int)depth]) >= (4278190080ul & pkg_weight[-1l + (signed long int)depth])))
-            tmp_if_expr$2 = pkg_weight[(signed long int)(depth - (unsigned long int)1)] & (unsigned long int)0xFF000000;
+            tmp_if_expr_2 = pkg_weight[(signed long int)(depth - (unsigned long int)1)] & (unsigned long int)0xFF000000;
 
           else
-            tmp_if_expr$2 = prev_weight[(signed long int)depth] & (unsigned long int)0xFF000000;
-          pkg_weight[(signed long int)depth] = (prev_weight[(signed long int)depth] + pkg_weight[(signed long int)(depth - (unsigned long int)1)] & ~((unsigned long int)0xFFFFFFFF)) + tmp_if_expr$2 + (unsigned long int)0x01000000;
+            tmp_if_expr_2 = prev_weight[(signed long int)depth] & (unsigned long int)0xFF000000;
+          pkg_weight[(signed long int)depth] = (prev_weight[(signed long int)depth] + pkg_weight[(signed long int)(depth - (unsigned long int)1)] & ~((unsigned long int)0xFFFFFFFF)) + tmp_if_expr_2 + (unsigned long int)0x01000000;
           prev_weight[(signed long int)depth] = pkg_weight[(signed long int)(depth - (unsigned long int)1)];
           depth = depth - 1ul;
-          tmp_post$3 = next_depth;
+          tmp_post_3 = next_depth;
           next_depth = next_depth + 1ul;
-          count[(signed long int)tmp_post$3] = (unsigned int)depth;
+          count[(signed long int)tmp_post_3] = (unsigned int)depth;
           goto __CPROVER_DUMP_L14;
         }
 
@@ -7849,11 +7849,11 @@ static void package_merge(unsigned short int (*tree)[21l], unsigned int * restri
       {
         tree[(signed long int)depth][(signed long int)0] = tree[(signed long int)depth][(signed long int)0] + 1;
         if(!((4278190080ul & prev_weight[(signed long int)depth]) >= (4278190080ul & curr_weight[(signed long int)depth])))
-          tmp_if_expr$4 = curr_weight[(signed long int)depth] & (unsigned long int)0xFF000000;
+          tmp_if_expr_4 = curr_weight[(signed long int)depth] & (unsigned long int)0xFF000000;
 
         else
-          tmp_if_expr$4 = prev_weight[(signed long int)depth] & (unsigned long int)0xFF000000;
-        pkg_weight[(signed long int)depth] = (prev_weight[(signed long int)depth] + curr_weight[(signed long int)depth] & ~((unsigned long int)0xFFFFFFFF)) + tmp_if_expr$4 + (unsigned long int)0x01000000;
+          tmp_if_expr_4 = prev_weight[(signed long int)depth] & (unsigned long int)0xFF000000;
+        pkg_weight[(signed long int)depth] = (prev_weight[(signed long int)depth] + curr_weight[(signed long int)depth] & ~((unsigned long int)0xFFFFFFFF)) + tmp_if_expr_4 + (unsigned long int)0x01000000;
         prev_weight[(signed long int)depth] = curr_weight[(signed long int)depth];
         curr_weight[(signed long int)depth] = leaf_weight[(signed long int)(as - (unsigned long int)tree[(signed long int)depth][(signed long int)0])];
       }
@@ -7871,34 +7871,34 @@ static void package_merge(unsigned short int (*tree)[21l], unsigned int * restri
 
 // parse
 // file parse.c line 147
-signed int parse(struct parser_state * restrict ps, struct header * restrict hd, struct bitstream$0 *bs, unsigned int *garbage)
+signed int parse(struct parser_state * restrict ps, struct header * restrict hd, struct bitstream_0 *bs, unsigned int *garbage)
 {
   /* assertion ps->state != ACCEPT */
   assert(ps->state != (signed int)ACCEPT);
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$2;
-  unsigned int return_value_ntohl$1;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_2;
+  unsigned int return_value_ntohl_1;
   do
   {
     if(bs->live >= 16u)
-      tmp_if_expr$3 = 0;
+      tmp_if_expr_3 = 0;
 
     else
     {
       if(bs->data == bs->limit)
-        tmp_if_expr$2 = bs->eof != (_Bool)0 ? 2 : 1;
+        tmp_if_expr_2 = bs->eof != (_Bool)0 ? 2 : 1;
 
       else
       {
-        return_value_ntohl$1=ntohl(*bs->data);
-        bs->buff = bs->buff | (unsigned long int)return_value_ntohl$1 << 32u - bs->live;
+        return_value_ntohl_1=ntohl(*bs->data);
+        bs->buff = bs->buff | (unsigned long int)return_value_ntohl_1 << 32u - bs->live;
         bs->data = bs->data + 1l;
         bs->live = bs->live + 32u;
-        tmp_if_expr$2 = 0;
+        tmp_if_expr_2 = 0;
       }
-      tmp_if_expr$3 = tmp_if_expr$2;
+      tmp_if_expr_3 = tmp_if_expr_2;
     }
-    if(!(tmp_if_expr$3 == 0))
+    if(!(tmp_if_expr_3 == 0))
       break;
 
     unsigned int word = (unsigned int)(bs->buff >> 64u - (unsigned int)16);
@@ -8019,28 +8019,28 @@ signed int parse(struct parser_state * restrict ps, struct header * restrict hd,
     }
   }
   while((_Bool)1);
-  signed int tmp_if_expr$6;
-  signed int tmp_if_expr$5;
-  unsigned int return_value_ntohl$4;
+  signed int tmp_if_expr_6;
+  signed int tmp_if_expr_5;
+  unsigned int return_value_ntohl_4;
   if(bs->live >= 16u)
-    tmp_if_expr$6 = 0;
+    tmp_if_expr_6 = 0;
 
   else
   {
     if(bs->data == bs->limit)
-      tmp_if_expr$5 = bs->eof != (_Bool)0 ? 2 : 1;
+      tmp_if_expr_5 = bs->eof != (_Bool)0 ? 2 : 1;
 
     else
     {
-      return_value_ntohl$4=ntohl(*bs->data);
-      bs->buff = bs->buff | (unsigned long int)return_value_ntohl$4 << 32u - bs->live;
+      return_value_ntohl_4=ntohl(*bs->data);
+      bs->buff = bs->buff | (unsigned long int)return_value_ntohl_4 << 32u - bs->live;
       bs->data = bs->data + 1l;
       bs->live = bs->live + 32u;
-      tmp_if_expr$5 = 0;
+      tmp_if_expr_5 = 0;
     }
-    tmp_if_expr$6 = tmp_if_expr$5;
+    tmp_if_expr_6 = tmp_if_expr_5;
   }
-  if(!(tmp_if_expr$6 == 2))
+  if(!(tmp_if_expr_6 == 2))
     return 1;
 
   else
@@ -8094,11 +8094,11 @@ static void primary_thread(void)
 
   worker_thread_proc();
   i = 1u;
-  signed int return_value_pthread_join$1;
+  signed int return_value_pthread_join_1;
   if(!(i >= num_worker))
   {
-    return_value_pthread_join$1=pthread_join(worker_thread[(signed long int)i], (void **)(void *)0);
-    if(!(return_value_pthread_join$1 == 0))
+    return_value_pthread_join_1=pthread_join(worker_thread[(signed long int)i], (void **)(void *)0);
+    if(!(return_value_pthread_join_1 == 0))
     {
       abort();
       (_Bool)0;
@@ -8124,43 +8124,43 @@ static void primary_thread(void)
 
 // printf_fetchargs
 // file printf-args.c line 36
-extern signed int printf_fetchargs(__builtin_va_list args, struct anonymous$1 *a)
+extern signed int printf_fetchargs(__builtin_va_list args, struct anonymous_1 *a)
 {
   unsigned long int i;
-  struct anonymous$2 *ap;
+  struct anonymous_2 *ap;
   i = (unsigned long int)0;
   ap = &a->arg[(signed long int)0];
-  signed int return_value_gcc_builtin_va_arg$1;
-  signed int return_value_gcc_builtin_va_arg$2;
-  signed int return_value_gcc_builtin_va_arg$3;
-  signed int return_value_gcc_builtin_va_arg$4;
-  unsigned int return_value_gcc_builtin_va_arg$5;
+  signed int return_value_gcc_builtin_va_arg_1;
+  signed int return_value_gcc_builtin_va_arg_2;
+  signed int return_value_gcc_builtin_va_arg_3;
+  signed int return_value_gcc_builtin_va_arg_4;
+  unsigned int return_value_gcc_builtin_va_arg_5;
   for( ; !(i >= a->count); ap = ap + 1l)
   {
     switch((signed int)ap->type)
     {
       case TYPE_SCHAR:
       {
-        return_value_gcc_builtin_va_arg$1=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg$1));
-        ap->a.a_schar = (signed char)return_value_gcc_builtin_va_arg$1;
+        return_value_gcc_builtin_va_arg_1=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg_1));
+        ap->a.a_schar = (signed char)return_value_gcc_builtin_va_arg_1;
         break;
       }
       case TYPE_UCHAR:
       {
-        return_value_gcc_builtin_va_arg$2=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg$2));
-        ap->a.a_uchar = (unsigned char)return_value_gcc_builtin_va_arg$2;
+        return_value_gcc_builtin_va_arg_2=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg_2));
+        ap->a.a_uchar = (unsigned char)return_value_gcc_builtin_va_arg_2;
         break;
       }
       case TYPE_SHORT:
       {
-        return_value_gcc_builtin_va_arg$3=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg$3));
-        ap->a.a_short = (signed short int)return_value_gcc_builtin_va_arg$3;
+        return_value_gcc_builtin_va_arg_3=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg_3));
+        ap->a.a_short = (signed short int)return_value_gcc_builtin_va_arg_3;
         break;
       }
       case TYPE_USHORT:
       {
-        return_value_gcc_builtin_va_arg$4=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg$4));
-        ap->a.a_ushort = (unsigned short int)return_value_gcc_builtin_va_arg$4;
+        return_value_gcc_builtin_va_arg_4=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg_4));
+        ap->a.a_ushort = (unsigned short int)return_value_gcc_builtin_va_arg_4;
         break;
       }
       case TYPE_INT:
@@ -8210,8 +8210,8 @@ extern signed int printf_fetchargs(__builtin_va_list args, struct anonymous$1 *a
       }
       case TYPE_WIDE_CHAR:
       {
-        return_value_gcc_builtin_va_arg$5=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg$5));
-        ap->a.a_wide_char = return_value_gcc_builtin_va_arg$5;
+        return_value_gcc_builtin_va_arg_5=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg_5));
+        ap->a.a_wide_char = return_value_gcc_builtin_va_arg_5;
         break;
       }
       case TYPE_STRING:
@@ -8293,11 +8293,11 @@ extern long double printf_frexpl(long double x, signed int *expptr)
 {
   signed int exponent;
   unsigned short int oldcw;
-  unsigned short int tmp_statement_expression$1;
+  unsigned short int tmp_statement_expression_1;
   unsigned short int _cw;
   asm("fnstcw %0" : "=m"(*(&_cw)) :  : );
-  tmp_statement_expression$1 = _cw;
-  oldcw = tmp_statement_expression$1;
+  tmp_statement_expression_1 = _cw;
+  oldcw = tmp_statement_expression_1;
   unsigned short int _ncw = (unsigned short int)((signed int)oldcw & ~0x0300 | 0x300);
   asm("fldcw %0" :  : "m"(*(&_ncw)) : );
   x=frexpl(x, &exponent);
@@ -8309,15 +8309,15 @@ extern long double printf_frexpl(long double x, signed int *expptr)
     exponent = -16381 - 1;
   }
 
-  unsigned short int printf_frexpl$$1$$4$$_ncw = oldcw;
-  asm("fldcw %0" :  : "m"(*(&printf_frexpl$$1$$4$$_ncw)) : );
+  unsigned short int printf_frexpl__1__4___ncw = oldcw;
+  asm("fldcw %0" :  : "m"(*(&printf_frexpl__1__4___ncw)) : );
   *expptr = exponent;
   return x;
 }
 
 // printf_parse
 // file printf-parse.c line 83
-extern signed int printf_parse(const char *format, struct anonymous$10 *d, struct anonymous$1 *a)
+extern signed int printf_parse(const char *format, struct anonymous_10 *d, struct anonymous_1 *a)
 {
   const char *cp = format;
   unsigned long int arg_posn = (unsigned long int)0;
@@ -8331,45 +8331,45 @@ extern signed int printf_parse(const char *format, struct anonymous$10 *d, struc
   a->count = (unsigned long int)0;
   a_allocated = (unsigned long int)7;
   a->arg = a->direct_alloc_arg;
-  const char *tmp_post$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  unsigned long int tmp_post$6;
-  void *tmp_if_expr$9;
-  void *return_value_realloc$7;
-  void *return_value_malloc$8;
-  unsigned long int tmp_post$10;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  unsigned long int tmp_post$14;
-  void *tmp_if_expr$17;
-  void *return_value_realloc$15;
-  void *return_value_malloc$16;
-  unsigned long int tmp_post$18;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$20;
-  const char *tmp_post$21;
-  unsigned long int tmp_post$22;
-  void *tmp_if_expr$25;
-  void *return_value_realloc$23;
-  void *return_value_malloc$24;
-  unsigned long int tmp_post$26;
-  void *tmp_if_expr$29;
-  void *return_value_realloc$27;
-  void *return_value_malloc$28;
+  const char *tmp_post_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  unsigned long int tmp_post_6;
+  void *tmp_if_expr_9;
+  void *return_value_realloc_7;
+  void *return_value_malloc_8;
+  unsigned long int tmp_post_10;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  unsigned long int tmp_post_14;
+  void *tmp_if_expr_17;
+  void *return_value_realloc_15;
+  void *return_value_malloc_16;
+  unsigned long int tmp_post_18;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_20;
+  const char *tmp_post_21;
+  unsigned long int tmp_post_22;
+  void *tmp_if_expr_25;
+  void *return_value_realloc_23;
+  void *return_value_malloc_24;
+  unsigned long int tmp_post_26;
+  void *tmp_if_expr_29;
+  void *return_value_realloc_27;
+  void *return_value_malloc_28;
   while(!((signed int)*cp == 0))
   {
     char c;
-    tmp_post$1 = cp;
+    tmp_post_1 = cp;
     cp = cp + 1l;
-    c = *tmp_post$1;
+    c = *tmp_post_1;
     if((signed int)c == 37)
     {
       unsigned long int arg_index = ~((unsigned long int)0);
-      struct anonymous$3 *dp = &d->dir[(signed long int)d->count];
+      struct anonymous_3 *dp = &d->dir[(signed long int)d->count];
       dp->dir_start = cp - (signed long int)1;
       dp->flags = 0;
       dp->width_start = (const char *)(void *)0;
@@ -8383,46 +8383,46 @@ extern signed int printf_parse(const char *format, struct anonymous$10 *d, struc
       {
         if(!((signed int)*cp >= 58))
         {
-          const char *printf_parse$$1$$1$$1$$1$$np = cp;
+          const char *printf_parse__1__1__1__1__np = cp;
           do
           {
-            if((signed int)*printf_parse$$1$$1$$1$$1$$np >= 48)
-              tmp_if_expr$2 = (signed int)*printf_parse$$1$$1$$1$$1$$np <= 57 ? (_Bool)1 : (_Bool)0;
+            if((signed int)*printf_parse__1__1__1__1__np >= 48)
+              tmp_if_expr_2 = (signed int)*printf_parse__1__1__1__1__np <= 57 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$2 = (_Bool)0;
-            if(!tmp_if_expr$2)
+              tmp_if_expr_2 = (_Bool)0;
+            if(!tmp_if_expr_2)
               break;
 
-            printf_parse$$1$$1$$1$$1$$np = printf_parse$$1$$1$$1$$1$$np + 1l;
+            printf_parse__1__1__1__1__np = printf_parse__1__1__1__1__np + 1l;
           }
           while((_Bool)1);
-          if((signed int)*printf_parse$$1$$1$$1$$1$$np == 36)
+          if((signed int)*printf_parse__1__1__1__1__np == 36)
           {
-            unsigned long int printf_parse$$1$$1$$1$$1$$2$$n = (unsigned long int)0;
-            printf_parse$$1$$1$$1$$1$$np = cp;
+            unsigned long int printf_parse__1__1__1__1__2__n = (unsigned long int)0;
+            printf_parse__1__1__1__1__np = cp;
             do
             {
-              if((signed int)*printf_parse$$1$$1$$1$$1$$np >= 48)
-                tmp_if_expr$3 = (signed int)*printf_parse$$1$$1$$1$$1$$np <= 57 ? (_Bool)1 : (_Bool)0;
+              if((signed int)*printf_parse__1__1__1__1__np >= 48)
+                tmp_if_expr_3 = (signed int)*printf_parse__1__1__1__1__np <= 57 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$3 = (_Bool)0;
-              if(!tmp_if_expr$3)
+                tmp_if_expr_3 = (_Bool)0;
+              if(!tmp_if_expr_3)
                 break;
 
-              printf_parse$$1$$1$$1$$1$$2$$n=xsum(printf_parse$$1$$1$$1$$1$$2$$n <= 18446744073709551615UL / (unsigned long int)10 ? (unsigned long int)printf_parse$$1$$1$$1$$1$$2$$n * (unsigned long int)10 : 18446744073709551615UL, (unsigned long int)((signed int)*printf_parse$$1$$1$$1$$1$$np - 48));
-              printf_parse$$1$$1$$1$$1$$np = printf_parse$$1$$1$$1$$1$$np + 1l;
+              printf_parse__1__1__1__1__2__n=xsum(printf_parse__1__1__1__1__2__n <= 18446744073709551615UL / (unsigned long int)10 ? (unsigned long int)printf_parse__1__1__1__1__2__n * (unsigned long int)10 : 18446744073709551615UL, (unsigned long int)((signed int)*printf_parse__1__1__1__1__np - 48));
+              printf_parse__1__1__1__1__np = printf_parse__1__1__1__1__np + 1l;
             }
             while((_Bool)1);
-            if(printf_parse$$1$$1$$1$$1$$2$$n == 0ul)
+            if(printf_parse__1__1__1__1__2__n == 0ul)
               goto error;
 
-            if(printf_parse$$1$$1$$1$$1$$2$$n == 18446744073709551615UL)
+            if(printf_parse__1__1__1__1__2__n == 18446744073709551615UL)
               goto error;
 
-            arg_index = printf_parse$$1$$1$$1$$1$$2$$n - (unsigned long int)1;
-            cp = printf_parse$$1$$1$$1$$1$$np + (signed long int)1;
+            arg_index = printf_parse__1__1__1__1__2__n - (unsigned long int)1;
+            cp = printf_parse__1__1__1__1__np + (signed long int)1;
           }
 
         }
@@ -8495,46 +8495,46 @@ extern signed int printf_parse(const char *format, struct anonymous$10 *d, struc
         {
           if(!((signed int)*cp >= 58))
           {
-            const char *printf_parse$$1$$1$$1$$3$$1$$np = cp;
+            const char *printf_parse__1__1__1__3__1__np = cp;
             do
             {
-              if((signed int)*printf_parse$$1$$1$$1$$3$$1$$np >= 48)
-                tmp_if_expr$4 = (signed int)*printf_parse$$1$$1$$1$$3$$1$$np <= 57 ? (_Bool)1 : (_Bool)0;
+              if((signed int)*printf_parse__1__1__1__3__1__np >= 48)
+                tmp_if_expr_4 = (signed int)*printf_parse__1__1__1__3__1__np <= 57 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$4 = (_Bool)0;
-              if(!tmp_if_expr$4)
+                tmp_if_expr_4 = (_Bool)0;
+              if(!tmp_if_expr_4)
                 break;
 
-              printf_parse$$1$$1$$1$$3$$1$$np = printf_parse$$1$$1$$1$$3$$1$$np + 1l;
+              printf_parse__1__1__1__3__1__np = printf_parse__1__1__1__3__1__np + 1l;
             }
             while((_Bool)1);
-            if((signed int)*printf_parse$$1$$1$$1$$3$$1$$np == 36)
+            if((signed int)*printf_parse__1__1__1__3__1__np == 36)
             {
-              unsigned long int printf_parse$$1$$1$$1$$3$$1$$2$$n = (unsigned long int)0;
-              printf_parse$$1$$1$$1$$3$$1$$np = cp;
+              unsigned long int printf_parse__1__1__1__3__1__2__n = (unsigned long int)0;
+              printf_parse__1__1__1__3__1__np = cp;
               do
               {
-                if((signed int)*printf_parse$$1$$1$$1$$3$$1$$np >= 48)
-                  tmp_if_expr$5 = (signed int)*printf_parse$$1$$1$$1$$3$$1$$np <= 57 ? (_Bool)1 : (_Bool)0;
+                if((signed int)*printf_parse__1__1__1__3__1__np >= 48)
+                  tmp_if_expr_5 = (signed int)*printf_parse__1__1__1__3__1__np <= 57 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$5 = (_Bool)0;
-                if(!tmp_if_expr$5)
+                  tmp_if_expr_5 = (_Bool)0;
+                if(!tmp_if_expr_5)
                   break;
 
-                printf_parse$$1$$1$$1$$3$$1$$2$$n=xsum(printf_parse$$1$$1$$1$$3$$1$$2$$n <= 18446744073709551615UL / (unsigned long int)10 ? (unsigned long int)printf_parse$$1$$1$$1$$3$$1$$2$$n * (unsigned long int)10 : 18446744073709551615UL, (unsigned long int)((signed int)*printf_parse$$1$$1$$1$$3$$1$$np - 48));
-                printf_parse$$1$$1$$1$$3$$1$$np = printf_parse$$1$$1$$1$$3$$1$$np + 1l;
+                printf_parse__1__1__1__3__1__2__n=xsum(printf_parse__1__1__1__3__1__2__n <= 18446744073709551615UL / (unsigned long int)10 ? (unsigned long int)printf_parse__1__1__1__3__1__2__n * (unsigned long int)10 : 18446744073709551615UL, (unsigned long int)((signed int)*printf_parse__1__1__1__3__1__np - 48));
+                printf_parse__1__1__1__3__1__np = printf_parse__1__1__1__3__1__np + 1l;
               }
               while((_Bool)1);
-              if(printf_parse$$1$$1$$1$$3$$1$$2$$n == 0ul)
+              if(printf_parse__1__1__1__3__1__2__n == 0ul)
                 goto error;
 
-              if(printf_parse$$1$$1$$1$$3$$1$$2$$n == 18446744073709551615UL)
+              if(printf_parse__1__1__1__3__1__2__n == 18446744073709551615UL)
                 goto error;
 
-              dp->width_arg_index = printf_parse$$1$$1$$1$$3$$1$$2$$n - (unsigned long int)1;
-              cp = printf_parse$$1$$1$$1$$3$$1$$np + (signed long int)1;
+              dp->width_arg_index = printf_parse__1__1__1__3__1__2__n - (unsigned long int)1;
+              cp = printf_parse__1__1__1__3__1__np + (signed long int)1;
             }
 
           }
@@ -8543,58 +8543,58 @@ extern signed int printf_parse(const char *format, struct anonymous$10 *d, struc
 
         if(dp->width_arg_index == 18446744073709551615ul)
         {
-          tmp_post$6 = arg_posn;
+          tmp_post_6 = arg_posn;
           arg_posn = arg_posn + 1ul;
-          dp->width_arg_index = tmp_post$6;
+          dp->width_arg_index = tmp_post_6;
           if(dp->width_arg_index == 18446744073709551615ul)
             goto error;
 
         }
 
-        unsigned long int printf_parse$$1$$1$$1$$3$$3$$n = dp->width_arg_index;
-        if(printf_parse$$1$$1$$1$$3$$3$$n >= a_allocated)
+        unsigned long int printf_parse__1__1__1__3__3__n = dp->width_arg_index;
+        if(printf_parse__1__1__1__3__3__n >= a_allocated)
         {
           unsigned long int memory_size;
-          struct anonymous$2 *memory;
+          struct anonymous_2 *memory;
           a_allocated = a_allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)a_allocated * (unsigned long int)2 : 18446744073709551615UL;
-          if(printf_parse$$1$$1$$1$$3$$3$$n >= a_allocated)
-            a_allocated=xsum(printf_parse$$1$$1$$1$$3$$3$$n, (unsigned long int)1);
+          if(printf_parse__1__1__1__3__3__n >= a_allocated)
+            a_allocated=xsum(printf_parse__1__1__1__3__3__n, (unsigned long int)1);
 
-          memory_size = a_allocated <= 18446744073709551615UL / sizeof(struct anonymous$2) /*32ul*/  ? (unsigned long int)a_allocated * sizeof(struct anonymous$2) /*32ul*/  : 18446744073709551615UL;
+          memory_size = a_allocated <= 18446744073709551615UL / sizeof(struct anonymous_2) /*32ul*/  ? (unsigned long int)a_allocated * sizeof(struct anonymous_2) /*32ul*/  : 18446744073709551615UL;
           if(memory_size == 18446744073709551615UL)
             goto out_of_memory;
 
           if(!(a->arg == a->direct_alloc_arg))
           {
-            return_value_realloc$7=realloc((void *)a->arg, memory_size);
-            tmp_if_expr$9 = return_value_realloc$7;
+            return_value_realloc_7=realloc((void *)a->arg, memory_size);
+            tmp_if_expr_9 = return_value_realloc_7;
           }
 
           else
           {
-            return_value_malloc$8=malloc(memory_size);
-            tmp_if_expr$9 = return_value_malloc$8;
+            return_value_malloc_8=malloc(memory_size);
+            tmp_if_expr_9 = return_value_malloc_8;
           }
-          memory = (struct anonymous$2 *)tmp_if_expr$9;
-          if(memory == ((struct anonymous$2 *)NULL))
+          memory = (struct anonymous_2 *)tmp_if_expr_9;
+          if(memory == ((struct anonymous_2 *)NULL))
             goto out_of_memory;
 
           if(a->arg == a->direct_alloc_arg)
-            memcpy((void *)memory, (const void *)a->arg, a->count * sizeof(struct anonymous$2) /*32ul*/ );
+            memcpy((void *)memory, (const void *)a->arg, a->count * sizeof(struct anonymous_2) /*32ul*/ );
 
           a->arg = memory;
         }
 
-        for( ; printf_parse$$1$$1$$1$$3$$3$$n >= a->count; (a->arg + (signed long int)tmp_post$10)->type = (enum anonymous$12)TYPE_NONE)
+        for( ; printf_parse__1__1__1__3__3__n >= a->count; (a->arg + (signed long int)tmp_post_10)->type = (enum anonymous_12)TYPE_NONE)
         {
-          tmp_post$10 = a->count;
+          tmp_post_10 = a->count;
           a->count = a->count + 1ul;
         }
-        if((signed int)(a->arg + (signed long int)printf_parse$$1$$1$$1$$3$$3$$n)->type == TYPE_NONE)
-          (a->arg + (signed long int)printf_parse$$1$$1$$1$$3$$3$$n)->type = (enum anonymous$12)TYPE_INT;
+        if((signed int)(a->arg + (signed long int)printf_parse__1__1__1__3__3__n)->type == TYPE_NONE)
+          (a->arg + (signed long int)printf_parse__1__1__1__3__3__n)->type = (enum anonymous_12)TYPE_INT;
 
         else
-          if(!((signed int)(a->arg + (signed long int)printf_parse$$1$$1$$1$$3$$3$$n)->type == TYPE_INT))
+          if(!((signed int)(a->arg + (signed long int)printf_parse__1__1__1__3__3__n)->type == TYPE_INT))
             goto error;
 
       }
@@ -8609,11 +8609,11 @@ extern signed int printf_parse(const char *format, struct anonymous$10 *d, struc
             do
             {
               if((signed int)*cp >= 48)
-                tmp_if_expr$11 = (signed int)*cp <= 57 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_11 = (signed int)*cp <= 57 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$11 = (_Bool)0;
-              if(!tmp_if_expr$11)
+                tmp_if_expr_11 = (_Bool)0;
+              if(!tmp_if_expr_11)
                 break;
 
               cp = cp + 1l;
@@ -8647,11 +8647,11 @@ extern signed int printf_parse(const char *format, struct anonymous$10 *d, struc
               do
               {
                 if((signed int)*np >= 48)
-                  tmp_if_expr$12 = (signed int)*np <= 57 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_12 = (signed int)*np <= 57 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$12 = (_Bool)0;
-                if(!tmp_if_expr$12)
+                  tmp_if_expr_12 = (_Bool)0;
+                if(!tmp_if_expr_12)
                   break;
 
                 np = np + 1l;
@@ -8664,11 +8664,11 @@ extern signed int printf_parse(const char *format, struct anonymous$10 *d, struc
                 do
                 {
                   if((signed int)*np >= 48)
-                    tmp_if_expr$13 = (signed int)*np <= 57 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_13 = (signed int)*np <= 57 ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$13 = (_Bool)0;
-                  if(!tmp_if_expr$13)
+                    tmp_if_expr_13 = (_Bool)0;
+                  if(!tmp_if_expr_13)
                     break;
 
                   n=xsum(n <= 18446744073709551615UL / (unsigned long int)10 ? (unsigned long int)n * (unsigned long int)10 : 18446744073709551615UL, (unsigned long int)((signed int)*np - 48));
@@ -8691,58 +8691,58 @@ extern signed int printf_parse(const char *format, struct anonymous$10 *d, struc
 
           if(dp->precision_arg_index == 18446744073709551615ul)
           {
-            tmp_post$14 = arg_posn;
+            tmp_post_14 = arg_posn;
             arg_posn = arg_posn + 1ul;
-            dp->precision_arg_index = tmp_post$14;
+            dp->precision_arg_index = tmp_post_14;
             if(dp->precision_arg_index == 18446744073709551615ul)
               goto error;
 
           }
 
-          unsigned long int printf_parse$$1$$1$$1$$5$$1$$3$$n = dp->precision_arg_index;
-          if(printf_parse$$1$$1$$1$$5$$1$$3$$n >= a_allocated)
+          unsigned long int printf_parse__1__1__1__5__1__3__n = dp->precision_arg_index;
+          if(printf_parse__1__1__1__5__1__3__n >= a_allocated)
           {
-            unsigned long int printf_parse$$1$$1$$1$$5$$1$$3$$1$$memory_size;
-            struct anonymous$2 *printf_parse$$1$$1$$1$$5$$1$$3$$1$$memory;
+            unsigned long int printf_parse__1__1__1__5__1__3__1__memory_size;
+            struct anonymous_2 *printf_parse__1__1__1__5__1__3__1__memory;
             a_allocated = a_allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)a_allocated * (unsigned long int)2 : 18446744073709551615UL;
-            if(printf_parse$$1$$1$$1$$5$$1$$3$$n >= a_allocated)
-              a_allocated=xsum(printf_parse$$1$$1$$1$$5$$1$$3$$n, (unsigned long int)1);
+            if(printf_parse__1__1__1__5__1__3__n >= a_allocated)
+              a_allocated=xsum(printf_parse__1__1__1__5__1__3__n, (unsigned long int)1);
 
-            printf_parse$$1$$1$$1$$5$$1$$3$$1$$memory_size = a_allocated <= 18446744073709551615UL / sizeof(struct anonymous$2) /*32ul*/  ? (unsigned long int)a_allocated * sizeof(struct anonymous$2) /*32ul*/  : 18446744073709551615UL;
-            if(printf_parse$$1$$1$$1$$5$$1$$3$$1$$memory_size == 18446744073709551615UL)
+            printf_parse__1__1__1__5__1__3__1__memory_size = a_allocated <= 18446744073709551615UL / sizeof(struct anonymous_2) /*32ul*/  ? (unsigned long int)a_allocated * sizeof(struct anonymous_2) /*32ul*/  : 18446744073709551615UL;
+            if(printf_parse__1__1__1__5__1__3__1__memory_size == 18446744073709551615UL)
               goto out_of_memory;
 
             if(!(a->arg == a->direct_alloc_arg))
             {
-              return_value_realloc$15=realloc((void *)a->arg, printf_parse$$1$$1$$1$$5$$1$$3$$1$$memory_size);
-              tmp_if_expr$17 = return_value_realloc$15;
+              return_value_realloc_15=realloc((void *)a->arg, printf_parse__1__1__1__5__1__3__1__memory_size);
+              tmp_if_expr_17 = return_value_realloc_15;
             }
 
             else
             {
-              return_value_malloc$16=malloc(printf_parse$$1$$1$$1$$5$$1$$3$$1$$memory_size);
-              tmp_if_expr$17 = return_value_malloc$16;
+              return_value_malloc_16=malloc(printf_parse__1__1__1__5__1__3__1__memory_size);
+              tmp_if_expr_17 = return_value_malloc_16;
             }
-            printf_parse$$1$$1$$1$$5$$1$$3$$1$$memory = (struct anonymous$2 *)tmp_if_expr$17;
-            if(printf_parse$$1$$1$$1$$5$$1$$3$$1$$memory == ((struct anonymous$2 *)NULL))
+            printf_parse__1__1__1__5__1__3__1__memory = (struct anonymous_2 *)tmp_if_expr_17;
+            if(printf_parse__1__1__1__5__1__3__1__memory == ((struct anonymous_2 *)NULL))
               goto out_of_memory;
 
             if(a->arg == a->direct_alloc_arg)
-              memcpy((void *)printf_parse$$1$$1$$1$$5$$1$$3$$1$$memory, (const void *)a->arg, a->count * sizeof(struct anonymous$2) /*32ul*/ );
+              memcpy((void *)printf_parse__1__1__1__5__1__3__1__memory, (const void *)a->arg, a->count * sizeof(struct anonymous_2) /*32ul*/ );
 
-            a->arg = printf_parse$$1$$1$$1$$5$$1$$3$$1$$memory;
+            a->arg = printf_parse__1__1__1__5__1__3__1__memory;
           }
 
-          for( ; printf_parse$$1$$1$$1$$5$$1$$3$$n >= a->count; (a->arg + (signed long int)tmp_post$18)->type = (enum anonymous$12)TYPE_NONE)
+          for( ; printf_parse__1__1__1__5__1__3__n >= a->count; (a->arg + (signed long int)tmp_post_18)->type = (enum anonymous_12)TYPE_NONE)
           {
-            tmp_post$18 = a->count;
+            tmp_post_18 = a->count;
             a->count = a->count + 1ul;
           }
-          if((signed int)(a->arg + (signed long int)printf_parse$$1$$1$$1$$5$$1$$3$$n)->type == TYPE_NONE)
-            (a->arg + (signed long int)printf_parse$$1$$1$$1$$5$$1$$3$$n)->type = (enum anonymous$12)TYPE_INT;
+          if((signed int)(a->arg + (signed long int)printf_parse__1__1__1__5__1__3__n)->type == TYPE_NONE)
+            (a->arg + (signed long int)printf_parse__1__1__1__5__1__3__n)->type = (enum anonymous_12)TYPE_INT;
 
           else
-            if(!((signed int)(a->arg + (signed long int)printf_parse$$1$$1$$1$$5$$1$$3$$n)->type == TYPE_INT))
+            if(!((signed int)(a->arg + (signed long int)printf_parse__1__1__1__5__1__3__n)->type == TYPE_INT))
               goto error;
 
         }
@@ -8754,11 +8754,11 @@ extern signed int printf_parse(const char *format, struct anonymous$10 *d, struc
           do
           {
             if((signed int)*cp >= 48)
-              tmp_if_expr$19 = (signed int)*cp <= 57 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_19 = (signed int)*cp <= 57 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$19 = (_Bool)0;
-            if(!tmp_if_expr$19)
+              tmp_if_expr_19 = (_Bool)0;
+            if(!tmp_if_expr_19)
               break;
 
             cp = cp + 1l;
@@ -8772,7 +8772,7 @@ extern signed int printf_parse(const char *format, struct anonymous$10 *d, struc
         }
       }
 
-      enum anonymous$12 type;
+      enum anonymous_12 type;
       signed int flags = 0;
       while((_Bool)1)
         if((signed int)*cp == 104)
@@ -8805,11 +8805,11 @@ extern signed int printf_parse(const char *format, struct anonymous$10 *d, struc
               else
               {
                 if((signed int)*cp == 122)
-                  tmp_if_expr$20 = (_Bool)1;
+                  tmp_if_expr_20 = (_Bool)1;
 
                 else
-                  tmp_if_expr$20 = (signed int)*cp == 90 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$20)
+                  tmp_if_expr_20 = (signed int)*cp == 90 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_20)
                 {
                   flags = flags + 8;
                   cp = cp + 1l;
@@ -8828,9 +8828,9 @@ extern signed int printf_parse(const char *format, struct anonymous$10 *d, struc
 
     __CPROVER_DUMP_L91:
       ;
-      tmp_post$21 = cp;
+      tmp_post_21 = cp;
       cp = cp + 1l;
-      c = *tmp_post$21;
+      c = *tmp_post_21;
       switch((signed int)c)
       {
         case 100:
@@ -8838,22 +8838,22 @@ extern signed int printf_parse(const char *format, struct anonymous$10 *d, struc
         case 105:
         {
           if(flags >= 16 || !((4 & flags) == 0))
-            type = (enum anonymous$12)TYPE_LONGLONGINT;
+            type = (enum anonymous_12)TYPE_LONGLONGINT;
 
           else
             if(flags >= 8)
-              type = (enum anonymous$12)TYPE_LONGINT;
+              type = (enum anonymous_12)TYPE_LONGINT;
 
             else
               if(!((2 & flags) == 0))
-                type = (enum anonymous$12)TYPE_SCHAR;
+                type = (enum anonymous_12)TYPE_SCHAR;
 
               else
                 if(!((1 & flags) == 0))
-                  type = (enum anonymous$12)TYPE_SHORT;
+                  type = (enum anonymous_12)TYPE_SHORT;
 
                 else
-                  type = (enum anonymous$12)TYPE_INT;
+                  type = (enum anonymous_12)TYPE_INT;
           break;
         }
         case 111:
@@ -8865,22 +8865,22 @@ extern signed int printf_parse(const char *format, struct anonymous$10 *d, struc
         case 88:
         {
           if(flags >= 16 || !((4 & flags) == 0))
-            type = (enum anonymous$12)TYPE_ULONGLONGINT;
+            type = (enum anonymous_12)TYPE_ULONGLONGINT;
 
           else
             if(flags >= 8)
-              type = (enum anonymous$12)TYPE_ULONGINT;
+              type = (enum anonymous_12)TYPE_ULONGINT;
 
             else
               if(!((2 & flags) == 0))
-                type = (enum anonymous$12)TYPE_UCHAR;
+                type = (enum anonymous_12)TYPE_UCHAR;
 
               else
                 if(!((1 & flags) == 0))
-                  type = (enum anonymous$12)TYPE_USHORT;
+                  type = (enum anonymous_12)TYPE_USHORT;
 
                 else
-                  type = (enum anonymous$12)TYPE_UINT;
+                  type = (enum anonymous_12)TYPE_UINT;
           break;
         }
         case 102:
@@ -8900,71 +8900,71 @@ extern signed int printf_parse(const char *format, struct anonymous$10 *d, struc
         case 65:
         {
           if(flags >= 16 || !((4 & flags) == 0))
-            type = (enum anonymous$12)TYPE_LONGDOUBLE;
+            type = (enum anonymous_12)TYPE_LONGDOUBLE;
 
           else
-            type = (enum anonymous$12)TYPE_DOUBLE;
+            type = (enum anonymous_12)TYPE_DOUBLE;
           break;
         }
         case 99:
         {
           if(flags >= 8)
-            type = (enum anonymous$12)TYPE_WIDE_CHAR;
+            type = (enum anonymous_12)TYPE_WIDE_CHAR;
 
           else
-            type = (enum anonymous$12)TYPE_CHAR;
+            type = (enum anonymous_12)TYPE_CHAR;
           break;
         }
         case 67:
         {
-          type = (enum anonymous$12)TYPE_WIDE_CHAR;
+          type = (enum anonymous_12)TYPE_WIDE_CHAR;
           c = (char)99;
           break;
         }
         case 115:
         {
           if(flags >= 8)
-            type = (enum anonymous$12)TYPE_WIDE_STRING;
+            type = (enum anonymous_12)TYPE_WIDE_STRING;
 
           else
-            type = (enum anonymous$12)TYPE_STRING;
+            type = (enum anonymous_12)TYPE_STRING;
           break;
         }
         case 83:
         {
-          type = (enum anonymous$12)TYPE_WIDE_STRING;
+          type = (enum anonymous_12)TYPE_WIDE_STRING;
           c = (char)115;
           break;
         }
         case 112:
         {
-          type = (enum anonymous$12)TYPE_POINTER;
+          type = (enum anonymous_12)TYPE_POINTER;
           break;
         }
         case 110:
         {
           if(flags >= 16 || !((4 & flags) == 0))
-            type = (enum anonymous$12)TYPE_COUNT_LONGLONGINT_POINTER;
+            type = (enum anonymous_12)TYPE_COUNT_LONGLONGINT_POINTER;
 
           else
             if(flags >= 8)
-              type = (enum anonymous$12)TYPE_COUNT_LONGINT_POINTER;
+              type = (enum anonymous_12)TYPE_COUNT_LONGINT_POINTER;
 
             else
               if(!((2 & flags) == 0))
-                type = (enum anonymous$12)TYPE_COUNT_SCHAR_POINTER;
+                type = (enum anonymous_12)TYPE_COUNT_SCHAR_POINTER;
 
               else
                 if(!((1 & flags) == 0))
-                  type = (enum anonymous$12)TYPE_COUNT_SHORT_POINTER;
+                  type = (enum anonymous_12)TYPE_COUNT_SHORT_POINTER;
 
                 else
-                  type = (enum anonymous$12)TYPE_COUNT_INT_POINTER;
+                  type = (enum anonymous_12)TYPE_COUNT_INT_POINTER;
           break;
         }
         case 37:
         {
-          type = (enum anonymous$12)TYPE_NONE;
+          type = (enum anonymous_12)TYPE_NONE;
           break;
         }
         default:
@@ -8975,58 +8975,58 @@ extern signed int printf_parse(const char *format, struct anonymous$10 *d, struc
         dp->arg_index = arg_index;
         if(dp->arg_index == 18446744073709551615ul)
         {
-          tmp_post$22 = arg_posn;
+          tmp_post_22 = arg_posn;
           arg_posn = arg_posn + 1ul;
-          dp->arg_index = tmp_post$22;
+          dp->arg_index = tmp_post_22;
           if(dp->arg_index == 18446744073709551615ul)
             goto error;
 
         }
 
-        unsigned long int printf_parse$$1$$1$$1$$6$$2$$2$$n = dp->arg_index;
-        if(printf_parse$$1$$1$$1$$6$$2$$2$$n >= a_allocated)
+        unsigned long int printf_parse__1__1__1__6__2__2__n = dp->arg_index;
+        if(printf_parse__1__1__1__6__2__2__n >= a_allocated)
         {
-          unsigned long int printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory_size;
-          struct anonymous$2 *printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory;
+          unsigned long int printf_parse__1__1__1__6__2__2__1__memory_size;
+          struct anonymous_2 *printf_parse__1__1__1__6__2__2__1__memory;
           a_allocated = a_allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)a_allocated * (unsigned long int)2 : 18446744073709551615UL;
-          if(printf_parse$$1$$1$$1$$6$$2$$2$$n >= a_allocated)
-            a_allocated=xsum(printf_parse$$1$$1$$1$$6$$2$$2$$n, (unsigned long int)1);
+          if(printf_parse__1__1__1__6__2__2__n >= a_allocated)
+            a_allocated=xsum(printf_parse__1__1__1__6__2__2__n, (unsigned long int)1);
 
-          printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory_size = a_allocated <= 18446744073709551615UL / sizeof(struct anonymous$2) /*32ul*/  ? (unsigned long int)a_allocated * sizeof(struct anonymous$2) /*32ul*/  : 18446744073709551615UL;
-          if(printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory_size == 18446744073709551615UL)
+          printf_parse__1__1__1__6__2__2__1__memory_size = a_allocated <= 18446744073709551615UL / sizeof(struct anonymous_2) /*32ul*/  ? (unsigned long int)a_allocated * sizeof(struct anonymous_2) /*32ul*/  : 18446744073709551615UL;
+          if(printf_parse__1__1__1__6__2__2__1__memory_size == 18446744073709551615UL)
             goto out_of_memory;
 
           if(!(a->arg == a->direct_alloc_arg))
           {
-            return_value_realloc$23=realloc((void *)a->arg, printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory_size);
-            tmp_if_expr$25 = return_value_realloc$23;
+            return_value_realloc_23=realloc((void *)a->arg, printf_parse__1__1__1__6__2__2__1__memory_size);
+            tmp_if_expr_25 = return_value_realloc_23;
           }
 
           else
           {
-            return_value_malloc$24=malloc(printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory_size);
-            tmp_if_expr$25 = return_value_malloc$24;
+            return_value_malloc_24=malloc(printf_parse__1__1__1__6__2__2__1__memory_size);
+            tmp_if_expr_25 = return_value_malloc_24;
           }
-          printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory = (struct anonymous$2 *)tmp_if_expr$25;
-          if(printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory == ((struct anonymous$2 *)NULL))
+          printf_parse__1__1__1__6__2__2__1__memory = (struct anonymous_2 *)tmp_if_expr_25;
+          if(printf_parse__1__1__1__6__2__2__1__memory == ((struct anonymous_2 *)NULL))
             goto out_of_memory;
 
           if(a->arg == a->direct_alloc_arg)
-            memcpy((void *)printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory, (const void *)a->arg, a->count * sizeof(struct anonymous$2) /*32ul*/ );
+            memcpy((void *)printf_parse__1__1__1__6__2__2__1__memory, (const void *)a->arg, a->count * sizeof(struct anonymous_2) /*32ul*/ );
 
-          a->arg = printf_parse$$1$$1$$1$$6$$2$$2$$1$$memory;
+          a->arg = printf_parse__1__1__1__6__2__2__1__memory;
         }
 
-        for( ; printf_parse$$1$$1$$1$$6$$2$$2$$n >= a->count; (a->arg + (signed long int)tmp_post$26)->type = (enum anonymous$12)TYPE_NONE)
+        for( ; printf_parse__1__1__1__6__2__2__n >= a->count; (a->arg + (signed long int)tmp_post_26)->type = (enum anonymous_12)TYPE_NONE)
         {
-          tmp_post$26 = a->count;
+          tmp_post_26 = a->count;
           a->count = a->count + 1ul;
         }
-        if((signed int)(a->arg + (signed long int)printf_parse$$1$$1$$1$$6$$2$$2$$n)->type == TYPE_NONE)
-          (a->arg + (signed long int)printf_parse$$1$$1$$1$$6$$2$$2$$n)->type = type;
+        if((signed int)(a->arg + (signed long int)printf_parse__1__1__1__6__2__2__n)->type == TYPE_NONE)
+          (a->arg + (signed long int)printf_parse__1__1__1__6__2__2__n)->type = type;
 
         else
-          if(!((a->arg + (signed long int)printf_parse$$1$$1$$1$$6$$2$$2$$n)->type == type))
+          if(!((a->arg + (signed long int)printf_parse__1__1__1__6__2__2__n)->type == type))
             goto error;
 
       }
@@ -9036,32 +9036,32 @@ extern signed int printf_parse(const char *format, struct anonymous$10 *d, struc
       d->count = d->count + 1ul;
       if(d->count >= d_allocated)
       {
-        unsigned long int printf_parse$$1$$1$$1$$7$$memory_size;
-        struct anonymous$3 *printf_parse$$1$$1$$1$$7$$memory;
+        unsigned long int printf_parse__1__1__1__7__memory_size;
+        struct anonymous_3 *printf_parse__1__1__1__7__memory;
         d_allocated = d_allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)d_allocated * (unsigned long int)2 : 18446744073709551615UL;
-        printf_parse$$1$$1$$1$$7$$memory_size = d_allocated <= 18446744073709551615UL / sizeof(struct anonymous$3) /*88ul*/  ? (unsigned long int)d_allocated * sizeof(struct anonymous$3) /*88ul*/  : 18446744073709551615UL;
-        if(printf_parse$$1$$1$$1$$7$$memory_size == 18446744073709551615UL)
+        printf_parse__1__1__1__7__memory_size = d_allocated <= 18446744073709551615UL / sizeof(struct anonymous_3) /*88ul*/  ? (unsigned long int)d_allocated * sizeof(struct anonymous_3) /*88ul*/  : 18446744073709551615UL;
+        if(printf_parse__1__1__1__7__memory_size == 18446744073709551615UL)
           goto out_of_memory;
 
         if(!(d->dir == d->direct_alloc_dir))
         {
-          return_value_realloc$27=realloc((void *)d->dir, printf_parse$$1$$1$$1$$7$$memory_size);
-          tmp_if_expr$29 = return_value_realloc$27;
+          return_value_realloc_27=realloc((void *)d->dir, printf_parse__1__1__1__7__memory_size);
+          tmp_if_expr_29 = return_value_realloc_27;
         }
 
         else
         {
-          return_value_malloc$28=malloc(printf_parse$$1$$1$$1$$7$$memory_size);
-          tmp_if_expr$29 = return_value_malloc$28;
+          return_value_malloc_28=malloc(printf_parse__1__1__1__7__memory_size);
+          tmp_if_expr_29 = return_value_malloc_28;
         }
-        printf_parse$$1$$1$$1$$7$$memory = (struct anonymous$3 *)tmp_if_expr$29;
-        if(printf_parse$$1$$1$$1$$7$$memory == ((struct anonymous$3 *)NULL))
+        printf_parse__1__1__1__7__memory = (struct anonymous_3 *)tmp_if_expr_29;
+        if(printf_parse__1__1__1__7__memory == ((struct anonymous_3 *)NULL))
           goto out_of_memory;
 
         if(d->dir == d->direct_alloc_dir)
-          memcpy((void *)printf_parse$$1$$1$$1$$7$$memory, (const void *)d->dir, d->count * sizeof(struct anonymous$3) /*88ul*/ );
+          memcpy((void *)printf_parse__1__1__1__7__memory, (const void *)d->dir, d->count * sizeof(struct anonymous_3) /*88ul*/ );
 
-        d->dir = printf_parse$$1$$1$$1$$7$$memory;
+        d->dir = printf_parse__1__1__1__7__memory;
       }
 
     }
@@ -9080,9 +9080,9 @@ error:
   if(!(d->dir == d->direct_alloc_dir))
     free((void *)d->dir);
 
-  signed int *return_value___errno_location$30;
-  return_value___errno_location$30=__errno_location();
-  *return_value___errno_location$30 = 22;
+  signed int *return_value___errno_location_30;
+  return_value___errno_location_30=__errno_location();
+  *return_value___errno_location_30 = 22;
   return -1;
 
 out_of_memory:
@@ -9093,9 +9093,9 @@ out_of_memory:
   if(!(d->dir == d->direct_alloc_dir))
     free((void *)d->dir);
 
-  signed int *return_value___errno_location$31;
-  return_value___errno_location$31=__errno_location();
-  *return_value___errno_location$31 = 12;
+  signed int *return_value___errno_location_31;
+  return_value___errno_location_31=__errno_location();
+  *return_value___errno_location_31 = 12;
   return -1;
 }
 
@@ -9104,15 +9104,15 @@ out_of_memory:
 static void promote(void)
 {
   const signed int *sig;
-  struct anonymous$11 pending;
+  struct anonymous_11 pending;
   xempty(&pending);
   xpending(&pending);
   sig = blocked_signals;
-  _Bool return_value_xmember$1;
+  _Bool return_value_xmember_1;
   for( ; !(sig >= blocked_signals + 2l); sig = sig + 1l)
   {
-    return_value_xmember$1=xmember(&pending, *sig);
-    if(!(return_value_xmember$1 == (_Bool)0))
+    return_value_xmember_1=xmember(&pending, *sig);
+    if(!(return_value_xmember_1 == (_Bool)0))
       xraise(*sig);
 
   }
@@ -9120,7 +9120,7 @@ static void promote(void)
 
 // retrieve
 // file decode.c line 519
-signed int retrieve(struct decoder_state * restrict ds, struct bitstream$0 *bs)
+signed int retrieve(struct decoder_state * restrict ds, struct bitstream_0 *bs)
 {
   struct retriever_internal_state * restrict rs = ds->internal_state;
   unsigned int w;
@@ -9135,18 +9135,18 @@ signed int retrieve(struct decoder_state * restrict ds, struct bitstream$0 *bs)
   limit = bs->limit;
   tt = ds->tt + (signed long int)ds->block_size;
   tt_limit = ds->tt + (signed long int)900000;
-  unsigned int tmp_post$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$7;
-  unsigned int tmp_post$10;
-  unsigned int tmp_post$11;
-  unsigned int *tmp_post$12;
-  unsigned int tmp_post$15;
-  unsigned int *tmp_post$16;
-  _Bool tmp_if_expr$18;
-  unsigned int tmp_post$17;
-  unsigned int tmp_post$19;
-  unsigned int *tmp_post$20;
+  unsigned int tmp_post_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_7;
+  unsigned int tmp_post_10;
+  unsigned int tmp_post_11;
+  unsigned int *tmp_post_12;
+  unsigned int tmp_post_15;
+  unsigned int *tmp_post_16;
+  _Bool tmp_if_expr_18;
+  unsigned int tmp_post_17;
+  unsigned int tmp_post_19;
+  unsigned int *tmp_post_20;
   if(!(rs->state == 1u))
   {
     if(!(rs->state == 0u))
@@ -9207,10 +9207,10 @@ signed int retrieve(struct decoder_state * restrict ds, struct bitstream$0 *bs)
 
     __CPROVER_DUMP_L5:
       ;
-      unsigned int return_value_ntohl$1;
-      return_value_ntohl$1=ntohl(*next);
+      unsigned int return_value_ntohl_1;
+      return_value_ntohl_1=ntohl(*next);
       w = w + 32u;
-      v = v | (unsigned long int)return_value_ntohl$1 << 64u - w;
+      v = v | (unsigned long int)return_value_ntohl_1 << 64u - w;
       next = next + 1l;
 
     __CPROVER_DUMP_L6:
@@ -9254,10 +9254,10 @@ signed int retrieve(struct decoder_state * restrict ds, struct bitstream$0 *bs)
           assert(w < 32u);
         }
 
-        unsigned int return_value_ntohl$2;
-        return_value_ntohl$2=ntohl(*next);
+        unsigned int return_value_ntohl_2;
+        return_value_ntohl_2=ntohl(*next);
         w = w + 32u;
-        v = v | (unsigned long int)return_value_ntohl$2 << 64u - w;
+        v = v | (unsigned long int)return_value_ntohl_2 << 64u - w;
         next = next + 1l;
       }
 
@@ -9308,10 +9308,10 @@ signed int retrieve(struct decoder_state * restrict ds, struct bitstream$0 *bs)
             assert(w < 32u);
           }
 
-          unsigned int return_value_ntohl$3;
-          return_value_ntohl$3=ntohl(*next);
+          unsigned int return_value_ntohl_3;
+          return_value_ntohl_3=ntohl(*next);
           w = w + 32u;
-          v = v | (unsigned long int)return_value_ntohl$3 << 64u - w;
+          v = v | (unsigned long int)return_value_ntohl_3 << 64u - w;
           next = next + 1l;
         }
 
@@ -9319,9 +9319,9 @@ signed int retrieve(struct decoder_state * restrict ds, struct bitstream$0 *bs)
 
       do
       {
-        tmp_post$4 = rs->j;
+        tmp_post_4 = rs->j;
         rs->j = rs->j + 1u;
-        rs->imtf_slide[(signed long int)((8192u - (unsigned int)256) + rs->alpha_size)] = (unsigned char)tmp_post$4;
+        rs->imtf_slide[(signed long int)((8192u - (unsigned int)256) + rs->alpha_size)] = (unsigned char)tmp_post_4;
         rs->alpha_size = rs->alpha_size + (unsigned int)((signed int)rs->small >> 15);
         rs->small = rs->small << 1;
       }
@@ -9340,11 +9340,11 @@ signed int retrieve(struct decoder_state * restrict ds, struct bitstream$0 *bs)
         v = v << 3u;
         w = w - 3u;
         if(!(rs->num_trees >= 2u))
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = rs->num_trees > (unsigned int)6 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = rs->num_trees > (unsigned int)6 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_5)
           return 6;
 
         else
@@ -9403,10 +9403,10 @@ signed int retrieve(struct decoder_state * restrict ds, struct bitstream$0 *bs)
                   assert(w < 32u);
                 }
 
-                unsigned int return_value_ntohl$6;
-                return_value_ntohl$6=ntohl(*next);
+                unsigned int return_value_ntohl_6;
+                return_value_ntohl_6=ntohl(*next);
                 w = w + 32u;
-                v = v | (unsigned long int)return_value_ntohl$6 << 64u - w;
+                v = v | (unsigned long int)return_value_ntohl_6 << 64u - w;
                 next = next + 1l;
               }
 
@@ -9429,19 +9429,19 @@ signed int retrieve(struct decoder_state * restrict ds, struct bitstream$0 *bs)
               ;
               if(!(rs->j >= rs->alpha_size))
               {
-                unsigned int retrieve$$1$$1$$5$$1$$1$$k = (unsigned int)(v >> 64u - 6u);
-                rs->code_len[(signed long int)rs->j] = rs->code_len[(signed long int)rs->j] + R[(signed long int)retrieve$$1$$1$$5$$1$$1$$k];
+                unsigned int retrieve__1__1__5__1__1__k = (unsigned int)(v >> 64u - 6u);
+                rs->code_len[(signed long int)rs->j] = rs->code_len[(signed long int)rs->j] + R[(signed long int)retrieve__1__1__5__1__1__k];
                 if(!((signed int)rs->code_len[(signed long int)rs->j] >= 1))
-                  tmp_if_expr$7 = (_Bool)1;
+                  tmp_if_expr_7 = (_Bool)1;
 
                 else
-                  tmp_if_expr$7 = (signed int)rs->code_len[(signed long int)rs->j] > 3 + 20 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$7)
+                  tmp_if_expr_7 = (signed int)rs->code_len[(signed long int)rs->j] > 3 + 20 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_7)
                   return 9;
 
                 rs->code_len[(signed long int)rs->j] = rs->code_len[(signed long int)rs->j] - (unsigned char)3;
-                retrieve$$1$$1$$5$$1$$1$$k = (unsigned int)L[(signed long int)retrieve$$1$$1$$5$$1$$1$$k];
-                if(!(retrieve$$1$$1$$5$$1$$1$$k == 6u))
+                retrieve__1__1__5__1__1__k = (unsigned int)L[(signed long int)retrieve__1__1__5__1__1__k];
+                if(!(retrieve__1__1__5__1__1__k == 6u))
                 {
                   rs->j = rs->j + 1u;
                   if(!(rs->j >= rs->alpha_size))
@@ -9449,8 +9449,8 @@ signed int retrieve(struct decoder_state * restrict ds, struct bitstream$0 *bs)
 
                 }
 
-                v = v << retrieve$$1$$1$$5$$1$$1$$k;
-                w = w - retrieve$$1$$1$$5$$1$$1$$k;
+                v = v << retrieve__1__1__5__1__1__k;
+                w = w - retrieve__1__1__5__1__1__k;
                 if(!(w >= 32u))
                 {
                   if(next == limit)
@@ -9484,10 +9484,10 @@ signed int retrieve(struct decoder_state * restrict ds, struct bitstream$0 *bs)
                     assert(w < 32u);
                   }
 
-                  unsigned int return_value_ntohl$8;
-                  return_value_ntohl$8=ntohl(*next);
+                  unsigned int return_value_ntohl_8;
+                  return_value_ntohl_8=ntohl(*next);
                   w = w + 32u;
-                  v = v | (unsigned long int)return_value_ntohl$8 << 64u - w;
+                  v = v | (unsigned long int)return_value_ntohl_8 << 64u - w;
                   next = next + 1l;
                 }
 
@@ -9517,14 +9517,14 @@ signed int retrieve(struct decoder_state * restrict ds, struct bitstream$0 *bs)
             {
               unsigned int s;
               unsigned int x;
-              unsigned int retrieve$$1$$1$$7$$1$$k;
-              unsigned int retrieve$$1$$1$$7$$1$$i = (unsigned int)rs->selector[(signed long int)rs->g];
-              rs->t = rs->mtf[(signed long int)retrieve$$1$$1$$7$$1$$i];
+              unsigned int retrieve__1__1__7__1__k;
+              unsigned int retrieve__1__1__7__1__i = (unsigned int)rs->selector[(signed long int)rs->g];
+              rs->t = rs->mtf[(signed long int)retrieve__1__1__7__1__i];
               if(rs->t >= 6u)
                 return (signed int)rs->t;
 
-              for( ; retrieve$$1$$1$$7$$1$$i >= 1u; retrieve$$1$$1$$7$$1$$i = retrieve$$1$$1$$7$$1$$i - 1u)
-                rs->mtf[(signed long int)retrieve$$1$$1$$7$$1$$i] = rs->mtf[(signed long int)(retrieve$$1$$1$$7$$1$$i - (unsigned int)1)];
+              for( ; retrieve__1__1__7__1__i >= 1u; retrieve__1__1__7__1__i = retrieve__1__1__7__1__i - 1u)
+                rs->mtf[(signed long int)retrieve__1__1__7__1__i] = rs->mtf[(signed long int)(retrieve__1__1__7__1__i - (unsigned int)1)];
               rs->mtf[(signed long int)0] = rs->t;
               if(limit - next >= 32l)
               {
@@ -9538,26 +9538,26 @@ signed int retrieve(struct decoder_state * restrict ds, struct bitstream$0 *bs)
                 {
                   if(!(w >= 32u))
                   {
-                    unsigned int return_value_ntohl$9;
-                    return_value_ntohl$9=ntohl(*next);
+                    unsigned int return_value_ntohl_9;
+                    return_value_ntohl_9=ntohl(*next);
                     w = w + 32u;
-                    v = v | (unsigned long int)return_value_ntohl$9 << 64u - w;
+                    v = v | (unsigned long int)return_value_ntohl_9 << 64u - w;
                     next = next + 1l;
                   }
 
                   x = (unsigned int)T->start[(signed long int)(v >> 64u - (unsigned int)10)];
-                  retrieve$$1$$1$$7$$1$$k = x & (unsigned int)0x1F;
-                  if(!(retrieve$$1$$1$$7$$1$$k >= 11u))
+                  retrieve__1__1__7__1__k = x & (unsigned int)0x1F;
+                  if(!(retrieve__1__1__7__1__k >= 11u))
                     s = x >> 5;
 
                   else
                   {
-                    for( ; v >= T->base[(signed long int)(1u + retrieve$$1$$1$$7$$1$$k)]; retrieve$$1$$1$$7$$1$$k = retrieve$$1$$1$$7$$1$$k + 1u)
+                    for( ; v >= T->base[(signed long int)(1u + retrieve__1__1__7__1__k)]; retrieve__1__1__7__1__k = retrieve__1__1__7__1__k + 1u)
                       ;
-                    s = (unsigned int)T->perm[(signed long int)((unsigned long int)T->count[(signed long int)retrieve$$1$$1$$7$$1$$k] + (v - T->base[(signed long int)retrieve$$1$$1$$7$$1$$k] >> (unsigned int)64 - retrieve$$1$$1$$7$$1$$k))];
+                    s = (unsigned int)T->perm[(signed long int)((unsigned long int)T->count[(signed long int)retrieve__1__1__7__1__k] + (v - T->base[(signed long int)retrieve__1__1__7__1__k] >> (unsigned int)64 - retrieve__1__1__7__1__k))];
                   }
-                  v = v << retrieve$$1$$1$$7$$1$$k;
-                  w = w - retrieve$$1$$1$$7$$1$$k;
+                  v = v << retrieve__1__1__7__1__k;
+                  w = w - retrieve__1__1__7__1__k;
                   if(s == 0u)
                   {
                     rs->run = run;
@@ -9567,9 +9567,9 @@ signed int retrieve(struct decoder_state * restrict ds, struct bitstream$0 *bs)
 
                   if(s >= 256u && !(run >= 900001u))
                   {
-                    tmp_post$10 = shift;
+                    tmp_post_10 = shift;
                     shift = shift + 1u;
-                    run = run + (s - (unsigned int)256 << tmp_post$10);
+                    run = run + (s - (unsigned int)256 << tmp_post_10);
                   }
 
                   else
@@ -9580,19 +9580,19 @@ signed int retrieve(struct decoder_state * restrict ds, struct bitstream$0 *bs)
                     ds->ftab[(signed long int)runChar] = ds->ftab[(signed long int)runChar] + run;
                     do
                     {
-                      tmp_post$11 = run;
+                      tmp_post_11 = run;
                       run = run - 1u;
-                      if(!(tmp_post$11 >= 1u))
+                      if(!(tmp_post_11 >= 1u))
                         break;
 
-                      tmp_post$12 = tt;
+                      tmp_post_12 = tt;
                       tt = tt + 1l;
-                      *tmp_post$12 = runChar;
+                      *tmp_post_12 = runChar;
                     }
                     while((_Bool)1);
-                    unsigned char return_value_mtf_one$13;
-                    return_value_mtf_one$13=mtf_one(rs->imtf_row, rs->imtf_slide, (unsigned char)s);
-                    runChar = (unsigned int)return_value_mtf_one$13;
+                    unsigned char return_value_mtf_one_13;
+                    return_value_mtf_one_13=mtf_one(rs->imtf_row, rs->imtf_slide, (unsigned char)s);
+                    runChar = (unsigned int)return_value_mtf_one_13;
                     shift = (unsigned int)0;
                     run = (unsigned int)1;
                   }
@@ -9610,7 +9610,7 @@ signed int retrieve(struct decoder_state * restrict ds, struct bitstream$0 *bs)
                 ;
                 if(!(rs->j >= 50u))
                 {
-                  struct tree *retrieve$$1$$1$$7$$1$$3$$1$$1$$T;
+                  struct tree *retrieve__1__1__7__1__3__1__1__T;
                   if(!(w >= 32u))
                   {
                     if(next == limit)
@@ -9644,27 +9644,27 @@ signed int retrieve(struct decoder_state * restrict ds, struct bitstream$0 *bs)
                       assert(w < 32u);
                     }
 
-                    unsigned int return_value_ntohl$14;
-                    return_value_ntohl$14=ntohl(*next);
+                    unsigned int return_value_ntohl_14;
+                    return_value_ntohl_14=ntohl(*next);
                     w = w + 32u;
-                    v = v | (unsigned long int)return_value_ntohl$14 << 64u - w;
+                    v = v | (unsigned long int)return_value_ntohl_14 << 64u - w;
                     next = next + 1l;
                   }
 
-                  retrieve$$1$$1$$7$$1$$3$$1$$1$$T = &rs->tree[(signed long int)rs->t];
-                  x = (unsigned int)retrieve$$1$$1$$7$$1$$3$$1$$1$$T->start[(signed long int)(v >> 64u - (unsigned int)10)];
-                  retrieve$$1$$1$$7$$1$$k = x & (unsigned int)0x1F;
-                  if(!(retrieve$$1$$1$$7$$1$$k >= 11u))
+                  retrieve__1__1__7__1__3__1__1__T = &rs->tree[(signed long int)rs->t];
+                  x = (unsigned int)retrieve__1__1__7__1__3__1__1__T->start[(signed long int)(v >> 64u - (unsigned int)10)];
+                  retrieve__1__1__7__1__k = x & (unsigned int)0x1F;
+                  if(!(retrieve__1__1__7__1__k >= 11u))
                     s = x >> 5;
 
                   else
                   {
-                    for( ; v >= retrieve$$1$$1$$7$$1$$3$$1$$1$$T->base[(signed long int)(1u + retrieve$$1$$1$$7$$1$$k)]; retrieve$$1$$1$$7$$1$$k = retrieve$$1$$1$$7$$1$$k + 1u)
+                    for( ; v >= retrieve__1__1__7__1__3__1__1__T->base[(signed long int)(1u + retrieve__1__1__7__1__k)]; retrieve__1__1__7__1__k = retrieve__1__1__7__1__k + 1u)
                       ;
-                    s = (unsigned int)retrieve$$1$$1$$7$$1$$3$$1$$1$$T->perm[(signed long int)((unsigned long int)retrieve$$1$$1$$7$$1$$3$$1$$1$$T->count[(signed long int)retrieve$$1$$1$$7$$1$$k] + (v - retrieve$$1$$1$$7$$1$$3$$1$$1$$T->base[(signed long int)retrieve$$1$$1$$7$$1$$k] >> (unsigned int)64 - retrieve$$1$$1$$7$$1$$k))];
+                    s = (unsigned int)retrieve__1__1__7__1__3__1__1__T->perm[(signed long int)((unsigned long int)retrieve__1__1__7__1__3__1__1__T->count[(signed long int)retrieve__1__1__7__1__k] + (v - retrieve__1__1__7__1__3__1__1__T->base[(signed long int)retrieve__1__1__7__1__k] >> (unsigned int)64 - retrieve__1__1__7__1__k))];
                   }
-                  v = v << retrieve$$1$$1$$7$$1$$k;
-                  w = w - retrieve$$1$$1$$7$$1$$k;
+                  v = v << retrieve__1__1__7__1__k;
+                  w = w - retrieve__1__1__7__1__k;
                   if(s == 0u)
                   {
 
@@ -9676,14 +9676,14 @@ signed int retrieve(struct decoder_state * restrict ds, struct bitstream$0 *bs)
                     ds->ftab[(signed long int)rs->runChar] = ds->ftab[(signed long int)rs->runChar] + rs->run;
                     do
                     {
-                      tmp_post$15 = rs->run;
+                      tmp_post_15 = rs->run;
                       rs->run = rs->run - 1u;
-                      if(tmp_post$15 == 0u)
+                      if(tmp_post_15 == 0u)
                         break;
 
-                      tmp_post$16 = tt;
+                      tmp_post_16 = tt;
                       tt = tt + 1l;
-                      *tmp_post$16 = rs->runChar;
+                      *tmp_post_16 = rs->runChar;
                     }
                     while((_Bool)1);
                     bs->buff = v;
@@ -9702,15 +9702,15 @@ signed int retrieve(struct decoder_state * restrict ds, struct bitstream$0 *bs)
                   }
 
                   if(s >= 256u)
-                    tmp_if_expr$18 = rs->run <= (unsigned int)900000 ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_18 = rs->run <= (unsigned int)900000 ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$18 = (_Bool)0;
-                  if(tmp_if_expr$18)
+                    tmp_if_expr_18 = (_Bool)0;
+                  if(tmp_if_expr_18)
                   {
-                    tmp_post$17 = rs->shift;
+                    tmp_post_17 = rs->shift;
                     rs->shift = rs->shift + 1u;
-                    rs->run = rs->run + (s - (unsigned int)256 << tmp_post$17);
+                    rs->run = rs->run + (s - (unsigned int)256 << tmp_post_17);
                   }
 
                   else
@@ -9721,19 +9721,19 @@ signed int retrieve(struct decoder_state * restrict ds, struct bitstream$0 *bs)
                     ds->ftab[(signed long int)rs->runChar] = ds->ftab[(signed long int)rs->runChar] + rs->run;
                     do
                     {
-                      tmp_post$19 = rs->run;
+                      tmp_post_19 = rs->run;
                       rs->run = rs->run - 1u;
-                      if(!(tmp_post$19 >= 1u))
+                      if(!(tmp_post_19 >= 1u))
                         break;
 
-                      tmp_post$20 = tt;
+                      tmp_post_20 = tt;
                       tt = tt + 1l;
-                      *tmp_post$20 = rs->runChar;
+                      *tmp_post_20 = rs->runChar;
                     }
                     while((_Bool)1);
-                    unsigned char return_value_mtf_one$21;
-                    return_value_mtf_one$21=mtf_one(rs->imtf_row, rs->imtf_slide, (unsigned char)s);
-                    rs->runChar = (unsigned int)return_value_mtf_one$21;
+                    unsigned char return_value_mtf_one_21;
+                    return_value_mtf_one_21=mtf_one(rs->imtf_row, rs->imtf_slide, (unsigned char)s);
+                    rs->runChar = (unsigned int)return_value_mtf_one_21;
                     rs->shift = (unsigned int)0;
                     rs->run = (unsigned int)1;
                   }
@@ -9777,20 +9777,20 @@ extern signed int rpl_fprintf(struct _IO_FILE *fp, const char *format, ...)
 
   else
   {
-    unsigned long int return_value_fwrite$3;
-    return_value_fwrite$3=fwrite((const void *)output, (unsigned long int)1, len, fp);
-    if(!(return_value_fwrite$3 >= len))
+    unsigned long int return_value_fwrite_3;
+    return_value_fwrite_3=fwrite((const void *)output, (unsigned long int)1, len, fp);
+    if(!(return_value_fwrite_3 >= len))
     {
       if(!(output == buf))
       {
         signed int saved_errno;
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        saved_errno = *return_value___errno_location$1;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        saved_errno = *return_value___errno_location_1;
         free((void *)output);
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = saved_errno;
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = saved_errno;
       }
 
       return -1;
@@ -9803,9 +9803,9 @@ extern signed int rpl_fprintf(struct _IO_FILE *fp, const char *format, ...)
 
       if(len >= 2147483648ul)
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        *return_value___errno_location$4 = 75;
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        *return_value___errno_location_4 = 75;
         fseterr(fp);
         return -1;
       }
@@ -9819,7 +9819,7 @@ extern signed int rpl_fprintf(struct _IO_FILE *fp, const char *format, ...)
 // file isnan.c line 94
 extern signed int rpl_isnanl(long double x)
 {
-  union anonymous$25 m;
+  union anonymous_25 m;
   unsigned int exponent;
   m.value = x;
   exponent = m.word[(signed long int)2] >> 0 & (unsigned int)(16384 - -16381 | 7);
@@ -9836,7 +9836,7 @@ extern signed int rpl_isnanl(long double x)
 
 // scan
 // file parse.c line 275
-signed int scan(struct bitstream$0 *bs, unsigned int skip)
+signed int scan(struct bitstream_0 *bs, unsigned int skip)
 {
   unsigned int state = (unsigned int)0;
   const unsigned int *data;
@@ -9854,12 +9854,12 @@ signed int scan(struct bitstream$0 *bs, unsigned int skip)
       bs->data = bs->data + (signed long int)skip;
   }
 
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$2;
-  unsigned int return_value_ntohl$1;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_2;
+  unsigned int return_value_ntohl_1;
   unsigned int bt_state;
   unsigned int word;
-  unsigned int return_value_ntohl$4;
+  unsigned int return_value_ntohl_4;
   do
   {
   /* assertion state < ACCEPT */
@@ -9877,24 +9877,24 @@ signed int scan(struct bitstream$0 *bs, unsigned int skip)
       if(state == (unsigned int)ACCEPT)
       {
         if(bs->live >= 32u)
-          tmp_if_expr$3 = 0;
+          tmp_if_expr_3 = 0;
 
         else
         {
           if(bs->data == bs->limit)
-            tmp_if_expr$2 = bs->eof != (_Bool)0 ? 2 : 1;
+            tmp_if_expr_2 = bs->eof != (_Bool)0 ? 2 : 1;
 
           else
           {
-            return_value_ntohl$1=ntohl(*bs->data);
-            bs->buff = bs->buff | (unsigned long int)return_value_ntohl$1 << 32u - bs->live;
+            return_value_ntohl_1=ntohl(*bs->data);
+            bs->buff = bs->buff | (unsigned long int)return_value_ntohl_1 << 32u - bs->live;
             bs->data = bs->data + 1l;
             bs->live = bs->live + 32u;
-            tmp_if_expr$2 = 0;
+            tmp_if_expr_2 = 0;
           }
-          tmp_if_expr$3 = tmp_if_expr$2;
+          tmp_if_expr_3 = tmp_if_expr_2;
         }
-        if(tmp_if_expr$3 == 0)
+        if(tmp_if_expr_3 == 0)
         {
           bs->buff = bs->buff << 32;
           bs->live = bs->live - (unsigned int)32;
@@ -9946,8 +9946,8 @@ signed int scan(struct bitstream$0 *bs, unsigned int skip)
 
       else
       {
-        return_value_ntohl$4=ntohl(*bs->data);
-        bs->buff = bs->buff | (unsigned long int)return_value_ntohl$4 << 32u - bs->live;
+        return_value_ntohl_4=ntohl(*bs->data);
+        bs->buff = bs->buff | (unsigned long int)return_value_ntohl_4 << 32u - bs->live;
         bs->data = bs->data + 1l;
         bs->live = bs->live + 32u;
         0;
@@ -9967,9 +9967,9 @@ __CPROVER_DUMP_L19:
 // file process.h line 173
 void sched_lock(void)
 {
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&sched_mutex);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&sched_mutex);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
   {
     abort();
     (_Bool)0;
@@ -9984,21 +9984,21 @@ void sched_lock(void)
 void sched_unlock(void)
 {
   select_task();
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   _Bool return_value;
   if(!(next_task == ((struct task *)NULL)))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     return_value=process->finished();
-    tmp_if_expr$2 = return_value != (_Bool)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = return_value != (_Bool)0 ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_pthread_cond_signal$1;
-  if(tmp_if_expr$2)
+  signed int return_value_pthread_cond_signal_1;
+  if(tmp_if_expr_2)
   {
-    return_value_pthread_cond_signal$1=pthread_cond_signal(&sched_cond);
-    if(!(return_value_pthread_cond_signal$1 == 0))
+    return_value_pthread_cond_signal_1=pthread_cond_signal(&sched_cond);
+    if(!(return_value_pthread_cond_signal_1 == 0))
     {
       abort();
       (_Bool)0;
@@ -10008,9 +10008,9 @@ void sched_unlock(void)
       (_Bool)0;
   }
 
-  signed int return_value_pthread_mutex_unlock$3;
-  return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&sched_mutex);
-  if(!(return_value_pthread_mutex_unlock$3 == 0))
+  signed int return_value_pthread_mutex_unlock_3;
+  return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&sched_mutex);
+  if(!(return_value_pthread_mutex_unlock_3 == 0))
   {
     abort();
     (_Bool)0;
@@ -10025,14 +10025,14 @@ void sched_unlock(void)
 static void schedule(struct process *proc)
 {
   process = proc;
-  void *return_value_xnmalloc$1;
-  return_value_xnmalloc$1=xnmalloc((unsigned long int)num_worker, sizeof(unsigned long int) /*8ul*/ );
-  worker_thread = (unsigned long int *)return_value_xnmalloc$1;
+  void *return_value_xnmalloc_1;
+  return_value_xnmalloc_1=xnmalloc((unsigned long int)num_worker, sizeof(unsigned long int) /*8ul*/ );
+  worker_thread = (unsigned long int *)return_value_xnmalloc_1;
   *worker_thread=xcreate(primary_thread);
   halt();
-  signed int return_value_pthread_join$2;
-  return_value_pthread_join$2=pthread_join(*worker_thread, (void **)(void *)0);
-  if(!(return_value_pthread_join$2 == 0))
+  signed int return_value_pthread_join_2;
+  return_value_pthread_join_2=pthread_join(*worker_thread, (void **)(void *)0);
+  if(!(return_value_pthread_join_2 == 0))
   {
     abort();
     (_Bool)0;
@@ -10106,7 +10106,7 @@ void setup_signals(void)
   sig = handled_signals;
   for( ; !(sig >= handled_signals + 4l); sig = sig + 1l)
     xadd(&handled, *sig);
-  xmask(0, &blocked, ((struct anonymous$11 *)NULL));
+  xmask(0, &blocked, ((struct anonymous_11 *)NULL));
 }
 
 // signal_handler
@@ -10137,25 +10137,25 @@ static void sink_thread_proc(void)
   struct timespec next_time;
   struct timespec update_interval;
   struct block block;
-  _Bool tmp_if_expr$2;
-  signed int return_value_isatty$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_isatty_1;
   if(ispec.size >= 1ul && !(verbose == (_Bool)0))
   {
-    return_value_isatty$1=isatty(2);
-    tmp_if_expr$2 = return_value_isatty$1 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_isatty_1=isatty(2);
+    tmp_if_expr_2 = return_value_isatty_1 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  progress_enabled = tmp_if_expr$2;
+    tmp_if_expr_2 = (_Bool)0;
+  progress_enabled = tmp_if_expr_2;
   processed = (unsigned long int)0u;
   gettime(&start_time);
   next_time = start_time;
   static const double UPDATE_INTERVAL = 0.1;
   update_interval=dtotimespec(UPDATE_INTERVAL);
-  signed int return_value_pthread_mutex_lock$3;
-  return_value_pthread_mutex_lock$3=pthread_mutex_lock(&sink_mutex);
-  if(!(return_value_pthread_mutex_lock$3 == 0))
+  signed int return_value_pthread_mutex_lock_3;
+  return_value_pthread_mutex_lock_3=pthread_mutex_lock(&sink_mutex);
+  if(!(return_value_pthread_mutex_lock_3 == 0))
   {
     abort();
     (_Bool)0;
@@ -10165,9 +10165,9 @@ static void sink_thread_proc(void)
     (_Bool)0;
   while(output_q.size == 0u && finish == (_Bool)0)
   {
-    signed int return_value_pthread_cond_wait$4;
-    return_value_pthread_cond_wait$4=pthread_cond_wait(&sink_cond, &sink_mutex);
-    if(!(return_value_pthread_cond_wait$4 == 0))
+    signed int return_value_pthread_cond_wait_4;
+    return_value_pthread_cond_wait_4=pthread_cond_wait(&sink_cond, &sink_mutex);
+    if(!(return_value_pthread_cond_wait_4 == 0))
     {
       abort();
       (_Bool)0;
@@ -10183,9 +10183,9 @@ static void sink_thread_proc(void)
     output_q.size = output_q.size - 1u;
     output_q.head = output_q.head + 1u < (output_q.head + 1u) - output_q.modulus ? output_q.head + 1u : (output_q.head + 1u) - output_q.modulus;
     block = output_q.root[(signed long int)output_q.head];
-    signed int return_value_pthread_mutex_unlock$5;
-    return_value_pthread_mutex_unlock$5=pthread_mutex_unlock(&sink_mutex);
-    if(!(return_value_pthread_mutex_unlock$5 == 0))
+    signed int return_value_pthread_mutex_unlock_5;
+    return_value_pthread_mutex_unlock_5=pthread_mutex_unlock(&sink_mutex);
+    if(!(return_value_pthread_mutex_unlock_5 == 0))
     {
       abort();
       (_Bool)0;
@@ -10202,14 +10202,14 @@ static void sink_thread_proc(void)
       double elapsed;
       processed = processed + block.weight < ispec.size ? processed + block.weight : ispec.size;
       gettime(&time_now);
-      signed int return_value_timespec_cmp$7;
-      return_value_timespec_cmp$7=timespec_cmp(time_now, next_time);
-      if(return_value_timespec_cmp$7 >= 1)
+      signed int return_value_timespec_cmp_7;
+      return_value_timespec_cmp_7=timespec_cmp(time_now, next_time);
+      if(return_value_timespec_cmp_7 >= 1)
       {
         next_time=timespec_add(time_now, update_interval);
-        struct timespec return_value_timespec_sub$6;
-        return_value_timespec_sub$6=timespec_sub(time_now, start_time);
-        elapsed=timespectod(return_value_timespec_sub$6);
+        struct timespec return_value_timespec_sub_6;
+        return_value_timespec_sub_6=timespec_sub(time_now, start_time);
+        elapsed=timespectod(return_value_timespec_sub_6);
         completed = (double)processed / (double)ispec.size;
         if(elapsed < 5.000000)
           display("progress: %.2f%%\r", (double)100 * completed);
@@ -10222,9 +10222,9 @@ static void sink_thread_proc(void)
 
   }
 
-  signed int return_value_pthread_mutex_unlock$8;
-  return_value_pthread_mutex_unlock$8=pthread_mutex_unlock(&sink_mutex);
-  if(!(return_value_pthread_mutex_unlock$8 == 0))
+  signed int return_value_pthread_mutex_unlock_8;
+  return_value_pthread_mutex_unlock_8=pthread_mutex_unlock(&sink_mutex);
+  if(!(return_value_pthread_mutex_unlock_8 == 0))
   {
     abort();
     (_Bool)0;
@@ -10242,9 +10242,9 @@ void sink_write_buffer(void *buffer, unsigned long int size, unsigned long int w
   block.buffer = buffer;
   block.size = size;
   block.weight = weight;
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&sink_mutex);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&sink_mutex);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
   {
     abort();
     (_Bool)0;
@@ -10256,9 +10256,9 @@ void sink_write_buffer(void *buffer, unsigned long int size, unsigned long int w
   assert(output_q.size < output_q.modulus);
   output_q.size = output_q.size + 1u;
   output_q.root[(signed long int)(output_q.head + output_q.size < (output_q.head + output_q.size) - output_q.modulus ? output_q.head + output_q.size : (output_q.head + output_q.size) - output_q.modulus)] = block;
-  signed int return_value_pthread_cond_signal$2;
-  return_value_pthread_cond_signal$2=pthread_cond_signal(&sink_cond);
-  if(!(return_value_pthread_cond_signal$2 == 0))
+  signed int return_value_pthread_cond_signal_2;
+  return_value_pthread_cond_signal_2=pthread_cond_signal(&sink_cond);
+  if(!(return_value_pthread_cond_signal_2 == 0))
   {
     abort();
     (_Bool)0;
@@ -10266,9 +10266,9 @@ void sink_write_buffer(void *buffer, unsigned long int size, unsigned long int w
 
   else
     (_Bool)0;
-  signed int return_value_pthread_mutex_unlock$3;
-  return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&sink_mutex);
-  if(!(return_value_pthread_mutex_unlock$3 == 0))
+  signed int return_value_pthread_mutex_unlock_3;
+  return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&sink_mutex);
+  if(!(return_value_pthread_mutex_unlock_3 == 0))
   {
     abort();
     (_Bool)0;
@@ -10341,7 +10341,7 @@ static signed int sort_typeBstar(const unsigned char *T, signed int *SA, signed 
   m = n;
   c0 = (signed long int)T[(signed long int)(n - 1)];
   c1 = (signed long int)T[(signed long int)0];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(c0 == c1 && !(flag == 0) || !(c0 >= c1))
   {
     if(flag == 0)
@@ -10360,12 +10360,12 @@ static signed int sort_typeBstar(const unsigned char *T, signed int *SA, signed 
       if(i >= 0)
       {
         c0 = (signed long int)T[(signed long int)i];
-        tmp_if_expr$1 = c0 <= c1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = c0 <= c1 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       bucket_B[c1 << 8 | c0] = bucket_B[c1 << 8 | c0] + 1;
@@ -10375,8 +10375,8 @@ static signed int sort_typeBstar(const unsigned char *T, signed int *SA, signed 
     while((_Bool)1);
   }
 
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   while(i >= 0)
   {
     do
@@ -10387,13 +10387,13 @@ static signed int sort_typeBstar(const unsigned char *T, signed int *SA, signed 
       if(i >= 0)
       {
         c0 = (signed long int)T[(signed long int)i];
-        tmp_if_expr$2 = c0 >= c1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = c0 >= c1 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
     }
-    while(tmp_if_expr$2);
+    while(tmp_if_expr_2);
     if(i >= 0)
     {
       bucket_B[c0 << 8 | c1] = bucket_B[c0 << 8 | c1] + 1;
@@ -10406,12 +10406,12 @@ static signed int sort_typeBstar(const unsigned char *T, signed int *SA, signed 
         if(i >= 0)
         {
           c0 = (signed long int)T[(signed long int)i];
-          tmp_if_expr$3 = c0 <= c1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = c0 <= c1 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(!tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(!tmp_if_expr_3)
           break;
 
         bucket_B[c1 << 8 | c0] = bucket_B[c1 << 8 | c0] + 1;
@@ -10425,10 +10425,10 @@ static signed int sort_typeBstar(const unsigned char *T, signed int *SA, signed 
   m = n - m;
   /* assertion m <= n/2 */
   assert(m <= n / 2);
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
   if(m == 0)
     return 0;
 
@@ -10493,12 +10493,12 @@ static signed int sort_typeBstar(const unsigned char *T, signed int *SA, signed 
           ISAb[(signed long int)SA[(signed long int)i]] = i;
           i = i - 1;
           if(i >= 0)
-            tmp_if_expr$4 = 0 <= SA[(signed long int)i] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = 0 <= SA[(signed long int)i] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$4 = (_Bool)0;
+            tmp_if_expr_4 = (_Bool)0;
         }
-        while(tmp_if_expr$4);
+        while(tmp_if_expr_4);
         SA[(signed long int)(i + 1)] = i - j;
         if(!(i >= 1))
           break;
@@ -10530,12 +10530,12 @@ static signed int sort_typeBstar(const unsigned char *T, signed int *SA, signed 
         if(i >= 0)
         {
           c0 = (signed long int)T[(signed long int)i];
-          tmp_if_expr$5 = c0 <= c1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = c0 <= c1 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(!tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if(!tmp_if_expr_5)
           break;
 
         i = i - 1;
@@ -10559,12 +10559,12 @@ static signed int sort_typeBstar(const unsigned char *T, signed int *SA, signed 
         if(i >= 0)
         {
           c0 = (signed long int)T[(signed long int)i];
-          tmp_if_expr$6 = c0 >= c1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = c0 >= c1 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(!tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(!tmp_if_expr_6)
           break;
 
         i = i - 1;
@@ -10581,12 +10581,12 @@ static signed int sort_typeBstar(const unsigned char *T, signed int *SA, signed 
           if(i >= 0)
           {
             c0 = (signed long int)T[(signed long int)i];
-            tmp_if_expr$7 = c0 <= c1 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_7 = c0 <= c1 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$7 = (_Bool)0;
-          if(!tmp_if_expr$7)
+            tmp_if_expr_7 = (_Bool)0;
+          if(!tmp_if_expr_7)
             break;
 
           i = i - 1;
@@ -10635,9 +10635,9 @@ static signed int sort_typeBstar(const unsigned char *T, signed int *SA, signed 
 // file process.h line 181
 void source_close(void)
 {
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&source_mutex);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&source_mutex);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
   {
     abort();
     (_Bool)0;
@@ -10646,11 +10646,11 @@ void source_close(void)
   else
     (_Bool)0;
   request_close = (_Bool)1;
-  signed int return_value_pthread_cond_signal$2;
+  signed int return_value_pthread_cond_signal_2;
   if(in_slots == 0u)
   {
-    return_value_pthread_cond_signal$2=pthread_cond_signal(&source_cond);
-    if(!(return_value_pthread_cond_signal$2 == 0))
+    return_value_pthread_cond_signal_2=pthread_cond_signal(&source_cond);
+    if(!(return_value_pthread_cond_signal_2 == 0))
     {
       abort();
       (_Bool)0;
@@ -10660,9 +10660,9 @@ void source_close(void)
       (_Bool)0;
   }
 
-  signed int return_value_pthread_mutex_unlock$3;
-  return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&source_mutex);
-  if(!(return_value_pthread_mutex_unlock$3 == 0))
+  signed int return_value_pthread_mutex_unlock_3;
+  return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&source_mutex);
+  if(!(return_value_pthread_mutex_unlock_3 == 0))
   {
     abort();
     (_Bool)0;
@@ -10677,9 +10677,9 @@ void source_close(void)
 void source_release_buffer(void *buffer)
 {
   free(buffer);
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&source_mutex);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&source_mutex);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
   {
     abort();
     (_Bool)0;
@@ -10687,13 +10687,13 @@ void source_release_buffer(void *buffer)
 
   else
     (_Bool)0;
-  unsigned int tmp_post$3 = in_slots;
+  unsigned int tmp_post_3 = in_slots;
   in_slots = in_slots + 1u;
-  signed int return_value_pthread_cond_signal$2;
-  if(tmp_post$3 == 0u)
+  signed int return_value_pthread_cond_signal_2;
+  if(tmp_post_3 == 0u)
   {
-    return_value_pthread_cond_signal$2=pthread_cond_signal(&source_cond);
-    if(!(return_value_pthread_cond_signal$2 == 0))
+    return_value_pthread_cond_signal_2=pthread_cond_signal(&source_cond);
+    if(!(return_value_pthread_cond_signal_2 == 0))
     {
       abort();
       (_Bool)0;
@@ -10703,9 +10703,9 @@ void source_release_buffer(void *buffer)
       (_Bool)0;
   }
 
-  signed int return_value_pthread_mutex_unlock$4;
-  return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&source_mutex);
-  if(!(return_value_pthread_mutex_unlock$4 == 0))
+  signed int return_value_pthread_mutex_unlock_4;
+  return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&source_mutex);
+  if(!(return_value_pthread_mutex_unlock_4 == 0))
   {
     abort();
     (_Bool)0;
@@ -10724,9 +10724,9 @@ static void source_thread_proc(void)
     void *buffer;
     unsigned long int vacant;
     unsigned long int avail;
-    signed int return_value_pthread_mutex_lock$1;
-    return_value_pthread_mutex_lock$1=pthread_mutex_lock(&source_mutex);
-    if(!(return_value_pthread_mutex_lock$1 == 0))
+    signed int return_value_pthread_mutex_lock_1;
+    return_value_pthread_mutex_lock_1=pthread_mutex_lock(&source_mutex);
+    if(!(return_value_pthread_mutex_lock_1 == 0))
     {
       abort();
       (_Bool)0;
@@ -10736,9 +10736,9 @@ static void source_thread_proc(void)
       (_Bool)0;
     while(request_close == (_Bool)0 && in_slots == 0u)
     {
-      signed int return_value_pthread_cond_wait$2;
-      return_value_pthread_cond_wait$2=pthread_cond_wait(&source_cond, &source_mutex);
-      if(!(return_value_pthread_cond_wait$2 == 0))
+      signed int return_value_pthread_cond_wait_2;
+      return_value_pthread_cond_wait_2=pthread_cond_wait(&source_cond, &source_mutex);
+      if(!(return_value_pthread_cond_wait_2 == 0))
       {
         abort();
         (_Bool)0;
@@ -10749,9 +10749,9 @@ static void source_thread_proc(void)
     }
     if(!(request_close == (_Bool)0))
     {
-      signed int return_value_pthread_mutex_unlock$3;
-      return_value_pthread_mutex_unlock$3=pthread_mutex_unlock(&source_mutex);
-      if(!(return_value_pthread_mutex_unlock$3 == 0))
+      signed int return_value_pthread_mutex_unlock_3;
+      return_value_pthread_mutex_unlock_3=pthread_mutex_unlock(&source_mutex);
+      if(!(return_value_pthread_mutex_unlock_3 == 0))
       {
         abort();
         (_Bool)0;
@@ -10763,9 +10763,9 @@ static void source_thread_proc(void)
     }
 
     in_slots = in_slots - 1u;
-    signed int return_value_pthread_mutex_unlock$4;
-    return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&source_mutex);
-    if(!(return_value_pthread_mutex_unlock$4 == 0))
+    signed int return_value_pthread_mutex_unlock_4;
+    return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&source_mutex);
+    if(!(return_value_pthread_mutex_unlock_4 == 0))
     {
       abort();
       (_Bool)0;
@@ -10775,9 +10775,9 @@ static void source_thread_proc(void)
       (_Bool)0;
     vacant = in_granul;
     avail = vacant;
-    void *return_value_xmalloc$5;
-    return_value_xmalloc$5=xmalloc(vacant);
-    buffer = (void *)(unsigned char *)return_value_xmalloc$5;
+    void *return_value_xmalloc_5;
+    return_value_xmalloc_5=xmalloc(vacant);
+    buffer = (void *)(unsigned char *)return_value_xmalloc_5;
     xread(buffer, &vacant);
     avail = avail - vacant;
     if(avail == 0ul)
@@ -10822,36 +10822,36 @@ static signed long int ss_compare(const unsigned char *T, const signed int *p1, 
   U2 = T + (signed long int)depth + (signed long int)*p2;
   U1n = T + (signed long int)p1[(signed long int)1] + (signed long int)2;
   U2n = T + (signed long int)p2[(signed long int)1] + (signed long int)2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(U1 >= U1n) && !(U2 >= U2n))
-      tmp_if_expr$1 = *U1 == *U2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *U1 == *U2 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     U1 = U1 + 1l;
     U2 = U2 + 1l;
   }
   while((_Bool)1);
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$2;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_2;
   if(!(U1 >= U1n))
   {
     if(!(U2 >= U2n))
-      tmp_if_expr$2 = (signed int)*U1 - (signed int)*U2;
+      tmp_if_expr_2 = (signed int)*U1 - (signed int)*U2;
 
     else
-      tmp_if_expr$2 = 1;
-    tmp_if_expr$3 = tmp_if_expr$2;
+      tmp_if_expr_2 = 1;
+    tmp_if_expr_3 = tmp_if_expr_2;
   }
 
   else
-    tmp_if_expr$3 = U2 < U2n ? -1 : 0;
-  return (signed long int)tmp_if_expr$3;
+    tmp_if_expr_3 = U2 < U2n ? -1 : 0;
+  return (signed long int)tmp_if_expr_3;
 }
 
 // ss_compare_last
@@ -10866,30 +10866,30 @@ static signed long int ss_compare_last(const unsigned char *T, const signed int 
   U2 = T + (signed long int)depth + (signed long int)*p2;
   U1n = T + (signed long int)size;
   U2n = T + (signed long int)p2[(signed long int)1] + (signed long int)2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(U1 >= U1n) && !(U2 >= U2n))
-      tmp_if_expr$1 = *U1 == *U2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *U1 == *U2 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     U1 = U1 + 1l;
     U2 = U2 + 1l;
   }
   while((_Bool)1);
-  signed int tmp_if_expr$2;
+  signed int tmp_if_expr_2;
   if(!(U1 >= U1n))
   {
     if(!(U2 >= U2n))
-      tmp_if_expr$2 = (signed int)*U1 - (signed int)*U2;
+      tmp_if_expr_2 = (signed int)*U1 - (signed int)*U2;
 
     else
-      tmp_if_expr$2 = 1;
-    return (signed long int)tmp_if_expr$2;
+      tmp_if_expr_2 = 1;
+    return (signed long int)tmp_if_expr_2;
   }
 
   else
@@ -10898,36 +10898,36 @@ static signed long int ss_compare_last(const unsigned char *T, const signed int 
 
   U1 = T + (U1 - T) % (signed long int)size;
   U1n = T + (signed long int)PA[(signed long int)0] + (signed long int)2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   do
   {
     if(!(U1 >= U1n) && !(U2 >= U2n))
-      tmp_if_expr$3 = *U1 == *U2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = *U1 == *U2 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(!tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(!tmp_if_expr_3)
       break;
 
     U1 = U1 + 1l;
     U2 = U2 + 1l;
   }
   while((_Bool)1);
-  signed int tmp_if_expr$5;
-  signed int tmp_if_expr$4;
+  signed int tmp_if_expr_5;
+  signed int tmp_if_expr_4;
   if(!(U1 >= U1n))
   {
     if(!(U2 >= U2n))
-      tmp_if_expr$4 = (signed int)*U1 - (signed int)*U2;
+      tmp_if_expr_4 = (signed int)*U1 - (signed int)*U2;
 
     else
-      tmp_if_expr$4 = 1;
-    tmp_if_expr$5 = tmp_if_expr$4;
+      tmp_if_expr_4 = 1;
+    tmp_if_expr_5 = tmp_if_expr_4;
   }
 
   else
-    tmp_if_expr$5 = U2 < U2n ? -1 : 0;
-  return (signed long int)tmp_if_expr$5;
+    tmp_if_expr_5 = U2 < U2n ? -1 : 0;
+  return (signed long int)tmp_if_expr_5;
 }
 
 // ss_fixdown
@@ -10942,16 +10942,16 @@ static void ss_fixdown(const unsigned char *Td, const signed int *PA, signed int
   signed long int e;
   v = SA[(signed long int)i];
   c = (signed long int)Td[(signed long int)PA[(signed long int)v]];
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   do
   {
     j = 2 * i + 1;
     if(j >= size)
       break;
 
-    tmp_post$1 = j;
+    tmp_post_1 = j;
     j = j + 1;
-    k = tmp_post$1;
+    k = tmp_post_1;
     d = (signed long int)Td[(signed long int)PA[(signed long int)SA[(signed long int)k]]];
     e = (signed long int)Td[(signed long int)PA[(signed long int)SA[(signed long int)j]]];
     if(!(d >= e))
@@ -11021,13 +11021,13 @@ static void ss_heapsort(const unsigned char *Td, const signed int *PA, signed in
 // file divbwt.c line 155
 static signed long int ss_ilg(signed int n)
 {
-  signed long int tmp_if_expr$1;
+  signed long int tmp_if_expr_1;
   if(!((0xff00 & n) == 0))
-    tmp_if_expr$1 = (signed long int)8 + lg_table[(signed long int)(n >> 8 & 0xff)];
+    tmp_if_expr_1 = (signed long int)8 + lg_table[(signed long int)(n >> 8 & 0xff)];
 
   else
-    tmp_if_expr$1 = (signed long int)0 + lg_table[(signed long int)(n >> 0 & 0xff)];
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (signed long int)0 + lg_table[(signed long int)(n >> 0 & 0xff)];
+  return tmp_if_expr_1;
 }
 
 // ss_inplacemerge
@@ -11042,7 +11042,7 @@ static void ss_inplacemerge(const unsigned char *T, const signed int *PA, signed
   signed long int q;
   signed long int r;
   signed long int x;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   while((_Bool)1)
   {
     if(!(last[-1l] >= 0))
@@ -11064,11 +11064,11 @@ static void ss_inplacemerge(const unsigned char *T, const signed int *PA, signed
     {
       b = a + (signed long int)half;
       if(*b >= 0)
-        tmp_if_expr$1 = *b;
+        tmp_if_expr_1 = *b;
 
       else
-        tmp_if_expr$1 = ~(*b);
-      q=ss_compare(T, PA + (signed long int)tmp_if_expr$1, p, depth);
+        tmp_if_expr_1 = ~(*b);
+      q=ss_compare(T, PA + (signed long int)tmp_if_expr_1, p, depth);
       if(!(q >= 0l))
       {
         a = b + (signed long int)1;
@@ -11118,7 +11118,7 @@ static void ss_insertionsort(const unsigned char *T, const signed int *PA, signe
   signed int t;
   signed long int r;
   i = last - (signed long int)2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; i >= first; i = i - 1l)
   {
     t = *i;
@@ -11134,12 +11134,12 @@ static void ss_insertionsort(const unsigned char *T, const signed int *PA, signe
         *(j - (signed long int)1) = *j;
         j = j + 1l;
         if(!(j >= last))
-          tmp_if_expr$1 = *j < 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = *j < 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
       }
-      while(tmp_if_expr$1);
+      while(tmp_if_expr_1);
       if(j >= last)
         break;
 
@@ -11158,9 +11158,9 @@ static signed int ss_isqrt(signed int x)
 {
   signed int y;
   signed int e;
-  signed long int tmp_if_expr$3;
-  signed long int tmp_if_expr$1;
-  signed long int tmp_if_expr$2;
+  signed long int tmp_if_expr_3;
+  signed long int tmp_if_expr_1;
+  signed long int tmp_if_expr_2;
   if(x >= 1024)
     return 1024;
 
@@ -11169,23 +11169,23 @@ static signed int ss_isqrt(signed int x)
     if(!((0xffff0000 & (unsigned int)x) == 0u))
     {
       if(!((0xff000000 & (unsigned int)x) == 0u))
-        tmp_if_expr$1 = (signed long int)24 + lg_table[(signed long int)(x >> 24 & 0xff)];
+        tmp_if_expr_1 = (signed long int)24 + lg_table[(signed long int)(x >> 24 & 0xff)];
 
       else
-        tmp_if_expr$1 = (signed long int)16 + lg_table[(signed long int)(x >> 16 & 0xff)];
-      tmp_if_expr$3 = tmp_if_expr$1;
+        tmp_if_expr_1 = (signed long int)16 + lg_table[(signed long int)(x >> 16 & 0xff)];
+      tmp_if_expr_3 = tmp_if_expr_1;
     }
 
     else
     {
       if(!((0x0000ff00 & x) == 0))
-        tmp_if_expr$2 = (signed long int)8 + lg_table[(signed long int)(x >> 8 & 0xff)];
+        tmp_if_expr_2 = (signed long int)8 + lg_table[(signed long int)(x >> 8 & 0xff)];
 
       else
-        tmp_if_expr$2 = (signed long int)0 + lg_table[(signed long int)(x >> 0 & 0xff)];
-      tmp_if_expr$3 = tmp_if_expr$2;
+        tmp_if_expr_2 = (signed long int)0 + lg_table[(signed long int)(x >> 0 & 0xff)];
+      tmp_if_expr_3 = tmp_if_expr_2;
     }
-    e = (signed int)tmp_if_expr$3;
+    e = (signed int)tmp_if_expr_3;
     if(e >= 16)
     {
       y = (signed int)(sqq_table[(signed long int)(x >> (e - 6) - (e & 1))] << (e >> 1) - 7);
@@ -11342,26 +11342,26 @@ static void ss_mergebackward(const unsigned char *T, const signed int *PA, signe
   t = *a;
   b = bufend;
   c = middle - (signed long int)1;
-  signed int *tmp_post$1;
-  signed int *tmp_post$2;
-  signed int *tmp_post$3;
-  signed int *tmp_post$4;
-  signed int *tmp_post$5;
-  signed int *tmp_post$6;
-  signed int *tmp_post$7;
-  signed int *tmp_post$8;
-  signed int *tmp_post$9;
-  signed int *tmp_post$10;
-  signed int *tmp_post$11;
-  signed int *tmp_post$12;
-  signed int *tmp_post$13;
-  signed int *tmp_post$14;
-  signed int *tmp_post$15;
-  signed int *tmp_post$16;
-  signed int *tmp_post$17;
-  signed int *tmp_post$18;
-  signed int *tmp_post$19;
-  signed int *tmp_post$20;
+  signed int *tmp_post_1;
+  signed int *tmp_post_2;
+  signed int *tmp_post_3;
+  signed int *tmp_post_4;
+  signed int *tmp_post_5;
+  signed int *tmp_post_6;
+  signed int *tmp_post_7;
+  signed int *tmp_post_8;
+  signed int *tmp_post_9;
+  signed int *tmp_post_10;
+  signed int *tmp_post_11;
+  signed int *tmp_post_12;
+  signed int *tmp_post_13;
+  signed int *tmp_post_14;
+  signed int *tmp_post_15;
+  signed int *tmp_post_16;
+  signed int *tmp_post_17;
+  signed int *tmp_post_18;
+  signed int *tmp_post_19;
+  signed int *tmp_post_20;
   do
   {
     r=ss_compare(T, p1, p2, depth);
@@ -11371,29 +11371,29 @@ static void ss_mergebackward(const unsigned char *T, const signed int *PA, signe
       {
         do
         {
-          tmp_post$1 = a;
+          tmp_post_1 = a;
           a = a - 1l;
-          *tmp_post$1 = *b;
-          tmp_post$2 = b;
+          *tmp_post_1 = *b;
+          tmp_post_2 = b;
           b = b - 1l;
-          *tmp_post$2 = *a;
+          *tmp_post_2 = *a;
         }
         while(!(*b >= 0));
         x = x ^ (signed long int)1;
       }
 
-      tmp_post$3 = a;
+      tmp_post_3 = a;
       a = a - 1l;
-      *tmp_post$3 = *b;
+      *tmp_post_3 = *b;
       if(buf >= b)
       {
         *buf = t;
         break;
       }
 
-      tmp_post$4 = b;
+      tmp_post_4 = b;
       b = b - 1l;
-      *tmp_post$4 = *a;
+      *tmp_post_4 = *a;
       if(!(*b >= 0))
       {
         p1 = PA + (signed long int)~(*b);
@@ -11411,31 +11411,31 @@ static void ss_mergebackward(const unsigned char *T, const signed int *PA, signe
         {
           do
           {
-            tmp_post$5 = a;
+            tmp_post_5 = a;
             a = a - 1l;
-            *tmp_post$5 = *c;
-            tmp_post$6 = c;
+            *tmp_post_5 = *c;
+            tmp_post_6 = c;
             c = c - 1l;
-            *tmp_post$6 = *a;
+            *tmp_post_6 = *a;
           }
           while(!(*c >= 0));
           x = x ^ (signed long int)2;
         }
 
-        tmp_post$7 = a;
+        tmp_post_7 = a;
         a = a - 1l;
-        *tmp_post$7 = *c;
-        tmp_post$8 = c;
+        *tmp_post_7 = *c;
+        tmp_post_8 = c;
         c = c - 1l;
-        *tmp_post$8 = *a;
+        *tmp_post_8 = *a;
         if(!(c >= first))
         {
-          for( ; !(buf >= b); *tmp_post$10 = *a)
+          for( ; !(buf >= b); *tmp_post_10 = *a)
           {
-            tmp_post$9 = a;
+            tmp_post_9 = a;
             a = a - 1l;
-            *tmp_post$9 = *b;
-            tmp_post$10 = b;
+            *tmp_post_9 = *b;
+            tmp_post_10 = b;
             b = b - 1l;
           }
           *a = *b;
@@ -11459,58 +11459,58 @@ static void ss_mergebackward(const unsigned char *T, const signed int *PA, signe
         {
           do
           {
-            tmp_post$11 = a;
+            tmp_post_11 = a;
             a = a - 1l;
-            *tmp_post$11 = *b;
-            tmp_post$12 = b;
+            *tmp_post_11 = *b;
+            tmp_post_12 = b;
             b = b - 1l;
-            *tmp_post$12 = *a;
+            *tmp_post_12 = *a;
           }
           while(!(*b >= 0));
           x = x ^ (signed long int)1;
         }
 
-        tmp_post$13 = a;
+        tmp_post_13 = a;
         a = a - 1l;
-        *tmp_post$13 = ~(*b);
+        *tmp_post_13 = ~(*b);
         if(buf >= b)
         {
           *buf = t;
           break;
         }
 
-        tmp_post$14 = b;
+        tmp_post_14 = b;
         b = b - 1l;
-        *tmp_post$14 = *a;
+        *tmp_post_14 = *a;
         if(!((2l & x) == 0l))
         {
           do
           {
-            tmp_post$15 = a;
+            tmp_post_15 = a;
             a = a - 1l;
-            *tmp_post$15 = *c;
-            tmp_post$16 = c;
+            *tmp_post_15 = *c;
+            tmp_post_16 = c;
             c = c - 1l;
-            *tmp_post$16 = *a;
+            *tmp_post_16 = *a;
           }
           while(!(*c >= 0));
           x = x ^ (signed long int)2;
         }
 
-        tmp_post$17 = a;
+        tmp_post_17 = a;
         a = a - 1l;
-        *tmp_post$17 = *c;
-        tmp_post$18 = c;
+        *tmp_post_17 = *c;
+        tmp_post_18 = c;
         c = c - 1l;
-        *tmp_post$18 = *a;
+        *tmp_post_18 = *a;
         if(!(c >= first))
         {
-          for( ; !(buf >= b); *tmp_post$20 = *a)
+          for( ; !(buf >= b); *tmp_post_20 = *a)
           {
-            tmp_post$19 = a;
+            tmp_post_19 = a;
             a = a - 1l;
-            *tmp_post$19 = *b;
-            tmp_post$20 = b;
+            *tmp_post_19 = *b;
+            tmp_post_20 = b;
             b = b - 1l;
           }
           *a = *b;
@@ -11555,36 +11555,36 @@ static void ss_mergeforward(const unsigned char *T, const signed int *PA, signed
   t = *a;
   b = buf;
   c = middle;
-  signed int *tmp_post$1;
-  signed int *tmp_post$2;
-  signed int *tmp_post$3;
-  signed int *tmp_post$4;
-  signed int *tmp_post$5;
-  signed int *tmp_post$6;
-  signed int *tmp_post$7;
-  signed int *tmp_post$8;
-  signed int *tmp_post$9;
-  signed int *tmp_post$10;
-  signed int *tmp_post$11;
-  signed int *tmp_post$12;
+  signed int *tmp_post_1;
+  signed int *tmp_post_2;
+  signed int *tmp_post_3;
+  signed int *tmp_post_4;
+  signed int *tmp_post_5;
+  signed int *tmp_post_6;
+  signed int *tmp_post_7;
+  signed int *tmp_post_8;
+  signed int *tmp_post_9;
+  signed int *tmp_post_10;
+  signed int *tmp_post_11;
+  signed int *tmp_post_12;
   do
   {
     r=ss_compare(T, PA + (signed long int)*b, PA + (signed long int)*c, depth);
     if(!(r >= 0l))
       do
       {
-        tmp_post$1 = a;
+        tmp_post_1 = a;
         a = a + 1l;
-        *tmp_post$1 = *b;
+        *tmp_post_1 = *b;
         if(b >= bufend)
         {
           *bufend = t;
           goto __CPROVER_DUMP_L17;
         }
 
-        tmp_post$2 = b;
+        tmp_post_2 = b;
         b = b + 1l;
-        *tmp_post$2 = *a;
+        *tmp_post_2 = *a;
       }
       while(!(*b >= 0));
 
@@ -11592,20 +11592,20 @@ static void ss_mergeforward(const unsigned char *T, const signed int *PA, signed
       if(r >= 1l)
         do
         {
-          tmp_post$3 = a;
+          tmp_post_3 = a;
           a = a + 1l;
-          *tmp_post$3 = *c;
-          tmp_post$4 = c;
+          *tmp_post_3 = *c;
+          tmp_post_4 = c;
           c = c + 1l;
-          *tmp_post$4 = *a;
+          *tmp_post_4 = *a;
           if(c >= last)
           {
-            for( ; !(b >= bufend); *tmp_post$6 = *a)
+            for( ; !(b >= bufend); *tmp_post_6 = *a)
             {
-              tmp_post$5 = a;
+              tmp_post_5 = a;
               a = a + 1l;
-              *tmp_post$5 = *b;
-              tmp_post$6 = b;
+              *tmp_post_5 = *b;
+              tmp_post_6 = b;
               b = b + 1l;
             }
             *a = *b;
@@ -11621,36 +11621,36 @@ static void ss_mergeforward(const unsigned char *T, const signed int *PA, signed
         *c = ~(*c);
         do
         {
-          tmp_post$7 = a;
+          tmp_post_7 = a;
           a = a + 1l;
-          *tmp_post$7 = *b;
+          *tmp_post_7 = *b;
           if(b >= bufend)
           {
             *bufend = t;
             goto __CPROVER_DUMP_L17;
           }
 
-          tmp_post$8 = b;
+          tmp_post_8 = b;
           b = b + 1l;
-          *tmp_post$8 = *a;
+          *tmp_post_8 = *a;
         }
         while(!(*b >= 0));
         do
         {
-          tmp_post$9 = a;
+          tmp_post_9 = a;
           a = a + 1l;
-          *tmp_post$9 = *c;
-          tmp_post$10 = c;
+          *tmp_post_9 = *c;
+          tmp_post_10 = c;
           c = c + 1l;
-          *tmp_post$10 = *a;
+          *tmp_post_10 = *a;
           if(c >= last)
           {
-            for( ; !(b >= bufend); *tmp_post$12 = *a)
+            for( ; !(b >= bufend); *tmp_post_12 = *a)
             {
-              tmp_post$11 = a;
+              tmp_post_11 = a;
               a = a + 1l;
-              *tmp_post$11 = *b;
-              tmp_post$12 = b;
+              *tmp_post_11 = *b;
+              tmp_post_12 = b;
               b = b + 1l;
             }
             *a = *b;
@@ -11672,8 +11672,8 @@ __CPROVER_DUMP_L17:
 // file divbwt.c line 447
 static void ss_mintrosort(const unsigned char *T, const signed int *PA, signed int *first, signed int *last, signed int depth)
 {
-  /* tag-#anon#lST[l*{S32}$S32$'a'||l*{S32}$S32$'b'||S32'c'||U32'$pad0'||S64'd'|] */
-struct anonymous$26
+  /* tag-#anon#lST[l*{S32}_S32_'a'||l*{S32}_S32_'b'||S32'c'||U32'_pad0'||S64'd'|] */
+struct anonymous_26
 {
   // a
   signed int *a;
@@ -11687,7 +11687,7 @@ struct anonymous$26
 
 /* */
   ;
-  struct anonymous$26 stack[16l];
+  struct anonymous_26 stack[16l];
   const unsigned char *Td;
   signed int *a;
   signed int *b;
@@ -11703,29 +11703,29 @@ struct anonymous$26
   signed long int x = (signed long int)0;
   ssize = (signed long int)0;
   limit=ss_ilg((signed int)(last - first));
-  signed long int tmp_post$1;
-  signed long int tmp_post$2;
-  signed long int tmp_post$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  signed int *tmp_if_expr$11;
-  signed int *return_value_ss_partition$10;
-  signed long int tmp_post$12;
-  signed long int tmp_post$13;
-  signed long int tmp_post$14;
-  signed long int tmp_post$15;
-  signed long int tmp_post$16;
-  signed long int tmp_post$17;
-  signed long int tmp_post$18;
-  signed long int tmp_post$19;
-  signed long int tmp_post$20;
-  signed long int tmp_post$21;
-  signed long int tmp_post$22;
-  signed long int tmp_post$23;
+  signed long int tmp_post_1;
+  signed long int tmp_post_2;
+  signed long int tmp_post_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  signed int *tmp_if_expr_11;
+  signed int *return_value_ss_partition_10;
+  signed long int tmp_post_12;
+  signed long int tmp_post_13;
+  signed long int tmp_post_14;
+  signed long int tmp_post_15;
+  signed long int tmp_post_16;
+  signed long int tmp_post_17;
+  signed long int tmp_post_18;
+  signed long int tmp_post_19;
+  signed long int tmp_post_20;
+  signed long int tmp_post_21;
+  signed long int tmp_post_22;
+  signed long int tmp_post_23;
   while((_Bool)1)
     if(!(last - first >= 9l))
     {
@@ -11751,9 +11751,9 @@ struct anonymous$26
     else
     {
       Td = T + (signed long int)depth;
-      tmp_post$1 = limit;
+      tmp_post_1 = limit;
       limit = limit - 1l;
-      if(tmp_post$1 == 0l)
+      if(tmp_post_1 == 0l)
         ss_heapsort(Td, PA, first, (signed int)(last - first));
 
       if(!(limit >= 0l))
@@ -11787,9 +11787,9 @@ struct anonymous$26
               stack[ssize].a = a;
               stack[ssize].b = last;
               stack[ssize].c = depth;
-              tmp_post$2 = ssize;
+              tmp_post_2 = ssize;
               ssize = ssize + 1l;
-              stack[tmp_post$2].d = (signed long int)-1;
+              stack[tmp_post_2].d = (signed long int)-1;
             }
             while((_Bool)0);
             last = a;
@@ -11814,9 +11814,9 @@ struct anonymous$26
               stack[ssize].a = first;
               stack[ssize].b = a;
               stack[ssize].c = depth + 1;
-              tmp_post$3 = ssize;
+              tmp_post_3 = ssize;
               ssize = ssize + 1l;
-              stack[tmp_post$3].d=ss_ilg((signed int)(a - first));
+              stack[tmp_post_3].d=ss_ilg((signed int)(a - first));
             }
             while((_Bool)0);
             first = a;
@@ -11849,12 +11849,12 @@ struct anonymous$26
           if(!(b >= last))
           {
             x = (signed long int)Td[(signed long int)PA[(signed long int)*b]];
-            tmp_if_expr$4 = x == v ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = x == v ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(!tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(!tmp_if_expr_4)
             break;
 
         }
@@ -11869,12 +11869,12 @@ struct anonymous$26
               if(!(b >= last))
               {
                 x = (signed long int)Td[(signed long int)PA[(signed long int)*b]];
-                tmp_if_expr$5 = x <= v ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_5 = x <= v ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$5 = (_Bool)0;
-              if(!tmp_if_expr$5)
+                tmp_if_expr_5 = (_Bool)0;
+              if(!tmp_if_expr_5)
                 break;
 
               if(x == v)
@@ -11901,12 +11901,12 @@ struct anonymous$26
           if(!(b >= c))
           {
             x = (signed long int)Td[(signed long int)PA[(signed long int)*c]];
-            tmp_if_expr$6 = x == v ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = x == v ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          if(!tmp_if_expr$6)
+            tmp_if_expr_6 = (_Bool)0;
+          if(!tmp_if_expr_6)
             break;
 
         }
@@ -11921,12 +11921,12 @@ struct anonymous$26
               if(!(b >= c))
               {
                 x = (signed long int)Td[(signed long int)PA[(signed long int)*c]];
-                tmp_if_expr$7 = x >= v ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_7 = x >= v ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$7 = (_Bool)0;
-              if(!tmp_if_expr$7)
+                tmp_if_expr_7 = (_Bool)0;
+              if(!tmp_if_expr_7)
                 break;
 
               if(x == v)
@@ -11961,12 +11961,12 @@ struct anonymous$26
             if(!(b >= c))
             {
               x = (signed long int)Td[(signed long int)PA[(signed long int)*b]];
-              tmp_if_expr$8 = x <= v ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_8 = x <= v ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$8 = (_Bool)0;
-            if(!tmp_if_expr$8)
+              tmp_if_expr_8 = (_Bool)0;
+            if(!tmp_if_expr_8)
               break;
 
             if(x == v)
@@ -11989,12 +11989,12 @@ struct anonymous$26
             if(!(b >= c))
             {
               x = (signed long int)Td[(signed long int)PA[(signed long int)*c]];
-              tmp_if_expr$9 = x >= v ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_9 = x >= v ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$9 = (_Bool)0;
-            if(!tmp_if_expr$9)
+              tmp_if_expr_9 = (_Bool)0;
+            if(!tmp_if_expr_9)
               break;
 
             if(x == v)
@@ -12056,14 +12056,14 @@ struct anonymous$26
           a = first + (b - a);
           c = last - (d - c);
           if((signed long int)Td[(signed long int)(PA[(signed long int)*a] + -1)] >= v)
-            tmp_if_expr$11 = a;
+            tmp_if_expr_11 = a;
 
           else
           {
-            return_value_ss_partition$10=ss_partition(PA, a, c, depth);
-            tmp_if_expr$11 = return_value_ss_partition$10;
+            return_value_ss_partition_10=ss_partition(PA, a, c, depth);
+            tmp_if_expr_11 = return_value_ss_partition_10;
           }
-          b = tmp_if_expr$11;
+          b = tmp_if_expr_11;
           if(last - c >= a - first)
           {
             if(c - b >= last - c)
@@ -12075,9 +12075,9 @@ struct anonymous$26
                 stack[ssize].a = b;
                 stack[ssize].b = c;
                 stack[ssize].c = depth + 1;
-                tmp_post$12 = ssize;
+                tmp_post_12 = ssize;
                 ssize = ssize + 1l;
-                stack[tmp_post$12].d=ss_ilg((signed int)(c - b));
+                stack[tmp_post_12].d=ss_ilg((signed int)(c - b));
               }
               while((_Bool)0);
               do
@@ -12087,9 +12087,9 @@ struct anonymous$26
                 stack[ssize].a = c;
                 stack[ssize].b = last;
                 stack[ssize].c = depth;
-                tmp_post$13 = ssize;
+                tmp_post_13 = ssize;
                 ssize = ssize + 1l;
-                stack[tmp_post$13].d = limit;
+                stack[tmp_post_13].d = limit;
               }
               while((_Bool)0);
               last = a;
@@ -12105,9 +12105,9 @@ struct anonymous$26
                   stack[ssize].a = c;
                   stack[ssize].b = last;
                   stack[ssize].c = depth;
-                  tmp_post$14 = ssize;
+                  tmp_post_14 = ssize;
                   ssize = ssize + 1l;
-                  stack[tmp_post$14].d = limit;
+                  stack[tmp_post_14].d = limit;
                 }
                 while((_Bool)0);
                 do
@@ -12117,9 +12117,9 @@ struct anonymous$26
                   stack[ssize].a = b;
                   stack[ssize].b = c;
                   stack[ssize].c = depth + 1;
-                  tmp_post$15 = ssize;
+                  tmp_post_15 = ssize;
                   ssize = ssize + 1l;
-                  stack[tmp_post$15].d=ss_ilg((signed int)(c - b));
+                  stack[tmp_post_15].d=ss_ilg((signed int)(c - b));
                 }
                 while((_Bool)0);
                 last = a;
@@ -12134,9 +12134,9 @@ struct anonymous$26
                   stack[ssize].a = c;
                   stack[ssize].b = last;
                   stack[ssize].c = depth;
-                  tmp_post$16 = ssize;
+                  tmp_post_16 = ssize;
                   ssize = ssize + 1l;
-                  stack[tmp_post$16].d = limit;
+                  stack[tmp_post_16].d = limit;
                 }
                 while((_Bool)0);
                 do
@@ -12146,9 +12146,9 @@ struct anonymous$26
                   stack[ssize].a = first;
                   stack[ssize].b = a;
                   stack[ssize].c = depth;
-                  tmp_post$17 = ssize;
+                  tmp_post_17 = ssize;
                   ssize = ssize + 1l;
-                  stack[tmp_post$17].d = limit;
+                  stack[tmp_post_17].d = limit;
                 }
                 while((_Bool)0);
                 first = b;
@@ -12168,9 +12168,9 @@ struct anonymous$26
                 stack[ssize].a = b;
                 stack[ssize].b = c;
                 stack[ssize].c = depth + 1;
-                tmp_post$18 = ssize;
+                tmp_post_18 = ssize;
                 ssize = ssize + 1l;
-                stack[tmp_post$18].d=ss_ilg((signed int)(c - b));
+                stack[tmp_post_18].d=ss_ilg((signed int)(c - b));
               }
               while((_Bool)0);
               do
@@ -12180,9 +12180,9 @@ struct anonymous$26
                 stack[ssize].a = first;
                 stack[ssize].b = a;
                 stack[ssize].c = depth;
-                tmp_post$19 = ssize;
+                tmp_post_19 = ssize;
                 ssize = ssize + 1l;
-                stack[tmp_post$19].d = limit;
+                stack[tmp_post_19].d = limit;
               }
               while((_Bool)0);
               first = c;
@@ -12198,9 +12198,9 @@ struct anonymous$26
                   stack[ssize].a = first;
                   stack[ssize].b = a;
                   stack[ssize].c = depth;
-                  tmp_post$20 = ssize;
+                  tmp_post_20 = ssize;
                   ssize = ssize + 1l;
-                  stack[tmp_post$20].d = limit;
+                  stack[tmp_post_20].d = limit;
                 }
                 while((_Bool)0);
                 do
@@ -12210,9 +12210,9 @@ struct anonymous$26
                   stack[ssize].a = b;
                   stack[ssize].b = c;
                   stack[ssize].c = depth + 1;
-                  tmp_post$21 = ssize;
+                  tmp_post_21 = ssize;
                   ssize = ssize + 1l;
-                  stack[tmp_post$21].d=ss_ilg((signed int)(c - b));
+                  stack[tmp_post_21].d=ss_ilg((signed int)(c - b));
                 }
                 while((_Bool)0);
                 first = c;
@@ -12227,9 +12227,9 @@ struct anonymous$26
                   stack[ssize].a = first;
                   stack[ssize].b = a;
                   stack[ssize].c = depth;
-                  tmp_post$22 = ssize;
+                  tmp_post_22 = ssize;
                   ssize = ssize + 1l;
-                  stack[tmp_post$22].d = limit;
+                  stack[tmp_post_22].d = limit;
                 }
                 while((_Bool)0);
                 do
@@ -12239,9 +12239,9 @@ struct anonymous$26
                   stack[ssize].a = c;
                   stack[ssize].b = last;
                   stack[ssize].c = depth;
-                  tmp_post$23 = ssize;
+                  tmp_post_23 = ssize;
                   ssize = ssize + 1l;
-                  stack[tmp_post$23].d = limit;
+                  stack[tmp_post_23].d = limit;
                 }
                 while((_Bool)0);
                 first = b;
@@ -12278,8 +12278,8 @@ static signed int * ss_partition(const signed int *PA, signed int *first, signed
   signed int t;
   a = first - (signed long int)1;
   b = last;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   do
   {
 
@@ -12287,11 +12287,11 @@ static signed int * ss_partition(const signed int *PA, signed int *first, signed
     ;
     a = a + 1l;
     if(!(a >= b))
-      tmp_if_expr$1 = PA[(signed long int)*a] + depth >= PA[(signed long int)(*a + 1)] + 1 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = PA[(signed long int)*a] + depth >= PA[(signed long int)(*a + 1)] + 1 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
     {
       *a = ~(*a);
       goto __CPROVER_DUMP_L1;
@@ -12301,11 +12301,11 @@ static signed int * ss_partition(const signed int *PA, signed int *first, signed
     {
       b = b - 1l;
       if(!(a >= b))
-        tmp_if_expr$2 = PA[(signed long int)*b] + depth < PA[(signed long int)(*b + 1)] + 1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = PA[(signed long int)*b] + depth < PA[(signed long int)(*b + 1)] + 1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         break;
 
     }
@@ -12335,17 +12335,17 @@ static signed int * ss_pivot(const unsigned char *Td, const signed int *PA, sign
   {
     if(!(t >= 33))
     {
-      signed int *return_value_ss_median3$1;
-      return_value_ss_median3$1=ss_median3(Td, PA, first, middle, last - (signed long int)1);
-      return return_value_ss_median3$1;
+      signed int *return_value_ss_median3_1;
+      return_value_ss_median3_1=ss_median3(Td, PA, first, middle, last - (signed long int)1);
+      return return_value_ss_median3_1;
     }
 
     else
     {
       t = t >> 2;
-      signed int *return_value_ss_median5$2;
-      return_value_ss_median5$2=ss_median5(Td, PA, first, first + (signed long int)t, middle, (last - (signed long int)1) - (signed long int)t, last - (signed long int)1);
-      return return_value_ss_median5$2;
+      signed int *return_value_ss_median5_2;
+      return_value_ss_median5_2=ss_median5(Td, PA, first, first + (signed long int)t, middle, (last - (signed long int)1) - (signed long int)t, last - (signed long int)1);
+      return return_value_ss_median5_2;
     }
   }
 
@@ -12353,9 +12353,9 @@ static signed int * ss_pivot(const unsigned char *Td, const signed int *PA, sign
   first=ss_median3(Td, PA, first, first + (signed long int)t, first + (signed long int)(t << 1));
   middle=ss_median3(Td, PA, middle - (signed long int)t, middle, middle + (signed long int)t);
   last=ss_median3(Td, PA, (last - (signed long int)1) - (signed long int)(t << 1), (last - (signed long int)1) - (signed long int)t, last - (signed long int)1);
-  signed int *return_value_ss_median3$3;
-  return_value_ss_median3$3=ss_median3(Td, PA, first, middle, last);
-  return return_value_ss_median3$3;
+  signed int *return_value_ss_median3_3;
+  return_value_ss_median3_3=ss_median3(Td, PA, first, middle, last);
+  return return_value_ss_median3_3;
 }
 
 // ss_rotate
@@ -12369,10 +12369,10 @@ static void ss_rotate(signed int *first, signed int *middle, signed int *last)
   signed int r;
   l = (signed int)(middle - first);
   r = (signed int)(last - middle);
-  signed int *tmp_post$1;
-  signed int *tmp_post$2;
-  signed int *tmp_post$3;
-  signed int *tmp_post$4;
+  signed int *tmp_post_1;
+  signed int *tmp_post_2;
+  signed int *tmp_post_3;
+  signed int *tmp_post_4;
   while(l >= 1 && r >= 1)
   {
     if(l == r)
@@ -12388,12 +12388,12 @@ static void ss_rotate(signed int *first, signed int *middle, signed int *last)
       t = *a;
       do
       {
-        tmp_post$1 = a;
+        tmp_post_1 = a;
         a = a - 1l;
-        *tmp_post$1 = *b;
-        tmp_post$2 = b;
+        *tmp_post_1 = *b;
+        tmp_post_2 = b;
         b = b - 1l;
-        *tmp_post$2 = *a;
+        *tmp_post_2 = *a;
         if(!(b >= first))
         {
           *a = t;
@@ -12418,12 +12418,12 @@ static void ss_rotate(signed int *first, signed int *middle, signed int *last)
       t = *a;
       do
       {
-        tmp_post$3 = a;
+        tmp_post_3 = a;
         a = a + 1l;
-        *tmp_post$3 = *b;
-        tmp_post$4 = b;
+        *tmp_post_3 = *b;
+        tmp_post_4 = b;
         b = b + 1l;
-        *tmp_post$4 = *a;
+        *tmp_post_4 = *a;
         if(b >= last)
         {
           *a = t;
@@ -12447,8 +12447,8 @@ static void ss_rotate(signed int *first, signed int *middle, signed int *last)
 // file divbwt.c line 791
 static void ss_swapmerge(const unsigned char *T, const signed int *PA, signed int *first, signed int *middle, signed int *last, signed int *buf, signed int bufsize, signed int depth)
 {
-  /* tag-#anon#lST[l*{S32}$S32$'a'||l*{S32}$S32$'b'||l*{S32}$S32$'c'||S64'd'|] */
-struct anonymous$0
+  /* tag-#anon#lST[l*{S32}_S32_'a'||l*{S32}_S32_'b'||l*{S32}_S32_'c'||S64'd'|] */
+struct anonymous_0
 {
   // a
   signed int *a;
@@ -12462,7 +12462,7 @@ struct anonymous$0
 
 /* */
   ;
-  struct anonymous$0 stack[32l];
+  struct anonymous_0 stack[32l];
   signed int *l;
   signed int *r;
   signed int *lm;
@@ -12475,29 +12475,29 @@ struct anonymous$0
   signed long int next;
   check = (signed long int)0;
   ssize = (signed long int)0;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int tmp_if_expr$1;
-  signed long int return_value_ss_compare$2;
-  signed int tmp_if_expr$5;
-  signed long int return_value_ss_compare$6;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$9;
-  signed int tmp_if_expr$7;
-  signed long int return_value_ss_compare$8;
-  signed int tmp_if_expr$11;
-  signed long int return_value_ss_compare$12;
-  signed int tmp_if_expr$13;
-  signed int tmp_if_expr$14;
-  signed long int tmp_post$16;
-  signed long int tmp_post$17;
-  signed int tmp_if_expr$18;
-  _Bool tmp_if_expr$23;
-  _Bool tmp_if_expr$22;
-  signed int tmp_if_expr$20;
-  signed long int return_value_ss_compare$21;
-  signed int tmp_if_expr$24;
-  signed long int return_value_ss_compare$25;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int tmp_if_expr_1;
+  signed long int return_value_ss_compare_2;
+  signed int tmp_if_expr_5;
+  signed long int return_value_ss_compare_6;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_9;
+  signed int tmp_if_expr_7;
+  signed long int return_value_ss_compare_8;
+  signed int tmp_if_expr_11;
+  signed long int return_value_ss_compare_12;
+  signed int tmp_if_expr_13;
+  signed int tmp_if_expr_14;
+  signed long int tmp_post_16;
+  signed long int tmp_post_17;
+  signed int tmp_if_expr_18;
+  _Bool tmp_if_expr_23;
+  _Bool tmp_if_expr_22;
+  signed int tmp_if_expr_20;
+  signed long int return_value_ss_compare_21;
+  signed int tmp_if_expr_24;
+  signed long int return_value_ss_compare_25;
   while((_Bool)1)
     if((signed long int)bufsize >= last - middle)
     {
@@ -12507,37 +12507,37 @@ struct anonymous$0
       do
       {
         if(!((1l & check) == 0l))
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
           if(!((2l & check) == 0l))
           {
             if(first[-1l] >= 0)
-              tmp_if_expr$1 = *(first - (signed long int)1);
+              tmp_if_expr_1 = *(first - (signed long int)1);
 
             else
-              tmp_if_expr$1 = ~(*(first - (signed long int)1));
-            return_value_ss_compare$2=ss_compare(T, PA + (signed long int)tmp_if_expr$1, PA + (signed long int)*first, depth);
-            tmp_if_expr$3 = return_value_ss_compare$2 == (signed long int)0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_1 = ~(*(first - (signed long int)1));
+            return_value_ss_compare_2=ss_compare(T, PA + (signed long int)tmp_if_expr_1, PA + (signed long int)*first, depth);
+            tmp_if_expr_3 = return_value_ss_compare_2 == (signed long int)0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = (_Bool)0;
+          tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
           *first = ~(*first);
 
         if(!((4l & check) == 0l))
         {
           if(last[-1l] >= 0)
-            tmp_if_expr$5 = *(last - (signed long int)1);
+            tmp_if_expr_5 = *(last - (signed long int)1);
 
           else
-            tmp_if_expr$5 = ~(*(last - (signed long int)1));
-          return_value_ss_compare$6=ss_compare(T, PA + (signed long int)tmp_if_expr$5, PA + (signed long int)*last, depth);
-          if(return_value_ss_compare$6 == 0l)
+            tmp_if_expr_5 = ~(*(last - (signed long int)1));
+          return_value_ss_compare_6=ss_compare(T, PA + (signed long int)tmp_if_expr_5, PA + (signed long int)*last, depth);
+          if(return_value_ss_compare_6 == 0l)
             *last = ~(*last);
 
         }
@@ -12569,37 +12569,37 @@ struct anonymous$0
         do
         {
           if(!((1l & check) == 0l))
-            tmp_if_expr$10 = (_Bool)1;
+            tmp_if_expr_10 = (_Bool)1;
 
           else
           {
             if(!((2l & check) == 0l))
             {
               if(first[-1l] >= 0)
-                tmp_if_expr$7 = *(first - (signed long int)1);
+                tmp_if_expr_7 = *(first - (signed long int)1);
 
               else
-                tmp_if_expr$7 = ~(*(first - (signed long int)1));
-              return_value_ss_compare$8=ss_compare(T, PA + (signed long int)tmp_if_expr$7, PA + (signed long int)*first, depth);
-              tmp_if_expr$9 = return_value_ss_compare$8 == (signed long int)0 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_7 = ~(*(first - (signed long int)1));
+              return_value_ss_compare_8=ss_compare(T, PA + (signed long int)tmp_if_expr_7, PA + (signed long int)*first, depth);
+              tmp_if_expr_9 = return_value_ss_compare_8 == (signed long int)0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$9 = (_Bool)0;
-            tmp_if_expr$10 = tmp_if_expr$9 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_9 = (_Bool)0;
+            tmp_if_expr_10 = tmp_if_expr_9 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$10)
+          if(tmp_if_expr_10)
             *first = ~(*first);
 
           if(!((4l & check) == 0l))
           {
             if(last[-1l] >= 0)
-              tmp_if_expr$11 = *(last - (signed long int)1);
+              tmp_if_expr_11 = *(last - (signed long int)1);
 
             else
-              tmp_if_expr$11 = ~(*(last - (signed long int)1));
-            return_value_ss_compare$12=ss_compare(T, PA + (signed long int)tmp_if_expr$11, PA + (signed long int)*last, depth);
-            if(return_value_ss_compare$12 == 0l)
+              tmp_if_expr_11 = ~(*(last - (signed long int)1));
+            return_value_ss_compare_12=ss_compare(T, PA + (signed long int)tmp_if_expr_11, PA + (signed long int)*last, depth);
+            if(return_value_ss_compare_12 == 0l)
               *last = ~(*last);
 
           }
@@ -12630,18 +12630,18 @@ struct anonymous$0
         for( ; len >= 1; half = half >> 1)
         {
           if(middle[(signed long int)m + (signed long int)half] >= 0)
-            tmp_if_expr$13 = (middle + (signed long int)m)[(signed long int)half];
+            tmp_if_expr_13 = (middle + (signed long int)m)[(signed long int)half];
 
           else
-            tmp_if_expr$13 = ~(middle + (signed long int)m)[(signed long int)half];
+            tmp_if_expr_13 = ~(middle + (signed long int)m)[(signed long int)half];
           if(middle[-((signed long int)m) + -((signed long int)half) + -1l] >= 0)
-            tmp_if_expr$14 = *(((middle - (signed long int)m) - (signed long int)half) - (signed long int)1);
+            tmp_if_expr_14 = *(((middle - (signed long int)m) - (signed long int)half) - (signed long int)1);
 
           else
-            tmp_if_expr$14 = ~(*(((middle - (signed long int)m) - (signed long int)half) - (signed long int)1));
-          signed long int return_value_ss_compare$15;
-          return_value_ss_compare$15=ss_compare(T, PA + (signed long int)tmp_if_expr$13, PA + (signed long int)tmp_if_expr$14, depth);
-          if(!(return_value_ss_compare$15 >= 0l))
+            tmp_if_expr_14 = ~(*(((middle - (signed long int)m) - (signed long int)half) - (signed long int)1));
+          signed long int return_value_ss_compare_15;
+          return_value_ss_compare_15=ss_compare(T, PA + (signed long int)tmp_if_expr_13, PA + (signed long int)tmp_if_expr_14, depth);
+          if(!(return_value_ss_compare_15 >= 0l))
           {
             m = m + half + 1;
             half = half - (len & 1 ^ 1);
@@ -12697,9 +12697,9 @@ struct anonymous$0
               stack[ssize].a = r;
               stack[ssize].b = rm;
               stack[ssize].c = last;
-              tmp_post$16 = ssize;
+              tmp_post_16 = ssize;
               ssize = ssize + 1l;
-              stack[tmp_post$16].d = next & (signed long int)3 | check & (signed long int)4;
+              stack[tmp_post_16].d = next & (signed long int)3 | check & (signed long int)4;
             }
             while((_Bool)0);
             middle = lm;
@@ -12719,9 +12719,9 @@ struct anonymous$0
               stack[ssize].a = first;
               stack[ssize].b = lm;
               stack[ssize].c = l;
-              tmp_post$17 = ssize;
+              tmp_post_17 = ssize;
               ssize = ssize + 1l;
-              stack[tmp_post$17].d = check & (signed long int)3 | next & (signed long int)4;
+              stack[tmp_post_17].d = check & (signed long int)3 | next & (signed long int)4;
             }
             while((_Bool)0);
             first = r;
@@ -12733,49 +12733,49 @@ struct anonymous$0
         else
         {
           if(middle[-1l] >= 0)
-            tmp_if_expr$18 = *(middle - (signed long int)1);
+            tmp_if_expr_18 = *(middle - (signed long int)1);
 
           else
-            tmp_if_expr$18 = ~(*(middle - (signed long int)1));
-          signed long int return_value_ss_compare$19;
-          return_value_ss_compare$19=ss_compare(T, PA + (signed long int)tmp_if_expr$18, PA + (signed long int)*middle, depth);
-          if(return_value_ss_compare$19 == 0l)
+            tmp_if_expr_18 = ~(*(middle - (signed long int)1));
+          signed long int return_value_ss_compare_19;
+          return_value_ss_compare_19=ss_compare(T, PA + (signed long int)tmp_if_expr_18, PA + (signed long int)*middle, depth);
+          if(return_value_ss_compare_19 == 0l)
             *middle = ~(*middle);
 
           do
           {
             if(!((1l & check) == 0l))
-              tmp_if_expr$23 = (_Bool)1;
+              tmp_if_expr_23 = (_Bool)1;
 
             else
             {
               if(!((2l & check) == 0l))
               {
                 if(first[-1l] >= 0)
-                  tmp_if_expr$20 = *(first - (signed long int)1);
+                  tmp_if_expr_20 = *(first - (signed long int)1);
 
                 else
-                  tmp_if_expr$20 = ~(*(first - (signed long int)1));
-                return_value_ss_compare$21=ss_compare(T, PA + (signed long int)tmp_if_expr$20, PA + (signed long int)*first, depth);
-                tmp_if_expr$22 = return_value_ss_compare$21 == (signed long int)0 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_20 = ~(*(first - (signed long int)1));
+                return_value_ss_compare_21=ss_compare(T, PA + (signed long int)tmp_if_expr_20, PA + (signed long int)*first, depth);
+                tmp_if_expr_22 = return_value_ss_compare_21 == (signed long int)0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$22 = (_Bool)0;
-              tmp_if_expr$23 = tmp_if_expr$22 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_22 = (_Bool)0;
+              tmp_if_expr_23 = tmp_if_expr_22 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$23)
+            if(tmp_if_expr_23)
               *first = ~(*first);
 
             if(!((4l & check) == 0l))
             {
               if(last[-1l] >= 0)
-                tmp_if_expr$24 = *(last - (signed long int)1);
+                tmp_if_expr_24 = *(last - (signed long int)1);
 
               else
-                tmp_if_expr$24 = ~(*(last - (signed long int)1));
-              return_value_ss_compare$25=ss_compare(T, PA + (signed long int)tmp_if_expr$24, PA + (signed long int)*last, depth);
-              if(return_value_ss_compare$25 == 0l)
+                tmp_if_expr_24 = ~(*(last - (signed long int)1));
+              return_value_ss_compare_25=ss_compare(T, PA + (signed long int)tmp_if_expr_24, PA + (signed long int)*last, depth);
+              if(return_value_ss_compare_25 == 0l)
                 *last = ~(*last);
 
             }
@@ -12819,16 +12819,16 @@ static void sssort(const unsigned char *T, const signed int *PA, signed int *fir
   if(!(lastsuffix == 0l))
     first = first + 1l;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(bufsize >= 1024) && !((signed long int)bufsize >= last - first))
   {
     limit=ss_isqrt((signed int)(last - first));
-    tmp_if_expr$1 = bufsize < limit ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = bufsize < limit ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(limit >= 1025)
       limit = 1024;
@@ -12885,8 +12885,8 @@ static void sssort(const unsigned char *T, const signed int *PA, signed int *fir
     ss_inplacemerge(T, PA, first, middle, last, depth);
   }
 
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   if(!(lastsuffix == 0l))
   {
     signed long int r;
@@ -12898,19 +12898,19 @@ static void sssort(const unsigned char *T, const signed int *PA, signed int *fir
       if(!(a >= last))
       {
         if(!(*a >= 0))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
         {
           r=ss_compare_last(T, PA, PA + (signed long int)i, PA + (signed long int)*a, depth, n);
-          tmp_if_expr$2 = (signed long int)0 < r ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed long int)0 < r ? (_Bool)1 : (_Bool)0;
         }
-        tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(!tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(!tmp_if_expr_3)
         break;
 
       *(a - (signed long int)1) = *a;
@@ -12932,7 +12932,7 @@ void sti(void)
   const signed int *sig = handled_signals;
   for( ; !(sig >= handled_signals + 4l); sig = sig + 1l)
     xaction(*sig, (void (*)(signed int))0);
-  xmask(1, &handled, (struct anonymous$11 *)(void *)0);
+  xmask(1, &handled, (struct anonymous_11 *)(void *)0);
 }
 
 // suffix_xform
@@ -12949,18 +12949,18 @@ static signed int suffix_xform(const char *compr_pathname, char **decompr_pathna
       if(len >= suffix[(signed long int)ofs].compr_len)
       {
         unsigned long int prefix_len = len - suffix[(signed long int)ofs].compr_len;
-        signed int return_value_strcmp$2;
-        return_value_strcmp$2=strcmp(compr_pathname + (signed long int)prefix_len, suffix[(signed long int)ofs].compr);
-        if(return_value_strcmp$2 == 0)
+        signed int return_value_strcmp_2;
+        return_value_strcmp_2=strcmp(compr_pathname + (signed long int)prefix_len, suffix[(signed long int)ofs].compr);
+        if(return_value_strcmp_2 == 0)
         {
           if(!(decompr_pathname == ((char **)NULL)))
           {
             if(!(18446744073709551615UL + -prefix_len >= 1ul + suffix[(signed long int)ofs].decompr_len))
               fail("\"%s\": size_t overflow in dpn_alloc\n", compr_pathname);
 
-            void *return_value_xmalloc$1;
-            return_value_xmalloc$1=xmalloc(prefix_len + suffix[(signed long int)ofs].decompr_len + (unsigned long int)1u);
-            *decompr_pathname = (char *)return_value_xmalloc$1;
+            void *return_value_xmalloc_1;
+            return_value_xmalloc_1=xmalloc(prefix_len + suffix[(signed long int)ofs].decompr_len + (unsigned long int)1u);
+            *decompr_pathname = (char *)return_value_xmalloc_1;
             memcpy((void *)*decompr_pathname, (const void *)compr_pathname, prefix_len);
             strcpy(*decompr_pathname + (signed long int)prefix_len, suffix[(signed long int)ofs].decompr);
           }
@@ -12981,12 +12981,12 @@ static signed int suffix_xform(const char *compr_pathname, char **decompr_pathna
 // file signals.c line 192
 static void terminate(signed int sig)
 {
-  struct anonymous$11 set;
+  struct anonymous_11 set;
   xaction(sig, (void (*)(signed int))0);
   xraise(sig);
   xempty(&set);
   xadd(&set, sig);
-  xmask(1, &set, (struct anonymous$11 *)(void *)0);
+  xmask(1, &set, (struct anonymous_11 *)(void *)0);
   _exit(1);
 }
 
@@ -13042,9 +13042,9 @@ struct timespec timespec_add(struct timespec a, struct timespec b)
 
   else
     rs = rs + bs;
-  struct timespec return_value_make_timespec$1;
-  return_value_make_timespec$1=make_timespec(rs, (signed long int)rns);
-  return return_value_make_timespec$1;
+  struct timespec return_value_make_timespec_1;
+  return_value_make_timespec_1=make_timespec(rs, (signed long int)rns);
+  return return_value_make_timespec_1;
 }
 
 // timespec_cmp
@@ -13104,9 +13104,9 @@ struct timespec timespec_sub(struct timespec a, struct timespec b)
 
   else
     rs = rs - bs;
-  struct timespec return_value_make_timespec$1;
-  return_value_make_timespec$1=make_timespec(rs, (signed long int)rns);
-  return return_value_make_timespec$1;
+  struct timespec return_value_make_timespec_1;
+  return_value_make_timespec_1=make_timespec(rs, (signed long int)rns);
+  return return_value_make_timespec_1;
 }
 
 // timespectod
@@ -13171,37 +13171,37 @@ static void tr_fixdown(const signed int *ISA, const signed int *ISAd, const sign
   signed int d;
   signed int e;
   v = SA[(signed long int)i];
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((signed long int)v >= ISAn - ISAd))
-    tmp_if_expr$1 = ISAd[(signed long int)v];
+    tmp_if_expr_1 = ISAd[(signed long int)v];
 
   else
-    tmp_if_expr$1 = ISA[((ISAd - ISA) + (signed long int)v) % (ISAn - ISA)];
-  c = tmp_if_expr$1;
-  signed int tmp_post$2;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
+    tmp_if_expr_1 = ISA[((ISAd - ISA) + (signed long int)v) % (ISAn - ISA)];
+  c = tmp_if_expr_1;
+  signed int tmp_post_2;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
   do
   {
     j = 2 * i + 1;
     if(j >= size)
       break;
 
-    tmp_post$2 = j;
+    tmp_post_2 = j;
     j = j + 1;
-    k = tmp_post$2;
+    k = tmp_post_2;
     if(!((signed long int)SA[(signed long int)k] >= ISAn - ISAd))
-      tmp_if_expr$3 = ISAd[(signed long int)SA[(signed long int)k]];
+      tmp_if_expr_3 = ISAd[(signed long int)SA[(signed long int)k]];
 
     else
-      tmp_if_expr$3 = ISA[((ISAd - ISA) + (signed long int)SA[(signed long int)k]) % (ISAn - ISA)];
-    d = tmp_if_expr$3;
+      tmp_if_expr_3 = ISA[((ISAd - ISA) + (signed long int)SA[(signed long int)k]) % (ISAn - ISA)];
+    d = tmp_if_expr_3;
     if(!((signed long int)SA[(signed long int)j] >= ISAn - ISAd))
-      tmp_if_expr$4 = ISAd[(signed long int)SA[(signed long int)j]];
+      tmp_if_expr_4 = ISAd[(signed long int)SA[(signed long int)j]];
 
     else
-      tmp_if_expr$4 = ISA[((ISAd - ISA) + (signed long int)SA[(signed long int)j]) % (ISAn - ISA)];
-    e = tmp_if_expr$4;
+      tmp_if_expr_4 = ISA[((ISAd - ISA) + (signed long int)SA[(signed long int)j]) % (ISAn - ISA)];
+    e = tmp_if_expr_4;
     if(!(d >= e))
     {
       k = j;
@@ -13226,22 +13226,22 @@ static void tr_heapsort(const signed int *ISA, const signed int *ISAd, const sig
   signed int m;
   signed int t;
   m = size;
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$2;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_2;
   if(size % 2 == 0)
   {
     m = m - 1;
     if(!((signed long int)SA[(signed long int)(m / 2)] >= ISAn - ISAd))
-      tmp_if_expr$1 = ISAd[(signed long int)SA[(signed long int)(m / 2)]];
+      tmp_if_expr_1 = ISAd[(signed long int)SA[(signed long int)(m / 2)]];
 
     else
-      tmp_if_expr$1 = ISA[((ISAd - ISA) + (signed long int)SA[(signed long int)(m / 2)]) % (ISAn - ISA)];
+      tmp_if_expr_1 = ISA[((ISAd - ISA) + (signed long int)SA[(signed long int)(m / 2)]) % (ISAn - ISA)];
     if(!((signed long int)SA[(signed long int)m] >= ISAn - ISAd))
-      tmp_if_expr$2 = ISAd[(signed long int)SA[(signed long int)m]];
+      tmp_if_expr_2 = ISAd[(signed long int)SA[(signed long int)m]];
 
     else
-      tmp_if_expr$2 = ISA[((ISAd - ISA) + (signed long int)SA[(signed long int)m]) % (ISAn - ISA)];
-    if(!(tmp_if_expr$1 >= tmp_if_expr$2))
+      tmp_if_expr_2 = ISA[((ISAd - ISA) + (signed long int)SA[(signed long int)m]) % (ISAn - ISA)];
+    if(!(tmp_if_expr_1 >= tmp_if_expr_2))
       do
       {
         t = SA[(signed long int)m];
@@ -13281,29 +13281,29 @@ static void tr_heapsort(const signed int *ISA, const signed int *ISAd, const sig
 // file divbwt.c line 963
 static signed long int tr_ilg(signed int n)
 {
-  signed long int tmp_if_expr$3;
-  signed long int tmp_if_expr$1;
-  signed long int tmp_if_expr$2;
+  signed long int tmp_if_expr_3;
+  signed long int tmp_if_expr_1;
+  signed long int tmp_if_expr_2;
   if(!((0xffff0000 & (unsigned int)n) == 0u))
   {
     if(!((0xff000000 & (unsigned int)n) == 0u))
-      tmp_if_expr$1 = (signed long int)24 + lg_table[(signed long int)(n >> 24 & 0xff)];
+      tmp_if_expr_1 = (signed long int)24 + lg_table[(signed long int)(n >> 24 & 0xff)];
 
     else
-      tmp_if_expr$1 = (signed long int)16 + lg_table[(signed long int)(n >> 16 & 0xff)];
-    tmp_if_expr$3 = tmp_if_expr$1;
+      tmp_if_expr_1 = (signed long int)16 + lg_table[(signed long int)(n >> 16 & 0xff)];
+    tmp_if_expr_3 = tmp_if_expr_1;
   }
 
   else
   {
     if(!((0x0000ff00 & n) == 0))
-      tmp_if_expr$2 = (signed long int)8 + lg_table[(signed long int)(n >> 8 & 0xff)];
+      tmp_if_expr_2 = (signed long int)8 + lg_table[(signed long int)(n >> 8 & 0xff)];
 
     else
-      tmp_if_expr$2 = (signed long int)0 + lg_table[(signed long int)(n >> 0 & 0xff)];
-    tmp_if_expr$3 = tmp_if_expr$2;
+      tmp_if_expr_2 = (signed long int)0 + lg_table[(signed long int)(n >> 0 & 0xff)];
+    tmp_if_expr_3 = tmp_if_expr_2;
   }
-  return tmp_if_expr$3;
+  return tmp_if_expr_3;
 }
 
 // tr_insertionsort
@@ -13315,9 +13315,9 @@ static void tr_insertionsort(const signed int *ISA, const signed int *ISAd, cons
   signed int t;
   signed int r;
   a = first + (signed long int)1;
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   for( ; !(a >= last); a = a + 1l)
   {
     t = *a;
@@ -13325,16 +13325,16 @@ static void tr_insertionsort(const signed int *ISA, const signed int *ISAd, cons
     do
     {
       if(!((signed long int)t >= ISAn - ISAd))
-        tmp_if_expr$1 = ISAd[(signed long int)t];
+        tmp_if_expr_1 = ISAd[(signed long int)t];
 
       else
-        tmp_if_expr$1 = ISA[((ISAd - ISA) + (signed long int)t) % (ISAn - ISA)];
+        tmp_if_expr_1 = ISA[((ISAd - ISA) + (signed long int)t) % (ISAn - ISA)];
       if(!((signed long int)*b >= ISAn - ISAd))
-        tmp_if_expr$2 = ISAd[(signed long int)*b];
+        tmp_if_expr_2 = ISAd[(signed long int)*b];
 
       else
-        tmp_if_expr$2 = ISA[((ISAd - ISA) + (signed long int)*b) % (ISAn - ISA)];
-      r = tmp_if_expr$1 - tmp_if_expr$2;
+        tmp_if_expr_2 = ISA[((ISAd - ISA) + (signed long int)*b) % (ISAn - ISA)];
+      r = tmp_if_expr_1 - tmp_if_expr_2;
       if(r >= 0)
         break;
 
@@ -13343,12 +13343,12 @@ static void tr_insertionsort(const signed int *ISA, const signed int *ISAd, cons
         b[(signed long int)1] = *b;
         b = b - 1l;
         if(b >= first)
-          tmp_if_expr$3 = *b < 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = *b < 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
       }
-      while(tmp_if_expr$3);
+      while(tmp_if_expr_3);
       if(!(b >= first))
         break;
 
@@ -13365,8 +13365,8 @@ static void tr_insertionsort(const signed int *ISA, const signed int *ISAd, cons
 // file divbwt.c line 1257
 static void tr_introsort(signed int *ISA, const signed int *ISAd, const signed int *ISAn, signed int *SA, signed int *first, signed int *last, struct _trbudget_t *budget)
 {
-  /* tag-#anon#lST[l*{cS32}$cS32$'a'||l*{S32}$S32$'b'||l*{S32}$S32$'c'||S64'd'||S64'e'|] */
-struct anonymous$5
+  /* tag-#anon#lST[l*{cS32}_cS32_'a'||l*{S32}_S32_'b'||l*{S32}_S32_'c'||S64'd'||S64'e'|] */
+struct anonymous_5
 {
   // a
   const signed int *a;
@@ -13382,7 +13382,7 @@ struct anonymous$5
 
 /* */
   ;
-  struct anonymous$5 stack[64l];
+  struct anonymous_5 stack[64l];
   signed int *a;
   signed int *b;
   signed int *c;
@@ -13396,47 +13396,47 @@ struct anonymous$5
   signed long int trlink = (signed long int)-1;
   ssize = (signed long int)0;
   limit=tr_ilg((signed int)(last - first));
-  signed long int tmp_post$1;
-  signed long int tmp_post$2;
-  signed long int tmp_post$3;
-  signed long int tmp_post$4;
-  _Bool tmp_if_expr$5;
-  signed long int tmp_if_expr$9;
-  signed int tmp_if_expr$6;
-  signed long int tmp_if_expr$8;
-  signed long int return_value_tr_ilg$7;
-  signed long int tmp_post$10;
-  signed long int tmp_post$11;
-  signed long int tmp_post$16;
-  signed int tmp_if_expr$13;
-  _Bool tmp_if_expr$15;
-  signed int tmp_if_expr$14;
-  signed int tmp_if_expr$17;
-  signed long int tmp_if_expr$20;
-  signed long int tmp_if_expr$19;
-  signed long int return_value_tr_ilg$18;
-  _Bool tmp_if_expr$40;
-  signed long int return_value_trbudget_check$39;
-  signed long int tmp_post$21;
-  signed long int tmp_post$22;
-  signed long int tmp_post$23;
-  signed long int tmp_post$24;
-  signed long int tmp_post$25;
-  signed long int tmp_post$26;
-  signed long int tmp_post$27;
-  signed long int tmp_post$28;
-  signed long int tmp_post$29;
-  signed long int tmp_post$30;
-  signed long int tmp_post$31;
-  signed long int tmp_post$32;
-  signed long int tmp_post$33;
-  signed long int tmp_post$34;
-  signed long int tmp_post$35;
-  signed long int tmp_post$36;
-  signed long int tmp_post$37;
-  signed long int tmp_post$38;
-  signed long int tmp_if_expr$42;
-  signed int tmp_if_expr$41;
+  signed long int tmp_post_1;
+  signed long int tmp_post_2;
+  signed long int tmp_post_3;
+  signed long int tmp_post_4;
+  _Bool tmp_if_expr_5;
+  signed long int tmp_if_expr_9;
+  signed int tmp_if_expr_6;
+  signed long int tmp_if_expr_8;
+  signed long int return_value_tr_ilg_7;
+  signed long int tmp_post_10;
+  signed long int tmp_post_11;
+  signed long int tmp_post_16;
+  signed int tmp_if_expr_13;
+  _Bool tmp_if_expr_15;
+  signed int tmp_if_expr_14;
+  signed int tmp_if_expr_17;
+  signed long int tmp_if_expr_20;
+  signed long int tmp_if_expr_19;
+  signed long int return_value_tr_ilg_18;
+  _Bool tmp_if_expr_40;
+  signed long int return_value_trbudget_check_39;
+  signed long int tmp_post_21;
+  signed long int tmp_post_22;
+  signed long int tmp_post_23;
+  signed long int tmp_post_24;
+  signed long int tmp_post_25;
+  signed long int tmp_post_26;
+  signed long int tmp_post_27;
+  signed long int tmp_post_28;
+  signed long int tmp_post_29;
+  signed long int tmp_post_30;
+  signed long int tmp_post_31;
+  signed long int tmp_post_32;
+  signed long int tmp_post_33;
+  signed long int tmp_post_34;
+  signed long int tmp_post_35;
+  signed long int tmp_post_36;
+  signed long int tmp_post_37;
+  signed long int tmp_post_38;
+  signed long int tmp_if_expr_42;
+  signed int tmp_if_expr_41;
   do
   {
     /* assertion (ISAd < ISAn) || (limit == -3) */
@@ -13472,9 +13472,9 @@ struct anonymous$5
             stack[ssize].b = a;
             stack[ssize].c = b;
             stack[ssize].d = (signed long int)0;
-            tmp_post$1 = ssize;
+            tmp_post_1 = ssize;
             ssize = ssize + 1l;
-            stack[tmp_post$1].e = (signed long int)0;
+            stack[tmp_post_1].e = (signed long int)0;
           }
           while((_Bool)0);
           do
@@ -13485,9 +13485,9 @@ struct anonymous$5
             stack[ssize].b = first;
             stack[ssize].c = last;
             stack[ssize].d = (signed long int)-2;
-            tmp_post$2 = ssize;
+            tmp_post_2 = ssize;
             ssize = ssize + 1l;
-            stack[tmp_post$2].e = trlink;
+            stack[tmp_post_2].e = trlink;
           }
           while((_Bool)0);
           trlink = ssize - (signed long int)2;
@@ -13505,9 +13505,9 @@ struct anonymous$5
               stack[ssize].b = b;
               stack[ssize].c = last;
               stack[ssize].d=tr_ilg((signed int)(last - b));
-              tmp_post$3 = ssize;
+              tmp_post_3 = ssize;
               ssize = ssize + 1l;
-              stack[tmp_post$3].e = trlink;
+              stack[tmp_post_3].e = trlink;
             }
             while((_Bool)0);
             last = a;
@@ -13550,9 +13550,9 @@ struct anonymous$5
               stack[ssize].b = first;
               stack[ssize].c = a;
               stack[ssize].d=tr_ilg((signed int)(a - first));
-              tmp_post$4 = ssize;
+              tmp_post_4 = ssize;
               ssize = ssize + 1l;
-              stack[tmp_post$4].e = trlink;
+              stack[tmp_post_4].e = trlink;
             }
             while((_Bool)0);
             first = b;
@@ -13627,12 +13627,12 @@ struct anonymous$5
               ISA[(signed long int)*a] = (signed int)(a - SA);
               a = a + 1l;
               if(!(a >= last))
-                tmp_if_expr$5 = 0 <= *a ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_5 = 0 <= *a ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$5 = (_Bool)0;
+                tmp_if_expr_5 = (_Bool)0;
             }
-            while(tmp_if_expr$5);
+            while(tmp_if_expr_5);
             first = a;
           }
 
@@ -13648,24 +13648,24 @@ struct anonymous$5
             if(!((signed long int)incr >= ISAn - ISAd))
             {
               if(!((signed long int)*a >= ISAn - ISAd))
-                tmp_if_expr$6 = ISAd[(signed long int)*a];
+                tmp_if_expr_6 = ISAd[(signed long int)*a];
 
               else
-                tmp_if_expr$6 = ISA[((ISAd - ISA) + (signed long int)*a) % (ISAn - ISA)];
-              if(!(ISA[(signed long int)*a] == tmp_if_expr$6))
+                tmp_if_expr_6 = ISA[((ISAd - ISA) + (signed long int)*a) % (ISAn - ISA)];
+              if(!(ISA[(signed long int)*a] == tmp_if_expr_6))
               {
-                return_value_tr_ilg$7=tr_ilg((signed int)((a - first) + (signed long int)1));
-                tmp_if_expr$8 = return_value_tr_ilg$7;
+                return_value_tr_ilg_7=tr_ilg((signed int)((a - first) + (signed long int)1));
+                tmp_if_expr_8 = return_value_tr_ilg_7;
               }
 
               else
-                tmp_if_expr$8 = (signed long int)-1;
-              tmp_if_expr$9 = tmp_if_expr$8;
+                tmp_if_expr_8 = (signed long int)-1;
+              tmp_if_expr_9 = tmp_if_expr_8;
             }
 
             else
-              tmp_if_expr$9 = (signed long int)-3;
-            next = tmp_if_expr$9;
+              tmp_if_expr_9 = (signed long int)-3;
+            next = tmp_if_expr_9;
             a = a + 1l;
             if(!(a >= last))
             {
@@ -13675,9 +13675,9 @@ struct anonymous$5
                 ISA[(signed long int)*b] = v;
             }
 
-            signed long int return_value_trbudget_check$12;
-            return_value_trbudget_check$12=trbudget_check(budget, (signed int)(a - first));
-            if(!(return_value_trbudget_check$12 == 0l))
+            signed long int return_value_trbudget_check_12;
+            return_value_trbudget_check_12=trbudget_check(budget, (signed int)(a - first));
+            if(!(return_value_trbudget_check_12 == 0l))
             {
               if(last - a >= a - first)
               {
@@ -13689,9 +13689,9 @@ struct anonymous$5
                   stack[ssize].b = a;
                   stack[ssize].c = last;
                   stack[ssize].d = (signed long int)-3;
-                  tmp_post$10 = ssize;
+                  tmp_post_10 = ssize;
                   ssize = ssize + 1l;
-                  stack[tmp_post$10].e = trlink;
+                  stack[tmp_post_10].e = trlink;
                 }
                 while((_Bool)0);
                 ISAd = ISAd + (signed long int)incr;
@@ -13710,9 +13710,9 @@ struct anonymous$5
                     stack[ssize].b = first;
                     stack[ssize].c = a;
                     stack[ssize].d = next;
-                    tmp_post$11 = ssize;
+                    tmp_post_11 = ssize;
                     ssize = ssize + 1l;
-                    stack[tmp_post$11].e = trlink;
+                    stack[tmp_post_11].e = trlink;
                   }
                   while((_Bool)0);
                   first = a;
@@ -13785,36 +13785,36 @@ struct anonymous$5
 
       else
       {
-        tmp_post$16 = limit;
+        tmp_post_16 = limit;
         limit = limit - 1l;
-        if(tmp_post$16 == 0l)
+        if(tmp_post_16 == 0l)
         {
           tr_heapsort(ISA, ISAd, ISAn, first, (signed int)(last - first));
           a = last - (signed long int)1;
           for( ; !(first >= a); a = b)
           {
             if(!((signed long int)*a >= ISAn - ISAd))
-              tmp_if_expr$13 = ISAd[(signed long int)*a];
+              tmp_if_expr_13 = ISAd[(signed long int)*a];
 
             else
-              tmp_if_expr$13 = ISA[((ISAd - ISA) + (signed long int)*a) % (ISAn - ISA)];
-            x = tmp_if_expr$13;
+              tmp_if_expr_13 = ISA[((ISAd - ISA) + (signed long int)*a) % (ISAn - ISA)];
+            x = tmp_if_expr_13;
             b = a - (signed long int)1;
             do
             {
               if(b >= first)
               {
                 if(!((signed long int)*b >= ISAn - ISAd))
-                  tmp_if_expr$14 = ISAd[(signed long int)*b];
+                  tmp_if_expr_14 = ISAd[(signed long int)*b];
 
                 else
-                  tmp_if_expr$14 = ISA[((ISAd - ISA) + (signed long int)*b) % (ISAn - ISA)];
-                tmp_if_expr$15 = tmp_if_expr$14 == x ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_14 = ISA[((ISAd - ISA) + (signed long int)*b) % (ISAn - ISA)];
+                tmp_if_expr_15 = tmp_if_expr_14 == x ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$15 = (_Bool)0;
-              if(!tmp_if_expr$15)
+                tmp_if_expr_15 = (_Bool)0;
+              if(!tmp_if_expr_15)
                 break;
 
               *b = ~(*b);
@@ -13836,11 +13836,11 @@ struct anonymous$5
           }
           while((_Bool)0);
           if(!((signed long int)*first >= ISAn - ISAd))
-            tmp_if_expr$17 = ISAd[(signed long int)*first];
+            tmp_if_expr_17 = ISAd[(signed long int)*first];
 
           else
-            tmp_if_expr$17 = ISA[((ISAd - ISA) + (signed long int)*first) % (ISAn - ISA)];
-          v = tmp_if_expr$17;
+            tmp_if_expr_17 = ISA[((ISAd - ISA) + (signed long int)*first) % (ISAn - ISA)];
+          v = tmp_if_expr_17;
           tr_partition(ISA, ISAd, ISAn, first, first + (signed long int)1, last, &a, &b, v);
           if(!(last - first == b - a))
           {
@@ -13848,18 +13848,18 @@ struct anonymous$5
             {
               if(!(ISA[(signed long int)*a] == v))
               {
-                return_value_tr_ilg$18=tr_ilg((signed int)(b - a));
-                tmp_if_expr$19 = return_value_tr_ilg$18;
+                return_value_tr_ilg_18=tr_ilg((signed int)(b - a));
+                tmp_if_expr_19 = return_value_tr_ilg_18;
               }
 
               else
-                tmp_if_expr$19 = (signed long int)-1;
-              tmp_if_expr$20 = tmp_if_expr$19;
+                tmp_if_expr_19 = (signed long int)-1;
+              tmp_if_expr_20 = tmp_if_expr_19;
             }
 
             else
-              tmp_if_expr$20 = (signed long int)-3;
-            next = tmp_if_expr$20;
+              tmp_if_expr_20 = (signed long int)-3;
+            next = tmp_if_expr_20;
             c = first;
             v = (signed int)((a - SA) - (signed long int)1);
             for( ; !(c >= a); c = c + 1l)
@@ -13874,13 +13874,13 @@ struct anonymous$5
 
             if(b - a >= 2l)
             {
-              return_value_trbudget_check$39=trbudget_check(budget, (signed int)(b - a));
-              tmp_if_expr$40 = return_value_trbudget_check$39 != 0l ? (_Bool)1 : (_Bool)0;
+              return_value_trbudget_check_39=trbudget_check(budget, (signed int)(b - a));
+              tmp_if_expr_40 = return_value_trbudget_check_39 != 0l ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$40 = (_Bool)0;
-            if(tmp_if_expr$40)
+              tmp_if_expr_40 = (_Bool)0;
+            if(tmp_if_expr_40)
             {
               if(last - b >= a - first)
               {
@@ -13896,9 +13896,9 @@ struct anonymous$5
                       stack[ssize].b = a;
                       stack[ssize].c = b;
                       stack[ssize].d = next;
-                      tmp_post$21 = ssize;
+                      tmp_post_21 = ssize;
                       ssize = ssize + 1l;
-                      stack[tmp_post$21].e = trlink;
+                      stack[tmp_post_21].e = trlink;
                     }
                     while((_Bool)0);
                     do
@@ -13909,9 +13909,9 @@ struct anonymous$5
                       stack[ssize].b = b;
                       stack[ssize].c = last;
                       stack[ssize].d = limit;
-                      tmp_post$22 = ssize;
+                      tmp_post_22 = ssize;
                       ssize = ssize + 1l;
-                      stack[tmp_post$22].e = trlink;
+                      stack[tmp_post_22].e = trlink;
                     }
                     while((_Bool)0);
                     last = a;
@@ -13928,9 +13928,9 @@ struct anonymous$5
                         stack[ssize].b = a;
                         stack[ssize].c = b;
                         stack[ssize].d = next;
-                        tmp_post$23 = ssize;
+                        tmp_post_23 = ssize;
                         ssize = ssize + 1l;
-                        stack[tmp_post$23].e = trlink;
+                        stack[tmp_post_23].e = trlink;
                       }
                       while((_Bool)0);
                       first = b;
@@ -13958,9 +13958,9 @@ struct anonymous$5
                         stack[ssize].b = b;
                         stack[ssize].c = last;
                         stack[ssize].d = limit;
-                        tmp_post$24 = ssize;
+                        tmp_post_24 = ssize;
                         ssize = ssize + 1l;
-                        stack[tmp_post$24].e = trlink;
+                        stack[tmp_post_24].e = trlink;
                       }
                       while((_Bool)0);
                       do
@@ -13971,9 +13971,9 @@ struct anonymous$5
                         stack[ssize].b = a;
                         stack[ssize].c = b;
                         stack[ssize].d = next;
-                        tmp_post$25 = ssize;
+                        tmp_post_25 = ssize;
                         ssize = ssize + 1l;
-                        stack[tmp_post$25].e = trlink;
+                        stack[tmp_post_25].e = trlink;
                       }
                       while((_Bool)0);
                       last = a;
@@ -13989,9 +13989,9 @@ struct anonymous$5
                         stack[ssize].b = b;
                         stack[ssize].c = last;
                         stack[ssize].d = limit;
-                        tmp_post$26 = ssize;
+                        tmp_post_26 = ssize;
                         ssize = ssize + 1l;
-                        stack[tmp_post$26].e = trlink;
+                        stack[tmp_post_26].e = trlink;
                       }
                       while((_Bool)0);
                       ISAd = ISAd + (signed long int)incr;
@@ -14011,9 +14011,9 @@ struct anonymous$5
                       stack[ssize].b = b;
                       stack[ssize].c = last;
                       stack[ssize].d = limit;
-                      tmp_post$27 = ssize;
+                      tmp_post_27 = ssize;
                       ssize = ssize + 1l;
-                      stack[tmp_post$27].e = trlink;
+                      stack[tmp_post_27].e = trlink;
                     }
                     while((_Bool)0);
                     do
@@ -14024,9 +14024,9 @@ struct anonymous$5
                       stack[ssize].b = first;
                       stack[ssize].c = a;
                       stack[ssize].d = limit;
-                      tmp_post$28 = ssize;
+                      tmp_post_28 = ssize;
                       ssize = ssize + 1l;
-                      stack[tmp_post$28].e = trlink;
+                      stack[tmp_post_28].e = trlink;
                     }
                     while((_Bool)0);
                     ISAd = ISAd + (signed long int)incr;
@@ -14049,9 +14049,9 @@ struct anonymous$5
                       stack[ssize].b = a;
                       stack[ssize].c = b;
                       stack[ssize].d = next;
-                      tmp_post$29 = ssize;
+                      tmp_post_29 = ssize;
                       ssize = ssize + 1l;
-                      stack[tmp_post$29].e = trlink;
+                      stack[tmp_post_29].e = trlink;
                     }
                     while((_Bool)0);
                     do
@@ -14062,9 +14062,9 @@ struct anonymous$5
                       stack[ssize].b = first;
                       stack[ssize].c = a;
                       stack[ssize].d = limit;
-                      tmp_post$30 = ssize;
+                      tmp_post_30 = ssize;
                       ssize = ssize + 1l;
-                      stack[tmp_post$30].e = trlink;
+                      stack[tmp_post_30].e = trlink;
                     }
                     while((_Bool)0);
                     first = b;
@@ -14081,9 +14081,9 @@ struct anonymous$5
                         stack[ssize].b = a;
                         stack[ssize].c = b;
                         stack[ssize].d = next;
-                        tmp_post$31 = ssize;
+                        tmp_post_31 = ssize;
                         ssize = ssize + 1l;
-                        stack[tmp_post$31].e = trlink;
+                        stack[tmp_post_31].e = trlink;
                       }
                       while((_Bool)0);
                       last = a;
@@ -14111,9 +14111,9 @@ struct anonymous$5
                         stack[ssize].b = first;
                         stack[ssize].c = a;
                         stack[ssize].d = limit;
-                        tmp_post$32 = ssize;
+                        tmp_post_32 = ssize;
                         ssize = ssize + 1l;
-                        stack[tmp_post$32].e = trlink;
+                        stack[tmp_post_32].e = trlink;
                       }
                       while((_Bool)0);
                       do
@@ -14124,9 +14124,9 @@ struct anonymous$5
                         stack[ssize].b = a;
                         stack[ssize].c = b;
                         stack[ssize].d = next;
-                        tmp_post$33 = ssize;
+                        tmp_post_33 = ssize;
                         ssize = ssize + 1l;
-                        stack[tmp_post$33].e = trlink;
+                        stack[tmp_post_33].e = trlink;
                       }
                       while((_Bool)0);
                       first = b;
@@ -14142,9 +14142,9 @@ struct anonymous$5
                         stack[ssize].b = first;
                         stack[ssize].c = a;
                         stack[ssize].d = limit;
-                        tmp_post$34 = ssize;
+                        tmp_post_34 = ssize;
                         ssize = ssize + 1l;
-                        stack[tmp_post$34].e = trlink;
+                        stack[tmp_post_34].e = trlink;
                       }
                       while((_Bool)0);
                       ISAd = ISAd + (signed long int)incr;
@@ -14164,9 +14164,9 @@ struct anonymous$5
                       stack[ssize].b = first;
                       stack[ssize].c = a;
                       stack[ssize].d = limit;
-                      tmp_post$35 = ssize;
+                      tmp_post_35 = ssize;
                       ssize = ssize + 1l;
-                      stack[tmp_post$35].e = trlink;
+                      stack[tmp_post_35].e = trlink;
                     }
                     while((_Bool)0);
                     do
@@ -14177,9 +14177,9 @@ struct anonymous$5
                       stack[ssize].b = b;
                       stack[ssize].c = last;
                       stack[ssize].d = limit;
-                      tmp_post$36 = ssize;
+                      tmp_post_36 = ssize;
                       ssize = ssize + 1l;
-                      stack[tmp_post$36].e = trlink;
+                      stack[tmp_post_36].e = trlink;
                     }
                     while((_Bool)0);
                     ISAd = ISAd + (signed long int)incr;
@@ -14206,9 +14206,9 @@ struct anonymous$5
                     stack[ssize].b = b;
                     stack[ssize].c = last;
                     stack[ssize].d = limit;
-                    tmp_post$37 = ssize;
+                    tmp_post_37 = ssize;
                     ssize = ssize + 1l;
-                    stack[tmp_post$37].e = trlink;
+                    stack[tmp_post_37].e = trlink;
                   }
                   while((_Bool)0);
                   last = a;
@@ -14247,9 +14247,9 @@ struct anonymous$5
                     stack[ssize].b = first;
                     stack[ssize].c = a;
                     stack[ssize].d = limit;
-                    tmp_post$38 = ssize;
+                    tmp_post_38 = ssize;
                     ssize = ssize + 1l;
-                    stack[tmp_post$38].e = trlink;
+                    stack[tmp_post_38].e = trlink;
                   }
                   while((_Bool)0);
                   first = b;
@@ -14280,23 +14280,23 @@ struct anonymous$5
 
           else
           {
-            signed long int return_value_trbudget_check$43;
-            return_value_trbudget_check$43=trbudget_check(budget, (signed int)(last - first));
-            if(!(return_value_trbudget_check$43 == 0l))
+            signed long int return_value_trbudget_check_43;
+            return_value_trbudget_check_43=trbudget_check(budget, (signed int)(last - first));
+            if(!(return_value_trbudget_check_43 == 0l))
             {
               if(!((signed long int)incr >= ISAn - ISAd))
               {
                 if(!((signed long int)*first >= ISAn - ISAd))
-                  tmp_if_expr$41 = ISAd[(signed long int)*first];
+                  tmp_if_expr_41 = ISAd[(signed long int)*first];
 
                 else
-                  tmp_if_expr$41 = ISA[((ISAd - ISA) + (signed long int)*first) % (ISAn - ISA)];
-                tmp_if_expr$42 = ISA[(signed long int)*first] != tmp_if_expr$41 ? limit + (signed long int)1 : (signed long int)-1;
+                  tmp_if_expr_41 = ISA[((ISAd - ISA) + (signed long int)*first) % (ISAn - ISA)];
+                tmp_if_expr_42 = ISA[(signed long int)*first] != tmp_if_expr_41 ? limit + (signed long int)1 : (signed long int)-1;
               }
 
               else
-                tmp_if_expr$42 = (signed long int)-3;
-              limit = tmp_if_expr$42;
+                tmp_if_expr_42 = (signed long int)-3;
+              limit = tmp_if_expr_42;
               ISAd = ISAd + (signed long int)incr;
             }
 
@@ -14336,19 +14336,19 @@ __CPROVER_DUMP_L130:
 static signed int * tr_median3(const signed int *ISA, const signed int *ISAd, const signed int *ISAn, signed int *v1, signed int *v2, signed int *v3)
 {
   signed int *t;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((signed long int)*v1 >= ISAn - ISAd))
-    tmp_if_expr$1 = ISAd[(signed long int)*v1];
+    tmp_if_expr_1 = ISAd[(signed long int)*v1];
 
   else
-    tmp_if_expr$1 = ISA[((ISAd - ISA) + (signed long int)*v1) % (ISAn - ISA)];
-  signed int tmp_if_expr$2;
+    tmp_if_expr_1 = ISA[((ISAd - ISA) + (signed long int)*v1) % (ISAn - ISA)];
+  signed int tmp_if_expr_2;
   if(!((signed long int)*v2 >= ISAn - ISAd))
-    tmp_if_expr$2 = ISAd[(signed long int)*v2];
+    tmp_if_expr_2 = ISAd[(signed long int)*v2];
 
   else
-    tmp_if_expr$2 = ISA[((ISAd - ISA) + (signed long int)*v2) % (ISAn - ISA)];
-  if(!(tmp_if_expr$2 >= tmp_if_expr$1))
+    tmp_if_expr_2 = ISA[((ISAd - ISA) + (signed long int)*v2) % (ISAn - ISA)];
+  if(!(tmp_if_expr_2 >= tmp_if_expr_1))
     do
     {
       t = v1;
@@ -14357,33 +14357,33 @@ static signed int * tr_median3(const signed int *ISA, const signed int *ISAd, co
     }
     while((_Bool)0);
 
-  signed int tmp_if_expr$5;
+  signed int tmp_if_expr_5;
   if(!((signed long int)*v2 >= ISAn - ISAd))
-    tmp_if_expr$5 = ISAd[(signed long int)*v2];
+    tmp_if_expr_5 = ISAd[(signed long int)*v2];
 
   else
-    tmp_if_expr$5 = ISA[((ISAd - ISA) + (signed long int)*v2) % (ISAn - ISA)];
-  signed int tmp_if_expr$6;
+    tmp_if_expr_5 = ISA[((ISAd - ISA) + (signed long int)*v2) % (ISAn - ISA)];
+  signed int tmp_if_expr_6;
   if(!((signed long int)*v3 >= ISAn - ISAd))
-    tmp_if_expr$6 = ISAd[(signed long int)*v3];
+    tmp_if_expr_6 = ISAd[(signed long int)*v3];
 
   else
-    tmp_if_expr$6 = ISA[((ISAd - ISA) + (signed long int)*v3) % (ISAn - ISA)];
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$4;
-  if(!(tmp_if_expr$6 >= tmp_if_expr$5))
+    tmp_if_expr_6 = ISA[((ISAd - ISA) + (signed long int)*v3) % (ISAn - ISA)];
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_4;
+  if(!(tmp_if_expr_6 >= tmp_if_expr_5))
   {
     if(!((signed long int)*v1 >= ISAn - ISAd))
-      tmp_if_expr$3 = ISAd[(signed long int)*v1];
+      tmp_if_expr_3 = ISAd[(signed long int)*v1];
 
     else
-      tmp_if_expr$3 = ISA[((ISAd - ISA) + (signed long int)*v1) % (ISAn - ISA)];
+      tmp_if_expr_3 = ISA[((ISAd - ISA) + (signed long int)*v1) % (ISAn - ISA)];
     if(!((signed long int)*v3 >= ISAn - ISAd))
-      tmp_if_expr$4 = ISAd[(signed long int)*v3];
+      tmp_if_expr_4 = ISAd[(signed long int)*v3];
 
     else
-      tmp_if_expr$4 = ISA[((ISAd - ISA) + (signed long int)*v3) % (ISAn - ISA)];
-    if(!(tmp_if_expr$4 >= tmp_if_expr$3))
+      tmp_if_expr_4 = ISA[((ISAd - ISA) + (signed long int)*v3) % (ISAn - ISA)];
+    if(!(tmp_if_expr_4 >= tmp_if_expr_3))
       return v1;
 
     return v3;
@@ -14398,19 +14398,19 @@ static signed int * tr_median3(const signed int *ISA, const signed int *ISAd, co
 static signed int * tr_median5(const signed int *ISA, const signed int *ISAd, const signed int *ISAn, signed int *v1, signed int *v2, signed int *v3, signed int *v4, signed int *v5)
 {
   signed int *t;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((signed long int)*v2 >= ISAn - ISAd))
-    tmp_if_expr$1 = ISAd[(signed long int)*v2];
+    tmp_if_expr_1 = ISAd[(signed long int)*v2];
 
   else
-    tmp_if_expr$1 = ISA[((ISAd - ISA) + (signed long int)*v2) % (ISAn - ISA)];
-  signed int tmp_if_expr$2;
+    tmp_if_expr_1 = ISA[((ISAd - ISA) + (signed long int)*v2) % (ISAn - ISA)];
+  signed int tmp_if_expr_2;
   if(!((signed long int)*v3 >= ISAn - ISAd))
-    tmp_if_expr$2 = ISAd[(signed long int)*v3];
+    tmp_if_expr_2 = ISAd[(signed long int)*v3];
 
   else
-    tmp_if_expr$2 = ISA[((ISAd - ISA) + (signed long int)*v3) % (ISAn - ISA)];
-  if(!(tmp_if_expr$2 >= tmp_if_expr$1))
+    tmp_if_expr_2 = ISA[((ISAd - ISA) + (signed long int)*v3) % (ISAn - ISA)];
+  if(!(tmp_if_expr_2 >= tmp_if_expr_1))
     do
     {
       t = v2;
@@ -14419,19 +14419,19 @@ static signed int * tr_median5(const signed int *ISA, const signed int *ISAd, co
     }
     while((_Bool)0);
 
-  signed int tmp_if_expr$3;
+  signed int tmp_if_expr_3;
   if(!((signed long int)*v4 >= ISAn - ISAd))
-    tmp_if_expr$3 = ISAd[(signed long int)*v4];
+    tmp_if_expr_3 = ISAd[(signed long int)*v4];
 
   else
-    tmp_if_expr$3 = ISA[((ISAd - ISA) + (signed long int)*v4) % (ISAn - ISA)];
-  signed int tmp_if_expr$4;
+    tmp_if_expr_3 = ISA[((ISAd - ISA) + (signed long int)*v4) % (ISAn - ISA)];
+  signed int tmp_if_expr_4;
   if(!((signed long int)*v5 >= ISAn - ISAd))
-    tmp_if_expr$4 = ISAd[(signed long int)*v5];
+    tmp_if_expr_4 = ISAd[(signed long int)*v5];
 
   else
-    tmp_if_expr$4 = ISA[((ISAd - ISA) + (signed long int)*v5) % (ISAn - ISA)];
-  if(!(tmp_if_expr$4 >= tmp_if_expr$3))
+    tmp_if_expr_4 = ISA[((ISAd - ISA) + (signed long int)*v5) % (ISAn - ISA)];
+  if(!(tmp_if_expr_4 >= tmp_if_expr_3))
     do
     {
       t = v4;
@@ -14440,19 +14440,19 @@ static signed int * tr_median5(const signed int *ISA, const signed int *ISAd, co
     }
     while((_Bool)0);
 
-  signed int tmp_if_expr$5;
+  signed int tmp_if_expr_5;
   if(!((signed long int)*v2 >= ISAn - ISAd))
-    tmp_if_expr$5 = ISAd[(signed long int)*v2];
+    tmp_if_expr_5 = ISAd[(signed long int)*v2];
 
   else
-    tmp_if_expr$5 = ISA[((ISAd - ISA) + (signed long int)*v2) % (ISAn - ISA)];
-  signed int tmp_if_expr$6;
+    tmp_if_expr_5 = ISA[((ISAd - ISA) + (signed long int)*v2) % (ISAn - ISA)];
+  signed int tmp_if_expr_6;
   if(!((signed long int)*v4 >= ISAn - ISAd))
-    tmp_if_expr$6 = ISAd[(signed long int)*v4];
+    tmp_if_expr_6 = ISAd[(signed long int)*v4];
 
   else
-    tmp_if_expr$6 = ISA[((ISAd - ISA) + (signed long int)*v4) % (ISAn - ISA)];
-  if(!(tmp_if_expr$6 >= tmp_if_expr$5))
+    tmp_if_expr_6 = ISA[((ISAd - ISA) + (signed long int)*v4) % (ISAn - ISA)];
+  if(!(tmp_if_expr_6 >= tmp_if_expr_5))
   {
     do
     {
@@ -14470,19 +14470,19 @@ static signed int * tr_median5(const signed int *ISA, const signed int *ISAd, co
     while((_Bool)0);
   }
 
-  signed int tmp_if_expr$7;
+  signed int tmp_if_expr_7;
   if(!((signed long int)*v1 >= ISAn - ISAd))
-    tmp_if_expr$7 = ISAd[(signed long int)*v1];
+    tmp_if_expr_7 = ISAd[(signed long int)*v1];
 
   else
-    tmp_if_expr$7 = ISA[((ISAd - ISA) + (signed long int)*v1) % (ISAn - ISA)];
-  signed int tmp_if_expr$8;
+    tmp_if_expr_7 = ISA[((ISAd - ISA) + (signed long int)*v1) % (ISAn - ISA)];
+  signed int tmp_if_expr_8;
   if(!((signed long int)*v3 >= ISAn - ISAd))
-    tmp_if_expr$8 = ISAd[(signed long int)*v3];
+    tmp_if_expr_8 = ISAd[(signed long int)*v3];
 
   else
-    tmp_if_expr$8 = ISA[((ISAd - ISA) + (signed long int)*v3) % (ISAn - ISA)];
-  if(!(tmp_if_expr$8 >= tmp_if_expr$7))
+    tmp_if_expr_8 = ISA[((ISAd - ISA) + (signed long int)*v3) % (ISAn - ISA)];
+  if(!(tmp_if_expr_8 >= tmp_if_expr_7))
     do
     {
       t = v1;
@@ -14491,19 +14491,19 @@ static signed int * tr_median5(const signed int *ISA, const signed int *ISAd, co
     }
     while((_Bool)0);
 
-  signed int tmp_if_expr$9;
+  signed int tmp_if_expr_9;
   if(!((signed long int)*v1 >= ISAn - ISAd))
-    tmp_if_expr$9 = ISAd[(signed long int)*v1];
+    tmp_if_expr_9 = ISAd[(signed long int)*v1];
 
   else
-    tmp_if_expr$9 = ISA[((ISAd - ISA) + (signed long int)*v1) % (ISAn - ISA)];
-  signed int tmp_if_expr$10;
+    tmp_if_expr_9 = ISA[((ISAd - ISA) + (signed long int)*v1) % (ISAn - ISA)];
+  signed int tmp_if_expr_10;
   if(!((signed long int)*v4 >= ISAn - ISAd))
-    tmp_if_expr$10 = ISAd[(signed long int)*v4];
+    tmp_if_expr_10 = ISAd[(signed long int)*v4];
 
   else
-    tmp_if_expr$10 = ISA[((ISAd - ISA) + (signed long int)*v4) % (ISAn - ISA)];
-  if(!(tmp_if_expr$10 >= tmp_if_expr$9))
+    tmp_if_expr_10 = ISA[((ISAd - ISA) + (signed long int)*v4) % (ISAn - ISA)];
+  if(!(tmp_if_expr_10 >= tmp_if_expr_9))
   {
     do
     {
@@ -14521,19 +14521,19 @@ static signed int * tr_median5(const signed int *ISA, const signed int *ISAd, co
     while((_Bool)0);
   }
 
-  signed int tmp_if_expr$11;
+  signed int tmp_if_expr_11;
   if(!((signed long int)*v3 >= ISAn - ISAd))
-    tmp_if_expr$11 = ISAd[(signed long int)*v3];
+    tmp_if_expr_11 = ISAd[(signed long int)*v3];
 
   else
-    tmp_if_expr$11 = ISA[((ISAd - ISA) + (signed long int)*v3) % (ISAn - ISA)];
-  signed int tmp_if_expr$12;
+    tmp_if_expr_11 = ISA[((ISAd - ISA) + (signed long int)*v3) % (ISAn - ISA)];
+  signed int tmp_if_expr_12;
   if(!((signed long int)*v4 >= ISAn - ISAd))
-    tmp_if_expr$12 = ISAd[(signed long int)*v4];
+    tmp_if_expr_12 = ISAd[(signed long int)*v4];
 
   else
-    tmp_if_expr$12 = ISA[((ISAd - ISA) + (signed long int)*v4) % (ISAn - ISA)];
-  if(!(tmp_if_expr$12 >= tmp_if_expr$11))
+    tmp_if_expr_12 = ISA[((ISAd - ISA) + (signed long int)*v4) % (ISAn - ISA)];
+  if(!(tmp_if_expr_12 >= tmp_if_expr_11))
     return v4;
 
   else
@@ -14636,32 +14636,32 @@ static void tr_partition(const signed int *ISA, const signed int *ISAd, const si
   signed int s;
   signed int x = 0;
   b = middle - (signed long int)1;
-  _Bool tmp_if_expr$2;
-  signed int tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  signed int tmp_if_expr_1;
   do
   {
     b = b + 1l;
     if(!(b >= last))
     {
       if(!((signed long int)*b >= ISAn - ISAd))
-        tmp_if_expr$1 = ISAd[(signed long int)*b];
+        tmp_if_expr_1 = ISAd[(signed long int)*b];
 
       else
-        tmp_if_expr$1 = ISA[((ISAd - ISA) + (signed long int)*b) % (ISAn - ISA)];
-      x = tmp_if_expr$1;
-      tmp_if_expr$2 = x == v ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = ISA[((ISAd - ISA) + (signed long int)*b) % (ISAn - ISA)];
+      x = tmp_if_expr_1;
+      tmp_if_expr_2 = x == v ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
   }
   while((_Bool)1);
   a = b;
-  _Bool tmp_if_expr$4;
-  signed int tmp_if_expr$3;
+  _Bool tmp_if_expr_4;
+  signed int tmp_if_expr_3;
   if(!(a >= last))
   {
     if(!(x >= v))
@@ -14671,17 +14671,17 @@ static void tr_partition(const signed int *ISA, const signed int *ISAd, const si
         if(!(b >= last))
         {
           if(!((signed long int)*b >= ISAn - ISAd))
-            tmp_if_expr$3 = ISAd[(signed long int)*b];
+            tmp_if_expr_3 = ISAd[(signed long int)*b];
 
           else
-            tmp_if_expr$3 = ISA[((ISAd - ISA) + (signed long int)*b) % (ISAn - ISA)];
-          x = tmp_if_expr$3;
-          tmp_if_expr$4 = x <= v ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = ISA[((ISAd - ISA) + (signed long int)*b) % (ISAn - ISA)];
+          x = tmp_if_expr_3;
+          tmp_if_expr_4 = x <= v ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(!tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(!tmp_if_expr_4)
           break;
 
         if(x == v)
@@ -14702,32 +14702,32 @@ static void tr_partition(const signed int *ISA, const signed int *ISAd, const si
   }
 
   c = last;
-  _Bool tmp_if_expr$6;
-  signed int tmp_if_expr$5;
+  _Bool tmp_if_expr_6;
+  signed int tmp_if_expr_5;
   do
   {
     c = c - 1l;
     if(!(b >= c))
     {
       if(!((signed long int)*c >= ISAn - ISAd))
-        tmp_if_expr$5 = ISAd[(signed long int)*c];
+        tmp_if_expr_5 = ISAd[(signed long int)*c];
 
       else
-        tmp_if_expr$5 = ISA[((ISAd - ISA) + (signed long int)*c) % (ISAn - ISA)];
-      x = tmp_if_expr$5;
-      tmp_if_expr$6 = x == v ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = ISA[((ISAd - ISA) + (signed long int)*c) % (ISAn - ISA)];
+      x = tmp_if_expr_5;
+      tmp_if_expr_6 = x == v ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(!tmp_if_expr$6)
+      tmp_if_expr_6 = (_Bool)0;
+    if(!tmp_if_expr_6)
       break;
 
   }
   while((_Bool)1);
   d = c;
-  _Bool tmp_if_expr$8;
-  signed int tmp_if_expr$7;
+  _Bool tmp_if_expr_8;
+  signed int tmp_if_expr_7;
   if(!(b >= d))
   {
     if(!(v >= x))
@@ -14737,17 +14737,17 @@ static void tr_partition(const signed int *ISA, const signed int *ISAd, const si
         if(!(b >= c))
         {
           if(!((signed long int)*c >= ISAn - ISAd))
-            tmp_if_expr$7 = ISAd[(signed long int)*c];
+            tmp_if_expr_7 = ISAd[(signed long int)*c];
 
           else
-            tmp_if_expr$7 = ISA[((ISAd - ISA) + (signed long int)*c) % (ISAn - ISA)];
-          x = tmp_if_expr$7;
-          tmp_if_expr$8 = x >= v ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_7 = ISA[((ISAd - ISA) + (signed long int)*c) % (ISAn - ISA)];
+          x = tmp_if_expr_7;
+          tmp_if_expr_8 = x >= v ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        if(!tmp_if_expr$8)
+          tmp_if_expr_8 = (_Bool)0;
+        if(!tmp_if_expr_8)
           break;
 
         if(x == v)
@@ -14767,10 +14767,10 @@ static void tr_partition(const signed int *ISA, const signed int *ISAd, const si
 
   }
 
-  _Bool tmp_if_expr$10;
-  signed int tmp_if_expr$9;
-  _Bool tmp_if_expr$12;
-  signed int tmp_if_expr$11;
+  _Bool tmp_if_expr_10;
+  signed int tmp_if_expr_9;
+  _Bool tmp_if_expr_12;
+  signed int tmp_if_expr_11;
   while(!(b >= c))
   {
     do
@@ -14786,17 +14786,17 @@ static void tr_partition(const signed int *ISA, const signed int *ISAd, const si
       if(!(b >= c))
       {
         if(!((signed long int)*b >= ISAn - ISAd))
-          tmp_if_expr$9 = ISAd[(signed long int)*b];
+          tmp_if_expr_9 = ISAd[(signed long int)*b];
 
         else
-          tmp_if_expr$9 = ISA[((ISAd - ISA) + (signed long int)*b) % (ISAn - ISA)];
-        x = tmp_if_expr$9;
-        tmp_if_expr$10 = x <= v ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_9 = ISA[((ISAd - ISA) + (signed long int)*b) % (ISAn - ISA)];
+        x = tmp_if_expr_9;
+        tmp_if_expr_10 = x <= v ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$10 = (_Bool)0;
-      if(!tmp_if_expr$10)
+        tmp_if_expr_10 = (_Bool)0;
+      if(!tmp_if_expr_10)
         break;
 
       if(x == v)
@@ -14819,17 +14819,17 @@ static void tr_partition(const signed int *ISA, const signed int *ISAd, const si
       if(!(b >= c))
       {
         if(!((signed long int)*c >= ISAn - ISAd))
-          tmp_if_expr$11 = ISAd[(signed long int)*c];
+          tmp_if_expr_11 = ISAd[(signed long int)*c];
 
         else
-          tmp_if_expr$11 = ISA[((ISAd - ISA) + (signed long int)*c) % (ISAn - ISA)];
-        x = tmp_if_expr$11;
-        tmp_if_expr$12 = x >= v ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_11 = ISA[((ISAd - ISA) + (signed long int)*c) % (ISAn - ISA)];
+        x = tmp_if_expr_11;
+        tmp_if_expr_12 = x >= v ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$12 = (_Bool)0;
-      if(!tmp_if_expr$12)
+        tmp_if_expr_12 = (_Bool)0;
+      if(!tmp_if_expr_12)
         break;
 
       if(x == v)
@@ -14907,17 +14907,17 @@ static signed int * tr_pivot(const signed int *ISA, const signed int *ISAd, cons
   {
     if(!(t >= 33))
     {
-      signed int *return_value_tr_median3$1;
-      return_value_tr_median3$1=tr_median3(ISA, ISAd, ISAn, first, middle, last - (signed long int)1);
-      return return_value_tr_median3$1;
+      signed int *return_value_tr_median3_1;
+      return_value_tr_median3_1=tr_median3(ISA, ISAd, ISAn, first, middle, last - (signed long int)1);
+      return return_value_tr_median3_1;
     }
 
     else
     {
       t = t >> 2;
-      signed int *return_value_tr_median5$2;
-      return_value_tr_median5$2=tr_median5(ISA, ISAd, ISAn, first, first + (signed long int)t, middle, (last - (signed long int)1) - (signed long int)t, last - (signed long int)1);
-      return return_value_tr_median5$2;
+      signed int *return_value_tr_median5_2;
+      return_value_tr_median5_2=tr_median5(ISA, ISAd, ISAn, first, first + (signed long int)t, middle, (last - (signed long int)1) - (signed long int)t, last - (signed long int)1);
+      return return_value_tr_median5_2;
     }
   }
 
@@ -14925,9 +14925,9 @@ static signed int * tr_pivot(const signed int *ISA, const signed int *ISAd, cons
   first=tr_median3(ISA, ISAd, ISAn, first, first + (signed long int)t, first + (signed long int)(t << 1));
   middle=tr_median3(ISA, ISAd, ISAn, middle - (signed long int)t, middle, middle + (signed long int)t);
   last=tr_median3(ISA, ISAd, ISAn, (last - (signed long int)1) - (signed long int)(t << 1), (last - (signed long int)1) - (signed long int)t, last - (signed long int)1);
-  signed int *return_value_tr_median3$3;
-  return_value_tr_median3$3=tr_median3(ISA, ISAd, ISAn, first, middle, last);
-  return return_value_tr_median3$3;
+  signed int *return_value_tr_median3_3;
+  return_value_tr_median3_3=tr_median3(ISA, ISAd, ISAn, first, middle, last);
+  return return_value_tr_median3_3;
 }
 
 // transmit
@@ -14949,67 +14949,67 @@ void transmit(struct encoder_state *s, void *buf)
   p = (unsigned int *)buf;
   b = b << 24 | (unsigned long int)0x314159;
   k = k + (unsigned int)24;
-  unsigned int *tmp_post$1;
+  unsigned int *tmp_post_1;
   if(k >= 32u)
   {
     unsigned int w;
     k = k - (unsigned int)32;
     w = (unsigned int)(b >> k);
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p + 1l;
-    *tmp_post$1=htonl(w);
+    *tmp_post_1=htonl(w);
   }
 
   b = b << 24 | (unsigned long int)0x265359;
   k = k + (unsigned int)24;
-  unsigned int *tmp_post$2;
+  unsigned int *tmp_post_2;
   if(k >= 32u)
   {
-    unsigned int transmit$$1$$2$$w;
+    unsigned int transmit__1__2__w;
     k = k - (unsigned int)32;
-    transmit$$1$$2$$w = (unsigned int)(b >> k);
-    tmp_post$2 = p;
+    transmit__1__2__w = (unsigned int)(b >> k);
+    tmp_post_2 = p;
     p = p + 1l;
-    *tmp_post$2=htonl(transmit$$1$$2$$w);
+    *tmp_post_2=htonl(transmit__1__2__w);
   }
 
   b = b << 32 | (unsigned long int)(s->block_crc ^ 0xFFFFFFFF);
   k = k + (unsigned int)32;
-  unsigned int *tmp_post$3;
+  unsigned int *tmp_post_3;
   if(k >= 32u)
   {
-    unsigned int transmit$$1$$3$$w;
+    unsigned int transmit__1__3__w;
     k = k - (unsigned int)32;
-    transmit$$1$$3$$w = (unsigned int)(b >> k);
-    tmp_post$3 = p;
+    transmit__1__3__w = (unsigned int)(b >> k);
+    tmp_post_3 = p;
     p = p + 1l;
-    *tmp_post$3=htonl(transmit$$1$$3$$w);
+    *tmp_post_3=htonl(transmit__1__3__w);
   }
 
   b = b << 1 | (unsigned long int)0;
   k = k + (unsigned int)1;
-  unsigned int *tmp_post$4;
+  unsigned int *tmp_post_4;
   if(k >= 32u)
   {
-    unsigned int transmit$$1$$4$$w;
+    unsigned int transmit__1__4__w;
     k = k - (unsigned int)32;
-    transmit$$1$$4$$w = (unsigned int)(b >> k);
-    tmp_post$4 = p;
+    transmit__1__4__w = (unsigned int)(b >> k);
+    tmp_post_4 = p;
     p = p + 1l;
-    *tmp_post$4=htonl(transmit$$1$$4$$w);
+    *tmp_post_4=htonl(transmit__1__4__w);
   }
 
   b = b << 24 | (unsigned long int)s->bwt_idx;
   k = k + (unsigned int)24;
-  unsigned int *tmp_post$5;
+  unsigned int *tmp_post_5;
   if(k >= 32u)
   {
-    unsigned int transmit$$1$$5$$w;
+    unsigned int transmit__1__5__w;
     k = k - (unsigned int)32;
-    transmit$$1$$5$$w = (unsigned int)(b >> k);
-    tmp_post$5 = p;
+    transmit__1__5__w = (unsigned int)(b >> k);
+    tmp_post_5 = p;
     p = p + 1l;
-    *tmp_post$5=htonl(transmit$$1$$5$$w);
+    *tmp_post_5=htonl(transmit__1__5__w);
   }
 
   unsigned int pack[16l];
@@ -15029,19 +15029,19 @@ void transmit(struct encoder_state *s, void *buf)
   }
   b = b << 16 | (unsigned long int)big;
   k = k + (unsigned int)16;
-  unsigned int *tmp_post$6;
+  unsigned int *tmp_post_6;
   if(k >= 32u)
   {
-    unsigned int transmit$$1$$6$$2$$w;
+    unsigned int transmit__1__6__2__w;
     k = k - (unsigned int)32;
-    transmit$$1$$6$$2$$w = (unsigned int)(b >> k);
-    tmp_post$6 = p;
+    transmit__1__6__2__w = (unsigned int)(b >> k);
+    tmp_post_6 = p;
     p = p + 1l;
-    *tmp_post$6=htonl(transmit$$1$$6$$2$$w);
+    *tmp_post_6=htonl(transmit__1__6__2__w);
   }
 
   i = (unsigned int)0;
-  unsigned int *tmp_post$7;
+  unsigned int *tmp_post_7;
   for( ; !(i >= 16u); i = i + 1u)
     if(!(pack[(signed long int)i] == 0u))
     {
@@ -15049,75 +15049,75 @@ void transmit(struct encoder_state *s, void *buf)
       k = k + (unsigned int)16;
       if(k >= 32u)
       {
-        unsigned int transmit$$1$$6$$3$$1$$1$$w;
+        unsigned int transmit__1__6__3__1__1__w;
         k = k - (unsigned int)32;
-        transmit$$1$$6$$3$$1$$1$$w = (unsigned int)(b >> k);
-        tmp_post$7 = p;
+        transmit__1__6__3__1__1__w = (unsigned int)(b >> k);
+        tmp_post_7 = p;
         p = p + 1l;
-        *tmp_post$7=htonl(transmit$$1$$6$$3$$1$$1$$w);
+        *tmp_post_7=htonl(transmit__1__6__3__1__1__w);
       }
 
     }
 
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_8;
   if(s->num_trees >= 2u)
-    tmp_if_expr$8 = s->num_trees <= (unsigned int)6 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_8 = s->num_trees <= (unsigned int)6 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$8 = (_Bool)0;
+    tmp_if_expr_8 = (_Bool)0;
   /* assertion s->num_trees >= 2 && s->num_trees <= 6 */
-  assert(tmp_if_expr$8);
+  assert(tmp_if_expr_8);
   b = b << 3 | (unsigned long int)s->num_trees;
   k = k + (unsigned int)3;
-  unsigned int *tmp_post$9;
+  unsigned int *tmp_post_9;
   if(k >= 32u)
   {
-    unsigned int transmit$$1$$7$$w;
+    unsigned int transmit__1__7__w;
     k = k - (unsigned int)32;
-    transmit$$1$$7$$w = (unsigned int)(b >> k);
-    tmp_post$9 = p;
+    transmit__1__7__w = (unsigned int)(b >> k);
+    tmp_post_9 = p;
     p = p + 1l;
-    *tmp_post$9=htonl(transmit$$1$$7$$w);
+    *tmp_post_9=htonl(transmit__1__7__w);
   }
 
   ns = s->num_selectors;
   b = b << 15 | (unsigned long int)ns;
   k = k + (unsigned int)15;
-  unsigned int *tmp_post$10;
+  unsigned int *tmp_post_10;
   if(k >= 32u)
   {
-    unsigned int transmit$$1$$8$$w;
+    unsigned int transmit__1__8__w;
     k = k - (unsigned int)32;
-    transmit$$1$$8$$w = (unsigned int)(b >> k);
-    tmp_post$10 = p;
+    transmit__1__8__w = (unsigned int)(b >> k);
+    tmp_post_10 = p;
     p = p + 1l;
-    *tmp_post$10=htonl(transmit$$1$$8$$w);
+    *tmp_post_10=htonl(transmit__1__8__w);
   }
 
   sp = s->selectorMTF;
-  unsigned int tmp_post$11;
-  unsigned char *tmp_post$12;
-  unsigned int *tmp_post$13;
+  unsigned int tmp_post_11;
+  unsigned char *tmp_post_12;
+  unsigned int *tmp_post_13;
   do
   {
-    tmp_post$11 = ns;
+    tmp_post_11 = ns;
     ns = ns - 1u;
-    if(tmp_post$11 == 0u)
+    if(tmp_post_11 == 0u)
       break;
 
-    tmp_post$12 = sp;
+    tmp_post_12 = sp;
     sp = sp + 1l;
-    v = (unsigned int)(1 + (signed int)*tmp_post$12);
+    v = (unsigned int)(1 + (signed int)*tmp_post_12);
     b = b << v | (unsigned long int)((1 << v) - 2);
     k = k + v;
     if(k >= 32u)
     {
-      unsigned int transmit$$1$$9$$1$$w;
+      unsigned int transmit__1__9__1__w;
       k = k - (unsigned int)32;
-      transmit$$1$$9$$1$$w = (unsigned int)(b >> k);
-      tmp_post$13 = p;
+      transmit__1__9__1__w = (unsigned int)(b >> k);
+      tmp_post_13 = p;
       p = p + 1l;
-      *tmp_post$13=htonl(transmit$$1$$9$$1$$w);
+      *tmp_post_13=htonl(transmit__1__9__1__w);
     }
 
   }
@@ -15126,10 +15126,10 @@ void transmit(struct encoder_state *s, void *buf)
   as = (unsigned int)((signed int)mtfv[(signed long int)(s->nmtf - (unsigned int)1)] + 1);
   ns = ((s->nmtf + (unsigned int)50) - (unsigned int)1) / (unsigned int)50;
   t = (unsigned int)0;
-  unsigned int *tmp_post$14;
-  unsigned int *tmp_post$15;
-  unsigned int *tmp_post$16;
-  unsigned int *tmp_post$17;
+  unsigned int *tmp_post_14;
+  unsigned int *tmp_post_15;
+  unsigned int *tmp_post_16;
+  unsigned int *tmp_post_17;
   for( ; !(t >= s->num_trees); t = t + 1u)
   {
     signed int a;
@@ -15140,12 +15140,12 @@ void transmit(struct encoder_state *s, void *buf)
     k = k + (unsigned int)6;
     if(k >= 32u)
     {
-      unsigned int transmit$$1$$10$$1$$1$$w;
+      unsigned int transmit__1__10__1__1__w;
       k = k - (unsigned int)32;
-      transmit$$1$$10$$1$$1$$w = (unsigned int)(b >> k);
-      tmp_post$14 = p;
+      transmit__1__10__1__1__w = (unsigned int)(b >> k);
+      tmp_post_14 = p;
       p = p + 1l;
-      *tmp_post$14=htonl(transmit$$1$$10$$1$$1$$w);
+      *tmp_post_14=htonl(transmit__1__10__1__1__w);
     }
 
     v = (unsigned int)1;
@@ -15158,12 +15158,12 @@ void transmit(struct encoder_state *s, void *buf)
         k = k + (unsigned int)2;
         if(k >= 32u)
         {
-          unsigned int transmit$$1$$10$$1$$2$$1$$1$$1$$w;
+          unsigned int transmit__1__10__1__2__1__1__1__w;
           k = k - (unsigned int)32;
-          transmit$$1$$10$$1$$2$$1$$1$$1$$w = (unsigned int)(b >> k);
-          tmp_post$15 = p;
+          transmit__1__10__1__2__1__1__1__w = (unsigned int)(b >> k);
+          tmp_post_15 = p;
           p = p + 1l;
-          *tmp_post$15=htonl(transmit$$1$$10$$1$$2$$1$$1$$1$$w);
+          *tmp_post_15=htonl(transmit__1__10__1__2__1__1__1__w);
         }
 
       }
@@ -15173,12 +15173,12 @@ void transmit(struct encoder_state *s, void *buf)
         k = k + (unsigned int)2;
         if(k >= 32u)
         {
-          unsigned int transmit$$1$$10$$1$$2$$1$$2$$1$$w;
+          unsigned int transmit__1__10__1__2__1__2__1__w;
           k = k - (unsigned int)32;
-          transmit$$1$$10$$1$$2$$1$$2$$1$$w = (unsigned int)(b >> k);
-          tmp_post$16 = p;
+          transmit__1__10__1__2__1__2__1__w = (unsigned int)(b >> k);
+          tmp_post_16 = p;
           p = p + 1l;
-          *tmp_post$16=htonl(transmit$$1$$10$$1$$2$$1$$2$$1$$w);
+          *tmp_post_16=htonl(transmit__1__10__1__2__1__2__1__w);
         }
 
       }
@@ -15186,44 +15186,44 @@ void transmit(struct encoder_state *s, void *buf)
       k = k + (unsigned int)1;
       if(k >= 32u)
       {
-        unsigned int transmit$$1$$10$$1$$2$$1$$3$$w;
+        unsigned int transmit__1__10__1__2__1__3__w;
         k = k - (unsigned int)32;
-        transmit$$1$$10$$1$$2$$1$$3$$w = (unsigned int)(b >> k);
-        tmp_post$17 = p;
+        transmit__1__10__1__2__1__3__w = (unsigned int)(b >> k);
+        tmp_post_17 = p;
         p = p + 1l;
-        *tmp_post$17=htonl(transmit$$1$$10$$1$$2$$1$$3$$w);
+        *tmp_post_17=htonl(transmit__1__10__1__2__1__3__w);
       }
 
     }
   }
   gr = (unsigned int)0;
-  unsigned short int *tmp_post$18;
-  unsigned int *tmp_post$19;
+  unsigned short int *tmp_post_18;
+  unsigned int *tmp_post_19;
   for( ; !(gr >= ns); gr = gr + 1u)
   {
-    unsigned int transmit$$1$$11$$1$$i;
-    const unsigned int *transmit$$1$$11$$1$$L;
+    unsigned int transmit__1__11__1__i;
+    const unsigned int *transmit__1__11__1__L;
     const unsigned char *B;
     unsigned int mv;
     t = (unsigned int)s->selector[(signed long int)gr];
-    transmit$$1$$11$$1$$L = s->code[(signed long int)t];
+    transmit__1__11__1__L = s->code[(signed long int)t];
     B = s->length[(signed long int)t];
-    transmit$$1$$11$$1$$i = (unsigned int)0;
-    for( ; !(transmit$$1$$11$$1$$i >= 50u); transmit$$1$$11$$1$$i = transmit$$1$$11$$1$$i + 1u)
+    transmit__1__11__1__i = (unsigned int)0;
+    for( ; !(transmit__1__11__1__i >= 50u); transmit__1__11__1__i = transmit__1__11__1__i + 1u)
     {
-      tmp_post$18 = mtfv;
+      tmp_post_18 = mtfv;
       mtfv = mtfv + 1l;
-      mv = (unsigned int)*tmp_post$18;
-      b = b << (signed int)B[(signed long int)mv] | (unsigned long int)transmit$$1$$11$$1$$L[(signed long int)mv];
+      mv = (unsigned int)*tmp_post_18;
+      b = b << (signed int)B[(signed long int)mv] | (unsigned long int)transmit__1__11__1__L[(signed long int)mv];
       k = k + (unsigned int)B[(signed long int)mv];
       if(k >= 32u)
       {
-        unsigned int transmit$$1$$11$$1$$1$$1$$1$$w;
+        unsigned int transmit__1__11__1__1__1__1__w;
         k = k - (unsigned int)32;
-        transmit$$1$$11$$1$$1$$1$$1$$w = (unsigned int)(b >> k);
-        tmp_post$19 = p;
+        transmit__1__11__1__1__1__1__w = (unsigned int)(b >> k);
+        tmp_post_19 = p;
         p = p + 1l;
-        *tmp_post$19=htonl(transmit$$1$$11$$1$$1$$1$$1$$w);
+        *tmp_post_19=htonl(transmit__1__11__1__1__1__1__w);
       }
 
     }
@@ -15236,15 +15236,15 @@ void transmit(struct encoder_state *s, void *buf)
   assert(p == (unsigned int *)buf + (signed long int)(s->out_expect_len / (unsigned int)4));
   b = b << 31 | (unsigned long int)0;
   k = k + (unsigned int)31;
-  unsigned int *tmp_post$20;
+  unsigned int *tmp_post_20;
   if(k >= 32u)
   {
-    unsigned int transmit$$1$$12$$w;
+    unsigned int transmit__1__12__w;
     k = k - (unsigned int)32;
-    transmit$$1$$12$$w = (unsigned int)(b >> k);
-    tmp_post$20 = p;
+    transmit__1__12__w = (unsigned int)(b >> k);
+    tmp_post_20 = p;
     p = p + 1l;
-    *tmp_post$20=htonl(transmit$$1$$12$$w);
+    *tmp_post_20=htonl(transmit__1__12__w);
   }
 
   free((void *)s->selector);
@@ -15299,12 +15299,12 @@ static void trsort(signed int *ISA, signed int *SA, signed int n, signed int dep
   signed int t;
   signed int skip;
   signed int unsorted;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(-n >= *SA))
   {
-    signed long int return_value_tr_ilg$1;
-    return_value_tr_ilg$1=tr_ilg(n);
-    trbudget_init(&budget, (signed int)((return_value_tr_ilg$1 * (signed long int)2) / (signed long int)3), n);
+    signed long int return_value_tr_ilg_1;
+    return_value_tr_ilg_1=tr_ilg(n);
+    trbudget_init(&budget, (signed int)((return_value_tr_ilg_1 * (signed long int)2) / (signed long int)3), n);
     ISAd = ISA + (signed long int)depth;
     do
     {
@@ -15354,11 +15354,11 @@ static void trsort(signed int *ISA, signed int *SA, signed int n, signed int dep
         first[(signed long int)skip] = skip;
 
       if(unsorted == 0)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = -n >= *SA ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = -n >= *SA ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         break;
 
       if((ISAd - ISA) * 2l >= (signed long int)n)
@@ -15405,9 +15405,9 @@ static void uninit(void)
   free((void *)reord_q.root);
 }
 
-// uninit$link1
+// uninit_link1
 // file expand.c line 904
-static void uninit$link1(void)
+static void uninit_link1(void)
 {
   /* assertion parsing_done */
   assert(parsing_done != (_Bool)0);
@@ -15425,8 +15425,8 @@ static void uninit$link1(void)
   assert(!(order_q.size != 0u));
   free((void *)order_q.root);
   /* assertion (!(reord_q).size) */
-  assert(!(reord_q$link1.size != 0u));
-  free((void *)reord_q$link1.root);
+  assert(!(reord_q_link1.size != 0u));
+  free((void *)reord_q_link1.root);
   /* assertion (!(emit_q).size) */
   assert(!(emit_q.size != 0u));
   free((void *)emit_q.root);
@@ -15442,9 +15442,9 @@ static void uninit$link1(void)
 // file process.c line 485
 static void uninit_io(void)
 {
-  signed int return_value_pthread_join$1;
-  return_value_pthread_join$1=pthread_join(source_thread, (void **)(void *)0);
-  if(!(return_value_pthread_join$1 == 0))
+  signed int return_value_pthread_join_1;
+  return_value_pthread_join_1=pthread_join(source_thread, (void **)(void *)0);
+  if(!(return_value_pthread_join_1 == 0))
   {
     abort();
     (_Bool)0;
@@ -15452,9 +15452,9 @@ static void uninit_io(void)
 
   else
     (_Bool)0;
-  signed int return_value_pthread_mutex_lock$2;
-  return_value_pthread_mutex_lock$2=pthread_mutex_lock(&sink_mutex);
-  if(!(return_value_pthread_mutex_lock$2 == 0))
+  signed int return_value_pthread_mutex_lock_2;
+  return_value_pthread_mutex_lock_2=pthread_mutex_lock(&sink_mutex);
+  if(!(return_value_pthread_mutex_lock_2 == 0))
   {
     abort();
     (_Bool)0;
@@ -15463,9 +15463,9 @@ static void uninit_io(void)
   else
     (_Bool)0;
   finish = (_Bool)1;
-  signed int return_value_pthread_cond_signal$3;
-  return_value_pthread_cond_signal$3=pthread_cond_signal(&sink_cond);
-  if(!(return_value_pthread_cond_signal$3 == 0))
+  signed int return_value_pthread_cond_signal_3;
+  return_value_pthread_cond_signal_3=pthread_cond_signal(&sink_cond);
+  if(!(return_value_pthread_cond_signal_3 == 0))
   {
     abort();
     (_Bool)0;
@@ -15473,9 +15473,9 @@ static void uninit_io(void)
 
   else
     (_Bool)0;
-  signed int return_value_pthread_mutex_unlock$4;
-  return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&sink_mutex);
-  if(!(return_value_pthread_mutex_unlock$4 == 0))
+  signed int return_value_pthread_mutex_unlock_4;
+  return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&sink_mutex);
+  if(!(return_value_pthread_mutex_unlock_4 == 0))
   {
     abort();
     (_Bool)0;
@@ -15483,9 +15483,9 @@ static void uninit_io(void)
 
   else
     (_Bool)0;
-  signed int return_value_pthread_join$5;
-  return_value_pthread_join$5=pthread_join(sink_thread, (void **)(void *)0);
-  if(!(return_value_pthread_join$5 == 0))
+  signed int return_value_pthread_join_5;
+  return_value_pthread_join_5=pthread_join(sink_thread, (void **)(void *)0);
+  if(!(return_value_pthread_join_5 == 0))
   {
     abort();
     (_Bool)0;
@@ -15586,21 +15586,21 @@ static _Bool update_timespec(struct stat *statbuf, struct timespec **ts)
 // file main.c line 262
 static void usage(void)
 {
-  signed int return_value_printf$2 = printf("%s%s%s%s%s%s", (const void *)"Usage:\n1. PROG [-n WTHRS] [-k|-c|-t] [-d|-z] [-1 .. -9] [-f] [-v] [-S] {FILE}\n2. PROG -h|-V\n\nRecognized PROG names:\n\n  bunzip2, lbunzip2  : Decompress. Forceable with `-d'.\n  bzcat, lbzcat      : Decompress to stdout. Forceable with `-cd'.\n  <otherwise>        : Compress. Forceable with `-z'.\n\nEnvironment variables:\n\n  LBZIP2, BZIP2,\n  BZIP               : Insert arguments between PROG and the rest of the\n                       command line. Tokens are separated by spaces and tabs;\n                      ", (const void *)" no escaping.\n\nOptions:\n\n  -n WTHRS           : Set the number of (de)compressor threads to WTHRS, where\n                       WTHRS is a positive integer.\n  -k, --keep         : Don't remove FILE operands. Open regular input files\n                       with more than one link.\n  -c, --stdout       : Write output to stdout even with FILE operands. Implies\n                       `-k'. Incompatible with `-t'.\n  -t, --test         : Test decompression; discard output instead of writing it\n                ", (const void *)"       to files or stdout. Implies `-k'. Incompatible with\n                       `-c'.\n  -d, --decompress   : Force decompression over the selection by PROG.\n  -z, --compress     : Force compression over the selection by PROG.\n  -1 .. -9           : Set the compression block size to 100K .. 900K.\n  --fast             : Alias for `-1'.\n  --best             : Alias for `-9'. This is the default.\n  -f, --force        : Open non-regular input files. Open input files with more\n                       than one", (const void *)" link. Try to remove each output file before\n                       opening it. With `-cd' copy files not in bzip2 format.\n  -s, --small        : Reduce memory usage at cost of performance.\n  -u, --sequential   : Perform splitting input blocks sequentially. This may\n                       improve compression ratio and decrease CPU usage, but\n                       will degrade scalability.\n  -v, --verbose      : Log each (de)compression start to stderr. Display\n                       compression ratio an", (const void *)"d space savings. Display progress\n                       information if stderr is connected to a terminal.\n  -S                 : Print condition variable statistics to stderr.\n  -q, --quiet,\n  --repetitive-fast,\n  --repetitive-best,\n  --exponential      : Accepted for compatibility, otherwise ignored.\n  -h, --help         : Print this help to stdout and exit.\n  -L, --license, -V,\n  --version          : Print version information to stdout and exit.\n\nOperands:\n\n  FILE               : Specify files to comp", (const void *)"ress or decompress. If no FILE is\n                       given, work as a filter. FILEs with `.bz2', `.tbz',\n                       `.tbz2' and `.tz2' name suffixes will be skipped when\n                       compressing. When decompressing, `.bz2' suffixes will be\n                       removed in output filenames; `.tbz', `.tbz2' and `.tz2'\n                       suffixes will be replaced by `.tar'; other filenames\n                       will be suffixed with `.out'.\n");
-  signed int *return_value___errno_location$1;
-  if(!(return_value_printf$2 >= 0))
+  signed int return_value_printf_2 = printf("%s%s%s%s%s%s", (const void *)"Usage:\n1. PROG [-n WTHRS] [-k|-c|-t] [-d|-z] [-1 .. -9] [-f] [-v] [-S] {FILE}\n2. PROG -h|-V\n\nRecognized PROG names:\n\n  bunzip2, lbunzip2  : Decompress. Forceable with `-d'.\n  bzcat, lbzcat      : Decompress to stdout. Forceable with `-cd'.\n  <otherwise>        : Compress. Forceable with `-z'.\n\nEnvironment variables:\n\n  LBZIP2, BZIP2,\n  BZIP               : Insert arguments between PROG and the rest of the\n                       command line. Tokens are separated by spaces and tabs;\n                      ", (const void *)" no escaping.\n\nOptions:\n\n  -n WTHRS           : Set the number of (de)compressor threads to WTHRS, where\n                       WTHRS is a positive integer.\n  -k, --keep         : Don't remove FILE operands. Open regular input files\n                       with more than one link.\n  -c, --stdout       : Write output to stdout even with FILE operands. Implies\n                       `-k'. Incompatible with `-t'.\n  -t, --test         : Test decompression; discard output instead of writing it\n                ", (const void *)"       to files or stdout. Implies `-k'. Incompatible with\n                       `-c'.\n  -d, --decompress   : Force decompression over the selection by PROG.\n  -z, --compress     : Force compression over the selection by PROG.\n  -1 .. -9           : Set the compression block size to 100K .. 900K.\n  --fast             : Alias for `-1'.\n  --best             : Alias for `-9'. This is the default.\n  -f, --force        : Open non-regular input files. Open input files with more\n                       than one", (const void *)" link. Try to remove each output file before\n                       opening it. With `-cd' copy files not in bzip2 format.\n  -s, --small        : Reduce memory usage at cost of performance.\n  -u, --sequential   : Perform splitting input blocks sequentially. This may\n                       improve compression ratio and decrease CPU usage, but\n                       will degrade scalability.\n  -v, --verbose      : Log each (de)compression start to stderr. Display\n                       compression ratio an", (const void *)"d space savings. Display progress\n                       information if stderr is connected to a terminal.\n  -S                 : Print condition variable statistics to stderr.\n  -q, --quiet,\n  --repetitive-fast,\n  --repetitive-best,\n  --exponential      : Accepted for compatibility, otherwise ignored.\n  -h, --help         : Print this help to stdout and exit.\n  -L, --license, -V,\n  --version          : Print version information to stdout and exit.\n\nOperands:\n\n  FILE               : Specify files to comp", (const void *)"ress or decompress. If no FILE is\n                       given, work as a filter. FILEs with `.bz2', `.tbz',\n                       `.tbz2' and `.tz2' name suffixes will be skipped when\n                       compressing. When decompressing, `.bz2' suffixes will be\n                       removed in output filenames; `.tbz', `.tbz2' and `.tz2'\n                       suffixes will be replaced by `.tar'; other filenames\n                       will be suffixed with `.out'.\n");
+  signed int *return_value___errno_location_1;
+  if(!(return_value_printf_2 >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    failx(*return_value___errno_location$1, "printf()");
+    return_value___errno_location_1=__errno_location();
+    failx(*return_value___errno_location_1, "printf()");
   }
 
-  signed int return_value_fclose$4;
-  return_value_fclose$4=fclose(stdout);
-  signed int *return_value___errno_location$3;
-  if(!(return_value_fclose$4 == 0))
+  signed int return_value_fclose_4;
+  return_value_fclose_4=fclose(stdout);
+  signed int *return_value___errno_location_3;
+  if(!(return_value_fclose_4 == 0))
   {
-    return_value___errno_location$3=__errno_location();
-    failx(*return_value___errno_location$3, "fclose(stdout)");
+    return_value___errno_location_3=__errno_location();
+    failx(*return_value___errno_location_3, "fclose(stdout)");
   }
 
   _exit(0);
@@ -15610,9 +15610,9 @@ static void usage(void)
 // file utimens.c line 419
 signed int utimens(const char *file, struct timespec *timespec)
 {
-  signed int return_value_fdutimens$1;
-  return_value_fdutimens$1=fdutimens(-1, file, timespec);
-  return return_value_fdutimens$1;
+  signed int return_value_fdutimens_1;
+  return_value_fdutimens_1=fdutimens(-1, file, timespec);
+  return return_value_fdutimens_1;
 }
 
 // validate_timespec
@@ -15623,69 +15623,69 @@ static signed int validate_timespec(struct timespec *timespec)
   signed int utime_omit_count = 0;
   /* assertion timespec */
   assert(timespec != ((struct timespec *)NULL));
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(timespec->tv_nsec == 1073741823l))
-    tmp_if_expr$2 = (timespec + (signed long int)0)->tv_nsec != (1l << 30) - 2l ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = (timespec + (signed long int)0)->tv_nsec != (1l << 30) - 2l ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
   {
     if(timespec->tv_nsec >= 0l)
-      tmp_if_expr$3 = (timespec + (signed long int)0)->tv_nsec < (signed long int)1000000000 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (timespec + (signed long int)0)->tv_nsec < (signed long int)1000000000 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    tmp_if_expr$4 = !tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    tmp_if_expr_4 = !tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$4)
-    tmp_if_expr$8 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)0;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_4)
+    tmp_if_expr_8 = (_Bool)1;
 
   else
   {
     if(!((timespec + 1l)->tv_nsec == 1073741823l))
-      tmp_if_expr$5 = (timespec + (signed long int)1)->tv_nsec != (1l << 30) - 2l ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (timespec + (signed long int)1)->tv_nsec != (1l << 30) - 2l ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
       if((timespec + 1l)->tv_nsec >= 0l)
-        tmp_if_expr$6 = (timespec + (signed long int)1)->tv_nsec < (signed long int)1000000000 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (timespec + (signed long int)1)->tv_nsec < (signed long int)1000000000 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      tmp_if_expr$7 = !tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (_Bool)0;
+      tmp_if_expr_7 = !tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_7 = (_Bool)0;
+    tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$8)
+  if(tmp_if_expr_8)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
-  _Bool tmp_if_expr$9;
+  _Bool tmp_if_expr_9;
   if(timespec->tv_nsec == 1073741823l)
-    tmp_if_expr$9 = (_Bool)1;
+    tmp_if_expr_9 = (_Bool)1;
 
   else
-    tmp_if_expr$9 = (timespec + (signed long int)0)->tv_nsec == (1l << 30) - 2l ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$9)
+    tmp_if_expr_9 = (timespec + (signed long int)0)->tv_nsec == (1l << 30) - 2l ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_9)
   {
     (timespec + (signed long int)0)->tv_sec = (signed long int)0;
     result = 1;
@@ -15694,13 +15694,13 @@ static signed int validate_timespec(struct timespec *timespec)
 
   }
 
-  _Bool tmp_if_expr$10;
+  _Bool tmp_if_expr_10;
   if((timespec + 1l)->tv_nsec == 1073741823l)
-    tmp_if_expr$10 = (_Bool)1;
+    tmp_if_expr_10 = (_Bool)1;
 
   else
-    tmp_if_expr$10 = (timespec + (signed long int)1)->tv_nsec == (1l << 30) - 2l ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$10)
+    tmp_if_expr_10 = (timespec + (signed long int)1)->tv_nsec == (1l << 30) - 2l ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_10)
   {
     (timespec + (signed long int)1)->tv_sec = (signed long int)0;
     result = 1;
@@ -15716,110 +15716,110 @@ static signed int validate_timespec(struct timespec *timespec)
 // file vasnprintf.h line 72
 extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char *format, void **args)
 {
-  struct anonymous$10 d;
-  struct anonymous$1 a;
-  signed int return_value_printf_parse$1;
-  return_value_printf_parse$1=printf_parse(format, &d, &a);
-  void *return_value_malloc$6;
-  void *return_value_realloc$7;
-  unsigned long int tmp_post$8;
-  const char *tmp_post$9;
-  void *return_value_malloc$10;
-  void *return_value_realloc$11;
-  _Bool tmp_if_expr$96;
-  _Bool tmp_if_expr$97;
-  _Bool tmp_if_expr$98;
-  _Bool tmp_if_expr$99;
-  _Bool tmp_if_expr$100;
-  _Bool tmp_if_expr$101;
-  _Bool tmp_if_expr$102;
-  _Bool tmp_if_expr$105;
-  _Bool tmp_if_expr$104;
-  signed int return_value_is_infinite_or_zerol$103;
-  const char *tmp_post$12;
-  const char *tmp_post$13;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$22;
-  char *tmp_post$16;
-  char *tmp_post$17;
-  char *tmp_post$18;
-  char *tmp_post$19;
-  char *tmp_post$20;
-  char *tmp_post$21;
-  unsigned short int tmp_statement_expression$23;
-  char *tmp_post$24;
-  char *tmp_post$25;
-  char *tmp_post$26;
-  _Bool tmp_if_expr$33;
-  char *tmp_post$27;
-  char *tmp_post$28;
-  char *tmp_post$29;
-  char *tmp_post$30;
-  char *tmp_post$31;
-  char *tmp_post$32;
-  _Bool tmp_if_expr$58;
-  char *tmp_post$34;
-  char *tmp_post$35;
-  char *tmp_post$36;
-  _Bool tmp_if_expr$57;
-  char *tmp_post$37;
-  char *tmp_post$38;
-  char *tmp_post$39;
-  char *tmp_post$40;
-  char *tmp_post$41;
-  char *tmp_post$42;
-  char *tmp_post$43;
-  _Bool tmp_if_expr$56;
-  char *tmp_post$44;
-  char *tmp_post$45;
-  char *tmp_post$46;
-  _Bool tmp_if_expr$55;
-  char *tmp_post$47;
-  char *tmp_post$48;
-  char *tmp_post$49;
-  char *tmp_post$50;
-  char *tmp_post$51;
-  char *tmp_post$52;
-  char *tmp_post$53;
-  char *tmp_post$54;
-  char *tmp_post$60;
-  char *tmp_post$61;
-  char *tmp_post$62;
-  void *return_value_malloc$63;
-  void *return_value_realloc$64;
-  char *tmp_post$65;
-  char *tmp_post$66;
-  char *tmp_post$67;
-  char *tmp_post$68;
-  char *tmp_post$69;
-  char *tmp_post$70;
-  char *tmp_post$71;
-  char *tmp_post$72;
-  char *tmp_post$73;
-  const char *tmp_post$74;
-  char *tmp_post$75;
-  const char *tmp_post$76;
-  char *tmp_post$77;
-  char *tmp_post$78;
-  char *tmp_post$79;
-  unsigned int tmp_post$80;
-  unsigned int tmp_post$81;
-  void *return_value_malloc$83;
-  void *return_value_realloc$84;
-  signed int tmp_if_expr$91;
-  _Bool tmp_if_expr$90;
-  void *return_value_malloc$93;
-  void *return_value_realloc$94;
-  void *return_value_malloc$107;
-  void *return_value_realloc$108;
-  if(!(return_value_printf_parse$1 >= 0))
+  struct anonymous_10 d;
+  struct anonymous_1 a;
+  signed int return_value_printf_parse_1;
+  return_value_printf_parse_1=printf_parse(format, &d, &a);
+  void *return_value_malloc_6;
+  void *return_value_realloc_7;
+  unsigned long int tmp_post_8;
+  const char *tmp_post_9;
+  void *return_value_malloc_10;
+  void *return_value_realloc_11;
+  _Bool tmp_if_expr_96;
+  _Bool tmp_if_expr_97;
+  _Bool tmp_if_expr_98;
+  _Bool tmp_if_expr_99;
+  _Bool tmp_if_expr_100;
+  _Bool tmp_if_expr_101;
+  _Bool tmp_if_expr_102;
+  _Bool tmp_if_expr_105;
+  _Bool tmp_if_expr_104;
+  signed int return_value_is_infinite_or_zerol_103;
+  const char *tmp_post_12;
+  const char *tmp_post_13;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_22;
+  char *tmp_post_16;
+  char *tmp_post_17;
+  char *tmp_post_18;
+  char *tmp_post_19;
+  char *tmp_post_20;
+  char *tmp_post_21;
+  unsigned short int tmp_statement_expression_23;
+  char *tmp_post_24;
+  char *tmp_post_25;
+  char *tmp_post_26;
+  _Bool tmp_if_expr_33;
+  char *tmp_post_27;
+  char *tmp_post_28;
+  char *tmp_post_29;
+  char *tmp_post_30;
+  char *tmp_post_31;
+  char *tmp_post_32;
+  _Bool tmp_if_expr_58;
+  char *tmp_post_34;
+  char *tmp_post_35;
+  char *tmp_post_36;
+  _Bool tmp_if_expr_57;
+  char *tmp_post_37;
+  char *tmp_post_38;
+  char *tmp_post_39;
+  char *tmp_post_40;
+  char *tmp_post_41;
+  char *tmp_post_42;
+  char *tmp_post_43;
+  _Bool tmp_if_expr_56;
+  char *tmp_post_44;
+  char *tmp_post_45;
+  char *tmp_post_46;
+  _Bool tmp_if_expr_55;
+  char *tmp_post_47;
+  char *tmp_post_48;
+  char *tmp_post_49;
+  char *tmp_post_50;
+  char *tmp_post_51;
+  char *tmp_post_52;
+  char *tmp_post_53;
+  char *tmp_post_54;
+  char *tmp_post_60;
+  char *tmp_post_61;
+  char *tmp_post_62;
+  void *return_value_malloc_63;
+  void *return_value_realloc_64;
+  char *tmp_post_65;
+  char *tmp_post_66;
+  char *tmp_post_67;
+  char *tmp_post_68;
+  char *tmp_post_69;
+  char *tmp_post_70;
+  char *tmp_post_71;
+  char *tmp_post_72;
+  char *tmp_post_73;
+  const char *tmp_post_74;
+  char *tmp_post_75;
+  const char *tmp_post_76;
+  char *tmp_post_77;
+  char *tmp_post_78;
+  char *tmp_post_79;
+  unsigned int tmp_post_80;
+  unsigned int tmp_post_81;
+  void *return_value_malloc_83;
+  void *return_value_realloc_84;
+  signed int tmp_if_expr_91;
+  _Bool tmp_if_expr_90;
+  void *return_value_malloc_93;
+  void *return_value_realloc_94;
+  void *return_value_malloc_107;
+  void *return_value_realloc_108;
+  if(!(return_value_printf_parse_1 >= 0))
     return (char *)(void *)0;
 
   else
   {
-    signed int return_value_printf_fetchargs$3;
-    return_value_printf_fetchargs$3=printf_fetchargs(args, &a);
-    if(!(return_value_printf_fetchargs$3 >= 0))
+    signed int return_value_printf_fetchargs_3;
+    return_value_printf_fetchargs_3=printf_fetchargs(args, &a);
+    if(!(return_value_printf_fetchargs_3 >= 0))
     {
       if(!(d.dir == d.direct_alloc_dir))
         free((void *)d.dir);
@@ -15827,9 +15827,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
       if(!(a.arg == a.direct_alloc_arg))
         free((void *)a.arg);
 
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2 = 22;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2 = 22;
       return (char *)(void *)0;
     }
 
@@ -15838,16 +15838,16 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
     char *buf_malloced;
     const char *cp;
     unsigned long int i;
-    struct anonymous$3 *dp;
+    struct anonymous_3 *dp;
     char *result;
     unsigned long int allocated;
     unsigned long int length;
     buf_neededlength=xsum4((unsigned long int)7, d.max_width_length, d.max_precision_length, (unsigned long int)6);
     if(!(buf_neededlength >= 4000ul))
     {
-      void *return_value___builtin_alloca$4;
-      return_value___builtin_alloca$4=__builtin_alloca(buf_neededlength * sizeof(char) /*1ul*/ );
-      buf = (char *)return_value___builtin_alloca$4;
+      void *return_value___builtin_alloca_4;
+      return_value___builtin_alloca_4=__builtin_alloca(buf_neededlength * sizeof(char) /*1ul*/ );
+      buf = (char *)return_value___builtin_alloca_4;
       buf_malloced = (char *)(void *)0;
     }
 
@@ -15857,9 +15857,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
       if(buf_memsize == 18446744073709551615UL)
         goto out_of_memory_1;
 
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc(buf_memsize);
-      buf = (char *)return_value_malloc$5;
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc(buf_memsize);
+      buf = (char *)return_value_malloc_5;
       if(buf == ((char *)NULL))
         goto out_of_memory_1;
 
@@ -15884,42 +15884,42 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
     {
       if(!(cp == dp->dir_start))
       {
-        unsigned long int vasnprintf$$1$$2$$5$$1$$1$$n = (unsigned long int)(dp->dir_start - cp);
+        unsigned long int vasnprintf__1__2__5__1__1__n = (unsigned long int)(dp->dir_start - cp);
         unsigned long int augmented_length;
-        augmented_length=xsum(length, vasnprintf$$1$$2$$5$$1$$1$$n);
+        augmented_length=xsum(length, vasnprintf__1__2__5__1__1__n);
         if(!(allocated >= augmented_length))
         {
-          unsigned long int vasnprintf$$1$$2$$5$$1$$1$$1$$memory_size;
-          char *vasnprintf$$1$$2$$5$$1$$1$$1$$memory;
+          unsigned long int vasnprintf__1__2__5__1__1__1__memory_size;
+          char *vasnprintf__1__2__5__1__1__1__memory;
           allocated = allocated > (unsigned long int)0 ? (allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)allocated * (unsigned long int)2 : 18446744073709551615UL) : (unsigned long int)12;
           if(!(allocated >= augmented_length))
             allocated = augmented_length;
 
-          vasnprintf$$1$$2$$5$$1$$1$$1$$memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
-          if(vasnprintf$$1$$2$$5$$1$$1$$1$$memory_size == 18446744073709551615UL)
+          vasnprintf__1__2__5__1__1__1__memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
+          if(vasnprintf__1__2__5__1__1__1__memory_size == 18446744073709551615UL)
             goto out_of_memory;
 
           if(result == ((char *)NULL) || result == resultbuf)
           {
-            return_value_malloc$6=malloc(vasnprintf$$1$$2$$5$$1$$1$$1$$memory_size);
-            vasnprintf$$1$$2$$5$$1$$1$$1$$memory = (char *)return_value_malloc$6;
+            return_value_malloc_6=malloc(vasnprintf__1__2__5__1__1__1__memory_size);
+            vasnprintf__1__2__5__1__1__1__memory = (char *)return_value_malloc_6;
           }
 
           else
           {
-            return_value_realloc$7=realloc((void *)result, vasnprintf$$1$$2$$5$$1$$1$$1$$memory_size);
-            vasnprintf$$1$$2$$5$$1$$1$$1$$memory = (char *)return_value_realloc$7;
+            return_value_realloc_7=realloc((void *)result, vasnprintf__1__2__5__1__1__1__memory_size);
+            vasnprintf__1__2__5__1__1__1__memory = (char *)return_value_realloc_7;
           }
-          if(vasnprintf$$1$$2$$5$$1$$1$$1$$memory == ((char *)NULL))
+          if(vasnprintf__1__2__5__1__1__1__memory == ((char *)NULL))
             goto out_of_memory;
 
           if(result == resultbuf && length >= 1ul)
-            memcpy((void *)vasnprintf$$1$$2$$5$$1$$1$$1$$memory, (const void *)result, length);
+            memcpy((void *)vasnprintf__1__2__5__1__1__1__memory, (const void *)result, length);
 
-          result = vasnprintf$$1$$2$$5$$1$$1$$1$$memory;
+          result = vasnprintf__1__2__5__1__1__1__memory;
         }
 
-        memcpy((void *)(result + (signed long int)length), (const void *)(const char *)cp, vasnprintf$$1$$2$$5$$1$$1$$n);
+        memcpy((void *)(result + (signed long int)length), (const void *)(const char *)cp, vasnprintf__1__2__5__1__1__n);
         length = augmented_length;
       }
 
@@ -15928,45 +15928,45 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
 
       if((signed int)dp->conversion == 37)
       {
-        unsigned long int vasnprintf$$1$$2$$5$$1$$2$$augmented_length;
+        unsigned long int vasnprintf__1__2__5__1__2__augmented_length;
         if(!(dp->arg_index == 18446744073709551615ul))
           abort();
 
-        vasnprintf$$1$$2$$5$$1$$2$$augmented_length=xsum(length, (unsigned long int)1);
-        if(!(allocated >= vasnprintf$$1$$2$$5$$1$$2$$augmented_length))
+        vasnprintf__1__2__5__1__2__augmented_length=xsum(length, (unsigned long int)1);
+        if(!(allocated >= vasnprintf__1__2__5__1__2__augmented_length))
         {
-          unsigned long int vasnprintf$$1$$2$$5$$1$$2$$1$$memory_size;
-          char *vasnprintf$$1$$2$$5$$1$$2$$1$$memory;
+          unsigned long int vasnprintf__1__2__5__1__2__1__memory_size;
+          char *vasnprintf__1__2__5__1__2__1__memory;
           allocated = allocated > (unsigned long int)0 ? (allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)allocated * (unsigned long int)2 : 18446744073709551615UL) : (unsigned long int)12;
-          if(!(allocated >= vasnprintf$$1$$2$$5$$1$$2$$augmented_length))
-            allocated = vasnprintf$$1$$2$$5$$1$$2$$augmented_length;
+          if(!(allocated >= vasnprintf__1__2__5__1__2__augmented_length))
+            allocated = vasnprintf__1__2__5__1__2__augmented_length;
 
-          vasnprintf$$1$$2$$5$$1$$2$$1$$memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
-          if(vasnprintf$$1$$2$$5$$1$$2$$1$$memory_size == 18446744073709551615UL)
+          vasnprintf__1__2__5__1__2__1__memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
+          if(vasnprintf__1__2__5__1__2__1__memory_size == 18446744073709551615UL)
             goto out_of_memory;
 
           if(result == ((char *)NULL) || result == resultbuf)
           {
-            return_value_malloc$10=malloc(vasnprintf$$1$$2$$5$$1$$2$$1$$memory_size);
-            vasnprintf$$1$$2$$5$$1$$2$$1$$memory = (char *)return_value_malloc$10;
+            return_value_malloc_10=malloc(vasnprintf__1__2__5__1__2__1__memory_size);
+            vasnprintf__1__2__5__1__2__1__memory = (char *)return_value_malloc_10;
           }
 
           else
           {
-            return_value_realloc$11=realloc((void *)result, vasnprintf$$1$$2$$5$$1$$2$$1$$memory_size);
-            vasnprintf$$1$$2$$5$$1$$2$$1$$memory = (char *)return_value_realloc$11;
+            return_value_realloc_11=realloc((void *)result, vasnprintf__1__2__5__1__2__1__memory_size);
+            vasnprintf__1__2__5__1__2__1__memory = (char *)return_value_realloc_11;
           }
-          if(vasnprintf$$1$$2$$5$$1$$2$$1$$memory == ((char *)NULL))
+          if(vasnprintf__1__2__5__1__2__1__memory == ((char *)NULL))
             goto out_of_memory;
 
           if(result == resultbuf && length >= 1ul)
-            memcpy((void *)vasnprintf$$1$$2$$5$$1$$2$$1$$memory, (const void *)result, length);
+            memcpy((void *)vasnprintf__1__2__5__1__2__1__memory, (const void *)result, length);
 
-          result = vasnprintf$$1$$2$$5$$1$$2$$1$$memory;
+          result = vasnprintf__1__2__5__1__2__1__memory;
         }
 
         result[(signed long int)length] = (char)37;
-        length = vasnprintf$$1$$2$$5$$1$$2$$augmented_length;
+        length = vasnprintf__1__2__5__1__2__augmented_length;
       }
 
       else
@@ -16009,58 +16009,58 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
         else
         {
           if((signed int)dp->conversion == 102)
-            tmp_if_expr$96 = (_Bool)1;
+            tmp_if_expr_96 = (_Bool)1;
 
           else
-            tmp_if_expr$96 = (signed int)dp->conversion == 70 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$96)
-            tmp_if_expr$97 = (_Bool)1;
+            tmp_if_expr_96 = (signed int)dp->conversion == 70 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_96)
+            tmp_if_expr_97 = (_Bool)1;
 
           else
-            tmp_if_expr$97 = (signed int)dp->conversion == 101 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$97)
-            tmp_if_expr$98 = (_Bool)1;
+            tmp_if_expr_97 = (signed int)dp->conversion == 101 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_97)
+            tmp_if_expr_98 = (_Bool)1;
 
           else
-            tmp_if_expr$98 = (signed int)dp->conversion == 69 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$98)
-            tmp_if_expr$99 = (_Bool)1;
+            tmp_if_expr_98 = (signed int)dp->conversion == 69 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_98)
+            tmp_if_expr_99 = (_Bool)1;
 
           else
-            tmp_if_expr$99 = (signed int)dp->conversion == 103 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$99)
-            tmp_if_expr$100 = (_Bool)1;
+            tmp_if_expr_99 = (signed int)dp->conversion == 103 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_99)
+            tmp_if_expr_100 = (_Bool)1;
 
           else
-            tmp_if_expr$100 = (signed int)dp->conversion == 71 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$100)
-            tmp_if_expr$101 = (_Bool)1;
+            tmp_if_expr_100 = (signed int)dp->conversion == 71 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_100)
+            tmp_if_expr_101 = (_Bool)1;
 
           else
-            tmp_if_expr$101 = (signed int)dp->conversion == 97 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$101)
-            tmp_if_expr$102 = (_Bool)1;
+            tmp_if_expr_101 = (signed int)dp->conversion == 97 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_101)
+            tmp_if_expr_102 = (_Bool)1;
 
           else
-            tmp_if_expr$102 = (signed int)dp->conversion == 65 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$102)
+            tmp_if_expr_102 = (signed int)dp->conversion == 65 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_102)
           {
             if((signed int)(a.arg + (signed long int)dp->arg_index)->type == TYPE_LONGDOUBLE)
             {
-              return_value_is_infinite_or_zerol$103=is_infinite_or_zerol((a.arg + (signed long int)dp->arg_index)->a.a_longdouble);
-              tmp_if_expr$104 = return_value_is_infinite_or_zerol$103 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_is_infinite_or_zerol_103=is_infinite_or_zerol((a.arg + (signed long int)dp->arg_index)->a.a_longdouble);
+              tmp_if_expr_104 = return_value_is_infinite_or_zerol_103 != 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$104 = (_Bool)0;
-            tmp_if_expr$105 = (tmp_if_expr$104 ? (_Bool)1 : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_104 = (_Bool)0;
+            tmp_if_expr_105 = (tmp_if_expr_104 ? (_Bool)1 : (_Bool)0) ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$105 = (_Bool)0;
-          if(tmp_if_expr$105)
+            tmp_if_expr_105 = (_Bool)0;
+          if(tmp_if_expr_105)
           {
-            signed int vasnprintf$$1$$2$$5$$1$$3$$2$$flags = dp->flags;
+            signed int vasnprintf__1__2__5__1__3__2__flags = dp->flags;
             signed int has_width;
             unsigned long int width;
             signed int has_precision;
@@ -16076,31 +16076,31 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
             {
               if(!(dp->width_arg_index == 18446744073709551615ul))
               {
-                signed int vasnprintf$$1$$2$$5$$1$$3$$2$$1$$1$$arg;
+                signed int vasnprintf__1__2__5__1__3__2__1__1__arg;
                 if(!((signed int)(a.arg + (signed long int)dp->width_arg_index)->type == TYPE_INT))
                   abort();
 
-                vasnprintf$$1$$2$$5$$1$$3$$2$$1$$1$$arg = (a.arg + (signed long int)dp->width_arg_index)->a.a_int;
-                if(!(vasnprintf$$1$$2$$5$$1$$3$$2$$1$$1$$arg >= 0))
+                vasnprintf__1__2__5__1__3__2__1__1__arg = (a.arg + (signed long int)dp->width_arg_index)->a.a_int;
+                if(!(vasnprintf__1__2__5__1__3__2__1__1__arg >= 0))
                 {
-                  vasnprintf$$1$$2$$5$$1$$3$$2$$flags = vasnprintf$$1$$2$$5$$1$$3$$2$$flags | 2;
-                  width = (unsigned long int)(unsigned int)-vasnprintf$$1$$2$$5$$1$$3$$2$$1$$1$$arg;
+                  vasnprintf__1__2__5__1__3__2__flags = vasnprintf__1__2__5__1__3__2__flags | 2;
+                  width = (unsigned long int)(unsigned int)-vasnprintf__1__2__5__1__3__2__1__1__arg;
                 }
 
                 else
-                  width = (unsigned long int)vasnprintf$$1$$2$$5$$1$$3$$2$$1$$1$$arg;
+                  width = (unsigned long int)vasnprintf__1__2__5__1__3__2__1__1__arg;
               }
 
               else
               {
-                const char *vasnprintf$$1$$2$$5$$1$$3$$2$$1$$2$$digitp = dp->width_start;
+                const char *vasnprintf__1__2__5__1__3__2__1__2__digitp = dp->width_start;
                 do
                 {
-                  tmp_post$12 = vasnprintf$$1$$2$$5$$1$$3$$2$$1$$2$$digitp;
-                  vasnprintf$$1$$2$$5$$1$$3$$2$$1$$2$$digitp = vasnprintf$$1$$2$$5$$1$$3$$2$$1$$2$$digitp + 1l;
-                  width=xsum(width <= 18446744073709551615UL / (unsigned long int)10 ? (unsigned long int)width * (unsigned long int)10 : 18446744073709551615UL, (unsigned long int)((signed int)*tmp_post$12 - 48));
+                  tmp_post_12 = vasnprintf__1__2__5__1__3__2__1__2__digitp;
+                  vasnprintf__1__2__5__1__3__2__1__2__digitp = vasnprintf__1__2__5__1__3__2__1__2__digitp + 1l;
+                  width=xsum(width <= 18446744073709551615UL / (unsigned long int)10 ? (unsigned long int)width * (unsigned long int)10 : 18446744073709551615UL, (unsigned long int)((signed int)*tmp_post_12 - 48));
                 }
-                while(!(vasnprintf$$1$$2$$5$$1$$3$$2$$1$$2$$digitp == dp->width_end));
+                while(!(vasnprintf__1__2__5__1__3__2__1__2__digitp == dp->width_end));
               }
               has_width = 1;
             }
@@ -16111,14 +16111,14 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
             {
               if(!(dp->precision_arg_index == 18446744073709551615ul))
               {
-                signed int vasnprintf$$1$$2$$5$$1$$3$$2$$2$$1$$arg;
+                signed int vasnprintf__1__2__5__1__3__2__2__1__arg;
                 if(!((signed int)(a.arg + (signed long int)dp->precision_arg_index)->type == TYPE_INT))
                   abort();
 
-                vasnprintf$$1$$2$$5$$1$$3$$2$$2$$1$$arg = (a.arg + (signed long int)dp->precision_arg_index)->a.a_int;
-                if(vasnprintf$$1$$2$$5$$1$$3$$2$$2$$1$$arg >= 0)
+                vasnprintf__1__2__5__1__3__2__2__1__arg = (a.arg + (signed long int)dp->precision_arg_index)->a.a_int;
+                if(vasnprintf__1__2__5__1__3__2__2__1__arg >= 0)
                 {
-                  precision = (unsigned long int)vasnprintf$$1$$2$$5$$1$$3$$2$$2$$1$$arg;
+                  precision = (unsigned long int)vasnprintf__1__2__5__1__3__2__2__1__arg;
                   has_precision = 1;
                 }
 
@@ -16130,9 +16130,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                 precision = (unsigned long int)0;
                 while(!(digitp == dp->precision_end))
                 {
-                  tmp_post$13 = digitp;
+                  tmp_post_13 = digitp;
                   digitp = digitp + 1l;
-                  precision=xsum(precision <= 18446744073709551615UL / (unsigned long int)10 ? (unsigned long int)precision * (unsigned long int)10 : 18446744073709551615UL, (unsigned long int)((signed int)*tmp_post$13 - 48));
+                  precision=xsum(precision <= 18446744073709551615UL / (unsigned long int)10 ? (unsigned long int)precision * (unsigned long int)10 : 18446744073709551615UL, (unsigned long int)((signed int)*tmp_post_13 - 48));
                 }
                 has_precision = 1;
               }
@@ -16141,11 +16141,11 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
             if(has_precision == 0)
             {
               if((signed int)dp->conversion == 97)
-                tmp_if_expr$14 = (_Bool)1;
+                tmp_if_expr_14 = (_Bool)1;
 
               else
-                tmp_if_expr$14 = (signed int)dp->conversion == 65 ? (_Bool)1 : (_Bool)0;
-              if(!tmp_if_expr$14)
+                tmp_if_expr_14 = (signed int)dp->conversion == 65 ? (_Bool)1 : (_Bool)0;
+              if(!tmp_if_expr_14)
                 precision = (unsigned long int)6;
 
             }
@@ -16168,49 +16168,49 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               if(tmp_memsize == 18446744073709551615UL)
                 goto out_of_memory;
 
-              void *return_value_malloc$15;
-              return_value_malloc$15=malloc(tmp_memsize);
-              tmp = (char *)return_value_malloc$15;
+              void *return_value_malloc_15;
+              return_value_malloc_15=malloc(tmp_memsize);
+              tmp = (char *)return_value_malloc_15;
               if(tmp == ((char *)NULL))
                 goto out_of_memory;
 
             }
             pad_ptr = (char *)(void *)0;
             p = tmp;
-            long double vasnprintf$$1$$2$$5$$1$$3$$2$$4$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_longdouble;
-            signed int return_value_rpl_isnanl$59;
-            return_value_rpl_isnanl$59=rpl_isnanl(vasnprintf$$1$$2$$5$$1$$3$$2$$4$$arg);
-            if(!(return_value_rpl_isnanl$59 == 0))
+            long double vasnprintf__1__2__5__1__3__2__4__arg = (a.arg + (signed long int)dp->arg_index)->a.a_longdouble;
+            signed int return_value_rpl_isnanl_59;
+            return_value_rpl_isnanl_59=rpl_isnanl(vasnprintf__1__2__5__1__3__2__4__arg);
+            if(!(return_value_rpl_isnanl_59 == 0))
             {
               if((signed int)dp->conversion >= 65)
-                tmp_if_expr$22 = (signed int)dp->conversion <= 90 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_22 = (signed int)dp->conversion <= 90 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$22 = (_Bool)0;
-              if(tmp_if_expr$22)
+                tmp_if_expr_22 = (_Bool)0;
+              if(tmp_if_expr_22)
               {
-                tmp_post$16 = p;
+                tmp_post_16 = p;
                 p = p + 1l;
-                *tmp_post$16 = (char)78;
-                tmp_post$17 = p;
+                *tmp_post_16 = (char)78;
+                tmp_post_17 = p;
                 p = p + 1l;
-                *tmp_post$17 = (char)65;
-                tmp_post$18 = p;
+                *tmp_post_17 = (char)65;
+                tmp_post_18 = p;
                 p = p + 1l;
-                *tmp_post$18 = (char)78;
+                *tmp_post_18 = (char)78;
               }
 
               else
               {
-                tmp_post$19 = p;
+                tmp_post_19 = p;
                 p = p + 1l;
-                *tmp_post$19 = (char)110;
-                tmp_post$20 = p;
+                *tmp_post_19 = (char)110;
+                tmp_post_20 = p;
                 p = p + 1l;
-                *tmp_post$20 = (char)97;
-                tmp_post$21 = p;
+                *tmp_post_20 = (char)97;
+                tmp_post_21 = p;
                 p = p + 1l;
-                *tmp_post$21 = (char)110;
+                *tmp_post_21 = (char)110;
               }
             }
 
@@ -16220,99 +16220,99 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               unsigned short int oldcw;
               unsigned short int _cw;
               asm("fnstcw %0" : "=m"(*(&_cw)) :  : );
-              tmp_statement_expression$23 = _cw;
-              oldcw = tmp_statement_expression$23;
+              tmp_statement_expression_23 = _cw;
+              oldcw = tmp_statement_expression_23;
               unsigned short int _ncw = (unsigned short int)((signed int)oldcw & ~0x0300 | 0x300);
               asm("fldcw %0" :  : "m"(*(&_ncw)) : );
-              if(signbit(vasnprintf$$1$$2$$5$$1$$3$$2$$4$$arg))
+              if(signbit(vasnprintf__1__2__5__1__3__2__4__arg))
               {
                 sign = -1;
-                vasnprintf$$1$$2$$5$$1$$3$$2$$4$$arg = -vasnprintf$$1$$2$$5$$1$$3$$2$$4$$arg;
+                vasnprintf__1__2__5__1__3__2__4__arg = -vasnprintf__1__2__5__1__3__2__4__arg;
               }
 
               if(!(sign >= 0))
               {
-                tmp_post$24 = p;
+                tmp_post_24 = p;
                 p = p + 1l;
-                *tmp_post$24 = (char)45;
+                *tmp_post_24 = (char)45;
               }
 
               else
-                if(!((4 & vasnprintf$$1$$2$$5$$1$$3$$2$$flags) == 0))
+                if(!((4 & vasnprintf__1__2__5__1__3__2__flags) == 0))
                 {
-                  tmp_post$25 = p;
+                  tmp_post_25 = p;
                   p = p + 1l;
-                  *tmp_post$25 = (char)43;
+                  *tmp_post_25 = (char)43;
                 }
 
                 else
-                  if(!((8 & vasnprintf$$1$$2$$5$$1$$3$$2$$flags) == 0))
+                  if(!((8 & vasnprintf__1__2__5__1__3__2__flags) == 0))
                   {
-                    tmp_post$26 = p;
+                    tmp_post_26 = p;
                     p = p + 1l;
-                    *tmp_post$26 = (char)32;
+                    *tmp_post_26 = (char)32;
                   }
 
-              if(vasnprintf$$1$$2$$5$$1$$3$$2$$4$$arg > 0.0L && IEEE_FLOAT_EQUAL(vasnprintf$$1$$2$$5$$1$$3$$2$$4$$arg + vasnprintf$$1$$2$$5$$1$$3$$2$$4$$arg, vasnprintf$$1$$2$$5$$1$$3$$2$$4$$arg))
+              if(vasnprintf__1__2__5__1__3__2__4__arg > 0.0L && IEEE_FLOAT_EQUAL(vasnprintf__1__2__5__1__3__2__4__arg + vasnprintf__1__2__5__1__3__2__4__arg, vasnprintf__1__2__5__1__3__2__4__arg))
               {
                 if((signed int)dp->conversion >= 65)
-                  tmp_if_expr$33 = (signed int)dp->conversion <= 90 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_33 = (signed int)dp->conversion <= 90 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$33 = (_Bool)0;
-                if(tmp_if_expr$33)
+                  tmp_if_expr_33 = (_Bool)0;
+                if(tmp_if_expr_33)
                 {
-                  tmp_post$27 = p;
+                  tmp_post_27 = p;
                   p = p + 1l;
-                  *tmp_post$27 = (char)73;
-                  tmp_post$28 = p;
+                  *tmp_post_27 = (char)73;
+                  tmp_post_28 = p;
                   p = p + 1l;
-                  *tmp_post$28 = (char)78;
-                  tmp_post$29 = p;
+                  *tmp_post_28 = (char)78;
+                  tmp_post_29 = p;
                   p = p + 1l;
-                  *tmp_post$29 = (char)70;
+                  *tmp_post_29 = (char)70;
                 }
 
                 else
                 {
-                  tmp_post$30 = p;
+                  tmp_post_30 = p;
                   p = p + 1l;
-                  *tmp_post$30 = (char)105;
-                  tmp_post$31 = p;
+                  *tmp_post_30 = (char)105;
+                  tmp_post_31 = p;
                   p = p + 1l;
-                  *tmp_post$31 = (char)110;
-                  tmp_post$32 = p;
+                  *tmp_post_31 = (char)110;
+                  tmp_post_32 = p;
                   p = p + 1l;
-                  *tmp_post$32 = (char)102;
+                  *tmp_post_32 = (char)102;
                 }
               }
 
               else
               {
-                if(!IEEE_FLOAT_EQUAL(vasnprintf$$1$$2$$5$$1$$3$$2$$4$$arg, 0.0L))
+                if(!IEEE_FLOAT_EQUAL(vasnprintf__1__2__5__1__3__2__4__arg, 0.0L))
                   abort();
 
                 pad_ptr = p;
                 if((signed int)dp->conversion == 102)
-                  tmp_if_expr$58 = (_Bool)1;
+                  tmp_if_expr_58 = (_Bool)1;
 
                 else
-                  tmp_if_expr$58 = (signed int)dp->conversion == 70 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$58)
+                  tmp_if_expr_58 = (signed int)dp->conversion == 70 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_58)
                 {
-                  tmp_post$34 = p;
+                  tmp_post_34 = p;
                   p = p + 1l;
-                  *tmp_post$34 = (char)48;
-                  if(precision >= 1ul || !((16 & vasnprintf$$1$$2$$5$$1$$3$$2$$flags) == 0))
+                  *tmp_post_34 = (char)48;
+                  if(precision >= 1ul || !((16 & vasnprintf__1__2__5__1__3__2__flags) == 0))
                   {
-                    tmp_post$35 = p;
+                    tmp_post_35 = p;
                     p = p + 1l;
-                    *tmp_post$35=decimal_point_char();
+                    *tmp_post_35=decimal_point_char();
                     for( ; precision >= 1ul; precision = precision - 1ul)
                     {
-                      tmp_post$36 = p;
+                      tmp_post_36 = p;
                       p = p + 1l;
-                      *tmp_post$36 = (char)48;
+                      *tmp_post_36 = (char)48;
                     }
                   }
 
@@ -16321,65 +16321,65 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                 else
                 {
                   if((signed int)dp->conversion == 101)
-                    tmp_if_expr$57 = (_Bool)1;
+                    tmp_if_expr_57 = (_Bool)1;
 
                   else
-                    tmp_if_expr$57 = (signed int)dp->conversion == 69 ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$57)
+                    tmp_if_expr_57 = (signed int)dp->conversion == 69 ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_57)
                   {
-                    tmp_post$37 = p;
+                    tmp_post_37 = p;
                     p = p + 1l;
-                    *tmp_post$37 = (char)48;
-                    if(precision >= 1ul || !((16 & vasnprintf$$1$$2$$5$$1$$3$$2$$flags) == 0))
+                    *tmp_post_37 = (char)48;
+                    if(precision >= 1ul || !((16 & vasnprintf__1__2__5__1__3__2__flags) == 0))
                     {
-                      tmp_post$38 = p;
+                      tmp_post_38 = p;
                       p = p + 1l;
-                      *tmp_post$38=decimal_point_char();
+                      *tmp_post_38=decimal_point_char();
                       for( ; precision >= 1ul; precision = precision - 1ul)
                       {
-                        tmp_post$39 = p;
+                        tmp_post_39 = p;
                         p = p + 1l;
-                        *tmp_post$39 = (char)48;
+                        *tmp_post_39 = (char)48;
                       }
                     }
 
-                    tmp_post$40 = p;
+                    tmp_post_40 = p;
                     p = p + 1l;
-                    *tmp_post$40 = dp->conversion;
-                    tmp_post$41 = p;
+                    *tmp_post_40 = dp->conversion;
+                    tmp_post_41 = p;
                     p = p + 1l;
-                    *tmp_post$41 = (char)43;
-                    tmp_post$42 = p;
+                    *tmp_post_41 = (char)43;
+                    tmp_post_42 = p;
                     p = p + 1l;
-                    *tmp_post$42 = (char)48;
-                    tmp_post$43 = p;
+                    *tmp_post_42 = (char)48;
+                    tmp_post_43 = p;
                     p = p + 1l;
-                    *tmp_post$43 = (char)48;
+                    *tmp_post_43 = (char)48;
                   }
 
                   else
                   {
                     if((signed int)dp->conversion == 103)
-                      tmp_if_expr$56 = (_Bool)1;
+                      tmp_if_expr_56 = (_Bool)1;
 
                     else
-                      tmp_if_expr$56 = (signed int)dp->conversion == 71 ? (_Bool)1 : (_Bool)0;
-                    if(tmp_if_expr$56)
+                      tmp_if_expr_56 = (signed int)dp->conversion == 71 ? (_Bool)1 : (_Bool)0;
+                    if(tmp_if_expr_56)
                     {
-                      tmp_post$44 = p;
+                      tmp_post_44 = p;
                       p = p + 1l;
-                      *tmp_post$44 = (char)48;
-                      if(!((16 & vasnprintf$$1$$2$$5$$1$$3$$2$$flags) == 0))
+                      *tmp_post_44 = (char)48;
+                      if(!((16 & vasnprintf__1__2__5__1__3__2__flags) == 0))
                       {
                         unsigned long int ndigits = precision > (unsigned long int)0 ? precision - (unsigned long int)1 : (unsigned long int)0;
-                        tmp_post$45 = p;
+                        tmp_post_45 = p;
                         p = p + 1l;
-                        *tmp_post$45=decimal_point_char();
+                        *tmp_post_45=decimal_point_char();
                         for( ; ndigits >= 1ul; ndigits = ndigits - 1ul)
                         {
-                          tmp_post$46 = p;
+                          tmp_post_46 = p;
                           p = p + 1l;
-                          *tmp_post$46 = (char)48;
+                          *tmp_post_46 = (char)48;
                         }
                       }
 
@@ -16388,44 +16388,44 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                     else
                     {
                       if((signed int)dp->conversion == 97)
-                        tmp_if_expr$55 = (_Bool)1;
+                        tmp_if_expr_55 = (_Bool)1;
 
                       else
-                        tmp_if_expr$55 = (signed int)dp->conversion == 65 ? (_Bool)1 : (_Bool)0;
-                      if(tmp_if_expr$55)
+                        tmp_if_expr_55 = (signed int)dp->conversion == 65 ? (_Bool)1 : (_Bool)0;
+                      if(tmp_if_expr_55)
                       {
-                        tmp_post$47 = p;
+                        tmp_post_47 = p;
                         p = p + 1l;
-                        *tmp_post$47 = (char)48;
-                        tmp_post$48 = p;
+                        *tmp_post_47 = (char)48;
+                        tmp_post_48 = p;
                         p = p + 1l;
-                        *tmp_post$48 = (char)(((signed int)dp->conversion - 65) + 88);
+                        *tmp_post_48 = (char)(((signed int)dp->conversion - 65) + 88);
                         pad_ptr = p;
-                        tmp_post$49 = p;
+                        tmp_post_49 = p;
                         p = p + 1l;
-                        *tmp_post$49 = (char)48;
-                        if(precision >= 1ul || !((16 & vasnprintf$$1$$2$$5$$1$$3$$2$$flags) == 0))
+                        *tmp_post_49 = (char)48;
+                        if(precision >= 1ul || !((16 & vasnprintf__1__2__5__1__3__2__flags) == 0))
                         {
-                          tmp_post$50 = p;
+                          tmp_post_50 = p;
                           p = p + 1l;
-                          *tmp_post$50=decimal_point_char();
+                          *tmp_post_50=decimal_point_char();
                           for( ; precision >= 1ul; precision = precision - 1ul)
                           {
-                            tmp_post$51 = p;
+                            tmp_post_51 = p;
                             p = p + 1l;
-                            *tmp_post$51 = (char)48;
+                            *tmp_post_51 = (char)48;
                           }
                         }
 
-                        tmp_post$52 = p;
+                        tmp_post_52 = p;
                         p = p + 1l;
-                        *tmp_post$52 = (char)(((signed int)dp->conversion - 65) + 80);
-                        tmp_post$53 = p;
+                        *tmp_post_52 = (char)(((signed int)dp->conversion - 65) + 80);
+                        tmp_post_53 = p;
                         p = p + 1l;
-                        *tmp_post$53 = (char)43;
-                        tmp_post$54 = p;
+                        *tmp_post_53 = (char)43;
+                        tmp_post_54 = p;
                         p = p + 1l;
-                        *tmp_post$54 = (char)48;
+                        *tmp_post_54 = (char)48;
                       }
 
                       else
@@ -16434,35 +16434,35 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                   }
                 }
               }
-              unsigned short int vasnprintf$$1$$2$$5$$1$$3$$2$$4$$2$$6$$_ncw = oldcw;
-              asm("fldcw %0" :  : "m"(*(&vasnprintf$$1$$2$$5$$1$$3$$2$$4$$2$$6$$_ncw)) : );
+              unsigned short int vasnprintf__1__2__5__1__3__2__4__2__6___ncw = oldcw;
+              asm("fldcw %0" :  : "m"(*(&vasnprintf__1__2__5__1__3__2__4__2__6___ncw)) : );
             }
             if(!(has_width == 0) && !((unsigned long int)(p - tmp) >= width))
             {
               unsigned long int pad = width - (unsigned long int)(p - tmp);
               char *end = p + (signed long int)pad;
-              if(!((2 & vasnprintf$$1$$2$$5$$1$$3$$2$$flags) == 0))
+              if(!((2 & vasnprintf__1__2__5__1__3__2__flags) == 0))
                 for( ; pad >= 1ul; pad = pad - 1ul)
                 {
-                  tmp_post$60 = p;
+                  tmp_post_60 = p;
                   p = p + 1l;
-                  *tmp_post$60 = (char)32;
+                  *tmp_post_60 = (char)32;
                 }
 
               else
-                if(!((32 & vasnprintf$$1$$2$$5$$1$$3$$2$$flags) == 0) && !(pad_ptr == ((char *)NULL)))
+                if(!((32 & vasnprintf__1__2__5__1__3__2__flags) == 0) && !(pad_ptr == ((char *)NULL)))
                 {
-                  char *vasnprintf$$1$$2$$5$$1$$3$$2$$5$$2$$q = end;
-                  for( ; !(pad_ptr >= p); *vasnprintf$$1$$2$$5$$1$$3$$2$$5$$2$$q = *p)
+                  char *vasnprintf__1__2__5__1__3__2__5__2__q = end;
+                  for( ; !(pad_ptr >= p); *vasnprintf__1__2__5__1__3__2__5__2__q = *p)
                   {
-                    vasnprintf$$1$$2$$5$$1$$3$$2$$5$$2$$q = vasnprintf$$1$$2$$5$$1$$3$$2$$5$$2$$q - 1l;
+                    vasnprintf__1__2__5__1__3__2__5__2__q = vasnprintf__1__2__5__1__3__2__5__2__q - 1l;
                     p = p - 1l;
                   }
                   for( ; pad >= 1ul; pad = pad - 1ul)
                   {
-                    tmp_post$61 = p;
+                    tmp_post_61 = p;
                     p = p + 1l;
-                    *tmp_post$61 = (char)48;
+                    *tmp_post_61 = (char)48;
                   }
                 }
 
@@ -16476,9 +16476,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                   }
                   for( ; pad >= 1ul; pad = pad - 1ul)
                   {
-                    tmp_post$62 = p;
+                    tmp_post_62 = p;
                     p = p + 1l;
-                    *tmp_post$62 = (char)32;
+                    *tmp_post_62 = (char)32;
                   }
                 }
               p = end;
@@ -16506,14 +16506,14 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
 
                 if(result == ((char *)NULL) || result == resultbuf)
                 {
-                  return_value_malloc$63=malloc(memory_size);
-                  memory = (char *)return_value_malloc$63;
+                  return_value_malloc_63=malloc(memory_size);
+                  memory = (char *)return_value_malloc_63;
                 }
 
                 else
                 {
-                  return_value_realloc$64=realloc((void *)result, memory_size);
-                  memory = (char *)return_value_realloc$64;
+                  return_value_realloc_64=realloc((void *)result, memory_size);
+                  memory = (char *)return_value_realloc_64;
                 }
                 if(memory == ((char *)NULL))
                   goto out_of_memory;
@@ -16535,77 +16535,77 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
 
           else
           {
-            enum anonymous$12 type = (a.arg + (signed long int)dp->arg_index)->type;
+            enum anonymous_12 type = (a.arg + (signed long int)dp->arg_index)->type;
             signed int flags = dp->flags;
             char *fbp;
             unsigned int prefix_count;
             signed int prefixes[2l];
             signed int orig_errno;
             fbp = buf;
-            tmp_post$65 = fbp;
+            tmp_post_65 = fbp;
             fbp = fbp + 1l;
-            *tmp_post$65 = (char)37;
+            *tmp_post_65 = (char)37;
             if(!((1 & flags) == 0))
             {
-              tmp_post$66 = fbp;
+              tmp_post_66 = fbp;
               fbp = fbp + 1l;
-              *tmp_post$66 = (char)39;
+              *tmp_post_66 = (char)39;
             }
 
             if(!((2 & flags) == 0))
             {
-              tmp_post$67 = fbp;
+              tmp_post_67 = fbp;
               fbp = fbp + 1l;
-              *tmp_post$67 = (char)45;
+              *tmp_post_67 = (char)45;
             }
 
             if(!((4 & flags) == 0))
             {
-              tmp_post$68 = fbp;
+              tmp_post_68 = fbp;
               fbp = fbp + 1l;
-              *tmp_post$68 = (char)43;
+              *tmp_post_68 = (char)43;
             }
 
             if(!((8 & flags) == 0))
             {
-              tmp_post$69 = fbp;
+              tmp_post_69 = fbp;
               fbp = fbp + 1l;
-              *tmp_post$69 = (char)32;
+              *tmp_post_69 = (char)32;
             }
 
             if(!((16 & flags) == 0))
             {
-              tmp_post$70 = fbp;
+              tmp_post_70 = fbp;
               fbp = fbp + 1l;
-              *tmp_post$70 = (char)35;
+              *tmp_post_70 = (char)35;
             }
 
             if(!((64 & flags) == 0))
             {
-              tmp_post$71 = fbp;
+              tmp_post_71 = fbp;
               fbp = fbp + 1l;
-              *tmp_post$71 = (char)73;
+              *tmp_post_71 = (char)73;
             }
 
             if(!((32 & flags) == 0))
             {
-              tmp_post$72 = fbp;
+              tmp_post_72 = fbp;
               fbp = fbp + 1l;
-              *tmp_post$72 = (char)48;
+              *tmp_post_72 = (char)48;
             }
 
             if(!(dp->width_start == dp->width_end))
             {
-              unsigned long int vasnprintf$$1$$2$$5$$1$$3$$3$$1$$1$$n = (unsigned long int)(dp->width_end - dp->width_start);
-              memcpy((void *)fbp, (const void *)dp->width_start, vasnprintf$$1$$2$$5$$1$$3$$3$$1$$1$$n * sizeof(char) /*1ul*/ );
-              fbp = fbp + (signed long int)vasnprintf$$1$$2$$5$$1$$3$$3$$1$$1$$n;
+              unsigned long int vasnprintf__1__2__5__1__3__3__1__1__n = (unsigned long int)(dp->width_end - dp->width_start);
+              memcpy((void *)fbp, (const void *)dp->width_start, vasnprintf__1__2__5__1__3__3__1__1__n * sizeof(char) /*1ul*/ );
+              fbp = fbp + (signed long int)vasnprintf__1__2__5__1__3__3__1__1__n;
             }
 
             if(!(dp->precision_start == dp->precision_end))
             {
-              unsigned long int vasnprintf$$1$$2$$5$$1$$3$$3$$2$$1$$n = (unsigned long int)(dp->precision_end - dp->precision_start);
-              memcpy((void *)fbp, (const void *)dp->precision_start, vasnprintf$$1$$2$$5$$1$$3$$3$$2$$1$$n * sizeof(char) /*1ul*/ );
-              fbp = fbp + (signed long int)vasnprintf$$1$$2$$5$$1$$3$$3$$2$$1$$n;
+              unsigned long int vasnprintf__1__2__5__1__3__3__2__1__n = (unsigned long int)(dp->precision_end - dp->precision_start);
+              memcpy((void *)fbp, (const void *)dp->precision_start, vasnprintf__1__2__5__1__3__3__2__1__n * sizeof(char) /*1ul*/ );
+              fbp = fbp + (signed long int)vasnprintf__1__2__5__1__3__3__2__1__n;
             }
 
             switch((signed int)type)
@@ -16614,9 +16614,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
 
               case TYPE_ULONGLONGINT:
               {
-                tmp_post$77 = fbp;
+                tmp_post_77 = fbp;
                 fbp = fbp + 1l;
-                *tmp_post$77 = (char)108;
+                *tmp_post_77 = (char)108;
               }
               case TYPE_LONGINT:
 
@@ -16626,16 +16626,16 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
 
               case TYPE_WIDE_STRING:
               {
-                tmp_post$78 = fbp;
+                tmp_post_78 = fbp;
                 fbp = fbp + 1l;
-                *tmp_post$78 = (char)108;
+                *tmp_post_78 = (char)108;
                 break;
               }
               case TYPE_LONGDOUBLE:
               {
-                tmp_post$79 = fbp;
+                tmp_post_79 = fbp;
                 fbp = fbp + 1l;
-                *tmp_post$79 = (char)76;
+                *tmp_post_79 = (char)76;
               }
             }
             *fbp = dp->conversion;
@@ -16646,9 +16646,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               if(!((signed int)(a.arg + (signed long int)dp->width_arg_index)->type == TYPE_INT))
                 abort();
 
-              tmp_post$80 = prefix_count;
+              tmp_post_80 = prefix_count;
               prefix_count = prefix_count + 1u;
-              prefixes[(signed long int)tmp_post$80] = (a.arg + (signed long int)dp->width_arg_index)->a.a_int;
+              prefixes[(signed long int)tmp_post_80] = (a.arg + (signed long int)dp->width_arg_index)->a.a_int;
             }
 
             if(!(dp->precision_arg_index == 18446744073709551615ul))
@@ -16656,83 +16656,83 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
               if(!((signed int)(a.arg + (signed long int)dp->precision_arg_index)->type == TYPE_INT))
                 abort();
 
-              tmp_post$81 = prefix_count;
+              tmp_post_81 = prefix_count;
               prefix_count = prefix_count + 1u;
-              prefixes[(signed long int)tmp_post$81] = (a.arg + (signed long int)dp->precision_arg_index)->a.a_int;
+              prefixes[(signed long int)tmp_post_81] = (a.arg + (signed long int)dp->precision_arg_index)->a.a_int;
             }
 
-            unsigned long int return_value_xsum$85;
-            return_value_xsum$85=xsum(length, (((unsigned long int)2 + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
-            if(!(allocated >= return_value_xsum$85))
+            unsigned long int return_value_xsum_85;
+            return_value_xsum_85=xsum(length, (((unsigned long int)2 + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
+            if(!(allocated >= return_value_xsum_85))
             {
-              unsigned long int vasnprintf$$1$$2$$5$$1$$3$$3$$6$$memory_size;
-              char *vasnprintf$$1$$2$$5$$1$$3$$3$$6$$memory;
+              unsigned long int vasnprintf__1__2__5__1__3__3__6__memory_size;
+              char *vasnprintf__1__2__5__1__3__3__6__memory;
               allocated = allocated > (unsigned long int)0 ? (allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)allocated * (unsigned long int)2 : 18446744073709551615UL) : (unsigned long int)12;
-              unsigned long int return_value_xsum$82;
-              return_value_xsum$82=xsum(length, (((unsigned long int)2 + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
-              if(!(allocated >= return_value_xsum$82))
+              unsigned long int return_value_xsum_82;
+              return_value_xsum_82=xsum(length, (((unsigned long int)2 + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
+              if(!(allocated >= return_value_xsum_82))
                 allocated=xsum(length, (((unsigned long int)2 + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
 
-              vasnprintf$$1$$2$$5$$1$$3$$3$$6$$memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
-              if(vasnprintf$$1$$2$$5$$1$$3$$3$$6$$memory_size == 18446744073709551615UL)
+              vasnprintf__1__2__5__1__3__3__6__memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
+              if(vasnprintf__1__2__5__1__3__3__6__memory_size == 18446744073709551615UL)
                 goto out_of_memory;
 
               if(result == ((char *)NULL) || result == resultbuf)
               {
-                return_value_malloc$83=malloc(vasnprintf$$1$$2$$5$$1$$3$$3$$6$$memory_size);
-                vasnprintf$$1$$2$$5$$1$$3$$3$$6$$memory = (char *)return_value_malloc$83;
+                return_value_malloc_83=malloc(vasnprintf__1__2__5__1__3__3__6__memory_size);
+                vasnprintf__1__2__5__1__3__3__6__memory = (char *)return_value_malloc_83;
               }
 
               else
               {
-                return_value_realloc$84=realloc((void *)result, vasnprintf$$1$$2$$5$$1$$3$$3$$6$$memory_size);
-                vasnprintf$$1$$2$$5$$1$$3$$3$$6$$memory = (char *)return_value_realloc$84;
+                return_value_realloc_84=realloc((void *)result, vasnprintf__1__2__5__1__3__3__6__memory_size);
+                vasnprintf__1__2__5__1__3__3__6__memory = (char *)return_value_realloc_84;
               }
-              if(vasnprintf$$1$$2$$5$$1$$3$$3$$6$$memory == ((char *)NULL))
+              if(vasnprintf__1__2__5__1__3__3__6__memory == ((char *)NULL))
                 goto out_of_memory;
 
               if(result == resultbuf && length >= 1ul)
-                memcpy((void *)vasnprintf$$1$$2$$5$$1$$3$$3$$6$$memory, (const void *)result, length);
+                memcpy((void *)vasnprintf__1__2__5__1__3__3__6__memory, (const void *)result, length);
 
-              result = vasnprintf$$1$$2$$5$$1$$3$$3$$6$$memory;
+              result = vasnprintf__1__2__5__1__3__3__6__memory;
             }
 
             *((char *)(result + (signed long int)length)) = (char)0;
-            signed int *return_value___errno_location$86;
-            return_value___errno_location$86=__errno_location();
-            orig_errno = *return_value___errno_location$86;
+            signed int *return_value___errno_location_86;
+            return_value___errno_location_86=__errno_location();
+            orig_errno = *return_value___errno_location_86;
             do
             {
-              signed int vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count = -1;
+              signed int vasnprintf__1__2__5__1__3__3__7__1__count = -1;
               signed int retcount = 0;
               unsigned long int maxlen = allocated - length;
               if(maxlen >= 2147483648ul)
                 maxlen = (unsigned long int)0x7fffffff / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ );
 
               maxlen = maxlen * (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ );
-              signed int *return_value___errno_location$87;
-              return_value___errno_location$87=__errno_location();
-              *return_value___errno_location$87 = 0;
+              signed int *return_value___errno_location_87;
+              return_value___errno_location_87=__errno_location();
+              *return_value___errno_location_87 = 0;
               switch((signed int)type)
               {
                 case TYPE_SCHAR:
                 {
-                  signed int vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$1$$arg = (signed int)(a.arg + (signed long int)dp->arg_index)->a.a_schar;
+                  signed int vasnprintf__1__2__5__1__3__3__7__1__1__1__arg = (signed int)(a.arg + (signed long int)dp->arg_index)->a.a_schar;
                   switch(prefix_count)
                   {
                     case (unsigned int)0:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$1$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__3__7__1__1__1__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)1:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$1$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__3__7__1__1__1__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)2:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$1$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__3__7__1__1__1__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     default:
@@ -16742,22 +16742,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                 }
                 case TYPE_UCHAR:
                 {
-                  unsigned int vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$2$$arg = (unsigned int)(a.arg + (signed long int)dp->arg_index)->a.a_uchar;
+                  unsigned int vasnprintf__1__2__5__1__3__3__7__1__1__2__arg = (unsigned int)(a.arg + (signed long int)dp->arg_index)->a.a_uchar;
                   switch(prefix_count)
                   {
                     case (unsigned int)0:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$2$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__3__7__1__1__2__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)1:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$2$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__3__7__1__1__2__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)2:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$2$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__3__7__1__1__2__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     default:
@@ -16767,22 +16767,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                 }
                 case TYPE_SHORT:
                 {
-                  signed int vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$3$$arg = (signed int)(a.arg + (signed long int)dp->arg_index)->a.a_short;
+                  signed int vasnprintf__1__2__5__1__3__3__7__1__1__3__arg = (signed int)(a.arg + (signed long int)dp->arg_index)->a.a_short;
                   switch(prefix_count)
                   {
                     case (unsigned int)0:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$3$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__3__7__1__1__3__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)1:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$3$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__3__7__1__1__3__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)2:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$3$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__3__7__1__1__3__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     default:
@@ -16792,22 +16792,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                 }
                 case TYPE_USHORT:
                 {
-                  unsigned int vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$4$$arg = (unsigned int)(a.arg + (signed long int)dp->arg_index)->a.a_ushort;
+                  unsigned int vasnprintf__1__2__5__1__3__3__7__1__1__4__arg = (unsigned int)(a.arg + (signed long int)dp->arg_index)->a.a_ushort;
                   switch(prefix_count)
                   {
                     case (unsigned int)0:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$4$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__3__7__1__1__4__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)1:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$4$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__3__7__1__1__4__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)2:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$4$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__3__7__1__1__4__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     default:
@@ -16817,22 +16817,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                 }
                 case TYPE_INT:
                 {
-                  signed int vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$5$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_int;
+                  signed int vasnprintf__1__2__5__1__3__3__7__1__1__5__arg = (a.arg + (signed long int)dp->arg_index)->a.a_int;
                   switch(prefix_count)
                   {
                     case (unsigned int)0:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$5$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__3__7__1__1__5__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)1:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$5$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__3__7__1__1__5__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)2:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$5$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__3__7__1__1__5__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     default:
@@ -16847,17 +16847,17 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                   {
                     case (unsigned int)0:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)1:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)2:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     default:
@@ -16867,22 +16867,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                 }
                 case TYPE_LONGINT:
                 {
-                  signed long int vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$7$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_longint;
+                  signed long int vasnprintf__1__2__5__1__3__3__7__1__1__7__arg = (a.arg + (signed long int)dp->arg_index)->a.a_longint;
                   switch(prefix_count)
                   {
                     case (unsigned int)0:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$7$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__3__7__1__1__7__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)1:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$7$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__3__7__1__1__7__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)2:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$7$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__3__7__1__1__7__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     default:
@@ -16892,22 +16892,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                 }
                 case TYPE_ULONGINT:
                 {
-                  unsigned long int vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$8$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_ulongint;
+                  unsigned long int vasnprintf__1__2__5__1__3__3__7__1__1__8__arg = (a.arg + (signed long int)dp->arg_index)->a.a_ulongint;
                   switch(prefix_count)
                   {
                     case (unsigned int)0:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$8$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__3__7__1__1__8__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)1:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$8$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__3__7__1__1__8__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)2:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$8$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__3__7__1__1__8__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     default:
@@ -16917,22 +16917,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                 }
                 case TYPE_LONGLONGINT:
                 {
-                  signed long long int vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$9$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_longlongint;
+                  signed long long int vasnprintf__1__2__5__1__3__3__7__1__1__9__arg = (a.arg + (signed long int)dp->arg_index)->a.a_longlongint;
                   switch(prefix_count)
                   {
                     case (unsigned int)0:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$9$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__3__7__1__1__9__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)1:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$9$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__3__7__1__1__9__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)2:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$9$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__3__7__1__1__9__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     default:
@@ -16942,22 +16942,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                 }
                 case TYPE_ULONGLONGINT:
                 {
-                  unsigned long long int vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$10$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_ulonglongint;
+                  unsigned long long int vasnprintf__1__2__5__1__3__3__7__1__1__10__arg = (a.arg + (signed long int)dp->arg_index)->a.a_ulonglongint;
                   switch(prefix_count)
                   {
                     case (unsigned int)0:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$10$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__3__7__1__1__10__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)1:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$10$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__3__7__1__1__10__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)2:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$10$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__3__7__1__1__10__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     default:
@@ -16967,22 +16967,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                 }
                 case TYPE_DOUBLE:
                 {
-                  double vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$11$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_double;
+                  double vasnprintf__1__2__5__1__3__3__7__1__1__11__arg = (a.arg + (signed long int)dp->arg_index)->a.a_double;
                   switch(prefix_count)
                   {
                     case (unsigned int)0:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$11$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__3__7__1__1__11__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)1:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$11$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__3__7__1__1__11__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)2:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$11$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__3__7__1__1__11__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     default:
@@ -16992,22 +16992,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                 }
                 case TYPE_LONGDOUBLE:
                 {
-                  long double vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$12$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_longdouble;
+                  long double vasnprintf__1__2__5__1__3__3__7__1__1__12__arg = (a.arg + (signed long int)dp->arg_index)->a.a_longdouble;
                   switch(prefix_count)
                   {
                     case (unsigned int)0:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$12$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__3__7__1__1__12__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)1:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$12$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__3__7__1__1__12__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)2:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$12$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__3__7__1__1__12__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     default:
@@ -17017,22 +17017,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                 }
                 case TYPE_CHAR:
                 {
-                  signed int vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$13$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_char;
+                  signed int vasnprintf__1__2__5__1__3__3__7__1__1__13__arg = (a.arg + (signed long int)dp->arg_index)->a.a_char;
                   switch(prefix_count)
                   {
                     case (unsigned int)0:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$13$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__3__7__1__1__13__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)1:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$13$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__3__7__1__1__13__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)2:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$13$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__3__7__1__1__13__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     default:
@@ -17042,22 +17042,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                 }
                 case TYPE_WIDE_CHAR:
                 {
-                  unsigned int vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$14$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_wide_char;
+                  unsigned int vasnprintf__1__2__5__1__3__3__7__1__1__14__arg = (a.arg + (signed long int)dp->arg_index)->a.a_wide_char;
                   switch(prefix_count)
                   {
                     case (unsigned int)0:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$14$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__3__7__1__1__14__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)1:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$14$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__3__7__1__1__14__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)2:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$14$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__3__7__1__1__14__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     default:
@@ -17067,22 +17067,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                 }
                 case TYPE_STRING:
                 {
-                  const char *vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$15$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_string;
+                  const char *vasnprintf__1__2__5__1__3__3__7__1__1__15__arg = (a.arg + (signed long int)dp->arg_index)->a.a_string;
                   switch(prefix_count)
                   {
                     case (unsigned int)0:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$15$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__3__7__1__1__15__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)1:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$15$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__3__7__1__1__15__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)2:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$15$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__3__7__1__1__15__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     default:
@@ -17092,22 +17092,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                 }
                 case TYPE_WIDE_STRING:
                 {
-                  const signed int *vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$16$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_wide_string;
+                  const signed int *vasnprintf__1__2__5__1__3__3__7__1__1__16__arg = (a.arg + (signed long int)dp->arg_index)->a.a_wide_string;
                   switch(prefix_count)
                   {
                     case (unsigned int)0:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$16$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__3__7__1__1__16__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)1:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$16$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__3__7__1__1__16__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)2:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$16$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__3__7__1__1__16__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     default:
@@ -17117,22 +17117,22 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                 }
                 case TYPE_POINTER:
                 {
-                  void *vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$17$$arg = (a.arg + (signed long int)dp->arg_index)->a.a_pointer;
+                  void *vasnprintf__1__2__5__1__3__3__7__1__1__17__arg = (a.arg + (signed long int)dp->arg_index)->a.a_pointer;
                   switch(prefix_count)
                   {
                     case (unsigned int)0:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$17$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, vasnprintf__1__2__5__1__3__3__7__1__1__17__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)1:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$17$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], vasnprintf__1__2__5__1__3__3__7__1__1__17__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     case (unsigned int)2:
                     {
-                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$1$$17$$arg, &vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count);
+                      retcount=snprintf((char *)(result + (signed long int)length), maxlen, buf, prefixes[(signed long int)0], prefixes[(signed long int)1], vasnprintf__1__2__5__1__3__3__7__1__1__17__arg, &vasnprintf__1__2__5__1__3__3__7__1__count);
                       break;
                     }
                     default:
@@ -17143,17 +17143,17 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                 default:
                   abort();
               }
-              if(vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count >= 0)
+              if(vasnprintf__1__2__5__1__3__3__7__1__count >= 0)
               {
-                if(!((unsigned long int)vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count >= maxlen))
+                if(!((unsigned long int)vasnprintf__1__2__5__1__3__3__7__1__count >= maxlen))
                 {
-                  if(!((signed int)result[(signed long int)length + (signed long int)vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count] == 0))
+                  if(!((signed int)result[(signed long int)length + (signed long int)vasnprintf__1__2__5__1__3__3__7__1__count] == 0))
                     abort();
 
                 }
 
-                if(!(vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count >= retcount))
-                  vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count = retcount;
+                if(!(vasnprintf__1__2__5__1__3__3__7__1__count >= retcount))
+                  vasnprintf__1__2__5__1__3__3__7__1__count = retcount;
 
               }
 
@@ -17166,14 +17166,14 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
 
                 else
                   if(retcount >= 0)
-                    vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count = retcount;
+                    vasnprintf__1__2__5__1__3__3__7__1__count = retcount;
 
-              if(!(vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count >= 0))
+              if(!(vasnprintf__1__2__5__1__3__3__7__1__count >= 0))
               {
                 signed int saved_errno;
-                signed int *return_value___errno_location$88;
-                return_value___errno_location$88=__errno_location();
-                saved_errno = *return_value___errno_location$88;
+                signed int *return_value___errno_location_88;
+                return_value___errno_location_88=__errno_location();
+                saved_errno = *return_value___errno_location_88;
                 if(!(result == ((char *)NULL)) && !(result == resultbuf))
                   free((void *)result);
 
@@ -17186,129 +17186,129 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
                 if(!(a.arg == a.direct_alloc_arg))
                   free((void *)a.arg);
 
-                signed int *return_value___errno_location$89;
-                return_value___errno_location$89=__errno_location();
+                signed int *return_value___errno_location_89;
+                return_value___errno_location_89=__errno_location();
                 if(!(saved_errno == 0))
-                  tmp_if_expr$91 = saved_errno;
+                  tmp_if_expr_91 = saved_errno;
 
                 else
                 {
                   if((signed int)dp->conversion == 99)
-                    tmp_if_expr$90 = (_Bool)1;
+                    tmp_if_expr_90 = (_Bool)1;
 
                   else
-                    tmp_if_expr$90 = (signed int)dp->conversion == 115 ? (_Bool)1 : (_Bool)0;
-                  tmp_if_expr$91 = tmp_if_expr$90 ? 84 : 22;
+                    tmp_if_expr_90 = (signed int)dp->conversion == 115 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_91 = tmp_if_expr_90 ? 84 : 22;
                 }
-                *return_value___errno_location$89 = tmp_if_expr$91;
+                *return_value___errno_location_89 = tmp_if_expr_91;
                 return (char *)(void *)0;
               }
 
-              if((unsigned long int)(1u + (unsigned int)vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count) >= maxlen)
+              if((unsigned long int)(1u + (unsigned int)vasnprintf__1__2__5__1__3__3__7__1__count) >= maxlen)
               {
                 if(maxlen == 2147483647ul)
                   goto overflow;
 
                 else
                 {
-                  unsigned long int vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$5$$1$$n;
-                  unsigned long int return_value_xsum$92;
-                  return_value_xsum$92=xsum(length, (((unsigned long int)((unsigned int)vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count + (unsigned int)2) + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
-                  vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$5$$1$$n=xmax(return_value_xsum$92, allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)allocated * (unsigned long int)2 : 18446744073709551615UL);
-                  if(!(allocated >= vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$5$$1$$n))
+                  unsigned long int vasnprintf__1__2__5__1__3__3__7__1__5__1__n;
+                  unsigned long int return_value_xsum_92;
+                  return_value_xsum_92=xsum(length, (((unsigned long int)((unsigned int)vasnprintf__1__2__5__1__3__3__7__1__count + (unsigned int)2) + sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ) - (unsigned long int)1) / (sizeof(char) /*1ul*/  / sizeof(char) /*1ul*/ ));
+                  vasnprintf__1__2__5__1__3__3__7__1__5__1__n=xmax(return_value_xsum_92, allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)allocated * (unsigned long int)2 : 18446744073709551615UL);
+                  if(!(allocated >= vasnprintf__1__2__5__1__3__3__7__1__5__1__n))
                   {
-                    unsigned long int vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$5$$1$$1$$memory_size;
-                    char *vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$5$$1$$1$$memory;
+                    unsigned long int vasnprintf__1__2__5__1__3__3__7__1__5__1__1__memory_size;
+                    char *vasnprintf__1__2__5__1__3__3__7__1__5__1__1__memory;
                     allocated = allocated > (unsigned long int)0 ? (allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)allocated * (unsigned long int)2 : 18446744073709551615UL) : (unsigned long int)12;
-                    if(!(allocated >= vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$5$$1$$n))
-                      allocated = vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$5$$1$$n;
+                    if(!(allocated >= vasnprintf__1__2__5__1__3__3__7__1__5__1__n))
+                      allocated = vasnprintf__1__2__5__1__3__3__7__1__5__1__n;
 
-                    vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$5$$1$$1$$memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
-                    if(vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$5$$1$$1$$memory_size == 18446744073709551615UL)
+                    vasnprintf__1__2__5__1__3__3__7__1__5__1__1__memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
+                    if(vasnprintf__1__2__5__1__3__3__7__1__5__1__1__memory_size == 18446744073709551615UL)
                       goto out_of_memory;
 
                     if(result == ((char *)NULL) || result == resultbuf)
                     {
-                      return_value_malloc$93=malloc(vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$5$$1$$1$$memory_size);
-                      vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$5$$1$$1$$memory = (char *)return_value_malloc$93;
+                      return_value_malloc_93=malloc(vasnprintf__1__2__5__1__3__3__7__1__5__1__1__memory_size);
+                      vasnprintf__1__2__5__1__3__3__7__1__5__1__1__memory = (char *)return_value_malloc_93;
                     }
 
                     else
                     {
-                      return_value_realloc$94=realloc((void *)result, vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$5$$1$$1$$memory_size);
-                      vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$5$$1$$1$$memory = (char *)return_value_realloc$94;
+                      return_value_realloc_94=realloc((void *)result, vasnprintf__1__2__5__1__3__3__7__1__5__1__1__memory_size);
+                      vasnprintf__1__2__5__1__3__3__7__1__5__1__1__memory = (char *)return_value_realloc_94;
                     }
-                    if(vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$5$$1$$1$$memory == ((char *)NULL))
+                    if(vasnprintf__1__2__5__1__3__3__7__1__5__1__1__memory == ((char *)NULL))
                       goto out_of_memory;
 
                     if(result == resultbuf && length >= 1ul)
-                      memcpy((void *)vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$5$$1$$1$$memory, (const void *)result, length);
+                      memcpy((void *)vasnprintf__1__2__5__1__3__3__7__1__5__1__1__memory, (const void *)result, length);
 
-                    result = vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$5$$1$$1$$memory;
+                    result = vasnprintf__1__2__5__1__3__3__7__1__5__1__1__memory;
                   }
 
                   continue;
                 }
               }
 
-              length = length + (unsigned long int)vasnprintf$$1$$2$$5$$1$$3$$3$$7$$1$$count;
+              length = length + (unsigned long int)vasnprintf__1__2__5__1__3__3__7__1__count;
               break;
             }
             while((_Bool)1);
-            signed int *return_value___errno_location$95;
-            return_value___errno_location$95=__errno_location();
-            *return_value___errno_location$95 = orig_errno;
+            signed int *return_value___errno_location_95;
+            return_value___errno_location_95=__errno_location();
+            *return_value___errno_location_95 = orig_errno;
           }
         }
       }
       cp = dp->dir_end;
       i = i + 1ul;
     }
-    unsigned long int return_value_xsum$109;
-    return_value_xsum$109=xsum(length, (unsigned long int)1);
-    if(!(allocated >= return_value_xsum$109))
+    unsigned long int return_value_xsum_109;
+    return_value_xsum_109=xsum(length, (unsigned long int)1);
+    if(!(allocated >= return_value_xsum_109))
     {
-      unsigned long int vasnprintf$$1$$2$$6$$memory_size;
-      char *vasnprintf$$1$$2$$6$$memory;
+      unsigned long int vasnprintf__1__2__6__memory_size;
+      char *vasnprintf__1__2__6__memory;
       allocated = allocated > (unsigned long int)0 ? (allocated <= 18446744073709551615UL / (unsigned long int)2 ? (unsigned long int)allocated * (unsigned long int)2 : 18446744073709551615UL) : (unsigned long int)12;
-      unsigned long int return_value_xsum$106;
-      return_value_xsum$106=xsum(length, (unsigned long int)1);
-      if(!(allocated >= return_value_xsum$106))
+      unsigned long int return_value_xsum_106;
+      return_value_xsum_106=xsum(length, (unsigned long int)1);
+      if(!(allocated >= return_value_xsum_106))
         allocated=xsum(length, (unsigned long int)1);
 
-      vasnprintf$$1$$2$$6$$memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
-      if(vasnprintf$$1$$2$$6$$memory_size == 18446744073709551615UL)
+      vasnprintf__1__2__6__memory_size = allocated <= 18446744073709551615UL / sizeof(char) /*1ul*/  ? (unsigned long int)allocated * sizeof(char) /*1ul*/  : 18446744073709551615UL;
+      if(vasnprintf__1__2__6__memory_size == 18446744073709551615UL)
         goto out_of_memory;
 
       if(result == ((char *)NULL) || result == resultbuf)
       {
-        return_value_malloc$107=malloc(vasnprintf$$1$$2$$6$$memory_size);
-        vasnprintf$$1$$2$$6$$memory = (char *)return_value_malloc$107;
+        return_value_malloc_107=malloc(vasnprintf__1__2__6__memory_size);
+        vasnprintf__1__2__6__memory = (char *)return_value_malloc_107;
       }
 
       else
       {
-        return_value_realloc$108=realloc((void *)result, vasnprintf$$1$$2$$6$$memory_size);
-        vasnprintf$$1$$2$$6$$memory = (char *)return_value_realloc$108;
+        return_value_realloc_108=realloc((void *)result, vasnprintf__1__2__6__memory_size);
+        vasnprintf__1__2__6__memory = (char *)return_value_realloc_108;
       }
-      if(vasnprintf$$1$$2$$6$$memory == ((char *)NULL))
+      if(vasnprintf__1__2__6__memory == ((char *)NULL))
         goto out_of_memory;
 
       if(result == resultbuf && length >= 1ul)
-        memcpy((void *)vasnprintf$$1$$2$$6$$memory, (const void *)result, length);
+        memcpy((void *)vasnprintf__1__2__6__memory, (const void *)result, length);
 
-      result = vasnprintf$$1$$2$$6$$memory;
+      result = vasnprintf__1__2__6__memory;
     }
 
     result[(signed long int)length] = (char)0;
     if(!(result == resultbuf) && !(1ul + length >= allocated))
     {
-      char *vasnprintf$$1$$2$$7$$memory;
-      void *return_value_realloc$110;
-      return_value_realloc$110=realloc((void *)result, (length + (unsigned long int)1) * sizeof(char) /*1ul*/ );
-      vasnprintf$$1$$2$$7$$memory = (char *)return_value_realloc$110;
-      if(!(vasnprintf$$1$$2$$7$$memory == ((char *)NULL)))
-        result = vasnprintf$$1$$2$$7$$memory;
+      char *vasnprintf__1__2__7__memory;
+      void *return_value_realloc_110;
+      return_value_realloc_110=realloc((void *)result, (length + (unsigned long int)1) * sizeof(char) /*1ul*/ );
+      vasnprintf__1__2__7__memory = (char *)return_value_realloc_110;
+      if(!(vasnprintf__1__2__7__memory == ((char *)NULL)))
+        result = vasnprintf__1__2__7__memory;
 
     }
 
@@ -17338,9 +17338,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
     if(!(a.arg == a.direct_alloc_arg))
       free((void *)a.arg);
 
-    signed int *return_value___errno_location$111;
-    return_value___errno_location$111=__errno_location();
-    *return_value___errno_location$111 = 75;
+    signed int *return_value___errno_location_111;
+    return_value___errno_location_111=__errno_location();
+    *return_value___errno_location_111 = 75;
     return (char *)(void *)0;
 
   out_of_memory:
@@ -17360,9 +17360,9 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
     if(!(a.arg == a.direct_alloc_arg))
       free((void *)a.arg);
 
-    signed int *return_value___errno_location$112;
-    return_value___errno_location$112=__errno_location();
-    *return_value___errno_location$112 = 12;
+    signed int *return_value___errno_location_112;
+    return_value___errno_location_112=__errno_location();
+    *return_value___errno_location_112 = 12;
     return (char *)(void *)0;
   }
 }
@@ -17371,21 +17371,21 @@ extern char * vasnprintf(char *resultbuf, unsigned long int *lengthp, const char
 // file main.c line 273
 static void version(void)
 {
-  signed int return_value_printf$2 = printf("%s version %s\n%s\n\n%s%s", (const void *)"lbzip2", (const void *)"2.5", (const void *)"http://lbzip2.org/", (const void *)"Copyright (C) 2011, 2012, 2013, 2014 Mikolaj Izdebski\nCopyright (C) 2008, 2009, 2010 Laszlo Ersek\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\n", (const void *)"This program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <http://www.gnu.org/licenses/>.\n");
-  signed int *return_value___errno_location$1;
-  if(!(return_value_printf$2 >= 0))
+  signed int return_value_printf_2 = printf("%s version %s\n%s\n\n%s%s", (const void *)"lbzip2", (const void *)"2.5", (const void *)"http://lbzip2.org/", (const void *)"Copyright (C) 2011, 2012, 2013, 2014 Mikolaj Izdebski\nCopyright (C) 2008, 2009, 2010 Laszlo Ersek\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\n", (const void *)"This program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <http://www.gnu.org/licenses/>.\n");
+  signed int *return_value___errno_location_1;
+  if(!(return_value_printf_2 >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    failx(*return_value___errno_location$1, "printf()");
+    return_value___errno_location_1=__errno_location();
+    failx(*return_value___errno_location_1, "printf()");
   }
 
-  signed int return_value_fclose$4;
-  return_value_fclose$4=fclose(stdout);
-  signed int *return_value___errno_location$3;
-  if(!(return_value_fclose$4 == 0))
+  signed int return_value_fclose_4;
+  return_value_fclose_4=fclose(stdout);
+  signed int *return_value___errno_location_3;
+  if(!(return_value_fclose_4 == 0))
   {
-    return_value___errno_location$3=__errno_location();
-    failx(*return_value___errno_location$3, "fclose(stdout)");
+    return_value___errno_location_3=__errno_location();
+    failx(*return_value___errno_location_3, "fclose(stdout)");
   }
 
   _exit(0);
@@ -17451,10 +17451,10 @@ void work(void)
     info(decompress != (_Bool)0 ? "decompressing %s%s%s to %s%s%s" : "compressing %s%s%s to %s%s%s", ispec.sep, ispec.fmt, ispec.sep, ospec.sep, ospec.fmt, ospec.sep);
 
   set_memory_constraints();
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_ntohl$2;
-  _Bool tmp_if_expr$4;
-  unsigned int return_value_ntohl$3;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_ntohl_2;
+  _Bool tmp_if_expr_4;
+  unsigned int return_value_ntohl_3;
   if(decompress == (_Bool)0)
     schedule(&compression);
 
@@ -17465,25 +17465,25 @@ void work(void)
     xread((void *)&header, &vacant);
     if(vacant == 0ul)
     {
-      return_value_ntohl$2=ntohl(header);
-      if(return_value_ntohl$2 >= 1113221169u)
+      return_value_ntohl_2=ntohl(header);
+      if(return_value_ntohl_2 >= 1113221169u)
       {
-        return_value_ntohl$3=ntohl(header);
-        tmp_if_expr$4 = return_value_ntohl$3 <= 0x425A6830u + (unsigned int)9 ? (_Bool)1 : (_Bool)0;
+        return_value_ntohl_3=ntohl(header);
+        tmp_if_expr_4 = return_value_ntohl_3 <= 0x425A6830u + (unsigned int)9 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
+      tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
-      unsigned int return_value_ntohl$1;
-      return_value_ntohl$1=ntohl(header);
-      bs100k = return_value_ntohl$1 - (0x425A6830u + (unsigned int)0);
+      unsigned int return_value_ntohl_1;
+      return_value_ntohl_1=ntohl(header);
+      bs100k = return_value_ntohl_1 - (0x425A6830u + (unsigned int)0);
       schedule(&expansion);
     }
 
@@ -17505,9 +17505,9 @@ static void worker_thread_proc(void)
 {
   unsigned int id;
   (void)id;
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&sched_mutex);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&sched_mutex);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
   {
     abort();
     (_Bool)0;
@@ -17525,9 +17525,9 @@ static void worker_thread_proc(void)
   return_value=process->finished();
   if(return_value == (_Bool)0)
   {
-    signed int return_value_pthread_cond_wait$2;
-    return_value_pthread_cond_wait$2=pthread_cond_wait(&sched_cond, &sched_mutex);
-    if(!(return_value_pthread_cond_wait$2 == 0))
+    signed int return_value_pthread_cond_wait_2;
+    return_value_pthread_cond_wait_2=pthread_cond_wait(&sched_cond, &sched_mutex);
+    if(!(return_value_pthread_cond_wait_2 == 0))
     {
       abort();
       (_Bool)0;
@@ -17537,9 +17537,9 @@ static void worker_thread_proc(void)
       (_Bool)0;
   }
 
-  signed int return_value_pthread_cond_broadcast$3;
-  return_value_pthread_cond_broadcast$3=pthread_cond_broadcast(&sched_cond);
-  if(!(return_value_pthread_cond_broadcast$3 == 0))
+  signed int return_value_pthread_cond_broadcast_3;
+  return_value_pthread_cond_broadcast_3=pthread_cond_broadcast(&sched_cond);
+  if(!(return_value_pthread_cond_broadcast_3 == 0))
   {
     abort();
     (_Bool)0;
@@ -17547,9 +17547,9 @@ static void worker_thread_proc(void)
 
   else
     (_Bool)0;
-  signed int return_value_pthread_mutex_unlock$4;
-  return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&sched_mutex);
-  if(!(return_value_pthread_mutex_unlock$4 == 0))
+  signed int return_value_pthread_mutex_unlock_4;
+  return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&sched_mutex);
+  if(!(return_value_pthread_mutex_unlock_4 == 0))
   {
     abort();
     (_Bool)0;
@@ -17612,46 +17612,46 @@ inline void * x2nrealloc(void *p, unsigned long int *pn, unsigned long int s)
     n = n + (n + (unsigned long int)1) / (unsigned long int)2;
   }
   *pn = n;
-  void *return_value_xrealloc$1;
-  return_value_xrealloc$1=xrealloc(p, n * s);
-  return return_value_xrealloc$1;
+  void *return_value_xrealloc_1;
+  return_value_xrealloc_1=xrealloc(p, n * s);
+  return return_value_xrealloc_1;
 }
 
-// x2nrealloc$link1
+// x2nrealloc_link1
 // file xalloc.h line 179
-static inline void * x2nrealloc$link1(void *p$link10, unsigned long int *pn$link10, unsigned long int s$link10)
+static inline void * x2nrealloc_link1(void *p_link10, unsigned long int *pn_link10, unsigned long int s_link10)
 {
-  unsigned long int n$link10 = *pn$link10;
-  if(p$link10 == NULL)
+  unsigned long int n_link10 = *pn_link10;
+  if(p_link10 == NULL)
   {
-    if(n$link10 == 0ul)
+    if(n_link10 == 0ul)
     {
-      n$link10 = (unsigned long int)128 / s$link10;
-      n$link10 = n$link10 + (unsigned long int)!(n$link10 != 0ul);
+      n_link10 = (unsigned long int)128 / s_link10;
+      n_link10 = n_link10 + (unsigned long int)!(n_link10 != 0ul);
     }
 
   }
 
   else
   {
-    if(n$link10 >= 12297829382473034410ul / s$link10)
+    if(n_link10 >= 12297829382473034410ul / s_link10)
       xalloc_die();
 
-    n$link10 = n$link10 + (n$link10 + (unsigned long int)1) / (unsigned long int)2;
+    n_link10 = n_link10 + (n_link10 + (unsigned long int)1) / (unsigned long int)2;
   }
-  *pn$link10 = n$link10;
-  void *return_value_xrealloc$1$link10;
-  return_value_xrealloc$1$link10=xrealloc(p$link10, n$link10 * s$link10);
-  return return_value_xrealloc$1$link10;
+  *pn_link10 = n_link10;
+  void *return_value_xrealloc_1_link10;
+  return_value_xrealloc_1_link10=xrealloc(p_link10, n_link10 * s_link10);
+  return return_value_xrealloc_1_link10;
 }
 
 // x2realloc
 // file xmalloc.c line 74
 void * x2realloc(void *p, unsigned long int *pn)
 {
-  void *return_value_x2nrealloc$1;
-  return_value_x2nrealloc$1=x2nrealloc$link1(p, pn, (unsigned long int)1);
-  return return_value_x2nrealloc$1;
+  void *return_value_x2nrealloc_1;
+  return_value_x2nrealloc_1=x2nrealloc_link1(p, pn, (unsigned long int)1);
+  return return_value_x2nrealloc_1;
 }
 
 // xaction
@@ -17662,20 +17662,20 @@ static void xaction(signed int sig, void (*handler)(signed int))
   act.__sigaction_handler.sa_handler = handler;
   xempty(&act.sa_mask);
   act.sa_flags = 0;
-  signed int return_value_sigaction$1;
-  return_value_sigaction$1=sigaction(sig, &act, (struct sigaction *)(void *)0);
-  if(!(return_value_sigaction$1 == 0))
+  signed int return_value_sigaction_1;
+  return_value_sigaction_1=sigaction(sig, &act, (struct sigaction *)(void *)0);
+  if(!(return_value_sigaction_1 == 0))
     abort();
 
 }
 
 // xadd
 // file signals.c line 42
-static void xadd(struct anonymous$11 *set, signed int sig)
+static void xadd(struct anonymous_11 *set, signed int sig)
 {
-  signed int return_value_sigaddset$1;
-  return_value_sigaddset$1=sigaddset(set, sig);
-  if(!(return_value_sigaddset$1 == 0))
+  signed int return_value_sigaddset_1;
+  return_value_sigaddset_1=sigaddset(set, sig);
+  if(!(return_value_sigaddset_1 == 0))
     abort();
 
 }
@@ -17684,9 +17684,9 @@ static void xadd(struct anonymous$11 *set, signed int sig)
 // file ../lib/xalloc.h line 55
 extern void xalloc_die(void)
 {
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  failx(*return_value___errno_location$1, "xalloc");
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  failx(*return_value___errno_location_1, "xalloc");
 }
 
 // xcalloc
@@ -17705,9 +17705,9 @@ void * xcalloc(unsigned long int n, unsigned long int s)
 // file ../lib/xalloc.h line 218
 inline char * xcharalloc(unsigned long int n)
 {
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc(n);
-  return (char *)return_value_xmalloc$1;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc(n);
+  return (char *)return_value_xmalloc_1;
 }
 
 // xcreate
@@ -17725,11 +17725,11 @@ static unsigned long int xcreate(void (*entry)(void))
 
 // xempty
 // file signals.c line 35
-static void xempty(struct anonymous$11 *set)
+static void xempty(struct anonymous_11 *set)
 {
-  signed int return_value_sigemptyset$1;
-  return_value_sigemptyset$1=sigemptyset(set);
-  if(!(return_value_sigemptyset$1 == 0))
+  signed int return_value_sigemptyset_1;
+  return_value_sigemptyset_1=sigemptyset(set);
+  if(!(return_value_sigemptyset_1 == 0))
     abort();
 
 }
@@ -17748,11 +17748,11 @@ void * xmalloc(unsigned long int n)
 
 // xmask
 // file signals.c line 49
-static void xmask(signed int how, const struct anonymous$11 *set, struct anonymous$11 *oset)
+static void xmask(signed int how, const struct anonymous_11 *set, struct anonymous_11 *oset)
 {
-  signed int return_value_pthread_sigmask$1;
-  return_value_pthread_sigmask$1=pthread_sigmask(how, set, oset);
-  if(!(return_value_pthread_sigmask$1 == 0))
+  signed int return_value_pthread_sigmask_1;
+  return_value_pthread_sigmask_1=pthread_sigmask(how, set, oset);
+  if(!(return_value_pthread_sigmask_1 == 0))
     abort();
 
 }
@@ -17766,12 +17766,12 @@ inline unsigned long int xmax(unsigned long int size1, unsigned long int size2)
 
 // xmember
 // file signals.c line 63
-static _Bool xmember(const struct anonymous$11 *set, signed int sig)
+static _Bool xmember(const struct anonymous_11 *set, signed int sig)
 {
   unsigned int rv;
-  signed int return_value_sigismember$1;
-  return_value_sigismember$1=sigismember(set, sig);
-  rv = (unsigned int)return_value_sigismember$1;
+  signed int return_value_sigismember_1;
+  return_value_sigismember_1=sigismember(set, sig);
+  rv = (unsigned int)return_value_sigismember_1;
   if(rv >= 2u)
     abort();
 
@@ -17782,11 +17782,11 @@ static _Bool xmember(const struct anonymous$11 *set, signed int sig)
 // file xmalloc.c line 111
 void * xmemdup(const void *p, unsigned long int s)
 {
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc(s);
-  void *return_value_memcpy$2;
-  return_value_memcpy$2=memcpy(return_value_xmalloc$1, p, s);
-  return return_value_memcpy$2;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc(s);
+  void *return_value_memcpy_2;
+  return_value_memcpy_2=memcpy(return_value_xmalloc_1, p, s);
+  return return_value_memcpy_2;
 }
 
 // xnmalloc
@@ -17796,9 +17796,9 @@ inline void * xnmalloc(unsigned long int n, unsigned long int s)
   if(!(18446744073709551615ul / s >= n))
     xalloc_die();
 
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc(n * s);
-  return return_value_xmalloc$1;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc(n * s);
+  return return_value_xmalloc_1;
 }
 
 // xnrealloc
@@ -17808,18 +17808,18 @@ inline void * xnrealloc(void *p, unsigned long int n, unsigned long int s)
   if(!(18446744073709551615ul / s >= n))
     xalloc_die();
 
-  void *return_value_xrealloc$1;
-  return_value_xrealloc$1=xrealloc(p, n * s);
-  return return_value_xrealloc$1;
+  void *return_value_xrealloc_1;
+  return_value_xrealloc_1=xrealloc(p, n * s);
+  return return_value_xrealloc_1;
 }
 
 // xpending
 // file signals.c line 56
-static void xpending(struct anonymous$11 *set)
+static void xpending(struct anonymous_11 *set)
 {
-  signed int return_value_sigpending$1;
-  return_value_sigpending$1=sigpending(set);
-  if(!(return_value_sigpending$1 == 0))
+  signed int return_value_sigpending_1;
+  return_value_sigpending_1=sigpending(set);
+  if(!(return_value_sigpending_1 == 0))
     abort();
 
 }
@@ -17828,9 +17828,9 @@ static void xpending(struct anonymous$11 *set)
 // file signals.h line 26
 void xraise(signed int sig)
 {
-  signed int return_value_kill$1;
-  return_value_kill$1=kill(pid, sig);
-  if(!(return_value_kill$1 == 0))
+  signed int return_value_kill_1;
+  return_value_kill_1=kill(pid, sig);
+  if(!(return_value_kill_1 == 0))
     abort();
 
 }
@@ -17842,24 +17842,24 @@ void xread(void *vbuf, unsigned long int *vacant)
   char *buffer = (char *)vbuf;
   /* assertion *vacant > 0 */
   assert(*vacant > (unsigned long int)0);
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   do
   {
     signed long int rd;
     if(*vacant >= 9223372036854775808ul)
-      tmp_if_expr$1 = (unsigned long int)0x7fffffffffffffffL;
+      tmp_if_expr_1 = (unsigned long int)0x7fffffffffffffffL;
 
     else
-      tmp_if_expr$1 = *vacant;
-    rd=read(ispec.fd, (void *)buffer, tmp_if_expr$1);
+      tmp_if_expr_1 = *vacant;
+    rd=read(ispec.fd, (void *)buffer, tmp_if_expr_1);
     if(rd == 0l)
       break;
 
     if(rd == -1l)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      failfx(&ispec, *return_value___errno_location$2, "read()");
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      failfx(&ispec, *return_value___errno_location_2, "read()");
     }
 
     *vacant = *vacant - (unsigned long int)rd;
@@ -17893,11 +17893,11 @@ void * xrealloc(void *p, unsigned long int n)
 // file xmalloc.c line 119
 char * xstrdup(const char *string)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(string);
-  void *return_value_xmemdup$2;
-  return_value_xmemdup$2=xmemdup((const void *)string, return_value_strlen$1 + (unsigned long int)1);
-  return (char *)return_value_xmemdup$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(string);
+  void *return_value_xmemdup_2;
+  return_value_xmemdup_2=xmemdup((const void *)string, return_value_strlen_1 + (unsigned long int)1);
+  return (char *)return_value_xmemdup_2;
 }
 
 // xstrtol
@@ -17908,38 +17908,38 @@ static unsigned long int xstrtol(const char *str, signed int source, unsigned lo
   char *endptr;
   unsigned int shift;
   unsigned long int val;
-  const char *xstrtol$$1$$suffix = "EePpTtGgMmKk";
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  char *return_value_index$5;
+  const char *xstrtol__1__suffix = "EePpTtGgMmKk";
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  char *return_value_index_5;
   if(!((signed int)*str == 0))
   {
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 0;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 0;
     tmp=strtol(str, &endptr, 10);
-    return_value___errno_location$2=__errno_location();
-    if(!(*return_value___errno_location$2 == 0) || !(tmp >= 0l))
-      tmp_if_expr$4 = (_Bool)1;
+    return_value___errno_location_2=__errno_location();
+    if(!(*return_value___errno_location_2 == 0) || !(tmp >= 0l))
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
       if(!((signed int)*endptr == 0))
-        tmp_if_expr$3 = (signed int)endptr[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)endptr[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$4)
+    if(!tmp_if_expr_4)
     {
       val = (unsigned long int)tmp;
-      endptr=index(xstrtol$$1$$suffix, (signed int)*endptr);
+      endptr=index(xstrtol__1__suffix, (signed int)*endptr);
       if(!(endptr == ((char *)NULL)))
       {
-        return_value_index$5=index(xstrtol$$1$$suffix, 0);
-        shift = (unsigned int)((((return_value_index$5 - endptr) + (signed long int)1) / (signed long int)2) * (signed long int)10);
+        return_value_index_5=index(xstrtol__1__suffix, 0);
+        shift = (unsigned int)((((return_value_index_5 - endptr) + (signed long int)1) / (signed long int)2) * (signed long int)10);
         if(18446744073709551615UL >> shift >= val)
         {
           val = val << shift;
@@ -17976,24 +17976,24 @@ inline unsigned long int xsum(unsigned long int size1, unsigned long int size2)
 // file xsize.h line 74
 inline unsigned long int xsum3(unsigned long int size1, unsigned long int size2, unsigned long int size3)
 {
-  unsigned long int return_value_xsum$1;
-  return_value_xsum$1=xsum(size1, size2);
-  unsigned long int return_value_xsum$2;
-  return_value_xsum$2=xsum(return_value_xsum$1, size3);
-  return return_value_xsum$2;
+  unsigned long int return_value_xsum_1;
+  return_value_xsum_1=xsum(size1, size2);
+  unsigned long int return_value_xsum_2;
+  return_value_xsum_2=xsum(return_value_xsum_1, size3);
+  return return_value_xsum_2;
 }
 
 // xsum4
 // file xsize.h line 84
 inline unsigned long int xsum4(unsigned long int size1, unsigned long int size2, unsigned long int size3, unsigned long int size4)
 {
-  unsigned long int return_value_xsum$1;
-  return_value_xsum$1=xsum(size1, size2);
-  unsigned long int return_value_xsum$2;
-  return_value_xsum$2=xsum(return_value_xsum$1, size3);
-  unsigned long int return_value_xsum$3;
-  return_value_xsum$3=xsum(return_value_xsum$2, size4);
-  return return_value_xsum$3;
+  unsigned long int return_value_xsum_1;
+  return_value_xsum_1=xsum(size1, size2);
+  unsigned long int return_value_xsum_2;
+  return_value_xsum_2=xsum(return_value_xsum_1, size3);
+  unsigned long int return_value_xsum_3;
+  return_value_xsum_3=xsum(return_value_xsum_2, size4);
+  return return_value_xsum_3;
 }
 
 // xwrite
@@ -18009,9 +18009,9 @@ void xwrite(const void *vbuf, unsigned long int size)
       wr=write(ospec.fd, (const void *)buffer, size > (unsigned long int)0x7fffffffffffffffL ? (unsigned long int)0x7fffffffffffffffL : size);
       if(wr == -1l)
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        failfx(&ospec, *return_value___errno_location$1, "write()");
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        failfx(&ospec, *return_value___errno_location_1, "write()");
       }
 
       size = size - (unsigned long int)wr;
@@ -18025,10 +18025,10 @@ void xwrite(const void *vbuf, unsigned long int size)
 // file ../lib/xalloc.h line 59
 void * xzalloc(unsigned long int s)
 {
-  void *return_value_xmalloc$1;
-  return_value_xmalloc$1=xmalloc(s);
-  void *return_value_memset$2;
-  return_value_memset$2=memset(return_value_xmalloc$1, 0, s);
-  return return_value_memset$2;
+  void *return_value_xmalloc_1;
+  return_value_xmalloc_1=xmalloc(s);
+  void *return_value_memset_2;
+  return_value_memset_2=memset(return_value_xmalloc_1, 0, s);
+  return return_value_memset_2;
 }
 

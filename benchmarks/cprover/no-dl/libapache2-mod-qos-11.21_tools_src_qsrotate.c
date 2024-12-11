@@ -1,8 +1,8 @@
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -150,7 +150,7 @@ extern signed int printf(const char *, ...);
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$0 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_0 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -275,7 +275,7 @@ extern signed int waitpid(signed int, signed int *, signed int);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-union anonymous$0
+union anonymous_0
 {
   // __size
   char __size[4l];
@@ -583,27 +583,27 @@ static void compressThread(const char *cmd, const char *arch)
   char buf[1024l];
   signed int len;
   snprintf(dest, sizeof(char [1044l]) /*1044ul*/ , "%s.gz", arch);
-  signed int return_value_nice$3;
-  return_value_nice$3=nice(10);
-  if(return_value_nice$3 == -1)
+  signed int return_value_nice_3;
+  return_value_nice_3=nice(10);
+  if(return_value_nice_3 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "[%s]: WARNING, failed to change nice value: %s\n", cmd, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "[%s]: WARNING, failed to change nice value: %s\n", cmd, return_value_strerror_2);
   }
 
   infp=open(arch, 00);
-  signed long int return_value_read$5;
+  signed long int return_value_read_5;
   if(infp == -1)
     fprintf(stderr, "[%s]: ERROR, could not open file for compression <%s>\n", cmd, arch);
 
   else
   {
-    struct gzFile_s *return_value_gzopen$4;
-    return_value_gzopen$4=gzopen(dest, "wb");
-    outfp = (struct gzFile_s **)return_value_gzopen$4;
+    struct gzFile_s *return_value_gzopen_4;
+    return_value_gzopen_4=gzopen(dest, "wb");
+    outfp = (struct gzFile_s **)return_value_gzopen_4;
     if(outfp == ((struct gzFile_s **)NULL))
     {
       fprintf(stderr, "[%s]: ERROR, could not open file for compression <%s>\n", cmd, (const void *)dest);
@@ -614,8 +614,8 @@ static void compressThread(const char *cmd, const char *arch)
     {
       do
       {
-        return_value_read$5=read(infp, (void *)buf, sizeof(char [1024l]) /*1024ul*/ );
-        len = (signed int)return_value_read$5;
+        return_value_read_5=read(infp, (void *)buf, sizeof(char [1024l]) /*1024ul*/ );
+        len = (signed int)return_value_read_5;
         if(!(len >= 1))
           break;
 
@@ -659,9 +659,9 @@ static signed long int get_now()
   if(!(m_offset_enabled == 0))
   {
     struct tm lcl;
-    struct tm *return_value_localtime$1;
-    return_value_localtime$1=localtime(&now);
-    lcl = *return_value_localtime$1;
+    struct tm *return_value_localtime_1;
+    return_value_localtime_1=localtime(&now);
+    lcl = *return_value_localtime_1;
     if(!(lcl.tm_isdst == 0))
       now = now + (signed long int)3600;
 
@@ -691,29 +691,29 @@ signed int main(signed int argc, char **argv)
 
   else
     cmd = cmd + 1l;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(cmd);
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc((unsigned long int)1, return_value_strlen$1 + (unsigned long int)1);
-  m_cmd = (char *)return_value_calloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(cmd);
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc((unsigned long int)1, return_value_strlen_1 + (unsigned long int)1);
+  m_cmd = (char *)return_value_calloc_2;
   strcpy(m_cmd, cmd);
-  signed int return_value_strcmp$16;
-  signed int return_value_strcmp$15;
-  signed int return_value_strcmp$14;
-  signed int return_value_strcmp$13;
-  signed int return_value_strcmp$12;
-  signed int return_value_strcmp$11;
-  signed int return_value_strcmp$10;
-  signed int return_value_strcmp$9;
-  signed int return_value_strcmp$8;
-  signed int return_value_strcmp$7;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
+  signed int return_value_strcmp_16;
+  signed int return_value_strcmp_15;
+  signed int return_value_strcmp_14;
+  signed int return_value_strcmp_13;
+  signed int return_value_strcmp_12;
+  signed int return_value_strcmp_11;
+  signed int return_value_strcmp_10;
+  signed int return_value_strcmp_9;
+  signed int return_value_strcmp_8;
+  signed int return_value_strcmp_7;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
   while(argc >= 1)
   {
-    signed int return_value_strcmp$17;
-    return_value_strcmp$17=strcmp(*argv, "-o");
-    if(return_value_strcmp$17 == 0)
+    signed int return_value_strcmp_17;
+    return_value_strcmp_17=strcmp(*argv, "-o");
+    if(return_value_strcmp_17 == 0)
     {
       argc = argc - 1;
       if(argc >= 1)
@@ -726,8 +726,8 @@ signed int main(signed int argc, char **argv)
 
     else
     {
-      return_value_strcmp$16=strcmp(*argv, "-u");
-      if(return_value_strcmp$16 == 0)
+      return_value_strcmp_16=strcmp(*argv, "-u");
+      if(return_value_strcmp_16 == 0)
       {
         argc = argc - 1;
         if(argc >= 1)
@@ -740,24 +740,24 @@ signed int main(signed int argc, char **argv)
 
       else
       {
-        return_value_strcmp$15=strcmp(*argv, "-s");
-        if(return_value_strcmp$15 == 0)
+        return_value_strcmp_15=strcmp(*argv, "-s");
+        if(return_value_strcmp_15 == 0)
         {
           argc = argc - 1;
           if(argc >= 1)
           {
             argv = argv + 1l;
-            signed int return_value_atoi$3;
-            return_value_atoi$3=atoi(*argv);
-            m_tRotation = (signed long int)return_value_atoi$3;
+            signed int return_value_atoi_3;
+            return_value_atoi_3=atoi(*argv);
+            m_tRotation = (signed long int)return_value_atoi_3;
           }
 
         }
 
         else
         {
-          return_value_strcmp$14=strcmp(*argv, "-t");
-          if(return_value_strcmp$14 == 0)
+          return_value_strcmp_14=strcmp(*argv, "-t");
+          if(return_value_strcmp_14 == 0)
           {
             argc = argc - 1;
             if(argc >= 1)
@@ -772,8 +772,8 @@ signed int main(signed int argc, char **argv)
 
           else
           {
-            return_value_strcmp$13=strcmp(*argv, "-g");
-            if(return_value_strcmp$13 == 0)
+            return_value_strcmp_13=strcmp(*argv, "-g");
+            if(return_value_strcmp_13 == 0)
             {
               argc = argc - 1;
               if(argc >= 1)
@@ -786,60 +786,60 @@ signed int main(signed int argc, char **argv)
 
             else
             {
-              return_value_strcmp$12=strcmp(*argv, "-b");
-              if(return_value_strcmp$12 == 0)
+              return_value_strcmp_12=strcmp(*argv, "-b");
+              if(return_value_strcmp_12 == 0)
               {
                 argc = argc - 1;
                 if(argc >= 1)
                 {
                   argv = argv + 1l;
-                  signed int return_value_atoi$4;
-                  return_value_atoi$4=atoi(*argv);
-                  m_limit = (signed long int)return_value_atoi$4;
+                  signed int return_value_atoi_4;
+                  return_value_atoi_4=atoi(*argv);
+                  m_limit = (signed long int)return_value_atoi_4;
                 }
 
               }
 
               else
               {
-                return_value_strcmp$11=strcmp(*argv, "-z");
-                if(return_value_strcmp$11 == 0)
+                return_value_strcmp_11=strcmp(*argv, "-z");
+                if(return_value_strcmp_11 == 0)
                   m_compress = 1;
 
                 else
                 {
-                  return_value_strcmp$10=strcmp(*argv, "-p");
-                  if(return_value_strcmp$10 == 0)
+                  return_value_strcmp_10=strcmp(*argv, "-p");
+                  if(return_value_strcmp_10 == 0)
                     m_stdout = 1;
 
                   else
                   {
-                    return_value_strcmp$9=strcmp(*argv, "-f");
-                    if(return_value_strcmp$9 == 0)
+                    return_value_strcmp_9=strcmp(*argv, "-f");
+                    if(return_value_strcmp_9 == 0)
                       m_force_rotation = 1;
 
                     else
                     {
-                      return_value_strcmp$8=strcmp(*argv, "-h");
-                      if(return_value_strcmp$8 == 0)
+                      return_value_strcmp_8=strcmp(*argv, "-h");
+                      if(return_value_strcmp_8 == 0)
                         usage(m_cmd, 0);
 
                       else
                       {
-                        return_value_strcmp$7=strcmp(*argv, "--help");
-                        if(return_value_strcmp$7 == 0)
+                        return_value_strcmp_7=strcmp(*argv, "--help");
+                        if(return_value_strcmp_7 == 0)
                           usage(m_cmd, 0);
 
                         else
                         {
-                          return_value_strcmp$6=strcmp(*argv, "-?");
-                          if(return_value_strcmp$6 == 0)
+                          return_value_strcmp_6=strcmp(*argv, "-?");
+                          if(return_value_strcmp_6 == 0)
                             usage(m_cmd, 0);
 
                           else
                           {
-                            return_value_strcmp$5=strcmp(*argv, "--man");
-                            if(return_value_strcmp$5 == 0)
+                            return_value_strcmp_5=strcmp(*argv, "--man");
+                            if(return_value_strcmp_5 == 0)
                               usage(m_cmd, 1);
 
                           }
@@ -863,9 +863,9 @@ signed int main(signed int argc, char **argv)
   if(!(m_limit >= 1048576l))
     usage(m_cmd, 0);
 
-  signed int return_value_stat$18;
-  return_value_stat$18=stat(m_file_name, &st);
-  if(return_value_stat$18 == 0)
+  signed int return_value_stat_18;
+  return_value_stat_18=stat(m_file_name, &st);
+  if(return_value_stat_18 == 0)
     m_counter = st.st_size;
 
   qs_setuid(username, m_cmd);
@@ -881,24 +881,24 @@ signed int main(signed int argc, char **argv)
     pthread_create(&tid, tha, forcedRotationThread, (void *)0);
   }
 
-  void *return_value_calloc$19;
-  return_value_calloc$19=calloc((unsigned long int)1, (unsigned long int)(131072 + 1));
-  buf = (char *)return_value_calloc$19;
-  signed int *return_value___errno_location$21;
-  _Bool tmp_if_expr$23;
-  signed int *return_value___errno_location$22;
+  void *return_value_calloc_19;
+  return_value_calloc_19=calloc((unsigned long int)1, (unsigned long int)(131072 + 1));
+  buf = (char *)return_value_calloc_19;
+  signed int *return_value___errno_location_21;
+  _Bool tmp_if_expr_23;
+  signed int *return_value___errno_location_22;
   do
   {
-    signed long int return_value_read$20;
-    return_value_read$20=read(0, (void *)buf, (unsigned long int)131072);
-    nRead = (signed int)return_value_read$20;
+    signed long int return_value_read_20;
+    return_value_read_20=read(0, (void *)buf, (unsigned long int)131072);
+    nRead = (signed int)return_value_read_20;
     if(nRead == 0)
       exit(3);
 
     if(!(nRead >= 0))
     {
-      return_value___errno_location$21=__errno_location();
-      if(!(*return_value___errno_location$21 == 4))
+      return_value___errno_location_21=__errno_location();
+      if(!(*return_value___errno_location_21 == 4))
         exit(4);
 
     }
@@ -911,22 +911,22 @@ signed int main(signed int argc, char **argv)
     if(m_nLogFD >= 0)
       do
       {
-        signed long int return_value_write$24;
-        return_value_write$24=write(m_nLogFD, (const void *)buf, (unsigned long int)nRead);
-        nWrite = (signed int)return_value_write$24;
+        signed long int return_value_write_24;
+        return_value_write_24=write(m_nLogFD, (const void *)buf, (unsigned long int)nRead);
+        nWrite = (signed int)return_value_write_24;
         if(!(m_stdout == 0))
           printf("%.*s", nRead, buf);
 
         if(!(nWrite >= 0))
         {
-          return_value___errno_location$22=__errno_location();
-          tmp_if_expr$23 = *return_value___errno_location$22 == 4 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_22=__errno_location();
+          tmp_if_expr_23 = *return_value___errno_location_22 == 4 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$23 = (_Bool)0;
+          tmp_if_expr_23 = (_Bool)0;
       }
-      while(tmp_if_expr$23);
+      while(tmp_if_expr_23);
 
     if(!(nWrite == nRead))
     {
@@ -936,11 +936,11 @@ signed int main(signed int argc, char **argv)
         char msg[1024l];
         snprintf(msg, sizeof(char [1024l]) /*1024ul*/ , "ERROR while writing to file, %ld messages lost\n", m_messages);
         rc=ftruncate(m_nLogFD, (signed long int)0);
-        unsigned long int return_value_strlen$25;
-        return_value_strlen$25=strlen(msg);
-        signed long int return_value_write$26;
-        return_value_write$26=write(m_nLogFD, (const void *)msg, return_value_strlen$25);
-        rc = (signed int)return_value_write$26;
+        unsigned long int return_value_strlen_25;
+        return_value_strlen_25=strlen(msg);
+        signed long int return_value_write_26;
+        return_value_write_26=write(m_nLogFD, (const void *)msg, return_value_strlen_25);
+        rc = (signed int)return_value_write_26;
       }
 
     }
@@ -964,12 +964,12 @@ signed int main(signed int argc, char **argv)
 // file qsrotate.c line 183
 static signed int openFile(const char *cmd, const char *file_name)
 {
-  signed int openFile$$1$$m_nLogFD;
-  openFile$$1$$m_nLogFD=open(file_name, 01 | 0100 | 02000, 0660);
-  if(!(openFile$$1$$m_nLogFD >= 0))
+  signed int openFile__1__m_nLogFD;
+  openFile__1__m_nLogFD=open(file_name, 01 | 0100 | 02000, 0660);
+  if(!(openFile__1__m_nLogFD >= 0))
     fprintf(stderr, "[%s]: ERROR, failed to open file <%s>\n", cmd, file_name);
 
-  return openFile$$1$$m_nLogFD;
+  return openFile__1__m_nLogFD;
 }
 
 // qs_CMD
@@ -977,18 +977,18 @@ static signed int openFile(const char *cmd, const char *file_name)
 char * qs_CMD(const char *cmd)
 {
   char *buf;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1024, (unsigned long int)1);
-  buf = (char *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1024, (unsigned long int)1);
+  buf = (char *)return_value_calloc_1;
   signed int i = 0;
   while(!(cmd[(signed long int)i] == 0))
   {
     if(i >= 1023)
       break;
 
-    signed int return_value_toupper$2;
-    return_value_toupper$2=toupper((signed int)cmd[(signed long int)i]);
-    buf[(signed long int)i] = (char)return_value_toupper$2;
+    signed int return_value_toupper_2;
+    return_value_toupper_2=toupper((signed int)cmd[(signed long int)i]);
+    buf[(signed long int)i] = (char)return_value_toupper_2;
     i = i + 1;
   }
   buf[(signed long int)i] = (char)0;
@@ -999,7 +999,7 @@ char * qs_CMD(const char *cmd)
 // file qs_util.h line 64
 void qs_csInitLock()
 {
-  pthread_mutex_init(&m_qs_lock_cs, (const union anonymous$0 *)(void *)0);
+  pthread_mutex_init(&m_qs_lock_cs, (const union anonymous_0 *)(void *)0);
 }
 
 // qs_csLock
@@ -1024,13 +1024,13 @@ void qs_deleteOldFiles(const char *file_name, signed int generations)
   char *p;
   strcpy(dirname, file_name);
   p=strrchr(dirname, 47);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(file_name);
-  unsigned long int return_value_strlen$2;
-  signed int return_value_strncmp$3;
-  unsigned long int return_value_strlen$5;
-  signed int return_value_strncmp$6;
-  if(!(return_value_strlen$1 >= 2039ul))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(file_name);
+  unsigned long int return_value_strlen_2;
+  signed int return_value_strncmp_3;
+  unsigned long int return_value_strlen_5;
+  signed int return_value_strncmp_6;
+  if(!(return_value_strlen_1 >= 2039ul))
   {
     if(!(p == ((char *)NULL)))
     {
@@ -1050,9 +1050,9 @@ void qs_deleteOldFiles(const char *file_name, signed int generations)
           if(de == ((struct dirent *)NULL))
             break;
 
-          return_value_strlen$2=strlen(filename);
-          return_value_strncmp$3=strncmp(de->d_name, filename, return_value_strlen$2);
-          if(return_value_strncmp$3 == 0)
+          return_value_strlen_2=strlen(filename);
+          return_value_strncmp_3=strncmp(de->d_name, filename, return_value_strlen_2);
+          if(return_value_strncmp_3 == 0)
             num = num + 1;
 
         }
@@ -1068,13 +1068,13 @@ void qs_deleteOldFiles(const char *file_name, signed int generations)
             if(de == ((struct dirent *)NULL))
               break;
 
-            return_value_strlen$5=strlen(filename);
-            return_value_strncmp$6=strncmp(de->d_name, filename, return_value_strlen$5);
-            if(return_value_strncmp$6 == 0)
+            return_value_strlen_5=strlen(filename);
+            return_value_strncmp_6=strncmp(de->d_name, filename, return_value_strlen_5);
+            if(return_value_strncmp_6 == 0)
             {
-              signed int return_value_strcmp$4;
-              return_value_strcmp$4=strcmp(old, de->d_name);
-              if(return_value_strcmp$4 >= 1)
+              signed int return_value_strcmp_4;
+              return_value_strcmp_4=strcmp(old, de->d_name);
+              if(return_value_strcmp_4 >= 1)
                 snprintf(old, sizeof(char [2048l]) /*2048ul*/ , "%s", (const void *)de->d_name);
 
               else
@@ -1104,28 +1104,28 @@ void qs_deleteOldFiles(const char *file_name, signed int generations)
 signed int qs_getLine(char *s, signed int n)
 {
   signed int i = 0;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   while((_Bool)1)
   {
-    signed int return_value_getchar$1;
-    return_value_getchar$1=getchar();
-    s[(signed long int)i] = (char)return_value_getchar$1;
+    signed int return_value_getchar_1;
+    return_value_getchar_1=getchar();
+    s[(signed long int)i] = (char)return_value_getchar_1;
     if((signed int)s[(signed long int)i] == -1)
       return 0;
 
     if((signed int)s[(signed long int)i] == 13)
     {
-      signed int return_value_getchar$2;
-      return_value_getchar$2=getchar();
-      s[(signed long int)i] = (char)return_value_getchar$2;
+      signed int return_value_getchar_2;
+      return_value_getchar_2=getchar();
+      s[(signed long int)i] = (char)return_value_getchar_2;
     }
 
     if((signed int)s[(signed long int)i] == 0x4)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)s[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
-    if(i == n + -1 || tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)s[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
+    if(i == n + -1 || tmp_if_expr_3)
     {
       s[(signed long int)i] = (char)0;
       return 1;
@@ -1140,30 +1140,30 @@ signed int qs_getLine(char *s, signed int n)
 signed int qs_getLinef(char *s, signed int n, struct _IO_FILE *f)
 {
   signed int i = 0;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   while((_Bool)1)
   {
-    signed int return_value_fgetc$1;
-    return_value_fgetc$1=fgetc(f);
-    s[(signed long int)i] = (char)return_value_fgetc$1;
+    signed int return_value_fgetc_1;
+    return_value_fgetc_1=fgetc(f);
+    s[(signed long int)i] = (char)return_value_fgetc_1;
     if((signed int)s[(signed long int)i] == 13)
     {
-      signed int return_value_fgetc$2;
-      return_value_fgetc$2=fgetc(f);
-      s[(signed long int)i] = (char)return_value_fgetc$2;
+      signed int return_value_fgetc_2;
+      return_value_fgetc_2=fgetc(f);
+      s[(signed long int)i] = (char)return_value_fgetc_2;
     }
 
     if((signed int)s[(signed long int)i] == 0x4)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)s[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
-    if(i == n + -1 || tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)s[(signed long int)i] == 10 ? (_Bool)1 : (_Bool)0;
+    if(i == n + -1 || tmp_if_expr_4)
     {
       s[(signed long int)i] = (char)0;
-      signed int return_value_feof$3;
-      return_value_feof$3=feof(f);
-      return return_value_feof$3 != 0 ? 1 : 0;
+      signed int return_value_feof_3;
+      return_value_feof_3=feof(f);
+      return return_value_feof_3 != 0 ? 1 : 0;
     }
 
     i = i + 1;
@@ -1186,7 +1186,7 @@ void qs_man_print(signed int man, const char *fmt, ...)
     for( ; (signed int)bufin[(signed long int)i] == 32; i = i + 1)
       ;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while(!(bufin[(signed long int)i] == 0))
   {
     if(j >= 4000)
@@ -1195,11 +1195,11 @@ void qs_man_print(signed int man, const char *fmt, ...)
     if(!(man == 0))
     {
       if((signed int)bufin[(signed long int)i] == 92)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)bufin[(signed long int)i] == 45 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)bufin[(signed long int)i] == 45 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         bufout[(signed long int)j] = (char)92;
         j = j + 1;
@@ -1246,7 +1246,7 @@ void qs_man_println(signed int man, const char *fmt, ...)
   memset((void *)bufin, 0, (unsigned long int)4096);
   args = (void **)&fmt;
   vsprintf(bufin, fmt, args);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(bufin[(signed long int)i] == 0); j = j + 1)
   {
     if(j >= 4000)
@@ -1255,11 +1255,11 @@ void qs_man_println(signed int man, const char *fmt, ...)
     if(!(man == 0))
     {
       if((signed int)bufin[(signed long int)i] == 92)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)bufin[(signed long int)i] == 45 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)bufin[(signed long int)i] == 45 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         bufout[(signed long int)j] = (char)92;
         j = j + 1;
@@ -1292,11 +1292,11 @@ void qs_setTime(signed long int tme)
 // file qs_util.h line 72
 void qs_setuid(const char *username, const char *cmd)
 {
-  unsigned int return_value_getuid$3;
+  unsigned int return_value_getuid_3;
   if(!(username == ((const char *)NULL)))
   {
-    return_value_getuid$3=getuid();
-    if(return_value_getuid$3 == 0u)
+    return_value_getuid_3=getuid();
+    if(return_value_getuid_3 == 0u)
     {
       struct passwd *pwd;
       pwd=getpwnam(username);
@@ -1312,17 +1312,17 @@ void qs_setuid(const char *username, const char *cmd)
       gid = pwd->pw_gid;
       setgid(gid);
       setuid(uid);
-      unsigned int return_value_getuid$1;
-      return_value_getuid$1=getuid();
-      if(!(return_value_getuid$1 == uid))
+      unsigned int return_value_getuid_1;
+      return_value_getuid_1=getuid();
+      if(!(return_value_getuid_1 == uid))
       {
         fprintf(stderr, "[%s] setuid failed (%s,%d)\n", cmd, username, uid);
         exit(1);
       }
 
-      unsigned int return_value_getgid$2;
-      return_value_getgid$2=getgid();
-      if(!(return_value_getgid$2 == gid))
+      unsigned int return_value_getgid_2;
+      return_value_getgid_2=getgid();
+      if(!(return_value_getgid_2 == gid))
       {
         fprintf(stderr, "[%s] setgid failed (%d)\n", cmd, gid);
         exit(1);
@@ -1375,11 +1375,11 @@ static void rotate(const char *cmd, signed long int now, const char *file_name, 
     if(m_nLogFD >= 1)
     {
       rc=ftruncate(m_nLogFD, (signed long int)0);
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(msg);
-      signed long int return_value_write$2;
-      return_value_write$2=write(m_nLogFD, (const void *)msg, return_value_strlen$1);
-      rc = (signed int)return_value_write$2;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(msg);
+      signed long int return_value_write_2;
+      return_value_write_2=write(m_nLogFD, (const void *)msg, return_value_strlen_1);
+      rc = (signed int)return_value_write_2;
     }
 
   }
@@ -1390,9 +1390,9 @@ static void rotate(const char *cmd, signed long int now, const char *file_name, 
     if(!(m_compress == 0) || !(m_generations == -1))
     {
       signal(17, sigchild);
-      signed int return_value_fork$3;
-      return_value_fork$3=fork();
-      if(return_value_fork$3 == 0)
+      signed int return_value_fork_3;
+      return_value_fork_3=fork();
+      if(return_value_fork_3 == 0)
       {
         if(!(m_compress == 0))
           compressThread(cmd, arch);
@@ -1413,10 +1413,10 @@ static void rotate(const char *cmd, signed long int now, const char *file_name, 
 void sigchild(signed int signo)
 {
   signed int pid;
-  signed int sigchild$$1$$stat;
+  signed int sigchild__1__stat;
   do
   {
-    pid=waitpid(-1, &sigchild$$1$$stat, 1);
+    pid=waitpid(-1, &sigchild__1__stat, 1);
     if(!(pid >= 1))
       break;
 
@@ -1430,9 +1430,9 @@ static void usage(char *cmd, signed int man)
 {
   if(!(man == 0))
   {
-    char *return_value_qs_CMD$1;
-    return_value_qs_CMD$1=qs_CMD(cmd);
-    printf(".TH %s 1 \"%s\" \"mod_qos utilities %s\" \"%s man page\"\n", return_value_qs_CMD$1, (const void *)man_date, (const void *)man_version, cmd);
+    char *return_value_qs_CMD_1;
+    return_value_qs_CMD_1=qs_CMD(cmd);
+    printf(".TH %s 1 \"%s\" \"mod_qos utilities %s\" \"%s man page\"\n", return_value_qs_CMD_1, (const void *)man_date, (const void *)man_version, cmd);
   }
 
   printf("\n");

@@ -1,46 +1,46 @@
-// #anon_enum$JU_ERRNO_NONE=0$JU_ERRNO_FULL=1$JU_ERRNO_NFMAX=1$JU_ERRNO_NOMEM=2$JU_ERRNO_NULLPPARRAY=3$JU_ERRNO_NONNULLPARRAY=10$JU_ERRNO_NULLPINDEX=4$JU_ERRNO_NULLPVALUE=11$JU_ERRNO_NOTJUDY1=5$JU_ERRNO_NOTJUDYL=6$JU_ERRNO_NOTJUDYSL=7$JU_ERRNO_UNSORTED=12$JU_ERRNO_OVERRUN=8$JU_ERRNO_CORRUPT=9
+// #anon_enum_JU_ERRNO_NONE=0_JU_ERRNO_FULL=1_JU_ERRNO_NFMAX=1_JU_ERRNO_NOMEM=2_JU_ERRNO_NULLPPARRAY=3_JU_ERRNO_NONNULLPARRAY=10_JU_ERRNO_NULLPINDEX=4_JU_ERRNO_NULLPVALUE=11_JU_ERRNO_NOTJUDY1=5_JU_ERRNO_NOTJUDYL=6_JU_ERRNO_NOTJUDYSL=7_JU_ERRNO_UNSORTED=12_JU_ERRNO_OVERRUN=8_JU_ERRNO_CORRUPT=9
 // file /usr/include/Judy.h line 110
-enum anonymous$8 { JU_ERRNO_NONE=0, JU_ERRNO_FULL=1, JU_ERRNO_NFMAX=1, JU_ERRNO_NOMEM=2, JU_ERRNO_NULLPPARRAY=3, JU_ERRNO_NONNULLPARRAY=10, JU_ERRNO_NULLPINDEX=4, JU_ERRNO_NULLPVALUE=11, JU_ERRNO_NOTJUDY1=5, JU_ERRNO_NOTJUDYL=6, JU_ERRNO_NOTJUDYSL=7, JU_ERRNO_UNSORTED=12, JU_ERRNO_OVERRUN=8, JU_ERRNO_CORRUPT=9 };
+enum anonymous_8 { JU_ERRNO_NONE=0, JU_ERRNO_FULL=1, JU_ERRNO_NFMAX=1, JU_ERRNO_NOMEM=2, JU_ERRNO_NULLPPARRAY=3, JU_ERRNO_NONNULLPARRAY=10, JU_ERRNO_NULLPINDEX=4, JU_ERRNO_NULLPVALUE=11, JU_ERRNO_NOTJUDY1=5, JU_ERRNO_NOTJUDYL=6, JU_ERRNO_NOTJUDYSL=7, JU_ERRNO_UNSORTED=12, JU_ERRNO_OVERRUN=8, JU_ERRNO_CORRUPT=9 };
 
-// #anon_enum$byPtr=0$byU32=1$byU16=2
+// #anon_enum_byPtr=0_byU32=1_byU16=2
 // file ./fst/lz4.c line 445
-enum anonymous$3 { byPtr=0, byU32=1, byU16=2 };
+enum anonymous_3 { byPtr=0, byU32=1, byU16=2 };
 
-// #anon_enum$noDict=0$withPrefix64k=1$usingExtDict=2
+// #anon_enum_noDict=0_withPrefix64k=1_usingExtDict=2
 // file ./fst/lz4.c line 447
-enum anonymous$4 { noDict=0, withPrefix64k=1, usingExtDict=2 };
+enum anonymous_4 { noDict=0, withPrefix64k=1, usingExtDict=2 };
 
-// #anon_enum$noDictIssue=0$dictSmall=1
+// #anon_enum_noDictIssue=0_dictSmall=1
 // file ./fst/lz4.c line 448
-enum anonymous$5 { noDictIssue=0, dictSmall=1 };
+enum anonymous_5 { noDictIssue=0, dictSmall=1 };
 
-// #anon_enum$notLimited=0$limitedOutput=1
+// #anon_enum_notLimited=0_limitedOutput=1
 // file ./fst/lz4.c line 444
-enum anonymous$7 { notLimited=0, limitedOutput=1 };
+enum anonymous_7 { notLimited=0, limitedOutput=1 };
 
-// tag-#anon#ST[*{U8}$U8$'externalDict'||U64'extDictSize'||*{U8}$U8$'prefixEnd'||U64'prefixSize'|]
+// tag-#anon#ST[*{U8}_U8_'externalDict'||U64'extDictSize'||*{U8}_U8_'prefixEnd'||U64'prefixSize'|]
 // file ./fst/lz4.c line 1139
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[ARR2052{S64}$S64$'table'|]
+// tag-#anon#ST[ARR2052{S64}_S64_'table'|]
 // file ./fst/lz4.h line 184
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[ARR4096{U32}$U32$'hashTable'||U32'currentOffset'||U32'initCheck'||*{cU8}$cU8$'dictionary'||*{cU8}$cU8$'bufferStart'||U32'dictSize'||U32'$pad0'|]
+// tag-#anon#ST[ARR4096{U32}_U32_'hashTable'||U32'currentOffset'||U32'initCheck'||*{cU8}_cU8_'dictionary'||*{cU8}_cU8_'bufferStart'||U32'dictSize'||U32'_pad0'|]
 // file ./fst/lz4.c line 435
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[ARR4{U64}$U64$'table'|]
+// tag-#anon#ST[ARR4{U64}_U64_'table'|]
 // file ./fst/lz4.h line 242
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$1;
+union anonymous_1;
 
 // tag-#anon#UN[SYM#tag-fstHierScope#'scope'||SYM#tag-fstHierVar#'var'||SYM#tag-fstHierAttr#'attr'|]
 // file fst/fstapi.h line 286
@@ -177,22 +177,22 @@ signed int LZ4_compress(const char *source, char *dest, signed int inputSize);
 signed int LZ4_compressBound(signed int isize);
 // LZ4_compress_continue
 // file ./fst/lz4.c line 883
-signed int LZ4_compress_continue(struct anonymous$9 *LZ4_stream, const char *source, char *dest, signed int inputSize);
+signed int LZ4_compress_continue(struct anonymous_9 *LZ4_stream, const char *source, char *dest, signed int inputSize);
 // LZ4_compress_continue_generic
 // file ./fst/lz4.c line 833
-static inline signed int LZ4_compress_continue_generic(void *LZ4_stream, const char *source, char *dest, signed int inputSize, signed int maxOutputSize, enum anonymous$7 limit);
+static inline signed int LZ4_compress_continue_generic(void *LZ4_stream, const char *source, char *dest, signed int inputSize, signed int maxOutputSize, enum anonymous_7 limit);
 // LZ4_compress_forceExtDict
 // file ./fst/lz4.c line 895
-signed int LZ4_compress_forceExtDict(struct anonymous$9 *LZ4_dict, const char *source, char *dest, signed int inputSize);
+signed int LZ4_compress_forceExtDict(struct anonymous_9 *LZ4_dict, const char *source, char *dest, signed int inputSize);
 // LZ4_compress_generic
 // file ./fst/lz4.c line 498
-static signed int LZ4_compress_generic(void *ctx, const char *source, char *dest, signed int inputSize, signed int maxOutputSize, enum anonymous$7 outputLimited, enum anonymous$3 tableType, enum anonymous$4 dict, enum anonymous$5 dictIssue);
+static signed int LZ4_compress_generic(void *ctx, const char *source, char *dest, signed int inputSize, signed int maxOutputSize, enum anonymous_7 outputLimited, enum anonymous_3 tableType, enum anonymous_4 dict, enum anonymous_5 dictIssue);
 // LZ4_compress_limitedOutput
 // file ./fst/lz4.c line 730
 signed int LZ4_compress_limitedOutput(const char *source, char *dest, signed int inputSize, signed int maxOutputSize);
 // LZ4_compress_limitedOutput_continue
 // file ./fst/lz4.c line 888
-signed int LZ4_compress_limitedOutput_continue(struct anonymous$9 *LZ4_stream, const char *source, char *dest, signed int inputSize, signed int maxOutputSize);
+signed int LZ4_compress_limitedOutput_continue(struct anonymous_9 *LZ4_stream, const char *source, char *dest, signed int inputSize, signed int maxOutputSize);
 // LZ4_compress_limitedOutput_withState
 // file ./fst/lz4.c line 1343
 signed int LZ4_compress_limitedOutput_withState(void *state, const char *source, char *dest, signed int inputSize, signed int maxOutputSize);
@@ -213,16 +213,16 @@ static unsigned int LZ4_count(const unsigned char *pIn, const unsigned char *pMa
 void * LZ4_create(const char *inputBuffer);
 // LZ4_createStream
 // file ./fst/lz4.c line 765
-struct anonymous$9 * LZ4_createStream(void);
+struct anonymous_9 * LZ4_createStream(void);
 // LZ4_createStreamDecode
 // file ./fst/lz4.c line 1152
-struct anonymous$10 * LZ4_createStreamDecode(void);
+struct anonymous_10 * LZ4_createStreamDecode(void);
 // LZ4_decompress_fast
 // file ./fst/lz4.c line 1131
 signed int LZ4_decompress_fast(const char *source, char *dest, signed int originalSize);
 // LZ4_decompress_fast_continue
 // file ./fst/lz4.c line 1217
-signed int LZ4_decompress_fast_continue(struct anonymous$10 *LZ4_streamDecode, const char *source, char *dest, signed int originalSize);
+signed int LZ4_decompress_fast_continue(struct anonymous_10 *LZ4_streamDecode, const char *source, char *dest, signed int originalSize);
 // LZ4_decompress_fast_usingDict
 // file ./fst/lz4.c line 1272
 signed int LZ4_decompress_fast_usingDict(const char *source, char *dest, signed int originalSize, const char *dictStart, signed int dictSize);
@@ -237,7 +237,7 @@ static inline signed int LZ4_decompress_generic(const char * const source, char 
 signed int LZ4_decompress_safe(const char *source, char *dest, signed int compressedSize, signed int maxDecompressedSize);
 // LZ4_decompress_safe_continue
 // file ./fst/lz4.c line 1188
-signed int LZ4_decompress_safe_continue(struct anonymous$10 *LZ4_streamDecode, const char *source, char *dest, signed int compressedSize, signed int maxOutputSize);
+signed int LZ4_decompress_safe_continue(struct anonymous_10 *LZ4_streamDecode, const char *source, char *dest, signed int compressedSize, signed int maxOutputSize);
 // LZ4_decompress_safe_forceExtDict
 // file ./fst/lz4.c line 1278
 signed int LZ4_decompress_safe_forceExtDict(const char *source, char *dest, signed int compressedSize, signed int maxOutputSize, const char *dictStart, signed int dictSize);
@@ -255,37 +255,37 @@ signed int LZ4_decompress_safe_withPrefix64k(const char *source, char *dest, sig
 static inline signed int LZ4_decompress_usingDict_generic(const char *source, char *dest, signed int compressedSize, signed int maxOutputSize, signed int safe, const char *dictStart, signed int dictSize);
 // LZ4_freeStream
 // file ./fst/lz4.c line 773
-signed int LZ4_freeStream(struct anonymous$9 *LZ4_stream);
+signed int LZ4_freeStream(struct anonymous_9 *LZ4_stream);
 // LZ4_freeStreamDecode
 // file ./fst/lz4.c line 1158
-signed int LZ4_freeStreamDecode(struct anonymous$10 *LZ4_stream);
+signed int LZ4_freeStreamDecode(struct anonymous_10 *LZ4_stream);
 // LZ4_getPosition
 // file ./fst/lz4.c line 492
-static const unsigned char * LZ4_getPosition(const unsigned char *p, void *tableBase, enum anonymous$3 tableType, const unsigned char *srcBase);
+static const unsigned char * LZ4_getPosition(const unsigned char *p, void *tableBase, enum anonymous_3 tableType, const unsigned char *srcBase);
 // LZ4_getPositionOnHash
 // file ./fst/lz4.c line 485
-static const unsigned char * LZ4_getPositionOnHash(unsigned int h, void *tableBase, enum anonymous$3 tableType, const unsigned char *srcBase);
+static const unsigned char * LZ4_getPositionOnHash(unsigned int h, void *tableBase, enum anonymous_3 tableType, const unsigned char *srcBase);
 // LZ4_hashPosition
 // file ./fst/lz4.c line 467
-static unsigned int LZ4_hashPosition(const unsigned char *p, enum anonymous$3 tableType);
+static unsigned int LZ4_hashPosition(const unsigned char *p, enum anonymous_3 tableType);
 // LZ4_hashSequence
 // file ./fst/lz4.c line 459
-static unsigned int LZ4_hashSequence(unsigned int sequence, enum anonymous$3 tableType);
+static unsigned int LZ4_hashSequence(unsigned int sequence, enum anonymous_3 tableType);
 // LZ4_init
 // file ./fst/lz4.c line 1301
-static void LZ4_init(struct anonymous$6 *lz4ds, const unsigned char *base);
+static void LZ4_init(struct anonymous_6 *lz4ds, const unsigned char *base);
 // LZ4_isLittleEndian
 // file ./fst/lz4.c line 180
 static unsigned int LZ4_isLittleEndian(void);
 // LZ4_loadDict
 // file ./fst/lz4.c line 780
-signed int LZ4_loadDict(struct anonymous$9 *LZ4_dict, const char *dictionary, signed int dictSize);
+signed int LZ4_loadDict(struct anonymous_9 *LZ4_dict, const char *dictionary, signed int dictSize);
 // LZ4_putPosition
 // file ./fst/lz4.c line 479
-static void LZ4_putPosition(const unsigned char *p, void *tableBase, enum anonymous$3 tableType, const unsigned char *srcBase);
+static void LZ4_putPosition(const unsigned char *p, void *tableBase, enum anonymous_3 tableType, const unsigned char *srcBase);
 // LZ4_putPositionOnHash
 // file ./fst/lz4.c line 469
-static void LZ4_putPositionOnHash(const unsigned char *p, unsigned int h, void *tableBase, enum anonymous$3 tableType, const unsigned char *srcBase);
+static void LZ4_putPositionOnHash(const unsigned char *p, unsigned int h, void *tableBase, enum anonymous_3 tableType, const unsigned char *srcBase);
 // LZ4_read16
 // file ./fst/lz4.c line 214
 static unsigned short int LZ4_read16(const void *memPtr);
@@ -303,19 +303,19 @@ static unsigned short int LZ4_readLE16(const void *memPtr);
 static unsigned long int LZ4_read_ARCH(const void *p);
 // LZ4_renormDictT
 // file ./fst/lz4.c line 812
-static void LZ4_renormDictT(struct anonymous$6 *LZ4_dict, const unsigned char *src);
+static void LZ4_renormDictT(struct anonymous_6 *LZ4_dict, const unsigned char *src);
 // LZ4_resetStream
 // file ./fst/lz4.c line 760
-void LZ4_resetStream(struct anonymous$9 *LZ4_stream);
+void LZ4_resetStream(struct anonymous_9 *LZ4_stream);
 // LZ4_resetStreamState
 // file ./fst/lz4.c line 1307
 signed int LZ4_resetStreamState(void *state, const char *inputBuffer);
 // LZ4_saveDict
 // file ./fst/lz4.c line 915
-signed int LZ4_saveDict(struct anonymous$9 *LZ4_dict, char *safeBuffer, signed int dictSize);
+signed int LZ4_saveDict(struct anonymous_9 *LZ4_dict, char *safeBuffer, signed int dictSize);
 // LZ4_setStreamDecode
 // file ./fst/lz4.c line 1171
-signed int LZ4_setStreamDecode(struct anonymous$10 *LZ4_streamDecode, const char *dictionary, signed int dictSize);
+signed int LZ4_setStreamDecode(struct anonymous_10 *LZ4_streamDecode, const char *dictionary, signed int dictSize);
 // LZ4_sizeofState
 // file ./fst/lz4.c line 1330
 signed int LZ4_sizeofState(void);
@@ -565,15 +565,15 @@ signed int fstReaderIterBlocks(void *ctx, void (*value_change_callback)(void *, 
 // fstReaderIterBlocks2
 // file fst/fstapi.h line 400
 signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *, unsigned long int, unsigned int, const unsigned char *), void (*value_change_callback_varlen)(void *, unsigned long int, unsigned int, const unsigned char *, unsigned int), void *user_callback_data_pointer, struct _IO_FILE *fv);
-// fstReaderIterBlocks2::value_change_callback$object
+// fstReaderIterBlocks2::value_change_callback_object
 //
-void value_change_callback$object(void *, unsigned long int, unsigned int, const unsigned char *);
-// fstReaderIterBlocks2::value_change_callback_varlen$object
+void value_change_callback_object(void *, unsigned long int, unsigned int, const unsigned char *);
+// fstReaderIterBlocks2::value_change_callback_varlen_object
 //
-void value_change_callback_varlen$object(void *, unsigned long int, unsigned int, const unsigned char *, unsigned int);
-// fstReaderIterBlocks::value_change_callback$object
+void value_change_callback_varlen_object(void *, unsigned long int, unsigned int, const unsigned char *, unsigned int);
+// fstReaderIterBlocks::value_change_callback_object
 //
-void value_change_callback$object(void *, unsigned long int, unsigned int, const unsigned char *);
+void value_change_callback_object(void *, unsigned long int, unsigned int, const unsigned char *);
 // fstReaderIterBlocksSetNativeDoublesOnCallback
 // file ./fst/fstapi.c line 3556
 void fstReaderIterBlocksSetNativeDoublesOnCallback(void *ctx, signed int enable);
@@ -861,16 +861,16 @@ extern signed int pthread_attr_setdetachstate(union pthread_attr_t *, signed int
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$1 *);
+extern signed int pthread_mutex_destroy(union anonymous_1 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$1 *, const union anonymous$2 *);
+extern signed int pthread_mutex_init(union anonymous_1 *, const union anonymous_2 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$1 *);
+extern signed int pthread_mutex_lock(union anonymous_1 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$1 *);
+extern signed int pthread_mutex_unlock(union anonymous_1 *);
 // realloc
 // file /usr/include/stdlib.h line 480
 extern void * realloc(void *, unsigned long int);
@@ -953,7 +953,7 @@ static void vcd_callback2(void *lt, unsigned long int pnt_time, unsigned int pnt
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$11
+struct anonymous_11
 {
   // externalDict
   unsigned char *externalDict;
@@ -965,13 +965,13 @@ struct anonymous$11
   unsigned long int prefixSize;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // table
   signed long long int table[2052l];
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // hashTable
   unsigned int hashTable[4096l];
@@ -987,13 +987,13 @@ struct anonymous$6
   unsigned int dictSize;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // table
   unsigned long long int table[4l];
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __size
   char __size[4l];
@@ -1029,7 +1029,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1106,7 +1106,7 @@ union anonymous
 struct J_UDY_ERROR_STRUCT
 {
   // je_Errno
-  enum anonymous$8 je_Errno;
+  enum anonymous_8 je_Errno;
   // je_ErrID
   signed int je_ErrID;
   // je_reserved
@@ -1454,7 +1454,7 @@ struct fstWriterContext
   // already_in_close
   unsigned char already_in_close;
   // mutex
-  union anonymous$1 mutex;
+  union anonymous_1 mutex;
   // thread
   unsigned long int thread;
   // thread_attr
@@ -1613,43 +1613,43 @@ static unsigned int LZ4_64bits(void)
 // file ./fst/lz4.c line 327
 static unsigned int LZ4_NbCommonBytes(unsigned long int val)
 {
-  unsigned int return_value_LZ4_isLittleEndian$7;
-  return_value_LZ4_isLittleEndian$7=LZ4_isLittleEndian();
-  if(!(return_value_LZ4_isLittleEndian$7 == 0u))
+  unsigned int return_value_LZ4_isLittleEndian_7;
+  return_value_LZ4_isLittleEndian_7=LZ4_isLittleEndian();
+  if(!(return_value_LZ4_isLittleEndian_7 == 0u))
   {
-    unsigned int return_value_LZ4_64bits$3;
-    return_value_LZ4_64bits$3=LZ4_64bits();
-    if(!(return_value_LZ4_64bits$3 == 0u))
+    unsigned int return_value_LZ4_64bits_3;
+    return_value_LZ4_64bits_3=LZ4_64bits();
+    if(!(return_value_LZ4_64bits_3 == 0u))
     {
-      signed int return_value___builtin_ctzll$1;
-      return_value___builtin_ctzll$1=__builtin_ctzll((unsigned long int)val);
-      return (unsigned int)(return_value___builtin_ctzll$1 >> 3);
+      signed int return_value___builtin_ctzll_1;
+      return_value___builtin_ctzll_1=__builtin_ctzll((unsigned long int)val);
+      return (unsigned int)(return_value___builtin_ctzll_1 >> 3);
     }
 
     else
     {
-      signed int return_value___builtin_ctz$2;
-      return_value___builtin_ctz$2=__builtin_ctz((unsigned int)val);
-      return (unsigned int)(return_value___builtin_ctz$2 >> 3);
+      signed int return_value___builtin_ctz_2;
+      return_value___builtin_ctz_2=__builtin_ctz((unsigned int)val);
+      return (unsigned int)(return_value___builtin_ctz_2 >> 3);
     }
   }
 
   else
   {
-    unsigned int return_value_LZ4_64bits$6;
-    return_value_LZ4_64bits$6=LZ4_64bits();
-    if(!(return_value_LZ4_64bits$6 == 0u))
+    unsigned int return_value_LZ4_64bits_6;
+    return_value_LZ4_64bits_6=LZ4_64bits();
+    if(!(return_value_LZ4_64bits_6 == 0u))
     {
-      signed int return_value___builtin_clzll$4;
-      return_value___builtin_clzll$4=__builtin_clzll(val);
-      return (unsigned int)(return_value___builtin_clzll$4 >> 3);
+      signed int return_value___builtin_clzll_4;
+      return_value___builtin_clzll_4=__builtin_clzll(val);
+      return (unsigned int)(return_value___builtin_clzll_4 >> 3);
     }
 
     else
     {
-      signed int return_value___builtin_clz$5;
-      return_value___builtin_clz$5=__builtin_clz((unsigned int)val);
-      return (unsigned int)(return_value___builtin_clz$5 >> 3);
+      signed int return_value___builtin_clz_5;
+      return_value___builtin_clz_5=__builtin_clz((unsigned int)val);
+      return (unsigned int)(return_value___builtin_clz_5 >> 3);
     }
   }
 }
@@ -1660,14 +1660,14 @@ signed int LZ4_compress(const char *source, char *dest, signed int inputSize)
 {
   unsigned long int ctx[2052l] = { (unsigned long int)0, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul };
   signed int result;
-  unsigned int return_value_LZ4_64bits$1;
+  unsigned int return_value_LZ4_64bits_1;
   if(!(inputSize >= LZ4_64Klimit))
-    result=LZ4_compress_generic((void *)ctx, source, dest, inputSize, 0, (enum anonymous$7)notLimited, (enum anonymous$3)byU16, (enum anonymous$4)noDict, (enum anonymous$5)noDictIssue);
+    result=LZ4_compress_generic((void *)ctx, source, dest, inputSize, 0, (enum anonymous_7)notLimited, (enum anonymous_3)byU16, (enum anonymous_4)noDict, (enum anonymous_5)noDictIssue);
 
   else
   {
-    return_value_LZ4_64bits$1=LZ4_64bits();
-    result=LZ4_compress_generic((void *)ctx, source, dest, inputSize, 0, (enum anonymous$7)notLimited, (enum anonymous$3)(return_value_LZ4_64bits$1 != 0u ? byU32 : byPtr), (enum anonymous$4)noDict, (enum anonymous$5)noDictIssue);
+    return_value_LZ4_64bits_1=LZ4_64bits();
+    result=LZ4_compress_generic((void *)ctx, source, dest, inputSize, 0, (enum anonymous_7)notLimited, (enum anonymous_3)(return_value_LZ4_64bits_1 != 0u ? byU32 : byPtr), (enum anonymous_4)noDict, (enum anonymous_5)noDictIssue);
   }
   return result;
 }
@@ -1681,22 +1681,22 @@ signed int LZ4_compressBound(signed int isize)
 
 // LZ4_compress_continue
 // file ./fst/lz4.c line 883
-signed int LZ4_compress_continue(struct anonymous$9 *LZ4_stream, const char *source, char *dest, signed int inputSize)
+signed int LZ4_compress_continue(struct anonymous_9 *LZ4_stream, const char *source, char *dest, signed int inputSize)
 {
-  signed int return_value_LZ4_compress_continue_generic$1;
-  return_value_LZ4_compress_continue_generic$1=LZ4_compress_continue_generic((void *)LZ4_stream, source, dest, inputSize, 0, (enum anonymous$7)notLimited);
-  return return_value_LZ4_compress_continue_generic$1;
+  signed int return_value_LZ4_compress_continue_generic_1;
+  return_value_LZ4_compress_continue_generic_1=LZ4_compress_continue_generic((void *)LZ4_stream, source, dest, inputSize, 0, (enum anonymous_7)notLimited);
+  return return_value_LZ4_compress_continue_generic_1;
 }
 
 // LZ4_compress_continue_generic
 // file ./fst/lz4.c line 833
-static inline signed int LZ4_compress_continue_generic(void *LZ4_stream, const char *source, char *dest, signed int inputSize, signed int maxOutputSize, enum anonymous$7 limit)
+static inline signed int LZ4_compress_continue_generic(void *LZ4_stream, const char *source, char *dest, signed int inputSize, signed int maxOutputSize, enum anonymous_7 limit)
 {
-  struct anonymous$6 *streamPtr = (struct anonymous$6 *)LZ4_stream;
+  struct anonymous_6 *streamPtr = (struct anonymous_6 *)LZ4_stream;
   const unsigned char * const dictEnd = streamPtr->dictionary + (signed long int)streamPtr->dictSize;
   const unsigned char *smallest = (const unsigned char *)source;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!(streamPtr->initCheck == 0u))
     return 0;
 
@@ -1731,51 +1731,51 @@ static inline signed int LZ4_compress_continue_generic(void *LZ4_stream, const c
     {
       signed int result;
       if(!(streamPtr->dictSize >= 65536u))
-        tmp_if_expr$1 = streamPtr->dictSize < streamPtr->currentOffset ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = streamPtr->dictSize < streamPtr->currentOffset ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
-        result=LZ4_compress_generic(LZ4_stream, source, dest, inputSize, maxOutputSize, limit, (enum anonymous$3)byU32, (enum anonymous$4)withPrefix64k, (enum anonymous$5)dictSmall);
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
+        result=LZ4_compress_generic(LZ4_stream, source, dest, inputSize, maxOutputSize, limit, (enum anonymous_3)byU32, (enum anonymous_4)withPrefix64k, (enum anonymous_5)dictSmall);
 
       else
-        result=LZ4_compress_generic(LZ4_stream, source, dest, inputSize, maxOutputSize, limit, (enum anonymous$3)byU32, (enum anonymous$4)withPrefix64k, (enum anonymous$5)noDictIssue);
+        result=LZ4_compress_generic(LZ4_stream, source, dest, inputSize, maxOutputSize, limit, (enum anonymous_3)byU32, (enum anonymous_4)withPrefix64k, (enum anonymous_5)noDictIssue);
       streamPtr->dictSize = streamPtr->dictSize + (unsigned int)inputSize;
       streamPtr->currentOffset = streamPtr->currentOffset + (unsigned int)inputSize;
       return result;
     }
 
-    signed int LZ4_compress_continue_generic$$1$$3$$result;
+    signed int LZ4_compress_continue_generic__1__3__result;
     if(!(streamPtr->dictSize >= 65536u))
-      tmp_if_expr$2 = streamPtr->dictSize < streamPtr->currentOffset ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = streamPtr->dictSize < streamPtr->currentOffset ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
-      LZ4_compress_continue_generic$$1$$3$$result=LZ4_compress_generic(LZ4_stream, source, dest, inputSize, maxOutputSize, limit, (enum anonymous$3)byU32, (enum anonymous$4)usingExtDict, (enum anonymous$5)dictSmall);
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
+      LZ4_compress_continue_generic__1__3__result=LZ4_compress_generic(LZ4_stream, source, dest, inputSize, maxOutputSize, limit, (enum anonymous_3)byU32, (enum anonymous_4)usingExtDict, (enum anonymous_5)dictSmall);
 
     else
-      LZ4_compress_continue_generic$$1$$3$$result=LZ4_compress_generic(LZ4_stream, source, dest, inputSize, maxOutputSize, limit, (enum anonymous$3)byU32, (enum anonymous$4)usingExtDict, (enum anonymous$5)noDictIssue);
+      LZ4_compress_continue_generic__1__3__result=LZ4_compress_generic(LZ4_stream, source, dest, inputSize, maxOutputSize, limit, (enum anonymous_3)byU32, (enum anonymous_4)usingExtDict, (enum anonymous_5)noDictIssue);
     streamPtr->dictionary = (const unsigned char *)source;
     streamPtr->dictSize = (unsigned int)inputSize;
     streamPtr->currentOffset = streamPtr->currentOffset + (unsigned int)inputSize;
-    return LZ4_compress_continue_generic$$1$$3$$result;
+    return LZ4_compress_continue_generic__1__3__result;
   }
 }
 
 // LZ4_compress_forceExtDict
 // file ./fst/lz4.c line 895
-signed int LZ4_compress_forceExtDict(struct anonymous$9 *LZ4_dict, const char *source, char *dest, signed int inputSize)
+signed int LZ4_compress_forceExtDict(struct anonymous_9 *LZ4_dict, const char *source, char *dest, signed int inputSize)
 {
-  struct anonymous$6 *streamPtr = (struct anonymous$6 *)LZ4_dict;
+  struct anonymous_6 *streamPtr = (struct anonymous_6 *)LZ4_dict;
   signed int result;
   const unsigned char * const dictEnd = streamPtr->dictionary + (signed long int)streamPtr->dictSize;
   const unsigned char *smallest = dictEnd;
   if(!((const unsigned char *)source >= smallest))
     smallest = (const unsigned char *)source;
 
-  LZ4_renormDictT((struct anonymous$6 *)LZ4_dict, smallest);
-  result=LZ4_compress_generic((void *)LZ4_dict, source, dest, inputSize, 0, (enum anonymous$7)notLimited, (enum anonymous$3)byU32, (enum anonymous$4)usingExtDict, (enum anonymous$5)noDictIssue);
+  LZ4_renormDictT((struct anonymous_6 *)LZ4_dict, smallest);
+  result=LZ4_compress_generic((void *)LZ4_dict, source, dest, inputSize, 0, (enum anonymous_7)notLimited, (enum anonymous_3)byU32, (enum anonymous_4)usingExtDict, (enum anonymous_5)noDictIssue);
   streamPtr->dictionary = (const unsigned char *)source;
   streamPtr->dictSize = (unsigned int)inputSize;
   streamPtr->currentOffset = streamPtr->currentOffset + (unsigned int)inputSize;
@@ -1784,9 +1784,9 @@ signed int LZ4_compress_forceExtDict(struct anonymous$9 *LZ4_dict, const char *s
 
 // LZ4_compress_generic
 // file ./fst/lz4.c line 498
-static signed int LZ4_compress_generic(void *ctx, const char *source, char *dest, signed int inputSize, signed int maxOutputSize, enum anonymous$7 outputLimited, enum anonymous$3 tableType, enum anonymous$4 dict, enum anonymous$5 dictIssue)
+static signed int LZ4_compress_generic(void *ctx, const char *source, char *dest, signed int inputSize, signed int maxOutputSize, enum anonymous_7 outputLimited, enum anonymous_3 tableType, enum anonymous_4 dict, enum anonymous_5 dictIssue)
 {
-  struct anonymous$6 * const dictPtr = (struct anonymous$6 *)ctx;
+  struct anonymous_6 * const dictPtr = (struct anonymous_6 *)ctx;
   const unsigned char *ip = (const unsigned char *)source;
   const unsigned char *base;
   const unsigned char *lowLimit;
@@ -1802,24 +1802,24 @@ static signed int LZ4_compress_generic(void *ctx, const char *source, char *dest
   unsigned char * const olimit = op + (signed long int)maxOutputSize;
   unsigned int forwardH;
   unsigned long int refDelta = (unsigned long int)0;
-  unsigned int tmp_post$4;
-  _Bool tmp_if_expr$3;
-  unsigned int return_value_LZ4_read32$1;
-  unsigned int return_value_LZ4_read32$2;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
-  unsigned char *tmp_post$8;
-  unsigned char *tmp_post$9;
-  unsigned char *tmp_post$10;
-  unsigned char *tmp_post$11;
-  unsigned int return_value_LZ4_read32$13;
-  unsigned int return_value_LZ4_read32$14;
-  unsigned char *tmp_post$12;
-  unsigned char *tmp_post$15;
-  unsigned char *tmp_post$16;
-  unsigned char *tmp_post$17;
-  unsigned char *tmp_post$18;
+  unsigned int tmp_post_4;
+  _Bool tmp_if_expr_3;
+  unsigned int return_value_LZ4_read32_1;
+  unsigned int return_value_LZ4_read32_2;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
+  unsigned char *tmp_post_8;
+  unsigned char *tmp_post_9;
+  unsigned char *tmp_post_10;
+  unsigned char *tmp_post_11;
+  unsigned int return_value_LZ4_read32_13;
+  unsigned int return_value_LZ4_read32_14;
+  unsigned char *tmp_post_12;
+  unsigned char *tmp_post_15;
+  unsigned char *tmp_post_16;
+  unsigned char *tmp_post_17;
+  unsigned char *tmp_post_18;
   if((unsigned int)inputSize >= 2113929217u)
     return 0;
 
@@ -1857,7 +1857,7 @@ static signed int LZ4_compress_generic(void *ctx, const char *source, char *dest
         forwardH=LZ4_hashPosition(ip, tableType);
         do
         {
-          const unsigned char *LZ4_compress_generic$$1$$2$$1$$match;
+          const unsigned char *LZ4_compress_generic__1__2__1__match;
           unsigned char *token;
           const unsigned char *forwardIp = ip;
           unsigned int step = (unsigned int)1;
@@ -1867,16 +1867,16 @@ static signed int LZ4_compress_generic(void *ctx, const char *source, char *dest
             unsigned int h = forwardH;
             ip = forwardIp;
             forwardIp = forwardIp + (signed long int)step;
-            tmp_post$4 = searchMatchNb;
+            tmp_post_4 = searchMatchNb;
             searchMatchNb = searchMatchNb + 1u;
-            step = tmp_post$4 >> LZ4_skipTrigger;
+            step = tmp_post_4 >> LZ4_skipTrigger;
             if(!(mflimit >= forwardIp))
               goto _last_literals;
 
-            LZ4_compress_generic$$1$$2$$1$$match=LZ4_getPositionOnHash(h, ctx, tableType, base);
+            LZ4_compress_generic__1__2__1__match=LZ4_getPositionOnHash(h, ctx, tableType, base);
             if((signed int)dict == usingExtDict)
             {
-              if(!(LZ4_compress_generic$$1$$2$$1$$match >= (const unsigned char *)source))
+              if(!(LZ4_compress_generic__1__2__1__match >= (const unsigned char *)source))
               {
                 refDelta = dictDelta;
                 lowLimit = dictionary;
@@ -1891,31 +1891,31 @@ static signed int LZ4_compress_generic(void *ctx, const char *source, char *dest
 
             forwardH=LZ4_hashPosition(forwardIp, tableType);
             LZ4_putPositionOnHash(ip, h, ctx, tableType, base);
-            if((signed int)dictIssue == dictSmall && !(LZ4_compress_generic$$1$$2$$1$$match >= lowRefLimit) || !((signed int)tableType == byU16) && !(LZ4_compress_generic$$1$$2$$1$$match + 65535l >= ip))
-              tmp_if_expr$3 = (_Bool)1;
+            if((signed int)dictIssue == dictSmall && !(LZ4_compress_generic__1__2__1__match >= lowRefLimit) || !((signed int)tableType == byU16) && !(LZ4_compress_generic__1__2__1__match + 65535l >= ip))
+              tmp_if_expr_3 = (_Bool)1;
 
             else
             {
-              return_value_LZ4_read32$1=LZ4_read32((const void *)(LZ4_compress_generic$$1$$2$$1$$match + (signed long int)refDelta));
-              return_value_LZ4_read32$2=LZ4_read32((const void *)ip);
-              tmp_if_expr$3 = return_value_LZ4_read32$1 != return_value_LZ4_read32$2 ? (_Bool)1 : (_Bool)0;
+              return_value_LZ4_read32_1=LZ4_read32((const void *)(LZ4_compress_generic__1__2__1__match + (signed long int)refDelta));
+              return_value_LZ4_read32_2=LZ4_read32((const void *)ip);
+              tmp_if_expr_3 = return_value_LZ4_read32_1 != return_value_LZ4_read32_2 ? (_Bool)1 : (_Bool)0;
             }
           }
-          while(tmp_if_expr$3);
-          for( ; !(anchor >= ip); LZ4_compress_generic$$1$$2$$1$$match = LZ4_compress_generic$$1$$2$$1$$match - 1l)
+          while(tmp_if_expr_3);
+          for( ; !(anchor >= ip); LZ4_compress_generic__1__2__1__match = LZ4_compress_generic__1__2__1__match - 1l)
           {
-            if(lowLimit >= LZ4_compress_generic$$1$$2$$1$$match + (signed long int)refDelta)
+            if(lowLimit >= LZ4_compress_generic__1__2__1__match + (signed long int)refDelta)
               break;
 
-            if(!(ip[-1l] == LZ4_compress_generic$$1$$2$$1$$match[-1l + (signed long int)refDelta]))
+            if(!(ip[-1l] == LZ4_compress_generic__1__2__1__match[-1l + (signed long int)refDelta]))
               break;
 
             ip = ip - 1l;
           }
           unsigned int litLength = (unsigned int)(ip - anchor);
-          tmp_post$5 = op;
+          tmp_post_5 = op;
           op = op + 1l;
-          token = tmp_post$5;
+          token = tmp_post_5;
           if(!(olimit >= op + (signed long int)litLength + 8l + (signed long int)(litLength / 255u)) && !(outputLimited == /*enum*/notLimited))
             return 0;
 
@@ -1925,13 +1925,13 @@ static signed int LZ4_compress_generic(void *ctx, const char *source, char *dest
             *token = (unsigned char)((1U << 8 - 4) - (unsigned int)1 << 4);
             for( ; len >= 255; len = len - 255)
             {
-              tmp_post$6 = op;
+              tmp_post_6 = op;
               op = op + 1l;
-              *tmp_post$6 = (unsigned char)255;
+              *tmp_post_6 = (unsigned char)255;
             }
-            tmp_post$7 = op;
+            tmp_post_7 = op;
             op = op + 1l;
-            *tmp_post$7 = (unsigned char)len;
+            *tmp_post_7 = (unsigned char)len;
           }
 
           else
@@ -1943,18 +1943,18 @@ static signed int LZ4_compress_generic(void *ctx, const char *source, char *dest
 
           _next_match:
             ;
-            LZ4_writeLE16((void *)op, (unsigned short int)(ip - LZ4_compress_generic$$1$$2$$1$$match));
+            LZ4_writeLE16((void *)op, (unsigned short int)(ip - LZ4_compress_generic__1__2__1__match));
             op = op + (signed long int)2;
             unsigned int matchLength;
             if(lowLimit == dictionary && (signed int)dict == usingExtDict)
             {
               const unsigned char *limit;
-              LZ4_compress_generic$$1$$2$$1$$match = LZ4_compress_generic$$1$$2$$1$$match + (signed long int)refDelta;
-              limit = ip + (dictEnd - LZ4_compress_generic$$1$$2$$1$$match);
+              LZ4_compress_generic__1__2__1__match = LZ4_compress_generic__1__2__1__match + (signed long int)refDelta;
+              limit = ip + (dictEnd - LZ4_compress_generic__1__2__1__match);
               if(!(matchlimit >= limit))
                 limit = matchlimit;
 
-              matchLength=LZ4_count(ip + (signed long int)4, LZ4_compress_generic$$1$$2$$1$$match + (signed long int)4, limit);
+              matchLength=LZ4_count(ip + (signed long int)4, LZ4_compress_generic__1__2__1__match + (signed long int)4, limit);
               ip = ip + (signed long int)((unsigned int)4 + matchLength);
               if(ip == limit)
               {
@@ -1968,7 +1968,7 @@ static signed int LZ4_compress_generic(void *ctx, const char *source, char *dest
 
             else
             {
-              matchLength=LZ4_count(ip + (signed long int)4, LZ4_compress_generic$$1$$2$$1$$match + (signed long int)4, matchlimit);
+              matchLength=LZ4_count(ip + (signed long int)4, LZ4_compress_generic__1__2__1__match + (signed long int)4, matchlimit);
               ip = ip + (signed long int)((unsigned int)4 + matchLength);
             }
             if(!(olimit >= op + 6l + (signed long int)(matchLength >> 8)) && !(outputLimited == /*enum*/notLimited))
@@ -1980,24 +1980,24 @@ static signed int LZ4_compress_generic(void *ctx, const char *source, char *dest
               matchLength = matchLength - ((1U << 4) - (unsigned int)1);
               for( ; matchLength >= 510u; matchLength = matchLength - (unsigned int)510)
               {
-                tmp_post$8 = op;
+                tmp_post_8 = op;
                 op = op + 1l;
-                *tmp_post$8 = (unsigned char)255;
-                tmp_post$9 = op;
+                *tmp_post_8 = (unsigned char)255;
+                tmp_post_9 = op;
                 op = op + 1l;
-                *tmp_post$9 = (unsigned char)255;
+                *tmp_post_9 = (unsigned char)255;
               }
               if(matchLength >= 255u)
               {
                 matchLength = matchLength - (unsigned int)255;
-                tmp_post$10 = op;
+                tmp_post_10 = op;
                 op = op + 1l;
-                *tmp_post$10 = (unsigned char)255;
+                *tmp_post_10 = (unsigned char)255;
               }
 
-              tmp_post$11 = op;
+              tmp_post_11 = op;
               op = op + 1l;
-              *tmp_post$11 = (unsigned char)matchLength;
+              *tmp_post_11 = (unsigned char)matchLength;
             }
 
             else
@@ -2007,10 +2007,10 @@ static signed int LZ4_compress_generic(void *ctx, const char *source, char *dest
               goto _last_literals;
 
             LZ4_putPosition(ip - (signed long int)2, ctx, tableType, base);
-            LZ4_compress_generic$$1$$2$$1$$match=LZ4_getPosition(ip, ctx, tableType, base);
+            LZ4_compress_generic__1__2__1__match=LZ4_getPosition(ip, ctx, tableType, base);
             if((signed int)dict == usingExtDict)
             {
-              if(!(LZ4_compress_generic$$1$$2$$1$$match >= (const unsigned char *)source))
+              if(!(LZ4_compress_generic__1__2__1__match >= (const unsigned char *)source))
               {
                 refDelta = dictDelta;
                 lowLimit = dictionary;
@@ -2024,17 +2024,17 @@ static signed int LZ4_compress_generic(void *ctx, const char *source, char *dest
             }
 
             LZ4_putPosition(ip, ctx, tableType, base);
-            if(!(LZ4_compress_generic$$1$$2$$1$$match + 65535l >= ip) || !(LZ4_compress_generic$$1$$2$$1$$match >= lowRefLimit) && (signed int)dictIssue == dictSmall)
+            if(!(LZ4_compress_generic__1__2__1__match + 65535l >= ip) || !(LZ4_compress_generic__1__2__1__match >= lowRefLimit) && (signed int)dictIssue == dictSmall)
               break;
 
-            return_value_LZ4_read32$13=LZ4_read32((const void *)(LZ4_compress_generic$$1$$2$$1$$match + (signed long int)refDelta));
-            return_value_LZ4_read32$14=LZ4_read32((const void *)ip);
-            if(!(return_value_LZ4_read32$13 == return_value_LZ4_read32$14))
+            return_value_LZ4_read32_13=LZ4_read32((const void *)(LZ4_compress_generic__1__2__1__match + (signed long int)refDelta));
+            return_value_LZ4_read32_14=LZ4_read32((const void *)ip);
+            if(!(return_value_LZ4_read32_13 == return_value_LZ4_read32_14))
               break;
 
-            tmp_post$12 = op;
+            tmp_post_12 = op;
             op = op + 1l;
-            token = tmp_post$12;
+            token = tmp_post_12;
             *token = (unsigned char)0;
           }
           while((_Bool)1);
@@ -2055,26 +2055,26 @@ static signed int LZ4_compress_generic(void *ctx, const char *source, char *dest
       {
         if(lastRun >= 15)
         {
-          tmp_post$15 = op;
+          tmp_post_15 = op;
           op = op + 1l;
-          *tmp_post$15 = (unsigned char)((1U << 8 - 4) - (unsigned int)1 << 4);
+          *tmp_post_15 = (unsigned char)((1U << 8 - 4) - (unsigned int)1 << 4);
           lastRun = lastRun - (signed int)((1U << 8 - 4) - (unsigned int)1);
           for( ; lastRun >= 255; lastRun = lastRun - 255)
           {
-            tmp_post$16 = op;
+            tmp_post_16 = op;
             op = op + 1l;
-            *tmp_post$16 = (unsigned char)255;
+            *tmp_post_16 = (unsigned char)255;
           }
-          tmp_post$17 = op;
+          tmp_post_17 = op;
           op = op + 1l;
-          *tmp_post$17 = (unsigned char)lastRun;
+          *tmp_post_17 = (unsigned char)lastRun;
         }
 
         else
         {
-          tmp_post$18 = op;
+          tmp_post_18 = op;
           op = op + 1l;
-          *tmp_post$18 = (unsigned char)(lastRun << 4);
+          *tmp_post_18 = (unsigned char)(lastRun << 4);
         }
         memcpy((void *)op, (const void *)anchor, (unsigned long int)(iend - anchor));
         op = op + (iend - anchor);
@@ -2090,34 +2090,34 @@ signed int LZ4_compress_limitedOutput(const char *source, char *dest, signed int
 {
   unsigned long int ctx[2052l] = { (unsigned long int)0, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul, 0ul };
   signed int result;
-  unsigned int return_value_LZ4_64bits$1;
+  unsigned int return_value_LZ4_64bits_1;
   if(!(inputSize >= LZ4_64Klimit))
-    result=LZ4_compress_generic((void *)ctx, source, dest, inputSize, maxOutputSize, (enum anonymous$7)limitedOutput, (enum anonymous$3)byU16, (enum anonymous$4)noDict, (enum anonymous$5)noDictIssue);
+    result=LZ4_compress_generic((void *)ctx, source, dest, inputSize, maxOutputSize, (enum anonymous_7)limitedOutput, (enum anonymous_3)byU16, (enum anonymous_4)noDict, (enum anonymous_5)noDictIssue);
 
   else
   {
-    return_value_LZ4_64bits$1=LZ4_64bits();
-    result=LZ4_compress_generic((void *)ctx, source, dest, inputSize, maxOutputSize, (enum anonymous$7)limitedOutput, (enum anonymous$3)(return_value_LZ4_64bits$1 != 0u ? byU32 : byPtr), (enum anonymous$4)noDict, (enum anonymous$5)noDictIssue);
+    return_value_LZ4_64bits_1=LZ4_64bits();
+    result=LZ4_compress_generic((void *)ctx, source, dest, inputSize, maxOutputSize, (enum anonymous_7)limitedOutput, (enum anonymous_3)(return_value_LZ4_64bits_1 != 0u ? byU32 : byPtr), (enum anonymous_4)noDict, (enum anonymous_5)noDictIssue);
   }
   return result;
 }
 
 // LZ4_compress_limitedOutput_continue
 // file ./fst/lz4.c line 888
-signed int LZ4_compress_limitedOutput_continue(struct anonymous$9 *LZ4_stream, const char *source, char *dest, signed int inputSize, signed int maxOutputSize)
+signed int LZ4_compress_limitedOutput_continue(struct anonymous_9 *LZ4_stream, const char *source, char *dest, signed int inputSize, signed int maxOutputSize)
 {
-  signed int return_value_LZ4_compress_continue_generic$1;
-  return_value_LZ4_compress_continue_generic$1=LZ4_compress_continue_generic((void *)LZ4_stream, source, dest, inputSize, maxOutputSize, (enum anonymous$7)limitedOutput);
-  return return_value_LZ4_compress_continue_generic$1;
+  signed int return_value_LZ4_compress_continue_generic_1;
+  return_value_LZ4_compress_continue_generic_1=LZ4_compress_continue_generic((void *)LZ4_stream, source, dest, inputSize, maxOutputSize, (enum anonymous_7)limitedOutput);
+  return return_value_LZ4_compress_continue_generic_1;
 }
 
 // LZ4_compress_limitedOutput_withState
 // file ./fst/lz4.c line 1343
 signed int LZ4_compress_limitedOutput_withState(void *state, const char *source, char *dest, signed int inputSize, signed int maxOutputSize)
 {
-  signed int return_value_LZ4_compress_generic$1;
-  unsigned int return_value_LZ4_64bits$2;
-  signed int return_value_LZ4_compress_generic$3;
+  signed int return_value_LZ4_compress_generic_1;
+  unsigned int return_value_LZ4_64bits_2;
+  signed int return_value_LZ4_compress_generic_3;
   if(!((3ul & (unsigned long int)state) == 0ul))
     return 0;
 
@@ -2126,15 +2126,15 @@ signed int LZ4_compress_limitedOutput_withState(void *state, const char *source,
     memset(state, 0, (unsigned long int)((1 << 14 - 3) + 4) * sizeof(signed long long int) /*8ul*/ );
     if(!(inputSize >= LZ4_64Klimit))
     {
-      return_value_LZ4_compress_generic$1=LZ4_compress_generic(state, source, dest, inputSize, maxOutputSize, (enum anonymous$7)limitedOutput, (enum anonymous$3)byU16, (enum anonymous$4)noDict, (enum anonymous$5)noDictIssue);
-      return return_value_LZ4_compress_generic$1;
+      return_value_LZ4_compress_generic_1=LZ4_compress_generic(state, source, dest, inputSize, maxOutputSize, (enum anonymous_7)limitedOutput, (enum anonymous_3)byU16, (enum anonymous_4)noDict, (enum anonymous_5)noDictIssue);
+      return return_value_LZ4_compress_generic_1;
     }
 
     else
     {
-      return_value_LZ4_64bits$2=LZ4_64bits();
-      return_value_LZ4_compress_generic$3=LZ4_compress_generic(state, source, dest, inputSize, maxOutputSize, (enum anonymous$7)limitedOutput, (enum anonymous$3)(return_value_LZ4_64bits$2 != 0u ? byU32 : byPtr), (enum anonymous$4)noDict, (enum anonymous$5)noDictIssue);
-      return return_value_LZ4_compress_generic$3;
+      return_value_LZ4_64bits_2=LZ4_64bits();
+      return_value_LZ4_compress_generic_3=LZ4_compress_generic(state, source, dest, inputSize, maxOutputSize, (enum anonymous_7)limitedOutput, (enum anonymous_3)(return_value_LZ4_64bits_2 != 0u ? byU32 : byPtr), (enum anonymous_4)noDict, (enum anonymous_5)noDictIssue);
+      return return_value_LZ4_compress_generic_3;
     }
   }
 }
@@ -2143,9 +2143,9 @@ signed int LZ4_compress_limitedOutput_withState(void *state, const char *source,
 // file ./fst/lz4.c line 1332
 signed int LZ4_compress_withState(void *state, const char *source, char *dest, signed int inputSize)
 {
-  signed int return_value_LZ4_compress_generic$1;
-  unsigned int return_value_LZ4_64bits$2;
-  signed int return_value_LZ4_compress_generic$3;
+  signed int return_value_LZ4_compress_generic_1;
+  unsigned int return_value_LZ4_64bits_2;
+  signed int return_value_LZ4_compress_generic_3;
   if(!((3ul & (unsigned long int)state) == 0ul))
     return 0;
 
@@ -2154,15 +2154,15 @@ signed int LZ4_compress_withState(void *state, const char *source, char *dest, s
     memset(state, 0, (unsigned long int)((1 << 14 - 3) + 4) * sizeof(signed long long int) /*8ul*/ );
     if(!(inputSize >= LZ4_64Klimit))
     {
-      return_value_LZ4_compress_generic$1=LZ4_compress_generic(state, source, dest, inputSize, 0, (enum anonymous$7)notLimited, (enum anonymous$3)byU16, (enum anonymous$4)noDict, (enum anonymous$5)noDictIssue);
-      return return_value_LZ4_compress_generic$1;
+      return_value_LZ4_compress_generic_1=LZ4_compress_generic(state, source, dest, inputSize, 0, (enum anonymous_7)notLimited, (enum anonymous_3)byU16, (enum anonymous_4)noDict, (enum anonymous_5)noDictIssue);
+      return return_value_LZ4_compress_generic_1;
     }
 
     else
     {
-      return_value_LZ4_64bits$2=LZ4_64bits();
-      return_value_LZ4_compress_generic$3=LZ4_compress_generic(state, source, dest, inputSize, 0, (enum anonymous$7)notLimited, (enum anonymous$3)(return_value_LZ4_64bits$2 != 0u ? byU32 : byPtr), (enum anonymous$4)noDict, (enum anonymous$5)noDictIssue);
-      return return_value_LZ4_compress_generic$3;
+      return_value_LZ4_64bits_2=LZ4_64bits();
+      return_value_LZ4_compress_generic_3=LZ4_compress_generic(state, source, dest, inputSize, 0, (enum anonymous_7)notLimited, (enum anonymous_3)(return_value_LZ4_64bits_2 != 0u ? byU32 : byPtr), (enum anonymous_4)noDict, (enum anonymous_5)noDictIssue);
+      return return_value_LZ4_compress_generic_3;
     }
   }
 }
@@ -2179,9 +2179,9 @@ static void LZ4_copy4(void *dstPtr, const void *srcPtr)
 static void LZ4_copy8(void *dstPtr, const void *srcPtr)
 {
   {
-    unsigned int return_value_LZ4_64bits$1;
-    return_value_LZ4_64bits$1=LZ4_64bits();
-    if(!(return_value_LZ4_64bits$1 == 0u))
+    unsigned int return_value_LZ4_64bits_1;
+    return_value_LZ4_64bits_1=LZ4_64bits();
+    if(!(return_value_LZ4_64bits_1 == 0u))
       *((unsigned long int *)dstPtr) = *((unsigned long int *)srcPtr);
 
     else
@@ -2205,11 +2205,11 @@ static unsigned int LZ4_count(const unsigned char *pIn, const unsigned char *pMa
   while(!(pIn >= pInLimit + -7l))
   {
     unsigned long int diff;
-    unsigned long int return_value_LZ4_read_ARCH$1;
-    return_value_LZ4_read_ARCH$1=LZ4_read_ARCH((const void *)pMatch);
-    unsigned long int return_value_LZ4_read_ARCH$2;
-    return_value_LZ4_read_ARCH$2=LZ4_read_ARCH((const void *)pIn);
-    diff = return_value_LZ4_read_ARCH$1 ^ return_value_LZ4_read_ARCH$2;
+    unsigned long int return_value_LZ4_read_ARCH_1;
+    return_value_LZ4_read_ARCH_1=LZ4_read_ARCH((const void *)pMatch);
+    unsigned long int return_value_LZ4_read_ARCH_2;
+    return_value_LZ4_read_ARCH_2=LZ4_read_ARCH((const void *)pIn);
+    diff = return_value_LZ4_read_ARCH_1 ^ return_value_LZ4_read_ARCH_2;
     if(diff == 0ul)
     {
       pIn = pIn + (signed long int)sizeof(unsigned long int) /*8ul*/ ;
@@ -2218,23 +2218,23 @@ static unsigned int LZ4_count(const unsigned char *pIn, const unsigned char *pMa
 
     else
     {
-      unsigned int return_value_LZ4_NbCommonBytes$3;
-      return_value_LZ4_NbCommonBytes$3=LZ4_NbCommonBytes(diff);
-      pIn = pIn + (signed long int)return_value_LZ4_NbCommonBytes$3;
+      unsigned int return_value_LZ4_NbCommonBytes_3;
+      return_value_LZ4_NbCommonBytes_3=LZ4_NbCommonBytes(diff);
+      pIn = pIn + (signed long int)return_value_LZ4_NbCommonBytes_3;
       return (unsigned int)(pIn - pStart);
     }
   }
-  unsigned int return_value_LZ4_64bits$6;
-  return_value_LZ4_64bits$6=LZ4_64bits();
-  unsigned int return_value_LZ4_read32$4;
-  unsigned int return_value_LZ4_read32$5;
-  if(!(return_value_LZ4_64bits$6 == 0u))
+  unsigned int return_value_LZ4_64bits_6;
+  return_value_LZ4_64bits_6=LZ4_64bits();
+  unsigned int return_value_LZ4_read32_4;
+  unsigned int return_value_LZ4_read32_5;
+  if(!(return_value_LZ4_64bits_6 == 0u))
   {
     if(!(pIn >= pInLimit + -3l))
     {
-      return_value_LZ4_read32$4=LZ4_read32((const void *)pMatch);
-      return_value_LZ4_read32$5=LZ4_read32((const void *)pIn);
-      if(return_value_LZ4_read32$4 == return_value_LZ4_read32$5)
+      return_value_LZ4_read32_4=LZ4_read32((const void *)pMatch);
+      return_value_LZ4_read32_5=LZ4_read32((const void *)pIn);
+      if(return_value_LZ4_read32_4 == return_value_LZ4_read32_5)
       {
         pIn = pIn + (signed long int)4;
         pMatch = pMatch + (signed long int)4;
@@ -2244,13 +2244,13 @@ static unsigned int LZ4_count(const unsigned char *pIn, const unsigned char *pMa
 
   }
 
-  unsigned short int return_value_LZ4_read16$7;
-  unsigned short int return_value_LZ4_read16$8;
+  unsigned short int return_value_LZ4_read16_7;
+  unsigned short int return_value_LZ4_read16_8;
   if(!(pIn >= pInLimit + -1l))
   {
-    return_value_LZ4_read16$7=LZ4_read16((const void *)pMatch);
-    return_value_LZ4_read16$8=LZ4_read16((const void *)pIn);
-    if(return_value_LZ4_read16$7 == return_value_LZ4_read16$8)
+    return_value_LZ4_read16_7=LZ4_read16((const void *)pMatch);
+    return_value_LZ4_read16_8=LZ4_read16((const void *)pIn);
+    if(return_value_LZ4_read16_7 == return_value_LZ4_read16_8)
     {
       pIn = pIn + (signed long int)2;
       pMatch = pMatch + (signed long int)2;
@@ -2274,30 +2274,30 @@ void * LZ4_create(const char *inputBuffer)
 {
   void *lz4ds;
   lz4ds=calloc((unsigned long int)8, (unsigned long int)((1 << 14 - 3) + 4));
-  LZ4_init((struct anonymous$6 *)lz4ds, (const unsigned char *)inputBuffer);
+  LZ4_init((struct anonymous_6 *)lz4ds, (const unsigned char *)inputBuffer);
   return lz4ds;
 }
 
 // LZ4_createStream
 // file ./fst/lz4.c line 765
-struct anonymous$9 * LZ4_createStream(void)
+struct anonymous_9 * LZ4_createStream(void)
 {
-  struct anonymous$9 *lz4s;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)8, (unsigned long int)((1 << 14 - 3) + 4));
-  lz4s = (struct anonymous$9 *)return_value_calloc$1;
+  struct anonymous_9 *lz4s;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)8, (unsigned long int)((1 << 14 - 3) + 4));
+  lz4s = (struct anonymous_9 *)return_value_calloc_1;
   LZ4_resetStream(lz4s);
   return lz4s;
 }
 
 // LZ4_createStreamDecode
 // file ./fst/lz4.c line 1152
-struct anonymous$10 * LZ4_createStreamDecode(void)
+struct anonymous_10 * LZ4_createStreamDecode(void)
 {
-  struct anonymous$10 *lz4s;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(sizeof(unsigned long int) /*8ul*/ , (unsigned long int)4);
-  lz4s = (struct anonymous$10 *)return_value_calloc$1;
+  struct anonymous_10 *lz4s;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(sizeof(unsigned long int) /*8ul*/ , (unsigned long int)4);
+  lz4s = (struct anonymous_10 *)return_value_calloc_1;
   return lz4s;
 }
 
@@ -2305,16 +2305,16 @@ struct anonymous$10 * LZ4_createStreamDecode(void)
 // file ./fst/lz4.c line 1131
 signed int LZ4_decompress_fast(const char *source, char *dest, signed int originalSize)
 {
-  signed int return_value_LZ4_decompress_generic$1;
-  return_value_LZ4_decompress_generic$1=LZ4_decompress_generic(source, dest, 0, originalSize, 0, 0, 0, withPrefix64k, (unsigned char *)(dest - (signed long int)(64 * (1 << 10))), (const unsigned char *)(void *)0, (const unsigned long int)(64 * (1 << 10)));
-  return return_value_LZ4_decompress_generic$1;
+  signed int return_value_LZ4_decompress_generic_1;
+  return_value_LZ4_decompress_generic_1=LZ4_decompress_generic(source, dest, 0, originalSize, 0, 0, 0, withPrefix64k, (unsigned char *)(dest - (signed long int)(64 * (1 << 10))), (const unsigned char *)(void *)0, (const unsigned long int)(64 * (1 << 10)));
+  return return_value_LZ4_decompress_generic_1;
 }
 
 // LZ4_decompress_fast_continue
 // file ./fst/lz4.c line 1217
-signed int LZ4_decompress_fast_continue(struct anonymous$10 *LZ4_streamDecode, const char *source, char *dest, signed int originalSize)
+signed int LZ4_decompress_fast_continue(struct anonymous_10 *LZ4_streamDecode, const char *source, char *dest, signed int originalSize)
 {
-  struct anonymous$11 *lz4sd = (struct anonymous$11 *)LZ4_streamDecode;
+  struct anonymous_11 *lz4sd = (struct anonymous_11 *)LZ4_streamDecode;
   signed int result;
   if(lz4sd->prefixEnd == (unsigned char *)dest)
   {
@@ -2344,18 +2344,18 @@ signed int LZ4_decompress_fast_continue(struct anonymous$10 *LZ4_streamDecode, c
 // file ./fst/lz4.c line 1272
 signed int LZ4_decompress_fast_usingDict(const char *source, char *dest, signed int originalSize, const char *dictStart, signed int dictSize)
 {
-  signed int return_value_LZ4_decompress_usingDict_generic$1;
-  return_value_LZ4_decompress_usingDict_generic$1=LZ4_decompress_usingDict_generic(source, dest, 0, originalSize, 0, dictStart, dictSize);
-  return return_value_LZ4_decompress_usingDict_generic$1;
+  signed int return_value_LZ4_decompress_usingDict_generic_1;
+  return_value_LZ4_decompress_usingDict_generic_1=LZ4_decompress_usingDict_generic(source, dest, 0, originalSize, 0, dictStart, dictSize);
+  return return_value_LZ4_decompress_usingDict_generic_1;
 }
 
 // LZ4_decompress_fast_withPrefix64k
 // file ./fst/lz4.c line 1361
 signed int LZ4_decompress_fast_withPrefix64k(const char *source, char *dest, signed int originalSize)
 {
-  signed int return_value_LZ4_decompress_generic$1;
-  return_value_LZ4_decompress_generic$1=LZ4_decompress_generic(source, dest, 0, originalSize, 0, 0, 0, withPrefix64k, (unsigned char *)dest - (signed long int)(64 * (1 << 10)), (const unsigned char *)(void *)0, (const unsigned long int)(64 * (1 << 10)));
-  return return_value_LZ4_decompress_generic$1;
+  signed int return_value_LZ4_decompress_generic_1;
+  return_value_LZ4_decompress_generic_1=LZ4_decompress_generic(source, dest, 0, originalSize, 0, 0, 0, withPrefix64k, (unsigned char *)dest - (signed long int)(64 * (1 << 10)), (const unsigned char *)(void *)0, (const unsigned long int)(64 * (1 << 10)));
+  return return_value_LZ4_decompress_generic_1;
 }
 
 // LZ4_decompress_generic
@@ -2377,22 +2377,22 @@ static inline signed int LZ4_decompress_generic(const char * const source, char 
   if(!(partialDecoding == 0) && !(oend + -12l >= oexit))
     oexit = oend - (signed long int)(8 + 4);
 
-  _Bool tmp_if_expr$1;
-  const unsigned char * restrict tmp_post$2;
-  const unsigned char * restrict tmp_post$3;
-  const unsigned char * restrict tmp_post$5;
-  unsigned char *tmp_post$6;
-  const unsigned char *tmp_post$7;
-  unsigned char *tmp_post$8;
-  const unsigned char *tmp_post$9;
+  _Bool tmp_if_expr_1;
+  const unsigned char * restrict tmp_post_2;
+  const unsigned char * restrict tmp_post_3;
+  const unsigned char * restrict tmp_post_5;
+  unsigned char *tmp_post_6;
+  const unsigned char *tmp_post_7;
+  unsigned char *tmp_post_8;
+  const unsigned char *tmp_post_9;
   if(outputSize == 0 && !(endOnInput == 0))
   {
     if(inputSize == 1)
-      tmp_if_expr$1 = (signed int)*ip == 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)*ip == 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    return tmp_if_expr$1 ? 0 : -1;
+      tmp_if_expr_1 = (_Bool)0;
+    return tmp_if_expr_1 ? 0 : -1;
   }
 
   else
@@ -2405,19 +2405,19 @@ static inline signed int LZ4_decompress_generic(const char * const source, char 
       {
         unsigned int token;
         unsigned long int length;
-        const unsigned char *LZ4_decompress_generic$$1$$1$$match;
-        tmp_post$2 = ip;
+        const unsigned char *LZ4_decompress_generic__1__1__match;
+        tmp_post_2 = ip;
         ip = ip + 1l;
-        token = (unsigned int)*tmp_post$2;
+        token = (unsigned int)*tmp_post_2;
         length = (unsigned long int)(token >> 4);
         if(length == 15ul)
         {
           unsigned int s;
           do
           {
-            tmp_post$3 = ip;
+            tmp_post_3 = ip;
             ip = ip + 1l;
-            s = (unsigned int)*tmp_post$3;
+            s = (unsigned int)*tmp_post_3;
             length = length + (unsigned long int)s;
           }
           while(s == 255u && (endOnInput == 0 || !(ip >= iend + -15l)));
@@ -2460,27 +2460,27 @@ static inline signed int LZ4_decompress_generic(const char * const source, char 
         LZ4_wildCopy((void *)op, (const void *)ip, (void *)cpy);
         ip = ip + (signed long int)length;
         op = cpy;
-        unsigned short int return_value_LZ4_readLE16$4;
-        return_value_LZ4_readLE16$4=LZ4_readLE16((const void *)ip);
-        LZ4_decompress_generic$$1$$1$$match = cpy - (signed long int)return_value_LZ4_readLE16$4;
+        unsigned short int return_value_LZ4_readLE16_4;
+        return_value_LZ4_readLE16_4=LZ4_readLE16((const void *)ip);
+        LZ4_decompress_generic__1__1__match = cpy - (signed long int)return_value_LZ4_readLE16_4;
         ip = ip + (signed long int)2;
-        if(!(checkOffset == 0) && !(LZ4_decompress_generic$$1$$1$$match >= lowLimit))
+        if(!(checkOffset == 0) && !(LZ4_decompress_generic__1__1__match >= lowLimit))
           goto _output_error;
 
         length = (unsigned long int)(token & (1U << 4) - (unsigned int)1);
         if(length == 15ul)
         {
-          unsigned int LZ4_decompress_generic$$1$$1$$3$$s;
+          unsigned int LZ4_decompress_generic__1__1__3__s;
           while((_Bool)1)
           {
             if(!(endOnInput == 0) && !(iend + -5l >= ip))
               goto _output_error;
 
-            tmp_post$5 = ip;
+            tmp_post_5 = ip;
             ip = ip + 1l;
-            LZ4_decompress_generic$$1$$1$$3$$s = (unsigned int)*tmp_post$5;
-            length = length + (unsigned long int)LZ4_decompress_generic$$1$$1$$3$$s;
-            if(!(LZ4_decompress_generic$$1$$1$$3$$s == 255u))
+            LZ4_decompress_generic__1__1__3__s = (unsigned int)*tmp_post_5;
+            length = length + (unsigned long int)LZ4_decompress_generic__1__1__3__s;
+            if(!(LZ4_decompress_generic__1__1__3__s == 255u))
               break;
 
           }
@@ -2490,21 +2490,21 @@ static inline signed int LZ4_decompress_generic(const char * const source, char 
         }
 
         length = length + (unsigned long int)4;
-        if(dict == usingExtDict && !(LZ4_decompress_generic$$1$$1$$match >= lowPrefix))
+        if(dict == usingExtDict && !(LZ4_decompress_generic__1__1__match >= lowPrefix))
         {
           if(!(oend + -5l >= op + (signed long int)length))
             goto _output_error;
 
-          if((unsigned long int)(lowPrefix - LZ4_decompress_generic$$1$$1$$match) >= length)
+          if((unsigned long int)(lowPrefix - LZ4_decompress_generic__1__1__match) >= length)
           {
-            LZ4_decompress_generic$$1$$1$$match = dictEnd - (lowPrefix - LZ4_decompress_generic$$1$$1$$match);
-            memcpy((void *)op, (const void *)LZ4_decompress_generic$$1$$1$$match, length);
+            LZ4_decompress_generic__1__1__match = dictEnd - (lowPrefix - LZ4_decompress_generic__1__1__match);
+            memcpy((void *)op, (const void *)LZ4_decompress_generic__1__1__match, length);
             op = op + (signed long int)length;
           }
 
           else
           {
-            unsigned long int copySize = (unsigned long int)(lowPrefix - LZ4_decompress_generic$$1$$1$$match);
+            unsigned long int copySize = (unsigned long int)(lowPrefix - LZ4_decompress_generic__1__1__match);
             memcpy((void *)op, (const void *)(dictEnd - (signed long int)copySize), copySize);
             op = op + (signed long int)copySize;
             copySize = length - copySize;
@@ -2512,11 +2512,11 @@ static inline signed int LZ4_decompress_generic(const char * const source, char 
             {
               unsigned char * const endOfMatch = op + (signed long int)copySize;
               const unsigned char *copyFrom = lowPrefix;
-              for( ; !(op >= endOfMatch); *tmp_post$6 = *tmp_post$7)
+              for( ; !(op >= endOfMatch); *tmp_post_6 = *tmp_post_7)
               {
-                tmp_post$6 = op;
+                tmp_post_6 = op;
                 op = op + 1l;
-                tmp_post$7 = copyFrom;
+                tmp_post_7 = copyFrom;
                 copyFrom = copyFrom + 1l;
               }
             }
@@ -2532,24 +2532,24 @@ static inline signed int LZ4_decompress_generic(const char * const source, char 
         else
         {
           cpy = op + (signed long int)length;
-          if(!(op - LZ4_decompress_generic$$1$$1$$match >= 8l))
+          if(!(op - LZ4_decompress_generic__1__1__match >= 8l))
           {
-            const unsigned long int dec64 = dec64table[op - LZ4_decompress_generic$$1$$1$$match];
-            op[(signed long int)0] = LZ4_decompress_generic$$1$$1$$match[(signed long int)0];
-            op[(signed long int)1] = LZ4_decompress_generic$$1$$1$$match[(signed long int)1];
-            op[(signed long int)2] = LZ4_decompress_generic$$1$$1$$match[(signed long int)2];
-            op[(signed long int)3] = LZ4_decompress_generic$$1$$1$$match[(signed long int)3];
-            LZ4_decompress_generic$$1$$1$$match = LZ4_decompress_generic$$1$$1$$match + (signed long int)dec32table[op - LZ4_decompress_generic$$1$$1$$match];
-            LZ4_copy4((void *)(op + (signed long int)4), (const void *)LZ4_decompress_generic$$1$$1$$match);
+            const unsigned long int dec64 = dec64table[op - LZ4_decompress_generic__1__1__match];
+            op[(signed long int)0] = LZ4_decompress_generic__1__1__match[(signed long int)0];
+            op[(signed long int)1] = LZ4_decompress_generic__1__1__match[(signed long int)1];
+            op[(signed long int)2] = LZ4_decompress_generic__1__1__match[(signed long int)2];
+            op[(signed long int)3] = LZ4_decompress_generic__1__1__match[(signed long int)3];
+            LZ4_decompress_generic__1__1__match = LZ4_decompress_generic__1__1__match + (signed long int)dec32table[op - LZ4_decompress_generic__1__1__match];
+            LZ4_copy4((void *)(op + (signed long int)4), (const void *)LZ4_decompress_generic__1__1__match);
             op = op + (signed long int)8;
-            LZ4_decompress_generic$$1$$1$$match = LZ4_decompress_generic$$1$$1$$match - (signed long int)dec64;
+            LZ4_decompress_generic__1__1__match = LZ4_decompress_generic__1__1__match - (signed long int)dec64;
           }
 
           else
           {
-            LZ4_copy8((void *)op, (const void *)LZ4_decompress_generic$$1$$1$$match);
+            LZ4_copy8((void *)op, (const void *)LZ4_decompress_generic__1__1__match);
             op = op + (signed long int)8;
-            LZ4_decompress_generic$$1$$1$$match = LZ4_decompress_generic$$1$$1$$match + (signed long int)8;
+            LZ4_decompress_generic__1__1__match = LZ4_decompress_generic__1__1__match + (signed long int)8;
           }
           if(!(oend + -12l >= cpy))
           {
@@ -2558,22 +2558,22 @@ static inline signed int LZ4_decompress_generic(const char * const source, char 
 
             if(!(op >= oend + -8l))
             {
-              LZ4_wildCopy((void *)op, (const void *)LZ4_decompress_generic$$1$$1$$match, (void *)(oend - (signed long int)8));
-              LZ4_decompress_generic$$1$$1$$match = LZ4_decompress_generic$$1$$1$$match + ((oend - (signed long int)8) - op);
+              LZ4_wildCopy((void *)op, (const void *)LZ4_decompress_generic__1__1__match, (void *)(oend - (signed long int)8));
+              LZ4_decompress_generic__1__1__match = LZ4_decompress_generic__1__1__match + ((oend - (signed long int)8) - op);
               op = oend - (signed long int)8;
             }
 
-            for( ; !(op >= cpy); *tmp_post$8 = *tmp_post$9)
+            for( ; !(op >= cpy); *tmp_post_8 = *tmp_post_9)
             {
-              tmp_post$8 = op;
+              tmp_post_8 = op;
               op = op + 1l;
-              tmp_post$9 = LZ4_decompress_generic$$1$$1$$match;
-              LZ4_decompress_generic$$1$$1$$match = LZ4_decompress_generic$$1$$1$$match + 1l;
+              tmp_post_9 = LZ4_decompress_generic__1__1__match;
+              LZ4_decompress_generic__1__1__match = LZ4_decompress_generic__1__1__match + 1l;
             }
           }
 
           else
-            LZ4_wildCopy((void *)op, (const void *)LZ4_decompress_generic$$1$$1$$match, (void *)cpy);
+            LZ4_wildCopy((void *)op, (const void *)LZ4_decompress_generic__1__1__match, (void *)cpy);
           op = cpy;
         }
       }
@@ -2593,16 +2593,16 @@ static inline signed int LZ4_decompress_generic(const char * const source, char 
 // file ./fst/lz4.c line 1121
 signed int LZ4_decompress_safe(const char *source, char *dest, signed int compressedSize, signed int maxDecompressedSize)
 {
-  signed int return_value_LZ4_decompress_generic$1;
-  return_value_LZ4_decompress_generic$1=LZ4_decompress_generic(source, dest, compressedSize, maxDecompressedSize, 1, 0, 0, noDict, (unsigned char *)dest, (const unsigned char *)(void *)0, (const unsigned long int)0);
-  return return_value_LZ4_decompress_generic$1;
+  signed int return_value_LZ4_decompress_generic_1;
+  return_value_LZ4_decompress_generic_1=LZ4_decompress_generic(source, dest, compressedSize, maxDecompressedSize, 1, 0, 0, noDict, (unsigned char *)dest, (const unsigned char *)(void *)0, (const unsigned long int)0);
+  return return_value_LZ4_decompress_generic_1;
 }
 
 // LZ4_decompress_safe_continue
 // file ./fst/lz4.c line 1188
-signed int LZ4_decompress_safe_continue(struct anonymous$10 *LZ4_streamDecode, const char *source, char *dest, signed int compressedSize, signed int maxOutputSize)
+signed int LZ4_decompress_safe_continue(struct anonymous_10 *LZ4_streamDecode, const char *source, char *dest, signed int compressedSize, signed int maxOutputSize)
 {
-  struct anonymous$11 *lz4sd = (struct anonymous$11 *)LZ4_streamDecode;
+  struct anonymous_11 *lz4sd = (struct anonymous_11 *)LZ4_streamDecode;
   signed int result;
   if(lz4sd->prefixEnd == (unsigned char *)dest)
   {
@@ -2632,48 +2632,48 @@ signed int LZ4_decompress_safe_continue(struct anonymous$10 *LZ4_streamDecode, c
 // file ./fst/lz4.c line 1278
 signed int LZ4_decompress_safe_forceExtDict(const char *source, char *dest, signed int compressedSize, signed int maxOutputSize, const char *dictStart, signed int dictSize)
 {
-  signed int return_value_LZ4_decompress_generic$1;
-  return_value_LZ4_decompress_generic$1=LZ4_decompress_generic(source, dest, compressedSize, maxOutputSize, 1, 0, 0, usingExtDict, (unsigned char *)dest, (unsigned char *)dictStart, (const unsigned long int)dictSize);
-  return return_value_LZ4_decompress_generic$1;
+  signed int return_value_LZ4_decompress_generic_1;
+  return_value_LZ4_decompress_generic_1=LZ4_decompress_generic(source, dest, compressedSize, maxOutputSize, 1, 0, 0, usingExtDict, (unsigned char *)dest, (unsigned char *)dictStart, (const unsigned long int)dictSize);
+  return return_value_LZ4_decompress_generic_1;
 }
 
 // LZ4_decompress_safe_partial
 // file ./fst/lz4.c line 1126
 signed int LZ4_decompress_safe_partial(const char *source, char *dest, signed int compressedSize, signed int targetOutputSize, signed int maxDecompressedSize)
 {
-  signed int return_value_LZ4_decompress_generic$1;
-  return_value_LZ4_decompress_generic$1=LZ4_decompress_generic(source, dest, compressedSize, maxDecompressedSize, 1, 1, targetOutputSize, noDict, (unsigned char *)dest, (const unsigned char *)(void *)0, (const unsigned long int)0);
-  return return_value_LZ4_decompress_generic$1;
+  signed int return_value_LZ4_decompress_generic_1;
+  return_value_LZ4_decompress_generic_1=LZ4_decompress_generic(source, dest, compressedSize, maxDecompressedSize, 1, 1, targetOutputSize, noDict, (unsigned char *)dest, (const unsigned char *)(void *)0, (const unsigned long int)0);
+  return return_value_LZ4_decompress_generic_1;
 }
 
 // LZ4_decompress_safe_usingDict
 // file ./fst/lz4.c line 1267
 signed int LZ4_decompress_safe_usingDict(const char *source, char *dest, signed int compressedSize, signed int maxOutputSize, const char *dictStart, signed int dictSize)
 {
-  signed int return_value_LZ4_decompress_usingDict_generic$1;
-  return_value_LZ4_decompress_usingDict_generic$1=LZ4_decompress_usingDict_generic(source, dest, compressedSize, maxOutputSize, 1, dictStart, dictSize);
-  return return_value_LZ4_decompress_usingDict_generic$1;
+  signed int return_value_LZ4_decompress_usingDict_generic_1;
+  return_value_LZ4_decompress_usingDict_generic_1=LZ4_decompress_usingDict_generic(source, dest, compressedSize, maxOutputSize, 1, dictStart, dictSize);
+  return return_value_LZ4_decompress_usingDict_generic_1;
 }
 
 // LZ4_decompress_safe_withPrefix64k
 // file ./fst/lz4.c line 1356
 signed int LZ4_decompress_safe_withPrefix64k(const char *source, char *dest, signed int compressedSize, signed int maxOutputSize)
 {
-  signed int return_value_LZ4_decompress_generic$1;
-  return_value_LZ4_decompress_generic$1=LZ4_decompress_generic(source, dest, compressedSize, maxOutputSize, 1, 0, 0, withPrefix64k, (unsigned char *)dest - (signed long int)(64 * (1 << 10)), (const unsigned char *)(void *)0, (const unsigned long int)(64 * (1 << 10)));
-  return return_value_LZ4_decompress_generic$1;
+  signed int return_value_LZ4_decompress_generic_1;
+  return_value_LZ4_decompress_generic_1=LZ4_decompress_generic(source, dest, compressedSize, maxOutputSize, 1, 0, 0, withPrefix64k, (unsigned char *)dest - (signed long int)(64 * (1 << 10)), (const unsigned char *)(void *)0, (const unsigned long int)(64 * (1 << 10)));
+  return return_value_LZ4_decompress_generic_1;
 }
 
 // LZ4_decompress_usingDict_generic
 // file ./fst/lz4.c line 1254
 static inline signed int LZ4_decompress_usingDict_generic(const char *source, char *dest, signed int compressedSize, signed int maxOutputSize, signed int safe, const char *dictStart, signed int dictSize)
 {
-  signed int return_value_LZ4_decompress_generic$1;
-  signed int return_value_LZ4_decompress_generic$2;
+  signed int return_value_LZ4_decompress_generic_1;
+  signed int return_value_LZ4_decompress_generic_2;
   if(dictSize == 0)
   {
-    return_value_LZ4_decompress_generic$1=LZ4_decompress_generic(source, dest, compressedSize, maxOutputSize, safe, 0, 0, noDict, (unsigned char *)dest, (const unsigned char *)(void *)0, (const unsigned long int)0);
-    return return_value_LZ4_decompress_generic$1;
+    return_value_LZ4_decompress_generic_1=LZ4_decompress_generic(source, dest, compressedSize, maxOutputSize, safe, 0, 0, noDict, (unsigned char *)dest, (const unsigned char *)(void *)0, (const unsigned long int)0);
+    return return_value_LZ4_decompress_generic_1;
   }
 
   else
@@ -2682,24 +2682,24 @@ static inline signed int LZ4_decompress_usingDict_generic(const char *source, ch
     {
       if(dictSize >= 64)
       {
-        return_value_LZ4_decompress_generic$2=LZ4_decompress_generic(source, dest, compressedSize, maxOutputSize, safe, 0, 0, withPrefix64k, (unsigned char *)dest - (signed long int)(64 * (1 << 10)), (const unsigned char *)(void *)0, (const unsigned long int)0);
-        return return_value_LZ4_decompress_generic$2;
+        return_value_LZ4_decompress_generic_2=LZ4_decompress_generic(source, dest, compressedSize, maxOutputSize, safe, 0, 0, withPrefix64k, (unsigned char *)dest - (signed long int)(64 * (1 << 10)), (const unsigned char *)(void *)0, (const unsigned long int)0);
+        return return_value_LZ4_decompress_generic_2;
       }
 
-      signed int return_value_LZ4_decompress_generic$3;
-      return_value_LZ4_decompress_generic$3=LZ4_decompress_generic(source, dest, compressedSize, maxOutputSize, safe, 0, 0, noDict, (unsigned char *)dest - (signed long int)dictSize, (const unsigned char *)(void *)0, (const unsigned long int)0);
-      return return_value_LZ4_decompress_generic$3;
+      signed int return_value_LZ4_decompress_generic_3;
+      return_value_LZ4_decompress_generic_3=LZ4_decompress_generic(source, dest, compressedSize, maxOutputSize, safe, 0, 0, noDict, (unsigned char *)dest - (signed long int)dictSize, (const unsigned char *)(void *)0, (const unsigned long int)0);
+      return return_value_LZ4_decompress_generic_3;
     }
 
-    signed int return_value_LZ4_decompress_generic$4;
-    return_value_LZ4_decompress_generic$4=LZ4_decompress_generic(source, dest, compressedSize, maxOutputSize, safe, 0, 0, usingExtDict, (unsigned char *)dest, (unsigned char *)dictStart, (const unsigned long int)dictSize);
-    return return_value_LZ4_decompress_generic$4;
+    signed int return_value_LZ4_decompress_generic_4;
+    return_value_LZ4_decompress_generic_4=LZ4_decompress_generic(source, dest, compressedSize, maxOutputSize, safe, 0, 0, usingExtDict, (unsigned char *)dest, (unsigned char *)dictStart, (const unsigned long int)dictSize);
+    return return_value_LZ4_decompress_generic_4;
   }
 }
 
 // LZ4_freeStream
 // file ./fst/lz4.c line 773
-signed int LZ4_freeStream(struct anonymous$9 *LZ4_stream)
+signed int LZ4_freeStream(struct anonymous_9 *LZ4_stream)
 {
   free((void *)LZ4_stream);
   return 0;
@@ -2707,7 +2707,7 @@ signed int LZ4_freeStream(struct anonymous$9 *LZ4_stream)
 
 // LZ4_freeStreamDecode
 // file ./fst/lz4.c line 1158
-signed int LZ4_freeStreamDecode(struct anonymous$10 *LZ4_stream)
+signed int LZ4_freeStreamDecode(struct anonymous_10 *LZ4_stream)
 {
   free((void *)LZ4_stream);
   return 0;
@@ -2715,29 +2715,29 @@ signed int LZ4_freeStreamDecode(struct anonymous$10 *LZ4_stream)
 
 // LZ4_getPosition
 // file ./fst/lz4.c line 492
-static const unsigned char * LZ4_getPosition(const unsigned char *p, void *tableBase, enum anonymous$3 tableType, const unsigned char *srcBase)
+static const unsigned char * LZ4_getPosition(const unsigned char *p, void *tableBase, enum anonymous_3 tableType, const unsigned char *srcBase)
 {
   unsigned int h;
   h=LZ4_hashPosition(p, tableType);
-  const unsigned char *return_value_LZ4_getPositionOnHash$1;
-  return_value_LZ4_getPositionOnHash$1=LZ4_getPositionOnHash(h, tableBase, tableType, srcBase);
-  return return_value_LZ4_getPositionOnHash$1;
+  const unsigned char *return_value_LZ4_getPositionOnHash_1;
+  return_value_LZ4_getPositionOnHash_1=LZ4_getPositionOnHash(h, tableBase, tableType, srcBase);
+  return return_value_LZ4_getPositionOnHash_1;
 }
 
 // LZ4_getPositionOnHash
 // file ./fst/lz4.c line 485
-static const unsigned char * LZ4_getPositionOnHash(unsigned int h, void *tableBase, enum anonymous$3 tableType, const unsigned char *srcBase)
+static const unsigned char * LZ4_getPositionOnHash(unsigned int h, void *tableBase, enum anonymous_3 tableType, const unsigned char *srcBase)
 {
   if((signed int)tableType == byPtr)
   {
-    const unsigned char **LZ4_getPositionOnHash$$1$$1$$hashTable = (const unsigned char **)tableBase;
-    return LZ4_getPositionOnHash$$1$$1$$hashTable[(signed long int)h];
+    const unsigned char **LZ4_getPositionOnHash__1__1__hashTable = (const unsigned char **)tableBase;
+    return LZ4_getPositionOnHash__1__1__hashTable[(signed long int)h];
   }
 
   if((signed int)tableType == byU32)
   {
-    unsigned int *LZ4_getPositionOnHash$$1$$2$$hashTable = (unsigned int *)tableBase;
-    return (signed long int)LZ4_getPositionOnHash$$1$$2$$hashTable[(signed long int)h] + srcBase;
+    unsigned int *LZ4_getPositionOnHash__1__2__hashTable = (unsigned int *)tableBase;
+    return (signed long int)LZ4_getPositionOnHash__1__2__hashTable[(signed long int)h] + srcBase;
   }
 
   unsigned short int *hashTable = (unsigned short int *)tableBase;
@@ -2746,18 +2746,18 @@ static const unsigned char * LZ4_getPositionOnHash(unsigned int h, void *tableBa
 
 // LZ4_hashPosition
 // file ./fst/lz4.c line 467
-static unsigned int LZ4_hashPosition(const unsigned char *p, enum anonymous$3 tableType)
+static unsigned int LZ4_hashPosition(const unsigned char *p, enum anonymous_3 tableType)
 {
-  unsigned int return_value_LZ4_read32$1;
-  return_value_LZ4_read32$1=LZ4_read32((const void *)p);
-  unsigned int return_value_LZ4_hashSequence$2;
-  return_value_LZ4_hashSequence$2=LZ4_hashSequence(return_value_LZ4_read32$1, tableType);
-  return return_value_LZ4_hashSequence$2;
+  unsigned int return_value_LZ4_read32_1;
+  return_value_LZ4_read32_1=LZ4_read32((const void *)p);
+  unsigned int return_value_LZ4_hashSequence_2;
+  return_value_LZ4_hashSequence_2=LZ4_hashSequence(return_value_LZ4_read32_1, tableType);
+  return return_value_LZ4_hashSequence_2;
 }
 
 // LZ4_hashSequence
 // file ./fst/lz4.c line 459
-static unsigned int LZ4_hashSequence(unsigned int sequence, enum anonymous$3 tableType)
+static unsigned int LZ4_hashSequence(unsigned int sequence, enum anonymous_3 tableType)
 {
   if((signed int)tableType == byU16)
     return sequence * 2654435761U >> 4 * 8 - ((14 - 2) + 1);
@@ -2768,7 +2768,7 @@ static unsigned int LZ4_hashSequence(unsigned int sequence, enum anonymous$3 tab
 
 // LZ4_init
 // file ./fst/lz4.c line 1301
-static void LZ4_init(struct anonymous$6 *lz4ds, const unsigned char *base)
+static void LZ4_init(struct anonymous_6 *lz4ds, const unsigned char *base)
 {
   memset((void *)lz4ds, 0, (unsigned long int)((1 << 14 - 3) + 4) * sizeof(signed long long int) /*8ul*/ );
   lz4ds->bufferStart = base;
@@ -2778,8 +2778,8 @@ static void LZ4_init(struct anonymous$6 *lz4ds, const unsigned char *base)
 // file ./fst/lz4.c line 180
 static unsigned int LZ4_isLittleEndian(void)
 {
-  /* tag-#anon#clUN[U32'i'||lARR4{U8}$U8$'c'|] */
-union anonymous$12
+  /* tag-#anon#clUN[U32'i'||lARR4{U8}_U8_'c'|] */
+union anonymous_12
 {
   // i
   unsigned int i;
@@ -2789,15 +2789,15 @@ union anonymous$12
 
 /* */
   ;
-  union anonymous$12 one = { .i=(unsigned int)1 };
+  union anonymous_12 one = { .i=(unsigned int)1 };
   return (unsigned int)one.c[(signed long int)0];
 }
 
 // LZ4_loadDict
 // file ./fst/lz4.c line 780
-signed int LZ4_loadDict(struct anonymous$9 *LZ4_dict, const char *dictionary, signed int dictSize)
+signed int LZ4_loadDict(struct anonymous_9 *LZ4_dict, const char *dictionary, signed int dictSize)
 {
-  struct anonymous$6 *dict = (struct anonymous$6 *)LZ4_dict;
+  struct anonymous_6 *dict = (struct anonymous_6 *)LZ4_dict;
   const unsigned char *p = (const unsigned char *)dictionary;
   const unsigned char * const dictEnd = p + (signed long int)dictSize;
   const unsigned char *base;
@@ -2821,14 +2821,14 @@ signed int LZ4_loadDict(struct anonymous$9 *LZ4_dict, const char *dictionary, si
     dict->dictSize = (unsigned int)(dictEnd - p);
     dict->currentOffset = dict->currentOffset + dict->dictSize;
     for( ; dictEnd + -4l >= p; p = p + (signed long int)3)
-      LZ4_putPosition(p, (void *)dict, (enum anonymous$3)byU32, base);
+      LZ4_putPosition(p, (void *)dict, (enum anonymous_3)byU32, base);
     return (signed int)dict->dictSize;
   }
 }
 
 // LZ4_putPosition
 // file ./fst/lz4.c line 479
-static void LZ4_putPosition(const unsigned char *p, void *tableBase, enum anonymous$3 tableType, const unsigned char *srcBase)
+static void LZ4_putPosition(const unsigned char *p, void *tableBase, enum anonymous_3 tableType, const unsigned char *srcBase)
 {
   unsigned int h;
   h=LZ4_hashPosition(p, tableType);
@@ -2837,11 +2837,11 @@ static void LZ4_putPosition(const unsigned char *p, void *tableBase, enum anonym
 
 // LZ4_putPositionOnHash
 // file ./fst/lz4.c line 469
-static void LZ4_putPositionOnHash(const unsigned char *p, unsigned int h, void *tableBase, enum anonymous$3 tableType, const unsigned char *srcBase)
+static void LZ4_putPositionOnHash(const unsigned char *p, unsigned int h, void *tableBase, enum anonymous_3 tableType, const unsigned char *srcBase)
 {
   const unsigned char **hashTable;
-  unsigned int *LZ4_putPositionOnHash$$1$$1$$2$$hashTable;
-  unsigned short int *LZ4_putPositionOnHash$$1$$1$$3$$hashTable;
+  unsigned int *LZ4_putPositionOnHash__1__1__2__hashTable;
+  unsigned short int *LZ4_putPositionOnHash__1__1__3__hashTable;
   switch((signed int)tableType)
   {
     case byPtr:
@@ -2852,14 +2852,14 @@ static void LZ4_putPositionOnHash(const unsigned char *p, unsigned int h, void *
     }
     case byU32:
     {
-      LZ4_putPositionOnHash$$1$$1$$2$$hashTable = (unsigned int *)tableBase;
-      LZ4_putPositionOnHash$$1$$1$$2$$hashTable[(signed long int)h] = (unsigned int)(p - srcBase);
+      LZ4_putPositionOnHash__1__1__2__hashTable = (unsigned int *)tableBase;
+      LZ4_putPositionOnHash__1__1__2__hashTable[(signed long int)h] = (unsigned int)(p - srcBase);
       break;
     }
     case byU16:
     {
-      LZ4_putPositionOnHash$$1$$1$$3$$hashTable = (unsigned short int *)tableBase;
-      LZ4_putPositionOnHash$$1$$1$$3$$hashTable[(signed long int)h] = (unsigned short int)(p - srcBase);
+      LZ4_putPositionOnHash__1__1__3__hashTable = (unsigned short int *)tableBase;
+      LZ4_putPositionOnHash__1__1__3__hashTable[(signed long int)h] = (unsigned short int)(p - srcBase);
     }
   }
 }
@@ -2889,9 +2889,9 @@ static unsigned long int LZ4_read64(const void *memPtr)
 // file ./fst/lz4.c line 187
 static unsigned short int LZ4_readLE16(const void *memPtr)
 {
-  unsigned int return_value_LZ4_isLittleEndian$1;
-  return_value_LZ4_isLittleEndian$1=LZ4_isLittleEndian();
-  if(!(return_value_LZ4_isLittleEndian$1 == 0u))
+  unsigned int return_value_LZ4_isLittleEndian_1;
+  return_value_LZ4_isLittleEndian_1=LZ4_isLittleEndian();
+  if(!(return_value_LZ4_isLittleEndian_1 == 0u))
     return *((unsigned short int *)memPtr);
 
   else
@@ -2905,34 +2905,34 @@ static unsigned short int LZ4_readLE16(const void *memPtr)
 // file ./fst/lz4.c line 250
 static unsigned long int LZ4_read_ARCH(const void *p)
 {
-  unsigned int return_value_LZ4_64bits$3;
-  return_value_LZ4_64bits$3=LZ4_64bits();
-  unsigned long int return_value_LZ4_read64$1;
-  unsigned int return_value_LZ4_read32$2;
-  if(!(return_value_LZ4_64bits$3 == 0u))
+  unsigned int return_value_LZ4_64bits_3;
+  return_value_LZ4_64bits_3=LZ4_64bits();
+  unsigned long int return_value_LZ4_read64_1;
+  unsigned int return_value_LZ4_read32_2;
+  if(!(return_value_LZ4_64bits_3 == 0u))
   {
-    return_value_LZ4_read64$1=LZ4_read64(p);
-    return (unsigned long int)return_value_LZ4_read64$1;
+    return_value_LZ4_read64_1=LZ4_read64(p);
+    return (unsigned long int)return_value_LZ4_read64_1;
   }
 
   else
   {
-    return_value_LZ4_read32$2=LZ4_read32(p);
-    return (unsigned long int)return_value_LZ4_read32$2;
+    return_value_LZ4_read32_2=LZ4_read32(p);
+    return (unsigned long int)return_value_LZ4_read32_2;
   }
 }
 
 // LZ4_renormDictT
 // file ./fst/lz4.c line 812
-static void LZ4_renormDictT(struct anonymous$6 *LZ4_dict, const unsigned char *src)
+static void LZ4_renormDictT(struct anonymous_6 *LZ4_dict, const unsigned char *src)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(LZ4_dict->currentOffset >= 2147483649u)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (unsigned long int)LZ4_dict->currentOffset > (unsigned long int)src ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (unsigned long int)LZ4_dict->currentOffset > (unsigned long int)src ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     unsigned int delta = LZ4_dict->currentOffset - (unsigned int)(64 * (1 << 10));
     const unsigned char *dictEnd = LZ4_dict->dictionary + (signed long int)LZ4_dict->dictSize;
@@ -2954,9 +2954,9 @@ static void LZ4_renormDictT(struct anonymous$6 *LZ4_dict, const unsigned char *s
 
 // LZ4_resetStream
 // file ./fst/lz4.c line 760
-void LZ4_resetStream(struct anonymous$9 *LZ4_stream)
+void LZ4_resetStream(struct anonymous_9 *LZ4_stream)
 {
-  memset((void *)LZ4_stream, 0, sizeof(struct anonymous$9) /*16416ul*/ );
+  memset((void *)LZ4_stream, 0, sizeof(struct anonymous_9) /*16416ul*/ );
 }
 
 // LZ4_resetStreamState
@@ -2968,16 +2968,16 @@ signed int LZ4_resetStreamState(void *state, const char *inputBuffer)
 
   else
   {
-    LZ4_init((struct anonymous$6 *)state, (const unsigned char *)inputBuffer);
+    LZ4_init((struct anonymous_6 *)state, (const unsigned char *)inputBuffer);
     return 0;
   }
 }
 
 // LZ4_saveDict
 // file ./fst/lz4.c line 915
-signed int LZ4_saveDict(struct anonymous$9 *LZ4_dict, char *safeBuffer, signed int dictSize)
+signed int LZ4_saveDict(struct anonymous_9 *LZ4_dict, char *safeBuffer, signed int dictSize)
 {
-  struct anonymous$6 *dict = (struct anonymous$6 *)LZ4_dict;
+  struct anonymous_6 *dict = (struct anonymous_6 *)LZ4_dict;
   const unsigned char *previousDictEnd = dict->dictionary + (signed long int)dict->dictSize;
   if((unsigned int)dictSize >= 65537u)
     dictSize = 64 * (1 << 10);
@@ -2993,9 +2993,9 @@ signed int LZ4_saveDict(struct anonymous$9 *LZ4_dict, char *safeBuffer, signed i
 
 // LZ4_setStreamDecode
 // file ./fst/lz4.c line 1171
-signed int LZ4_setStreamDecode(struct anonymous$10 *LZ4_streamDecode, const char *dictionary, signed int dictSize)
+signed int LZ4_setStreamDecode(struct anonymous_10 *LZ4_streamDecode, const char *dictionary, signed int dictSize)
 {
-  struct anonymous$11 *lz4sd = (struct anonymous$11 *)LZ4_streamDecode;
+  struct anonymous_11 *lz4sd = (struct anonymous_11 *)LZ4_streamDecode;
   lz4sd->prefixSize = (unsigned long int)dictSize;
   lz4sd->prefixEnd = (unsigned char *)dictionary + (signed long int)dictSize;
   lz4sd->externalDict = (unsigned char *)(void *)0;
@@ -3021,9 +3021,9 @@ signed int LZ4_sizeofStreamState(void)
 // file ./fst/lz4.c line 1321
 char * LZ4_slideInputBuffer(void *LZ4_Data)
 {
-  struct anonymous$6 *ctx = (struct anonymous$6 *)LZ4_Data;
+  struct anonymous_6 *ctx = (struct anonymous_6 *)LZ4_Data;
   signed int dictSize;
-  dictSize=LZ4_saveDict((struct anonymous$9 *)ctx, (char *)ctx->bufferStart, 64 * (1 << 10));
+  dictSize=LZ4_saveDict((struct anonymous_9 *)ctx, (char *)ctx->bufferStart, 64 * (1 << 10));
   return (char *)(ctx->bufferStart + (signed long int)dictSize);
 }
 
@@ -3031,18 +3031,18 @@ char * LZ4_slideInputBuffer(void *LZ4_Data)
 // file ./fst/lz4.c line 1293
 signed int LZ4_uncompress(const char *source, char *dest, signed int outputSize)
 {
-  signed int return_value_LZ4_decompress_fast$1;
-  return_value_LZ4_decompress_fast$1=LZ4_decompress_fast(source, dest, outputSize);
-  return return_value_LZ4_decompress_fast$1;
+  signed int return_value_LZ4_decompress_fast_1;
+  return_value_LZ4_decompress_fast_1=LZ4_decompress_fast(source, dest, outputSize);
+  return return_value_LZ4_decompress_fast_1;
 }
 
 // LZ4_uncompress_unknownOutputSize
 // file ./fst/lz4.c line 1294
 signed int LZ4_uncompress_unknownOutputSize(const char *source, char *dest, signed int isize, signed int maxOutputSize)
 {
-  signed int return_value_LZ4_decompress_safe$1;
-  return_value_LZ4_decompress_safe$1=LZ4_decompress_safe(source, dest, isize, maxOutputSize);
-  return return_value_LZ4_decompress_safe$1;
+  signed int return_value_LZ4_decompress_safe_1;
+  return_value_LZ4_decompress_safe_1=LZ4_decompress_safe(source, dest, isize, maxOutputSize);
+  return return_value_LZ4_decompress_safe_1;
 }
 
 // LZ4_versionNumber
@@ -3072,9 +3072,9 @@ static void LZ4_wildCopy(void *dstPtr, const void *srcPtr, void *dstEnd)
 // file ./fst/lz4.c line 198
 static void LZ4_writeLE16(void *memPtr, unsigned short int value)
 {
-  unsigned int return_value_LZ4_isLittleEndian$1;
-  return_value_LZ4_isLittleEndian$1=LZ4_isLittleEndian();
-  if(!(return_value_LZ4_isLittleEndian$1 == 0u))
+  unsigned int return_value_LZ4_isLittleEndian_1;
+  return_value_LZ4_isLittleEndian_1=LZ4_isLittleEndian();
+  if(!(return_value_LZ4_isLittleEndian_1 == 0u))
   {
     *((unsigned short int *)memPtr) = value;
     goto __CPROVER_DUMP_L3;
@@ -3101,8 +3101,8 @@ static void extractVarNames(void *xc)
   signed int fst_scope_name_len = 0;
   signed long int snum = (signed long int)0;
   signed long int max_snum = (signed long int)0;
-  signed long int tmp_if_expr$3;
-  void *return_value_fstReaderGetCurrentScopeUserInfo$2;
+  signed long int tmp_if_expr_3;
+  void *return_value_fstReaderGetCurrentScopeUserInfo_2;
   do
   {
     h=fstReaderIterateHier(xc);
@@ -3120,9 +3120,9 @@ static void extractVarNames(void *xc)
         {
           signed long int new_allocated_scopes = allocated_scopes * (signed long int)2;
           char **scope_names_2;
-          void *return_value_calloc$1;
-          return_value_calloc$1=calloc((unsigned long int)new_allocated_scopes, sizeof(char *) /*8ul*/ );
-          scope_names_2 = (char **)return_value_calloc$1;
+          void *return_value_calloc_1;
+          return_value_calloc_1=calloc((unsigned long int)new_allocated_scopes, sizeof(char *) /*8ul*/ );
+          scope_names_2 = (char **)return_value_calloc_1;
           memcpy((void *)scope_names_2, (const void *)scope_names, (unsigned long int)allocated_scopes * sizeof(char *) /*8ul*/ );
           free((void *)scope_names);
           scope_names = scope_names_2;
@@ -3138,22 +3138,22 @@ static void extractVarNames(void *xc)
         fst_scope_name_len=fstReaderGetCurrentScopeLen(xc);
         if(!(fst_scope_name_len == 0))
         {
-          return_value_fstReaderGetCurrentScopeUserInfo$2=fstReaderGetCurrentScopeUserInfo(xc);
-          tmp_if_expr$3 = (signed long int)return_value_fstReaderGetCurrentScopeUserInfo$2;
+          return_value_fstReaderGetCurrentScopeUserInfo_2=fstReaderGetCurrentScopeUserInfo(xc);
+          tmp_if_expr_3 = (signed long int)return_value_fstReaderGetCurrentScopeUserInfo_2;
         }
 
         else
-          tmp_if_expr$3 = (signed long int)0;
-        snum = tmp_if_expr$3;
+          tmp_if_expr_3 = (signed long int)0;
+        snum = tmp_if_expr_3;
         break;
       }
       case 2:
         if(h->u.var.is_alias == 0u)
         {
           scope_idx[(signed long int)h->u.var.handle] = (unsigned int)snum;
-          void *return_value_malloc$4;
-          return_value_malloc$4=malloc((unsigned long int)(h->u.var.name_length + (unsigned int)1));
-          fac_names[(signed long int)h->u.var.handle] = (char *)return_value_malloc$4;
+          void *return_value_malloc_4;
+          return_value_malloc_4=malloc((unsigned long int)(h->u.var.name_length + (unsigned int)1));
+          fac_names[(signed long int)h->u.var.handle] = (char *)return_value_malloc_4;
           s = fac_names[(signed long int)h->u.var.handle];
           strcpy_no_space(s, h->u.var.name);
         }
@@ -3175,72 +3175,72 @@ static inline signed int fastlz1_compress(const void *input, signed int length, 
   const unsigned char **hslot;
   unsigned int hval;
   unsigned int copy;
-  unsigned char *tmp_post$1;
-  unsigned char *tmp_post$2;
-  const unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
-  const unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
-  const unsigned char *tmp_post$8;
-  _Bool tmp_if_expr$11;
-  const unsigned char *tmp_post$9;
-  const unsigned char *tmp_post$10;
-  _Bool tmp_if_expr$14;
-  const unsigned char *tmp_post$12;
-  const unsigned char *tmp_post$13;
-  _Bool tmp_if_expr$17;
-  const unsigned char *tmp_post$15;
-  const unsigned char *tmp_post$16;
-  const unsigned char *tmp_post$18;
-  const unsigned char *tmp_post$19;
-  const unsigned char *tmp_post$20;
-  const unsigned char *tmp_post$21;
-  const unsigned char *tmp_post$22;
-  const unsigned char *tmp_post$23;
-  const unsigned char *tmp_post$24;
-  const unsigned char *tmp_post$25;
-  const unsigned char *tmp_post$26;
-  const unsigned char *tmp_post$27;
-  const unsigned char *tmp_post$28;
-  const unsigned char *tmp_post$29;
-  const unsigned char *tmp_post$30;
-  const unsigned char *tmp_post$31;
-  const unsigned char *tmp_post$32;
-  const unsigned char *tmp_post$33;
-  const unsigned char *tmp_post$34;
-  const unsigned char *tmp_post$35;
-  const unsigned char *tmp_post$36;
-  unsigned char *tmp_post$37;
-  unsigned char *tmp_post$38;
-  unsigned char *tmp_post$39;
-  unsigned char *tmp_post$40;
-  unsigned char *tmp_post$41;
-  unsigned char *tmp_post$42;
-  unsigned char *tmp_post$43;
-  unsigned char *tmp_post$44;
-  const unsigned char *tmp_post$45;
-  const unsigned char *tmp_post$46;
-  unsigned char *tmp_post$47;
-  unsigned char *tmp_post$48;
-  const unsigned char *tmp_post$49;
-  unsigned char *tmp_post$50;
-  unsigned char *tmp_post$51;
-  const unsigned char *tmp_post$52;
-  unsigned char *tmp_post$53;
+  unsigned char *tmp_post_1;
+  unsigned char *tmp_post_2;
+  const unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
+  const unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
+  const unsigned char *tmp_post_8;
+  _Bool tmp_if_expr_11;
+  const unsigned char *tmp_post_9;
+  const unsigned char *tmp_post_10;
+  _Bool tmp_if_expr_14;
+  const unsigned char *tmp_post_12;
+  const unsigned char *tmp_post_13;
+  _Bool tmp_if_expr_17;
+  const unsigned char *tmp_post_15;
+  const unsigned char *tmp_post_16;
+  const unsigned char *tmp_post_18;
+  const unsigned char *tmp_post_19;
+  const unsigned char *tmp_post_20;
+  const unsigned char *tmp_post_21;
+  const unsigned char *tmp_post_22;
+  const unsigned char *tmp_post_23;
+  const unsigned char *tmp_post_24;
+  const unsigned char *tmp_post_25;
+  const unsigned char *tmp_post_26;
+  const unsigned char *tmp_post_27;
+  const unsigned char *tmp_post_28;
+  const unsigned char *tmp_post_29;
+  const unsigned char *tmp_post_30;
+  const unsigned char *tmp_post_31;
+  const unsigned char *tmp_post_32;
+  const unsigned char *tmp_post_33;
+  const unsigned char *tmp_post_34;
+  const unsigned char *tmp_post_35;
+  const unsigned char *tmp_post_36;
+  unsigned char *tmp_post_37;
+  unsigned char *tmp_post_38;
+  unsigned char *tmp_post_39;
+  unsigned char *tmp_post_40;
+  unsigned char *tmp_post_41;
+  unsigned char *tmp_post_42;
+  unsigned char *tmp_post_43;
+  unsigned char *tmp_post_44;
+  const unsigned char *tmp_post_45;
+  const unsigned char *tmp_post_46;
+  unsigned char *tmp_post_47;
+  unsigned char *tmp_post_48;
+  const unsigned char *tmp_post_49;
+  unsigned char *tmp_post_50;
+  unsigned char *tmp_post_51;
+  const unsigned char *tmp_post_52;
+  unsigned char *tmp_post_53;
   if(!(length >= 4))
   {
     if(!(length == 0))
     {
-      tmp_post$1 = op;
+      tmp_post_1 = op;
       op = op + 1l;
-      *tmp_post$1 = (unsigned char)(length - 1);
+      *tmp_post_1 = (unsigned char)(length - 1);
       ip_bound = ip_bound + 1l;
-      for( ; ip_bound >= ip; *tmp_post$2 = *tmp_post$3)
+      for( ; ip_bound >= ip; *tmp_post_2 = *tmp_post_3)
       {
-        tmp_post$2 = op;
+        tmp_post_2 = op;
         op = op + 1l;
-        tmp_post$3 = ip;
+        tmp_post_3 = ip;
         ip = ip + 1l;
       }
       return length + 1;
@@ -3255,19 +3255,19 @@ static inline signed int fastlz1_compress(const void *input, signed int length, 
     for( ; !(hslot >= htab + 8192l); hslot = hslot + 1l)
       *hslot = ip;
     copy = (unsigned int)2;
-    tmp_post$4 = op;
+    tmp_post_4 = op;
     op = op + 1l;
-    *tmp_post$4 = (unsigned char)(32 - 1);
-    tmp_post$5 = op;
+    *tmp_post_4 = (unsigned char)(32 - 1);
+    tmp_post_5 = op;
     op = op + 1l;
-    tmp_post$6 = ip;
+    tmp_post_6 = ip;
     ip = ip + 1l;
-    *tmp_post$5 = *tmp_post$6;
-    tmp_post$7 = op;
+    *tmp_post_5 = *tmp_post_6;
+    tmp_post_7 = op;
     op = op + 1l;
-    tmp_post$8 = ip;
+    tmp_post_8 = ip;
     ip = ip + 1l;
-    *tmp_post$7 = *tmp_post$8;
+    *tmp_post_7 = *tmp_post_8;
     while(!(ip >= ip_limit))
     {
       const unsigned char *ref;
@@ -3282,39 +3282,39 @@ static inline signed int fastlz1_compress(const void *input, signed int length, 
       distance = (unsigned int)(anchor - ref);
       *hslot = anchor;
       if(distance == 0u || distance >= 8192u)
-        tmp_if_expr$11 = (_Bool)1;
+        tmp_if_expr_11 = (_Bool)1;
 
       else
       {
-        tmp_post$9 = ref;
+        tmp_post_9 = ref;
         ref = ref + 1l;
-        tmp_post$10 = ip;
+        tmp_post_10 = ip;
         ip = ip + 1l;
-        tmp_if_expr$11 = *tmp_post$9 != *tmp_post$10 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_11 = *tmp_post_9 != *tmp_post_10 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$11)
-        tmp_if_expr$14 = (_Bool)1;
+      if(tmp_if_expr_11)
+        tmp_if_expr_14 = (_Bool)1;
 
       else
       {
-        tmp_post$12 = ref;
+        tmp_post_12 = ref;
         ref = ref + 1l;
-        tmp_post$13 = ip;
+        tmp_post_13 = ip;
         ip = ip + 1l;
-        tmp_if_expr$14 = *tmp_post$12 != *tmp_post$13 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_14 = *tmp_post_12 != *tmp_post_13 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$14)
-        tmp_if_expr$17 = (_Bool)1;
+      if(tmp_if_expr_14)
+        tmp_if_expr_17 = (_Bool)1;
 
       else
       {
-        tmp_post$15 = ref;
+        tmp_post_15 = ref;
         ref = ref + 1l;
-        tmp_post$16 = ip;
+        tmp_post_16 = ip;
         ip = ip + 1l;
-        tmp_if_expr$17 = *tmp_post$15 != *tmp_post$16 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_17 = *tmp_post_15 != *tmp_post_16 ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$17)
+      if(!tmp_if_expr_17)
       {
         ip = anchor + (signed long int)len;
         distance = distance - 1u;
@@ -3323,9 +3323,9 @@ static inline signed int fastlz1_compress(const void *input, signed int length, 
           unsigned char x = ip[(signed long int)-1];
           while(!(ip >= ip_bound))
           {
-            tmp_post$18 = ref;
+            tmp_post_18 = ref;
             ref = ref + 1l;
-            if(!(*tmp_post$18 == x))
+            if(!(*tmp_post_18 == x))
               break;
 
             else
@@ -3335,60 +3335,60 @@ static inline signed int fastlz1_compress(const void *input, signed int length, 
 
         else
         {
-          tmp_post$19 = ref;
+          tmp_post_19 = ref;
           ref = ref + 1l;
-          tmp_post$20 = ip;
+          tmp_post_20 = ip;
           ip = ip + 1l;
-          if(*tmp_post$19 == *tmp_post$20)
+          if(*tmp_post_19 == *tmp_post_20)
           {
-            tmp_post$21 = ref;
+            tmp_post_21 = ref;
             ref = ref + 1l;
-            tmp_post$22 = ip;
+            tmp_post_22 = ip;
             ip = ip + 1l;
-            if(*tmp_post$21 == *tmp_post$22)
+            if(*tmp_post_21 == *tmp_post_22)
             {
-              tmp_post$23 = ref;
+              tmp_post_23 = ref;
               ref = ref + 1l;
-              tmp_post$24 = ip;
+              tmp_post_24 = ip;
               ip = ip + 1l;
-              if(*tmp_post$23 == *tmp_post$24)
+              if(*tmp_post_23 == *tmp_post_24)
               {
-                tmp_post$25 = ref;
+                tmp_post_25 = ref;
                 ref = ref + 1l;
-                tmp_post$26 = ip;
+                tmp_post_26 = ip;
                 ip = ip + 1l;
-                if(*tmp_post$25 == *tmp_post$26)
+                if(*tmp_post_25 == *tmp_post_26)
                 {
-                  tmp_post$27 = ref;
+                  tmp_post_27 = ref;
                   ref = ref + 1l;
-                  tmp_post$28 = ip;
+                  tmp_post_28 = ip;
                   ip = ip + 1l;
-                  if(*tmp_post$27 == *tmp_post$28)
+                  if(*tmp_post_27 == *tmp_post_28)
                   {
-                    tmp_post$29 = ref;
+                    tmp_post_29 = ref;
                     ref = ref + 1l;
-                    tmp_post$30 = ip;
+                    tmp_post_30 = ip;
                     ip = ip + 1l;
-                    if(*tmp_post$29 == *tmp_post$30)
+                    if(*tmp_post_29 == *tmp_post_30)
                     {
-                      tmp_post$31 = ref;
+                      tmp_post_31 = ref;
                       ref = ref + 1l;
-                      tmp_post$32 = ip;
+                      tmp_post_32 = ip;
                       ip = ip + 1l;
-                      if(*tmp_post$31 == *tmp_post$32)
+                      if(*tmp_post_31 == *tmp_post_32)
                       {
-                        tmp_post$33 = ref;
+                        tmp_post_33 = ref;
                         ref = ref + 1l;
-                        tmp_post$34 = ip;
+                        tmp_post_34 = ip;
                         ip = ip + 1l;
-                        if(*tmp_post$33 == *tmp_post$34)
+                        if(*tmp_post_33 == *tmp_post_34)
                           while(!(ip >= ip_bound))
                           {
-                            tmp_post$35 = ref;
+                            tmp_post_35 = ref;
                             ref = ref + 1l;
-                            tmp_post$36 = ip;
+                            tmp_post_36 = ip;
                             ip = ip + 1l;
-                            if(!(*tmp_post$35 == *tmp_post$36))
+                            if(!(*tmp_post_35 == *tmp_post_36))
                               break;
 
                           }
@@ -3419,54 +3419,54 @@ static inline signed int fastlz1_compress(const void *input, signed int length, 
         if(len >= 263u)
           for( ; len >= 263u; len = len - (unsigned int)(264 - 2))
           {
-            tmp_post$37 = op;
+            tmp_post_37 = op;
             op = op + 1l;
-            *tmp_post$37 = (unsigned char)((unsigned int)(7 << 5) + (distance >> 8));
-            tmp_post$38 = op;
+            *tmp_post_37 = (unsigned char)((unsigned int)(7 << 5) + (distance >> 8));
+            tmp_post_38 = op;
             op = op + 1l;
-            *tmp_post$38 = (unsigned char)(((264 - 2) - 7) - 2);
-            tmp_post$39 = op;
+            *tmp_post_38 = (unsigned char)(((264 - 2) - 7) - 2);
+            tmp_post_39 = op;
             op = op + 1l;
-            *tmp_post$39 = (unsigned char)(distance & (unsigned int)255);
+            *tmp_post_39 = (unsigned char)(distance & (unsigned int)255);
           }
 
         if(!(len >= 7u))
         {
-          tmp_post$40 = op;
+          tmp_post_40 = op;
           op = op + 1l;
-          *tmp_post$40 = (unsigned char)((len << 5) + (distance >> 8));
-          tmp_post$41 = op;
+          *tmp_post_40 = (unsigned char)((len << 5) + (distance >> 8));
+          tmp_post_41 = op;
           op = op + 1l;
-          *tmp_post$41 = (unsigned char)(distance & (unsigned int)255);
+          *tmp_post_41 = (unsigned char)(distance & (unsigned int)255);
         }
 
         else
         {
-          tmp_post$42 = op;
+          tmp_post_42 = op;
           op = op + 1l;
-          *tmp_post$42 = (unsigned char)((unsigned int)(7 << 5) + (distance >> 8));
-          tmp_post$43 = op;
+          *tmp_post_42 = (unsigned char)((unsigned int)(7 << 5) + (distance >> 8));
+          tmp_post_43 = op;
           op = op + 1l;
-          *tmp_post$43 = (unsigned char)(len - (unsigned int)7);
-          tmp_post$44 = op;
+          *tmp_post_43 = (unsigned char)(len - (unsigned int)7);
+          tmp_post_44 = op;
           op = op + 1l;
-          *tmp_post$44 = (unsigned char)(distance & (unsigned int)255);
+          *tmp_post_44 = (unsigned char)(distance & (unsigned int)255);
         }
         hval = (unsigned int)*((const unsigned short int *)ip);
         hval = hval ^ (unsigned int)*((const unsigned short int *)(ip + (signed long int)1)) ^ hval >> 16 - 13;
         hval = hval & (unsigned int)((1 << 13) - 1);
-        tmp_post$45 = ip;
+        tmp_post_45 = ip;
         ip = ip + 1l;
-        htab[(signed long int)hval] = tmp_post$45;
+        htab[(signed long int)hval] = tmp_post_45;
         hval = (unsigned int)*((const unsigned short int *)ip);
         hval = hval ^ (unsigned int)*((const unsigned short int *)(ip + (signed long int)1)) ^ hval >> 16 - 13;
         hval = hval & (unsigned int)((1 << 13) - 1);
-        tmp_post$46 = ip;
+        tmp_post_46 = ip;
         ip = ip + 1l;
-        htab[(signed long int)hval] = tmp_post$46;
-        tmp_post$47 = op;
+        htab[(signed long int)hval] = tmp_post_46;
+        tmp_post_47 = op;
         op = op + 1l;
-        *tmp_post$47 = (unsigned char)(32 - 1);
+        *tmp_post_47 = (unsigned char)(32 - 1);
       }
 
       else
@@ -3474,19 +3474,19 @@ static inline signed int fastlz1_compress(const void *input, signed int length, 
 
       literal:
         ;
-        tmp_post$48 = op;
+        tmp_post_48 = op;
         op = op + 1l;
-        tmp_post$49 = anchor;
+        tmp_post_49 = anchor;
         anchor = anchor + 1l;
-        *tmp_post$48 = *tmp_post$49;
+        *tmp_post_48 = *tmp_post_49;
         ip = anchor;
         copy = copy + 1u;
         if(copy == 32u)
         {
           copy = (unsigned int)0;
-          tmp_post$50 = op;
+          tmp_post_50 = op;
           op = op + 1l;
-          *tmp_post$50 = (unsigned char)(32 - 1);
+          *tmp_post_50 = (unsigned char)(32 - 1);
         }
 
       }
@@ -3494,18 +3494,18 @@ static inline signed int fastlz1_compress(const void *input, signed int length, 
     ip_bound = ip_bound + 1l;
     while(ip_bound >= ip)
     {
-      tmp_post$51 = op;
+      tmp_post_51 = op;
       op = op + 1l;
-      tmp_post$52 = ip;
+      tmp_post_52 = ip;
       ip = ip + 1l;
-      *tmp_post$51 = *tmp_post$52;
+      *tmp_post_51 = *tmp_post_52;
       copy = copy + 1u;
       if(copy == 32u)
       {
         copy = (unsigned int)0;
-        tmp_post$53 = op;
+        tmp_post_53 = op;
         op = op + 1l;
-        *tmp_post$53 = (unsigned char)(32 - 1);
+        *tmp_post_53 = (unsigned char)(32 - 1);
       }
 
     }
@@ -3527,40 +3527,40 @@ static inline signed int fastlz1_decompress(const void *input, signed int length
   unsigned char *op = (unsigned char *)output;
   unsigned char *op_limit = op + (signed long int)maxout;
   unsigned int ctrl;
-  const unsigned char *tmp_post$1 = ip;
+  const unsigned char *tmp_post_1 = ip;
   ip = ip + 1l;
-  ctrl = (unsigned int)((signed int)*tmp_post$1 & 31);
+  ctrl = (unsigned int)((signed int)*tmp_post_1 & 31);
   signed int loop = 1;
-  const unsigned char *tmp_post$2;
-  const unsigned char *tmp_post$3;
-  const unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
-  unsigned char *tmp_post$8;
-  unsigned char *tmp_post$9;
-  const unsigned char *tmp_post$10;
-  unsigned char *tmp_post$11;
-  const unsigned char *tmp_post$12;
-  unsigned char *tmp_post$13;
-  const unsigned char *tmp_post$14;
-  unsigned char *tmp_post$15;
-  const unsigned char *tmp_post$16;
-  unsigned short int *tmp_post$17;
-  const unsigned short int *tmp_post$18;
-  unsigned short int *tmp_post$19;
-  const unsigned short int *tmp_post$20;
-  unsigned short int *tmp_post$21;
-  const unsigned short int *tmp_post$22;
-  unsigned short int *tmp_post$23;
-  const unsigned short int *tmp_post$24;
-  unsigned short int *tmp_post$25;
-  const unsigned short int *tmp_post$26;
-  unsigned char *tmp_post$27;
-  const unsigned char *tmp_post$28;
-  unsigned char *tmp_post$29;
-  const unsigned char *tmp_post$30;
-  const unsigned char *tmp_post$31;
+  const unsigned char *tmp_post_2;
+  const unsigned char *tmp_post_3;
+  const unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
+  unsigned char *tmp_post_8;
+  unsigned char *tmp_post_9;
+  const unsigned char *tmp_post_10;
+  unsigned char *tmp_post_11;
+  const unsigned char *tmp_post_12;
+  unsigned char *tmp_post_13;
+  const unsigned char *tmp_post_14;
+  unsigned char *tmp_post_15;
+  const unsigned char *tmp_post_16;
+  unsigned short int *tmp_post_17;
+  const unsigned short int *tmp_post_18;
+  unsigned short int *tmp_post_19;
+  const unsigned short int *tmp_post_20;
+  unsigned short int *tmp_post_21;
+  const unsigned short int *tmp_post_22;
+  unsigned short int *tmp_post_23;
+  const unsigned short int *tmp_post_24;
+  unsigned short int *tmp_post_25;
+  const unsigned short int *tmp_post_26;
+  unsigned char *tmp_post_27;
+  const unsigned char *tmp_post_28;
+  unsigned char *tmp_post_29;
+  const unsigned char *tmp_post_30;
+  const unsigned char *tmp_post_31;
   do
   {
     const unsigned char *ref = op;
@@ -3572,14 +3572,14 @@ static inline signed int fastlz1_decompress(const void *input, signed int length
       ref = ref - (signed long int)ofs;
       if(len == 6u)
       {
-        tmp_post$2 = ip;
+        tmp_post_2 = ip;
         ip = ip + 1l;
-        len = len + (unsigned int)*tmp_post$2;
+        len = len + (unsigned int)*tmp_post_2;
       }
 
-      tmp_post$3 = ip;
+      tmp_post_3 = ip;
       ip = ip + 1l;
-      ref = ref - (signed long int)*tmp_post$3;
+      ref = ref - (signed long int)*tmp_post_3;
       if(!(op_limit >= op + (signed long int)len + 3l))
         return 0;
 
@@ -3588,9 +3588,9 @@ static inline signed int fastlz1_decompress(const void *input, signed int length
 
       if(!(ip >= ip_limit))
       {
-        tmp_post$4 = ip;
+        tmp_post_4 = ip;
         ip = ip + 1l;
-        ctrl = (unsigned int)*tmp_post$4;
+        ctrl = (unsigned int)*tmp_post_4;
       }
 
       else
@@ -3598,20 +3598,20 @@ static inline signed int fastlz1_decompress(const void *input, signed int length
       if(ref == op)
       {
         unsigned char b = ref[(signed long int)-1];
-        tmp_post$5 = op;
+        tmp_post_5 = op;
         op = op + 1l;
-        *tmp_post$5 = b;
-        tmp_post$6 = op;
+        *tmp_post_5 = b;
+        tmp_post_6 = op;
         op = op + 1l;
-        *tmp_post$6 = b;
-        tmp_post$7 = op;
+        *tmp_post_6 = b;
+        tmp_post_7 = op;
         op = op + 1l;
-        *tmp_post$7 = b;
+        *tmp_post_7 = b;
         for( ; !(len == 0u); len = len - 1u)
         {
-          tmp_post$8 = op;
+          tmp_post_8 = op;
           op = op + 1l;
-          *tmp_post$8 = b;
+          *tmp_post_8 = b;
         }
       }
 
@@ -3620,28 +3620,28 @@ static inline signed int fastlz1_decompress(const void *input, signed int length
         const unsigned short int *p;
         unsigned short int *q;
         ref = ref - 1l;
-        tmp_post$9 = op;
+        tmp_post_9 = op;
         op = op + 1l;
-        tmp_post$10 = ref;
+        tmp_post_10 = ref;
         ref = ref + 1l;
-        *tmp_post$9 = *tmp_post$10;
-        tmp_post$11 = op;
+        *tmp_post_9 = *tmp_post_10;
+        tmp_post_11 = op;
         op = op + 1l;
-        tmp_post$12 = ref;
+        tmp_post_12 = ref;
         ref = ref + 1l;
-        *tmp_post$11 = *tmp_post$12;
-        tmp_post$13 = op;
+        *tmp_post_11 = *tmp_post_12;
+        tmp_post_13 = op;
         op = op + 1l;
-        tmp_post$14 = ref;
+        tmp_post_14 = ref;
         ref = ref + 1l;
-        *tmp_post$13 = *tmp_post$14;
+        *tmp_post_13 = *tmp_post_14;
         if(!((1u & len) == 0u))
         {
-          tmp_post$15 = op;
+          tmp_post_15 = op;
           op = op + 1l;
-          tmp_post$16 = ref;
+          tmp_post_16 = ref;
           ref = ref + 1l;
-          *tmp_post$15 = *tmp_post$16;
+          *tmp_post_15 = *tmp_post_16;
           len = len - 1u;
         }
 
@@ -3651,34 +3651,34 @@ static inline signed int fastlz1_decompress(const void *input, signed int length
         len = len >> 1;
         for( ; len >= 5u; len = len - (unsigned int)4)
         {
-          tmp_post$17 = q;
+          tmp_post_17 = q;
           q = q + 1l;
-          tmp_post$18 = p;
+          tmp_post_18 = p;
           p = p + 1l;
-          *tmp_post$17 = *tmp_post$18;
-          tmp_post$19 = q;
+          *tmp_post_17 = *tmp_post_18;
+          tmp_post_19 = q;
           q = q + 1l;
-          tmp_post$20 = p;
+          tmp_post_20 = p;
           p = p + 1l;
-          *tmp_post$19 = *tmp_post$20;
-          tmp_post$21 = q;
+          *tmp_post_19 = *tmp_post_20;
+          tmp_post_21 = q;
           q = q + 1l;
-          tmp_post$22 = p;
+          tmp_post_22 = p;
           p = p + 1l;
-          *tmp_post$21 = *tmp_post$22;
-          tmp_post$23 = q;
+          *tmp_post_21 = *tmp_post_22;
+          tmp_post_23 = q;
           q = q + 1l;
-          tmp_post$24 = p;
+          tmp_post_24 = p;
           p = p + 1l;
-          *tmp_post$23 = *tmp_post$24;
+          *tmp_post_23 = *tmp_post_24;
         }
         for( ; !(len == 0u); len = len - 1u)
         {
-          tmp_post$25 = q;
+          tmp_post_25 = q;
           q = q + 1l;
-          tmp_post$26 = p;
+          tmp_post_26 = p;
           p = p + 1l;
-          *tmp_post$25 = *tmp_post$26;
+          *tmp_post_25 = *tmp_post_26;
         }
       }
     }
@@ -3692,26 +3692,26 @@ static inline signed int fastlz1_decompress(const void *input, signed int length
       if(!(ip_limit >= ip + (signed long int)ctrl))
         return 0;
 
-      tmp_post$27 = op;
+      tmp_post_27 = op;
       op = op + 1l;
-      tmp_post$28 = ip;
+      tmp_post_28 = ip;
       ip = ip + 1l;
-      *tmp_post$27 = *tmp_post$28;
+      *tmp_post_27 = *tmp_post_28;
       ctrl = ctrl - 1u;
       for( ; !(ctrl == 0u); ctrl = ctrl - 1u)
       {
-        tmp_post$29 = op;
+        tmp_post_29 = op;
         op = op + 1l;
-        tmp_post$30 = ip;
+        tmp_post_30 = ip;
         ip = ip + 1l;
-        *tmp_post$29 = *tmp_post$30;
+        *tmp_post_29 = *tmp_post_30;
       }
       loop = (signed int)(signed long int)(ip < ip_limit);
       if(!(loop == 0))
       {
-        tmp_post$31 = ip;
+        tmp_post_31 = ip;
         ip = ip + 1l;
-        ctrl = (unsigned int)*tmp_post$31;
+        ctrl = (unsigned int)*tmp_post_31;
       }
 
     }
@@ -3732,85 +3732,85 @@ static inline signed int fastlz2_compress(const void *input, signed int length, 
   const unsigned char **hslot;
   unsigned int hval;
   unsigned int copy;
-  unsigned char *tmp_post$1;
-  unsigned char *tmp_post$2;
-  const unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
-  const unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
-  const unsigned char *tmp_post$8;
-  _Bool tmp_if_expr$11;
-  const unsigned char *tmp_post$9;
-  const unsigned char *tmp_post$10;
-  _Bool tmp_if_expr$14;
-  const unsigned char *tmp_post$12;
-  const unsigned char *tmp_post$13;
-  _Bool tmp_if_expr$17;
-  const unsigned char *tmp_post$15;
-  const unsigned char *tmp_post$16;
-  const unsigned char *tmp_post$18;
-  const unsigned char *tmp_post$19;
-  _Bool tmp_if_expr$22;
-  const unsigned char *tmp_post$20;
-  const unsigned char *tmp_post$21;
-  const unsigned char *tmp_post$23;
-  const unsigned char *tmp_post$24;
-  const unsigned char *tmp_post$25;
-  const unsigned char *tmp_post$26;
-  const unsigned char *tmp_post$27;
-  const unsigned char *tmp_post$28;
-  const unsigned char *tmp_post$29;
-  const unsigned char *tmp_post$30;
-  const unsigned char *tmp_post$31;
-  const unsigned char *tmp_post$32;
-  const unsigned char *tmp_post$33;
-  const unsigned char *tmp_post$34;
-  const unsigned char *tmp_post$35;
-  const unsigned char *tmp_post$36;
-  const unsigned char *tmp_post$37;
-  const unsigned char *tmp_post$38;
-  const unsigned char *tmp_post$39;
-  const unsigned char *tmp_post$40;
-  const unsigned char *tmp_post$41;
-  unsigned char *tmp_post$42;
-  unsigned char *tmp_post$43;
-  unsigned char *tmp_post$44;
-  unsigned char *tmp_post$45;
-  unsigned char *tmp_post$46;
-  unsigned char *tmp_post$47;
-  unsigned char *tmp_post$48;
-  unsigned char *tmp_post$49;
-  unsigned char *tmp_post$50;
-  unsigned char *tmp_post$51;
-  unsigned char *tmp_post$52;
-  unsigned char *tmp_post$53;
-  unsigned char *tmp_post$54;
-  unsigned char *tmp_post$55;
-  unsigned char *tmp_post$56;
-  unsigned char *tmp_post$57;
-  const unsigned char *tmp_post$58;
-  const unsigned char *tmp_post$59;
-  unsigned char *tmp_post$60;
-  unsigned char *tmp_post$61;
-  const unsigned char *tmp_post$62;
-  unsigned char *tmp_post$63;
-  unsigned char *tmp_post$64;
-  const unsigned char *tmp_post$65;
-  unsigned char *tmp_post$66;
+  unsigned char *tmp_post_1;
+  unsigned char *tmp_post_2;
+  const unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
+  const unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
+  const unsigned char *tmp_post_8;
+  _Bool tmp_if_expr_11;
+  const unsigned char *tmp_post_9;
+  const unsigned char *tmp_post_10;
+  _Bool tmp_if_expr_14;
+  const unsigned char *tmp_post_12;
+  const unsigned char *tmp_post_13;
+  _Bool tmp_if_expr_17;
+  const unsigned char *tmp_post_15;
+  const unsigned char *tmp_post_16;
+  const unsigned char *tmp_post_18;
+  const unsigned char *tmp_post_19;
+  _Bool tmp_if_expr_22;
+  const unsigned char *tmp_post_20;
+  const unsigned char *tmp_post_21;
+  const unsigned char *tmp_post_23;
+  const unsigned char *tmp_post_24;
+  const unsigned char *tmp_post_25;
+  const unsigned char *tmp_post_26;
+  const unsigned char *tmp_post_27;
+  const unsigned char *tmp_post_28;
+  const unsigned char *tmp_post_29;
+  const unsigned char *tmp_post_30;
+  const unsigned char *tmp_post_31;
+  const unsigned char *tmp_post_32;
+  const unsigned char *tmp_post_33;
+  const unsigned char *tmp_post_34;
+  const unsigned char *tmp_post_35;
+  const unsigned char *tmp_post_36;
+  const unsigned char *tmp_post_37;
+  const unsigned char *tmp_post_38;
+  const unsigned char *tmp_post_39;
+  const unsigned char *tmp_post_40;
+  const unsigned char *tmp_post_41;
+  unsigned char *tmp_post_42;
+  unsigned char *tmp_post_43;
+  unsigned char *tmp_post_44;
+  unsigned char *tmp_post_45;
+  unsigned char *tmp_post_46;
+  unsigned char *tmp_post_47;
+  unsigned char *tmp_post_48;
+  unsigned char *tmp_post_49;
+  unsigned char *tmp_post_50;
+  unsigned char *tmp_post_51;
+  unsigned char *tmp_post_52;
+  unsigned char *tmp_post_53;
+  unsigned char *tmp_post_54;
+  unsigned char *tmp_post_55;
+  unsigned char *tmp_post_56;
+  unsigned char *tmp_post_57;
+  const unsigned char *tmp_post_58;
+  const unsigned char *tmp_post_59;
+  unsigned char *tmp_post_60;
+  unsigned char *tmp_post_61;
+  const unsigned char *tmp_post_62;
+  unsigned char *tmp_post_63;
+  unsigned char *tmp_post_64;
+  const unsigned char *tmp_post_65;
+  unsigned char *tmp_post_66;
   if(!(length >= 4))
   {
     if(!(length == 0))
     {
-      tmp_post$1 = op;
+      tmp_post_1 = op;
       op = op + 1l;
-      *tmp_post$1 = (unsigned char)(length - 1);
+      *tmp_post_1 = (unsigned char)(length - 1);
       ip_bound = ip_bound + 1l;
-      for( ; ip_bound >= ip; *tmp_post$2 = *tmp_post$3)
+      for( ; ip_bound >= ip; *tmp_post_2 = *tmp_post_3)
       {
-        tmp_post$2 = op;
+        tmp_post_2 = op;
         op = op + 1l;
-        tmp_post$3 = ip;
+        tmp_post_3 = ip;
         ip = ip + 1l;
       }
       return length + 1;
@@ -3825,19 +3825,19 @@ static inline signed int fastlz2_compress(const void *input, signed int length, 
     for( ; !(hslot >= htab + 8192l); hslot = hslot + 1l)
       *hslot = ip;
     copy = (unsigned int)2;
-    tmp_post$4 = op;
+    tmp_post_4 = op;
     op = op + 1l;
-    *tmp_post$4 = (unsigned char)(32 - 1);
-    tmp_post$5 = op;
+    *tmp_post_4 = (unsigned char)(32 - 1);
+    tmp_post_5 = op;
     op = op + 1l;
-    tmp_post$6 = ip;
+    tmp_post_6 = ip;
     ip = ip + 1l;
-    *tmp_post$5 = *tmp_post$6;
-    tmp_post$7 = op;
+    *tmp_post_5 = *tmp_post_6;
+    tmp_post_7 = op;
     op = op + 1l;
-    tmp_post$8 = ip;
+    tmp_post_8 = ip;
     ip = ip + 1l;
-    *tmp_post$7 = *tmp_post$8;
+    *tmp_post_7 = *tmp_post_8;
     while(!(ip >= ip_limit))
     {
       const unsigned char *ref;
@@ -3866,59 +3866,59 @@ static inline signed int fastlz2_compress(const void *input, signed int length, 
         distance = (unsigned int)(anchor - ref);
         *hslot = anchor;
         if(distance == 0u || distance >= 73725u)
-          tmp_if_expr$11 = (_Bool)1;
+          tmp_if_expr_11 = (_Bool)1;
 
         else
         {
-          tmp_post$9 = ref;
+          tmp_post_9 = ref;
           ref = ref + 1l;
-          tmp_post$10 = ip;
+          tmp_post_10 = ip;
           ip = ip + 1l;
-          tmp_if_expr$11 = *tmp_post$9 != *tmp_post$10 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_11 = *tmp_post_9 != *tmp_post_10 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$11)
-          tmp_if_expr$14 = (_Bool)1;
+        if(tmp_if_expr_11)
+          tmp_if_expr_14 = (_Bool)1;
 
         else
         {
-          tmp_post$12 = ref;
+          tmp_post_12 = ref;
           ref = ref + 1l;
-          tmp_post$13 = ip;
+          tmp_post_13 = ip;
           ip = ip + 1l;
-          tmp_if_expr$14 = *tmp_post$12 != *tmp_post$13 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_14 = *tmp_post_12 != *tmp_post_13 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$14)
-          tmp_if_expr$17 = (_Bool)1;
+        if(tmp_if_expr_14)
+          tmp_if_expr_17 = (_Bool)1;
 
         else
         {
-          tmp_post$15 = ref;
+          tmp_post_15 = ref;
           ref = ref + 1l;
-          tmp_post$16 = ip;
+          tmp_post_16 = ip;
           ip = ip + 1l;
-          tmp_if_expr$17 = *tmp_post$15 != *tmp_post$16 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_17 = *tmp_post_15 != *tmp_post_16 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$17)
+        if(tmp_if_expr_17)
           goto literal;
 
         if(distance >= 8191u)
         {
-          tmp_post$18 = ip;
+          tmp_post_18 = ip;
           ip = ip + 1l;
-          tmp_post$19 = ref;
+          tmp_post_19 = ref;
           ref = ref + 1l;
-          if(!(*tmp_post$18 == *tmp_post$19))
-            tmp_if_expr$22 = (_Bool)1;
+          if(!(*tmp_post_18 == *tmp_post_19))
+            tmp_if_expr_22 = (_Bool)1;
 
           else
           {
-            tmp_post$20 = ip;
+            tmp_post_20 = ip;
             ip = ip + 1l;
-            tmp_post$21 = ref;
+            tmp_post_21 = ref;
             ref = ref + 1l;
-            tmp_if_expr$22 = *tmp_post$20 != *tmp_post$21 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_22 = *tmp_post_20 != *tmp_post_21 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$22)
+          if(tmp_if_expr_22)
             goto literal;
 
           len = len + (unsigned int)2;
@@ -3935,9 +3935,9 @@ static inline signed int fastlz2_compress(const void *input, signed int length, 
         unsigned char x = ip[(signed long int)-1];
         while(!(ip >= ip_bound))
         {
-          tmp_post$23 = ref;
+          tmp_post_23 = ref;
           ref = ref + 1l;
-          if(!(*tmp_post$23 == x))
+          if(!(*tmp_post_23 == x))
             break;
 
           else
@@ -3947,60 +3947,60 @@ static inline signed int fastlz2_compress(const void *input, signed int length, 
 
       else
       {
-        tmp_post$24 = ref;
+        tmp_post_24 = ref;
         ref = ref + 1l;
-        tmp_post$25 = ip;
+        tmp_post_25 = ip;
         ip = ip + 1l;
-        if(*tmp_post$24 == *tmp_post$25)
+        if(*tmp_post_24 == *tmp_post_25)
         {
-          tmp_post$26 = ref;
+          tmp_post_26 = ref;
           ref = ref + 1l;
-          tmp_post$27 = ip;
+          tmp_post_27 = ip;
           ip = ip + 1l;
-          if(*tmp_post$26 == *tmp_post$27)
+          if(*tmp_post_26 == *tmp_post_27)
           {
-            tmp_post$28 = ref;
+            tmp_post_28 = ref;
             ref = ref + 1l;
-            tmp_post$29 = ip;
+            tmp_post_29 = ip;
             ip = ip + 1l;
-            if(*tmp_post$28 == *tmp_post$29)
+            if(*tmp_post_28 == *tmp_post_29)
             {
-              tmp_post$30 = ref;
+              tmp_post_30 = ref;
               ref = ref + 1l;
-              tmp_post$31 = ip;
+              tmp_post_31 = ip;
               ip = ip + 1l;
-              if(*tmp_post$30 == *tmp_post$31)
+              if(*tmp_post_30 == *tmp_post_31)
               {
-                tmp_post$32 = ref;
+                tmp_post_32 = ref;
                 ref = ref + 1l;
-                tmp_post$33 = ip;
+                tmp_post_33 = ip;
                 ip = ip + 1l;
-                if(*tmp_post$32 == *tmp_post$33)
+                if(*tmp_post_32 == *tmp_post_33)
                 {
-                  tmp_post$34 = ref;
+                  tmp_post_34 = ref;
                   ref = ref + 1l;
-                  tmp_post$35 = ip;
+                  tmp_post_35 = ip;
                   ip = ip + 1l;
-                  if(*tmp_post$34 == *tmp_post$35)
+                  if(*tmp_post_34 == *tmp_post_35)
                   {
-                    tmp_post$36 = ref;
+                    tmp_post_36 = ref;
                     ref = ref + 1l;
-                    tmp_post$37 = ip;
+                    tmp_post_37 = ip;
                     ip = ip + 1l;
-                    if(*tmp_post$36 == *tmp_post$37)
+                    if(*tmp_post_36 == *tmp_post_37)
                     {
-                      tmp_post$38 = ref;
+                      tmp_post_38 = ref;
                       ref = ref + 1l;
-                      tmp_post$39 = ip;
+                      tmp_post_39 = ip;
                       ip = ip + 1l;
-                      if(*tmp_post$38 == *tmp_post$39)
+                      if(*tmp_post_38 == *tmp_post_39)
                         while(!(ip >= ip_bound))
                         {
-                          tmp_post$40 = ref;
+                          tmp_post_40 = ref;
                           ref = ref + 1l;
-                          tmp_post$41 = ip;
+                          tmp_post_41 = ip;
                           ip = ip + 1l;
-                          if(!(*tmp_post$40 == *tmp_post$41))
+                          if(!(*tmp_post_40 == *tmp_post_41))
                             break;
 
                         }
@@ -4032,32 +4032,32 @@ static inline signed int fastlz2_compress(const void *input, signed int length, 
       {
         if(!(len >= 7u))
         {
-          tmp_post$42 = op;
+          tmp_post_42 = op;
           op = op + 1l;
-          *tmp_post$42 = (unsigned char)((len << 5) + (distance >> 8));
-          tmp_post$43 = op;
+          *tmp_post_42 = (unsigned char)((len << 5) + (distance >> 8));
+          tmp_post_43 = op;
           op = op + 1l;
-          *tmp_post$43 = (unsigned char)(distance & (unsigned int)255);
+          *tmp_post_43 = (unsigned char)(distance & (unsigned int)255);
         }
 
         else
         {
-          tmp_post$44 = op;
+          tmp_post_44 = op;
           op = op + 1l;
-          *tmp_post$44 = (unsigned char)((unsigned int)(7 << 5) + (distance >> 8));
+          *tmp_post_44 = (unsigned char)((unsigned int)(7 << 5) + (distance >> 8));
           len = len - (unsigned int)7;
           for( ; len >= 255u; len = len - (unsigned int)255)
           {
-            tmp_post$45 = op;
+            tmp_post_45 = op;
             op = op + 1l;
-            *tmp_post$45 = (unsigned char)255;
+            *tmp_post_45 = (unsigned char)255;
           }
-          tmp_post$46 = op;
+          tmp_post_46 = op;
           op = op + 1l;
-          *tmp_post$46 = (unsigned char)len;
-          tmp_post$47 = op;
+          *tmp_post_46 = (unsigned char)len;
+          tmp_post_47 = op;
           op = op + 1l;
-          *tmp_post$47 = (unsigned char)(distance & (unsigned int)255);
+          *tmp_post_47 = (unsigned char)(distance & (unsigned int)255);
         }
       }
 
@@ -4065,96 +4065,96 @@ static inline signed int fastlz2_compress(const void *input, signed int length, 
         if(!(len >= 7u))
         {
           distance = distance - (unsigned int)8191;
-          tmp_post$48 = op;
+          tmp_post_48 = op;
           op = op + 1l;
-          *tmp_post$48 = (unsigned char)((len << 5) + (unsigned int)31);
-          tmp_post$49 = op;
+          *tmp_post_48 = (unsigned char)((len << 5) + (unsigned int)31);
+          tmp_post_49 = op;
           op = op + 1l;
-          *tmp_post$49 = (unsigned char)255;
-          tmp_post$50 = op;
+          *tmp_post_49 = (unsigned char)255;
+          tmp_post_50 = op;
           op = op + 1l;
-          *tmp_post$50 = (unsigned char)(distance >> 8);
-          tmp_post$51 = op;
+          *tmp_post_50 = (unsigned char)(distance >> 8);
+          tmp_post_51 = op;
           op = op + 1l;
-          *tmp_post$51 = (unsigned char)(distance & (unsigned int)255);
+          *tmp_post_51 = (unsigned char)(distance & (unsigned int)255);
         }
 
         else
         {
           distance = distance - (unsigned int)8191;
-          tmp_post$52 = op;
+          tmp_post_52 = op;
           op = op + 1l;
-          *tmp_post$52 = (unsigned char)((7 << 5) + 31);
+          *tmp_post_52 = (unsigned char)((7 << 5) + 31);
           len = len - (unsigned int)7;
           for( ; len >= 255u; len = len - (unsigned int)255)
           {
-            tmp_post$53 = op;
+            tmp_post_53 = op;
             op = op + 1l;
-            *tmp_post$53 = (unsigned char)255;
+            *tmp_post_53 = (unsigned char)255;
           }
-          tmp_post$54 = op;
+          tmp_post_54 = op;
           op = op + 1l;
-          *tmp_post$54 = (unsigned char)len;
-          tmp_post$55 = op;
+          *tmp_post_54 = (unsigned char)len;
+          tmp_post_55 = op;
           op = op + 1l;
-          *tmp_post$55 = (unsigned char)255;
-          tmp_post$56 = op;
+          *tmp_post_55 = (unsigned char)255;
+          tmp_post_56 = op;
           op = op + 1l;
-          *tmp_post$56 = (unsigned char)(distance >> 8);
-          tmp_post$57 = op;
+          *tmp_post_56 = (unsigned char)(distance >> 8);
+          tmp_post_57 = op;
           op = op + 1l;
-          *tmp_post$57 = (unsigned char)(distance & (unsigned int)255);
+          *tmp_post_57 = (unsigned char)(distance & (unsigned int)255);
         }
       hval = (unsigned int)*((const unsigned short int *)ip);
       hval = hval ^ (unsigned int)*((const unsigned short int *)(ip + (signed long int)1)) ^ hval >> 16 - 13;
       hval = hval & (unsigned int)((1 << 13) - 1);
-      tmp_post$58 = ip;
+      tmp_post_58 = ip;
       ip = ip + 1l;
-      htab[(signed long int)hval] = tmp_post$58;
+      htab[(signed long int)hval] = tmp_post_58;
       hval = (unsigned int)*((const unsigned short int *)ip);
       hval = hval ^ (unsigned int)*((const unsigned short int *)(ip + (signed long int)1)) ^ hval >> 16 - 13;
       hval = hval & (unsigned int)((1 << 13) - 1);
-      tmp_post$59 = ip;
+      tmp_post_59 = ip;
       ip = ip + 1l;
-      htab[(signed long int)hval] = tmp_post$59;
-      tmp_post$60 = op;
+      htab[(signed long int)hval] = tmp_post_59;
+      tmp_post_60 = op;
       op = op + 1l;
-      *tmp_post$60 = (unsigned char)(32 - 1);
+      *tmp_post_60 = (unsigned char)(32 - 1);
       continue;
 
     literal:
       ;
-      tmp_post$61 = op;
+      tmp_post_61 = op;
       op = op + 1l;
-      tmp_post$62 = anchor;
+      tmp_post_62 = anchor;
       anchor = anchor + 1l;
-      *tmp_post$61 = *tmp_post$62;
+      *tmp_post_61 = *tmp_post_62;
       ip = anchor;
       copy = copy + 1u;
       if(copy == 32u)
       {
         copy = (unsigned int)0;
-        tmp_post$63 = op;
+        tmp_post_63 = op;
         op = op + 1l;
-        *tmp_post$63 = (unsigned char)(32 - 1);
+        *tmp_post_63 = (unsigned char)(32 - 1);
       }
 
     }
     ip_bound = ip_bound + 1l;
     while(ip_bound >= ip)
     {
-      tmp_post$64 = op;
+      tmp_post_64 = op;
       op = op + 1l;
-      tmp_post$65 = ip;
+      tmp_post_65 = ip;
       ip = ip + 1l;
-      *tmp_post$64 = *tmp_post$65;
+      *tmp_post_64 = *tmp_post_65;
       copy = copy + 1u;
       if(copy == 32u)
       {
         copy = (unsigned int)0;
-        tmp_post$66 = op;
+        tmp_post_66 = op;
         op = op + 1l;
-        *tmp_post$66 = (unsigned char)(32 - 1);
+        *tmp_post_66 = (unsigned char)(32 - 1);
       }
 
     }
@@ -4177,42 +4177,42 @@ static inline signed int fastlz2_decompress(const void *input, signed int length
   unsigned char *op = (unsigned char *)output;
   unsigned char *op_limit = op + (signed long int)maxout;
   unsigned int ctrl;
-  const unsigned char *tmp_post$1 = ip;
+  const unsigned char *tmp_post_1 = ip;
   ip = ip + 1l;
-  ctrl = (unsigned int)((signed int)*tmp_post$1 & 31);
+  ctrl = (unsigned int)((signed int)*tmp_post_1 & 31);
   signed int loop = 1;
-  const unsigned char *tmp_post$2;
-  const unsigned char *tmp_post$3;
-  const unsigned char *tmp_post$4;
-  const unsigned char *tmp_post$5;
-  const unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
-  unsigned char *tmp_post$8;
-  unsigned char *tmp_post$9;
-  unsigned char *tmp_post$10;
-  unsigned char *tmp_post$11;
-  const unsigned char *tmp_post$12;
-  unsigned char *tmp_post$13;
-  const unsigned char *tmp_post$14;
-  unsigned char *tmp_post$15;
-  const unsigned char *tmp_post$16;
-  unsigned char *tmp_post$17;
-  const unsigned char *tmp_post$18;
-  unsigned short int *tmp_post$19;
-  const unsigned short int *tmp_post$20;
-  unsigned short int *tmp_post$21;
-  const unsigned short int *tmp_post$22;
-  unsigned short int *tmp_post$23;
-  const unsigned short int *tmp_post$24;
-  unsigned short int *tmp_post$25;
-  const unsigned short int *tmp_post$26;
-  unsigned short int *tmp_post$27;
-  const unsigned short int *tmp_post$28;
-  unsigned char *tmp_post$29;
-  const unsigned char *tmp_post$30;
-  unsigned char *tmp_post$31;
-  const unsigned char *tmp_post$32;
-  const unsigned char *tmp_post$33;
+  const unsigned char *tmp_post_2;
+  const unsigned char *tmp_post_3;
+  const unsigned char *tmp_post_4;
+  const unsigned char *tmp_post_5;
+  const unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
+  unsigned char *tmp_post_8;
+  unsigned char *tmp_post_9;
+  unsigned char *tmp_post_10;
+  unsigned char *tmp_post_11;
+  const unsigned char *tmp_post_12;
+  unsigned char *tmp_post_13;
+  const unsigned char *tmp_post_14;
+  unsigned char *tmp_post_15;
+  const unsigned char *tmp_post_16;
+  unsigned char *tmp_post_17;
+  const unsigned char *tmp_post_18;
+  unsigned short int *tmp_post_19;
+  const unsigned short int *tmp_post_20;
+  unsigned short int *tmp_post_21;
+  const unsigned short int *tmp_post_22;
+  unsigned short int *tmp_post_23;
+  const unsigned short int *tmp_post_24;
+  unsigned short int *tmp_post_25;
+  const unsigned short int *tmp_post_26;
+  unsigned short int *tmp_post_27;
+  const unsigned short int *tmp_post_28;
+  unsigned char *tmp_post_29;
+  const unsigned char *tmp_post_30;
+  unsigned char *tmp_post_31;
+  const unsigned char *tmp_post_32;
+  const unsigned char *tmp_post_33;
   do
   {
     const unsigned char *ref = op;
@@ -4226,27 +4226,27 @@ static inline signed int fastlz2_decompress(const void *input, signed int length
       if(len == 6u)
         do
         {
-          tmp_post$2 = ip;
+          tmp_post_2 = ip;
           ip = ip + 1l;
-          code = *tmp_post$2;
+          code = *tmp_post_2;
           len = len + (unsigned int)code;
         }
         while((signed int)code == 255);
 
-      tmp_post$3 = ip;
+      tmp_post_3 = ip;
       ip = ip + 1l;
-      code = *tmp_post$3;
+      code = *tmp_post_3;
       ref = ref - (signed long int)code;
       if((signed int)code == 255)
       {
         if(ofs == 7936u)
         {
-          tmp_post$4 = ip;
+          tmp_post_4 = ip;
           ip = ip + 1l;
-          ofs = (unsigned int)((signed int)*tmp_post$4 << 8);
-          tmp_post$5 = ip;
+          ofs = (unsigned int)((signed int)*tmp_post_4 << 8);
+          tmp_post_5 = ip;
           ip = ip + 1l;
-          ofs = ofs + (unsigned int)*tmp_post$5;
+          ofs = ofs + (unsigned int)*tmp_post_5;
           ref = (op - (signed long int)ofs) - (signed long int)8191;
         }
 
@@ -4260,9 +4260,9 @@ static inline signed int fastlz2_decompress(const void *input, signed int length
 
       if(!(ip >= ip_limit))
       {
-        tmp_post$6 = ip;
+        tmp_post_6 = ip;
         ip = ip + 1l;
-        ctrl = (unsigned int)*tmp_post$6;
+        ctrl = (unsigned int)*tmp_post_6;
       }
 
       else
@@ -4270,20 +4270,20 @@ static inline signed int fastlz2_decompress(const void *input, signed int length
       if(ref == op)
       {
         unsigned char b = ref[(signed long int)-1];
-        tmp_post$7 = op;
+        tmp_post_7 = op;
         op = op + 1l;
-        *tmp_post$7 = b;
-        tmp_post$8 = op;
+        *tmp_post_7 = b;
+        tmp_post_8 = op;
         op = op + 1l;
-        *tmp_post$8 = b;
-        tmp_post$9 = op;
+        *tmp_post_8 = b;
+        tmp_post_9 = op;
         op = op + 1l;
-        *tmp_post$9 = b;
+        *tmp_post_9 = b;
         for( ; !(len == 0u); len = len - 1u)
         {
-          tmp_post$10 = op;
+          tmp_post_10 = op;
           op = op + 1l;
-          *tmp_post$10 = b;
+          *tmp_post_10 = b;
         }
       }
 
@@ -4292,28 +4292,28 @@ static inline signed int fastlz2_decompress(const void *input, signed int length
         const unsigned short int *p;
         unsigned short int *q;
         ref = ref - 1l;
-        tmp_post$11 = op;
+        tmp_post_11 = op;
         op = op + 1l;
-        tmp_post$12 = ref;
+        tmp_post_12 = ref;
         ref = ref + 1l;
-        *tmp_post$11 = *tmp_post$12;
-        tmp_post$13 = op;
+        *tmp_post_11 = *tmp_post_12;
+        tmp_post_13 = op;
         op = op + 1l;
-        tmp_post$14 = ref;
+        tmp_post_14 = ref;
         ref = ref + 1l;
-        *tmp_post$13 = *tmp_post$14;
-        tmp_post$15 = op;
+        *tmp_post_13 = *tmp_post_14;
+        tmp_post_15 = op;
         op = op + 1l;
-        tmp_post$16 = ref;
+        tmp_post_16 = ref;
         ref = ref + 1l;
-        *tmp_post$15 = *tmp_post$16;
+        *tmp_post_15 = *tmp_post_16;
         if(!((1u & len) == 0u))
         {
-          tmp_post$17 = op;
+          tmp_post_17 = op;
           op = op + 1l;
-          tmp_post$18 = ref;
+          tmp_post_18 = ref;
           ref = ref + 1l;
-          *tmp_post$17 = *tmp_post$18;
+          *tmp_post_17 = *tmp_post_18;
           len = len - 1u;
         }
 
@@ -4323,34 +4323,34 @@ static inline signed int fastlz2_decompress(const void *input, signed int length
         len = len >> 1;
         for( ; len >= 5u; len = len - (unsigned int)4)
         {
-          tmp_post$19 = q;
+          tmp_post_19 = q;
           q = q + 1l;
-          tmp_post$20 = p;
+          tmp_post_20 = p;
           p = p + 1l;
-          *tmp_post$19 = *tmp_post$20;
-          tmp_post$21 = q;
+          *tmp_post_19 = *tmp_post_20;
+          tmp_post_21 = q;
           q = q + 1l;
-          tmp_post$22 = p;
+          tmp_post_22 = p;
           p = p + 1l;
-          *tmp_post$21 = *tmp_post$22;
-          tmp_post$23 = q;
+          *tmp_post_21 = *tmp_post_22;
+          tmp_post_23 = q;
           q = q + 1l;
-          tmp_post$24 = p;
+          tmp_post_24 = p;
           p = p + 1l;
-          *tmp_post$23 = *tmp_post$24;
-          tmp_post$25 = q;
+          *tmp_post_23 = *tmp_post_24;
+          tmp_post_25 = q;
           q = q + 1l;
-          tmp_post$26 = p;
+          tmp_post_26 = p;
           p = p + 1l;
-          *tmp_post$25 = *tmp_post$26;
+          *tmp_post_25 = *tmp_post_26;
         }
         for( ; !(len == 0u); len = len - 1u)
         {
-          tmp_post$27 = q;
+          tmp_post_27 = q;
           q = q + 1l;
-          tmp_post$28 = p;
+          tmp_post_28 = p;
           p = p + 1l;
-          *tmp_post$27 = *tmp_post$28;
+          *tmp_post_27 = *tmp_post_28;
         }
       }
     }
@@ -4364,26 +4364,26 @@ static inline signed int fastlz2_decompress(const void *input, signed int length
       if(!(ip_limit >= ip + (signed long int)ctrl))
         return 0;
 
-      tmp_post$29 = op;
+      tmp_post_29 = op;
       op = op + 1l;
-      tmp_post$30 = ip;
+      tmp_post_30 = ip;
       ip = ip + 1l;
-      *tmp_post$29 = *tmp_post$30;
+      *tmp_post_29 = *tmp_post_30;
       ctrl = ctrl - 1u;
       for( ; !(ctrl == 0u); ctrl = ctrl - 1u)
       {
-        tmp_post$31 = op;
+        tmp_post_31 = op;
         op = op + 1l;
-        tmp_post$32 = ip;
+        tmp_post_32 = ip;
         ip = ip + 1l;
-        *tmp_post$31 = *tmp_post$32;
+        *tmp_post_31 = *tmp_post_32;
       }
       loop = (signed int)(signed long int)(ip < ip_limit);
       if(!(loop == 0))
       {
-        tmp_post$33 = ip;
+        tmp_post_33 = ip;
         ip = ip + 1l;
-        ctrl = (unsigned int)*tmp_post$33;
+        ctrl = (unsigned int)*tmp_post_33;
       }
 
     }
@@ -4396,18 +4396,18 @@ static inline signed int fastlz2_decompress(const void *input, signed int length
 // file ./fst/fastlz.c line 126
 signed int fastlz_compress(const void *input, signed int length, void *output)
 {
-  signed int return_value_fastlz1_compress$1;
+  signed int return_value_fastlz1_compress_1;
   if(!(length >= 65536))
   {
-    return_value_fastlz1_compress$1=fastlz1_compress(input, length, output);
-    return return_value_fastlz1_compress$1;
+    return_value_fastlz1_compress_1=fastlz1_compress(input, length, output);
+    return return_value_fastlz1_compress_1;
   }
 
   else
   {
-    signed int return_value_fastlz2_compress$2;
-    return_value_fastlz2_compress$2=fastlz2_compress(input, length, output);
-    return return_value_fastlz2_compress$2;
+    signed int return_value_fastlz2_compress_2;
+    return_value_fastlz2_compress_2=fastlz2_compress(input, length, output);
+    return return_value_fastlz2_compress_2;
   }
 }
 
@@ -4415,19 +4415,19 @@ signed int fastlz_compress(const void *input, signed int length, void *output)
 // file ./fst/fastlz.c line 150
 signed int fastlz_compress_level(signed int level, const void *input, signed int length, void *output)
 {
-  signed int return_value_fastlz1_compress$1;
-  signed int return_value_fastlz2_compress$2;
+  signed int return_value_fastlz1_compress_1;
+  signed int return_value_fastlz2_compress_2;
   if(level == 1)
   {
-    return_value_fastlz1_compress$1=fastlz1_compress(input, length, output);
-    return return_value_fastlz1_compress$1;
+    return_value_fastlz1_compress_1=fastlz1_compress(input, length, output);
+    return return_value_fastlz1_compress_1;
   }
 
   else
     if(level == 2)
     {
-      return_value_fastlz2_compress$2=fastlz2_compress(input, length, output);
-      return return_value_fastlz2_compress$2;
+      return_value_fastlz2_compress_2=fastlz2_compress(input, length, output);
+      return return_value_fastlz2_compress_2;
     }
 
     else
@@ -4439,19 +4439,19 @@ signed int fastlz_compress_level(signed int level, const void *input, signed int
 signed int fastlz_decompress(const void *input, signed int length, void *output, signed int maxout)
 {
   signed int level = ((signed int)*((const unsigned char *)input) >> 5) + 1;
-  signed int return_value_fastlz1_decompress$1;
-  signed int return_value_fastlz2_decompress$2;
+  signed int return_value_fastlz1_decompress_1;
+  signed int return_value_fastlz2_decompress_2;
   if(level == 1)
   {
-    return_value_fastlz1_decompress$1=fastlz1_decompress(input, length, output, maxout);
-    return return_value_fastlz1_decompress$1;
+    return_value_fastlz1_decompress_1=fastlz1_decompress(input, length, output, maxout);
+    return return_value_fastlz1_decompress_1;
   }
 
   else
     if(level == 2)
     {
-      return_value_fastlz2_decompress$2=fastlz2_decompress(input, length, output, maxout);
-      return return_value_fastlz2_decompress$2;
+      return_value_fastlz2_decompress_2=fastlz2_decompress(input, length, output, maxout);
+      return return_value_fastlz2_decompress_2;
     }
 
     else
@@ -4479,13 +4479,13 @@ static unsigned char * fstCopyVarint32ToLeft(unsigned char *pnt, unsigned int v)
   spnt = pnt;
   cnt = cnt - 1;
   i = 0;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   for( ; !(i >= cnt); i = i + 1)
   {
     nxt = v >> 7;
-    tmp_post$1 = spnt;
+    tmp_post_1 = spnt;
     spnt = spnt + 1l;
-    *tmp_post$1 = (unsigned char)((signed int)(unsigned char)v | 0x80);
+    *tmp_post_1 = (unsigned char)((signed int)(unsigned char)v | 0x80);
     v = nxt;
   }
   *spnt = (unsigned char)v;
@@ -4497,22 +4497,22 @@ static unsigned char * fstCopyVarint32ToLeft(unsigned char *pnt, unsigned int v)
 static unsigned char * fstCopyVarint64ToRight(unsigned char *pnt, unsigned long int v)
 {
   unsigned long int nxt;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   do
   {
     nxt = v >> 7;
     if(nxt == 0ul)
       break;
 
-    tmp_post$1 = pnt;
+    tmp_post_1 = pnt;
     pnt = pnt + 1l;
-    *tmp_post$1 = (unsigned char)((signed int)(unsigned char)v | 0x80);
+    *tmp_post_1 = (unsigned char)((signed int)(unsigned char)v | 0x80);
     v = nxt;
   }
   while((_Bool)1);
-  unsigned char *tmp_post$2 = pnt;
+  unsigned char *tmp_post_2 = pnt;
   pnt = pnt + 1l;
-  *tmp_post$2 = (unsigned char)v;
+  *tmp_post_2 = (unsigned char)v;
   return pnt;
 }
 
@@ -4538,15 +4538,15 @@ static void fstDetermineBreakSize(struct fstWriterContext *xc)
   signed int was_set = 0;
   struct _IO_FILE *f;
   f=fopen("/proc/meminfo", "rb");
-  signed int return_value_feof$1;
+  signed int return_value_feof_1;
   if(!(f == ((struct _IO_FILE *)NULL)))
   {
     char buf[257l];
     char *s;
     do
     {
-      return_value_feof$1=feof(f);
-      if(!(return_value_feof$1 == 0))
+      return_value_feof_1=feof(f);
+      if(!(return_value_feof_1 == 0))
         break;
 
       buf[(signed long int)0] = (char)0;
@@ -4555,14 +4555,14 @@ static void fstDetermineBreakSize(struct fstWriterContext *xc)
       {
         if(!(*s == 0))
         {
-          signed int return_value_strncmp$3;
-          return_value_strncmp$3=strncmp(s, "MemTotal:", (unsigned long int)9);
-          if(return_value_strncmp$3 == 0)
+          signed int return_value_strncmp_3;
+          return_value_strncmp_3=strncmp(s, "MemTotal:", (unsigned long int)9);
+          if(return_value_strncmp_3 == 0)
           {
             unsigned long int v;
-            signed long int return_value_atol$2;
-            return_value_atol$2=atol(s + (signed long int)10);
-            v = (unsigned long int)return_value_atol$2;
+            signed long int return_value_atol_2;
+            return_value_atol_2=atol(s + (signed long int)10);
+            v = (unsigned long int)return_value_atol_2;
             v = v * (unsigned long int)1024;
             v = v / (unsigned long int)8;
             if(v >= 134217729ul)
@@ -4642,27 +4642,27 @@ static char * fstExtractRvatDataFromFrame(struct fstReaderContext *xc, unsigned 
 // file ./fst/fstapi.c line 260
 static unsigned long int fstFread(void *buf, unsigned long int siz, unsigned long int cnt, struct _IO_FILE *fp)
 {
-  unsigned long int return_value_fread$1;
-  return_value_fread$1=fread(buf, siz, cnt, fp);
-  return return_value_fread$1;
+  unsigned long int return_value_fread_1;
+  return_value_fread_1=fread(buf, siz, cnt, fp);
+  return return_value_fread_1;
 }
 
 // fstFtruncate
 // file ./fst/fstapi.c line 270
 static signed int fstFtruncate(signed int fd, signed long int length)
 {
-  signed int return_value_ftruncate$1;
-  return_value_ftruncate$1=ftruncate(fd, length);
-  return return_value_ftruncate$1;
+  signed int return_value_ftruncate_1;
+  return_value_ftruncate_1=ftruncate(fd, length);
+  return return_value_ftruncate_1;
 }
 
 // fstFwrite
 // file ./fst/fstapi.c line 265
 static unsigned long int fstFwrite(const void *buf, unsigned long int siz, unsigned long int cnt, struct _IO_FILE *fp)
 {
-  unsigned long int return_value_fwrite$1;
-  return_value_fwrite$1=fwrite(buf, siz, cnt, fp);
-  return return_value_fwrite$1;
+  unsigned long int return_value_fwrite_1;
+  return_value_fwrite_1=fwrite(buf, siz, cnt, fp);
+  return return_value_fwrite_1;
 }
 
 // fstGetSVarint64
@@ -4675,12 +4675,12 @@ static signed long int fstGetSVarint64(unsigned char *mem, signed int *skiplen)
   const signed int siz = (const signed int)(sizeof(signed long int) /*8ul*/  * (unsigned long int)8);
   signed int shift = 0;
   unsigned char byt;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   do
   {
-    tmp_post$1 = mem;
+    tmp_post_1 = mem;
     mem = mem + 1l;
-    byt = *tmp_post$1;
+    byt = *tmp_post_1;
     rc = rc | (signed long int)((signed int)byt & 0x7f) << shift;
     shift = shift + 7;
   }
@@ -4893,13 +4893,13 @@ signed int fstReaderFseeko(struct fstReaderContext *xc, struct _IO_FILE *stream,
 unsigned long int fstReaderGetAliasCount(void *ctx)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(!(xc == ((struct fstReaderContext *)NULL)))
-    tmp_if_expr$1 = xc->num_alias;
+    tmp_if_expr_1 = xc->num_alias;
 
   else
-    tmp_if_expr$1 = (unsigned long int)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (unsigned long int)0;
+  return tmp_if_expr_1;
 }
 
 // fstReaderGetCurrentFlatScope
@@ -4907,15 +4907,15 @@ unsigned long int fstReaderGetAliasCount(void *ctx)
 const char * fstReaderGetCurrentFlatScope(void *ctx)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!(xc == ((struct fstReaderContext *)NULL)))
   {
     if(!(xc->curr_flat_hier_nam == ((char *)NULL)))
-      tmp_if_expr$1 = xc->curr_flat_hier_nam;
+      tmp_if_expr_1 = xc->curr_flat_hier_nam;
 
     else
-      tmp_if_expr$1 = "";
-    return tmp_if_expr$1;
+      tmp_if_expr_1 = "";
+    return tmp_if_expr_1;
   }
 
   else
@@ -4949,15 +4949,15 @@ signed int fstReaderGetCurrentScopeLen(void *ctx)
 void * fstReaderGetCurrentScopeUserInfo(void *ctx)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  void *tmp_if_expr$1;
+  void *tmp_if_expr_1;
   if(!(xc == ((struct fstReaderContext *)NULL)))
   {
     if(!(xc->curr_hier == ((struct fstCurrHier *)NULL)))
-      tmp_if_expr$1 = xc->curr_hier->user_info;
+      tmp_if_expr_1 = xc->curr_hier->user_info;
 
     else
-      tmp_if_expr$1 = (void *)0;
-    return tmp_if_expr$1;
+      tmp_if_expr_1 = (void *)0;
+    return tmp_if_expr_1;
   }
 
   else
@@ -4969,13 +4969,13 @@ void * fstReaderGetCurrentScopeUserInfo(void *ctx)
 const char * fstReaderGetDateString(void *ctx)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!(xc == ((struct fstReaderContext *)NULL)))
-    tmp_if_expr$1 = xc->date;
+    tmp_if_expr_1 = xc->date;
 
   else
-    tmp_if_expr$1 = (char *)(void *)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (char *)(void *)0;
+  return tmp_if_expr_1;
 }
 
 // fstReaderGetDoubleEndianMatchState
@@ -4983,13 +4983,13 @@ const char * fstReaderGetDateString(void *ctx)
 signed int fstReaderGetDoubleEndianMatchState(void *ctx)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(xc == ((struct fstReaderContext *)NULL)))
-    tmp_if_expr$1 = (signed int)xc->double_endian_match;
+    tmp_if_expr_1 = (signed int)xc->double_endian_match;
 
   else
-    tmp_if_expr$1 = 0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = 0;
+  return tmp_if_expr_1;
 }
 
 // fstReaderGetDumpActivityChangeTime
@@ -4997,19 +4997,19 @@ signed int fstReaderGetDoubleEndianMatchState(void *ctx)
 unsigned long int fstReaderGetDumpActivityChangeTime(void *ctx, unsigned int idx)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(xc == ((struct fstReaderContext *)NULL)))
-    tmp_if_expr$1 = idx < xc->num_blackouts ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = idx < xc->num_blackouts ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = xc->blackout_times != ((unsigned long int *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = xc->blackout_times != ((unsigned long int *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     return xc->blackout_times[(signed long int)idx];
 
   else
@@ -5021,19 +5021,19 @@ unsigned long int fstReaderGetDumpActivityChangeTime(void *ctx, unsigned int idx
 unsigned char fstReaderGetDumpActivityChangeValue(void *ctx, unsigned int idx)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(xc == ((struct fstReaderContext *)NULL)))
-    tmp_if_expr$1 = idx < xc->num_blackouts ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = idx < xc->num_blackouts ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = xc->blackout_activity != ((unsigned char *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = xc->blackout_activity != ((unsigned char *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     return xc->blackout_activity[(signed long int)idx];
 
   else
@@ -5045,13 +5045,13 @@ unsigned char fstReaderGetDumpActivityChangeValue(void *ctx, unsigned int idx)
 unsigned long int fstReaderGetEndTime(void *ctx)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(!(xc == ((struct fstReaderContext *)NULL)))
-    tmp_if_expr$1 = xc->end_time;
+    tmp_if_expr_1 = xc->end_time;
 
   else
-    tmp_if_expr$1 = (unsigned long int)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (unsigned long int)0;
+  return tmp_if_expr_1;
 }
 
 // fstReaderGetFacProcessMask
@@ -5079,13 +5079,13 @@ signed int fstReaderGetFacProcessMask(void *ctx, unsigned int facidx)
 signed int fstReaderGetFileType(void *ctx)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(xc == ((struct fstReaderContext *)NULL)))
-    tmp_if_expr$1 = (signed int)xc->filetype;
+    tmp_if_expr_1 = (signed int)xc->filetype;
 
   else
-    tmp_if_expr$1 = FST_FT_VERILOG;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = FST_FT_VERILOG;
+  return tmp_if_expr_1;
 }
 
 // fstReaderGetFseekFailed
@@ -5105,13 +5105,13 @@ signed int fstReaderGetFseekFailed(void *ctx)
 unsigned int fstReaderGetMaxHandle(void *ctx)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   if(!(xc == ((struct fstReaderContext *)NULL)))
-    tmp_if_expr$1 = xc->maxhandle;
+    tmp_if_expr_1 = xc->maxhandle;
 
   else
-    tmp_if_expr$1 = (unsigned int)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (unsigned int)0;
+  return tmp_if_expr_1;
 }
 
 // fstReaderGetMemoryUsedByWriter
@@ -5119,13 +5119,13 @@ unsigned int fstReaderGetMaxHandle(void *ctx)
 unsigned long int fstReaderGetMemoryUsedByWriter(void *ctx)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(!(xc == ((struct fstReaderContext *)NULL)))
-    tmp_if_expr$1 = xc->mem_used_by_writer;
+    tmp_if_expr_1 = xc->mem_used_by_writer;
 
   else
-    tmp_if_expr$1 = (unsigned long int)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (unsigned long int)0;
+  return tmp_if_expr_1;
 }
 
 // fstReaderGetNumberDumpActivityChanges
@@ -5133,13 +5133,13 @@ unsigned long int fstReaderGetMemoryUsedByWriter(void *ctx)
 unsigned int fstReaderGetNumberDumpActivityChanges(void *ctx)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   if(!(xc == ((struct fstReaderContext *)NULL)))
-    tmp_if_expr$1 = xc->num_blackouts;
+    tmp_if_expr_1 = xc->num_blackouts;
 
   else
-    tmp_if_expr$1 = (unsigned int)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (unsigned int)0;
+  return tmp_if_expr_1;
 }
 
 // fstReaderGetScopeCount
@@ -5147,13 +5147,13 @@ unsigned int fstReaderGetNumberDumpActivityChanges(void *ctx)
 unsigned long int fstReaderGetScopeCount(void *ctx)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(!(xc == ((struct fstReaderContext *)NULL)))
-    tmp_if_expr$1 = xc->scope_count;
+    tmp_if_expr_1 = xc->scope_count;
 
   else
-    tmp_if_expr$1 = (unsigned long int)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (unsigned long int)0;
+  return tmp_if_expr_1;
 }
 
 // fstReaderGetStartTime
@@ -5161,13 +5161,13 @@ unsigned long int fstReaderGetScopeCount(void *ctx)
 unsigned long int fstReaderGetStartTime(void *ctx)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(!(xc == ((struct fstReaderContext *)NULL)))
-    tmp_if_expr$1 = xc->start_time;
+    tmp_if_expr_1 = xc->start_time;
 
   else
-    tmp_if_expr$1 = (unsigned long int)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (unsigned long int)0;
+  return tmp_if_expr_1;
 }
 
 // fstReaderGetTimescale
@@ -5175,13 +5175,13 @@ unsigned long int fstReaderGetStartTime(void *ctx)
 signed char fstReaderGetTimescale(void *ctx)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(xc == ((struct fstReaderContext *)NULL)))
-    tmp_if_expr$1 = (signed int)xc->timescale;
+    tmp_if_expr_1 = (signed int)xc->timescale;
 
   else
-    tmp_if_expr$1 = 0;
-  return (signed char)tmp_if_expr$1;
+    tmp_if_expr_1 = 0;
+  return (signed char)tmp_if_expr_1;
 }
 
 // fstReaderGetTimezero
@@ -5189,13 +5189,13 @@ signed char fstReaderGetTimescale(void *ctx)
 signed long int fstReaderGetTimezero(void *ctx)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  signed long int tmp_if_expr$1;
+  signed long int tmp_if_expr_1;
   if(!(xc == ((struct fstReaderContext *)NULL)))
-    tmp_if_expr$1 = xc->timezero;
+    tmp_if_expr_1 = xc->timezero;
 
   else
-    tmp_if_expr$1 = (signed long int)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (signed long int)0;
+  return tmp_if_expr_1;
 }
 
 // fstReaderGetValueChangeSectionCount
@@ -5203,13 +5203,13 @@ signed long int fstReaderGetTimezero(void *ctx)
 unsigned long int fstReaderGetValueChangeSectionCount(void *ctx)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(!(xc == ((struct fstReaderContext *)NULL)))
-    tmp_if_expr$1 = xc->vc_section_count;
+    tmp_if_expr_1 = xc->vc_section_count;
 
   else
-    tmp_if_expr$1 = (unsigned long int)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (unsigned long int)0;
+  return tmp_if_expr_1;
 }
 
 // fstReaderGetValueFromHandleAtTime
@@ -5240,24 +5240,24 @@ char * fstReaderGetValueFromHandleAtTime(void *ctx, unsigned long int tim, unsig
   unsigned int pidx = (unsigned int)0;
   unsigned int i;
   unsigned long int pval;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(xc == ((struct fstReaderContext *)NULL) || facidx == 0u)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = facidx > xc->maxhandle ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(buf == ((char *)NULL) || tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = facidx > xc->maxhandle ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(buf == ((char *)NULL) || tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(xc->signal_lens[(signed long int)(facidx - (unsigned int)1)] != 0u) ? (_Bool)1 : (_Bool)0;
-  unsigned int tmp_post$15;
-  unsigned int tmp_post$16;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$23;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = !(xc->signal_lens[(signed long int)(facidx - (unsigned int)1)] != 0u) ? (_Bool)1 : (_Bool)0;
+  unsigned int tmp_post_15;
+  unsigned int tmp_post_16;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_23;
+  if(tmp_if_expr_2)
     return (char *)(void *)0;
 
   else
@@ -5265,9 +5265,9 @@ char * fstReaderGetValueFromHandleAtTime(void *ctx, unsigned long int tim, unsig
     if(xc->rvat_sig_offs == ((unsigned int *)NULL))
     {
       unsigned int cur_offs = (unsigned int)0;
-      void *return_value_calloc$3;
-      return_value_calloc$3=calloc((unsigned long int)xc->maxhandle, sizeof(unsigned int) /*4ul*/ );
-      xc->rvat_sig_offs = (unsigned int *)return_value_calloc$3;
+      void *return_value_calloc_3;
+      return_value_calloc_3=calloc((unsigned long int)xc->maxhandle, sizeof(unsigned int) /*4ul*/ );
+      xc->rvat_sig_offs = (unsigned int *)return_value_calloc_3;
       i = (unsigned int)0;
       for( ; !(i >= xc->maxhandle); i = i + 1u)
       {
@@ -5345,9 +5345,9 @@ char * fstReaderGetValueFromHandleAtTime(void *ctx, unsigned long int tim, unsig
     fstReaderUint64(xc->f);
     unsigned char *ucdata;
     unsigned char *cdata;
-    unsigned long int fstReaderGetValueFromHandleAtTime$$1$$5$$destlen;
-    unsigned long int fstReaderGetValueFromHandleAtTime$$1$$5$$sourcelen;
-    signed int fstReaderGetValueFromHandleAtTime$$1$$5$$rc;
+    unsigned long int fstReaderGetValueFromHandleAtTime__1__5__destlen;
+    unsigned long int fstReaderGetValueFromHandleAtTime__1__5__sourcelen;
+    signed int fstReaderGetValueFromHandleAtTime__1__5__rc;
     unsigned char *tpnt;
     unsigned long int tpval;
     unsigned int ti;
@@ -5355,22 +5355,22 @@ char * fstReaderGetValueFromHandleAtTime(void *ctx, unsigned long int tim, unsig
     tsec_uclen=fstReaderUint64(xc->f);
     tsec_clen=fstReaderUint64(xc->f);
     tsec_nitems=fstReaderUint64(xc->f);
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc(tsec_uclen);
-    ucdata = (unsigned char *)return_value_malloc$4;
-    fstReaderGetValueFromHandleAtTime$$1$$5$$destlen = tsec_uclen;
-    fstReaderGetValueFromHandleAtTime$$1$$5$$sourcelen = tsec_clen;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc(tsec_uclen);
+    ucdata = (unsigned char *)return_value_malloc_4;
+    fstReaderGetValueFromHandleAtTime__1__5__destlen = tsec_uclen;
+    fstReaderGetValueFromHandleAtTime__1__5__sourcelen = tsec_clen;
     fstReaderFseeko(xc, xc->f, (signed long int)-24 - (signed long int)tsec_clen, 1);
     if(!(tsec_uclen == tsec_clen))
     {
-      void *return_value_malloc$5;
-      return_value_malloc$5=malloc(tsec_clen);
-      cdata = (unsigned char *)return_value_malloc$5;
+      void *return_value_malloc_5;
+      return_value_malloc_5=malloc(tsec_clen);
+      cdata = (unsigned char *)return_value_malloc_5;
       fstFread((void *)cdata, tsec_clen, (unsigned long int)1, xc->f);
-      fstReaderGetValueFromHandleAtTime$$1$$5$$rc=uncompress(ucdata, &fstReaderGetValueFromHandleAtTime$$1$$5$$destlen, cdata, fstReaderGetValueFromHandleAtTime$$1$$5$$sourcelen);
-      if(!(fstReaderGetValueFromHandleAtTime$$1$$5$$rc == 0))
+      fstReaderGetValueFromHandleAtTime__1__5__rc=uncompress(ucdata, &fstReaderGetValueFromHandleAtTime__1__5__destlen, cdata, fstReaderGetValueFromHandleAtTime__1__5__sourcelen);
+      if(!(fstReaderGetValueFromHandleAtTime__1__5__rc == 0))
       {
-        printf("tsec uncompress rc = %d\n", fstReaderGetValueFromHandleAtTime$$1$$5$$rc);
+        printf("tsec uncompress rc = %d\n", fstReaderGetValueFromHandleAtTime__1__5__rc);
         exit(255);
       }
 
@@ -5379,116 +5379,116 @@ char * fstReaderGetValueFromHandleAtTime(void *ctx, unsigned long int tim, unsig
 
     else
       fstFread((void *)ucdata, tsec_uclen, (unsigned long int)1, xc->f);
-    void *return_value_calloc$6;
-    return_value_calloc$6=calloc(tsec_nitems, sizeof(unsigned long int) /*8ul*/ );
-    xc->rvat_time_table = (unsigned long int *)return_value_calloc$6;
+    void *return_value_calloc_6;
+    return_value_calloc_6=calloc(tsec_nitems, sizeof(unsigned long int) /*8ul*/ );
+    xc->rvat_time_table = (unsigned long int *)return_value_calloc_6;
     tpnt = ucdata;
     tpval = (unsigned long int)0;
     ti = (unsigned int)0;
     for( ; !((unsigned long int)ti >= tsec_nitems); ti = ti + 1u)
     {
-      signed int fstReaderGetValueFromHandleAtTime$$1$$5$$3$$1$$skiplen;
+      signed int fstReaderGetValueFromHandleAtTime__1__5__3__1__skiplen;
       unsigned long int val;
-      val=fstGetVarint64(tpnt, &fstReaderGetValueFromHandleAtTime$$1$$5$$3$$1$$skiplen);
+      val=fstGetVarint64(tpnt, &fstReaderGetValueFromHandleAtTime__1__5__3__1__skiplen);
       xc->rvat_time_table[(signed long int)ti] = tpval + val;
       tpval = xc->rvat_time_table[(signed long int)ti];
-      tpnt = tpnt + (signed long int)fstReaderGetValueFromHandleAtTime$$1$$5$$3$$1$$skiplen;
+      tpnt = tpnt + (signed long int)fstReaderGetValueFromHandleAtTime__1__5__3__1__skiplen;
     }
     free((void *)ucdata);
     fstReaderFseeko(xc, xc->f, blkpos + (signed long int)32, 0);
     frame_uclen=fstReaderVarint64(xc->f);
     frame_clen=fstReaderVarint64(xc->f);
     xc->rvat_frame_maxhandle=fstReaderVarint64(xc->f);
-    void *return_value_malloc$7;
-    return_value_malloc$7=malloc(frame_uclen);
-    xc->rvat_frame_data = (unsigned char *)return_value_malloc$7;
+    void *return_value_malloc_7;
+    return_value_malloc_7=malloc(frame_uclen);
+    xc->rvat_frame_data = (unsigned char *)return_value_malloc_7;
     if(frame_uclen == frame_clen)
       fstFread((void *)xc->rvat_frame_data, frame_uclen, (unsigned long int)1, xc->f);
 
     else
     {
-      unsigned char *fstReaderGetValueFromHandleAtTime$$1$$7$$mc;
-      void *return_value_malloc$8;
-      return_value_malloc$8=malloc(frame_clen);
-      fstReaderGetValueFromHandleAtTime$$1$$7$$mc = (unsigned char *)return_value_malloc$8;
-      signed int fstReaderGetValueFromHandleAtTime$$1$$7$$rc;
-      unsigned long int fstReaderGetValueFromHandleAtTime$$1$$7$$destlen = frame_uclen;
-      unsigned long int fstReaderGetValueFromHandleAtTime$$1$$7$$sourcelen = frame_clen;
-      fstFread((void *)fstReaderGetValueFromHandleAtTime$$1$$7$$mc, fstReaderGetValueFromHandleAtTime$$1$$7$$sourcelen, (unsigned long int)1, xc->f);
-      fstReaderGetValueFromHandleAtTime$$1$$7$$rc=uncompress(xc->rvat_frame_data, &fstReaderGetValueFromHandleAtTime$$1$$7$$destlen, fstReaderGetValueFromHandleAtTime$$1$$7$$mc, fstReaderGetValueFromHandleAtTime$$1$$7$$sourcelen);
-      if(!(fstReaderGetValueFromHandleAtTime$$1$$7$$rc == 0))
+      unsigned char *fstReaderGetValueFromHandleAtTime__1__7__mc;
+      void *return_value_malloc_8;
+      return_value_malloc_8=malloc(frame_clen);
+      fstReaderGetValueFromHandleAtTime__1__7__mc = (unsigned char *)return_value_malloc_8;
+      signed int fstReaderGetValueFromHandleAtTime__1__7__rc;
+      unsigned long int fstReaderGetValueFromHandleAtTime__1__7__destlen = frame_uclen;
+      unsigned long int fstReaderGetValueFromHandleAtTime__1__7__sourcelen = frame_clen;
+      fstFread((void *)fstReaderGetValueFromHandleAtTime__1__7__mc, fstReaderGetValueFromHandleAtTime__1__7__sourcelen, (unsigned long int)1, xc->f);
+      fstReaderGetValueFromHandleAtTime__1__7__rc=uncompress(xc->rvat_frame_data, &fstReaderGetValueFromHandleAtTime__1__7__destlen, fstReaderGetValueFromHandleAtTime__1__7__mc, fstReaderGetValueFromHandleAtTime__1__7__sourcelen);
+      if(!(fstReaderGetValueFromHandleAtTime__1__7__rc == 0))
       {
-        printf("decompress rc: %d\n", fstReaderGetValueFromHandleAtTime$$1$$7$$rc);
+        printf("decompress rc: %d\n", fstReaderGetValueFromHandleAtTime__1__7__rc);
         exit(255);
       }
 
-      free((void *)fstReaderGetValueFromHandleAtTime$$1$$7$$mc);
+      free((void *)fstReaderGetValueFromHandleAtTime__1__7__mc);
     }
     xc->rvat_vc_maxhandle=fstReaderVarint64(xc->f);
     xc->rvat_vc_start=ftello(xc->f);
     indx_pntr = (signed long int)(((((unsigned long int)blkpos + seclen) - (unsigned long int)24) - tsec_clen) - (unsigned long int)8);
     fstReaderFseeko(xc, xc->f, indx_pntr, 0);
-    unsigned long int return_value_fstReaderUint64$9;
-    return_value_fstReaderUint64$9=fstReaderUint64(xc->f);
-    chain_clen = (signed long int)return_value_fstReaderUint64$9;
+    unsigned long int return_value_fstReaderUint64_9;
+    return_value_fstReaderUint64_9=fstReaderUint64(xc->f);
+    chain_clen = (signed long int)return_value_fstReaderUint64_9;
     indx_pos = indx_pntr - chain_clen;
-    void *return_value_malloc$10;
-    return_value_malloc$10=malloc((unsigned long int)chain_clen);
-    chain_cmem = (unsigned char *)return_value_malloc$10;
+    void *return_value_malloc_10;
+    return_value_malloc_10=malloc((unsigned long int)chain_clen);
+    chain_cmem = (unsigned char *)return_value_malloc_10;
     fstReaderFseeko(xc, xc->f, indx_pos, 0);
     fstFread((void *)chain_cmem, (unsigned long int)chain_clen, (unsigned long int)1, xc->f);
-    void *return_value_calloc$11;
-    return_value_calloc$11=calloc(xc->rvat_vc_maxhandle + (unsigned long int)1, sizeof(signed long int) /*8ul*/ );
-    xc->rvat_chain_table = (signed long int *)return_value_calloc$11;
-    void *return_value_calloc$12;
-    return_value_calloc$12=calloc(xc->rvat_vc_maxhandle + (unsigned long int)1, sizeof(unsigned int) /*4ul*/ );
-    xc->rvat_chain_table_lengths = (unsigned int *)return_value_calloc$12;
+    void *return_value_calloc_11;
+    return_value_calloc_11=calloc(xc->rvat_vc_maxhandle + (unsigned long int)1, sizeof(signed long int) /*8ul*/ );
+    xc->rvat_chain_table = (signed long int *)return_value_calloc_11;
+    void *return_value_calloc_12;
+    return_value_calloc_12=calloc(xc->rvat_vc_maxhandle + (unsigned long int)1, sizeof(unsigned int) /*4ul*/ );
+    xc->rvat_chain_table_lengths = (unsigned int *)return_value_calloc_12;
     pnt = chain_cmem;
     idx = (unsigned int)0;
     pval = (unsigned long int)0;
     do
     {
-      signed int fstReaderGetValueFromHandleAtTime$$1$$8$$skiplen;
-      unsigned long int fstReaderGetValueFromHandleAtTime$$1$$8$$val;
-      unsigned int return_value_fstGetVarint32$13;
-      return_value_fstGetVarint32$13=fstGetVarint32(pnt, &fstReaderGetValueFromHandleAtTime$$1$$8$$skiplen);
-      fstReaderGetValueFromHandleAtTime$$1$$8$$val = (unsigned long int)return_value_fstGetVarint32$13;
-      if(fstReaderGetValueFromHandleAtTime$$1$$8$$val == 0ul)
+      signed int fstReaderGetValueFromHandleAtTime__1__8__skiplen;
+      unsigned long int fstReaderGetValueFromHandleAtTime__1__8__val;
+      unsigned int return_value_fstGetVarint32_13;
+      return_value_fstGetVarint32_13=fstGetVarint32(pnt, &fstReaderGetValueFromHandleAtTime__1__8__skiplen);
+      fstReaderGetValueFromHandleAtTime__1__8__val = (unsigned long int)return_value_fstGetVarint32_13;
+      if(fstReaderGetValueFromHandleAtTime__1__8__val == 0ul)
       {
-        pnt = pnt + (signed long int)fstReaderGetValueFromHandleAtTime$$1$$8$$skiplen;
-        unsigned int return_value_fstGetVarint32$14;
-        return_value_fstGetVarint32$14=fstGetVarint32(pnt, &fstReaderGetValueFromHandleAtTime$$1$$8$$skiplen);
-        fstReaderGetValueFromHandleAtTime$$1$$8$$val = (unsigned long int)return_value_fstGetVarint32$14;
+        pnt = pnt + (signed long int)fstReaderGetValueFromHandleAtTime__1__8__skiplen;
+        unsigned int return_value_fstGetVarint32_14;
+        return_value_fstGetVarint32_14=fstGetVarint32(pnt, &fstReaderGetValueFromHandleAtTime__1__8__skiplen);
+        fstReaderGetValueFromHandleAtTime__1__8__val = (unsigned long int)return_value_fstGetVarint32_14;
         xc->rvat_chain_table[(signed long int)idx] = (signed long int)0;
-        xc->rvat_chain_table_lengths[(signed long int)idx] = (unsigned int)-fstReaderGetValueFromHandleAtTime$$1$$8$$val;
+        xc->rvat_chain_table_lengths[(signed long int)idx] = (unsigned int)-fstReaderGetValueFromHandleAtTime__1__8__val;
         idx = idx + 1u;
       }
 
       else
-        if(!((1ul & fstReaderGetValueFromHandleAtTime$$1$$8$$val) == 0ul))
+        if(!((1ul & fstReaderGetValueFromHandleAtTime__1__8__val) == 0ul))
         {
-          xc->rvat_chain_table[(signed long int)idx] = (signed long int)(pval + (fstReaderGetValueFromHandleAtTime$$1$$8$$val >> 1));
+          xc->rvat_chain_table[(signed long int)idx] = (signed long int)(pval + (fstReaderGetValueFromHandleAtTime__1__8__val >> 1));
           pval = (unsigned long int)xc->rvat_chain_table[(signed long int)idx];
           if(!(idx == 0u))
             xc->rvat_chain_table_lengths[(signed long int)pidx] = (unsigned int)(pval - (unsigned long int)xc->rvat_chain_table[(signed long int)pidx]);
 
-          tmp_post$15 = idx;
+          tmp_post_15 = idx;
           idx = idx + 1u;
-          pidx = tmp_post$15;
+          pidx = tmp_post_15;
         }
 
         else
         {
-          unsigned int loopcnt = (unsigned int)(fstReaderGetValueFromHandleAtTime$$1$$8$$val >> 1);
+          unsigned int loopcnt = (unsigned int)(fstReaderGetValueFromHandleAtTime__1__8__val >> 1);
           i = (unsigned int)0;
           for( ; !(i >= loopcnt); i = i + 1u)
           {
-            tmp_post$16 = idx;
+            tmp_post_16 = idx;
             idx = idx + 1u;
-            xc->rvat_chain_table[(signed long int)tmp_post$16] = (signed long int)0;
+            xc->rvat_chain_table[(signed long int)tmp_post_16] = (signed long int)0;
           }
         }
-      pnt = pnt + (signed long int)fstReaderGetValueFromHandleAtTime$$1$$8$$skiplen;
+      pnt = pnt + (signed long int)fstReaderGetValueFromHandleAtTime__1__8__skiplen;
     }
     while(!(pnt == chain_cmem + chain_clen));
     free((void *)chain_cmem);
@@ -5526,20 +5526,20 @@ char * fstReaderGetValueFromHandleAtTime(void *ctx, unsigned long int tim, unsig
     {
       facidx = facidx - 1u;
       if(tim == xc->rvat_beg_tim)
-        tmp_if_expr$18 = !(xc->rvat_chain_table[(signed long int)facidx] != 0l) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_18 = !(xc->rvat_chain_table[(signed long int)facidx] != 0l) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$18 = (_Bool)0;
-      if(tmp_if_expr$18)
-        tmp_if_expr$19 = (_Bool)1;
+        tmp_if_expr_18 = (_Bool)0;
+      if(tmp_if_expr_18)
+        tmp_if_expr_19 = (_Bool)1;
 
       else
-        tmp_if_expr$19 = !(xc->rvat_chain_table[(signed long int)facidx] != 0l) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$19)
+        tmp_if_expr_19 = !(xc->rvat_chain_table[(signed long int)facidx] != 0l) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_19)
       {
-        char *return_value_fstExtractRvatDataFromFrame$17;
-        return_value_fstExtractRvatDataFromFrame$17=fstExtractRvatDataFromFrame(xc, facidx, buf);
-        return return_value_fstExtractRvatDataFromFrame$17;
+        char *return_value_fstExtractRvatDataFromFrame_17;
+        return_value_fstExtractRvatDataFromFrame_17=fstExtractRvatDataFromFrame(xc, facidx, buf);
+        return return_value_fstExtractRvatDataFromFrame_17;
       }
 
       if(!(facidx == xc->rvat_chain_facidx))
@@ -5561,13 +5561,13 @@ char * fstReaderGetValueFromHandleAtTime(void *ctx, unsigned long int tim, unsig
         if(!(xc->rvat_chain_len == 0u))
         {
           unsigned char *mu;
-          void *return_value_malloc$20;
-          return_value_malloc$20=malloc((unsigned long int)xc->rvat_chain_len);
-          mu = (unsigned char *)return_value_malloc$20;
+          void *return_value_malloc_20;
+          return_value_malloc_20=malloc((unsigned long int)xc->rvat_chain_len);
+          mu = (unsigned char *)return_value_malloc_20;
           unsigned char *mc;
-          void *return_value_malloc$21;
-          return_value_malloc$21=malloc((unsigned long int)xc->rvat_chain_table_lengths[(signed long int)facidx]);
-          mc = (unsigned char *)return_value_malloc$21;
+          void *return_value_malloc_21;
+          return_value_malloc_21=malloc((unsigned long int)xc->rvat_chain_table_lengths[(signed long int)facidx]);
+          mc = (unsigned char *)return_value_malloc_21;
           unsigned long int destlen = (unsigned long int)xc->rvat_chain_len;
           unsigned long int sourcelen = (unsigned long int)xc->rvat_chain_table_lengths[(signed long int)facidx];
           signed int rc;
@@ -5585,14 +5585,14 @@ char * fstReaderGetValueFromHandleAtTime(void *ctx, unsigned long int tim, unsig
 
         else
         {
-          signed int fstReaderGetValueFromHandleAtTime$$1$$13$$2$$destlen = (signed int)(xc->rvat_chain_table_lengths[(signed long int)facidx] - skiplen);
-          unsigned char *fstReaderGetValueFromHandleAtTime$$1$$13$$2$$mu;
-          xc->rvat_chain_len = (unsigned int)fstReaderGetValueFromHandleAtTime$$1$$13$$2$$destlen;
-          void *return_value_malloc$22;
-          return_value_malloc$22=malloc((unsigned long int)xc->rvat_chain_len);
-          fstReaderGetValueFromHandleAtTime$$1$$13$$2$$mu = (unsigned char *)return_value_malloc$22;
-          fstFread((void *)fstReaderGetValueFromHandleAtTime$$1$$13$$2$$mu, (unsigned long int)fstReaderGetValueFromHandleAtTime$$1$$13$$2$$destlen, (unsigned long int)1, xc->f);
-          xc->rvat_chain_mem = fstReaderGetValueFromHandleAtTime$$1$$13$$2$$mu;
+          signed int fstReaderGetValueFromHandleAtTime__1__13__2__destlen = (signed int)(xc->rvat_chain_table_lengths[(signed long int)facidx] - skiplen);
+          unsigned char *fstReaderGetValueFromHandleAtTime__1__13__2__mu;
+          xc->rvat_chain_len = (unsigned int)fstReaderGetValueFromHandleAtTime__1__13__2__destlen;
+          void *return_value_malloc_22;
+          return_value_malloc_22=malloc((unsigned long int)xc->rvat_chain_len);
+          fstReaderGetValueFromHandleAtTime__1__13__2__mu = (unsigned char *)return_value_malloc_22;
+          fstFread((void *)fstReaderGetValueFromHandleAtTime__1__13__2__mu, (unsigned long int)fstReaderGetValueFromHandleAtTime__1__13__2__destlen, (unsigned long int)1, xc->f);
+          xc->rvat_chain_mem = fstReaderGetValueFromHandleAtTime__1__13__2__mu;
         }
         xc->rvat_chain_facidx = facidx;
       }
@@ -5600,16 +5600,16 @@ char * fstReaderGetValueFromHandleAtTime(void *ctx, unsigned long int tim, unsig
       unsigned int tidx = (unsigned int)0;
       unsigned int ptidx = (unsigned int)0;
       unsigned int tdelta;
-      signed int fstReaderGetValueFromHandleAtTime$$1$$14$$skiplen;
+      signed int fstReaderGetValueFromHandleAtTime__1__14__skiplen;
       unsigned int iprev = xc->rvat_chain_len;
       unsigned int pvli = (unsigned int)0;
       signed int pskip = 0;
       if(!(xc->rvat_chain_pos_valid == 0u))
-        tmp_if_expr$23 = tim >= xc->rvat_chain_pos_time ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_23 = tim >= xc->rvat_chain_pos_time ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$23 = (_Bool)0;
-      if(tmp_if_expr$23)
+        tmp_if_expr_23 = (_Bool)0;
+      if(tmp_if_expr_23)
       {
         i = xc->rvat_chain_pos_idx;
         tidx = xc->rvat_chain_pos_tidx;
@@ -5625,17 +5625,17 @@ char * fstReaderGetValueFromHandleAtTime(void *ctx, unsigned long int tim, unsig
       {
         while(!(i >= xc->rvat_chain_len))
         {
-          unsigned int fstReaderGetValueFromHandleAtTime$$1$$14$$3$$1$$vli;
-          fstReaderGetValueFromHandleAtTime$$1$$14$$3$$1$$vli=fstGetVarint32(xc->rvat_chain_mem + (signed long int)i, &fstReaderGetValueFromHandleAtTime$$1$$14$$skiplen);
-          unsigned int shcnt = (unsigned int)(2 << (fstReaderGetValueFromHandleAtTime$$1$$14$$3$$1$$vli & (unsigned int)1));
-          tdelta = fstReaderGetValueFromHandleAtTime$$1$$14$$3$$1$$vli >> shcnt;
+          unsigned int fstReaderGetValueFromHandleAtTime__1__14__3__1__vli;
+          fstReaderGetValueFromHandleAtTime__1__14__3__1__vli=fstGetVarint32(xc->rvat_chain_mem + (signed long int)i, &fstReaderGetValueFromHandleAtTime__1__14__skiplen);
+          unsigned int shcnt = (unsigned int)(2 << (fstReaderGetValueFromHandleAtTime__1__14__3__1__vli & (unsigned int)1));
+          tdelta = fstReaderGetValueFromHandleAtTime__1__14__3__1__vli >> shcnt;
           if(tim >= xc->rvat_time_table[(signed long int)(tdelta + tidx)])
           {
             iprev = i;
-            pvli = fstReaderGetValueFromHandleAtTime$$1$$14$$3$$1$$vli;
+            pvli = fstReaderGetValueFromHandleAtTime__1__14__3__1__vli;
             ptidx = tidx;
             tidx = tidx + tdelta;
-            i = i + (unsigned int)fstReaderGetValueFromHandleAtTime$$1$$14$$skiplen;
+            i = i + (unsigned int)fstReaderGetValueFromHandleAtTime__1__14__skiplen;
           }
 
           else
@@ -5658,9 +5658,9 @@ char * fstReaderGetValueFromHandleAtTime(void *ctx, unsigned long int tim, unsig
 
         else
         {
-          char *return_value_fstExtractRvatDataFromFrame$24;
-          return_value_fstExtractRvatDataFromFrame$24=fstExtractRvatDataFromFrame(xc, facidx, buf);
-          return return_value_fstExtractRvatDataFromFrame$24;
+          char *return_value_fstExtractRvatDataFromFrame_24;
+          return_value_fstExtractRvatDataFromFrame_24=fstExtractRvatDataFromFrame(xc, facidx, buf);
+          return return_value_fstExtractRvatDataFromFrame_24;
         }
       }
 
@@ -5669,16 +5669,16 @@ char * fstReaderGetValueFromHandleAtTime(void *ctx, unsigned long int tim, unsig
         while(!(i >= xc->rvat_chain_len))
         {
           unsigned int vli;
-          vli=fstGetVarint32(xc->rvat_chain_mem + (signed long int)i, &fstReaderGetValueFromHandleAtTime$$1$$14$$skiplen);
+          vli=fstGetVarint32(xc->rvat_chain_mem + (signed long int)i, &fstReaderGetValueFromHandleAtTime__1__14__skiplen);
           tdelta = vli >> 1;
           if(tim >= xc->rvat_time_table[(signed long int)(tdelta + tidx)])
           {
             iprev = i;
             pvli = vli;
             ptidx = tidx;
-            pskip = fstReaderGetValueFromHandleAtTime$$1$$14$$skiplen;
+            pskip = fstReaderGetValueFromHandleAtTime__1__14__skiplen;
             tidx = tidx + tdelta;
-            i = i + (unsigned int)fstReaderGetValueFromHandleAtTime$$1$$14$$skiplen;
+            i = i + (unsigned int)fstReaderGetValueFromHandleAtTime__1__14__skiplen;
             if((1u & pvli) == 0u)
               i = i + (xc->signal_lens[(signed long int)facidx] + (unsigned int)7) / (unsigned int)8;
 
@@ -5731,14 +5731,14 @@ char * fstReaderGetValueFromHandleAtTime(void *ctx, unsigned long int tim, unsig
             unsigned char *srcdata;
             if((1u & pvli) == 0u)
             {
-              signed int fstReaderGetValueFromHandleAtTime$$1$$14$$4$$2$$2$$1$$bit;
-              signed int fstReaderGetValueFromHandleAtTime$$1$$14$$4$$2$$2$$1$$j = 0;
-              for( ; !(fstReaderGetValueFromHandleAtTime$$1$$14$$4$$2$$2$$1$$j >= 8); fstReaderGetValueFromHandleAtTime$$1$$14$$4$$2$$2$$1$$j = fstReaderGetValueFromHandleAtTime$$1$$14$$4$$2$$2$$1$$j + 1)
+              signed int fstReaderGetValueFromHandleAtTime__1__14__4__2__2__1__bit;
+              signed int fstReaderGetValueFromHandleAtTime__1__14__4__2__2__1__j = 0;
+              for( ; !(fstReaderGetValueFromHandleAtTime__1__14__4__2__2__1__j >= 8); fstReaderGetValueFromHandleAtTime__1__14__4__2__2__1__j = fstReaderGetValueFromHandleAtTime__1__14__4__2__2__1__j + 1)
               {
-                unsigned char fstReaderGetValueFromHandleAtTime$$1$$14$$4$$2$$2$$1$$1$$1$$ch;
-                fstReaderGetValueFromHandleAtTime$$1$$14$$4$$2$$2$$1$$bit = 7 - (fstReaderGetValueFromHandleAtTime$$1$$14$$4$$2$$2$$1$$j & 7);
-                fstReaderGetValueFromHandleAtTime$$1$$14$$4$$2$$2$$1$$1$$1$$ch = (unsigned char)((signed int)vdata[(signed long int)0] >> fstReaderGetValueFromHandleAtTime$$1$$14$$4$$2$$2$$1$$bit & 1 | 48);
-                bufd[(signed long int)fstReaderGetValueFromHandleAtTime$$1$$14$$4$$2$$2$$1$$j] = fstReaderGetValueFromHandleAtTime$$1$$14$$4$$2$$2$$1$$1$$1$$ch;
+                unsigned char fstReaderGetValueFromHandleAtTime__1__14__4__2__2__1__1__1__ch;
+                fstReaderGetValueFromHandleAtTime__1__14__4__2__2__1__bit = 7 - (fstReaderGetValueFromHandleAtTime__1__14__4__2__2__1__j & 7);
+                fstReaderGetValueFromHandleAtTime__1__14__4__2__2__1__1__1__ch = (unsigned char)((signed int)vdata[(signed long int)0] >> fstReaderGetValueFromHandleAtTime__1__14__4__2__2__1__bit & 1 | 48);
+                bufd[(signed long int)fstReaderGetValueFromHandleAtTime__1__14__4__2__2__1__j] = fstReaderGetValueFromHandleAtTime__1__14__4__2__2__1__1__1__ch;
               }
               srcdata = bufd;
             }
@@ -5750,9 +5750,9 @@ char * fstReaderGetValueFromHandleAtTime(void *ctx, unsigned long int tim, unsig
 
             else
             {
-              signed int fstReaderGetValueFromHandleAtTime$$1$$14$$4$$2$$2$$4$$j = 0;
-              for( ; !(fstReaderGetValueFromHandleAtTime$$1$$14$$4$$2$$2$$4$$j >= 8); fstReaderGetValueFromHandleAtTime$$1$$14$$4$$2$$2$$4$$j = fstReaderGetValueFromHandleAtTime$$1$$14$$4$$2$$2$$4$$j + 1)
-                clone_d[(signed long int)fstReaderGetValueFromHandleAtTime$$1$$14$$4$$2$$2$$4$$j] = srcdata[(signed long int)(7 - fstReaderGetValueFromHandleAtTime$$1$$14$$4$$2$$2$$4$$j)];
+              signed int fstReaderGetValueFromHandleAtTime__1__14__4__2__2__4__j = 0;
+              for( ; !(fstReaderGetValueFromHandleAtTime__1__14__4__2__2__4__j >= 8); fstReaderGetValueFromHandleAtTime__1__14__4__2__2__4__j = fstReaderGetValueFromHandleAtTime__1__14__4__2__2__4__j + 1)
+                clone_d[(signed long int)fstReaderGetValueFromHandleAtTime__1__14__4__2__2__4__j] = srcdata[(signed long int)(7 - fstReaderGetValueFromHandleAtTime__1__14__4__2__2__4__j)];
             }
             sprintf(buf, "r%.16g", d);
             return buf;
@@ -5761,9 +5761,9 @@ char * fstReaderGetValueFromHandleAtTime(void *ctx, unsigned long int tim, unsig
 
         else
         {
-          char *return_value_fstExtractRvatDataFromFrame$25;
-          return_value_fstExtractRvatDataFromFrame$25=fstExtractRvatDataFromFrame(xc, facidx, buf);
-          return return_value_fstExtractRvatDataFromFrame$25;
+          char *return_value_fstExtractRvatDataFromFrame_25;
+          return_value_fstExtractRvatDataFromFrame_25=fstExtractRvatDataFromFrame(xc, facidx, buf);
+          return return_value_fstExtractRvatDataFromFrame_25;
         }
       }
     }
@@ -5775,13 +5775,13 @@ char * fstReaderGetValueFromHandleAtTime(void *ctx, unsigned long int tim, unsig
 unsigned long int fstReaderGetVarCount(void *ctx)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(!(xc == ((struct fstReaderContext *)NULL)))
-    tmp_if_expr$1 = xc->var_count;
+    tmp_if_expr_1 = xc->var_count;
 
   else
-    tmp_if_expr$1 = (unsigned long int)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (unsigned long int)0;
+  return tmp_if_expr_1;
 }
 
 // fstReaderGetVersionString
@@ -5789,13 +5789,13 @@ unsigned long int fstReaderGetVarCount(void *ctx)
 const char * fstReaderGetVersionString(void *ctx)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!(xc == ((struct fstReaderContext *)NULL)))
-    tmp_if_expr$1 = xc->version;
+    tmp_if_expr_1 = xc->version;
 
   else
-    tmp_if_expr$1 = (char *)(void *)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (char *)(void *)0;
+  return tmp_if_expr_1;
 }
 
 // fstReaderInit
@@ -5820,23 +5820,23 @@ signed int fstReaderInit(struct fstReaderContext *xc)
     void *zhandle;
     signed int zfd;
     signed int flen;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(xc->filename);
-    flen = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(xc->filename);
+    flen = (signed int)return_value_strlen_1;
     char *hf;
     seclen=fstReaderUint64(xc->f);
-    unsigned long int return_value_fstReaderUint64$2;
-    return_value_fstReaderUint64$2=fstReaderUint64(xc->f);
-    uclen = (signed long int)return_value_fstReaderUint64$2;
+    unsigned long int return_value_fstReaderUint64_2;
+    return_value_fstReaderUint64_2=fstReaderUint64(xc->f);
+    uclen = (signed long int)return_value_fstReaderUint64_2;
     if(seclen == 0ul)
       return 0;
 
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)1, (unsigned long int)(flen + 16 + 32 + 1));
-    hf = (char *)return_value_calloc$3;
-    signed int return_value_getpid$4;
-    return_value_getpid$4=getpid();
-    sprintf(hf, "%s.upk_%d_%p", xc->filename, return_value_getpid$4, (void *)xc);
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)1, (unsigned long int)(flen + 16 + 32 + 1));
+    hf = (char *)return_value_calloc_3;
+    signed int return_value_getpid_4;
+    return_value_getpid_4=getpid();
+    sprintf(hf, "%s.upk_%d_%p", xc->filename, return_value_getpid_4, (void *)xc);
     fcomp=fopen(hf, "w+b");
     if(fcomp == ((struct _IO_FILE *)NULL))
     {
@@ -5859,12 +5859,12 @@ signed int fstReaderInit(struct fstReaderContext *xc)
 
     fstReaderFseeko(xc, xc->f, (signed long int)(1 + 8 + 8), 0);
     fflush(xc->f);
-    signed int return_value_fileno$5;
-    return_value_fileno$5=fileno(xc->f);
-    zfd=dup(return_value_fileno$5);
-    struct gzFile_s *return_value_gzdopen$6;
-    return_value_gzdopen$6=gzdopen(zfd, "rb");
-    zhandle = (void *)return_value_gzdopen$6;
+    signed int return_value_fileno_5;
+    return_value_fileno_5=fileno(xc->f);
+    zfd=dup(return_value_fileno_5);
+    struct gzFile_s *return_value_gzdopen_6;
+    return_value_gzdopen_6=gzdopen(zfd, "rb");
+    zhandle = (void *)return_value_gzdopen_6;
     if(!(zhandle == NULL))
     {
       offpnt = (signed long int)0;
@@ -5872,9 +5872,9 @@ signed int fstReaderInit(struct fstReaderContext *xc)
       {
         unsigned long int this_len = (unsigned long int)(uclen - offpnt > (signed long int)32768 ? (signed long int)32768 : uclen - offpnt);
         unsigned long int gzreadlen;
-        signed int return_value_gzread$7;
-        return_value_gzread$7=gzread((struct gzFile_s *)zhandle, (void *)gz_membuf, (unsigned int)this_len);
-        gzreadlen = (unsigned long int)return_value_gzread$7;
+        signed int return_value_gzread_7;
+        return_value_gzread_7=gzread((struct gzFile_s *)zhandle, (void *)gz_membuf, (unsigned int)this_len);
+        gzreadlen = (unsigned long int)return_value_gzread_7;
         unsigned long int fwlen;
         if(!(gzreadlen == this_len))
         {
@@ -5900,7 +5900,7 @@ signed int fstReaderInit(struct fstReaderContext *xc)
     xc->f = fcomp;
   }
 
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_8;
   if(!(gzread_pass_status == 0))
   {
     fstReaderFseeko(xc, xc->f, (signed long int)0, 2);
@@ -5929,17 +5929,17 @@ signed int fstReaderInit(struct fstReaderContext *xc)
           xc->start_time=fstReaderUint64(xc->f);
           xc->end_time=fstReaderUint64(xc->f);
           if(xc->start_time == 0ul)
-            tmp_if_expr$8 = xc->end_time == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_8 = xc->end_time == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$8 = (_Bool)0;
-          hdr_incomplete = (signed int)tmp_if_expr$8;
+            tmp_if_expr_8 = (_Bool)0;
+          hdr_incomplete = (signed int)tmp_if_expr_8;
           fstFread((void *)&dcheck, (unsigned long int)8, (unsigned long int)1, xc->f);
           xc->double_endian_match = (unsigned int)IEEE_FLOAT_EQUAL(dcheck, 2.7182818284590452354);
           if(xc->double_endian_match == 0u)
           {
-            /* tag-#anon#lUN[lARR8{U8}$U8$'rvs_buf'||F64'd'|] */
-union anonymous$0
+            /* tag-#anon#lUN[lARR8{U8}_U8_'rvs_buf'||F64'd'|] */
+union anonymous_0
 {
   // rvs_buf
   unsigned char rvs_buf[8l];
@@ -5949,7 +5949,7 @@ union anonymous$0
 
 /* */
             ;
-            union anonymous$0 vu;
+            union anonymous_0 vu;
             unsigned char *dcheck_alias = (unsigned char *)&dcheck;
             signed int rvs_idx = 0;
             for( ; !(rvs_idx >= 8); rvs_idx = rvs_idx + 1)
@@ -5963,9 +5963,9 @@ union anonymous$0
           xc->mem_used_by_writer=fstReaderUint64(xc->f);
           xc->scope_count=fstReaderUint64(xc->f);
           xc->var_count=fstReaderUint64(xc->f);
-          unsigned long int return_value_fstReaderUint64$9;
-          return_value_fstReaderUint64$9=fstReaderUint64(xc->f);
-          xc->maxhandle = (unsigned int)return_value_fstReaderUint64$9;
+          unsigned long int return_value_fstReaderUint64_9;
+          return_value_fstReaderUint64_9=fstReaderUint64(xc->f);
+          xc->maxhandle = (unsigned int)return_value_fstReaderUint64_9;
           xc->num_alias = xc->var_count - (unsigned long int)xc->maxhandle;
           xc->vc_section_count=fstReaderUint64(xc->f);
           ch=fgetc(xc->f);
@@ -5976,9 +5976,9 @@ union anonymous$0
           xc->date[(signed long int)119] = (char)0;
           ch=fgetc(xc->f);
           xc->filetype = (unsigned char)ch;
-          unsigned long int return_value_fstReaderUint64$10;
-          return_value_fstReaderUint64$10=fstReaderUint64(xc->f);
-          xc->timezero = (signed long int)return_value_fstReaderUint64$10;
+          unsigned long int return_value_fstReaderUint64_10;
+          return_value_fstReaderUint64_10=fstReaderUint64(xc->f);
+          xc->timezero = (signed long int)return_value_fstReaderUint64_10;
         }
 
       }
@@ -6005,30 +6005,30 @@ union anonymous$0
             if(hdr_incomplete == 0)
             {
               unsigned long int clen = seclen - (unsigned long int)24;
-              unsigned long int fstReaderInit$$1$$2$$1$$6$$1$$uclen;
-              fstReaderInit$$1$$2$$1$$6$$1$$uclen=fstReaderUint64(xc->f);
+              unsigned long int fstReaderInit__1__2__1__6__1__uclen;
+              fstReaderInit__1__2__1__6__1__uclen=fstReaderUint64(xc->f);
               unsigned char *ucdata;
-              void *return_value_malloc$11;
-              return_value_malloc$11=malloc(fstReaderInit$$1$$2$$1$$6$$1$$uclen);
-              ucdata = (unsigned char *)return_value_malloc$11;
+              void *return_value_malloc_11;
+              return_value_malloc_11=malloc(fstReaderInit__1__2__1__6__1__uclen);
+              ucdata = (unsigned char *)return_value_malloc_11;
               unsigned char *pnt = ucdata;
-              unsigned int fstReaderInit$$1$$2$$1$$6$$1$$i;
+              unsigned int fstReaderInit__1__2__1__6__1__i;
               xc->contains_geom_section = (unsigned int)1;
-              unsigned long int return_value_fstReaderUint64$12;
-              return_value_fstReaderUint64$12=fstReaderUint64(xc->f);
-              xc->maxhandle = (unsigned int)return_value_fstReaderUint64$12;
+              unsigned long int return_value_fstReaderUint64_12;
+              return_value_fstReaderUint64_12=fstReaderUint64(xc->f);
+              xc->maxhandle = (unsigned int)return_value_fstReaderUint64_12;
               xc->longest_signal_value_len = (unsigned int)32;
               free((void *)xc->process_mask);
-              void *return_value_calloc$13;
-              return_value_calloc$13=calloc((unsigned long int)1, (unsigned long int)((xc->maxhandle + (unsigned int)7) / (unsigned int)8));
-              xc->process_mask = (unsigned char *)return_value_calloc$13;
-              if(!(clen == fstReaderInit$$1$$2$$1$$6$$1$$uclen))
+              void *return_value_calloc_13;
+              return_value_calloc_13=calloc((unsigned long int)1, (unsigned long int)((xc->maxhandle + (unsigned int)7) / (unsigned int)8));
+              xc->process_mask = (unsigned char *)return_value_calloc_13;
+              if(!(clen == fstReaderInit__1__2__1__6__1__uclen))
               {
                 unsigned char *cdata;
-                void *return_value_malloc$14;
-                return_value_malloc$14=malloc(clen);
-                cdata = (unsigned char *)return_value_malloc$14;
-                unsigned long int destlen = fstReaderInit$$1$$2$$1$$6$$1$$uclen;
+                void *return_value_malloc_14;
+                return_value_malloc_14=malloc(clen);
+                cdata = (unsigned char *)return_value_malloc_14;
+                unsigned long int destlen = fstReaderInit__1__2__1__6__1__uclen;
                 unsigned long int sourcelen = clen;
                 signed int rc;
                 fstFread((void *)cdata, clen, (unsigned long int)1, xc->f);
@@ -6043,43 +6043,43 @@ union anonymous$0
               }
 
               else
-                fstFread((void *)ucdata, fstReaderInit$$1$$2$$1$$6$$1$$uclen, (unsigned long int)1, xc->f);
+                fstFread((void *)ucdata, fstReaderInit__1__2__1__6__1__uclen, (unsigned long int)1, xc->f);
               free((void *)xc->signal_lens);
-              void *return_value_malloc$15;
-              return_value_malloc$15=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)xc->maxhandle);
-              xc->signal_lens = (unsigned int *)return_value_malloc$15;
+              void *return_value_malloc_15;
+              return_value_malloc_15=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)xc->maxhandle);
+              xc->signal_lens = (unsigned int *)return_value_malloc_15;
               free((void *)xc->signal_typs);
-              void *return_value_malloc$16;
-              return_value_malloc$16=malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)xc->maxhandle);
-              xc->signal_typs = (unsigned char *)return_value_malloc$16;
-              fstReaderInit$$1$$2$$1$$6$$1$$i = (unsigned int)0;
-              for( ; !(fstReaderInit$$1$$2$$1$$6$$1$$i >= xc->maxhandle); fstReaderInit$$1$$2$$1$$6$$1$$i = fstReaderInit$$1$$2$$1$$6$$1$$i + 1u)
+              void *return_value_malloc_16;
+              return_value_malloc_16=malloc(sizeof(unsigned char) /*1ul*/  * (unsigned long int)xc->maxhandle);
+              xc->signal_typs = (unsigned char *)return_value_malloc_16;
+              fstReaderInit__1__2__1__6__1__i = (unsigned int)0;
+              for( ; !(fstReaderInit__1__2__1__6__1__i >= xc->maxhandle); fstReaderInit__1__2__1__6__1__i = fstReaderInit__1__2__1__6__1__i + 1u)
               {
                 signed int skiplen;
                 unsigned long int val;
-                unsigned int return_value_fstGetVarint32$17;
-                return_value_fstGetVarint32$17=fstGetVarint32(pnt, &skiplen);
-                val = (unsigned long int)return_value_fstGetVarint32$17;
+                unsigned int return_value_fstGetVarint32_17;
+                return_value_fstGetVarint32_17=fstGetVarint32(pnt, &skiplen);
+                val = (unsigned long int)return_value_fstGetVarint32_17;
                 pnt = pnt + (signed long int)skiplen;
                 if(!(val == 0ul))
                 {
-                  xc->signal_lens[(signed long int)fstReaderInit$$1$$2$$1$$6$$1$$i] = (unsigned int)(val != (unsigned long int)0xFFFFFFFF ? val : (unsigned long int)0);
-                  xc->signal_typs[(signed long int)fstReaderInit$$1$$2$$1$$6$$1$$i] = (unsigned char)FST_VT_VCD_WIRE;
-                  if(!(xc->longest_signal_value_len >= xc->signal_lens[(signed long int)fstReaderInit$$1$$2$$1$$6$$1$$i]))
-                    xc->longest_signal_value_len = xc->signal_lens[(signed long int)fstReaderInit$$1$$2$$1$$6$$1$$i];
+                  xc->signal_lens[(signed long int)fstReaderInit__1__2__1__6__1__i] = (unsigned int)(val != (unsigned long int)0xFFFFFFFF ? val : (unsigned long int)0);
+                  xc->signal_typs[(signed long int)fstReaderInit__1__2__1__6__1__i] = (unsigned char)FST_VT_VCD_WIRE;
+                  if(!(xc->longest_signal_value_len >= xc->signal_lens[(signed long int)fstReaderInit__1__2__1__6__1__i]))
+                    xc->longest_signal_value_len = xc->signal_lens[(signed long int)fstReaderInit__1__2__1__6__1__i];
 
                 }
 
                 else
                 {
-                  xc->signal_lens[(signed long int)fstReaderInit$$1$$2$$1$$6$$1$$i] = (unsigned int)8;
-                  xc->signal_typs[(signed long int)fstReaderInit$$1$$2$$1$$6$$1$$i] = (unsigned char)FST_VT_VCD_REAL;
+                  xc->signal_lens[(signed long int)fstReaderInit__1__2__1__6__1__i] = (unsigned int)8;
+                  xc->signal_typs[(signed long int)fstReaderInit__1__2__1__6__1__i] = (unsigned char)FST_VT_VCD_REAL;
                 }
               }
               free((void *)xc->temp_signal_value_buf);
-              void *return_value_malloc$18;
-              return_value_malloc$18=malloc((unsigned long int)(xc->longest_signal_value_len + (unsigned int)1));
-              xc->temp_signal_value_buf = (unsigned char *)return_value_malloc$18;
+              void *return_value_malloc_18;
+              return_value_malloc_18=malloc((unsigned long int)(xc->longest_signal_value_len + (unsigned int)1));
+              xc->temp_signal_value_buf = (unsigned char *)return_value_malloc_18;
               free((void *)ucdata);
             }
 
@@ -6115,19 +6115,19 @@ union anonymous$0
                     unsigned long int delta;
                     xc->num_blackouts=fstReaderVarint32(xc->f);
                     free((void *)xc->blackout_times);
-                    void *return_value_calloc$19;
-                    return_value_calloc$19=calloc((unsigned long int)xc->num_blackouts, sizeof(unsigned long int) /*8ul*/ );
-                    xc->blackout_times = (unsigned long int *)return_value_calloc$19;
+                    void *return_value_calloc_19;
+                    return_value_calloc_19=calloc((unsigned long int)xc->num_blackouts, sizeof(unsigned long int) /*8ul*/ );
+                    xc->blackout_times = (unsigned long int *)return_value_calloc_19;
                     free((void *)xc->blackout_activity);
-                    void *return_value_calloc$20;
-                    return_value_calloc$20=calloc((unsigned long int)xc->num_blackouts, sizeof(unsigned char) /*1ul*/ );
-                    xc->blackout_activity = (unsigned char *)return_value_calloc$20;
+                    void *return_value_calloc_20;
+                    return_value_calloc_20=calloc((unsigned long int)xc->num_blackouts, sizeof(unsigned char) /*1ul*/ );
+                    xc->blackout_activity = (unsigned char *)return_value_calloc_20;
                     i = (unsigned int)0;
                     for( ; !(i >= xc->num_blackouts); i = i + 1u)
                     {
-                      signed int return_value_fgetc$21;
-                      return_value_fgetc$21=fgetc(xc->f);
-                      xc->blackout_activity[(signed long int)i] = (unsigned char)(return_value_fgetc$21 != 0);
+                      signed int return_value_fgetc_21;
+                      return_value_fgetc_21=fgetc(xc->f);
+                      xc->blackout_activity[(signed long int)i] = (unsigned char)(return_value_fgetc_21 != 0);
                       delta=fstReaderVarint64(xc->f);
                       cur_bl = cur_bl + delta;
                       xc->blackout_times[(signed long int)i] = cur_bl;
@@ -6158,9 +6158,9 @@ union anonymous$0
 // file ./fst/fstapi.c line 4651
 signed int fstReaderIterBlocks(void *ctx, void (*value_change_callback)(void *, unsigned long int, unsigned int, const unsigned char *), void *user_callback_data_pointer, struct _IO_FILE *fv)
 {
-  signed int return_value_fstReaderIterBlocks2$1;
-  return_value_fstReaderIterBlocks2$1=fstReaderIterBlocks2(ctx, value_change_callback, (void (*)(void *, unsigned long int, unsigned int, const unsigned char *, unsigned int))(void *)0, user_callback_data_pointer, fv);
-  return return_value_fstReaderIterBlocks2$1;
+  signed int return_value_fstReaderIterBlocks2_1;
+  return_value_fstReaderIterBlocks2_1=fstReaderIterBlocks2(ctx, value_change_callback, (void (*)(void *, unsigned long int, unsigned int, const unsigned char *, unsigned int))(void *)0, user_callback_data_pointer, fv);
+  return return_value_fstReaderIterBlocks2_1;
 }
 
 // fstReaderIterBlocks2
@@ -6206,31 +6206,31 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
   signed int packtype;
   unsigned char *mc_mem = (unsigned char *)(void *)0;
   unsigned int mc_mem_len;
-  unsigned int tmp_post$11;
-  unsigned int tmp_post$18;
-  unsigned int tmp_post$20;
-  unsigned int tmp_post$23;
-  unsigned int tmp_post$24;
-  void *return_value_malloc$25;
-  signed int return_value_LZ4_decompress_safe_partial$27;
-  unsigned int tmp_post$28;
+  unsigned int tmp_post_11;
+  unsigned int tmp_post_18;
+  unsigned int tmp_post_20;
+  unsigned int tmp_post_23;
+  unsigned int tmp_post_24;
+  void *return_value_malloc_25;
+  signed int return_value_LZ4_decompress_safe_partial_27;
+  unsigned int tmp_post_28;
   if(xc == ((struct fstReaderContext *)NULL))
     return 0;
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)xc->maxhandle, sizeof(unsigned int) /*4ul*/ );
-    scatterptr = (unsigned int *)return_value_calloc$1;
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)xc->maxhandle, sizeof(unsigned int) /*4ul*/ );
-    headptr = (unsigned int *)return_value_calloc$2;
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)xc->maxhandle, sizeof(unsigned int) /*4ul*/ );
-    length_remaining = (unsigned int *)return_value_calloc$3;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)xc->maxhandle, sizeof(unsigned int) /*4ul*/ );
+    scatterptr = (unsigned int *)return_value_calloc_1;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)xc->maxhandle, sizeof(unsigned int) /*4ul*/ );
+    headptr = (unsigned int *)return_value_calloc_2;
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)xc->maxhandle, sizeof(unsigned int) /*4ul*/ );
+    length_remaining = (unsigned int *)return_value_calloc_3;
     if(!(fv == ((struct _IO_FILE *)NULL)))
     {
-      fprintf(fv, "$dumpvars\n");
+      fprintf(fv, "_dumpvars\n");
       fflush(fv);
       setvbuf(fv, (char *)(void *)0, 2, (unsigned long int)0);
       xc->writex_fd=fileno(fv);
@@ -6272,20 +6272,20 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
         }
 
         mem_required_for_traversal=fstReaderUint64(xc->f);
-        void *return_value_malloc$4;
-        return_value_malloc$4=malloc(mem_required_for_traversal + (unsigned long int)66);
-        mem_for_traversal = (unsigned char *)return_value_malloc$4;
+        void *return_value_malloc_4;
+        return_value_malloc_4=malloc(mem_required_for_traversal + (unsigned long int)66);
+        mem_for_traversal = (unsigned char *)return_value_malloc_4;
         unsigned char *ucdata;
         unsigned char *cdata;
-        unsigned long int fstReaderIterBlocks2$$1$$2$$1$$4$$destlen;
-        unsigned long int fstReaderIterBlocks2$$1$$2$$1$$4$$sourcelen;
-        signed int fstReaderIterBlocks2$$1$$2$$1$$4$$rc;
+        unsigned long int fstReaderIterBlocks2__1__2__1__4__destlen;
+        unsigned long int fstReaderIterBlocks2__1__2__1__4__sourcelen;
+        signed int fstReaderIterBlocks2__1__2__1__4__rc;
         unsigned char *tpnt;
         unsigned long int tpval;
         unsigned int ti;
-        signed int return_value_fstReaderFseeko$5;
-        return_value_fstReaderFseeko$5=fstReaderFseeko(xc, xc->f, (signed long int)(((unsigned long int)blkpos + seclen) - (unsigned long int)24), 0);
-        if(!(return_value_fstReaderFseeko$5 == 0))
+        signed int return_value_fstReaderFseeko_5;
+        return_value_fstReaderFseeko_5=fstReaderFseeko(xc, xc->f, (signed long int)(((unsigned long int)blkpos + seclen) - (unsigned long int)24), 0);
+        if(!(return_value_fstReaderFseeko_5 == 0))
           break;
 
         tsec_uclen=fstReaderUint64(xc->f);
@@ -6294,25 +6294,25 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
         if(!(seclen >= tsec_clen))
           break;
 
-        void *return_value_malloc$6;
-        return_value_malloc$6=malloc(tsec_uclen);
-        ucdata = (unsigned char *)return_value_malloc$6;
+        void *return_value_malloc_6;
+        return_value_malloc_6=malloc(tsec_uclen);
+        ucdata = (unsigned char *)return_value_malloc_6;
         if(ucdata == ((unsigned char *)NULL))
           break;
 
-        fstReaderIterBlocks2$$1$$2$$1$$4$$destlen = tsec_uclen;
-        fstReaderIterBlocks2$$1$$2$$1$$4$$sourcelen = tsec_clen;
+        fstReaderIterBlocks2__1__2__1__4__destlen = tsec_uclen;
+        fstReaderIterBlocks2__1__2__1__4__sourcelen = tsec_clen;
         fstReaderFseeko(xc, xc->f, (signed long int)-24 - (signed long int)tsec_clen, 1);
         if(!(tsec_uclen == tsec_clen))
         {
-          void *return_value_malloc$7;
-          return_value_malloc$7=malloc(tsec_clen);
-          cdata = (unsigned char *)return_value_malloc$7;
+          void *return_value_malloc_7;
+          return_value_malloc_7=malloc(tsec_clen);
+          cdata = (unsigned char *)return_value_malloc_7;
           fstFread((void *)cdata, tsec_clen, (unsigned long int)1, xc->f);
-          fstReaderIterBlocks2$$1$$2$$1$$4$$rc=uncompress(ucdata, &fstReaderIterBlocks2$$1$$2$$1$$4$$destlen, cdata, fstReaderIterBlocks2$$1$$2$$1$$4$$sourcelen);
-          if(!(fstReaderIterBlocks2$$1$$2$$1$$4$$rc == 0))
+          fstReaderIterBlocks2__1__2__1__4__rc=uncompress(ucdata, &fstReaderIterBlocks2__1__2__1__4__destlen, cdata, fstReaderIterBlocks2__1__2__1__4__sourcelen);
+          if(!(fstReaderIterBlocks2__1__2__1__4__rc == 0))
           {
-            printf("tsec uncompress rc = %d\n", fstReaderIterBlocks2$$1$$2$$1$$4$$rc);
+            printf("tsec uncompress rc = %d\n", fstReaderIterBlocks2__1__2__1__4__rc);
             exit(255);
           }
 
@@ -6322,24 +6322,24 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
         else
           fstFread((void *)ucdata, tsec_uclen, (unsigned long int)1, xc->f);
         free((void *)time_table);
-        void *return_value_calloc$8;
-        return_value_calloc$8=calloc(tsec_nitems, sizeof(unsigned long int) /*8ul*/ );
-        time_table = (unsigned long int *)return_value_calloc$8;
+        void *return_value_calloc_8;
+        return_value_calloc_8=calloc(tsec_nitems, sizeof(unsigned long int) /*8ul*/ );
+        time_table = (unsigned long int *)return_value_calloc_8;
         tpnt = ucdata;
         tpval = (unsigned long int)0;
         ti = (unsigned int)0;
         for( ; !((unsigned long int)ti >= tsec_nitems); ti = ti + 1u)
         {
-          signed int fstReaderIterBlocks2$$1$$2$$1$$4$$3$$1$$skiplen;
-          unsigned long int fstReaderIterBlocks2$$1$$2$$1$$4$$3$$1$$val;
-          fstReaderIterBlocks2$$1$$2$$1$$4$$3$$1$$val=fstGetVarint64(tpnt, &fstReaderIterBlocks2$$1$$2$$1$$4$$3$$1$$skiplen);
-          time_table[(signed long int)ti] = tpval + fstReaderIterBlocks2$$1$$2$$1$$4$$3$$1$$val;
+          signed int fstReaderIterBlocks2__1__2__1__4__3__1__skiplen;
+          unsigned long int fstReaderIterBlocks2__1__2__1__4__3__1__val;
+          fstReaderIterBlocks2__1__2__1__4__3__1__val=fstGetVarint64(tpnt, &fstReaderIterBlocks2__1__2__1__4__3__1__skiplen);
+          time_table[(signed long int)ti] = tpval + fstReaderIterBlocks2__1__2__1__4__3__1__val;
           tpval = time_table[(signed long int)ti];
-          tpnt = tpnt + (signed long int)fstReaderIterBlocks2$$1$$2$$1$$4$$3$$1$$skiplen;
+          tpnt = tpnt + (signed long int)fstReaderIterBlocks2__1__2__1__4__3__1__skiplen;
         }
-        void *return_value_calloc$9;
-        return_value_calloc$9=calloc(tsec_nitems != 0ul ? tsec_nitems : (unsigned long int)1, sizeof(unsigned int) /*4ul*/ );
-        tc_head = (unsigned int *)return_value_calloc$9;
+        void *return_value_calloc_9;
+        return_value_calloc_9=calloc(tsec_nitems != 0ul ? tsec_nitems : (unsigned long int)1, sizeof(unsigned int) /*4ul*/ );
+        tc_head = (unsigned int *)return_value_calloc_9;
         free((void *)ucdata);
         fstReaderFseeko(xc, xc->f, blkpos + (signed long int)32, 0);
         frame_uclen=fstReaderVarint64(xc->f);
@@ -6349,19 +6349,19 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
         {
           if(!(blocks_skipped == 0) || !(beg_tim == *time_table))
           {
-            unsigned char *fstReaderIterBlocks2$$1$$2$$1$$5$$1$$mu;
-            void *return_value_malloc$10;
-            return_value_malloc$10=malloc(frame_uclen);
-            fstReaderIterBlocks2$$1$$2$$1$$5$$1$$mu = (unsigned char *)return_value_malloc$10;
+            unsigned char *fstReaderIterBlocks2__1__2__1__5__1__mu;
+            void *return_value_malloc_10;
+            return_value_malloc_10=malloc(frame_uclen);
+            fstReaderIterBlocks2__1__2__1__5__1__mu = (unsigned char *)return_value_malloc_10;
             unsigned int sig_offs = (unsigned int)0;
             if(!(fv == ((struct _IO_FILE *)NULL)))
             {
-              char fstReaderIterBlocks2$$1$$2$$1$$5$$1$$1$$wx_buf[32l];
-              signed int fstReaderIterBlocks2$$1$$2$$1$$5$$1$$1$$wx_len;
+              char fstReaderIterBlocks2__1__2__1__5__1__1__wx_buf[32l];
+              signed int fstReaderIterBlocks2__1__2__1__5__1__1__wx_len;
               if(!(beg_tim == 0ul))
               {
-                fstReaderIterBlocks2$$1$$2$$1$$5$$1$$1$$wx_len=sprintf(fstReaderIterBlocks2$$1$$2$$1$$5$$1$$1$$wx_buf, "#%lu\n", beg_tim);
-                fstWritex(xc, (void *)fstReaderIterBlocks2$$1$$2$$1$$5$$1$$1$$wx_buf, fstReaderIterBlocks2$$1$$2$$1$$5$$1$$1$$wx_len);
+                fstReaderIterBlocks2__1__2__1__5__1__1__wx_len=sprintf(fstReaderIterBlocks2__1__2__1__5__1__1__wx_buf, "#%lu\n", beg_tim);
+                fstWritex(xc, (void *)fstReaderIterBlocks2__1__2__1__5__1__1__wx_buf, fstReaderIterBlocks2__1__2__1__5__1__1__wx_len);
               }
 
               if(!(xc->num_blackouts == 0u))
@@ -6370,10 +6370,10 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
                 {
                   if(beg_tim == xc->blackout_times[(signed long int)cur_blackout])
                   {
-                    tmp_post$11 = cur_blackout;
+                    tmp_post_11 = cur_blackout;
                     cur_blackout = cur_blackout + 1u;
-                    fstReaderIterBlocks2$$1$$2$$1$$5$$1$$1$$wx_len=sprintf(fstReaderIterBlocks2$$1$$2$$1$$5$$1$$1$$wx_buf, "$dump%s $end\n", xc->blackout_activity[(signed long int)tmp_post$11] != 0 ? "on" : "off");
-                    fstWritex(xc, (void *)fstReaderIterBlocks2$$1$$2$$1$$5$$1$$1$$wx_buf, fstReaderIterBlocks2$$1$$2$$1$$5$$1$$1$$wx_len);
+                    fstReaderIterBlocks2__1__2__1__5__1__1__wx_len=sprintf(fstReaderIterBlocks2__1__2__1__5__1__1__wx_buf, "_dump%s _end\n", xc->blackout_activity[(signed long int)tmp_post_11] != 0 ? "on" : "off");
+                    fstWritex(xc, (void *)fstReaderIterBlocks2__1__2__1__5__1__1__wx_buf, fstReaderIterBlocks2__1__2__1__5__1__1__wx_len);
                   }
 
                 }
@@ -6383,19 +6383,19 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
             }
 
             if(frame_uclen == frame_clen)
-              fstFread((void *)fstReaderIterBlocks2$$1$$2$$1$$5$$1$$mu, frame_uclen, (unsigned long int)1, xc->f);
+              fstFread((void *)fstReaderIterBlocks2__1__2__1__5__1__mu, frame_uclen, (unsigned long int)1, xc->f);
 
             else
             {
               unsigned char *mc;
-              void *return_value_malloc$12;
-              return_value_malloc$12=malloc(frame_clen);
-              mc = (unsigned char *)return_value_malloc$12;
+              void *return_value_malloc_12;
+              return_value_malloc_12=malloc(frame_clen);
+              mc = (unsigned char *)return_value_malloc_12;
               signed int rc;
               unsigned long int destlen = frame_uclen;
               unsigned long int sourcelen = frame_clen;
               fstFread((void *)mc, sourcelen, (unsigned long int)1, xc->f);
-              rc=uncompress(fstReaderIterBlocks2$$1$$2$$1$$5$$1$$mu, &destlen, mc, sourcelen);
+              rc=uncompress(fstReaderIterBlocks2__1__2__1__5__1__mu, &destlen, mc, sourcelen);
               if(!(rc == 0))
               {
                 printf("rc: %d\n", rc);
@@ -6407,18 +6407,18 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
             idx = (unsigned int)0;
             for( ; !((unsigned long int)idx >= frame_maxhandle); idx = idx + 1u)
             {
-              signed int fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$process_idx = (signed int)(idx / (unsigned int)8);
-              signed int fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$process_bit = (signed int)(idx & (unsigned int)7);
-              if(!((1 << fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$process_bit & (signed int)xc->process_mask[(signed long int)fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$process_idx]) == 0))
+              signed int fstReaderIterBlocks2__1__2__1__5__1__4__1__process_idx = (signed int)(idx / (unsigned int)8);
+              signed int fstReaderIterBlocks2__1__2__1__5__1__4__1__process_bit = (signed int)(idx & (unsigned int)7);
+              if(!((1 << fstReaderIterBlocks2__1__2__1__5__1__4__1__process_bit & (signed int)xc->process_mask[(signed long int)fstReaderIterBlocks2__1__2__1__5__1__4__1__process_idx]) == 0))
               {
                 if(!(xc->signal_lens[(signed long int)idx] >= 2u))
                 {
                   if(xc->signal_lens[(signed long int)idx] == 1u)
                   {
-                    unsigned char fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$1$$1$$val = fstReaderIterBlocks2$$1$$2$$1$$5$$1$$mu[(signed long int)sig_offs];
+                    unsigned char fstReaderIterBlocks2__1__2__1__5__1__4__1__1__1__1__val = fstReaderIterBlocks2__1__2__1__5__1__mu[(signed long int)sig_offs];
                     if(!(value_change_callback == ((void (*)(void *, unsigned long int, unsigned int, const unsigned char *))NULL)))
                     {
-                      xc->temp_signal_value_buf[(signed long int)0] = fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$1$$1$$val;
+                      xc->temp_signal_value_buf[(signed long int)0] = fstReaderIterBlocks2__1__2__1__5__1__4__1__1__1__1__val;
                       xc->temp_signal_value_buf[(signed long int)1] = (unsigned char)0;
                       value_change_callback(user_callback_data_pointer, beg_tim, idx + (unsigned int)1, xc->temp_signal_value_buf);
                     }
@@ -6426,12 +6426,12 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
                     else
                       if(!(fv == ((struct _IO_FILE *)NULL)))
                       {
-                        char fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$1$$1$$2$$1$$vcd_id[16l];
-                        signed int fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$1$$1$$2$$1$$vcdid_len;
-                        fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$1$$1$$2$$1$$vcdid_len=fstVcdIDForFwrite(fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$1$$1$$2$$1$$vcd_id + (signed long int)1, idx + (unsigned int)1);
-                        fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$1$$1$$2$$1$$vcd_id[(signed long int)0] = (char)fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$1$$1$$val;
-                        fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$1$$1$$2$$1$$vcd_id[(signed long int)(fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$1$$1$$2$$1$$vcdid_len + 1)] = (char)10;
-                        fstWritex(xc, (void *)fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$1$$1$$2$$1$$vcd_id, fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$1$$1$$2$$1$$vcdid_len + 2);
+                        char fstReaderIterBlocks2__1__2__1__5__1__4__1__1__1__1__2__1__vcd_id[16l];
+                        signed int fstReaderIterBlocks2__1__2__1__5__1__4__1__1__1__1__2__1__vcdid_len;
+                        fstReaderIterBlocks2__1__2__1__5__1__4__1__1__1__1__2__1__vcdid_len=fstVcdIDForFwrite(fstReaderIterBlocks2__1__2__1__5__1__4__1__1__1__1__2__1__vcd_id + (signed long int)1, idx + (unsigned int)1);
+                        fstReaderIterBlocks2__1__2__1__5__1__4__1__1__1__1__2__1__vcd_id[(signed long int)0] = (char)fstReaderIterBlocks2__1__2__1__5__1__4__1__1__1__1__val;
+                        fstReaderIterBlocks2__1__2__1__5__1__4__1__1__1__1__2__1__vcd_id[(signed long int)(fstReaderIterBlocks2__1__2__1__5__1__4__1__1__1__1__2__1__vcdid_len + 1)] = (char)10;
+                        fstWritex(xc, (void *)fstReaderIterBlocks2__1__2__1__5__1__4__1__1__1__1__2__1__vcd_id, fstReaderIterBlocks2__1__2__1__5__1__4__1__1__1__1__2__1__vcdid_len + 2);
                       }
 
                   }
@@ -6443,7 +6443,7 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
                   {
                     if(!(value_change_callback == ((void (*)(void *, unsigned long int, unsigned int, const unsigned char *))NULL)))
                     {
-                      memcpy((void *)xc->temp_signal_value_buf, (const void *)(fstReaderIterBlocks2$$1$$2$$1$$5$$1$$mu + (signed long int)sig_offs), (unsigned long int)xc->signal_lens[(signed long int)idx]);
+                      memcpy((void *)xc->temp_signal_value_buf, (const void *)(fstReaderIterBlocks2__1__2__1__5__1__mu + (signed long int)sig_offs), (unsigned long int)xc->signal_lens[(signed long int)idx]);
                       xc->temp_signal_value_buf[(signed long int)xc->signal_lens[(signed long int)idx]] = (unsigned char)0;
                       value_change_callback(user_callback_data_pointer, beg_tim, idx + (unsigned int)1, xc->temp_signal_value_buf);
                     }
@@ -6452,14 +6452,14 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
                       if(!(fv == ((struct _IO_FILE *)NULL)))
                       {
                         char vcd_id[16l];
-                        signed int fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$1$$2$$1$$vcdid_len;
-                        fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$1$$2$$1$$vcdid_len=fstVcdIDForFwrite(vcd_id + (signed long int)1, idx + (unsigned int)1);
+                        signed int fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__1__2__1__vcdid_len;
+                        fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__1__2__1__vcdid_len=fstVcdIDForFwrite(vcd_id + (signed long int)1, idx + (unsigned int)1);
                         vcd_id[(signed long int)0] = (char)((signed int)xc->signal_typs[(signed long int)idx] != FST_VT_VCD_PORT ? 98 : 112);
                         fstWritex(xc, (void *)vcd_id, 1);
-                        fstWritex(xc, (void *)(fstReaderIterBlocks2$$1$$2$$1$$5$$1$$mu + (signed long int)sig_offs), (signed int)xc->signal_lens[(signed long int)idx]);
+                        fstWritex(xc, (void *)(fstReaderIterBlocks2__1__2__1__5__1__mu + (signed long int)sig_offs), (signed int)xc->signal_lens[(signed long int)idx]);
                         vcd_id[(signed long int)0] = (char)32;
-                        vcd_id[(signed long int)(fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$1$$2$$1$$vcdid_len + 1)] = (char)10;
-                        fstWritex(xc, (void *)vcd_id, fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$1$$2$$1$$vcdid_len + 2);
+                        vcd_id[(signed long int)(fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__1__2__1__vcdid_len + 1)] = (char)10;
+                        fstWritex(xc, (void *)vcd_id, fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__1__2__1__vcdid_len + 2);
                       }
 
                   }
@@ -6467,37 +6467,37 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
                   else
                   {
                     double d;
-                    unsigned char *fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$clone_d;
-                    unsigned char *srcdata = fstReaderIterBlocks2$$1$$2$$1$$5$$1$$mu + (signed long int)sig_offs;
+                    unsigned char *fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__clone_d;
+                    unsigned char *srcdata = fstReaderIterBlocks2__1__2__1__5__1__mu + (signed long int)sig_offs;
                     if(!(value_change_callback == ((void (*)(void *, unsigned long int, unsigned int, const unsigned char *))NULL)))
                     {
                       if(!(xc->native_doubles_for_cb == 0u))
                       {
                         if(!(xc->double_endian_match == 0u))
-                          fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$clone_d = srcdata;
+                          fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__clone_d = srcdata;
 
                         else
                         {
-                          signed int fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$1$$1$$2$$j;
-                          fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$clone_d = (unsigned char *)&d;
-                          fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$1$$1$$2$$j = 0;
-                          for( ; !(fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$1$$1$$2$$j >= 8); fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$1$$1$$2$$j = fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$1$$1$$2$$j + 1)
-                            fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$clone_d[(signed long int)fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$1$$1$$2$$j] = srcdata[(signed long int)(7 - fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$1$$1$$2$$j)];
+                          signed int fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__1__1__2__j;
+                          fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__clone_d = (unsigned char *)&d;
+                          fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__1__1__2__j = 0;
+                          for( ; !(fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__1__1__2__j >= 8); fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__1__1__2__j = fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__1__1__2__j + 1)
+                            fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__clone_d[(signed long int)fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__1__1__2__j] = srcdata[(signed long int)(7 - fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__1__1__2__j)];
                         }
-                        value_change_callback(user_callback_data_pointer, beg_tim, idx + (unsigned int)1, fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$clone_d);
+                        value_change_callback(user_callback_data_pointer, beg_tim, idx + (unsigned int)1, fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__clone_d);
                       }
 
                       else
                       {
-                        fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$clone_d = (unsigned char *)&d;
+                        fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__clone_d = (unsigned char *)&d;
                         if(!(xc->double_endian_match == 0u))
-                          memcpy((void *)fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$clone_d, (const void *)srcdata, (unsigned long int)8);
+                          memcpy((void *)fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__clone_d, (const void *)srcdata, (unsigned long int)8);
 
                         else
                         {
-                          signed int fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$1$$2$$2$$j = 0;
-                          for( ; !(fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$1$$2$$2$$j >= 8); fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$1$$2$$2$$j = fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$1$$2$$2$$j + 1)
-                            fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$clone_d[(signed long int)fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$1$$2$$2$$j] = srcdata[(signed long int)(7 - fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$1$$2$$2$$j)];
+                          signed int fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__1__2__2__j = 0;
+                          for( ; !(fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__1__2__2__j >= 8); fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__1__2__2__j = fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__1__2__2__j + 1)
+                            fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__clone_d[(signed long int)fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__1__2__2__j] = srcdata[(signed long int)(7 - fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__1__2__2__j)];
                         }
                         sprintf((char *)xc->temp_signal_value_buf, "%.16g", d);
                         value_change_callback(user_callback_data_pointer, beg_tim, idx + (unsigned int)1, xc->temp_signal_value_buf);
@@ -6508,21 +6508,21 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
                       if(!(fv == ((struct _IO_FILE *)NULL)))
                       {
                         char vcdid_buf[16l];
-                        char fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$2$$1$$wx_buf[64l];
-                        signed int fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$2$$1$$wx_len;
-                        fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$clone_d = (unsigned char *)&d;
+                        char fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__2__1__wx_buf[64l];
+                        signed int fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__2__1__wx_len;
+                        fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__clone_d = (unsigned char *)&d;
                         if(!(xc->double_endian_match == 0u))
-                          memcpy((void *)fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$clone_d, (const void *)srcdata, (unsigned long int)8);
+                          memcpy((void *)fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__clone_d, (const void *)srcdata, (unsigned long int)8);
 
                         else
                         {
                           signed int j = 0;
                           for( ; !(j >= 8); j = j + 1)
-                            fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$clone_d[(signed long int)j] = srcdata[(signed long int)(7 - j)];
+                            fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__clone_d[(signed long int)j] = srcdata[(signed long int)(7 - j)];
                         }
                         fstVcdID(vcdid_buf, idx + (unsigned int)1);
-                        fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$2$$1$$wx_len=sprintf(fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$2$$1$$wx_buf, "r%.16g %s\n", d, (const void *)vcdid_buf);
-                        fstWritex(xc, (void *)fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$2$$1$$wx_buf, fstReaderIterBlocks2$$1$$2$$1$$5$$1$$4$$1$$1$$2$$2$$2$$1$$wx_len);
+                        fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__2__1__wx_len=sprintf(fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__2__1__wx_buf, "r%.16g %s\n", d, (const void *)vcdid_buf);
+                        fstWritex(xc, (void *)fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__2__1__wx_buf, fstReaderIterBlocks2__1__2__1__5__1__4__1__1__2__2__2__1__wx_len);
                       }
 
                   }
@@ -6530,7 +6530,7 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
 
               sig_offs = sig_offs + xc->signal_lens[(signed long int)idx];
             }
-            free((void *)fstReaderIterBlocks2$$1$$2$$1$$5$$1$$mu);
+            free((void *)fstReaderIterBlocks2__1__2__1__5__1__mu);
             fstReaderFseeko(xc, xc->f, -((signed long int)frame_clen), 1);
           }
 
@@ -6542,13 +6542,13 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
         packtype=fgetc(xc->f);
         indx_pntr = (signed long int)(((((unsigned long int)blkpos + seclen) - (unsigned long int)24) - tsec_clen) - (unsigned long int)8);
         fstReaderFseeko(xc, xc->f, indx_pntr, 0);
-        unsigned long int return_value_fstReaderUint64$13;
-        return_value_fstReaderUint64$13=fstReaderUint64(xc->f);
-        chain_clen = (signed long int)return_value_fstReaderUint64$13;
+        unsigned long int return_value_fstReaderUint64_13;
+        return_value_fstReaderUint64_13=fstReaderUint64(xc->f);
+        chain_clen = (signed long int)return_value_fstReaderUint64_13;
         indx_pos = indx_pntr - chain_clen;
-        void *return_value_malloc$14;
-        return_value_malloc$14=malloc((unsigned long int)chain_clen);
-        chain_cmem = (unsigned char *)return_value_malloc$14;
+        void *return_value_malloc_14;
+        return_value_malloc_14=malloc((unsigned long int)chain_clen);
+        chain_cmem = (unsigned char *)return_value_malloc_14;
         if(!(chain_cmem == ((unsigned char *)NULL)))
         {
           fstReaderFseeko(xc, xc->f, indx_pos, 0);
@@ -6558,12 +6558,12 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
             free((void *)chain_table);
             free((void *)chain_table_lengths);
             vc_maxhandle_largest = vc_maxhandle;
-            void *return_value_calloc$15;
-            return_value_calloc$15=calloc(vc_maxhandle + (unsigned long int)1, sizeof(signed long int) /*8ul*/ );
-            chain_table = (signed long int *)return_value_calloc$15;
-            void *return_value_calloc$16;
-            return_value_calloc$16=calloc(vc_maxhandle + (unsigned long int)1, sizeof(unsigned int) /*4ul*/ );
-            chain_table_lengths = (unsigned int *)return_value_calloc$16;
+            void *return_value_calloc_15;
+            return_value_calloc_15=calloc(vc_maxhandle + (unsigned long int)1, sizeof(signed long int) /*8ul*/ );
+            chain_table = (signed long int *)return_value_calloc_15;
+            void *return_value_calloc_16;
+            return_value_calloc_16=calloc(vc_maxhandle + (unsigned long int)1, sizeof(unsigned int) /*4ul*/ );
+            chain_table_lengths = (unsigned int *)return_value_calloc_16;
           }
 
           if(!(chain_table == ((signed long int *)NULL)) && !(chain_table_lengths == ((unsigned int *)NULL)))
@@ -6576,13 +6576,13 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
               unsigned int prev_alias = (unsigned int)0;
               do
               {
-                signed int fstReaderIterBlocks2$$1$$2$$1$$7$$1$$skiplen;
+                signed int fstReaderIterBlocks2__1__2__1__7__1__skiplen;
                 if(!((0x01 & (signed int)*pnt) == 0))
                 {
                   signed long int shval;
-                  signed long int return_value_fstGetSVarint64$17;
-                  return_value_fstGetSVarint64$17=fstGetSVarint64(pnt, &fstReaderIterBlocks2$$1$$2$$1$$7$$1$$skiplen);
-                  shval = return_value_fstGetSVarint64$17 >> 1;
+                  signed long int return_value_fstGetSVarint64_17;
+                  return_value_fstGetSVarint64_17=fstGetSVarint64(pnt, &fstReaderIterBlocks2__1__2__1__7__1__skiplen);
+                  shval = return_value_fstGetSVarint64_17 >> 1;
                   if(shval >= 1l)
                   {
                     chain_table[(signed long int)idx] = (signed long int)(pval + (unsigned long int)shval);
@@ -6590,9 +6590,9 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
                     if(!(idx == 0u))
                       chain_table_lengths[(signed long int)pidx] = (unsigned int)(pval - (unsigned long int)chain_table[(signed long int)pidx]);
 
-                    tmp_post$18 = idx;
+                    tmp_post_18 = idx;
                     idx = idx + 1u;
-                    pidx = tmp_post$18;
+                    pidx = tmp_post_18;
                   }
 
                   else
@@ -6614,20 +6614,20 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
 
                 else
                 {
-                  unsigned long int fstReaderIterBlocks2$$1$$2$$1$$7$$1$$2$$val;
-                  unsigned int return_value_fstGetVarint32$19;
-                  return_value_fstGetVarint32$19=fstGetVarint32(pnt, &fstReaderIterBlocks2$$1$$2$$1$$7$$1$$skiplen);
-                  fstReaderIterBlocks2$$1$$2$$1$$7$$1$$2$$val = (unsigned long int)return_value_fstGetVarint32$19;
-                  unsigned int fstReaderIterBlocks2$$1$$2$$1$$7$$1$$2$$loopcnt = (unsigned int)(fstReaderIterBlocks2$$1$$2$$1$$7$$1$$2$$val >> 1);
+                  unsigned long int fstReaderIterBlocks2__1__2__1__7__1__2__val;
+                  unsigned int return_value_fstGetVarint32_19;
+                  return_value_fstGetVarint32_19=fstGetVarint32(pnt, &fstReaderIterBlocks2__1__2__1__7__1__skiplen);
+                  fstReaderIterBlocks2__1__2__1__7__1__2__val = (unsigned long int)return_value_fstGetVarint32_19;
+                  unsigned int fstReaderIterBlocks2__1__2__1__7__1__2__loopcnt = (unsigned int)(fstReaderIterBlocks2__1__2__1__7__1__2__val >> 1);
                   i = (unsigned int)0;
-                  for( ; !(i >= fstReaderIterBlocks2$$1$$2$$1$$7$$1$$2$$loopcnt); i = i + 1u)
+                  for( ; !(i >= fstReaderIterBlocks2__1__2__1__7__1__2__loopcnt); i = i + 1u)
                   {
-                    tmp_post$20 = idx;
+                    tmp_post_20 = idx;
                     idx = idx + 1u;
-                    chain_table[(signed long int)tmp_post$20] = (signed long int)0;
+                    chain_table[(signed long int)tmp_post_20] = (signed long int)0;
                   }
                 }
-                pnt = pnt + (signed long int)fstReaderIterBlocks2$$1$$2$$1$$7$$1$$skiplen;
+                pnt = pnt + (signed long int)fstReaderIterBlocks2__1__2__1__7__1__skiplen;
               }
               while(!(pnt == chain_cmem + chain_clen));
             }
@@ -6635,47 +6635,47 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
             else
               do
               {
-                signed int fstReaderIterBlocks2$$1$$2$$1$$8$$1$$skiplen;
-                unsigned long int fstReaderIterBlocks2$$1$$2$$1$$8$$1$$val;
-                unsigned int return_value_fstGetVarint32$21;
-                return_value_fstGetVarint32$21=fstGetVarint32(pnt, &fstReaderIterBlocks2$$1$$2$$1$$8$$1$$skiplen);
-                fstReaderIterBlocks2$$1$$2$$1$$8$$1$$val = (unsigned long int)return_value_fstGetVarint32$21;
-                if(fstReaderIterBlocks2$$1$$2$$1$$8$$1$$val == 0ul)
+                signed int fstReaderIterBlocks2__1__2__1__8__1__skiplen;
+                unsigned long int fstReaderIterBlocks2__1__2__1__8__1__val;
+                unsigned int return_value_fstGetVarint32_21;
+                return_value_fstGetVarint32_21=fstGetVarint32(pnt, &fstReaderIterBlocks2__1__2__1__8__1__skiplen);
+                fstReaderIterBlocks2__1__2__1__8__1__val = (unsigned long int)return_value_fstGetVarint32_21;
+                if(fstReaderIterBlocks2__1__2__1__8__1__val == 0ul)
                 {
-                  pnt = pnt + (signed long int)fstReaderIterBlocks2$$1$$2$$1$$8$$1$$skiplen;
-                  unsigned int return_value_fstGetVarint32$22;
-                  return_value_fstGetVarint32$22=fstGetVarint32(pnt, &fstReaderIterBlocks2$$1$$2$$1$$8$$1$$skiplen);
-                  fstReaderIterBlocks2$$1$$2$$1$$8$$1$$val = (unsigned long int)return_value_fstGetVarint32$22;
+                  pnt = pnt + (signed long int)fstReaderIterBlocks2__1__2__1__8__1__skiplen;
+                  unsigned int return_value_fstGetVarint32_22;
+                  return_value_fstGetVarint32_22=fstGetVarint32(pnt, &fstReaderIterBlocks2__1__2__1__8__1__skiplen);
+                  fstReaderIterBlocks2__1__2__1__8__1__val = (unsigned long int)return_value_fstGetVarint32_22;
                   chain_table[(signed long int)idx] = (signed long int)0;
-                  chain_table_lengths[(signed long int)idx] = (unsigned int)-fstReaderIterBlocks2$$1$$2$$1$$8$$1$$val;
+                  chain_table_lengths[(signed long int)idx] = (unsigned int)-fstReaderIterBlocks2__1__2__1__8__1__val;
                   idx = idx + 1u;
                 }
 
                 else
-                  if(!((1ul & fstReaderIterBlocks2$$1$$2$$1$$8$$1$$val) == 0ul))
+                  if(!((1ul & fstReaderIterBlocks2__1__2__1__8__1__val) == 0ul))
                   {
-                    chain_table[(signed long int)idx] = (signed long int)(pval + (fstReaderIterBlocks2$$1$$2$$1$$8$$1$$val >> 1));
+                    chain_table[(signed long int)idx] = (signed long int)(pval + (fstReaderIterBlocks2__1__2__1__8__1__val >> 1));
                     pval = (unsigned long int)chain_table[(signed long int)idx];
                     if(!(idx == 0u))
                       chain_table_lengths[(signed long int)pidx] = (unsigned int)(pval - (unsigned long int)chain_table[(signed long int)pidx]);
 
-                    tmp_post$23 = idx;
+                    tmp_post_23 = idx;
                     idx = idx + 1u;
-                    pidx = tmp_post$23;
+                    pidx = tmp_post_23;
                   }
 
                   else
                   {
-                    unsigned int loopcnt = (unsigned int)(fstReaderIterBlocks2$$1$$2$$1$$8$$1$$val >> 1);
+                    unsigned int loopcnt = (unsigned int)(fstReaderIterBlocks2__1__2__1__8__1__val >> 1);
                     i = (unsigned int)0;
                     for( ; !(i >= loopcnt); i = i + 1u)
                     {
-                      tmp_post$24 = idx;
+                      tmp_post_24 = idx;
                       idx = idx + 1u;
-                      chain_table[(signed long int)tmp_post$24] = (signed long int)0;
+                      chain_table[(signed long int)tmp_post_24] = (signed long int)0;
                     }
                   }
-                pnt = pnt + (signed long int)fstReaderIterBlocks2$$1$$2$$1$$8$$1$$skiplen;
+                pnt = pnt + (signed long int)fstReaderIterBlocks2__1__2__1__8__1__skiplen;
               }
               while(!(pnt == chain_cmem + chain_clen));
             chain_table[(signed long int)idx] = indx_pos - vc_start;
@@ -6702,8 +6702,8 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
 
             }
             mc_mem_len = (unsigned int)16384;
-            return_value_malloc$25=malloc((unsigned long int)mc_mem_len);
-            mc_mem = (unsigned char *)return_value_malloc$25;
+            return_value_malloc_25=malloc((unsigned long int)mc_mem_len);
+            mc_mem = (unsigned char *)return_value_malloc_25;
             if(!(xc->maxhandle >= idx))
               idx = xc->maxhandle;
 
@@ -6715,7 +6715,7 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
                 signed int process_bit = (signed int)(i & (unsigned int)7);
                 if(!((1 << process_bit & (signed int)xc->process_mask[(signed long int)process_idx]) == 0))
                 {
-                  signed int fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$rc = 0;
+                  signed int fstReaderIterBlocks2__1__2__1__10__1__1__1__rc = 0;
                   unsigned int val;
                   unsigned int skiplen;
                   unsigned int tdelta;
@@ -6724,35 +6724,35 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
                   if(!(val == 0u))
                   {
                     unsigned char *mu = mem_for_traversal + (signed long int)traversal_mem_offs;
-                    unsigned char *fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$1$$mc;
-                    unsigned long int fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$1$$destlen = (unsigned long int)val;
-                    unsigned long int fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$1$$sourcelen = (unsigned long int)chain_table_lengths[(signed long int)i];
+                    unsigned char *fstReaderIterBlocks2__1__2__1__10__1__1__1__1__mc;
+                    unsigned long int fstReaderIterBlocks2__1__2__1__10__1__1__1__1__destlen = (unsigned long int)val;
+                    unsigned long int fstReaderIterBlocks2__1__2__1__10__1__1__1__1__sourcelen = (unsigned long int)chain_table_lengths[(signed long int)i];
                     if(!(mc_mem_len >= chain_table_lengths[(signed long int)i]))
                     {
                       free((void *)mc_mem);
                       mc_mem_len = chain_table_lengths[(signed long int)i];
-                      void *return_value_malloc$26;
-                      return_value_malloc$26=malloc((unsigned long int)mc_mem_len);
-                      mc_mem = (unsigned char *)return_value_malloc$26;
+                      void *return_value_malloc_26;
+                      return_value_malloc_26=malloc((unsigned long int)mc_mem_len);
+                      mc_mem = (unsigned char *)return_value_malloc_26;
                     }
 
-                    fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$1$$mc = mc_mem;
-                    fstFread((void *)fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$1$$mc, (unsigned long int)chain_table_lengths[(signed long int)i], (unsigned long int)1, xc->f);
+                    fstReaderIterBlocks2__1__2__1__10__1__1__1__1__mc = mc_mem;
+                    fstFread((void *)fstReaderIterBlocks2__1__2__1__10__1__1__1__1__mc, (unsigned long int)chain_table_lengths[(signed long int)i], (unsigned long int)1, xc->f);
                     switch(packtype)
                     {
                       case 52:
                       {
-                        return_value_LZ4_decompress_safe_partial$27=LZ4_decompress_safe_partial((char *)fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$1$$mc, (char *)mu, (signed int)fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$1$$sourcelen, (signed int)fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$1$$destlen, (signed int)fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$1$$destlen);
-                        fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$rc = fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$1$$destlen == (unsigned long int)return_value_LZ4_decompress_safe_partial$27 ? 0 : -3;
+                        return_value_LZ4_decompress_safe_partial_27=LZ4_decompress_safe_partial((char *)fstReaderIterBlocks2__1__2__1__10__1__1__1__1__mc, (char *)mu, (signed int)fstReaderIterBlocks2__1__2__1__10__1__1__1__1__sourcelen, (signed int)fstReaderIterBlocks2__1__2__1__10__1__1__1__1__destlen, (signed int)fstReaderIterBlocks2__1__2__1__10__1__1__1__1__destlen);
+                        fstReaderIterBlocks2__1__2__1__10__1__1__1__rc = fstReaderIterBlocks2__1__2__1__10__1__1__1__1__destlen == (unsigned long int)return_value_LZ4_decompress_safe_partial_27 ? 0 : -3;
                         break;
                       }
                       case 70:
                       {
-                        fastlz_decompress((const void *)fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$1$$mc, (signed int)fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$1$$sourcelen, (void *)mu, (signed int)fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$1$$destlen);
+                        fastlz_decompress((const void *)fstReaderIterBlocks2__1__2__1__10__1__1__1__1__mc, (signed int)fstReaderIterBlocks2__1__2__1__10__1__1__1__1__sourcelen, (void *)mu, (signed int)fstReaderIterBlocks2__1__2__1__10__1__1__1__1__destlen);
                         break;
                       }
                       default:
-                        fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$rc=uncompress(mu, &fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$1$$destlen, fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$1$$mc, fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$1$$sourcelen);
+                        fstReaderIterBlocks2__1__2__1__10__1__1__1__rc=uncompress(mu, &fstReaderIterBlocks2__1__2__1__10__1__1__1__1__destlen, fstReaderIterBlocks2__1__2__1__10__1__1__1__1__mc, fstReaderIterBlocks2__1__2__1__10__1__1__1__1__sourcelen);
                     }
                     headptr[(signed long int)i] = traversal_mem_offs;
                     length_remaining[(signed long int)i] = val;
@@ -6761,16 +6761,16 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
 
                   else
                   {
-                    signed int fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$2$$destlen = (signed int)(chain_table_lengths[(signed long int)i] - skiplen);
-                    unsigned char *fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$2$$mu = mem_for_traversal + (signed long int)traversal_mem_offs;
-                    fstFread((void *)fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$2$$mu, (unsigned long int)fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$2$$destlen, (unsigned long int)1, xc->f);
+                    signed int fstReaderIterBlocks2__1__2__1__10__1__1__1__2__destlen = (signed int)(chain_table_lengths[(signed long int)i] - skiplen);
+                    unsigned char *fstReaderIterBlocks2__1__2__1__10__1__1__1__2__mu = mem_for_traversal + (signed long int)traversal_mem_offs;
+                    fstFread((void *)fstReaderIterBlocks2__1__2__1__10__1__1__1__2__mu, (unsigned long int)fstReaderIterBlocks2__1__2__1__10__1__1__1__2__destlen, (unsigned long int)1, xc->f);
                     headptr[(signed long int)i] = traversal_mem_offs;
-                    length_remaining[(signed long int)i] = (unsigned int)fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$2$$destlen;
-                    traversal_mem_offs = traversal_mem_offs + (unsigned int)fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$2$$destlen;
+                    length_remaining[(signed long int)i] = (unsigned int)fstReaderIterBlocks2__1__2__1__10__1__1__1__2__destlen;
+                    traversal_mem_offs = traversal_mem_offs + (unsigned int)fstReaderIterBlocks2__1__2__1__10__1__1__1__2__destlen;
                   }
-                  if(!(fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$rc == 0))
+                  if(!(fstReaderIterBlocks2__1__2__1__10__1__1__1__rc == 0))
                   {
-                    printf("\tfac: %d clen: %d (rc=%d)\n", (signed int)i, (signed int)val, fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$rc);
+                    printf("\tfac: %d clen: %d (rc=%d)\n", (signed int)i, (signed int)val, fstReaderIterBlocks2__1__2__1__10__1__1__1__rc);
                     exit(255);
                   }
 
@@ -6784,9 +6784,9 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
 
                   else
                   {
-                    unsigned int fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$5$$vli;
-                    fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$5$$vli=fstGetVarint32NoSkip(mem_for_traversal + (signed long int)headptr[(signed long int)i]);
-                    tdelta = fstReaderIterBlocks2$$1$$2$$1$$10$$1$$1$$1$$5$$vli >> 1;
+                    unsigned int fstReaderIterBlocks2__1__2__1__10__1__1__1__5__vli;
+                    fstReaderIterBlocks2__1__2__1__10__1__1__1__5__vli=fstGetVarint32NoSkip(mem_for_traversal + (signed long int)headptr[(signed long int)i]);
+                    tdelta = fstReaderIterBlocks2__1__2__1__10__1__1__1__5__vli >> 1;
                   }
                   scatterptr[(signed long int)i] = tc_head[(signed long int)tdelta];
                   tc_head[(signed long int)tdelta] = i + (unsigned int)1;
@@ -6798,14 +6798,14 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
             i = (unsigned int)0;
             for( ; !((unsigned long int)i >= tsec_nitems); i = i + 1u)
             {
-              unsigned int fstReaderIterBlocks2$$1$$2$$1$$11$$1$$tdelta;
-              signed int fstReaderIterBlocks2$$1$$2$$1$$11$$1$$skiplen;
+              unsigned int fstReaderIterBlocks2__1__2__1__11__1__tdelta;
+              signed int fstReaderIterBlocks2__1__2__1__11__1__skiplen;
               signed int skiplen2;
-              unsigned int fstReaderIterBlocks2$$1$$2$$1$$11$$1$$vli;
+              unsigned int fstReaderIterBlocks2__1__2__1__11__1__vli;
               if(!(fv == ((struct _IO_FILE *)NULL)))
               {
-                char fstReaderIterBlocks2$$1$$2$$1$$11$$1$$1$$wx_buf[32l];
-                signed int fstReaderIterBlocks2$$1$$2$$1$$11$$1$$1$$wx_len;
+                char fstReaderIterBlocks2__1__2__1__11__1__1__wx_buf[32l];
+                signed int fstReaderIterBlocks2__1__2__1__11__1__1__wx_len;
                 if(!(time_table[(signed long int)i] == previous_time))
                 {
                   if(!(xc->limit_range_valid == 0u))
@@ -6815,18 +6815,18 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
 
                   }
 
-                  fstReaderIterBlocks2$$1$$2$$1$$11$$1$$1$$wx_len=sprintf(fstReaderIterBlocks2$$1$$2$$1$$11$$1$$1$$wx_buf, "#%lu\n", time_table[(signed long int)i]);
-                  fstWritex(xc, (void *)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$1$$wx_buf, fstReaderIterBlocks2$$1$$2$$1$$11$$1$$1$$wx_len);
+                  fstReaderIterBlocks2__1__2__1__11__1__1__wx_len=sprintf(fstReaderIterBlocks2__1__2__1__11__1__1__wx_buf, "#%lu\n", time_table[(signed long int)i]);
+                  fstWritex(xc, (void *)fstReaderIterBlocks2__1__2__1__11__1__1__wx_buf, fstReaderIterBlocks2__1__2__1__11__1__1__wx_len);
                   if(!(xc->num_blackouts == 0u))
                   {
                     if(!(cur_blackout == xc->num_blackouts))
                     {
                       if(time_table[(signed long int)i] == xc->blackout_times[(signed long int)cur_blackout])
                       {
-                        tmp_post$28 = cur_blackout;
+                        tmp_post_28 = cur_blackout;
                         cur_blackout = cur_blackout + 1u;
-                        fstReaderIterBlocks2$$1$$2$$1$$11$$1$$1$$wx_len=sprintf(fstReaderIterBlocks2$$1$$2$$1$$11$$1$$1$$wx_buf, "$dump%s $end\n", xc->blackout_activity[(signed long int)tmp_post$28] != 0 ? "on" : "off");
-                        fstWritex(xc, (void *)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$1$$wx_buf, fstReaderIterBlocks2$$1$$2$$1$$11$$1$$1$$wx_len);
+                        fstReaderIterBlocks2__1__2__1__11__1__1__wx_len=sprintf(fstReaderIterBlocks2__1__2__1__11__1__1__wx_buf, "_dump%s _end\n", xc->blackout_activity[(signed long int)tmp_post_28] != 0 ? "on" : "off");
+                        fstWritex(xc, (void *)fstReaderIterBlocks2__1__2__1__11__1__1__wx_buf, fstReaderIterBlocks2__1__2__1__11__1__1__wx_len);
                       }
 
                     }
@@ -6841,20 +6841,20 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
               while(!(tc_head[(signed long int)i] == 0u))
               {
                 idx = tc_head[(signed long int)i] - (unsigned int)1;
-                fstReaderIterBlocks2$$1$$2$$1$$11$$1$$vli=fstGetVarint32(mem_for_traversal + (signed long int)headptr[(signed long int)idx], &fstReaderIterBlocks2$$1$$2$$1$$11$$1$$skiplen);
+                fstReaderIterBlocks2__1__2__1__11__1__vli=fstGetVarint32(mem_for_traversal + (signed long int)headptr[(signed long int)idx], &fstReaderIterBlocks2__1__2__1__11__1__skiplen);
                 if(!(xc->signal_lens[(signed long int)idx] >= 2u))
                 {
                   if(xc->signal_lens[(signed long int)idx] == 1u)
                   {
-                    unsigned char fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$1$$val;
-                    if((1u & fstReaderIterBlocks2$$1$$2$$1$$11$$1$$vli) == 0u)
-                      fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$1$$val = (unsigned char)(fstReaderIterBlocks2$$1$$2$$1$$11$$1$$vli >> 1 & (unsigned int)1 | (unsigned int)48);
+                    unsigned char fstReaderIterBlocks2__1__2__1__11__1__2__1__1__val;
+                    if((1u & fstReaderIterBlocks2__1__2__1__11__1__vli) == 0u)
+                      fstReaderIterBlocks2__1__2__1__11__1__2__1__1__val = (unsigned char)(fstReaderIterBlocks2__1__2__1__11__1__vli >> 1 & (unsigned int)1 | (unsigned int)48);
 
                     else
-                      fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$1$$val = (unsigned char)"xzhuwl-?"[(signed long int)(fstReaderIterBlocks2$$1$$2$$1$$11$$1$$vli >> 1 & (unsigned int)7)];
+                      fstReaderIterBlocks2__1__2__1__11__1__2__1__1__val = (unsigned char)"xzhuwl-?"[(signed long int)(fstReaderIterBlocks2__1__2__1__11__1__vli >> 1 & (unsigned int)7)];
                     if(!(value_change_callback == ((void (*)(void *, unsigned long int, unsigned int, const unsigned char *))NULL)))
                     {
-                      xc->temp_signal_value_buf[(signed long int)0] = fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$1$$val;
+                      xc->temp_signal_value_buf[(signed long int)0] = fstReaderIterBlocks2__1__2__1__11__1__2__1__1__val;
                       xc->temp_signal_value_buf[(signed long int)1] = (unsigned char)0;
                       value_change_callback(user_callback_data_pointer, time_table[(signed long int)i], idx + (unsigned int)1, xc->temp_signal_value_buf);
                     }
@@ -6862,26 +6862,26 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
                     else
                       if(!(fv == ((struct _IO_FILE *)NULL)))
                       {
-                        char fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$1$$4$$1$$vcd_id[16l];
-                        signed int fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$1$$4$$1$$vcdid_len;
-                        fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$1$$4$$1$$vcdid_len=fstVcdIDForFwrite(fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$1$$4$$1$$vcd_id + (signed long int)1, idx + (unsigned int)1);
-                        fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$1$$4$$1$$vcd_id[(signed long int)0] = (char)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$1$$val;
-                        fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$1$$4$$1$$vcd_id[(signed long int)(fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$1$$4$$1$$vcdid_len + 1)] = (char)10;
-                        fstWritex(xc, (void *)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$1$$4$$1$$vcd_id, fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$1$$4$$1$$vcdid_len + 2);
+                        char fstReaderIterBlocks2__1__2__1__11__1__2__1__1__4__1__vcd_id[16l];
+                        signed int fstReaderIterBlocks2__1__2__1__11__1__2__1__1__4__1__vcdid_len;
+                        fstReaderIterBlocks2__1__2__1__11__1__2__1__1__4__1__vcdid_len=fstVcdIDForFwrite(fstReaderIterBlocks2__1__2__1__11__1__2__1__1__4__1__vcd_id + (signed long int)1, idx + (unsigned int)1);
+                        fstReaderIterBlocks2__1__2__1__11__1__2__1__1__4__1__vcd_id[(signed long int)0] = (char)fstReaderIterBlocks2__1__2__1__11__1__2__1__1__val;
+                        fstReaderIterBlocks2__1__2__1__11__1__2__1__1__4__1__vcd_id[(signed long int)(fstReaderIterBlocks2__1__2__1__11__1__2__1__1__4__1__vcdid_len + 1)] = (char)10;
+                        fstWritex(xc, (void *)fstReaderIterBlocks2__1__2__1__11__1__2__1__1__4__1__vcd_id, fstReaderIterBlocks2__1__2__1__11__1__2__1__1__4__1__vcdid_len + 2);
                       }
 
-                    headptr[(signed long int)idx] = headptr[(signed long int)idx] + (unsigned int)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$skiplen;
-                    length_remaining[(signed long int)idx] = length_remaining[(signed long int)idx] - (unsigned int)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$skiplen;
+                    headptr[(signed long int)idx] = headptr[(signed long int)idx] + (unsigned int)fstReaderIterBlocks2__1__2__1__11__1__skiplen;
+                    length_remaining[(signed long int)idx] = length_remaining[(signed long int)idx] - (unsigned int)fstReaderIterBlocks2__1__2__1__11__1__skiplen;
                     tc_head[(signed long int)i] = scatterptr[(signed long int)idx];
                     scatterptr[(signed long int)idx] = (unsigned int)0;
                     if(!(length_remaining[(signed long int)idx] == 0u))
                     {
                       signed int shamt;
-                      fstReaderIterBlocks2$$1$$2$$1$$11$$1$$vli=fstGetVarint32NoSkip(mem_for_traversal + (signed long int)headptr[(signed long int)idx]);
-                      shamt = 2 << (fstReaderIterBlocks2$$1$$2$$1$$11$$1$$vli & (unsigned int)1);
-                      fstReaderIterBlocks2$$1$$2$$1$$11$$1$$tdelta = fstReaderIterBlocks2$$1$$2$$1$$11$$1$$vli >> shamt;
-                      scatterptr[(signed long int)idx] = tc_head[(signed long int)(i + fstReaderIterBlocks2$$1$$2$$1$$11$$1$$tdelta)];
-                      tc_head[(signed long int)(i + fstReaderIterBlocks2$$1$$2$$1$$11$$1$$tdelta)] = idx + (unsigned int)1;
+                      fstReaderIterBlocks2__1__2__1__11__1__vli=fstGetVarint32NoSkip(mem_for_traversal + (signed long int)headptr[(signed long int)idx]);
+                      shamt = 2 << (fstReaderIterBlocks2__1__2__1__11__1__vli & (unsigned int)1);
+                      fstReaderIterBlocks2__1__2__1__11__1__tdelta = fstReaderIterBlocks2__1__2__1__11__1__vli >> shamt;
+                      scatterptr[(signed long int)idx] = tc_head[(signed long int)(i + fstReaderIterBlocks2__1__2__1__11__1__tdelta)];
+                      tc_head[(signed long int)(i + fstReaderIterBlocks2__1__2__1__11__1__tdelta)] = idx + (unsigned int)1;
                     }
 
                   }
@@ -6889,50 +6889,50 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
                   else
                   {
                     unsigned char *vdata;
-                    unsigned int fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$2$$len;
-                    fstReaderIterBlocks2$$1$$2$$1$$11$$1$$vli=fstGetVarint32(mem_for_traversal + (signed long int)headptr[(signed long int)idx], &fstReaderIterBlocks2$$1$$2$$1$$11$$1$$skiplen);
-                    fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$2$$len=fstGetVarint32(mem_for_traversal + (signed long int)headptr[(signed long int)idx] + (signed long int)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$skiplen, &skiplen2);
-                    fstReaderIterBlocks2$$1$$2$$1$$11$$1$$skiplen = fstReaderIterBlocks2$$1$$2$$1$$11$$1$$skiplen + skiplen2;
-                    vdata = mem_for_traversal + (signed long int)headptr[(signed long int)idx] + (signed long int)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$skiplen;
-                    if((1u & fstReaderIterBlocks2$$1$$2$$1$$11$$1$$vli) == 0u)
+                    unsigned int fstReaderIterBlocks2__1__2__1__11__1__2__1__2__len;
+                    fstReaderIterBlocks2__1__2__1__11__1__vli=fstGetVarint32(mem_for_traversal + (signed long int)headptr[(signed long int)idx], &fstReaderIterBlocks2__1__2__1__11__1__skiplen);
+                    fstReaderIterBlocks2__1__2__1__11__1__2__1__2__len=fstGetVarint32(mem_for_traversal + (signed long int)headptr[(signed long int)idx] + (signed long int)fstReaderIterBlocks2__1__2__1__11__1__skiplen, &skiplen2);
+                    fstReaderIterBlocks2__1__2__1__11__1__skiplen = fstReaderIterBlocks2__1__2__1__11__1__skiplen + skiplen2;
+                    vdata = mem_for_traversal + (signed long int)headptr[(signed long int)idx] + (signed long int)fstReaderIterBlocks2__1__2__1__11__1__skiplen;
+                    if((1u & fstReaderIterBlocks2__1__2__1__11__1__vli) == 0u)
                     {
                       if(!(value_change_callback_varlen == ((void (*)(void *, unsigned long int, unsigned int, const unsigned char *, unsigned int))NULL)))
-                        value_change_callback_varlen(user_callback_data_pointer, time_table[(signed long int)i], idx + (unsigned int)1, vdata, fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$2$$len);
+                        value_change_callback_varlen(user_callback_data_pointer, time_table[(signed long int)i], idx + (unsigned int)1, vdata, fstReaderIterBlocks2__1__2__1__11__1__2__1__2__len);
 
                       else
                         if(!(fv == ((struct _IO_FILE *)NULL)))
                         {
-                          char fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$2$$1$$2$$1$$vcd_id[16l];
-                          signed int fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$2$$1$$2$$1$$vcdid_len;
-                          fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$2$$1$$2$$1$$vcd_id[(signed long int)0] = (char)115;
-                          fstWritex(xc, (void *)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$2$$1$$2$$1$$vcd_id, 1);
-                          fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$2$$1$$2$$1$$vcdid_len=fstVcdIDForFwrite(fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$2$$1$$2$$1$$vcd_id + (signed long int)1, idx + (unsigned int)1);
+                          char fstReaderIterBlocks2__1__2__1__11__1__2__1__2__1__2__1__vcd_id[16l];
+                          signed int fstReaderIterBlocks2__1__2__1__11__1__2__1__2__1__2__1__vcdid_len;
+                          fstReaderIterBlocks2__1__2__1__11__1__2__1__2__1__2__1__vcd_id[(signed long int)0] = (char)115;
+                          fstWritex(xc, (void *)fstReaderIterBlocks2__1__2__1__11__1__2__1__2__1__2__1__vcd_id, 1);
+                          fstReaderIterBlocks2__1__2__1__11__1__2__1__2__1__2__1__vcdid_len=fstVcdIDForFwrite(fstReaderIterBlocks2__1__2__1__11__1__2__1__2__1__2__1__vcd_id + (signed long int)1, idx + (unsigned int)1);
                           unsigned char *vesc;
-                          void *return_value_malloc$29;
-                          return_value_malloc$29=malloc((unsigned long int)(fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$2$$len * (unsigned int)4 + (unsigned int)1));
-                          vesc = (unsigned char *)return_value_malloc$29;
+                          void *return_value_malloc_29;
+                          return_value_malloc_29=malloc((unsigned long int)(fstReaderIterBlocks2__1__2__1__11__1__2__1__2__len * (unsigned int)4 + (unsigned int)1));
+                          vesc = (unsigned char *)return_value_malloc_29;
                           signed int vlen;
-                          vlen=fstUtilityBinToEsc(vesc, vdata, (signed int)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$2$$len);
+                          vlen=fstUtilityBinToEsc(vesc, vdata, (signed int)fstReaderIterBlocks2__1__2__1__11__1__2__1__2__len);
                           fstWritex(xc, (void *)vesc, vlen);
                           free((void *)vesc);
-                          fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$2$$1$$2$$1$$vcd_id[(signed long int)0] = (char)32;
-                          fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$2$$1$$2$$1$$vcd_id[(signed long int)(fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$2$$1$$2$$1$$vcdid_len + 1)] = (char)10;
-                          fstWritex(xc, (void *)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$2$$1$$2$$1$$vcd_id, fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$2$$1$$2$$1$$vcdid_len + 2);
+                          fstReaderIterBlocks2__1__2__1__11__1__2__1__2__1__2__1__vcd_id[(signed long int)0] = (char)32;
+                          fstReaderIterBlocks2__1__2__1__11__1__2__1__2__1__2__1__vcd_id[(signed long int)(fstReaderIterBlocks2__1__2__1__11__1__2__1__2__1__2__1__vcdid_len + 1)] = (char)10;
+                          fstWritex(xc, (void *)fstReaderIterBlocks2__1__2__1__11__1__2__1__2__1__2__1__vcd_id, fstReaderIterBlocks2__1__2__1__11__1__2__1__2__1__2__1__vcdid_len + 2);
                         }
 
                     }
 
-                    fstReaderIterBlocks2$$1$$2$$1$$11$$1$$skiplen = fstReaderIterBlocks2$$1$$2$$1$$11$$1$$skiplen + (signed int)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$1$$2$$len;
-                    headptr[(signed long int)idx] = headptr[(signed long int)idx] + (unsigned int)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$skiplen;
-                    length_remaining[(signed long int)idx] = length_remaining[(signed long int)idx] - (unsigned int)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$skiplen;
+                    fstReaderIterBlocks2__1__2__1__11__1__skiplen = fstReaderIterBlocks2__1__2__1__11__1__skiplen + (signed int)fstReaderIterBlocks2__1__2__1__11__1__2__1__2__len;
+                    headptr[(signed long int)idx] = headptr[(signed long int)idx] + (unsigned int)fstReaderIterBlocks2__1__2__1__11__1__skiplen;
+                    length_remaining[(signed long int)idx] = length_remaining[(signed long int)idx] - (unsigned int)fstReaderIterBlocks2__1__2__1__11__1__skiplen;
                     tc_head[(signed long int)i] = scatterptr[(signed long int)idx];
                     scatterptr[(signed long int)idx] = (unsigned int)0;
                     if(!(length_remaining[(signed long int)idx] == 0u))
                     {
-                      fstReaderIterBlocks2$$1$$2$$1$$11$$1$$vli=fstGetVarint32NoSkip(mem_for_traversal + (signed long int)headptr[(signed long int)idx]);
-                      fstReaderIterBlocks2$$1$$2$$1$$11$$1$$tdelta = fstReaderIterBlocks2$$1$$2$$1$$11$$1$$vli >> 1;
-                      scatterptr[(signed long int)idx] = tc_head[(signed long int)(i + fstReaderIterBlocks2$$1$$2$$1$$11$$1$$tdelta)];
-                      tc_head[(signed long int)(i + fstReaderIterBlocks2$$1$$2$$1$$11$$1$$tdelta)] = idx + (unsigned int)1;
+                      fstReaderIterBlocks2__1__2__1__11__1__vli=fstGetVarint32NoSkip(mem_for_traversal + (signed long int)headptr[(signed long int)idx]);
+                      fstReaderIterBlocks2__1__2__1__11__1__tdelta = fstReaderIterBlocks2__1__2__1__11__1__vli >> 1;
+                      scatterptr[(signed long int)idx] = tc_head[(signed long int)(i + fstReaderIterBlocks2__1__2__1__11__1__tdelta)];
+                      tc_head[(signed long int)(i + fstReaderIterBlocks2__1__2__1__11__1__tdelta)] = idx + (unsigned int)1;
                     }
 
                   }
@@ -6941,25 +6941,25 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
                 else
                 {
                   unsigned int len = xc->signal_lens[(signed long int)idx];
-                  unsigned char *fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$vdata;
-                  fstReaderIterBlocks2$$1$$2$$1$$11$$1$$vli=fstGetVarint32(mem_for_traversal + (signed long int)headptr[(signed long int)idx], &fstReaderIterBlocks2$$1$$2$$1$$11$$1$$skiplen);
-                  fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$vdata = mem_for_traversal + (signed long int)headptr[(signed long int)idx] + (signed long int)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$skiplen;
+                  unsigned char *fstReaderIterBlocks2__1__2__1__11__1__2__2__vdata;
+                  fstReaderIterBlocks2__1__2__1__11__1__vli=fstGetVarint32(mem_for_traversal + (signed long int)headptr[(signed long int)idx], &fstReaderIterBlocks2__1__2__1__11__1__skiplen);
+                  fstReaderIterBlocks2__1__2__1__11__1__2__2__vdata = mem_for_traversal + (signed long int)headptr[(signed long int)idx] + (signed long int)fstReaderIterBlocks2__1__2__1__11__1__skiplen;
                   if(!((signed int)xc->signal_typs[(signed long int)idx] == FST_VT_VCD_REAL))
                   {
-                    if((1u & fstReaderIterBlocks2$$1$$2$$1$$11$$1$$vli) == 0u)
+                    if((1u & fstReaderIterBlocks2__1__2__1__11__1__vli) == 0u)
                     {
                       signed int byte = 0;
                       signed int bit;
-                      unsigned int fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$1$$1$$j = (unsigned int)0;
-                      for( ; !(fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$1$$1$$j >= len); fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$1$$1$$j = fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$1$$1$$j + 1u)
+                      unsigned int fstReaderIterBlocks2__1__2__1__11__1__2__2__1__1__j = (unsigned int)0;
+                      for( ; !(fstReaderIterBlocks2__1__2__1__11__1__2__2__1__1__j >= len); fstReaderIterBlocks2__1__2__1__11__1__2__2__1__1__j = fstReaderIterBlocks2__1__2__1__11__1__2__2__1__1__j + 1u)
                       {
                         unsigned char ch;
-                        byte = (signed int)(fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$1$$1$$j / (unsigned int)8);
-                        bit = (signed int)((unsigned int)7 - (fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$1$$1$$j & (unsigned int)7));
-                        ch = (unsigned char)((signed int)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$vdata[(signed long int)byte] >> bit & 1 | 48);
-                        xc->temp_signal_value_buf[(signed long int)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$1$$1$$j] = ch;
+                        byte = (signed int)(fstReaderIterBlocks2__1__2__1__11__1__2__2__1__1__j / (unsigned int)8);
+                        bit = (signed int)((unsigned int)7 - (fstReaderIterBlocks2__1__2__1__11__1__2__2__1__1__j & (unsigned int)7));
+                        ch = (unsigned char)((signed int)fstReaderIterBlocks2__1__2__1__11__1__2__2__vdata[(signed long int)byte] >> bit & 1 | 48);
+                        xc->temp_signal_value_buf[(signed long int)fstReaderIterBlocks2__1__2__1__11__1__2__2__1__1__j] = ch;
                       }
-                      xc->temp_signal_value_buf[(signed long int)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$1$$1$$j] = (unsigned char)0;
+                      xc->temp_signal_value_buf[(signed long int)fstReaderIterBlocks2__1__2__1__11__1__2__2__1__1__j] = (unsigned char)0;
                       if(!(value_change_callback == ((void (*)(void *, unsigned long int, unsigned int, const unsigned char *))NULL)))
                         value_change_callback(user_callback_data_pointer, time_table[(signed long int)i], idx + (unsigned int)1, xc->temp_signal_value_buf);
 
@@ -6977,7 +6977,7 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
                     else
                       if(!(value_change_callback == ((void (*)(void *, unsigned long int, unsigned int, const unsigned char *))NULL)))
                       {
-                        memcpy((void *)xc->temp_signal_value_buf, (const void *)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$vdata, (unsigned long int)len);
+                        memcpy((void *)xc->temp_signal_value_buf, (const void *)fstReaderIterBlocks2__1__2__1__11__1__2__2__vdata, (unsigned long int)len);
                         xc->temp_signal_value_buf[(signed long int)len] = (unsigned char)0;
                         value_change_callback(user_callback_data_pointer, time_table[(signed long int)i], idx + (unsigned int)1, xc->temp_signal_value_buf);
                       }
@@ -6985,67 +6985,67 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
                       else
                         if(!(fv == ((struct _IO_FILE *)NULL)))
                         {
-                          unsigned char fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$1$$2$$2$$1$$ch_bp = (unsigned char)((signed int)xc->signal_typs[(signed long int)idx] != FST_VT_VCD_PORT ? 98 : 112);
-                          fstWritex(xc, (void *)&fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$1$$2$$2$$1$$ch_bp, 1);
-                          fstWritex(xc, (void *)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$vdata, (signed int)len);
+                          unsigned char fstReaderIterBlocks2__1__2__1__11__1__2__2__1__2__2__1__ch_bp = (unsigned char)((signed int)xc->signal_typs[(signed long int)idx] != FST_VT_VCD_PORT ? 98 : 112);
+                          fstWritex(xc, (void *)&fstReaderIterBlocks2__1__2__1__11__1__2__2__1__2__2__1__ch_bp, 1);
+                          fstWritex(xc, (void *)fstReaderIterBlocks2__1__2__1__11__1__2__2__vdata, (signed int)len);
                         }
 
                   }
 
                   else
                   {
-                    double fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$d;
+                    double fstReaderIterBlocks2__1__2__1__11__1__2__2__2__d;
                     unsigned char *clone_d;
                     unsigned char buf[8l];
-                    unsigned char *fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$srcdata;
-                    if((1u & fstReaderIterBlocks2$$1$$2$$1$$11$$1$$vli) == 0u)
+                    unsigned char *fstReaderIterBlocks2__1__2__1__11__1__2__2__2__srcdata;
+                    if((1u & fstReaderIterBlocks2__1__2__1__11__1__vli) == 0u)
                     {
-                      signed int fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$1$$bit;
-                      signed int fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$1$$j = 0;
-                      for( ; !(fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$1$$j >= 8); fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$1$$j = fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$1$$j + 1)
+                      signed int fstReaderIterBlocks2__1__2__1__11__1__2__2__2__1__bit;
+                      signed int fstReaderIterBlocks2__1__2__1__11__1__2__2__2__1__j = 0;
+                      for( ; !(fstReaderIterBlocks2__1__2__1__11__1__2__2__2__1__j >= 8); fstReaderIterBlocks2__1__2__1__11__1__2__2__2__1__j = fstReaderIterBlocks2__1__2__1__11__1__2__2__2__1__j + 1)
                       {
-                        unsigned char fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$1$$1$$1$$ch;
-                        fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$1$$bit = 7 - (fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$1$$j & 7);
-                        fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$1$$1$$1$$ch = (unsigned char)((signed int)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$vdata[(signed long int)0] >> fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$1$$bit & 1 | 48);
-                        buf[(signed long int)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$1$$j] = fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$1$$1$$1$$ch;
+                        unsigned char fstReaderIterBlocks2__1__2__1__11__1__2__2__2__1__1__1__ch;
+                        fstReaderIterBlocks2__1__2__1__11__1__2__2__2__1__bit = 7 - (fstReaderIterBlocks2__1__2__1__11__1__2__2__2__1__j & 7);
+                        fstReaderIterBlocks2__1__2__1__11__1__2__2__2__1__1__1__ch = (unsigned char)((signed int)fstReaderIterBlocks2__1__2__1__11__1__2__2__vdata[(signed long int)0] >> fstReaderIterBlocks2__1__2__1__11__1__2__2__2__1__bit & 1 | 48);
+                        buf[(signed long int)fstReaderIterBlocks2__1__2__1__11__1__2__2__2__1__j] = fstReaderIterBlocks2__1__2__1__11__1__2__2__2__1__1__1__ch;
                       }
                       len = (unsigned int)1;
-                      fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$srcdata = buf;
+                      fstReaderIterBlocks2__1__2__1__11__1__2__2__2__srcdata = buf;
                     }
 
                     else
-                      fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$srcdata = fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$vdata;
+                      fstReaderIterBlocks2__1__2__1__11__1__2__2__2__srcdata = fstReaderIterBlocks2__1__2__1__11__1__2__2__vdata;
                     if(!(value_change_callback == ((void (*)(void *, unsigned long int, unsigned int, const unsigned char *))NULL)))
                     {
                       if(!(xc->native_doubles_for_cb == 0u))
                       {
                         if(!(xc->double_endian_match == 0u))
-                          clone_d = fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$srcdata;
+                          clone_d = fstReaderIterBlocks2__1__2__1__11__1__2__2__2__srcdata;
 
                         else
                         {
-                          signed int fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$3$$1$$2$$j;
-                          clone_d = (unsigned char *)&fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$d;
-                          fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$3$$1$$2$$j = 0;
-                          for( ; !(fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$3$$1$$2$$j >= 8); fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$3$$1$$2$$j = fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$3$$1$$2$$j + 1)
-                            clone_d[(signed long int)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$3$$1$$2$$j] = fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$srcdata[(signed long int)(7 - fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$3$$1$$2$$j)];
+                          signed int fstReaderIterBlocks2__1__2__1__11__1__2__2__2__3__1__2__j;
+                          clone_d = (unsigned char *)&fstReaderIterBlocks2__1__2__1__11__1__2__2__2__d;
+                          fstReaderIterBlocks2__1__2__1__11__1__2__2__2__3__1__2__j = 0;
+                          for( ; !(fstReaderIterBlocks2__1__2__1__11__1__2__2__2__3__1__2__j >= 8); fstReaderIterBlocks2__1__2__1__11__1__2__2__2__3__1__2__j = fstReaderIterBlocks2__1__2__1__11__1__2__2__2__3__1__2__j + 1)
+                            clone_d[(signed long int)fstReaderIterBlocks2__1__2__1__11__1__2__2__2__3__1__2__j] = fstReaderIterBlocks2__1__2__1__11__1__2__2__2__srcdata[(signed long int)(7 - fstReaderIterBlocks2__1__2__1__11__1__2__2__2__3__1__2__j)];
                         }
                         value_change_callback(user_callback_data_pointer, time_table[(signed long int)i], idx + (unsigned int)1, clone_d);
                       }
 
                       else
                       {
-                        clone_d = (unsigned char *)&fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$d;
+                        clone_d = (unsigned char *)&fstReaderIterBlocks2__1__2__1__11__1__2__2__2__d;
                         if(!(xc->double_endian_match == 0u))
-                          memcpy((void *)clone_d, (const void *)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$srcdata, (unsigned long int)8);
+                          memcpy((void *)clone_d, (const void *)fstReaderIterBlocks2__1__2__1__11__1__2__2__2__srcdata, (unsigned long int)8);
 
                         else
                         {
-                          signed int fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$3$$2$$2$$j = 0;
-                          for( ; !(fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$3$$2$$2$$j >= 8); fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$3$$2$$2$$j = fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$3$$2$$2$$j + 1)
-                            clone_d[(signed long int)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$3$$2$$2$$j] = fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$srcdata[(signed long int)(7 - fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$3$$2$$2$$j)];
+                          signed int fstReaderIterBlocks2__1__2__1__11__1__2__2__2__3__2__2__j = 0;
+                          for( ; !(fstReaderIterBlocks2__1__2__1__11__1__2__2__2__3__2__2__j >= 8); fstReaderIterBlocks2__1__2__1__11__1__2__2__2__3__2__2__j = fstReaderIterBlocks2__1__2__1__11__1__2__2__2__3__2__2__j + 1)
+                            clone_d[(signed long int)fstReaderIterBlocks2__1__2__1__11__1__2__2__2__3__2__2__j] = fstReaderIterBlocks2__1__2__1__11__1__2__2__2__srcdata[(signed long int)(7 - fstReaderIterBlocks2__1__2__1__11__1__2__2__2__3__2__2__j)];
                         }
-                        sprintf((char *)xc->temp_signal_value_buf, "%.16g", fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$d);
+                        sprintf((char *)xc->temp_signal_value_buf, "%.16g", fstReaderIterBlocks2__1__2__1__11__1__2__2__2__d);
                         value_change_callback(user_callback_data_pointer, time_table[(signed long int)i], idx + (unsigned int)1, xc->temp_signal_value_buf);
                       }
                     }
@@ -7055,42 +7055,42 @@ signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *,
                       {
                         char wx_buf[32l];
                         signed int wx_len;
-                        clone_d = (unsigned char *)&fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$d;
+                        clone_d = (unsigned char *)&fstReaderIterBlocks2__1__2__1__11__1__2__2__2__d;
                         if(!(xc->double_endian_match == 0u))
-                          memcpy((void *)clone_d, (const void *)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$srcdata, (unsigned long int)8);
+                          memcpy((void *)clone_d, (const void *)fstReaderIterBlocks2__1__2__1__11__1__2__2__2__srcdata, (unsigned long int)8);
 
                         else
                         {
-                          signed int fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$4$$1$$2$$j = 0;
-                          for( ; !(fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$4$$1$$2$$j >= 8); fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$4$$1$$2$$j = fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$4$$1$$2$$j + 1)
-                            clone_d[(signed long int)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$4$$1$$2$$j] = fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$srcdata[(signed long int)(7 - fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$4$$1$$2$$j)];
+                          signed int fstReaderIterBlocks2__1__2__1__11__1__2__2__2__4__1__2__j = 0;
+                          for( ; !(fstReaderIterBlocks2__1__2__1__11__1__2__2__2__4__1__2__j >= 8); fstReaderIterBlocks2__1__2__1__11__1__2__2__2__4__1__2__j = fstReaderIterBlocks2__1__2__1__11__1__2__2__2__4__1__2__j + 1)
+                            clone_d[(signed long int)fstReaderIterBlocks2__1__2__1__11__1__2__2__2__4__1__2__j] = fstReaderIterBlocks2__1__2__1__11__1__2__2__2__srcdata[(signed long int)(7 - fstReaderIterBlocks2__1__2__1__11__1__2__2__2__4__1__2__j)];
                         }
-                        wx_len=sprintf(wx_buf, "r%.16g", fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$2$$d);
+                        wx_len=sprintf(wx_buf, "r%.16g", fstReaderIterBlocks2__1__2__1__11__1__2__2__2__d);
                         fstWritex(xc, (void *)wx_buf, wx_len);
                       }
 
                   }
                   if(!(fv == ((struct _IO_FILE *)NULL)))
                   {
-                    char fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$3$$vcd_id[16l];
+                    char fstReaderIterBlocks2__1__2__1__11__1__2__2__3__vcd_id[16l];
                     signed int vcdid_len;
-                    vcdid_len=fstVcdIDForFwrite(fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$3$$vcd_id + (signed long int)1, idx + (unsigned int)1);
-                    fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$3$$vcd_id[(signed long int)0] = (char)32;
-                    fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$3$$vcd_id[(signed long int)(vcdid_len + 1)] = (char)10;
-                    fstWritex(xc, (void *)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$2$$2$$3$$vcd_id, vcdid_len + 2);
+                    vcdid_len=fstVcdIDForFwrite(fstReaderIterBlocks2__1__2__1__11__1__2__2__3__vcd_id + (signed long int)1, idx + (unsigned int)1);
+                    fstReaderIterBlocks2__1__2__1__11__1__2__2__3__vcd_id[(signed long int)0] = (char)32;
+                    fstReaderIterBlocks2__1__2__1__11__1__2__2__3__vcd_id[(signed long int)(vcdid_len + 1)] = (char)10;
+                    fstWritex(xc, (void *)fstReaderIterBlocks2__1__2__1__11__1__2__2__3__vcd_id, vcdid_len + 2);
                   }
 
-                  fstReaderIterBlocks2$$1$$2$$1$$11$$1$$skiplen = fstReaderIterBlocks2$$1$$2$$1$$11$$1$$skiplen + (signed int)len;
-                  headptr[(signed long int)idx] = headptr[(signed long int)idx] + (unsigned int)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$skiplen;
-                  length_remaining[(signed long int)idx] = length_remaining[(signed long int)idx] - (unsigned int)fstReaderIterBlocks2$$1$$2$$1$$11$$1$$skiplen;
+                  fstReaderIterBlocks2__1__2__1__11__1__skiplen = fstReaderIterBlocks2__1__2__1__11__1__skiplen + (signed int)len;
+                  headptr[(signed long int)idx] = headptr[(signed long int)idx] + (unsigned int)fstReaderIterBlocks2__1__2__1__11__1__skiplen;
+                  length_remaining[(signed long int)idx] = length_remaining[(signed long int)idx] - (unsigned int)fstReaderIterBlocks2__1__2__1__11__1__skiplen;
                   tc_head[(signed long int)i] = scatterptr[(signed long int)idx];
                   scatterptr[(signed long int)idx] = (unsigned int)0;
                   if(!(length_remaining[(signed long int)idx] == 0u))
                   {
-                    fstReaderIterBlocks2$$1$$2$$1$$11$$1$$vli=fstGetVarint32NoSkip(mem_for_traversal + (signed long int)headptr[(signed long int)idx]);
-                    fstReaderIterBlocks2$$1$$2$$1$$11$$1$$tdelta = fstReaderIterBlocks2$$1$$2$$1$$11$$1$$vli >> 1;
-                    scatterptr[(signed long int)idx] = tc_head[(signed long int)(i + fstReaderIterBlocks2$$1$$2$$1$$11$$1$$tdelta)];
-                    tc_head[(signed long int)(i + fstReaderIterBlocks2$$1$$2$$1$$11$$1$$tdelta)] = idx + (unsigned int)1;
+                    fstReaderIterBlocks2__1__2__1__11__1__vli=fstGetVarint32NoSkip(mem_for_traversal + (signed long int)headptr[(signed long int)idx]);
+                    fstReaderIterBlocks2__1__2__1__11__1__tdelta = fstReaderIterBlocks2__1__2__1__11__1__vli >> 1;
+                    scatterptr[(signed long int)idx] = tc_head[(signed long int)(i + fstReaderIterBlocks2__1__2__1__11__1__tdelta)];
+                    tc_head[(signed long int)(i + fstReaderIterBlocks2__1__2__1__11__1__tdelta)] = idx + (unsigned int)1;
                   }
 
                 }
@@ -7154,16 +7154,16 @@ struct fstHier * fstReaderIterateHier(void *ctx)
   unsigned int alias;
   char *pnt;
   signed int ch;
-  signed int return_value_fgetc$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
-  signed int return_value_fgetc$5;
-  signed int return_value_fgetc$6;
-  char *tmp_post$7;
-  _Bool tmp_if_expr$8;
-  signed int return_value_fgetc$9;
-  char *tmp_post$10;
-  struct fstHier *tmp_if_expr$11;
+  signed int return_value_fgetc_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
+  signed int return_value_fgetc_5;
+  signed int return_value_fgetc_6;
+  char *tmp_post_7;
+  _Bool tmp_if_expr_8;
+  signed int return_value_fgetc_9;
+  char *tmp_post_10;
+  struct fstHier *tmp_if_expr_11;
   if(xc == ((struct fstReaderContext *)NULL))
     return (struct fstHier *)(void *)0;
 
@@ -7171,9 +7171,9 @@ struct fstHier * fstReaderIterateHier(void *ctx)
   {
     if(xc->fh == ((struct _IO_FILE *)NULL))
     {
-      signed int return_value_fstReaderRecreateHierFile$1;
-      return_value_fstReaderRecreateHierFile$1=fstReaderRecreateHierFile(xc);
-      if(return_value_fstReaderRecreateHierFile$1 == 0)
+      signed int return_value_fstReaderRecreateHierFile_1;
+      return_value_fstReaderRecreateHierFile_1=fstReaderRecreateHierFile(xc);
+      if(return_value_fstReaderRecreateHierFile_1 == 0)
         return (struct fstHier *)(void *)0;
 
     }
@@ -7196,8 +7196,8 @@ struct fstHier * fstReaderIterateHier(void *ctx)
         case FST_ST_VCD_SCOPE:
         {
           xc->hier.htyp = (unsigned char)0;
-          return_value_fgetc$2=fgetc(xc->fh);
-          xc->hier.u.scope.typ = (unsigned char)return_value_fgetc$2;
+          return_value_fgetc_2=fgetc(xc->fh);
+          xc->hier.u.scope.typ = (unsigned char)return_value_fgetc_2;
           pnt = xc->str_scope_nam;
           xc->hier.u.scope.name = pnt;
           do
@@ -7206,9 +7206,9 @@ struct fstHier * fstReaderIterateHier(void *ctx)
             if(ch == 0)
               break;
 
-            tmp_post$3 = pnt;
+            tmp_post_3 = pnt;
             pnt = pnt + 1l;
-            *tmp_post$3 = (char)ch;
+            *tmp_post_3 = (char)ch;
           }
           while((_Bool)1);
           *pnt = (char)0;
@@ -7221,9 +7221,9 @@ struct fstHier * fstReaderIterateHier(void *ctx)
             if(ch == 0)
               break;
 
-            tmp_post$4 = pnt;
+            tmp_post_4 = pnt;
             pnt = pnt + 1l;
-            *tmp_post$4 = (char)ch;
+            *tmp_post_4 = (char)ch;
           }
           while((_Bool)1);
           *pnt = (char)0;
@@ -7238,10 +7238,10 @@ struct fstHier * fstReaderIterateHier(void *ctx)
         case FST_ST_GEN_ATTRBEGIN:
         {
           xc->hier.htyp = (unsigned char)3;
-          return_value_fgetc$5=fgetc(xc->fh);
-          xc->hier.u.attr.typ = (unsigned char)return_value_fgetc$5;
-          return_value_fgetc$6=fgetc(xc->fh);
-          xc->hier.u.attr.subtype = (unsigned char)return_value_fgetc$6;
+          return_value_fgetc_5=fgetc(xc->fh);
+          xc->hier.u.attr.typ = (unsigned char)return_value_fgetc_5;
+          return_value_fgetc_6=fgetc(xc->fh);
+          xc->hier.u.attr.subtype = (unsigned char)return_value_fgetc_6;
           pnt = xc->str_scope_nam;
           xc->hier.u.attr.name = pnt;
           do
@@ -7250,9 +7250,9 @@ struct fstHier * fstReaderIterateHier(void *ctx)
             if(ch == 0)
               break;
 
-            tmp_post$7 = pnt;
+            tmp_post_7 = pnt;
             pnt = pnt + 1l;
-            *tmp_post$7 = (char)ch;
+            *tmp_post_7 = (char)ch;
           }
           while((_Bool)1);
           *pnt = (char)0;
@@ -7261,11 +7261,11 @@ struct fstHier * fstReaderIterateHier(void *ctx)
           if((signed int)xc->hier.u.attr.typ == FST_AT_MISC)
           {
             if((signed int)xc->hier.u.attr.subtype == 4)
-              tmp_if_expr$8 = (_Bool)1;
+              tmp_if_expr_8 = (_Bool)1;
 
             else
-              tmp_if_expr$8 = (signed int)xc->hier.u.attr.subtype == 5 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$8)
+              tmp_if_expr_8 = (signed int)xc->hier.u.attr.subtype == 5 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_8)
             {
               signed int sidx_skiplen_dummy = 0;
               xc->hier.u.attr.arg_from_name=fstGetVarint64((unsigned char *)xc->str_scope_nam, &sidx_skiplen_dummy);
@@ -7345,8 +7345,8 @@ struct fstHier * fstReaderIterateHier(void *ctx)
           xc->hier.u.var.sdt_workspace = (unsigned char)FST_SDT_NONE;
           xc->hier.u.var.sxt_workspace = (unsigned int)0;
           xc->hier.u.var.typ = (unsigned char)tag;
-          return_value_fgetc$9=fgetc(xc->fh);
-          xc->hier.u.var.direction = (unsigned char)return_value_fgetc$9;
+          return_value_fgetc_9=fgetc(xc->fh);
+          xc->hier.u.var.direction = (unsigned char)return_value_fgetc_9;
           pnt = xc->str_scope_nam;
           xc->hier.u.var.name = pnt;
           do
@@ -7355,9 +7355,9 @@ struct fstHier * fstReaderIterateHier(void *ctx)
             if(ch == 0)
               break;
 
-            tmp_post$10 = pnt;
+            tmp_post_10 = pnt;
             pnt = pnt + 1l;
-            *tmp_post$10 = (char)ch;
+            *tmp_post_10 = (char)ch;
           }
           while((_Bool)1);
           *pnt = (char)0;
@@ -7390,11 +7390,11 @@ struct fstHier * fstReaderIterateHier(void *ctx)
     }
 
     if(isfeof == 0)
-      tmp_if_expr$11 = &xc->hier;
+      tmp_if_expr_11 = &xc->hier;
 
     else
-      tmp_if_expr$11 = (struct fstHier *)(void *)0;
-    return tmp_if_expr$11;
+      tmp_if_expr_11 = (struct fstHier *)(void *)0;
+    return tmp_if_expr_11;
   }
 }
 
@@ -7421,24 +7421,24 @@ signed int fstReaderIterateHierRewind(void *ctx)
 void * fstReaderOpen(const char *nam)
 {
   struct fstReaderContext *xc;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct fstReaderContext) /*67248ul*/ );
-  xc = (struct fstReaderContext *)return_value_calloc$1;
-  _Bool tmp_if_expr$9;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct fstReaderContext) /*67248ul*/ );
+  xc = (struct fstReaderContext *)return_value_calloc_1;
+  _Bool tmp_if_expr_9;
   if(nam == ((const char *)NULL))
-    tmp_if_expr$9 = (_Bool)1;
+    tmp_if_expr_9 = (_Bool)1;
 
   else
   {
     xc->f=fopen(nam, "rb");
-    tmp_if_expr$9 = !(xc->f != ((struct _IO_FILE *)NULL)) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_9 = !(xc->f != ((struct _IO_FILE *)NULL)) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$9)
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_9)
   {
     free((void *)xc);
     xc = (struct fstReaderContext *)(void *)0;
@@ -7447,13 +7447,13 @@ void * fstReaderOpen(const char *nam)
   else
   {
     signed int flen;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(nam);
-    flen = (signed int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(nam);
+    flen = (signed int)return_value_strlen_2;
     char *hf;
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)1, (unsigned long int)(flen + 6));
-    hf = (char *)return_value_calloc$3;
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)1, (unsigned long int)(flen + 6));
+    hf = (char *)return_value_calloc_3;
     signed int rc;
     memcpy((void *)hf, (const void *)nam, (unsigned long int)flen);
     strcpy(hf + (signed long int)flen, ".hier");
@@ -7462,35 +7462,35 @@ void * fstReaderOpen(const char *nam)
     xc->filename=strdup(nam);
     rc=fstReaderInit(xc);
     if(!(rc == 0))
-      tmp_if_expr$4 = xc->vc_section_count != 0ul ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = xc->vc_section_count != 0ul ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = xc->maxhandle != 0u ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = xc->maxhandle != 0u ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
       if(!(xc->fh == ((struct _IO_FILE *)NULL)))
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
         if(!(xc->contains_hier_section == 0u))
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = xc->contains_hier_section_lz4 != 0u ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = xc->contains_hier_section_lz4 != 0u ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
       }
-      tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    if(tmp_if_expr$8)
+      tmp_if_expr_8 = (_Bool)0;
+    if(tmp_if_expr_8)
       xc->do_rewind = (unsigned int)1;
 
     else
@@ -7507,9 +7507,9 @@ void * fstReaderOpen(const char *nam)
 void * fstReaderOpenForUtilitiesOnly(void)
 {
   struct fstReaderContext *xc;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct fstReaderContext) /*67248ul*/ );
-  xc = (struct fstReaderContext *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct fstReaderContext) /*67248ul*/ );
+  xc = (struct fstReaderContext *)return_value_calloc_1;
   return (void *)xc;
 }
 
@@ -7518,7 +7518,7 @@ void * fstReaderOpenForUtilitiesOnly(void)
 const char * fstReaderPopScope(void *ctx)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!(xc == ((struct fstReaderContext *)NULL)))
   {
     if(!(xc->curr_hier == ((struct fstCurrHier *)NULL)))
@@ -7532,11 +7532,11 @@ const char * fstReaderPopScope(void *ctx)
       xc->curr_hier = xc->curr_hier->prev;
       free((void *)ch);
       if(!(xc->curr_flat_hier_nam == ((char *)NULL)))
-        tmp_if_expr$1 = xc->curr_flat_hier_nam;
+        tmp_if_expr_1 = xc->curr_flat_hier_nam;
 
       else
-        tmp_if_expr$1 = "";
-      return tmp_if_expr$1;
+        tmp_if_expr_1 = "";
+      return tmp_if_expr_1;
     }
 
   }
@@ -7561,12 +7561,12 @@ signed int fstReaderProcessHier(void *ctx, struct _IO_FILE *fv)
   signed int subtype;
   unsigned long int attrarg;
   unsigned int maxhandle_scanbuild;
-  signed int return_value_feof$5;
-  char *tmp_post$6;
-  signed int return_value_fgetc$7;
-  char *tmp_post$8;
-  char *tmp_post$9;
-  unsigned int tmp_if_expr$12;
+  signed int return_value_feof_5;
+  char *tmp_post_6;
+  signed int return_value_fgetc_7;
+  char *tmp_post_8;
+  char *tmp_post_9;
+  unsigned int tmp_if_expr_12;
   if(xc == ((struct fstReaderContext *)NULL))
     return 0;
 
@@ -7575,24 +7575,24 @@ signed int fstReaderProcessHier(void *ctx, struct _IO_FILE *fv)
     xc->longest_signal_value_len = (unsigned int)32;
     if(xc->fh == ((struct _IO_FILE *)NULL))
     {
-      signed int return_value_fstReaderRecreateHierFile$1;
-      return_value_fstReaderRecreateHierFile$1=fstReaderRecreateHierFile(xc);
-      if(return_value_fstReaderRecreateHierFile$1 == 0)
+      signed int return_value_fstReaderRecreateHierFile_1;
+      return_value_fstReaderRecreateHierFile_1=fstReaderRecreateHierFile(xc);
+      if(return_value_fstReaderRecreateHierFile_1 == 0)
         return 0;
 
     }
 
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)(65536 + 4096 + 1));
-    str = (char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)(65536 + 4096 + 1));
+    str = (char *)return_value_malloc_2;
     if(!(fv == ((struct _IO_FILE *)NULL)))
     {
       char time_dimension[2l] = { (char)0, (char)0 };
       signed int time_scale = 1;
-      fprintf(fv, "$date\n\t%s\n$end\n", (const void *)xc->date);
-      fprintf(fv, "$version\n\t%s\n$end\n", (const void *)xc->version);
+      fprintf(fv, "_date\n\t%s\n_end\n", (const void *)xc->date);
+      fprintf(fv, "_version\n\t%s\n_end\n", (const void *)xc->version);
       if(!(xc->timezero == 0l))
-        fprintf(fv, "$timezero\n\t%ld\n$end\n", xc->timezero);
+        fprintf(fv, "_timezero\n\t%ld\n_end\n", xc->timezero);
 
       if(!((signed int)xc->timescale == 2))
       {
@@ -7790,25 +7790,25 @@ signed int fstReaderProcessHier(void *ctx, struct _IO_FILE *fv)
     __CPROVER_DUMP_L29:
       ;
       if(!(fv == ((struct _IO_FILE *)NULL)))
-        fprintf(fv, "$timescale\n\t%d%ss\n$end\n", time_scale, (const void *)time_dimension);
+        fprintf(fv, "_timescale\n\t%d%ss\n_end\n", time_scale, (const void *)time_dimension);
 
     }
 
     xc->maxhandle = (unsigned int)0;
     xc->num_alias = (unsigned long int)0;
     free((void *)xc->signal_lens);
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)num_signal_dyn * sizeof(unsigned int) /*4ul*/ );
-    xc->signal_lens = (unsigned int *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)num_signal_dyn * sizeof(unsigned int) /*4ul*/ );
+    xc->signal_lens = (unsigned int *)return_value_malloc_3;
     free((void *)xc->signal_typs);
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc((unsigned long int)num_signal_dyn * sizeof(unsigned char) /*1ul*/ );
-    xc->signal_typs = (unsigned char *)return_value_malloc$4;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc((unsigned long int)num_signal_dyn * sizeof(unsigned char) /*1ul*/ );
+    xc->signal_typs = (unsigned char *)return_value_malloc_4;
     fstReaderFseeko(xc, xc->fh, (signed long int)0, 0);
     do
     {
-      return_value_feof$5=feof(xc->fh);
-      if(!(return_value_feof$5 == 0))
+      return_value_feof_5=feof(xc->fh);
+      if(!(return_value_feof_5 == 0))
         break;
 
       signed int tag;
@@ -7828,29 +7828,29 @@ signed int fstReaderProcessHier(void *ctx, struct _IO_FILE *fv)
             if(ch == 0)
               break;
 
-            tmp_post$6 = pnt;
+            tmp_post_6 = pnt;
             pnt = pnt + 1l;
-            *tmp_post$6 = (char)ch;
+            *tmp_post_6 = (char)ch;
           }
           while((_Bool)1);
           *pnt = (char)0;
           do
           {
-            return_value_fgetc$7=fgetc(xc->fh);
-            if(return_value_fgetc$7 == 0)
+            return_value_fgetc_7=fgetc(xc->fh);
+            if(return_value_fgetc_7 == 0)
               break;
 
           }
           while((_Bool)1);
           if(!(fv == ((struct _IO_FILE *)NULL)))
-            fprintf(fv, "$scope %s %s $end\n", modtypes[(signed long int)scopetype], str);
+            fprintf(fv, "_scope %s %s _end\n", modtypes[(signed long int)scopetype], str);
 
           break;
         }
         case FST_ST_VCD_UPSCOPE:
         {
           if(!(fv == ((struct _IO_FILE *)NULL)))
-            fprintf(fv, "$upscope $end\n");
+            fprintf(fv, "_upscope _end\n");
 
           break;
         }
@@ -7865,9 +7865,9 @@ signed int fstReaderProcessHier(void *ctx, struct _IO_FILE *fv)
             if(ch == 0)
               break;
 
-            tmp_post$8 = pnt;
+            tmp_post_8 = pnt;
             pnt = pnt + 1l;
-            *tmp_post$8 = (char)ch;
+            *tmp_post_8 = (char)ch;
           }
           while((_Bool)1);
           *pnt = (char)0;
@@ -7885,7 +7885,7 @@ signed int fstReaderProcessHier(void *ctx, struct _IO_FILE *fv)
                   if(subtype >= 4 || !(subtype >= 0))
                     subtype = 0;
 
-                  fprintf(fv, "$attrbegin %s %s %s %ld $end\n", attrtypes[(signed long int)attrtype], arraytypes[(signed long int)subtype], str, attrarg);
+                  fprintf(fv, "_attrbegin %s %s %s %ld _end\n", attrtypes[(signed long int)attrtype], arraytypes[(signed long int)subtype], str, attrarg);
                   break;
                 }
                 case FST_AT_ENUM:
@@ -7893,7 +7893,7 @@ signed int fstReaderProcessHier(void *ctx, struct _IO_FILE *fv)
                   if(subtype >= 14 || !(subtype >= 0))
                     subtype = 0;
 
-                  fprintf(fv, "$attrbegin %s %s %s %ld $end\n", attrtypes[(signed long int)attrtype], enumvaluetypes[(signed long int)subtype], str, attrarg);
+                  fprintf(fv, "_attrbegin %s %s %s %ld _end\n", attrtypes[(signed long int)attrtype], enumvaluetypes[(signed long int)subtype], str, attrarg);
                   break;
                 }
                 case FST_AT_PACK:
@@ -7901,7 +7901,7 @@ signed int fstReaderProcessHier(void *ctx, struct _IO_FILE *fv)
                   if(subtype >= 4 || !(subtype >= 0))
                     subtype = 0;
 
-                  fprintf(fv, "$attrbegin %s %s %s %ld $end\n", attrtypes[(signed long int)attrtype], packtypes[(signed long int)subtype], str, attrarg);
+                  fprintf(fv, "_attrbegin %s %s %s %ld _end\n", attrtypes[(signed long int)attrtype], packtypes[(signed long int)subtype], str, attrarg);
                   break;
                 }
                 case FST_AT_MISC:
@@ -7910,7 +7910,7 @@ signed int fstReaderProcessHier(void *ctx, struct _IO_FILE *fv)
                 {
                   attrtype = FST_AT_MISC;
                   if(subtype == 0)
-                    fprintf(fv, "$comment\n\t%s\n$end\n", str);
+                    fprintf(fv, "_comment\n\t%s\n_end\n", str);
 
                   else
                     if(subtype == 4 || subtype == 5)
@@ -7918,11 +7918,11 @@ signed int fstReaderProcessHier(void *ctx, struct _IO_FILE *fv)
                       signed int sidx_skiplen_dummy = 0;
                       unsigned long int sidx;
                       sidx=fstGetVarint64((unsigned char *)str, &sidx_skiplen_dummy);
-                      fprintf(fv, "$attrbegin %s %02x %ld %ld $end\n", attrtypes[(signed long int)attrtype], subtype, sidx, attrarg);
+                      fprintf(fv, "_attrbegin %s %02x %ld %ld _end\n", attrtypes[(signed long int)attrtype], subtype, sidx, attrarg);
                     }
 
                     else
-                      fprintf(fv, "$attrbegin %s %02x %s %ld $end\n", attrtypes[(signed long int)attrtype], subtype, str, attrarg);
+                      fprintf(fv, "_attrbegin %s %02x %s %ld _end\n", attrtypes[(signed long int)attrtype], subtype, str, attrarg);
                 }
               }
 
@@ -7935,7 +7935,7 @@ signed int fstReaderProcessHier(void *ctx, struct _IO_FILE *fv)
           if(!(fv == ((struct _IO_FILE *)NULL)))
           {
             if(!(xc->use_vcd_extensions == 0u))
-              fprintf(fv, "$attrend $end\n");
+              fprintf(fv, "_attrend _end\n");
 
           }
 
@@ -8010,9 +8010,9 @@ signed int fstReaderProcessHier(void *ctx, struct _IO_FILE *fv)
             if(ch == 0)
               break;
 
-            tmp_post$9 = pnt;
+            tmp_post_9 = pnt;
             pnt = pnt + 1l;
-            *tmp_post$9 = (char)ch;
+            *tmp_post_9 = (char)ch;
           }
           while((_Bool)1);
           *pnt = (char)0;
@@ -8023,12 +8023,12 @@ signed int fstReaderProcessHier(void *ctx, struct _IO_FILE *fv)
             if(xc->maxhandle == num_signal_dyn)
             {
               num_signal_dyn = num_signal_dyn * (unsigned int)2;
-              void *return_value_realloc$10;
-              return_value_realloc$10=realloc((void *)xc->signal_lens, (unsigned long int)num_signal_dyn * sizeof(unsigned int) /*4ul*/ );
-              xc->signal_lens = (unsigned int *)return_value_realloc$10;
-              void *return_value_realloc$11;
-              return_value_realloc$11=realloc((void *)xc->signal_typs, (unsigned long int)num_signal_dyn * sizeof(unsigned char) /*1ul*/ );
-              xc->signal_typs = (unsigned char *)return_value_realloc$11;
+              void *return_value_realloc_10;
+              return_value_realloc_10=realloc((void *)xc->signal_lens, (unsigned long int)num_signal_dyn * sizeof(unsigned int) /*4ul*/ );
+              xc->signal_lens = (unsigned int *)return_value_realloc_10;
+              void *return_value_realloc_11;
+              return_value_realloc_11=realloc((void *)xc->signal_typs, (unsigned long int)num_signal_dyn * sizeof(unsigned char) /*1ul*/ );
+              xc->signal_typs = (unsigned char *)return_value_realloc_11;
             }
 
             xc->signal_lens[(signed long int)xc->maxhandle] = len;
@@ -8044,10 +8044,10 @@ signed int fstReaderProcessHier(void *ctx, struct _IO_FILE *fv)
 
             if(!(fv == ((struct _IO_FILE *)NULL)))
             {
-              char fstReaderProcessHier$$1$$3$$1$$7$$4$$vcdid_buf[16l];
+              char fstReaderProcessHier__1__3__1__7__4__vcdid_buf[16l];
               unsigned int modlen = vartype != FST_VT_VCD_PORT ? len : (len - (unsigned int)2) / (unsigned int)3;
-              fstVcdID(fstReaderProcessHier$$1$$3$$1$$7$$4$$vcdid_buf, xc->maxhandle + (unsigned int)1);
-              fprintf(fv, "$var %s %u %s %s $end\n", vartypes[(signed long int)vartype], modlen, (const void *)fstReaderProcessHier$$1$$3$$1$$7$$4$$vcdid_buf, str);
+              fstVcdID(fstReaderProcessHier__1__3__1__7__4__vcdid_buf, xc->maxhandle + (unsigned int)1);
+              fprintf(fv, "_var %s %u %s %s _end\n", vartypes[(signed long int)vartype], modlen, (const void *)fstReaderProcessHier__1__3__1__7__4__vcdid_buf, str);
             }
 
             xc->maxhandle = xc->maxhandle + 1u;
@@ -8064,9 +8064,9 @@ signed int fstReaderProcessHier(void *ctx, struct _IO_FILE *fv)
             if(!(fv == ((struct _IO_FILE *)NULL)))
             {
               char vcdid_buf[16l];
-              unsigned int fstReaderProcessHier$$1$$3$$1$$8$$2$$modlen = vartype != FST_VT_VCD_PORT ? len : (len - (unsigned int)2) / (unsigned int)3;
+              unsigned int fstReaderProcessHier__1__3__1__8__2__modlen = vartype != FST_VT_VCD_PORT ? len : (len - (unsigned int)2) / (unsigned int)3;
               fstVcdID(vcdid_buf, alias);
-              fprintf(fv, "$var %s %u %s %s $end\n", vartypes[(signed long int)vartype], fstReaderProcessHier$$1$$3$$1$$8$$2$$modlen, (const void *)vcdid_buf, str);
+              fprintf(fv, "_var %s %u %s %s _end\n", vartypes[(signed long int)vartype], fstReaderProcessHier__1__3__1__8__2__modlen, (const void *)vcdid_buf, str);
             }
 
             xc->num_alias = xc->num_alias + 1ul;
@@ -8079,28 +8079,28 @@ signed int fstReaderProcessHier(void *ctx, struct _IO_FILE *fv)
     }
     while((_Bool)1);
     if(!(fv == ((struct _IO_FILE *)NULL)))
-      fprintf(fv, "$enddefinitions $end\n");
+      fprintf(fv, "_enddefinitions _end\n");
 
     if(!(xc->maxhandle == 0u))
-      tmp_if_expr$12 = xc->maxhandle;
+      tmp_if_expr_12 = xc->maxhandle;
 
     else
-      tmp_if_expr$12 = (unsigned int)1;
-    maxhandle_scanbuild = tmp_if_expr$12;
-    void *return_value_realloc$13;
-    return_value_realloc$13=realloc((void *)xc->signal_lens, (unsigned long int)maxhandle_scanbuild * sizeof(unsigned int) /*4ul*/ );
-    xc->signal_lens = (unsigned int *)return_value_realloc$13;
-    void *return_value_realloc$14;
-    return_value_realloc$14=realloc((void *)xc->signal_typs, (unsigned long int)maxhandle_scanbuild * sizeof(unsigned char) /*1ul*/ );
-    xc->signal_typs = (unsigned char *)return_value_realloc$14;
+      tmp_if_expr_12 = (unsigned int)1;
+    maxhandle_scanbuild = tmp_if_expr_12;
+    void *return_value_realloc_13;
+    return_value_realloc_13=realloc((void *)xc->signal_lens, (unsigned long int)maxhandle_scanbuild * sizeof(unsigned int) /*4ul*/ );
+    xc->signal_lens = (unsigned int *)return_value_realloc_13;
+    void *return_value_realloc_14;
+    return_value_realloc_14=realloc((void *)xc->signal_typs, (unsigned long int)maxhandle_scanbuild * sizeof(unsigned char) /*1ul*/ );
+    xc->signal_typs = (unsigned char *)return_value_realloc_14;
     free((void *)xc->process_mask);
-    void *return_value_calloc$15;
-    return_value_calloc$15=calloc((unsigned long int)1, (unsigned long int)((maxhandle_scanbuild + (unsigned int)7) / (unsigned int)8));
-    xc->process_mask = (unsigned char *)return_value_calloc$15;
+    void *return_value_calloc_15;
+    return_value_calloc_15=calloc((unsigned long int)1, (unsigned long int)((maxhandle_scanbuild + (unsigned int)7) / (unsigned int)8));
+    xc->process_mask = (unsigned char *)return_value_calloc_15;
     free((void *)xc->temp_signal_value_buf);
-    void *return_value_malloc$16;
-    return_value_malloc$16=malloc((unsigned long int)(xc->longest_signal_value_len + (unsigned int)1));
-    xc->temp_signal_value_buf = (unsigned char *)return_value_malloc$16;
+    void *return_value_malloc_16;
+    return_value_malloc_16=malloc((unsigned long int)(xc->longest_signal_value_len + (unsigned int)1));
+    xc->temp_signal_value_buf = (unsigned char *)return_value_malloc_16;
     xc->var_count = (unsigned long int)xc->maxhandle + xc->num_alias;
     free((void *)str);
     return 1;
@@ -8112,41 +8112,41 @@ signed int fstReaderProcessHier(void *ctx, struct _IO_FILE *fv)
 const char * fstReaderPushScope(void *ctx, const char *nam, void *user_info)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  signed int tmp_if_expr$2;
-  void *tmp_if_expr$6;
-  void *return_value_realloc$4;
-  void *return_value_malloc$5;
+  signed int tmp_if_expr_2;
+  void *tmp_if_expr_6;
+  void *return_value_realloc_4;
+  void *return_value_malloc_5;
   if(!(xc == ((struct fstReaderContext *)NULL)))
   {
     struct fstCurrHier *ch;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct fstCurrHier) /*24ul*/ );
-    ch = (struct fstCurrHier *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct fstCurrHier) /*24ul*/ );
+    ch = (struct fstCurrHier *)return_value_malloc_1;
     signed int chl;
     if(!(xc->curr_hier == ((struct fstCurrHier *)NULL)))
-      tmp_if_expr$2 = xc->curr_hier->len;
+      tmp_if_expr_2 = xc->curr_hier->len;
 
     else
-      tmp_if_expr$2 = 0;
-    chl = tmp_if_expr$2;
+      tmp_if_expr_2 = 0;
+    chl = tmp_if_expr_2;
     signed int len;
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(nam);
-    len = (signed int)((unsigned long int)(chl + 1) + return_value_strlen$3);
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(nam);
+    len = (signed int)((unsigned long int)(chl + 1) + return_value_strlen_3);
     if(len >= xc->flat_hier_alloc_len)
     {
       if(!(xc->curr_flat_hier_nam == ((char *)NULL)))
       {
-        return_value_realloc$4=realloc((void *)xc->curr_flat_hier_nam, (unsigned long int)(len + 1));
-        tmp_if_expr$6 = return_value_realloc$4;
+        return_value_realloc_4=realloc((void *)xc->curr_flat_hier_nam, (unsigned long int)(len + 1));
+        tmp_if_expr_6 = return_value_realloc_4;
       }
 
       else
       {
-        return_value_malloc$5=malloc((unsigned long int)(len + 1));
-        tmp_if_expr$6 = return_value_malloc$5;
+        return_value_malloc_5=malloc((unsigned long int)(len + 1));
+        tmp_if_expr_6 = return_value_malloc_5;
       }
-      xc->curr_flat_hier_nam = (char *)tmp_if_expr$6;
+      xc->curr_flat_hier_nam = (char *)tmp_if_expr_6;
     }
 
     if(!(chl == 0))
@@ -8175,21 +8175,21 @@ const char * fstReaderPushScope(void *ctx, const char *nam, void *user_info)
 static signed int fstReaderRecreateHierFile(struct fstReaderContext *xc)
 {
   signed int pass_status = 1;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(xc->fh == ((struct _IO_FILE *)NULL))
   {
     signed long int offs_cache;
     offs_cache=ftello(xc->f);
     char *fnam;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(xc->filename);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)6 + (unsigned long int)16 + (unsigned long int)32 + (unsigned long int)1);
-    fnam = (char *)return_value_malloc$2;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(xc->filename);
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)6 + (unsigned long int)16 + (unsigned long int)32 + (unsigned long int)1);
+    fnam = (char *)return_value_malloc_2;
     unsigned char *mem;
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)32768);
-    mem = (unsigned char *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)32768);
+    mem = (unsigned char *)return_value_malloc_3;
     signed long int hl;
     signed long int uclen;
     signed long int clen = (signed long int)0;
@@ -8197,11 +8197,11 @@ static signed int fstReaderRecreateHierFile(struct fstReaderContext *xc)
     signed int zfd;
     signed int htyp = 255;
     if(xc->contains_hier_section_lz4 == 0u)
-      tmp_if_expr$4 = xc->contains_hier_section != 0u ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = xc->contains_hier_section != 0u ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
       htyp = 4;
 
     else
@@ -8212,24 +8212,24 @@ static signed int fstReaderRecreateHierFile(struct fstReaderContext *xc)
 
       }
 
-    signed int return_value_getpid$5;
-    return_value_getpid$5=getpid();
-    sprintf(fnam, "%s.hier_%d_%p", xc->filename, return_value_getpid$5, (void *)xc);
+    signed int return_value_getpid_5;
+    return_value_getpid_5=getpid();
+    sprintf(fnam, "%s.hier_%d_%p", xc->filename, return_value_getpid_5, (void *)xc);
     fstReaderFseeko(xc, xc->f, xc->hier_pos, 0);
-    unsigned long int return_value_fstReaderUint64$6;
-    return_value_fstReaderUint64$6=fstReaderUint64(xc->f);
-    uclen = (signed long int)return_value_fstReaderUint64$6;
+    unsigned long int return_value_fstReaderUint64_6;
+    return_value_fstReaderUint64_6=fstReaderUint64(xc->f);
+    uclen = (signed long int)return_value_fstReaderUint64_6;
     fflush(xc->f);
     if(htyp == 4)
     {
       fstReaderFseeko(xc, xc->f, xc->hier_pos, 0);
-      unsigned long int return_value_fstReaderUint64$7;
-      return_value_fstReaderUint64$7=fstReaderUint64(xc->f);
-      uclen = (signed long int)return_value_fstReaderUint64$7;
+      unsigned long int return_value_fstReaderUint64_7;
+      return_value_fstReaderUint64_7=fstReaderUint64(xc->f);
+      uclen = (signed long int)return_value_fstReaderUint64_7;
       fflush(xc->f);
-      signed int return_value_fileno$8;
-      return_value_fileno$8=fileno(xc->f);
-      zfd=dup(return_value_fileno$8);
+      signed int return_value_fileno_8;
+      return_value_fileno_8=fileno(xc->f);
+      zfd=dup(return_value_fileno_8);
       zhandle=gzdopen(zfd, "rb");
       if(zhandle == ((struct gzFile_s *)NULL))
       {
@@ -8245,12 +8245,12 @@ static signed int fstReaderRecreateHierFile(struct fstReaderContext *xc)
       if(htyp == 6 || htyp == 7)
       {
         fstReaderFseeko(xc, xc->f, xc->hier_pos - (signed long int)8, 0);
-        unsigned long int return_value_fstReaderUint64$9;
-        return_value_fstReaderUint64$9=fstReaderUint64(xc->f);
-        clen = (signed long int)(return_value_fstReaderUint64$9 - (unsigned long int)16);
-        unsigned long int return_value_fstReaderUint64$10;
-        return_value_fstReaderUint64$10=fstReaderUint64(xc->f);
-        uclen = (signed long int)return_value_fstReaderUint64$10;
+        unsigned long int return_value_fstReaderUint64_9;
+        return_value_fstReaderUint64_9=fstReaderUint64(xc->f);
+        clen = (signed long int)(return_value_fstReaderUint64_9 - (unsigned long int)16);
+        unsigned long int return_value_fstReaderUint64_10;
+        return_value_fstReaderUint64_10=fstReaderUint64(xc->f);
+        uclen = (signed long int)return_value_fstReaderUint64_10;
         fflush(xc->f);
       }
 
@@ -8279,9 +8279,9 @@ static signed int fstReaderRecreateHierFile(struct fstReaderContext *xc)
       {
         unsigned long int len = (unsigned long int)(uclen - hl > (signed long int)32768 ? (signed long int)32768 : uclen - hl);
         unsigned long int gzreadlen;
-        signed int return_value_gzread$11;
-        return_value_gzread$11=gzread(zhandle, (void *)mem, (unsigned int)len);
-        gzreadlen = (unsigned long int)return_value_gzread$11;
+        signed int return_value_gzread_11;
+        return_value_gzread_11=gzread(zhandle, (void *)mem, (unsigned int)len);
+        gzreadlen = (unsigned long int)return_value_gzread_11;
         unsigned long int fwlen;
         if(!(gzreadlen == len))
         {
@@ -8304,32 +8304,32 @@ static signed int fstReaderRecreateHierFile(struct fstReaderContext *xc)
       if(htyp == 7)
       {
         unsigned char *lz4_cmem;
-        void *return_value_malloc$12;
-        return_value_malloc$12=malloc((unsigned long int)clen);
-        lz4_cmem = (unsigned char *)return_value_malloc$12;
+        void *return_value_malloc_12;
+        return_value_malloc_12=malloc((unsigned long int)clen);
+        lz4_cmem = (unsigned char *)return_value_malloc_12;
         unsigned char *lz4_ucmem;
-        void *return_value_malloc$13;
-        return_value_malloc$13=malloc((unsigned long int)uclen);
-        lz4_ucmem = (unsigned char *)return_value_malloc$13;
+        void *return_value_malloc_13;
+        return_value_malloc_13=malloc((unsigned long int)uclen);
+        lz4_ucmem = (unsigned char *)return_value_malloc_13;
         unsigned char *lz4_ucmem2;
         unsigned long int uclen2;
         signed int skiplen2 = 0;
         fstFread((void *)lz4_cmem, (unsigned long int)clen, (unsigned long int)1, xc->f);
         uclen2=fstGetVarint64(lz4_cmem, &skiplen2);
-        void *return_value_malloc$14;
-        return_value_malloc$14=malloc(uclen2);
-        lz4_ucmem2 = (unsigned char *)return_value_malloc$14;
-        signed int return_value_LZ4_decompress_safe_partial$15;
-        return_value_LZ4_decompress_safe_partial$15=LZ4_decompress_safe_partial((char *)lz4_cmem + (signed long int)skiplen2, (char *)lz4_ucmem2, (signed int)(clen - (signed long int)skiplen2), (signed int)uclen2, (signed int)uclen2);
-        pass_status = (signed int)(uclen2 == (unsigned long int)return_value_LZ4_decompress_safe_partial$15);
+        void *return_value_malloc_14;
+        return_value_malloc_14=malloc(uclen2);
+        lz4_ucmem2 = (unsigned char *)return_value_malloc_14;
+        signed int return_value_LZ4_decompress_safe_partial_15;
+        return_value_LZ4_decompress_safe_partial_15=LZ4_decompress_safe_partial((char *)lz4_cmem + (signed long int)skiplen2, (char *)lz4_ucmem2, (signed int)(clen - (signed long int)skiplen2), (signed int)uclen2, (signed int)uclen2);
+        pass_status = (signed int)(uclen2 == (unsigned long int)return_value_LZ4_decompress_safe_partial_15);
         if(!(pass_status == 0))
         {
-          signed int return_value_LZ4_decompress_safe_partial$16;
-          return_value_LZ4_decompress_safe_partial$16=LZ4_decompress_safe_partial((char *)lz4_ucmem2, (char *)lz4_ucmem, (signed int)uclen2, (signed int)uclen, (signed int)uclen);
-          pass_status = (signed int)(uclen == (signed long int)return_value_LZ4_decompress_safe_partial$16);
-          unsigned long int return_value_fstFwrite$17;
-          return_value_fstFwrite$17=fstFwrite((const void *)lz4_ucmem, (unsigned long int)uclen, (unsigned long int)1, xc->fh);
-          if(!(return_value_fstFwrite$17 == 1ul))
+          signed int return_value_LZ4_decompress_safe_partial_16;
+          return_value_LZ4_decompress_safe_partial_16=LZ4_decompress_safe_partial((char *)lz4_ucmem2, (char *)lz4_ucmem, (signed int)uclen2, (signed int)uclen, (signed int)uclen);
+          pass_status = (signed int)(uclen == (signed long int)return_value_LZ4_decompress_safe_partial_16);
+          unsigned long int return_value_fstFwrite_17;
+          return_value_fstFwrite_17=fstFwrite((const void *)lz4_ucmem, (unsigned long int)uclen, (unsigned long int)1, xc->fh);
+          if(!(return_value_fstFwrite_17 == 1ul))
             pass_status = 0;
 
         }
@@ -8342,25 +8342,25 @@ static signed int fstReaderRecreateHierFile(struct fstReaderContext *xc)
       else
         if(htyp == 6)
         {
-          unsigned char *fstReaderRecreateHierFile$$1$$1$$8$$lz4_cmem;
-          void *return_value_malloc$18;
-          return_value_malloc$18=malloc((unsigned long int)clen);
-          fstReaderRecreateHierFile$$1$$1$$8$$lz4_cmem = (unsigned char *)return_value_malloc$18;
-          unsigned char *fstReaderRecreateHierFile$$1$$1$$8$$lz4_ucmem;
-          void *return_value_malloc$19;
-          return_value_malloc$19=malloc((unsigned long int)uclen);
-          fstReaderRecreateHierFile$$1$$1$$8$$lz4_ucmem = (unsigned char *)return_value_malloc$19;
-          fstFread((void *)fstReaderRecreateHierFile$$1$$1$$8$$lz4_cmem, (unsigned long int)clen, (unsigned long int)1, xc->f);
-          signed int return_value_LZ4_decompress_safe_partial$20;
-          return_value_LZ4_decompress_safe_partial$20=LZ4_decompress_safe_partial((char *)fstReaderRecreateHierFile$$1$$1$$8$$lz4_cmem, (char *)fstReaderRecreateHierFile$$1$$1$$8$$lz4_ucmem, (signed int)clen, (signed int)uclen, (signed int)uclen);
-          pass_status = (signed int)(uclen == (signed long int)return_value_LZ4_decompress_safe_partial$20);
-          unsigned long int return_value_fstFwrite$21;
-          return_value_fstFwrite$21=fstFwrite((const void *)fstReaderRecreateHierFile$$1$$1$$8$$lz4_ucmem, (unsigned long int)uclen, (unsigned long int)1, xc->fh);
-          if(!(return_value_fstFwrite$21 == 1ul))
+          unsigned char *fstReaderRecreateHierFile__1__1__8__lz4_cmem;
+          void *return_value_malloc_18;
+          return_value_malloc_18=malloc((unsigned long int)clen);
+          fstReaderRecreateHierFile__1__1__8__lz4_cmem = (unsigned char *)return_value_malloc_18;
+          unsigned char *fstReaderRecreateHierFile__1__1__8__lz4_ucmem;
+          void *return_value_malloc_19;
+          return_value_malloc_19=malloc((unsigned long int)uclen);
+          fstReaderRecreateHierFile__1__1__8__lz4_ucmem = (unsigned char *)return_value_malloc_19;
+          fstFread((void *)fstReaderRecreateHierFile__1__1__8__lz4_cmem, (unsigned long int)clen, (unsigned long int)1, xc->f);
+          signed int return_value_LZ4_decompress_safe_partial_20;
+          return_value_LZ4_decompress_safe_partial_20=LZ4_decompress_safe_partial((char *)fstReaderRecreateHierFile__1__1__8__lz4_cmem, (char *)fstReaderRecreateHierFile__1__1__8__lz4_ucmem, (signed int)clen, (signed int)uclen, (signed int)uclen);
+          pass_status = (signed int)(uclen == (signed long int)return_value_LZ4_decompress_safe_partial_20);
+          unsigned long int return_value_fstFwrite_21;
+          return_value_fstFwrite_21=fstFwrite((const void *)fstReaderRecreateHierFile__1__1__8__lz4_ucmem, (unsigned long int)uclen, (unsigned long int)1, xc->fh);
+          if(!(return_value_fstFwrite_21 == 1ul))
             pass_status = 0;
 
-          free((void *)fstReaderRecreateHierFile$$1$$1$$8$$lz4_ucmem);
-          free((void *)fstReaderRecreateHierFile$$1$$1$$8$$lz4_cmem);
+          free((void *)fstReaderRecreateHierFile__1__1__8__lz4_ucmem);
+          free((void *)fstReaderRecreateHierFile__1__1__8__lz4_cmem);
         }
 
         else
@@ -8378,12 +8378,12 @@ static signed int fstReaderRecreateHierFile(struct fstReaderContext *xc)
 void fstReaderResetScope(void *ctx)
 {
   struct fstReaderContext *xc = (struct fstReaderContext *)ctx;
-  const char *return_value_fstReaderPopScope$1;
+  const char *return_value_fstReaderPopScope_1;
   if(!(xc == ((struct fstReaderContext *)NULL)))
     do
     {
-      return_value_fstReaderPopScope$1=fstReaderPopScope((void *)xc);
-      if(return_value_fstReaderPopScope$1 == ((const char *)NULL))
+      return_value_fstReaderPopScope_1=fstReaderPopScope((void *)xc);
+      if(return_value_fstReaderPopScope_1 == ((const char *)NULL))
         break;
 
     }
@@ -8479,13 +8479,13 @@ static unsigned int fstReaderVarint32(struct _IO_FILE *f)
   unsigned char *mem = buf;
   unsigned int rc = (unsigned int)0;
   signed int ch;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   do
   {
     ch=fgetc(f);
-    tmp_post$1 = mem;
+    tmp_post_1 = mem;
     mem = mem + 1l;
-    *tmp_post$1 = (unsigned char)ch;
+    *tmp_post_1 = (unsigned char)ch;
   }
   while(!((0x80 & ch) == 0));
   mem = mem - 1l;
@@ -8510,13 +8510,13 @@ static unsigned int fstReaderVarint32WithSkip(struct _IO_FILE *f, unsigned int *
   unsigned char *mem = buf;
   unsigned int rc = (unsigned int)0;
   signed int ch;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   do
   {
     ch=fgetc(f);
-    tmp_post$1 = mem;
+    tmp_post_1 = mem;
     mem = mem + 1l;
-    *tmp_post$1 = (unsigned char)ch;
+    *tmp_post_1 = (unsigned char)ch;
   }
   while(!((0x80 & ch) == 0));
   *skiplen = (unsigned int)(mem - buf);
@@ -8542,13 +8542,13 @@ static unsigned long int fstReaderVarint64(struct _IO_FILE *f)
   unsigned char *mem = buf;
   unsigned long int rc = (unsigned long int)0;
   signed int ch;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   do
   {
     ch=fgetc(f);
-    tmp_post$1 = mem;
+    tmp_post_1 = mem;
     mem = mem + 1l;
-    *tmp_post$1 = (unsigned char)ch;
+    *tmp_post_1 = (unsigned char)ch;
   }
   while(!((0x80 & ch) == 0));
   mem = mem - 1l;
@@ -8569,9 +8569,9 @@ static unsigned long int fstReaderVarint64(struct _IO_FILE *f)
 // file ./fst/fstapi.c line 279
 static char * fstRealpath(const char *path, char *resolved_path)
 {
-  char *return_value_realpath$1;
-  return_value_realpath$1=realpath(path, resolved_path);
-  return return_value_realpath$1;
+  char *return_value_realpath_1;
+  return_value_realpath_1=realpath(path, resolved_path);
+  return return_value_realpath_1;
 }
 
 // fstUtilityBinToEsc
@@ -8582,178 +8582,178 @@ signed int fstUtilityBinToEsc(unsigned char *d, unsigned char *s, signed int len
   unsigned char *dst = d;
   unsigned char val;
   signed int i = 0;
-  unsigned char *tmp_post$1;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
-  unsigned char *tmp_post$8;
-  unsigned char *tmp_post$9;
-  unsigned char *tmp_post$10;
-  unsigned char *tmp_post$11;
-  unsigned char *tmp_post$12;
-  unsigned char *tmp_post$13;
-  unsigned char *tmp_post$14;
-  unsigned char *tmp_post$15;
-  unsigned char *tmp_post$16;
-  unsigned char *tmp_post$17;
-  unsigned char *tmp_post$18;
-  unsigned char *tmp_post$19;
-  unsigned char *tmp_post$20;
-  unsigned char *tmp_post$21;
-  unsigned char *tmp_post$22;
-  _Bool tmp_if_expr$28;
-  unsigned char *tmp_post$23;
-  unsigned char *tmp_post$24;
-  unsigned char *tmp_post$25;
-  unsigned char *tmp_post$26;
-  unsigned char *tmp_post$27;
+  unsigned char *tmp_post_1;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
+  unsigned char *tmp_post_8;
+  unsigned char *tmp_post_9;
+  unsigned char *tmp_post_10;
+  unsigned char *tmp_post_11;
+  unsigned char *tmp_post_12;
+  unsigned char *tmp_post_13;
+  unsigned char *tmp_post_14;
+  unsigned char *tmp_post_15;
+  unsigned char *tmp_post_16;
+  unsigned char *tmp_post_17;
+  unsigned char *tmp_post_18;
+  unsigned char *tmp_post_19;
+  unsigned char *tmp_post_20;
+  unsigned char *tmp_post_21;
+  unsigned char *tmp_post_22;
+  _Bool tmp_if_expr_28;
+  unsigned char *tmp_post_23;
+  unsigned char *tmp_post_24;
+  unsigned char *tmp_post_25;
+  unsigned char *tmp_post_26;
+  unsigned char *tmp_post_27;
   for( ; !(i >= len); i = i + 1)
     switch((signed int)src[(signed long int)i])
     {
       case 7:
       {
-        tmp_post$1 = dst;
+        tmp_post_1 = dst;
         dst = dst + 1l;
-        *tmp_post$1 = (unsigned char)92;
-        tmp_post$2 = dst;
+        *tmp_post_1 = (unsigned char)92;
+        tmp_post_2 = dst;
         dst = dst + 1l;
-        *tmp_post$2 = (unsigned char)97;
+        *tmp_post_2 = (unsigned char)97;
         break;
       }
       case 8:
       {
-        tmp_post$3 = dst;
+        tmp_post_3 = dst;
         dst = dst + 1l;
-        *tmp_post$3 = (unsigned char)92;
-        tmp_post$4 = dst;
+        *tmp_post_3 = (unsigned char)92;
+        tmp_post_4 = dst;
         dst = dst + 1l;
-        *tmp_post$4 = (unsigned char)98;
+        *tmp_post_4 = (unsigned char)98;
         break;
       }
       case 12:
       {
-        tmp_post$5 = dst;
+        tmp_post_5 = dst;
         dst = dst + 1l;
-        *tmp_post$5 = (unsigned char)92;
-        tmp_post$6 = dst;
+        *tmp_post_5 = (unsigned char)92;
+        tmp_post_6 = dst;
         dst = dst + 1l;
-        *tmp_post$6 = (unsigned char)102;
+        *tmp_post_6 = (unsigned char)102;
         break;
       }
       case 10:
       {
-        tmp_post$7 = dst;
+        tmp_post_7 = dst;
         dst = dst + 1l;
-        *tmp_post$7 = (unsigned char)92;
-        tmp_post$8 = dst;
+        *tmp_post_7 = (unsigned char)92;
+        tmp_post_8 = dst;
         dst = dst + 1l;
-        *tmp_post$8 = (unsigned char)110;
+        *tmp_post_8 = (unsigned char)110;
         break;
       }
       case 13:
       {
-        tmp_post$9 = dst;
+        tmp_post_9 = dst;
         dst = dst + 1l;
-        *tmp_post$9 = (unsigned char)92;
-        tmp_post$10 = dst;
+        *tmp_post_9 = (unsigned char)92;
+        tmp_post_10 = dst;
         dst = dst + 1l;
-        *tmp_post$10 = (unsigned char)114;
+        *tmp_post_10 = (unsigned char)114;
         break;
       }
       case 9:
       {
-        tmp_post$11 = dst;
+        tmp_post_11 = dst;
         dst = dst + 1l;
-        *tmp_post$11 = (unsigned char)92;
-        tmp_post$12 = dst;
+        *tmp_post_11 = (unsigned char)92;
+        tmp_post_12 = dst;
         dst = dst + 1l;
-        *tmp_post$12 = (unsigned char)116;
+        *tmp_post_12 = (unsigned char)116;
         break;
       }
       case 11:
       {
-        tmp_post$13 = dst;
+        tmp_post_13 = dst;
         dst = dst + 1l;
-        *tmp_post$13 = (unsigned char)92;
-        tmp_post$14 = dst;
+        *tmp_post_13 = (unsigned char)92;
+        tmp_post_14 = dst;
         dst = dst + 1l;
-        *tmp_post$14 = (unsigned char)118;
+        *tmp_post_14 = (unsigned char)118;
         break;
       }
       case 39:
       {
-        tmp_post$15 = dst;
+        tmp_post_15 = dst;
         dst = dst + 1l;
-        *tmp_post$15 = (unsigned char)92;
-        tmp_post$16 = dst;
+        *tmp_post_15 = (unsigned char)92;
+        tmp_post_16 = dst;
         dst = dst + 1l;
-        *tmp_post$16 = (unsigned char)39;
+        *tmp_post_16 = (unsigned char)39;
         break;
       }
       case 34:
       {
-        tmp_post$17 = dst;
+        tmp_post_17 = dst;
         dst = dst + 1l;
-        *tmp_post$17 = (unsigned char)92;
-        tmp_post$18 = dst;
+        *tmp_post_17 = (unsigned char)92;
+        tmp_post_18 = dst;
         dst = dst + 1l;
-        *tmp_post$18 = (unsigned char)34;
+        *tmp_post_18 = (unsigned char)34;
         break;
       }
       case 92:
       {
-        tmp_post$19 = dst;
+        tmp_post_19 = dst;
         dst = dst + 1l;
-        *tmp_post$19 = (unsigned char)92;
-        tmp_post$20 = dst;
+        *tmp_post_19 = (unsigned char)92;
+        tmp_post_20 = dst;
         dst = dst + 1l;
-        *tmp_post$20 = (unsigned char)92;
+        *tmp_post_20 = (unsigned char)92;
         break;
       }
       case 63:
       {
-        tmp_post$21 = dst;
+        tmp_post_21 = dst;
         dst = dst + 1l;
-        *tmp_post$21 = (unsigned char)92;
-        tmp_post$22 = dst;
+        *tmp_post_21 = (unsigned char)92;
+        tmp_post_22 = dst;
         dst = dst + 1l;
-        *tmp_post$22 = (unsigned char)63;
+        *tmp_post_22 = (unsigned char)63;
         break;
       }
       default:
       {
         if((signed int)src[(signed long int)i] >= 33)
-          tmp_if_expr$28 = (signed int)src[(signed long int)i] <= 126 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_28 = (signed int)src[(signed long int)i] <= 126 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$28 = (_Bool)0;
-        if(tmp_if_expr$28)
+          tmp_if_expr_28 = (_Bool)0;
+        if(tmp_if_expr_28)
         {
-          tmp_post$23 = dst;
+          tmp_post_23 = dst;
           dst = dst + 1l;
-          *tmp_post$23 = src[(signed long int)i];
+          *tmp_post_23 = src[(signed long int)i];
         }
 
         else
         {
           val = src[(signed long int)i];
-          tmp_post$24 = dst;
+          tmp_post_24 = dst;
           dst = dst + 1l;
-          *tmp_post$24 = (unsigned char)92;
-          tmp_post$25 = dst;
+          *tmp_post_24 = (unsigned char)92;
+          tmp_post_25 = dst;
           dst = dst + 1l;
-          *tmp_post$25 = (unsigned char)((signed int)val / 64 + 48);
+          *tmp_post_25 = (unsigned char)((signed int)val / 64 + 48);
           val = (unsigned char)((signed int)val & 63);
-          tmp_post$26 = dst;
+          tmp_post_26 = dst;
           dst = dst + 1l;
-          *tmp_post$26 = (unsigned char)((signed int)val / 8 + 48);
+          *tmp_post_26 = (unsigned char)((signed int)val / 8 + 48);
           val = (unsigned char)((signed int)val & 7);
-          tmp_post$27 = dst;
+          tmp_post_27 = dst;
           dst = dst + 1l;
-          *tmp_post$27 = (unsigned char)((signed int)val + 48);
+          *tmp_post_27 = (unsigned char)((signed int)val + 48);
         }
       }
     }
@@ -8766,45 +8766,45 @@ signed int fstUtilityEscToBin(unsigned char *d, unsigned char *s, signed int len
 {
   unsigned char *src = s;
   unsigned char *dst;
-  unsigned char *tmp_if_expr$1;
+  unsigned char *tmp_if_expr_1;
   if(d == ((unsigned char *)NULL))
-    tmp_if_expr$1 = s;
+    tmp_if_expr_1 = s;
 
   else
   {
     s = d;
-    tmp_if_expr$1 = s;
+    tmp_if_expr_1 = s;
   }
-  dst = tmp_if_expr$1;
+  dst = tmp_if_expr_1;
   unsigned char val[3l];
   signed int i = 0;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
-  unsigned char *tmp_post$8;
-  unsigned char *tmp_post$9;
-  unsigned char *tmp_post$10;
-  unsigned char *tmp_post$11;
-  unsigned char *tmp_post$12;
-  unsigned char *tmp_post$13;
-  signed int return_value_toupper$14;
-  signed int return_value_toupper$15;
-  _Bool tmp_if_expr$16;
-  signed int tmp_if_expr$17;
-  _Bool tmp_if_expr$18;
-  signed int tmp_if_expr$19;
-  unsigned char *tmp_post$20;
-  unsigned char *tmp_post$21;
-  unsigned char *tmp_post$22;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
+  unsigned char *tmp_post_8;
+  unsigned char *tmp_post_9;
+  unsigned char *tmp_post_10;
+  unsigned char *tmp_post_11;
+  unsigned char *tmp_post_12;
+  unsigned char *tmp_post_13;
+  signed int return_value_toupper_14;
+  signed int return_value_toupper_15;
+  _Bool tmp_if_expr_16;
+  signed int tmp_if_expr_17;
+  _Bool tmp_if_expr_18;
+  signed int tmp_if_expr_19;
+  unsigned char *tmp_post_20;
+  unsigned char *tmp_post_21;
+  unsigned char *tmp_post_22;
   for( ; !(i >= len); i = i + 1)
     if(!((signed int)src[(signed long int)i] == 92))
     {
-      tmp_post$2 = dst;
+      tmp_post_2 = dst;
       dst = dst + 1l;
-      *tmp_post$2 = src[(signed long int)i];
+      *tmp_post_2 = src[(signed long int)i];
     }
 
     else
@@ -8814,114 +8814,114 @@ signed int fstUtilityEscToBin(unsigned char *d, unsigned char *s, signed int len
       {
         case 97:
         {
-          tmp_post$3 = dst;
+          tmp_post_3 = dst;
           dst = dst + 1l;
-          *tmp_post$3 = (unsigned char)7;
+          *tmp_post_3 = (unsigned char)7;
           break;
         }
         case 98:
         {
-          tmp_post$4 = dst;
+          tmp_post_4 = dst;
           dst = dst + 1l;
-          *tmp_post$4 = (unsigned char)8;
+          *tmp_post_4 = (unsigned char)8;
           break;
         }
         case 102:
         {
-          tmp_post$5 = dst;
+          tmp_post_5 = dst;
           dst = dst + 1l;
-          *tmp_post$5 = (unsigned char)12;
+          *tmp_post_5 = (unsigned char)12;
           break;
         }
         case 110:
         {
-          tmp_post$6 = dst;
+          tmp_post_6 = dst;
           dst = dst + 1l;
-          *tmp_post$6 = (unsigned char)10;
+          *tmp_post_6 = (unsigned char)10;
           break;
         }
         case 114:
         {
-          tmp_post$7 = dst;
+          tmp_post_7 = dst;
           dst = dst + 1l;
-          *tmp_post$7 = (unsigned char)13;
+          *tmp_post_7 = (unsigned char)13;
           break;
         }
         case 116:
         {
-          tmp_post$8 = dst;
+          tmp_post_8 = dst;
           dst = dst + 1l;
-          *tmp_post$8 = (unsigned char)9;
+          *tmp_post_8 = (unsigned char)9;
           break;
         }
         case 118:
         {
-          tmp_post$9 = dst;
+          tmp_post_9 = dst;
           dst = dst + 1l;
-          *tmp_post$9 = (unsigned char)11;
+          *tmp_post_9 = (unsigned char)11;
           break;
         }
         case 39:
         {
-          tmp_post$10 = dst;
+          tmp_post_10 = dst;
           dst = dst + 1l;
-          *tmp_post$10 = (unsigned char)39;
+          *tmp_post_10 = (unsigned char)39;
           break;
         }
         case 34:
         {
-          tmp_post$11 = dst;
+          tmp_post_11 = dst;
           dst = dst + 1l;
-          *tmp_post$11 = (unsigned char)34;
+          *tmp_post_11 = (unsigned char)34;
           break;
         }
         case 92:
         {
-          tmp_post$12 = dst;
+          tmp_post_12 = dst;
           dst = dst + 1l;
-          *tmp_post$12 = (unsigned char)92;
+          *tmp_post_12 = (unsigned char)92;
           break;
         }
         case 63:
         {
-          tmp_post$13 = dst;
+          tmp_post_13 = dst;
           dst = dst + 1l;
-          *tmp_post$13 = (unsigned char)63;
+          *tmp_post_13 = (unsigned char)63;
           break;
         }
         case 120:
         {
           i = i + 1;
-          return_value_toupper$14=toupper((signed int)src[(signed long int)i]);
-          val[(signed long int)0] = (unsigned char)return_value_toupper$14;
+          return_value_toupper_14=toupper((signed int)src[(signed long int)i]);
+          val[(signed long int)0] = (unsigned char)return_value_toupper_14;
           i = i + 1;
-          return_value_toupper$15=toupper((signed int)src[(signed long int)i]);
-          val[(signed long int)1] = (unsigned char)return_value_toupper$15;
+          return_value_toupper_15=toupper((signed int)src[(signed long int)i]);
+          val[(signed long int)1] = (unsigned char)return_value_toupper_15;
           if((signed int)val[0l] >= 65)
-            tmp_if_expr$16 = (signed int)val[(signed long int)0] <= 70 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_16 = (signed int)val[(signed long int)0] <= 70 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$16 = (_Bool)0;
-          if(tmp_if_expr$16)
-            tmp_if_expr$17 = ((signed int)val[(signed long int)0] - 65) + 10;
+            tmp_if_expr_16 = (_Bool)0;
+          if(tmp_if_expr_16)
+            tmp_if_expr_17 = ((signed int)val[(signed long int)0] - 65) + 10;
 
           else
-            tmp_if_expr$17 = (signed int)val[(signed long int)0] - 48;
-          val[(signed long int)0] = (unsigned char)tmp_if_expr$17;
+            tmp_if_expr_17 = (signed int)val[(signed long int)0] - 48;
+          val[(signed long int)0] = (unsigned char)tmp_if_expr_17;
           if((signed int)val[1l] >= 65)
-            tmp_if_expr$18 = (signed int)val[(signed long int)1] <= 70 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_18 = (signed int)val[(signed long int)1] <= 70 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$18 = (_Bool)0;
-          if(tmp_if_expr$18)
-            tmp_if_expr$19 = ((signed int)val[(signed long int)1] - 65) + 10;
+            tmp_if_expr_18 = (_Bool)0;
+          if(tmp_if_expr_18)
+            tmp_if_expr_19 = ((signed int)val[(signed long int)1] - 65) + 10;
 
           else
-            tmp_if_expr$19 = (signed int)val[(signed long int)1] - 48;
-          val[(signed long int)1] = (unsigned char)tmp_if_expr$19;
-          tmp_post$20 = dst;
+            tmp_if_expr_19 = (signed int)val[(signed long int)1] - 48;
+          val[(signed long int)1] = (unsigned char)tmp_if_expr_19;
+          tmp_post_20 = dst;
           dst = dst + 1l;
-          *tmp_post$20 = (unsigned char)((signed int)val[(signed long int)0] * 16 + (signed int)val[(signed long int)1]);
+          *tmp_post_20 = (unsigned char)((signed int)val[(signed long int)0] * 16 + (signed int)val[(signed long int)1]);
           break;
         }
         case 48:
@@ -8945,16 +8945,16 @@ signed int fstUtilityEscToBin(unsigned char *d, unsigned char *s, signed int len
           val[(signed long int)1] = (unsigned char)((signed int)src[(signed long int)i] - 48);
           i = i + 1;
           val[(signed long int)2] = (unsigned char)((signed int)src[(signed long int)i] - 48);
-          tmp_post$21 = dst;
+          tmp_post_21 = dst;
           dst = dst + 1l;
-          *tmp_post$21 = (unsigned char)((signed int)val[(signed long int)0] * 64 + (signed int)val[(signed long int)1] * 8 + (signed int)val[(signed long int)2]);
+          *tmp_post_21 = (unsigned char)((signed int)val[(signed long int)0] * 64 + (signed int)val[(signed long int)1] * 8 + (signed int)val[(signed long int)2]);
           break;
         }
         default:
         {
-          tmp_post$22 = dst;
+          tmp_post_22 = dst;
           dst = dst + 1l;
-          *tmp_post$22 = src[(signed long int)i];
+          *tmp_post_22 = src[(signed long int)i];
         }
       }
     }
@@ -8966,13 +8966,13 @@ signed int fstUtilityEscToBin(unsigned char *d, unsigned char *s, signed int len
 static void fstVcdID(char *buf, unsigned int value)
 {
   char *pnt = buf;
-  char *tmp_post$1;
+  char *tmp_post_1;
   for( ; !(value == 0u); value = value / (unsigned int)94)
   {
     value = value - 1u;
-    tmp_post$1 = pnt;
+    tmp_post_1 = pnt;
     pnt = pnt + 1l;
-    *tmp_post$1 = (char)((unsigned int)33 + value % (unsigned int)94);
+    *tmp_post_1 = (char)((unsigned int)33 + value % (unsigned int)94);
   }
   *pnt = (char)0;
 }
@@ -8982,13 +8982,13 @@ static void fstVcdID(char *buf, unsigned int value)
 static signed int fstVcdIDForFwrite(char *buf, unsigned int value)
 {
   char *pnt = buf;
-  char *tmp_post$1;
+  char *tmp_post_1;
   for( ; !(value == 0u); value = value / (unsigned int)94)
   {
     value = value - 1u;
-    tmp_post$1 = pnt;
+    tmp_post_1 = pnt;
     pnt = pnt + 1l;
-    *tmp_post$1 = (char)((unsigned int)33 + value % (unsigned int)94);
+    *tmp_post_1 = (char)((unsigned int)33 + value % (unsigned int)94);
   }
   return (signed int)(pnt - buf);
 }
@@ -9004,11 +9004,11 @@ void fstWriterClose(void *ctx)
     pthread_mutex_unlock(&xc->mutex);
   }
 
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  signed long int tmp_if_expr$13;
-  _Bool tmp_if_expr$17;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  signed long int tmp_if_expr_13;
+  _Bool tmp_if_expr_17;
   if(!(xc == ((struct fstWriterContext *)NULL)))
   {
     if(xc->already_in_close == 0)
@@ -9021,25 +9021,25 @@ void fstWriterClose(void *ctx)
         signed long int hlen;
         xc->already_in_close = (unsigned char)1;
         if(!(xc->section_header_only == 0u))
-          tmp_if_expr$2 = xc->section_header_truncpos != 0l ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = xc->section_header_truncpos != 0l ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = xc->vchg_siz <= (unsigned int)1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = xc->vchg_siz <= (unsigned int)1 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = !(xc->is_initial_time != 0u) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = !(xc->is_initial_time != 0u) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
         {
-          signed int return_value_fileno$1;
-          return_value_fileno$1=fileno(xc->handle);
-          fstFtruncate(return_value_fileno$1, xc->section_header_truncpos);
+          signed int return_value_fileno_1;
+          return_value_fileno_1=fileno(xc->handle);
+          fstFtruncate(return_value_fileno_1, xc->section_header_truncpos);
           fstWriterFseeko(xc, xc->handle, xc->section_header_truncpos, 0);
           xc->section_header_only = (unsigned int)0;
         }
@@ -9067,20 +9067,20 @@ void fstWriterClose(void *ctx)
         fstDestroyMmaps(xc, 1);
         fflush(xc->geom_handle);
         tlen=ftello(xc->geom_handle);
-        signed int return_value_fileno$5;
-        return_value_fileno$5=fileno(xc->geom_handle);
-        void *return_value_mmap$6;
-        return_value_mmap$6=mmap((void *)0, (unsigned long int)tlen, 0x1 | 0x2, 0x01, return_value_fileno$5, (signed long int)0);
-        tmem = (unsigned char *)(void *)return_value_mmap$6;
+        signed int return_value_fileno_5;
+        return_value_fileno_5=fileno(xc->geom_handle);
+        void *return_value_mmap_6;
+        return_value_mmap_6=mmap((void *)0, (unsigned long int)tlen, 0x1 | 0x2, 0x01, return_value_fileno_5, (signed long int)0);
+        tmem = (unsigned char *)(void *)return_value_mmap_6;
         if(!(tmem == ((unsigned char *)NULL)))
         {
           unsigned long int destlen = (unsigned long int)tlen;
           unsigned char *dmem;
-          unsigned long int return_value_compressBound$7;
-          return_value_compressBound$7=compressBound(destlen);
-          void *return_value_malloc$8;
-          return_value_malloc$8=malloc(return_value_compressBound$7);
-          dmem = (unsigned char *)return_value_malloc$8;
+          unsigned long int return_value_compressBound_7;
+          return_value_compressBound_7=compressBound(destlen);
+          void *return_value_malloc_8;
+          return_value_malloc_8=malloc(return_value_compressBound_7);
+          dmem = (unsigned char *)return_value_malloc_8;
           signed int rc;
           rc=compress2(dmem, &destlen, tmem, (unsigned long int)tlen, 9);
           if(!(rc == 0) || !(tlen >= (signed long int)destlen))
@@ -9137,16 +9137,16 @@ void fstWriterClose(void *ctx)
         if(!(xc->compress_hier == 0u))
         {
           signed long int hl;
-          signed long int fstWriterClose$$1$$2$$5$$eos;
+          signed long int fstWriterClose__1__2__5__eos;
           struct gzFile_s *zhandle;
           signed int zfd;
           signed int fourpack_duo = 0;
           char *fnam;
-          unsigned long int return_value_strlen$9;
-          return_value_strlen$9=strlen(xc->filename);
-          void *return_value_malloc$10;
-          return_value_malloc$10=malloc(return_value_strlen$9 + (unsigned long int)5 + (unsigned long int)1);
-          fnam = (char *)return_value_malloc$10;
+          unsigned long int return_value_strlen_9;
+          return_value_strlen_9=strlen(xc->filename);
+          void *return_value_malloc_10;
+          return_value_malloc_10=malloc(return_value_strlen_9 + (unsigned long int)5 + (unsigned long int)1);
+          fnam = (char *)return_value_malloc_10;
           fixup_offs=ftello(xc->handle);
           fputc(255, xc->handle);
           hlen=ftello(xc->handle);
@@ -9155,12 +9155,12 @@ void fstWriterClose(void *ctx)
           if(xc->fourpack == 0u)
           {
             unsigned char *mem;
-            void *return_value_malloc$11;
-            return_value_malloc$11=malloc((unsigned long int)32768);
-            mem = (unsigned char *)return_value_malloc$11;
-            signed int return_value_fileno$12;
-            return_value_fileno$12=fileno(xc->handle);
-            zfd=dup(return_value_fileno$12);
+            void *return_value_malloc_11;
+            return_value_malloc_11=malloc((unsigned long int)32768);
+            mem = (unsigned char *)return_value_malloc_11;
+            signed int return_value_fileno_12;
+            return_value_fileno_12=fileno(xc->handle);
+            zfd=dup(return_value_fileno_12);
             fflush(xc->handle);
             zhandle=gzdopen(zfd, "wb4");
             if(!(zhandle == ((struct gzFile_s *)NULL)))
@@ -9171,11 +9171,11 @@ void fstWriterClose(void *ctx)
               {
                 unsigned int len;
                 if(xc->hier_file_len + -hl >= 32769l)
-                  tmp_if_expr$13 = (signed long int)32768;
+                  tmp_if_expr_13 = (signed long int)32768;
 
                 else
-                  tmp_if_expr$13 = xc->hier_file_len - hl;
-                len = (unsigned int)tmp_if_expr$13;
+                  tmp_if_expr_13 = xc->hier_file_len - hl;
+                len = (unsigned int)tmp_if_expr_13;
                 fstFread((void *)mem, (unsigned long int)len, (unsigned long int)1, xc->hier_handle);
                 gzwrite(zhandle, (const void *)mem, len);
               }
@@ -9190,52 +9190,52 @@ void fstWriterClose(void *ctx)
           else
           {
             signed int lz4_maxlen;
-            unsigned char *fstWriterClose$$1$$2$$5$$2$$mem;
+            unsigned char *fstWriterClose__1__2__5__2__mem;
             unsigned char *hmem;
             signed int packed_len;
             fflush(xc->handle);
             lz4_maxlen=LZ4_compressBound((signed int)xc->hier_file_len);
-            void *return_value_malloc$14;
-            return_value_malloc$14=malloc((unsigned long int)lz4_maxlen);
-            fstWriterClose$$1$$2$$5$$2$$mem = (unsigned char *)return_value_malloc$14;
-            signed int return_value_fileno$15;
-            return_value_fileno$15=fileno(xc->hier_handle);
-            void *return_value_mmap$16;
-            return_value_mmap$16=mmap((void *)0, (unsigned long int)xc->hier_file_len, 0x1 | 0x2, 0x01, return_value_fileno$15, (signed long int)0);
-            hmem = (unsigned char *)(void *)return_value_mmap$16;
-            packed_len=LZ4_compress((char *)hmem, (char *)fstWriterClose$$1$$2$$5$$2$$mem, (signed int)xc->hier_file_len);
+            void *return_value_malloc_14;
+            return_value_malloc_14=malloc((unsigned long int)lz4_maxlen);
+            fstWriterClose__1__2__5__2__mem = (unsigned char *)return_value_malloc_14;
+            signed int return_value_fileno_15;
+            return_value_fileno_15=fileno(xc->hier_handle);
+            void *return_value_mmap_16;
+            return_value_mmap_16=mmap((void *)0, (unsigned long int)xc->hier_file_len, 0x1 | 0x2, 0x01, return_value_fileno_15, (signed long int)0);
+            hmem = (unsigned char *)(void *)return_value_mmap_16;
+            packed_len=LZ4_compress((char *)hmem, (char *)fstWriterClose__1__2__5__2__mem, (signed int)xc->hier_file_len);
             if(!(hmem == ((unsigned char *)NULL)))
               munmap((void *)hmem, (unsigned long int)xc->hier_file_len);
 
             if(xc->repack_on_close == 0u)
-              tmp_if_expr$17 = xc->hier_file_len > (signed long int)(4 * 1024 * 1024) ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_17 = xc->hier_file_len > (signed long int)(4 * 1024 * 1024) ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$17 = (_Bool)0;
-            fourpack_duo = (signed int)tmp_if_expr$17;
+              tmp_if_expr_17 = (_Bool)0;
+            fourpack_duo = (signed int)tmp_if_expr_17;
             if(!(fourpack_duo == 0))
             {
               unsigned char *mem_duo;
               signed int lz4_maxlen_duo;
               signed int packed_len_duo;
               lz4_maxlen_duo=LZ4_compressBound(packed_len);
-              void *return_value_malloc$18;
-              return_value_malloc$18=malloc((unsigned long int)lz4_maxlen_duo);
-              mem_duo = (unsigned char *)return_value_malloc$18;
-              packed_len_duo=LZ4_compress((char *)fstWriterClose$$1$$2$$5$$2$$mem, (char *)mem_duo, packed_len);
+              void *return_value_malloc_18;
+              return_value_malloc_18=malloc((unsigned long int)lz4_maxlen_duo);
+              mem_duo = (unsigned char *)return_value_malloc_18;
+              packed_len_duo=LZ4_compress((char *)fstWriterClose__1__2__5__2__mem, (char *)mem_duo, packed_len);
               fstWriterVarint(xc->handle, (unsigned long int)packed_len);
               fstFwrite((const void *)mem_duo, (unsigned long int)packed_len_duo, (unsigned long int)1, xc->handle);
               free((void *)mem_duo);
             }
 
             else
-              fstFwrite((const void *)fstWriterClose$$1$$2$$5$$2$$mem, (unsigned long int)packed_len, (unsigned long int)1, xc->handle);
-            free((void *)fstWriterClose$$1$$2$$5$$2$$mem);
+              fstFwrite((const void *)fstWriterClose__1__2__5__2__mem, (unsigned long int)packed_len, (unsigned long int)1, xc->handle);
+            free((void *)fstWriterClose__1__2__5__2__mem);
           }
           fstWriterFseeko(xc, xc->handle, (signed long int)0, 2);
-          fstWriterClose$$1$$2$$5$$eos=ftello(xc->handle);
+          fstWriterClose__1__2__5__eos=ftello(xc->handle);
           fstWriterFseeko(xc, xc->handle, hlen, 0);
-          fstWriterUint64(xc->handle, (unsigned long int)(fstWriterClose$$1$$2$$5$$eos - hlen));
+          fstWriterUint64(xc->handle, (unsigned long int)(fstWriterClose__1__2__5__eos - hlen));
           fflush(xc->handle);
           fstWriterFseeko(xc, xc->handle, fixup_offs, 0);
           fputc(xc->fourpack != 0u ? (fourpack_duo != 0 ? 7 : 6) : 4, xc->handle);
@@ -9275,20 +9275,20 @@ void fstWriterClose(void *ctx)
             signed long int offpnt;
             signed long int uclen;
             signed int flen;
-            unsigned long int return_value_strlen$19;
-            return_value_strlen$19=strlen(xc->filename);
-            flen = (signed int)return_value_strlen$19;
+            unsigned long int return_value_strlen_19;
+            return_value_strlen_19=strlen(xc->filename);
+            flen = (signed int)return_value_strlen_19;
             char *hf;
-            void *return_value_calloc$20;
-            return_value_calloc$20=calloc((unsigned long int)1, (unsigned long int)(flen + 5));
-            hf = (char *)return_value_calloc$20;
+            void *return_value_calloc_20;
+            return_value_calloc_20=calloc((unsigned long int)1, (unsigned long int)(flen + 5));
+            hf = (char *)return_value_calloc_20;
             strcpy(hf, xc->filename);
             strcpy(hf + (signed long int)flen, ".pak");
             fp=fopen(hf, "wb");
             if(!(fp == ((struct _IO_FILE *)NULL)))
             {
               void *dsth;
-              signed int fstWriterClose$$1$$2$$7$$1$$1$$zfd;
+              signed int fstWriterClose__1__2__7__1__1__zfd;
               char gz_membuf[32768l];
               fstWriterFseeko(xc, xc->handle, (signed long int)0, 2);
               uclen=ftello(xc->handle);
@@ -9297,12 +9297,12 @@ void fstWriterClose(void *ctx)
               fstWriterUint64(fp, (unsigned long int)uclen);
               fflush(fp);
               fstWriterFseeko(xc, xc->handle, (signed long int)0, 0);
-              signed int return_value_fileno$21;
-              return_value_fileno$21=fileno(fp);
-              fstWriterClose$$1$$2$$7$$1$$1$$zfd=dup(return_value_fileno$21);
-              struct gzFile_s *return_value_gzdopen$22;
-              return_value_gzdopen$22=gzdopen(fstWriterClose$$1$$2$$7$$1$$1$$zfd, "wb4");
-              dsth = (void *)return_value_gzdopen$22;
+              signed int return_value_fileno_21;
+              return_value_fileno_21=fileno(fp);
+              fstWriterClose__1__2__7__1__1__zfd=dup(return_value_fileno_21);
+              struct gzFile_s *return_value_gzdopen_22;
+              return_value_gzdopen_22=gzdopen(fstWriterClose__1__2__7__1__1__zfd, "wb4");
+              dsth = (void *)return_value_gzdopen_22;
               if(!(dsth == NULL))
               {
                 offpnt = (signed long int)0;
@@ -9316,7 +9316,7 @@ void fstWriterClose(void *ctx)
               }
 
               else
-                close(fstWriterClose$$1$$2$$7$$1$$1$$zfd);
+                close(fstWriterClose__1__2__7__1__1__zfd);
               fstWriterFseeko(xc, fp, (signed long int)0, 2);
               offpnt=ftello(fp);
               fstWriterFseeko(xc, fp, (signed long int)1, 0);
@@ -9365,26 +9365,26 @@ void fstWriterClose(void *ctx)
 void * fstWriterCreate(const char *nam, signed int use_compressed_hier)
 {
   struct fstWriterContext *xc;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct fstWriterContext) /*432ul*/ );
-  xc = (struct fstWriterContext *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct fstWriterContext) /*432ul*/ );
+  xc = (struct fstWriterContext *)return_value_calloc_1;
   xc->compress_hier = (unsigned int)use_compressed_hier;
   fstDetermineBreakSize(xc);
-  _Bool tmp_if_expr$10;
+  _Bool tmp_if_expr_10;
   if(nam == ((const char *)NULL))
-    tmp_if_expr$10 = (_Bool)1;
+    tmp_if_expr_10 = (_Bool)1;
 
   else
   {
     xc->handle=unlink_fopen(nam, "w+b");
-    tmp_if_expr$10 = !(xc->handle != ((struct _IO_FILE *)NULL)) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_10 = !(xc->handle != ((struct _IO_FILE *)NULL)) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  if(tmp_if_expr$10)
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  if(tmp_if_expr_10)
   {
     free((void *)xc);
     xc = (struct fstWriterContext *)(void *)0;
@@ -9393,13 +9393,13 @@ void * fstWriterCreate(const char *nam, signed int use_compressed_hier)
   else
   {
     signed int flen;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(nam);
-    flen = (signed int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(nam);
+    flen = (signed int)return_value_strlen_2;
     char *hf;
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)1, (unsigned long int)(flen + 6));
-    hf = (char *)return_value_calloc$3;
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)1, (unsigned long int)(flen + 6));
+    hf = (char *)return_value_calloc_3;
     memcpy((void *)hf, (const void *)nam, (unsigned long int)flen);
     strcpy(hf + (signed long int)flen, ".hier");
     xc->hier_handle=unlink_fopen(hf, "w+b");
@@ -9408,41 +9408,41 @@ void * fstWriterCreate(const char *nam, signed int use_compressed_hier)
     xc->curval_handle=tmpfile_open(&xc->curval_handle_nam);
     xc->tchn_handle=tmpfile_open(&xc->tchn_handle_nam);
     xc->vchg_alloc_siz = (unsigned int)(xc->fst_break_size + xc->fst_break_add_size);
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc((unsigned long int)xc->vchg_alloc_siz);
-    xc->vchg_mem = (unsigned char *)return_value_malloc$4;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc((unsigned long int)xc->vchg_alloc_siz);
+    xc->vchg_mem = (unsigned char *)return_value_malloc_4;
     if(!(xc->hier_handle == ((struct _IO_FILE *)NULL)))
-      tmp_if_expr$5 = xc->geom_handle != ((struct _IO_FILE *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = xc->geom_handle != ((struct _IO_FILE *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = xc->valpos_handle != ((struct _IO_FILE *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = xc->valpos_handle != ((struct _IO_FILE *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(tmp_if_expr$6)
-      tmp_if_expr$7 = xc->curval_handle != ((struct _IO_FILE *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = (_Bool)0;
+    if(tmp_if_expr_6)
+      tmp_if_expr_7 = xc->curval_handle != ((struct _IO_FILE *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    if(tmp_if_expr$7)
-      tmp_if_expr$8 = xc->vchg_mem != ((unsigned char *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_7 = (_Bool)0;
+    if(tmp_if_expr_7)
+      tmp_if_expr_8 = xc->vchg_mem != ((unsigned char *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    if(tmp_if_expr$8)
-      tmp_if_expr$9 = xc->tchn_handle != ((struct _IO_FILE *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_8 = (_Bool)0;
+    if(tmp_if_expr_8)
+      tmp_if_expr_9 = xc->tchn_handle != ((struct _IO_FILE *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$9 = (_Bool)0;
-    if(tmp_if_expr$9)
+      tmp_if_expr_9 = (_Bool)0;
+    if(tmp_if_expr_9)
     {
       xc->filename=strdup(nam);
       xc->is_initial_time = (unsigned int)1;
       fstWriterEmitHdrBytes(xc);
       xc->nan=strtod("NaN", (char ** restrict )(void *)0);
-      pthread_mutex_init(&xc->mutex, (const union anonymous$2 *)(void *)0);
+      pthread_mutex_init(&xc->mutex, (const union anonymous_2 *)(void *)0);
       pthread_attr_init(&xc->thread_attr);
       pthread_attr_setdetachstate(&xc->thread_attr, 1);
     }
@@ -9489,21 +9489,21 @@ static void fstWriterCreateMmaps(struct fstWriterContext *xc)
   if(xc->valpos_mem == ((unsigned int *)NULL))
   {
     fflush(xc->valpos_handle);
-    signed int return_value_fileno$1;
-    return_value_fileno$1=fileno(xc->valpos_handle);
-    void *return_value_mmap$2;
-    return_value_mmap$2=mmap((void *)0, (unsigned long int)(xc->maxhandle * (unsigned int)4) * sizeof(unsigned int) /*4ul*/ , 0x1 | 0x2, 0x01, return_value_fileno$1, (signed long int)0);
-    xc->valpos_mem = (unsigned int *)(void *)return_value_mmap$2;
+    signed int return_value_fileno_1;
+    return_value_fileno_1=fileno(xc->valpos_handle);
+    void *return_value_mmap_2;
+    return_value_mmap_2=mmap((void *)0, (unsigned long int)(xc->maxhandle * (unsigned int)4) * sizeof(unsigned int) /*4ul*/ , 0x1 | 0x2, 0x01, return_value_fileno_1, (signed long int)0);
+    xc->valpos_mem = (unsigned int *)(void *)return_value_mmap_2;
   }
 
   if(xc->curval_mem == ((unsigned char *)NULL))
   {
     fflush(xc->curval_handle);
-    signed int return_value_fileno$3;
-    return_value_fileno$3=fileno(xc->curval_handle);
-    void *return_value_mmap$4;
-    return_value_mmap$4=mmap((void *)0, (unsigned long int)xc->maxvalpos, 0x1 | 0x2, 0x01, return_value_fileno$3, (signed long int)0);
-    xc->curval_mem = (unsigned char *)(void *)return_value_mmap$4;
+    signed int return_value_fileno_3;
+    return_value_fileno_3=fileno(xc->curval_handle);
+    void *return_value_mmap_4;
+    return_value_mmap_4=mmap((void *)0, (unsigned long int)xc->maxvalpos, 0x1 | 0x2, 0x01, return_value_fileno_3, (signed long int)0);
+    xc->curval_mem = (unsigned char *)(void *)return_value_mmap_4;
   }
 
 }
@@ -9523,9 +9523,9 @@ unsigned int fstWriterCreateVar(void *ctx, enum fstVarType vt, enum fstVarDir vd
 
     fputc((signed int)vt, xc->hier_handle);
     fputc((signed int)vd, xc->hier_handle);
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(nam);
-    nlen = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(nam);
+    nlen = (signed int)return_value_strlen_1;
     fstFwrite((const void *)nam, (unsigned long int)nlen, (unsigned long int)1, xc->hier_handle);
     fputc(0, xc->hier_handle);
     xc->hier_file_len = xc->hier_file_len + (signed long int)(nlen + 3);
@@ -9542,15 +9542,15 @@ unsigned int fstWriterCreateVar(void *ctx, enum fstVarType vt, enum fstVarDir vd
         len = (unsigned int)0;
 
     }
-    signed int return_value_fstWriterVarint$2;
-    return_value_fstWriterVarint$2=fstWriterVarint(xc->hier_handle, (unsigned long int)len);
-    xc->hier_file_len = xc->hier_file_len + (signed long int)return_value_fstWriterVarint$2;
+    signed int return_value_fstWriterVarint_2;
+    return_value_fstWriterVarint_2=fstWriterVarint(xc->hier_handle, (unsigned long int)len);
+    xc->hier_file_len = xc->hier_file_len + (signed long int)return_value_fstWriterVarint_2;
     if(!(xc->maxhandle >= aliasHandle))
       aliasHandle = (unsigned int)0;
 
-    signed int return_value_fstWriterVarint$3;
-    return_value_fstWriterVarint$3=fstWriterVarint(xc->hier_handle, (unsigned long int)aliasHandle);
-    xc->hier_file_len = xc->hier_file_len + (signed long int)return_value_fstWriterVarint$3;
+    signed int return_value_fstWriterVarint_3;
+    return_value_fstWriterVarint_3=fstWriterVarint(xc->hier_handle, (unsigned long int)aliasHandle);
+    xc->hier_file_len = xc->hier_file_len + (signed long int)return_value_fstWriterVarint_3;
     xc->numsigs = xc->numsigs + 1u;
     if(xc->numsigs == xc->next_huge_break)
     {
@@ -9562,9 +9562,9 @@ unsigned int fstWriterCreateVar(void *ctx, enum fstVarType vt, enum fstVarDir vd
         xc->vchg_alloc_siz = (unsigned int)(xc->fst_break_size + xc->fst_break_add_size);
         if(!(xc->vchg_mem == ((unsigned char *)NULL)))
         {
-          void *return_value_realloc$4;
-          return_value_realloc$4=realloc((void *)xc->vchg_mem, (unsigned long int)xc->vchg_alloc_siz);
-          xc->vchg_mem = (unsigned char *)return_value_realloc$4;
+          void *return_value_realloc_4;
+          return_value_realloc_4=realloc((void *)xc->vchg_mem, (unsigned long int)xc->vchg_alloc_siz);
+          xc->vchg_mem = (unsigned char *)return_value_realloc_4;
         }
 
       }
@@ -9609,9 +9609,9 @@ unsigned int fstWriterCreateVar(void *ctx, enum fstVarType vt, enum fstVarDir vd
 unsigned int fstWriterCreateVar2(void *ctx, enum fstVarType vt, enum fstVarDir vd, unsigned int len, const char *nam, unsigned int aliasHandle, const char *type, enum fstSupplementalVarType svt, enum fstSupplementalDataType sdt)
 {
   fstWriterSetAttrGeneric(ctx, type != ((const char *)NULL) ? type : "", 2, (unsigned long int)((signed int)svt << FST_SDT_SVT_SHIFT_COUNT | (signed int)sdt & FST_SDT_ABS_MAX));
-  unsigned int return_value_fstWriterCreateVar$1;
-  return_value_fstWriterCreateVar$1=fstWriterCreateVar(ctx, vt, vd, len, nam, aliasHandle);
-  return return_value_fstWriterCreateVar$1;
+  unsigned int return_value_fstWriterCreateVar_1;
+  return_value_fstWriterCreateVar_1=fstWriterCreateVar(ctx, vt, vd, len, nam, aliasHandle);
+  return return_value_fstWriterCreateVar_1;
 }
 
 // fstWriterEmitDumpActive
@@ -9622,9 +9622,9 @@ void fstWriterEmitDumpActive(void *ctx, signed int enable)
   if(!(xc == ((struct fstWriterContext *)NULL)))
   {
     struct fstBlackoutChain *b;
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct fstBlackoutChain) /*24ul*/ );
-    b = (struct fstBlackoutChain *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct fstBlackoutChain) /*24ul*/ );
+    b = (struct fstBlackoutChain *)return_value_calloc_1;
     b->tim = xc->curtime;
     b->active = (unsigned int)(enable != 0);
     xc->num_blackouts = xc->num_blackouts + 1u;
@@ -9667,11 +9667,11 @@ static void fstWriterEmitHdrBytes(struct fstWriterContext *xc)
   fstFwrite((const void *)vbuf, (unsigned long int)128, (unsigned long int)1, xc->handle);
   memset((void *)dbuf, 0, (unsigned long int)119);
   time(&walltime);
-  struct tm *return_value_localtime$1;
-  return_value_localtime$1=localtime(&walltime);
-  char *return_value_asctime$2;
-  return_value_asctime$2=asctime(return_value_localtime$1);
-  strcpy(dbuf, return_value_asctime$2);
+  struct tm *return_value_localtime_1;
+  return_value_localtime_1=localtime(&walltime);
+  char *return_value_asctime_2;
+  return_value_asctime_2=asctime(return_value_localtime_1);
+  strcpy(dbuf, return_value_asctime_2);
   fstFwrite((const void *)dbuf, (unsigned long int)119, (unsigned long int)1, xc->handle);
   fputc((signed int)xc->filetype, xc->handle);
   fstWriterUint64(xc->handle, (unsigned long int)xc->timezero);
@@ -9683,20 +9683,20 @@ static void fstWriterEmitHdrBytes(struct fstWriterContext *xc)
 static void fstWriterEmitSectionHeader(void *ctx)
 {
   struct fstWriterContext *xc = (struct fstWriterContext *)ctx;
-  unsigned long int tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  unsigned long int tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   if(!(xc == ((struct fstWriterContext *)NULL)))
   {
     unsigned long int destlen;
     unsigned char *dmem;
     signed int rc;
     destlen = (unsigned long int)xc->maxvalpos;
-    unsigned long int return_value_compressBound$1;
-    return_value_compressBound$1=compressBound(destlen);
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(return_value_compressBound$1);
-    dmem = (unsigned char *)return_value_malloc$2;
+    unsigned long int return_value_compressBound_1;
+    return_value_compressBound_1=compressBound(destlen);
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(return_value_compressBound_1);
+    dmem = (unsigned char *)return_value_malloc_2;
     rc=compress2(dmem, &destlen, xc->curval_mem, (unsigned long int)xc->maxvalpos, 4);
     fputc(255, xc->handle);
     xc->section_start=ftello(xc->handle);
@@ -9706,31 +9706,31 @@ static void fstWriterEmitSectionHeader(void *ctx)
     xc->section_header_only = (unsigned int)1;
     fstWriterUint64(xc->handle, (unsigned long int)0);
     if(!(xc->is_initial_time == 0u))
-      tmp_if_expr$3 = xc->firsttime;
+      tmp_if_expr_3 = xc->firsttime;
 
     else
-      tmp_if_expr$3 = xc->curtime;
-    fstWriterUint64(xc->handle, tmp_if_expr$3);
+      tmp_if_expr_3 = xc->curtime;
+    fstWriterUint64(xc->handle, tmp_if_expr_3);
     fstWriterUint64(xc->handle, xc->curtime);
     fstWriterUint64(xc->handle, (unsigned long int)0);
     fstWriterVarint(xc->handle, (unsigned long int)xc->maxvalpos);
     if(rc == 0)
-      tmp_if_expr$4 = destlen < (unsigned long int)xc->maxvalpos ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = destlen < (unsigned long int)xc->maxvalpos ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
       fstWriterVarint(xc->handle, destlen);
 
     else
       fstWriterVarint(xc->handle, (unsigned long int)xc->maxvalpos);
     fstWriterVarint(xc->handle, (unsigned long int)xc->maxhandle);
     if(rc == 0)
-      tmp_if_expr$5 = destlen < (unsigned long int)xc->maxvalpos ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = destlen < (unsigned long int)xc->maxvalpos ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
       fstFwrite((const void *)dmem, destlen, (unsigned long int)1, xc->handle);
 
     else
@@ -9747,7 +9747,7 @@ void fstWriterEmitTimeChange(void *ctx, unsigned long int tim)
   struct fstWriterContext *xc = (struct fstWriterContext *)ctx;
   unsigned int i;
   signed int skip = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(xc == ((struct fstWriterContext *)NULL)))
   {
     if(!(xc->is_initial_time == 0u))
@@ -9776,11 +9776,11 @@ void fstWriterEmitTimeChange(void *ctx, unsigned long int tim)
     else
     {
       if((unsigned long int)xc->vchg_siz >= xc->fst_break_size)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = xc->flush_context_pending != 0u ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = xc->flush_context_pending != 0u ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         xc->flush_context_pending = (unsigned int)0;
         fstWriterFlushContextPrivate((void *)xc);
@@ -9833,9 +9833,9 @@ void fstWriterEmitValueChange(void *ctx, unsigned int handle, const void *val)
           if(!(xc->vchg_alloc_siz >= 10u + fpos + (unsigned int)len))
           {
             xc->vchg_alloc_siz = xc->vchg_alloc_siz + (unsigned int)(xc->fst_break_add_size + (unsigned long int)len);
-            void *return_value_realloc$1;
-            return_value_realloc$1=realloc((void *)xc->vchg_mem, (unsigned long int)xc->vchg_alloc_siz);
-            xc->vchg_mem = (unsigned char *)return_value_realloc$1;
+            void *return_value_realloc_1;
+            return_value_realloc_1=realloc((void *)xc->vchg_mem, (unsigned long int)xc->vchg_alloc_siz);
+            xc->vchg_mem = (unsigned char *)return_value_realloc_1;
             if(xc->vchg_mem == ((unsigned char *)NULL))
             {
               fprintf(stderr, "FATAL ERROR, could not realloc() in fstWriterEmitValueChange, exiting.\n");
@@ -9844,9 +9844,9 @@ void fstWriterEmitValueChange(void *ctx, unsigned int handle, const void *val)
 
           }
 
-          unsigned int return_value_fstWriterUint32WithVarint32$2;
-          return_value_fstWriterUint32WithVarint32$2=fstWriterUint32WithVarint32(xc, &vm4ip[(signed long int)2], xc->tchn_idx - vm4ip[(signed long int)3], (const void *)buf, (unsigned int)len);
-          xc->vchg_siz = xc->vchg_siz + return_value_fstWriterUint32WithVarint32$2;
+          unsigned int return_value_fstWriterUint32WithVarint32_2;
+          return_value_fstWriterUint32WithVarint32_2=fstWriterUint32WithVarint32(xc, &vm4ip[(signed long int)2], xc->tchn_idx - vm4ip[(signed long int)3], (const void *)buf, (unsigned int)len);
+          xc->vchg_siz = xc->vchg_siz + return_value_fstWriterUint32WithVarint32_2;
           vm4ip[(signed long int)3] = xc->tchn_idx;
           vm4ip[(signed long int)2] = fpos;
         }
@@ -9890,9 +9890,9 @@ void fstWriterEmitVariableLengthValueChange(void *ctx, unsigned int handle, cons
         if(!(xc->vchg_alloc_siz >= 15u + fpos + len))
         {
           xc->vchg_alloc_siz = xc->vchg_alloc_siz + (unsigned int)(xc->fst_break_add_size + (unsigned long int)len + (unsigned long int)5);
-          void *return_value_realloc$1;
-          return_value_realloc$1=realloc((void *)xc->vchg_mem, (unsigned long int)xc->vchg_alloc_siz);
-          xc->vchg_mem = (unsigned char *)return_value_realloc$1;
+          void *return_value_realloc_1;
+          return_value_realloc_1=realloc((void *)xc->vchg_mem, (unsigned long int)xc->vchg_alloc_siz);
+          xc->vchg_mem = (unsigned char *)return_value_realloc_1;
           if(xc->vchg_mem == ((unsigned char *)NULL))
           {
             fprintf(stderr, "FATAL ERROR, could not realloc() in fstWriterEmitVariableLengthValueChange, exiting.\n");
@@ -9901,9 +9901,9 @@ void fstWriterEmitVariableLengthValueChange(void *ctx, unsigned int handle, cons
 
         }
 
-        unsigned int return_value_fstWriterUint32WithVarint32AndLength$2;
-        return_value_fstWriterUint32WithVarint32AndLength$2=fstWriterUint32WithVarint32AndLength(xc, &vm4ip[(signed long int)2], xc->tchn_idx - vm4ip[(signed long int)3], (const void *)buf, len);
-        xc->vchg_siz = xc->vchg_siz + return_value_fstWriterUint32WithVarint32AndLength$2;
+        unsigned int return_value_fstWriterUint32WithVarint32AndLength_2;
+        return_value_fstWriterUint32WithVarint32AndLength_2=fstWriterUint32WithVarint32AndLength(xc, &vm4ip[(signed long int)2], xc->tchn_idx - vm4ip[(signed long int)3], (const void *)buf, len);
+        xc->vchg_siz = xc->vchg_siz + return_value_fstWriterUint32WithVarint32AndLength_2;
         vm4ip[(signed long int)3] = xc->tchn_idx;
         vm4ip[(signed long int)2] = fpos;
       }
@@ -9936,21 +9936,21 @@ static void fstWriterFlushContextPrivate(void *ctx)
   if(!(xc->parallel_enabled == 0u))
   {
     struct fstWriterContext *xc2;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct fstWriterContext) /*432ul*/ );
-    xc2 = (struct fstWriterContext *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct fstWriterContext) /*432ul*/ );
+    xc2 = (struct fstWriterContext *)return_value_malloc_1;
     unsigned int i;
     pthread_mutex_lock(&xc->mutex);
     pthread_mutex_unlock(&xc->mutex);
     xc->xc_parent = xc;
     memcpy((void *)xc2, (const void *)xc, sizeof(struct fstWriterContext) /*432ul*/ );
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)(xc->maxhandle * (unsigned int)4) * sizeof(unsigned int) /*4ul*/ );
-    xc2->valpos_mem = (unsigned int *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)(xc->maxhandle * (unsigned int)4) * sizeof(unsigned int) /*4ul*/ );
+    xc2->valpos_mem = (unsigned int *)return_value_malloc_2;
     memcpy((void *)xc2->valpos_mem, (const void *)xc->valpos_mem, (unsigned long int)(xc->maxhandle * (unsigned int)4) * sizeof(unsigned int) /*4ul*/ );
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)xc->vchg_alloc_siz);
-    xc->vchg_mem = (unsigned char *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)xc->vchg_alloc_siz);
+    xc->vchg_mem = (unsigned char *)return_value_malloc_3;
     xc->vchg_mem[(signed long int)0] = (unsigned char)33;
     xc->vchg_siz = (unsigned int)1;
     i = (unsigned int)0;
@@ -9964,9 +9964,9 @@ static void fstWriterFlushContextPrivate(void *ctx)
     xc->tchn_cnt = xc->tchn_idx;
     xc->tchn_handle=tmpfile_open(&xc->tchn_handle_nam);
     fstWriterFseeko(xc, xc->tchn_handle, (signed long int)0, 0);
-    signed int return_value_fileno$4;
-    return_value_fileno$4=fileno(xc->tchn_handle);
-    fstFtruncate(return_value_fileno$4, (signed long int)0);
+    signed int return_value_fileno_4;
+    return_value_fileno_4=fileno(xc->tchn_handle);
+    fstFtruncate(return_value_fileno_4, (signed long int)0);
     xc->section_header_only = (unsigned int)0;
     xc->secnum = xc->secnum + 1u;
     pthread_mutex_lock(&xc->mutex);
@@ -10023,38 +10023,38 @@ static void fstWriterFlushContextPrivate2(void *ctx)
   struct fstWriterContext *xc = (struct fstWriterContext *)ctx;
   struct fstWriterContext *xc2 = xc->xc_parent;
   void *PJHSArray = (void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(xc->vchg_siz >= 2u))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = xc->already_in_flush != 0 ? (_Bool)1 : (_Bool)0;
-  signed int tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  signed int tmp_if_expr$14;
-  signed int return_value_LZ4_compress$12;
-  signed int return_value_fastlz_compress$13;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = xc->already_in_flush != 0 ? (_Bool)1 : (_Bool)0;
+  signed int tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  signed int tmp_if_expr_14;
+  signed int return_value_LZ4_compress_12;
+  signed int return_value_fastlz_compress_13;
+  if(!tmp_if_expr_1)
   {
     xc->already_in_flush = (unsigned char)1;
     xc->section_header_only = (unsigned int)0;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)xc->vchg_siz);
-    scratchpad = (unsigned char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)xc->vchg_siz);
+    scratchpad = (unsigned char *)return_value_malloc_2;
     vchg_mem = xc->vchg_mem;
     f = xc->handle;
     fstWriterVarint(f, (unsigned long int)xc->maxhandle);
     if(!(xc->fourpack == 0u))
-      tmp_if_expr$3 = 52;
+      tmp_if_expr_3 = 52;
 
     else
-      tmp_if_expr$3 = xc->fastpack != 0u ? 70 : 90;
-    fputc(tmp_if_expr$3, f);
+      tmp_if_expr_3 = xc->fastpack != 0u ? 70 : 90;
+    fputc(tmp_if_expr_3, f);
     fpos = (signed long int)1;
     packmemlen = (unsigned int)1024;
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc((unsigned long int)packmemlen);
-    packmem = (unsigned char *)return_value_malloc$4;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc((unsigned long int)packmemlen);
+    packmem = (unsigned char *)return_value_malloc_4;
     i = (unsigned int)0;
     for( ; !(i >= xc->maxhandle); i = i + 1u)
     {
@@ -10144,21 +10144,21 @@ static void fstWriterFlushContextPrivate2(void *ctx)
           {
             unsigned char *pnt;
             unsigned int record_len;
-            unsigned int fstWriterFlushContextPrivate2$$1$$1$$1$$1$$1$$2$$time_delta;
+            unsigned int fstWriterFlushContextPrivate2__1__1__1__1__1__2__time_delta;
             while(!(offs == 0u))
             {
               next_offs = *((unsigned int *)(vchg_mem + (signed long int)offs));
               offs = offs + (unsigned int)4;
               pnt = vchg_mem + (signed long int)offs;
               offs = next_offs;
-              fstWriterFlushContextPrivate2$$1$$1$$1$$1$$1$$2$$time_delta=fstGetVarint32(pnt, (signed int *)&wrlen);
+              fstWriterFlushContextPrivate2__1__1__1__1__1__2__time_delta=fstGetVarint32(pnt, (signed int *)&wrlen);
               pnt = pnt + (signed long int)wrlen;
               record_len=fstGetVarint32(pnt, (signed int *)&wrlen);
               pnt = pnt + (signed long int)wrlen;
               scratchpnt = scratchpnt - (signed long int)record_len;
               memcpy((void *)scratchpnt, (const void *)pnt, (unsigned long int)record_len);
               scratchpnt=fstCopyVarint32ToLeft(scratchpnt, record_len);
-              scratchpnt=fstCopyVarint32ToLeft(scratchpnt, fstWriterFlushContextPrivate2$$1$$1$$1$$1$$1$$2$$time_delta << 1);
+              scratchpnt=fstCopyVarint32ToLeft(scratchpnt, fstWriterFlushContextPrivate2__1__1__1__1__1__2__time_delta << 1);
             }
           }
         }
@@ -10171,22 +10171,22 @@ static void fstWriterFlushContextPrivate2(void *ctx)
           {
             unsigned int idx;
             char is_binary = (char)1;
-            unsigned char *fstWriterFlushContextPrivate2$$1$$1$$1$$1$$2$$1$$pnt;
-            unsigned int fstWriterFlushContextPrivate2$$1$$1$$1$$1$$2$$1$$time_delta;
+            unsigned char *fstWriterFlushContextPrivate2__1__1__1__1__2__1__pnt;
+            unsigned int fstWriterFlushContextPrivate2__1__1__1__1__2__1__time_delta;
             next_offs = *((unsigned int *)(vchg_mem + (signed long int)offs));
             offs = offs + (unsigned int)4;
-            fstWriterFlushContextPrivate2$$1$$1$$1$$1$$2$$1$$time_delta=fstGetVarint32(vchg_mem + (signed long int)offs, (signed int *)&wrlen);
-            fstWriterFlushContextPrivate2$$1$$1$$1$$1$$2$$1$$pnt = vchg_mem + (signed long int)offs + (signed long int)wrlen;
+            fstWriterFlushContextPrivate2__1__1__1__1__2__1__time_delta=fstGetVarint32(vchg_mem + (signed long int)offs, (signed int *)&wrlen);
+            fstWriterFlushContextPrivate2__1__1__1__1__2__1__pnt = vchg_mem + (signed long int)offs + (signed long int)wrlen;
             offs = next_offs;
             idx = (unsigned int)0;
             for( ; !(idx >= vm4ip[1l]); idx = idx + 1u)
             {
-              if((signed int)fstWriterFlushContextPrivate2$$1$$1$$1$$1$$2$$1$$pnt[(signed long int)idx] == 48)
-                tmp_if_expr$5 = (_Bool)1;
+              if((signed int)fstWriterFlushContextPrivate2__1__1__1__1__2__1__pnt[(signed long int)idx] == 48)
+                tmp_if_expr_5 = (_Bool)1;
 
               else
-                tmp_if_expr$5 = (signed int)fstWriterFlushContextPrivate2$$1$$1$$1$$1$$2$$1$$pnt[(signed long int)idx] == 49 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$5)
+                tmp_if_expr_5 = (signed int)fstWriterFlushContextPrivate2__1__1__1__1__2__1__pnt[(signed long int)idx] == 49 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_5)
                 goto __CPROVER_DUMP_L28;
 
               else
@@ -10205,20 +10205,20 @@ static void fstWriterFlushContextPrivate2(void *ctx)
               switch(vm4ip[(signed long int)1] & (unsigned int)7)
               {
                 case (unsigned int)7:
-                  acc = acc | (unsigned char)(((signed int)fstWriterFlushContextPrivate2$$1$$1$$1$$1$$2$$1$$pnt[(signed long int)((idx + (unsigned int)6) - (unsigned int)8)] & 1) << 1);
+                  acc = acc | (unsigned char)(((signed int)fstWriterFlushContextPrivate2__1__1__1__1__2__1__pnt[(signed long int)((idx + (unsigned int)6) - (unsigned int)8)] & 1) << 1);
                 case (unsigned int)6:
-                  acc = acc | (unsigned char)(((signed int)fstWriterFlushContextPrivate2$$1$$1$$1$$1$$2$$1$$pnt[(signed long int)((idx + (unsigned int)5) - (unsigned int)8)] & 1) << 2);
+                  acc = acc | (unsigned char)(((signed int)fstWriterFlushContextPrivate2__1__1__1__1__2__1__pnt[(signed long int)((idx + (unsigned int)5) - (unsigned int)8)] & 1) << 2);
                 case (unsigned int)5:
-                  acc = acc | (unsigned char)(((signed int)fstWriterFlushContextPrivate2$$1$$1$$1$$1$$2$$1$$pnt[(signed long int)((idx + (unsigned int)4) - (unsigned int)8)] & 1) << 3);
+                  acc = acc | (unsigned char)(((signed int)fstWriterFlushContextPrivate2__1__1__1__1__2__1__pnt[(signed long int)((idx + (unsigned int)4) - (unsigned int)8)] & 1) << 3);
                 case (unsigned int)4:
-                  acc = acc | (unsigned char)(((signed int)fstWriterFlushContextPrivate2$$1$$1$$1$$1$$2$$1$$pnt[(signed long int)((idx + (unsigned int)3) - (unsigned int)8)] & 1) << 4);
+                  acc = acc | (unsigned char)(((signed int)fstWriterFlushContextPrivate2__1__1__1__1__2__1__pnt[(signed long int)((idx + (unsigned int)3) - (unsigned int)8)] & 1) << 4);
                 case (unsigned int)3:
-                  acc = acc | (unsigned char)(((signed int)fstWriterFlushContextPrivate2$$1$$1$$1$$1$$2$$1$$pnt[(signed long int)((idx + (unsigned int)2) - (unsigned int)8)] & 1) << 5);
+                  acc = acc | (unsigned char)(((signed int)fstWriterFlushContextPrivate2__1__1__1__1__2__1__pnt[(signed long int)((idx + (unsigned int)2) - (unsigned int)8)] & 1) << 5);
                 case (unsigned int)2:
-                  acc = acc | (unsigned char)(((signed int)fstWriterFlushContextPrivate2$$1$$1$$1$$1$$2$$1$$pnt[(signed long int)((idx + (unsigned int)1) - (unsigned int)8)] & 1) << 6);
+                  acc = acc | (unsigned char)(((signed int)fstWriterFlushContextPrivate2__1__1__1__1__2__1__pnt[(signed long int)((idx + (unsigned int)1) - (unsigned int)8)] & 1) << 6);
                 case (unsigned int)1:
                 {
-                  acc = acc | (unsigned char)(((signed int)fstWriterFlushContextPrivate2$$1$$1$$1$$1$$2$$1$$pnt[(signed long int)((idx + (unsigned int)0) - (unsigned int)8)] & 1) << 7);
+                  acc = acc | (unsigned char)(((signed int)fstWriterFlushContextPrivate2__1__1__1__1__2__1__pnt[(signed long int)((idx + (unsigned int)0) - (unsigned int)8)] & 1) << 7);
                   scratchpnt = scratchpnt - 1l;
                   *scratchpnt = acc;
                   idx = idx - (unsigned int)8;
@@ -10231,18 +10231,18 @@ static void fstWriterFlushContextPrivate2(void *ctx)
 
                 __CPROVER_DUMP_L30:
                   ;
-                  acc = (unsigned char)(((signed int)fstWriterFlushContextPrivate2$$1$$1$$1$$1$$2$$1$$pnt[(signed long int)((idx + (unsigned int)7) - (unsigned int)8)] & 1) << 0);
+                  acc = (unsigned char)(((signed int)fstWriterFlushContextPrivate2__1__1__1__1__2__1__pnt[(signed long int)((idx + (unsigned int)7) - (unsigned int)8)] & 1) << 0);
                 }
                 default:
-                  scratchpnt=fstCopyVarint32ToLeft(scratchpnt, fstWriterFlushContextPrivate2$$1$$1$$1$$1$$2$$1$$time_delta << 1);
+                  scratchpnt=fstCopyVarint32ToLeft(scratchpnt, fstWriterFlushContextPrivate2__1__1__1__1__2__1__time_delta << 1);
               }
             }
 
             else
             {
               scratchpnt = scratchpnt - (signed long int)vm4ip[(signed long int)1];
-              memcpy((void *)scratchpnt, (const void *)fstWriterFlushContextPrivate2$$1$$1$$1$$1$$2$$1$$pnt, (unsigned long int)vm4ip[(signed long int)1]);
-              scratchpnt=fstCopyVarint32ToLeft(scratchpnt, fstWriterFlushContextPrivate2$$1$$1$$1$$1$$2$$1$$time_delta << 1 | (unsigned int)1);
+              memcpy((void *)scratchpnt, (const void *)fstWriterFlushContextPrivate2__1__1__1__1__2__1__pnt, (unsigned long int)vm4ip[(signed long int)1]);
+              scratchpnt=fstCopyVarint32ToLeft(scratchpnt, fstWriterFlushContextPrivate2__1__1__1__1__2__1__time_delta << 1 | (unsigned int)1);
             }
           }
         }
@@ -10262,16 +10262,16 @@ static void fstWriterFlushContextPrivate2(void *ctx)
             {
               free((void *)packmem);
               packmemlen = wrlen;
-              unsigned long int return_value_compressBound$6;
-              return_value_compressBound$6=compressBound((unsigned long int)packmemlen);
-              void *return_value_malloc$7;
-              return_value_malloc$7=malloc(return_value_compressBound$6);
-              packmem = (unsigned char *)return_value_malloc$7;
+              unsigned long int return_value_compressBound_6;
+              return_value_compressBound_6=compressBound((unsigned long int)packmemlen);
+              void *return_value_malloc_7;
+              return_value_malloc_7=malloc(return_value_compressBound_6);
+              packmem = (unsigned char *)return_value_malloc_7;
               dmem = packmem;
             }
-            signed int return_value_compress2$8;
-            return_value_compress2$8=compress2(dmem, &destlen, scratchpnt, (unsigned long int)wrlen, 4);
-            rc = (unsigned int)return_value_compress2$8;
+            signed int return_value_compress2_8;
+            return_value_compress2_8=compress2(dmem, &destlen, scratchpnt, (unsigned long int)wrlen, 4);
+            rc = (unsigned int)return_value_compress2_8;
             if(rc == 0u)
             {
               void **pv;
@@ -10285,9 +10285,9 @@ static void fstWriterFlushContextPrivate2(void *ctx)
               else
               {
                 *pv = (void *)(signed long int)(i + (unsigned int)1);
-                signed int return_value_fstWriterVarint$9;
-                return_value_fstWriterVarint$9=fstWriterVarint(f, (unsigned long int)wrlen);
-                fpos = fpos + (signed long int)return_value_fstWriterVarint$9;
+                signed int return_value_fstWriterVarint_9;
+                return_value_fstWriterVarint_9=fstWriterVarint(f, (unsigned long int)wrlen);
+                fpos = fpos + (signed long int)return_value_fstWriterVarint_9;
                 fpos = fpos + (signed long int)destlen;
                 fstFwrite((const void *)dmem, destlen, (unsigned long int)1, f);
               }
@@ -10295,20 +10295,20 @@ static void fstWriterFlushContextPrivate2(void *ctx)
 
             else
             {
-              void **fstWriterFlushContextPrivate2$$1$$1$$1$$1$$3$$1$$4$$pv;
-              fstWriterFlushContextPrivate2$$1$$1$$1$$1$$3$$1$$4$$pv=JudyHSIns(&PJHSArray, (void *)scratchpnt, (unsigned long int)wrlen, (struct J_UDY_ERROR_STRUCT *)(void *)0);
-              if(!(*fstWriterFlushContextPrivate2$$1$$1$$1$$1$$3$$1$$4$$pv == NULL))
+              void **fstWriterFlushContextPrivate2__1__1__1__1__3__1__4__pv;
+              fstWriterFlushContextPrivate2__1__1__1__1__3__1__4__pv=JudyHSIns(&PJHSArray, (void *)scratchpnt, (unsigned long int)wrlen, (struct J_UDY_ERROR_STRUCT *)(void *)0);
+              if(!(*fstWriterFlushContextPrivate2__1__1__1__1__3__1__4__pv == NULL))
               {
-                unsigned int fstWriterFlushContextPrivate2$$1$$1$$1$$1$$3$$1$$4$$1$$pvi = (unsigned int)(signed long int)*fstWriterFlushContextPrivate2$$1$$1$$1$$1$$3$$1$$4$$pv;
-                vm4ip[(signed long int)2] = -fstWriterFlushContextPrivate2$$1$$1$$1$$1$$3$$1$$4$$1$$pvi;
+                unsigned int fstWriterFlushContextPrivate2__1__1__1__1__3__1__4__1__pvi = (unsigned int)(signed long int)*fstWriterFlushContextPrivate2__1__1__1__1__3__1__4__pv;
+                vm4ip[(signed long int)2] = -fstWriterFlushContextPrivate2__1__1__1__1__3__1__4__1__pvi;
               }
 
               else
               {
-                *fstWriterFlushContextPrivate2$$1$$1$$1$$1$$3$$1$$4$$pv = (void *)(signed long int)(i + (unsigned int)1);
-                signed int return_value_fstWriterVarint$10;
-                return_value_fstWriterVarint$10=fstWriterVarint(f, (unsigned long int)0);
-                fpos = fpos + (signed long int)return_value_fstWriterVarint$10;
+                *fstWriterFlushContextPrivate2__1__1__1__1__3__1__4__pv = (void *)(signed long int)(i + (unsigned int)1);
+                signed int return_value_fstWriterVarint_10;
+                return_value_fstWriterVarint_10=fstWriterVarint(f, (unsigned long int)0);
+                fpos = fpos + (signed long int)return_value_fstWriterVarint_10;
                 fpos = fpos + (signed long int)wrlen;
                 fstFwrite((const void *)scratchpnt, (unsigned long int)wrlen, (unsigned long int)1, f);
               }
@@ -10324,39 +10324,39 @@ static void fstWriterFlushContextPrivate2(void *ctx)
             {
               free((void *)packmem);
               packmemlen = wrlen * (unsigned int)2 + (unsigned int)2;
-              void *return_value_malloc$11;
-              return_value_malloc$11=malloc((unsigned long int)packmemlen);
-              packmem = (unsigned char *)return_value_malloc$11;
+              void *return_value_malloc_11;
+              return_value_malloc_11=malloc((unsigned long int)packmemlen);
+              packmem = (unsigned char *)return_value_malloc_11;
               dmem = packmem;
             }
             if(!(xc->fourpack == 0u))
             {
-              return_value_LZ4_compress$12=LZ4_compress((char *)scratchpnt, (char *)dmem, (signed int)wrlen);
-              tmp_if_expr$14 = return_value_LZ4_compress$12;
+              return_value_LZ4_compress_12=LZ4_compress((char *)scratchpnt, (char *)dmem, (signed int)wrlen);
+              tmp_if_expr_14 = return_value_LZ4_compress_12;
             }
 
             else
             {
-              return_value_fastlz_compress$13=fastlz_compress((const void *)scratchpnt, (signed int)wrlen, (void *)dmem);
-              tmp_if_expr$14 = return_value_fastlz_compress$13;
+              return_value_fastlz_compress_13=fastlz_compress((const void *)scratchpnt, (signed int)wrlen, (void *)dmem);
+              tmp_if_expr_14 = return_value_fastlz_compress_13;
             }
-            rc = (unsigned int)tmp_if_expr$14;
+            rc = (unsigned int)tmp_if_expr_14;
             if(!((unsigned long int)rc >= destlen))
             {
-              void **fstWriterFlushContextPrivate2$$1$$1$$1$$1$$3$$2$$3$$pv;
-              fstWriterFlushContextPrivate2$$1$$1$$1$$1$$3$$2$$3$$pv=JudyHSIns(&PJHSArray, (void *)dmem, (unsigned long int)rc, (struct J_UDY_ERROR_STRUCT *)(void *)0);
-              if(!(*fstWriterFlushContextPrivate2$$1$$1$$1$$1$$3$$2$$3$$pv == NULL))
+              void **fstWriterFlushContextPrivate2__1__1__1__1__3__2__3__pv;
+              fstWriterFlushContextPrivate2__1__1__1__1__3__2__3__pv=JudyHSIns(&PJHSArray, (void *)dmem, (unsigned long int)rc, (struct J_UDY_ERROR_STRUCT *)(void *)0);
+              if(!(*fstWriterFlushContextPrivate2__1__1__1__1__3__2__3__pv == NULL))
               {
-                unsigned int fstWriterFlushContextPrivate2$$1$$1$$1$$1$$3$$2$$3$$1$$pvi = (unsigned int)(signed long int)*fstWriterFlushContextPrivate2$$1$$1$$1$$1$$3$$2$$3$$pv;
-                vm4ip[(signed long int)2] = -fstWriterFlushContextPrivate2$$1$$1$$1$$1$$3$$2$$3$$1$$pvi;
+                unsigned int fstWriterFlushContextPrivate2__1__1__1__1__3__2__3__1__pvi = (unsigned int)(signed long int)*fstWriterFlushContextPrivate2__1__1__1__1__3__2__3__pv;
+                vm4ip[(signed long int)2] = -fstWriterFlushContextPrivate2__1__1__1__1__3__2__3__1__pvi;
               }
 
               else
               {
-                *fstWriterFlushContextPrivate2$$1$$1$$1$$1$$3$$2$$3$$pv = (void *)(signed long int)(i + (unsigned int)1);
-                signed int return_value_fstWriterVarint$15;
-                return_value_fstWriterVarint$15=fstWriterVarint(f, (unsigned long int)wrlen);
-                fpos = fpos + (signed long int)return_value_fstWriterVarint$15;
+                *fstWriterFlushContextPrivate2__1__1__1__1__3__2__3__pv = (void *)(signed long int)(i + (unsigned int)1);
+                signed int return_value_fstWriterVarint_15;
+                return_value_fstWriterVarint_15=fstWriterVarint(f, (unsigned long int)wrlen);
+                fpos = fpos + (signed long int)return_value_fstWriterVarint_15;
                 fpos = fpos + (signed long int)rc;
                 fstFwrite((const void *)dmem, (unsigned long int)rc, (unsigned long int)1, f);
               }
@@ -10364,20 +10364,20 @@ static void fstWriterFlushContextPrivate2(void *ctx)
 
             else
             {
-              void **fstWriterFlushContextPrivate2$$1$$1$$1$$1$$3$$2$$4$$pv;
-              fstWriterFlushContextPrivate2$$1$$1$$1$$1$$3$$2$$4$$pv=JudyHSIns(&PJHSArray, (void *)scratchpnt, (unsigned long int)wrlen, (struct J_UDY_ERROR_STRUCT *)(void *)0);
-              if(!(*fstWriterFlushContextPrivate2$$1$$1$$1$$1$$3$$2$$4$$pv == NULL))
+              void **fstWriterFlushContextPrivate2__1__1__1__1__3__2__4__pv;
+              fstWriterFlushContextPrivate2__1__1__1__1__3__2__4__pv=JudyHSIns(&PJHSArray, (void *)scratchpnt, (unsigned long int)wrlen, (struct J_UDY_ERROR_STRUCT *)(void *)0);
+              if(!(*fstWriterFlushContextPrivate2__1__1__1__1__3__2__4__pv == NULL))
               {
-                unsigned int fstWriterFlushContextPrivate2$$1$$1$$1$$1$$3$$2$$4$$1$$pvi = (unsigned int)(signed long int)*fstWriterFlushContextPrivate2$$1$$1$$1$$1$$3$$2$$4$$pv;
-                vm4ip[(signed long int)2] = -fstWriterFlushContextPrivate2$$1$$1$$1$$1$$3$$2$$4$$1$$pvi;
+                unsigned int fstWriterFlushContextPrivate2__1__1__1__1__3__2__4__1__pvi = (unsigned int)(signed long int)*fstWriterFlushContextPrivate2__1__1__1__1__3__2__4__pv;
+                vm4ip[(signed long int)2] = -fstWriterFlushContextPrivate2__1__1__1__1__3__2__4__1__pvi;
               }
 
               else
               {
-                *fstWriterFlushContextPrivate2$$1$$1$$1$$1$$3$$2$$4$$pv = (void *)(signed long int)(i + (unsigned int)1);
-                signed int return_value_fstWriterVarint$16;
-                return_value_fstWriterVarint$16=fstWriterVarint(f, (unsigned long int)0);
-                fpos = fpos + (signed long int)return_value_fstWriterVarint$16;
+                *fstWriterFlushContextPrivate2__1__1__1__1__3__2__4__pv = (void *)(signed long int)(i + (unsigned int)1);
+                signed int return_value_fstWriterVarint_16;
+                return_value_fstWriterVarint_16=fstWriterVarint(f, (unsigned long int)0);
+                fpos = fpos + (signed long int)return_value_fstWriterVarint_16;
                 fpos = fpos + (signed long int)wrlen;
                 fstFwrite((const void *)scratchpnt, (unsigned long int)wrlen, (unsigned long int)1, f);
               }
@@ -10387,20 +10387,20 @@ static void fstWriterFlushContextPrivate2(void *ctx)
 
         else
         {
-          void **fstWriterFlushContextPrivate2$$1$$1$$1$$1$$4$$pv;
-          fstWriterFlushContextPrivate2$$1$$1$$1$$1$$4$$pv=JudyHSIns(&PJHSArray, (void *)scratchpnt, (unsigned long int)wrlen, (struct J_UDY_ERROR_STRUCT *)(void *)0);
-          if(!(*fstWriterFlushContextPrivate2$$1$$1$$1$$1$$4$$pv == NULL))
+          void **fstWriterFlushContextPrivate2__1__1__1__1__4__pv;
+          fstWriterFlushContextPrivate2__1__1__1__1__4__pv=JudyHSIns(&PJHSArray, (void *)scratchpnt, (unsigned long int)wrlen, (struct J_UDY_ERROR_STRUCT *)(void *)0);
+          if(!(*fstWriterFlushContextPrivate2__1__1__1__1__4__pv == NULL))
           {
-            unsigned int fstWriterFlushContextPrivate2$$1$$1$$1$$1$$4$$1$$pvi = (unsigned int)(signed long int)*fstWriterFlushContextPrivate2$$1$$1$$1$$1$$4$$pv;
-            vm4ip[(signed long int)2] = -fstWriterFlushContextPrivate2$$1$$1$$1$$1$$4$$1$$pvi;
+            unsigned int fstWriterFlushContextPrivate2__1__1__1__1__4__1__pvi = (unsigned int)(signed long int)*fstWriterFlushContextPrivate2__1__1__1__1__4__pv;
+            vm4ip[(signed long int)2] = -fstWriterFlushContextPrivate2__1__1__1__1__4__1__pvi;
           }
 
           else
           {
-            *fstWriterFlushContextPrivate2$$1$$1$$1$$1$$4$$pv = (void *)(signed long int)(i + (unsigned int)1);
-            signed int return_value_fstWriterVarint$17;
-            return_value_fstWriterVarint$17=fstWriterVarint(f, (unsigned long int)0);
-            fpos = fpos + (signed long int)return_value_fstWriterVarint$17;
+            *fstWriterFlushContextPrivate2__1__1__1__1__4__pv = (void *)(signed long int)(i + (unsigned int)1);
+            signed int return_value_fstWriterVarint_17;
+            return_value_fstWriterVarint_17=fstWriterVarint(f, (unsigned long int)0);
+            fpos = fpos + (signed long int)return_value_fstWriterVarint_17;
             fpos = fpos + (signed long int)wrlen;
             fstFwrite((const void *)scratchpnt, (unsigned long int)wrlen, (unsigned long int)1, f);
           }
@@ -10427,9 +10427,9 @@ static void fstWriterFlushContextPrivate2(void *ctx)
         {
           if(!(zerocnt == 0))
           {
-            signed int return_value_fstWriterVarint$18;
-            return_value_fstWriterVarint$18=fstWriterVarint(f, (unsigned long int)(zerocnt << 1));
-            fpos = fpos + (signed long int)return_value_fstWriterVarint$18;
+            signed int return_value_fstWriterVarint_18;
+            return_value_fstWriterVarint_18=fstWriterVarint(f, (unsigned long int)(zerocnt << 1));
+            fpos = fpos + (signed long int)return_value_fstWriterVarint_18;
             zerocnt = 0;
           }
 
@@ -10438,24 +10438,24 @@ static void fstWriterFlushContextPrivate2(void *ctx)
             if(!(vm4ip[2l] == prev_alias))
             {
               prev_alias = vm4ip[(signed long int)2];
-              signed int return_value_fstWriterSVarint$19;
-              return_value_fstWriterSVarint$19=fstWriterSVarint(f, (signed long int)(signed int)prev_alias << 1 | (signed long int)1);
-              fpos = fpos + (signed long int)return_value_fstWriterSVarint$19;
+              signed int return_value_fstWriterSVarint_19;
+              return_value_fstWriterSVarint_19=fstWriterSVarint(f, (signed long int)(signed int)prev_alias << 1 | (signed long int)1);
+              fpos = fpos + (signed long int)return_value_fstWriterSVarint_19;
             }
 
             else
             {
-              signed int return_value_fstWriterSVarint$20;
-              return_value_fstWriterSVarint$20=fstWriterSVarint(f, (signed long int)(0 << 1 | 1));
-              fpos = fpos + (signed long int)return_value_fstWriterSVarint$20;
+              signed int return_value_fstWriterSVarint_20;
+              return_value_fstWriterSVarint_20=fstWriterSVarint(f, (signed long int)(0 << 1 | 1));
+              fpos = fpos + (signed long int)return_value_fstWriterSVarint_20;
             }
           }
 
           else
           {
-            signed int return_value_fstWriterSVarint$21;
-            return_value_fstWriterSVarint$21=fstWriterSVarint(f, (signed long int)(vm4ip[(signed long int)2] - prevpos << 1 | (unsigned int)1));
-            fpos = fpos + (signed long int)return_value_fstWriterSVarint$21;
+            signed int return_value_fstWriterSVarint_21;
+            return_value_fstWriterSVarint_21=fstWriterSVarint(f, (signed long int)(vm4ip[(signed long int)2] - prevpos << 1 | (unsigned int)1));
+            fpos = fpos + (signed long int)return_value_fstWriterSVarint_21;
             prevpos = vm4ip[(signed long int)2];
           }
           vm4ip[(signed long int)2] = (unsigned int)0;
@@ -10476,45 +10476,45 @@ static void fstWriterFlushContextPrivate2(void *ctx)
     fflush(xc->tchn_handle);
     tlen=ftello(xc->tchn_handle);
     fstWriterFseeko(xc, xc->tchn_handle, (signed long int)0, 0);
-    signed int return_value_fileno$26;
-    return_value_fileno$26=fileno(xc->tchn_handle);
-    void *return_value_mmap$27;
-    return_value_mmap$27=mmap((void *)0, (unsigned long int)tlen, 0x1 | 0x2, 0x01, return_value_fileno$26, (signed long int)0);
-    tmem = (unsigned char *)(void *)return_value_mmap$27;
+    signed int return_value_fileno_26;
+    return_value_fileno_26=fileno(xc->tchn_handle);
+    void *return_value_mmap_27;
+    return_value_mmap_27=mmap((void *)0, (unsigned long int)tlen, 0x1 | 0x2, 0x01, return_value_fileno_26, (signed long int)0);
+    tmem = (unsigned char *)(void *)return_value_mmap_27;
     if(!(tmem == ((unsigned char *)NULL)))
     {
-      unsigned long int fstWriterFlushContextPrivate2$$1$$5$$destlen = (unsigned long int)tlen;
-      unsigned char *fstWriterFlushContextPrivate2$$1$$5$$dmem;
-      unsigned long int return_value_compressBound$28;
-      return_value_compressBound$28=compressBound(fstWriterFlushContextPrivate2$$1$$5$$destlen);
-      void *return_value_malloc$29;
-      return_value_malloc$29=malloc(return_value_compressBound$28);
-      fstWriterFlushContextPrivate2$$1$$5$$dmem = (unsigned char *)return_value_malloc$29;
-      signed int fstWriterFlushContextPrivate2$$1$$5$$rc;
-      fstWriterFlushContextPrivate2$$1$$5$$rc=compress2(fstWriterFlushContextPrivate2$$1$$5$$dmem, &fstWriterFlushContextPrivate2$$1$$5$$destlen, tmem, (unsigned long int)tlen, 9);
-      if(fstWriterFlushContextPrivate2$$1$$5$$rc == 0 && !((signed long int)fstWriterFlushContextPrivate2$$1$$5$$destlen >= tlen))
-        fstFwrite((const void *)fstWriterFlushContextPrivate2$$1$$5$$dmem, fstWriterFlushContextPrivate2$$1$$5$$destlen, (unsigned long int)1, xc->handle);
+      unsigned long int fstWriterFlushContextPrivate2__1__5__destlen = (unsigned long int)tlen;
+      unsigned char *fstWriterFlushContextPrivate2__1__5__dmem;
+      unsigned long int return_value_compressBound_28;
+      return_value_compressBound_28=compressBound(fstWriterFlushContextPrivate2__1__5__destlen);
+      void *return_value_malloc_29;
+      return_value_malloc_29=malloc(return_value_compressBound_28);
+      fstWriterFlushContextPrivate2__1__5__dmem = (unsigned char *)return_value_malloc_29;
+      signed int fstWriterFlushContextPrivate2__1__5__rc;
+      fstWriterFlushContextPrivate2__1__5__rc=compress2(fstWriterFlushContextPrivate2__1__5__dmem, &fstWriterFlushContextPrivate2__1__5__destlen, tmem, (unsigned long int)tlen, 9);
+      if(fstWriterFlushContextPrivate2__1__5__rc == 0 && !((signed long int)fstWriterFlushContextPrivate2__1__5__destlen >= tlen))
+        fstFwrite((const void *)fstWriterFlushContextPrivate2__1__5__dmem, fstWriterFlushContextPrivate2__1__5__destlen, (unsigned long int)1, xc->handle);
 
       else
       {
         fstFwrite((const void *)tmem, (unsigned long int)tlen, (unsigned long int)1, xc->handle);
-        fstWriterFlushContextPrivate2$$1$$5$$destlen = (unsigned long int)tlen;
+        fstWriterFlushContextPrivate2__1__5__destlen = (unsigned long int)tlen;
       }
-      free((void *)fstWriterFlushContextPrivate2$$1$$5$$dmem);
+      free((void *)fstWriterFlushContextPrivate2__1__5__dmem);
       if(!(tmem == ((unsigned char *)NULL)))
         munmap((void *)tmem, (unsigned long int)tlen);
 
       fstWriterUint64(xc->handle, (unsigned long int)tlen);
-      fstWriterUint64(xc->handle, fstWriterFlushContextPrivate2$$1$$5$$destlen);
+      fstWriterUint64(xc->handle, fstWriterFlushContextPrivate2__1__5__destlen);
       fstWriterUint64(xc->handle, (unsigned long int)xc->tchn_cnt);
     }
 
     xc->tchn_idx = (unsigned int)0;
     xc->tchn_cnt = xc->tchn_idx;
     fstWriterFseeko(xc, xc->tchn_handle, (signed long int)0, 0);
-    signed int return_value_fileno$30;
-    return_value_fileno$30=fileno(xc->tchn_handle);
-    fstFtruncate(return_value_fileno$30, (signed long int)0);
+    signed int return_value_fileno_30;
+    return_value_fileno_30=fileno(xc->tchn_handle);
+    fstFtruncate(return_value_fileno_30, (signed long int)0);
     endpos=ftello(xc->handle);
     fstWriterFseeko(xc, xc->handle, xc->section_start, 0);
     fstWriterUint64(xc->handle, (unsigned long int)(endpos - xc->section_start));
@@ -10592,7 +10592,7 @@ static signed int fstWriterSVarint(struct _IO_FILE *handle, signed long int v)
   unsigned char *pnt = buf;
   signed int more = 1;
   signed int len;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   do
   {
     byt = (unsigned char)(v | (signed long int)0x80);
@@ -10603,9 +10603,9 @@ static signed int fstWriterSVarint(struct _IO_FILE *handle, signed long int v)
       byt = byt & (unsigned char)0x7f;
     }
 
-    tmp_post$1 = pnt;
+    tmp_post_1 = pnt;
     pnt = pnt + 1l;
-    *tmp_post$1 = byt;
+    *tmp_post_1 = byt;
   }
   while(!(more == 0));
   len = (signed int)(pnt - buf);
@@ -10659,15 +10659,15 @@ void fstWriterSetAttrBegin(void *ctx, enum fstAttrType attrtype, signed int subt
         fprintf(xc->hier_handle, "%s%c", attrname != ((const char *)NULL) ? attrname : "", 0);
         if(!(attrname == ((const char *)NULL)))
         {
-          unsigned long int return_value_strlen$1;
-          return_value_strlen$1=strlen(attrname);
-          xc->hier_file_len = xc->hier_file_len + (signed long int)return_value_strlen$1;
+          unsigned long int return_value_strlen_1;
+          return_value_strlen_1=strlen(attrname);
+          xc->hier_file_len = xc->hier_file_len + (signed long int)return_value_strlen_1;
         }
 
         xc->hier_file_len = xc->hier_file_len + (signed long int)4;
-        signed int return_value_fstWriterVarint$2;
-        return_value_fstWriterVarint$2=fstWriterVarint(xc->hier_handle, arg);
-        xc->hier_file_len = xc->hier_file_len + (signed long int)return_value_fstWriterVarint$2;
+        signed int return_value_fstWriterVarint_2;
+        return_value_fstWriterVarint_2=fstWriterVarint(xc->hier_handle, arg);
+        xc->hier_file_len = xc->hier_file_len + (signed long int)return_value_fstWriterVarint_2;
       }
     }
   }
@@ -10710,7 +10710,7 @@ void fstWriterSetAttrEnd(void *ctx)
 static void fstWriterSetAttrGeneric(void *ctx, const char *comm, signed int typ, unsigned long int arg)
 {
   struct fstWriterContext *xc = (struct fstWriterContext *)ctx;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(comm == ((const char *)NULL)) && !(xc == ((struct fstWriterContext *)NULL)))
   {
     char *s;
@@ -10719,11 +10719,11 @@ static void fstWriterSetAttrGeneric(void *ctx, const char *comm, signed int typ,
     for( ; !(*s == 0); s = s + 1l)
     {
       if((signed int)*s == 10)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)*s == 13 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)*s == 13 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         *s = (char)32;
 
     }
@@ -10751,9 +10751,9 @@ void fstWriterSetDate(void *ctx, const char *dat)
     signed long int fpos;
     fpos=ftello(xc->handle);
     signed int len;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(dat);
-    len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(dat);
+    len = (signed int)return_value_strlen_1;
     fstWriterFseeko(xc, xc->handle, (signed long int)(0 + 1 + 8 + 8 + 8 + 8 + 8 + 8 + 8 + 8 + 8 + 1 + 128), 0);
     memset((void *)s, 0, (unsigned long int)119);
     memcpy((void *)s, (const void *)dat, (unsigned long int)(len < 119 ? len : 119));
@@ -10854,16 +10854,16 @@ void fstWriterSetScope(void *ctx, enum fstScopeType scopetype, const char *scope
     fprintf(xc->hier_handle, "%s%c%s%c", scopename != ((const char *)NULL) ? scopename : "", 0, scopecomp != ((const char *)NULL) ? scopecomp : "", 0);
     if(!(scopename == ((const char *)NULL)))
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(scopename);
-      xc->hier_file_len = xc->hier_file_len + (signed long int)return_value_strlen$1;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(scopename);
+      xc->hier_file_len = xc->hier_file_len + (signed long int)return_value_strlen_1;
     }
 
     if(!(scopecomp == ((const char *)NULL)))
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(scopecomp);
-      xc->hier_file_len = xc->hier_file_len + (signed long int)return_value_strlen$2;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(scopecomp);
+      xc->hier_file_len = xc->hier_file_len + (signed long int)return_value_strlen_2;
     }
 
     xc->hier_file_len = xc->hier_file_len + (signed long int)4;
@@ -10897,13 +10897,13 @@ static void fstWriterSetSourceStem_2(void *ctx, const char *path, unsigned int l
     {
       unsigned long int sidx = (unsigned long int)0;
       signed int slen;
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(path);
-      slen = (signed int)return_value_strlen$1;
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(path);
+      slen = (signed int)return_value_strlen_1;
       char *path2;
-      void *return_value___builtin_alloca$2;
-      return_value___builtin_alloca$2=__builtin_alloca((unsigned long int)(slen + 1));
-      path2 = (char *)return_value___builtin_alloca$2;
+      void *return_value___builtin_alloca_2;
+      return_value___builtin_alloca_2=__builtin_alloca((unsigned long int)(slen + 1));
+      path2 = (char *)return_value___builtin_alloca_2;
       void **pv;
       strcpy(path2, path);
       pv=JudyHSIns(&xc->path_array, (void *)path2, (unsigned long int)slen, (struct J_UDY_ERROR_STRUCT *)(void *)0);
@@ -11077,9 +11077,9 @@ void fstWriterSetVersion(void *ctx, const char *vers)
     signed long int fpos;
     fpos=ftello(xc->handle);
     signed int len;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(vers);
-    len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(vers);
+    len = (signed int)return_value_strlen_1;
     fstWriterFseeko(xc, xc->handle, (signed long int)(0 + 1 + 8 + 8 + 8 + 8 + 8 + 8 + 8 + 8 + 8 + 1), 0);
     memset((void *)s, 0, (unsigned long int)128);
     memcpy((void *)s, (const void *)vers, (unsigned long int)(len < 128 ? len : 128));
@@ -11100,22 +11100,22 @@ static unsigned int fstWriterUint32WithVarint32(struct fstWriterContext *xc, uns
   unsigned int len;
   *((unsigned int *)pnt) = *((unsigned int *)u);
   pnt = pnt + (signed long int)4;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   do
   {
     nxt = v >> 7;
     if(nxt == 0u)
       break;
 
-    tmp_post$1 = pnt;
+    tmp_post_1 = pnt;
     pnt = pnt + 1l;
-    *tmp_post$1 = (unsigned char)((signed int)(unsigned char)v | 0x80);
+    *tmp_post_1 = (unsigned char)((signed int)(unsigned char)v | 0x80);
     v = nxt;
   }
   while((_Bool)1);
-  unsigned char *tmp_post$2 = pnt;
+  unsigned char *tmp_post_2 = pnt;
   pnt = pnt + 1l;
-  *tmp_post$2 = (unsigned char)v;
+  *tmp_post_2 = (unsigned char)v;
   memcpy((void *)pnt, dbuf, (unsigned long int)siz);
   len = (unsigned int)((pnt - buf) + (signed long int)siz);
   return len;
@@ -11131,39 +11131,39 @@ static unsigned int fstWriterUint32WithVarint32AndLength(struct fstWriterContext
   unsigned int len;
   *((unsigned int *)pnt) = *((unsigned int *)u);
   pnt = pnt + (signed long int)4;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   do
   {
     nxt = v >> 7;
     if(nxt == 0u)
       break;
 
-    tmp_post$1 = pnt;
+    tmp_post_1 = pnt;
     pnt = pnt + 1l;
-    *tmp_post$1 = (unsigned char)((signed int)(unsigned char)v | 0x80);
+    *tmp_post_1 = (unsigned char)((signed int)(unsigned char)v | 0x80);
     v = nxt;
   }
   while((_Bool)1);
-  unsigned char *tmp_post$2 = pnt;
+  unsigned char *tmp_post_2 = pnt;
   pnt = pnt + 1l;
-  *tmp_post$2 = (unsigned char)v;
+  *tmp_post_2 = (unsigned char)v;
   v = siz;
-  unsigned char *tmp_post$3;
+  unsigned char *tmp_post_3;
   do
   {
     nxt = v >> 7;
     if(nxt == 0u)
       break;
 
-    tmp_post$3 = pnt;
+    tmp_post_3 = pnt;
     pnt = pnt + 1l;
-    *tmp_post$3 = (unsigned char)((signed int)(unsigned char)v | 0x80);
+    *tmp_post_3 = (unsigned char)((signed int)(unsigned char)v | 0x80);
     v = nxt;
   }
   while((_Bool)1);
-  unsigned char *tmp_post$4 = pnt;
+  unsigned char *tmp_post_4 = pnt;
   pnt = pnt + 1l;
-  *tmp_post$4 = (unsigned char)v;
+  *tmp_post_4 = (unsigned char)v;
   memcpy((void *)pnt, dbuf, (unsigned long int)siz);
   len = (unsigned int)((pnt - buf) + (signed long int)siz);
   return len;
@@ -11192,22 +11192,22 @@ static signed int fstWriterVarint(struct _IO_FILE *handle, unsigned long int v)
   unsigned char buf[10l];
   unsigned char *pnt = buf;
   signed int len;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   do
   {
     nxt = v >> 7;
     if(nxt == 0ul)
       break;
 
-    tmp_post$1 = pnt;
+    tmp_post_1 = pnt;
     pnt = pnt + 1l;
-    *tmp_post$1 = (unsigned char)((signed int)(unsigned char)v | 0x80);
+    *tmp_post_1 = (unsigned char)((signed int)(unsigned char)v | 0x80);
     v = nxt;
   }
   while((_Bool)1);
-  unsigned char *tmp_post$2 = pnt;
+  unsigned char *tmp_post_2 = pnt;
   pnt = pnt + 1l;
-  *tmp_post$2 = (unsigned char)v;
+  *tmp_post_2 = (unsigned char)v;
   len = (signed int)(pnt - buf);
   fstFwrite((const void *)buf, (unsigned long int)len, (unsigned long int)1, handle);
   return len;
@@ -11232,16 +11232,16 @@ static void fstWritex(struct fstReaderContext *xc, void *v, signed int len)
     else
     {
       fstWritex(xc, (void *)0, 0);
-      signed long int return_value_write$1;
-      return_value_write$1=write(xc->writex_fd, (const void *)s, (unsigned long int)len);
+      signed long int return_value_write_1;
+      return_value_write_1=write(xc->writex_fd, (const void *)s, (unsigned long int)len);
     }
   }
 
   else
     if(!(xc->writex_pos == 0))
     {
-      signed long int return_value_write$2;
-      return_value_write$2=write(xc->writex_fd, (const void *)xc->writex_buf, (unsigned long int)xc->writex_pos);
+      signed long int return_value_write_2;
+      return_value_write_2=write(xc->writex_fd, (const void *)xc->writex_buf, (unsigned long int)xc->writex_pos);
       xc->writex_pos = 0;
     }
 
@@ -11252,27 +11252,27 @@ static void fstWritex(struct fstReaderContext *xc, void *v, signed int len)
 static char * get_facname(void *lt, unsigned int pnt_facidx)
 {
   (void)lt;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if(!(scope_idx[(signed long int)pnt_facidx] == 0u))
-    tmp_if_expr$5 = scope_names[(signed long int)scope_idx[(signed long int)pnt_facidx]] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_5 = scope_names[(signed long int)scope_idx[(signed long int)pnt_facidx]] != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$5 = (_Bool)0;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = (_Bool)0;
+  if(tmp_if_expr_5)
   {
     char *fst_scope_name = scope_names[(signed long int)scope_idx[(signed long int)pnt_facidx]];
     signed int fst_scope_name_len;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(fst_scope_name);
-    fst_scope_name_len = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(fst_scope_name);
+    fst_scope_name_len = (signed int)return_value_strlen_1;
     signed int fst_signal_name;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(fac_names[(signed long int)pnt_facidx]);
-    fst_signal_name = (signed int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(fac_names[(signed long int)pnt_facidx]);
+    fst_signal_name = (signed int)return_value_strlen_2;
     char *s;
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)(fst_scope_name_len + 1 + fst_signal_name + 1));
-    s = (char *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)(fst_scope_name_len + 1 + fst_signal_name + 1));
+    s = (char *)return_value_malloc_3;
     memcpy((void *)s, (const void *)fst_scope_name, (unsigned long int)fst_scope_name_len);
     s[(signed long int)fst_scope_name_len] = (char)46;
     memcpy((void *)(s + (signed long int)fst_scope_name_len + (signed long int)1), (const void *)fac_names[(signed long int)pnt_facidx], (unsigned long int)(fst_signal_name + 1));
@@ -11281,9 +11281,9 @@ static char * get_facname(void *lt, unsigned int pnt_facidx)
 
   else
   {
-    char *return_value_strdup$4;
-    return_value_strdup$4=strdup(fac_names[(signed long int)pnt_facidx]);
-    return return_value_strdup$4;
+    char *return_value_strdup_4;
+    return_value_strdup_4=strdup(fac_names[(signed long int)pnt_facidx]);
+    return return_value_strdup_4;
   }
 }
 
@@ -11303,9 +11303,9 @@ signed int main(signed int argc, char **argv)
   wlve=getenv("LANG");
   if(!(wlve == ((char *)NULL)))
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(wlve, "C");
-    if(!(return_value_strcmp$1 == 0))
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(wlve, "C");
+    if(!(return_value_strcmp_1 == 0))
     {
       setenv("LC_NUMERIC", "C", 1);
       setenv("LC_COLLATE", "C", 1);
@@ -11317,19 +11317,19 @@ signed int main(signed int argc, char **argv)
   wlve=getenv("LC_ALL");
   if(!(wlve == ((char *)NULL)))
   {
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(wlve, "C");
-    if(!(return_value_strcmp$2 == 0))
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(wlve, "C");
+    if(!(return_value_strcmp_2 == 0))
       unsetenv("LC_ALL");
 
   }
 
-  unsigned long int return_value_strlen$3;
-  void *return_value_malloc$4;
-  unsigned long int return_value_strlen$5;
-  void *return_value_malloc$6;
-  unsigned long int return_value_strlen$7;
-  void *return_value_malloc$8;
+  unsigned long int return_value_strlen_3;
+  void *return_value_malloc_4;
+  unsigned long int return_value_strlen_5;
+  void *return_value_malloc_6;
+  unsigned long int return_value_strlen_7;
+  void *return_value_malloc_8;
   while((_Bool)1)
   {
     signed int option_index = 0;
@@ -11362,9 +11362,9 @@ signed int main(signed int argc, char **argv)
         if(!(lxname == ((char *)NULL)))
           free((void *)lxname);
 
-        return_value_strlen$3=strlen(optarg);
-        return_value_malloc$4=malloc(return_value_strlen$3 + (unsigned long int)1);
-        lxname = (char *)return_value_malloc$4;
+        return_value_strlen_3=strlen(optarg);
+        return_value_malloc_4=malloc(return_value_strlen_3 + (unsigned long int)1);
+        lxname = (char *)return_value_malloc_4;
         strcpy(lxname, optarg);
         break;
       }
@@ -11373,10 +11373,10 @@ signed int main(signed int argc, char **argv)
         if(!(match == ((char *)NULL)))
           free((void *)match);
 
-        return_value_strlen$5=strlen(optarg);
-        matchlen = (unsigned int)return_value_strlen$5;
-        return_value_malloc$6=malloc((unsigned long int)(matchlen + (unsigned int)1));
-        match = (char *)return_value_malloc$6;
+        return_value_strlen_5=strlen(optarg);
+        matchlen = (unsigned int)return_value_strlen_5;
+        return_value_malloc_6=malloc((unsigned long int)(matchlen + (unsigned int)1));
+        match = (char *)return_value_malloc_6;
         strcpy(match, optarg);
         break;
       }
@@ -11385,10 +11385,10 @@ signed int main(signed int argc, char **argv)
         if(!(match == ((char *)NULL)))
           free((void *)match);
 
-        return_value_strlen$7=strlen(optarg);
-        matchlen = (unsigned int)((unsigned long int)4 * return_value_strlen$7);
-        return_value_malloc$8=malloc((unsigned long int)(matchlen + (unsigned int)1));
-        match = (char *)return_value_malloc$8;
+        return_value_strlen_7=strlen(optarg);
+        matchlen = (unsigned int)((unsigned long int)4 * return_value_strlen_7);
+        return_value_malloc_8=malloc((unsigned long int)(matchlen + (unsigned int)1));
+        match = (char *)return_value_malloc_8;
         i = (unsigned int)0;
         k = (unsigned int)0;
         for( ; !(i >= matchlen); k = k + 1u)
@@ -11451,21 +11451,21 @@ signed int main(signed int argc, char **argv)
   if(!(opt_errors_encountered == 0))
     print_help(argv[(signed long int)0]);
 
-  signed int tmp_post$11;
+  signed int tmp_post_11;
   if(!(optind >= argc))
     while(!(optind >= argc))
     {
       if(!(lxname == ((char *)NULL)))
         free((void *)lxname);
 
-      unsigned long int return_value_strlen$9;
-      return_value_strlen$9=strlen(argv[(signed long int)optind]);
-      void *return_value_malloc$10;
-      return_value_malloc$10=malloc(return_value_strlen$9 + (unsigned long int)1);
-      lxname = (char *)return_value_malloc$10;
-      tmp_post$11 = optind;
+      unsigned long int return_value_strlen_9;
+      return_value_strlen_9=strlen(argv[(signed long int)optind]);
+      void *return_value_malloc_10;
+      return_value_malloc_10=malloc(return_value_strlen_9 + (unsigned long int)1);
+      lxname = (char *)return_value_malloc_10;
+      tmp_post_11 = optind;
       optind = optind + 1;
-      strcpy(lxname, argv[(signed long int)tmp_post$11]);
+      strcpy(lxname, argv[(signed long int)tmp_post_11]);
     }
 
   if(lxname == ((char *)NULL))
@@ -11495,21 +11495,21 @@ signed int process_fst(char *fname)
   if(!(lt == NULL))
   {
     signed int numfacs;
-    unsigned long int return_value_fstReaderGetVarCount$1;
-    return_value_fstReaderGetVarCount$1=fstReaderGetVarCount(lt);
-    numfacs = (signed int)(return_value_fstReaderGetVarCount$1 + (unsigned long int)1);
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)numfacs, sizeof(char) /*1ul*/ );
-    killed_list = (char *)return_value_calloc$2;
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)numfacs, sizeof(char *) /*8ul*/ );
-    fac_names = (char **)return_value_calloc$3;
-    void *return_value_calloc$4;
-    return_value_calloc$4=calloc((unsigned long int)allocated_scopes, sizeof(char *) /*8ul*/ );
-    scope_names = (char **)return_value_calloc$4;
-    void *return_value_calloc$5;
-    return_value_calloc$5=calloc((unsigned long int)numfacs, sizeof(unsigned int) /*4ul*/ );
-    scope_idx = (unsigned int *)return_value_calloc$5;
+    unsigned long int return_value_fstReaderGetVarCount_1;
+    return_value_fstReaderGetVarCount_1=fstReaderGetVarCount(lt);
+    numfacs = (signed int)(return_value_fstReaderGetVarCount_1 + (unsigned long int)1);
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)numfacs, sizeof(char) /*1ul*/ );
+    killed_list = (char *)return_value_calloc_2;
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)numfacs, sizeof(char *) /*8ul*/ );
+    fac_names = (char **)return_value_calloc_3;
+    void *return_value_calloc_4;
+    return_value_calloc_4=calloc((unsigned long int)allocated_scopes, sizeof(char *) /*8ul*/ );
+    scope_names = (char **)return_value_calloc_4;
+    void *return_value_calloc_5;
+    return_value_calloc_5=calloc((unsigned long int)numfacs, sizeof(unsigned int) /*4ul*/ );
+    scope_idx = (unsigned int *)return_value_calloc_5;
     extractVarNames(lt);
     fstReaderSetFacProcessMaskAll(lt);
     fstReaderIterBlocks2(lt, vcd_callback, vcd_callback2, lt, (struct _IO_FILE *)(void *)0);
@@ -11538,19 +11538,19 @@ signed int process_fst(char *fname)
 // file fstminer.c line 43
 static void strcpy_no_space(char *d, const char *s)
 {
-  const char *tmp_post$1;
-  char *tmp_post$2;
+  const char *tmp_post_1;
+  char *tmp_post_2;
   while(!(*s == 0))
   {
     char ch;
-    tmp_post$1 = s;
+    tmp_post_1 = s;
     s = s + 1l;
-    ch = *tmp_post$1;
+    ch = *tmp_post_1;
     if(!((signed int)ch == 32))
     {
-      tmp_post$2 = d;
+      tmp_post_2 = d;
       d = d + 1l;
-      *tmp_post$2 = ch;
+      *tmp_post_2 = ch;
     }
 
   }
@@ -11601,9 +11601,9 @@ static struct _IO_FILE * tmpfile_open(char **nam)
 static struct _IO_FILE * unlink_fopen(const char *nam, const char *mode)
 {
   unlink(nam);
-  struct _IO_FILE *return_value_fopen$1;
-  return_value_fopen$1=fopen(nam, mode);
-  return return_value_fopen$1;
+  struct _IO_FILE *return_value_fopen_1;
+  return_value_fopen_1=fopen(nam, mode);
+  return return_value_fopen_1;
 }
 
 // vcd_callback
@@ -11613,9 +11613,9 @@ static void vcd_callback(void *lt, unsigned long int pnt_time, unsigned int pnt_
   unsigned int plen;
   if(!(pnt_value == ((const unsigned char *)NULL)))
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen((const char *)pnt_value);
-    plen = (unsigned int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen((const char *)pnt_value);
+    plen = (unsigned int)return_value_strlen_1;
   }
 
   else
@@ -11627,29 +11627,29 @@ static void vcd_callback(void *lt, unsigned long int pnt_time, unsigned int pnt_
 // file fstminer.c line 129
 static void vcd_callback2(void *lt, unsigned long int pnt_time, unsigned int pnt_facidx, const unsigned char *pnt_value, unsigned int plen)
 {
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  char *return_value_strstr$1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  char *return_value_strstr_1;
   if(plen >= matchlen)
   {
     if(killed_list[(signed long int)pnt_facidx] == 0)
     {
       if(match == ((char *)NULL))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
         if(!(pnt_value == ((const unsigned char *)NULL)))
         {
-          return_value_strstr$1=strstr((const char *)pnt_value, match);
-          tmp_if_expr$2 = return_value_strstr$1 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          return_value_strstr_1=strstr((const char *)pnt_value, match);
+          tmp_if_expr_2 = return_value_strstr_1 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
       {
         char *fn;
         fn=get_facname(lt, pnt_facidx);

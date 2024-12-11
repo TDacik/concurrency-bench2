@@ -1,86 +1,86 @@
-// tag-#anon#ST[ARR16{S64}$S64$'fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$15;
+struct anonymous_15;
 
 // tag-#anon#ST[U16'encoding'||U16'parity'|]
 // file /usr/include/linux/hdlc/ioctl.h line 52
-struct anonymous$2;
+struct anonymous_2;
 
 // tag-#anon#ST[U16'source'||U16'dest'||U16'len'||U16'check'|]
 // file /usr/include/netinet/udp.h line 67
-struct anonymous$18;
+struct anonymous_18;
 
 // tag-#anon#ST[U16'uh_sport'||U16'uh_dport'||U16'uh_ulen'||U16'uh_sum'|]
 // file /usr/include/netinet/udp.h line 60
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'|]
+// tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'|]
 // file /usr/include/linux/hdlc/ioctl.h line 39
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'||U32'slot_map'|]
+// tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'||U32'slot_map'|]
 // file /usr/include/linux/hdlc/ioctl.h line 45
-struct anonymous$8;
+struct anonymous_8;
 
 // tag-#anon#ST[U32'dlci'|]
 // file /usr/include/linux/hdlc/ioctl.h line 67
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[U32'dlci'||ARR16{S8}$S8$'master'|]
+// tag-#anon#ST[U32'dlci'||ARR16{S8}_S8_'master'|]
 // file /usr/include/linux/hdlc/ioctl.h line 71
-struct anonymous$6;
+struct anonymous_6;
 
 // tag-#anon#ST[U32'interval'||U32'timeout'|]
 // file /usr/include/linux/hdlc/ioctl.h line 76
-struct anonymous$3;
+struct anonymous_3;
 
 // tag-#anon#ST[U32't391'||U32't392'||U32'n391'||U32'n392'||U32'n393'||U16'lmi'||U16'dce'|]
 // file /usr/include/linux/hdlc/ioctl.h line 57
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#UN[*{S8}$S8$'ifcu_buf'||*{SYM#tag-ifreq#}$SYM#tag-ifreq#$'ifcu_req'|]
+// tag-#anon#UN[*{S8}_S8_'ifcu_buf'||*{SYM#tag-ifreq#}_SYM#tag-ifreq#_'ifcu_req'|]
 // file /usr/include/linux/if.h line 254
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[*{SYM#tag-#anon#ST[U16'encoding'||U16'parity'|]#}$SYM#tag-#anon#ST[U16'encoding'||U16'parity'|]#$'raw_hdlc'||*{SYM#tag-#anon#ST[U32'interval'||U32'timeout'|]#}$SYM#tag-#anon#ST[U32'interval'||U32'timeout'|]#$'cisco'||*{SYM#tag-#anon#ST[U32't391'||U32't392'||U32'n391'||U32'n392'||U32'n393'||U16'lmi'||U16'dce'|]#}$SYM#tag-#anon#ST[U32't391'||U32't392'||U32'n391'||U32'n392'||U32'n393'||U16'lmi'||U16'dce'|]#$'fr'||*{SYM#tag-#anon#ST[U32'dlci'|]#}$SYM#tag-#anon#ST[U32'dlci'|]#$'fr_pvc'||*{SYM#tag-#anon#ST[U32'dlci'||ARR16{S8}$S8$'master'|]#}$SYM#tag-#anon#ST[U32'dlci'||ARR16{S8}$S8$'master'|]#$'fr_pvc_info'||*{SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'|]#}$SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'|]#$'sync'||*{SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'||U32'slot_map'|]#}$SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'$pad0'||U32'slot_map'|]#$'te1'|]
+// tag-#anon#UN[*{SYM#tag-#anon#ST[U16'encoding'||U16'parity'|]#}_SYM#tag-#anon#ST[U16'encoding'||U16'parity'|]#_'raw_hdlc'||*{SYM#tag-#anon#ST[U32'interval'||U32'timeout'|]#}_SYM#tag-#anon#ST[U32'interval'||U32'timeout'|]#_'cisco'||*{SYM#tag-#anon#ST[U32't391'||U32't392'||U32'n391'||U32'n392'||U32'n393'||U16'lmi'||U16'dce'|]#}_SYM#tag-#anon#ST[U32't391'||U32't392'||U32'n391'||U32'n392'||U32'n393'||U16'lmi'||U16'dce'|]#_'fr'||*{SYM#tag-#anon#ST[U32'dlci'|]#}_SYM#tag-#anon#ST[U32'dlci'|]#_'fr_pvc'||*{SYM#tag-#anon#ST[U32'dlci'||ARR16{S8}_S8_'master'|]#}_SYM#tag-#anon#ST[U32'dlci'||ARR16{S8}_S8_'master'|]#_'fr_pvc_info'||*{SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'|]#}_SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'|]#_'sync'||*{SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'||U32'slot_map'|]#}_SYM#tag-#anon#ST[U32'clock_rate'||U32'clock_type'||U16'loopback'||U16'_pad0'||U32'slot_map'|]#_'te1'|]
 // file /usr/include/linux/if.h line 182
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[ARR16{S8}$S8$'ifrn_name'|]
+// tag-#anon#UN[ARR16{S8}_S8_'ifrn_name'|]
 // file /usr/include/linux/if.h line 205
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U16'uh_sport'||U16'uh_dport'||U16'uh_ulen'||U16'uh_sum'|]#'$anon0'||SYM#tag-#anon#ST[U16'source'||U16'dest'||U16'len'||U16'check'|]#'$anon1'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U16'uh_sport'||U16'uh_dport'||U16'uh_ulen'||U16'uh_sum'|]#'_anon0'||SYM#tag-#anon#ST[U16'source'||U16'dest'||U16'len'||U16'check'|]#'_anon1'|]
 // file /usr/include/netinet/udp.h line 58
-union anonymous$19;
+union anonymous_19;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$16;
+union anonymous_16;
 
-// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}$S8$'ifru_slave'||ARR16{S8}$S8$'ifru_newname'||*{S8}$S8$'ifru_data'|]
+// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}_S8_'ifru_slave'||ARR16{S8}_S8_'ifru_newname'||*{S8}_S8_'ifru_data'|]
 // file /usr/include/net/if.h line 135
-union anonymous$13;
+union anonymous_13;
 
-// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}$S8$'ifru_slave'||ARR16{S8}$S8$'ifru_newname'||*{V}$V$'ifru_data'||SYM#tag-if_settings#'ifru_settings'|]
+// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}_S8_'ifru_slave'||ARR16{S8}_S8_'ifru_newname'||*{V}_V_'ifru_data'||SYM#tag-if_settings#'ifru_settings'|]
 // file /usr/include/linux/if.h line 210
-union anonymous$11;
+union anonymous_11;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$14;
+union anonymous_14;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$20;
+union anonymous_20;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -194,13 +194,13 @@ struct ifmap;
 // file /usr/include/linux/if.h line 203
 struct ifreq;
 
-// tag-ifreq$link1
+// tag-ifreq_link1
 // file /usr/include/net/if.h line 126
-struct ifreq$0;
+struct ifreq_0;
 
-// tag-ifreq$link2
+// tag-ifreq_link2
 // file /usr/include/net/if.h line 126
-struct ifreq$1;
+struct ifreq_1;
 
 // tag-in6_addr
 // file /usr/include/netinet/in.h line 209
@@ -385,7 +385,7 @@ static void _hna_global_hash_del(void *data);
 extern signed int abs(signed int);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous$20, unsigned int *);
+extern signed int accept(signed int, union anonymous_20, unsigned int *);
 // activate_interface
 // file posix/init.c line 859
 static void activate_interface(struct batman_if *batman_if);
@@ -424,7 +424,7 @@ static void bat_wait(signed int T, signed int t);
 signed char batman(void);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$20, unsigned int);
+extern signed int bind(signed int, union anonymous_20, unsigned int);
 // bind_to_iface
 // file linux/kernel.c line 149
 signed char bind_to_iface(signed int sock, char *dev);
@@ -508,7 +508,7 @@ static signed int compare_vip(void *data1, void *data2);
 static signed int compare_wip(void *data1, void *data2);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous$20, unsigned int);
+extern signed int connect(signed int, union anonymous_20, unsigned int);
 // count_real_packets
 // file batman.c line 715
 static unsigned char count_real_packets(struct bat_packet *in, unsigned int neigh, struct batman_if *if_incoming);
@@ -677,9 +677,9 @@ static signed int hash_add_bucket(struct hashtable_t *hash, void *data, struct e
 // hash_delete
 // file hash.c line 41
 void hash_delete(struct hashtable_t *hash, void (*free_cb)(void *));
-// hash_delete::free_cb$object
+// hash_delete::free_cb_object
 //
-void free_cb$object(void *);
+void free_cb_object(void *);
 // hash_destroy
 // file hash.h line 71
 void hash_destroy(struct hashtable_t *hash);
@@ -695,12 +695,12 @@ struct hash_it_t * hash_iterate(struct hashtable_t *hash, struct hash_it_t *iter
 // hash_new
 // file hash.h line 58
 struct hashtable_t * hash_new(signed int size, signed int (*compare)(void *, void *), signed int (*choose)(void *, signed int));
-// hash_new::choose$object
+// hash_new::choose_object
 //
-signed int choose$object(void *, signed int);
-// hash_new::compare$object
+signed int choose_object(void *, signed int);
+// hash_new::compare_object
 //
-signed int compare$object(void *, void *);
+signed int compare_object(void *, void *);
 // hash_remove
 // file hash.c line 262
 void * hash_remove(struct hashtable_t *hash, void *data);
@@ -883,16 +883,16 @@ extern signed int pthread_detach(unsigned long int);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$16 *, const union anonymous *);
+extern signed int pthread_mutex_init(union anonymous_16 *, const union anonymous *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$16 *);
+extern signed int pthread_mutex_lock(union anonymous_16 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$16 *);
+extern signed int pthread_mutex_trylock(union anonymous_16 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$16 *);
+extern signed int pthread_mutex_unlock(union anonymous_16 *);
 // purge_orig
 // file originator.h line 33
 void purge_orig(unsigned int curr_time);
@@ -913,7 +913,7 @@ extern signed long int read(signed int, void *, unsigned long int);
 signed char receive_packet(unsigned char *packet_buff, signed int packet_buff_len, signed short int *packet_len, unsigned int *neigh, unsigned int timeout, struct batman_if **if_incoming);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, union anonymous$20, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, union anonymous_20, unsigned int *);
 // recvmsg
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 202
 extern signed long int recvmsg(signed int, struct msghdr *, signed int);
@@ -946,7 +946,7 @@ void schedule_own_packet(struct batman_if *batman_if);
 void segmentation_fault(signed int sig);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$15 *, struct anonymous$15 *, struct anonymous$15 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_15 *, struct anonymous_15 *, struct anonymous_15 *, struct timeval *);
 // send_outstanding_packets
 // file schedule.h line 25
 void send_outstanding_packets(unsigned int curr_time);
@@ -958,7 +958,7 @@ signed char send_udp_packet(unsigned char *packet_buff, signed int packet_buff_l
 static void send_vis_packet(void);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous$20, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous_20, unsigned int);
 // set_forwarding
 // file os.h line 76
 void set_forwarding(signed int state);
@@ -1077,13 +1077,13 @@ extern signed int waitpid(signed int, signed int *, signed int);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$15
+struct anonymous_15
 {
   // fds_bits
   signed long int fds_bits[16l];
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // encoding
   unsigned short int encoding;
@@ -1091,7 +1091,7 @@ struct anonymous$2
   unsigned short int parity;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // source
   unsigned short int source;
@@ -1103,7 +1103,7 @@ struct anonymous$18
   unsigned short int check;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // uh_sport
   unsigned short int uh_sport;
@@ -1115,7 +1115,7 @@ struct anonymous$17
   unsigned short int uh_sum;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // clock_rate
   unsigned int clock_rate;
@@ -1125,7 +1125,7 @@ struct anonymous$7
   unsigned short int loopback;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // clock_rate
   unsigned int clock_rate;
@@ -1137,13 +1137,13 @@ struct anonymous$8
   unsigned int slot_map;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // dlci
   unsigned int dlci;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // dlci
   unsigned int dlci;
@@ -1151,7 +1151,7 @@ struct anonymous$6
   char master[16l];
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // interval
   unsigned int interval;
@@ -1159,7 +1159,7 @@ struct anonymous$3
   unsigned int timeout;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // t391
   unsigned int t391;
@@ -1177,7 +1177,7 @@ struct anonymous$4
   unsigned short int dce;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // ifcu_buf
   char *ifcu_buf;
@@ -1185,31 +1185,31 @@ union anonymous$0
   struct ifreq *ifcu_req;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // raw_hdlc
-  struct anonymous$2 *raw_hdlc;
+  struct anonymous_2 *raw_hdlc;
   // cisco
-  struct anonymous$3 *cisco;
+  struct anonymous_3 *cisco;
   // fr
-  struct anonymous$4 *fr;
+  struct anonymous_4 *fr;
   // fr_pvc
-  struct anonymous$5 *fr_pvc;
+  struct anonymous_5 *fr_pvc;
   // fr_pvc_info
-  struct anonymous$6 *fr_pvc_info;
+  struct anonymous_6 *fr_pvc_info;
   // sync
-  struct anonymous$7 *sync;
+  struct anonymous_7 *sync;
   // te1
-  struct anonymous$8 *te1;
+  struct anonymous_8 *te1;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // ifrn_name
   char ifrn_name[16l];
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -1227,12 +1227,12 @@ union anonymous
   signed int __align;
 };
 
-union anonymous$19
+union anonymous_19
 {
-  // $anon0
-  struct anonymous$17 $anon0;
-  // $anon1
-  struct anonymous$18 $anon1;
+  // _anon0
+  struct anonymous_17 _anon0;
+  // _anon1
+  struct anonymous_18 _anon1;
 };
 
 struct __pthread_internal_list
@@ -1263,7 +1263,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$16
+union anonymous_16
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1297,7 +1297,7 @@ struct ifmap
   unsigned char port;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // ifru_addr
   struct sockaddr ifru_addr;
@@ -1332,10 +1332,10 @@ struct if_settings
   // size
   unsigned int size;
   // ifs_ifsu
-  union anonymous$9 ifs_ifsu;
+  union anonymous_9 ifs_ifsu;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // ifru_addr
   struct sockaddr ifru_addr;
@@ -1365,7 +1365,7 @@ union anonymous$11
   struct if_settings ifru_settings;
 };
 
-union anonymous$14
+union anonymous_14
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1395,7 +1395,7 @@ union anonymous$14
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$20
+union anonymous_20
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1630,7 +1630,7 @@ struct debug_clients
   // clients_num
   signed short int *clients_num;
   // mutex
-  union anonymous$16 **mutex;
+  union anonymous_16 **mutex;
 };
 
 struct debug_level_info
@@ -1796,37 +1796,37 @@ struct ifconf
   // ifc_len
   signed int ifc_len;
   // ifc_ifcu
-  union anonymous$0 ifc_ifcu;
+  union anonymous_0 ifc_ifcu;
 };
 
 struct ifreq
 {
   // ifr_ifrn
-  union anonymous$10 ifr_ifrn;
+  union anonymous_10 ifr_ifrn;
   // ifr_ifru
-  union anonymous$11 ifr_ifru;
+  union anonymous_11 ifr_ifru;
 };
 
-struct ifreq$0
+struct ifreq_0
 {
   // ifr_ifrn
-  union anonymous$10 ifr_ifrn;
+  union anonymous_10 ifr_ifrn;
   // ifr_ifru
-  union anonymous$13 ifr_ifru;
+  union anonymous_13 ifr_ifru;
 };
 
-struct ifreq$1
+struct ifreq_1
 {
   // ifr_ifrn
-  union anonymous$10 ifr_ifrn;
+  union anonymous_10 ifr_ifrn;
   // ifr_ifru
-  union anonymous$13 ifr_ifru;
+  union anonymous_13 ifr_ifru;
 };
 
 struct in6_addr
 {
   // __in6_u
-  union anonymous$1 __in6_u;
+  union anonymous_1 __in6_u;
 };
 
 struct iovec
@@ -2091,8 +2091,8 @@ struct tms
 
 struct udphdr
 {
-  // $anon0
-  union anonymous$19 $anon0;
+  // _anon0
+  union anonymous_19 _anon0;
 };
 
 struct unix_client
@@ -2156,7 +2156,7 @@ unsigned char active_ifs = (unsigned char)0;
 unsigned char aggregation_enabled = (unsigned char)1;
 // batman_clock_mutex
 // file posix/posix.c line 52
-static union anonymous$16 batman_clock_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_16 batman_clock_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // batman_clock_ticks
@@ -2170,7 +2170,7 @@ unsigned short int bh_udp_ports[6l] = { (unsigned short int)4307, (unsigned shor
 struct chunkHeader *chunkList = (struct chunkHeader *)(void *)0;
 // chunk_mutex
 // file allocate.c line 36
-static union anonymous$16 chunk_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_16 chunk_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // curr_gateway
@@ -2217,7 +2217,7 @@ unsigned char *hna_buff_local = (unsigned char *)(void *)0;
 struct list_head_first hna_chg_list;
 // hna_chg_list_mutex
 // file hna.c line 39
-static union anonymous$16 hna_chg_list_mutex;
+static union anonymous_16 hna_chg_list_mutex;
 // hna_global_hash
 // file hna.c line 40
 static struct hashtable_t *hna_global_hash = (struct hashtable_t *)(void *)0;
@@ -2244,7 +2244,7 @@ unsigned char log_facility_active = (unsigned char)0;
 struct memoryUsage *memoryList = (struct memoryUsage *)(void *)0;
 // memory_mutex
 // file allocate.c line 58
-static union anonymous$16 memory_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_16 memory_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // minimum_recv
@@ -2300,7 +2300,7 @@ unsigned int purge_timeout = 200000u;
 signed int receive_max_sock = 0;
 // receive_wait_set
 // file batman.c line 91
-struct anonymous$15 receive_wait_set;
+struct anonymous_15 receive_wait_set;
 // route_type_to_string
 // file linux/route.c line 37
 static const char *route_type_to_string[4l] = { "route", "throw route", "unreachable route", "unknown route type" };
@@ -2368,14 +2368,14 @@ static void _hna_global_add(struct orig_node *orig_node, struct hna_element *hna
   struct hna_orig_ptr *hna_orig_ptr = (struct hna_orig_ptr *)(void *)0;
   struct orig_node *old_orig_node = (struct orig_node *)(void *)0;
   struct hashtable_t *swaphash;
-  void *return_value_hash_find$1;
-  return_value_hash_find$1=hash_find(hna_global_hash, (void *)hna_element);
-  hna_global_entry = (struct hna_global_entry *)return_value_hash_find$1;
+  void *return_value_hash_find_1;
+  return_value_hash_find_1=hash_find(hna_global_hash, (void *)hna_element);
+  hna_global_entry = (struct hna_global_entry *)return_value_hash_find_1;
   if(hna_global_entry == ((struct hna_global_entry *)NULL))
   {
-    void *return_value_debugMalloc$2;
-    return_value_debugMalloc$2=debugMalloc((unsigned int)sizeof(struct hna_global_entry) /*29ul*/ , 703);
-    hna_global_entry = (struct hna_global_entry *)return_value_debugMalloc$2;
+    void *return_value_debugMalloc_2;
+    return_value_debugMalloc_2=debugMalloc((unsigned int)sizeof(struct hna_global_entry) /*29ul*/ , 703);
+    hna_global_entry = (struct hna_global_entry *)return_value_debugMalloc_2;
     if(hna_global_entry == ((struct hna_global_entry *)NULL))
       goto __CPROVER_DUMP_L16;
 
@@ -2397,7 +2397,7 @@ static void _hna_global_add(struct orig_node *orig_node, struct hna_element *hna
 
   }
 
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(!(hna_global_entry->curr_orig_node == orig_node))
   {
     list_pos = (&hna_global_entry->orig_list)->next;
@@ -2411,9 +2411,9 @@ static void _hna_global_add(struct orig_node *orig_node, struct hna_element *hna
     }
     if(hna_orig_ptr == ((struct hna_orig_ptr *)NULL))
     {
-      void *return_value_debugMalloc$3;
-      return_value_debugMalloc$3=debugMalloc((unsigned int)sizeof(struct hna_orig_ptr) /*16ul*/ , 704);
-      hna_orig_ptr = (struct hna_orig_ptr *)return_value_debugMalloc$3;
+      void *return_value_debugMalloc_3;
+      return_value_debugMalloc_3=debugMalloc((unsigned int)sizeof(struct hna_orig_ptr) /*16ul*/ , 704);
+      hna_orig_ptr = (struct hna_orig_ptr *)return_value_debugMalloc_3;
       if(hna_orig_ptr == ((struct hna_orig_ptr *)NULL))
         goto __CPROVER_DUMP_L16;
 
@@ -2425,11 +2425,11 @@ static void _hna_global_add(struct orig_node *orig_node, struct hna_element *hna
     }
 
     if(hna_global_entry->curr_orig_node == ((struct orig_node *)NULL))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)orig_node->router->tq_avg > (signed int)hna_global_entry->curr_orig_node->router->tq_avg ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)orig_node->router->tq_avg > (signed int)hna_global_entry->curr_orig_node->router->tq_avg ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
       old_orig_node = hna_global_entry->curr_orig_node;
       hna_global_entry->curr_orig_node = orig_node;
@@ -2462,10 +2462,10 @@ static void _hna_global_del(struct orig_node *orig_node, struct hna_element *hna
   struct list_head *prev_list_head;
   struct hna_global_entry *hna_global_entry;
   struct hna_orig_ptr *hna_orig_ptr = (struct hna_orig_ptr *)(void *)0;
-  void *return_value_hash_find$1;
-  return_value_hash_find$1=hash_find(hna_global_hash, (void *)hna_element);
-  hna_global_entry = (struct hna_global_entry *)return_value_hash_find$1;
-  _Bool tmp_if_expr$2;
+  void *return_value_hash_find_1;
+  return_value_hash_find_1=hash_find(hna_global_hash, (void *)hna_element);
+  hna_global_entry = (struct hna_global_entry *)return_value_hash_find_1;
+  _Bool tmp_if_expr_2;
   if(!(hna_global_entry == ((struct hna_global_entry *)NULL)))
   {
     hna_global_entry->curr_orig_node = (struct orig_node *)(void *)0;
@@ -2484,11 +2484,11 @@ static void _hna_global_del(struct orig_node *orig_node, struct hna_element *hna
       else
       {
         if(hna_global_entry->curr_orig_node == ((struct orig_node *)NULL))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = (signed int)hna_orig_ptr->orig_node->router->tq_avg > (signed int)hna_global_entry->curr_orig_node->router->tq_avg ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (signed int)hna_orig_ptr->orig_node->router->tq_avg > (signed int)hna_global_entry->curr_orig_node->router->tq_avg ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           hna_global_entry->curr_orig_node = hna_orig_ptr->orig_node;
 
         prev_list_head = &hna_orig_ptr->list;
@@ -2541,61 +2541,61 @@ static void _hna_global_hash_del(void *data)
 // file posix/init.c line 859
 static void activate_interface(struct batman_if *batman_if)
 {
-  struct ifreq$1 int_req;
+  struct ifreq_1 int_req;
   signed int on = 1;
   signed int sock_opts;
   batman_if->udp_recv_sock=socket(2, 2, 0);
   if(!(batman_if->udp_recv_sock >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    debug_output((signed char)3, "Error - can't create receive socket: %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    debug_output((signed char)3, "Error - can't create receive socket: %s\n", return_value_strerror_2);
     goto error;
   }
 
-  memset((void *)&int_req, 0, sizeof(struct ifreq$1) /*40ul*/ );
+  memset((void *)&int_req, 0, sizeof(struct ifreq_1) /*40ul*/ );
   strncpy(int_req.ifr_ifrn.ifrn_name, batman_if->dev, (unsigned long int)(16 - 1));
-  signed int return_value_ioctl$5;
-  return_value_ioctl$5=ioctl(batman_if->udp_recv_sock, (unsigned long int)0x8915, &int_req);
-  if(!(return_value_ioctl$5 >= 0))
+  signed int return_value_ioctl_5;
+  return_value_ioctl_5=ioctl(batman_if->udp_recv_sock, (unsigned long int)0x8915, &int_req);
+  if(!(return_value_ioctl_5 >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    debug_output((signed char)3, "Error - can't get IP address of interface %s: %s\n", batman_if->dev, return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    debug_output((signed char)3, "Error - can't get IP address of interface %s: %s\n", batman_if->dev, return_value_strerror_4);
     goto error;
   }
 
   batman_if->addr.sin_family = (unsigned short int)2;
   batman_if->addr.sin_port=htons((unsigned short int)4305);
   batman_if->addr.sin_addr.s_addr = ((struct sockaddr_in *)&int_req.ifr_ifru.ifru_addr)->sin_addr.s_addr;
-  signed int return_value_ioctl$8;
-  signed int return_value_ioctl$11;
-  signed int return_value_is_wifi_interface$12;
-  signed int return_value_ioctl$15;
-  signed int return_value_setsockopt$20;
-  signed char return_value_bind_to_iface$23;
-  signed int return_value_bind$26;
-  signed char return_value_bind_to_iface$29;
-  signed int return_value_bind$32;
-  signed int return_value_get_rp_filter$33;
-  signed int return_value_get_send_redirects$34;
+  signed int return_value_ioctl_8;
+  signed int return_value_ioctl_11;
+  signed int return_value_is_wifi_interface_12;
+  signed int return_value_ioctl_15;
+  signed int return_value_setsockopt_20;
+  signed char return_value_bind_to_iface_23;
+  signed int return_value_bind_26;
+  signed char return_value_bind_to_iface_29;
+  signed int return_value_bind_32;
+  signed int return_value_get_rp_filter_33;
+  signed int return_value_get_send_redirects_34;
   if(batman_if->addr.sin_addr.s_addr == 0u)
     debug_output((signed char)3, "Error - invalid ip address detected (0.0.0.0): %s\n", batman_if->dev);
 
   else
   {
-    return_value_ioctl$8=ioctl(batman_if->udp_recv_sock, (unsigned long int)0x8919, &int_req);
-    if(!(return_value_ioctl$8 >= 0))
+    return_value_ioctl_8=ioctl(batman_if->udp_recv_sock, (unsigned long int)0x8919, &int_req);
+    if(!(return_value_ioctl_8 >= 0))
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      char *return_value_strerror$7;
-      return_value_strerror$7=strerror(*return_value___errno_location$6);
-      debug_output((signed char)3, "Error - can't get broadcast IP address of interface %s: %s\n", batman_if->dev, return_value_strerror$7);
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      char *return_value_strerror_7;
+      return_value_strerror_7=strerror(*return_value___errno_location_6);
+      debug_output((signed char)3, "Error - can't get broadcast IP address of interface %s: %s\n", batman_if->dev, return_value_strerror_7);
       goto error;
     }
 
@@ -2607,28 +2607,28 @@ static void activate_interface(struct batman_if *batman_if)
 
     else
     {
-      return_value_ioctl$11=ioctl(batman_if->udp_recv_sock, (unsigned long int)0x8933, &int_req);
-      if(!(return_value_ioctl$11 >= 0))
+      return_value_ioctl_11=ioctl(batman_if->udp_recv_sock, (unsigned long int)0x8933, &int_req);
+      if(!(return_value_ioctl_11 >= 0))
       {
-        signed int *return_value___errno_location$9;
-        return_value___errno_location$9=__errno_location();
-        char *return_value_strerror$10;
-        return_value_strerror$10=strerror(*return_value___errno_location$9);
-        debug_output((signed char)3, "Error - can't get index of interface %s: %s\n", batman_if->dev, return_value_strerror$10);
+        signed int *return_value___errno_location_9;
+        return_value___errno_location_9=__errno_location();
+        char *return_value_strerror_10;
+        return_value_strerror_10=strerror(*return_value___errno_location_9);
+        debug_output((signed char)3, "Error - can't get index of interface %s: %s\n", batman_if->dev, return_value_strerror_10);
         goto error;
       }
 
       batman_if->if_index = int_req.ifr_ifru.ifru_ivalue;
-      return_value_is_wifi_interface$12=is_wifi_interface(batman_if->dev, batman_if->udp_recv_sock);
-      batman_if->wifi_if = (unsigned char)return_value_is_wifi_interface$12;
-      return_value_ioctl$15=ioctl(batman_if->udp_recv_sock, (unsigned long int)0x891b, &int_req);
-      if(!(return_value_ioctl$15 >= 0))
+      return_value_is_wifi_interface_12=is_wifi_interface(batman_if->dev, batman_if->udp_recv_sock);
+      batman_if->wifi_if = (unsigned char)return_value_is_wifi_interface_12;
+      return_value_ioctl_15=ioctl(batman_if->udp_recv_sock, (unsigned long int)0x891b, &int_req);
+      if(!(return_value_ioctl_15 >= 0))
       {
-        signed int *return_value___errno_location$13;
-        return_value___errno_location$13=__errno_location();
-        char *return_value_strerror$14;
-        return_value_strerror$14=strerror(*return_value___errno_location$13);
-        debug_output((signed char)3, "Error - can't get netmask address of interface %s: %s\n", batman_if->dev, return_value_strerror$14);
+        signed int *return_value___errno_location_13;
+        return_value___errno_location_13=__errno_location();
+        char *return_value_strerror_14;
+        return_value_strerror_14=strerror(*return_value___errno_location_13);
+        debug_output((signed char)3, "Error - can't get netmask address of interface %s: %s\n", batman_if->dev, return_value_strerror_14);
         goto error;
       }
 
@@ -2639,68 +2639,68 @@ static void activate_interface(struct batman_if *batman_if)
       batman_if->udp_send_sock=socket(2, 2, 0);
       if(!(batman_if->udp_send_sock >= 0))
       {
-        signed int *return_value___errno_location$16;
-        return_value___errno_location$16=__errno_location();
-        char *return_value_strerror$17;
-        return_value_strerror$17=strerror(*return_value___errno_location$16);
-        debug_output((signed char)3, "Error - can't create send socket: %s\n", return_value_strerror$17);
+        signed int *return_value___errno_location_16;
+        return_value___errno_location_16=__errno_location();
+        char *return_value_strerror_17;
+        return_value_strerror_17=strerror(*return_value___errno_location_16);
+        debug_output((signed char)3, "Error - can't create send socket: %s\n", return_value_strerror_17);
         goto error;
       }
 
-      return_value_setsockopt$20=setsockopt(batman_if->udp_send_sock, 1, 6, (const void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
-      if(!(return_value_setsockopt$20 >= 0))
+      return_value_setsockopt_20=setsockopt(batman_if->udp_send_sock, 1, 6, (const void *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
+      if(!(return_value_setsockopt_20 >= 0))
       {
-        signed int *return_value___errno_location$18;
-        return_value___errno_location$18=__errno_location();
-        char *return_value_strerror$19;
-        return_value_strerror$19=strerror(*return_value___errno_location$18);
-        debug_output((signed char)3, "Error - can't enable broadcasts: %s\n", return_value_strerror$19);
+        signed int *return_value___errno_location_18;
+        return_value___errno_location_18=__errno_location();
+        char *return_value_strerror_19;
+        return_value_strerror_19=strerror(*return_value___errno_location_18);
+        debug_output((signed char)3, "Error - can't enable broadcasts: %s\n", return_value_strerror_19);
         goto error;
       }
 
-      return_value_bind_to_iface$23=bind_to_iface(batman_if->udp_send_sock, batman_if->dev);
-      if(!((signed int)return_value_bind_to_iface$23 >= 0))
+      return_value_bind_to_iface_23=bind_to_iface(batman_if->udp_send_sock, batman_if->dev);
+      if(!((signed int)return_value_bind_to_iface_23 >= 0))
       {
-        signed int *return_value___errno_location$21;
-        return_value___errno_location$21=__errno_location();
-        char *return_value_strerror$22;
-        return_value_strerror$22=strerror(*return_value___errno_location$21);
-        debug_output((signed char)3, "Cannot bind socket to device %s : %s \n", batman_if->dev, return_value_strerror$22);
+        signed int *return_value___errno_location_21;
+        return_value___errno_location_21=__errno_location();
+        char *return_value_strerror_22;
+        return_value_strerror_22=strerror(*return_value___errno_location_21);
+        debug_output((signed char)3, "Cannot bind socket to device %s : %s \n", batman_if->dev, return_value_strerror_22);
         goto error;
       }
 
-      return_value_bind$26=bind(batman_if->udp_send_sock, (struct sockaddr *)&batman_if->addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(!(return_value_bind$26 >= 0))
+      return_value_bind_26=bind(batman_if->udp_send_sock, (struct sockaddr *)&batman_if->addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(!(return_value_bind_26 >= 0))
       {
-        signed int *return_value___errno_location$24;
-        return_value___errno_location$24=__errno_location();
-        char *return_value_strerror$25;
-        return_value_strerror$25=strerror(*return_value___errno_location$24);
-        debug_output((signed char)3, "Error - can't bind send socket: %s\n", return_value_strerror$25);
+        signed int *return_value___errno_location_24;
+        return_value___errno_location_24=__errno_location();
+        char *return_value_strerror_25;
+        return_value_strerror_25=strerror(*return_value___errno_location_24);
+        debug_output((signed char)3, "Error - can't bind send socket: %s\n", return_value_strerror_25);
         goto error;
       }
 
       sock_opts=fcntl(batman_if->udp_send_sock, 3, 0);
       fcntl(batman_if->udp_send_sock, 4, sock_opts | 04000);
-      return_value_bind_to_iface$29=bind_to_iface(batman_if->udp_recv_sock, batman_if->dev);
-      if(!((signed int)return_value_bind_to_iface$29 >= 0))
+      return_value_bind_to_iface_29=bind_to_iface(batman_if->udp_recv_sock, batman_if->dev);
+      if(!((signed int)return_value_bind_to_iface_29 >= 0))
       {
-        signed int *return_value___errno_location$27;
-        return_value___errno_location$27=__errno_location();
-        char *return_value_strerror$28;
-        return_value_strerror$28=strerror(*return_value___errno_location$27);
-        debug_output((signed char)3, "Cannot bind socket to device %s : %s \n", batman_if->dev, return_value_strerror$28);
+        signed int *return_value___errno_location_27;
+        return_value___errno_location_27=__errno_location();
+        char *return_value_strerror_28;
+        return_value_strerror_28=strerror(*return_value___errno_location_27);
+        debug_output((signed char)3, "Cannot bind socket to device %s : %s \n", batman_if->dev, return_value_strerror_28);
         goto error;
       }
 
-      return_value_bind$32=bind(batman_if->udp_recv_sock, (struct sockaddr *)&batman_if->broad, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-      if(!(return_value_bind$32 >= 0))
+      return_value_bind_32=bind(batman_if->udp_recv_sock, (struct sockaddr *)&batman_if->broad, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+      if(!(return_value_bind_32 >= 0))
       {
-        signed int *return_value___errno_location$30;
-        return_value___errno_location$30=__errno_location();
-        char *return_value_strerror$31;
-        return_value_strerror$31=strerror(*return_value___errno_location$30);
-        debug_output((signed char)3, "Error - can't bind receive socket: %s\n", return_value_strerror$31);
+        signed int *return_value___errno_location_30;
+        return_value___errno_location_30=__errno_location();
+        char *return_value_strerror_31;
+        return_value_strerror_31=strerror(*return_value___errno_location_30);
+        debug_output((signed char)3, "Error - can't bind receive socket: %s\n", return_value_strerror_31);
         goto error;
       }
 
@@ -2710,11 +2710,11 @@ static void activate_interface(struct batman_if *batman_if)
       active_ifs = active_ifs + 1;
       interface_listen_sockets();
       debug_output((signed char)3, "Interface activated: %s\n", batman_if->dev);
-      return_value_get_rp_filter$33=get_rp_filter(batman_if->dev);
-      batman_if->if_rp_filter_old = (signed char)return_value_get_rp_filter$33;
+      return_value_get_rp_filter_33=get_rp_filter(batman_if->dev);
+      batman_if->if_rp_filter_old = (signed char)return_value_get_rp_filter_33;
       set_rp_filter(0, batman_if->dev);
-      return_value_get_send_redirects$34=get_send_redirects(batman_if->dev);
-      batman_if->if_send_redirects_old = (signed char)return_value_get_send_redirects$34;
+      return_value_get_send_redirects_34=get_send_redirects(batman_if->dev);
+      batman_if->if_send_redirects_old = (signed char)return_value_get_send_redirects_34;
       set_send_redirects(0, batman_if->dev);
       goto __CPROVER_DUMP_L15;
     }
@@ -2744,9 +2744,9 @@ static void addMemory(unsigned int length, signed int tag)
 
   if(walker == ((struct memoryUsage *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct memoryUsage) /*24ul*/ );
-    walker = (struct memoryUsage *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct memoryUsage) /*24ul*/ );
+    walker = (struct memoryUsage *)return_value_malloc_1;
     walker->length = length;
     walker->tag = tag;
     walker->counter = (unsigned int)1;
@@ -2767,22 +2767,22 @@ void add_default_route(void)
 
   else
   {
-    void *return_value_debugMalloc$1;
-    return_value_debugMalloc$1=debugMalloc((unsigned int)sizeof(struct curr_gw_data) /*24ul*/ , 207);
-    curr_gw_data = (struct curr_gw_data *)return_value_debugMalloc$1;
+    void *return_value_debugMalloc_1;
+    return_value_debugMalloc_1=debugMalloc((unsigned int)sizeof(struct curr_gw_data) /*24ul*/ , 207);
+    curr_gw_data = (struct curr_gw_data *)return_value_debugMalloc_1;
     curr_gw_data->orig = curr_gateway->orig_node->orig;
     curr_gw_data->gw_node = curr_gateway;
     curr_gw_data->batman_if = curr_gateway->orig_node->batman_if;
     tunnel_running = (unsigned char)1;
-    signed int return_value_pthread_create$4;
-    return_value_pthread_create$4=pthread_create(&curr_gateway_thread_id, (const union pthread_attr_t *)(void *)0, client_to_gw_tun, (void *)curr_gw_data);
-    if(!(return_value_pthread_create$4 == 0))
+    signed int return_value_pthread_create_4;
+    return_value_pthread_create_4=pthread_create(&curr_gateway_thread_id, (const union pthread_attr_t *)(void *)0, client_to_gw_tun, (void *)curr_gw_data);
+    if(!(return_value_pthread_create_4 == 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      debug_output((signed char)0, "Error - couldn't spawn thread: %s\n", return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      debug_output((signed char)0, "Error - couldn't spawn thread: %s\n", return_value_strerror_3);
       debugFree((void *)curr_gw_data, 1213);
       curr_gateway = (struct gw_node *)(void *)0;
       tunnel_running = (unsigned char)0;
@@ -2812,31 +2812,31 @@ signed int add_del_interface_rules(signed char rule_action)
   tmp_fd=socket(2, 2, 0);
   if(!(tmp_fd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    debug_output((signed char)0, "Error - can't %s interface rules (udp socket): %s\n", (signed int)rule_action == 1 ? "delete" : "add", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    debug_output((signed char)0, "Error - can't %s interface rules (udp socket): %s\n", (signed int)rule_action == 1 ? "delete" : "add", return_value_strerror_2);
     return -1;
   }
 
   len = (signed int)((unsigned long int)10 * sizeof(struct ifreq) /*40ul*/ );
   while((_Bool)1)
   {
-    void *return_value_debugMalloc$3;
-    return_value_debugMalloc$3=debugMalloc((unsigned int)len, 601);
-    buf = (char *)return_value_debugMalloc$3;
+    void *return_value_debugMalloc_3;
+    return_value_debugMalloc_3=debugMalloc((unsigned int)len, 601);
+    buf = (char *)return_value_debugMalloc_3;
     ifc.ifc_len = len;
     ifc.ifc_ifcu.ifcu_buf = buf;
-    signed int return_value_ioctl$6;
-    return_value_ioctl$6=ioctl(tmp_fd, (unsigned long int)0x8912, &ifc);
-    if(!(return_value_ioctl$6 >= 0))
+    signed int return_value_ioctl_6;
+    return_value_ioctl_6=ioctl(tmp_fd, (unsigned long int)0x8912, &ifc);
+    if(!(return_value_ioctl_6 >= 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      debug_output((signed char)0, "Error - can't %s interface rules (SIOCGIFCONF): %s\n", (signed int)rule_action == 1 ? "delete" : "add", return_value_strerror$5);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      debug_output((signed char)0, "Error - can't %s interface rules (SIOCGIFCONF): %s\n", (signed int)rule_action == 1 ? "delete" : "add", return_value_strerror_5);
       close(tmp_fd);
       debugFree((void *)buf, 1606);
       return -1;
@@ -2856,62 +2856,62 @@ signed int add_del_interface_rules(signed char rule_action)
     buf_ptr = buf_ptr + (signed long int)(((signed int)ifr->ifr_ifru.ifru_addr.sa_family == 10 ? sizeof(struct sockaddr_in6) /*28ul*/  : sizeof(struct sockaddr) /*16ul*/ ) + sizeof(char [16l]) /*16ul*/ );
     if((signed int)ifr->ifr_ifru.ifru_addr.sa_family == 2)
     {
-      signed int return_value_strncmp$7;
-      return_value_strncmp$7=strncmp(ifr->ifr_ifrn.ifrn_name, "gate", (unsigned long int)4);
-      if(!(return_value_strncmp$7 == 0))
+      signed int return_value_strncmp_7;
+      return_value_strncmp_7=strncmp(ifr->ifr_ifrn.ifrn_name, "gate", (unsigned long int)4);
+      if(!(return_value_strncmp_7 == 0))
       {
         memset((void *)&ifr_tmp, 0, sizeof(struct ifreq) /*40ul*/ );
         strncpy(ifr_tmp.ifr_ifrn.ifrn_name, ifr->ifr_ifrn.ifrn_name, (unsigned long int)(16 - 1));
-        signed int return_value_ioctl$10;
-        return_value_ioctl$10=ioctl(tmp_fd, (unsigned long int)0x8913, &ifr_tmp);
-        if(!(return_value_ioctl$10 >= 0))
+        signed int return_value_ioctl_10;
+        return_value_ioctl_10=ioctl(tmp_fd, (unsigned long int)0x8913, &ifr_tmp);
+        if(!(return_value_ioctl_10 >= 0))
         {
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          char *return_value_strerror$9;
-          return_value_strerror$9=strerror(*return_value___errno_location$8);
-          debug_output((signed char)0, "Error - can't get flags of interface %s (interface rules): %s\n", (const void *)ifr->ifr_ifrn.ifrn_name, return_value_strerror$9);
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          char *return_value_strerror_9;
+          return_value_strerror_9=strerror(*return_value___errno_location_8);
+          debug_output((signed char)0, "Error - can't get flags of interface %s (interface rules): %s\n", (const void *)ifr->ifr_ifrn.ifrn_name, return_value_strerror_9);
           continue;
         }
 
         if(!((1 & (signed int)ifr_tmp.ifr_ifru.ifru_flags) == 0) && !((64 & (signed int)ifr_tmp.ifr_ifru.ifru_flags) == 0))
         {
-          signed int return_value_ioctl$13;
-          return_value_ioctl$13=ioctl(tmp_fd, (unsigned long int)0x8915, &ifr_tmp);
-          if(!(return_value_ioctl$13 >= 0))
+          signed int return_value_ioctl_13;
+          return_value_ioctl_13=ioctl(tmp_fd, (unsigned long int)0x8915, &ifr_tmp);
+          if(!(return_value_ioctl_13 >= 0))
           {
-            signed int *return_value___errno_location$11;
-            return_value___errno_location$11=__errno_location();
-            char *return_value_strerror$12;
-            return_value_strerror$12=strerror(*return_value___errno_location$11);
-            debug_output((signed char)0, "Error - can't get IP address of interface %s (interface rules): %s\n", (const void *)ifr->ifr_ifrn.ifrn_name, return_value_strerror$12);
+            signed int *return_value___errno_location_11;
+            return_value___errno_location_11=__errno_location();
+            char *return_value_strerror_12;
+            return_value_strerror_12=strerror(*return_value___errno_location_11);
+            debug_output((signed char)0, "Error - can't get IP address of interface %s (interface rules): %s\n", (const void *)ifr->ifr_ifrn.ifrn_name, return_value_strerror_12);
             continue;
           }
 
           addr = ((struct sockaddr_in *)&ifr_tmp.ifr_ifru.ifru_addr)->sin_addr.s_addr;
-          signed int return_value_ioctl$16;
-          return_value_ioctl$16=ioctl(tmp_fd, (unsigned long int)0x891b, &ifr_tmp);
-          if(!(return_value_ioctl$16 >= 0))
+          signed int return_value_ioctl_16;
+          return_value_ioctl_16=ioctl(tmp_fd, (unsigned long int)0x891b, &ifr_tmp);
+          if(!(return_value_ioctl_16 >= 0))
           {
-            signed int *return_value___errno_location$14;
-            return_value___errno_location$14=__errno_location();
-            char *return_value_strerror$15;
-            return_value_strerror$15=strerror(*return_value___errno_location$14);
-            debug_output((signed char)0, "Error - can't get netmask address of interface %s (interface rules): %s\n", (const void *)ifr->ifr_ifrn.ifrn_name, return_value_strerror$15);
+            signed int *return_value___errno_location_14;
+            return_value___errno_location_14=__errno_location();
+            char *return_value_strerror_15;
+            return_value_strerror_15=strerror(*return_value___errno_location_14);
+            debug_output((signed char)0, "Error - can't get netmask address of interface %s (interface rules): %s\n", (const void *)ifr->ifr_ifrn.ifrn_name, return_value_strerror_15);
             continue;
           }
 
           netaddr = ((struct sockaddr_in *)&ifr_tmp.ifr_ifru.ifru_addr)->sin_addr.s_addr & addr;
           netmask=bit_count((signed int)((struct sockaddr_in *)&ifr_tmp.ifr_ifru.ifru_addr)->sin_addr.s_addr);
           add_del_route(netaddr, netmask, (unsigned int)0, (unsigned int)0, 0, ifr->ifr_ifrn.ifrn_name, (unsigned char)68, (signed char)1, rule_action);
-          signed int return_value_is_batman_if$17;
-          return_value_is_batman_if$17=is_batman_if(ifr->ifr_ifrn.ifrn_name, &batman_if);
-          if(return_value_is_batman_if$17 == 0)
+          signed int return_value_is_batman_if_17;
+          return_value_is_batman_if_17=is_batman_if(ifr->ifr_ifrn.ifrn_name, &batman_if);
+          if(return_value_is_batman_if_17 == 0)
           {
             add_del_rule(netaddr, netmask, (signed char)68, (unsigned int)((signed int)rule_action == 1 ? 0 : 6600 + 100 + 100 + (signed int)if_count), ((char *)NULL), (signed char)0, rule_action);
-            signed int return_value_strncmp$18;
-            return_value_strncmp$18=strncmp(ifr->ifr_ifrn.ifrn_name, "lo", (unsigned long int)(16 - 1));
-            if(return_value_strncmp$18 == 0)
+            signed int return_value_strncmp_18;
+            return_value_strncmp_18=strncmp(ifr->ifr_ifrn.ifrn_name, "lo", (unsigned long int)(16 - 1));
+            if(return_value_strncmp_18 == 0)
               add_del_rule((unsigned int)0, (unsigned char)0, (signed char)68, (unsigned int)(6600 + 100 + 100), "lo\0 ", (signed char)2, rule_action);
 
             if_count = if_count + 1;
@@ -2963,7 +2963,7 @@ struct req_s
   inet_ntop(2, (const void *)&dest, str1, (unsigned int)sizeof(char [16l]) /*16ul*/ );
   inet_ntop(2, (const void *)&router, str2, (unsigned int)sizeof(char [16l]) /*16ul*/ );
   inet_ntop(2, (const void *)&src_ip, str3, (unsigned int)sizeof(char [16l]) /*16ul*/ );
-  char *return_value_strerror$8;
+  char *return_value_strerror_8;
   if(!(policy_routing_script == ((char *)NULL)))
     dprintf(policy_routing_pipe, "ROUTE %s %s %s %i %s %s %i %s %i\n", (signed int)route_action == 1 ? "del" : "add", route_type_to_string_script[(signed long int)route_type], (const void *)str1, netmask, (const void *)str2, (const void *)str3, ifi, dev, rt_table);
 
@@ -3008,9 +3008,9 @@ struct req_s
       len = len + sizeof(struct rtattr) /*4ul*/  + (unsigned long int)4;
 
     nh->nlmsg_len = (unsigned int)(len + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)));
-    signed int return_value_getpid$1;
-    return_value_getpid$1=getpid();
-    nh->nlmsg_pid = (unsigned int)return_value_getpid$1;
+    signed int return_value_getpid_1;
+    return_value_getpid_1=getpid();
+    nh->nlmsg_pid = (unsigned int)return_value_getpid_1;
     req->rtm.rtm_family = (unsigned char)2;
     req->rtm.rtm_table = rt_table;
     req->rtm.rtm_dst_len = netmask;
@@ -3082,23 +3082,23 @@ struct req_s
     netlink_sock=socket(16, 2, 0);
     if(!(netlink_sock >= 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      debug_output((signed char)0, "Error - can't create netlink socket for routing table manipulation: %s\n", return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      debug_output((signed char)0, "Error - can't create netlink socket for routing table manipulation: %s\n", return_value_strerror_3);
       goto __CPROVER_DUMP_L22;
     }
 
-    signed long int return_value_sendto$6;
-    return_value_sendto$6=sendto(netlink_sock, (const void *)req_buf, (unsigned long int)nh->nlmsg_len, 0, (struct sockaddr *)&nladdr, (unsigned int)sizeof(struct sockaddr_nl) /*12ul*/ );
-    if(!(return_value_sendto$6 >= 0l))
+    signed long int return_value_sendto_6;
+    return_value_sendto_6=sendto(netlink_sock, (const void *)req_buf, (unsigned long int)nh->nlmsg_len, 0, (struct sockaddr *)&nladdr, (unsigned int)sizeof(struct sockaddr_nl) /*12ul*/ );
+    if(!(return_value_sendto_6 >= 0l))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      debug_output((signed char)0, "Error - can't send message to kernel via netlink socket for routing table manipulation: %s\n", return_value_strerror$5);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      debug_output((signed char)0, "Error - can't send message to kernel via netlink socket for routing table manipulation: %s\n", return_value_strerror_5);
       close(netlink_sock);
       goto __CPROVER_DUMP_L22;
     }
@@ -3108,9 +3108,9 @@ struct req_s
     msg.msg_iov = &iov;
     msg.msg_iovlen = (unsigned long int)1;
     msg.msg_control = (void *)0;
-    signed long int return_value_recvmsg$7;
-    return_value_recvmsg$7=recvmsg(netlink_sock, &msg, 0);
-    len = (unsigned long int)return_value_recvmsg$7;
+    signed long int return_value_recvmsg_7;
+    return_value_recvmsg_7=recvmsg(netlink_sock, &msg, 0);
+    len = (unsigned long int)return_value_recvmsg_7;
     nh = (struct nlmsghdr *)buf;
     while(len >= sizeof(struct nlmsghdr) /*16ul*/ )
     {
@@ -3127,8 +3127,8 @@ struct req_s
       {
         if(!(((struct nlmsgerr *)((char *)nh + 16l))->error == 0))
         {
-          return_value_strerror$8=strerror(-((struct nlmsgerr *)(void *)((char *)nh + (signed long int)(0 + (signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)))))->error);
-          debug_output((signed char)0, "Error - can't %s %s to %s/%i via %s (table %i): %s\n", (signed int)route_action == 1 ? "delete" : "add", route_type_to_string[(signed long int)route_type], (const void *)str1, netmask, (const void *)str2, rt_table, return_value_strerror$8);
+          return_value_strerror_8=strerror(-((struct nlmsgerr *)(void *)((char *)nh + (signed long int)(0 + (signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)))))->error);
+          debug_output((signed char)0, "Error - can't %s %s to %s/%i via %s (table %i): %s\n", (signed int)route_action == 1 ? "delete" : "add", route_type_to_string[(signed long int)route_type], (const void *)str1, netmask, (const void *)str2, rt_table, return_value_strerror_8);
         }
 
       }
@@ -3157,7 +3157,7 @@ void add_del_rule(unsigned int network, unsigned char netmask, signed char rt_ta
   struct msghdr msg;
   struct nlmsghdr *nh;
   /* add_del_rule::1::tag-req_s */
-struct req_s$0
+struct req_s_0
 {
   // rtm
   struct rtmsg rtm;
@@ -3167,7 +3167,7 @@ struct req_s$0
 
 /* */
   ;
-  struct req_s$0 *req;
+  struct req_s_0 *req;
   char req_buf[44l];
   iov.iov_base = (void *)buf;
   iov.iov_len = sizeof(char [4096l]) /*4096ul*/ ;
@@ -3178,9 +3178,9 @@ struct req_s$0
   else
   {
     nh = (struct nlmsghdr *)req_buf;
-    req = (struct req_s$0 *)(void *)((char *)req_buf + (signed long int)(0 + (signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1))));
+    req = (struct req_s_0 *)(void *)((char *)req_buf + (signed long int)(0 + (signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1))));
     memset((void *)&nladdr, 0, sizeof(struct sockaddr_nl) /*12ul*/ );
-    memset((void *)req_buf, 0, sizeof(struct req_s$0) /*28ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)));
+    memset((void *)req_buf, 0, sizeof(struct req_s_0) /*28ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)));
     memset((void *)&msg, 0, sizeof(struct msghdr) /*56ul*/ );
     nladdr.nl_family = (unsigned short int)16;
     len = sizeof(struct rtmsg) /*12ul*/  + sizeof(struct rtattr) /*4ul*/  + (unsigned long int)4;
@@ -3188,9 +3188,9 @@ struct req_s$0
       len = len + sizeof(struct rtattr) /*4ul*/  + (unsigned long int)4;
 
     nh->nlmsg_len = (unsigned int)(len + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)));
-    signed int return_value_getpid$1;
-    return_value_getpid$1=getpid();
-    nh->nlmsg_pid = (unsigned int)return_value_getpid$1;
+    signed int return_value_getpid_1;
+    return_value_getpid_1=getpid();
+    nh->nlmsg_pid = (unsigned int)return_value_getpid_1;
     req->rtm.rtm_family = (unsigned char)2;
     req->rtm.rtm_table = (unsigned char)rt_table;
     if((signed int)rule_action == 1)
@@ -3262,23 +3262,23 @@ struct req_s$0
     netlink_sock=socket(16, 2, 0);
     if(!(netlink_sock >= 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      debug_output((signed char)0, "Error - can't create netlink socket for routing rule manipulation: %s\n", return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      debug_output((signed char)0, "Error - can't create netlink socket for routing rule manipulation: %s\n", return_value_strerror_3);
       goto __CPROVER_DUMP_L18;
     }
 
-    signed long int return_value_sendto$6;
-    return_value_sendto$6=sendto(netlink_sock, (const void *)req_buf, (unsigned long int)nh->nlmsg_len, 0, (struct sockaddr *)&nladdr, (unsigned int)sizeof(struct sockaddr_nl) /*12ul*/ );
-    if(!(return_value_sendto$6 >= 0l))
+    signed long int return_value_sendto_6;
+    return_value_sendto_6=sendto(netlink_sock, (const void *)req_buf, (unsigned long int)nh->nlmsg_len, 0, (struct sockaddr *)&nladdr, (unsigned int)sizeof(struct sockaddr_nl) /*12ul*/ );
+    if(!(return_value_sendto_6 >= 0l))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      debug_output((signed char)0, "Error - can't send message to kernel via netlink socket for routing rule manipulation: %s\n", return_value_strerror$5);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      debug_output((signed char)0, "Error - can't send message to kernel via netlink socket for routing rule manipulation: %s\n", return_value_strerror_5);
       close(netlink_sock);
       goto __CPROVER_DUMP_L18;
     }
@@ -3288,9 +3288,9 @@ struct req_s$0
     msg.msg_iov = &iov;
     msg.msg_iovlen = (unsigned long int)1;
     msg.msg_control = (void *)0;
-    signed long int return_value_recvmsg$7;
-    return_value_recvmsg$7=recvmsg(netlink_sock, &msg, 0);
-    len = (unsigned long int)return_value_recvmsg$7;
+    signed long int return_value_recvmsg_7;
+    return_value_recvmsg_7=recvmsg(netlink_sock, &msg, 0);
+    len = (unsigned long int)return_value_recvmsg_7;
     nh = (struct nlmsghdr *)buf;
     for( ; len >= sizeof(struct nlmsghdr) /*16ul*/ ; nh = (struct nlmsghdr *)((char *)nh + (signed long int)((nh->nlmsg_len + 4U) - (unsigned int)1 & ~(4U - (unsigned int)1))))
     {
@@ -3308,9 +3308,9 @@ struct req_s$0
         if(!(((struct nlmsgerr *)((char *)nh + 16l))->error == 0))
         {
           inet_ntop(2, (const void *)&network, str1, (unsigned int)sizeof(char [16l]) /*16ul*/ );
-          char *return_value_strerror$8;
-          return_value_strerror$8=strerror(-((struct nlmsgerr *)(void *)((char *)nh + (signed long int)(0 + (signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)))))->error);
-          debug_output((signed char)0, "Error - can't %s rule %s %s/%i: %s\n", (signed int)rule_action == 1 ? "delete" : "add", rule_type_to_string_script[(signed long int)rule_type], (const void *)str1, netmask, return_value_strerror$8);
+          char *return_value_strerror_8;
+          return_value_strerror_8=strerror(-((struct nlmsgerr *)(void *)((char *)nh + (signed long int)(0 + (signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)))))->error);
+          debug_output((signed char)0, "Error - can't %s rule %s %s/%i: %s\n", (signed int)rule_action == 1 ? "delete" : "add", rule_type_to_string_script[(signed long int)rule_type], (const void *)str1, netmask, return_value_strerror_8);
         }
 
       }
@@ -3340,36 +3340,36 @@ signed char add_dev_tun(struct batman_if *batman_if, unsigned int tun_addr, char
   *fd=open("/dev/net/tun", 02);
   if(!(*fd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    debug_output((signed char)0, "Error - can't create tun device (/dev/net/tun): %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    debug_output((signed char)0, "Error - can't create tun device (/dev/net/tun): %s\n", return_value_strerror_2);
     return (signed char)-1;
   }
 
-  signed int return_value_ioctl$5;
-  return_value_ioctl$5=ioctl(*fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(84 << 0 + 8) | (unsigned int)(202 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, (void *)&ifr_tun);
-  if(!(return_value_ioctl$5 >= 0))
+  signed int return_value_ioctl_5;
+  return_value_ioctl_5=ioctl(*fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(84 << 0 + 8) | (unsigned int)(202 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, (void *)&ifr_tun);
+  if(!(return_value_ioctl_5 >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    debug_output((signed char)0, "Error - can't create tun device (TUNSETIFF): %s\n", return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    debug_output((signed char)0, "Error - can't create tun device (TUNSETIFF): %s\n", return_value_strerror_4);
     close(*fd);
     return (signed char)-1;
   }
 
-  signed int return_value_ioctl$8;
-  return_value_ioctl$8=ioctl(*fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(84 << 0 + 8) | (unsigned int)(203 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, 1);
-  if(!(return_value_ioctl$8 >= 0))
+  signed int return_value_ioctl_8;
+  return_value_ioctl_8=ioctl(*fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(84 << 0 + 8) | (unsigned int)(203 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, 1);
+  if(!(return_value_ioctl_8 >= 0))
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    char *return_value_strerror$7;
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    debug_output((signed char)0, "Error - can't create tun device (TUNSETPERSIST): %s\n", return_value_strerror$7);
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    char *return_value_strerror_7;
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    debug_output((signed char)0, "Error - can't create tun device (TUNSETPERSIST): %s\n", return_value_strerror_7);
     close(*fd);
     return (signed char)-1;
   }
@@ -3377,11 +3377,11 @@ signed char add_dev_tun(struct batman_if *batman_if, unsigned int tun_addr, char
   tmp_fd=socket(2, 2, 0);
   if(!(tmp_fd >= 0))
   {
-    signed int *return_value___errno_location$9;
-    return_value___errno_location$9=__errno_location();
-    char *return_value_strerror$10;
-    return_value_strerror$10=strerror(*return_value___errno_location$9);
-    debug_output((signed char)0, "Error - can't create tun device (udp socket): %s\n", return_value_strerror$10);
+    signed int *return_value___errno_location_9;
+    return_value___errno_location_9=__errno_location();
+    char *return_value_strerror_10;
+    return_value_strerror_10=strerror(*return_value___errno_location_9);
+    debug_output((signed char)0, "Error - can't create tun device (udp socket): %s\n", return_value_strerror_10);
     del_dev_tun(*fd);
     return (signed char)-1;
   }
@@ -3390,44 +3390,44 @@ signed char add_dev_tun(struct batman_if *batman_if, unsigned int tun_addr, char
   addr.sin_addr.s_addr = tun_addr;
   addr.sin_family = (unsigned short int)2;
   memcpy((void *)&ifr_tun.ifr_ifru.ifru_addr, (const void *)&addr, sizeof(struct sockaddr) /*16ul*/ );
-  signed int return_value_ioctl$13;
-  return_value_ioctl$13=ioctl(tmp_fd, (unsigned long int)0x8916, &ifr_tun);
-  if(!(return_value_ioctl$13 >= 0))
+  signed int return_value_ioctl_13;
+  return_value_ioctl_13=ioctl(tmp_fd, (unsigned long int)0x8916, &ifr_tun);
+  if(!(return_value_ioctl_13 >= 0))
   {
-    signed int *return_value___errno_location$11;
-    return_value___errno_location$11=__errno_location();
-    char *return_value_strerror$12;
-    return_value_strerror$12=strerror(*return_value___errno_location$11);
-    debug_output((signed char)0, "Error - can't create tun device (SIOCSIFADDR): %s\n", return_value_strerror$12);
+    signed int *return_value___errno_location_11;
+    return_value___errno_location_11=__errno_location();
+    char *return_value_strerror_12;
+    return_value_strerror_12=strerror(*return_value___errno_location_11);
+    debug_output((signed char)0, "Error - can't create tun device (SIOCSIFADDR): %s\n", return_value_strerror_12);
     del_dev_tun(*fd);
     close(tmp_fd);
     return (signed char)-1;
   }
 
-  signed int return_value_ioctl$16;
-  return_value_ioctl$16=ioctl(tmp_fd, (unsigned long int)0x8933, &ifr_tun);
-  if(!(return_value_ioctl$16 >= 0))
+  signed int return_value_ioctl_16;
+  return_value_ioctl_16=ioctl(tmp_fd, (unsigned long int)0x8933, &ifr_tun);
+  if(!(return_value_ioctl_16 >= 0))
   {
-    signed int *return_value___errno_location$14;
-    return_value___errno_location$14=__errno_location();
-    char *return_value_strerror$15;
-    return_value_strerror$15=strerror(*return_value___errno_location$14);
-    debug_output((signed char)0, "Error - can't create tun device (SIOCGIFINDEX): %s\n", return_value_strerror$15);
+    signed int *return_value___errno_location_14;
+    return_value___errno_location_14=__errno_location();
+    char *return_value_strerror_15;
+    return_value_strerror_15=strerror(*return_value___errno_location_14);
+    debug_output((signed char)0, "Error - can't create tun device (SIOCGIFINDEX): %s\n", return_value_strerror_15);
     del_dev_tun(*fd);
     close(tmp_fd);
     return (signed char)-1;
   }
 
   *ifi = ifr_tun.ifr_ifru.ifru_ivalue;
-  signed int return_value_ioctl$19;
-  return_value_ioctl$19=ioctl(tmp_fd, (unsigned long int)0x8913, &ifr_tun);
-  if(!(return_value_ioctl$19 >= 0))
+  signed int return_value_ioctl_19;
+  return_value_ioctl_19=ioctl(tmp_fd, (unsigned long int)0x8913, &ifr_tun);
+  if(!(return_value_ioctl_19 >= 0))
   {
-    signed int *return_value___errno_location$17;
-    return_value___errno_location$17=__errno_location();
-    char *return_value_strerror$18;
-    return_value_strerror$18=strerror(*return_value___errno_location$17);
-    debug_output((signed char)0, "Error - can't create tun device (SIOCGIFFLAGS): %s\n", return_value_strerror$18);
+    signed int *return_value___errno_location_17;
+    return_value___errno_location_17=__errno_location();
+    char *return_value_strerror_18;
+    return_value_strerror_18=strerror(*return_value___errno_location_17);
+    debug_output((signed char)0, "Error - can't create tun device (SIOCGIFFLAGS): %s\n", return_value_strerror_18);
     del_dev_tun(*fd);
     close(tmp_fd);
     return (signed char)-1;
@@ -3435,30 +3435,30 @@ signed char add_dev_tun(struct batman_if *batman_if, unsigned int tun_addr, char
 
   ifr_tun.ifr_ifru.ifru_flags = ifr_tun.ifr_ifru.ifru_flags | (signed short int)1;
   ifr_tun.ifr_ifru.ifru_flags = ifr_tun.ifr_ifru.ifru_flags | (signed short int)64;
-  signed int return_value_ioctl$22;
-  return_value_ioctl$22=ioctl(tmp_fd, (unsigned long int)0x8914, &ifr_tun);
-  if(!(return_value_ioctl$22 >= 0))
+  signed int return_value_ioctl_22;
+  return_value_ioctl_22=ioctl(tmp_fd, (unsigned long int)0x8914, &ifr_tun);
+  if(!(return_value_ioctl_22 >= 0))
   {
-    signed int *return_value___errno_location$20;
-    return_value___errno_location$20=__errno_location();
-    char *return_value_strerror$21;
-    return_value_strerror$21=strerror(*return_value___errno_location$20);
-    debug_output((signed char)0, "Error - can't create tun device (SIOCSIFFLAGS): %s\n", return_value_strerror$21);
+    signed int *return_value___errno_location_20;
+    return_value___errno_location_20=__errno_location();
+    char *return_value_strerror_21;
+    return_value_strerror_21=strerror(*return_value___errno_location_20);
+    debug_output((signed char)0, "Error - can't create tun device (SIOCSIFFLAGS): %s\n", return_value_strerror_21);
     del_dev_tun(*fd);
     close(tmp_fd);
     return (signed char)-1;
   }
 
   strncpy(ifr_if.ifr_ifrn.ifrn_name, batman_if->dev, (unsigned long int)(16 - 1));
-  signed int return_value_ioctl$25;
-  return_value_ioctl$25=ioctl(tmp_fd, (unsigned long int)0x8921, &ifr_if);
-  if(!(return_value_ioctl$25 >= 0))
+  signed int return_value_ioctl_25;
+  return_value_ioctl_25=ioctl(tmp_fd, (unsigned long int)0x8921, &ifr_if);
+  if(!(return_value_ioctl_25 >= 0))
   {
-    signed int *return_value___errno_location$23;
-    return_value___errno_location$23=__errno_location();
-    char *return_value_strerror$24;
-    return_value_strerror$24=strerror(*return_value___errno_location$23);
-    debug_output((signed char)0, "Error - can't create tun device (SIOCGIFMTU): %s\n", return_value_strerror$24);
+    signed int *return_value___errno_location_23;
+    return_value___errno_location_23=__errno_location();
+    char *return_value_strerror_24;
+    return_value_strerror_24=strerror(*return_value___errno_location_23);
+    debug_output((signed char)0, "Error - can't create tun device (SIOCGIFMTU): %s\n", return_value_strerror_24);
     del_dev_tun(*fd);
     close(tmp_fd);
     return (signed char)-1;
@@ -3470,15 +3470,15 @@ signed char add_dev_tun(struct batman_if *batman_if, unsigned int tun_addr, char
   else
   {
     ifr_tun.ifr_ifru.ifru_mtu = ifr_if.ifr_ifru.ifru_mtu - 29;
-    signed int return_value_ioctl$28;
-    return_value_ioctl$28=ioctl(tmp_fd, (unsigned long int)0x8922, &ifr_tun);
-    if(!(return_value_ioctl$28 >= 0))
+    signed int return_value_ioctl_28;
+    return_value_ioctl_28=ioctl(tmp_fd, (unsigned long int)0x8922, &ifr_tun);
+    if(!(return_value_ioctl_28 >= 0))
     {
-      signed int *return_value___errno_location$26;
-      return_value___errno_location$26=__errno_location();
-      char *return_value_strerror$27;
-      return_value_strerror$27=strerror(*return_value___errno_location$26);
-      debug_output((signed char)0, "Error - can't create tun device (SIOCSIFMTU): %s\n", return_value_strerror$27);
+      signed int *return_value___errno_location_26;
+      return_value___errno_location_26=__errno_location();
+      char *return_value_strerror_27;
+      return_value_strerror_27=strerror(*return_value___errno_location_26);
+      debug_output((signed char)0, "Error - can't create tun device (SIOCSIFMTU): %s\n", return_value_strerror_27);
       del_dev_tun(*fd);
       close(tmp_fd);
       return (signed char)-1;
@@ -3553,47 +3553,47 @@ void apply_init_args(signed int argc, char **argv)
   memset((void *)&tmp_ip_holder, 0, sizeof(struct in_addr) /*4ul*/ );
   stop = (signed char)0;
   prog_name = argv[(signed long int)0];
-  signed int *return_value___errno_location$1;
-  signed long int return_value_strtol$2;
-  signed int *return_value___errno_location$3;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
-  signed int *return_value___errno_location$6;
-  signed long int return_value_strtol$7;
-  signed int *return_value___errno_location$8;
-  _Bool tmp_if_expr$10;
-  signed int *return_value___errno_location$9;
-  unsigned long int return_value_strlen$19;
-  unsigned long int return_value_strlen$11;
-  signed int return_value_strncmp$12;
-  _Bool tmp_if_expr$15;
-  unsigned long int return_value_strlen$13;
-  signed int return_value_strncmp$14;
-  _Bool tmp_if_expr$18;
-  unsigned long int return_value_strlen$16;
-  signed int return_value_strncmp$17;
-  _Bool tmp_if_expr$24;
-  signed int *return_value___errno_location$23;
-  unsigned long int return_value_strlen$25;
-  signed int return_value_strncmp$26;
-  _Bool tmp_if_expr$29;
-  unsigned long int return_value_strlen$27;
-  signed int return_value_strncmp$28;
-  _Bool tmp_if_expr$32;
-  unsigned long int return_value_strlen$30;
-  signed int return_value_strncmp$31;
-  signed int *return_value___errno_location$34;
-  signed long int return_value_strtol$35;
-  signed int *return_value___errno_location$36;
-  signed long int return_value_strtol$37;
-  signed int *return_value___errno_location$38;
-  signed long int return_value_strtol$39;
-  signed int *return_value___errno_location$40;
-  signed int return_value_inet_pton$41;
-  signed int *return_value___errno_location$42;
-  signed long int return_value_strtol$43;
-  signed int *return_value___errno_location$44;
-  signed int return_value_inet_pton$45;
+  signed int *return_value___errno_location_1;
+  signed long int return_value_strtol_2;
+  signed int *return_value___errno_location_3;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
+  signed int *return_value___errno_location_6;
+  signed long int return_value_strtol_7;
+  signed int *return_value___errno_location_8;
+  _Bool tmp_if_expr_10;
+  signed int *return_value___errno_location_9;
+  unsigned long int return_value_strlen_19;
+  unsigned long int return_value_strlen_11;
+  signed int return_value_strncmp_12;
+  _Bool tmp_if_expr_15;
+  unsigned long int return_value_strlen_13;
+  signed int return_value_strncmp_14;
+  _Bool tmp_if_expr_18;
+  unsigned long int return_value_strlen_16;
+  signed int return_value_strncmp_17;
+  _Bool tmp_if_expr_24;
+  signed int *return_value___errno_location_23;
+  unsigned long int return_value_strlen_25;
+  signed int return_value_strncmp_26;
+  _Bool tmp_if_expr_29;
+  unsigned long int return_value_strlen_27;
+  signed int return_value_strncmp_28;
+  _Bool tmp_if_expr_32;
+  unsigned long int return_value_strlen_30;
+  signed int return_value_strncmp_31;
+  signed int *return_value___errno_location_34;
+  signed long int return_value_strtol_35;
+  signed int *return_value___errno_location_36;
+  signed long int return_value_strtol_37;
+  signed int *return_value___errno_location_38;
+  signed long int return_value_strtol_39;
+  signed int *return_value___errno_location_40;
+  signed int return_value_inet_pton_41;
+  signed int *return_value___errno_location_42;
+  signed long int return_value_strtol_43;
+  signed int *return_value___errno_location_44;
+  signed int return_value_inet_pton_45;
   do
   {
     optchar=getopt_long(argc, argv, "a:A:bcd:hHio:g:p:r:s:vVD", long_options, &option_index);
@@ -3628,20 +3628,20 @@ void apply_init_args(signed int argc, char **argv)
       }
       case 100:
       {
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = 0;
-        return_value_strtol$2=strtol(optarg, (char ** restrict )(void *)0, 10);
-        debug_level = (unsigned char)return_value_strtol$2;
-        return_value___errno_location$3=__errno_location();
-        if(*return_value___errno_location$3 == 34)
-          tmp_if_expr$5 = (_Bool)1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = 0;
+        return_value_strtol_2=strtol(optarg, (char ** restrict )(void *)0, 10);
+        debug_level = (unsigned char)return_value_strtol_2;
+        return_value___errno_location_3=__errno_location();
+        if(*return_value___errno_location_3 == 34)
+          tmp_if_expr_5 = (_Bool)1;
 
         else
         {
-          return_value___errno_location$4=__errno_location();
-          tmp_if_expr$5 = (*return_value___errno_location$4 != 0 ? ((signed int)debug_level == 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_4=__errno_location();
+          tmp_if_expr_5 = (*return_value___errno_location_4 != 0 ? ((signed int)debug_level == 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$5)
+        if(tmp_if_expr_5)
         {
           perror("strtol");
           exit(1);
@@ -3662,102 +3662,102 @@ void apply_init_args(signed int argc, char **argv)
         if(!(slash_ptr == ((char *)NULL)))
           *slash_ptr = (char)0;
 
-        return_value___errno_location$6=__errno_location();
-        *return_value___errno_location$6 = 0;
-        return_value_strtol$7=strtol(optarg, (char ** restrict )(void *)0, 10);
-        download_speed = (signed int)return_value_strtol$7;
-        return_value___errno_location$8=__errno_location();
-        if(*return_value___errno_location$8 == 34)
-          tmp_if_expr$10 = (_Bool)1;
+        return_value___errno_location_6=__errno_location();
+        *return_value___errno_location_6 = 0;
+        return_value_strtol_7=strtol(optarg, (char ** restrict )(void *)0, 10);
+        download_speed = (signed int)return_value_strtol_7;
+        return_value___errno_location_8=__errno_location();
+        if(*return_value___errno_location_8 == 34)
+          tmp_if_expr_10 = (_Bool)1;
 
         else
         {
-          return_value___errno_location$9=__errno_location();
-          tmp_if_expr$10 = (*return_value___errno_location$9 != 0 ? (download_speed == 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_9=__errno_location();
+          tmp_if_expr_10 = (*return_value___errno_location_9 != 0 ? (download_speed == 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$10)
+        if(tmp_if_expr_10)
         {
           perror("strtol");
           exit(1);
         }
 
-        return_value_strlen$19=strlen(optarg);
-        if(return_value_strlen$19 >= 5ul)
+        return_value_strlen_19=strlen(optarg);
+        if(return_value_strlen_19 >= 5ul)
         {
-          return_value_strlen$11=strlen(optarg);
-          return_value_strncmp$12=strncmp((optarg + (signed long int)return_value_strlen$11) - (signed long int)4, "MBit", (unsigned long int)4);
-          if(return_value_strncmp$12 == 0)
-            tmp_if_expr$15 = (_Bool)1;
+          return_value_strlen_11=strlen(optarg);
+          return_value_strncmp_12=strncmp((optarg + (signed long int)return_value_strlen_11) - (signed long int)4, "MBit", (unsigned long int)4);
+          if(return_value_strncmp_12 == 0)
+            tmp_if_expr_15 = (_Bool)1;
 
           else
           {
-            return_value_strlen$13=strlen(optarg);
-            return_value_strncmp$14=strncmp((optarg + (signed long int)return_value_strlen$13) - (signed long int)4, "mbit", (unsigned long int)4);
-            tmp_if_expr$15 = return_value_strncmp$14 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strlen_13=strlen(optarg);
+            return_value_strncmp_14=strncmp((optarg + (signed long int)return_value_strlen_13) - (signed long int)4, "mbit", (unsigned long int)4);
+            tmp_if_expr_15 = return_value_strncmp_14 == 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$15)
-            tmp_if_expr$18 = (_Bool)1;
+          if(tmp_if_expr_15)
+            tmp_if_expr_18 = (_Bool)1;
 
           else
           {
-            return_value_strlen$16=strlen(optarg);
-            return_value_strncmp$17=strncmp((optarg + (signed long int)return_value_strlen$16) - (signed long int)4, "Mbit", (unsigned long int)4);
-            tmp_if_expr$18 = return_value_strncmp$17 == 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strlen_16=strlen(optarg);
+            return_value_strncmp_17=strncmp((optarg + (signed long int)return_value_strlen_16) - (signed long int)4, "Mbit", (unsigned long int)4);
+            tmp_if_expr_18 = return_value_strncmp_17 == 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$18)
+          if(tmp_if_expr_18)
             download_speed = download_speed * 1024;
 
         }
 
         if(!(slash_ptr == ((char *)NULL)))
         {
-          signed int *return_value___errno_location$20;
-          return_value___errno_location$20=__errno_location();
-          *return_value___errno_location$20 = 0;
-          signed long int return_value_strtol$21;
-          return_value_strtol$21=strtol(slash_ptr + (signed long int)1, (char ** restrict )(void *)0, 10);
-          upload_speed = (signed int)return_value_strtol$21;
-          signed int *return_value___errno_location$22;
-          return_value___errno_location$22=__errno_location();
-          if(*return_value___errno_location$22 == 34)
-            tmp_if_expr$24 = (_Bool)1;
+          signed int *return_value___errno_location_20;
+          return_value___errno_location_20=__errno_location();
+          *return_value___errno_location_20 = 0;
+          signed long int return_value_strtol_21;
+          return_value_strtol_21=strtol(slash_ptr + (signed long int)1, (char ** restrict )(void *)0, 10);
+          upload_speed = (signed int)return_value_strtol_21;
+          signed int *return_value___errno_location_22;
+          return_value___errno_location_22=__errno_location();
+          if(*return_value___errno_location_22 == 34)
+            tmp_if_expr_24 = (_Bool)1;
 
           else
           {
-            return_value___errno_location$23=__errno_location();
-            tmp_if_expr$24 = (*return_value___errno_location$23 != 0 ? (upload_speed == 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+            return_value___errno_location_23=__errno_location();
+            tmp_if_expr_24 = (*return_value___errno_location_23 != 0 ? (upload_speed == 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$24)
+          if(tmp_if_expr_24)
           {
             perror("strtol");
             exit(1);
           }
 
-          unsigned long int return_value_strlen$33;
-          return_value_strlen$33=strlen(slash_ptr + (signed long int)1);
-          if(return_value_strlen$33 >= 5ul)
+          unsigned long int return_value_strlen_33;
+          return_value_strlen_33=strlen(slash_ptr + (signed long int)1);
+          if(return_value_strlen_33 >= 5ul)
           {
-            return_value_strlen$25=strlen(slash_ptr + (signed long int)1);
-            return_value_strncmp$26=strncmp((slash_ptr + (signed long int)1 + (signed long int)return_value_strlen$25) - (signed long int)4, "MBit", (unsigned long int)4);
-            if(return_value_strncmp$26 == 0)
-              tmp_if_expr$29 = (_Bool)1;
+            return_value_strlen_25=strlen(slash_ptr + (signed long int)1);
+            return_value_strncmp_26=strncmp((slash_ptr + (signed long int)1 + (signed long int)return_value_strlen_25) - (signed long int)4, "MBit", (unsigned long int)4);
+            if(return_value_strncmp_26 == 0)
+              tmp_if_expr_29 = (_Bool)1;
 
             else
             {
-              return_value_strlen$27=strlen(slash_ptr + (signed long int)1);
-              return_value_strncmp$28=strncmp((slash_ptr + (signed long int)1 + (signed long int)return_value_strlen$27) - (signed long int)4, "mbit", (unsigned long int)4);
-              tmp_if_expr$29 = return_value_strncmp$28 == 0 ? (_Bool)1 : (_Bool)0;
+              return_value_strlen_27=strlen(slash_ptr + (signed long int)1);
+              return_value_strncmp_28=strncmp((slash_ptr + (signed long int)1 + (signed long int)return_value_strlen_27) - (signed long int)4, "mbit", (unsigned long int)4);
+              tmp_if_expr_29 = return_value_strncmp_28 == 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$29)
-              tmp_if_expr$32 = (_Bool)1;
+            if(tmp_if_expr_29)
+              tmp_if_expr_32 = (_Bool)1;
 
             else
             {
-              return_value_strlen$30=strlen(slash_ptr + (signed long int)1);
-              return_value_strncmp$31=strncmp((slash_ptr + (signed long int)1 + (signed long int)return_value_strlen$30) - (signed long int)4, "Mbit", (unsigned long int)4);
-              tmp_if_expr$32 = return_value_strncmp$31 == 0 ? (_Bool)1 : (_Bool)0;
+              return_value_strlen_30=strlen(slash_ptr + (signed long int)1);
+              return_value_strncmp_31=strncmp((slash_ptr + (signed long int)1 + (signed long int)return_value_strlen_30) - (signed long int)4, "Mbit", (unsigned long int)4);
+              tmp_if_expr_32 = return_value_strncmp_31 == 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$32)
+            if(tmp_if_expr_32)
               upload_speed = upload_speed * 1024;
 
           }
@@ -3788,30 +3788,30 @@ void apply_init_args(signed int argc, char **argv)
       }
       case 109:
       {
-        return_value___errno_location$34=__errno_location();
-        *return_value___errno_location$34 = 0;
-        return_value_strtol$35=strtol(optarg, (char ** restrict )(void *)0, 10);
-        hop_penalty = (unsigned char)return_value_strtol$35;
+        return_value___errno_location_34=__errno_location();
+        *return_value___errno_location_34 = 0;
+        return_value_strtol_35=strtol(optarg, (char ** restrict )(void *)0, 10);
+        hop_penalty = (unsigned char)return_value_strtol_35;
         hop_penalty_opt = (char)1;
         found_args = found_args + (unsigned char)((signed int)*((char *)(optarg - (signed long int)1)) == optchar ? 1 : 2);
         break;
       }
       case 113:
       {
-        return_value___errno_location$36=__errno_location();
-        *return_value___errno_location$36 = 0;
-        return_value_strtol$37=strtol(optarg, (char ** restrict )(void *)0, 10);
-        purge_timeout = (unsigned int)return_value_strtol$37;
+        return_value___errno_location_36=__errno_location();
+        *return_value___errno_location_36 = 0;
+        return_value_strtol_37=strtol(optarg, (char ** restrict )(void *)0, 10);
+        purge_timeout = (unsigned int)return_value_strtol_37;
         purge_timeout_opt = (char)1;
         found_args = found_args + (unsigned char)((signed int)*((char *)(optarg - (signed long int)1)) == optchar ? 1 : 2);
         break;
       }
       case 111:
       {
-        return_value___errno_location$38=__errno_location();
-        *return_value___errno_location$38 = 0;
-        return_value_strtol$39=strtol(optarg, (char ** restrict )(void *)0, 10);
-        originator_interval = (signed short int)return_value_strtol$39;
+        return_value___errno_location_38=__errno_location();
+        *return_value___errno_location_38 = 0;
+        return_value_strtol_39=strtol(optarg, (char ** restrict )(void *)0, 10);
+        originator_interval = (signed short int)return_value_strtol_39;
         if(!((signed int)originator_interval >= 1))
         {
           printf("Invalid originator interval specified: %i.\nThe Interval has to be greater than 0.\n", originator_interval);
@@ -3823,10 +3823,10 @@ void apply_init_args(signed int argc, char **argv)
       }
       case 112:
       {
-        return_value___errno_location$40=__errno_location();
-        *return_value___errno_location$40 = 0;
-        return_value_inet_pton$41=inet_pton(2, optarg, (void *)&tmp_ip_holder);
-        if(!(return_value_inet_pton$41 >= 1))
+        return_value___errno_location_40=__errno_location();
+        *return_value___errno_location_40 = 0;
+        return_value_inet_pton_41=inet_pton(2, optarg, (void *)&tmp_ip_holder);
+        if(!(return_value_inet_pton_41 >= 1))
         {
           printf("Invalid preferred gateway IP specified: %s\n", optarg);
           exit(1);
@@ -3839,20 +3839,20 @@ void apply_init_args(signed int argc, char **argv)
       }
       case 114:
       {
-        return_value___errno_location$42=__errno_location();
-        *return_value___errno_location$42 = 0;
-        return_value_strtol$43=strtol(optarg, (char ** restrict )(void *)0, 10);
-        routing_class = (unsigned char)return_value_strtol$43;
+        return_value___errno_location_42=__errno_location();
+        *return_value___errno_location_42 = 0;
+        return_value_strtol_43=strtol(optarg, (char ** restrict )(void *)0, 10);
+        routing_class = (unsigned char)return_value_strtol_43;
         routing_class_opt = (char)1;
         found_args = found_args + (unsigned char)((signed int)*((char *)(optarg - (signed long int)1)) == optchar ? 1 : 2);
         break;
       }
       case 115:
       {
-        return_value___errno_location$44=__errno_location();
-        *return_value___errno_location$44 = 0;
-        return_value_inet_pton$45=inet_pton(2, optarg, (void *)&tmp_ip_holder);
-        if(!(return_value_inet_pton$45 >= 1))
+        return_value___errno_location_44=__errno_location();
+        *return_value___errno_location_44 = 0;
+        return_value_inet_pton_45=inet_pton(2, optarg, (void *)&tmp_ip_holder);
+        if(!(return_value_inet_pton_45 >= 1))
         {
           printf("Invalid preferred visualation server IP specified: %s\n", optarg);
           exit(1);
@@ -3934,22 +3934,22 @@ void apply_init_args(signed int argc, char **argv)
   if((signed int)routing_class == 0 && !(pref_gateway == 0u))
     routing_class = (unsigned char)30;
 
-  signed char return_value_probe_tun$46;
+  signed char return_value_probe_tun_46;
   if(!((signed int)gateway_class == 0) || !((signed int)routing_class == 0))
   {
-    return_value_probe_tun$46=probe_tun((unsigned char)1);
-    if(return_value_probe_tun$46 == 0)
+    return_value_probe_tun_46=probe_tun((unsigned char)1);
+    if(return_value_probe_tun_46 == 0)
       exit(1);
 
   }
 
-  signed int return_value_connect$67;
-  void *return_value_debugMalloc$68;
-  signed int return_value_list_empty$69;
-  signed long int return_value_write$72;
-  signed long int return_value_read$73;
-  signed int return_value_strncmp$74;
-  signed int return_value_list_empty$79;
+  signed int return_value_connect_67;
+  void *return_value_debugMalloc_68;
+  signed int return_value_list_empty_69;
+  signed long int return_value_write_72;
+  signed long int return_value_read_73;
+  signed int return_value_strncmp_74;
+  signed int return_value_list_empty_79;
   if(unix_client == 0)
   {
     if((signed int)found_args >= argc)
@@ -3970,35 +3970,35 @@ void apply_init_args(signed int argc, char **argv)
     signal(15, handler);
     signal(13, (void (*)(signed int))1);
     signal(11, segmentation_fault);
-    void *return_value_debugMalloc$47;
-    return_value_debugMalloc$47=debugMalloc((unsigned int)(sizeof(struct list_head_first *) /*8ul*/  * (unsigned long int)debug_level_max), 203);
-    debug_clients.fd_list = (void **)return_value_debugMalloc$47;
-    void *return_value_debugMalloc$48;
-    return_value_debugMalloc$48=debugMalloc((unsigned int)(sizeof(union anonymous$16 *) /*8ul*/  * (unsigned long int)debug_level_max), 209);
-    debug_clients.mutex = (union anonymous$16 **)return_value_debugMalloc$48;
-    void *return_value_debugMalloc$49;
-    return_value_debugMalloc$49=debugMalloc((unsigned int)(sizeof(signed short int) /*2ul*/  * (unsigned long int)debug_level_max), 209);
-    debug_clients.clients_num = (signed short int *)return_value_debugMalloc$49;
+    void *return_value_debugMalloc_47;
+    return_value_debugMalloc_47=debugMalloc((unsigned int)(sizeof(struct list_head_first *) /*8ul*/  * (unsigned long int)debug_level_max), 203);
+    debug_clients.fd_list = (void **)return_value_debugMalloc_47;
+    void *return_value_debugMalloc_48;
+    return_value_debugMalloc_48=debugMalloc((unsigned int)(sizeof(union anonymous_16 *) /*8ul*/  * (unsigned long int)debug_level_max), 209);
+    debug_clients.mutex = (union anonymous_16 **)return_value_debugMalloc_48;
+    void *return_value_debugMalloc_49;
+    return_value_debugMalloc_49=debugMalloc((unsigned int)(sizeof(signed short int) /*2ul*/  * (unsigned long int)debug_level_max), 209);
+    debug_clients.clients_num = (signed short int *)return_value_debugMalloc_49;
     res = (signed char)0;
     for( ; !((signed int)res >= (signed int)debug_level_max); res = res + 1)
     {
       debug_clients.fd_list[(signed long int)res]=debugMalloc((unsigned int)sizeof(struct list_head_first) /*16ul*/ , 204);
       ((struct list_head_first *)debug_clients.fd_list[(signed long int)res])->next = (struct list_head *)debug_clients.fd_list[(signed long int)res];
       ((struct list_head_first *)debug_clients.fd_list[(signed long int)res])->prev = (struct list_head *)debug_clients.fd_list[(signed long int)res];
-      void *return_value_debugMalloc$50;
-      return_value_debugMalloc$50=debugMalloc((unsigned int)sizeof(union anonymous$16) /*40ul*/ , 209);
-      debug_clients.mutex[(signed long int)res] = (union anonymous$16 *)return_value_debugMalloc$50;
-      pthread_mutex_init((union anonymous$16 *)debug_clients.mutex[(signed long int)res], (const union anonymous *)(void *)0);
+      void *return_value_debugMalloc_50;
+      return_value_debugMalloc_50=debugMalloc((unsigned int)sizeof(union anonymous_16) /*40ul*/ , 209);
+      debug_clients.mutex[(signed long int)res] = (union anonymous_16 *)return_value_debugMalloc_50;
+      pthread_mutex_init((union anonymous_16 *)debug_clients.mutex[(signed long int)res], (const union anonymous *)(void *)0);
       debug_clients.clients_num[(signed long int)res] = (signed short int)0;
     }
-    signed int return_value_flush_routes_rules$51;
-    return_value_flush_routes_rules$51=flush_routes_rules((signed char)0);
-    if(!(return_value_flush_routes_rules$51 >= 0))
+    signed int return_value_flush_routes_rules_51;
+    return_value_flush_routes_rules_51=flush_routes_rules((signed char)0);
+    if(!(return_value_flush_routes_rules_51 >= 0))
       exit(1);
 
-    signed int return_value_flush_routes_rules$52;
-    return_value_flush_routes_rules$52=flush_routes_rules((signed char)1);
-    if(!(return_value_flush_routes_rules$52 >= 0))
+    signed int return_value_flush_routes_rules_52;
+    return_value_flush_routes_rules_52=flush_routes_rules((signed char)1);
+    if(!(return_value_flush_routes_rules_52 >= 0))
       exit(1);
 
     while(!((signed int)found_args >= argc))
@@ -4010,9 +4010,9 @@ void apply_init_args(signed int argc, char **argv)
         exit(1);
       }
 
-      void *return_value_debugMalloc$53;
-      return_value_debugMalloc$53=debugMalloc((unsigned int)sizeof(struct batman_if) /*104ul*/ , 206);
-      batman_if = (struct batman_if *)return_value_debugMalloc$53;
+      void *return_value_debugMalloc_53;
+      return_value_debugMalloc_53=debugMalloc((unsigned int)sizeof(struct batman_if) /*104ul*/ , 206);
+      batman_if = (struct batman_if *)return_value_debugMalloc_53;
       memset((void *)batman_if, 0, sizeof(struct batman_if) /*104ul*/ );
       do
         (&batman_if->list)->next = &batman_if->list;
@@ -4043,28 +4043,28 @@ void apply_init_args(signed int argc, char **argv)
     memset((void *)&unix_if.addr, 0, sizeof(struct sockaddr_un) /*110ul*/ );
     unix_if.addr.sun_family = (unsigned short int)1;
     strcpy(unix_if.addr.sun_path, "/var/run/batmand.socket");
-    signed int return_value_bind$56;
-    return_value_bind$56=bind(unix_if.unix_sock, (struct sockaddr *)&unix_if.addr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
-    if(!(return_value_bind$56 >= 0))
+    signed int return_value_bind_56;
+    return_value_bind_56=bind(unix_if.unix_sock, (struct sockaddr *)&unix_if.addr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
+    if(!(return_value_bind_56 >= 0))
     {
-      signed int *return_value___errno_location$54;
-      return_value___errno_location$54=__errno_location();
-      char *return_value_strerror$55;
-      return_value_strerror$55=strerror(*return_value___errno_location$54);
-      printf("Error - can't bind unix socket '%s': %s\n", (const void *)"/var/run/batmand.socket", return_value_strerror$55);
+      signed int *return_value___errno_location_54;
+      return_value___errno_location_54=__errno_location();
+      char *return_value_strerror_55;
+      return_value_strerror_55=strerror(*return_value___errno_location_54);
+      printf("Error - can't bind unix socket '%s': %s\n", (const void *)"/var/run/batmand.socket", return_value_strerror_55);
       restore_defaults();
       exit(1);
     }
 
-    signed int return_value_listen$59;
-    return_value_listen$59=listen(unix_if.unix_sock, 10);
-    if(!(return_value_listen$59 >= 0))
+    signed int return_value_listen_59;
+    return_value_listen_59=listen(unix_if.unix_sock, 10);
+    if(!(return_value_listen_59 >= 0))
     {
-      signed int *return_value___errno_location$57;
-      return_value___errno_location$57=__errno_location();
-      char *return_value_strerror$58;
-      return_value_strerror$58=strerror(*return_value___errno_location$57);
-      printf("Error - can't listen unix socket '%s': %s\n", (const void *)"/var/run/batmand.socket", return_value_strerror$58);
+      signed int *return_value___errno_location_57;
+      return_value___errno_location_57=__errno_location();
+      char *return_value_strerror_58;
+      return_value_strerror_58=strerror(*return_value___errno_location_57);
+      printf("Error - can't listen unix socket '%s': %s\n", (const void *)"/var/run/batmand.socket", return_value_strerror_58);
       restore_defaults();
       exit(1);
     }
@@ -4073,15 +4073,15 @@ void apply_init_args(signed int argc, char **argv)
     {
       if(no_detach == 0)
       {
-        signed int return_value_my_daemon$62;
-        return_value_my_daemon$62=my_daemon();
-        if(!(return_value_my_daemon$62 >= 0))
+        signed int return_value_my_daemon_62;
+        return_value_my_daemon_62=my_daemon();
+        if(!(return_value_my_daemon_62 >= 0))
         {
-          signed int *return_value___errno_location$60;
-          return_value___errno_location$60=__errno_location();
-          char *return_value_strerror$61;
-          return_value_strerror$61=strerror(*return_value___errno_location$60);
-          printf("Error - can't fork to background: %s\n", return_value_strerror$61);
+          signed int *return_value___errno_location_60;
+          return_value___errno_location_60=__errno_location();
+          char *return_value_strerror_61;
+          return_value_strerror_61=strerror(*return_value___errno_location_60);
+          printf("Error - can't fork to background: %s\n", return_value_strerror_61);
           restore_defaults();
           exit(1);
         }
@@ -4095,9 +4095,9 @@ void apply_init_args(signed int argc, char **argv)
     {
       printf("B.A.T.M.A.N. %s (compatibility version %i)\n", (const void *)"debian-0.3.2-17", 5);
       debug_clients.clients_num[(signed long int)((signed int)debug_level - 1)] = debug_clients.clients_num[(signed long int)((signed int)debug_level - 1)] + 1;
-      void *return_value_debugMalloc$63;
-      return_value_debugMalloc$63=debugMalloc((unsigned int)sizeof(struct debug_level_info) /*16ul*/ , 205);
-      debug_level_info = (struct debug_level_info *)return_value_debugMalloc$63;
+      void *return_value_debugMalloc_63;
+      return_value_debugMalloc_63=debugMalloc((unsigned int)sizeof(struct debug_level_info) /*16ul*/ , 205);
+      debug_level_info = (struct debug_level_info *)return_value_debugMalloc_63;
       do
         (&debug_level_info->list)->next = &debug_level_info->list;
       while((_Bool)0);
@@ -4110,9 +4110,9 @@ void apply_init_args(signed int argc, char **argv)
     add_del_route((unsigned int)0, (unsigned char)0, (unsigned int)0, (unsigned int)0, 0, "unknown", (unsigned char)67, (signed char)2, (signed char)0);
     if((signed int)routing_class >= 1)
     {
-      signed int return_value_add_del_interface_rules$64;
-      return_value_add_del_interface_rules$64=add_del_interface_rules((signed char)0);
-      if(!(return_value_add_del_interface_rules$64 >= 0))
+      signed int return_value_add_del_interface_rules_64;
+      return_value_add_del_interface_rules_64=add_del_interface_rules((signed char)0);
+      if(!(return_value_add_del_interface_rules_64 >= 0))
       {
         restore_defaults();
         exit(1);
@@ -4171,20 +4171,20 @@ void apply_init_args(signed int argc, char **argv)
       memset((void *)&unix_if.addr, 0, sizeof(struct sockaddr_un) /*110ul*/ );
       unix_if.addr.sun_family = (unsigned short int)1;
       strcpy(unix_if.addr.sun_path, "/var/run/batmand.socket");
-      return_value_connect$67=connect(unix_if.unix_sock, (struct sockaddr *)&unix_if.addr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
-      if(!(return_value_connect$67 >= 0))
+      return_value_connect_67=connect(unix_if.unix_sock, (struct sockaddr *)&unix_if.addr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
+      if(!(return_value_connect_67 >= 0))
       {
-        signed int *return_value___errno_location$65;
-        return_value___errno_location$65=__errno_location();
-        char *return_value_strerror$66;
-        return_value_strerror$66=strerror(*return_value___errno_location$65);
-        printf("Error - can't connect to unix socket '%s': %s ! Is batmand running on this host ?\n", (const void *)"/var/run/batmand.socket", return_value_strerror$66);
+        signed int *return_value___errno_location_65;
+        return_value___errno_location_65=__errno_location();
+        char *return_value_strerror_66;
+        return_value_strerror_66=strerror(*return_value___errno_location_65);
+        printf("Error - can't connect to unix socket '%s': %s ! Is batmand running on this host ?\n", (const void *)"/var/run/batmand.socket", return_value_strerror_66);
         close(unix_if.unix_sock);
         exit(1);
       }
 
-      return_value_debugMalloc$68=debugMalloc((unsigned int)1501, 5001);
-      unix_buff = (char *)return_value_debugMalloc$68;
+      return_value_debugMalloc_68=debugMalloc((unsigned int)1501, 5001);
+      unix_buff = (char *)return_value_debugMalloc_68;
       if((signed int)debug_level >= 1)
       {
         if((signed int)debug_level_max >= (signed int)debug_level)
@@ -4242,8 +4242,8 @@ void apply_init_args(signed int argc, char **argv)
 
                   else
                   {
-                    return_value_list_empty$69=list_empty(&hna_chg_list);
-                    if(return_value_list_empty$69 == 0)
+                    return_value_list_empty_69=list_empty(&hna_chg_list);
+                    if(return_value_list_empty_69 == 0)
                     {
                       was_hna = (unsigned char)1;
                       batch_mode = was_hna;
@@ -4260,14 +4260,14 @@ void apply_init_args(signed int argc, char **argv)
                       snprintf(unix_buff, (unsigned long int)10, "y");
                     }
                   }
-      return_value_write$72=write(unix_if.unix_sock, (const void *)unix_buff, (unsigned long int)30);
-      if(!(return_value_write$72 >= 0l))
+      return_value_write_72=write(unix_if.unix_sock, (const void *)unix_buff, (unsigned long int)30);
+      if(!(return_value_write_72 >= 0l))
       {
-        signed int *return_value___errno_location$70;
-        return_value___errno_location$70=__errno_location();
-        char *return_value_strerror$71;
-        return_value_strerror$71=strerror(*return_value___errno_location$70);
-        printf("Error - can't write to unix socket: %s\n", return_value_strerror$71);
+        signed int *return_value___errno_location_70;
+        return_value___errno_location_70=__errno_location();
+        char *return_value_strerror_71;
+        return_value_strerror_71=strerror(*return_value___errno_location_70);
+        printf("Error - can't write to unix socket: %s\n", return_value_strerror_71);
         close(unix_if.unix_sock);
         debugFree((void *)unix_buff, 5101);
         exit(1);
@@ -4275,8 +4275,8 @@ void apply_init_args(signed int argc, char **argv)
 
       do
       {
-        return_value_read$73=read(unix_if.unix_sock, (void *)unix_buff, (unsigned long int)1500);
-        recv_buff_len = (signed int)return_value_read$73;
+        return_value_read_73=read(unix_if.unix_sock, (void *)unix_buff, (unsigned long int)1500);
+        recv_buff_len = (signed int)return_value_read_73;
         if(!(recv_buff_len >= 1))
           break;
 
@@ -4290,9 +4290,9 @@ void apply_init_args(signed int argc, char **argv)
             break;
 
           *cr_ptr = (char)0;
-          signed int return_value_strncmp$75;
-          return_value_strncmp$75=strncmp(buff_ptr, "EOD", (unsigned long int)3);
-          if(return_value_strncmp$75 == 0)
+          signed int return_value_strncmp_75;
+          return_value_strncmp_75=strncmp(buff_ptr, "EOD", (unsigned long int)3);
+          if(return_value_strncmp_75 == 0)
           {
             if(!(batch_mode == 0))
               goto close_con;
@@ -4301,8 +4301,8 @@ void apply_init_args(signed int argc, char **argv)
 
           else
           {
-            return_value_strncmp$74=strncmp(buff_ptr, "BOD", (unsigned long int)3);
-            if(return_value_strncmp$74 == 0)
+            return_value_strncmp_74=strncmp(buff_ptr, "BOD", (unsigned long int)3);
+            if(return_value_strncmp_74 == 0)
             {
               if(batch_mode == 0)
                 printf("\033[2J\033[0;0f");
@@ -4312,9 +4312,9 @@ void apply_init_args(signed int argc, char **argv)
             else
               printf("%s\n", buff_ptr);
           }
-          unsigned long int return_value_strlen$76;
-          return_value_strlen$76=strlen(buff_ptr);
-          bytes_written = bytes_written + (signed int)(return_value_strlen$76 + (unsigned long int)1);
+          unsigned long int return_value_strlen_76;
+          return_value_strlen_76=strlen(buff_ptr);
+          bytes_written = bytes_written + (signed int)(return_value_strlen_76 + (unsigned long int)1);
           buff_ptr = cr_ptr + (signed long int)1;
         }
         while((_Bool)1);
@@ -4330,11 +4330,11 @@ void apply_init_args(signed int argc, char **argv)
       debugFree((void *)unix_buff, 5102);
       if(!(recv_buff_len >= 0))
       {
-        signed int *return_value___errno_location$77;
-        return_value___errno_location$77=__errno_location();
-        char *return_value_strerror$78;
-        return_value_strerror$78=strerror(*return_value___errno_location$77);
-        printf("Error - can't read from unix socket: %s\n", return_value_strerror$78);
+        signed int *return_value___errno_location_77;
+        return_value___errno_location_77=__errno_location();
+        char *return_value_strerror_78;
+        return_value_strerror_78=strerror(*return_value___errno_location_77);
+        printf("Error - can't read from unix socket: %s\n", return_value_strerror_78);
         exit(1);
       }
 
@@ -4345,9 +4345,9 @@ void apply_init_args(signed int argc, char **argv)
       if(was_hna == 0)
         break;
 
-      return_value_list_empty$79=list_empty(&hna_chg_list);
+      return_value_list_empty_79=list_empty(&hna_chg_list);
     }
-    while(return_value_list_empty$79 == 0);
+    while(return_value_list_empty_79 == 0);
     exit(0);
   }
 }
@@ -4359,7 +4359,7 @@ static void bat_wait(signed int T, signed int t)
   struct timeval time;
   time.tv_sec = (signed long int)T;
   time.tv_usec = (signed long int)(t * 10000);
-  select(0, (struct anonymous$15 *)(void *)0, (struct anonymous$15 *)(void *)0, (struct anonymous$15 *)(void *)0, &time);
+  select(0, (struct anonymous_15 *)(void *)0, (struct anonymous_15 *)(void *)0, (struct anonymous_15 *)(void *)0, &time);
   goto __CPROVER_DUMP_L1;
 
 __CPROVER_DUMP_L1:
@@ -4408,12 +4408,12 @@ signed char batman(void)
   vis_timeout=get_time_msec();
   debug_timeout = vis_timeout;
   orig_hash=hash_new(128, compare_orig, choose_orig);
-  signed char return_value_is_aborted$6;
-  unsigned int tmp_if_expr$7;
-  struct orig_node *tmp_if_expr$10;
-  struct orig_node *return_value_get_orig_node$9;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$12;
+  signed char return_value_is_aborted_6;
+  unsigned int tmp_if_expr_7;
+  struct orig_node *tmp_if_expr_10;
+  struct orig_node *return_value_get_orig_node_9;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_12;
   if(orig_hash == ((struct hashtable_t *)NULL))
     return (signed char)-1;
 
@@ -4441,40 +4441,40 @@ signed char batman(void)
       batman_if->out.tq = (unsigned char)255;
       schedule_own_packet(batman_if);
     }
-    signed int return_value_get_rp_filter$1;
-    return_value_get_rp_filter$1=get_rp_filter("all");
-    if_rp_filter_all_old = (unsigned char)return_value_get_rp_filter$1;
-    signed int return_value_get_rp_filter$2;
-    return_value_get_rp_filter$2=get_rp_filter("default");
-    if_rp_filter_default_old = (unsigned char)return_value_get_rp_filter$2;
-    signed int return_value_get_send_redirects$3;
-    return_value_get_send_redirects$3=get_send_redirects("all");
-    if_send_redirects_all_old = (unsigned char)return_value_get_send_redirects$3;
-    signed int return_value_get_send_redirects$4;
-    return_value_get_send_redirects$4=get_send_redirects("default");
-    if_send_redirects_default_old = (unsigned char)return_value_get_send_redirects$4;
+    signed int return_value_get_rp_filter_1;
+    return_value_get_rp_filter_1=get_rp_filter("all");
+    if_rp_filter_all_old = (unsigned char)return_value_get_rp_filter_1;
+    signed int return_value_get_rp_filter_2;
+    return_value_get_rp_filter_2=get_rp_filter("default");
+    if_rp_filter_default_old = (unsigned char)return_value_get_rp_filter_2;
+    signed int return_value_get_send_redirects_3;
+    return_value_get_send_redirects_3=get_send_redirects("all");
+    if_send_redirects_all_old = (unsigned char)return_value_get_send_redirects_3;
+    signed int return_value_get_send_redirects_4;
+    return_value_get_send_redirects_4=get_send_redirects("default");
+    if_send_redirects_default_old = (unsigned char)return_value_get_send_redirects_4;
     set_rp_filter(0, "all");
     set_rp_filter(0, "default");
     set_send_redirects(0, "all");
     set_send_redirects(0, "default");
-    signed int return_value_get_forwarding$5;
-    return_value_get_forwarding$5=get_forwarding();
-    forward_old = (unsigned char)return_value_get_forwarding$5;
+    signed int return_value_get_forwarding_5;
+    return_value_get_forwarding_5=get_forwarding();
+    forward_old = (unsigned char)return_value_get_forwarding_5;
     set_forwarding(1);
     do
     {
-      return_value_is_aborted$6=is_aborted();
-      if(!(return_value_is_aborted$6 == 0))
+      return_value_is_aborted_6=is_aborted();
+      if(!(return_value_is_aborted_6 == 0))
         break;
 
       debug_output((signed char)4, " \n");
       curr_time=get_time_msec();
       if((signed int)((struct forw_node *)forw_list.next)->send_time + -((signed int)curr_time) >= 1)
-        tmp_if_expr$7 = ((struct forw_node *)forw_list.next)->send_time - curr_time;
+        tmp_if_expr_7 = ((struct forw_node *)forw_list.next)->send_time - curr_time;
 
       else
-        tmp_if_expr$7 = (unsigned int)10;
-      select_timeout = tmp_if_expr$7;
+        tmp_if_expr_7 = (unsigned int)10;
+      select_timeout = tmp_if_expr_7;
       res=receive_packet(in, (signed int)sizeof(unsigned char [2001l]) /*2001ul*/ , &packet_len, &neigh, select_timeout, &if_incoming);
       if((signed int)res >= 1)
       {
@@ -4553,9 +4553,9 @@ signed char batman(void)
                 {
                   debug_output((signed char)4, "count own bcast (is_my_orig): old = %i, ", orig_neigh_node->bcast_own_sum[(signed long int)if_incoming->if_num]);
                   bit_mark((unsigned long int *)&orig_neigh_node->bcast_own[(signed long int)((signed int)if_incoming->if_num * (signed int)num_words)], 0);
-                  signed int return_value_bit_packet_count$8;
-                  return_value_bit_packet_count$8=bit_packet_count((unsigned long int *)&orig_neigh_node->bcast_own[(signed long int)((signed int)if_incoming->if_num * (signed int)num_words)]);
-                  orig_neigh_node->bcast_own_sum[(signed long int)if_incoming->if_num] = (unsigned char)return_value_bit_packet_count$8;
+                  signed int return_value_bit_packet_count_8;
+                  return_value_bit_packet_count_8=bit_packet_count((unsigned long int *)&orig_neigh_node->bcast_own[(signed long int)((signed int)if_incoming->if_num * (signed int)num_words)]);
+                  orig_neigh_node->bcast_own_sum[(signed long int)if_incoming->if_num] = (unsigned char)return_value_bit_packet_count_8;
                   debug_output((signed char)4, "new = %i \n", orig_neigh_node->bcast_own_sum[(signed long int)if_incoming->if_num]);
                 }
 
@@ -4583,14 +4583,14 @@ signed char batman(void)
           is_duplicate=count_real_packets(bat_packet, neigh, if_incoming);
           orig_node=get_orig_node(bat_packet->orig);
           if(bat_packet->orig == neigh)
-            tmp_if_expr$10 = orig_node;
+            tmp_if_expr_10 = orig_node;
 
           else
           {
-            return_value_get_orig_node$9=get_orig_node(neigh);
-            tmp_if_expr$10 = return_value_get_orig_node$9;
+            return_value_get_orig_node_9=get_orig_node(neigh);
+            tmp_if_expr_10 = return_value_get_orig_node_9;
           }
-          orig_neigh_node = tmp_if_expr$10;
+          orig_neigh_node = tmp_if_expr_10;
           if(!(bat_packet->orig == neigh))
           {
             if(orig_neigh_node->router == ((struct neigh_node *)NULL))
@@ -4601,24 +4601,24 @@ signed char batman(void)
 
           }
 
-          signed int return_value_isBidirectionalNeigh$11;
-          return_value_isBidirectionalNeigh$11=isBidirectionalNeigh(orig_node, orig_neigh_node, bat_packet, curr_time, if_incoming);
-          is_bidirectional = (unsigned char)return_value_isBidirectionalNeigh$11;
+          signed int return_value_isBidirectionalNeigh_11;
+          return_value_isBidirectionalNeigh_11=isBidirectionalNeigh(orig_node, orig_neigh_node, bat_packet, curr_time, if_incoming);
+          is_bidirectional = (unsigned char)return_value_isBidirectionalNeigh_11;
           if(!(is_bidirectional == 0))
           {
             if(is_duplicate == 0)
-              tmp_if_expr$13 = (_Bool)1;
+              tmp_if_expr_13 = (_Bool)1;
 
             else
             {
               if(orig_node->last_real_seqno == bat_packet->seqno)
-                tmp_if_expr$12 = (signed int)orig_node->last_ttl - 3 <= (signed int)bat_packet->ttl ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_12 = (signed int)orig_node->last_ttl - 3 <= (signed int)bat_packet->ttl ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$12 = (_Bool)0;
-              tmp_if_expr$13 = tmp_if_expr$12 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_12 = (_Bool)0;
+              tmp_if_expr_13 = tmp_if_expr_12 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$13)
+            if(tmp_if_expr_13)
               update_orig(orig_node, bat_packet, neigh, if_incoming, hna_recv_buff, hna_buff_len, is_duplicate, curr_time);
 
           }
@@ -4680,9 +4680,9 @@ signed char batman(void)
     if((signed int)debug_level >= 1)
       printf("Deleting all BATMAN routes\n");
 
-    unsigned int return_value_get_time_msec$14;
-    return_value_get_time_msec$14=get_time_msec();
-    purge_orig(return_value_get_time_msec$14 + (unsigned int)5 * purge_timeout + (unsigned int)originator_interval);
+    unsigned int return_value_get_time_msec_14;
+    return_value_get_time_msec_14=get_time_msec();
+    purge_orig(return_value_get_time_msec_14 + (unsigned int)5 * purge_timeout + (unsigned int)originator_interval);
     hash_destroy(orig_hash);
     list_pos = (&forw_list)->next;
     forw_pos_tmp = list_pos->next;
@@ -4715,11 +4715,11 @@ signed char bind_to_iface(signed int sock, char *dev)
   if(!(colon_ptr == ((char *)NULL)))
     *colon_ptr = (char)0;
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(dev);
-  signed int return_value_setsockopt$2;
-  return_value_setsockopt$2=setsockopt(sock, 1, 25, (const void *)dev, (unsigned int)(return_value_strlen$1 + (unsigned long int)1));
-  if(!(return_value_setsockopt$2 >= 0))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(dev);
+  signed int return_value_setsockopt_2;
+  return_value_setsockopt_2=setsockopt(sock, 1, 25, (const void *)dev, (unsigned int)(return_value_strlen_1 + (unsigned long int)1));
+  if(!(return_value_setsockopt_2 >= 0))
   {
     if(!(colon_ptr == ((char *)NULL)))
       *colon_ptr = (char)58;
@@ -4879,11 +4879,11 @@ void checkIntegrity(void)
     }
 
     memory = (unsigned char *)walker;
-    unsigned long int return_value_getHeaderPad$1;
-    return_value_getHeaderPad$1=getHeaderPad();
-    unsigned long int return_value_getTrailerPad$2;
-    return_value_getTrailerPad$2=getTrailerPad((unsigned long int)walker->length);
-    chunkTrailer = (struct chunkTrailer *)(memory + (signed long int)sizeof(struct chunkHeader) /*24ul*/  + (signed long int)return_value_getHeaderPad$1 + (signed long int)walker->length + (signed long int)return_value_getTrailerPad$2);
+    unsigned long int return_value_getHeaderPad_1;
+    return_value_getHeaderPad_1=getHeaderPad();
+    unsigned long int return_value_getTrailerPad_2;
+    return_value_getTrailerPad_2=getTrailerPad((unsigned long int)walker->length);
+    chunkTrailer = (struct chunkTrailer *)(memory + (signed long int)sizeof(struct chunkHeader) /*24ul*/  + (signed long int)return_value_getHeaderPad_1 + (signed long int)walker->length + (signed long int)return_value_getTrailerPad_2);
     if(!(chunkTrailer->magicNumber == 305419896u))
     {
       debug_output((signed char)0, "checkIntegrity - invalid magic number in trailer: %08x, malloc tag = %d\n", chunkTrailer->magicNumber, walker->tag);
@@ -4929,7 +4929,7 @@ void check_active_interfaces(void)
 {
   struct list_head *list_pos;
   struct batman_if *batman_if;
-  signed int return_value_is_interface_up$1;
+  signed int return_value_is_interface_up_1;
   if(!((signed int)active_ifs == 0))
   {
     list_pos = (&if_list)->next;
@@ -4938,8 +4938,8 @@ void check_active_interfaces(void)
       batman_if = (struct batman_if *)((char *)list_pos - (signed long int)(unsigned long int)&((struct batman_if *)0)->list);
       if(!(batman_if->if_active == 0))
       {
-        return_value_is_interface_up$1=is_interface_up(batman_if->dev);
-        if(return_value_is_interface_up$1 == 0)
+        return_value_is_interface_up_1=is_interface_up(batman_if->dev);
+        if(return_value_is_interface_up_1 == 0)
           deactivate_interface(batman_if);
 
       }
@@ -4955,7 +4955,7 @@ void check_inactive_interfaces(void)
 {
   struct list_head *list_pos;
   struct batman_if *batman_if;
-  signed int return_value_is_interface_up$1;
+  signed int return_value_is_interface_up_1;
   if(!(found_ifs == active_ifs))
   {
     list_pos = (&if_list)->next;
@@ -4964,8 +4964,8 @@ void check_inactive_interfaces(void)
       batman_if = (struct batman_if *)((char *)list_pos - (signed long int)(unsigned long int)&((struct batman_if *)0)->list);
       if(batman_if->if_active == 0)
       {
-        return_value_is_interface_up$1=is_interface_up(batman_if->dev);
-        if(!(return_value_is_interface_up$1 == 0))
+        return_value_is_interface_up_1=is_interface_up(batman_if->dev);
+        if(!(return_value_is_interface_up_1 == 0))
           activate_interface(batman_if);
 
       }
@@ -4992,36 +4992,36 @@ void choose_gw(void)
   char orig_str[16l];
   prof_start(0);
   current_time=get_time_msec();
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_get_time_msec64$1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_get_time_msec64_1;
   if((signed int)routing_class == 0)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
     if(!((signed int)routing_class >= 4))
     {
-      return_value_get_time_msec64$1=get_time_msec64();
-      tmp_if_expr$2 = (signed long int)(return_value_get_time_msec64$1 - (unsigned long int)((signed int)originator_interval * (signed int)local_win_size)) < (signed long int)0 ? (_Bool)1 : (_Bool)0;
+      return_value_get_time_msec64_1=get_time_msec64();
+      tmp_if_expr_2 = (signed long int)(return_value_get_time_msec64_1 - (unsigned long int)((signed int)originator_interval * (signed int)local_win_size)) < (signed long int)0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
-  signed char return_value_is_aborted$8;
-  if(tmp_if_expr$3)
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
+  signed char return_value_is_aborted_8;
+  if(tmp_if_expr_3)
     prof_stop(0);
 
   else
   {
-    signed int return_value_list_empty$4;
-    return_value_list_empty$4=list_empty(&gw_list);
-    if(!(return_value_list_empty$4 == 0))
+    signed int return_value_list_empty_4;
+    return_value_list_empty_4=list_empty(&gw_list);
+    if(!(return_value_list_empty_4 == 0))
     {
       if(!(curr_gateway == ((struct gw_node *)NULL)))
       {
@@ -5039,11 +5039,11 @@ void choose_gw(void)
       {
         gw_node = (struct gw_node *)((char *)pos - (signed long int)(unsigned long int)&((struct gw_node *)0)->list);
         if(!(gw_node == (struct gw_node *)gw_list.next))
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = gw_node->list.next != (struct list_head *)&gw_list ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = gw_node->list.next != (struct list_head *)&gw_list ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_5)
         {
           if(!((signed int)current_time + -(30000 + (signed int)gw_node->last_failure) >= 0))
             goto __CPROVER_DUMP_L23;
@@ -5059,18 +5059,18 @@ void choose_gw(void)
               get_gw_speeds(gw_node->orig_node->gwflags, &download_speed, &upload_speed);
               tmp_gw_factor = (unsigned int)((((signed int)gw_node->orig_node->router->tq_avg * 100) / (signed int)local_win_size) * (((signed int)gw_node->orig_node->router->tq_avg * 100) / (signed int)local_win_size) * (download_speed / 64));
               if(!(max_gw_factor >= tmp_gw_factor))
-                tmp_if_expr$7 = (_Bool)1;
+                tmp_if_expr_7 = (_Bool)1;
 
               else
               {
                 if(tmp_gw_factor == max_gw_factor)
-                  tmp_if_expr$6 = (signed int)gw_node->orig_node->router->tq_avg > (signed int)max_tq ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_6 = (signed int)gw_node->orig_node->router->tq_avg > (signed int)max_tq ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$6 = (_Bool)0;
-                tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_6 = (_Bool)0;
+                tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$7)
+              if(tmp_if_expr_7)
                 tmp_curr_gw = gw_node;
 
               goto __CPROVER_DUMP_L19;
@@ -5126,8 +5126,8 @@ void choose_gw(void)
         curr_gateway = tmp_curr_gw;
         if(!(curr_gateway == ((struct gw_node *)NULL)))
         {
-          return_value_is_aborted$8=is_aborted();
-          if(return_value_is_aborted$8 == 0)
+          return_value_is_aborted_8=is_aborted();
+          if(return_value_is_aborted_8 == 0)
           {
             addr_to_string(curr_gateway->orig_node->orig, orig_str, 16);
             debug_output((signed char)3, "Adding default route to %s (gw_flags: %i, tq: %i, gw_product: %i)\n", (const void *)orig_str, max_gw_class, max_tq, max_gw_factor);
@@ -5280,8 +5280,8 @@ void * client_to_gw_tun(void *arg)
   char gw_str[16l];
   char gw_state = (char)0x01;
   unsigned char buff[1501l];
-  struct anonymous$15 wait_sockets;
-  struct anonymous$15 tmp_wait_sockets;
+  struct anonymous_15 wait_sockets;
+  struct anonymous_15 tmp_wait_sockets;
   addr_len = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
   packet_list.next = (struct list_head *)&packet_list;
   packet_list.prev = (struct list_head *)&packet_list;
@@ -5296,57 +5296,57 @@ void * client_to_gw_tun(void *arg)
   udp_sock=socket(2, 2, 0);
   if(!(udp_sock >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    debug_output((signed char)0, "Error - can't create udp socket: %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    debug_output((signed char)0, "Error - can't create udp socket: %s\n", return_value_strerror_2);
     goto out;
   }
 
   sock_opts = 1;
-  signed int return_value_setsockopt$5;
-  return_value_setsockopt$5=setsockopt(udp_sock, 1, 2, (const void *)&sock_opts, (unsigned int)sizeof(signed int) /*4ul*/ );
-  if(!(return_value_setsockopt$5 >= 0))
+  signed int return_value_setsockopt_5;
+  return_value_setsockopt_5=setsockopt(udp_sock, 1, 2, (const void *)&sock_opts, (unsigned int)sizeof(signed int) /*4ul*/ );
+  if(!(return_value_setsockopt_5 >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    debug_output((signed char)0, "Error - can't set options on udp socket: %s\n", return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    debug_output((signed char)0, "Error - can't set options on udp socket: %s\n", return_value_strerror_4);
     goto udp_out;
   }
 
-  signed int return_value_bind$8;
-  return_value_bind$8=bind(udp_sock, (struct sockaddr *)&my_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-  if(!(return_value_bind$8 >= 0))
+  signed int return_value_bind_8;
+  return_value_bind_8=bind(udp_sock, (struct sockaddr *)&my_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+  if(!(return_value_bind_8 >= 0))
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    char *return_value_strerror$7;
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    debug_output((signed char)0, "Error - can't bind tunnel socket: %s\n", return_value_strerror$7);
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    char *return_value_strerror_7;
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    debug_output((signed char)0, "Error - can't bind tunnel socket: %s\n", return_value_strerror_7);
     goto udp_out;
   }
 
   sock_opts=fcntl(udp_sock, 3, 0);
   fcntl(udp_sock, 4, sock_opts | 04000);
-  signed char return_value_get_tun_ip$9;
-  return_value_get_tun_ip$9=get_tun_ip(&gw_addr, udp_sock, &my_tun_addr);
-  signed char return_value_add_dev_tun$10;
-  signed char return_value_is_aborted$11;
-  signed int *return_value___errno_location$14;
-  signed long int return_value_recvfrom$15;
-  signed long int return_value_write$18;
-  signed int *return_value___errno_location$16;
-  char *return_value_strerror$17;
-  unsigned char return_value_get_tunneled_protocol$19;
-  signed long int return_value_read$23;
-  signed int *return_value___errno_location$24;
-  char *return_value_strerror$25;
-  signed int *return_value___errno_location$34;
-  char *return_value_strerror$35;
-  if(!((signed int)return_value_get_tun_ip$9 >= 0))
+  signed char return_value_get_tun_ip_9;
+  return_value_get_tun_ip_9=get_tun_ip(&gw_addr, udp_sock, &my_tun_addr);
+  signed char return_value_add_dev_tun_10;
+  signed char return_value_is_aborted_11;
+  signed int *return_value___errno_location_14;
+  signed long int return_value_recvfrom_15;
+  signed long int return_value_write_18;
+  signed int *return_value___errno_location_16;
+  char *return_value_strerror_17;
+  unsigned char return_value_get_tunneled_protocol_19;
+  signed long int return_value_read_23;
+  signed int *return_value___errno_location_24;
+  char *return_value_strerror_25;
+  signed int *return_value___errno_location_34;
+  char *return_value_strerror_35;
+  if(!((signed int)return_value_get_tun_ip_9 >= 0))
   {
     curr_gw_data->gw_node->last_failure=get_time_msec();
     curr_gw_data->gw_node->gw_failure = curr_gw_data->gw_node->gw_failure + 1;
@@ -5358,8 +5358,8 @@ void * client_to_gw_tun(void *arg)
     addr_to_string(my_tun_addr, my_str, (signed int)sizeof(char [16l]) /*16ul*/ );
     addr_to_string(curr_gw_data->orig, gw_str, (signed int)sizeof(char [16l]) /*16ul*/ );
     debug_output((signed char)3, "Gateway client - got IP (%s) from gateway: %s \n", (const void *)my_str, (const void *)gw_str);
-    return_value_add_dev_tun$10=add_dev_tun(curr_gw_data->batman_if, my_tun_addr, tun_if, sizeof(char [16l]) /*16ul*/ , &tun_fd, &tun_ifi);
-    if((signed int)return_value_add_dev_tun$10 >= 1)
+    return_value_add_dev_tun_10=add_dev_tun(curr_gw_data->batman_if, my_tun_addr, tun_if, sizeof(char [16l]) /*16ul*/ , &tun_fd, &tun_ifi);
+    if((signed int)return_value_add_dev_tun_10 >= 1)
     {
       add_nat_rule(tun_if);
       add_del_route((unsigned int)0, (unsigned char)0, (unsigned int)0, my_tun_addr, tun_ifi, tun_if, (unsigned char)68, (signed char)0, (signed char)0);
@@ -5367,7 +5367,7 @@ void * client_to_gw_tun(void *arg)
       {
         signed int __d0;
         signed int __d1;
-        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$15) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&wait_sockets)->fds_bits[(signed long int)0]) : "memory");
+        asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_15) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&wait_sockets)->fds_bits[(signed long int)0]) : "memory");
       }
       while((_Bool)0);
       (&wait_sockets)->fds_bits[(signed long int)(udp_sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wait_sockets)->fds_bits[(signed long int)(udp_sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << udp_sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
@@ -5375,8 +5375,8 @@ void * client_to_gw_tun(void *arg)
       max_sock = udp_sock > tun_fd ? udp_sock : tun_fd;
       do
       {
-        return_value_is_aborted$11=is_aborted();
-        if(!(return_value_is_aborted$11 == 0))
+        return_value_is_aborted_11=is_aborted();
+        if(!(return_value_is_aborted_11 == 0))
           break;
 
         if(curr_gateway == ((struct gw_node *)NULL))
@@ -5387,19 +5387,19 @@ void * client_to_gw_tun(void *arg)
 
         tv.tv_sec = (signed long int)0;
         tv.tv_usec = (signed long int)250;
-        memcpy((void *)&tmp_wait_sockets, (const void *)&wait_sockets, sizeof(struct anonymous$15) /*128ul*/ );
-        res=select(max_sock + 1, &tmp_wait_sockets, (struct anonymous$15 *)(void *)0, (struct anonymous$15 *)(void *)0, &tv);
+        memcpy((void *)&tmp_wait_sockets, (const void *)&wait_sockets, sizeof(struct anonymous_15) /*128ul*/ );
+        res=select(max_sock + 1, &tmp_wait_sockets, (struct anonymous_15 *)(void *)0, (struct anonymous_15 *)(void *)0, &tv);
         current_time=get_time_msec();
         if(!(res >= 0))
         {
-          return_value___errno_location$14=__errno_location();
-          if(!(*return_value___errno_location$14 == 4))
+          return_value___errno_location_14=__errno_location();
+          if(!(*return_value___errno_location_14 == 4))
           {
-            signed int *return_value___errno_location$12;
-            return_value___errno_location$12=__errno_location();
-            char *return_value_strerror$13;
-            return_value_strerror$13=strerror(*return_value___errno_location$12);
-            debug_output((signed char)0, "Error - can't select (client_to_gw_tun): %s \n", return_value_strerror$13);
+            signed int *return_value___errno_location_12;
+            return_value___errno_location_12=__errno_location();
+            char *return_value_strerror_13;
+            return_value_strerror_13=strerror(*return_value___errno_location_12);
+            debug_output((signed char)0, "Error - can't select (client_to_gw_tun): %s \n", return_value_strerror_13);
             break;
           }
 
@@ -5411,8 +5411,8 @@ void * client_to_gw_tun(void *arg)
           {
             do
             {
-              return_value_recvfrom$15=recvfrom(udp_sock, (void *)buff, sizeof(unsigned char [1501l]) /*1501ul*/  - (unsigned long int)1, 0, (struct sockaddr *)&sender_addr, &addr_len);
-              buff_len = (signed int)return_value_recvfrom$15;
+              return_value_recvfrom_15=recvfrom(udp_sock, (void *)buff, sizeof(unsigned char [1501l]) /*1501ul*/  - (unsigned long int)1, 0, (struct sockaddr *)&sender_addr, &addr_len);
+              buff_len = (signed int)return_value_recvfrom_15;
               if(!(buff_len >= 1))
                 break;
 
@@ -5424,16 +5424,16 @@ void * client_to_gw_tun(void *arg)
                 {
                   case 0x01:
                   {
-                    return_value_write$18=write(tun_fd, (const void *)(buff + (signed long int)1), (unsigned long int)(buff_len - 1));
-                    if(!(return_value_write$18 >= 0l))
+                    return_value_write_18=write(tun_fd, (const void *)(buff + (signed long int)1), (unsigned long int)(buff_len - 1));
+                    if(!(return_value_write_18 >= 0l))
                     {
-                      return_value___errno_location$16=__errno_location();
-                      return_value_strerror$17=strerror(*return_value___errno_location$16);
-                      debug_output((signed char)0, "Error - can't write packet: %s\n", return_value_strerror$17);
+                      return_value___errno_location_16=__errno_location();
+                      return_value_strerror_17=strerror(*return_value___errno_location_16);
+                      debug_output((signed char)0, "Error - can't write packet: %s\n", return_value_strerror_17);
                     }
 
-                    return_value_get_tunneled_protocol$19=get_tunneled_protocol(buff);
-                    if(!((signed int)return_value_get_tunneled_protocol$19 == 1))
+                    return_value_get_tunneled_protocol_19=get_tunneled_protocol(buff);
+                    if(!((signed int)return_value_get_tunneled_protocol_19 == 1))
                     {
                       gw_state = (char)0x02;
                       gw_state_time = current_time;
@@ -5459,15 +5459,15 @@ void * client_to_gw_tun(void *arg)
                 }
             }
             while((_Bool)1);
-            signed int *return_value___errno_location$22;
-            return_value___errno_location$22=__errno_location();
-            if(!(*return_value___errno_location$22 == 11))
+            signed int *return_value___errno_location_22;
+            return_value___errno_location_22=__errno_location();
+            if(!(*return_value___errno_location_22 == 11))
             {
-              signed int *return_value___errno_location$20;
-              return_value___errno_location$20=__errno_location();
-              char *return_value_strerror$21;
-              return_value_strerror$21=strerror(*return_value___errno_location$20);
-              debug_output((signed char)0, "Error - gateway client can't receive packet: %s\n", return_value_strerror$21);
+              signed int *return_value___errno_location_20;
+              return_value___errno_location_20=__errno_location();
+              char *return_value_strerror_21;
+              return_value_strerror_21=strerror(*return_value___errno_location_20);
+              debug_output((signed char)0, "Error - gateway client can't receive packet: %s\n", return_value_strerror_21);
               break;
             }
 
@@ -5478,39 +5478,39 @@ void * client_to_gw_tun(void *arg)
             {
               do
               {
-                return_value_read$23=read(tun_fd, (void *)(buff + (signed long int)1), sizeof(unsigned char [1501l]) /*1501ul*/  - (unsigned long int)2);
-                buff_len = (signed int)return_value_read$23;
+                return_value_read_23=read(tun_fd, (void *)(buff + (signed long int)1), sizeof(unsigned char [1501l]) /*1501ul*/  - (unsigned long int)2);
+                buff_len = (signed int)return_value_read_23;
                 if(!(buff_len >= 1))
                   break;
 
                 buff[(signed long int)0] = (unsigned char)0x01;
-                signed long int return_value_sendto$26;
-                return_value_sendto$26=sendto(udp_sock, (const void *)buff, (unsigned long int)(buff_len + 1), 0, (struct sockaddr *)&gw_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-                if(!(return_value_sendto$26 >= 0l))
+                signed long int return_value_sendto_26;
+                return_value_sendto_26=sendto(udp_sock, (const void *)buff, (unsigned long int)(buff_len + 1), 0, (struct sockaddr *)&gw_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+                if(!(return_value_sendto_26 >= 0l))
                 {
-                  return_value___errno_location$24=__errno_location();
-                  return_value_strerror$25=strerror(*return_value___errno_location$24);
-                  debug_output((signed char)0, "Error - can't send data to gateway: %s\n", return_value_strerror$25);
+                  return_value___errno_location_24=__errno_location();
+                  return_value_strerror_25=strerror(*return_value___errno_location_24);
+                  debug_output((signed char)0, "Error - can't send data to gateway: %s\n", return_value_strerror_25);
                 }
 
                 if(gw_state_time == 0u && (signed int)gw_state == 0x01)
                 {
                   ignore_packet = (unsigned int)0;
-                  unsigned char return_value_get_tunneled_protocol$27;
-                  return_value_get_tunneled_protocol$27=get_tunneled_protocol(buff);
-                  if((signed int)return_value_get_tunneled_protocol$27 == 1)
+                  unsigned char return_value_get_tunneled_protocol_27;
+                  return_value_get_tunneled_protocol_27=get_tunneled_protocol(buff);
+                  if((signed int)return_value_get_tunneled_protocol_27 == 1)
                     ignore_packet = (unsigned int)1;
 
-                  unsigned char return_value_get_tunneled_protocol$29;
-                  return_value_get_tunneled_protocol$29=get_tunneled_protocol(buff);
-                  if((signed int)return_value_get_tunneled_protocol$29 == 17)
+                  unsigned char return_value_get_tunneled_protocol_29;
+                  return_value_get_tunneled_protocol_29=get_tunneled_protocol(buff);
+                  if((signed int)return_value_get_tunneled_protocol_29 == 17)
                   {
                     i = 0;
                     for( ; !(i >= 6); i = i + 1)
                     {
-                      unsigned short int return_value_get_tunneled_udpdest$28;
-                      return_value_get_tunneled_udpdest$28=get_tunneled_udpdest(buff);
-                      if(return_value_get_tunneled_udpdest$28 == bh_udp_ports[(signed long int)i])
+                      unsigned short int return_value_get_tunneled_udpdest_28;
+                      return_value_get_tunneled_udpdest_28=get_tunneled_udpdest(buff);
+                      if(return_value_get_tunneled_udpdest_28 == bh_udp_ports[(signed long int)i])
                       {
                         ignore_packet = (unsigned int)1;
                         break;
@@ -5519,9 +5519,9 @@ void * client_to_gw_tun(void *arg)
                     }
                   }
 
-                  unsigned int return_value_get_tunneled_sender_ip$30;
-                  return_value_get_tunneled_sender_ip$30=get_tunneled_sender_ip(buff);
-                  if(!(return_value_get_tunneled_sender_ip$30 == my_tun_addr))
+                  unsigned int return_value_get_tunneled_sender_ip_30;
+                  return_value_get_tunneled_sender_ip_30=get_tunneled_sender_ip(buff);
+                  if(!(return_value_get_tunneled_sender_ip_30 == my_tun_addr))
                     ignore_packet = (unsigned int)1;
 
                   if(ignore_packet == 0u)
@@ -5531,15 +5531,15 @@ void * client_to_gw_tun(void *arg)
 
               }
               while((_Bool)1);
-              signed int *return_value___errno_location$33;
-              return_value___errno_location$33=__errno_location();
-              if(!(*return_value___errno_location$33 == 11))
+              signed int *return_value___errno_location_33;
+              return_value___errno_location_33=__errno_location();
+              if(!(*return_value___errno_location_33 == 11))
               {
-                signed int *return_value___errno_location$31;
-                return_value___errno_location$31=__errno_location();
-                char *return_value_strerror$32;
-                return_value_strerror$32=strerror(*return_value___errno_location$31);
-                debug_output((signed char)0, "Error - gateway client can't read tun data: %s\n", return_value_strerror$32);
+                signed int *return_value___errno_location_31;
+                return_value___errno_location_31=__errno_location();
+                char *return_value_strerror_32;
+                return_value_strerror_32=strerror(*return_value___errno_location_31);
+                debug_output((signed char)0, "Error - gateway client can't read tun data: %s\n", return_value_strerror_32);
                 break;
               }
 
@@ -5555,13 +5555,13 @@ void * client_to_gw_tun(void *arg)
           if(!(num_refresh_lease >= 12))
           {
             buff[(signed long int)0] = (unsigned char)0x04;
-            signed long int return_value_sendto$36;
-            return_value_sendto$36=sendto(udp_sock, (const void *)buff, (unsigned long int)100, 0, (struct sockaddr *)&gw_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-            if(!(return_value_sendto$36 >= 0l))
+            signed long int return_value_sendto_36;
+            return_value_sendto_36=sendto(udp_sock, (const void *)buff, (unsigned long int)100, 0, (struct sockaddr *)&gw_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+            if(!(return_value_sendto_36 >= 0l))
             {
-              return_value___errno_location$34=__errno_location();
-              return_value_strerror$35=strerror(*return_value___errno_location$34);
-              debug_output((signed char)0, "Error - can't send keep alive request to gateway: %s \n", return_value_strerror$35);
+              return_value___errno_location_34=__errno_location();
+              return_value_strerror_35=strerror(*return_value___errno_location_34);
+              debug_output((signed char)0, "Error - can't send keep alive request to gateway: %s \n", return_value_strerror_35);
             }
 
             num_refresh_lease = num_refresh_lease + 1;
@@ -5620,36 +5620,36 @@ out:
 // file hna.c line 42
 signed int compare_hna(void *data1, void *data2)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp(data1, data2, (unsigned long int)5);
-  return return_value_memcmp$1 == 0 ? 1 : 0;
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp(data1, data2, (unsigned long int)5);
+  return return_value_memcmp_1 == 0 ? 1 : 0;
 }
 
 // compare_orig
 // file originator.h line 29
 signed int compare_orig(void *data1, void *data2)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp(data1, data2, (unsigned long int)4);
-  return return_value_memcmp$1 == 0 ? 1 : 0;
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp(data1, data2, (unsigned long int)4);
+  return return_value_memcmp_1 == 0 ? 1 : 0;
 }
 
 // compare_vip
 // file posix/tunnel.c line 513
 static signed int compare_vip(void *data1, void *data2)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)((char *)data1 + (signed long int)4), (const void *)((char *)data2 + (signed long int)4), (unsigned long int)4);
-  return return_value_memcmp$1 == 0 ? 1 : 0;
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)((char *)data1 + (signed long int)4), (const void *)((char *)data2 + (signed long int)4), (unsigned long int)4);
+  return return_value_memcmp_1 == 0 ? 1 : 0;
 }
 
 // compare_wip
 // file posix/tunnel.c line 508
 static signed int compare_wip(void *data1, void *data2)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp(data1, data2, (unsigned long int)4);
-  return return_value_memcmp$1 == 0 ? 1 : 0;
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp(data1, data2, (unsigned long int)4);
+  return return_value_memcmp_1 == 0 ? 1 : 0;
 }
 
 // count_real_packets
@@ -5662,7 +5662,7 @@ static unsigned char count_real_packets(struct bat_packet *in, unsigned int neig
   unsigned char is_duplicate = (unsigned char)0;
   orig_node=get_orig_node(in->orig);
   list_pos = (&orig_node->neigh_list)->next;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(list_pos == (struct list_head *)&orig_node->neigh_list); list_pos = list_pos->next)
   {
     tmp_neigh_node = (struct neigh_node *)((char *)list_pos - (signed long int)(unsigned long int)&((struct neigh_node *)0)->list);
@@ -5670,18 +5670,18 @@ static unsigned char count_real_packets(struct bat_packet *in, unsigned int neig
       is_duplicate=get_bit_status(tmp_neigh_node->real_bits, orig_node->last_real_seqno, in->seqno);
 
     if(tmp_neigh_node->addr == neigh)
-      tmp_if_expr$1 = tmp_neigh_node->if_incoming == if_incoming ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = tmp_neigh_node->if_incoming == if_incoming ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
       bit_get_packet(tmp_neigh_node->real_bits, (signed short int)((signed int)in->seqno - (signed int)orig_node->last_real_seqno), (signed char)1);
 
     else
       bit_get_packet(tmp_neigh_node->real_bits, (signed short int)((signed int)in->seqno - (signed int)orig_node->last_real_seqno), (signed char)0);
-    signed int return_value_bit_packet_count$2;
-    return_value_bit_packet_count$2=bit_packet_count(tmp_neigh_node->real_bits);
-    tmp_neigh_node->real_packet_count = (unsigned char)return_value_bit_packet_count$2;
+    signed int return_value_bit_packet_count_2;
+    return_value_bit_packet_count_2=bit_packet_count(tmp_neigh_node->real_bits);
+    tmp_neigh_node->real_packet_count = (unsigned char)return_value_bit_packet_count_2;
   }
   if(is_duplicate == 0)
   {
@@ -5698,9 +5698,9 @@ struct neigh_node * create_neighbor(struct orig_node *orig_node, struct orig_nod
 {
   struct neigh_node *neigh_node;
   debug_output((signed char)4, "Creating new last-hop neighbour of originator\n");
-  void *return_value_debugMalloc$1;
-  return_value_debugMalloc$1=debugMalloc((unsigned int)sizeof(struct neigh_node) /*56ul*/ , 403);
-  neigh_node = (struct neigh_node *)return_value_debugMalloc$1;
+  void *return_value_debugMalloc_1;
+  return_value_debugMalloc_1=debugMalloc((unsigned int)sizeof(struct neigh_node) /*56ul*/ , 403);
+  neigh_node = (struct neigh_node *)return_value_debugMalloc_1;
   memset((void *)neigh_node, 0, sizeof(struct neigh_node) /*56ul*/ );
   do
     (&neigh_node->list)->next = &neigh_node->list;
@@ -5708,13 +5708,13 @@ struct neigh_node * create_neighbor(struct orig_node *orig_node, struct orig_nod
   neigh_node->addr = neigh;
   neigh_node->orig_node = orig_neigh_node;
   neigh_node->if_incoming = if_incoming;
-  void *return_value_debugMalloc$2;
-  return_value_debugMalloc$2=debugMalloc((unsigned int)(sizeof(unsigned short int) /*2ul*/  * (unsigned long int)global_win_size), 406);
-  neigh_node->tq_recv = (unsigned char *)return_value_debugMalloc$2;
+  void *return_value_debugMalloc_2;
+  return_value_debugMalloc_2=debugMalloc((unsigned int)(sizeof(unsigned short int) /*2ul*/  * (unsigned long int)global_win_size), 406);
+  neigh_node->tq_recv = (unsigned char *)return_value_debugMalloc_2;
   memset((void *)neigh_node->tq_recv, 0, sizeof(unsigned short int) /*2ul*/  * (unsigned long int)global_win_size);
-  void *return_value_debugMalloc$3;
-  return_value_debugMalloc$3=debugMalloc((unsigned int)(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)num_words), 407);
-  neigh_node->real_bits = (unsigned long int *)return_value_debugMalloc$3;
+  void *return_value_debugMalloc_3;
+  return_value_debugMalloc_3=debugMalloc((unsigned int)(sizeof(unsigned long int) /*8ul*/  * (unsigned long int)num_words), 407);
+  neigh_node->real_bits = (unsigned long int *)return_value_debugMalloc_3;
   memset((void *)neigh_node->real_bits, 0, sizeof(unsigned long int) /*8ul*/  * (unsigned long int)num_words);
   list_add_tail(&neigh_node->list, &orig_node->neigh_list);
   return neigh_node;
@@ -5726,28 +5726,28 @@ static void create_routing_pipe(void)
 {
   signed int fd[2l];
   signed int pipe_opts;
-  signed int return_value_pipe$3;
-  return_value_pipe$3=pipe(fd);
-  if(!(return_value_pipe$3 >= 0))
+  signed int return_value_pipe_3;
+  return_value_pipe_3=pipe(fd);
+  if(!(return_value_pipe_3 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    printf("Could not create a pipe to '%s': %s\n", policy_routing_script, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    printf("Could not create a pipe to '%s': %s\n", policy_routing_script, return_value_strerror_2);
     exit(1);
   }
 
   policy_routing_script_pid=fork();
-  signed int *return_value___errno_location$7;
-  char *return_value_strerror$8;
+  signed int *return_value___errno_location_7;
+  char *return_value_strerror_8;
   if(!(policy_routing_script_pid >= 0))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    printf("Could not fork to execute '%s': %s\n", policy_routing_script, return_value_strerror$5);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    printf("Could not fork to execute '%s': %s\n", policy_routing_script, return_value_strerror_5);
     exit(1);
   }
 
@@ -5765,9 +5765,9 @@ static void create_routing_pipe(void)
       close(fd[(signed long int)1]);
       if(!(fd[0l] == 0))
       {
-        signed int return_value_dup2$6;
-        return_value_dup2$6=dup2(fd[(signed long int)0], 0);
-        if(!(return_value_dup2$6 == 0))
+        signed int return_value_dup2_6;
+        return_value_dup2_6=dup2(fd[(signed long int)0], 0);
+        if(!(return_value_dup2_6 == 0))
         {
           printf("Could not dup2 to redirect stdin to '%s'\n", policy_routing_script);
           exit(1);
@@ -5779,13 +5779,13 @@ static void create_routing_pipe(void)
       signal(2, (void (*)(signed int))1);
       signal(15, (void (*)(signed int))1);
       signal(13, (void (*)(signed int))1);
-      signed int return_value_execl$9;
-      return_value_execl$9=execl("/bin/sh", "/bin/sh", (const void *)"-c", policy_routing_script, (void *)0);
-      if(!(return_value_execl$9 >= 0))
+      signed int return_value_execl_9;
+      return_value_execl_9=execl("/bin/sh", "/bin/sh", (const void *)"-c", policy_routing_script, (void *)0);
+      if(!(return_value_execl_9 >= 0))
       {
-        return_value___errno_location$7=__errno_location();
-        return_value_strerror$8=strerror(*return_value___errno_location$7);
-        printf("Could not execute '%s': %s\n", policy_routing_script, return_value_strerror$8);
+        return_value___errno_location_7=__errno_location();
+        return_value_strerror_8=strerror(*return_value___errno_location_7);
+        printf("Could not execute '%s': %s\n", policy_routing_script, return_value_strerror_8);
       }
 
     }
@@ -5837,22 +5837,22 @@ void debugFree(void *memoryParameter, signed int tag)
   struct chunkHeader *walker;
   struct chunkHeader *previous;
   memory = (unsigned char *)memoryParameter;
-  unsigned long int return_value_getHeaderPad$1;
-  return_value_getHeaderPad$1=getHeaderPad();
-  chunkHeader = (struct chunkHeader *)((memory - (signed long int)sizeof(struct chunkHeader) /*24ul*/ ) - (signed long int)return_value_getHeaderPad$1);
+  unsigned long int return_value_getHeaderPad_1;
+  return_value_getHeaderPad_1=getHeaderPad();
+  chunkHeader = (struct chunkHeader *)((memory - (signed long int)sizeof(struct chunkHeader) /*24ul*/ ) - (signed long int)return_value_getHeaderPad_1);
   if(!(chunkHeader->magicNumber == 305419896u))
   {
     debug_output((signed char)0, "debugFree - invalid magic number in header: %08x, malloc tag = %d, free tag = %d\n", chunkHeader->magicNumber, chunkHeader->tag, tag);
     restore_and_exit((unsigned char)0);
   }
 
-  unsigned long int return_value_getHeaderPad$2;
-  return_value_getHeaderPad$2=getHeaderPad();
-  unsigned long int return_value_getHeaderPad$3;
-  return_value_getHeaderPad$3=getHeaderPad();
-  signed int return_value_checkPadding$4;
-  return_value_checkPadding$4=checkPadding(memory - (signed long int)return_value_getHeaderPad$2, return_value_getHeaderPad$3);
-  if(return_value_checkPadding$4 == 0)
+  unsigned long int return_value_getHeaderPad_2;
+  return_value_getHeaderPad_2=getHeaderPad();
+  unsigned long int return_value_getHeaderPad_3;
+  return_value_getHeaderPad_3=getHeaderPad();
+  signed int return_value_checkPadding_4;
+  return_value_checkPadding_4=checkPadding(memory - (signed long int)return_value_getHeaderPad_2, return_value_getHeaderPad_3);
+  if(return_value_checkPadding_4 == 0)
   {
     debug_output((signed char)0, "debugFree - invalid magic padding in header, malloc tag = %d\n", chunkHeader->tag);
     restore_and_exit((unsigned char)0);
@@ -5881,20 +5881,20 @@ void debugFree(void *memoryParameter, signed int tag)
   else
     previous->next = walker->next;
   pthread_mutex_unlock(&chunk_mutex);
-  unsigned long int return_value_getTrailerPad$5;
-  return_value_getTrailerPad$5=getTrailerPad((unsigned long int)chunkHeader->length);
-  chunkTrailer = (struct chunkTrailer *)(memory + (signed long int)chunkHeader->length + (signed long int)return_value_getTrailerPad$5);
+  unsigned long int return_value_getTrailerPad_5;
+  return_value_getTrailerPad_5=getTrailerPad((unsigned long int)chunkHeader->length);
+  chunkTrailer = (struct chunkTrailer *)(memory + (signed long int)chunkHeader->length + (signed long int)return_value_getTrailerPad_5);
   if(!(chunkTrailer->magicNumber == 305419896u))
   {
     debug_output((signed char)0, "debugFree - invalid magic number in trailer: %08x, malloc tag = %d, free tag = %d\n", chunkTrailer->magicNumber, chunkHeader->tag, tag);
     restore_and_exit((unsigned char)0);
   }
 
-  unsigned long int return_value_getTrailerPad$6;
-  return_value_getTrailerPad$6=getTrailerPad((unsigned long int)chunkHeader->length);
-  signed int return_value_checkPadding$7;
-  return_value_checkPadding$7=checkPadding(memory + (signed long int)chunkHeader->length, return_value_getTrailerPad$6);
-  if(return_value_checkPadding$7 == 0)
+  unsigned long int return_value_getTrailerPad_6;
+  return_value_getTrailerPad_6=getTrailerPad((unsigned long int)chunkHeader->length);
+  signed int return_value_checkPadding_7;
+  return_value_checkPadding_7=checkPadding(memory + (signed long int)chunkHeader->length, return_value_getTrailerPad_6);
+  if(return_value_checkPadding_7 == 0)
   {
     debug_output((signed char)0, "debugFree - invalid magic padding in trailer, malloc tag = %d\n", chunkHeader->tag);
     restore_and_exit((unsigned char)0);
@@ -5912,13 +5912,13 @@ void * debugMalloc(unsigned int length, signed int tag)
   struct chunkHeader *chunkHeader;
   struct chunkTrailer *chunkTrailer;
   unsigned char *chunk;
-  unsigned long int return_value_getHeaderPad$1;
-  return_value_getHeaderPad$1=getHeaderPad();
-  unsigned long int return_value_getTrailerPad$2;
-  return_value_getTrailerPad$2=getTrailerPad((unsigned long int)length);
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)length + sizeof(struct chunkHeader) /*24ul*/  + sizeof(struct chunkTrailer) /*4ul*/  + return_value_getHeaderPad$1 + return_value_getTrailerPad$2);
-  memory = (unsigned char *)return_value_malloc$3;
+  unsigned long int return_value_getHeaderPad_1;
+  return_value_getHeaderPad_1=getHeaderPad();
+  unsigned long int return_value_getTrailerPad_2;
+  return_value_getTrailerPad_2=getTrailerPad((unsigned long int)length);
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)length + sizeof(struct chunkHeader) /*24ul*/  + sizeof(struct chunkTrailer) /*4ul*/  + return_value_getHeaderPad_1 + return_value_getTrailerPad_2);
+  memory = (unsigned char *)return_value_malloc_3;
   if(memory == ((unsigned char *)NULL))
   {
     debug_output((signed char)0, "Cannot allocate %u bytes, malloc tag = %d\n", (unsigned int)((unsigned long int)length + sizeof(struct chunkHeader) /*24ul*/  + sizeof(struct chunkTrailer) /*4ul*/ ), tag);
@@ -5926,20 +5926,20 @@ void * debugMalloc(unsigned int length, signed int tag)
   }
 
   chunkHeader = (struct chunkHeader *)memory;
-  unsigned long int return_value_getHeaderPad$4;
-  return_value_getHeaderPad$4=getHeaderPad();
-  chunk = memory + (signed long int)sizeof(struct chunkHeader) /*24ul*/  + (signed long int)return_value_getHeaderPad$4;
-  unsigned long int return_value_getHeaderPad$5;
-  return_value_getHeaderPad$5=getHeaderPad();
-  unsigned long int return_value_getTrailerPad$6;
-  return_value_getTrailerPad$6=getTrailerPad((unsigned long int)length);
-  chunkTrailer = (struct chunkTrailer *)(memory + (signed long int)sizeof(struct chunkHeader) /*24ul*/  + (signed long int)length + (signed long int)return_value_getHeaderPad$5 + (signed long int)return_value_getTrailerPad$6);
-  unsigned long int return_value_getHeaderPad$7;
-  return_value_getHeaderPad$7=getHeaderPad();
-  fillPadding((unsigned char *)chunkHeader + (signed long int)sizeof(struct chunkHeader) /*24ul*/ , return_value_getHeaderPad$7);
-  unsigned long int return_value_getTrailerPad$8;
-  return_value_getTrailerPad$8=getTrailerPad((unsigned long int)length);
-  fillPadding(chunk + (signed long int)length, return_value_getTrailerPad$8);
+  unsigned long int return_value_getHeaderPad_4;
+  return_value_getHeaderPad_4=getHeaderPad();
+  chunk = memory + (signed long int)sizeof(struct chunkHeader) /*24ul*/  + (signed long int)return_value_getHeaderPad_4;
+  unsigned long int return_value_getHeaderPad_5;
+  return_value_getHeaderPad_5=getHeaderPad();
+  unsigned long int return_value_getTrailerPad_6;
+  return_value_getTrailerPad_6=getTrailerPad((unsigned long int)length);
+  chunkTrailer = (struct chunkTrailer *)(memory + (signed long int)sizeof(struct chunkHeader) /*24ul*/  + (signed long int)length + (signed long int)return_value_getHeaderPad_5 + (signed long int)return_value_getTrailerPad_6);
+  unsigned long int return_value_getHeaderPad_7;
+  return_value_getHeaderPad_7=getHeaderPad();
+  fillPadding((unsigned char *)chunkHeader + (signed long int)sizeof(struct chunkHeader) /*24ul*/ , return_value_getHeaderPad_7);
+  unsigned long int return_value_getTrailerPad_8;
+  return_value_getTrailerPad_8=getTrailerPad((unsigned long int)length);
+  fillPadding(chunk + (signed long int)length, return_value_getTrailerPad_8);
   chunkHeader->length = length;
   chunkHeader->tag = tag;
   chunkHeader->magicNumber = (unsigned int)0x12345678;
@@ -5964,41 +5964,41 @@ void * debugRealloc(void *memoryParameter, unsigned int length, signed int tag)
   if(!(memoryParameter == NULL))
   {
     memory = (unsigned char *)memoryParameter;
-    unsigned long int return_value_getHeaderPad$1;
-    return_value_getHeaderPad$1=getHeaderPad();
-    chunkHeader = (struct chunkHeader *)((memory - (signed long int)sizeof(struct chunkHeader) /*24ul*/ ) - (signed long int)return_value_getHeaderPad$1);
+    unsigned long int return_value_getHeaderPad_1;
+    return_value_getHeaderPad_1=getHeaderPad();
+    chunkHeader = (struct chunkHeader *)((memory - (signed long int)sizeof(struct chunkHeader) /*24ul*/ ) - (signed long int)return_value_getHeaderPad_1);
     if(!(chunkHeader->magicNumber == 305419896u))
     {
       debug_output((signed char)0, "debugRealloc - invalid magic number in header: %08x, malloc tag = %d\n", chunkHeader->magicNumber, chunkHeader->tag);
       restore_and_exit((unsigned char)0);
     }
 
-    unsigned long int return_value_getHeaderPad$2;
-    return_value_getHeaderPad$2=getHeaderPad();
-    unsigned long int return_value_getHeaderPad$3;
-    return_value_getHeaderPad$3=getHeaderPad();
-    signed int return_value_checkPadding$4;
-    return_value_checkPadding$4=checkPadding(memory - (signed long int)return_value_getHeaderPad$2, return_value_getHeaderPad$3);
-    if(return_value_checkPadding$4 == 0)
+    unsigned long int return_value_getHeaderPad_2;
+    return_value_getHeaderPad_2=getHeaderPad();
+    unsigned long int return_value_getHeaderPad_3;
+    return_value_getHeaderPad_3=getHeaderPad();
+    signed int return_value_checkPadding_4;
+    return_value_checkPadding_4=checkPadding(memory - (signed long int)return_value_getHeaderPad_2, return_value_getHeaderPad_3);
+    if(return_value_checkPadding_4 == 0)
     {
       debug_output((signed char)0, "debugRealloc - invalid magic padding in header, malloc tag = %d\n", chunkHeader->tag);
       restore_and_exit((unsigned char)0);
     }
 
-    unsigned long int return_value_getTrailerPad$5;
-    return_value_getTrailerPad$5=getTrailerPad((unsigned long int)chunkHeader->length);
-    chunkTrailer = (struct chunkTrailer *)(memory + (signed long int)chunkHeader->length + (signed long int)return_value_getTrailerPad$5);
+    unsigned long int return_value_getTrailerPad_5;
+    return_value_getTrailerPad_5=getTrailerPad((unsigned long int)chunkHeader->length);
+    chunkTrailer = (struct chunkTrailer *)(memory + (signed long int)chunkHeader->length + (signed long int)return_value_getTrailerPad_5);
     if(!(chunkTrailer->magicNumber == 305419896u))
     {
       debug_output((signed char)0, "debugRealloc - invalid magic number in trailer: %08x, malloc tag = %d\n", chunkTrailer->magicNumber, chunkHeader->tag);
       restore_and_exit((unsigned char)0);
     }
 
-    unsigned long int return_value_getTrailerPad$6;
-    return_value_getTrailerPad$6=getTrailerPad((unsigned long int)chunkHeader->length);
-    signed int return_value_checkPadding$7;
-    return_value_checkPadding$7=checkPadding(memory + (signed long int)chunkHeader->length, return_value_getTrailerPad$6);
-    if(return_value_checkPadding$7 == 0)
+    unsigned long int return_value_getTrailerPad_6;
+    return_value_getTrailerPad_6=getTrailerPad((unsigned long int)chunkHeader->length);
+    signed int return_value_checkPadding_7;
+    return_value_checkPadding_7=checkPadding(memory + (signed long int)chunkHeader->length, return_value_getTrailerPad_6);
+    if(return_value_checkPadding_7 == 0)
     {
       debug_output((signed char)0, "debugRealloc - invalid magic padding in trailer, malloc tag = %d\n", chunkHeader->tag);
       restore_and_exit((unsigned char)0);
@@ -6006,9 +6006,9 @@ void * debugRealloc(void *memoryParameter, unsigned int length, signed int tag)
 
   }
 
-  void *return_value_debugMalloc$8;
-  return_value_debugMalloc$8=debugMalloc(length, tag);
-  result = (unsigned char *)return_value_debugMalloc$8;
+  void *return_value_debugMalloc_8;
+  return_value_debugMalloc_8=debugMalloc(length, tag);
+  result = (unsigned char *)return_value_debugMalloc_8;
   if(!(memoryParameter == NULL))
   {
     copyLength = length;
@@ -6046,14 +6046,14 @@ void debug_orig(void)
   if((signed int)debug_clients.clients_num[1l] >= 1)
   {
     addr_to_string(((struct batman_if *)if_list.next)->addr.sin_addr.s_addr, orig_str, (signed int)sizeof(char [16l]) /*16ul*/ );
-    unsigned long int return_value_get_time_msec64$1;
-    return_value_get_time_msec64$1=get_time_msec64();
-    uptime_sec = (unsigned long int)(return_value_get_time_msec64$1 / (unsigned long int)1000);
+    unsigned long int return_value_get_time_msec64_1;
+    return_value_get_time_msec64_1=get_time_msec64();
+    uptime_sec = (unsigned long int)(return_value_get_time_msec64_1 / (unsigned long int)1000);
     debug_output((signed char)2, "BOD\n");
     debug_output((signed char)2, "%''12s     (%s/%i) %''15s [%10s], gw_class ... [B.A.T.M.A.N. %s, MainIF/IP: %s/%s, UT: %id%2ih%2im] \n", (const void *)"Gateway", (const void *)"#", 255, (const void *)"Nexthop", (const void *)"outgoingIF", (const void *)"debian-0.3.2-17", ((struct batman_if *)if_list.next)->dev, (const void *)orig_str, (unsigned int)(uptime_sec / (unsigned long int)86400), (unsigned int)((uptime_sec % (unsigned long int)86400) / (unsigned long int)3600), (unsigned int)((uptime_sec % (unsigned long int)3600) / (unsigned long int)60));
-    signed int return_value_list_empty$2;
-    return_value_list_empty$2=list_empty(&gw_list);
-    if(!(return_value_list_empty$2 == 0))
+    signed int return_value_list_empty_2;
+    return_value_list_empty_2=list_empty(&gw_list);
+    if(!(return_value_list_empty_2 == 0))
       debug_output((signed char)2, "No gateways in range ... \n");
 
     else
@@ -6083,18 +6083,18 @@ void debug_orig(void)
     debug_output((signed char)2, "EOD\n");
   }
 
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_5;
   if((signed int)*debug_clients.clients_num >= 1)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = (signed int)debug_clients.clients_num[(signed long int)3] > 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = (signed int)debug_clients.clients_num[(signed long int)3] > 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_5)
   {
     addr_to_string(((struct batman_if *)if_list.next)->addr.sin_addr.s_addr, orig_str, (signed int)sizeof(char [16l]) /*16ul*/ );
-    unsigned long int return_value_get_time_msec64$3;
-    return_value_get_time_msec64$3=get_time_msec64();
-    uptime_sec = (unsigned long int)(return_value_get_time_msec64$3 / (unsigned long int)1000);
+    unsigned long int return_value_get_time_msec64_3;
+    return_value_get_time_msec64_3=get_time_msec64();
+    uptime_sec = (unsigned long int)(return_value_get_time_msec64_3 / (unsigned long int)1000);
     debug_output((signed char)1, "BOD \n");
     debug_output((signed char)1, "  %-11s (%s/%i) %''15s [%10s]: %''20s ... [B.A.T.M.A.N. %s, MainIF/IP: %s/%s, UT: %id%2ih%2im] \n", (const void *)"Originator", (const void *)"#", 255, (const void *)"Nexthop", (const void *)"outgoingIF", (const void *)"Potential nexthops", (const void *)"debian-0.3.2-17", ((struct batman_if *)if_list.next)->dev, (const void *)orig_str, (unsigned int)(uptime_sec / (unsigned long int)86400), (unsigned int)((uptime_sec % (unsigned long int)86400) / (unsigned long int)3600), (unsigned int)((uptime_sec % (unsigned long int)3600) / (unsigned long int)60));
     if((signed int)debug_clients.clients_num[3l] >= 1)
@@ -6132,9 +6132,9 @@ void debug_orig(void)
         {
           neigh_node = (struct neigh_node *)((char *)neigh_pos - (signed long int)(unsigned long int)&((struct neigh_node *)0)->list);
           addr_to_string(neigh_node->addr, str, (signed int)sizeof(char [16l]) /*16ul*/ );
-          signed int return_value_snprintf$4;
-          return_value_snprintf$4=snprintf(debug_out_str + (signed long int)debug_out_size, (sizeof(char [1001l]) /*1001ul*/  - (unsigned long int)1) - (unsigned long int)debug_out_size, " %15s (%3i)", (const void *)str, neigh_node->tq_avg);
-          debug_out_size = debug_out_size + return_value_snprintf$4;
+          signed int return_value_snprintf_4;
+          return_value_snprintf_4=snprintf(debug_out_str + (signed long int)debug_out_size, (sizeof(char [1001l]) /*1001ul*/  - (unsigned long int)1) - (unsigned long int)debug_out_size, " %15s (%3i)", (const void *)str, neigh_node->tq_avg);
+          debug_out_size = debug_out_size + return_value_snprintf_4;
           if((unsigned long int)(30u + (unsigned int)debug_out_size) >= 1001ul)
           {
             debug_output((signed char)1, "%s \n", (const void *)debug_out_str);
@@ -6173,14 +6173,14 @@ void debug_output(signed char debug_prio, char *format, ...)
   struct debug_level_info *debug_level_info;
   signed char debug_prio_intern;
   void **args;
-  unsigned int return_value_get_time_msec$1;
-  unsigned int return_value_get_time_msec$4;
-  signed int return_value_strncmp$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
-  signed int return_value_strncmp$7;
-  signed int *return_value___errno_location$9;
-  char *return_value_strerror$10;
+  unsigned int return_value_get_time_msec_1;
+  unsigned int return_value_get_time_msec_4;
+  signed int return_value_strncmp_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
+  signed int return_value_strncmp_7;
+  signed int *return_value___errno_location_9;
+  char *return_value_strerror_10;
   if(log_facility_active == 0)
   {
     args = (void **)&format;
@@ -6204,8 +6204,8 @@ void debug_output(signed char debug_prio, char *format, ...)
         {
           if((signed int)debug_level == 4)
           {
-            return_value_get_time_msec$1=get_time_msec();
-            printf("[%10u] ", return_value_get_time_msec$1);
+            return_value_get_time_msec_1=get_time_msec();
+            printf("[%10u] ", return_value_get_time_msec_1);
           }
 
           args = (void **)&format;
@@ -6220,13 +6220,13 @@ void debug_output(signed char debug_prio, char *format, ...)
       debug_prio_intern = (signed char)((signed int)debug_prio - 1);
     if((signed int)debug_clients.clients_num[(signed long int)debug_prio_intern] >= 1)
     {
-      signed int return_value_pthread_mutex_trylock$3;
-      return_value_pthread_mutex_trylock$3=pthread_mutex_trylock((union anonymous$16 *)debug_clients.mutex[(signed long int)debug_prio_intern]);
-      if(!(return_value_pthread_mutex_trylock$3 == 0))
+      signed int return_value_pthread_mutex_trylock_3;
+      return_value_pthread_mutex_trylock_3=pthread_mutex_trylock((union anonymous_16 *)debug_clients.mutex[(signed long int)debug_prio_intern]);
+      if(!(return_value_pthread_mutex_trylock_3 == 0))
       {
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(16);
-        debug_output((signed char)0, "Warning - could not trylock mutex (debug_output): %s \n", return_value_strerror$2);
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(16);
+        debug_output((signed char)0, "Warning - could not trylock mutex (debug_output): %s \n", return_value_strerror_2);
         goto __CPROVER_DUMP_L19;
       }
 
@@ -6237,16 +6237,16 @@ void debug_output(signed char debug_prio, char *format, ...)
         debug_level_info = (struct debug_level_info *)((char *)debug_pos - (signed long int)(unsigned long int)&((struct debug_level_info *)0)->list);
         if((signed int)debug_prio_intern == 3)
         {
-          return_value_get_time_msec$4=get_time_msec();
-          dprintf(debug_level_info->fd, "[%10u] ", return_value_get_time_msec$4);
+          return_value_get_time_msec_4=get_time_msec();
+          dprintf(debug_level_info->fd, "[%10u] ", return_value_get_time_msec_4);
         }
 
         if((signed int)debug_level == 1 || (signed int)debug_level == 2)
         {
           if(debug_level_info->fd == 1)
           {
-            return_value_strncmp$5=strncmp(format, "BOD", (unsigned long int)3);
-            if(return_value_strncmp$5 == 0)
+            return_value_strncmp_5=strncmp(format, "BOD", (unsigned long int)3);
+            if(return_value_strncmp_5 == 0)
               printf("\033[2J\033[0;0f");
 
           }
@@ -6254,30 +6254,30 @@ void debug_output(signed char debug_prio, char *format, ...)
         }
 
         if(!((signed int)debug_level == 1) && !((signed int)debug_level == 2))
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = debug_level_info->fd != 1 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_6 = debug_level_info->fd != 1 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
+          tmp_if_expr_8 = (_Bool)1;
 
         else
         {
-          return_value_strncmp$7=strncmp(format, "EOD", (unsigned long int)3);
-          tmp_if_expr$8 = return_value_strncmp$7 != 0 ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_7=strncmp(format, "EOD", (unsigned long int)3);
+          tmp_if_expr_8 = return_value_strncmp_7 != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$8)
+        if(tmp_if_expr_8)
           vdprintf(debug_level_info->fd, format, args);
 
       }
       args = ((void **)NULL);
-      signed int return_value_pthread_mutex_unlock$11;
-      return_value_pthread_mutex_unlock$11=pthread_mutex_unlock((union anonymous$16 *)debug_clients.mutex[(signed long int)debug_prio_intern]);
-      if(!(return_value_pthread_mutex_unlock$11 >= 0))
+      signed int return_value_pthread_mutex_unlock_11;
+      return_value_pthread_mutex_unlock_11=pthread_mutex_unlock((union anonymous_16 *)debug_clients.mutex[(signed long int)debug_prio_intern]);
+      if(!(return_value_pthread_mutex_unlock_11 >= 0))
       {
-        return_value___errno_location$9=__errno_location();
-        return_value_strerror$10=strerror(*return_value___errno_location$9);
-        debug_output((signed char)0, "Error - could not unlock mutex (debug_output): %s \n", return_value_strerror$10);
+        return_value___errno_location_9=__errno_location();
+        return_value_strerror_10=strerror(*return_value___errno_location_9);
+        debug_output((signed char)0, "Error - could not unlock mutex (debug_output): %s \n", return_value_strerror_10);
       }
 
     }
@@ -6299,15 +6299,15 @@ void del_default_route(void)
 // file linux/tun.c line 154
 signed char del_dev_tun(signed int fd)
 {
-  signed int return_value_ioctl$3;
-  return_value_ioctl$3=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(84 << 0 + 8) | (unsigned int)(203 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, 0);
-  if(!(return_value_ioctl$3 >= 0))
+  signed int return_value_ioctl_3;
+  return_value_ioctl_3=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(84 << 0 + 8) | (unsigned int)(203 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, 0);
+  if(!(return_value_ioctl_3 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    debug_output((signed char)0, "Error - can't delete tun device: %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    debug_output((signed char)0, "Error - can't delete tun device: %s\n", return_value_strerror_2);
     return (signed char)-1;
   }
 
@@ -6321,8 +6321,8 @@ void del_gw_interface(void)
 {
   struct batman_if *batman_if = (struct batman_if *)if_list.next;
   struct batgat_ioc_args args;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   if(batman_if->udp_tunnel_sock >= 1)
   {
     if(!(batman_if->listen_thread_id == 0ul))
@@ -6332,16 +6332,16 @@ void del_gw_interface(void)
       if(!(batman_if->dev == ((char *)NULL)))
       {
         strncpy(args.dev_name, batman_if->dev, (unsigned long int)(16 - 1));
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(batman_if->dev);
-        args.universal = (unsigned int)return_value_strlen$1;
-        signed int return_value_ioctl$4;
-        return_value_ioctl$4=ioctl(batman_if->udp_tunnel_sock, (unsigned long int)2, &args);
-        if(!(return_value_ioctl$4 >= 0))
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(batman_if->dev);
+        args.universal = (unsigned int)return_value_strlen_1;
+        signed int return_value_ioctl_4;
+        return_value_ioctl_4=ioctl(batman_if->udp_tunnel_sock, (unsigned long int)2, &args);
+        if(!(return_value_ioctl_4 >= 0))
         {
-          return_value___errno_location$2=__errno_location();
-          return_value_strerror$3=strerror(*return_value___errno_location$2);
-          debug_output((signed char)0, "Error - can't remove device %s from kernel module : %s\n", batman_if->dev, return_value_strerror$3);
+          return_value___errno_location_2=__errno_location();
+          return_value_strerror_3=strerror(*return_value___errno_location_2);
+          debug_output((signed char)0, "Error - can't remove device %s from kernel module : %s\n", batman_if->dev, return_value_strerror_3);
         }
 
       }
@@ -6413,7 +6413,7 @@ signed int flush_routes_rules(signed char is_rule)
   struct nlmsghdr *nh;
   struct rtmsg *rtm;
   /* flush_routes_rules::1::tag-req_s */
-struct req_s$1
+struct req_s_1
 {
   // rtm
   struct rtmsg rtm;
@@ -6421,21 +6421,21 @@ struct req_s$1
 
 /* */
   ;
-  struct req_s$1 *req;
-  char req_buf[(signed long int)(sizeof(struct req_s$1) * 2 + 4) /*28l*/ ];
+  struct req_s_1 *req;
+  char req_buf[(signed long int)(sizeof(struct req_s_1) * 2 + 4) /*28l*/ ];
   struct rtattr *rtap;
   iov.iov_base = (void *)buf;
   iov.iov_len = sizeof(char [8192l]) /*8192ul*/ ;
   nh = (struct nlmsghdr *)req_buf;
-  req = (struct req_s$1 *)(void *)((char *)req_buf + (signed long int)(0 + (signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1))));
+  req = (struct req_s_1 *)(void *)((char *)req_buf + (signed long int)(0 + (signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1))));
   memset((void *)&nladdr, 0, sizeof(struct sockaddr_nl) /*12ul*/ );
-  memset((void *)req_buf, 0, sizeof(struct req_s$1) /*12ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)));
+  memset((void *)req_buf, 0, sizeof(struct req_s_1) /*12ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)));
   memset((void *)&msg, 0, sizeof(struct msghdr) /*56ul*/ );
   nladdr.nl_family = (unsigned short int)16;
-  nh->nlmsg_len = (unsigned int)(sizeof(struct req_s$1) /*12ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)));
-  signed int return_value_getpid$1;
-  return_value_getpid$1=getpid();
-  nh->nlmsg_pid = (unsigned int)return_value_getpid$1;
+  nh->nlmsg_len = (unsigned int)(sizeof(struct req_s_1) /*12ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)));
+  signed int return_value_getpid_1;
+  return_value_getpid_1=getpid();
+  nh->nlmsg_pid = (unsigned int)return_value_getpid_1;
   req->rtm.rtm_family = (unsigned char)2;
   nh->nlmsg_flags = (unsigned short int)(1 | 0x100 | 0x200);
   nh->nlmsg_type = (unsigned short int)(is_rule != 0 ? 34 : 26);
@@ -6443,23 +6443,23 @@ struct req_s$1
   netlink_sock=socket(16, 2, 0);
   if(!(netlink_sock >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    debug_output((signed char)0, "Error - can't create netlink socket for flushing the routing table: %s\n", return_value_strerror$3);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    debug_output((signed char)0, "Error - can't create netlink socket for flushing the routing table: %s\n", return_value_strerror_3);
     return -1;
   }
 
-  signed long int return_value_sendto$6;
-  return_value_sendto$6=sendto(netlink_sock, (const void *)req_buf, (unsigned long int)nh->nlmsg_len, 0, (struct sockaddr *)&nladdr, (unsigned int)sizeof(struct sockaddr_nl) /*12ul*/ );
-  if(!(return_value_sendto$6 >= 0l))
+  signed long int return_value_sendto_6;
+  return_value_sendto_6=sendto(netlink_sock, (const void *)req_buf, (unsigned long int)nh->nlmsg_len, 0, (struct sockaddr *)&nladdr, (unsigned int)sizeof(struct sockaddr_nl) /*12ul*/ );
+  if(!(return_value_sendto_6 >= 0l))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    debug_output((signed char)0, "Error - can't send message to kernel via netlink socket for flushing the routing table: %s\n", return_value_strerror$5);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    debug_output((signed char)0, "Error - can't send message to kernel via netlink socket for flushing the routing table: %s\n", return_value_strerror_5);
     close(netlink_sock);
     return -1;
   }
@@ -6469,9 +6469,9 @@ struct req_s$1
   msg.msg_iov = &iov;
   msg.msg_iovlen = (unsigned long int)1;
   msg.msg_control = (void *)0;
-  signed long int return_value_recvmsg$7;
-  return_value_recvmsg$7=recvmsg(netlink_sock, &msg, 0);
-  len = (unsigned long int)return_value_recvmsg$7;
+  signed long int return_value_recvmsg_7;
+  return_value_recvmsg_7=recvmsg(netlink_sock, &msg, 0);
+  len = (unsigned long int)return_value_recvmsg_7;
   nh = (struct nlmsghdr *)buf;
   while(len >= sizeof(struct nlmsghdr) /*16ul*/ )
   {
@@ -6488,9 +6488,9 @@ struct req_s$1
     {
       if(!(((struct nlmsgerr *)((char *)nh + 16l))->error == 0))
       {
-        char *return_value_strerror$8;
-        return_value_strerror$8=strerror(-((struct nlmsgerr *)(void *)((char *)nh + (signed long int)(0 + (signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)))))->error);
-        debug_output((signed char)0, "Error - can't flush %s: %s \n", is_rule != 0 ? "routing rules" : "routing table", return_value_strerror$8);
+        char *return_value_strerror_8;
+        return_value_strerror_8=strerror(-((struct nlmsgerr *)(void *)((char *)nh + (signed long int)(0 + (signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)))))->error);
+        debug_output((signed char)0, "Error - can't flush %s: %s \n", is_rule != 0 ? "routing rules" : "routing table", return_value_strerror_8);
         close(netlink_sock);
         return -1;
       }
@@ -6638,9 +6638,9 @@ static void generate_vis_packet(void)
   }
 
   vis_packet_size = (unsigned short int)sizeof(struct vis_packet) /*7ul*/ ;
-  void *return_value_debugMalloc$1;
-  return_value_debugMalloc$1=debugMalloc((unsigned int)vis_packet_size, 104);
-  vis_packet = (unsigned char *)return_value_debugMalloc$1;
+  void *return_value_debugMalloc_1;
+  return_value_debugMalloc_1=debugMalloc((unsigned int)vis_packet_size, 104);
+  vis_packet = (unsigned char *)return_value_debugMalloc_1;
   memcpy((void *)&((struct vis_packet *)vis_packet)->sender_ip, (const void *)(unsigned char *)&((struct batman_if *)if_list.next)->addr.sin_addr.s_addr, (unsigned long int)4);
   ((struct vis_packet *)vis_packet)->version = (unsigned char)23;
   ((struct vis_packet *)vis_packet)->gw_class = gateway_class;
@@ -6659,9 +6659,9 @@ static void generate_vis_packet(void)
         if((signed int)orig_node->router->tq_avg >= 1)
         {
           vis_packet_size = vis_packet_size + (unsigned short int)sizeof(struct vis_data) /*6ul*/ ;
-          void *return_value_debugRealloc$2;
-          return_value_debugRealloc$2=debugRealloc((void *)vis_packet, (unsigned int)vis_packet_size, 105);
-          vis_packet = (unsigned char *)return_value_debugRealloc$2;
+          void *return_value_debugRealloc_2;
+          return_value_debugRealloc_2=debugRealloc((void *)vis_packet, (unsigned int)vis_packet_size, 105);
+          vis_packet = (unsigned char *)return_value_debugRealloc_2;
           vis_data = (struct vis_data *)((vis_packet + (signed long int)vis_packet_size) - (signed long int)sizeof(struct vis_data) /*6ul*/ );
           memcpy((void *)&vis_data->ip, (const void *)(unsigned char *)&orig_node->orig, (unsigned long int)4);
           vis_data->data = orig_node->router->tq_avg;
@@ -6683,9 +6683,9 @@ static void generate_vis_packet(void)
       if(!(((struct vis_packet *)vis_packet)->sender_ip == batman_if->addr.sin_addr.s_addr))
       {
         vis_packet_size = vis_packet_size + (unsigned short int)sizeof(struct vis_data) /*6ul*/ ;
-        void *return_value_debugRealloc$3;
-        return_value_debugRealloc$3=debugRealloc((void *)vis_packet, (unsigned int)vis_packet_size, 106);
-        vis_packet = (unsigned char *)return_value_debugRealloc$3;
+        void *return_value_debugRealloc_3;
+        return_value_debugRealloc_3=debugRealloc((void *)vis_packet, (unsigned int)vis_packet_size, 106);
+        vis_packet = (unsigned char *)return_value_debugRealloc_3;
         vis_data = (struct vis_data *)((vis_packet + (signed long int)vis_packet_size) - (signed long int)sizeof(struct vis_data) /*6ul*/ );
         memcpy((void *)&vis_data->ip, (const void *)(unsigned char *)&batman_if->addr.sin_addr.s_addr, (unsigned long int)4);
         vis_data->data = (unsigned char)0;
@@ -6762,9 +6762,9 @@ unsigned char get_bit_status(unsigned long int *seq_bits, unsigned short int las
 // file os.h line 77
 signed int get_forwarding(void)
 {
-  signed int return_value_get_integer_file$1;
-  return_value_get_integer_file$1=get_integer_file("/proc/sys/net/ipv4/ip_forward");
-  return return_value_get_integer_file$1;
+  signed int return_value_get_integer_file_1;
+  return_value_get_integer_file_1=get_integer_file("/proc/sys/net/ipv4/ip_forward");
+  return return_value_get_integer_file_1;
 }
 
 // get_gw_class
@@ -6785,9 +6785,9 @@ unsigned char get_gw_class(signed int down, signed int up)
     for( ; !((signed int)part >= 16); part = part + 1)
     {
       tdown = 32 * ((signed int)sbit + 2) * (1 << (signed int)part);
-      signed int return_value_abs$1;
-      return_value_abs$1=abs(tdown - down);
-      if(!(return_value_abs$1 >= difference))
+      signed int return_value_abs_1;
+      return_value_abs_1=abs(tdown - down);
+      if(!(return_value_abs_1 >= difference))
       {
         gw_class = (unsigned char)(((signed int)sbit << 7) + ((signed int)part << 3));
         difference=abs(tdown - down);
@@ -6801,9 +6801,9 @@ unsigned char get_gw_class(signed int down, signed int up)
   for( ; !((signed int)part >= 8); part = part + 1)
   {
     tup = (((signed int)part + 1) * mdown) / 8;
-    signed int return_value_abs$2;
-    return_value_abs$2=abs(tup - up);
-    if(!(return_value_abs$2 >= difference))
+    signed int return_value_abs_2;
+    return_value_abs_2=abs(tup - up);
+    if(!(return_value_abs_2 >= difference))
     {
       gw_class = (unsigned char)((signed int)gw_class & 0xF8 | (signed int)part);
       difference=abs(tup - up);
@@ -6855,17 +6855,17 @@ static struct gw_client * get_ip_addr(struct sockaddr_in *client_addr, struct ha
   struct list_head *list_pos;
   struct list_head *list_pos_tmp;
   struct hashtable_t *swaphash;
-  void *return_value_hash_find$1;
-  return_value_hash_find$1=hash_find(*wip_hash, (void *)&client_addr->sin_addr.s_addr);
-  gw_client = (struct gw_client *)return_value_hash_find$1;
+  void *return_value_hash_find_1;
+  return_value_hash_find_1=hash_find(*wip_hash, (void *)&client_addr->sin_addr.s_addr);
+  gw_client = (struct gw_client *)return_value_hash_find_1;
   if(!(gw_client == ((struct gw_client *)NULL)))
     return gw_client;
 
   else
   {
-    void *return_value_debugMalloc$2;
-    return_value_debugMalloc$2=debugMalloc((unsigned int)sizeof(struct gw_client) /*20ul*/ , 208);
-    gw_client = (struct gw_client *)return_value_debugMalloc$2;
+    void *return_value_debugMalloc_2;
+    return_value_debugMalloc_2=debugMalloc((unsigned int)sizeof(struct gw_client) /*20ul*/ , 208);
+    gw_client = (struct gw_client *)return_value_debugMalloc_2;
     gw_client->wip_addr = client_addr->sin_addr.s_addr;
     gw_client->client_port = client_addr->sin_port;
     gw_client->last_keep_alive=get_time_msec();
@@ -6930,9 +6930,9 @@ struct orig_node * get_orig_node(unsigned int addr)
   struct hashtable_t *swaphash;
   char orig_str[16l];
   prof_start(4);
-  void *return_value_hash_find$1;
-  return_value_hash_find$1=hash_find(orig_hash, (void *)&addr);
-  orig_node = (struct orig_node *)return_value_hash_find$1;
+  void *return_value_hash_find_1;
+  return_value_hash_find_1=hash_find(orig_hash, (void *)&addr);
+  orig_node = (struct orig_node *)return_value_hash_find_1;
   if(!(orig_node == ((struct orig_node *)NULL)))
   {
     prof_stop(4);
@@ -6943,22 +6943,22 @@ struct orig_node * get_orig_node(unsigned int addr)
   {
     addr_to_string(addr, orig_str, 16);
     debug_output((signed char)4, "Creating new originator: %s \n", (const void *)orig_str);
-    void *return_value_debugMalloc$2;
-    return_value_debugMalloc$2=debugMalloc((unsigned int)sizeof(struct orig_node) /*88ul*/ , 401);
-    orig_node = (struct orig_node *)return_value_debugMalloc$2;
+    void *return_value_debugMalloc_2;
+    return_value_debugMalloc_2=debugMalloc((unsigned int)sizeof(struct orig_node) /*88ul*/ , 401);
+    orig_node = (struct orig_node *)return_value_debugMalloc_2;
     memset((void *)orig_node, 0, sizeof(struct orig_node) /*88ul*/ );
     orig_node->neigh_list.next = (struct list_head *)&orig_node->neigh_list;
     orig_node->neigh_list.prev = (struct list_head *)&orig_node->neigh_list;
     orig_node->orig = addr;
     orig_node->router = (struct neigh_node *)(void *)0;
     orig_node->batman_if = (struct batman_if *)(void *)0;
-    void *return_value_debugMalloc$3;
-    return_value_debugMalloc$3=debugMalloc((unsigned int)((unsigned long int)found_ifs * sizeof(unsigned long int) /*8ul*/  * (unsigned long int)num_words), 404);
-    orig_node->bcast_own = (unsigned long int *)return_value_debugMalloc$3;
+    void *return_value_debugMalloc_3;
+    return_value_debugMalloc_3=debugMalloc((unsigned int)((unsigned long int)found_ifs * sizeof(unsigned long int) /*8ul*/  * (unsigned long int)num_words), 404);
+    orig_node->bcast_own = (unsigned long int *)return_value_debugMalloc_3;
     memset((void *)orig_node->bcast_own, 0, (unsigned long int)found_ifs * sizeof(unsigned long int) /*8ul*/  * (unsigned long int)num_words);
-    void *return_value_debugMalloc$4;
-    return_value_debugMalloc$4=debugMalloc((unsigned int)((unsigned long int)found_ifs * sizeof(unsigned char) /*1ul*/ ), 405);
-    orig_node->bcast_own_sum = (unsigned char *)return_value_debugMalloc$4;
+    void *return_value_debugMalloc_4;
+    return_value_debugMalloc_4=debugMalloc((unsigned int)((unsigned long int)found_ifs * sizeof(unsigned char) /*1ul*/ ), 405);
+    orig_node->bcast_own_sum = (unsigned char *)return_value_debugMalloc_4;
     memset((void *)orig_node->bcast_own_sum, 0, (unsigned long int)found_ifs * sizeof(unsigned char) /*1ul*/ );
     hash_add(orig_hash, (void *)orig_node);
     if(!(orig_hash->size >= 4 * orig_hash->elements))
@@ -7051,16 +7051,16 @@ static signed char get_tun_ip(struct sockaddr_in *gw_addr, signed int udp_sock, 
   signed int buff_len;
   unsigned int addr_len;
   signed char i = (signed char)12;
-  struct anonymous$15 wait_sockets;
+  struct anonymous_15 wait_sockets;
   addr_len = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
   memset((void *)&buff, 0, sizeof(unsigned char [100l]) /*100ul*/ );
-  signed char return_value_is_aborted$1;
-  signed int *return_value___errno_location$7;
-  signed long int return_value_recvfrom$10;
+  signed char return_value_is_aborted_1;
+  signed int *return_value___errno_location_7;
+  signed long int return_value_recvfrom_10;
   do
   {
-    return_value_is_aborted$1=is_aborted();
-    if(!(return_value_is_aborted$1 == 0))
+    return_value_is_aborted_1=is_aborted();
+    if(!(return_value_is_aborted_1 == 0))
       break;
 
     if(curr_gateway == ((struct gw_node *)NULL))
@@ -7070,15 +7070,15 @@ static signed char get_tun_ip(struct sockaddr_in *gw_addr, signed int udp_sock, 
       break;
 
     buff[(signed long int)0] = (unsigned char)0x02;
-    signed long int return_value_sendto$4;
-    return_value_sendto$4=sendto(udp_sock, (const void *)buff, sizeof(unsigned char [100l]) /*100ul*/ , 0, (struct sockaddr *)gw_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-    if(!(return_value_sendto$4 >= 0l))
+    signed long int return_value_sendto_4;
+    return_value_sendto_4=sendto(udp_sock, (const void *)buff, sizeof(unsigned char [100l]) /*100ul*/ , 0, (struct sockaddr *)gw_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+    if(!(return_value_sendto_4 >= 0l))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      debug_output((signed char)0, "Error - can't send ip request to gateway: %s \n", return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      debug_output((signed char)0, "Error - can't send ip request to gateway: %s \n", return_value_strerror_3);
       goto next_try;
     }
 
@@ -7088,21 +7088,21 @@ static signed char get_tun_ip(struct sockaddr_in *gw_addr, signed int udp_sock, 
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$15) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&wait_sockets)->fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_15) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&wait_sockets)->fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     (&wait_sockets)->fds_bits[(signed long int)(udp_sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wait_sockets)->fds_bits[(signed long int)(udp_sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << udp_sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-    res=select(udp_sock + 1, &wait_sockets, (struct anonymous$15 *)(void *)0, (struct anonymous$15 *)(void *)0, &tv);
+    res=select(udp_sock + 1, &wait_sockets, (struct anonymous_15 *)(void *)0, (struct anonymous_15 *)(void *)0, &tv);
     if(!(res >= 0))
     {
-      return_value___errno_location$7=__errno_location();
-      if(!(*return_value___errno_location$7 == 4))
+      return_value___errno_location_7=__errno_location();
+      if(!(*return_value___errno_location_7 == 4))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        char *return_value_strerror$6;
-        return_value_strerror$6=strerror(*return_value___errno_location$5);
-        debug_output((signed char)0, "Error - can't select (get_tun_ip): %s \n", return_value_strerror$6);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        char *return_value_strerror_6;
+        return_value_strerror_6=strerror(*return_value___errno_location_5);
+        debug_output((signed char)0, "Error - can't select (get_tun_ip): %s \n", return_value_strerror_6);
         break;
       }
 
@@ -7112,15 +7112,15 @@ static signed char get_tun_ip(struct sockaddr_in *gw_addr, signed int udp_sock, 
     {
       if(!((wait_sockets.fds_bits[(signed long int)(udp_sock / 8)] & (signed long int)(1UL << udp_sock % 8)) == 0l))
       {
-        return_value_recvfrom$10=recvfrom(udp_sock, (void *)buff, sizeof(unsigned char [100l]) /*100ul*/  - (unsigned long int)1, 0, (struct sockaddr *)&sender_addr, &addr_len);
-        buff_len = (signed int)return_value_recvfrom$10;
+        return_value_recvfrom_10=recvfrom(udp_sock, (void *)buff, sizeof(unsigned char [100l]) /*100ul*/  - (unsigned long int)1, 0, (struct sockaddr *)&sender_addr, &addr_len);
+        buff_len = (signed int)return_value_recvfrom_10;
         if(!(buff_len >= 0))
         {
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          char *return_value_strerror$9;
-          return_value_strerror$9=strerror(*return_value___errno_location$8);
-          debug_output((signed char)0, "Error - can't receive ip request: %s \n", return_value_strerror$9);
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          char *return_value_strerror_9;
+          return_value_strerror_9=strerror(*return_value___errno_location_8);
+          debug_output((signed char)0, "Error - can't receive ip request: %s \n", return_value_strerror_9);
           goto next_try;
         }
 
@@ -7166,7 +7166,7 @@ static unsigned int get_tunneled_sender_ip(const unsigned char *buff)
 // file posix/tunnel.c line 90
 static unsigned short int get_tunneled_udpdest(const unsigned char *buff)
 {
-  return ((struct udphdr *)(buff + (signed long int)1 + (signed long int)((signed int)((struct iphdr *)(buff + (signed long int)1))->ihl * 4)))->$anon0.$anon1.dest;
+  return ((struct udphdr *)(buff + (signed long int)1 + (signed long int)((signed int)((struct iphdr *)(buff + (signed long int)1))->ihl * 4)))->_anon0._anon1.dest;
 }
 
 // gw_listen
@@ -7195,8 +7195,8 @@ void * gw_listen(void *arg)
   struct hashtable_t *wip_hash;
   struct hashtable_t *vip_hash;
   struct list_head_first free_ip_list;
-  struct anonymous$15 wait_sockets;
-  struct anonymous$15 tmp_wait_sockets;
+  struct anonymous_15 wait_sockets;
+  struct anonymous_15 tmp_wait_sockets;
   struct hash_it_t *hashit;
   struct free_ip *free_ip;
   struct list_head *list_pos;
@@ -7215,25 +7215,25 @@ void * gw_listen(void *arg)
   client_addr.sin_port=htons((unsigned short int)(4305 + 1));
   free_ip_list.next = (struct list_head *)&free_ip_list;
   free_ip_list.prev = (struct list_head *)&free_ip_list;
-  signed char return_value_add_dev_tun$1;
-  return_value_add_dev_tun$1=add_dev_tun(batman_if, *((unsigned int *)my_tun_ip), tun_dev, sizeof(char [16l]) /*16ul*/ , &tun_fd, &tun_ifi);
-  signed int tmp_if_expr$2;
-  signed char return_value_is_aborted$3;
-  signed int *return_value___errno_location$6;
-  signed long int return_value_recvfrom$7;
-  void *return_value_hash_find$8;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$9;
-  signed long int return_value_write$13;
-  signed int *return_value___errno_location$11;
-  char *return_value_strerror$12;
-  void *return_value_hash_find$14;
-  signed long int return_value_sendto$17;
-  signed long int return_value_sendto$20;
-  signed long int return_value_read$24;
-  signed int *return_value___errno_location$26;
-  char *return_value_strerror$27;
-  if(!((signed int)return_value_add_dev_tun$1 >= 0))
+  signed char return_value_add_dev_tun_1;
+  return_value_add_dev_tun_1=add_dev_tun(batman_if, *((unsigned int *)my_tun_ip), tun_dev, sizeof(char [16l]) /*16ul*/ , &tun_fd, &tun_ifi);
+  signed int tmp_if_expr_2;
+  signed char return_value_is_aborted_3;
+  signed int *return_value___errno_location_6;
+  signed long int return_value_recvfrom_7;
+  void *return_value_hash_find_8;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_9;
+  signed long int return_value_write_13;
+  signed int *return_value___errno_location_11;
+  char *return_value_strerror_12;
+  void *return_value_hash_find_14;
+  signed long int return_value_sendto_17;
+  signed long int return_value_sendto_20;
+  signed long int return_value_read_24;
+  signed int *return_value___errno_location_26;
+  char *return_value_strerror_27;
+  if(!((signed int)return_value_add_dev_tun_1 >= 0))
     return (void *)0;
 
   else
@@ -7258,21 +7258,21 @@ void * gw_listen(void *arg)
         {
           signed int __d0;
           signed int __d1;
-          asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$15) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&wait_sockets)->fds_bits[(signed long int)0]) : "memory");
+          asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_15) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&wait_sockets)->fds_bits[(signed long int)0]) : "memory");
         }
         while((_Bool)0);
         (&wait_sockets)->fds_bits[(signed long int)(batman_if->udp_tunnel_sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wait_sockets)->fds_bits[(signed long int)(batman_if->udp_tunnel_sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << batman_if->udp_tunnel_sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
         (&wait_sockets)->fds_bits[(signed long int)(tun_fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wait_sockets)->fds_bits[(signed long int)(tun_fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << tun_fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
         if(!(tun_fd >= batman_if->udp_tunnel_sock))
-          tmp_if_expr$2 = batman_if->udp_tunnel_sock;
+          tmp_if_expr_2 = batman_if->udp_tunnel_sock;
 
         else
-          tmp_if_expr$2 = tun_fd;
-        max_sock = tmp_if_expr$2;
+          tmp_if_expr_2 = tun_fd;
+        max_sock = tmp_if_expr_2;
         do
         {
-          return_value_is_aborted$3=is_aborted();
-          if(!(return_value_is_aborted$3 == 0))
+          return_value_is_aborted_3=is_aborted();
+          if(!(return_value_is_aborted_3 == 0))
             break;
 
           if(!((signed int)gateway_class >= 1))
@@ -7280,19 +7280,19 @@ void * gw_listen(void *arg)
 
           tv.tv_sec = (signed long int)0;
           tv.tv_usec = (signed long int)250;
-          memcpy((void *)&tmp_wait_sockets, (const void *)&wait_sockets, sizeof(struct anonymous$15) /*128ul*/ );
-          res=select(max_sock + 1, &tmp_wait_sockets, (struct anonymous$15 *)(void *)0, (struct anonymous$15 *)(void *)0, &tv);
+          memcpy((void *)&tmp_wait_sockets, (const void *)&wait_sockets, sizeof(struct anonymous_15) /*128ul*/ );
+          res=select(max_sock + 1, &tmp_wait_sockets, (struct anonymous_15 *)(void *)0, (struct anonymous_15 *)(void *)0, &tv);
           current_time=get_time_msec();
           if(!(res >= 0))
           {
-            return_value___errno_location$6=__errno_location();
-            if(!(*return_value___errno_location$6 == 4))
+            return_value___errno_location_6=__errno_location();
+            if(!(*return_value___errno_location_6 == 4))
             {
-              signed int *return_value___errno_location$4;
-              return_value___errno_location$4=__errno_location();
-              char *return_value_strerror$5;
-              return_value_strerror$5=strerror(*return_value___errno_location$4);
-              debug_output((signed char)0, "Error - can't select (gw_listen): %s \n", return_value_strerror$5);
+              signed int *return_value___errno_location_4;
+              return_value___errno_location_4=__errno_location();
+              char *return_value_strerror_5;
+              return_value_strerror_5=strerror(*return_value___errno_location_4);
+              debug_output((signed char)0, "Error - can't select (gw_listen): %s \n", return_value_strerror_5);
               break;
             }
 
@@ -7304,8 +7304,8 @@ void * gw_listen(void *arg)
             {
               do
               {
-                return_value_recvfrom$7=recvfrom(batman_if->udp_tunnel_sock, (void *)buff, sizeof(unsigned char [1501l]) /*1501ul*/  - (unsigned long int)1, 0, (struct sockaddr *)&addr, &addr_len);
-                buff_len = (signed int)return_value_recvfrom$7;
+                return_value_recvfrom_7=recvfrom(batman_if->udp_tunnel_sock, (void *)buff, sizeof(unsigned char [1501l]) /*1501ul*/  - (unsigned long int)1, 0, (struct sockaddr *)&addr, &addr_len);
+                buff_len = (signed int)return_value_recvfrom_7;
                 if(!(buff_len >= 1))
                   break;
 
@@ -7320,21 +7320,21 @@ void * gw_listen(void *arg)
                   {
                     case 0x01:
                     {
-                      return_value_hash_find$8=hash_find(vip_hash, (void *)(buff + (signed long int)9));
-                      gw_client = (struct gw_client *)return_value_hash_find$8;
+                      return_value_hash_find_8=hash_find(vip_hash, (void *)(buff + (signed long int)9));
+                      gw_client = (struct gw_client *)return_value_hash_find_8;
                       if(gw_client == ((struct gw_client *)NULL))
-                        tmp_if_expr$10 = (_Bool)1;
+                        tmp_if_expr_10 = (_Bool)1;
 
                       else
                       {
                         if(!(gw_client->wip_addr == addr.sin_addr.s_addr))
-                          tmp_if_expr$9 = (signed int)gw_client->nat_warn == 0 ? (_Bool)1 : (_Bool)0;
+                          tmp_if_expr_9 = (signed int)gw_client->nat_warn == 0 ? (_Bool)1 : (_Bool)0;
 
                         else
-                          tmp_if_expr$9 = (_Bool)0;
-                        tmp_if_expr$10 = tmp_if_expr$9 ? (_Bool)1 : (_Bool)0;
+                          tmp_if_expr_9 = (_Bool)0;
+                        tmp_if_expr_10 = tmp_if_expr_9 ? (_Bool)1 : (_Bool)0;
                       }
-                      if(tmp_if_expr$10)
+                      if(tmp_if_expr_10)
                       {
                         buff[(signed long int)0] = (unsigned char)0x03;
                         addr_to_string(addr.sin_addr.s_addr, str, (signed int)sizeof(char [16l]) /*16ul*/ );
@@ -7351,20 +7351,20 @@ void * gw_listen(void *arg)
                         gw_client->nat_warn = gw_client->nat_warn + 1;
                       }
 
-                      return_value_write$13=write(tun_fd, (const void *)(buff + (signed long int)1), (unsigned long int)(buff_len - 1));
-                      if(!(return_value_write$13 >= 0l))
+                      return_value_write_13=write(tun_fd, (const void *)(buff + (signed long int)1), (unsigned long int)(buff_len - 1));
+                      if(!(return_value_write_13 >= 0l))
                       {
-                        return_value___errno_location$11=__errno_location();
-                        return_value_strerror$12=strerror(*return_value___errno_location$11);
-                        debug_output((signed char)0, "Error - can't write packet into tun: %s\n", return_value_strerror$12);
+                        return_value___errno_location_11=__errno_location();
+                        return_value_strerror_12=strerror(*return_value___errno_location_11);
+                        debug_output((signed char)0, "Error - can't write packet into tun: %s\n", return_value_strerror_12);
                       }
 
                       break;
                     }
                     case 0x04:
                     {
-                      return_value_hash_find$14=hash_find(wip_hash, (void *)&addr.sin_addr.s_addr);
-                      gw_client = (struct gw_client *)return_value_hash_find$14;
+                      return_value_hash_find_14=hash_find(wip_hash, (void *)&addr.sin_addr.s_addr);
+                      gw_client = (struct gw_client *)return_value_hash_find_14;
                       buff[(signed long int)0] = (unsigned char)0x03;
                       if(!(gw_client == ((struct gw_client *)NULL)))
                       {
@@ -7373,14 +7373,14 @@ void * gw_listen(void *arg)
                       }
 
                       addr_to_string(addr.sin_addr.s_addr, str, (signed int)sizeof(char [16l]) /*16ul*/ );
-                      return_value_sendto$17=sendto(batman_if->udp_tunnel_sock, (const void *)buff, (unsigned long int)100, 0, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-                      if(!(return_value_sendto$17 >= 0l))
+                      return_value_sendto_17=sendto(batman_if->udp_tunnel_sock, (const void *)buff, (unsigned long int)100, 0, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+                      if(!(return_value_sendto_17 >= 0l))
                       {
-                        signed int *return_value___errno_location$15;
-                        return_value___errno_location$15=__errno_location();
-                        char *return_value_strerror$16;
-                        return_value_strerror$16=strerror(*return_value___errno_location$15);
-                        debug_output((signed char)0, "Error - can't send %s to client (%s): %s \n", (signed int)buff[(signed long int)0] == 0x05 ? "keep alive reply" : "invalid ip information", (const void *)str, return_value_strerror$16);
+                        signed int *return_value___errno_location_15;
+                        return_value___errno_location_15=__errno_location();
+                        char *return_value_strerror_16;
+                        return_value_strerror_16=strerror(*return_value___errno_location_15);
+                        debug_output((signed char)0, "Error - can't send %s to client (%s): %s \n", (signed int)buff[(signed long int)0] == 0x05 ? "keep alive reply" : "invalid ip information", (const void *)str, return_value_strerror_16);
                         break;
                       }
 
@@ -7391,15 +7391,15 @@ void * gw_listen(void *arg)
                     {
                       gw_client=get_ip_addr(&addr, &wip_hash, &vip_hash, &free_ip_list, next_free_ip);
                       memcpy((void *)(buff + (signed long int)1), (const void *)(char *)&gw_client->vip_addr, (unsigned long int)4);
-                      return_value_sendto$20=sendto(batman_if->udp_tunnel_sock, (const void *)buff, (unsigned long int)100, 0, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-                      if(!(return_value_sendto$20 >= 0l))
+                      return_value_sendto_20=sendto(batman_if->udp_tunnel_sock, (const void *)buff, (unsigned long int)100, 0, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+                      if(!(return_value_sendto_20 >= 0l))
                       {
                         addr_to_string(addr.sin_addr.s_addr, str, (signed int)sizeof(char [16l]) /*16ul*/ );
-                        signed int *return_value___errno_location$18;
-                        return_value___errno_location$18=__errno_location();
-                        char *return_value_strerror$19;
-                        return_value_strerror$19=strerror(*return_value___errno_location$18);
-                        debug_output((signed char)0, "Error - can't send requested ip to client (%s): %s \n", (const void *)str, return_value_strerror$19);
+                        signed int *return_value___errno_location_18;
+                        return_value___errno_location_18=__errno_location();
+                        char *return_value_strerror_19;
+                        return_value_strerror_19=strerror(*return_value___errno_location_18);
+                        debug_output((signed char)0, "Error - can't send requested ip to client (%s): %s \n", (const void *)str, return_value_strerror_19);
                         break;
                       }
 
@@ -7410,15 +7410,15 @@ void * gw_listen(void *arg)
                   }
               }
               while((_Bool)1);
-              signed int *return_value___errno_location$23;
-              return_value___errno_location$23=__errno_location();
-              if(!(*return_value___errno_location$23 == 11))
+              signed int *return_value___errno_location_23;
+              return_value___errno_location_23=__errno_location();
+              if(!(*return_value___errno_location_23 == 11))
               {
-                signed int *return_value___errno_location$21;
-                return_value___errno_location$21=__errno_location();
-                char *return_value_strerror$22;
-                return_value_strerror$22=strerror(*return_value___errno_location$21);
-                debug_output((signed char)0, "Error - gateway can't receive packet: %s\n", return_value_strerror$22);
+                signed int *return_value___errno_location_21;
+                return_value___errno_location_21=__errno_location();
+                char *return_value_strerror_22;
+                return_value_strerror_22=strerror(*return_value___errno_location_21);
+                debug_output((signed char)0, "Error - gateway can't receive packet: %s\n", return_value_strerror_22);
                 break;
               }
 
@@ -7429,26 +7429,26 @@ void * gw_listen(void *arg)
               {
                 do
                 {
-                  return_value_read$24=read(tun_fd, (void *)(buff + (signed long int)1), sizeof(unsigned char [1501l]) /*1501ul*/  - (unsigned long int)2);
-                  buff_len = (signed int)return_value_read$24;
+                  return_value_read_24=read(tun_fd, (void *)(buff + (signed long int)1), sizeof(unsigned char [1501l]) /*1501ul*/  - (unsigned long int)2);
+                  buff_len = (signed int)return_value_read_24;
                   if(!(buff_len >= 1))
                     break;
 
-                  void *return_value_hash_find$25;
-                  return_value_hash_find$25=hash_find(vip_hash, (void *)(buff + (signed long int)13));
-                  gw_client = (struct gw_client *)return_value_hash_find$25;
+                  void *return_value_hash_find_25;
+                  return_value_hash_find_25=hash_find(vip_hash, (void *)(buff + (signed long int)13));
+                  gw_client = (struct gw_client *)return_value_hash_find_25;
                   if(!(gw_client == ((struct gw_client *)NULL)))
                   {
                     client_addr.sin_addr.s_addr = gw_client->wip_addr;
                     client_addr.sin_port = gw_client->client_port;
                     buff[(signed long int)0] = (unsigned char)0x01;
-                    signed long int return_value_sendto$28;
-                    return_value_sendto$28=sendto(batman_if->udp_tunnel_sock, (const void *)buff, (unsigned long int)(buff_len + 1), 0, (struct sockaddr *)&client_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-                    if(!(return_value_sendto$28 >= 0l))
+                    signed long int return_value_sendto_28;
+                    return_value_sendto_28=sendto(batman_if->udp_tunnel_sock, (const void *)buff, (unsigned long int)(buff_len + 1), 0, (struct sockaddr *)&client_addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+                    if(!(return_value_sendto_28 >= 0l))
                     {
-                      return_value___errno_location$26=__errno_location();
-                      return_value_strerror$27=strerror(*return_value___errno_location$26);
-                      debug_output((signed char)0, "Error - can't send data to client (%s): %s \n", (const void *)str, return_value_strerror$27);
+                      return_value___errno_location_26=__errno_location();
+                      return_value_strerror_27=strerror(*return_value___errno_location_26);
+                      debug_output((signed char)0, "Error - can't send data to client (%s): %s \n", (const void *)str, return_value_strerror_27);
                     }
 
                   }
@@ -7460,15 +7460,15 @@ void * gw_listen(void *arg)
                   }
                 }
                 while((_Bool)1);
-                signed int *return_value___errno_location$31;
-                return_value___errno_location$31=__errno_location();
-                if(!(*return_value___errno_location$31 == 11))
+                signed int *return_value___errno_location_31;
+                return_value___errno_location_31=__errno_location();
+                if(!(*return_value___errno_location_31 == 11))
                 {
-                  signed int *return_value___errno_location$29;
-                  return_value___errno_location$29=__errno_location();
-                  char *return_value_strerror$30;
-                  return_value_strerror$30=strerror(*return_value___errno_location$29);
-                  debug_output((signed char)0, "Error - gateway can't read tun data: %s\n", return_value_strerror$30);
+                  signed int *return_value___errno_location_29;
+                  return_value___errno_location_29=__errno_location();
+                  char *return_value_strerror_30;
+                  return_value_strerror_30=strerror(*return_value___errno_location_29);
+                  debug_output((signed char)0, "Error - gateway can't read tun data: %s\n", return_value_strerror_30);
                   break;
                 }
 
@@ -7494,9 +7494,9 @@ void * gw_listen(void *arg)
               {
                 hash_remove_bucket(wip_hash, hashit);
                 hash_remove(vip_hash, (void *)gw_client);
-                void *return_value_debugMalloc$32;
-                return_value_debugMalloc$32=debugMalloc((unsigned int)sizeof(struct neigh_node) /*56ul*/ , 210);
-                free_ip = (struct free_ip *)return_value_debugMalloc$32;
+                void *return_value_debugMalloc_32;
+                return_value_debugMalloc_32=debugMalloc((unsigned int)sizeof(struct neigh_node) /*56ul*/ , 210);
+                free_ip = (struct free_ip *)return_value_debugMalloc_32;
                 do
                   (&free_ip->list)->next = &free_ip->list;
                 while((_Bool)0);
@@ -7557,9 +7557,9 @@ signed int hash_add(struct hashtable_t *hash, void *data)
 {
   signed int ret;
   struct element_t *bucket;
-  void *return_value_debugMalloc$1;
-  return_value_debugMalloc$1=debugMalloc((unsigned int)sizeof(struct element_t) /*16ul*/ , 304);
-  bucket = (struct element_t *)return_value_debugMalloc$1;
+  void *return_value_debugMalloc_1;
+  return_value_debugMalloc_1=debugMalloc((unsigned int)sizeof(struct element_t) /*16ul*/ , 304);
+  bucket = (struct element_t *)return_value_debugMalloc_1;
   if(bucket == ((struct element_t *)NULL))
     return -1;
 
@@ -7678,9 +7678,9 @@ struct hash_it_t * hash_iterate(struct hashtable_t *hash, struct hash_it_t *iter
   struct hash_it_t *iter;
   if(iter_in == ((struct hash_it_t *)NULL))
   {
-    void *return_value_debugMalloc$1;
-    return_value_debugMalloc$1=debugMalloc((unsigned int)sizeof(struct hash_it_t) /*32ul*/ , 301);
-    iter = (struct hash_it_t *)return_value_debugMalloc$1;
+    void *return_value_debugMalloc_1;
+    return_value_debugMalloc_1=debugMalloc((unsigned int)sizeof(struct hash_it_t) /*32ul*/ , 301);
+    iter = (struct hash_it_t *)return_value_debugMalloc_1;
     iter->index = -1;
     iter->bucket = (struct element_t *)(void *)0;
     iter->prev_bucket = (struct element_t *)(void *)0;
@@ -7756,18 +7756,18 @@ struct hash_it_t * hash_iterate(struct hashtable_t *hash, struct hash_it_t *iter
 struct hashtable_t * hash_new(signed int size, signed int (*compare)(void *, void *), signed int (*choose)(void *, signed int))
 {
   struct hashtable_t *hash;
-  void *return_value_debugMalloc$1;
-  return_value_debugMalloc$1=debugMalloc((unsigned int)sizeof(struct hashtable_t) /*32ul*/ , 302);
-  hash = (struct hashtable_t *)return_value_debugMalloc$1;
+  void *return_value_debugMalloc_1;
+  return_value_debugMalloc_1=debugMalloc((unsigned int)sizeof(struct hashtable_t) /*32ul*/ , 302);
+  hash = (struct hashtable_t *)return_value_debugMalloc_1;
   if(hash == ((struct hashtable_t *)NULL))
     return (struct hashtable_t *)(void *)0;
 
   else
   {
     hash->size = size;
-    void *return_value_debugMalloc$2;
-    return_value_debugMalloc$2=debugMalloc((unsigned int)(sizeof(struct element_t *) /*8ul*/  * (unsigned long int)size), 303);
-    hash->table = (struct element_t **)return_value_debugMalloc$2;
+    void *return_value_debugMalloc_2;
+    return_value_debugMalloc_2=debugMalloc((unsigned int)(sizeof(struct element_t *) /*8ul*/  * (unsigned long int)size), 303);
+    hash->table = (struct element_t **)return_value_debugMalloc_2;
     if(hash->table == ((struct element_t **)NULL))
     {
       debugFree((void *)hash, 1305);
@@ -7792,7 +7792,7 @@ void * hash_remove(struct hashtable_t *hash, void *data)
   hash_it_t.index=hash->choose(data, hash->size);
   hash_it_t.bucket = hash->table[(signed long int)hash_it_t.index];
   hash_it_t.prev_bucket = (struct element_t *)(void *)0;
-  struct element_t **tmp_if_expr$1;
+  struct element_t **tmp_if_expr_1;
   if(!(hash_it_t.bucket == ((struct element_t *)NULL)))
   {
     signed int return_value;
@@ -7800,14 +7800,14 @@ void * hash_remove(struct hashtable_t *hash, void *data)
     if(!(return_value == 0))
     {
       if(hash_it_t.bucket == hash->table[(signed long int)hash_it_t.index])
-        tmp_if_expr$1 = &hash->table[(signed long int)hash_it_t.index];
+        tmp_if_expr_1 = &hash->table[(signed long int)hash_it_t.index];
 
       else
-        tmp_if_expr$1 = (struct element_t **)(void *)0;
-      hash_it_t.first_bucket = tmp_if_expr$1;
-      void *return_value_hash_remove_bucket$2;
-      return_value_hash_remove_bucket$2=hash_remove_bucket(hash, &hash_it_t);
-      return return_value_hash_remove_bucket$2;
+        tmp_if_expr_1 = (struct element_t **)(void *)0;
+      hash_it_t.first_bucket = tmp_if_expr_1;
+      void *return_value_hash_remove_bucket_2;
+      return_value_hash_remove_bucket_2=hash_remove_bucket(hash, &hash_it_t);
+      return return_value_hash_remove_bucket_2;
     }
 
     hash_it_t.prev_bucket = hash_it_t.bucket;
@@ -7875,9 +7875,9 @@ static signed int hna_buff_delete(struct hna_element *buf, signed int *buf_len, 
     i = 0;
     for( ; !(i >= num_elements); i = i + 1)
     {
-      signed int return_value_memcmp$1;
-      return_value_memcmp$1=memcmp((const void *)&buf[(signed long int)i], (const void *)e, sizeof(struct hna_element) /*5ul*/ );
-      if(return_value_memcmp$1 == 0)
+      signed int return_value_memcmp_1;
+      return_value_memcmp_1=memcmp((const void *)&buf[(signed long int)i], (const void *)e, sizeof(struct hna_element) /*5ul*/ );
+      if(return_value_memcmp_1 == 0)
       {
         memmove((void *)&buf[(signed long int)i], (const void *)&buf[(signed long int)(num_elements - 1)], sizeof(struct hna_element) /*5ul*/ );
         *buf_len = *buf_len - (signed int)sizeof(struct hna_element) /*5ul*/ ;
@@ -7924,7 +7924,7 @@ void hna_global_add(struct orig_node *orig_node, unsigned char *new_hna, signed 
   signed int i;
   signed int num_elements;
   char hna_str[16l];
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(new_hna == ((unsigned char *)NULL) || (signed int)new_hna_len == 0)
   {
     orig_node->hna_buff = (unsigned char *)(void *)0;
@@ -7933,9 +7933,9 @@ void hna_global_add(struct orig_node *orig_node, unsigned char *new_hna, signed 
 
   else
   {
-    void *return_value_debugMalloc$1;
-    return_value_debugMalloc$1=debugMalloc((unsigned int)new_hna_len, 705);
-    orig_node->hna_buff = (unsigned char *)return_value_debugMalloc$1;
+    void *return_value_debugMalloc_1;
+    return_value_debugMalloc_1=debugMalloc((unsigned int)new_hna_len, 705);
+    orig_node->hna_buff = (unsigned char *)return_value_debugMalloc_1;
     orig_node->hna_buff_len = new_hna_len;
     memcpy((void *)orig_node->hna_buff, (const void *)new_hna, (unsigned long int)new_hna_len);
     num_elements = (signed int)((unsigned long int)orig_node->hna_buff_len / sizeof(struct hna_element) /*5ul*/ );
@@ -7947,11 +7947,11 @@ void hna_global_add(struct orig_node *orig_node, unsigned char *new_hna, signed 
       e = &buff[(signed long int)i];
       addr_to_string(e->addr, hna_str, (signed int)sizeof(char [16l]) /*16ul*/ );
       if((signed int)e->netmask >= 1)
-        tmp_if_expr$2 = (signed int)e->netmask < 33 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)e->netmask < 33 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
         debug_output((signed char)4, "hna: %s/%i\n", (const void *)hna_str, e->netmask);
 
       else
@@ -7976,14 +7976,14 @@ void hna_global_check_tq(struct orig_node *orig_node)
   struct hna_global_entry *hna_global_entry;
   signed int i;
   signed int num_elements;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(orig_node->hna_buff == ((unsigned char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)orig_node->hna_buff_len == 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)orig_node->hna_buff_len == 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(!tmp_if_expr_1)
   {
     num_elements = (signed int)((unsigned long int)orig_node->hna_buff_len / sizeof(struct hna_element) /*5ul*/ );
     buff = (struct hna_element *)orig_node->hna_buff;
@@ -7992,15 +7992,15 @@ void hna_global_check_tq(struct orig_node *orig_node)
     {
       e = &buff[(signed long int)i];
       if(!((signed int)e->netmask >= 1))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)e->netmask > 32 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (signed int)e->netmask > 32 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_2)
       {
-        void *return_value_hash_find$3;
-        return_value_hash_find$3=hash_find(hna_global_hash, (void *)e);
-        hna_global_entry = (struct hna_global_entry *)return_value_hash_find$3;
+        void *return_value_hash_find_3;
+        return_value_hash_find_3=hash_find(hna_global_hash, (void *)e);
+        hna_global_entry = (struct hna_global_entry *)return_value_hash_find_3;
         if(!(hna_global_entry == ((struct hna_global_entry *)NULL)))
         {
           if(!(hna_global_entry->curr_orig_node == orig_node))
@@ -8038,13 +8038,13 @@ void hna_global_del(struct orig_node *orig_node)
   struct hna_element *buff;
   signed int i;
   signed int num_elements;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(orig_node->hna_buff == ((unsigned char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)orig_node->hna_buff_len == 0 ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)orig_node->hna_buff_len == 0 ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     num_elements = (signed int)((unsigned long int)orig_node->hna_buff_len / sizeof(struct hna_element) /*5ul*/ );
     buff = (struct hna_element *)orig_node->hna_buff;
@@ -8078,8 +8078,8 @@ void hna_global_update(struct orig_node *orig_node, unsigned char *new_hna, sign
   signed int num_elements;
   signed int old_hna_len;
   unsigned char *old_hna;
-  _Bool tmp_if_expr$1;
-  signed int return_value_memcmp$3;
+  _Bool tmp_if_expr_1;
+  signed int return_value_memcmp_3;
   if(!(orig_node->hna_buff == ((unsigned char *)NULL)))
   {
     if(!(new_hna == ((unsigned char *)NULL)) && !((signed int)new_hna_len == 0))
@@ -8115,15 +8115,15 @@ void hna_global_update(struct orig_node *orig_node, unsigned char *new_hna, sign
         {
           e = &buff[(signed long int)i];
           if(!((signed int)e->netmask >= 1))
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = (signed int)e->netmask > 32 ? (_Bool)1 : (_Bool)0;
-          if(!tmp_if_expr$1)
+            tmp_if_expr_1 = (signed int)e->netmask > 32 ? (_Bool)1 : (_Bool)0;
+          if(!tmp_if_expr_1)
           {
-            void *return_value_hash_find$2;
-            return_value_hash_find$2=hash_find(hna_global_hash, (void *)e);
-            hna_global_entry = (struct hna_global_entry *)return_value_hash_find$2;
+            void *return_value_hash_find_2;
+            return_value_hash_find_2=hash_find(hna_global_hash, (void *)e);
+            hna_global_entry = (struct hna_global_entry *)return_value_hash_find_2;
             if(!(hna_global_entry == ((struct hna_global_entry *)NULL)))
             {
               if(hna_global_entry->curr_orig_node == orig_node)
@@ -8142,8 +8142,8 @@ void hna_global_update(struct orig_node *orig_node, unsigned char *new_hna, sign
       else
         if(orig_node->hna_buff_len == new_hna_len)
         {
-          return_value_memcmp$3=memcmp((const void *)orig_node->hna_buff, (const void *)new_hna, (unsigned long int)new_hna_len);
-          if(!(return_value_memcmp$3 == 0))
+          return_value_memcmp_3=memcmp((const void *)orig_node->hna_buff, (const void *)new_hna, (unsigned long int)new_hna_len);
+          if(!(return_value_memcmp_3 == 0))
             goto __CPROVER_DUMP_L11;
 
         }
@@ -8155,9 +8155,9 @@ void hna_global_update(struct orig_node *orig_node, unsigned char *new_hna, sign
           ;
           old_hna = orig_node->hna_buff;
           old_hna_len = (signed int)orig_node->hna_buff_len;
-          void *return_value_debugMalloc$4;
-          return_value_debugMalloc$4=debugMalloc((unsigned int)new_hna_len, 706);
-          orig_node->hna_buff = (unsigned char *)return_value_debugMalloc$4;
+          void *return_value_debugMalloc_4;
+          return_value_debugMalloc_4=debugMalloc((unsigned int)new_hna_len, 706);
+          orig_node->hna_buff = (unsigned char *)return_value_debugMalloc_4;
           orig_node->hna_buff_len = new_hna_len;
           memcpy((void *)orig_node->hna_buff, (const void *)new_hna, (unsigned long int)new_hna_len);
           num_elements = (signed int)((unsigned long int)orig_node->hna_buff_len / sizeof(struct hna_element) /*5ul*/ );
@@ -8166,9 +8166,9 @@ void hna_global_update(struct orig_node *orig_node, unsigned char *new_hna, sign
           for( ; !(i >= num_elements); i = i + 1)
           {
             e = &buff[(signed long int)i];
-            signed int return_value_hna_buff_delete$5;
-            return_value_hna_buff_delete$5=hna_buff_delete((struct hna_element *)old_hna, &old_hna_len, e);
-            if(return_value_hna_buff_delete$5 == 0)
+            signed int return_value_hna_buff_delete_5;
+            return_value_hna_buff_delete_5=hna_buff_delete((struct hna_element *)old_hna, &old_hna_len, e);
+            if(return_value_hna_buff_delete_5 == 0)
             {
               if((signed int)e->netmask >= 1)
               {
@@ -8231,17 +8231,17 @@ static void hna_local_buffer_fill(void)
 
   num_hna_local = (unsigned char)0;
   hna_buff_local = (unsigned char *)(void *)0;
-  signed int return_value_list_empty$1;
-  return_value_list_empty$1=list_empty(&hna_list);
-  if(return_value_list_empty$1 == 0)
+  signed int return_value_list_empty_1;
+  return_value_list_empty_1=list_empty(&hna_list);
+  if(return_value_list_empty_1 == 0)
   {
     list_pos = (&hna_list)->next;
     for( ; !(list_pos == (struct list_head *)&hna_list); list_pos = list_pos->next)
     {
       hna_local_entry = (struct hna_local_entry *)((char *)list_pos - (signed long int)(unsigned long int)&((struct hna_local_entry *)0)->list);
-      void *return_value_debugRealloc$2;
-      return_value_debugRealloc$2=debugRealloc((void *)hna_buff_local, (unsigned int)((unsigned long int)(((signed int)num_hna_local + 1) * 5) * sizeof(unsigned char) /*1ul*/ ), 15);
-      hna_buff_local = (unsigned char *)return_value_debugRealloc$2;
+      void *return_value_debugRealloc_2;
+      return_value_debugRealloc_2=debugRealloc((void *)hna_buff_local, (unsigned int)((unsigned long int)(((signed int)num_hna_local + 1) * 5) * sizeof(unsigned char) /*1ul*/ ), 15);
+      hna_buff_local = (unsigned char *)return_value_debugRealloc_2;
       memmove((void *)&hna_buff_local[(signed long int)((signed int)num_hna_local * 5)], (const void *)(unsigned char *)&hna_local_entry->addr, (unsigned long int)4);
       hna_buff_local[(signed long int)((signed int)num_hna_local * 5 + 4)] = (unsigned char)hna_local_entry->netmask;
       num_hna_local = num_hna_local + 1;
@@ -8255,9 +8255,9 @@ static void hna_local_buffer_fill(void)
 void hna_local_task_add_ip(unsigned int ip_addr, unsigned short int netmask, unsigned char route_action)
 {
   struct hna_task *hna_task;
-  void *return_value_debugMalloc$1;
-  return_value_debugMalloc$1=debugMalloc((unsigned int)sizeof(struct hna_task) /*16ul*/ , 701);
-  hna_task = (struct hna_task *)return_value_debugMalloc$1;
+  void *return_value_debugMalloc_1;
+  return_value_debugMalloc_1=debugMalloc((unsigned int)sizeof(struct hna_task) /*16ul*/ , 701);
+  hna_task = (struct hna_task *)return_value_debugMalloc_1;
   memset((void *)hna_task, 0, sizeof(struct hna_task) /*16ul*/ );
   do
     (&hna_task->list)->next = &hna_task->list;
@@ -8265,27 +8265,27 @@ void hna_local_task_add_ip(unsigned int ip_addr, unsigned short int netmask, uns
   hna_task->addr = ip_addr;
   hna_task->netmask = (unsigned char)netmask;
   hna_task->route_action = route_action;
-  signed int return_value_pthread_mutex_lock$4;
-  return_value_pthread_mutex_lock$4=pthread_mutex_lock(&hna_chg_list_mutex);
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
-  if(!(return_value_pthread_mutex_lock$4 == 0))
+  signed int return_value_pthread_mutex_lock_4;
+  return_value_pthread_mutex_lock_4=pthread_mutex_lock(&hna_chg_list_mutex);
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
+  if(!(return_value_pthread_mutex_lock_4 == 0))
   {
-    return_value___errno_location$2=__errno_location();
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    debug_output((signed char)0, "Error - could not lock hna_chg_list mutex in %s(): %s \n", (const void *)"hna_local_task_add_ip", return_value_strerror$3);
+    return_value___errno_location_2=__errno_location();
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    debug_output((signed char)0, "Error - could not lock hna_chg_list mutex in %s(): %s \n", (const void *)"hna_local_task_add_ip", return_value_strerror_3);
   }
 
   list_add_tail(&hna_task->list, &hna_chg_list);
-  signed int return_value_pthread_mutex_unlock$7;
-  return_value_pthread_mutex_unlock$7=pthread_mutex_unlock(&hna_chg_list_mutex);
-  signed int *return_value___errno_location$5;
-  char *return_value_strerror$6;
-  if(!(return_value_pthread_mutex_unlock$7 == 0))
+  signed int return_value_pthread_mutex_unlock_7;
+  return_value_pthread_mutex_unlock_7=pthread_mutex_unlock(&hna_chg_list_mutex);
+  signed int *return_value___errno_location_5;
+  char *return_value_strerror_6;
+  if(!(return_value_pthread_mutex_unlock_7 == 0))
   {
-    return_value___errno_location$5=__errno_location();
-    return_value_strerror$6=strerror(*return_value___errno_location$5);
-    debug_output((signed char)0, "Error - could not unlock hna_chg_list mutex in %s(): %s \n", (const void *)"hna_local_task_add_ip", return_value_strerror$6);
+    return_value___errno_location_5=__errno_location();
+    return_value_strerror_6=strerror(*return_value___errno_location_5);
+    debug_output((signed char)0, "Error - could not unlock hna_chg_list mutex in %s(): %s \n", (const void *)"hna_local_task_add_ip", return_value_strerror_6);
   }
 
 }
@@ -8311,9 +8311,9 @@ void hna_local_task_add_str(char *hna_string, unsigned char route_action, unsign
   }
 
   *slash_ptr = (char)0;
-  signed int return_value_inet_pton$1;
-  return_value_inet_pton$1=inet_pton(2, hna_string, (void *)&tmp_ip_holder);
-  if(!(return_value_inet_pton$1 >= 1))
+  signed int return_value_inet_pton_1;
+  return_value_inet_pton_1=inet_pton(2, hna_string, (void *)&tmp_ip_holder);
+  if(!(return_value_inet_pton_1 >= 1))
   {
     *slash_ptr = (char)47;
     if(!(runtime == 0))
@@ -8326,25 +8326,25 @@ void hna_local_task_add_str(char *hna_string, unsigned char route_action, unsign
     exit(1);
   }
 
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  *return_value___errno_location$2 = 0;
-  signed long int return_value_strtol$3;
-  return_value_strtol$3=strtol(slash_ptr + (signed long int)1, (char ** restrict )(void *)0, 10);
-  netmask = (unsigned short int)return_value_strtol$3;
-  signed int *return_value___errno_location$4;
-  return_value___errno_location$4=__errno_location();
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$5;
-  if(*return_value___errno_location$4 == 34)
-    tmp_if_expr$6 = (_Bool)1;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  *return_value___errno_location_2 = 0;
+  signed long int return_value_strtol_3;
+  return_value_strtol_3=strtol(slash_ptr + (signed long int)1, (char ** restrict )(void *)0, 10);
+  netmask = (unsigned short int)return_value_strtol_3;
+  signed int *return_value___errno_location_4;
+  return_value___errno_location_4=__errno_location();
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_5;
+  if(*return_value___errno_location_4 == 34)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
   {
-    return_value___errno_location$5=__errno_location();
-    tmp_if_expr$6 = (*return_value___errno_location$5 != 0 ? ((signed int)netmask == 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
+    return_value___errno_location_5=__errno_location();
+    tmp_if_expr_6 = (*return_value___errno_location_5 != 0 ? ((signed int)netmask == 0 ? (_Bool)1 : (_Bool)0) : (_Bool)0) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$6)
+  if(tmp_if_expr_6)
   {
     *slash_ptr = (char)47;
     if(!(runtime == 0))
@@ -8368,9 +8368,9 @@ void hna_local_task_add_str(char *hna_string, unsigned char route_action, unsign
   }
 
   *slash_ptr = (char)47;
-  unsigned int return_value_htonl$7;
-  return_value_htonl$7=htonl(0xFFFFFFFF << 32 - (signed int)netmask);
-  tmp_ip_holder.s_addr = tmp_ip_holder.s_addr & return_value_htonl$7;
+  unsigned int return_value_htonl_7;
+  return_value_htonl_7=htonl(0xFFFFFFFF << 32 - (signed int)netmask);
+  tmp_ip_holder.s_addr = tmp_ip_holder.s_addr & return_value_htonl_7;
   hna_local_task_add_ip(tmp_ip_holder.s_addr, netmask, route_action);
 
 __CPROVER_DUMP_L11:
@@ -8389,15 +8389,15 @@ void hna_local_task_exec(void)
   struct hna_task *hna_task;
   struct hna_local_entry *hna_local_entry;
   char hna_addr_str[16l];
-  signed int return_value_pthread_mutex_trylock$1;
-  return_value_pthread_mutex_trylock$1=pthread_mutex_trylock(&hna_chg_list_mutex);
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
-  if(return_value_pthread_mutex_trylock$1 == 0)
+  signed int return_value_pthread_mutex_trylock_1;
+  return_value_pthread_mutex_trylock_1=pthread_mutex_trylock(&hna_chg_list_mutex);
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
+  if(return_value_pthread_mutex_trylock_1 == 0)
   {
-    signed int return_value_list_empty$2;
-    return_value_list_empty$2=list_empty(&hna_chg_list);
-    if(return_value_list_empty$2 == 0)
+    signed int return_value_list_empty_2;
+    return_value_list_empty_2=list_empty(&hna_chg_list);
+    if(return_value_list_empty_2 == 0)
     {
       list_pos = (&hna_chg_list)->next;
       list_pos_tmp = list_pos->next;
@@ -8440,9 +8440,9 @@ void hna_local_task_exec(void)
           if((signed int)hna_task->route_action == 0)
           {
             debug_output((signed char)3, "Adding HNA to announce network list: %s/%i\n", (const void *)hna_addr_str, hna_task->netmask);
-            void *return_value_debugMalloc$3;
-            return_value_debugMalloc$3=debugMalloc((unsigned int)sizeof(struct hna_local_entry) /*16ul*/ , 702);
-            hna_local_entry = (struct hna_local_entry *)return_value_debugMalloc$3;
+            void *return_value_debugMalloc_3;
+            return_value_debugMalloc_3=debugMalloc((unsigned int)sizeof(struct hna_local_entry) /*16ul*/ , 702);
+            hna_local_entry = (struct hna_local_entry *)return_value_debugMalloc_3;
             memset((void *)hna_local_entry, 0, sizeof(struct hna_local_entry) /*16ul*/ );
             do
               (&hna_local_entry->list)->next = &hna_local_entry->list;
@@ -8467,13 +8467,13 @@ void hna_local_task_exec(void)
 
   unlock_chg_list:
     ;
-    signed int return_value_pthread_mutex_unlock$6;
-    return_value_pthread_mutex_unlock$6=pthread_mutex_unlock(&hna_chg_list_mutex);
-    if(!(return_value_pthread_mutex_unlock$6 == 0))
+    signed int return_value_pthread_mutex_unlock_6;
+    return_value_pthread_mutex_unlock_6=pthread_mutex_unlock(&hna_chg_list_mutex);
+    if(!(return_value_pthread_mutex_unlock_6 == 0))
     {
-      return_value___errno_location$4=__errno_location();
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      debug_output((signed char)0, "Error - could not unlock hna_chg_list mutex in %s(): %s \n", (const void *)"hna_local_task_exec", return_value_strerror$5);
+      return_value___errno_location_4=__errno_location();
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      debug_output((signed char)0, "Error - could not unlock hna_chg_list mutex in %s(): %s \n", (const void *)"hna_local_task_exec", return_value_strerror_5);
     }
 
   }
@@ -8523,9 +8523,9 @@ unsigned char * hna_local_update_vis_packet(unsigned char *vis_packet, unsigned 
     {
       hna_local_entry = (struct hna_local_entry *)((char *)list_pos - (signed long int)(unsigned long int)&((struct hna_local_entry *)0)->list);
       *vis_packet_size = *vis_packet_size + (unsigned short int)sizeof(struct vis_data) /*6ul*/ ;
-      void *return_value_debugRealloc$1;
-      return_value_debugRealloc$1=debugRealloc((void *)vis_packet, (unsigned int)*vis_packet_size, 107);
-      vis_packet = (unsigned char *)return_value_debugRealloc$1;
+      void *return_value_debugRealloc_1;
+      return_value_debugRealloc_1=debugRealloc((void *)vis_packet, (unsigned int)*vis_packet_size, 107);
+      vis_packet = (unsigned char *)return_value_debugRealloc_1;
       vis_data = (struct vis_data *)((vis_packet + (signed long int)*vis_packet_size) - (signed long int)sizeof(struct vis_data) /*6ul*/ );
       memcpy((void *)&vis_data->ip, (const void *)(unsigned char *)&hna_local_entry->addr, (unsigned long int)4);
       vis_data->data = hna_local_entry->netmask;
@@ -8548,18 +8548,18 @@ void init_bh_ports(void)
 // file posix/init.c line 1011
 void init_interface(struct batman_if *batman_if)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(batman_if->dev);
-  if(return_value_strlen$1 >= 16ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(batman_if->dev);
+  if(return_value_strlen_1 >= 16ul)
   {
     printf("Error - interface name too long: %s\n", batman_if->dev);
     restore_defaults();
     exit(1);
   }
 
-  signed int return_value_is_interface_up$2;
-  return_value_is_interface_up$2=is_interface_up(batman_if->dev);
-  if(!(return_value_is_interface_up$2 == 0))
+  signed int return_value_is_interface_up_2;
+  return_value_is_interface_up_2=is_interface_up(batman_if->dev);
+  if(!(return_value_is_interface_up_2 == 0))
     activate_interface(batman_if);
 
 }
@@ -8571,7 +8571,7 @@ void init_interface_gw(void)
   signed int sock_opts;
   signed int err;
   signed int skfd;
-  struct ifreq$1 ifr;
+  struct ifreq_1 ifr;
   struct sockaddr_in sin;
   struct batgat_ioc_args ioc;
   struct batman_if *batman_if = (struct batman_if *)if_list.next;
@@ -8582,24 +8582,24 @@ void init_interface_gw(void)
     batman_if->udp_tunnel_sock=socket(2, 2, 0);
     if(!(batman_if->udp_tunnel_sock >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      debug_output((signed char)0, "Error - can't create tunnel socket: %s\n", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      debug_output((signed char)0, "Error - can't create tunnel socket: %s\n", return_value_strerror_2);
       restore_defaults();
       exit(1);
     }
 
-    signed int return_value_bind$5;
-    return_value_bind$5=bind(batman_if->udp_tunnel_sock, (struct sockaddr *)&batman_if->addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-    if(!(return_value_bind$5 >= 0))
+    signed int return_value_bind_5;
+    return_value_bind_5=bind(batman_if->udp_tunnel_sock, (struct sockaddr *)&batman_if->addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+    if(!(return_value_bind_5 >= 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      debug_output((signed char)0, "Error - can't bind tunnel socket: %s\n", return_value_strerror$4);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      debug_output((signed char)0, "Error - can't bind tunnel socket: %s\n", return_value_strerror_4);
       restore_defaults();
       exit(1);
     }
@@ -8612,20 +8612,20 @@ void init_interface_gw(void)
 
   else
   {
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(batman_if->dev);
-    ioc.universal = (unsigned int)return_value_strlen$6;
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(batman_if->dev);
+    ioc.universal = (unsigned int)return_value_strlen_6;
     ioc.exists = (unsigned char)0;
     strncpy(ioc.dev_name, batman_if->dev, (unsigned long int)(16 - 1));
-    signed int return_value_ioctl$9;
-    return_value_ioctl$9=ioctl(batman_if->udp_tunnel_sock, (unsigned long int)1, &ioc);
-    if(!(return_value_ioctl$9 >= 0))
+    signed int return_value_ioctl_9;
+    return_value_ioctl_9=ioctl(batman_if->udp_tunnel_sock, (unsigned long int)1, &ioc);
+    if(!(return_value_ioctl_9 >= 0))
     {
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      char *return_value_strerror$8;
-      return_value_strerror$8=strerror(*return_value___errno_location$7);
-      debug_output((signed char)0, "Error - can't add device %s: %s\n", batman_if->dev, return_value_strerror$8);
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      char *return_value_strerror_8;
+      return_value_strerror_8=strerror(*return_value___errno_location_7);
+      debug_output((signed char)0, "Error - can't add device %s: %s\n", batman_if->dev, return_value_strerror_8);
       batman_if->dev = (char *)(void *)0;
       restore_defaults();
       exit(1);
@@ -8639,7 +8639,7 @@ void init_interface_gw(void)
       exit(1);
     }
 
-    memset((void *)&ifr, 0, sizeof(struct ifreq$1) /*40ul*/ );
+    memset((void *)&ifr, 0, sizeof(struct ifreq_1) /*40ul*/ );
     memset((void *)&sin, 0, sizeof(struct sockaddr) /*16ul*/ );
     strncpy(ifr.ifr_ifrn.ifrn_name, ioc.dev_name, (unsigned long int)(16 - 1));
     sin.sin_family = (unsigned short int)2;
@@ -8648,25 +8648,25 @@ void init_interface_gw(void)
     err=ioctl(skfd, (unsigned long int)0x8916, &ifr);
     if(!(err >= 0))
     {
-      char *return_value_strerror$10;
-      return_value_strerror$10=strerror(err);
-      debug_output((signed char)0, "Error - can't set IFADDR %s: %s\n", (const void *)ioc.dev_name, return_value_strerror$10);
+      char *return_value_strerror_10;
+      return_value_strerror_10=strerror(err);
+      debug_output((signed char)0, "Error - can't set IFADDR %s: %s\n", (const void *)ioc.dev_name, return_value_strerror_10);
       close(skfd);
       restore_defaults();
       exit(1);
     }
 
-    memset((void *)&ifr, 0, sizeof(struct ifreq$1) /*40ul*/ );
+    memset((void *)&ifr, 0, sizeof(struct ifreq_1) /*40ul*/ );
     strncpy(ifr.ifr_ifrn.ifrn_name, ioc.dev_name, (unsigned long int)(16 - 1));
-    signed int return_value_ioctl$13;
-    return_value_ioctl$13=ioctl(skfd, (unsigned long int)0x8913, &ifr);
-    if(!(return_value_ioctl$13 >= 0))
+    signed int return_value_ioctl_13;
+    return_value_ioctl_13=ioctl(skfd, (unsigned long int)0x8913, &ifr);
+    if(!(return_value_ioctl_13 >= 0))
     {
-      signed int *return_value___errno_location$11;
-      return_value___errno_location$11=__errno_location();
-      char *return_value_strerror$12;
-      return_value_strerror$12=strerror(*return_value___errno_location$11);
-      debug_output((signed char)0, "Error - can't get IFFLAGS for %s: %s\n", (const void *)ioc.dev_name, return_value_strerror$12);
+      signed int *return_value___errno_location_11;
+      return_value___errno_location_11=__errno_location();
+      char *return_value_strerror_12;
+      return_value_strerror_12=strerror(*return_value___errno_location_11);
+      debug_output((signed char)0, "Error - can't get IFFLAGS for %s: %s\n", (const void *)ioc.dev_name, return_value_strerror_12);
       close(skfd);
       restore_defaults();
       exit(1);
@@ -8674,15 +8674,15 @@ void init_interface_gw(void)
 
     strncpy(ifr.ifr_ifrn.ifrn_name, ioc.dev_name, (unsigned long int)(16 - 1));
     ifr.ifr_ifru.ifru_flags = ifr.ifr_ifru.ifru_flags | (signed short int)(1 | 64);
-    signed int return_value_ioctl$16;
-    return_value_ioctl$16=ioctl(skfd, (unsigned long int)0x8914, &ifr);
-    if(!(return_value_ioctl$16 >= 0))
+    signed int return_value_ioctl_16;
+    return_value_ioctl_16=ioctl(skfd, (unsigned long int)0x8914, &ifr);
+    if(!(return_value_ioctl_16 >= 0))
     {
-      signed int *return_value___errno_location$14;
-      return_value___errno_location$14=__errno_location();
-      char *return_value_strerror$15;
-      return_value_strerror$15=strerror(*return_value___errno_location$14);
-      debug_output((signed char)0, "Error - can't set IFFLAGS for %s: %s\n", (const void *)ioc.dev_name, return_value_strerror$15);
+      signed int *return_value___errno_location_14;
+      return_value___errno_location_14=__errno_location();
+      char *return_value_strerror_15;
+      return_value_strerror_15=strerror(*return_value___errno_location_14);
+      debug_output((signed char)0, "Error - can't set IFFLAGS for %s: %s\n", (const void *)ioc.dev_name, return_value_strerror_15);
       close(skfd);
       restore_defaults();
       exit(1);
@@ -8705,7 +8705,7 @@ void interface_listen_sockets(void)
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$15) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&receive_wait_set)->fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_15) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&receive_wait_set)->fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   receive_max_sock = 0;
@@ -8803,20 +8803,20 @@ static signed int isBidirectionalNeigh(struct orig_node *orig_node, struct orig_
 
   }
   orig_node->last_valid = recv_time;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((signed int)neigh_node->real_packet_count >= (signed int)orig_neigh_node->bcast_own_sum[(signed long int)if_incoming->if_num]))
-    tmp_if_expr$1 = (signed int)neigh_node->real_packet_count;
+    tmp_if_expr_1 = (signed int)neigh_node->real_packet_count;
 
   else
-    tmp_if_expr$1 = (signed int)orig_neigh_node->bcast_own_sum[(signed long int)if_incoming->if_num];
-  total_count = (unsigned char)tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+    tmp_if_expr_1 = (signed int)orig_neigh_node->bcast_own_sum[(signed long int)if_incoming->if_num];
+  total_count = (unsigned char)tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!((signed int)total_count >= (signed int)minimum_send))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)neigh_node->real_packet_count < (signed int)minimum_recv ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)neigh_node->real_packet_count < (signed int)minimum_recv ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     orig_neigh_node->tq_own = (unsigned char)0;
 
   else
@@ -8848,9 +8848,9 @@ signed int is_batman_if(char *dev, struct batman_if **batman_if)
   for( ; !(if_pos == (struct list_head *)&if_list); if_pos = if_pos->next)
   {
     *batman_if = (struct batman_if *)((char *)if_pos - (signed long int)(unsigned long int)&((struct batman_if *)0)->list);
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp((*batman_if)->dev, dev);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp((*batman_if)->dev, dev);
+    if(return_value_strcmp_1 == 0)
       return 1;
 
   }
@@ -8861,26 +8861,26 @@ signed int is_batman_if(char *dev, struct batman_if **batman_if)
 // file posix/init.c line 797
 static signed int is_interface_up(char *dev)
 {
-  struct ifreq$1 int_req;
+  struct ifreq_1 int_req;
   signed int sock;
   sock=socket(2, 2, 0);
-  signed int return_value_ioctl$2;
+  signed int return_value_ioctl_2;
   if(!(sock >= 0))
     return 0;
 
   else
   {
-    memset((void *)&int_req, 0, sizeof(struct ifreq$1) /*40ul*/ );
+    memset((void *)&int_req, 0, sizeof(struct ifreq_1) /*40ul*/ );
     strncpy(int_req.ifr_ifrn.ifrn_name, dev, (unsigned long int)(16 - 1));
-    signed int return_value_ioctl$1;
-    return_value_ioctl$1=ioctl(sock, (unsigned long int)0x8913, &int_req);
-    if(return_value_ioctl$1 >= 0)
+    signed int return_value_ioctl_1;
+    return_value_ioctl_1=ioctl(sock, (unsigned long int)0x8913, &int_req);
+    if(return_value_ioctl_1 >= 0)
     {
       if((1 & (signed int)int_req.ifr_ifru.ifru_flags) == 0)
         goto failure;
 
-      return_value_ioctl$2=ioctl(sock, (unsigned long int)0x8915, &int_req);
-      if(!(return_value_ioctl$2 >= 0))
+      return_value_ioctl_2=ioctl(sock, (unsigned long int)0x8915, &int_req);
+      if(!(return_value_ioctl_2 >= 0))
         goto failure;
 
       close(sock);
@@ -8902,17 +8902,17 @@ static signed int is_interface_up(char *dev)
 // file linux/kernel.c line 185
 signed int is_wifi_interface(char *dev, signed int fd)
 {
-  struct ifreq$0 int_req;
+  struct ifreq_0 int_req;
   char *colon_ptr;
-  memset((void *)&int_req, 0, sizeof(struct ifreq$0) /*40ul*/ );
+  memset((void *)&int_req, 0, sizeof(struct ifreq_0) /*40ul*/ );
   strncpy(int_req.ifr_ifrn.ifrn_name, dev, (unsigned long int)(16 - 1));
   colon_ptr=strchr(int_req.ifr_ifrn.ifrn_name, 58);
   if(!(colon_ptr == ((char *)NULL)))
     *colon_ptr = (char)0;
 
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(fd, (unsigned long int)0x8B01, &int_req);
-  if(return_value_ioctl$1 >= 0)
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(fd, (unsigned long int)0x8B01, &int_req);
+  if(return_value_ioctl_1 >= 0)
     return 1;
 
   else
@@ -8968,19 +8968,19 @@ signed int list_empty(struct list_head_first *head)
 signed int main(signed int argc, char **argv)
 {
   signed char res;
-  unsigned int return_value_getuid$1;
-  return_value_getuid$1=getuid();
-  _Bool tmp_if_expr$3;
-  unsigned int return_value_getgid$2;
-  if(!(return_value_getuid$1 == 0u))
-    tmp_if_expr$3 = (_Bool)1;
+  unsigned int return_value_getuid_1;
+  return_value_getuid_1=getuid();
+  _Bool tmp_if_expr_3;
+  unsigned int return_value_getgid_2;
+  if(!(return_value_getuid_1 == 0u))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_getgid$2=getgid();
-    tmp_if_expr$3 = return_value_getgid$2 != 0u ? (_Bool)1 : (_Bool)0;
+    return_value_getgid_2=getgid();
+    tmp_if_expr_3 = return_value_getgid_2 != 0u ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
   {
     fprintf(stderr, "Error - you must be root to run %s !\n", argv[(signed long int)0]);
     exit(1);
@@ -8993,16 +8993,16 @@ signed int main(signed int argc, char **argv)
   if_list.next = (struct list_head *)&if_list;
   if_list.prev = (struct list_head *)&if_list;
   hna_init();
-  signed long int return_value_sysconf$4;
-  return_value_sysconf$4=sysconf(2);
-  system_tick = (float)return_value_sysconf$4;
+  signed long int return_value_sysconf_4;
+  return_value_sysconf_4=sysconf(2);
+  system_tick = (float)return_value_sysconf_4;
   last_clock_tick=times_wrapper();
   update_internal_clock();
   apply_init_args(argc, argv);
   init_bh_ports();
-  signed int return_value_getpid$5;
-  return_value_getpid$5=getpid();
-  srand((unsigned int)return_value_getpid$5);
+  signed int return_value_getpid_5;
+  return_value_getpid_5=getpid();
+  srand((unsigned int)return_value_getpid_5);
   res=batman();
   hna_free();
   restore_defaults();
@@ -9016,11 +9016,11 @@ signed int main(signed int argc, char **argv)
 static signed int my_daemon(void)
 {
   signed int fd;
-  signed int return_value_fork$1;
-  return_value_fork$1=fork();
-  if(!(return_value_fork$1 == -1))
+  signed int return_value_fork_1;
+  return_value_fork_1=fork();
+  if(!(return_value_fork_1 == -1))
   {
-    if(return_value_fork$1 == 0)
+    if(return_value_fork_1 == 0)
       goto __CPROVER_DUMP_L2;
 
   }
@@ -9037,16 +9037,16 @@ static signed int my_daemon(void)
 
 __CPROVER_DUMP_L4:
   ;
-  signed int return_value_setsid$2;
-  return_value_setsid$2=setsid();
-  if(return_value_setsid$2 == -1)
+  signed int return_value_setsid_2;
+  return_value_setsid_2=setsid();
+  if(return_value_setsid_2 == -1)
     return -1;
 
   else
   {
-    signed int return_value_fork$3;
-    return_value_fork$3=fork();
-    if(!(return_value_fork$3 == 0))
+    signed int return_value_fork_3;
+    return_value_fork_3=fork();
+    if(!(return_value_fork_3 == 0))
       exit(0);
 
     chdir("/");
@@ -9156,9 +9156,9 @@ void print_animation(void)
 // file linux/tun.c line 86
 signed int probe_nat_tool(void)
 {
-  signed int return_value_run_cmd$1;
-  return_value_run_cmd$1=run_cmd("which iptables > /dev/null");
-  return return_value_run_cmd$1;
+  signed int return_value_run_cmd_1;
+  return_value_run_cmd_1=run_cmd("which iptables > /dev/null");
+  return return_value_run_cmd_1;
 }
 
 // probe_tun
@@ -9200,15 +9200,15 @@ void prof_print(void)
   signed int index;
   debug_output((signed char)5, " \nProfile data:\n");
   index = 0;
-  double tmp_if_expr$1;
+  double tmp_if_expr_1;
   for( ; !(index >= 9); index = index + 1)
   {
     if(prof_container[(signed long int)index].calls == 0ul)
-      tmp_if_expr$1 = 0.0;
+      tmp_if_expr_1 = 0.0;
 
     else
-      tmp_if_expr$1 = (double)(((float)prof_container[(signed long int)index].total_time / (float)(signed long int)1000000) / (float)prof_container[(signed long int)index].calls);
-    debug_output((signed char)5, "   %''30s: cpu time = %10.3f, calls = %''10i, avg time per call = %4.10f \n", prof_container[(signed long int)index].name, (float)prof_container[(signed long int)index].total_time / (float)(signed long int)1000000, prof_container[(signed long int)index].calls, tmp_if_expr$1);
+      tmp_if_expr_1 = (double)(((float)prof_container[(signed long int)index].total_time / (float)(signed long int)1000000) / (float)prof_container[(signed long int)index].calls);
+    debug_output((signed char)5, "   %''30s: cpu time = %10.3f, calls = %''10i, avg time per call = %4.10f \n", prof_container[(signed long int)index].name, (float)prof_container[(signed long int)index].total_time / (float)(signed long int)1000000, prof_container[(signed long int)index].calls, tmp_if_expr_1);
   }
 }
 
@@ -9224,9 +9224,9 @@ void prof_start(signed int index)
 void prof_stop(signed int index)
 {
   prof_container[(signed long int)index].calls = prof_container[(signed long int)index].calls + 1ul;
-  signed long int return_value_clock$1;
-  return_value_clock$1=clock();
-  prof_container[(signed long int)index].total_time = prof_container[(signed long int)index].total_time + (return_value_clock$1 - prof_container[(signed long int)index].start_time);
+  signed long int return_value_clock_1;
+  return_value_clock_1=clock();
+  prof_container[(signed long int)index].total_time = prof_container[(signed long int)index].total_time + (return_value_clock_1 - prof_container[(signed long int)index].start_time);
 }
 
 // purge_orig
@@ -9249,9 +9249,9 @@ void purge_orig(unsigned int curr_time)
   char orig_str[16l];
   char neigh_str[16l];
   prof_start(6);
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   do
   {
     hashit=hash_iterate(orig_hash, hashit);
@@ -9340,11 +9340,11 @@ void purge_orig(unsigned int curr_time)
         else
         {
           if(best_neigh_node == ((struct neigh_node *)NULL))
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = (signed int)neigh_node->tq_avg > (signed int)max_tq ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = (signed int)neigh_node->tq_avg > (signed int)max_tq ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
           {
             best_neigh_node = neigh_node;
             max_tq = neigh_node->tq_avg;
@@ -9357,16 +9357,16 @@ void purge_orig(unsigned int curr_time)
       if(!(neigh_purged == 0))
       {
         if(best_neigh_node == ((struct neigh_node *)NULL))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = orig_node->router == (struct neigh_node *)(void *)0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_2 = orig_node->router == (struct neigh_node *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = (signed int)max_tq > (signed int)orig_node->router->tq_avg ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (signed int)max_tq > (signed int)orig_node->router->tq_avg ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
           update_routes(orig_node, best_neigh_node, orig_node->hna_buff, orig_node->hna_buff_len);
 
       }
@@ -9377,16 +9377,16 @@ void purge_orig(unsigned int curr_time)
   prev_list_head = (struct list_head *)&gw_list;
   gw_pos = (&gw_list)->next;
   gw_pos_tmp = gw_pos->next;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   for( ; !(gw_pos == (struct list_head *)&gw_list); gw_pos_tmp = gw_pos->next)
   {
     gw_node = (struct gw_node *)((char *)gw_pos - (signed long int)(unsigned long int)&((struct gw_node *)0)->list);
     if(!(gw_node->deleted == 0u))
-      tmp_if_expr$4 = (signed int)(curr_time - (gw_node->deleted + (unsigned int)2 * purge_timeout)) > 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (signed int)(curr_time - (gw_node->deleted + (unsigned int)2 * purge_timeout)) > 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
       list_del(prev_list_head, gw_pos, &gw_list);
       debugFree((void *)gw_pos, 1406);
@@ -9406,17 +9406,17 @@ void purge_orig(unsigned int curr_time)
 // file os.h line 35
 signed int rand_num(signed int limit)
 {
-  signed int tmp_if_expr$2;
-  signed int return_value_rand$1;
+  signed int tmp_if_expr_2;
+  signed int return_value_rand_1;
   if(limit == 0)
-    tmp_if_expr$2 = 0;
+    tmp_if_expr_2 = 0;
 
   else
   {
-    return_value_rand$1=rand();
-    tmp_if_expr$2 = return_value_rand$1 % limit;
+    return_value_rand_1=rand();
+    tmp_if_expr_2 = return_value_rand_1 % limit;
   }
-  return tmp_if_expr$2;
+  return tmp_if_expr_2;
 }
 
 // receive_packet
@@ -9429,28 +9429,28 @@ signed char receive_packet(unsigned char *packet_buff, signed int packet_buff_le
   struct batman_if *batman_if;
   unsigned int addr_len;
   signed char res;
-  struct anonymous$15 tmp_wait_set;
+  struct anonymous_15 tmp_wait_set;
   addr_len = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
-  memcpy((void *)&tmp_wait_set, (const void *)&receive_wait_set, sizeof(struct anonymous$15) /*128ul*/ );
+  memcpy((void *)&tmp_wait_set, (const void *)&receive_wait_set, sizeof(struct anonymous_15) /*128ul*/ );
   while((_Bool)1)
   {
     tv.tv_sec = (signed long int)(timeout / (unsigned int)1000);
     tv.tv_usec = (signed long int)((timeout % (unsigned int)1000) * (unsigned int)1000);
-    signed int return_value_select$1;
-    return_value_select$1=select(receive_max_sock + 1, &tmp_wait_set, (struct anonymous$15 *)(void *)0, (struct anonymous$15 *)(void *)0, &tv);
-    res = (signed char)return_value_select$1;
+    signed int return_value_select_1;
+    return_value_select_1=select(receive_max_sock + 1, &tmp_wait_set, (struct anonymous_15 *)(void *)0, (struct anonymous_15 *)(void *)0, &tv);
+    res = (signed char)return_value_select_1;
     if((signed int)res >= 0)
       break;
 
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    if(!(*return_value___errno_location$4 == 4))
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    if(!(*return_value___errno_location_4 == 4))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      debug_output((signed char)0, "Error - can't select (receive_packet): %s\n", return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      debug_output((signed char)0, "Error - can't select (receive_packet): %s\n", return_value_strerror_3);
       check_active_interfaces();
       interface_listen_sockets();
       return (signed char)-1;
@@ -9468,16 +9468,16 @@ signed char receive_packet(unsigned char *packet_buff, signed int packet_buff_le
       batman_if = (struct batman_if *)((char *)if_pos - (signed long int)(unsigned long int)&((struct batman_if *)0)->list);
       if(!((tmp_wait_set.fds_bits[(signed long int)(batman_if->udp_recv_sock / 8)] & (signed long int)(1UL << batman_if->udp_recv_sock % 8)) == 0l))
       {
-        signed long int return_value_recvfrom$7;
-        return_value_recvfrom$7=recvfrom(batman_if->udp_recv_sock, (void *)packet_buff, (unsigned long int)(packet_buff_len - 1), 0, (struct sockaddr *)&addr, &addr_len);
-        *packet_len = (signed short int)return_value_recvfrom$7;
+        signed long int return_value_recvfrom_7;
+        return_value_recvfrom_7=recvfrom(batman_if->udp_recv_sock, (void *)packet_buff, (unsigned long int)(packet_buff_len - 1), 0, (struct sockaddr *)&addr, &addr_len);
+        *packet_len = (signed short int)return_value_recvfrom_7;
         if(!((signed int)*packet_len >= 0))
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          char *return_value_strerror$6;
-          return_value_strerror$6=strerror(*return_value___errno_location$5);
-          debug_output((signed char)0, "Error - can't receive packet: %s\n", return_value_strerror$6);
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          char *return_value_strerror_6;
+          return_value_strerror_6=strerror(*return_value___errno_location_5);
+          debug_output((signed char)0, "Error - can't receive packet: %s\n", return_value_strerror_6);
           deactivate_interface(batman_if);
           return (signed char)-1;
         }
@@ -9650,31 +9650,31 @@ signed int run_cmd(char *cmd)
 {
   signed int error;
   signed int pipes[2l];
-  signed int run_cmd$$1$$stderr = -1;
+  signed int run_cmd__1__stderr = -1;
   signed int ret = 0;
   char error_log[256l];
-  signed int return_value_pipe$3;
-  return_value_pipe$3=pipe(pipes);
-  if(!(return_value_pipe$3 >= 0))
+  signed int return_value_pipe_3;
+  return_value_pipe_3=pipe(pipes);
+  if(!(return_value_pipe_3 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    debug_output((signed char)3, "Warning - could not create a pipe to '%s': %s\n", cmd, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    debug_output((signed char)3, "Warning - could not create a pipe to '%s': %s\n", cmd, return_value_strerror_2);
     return -1;
   }
 
   memset((void *)error_log, 0, (unsigned long int)256);
-  run_cmd$$1$$stderr=dup(2);
+  run_cmd__1__stderr=dup(2);
   dup2(pipes[(signed long int)1], 2);
   close(pipes[(signed long int)1]);
   error=system(cmd);
-  dup2(run_cmd$$1$$stderr, 2);
-  close(run_cmd$$1$$stderr);
-  _Bool tmp_if_expr$5;
+  dup2(run_cmd__1__stderr, 2);
+  close(run_cmd__1__stderr);
+  _Bool tmp_if_expr_5;
   /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$12
+union anonymous_12
 {
   // __in
   signed int __in;
@@ -9685,15 +9685,15 @@ union anonymous$12
 /* */
   ;
   if(!(error >= 0))
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = (((union anonymous$12){ .__in=error }).__i & 0xff00) >> 8 != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = (((union anonymous_12){ .__in=error }).__i & 0xff00) >> 8 != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_5)
   {
-    signed long int return_value_read$4;
-    return_value_read$4=read(pipes[(signed long int)0], (void *)error_log, sizeof(char [256l]) /*256ul*/ );
-    ret = (signed int)return_value_read$4;
+    signed long int return_value_read_4;
+    return_value_read_4=read(pipes[(signed long int)0], (void *)error_log, sizeof(char [256l]) /*256ul*/ );
+    ret = (signed int)return_value_read_4;
     debug_output((signed char)3, "Warning - command '%s' returned an error\n", cmd);
     if(ret >= 1)
       debug_output((signed char)3, "          %s\n", (const void *)error_log);
@@ -9719,9 +9719,9 @@ void schedule_forward_packet(struct orig_node *orig_node, struct bat_packet *in,
   unsigned int send_time;
   prof_start(7);
   debug_output((signed char)4, "schedule_forward_packet():  \n");
-  signed int return_value_rand_num$1;
-  signed int return_value_rand_num$2;
-  _Bool tmp_if_expr$3;
+  signed int return_value_rand_num_1;
+  signed int return_value_rand_num_2;
+  _Bool tmp_if_expr_3;
   if(!((signed int)in->ttl >= 2))
   {
     debug_output((signed char)4, "ttl exceeded \n");
@@ -9732,14 +9732,14 @@ void schedule_forward_packet(struct orig_node *orig_node, struct bat_packet *in,
   {
     if(!(aggregation_enabled == 0))
     {
-      return_value_rand_num$1=rand_num(100);
-      send_time = ((curr_time + (unsigned int)100) - (unsigned int)(100 / 2)) + (unsigned int)return_value_rand_num$1;
+      return_value_rand_num_1=rand_num(100);
+      send_time = ((curr_time + (unsigned int)100) - (unsigned int)(100 / 2)) + (unsigned int)return_value_rand_num_1;
     }
 
     else
     {
-      return_value_rand_num$2=rand_num(100 / 2);
-      send_time = curr_time + (unsigned int)return_value_rand_num$2;
+      return_value_rand_num_2=rand_num(100 / 2);
+      send_time = curr_time + (unsigned int)return_value_rand_num_2;
     }
     list_pos = (&forw_list)->next;
     for( ; !(list_pos == (struct list_head *)&forw_list); list_pos = list_pos->next)
@@ -9760,11 +9760,11 @@ void schedule_forward_packet(struct orig_node *orig_node, struct bat_packet *in,
                 if(!((signed int)bat_packet->ttl == 1))
                 {
                   if(forw_node_pos->own == 0)
-                    tmp_if_expr$3 = (_Bool)1;
+                    tmp_if_expr_3 = (_Bool)1;
 
                   else
-                    tmp_if_expr$3 = (signed int)forw_node_pos->if_incoming->if_num == 0 ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$3)
+                    tmp_if_expr_3 = (signed int)forw_node_pos->if_incoming->if_num == 0 ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_3)
                     break;
 
                 }
@@ -9799,12 +9799,12 @@ void schedule_forward_packet(struct orig_node *orig_node, struct bat_packet *in,
     }
     if(forw_node_aggregate == ((struct forw_node *)NULL))
     {
-      void *return_value_debugMalloc$4;
-      return_value_debugMalloc$4=debugMalloc((unsigned int)sizeof(struct forw_node) /*48ul*/ , 504);
-      forw_node_new = (struct forw_node *)return_value_debugMalloc$4;
-      void *return_value_debugMalloc$5;
-      return_value_debugMalloc$5=debugMalloc((unsigned int)512, 505);
-      forw_node_new->pack_buff = (unsigned char *)return_value_debugMalloc$5;
+      void *return_value_debugMalloc_4;
+      return_value_debugMalloc_4=debugMalloc((unsigned int)sizeof(struct forw_node) /*48ul*/ , 504);
+      forw_node_new = (struct forw_node *)return_value_debugMalloc_4;
+      void *return_value_debugMalloc_5;
+      return_value_debugMalloc_5=debugMalloc((unsigned int)512, 505);
+      forw_node_new->pack_buff = (unsigned char *)return_value_debugMalloc_5;
       do
         (&forw_node_new->list)->next = &forw_node_new->list;
       while((_Bool)0);
@@ -9878,32 +9878,32 @@ void schedule_own_packet(struct batman_if *batman_if)
   struct hash_it_t *hashit = (struct hash_it_t *)(void *)0;
   struct orig_node *orig_node;
   debug_output((signed char)4, "schedule_own_packet(): %s \n", batman_if->dev);
-  void *return_value_debugMalloc$1;
-  return_value_debugMalloc$1=debugMalloc((unsigned int)sizeof(struct forw_node) /*48ul*/ , 501);
-  forw_node_new = (struct forw_node *)return_value_debugMalloc$1;
+  void *return_value_debugMalloc_1;
+  return_value_debugMalloc_1=debugMalloc((unsigned int)sizeof(struct forw_node) /*48ul*/ , 501);
+  forw_node_new = (struct forw_node *)return_value_debugMalloc_1;
   do
     (&forw_node_new->list)->next = &forw_node_new->list;
   while((_Bool)0);
-  unsigned int return_value_get_time_msec$2;
-  return_value_get_time_msec$2=get_time_msec();
-  signed int return_value_rand_num$3;
-  return_value_rand_num$3=rand_num(2 * 100);
-  forw_node_new->send_time = ((return_value_get_time_msec$2 + (unsigned int)originator_interval) - (unsigned int)100) + (unsigned int)return_value_rand_num$3;
+  unsigned int return_value_get_time_msec_2;
+  return_value_get_time_msec_2=get_time_msec();
+  signed int return_value_rand_num_3;
+  return_value_rand_num_3=rand_num(2 * 100);
+  forw_node_new->send_time = ((return_value_get_time_msec_2 + (unsigned int)originator_interval) - (unsigned int)100) + (unsigned int)return_value_rand_num_3;
   forw_node_new->if_incoming = batman_if;
   forw_node_new->own = (unsigned char)1;
   forw_node_new->num_packets = (unsigned char)0;
   forw_node_new->direct_link_flags = (unsigned int)0;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_6;
   if((signed int)num_hna_local >= 1)
-    tmp_if_expr$6 = (signed int)batman_if->if_num == 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_6 = (signed int)batman_if->if_num == 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$6 = (_Bool)0;
-  if(tmp_if_expr$6)
+    tmp_if_expr_6 = (_Bool)0;
+  if(tmp_if_expr_6)
   {
-    void *return_value_debugMalloc$4;
-    return_value_debugMalloc$4=debugMalloc((unsigned int)512, 502);
-    forw_node_new->pack_buff = (unsigned char *)return_value_debugMalloc$4;
+    void *return_value_debugMalloc_4;
+    return_value_debugMalloc_4=debugMalloc((unsigned int)512, 502);
+    forw_node_new->pack_buff = (unsigned char *)return_value_debugMalloc_4;
     memcpy((void *)forw_node_new->pack_buff, (const void *)(unsigned char *)&batman_if->out, sizeof(struct bat_packet) /*18ul*/ );
     memcpy((void *)(forw_node_new->pack_buff + (signed long int)sizeof(struct bat_packet) /*18ul*/ ), (const void *)hna_buff_local, (unsigned long int)((signed int)num_hna_local * 5));
     forw_node_new->pack_buff_len = (unsigned short int)(sizeof(struct bat_packet) /*18ul*/  + (unsigned long int)((signed int)num_hna_local * 5));
@@ -9912,9 +9912,9 @@ void schedule_own_packet(struct batman_if *batman_if)
 
   else
   {
-    void *return_value_debugMalloc$5;
-    return_value_debugMalloc$5=debugMalloc((unsigned int)512, 503);
-    forw_node_new->pack_buff = (unsigned char *)return_value_debugMalloc$5;
+    void *return_value_debugMalloc_5;
+    return_value_debugMalloc_5=debugMalloc((unsigned int)512, 503);
+    forw_node_new->pack_buff = (unsigned char *)return_value_debugMalloc_5;
     memcpy((void *)forw_node_new->pack_buff, (const void *)&batman_if->out, sizeof(struct bat_packet) /*18ul*/ );
     forw_node_new->pack_buff_len = (unsigned short int)sizeof(struct bat_packet) /*18ul*/ ;
     ((struct bat_packet *)forw_node_new->pack_buff)->hna_len = (unsigned char)0;
@@ -9947,9 +9947,9 @@ void schedule_own_packet(struct batman_if *batman_if)
     orig_node = (struct orig_node *)hashit->bucket->data;
     debug_output((signed char)4, "count own bcast (schedule_own_packet): old = %i, ", orig_node->bcast_own_sum[(signed long int)batman_if->if_num]);
     bit_get_packet((unsigned long int *)&orig_node->bcast_own[(signed long int)((signed int)batman_if->if_num * (signed int)num_words)], (signed short int)1, (signed char)0);
-    signed int return_value_bit_packet_count$7;
-    return_value_bit_packet_count$7=bit_packet_count((unsigned long int *)&orig_node->bcast_own[(signed long int)((signed int)batman_if->if_num * (signed int)num_words)]);
-    orig_node->bcast_own_sum[(signed long int)batman_if->if_num] = (unsigned char)return_value_bit_packet_count$7;
+    signed int return_value_bit_packet_count_7;
+    return_value_bit_packet_count_7=bit_packet_count((unsigned long int *)&orig_node->bcast_own[(signed long int)((signed int)batman_if->if_num * (signed int)num_words)]);
+    orig_node->bcast_own_sum[(signed long int)batman_if->if_num] = (unsigned char)return_value_bit_packet_count_7;
     debug_output((signed char)4, "new = %i \n", orig_node->bcast_own_sum[(signed long int)batman_if->if_num]);
   }
   while((_Bool)1);
@@ -9983,11 +9983,11 @@ void send_outstanding_packets(unsigned int curr_time)
   prof_start(8);
   forw_pos = (&forw_list)->next;
   temp = forw_pos->next;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  char *tmp_if_expr$7;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  char *tmp_if_expr_7;
   for( ; !(forw_pos == (struct list_head *)&forw_list); temp = forw_pos->next)
   {
     forw_node = (struct forw_node *)((char *)forw_pos - (signed long int)(unsigned long int)&((struct forw_node *)0)->list);
@@ -10003,30 +10003,30 @@ void send_outstanding_packets(unsigned int curr_time)
     else
     {
       if(!(directlink == 0))
-        tmp_if_expr$3 = (signed int)bat_packet->ttl == 1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)bat_packet->ttl == 1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
         if(!(forw_node->own == 0))
-          tmp_if_expr$4 = (signed int)forw_node->if_incoming->if_num > 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (signed int)forw_node->if_incoming->if_num > 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (_Bool)0;
+        tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
+      if(tmp_if_expr_5)
       {
-        unsigned short int return_value_ntohs$1;
-        return_value_ntohs$1=ntohs(bat_packet->seqno);
-        debug_output((signed char)4, "%s packet (originator %s, seqno %d, TTL %d) on interface %s\n", forw_node->own != 0 ? "Sending own" : "Forwarding", (const void *)orig_str, return_value_ntohs$1, bat_packet->ttl, forw_node->if_incoming->dev);
-        signed char return_value_send_udp_packet$2;
-        return_value_send_udp_packet$2=send_udp_packet(forw_node->pack_buff, (signed int)forw_node->pack_buff_len, &forw_node->if_incoming->broad, forw_node->if_incoming->udp_send_sock, forw_node->if_incoming);
-        if(!((signed int)return_value_send_udp_packet$2 >= 0))
+        unsigned short int return_value_ntohs_1;
+        return_value_ntohs_1=ntohs(bat_packet->seqno);
+        debug_output((signed char)4, "%s packet (originator %s, seqno %d, TTL %d) on interface %s\n", forw_node->own != 0 ? "Sending own" : "Forwarding", (const void *)orig_str, return_value_ntohs_1, bat_packet->ttl, forw_node->if_incoming->dev);
+        signed char return_value_send_udp_packet_2;
+        return_value_send_udp_packet_2=send_udp_packet(forw_node->pack_buff, (signed int)forw_node->pack_buff_len, &forw_node->if_incoming->broad, forw_node->if_incoming->udp_send_sock, forw_node->if_incoming);
+        if(!((signed int)return_value_send_udp_packet_2 >= 0))
           deactivate_interface(forw_node->if_incoming);
 
         goto packet_free;
@@ -10048,11 +10048,11 @@ void send_outstanding_packets(unsigned int curr_time)
             break;
 
           if(!((forw_node->direct_link_flags & (unsigned int)(1 << (signed int)curr_packet_num)) == 0u))
-            tmp_if_expr$6 = forw_node->if_incoming == batman_if ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = forw_node->if_incoming == batman_if ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          if(tmp_if_expr$6)
+            tmp_if_expr_6 = (_Bool)0;
+          if(tmp_if_expr_6)
             bat_packet->flags = bat_packet->flags | (unsigned char)0x40;
 
           else
@@ -10072,20 +10072,20 @@ void send_outstanding_packets(unsigned int curr_time)
           }
 
           if((signed int)curr_packet_num >= 1)
-            tmp_if_expr$7 = "Forwarding";
+            tmp_if_expr_7 = "Forwarding";
 
           else
-            tmp_if_expr$7 = forw_node->own != 0 ? "Sending own" : "Forwarding";
-          unsigned short int return_value_ntohs$8;
-          return_value_ntohs$8=ntohs(bat_packet->seqno);
-          debug_output((signed char)4, "%s %spacket (originator %s, seqno %d, TQ %d, TTL %d, IDF %s) on interface %s\n", tmp_if_expr$7, (signed int)curr_packet_num > 0 ? "aggregated " : "", (const void *)orig_str, return_value_ntohs$8, bat_packet->tq, bat_packet->ttl, ((signed int)bat_packet->flags & 0x40) != 0 ? "on" : "off", batman_if->dev);
+            tmp_if_expr_7 = forw_node->own != 0 ? "Sending own" : "Forwarding";
+          unsigned short int return_value_ntohs_8;
+          return_value_ntohs_8=ntohs(bat_packet->seqno);
+          debug_output((signed char)4, "%s %spacket (originator %s, seqno %d, TQ %d, TTL %d, IDF %s) on interface %s\n", tmp_if_expr_7, (signed int)curr_packet_num > 0 ? "aggregated " : "", (const void *)orig_str, return_value_ntohs_8, bat_packet->tq, bat_packet->ttl, ((signed int)bat_packet->flags & 0x40) != 0 ? "on" : "off", batman_if->dev);
           curr_packet_len = curr_packet_len + (signed short int)(sizeof(struct bat_packet) /*18ul*/  + (unsigned long int)((signed int)bat_packet->hna_len * 5));
           curr_packet_num = curr_packet_num + 1;
           bat_packet = (struct bat_packet *)(forw_node->pack_buff + (signed long int)curr_packet_len);
         }
-        signed char return_value_send_udp_packet$9;
-        return_value_send_udp_packet$9=send_udp_packet(forw_node->pack_buff, (signed int)forw_node->pack_buff_len, &batman_if->broad, batman_if->udp_send_sock, batman_if);
-        if(!((signed int)return_value_send_udp_packet$9 >= 0))
+        signed char return_value_send_udp_packet_9;
+        return_value_send_udp_packet_9=send_udp_packet(forw_node->pack_buff, (signed int)forw_node->pack_buff_len, &batman_if->broad, batman_if->udp_send_sock, batman_if);
+        if(!((signed int)return_value_send_udp_packet_9 >= 0))
           deactivate_interface(batman_if);
 
       }
@@ -10125,30 +10125,30 @@ signed char send_udp_packet(unsigned char *packet_buff, signed int packet_buff_l
 
   __CPROVER_DUMP_L1:
     ;
-    signed long int return_value_sendto$7;
-    return_value_sendto$7=sendto(send_sock, (const void *)packet_buff, (unsigned long int)packet_buff_len, 0, (struct sockaddr *)broad, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-    if(!(return_value_sendto$7 >= 0l))
+    signed long int return_value_sendto_7;
+    return_value_sendto_7=sendto(send_sock, (const void *)packet_buff, (unsigned long int)packet_buff_len, 0, (struct sockaddr *)broad, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+    if(!(return_value_sendto_7 >= 0l))
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      if(*return_value___errno_location$6 == 1)
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      if(*return_value___errno_location_6 == 1)
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        unsigned short int return_value_ntohs$3;
-        return_value_ntohs$3=ntohs(broad->sin_port);
-        debug_output((signed char)0, "Error - can't send udp packet: %s.\nDoes your firewall allow outgoing packets on port %i ?\n", return_value_strerror$2, return_value_ntohs$3);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        unsigned short int return_value_ntohs_3;
+        return_value_ntohs_3=ntohs(broad->sin_port);
+        debug_output((signed char)0, "Error - can't send udp packet: %s.\nDoes your firewall allow outgoing packets on port %i ?\n", return_value_strerror_2, return_value_ntohs_3);
       }
 
       else
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        char *return_value_strerror$5;
-        return_value_strerror$5=strerror(*return_value___errno_location$4);
-        debug_output((signed char)0, "Error - can't send udp packet: %s\n", return_value_strerror$5);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        char *return_value_strerror_5;
+        return_value_strerror_5=strerror(*return_value___errno_location_4);
+        debug_output((signed char)0, "Error - can't send udp packet: %s\n", return_value_strerror_5);
       }
       return (signed char)-1;
     }
@@ -10234,15 +10234,15 @@ signed char set_tun_addr(signed int fd, unsigned int tun_addr, char *tun_dev)
   addr.sin_family = (unsigned short int)2;
   memcpy((void *)&ifr_tun.ifr_ifru.ifru_addr, (const void *)&addr, sizeof(struct sockaddr) /*16ul*/ );
   strncpy(ifr_tun.ifr_ifrn.ifrn_name, tun_dev, (unsigned long int)(16 - 1));
-  signed int return_value_ioctl$3;
-  return_value_ioctl$3=ioctl(fd, (unsigned long int)0x8916, &ifr_tun);
-  if(!(return_value_ioctl$3 >= 0))
+  signed int return_value_ioctl_3;
+  return_value_ioctl_3=ioctl(fd, (unsigned long int)0x8916, &ifr_tun);
+  if(!(return_value_ioctl_3 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    debug_output((signed char)0, "Error - can't set tun address (SIOCSIFADDR): %s\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    debug_output((signed char)0, "Error - can't set tun address (SIOCSIFADDR): %s\n", return_value_strerror_2);
     return (signed char)-1;
   }
 
@@ -10293,26 +10293,26 @@ __CPROVER_DUMP_L7:
 static signed long int times_wrapper(void)
 {
   signed int save_errno;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  save_errno = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  save_errno = *return_value___errno_location_1;
   signed long int ret;
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  *return_value___errno_location$2 = 0;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  *return_value___errno_location_2 = 0;
   ret=times(&dummy_tms_struct);
-  signed int *return_value___errno_location$4;
-  return_value___errno_location$4=__errno_location();
-  if(!(*return_value___errno_location$4 == 0))
+  signed int *return_value___errno_location_4;
+  return_value___errno_location_4=__errno_location();
+  if(!(*return_value___errno_location_4 == 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    ret = (signed long int)-(*return_value___errno_location$3);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    ret = (signed long int)-(*return_value___errno_location_3);
   }
 
-  signed int *return_value___errno_location$5;
-  return_value___errno_location$5=__errno_location();
-  *return_value___errno_location$5 = save_errno;
+  signed int *return_value___errno_location_5;
+  return_value___errno_location_5=__errno_location();
+  *return_value___errno_location_5 = save_errno;
   return ret;
 }
 
@@ -10320,7 +10320,7 @@ static signed long int times_wrapper(void)
 // file posix/../os.h line 98
 void * unix_listen(void *arg)
 {
-  struct unix_client *unix_listen$$1$$unix_client;
+  struct unix_client *unix_listen__1__unix_client;
   struct debug_level_info *debug_level_info;
   struct list_head *list_pos;
   struct list_head *unix_pos_tmp;
@@ -10343,8 +10343,8 @@ void * unix_listen(void *arg)
   char str[16l];
   char was_gateway;
   char tmp_unix_value;
-  struct anonymous$15 wait_sockets;
-  struct anonymous$15 tmp_wait_sockets;
+  struct anonymous_15 wait_sockets;
+  struct anonymous_15 tmp_wait_sockets;
   unsigned int sun_size = (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ ;
   unix_if.client_list.next = (struct list_head *)&unix_if.client_list;
   unix_if.client_list.prev = (struct list_head *)&unix_if.client_list;
@@ -10352,72 +10352,72 @@ void * unix_listen(void *arg)
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$15) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&wait_sockets)->fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_15) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&wait_sockets)->fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   (&wait_sockets)->fds_bits[(signed long int)(unix_if.unix_sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wait_sockets)->fds_bits[(signed long int)(unix_if.unix_sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << unix_if.unix_sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
   max_sock = unix_if.unix_sock;
-  signed char return_value_is_aborted$1;
-  signed int *return_value___errno_location$7;
-  char *return_value_strerror$8;
-  signed int *return_value___errno_location$10;
-  char *return_value_strerror$11;
-  signed int *return_value___errno_location$13;
-  char *return_value_strerror$14;
-  signed int *return_value___errno_location$17;
-  char *return_value_strerror$18;
-  _Bool tmp_if_expr$21;
-  signed char return_value_probe_tun$20;
-  _Bool tmp_if_expr$25;
-  signed char return_value_probe_tun$24;
-  signed int *return_value___errno_location$27;
-  char *return_value_strerror$28;
-  signed int *return_value___errno_location$29;
-  char *return_value_strerror$30;
-  signed int *return_value___errno_location$32;
-  char *return_value_strerror$33;
-  signed int *return_value___errno_location$37;
+  signed char return_value_is_aborted_1;
+  signed int *return_value___errno_location_7;
+  char *return_value_strerror_8;
+  signed int *return_value___errno_location_10;
+  char *return_value_strerror_11;
+  signed int *return_value___errno_location_13;
+  char *return_value_strerror_14;
+  signed int *return_value___errno_location_17;
+  char *return_value_strerror_18;
+  _Bool tmp_if_expr_21;
+  signed char return_value_probe_tun_20;
+  _Bool tmp_if_expr_25;
+  signed char return_value_probe_tun_24;
+  signed int *return_value___errno_location_27;
+  char *return_value_strerror_28;
+  signed int *return_value___errno_location_29;
+  char *return_value_strerror_30;
+  signed int *return_value___errno_location_32;
+  char *return_value_strerror_33;
+  signed int *return_value___errno_location_37;
   do
   {
-    return_value_is_aborted$1=is_aborted();
-    if(!(return_value_is_aborted$1 == 0))
+    return_value_is_aborted_1=is_aborted();
+    if(!(return_value_is_aborted_1 == 0))
       break;
 
     tv.tv_sec = (signed long int)1;
     tv.tv_usec = (signed long int)0;
-    memcpy((void *)&tmp_wait_sockets, (const void *)&wait_sockets, sizeof(struct anonymous$15) /*128ul*/ );
-    signed int return_value_select$2;
-    return_value_select$2=select(max_sock + 1, &tmp_wait_sockets, (struct anonymous$15 *)(void *)0, (struct anonymous$15 *)(void *)0, &tv);
-    res = (signed char)return_value_select$2;
+    memcpy((void *)&tmp_wait_sockets, (const void *)&wait_sockets, sizeof(struct anonymous_15) /*128ul*/ );
+    signed int return_value_select_2;
+    return_value_select_2=select(max_sock + 1, &tmp_wait_sockets, (struct anonymous_15 *)(void *)0, (struct anonymous_15 *)(void *)0, &tv);
+    res = (signed char)return_value_select_2;
     if((signed int)res >= 1)
     {
       if(!((tmp_wait_sockets.fds_bits[(signed long int)(unix_if.unix_sock / 8)] & (signed long int)(1UL << unix_if.unix_sock % 8)) == 0l))
       {
-        void *return_value_debugMalloc$3;
-        return_value_debugMalloc$3=debugMalloc((unsigned int)sizeof(struct unix_client) /*16ul*/ , 201);
-        unix_listen$$1$$unix_client = (struct unix_client *)return_value_debugMalloc$3;
-        memset((void *)unix_listen$$1$$unix_client, 0, sizeof(struct unix_client) /*16ul*/ );
-        unix_listen$$1$$unix_client->sock=accept(unix_if.unix_sock, (struct sockaddr *)&sun_addr, &sun_size);
-        if(unix_listen$$1$$unix_client->sock == -1)
+        void *return_value_debugMalloc_3;
+        return_value_debugMalloc_3=debugMalloc((unsigned int)sizeof(struct unix_client) /*16ul*/ , 201);
+        unix_listen__1__unix_client = (struct unix_client *)return_value_debugMalloc_3;
+        memset((void *)unix_listen__1__unix_client, 0, sizeof(struct unix_client) /*16ul*/ );
+        unix_listen__1__unix_client->sock=accept(unix_if.unix_sock, (struct sockaddr *)&sun_addr, &sun_size);
+        if(unix_listen__1__unix_client->sock == -1)
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          char *return_value_strerror$5;
-          return_value_strerror$5=strerror(*return_value___errno_location$4);
-          debug_output((signed char)0, "Error - can't accept unix client: %s\n", return_value_strerror$5);
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          char *return_value_strerror_5;
+          return_value_strerror_5=strerror(*return_value___errno_location_4);
+          debug_output((signed char)0, "Error - can't accept unix client: %s\n", return_value_strerror_5);
           continue;
         }
 
         do
-          (&unix_listen$$1$$unix_client->list)->next = &unix_listen$$1$$unix_client->list;
+          (&unix_listen__1__unix_client->list)->next = &unix_listen__1__unix_client->list;
         while((_Bool)0);
-        (&wait_sockets)->fds_bits[(signed long int)(unix_listen$$1$$unix_client->sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wait_sockets)->fds_bits[(signed long int)(unix_listen$$1$$unix_client->sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << unix_listen$$1$$unix_client->sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-        if(!(max_sock >= unix_listen$$1$$unix_client->sock))
-          max_sock = unix_listen$$1$$unix_client->sock;
+        (&wait_sockets)->fds_bits[(signed long int)(unix_listen__1__unix_client->sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wait_sockets)->fds_bits[(signed long int)(unix_listen__1__unix_client->sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << unix_listen__1__unix_client->sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+        if(!(max_sock >= unix_listen__1__unix_client->sock))
+          max_sock = unix_listen__1__unix_client->sock;
 
-        unix_opts=fcntl(unix_listen$$1$$unix_client->sock, 3, 0);
-        fcntl(unix_listen$$1$$unix_client->sock, 4, unix_opts | 04000);
-        list_add_tail(&unix_listen$$1$$unix_client->list, &unix_if.client_list);
+        unix_opts=fcntl(unix_listen__1__unix_client->sock, 3, 0);
+        fcntl(unix_listen__1__unix_client->sock, 4, unix_opts | 04000);
+        list_add_tail(&unix_listen__1__unix_client->list, &unix_if.client_list);
         debug_output((signed char)3, "Unix socket: got connection\n");
       }
 
@@ -10429,23 +10429,23 @@ void * unix_listen(void *arg)
         unix_pos_tmp = list_pos->next;
         for( ; !(list_pos == (struct list_head *)&unix_if.client_list); unix_pos_tmp = list_pos->next)
         {
-          unix_listen$$1$$unix_client = (struct unix_client *)((char *)list_pos - (signed long int)(unsigned long int)&((struct unix_client *)0)->list);
-          if(!((tmp_wait_sockets.fds_bits[(signed long int)(unix_listen$$1$$unix_client->sock / 8)] & (signed long int)(1UL << unix_listen$$1$$unix_client->sock % 8)) == 0l))
+          unix_listen__1__unix_client = (struct unix_client *)((char *)list_pos - (signed long int)(unsigned long int)&((struct unix_client *)0)->list);
+          if(!((tmp_wait_sockets.fds_bits[(signed long int)(unix_listen__1__unix_client->sock / 8)] & (signed long int)(1UL << unix_listen__1__unix_client->sock % 8)) == 0l))
           {
-            signed long int return_value_read$6;
-            return_value_read$6=read(unix_listen$$1$$unix_client->sock, (void *)buff, sizeof(char [100l]) /*100ul*/ );
-            status = (signed int)return_value_read$6;
+            signed long int return_value_read_6;
+            return_value_read_6=read(unix_listen__1__unix_client->sock, (void *)buff, sizeof(char [100l]) /*100ul*/ );
+            status = (signed int)return_value_read_6;
             if(status >= 1)
             {
-              if(!(max_sock >= unix_listen$$1$$unix_client->sock))
-                max_sock = unix_listen$$1$$unix_client->sock;
+              if(!(max_sock >= unix_listen__1__unix_client->sock))
+                max_sock = unix_listen__1__unix_client->sock;
 
               if((signed int)buff[0l] == 97)
               {
                 if(status >= 3)
                 {
                   hna_local_task_add_str(buff + (signed long int)2, (unsigned char)0, (unsigned char)1);
-                  dprintf(unix_listen$$1$$unix_client->sock, "EOD\n");
+                  dprintf(unix_listen__1__unix_client->sock, "EOD\n");
                 }
 
               }
@@ -10456,7 +10456,7 @@ void * unix_listen(void *arg)
                   if(status >= 3)
                   {
                     hna_local_task_add_str(buff + (signed long int)2, (unsigned char)1, (unsigned char)1);
-                    dprintf(unix_listen$$1$$unix_client->sock, "EOD\n");
+                    dprintf(unix_listen__1__unix_client->sock, "EOD\n");
                   }
 
                 }
@@ -10470,27 +10470,27 @@ void * unix_listen(void *arg)
                       {
                         if((signed int)debug_level_max >= (signed int)buff[2l])
                         {
-                          if(!((signed int)unix_listen$$1$$unix_client->debug_level == 0))
+                          if(!((signed int)unix_listen__1__unix_client->debug_level == 0))
                           {
-                            prev_list_head = (struct list_head *)debug_clients.fd_list[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level - 1)];
-                            signed int return_value_pthread_mutex_lock$9;
-                            return_value_pthread_mutex_lock$9=pthread_mutex_lock((union anonymous$16 *)debug_clients.mutex[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level - 1)]);
-                            if(!(return_value_pthread_mutex_lock$9 == 0))
+                            prev_list_head = (struct list_head *)debug_clients.fd_list[(signed long int)((signed int)unix_listen__1__unix_client->debug_level - 1)];
+                            signed int return_value_pthread_mutex_lock_9;
+                            return_value_pthread_mutex_lock_9=pthread_mutex_lock((union anonymous_16 *)debug_clients.mutex[(signed long int)((signed int)unix_listen__1__unix_client->debug_level - 1)]);
+                            if(!(return_value_pthread_mutex_lock_9 == 0))
                             {
-                              return_value___errno_location$7=__errno_location();
-                              return_value_strerror$8=strerror(*return_value___errno_location$7);
-                              debug_output((signed char)0, "Error - could not lock mutex (unix_listen => 1): %s \n", return_value_strerror$8);
+                              return_value___errno_location_7=__errno_location();
+                              return_value_strerror_8=strerror(*return_value___errno_location_7);
+                              debug_output((signed char)0, "Error - could not lock mutex (unix_listen => 1): %s \n", return_value_strerror_8);
                             }
 
-                            debug_pos = ((struct list_head *)debug_clients.fd_list[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level - 1)])->next;
+                            debug_pos = ((struct list_head *)debug_clients.fd_list[(signed long int)((signed int)unix_listen__1__unix_client->debug_level - 1)])->next;
                             debug_pos_tmp = debug_pos->next;
-                            for( ; !(debug_pos == (struct list_head *)debug_clients.fd_list[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level + -1)]); debug_pos_tmp = debug_pos->next)
+                            for( ; !(debug_pos == (struct list_head *)debug_clients.fd_list[(signed long int)((signed int)unix_listen__1__unix_client->debug_level + -1)]); debug_pos_tmp = debug_pos->next)
                             {
                               debug_level_info = (struct debug_level_info *)((char *)debug_pos - (signed long int)(unsigned long int)&((struct debug_level_info *)0)->list);
-                              if(debug_level_info->fd == unix_listen$$1$$unix_client->sock)
+                              if(debug_level_info->fd == unix_listen__1__unix_client->sock)
                               {
-                                list_del(prev_list_head, debug_pos, (struct list_head_first *)debug_clients.fd_list[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level - 1)]);
-                                debug_clients.clients_num[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level - 1)] = debug_clients.clients_num[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level - 1)] - 1;
+                                list_del(prev_list_head, debug_pos, (struct list_head_first *)debug_clients.fd_list[(signed long int)((signed int)unix_listen__1__unix_client->debug_level - 1)]);
+                                debug_clients.clients_num[(signed long int)((signed int)unix_listen__1__unix_client->debug_level - 1)] = debug_clients.clients_num[(signed long int)((signed int)unix_listen__1__unix_client->debug_level - 1)] - 1;
                                 debugFree((void *)debug_pos, 1201);
                                 break;
                               }
@@ -10498,51 +10498,51 @@ void * unix_listen(void *arg)
                               prev_list_head = &debug_level_info->list;
                               debug_pos = debug_pos_tmp;
                             }
-                            signed int return_value_pthread_mutex_unlock$12;
-                            return_value_pthread_mutex_unlock$12=pthread_mutex_unlock((union anonymous$16 *)debug_clients.mutex[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level - 1)]);
-                            if(!(return_value_pthread_mutex_unlock$12 == 0))
+                            signed int return_value_pthread_mutex_unlock_12;
+                            return_value_pthread_mutex_unlock_12=pthread_mutex_unlock((union anonymous_16 *)debug_clients.mutex[(signed long int)((signed int)unix_listen__1__unix_client->debug_level - 1)]);
+                            if(!(return_value_pthread_mutex_unlock_12 == 0))
                             {
-                              return_value___errno_location$10=__errno_location();
-                              return_value_strerror$11=strerror(*return_value___errno_location$10);
-                              debug_output((signed char)0, "Error - could not unlock mutex (unix_listen => 1): %s \n", return_value_strerror$11);
+                              return_value___errno_location_10=__errno_location();
+                              return_value_strerror_11=strerror(*return_value___errno_location_10);
+                              debug_output((signed char)0, "Error - could not unlock mutex (unix_listen => 1): %s \n", return_value_strerror_11);
                             }
 
                           }
 
-                          if(!((signed int)unix_listen$$1$$unix_client->debug_level == (signed int)buff[2l]))
+                          if(!((signed int)unix_listen__1__unix_client->debug_level == (signed int)buff[2l]))
                           {
-                            signed int return_value_pthread_mutex_lock$15;
-                            return_value_pthread_mutex_lock$15=pthread_mutex_lock((union anonymous$16 *)debug_clients.mutex[(signed long int)((signed int)buff[(signed long int)2] - 1)]);
-                            if(!(return_value_pthread_mutex_lock$15 == 0))
+                            signed int return_value_pthread_mutex_lock_15;
+                            return_value_pthread_mutex_lock_15=pthread_mutex_lock((union anonymous_16 *)debug_clients.mutex[(signed long int)((signed int)buff[(signed long int)2] - 1)]);
+                            if(!(return_value_pthread_mutex_lock_15 == 0))
                             {
-                              return_value___errno_location$13=__errno_location();
-                              return_value_strerror$14=strerror(*return_value___errno_location$13);
-                              debug_output((signed char)0, "Error - could not lock mutex (unix_listen => 2): %s \n", return_value_strerror$14);
+                              return_value___errno_location_13=__errno_location();
+                              return_value_strerror_14=strerror(*return_value___errno_location_13);
+                              debug_output((signed char)0, "Error - could not lock mutex (unix_listen => 2): %s \n", return_value_strerror_14);
                             }
 
-                            void *return_value_debugMalloc$16;
-                            return_value_debugMalloc$16=debugMalloc((unsigned int)sizeof(struct debug_level_info) /*16ul*/ , 202);
-                            debug_level_info = (struct debug_level_info *)return_value_debugMalloc$16;
+                            void *return_value_debugMalloc_16;
+                            return_value_debugMalloc_16=debugMalloc((unsigned int)sizeof(struct debug_level_info) /*16ul*/ , 202);
+                            debug_level_info = (struct debug_level_info *)return_value_debugMalloc_16;
                             do
                               (&debug_level_info->list)->next = &debug_level_info->list;
                             while((_Bool)0);
-                            debug_level_info->fd = unix_listen$$1$$unix_client->sock;
+                            debug_level_info->fd = unix_listen__1__unix_client->sock;
                             list_add(&debug_level_info->list, (struct list_head_first *)debug_clients.fd_list[(signed long int)((signed int)buff[(signed long int)2] - 1)]);
                             debug_clients.clients_num[(signed long int)((signed int)buff[(signed long int)2] - 1)] = debug_clients.clients_num[(signed long int)((signed int)buff[(signed long int)2] - 1)] + 1;
-                            unix_listen$$1$$unix_client->debug_level = (unsigned char)buff[(signed long int)2];
-                            signed int return_value_pthread_mutex_unlock$19;
-                            return_value_pthread_mutex_unlock$19=pthread_mutex_unlock((union anonymous$16 *)debug_clients.mutex[(signed long int)((signed int)buff[(signed long int)2] - 1)]);
-                            if(!(return_value_pthread_mutex_unlock$19 == 0))
+                            unix_listen__1__unix_client->debug_level = (unsigned char)buff[(signed long int)2];
+                            signed int return_value_pthread_mutex_unlock_19;
+                            return_value_pthread_mutex_unlock_19=pthread_mutex_unlock((union anonymous_16 *)debug_clients.mutex[(signed long int)((signed int)buff[(signed long int)2] - 1)]);
+                            if(!(return_value_pthread_mutex_unlock_19 == 0))
                             {
-                              return_value___errno_location$17=__errno_location();
-                              return_value_strerror$18=strerror(*return_value___errno_location$17);
-                              debug_output((signed char)0, "Error - could not unlock mutex (unix_listen => 2): %s \n", return_value_strerror$18);
+                              return_value___errno_location_17=__errno_location();
+                              return_value_strerror_18=strerror(*return_value___errno_location_17);
+                              debug_output((signed char)0, "Error - could not unlock mutex (unix_listen => 2): %s \n", return_value_strerror_18);
                             }
 
                           }
 
                           else
-                            unix_listen$$1$$unix_client->debug_level = (unsigned char)0;
+                            unix_listen__1__unix_client->debug_level = (unsigned char)0;
                         }
 
                       }
@@ -10554,8 +10554,8 @@ void * unix_listen(void *arg)
                   else
                     if((signed int)buff[0l] == 105)
                     {
-                      internal_output((unsigned int)unix_listen$$1$$unix_client->sock);
-                      dprintf(unix_listen$$1$$unix_client->sock, "EOD\n");
+                      internal_output((unsigned int)unix_listen__1__unix_client->sock);
+                      dprintf(unix_listen__1__unix_client->sock, "EOD\n");
                     }
 
                     else
@@ -10564,14 +10564,14 @@ void * unix_listen(void *arg)
                         if(status >= 3)
                         {
                           if((signed int)buff[2l] == 0)
-                            tmp_if_expr$21 = (_Bool)1;
+                            tmp_if_expr_21 = (_Bool)1;
 
                           else
                           {
-                            return_value_probe_tun$20=probe_tun((unsigned char)0);
-                            tmp_if_expr$21 = return_value_probe_tun$20 != 0 ? (_Bool)1 : (_Bool)0;
+                            return_value_probe_tun_20=probe_tun((unsigned char)0);
+                            tmp_if_expr_21 = return_value_probe_tun_20 != 0 ? (_Bool)1 : (_Bool)0;
                           }
-                          if(tmp_if_expr$21)
+                          if(tmp_if_expr_21)
                           {
                             was_gateway = (char)((signed int)gateway_class > 0 ? 1 : 0);
                             gateway_class = (unsigned char)buff[(signed long int)2];
@@ -10596,7 +10596,7 @@ void * unix_listen(void *arg)
 
                         }
 
-                        dprintf(unix_listen$$1$$unix_client->sock, "EOD\n");
+                        dprintf(unix_listen__1__unix_client->sock, "EOD\n");
                       }
 
                       else
@@ -10608,7 +10608,7 @@ void * unix_listen(void *arg)
                             hop_penalty = (unsigned char)buff[(signed long int)2];
                           }
 
-                          dprintf(unix_listen$$1$$unix_client->sock, "EOD\n");
+                          dprintf(unix_listen__1__unix_client->sock, "EOD\n");
                         }
 
                         else
@@ -10616,15 +10616,15 @@ void * unix_listen(void *arg)
                           {
                             if(status >= 3)
                             {
-                              signed long int return_value_strtol$22;
-                              return_value_strtol$22=strtol(buff + (signed long int)2, (char ** restrict )(void *)0, 10);
-                              debug_output((signed char)3, "Unix socket: changing purge timeout from: %i to: %i\n", purge_timeout, return_value_strtol$22);
-                              signed long int return_value_strtol$23;
-                              return_value_strtol$23=strtol(buff + (signed long int)2, (char ** restrict )(void *)0, 10);
-                              purge_timeout = (unsigned int)return_value_strtol$23;
+                              signed long int return_value_strtol_22;
+                              return_value_strtol_22=strtol(buff + (signed long int)2, (char ** restrict )(void *)0, 10);
+                              debug_output((signed char)3, "Unix socket: changing purge timeout from: %i to: %i\n", purge_timeout, return_value_strtol_22);
+                              signed long int return_value_strtol_23;
+                              return_value_strtol_23=strtol(buff + (signed long int)2, (char ** restrict )(void *)0, 10);
+                              purge_timeout = (unsigned int)return_value_strtol_23;
                             }
 
-                            dprintf(unix_listen$$1$$unix_client->sock, "EOD\n");
+                            dprintf(unix_listen__1__unix_client->sock, "EOD\n");
                           }
 
                           else
@@ -10633,14 +10633,14 @@ void * unix_listen(void *arg)
                               if(status >= 3)
                               {
                                 if((signed int)buff[2l] == 0)
-                                  tmp_if_expr$25 = (_Bool)1;
+                                  tmp_if_expr_25 = (_Bool)1;
 
                                 else
                                 {
-                                  return_value_probe_tun$24=probe_tun((unsigned char)0);
-                                  tmp_if_expr$25 = return_value_probe_tun$24 != 0 ? (_Bool)1 : (_Bool)0;
+                                  return_value_probe_tun_24=probe_tun((unsigned char)0);
+                                  tmp_if_expr_25 = return_value_probe_tun_24 != 0 ? (_Bool)1 : (_Bool)0;
                                 }
-                                if(tmp_if_expr$25)
+                                if(tmp_if_expr_25)
                                 {
                                   tmp_unix_value = buff[(signed long int)2];
                                   if((signed int)tmp_unix_value >= 0 && !((signed int)tmp_unix_value == (signed int)routing_class) && !((signed int)tmp_unix_value >= 4))
@@ -10669,7 +10669,7 @@ void * unix_listen(void *arg)
 
                               }
 
-                              dprintf(unix_listen$$1$$unix_client->sock, "EOD\n");
+                              dprintf(unix_listen__1__unix_client->sock, "EOD\n");
                             }
 
                             else
@@ -10677,9 +10677,9 @@ void * unix_listen(void *arg)
                               {
                                 if(status >= 3)
                                 {
-                                  signed int return_value_inet_pton$26;
-                                  return_value_inet_pton$26=inet_pton(2, buff + (signed long int)2, (void *)&tmp_ip_holder);
-                                  if(return_value_inet_pton$26 >= 1)
+                                  signed int return_value_inet_pton_26;
+                                  return_value_inet_pton_26=inet_pton(2, buff + (signed long int)2, (void *)&tmp_ip_holder);
+                                  if(return_value_inet_pton_26 >= 1)
                                   {
                                     pref_gateway = tmp_ip_holder.s_addr;
                                     if(!(curr_gateway == ((struct gw_node *)NULL)))
@@ -10691,26 +10691,26 @@ void * unix_listen(void *arg)
                                     debug_output((signed char)3, "Unix socket: rejected new preferred gw (%s) - invalid IP specified\n", buff + (signed long int)2);
                                 }
 
-                                dprintf(unix_listen$$1$$unix_client->sock, "EOD\n");
+                                dprintf(unix_listen__1__unix_client->sock, "EOD\n");
                               }
 
                               else
                                 if((signed int)buff[0l] == 121)
                                 {
-                                  dprintf(unix_listen$$1$$unix_client->sock, "%s", prog_name);
+                                  dprintf(unix_listen__1__unix_client->sock, "%s", prog_name);
                                   if((signed int)routing_class >= 1)
-                                    dprintf(unix_listen$$1$$unix_client->sock, " -r %i", routing_class);
+                                    dprintf(unix_listen__1__unix_client->sock, " -r %i", routing_class);
 
                                   if(pref_gateway >= 1u)
                                   {
                                     addr_to_string(pref_gateway, str, (signed int)sizeof(char [16l]) /*16ul*/ );
-                                    dprintf(unix_listen$$1$$unix_client->sock, " -p %s", (const void *)str);
+                                    dprintf(unix_listen__1__unix_client->sock, " -p %s", (const void *)str);
                                   }
 
                                   if((signed int)gateway_class >= 1)
                                   {
                                     get_gw_speeds(gateway_class, &download_speed, &upload_speed);
-                                    dprintf(unix_listen$$1$$unix_client->sock, " -g %i%s/%i%s", download_speed > 2048 ? download_speed / 1024 : download_speed, download_speed > 2048 ? "MBit" : "KBit", upload_speed > 2048 ? upload_speed / 1024 : upload_speed, upload_speed > 2048 ? "MBit" : "KBit");
+                                    dprintf(unix_listen__1__unix_client->sock, " -g %i%s/%i%s", download_speed > 2048 ? download_speed / 1024 : download_speed, download_speed > 2048 ? "MBit" : "KBit", upload_speed > 2048 ? upload_speed / 1024 : upload_speed, upload_speed > 2048 ? "MBit" : "KBit");
                                   }
 
                                   debug_pos = (&hna_list)->next;
@@ -10718,74 +10718,74 @@ void * unix_listen(void *arg)
                                   {
                                     hna_local_entry = (struct hna_local_entry *)((char *)debug_pos - (signed long int)(unsigned long int)&((struct hna_local_entry *)0)->list);
                                     addr_to_string(hna_local_entry->addr, str, (signed int)sizeof(char [16l]) /*16ul*/ );
-                                    dprintf(unix_listen$$1$$unix_client->sock, " -a %s/%i", (const void *)str, hna_local_entry->netmask);
+                                    dprintf(unix_listen__1__unix_client->sock, " -a %s/%i", (const void *)str, hna_local_entry->netmask);
                                   }
                                   if(!((signed int)debug_level == 0))
-                                    dprintf(unix_listen$$1$$unix_client->sock, " -d %i", debug_level);
+                                    dprintf(unix_listen__1__unix_client->sock, " -d %i", debug_level);
 
                                   if(!((signed int)originator_interval == 1000))
-                                    dprintf(unix_listen$$1$$unix_client->sock, " -o %i", originator_interval);
+                                    dprintf(unix_listen__1__unix_client->sock, " -o %i", originator_interval);
 
                                   if(!(vis_if.sock == 0))
                                   {
                                     addr_to_string(vis_if.addr.sin_addr.s_addr, str, (signed int)sizeof(char [16l]) /*16ul*/ );
-                                    dprintf(unix_listen$$1$$unix_client->sock, " -s %s", (const void *)str);
+                                    dprintf(unix_listen__1__unix_client->sock, " -s %s", (const void *)str);
                                   }
 
                                   if(!(policy_routing_script == ((char *)NULL)))
-                                    dprintf(unix_listen$$1$$unix_client->sock, " --policy-routing-script %s", policy_routing_script);
+                                    dprintf(unix_listen__1__unix_client->sock, " --policy-routing-script %s", policy_routing_script);
 
                                   if(!((signed int)hop_penalty == 5))
-                                    dprintf(unix_listen$$1$$unix_client->sock, " --hop-penalty %i", hop_penalty);
+                                    dprintf(unix_listen__1__unix_client->sock, " --hop-penalty %i", hop_penalty);
 
                                   if(aggregation_enabled == 0)
-                                    dprintf(unix_listen$$1$$unix_client->sock, " --disable-aggregation");
+                                    dprintf(unix_listen__1__unix_client->sock, " --disable-aggregation");
 
                                   if(!(purge_timeout == 200000u))
-                                    dprintf(unix_listen$$1$$unix_client->sock, " --purge-timeout %u", purge_timeout);
+                                    dprintf(unix_listen__1__unix_client->sock, " --purge-timeout %u", purge_timeout);
 
                                   debug_pos = (&if_list)->next;
                                   for( ; !(debug_pos == (struct list_head *)&if_list); debug_pos = debug_pos->next)
                                   {
                                     batman_if = (struct batman_if *)((char *)debug_pos - (signed long int)(unsigned long int)&((struct batman_if *)0)->list);
-                                    dprintf(unix_listen$$1$$unix_client->sock, " %s", batman_if->dev);
+                                    dprintf(unix_listen__1__unix_client->sock, " %s", batman_if->dev);
                                   }
-                                  dprintf(unix_listen$$1$$unix_client->sock, "\nEOD\n");
+                                  dprintf(unix_listen__1__unix_client->sock, "\nEOD\n");
                                 }
 
-              prev_list_head_unix = &unix_listen$$1$$unix_client->list;
+              prev_list_head_unix = &unix_listen__1__unix_client->list;
             }
 
             else
             {
               if(!(status >= 0))
               {
-                return_value___errno_location$27=__errno_location();
-                return_value_strerror$28=strerror(*return_value___errno_location$27);
-                debug_output((signed char)0, "Error - can't read unix message: %s\n", return_value_strerror$28);
+                return_value___errno_location_27=__errno_location();
+                return_value_strerror_28=strerror(*return_value___errno_location_27);
+                debug_output((signed char)0, "Error - can't read unix message: %s\n", return_value_strerror_28);
               }
 
-              if(!((signed int)unix_listen$$1$$unix_client->debug_level == 0))
+              if(!((signed int)unix_listen__1__unix_client->debug_level == 0))
               {
-                prev_list_head = (struct list_head *)debug_clients.fd_list[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level - 1)];
-                signed int return_value_pthread_mutex_lock$31;
-                return_value_pthread_mutex_lock$31=pthread_mutex_lock((union anonymous$16 *)debug_clients.mutex[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level - 1)]);
-                if(!(return_value_pthread_mutex_lock$31 == 0))
+                prev_list_head = (struct list_head *)debug_clients.fd_list[(signed long int)((signed int)unix_listen__1__unix_client->debug_level - 1)];
+                signed int return_value_pthread_mutex_lock_31;
+                return_value_pthread_mutex_lock_31=pthread_mutex_lock((union anonymous_16 *)debug_clients.mutex[(signed long int)((signed int)unix_listen__1__unix_client->debug_level - 1)]);
+                if(!(return_value_pthread_mutex_lock_31 == 0))
                 {
-                  return_value___errno_location$29=__errno_location();
-                  return_value_strerror$30=strerror(*return_value___errno_location$29);
-                  debug_output((signed char)0, "Error - could not lock mutex (unix_listen => 3): %s \n", return_value_strerror$30);
+                  return_value___errno_location_29=__errno_location();
+                  return_value_strerror_30=strerror(*return_value___errno_location_29);
+                  debug_output((signed char)0, "Error - could not lock mutex (unix_listen => 3): %s \n", return_value_strerror_30);
                 }
 
-                debug_pos = ((struct list_head *)debug_clients.fd_list[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level - 1)])->next;
+                debug_pos = ((struct list_head *)debug_clients.fd_list[(signed long int)((signed int)unix_listen__1__unix_client->debug_level - 1)])->next;
                 debug_pos_tmp = debug_pos->next;
-                for( ; !(debug_pos == (struct list_head *)debug_clients.fd_list[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level + -1)]); debug_pos_tmp = debug_pos->next)
+                for( ; !(debug_pos == (struct list_head *)debug_clients.fd_list[(signed long int)((signed int)unix_listen__1__unix_client->debug_level + -1)]); debug_pos_tmp = debug_pos->next)
                 {
                   debug_level_info = (struct debug_level_info *)((char *)debug_pos - (signed long int)(unsigned long int)&((struct debug_level_info *)0)->list);
-                  if(debug_level_info->fd == unix_listen$$1$$unix_client->sock)
+                  if(debug_level_info->fd == unix_listen__1__unix_client->sock)
                   {
-                    list_del(prev_list_head, debug_pos, (struct list_head_first *)debug_clients.fd_list[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level - 1)]);
-                    debug_clients.clients_num[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level - 1)] = debug_clients.clients_num[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level - 1)] - 1;
+                    list_del(prev_list_head, debug_pos, (struct list_head_first *)debug_clients.fd_list[(signed long int)((signed int)unix_listen__1__unix_client->debug_level - 1)]);
+                    debug_clients.clients_num[(signed long int)((signed int)unix_listen__1__unix_client->debug_level - 1)] = debug_clients.clients_num[(signed long int)((signed int)unix_listen__1__unix_client->debug_level - 1)] - 1;
                     debugFree((void *)debug_pos, 1202);
                     break;
                   }
@@ -10793,28 +10793,28 @@ void * unix_listen(void *arg)
                   prev_list_head = &debug_level_info->list;
                   debug_pos = debug_pos_tmp;
                 }
-                signed int return_value_pthread_mutex_unlock$34;
-                return_value_pthread_mutex_unlock$34=pthread_mutex_unlock((union anonymous$16 *)debug_clients.mutex[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level - 1)]);
-                if(!(return_value_pthread_mutex_unlock$34 == 0))
+                signed int return_value_pthread_mutex_unlock_34;
+                return_value_pthread_mutex_unlock_34=pthread_mutex_unlock((union anonymous_16 *)debug_clients.mutex[(signed long int)((signed int)unix_listen__1__unix_client->debug_level - 1)]);
+                if(!(return_value_pthread_mutex_unlock_34 == 0))
                 {
-                  return_value___errno_location$32=__errno_location();
-                  return_value_strerror$33=strerror(*return_value___errno_location$32);
-                  debug_output((signed char)0, "Error - could not unlock mutex (unix_listen => 3): %s \n", return_value_strerror$33);
+                  return_value___errno_location_32=__errno_location();
+                  return_value_strerror_33=strerror(*return_value___errno_location_32);
+                  debug_output((signed char)0, "Error - could not unlock mutex (unix_listen => 3): %s \n", return_value_strerror_33);
                 }
 
               }
 
               debug_output((signed char)3, "Unix client closed connection ...\n");
-              (&wait_sockets)->fds_bits[(signed long int)(unix_listen$$1$$unix_client->sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wait_sockets)->fds_bits[(signed long int)(unix_listen$$1$$unix_client->sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)(1UL << unix_listen$$1$$unix_client->sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ )));
-              close(unix_listen$$1$$unix_client->sock);
+              (&wait_sockets)->fds_bits[(signed long int)(unix_listen__1__unix_client->sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wait_sockets)->fds_bits[(signed long int)(unix_listen__1__unix_client->sock / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & ~((signed long int)(1UL << unix_listen__1__unix_client->sock % (8 * (signed int)sizeof(signed long int) /*8ul*/ )));
+              close(unix_listen__1__unix_client->sock);
               list_del(prev_list_head_unix, list_pos, &unix_if.client_list);
               debugFree((void *)list_pos, 1203);
             }
           }
 
           else
-            if(!(max_sock >= unix_listen$$1$$unix_client->sock))
-              max_sock = unix_listen$$1$$unix_client->sock;
+            if(!(max_sock >= unix_listen__1__unix_client->sock))
+              max_sock = unix_listen__1__unix_client->sock;
 
           list_pos = unix_pos_tmp;
         }
@@ -10824,14 +10824,14 @@ void * unix_listen(void *arg)
     else
       if(!((signed int)res >= 0))
       {
-        return_value___errno_location$37=__errno_location();
-        if(!(*return_value___errno_location$37 == 4))
+        return_value___errno_location_37=__errno_location();
+        if(!(*return_value___errno_location_37 == 4))
         {
-          signed int *return_value___errno_location$35;
-          return_value___errno_location$35=__errno_location();
-          char *return_value_strerror$36;
-          return_value_strerror$36=strerror(*return_value___errno_location$35);
-          debug_output((signed char)0, "Error - can't select (unix_listen): %s\n", return_value_strerror$36);
+          signed int *return_value___errno_location_35;
+          return_value___errno_location_35=__errno_location();
+          char *return_value_strerror_36;
+          return_value_strerror_36=strerror(*return_value___errno_location_35);
+          debug_output((signed char)0, "Error - can't select (unix_listen): %s\n", return_value_strerror_36);
           break;
         }
 
@@ -10841,34 +10841,34 @@ void * unix_listen(void *arg)
   while((_Bool)1);
   list_pos = (&unix_if.client_list)->next;
   unix_pos_tmp = list_pos->next;
-  signed int *return_value___errno_location$38;
-  char *return_value_strerror$39;
-  signed int *return_value___errno_location$41;
-  char *return_value_strerror$42;
+  signed int *return_value___errno_location_38;
+  char *return_value_strerror_39;
+  signed int *return_value___errno_location_41;
+  char *return_value_strerror_42;
   for( ; !(list_pos == (struct list_head *)&unix_if.client_list); unix_pos_tmp = list_pos->next)
   {
-    unix_listen$$1$$unix_client = (struct unix_client *)((char *)list_pos - (signed long int)(unsigned long int)&((struct unix_client *)0)->list);
-    if(!((signed int)unix_listen$$1$$unix_client->debug_level == 0))
+    unix_listen__1__unix_client = (struct unix_client *)((char *)list_pos - (signed long int)(unsigned long int)&((struct unix_client *)0)->list);
+    if(!((signed int)unix_listen__1__unix_client->debug_level == 0))
     {
-      prev_list_head = (struct list_head *)debug_clients.fd_list[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level - 1)];
-      signed int return_value_pthread_mutex_lock$40;
-      return_value_pthread_mutex_lock$40=pthread_mutex_lock((union anonymous$16 *)debug_clients.mutex[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level - 1)]);
-      if(!(return_value_pthread_mutex_lock$40 == 0))
+      prev_list_head = (struct list_head *)debug_clients.fd_list[(signed long int)((signed int)unix_listen__1__unix_client->debug_level - 1)];
+      signed int return_value_pthread_mutex_lock_40;
+      return_value_pthread_mutex_lock_40=pthread_mutex_lock((union anonymous_16 *)debug_clients.mutex[(signed long int)((signed int)unix_listen__1__unix_client->debug_level - 1)]);
+      if(!(return_value_pthread_mutex_lock_40 == 0))
       {
-        return_value___errno_location$38=__errno_location();
-        return_value_strerror$39=strerror(*return_value___errno_location$38);
-        debug_output((signed char)0, "Error - could not lock mutex (unix_listen => 4): %s \n", return_value_strerror$39);
+        return_value___errno_location_38=__errno_location();
+        return_value_strerror_39=strerror(*return_value___errno_location_38);
+        debug_output((signed char)0, "Error - could not lock mutex (unix_listen => 4): %s \n", return_value_strerror_39);
       }
 
-      debug_pos = ((struct list_head *)debug_clients.fd_list[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level - 1)])->next;
+      debug_pos = ((struct list_head *)debug_clients.fd_list[(signed long int)((signed int)unix_listen__1__unix_client->debug_level - 1)])->next;
       debug_pos_tmp = debug_pos->next;
-      for( ; !(debug_pos == (struct list_head *)debug_clients.fd_list[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level + -1)]); debug_pos_tmp = debug_pos->next)
+      for( ; !(debug_pos == (struct list_head *)debug_clients.fd_list[(signed long int)((signed int)unix_listen__1__unix_client->debug_level + -1)]); debug_pos_tmp = debug_pos->next)
       {
         debug_level_info = (struct debug_level_info *)((char *)debug_pos - (signed long int)(unsigned long int)&((struct debug_level_info *)0)->list);
-        if(debug_level_info->fd == unix_listen$$1$$unix_client->sock)
+        if(debug_level_info->fd == unix_listen__1__unix_client->sock)
         {
-          list_del(prev_list_head, debug_pos, (struct list_head_first *)debug_clients.fd_list[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level - 1)]);
-          debug_clients.clients_num[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level - 1)] = debug_clients.clients_num[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level - 1)] - 1;
+          list_del(prev_list_head, debug_pos, (struct list_head_first *)debug_clients.fd_list[(signed long int)((signed int)unix_listen__1__unix_client->debug_level - 1)]);
+          debug_clients.clients_num[(signed long int)((signed int)unix_listen__1__unix_client->debug_level - 1)] = debug_clients.clients_num[(signed long int)((signed int)unix_listen__1__unix_client->debug_level - 1)] - 1;
           debugFree((void *)debug_pos, 1204);
           break;
         }
@@ -10876,13 +10876,13 @@ void * unix_listen(void *arg)
         prev_list_head = &debug_level_info->list;
         debug_pos = debug_pos_tmp;
       }
-      signed int return_value_pthread_mutex_unlock$43;
-      return_value_pthread_mutex_unlock$43=pthread_mutex_unlock((union anonymous$16 *)debug_clients.mutex[(signed long int)((signed int)unix_listen$$1$$unix_client->debug_level - 1)]);
-      if(!(return_value_pthread_mutex_unlock$43 == 0))
+      signed int return_value_pthread_mutex_unlock_43;
+      return_value_pthread_mutex_unlock_43=pthread_mutex_unlock((union anonymous_16 *)debug_clients.mutex[(signed long int)((signed int)unix_listen__1__unix_client->debug_level - 1)]);
+      if(!(return_value_pthread_mutex_unlock_43 == 0))
       {
-        return_value___errno_location$41=__errno_location();
-        return_value_strerror$42=strerror(*return_value___errno_location$41);
-        debug_output((signed char)0, "Error - could not unlock mutex (unix_listen => 4): %s \n", return_value_strerror$42);
+        return_value___errno_location_41=__errno_location();
+        return_value_strerror_42=strerror(*return_value___errno_location_41);
+        debug_output((signed char)0, "Error - could not unlock mutex (unix_listen => 4): %s \n", return_value_strerror_42);
       }
 
     }
@@ -10938,9 +10938,9 @@ void update_gw_list(struct orig_node *orig_node, unsigned char new_gwflags, unsi
   addr_to_string(orig_node->orig, orig_str, 16);
   get_gw_speeds(new_gwflags, &download_speed, &upload_speed);
   debug_output((signed char)3, "Found new gateway %s -> class: %i - %i%s/%i%s\n", (const void *)orig_str, new_gwflags, download_speed > 2048 ? download_speed / 1024 : download_speed, download_speed > 2048 ? "MBit" : "KBit", upload_speed > 2048 ? upload_speed / 1024 : upload_speed, upload_speed > 2048 ? "MBit" : "KBit");
-  void *return_value_debugMalloc$1;
-  return_value_debugMalloc$1=debugMalloc((unsigned int)sizeof(struct gw_node) /*32ul*/ , 103);
-  gw_node = (struct gw_node *)return_value_debugMalloc$1;
+  void *return_value_debugMalloc_1;
+  return_value_debugMalloc_1=debugMalloc((unsigned int)sizeof(struct gw_node) /*32ul*/ , 103);
+  gw_node = (struct gw_node *)return_value_debugMalloc_1;
   memset((void *)gw_node, 0, sizeof(struct gw_node) /*32ul*/ );
   do
     (&gw_node->list)->next = &gw_node->list;
@@ -10979,20 +10979,20 @@ void update_orig(struct orig_node *orig_node, struct bat_packet *in, unsigned in
   prof_start(5);
   debug_output((signed char)4, "update_originator(): Searching and updating originator entry of received packet,  \n");
   list_pos = (&orig_node->neigh_list)->next;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
   for( ; !(list_pos == (struct list_head *)&orig_node->neigh_list); list_pos = list_pos->next)
   {
     tmp_neigh_node = (struct neigh_node *)((char *)list_pos - (signed long int)(unsigned long int)&((struct neigh_node *)0)->list);
     if(tmp_neigh_node->addr == neigh)
-      tmp_if_expr$5 = tmp_neigh_node->if_incoming == if_incoming ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = tmp_neigh_node->if_incoming == if_incoming ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
       neigh_node = tmp_neigh_node;
 
     else
@@ -11004,30 +11004,30 @@ void update_orig(struct orig_node *orig_node, struct bat_packet *in, unsigned in
       }
 
       if(!((signed int)max_tq >= (signed int)tmp_neigh_node->tq_avg))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
       {
         if(tmp_neigh_node->tq_avg == max_tq)
-          tmp_if_expr$1 = (signed int)tmp_neigh_node->orig_node->bcast_own_sum[(signed long int)if_incoming->if_num] > (signed int)max_bcast_own ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (signed int)tmp_neigh_node->orig_node->bcast_own_sum[(signed long int)if_incoming->if_num] > (signed int)max_bcast_own ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$2)
-        tmp_if_expr$4 = (_Bool)1;
+      if(tmp_if_expr_2)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
         if(orig_node->router == tmp_neigh_node)
-          tmp_if_expr$3 = tmp_neigh_node->tq_avg == max_tq ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = tmp_neigh_node->tq_avg == max_tq ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
+      if(tmp_if_expr_4)
       {
         max_tq = tmp_neigh_node->tq_avg;
         max_bcast_own = tmp_neigh_node->orig_node->bcast_own_sum[(signed long int)if_incoming->if_num];
@@ -11038,9 +11038,9 @@ void update_orig(struct orig_node *orig_node, struct bat_packet *in, unsigned in
   }
   if(neigh_node == ((struct neigh_node *)NULL))
   {
-    struct orig_node *return_value_get_orig_node$6;
-    return_value_get_orig_node$6=get_orig_node(neigh);
-    neigh_node=create_neighbor(orig_node, return_value_get_orig_node$6, neigh, if_incoming);
+    struct orig_node *return_value_get_orig_node_6;
+    return_value_get_orig_node_6=get_orig_node(neigh);
+    neigh_node=create_neighbor(orig_node, return_value_get_orig_node_6, neigh, if_incoming);
   }
 
   else
@@ -11054,35 +11054,35 @@ void update_orig(struct orig_node *orig_node, struct bat_packet *in, unsigned in
     neigh_node->last_ttl = in->ttl;
   }
 
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
   if(!((signed int)max_tq >= (signed int)neigh_node->tq_avg))
-    tmp_if_expr$8 = (_Bool)1;
+    tmp_if_expr_8 = (_Bool)1;
 
   else
   {
     if(neigh_node->tq_avg == max_tq)
-      tmp_if_expr$7 = (signed int)neigh_node->orig_node->bcast_own_sum[(signed long int)if_incoming->if_num] > (signed int)max_bcast_own ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_7 = (signed int)neigh_node->orig_node->bcast_own_sum[(signed long int)if_incoming->if_num] > (signed int)max_bcast_own ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_7 = (_Bool)0;
+    tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$9;
-  if(tmp_if_expr$8)
-    tmp_if_expr$10 = (_Bool)1;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_9;
+  if(tmp_if_expr_8)
+    tmp_if_expr_10 = (_Bool)1;
 
   else
   {
     if(orig_node->router == neigh_node)
-      tmp_if_expr$9 = neigh_node->tq_avg == max_tq ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_9 = neigh_node->tq_avg == max_tq ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$9 = (_Bool)0;
-    tmp_if_expr$10 = tmp_if_expr$9 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_9 = (_Bool)0;
+    tmp_if_expr_10 = tmp_if_expr_9 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$10)
+  if(tmp_if_expr_10)
     best_neigh_node = neigh_node;
 
   update_routes(orig_node, best_neigh_node, hna_recv_buff, hna_buff_len);
@@ -11091,9 +11091,9 @@ void update_orig(struct orig_node *orig_node, struct bat_packet *in, unsigned in
 
   orig_node->gwflags = in->gwflags;
   hna_global_check_tq(orig_node);
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_11;
   if((signed int)routing_class >= 3)
   {
     if(!((signed int)orig_node->gwflags == 0))
@@ -11103,23 +11103,23 @@ void update_orig(struct orig_node *orig_node, struct bat_packet *in, unsigned in
         if(!(curr_gateway->orig_node == orig_node))
         {
           if(pref_gateway == 0u)
-            tmp_if_expr$12 = (signed int)orig_node->router->tq_avg > (signed int)curr_gateway->orig_node->router->tq_avg ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_12 = (signed int)orig_node->router->tq_avg > (signed int)curr_gateway->orig_node->router->tq_avg ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$12 = (_Bool)0;
-          if(tmp_if_expr$12)
-            tmp_if_expr$13 = (_Bool)1;
+            tmp_if_expr_12 = (_Bool)0;
+          if(tmp_if_expr_12)
+            tmp_if_expr_13 = (_Bool)1;
 
           else
-            tmp_if_expr$13 = pref_gateway == orig_node->orig ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$13)
+            tmp_if_expr_13 = pref_gateway == orig_node->orig ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_13)
           {
             if(pref_gateway == orig_node->orig || (signed int)routing_class == 3)
-              tmp_if_expr$11 = (_Bool)1;
+              tmp_if_expr_11 = (_Bool)1;
 
             else
-              tmp_if_expr$11 = (signed int)orig_node->router->tq_avg - (signed int)curr_gateway->orig_node->router->tq_avg >= (signed int)routing_class ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$11)
+              tmp_if_expr_11 = (signed int)orig_node->router->tq_avg - (signed int)curr_gateway->orig_node->router->tq_avg >= (signed int)routing_class ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_11)
             {
               gw_node = (struct gw_node *)(void *)0;
               list_pos = (&gw_list)->next;
@@ -11165,13 +11165,13 @@ void update_routes(struct orig_node *orig_node, struct neigh_node *neigh_node, u
   struct neigh_node *old_router;
   prof_start(1);
   debug_output((signed char)4, "update_routes() \n");
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(orig_node == ((struct orig_node *)NULL)))
-    tmp_if_expr$1 = orig_node->router != neigh_node ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = orig_node->router != neigh_node ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     old_router = orig_node->router;
     if(!(neigh_node == ((struct neigh_node *)NULL)) && !(orig_node == ((struct orig_node *)NULL)))
@@ -11248,11 +11248,11 @@ signed int use_gateway_module(void)
   fd=open("/dev/batgat", 01);
   if(!(fd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    debug_output((signed char)0, "Warning - batgat kernel modul interface (/dev/batgat) not usable: %s\nThis may decrease the performance of batman!\n", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    debug_output((signed char)0, "Warning - batgat kernel modul interface (/dev/batgat) not usable: %s\nThis may decrease the performance of batman!\n", return_value_strerror_2);
     return -1;
   }
 

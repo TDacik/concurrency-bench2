@@ -1,122 +1,122 @@
-// #anon_enum$AVAHI_BROWSER_NEW=0$AVAHI_BROWSER_REMOVE=1$AVAHI_BROWSER_CACHE_EXHAUSTED=2$AVAHI_BROWSER_ALL_FOR_NOW=3$AVAHI_BROWSER_FAILURE=4
+// #anon_enum_AVAHI_BROWSER_NEW=0_AVAHI_BROWSER_REMOVE=1_AVAHI_BROWSER_CACHE_EXHAUSTED=2_AVAHI_BROWSER_ALL_FOR_NOW=3_AVAHI_BROWSER_FAILURE=4
 // file ../avahi-common/defs.h line 284
-enum anonymous$2 { AVAHI_BROWSER_NEW=0, AVAHI_BROWSER_REMOVE=1, AVAHI_BROWSER_CACHE_EXHAUSTED=2, AVAHI_BROWSER_ALL_FOR_NOW=3, AVAHI_BROWSER_FAILURE=4 };
+enum anonymous_2 { AVAHI_BROWSER_NEW=0, AVAHI_BROWSER_REMOVE=1, AVAHI_BROWSER_CACHE_EXHAUSTED=2, AVAHI_BROWSER_ALL_FOR_NOW=3, AVAHI_BROWSER_FAILURE=4 };
 
-// #anon_enum$AVAHI_CLIENT_IGNORE_USER_CONFIG=1$AVAHI_CLIENT_NO_FAIL=2
+// #anon_enum_AVAHI_CLIENT_IGNORE_USER_CONFIG=1_AVAHI_CLIENT_NO_FAIL=2
 // file ../avahi-client/client.h line 48
-enum anonymous$8 { AVAHI_CLIENT_IGNORE_USER_CONFIG=1, AVAHI_CLIENT_NO_FAIL=2 };
+enum anonymous_8 { AVAHI_CLIENT_IGNORE_USER_CONFIG=1, AVAHI_CLIENT_NO_FAIL=2 };
 
-// #anon_enum$AVAHI_CLIENT_S_REGISTERING=1$AVAHI_CLIENT_S_RUNNING=2$AVAHI_CLIENT_S_COLLISION=3$AVAHI_CLIENT_FAILURE=100$AVAHI_CLIENT_CONNECTING=101
+// #anon_enum_AVAHI_CLIENT_S_REGISTERING=1_AVAHI_CLIENT_S_RUNNING=2_AVAHI_CLIENT_S_COLLISION=3_AVAHI_CLIENT_FAILURE=100_AVAHI_CLIENT_CONNECTING=101
 // file ../avahi-client/client.h line 40
-enum anonymous$7 { AVAHI_CLIENT_S_REGISTERING=1, AVAHI_CLIENT_S_RUNNING=2, AVAHI_CLIENT_S_COLLISION=3, AVAHI_CLIENT_FAILURE=100, AVAHI_CLIENT_CONNECTING=101 };
+enum anonymous_7 { AVAHI_CLIENT_S_REGISTERING=1, AVAHI_CLIENT_S_RUNNING=2, AVAHI_CLIENT_S_COLLISION=3, AVAHI_CLIENT_FAILURE=100, AVAHI_CLIENT_CONNECTING=101 };
 
-// #anon_enum$AVAHI_DOMAIN_BROWSER_BROWSE=0$AVAHI_DOMAIN_BROWSER_BROWSE_DEFAULT=1$AVAHI_DOMAIN_BROWSER_REGISTER=2$AVAHI_DOMAIN_BROWSER_REGISTER_DEFAULT=3$AVAHI_DOMAIN_BROWSER_BROWSE_LEGACY=4$AVAHI_DOMAIN_BROWSER_MAX=5
+// #anon_enum_AVAHI_DOMAIN_BROWSER_BROWSE=0_AVAHI_DOMAIN_BROWSER_BROWSE_DEFAULT=1_AVAHI_DOMAIN_BROWSER_REGISTER=2_AVAHI_DOMAIN_BROWSER_REGISTER_DEFAULT=3_AVAHI_DOMAIN_BROWSER_BROWSE_LEGACY=4_AVAHI_DOMAIN_BROWSER_MAX=5
 // file ../avahi-common/defs.h line 303
-enum anonymous$0 { AVAHI_DOMAIN_BROWSER_BROWSE=0, AVAHI_DOMAIN_BROWSER_BROWSE_DEFAULT=1, AVAHI_DOMAIN_BROWSER_REGISTER=2, AVAHI_DOMAIN_BROWSER_REGISTER_DEFAULT=3, AVAHI_DOMAIN_BROWSER_BROWSE_LEGACY=4, AVAHI_DOMAIN_BROWSER_MAX=5 };
+enum anonymous_0 { AVAHI_DOMAIN_BROWSER_BROWSE=0, AVAHI_DOMAIN_BROWSER_BROWSE_DEFAULT=1, AVAHI_DOMAIN_BROWSER_REGISTER=2, AVAHI_DOMAIN_BROWSER_REGISTER_DEFAULT=3, AVAHI_DOMAIN_BROWSER_BROWSE_LEGACY=4, AVAHI_DOMAIN_BROWSER_MAX=5 };
 
-// #anon_enum$AVAHI_ENTRY_GROUP_UNCOMMITED=0$AVAHI_ENTRY_GROUP_REGISTERING=1$AVAHI_ENTRY_GROUP_ESTABLISHED=2$AVAHI_ENTRY_GROUP_COLLISION=3$AVAHI_ENTRY_GROUP_FAILURE=4
+// #anon_enum_AVAHI_ENTRY_GROUP_UNCOMMITED=0_AVAHI_ENTRY_GROUP_REGISTERING=1_AVAHI_ENTRY_GROUP_ESTABLISHED=2_AVAHI_ENTRY_GROUP_COLLISION=3_AVAHI_ENTRY_GROUP_FAILURE=4
 // file ../avahi-common/defs.h line 230
-enum anonymous$27 { AVAHI_ENTRY_GROUP_UNCOMMITED=0, AVAHI_ENTRY_GROUP_REGISTERING=1, AVAHI_ENTRY_GROUP_ESTABLISHED=2, AVAHI_ENTRY_GROUP_COLLISION=3, AVAHI_ENTRY_GROUP_FAILURE=4 };
+enum anonymous_27 { AVAHI_ENTRY_GROUP_UNCOMMITED=0, AVAHI_ENTRY_GROUP_REGISTERING=1, AVAHI_ENTRY_GROUP_ESTABLISHED=2, AVAHI_ENTRY_GROUP_COLLISION=3, AVAHI_ENTRY_GROUP_FAILURE=4 };
 
-// #anon_enum$AVAHI_LOOKUP_RESULT_CACHED=1$AVAHI_LOOKUP_RESULT_WIDE_AREA=2$AVAHI_LOOKUP_RESULT_MULTICAST=4$AVAHI_LOOKUP_RESULT_LOCAL=8$AVAHI_LOOKUP_RESULT_OUR_OWN=16$AVAHI_LOOKUP_RESULT_STATIC=32
+// #anon_enum_AVAHI_LOOKUP_RESULT_CACHED=1_AVAHI_LOOKUP_RESULT_WIDE_AREA=2_AVAHI_LOOKUP_RESULT_MULTICAST=4_AVAHI_LOOKUP_RESULT_LOCAL=8_AVAHI_LOOKUP_RESULT_OUR_OWN=16_AVAHI_LOOKUP_RESULT_STATIC=32
 // file ../avahi-common/defs.h line 270
-enum anonymous$3 { AVAHI_LOOKUP_RESULT_CACHED=1, AVAHI_LOOKUP_RESULT_WIDE_AREA=2, AVAHI_LOOKUP_RESULT_MULTICAST=4, AVAHI_LOOKUP_RESULT_LOCAL=8, AVAHI_LOOKUP_RESULT_OUR_OWN=16, AVAHI_LOOKUP_RESULT_STATIC=32 };
+enum anonymous_3 { AVAHI_LOOKUP_RESULT_CACHED=1, AVAHI_LOOKUP_RESULT_WIDE_AREA=2, AVAHI_LOOKUP_RESULT_MULTICAST=4, AVAHI_LOOKUP_RESULT_LOCAL=8, AVAHI_LOOKUP_RESULT_OUR_OWN=16, AVAHI_LOOKUP_RESULT_STATIC=32 };
 
-// #anon_enum$AVAHI_LOOKUP_USE_WIDE_AREA=1$AVAHI_LOOKUP_USE_MULTICAST=2$AVAHI_LOOKUP_NO_TXT=4$AVAHI_LOOKUP_NO_ADDRESS=8
+// #anon_enum_AVAHI_LOOKUP_USE_WIDE_AREA=1_AVAHI_LOOKUP_USE_MULTICAST=2_AVAHI_LOOKUP_NO_TXT=4_AVAHI_LOOKUP_NO_ADDRESS=8
 // file ../avahi-common/defs.h line 260
-enum anonymous$1 { AVAHI_LOOKUP_USE_WIDE_AREA=1, AVAHI_LOOKUP_USE_MULTICAST=2, AVAHI_LOOKUP_NO_TXT=4, AVAHI_LOOKUP_NO_ADDRESS=8 };
+enum anonymous_1 { AVAHI_LOOKUP_USE_WIDE_AREA=1, AVAHI_LOOKUP_USE_MULTICAST=2, AVAHI_LOOKUP_NO_TXT=4, AVAHI_LOOKUP_NO_ADDRESS=8 };
 
-// #anon_enum$AVAHI_PUBLISH_UNIQUE=1$AVAHI_PUBLISH_NO_PROBE=2$AVAHI_PUBLISH_NO_ANNOUNCE=4$AVAHI_PUBLISH_ALLOW_MULTIPLE=8$AVAHI_PUBLISH_NO_REVERSE=16$AVAHI_PUBLISH_NO_COOKIE=32$AVAHI_PUBLISH_UPDATE=64$AVAHI_PUBLISH_USE_WIDE_AREA=128$AVAHI_PUBLISH_USE_MULTICAST=256
+// #anon_enum_AVAHI_PUBLISH_UNIQUE=1_AVAHI_PUBLISH_NO_PROBE=2_AVAHI_PUBLISH_NO_ANNOUNCE=4_AVAHI_PUBLISH_ALLOW_MULTIPLE=8_AVAHI_PUBLISH_NO_REVERSE=16_AVAHI_PUBLISH_NO_COOKIE=32_AVAHI_PUBLISH_UPDATE=64_AVAHI_PUBLISH_USE_WIDE_AREA=128_AVAHI_PUBLISH_USE_MULTICAST=256
 // file ../avahi-common/defs.h line 243
 enum anonymous { AVAHI_PUBLISH_UNIQUE=1, AVAHI_PUBLISH_NO_PROBE=2, AVAHI_PUBLISH_NO_ANNOUNCE=4, AVAHI_PUBLISH_ALLOW_MULTIPLE=8, AVAHI_PUBLISH_NO_REVERSE=16, AVAHI_PUBLISH_NO_COOKIE=32, AVAHI_PUBLISH_UPDATE=64, AVAHI_PUBLISH_USE_WIDE_AREA=128, AVAHI_PUBLISH_USE_MULTICAST=256 };
 
-// #anon_enum$AVAHI_RESOLVER_FOUND=0$AVAHI_RESOLVER_FAILURE=1
+// #anon_enum_AVAHI_RESOLVER_FOUND=0_AVAHI_RESOLVER_FAILURE=1
 // file ../avahi-common/defs.h line 293
-enum anonymous$6 { AVAHI_RESOLVER_FOUND=0, AVAHI_RESOLVER_FAILURE=1 };
+enum anonymous_6 { AVAHI_RESOLVER_FOUND=0, AVAHI_RESOLVER_FAILURE=1 };
 
-// #anon_enum$AVAHI_WATCH_IN=1$AVAHI_WATCH_OUT=4$AVAHI_WATCH_ERR=8$AVAHI_WATCH_HUP=16
+// #anon_enum_AVAHI_WATCH_IN=1_AVAHI_WATCH_OUT=4_AVAHI_WATCH_ERR=8_AVAHI_WATCH_HUP=16
 // file ../avahi-common/watch.h line 42
-enum anonymous$9 { AVAHI_WATCH_IN=1, AVAHI_WATCH_OUT=4, AVAHI_WATCH_ERR=8, AVAHI_WATCH_HUP=16 };
+enum anonymous_9 { AVAHI_WATCH_IN=1, AVAHI_WATCH_OUT=4, AVAHI_WATCH_ERR=8, AVAHI_WATCH_HUP=16 };
 
-// #anon_enum$COMMAND_UNSPEC=0$COMMAND_HELP=1$COMMAND_VERSION=2
+// #anon_enum_COMMAND_UNSPEC=0_COMMAND_HELP=1_COMMAND_VERSION=2
 // file avahi-set-host-name.c line 42
-enum anonymous$5 { COMMAND_UNSPEC=0, COMMAND_HELP=1, COMMAND_VERSION=2 };
+enum anonymous_5 { COMMAND_UNSPEC=0, COMMAND_HELP=1, COMMAND_VERSION=2 };
 
-// #anon_enum$DBUS_BUS_SESSION=0$DBUS_BUS_SYSTEM=1$DBUS_BUS_STARTER=2
+// #anon_enum_DBUS_BUS_SESSION=0_DBUS_BUS_SYSTEM=1_DBUS_BUS_STARTER=2
 // file /usr/include/dbus-1.0/dbus/dbus-shared.h line 56
-enum anonymous$29 { DBUS_BUS_SESSION=0, DBUS_BUS_SYSTEM=1, DBUS_BUS_STARTER=2 };
+enum anonymous_29 { DBUS_BUS_SESSION=0, DBUS_BUS_SYSTEM=1, DBUS_BUS_STARTER=2 };
 
-// #anon_enum$DBUS_DISPATCH_DATA_REMAINS=0$DBUS_DISPATCH_COMPLETE=1$DBUS_DISPATCH_NEED_MEMORY=2
+// #anon_enum_DBUS_DISPATCH_DATA_REMAINS=0_DBUS_DISPATCH_COMPLETE=1_DBUS_DISPATCH_NEED_MEMORY=2
 // file /usr/include/dbus-1.0/dbus/dbus-connection.h line 79
-enum anonymous$10 { DBUS_DISPATCH_DATA_REMAINS=0, DBUS_DISPATCH_COMPLETE=1, DBUS_DISPATCH_NEED_MEMORY=2 };
+enum anonymous_10 { DBUS_DISPATCH_DATA_REMAINS=0, DBUS_DISPATCH_COMPLETE=1, DBUS_DISPATCH_NEED_MEMORY=2 };
 
-// #anon_enum$DBUS_HANDLER_RESULT_HANDLED=0$DBUS_HANDLER_RESULT_NOT_YET_HANDLED=1$DBUS_HANDLER_RESULT_NEED_MEMORY=2
+// #anon_enum_DBUS_HANDLER_RESULT_HANDLED=0_DBUS_HANDLER_RESULT_NOT_YET_HANDLED=1_DBUS_HANDLER_RESULT_NEED_MEMORY=2
 // file /usr/include/dbus-1.0/dbus/dbus-shared.h line 66
-enum anonymous$28 { DBUS_HANDLER_RESULT_HANDLED=0, DBUS_HANDLER_RESULT_NOT_YET_HANDLED=1, DBUS_HANDLER_RESULT_NEED_MEMORY=2 };
+enum anonymous_28 { DBUS_HANDLER_RESULT_HANDLED=0, DBUS_HANDLER_RESULT_NOT_YET_HANDLED=1, DBUS_HANDLER_RESULT_NEED_MEMORY=2 };
 
-// #anon_enum$STATE_INIT=0$STATE_PREPARING=1$STATE_PREPARED=2$STATE_RUNNING=3$STATE_RAN=4$STATE_DISPATCHING=5$STATE_DISPATCHED=6$STATE_QUIT=7$STATE_FAILURE=8
+// #anon_enum_STATE_INIT=0_STATE_PREPARING=1_STATE_PREPARED=2_STATE_RUNNING=3_STATE_RAN=4_STATE_DISPATCHING=5_STATE_DISPATCHED=6_STATE_QUIT=7_STATE_FAILURE=8
 // file simple-watch.c line 84
-enum anonymous$4 { STATE_INIT=0, STATE_PREPARING=1, STATE_PREPARED=2, STATE_RUNNING=3, STATE_RAN=4, STATE_DISPATCHING=5, STATE_DISPATCHED=6, STATE_QUIT=7, STATE_FAILURE=8 };
+enum anonymous_4 { STATE_INIT=0, STATE_PREPARING=1, STATE_PREPARED=2, STATE_RUNNING=3, STATE_RAN=4, STATE_DISPATCHING=5, STATE_DISPATCHED=6, STATE_QUIT=7, STATE_FAILURE=8 };
 
-// tag-#anon#ST[*{SYM#tag-DBusConnection#}$SYM#tag-DBusConnection#$'connection'||*{cSYM#tag-AvahiPoll#}$cSYM#tag-AvahiPoll#$'poll_api'||*{SYM#tag-AvahiTimeout#}$SYM#tag-AvahiTimeout#$'dispatch_timeout'||S32'ref'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-DBusConnection#}_SYM#tag-DBusConnection#_'connection'||*{cSYM#tag-AvahiPoll#}_cSYM#tag-AvahiPoll#_'poll_api'||*{SYM#tag-AvahiTimeout#}_SYM#tag-AvahiTimeout#_'dispatch_timeout'||S32'ref'||U32'_pad0'|]
 // file ../avahi-common/dbus-watch-glue.c line 61
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$15;
+struct anonymous_15;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$19;
+struct anonymous_19;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$13;
+struct anonymous_13;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$14;
+union anonymous_14;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$26;
+union anonymous_26;
 
-// tag-#anon#UN[SYM#tag-AvahiIPv6Address#'ipv6'||SYM#tag-AvahiIPv4Address#'ipv4'||ARR1{U8}$U8$'data'|]
+// tag-#anon#UN[SYM#tag-AvahiIPv6Address#'ipv6'||SYM#tag-AvahiIPv4Address#'ipv4'||ARR1{U8}_U8_'data'|]
 // file ../avahi-common/address.h line 73
-union anonymous$23;
+union anonymous_23;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$25;
+union anonymous_25;
 
 // tag-AvahiAddress
 // file ../avahi-common/address.h line 70
@@ -306,9 +306,9 @@ static unsigned int add_watch(struct DBusWatch *dbus_watch, void *userdata);
 // address_get_size
 // file address.c line 35
 static unsigned long int address_get_size(const struct AvahiAddress *a);
-// address_get_size$link1
+// address_get_size_link1
 // file address.c line 35
-static unsigned long int address_get_size$link1(const struct AvahiAddress *a$link1);
+static unsigned long int address_get_size_link1(const struct AvahiAddress *a_link1);
 // append_rdata
 // file entrygroup.c line 348
 static signed int append_rdata(struct DBusMessage *message, const void *rdata, unsigned long int size);
@@ -326,7 +326,7 @@ signed int avahi_address_cmp(const struct AvahiAddress *a, const struct AvahiAdd
 struct AvahiAddress * avahi_address_parse(const char *s, signed int proto, struct AvahiAddress *ret_addr);
 // avahi_address_resolver_event
 // file internal.h line 166
-enum anonymous$28 avahi_address_resolver_event(struct AvahiClient *client, enum anonymous$6 event, struct DBusMessage *message);
+enum anonymous_28 avahi_address_resolver_event(struct AvahiClient *client, enum anonymous_6 event, struct DBusMessage *message);
 // avahi_address_resolver_free
 // file lookup.h line 269
 signed int avahi_address_resolver_free(struct AvahiAddressResolver *r);
@@ -335,10 +335,10 @@ signed int avahi_address_resolver_free(struct AvahiAddressResolver *r);
 struct AvahiClient * avahi_address_resolver_get_client(struct AvahiAddressResolver *r);
 // avahi_address_resolver_new
 // file resolver.c line 642
-struct AvahiAddressResolver * avahi_address_resolver_new(struct AvahiClient *client, signed int interface, signed int protocol, const struct AvahiAddress *a, enum anonymous$1 flags, void (*callback)(struct AvahiAddressResolver *, signed int, signed int, enum anonymous$6, const struct AvahiAddress *, const char *, enum anonymous$3, void *), void *userdata);
-// avahi_address_resolver_new::callback$object
+struct AvahiAddressResolver * avahi_address_resolver_new(struct AvahiClient *client, signed int interface, signed int protocol, const struct AvahiAddress *a, enum anonymous_1 flags, void (*callback)(struct AvahiAddressResolver *, signed int, signed int, enum anonymous_6, const struct AvahiAddress *, const char *, enum anonymous_3, void *), void *userdata);
+// avahi_address_resolver_new::callback_object
 //
-void callback$object(struct AvahiAddressResolver *, signed int, signed int, enum anonymous$6, const struct AvahiAddress *, const char *, enum anonymous$3, void *);
+void callback_object(struct AvahiAddressResolver *, signed int, signed int, enum anonymous_6, const struct AvahiAddress *, const char *, enum anonymous_3, void *);
 // avahi_address_snprint
 // file ../avahi-common/address.h line 90
 char * avahi_address_snprint(char *s, unsigned long int length, const struct AvahiAddress *a);
@@ -374,7 +374,7 @@ const char * avahi_client_get_host_name_fqdn(struct AvahiClient *client);
 unsigned int avahi_client_get_local_service_cookie(struct AvahiClient *client);
 // avahi_client_get_state
 // file client.c line 784
-enum anonymous$7 avahi_client_get_state(struct AvahiClient *client);
+enum anonymous_7 avahi_client_get_state(struct AvahiClient *client);
 // avahi_client_get_string_reply_and_block
 // file client.c line 672
 static char * avahi_client_get_string_reply_and_block(struct AvahiClient *client, const char *method, const char *param);
@@ -386,10 +386,10 @@ const char * avahi_client_get_version_string(struct AvahiClient *client);
 signed int avahi_client_is_connected(struct AvahiClient *client);
 // avahi_client_new
 // file ../avahi-client/client.h line 62
-struct AvahiClient * avahi_client_new(const struct AvahiPoll *poll_api, enum anonymous$8 flags, void (*callback)(struct AvahiClient *, enum anonymous$7, void *), void *userdata, signed int *ret_error);
-// avahi_client_new::callback$object
+struct AvahiClient * avahi_client_new(const struct AvahiPoll *poll_api, enum anonymous_8 flags, void (*callback)(struct AvahiClient *, enum anonymous_7, void *), void *userdata, signed int *ret_error);
+// avahi_client_new::callback_object
 //
-void callback$object(struct AvahiClient *, enum anonymous$7, void *);
+void callback_object(struct AvahiClient *, enum anonymous_7, void *);
 // avahi_client_set_dbus_error
 // file client.c line 51
 signed int avahi_client_set_dbus_error(struct AvahiClient *client, struct DBusError *error);
@@ -410,7 +410,7 @@ static struct DBusConnection * avahi_dbus_bus_get(struct DBusError *error);
 signed int avahi_dbus_connection_glue(struct DBusConnection *c, const struct AvahiPoll *poll_api);
 // avahi_domain_browser_event
 // file internal.h line 159
-enum anonymous$28 avahi_domain_browser_event(struct AvahiClient *client, enum anonymous$2 event, struct DBusMessage *message);
+enum anonymous_28 avahi_domain_browser_event(struct AvahiClient *client, enum anonymous_2 event, struct DBusMessage *message);
 // avahi_domain_browser_free
 // file lookup.h line 71
 signed int avahi_domain_browser_free(struct AvahiDomainBrowser *b);
@@ -419,10 +419,10 @@ signed int avahi_domain_browser_free(struct AvahiDomainBrowser *b);
 struct AvahiClient * avahi_domain_browser_get_client(struct AvahiDomainBrowser *b);
 // avahi_domain_browser_new
 // file browser.c line 104
-struct AvahiDomainBrowser * avahi_domain_browser_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *domain, enum anonymous$0 btype, enum anonymous$1 flags, void (*callback)(struct AvahiDomainBrowser *, signed int, signed int, enum anonymous$2, const char *, enum anonymous$3, void *), void *userdata);
-// avahi_domain_browser_new::callback$object
+struct AvahiDomainBrowser * avahi_domain_browser_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *domain, enum anonymous_0 btype, enum anonymous_1 flags, void (*callback)(struct AvahiDomainBrowser *, signed int, signed int, enum anonymous_2, const char *, enum anonymous_3, void *), void *userdata);
+// avahi_domain_browser_new::callback_object
 //
-void callback$object(struct AvahiDomainBrowser *, signed int, signed int, enum anonymous$2, const char *, enum anonymous$3, void *);
+void callback_object(struct AvahiDomainBrowser *, signed int, signed int, enum anonymous_2, const char *, enum anonymous_3, void *);
 // avahi_domain_equal
 // file ../avahi-common/domain.h line 62
 signed int avahi_domain_equal(const char *a, const char *b);
@@ -464,16 +464,16 @@ signed int avahi_entry_group_get_state(struct AvahiEntryGroup *group);
 signed int avahi_entry_group_is_empty(struct AvahiEntryGroup *group);
 // avahi_entry_group_new
 // file entrygroup.c line 101
-struct AvahiEntryGroup * avahi_entry_group_new(struct AvahiClient *client, void (*callback)(struct AvahiEntryGroup *, enum anonymous$27, void *), void *userdata);
-// avahi_entry_group_new::callback$object
+struct AvahiEntryGroup * avahi_entry_group_new(struct AvahiClient *client, void (*callback)(struct AvahiEntryGroup *, enum anonymous_27, void *), void *userdata);
+// avahi_entry_group_new::callback_object
 //
-void callback$object(struct AvahiEntryGroup *, enum anonymous$27, void *);
+void callback_object(struct AvahiEntryGroup *, enum anonymous_27, void *);
 // avahi_entry_group_reset
 // file entrygroup.c line 267
 signed int avahi_entry_group_reset(struct AvahiEntryGroup *group);
 // avahi_entry_group_set_state
 // file internal.h line 157
-void avahi_entry_group_set_state(struct AvahiEntryGroup *group, enum anonymous$27 state);
+void avahi_entry_group_set_state(struct AvahiEntryGroup *group, enum anonymous_27 state);
 // avahi_entry_group_update_service_txt
 // file entrygroup.c line 611
 signed int avahi_entry_group_update_service_txt(struct AvahiEntryGroup *group, signed int interface, signed int protocol, enum anonymous flags, const char *name, const char *type, const char *domain, ...);
@@ -497,7 +497,7 @@ void avahi_free(void *p);
 const char * avahi_get_type_from_subtype(const char *t);
 // avahi_host_name_resolver_event
 // file internal.h line 165
-enum anonymous$28 avahi_host_name_resolver_event(struct AvahiClient *client, enum anonymous$6 event, struct DBusMessage *message);
+enum anonymous_28 avahi_host_name_resolver_event(struct AvahiClient *client, enum anonymous_6 event, struct DBusMessage *message);
 // avahi_host_name_resolver_free
 // file lookup.h line 239
 signed int avahi_host_name_resolver_free(struct AvahiHostNameResolver *r);
@@ -506,10 +506,10 @@ signed int avahi_host_name_resolver_free(struct AvahiHostNameResolver *r);
 struct AvahiClient * avahi_host_name_resolver_get_client(struct AvahiHostNameResolver *r);
 // avahi_host_name_resolver_new
 // file resolver.c line 424
-struct AvahiHostNameResolver * avahi_host_name_resolver_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *name, signed int aprotocol, enum anonymous$1 flags, void (*callback)(struct AvahiHostNameResolver *, signed int, signed int, enum anonymous$6, const char *, const struct AvahiAddress *, enum anonymous$3, void *), void *userdata);
-// avahi_host_name_resolver_new::callback$object
+struct AvahiHostNameResolver * avahi_host_name_resolver_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *name, signed int aprotocol, enum anonymous_1 flags, void (*callback)(struct AvahiHostNameResolver *, signed int, signed int, enum anonymous_6, const char *, const struct AvahiAddress *, enum anonymous_3, void *), void *userdata);
+// avahi_host_name_resolver_new::callback_object
 //
-void callback$object(struct AvahiHostNameResolver *, signed int, signed int, enum anonymous$6, const char *, const struct AvahiAddress *, enum anonymous$3, void *);
+void callback_object(struct AvahiHostNameResolver *, signed int, signed int, enum anonymous_6, const char *, const struct AvahiAddress *, enum anonymous_3, void *);
 // avahi_init_i18n
 // file ../avahi-common/i18n.h line 51
 void avahi_init_i18n(void);
@@ -546,48 +546,48 @@ void * avahi_memdup(const void *s, unsigned long int l);
 // avahi_new_internal
 // file ../avahi-common/malloc.h line 48
 static inline void * avahi_new_internal(unsigned int n, unsigned long int k);
-// avahi_new_internal$link1
+// avahi_new_internal_link1
 // file ../avahi-common/malloc.h line 48
-static inline void * avahi_new_internal$link1(unsigned int n$link1, unsigned long int k$link1);
-// avahi_new_internal$link1$link1
+static inline void * avahi_new_internal_link1(unsigned int n_link1, unsigned long int k_link1);
+// avahi_new_internal_link1_link1
 // file malloc.h line 48
-static inline void * avahi_new_internal$link1$link1(unsigned int n$link1$link1, unsigned long int k$link1$link1);
-// avahi_new_internal$link1$link2
+static inline void * avahi_new_internal_link1_link1(unsigned int n_link1_link1, unsigned long int k_link1_link1);
+// avahi_new_internal_link1_link2
 // file malloc.h line 48
-static inline void * avahi_new_internal$link1$link2(unsigned int n$link1$link2, unsigned long int k$link1$link2);
-// avahi_new_internal$link2
+static inline void * avahi_new_internal_link1_link2(unsigned int n_link1_link2, unsigned long int k_link1_link2);
+// avahi_new_internal_link2
 // file ../avahi-common/malloc.h line 48
-static inline void * avahi_new_internal$link2(unsigned int n$link2, unsigned long int k$link2);
-// avahi_new_internal$link2$link1
+static inline void * avahi_new_internal_link2(unsigned int n_link2, unsigned long int k_link2);
+// avahi_new_internal_link2_link1
 // file malloc.h line 48
-static inline void * avahi_new_internal$link2$link1(unsigned int n$link2$link1, unsigned long int k$link2$link1);
-// avahi_new_internal$link2$link2
+static inline void * avahi_new_internal_link2_link1(unsigned int n_link2_link1, unsigned long int k_link2_link1);
+// avahi_new_internal_link2_link2
 // file malloc.h line 48
-static inline void * avahi_new_internal$link2$link2(unsigned int n$link2$link2, unsigned long int k$link2$link2);
-// avahi_new_internal$link3
+static inline void * avahi_new_internal_link2_link2(unsigned int n_link2_link2, unsigned long int k_link2_link2);
+// avahi_new_internal_link3
 // file ../avahi-common/malloc.h line 48
-static inline void * avahi_new_internal$link3(unsigned int n$link3, unsigned long int k$link3);
-// avahi_new_internal$link3$link1
+static inline void * avahi_new_internal_link3(unsigned int n_link3, unsigned long int k_link3);
+// avahi_new_internal_link3_link1
 // file malloc.h line 48
-static inline void * avahi_new_internal$link3$link1(unsigned int n$link3$link1, unsigned long int k$link3$link1);
-// avahi_new_internal$link3$link2
+static inline void * avahi_new_internal_link3_link1(unsigned int n_link3_link1, unsigned long int k_link3_link1);
+// avahi_new_internal_link3_link2
 // file malloc.h line 48
-static inline void * avahi_new_internal$link3$link2(unsigned int n$link3$link2, unsigned long int k$link3$link2);
-// avahi_new_internal$link4
+static inline void * avahi_new_internal_link3_link2(unsigned int n_link3_link2, unsigned long int k_link3_link2);
+// avahi_new_internal_link4
 // file ../avahi-common/malloc.h line 48
-static inline void * avahi_new_internal$link4(unsigned int n$link4, unsigned long int k$link4);
-// avahi_new_internal$link4$link1
+static inline void * avahi_new_internal_link4(unsigned int n_link4, unsigned long int k_link4);
+// avahi_new_internal_link4_link1
 // file malloc.h line 48
-static inline void * avahi_new_internal$link4$link1(unsigned int n$link4$link1, unsigned long int k$link4$link1);
-// avahi_new_internal$link4$link2
+static inline void * avahi_new_internal_link4_link1(unsigned int n_link4_link1, unsigned long int k_link4_link1);
+// avahi_new_internal_link4_link2
 // file malloc.h line 48
-static inline void * avahi_new_internal$link4$link2(unsigned int n$link4$link2, unsigned long int k$link4$link2);
-// avahi_new_internal$link5
+static inline void * avahi_new_internal_link4_link2(unsigned int n_link4_link2, unsigned long int k_link4_link2);
+// avahi_new_internal_link5
 // file malloc.h line 48
-static inline void * avahi_new_internal$link5(unsigned int n$link5, unsigned long int k$link5);
-// avahi_new_internal$link6
+static inline void * avahi_new_internal_link5(unsigned int n_link5, unsigned long int k_link5);
+// avahi_new_internal_link6
 // file malloc.h line 48
-static inline void * avahi_new_internal$link6(unsigned int n$link6, unsigned long int k$link6);
+static inline void * avahi_new_internal_link6(unsigned int n_link6, unsigned long int k_link6);
 // avahi_normalize_name
 // file ../avahi-common/domain.h line 50
 char * avahi_normalize_name(const char *s, char *ret_s, unsigned long int size);
@@ -608,7 +608,7 @@ const char * avahi_proto_to_string(signed int proto);
 void * avahi_realloc(void *p, unsigned long int size);
 // avahi_record_browser_event
 // file internal.h line 162
-enum anonymous$28 avahi_record_browser_event(struct AvahiClient *client, enum anonymous$2 event, struct DBusMessage *message);
+enum anonymous_28 avahi_record_browser_event(struct AvahiClient *client, enum anonymous_2 event, struct DBusMessage *message);
 // avahi_record_browser_free
 // file lookup.h line 308
 signed int avahi_record_browser_free(struct AvahiRecordBrowser *b);
@@ -617,10 +617,10 @@ signed int avahi_record_browser_free(struct AvahiRecordBrowser *b);
 struct AvahiClient * avahi_record_browser_get_client(struct AvahiRecordBrowser *b);
 // avahi_record_browser_new
 // file browser.c line 786
-struct AvahiRecordBrowser * avahi_record_browser_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *name, unsigned short int clazz, unsigned short int type, enum anonymous$1 flags, void (*callback)(struct AvahiRecordBrowser *, signed int, signed int, enum anonymous$2, const char *, unsigned short int, unsigned short int, const void *, unsigned long int, enum anonymous$3, void *), void *userdata);
-// avahi_record_browser_new::callback$object
+struct AvahiRecordBrowser * avahi_record_browser_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *name, unsigned short int clazz, unsigned short int type, enum anonymous_1 flags, void (*callback)(struct AvahiRecordBrowser *, signed int, signed int, enum anonymous_2, const char *, unsigned short int, unsigned short int, const void *, unsigned long int, enum anonymous_3, void *), void *userdata);
+// avahi_record_browser_new::callback_object
 //
-void callback$object(struct AvahiRecordBrowser *, signed int, signed int, enum anonymous$2, const char *, unsigned short int, unsigned short int, const void *, unsigned long int, enum anonymous$3, void *);
+void callback_object(struct AvahiRecordBrowser *, signed int, signed int, enum anonymous_2, const char *, unsigned short int, unsigned short int, const void *, unsigned long int, enum anonymous_3, void *);
 // avahi_reverse_lookup_name
 // file address.c line 67
 char * avahi_reverse_lookup_name(const struct AvahiAddress *a, char *ret_s, unsigned long int length);
@@ -635,7 +635,7 @@ struct AvahiRList * avahi_rlist_remove(struct AvahiRList *r, void *data);
 struct AvahiRList * avahi_rlist_remove_by_link(struct AvahiRList *r, struct AvahiRList *n);
 // avahi_service_browser_event
 // file internal.h line 161
-enum anonymous$28 avahi_service_browser_event(struct AvahiClient *client, enum anonymous$2 event, struct DBusMessage *message);
+enum anonymous_28 avahi_service_browser_event(struct AvahiClient *client, enum anonymous_2 event, struct DBusMessage *message);
 // avahi_service_browser_free
 // file lookup.h line 117
 signed int avahi_service_browser_free(struct AvahiServiceBrowser *b);
@@ -644,10 +644,10 @@ signed int avahi_service_browser_free(struct AvahiServiceBrowser *b);
 struct AvahiClient * avahi_service_browser_get_client(struct AvahiServiceBrowser *b);
 // avahi_service_browser_new
 // file browser.c line 564
-struct AvahiServiceBrowser * avahi_service_browser_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *type, const char *domain, enum anonymous$1 flags, void (*callback)(struct AvahiServiceBrowser *, signed int, signed int, enum anonymous$2, const char *, const char *, const char *, enum anonymous$3, void *), void *userdata);
-// avahi_service_browser_new::callback$object
+struct AvahiServiceBrowser * avahi_service_browser_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *type, const char *domain, enum anonymous_1 flags, void (*callback)(struct AvahiServiceBrowser *, signed int, signed int, enum anonymous_2, const char *, const char *, const char *, enum anonymous_3, void *), void *userdata);
+// avahi_service_browser_new::callback_object
 //
-void callback$object(struct AvahiServiceBrowser *, signed int, signed int, enum anonymous$2, const char *, const char *, const char *, enum anonymous$3, void *);
+void callback_object(struct AvahiServiceBrowser *, signed int, signed int, enum anonymous_2, const char *, const char *, const char *, enum anonymous_3, void *);
 // avahi_service_name_join
 // file domain.c line 440
 signed int avahi_service_name_join(char *p, unsigned long int size, const char *name, const char *type, const char *domain);
@@ -656,7 +656,7 @@ signed int avahi_service_name_join(char *p, unsigned long int size, const char *
 signed int avahi_service_name_split(const char *p, char *name, unsigned long int name_size, char *type, unsigned long int type_size, char *domain, unsigned long int domain_size);
 // avahi_service_resolver_event
 // file internal.h line 164
-enum anonymous$28 avahi_service_resolver_event(struct AvahiClient *client, enum anonymous$6 event, struct DBusMessage *message);
+enum anonymous_28 avahi_service_resolver_event(struct AvahiClient *client, enum anonymous_6 event, struct DBusMessage *message);
 // avahi_service_resolver_free
 // file lookup.h line 205
 signed int avahi_service_resolver_free(struct AvahiServiceResolver *r);
@@ -665,13 +665,13 @@ signed int avahi_service_resolver_free(struct AvahiServiceResolver *r);
 struct AvahiClient * avahi_service_resolver_get_client(struct AvahiServiceResolver *r);
 // avahi_service_resolver_new
 // file resolver.c line 179
-struct AvahiServiceResolver * avahi_service_resolver_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *name, const char *type, const char *domain, signed int aprotocol, enum anonymous$1 flags, void (*callback)(struct AvahiServiceResolver *, signed int, signed int, enum anonymous$6, const char *, const char *, const char *, const char *, const struct AvahiAddress *, unsigned short int, struct AvahiStringList *, enum anonymous$3, void *), void *userdata);
-// avahi_service_resolver_new::callback$object
+struct AvahiServiceResolver * avahi_service_resolver_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *name, const char *type, const char *domain, signed int aprotocol, enum anonymous_1 flags, void (*callback)(struct AvahiServiceResolver *, signed int, signed int, enum anonymous_6, const char *, const char *, const char *, const char *, const struct AvahiAddress *, unsigned short int, struct AvahiStringList *, enum anonymous_3, void *), void *userdata);
+// avahi_service_resolver_new::callback_object
 //
-void callback$object(struct AvahiServiceResolver *, signed int, signed int, enum anonymous$6, const char *, const char *, const char *, const char *, const struct AvahiAddress *, unsigned short int, struct AvahiStringList *, enum anonymous$3, void *);
+void callback_object(struct AvahiServiceResolver *, signed int, signed int, enum anonymous_6, const char *, const char *, const char *, const char *, const struct AvahiAddress *, unsigned short int, struct AvahiStringList *, enum anonymous_3, void *);
 // avahi_service_type_browser_event
 // file internal.h line 160
-enum anonymous$28 avahi_service_type_browser_event(struct AvahiClient *client, enum anonymous$2 event, struct DBusMessage *message);
+enum anonymous_28 avahi_service_type_browser_event(struct AvahiClient *client, enum anonymous_2 event, struct DBusMessage *message);
 // avahi_service_type_browser_free
 // file lookup.h line 150
 signed int avahi_service_type_browser_free(struct AvahiServiceTypeBrowser *b);
@@ -680,10 +680,10 @@ signed int avahi_service_type_browser_free(struct AvahiServiceTypeBrowser *b);
 struct AvahiClient * avahi_service_type_browser_get_client(struct AvahiServiceTypeBrowser *b);
 // avahi_service_type_browser_new
 // file browser.c line 350
-struct AvahiServiceTypeBrowser * avahi_service_type_browser_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *domain, enum anonymous$1 flags, void (*callback)(struct AvahiServiceTypeBrowser *, signed int, signed int, enum anonymous$2, const char *, const char *, enum anonymous$3, void *), void *userdata);
-// avahi_service_type_browser_new::callback$object
+struct AvahiServiceTypeBrowser * avahi_service_type_browser_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *domain, enum anonymous_1 flags, void (*callback)(struct AvahiServiceTypeBrowser *, signed int, signed int, enum anonymous_2, const char *, const char *, enum anonymous_3, void *), void *userdata);
+// avahi_service_type_browser_new::callback_object
 //
-void callback$object(struct AvahiServiceTypeBrowser *, signed int, signed int, enum anonymous$2, const char *, const char *, enum anonymous$3, void *);
+void callback_object(struct AvahiServiceTypeBrowser *, signed int, signed int, enum anonymous_2, const char *, const char *, enum anonymous_3, void *);
 // avahi_set_allocator
 // file malloc.c line 196
 void avahi_set_allocator(const struct AvahiAllocator *a);
@@ -717,12 +717,12 @@ signed int avahi_simple_poll_run(struct AvahiSimplePoll *s);
 // avahi_simple_poll_set_func
 // file simple-watch.c line 630
 void avahi_simple_poll_set_func(struct AvahiSimplePoll *s, signed int (*func)(struct pollfd *, unsigned int, signed int, void *), void *userdata);
-// avahi_simple_poll_set_func::func$link1$object
+// avahi_simple_poll_set_func::func_link1_object
 //
-signed int func$link1$object(struct pollfd *, unsigned int, signed int, void *);
-// avahi_simple_poll_set_func::func$object
+signed int func_link1_object(struct pollfd *, unsigned int, signed int, void *);
+// avahi_simple_poll_set_func::func_object
 //
-signed int func$object(struct pollfd *, unsigned int, signed int, void *);
+signed int func_object(struct pollfd *, unsigned int, signed int, void *);
 // avahi_simple_poll_wakeup
 // file simple-watch.c line 97
 void avahi_simple_poll_wakeup(struct AvahiSimplePoll *s);
@@ -876,27 +876,27 @@ static signed int check_version(struct AvahiClient *client, signed int *ret_erro
 // cleanup_timeouts
 // file simple-watch.c line 304
 static void cleanup_timeouts(struct AvahiSimplePoll *s, signed int all);
-// cleanup_timeouts$link1
+// cleanup_timeouts_link1
 // file simple-watch.c line 304
-static void cleanup_timeouts$link1(struct AvahiSimplePoll *s$link1, signed int all$link1);
+static void cleanup_timeouts_link1(struct AvahiSimplePoll *s_link1, signed int all_link1);
 // cleanup_watches
 // file simple-watch.c line 230
 static void cleanup_watches(struct AvahiSimplePoll *s, signed int all);
-// cleanup_watches$link1
+// cleanup_watches_link1
 // file simple-watch.c line 230
-static void cleanup_watches$link1(struct AvahiSimplePoll *s$link1, signed int all$link1);
+static void cleanup_watches_link1(struct AvahiSimplePoll *s_link1, signed int all_link1);
 // clear_wakeup
 // file simple-watch.c line 105
 static void clear_wakeup(struct AvahiSimplePoll *s);
-// clear_wakeup$link1
+// clear_wakeup_link1
 // file simple-watch.c line 105
-static void clear_wakeup$link1(struct AvahiSimplePoll *s$link1);
+static void clear_wakeup_link1(struct AvahiSimplePoll *s_link1);
 // client_callback
 // file avahi-set-host-name.c line 56
-static void client_callback(struct AvahiClient *c, enum anonymous$7 state, void *userdata);
+static void client_callback(struct AvahiClient *c, enum anonymous_7 state, void *userdata);
 // client_set_state
 // file client.c line 58
-static void client_set_state(struct AvahiClient *client, enum anonymous$7 state);
+static void client_set_state(struct AvahiClient *client, enum anonymous_7 state);
 // close
 // file /usr/include/unistd.h line 353
 extern signed int close(signed int);
@@ -905,28 +905,28 @@ extern signed int close(signed int);
 static void close_pipe_fds(void);
 // connection_data_ref
 // file ../avahi-common/dbus-watch-glue.c line 68
-static struct anonymous$11 * connection_data_ref(struct anonymous$11 *d);
+static struct anonymous_11 * connection_data_ref(struct anonymous_11 *d);
 // connection_data_unref
 // file ../avahi-common/dbus-watch-glue.c line 76
-static void connection_data_unref(struct anonymous$11 *d);
+static void connection_data_unref(struct anonymous_11 *d);
 // dbus_bus_add_match
 // file /usr/include/dbus-1.0/dbus/dbus-bus.h line 83
 void dbus_bus_add_match(struct DBusConnection *, const char *, struct DBusError *);
 // dbus_bus_get_private
 // file /usr/include/dbus-1.0/dbus/dbus-bus.h line 43
-struct DBusConnection * dbus_bus_get_private(enum anonymous$29, struct DBusError *);
+struct DBusConnection * dbus_bus_get_private(enum anonymous_29, struct DBusError *);
 // dbus_connection_add_filter
 // file /usr/include/dbus-1.0/dbus/dbus-connection.h line 295
-unsigned int dbus_connection_add_filter(struct DBusConnection *, enum anonymous$28 (*)(struct DBusConnection *, struct DBusMessage *, void *), void *, void (*)(void *));
+unsigned int dbus_connection_add_filter(struct DBusConnection *, enum anonymous_28 (*)(struct DBusConnection *, struct DBusMessage *, void *), void *, void (*)(void *));
 // dbus_connection_close
 // file /usr/include/dbus-1.0/dbus/dbus-connection.h line 183
 void dbus_connection_close(struct DBusConnection *);
 // dbus_connection_dispatch
 // file /usr/include/dbus-1.0/dbus/dbus-connection.h line 220
-enum anonymous$10 dbus_connection_dispatch(struct DBusConnection *);
+enum anonymous_10 dbus_connection_dispatch(struct DBusConnection *);
 // dbus_connection_get_dispatch_status
 // file /usr/include/dbus-1.0/dbus/dbus-connection.h line 218
-enum anonymous$10 dbus_connection_get_dispatch_status(struct DBusConnection *);
+enum anonymous_10 dbus_connection_get_dispatch_status(struct DBusConnection *);
 // dbus_connection_get_is_connected
 // file /usr/include/dbus-1.0/dbus/dbus-connection.h line 185
 unsigned int dbus_connection_get_is_connected(struct DBusConnection *);
@@ -938,7 +938,7 @@ struct DBusConnection * dbus_connection_ref(struct DBusConnection *);
 struct DBusMessage * dbus_connection_send_with_reply_and_block(struct DBusConnection *, struct DBusMessage *, signed int, struct DBusError *);
 // dbus_connection_set_dispatch_status_function
 // file /usr/include/dbus-1.0/dbus/dbus-connection.h line 257
-void dbus_connection_set_dispatch_status_function(struct DBusConnection *, void (*)(struct DBusConnection *, enum anonymous$10, void *), void *, void (*)(void *));
+void dbus_connection_set_dispatch_status_function(struct DBusConnection *, void (*)(struct DBusConnection *, enum anonymous_10, void *), void *, void (*)(void *));
 // dbus_connection_set_exit_on_disconnect
 // file /usr/include/dbus-1.0/dbus/dbus-connection.h line 197
 void dbus_connection_set_exit_on_disconnect(struct DBusConnection *, unsigned int);
@@ -1056,21 +1056,21 @@ static void defer_timeout_callback(struct AvahiTimeout *t, void *userdata);
 // destroy_timeout
 // file simple-watch.c line 296
 static void destroy_timeout(struct AvahiTimeout *t);
-// destroy_timeout$link1
+// destroy_timeout_link1
 // file simple-watch.c line 296
-static void destroy_timeout$link1(struct AvahiTimeout *t$link1);
+static void destroy_timeout_link1(struct AvahiTimeout *t_link1);
 // destroy_watch
 // file simple-watch.c line 218
 static void destroy_watch(struct AvahiWatch *w);
-// destroy_watch$link1
+// destroy_watch_link1
 // file simple-watch.c line 218
-static void destroy_watch$link1(struct AvahiWatch *w$link1);
+static void destroy_watch_link1(struct AvahiWatch *w_link1);
 // dgettext
 // file /usr/include/libintl.h line 44
 extern char * dgettext(const char *, const char *);
 // dispatch_status
 // file ../avahi-common/dbus-watch-glue.c line 310
-static void dispatch_status(struct DBusConnection *connection, enum anonymous$10 new_status, void *userdata);
+static void dispatch_status(struct DBusConnection *connection, enum anonymous_10 new_status, void *userdata);
 // dispatch_timeout_callback
 // file ../avahi-common/dbus-watch-glue.c line 97
 static void dispatch_timeout_callback(struct AvahiTimeout *t, void *userdata);
@@ -1086,9 +1086,9 @@ static void domain_browser_ref(struct AvahiDomainBrowser *db);
 // drop_incomplete_utf8
 // file alternative.c line 34
 static void drop_incomplete_utf8(char *c);
-// drop_incomplete_utf8$link1
+// drop_incomplete_utf8_link1
 // file alternative.c line 34
-static void drop_incomplete_utf8$link1(char *c$link1);
+static void drop_incomplete_utf8_link1(char *c_link1);
 // entry_group_simple_method_call
 // file entrygroup.c line 188
 static signed int entry_group_simple_method_call(struct AvahiEntryGroup *group, const char *method);
@@ -1100,13 +1100,13 @@ extern signed int fcntl(signed int, signed int, ...);
 extern char * fgets(char *, signed int, struct _IO_FILE *);
 // filter_func
 // file client.c line 103
-static enum anonymous$28 filter_func(struct DBusConnection *bus, struct DBusMessage *message, void *userdata);
+static enum anonymous_28 filter_func(struct DBusConnection *bus, struct DBusMessage *message, void *userdata);
 // find_next_timeout
 // file simple-watch.c line 425
 static struct AvahiTimeout * find_next_timeout(struct AvahiSimplePoll *s);
-// find_next_timeout$link1
+// find_next_timeout_link1
 // file simple-watch.c line 425
-static struct AvahiTimeout * find_next_timeout$link1(struct AvahiSimplePoll *s$link1);
+static struct AvahiTimeout * find_next_timeout_link1(struct AvahiSimplePoll *s_link1);
 // fopen
 // file /usr/include/stdio.h line 272
 extern struct _IO_FILE * fopen(const char *, const char *);
@@ -1164,9 +1164,9 @@ extern unsigned int ntohl(unsigned int);
 // oom
 // file malloc.c line 44
 static void oom(void);
-// oom$link1
+// oom_link1
 // file malloc.c line 44
-static void oom$link1(void);
+static void oom_link1(void);
 // parse_command_line
 // file avahi-set-host-name.c line 80
 static signed int parse_command_line(struct Config *c, signed int argc, char **argv);
@@ -1185,9 +1185,9 @@ extern signed int poll(struct pollfd *, unsigned long int, signed int);
 // poll_func
 // file thread-watch.c line 48
 static signed int poll_func(struct pollfd *ufds, unsigned int nfds, signed int timeout, void *userdata);
-// poll_func$link1
+// poll_func_link1
 // file thread-watch.c line 48
-static signed int poll_func$link1(struct pollfd *ufds$link1, unsigned int nfds$link1, signed int timeout$link1, void *userdata$link1);
+static signed int poll_func_link1(struct pollfd *ufds_link1, unsigned int nfds_link1, signed int timeout_link1, void *userdata_link1);
 // printf
 // file /usr/include/stdio.h line 362
 extern signed int printf(const char *, ...);
@@ -1202,22 +1202,22 @@ extern signed int pthread_equal(unsigned long int, unsigned long int);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$25 *);
+extern signed int pthread_mutex_destroy(union anonymous_25 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$25 *, const union anonymous$26 *);
+extern signed int pthread_mutex_init(union anonymous_25 *, const union anonymous_26 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$25 *);
+extern signed int pthread_mutex_lock(union anonymous_25 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$25 *);
+extern signed int pthread_mutex_unlock(union anonymous_25 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$15 *, struct anonymous$15 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_15 *, struct anonymous_15 *);
 // rand
 // file /usr/include/stdlib.h line 374
 extern signed int rand(void);
@@ -1230,15 +1230,15 @@ extern void * realloc(void *, unsigned long int);
 // rebuild
 // file simple-watch.c line 385
 static signed int rebuild(struct AvahiSimplePoll *s);
-// rebuild$link1
+// rebuild_link1
 // file simple-watch.c line 385
-static signed int rebuild$link1(struct AvahiSimplePoll *s$link1);
+static signed int rebuild_link1(struct AvahiSimplePoll *s_link1);
 // remove_pollfd
 // file simple-watch.c line 194
 static void remove_pollfd(struct AvahiWatch *w);
-// remove_pollfd$link1
+// remove_pollfd_link1
 // file simple-watch.c line 194
-static void remove_pollfd$link1(struct AvahiWatch *w$link1);
+static void remove_pollfd_link1(struct AvahiWatch *w_link1);
 // remove_timeout
 // file ../avahi-common/dbus-watch-glue.c line 286
 static void remove_timeout(struct DBusTimeout *dbus_timeout, void *userdata);
@@ -1247,19 +1247,19 @@ static void remove_timeout(struct DBusTimeout *dbus_timeout, void *userdata);
 static void remove_watch(struct DBusWatch *dbus_watch, void *userdata);
 // request_dispatch
 // file ../avahi-common/dbus-watch-glue.c line 86
-static void request_dispatch(struct anonymous$11 *d, signed int enable);
+static void request_dispatch(struct anonymous_11 *d, signed int enable);
 // retrieve_state
 // file entrygroup.c line 52
 static signed int retrieve_state(struct AvahiEntryGroup *group);
 // set_nonblock
 // file sigint.c line 40
 static signed int set_nonblock(signed int fd);
-// set_nonblock$link1
+// set_nonblock_link1
 // file simple-watch.c line 118
-static signed int set_nonblock$link1(signed int fd$link1);
-// set_nonblock$link2
+static signed int set_nonblock_link1(signed int fd_link1);
+// set_nonblock_link2
 // file simple-watch.c line 118
-static signed int set_nonblock$link2(signed int fd$link2);
+static signed int set_nonblock_link2(signed int fd_link2);
 // setlocale
 // file /usr/include/locale.h line 124
 extern char * setlocale(signed int, const char *);
@@ -1268,7 +1268,7 @@ extern char * setlocale(signed int, const char *);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigfillset
 // file /usr/include/signal.h line 218
-extern signed int sigfillset(struct anonymous$15 *);
+extern signed int sigfillset(struct anonymous_15 *);
 // sigint_install
 // file sigint.h line 25
 signed int sigint_install(struct AvahiSimplePoll *spoll);
@@ -1296,9 +1296,9 @@ extern char * strerror(signed int);
 // strlcpy
 // file domain.c line 482
 static unsigned long int strlcpy(char *dest, const char *src, unsigned long int n);
-// strlcpy$link1
+// strlcpy_link1
 // file domain.c line 482
-static unsigned long int strlcpy$link1(char *dest$link1, const char *src$link1, unsigned long int n$link1);
+static unsigned long int strlcpy_link1(char *dest_link1, const char *src_link1, unsigned long int n_link1);
 // strlen
 // file /usr/include/string.h line 398
 extern unsigned long int strlen(const char *);
@@ -1323,27 +1323,27 @@ extern signed long long int strtoll(const char *, char ** restrict , signed int)
 // system_poll
 // file simple-watch.c line 626
 static signed int system_poll(struct pollfd *ufds, unsigned int nfds, signed int timeout, void *userdata);
-// system_poll$link1
+// system_poll_link1
 // file simple-watch.c line 626
-static signed int system_poll$link1(struct pollfd *ufds$link1, unsigned int nfds$link1, signed int timeout$link1, void *userdata$link1);
+static signed int system_poll_link1(struct pollfd *ufds_link1, unsigned int nfds_link1, signed int timeout_link1, void *userdata_link1);
 // thread
 // file thread-watch.c line 62
 static void * thread(void *userdata);
-// thread$link1
+// thread_link1
 // file thread-watch.c line 62
-static void * thread$link1(void *userdata$link1);
+static void * thread_link1(void *userdata_link1);
 // time
 // file /usr/include/time.h line 192
 extern signed long int time(signed long int *);
 // timeout_callback
 // file ../avahi-common/dbus-watch-glue.c line 237
 static void timeout_callback(struct AvahiTimeout *avahi_timeout, void *userdata);
-// timeout_callback$link1
+// timeout_callback_link1
 // file simple-watch.c line 441
-static void timeout_callback$link1(struct AvahiTimeout *t);
-// timeout_callback$link2
+static void timeout_callback_link1(struct AvahiTimeout *t);
+// timeout_callback_link2
 // file simple-watch.c line 441
-static void timeout_callback$link2(struct AvahiTimeout *t$link1);
+static void timeout_callback_link2(struct AvahiTimeout *t_link1);
 // timeout_data_ref
 // file ../avahi-common/dbus-watch-glue.c line 203
 static struct TimeoutData * timeout_data_ref(struct TimeoutData *t);
@@ -1353,39 +1353,39 @@ static void timeout_data_unref(struct TimeoutData *t);
 // timeout_free
 // file simple-watch.c line 284
 static void timeout_free(struct AvahiTimeout *t);
-// timeout_free$link1
+// timeout_free_link1
 // file simple-watch.c line 284
-static void timeout_free$link1(struct AvahiTimeout *t$link1);
+static void timeout_free_link1(struct AvahiTimeout *t_link1);
 // timeout_new
 // file simple-watch.c line 244
 static struct AvahiTimeout * timeout_new(const struct AvahiPoll *api, struct timeval *tv, void (*callback)(struct AvahiTimeout *, void *), void *userdata);
-// timeout_new$link1
+// timeout_new_link1
 // file simple-watch.c line 244
-static struct AvahiTimeout * timeout_new$link1(const struct AvahiPoll *api$link1, struct timeval *tv$link1, void (*callback$link1)(struct AvahiTimeout *, void *), void *userdata$link1);
-// timeout_new::callback$link1$object
+static struct AvahiTimeout * timeout_new_link1(const struct AvahiPoll *api_link1, struct timeval *tv_link1, void (*callback_link1)(struct AvahiTimeout *, void *), void *userdata_link1);
+// timeout_new::callback_link1_object
 //
-void callback$link1$object(struct AvahiTimeout *, void *);
-// timeout_new::callback$object
+void callback_link1_object(struct AvahiTimeout *, void *);
+// timeout_new::callback_object
 //
-void callback$object(struct AvahiTimeout *, void *);
+void callback_object(struct AvahiTimeout *, void *);
 // timeout_toggled
 // file ../avahi-common/dbus-watch-glue.c line 300
 static void timeout_toggled(struct DBusTimeout *dbus_timeout, void *userdata);
 // timeout_update
 // file simple-watch.c line 273
 static void timeout_update(struct AvahiTimeout *t, struct timeval *tv);
-// timeout_update$link1
+// timeout_update_link1
 // file simple-watch.c line 273
-static void timeout_update$link1(struct AvahiTimeout *t$link1, struct timeval *tv$link1);
+static void timeout_update_link1(struct AvahiTimeout *t_link1, struct timeval *tv_link1);
 // tolower
 // file /usr/include/ctype.h line 124
 extern signed int tolower(signed int);
 // translate_avahi_to_dbus
 // file ../avahi-common/dbus-watch-glue.c line 46
-static unsigned int translate_avahi_to_dbus(enum anonymous$9 e);
+static unsigned int translate_avahi_to_dbus(enum anonymous_9 e);
 // translate_dbus_to_avahi
 // file ../avahi-common/dbus-watch-glue.c line 31
-static enum anonymous$9 translate_dbus_to_avahi(unsigned int f);
+static enum anonymous_9 translate_dbus_to_avahi(unsigned int f);
 // update_timeout
 // file ../avahi-common/dbus-watch-glue.c line 223
 static void update_timeout(struct TimeoutData *timeout);
@@ -1397,66 +1397,66 @@ static unsigned int update_watch(const struct AvahiPoll *poll_api, struct DBusWa
 extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 // watch_callback
 // file sigint.c line 67
-static void watch_callback(struct AvahiWatch *w, signed int fd, enum anonymous$9 event, void *userdata);
-// watch_callback$link1
+static void watch_callback(struct AvahiWatch *w, signed int fd, enum anonymous_9 event, void *userdata);
+// watch_callback_link1
 // file ../avahi-common/dbus-watch-glue.c line 115
-static void watch_callback$link1(struct AvahiWatch *avahi_watch, signed int fd$link1, enum anonymous$9 events, void *userdata$link1);
+static void watch_callback_link1(struct AvahiWatch *avahi_watch, signed int fd_link1, enum anonymous_9 events, void *userdata_link1);
 // watch_free
 // file simple-watch.c line 203
 static void watch_free(struct AvahiWatch *w);
-// watch_free$link1
+// watch_free_link1
 // file simple-watch.c line 203
-static void watch_free$link1(struct AvahiWatch *w$link1);
+static void watch_free_link1(struct AvahiWatch *w_link1);
 // watch_get_events
 // file simple-watch.c line 184
-static enum anonymous$9 watch_get_events(struct AvahiWatch *w);
-// watch_get_events$link1
+static enum anonymous_9 watch_get_events(struct AvahiWatch *w);
+// watch_get_events_link1
 // file simple-watch.c line 184
-static enum anonymous$9 watch_get_events$link1(struct AvahiWatch *w$link1);
+static enum anonymous_9 watch_get_events_link1(struct AvahiWatch *w_link1);
 // watch_new
 // file simple-watch.c line 132
-static struct AvahiWatch * watch_new(const struct AvahiPoll *api, signed int fd, enum anonymous$9 event, void (*callback)(struct AvahiWatch *, signed int, enum anonymous$9, void *), void *userdata);
-// watch_new$link1
+static struct AvahiWatch * watch_new(const struct AvahiPoll *api, signed int fd, enum anonymous_9 event, void (*callback)(struct AvahiWatch *, signed int, enum anonymous_9, void *), void *userdata);
+// watch_new_link1
 // file simple-watch.c line 132
-static struct AvahiWatch * watch_new$link1(const struct AvahiPoll *api$link1, signed int fd$link1, enum anonymous$9 event$link1, void (*callback$link1)(struct AvahiWatch *, signed int, enum anonymous$9, void *), void *userdata$link1);
-// watch_new::callback$link1$object
+static struct AvahiWatch * watch_new_link1(const struct AvahiPoll *api_link1, signed int fd_link1, enum anonymous_9 event_link1, void (*callback_link1)(struct AvahiWatch *, signed int, enum anonymous_9, void *), void *userdata_link1);
+// watch_new::callback_link1_object
 //
-void callback$link1$object(struct AvahiWatch *, signed int, enum anonymous$9, void *);
-// watch_new::callback$object
+void callback_link1_object(struct AvahiWatch *, signed int, enum anonymous_9, void *);
+// watch_new::callback_object
 //
-void callback$object(struct AvahiWatch *, signed int, enum anonymous$9, void *);
+void callback_object(struct AvahiWatch *, signed int, enum anonymous_9, void *);
 // watch_toggled
 // file ../avahi-common/dbus-watch-glue.c line 187
 static void watch_toggled(struct DBusWatch *dbus_watch, void *userdata);
 // watch_update
 // file simple-watch.c line 168
-static void watch_update(struct AvahiWatch *w, enum anonymous$9 events);
-// watch_update$link1
+static void watch_update(struct AvahiWatch *w, enum anonymous_9 events);
+// watch_update_link1
 // file simple-watch.c line 168
-static void watch_update$link1(struct AvahiWatch *w$link1, enum anonymous$9 events$link1);
+static void watch_update_link1(struct AvahiWatch *w_link1, enum anonymous_9 events_link1);
 // write
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 // xcalloc
 // file malloc.c line 89
 static void * xcalloc(unsigned long int nmemb, unsigned long int size);
-// xcalloc$link1
+// xcalloc_link1
 // file malloc.c line 89
-static void * xcalloc$link1(unsigned long int nmemb$link1, unsigned long int size$link1);
+static void * xcalloc_link1(unsigned long int nmemb_link1, unsigned long int size_link1);
 // xmalloc
 // file malloc.c line 62
 static void * xmalloc(unsigned long int size);
-// xmalloc$link1
+// xmalloc_link1
 // file malloc.c line 62
-static void * xmalloc$link1(unsigned long int size$link1);
+static void * xmalloc_link1(unsigned long int size_link1);
 // xrealloc
 // file malloc.c line 75
 static void * xrealloc(void *p, unsigned long int size);
-// xrealloc$link1
+// xrealloc_link1
 // file malloc.c line 75
-static void * xrealloc$link1(void *p$link1, unsigned long int size$link1);
+static void * xrealloc_link1(void *p_link1, unsigned long int size_link1);
 
-struct anonymous$11
+struct anonymous_11
 {
   // connection
   struct DBusConnection *connection;
@@ -1468,7 +1468,7 @@ struct anonymous$11
   signed int ref;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // _call_addr
   void *_call_addr;
@@ -1478,7 +1478,7 @@ struct anonymous$22
   unsigned int _arch;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // si_addr
   void *si_addr;
@@ -1486,13 +1486,13 @@ struct anonymous$20
   signed short int si_addr_lsb;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // si_pid
   signed int si_pid;
@@ -1500,7 +1500,7 @@ struct anonymous$16
   unsigned int si_uid;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // si_pid
   signed int si_pid;
@@ -1522,7 +1522,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // si_pid
   signed int si_pid;
@@ -1532,7 +1532,7 @@ struct anonymous$18
   union sigval si_sigval;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // si_tid
   signed int si_tid;
@@ -1542,7 +1542,7 @@ struct anonymous$17
   union sigval si_sigval;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // si_band
   signed long int si_band;
@@ -1550,27 +1550,27 @@ struct anonymous$21
   signed int si_fd;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$16 _kill;
+  struct anonymous_16 _kill;
   // _timer
-  struct anonymous$17 _timer;
+  struct anonymous_17 _timer;
   // _rt
-  struct anonymous$18 _rt;
+  struct anonymous_18 _rt;
   // _sigchld
-  struct anonymous$19 _sigchld;
+  struct anonymous_19 _sigchld;
   // _sigfault
-  struct anonymous$20 _sigfault;
+  struct anonymous_20 _sigfault;
   // _sigpoll
-  struct anonymous$21 _sigpoll;
+  struct anonymous_21 _sigpoll;
   // _sigsys
-  struct anonymous$22 _sigsys;
+  struct anonymous_22 _sigsys;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // si_signo
   signed int si_signo;
@@ -1579,18 +1579,18 @@ struct anonymous$13
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$12 _sifields;
+  union anonymous_12 _sifields;
 };
 
-union anonymous$14
+union anonymous_14
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$13 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_13 *, void *);
 };
 
-union anonymous$26
+union anonymous_26
 {
   // __size
   char __size[4l];
@@ -1610,7 +1610,7 @@ struct AvahiIPv4Address
   unsigned int address;
 };
 
-union anonymous$23
+union anonymous_23
 {
   // ipv6
   struct AvahiIPv6Address ipv6;
@@ -1648,7 +1648,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$25
+union anonymous_25
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1663,7 +1663,7 @@ struct AvahiAddress
   // proto
   signed int proto;
   // data
-  union anonymous$23 data;
+  union anonymous_23 data;
 };
 
 struct AvahiAddressResolver
@@ -1673,7 +1673,7 @@ struct AvahiAddressResolver
   // client
   struct AvahiClient *client;
   // callback
-  void (*callback)(struct AvahiAddressResolver *, signed int, signed int, enum anonymous$6, const struct AvahiAddress *, const char *, enum anonymous$3, void *);
+  void (*callback)(struct AvahiAddressResolver *, signed int, signed int, enum anonymous_6, const struct AvahiAddress *, const char *, enum anonymous_3, void *);
   // userdata
   void *userdata;
   // address_resolvers_next
@@ -1709,9 +1709,9 @@ struct AvahiClient
   // error
   signed int error;
   // state
-  enum anonymous$7 state;
+  enum anonymous_7 state;
   // flags
-  enum anonymous$8 flags;
+  enum anonymous_8 flags;
   // version_string
   char *version_string;
   // host_name
@@ -1725,7 +1725,7 @@ struct AvahiClient
   // local_service_cookie_valid
   signed int local_service_cookie_valid;
   // callback
-  void (*callback)(struct AvahiClient *, enum anonymous$7, void *);
+  void (*callback)(struct AvahiClient *, enum anonymous_7, void *);
   // userdata
   void *userdata;
   // groups
@@ -1755,7 +1755,7 @@ struct AvahiDomainBrowser
   // client
   struct AvahiClient *client;
   // callback
-  void (*callback)(struct AvahiDomainBrowser *, signed int, signed int, enum anonymous$2, const char *, enum anonymous$3, void *);
+  void (*callback)(struct AvahiDomainBrowser *, signed int, signed int, enum anonymous_2, const char *, enum anonymous_3, void *);
   // userdata
   void *userdata;
   // domain_browsers_next
@@ -1777,13 +1777,13 @@ struct AvahiEntryGroup
   // path
   char *path;
   // state
-  enum anonymous$27 state;
+  enum anonymous_27 state;
   // state_valid
   signed int state_valid;
   // client
   struct AvahiClient *client;
   // callback
-  void (*callback)(struct AvahiEntryGroup *, enum anonymous$27, void *);
+  void (*callback)(struct AvahiEntryGroup *, enum anonymous_27, void *);
   // userdata
   void *userdata;
   // groups_next
@@ -1799,7 +1799,7 @@ struct AvahiHostNameResolver
   // client
   struct AvahiClient *client;
   // callback
-  void (*callback)(struct AvahiHostNameResolver *, signed int, signed int, enum anonymous$6, const char *, const struct AvahiAddress *, enum anonymous$3, void *);
+  void (*callback)(struct AvahiHostNameResolver *, signed int, signed int, enum anonymous_6, const char *, const struct AvahiAddress *, enum anonymous_3, void *);
   // userdata
   void *userdata;
   // host_name_resolvers_next
@@ -1819,11 +1819,11 @@ struct AvahiPoll
   // userdata
   void *userdata;
   // watch_new
-  struct AvahiWatch * (*watch_new)(const struct AvahiPoll *, signed int, enum anonymous$9, void (*)(struct AvahiWatch *, signed int, enum anonymous$9, void *), void *);
+  struct AvahiWatch * (*watch_new)(const struct AvahiPoll *, signed int, enum anonymous_9, void (*)(struct AvahiWatch *, signed int, enum anonymous_9, void *), void *);
   // watch_update
-  void (*watch_update)(struct AvahiWatch *, enum anonymous$9);
+  void (*watch_update)(struct AvahiWatch *, enum anonymous_9);
   // watch_get_events
-  enum anonymous$9 (*watch_get_events)(struct AvahiWatch *);
+  enum anonymous_9 (*watch_get_events)(struct AvahiWatch *);
   // watch_free
   void (*watch_free)(struct AvahiWatch *);
   // timeout_new
@@ -1851,7 +1851,7 @@ struct AvahiRecordBrowser
   // client
   struct AvahiClient *client;
   // callback
-  void (*callback)(struct AvahiRecordBrowser *, signed int, signed int, enum anonymous$2, const char *, unsigned short int, unsigned short int, const void *, unsigned long int, enum anonymous$3, void *);
+  void (*callback)(struct AvahiRecordBrowser *, signed int, signed int, enum anonymous_2, const char *, unsigned short int, unsigned short int, const void *, unsigned long int, enum anonymous_3, void *);
   // userdata
   void *userdata;
   // record_browsers_next
@@ -1877,7 +1877,7 @@ struct AvahiServiceBrowser
   // client
   struct AvahiClient *client;
   // callback
-  void (*callback)(struct AvahiServiceBrowser *, signed int, signed int, enum anonymous$2, const char *, const char *, const char *, enum anonymous$3, void *);
+  void (*callback)(struct AvahiServiceBrowser *, signed int, signed int, enum anonymous_2, const char *, const char *, const char *, enum anonymous_3, void *);
   // userdata
   void *userdata;
   // service_browsers_next
@@ -1901,7 +1901,7 @@ struct AvahiServiceResolver
   // client
   struct AvahiClient *client;
   // callback
-  void (*callback)(struct AvahiServiceResolver *, signed int, signed int, enum anonymous$6, const char *, const char *, const char *, const char *, const struct AvahiAddress *, unsigned short int, struct AvahiStringList *, enum anonymous$3, void *);
+  void (*callback)(struct AvahiServiceResolver *, signed int, signed int, enum anonymous_6, const char *, const char *, const char *, const char *, const struct AvahiAddress *, unsigned short int, struct AvahiStringList *, enum anonymous_3, void *);
   // userdata
   void *userdata;
   // service_resolvers_next
@@ -1927,7 +1927,7 @@ struct AvahiServiceTypeBrowser
   // client
   struct AvahiClient *client;
   // callback
-  void (*callback)(struct AvahiServiceTypeBrowser *, signed int, signed int, enum anonymous$2, const char *, const char *, enum anonymous$3, void *);
+  void (*callback)(struct AvahiServiceTypeBrowser *, signed int, signed int, enum anonymous_2, const char *, const char *, enum anonymous_3, void *);
   // userdata
   void *userdata;
   // service_type_browsers_next
@@ -1979,7 +1979,7 @@ struct AvahiSimplePoll
   // prepared_timeout
   signed int prepared_timeout;
   // state
-  enum anonymous$4 state;
+  enum anonymous_4 state;
 };
 
 struct AvahiStringList
@@ -1999,7 +1999,7 @@ struct AvahiThreadedPoll
   // thread_id
   unsigned long int thread_id;
   // mutex
-  union anonymous$25 mutex;
+  union anonymous_25 mutex;
   // thread_running
   signed int thread_running;
   // retval
@@ -2055,7 +2055,7 @@ struct AvahiWatch
   // pollfd
   struct pollfd pollfd;
   // callback
-  void (*callback)(struct AvahiWatch *, signed int, enum anonymous$9, void *);
+  void (*callback)(struct AvahiWatch *, signed int, enum anonymous_9, void *);
   // userdata
   void *userdata;
   // watches_next
@@ -2069,7 +2069,7 @@ struct Config
   // verbose
   signed int verbose;
   // command
-  enum anonymous$5 command;
+  enum anonymous_5 command;
 };
 
 struct DBusError
@@ -2239,9 +2239,9 @@ union pthread_attr_t
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$14 __sigaction_handler;
+  union anonymous_14 __sigaction_handler;
   // sa_mask
-  struct anonymous$15 sa_mask;
+  struct anonymous_15 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -2260,9 +2260,9 @@ struct timezone
 // allocator
 // file malloc.c line 40
 static const struct AvahiAllocator *allocator = (const struct AvahiAllocator *)(void *)0;
-// allocator$link1
+// allocator_link1
 // file malloc.c line 40
-static const struct AvahiAllocator *allocator$link1 = (const struct AvahiAllocator *)(void *)0;
+static const struct AvahiAllocator *allocator_link1 = (const struct AvahiAllocator *)(void *)0;
 // client
 // file avahi-set-host-name.c line 54
 static struct AvahiClient *client = (struct AvahiClient *)(void *)0;
@@ -2298,9 +2298,9 @@ static signed int pipe_fds[2l] = { -1, -1 };
 // simple_poll
 // file avahi-set-host-name.c line 53
 static struct AvahiSimplePoll *simple_poll = (struct AvahiSimplePoll *)(void *)0;
-// simple_poll$link1
+// simple_poll_link1
 // file sigint.c line 35
-static struct AvahiSimplePoll *simple_poll$link1 = (struct AvahiSimplePoll *)(void *)0;
+static struct AvahiSimplePoll *simple_poll_link1 = (struct AvahiSimplePoll *)(void *)0;
 // stderr
 // file /usr/include/stdio.h line 170
 extern struct _IO_FILE *stderr;
@@ -2349,17 +2349,17 @@ static struct AvahiWatch *watch = (struct AvahiWatch *)(void *)0;
 static unsigned int add_timeout(struct DBusTimeout *dbus_timeout, void *userdata)
 {
   struct TimeoutData *timeout;
-  struct anonymous$11 *d = (struct anonymous$11 *)userdata;
+  struct anonymous_11 *d = (struct anonymous_11 *)userdata;
   struct timeval tv;
   unsigned int b;
   /* assertion dbus_timeout */
   assert(dbus_timeout != ((struct DBusTimeout *)NULL));
   /* assertion d */
-  assert(d != ((struct anonymous$11 *)NULL));
-  void *return_value_avahi_new_internal$1;
-  return_value_avahi_new_internal$1=avahi_new_internal$link4((unsigned int)1, sizeof(struct TimeoutData) /*32ul*/ );
-  timeout = (struct TimeoutData *)return_value_avahi_new_internal$1;
-  signed int return_value_dbus_timeout_get_interval$2;
+  assert(d != ((struct anonymous_11 *)NULL));
+  void *return_value_avahi_new_internal_1;
+  return_value_avahi_new_internal_1=avahi_new_internal_link4((unsigned int)1, sizeof(struct TimeoutData) /*32ul*/ );
+  timeout = (struct TimeoutData *)return_value_avahi_new_internal_1;
+  signed int return_value_dbus_timeout_get_interval_2;
   if(timeout == ((struct TimeoutData *)NULL))
     return (unsigned int)0;
 
@@ -2371,8 +2371,8 @@ static unsigned int add_timeout(struct DBusTimeout *dbus_timeout, void *userdata
     b=dbus_timeout_get_enabled(dbus_timeout);
     if(!(b == 0u))
     {
-      return_value_dbus_timeout_get_interval$2=dbus_timeout_get_interval(dbus_timeout);
-      avahi_elapse_time(&tv, (unsigned int)return_value_dbus_timeout_get_interval$2, (unsigned int)0);
+      return_value_dbus_timeout_get_interval_2=dbus_timeout_get_interval(dbus_timeout);
+      avahi_elapse_time(&tv, (unsigned int)return_value_dbus_timeout_get_interval_2, (unsigned int)0);
     }
 
     timeout->avahi_timeout=d->poll_api->timeout_new(d->poll_api, b != 0u ? &tv : (struct timeval *)(void *)0, timeout_callback, (void *)timeout);
@@ -2394,14 +2394,14 @@ static unsigned int add_timeout(struct DBusTimeout *dbus_timeout, void *userdata
 // file ../avahi-common/dbus-watch-glue.c line 165
 static unsigned int add_watch(struct DBusWatch *dbus_watch, void *userdata)
 {
-  struct anonymous$11 *d = (struct anonymous$11 *)userdata;
+  struct anonymous_11 *d = (struct anonymous_11 *)userdata;
   /* assertion dbus_watch */
   assert(dbus_watch != ((struct DBusWatch *)NULL));
   /* assertion d */
-  assert(d != ((struct anonymous$11 *)NULL));
-  unsigned int return_value_update_watch$1;
-  return_value_update_watch$1=update_watch(d->poll_api, dbus_watch);
-  return return_value_update_watch$1;
+  assert(d != ((struct anonymous_11 *)NULL));
+  unsigned int return_value_update_watch_1;
+  return_value_update_watch_1=update_watch(d->poll_api, dbus_watch);
+  return return_value_update_watch_1;
 }
 
 // address_get_size
@@ -2420,17 +2420,17 @@ static unsigned long int address_get_size(const struct AvahiAddress *a)
   return (unsigned long int)0;
 }
 
-// address_get_size$link1
+// address_get_size_link1
 // file address.c line 35
-static unsigned long int address_get_size$link1(const struct AvahiAddress *a$link1)
+static unsigned long int address_get_size_link1(const struct AvahiAddress *a_link1)
 {
   /* assertion a */
-  assert(a$link1 != ((const struct AvahiAddress *)NULL));
-  if(a$link1->proto == 0)
+  assert(a_link1 != ((const struct AvahiAddress *)NULL));
+  if(a_link1->proto == 0)
     return (unsigned long int)4;
 
   else
-    if(a$link1->proto == 1)
+    if(a_link1->proto == 1)
       return (unsigned long int)16;
 
   return (unsigned long int)0;
@@ -2445,29 +2445,29 @@ static signed int append_rdata(struct DBusMessage *message, const void *rdata, u
   /* assertion message */
   assert(message != ((struct DBusMessage *)NULL));
   dbus_message_iter_init_append(message, &iter);
-  unsigned int return_value_dbus_message_iter_open_container$1;
-  return_value_dbus_message_iter_open_container$1=dbus_message_iter_open_container(&iter, (signed int)97, "y", &sub);
-  _Bool tmp_if_expr$3;
-  unsigned int return_value_dbus_message_iter_append_fixed_array$2;
-  if(return_value_dbus_message_iter_open_container$1 == 0u)
-    tmp_if_expr$3 = (_Bool)1;
+  unsigned int return_value_dbus_message_iter_open_container_1;
+  return_value_dbus_message_iter_open_container_1=dbus_message_iter_open_container(&iter, (signed int)97, "y", &sub);
+  _Bool tmp_if_expr_3;
+  unsigned int return_value_dbus_message_iter_append_fixed_array_2;
+  if(return_value_dbus_message_iter_open_container_1 == 0u)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_dbus_message_iter_append_fixed_array$2=dbus_message_iter_append_fixed_array(&sub, (signed int)121, (const void *)&rdata, (signed int)size);
-    tmp_if_expr$3 = !(return_value_dbus_message_iter_append_fixed_array$2 != 0u) ? (_Bool)1 : (_Bool)0;
+    return_value_dbus_message_iter_append_fixed_array_2=dbus_message_iter_append_fixed_array(&sub, (signed int)121, (const void *)&rdata, (signed int)size);
+    tmp_if_expr_3 = !(return_value_dbus_message_iter_append_fixed_array_2 != 0u) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_dbus_message_iter_close_container$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_dbus_message_iter_close_container_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_dbus_message_iter_close_container$4=dbus_message_iter_close_container(&iter, &sub);
-    tmp_if_expr$5 = !(return_value_dbus_message_iter_close_container$4 != 0u) ? (_Bool)1 : (_Bool)0;
+    return_value_dbus_message_iter_close_container_4=dbus_message_iter_close_container(&iter, &sub);
+    tmp_if_expr_5 = !(return_value_dbus_message_iter_close_container_4 != 0u) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$5)
+  if(tmp_if_expr_5)
     return -1;
 
   else
@@ -2486,44 +2486,44 @@ static signed int append_string_list(struct DBusMessage *message, struct AvahiSt
   assert(message != ((struct DBusMessage *)NULL));
   dbus_message_iter_init_append(message, &iter);
   txt=avahi_string_list_reverse(txt);
-  unsigned int return_value_dbus_message_iter_open_container$1;
-  return_value_dbus_message_iter_open_container$1=dbus_message_iter_open_container(&iter, (signed int)97, "ay", &sub);
-  _Bool tmp_if_expr$4;
-  unsigned int return_value_dbus_message_iter_append_fixed_array$3;
-  _Bool tmp_if_expr$6;
-  unsigned int return_value_dbus_message_iter_close_container$5;
-  unsigned int return_value_dbus_message_iter_close_container$7;
-  if(!(return_value_dbus_message_iter_open_container$1 == 0u))
+  unsigned int return_value_dbus_message_iter_open_container_1;
+  return_value_dbus_message_iter_open_container_1=dbus_message_iter_open_container(&iter, (signed int)97, "ay", &sub);
+  _Bool tmp_if_expr_4;
+  unsigned int return_value_dbus_message_iter_append_fixed_array_3;
+  _Bool tmp_if_expr_6;
+  unsigned int return_value_dbus_message_iter_close_container_5;
+  unsigned int return_value_dbus_message_iter_close_container_7;
+  if(!(return_value_dbus_message_iter_open_container_1 == 0u))
   {
     p = txt;
     for( ; !(p == ((struct AvahiStringList *)NULL)); p = p->next)
     {
       struct DBusMessageIter sub2;
       const unsigned char *data = p->text;
-      unsigned int return_value_dbus_message_iter_open_container$2;
-      return_value_dbus_message_iter_open_container$2=dbus_message_iter_open_container(&sub, (signed int)97, "y", &sub2);
-      if(return_value_dbus_message_iter_open_container$2 == 0u)
-        tmp_if_expr$4 = (_Bool)1;
+      unsigned int return_value_dbus_message_iter_open_container_2;
+      return_value_dbus_message_iter_open_container_2=dbus_message_iter_open_container(&sub, (signed int)97, "y", &sub2);
+      if(return_value_dbus_message_iter_open_container_2 == 0u)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
-        return_value_dbus_message_iter_append_fixed_array$3=dbus_message_iter_append_fixed_array(&sub2, (signed int)121, (const void *)&data, (signed int)p->size);
-        tmp_if_expr$4 = !(return_value_dbus_message_iter_append_fixed_array$3 != 0u) ? (_Bool)1 : (_Bool)0;
+        return_value_dbus_message_iter_append_fixed_array_3=dbus_message_iter_append_fixed_array(&sub2, (signed int)121, (const void *)&data, (signed int)p->size);
+        tmp_if_expr_4 = !(return_value_dbus_message_iter_append_fixed_array_3 != 0u) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
-        tmp_if_expr$6 = (_Bool)1;
+      if(tmp_if_expr_4)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
       {
-        return_value_dbus_message_iter_close_container$5=dbus_message_iter_close_container(&sub, &sub2);
-        tmp_if_expr$6 = !(return_value_dbus_message_iter_close_container$5 != 0u) ? (_Bool)1 : (_Bool)0;
+        return_value_dbus_message_iter_close_container_5=dbus_message_iter_close_container(&sub, &sub2);
+        tmp_if_expr_6 = !(return_value_dbus_message_iter_close_container_5 != 0u) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$6)
+      if(tmp_if_expr_6)
         goto fail;
 
     }
-    return_value_dbus_message_iter_close_container$7=dbus_message_iter_close_container(&iter, &sub);
-    if(!(return_value_dbus_message_iter_close_container$7 == 0u))
+    return_value_dbus_message_iter_close_container_7=dbus_message_iter_close_container(&iter, &sub);
+    if(!(return_value_dbus_message_iter_close_container_7 == 0u))
       r = 0;
 
   }
@@ -2548,11 +2548,11 @@ signed int avahi_address_cmp(const struct AvahiAddress *a, const struct AvahiAdd
 
   else
   {
-    unsigned long int return_value_address_get_size$1;
-    return_value_address_get_size$1=address_get_size(a);
-    signed int return_value_memcmp$2;
-    return_value_memcmp$2=memcmp((const void *)a->data.data, (const void *)b->data.data, return_value_address_get_size$1);
-    return return_value_memcmp$2;
+    unsigned long int return_value_address_get_size_1;
+    return_value_address_get_size_1=address_get_size(a);
+    signed int return_value_memcmp_2;
+    return_value_memcmp_2=memcmp((const void *)a->data.data, (const void *)b->data.data, return_value_address_get_size_1);
+    return return_value_memcmp_2;
   }
 }
 
@@ -2566,13 +2566,13 @@ struct AvahiAddress * avahi_address_parse(const char *s, signed int proto, struc
   assert(s != ((const char *)NULL));
   if(proto == -1)
   {
-    signed int return_value_inet_pton$2;
-    return_value_inet_pton$2=inet_pton(2, s, (void *)ret_addr->data.data);
-    if(!(return_value_inet_pton$2 >= 1))
+    signed int return_value_inet_pton_2;
+    return_value_inet_pton_2=inet_pton(2, s, (void *)ret_addr->data.data);
+    if(!(return_value_inet_pton_2 >= 1))
     {
-      signed int return_value_inet_pton$1;
-      return_value_inet_pton$1=inet_pton(10, s, (void *)ret_addr->data.data);
-      if(!(return_value_inet_pton$1 >= 1))
+      signed int return_value_inet_pton_1;
+      return_value_inet_pton_1=inet_pton(10, s, (void *)ret_addr->data.data);
+      if(!(return_value_inet_pton_1 >= 1))
         return (struct AvahiAddress *)(void *)0;
 
       else
@@ -2585,11 +2585,11 @@ struct AvahiAddress * avahi_address_parse(const char *s, signed int proto, struc
 
   else
   {
-    signed int return_value_avahi_proto_to_af$3;
-    return_value_avahi_proto_to_af$3=avahi_proto_to_af(proto);
-    signed int return_value_inet_pton$4;
-    return_value_inet_pton$4=inet_pton(return_value_avahi_proto_to_af$3, s, (void *)ret_addr->data.data);
-    if(!(return_value_inet_pton$4 >= 1))
+    signed int return_value_avahi_proto_to_af_3;
+    return_value_avahi_proto_to_af_3=avahi_proto_to_af(proto);
+    signed int return_value_inet_pton_4;
+    return_value_inet_pton_4=inet_pton(return_value_avahi_proto_to_af_3, s, (void *)ret_addr->data.data);
+    if(!(return_value_inet_pton_4 >= 1))
       return (struct AvahiAddress *)(void *)0;
 
     ret_addr->proto = proto;
@@ -2599,7 +2599,7 @@ struct AvahiAddress * avahi_address_parse(const char *s, signed int proto, struc
 
 // avahi_address_resolver_event
 // file internal.h line 166
-enum anonymous$28 avahi_address_resolver_event(struct AvahiClient *client, enum anonymous$6 event, struct DBusMessage *message)
+enum anonymous_28 avahi_address_resolver_event(struct AvahiClient *client, enum anonymous_6 event, struct DBusMessage *message)
 {
   struct AvahiAddressResolver *r = (struct AvahiAddressResolver *)(void *)0;
   struct DBusError error;
@@ -2610,7 +2610,7 @@ enum anonymous$28 avahi_address_resolver_event(struct AvahiClient *client, enum 
   assert(message != ((struct DBusMessage *)NULL));
   dbus_error_init(&error);
   path=dbus_message_get_path(message);
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   signed int interface;
   signed int protocol;
   signed int aprotocol;
@@ -2618,22 +2618,22 @@ enum anonymous$28 avahi_address_resolver_event(struct AvahiClient *client, enum 
   char *name;
   char *address;
   struct AvahiAddress a;
-  unsigned int return_value_dbus_message_get_args$2;
-  _Bool tmp_if_expr$4;
-  unsigned int return_value_dbus_error_is_set$3;
-  struct AvahiAddress *return_value_avahi_address_parse$5;
+  unsigned int return_value_dbus_message_get_args_2;
+  _Bool tmp_if_expr_4;
+  unsigned int return_value_dbus_error_is_set_3;
+  struct AvahiAddress *return_value_avahi_address_parse_5;
   char *etxt;
-  unsigned int return_value_dbus_message_get_args$6;
-  _Bool tmp_if_expr$8;
-  unsigned int return_value_dbus_error_is_set$7;
-  signed int return_value_avahi_error_dbus_to_number$9;
+  unsigned int return_value_dbus_message_get_args_6;
+  _Bool tmp_if_expr_8;
+  unsigned int return_value_dbus_error_is_set_7;
+  signed int return_value_avahi_error_dbus_to_number_9;
   if(!(path == ((const char *)NULL)))
   {
     r = client->address_resolvers;
     for( ; !(r == ((struct AvahiAddressResolver *)NULL)); r = r->address_resolvers_next)
     {
-      return_value_strcmp$1=strcmp(r->path, path);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(r->path, path);
+      if(return_value_strcmp_1 == 0)
         break;
 
     }
@@ -2644,16 +2644,16 @@ enum anonymous$28 avahi_address_resolver_event(struct AvahiClient *client, enum 
     {
       case AVAHI_RESOLVER_FOUND:
       {
-        return_value_dbus_message_get_args$2=dbus_message_get_args(message, &error, (signed int)105, &interface, (signed int)105, &protocol, (signed int)105, &aprotocol, (signed int)115, &address, (signed int)115, &name, (signed int)117, &flags, (signed int)0);
-        if(return_value_dbus_message_get_args$2 == 0u)
-          tmp_if_expr$4 = (_Bool)1;
+        return_value_dbus_message_get_args_2=dbus_message_get_args(message, &error, (signed int)105, &interface, (signed int)105, &protocol, (signed int)105, &aprotocol, (signed int)115, &address, (signed int)115, &name, (signed int)117, &flags, (signed int)0);
+        if(return_value_dbus_message_get_args_2 == 0u)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$3=dbus_error_is_set(&error);
-          tmp_if_expr$4 = return_value_dbus_error_is_set$3 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_3=dbus_error_is_set(&error);
+          tmp_if_expr_4 = return_value_dbus_error_is_set_3 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
         {
           fprintf(stderr, "Failed to parse resolver event.\n");
           goto fail;
@@ -2661,38 +2661,38 @@ enum anonymous$28 avahi_address_resolver_event(struct AvahiClient *client, enum 
 
         /* assertion address */
         assert(address != ((char *)NULL));
-        return_value_avahi_address_parse$5=avahi_address_parse(address, (signed int)aprotocol, &a);
-        if(return_value_avahi_address_parse$5 == ((struct AvahiAddress *)NULL))
+        return_value_avahi_address_parse_5=avahi_address_parse(address, (signed int)aprotocol, &a);
+        if(return_value_avahi_address_parse_5 == ((struct AvahiAddress *)NULL))
         {
           fprintf(stderr, "Failed to parse address\n");
           goto fail;
         }
 
-        r->callback(r, (signed int)interface, (signed int)protocol, (enum anonymous$6)AVAHI_RESOLVER_FOUND, &a, name, (enum anonymous$3)flags, r->userdata);
+        r->callback(r, (signed int)interface, (signed int)protocol, (enum anonymous_6)AVAHI_RESOLVER_FOUND, &a, name, (enum anonymous_3)flags, r->userdata);
       }
       case AVAHI_RESOLVER_FAILURE:
       {
-        return_value_dbus_message_get_args$6=dbus_message_get_args(message, &error, (signed int)115, &etxt, (signed int)0);
-        if(return_value_dbus_message_get_args$6 == 0u)
-          tmp_if_expr$8 = (_Bool)1;
+        return_value_dbus_message_get_args_6=dbus_message_get_args(message, &error, (signed int)115, &etxt, (signed int)0);
+        if(return_value_dbus_message_get_args_6 == 0u)
+          tmp_if_expr_8 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$7=dbus_error_is_set(&error);
-          tmp_if_expr$8 = return_value_dbus_error_is_set$7 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_7=dbus_error_is_set(&error);
+          tmp_if_expr_8 = return_value_dbus_error_is_set_7 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$8)
+        if(tmp_if_expr_8)
         {
           fprintf(stderr, "Failed to parse resolver event.\n");
           goto fail;
         }
 
-        return_value_avahi_error_dbus_to_number$9=avahi_error_dbus_to_number(etxt);
-        avahi_client_set_errno(r->client, return_value_avahi_error_dbus_to_number$9);
-        r->callback(r, r->interface, r->protocol, event, &r->address, (const char *)(void *)0, (enum anonymous$3)0, r->userdata);
+        return_value_avahi_error_dbus_to_number_9=avahi_error_dbus_to_number(etxt);
+        avahi_client_set_errno(r->client, return_value_avahi_error_dbus_to_number_9);
+        r->callback(r, r->interface, r->protocol, event, &r->address, (const char *)(void *)0, (enum anonymous_3)0, r->userdata);
       }
     }
-    return (enum anonymous$28)DBUS_HANDLER_RESULT_HANDLED;
+    return (enum anonymous_28)DBUS_HANDLER_RESULT_HANDLED;
   }
 
   else
@@ -2701,7 +2701,7 @@ enum anonymous$28 avahi_address_resolver_event(struct AvahiClient *client, enum 
   fail:
     ;
     dbus_error_free(&error);
-    return (enum anonymous$28)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
+    return (enum anonymous_28)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
   }
 }
 
@@ -2709,23 +2709,23 @@ enum anonymous$28 avahi_address_resolver_event(struct AvahiClient *client, enum 
 // file lookup.h line 269
 signed int avahi_address_resolver_free(struct AvahiAddressResolver *r)
 {
-  struct AvahiClient *avahi_address_resolver_free$$1$$client;
+  struct AvahiClient *avahi_address_resolver_free__1__client;
   signed int ret = 0;
   /* assertion r */
   assert(r != ((struct AvahiAddressResolver *)NULL));
-  avahi_address_resolver_free$$1$$client = r->client;
-  signed int return_value_avahi_client_is_connected$1;
+  avahi_address_resolver_free__1__client = r->client;
+  signed int return_value_avahi_client_is_connected_1;
   if(!(r->path == ((char *)NULL)))
   {
-    return_value_avahi_client_is_connected$1=avahi_client_is_connected(avahi_address_resolver_free$$1$$client);
-    if(!(return_value_avahi_client_is_connected$1 == 0))
-      ret=avahi_client_simple_method_call(avahi_address_resolver_free$$1$$client, r->path, "org.freedesktop.Avahi.AddressResolver", "Free");
+    return_value_avahi_client_is_connected_1=avahi_client_is_connected(avahi_address_resolver_free__1__client);
+    if(!(return_value_avahi_client_is_connected_1 == 0))
+      ret=avahi_client_simple_method_call(avahi_address_resolver_free__1__client, r->path, "org.freedesktop.Avahi.AddressResolver", "Free");
 
   }
 
   do
   {
-    struct AvahiAddressResolver **_head = &avahi_address_resolver_free$$1$$client->address_resolvers;
+    struct AvahiAddressResolver **_head = &avahi_address_resolver_free__1__client->address_resolvers;
     struct AvahiAddressResolver *_item = r;
     /* assertion _item */
     assert(_item != ((struct AvahiAddressResolver *)NULL));
@@ -2761,7 +2761,7 @@ struct AvahiClient * avahi_address_resolver_get_client(struct AvahiAddressResolv
 
 // avahi_address_resolver_new
 // file resolver.c line 642
-struct AvahiAddressResolver * avahi_address_resolver_new(struct AvahiClient *client, signed int interface, signed int protocol, const struct AvahiAddress *a, enum anonymous$1 flags, void (*callback)(struct AvahiAddressResolver *, signed int, signed int, enum anonymous$6, const struct AvahiAddress *, const char *, enum anonymous$3, void *), void *userdata)
+struct AvahiAddressResolver * avahi_address_resolver_new(struct AvahiClient *client, signed int interface, signed int protocol, const struct AvahiAddress *a, enum anonymous_1 flags, void (*callback)(struct AvahiAddressResolver *, signed int, signed int, enum anonymous_6, const struct AvahiAddress *, const char *, enum anonymous_3, void *), void *userdata)
 {
   struct DBusError error;
   struct AvahiAddressResolver *r = (struct AvahiAddressResolver *)(void *)0;
@@ -2778,16 +2778,16 @@ struct AvahiAddressResolver * avahi_address_resolver_new(struct AvahiClient *cli
   /* assertion a */
   assert(a != ((const struct AvahiAddress *)NULL));
   dbus_error_init(&error);
-  char *return_value_avahi_address_snprint$1;
-  return_value_avahi_address_snprint$1=avahi_address_snprint(addr, sizeof(char [40l]) /*40ul*/ , a);
-  void *return_value_avahi_new_internal$3;
-  unsigned int return_value_dbus_message_append_args$4;
-  _Bool tmp_if_expr$6;
-  unsigned int return_value_dbus_error_is_set$5;
-  unsigned int return_value_dbus_message_get_args$7;
-  _Bool tmp_if_expr$9;
-  unsigned int return_value_dbus_error_is_set$8;
-  if(return_value_avahi_address_snprint$1 == ((char *)NULL))
+  char *return_value_avahi_address_snprint_1;
+  return_value_avahi_address_snprint_1=avahi_address_snprint(addr, sizeof(char [40l]) /*40ul*/ , a);
+  void *return_value_avahi_new_internal_3;
+  unsigned int return_value_dbus_message_append_args_4;
+  _Bool tmp_if_expr_6;
+  unsigned int return_value_dbus_error_is_set_5;
+  unsigned int return_value_dbus_message_get_args_7;
+  _Bool tmp_if_expr_9;
+  unsigned int return_value_dbus_error_is_set_8;
+  if(return_value_avahi_address_snprint_1 == ((char *)NULL))
   {
     avahi_client_set_errno(client, -14);
     return (struct AvahiAddressResolver *)(void *)0;
@@ -2795,15 +2795,15 @@ struct AvahiAddressResolver * avahi_address_resolver_new(struct AvahiClient *cli
 
   else
   {
-    signed int return_value_avahi_client_is_connected$2;
-    return_value_avahi_client_is_connected$2=avahi_client_is_connected(client);
-    if(return_value_avahi_client_is_connected$2 == 0)
+    signed int return_value_avahi_client_is_connected_2;
+    return_value_avahi_client_is_connected_2=avahi_client_is_connected(client);
+    if(return_value_avahi_client_is_connected_2 == 0)
       avahi_client_set_errno(client, -2);
 
     else
     {
-      return_value_avahi_new_internal$3=avahi_new_internal$link3((unsigned int)1, sizeof(struct AvahiAddressResolver) /*80ul*/ );
-      r = (struct AvahiAddressResolver *)return_value_avahi_new_internal$3;
+      return_value_avahi_new_internal_3=avahi_new_internal_link3((unsigned int)1, sizeof(struct AvahiAddressResolver) /*80ul*/ );
+      r = (struct AvahiAddressResolver *)return_value_avahi_new_internal_3;
       if(r == ((struct AvahiAddressResolver *)NULL))
         avahi_client_set_errno(client, -24);
 
@@ -2839,36 +2839,36 @@ struct AvahiAddressResolver * avahi_address_resolver_new(struct AvahiClient *cli
           i_interface = (signed int)interface;
           i_protocol = (signed int)protocol;
           u_flags = (unsigned int)flags;
-          return_value_dbus_message_append_args$4=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)115, &address, (signed int)117, &u_flags, (signed int)0);
-          if(return_value_dbus_message_append_args$4 == 0u)
+          return_value_dbus_message_append_args_4=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)115, &address, (signed int)117, &u_flags, (signed int)0);
+          if(return_value_dbus_message_append_args_4 == 0u)
             avahi_client_set_errno(client, -24);
 
           else
           {
             reply=dbus_connection_send_with_reply_and_block(client->bus, message, -1, &error);
             if(reply == ((struct DBusMessage *)NULL))
-              tmp_if_expr$6 = (_Bool)1;
+              tmp_if_expr_6 = (_Bool)1;
 
             else
             {
-              return_value_dbus_error_is_set$5=dbus_error_is_set(&error);
-              tmp_if_expr$6 = return_value_dbus_error_is_set$5 != 0u ? (_Bool)1 : (_Bool)0;
+              return_value_dbus_error_is_set_5=dbus_error_is_set(&error);
+              tmp_if_expr_6 = return_value_dbus_error_is_set_5 != 0u ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$6)
+            if(tmp_if_expr_6)
               avahi_client_set_errno(client, -22);
 
             else
             {
-              return_value_dbus_message_get_args$7=dbus_message_get_args(reply, &error, (signed int)111, &path, (signed int)0);
-              if(return_value_dbus_message_get_args$7 == 0u)
-                tmp_if_expr$9 = (_Bool)1;
+              return_value_dbus_message_get_args_7=dbus_message_get_args(reply, &error, (signed int)111, &path, (signed int)0);
+              if(return_value_dbus_message_get_args_7 == 0u)
+                tmp_if_expr_9 = (_Bool)1;
 
               else
               {
-                return_value_dbus_error_is_set$8=dbus_error_is_set(&error);
-                tmp_if_expr$9 = return_value_dbus_error_is_set$8 != 0u ? (_Bool)1 : (_Bool)0;
+                return_value_dbus_error_is_set_8=dbus_error_is_set(&error);
+                tmp_if_expr_9 = return_value_dbus_error_is_set_8 != 0u ? (_Bool)1 : (_Bool)0;
               }
-              if(path == ((char *)NULL) || tmp_if_expr$9)
+              if(path == ((char *)NULL) || tmp_if_expr_9)
                 avahi_client_set_errno(client, -22);
 
               else
@@ -2892,9 +2892,9 @@ struct AvahiAddressResolver * avahi_address_resolver_new(struct AvahiClient *cli
 
   fail:
     ;
-    unsigned int return_value_dbus_error_is_set$10;
-    return_value_dbus_error_is_set$10=dbus_error_is_set(&error);
-    if(!(return_value_dbus_error_is_set$10 == 0u))
+    unsigned int return_value_dbus_error_is_set_10;
+    return_value_dbus_error_is_set_10=dbus_error_is_set(&error);
+    if(!(return_value_dbus_error_is_set_10 == 0u))
     {
       avahi_client_set_dbus_error(client, &error);
       dbus_error_free(&error);
@@ -2923,11 +2923,11 @@ char * avahi_address_snprint(char *s, unsigned long int length, const struct Ava
   assert(length != 0ul);
   /* assertion a */
   assert(a != ((const struct AvahiAddress *)NULL));
-  signed int return_value_avahi_proto_to_af$1;
-  return_value_avahi_proto_to_af$1=avahi_proto_to_af(a->proto);
-  const char *return_value_inet_ntop$2;
-  return_value_inet_ntop$2=inet_ntop(return_value_avahi_proto_to_af$1, (const void *)a->data.data, s, (unsigned int)length);
-  if(return_value_inet_ntop$2 == ((const char *)NULL))
+  signed int return_value_avahi_proto_to_af_1;
+  return_value_avahi_proto_to_af_1=avahi_proto_to_af(a->proto);
+  const char *return_value_inet_ntop_2;
+  return_value_inet_ntop_2=inet_ntop(return_value_avahi_proto_to_af_1, (const void *)a->data.data, s, (unsigned int)length);
+  if(return_value_inet_ntop_2 == ((const char *)NULL))
     return (char *)(void *)0;
 
   else
@@ -2961,9 +2961,9 @@ signed long int avahi_age(struct timeval *a)
   /* assertion a */
   assert(a != ((struct timeval *)NULL));
   gettimeofday(&now, (struct timezone *)(void *)0);
-  signed long int return_value_avahi_timeval_diff$1;
-  return_value_avahi_timeval_diff$1=avahi_timeval_diff(&now, a);
-  return return_value_avahi_timeval_diff$1;
+  signed long int return_value_avahi_timeval_diff_1;
+  return_value_avahi_timeval_diff_1=avahi_timeval_diff(&now, a);
+  return return_value_avahi_timeval_diff_1;
 }
 
 // avahi_alternative_host_name
@@ -2974,12 +2974,12 @@ char * avahi_alternative_host_name(const char *s)
   char *r;
   /* assertion s */
   assert(s != ((const char *)NULL));
-  signed int return_value_avahi_is_valid_host_name$1;
-  return_value_avahi_is_valid_host_name$1=avahi_is_valid_host_name(s);
-  const unsigned short int **return_value___ctype_b_loc$2;
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_strlen$5;
-  if(return_value_avahi_is_valid_host_name$1 == 0)
+  signed int return_value_avahi_is_valid_host_name_1;
+  return_value_avahi_is_valid_host_name_1=avahi_is_valid_host_name(s);
+  const unsigned short int **return_value___ctype_b_loc_2;
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_strlen_5;
+  if(return_value_avahi_is_valid_host_name_1 == 0)
     return (char *)(void *)0;
 
   else
@@ -2992,8 +2992,8 @@ char * avahi_alternative_host_name(const char *s)
       p = e;
       for( ; !(*p == 0); p = p + 1l)
       {
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        if((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*p]) == 0)
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        if((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*p]) == 0)
         {
           e = (const char *)(void *)0;
           break;
@@ -3003,11 +3003,11 @@ char * avahi_alternative_host_name(const char *s)
       if(!(e == ((const char *)NULL)))
       {
         if((signed int)*e == 48)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = (signed int)*e == 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (signed int)*e == 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
           e = (const char *)(void *)0;
 
       }
@@ -3016,36 +3016,36 @@ char * avahi_alternative_host_name(const char *s)
 
     if(!(e == ((const char *)NULL)))
     {
-      char *avahi_alternative_host_name$$1$$2$$c;
+      char *avahi_alternative_host_name__1__2__c;
       char *m;
       unsigned long int l;
       signed int n;
-      signed int return_value_atoi$4;
-      return_value_atoi$4=atoi(e);
-      n = return_value_atoi$4 + 1;
+      signed int return_value_atoi_4;
+      return_value_atoi_4=atoi(e);
+      n = return_value_atoi_4 + 1;
       m=avahi_strdup_printf("%i", n);
       if(m == ((char *)NULL))
         return (char *)(void *)0;
 
       l = (unsigned long int)((e - s) - (signed long int)1);
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen(m);
-      if(l >= 63ul + -return_value_strlen$6 + 18446744073709551615ul)
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen(m);
+      if(l >= 63ul + -return_value_strlen_6 + 18446744073709551615ul)
       {
-        return_value_strlen$5=strlen(m);
-        l = ((unsigned long int)(64 - 1) - return_value_strlen$5) - (unsigned long int)1;
+        return_value_strlen_5=strlen(m);
+        l = ((unsigned long int)(64 - 1) - return_value_strlen_5) - (unsigned long int)1;
       }
 
-      avahi_alternative_host_name$$1$$2$$c=avahi_strndup(s, l);
-      if(avahi_alternative_host_name$$1$$2$$c == ((char *)NULL))
+      avahi_alternative_host_name__1__2__c=avahi_strndup(s, l);
+      if(avahi_alternative_host_name__1__2__c == ((char *)NULL))
       {
         avahi_free((void *)m);
         return (char *)(void *)0;
       }
 
-      drop_incomplete_utf8(avahi_alternative_host_name$$1$$2$$c);
-      r=avahi_strdup_printf("%s-%s", avahi_alternative_host_name$$1$$2$$c, m);
-      avahi_free((void *)avahi_alternative_host_name$$1$$2$$c);
+      drop_incomplete_utf8(avahi_alternative_host_name__1__2__c);
+      r=avahi_strdup_printf("%s-%s", avahi_alternative_host_name__1__2__c, m);
+      avahi_free((void *)avahi_alternative_host_name__1__2__c);
       avahi_free((void *)m);
     }
 
@@ -3060,10 +3060,10 @@ char * avahi_alternative_host_name(const char *s)
       r=avahi_strdup_printf("%s-2", c);
       avahi_free((void *)c);
     }
-    signed int return_value_avahi_is_valid_host_name$7;
-    return_value_avahi_is_valid_host_name$7=avahi_is_valid_host_name(r);
+    signed int return_value_avahi_is_valid_host_name_7;
+    return_value_avahi_is_valid_host_name_7=avahi_is_valid_host_name(r);
     /* assertion avahi_is_valid_host_name(r) */
-    assert(return_value_avahi_is_valid_host_name$7 != 0);
+    assert(return_value_avahi_is_valid_host_name_7 != 0);
     return r;
   }
 }
@@ -3076,12 +3076,12 @@ char * avahi_alternative_service_name(const char *s)
   char *r;
   /* assertion s */
   assert(s != ((const char *)NULL));
-  signed int return_value_avahi_is_valid_service_name$1;
-  return_value_avahi_is_valid_service_name$1=avahi_is_valid_service_name(s);
-  const unsigned short int **return_value___ctype_b_loc$2;
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_strlen$5;
-  if(return_value_avahi_is_valid_service_name$1 == 0)
+  signed int return_value_avahi_is_valid_service_name_1;
+  return_value_avahi_is_valid_service_name_1=avahi_is_valid_service_name(s);
+  const unsigned short int **return_value___ctype_b_loc_2;
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_strlen_5;
+  if(return_value_avahi_is_valid_service_name_1 == 0)
     return (char *)(void *)0;
 
   else
@@ -3104,8 +3104,8 @@ char * avahi_alternative_service_name(const char *s)
       p = e;
       for( ; !(*p == 0); p = p + 1l)
       {
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        if((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*p]) == 0)
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        if((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*p]) == 0)
         {
           e = (const char *)(void *)0;
           break;
@@ -3115,11 +3115,11 @@ char * avahi_alternative_service_name(const char *s)
       if(!(e == ((const char *)NULL)))
       {
         if((signed int)*e == 48)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = (signed int)*e == 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = (signed int)*e == 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
           e = (const char *)(void *)0;
 
       }
@@ -3131,21 +3131,21 @@ char * avahi_alternative_service_name(const char *s)
       char *c;
       char *m;
       unsigned long int l;
-      signed int avahi_alternative_service_name$$1$$2$$n;
-      signed int return_value_atoi$4;
-      return_value_atoi$4=atoi(e);
-      avahi_alternative_service_name$$1$$2$$n = return_value_atoi$4 + 1;
-      m=avahi_strdup_printf("%i", avahi_alternative_service_name$$1$$2$$n);
+      signed int avahi_alternative_service_name__1__2__n;
+      signed int return_value_atoi_4;
+      return_value_atoi_4=atoi(e);
+      avahi_alternative_service_name__1__2__n = return_value_atoi_4 + 1;
+      m=avahi_strdup_printf("%i", avahi_alternative_service_name__1__2__n);
       if(m == ((char *)NULL))
         return (char *)(void *)0;
 
       l = (unsigned long int)((e - s) - (signed long int)2);
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen(m);
-      if(l >= 63ul + -return_value_strlen$6 + 18446744073709551614ul)
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen(m);
+      if(l >= 63ul + -return_value_strlen_6 + 18446744073709551614ul)
       {
-        return_value_strlen$5=strlen(m);
-        l = ((unsigned long int)(64 - 1) - return_value_strlen$5) - (unsigned long int)2;
+        return_value_strlen_5=strlen(m);
+        l = ((unsigned long int)(64 - 1) - return_value_strlen_5) - (unsigned long int)2;
       }
 
       c=avahi_strndup(s, l);
@@ -3163,19 +3163,19 @@ char * avahi_alternative_service_name(const char *s)
 
     else
     {
-      char *avahi_alternative_service_name$$1$$3$$c;
-      avahi_alternative_service_name$$1$$3$$c=avahi_strndup(s, (unsigned long int)((64 - 1) - 3));
-      if(avahi_alternative_service_name$$1$$3$$c == ((char *)NULL))
+      char *avahi_alternative_service_name__1__3__c;
+      avahi_alternative_service_name__1__3__c=avahi_strndup(s, (unsigned long int)((64 - 1) - 3));
+      if(avahi_alternative_service_name__1__3__c == ((char *)NULL))
         return (char *)(void *)0;
 
-      drop_incomplete_utf8(avahi_alternative_service_name$$1$$3$$c);
-      r=avahi_strdup_printf("%s #2", avahi_alternative_service_name$$1$$3$$c);
-      avahi_free((void *)avahi_alternative_service_name$$1$$3$$c);
+      drop_incomplete_utf8(avahi_alternative_service_name__1__3__c);
+      r=avahi_strdup_printf("%s #2", avahi_alternative_service_name__1__3__c);
+      avahi_free((void *)avahi_alternative_service_name__1__3__c);
     }
-    signed int return_value_avahi_is_valid_service_name$7;
-    return_value_avahi_is_valid_service_name$7=avahi_is_valid_service_name(r);
+    signed int return_value_avahi_is_valid_service_name_7;
+    return_value_avahi_is_valid_service_name_7=avahi_is_valid_service_name(r);
     /* assertion avahi_is_valid_service_name(r) */
-    assert(return_value_avahi_is_valid_service_name$7 != 0);
+    assert(return_value_avahi_is_valid_service_name_7 != 0);
     return r;
   }
 }
@@ -3230,9 +3230,9 @@ const char * avahi_client_get_domain_name(struct AvahiClient *client)
 {
   /* assertion client */
   assert(client != ((struct AvahiClient *)NULL));
-  signed int return_value_avahi_client_is_connected$1;
-  return_value_avahi_client_is_connected$1=avahi_client_is_connected(client);
-  if(return_value_avahi_client_is_connected$1 == 0)
+  signed int return_value_avahi_client_is_connected_1;
+  return_value_avahi_client_is_connected_1=avahi_client_is_connected(client);
+  if(return_value_avahi_client_is_connected_1 == 0)
   {
     avahi_client_set_errno(client, -2);
     return (const char *)(void *)0;
@@ -3253,9 +3253,9 @@ const char * avahi_client_get_host_name(struct AvahiClient *client)
 {
   /* assertion client */
   assert(client != ((struct AvahiClient *)NULL));
-  signed int return_value_avahi_client_is_connected$1;
-  return_value_avahi_client_is_connected$1=avahi_client_is_connected(client);
-  if(return_value_avahi_client_is_connected$1 == 0)
+  signed int return_value_avahi_client_is_connected_1;
+  return_value_avahi_client_is_connected_1=avahi_client_is_connected(client);
+  if(return_value_avahi_client_is_connected_1 == 0)
   {
     avahi_client_set_errno(client, -2);
     return (const char *)(void *)0;
@@ -3276,9 +3276,9 @@ const char * avahi_client_get_host_name_fqdn(struct AvahiClient *client)
 {
   /* assertion client */
   assert(client != ((struct AvahiClient *)NULL));
-  signed int return_value_avahi_client_is_connected$1;
-  return_value_avahi_client_is_connected$1=avahi_client_is_connected(client);
-  if(return_value_avahi_client_is_connected$1 == 0)
+  signed int return_value_avahi_client_is_connected_1;
+  return_value_avahi_client_is_connected_1=avahi_client_is_connected(client);
+  if(return_value_avahi_client_is_connected_1 == 0)
   {
     avahi_client_set_errno(client, -2);
     return (const char *)(void *)0;
@@ -3302,14 +3302,14 @@ unsigned int avahi_client_get_local_service_cookie(struct AvahiClient *client)
   struct DBusError error;
   /* assertion client */
   assert(client != ((struct AvahiClient *)NULL));
-  signed int return_value_avahi_client_is_connected$1;
-  return_value_avahi_client_is_connected$1=avahi_client_is_connected(client);
-  _Bool tmp_if_expr$3;
-  unsigned int return_value_dbus_error_is_set$2;
-  unsigned int return_value_dbus_message_get_args$4;
-  _Bool tmp_if_expr$6;
-  unsigned int return_value_dbus_error_is_set$5;
-  if(return_value_avahi_client_is_connected$1 == 0)
+  signed int return_value_avahi_client_is_connected_1;
+  return_value_avahi_client_is_connected_1=avahi_client_is_connected(client);
+  _Bool tmp_if_expr_3;
+  unsigned int return_value_dbus_error_is_set_2;
+  unsigned int return_value_dbus_message_get_args_4;
+  _Bool tmp_if_expr_6;
+  unsigned int return_value_dbus_error_is_set_5;
+  if(return_value_avahi_client_is_connected_1 == 0)
   {
     avahi_client_set_errno(client, -2);
     return (unsigned int)0;
@@ -3330,25 +3330,25 @@ unsigned int avahi_client_get_local_service_cookie(struct AvahiClient *client)
       {
         reply=dbus_connection_send_with_reply_and_block(client->bus, message, -1, &error);
         if(reply == ((struct DBusMessage *)NULL))
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$2=dbus_error_is_set(&error);
-          tmp_if_expr$3 = return_value_dbus_error_is_set$2 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_2=dbus_error_is_set(&error);
+          tmp_if_expr_3 = return_value_dbus_error_is_set_2 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(!tmp_if_expr$3)
+        if(!tmp_if_expr_3)
         {
-          return_value_dbus_message_get_args$4=dbus_message_get_args(reply, &error, (signed int)117, &client->local_service_cookie, (signed int)0);
-          if(return_value_dbus_message_get_args$4 == 0u)
-            tmp_if_expr$6 = (_Bool)1;
+          return_value_dbus_message_get_args_4=dbus_message_get_args(reply, &error, (signed int)117, &client->local_service_cookie, (signed int)0);
+          if(return_value_dbus_message_get_args_4 == 0u)
+            tmp_if_expr_6 = (_Bool)1;
 
           else
           {
-            return_value_dbus_error_is_set$5=dbus_error_is_set(&error);
-            tmp_if_expr$6 = return_value_dbus_error_is_set$5 != 0u ? (_Bool)1 : (_Bool)0;
+            return_value_dbus_error_is_set_5=dbus_error_is_set(&error);
+            tmp_if_expr_6 = return_value_dbus_error_is_set_5 != 0u ? (_Bool)1 : (_Bool)0;
           }
-          if(!tmp_if_expr$6)
+          if(!tmp_if_expr_6)
           {
             dbus_message_unref(message);
             dbus_message_unref(reply);
@@ -3368,9 +3368,9 @@ unsigned int avahi_client_get_local_service_cookie(struct AvahiClient *client)
       if(!(reply == ((struct DBusMessage *)NULL)))
         dbus_message_unref(reply);
 
-      unsigned int return_value_dbus_error_is_set$7;
-      return_value_dbus_error_is_set$7=dbus_error_is_set(&error);
-      if(!(return_value_dbus_error_is_set$7 == 0u))
+      unsigned int return_value_dbus_error_is_set_7;
+      return_value_dbus_error_is_set_7=dbus_error_is_set(&error);
+      if(!(return_value_dbus_error_is_set_7 == 0u))
       {
         avahi_client_set_dbus_error(client, &error);
         dbus_error_free(&error);
@@ -3382,7 +3382,7 @@ unsigned int avahi_client_get_local_service_cookie(struct AvahiClient *client)
 
 // avahi_client_get_state
 // file client.c line 784
-enum anonymous$7 avahi_client_get_state(struct AvahiClient *client)
+enum anonymous_7 avahi_client_get_state(struct AvahiClient *client)
 {
   /* assertion client */
   assert(client != ((struct AvahiClient *)NULL));
@@ -3404,11 +3404,11 @@ static char * avahi_client_get_string_reply_and_block(struct AvahiClient *client
   assert(method != ((const char *)NULL));
   dbus_error_init(&error);
   message=dbus_message_new_method_call("org.freedesktop.Avahi", "/", "org.freedesktop.Avahi.Server", method);
-  _Bool tmp_if_expr$3;
-  unsigned int return_value_dbus_error_is_set$2;
-  unsigned int return_value_dbus_message_get_args$4;
-  _Bool tmp_if_expr$6;
-  unsigned int return_value_dbus_error_is_set$5;
+  _Bool tmp_if_expr_3;
+  unsigned int return_value_dbus_error_is_set_2;
+  unsigned int return_value_dbus_message_get_args_4;
+  _Bool tmp_if_expr_6;
+  unsigned int return_value_dbus_error_is_set_5;
   if(message == ((struct DBusMessage *)NULL))
     avahi_client_set_errno(client, -24);
 
@@ -3416,9 +3416,9 @@ static char * avahi_client_get_string_reply_and_block(struct AvahiClient *client
   {
     if(!(param == ((const char *)NULL)))
     {
-      unsigned int return_value_dbus_message_append_args$1;
-      return_value_dbus_message_append_args$1=dbus_message_append_args(message, (signed int)115, &param, (signed int)0);
-      if(return_value_dbus_message_append_args$1 == 0u)
+      unsigned int return_value_dbus_message_append_args_1;
+      return_value_dbus_message_append_args_1=dbus_message_append_args(message, (signed int)115, &param, (signed int)0);
+      if(return_value_dbus_message_append_args_1 == 0u)
       {
         avahi_client_set_errno(client, -24);
         goto fail;
@@ -3428,25 +3428,25 @@ static char * avahi_client_get_string_reply_and_block(struct AvahiClient *client
 
     reply=dbus_connection_send_with_reply_and_block(client->bus, message, -1, &error);
     if(reply == ((struct DBusMessage *)NULL))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_dbus_error_is_set$2=dbus_error_is_set(&error);
-      tmp_if_expr$3 = return_value_dbus_error_is_set$2 != 0u ? (_Bool)1 : (_Bool)0;
+      return_value_dbus_error_is_set_2=dbus_error_is_set(&error);
+      tmp_if_expr_3 = return_value_dbus_error_is_set_2 != 0u ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$3)
+    if(!tmp_if_expr_3)
     {
-      return_value_dbus_message_get_args$4=dbus_message_get_args(reply, &error, (signed int)115, &ret, (signed int)0);
-      if(return_value_dbus_message_get_args$4 == 0u)
-        tmp_if_expr$6 = (_Bool)1;
+      return_value_dbus_message_get_args_4=dbus_message_get_args(reply, &error, (signed int)115, &ret, (signed int)0);
+      if(return_value_dbus_message_get_args_4 == 0u)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
       {
-        return_value_dbus_error_is_set$5=dbus_error_is_set(&error);
-        tmp_if_expr$6 = return_value_dbus_error_is_set$5 != 0u ? (_Bool)1 : (_Bool)0;
+        return_value_dbus_error_is_set_5=dbus_error_is_set(&error);
+        tmp_if_expr_6 = return_value_dbus_error_is_set_5 != 0u ? (_Bool)1 : (_Bool)0;
       }
-      if(!tmp_if_expr$6)
+      if(!tmp_if_expr_6)
       {
         n=avahi_strdup(ret);
         if(n == ((char *)NULL))
@@ -3472,9 +3472,9 @@ fail:
   if(!(reply == ((struct DBusMessage *)NULL)))
     dbus_message_unref(reply);
 
-  unsigned int return_value_dbus_error_is_set$7;
-  return_value_dbus_error_is_set$7=dbus_error_is_set(&error);
-  if(!(return_value_dbus_error_is_set$7 == 0u))
+  unsigned int return_value_dbus_error_is_set_7;
+  return_value_dbus_error_is_set_7=dbus_error_is_set(&error);
+  if(!(return_value_dbus_error_is_set_7 == 0u))
   {
     avahi_client_set_dbus_error(client, &error);
     dbus_error_free(&error);
@@ -3489,9 +3489,9 @@ const char * avahi_client_get_version_string(struct AvahiClient *client)
 {
   /* assertion client */
   assert(client != ((struct AvahiClient *)NULL));
-  signed int return_value_avahi_client_is_connected$1;
-  return_value_avahi_client_is_connected$1=avahi_client_is_connected(client);
-  if(return_value_avahi_client_is_connected$1 == 0)
+  signed int return_value_avahi_client_is_connected_1;
+  return_value_avahi_client_is_connected_1=avahi_client_is_connected(client);
+  if(return_value_avahi_client_is_connected_1 == 0)
   {
     avahi_client_set_errno(client, -2);
     return (const char *)(void *)0;
@@ -3512,62 +3512,62 @@ signed int avahi_client_is_connected(struct AvahiClient *client)
 {
   /* assertion client */
   assert(client != ((struct AvahiClient *)NULL));
-  _Bool tmp_if_expr$2;
-  unsigned int return_value_dbus_connection_get_is_connected$1;
+  _Bool tmp_if_expr_2;
+  unsigned int return_value_dbus_connection_get_is_connected_1;
   if(!(client->bus == ((struct DBusConnection *)NULL)))
   {
-    return_value_dbus_connection_get_is_connected$1=dbus_connection_get_is_connected(client->bus);
-    tmp_if_expr$2 = return_value_dbus_connection_get_is_connected$1 != 0u ? (_Bool)1 : (_Bool)0;
+    return_value_dbus_connection_get_is_connected_1=dbus_connection_get_is_connected(client->bus);
+    tmp_if_expr_2 = return_value_dbus_connection_get_is_connected_1 != 0u ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_2)
   {
     if((signed int)client->state == AVAHI_CLIENT_S_RUNNING)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)client->state == AVAHI_CLIENT_S_REGISTERING ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_3 = (signed int)client->state == AVAHI_CLIENT_S_REGISTERING ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)client->state == AVAHI_CLIENT_S_COLLISION ? (_Bool)1 : (_Bool)0;
-    tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (signed int)client->state == AVAHI_CLIENT_S_COLLISION ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$5 = (_Bool)0;
-  return (signed int)tmp_if_expr$5;
+    tmp_if_expr_5 = (_Bool)0;
+  return (signed int)tmp_if_expr_5;
 }
 
 // avahi_client_new
 // file ../avahi-client/client.h line 62
-struct AvahiClient * avahi_client_new(const struct AvahiPoll *poll_api, enum anonymous$8 flags, void (*callback)(struct AvahiClient *, enum anonymous$7, void *), void *userdata, signed int *ret_error)
+struct AvahiClient * avahi_client_new(const struct AvahiPoll *poll_api, enum anonymous_8 flags, void (*callback)(struct AvahiClient *, enum anonymous_7, void *), void *userdata, signed int *ret_error)
 {
-  struct AvahiClient *avahi_client_new$$1$$client = (struct AvahiClient *)(void *)0;
+  struct AvahiClient *avahi_client_new__1__client = (struct AvahiClient *)(void *)0;
   struct DBusError error;
   struct DBusMessage *message = (struct DBusMessage *)(void *)0;
   struct DBusMessage *reply = (struct DBusMessage *)(void *)0;
   avahi_init_i18n();
   dbus_error_init(&error);
-  void *return_value_avahi_new_internal$1;
-  return_value_avahi_new_internal$1=avahi_new_internal((unsigned int)1, sizeof(struct AvahiClient) /*152ul*/ );
-  avahi_client_new$$1$$client = (struct AvahiClient *)return_value_avahi_new_internal$1;
-  _Bool tmp_if_expr$3;
-  unsigned int return_value_dbus_error_is_set$2;
-  signed int return_value_avahi_dbus_connection_glue$4;
-  unsigned int return_value_dbus_connection_add_filter$5;
-  unsigned int return_value_dbus_error_is_set$6;
-  unsigned int return_value_dbus_error_is_set$7;
-  unsigned int return_value_dbus_error_is_set$8;
-  _Bool tmp_if_expr$11;
-  unsigned int return_value_dbus_error_is_set$10;
-  if(avahi_client_new$$1$$client == ((struct AvahiClient *)NULL))
+  void *return_value_avahi_new_internal_1;
+  return_value_avahi_new_internal_1=avahi_new_internal((unsigned int)1, sizeof(struct AvahiClient) /*152ul*/ );
+  avahi_client_new__1__client = (struct AvahiClient *)return_value_avahi_new_internal_1;
+  _Bool tmp_if_expr_3;
+  unsigned int return_value_dbus_error_is_set_2;
+  signed int return_value_avahi_dbus_connection_glue_4;
+  unsigned int return_value_dbus_connection_add_filter_5;
+  unsigned int return_value_dbus_error_is_set_6;
+  unsigned int return_value_dbus_error_is_set_7;
+  unsigned int return_value_dbus_error_is_set_8;
+  _Bool tmp_if_expr_11;
+  unsigned int return_value_dbus_error_is_set_10;
+  if(avahi_client_new__1__client == ((struct AvahiClient *)NULL))
   {
     if(!(ret_error == ((signed int *)NULL)))
       *ret_error = -24;
@@ -3576,51 +3576,51 @@ struct AvahiClient * avahi_client_new(const struct AvahiPoll *poll_api, enum ano
 
   else
   {
-    avahi_client_new$$1$$client->poll_api = poll_api;
-    avahi_client_new$$1$$client->error = 0;
-    avahi_client_new$$1$$client->callback = callback;
-    avahi_client_new$$1$$client->userdata = userdata;
-    avahi_client_new$$1$$client->state = (enum anonymous$7)-1;
-    avahi_client_new$$1$$client->flags = flags;
-    avahi_client_new$$1$$client->host_name = (char *)(void *)0;
-    avahi_client_new$$1$$client->host_name_fqdn = (char *)(void *)0;
-    avahi_client_new$$1$$client->domain_name = (char *)(void *)0;
-    avahi_client_new$$1$$client->version_string = (char *)(void *)0;
-    avahi_client_new$$1$$client->local_service_cookie_valid = 0;
+    avahi_client_new__1__client->poll_api = poll_api;
+    avahi_client_new__1__client->error = 0;
+    avahi_client_new__1__client->callback = callback;
+    avahi_client_new__1__client->userdata = userdata;
+    avahi_client_new__1__client->state = (enum anonymous_7)-1;
+    avahi_client_new__1__client->flags = flags;
+    avahi_client_new__1__client->host_name = (char *)(void *)0;
+    avahi_client_new__1__client->host_name_fqdn = (char *)(void *)0;
+    avahi_client_new__1__client->domain_name = (char *)(void *)0;
+    avahi_client_new__1__client->version_string = (char *)(void *)0;
+    avahi_client_new__1__client->local_service_cookie_valid = 0;
     do
-      avahi_client_new$$1$$client->groups = (struct AvahiEntryGroup *)(void *)0;
+      avahi_client_new__1__client->groups = (struct AvahiEntryGroup *)(void *)0;
     while((_Bool)0);
     do
-      avahi_client_new$$1$$client->domain_browsers = (struct AvahiDomainBrowser *)(void *)0;
+      avahi_client_new__1__client->domain_browsers = (struct AvahiDomainBrowser *)(void *)0;
     while((_Bool)0);
     do
-      avahi_client_new$$1$$client->service_browsers = (struct AvahiServiceBrowser *)(void *)0;
+      avahi_client_new__1__client->service_browsers = (struct AvahiServiceBrowser *)(void *)0;
     while((_Bool)0);
     do
-      avahi_client_new$$1$$client->service_type_browsers = (struct AvahiServiceTypeBrowser *)(void *)0;
+      avahi_client_new__1__client->service_type_browsers = (struct AvahiServiceTypeBrowser *)(void *)0;
     while((_Bool)0);
     do
-      avahi_client_new$$1$$client->service_resolvers = (struct AvahiServiceResolver *)(void *)0;
+      avahi_client_new__1__client->service_resolvers = (struct AvahiServiceResolver *)(void *)0;
     while((_Bool)0);
     do
-      avahi_client_new$$1$$client->host_name_resolvers = (struct AvahiHostNameResolver *)(void *)0;
+      avahi_client_new__1__client->host_name_resolvers = (struct AvahiHostNameResolver *)(void *)0;
     while((_Bool)0);
     do
-      avahi_client_new$$1$$client->address_resolvers = (struct AvahiAddressResolver *)(void *)0;
+      avahi_client_new__1__client->address_resolvers = (struct AvahiAddressResolver *)(void *)0;
     while((_Bool)0);
     do
-      avahi_client_new$$1$$client->record_browsers = (struct AvahiRecordBrowser *)(void *)0;
+      avahi_client_new__1__client->record_browsers = (struct AvahiRecordBrowser *)(void *)0;
     while((_Bool)0);
-    avahi_client_new$$1$$client->bus=avahi_dbus_bus_get(&error);
-    if(avahi_client_new$$1$$client->bus == ((struct DBusConnection *)NULL))
-      tmp_if_expr$3 = (_Bool)1;
+    avahi_client_new__1__client->bus=avahi_dbus_bus_get(&error);
+    if(avahi_client_new__1__client->bus == ((struct DBusConnection *)NULL))
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_dbus_error_is_set$2=dbus_error_is_set(&error);
-      tmp_if_expr$3 = return_value_dbus_error_is_set$2 != 0u ? (_Bool)1 : (_Bool)0;
+      return_value_dbus_error_is_set_2=dbus_error_is_set(&error);
+      tmp_if_expr_3 = return_value_dbus_error_is_set_2 != 0u ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
     {
       if(!(ret_error == ((signed int *)NULL)))
         *ret_error = -22;
@@ -3629,8 +3629,8 @@ struct AvahiClient * avahi_client_new(const struct AvahiPoll *poll_api, enum ano
 
     else
     {
-      return_value_avahi_dbus_connection_glue$4=avahi_dbus_connection_glue(avahi_client_new$$1$$client->bus, poll_api);
-      if(!(return_value_avahi_dbus_connection_glue$4 >= 0))
+      return_value_avahi_dbus_connection_glue_4=avahi_dbus_connection_glue(avahi_client_new__1__client->bus, poll_api);
+      if(!(return_value_avahi_dbus_connection_glue_4 >= 0))
       {
         if(!(ret_error == ((signed int *)NULL)))
           *ret_error = -24;
@@ -3639,8 +3639,8 @@ struct AvahiClient * avahi_client_new(const struct AvahiPoll *poll_api, enum ano
 
       else
       {
-        return_value_dbus_connection_add_filter$5=dbus_connection_add_filter(avahi_client_new$$1$$client->bus, filter_func, (void *)avahi_client_new$$1$$client, (void (*)(void *))(void *)0);
-        if(return_value_dbus_connection_add_filter$5 == 0u)
+        return_value_dbus_connection_add_filter_5=dbus_connection_add_filter(avahi_client_new__1__client->bus, filter_func, (void *)avahi_client_new__1__client, (void (*)(void *))(void *)0);
+        if(return_value_dbus_connection_add_filter_5 == 0u)
         {
           if(!(ret_error == ((signed int *)NULL)))
             *ret_error = -24;
@@ -3649,31 +3649,31 @@ struct AvahiClient * avahi_client_new(const struct AvahiPoll *poll_api, enum ano
 
         else
         {
-          dbus_bus_add_match(avahi_client_new$$1$$client->bus, "type='signal', interface='org.freedesktop.Avahi.Server', sender='org.freedesktop.Avahi', path='/'", &error);
-          return_value_dbus_error_is_set$6=dbus_error_is_set(&error);
-          if(return_value_dbus_error_is_set$6 == 0u)
+          dbus_bus_add_match(avahi_client_new__1__client->bus, "type='signal', interface='org.freedesktop.Avahi.Server', sender='org.freedesktop.Avahi', path='/'", &error);
+          return_value_dbus_error_is_set_6=dbus_error_is_set(&error);
+          if(return_value_dbus_error_is_set_6 == 0u)
           {
-            dbus_bus_add_match(avahi_client_new$$1$$client->bus, "type='signal', interface='org.freedesktop.DBus', sender='org.freedesktop.DBus', path='/org/freedesktop/DBus'", &error);
-            return_value_dbus_error_is_set$7=dbus_error_is_set(&error);
-            if(return_value_dbus_error_is_set$7 == 0u)
+            dbus_bus_add_match(avahi_client_new__1__client->bus, "type='signal', interface='org.freedesktop.DBus', sender='org.freedesktop.DBus', path='/org/freedesktop/DBus'", &error);
+            return_value_dbus_error_is_set_7=dbus_error_is_set(&error);
+            if(return_value_dbus_error_is_set_7 == 0u)
             {
-              dbus_bus_add_match(avahi_client_new$$1$$client->bus, "type='signal', interface='org.freedesktop.DBus.Local'", &error);
-              return_value_dbus_error_is_set$8=dbus_error_is_set(&error);
-              if(return_value_dbus_error_is_set$8 == 0u)
+              dbus_bus_add_match(avahi_client_new__1__client->bus, "type='signal', interface='org.freedesktop.DBus.Local'", &error);
+              return_value_dbus_error_is_set_8=dbus_error_is_set(&error);
+              if(return_value_dbus_error_is_set_8 == 0u)
               {
                 message=dbus_message_new_method_call("org.freedesktop.Avahi", "/", "org.freedesktop.DBus.Peer", "Ping");
                 if(!(message == ((struct DBusMessage *)NULL)))
                 {
-                  reply=dbus_connection_send_with_reply_and_block(avahi_client_new$$1$$client->bus, message, -1, &error);
+                  reply=dbus_connection_send_with_reply_and_block(avahi_client_new__1__client->bus, message, -1, &error);
                   if(reply == ((struct DBusMessage *)NULL))
-                    tmp_if_expr$11 = (_Bool)1;
+                    tmp_if_expr_11 = (_Bool)1;
 
                   else
                   {
-                    return_value_dbus_error_is_set$10=dbus_error_is_set(&error);
-                    tmp_if_expr$11 = return_value_dbus_error_is_set$10 != 0u ? (_Bool)1 : (_Bool)0;
+                    return_value_dbus_error_is_set_10=dbus_error_is_set(&error);
+                    tmp_if_expr_11 = return_value_dbus_error_is_set_10 != 0u ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$11)
+                  if(tmp_if_expr_11)
                   {
                     dbus_error_free(&error);
                     if((AVAHI_CLIENT_NO_FAIL & (signed int)flags) == 0)
@@ -3684,14 +3684,14 @@ struct AvahiClient * avahi_client_new(const struct AvahiPoll *poll_api, enum ano
                       goto fail;
                     }
 
-                    client_set_state(avahi_client_new$$1$$client, (enum anonymous$7)AVAHI_CLIENT_CONNECTING);
+                    client_set_state(avahi_client_new__1__client, (enum anonymous_7)AVAHI_CLIENT_CONNECTING);
                   }
 
                   else
                   {
-                    signed int return_value_init_server$9;
-                    return_value_init_server$9=init_server(avahi_client_new$$1$$client, ret_error);
-                    if(!(return_value_init_server$9 >= 0))
+                    signed int return_value_init_server_9;
+                    return_value_init_server_9=init_server(avahi_client_new__1__client, ret_error);
+                    if(!(return_value_init_server_9 >= 0))
                       goto fail;
 
                   }
@@ -3699,7 +3699,7 @@ struct AvahiClient * avahi_client_new(const struct AvahiPoll *poll_api, enum ano
                   if(!(reply == ((struct DBusMessage *)NULL)))
                     dbus_message_unref(reply);
 
-                  return avahi_client_new$$1$$client;
+                  return avahi_client_new__1__client;
                 }
 
               }
@@ -3721,18 +3721,18 @@ fail:
   if(!(reply == ((struct DBusMessage *)NULL)))
     dbus_message_unref(reply);
 
-  if(!(avahi_client_new$$1$$client == ((struct AvahiClient *)NULL)))
-    avahi_client_free(avahi_client_new$$1$$client);
+  if(!(avahi_client_new__1__client == ((struct AvahiClient *)NULL)))
+    avahi_client_free(avahi_client_new__1__client);
 
-  unsigned int return_value_dbus_error_is_set$13;
-  return_value_dbus_error_is_set$13=dbus_error_is_set(&error);
-  if(!(return_value_dbus_error_is_set$13 == 0u))
+  unsigned int return_value_dbus_error_is_set_13;
+  return_value_dbus_error_is_set_13=dbus_error_is_set(&error);
+  if(!(return_value_dbus_error_is_set_13 == 0u))
   {
     if(!(ret_error == ((signed int *)NULL)))
     {
-      signed int return_value_strcmp$12;
-      return_value_strcmp$12=strcmp(error.name, "org.freedesktop.DBus.Error.FileNotFound");
-      if(return_value_strcmp$12 == 0)
+      signed int return_value_strcmp_12;
+      return_value_strcmp_12=strcmp(error.name, "org.freedesktop.DBus.Error.FileNotFound");
+      if(return_value_strcmp_12 == 0)
         *ret_error = -26;
 
       else
@@ -3753,11 +3753,11 @@ signed int avahi_client_set_dbus_error(struct AvahiClient *client, struct DBusEr
   assert(client != ((struct AvahiClient *)NULL));
   /* assertion error */
   assert(error != ((struct DBusError *)NULL));
-  signed int return_value_avahi_error_dbus_to_number$1;
-  return_value_avahi_error_dbus_to_number$1=avahi_error_dbus_to_number(error->name);
-  signed int return_value_avahi_client_set_errno$2;
-  return_value_avahi_client_set_errno$2=avahi_client_set_errno(client, return_value_avahi_error_dbus_to_number$1);
-  return return_value_avahi_client_set_errno$2;
+  signed int return_value_avahi_error_dbus_to_number_1;
+  return_value_avahi_error_dbus_to_number_1=avahi_error_dbus_to_number(error->name);
+  signed int return_value_avahi_client_set_errno_2;
+  return_value_avahi_client_set_errno_2=avahi_client_set_errno(client, return_value_avahi_error_dbus_to_number_1);
+  return return_value_avahi_client_set_errno_2;
 }
 
 // avahi_client_set_errno
@@ -3779,19 +3779,19 @@ signed int avahi_client_set_host_name(struct AvahiClient *client, const char *na
   struct DBusError error;
   /* assertion client */
   assert(client != ((struct AvahiClient *)NULL));
-  signed int return_value_avahi_client_is_connected$2;
-  return_value_avahi_client_is_connected$2=avahi_client_is_connected(client);
-  signed int return_value_avahi_client_set_errno$1;
-  unsigned int return_value_dbus_message_append_args$3;
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_dbus_error_is_set$4;
-  unsigned int return_value_dbus_message_get_args$6;
-  _Bool tmp_if_expr$8;
-  unsigned int return_value_dbus_error_is_set$7;
-  if(return_value_avahi_client_is_connected$2 == 0)
+  signed int return_value_avahi_client_is_connected_2;
+  return_value_avahi_client_is_connected_2=avahi_client_is_connected(client);
+  signed int return_value_avahi_client_set_errno_1;
+  unsigned int return_value_dbus_message_append_args_3;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_dbus_error_is_set_4;
+  unsigned int return_value_dbus_message_get_args_6;
+  _Bool tmp_if_expr_8;
+  unsigned int return_value_dbus_error_is_set_7;
+  if(return_value_avahi_client_is_connected_2 == 0)
   {
-    return_value_avahi_client_set_errno$1=avahi_client_set_errno(client, -2);
-    return return_value_avahi_client_set_errno$1;
+    return_value_avahi_client_set_errno_1=avahi_client_set_errno(client, -2);
+    return return_value_avahi_client_set_errno_1;
   }
 
   else
@@ -3803,33 +3803,33 @@ signed int avahi_client_set_host_name(struct AvahiClient *client, const char *na
 
     else
     {
-      return_value_dbus_message_append_args$3=dbus_message_append_args(message, (signed int)115, &name, (signed int)0);
-      if(return_value_dbus_message_append_args$3 == 0u)
+      return_value_dbus_message_append_args_3=dbus_message_append_args(message, (signed int)115, &name, (signed int)0);
+      if(return_value_dbus_message_append_args_3 == 0u)
         avahi_client_set_errno(client, -24);
 
       else
       {
         reply=dbus_connection_send_with_reply_and_block(client->bus, message, -1, &error);
         if(reply == ((struct DBusMessage *)NULL))
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$4=dbus_error_is_set(&error);
-          tmp_if_expr$5 = return_value_dbus_error_is_set$4 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_4=dbus_error_is_set(&error);
+          tmp_if_expr_5 = return_value_dbus_error_is_set_4 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(!tmp_if_expr$5)
+        if(!tmp_if_expr_5)
         {
-          return_value_dbus_message_get_args$6=dbus_message_get_args(reply, &error, (signed int)0);
-          if(return_value_dbus_message_get_args$6 == 0u)
-            tmp_if_expr$8 = (_Bool)1;
+          return_value_dbus_message_get_args_6=dbus_message_get_args(reply, &error, (signed int)0);
+          if(return_value_dbus_message_get_args_6 == 0u)
+            tmp_if_expr_8 = (_Bool)1;
 
           else
           {
-            return_value_dbus_error_is_set$7=dbus_error_is_set(&error);
-            tmp_if_expr$8 = return_value_dbus_error_is_set$7 != 0u ? (_Bool)1 : (_Bool)0;
+            return_value_dbus_error_is_set_7=dbus_error_is_set(&error);
+            tmp_if_expr_8 = return_value_dbus_error_is_set_7 != 0u ? (_Bool)1 : (_Bool)0;
           }
-          if(!tmp_if_expr$8)
+          if(!tmp_if_expr_8)
           {
             dbus_message_unref(message);
             dbus_message_unref(reply);
@@ -3853,9 +3853,9 @@ signed int avahi_client_set_host_name(struct AvahiClient *client, const char *na
     if(!(reply == ((struct DBusMessage *)NULL)))
       dbus_message_unref(reply);
 
-    unsigned int return_value_dbus_error_is_set$9;
-    return_value_dbus_error_is_set$9=dbus_error_is_set(&error);
-    if(!(return_value_dbus_error_is_set$9 == 0u))
+    unsigned int return_value_dbus_error_is_set_9;
+    return_value_dbus_error_is_set_9=dbus_error_is_set(&error);
+    if(!(return_value_dbus_error_is_set_9 == 0u))
     {
       avahi_client_set_dbus_error(client, &error);
       dbus_error_free(&error);
@@ -3883,11 +3883,11 @@ signed int avahi_client_simple_method_call(struct AvahiClient *client, const cha
   /* assertion method */
   assert(method != ((const char *)NULL));
   message=dbus_message_new_method_call("org.freedesktop.Avahi", path, interface, method);
-  _Bool tmp_if_expr$2;
-  unsigned int return_value_dbus_error_is_set$1;
-  unsigned int return_value_dbus_message_get_args$3;
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_dbus_error_is_set$4;
+  _Bool tmp_if_expr_2;
+  unsigned int return_value_dbus_error_is_set_1;
+  unsigned int return_value_dbus_message_get_args_3;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_dbus_error_is_set_4;
   if(message == ((struct DBusMessage *)NULL))
     r=avahi_client_set_errno(client, -24);
 
@@ -3895,28 +3895,28 @@ signed int avahi_client_simple_method_call(struct AvahiClient *client, const cha
   {
     reply=dbus_connection_send_with_reply_and_block(client->bus, message, -1, &error);
     if(reply == ((struct DBusMessage *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
-      return_value_dbus_error_is_set$1=dbus_error_is_set(&error);
-      tmp_if_expr$2 = return_value_dbus_error_is_set$1 != 0u ? (_Bool)1 : (_Bool)0;
+      return_value_dbus_error_is_set_1=dbus_error_is_set(&error);
+      tmp_if_expr_2 = return_value_dbus_error_is_set_1 != 0u ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
       r=avahi_client_set_errno(client, -22);
 
     else
     {
-      return_value_dbus_message_get_args$3=dbus_message_get_args(reply, &error, (signed int)0);
-      if(return_value_dbus_message_get_args$3 == 0u)
-        tmp_if_expr$5 = (_Bool)1;
+      return_value_dbus_message_get_args_3=dbus_message_get_args(reply, &error, (signed int)0);
+      if(return_value_dbus_message_get_args_3 == 0u)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_dbus_error_is_set$4=dbus_error_is_set(&error);
-        tmp_if_expr$5 = return_value_dbus_error_is_set$4 != 0u ? (_Bool)1 : (_Bool)0;
+        return_value_dbus_error_is_set_4=dbus_error_is_set(&error);
+        tmp_if_expr_5 = return_value_dbus_error_is_set_4 != 0u ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
+      if(tmp_if_expr_5)
         r=avahi_client_set_errno(client, -22);
 
       else
@@ -3930,9 +3930,9 @@ signed int avahi_client_simple_method_call(struct AvahiClient *client, const cha
 
 fail:
   ;
-  unsigned int return_value_dbus_error_is_set$6;
-  return_value_dbus_error_is_set$6=dbus_error_is_set(&error);
-  if(!(return_value_dbus_error_is_set$6 == 0u))
+  unsigned int return_value_dbus_error_is_set_6;
+  return_value_dbus_error_is_set_6=dbus_error_is_set(&error);
+  if(!(return_value_dbus_error_is_set_6 == 0u))
   {
     r=avahi_client_set_dbus_error(client, &error);
     dbus_error_free(&error);
@@ -3952,7 +3952,7 @@ fail:
 static struct DBusConnection * avahi_dbus_bus_get(struct DBusError *error)
 {
   struct DBusConnection *c;
-  c=dbus_bus_get_private((enum anonymous$29)DBUS_BUS_SYSTEM, error);
+  c=dbus_bus_get_private((enum anonymous_29)DBUS_BUS_SYSTEM, error);
   if(c == ((struct DBusConnection *)NULL))
     return (struct DBusConnection *)(void *)0;
 
@@ -3967,34 +3967,34 @@ static struct DBusConnection * avahi_dbus_bus_get(struct DBusError *error)
 // file ../avahi-common/dbus-watch-glue.h line 29
 signed int avahi_dbus_connection_glue(struct DBusConnection *c, const struct AvahiPoll *poll_api)
 {
-  struct anonymous$11 *d = (struct anonymous$11 *)(void *)0;
+  struct anonymous_11 *d = (struct anonymous_11 *)(void *)0;
   /* assertion c */
   assert(c != ((struct DBusConnection *)NULL));
   /* assertion poll_api */
   assert(poll_api != ((const struct AvahiPoll *)NULL));
-  void *return_value_avahi_new_internal$1;
-  return_value_avahi_new_internal$1=avahi_new_internal$link4((unsigned int)1, sizeof(struct anonymous$11) /*32ul*/ );
-  d = (struct anonymous$11 *)return_value_avahi_new_internal$1;
-  struct anonymous$11 *return_value_connection_data_ref$2;
-  unsigned int return_value_dbus_connection_set_watch_functions$3;
-  struct anonymous$11 *return_value_connection_data_ref$4;
-  unsigned int return_value_dbus_connection_set_timeout_functions$5;
-  struct anonymous$11 *return_value_connection_data_ref$6;
-  enum anonymous$10 return_value_dbus_connection_get_dispatch_status$7;
-  if(!(d == ((struct anonymous$11 *)NULL)))
+  void *return_value_avahi_new_internal_1;
+  return_value_avahi_new_internal_1=avahi_new_internal_link4((unsigned int)1, sizeof(struct anonymous_11) /*32ul*/ );
+  d = (struct anonymous_11 *)return_value_avahi_new_internal_1;
+  struct anonymous_11 *return_value_connection_data_ref_2;
+  unsigned int return_value_dbus_connection_set_watch_functions_3;
+  struct anonymous_11 *return_value_connection_data_ref_4;
+  unsigned int return_value_dbus_connection_set_timeout_functions_5;
+  struct anonymous_11 *return_value_connection_data_ref_6;
+  enum anonymous_10 return_value_dbus_connection_get_dispatch_status_7;
+  if(!(d == ((struct anonymous_11 *)NULL)))
   {
     d->poll_api = poll_api;
     d->connection = c;
     d->ref = 1;
     d->dispatch_timeout=poll_api->timeout_new(poll_api, (struct timeval *)(void *)0, dispatch_timeout_callback, (void *)d);
-    return_value_connection_data_ref$2=connection_data_ref(d);
-    return_value_dbus_connection_set_watch_functions$3=dbus_connection_set_watch_functions(c, add_watch, remove_watch, watch_toggled, (void *)return_value_connection_data_ref$2, (void (*)(void *))connection_data_unref);
-    return_value_connection_data_ref$4=connection_data_ref(d);
-    return_value_dbus_connection_set_timeout_functions$5=dbus_connection_set_timeout_functions(c, add_timeout, remove_timeout, timeout_toggled, (void *)return_value_connection_data_ref$4, (void (*)(void *))connection_data_unref);
-    return_value_connection_data_ref$6=connection_data_ref(d);
-    dbus_connection_set_dispatch_status_function(c, dispatch_status, (void *)return_value_connection_data_ref$6, (void (*)(void *))connection_data_unref);
-    return_value_dbus_connection_get_dispatch_status$7=dbus_connection_get_dispatch_status(c);
-    if((signed int)return_value_dbus_connection_get_dispatch_status$7 == DBUS_DISPATCH_DATA_REMAINS)
+    return_value_connection_data_ref_2=connection_data_ref(d);
+    return_value_dbus_connection_set_watch_functions_3=dbus_connection_set_watch_functions(c, add_watch, remove_watch, watch_toggled, (void *)return_value_connection_data_ref_2, (void (*)(void *))connection_data_unref);
+    return_value_connection_data_ref_4=connection_data_ref(d);
+    return_value_dbus_connection_set_timeout_functions_5=dbus_connection_set_timeout_functions(c, add_timeout, remove_timeout, timeout_toggled, (void *)return_value_connection_data_ref_4, (void (*)(void *))connection_data_unref);
+    return_value_connection_data_ref_6=connection_data_ref(d);
+    dbus_connection_set_dispatch_status_function(c, dispatch_status, (void *)return_value_connection_data_ref_6, (void (*)(void *))connection_data_unref);
+    return_value_dbus_connection_get_dispatch_status_7=dbus_connection_get_dispatch_status(c);
+    if((signed int)return_value_dbus_connection_get_dispatch_status_7 == DBUS_DISPATCH_DATA_REMAINS)
       request_dispatch(d, 1);
 
     connection_data_unref(d);
@@ -4006,7 +4006,7 @@ signed int avahi_dbus_connection_glue(struct DBusConnection *c, const struct Ava
 
   fail:
     ;
-    if(!(d == ((struct anonymous$11 *)NULL)))
+    if(!(d == ((struct anonymous_11 *)NULL)))
     {
       d->poll_api->timeout_free(d->dispatch_timeout);
       avahi_free((void *)d);
@@ -4018,7 +4018,7 @@ signed int avahi_dbus_connection_glue(struct DBusConnection *c, const struct Ava
 
 // avahi_domain_browser_event
 // file internal.h line 159
-enum anonymous$28 avahi_domain_browser_event(struct AvahiClient *client, enum anonymous$2 event, struct DBusMessage *message)
+enum anonymous_28 avahi_domain_browser_event(struct AvahiClient *client, enum anonymous_2 event, struct DBusMessage *message)
 {
   struct AvahiDomainBrowser *db = (struct AvahiDomainBrowser *)(void *)0;
   struct DBusError error;
@@ -4034,23 +4034,23 @@ enum anonymous$28 avahi_domain_browser_event(struct AvahiClient *client, enum an
   assert(message != ((struct DBusMessage *)NULL));
   dbus_error_init(&error);
   path=dbus_message_get_path(message);
-  signed int return_value_strcmp$1;
-  unsigned int return_value_dbus_message_get_args$2;
-  _Bool tmp_if_expr$4;
-  unsigned int return_value_dbus_error_is_set$3;
+  signed int return_value_strcmp_1;
+  unsigned int return_value_dbus_message_get_args_2;
+  _Bool tmp_if_expr_4;
+  unsigned int return_value_dbus_error_is_set_3;
   char *etxt;
-  unsigned int return_value_dbus_message_get_args$5;
-  _Bool tmp_if_expr$7;
-  unsigned int return_value_dbus_error_is_set$6;
-  signed int return_value_avahi_error_dbus_to_number$8;
-  signed int return_value_avahi_domain_equal$9;
+  unsigned int return_value_dbus_message_get_args_5;
+  _Bool tmp_if_expr_7;
+  unsigned int return_value_dbus_error_is_set_6;
+  signed int return_value_avahi_error_dbus_to_number_8;
+  signed int return_value_avahi_domain_equal_9;
   if(!(path == ((const char *)NULL)))
   {
     db = client->domain_browsers;
     for( ; !(db == ((struct AvahiDomainBrowser *)NULL)); db = db->domain_browsers_next)
     {
-      return_value_strcmp$1=strcmp(db->path, path);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(db->path, path);
+      if(return_value_strcmp_1 == 0)
         break;
 
     }
@@ -4065,16 +4065,16 @@ enum anonymous$28 avahi_domain_browser_event(struct AvahiClient *client, enum an
 
       case AVAHI_BROWSER_REMOVE:
       {
-        return_value_dbus_message_get_args$2=dbus_message_get_args(message, &error, (signed int)105, &interface, (signed int)105, &protocol, (signed int)115, &domain, (signed int)117, &flags, (signed int)0);
-        if(return_value_dbus_message_get_args$2 == 0u)
-          tmp_if_expr$4 = (_Bool)1;
+        return_value_dbus_message_get_args_2=dbus_message_get_args(message, &error, (signed int)105, &interface, (signed int)105, &protocol, (signed int)115, &domain, (signed int)117, &flags, (signed int)0);
+        if(return_value_dbus_message_get_args_2 == 0u)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$3=dbus_error_is_set(&error);
-          tmp_if_expr$4 = return_value_dbus_error_is_set$3 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_3=dbus_error_is_set(&error);
+          tmp_if_expr_4 = return_value_dbus_error_is_set_3 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
         {
           fprintf(stderr, "Failed to parse browser event.\n");
           goto fail;
@@ -4088,23 +4088,23 @@ enum anonymous$28 avahi_domain_browser_event(struct AvahiClient *client, enum an
         break;
       case AVAHI_BROWSER_FAILURE:
       {
-        return_value_dbus_message_get_args$5=dbus_message_get_args(message, &error, (signed int)115, &etxt, (signed int)0);
-        if(return_value_dbus_message_get_args$5 == 0u)
-          tmp_if_expr$7 = (_Bool)1;
+        return_value_dbus_message_get_args_5=dbus_message_get_args(message, &error, (signed int)115, &etxt, (signed int)0);
+        if(return_value_dbus_message_get_args_5 == 0u)
+          tmp_if_expr_7 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$6=dbus_error_is_set(&error);
-          tmp_if_expr$7 = return_value_dbus_error_is_set$6 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_6=dbus_error_is_set(&error);
+          tmp_if_expr_7 = return_value_dbus_error_is_set_6 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$7)
+        if(tmp_if_expr_7)
         {
           fprintf(stderr, "Failed to parse browser event.\n");
           goto fail;
         }
 
-        return_value_avahi_error_dbus_to_number$8=avahi_error_dbus_to_number(etxt);
-        avahi_client_set_errno(db->client, return_value_avahi_error_dbus_to_number$8);
+        return_value_avahi_error_dbus_to_number_8=avahi_error_dbus_to_number(etxt);
+        avahi_client_set_errno(db->client, return_value_avahi_error_dbus_to_number_8);
       }
     }
     if(!(domain == ((char *)NULL)))
@@ -4112,15 +4112,15 @@ enum anonymous$28 avahi_domain_browser_event(struct AvahiClient *client, enum an
       l = db->static_browse_domains;
       for( ; !(l == ((struct AvahiStringList *)NULL)); l = l->next)
       {
-        return_value_avahi_domain_equal$9=avahi_domain_equal((char *)l->text, domain);
-        if(!(return_value_avahi_domain_equal$9 == 0))
-          return (enum anonymous$28)DBUS_HANDLER_RESULT_HANDLED;
+        return_value_avahi_domain_equal_9=avahi_domain_equal((char *)l->text, domain);
+        if(!(return_value_avahi_domain_equal_9 == 0))
+          return (enum anonymous_28)DBUS_HANDLER_RESULT_HANDLED;
 
       }
     }
 
-    db->callback(db, (signed int)interface, (signed int)protocol, event, domain, (enum anonymous$3)flags, db->userdata);
-    return (enum anonymous$28)DBUS_HANDLER_RESULT_HANDLED;
+    db->callback(db, (signed int)interface, (signed int)protocol, event, domain, (enum anonymous_3)flags, db->userdata);
+    return (enum anonymous_28)DBUS_HANDLER_RESULT_HANDLED;
   }
 
   else
@@ -4129,7 +4129,7 @@ enum anonymous$28 avahi_domain_browser_event(struct AvahiClient *client, enum an
   fail:
     ;
     dbus_error_free(&error);
-    return (enum anonymous$28)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
+    return (enum anonymous_28)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
   }
 }
 
@@ -4137,31 +4137,31 @@ enum anonymous$28 avahi_domain_browser_event(struct AvahiClient *client, enum an
 // file lookup.h line 71
 signed int avahi_domain_browser_free(struct AvahiDomainBrowser *b)
 {
-  struct AvahiClient *avahi_domain_browser_free$$1$$client;
+  struct AvahiClient *avahi_domain_browser_free__1__client;
   signed int r = 0;
   /* assertion b */
   assert(b != ((struct AvahiDomainBrowser *)NULL));
   /* assertion b->ref >= 1 */
   assert(b->ref >= 1);
   b->ref = b->ref - 1;
-  signed int return_value_avahi_client_is_connected$1;
+  signed int return_value_avahi_client_is_connected_1;
   if(b->ref >= 1)
     return 0;
 
   else
   {
-    avahi_domain_browser_free$$1$$client = b->client;
+    avahi_domain_browser_free__1__client = b->client;
     if(!(b->path == ((char *)NULL)))
     {
-      return_value_avahi_client_is_connected$1=avahi_client_is_connected(b->client);
-      if(!(return_value_avahi_client_is_connected$1 == 0))
-        r=avahi_client_simple_method_call(avahi_domain_browser_free$$1$$client, b->path, "org.freedesktop.Avahi.DomainBrowser", "Free");
+      return_value_avahi_client_is_connected_1=avahi_client_is_connected(b->client);
+      if(!(return_value_avahi_client_is_connected_1 == 0))
+        r=avahi_client_simple_method_call(avahi_domain_browser_free__1__client, b->path, "org.freedesktop.Avahi.DomainBrowser", "Free");
 
     }
 
     do
     {
-      struct AvahiDomainBrowser **_head = &avahi_domain_browser_free$$1$$client->domain_browsers;
+      struct AvahiDomainBrowser **_head = &avahi_domain_browser_free__1__client->domain_browsers;
       struct AvahiDomainBrowser *_item = b;
       /* assertion _item */
       assert(_item != ((struct AvahiDomainBrowser *)NULL));
@@ -4202,7 +4202,7 @@ struct AvahiClient * avahi_domain_browser_get_client(struct AvahiDomainBrowser *
 
 // avahi_domain_browser_new
 // file browser.c line 104
-struct AvahiDomainBrowser * avahi_domain_browser_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *domain, enum anonymous$0 btype, enum anonymous$1 flags, void (*callback)(struct AvahiDomainBrowser *, signed int, signed int, enum anonymous$2, const char *, enum anonymous$3, void *), void *userdata)
+struct AvahiDomainBrowser * avahi_domain_browser_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *domain, enum anonymous_0 btype, enum anonymous_1 flags, void (*callback)(struct AvahiDomainBrowser *, signed int, signed int, enum anonymous_2, const char *, enum anonymous_3, void *), void *userdata)
 {
   struct AvahiDomainBrowser *db = (struct AvahiDomainBrowser *)(void *)0;
   struct DBusMessage *message = (struct DBusMessage *)(void *)0;
@@ -4216,18 +4216,18 @@ struct AvahiDomainBrowser * avahi_domain_browser_new(struct AvahiClient *client,
   /* assertion client */
   assert(client != ((struct AvahiClient *)NULL));
   /* assertion callback */
-  assert(callback != ((void (*)(struct AvahiDomainBrowser *, signed int, signed int, enum anonymous$2, const char *, enum anonymous$3, void *))NULL));
+  assert(callback != ((void (*)(struct AvahiDomainBrowser *, signed int, signed int, enum anonymous_2, const char *, enum anonymous_3, void *))NULL));
   dbus_error_init(&error);
-  signed int return_value_avahi_client_is_connected$1;
-  return_value_avahi_client_is_connected$1=avahi_client_is_connected(client);
-  void *return_value_avahi_new_internal$2;
-  unsigned int return_value_dbus_message_append_args$3;
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_dbus_error_is_set$4;
-  unsigned int return_value_dbus_message_get_args$6;
-  _Bool tmp_if_expr$8;
-  unsigned int return_value_dbus_error_is_set$7;
-  if(return_value_avahi_client_is_connected$1 == 0)
+  signed int return_value_avahi_client_is_connected_1;
+  return_value_avahi_client_is_connected_1=avahi_client_is_connected(client);
+  void *return_value_avahi_new_internal_2;
+  unsigned int return_value_dbus_message_append_args_3;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_dbus_error_is_set_4;
+  unsigned int return_value_dbus_message_get_args_6;
+  _Bool tmp_if_expr_8;
+  unsigned int return_value_dbus_error_is_set_7;
+  if(return_value_avahi_client_is_connected_1 == 0)
     avahi_client_set_errno(client, -2);
 
   else
@@ -4235,8 +4235,8 @@ struct AvahiDomainBrowser * avahi_domain_browser_new(struct AvahiClient *client,
     if(domain == ((const char *)NULL))
       domain = "";
 
-    return_value_avahi_new_internal$2=avahi_new_internal$link2((unsigned int)1, sizeof(struct AvahiDomainBrowser) /*80ul*/ );
-    db = (struct AvahiDomainBrowser *)return_value_avahi_new_internal$2;
+    return_value_avahi_new_internal_2=avahi_new_internal_link2((unsigned int)1, sizeof(struct AvahiDomainBrowser) /*80ul*/ );
+    db = (struct AvahiDomainBrowser *)return_value_avahi_new_internal_2;
     if(db == ((struct AvahiDomainBrowser *)NULL))
       avahi_client_set_errno(client, -24);
 
@@ -4282,36 +4282,36 @@ struct AvahiDomainBrowser * avahi_domain_browser_new(struct AvahiClient *client,
         i_protocol = (signed int)protocol;
         u_flags = (unsigned int)flags;
         bt = (signed int)btype;
-        return_value_dbus_message_append_args$3=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)115, &domain, (signed int)105, &bt, (signed int)117, &u_flags, (signed int)0);
-        if(return_value_dbus_message_append_args$3 == 0u)
+        return_value_dbus_message_append_args_3=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)115, &domain, (signed int)105, &bt, (signed int)117, &u_flags, (signed int)0);
+        if(return_value_dbus_message_append_args_3 == 0u)
           avahi_client_set_errno(client, -24);
 
         else
         {
           reply=dbus_connection_send_with_reply_and_block(client->bus, message, -1, &error);
           if(reply == ((struct DBusMessage *)NULL))
-            tmp_if_expr$5 = (_Bool)1;
+            tmp_if_expr_5 = (_Bool)1;
 
           else
           {
-            return_value_dbus_error_is_set$4=dbus_error_is_set(&error);
-            tmp_if_expr$5 = return_value_dbus_error_is_set$4 != 0u ? (_Bool)1 : (_Bool)0;
+            return_value_dbus_error_is_set_4=dbus_error_is_set(&error);
+            tmp_if_expr_5 = return_value_dbus_error_is_set_4 != 0u ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$5)
+          if(tmp_if_expr_5)
             avahi_client_set_errno(client, -22);
 
           else
           {
-            return_value_dbus_message_get_args$6=dbus_message_get_args(reply, &error, (signed int)111, &path, (signed int)0);
-            if(return_value_dbus_message_get_args$6 == 0u)
-              tmp_if_expr$8 = (_Bool)1;
+            return_value_dbus_message_get_args_6=dbus_message_get_args(reply, &error, (signed int)111, &path, (signed int)0);
+            if(return_value_dbus_message_get_args_6 == 0u)
+              tmp_if_expr_8 = (_Bool)1;
 
             else
             {
-              return_value_dbus_error_is_set$7=dbus_error_is_set(&error);
-              tmp_if_expr$8 = return_value_dbus_error_is_set$7 != 0u ? (_Bool)1 : (_Bool)0;
+              return_value_dbus_error_is_set_7=dbus_error_is_set(&error);
+              tmp_if_expr_8 = return_value_dbus_error_is_set_7 != 0u ? (_Bool)1 : (_Bool)0;
             }
-            if(path == ((char *)NULL) || tmp_if_expr$8)
+            if(path == ((char *)NULL) || tmp_if_expr_8)
               avahi_client_set_errno(client, -22);
 
             else
@@ -4348,9 +4348,9 @@ struct AvahiDomainBrowser * avahi_domain_browser_new(struct AvahiClient *client,
 
 fail:
   ;
-  unsigned int return_value_dbus_error_is_set$9;
-  return_value_dbus_error_is_set$9=dbus_error_is_set(&error);
-  if(!(return_value_dbus_error_is_set$9 == 0u))
+  unsigned int return_value_dbus_error_is_set_9;
+  return_value_dbus_error_is_set_9=dbus_error_is_set(&error);
+  if(!(return_value_dbus_error_is_set_9 == 0u))
   {
     avahi_client_set_dbus_error(client, &error);
     dbus_error_free(&error);
@@ -4392,9 +4392,9 @@ signed int avahi_domain_equal(const char *a, const char *b)
       r=avahi_unescape_label(&b, cb, sizeof(char [64l]) /*64ul*/ );
       /* assertion r */
       assert(r != ((char *)NULL));
-      signed int return_value_strcasecmp$1;
-      return_value_strcasecmp$1=strcasecmp(ca, cb);
-      if(!(return_value_strcasecmp$1 == 0))
+      signed int return_value_strcasecmp_1;
+      return_value_strcasecmp_1=strcasecmp(ca, cb);
+      if(!(return_value_strcasecmp_1 == 0))
         return 0;
 
       if(*a == 0)
@@ -4415,7 +4415,7 @@ signed int avahi_domain_equal(const char *a, const char *b)
 unsigned int avahi_domain_hash(const char *s)
 {
   unsigned int hash = (unsigned int)0;
-  signed int return_value_tolower$1;
+  signed int return_value_tolower_1;
   while(!(*s == 0))
   {
     char c[64l];
@@ -4427,8 +4427,8 @@ unsigned int avahi_domain_hash(const char *s)
     p = c;
     for( ; !(*p == 0); p = p + 1l)
     {
-      return_value_tolower$1=tolower((signed int)*p);
-      hash = (unsigned int)31 * hash + (unsigned int)return_value_tolower$1;
+      return_value_tolower_1=tolower((signed int)*p);
+      hash = (unsigned int)31 * hash + (unsigned int)return_value_tolower_1;
     }
   }
   return hash;
@@ -4449,7 +4449,7 @@ struct timeval * avahi_elapse_time(struct timeval *tv, unsigned int msec, unsign
     signed long int now;
     signed int r;
     now=time((signed long int *)(void *)0);
-    static union anonymous$25 mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+    static union anonymous_25 mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
     pthread_mutex_lock(&mutex);
@@ -4477,7 +4477,7 @@ signed int avahi_entry_group_add_address(struct AvahiEntryGroup *group, signed i
   struct DBusMessage *reply = (struct DBusMessage *)(void *)0;
   signed int r = 0;
   struct DBusError error;
-  struct AvahiClient *avahi_entry_group_add_address$$1$$client;
+  struct AvahiClient *avahi_entry_group_add_address__1__client;
   signed int i_interface;
   signed int i_protocol;
   unsigned int u_flags;
@@ -4485,29 +4485,29 @@ signed int avahi_entry_group_add_address(struct AvahiEntryGroup *group, signed i
   char *p_address = s_address;
   /* assertion name */
   assert(name != ((const char *)NULL));
-  avahi_entry_group_add_address$$1$$client = group->client;
-  _Bool tmp_if_expr$3;
-  signed int return_value_avahi_client_is_connected$2;
+  avahi_entry_group_add_address__1__client = group->client;
+  _Bool tmp_if_expr_3;
+  signed int return_value_avahi_client_is_connected_2;
   if(group->path == ((char *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_avahi_client_is_connected$2=avahi_client_is_connected(group->client);
-    tmp_if_expr$3 = !(return_value_avahi_client_is_connected$2 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_avahi_client_is_connected_2=avahi_client_is_connected(group->client);
+    tmp_if_expr_3 = !(return_value_avahi_client_is_connected_2 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_avahi_client_set_errno$1;
-  char *return_value_avahi_address_snprint$4;
-  unsigned int return_value_dbus_message_append_args$5;
-  _Bool tmp_if_expr$7;
-  unsigned int return_value_dbus_error_is_set$6;
-  unsigned int return_value_dbus_message_get_args$8;
-  _Bool tmp_if_expr$10;
-  unsigned int return_value_dbus_error_is_set$9;
-  if(tmp_if_expr$3)
+  signed int return_value_avahi_client_set_errno_1;
+  char *return_value_avahi_address_snprint_4;
+  unsigned int return_value_dbus_message_append_args_5;
+  _Bool tmp_if_expr_7;
+  unsigned int return_value_dbus_error_is_set_6;
+  unsigned int return_value_dbus_message_get_args_8;
+  _Bool tmp_if_expr_10;
+  unsigned int return_value_dbus_error_is_set_9;
+  if(tmp_if_expr_3)
   {
-    return_value_avahi_client_set_errno$1=avahi_client_set_errno(group->client, -2);
-    return return_value_avahi_client_set_errno$1;
+    return_value_avahi_client_set_errno_1=avahi_client_set_errno(group->client, -2);
+    return return_value_avahi_client_set_errno_1;
   }
 
   else
@@ -4515,50 +4515,50 @@ signed int avahi_entry_group_add_address(struct AvahiEntryGroup *group, signed i
     dbus_error_init(&error);
     message=dbus_message_new_method_call("org.freedesktop.Avahi", group->path, "org.freedesktop.Avahi.EntryGroup", "AddAddress");
     if(message == ((struct DBusMessage *)NULL))
-      r=avahi_client_set_errno(avahi_entry_group_add_address$$1$$client, -24);
+      r=avahi_client_set_errno(avahi_entry_group_add_address__1__client, -24);
 
     else
     {
       i_interface = (signed int)interface;
       i_protocol = (signed int)protocol;
       u_flags = (unsigned int)flags;
-      return_value_avahi_address_snprint$4=avahi_address_snprint(s_address, sizeof(char [40l]) /*40ul*/ , a);
-      if(return_value_avahi_address_snprint$4 == ((char *)NULL))
-        r=avahi_client_set_errno(avahi_entry_group_add_address$$1$$client, -14);
+      return_value_avahi_address_snprint_4=avahi_address_snprint(s_address, sizeof(char [40l]) /*40ul*/ , a);
+      if(return_value_avahi_address_snprint_4 == ((char *)NULL))
+        r=avahi_client_set_errno(avahi_entry_group_add_address__1__client, -14);
 
       else
       {
-        return_value_dbus_message_append_args$5=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)117, &u_flags, (signed int)115, &name, (signed int)115, &p_address, (signed int)0);
-        if(return_value_dbus_message_append_args$5 == 0u)
+        return_value_dbus_message_append_args_5=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)117, &u_flags, (signed int)115, &name, (signed int)115, &p_address, (signed int)0);
+        if(return_value_dbus_message_append_args_5 == 0u)
           r=avahi_client_set_errno(group->client, -24);
 
         else
         {
-          reply=dbus_connection_send_with_reply_and_block(avahi_entry_group_add_address$$1$$client->bus, message, -1, &error);
+          reply=dbus_connection_send_with_reply_and_block(avahi_entry_group_add_address__1__client->bus, message, -1, &error);
           if(reply == ((struct DBusMessage *)NULL))
-            tmp_if_expr$7 = (_Bool)1;
+            tmp_if_expr_7 = (_Bool)1;
 
           else
           {
-            return_value_dbus_error_is_set$6=dbus_error_is_set(&error);
-            tmp_if_expr$7 = return_value_dbus_error_is_set$6 != 0u ? (_Bool)1 : (_Bool)0;
+            return_value_dbus_error_is_set_6=dbus_error_is_set(&error);
+            tmp_if_expr_7 = return_value_dbus_error_is_set_6 != 0u ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$7)
-            r=avahi_client_set_errno(avahi_entry_group_add_address$$1$$client, -22);
+          if(tmp_if_expr_7)
+            r=avahi_client_set_errno(avahi_entry_group_add_address__1__client, -22);
 
           else
           {
-            return_value_dbus_message_get_args$8=dbus_message_get_args(reply, &error, (signed int)0);
-            if(return_value_dbus_message_get_args$8 == 0u)
-              tmp_if_expr$10 = (_Bool)1;
+            return_value_dbus_message_get_args_8=dbus_message_get_args(reply, &error, (signed int)0);
+            if(return_value_dbus_message_get_args_8 == 0u)
+              tmp_if_expr_10 = (_Bool)1;
 
             else
             {
-              return_value_dbus_error_is_set$9=dbus_error_is_set(&error);
-              tmp_if_expr$10 = return_value_dbus_error_is_set$9 != 0u ? (_Bool)1 : (_Bool)0;
+              return_value_dbus_error_is_set_9=dbus_error_is_set(&error);
+              tmp_if_expr_10 = return_value_dbus_error_is_set_9 != 0u ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$10)
-              r=avahi_client_set_errno(avahi_entry_group_add_address$$1$$client, -22);
+            if(tmp_if_expr_10)
+              r=avahi_client_set_errno(avahi_entry_group_add_address__1__client, -22);
 
             else
             {
@@ -4573,11 +4573,11 @@ signed int avahi_entry_group_add_address(struct AvahiEntryGroup *group, signed i
 
   fail:
     ;
-    unsigned int return_value_dbus_error_is_set$11;
-    return_value_dbus_error_is_set$11=dbus_error_is_set(&error);
-    if(!(return_value_dbus_error_is_set$11 == 0u))
+    unsigned int return_value_dbus_error_is_set_11;
+    return_value_dbus_error_is_set_11=dbus_error_is_set(&error);
+    if(!(return_value_dbus_error_is_set_11 == 0u))
     {
-      r=avahi_client_set_dbus_error(avahi_entry_group_add_address$$1$$client, &error);
+      r=avahi_client_set_dbus_error(avahi_entry_group_add_address__1__client, &error);
       dbus_error_free(&error);
     }
 
@@ -4599,36 +4599,36 @@ signed int avahi_entry_group_add_record(struct AvahiEntryGroup *group, signed in
   struct DBusMessage *reply = (struct DBusMessage *)(void *)0;
   signed int r = 0;
   struct DBusError error;
-  struct AvahiClient *avahi_entry_group_add_record$$1$$client;
+  struct AvahiClient *avahi_entry_group_add_record__1__client;
   signed int i_interface;
   signed int i_protocol;
   unsigned int u_flags;
   /* assertion name */
   assert(name != ((const char *)NULL));
-  avahi_entry_group_add_record$$1$$client = group->client;
-  _Bool tmp_if_expr$3;
-  signed int return_value_avahi_client_is_connected$2;
+  avahi_entry_group_add_record__1__client = group->client;
+  _Bool tmp_if_expr_3;
+  signed int return_value_avahi_client_is_connected_2;
   if(group->path == ((char *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_avahi_client_is_connected$2=avahi_client_is_connected(group->client);
-    tmp_if_expr$3 = !(return_value_avahi_client_is_connected$2 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_avahi_client_is_connected_2=avahi_client_is_connected(group->client);
+    tmp_if_expr_3 = !(return_value_avahi_client_is_connected_2 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_avahi_client_set_errno$1;
-  unsigned int return_value_dbus_message_append_args$4;
-  _Bool tmp_if_expr$6;
-  signed int return_value_append_rdata$5;
-  _Bool tmp_if_expr$8;
-  unsigned int return_value_dbus_error_is_set$7;
-  unsigned int return_value_dbus_message_get_args$9;
-  _Bool tmp_if_expr$11;
-  unsigned int return_value_dbus_error_is_set$10;
-  if(tmp_if_expr$3)
+  signed int return_value_avahi_client_set_errno_1;
+  unsigned int return_value_dbus_message_append_args_4;
+  _Bool tmp_if_expr_6;
+  signed int return_value_append_rdata_5;
+  _Bool tmp_if_expr_8;
+  unsigned int return_value_dbus_error_is_set_7;
+  unsigned int return_value_dbus_message_get_args_9;
+  _Bool tmp_if_expr_11;
+  unsigned int return_value_dbus_error_is_set_10;
+  if(tmp_if_expr_3)
   {
-    return_value_avahi_client_set_errno$1=avahi_client_set_errno(group->client, -2);
-    return return_value_avahi_client_set_errno$1;
+    return_value_avahi_client_set_errno_1=avahi_client_set_errno(group->client, -2);
+    return return_value_avahi_client_set_errno_1;
   }
 
   else
@@ -4636,52 +4636,52 @@ signed int avahi_entry_group_add_record(struct AvahiEntryGroup *group, signed in
     dbus_error_init(&error);
     message=dbus_message_new_method_call("org.freedesktop.Avahi", group->path, "org.freedesktop.Avahi.EntryGroup", "AddRecord");
     if(message == ((struct DBusMessage *)NULL))
-      r=avahi_client_set_errno(avahi_entry_group_add_record$$1$$client, -24);
+      r=avahi_client_set_errno(avahi_entry_group_add_record__1__client, -24);
 
     else
     {
       i_interface = (signed int)interface;
       i_protocol = (signed int)protocol;
       u_flags = (unsigned int)flags;
-      return_value_dbus_message_append_args$4=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)117, &u_flags, (signed int)115, &name, (signed int)113, &clazz, (signed int)113, &type, (signed int)117, &ttl, (signed int)0);
-      if(return_value_dbus_message_append_args$4 == 0u)
-        tmp_if_expr$6 = (_Bool)1;
+      return_value_dbus_message_append_args_4=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)117, &u_flags, (signed int)115, &name, (signed int)113, &clazz, (signed int)113, &type, (signed int)117, &ttl, (signed int)0);
+      if(return_value_dbus_message_append_args_4 == 0u)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
       {
-        return_value_append_rdata$5=append_rdata(message, rdata, size);
-        tmp_if_expr$6 = return_value_append_rdata$5 < 0 ? (_Bool)1 : (_Bool)0;
+        return_value_append_rdata_5=append_rdata(message, rdata, size);
+        tmp_if_expr_6 = return_value_append_rdata_5 < 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$6)
+      if(tmp_if_expr_6)
         r=avahi_client_set_errno(group->client, -24);
 
       else
       {
-        reply=dbus_connection_send_with_reply_and_block(avahi_entry_group_add_record$$1$$client->bus, message, -1, &error);
+        reply=dbus_connection_send_with_reply_and_block(avahi_entry_group_add_record__1__client->bus, message, -1, &error);
         if(reply == ((struct DBusMessage *)NULL))
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$7=dbus_error_is_set(&error);
-          tmp_if_expr$8 = return_value_dbus_error_is_set$7 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_7=dbus_error_is_set(&error);
+          tmp_if_expr_8 = return_value_dbus_error_is_set_7 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$8)
-          r=avahi_client_set_errno(avahi_entry_group_add_record$$1$$client, -22);
+        if(tmp_if_expr_8)
+          r=avahi_client_set_errno(avahi_entry_group_add_record__1__client, -22);
 
         else
         {
-          return_value_dbus_message_get_args$9=dbus_message_get_args(reply, &error, (signed int)0);
-          if(return_value_dbus_message_get_args$9 == 0u)
-            tmp_if_expr$11 = (_Bool)1;
+          return_value_dbus_message_get_args_9=dbus_message_get_args(reply, &error, (signed int)0);
+          if(return_value_dbus_message_get_args_9 == 0u)
+            tmp_if_expr_11 = (_Bool)1;
 
           else
           {
-            return_value_dbus_error_is_set$10=dbus_error_is_set(&error);
-            tmp_if_expr$11 = return_value_dbus_error_is_set$10 != 0u ? (_Bool)1 : (_Bool)0;
+            return_value_dbus_error_is_set_10=dbus_error_is_set(&error);
+            tmp_if_expr_11 = return_value_dbus_error_is_set_10 != 0u ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$11)
-            r=avahi_client_set_errno(avahi_entry_group_add_record$$1$$client, -22);
+          if(tmp_if_expr_11)
+            r=avahi_client_set_errno(avahi_entry_group_add_record__1__client, -22);
 
           else
           {
@@ -4695,11 +4695,11 @@ signed int avahi_entry_group_add_record(struct AvahiEntryGroup *group, signed in
 
   fail:
     ;
-    unsigned int return_value_dbus_error_is_set$12;
-    return_value_dbus_error_is_set$12=dbus_error_is_set(&error);
-    if(!(return_value_dbus_error_is_set$12 == 0u))
+    unsigned int return_value_dbus_error_is_set_12;
+    return_value_dbus_error_is_set_12=dbus_error_is_set(&error);
+    if(!(return_value_dbus_error_is_set_12 == 0u))
     {
-      r=avahi_client_set_dbus_error(avahi_entry_group_add_record$$1$$client, &error);
+      r=avahi_client_set_dbus_error(avahi_entry_group_add_record__1__client, &error);
       dbus_error_free(&error);
     }
 
@@ -4738,7 +4738,7 @@ signed int avahi_entry_group_add_service_strlst(struct AvahiEntryGroup *group, s
   struct DBusMessage *reply = (struct DBusMessage *)(void *)0;
   signed int r = 0;
   struct DBusError error;
-  struct AvahiClient *avahi_entry_group_add_service_strlst$$1$$client;
+  struct AvahiClient *avahi_entry_group_add_service_strlst__1__client;
   signed int i_interface;
   signed int i_protocol;
   unsigned int u_flags;
@@ -4748,30 +4748,30 @@ signed int avahi_entry_group_add_service_strlst(struct AvahiEntryGroup *group, s
   assert(name != ((const char *)NULL));
   /* assertion type */
   assert(type != ((const char *)NULL));
-  avahi_entry_group_add_service_strlst$$1$$client = group->client;
-  _Bool tmp_if_expr$3;
-  signed int return_value_avahi_client_is_connected$2;
+  avahi_entry_group_add_service_strlst__1__client = group->client;
+  _Bool tmp_if_expr_3;
+  signed int return_value_avahi_client_is_connected_2;
   if(group->path == ((char *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_avahi_client_is_connected$2=avahi_client_is_connected(group->client);
-    tmp_if_expr$3 = !(return_value_avahi_client_is_connected$2 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_avahi_client_is_connected_2=avahi_client_is_connected(group->client);
+    tmp_if_expr_3 = !(return_value_avahi_client_is_connected_2 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_avahi_client_set_errno$1;
-  unsigned int return_value_dbus_message_append_args$4;
-  _Bool tmp_if_expr$6;
-  signed int return_value_append_string_list$5;
-  _Bool tmp_if_expr$8;
-  unsigned int return_value_dbus_error_is_set$7;
-  unsigned int return_value_dbus_message_get_args$9;
-  _Bool tmp_if_expr$11;
-  unsigned int return_value_dbus_error_is_set$10;
-  if(tmp_if_expr$3)
+  signed int return_value_avahi_client_set_errno_1;
+  unsigned int return_value_dbus_message_append_args_4;
+  _Bool tmp_if_expr_6;
+  signed int return_value_append_string_list_5;
+  _Bool tmp_if_expr_8;
+  unsigned int return_value_dbus_error_is_set_7;
+  unsigned int return_value_dbus_message_get_args_9;
+  _Bool tmp_if_expr_11;
+  unsigned int return_value_dbus_error_is_set_10;
+  if(tmp_if_expr_3)
   {
-    return_value_avahi_client_set_errno$1=avahi_client_set_errno(group->client, -2);
-    return return_value_avahi_client_set_errno$1;
+    return_value_avahi_client_set_errno_1=avahi_client_set_errno(group->client, -2);
+    return return_value_avahi_client_set_errno_1;
   }
 
   else
@@ -4785,52 +4785,52 @@ signed int avahi_entry_group_add_service_strlst(struct AvahiEntryGroup *group, s
     dbus_error_init(&error);
     message=dbus_message_new_method_call("org.freedesktop.Avahi", group->path, "org.freedesktop.Avahi.EntryGroup", "AddService");
     if(message == ((struct DBusMessage *)NULL))
-      r=avahi_client_set_errno(avahi_entry_group_add_service_strlst$$1$$client, -24);
+      r=avahi_client_set_errno(avahi_entry_group_add_service_strlst__1__client, -24);
 
     else
     {
       i_interface = (signed int)interface;
       i_protocol = (signed int)protocol;
       u_flags = (unsigned int)flags;
-      return_value_dbus_message_append_args$4=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)117, &u_flags, (signed int)115, &name, (signed int)115, &type, (signed int)115, &domain, (signed int)115, &host, (signed int)113, &port, (signed int)0);
-      if(return_value_dbus_message_append_args$4 == 0u)
-        tmp_if_expr$6 = (_Bool)1;
+      return_value_dbus_message_append_args_4=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)117, &u_flags, (signed int)115, &name, (signed int)115, &type, (signed int)115, &domain, (signed int)115, &host, (signed int)113, &port, (signed int)0);
+      if(return_value_dbus_message_append_args_4 == 0u)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
       {
-        return_value_append_string_list$5=append_string_list(message, txt);
-        tmp_if_expr$6 = return_value_append_string_list$5 < 0 ? (_Bool)1 : (_Bool)0;
+        return_value_append_string_list_5=append_string_list(message, txt);
+        tmp_if_expr_6 = return_value_append_string_list_5 < 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$6)
+      if(tmp_if_expr_6)
         r=avahi_client_set_errno(group->client, -24);
 
       else
       {
-        reply=dbus_connection_send_with_reply_and_block(avahi_entry_group_add_service_strlst$$1$$client->bus, message, -1, &error);
+        reply=dbus_connection_send_with_reply_and_block(avahi_entry_group_add_service_strlst__1__client->bus, message, -1, &error);
         if(reply == ((struct DBusMessage *)NULL))
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$7=dbus_error_is_set(&error);
-          tmp_if_expr$8 = return_value_dbus_error_is_set$7 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_7=dbus_error_is_set(&error);
+          tmp_if_expr_8 = return_value_dbus_error_is_set_7 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$8)
-          r=avahi_client_set_errno(avahi_entry_group_add_service_strlst$$1$$client, -22);
+        if(tmp_if_expr_8)
+          r=avahi_client_set_errno(avahi_entry_group_add_service_strlst__1__client, -22);
 
         else
         {
-          return_value_dbus_message_get_args$9=dbus_message_get_args(reply, &error, (signed int)0);
-          if(return_value_dbus_message_get_args$9 == 0u)
-            tmp_if_expr$11 = (_Bool)1;
+          return_value_dbus_message_get_args_9=dbus_message_get_args(reply, &error, (signed int)0);
+          if(return_value_dbus_message_get_args_9 == 0u)
+            tmp_if_expr_11 = (_Bool)1;
 
           else
           {
-            return_value_dbus_error_is_set$10=dbus_error_is_set(&error);
-            tmp_if_expr$11 = return_value_dbus_error_is_set$10 != 0u ? (_Bool)1 : (_Bool)0;
+            return_value_dbus_error_is_set_10=dbus_error_is_set(&error);
+            tmp_if_expr_11 = return_value_dbus_error_is_set_10 != 0u ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$11)
-            r=avahi_client_set_errno(avahi_entry_group_add_service_strlst$$1$$client, -22);
+          if(tmp_if_expr_11)
+            r=avahi_client_set_errno(avahi_entry_group_add_service_strlst__1__client, -22);
 
           else
           {
@@ -4844,11 +4844,11 @@ signed int avahi_entry_group_add_service_strlst(struct AvahiEntryGroup *group, s
 
   fail:
     ;
-    unsigned int return_value_dbus_error_is_set$12;
-    return_value_dbus_error_is_set$12=dbus_error_is_set(&error);
-    if(!(return_value_dbus_error_is_set$12 == 0u))
+    unsigned int return_value_dbus_error_is_set_12;
+    return_value_dbus_error_is_set_12=dbus_error_is_set(&error);
+    if(!(return_value_dbus_error_is_set_12 == 0u))
     {
-      r=avahi_client_set_dbus_error(avahi_entry_group_add_service_strlst$$1$$client, &error);
+      r=avahi_client_set_dbus_error(avahi_entry_group_add_service_strlst__1__client, &error);
       dbus_error_free(&error);
     }
 
@@ -4870,7 +4870,7 @@ signed int avahi_entry_group_add_service_subtype(struct AvahiEntryGroup *group, 
   struct DBusMessage *reply = (struct DBusMessage *)(void *)0;
   signed int r = 0;
   struct DBusError error;
-  struct AvahiClient *avahi_entry_group_add_service_subtype$$1$$client;
+  struct AvahiClient *avahi_entry_group_add_service_subtype__1__client;
   signed int i_interface;
   signed int i_protocol;
   unsigned int u_flags;
@@ -4882,28 +4882,28 @@ signed int avahi_entry_group_add_service_subtype(struct AvahiEntryGroup *group, 
   assert(type != ((const char *)NULL));
   /* assertion subtype */
   assert(subtype != ((const char *)NULL));
-  avahi_entry_group_add_service_subtype$$1$$client = group->client;
-  _Bool tmp_if_expr$3;
-  signed int return_value_avahi_client_is_connected$2;
+  avahi_entry_group_add_service_subtype__1__client = group->client;
+  _Bool tmp_if_expr_3;
+  signed int return_value_avahi_client_is_connected_2;
   if(group->path == ((char *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_avahi_client_is_connected$2=avahi_client_is_connected(group->client);
-    tmp_if_expr$3 = !(return_value_avahi_client_is_connected$2 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_avahi_client_is_connected_2=avahi_client_is_connected(group->client);
+    tmp_if_expr_3 = !(return_value_avahi_client_is_connected_2 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_avahi_client_set_errno$1;
-  unsigned int return_value_dbus_message_append_args$4;
-  _Bool tmp_if_expr$6;
-  unsigned int return_value_dbus_error_is_set$5;
-  unsigned int return_value_dbus_message_get_args$7;
-  _Bool tmp_if_expr$9;
-  unsigned int return_value_dbus_error_is_set$8;
-  if(tmp_if_expr$3)
+  signed int return_value_avahi_client_set_errno_1;
+  unsigned int return_value_dbus_message_append_args_4;
+  _Bool tmp_if_expr_6;
+  unsigned int return_value_dbus_error_is_set_5;
+  unsigned int return_value_dbus_message_get_args_7;
+  _Bool tmp_if_expr_9;
+  unsigned int return_value_dbus_error_is_set_8;
+  if(tmp_if_expr_3)
   {
-    return_value_avahi_client_set_errno$1=avahi_client_set_errno(group->client, -2);
-    return return_value_avahi_client_set_errno$1;
+    return_value_avahi_client_set_errno_1=avahi_client_set_errno(group->client, -2);
+    return return_value_avahi_client_set_errno_1;
   }
 
   else
@@ -4914,44 +4914,44 @@ signed int avahi_entry_group_add_service_subtype(struct AvahiEntryGroup *group, 
     dbus_error_init(&error);
     message=dbus_message_new_method_call("org.freedesktop.Avahi", group->path, "org.freedesktop.Avahi.EntryGroup", "AddServiceSubtype");
     if(message == ((struct DBusMessage *)NULL))
-      r=avahi_client_set_errno(avahi_entry_group_add_service_subtype$$1$$client, -24);
+      r=avahi_client_set_errno(avahi_entry_group_add_service_subtype__1__client, -24);
 
     else
     {
       i_interface = (signed int)interface;
       i_protocol = (signed int)protocol;
       u_flags = (unsigned int)flags;
-      return_value_dbus_message_append_args$4=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)117, &u_flags, (signed int)115, &name, (signed int)115, &type, (signed int)115, &domain, (signed int)115, &subtype, (signed int)0);
-      if(return_value_dbus_message_append_args$4 == 0u)
+      return_value_dbus_message_append_args_4=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)117, &u_flags, (signed int)115, &name, (signed int)115, &type, (signed int)115, &domain, (signed int)115, &subtype, (signed int)0);
+      if(return_value_dbus_message_append_args_4 == 0u)
         r=avahi_client_set_errno(group->client, -24);
 
       else
       {
-        reply=dbus_connection_send_with_reply_and_block(avahi_entry_group_add_service_subtype$$1$$client->bus, message, -1, &error);
+        reply=dbus_connection_send_with_reply_and_block(avahi_entry_group_add_service_subtype__1__client->bus, message, -1, &error);
         if(reply == ((struct DBusMessage *)NULL))
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$5=dbus_error_is_set(&error);
-          tmp_if_expr$6 = return_value_dbus_error_is_set$5 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_5=dbus_error_is_set(&error);
+          tmp_if_expr_6 = return_value_dbus_error_is_set_5 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$6)
-          r=avahi_client_set_errno(avahi_entry_group_add_service_subtype$$1$$client, -22);
+        if(tmp_if_expr_6)
+          r=avahi_client_set_errno(avahi_entry_group_add_service_subtype__1__client, -22);
 
         else
         {
-          return_value_dbus_message_get_args$7=dbus_message_get_args(reply, &error, (signed int)0);
-          if(return_value_dbus_message_get_args$7 == 0u)
-            tmp_if_expr$9 = (_Bool)1;
+          return_value_dbus_message_get_args_7=dbus_message_get_args(reply, &error, (signed int)0);
+          if(return_value_dbus_message_get_args_7 == 0u)
+            tmp_if_expr_9 = (_Bool)1;
 
           else
           {
-            return_value_dbus_error_is_set$8=dbus_error_is_set(&error);
-            tmp_if_expr$9 = return_value_dbus_error_is_set$8 != 0u ? (_Bool)1 : (_Bool)0;
+            return_value_dbus_error_is_set_8=dbus_error_is_set(&error);
+            tmp_if_expr_9 = return_value_dbus_error_is_set_8 != 0u ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$9)
-            r=avahi_client_set_errno(avahi_entry_group_add_service_subtype$$1$$client, -22);
+          if(tmp_if_expr_9)
+            r=avahi_client_set_errno(avahi_entry_group_add_service_subtype__1__client, -22);
 
           else
           {
@@ -4965,11 +4965,11 @@ signed int avahi_entry_group_add_service_subtype(struct AvahiEntryGroup *group, 
 
   fail:
     ;
-    unsigned int return_value_dbus_error_is_set$10;
-    return_value_dbus_error_is_set$10=dbus_error_is_set(&error);
-    if(!(return_value_dbus_error_is_set$10 == 0u))
+    unsigned int return_value_dbus_error_is_set_10;
+    return_value_dbus_error_is_set_10=dbus_error_is_set(&error);
+    if(!(return_value_dbus_error_is_set_10 == 0u))
     {
-      r=avahi_client_set_dbus_error(avahi_entry_group_add_service_subtype$$1$$client, &error);
+      r=avahi_client_set_dbus_error(avahi_entry_group_add_service_subtype__1__client, &error);
       dbus_error_free(&error);
     }
 
@@ -4990,21 +4990,21 @@ signed int avahi_entry_group_commit(struct AvahiEntryGroup *group)
   signed int ret;
   /* assertion group */
   assert(group != ((struct AvahiEntryGroup *)NULL));
-  _Bool tmp_if_expr$3;
-  signed int return_value_avahi_client_is_connected$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_avahi_client_is_connected_2;
   if(group->path == ((char *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_avahi_client_is_connected$2=avahi_client_is_connected(group->client);
-    tmp_if_expr$3 = !(return_value_avahi_client_is_connected$2 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_avahi_client_is_connected_2=avahi_client_is_connected(group->client);
+    tmp_if_expr_3 = !(return_value_avahi_client_is_connected_2 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_avahi_client_set_errno$1;
-  if(tmp_if_expr$3)
+  signed int return_value_avahi_client_set_errno_1;
+  if(tmp_if_expr_3)
   {
-    return_value_avahi_client_set_errno$1=avahi_client_set_errno(group->client, -2);
-    return return_value_avahi_client_set_errno$1;
+    return_value_avahi_client_set_errno_1=avahi_client_set_errno(group->client, -2);
+    return return_value_avahi_client_set_errno_1;
   }
 
   else
@@ -5025,22 +5025,22 @@ signed int avahi_entry_group_commit(struct AvahiEntryGroup *group)
 // file publish.h line 60
 signed int avahi_entry_group_free(struct AvahiEntryGroup *group)
 {
-  struct AvahiClient *avahi_entry_group_free$$1$$client = group->client;
+  struct AvahiClient *avahi_entry_group_free__1__client = group->client;
   signed int r = 0;
   /* assertion group */
   assert(group != ((struct AvahiEntryGroup *)NULL));
-  signed int return_value_avahi_client_is_connected$1;
+  signed int return_value_avahi_client_is_connected_1;
   if(!(group->path == ((char *)NULL)))
   {
-    return_value_avahi_client_is_connected$1=avahi_client_is_connected(avahi_entry_group_free$$1$$client);
-    if(!(return_value_avahi_client_is_connected$1 == 0))
+    return_value_avahi_client_is_connected_1=avahi_client_is_connected(avahi_entry_group_free__1__client);
+    if(!(return_value_avahi_client_is_connected_1 == 0))
       r=entry_group_simple_method_call(group, "Free");
 
   }
 
   do
   {
-    struct AvahiEntryGroup **_head = &avahi_entry_group_free$$1$$client->groups;
+    struct AvahiEntryGroup **_head = &avahi_entry_group_free__1__client->groups;
     struct AvahiEntryGroup *_item = group;
     /* assertion _item */
     assert(_item != ((struct AvahiEntryGroup *)NULL));
@@ -5085,9 +5085,9 @@ signed int avahi_entry_group_get_state(struct AvahiEntryGroup *group)
 
   else
   {
-    signed int return_value_retrieve_state$1;
-    return_value_retrieve_state$1=retrieve_state(group);
-    return return_value_retrieve_state$1;
+    signed int return_value_retrieve_state_1;
+    return_value_retrieve_state_1=retrieve_state(group);
+    return return_value_retrieve_state_1;
   }
 }
 
@@ -5100,30 +5100,30 @@ signed int avahi_entry_group_is_empty(struct AvahiEntryGroup *group)
   struct DBusError error;
   signed int r = 0;
   signed int b;
-  struct AvahiClient *avahi_entry_group_is_empty$$1$$client;
+  struct AvahiClient *avahi_entry_group_is_empty__1__client;
   /* assertion group */
   assert(group != ((struct AvahiEntryGroup *)NULL));
-  avahi_entry_group_is_empty$$1$$client = group->client;
-  _Bool tmp_if_expr$3;
-  signed int return_value_avahi_client_is_connected$2;
+  avahi_entry_group_is_empty__1__client = group->client;
+  _Bool tmp_if_expr_3;
+  signed int return_value_avahi_client_is_connected_2;
   if(group->path == ((char *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_avahi_client_is_connected$2=avahi_client_is_connected(group->client);
-    tmp_if_expr$3 = !(return_value_avahi_client_is_connected$2 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_avahi_client_is_connected_2=avahi_client_is_connected(group->client);
+    tmp_if_expr_3 = !(return_value_avahi_client_is_connected_2 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_avahi_client_set_errno$1;
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_dbus_error_is_set$4;
-  unsigned int return_value_dbus_message_get_args$6;
-  _Bool tmp_if_expr$8;
-  unsigned int return_value_dbus_error_is_set$7;
-  if(tmp_if_expr$3)
+  signed int return_value_avahi_client_set_errno_1;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_dbus_error_is_set_4;
+  unsigned int return_value_dbus_message_get_args_6;
+  _Bool tmp_if_expr_8;
+  unsigned int return_value_dbus_error_is_set_7;
+  if(tmp_if_expr_3)
   {
-    return_value_avahi_client_set_errno$1=avahi_client_set_errno(group->client, -2);
-    return return_value_avahi_client_set_errno$1;
+    return_value_avahi_client_set_errno_1=avahi_client_set_errno(group->client, -2);
+    return return_value_avahi_client_set_errno_1;
   }
 
   else
@@ -5131,35 +5131,35 @@ signed int avahi_entry_group_is_empty(struct AvahiEntryGroup *group)
     dbus_error_init(&error);
     message=dbus_message_new_method_call("org.freedesktop.Avahi", group->path, "org.freedesktop.Avahi.EntryGroup", "IsEmpty");
     if(message == ((struct DBusMessage *)NULL))
-      r=avahi_client_set_errno(avahi_entry_group_is_empty$$1$$client, -24);
+      r=avahi_client_set_errno(avahi_entry_group_is_empty__1__client, -24);
 
     else
     {
-      reply=dbus_connection_send_with_reply_and_block(avahi_entry_group_is_empty$$1$$client->bus, message, -1, &error);
+      reply=dbus_connection_send_with_reply_and_block(avahi_entry_group_is_empty__1__client->bus, message, -1, &error);
       if(reply == ((struct DBusMessage *)NULL))
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_dbus_error_is_set$4=dbus_error_is_set(&error);
-        tmp_if_expr$5 = return_value_dbus_error_is_set$4 != 0u ? (_Bool)1 : (_Bool)0;
+        return_value_dbus_error_is_set_4=dbus_error_is_set(&error);
+        tmp_if_expr_5 = return_value_dbus_error_is_set_4 != 0u ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
-        r=avahi_client_set_errno(avahi_entry_group_is_empty$$1$$client, -22);
+      if(tmp_if_expr_5)
+        r=avahi_client_set_errno(avahi_entry_group_is_empty__1__client, -22);
 
       else
       {
-        return_value_dbus_message_get_args$6=dbus_message_get_args(reply, &error, (signed int)98, &b, (signed int)0);
-        if(return_value_dbus_message_get_args$6 == 0u)
-          tmp_if_expr$8 = (_Bool)1;
+        return_value_dbus_message_get_args_6=dbus_message_get_args(reply, &error, (signed int)98, &b, (signed int)0);
+        if(return_value_dbus_message_get_args_6 == 0u)
+          tmp_if_expr_8 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$7=dbus_error_is_set(&error);
-          tmp_if_expr$8 = return_value_dbus_error_is_set$7 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_7=dbus_error_is_set(&error);
+          tmp_if_expr_8 = return_value_dbus_error_is_set_7 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$8)
-          r=avahi_client_set_errno(avahi_entry_group_is_empty$$1$$client, -22);
+        if(tmp_if_expr_8)
+          r=avahi_client_set_errno(avahi_entry_group_is_empty__1__client, -22);
 
         else
         {
@@ -5172,11 +5172,11 @@ signed int avahi_entry_group_is_empty(struct AvahiEntryGroup *group)
 
   fail:
     ;
-    unsigned int return_value_dbus_error_is_set$9;
-    return_value_dbus_error_is_set$9=dbus_error_is_set(&error);
-    if(!(return_value_dbus_error_is_set$9 == 0u))
+    unsigned int return_value_dbus_error_is_set_9;
+    return_value_dbus_error_is_set_9=dbus_error_is_set(&error);
+    if(!(return_value_dbus_error_is_set_9 == 0u))
     {
-      r=avahi_client_set_dbus_error(avahi_entry_group_is_empty$$1$$client, &error);
+      r=avahi_client_set_dbus_error(avahi_entry_group_is_empty__1__client, &error);
       dbus_error_free(&error);
     }
 
@@ -5192,7 +5192,7 @@ signed int avahi_entry_group_is_empty(struct AvahiEntryGroup *group)
 
 // avahi_entry_group_new
 // file entrygroup.c line 101
-struct AvahiEntryGroup * avahi_entry_group_new(struct AvahiClient *client, void (*callback)(struct AvahiEntryGroup *, enum anonymous$27, void *), void *userdata)
+struct AvahiEntryGroup * avahi_entry_group_new(struct AvahiClient *client, void (*callback)(struct AvahiEntryGroup *, enum anonymous_27, void *), void *userdata)
 {
   struct AvahiEntryGroup *group = (struct AvahiEntryGroup *)(void *)0;
   struct DBusMessage *message = (struct DBusMessage *)(void *)0;
@@ -5203,21 +5203,21 @@ struct AvahiEntryGroup * avahi_entry_group_new(struct AvahiClient *client, void 
   /* assertion client */
   assert(client != ((struct AvahiClient *)NULL));
   dbus_error_init(&error);
-  signed int return_value_avahi_client_is_connected$1;
-  return_value_avahi_client_is_connected$1=avahi_client_is_connected(client);
-  void *return_value_avahi_new_internal$2;
-  _Bool tmp_if_expr$4;
-  unsigned int return_value_dbus_error_is_set$3;
-  unsigned int return_value_dbus_message_get_args$5;
-  _Bool tmp_if_expr$7;
-  unsigned int return_value_dbus_error_is_set$6;
-  if(return_value_avahi_client_is_connected$1 == 0)
+  signed int return_value_avahi_client_is_connected_1;
+  return_value_avahi_client_is_connected_1=avahi_client_is_connected(client);
+  void *return_value_avahi_new_internal_2;
+  _Bool tmp_if_expr_4;
+  unsigned int return_value_dbus_error_is_set_3;
+  unsigned int return_value_dbus_message_get_args_5;
+  _Bool tmp_if_expr_7;
+  unsigned int return_value_dbus_error_is_set_6;
+  if(return_value_avahi_client_is_connected_1 == 0)
     avahi_client_set_errno(client, -2);
 
   else
   {
-    return_value_avahi_new_internal$2=avahi_new_internal$link1((unsigned int)1, sizeof(struct AvahiEntryGroup) /*56ul*/ );
-    group = (struct AvahiEntryGroup *)return_value_avahi_new_internal$2;
+    return_value_avahi_new_internal_2=avahi_new_internal_link1((unsigned int)1, sizeof(struct AvahiEntryGroup) /*56ul*/ );
+    group = (struct AvahiEntryGroup *)return_value_avahi_new_internal_2;
     if(group == ((struct AvahiEntryGroup *)NULL))
       avahi_client_set_errno(client, -24);
 
@@ -5250,28 +5250,28 @@ struct AvahiEntryGroup * avahi_entry_group_new(struct AvahiClient *client, void 
       {
         reply=dbus_connection_send_with_reply_and_block(client->bus, message, -1, &error);
         if(reply == ((struct DBusMessage *)NULL))
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$3=dbus_error_is_set(&error);
-          tmp_if_expr$4 = return_value_dbus_error_is_set$3 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_3=dbus_error_is_set(&error);
+          tmp_if_expr_4 = return_value_dbus_error_is_set_3 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
           avahi_client_set_errno(client, -22);
 
         else
         {
-          return_value_dbus_message_get_args$5=dbus_message_get_args(reply, &error, (signed int)111, &path, (signed int)0);
-          if(return_value_dbus_message_get_args$5 == 0u)
-            tmp_if_expr$7 = (_Bool)1;
+          return_value_dbus_message_get_args_5=dbus_message_get_args(reply, &error, (signed int)111, &path, (signed int)0);
+          if(return_value_dbus_message_get_args_5 == 0u)
+            tmp_if_expr_7 = (_Bool)1;
 
           else
           {
-            return_value_dbus_error_is_set$6=dbus_error_is_set(&error);
-            tmp_if_expr$7 = return_value_dbus_error_is_set$6 != 0u ? (_Bool)1 : (_Bool)0;
+            return_value_dbus_error_is_set_6=dbus_error_is_set(&error);
+            tmp_if_expr_7 = return_value_dbus_error_is_set_6 != 0u ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$7)
+          if(tmp_if_expr_7)
             avahi_client_set_errno(client, -22);
 
           else
@@ -5288,7 +5288,7 @@ struct AvahiEntryGroup * avahi_entry_group_new(struct AvahiClient *client, void 
 
               else
               {
-                avahi_entry_group_set_state(group, (enum anonymous$27)state);
+                avahi_entry_group_set_state(group, (enum anonymous_27)state);
                 dbus_message_unref(message);
                 dbus_message_unref(reply);
                 return group;
@@ -5302,9 +5302,9 @@ struct AvahiEntryGroup * avahi_entry_group_new(struct AvahiClient *client, void 
 
 fail:
   ;
-  unsigned int return_value_dbus_error_is_set$8;
-  return_value_dbus_error_is_set$8=dbus_error_is_set(&error);
-  if(!(return_value_dbus_error_is_set$8 == 0u))
+  unsigned int return_value_dbus_error_is_set_8;
+  return_value_dbus_error_is_set_8=dbus_error_is_set(&error);
+  if(!(return_value_dbus_error_is_set_8 == 0u))
   {
     avahi_client_set_dbus_error(client, &error);
     dbus_error_free(&error);
@@ -5329,21 +5329,21 @@ signed int avahi_entry_group_reset(struct AvahiEntryGroup *group)
   signed int ret;
   /* assertion group */
   assert(group != ((struct AvahiEntryGroup *)NULL));
-  _Bool tmp_if_expr$3;
-  signed int return_value_avahi_client_is_connected$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_avahi_client_is_connected_2;
   if(group->path == ((char *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_avahi_client_is_connected$2=avahi_client_is_connected(group->client);
-    tmp_if_expr$3 = !(return_value_avahi_client_is_connected$2 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_avahi_client_is_connected_2=avahi_client_is_connected(group->client);
+    tmp_if_expr_3 = !(return_value_avahi_client_is_connected_2 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_avahi_client_set_errno$1;
-  if(tmp_if_expr$3)
+  signed int return_value_avahi_client_set_errno_1;
+  if(tmp_if_expr_3)
   {
-    return_value_avahi_client_set_errno$1=avahi_client_set_errno(group->client, -2);
-    return return_value_avahi_client_set_errno$1;
+    return_value_avahi_client_set_errno_1=avahi_client_set_errno(group->client, -2);
+    return return_value_avahi_client_set_errno_1;
   }
 
   else
@@ -5362,7 +5362,7 @@ signed int avahi_entry_group_reset(struct AvahiEntryGroup *group)
 
 // avahi_entry_group_set_state
 // file internal.h line 157
-void avahi_entry_group_set_state(struct AvahiEntryGroup *group, enum anonymous$27 state)
+void avahi_entry_group_set_state(struct AvahiEntryGroup *group, enum anonymous_27 state)
 {
   /* assertion group */
   assert(group != ((struct AvahiEntryGroup *)NULL));
@@ -5375,7 +5375,7 @@ void avahi_entry_group_set_state(struct AvahiEntryGroup *group, enum anonymous$2
 
   group->state = state;
   group->state_valid = 1;
-  if(!(group->callback == ((void (*)(struct AvahiEntryGroup *, enum anonymous$27, void *))NULL)))
+  if(!(group->callback == ((void (*)(struct AvahiEntryGroup *, enum anonymous_27, void *))NULL)))
     group->callback(group, state, group->userdata);
 
 
@@ -5406,7 +5406,7 @@ signed int avahi_entry_group_update_service_txt_strlst(struct AvahiEntryGroup *g
   struct DBusMessage *reply = (struct DBusMessage *)(void *)0;
   signed int r = 0;
   struct DBusError error;
-  struct AvahiClient *avahi_entry_group_update_service_txt_strlst$$1$$client;
+  struct AvahiClient *avahi_entry_group_update_service_txt_strlst__1__client;
   signed int i_interface;
   signed int i_protocol;
   unsigned int u_flags;
@@ -5416,30 +5416,30 @@ signed int avahi_entry_group_update_service_txt_strlst(struct AvahiEntryGroup *g
   assert(name != ((const char *)NULL));
   /* assertion type */
   assert(type != ((const char *)NULL));
-  avahi_entry_group_update_service_txt_strlst$$1$$client = group->client;
-  _Bool tmp_if_expr$3;
-  signed int return_value_avahi_client_is_connected$2;
+  avahi_entry_group_update_service_txt_strlst__1__client = group->client;
+  _Bool tmp_if_expr_3;
+  signed int return_value_avahi_client_is_connected_2;
   if(group->path == ((char *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_avahi_client_is_connected$2=avahi_client_is_connected(group->client);
-    tmp_if_expr$3 = !(return_value_avahi_client_is_connected$2 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_avahi_client_is_connected_2=avahi_client_is_connected(group->client);
+    tmp_if_expr_3 = !(return_value_avahi_client_is_connected_2 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  signed int return_value_avahi_client_set_errno$1;
-  unsigned int return_value_dbus_message_append_args$4;
-  _Bool tmp_if_expr$6;
-  signed int return_value_append_string_list$5;
-  _Bool tmp_if_expr$8;
-  unsigned int return_value_dbus_error_is_set$7;
-  unsigned int return_value_dbus_message_get_args$9;
-  _Bool tmp_if_expr$11;
-  unsigned int return_value_dbus_error_is_set$10;
-  if(tmp_if_expr$3)
+  signed int return_value_avahi_client_set_errno_1;
+  unsigned int return_value_dbus_message_append_args_4;
+  _Bool tmp_if_expr_6;
+  signed int return_value_append_string_list_5;
+  _Bool tmp_if_expr_8;
+  unsigned int return_value_dbus_error_is_set_7;
+  unsigned int return_value_dbus_message_get_args_9;
+  _Bool tmp_if_expr_11;
+  unsigned int return_value_dbus_error_is_set_10;
+  if(tmp_if_expr_3)
   {
-    return_value_avahi_client_set_errno$1=avahi_client_set_errno(group->client, -2);
-    return return_value_avahi_client_set_errno$1;
+    return_value_avahi_client_set_errno_1=avahi_client_set_errno(group->client, -2);
+    return return_value_avahi_client_set_errno_1;
   }
 
   else
@@ -5450,52 +5450,52 @@ signed int avahi_entry_group_update_service_txt_strlst(struct AvahiEntryGroup *g
     dbus_error_init(&error);
     message=dbus_message_new_method_call("org.freedesktop.Avahi", group->path, "org.freedesktop.Avahi.EntryGroup", "UpdateServiceTxt");
     if(message == ((struct DBusMessage *)NULL))
-      r=avahi_client_set_errno(avahi_entry_group_update_service_txt_strlst$$1$$client, -24);
+      r=avahi_client_set_errno(avahi_entry_group_update_service_txt_strlst__1__client, -24);
 
     else
     {
       i_interface = (signed int)interface;
       i_protocol = (signed int)protocol;
       u_flags = (unsigned int)flags;
-      return_value_dbus_message_append_args$4=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)117, &u_flags, (signed int)115, &name, (signed int)115, &type, (signed int)115, &domain, (signed int)0);
-      if(return_value_dbus_message_append_args$4 == 0u)
-        tmp_if_expr$6 = (_Bool)1;
+      return_value_dbus_message_append_args_4=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)117, &u_flags, (signed int)115, &name, (signed int)115, &type, (signed int)115, &domain, (signed int)0);
+      if(return_value_dbus_message_append_args_4 == 0u)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
       {
-        return_value_append_string_list$5=append_string_list(message, txt);
-        tmp_if_expr$6 = return_value_append_string_list$5 < 0 ? (_Bool)1 : (_Bool)0;
+        return_value_append_string_list_5=append_string_list(message, txt);
+        tmp_if_expr_6 = return_value_append_string_list_5 < 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$6)
+      if(tmp_if_expr_6)
         r=avahi_client_set_errno(group->client, -24);
 
       else
       {
-        reply=dbus_connection_send_with_reply_and_block(avahi_entry_group_update_service_txt_strlst$$1$$client->bus, message, -1, &error);
+        reply=dbus_connection_send_with_reply_and_block(avahi_entry_group_update_service_txt_strlst__1__client->bus, message, -1, &error);
         if(reply == ((struct DBusMessage *)NULL))
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$7=dbus_error_is_set(&error);
-          tmp_if_expr$8 = return_value_dbus_error_is_set$7 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_7=dbus_error_is_set(&error);
+          tmp_if_expr_8 = return_value_dbus_error_is_set_7 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$8)
-          r=avahi_client_set_errno(avahi_entry_group_update_service_txt_strlst$$1$$client, -22);
+        if(tmp_if_expr_8)
+          r=avahi_client_set_errno(avahi_entry_group_update_service_txt_strlst__1__client, -22);
 
         else
         {
-          return_value_dbus_message_get_args$9=dbus_message_get_args(reply, &error, (signed int)0);
-          if(return_value_dbus_message_get_args$9 == 0u)
-            tmp_if_expr$11 = (_Bool)1;
+          return_value_dbus_message_get_args_9=dbus_message_get_args(reply, &error, (signed int)0);
+          if(return_value_dbus_message_get_args_9 == 0u)
+            tmp_if_expr_11 = (_Bool)1;
 
           else
           {
-            return_value_dbus_error_is_set$10=dbus_error_is_set(&error);
-            tmp_if_expr$11 = return_value_dbus_error_is_set$10 != 0u ? (_Bool)1 : (_Bool)0;
+            return_value_dbus_error_is_set_10=dbus_error_is_set(&error);
+            tmp_if_expr_11 = return_value_dbus_error_is_set_10 != 0u ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$11)
-            r=avahi_client_set_errno(avahi_entry_group_update_service_txt_strlst$$1$$client, -22);
+          if(tmp_if_expr_11)
+            r=avahi_client_set_errno(avahi_entry_group_update_service_txt_strlst__1__client, -22);
 
           else
           {
@@ -5509,11 +5509,11 @@ signed int avahi_entry_group_update_service_txt_strlst(struct AvahiEntryGroup *g
 
   fail:
     ;
-    unsigned int return_value_dbus_error_is_set$12;
-    return_value_dbus_error_is_set$12=dbus_error_is_set(&error);
-    if(!(return_value_dbus_error_is_set$12 == 0u))
+    unsigned int return_value_dbus_error_is_set_12;
+    return_value_dbus_error_is_set_12=dbus_error_is_set(&error);
+    if(!(return_value_dbus_error_is_set_12 == 0u))
     {
-      r=avahi_client_set_dbus_error(avahi_entry_group_update_service_txt_strlst$$1$$client, &error);
+      r=avahi_client_set_dbus_error(avahi_entry_group_update_service_txt_strlst__1__client, &error);
       dbus_error_free(&error);
     }
 
@@ -5536,20 +5536,20 @@ signed int avahi_error_dbus_to_number(const char *s)
   /* assertion s */
   assert(s != ((const char *)NULL));
   e = -1;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; e >= -53; e = e - 1)
   {
-    return_value_strcmp$1=strcmp(s, table[(signed long int)-e]);
-    if(return_value_strcmp$1 == 0)
+    return_value_strcmp_1=strcmp(s, table[(signed long int)-e]);
+    if(return_value_strcmp_1 == 0)
       return e;
 
   }
   m = error_map;
-  signed int return_value_strcmp$2;
+  signed int return_value_strcmp_2;
   for( ; !(m->dbus_error == ((const char *)NULL)); m = m + 1l)
   {
-    return_value_strcmp$2=strcmp(m->dbus_error, s);
-    if(return_value_strcmp$2 == 0)
+    return_value_strcmp_2=strcmp(m->dbus_error, s);
+    if(return_value_strcmp_2 == 0)
       return m->avahi_error;
 
   }
@@ -5583,93 +5583,93 @@ char * avahi_escape_label(const char *src, unsigned long int src_length, char **
   /* assertion *ret_size > 0 */
   assert(*ret_size > (unsigned long int)0);
   r = *ret_name;
-  _Bool tmp_if_expr$15;
-  char *tmp_post$1;
-  char *tmp_post$2;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$13;
-  char *tmp_post$3;
-  char *tmp_post$4;
-  char *tmp_post$5;
-  char *tmp_post$6;
-  char *tmp_post$7;
+  _Bool tmp_if_expr_15;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_13;
+  char *tmp_post_3;
+  char *tmp_post_4;
+  char *tmp_post_5;
+  char *tmp_post_6;
+  char *tmp_post_7;
   for( ; src_length >= 1ul; src = src + 1l)
   {
     if((signed int)*src == 46)
-      tmp_if_expr$15 = (_Bool)1;
+      tmp_if_expr_15 = (_Bool)1;
 
     else
-      tmp_if_expr$15 = (signed int)*src == 92 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$15)
+      tmp_if_expr_15 = (signed int)*src == 92 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_15)
     {
       if(!(*ret_size >= 3ul))
         return (char *)(void *)0;
 
-      tmp_post$1 = *ret_name;
+      tmp_post_1 = *ret_name;
       *ret_name = *ret_name + 1l;
-      *tmp_post$1 = (char)92;
-      tmp_post$2 = *ret_name;
+      *tmp_post_1 = (char)92;
+      tmp_post_2 = *ret_name;
       *ret_name = *ret_name + 1l;
-      *tmp_post$2 = *src;
+      *tmp_post_2 = *src;
       *ret_size = *ret_size - (unsigned long int)2;
     }
 
     else
     {
       if((signed int)*src == 95)
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_8 = (_Bool)1;
 
       else
-        tmp_if_expr$8 = (signed int)*src == 45 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$8)
-        tmp_if_expr$10 = (_Bool)1;
+        tmp_if_expr_8 = (signed int)*src == 45 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_8)
+        tmp_if_expr_10 = (_Bool)1;
 
       else
       {
         if((signed int)*src >= 48)
-          tmp_if_expr$9 = (signed int)*src <= 57 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_9 = (signed int)*src <= 57 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        tmp_if_expr$10 = tmp_if_expr$9 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_9 = (_Bool)0;
+        tmp_if_expr_10 = tmp_if_expr_9 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$10)
-        tmp_if_expr$12 = (_Bool)1;
+      if(tmp_if_expr_10)
+        tmp_if_expr_12 = (_Bool)1;
 
       else
       {
         if((signed int)*src >= 97)
-          tmp_if_expr$11 = (signed int)*src <= 122 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_11 = (signed int)*src <= 122 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$11 = (_Bool)0;
-        tmp_if_expr$12 = tmp_if_expr$11 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_11 = (_Bool)0;
+        tmp_if_expr_12 = tmp_if_expr_11 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$12)
-        tmp_if_expr$14 = (_Bool)1;
+      if(tmp_if_expr_12)
+        tmp_if_expr_14 = (_Bool)1;
 
       else
       {
         if((signed int)*src >= 65)
-          tmp_if_expr$13 = (signed int)*src <= 90 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_13 = (signed int)*src <= 90 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$13 = (_Bool)0;
-        tmp_if_expr$14 = tmp_if_expr$13 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_13 = (_Bool)0;
+        tmp_if_expr_14 = tmp_if_expr_13 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$14)
+      if(tmp_if_expr_14)
       {
         if(!(*ret_size >= 2ul))
           return (char *)(void *)0;
 
-        tmp_post$3 = *ret_name;
+        tmp_post_3 = *ret_name;
         *ret_name = *ret_name + 1l;
-        *tmp_post$3 = *src;
+        *tmp_post_3 = *src;
         *ret_size = *ret_size - 1ul;
       }
 
@@ -5678,18 +5678,18 @@ char * avahi_escape_label(const char *src, unsigned long int src_length, char **
         if(!(*ret_size >= 5ul))
           return (char *)(void *)0;
 
-        tmp_post$4 = *ret_name;
+        tmp_post_4 = *ret_name;
         *ret_name = *ret_name + 1l;
-        *tmp_post$4 = (char)92;
-        tmp_post$5 = *ret_name;
+        *tmp_post_4 = (char)92;
+        tmp_post_5 = *ret_name;
         *ret_name = *ret_name + 1l;
-        *tmp_post$5 = (char)(48 + (signed int)(char)((signed int)(unsigned char)*src / 100));
-        tmp_post$6 = *ret_name;
+        *tmp_post_5 = (char)(48 + (signed int)(char)((signed int)(unsigned char)*src / 100));
+        tmp_post_6 = *ret_name;
         *ret_name = *ret_name + 1l;
-        *tmp_post$6 = (char)(48 + (signed int)(char)(((signed int)(unsigned char)*src / 10) % 10));
-        tmp_post$7 = *ret_name;
+        *tmp_post_6 = (char)(48 + (signed int)(char)(((signed int)(unsigned char)*src / 10) % 10));
+        tmp_post_7 = *ret_name;
         *ret_name = *ret_name + 1l;
-        *tmp_post$7 = (char)(48 + (signed int)(char)((signed int)(unsigned char)*src % 10));
+        *tmp_post_7 = (char)(48 + (signed int)(char)((signed int)(unsigned char)*src % 10));
         *ret_size = *ret_size - (unsigned long int)4;
       }
     }
@@ -5726,37 +5726,37 @@ const char * avahi_get_type_from_subtype(const char *t)
   const char *ret;
   /* assertion t */
   assert(t != ((const char *)NULL));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(t);
-  _Bool tmp_if_expr$2;
-  if(return_value_strlen$1 >= 1014ul)
-    tmp_if_expr$2 = (_Bool)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(t);
+  _Bool tmp_if_expr_2;
+  if(return_value_strlen_1 >= 1014ul)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(*t != 0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$10;
-  signed int return_value_strcasecmp$12;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = !(*t != 0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_10;
+  signed int return_value_strcasecmp_12;
+  if(tmp_if_expr_2)
     return (const char *)(void *)0;
 
   else
   {
-    char *return_value_avahi_unescape_label$3;
-    return_value_avahi_unescape_label$3=avahi_unescape_label(&t, label, sizeof(char [64l]) /*64ul*/ );
-    if(return_value_avahi_unescape_label$3 == ((char *)NULL))
+    char *return_value_avahi_unescape_label_3;
+    return_value_avahi_unescape_label_3=avahi_unescape_label(&t, label, sizeof(char [64l]) /*64ul*/ );
+    if(return_value_avahi_unescape_label_3 == ((char *)NULL))
       return (const char *)(void *)0;
 
     else
     {
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(label);
-      if(!(return_value_strlen$4 >= 3ul))
-        tmp_if_expr$5 = (_Bool)1;
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(label);
+      if(!(return_value_strlen_4 >= 3ul))
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (signed int)label[(signed long int)0] != 95 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (signed int)label[(signed long int)0] != 95 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
         return (const char *)(void *)0;
 
       else
@@ -5765,16 +5765,16 @@ const char * avahi_get_type_from_subtype(const char *t)
 
         else
         {
-          char *return_value_avahi_unescape_label$6;
-          return_value_avahi_unescape_label$6=avahi_unescape_label(&t, label, sizeof(char [64l]) /*64ul*/ );
-          if(return_value_avahi_unescape_label$6 == ((char *)NULL))
+          char *return_value_avahi_unescape_label_6;
+          return_value_avahi_unescape_label_6=avahi_unescape_label(&t, label, sizeof(char [64l]) /*64ul*/ );
+          if(return_value_avahi_unescape_label_6 == ((char *)NULL))
             return (const char *)(void *)0;
 
           else
           {
-            signed int return_value_strcasecmp$7;
-            return_value_strcasecmp$7=strcasecmp(label, "_sub");
-            if(!(return_value_strcasecmp$7 == 0))
+            signed int return_value_strcasecmp_7;
+            return_value_strcasecmp_7=strcasecmp(label, "_sub");
+            if(!(return_value_strcasecmp_7 == 0))
               return (const char *)(void *)0;
 
             else
@@ -5784,21 +5784,21 @@ const char * avahi_get_type_from_subtype(const char *t)
               else
               {
                 ret = t;
-                char *return_value_avahi_unescape_label$8;
-                return_value_avahi_unescape_label$8=avahi_unescape_label(&t, label, sizeof(char [64l]) /*64ul*/ );
-                if(return_value_avahi_unescape_label$8 == ((char *)NULL))
+                char *return_value_avahi_unescape_label_8;
+                return_value_avahi_unescape_label_8=avahi_unescape_label(&t, label, sizeof(char [64l]) /*64ul*/ );
+                if(return_value_avahi_unescape_label_8 == ((char *)NULL))
                   return (const char *)(void *)0;
 
                 else
                 {
-                  unsigned long int return_value_strlen$9;
-                  return_value_strlen$9=strlen(label);
-                  if(!(return_value_strlen$9 >= 3ul))
-                    tmp_if_expr$10 = (_Bool)1;
+                  unsigned long int return_value_strlen_9;
+                  return_value_strlen_9=strlen(label);
+                  if(!(return_value_strlen_9 >= 3ul))
+                    tmp_if_expr_10 = (_Bool)1;
 
                   else
-                    tmp_if_expr$10 = (signed int)label[(signed long int)0] != 95 ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$10)
+                    tmp_if_expr_10 = (signed int)label[(signed long int)0] != 95 ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_10)
                     return (const char *)(void *)0;
 
                   else
@@ -5807,19 +5807,19 @@ const char * avahi_get_type_from_subtype(const char *t)
 
                     else
                     {
-                      char *return_value_avahi_unescape_label$11;
-                      return_value_avahi_unescape_label$11=avahi_unescape_label(&t, label, sizeof(char [64l]) /*64ul*/ );
-                      if(return_value_avahi_unescape_label$11 == ((char *)NULL))
+                      char *return_value_avahi_unescape_label_11;
+                      return_value_avahi_unescape_label_11=avahi_unescape_label(&t, label, sizeof(char [64l]) /*64ul*/ );
+                      if(return_value_avahi_unescape_label_11 == ((char *)NULL))
                         return (const char *)(void *)0;
 
                       else
                       {
-                        signed int return_value_strcasecmp$13;
-                        return_value_strcasecmp$13=strcasecmp(label, "_tcp");
-                        if(!(return_value_strcasecmp$13 == 0))
+                        signed int return_value_strcasecmp_13;
+                        return_value_strcasecmp_13=strcasecmp(label, "_tcp");
+                        if(!(return_value_strcasecmp_13 == 0))
                         {
-                          return_value_strcasecmp$12=strcasecmp(label, "_udp");
-                          if(return_value_strcasecmp$12 == 0)
+                          return_value_strcasecmp_12=strcasecmp(label, "_udp");
+                          if(return_value_strcasecmp_12 == 0)
                             goto __CPROVER_DUMP_L18;
 
                           return (const char *)(void *)0;
@@ -5848,7 +5848,7 @@ const char * avahi_get_type_from_subtype(const char *t)
 
 // avahi_host_name_resolver_event
 // file internal.h line 165
-enum anonymous$28 avahi_host_name_resolver_event(struct AvahiClient *client, enum anonymous$6 event, struct DBusMessage *message)
+enum anonymous_28 avahi_host_name_resolver_event(struct AvahiClient *client, enum anonymous_6 event, struct DBusMessage *message)
 {
   struct AvahiHostNameResolver *r = (struct AvahiHostNameResolver *)(void *)0;
   struct DBusError error;
@@ -5859,7 +5859,7 @@ enum anonymous$28 avahi_host_name_resolver_event(struct AvahiClient *client, enu
   assert(message != ((struct DBusMessage *)NULL));
   dbus_error_init(&error);
   path=dbus_message_get_path(message);
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   signed int interface;
   signed int protocol;
   signed int aprotocol;
@@ -5867,22 +5867,22 @@ enum anonymous$28 avahi_host_name_resolver_event(struct AvahiClient *client, enu
   char *name;
   char *address;
   struct AvahiAddress a;
-  unsigned int return_value_dbus_message_get_args$2;
-  _Bool tmp_if_expr$4;
-  unsigned int return_value_dbus_error_is_set$3;
-  struct AvahiAddress *return_value_avahi_address_parse$5;
+  unsigned int return_value_dbus_message_get_args_2;
+  _Bool tmp_if_expr_4;
+  unsigned int return_value_dbus_error_is_set_3;
+  struct AvahiAddress *return_value_avahi_address_parse_5;
   char *etxt;
-  unsigned int return_value_dbus_message_get_args$6;
-  _Bool tmp_if_expr$8;
-  unsigned int return_value_dbus_error_is_set$7;
-  signed int return_value_avahi_error_dbus_to_number$9;
+  unsigned int return_value_dbus_message_get_args_6;
+  _Bool tmp_if_expr_8;
+  unsigned int return_value_dbus_error_is_set_7;
+  signed int return_value_avahi_error_dbus_to_number_9;
   if(!(path == ((const char *)NULL)))
   {
     r = client->host_name_resolvers;
     for( ; !(r == ((struct AvahiHostNameResolver *)NULL)); r = r->host_name_resolvers_next)
     {
-      return_value_strcmp$1=strcmp(r->path, path);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(r->path, path);
+      if(return_value_strcmp_1 == 0)
         break;
 
     }
@@ -5893,16 +5893,16 @@ enum anonymous$28 avahi_host_name_resolver_event(struct AvahiClient *client, enu
     {
       case AVAHI_RESOLVER_FOUND:
       {
-        return_value_dbus_message_get_args$2=dbus_message_get_args(message, &error, (signed int)105, &interface, (signed int)105, &protocol, (signed int)115, &name, (signed int)105, &aprotocol, (signed int)115, &address, (signed int)117, &flags, (signed int)0);
-        if(return_value_dbus_message_get_args$2 == 0u)
-          tmp_if_expr$4 = (_Bool)1;
+        return_value_dbus_message_get_args_2=dbus_message_get_args(message, &error, (signed int)105, &interface, (signed int)105, &protocol, (signed int)115, &name, (signed int)105, &aprotocol, (signed int)115, &address, (signed int)117, &flags, (signed int)0);
+        if(return_value_dbus_message_get_args_2 == 0u)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$3=dbus_error_is_set(&error);
-          tmp_if_expr$4 = return_value_dbus_error_is_set$3 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_3=dbus_error_is_set(&error);
+          tmp_if_expr_4 = return_value_dbus_error_is_set_3 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
         {
           fprintf(stderr, "Failed to parse resolver event.\n");
           goto fail;
@@ -5910,38 +5910,38 @@ enum anonymous$28 avahi_host_name_resolver_event(struct AvahiClient *client, enu
 
         /* assertion address */
         assert(address != ((char *)NULL));
-        return_value_avahi_address_parse$5=avahi_address_parse(address, (signed int)aprotocol, &a);
-        if(return_value_avahi_address_parse$5 == ((struct AvahiAddress *)NULL))
+        return_value_avahi_address_parse_5=avahi_address_parse(address, (signed int)aprotocol, &a);
+        if(return_value_avahi_address_parse_5 == ((struct AvahiAddress *)NULL))
         {
           fprintf(stderr, "Failed to parse address\n");
           goto fail;
         }
 
-        r->callback(r, (signed int)interface, (signed int)protocol, (enum anonymous$6)AVAHI_RESOLVER_FOUND, name, &a, (enum anonymous$3)flags, r->userdata);
+        r->callback(r, (signed int)interface, (signed int)protocol, (enum anonymous_6)AVAHI_RESOLVER_FOUND, name, &a, (enum anonymous_3)flags, r->userdata);
       }
       case AVAHI_RESOLVER_FAILURE:
       {
-        return_value_dbus_message_get_args$6=dbus_message_get_args(message, &error, (signed int)115, &etxt, (signed int)0);
-        if(return_value_dbus_message_get_args$6 == 0u)
-          tmp_if_expr$8 = (_Bool)1;
+        return_value_dbus_message_get_args_6=dbus_message_get_args(message, &error, (signed int)115, &etxt, (signed int)0);
+        if(return_value_dbus_message_get_args_6 == 0u)
+          tmp_if_expr_8 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$7=dbus_error_is_set(&error);
-          tmp_if_expr$8 = return_value_dbus_error_is_set$7 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_7=dbus_error_is_set(&error);
+          tmp_if_expr_8 = return_value_dbus_error_is_set_7 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$8)
+        if(tmp_if_expr_8)
         {
           fprintf(stderr, "Failed to parse resolver event.\n");
           goto fail;
         }
 
-        return_value_avahi_error_dbus_to_number$9=avahi_error_dbus_to_number(etxt);
-        avahi_client_set_errno(r->client, return_value_avahi_error_dbus_to_number$9);
-        r->callback(r, r->interface, r->protocol, event, r->host_name, (const struct AvahiAddress *)(void *)0, (enum anonymous$3)0, r->userdata);
+        return_value_avahi_error_dbus_to_number_9=avahi_error_dbus_to_number(etxt);
+        avahi_client_set_errno(r->client, return_value_avahi_error_dbus_to_number_9);
+        r->callback(r, r->interface, r->protocol, event, r->host_name, (const struct AvahiAddress *)(void *)0, (enum anonymous_3)0, r->userdata);
       }
     }
-    return (enum anonymous$28)DBUS_HANDLER_RESULT_HANDLED;
+    return (enum anonymous_28)DBUS_HANDLER_RESULT_HANDLED;
   }
 
   else
@@ -5950,7 +5950,7 @@ enum anonymous$28 avahi_host_name_resolver_event(struct AvahiClient *client, enu
   fail:
     ;
     dbus_error_free(&error);
-    return (enum anonymous$28)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
+    return (enum anonymous_28)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
   }
 }
 
@@ -5959,22 +5959,22 @@ enum anonymous$28 avahi_host_name_resolver_event(struct AvahiClient *client, enu
 signed int avahi_host_name_resolver_free(struct AvahiHostNameResolver *r)
 {
   signed int ret = 0;
-  struct AvahiClient *avahi_host_name_resolver_free$$1$$client;
+  struct AvahiClient *avahi_host_name_resolver_free__1__client;
   /* assertion r */
   assert(r != ((struct AvahiHostNameResolver *)NULL));
-  avahi_host_name_resolver_free$$1$$client = r->client;
-  signed int return_value_avahi_client_is_connected$1;
+  avahi_host_name_resolver_free__1__client = r->client;
+  signed int return_value_avahi_client_is_connected_1;
   if(!(r->path == ((char *)NULL)))
   {
-    return_value_avahi_client_is_connected$1=avahi_client_is_connected(avahi_host_name_resolver_free$$1$$client);
-    if(!(return_value_avahi_client_is_connected$1 == 0))
-      ret=avahi_client_simple_method_call(avahi_host_name_resolver_free$$1$$client, r->path, "org.freedesktop.Avahi.HostNameResolver", "Free");
+    return_value_avahi_client_is_connected_1=avahi_client_is_connected(avahi_host_name_resolver_free__1__client);
+    if(!(return_value_avahi_client_is_connected_1 == 0))
+      ret=avahi_client_simple_method_call(avahi_host_name_resolver_free__1__client, r->path, "org.freedesktop.Avahi.HostNameResolver", "Free");
 
   }
 
   do
   {
-    struct AvahiHostNameResolver **_head = &avahi_host_name_resolver_free$$1$$client->host_name_resolvers;
+    struct AvahiHostNameResolver **_head = &avahi_host_name_resolver_free__1__client->host_name_resolvers;
     struct AvahiHostNameResolver *_item = r;
     /* assertion _item */
     assert(_item != ((struct AvahiHostNameResolver *)NULL));
@@ -6011,7 +6011,7 @@ struct AvahiClient * avahi_host_name_resolver_get_client(struct AvahiHostNameRes
 
 // avahi_host_name_resolver_new
 // file resolver.c line 424
-struct AvahiHostNameResolver * avahi_host_name_resolver_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *name, signed int aprotocol, enum anonymous$1 flags, void (*callback)(struct AvahiHostNameResolver *, signed int, signed int, enum anonymous$6, const char *, const struct AvahiAddress *, enum anonymous$3, void *), void *userdata)
+struct AvahiHostNameResolver * avahi_host_name_resolver_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *name, signed int aprotocol, enum anonymous_1 flags, void (*callback)(struct AvahiHostNameResolver *, signed int, signed int, enum anonymous_6, const char *, const struct AvahiAddress *, enum anonymous_3, void *), void *userdata)
 {
   struct DBusError error;
   struct AvahiHostNameResolver *r = (struct AvahiHostNameResolver *)(void *)0;
@@ -6027,22 +6027,22 @@ struct AvahiHostNameResolver * avahi_host_name_resolver_new(struct AvahiClient *
   /* assertion name */
   assert(name != ((const char *)NULL));
   dbus_error_init(&error);
-  signed int return_value_avahi_client_is_connected$1;
-  return_value_avahi_client_is_connected$1=avahi_client_is_connected(client);
-  void *return_value_avahi_new_internal$2;
-  unsigned int return_value_dbus_message_append_args$3;
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_dbus_error_is_set$4;
-  unsigned int return_value_dbus_message_get_args$6;
-  _Bool tmp_if_expr$8;
-  unsigned int return_value_dbus_error_is_set$7;
-  if(return_value_avahi_client_is_connected$1 == 0)
+  signed int return_value_avahi_client_is_connected_1;
+  return_value_avahi_client_is_connected_1=avahi_client_is_connected(client);
+  void *return_value_avahi_new_internal_2;
+  unsigned int return_value_dbus_message_append_args_3;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_dbus_error_is_set_4;
+  unsigned int return_value_dbus_message_get_args_6;
+  _Bool tmp_if_expr_8;
+  unsigned int return_value_dbus_error_is_set_7;
+  if(return_value_avahi_client_is_connected_1 == 0)
     avahi_client_set_errno(client, -2);
 
   else
   {
-    return_value_avahi_new_internal$2=avahi_new_internal$link3((unsigned int)1, sizeof(struct AvahiHostNameResolver) /*64ul*/ );
-    r = (struct AvahiHostNameResolver *)return_value_avahi_new_internal$2;
+    return_value_avahi_new_internal_2=avahi_new_internal_link3((unsigned int)1, sizeof(struct AvahiHostNameResolver) /*64ul*/ );
+    r = (struct AvahiHostNameResolver *)return_value_avahi_new_internal_2;
     if(r == ((struct AvahiHostNameResolver *)NULL))
       avahi_client_set_errno(client, -24);
 
@@ -6085,36 +6085,36 @@ struct AvahiHostNameResolver * avahi_host_name_resolver_new(struct AvahiClient *
           i_protocol = (signed int)protocol;
           i_aprotocol = (signed int)aprotocol;
           u_flags = (unsigned int)flags;
-          return_value_dbus_message_append_args$3=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)115, &name, (signed int)105, &i_aprotocol, (signed int)117, &u_flags, (signed int)0);
-          if(return_value_dbus_message_append_args$3 == 0u)
+          return_value_dbus_message_append_args_3=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)115, &name, (signed int)105, &i_aprotocol, (signed int)117, &u_flags, (signed int)0);
+          if(return_value_dbus_message_append_args_3 == 0u)
             avahi_client_set_errno(client, -24);
 
           else
           {
             reply=dbus_connection_send_with_reply_and_block(client->bus, message, -1, &error);
             if(reply == ((struct DBusMessage *)NULL))
-              tmp_if_expr$5 = (_Bool)1;
+              tmp_if_expr_5 = (_Bool)1;
 
             else
             {
-              return_value_dbus_error_is_set$4=dbus_error_is_set(&error);
-              tmp_if_expr$5 = return_value_dbus_error_is_set$4 != 0u ? (_Bool)1 : (_Bool)0;
+              return_value_dbus_error_is_set_4=dbus_error_is_set(&error);
+              tmp_if_expr_5 = return_value_dbus_error_is_set_4 != 0u ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$5)
+            if(tmp_if_expr_5)
               avahi_client_set_errno(client, -22);
 
             else
             {
-              return_value_dbus_message_get_args$6=dbus_message_get_args(reply, &error, (signed int)111, &path, (signed int)0);
-              if(return_value_dbus_message_get_args$6 == 0u)
-                tmp_if_expr$8 = (_Bool)1;
+              return_value_dbus_message_get_args_6=dbus_message_get_args(reply, &error, (signed int)111, &path, (signed int)0);
+              if(return_value_dbus_message_get_args_6 == 0u)
+                tmp_if_expr_8 = (_Bool)1;
 
               else
               {
-                return_value_dbus_error_is_set$7=dbus_error_is_set(&error);
-                tmp_if_expr$8 = return_value_dbus_error_is_set$7 != 0u ? (_Bool)1 : (_Bool)0;
+                return_value_dbus_error_is_set_7=dbus_error_is_set(&error);
+                tmp_if_expr_8 = return_value_dbus_error_is_set_7 != 0u ? (_Bool)1 : (_Bool)0;
               }
-              if(path == ((char *)NULL) || tmp_if_expr$8)
+              if(path == ((char *)NULL) || tmp_if_expr_8)
                 avahi_client_set_errno(client, -22);
 
               else
@@ -6139,9 +6139,9 @@ struct AvahiHostNameResolver * avahi_host_name_resolver_new(struct AvahiClient *
 
 fail:
   ;
-  unsigned int return_value_dbus_error_is_set$9;
-  return_value_dbus_error_is_set$9=dbus_error_is_set(&error);
-  if(!(return_value_dbus_error_is_set$9 == 0u))
+  unsigned int return_value_dbus_error_is_set_9;
+  return_value_dbus_error_is_set_9=dbus_error_is_set(&error);
+  if(!(return_value_dbus_error_is_set_9 == 0u))
   {
     avahi_client_set_dbus_error(client, &error);
     dbus_error_free(&error);
@@ -6180,9 +6180,9 @@ signed int avahi_is_valid_domain_name(const char *t)
   signed int is_first = 1;
   /* assertion t */
   assert(t != ((const char *)NULL));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(t);
-  if(return_value_strlen$1 >= 1014ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(t);
+  if(return_value_strlen_1 >= 1014ul)
     return 0;
 
   else
@@ -6190,9 +6190,9 @@ signed int avahi_is_valid_domain_name(const char *t)
     do
     {
       char label[64l];
-      char *return_value_avahi_unescape_label$2;
-      return_value_avahi_unescape_label$2=avahi_unescape_label(&t, label, sizeof(char [64l]) /*64ul*/ );
-      if(return_value_avahi_unescape_label$2 == ((char *)NULL))
+      char *return_value_avahi_unescape_label_2;
+      return_value_avahi_unescape_label_2=avahi_unescape_label(&t, label, sizeof(char [64l]) /*64ul*/ );
+      if(return_value_avahi_unescape_label_2 == ((char *)NULL))
         return 0;
 
       if(!(is_first == 0))
@@ -6226,23 +6226,23 @@ signed int avahi_is_valid_fqdn(const char *t)
   struct AvahiAddress a;
   /* assertion t */
   assert(t != ((const char *)NULL));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(t);
-  if(return_value_strlen$1 >= 1014ul)
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(t);
+  if(return_value_strlen_1 >= 1014ul)
     return 0;
 
   else
   {
-    signed int return_value_avahi_is_valid_domain_name$2;
-    return_value_avahi_is_valid_domain_name$2=avahi_is_valid_domain_name(t);
-    if(return_value_avahi_is_valid_domain_name$2 == 0)
+    signed int return_value_avahi_is_valid_domain_name_2;
+    return_value_avahi_is_valid_domain_name_2=avahi_is_valid_domain_name(t);
+    if(return_value_avahi_is_valid_domain_name_2 == 0)
       return 0;
 
     else
     {
-      char *return_value_avahi_unescape_label$3;
-      return_value_avahi_unescape_label$3=avahi_unescape_label(&k, label, sizeof(char [64l]) /*64ul*/ );
-      if(return_value_avahi_unescape_label$3 == ((char *)NULL))
+      char *return_value_avahi_unescape_label_3;
+      return_value_avahi_unescape_label_3=avahi_unescape_label(&k, label, sizeof(char [64l]) /*64ul*/ );
+      if(return_value_avahi_unescape_label_3 == ((char *)NULL))
         return 0;
 
       else
@@ -6251,9 +6251,9 @@ signed int avahi_is_valid_fqdn(const char *t)
 
         else
         {
-          char *return_value_avahi_unescape_label$4;
-          return_value_avahi_unescape_label$4=avahi_unescape_label(&k, label, sizeof(char [64l]) /*64ul*/ );
-          if(return_value_avahi_unescape_label$4 == ((char *)NULL))
+          char *return_value_avahi_unescape_label_4;
+          return_value_avahi_unescape_label_4=avahi_unescape_label(&k, label, sizeof(char [64l]) /*64ul*/ );
+          if(return_value_avahi_unescape_label_4 == ((char *)NULL))
             return 0;
 
           else
@@ -6262,16 +6262,16 @@ signed int avahi_is_valid_fqdn(const char *t)
 
             else
             {
-              char *return_value_avahi_normalize_name$5;
-              return_value_avahi_normalize_name$5=avahi_normalize_name(t, normalized, sizeof(char [1014l]) /*1014ul*/ );
-              if(return_value_avahi_normalize_name$5 == ((char *)NULL))
+              char *return_value_avahi_normalize_name_5;
+              return_value_avahi_normalize_name_5=avahi_normalize_name(t, normalized, sizeof(char [1014l]) /*1014ul*/ );
+              if(return_value_avahi_normalize_name_5 == ((char *)NULL))
                 return 0;
 
               else
               {
-                struct AvahiAddress *return_value_avahi_address_parse$6;
-                return_value_avahi_address_parse$6=avahi_address_parse(normalized, -1, &a);
-                if(!(return_value_avahi_address_parse$6 == ((struct AvahiAddress *)NULL)))
+                struct AvahiAddress *return_value_avahi_address_parse_6;
+                return_value_avahi_address_parse_6=avahi_address_parse(normalized, -1, &a);
+                if(!(return_value_avahi_address_parse_6 == ((struct AvahiAddress *)NULL)))
                   return 0;
 
                 else
@@ -6290,29 +6290,29 @@ signed int avahi_is_valid_host_name(const char *t)
   char label[64l];
   /* assertion t */
   assert(t != ((const char *)NULL));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(t);
-  _Bool tmp_if_expr$2;
-  if(return_value_strlen$1 >= 1014ul)
-    tmp_if_expr$2 = (_Bool)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(t);
+  _Bool tmp_if_expr_2;
+  if(return_value_strlen_1 >= 1014ul)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(*t != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = !(*t != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return 0;
 
   else
   {
-    char *return_value_avahi_unescape_label$3;
-    return_value_avahi_unescape_label$3=avahi_unescape_label(&t, label, sizeof(char [64l]) /*64ul*/ );
-    if(return_value_avahi_unescape_label$3 == ((char *)NULL))
+    char *return_value_avahi_unescape_label_3;
+    return_value_avahi_unescape_label_3=avahi_unescape_label(&t, label, sizeof(char [64l]) /*64ul*/ );
+    if(return_value_avahi_unescape_label_3 == ((char *)NULL))
       return 0;
 
     else
     {
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(label);
-      if(!(return_value_strlen$4 >= 1ul))
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(label);
+      if(!(return_value_strlen_4 >= 1ul))
         return 0;
 
       else
@@ -6331,15 +6331,15 @@ signed int avahi_is_valid_service_name(const char *t)
 {
   /* assertion t */
   assert(t != ((const char *)NULL));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(t);
-  _Bool tmp_if_expr$2;
-  if(return_value_strlen$1 >= 64ul)
-    tmp_if_expr$2 = (_Bool)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(t);
+  _Bool tmp_if_expr_2;
+  if(return_value_strlen_1 >= 64ul)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(*t != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = !(*t != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return 0;
 
   else
@@ -6352,9 +6352,9 @@ signed int avahi_is_valid_service_subtype(const char *t)
 {
   /* assertion t */
   assert(t != ((const char *)NULL));
-  const char *return_value_avahi_get_type_from_subtype$1;
-  return_value_avahi_get_type_from_subtype$1=avahi_get_type_from_subtype(t);
-  return (signed int)!(!(return_value_avahi_get_type_from_subtype$1 != ((const char *)NULL)));
+  const char *return_value_avahi_get_type_from_subtype_1;
+  return_value_avahi_get_type_from_subtype_1=avahi_get_type_from_subtype(t);
+  return (signed int)!(!(return_value_avahi_get_type_from_subtype_1 != ((const char *)NULL)));
 }
 
 // avahi_is_valid_service_type_generic
@@ -6363,16 +6363,16 @@ signed int avahi_is_valid_service_type_generic(const char *t)
 {
   /* assertion t */
   assert(t != ((const char *)NULL));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(t);
-  _Bool tmp_if_expr$2;
-  if(return_value_strlen$1 >= 1014ul)
-    tmp_if_expr$2 = (_Bool)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(t);
+  _Bool tmp_if_expr_2;
+  if(return_value_strlen_1 >= 1014ul)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(*t != 0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = !(*t != 0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_2)
     return 0;
 
   else
@@ -6380,19 +6380,19 @@ signed int avahi_is_valid_service_type_generic(const char *t)
     do
     {
       char label[64l];
-      char *return_value_avahi_unescape_label$3;
-      return_value_avahi_unescape_label$3=avahi_unescape_label(&t, label, sizeof(char [64l]) /*64ul*/ );
-      if(return_value_avahi_unescape_label$3 == ((char *)NULL))
+      char *return_value_avahi_unescape_label_3;
+      return_value_avahi_unescape_label_3=avahi_unescape_label(&t, label, sizeof(char [64l]) /*64ul*/ );
+      if(return_value_avahi_unescape_label_3 == ((char *)NULL))
         return 0;
 
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(label);
-      if(!(return_value_strlen$4 >= 3ul))
-        tmp_if_expr$5 = (_Bool)1;
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(label);
+      if(!(return_value_strlen_4 >= 3ul))
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (signed int)label[(signed long int)0] != 95 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (signed int)label[(signed long int)0] != 95 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
         return 0;
 
     }
@@ -6408,36 +6408,36 @@ signed int avahi_is_valid_service_type_strict(const char *t)
   char label[64l];
   /* assertion t */
   assert(t != ((const char *)NULL));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(t);
-  _Bool tmp_if_expr$2;
-  if(return_value_strlen$1 >= 1014ul)
-    tmp_if_expr$2 = (_Bool)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(t);
+  _Bool tmp_if_expr_2;
+  if(return_value_strlen_1 >= 1014ul)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(*t != 0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcasecmp$7;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = !(*t != 0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcasecmp_7;
+  if(tmp_if_expr_2)
     return 0;
 
   else
   {
-    char *return_value_avahi_unescape_label$3;
-    return_value_avahi_unescape_label$3=avahi_unescape_label(&t, label, sizeof(char [64l]) /*64ul*/ );
-    if(return_value_avahi_unescape_label$3 == ((char *)NULL))
+    char *return_value_avahi_unescape_label_3;
+    return_value_avahi_unescape_label_3=avahi_unescape_label(&t, label, sizeof(char [64l]) /*64ul*/ );
+    if(return_value_avahi_unescape_label_3 == ((char *)NULL))
       return 0;
 
     else
     {
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(label);
-      if(!(return_value_strlen$4 >= 3ul))
-        tmp_if_expr$5 = (_Bool)1;
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(label);
+      if(!(return_value_strlen_4 >= 3ul))
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (signed int)label[(signed long int)0] != 95 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (signed int)label[(signed long int)0] != 95 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
         return 0;
 
       else
@@ -6446,19 +6446,19 @@ signed int avahi_is_valid_service_type_strict(const char *t)
 
         else
         {
-          char *return_value_avahi_unescape_label$6;
-          return_value_avahi_unescape_label$6=avahi_unescape_label(&t, label, sizeof(char [64l]) /*64ul*/ );
-          if(return_value_avahi_unescape_label$6 == ((char *)NULL))
+          char *return_value_avahi_unescape_label_6;
+          return_value_avahi_unescape_label_6=avahi_unescape_label(&t, label, sizeof(char [64l]) /*64ul*/ );
+          if(return_value_avahi_unescape_label_6 == ((char *)NULL))
             return 0;
 
           else
           {
-            signed int return_value_strcasecmp$8;
-            return_value_strcasecmp$8=strcasecmp(label, "_tcp");
-            if(!(return_value_strcasecmp$8 == 0))
+            signed int return_value_strcasecmp_8;
+            return_value_strcasecmp_8=strcasecmp(label, "_tcp");
+            if(!(return_value_strcasecmp_8 == 0))
             {
-              return_value_strcasecmp$7=strcasecmp(label, "_udp");
-              if(return_value_strcasecmp$7 == 0)
+              return_value_strcasecmp_7=strcasecmp(label, "_udp");
+              if(return_value_strcasecmp_7 == 0)
                 goto __CPROVER_DUMP_L10;
 
               return 0;
@@ -6485,15 +6485,15 @@ signed int avahi_is_valid_service_type_strict(const char *t)
 // file ../avahi-common/malloc.h line 36
 void * avahi_malloc(unsigned long int size)
 {
-  void *return_value_xmalloc$1;
+  void *return_value_xmalloc_1;
   if(!(size >= 1ul))
     return (void *)0;
 
   else
     if(allocator == ((const struct AvahiAllocator *)NULL))
     {
-      return_value_xmalloc$1=xmalloc(size);
-      return return_value_xmalloc$1;
+      return_value_xmalloc_1=xmalloc(size);
+      return return_value_xmalloc_1;
     }
 
     else
@@ -6511,7 +6511,7 @@ void * avahi_malloc(unsigned long int size)
 void * avahi_malloc0(unsigned long int size)
 {
   void *p;
-  void *return_value_xcalloc$1;
+  void *return_value_xcalloc_1;
   void *return_value;
   if(!(size >= 1ul))
     return (void *)0;
@@ -6519,8 +6519,8 @@ void * avahi_malloc0(unsigned long int size)
   else
     if(allocator == ((const struct AvahiAllocator *)NULL))
     {
-      return_value_xcalloc$1=xcalloc((unsigned long int)1, size);
-      return return_value_xcalloc$1;
+      return_value_xcalloc_1=xcalloc((unsigned long int)1, size);
+      return return_value_xcalloc_1;
     }
 
     else
@@ -6566,163 +6566,163 @@ static inline void * avahi_new_internal(unsigned int n, unsigned long int k)
 {
   /* assertion n < 0x7fffffff/k */
   assert((unsigned long int)n < (unsigned long int)0x7fffffff / k);
-  void *return_value_avahi_malloc$1;
-  return_value_avahi_malloc$1=avahi_malloc((unsigned long int)n * k);
-  return return_value_avahi_malloc$1;
+  void *return_value_avahi_malloc_1;
+  return_value_avahi_malloc_1=avahi_malloc((unsigned long int)n * k);
+  return return_value_avahi_malloc_1;
 }
 
-// avahi_new_internal$link1
+// avahi_new_internal_link1
 // file ../avahi-common/malloc.h line 48
-static inline void * avahi_new_internal$link1(unsigned int n$link1, unsigned long int k$link1)
+static inline void * avahi_new_internal_link1(unsigned int n_link1, unsigned long int k_link1)
 {
   /* assertion n < 0x7fffffff/k */
-  assert((unsigned long int)n$link1 < (unsigned long int)0x7fffffff / k$link1);
-  void *return_value_avahi_malloc$1$link1;
-  return_value_avahi_malloc$1$link1=avahi_malloc((unsigned long int)n$link1 * k$link1);
-  return return_value_avahi_malloc$1$link1;
+  assert((unsigned long int)n_link1 < (unsigned long int)0x7fffffff / k_link1);
+  void *return_value_avahi_malloc_1_link1;
+  return_value_avahi_malloc_1_link1=avahi_malloc((unsigned long int)n_link1 * k_link1);
+  return return_value_avahi_malloc_1_link1;
 }
 
-// avahi_new_internal$link1$link1
+// avahi_new_internal_link1_link1
 // file malloc.h line 48
-static inline void * avahi_new_internal$link1$link1(unsigned int n$link1$link1, unsigned long int k$link1$link1)
+static inline void * avahi_new_internal_link1_link1(unsigned int n_link1_link1, unsigned long int k_link1_link1)
 {
   /* assertion n < 0x7fffffff/k */
-  assert((unsigned long int)n$link1$link1 < (unsigned long int)0x7fffffff / k$link1$link1);
-  void *return_value_avahi_malloc$1$link1$link1;
-  return_value_avahi_malloc$1$link1$link1=avahi_malloc((unsigned long int)n$link1$link1 * k$link1$link1);
-  return return_value_avahi_malloc$1$link1$link1;
+  assert((unsigned long int)n_link1_link1 < (unsigned long int)0x7fffffff / k_link1_link1);
+  void *return_value_avahi_malloc_1_link1_link1;
+  return_value_avahi_malloc_1_link1_link1=avahi_malloc((unsigned long int)n_link1_link1 * k_link1_link1);
+  return return_value_avahi_malloc_1_link1_link1;
 }
 
-// avahi_new_internal$link1$link2
+// avahi_new_internal_link1_link2
 // file malloc.h line 48
-static inline void * avahi_new_internal$link1$link2(unsigned int n$link1$link2, unsigned long int k$link1$link2)
+static inline void * avahi_new_internal_link1_link2(unsigned int n_link1_link2, unsigned long int k_link1_link2)
 {
   /* assertion n < 0x7fffffff/k */
-  assert((unsigned long int)n$link1$link2 < (unsigned long int)0x7fffffff / k$link1$link2);
-  void *return_value_avahi_malloc$1$link1$link2;
-  return_value_avahi_malloc$1$link1$link2=avahi_malloc((unsigned long int)n$link1$link2 * k$link1$link2);
-  return return_value_avahi_malloc$1$link1$link2;
+  assert((unsigned long int)n_link1_link2 < (unsigned long int)0x7fffffff / k_link1_link2);
+  void *return_value_avahi_malloc_1_link1_link2;
+  return_value_avahi_malloc_1_link1_link2=avahi_malloc((unsigned long int)n_link1_link2 * k_link1_link2);
+  return return_value_avahi_malloc_1_link1_link2;
 }
 
-// avahi_new_internal$link2
+// avahi_new_internal_link2
 // file ../avahi-common/malloc.h line 48
-static inline void * avahi_new_internal$link2(unsigned int n$link2, unsigned long int k$link2)
+static inline void * avahi_new_internal_link2(unsigned int n_link2, unsigned long int k_link2)
 {
   /* assertion n < 0x7fffffff/k */
-  assert((unsigned long int)n$link2 < (unsigned long int)0x7fffffff / k$link2);
-  void *return_value_avahi_malloc$1$link2;
-  return_value_avahi_malloc$1$link2=avahi_malloc((unsigned long int)n$link2 * k$link2);
-  return return_value_avahi_malloc$1$link2;
+  assert((unsigned long int)n_link2 < (unsigned long int)0x7fffffff / k_link2);
+  void *return_value_avahi_malloc_1_link2;
+  return_value_avahi_malloc_1_link2=avahi_malloc((unsigned long int)n_link2 * k_link2);
+  return return_value_avahi_malloc_1_link2;
 }
 
-// avahi_new_internal$link2$link1
+// avahi_new_internal_link2_link1
 // file malloc.h line 48
-static inline void * avahi_new_internal$link2$link1(unsigned int n$link2$link1, unsigned long int k$link2$link1)
+static inline void * avahi_new_internal_link2_link1(unsigned int n_link2_link1, unsigned long int k_link2_link1)
 {
   /* assertion n < 0x7fffffff/k */
-  assert((unsigned long int)n$link2$link1 < (unsigned long int)0x7fffffff / k$link2$link1);
-  void *return_value_avahi_malloc$1$link2$link1;
-  return_value_avahi_malloc$1$link2$link1=avahi_malloc((unsigned long int)n$link2$link1 * k$link2$link1);
-  return return_value_avahi_malloc$1$link2$link1;
+  assert((unsigned long int)n_link2_link1 < (unsigned long int)0x7fffffff / k_link2_link1);
+  void *return_value_avahi_malloc_1_link2_link1;
+  return_value_avahi_malloc_1_link2_link1=avahi_malloc((unsigned long int)n_link2_link1 * k_link2_link1);
+  return return_value_avahi_malloc_1_link2_link1;
 }
 
-// avahi_new_internal$link2$link2
+// avahi_new_internal_link2_link2
 // file malloc.h line 48
-static inline void * avahi_new_internal$link2$link2(unsigned int n$link2$link2, unsigned long int k$link2$link2)
+static inline void * avahi_new_internal_link2_link2(unsigned int n_link2_link2, unsigned long int k_link2_link2)
 {
   /* assertion n < 0x7fffffff/k */
-  assert((unsigned long int)n$link2$link2 < (unsigned long int)0x7fffffff / k$link2$link2);
-  void *return_value_avahi_malloc$1$link2$link2;
-  return_value_avahi_malloc$1$link2$link2=avahi_malloc((unsigned long int)n$link2$link2 * k$link2$link2);
-  return return_value_avahi_malloc$1$link2$link2;
+  assert((unsigned long int)n_link2_link2 < (unsigned long int)0x7fffffff / k_link2_link2);
+  void *return_value_avahi_malloc_1_link2_link2;
+  return_value_avahi_malloc_1_link2_link2=avahi_malloc((unsigned long int)n_link2_link2 * k_link2_link2);
+  return return_value_avahi_malloc_1_link2_link2;
 }
 
-// avahi_new_internal$link3
+// avahi_new_internal_link3
 // file ../avahi-common/malloc.h line 48
-static inline void * avahi_new_internal$link3(unsigned int n$link3, unsigned long int k$link3)
+static inline void * avahi_new_internal_link3(unsigned int n_link3, unsigned long int k_link3)
 {
   /* assertion n < 0x7fffffff/k */
-  assert((unsigned long int)n$link3 < (unsigned long int)0x7fffffff / k$link3);
-  void *return_value_avahi_malloc$1$link3;
-  return_value_avahi_malloc$1$link3=avahi_malloc((unsigned long int)n$link3 * k$link3);
-  return return_value_avahi_malloc$1$link3;
+  assert((unsigned long int)n_link3 < (unsigned long int)0x7fffffff / k_link3);
+  void *return_value_avahi_malloc_1_link3;
+  return_value_avahi_malloc_1_link3=avahi_malloc((unsigned long int)n_link3 * k_link3);
+  return return_value_avahi_malloc_1_link3;
 }
 
-// avahi_new_internal$link3$link1
+// avahi_new_internal_link3_link1
 // file malloc.h line 48
-static inline void * avahi_new_internal$link3$link1(unsigned int n$link3$link1, unsigned long int k$link3$link1)
+static inline void * avahi_new_internal_link3_link1(unsigned int n_link3_link1, unsigned long int k_link3_link1)
 {
   /* assertion n < 0x7fffffff/k */
-  assert((unsigned long int)n$link3$link1 < (unsigned long int)0x7fffffff / k$link3$link1);
-  void *return_value_avahi_malloc$1$link3$link1;
-  return_value_avahi_malloc$1$link3$link1=avahi_malloc((unsigned long int)n$link3$link1 * k$link3$link1);
-  return return_value_avahi_malloc$1$link3$link1;
+  assert((unsigned long int)n_link3_link1 < (unsigned long int)0x7fffffff / k_link3_link1);
+  void *return_value_avahi_malloc_1_link3_link1;
+  return_value_avahi_malloc_1_link3_link1=avahi_malloc((unsigned long int)n_link3_link1 * k_link3_link1);
+  return return_value_avahi_malloc_1_link3_link1;
 }
 
-// avahi_new_internal$link3$link2
+// avahi_new_internal_link3_link2
 // file malloc.h line 48
-static inline void * avahi_new_internal$link3$link2(unsigned int n$link3$link2, unsigned long int k$link3$link2)
+static inline void * avahi_new_internal_link3_link2(unsigned int n_link3_link2, unsigned long int k_link3_link2)
 {
   /* assertion n < 0x7fffffff/k */
-  assert((unsigned long int)n$link3$link2 < (unsigned long int)0x7fffffff / k$link3$link2);
-  void *return_value_avahi_malloc$1$link3$link2;
-  return_value_avahi_malloc$1$link3$link2=avahi_malloc((unsigned long int)n$link3$link2 * k$link3$link2);
-  return return_value_avahi_malloc$1$link3$link2;
+  assert((unsigned long int)n_link3_link2 < (unsigned long int)0x7fffffff / k_link3_link2);
+  void *return_value_avahi_malloc_1_link3_link2;
+  return_value_avahi_malloc_1_link3_link2=avahi_malloc((unsigned long int)n_link3_link2 * k_link3_link2);
+  return return_value_avahi_malloc_1_link3_link2;
 }
 
-// avahi_new_internal$link4
+// avahi_new_internal_link4
 // file ../avahi-common/malloc.h line 48
-static inline void * avahi_new_internal$link4(unsigned int n$link4, unsigned long int k$link4)
+static inline void * avahi_new_internal_link4(unsigned int n_link4, unsigned long int k_link4)
 {
   /* assertion n < 0x7fffffff/k */
-  assert((unsigned long int)n$link4 < (unsigned long int)0x7fffffff / k$link4);
-  void *return_value_avahi_malloc$1$link4;
-  return_value_avahi_malloc$1$link4=avahi_malloc((unsigned long int)n$link4 * k$link4);
-  return return_value_avahi_malloc$1$link4;
+  assert((unsigned long int)n_link4 < (unsigned long int)0x7fffffff / k_link4);
+  void *return_value_avahi_malloc_1_link4;
+  return_value_avahi_malloc_1_link4=avahi_malloc((unsigned long int)n_link4 * k_link4);
+  return return_value_avahi_malloc_1_link4;
 }
 
-// avahi_new_internal$link4$link1
+// avahi_new_internal_link4_link1
 // file malloc.h line 48
-static inline void * avahi_new_internal$link4$link1(unsigned int n$link4$link1, unsigned long int k$link4$link1)
+static inline void * avahi_new_internal_link4_link1(unsigned int n_link4_link1, unsigned long int k_link4_link1)
 {
   /* assertion n < 0x7fffffff/k */
-  assert((unsigned long int)n$link4$link1 < (unsigned long int)0x7fffffff / k$link4$link1);
-  void *return_value_avahi_malloc$1$link4$link1;
-  return_value_avahi_malloc$1$link4$link1=avahi_malloc((unsigned long int)n$link4$link1 * k$link4$link1);
-  return return_value_avahi_malloc$1$link4$link1;
+  assert((unsigned long int)n_link4_link1 < (unsigned long int)0x7fffffff / k_link4_link1);
+  void *return_value_avahi_malloc_1_link4_link1;
+  return_value_avahi_malloc_1_link4_link1=avahi_malloc((unsigned long int)n_link4_link1 * k_link4_link1);
+  return return_value_avahi_malloc_1_link4_link1;
 }
 
-// avahi_new_internal$link4$link2
+// avahi_new_internal_link4_link2
 // file malloc.h line 48
-static inline void * avahi_new_internal$link4$link2(unsigned int n$link4$link2, unsigned long int k$link4$link2)
+static inline void * avahi_new_internal_link4_link2(unsigned int n_link4_link2, unsigned long int k_link4_link2)
 {
   /* assertion n < 0x7fffffff/k */
-  assert((unsigned long int)n$link4$link2 < (unsigned long int)0x7fffffff / k$link4$link2);
-  void *return_value_avahi_malloc$1$link4$link2;
-  return_value_avahi_malloc$1$link4$link2=avahi_malloc((unsigned long int)n$link4$link2 * k$link4$link2);
-  return return_value_avahi_malloc$1$link4$link2;
+  assert((unsigned long int)n_link4_link2 < (unsigned long int)0x7fffffff / k_link4_link2);
+  void *return_value_avahi_malloc_1_link4_link2;
+  return_value_avahi_malloc_1_link4_link2=avahi_malloc((unsigned long int)n_link4_link2 * k_link4_link2);
+  return return_value_avahi_malloc_1_link4_link2;
 }
 
-// avahi_new_internal$link5
+// avahi_new_internal_link5
 // file malloc.h line 48
-static inline void * avahi_new_internal$link5(unsigned int n$link5, unsigned long int k$link5)
+static inline void * avahi_new_internal_link5(unsigned int n_link5, unsigned long int k_link5)
 {
   /* assertion n < 0x7fffffff/k */
-  assert((unsigned long int)n$link5 < (unsigned long int)0x7fffffff / k$link5);
-  void *return_value_avahi_malloc$1$link5;
-  return_value_avahi_malloc$1$link5=avahi_malloc((unsigned long int)n$link5 * k$link5);
-  return return_value_avahi_malloc$1$link5;
+  assert((unsigned long int)n_link5 < (unsigned long int)0x7fffffff / k_link5);
+  void *return_value_avahi_malloc_1_link5;
+  return_value_avahi_malloc_1_link5=avahi_malloc((unsigned long int)n_link5 * k_link5);
+  return return_value_avahi_malloc_1_link5;
 }
 
-// avahi_new_internal$link6
+// avahi_new_internal_link6
 // file malloc.h line 48
-static inline void * avahi_new_internal$link6(unsigned int n$link6, unsigned long int k$link6)
+static inline void * avahi_new_internal_link6(unsigned int n_link6, unsigned long int k_link6)
 {
   /* assertion n < 0x7fffffff/k */
-  assert((unsigned long int)n$link6 < (unsigned long int)0x7fffffff / k$link6);
-  void *return_value_avahi_malloc$1$link6;
-  return_value_avahi_malloc$1$link6=avahi_malloc((unsigned long int)n$link6 * k$link6);
-  return return_value_avahi_malloc$1$link6;
+  assert((unsigned long int)n_link6 < (unsigned long int)0x7fffffff / k_link6);
+  void *return_value_avahi_malloc_1_link6;
+  return_value_avahi_malloc_1_link6=avahi_malloc((unsigned long int)n_link6 * k_link6);
+  return return_value_avahi_malloc_1_link6;
 }
 
 // avahi_normalize_name
@@ -6739,13 +6739,13 @@ char * avahi_normalize_name(const char *s, char *ret_s, unsigned long int size)
   assert(size > (unsigned long int)0);
   r = ret_s;
   *ret_s = (char)0;
-  char *tmp_post$2;
+  char *tmp_post_2;
   while(!(*s == 0))
   {
     char label[64l];
-    char *return_value_avahi_unescape_label$1;
-    return_value_avahi_unescape_label$1=avahi_unescape_label(&s, label, sizeof(char [64l]) /*64ul*/ );
-    if(return_value_avahi_unescape_label$1 == ((char *)NULL))
+    char *return_value_avahi_unescape_label_1;
+    return_value_avahi_unescape_label_1=avahi_unescape_label(&s, label, sizeof(char [64l]) /*64ul*/ );
+    if(return_value_avahi_unescape_label_1 == ((char *)NULL))
       return (char *)(void *)0;
 
     if((signed int)label[0l] == 0)
@@ -6765,17 +6765,17 @@ char * avahi_normalize_name(const char *s, char *ret_s, unsigned long int size)
       if(!(size >= 1ul))
         return (char *)(void *)0;
 
-      tmp_post$2 = r;
+      tmp_post_2 = r;
       r = r + 1l;
-      *tmp_post$2 = (char)46;
+      *tmp_post_2 = (char)46;
       size = size - 1ul;
     }
 
     else
       empty = 0;
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(label);
-    avahi_escape_label(label, return_value_strlen$3, &r, &size);
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(label);
+    avahi_escape_label(label, return_value_strlen_3, &r, &size);
   }
   return ret_s;
 }
@@ -6787,16 +6787,16 @@ char * avahi_normalize_name_strdup(const char *s)
   char t[1014l];
   /* assertion s */
   assert(s != ((const char *)NULL));
-  char *return_value_avahi_normalize_name$1;
-  return_value_avahi_normalize_name$1=avahi_normalize_name(s, t, sizeof(char [1014l]) /*1014ul*/ );
-  if(return_value_avahi_normalize_name$1 == ((char *)NULL))
+  char *return_value_avahi_normalize_name_1;
+  return_value_avahi_normalize_name_1=avahi_normalize_name(s, t, sizeof(char [1014l]) /*1014ul*/ );
+  if(return_value_avahi_normalize_name_1 == ((char *)NULL))
     return (char *)(void *)0;
 
   else
   {
-    char *return_value_avahi_strdup$2;
-    return_value_avahi_strdup$2=avahi_strdup(t);
-    return return_value_avahi_strdup$2;
+    char *return_value_avahi_strdup_2;
+    return_value_avahi_strdup_2=avahi_strdup(t);
+    return return_value_avahi_strdup_2;
   }
 }
 
@@ -6864,7 +6864,7 @@ const char * avahi_proto_to_string(signed int proto)
 // file malloc.c line 146
 void * avahi_realloc(void *p, unsigned long int size)
 {
-  void *return_value_xrealloc$1;
+  void *return_value_xrealloc_1;
   if(size == 0ul)
   {
     avahi_free(p);
@@ -6874,8 +6874,8 @@ void * avahi_realloc(void *p, unsigned long int size)
   else
     if(allocator == ((const struct AvahiAllocator *)NULL))
     {
-      return_value_xrealloc$1=xrealloc(p, size);
-      return return_value_xrealloc$1;
+      return_value_xrealloc_1=xrealloc(p, size);
+      return return_value_xrealloc_1;
     }
 
     else
@@ -6890,7 +6890,7 @@ void * avahi_realloc(void *p, unsigned long int size)
 
 // avahi_record_browser_event
 // file internal.h line 162
-enum anonymous$28 avahi_record_browser_event(struct AvahiClient *client, enum anonymous$2 event, struct DBusMessage *message)
+enum anonymous_28 avahi_record_browser_event(struct AvahiClient *client, enum anonymous_2 event, struct DBusMessage *message)
 {
   struct AvahiRecordBrowser *b = (struct AvahiRecordBrowser *)(void *)0;
   struct DBusError error;
@@ -6905,29 +6905,29 @@ enum anonymous$28 avahi_record_browser_event(struct AvahiClient *client, enum an
   signed int rdata_size = 0;
   dbus_error_init(&error);
   path=dbus_message_get_path(message);
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   struct DBusMessageIter iter;
   struct DBusMessageIter sub;
   signed int j;
-  unsigned int return_value_dbus_message_get_args$2;
-  _Bool tmp_if_expr$4;
-  unsigned int return_value_dbus_error_is_set$3;
-  signed int return_value_dbus_message_iter_get_arg_type$5;
-  _Bool tmp_if_expr$7;
-  signed int return_value_dbus_message_iter_get_element_type$6;
-  signed int return_value_dbus_message_iter_get_arg_type$8;
+  unsigned int return_value_dbus_message_get_args_2;
+  _Bool tmp_if_expr_4;
+  unsigned int return_value_dbus_error_is_set_3;
+  signed int return_value_dbus_message_iter_get_arg_type_5;
+  _Bool tmp_if_expr_7;
+  signed int return_value_dbus_message_iter_get_element_type_6;
+  signed int return_value_dbus_message_iter_get_arg_type_8;
   char *etxt;
-  unsigned int return_value_dbus_message_get_args$9;
-  _Bool tmp_if_expr$11;
-  unsigned int return_value_dbus_error_is_set$10;
-  signed int return_value_avahi_error_dbus_to_number$12;
+  unsigned int return_value_dbus_message_get_args_9;
+  _Bool tmp_if_expr_11;
+  unsigned int return_value_dbus_error_is_set_10;
+  signed int return_value_avahi_error_dbus_to_number_12;
   if(!(path == ((const char *)NULL)))
   {
     b = client->record_browsers;
     for( ; !(b == ((struct AvahiRecordBrowser *)NULL)); b = b->record_browsers_next)
     {
-      return_value_strcmp$1=strcmp(b->path, path);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(b->path, path);
+      if(return_value_strcmp_1 == 0)
         break;
 
     }
@@ -6945,16 +6945,16 @@ enum anonymous$28 avahi_record_browser_event(struct AvahiClient *client, enum an
 
       case AVAHI_BROWSER_REMOVE:
       {
-        return_value_dbus_message_get_args$2=dbus_message_get_args(message, &error, (signed int)105, &interface, (signed int)105, &protocol, (signed int)115, &name, (signed int)113, &clazz, (signed int)113, &type, (signed int)0);
-        if(return_value_dbus_message_get_args$2 == 0u)
-          tmp_if_expr$4 = (_Bool)1;
+        return_value_dbus_message_get_args_2=dbus_message_get_args(message, &error, (signed int)105, &interface, (signed int)105, &protocol, (signed int)115, &name, (signed int)113, &clazz, (signed int)113, &type, (signed int)0);
+        if(return_value_dbus_message_get_args_2 == 0u)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$3=dbus_error_is_set(&error);
-          tmp_if_expr$4 = return_value_dbus_error_is_set$3 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_3=dbus_error_is_set(&error);
+          tmp_if_expr_4 = return_value_dbus_error_is_set_3 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
         {
           fprintf(stderr, "Failed to parse browser event.\n");
           goto fail;
@@ -6964,23 +6964,23 @@ enum anonymous$28 avahi_record_browser_event(struct AvahiClient *client, enum an
         j = 0;
         for( ; !(j >= 5); j = j + 1)
           dbus_message_iter_next(&iter);
-        return_value_dbus_message_iter_get_arg_type$5=dbus_message_iter_get_arg_type(&iter);
-        if(!(return_value_dbus_message_iter_get_arg_type$5 == 97))
-          tmp_if_expr$7 = (_Bool)1;
+        return_value_dbus_message_iter_get_arg_type_5=dbus_message_iter_get_arg_type(&iter);
+        if(!(return_value_dbus_message_iter_get_arg_type_5 == 97))
+          tmp_if_expr_7 = (_Bool)1;
 
         else
         {
-          return_value_dbus_message_iter_get_element_type$6=dbus_message_iter_get_element_type(&iter);
-          tmp_if_expr$7 = return_value_dbus_message_iter_get_element_type$6 != (signed int)121 ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_message_iter_get_element_type_6=dbus_message_iter_get_element_type(&iter);
+          tmp_if_expr_7 = return_value_dbus_message_iter_get_element_type_6 != (signed int)121 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$7)
+        if(tmp_if_expr_7)
           goto fail;
 
         dbus_message_iter_recurse(&iter, &sub);
         dbus_message_iter_get_fixed_array(&sub, (void *)&rdata, &rdata_size);
         dbus_message_iter_next(&iter);
-        return_value_dbus_message_iter_get_arg_type$8=dbus_message_iter_get_arg_type(&iter);
-        if(!(return_value_dbus_message_iter_get_arg_type$8 == 117))
+        return_value_dbus_message_iter_get_arg_type_8=dbus_message_iter_get_arg_type(&iter);
+        if(!(return_value_dbus_message_iter_get_arg_type_8 == 117))
           goto fail;
 
         dbus_message_iter_get_basic(&iter, (void *)&flags);
@@ -6992,27 +6992,27 @@ enum anonymous$28 avahi_record_browser_event(struct AvahiClient *client, enum an
         break;
       case AVAHI_BROWSER_FAILURE:
       {
-        return_value_dbus_message_get_args$9=dbus_message_get_args(message, &error, (signed int)115, &etxt, (signed int)0);
-        if(return_value_dbus_message_get_args$9 == 0u)
-          tmp_if_expr$11 = (_Bool)1;
+        return_value_dbus_message_get_args_9=dbus_message_get_args(message, &error, (signed int)115, &etxt, (signed int)0);
+        if(return_value_dbus_message_get_args_9 == 0u)
+          tmp_if_expr_11 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$10=dbus_error_is_set(&error);
-          tmp_if_expr$11 = return_value_dbus_error_is_set$10 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_10=dbus_error_is_set(&error);
+          tmp_if_expr_11 = return_value_dbus_error_is_set_10 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$11)
+        if(tmp_if_expr_11)
         {
           fprintf(stderr, "Failed to parse browser event.\n");
           goto fail;
         }
 
-        return_value_avahi_error_dbus_to_number$12=avahi_error_dbus_to_number(etxt);
-        avahi_client_set_errno(b->client, return_value_avahi_error_dbus_to_number$12);
+        return_value_avahi_error_dbus_to_number_12=avahi_error_dbus_to_number(etxt);
+        avahi_client_set_errno(b->client, return_value_avahi_error_dbus_to_number_12);
       }
     }
-    b->callback(b, (signed int)interface, (signed int)protocol, event, name, clazz, type, rdata, (unsigned long int)rdata_size, (enum anonymous$3)flags, b->userdata);
-    return (enum anonymous$28)DBUS_HANDLER_RESULT_HANDLED;
+    b->callback(b, (signed int)interface, (signed int)protocol, event, name, clazz, type, rdata, (unsigned long int)rdata_size, (enum anonymous_3)flags, b->userdata);
+    return (enum anonymous_28)DBUS_HANDLER_RESULT_HANDLED;
   }
 
   else
@@ -7021,7 +7021,7 @@ enum anonymous$28 avahi_record_browser_event(struct AvahiClient *client, enum an
   fail:
     ;
     dbus_error_free(&error);
-    return (enum anonymous$28)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
+    return (enum anonymous_28)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
   }
 }
 
@@ -7029,17 +7029,17 @@ enum anonymous$28 avahi_record_browser_event(struct AvahiClient *client, enum an
 // file lookup.h line 308
 signed int avahi_record_browser_free(struct AvahiRecordBrowser *b)
 {
-  struct AvahiClient *avahi_record_browser_free$$1$$client;
+  struct AvahiClient *avahi_record_browser_free__1__client;
   signed int r = 0;
   /* assertion b */
   assert(b != ((struct AvahiRecordBrowser *)NULL));
-  avahi_record_browser_free$$1$$client = b->client;
-  signed int return_value_avahi_client_is_connected$1;
+  avahi_record_browser_free__1__client = b->client;
+  signed int return_value_avahi_client_is_connected_1;
   if(!(b->path == ((char *)NULL)))
   {
-    return_value_avahi_client_is_connected$1=avahi_client_is_connected(b->client);
-    if(!(return_value_avahi_client_is_connected$1 == 0))
-      r=avahi_client_simple_method_call(avahi_record_browser_free$$1$$client, b->path, "org.freedesktop.Avahi.RecordBrowser", "Free");
+    return_value_avahi_client_is_connected_1=avahi_client_is_connected(b->client);
+    if(!(return_value_avahi_client_is_connected_1 == 0))
+      r=avahi_client_simple_method_call(avahi_record_browser_free__1__client, b->path, "org.freedesktop.Avahi.RecordBrowser", "Free");
 
   }
 
@@ -7082,7 +7082,7 @@ struct AvahiClient * avahi_record_browser_get_client(struct AvahiRecordBrowser *
 
 // avahi_record_browser_new
 // file browser.c line 786
-struct AvahiRecordBrowser * avahi_record_browser_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *name, unsigned short int clazz, unsigned short int type, enum anonymous$1 flags, void (*callback)(struct AvahiRecordBrowser *, signed int, signed int, enum anonymous$2, const char *, unsigned short int, unsigned short int, const void *, unsigned long int, enum anonymous$3, void *), void *userdata)
+struct AvahiRecordBrowser * avahi_record_browser_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *name, unsigned short int clazz, unsigned short int type, enum anonymous_1 flags, void (*callback)(struct AvahiRecordBrowser *, signed int, signed int, enum anonymous_2, const char *, unsigned short int, unsigned short int, const void *, unsigned long int, enum anonymous_3, void *), void *userdata)
 {
   struct AvahiRecordBrowser *b = (struct AvahiRecordBrowser *)(void *)0;
   struct DBusMessage *message = (struct DBusMessage *)(void *)0;
@@ -7097,24 +7097,24 @@ struct AvahiRecordBrowser * avahi_record_browser_new(struct AvahiClient *client,
   /* assertion name */
   assert(name != ((const char *)NULL));
   /* assertion callback */
-  assert(callback != ((void (*)(struct AvahiRecordBrowser *, signed int, signed int, enum anonymous$2, const char *, unsigned short int, unsigned short int, const void *, unsigned long int, enum anonymous$3, void *))NULL));
+  assert(callback != ((void (*)(struct AvahiRecordBrowser *, signed int, signed int, enum anonymous_2, const char *, unsigned short int, unsigned short int, const void *, unsigned long int, enum anonymous_3, void *))NULL));
   dbus_error_init(&error);
-  signed int return_value_avahi_client_is_connected$1;
-  return_value_avahi_client_is_connected$1=avahi_client_is_connected(client);
-  void *return_value_avahi_new_internal$2;
-  unsigned int return_value_dbus_message_append_args$3;
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_dbus_error_is_set$4;
-  unsigned int return_value_dbus_message_get_args$6;
-  _Bool tmp_if_expr$8;
-  unsigned int return_value_dbus_error_is_set$7;
-  if(return_value_avahi_client_is_connected$1 == 0)
+  signed int return_value_avahi_client_is_connected_1;
+  return_value_avahi_client_is_connected_1=avahi_client_is_connected(client);
+  void *return_value_avahi_new_internal_2;
+  unsigned int return_value_dbus_message_append_args_3;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_dbus_error_is_set_4;
+  unsigned int return_value_dbus_message_get_args_6;
+  _Bool tmp_if_expr_8;
+  unsigned int return_value_dbus_error_is_set_7;
+  if(return_value_avahi_client_is_connected_1 == 0)
     avahi_client_set_errno(client, -2);
 
   else
   {
-    return_value_avahi_new_internal$2=avahi_new_internal$link2((unsigned int)1, sizeof(struct AvahiRecordBrowser) /*72ul*/ );
-    b = (struct AvahiRecordBrowser *)return_value_avahi_new_internal$2;
+    return_value_avahi_new_internal_2=avahi_new_internal_link2((unsigned int)1, sizeof(struct AvahiRecordBrowser) /*72ul*/ );
+    b = (struct AvahiRecordBrowser *)return_value_avahi_new_internal_2;
     if(b == ((struct AvahiRecordBrowser *)NULL))
       avahi_client_set_errno(client, -24);
 
@@ -7158,36 +7158,36 @@ struct AvahiRecordBrowser * avahi_record_browser_new(struct AvahiClient *client,
           i_interface = (signed int)interface;
           i_protocol = (signed int)protocol;
           u_flags = (unsigned int)flags;
-          return_value_dbus_message_append_args$3=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)115, &name, (signed int)113, &clazz, (signed int)113, &type, (signed int)117, &u_flags, (signed int)0);
-          if(return_value_dbus_message_append_args$3 == 0u)
+          return_value_dbus_message_append_args_3=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)115, &name, (signed int)113, &clazz, (signed int)113, &type, (signed int)117, &u_flags, (signed int)0);
+          if(return_value_dbus_message_append_args_3 == 0u)
             avahi_client_set_errno(client, -24);
 
           else
           {
             reply=dbus_connection_send_with_reply_and_block(client->bus, message, -1, &error);
             if(reply == ((struct DBusMessage *)NULL))
-              tmp_if_expr$5 = (_Bool)1;
+              tmp_if_expr_5 = (_Bool)1;
 
             else
             {
-              return_value_dbus_error_is_set$4=dbus_error_is_set(&error);
-              tmp_if_expr$5 = return_value_dbus_error_is_set$4 != 0u ? (_Bool)1 : (_Bool)0;
+              return_value_dbus_error_is_set_4=dbus_error_is_set(&error);
+              tmp_if_expr_5 = return_value_dbus_error_is_set_4 != 0u ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$5)
+            if(tmp_if_expr_5)
               avahi_client_set_errno(client, -22);
 
             else
             {
-              return_value_dbus_message_get_args$6=dbus_message_get_args(reply, &error, (signed int)111, &path, (signed int)0);
-              if(return_value_dbus_message_get_args$6 == 0u)
-                tmp_if_expr$8 = (_Bool)1;
+              return_value_dbus_message_get_args_6=dbus_message_get_args(reply, &error, (signed int)111, &path, (signed int)0);
+              if(return_value_dbus_message_get_args_6 == 0u)
+                tmp_if_expr_8 = (_Bool)1;
 
               else
               {
-                return_value_dbus_error_is_set$7=dbus_error_is_set(&error);
-                tmp_if_expr$8 = return_value_dbus_error_is_set$7 != 0u ? (_Bool)1 : (_Bool)0;
+                return_value_dbus_error_is_set_7=dbus_error_is_set(&error);
+                tmp_if_expr_8 = return_value_dbus_error_is_set_7 != 0u ? (_Bool)1 : (_Bool)0;
               }
-              if(path == ((char *)NULL) || tmp_if_expr$8)
+              if(path == ((char *)NULL) || tmp_if_expr_8)
                 avahi_client_set_errno(client, -22);
 
               else
@@ -7212,9 +7212,9 @@ struct AvahiRecordBrowser * avahi_record_browser_new(struct AvahiClient *client,
 
 fail:
   ;
-  unsigned int return_value_dbus_error_is_set$9;
-  return_value_dbus_error_is_set$9=dbus_error_is_set(&error);
-  if(!(return_value_dbus_error_is_set$9 == 0u))
+  unsigned int return_value_dbus_error_is_set_9;
+  return_value_dbus_error_is_set_9=dbus_error_is_set(&error);
+  if(!(return_value_dbus_error_is_set_9 == 0u))
   {
     avahi_client_set_dbus_error(client, &error);
     dbus_error_free(&error);
@@ -7263,9 +7263,9 @@ char * avahi_reverse_lookup_name(const struct AvahiAddress *a, char *ret_s, unsi
 struct AvahiRList * avahi_rlist_prepend(struct AvahiRList *r, void *data)
 {
   struct AvahiRList *n;
-  void *return_value_avahi_new_internal$1;
-  return_value_avahi_new_internal$1=avahi_new_internal$link4$link1((unsigned int)1, sizeof(struct AvahiRList) /*24ul*/ );
-  n = (struct AvahiRList *)return_value_avahi_new_internal$1;
+  void *return_value_avahi_new_internal_1;
+  return_value_avahi_new_internal_1=avahi_new_internal_link4_link1((unsigned int)1, sizeof(struct AvahiRList) /*24ul*/ );
+  n = (struct AvahiRList *)return_value_avahi_new_internal_1;
   if(n == ((struct AvahiRList *)NULL))
     return (struct AvahiRList *)(void *)0;
 
@@ -7361,7 +7361,7 @@ struct AvahiRList * avahi_rlist_remove_by_link(struct AvahiRList *r, struct Avah
 
 // avahi_service_browser_event
 // file internal.h line 161
-enum anonymous$28 avahi_service_browser_event(struct AvahiClient *client, enum anonymous$2 event, struct DBusMessage *message)
+enum anonymous_28 avahi_service_browser_event(struct AvahiClient *client, enum anonymous_2 event, struct DBusMessage *message)
 {
   struct AvahiServiceBrowser *b = (struct AvahiServiceBrowser *)(void *)0;
   struct DBusError error;
@@ -7374,22 +7374,22 @@ enum anonymous$28 avahi_service_browser_event(struct AvahiClient *client, enum a
   unsigned int flags = (unsigned int)0;
   dbus_error_init(&error);
   path=dbus_message_get_path(message);
-  signed int return_value_strcmp$1;
-  unsigned int return_value_dbus_message_get_args$2;
-  _Bool tmp_if_expr$4;
-  unsigned int return_value_dbus_error_is_set$3;
+  signed int return_value_strcmp_1;
+  unsigned int return_value_dbus_message_get_args_2;
+  _Bool tmp_if_expr_4;
+  unsigned int return_value_dbus_error_is_set_3;
   char *etxt;
-  unsigned int return_value_dbus_message_get_args$5;
-  _Bool tmp_if_expr$7;
-  unsigned int return_value_dbus_error_is_set$6;
-  signed int return_value_avahi_error_dbus_to_number$8;
+  unsigned int return_value_dbus_message_get_args_5;
+  _Bool tmp_if_expr_7;
+  unsigned int return_value_dbus_error_is_set_6;
+  signed int return_value_avahi_error_dbus_to_number_8;
   if(!(path == ((const char *)NULL)))
   {
     b = client->service_browsers;
     for( ; !(b == ((struct AvahiServiceBrowser *)NULL)); b = b->service_browsers_next)
     {
-      return_value_strcmp$1=strcmp(b->path, path);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(b->path, path);
+      if(return_value_strcmp_1 == 0)
         break;
 
     }
@@ -7406,16 +7406,16 @@ enum anonymous$28 avahi_service_browser_event(struct AvahiClient *client, enum a
 
       case AVAHI_BROWSER_REMOVE:
       {
-        return_value_dbus_message_get_args$2=dbus_message_get_args(message, &error, (signed int)105, &interface, (signed int)105, &protocol, (signed int)115, &name, (signed int)115, &type, (signed int)115, &domain, (signed int)117, &flags, (signed int)0);
-        if(return_value_dbus_message_get_args$2 == 0u)
-          tmp_if_expr$4 = (_Bool)1;
+        return_value_dbus_message_get_args_2=dbus_message_get_args(message, &error, (signed int)105, &interface, (signed int)105, &protocol, (signed int)115, &name, (signed int)115, &type, (signed int)115, &domain, (signed int)117, &flags, (signed int)0);
+        if(return_value_dbus_message_get_args_2 == 0u)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$3=dbus_error_is_set(&error);
-          tmp_if_expr$4 = return_value_dbus_error_is_set$3 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_3=dbus_error_is_set(&error);
+          tmp_if_expr_4 = return_value_dbus_error_is_set_3 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
         {
           fprintf(stderr, "Failed to parse browser event.\n");
           goto fail;
@@ -7429,27 +7429,27 @@ enum anonymous$28 avahi_service_browser_event(struct AvahiClient *client, enum a
         break;
       case AVAHI_BROWSER_FAILURE:
       {
-        return_value_dbus_message_get_args$5=dbus_message_get_args(message, &error, (signed int)115, &etxt, (signed int)0);
-        if(return_value_dbus_message_get_args$5 == 0u)
-          tmp_if_expr$7 = (_Bool)1;
+        return_value_dbus_message_get_args_5=dbus_message_get_args(message, &error, (signed int)115, &etxt, (signed int)0);
+        if(return_value_dbus_message_get_args_5 == 0u)
+          tmp_if_expr_7 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$6=dbus_error_is_set(&error);
-          tmp_if_expr$7 = return_value_dbus_error_is_set$6 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_6=dbus_error_is_set(&error);
+          tmp_if_expr_7 = return_value_dbus_error_is_set_6 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$7)
+        if(tmp_if_expr_7)
         {
           fprintf(stderr, "Failed to parse browser event.\n");
           goto fail;
         }
 
-        return_value_avahi_error_dbus_to_number$8=avahi_error_dbus_to_number(etxt);
-        avahi_client_set_errno(b->client, return_value_avahi_error_dbus_to_number$8);
+        return_value_avahi_error_dbus_to_number_8=avahi_error_dbus_to_number(etxt);
+        avahi_client_set_errno(b->client, return_value_avahi_error_dbus_to_number_8);
       }
     }
-    b->callback(b, (signed int)interface, (signed int)protocol, event, name, type, domain, (enum anonymous$3)flags, b->userdata);
-    return (enum anonymous$28)DBUS_HANDLER_RESULT_HANDLED;
+    b->callback(b, (signed int)interface, (signed int)protocol, event, name, type, domain, (enum anonymous_3)flags, b->userdata);
+    return (enum anonymous_28)DBUS_HANDLER_RESULT_HANDLED;
   }
 
   else
@@ -7458,7 +7458,7 @@ enum anonymous$28 avahi_service_browser_event(struct AvahiClient *client, enum a
   fail:
     ;
     dbus_error_free(&error);
-    return (enum anonymous$28)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
+    return (enum anonymous_28)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
   }
 }
 
@@ -7466,17 +7466,17 @@ enum anonymous$28 avahi_service_browser_event(struct AvahiClient *client, enum a
 // file lookup.h line 117
 signed int avahi_service_browser_free(struct AvahiServiceBrowser *b)
 {
-  struct AvahiClient *avahi_service_browser_free$$1$$client;
+  struct AvahiClient *avahi_service_browser_free__1__client;
   signed int r = 0;
   /* assertion b */
   assert(b != ((struct AvahiServiceBrowser *)NULL));
-  avahi_service_browser_free$$1$$client = b->client;
-  signed int return_value_avahi_client_is_connected$1;
+  avahi_service_browser_free__1__client = b->client;
+  signed int return_value_avahi_client_is_connected_1;
   if(!(b->path == ((char *)NULL)))
   {
-    return_value_avahi_client_is_connected$1=avahi_client_is_connected(b->client);
-    if(!(return_value_avahi_client_is_connected$1 == 0))
-      r=avahi_client_simple_method_call(avahi_service_browser_free$$1$$client, b->path, "org.freedesktop.Avahi.ServiceBrowser", "Free");
+    return_value_avahi_client_is_connected_1=avahi_client_is_connected(b->client);
+    if(!(return_value_avahi_client_is_connected_1 == 0))
+      r=avahi_client_simple_method_call(avahi_service_browser_free__1__client, b->path, "org.freedesktop.Avahi.ServiceBrowser", "Free");
 
   }
 
@@ -7520,7 +7520,7 @@ struct AvahiClient * avahi_service_browser_get_client(struct AvahiServiceBrowser
 
 // avahi_service_browser_new
 // file browser.c line 564
-struct AvahiServiceBrowser * avahi_service_browser_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *type, const char *domain, enum anonymous$1 flags, void (*callback)(struct AvahiServiceBrowser *, signed int, signed int, enum anonymous$2, const char *, const char *, const char *, enum anonymous$3, void *), void *userdata)
+struct AvahiServiceBrowser * avahi_service_browser_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *type, const char *domain, enum anonymous_1 flags, void (*callback)(struct AvahiServiceBrowser *, signed int, signed int, enum anonymous_2, const char *, const char *, const char *, enum anonymous_3, void *), void *userdata)
 {
   struct AvahiServiceBrowser *b = (struct AvahiServiceBrowser *)(void *)0;
   struct DBusMessage *message = (struct DBusMessage *)(void *)0;
@@ -7535,18 +7535,18 @@ struct AvahiServiceBrowser * avahi_service_browser_new(struct AvahiClient *clien
   /* assertion type */
   assert(type != ((const char *)NULL));
   /* assertion callback */
-  assert(callback != ((void (*)(struct AvahiServiceBrowser *, signed int, signed int, enum anonymous$2, const char *, const char *, const char *, enum anonymous$3, void *))NULL));
+  assert(callback != ((void (*)(struct AvahiServiceBrowser *, signed int, signed int, enum anonymous_2, const char *, const char *, const char *, enum anonymous_3, void *))NULL));
   dbus_error_init(&error);
-  signed int return_value_avahi_client_is_connected$1;
-  return_value_avahi_client_is_connected$1=avahi_client_is_connected(client);
-  void *return_value_avahi_new_internal$2;
-  unsigned int return_value_dbus_message_append_args$3;
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_dbus_error_is_set$4;
-  unsigned int return_value_dbus_message_get_args$6;
-  _Bool tmp_if_expr$8;
-  unsigned int return_value_dbus_error_is_set$7;
-  if(return_value_avahi_client_is_connected$1 == 0)
+  signed int return_value_avahi_client_is_connected_1;
+  return_value_avahi_client_is_connected_1=avahi_client_is_connected(client);
+  void *return_value_avahi_new_internal_2;
+  unsigned int return_value_dbus_message_append_args_3;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_dbus_error_is_set_4;
+  unsigned int return_value_dbus_message_get_args_6;
+  _Bool tmp_if_expr_8;
+  unsigned int return_value_dbus_error_is_set_7;
+  if(return_value_avahi_client_is_connected_1 == 0)
     avahi_client_set_errno(client, -2);
 
   else
@@ -7554,8 +7554,8 @@ struct AvahiServiceBrowser * avahi_service_browser_new(struct AvahiClient *clien
     if(domain == ((const char *)NULL))
       domain = "";
 
-    return_value_avahi_new_internal$2=avahi_new_internal$link2((unsigned int)1, sizeof(struct AvahiServiceBrowser) /*72ul*/ );
-    b = (struct AvahiServiceBrowser *)return_value_avahi_new_internal$2;
+    return_value_avahi_new_internal_2=avahi_new_internal_link2((unsigned int)1, sizeof(struct AvahiServiceBrowser) /*72ul*/ );
+    b = (struct AvahiServiceBrowser *)return_value_avahi_new_internal_2;
     if(b == ((struct AvahiServiceBrowser *)NULL))
       avahi_client_set_errno(client, -24);
 
@@ -7614,36 +7614,36 @@ struct AvahiServiceBrowser * avahi_service_browser_new(struct AvahiClient *clien
             i_interface = (signed int)interface;
             i_protocol = (signed int)protocol;
             u_flags = (unsigned int)flags;
-            return_value_dbus_message_append_args$3=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)115, &type, (signed int)115, &domain, (signed int)117, &u_flags, (signed int)0);
-            if(return_value_dbus_message_append_args$3 == 0u)
+            return_value_dbus_message_append_args_3=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)115, &type, (signed int)115, &domain, (signed int)117, &u_flags, (signed int)0);
+            if(return_value_dbus_message_append_args_3 == 0u)
               avahi_client_set_errno(client, -24);
 
             else
             {
               reply=dbus_connection_send_with_reply_and_block(client->bus, message, -1, &error);
               if(reply == ((struct DBusMessage *)NULL))
-                tmp_if_expr$5 = (_Bool)1;
+                tmp_if_expr_5 = (_Bool)1;
 
               else
               {
-                return_value_dbus_error_is_set$4=dbus_error_is_set(&error);
-                tmp_if_expr$5 = return_value_dbus_error_is_set$4 != 0u ? (_Bool)1 : (_Bool)0;
+                return_value_dbus_error_is_set_4=dbus_error_is_set(&error);
+                tmp_if_expr_5 = return_value_dbus_error_is_set_4 != 0u ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$5)
+              if(tmp_if_expr_5)
                 avahi_client_set_errno(client, -22);
 
               else
               {
-                return_value_dbus_message_get_args$6=dbus_message_get_args(reply, &error, (signed int)111, &path, (signed int)0);
-                if(return_value_dbus_message_get_args$6 == 0u)
-                  tmp_if_expr$8 = (_Bool)1;
+                return_value_dbus_message_get_args_6=dbus_message_get_args(reply, &error, (signed int)111, &path, (signed int)0);
+                if(return_value_dbus_message_get_args_6 == 0u)
+                  tmp_if_expr_8 = (_Bool)1;
 
                 else
                 {
-                  return_value_dbus_error_is_set$7=dbus_error_is_set(&error);
-                  tmp_if_expr$8 = return_value_dbus_error_is_set$7 != 0u ? (_Bool)1 : (_Bool)0;
+                  return_value_dbus_error_is_set_7=dbus_error_is_set(&error);
+                  tmp_if_expr_8 = return_value_dbus_error_is_set_7 != 0u ? (_Bool)1 : (_Bool)0;
                 }
-                if(path == ((char *)NULL) || tmp_if_expr$8)
+                if(path == ((char *)NULL) || tmp_if_expr_8)
                   avahi_client_set_errno(client, -22);
 
                 else
@@ -7668,9 +7668,9 @@ struct AvahiServiceBrowser * avahi_service_browser_new(struct AvahiClient *clien
 
 fail:
   ;
-  unsigned int return_value_dbus_error_is_set$9;
-  return_value_dbus_error_is_set$9=dbus_error_is_set(&error);
-  if(!(return_value_dbus_error_is_set$9 == 0u))
+  unsigned int return_value_dbus_error_is_set_9;
+  return_value_dbus_error_is_set_9=dbus_error_is_set(&error);
+  if(!(return_value_dbus_error_is_set_9 == 0u))
   {
     avahi_client_set_dbus_error(client, &error);
     dbus_error_free(&error);
@@ -7697,12 +7697,12 @@ signed int avahi_service_name_join(char *p, unsigned long int size, const char *
   char normalized_domain[1014l];
   /* assertion p */
   assert(p != ((char *)NULL));
-  signed int return_value_avahi_is_valid_service_name$1;
-  char *tmp_if_expr$7;
+  signed int return_value_avahi_is_valid_service_name_1;
+  char *tmp_if_expr_7;
   if(!(name == ((const char *)NULL)))
   {
-    return_value_avahi_is_valid_service_name$1=avahi_is_valid_service_name(name);
-    if(!(return_value_avahi_is_valid_service_name$1 == 0))
+    return_value_avahi_is_valid_service_name_1=avahi_is_valid_service_name(name);
+    if(!(return_value_avahi_is_valid_service_name_1 == 0))
       goto __CPROVER_DUMP_L1;
 
     return -10;
@@ -7713,16 +7713,16 @@ signed int avahi_service_name_join(char *p, unsigned long int size, const char *
 
   __CPROVER_DUMP_L1:
     ;
-    signed int return_value_avahi_is_valid_service_type_generic$2;
-    return_value_avahi_is_valid_service_type_generic$2=avahi_is_valid_service_type_generic(type);
-    if(return_value_avahi_is_valid_service_type_generic$2 == 0)
+    signed int return_value_avahi_is_valid_service_type_generic_2;
+    return_value_avahi_is_valid_service_type_generic_2=avahi_is_valid_service_type_generic(type);
+    if(return_value_avahi_is_valid_service_type_generic_2 == 0)
       return -11;
 
     else
     {
-      signed int return_value_avahi_is_valid_domain_name$3;
-      return_value_avahi_is_valid_domain_name$3=avahi_is_valid_domain_name(domain);
-      if(return_value_avahi_is_valid_domain_name$3 == 0)
+      signed int return_value_avahi_is_valid_domain_name_3;
+      return_value_avahi_is_valid_domain_name_3=avahi_is_valid_domain_name(domain);
+      if(return_value_avahi_is_valid_domain_name_3 == 0)
         return -4;
 
       else
@@ -7732,33 +7732,33 @@ signed int avahi_service_name_join(char *p, unsigned long int size, const char *
           unsigned long int l = sizeof(char [256l]) /*256ul*/ ;
           char *e = escaped_name;
           char *r;
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(name);
-          r=avahi_escape_label(name, return_value_strlen$4, &e, &l);
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(name);
+          r=avahi_escape_label(name, return_value_strlen_4, &e, &l);
           /* assertion r */
           assert(r != ((char *)NULL));
         }
 
-        char *return_value_avahi_normalize_name$5;
-        return_value_avahi_normalize_name$5=avahi_normalize_name(type, normalized_type, sizeof(char [1014l]) /*1014ul*/ );
-        if(return_value_avahi_normalize_name$5 == ((char *)NULL))
+        char *return_value_avahi_normalize_name_5;
+        return_value_avahi_normalize_name_5=avahi_normalize_name(type, normalized_type, sizeof(char [1014l]) /*1014ul*/ );
+        if(return_value_avahi_normalize_name_5 == ((char *)NULL))
           return -11;
 
         else
         {
-          char *return_value_avahi_normalize_name$6;
-          return_value_avahi_normalize_name$6=avahi_normalize_name(domain, normalized_domain, sizeof(char [1014l]) /*1014ul*/ );
-          if(return_value_avahi_normalize_name$6 == ((char *)NULL))
+          char *return_value_avahi_normalize_name_6;
+          return_value_avahi_normalize_name_6=avahi_normalize_name(domain, normalized_domain, sizeof(char [1014l]) /*1014ul*/ );
+          if(return_value_avahi_normalize_name_6 == ((char *)NULL))
             return -4;
 
           else
           {
             if(!(name == ((const char *)NULL)))
-              tmp_if_expr$7 = escaped_name;
+              tmp_if_expr_7 = escaped_name;
 
             else
-              tmp_if_expr$7 = "";
-            snprintf(p, size, "%s%s%s.%s", tmp_if_expr$7, name != ((const char *)NULL) ? "." : "", (const void *)normalized_type, (const void *)normalized_domain);
+              tmp_if_expr_7 = "";
+            snprintf(p, size, "%s%s%s.%s", tmp_if_expr_7, name != ((const char *)NULL) ? "." : "", (const void *)normalized_type, (const void *)normalized_domain);
             return 0;
           }
         }
@@ -7771,12 +7771,12 @@ signed int avahi_service_name_join(char *p, unsigned long int size, const char *
 // file domain.c line 496
 signed int avahi_service_name_split(const char *p, char *name, unsigned long int name_size, char *type, unsigned long int type_size, char *domain, unsigned long int domain_size)
 {
-  /* #anon_enum$NAME=0$TYPE=1$DOMAIN=2 */
-enum anonymous$24 { NAME=0, TYPE=1, DOMAIN=2 };
+  /* #anon_enum_NAME=0_TYPE=1_DOMAIN=2 */
+enum anonymous_24 { NAME=0, TYPE=1, DOMAIN=2 };
 
 /* */
   ;
-  enum anonymous$24 state;
+  enum anonymous_24 state;
   signed int type_empty = 1;
   signed int domain_empty = 1;
   /* assertion p */
@@ -7794,23 +7794,23 @@ enum anonymous$24 { NAME=0, TYPE=1, DOMAIN=2 };
     /* assertion name_size > 0 */
     assert(name_size > (unsigned long int)0);
     *name = (char)0;
-    state = (enum anonymous$24)NAME;
+    state = (enum anonymous_24)NAME;
   }
 
   else
-    state = (enum anonymous$24)TYPE;
+    state = (enum anonymous_24)TYPE;
   *domain = (char)0;
   *type = *domain;
-  char *tmp_post$2;
-  char *tmp_post$5;
-  unsigned long int return_value_strlen$6;
-  char *return_value_avahi_escape_label$7;
+  char *tmp_post_2;
+  char *tmp_post_5;
+  unsigned long int return_value_strlen_6;
+  char *return_value_avahi_escape_label_7;
   while(!(*p == 0))
   {
     char buf[64l];
-    char *return_value_avahi_unescape_label$1;
-    return_value_avahi_unescape_label$1=avahi_unescape_label(&p, buf, sizeof(char [64l]) /*64ul*/ );
-    if(return_value_avahi_unescape_label$1 == ((char *)NULL))
+    char *return_value_avahi_unescape_label_1;
+    return_value_avahi_unescape_label_1=avahi_unescape_label(&p, buf, sizeof(char [64l]) /*64ul*/ );
+    if(return_value_avahi_unescape_label_1 == ((char *)NULL))
       return -1;
 
     switch((signed int)state)
@@ -7818,7 +7818,7 @@ enum anonymous$24 { NAME=0, TYPE=1, DOMAIN=2 };
       case NAME:
       {
         strlcpy(name, buf, name_size);
-        state = (enum anonymous$24)TYPE;
+        state = (enum anonymous_24)TYPE;
         break;
       }
       case TYPE:
@@ -7830,25 +7830,25 @@ enum anonymous$24 { NAME=0, TYPE=1, DOMAIN=2 };
             if(type_size == 0ul)
               return -24;
 
-            tmp_post$2 = type;
+            tmp_post_2 = type;
             type = type + 1l;
-            *tmp_post$2 = (char)46;
+            *tmp_post_2 = (char)46;
             type_size = type_size - 1ul;
           }
 
           else
             type_empty = 0;
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(buf);
-          char *return_value_avahi_escape_label$4;
-          return_value_avahi_escape_label$4=avahi_escape_label(buf, return_value_strlen$3, &type, &type_size);
-          if(return_value_avahi_escape_label$4 == ((char *)NULL))
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(buf);
+          char *return_value_avahi_escape_label_4;
+          return_value_avahi_escape_label_4=avahi_escape_label(buf, return_value_strlen_3, &type, &type_size);
+          if(return_value_avahi_escape_label_4 == ((char *)NULL))
             return -24;
 
           break;
         }
 
-        state = (enum anonymous$24)DOMAIN;
+        state = (enum anonymous_24)DOMAIN;
       }
       case DOMAIN:
       {
@@ -7857,17 +7857,17 @@ enum anonymous$24 { NAME=0, TYPE=1, DOMAIN=2 };
           if(domain_size == 0ul)
             return -24;
 
-          tmp_post$5 = domain;
+          tmp_post_5 = domain;
           domain = domain + 1l;
-          *tmp_post$5 = (char)46;
+          *tmp_post_5 = (char)46;
           domain_size = domain_size - 1ul;
         }
 
         else
           domain_empty = 0;
-        return_value_strlen$6=strlen(buf);
-        return_value_avahi_escape_label$7=avahi_escape_label(buf, return_value_strlen$6, &domain, &domain_size);
-        if(return_value_avahi_escape_label$7 == ((char *)NULL))
+        return_value_strlen_6=strlen(buf);
+        return_value_avahi_escape_label_7=avahi_escape_label(buf, return_value_strlen_6, &domain, &domain_size);
+        if(return_value_avahi_escape_label_7 == ((char *)NULL))
           return -24;
 
       }
@@ -7878,7 +7878,7 @@ enum anonymous$24 { NAME=0, TYPE=1, DOMAIN=2 };
 
 // avahi_service_resolver_event
 // file internal.h line 164
-enum anonymous$28 avahi_service_resolver_event(struct AvahiClient *client, enum anonymous$6 event, struct DBusMessage *message)
+enum anonymous_28 avahi_service_resolver_event(struct AvahiClient *client, enum anonymous_6 event, struct DBusMessage *message)
 {
   struct AvahiServiceResolver *r = (struct AvahiServiceResolver *)(void *)0;
   struct DBusError error;
@@ -7890,7 +7890,7 @@ enum anonymous$28 avahi_service_resolver_event(struct AvahiClient *client, enum 
   assert(message != ((struct DBusMessage *)NULL));
   dbus_error_init(&error);
   path=dbus_message_get_path(message);
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   signed int j;
   signed int interface;
   signed int protocol;
@@ -7905,25 +7905,25 @@ enum anonymous$28 avahi_service_resolver_event(struct AvahiClient *client, enum 
   struct DBusMessageIter iter;
   struct DBusMessageIter sub;
   struct AvahiAddress a;
-  unsigned int return_value_dbus_message_get_args$2;
-  _Bool tmp_if_expr$4;
-  unsigned int return_value_dbus_error_is_set$3;
-  signed int return_value_dbus_message_iter_get_arg_type$5;
-  _Bool tmp_if_expr$7;
-  signed int return_value_dbus_message_iter_get_element_type$6;
-  signed int return_value_dbus_message_iter_get_arg_type$9;
+  unsigned int return_value_dbus_message_get_args_2;
+  _Bool tmp_if_expr_4;
+  unsigned int return_value_dbus_error_is_set_3;
+  signed int return_value_dbus_message_iter_get_arg_type_5;
+  _Bool tmp_if_expr_7;
+  signed int return_value_dbus_message_iter_get_element_type_6;
+  signed int return_value_dbus_message_iter_get_arg_type_9;
   char *etxt;
-  unsigned int return_value_dbus_message_get_args$10;
-  _Bool tmp_if_expr$12;
-  unsigned int return_value_dbus_error_is_set$11;
-  signed int return_value_avahi_error_dbus_to_number$13;
+  unsigned int return_value_dbus_message_get_args_10;
+  _Bool tmp_if_expr_12;
+  unsigned int return_value_dbus_error_is_set_11;
+  signed int return_value_avahi_error_dbus_to_number_13;
   if(!(path == ((const char *)NULL)))
   {
     r = client->service_resolvers;
     for( ; !(r == ((struct AvahiServiceResolver *)NULL)); r = r->service_resolvers_next)
     {
-      return_value_strcmp$1=strcmp(r->path, path);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(r->path, path);
+      if(return_value_strcmp_1 == 0)
         break;
 
     }
@@ -7934,16 +7934,16 @@ enum anonymous$28 avahi_service_resolver_event(struct AvahiClient *client, enum 
     {
       case AVAHI_RESOLVER_FOUND:
       {
-        return_value_dbus_message_get_args$2=dbus_message_get_args(message, &error, (signed int)105, &interface, (signed int)105, &protocol, (signed int)115, &name, (signed int)115, &type, (signed int)115, &domain, (signed int)115, &host, (signed int)105, &aprotocol, (signed int)115, &address, (signed int)113, &port, (signed int)0);
-        if(return_value_dbus_message_get_args$2 == 0u)
-          tmp_if_expr$4 = (_Bool)1;
+        return_value_dbus_message_get_args_2=dbus_message_get_args(message, &error, (signed int)105, &interface, (signed int)105, &protocol, (signed int)115, &name, (signed int)115, &type, (signed int)115, &domain, (signed int)115, &host, (signed int)105, &aprotocol, (signed int)115, &address, (signed int)113, &port, (signed int)0);
+        if(return_value_dbus_message_get_args_2 == 0u)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$3=dbus_error_is_set(&error);
-          tmp_if_expr$4 = return_value_dbus_error_is_set$3 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_3=dbus_error_is_set(&error);
+          tmp_if_expr_4 = return_value_dbus_error_is_set_3 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
         {
           fprintf(stderr, "Failed to parse resolver event.\n");
           goto fail;
@@ -7953,16 +7953,16 @@ enum anonymous$28 avahi_service_resolver_event(struct AvahiClient *client, enum 
         j = 0;
         for( ; !(j >= 9); j = j + 1)
           dbus_message_iter_next(&iter);
-        return_value_dbus_message_iter_get_arg_type$5=dbus_message_iter_get_arg_type(&iter);
-        if(!(return_value_dbus_message_iter_get_arg_type$5 == 97))
-          tmp_if_expr$7 = (_Bool)1;
+        return_value_dbus_message_iter_get_arg_type_5=dbus_message_iter_get_arg_type(&iter);
+        if(!(return_value_dbus_message_iter_get_arg_type_5 == 97))
+          tmp_if_expr_7 = (_Bool)1;
 
         else
         {
-          return_value_dbus_message_iter_get_element_type$6=dbus_message_iter_get_element_type(&iter);
-          tmp_if_expr$7 = return_value_dbus_message_iter_get_element_type$6 != (signed int)97 ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_message_iter_get_element_type_6=dbus_message_iter_get_element_type(&iter);
+          tmp_if_expr_7 = return_value_dbus_message_iter_get_element_type_6 != (signed int)97 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$7)
+        if(tmp_if_expr_7)
         {
           fprintf(stderr, "Error parsing service resolving message\n");
           goto fail;
@@ -7982,9 +7982,9 @@ enum anonymous$28 avahi_service_resolver_event(struct AvahiClient *client, enum 
 
           /* assertion at == ((int) 'a') */
           assert(at == (signed int)97);
-          signed int return_value_dbus_message_iter_get_element_type$8;
-          return_value_dbus_message_iter_get_element_type$8=dbus_message_iter_get_element_type(&sub);
-          if(!(return_value_dbus_message_iter_get_element_type$8 == 121))
+          signed int return_value_dbus_message_iter_get_element_type_8;
+          return_value_dbus_message_iter_get_element_type_8=dbus_message_iter_get_element_type(&sub);
+          if(!(return_value_dbus_message_iter_get_element_type_8 == 121))
           {
             fprintf(stderr, "Error parsing service resolving message\n");
             goto fail;
@@ -8001,8 +8001,8 @@ enum anonymous$28 avahi_service_resolver_event(struct AvahiClient *client, enum 
         }
         while((_Bool)1);
         dbus_message_iter_next(&iter);
-        return_value_dbus_message_iter_get_arg_type$9=dbus_message_iter_get_arg_type(&iter);
-        if(!(return_value_dbus_message_iter_get_arg_type$9 == 117))
+        return_value_dbus_message_iter_get_arg_type_9=dbus_message_iter_get_arg_type(&iter);
+        if(!(return_value_dbus_message_iter_get_arg_type_9 == 117))
         {
           fprintf(stderr, "Failed to parse resolver event.\n");
           goto fail;
@@ -8016,31 +8016,31 @@ enum anonymous$28 avahi_service_resolver_event(struct AvahiClient *client, enum 
 
         else
           avahi_address_parse(address, (signed int)aprotocol, &a);
-        r->callback(r, (signed int)interface, (signed int)protocol, (enum anonymous$6)AVAHI_RESOLVER_FOUND, name, type, domain, host, address != ((char *)NULL) ? &a : (struct AvahiAddress *)(void *)0, port, strlst, (enum anonymous$3)flags, r->userdata);
+        r->callback(r, (signed int)interface, (signed int)protocol, (enum anonymous_6)AVAHI_RESOLVER_FOUND, name, type, domain, host, address != ((char *)NULL) ? &a : (struct AvahiAddress *)(void *)0, port, strlst, (enum anonymous_3)flags, r->userdata);
       }
       case AVAHI_RESOLVER_FAILURE:
       {
-        return_value_dbus_message_get_args$10=dbus_message_get_args(message, &error, (signed int)115, &etxt, (signed int)0);
-        if(return_value_dbus_message_get_args$10 == 0u)
-          tmp_if_expr$12 = (_Bool)1;
+        return_value_dbus_message_get_args_10=dbus_message_get_args(message, &error, (signed int)115, &etxt, (signed int)0);
+        if(return_value_dbus_message_get_args_10 == 0u)
+          tmp_if_expr_12 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$11=dbus_error_is_set(&error);
-          tmp_if_expr$12 = return_value_dbus_error_is_set$11 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_11=dbus_error_is_set(&error);
+          tmp_if_expr_12 = return_value_dbus_error_is_set_11 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$12)
+        if(tmp_if_expr_12)
         {
           fprintf(stderr, "Failed to parse resolver event.\n");
           goto fail;
         }
 
-        return_value_avahi_error_dbus_to_number$13=avahi_error_dbus_to_number(etxt);
-        avahi_client_set_errno(r->client, return_value_avahi_error_dbus_to_number$13);
-        r->callback(r, r->interface, r->protocol, event, r->name, r->type, r->domain, (const char *)(void *)0, (const struct AvahiAddress *)(void *)0, (unsigned short int)0, (struct AvahiStringList *)(void *)0, (enum anonymous$3)0, r->userdata);
+        return_value_avahi_error_dbus_to_number_13=avahi_error_dbus_to_number(etxt);
+        avahi_client_set_errno(r->client, return_value_avahi_error_dbus_to_number_13);
+        r->callback(r, r->interface, r->protocol, event, r->name, r->type, r->domain, (const char *)(void *)0, (const struct AvahiAddress *)(void *)0, (unsigned short int)0, (struct AvahiStringList *)(void *)0, (enum anonymous_3)0, r->userdata);
       }
     }
-    return (enum anonymous$28)DBUS_HANDLER_RESULT_HANDLED;
+    return (enum anonymous_28)DBUS_HANDLER_RESULT_HANDLED;
   }
 
   else
@@ -8050,7 +8050,7 @@ enum anonymous$28 avahi_service_resolver_event(struct AvahiClient *client, enum 
     ;
     dbus_error_free(&error);
     avahi_string_list_free(strlst);
-    return (enum anonymous$28)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
+    return (enum anonymous_28)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
   }
 }
 
@@ -8058,23 +8058,23 @@ enum anonymous$28 avahi_service_resolver_event(struct AvahiClient *client, enum 
 // file lookup.h line 205
 signed int avahi_service_resolver_free(struct AvahiServiceResolver *r)
 {
-  struct AvahiClient *avahi_service_resolver_free$$1$$client;
+  struct AvahiClient *avahi_service_resolver_free__1__client;
   signed int ret = 0;
   /* assertion r */
   assert(r != ((struct AvahiServiceResolver *)NULL));
-  avahi_service_resolver_free$$1$$client = r->client;
-  signed int return_value_avahi_client_is_connected$1;
+  avahi_service_resolver_free__1__client = r->client;
+  signed int return_value_avahi_client_is_connected_1;
   if(!(r->path == ((char *)NULL)))
   {
-    return_value_avahi_client_is_connected$1=avahi_client_is_connected(avahi_service_resolver_free$$1$$client);
-    if(!(return_value_avahi_client_is_connected$1 == 0))
-      ret=avahi_client_simple_method_call(avahi_service_resolver_free$$1$$client, r->path, "org.freedesktop.Avahi.ServiceResolver", "Free");
+    return_value_avahi_client_is_connected_1=avahi_client_is_connected(avahi_service_resolver_free__1__client);
+    if(!(return_value_avahi_client_is_connected_1 == 0))
+      ret=avahi_client_simple_method_call(avahi_service_resolver_free__1__client, r->path, "org.freedesktop.Avahi.ServiceResolver", "Free");
 
   }
 
   do
   {
-    struct AvahiServiceResolver **_head = &avahi_service_resolver_free$$1$$client->service_resolvers;
+    struct AvahiServiceResolver **_head = &avahi_service_resolver_free__1__client->service_resolvers;
     struct AvahiServiceResolver *_item = r;
     /* assertion _item */
     assert(_item != ((struct AvahiServiceResolver *)NULL));
@@ -8113,7 +8113,7 @@ struct AvahiClient * avahi_service_resolver_get_client(struct AvahiServiceResolv
 
 // avahi_service_resolver_new
 // file resolver.c line 179
-struct AvahiServiceResolver * avahi_service_resolver_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *name, const char *type, const char *domain, signed int aprotocol, enum anonymous$1 flags, void (*callback)(struct AvahiServiceResolver *, signed int, signed int, enum anonymous$6, const char *, const char *, const char *, const char *, const struct AvahiAddress *, unsigned short int, struct AvahiStringList *, enum anonymous$3, void *), void *userdata)
+struct AvahiServiceResolver * avahi_service_resolver_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *name, const char *type, const char *domain, signed int aprotocol, enum anonymous_1 flags, void (*callback)(struct AvahiServiceResolver *, signed int, signed int, enum anonymous_6, const char *, const char *, const char *, const char *, const struct AvahiAddress *, unsigned short int, struct AvahiStringList *, enum anonymous_3, void *), void *userdata)
 {
   struct DBusError error;
   struct AvahiServiceResolver *r = (struct AvahiServiceResolver *)(void *)0;
@@ -8135,22 +8135,22 @@ struct AvahiServiceResolver * avahi_service_resolver_new(struct AvahiClient *cli
     name = "";
 
   dbus_error_init(&error);
-  signed int return_value_avahi_client_is_connected$1;
-  return_value_avahi_client_is_connected$1=avahi_client_is_connected(client);
-  void *return_value_avahi_new_internal$2;
-  unsigned int return_value_dbus_message_append_args$3;
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_dbus_error_is_set$4;
-  unsigned int return_value_dbus_message_get_args$6;
-  _Bool tmp_if_expr$8;
-  unsigned int return_value_dbus_error_is_set$7;
-  if(return_value_avahi_client_is_connected$1 == 0)
+  signed int return_value_avahi_client_is_connected_1;
+  return_value_avahi_client_is_connected_1=avahi_client_is_connected(client);
+  void *return_value_avahi_new_internal_2;
+  unsigned int return_value_dbus_message_append_args_3;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_dbus_error_is_set_4;
+  unsigned int return_value_dbus_message_get_args_6;
+  _Bool tmp_if_expr_8;
+  unsigned int return_value_dbus_error_is_set_7;
+  if(return_value_avahi_client_is_connected_1 == 0)
     avahi_client_set_errno(client, -2);
 
   else
   {
-    return_value_avahi_new_internal$2=avahi_new_internal$link3((unsigned int)1, sizeof(struct AvahiServiceResolver) /*80ul*/ );
-    r = (struct AvahiServiceResolver *)return_value_avahi_new_internal$2;
+    return_value_avahi_new_internal_2=avahi_new_internal_link3((unsigned int)1, sizeof(struct AvahiServiceResolver) /*80ul*/ );
+    r = (struct AvahiServiceResolver *)return_value_avahi_new_internal_2;
     if(r == ((struct AvahiServiceResolver *)NULL))
       avahi_client_set_errno(client, -24);
 
@@ -8228,36 +8228,36 @@ struct AvahiServiceResolver * avahi_service_resolver_new(struct AvahiClient *cli
               i_protocol = (signed int)protocol;
               i_aprotocol = (signed int)aprotocol;
               u_flags = (unsigned int)flags;
-              return_value_dbus_message_append_args$3=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)115, &name, (signed int)115, &type, (signed int)115, &domain, (signed int)105, &i_aprotocol, (signed int)117, &u_flags, (signed int)0);
-              if(return_value_dbus_message_append_args$3 == 0u)
+              return_value_dbus_message_append_args_3=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)115, &name, (signed int)115, &type, (signed int)115, &domain, (signed int)105, &i_aprotocol, (signed int)117, &u_flags, (signed int)0);
+              if(return_value_dbus_message_append_args_3 == 0u)
                 avahi_client_set_errno(client, -24);
 
               else
               {
                 reply=dbus_connection_send_with_reply_and_block(client->bus, message, -1, &error);
                 if(reply == ((struct DBusMessage *)NULL))
-                  tmp_if_expr$5 = (_Bool)1;
+                  tmp_if_expr_5 = (_Bool)1;
 
                 else
                 {
-                  return_value_dbus_error_is_set$4=dbus_error_is_set(&error);
-                  tmp_if_expr$5 = return_value_dbus_error_is_set$4 != 0u ? (_Bool)1 : (_Bool)0;
+                  return_value_dbus_error_is_set_4=dbus_error_is_set(&error);
+                  tmp_if_expr_5 = return_value_dbus_error_is_set_4 != 0u ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$5)
+                if(tmp_if_expr_5)
                   avahi_client_set_errno(client, -22);
 
                 else
                 {
-                  return_value_dbus_message_get_args$6=dbus_message_get_args(reply, &error, (signed int)111, &path, (signed int)0);
-                  if(return_value_dbus_message_get_args$6 == 0u)
-                    tmp_if_expr$8 = (_Bool)1;
+                  return_value_dbus_message_get_args_6=dbus_message_get_args(reply, &error, (signed int)111, &path, (signed int)0);
+                  if(return_value_dbus_message_get_args_6 == 0u)
+                    tmp_if_expr_8 = (_Bool)1;
 
                   else
                   {
-                    return_value_dbus_error_is_set$7=dbus_error_is_set(&error);
-                    tmp_if_expr$8 = return_value_dbus_error_is_set$7 != 0u ? (_Bool)1 : (_Bool)0;
+                    return_value_dbus_error_is_set_7=dbus_error_is_set(&error);
+                    tmp_if_expr_8 = return_value_dbus_error_is_set_7 != 0u ? (_Bool)1 : (_Bool)0;
                   }
-                  if(path == ((char *)NULL) || tmp_if_expr$8)
+                  if(path == ((char *)NULL) || tmp_if_expr_8)
                     avahi_client_set_errno(client, -22);
 
                   else
@@ -8283,9 +8283,9 @@ struct AvahiServiceResolver * avahi_service_resolver_new(struct AvahiClient *cli
 
 fail:
   ;
-  unsigned int return_value_dbus_error_is_set$9;
-  return_value_dbus_error_is_set$9=dbus_error_is_set(&error);
-  if(!(return_value_dbus_error_is_set$9 == 0u))
+  unsigned int return_value_dbus_error_is_set_9;
+  return_value_dbus_error_is_set_9=dbus_error_is_set(&error);
+  if(!(return_value_dbus_error_is_set_9 == 0u))
   {
     avahi_client_set_dbus_error(client, &error);
     dbus_error_free(&error);
@@ -8305,7 +8305,7 @@ fail:
 
 // avahi_service_type_browser_event
 // file internal.h line 160
-enum anonymous$28 avahi_service_type_browser_event(struct AvahiClient *client, enum anonymous$2 event, struct DBusMessage *message)
+enum anonymous_28 avahi_service_type_browser_event(struct AvahiClient *client, enum anonymous_2 event, struct DBusMessage *message)
 {
   struct AvahiServiceTypeBrowser *b = (struct AvahiServiceTypeBrowser *)(void *)0;
   struct DBusError error;
@@ -8321,22 +8321,22 @@ enum anonymous$28 avahi_service_type_browser_event(struct AvahiClient *client, e
   assert(message != ((struct DBusMessage *)NULL));
   dbus_error_init(&error);
   path=dbus_message_get_path(message);
-  signed int return_value_strcmp$1;
-  unsigned int return_value_dbus_message_get_args$2;
-  _Bool tmp_if_expr$4;
-  unsigned int return_value_dbus_error_is_set$3;
+  signed int return_value_strcmp_1;
+  unsigned int return_value_dbus_message_get_args_2;
+  _Bool tmp_if_expr_4;
+  unsigned int return_value_dbus_error_is_set_3;
   char *etxt;
-  unsigned int return_value_dbus_message_get_args$5;
-  _Bool tmp_if_expr$7;
-  unsigned int return_value_dbus_error_is_set$6;
-  signed int return_value_avahi_error_dbus_to_number$8;
+  unsigned int return_value_dbus_message_get_args_5;
+  _Bool tmp_if_expr_7;
+  unsigned int return_value_dbus_error_is_set_6;
+  signed int return_value_avahi_error_dbus_to_number_8;
   if(!(path == ((const char *)NULL)))
   {
     b = client->service_type_browsers;
     for( ; !(b == ((struct AvahiServiceTypeBrowser *)NULL)); b = b->service_type_browsers_next)
     {
-      return_value_strcmp$1=strcmp(b->path, path);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(b->path, path);
+      if(return_value_strcmp_1 == 0)
         break;
 
     }
@@ -8352,16 +8352,16 @@ enum anonymous$28 avahi_service_type_browser_event(struct AvahiClient *client, e
 
       case AVAHI_BROWSER_REMOVE:
       {
-        return_value_dbus_message_get_args$2=dbus_message_get_args(message, &error, (signed int)105, &interface, (signed int)105, &protocol, (signed int)115, &type, (signed int)115, &domain, (signed int)117, &flags, (signed int)0);
-        if(return_value_dbus_message_get_args$2 == 0u)
-          tmp_if_expr$4 = (_Bool)1;
+        return_value_dbus_message_get_args_2=dbus_message_get_args(message, &error, (signed int)105, &interface, (signed int)105, &protocol, (signed int)115, &type, (signed int)115, &domain, (signed int)117, &flags, (signed int)0);
+        if(return_value_dbus_message_get_args_2 == 0u)
+          tmp_if_expr_4 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$3=dbus_error_is_set(&error);
-          tmp_if_expr$4 = return_value_dbus_error_is_set$3 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_3=dbus_error_is_set(&error);
+          tmp_if_expr_4 = return_value_dbus_error_is_set_3 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$4)
+        if(tmp_if_expr_4)
         {
           fprintf(stderr, "Failed to parse browser event.\n");
           goto fail;
@@ -8375,27 +8375,27 @@ enum anonymous$28 avahi_service_type_browser_event(struct AvahiClient *client, e
         break;
       case AVAHI_BROWSER_FAILURE:
       {
-        return_value_dbus_message_get_args$5=dbus_message_get_args(message, &error, (signed int)115, &etxt, (signed int)0);
-        if(return_value_dbus_message_get_args$5 == 0u)
-          tmp_if_expr$7 = (_Bool)1;
+        return_value_dbus_message_get_args_5=dbus_message_get_args(message, &error, (signed int)115, &etxt, (signed int)0);
+        if(return_value_dbus_message_get_args_5 == 0u)
+          tmp_if_expr_7 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$6=dbus_error_is_set(&error);
-          tmp_if_expr$7 = return_value_dbus_error_is_set$6 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_6=dbus_error_is_set(&error);
+          tmp_if_expr_7 = return_value_dbus_error_is_set_6 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$7)
+        if(tmp_if_expr_7)
         {
           fprintf(stderr, "Failed to parse browser event.\n");
           goto fail;
         }
 
-        return_value_avahi_error_dbus_to_number$8=avahi_error_dbus_to_number(etxt);
-        avahi_client_set_errno(b->client, return_value_avahi_error_dbus_to_number$8);
+        return_value_avahi_error_dbus_to_number_8=avahi_error_dbus_to_number(etxt);
+        avahi_client_set_errno(b->client, return_value_avahi_error_dbus_to_number_8);
       }
     }
-    b->callback(b, (signed int)interface, (signed int)protocol, event, type, domain, (enum anonymous$3)flags, b->userdata);
-    return (enum anonymous$28)DBUS_HANDLER_RESULT_HANDLED;
+    b->callback(b, (signed int)interface, (signed int)protocol, event, type, domain, (enum anonymous_3)flags, b->userdata);
+    return (enum anonymous_28)DBUS_HANDLER_RESULT_HANDLED;
   }
 
   else
@@ -8404,7 +8404,7 @@ enum anonymous$28 avahi_service_type_browser_event(struct AvahiClient *client, e
   fail:
     ;
     dbus_error_free(&error);
-    return (enum anonymous$28)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
+    return (enum anonymous_28)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
   }
 }
 
@@ -8412,17 +8412,17 @@ enum anonymous$28 avahi_service_type_browser_event(struct AvahiClient *client, e
 // file lookup.h line 150
 signed int avahi_service_type_browser_free(struct AvahiServiceTypeBrowser *b)
 {
-  struct AvahiClient *avahi_service_type_browser_free$$1$$client;
+  struct AvahiClient *avahi_service_type_browser_free__1__client;
   signed int r = 0;
   /* assertion b */
   assert(b != ((struct AvahiServiceTypeBrowser *)NULL));
-  avahi_service_type_browser_free$$1$$client = b->client;
-  signed int return_value_avahi_client_is_connected$1;
+  avahi_service_type_browser_free__1__client = b->client;
+  signed int return_value_avahi_client_is_connected_1;
   if(!(b->path == ((char *)NULL)))
   {
-    return_value_avahi_client_is_connected$1=avahi_client_is_connected(b->client);
-    if(!(return_value_avahi_client_is_connected$1 == 0))
-      r=avahi_client_simple_method_call(avahi_service_type_browser_free$$1$$client, b->path, "org.freedesktop.Avahi.ServiceTypeBrowser", "Free");
+    return_value_avahi_client_is_connected_1=avahi_client_is_connected(b->client);
+    if(!(return_value_avahi_client_is_connected_1 == 0))
+      r=avahi_client_simple_method_call(avahi_service_type_browser_free__1__client, b->path, "org.freedesktop.Avahi.ServiceTypeBrowser", "Free");
 
   }
 
@@ -8465,7 +8465,7 @@ struct AvahiClient * avahi_service_type_browser_get_client(struct AvahiServiceTy
 
 // avahi_service_type_browser_new
 // file browser.c line 350
-struct AvahiServiceTypeBrowser * avahi_service_type_browser_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *domain, enum anonymous$1 flags, void (*callback)(struct AvahiServiceTypeBrowser *, signed int, signed int, enum anonymous$2, const char *, const char *, enum anonymous$3, void *), void *userdata)
+struct AvahiServiceTypeBrowser * avahi_service_type_browser_new(struct AvahiClient *client, signed int interface, signed int protocol, const char *domain, enum anonymous_1 flags, void (*callback)(struct AvahiServiceTypeBrowser *, signed int, signed int, enum anonymous_2, const char *, const char *, enum anonymous_3, void *), void *userdata)
 {
   struct AvahiServiceTypeBrowser *b = (struct AvahiServiceTypeBrowser *)(void *)0;
   struct DBusMessage *message = (struct DBusMessage *)(void *)0;
@@ -8478,18 +8478,18 @@ struct AvahiServiceTypeBrowser * avahi_service_type_browser_new(struct AvahiClie
   /* assertion client */
   assert(client != ((struct AvahiClient *)NULL));
   /* assertion callback */
-  assert(callback != ((void (*)(struct AvahiServiceTypeBrowser *, signed int, signed int, enum anonymous$2, const char *, const char *, enum anonymous$3, void *))NULL));
+  assert(callback != ((void (*)(struct AvahiServiceTypeBrowser *, signed int, signed int, enum anonymous_2, const char *, const char *, enum anonymous_3, void *))NULL));
   dbus_error_init(&error);
-  signed int return_value_avahi_client_is_connected$1;
-  return_value_avahi_client_is_connected$1=avahi_client_is_connected(client);
-  void *return_value_avahi_new_internal$2;
-  unsigned int return_value_dbus_message_append_args$3;
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_dbus_error_is_set$4;
-  unsigned int return_value_dbus_message_get_args$6;
-  _Bool tmp_if_expr$8;
-  unsigned int return_value_dbus_error_is_set$7;
-  if(return_value_avahi_client_is_connected$1 == 0)
+  signed int return_value_avahi_client_is_connected_1;
+  return_value_avahi_client_is_connected_1=avahi_client_is_connected(client);
+  void *return_value_avahi_new_internal_2;
+  unsigned int return_value_dbus_message_append_args_3;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_dbus_error_is_set_4;
+  unsigned int return_value_dbus_message_get_args_6;
+  _Bool tmp_if_expr_8;
+  unsigned int return_value_dbus_error_is_set_7;
+  if(return_value_avahi_client_is_connected_1 == 0)
     avahi_client_set_errno(client, -2);
 
   else
@@ -8497,8 +8497,8 @@ struct AvahiServiceTypeBrowser * avahi_service_type_browser_new(struct AvahiClie
     if(domain == ((const char *)NULL))
       domain = "";
 
-    return_value_avahi_new_internal$2=avahi_new_internal$link2((unsigned int)1, sizeof(struct AvahiServiceTypeBrowser) /*64ul*/ );
-    b = (struct AvahiServiceTypeBrowser *)return_value_avahi_new_internal$2;
+    return_value_avahi_new_internal_2=avahi_new_internal_link2((unsigned int)1, sizeof(struct AvahiServiceTypeBrowser) /*64ul*/ );
+    b = (struct AvahiServiceTypeBrowser *)return_value_avahi_new_internal_2;
     if(b == ((struct AvahiServiceTypeBrowser *)NULL))
       avahi_client_set_errno(client, -24);
 
@@ -8548,36 +8548,36 @@ struct AvahiServiceTypeBrowser * avahi_service_type_browser_new(struct AvahiClie
           i_interface = (signed int)interface;
           i_protocol = (signed int)protocol;
           u_flags = (unsigned int)flags;
-          return_value_dbus_message_append_args$3=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)115, &domain, (signed int)117, &u_flags, (signed int)0);
-          if(return_value_dbus_message_append_args$3 == 0u)
+          return_value_dbus_message_append_args_3=dbus_message_append_args(message, (signed int)105, &i_interface, (signed int)105, &i_protocol, (signed int)115, &domain, (signed int)117, &u_flags, (signed int)0);
+          if(return_value_dbus_message_append_args_3 == 0u)
             avahi_client_set_errno(client, -24);
 
           else
           {
             reply=dbus_connection_send_with_reply_and_block(client->bus, message, -1, &error);
             if(reply == ((struct DBusMessage *)NULL))
-              tmp_if_expr$5 = (_Bool)1;
+              tmp_if_expr_5 = (_Bool)1;
 
             else
             {
-              return_value_dbus_error_is_set$4=dbus_error_is_set(&error);
-              tmp_if_expr$5 = return_value_dbus_error_is_set$4 != 0u ? (_Bool)1 : (_Bool)0;
+              return_value_dbus_error_is_set_4=dbus_error_is_set(&error);
+              tmp_if_expr_5 = return_value_dbus_error_is_set_4 != 0u ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$5)
+            if(tmp_if_expr_5)
               avahi_client_set_errno(client, -22);
 
             else
             {
-              return_value_dbus_message_get_args$6=dbus_message_get_args(reply, &error, (signed int)111, &path, (signed int)0);
-              if(return_value_dbus_message_get_args$6 == 0u)
-                tmp_if_expr$8 = (_Bool)1;
+              return_value_dbus_message_get_args_6=dbus_message_get_args(reply, &error, (signed int)111, &path, (signed int)0);
+              if(return_value_dbus_message_get_args_6 == 0u)
+                tmp_if_expr_8 = (_Bool)1;
 
               else
               {
-                return_value_dbus_error_is_set$7=dbus_error_is_set(&error);
-                tmp_if_expr$8 = return_value_dbus_error_is_set$7 != 0u ? (_Bool)1 : (_Bool)0;
+                return_value_dbus_error_is_set_7=dbus_error_is_set(&error);
+                tmp_if_expr_8 = return_value_dbus_error_is_set_7 != 0u ? (_Bool)1 : (_Bool)0;
               }
-              if(path == ((char *)NULL) || tmp_if_expr$8)
+              if(path == ((char *)NULL) || tmp_if_expr_8)
                 avahi_client_set_errno(client, -22);
 
               else
@@ -8602,9 +8602,9 @@ struct AvahiServiceTypeBrowser * avahi_service_type_browser_new(struct AvahiClie
 
 fail:
   ;
-  unsigned int return_value_dbus_error_is_set$9;
-  return_value_dbus_error_is_set$9=dbus_error_is_set(&error);
-  if(!(return_value_dbus_error_is_set$9 == 0u))
+  unsigned int return_value_dbus_error_is_set_9;
+  return_value_dbus_error_is_set_9=dbus_error_is_set(&error);
+  if(!(return_value_dbus_error_is_set_9 == 0u))
   {
     avahi_client_set_dbus_error(client, &error);
     dbus_error_free(&error);
@@ -8639,7 +8639,7 @@ signed int avahi_simple_poll_dispatch(struct AvahiSimplePoll *s)
   assert(s != ((struct AvahiSimplePoll *)NULL));
   /* assertion s->state == STATE_RAN */
   assert((signed int)s->state == STATE_RAN);
-  s->state = (enum anonymous$4)STATE_DISPATCHING;
+  s->state = (enum anonymous_4)STATE_DISPATCHING;
   next_timeout=find_next_timeout(s);
   if(!(next_timeout == ((struct AvahiTimeout *)NULL)))
   {
@@ -8647,17 +8647,17 @@ signed int avahi_simple_poll_dispatch(struct AvahiSimplePoll *s)
     {
       if(next_timeout->expiry.tv_usec == 0l)
       {
-        timeout_callback$link1(next_timeout);
+        timeout_callback_link1(next_timeout);
         goto finish;
       }
 
     }
 
-    signed long int return_value_avahi_age$1;
-    return_value_avahi_age$1=avahi_age(&next_timeout->expiry);
-    if(return_value_avahi_age$1 >= 0l)
+    signed long int return_value_avahi_age_1;
+    return_value_avahi_age_1=avahi_age(&next_timeout->expiry);
+    if(return_value_avahi_age_1 >= 0l)
     {
-      timeout_callback$link1(next_timeout);
+      timeout_callback_link1(next_timeout);
       goto finish;
     }
 
@@ -8673,7 +8673,7 @@ signed int avahi_simple_poll_dispatch(struct AvahiSimplePoll *s)
       assert(w->idx < s->n_pollfds);
       if(!((signed int)(s->pollfds + (signed long int)w->idx)->revents == 0))
       {
-        w->callback(w, w->pollfd.fd, (enum anonymous$9)(s->pollfds + (signed long int)w->idx)->revents, w->userdata);
+        w->callback(w, w->pollfd.fd, (enum anonymous_9)(s->pollfds + (signed long int)w->idx)->revents, w->userdata);
         break;
       }
 
@@ -8682,7 +8682,7 @@ signed int avahi_simple_poll_dispatch(struct AvahiSimplePoll *s)
 
 finish:
   ;
-  s->state = (enum anonymous$4)STATE_DISPATCHED;
+  s->state = (enum anonymous_4)STATE_DISPATCHED;
   return 0;
 }
 
@@ -8749,22 +8749,22 @@ signed int avahi_simple_poll_loop(struct AvahiSimplePoll *s)
   signed int r;
   /* assertion s */
   assert(s != ((struct AvahiSimplePoll *)NULL));
-  _Bool tmp_if_expr$2;
-  signed int *return_value___errno_location$1;
+  _Bool tmp_if_expr_2;
+  signed int *return_value___errno_location_1;
   do
   {
     r=avahi_simple_poll_iterate(s, -1);
     if(!(r == 0))
     {
       if(r >= 0)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$1=__errno_location();
-        tmp_if_expr$2 = *return_value___errno_location$1 != 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_1=__errno_location();
+        tmp_if_expr_2 = *return_value___errno_location_1 != 4 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$2)
+      if(tmp_if_expr_2)
         return r;
 
     }
@@ -8778,17 +8778,17 @@ signed int avahi_simple_poll_loop(struct AvahiSimplePoll *s)
 struct AvahiSimplePoll * avahi_simple_poll_new(void)
 {
   struct AvahiSimplePoll *s;
-  void *return_value_avahi_new_internal$1;
-  return_value_avahi_new_internal$1=avahi_new_internal$link2$link1((unsigned int)1, sizeof(struct AvahiSimplePoll) /*160ul*/ );
-  s = (struct AvahiSimplePoll *)return_value_avahi_new_internal$1;
+  void *return_value_avahi_new_internal_1;
+  return_value_avahi_new_internal_1=avahi_new_internal_link2_link1((unsigned int)1, sizeof(struct AvahiSimplePoll) /*160ul*/ );
+  s = (struct AvahiSimplePoll *)return_value_avahi_new_internal_1;
   if(s == ((struct AvahiSimplePoll *)NULL))
     return (struct AvahiSimplePoll *)(void *)0;
 
   else
   {
-    signed int return_value_pipe$2;
-    return_value_pipe$2=pipe(s->wakeup_pipe);
-    if(!(return_value_pipe$2 >= 0))
+    signed int return_value_pipe_2;
+    return_value_pipe_2=pipe(s->wakeup_pipe);
+    if(!(return_value_pipe_2 >= 0))
     {
       avahi_free((void *)s);
       return (struct AvahiSimplePoll *)(void *)0;
@@ -8796,8 +8796,8 @@ struct AvahiSimplePoll * avahi_simple_poll_new(void)
 
     else
     {
-      set_nonblock$link1(s->wakeup_pipe[(signed long int)0]);
-      set_nonblock$link1(s->wakeup_pipe[(signed long int)1]);
+      set_nonblock_link1(s->wakeup_pipe[(signed long int)0]);
+      set_nonblock_link1(s->wakeup_pipe[(signed long int)1]);
       s->api.userdata = (void *)s;
       s->api.watch_new = watch_new;
       s->api.watch_free = watch_free;
@@ -8816,7 +8816,7 @@ struct AvahiSimplePoll * avahi_simple_poll_new(void)
       s->watch_req_cleanup = 0;
       s->timeout_req_cleanup = 0;
       s->prepared_timeout = 0;
-      s->state = (enum anonymous$4)STATE_INIT;
+      s->state = (enum anonymous_4)STATE_INIT;
       s->wakeup_issued = 0;
       avahi_simple_poll_set_func(s, (signed int (*)(struct pollfd *, unsigned int, signed int, void *))(void *)0, (void *)0);
       do
@@ -8837,21 +8837,21 @@ signed int avahi_simple_poll_prepare(struct AvahiSimplePoll *s, signed int timeo
   struct AvahiTimeout *next_timeout;
   /* assertion s */
   assert(s != ((struct AvahiSimplePoll *)NULL));
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)s->state == STATE_INIT)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)s->state == STATE_DISPATCHED ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (signed int)s->state == STATE_DISPATCHED ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)s->state == STATE_FAILURE ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = (signed int)s->state == STATE_FAILURE ? (_Bool)1 : (_Bool)0;
   /* assertion s->state == STATE_INIT || s->state == STATE_DISPATCHED || s->state == STATE_FAILURE */
-  assert(tmp_if_expr$2);
-  s->state = (enum anonymous$4)STATE_PREPARING;
+  assert(tmp_if_expr_2);
+  s->state = (enum anonymous_4)STATE_PREPARING;
   clear_wakeup(s);
   if(!(s->watch_req_cleanup == 0))
     cleanup_watches(s, 0);
@@ -8859,21 +8859,21 @@ signed int avahi_simple_poll_prepare(struct AvahiSimplePoll *s, signed int timeo
   if(!(s->timeout_req_cleanup == 0))
     cleanup_timeouts(s, 0);
 
-  signed int return_value_rebuild$3;
+  signed int return_value_rebuild_3;
   if(!(s->quit == 0))
   {
-    s->state = (enum anonymous$4)STATE_QUIT;
+    s->state = (enum anonymous_4)STATE_QUIT;
     return 1;
   }
 
   else
     if(!(s->rebuild_pollfds == 0))
     {
-      return_value_rebuild$3=rebuild(s);
-      if(return_value_rebuild$3 >= 0)
+      return_value_rebuild_3=rebuild(s);
+      if(return_value_rebuild_3 >= 0)
         goto __CPROVER_DUMP_L8;
 
-      s->state = (enum anonymous$4)STATE_FAILURE;
+      s->state = (enum anonymous_4)STATE_FAILURE;
       return -1;
     }
 
@@ -8920,7 +8920,7 @@ signed int avahi_simple_poll_prepare(struct AvahiSimplePoll *s, signed int timeo
     finish:
       ;
       s->prepared_timeout = timeout;
-      s->state = (enum anonymous$4)STATE_PREPARED;
+      s->state = (enum anonymous_4)STATE_PREPARED;
       return 0;
     }
 }
@@ -8941,30 +8941,30 @@ signed int avahi_simple_poll_run(struct AvahiSimplePoll *s)
 {
   /* assertion s */
   assert(s != ((struct AvahiSimplePoll *)NULL));
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)s->state == STATE_PREPARED)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)s->state == STATE_FAILURE ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)s->state == STATE_FAILURE ? (_Bool)1 : (_Bool)0;
   /* assertion s->state == STATE_PREPARED || s->state == STATE_FAILURE */
-  assert(tmp_if_expr$1);
-  s->state = (enum anonymous$4)STATE_RUNNING;
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  *return_value___errno_location$2 = 0;
+  assert(tmp_if_expr_1);
+  s->state = (enum anonymous_4)STATE_RUNNING;
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  *return_value___errno_location_2 = 0;
   signed int return_value;
   return_value=s->poll_func(s->pollfds, (unsigned int)s->n_pollfds, s->prepared_timeout, s->poll_func_userdata);
   if(!(return_value >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    s->state = (enum anonymous$4)STATE_FAILURE;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    s->state = (enum anonymous_4)STATE_FAILURE;
     return -1;
   }
 
   s->events_valid = 1;
-  s->state = (enum anonymous$4)STATE_RAN;
+  s->state = (enum anonymous_4)STATE_RAN;
   return 0;
 }
 
@@ -9002,9 +9002,9 @@ char * avahi_strdup(const char *s)
   else
   {
     size=strlen(s);
-    void *return_value_avahi_malloc$1;
-    return_value_avahi_malloc$1=avahi_malloc(size + (unsigned long int)1);
-    r = (char *)return_value_avahi_malloc$1;
+    void *return_value_avahi_malloc_1;
+    return_value_avahi_malloc_1=avahi_malloc(size + (unsigned long int)1);
+    r = (char *)return_value_avahi_malloc_1;
     if(r == ((char *)NULL))
       return (char *)(void *)0;
 
@@ -9038,9 +9038,9 @@ char * avahi_strdup_vprintf(const char *fmt, void **ap)
   char *buf;
   /* assertion fmt */
   assert(fmt != ((const char *)NULL));
-  void *return_value_avahi_malloc$1;
-  return_value_avahi_malloc$1=avahi_malloc(len);
-  buf = (char *)return_value_avahi_malloc$1;
+  void *return_value_avahi_malloc_1;
+  return_value_avahi_malloc_1=avahi_malloc(len);
+  buf = (char *)return_value_avahi_malloc_1;
   if(buf == ((char *)NULL))
     return (char *)(void *)0;
 
@@ -9060,9 +9060,9 @@ char * avahi_strdup_vprintf(const char *fmt, void **ap)
 
       else
         len = len * (unsigned long int)2;
-      void *return_value_avahi_realloc$2;
-      return_value_avahi_realloc$2=avahi_realloc((void *)buf, len);
-      nbuf = (char *)return_value_avahi_realloc$2;
+      void *return_value_avahi_realloc_2;
+      return_value_avahi_realloc_2=avahi_realloc((void *)buf, len);
+      nbuf = (char *)return_value_avahi_realloc_2;
       if(nbuf == ((char *)NULL))
       {
         avahi_free((void *)buf);
@@ -9081,18 +9081,18 @@ const char * avahi_strerror(signed int error)
   const char * const msg[54l] = { "OK", "Operation failed", "Bad state", "Invalid host name", "Invalid domain name", "No suitable network protocol available",
     "Invalid DNS TTL", "Resource record key is pattern", "Local name collision", "Invalid record", "Invalid service name", "Invalid service type", "Invalid port number", "Invalid record key", "Invalid address", "Timeout reached", "Too many clients", "Too many objects", "Too many entries", "OS Error", "Access denied", "Invalid operation", "An unexpected D-Bus error occurred", "Daemon connection failed", "Memory exhausted", "The object passed in was not valid", "Daemon not running", "Invalid interface index", "Invalid protocol specification", "Invalid flags", "Not found", "Invalid configuration", "Version mismatch", "Invalid service subtype", "Invalid packet", "Invalid DNS return code", "DNS failure: FORMERR", "DNS failure: SERVFAIL", "DNS failure: NXDOMAIN", "DNS failure: NOTIMP", "DNS failure: REFUSED", "DNS failure: YXDOMAIN", "DNS failure: YXRRSET", "DNS failure: NXRRSET", "DNS failure: NOTAUTH", "DNS failure: NOTZONE", "Invalid RDATA", "Invalid DNS type", "Invalid DNS class", "Not supported", "Not permitted", "Invalid argument", "Is empty", "The requested operation is invalid because redundant" };
   avahi_init_i18n();
-  char *return_value_dgettext$1;
+  char *return_value_dgettext_1;
   if(-error >= 54 || !(-error >= 0))
   {
-    return_value_dgettext$1=dgettext("avahi", "Invalid Error Code");
-    return return_value_dgettext$1;
+    return_value_dgettext_1=dgettext("avahi", "Invalid Error Code");
+    return return_value_dgettext_1;
   }
 
   else
   {
-    char *return_value_dgettext$2;
-    return_value_dgettext$2=dgettext("avahi", msg[(signed long int)-error]);
-    return return_value_dgettext$2;
+    char *return_value_dgettext_2;
+    return_value_dgettext_2=dgettext("avahi", msg[(signed long int)-error]);
+    return return_value_dgettext_2;
   }
 }
 
@@ -9102,11 +9102,11 @@ struct AvahiStringList * avahi_string_list_add(struct AvahiStringList *l, const 
 {
   /* assertion text */
   assert(text != ((const char *)NULL));
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(text);
-  struct AvahiStringList *return_value_avahi_string_list_add_arbitrary$2;
-  return_value_avahi_string_list_add_arbitrary$2=avahi_string_list_add_arbitrary(l, (const unsigned char *)text, return_value_strlen$1);
-  return return_value_avahi_string_list_add_arbitrary$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(text);
+  struct AvahiStringList *return_value_avahi_string_list_add_arbitrary_2;
+  return_value_avahi_string_list_add_arbitrary_2=avahi_string_list_add_arbitrary(l, (const unsigned char *)text, return_value_strlen_1);
+  return return_value_avahi_string_list_add_arbitrary_2;
 }
 
 // avahi_string_list_add_anonymous
@@ -9114,9 +9114,9 @@ struct AvahiStringList * avahi_string_list_add(struct AvahiStringList *l, const 
 struct AvahiStringList * avahi_string_list_add_anonymous(struct AvahiStringList *l, unsigned long int size)
 {
   struct AvahiStringList *n;
-  void *return_value_avahi_malloc$1;
-  return_value_avahi_malloc$1=avahi_malloc(sizeof(struct AvahiStringList) /*24ul*/  + size);
-  n = (struct AvahiStringList *)return_value_avahi_malloc$1;
+  void *return_value_avahi_malloc_1;
+  return_value_avahi_malloc_1=avahi_malloc(sizeof(struct AvahiStringList) /*24ul*/  + size);
+  n = (struct AvahiStringList *)return_value_avahi_malloc_1;
   if(n == ((struct AvahiStringList *)NULL))
     return (struct AvahiStringList *)(void *)0;
 
@@ -9182,18 +9182,18 @@ struct AvahiStringList * avahi_string_list_add_pair(struct AvahiStringList *l, c
 {
   /* assertion key */
   assert(key != ((const char *)NULL));
-  struct AvahiStringList *return_value_avahi_string_list_add_printf$1;
-  struct AvahiStringList *return_value_avahi_string_list_add$2;
+  struct AvahiStringList *return_value_avahi_string_list_add_printf_1;
+  struct AvahiStringList *return_value_avahi_string_list_add_2;
   if(!(value == ((const char *)NULL)))
   {
-    return_value_avahi_string_list_add_printf$1=avahi_string_list_add_printf(l, "%s=%s", key, value);
-    return return_value_avahi_string_list_add_printf$1;
+    return_value_avahi_string_list_add_printf_1=avahi_string_list_add_printf(l, "%s=%s", key, value);
+    return return_value_avahi_string_list_add_printf_1;
   }
 
   else
   {
-    return_value_avahi_string_list_add$2=avahi_string_list_add(l, key);
-    return return_value_avahi_string_list_add$2;
+    return_value_avahi_string_list_add_2=avahi_string_list_add(l, key);
+    return return_value_avahi_string_list_add_2;
   }
 }
 
@@ -9204,11 +9204,11 @@ struct AvahiStringList * avahi_string_list_add_pair_arbitrary(struct AvahiString
   unsigned long int n;
   /* assertion key */
   assert(key != ((const char *)NULL));
-  struct AvahiStringList *return_value_avahi_string_list_add$1;
+  struct AvahiStringList *return_value_avahi_string_list_add_1;
   if(value == ((const unsigned char *)NULL))
   {
-    return_value_avahi_string_list_add$1=avahi_string_list_add(l, key);
-    return return_value_avahi_string_list_add$1;
+    return_value_avahi_string_list_add_1=avahi_string_list_add(l, key);
+    return return_value_avahi_string_list_add_1;
   }
 
   else
@@ -9249,9 +9249,9 @@ struct AvahiStringList * avahi_string_list_add_vprintf(struct AvahiStringList *l
   struct AvahiStringList *r;
   /* assertion format */
   assert(format != ((const char *)NULL));
-  void *return_value_avahi_malloc$1;
-  return_value_avahi_malloc$1=avahi_malloc(sizeof(struct AvahiStringList) /*24ul*/  + len);
-  r = (struct AvahiStringList *)return_value_avahi_malloc$1;
+  void *return_value_avahi_malloc_1;
+  return_value_avahi_malloc_1=avahi_malloc(sizeof(struct AvahiStringList) /*24ul*/  + len);
+  r = (struct AvahiStringList *)return_value_avahi_malloc_1;
   if(r == ((struct AvahiStringList *)NULL))
     return (struct AvahiStringList *)(void *)0;
 
@@ -9272,9 +9272,9 @@ struct AvahiStringList * avahi_string_list_add_vprintf(struct AvahiStringList *l
 
       else
         len = len * (unsigned long int)2;
-      void *return_value_avahi_realloc$2;
-      return_value_avahi_realloc$2=avahi_realloc((void *)r, sizeof(struct AvahiStringList) /*24ul*/  + len);
-      nr = (struct AvahiStringList *)return_value_avahi_realloc$2;
+      void *return_value_avahi_realloc_2;
+      return_value_avahi_realloc_2=avahi_realloc((void *)r, sizeof(struct AvahiStringList) /*24ul*/  + len);
+      nr = (struct AvahiStringList *)return_value_avahi_realloc_2;
       if(nr == ((struct AvahiStringList *)NULL))
       {
         avahi_free((void *)r);
@@ -9305,16 +9305,16 @@ struct AvahiStringList * avahi_string_list_copy(const struct AvahiStringList *l)
     }
 
   }
-  struct AvahiStringList *return_value_avahi_string_list_reverse$1;
-  return_value_avahi_string_list_reverse$1=avahi_string_list_reverse(r);
-  return return_value_avahi_string_list_reverse$1;
+  struct AvahiStringList *return_value_avahi_string_list_reverse_1;
+  return_value_avahi_string_list_reverse_1=avahi_string_list_reverse(r);
+  return return_value_avahi_string_list_reverse_1;
 }
 
 // avahi_string_list_equal
 // file strlst.c line 235
 signed int avahi_string_list_equal(const struct AvahiStringList *a, const struct AvahiStringList *b)
 {
-  signed int return_value_memcmp$1;
+  signed int return_value_memcmp_1;
   while((_Bool)1)
   {
     if(a == ((const struct AvahiStringList *)NULL) && b == ((const struct AvahiStringList *)NULL))
@@ -9328,8 +9328,8 @@ signed int avahi_string_list_equal(const struct AvahiStringList *a, const struct
 
     if(!(a->size == 0ul))
     {
-      return_value_memcmp$1=memcmp((const void *)a->text, (const void *)b->text, a->size);
-      if(!(return_value_memcmp$1 == 0))
+      return_value_memcmp_1=memcmp((const void *)a->text, (const void *)b->text, a->size);
+      if(!(return_value_memcmp_1 == 0))
         return 0;
 
     }
@@ -9349,14 +9349,14 @@ struct AvahiStringList * avahi_string_list_find(struct AvahiStringList *l, const
   n=strlen(key);
   for( ; !(l == ((struct AvahiStringList *)NULL)); l = l->next)
   {
-    signed int return_value_strcasecmp$1;
-    return_value_strcasecmp$1=strcasecmp((char *)l->text, key);
-    if(return_value_strcasecmp$1 == 0)
+    signed int return_value_strcasecmp_1;
+    return_value_strcasecmp_1=strcasecmp((char *)l->text, key);
+    if(return_value_strcasecmp_1 == 0)
       return l;
 
-    signed int return_value_strncasecmp$2;
-    return_value_strncasecmp$2=strncasecmp((char *)l->text, key, n);
-    if(return_value_strncasecmp$2 == 0)
+    signed int return_value_strncasecmp_2;
+    return_value_strncasecmp_2=strncasecmp((char *)l->text, key, n);
+    if(return_value_strncasecmp_2 == 0)
     {
       if((signed int)l->text[(signed long int)n] == 61)
         return l;
@@ -9395,9 +9395,9 @@ signed int avahi_string_list_get_pair(struct AvahiStringList *l, char **key, cha
   char *e;
   /* assertion l */
   assert(l != ((struct AvahiStringList *)NULL));
-  void *return_value_memchr$2;
-  return_value_memchr$2=memchr((const void *)l->text, 61, l->size);
-  e = (char *)return_value_memchr$2;
+  void *return_value_memchr_2;
+  return_value_memchr_2=memchr((const void *)l->text, 61, l->size);
+  e = (char *)return_value_memchr_2;
   if(e == ((char *)NULL))
   {
     if(!(key == ((char **)NULL)))
@@ -9431,9 +9431,9 @@ signed int avahi_string_list_get_pair(struct AvahiStringList *l, char **key, cha
     n = l->size - (unsigned long int)(e - (char *)l->text);
     if(!(value == ((char **)NULL)))
     {
-      void *return_value_avahi_memdup$1;
-      return_value_avahi_memdup$1=avahi_memdup((const void *)e, n + (unsigned long int)1);
-      *value = (char *)return_value_avahi_memdup$1;
+      void *return_value_avahi_memdup_1;
+      return_value_avahi_memdup_1=avahi_memdup((const void *)e, n + (unsigned long int)1);
+      *value = (char *)return_value_avahi_memdup_1;
       if(*value == ((char *)NULL))
       {
         if(!(key == ((char **)NULL)))
@@ -9466,16 +9466,16 @@ unsigned int avahi_string_list_get_service_cookie(struct AvahiStringList *l)
 
   else
   {
-    signed int return_value_avahi_string_list_get_pair$1;
-    return_value_avahi_string_list_get_pair$1=avahi_string_list_get_pair(f, (char **)(void *)0, &value, (unsigned long int *)(void *)0);
-    if(value == ((char *)NULL) || !(return_value_avahi_string_list_get_pair$1 >= 0))
+    signed int return_value_avahi_string_list_get_pair_1;
+    return_value_avahi_string_list_get_pair_1=avahi_string_list_get_pair(f, (char **)(void *)0, &value, (unsigned long int *)(void *)0);
+    if(value == ((char *)NULL) || !(return_value_avahi_string_list_get_pair_1 >= 0))
       return (unsigned int)0;
 
     else
     {
-      signed long long int return_value_strtoll$2;
-      return_value_strtoll$2=strtoll(value, &end, 0);
-      ret = (unsigned int)return_value_strtoll$2;
+      signed long long int return_value_strtoll_2;
+      return_value_strtoll_2=strtoll(value, &end, 0);
+      ret = (unsigned int)return_value_strtoll_2;
       if(!(*value == 0))
       {
         if(end == ((char *)NULL))
@@ -9554,15 +9554,15 @@ struct AvahiStringList * avahi_string_list_new_from_array(const char **array, si
   /* assertion array */
   assert(array != ((const char **)NULL));
   i = 0;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   do
   {
     if(length >= 0)
-      tmp_if_expr$1 = (signed int)(i < length);
+      tmp_if_expr_1 = (signed int)(i < length);
 
     else
-      tmp_if_expr$1 = (signed int)!(!(array[(signed long int)i] != ((const char *)NULL)));
-    if(tmp_if_expr$1 == 0)
+      tmp_if_expr_1 = (signed int)!(!(array[(signed long int)i] != ((const char *)NULL)));
+    if(tmp_if_expr_1 == 0)
       break;
 
     r=avahi_string_list_add(r, array[(signed long int)i]);
@@ -9576,9 +9576,9 @@ struct AvahiStringList * avahi_string_list_new_from_array(const char **array, si
 // file ../avahi-common/strlst.h line 55
 struct AvahiStringList * avahi_string_list_new_va(void **va)
 {
-  struct AvahiStringList *return_value_avahi_string_list_add_many_va$1;
-  return_value_avahi_string_list_add_many_va$1=avahi_string_list_add_many_va((struct AvahiStringList *)(void *)0, va);
-  return return_value_avahi_string_list_add_many_va$1;
+  struct AvahiStringList *return_value_avahi_string_list_add_many_va_1;
+  return_value_avahi_string_list_add_many_va_1=avahi_string_list_add_many_va((struct AvahiStringList *)(void *)0, va);
+  return return_value_avahi_string_list_add_many_va_1;
 }
 
 // avahi_string_list_parse
@@ -9592,13 +9592,13 @@ signed int avahi_string_list_parse(const void *data, unsigned long int size, str
   /* assertion ret */
   assert(ret != ((struct AvahiStringList **)NULL));
   c = (const unsigned char *)data;
-  const unsigned char *tmp_post$1;
+  const unsigned char *tmp_post_1;
   while(size >= 1ul)
   {
     unsigned long int k;
-    tmp_post$1 = c;
+    tmp_post_1 = c;
     c = c + 1l;
-    k = (unsigned long int)*tmp_post$1;
+    k = (unsigned long int)*tmp_post_1;
     size = size - 1ul;
     if(!(size >= k))
       goto fail;
@@ -9645,17 +9645,17 @@ struct AvahiStringList * avahi_string_list_reverse(struct AvahiStringList *l)
 unsigned long int avahi_string_list_serialize(struct AvahiStringList *l, void *data, unsigned long int size)
 {
   unsigned long int used = (unsigned long int)0;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   if(!(data == NULL))
   {
-    struct AvahiStringList *avahi_string_list_serialize$$1$$1$$n;
+    struct AvahiStringList *avahi_string_list_serialize__1__1__n;
     unsigned char *c;
     l=avahi_string_list_reverse(l);
     c = (unsigned char *)data;
-    avahi_string_list_serialize$$1$$1$$n = l;
-    for( ; size >= 2ul && !(avahi_string_list_serialize$$1$$1$$n == ((struct AvahiStringList *)NULL)); avahi_string_list_serialize$$1$$1$$n = avahi_string_list_serialize$$1$$1$$n->next)
+    avahi_string_list_serialize__1__1__n = l;
+    for( ; size >= 2ul && !(avahi_string_list_serialize__1__1__n == ((struct AvahiStringList *)NULL)); avahi_string_list_serialize__1__1__n = avahi_string_list_serialize__1__1__n->next)
     {
-      unsigned long int k = avahi_string_list_serialize$$1$$1$$n->size;
+      unsigned long int k = avahi_string_list_serialize__1__1__n->size;
       if(!(k == 0ul))
       {
         if(k >= 256ul)
@@ -9664,10 +9664,10 @@ unsigned long int avahi_string_list_serialize(struct AvahiStringList *l, void *d
         if(!(size + 18446744073709551615ul >= k))
           k = size - (unsigned long int)1;
 
-        tmp_post$1 = c;
+        tmp_post_1 = c;
         c = c + 1l;
-        *tmp_post$1 = (unsigned char)k;
-        memcpy((void *)c, (const void *)avahi_string_list_serialize$$1$$1$$n->text, k);
+        *tmp_post_1 = (unsigned char)k;
+        memcpy((void *)c, (const void *)avahi_string_list_serialize__1__1__n->text, k);
         c = c + (signed long int)k;
         used = used + (unsigned long int)1 + k;
         size = size - ((unsigned long int)1 + k);
@@ -9688,13 +9688,13 @@ unsigned long int avahi_string_list_serialize(struct AvahiStringList *l, void *d
     struct AvahiStringList *n = l;
     for( ; !(n == ((struct AvahiStringList *)NULL)); n = n->next)
     {
-      unsigned long int avahi_string_list_serialize$$1$$2$$1$$1$$k = n->size;
-      if(!(avahi_string_list_serialize$$1$$2$$1$$1$$k == 0ul))
+      unsigned long int avahi_string_list_serialize__1__2__1__1__k = n->size;
+      if(!(avahi_string_list_serialize__1__2__1__1__k == 0ul))
       {
-        if(avahi_string_list_serialize$$1$$2$$1$$1$$k >= 256ul)
-          avahi_string_list_serialize$$1$$2$$1$$1$$k = (unsigned long int)255;
+        if(avahi_string_list_serialize__1__2__1__1__k >= 256ul)
+          avahi_string_list_serialize__1__2__1__1__k = (unsigned long int)255;
 
-        used = used + (unsigned long int)1 + avahi_string_list_serialize$$1$$2$$1$$1$$k;
+        used = used + (unsigned long int)1 + avahi_string_list_serialize__1__2__1__1__k;
       }
 
     }
@@ -9721,13 +9721,13 @@ char * avahi_string_list_to_string(struct AvahiStringList *l)
 
     s = s + n->size + (unsigned long int)2;
   }
-  void *return_value_avahi_new_internal$1;
-  return_value_avahi_new_internal$1=avahi_new_internal$link1$link1((unsigned int)(s + (unsigned long int)1), sizeof(char) /*1ul*/ );
-  e = (char *)return_value_avahi_new_internal$1;
+  void *return_value_avahi_new_internal_1;
+  return_value_avahi_new_internal_1=avahi_new_internal_link1_link1((unsigned int)(s + (unsigned long int)1), sizeof(char) /*1ul*/ );
+  e = (char *)return_value_avahi_new_internal_1;
   t = e;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  char *tmp_post$4;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  char *tmp_post_4;
   if(t == ((char *)NULL))
     return (char *)(void *)0;
 
@@ -9739,20 +9739,20 @@ char * avahi_string_list_to_string(struct AvahiStringList *l)
     {
       if(!(n == l))
       {
-        tmp_post$2 = e;
+        tmp_post_2 = e;
         e = e + 1l;
-        *tmp_post$2 = (char)32;
+        *tmp_post_2 = (char)32;
       }
 
-      tmp_post$3 = e;
+      tmp_post_3 = e;
       e = e + 1l;
-      *tmp_post$3 = (char)34;
+      *tmp_post_3 = (char)34;
       strncpy(e, (char *)n->text, n->size);
       e[(signed long int)n->size] = (char)0;
       e=strchr(e, 0);
-      tmp_post$4 = e;
+      tmp_post_4 = e;
       e = e + 1l;
-      *tmp_post$4 = (char)34;
+      *tmp_post_4 = (char)34;
       /* assertion e */
       assert(e != ((char *)NULL));
     }
@@ -9769,7 +9769,7 @@ char * avahi_strndup(const char *s, unsigned long int max)
   char *r;
   unsigned long int size;
   const char *p;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(s == ((const char *)NULL))
     return (char *)(void *)0;
 
@@ -9780,20 +9780,20 @@ char * avahi_strndup(const char *s, unsigned long int max)
     do
     {
       if(!(size >= max))
-        tmp_if_expr$1 = *p != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = *p != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       p = p + 1l;
       size = size + 1ul;
     }
     while((_Bool)1);
-    void *return_value_avahi_new_internal$2;
-    return_value_avahi_new_internal$2=avahi_new_internal$link5((unsigned int)(size + (unsigned long int)1), sizeof(char) /*1ul*/ );
-    r = (char *)return_value_avahi_new_internal$2;
+    void *return_value_avahi_new_internal_2;
+    return_value_avahi_new_internal_2=avahi_new_internal_link5((unsigned int)(size + (unsigned long int)1), sizeof(char) /*1ul*/ );
+    r = (char *)return_value_avahi_new_internal_2;
     if(r == ((char *)NULL))
       return (char *)(void *)0;
 
@@ -9812,20 +9812,20 @@ void avahi_threaded_poll_free(struct AvahiThreadedPoll *p)
 {
   /* assertion p */
   assert(p != ((struct AvahiThreadedPoll *)NULL));
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
   if(p->thread_running == 0)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_pthread_self$1=pthread_self();
-    return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, p->thread_id);
-    tmp_if_expr$3 = !(return_value_pthread_equal$2 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_pthread_self_1=pthread_self();
+    return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, p->thread_id);
+    tmp_if_expr_3 = !(return_value_pthread_equal_2 != 0) ? (_Bool)1 : (_Bool)0;
   }
   /* assertion !p->thread_running || !pthread_equal(pthread_self(), p->thread_id) */
-  assert(tmp_if_expr$3);
+  assert(tmp_if_expr_3);
   if(!(p->thread_running == 0))
     avahi_threaded_poll_stop(p);
 
@@ -9842,9 +9842,9 @@ const struct AvahiPoll * avahi_threaded_poll_get(struct AvahiThreadedPoll *p)
 {
   /* assertion p */
   assert(p != ((struct AvahiThreadedPoll *)NULL));
-  const struct AvahiPoll *return_value_avahi_simple_poll_get$1;
-  return_value_avahi_simple_poll_get$1=avahi_simple_poll_get(p->simple_poll);
-  return return_value_avahi_simple_poll_get$1;
+  const struct AvahiPoll *return_value_avahi_simple_poll_get_1;
+  return_value_avahi_simple_poll_get_1=avahi_simple_poll_get(p->simple_poll);
+  return return_value_avahi_simple_poll_get_1;
 }
 
 // avahi_threaded_poll_lock
@@ -9853,20 +9853,20 @@ void avahi_threaded_poll_lock(struct AvahiThreadedPoll *p)
 {
   /* assertion p */
   assert(p != ((struct AvahiThreadedPoll *)NULL));
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
   if(p->thread_running == 0)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_pthread_self$1=pthread_self();
-    return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, p->thread_id);
-    tmp_if_expr$3 = !(return_value_pthread_equal$2 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_pthread_self_1=pthread_self();
+    return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, p->thread_id);
+    tmp_if_expr_3 = !(return_value_pthread_equal_2 != 0) ? (_Bool)1 : (_Bool)0;
   }
   /* assertion !p->thread_running || !pthread_equal(pthread_self(), p->thread_id) */
-  assert(tmp_if_expr$3);
+  assert(tmp_if_expr_3);
   pthread_mutex_lock(&p->mutex);
 }
 
@@ -9875,16 +9875,16 @@ void avahi_threaded_poll_lock(struct AvahiThreadedPoll *p)
 struct AvahiThreadedPoll * avahi_threaded_poll_new(void)
 {
   struct AvahiThreadedPoll *p;
-  void *return_value_avahi_new_internal$1;
-  return_value_avahi_new_internal$1=avahi_new_internal$link3$link1((unsigned int)1, sizeof(struct AvahiThreadedPoll) /*64ul*/ );
-  p = (struct AvahiThreadedPoll *)return_value_avahi_new_internal$1;
+  void *return_value_avahi_new_internal_1;
+  return_value_avahi_new_internal_1=avahi_new_internal_link3_link1((unsigned int)1, sizeof(struct AvahiThreadedPoll) /*64ul*/ );
+  p = (struct AvahiThreadedPoll *)return_value_avahi_new_internal_1;
   if(!(p == ((struct AvahiThreadedPoll *)NULL)))
   {
     p->simple_poll=avahi_simple_poll_new();
     if(p->simple_poll == ((struct AvahiSimplePoll *)NULL))
       goto fail;
 
-    pthread_mutex_init(&p->mutex, (const union anonymous$26 *)(void *)0);
+    pthread_mutex_init(&p->mutex, (const union anonymous_26 *)(void *)0);
     avahi_simple_poll_set_func(p->simple_poll, poll_func, (void *)&p->mutex);
     p->thread_running = 0;
     return p;
@@ -9916,12 +9916,12 @@ void avahi_threaded_poll_quit(struct AvahiThreadedPoll *p)
 {
   /* assertion p */
   assert(p != ((struct AvahiThreadedPoll *)NULL));
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  signed int return_value_pthread_equal$2;
-  return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, p->thread_id);
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  signed int return_value_pthread_equal_2;
+  return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, p->thread_id);
   /* assertion pthread_equal(pthread_self(), p->thread_id) */
-  assert(return_value_pthread_equal$2 != 0);
+  assert(return_value_pthread_equal_2 != 0);
   avahi_simple_poll_quit(p->simple_poll);
 }
 
@@ -9933,9 +9933,9 @@ signed int avahi_threaded_poll_start(struct AvahiThreadedPoll *p)
   assert(p != ((struct AvahiThreadedPoll *)NULL));
   /* assertion !p->thread_running */
   assert(!(p->thread_running != 0));
-  signed int return_value_pthread_create$1;
-  return_value_pthread_create$1=pthread_create(&p->thread_id, (const union pthread_attr_t *)(void *)0, thread, (void *)p);
-  if(!(return_value_pthread_create$1 >= 0))
+  signed int return_value_pthread_create_1;
+  return_value_pthread_create_1=pthread_create(&p->thread_id, (const union pthread_attr_t *)(void *)0, thread, (void *)p);
+  if(!(return_value_pthread_create_1 >= 0))
     return -1;
 
   else
@@ -9956,12 +9956,12 @@ signed int avahi_threaded_poll_stop(struct AvahiThreadedPoll *p)
 
   else
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    signed int return_value_pthread_equal$2;
-    return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, p->thread_id);
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    signed int return_value_pthread_equal_2;
+    return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, p->thread_id);
     /* assertion !pthread_equal(pthread_self(), p->thread_id) */
-    assert(!(return_value_pthread_equal$2 != 0));
+    assert(!(return_value_pthread_equal_2 != 0));
     pthread_mutex_lock(&p->mutex);
     avahi_simple_poll_quit(p->simple_poll);
     pthread_mutex_unlock(&p->mutex);
@@ -9977,20 +9977,20 @@ void avahi_threaded_poll_unlock(struct AvahiThreadedPoll *p)
 {
   /* assertion p */
   assert(p != ((struct AvahiThreadedPoll *)NULL));
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_pthread_self$1;
-  signed int return_value_pthread_equal$2;
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_pthread_self_1;
+  signed int return_value_pthread_equal_2;
   if(p->thread_running == 0)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_pthread_self$1=pthread_self();
-    return_value_pthread_equal$2=pthread_equal(return_value_pthread_self$1, p->thread_id);
-    tmp_if_expr$3 = !(return_value_pthread_equal$2 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_pthread_self_1=pthread_self();
+    return_value_pthread_equal_2=pthread_equal(return_value_pthread_self_1, p->thread_id);
+    tmp_if_expr_3 = !(return_value_pthread_equal_2 != 0) ? (_Bool)1 : (_Bool)0;
   }
   /* assertion !p->thread_running || !pthread_equal(pthread_self(), p->thread_id) */
-  assert(tmp_if_expr$3);
+  assert(tmp_if_expr_3);
   pthread_mutex_unlock(&p->mutex);
 }
 
@@ -10051,13 +10051,13 @@ signed long int avahi_timeval_diff(struct timeval *a, struct timeval *b)
   assert(a != ((struct timeval *)NULL));
   /* assertion b */
   assert(b != ((struct timeval *)NULL));
-  signed int return_value_avahi_timeval_compare$2;
-  return_value_avahi_timeval_compare$2=avahi_timeval_compare(a, b);
-  signed long int return_value_avahi_timeval_diff$1;
-  if(!(return_value_avahi_timeval_compare$2 >= 0))
+  signed int return_value_avahi_timeval_compare_2;
+  return_value_avahi_timeval_compare_2=avahi_timeval_compare(a, b);
+  signed long int return_value_avahi_timeval_diff_1;
+  if(!(return_value_avahi_timeval_compare_2 >= 0))
   {
-    return_value_avahi_timeval_diff$1=avahi_timeval_diff(b, a);
-    return -return_value_avahi_timeval_diff$1;
+    return_value_avahi_timeval_diff_1=avahi_timeval_diff(b, a);
+    return -return_value_avahi_timeval_diff_1;
   }
 
   else
@@ -10077,15 +10077,15 @@ char * avahi_unescape_label(const char **name, char *dest, unsigned long int siz
   /* assertion name */
   assert(name != ((const char **)NULL));
   d = dest;
-  _Bool tmp_if_expr$8;
-  char *tmp_post$1;
-  const char *tmp_post$2;
-  const unsigned short int **return_value___ctype_b_loc$7;
-  _Bool tmp_if_expr$5;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  char *tmp_post$6;
-  char *tmp_post$9;
-  const char *tmp_post$10;
+  _Bool tmp_if_expr_8;
+  char *tmp_post_1;
+  const char *tmp_post_2;
+  const unsigned short int **return_value___ctype_b_loc_7;
+  _Bool tmp_if_expr_5;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  char *tmp_post_6;
+  char *tmp_post_9;
+  const char *tmp_post_10;
   while((_Bool)1)
   {
     if((unsigned long int)i >= size)
@@ -10109,46 +10109,46 @@ char * avahi_unescape_label(const char **name, char *dest, unsigned long int siz
       else
       {
         if((signed int)*(*name) == 92)
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
-          tmp_if_expr$8 = (signed int)*(*name) == 46 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$8)
+          tmp_if_expr_8 = (signed int)*(*name) == 46 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_8)
         {
-          tmp_post$1 = d;
+          tmp_post_1 = d;
           d = d + 1l;
-          tmp_post$2 = *name;
+          tmp_post_2 = *name;
           *name = *name + 1l;
-          *tmp_post$1 = *tmp_post$2;
+          *tmp_post_1 = *tmp_post_2;
           i = i + 1u;
         }
 
         else
         {
-          return_value___ctype_b_loc$7=__ctype_b_loc();
-          if(!((2048 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)(signed int)*(*name)]) == 0))
+          return_value___ctype_b_loc_7=__ctype_b_loc();
+          if(!((2048 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)(signed int)*(*name)]) == 0))
           {
             signed int n;
-            const unsigned short int **return_value___ctype_b_loc$3;
-            return_value___ctype_b_loc$3=__ctype_b_loc();
-            if((2048 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)(*name)[1l]]) == 0)
-              tmp_if_expr$5 = (_Bool)1;
+            const unsigned short int **return_value___ctype_b_loc_3;
+            return_value___ctype_b_loc_3=__ctype_b_loc();
+            if((2048 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)(*name)[1l]]) == 0)
+              tmp_if_expr_5 = (_Bool)1;
 
             else
             {
-              return_value___ctype_b_loc$4=__ctype_b_loc();
-              tmp_if_expr$5 = !(((signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)(*name)[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0) ? (_Bool)1 : (_Bool)0;
+              return_value___ctype_b_loc_4=__ctype_b_loc();
+              tmp_if_expr_5 = !(((signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)(*name)[(signed long int)2]] & (signed int)(unsigned short int)2048) != 0) ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$5)
+            if(tmp_if_expr_5)
               return (char *)(void *)0;
 
             n = (signed int)(unsigned char)((signed int)*(*name) - 48) * 100 + (signed int)(unsigned char)((signed int)(*name)[(signed long int)1] - 48) * 10 + (signed int)(unsigned char)((signed int)(*name)[(signed long int)2] - 48);
             if(n == 0 || n >= 256)
               return (char *)(void *)0;
 
-            tmp_post$6 = d;
+            tmp_post_6 = d;
             d = d + 1l;
-            *tmp_post$6 = (char)n;
+            *tmp_post_6 = (char)n;
             i = i + 1u;
             *name = *name + (signed long int)3;
           }
@@ -10161,20 +10161,20 @@ char * avahi_unescape_label(const char **name, char *dest, unsigned long int siz
 
     else
     {
-      tmp_post$9 = d;
+      tmp_post_9 = d;
       d = d + 1l;
-      tmp_post$10 = *name;
+      tmp_post_10 = *name;
       *name = *name + 1l;
-      *tmp_post$9 = *tmp_post$10;
+      *tmp_post_9 = *tmp_post_10;
       i = i + 1u;
     }
   }
   /* assertion i < size */
   assert((unsigned long int)i < size);
   *d = (char)0;
-  const char *return_value_avahi_utf8_valid$11;
-  return_value_avahi_utf8_valid$11=avahi_utf8_valid(dest);
-  if(return_value_avahi_utf8_valid$11 == ((const char *)NULL))
+  const char *return_value_avahi_utf8_valid_11;
+  return_value_avahi_utf8_valid_11=avahi_utf8_valid(dest);
+  if(return_value_avahi_utf8_valid_11 == ((const char *)NULL))
     return (char *)(void *)0;
 
   else
@@ -10289,13 +10289,13 @@ struct _IO_FILE * avahi_xdg_config_open(const char *filename)
   /* assertion filename */
   assert(filename != ((const char *)NULL));
   e=getenv("XDG_CONFIG_HOME");
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(e == ((const char *)NULL)))
-    tmp_if_expr$1 = *e != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = *e != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     p = fn;
     snprintf(p, sizeof(char [4096l]) /*4096ul*/ , "%s/%s", e, filename);
@@ -10315,7 +10315,7 @@ struct _IO_FILE * avahi_xdg_config_open(const char *filename)
     }
 
   }
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   if(!(p == ((char *)NULL)))
   {
     f=fopen(p, "r");
@@ -10324,21 +10324,21 @@ struct _IO_FILE * avahi_xdg_config_open(const char *filename)
 
     else
     {
-      return_value___errno_location$2=__errno_location();
-      if(!(*return_value___errno_location$2 == 2))
+      return_value___errno_location_2=__errno_location();
+      if(!(*return_value___errno_location_2 == 2))
         return (struct _IO_FILE *)(void *)0;
 
     }
   }
 
   d=getenv("XDG_CONFIG_DIRS");
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(d == ((const char *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = !(*d != 0) ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = !(*d != 0) ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
     d = "/etc/xdg";
 
   snprintf(buf, sizeof(char [2048l]) /*2048ul*/ , "%s", d);
@@ -10368,41 +10368,41 @@ static signed int check_version(struct AvahiClient *client, signed int *ret_erro
   assert(client != ((struct AvahiClient *)NULL));
   dbus_error_init(&error);
   message=dbus_message_new_method_call("org.freedesktop.Avahi", "/", "org.freedesktop.Avahi.Server", "GetAPIVersion");
-  _Bool tmp_if_expr$14;
-  unsigned int return_value_dbus_error_is_set$13;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_dbus_error_is_set$4;
-  _Bool tmp_if_expr$8;
-  unsigned int return_value_dbus_error_is_set$7;
-  _Bool tmp_if_expr$12;
-  unsigned int return_value_dbus_error_is_set$11;
+  _Bool tmp_if_expr_14;
+  unsigned int return_value_dbus_error_is_set_13;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_dbus_error_is_set_4;
+  _Bool tmp_if_expr_8;
+  unsigned int return_value_dbus_error_is_set_7;
+  _Bool tmp_if_expr_12;
+  unsigned int return_value_dbus_error_is_set_11;
   if(!(message == ((struct DBusMessage *)NULL)))
   {
     reply=dbus_connection_send_with_reply_and_block(client->bus, message, -1, &error);
     if(reply == ((struct DBusMessage *)NULL))
-      tmp_if_expr$14 = (_Bool)1;
+      tmp_if_expr_14 = (_Bool)1;
 
     else
     {
-      return_value_dbus_error_is_set$13=dbus_error_is_set(&error);
-      tmp_if_expr$14 = return_value_dbus_error_is_set$13 != 0u ? (_Bool)1 : (_Bool)0;
+      return_value_dbus_error_is_set_13=dbus_error_is_set(&error);
+      tmp_if_expr_14 = return_value_dbus_error_is_set_13 != 0u ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$14)
+    if(tmp_if_expr_14)
     {
       char *version_str;
-      unsigned int return_value_dbus_error_is_set$1;
-      return_value_dbus_error_is_set$1=dbus_error_is_set(&error);
-      if(return_value_dbus_error_is_set$1 == 0u)
-        tmp_if_expr$3 = (_Bool)1;
+      unsigned int return_value_dbus_error_is_set_1;
+      return_value_dbus_error_is_set_1=dbus_error_is_set(&error);
+      if(return_value_dbus_error_is_set_1 == 0u)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$2=strcmp(error.name, "org.freedesktop.DBus.Error.UnknownMethod");
-        tmp_if_expr$3 = return_value_strcmp$2 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_2=strcmp(error.name, "org.freedesktop.DBus.Error.UnknownMethod");
+        tmp_if_expr_3 = return_value_strcmp_2 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
         goto fail;
 
       dbus_message_unref(message);
@@ -10416,47 +10416,47 @@ static signed int check_version(struct AvahiClient *client, signed int *ret_erro
 
       reply=dbus_connection_send_with_reply_and_block(client->bus, message, -1, &error);
       if(reply == ((struct DBusMessage *)NULL))
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_dbus_error_is_set$4=dbus_error_is_set(&error);
-        tmp_if_expr$5 = return_value_dbus_error_is_set$4 != 0u ? (_Bool)1 : (_Bool)0;
+        return_value_dbus_error_is_set_4=dbus_error_is_set(&error);
+        tmp_if_expr_5 = return_value_dbus_error_is_set_4 != 0u ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
+      if(tmp_if_expr_5)
         goto fail;
 
-      unsigned int return_value_dbus_message_get_args$6;
-      return_value_dbus_message_get_args$6=dbus_message_get_args(reply, &error, (signed int)115, &version_str, (signed int)0);
-      if(return_value_dbus_message_get_args$6 == 0u)
-        tmp_if_expr$8 = (_Bool)1;
+      unsigned int return_value_dbus_message_get_args_6;
+      return_value_dbus_message_get_args_6=dbus_message_get_args(reply, &error, (signed int)115, &version_str, (signed int)0);
+      if(return_value_dbus_message_get_args_6 == 0u)
+        tmp_if_expr_8 = (_Bool)1;
 
       else
       {
-        return_value_dbus_error_is_set$7=dbus_error_is_set(&error);
-        tmp_if_expr$8 = return_value_dbus_error_is_set$7 != 0u ? (_Bool)1 : (_Bool)0;
+        return_value_dbus_error_is_set_7=dbus_error_is_set(&error);
+        tmp_if_expr_8 = return_value_dbus_error_is_set_7 != 0u ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$8)
+      if(tmp_if_expr_8)
         goto fail;
 
-      signed int return_value_strcmp$9;
-      return_value_strcmp$9=strcmp(version_str, "avahi 0.6");
-      version = (unsigned int)(return_value_strcmp$9 == 0 ? 0x0201 : 0x0000);
+      signed int return_value_strcmp_9;
+      return_value_strcmp_9=strcmp(version_str, "avahi 0.6");
+      version = (unsigned int)(return_value_strcmp_9 == 0 ? 0x0201 : 0x0000);
     }
 
     else
     {
-      unsigned int return_value_dbus_message_get_args$10;
-      return_value_dbus_message_get_args$10=dbus_message_get_args(reply, &error, (signed int)117, &version, (signed int)0);
-      if(return_value_dbus_message_get_args$10 == 0u)
-        tmp_if_expr$12 = (_Bool)1;
+      unsigned int return_value_dbus_message_get_args_10;
+      return_value_dbus_message_get_args_10=dbus_message_get_args(reply, &error, (signed int)117, &version, (signed int)0);
+      if(return_value_dbus_message_get_args_10 == 0u)
+        tmp_if_expr_12 = (_Bool)1;
 
       else
       {
-        return_value_dbus_error_is_set$11=dbus_error_is_set(&error);
-        tmp_if_expr$12 = return_value_dbus_error_is_set$11 != 0u ? (_Bool)1 : (_Bool)0;
+        return_value_dbus_error_is_set_11=dbus_error_is_set(&error);
+        tmp_if_expr_12 = return_value_dbus_error_is_set_11 != 0u ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$12)
+      if(tmp_if_expr_12)
         goto fail;
 
     }
@@ -10476,9 +10476,9 @@ static signed int check_version(struct AvahiClient *client, signed int *ret_erro
 
   fail:
     ;
-    unsigned int return_value_dbus_error_is_set$15;
-    return_value_dbus_error_is_set$15=dbus_error_is_set(&error);
-    if(!(return_value_dbus_error_is_set$15 == 0u))
+    unsigned int return_value_dbus_error_is_set_15;
+    return_value_dbus_error_is_set_15=dbus_error_is_set(&error);
+    if(!(return_value_dbus_error_is_set_15 == 0u))
     {
       e=avahi_error_dbus_to_number(error.name);
       dbus_error_free(&error);
@@ -10506,45 +10506,45 @@ static void cleanup_timeouts(struct AvahiSimplePoll *s, signed int all)
   /* assertion s */
   assert(s != ((struct AvahiSimplePoll *)NULL));
   t = s->timeouts;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(t == ((struct AvahiTimeout *)NULL)); t = next)
   {
     next = t->timeouts_next;
     if(!(all == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = t->dead != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = t->dead != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       destroy_timeout(t);
 
   }
   s->timeout_req_cleanup = 0;
 }
 
-// cleanup_timeouts$link1
+// cleanup_timeouts_link1
 // file simple-watch.c line 304
-static void cleanup_timeouts$link1(struct AvahiSimplePoll *s$link1, signed int all$link1)
+static void cleanup_timeouts_link1(struct AvahiSimplePoll *s_link1, signed int all_link1)
 {
-  struct AvahiTimeout *t$link1;
-  struct AvahiTimeout *next$link1;
+  struct AvahiTimeout *t_link1;
+  struct AvahiTimeout *next_link1;
   /* assertion s */
-  assert(s$link1 != ((struct AvahiSimplePoll *)NULL));
-  t$link1 = s$link1->timeouts;
-  _Bool tmp_if_expr$1$link1;
-  for( ; !(t$link1 == ((struct AvahiTimeout *)NULL)); t$link1 = next$link1)
+  assert(s_link1 != ((struct AvahiSimplePoll *)NULL));
+  t_link1 = s_link1->timeouts;
+  _Bool tmp_if_expr_1_link1;
+  for( ; !(t_link1 == ((struct AvahiTimeout *)NULL)); t_link1 = next_link1)
   {
-    next$link1 = t$link1->timeouts_next;
-    if(!(all$link1 == 0))
-      tmp_if_expr$1$link1 = (_Bool)1;
+    next_link1 = t_link1->timeouts_next;
+    if(!(all_link1 == 0))
+      tmp_if_expr_1_link1 = (_Bool)1;
 
     else
-      tmp_if_expr$1$link1 = t$link1->dead != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1$link1)
-      destroy_timeout$link1(t$link1);
+      tmp_if_expr_1_link1 = t_link1->dead != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1_link1)
+      destroy_timeout_link1(t_link1);
 
   }
-  s$link1->timeout_req_cleanup = 0;
+  s_link1->timeout_req_cleanup = 0;
 }
 
 // cleanup_watches
@@ -10556,45 +10556,45 @@ static void cleanup_watches(struct AvahiSimplePoll *s, signed int all)
   /* assertion s */
   assert(s != ((struct AvahiSimplePoll *)NULL));
   w = s->watches;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !(w == ((struct AvahiWatch *)NULL)); w = next)
   {
     next = w->watches_next;
     if(!(all == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = w->dead != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = w->dead != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       destroy_watch(w);
 
   }
   s->timeout_req_cleanup = 0;
 }
 
-// cleanup_watches$link1
+// cleanup_watches_link1
 // file simple-watch.c line 230
-static void cleanup_watches$link1(struct AvahiSimplePoll *s$link1, signed int all$link1)
+static void cleanup_watches_link1(struct AvahiSimplePoll *s_link1, signed int all_link1)
 {
-  struct AvahiWatch *w$link1;
-  struct AvahiWatch *next$link1;
+  struct AvahiWatch *w_link1;
+  struct AvahiWatch *next_link1;
   /* assertion s */
-  assert(s$link1 != ((struct AvahiSimplePoll *)NULL));
-  w$link1 = s$link1->watches;
-  _Bool tmp_if_expr$1$link1;
-  for( ; !(w$link1 == ((struct AvahiWatch *)NULL)); w$link1 = next$link1)
+  assert(s_link1 != ((struct AvahiSimplePoll *)NULL));
+  w_link1 = s_link1->watches;
+  _Bool tmp_if_expr_1_link1;
+  for( ; !(w_link1 == ((struct AvahiWatch *)NULL)); w_link1 = next_link1)
   {
-    next$link1 = w$link1->watches_next;
-    if(!(all$link1 == 0))
-      tmp_if_expr$1$link1 = (_Bool)1;
+    next_link1 = w_link1->watches_next;
+    if(!(all_link1 == 0))
+      tmp_if_expr_1_link1 = (_Bool)1;
 
     else
-      tmp_if_expr$1$link1 = w$link1->dead != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1$link1)
-      destroy_watch$link1(w$link1);
+      tmp_if_expr_1_link1 = w_link1->dead != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1_link1)
+      destroy_watch_link1(w_link1);
 
   }
-  s$link1->timeout_req_cleanup = 0;
+  s_link1->timeout_req_cleanup = 0;
 }
 
 // clear_wakeup
@@ -10602,14 +10602,14 @@ static void cleanup_watches$link1(struct AvahiSimplePoll *s$link1, signed int al
 static void clear_wakeup(struct AvahiSimplePoll *s)
 {
   char c[10l];
-  signed long int return_value_read$1;
+  signed long int return_value_read_1;
   if(!(s->wakeup_issued == 0))
   {
     s->wakeup_issued = 0;
     do
     {
-      return_value_read$1=read(s->wakeup_pipe[(signed long int)0], (void *)&c, sizeof(char [10l]) /*10ul*/ );
-      if(!((unsigned long int)return_value_read$1 == sizeof(char [10l]) /*10ul*/ ))
+      return_value_read_1=read(s->wakeup_pipe[(signed long int)0], (void *)&c, sizeof(char [10l]) /*10ul*/ );
+      if(!((unsigned long int)return_value_read_1 == sizeof(char [10l]) /*10ul*/ ))
         break;
 
     }
@@ -10618,19 +10618,19 @@ static void clear_wakeup(struct AvahiSimplePoll *s)
 
 }
 
-// clear_wakeup$link1
+// clear_wakeup_link1
 // file simple-watch.c line 105
-static void clear_wakeup$link1(struct AvahiSimplePoll *s$link1)
+static void clear_wakeup_link1(struct AvahiSimplePoll *s_link1)
 {
-  char c$link1[10l];
-  signed long int return_value_read$1$link1;
-  if(!(s$link1->wakeup_issued == 0))
+  char c_link1[10l];
+  signed long int return_value_read_1_link1;
+  if(!(s_link1->wakeup_issued == 0))
   {
-    s$link1->wakeup_issued = 0;
+    s_link1->wakeup_issued = 0;
     do
     {
-      return_value_read$1$link1=read(s$link1->wakeup_pipe[(signed long int)0], (void *)&c$link1, sizeof(char [10l]) /*10ul*/ );
-      if(!((unsigned long int)return_value_read$1$link1 == sizeof(char [10l]) /*10ul*/ ))
+      return_value_read_1_link1=read(s_link1->wakeup_pipe[(signed long int)0], (void *)&c_link1, sizeof(char [10l]) /*10ul*/ );
+      if(!((unsigned long int)return_value_read_1_link1 == sizeof(char [10l]) /*10ul*/ ))
         break;
 
     }
@@ -10641,19 +10641,19 @@ static void clear_wakeup$link1(struct AvahiSimplePoll *s$link1)
 
 // client_callback
 // file avahi-set-host-name.c line 56
-static void client_callback(struct AvahiClient *c, enum anonymous$7 state, void *userdata)
+static void client_callback(struct AvahiClient *c, enum anonymous_7 state, void *userdata)
 {
-  char *return_value_dgettext$1;
-  signed int return_value_avahi_client_errno$2;
-  const char *return_value_avahi_strerror$3;
+  char *return_value_dgettext_1;
+  signed int return_value_avahi_client_errno_2;
+  const char *return_value_avahi_strerror_3;
   switch((signed int)state)
   {
     case AVAHI_CLIENT_FAILURE:
     {
-      return_value_dgettext$1=dgettext("avahi", "Client failure, exiting: %s\n");
-      return_value_avahi_client_errno$2=avahi_client_errno(c);
-      return_value_avahi_strerror$3=avahi_strerror(return_value_avahi_client_errno$2);
-      fprintf(stderr, return_value_dgettext$1, return_value_avahi_strerror$3);
+      return_value_dgettext_1=dgettext("avahi", "Client failure, exiting: %s\n");
+      return_value_avahi_client_errno_2=avahi_client_errno(c);
+      return_value_avahi_strerror_3=avahi_strerror(return_value_avahi_client_errno_2);
+      fprintf(stderr, return_value_dgettext_1, return_value_avahi_strerror_3);
       avahi_simple_poll_quit(simple_poll);
       break;
     }
@@ -10672,7 +10672,7 @@ static void client_callback(struct AvahiClient *c, enum anonymous$7 state, void 
 
 // client_set_state
 // file client.c line 58
-static void client_set_state(struct AvahiClient *client, enum anonymous$7 state)
+static void client_set_state(struct AvahiClient *client, enum anonymous_7 state)
 {
   /* assertion client */
   assert(client != ((struct AvahiClient *)NULL));
@@ -10705,7 +10705,7 @@ static void client_set_state(struct AvahiClient *client, enum anonymous$7 state)
       case AVAHI_CLIENT_CONNECTING:
 
       default:
-        if(!(client->callback == ((void (*)(struct AvahiClient *, enum anonymous$7, void *))NULL)))
+        if(!(client->callback == ((void (*)(struct AvahiClient *, enum anonymous_7, void *))NULL)))
           client->callback(client, state, client->userdata);
 
     }
@@ -10729,10 +10729,10 @@ static void close_pipe_fds(void)
 
 // connection_data_ref
 // file ../avahi-common/dbus-watch-glue.c line 68
-static struct anonymous$11 * connection_data_ref(struct anonymous$11 *d)
+static struct anonymous_11 * connection_data_ref(struct anonymous_11 *d)
 {
   /* assertion d */
-  assert(d != ((struct anonymous$11 *)NULL));
+  assert(d != ((struct anonymous_11 *)NULL));
   /* assertion d->ref >= 1 */
   assert(d->ref >= 1);
   d->ref = d->ref + 1;
@@ -10741,10 +10741,10 @@ static struct anonymous$11 * connection_data_ref(struct anonymous$11 *d)
 
 // connection_data_unref
 // file ../avahi-common/dbus-watch-glue.c line 76
-static void connection_data_unref(struct anonymous$11 *d)
+static void connection_data_unref(struct anonymous_11 *d)
 {
   /* assertion d */
-  assert(d != ((struct anonymous$11 *)NULL));
+  assert(d != ((struct anonymous_11 *)NULL));
   /* assertion d->ref >= 1 */
   assert(d->ref >= 1);
   d->ref = d->ref - 1;
@@ -10772,7 +10772,7 @@ static void defer_timeout_callback(struct AvahiTimeout *t, void *userdata)
   {
     if(db->ref >= 2)
     {
-      db->callback(db, -1, -1, (enum anonymous$2)AVAHI_BROWSER_NEW, (char *)l->text, (enum anonymous$3)AVAHI_LOOKUP_RESULT_STATIC, db->userdata);
+      db->callback(db, -1, -1, (enum anonymous_2)AVAHI_BROWSER_NEW, (char *)l->text, (enum anonymous_3)AVAHI_LOOKUP_RESULT_STATIC, db->userdata);
       l = l->next;
     }
 
@@ -10812,35 +10812,35 @@ static void destroy_timeout(struct AvahiTimeout *t)
   avahi_free((void *)t);
 }
 
-// destroy_timeout$link1
+// destroy_timeout_link1
 // file simple-watch.c line 296
-static void destroy_timeout$link1(struct AvahiTimeout *t$link1)
+static void destroy_timeout_link1(struct AvahiTimeout *t_link1)
 {
   /* assertion t */
-  assert(t$link1 != ((struct AvahiTimeout *)NULL));
+  assert(t_link1 != ((struct AvahiTimeout *)NULL));
   do
   {
-    struct AvahiTimeout **_head$link1 = &t$link1->simple_poll->timeouts;
-    struct AvahiTimeout *_item$link1 = t$link1;
+    struct AvahiTimeout **_head_link1 = &t_link1->simple_poll->timeouts;
+    struct AvahiTimeout *_item_link1 = t_link1;
     /* assertion _item */
-    assert(_item$link1 != ((struct AvahiTimeout *)NULL));
-    if(!(_item$link1->timeouts_next == ((struct AvahiTimeout *)NULL)))
-      _item$link1->timeouts_next->timeouts_prev = _item$link1->timeouts_prev;
+    assert(_item_link1 != ((struct AvahiTimeout *)NULL));
+    if(!(_item_link1->timeouts_next == ((struct AvahiTimeout *)NULL)))
+      _item_link1->timeouts_next->timeouts_prev = _item_link1->timeouts_prev;
 
-    if(!(_item$link1->timeouts_prev == ((struct AvahiTimeout *)NULL)))
-      _item$link1->timeouts_prev->timeouts_next = _item$link1->timeouts_next;
+    if(!(_item_link1->timeouts_prev == ((struct AvahiTimeout *)NULL)))
+      _item_link1->timeouts_prev->timeouts_next = _item_link1->timeouts_next;
 
     else
     {
       /* assertion *_head == _item */
-      assert(*_head$link1 == _item$link1);
-      *_head$link1 = _item$link1->timeouts_next;
+      assert(*_head_link1 == _item_link1);
+      *_head_link1 = _item_link1->timeouts_next;
     }
-    _item$link1->timeouts_prev = (struct AvahiTimeout *)(void *)0;
-    _item$link1->timeouts_next = _item$link1->timeouts_prev;
+    _item_link1->timeouts_prev = (struct AvahiTimeout *)(void *)0;
+    _item_link1->timeouts_next = _item_link1->timeouts_prev;
   }
   while((_Bool)0);
-  avahi_free((void *)t$link1);
+  avahi_free((void *)t_link1);
 }
 
 // destroy_watch
@@ -10878,46 +10878,46 @@ static void destroy_watch(struct AvahiWatch *w)
   avahi_free((void *)w);
 }
 
-// destroy_watch$link1
+// destroy_watch_link1
 // file simple-watch.c line 218
-static void destroy_watch$link1(struct AvahiWatch *w$link1)
+static void destroy_watch_link1(struct AvahiWatch *w_link1)
 {
   /* assertion w */
-  assert(w$link1 != ((struct AvahiWatch *)NULL));
-  remove_pollfd$link1(w$link1);
+  assert(w_link1 != ((struct AvahiWatch *)NULL));
+  remove_pollfd_link1(w_link1);
   do
   {
-    struct AvahiWatch **_head$link1 = &w$link1->simple_poll->watches;
-    struct AvahiWatch *_item$link1 = w$link1;
+    struct AvahiWatch **_head_link1 = &w_link1->simple_poll->watches;
+    struct AvahiWatch *_item_link1 = w_link1;
     /* assertion _item */
-    assert(_item$link1 != ((struct AvahiWatch *)NULL));
-    if(!(_item$link1->watches_next == ((struct AvahiWatch *)NULL)))
-      _item$link1->watches_next->watches_prev = _item$link1->watches_prev;
+    assert(_item_link1 != ((struct AvahiWatch *)NULL));
+    if(!(_item_link1->watches_next == ((struct AvahiWatch *)NULL)))
+      _item_link1->watches_next->watches_prev = _item_link1->watches_prev;
 
-    if(!(_item$link1->watches_prev == ((struct AvahiWatch *)NULL)))
-      _item$link1->watches_prev->watches_next = _item$link1->watches_next;
+    if(!(_item_link1->watches_prev == ((struct AvahiWatch *)NULL)))
+      _item_link1->watches_prev->watches_next = _item_link1->watches_next;
 
     else
     {
       /* assertion *_head == _item */
-      assert(*_head$link1 == _item$link1);
-      *_head$link1 = _item$link1->watches_next;
+      assert(*_head_link1 == _item_link1);
+      *_head_link1 = _item_link1->watches_next;
     }
-    _item$link1->watches_prev = (struct AvahiWatch *)(void *)0;
-    _item$link1->watches_next = _item$link1->watches_prev;
+    _item_link1->watches_prev = (struct AvahiWatch *)(void *)0;
+    _item_link1->watches_next = _item_link1->watches_prev;
   }
   while((_Bool)0);
-  if(w$link1->dead == 0)
-    w$link1->simple_poll->n_watches = w$link1->simple_poll->n_watches - 1;
+  if(w_link1->dead == 0)
+    w_link1->simple_poll->n_watches = w_link1->simple_poll->n_watches - 1;
 
-  avahi_free((void *)w$link1);
+  avahi_free((void *)w_link1);
 }
 
 // dispatch_status
 // file ../avahi-common/dbus-watch-glue.c line 310
-static void dispatch_status(struct DBusConnection *connection, enum anonymous$10 new_status, void *userdata)
+static void dispatch_status(struct DBusConnection *connection, enum anonymous_10 new_status, void *userdata)
 {
-  struct anonymous$11 *d = (struct anonymous$11 *)userdata;
+  struct anonymous_11 *d = (struct anonymous_11 *)userdata;
   if((signed int)new_status == DBUS_DISPATCH_DATA_REMAINS)
     request_dispatch(d, 1);
 
@@ -10927,16 +10927,16 @@ static void dispatch_status(struct DBusConnection *connection, enum anonymous$10
 // file ../avahi-common/dbus-watch-glue.c line 97
 static void dispatch_timeout_callback(struct AvahiTimeout *t, void *userdata)
 {
-  struct anonymous$11 *d = (struct anonymous$11 *)userdata;
+  struct anonymous_11 *d = (struct anonymous_11 *)userdata;
   /* assertion t */
   assert(t != ((struct AvahiTimeout *)NULL));
   /* assertion d */
-  assert(d != ((struct anonymous$11 *)NULL));
+  assert(d != ((struct anonymous_11 *)NULL));
   connection_data_ref(d);
   dbus_connection_ref(d->connection);
-  enum anonymous$10 return_value_dbus_connection_dispatch$1;
-  return_value_dbus_connection_dispatch$1=dbus_connection_dispatch(d->connection);
-  if((signed int)return_value_dbus_connection_dispatch$1 == DBUS_DISPATCH_DATA_REMAINS)
+  enum anonymous_10 return_value_dbus_connection_dispatch_1;
+  return_value_dbus_connection_dispatch_1=dbus_connection_dispatch(d->connection);
+  if((signed int)return_value_dbus_connection_dispatch_1 == DBUS_DISPATCH_DATA_REMAINS)
     request_dispatch(d, 1);
 
   else
@@ -10961,14 +10961,14 @@ static void domain_browser_ref(struct AvahiDomainBrowser *db)
 static void drop_incomplete_utf8(char *c)
 {
   char *e;
-  char *return_value_strchr$1;
-  return_value_strchr$1=strchr(c, 0);
-  e = return_value_strchr$1 - (signed long int)1;
+  char *return_value_strchr_1;
+  return_value_strchr_1=strchr(c, 0);
+  e = return_value_strchr_1 - (signed long int)1;
   while(e >= c)
   {
-    const char *return_value_avahi_utf8_valid$2;
-    return_value_avahi_utf8_valid$2=avahi_utf8_valid(c);
-    if(!(return_value_avahi_utf8_valid$2 == ((const char *)NULL)))
+    const char *return_value_avahi_utf8_valid_2;
+    return_value_avahi_utf8_valid_2=avahi_utf8_valid(c);
+    if(!(return_value_avahi_utf8_valid_2 == ((const char *)NULL)))
       break;
 
     /* assertion *e & 128 */
@@ -10978,25 +10978,25 @@ static void drop_incomplete_utf8(char *c)
   }
 }
 
-// drop_incomplete_utf8$link1
+// drop_incomplete_utf8_link1
 // file alternative.c line 34
-static void drop_incomplete_utf8$link1(char *c$link1)
+static void drop_incomplete_utf8_link1(char *c_link1)
 {
-  char *e$link1;
-  char *return_value_strchr$1$link1;
-  return_value_strchr$1$link1=strchr(c$link1, 0);
-  e$link1 = return_value_strchr$1$link1 - (signed long int)1;
-  while(e$link1 >= c$link1)
+  char *e_link1;
+  char *return_value_strchr_1_link1;
+  return_value_strchr_1_link1=strchr(c_link1, 0);
+  e_link1 = return_value_strchr_1_link1 - (signed long int)1;
+  while(e_link1 >= c_link1)
   {
-    const char *return_value_avahi_utf8_valid$2$link1;
-    return_value_avahi_utf8_valid$2$link1=avahi_utf8_valid(c$link1);
-    if(!(return_value_avahi_utf8_valid$2$link1 == ((const char *)NULL)))
+    const char *return_value_avahi_utf8_valid_2_link1;
+    return_value_avahi_utf8_valid_2_link1=avahi_utf8_valid(c_link1);
+    if(!(return_value_avahi_utf8_valid_2_link1 == ((const char *)NULL)))
       break;
 
     /* assertion *e & 128 */
-    assert(((signed int)*e$link1 & 128) != 0);
-    *e$link1 = (char)0;
-    e$link1 = e$link1 - 1l;
+    assert(((signed int)*e_link1 & 128) != 0);
+    *e_link1 = (char)0;
+    e_link1 = e_link1 - 1l;
   }
 }
 
@@ -11008,47 +11008,47 @@ static signed int entry_group_simple_method_call(struct AvahiEntryGroup *group, 
   struct DBusMessage *reply = (struct DBusMessage *)(void *)0;
   struct DBusError error;
   signed int r = 0;
-  struct AvahiClient *entry_group_simple_method_call$$1$$client;
+  struct AvahiClient *entry_group_simple_method_call__1__client;
   dbus_error_init(&error);
   /* assertion group */
   assert(group != ((struct AvahiEntryGroup *)NULL));
-  entry_group_simple_method_call$$1$$client = group->client;
+  entry_group_simple_method_call__1__client = group->client;
   message=dbus_message_new_method_call("org.freedesktop.Avahi", group->path, "org.freedesktop.Avahi.EntryGroup", method);
-  _Bool tmp_if_expr$2;
-  unsigned int return_value_dbus_error_is_set$1;
-  unsigned int return_value_dbus_message_get_args$3;
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_dbus_error_is_set$4;
+  _Bool tmp_if_expr_2;
+  unsigned int return_value_dbus_error_is_set_1;
+  unsigned int return_value_dbus_message_get_args_3;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_dbus_error_is_set_4;
   if(message == ((struct DBusMessage *)NULL))
-    r=avahi_client_set_errno(entry_group_simple_method_call$$1$$client, -24);
+    r=avahi_client_set_errno(entry_group_simple_method_call__1__client, -24);
 
   else
   {
-    reply=dbus_connection_send_with_reply_and_block(entry_group_simple_method_call$$1$$client->bus, message, -1, &error);
+    reply=dbus_connection_send_with_reply_and_block(entry_group_simple_method_call__1__client->bus, message, -1, &error);
     if(reply == ((struct DBusMessage *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
-      return_value_dbus_error_is_set$1=dbus_error_is_set(&error);
-      tmp_if_expr$2 = return_value_dbus_error_is_set$1 != 0u ? (_Bool)1 : (_Bool)0;
+      return_value_dbus_error_is_set_1=dbus_error_is_set(&error);
+      tmp_if_expr_2 = return_value_dbus_error_is_set_1 != 0u ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
-      r=avahi_client_set_errno(entry_group_simple_method_call$$1$$client, -22);
+    if(tmp_if_expr_2)
+      r=avahi_client_set_errno(entry_group_simple_method_call__1__client, -22);
 
     else
     {
-      return_value_dbus_message_get_args$3=dbus_message_get_args(reply, &error, (signed int)0);
-      if(return_value_dbus_message_get_args$3 == 0u)
-        tmp_if_expr$5 = (_Bool)1;
+      return_value_dbus_message_get_args_3=dbus_message_get_args(reply, &error, (signed int)0);
+      if(return_value_dbus_message_get_args_3 == 0u)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_dbus_error_is_set$4=dbus_error_is_set(&error);
-        tmp_if_expr$5 = return_value_dbus_error_is_set$4 != 0u ? (_Bool)1 : (_Bool)0;
+        return_value_dbus_error_is_set_4=dbus_error_is_set(&error);
+        tmp_if_expr_5 = return_value_dbus_error_is_set_4 != 0u ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
-        r=avahi_client_set_errno(entry_group_simple_method_call$$1$$client, -22);
+      if(tmp_if_expr_5)
+        r=avahi_client_set_errno(entry_group_simple_method_call__1__client, -22);
 
       else
       {
@@ -11061,11 +11061,11 @@ static signed int entry_group_simple_method_call(struct AvahiEntryGroup *group, 
 
 fail:
   ;
-  unsigned int return_value_dbus_error_is_set$6;
-  return_value_dbus_error_is_set$6=dbus_error_is_set(&error);
-  if(!(return_value_dbus_error_is_set$6 == 0u))
+  unsigned int return_value_dbus_error_is_set_6;
+  return_value_dbus_error_is_set_6=dbus_error_is_set(&error);
+  if(!(return_value_dbus_error_is_set_6 == 0u))
   {
-    r=avahi_client_set_dbus_error(entry_group_simple_method_call$$1$$client, &error);
+    r=avahi_client_set_dbus_error(entry_group_simple_method_call__1__client, &error);
     dbus_error_free(&error);
   }
 
@@ -11080,151 +11080,151 @@ fail:
 
 // filter_func
 // file client.c line 103
-static enum anonymous$28 filter_func(struct DBusConnection *bus, struct DBusMessage *message, void *userdata)
+static enum anonymous_28 filter_func(struct DBusConnection *bus, struct DBusMessage *message, void *userdata)
 {
-  struct AvahiClient *filter_func$$1$$client = (struct AvahiClient *)userdata;
+  struct AvahiClient *filter_func__1__client = (struct AvahiClient *)userdata;
   struct DBusError error;
   /* assertion bus */
   assert(bus != ((struct DBusConnection *)NULL));
   /* assertion message */
   assert(message != ((struct DBusMessage *)NULL));
   dbus_error_init(&error);
-  unsigned int return_value_dbus_message_is_signal$75;
-  return_value_dbus_message_is_signal$75=dbus_message_is_signal(message, "org.freedesktop.DBus.Local", "Disconnected");
-  unsigned int return_value_dbus_message_is_signal$74;
-  unsigned int return_value_dbus_message_is_signal$73;
-  _Bool tmp_if_expr$3;
-  unsigned int return_value_dbus_error_is_set$2;
-  _Bool tmp_if_expr$6;
-  signed int return_value_avahi_client_is_connected$5;
-  _Bool tmp_if_expr$4;
-  signed int return_value_avahi_client_is_connected$72;
-  unsigned int return_value_dbus_message_is_signal$71;
-  _Bool tmp_if_expr$10;
-  unsigned int return_value_dbus_error_is_set$9;
-  unsigned int return_value_dbus_message_is_signal$70;
-  signed int return_value_strcmp$11;
-  _Bool tmp_if_expr$14;
-  unsigned int return_value_dbus_error_is_set$13;
-  unsigned int return_value_dbus_message_is_signal$69;
-  enum anonymous$28 return_value_avahi_domain_browser_event$15;
-  unsigned int return_value_dbus_message_is_signal$68;
-  enum anonymous$28 return_value_avahi_domain_browser_event$16;
-  unsigned int return_value_dbus_message_is_signal$67;
-  enum anonymous$28 return_value_avahi_domain_browser_event$17;
-  unsigned int return_value_dbus_message_is_signal$66;
-  enum anonymous$28 return_value_avahi_domain_browser_event$18;
-  unsigned int return_value_dbus_message_is_signal$65;
-  enum anonymous$28 return_value_avahi_domain_browser_event$19;
-  unsigned int return_value_dbus_message_is_signal$64;
-  enum anonymous$28 return_value_avahi_service_type_browser_event$20;
-  unsigned int return_value_dbus_message_is_signal$63;
-  enum anonymous$28 return_value_avahi_service_type_browser_event$21;
-  unsigned int return_value_dbus_message_is_signal$62;
-  enum anonymous$28 return_value_avahi_service_type_browser_event$22;
-  unsigned int return_value_dbus_message_is_signal$61;
-  enum anonymous$28 return_value_avahi_service_type_browser_event$23;
-  unsigned int return_value_dbus_message_is_signal$60;
-  enum anonymous$28 return_value_avahi_service_type_browser_event$24;
-  unsigned int return_value_dbus_message_is_signal$59;
-  enum anonymous$28 return_value_avahi_service_browser_event$25;
-  unsigned int return_value_dbus_message_is_signal$58;
-  enum anonymous$28 return_value_avahi_service_browser_event$26;
-  unsigned int return_value_dbus_message_is_signal$57;
-  enum anonymous$28 return_value_avahi_service_browser_event$27;
-  unsigned int return_value_dbus_message_is_signal$56;
-  enum anonymous$28 return_value_avahi_service_browser_event$28;
-  unsigned int return_value_dbus_message_is_signal$55;
-  enum anonymous$28 return_value_avahi_service_browser_event$29;
-  unsigned int return_value_dbus_message_is_signal$54;
-  enum anonymous$28 return_value_avahi_service_resolver_event$30;
-  unsigned int return_value_dbus_message_is_signal$53;
-  enum anonymous$28 return_value_avahi_service_resolver_event$31;
-  unsigned int return_value_dbus_message_is_signal$52;
-  enum anonymous$28 return_value_avahi_host_name_resolver_event$32;
-  unsigned int return_value_dbus_message_is_signal$51;
-  enum anonymous$28 return_value_avahi_host_name_resolver_event$33;
-  unsigned int return_value_dbus_message_is_signal$50;
-  enum anonymous$28 return_value_avahi_address_resolver_event$34;
-  unsigned int return_value_dbus_message_is_signal$49;
-  enum anonymous$28 return_value_avahi_address_resolver_event$35;
-  unsigned int return_value_dbus_message_is_signal$48;
-  enum anonymous$28 return_value_avahi_record_browser_event$36;
-  unsigned int return_value_dbus_message_is_signal$47;
-  enum anonymous$28 return_value_avahi_record_browser_event$37;
-  unsigned int return_value_dbus_message_is_signal$46;
-  enum anonymous$28 return_value_avahi_record_browser_event$38;
-  unsigned int return_value_dbus_message_is_signal$45;
-  enum anonymous$28 return_value_avahi_record_browser_event$39;
-  unsigned int return_value_dbus_message_is_signal$44;
-  enum anonymous$28 return_value_avahi_record_browser_event$40;
-  if(!(return_value_dbus_message_is_signal$75 == 0u))
+  unsigned int return_value_dbus_message_is_signal_75;
+  return_value_dbus_message_is_signal_75=dbus_message_is_signal(message, "org.freedesktop.DBus.Local", "Disconnected");
+  unsigned int return_value_dbus_message_is_signal_74;
+  unsigned int return_value_dbus_message_is_signal_73;
+  _Bool tmp_if_expr_3;
+  unsigned int return_value_dbus_error_is_set_2;
+  _Bool tmp_if_expr_6;
+  signed int return_value_avahi_client_is_connected_5;
+  _Bool tmp_if_expr_4;
+  signed int return_value_avahi_client_is_connected_72;
+  unsigned int return_value_dbus_message_is_signal_71;
+  _Bool tmp_if_expr_10;
+  unsigned int return_value_dbus_error_is_set_9;
+  unsigned int return_value_dbus_message_is_signal_70;
+  signed int return_value_strcmp_11;
+  _Bool tmp_if_expr_14;
+  unsigned int return_value_dbus_error_is_set_13;
+  unsigned int return_value_dbus_message_is_signal_69;
+  enum anonymous_28 return_value_avahi_domain_browser_event_15;
+  unsigned int return_value_dbus_message_is_signal_68;
+  enum anonymous_28 return_value_avahi_domain_browser_event_16;
+  unsigned int return_value_dbus_message_is_signal_67;
+  enum anonymous_28 return_value_avahi_domain_browser_event_17;
+  unsigned int return_value_dbus_message_is_signal_66;
+  enum anonymous_28 return_value_avahi_domain_browser_event_18;
+  unsigned int return_value_dbus_message_is_signal_65;
+  enum anonymous_28 return_value_avahi_domain_browser_event_19;
+  unsigned int return_value_dbus_message_is_signal_64;
+  enum anonymous_28 return_value_avahi_service_type_browser_event_20;
+  unsigned int return_value_dbus_message_is_signal_63;
+  enum anonymous_28 return_value_avahi_service_type_browser_event_21;
+  unsigned int return_value_dbus_message_is_signal_62;
+  enum anonymous_28 return_value_avahi_service_type_browser_event_22;
+  unsigned int return_value_dbus_message_is_signal_61;
+  enum anonymous_28 return_value_avahi_service_type_browser_event_23;
+  unsigned int return_value_dbus_message_is_signal_60;
+  enum anonymous_28 return_value_avahi_service_type_browser_event_24;
+  unsigned int return_value_dbus_message_is_signal_59;
+  enum anonymous_28 return_value_avahi_service_browser_event_25;
+  unsigned int return_value_dbus_message_is_signal_58;
+  enum anonymous_28 return_value_avahi_service_browser_event_26;
+  unsigned int return_value_dbus_message_is_signal_57;
+  enum anonymous_28 return_value_avahi_service_browser_event_27;
+  unsigned int return_value_dbus_message_is_signal_56;
+  enum anonymous_28 return_value_avahi_service_browser_event_28;
+  unsigned int return_value_dbus_message_is_signal_55;
+  enum anonymous_28 return_value_avahi_service_browser_event_29;
+  unsigned int return_value_dbus_message_is_signal_54;
+  enum anonymous_28 return_value_avahi_service_resolver_event_30;
+  unsigned int return_value_dbus_message_is_signal_53;
+  enum anonymous_28 return_value_avahi_service_resolver_event_31;
+  unsigned int return_value_dbus_message_is_signal_52;
+  enum anonymous_28 return_value_avahi_host_name_resolver_event_32;
+  unsigned int return_value_dbus_message_is_signal_51;
+  enum anonymous_28 return_value_avahi_host_name_resolver_event_33;
+  unsigned int return_value_dbus_message_is_signal_50;
+  enum anonymous_28 return_value_avahi_address_resolver_event_34;
+  unsigned int return_value_dbus_message_is_signal_49;
+  enum anonymous_28 return_value_avahi_address_resolver_event_35;
+  unsigned int return_value_dbus_message_is_signal_48;
+  enum anonymous_28 return_value_avahi_record_browser_event_36;
+  unsigned int return_value_dbus_message_is_signal_47;
+  enum anonymous_28 return_value_avahi_record_browser_event_37;
+  unsigned int return_value_dbus_message_is_signal_46;
+  enum anonymous_28 return_value_avahi_record_browser_event_38;
+  unsigned int return_value_dbus_message_is_signal_45;
+  enum anonymous_28 return_value_avahi_record_browser_event_39;
+  unsigned int return_value_dbus_message_is_signal_44;
+  enum anonymous_28 return_value_avahi_record_browser_event_40;
+  if(!(return_value_dbus_message_is_signal_75 == 0u))
   {
-    avahi_client_set_errno(filter_func$$1$$client, -23);
+    avahi_client_set_errno(filter_func__1__client, -23);
     goto fail;
   }
 
   else
   {
-    return_value_dbus_message_is_signal$74=dbus_message_is_signal(message, "org.freedesktop.DBus", "NameAcquired");
-    if(return_value_dbus_message_is_signal$74 == 0u)
+    return_value_dbus_message_is_signal_74=dbus_message_is_signal(message, "org.freedesktop.DBus", "NameAcquired");
+    if(return_value_dbus_message_is_signal_74 == 0u)
     {
-      return_value_dbus_message_is_signal$73=dbus_message_is_signal(message, "org.freedesktop.DBus", "NameOwnerChanged");
-      if(!(return_value_dbus_message_is_signal$73 == 0u))
+      return_value_dbus_message_is_signal_73=dbus_message_is_signal(message, "org.freedesktop.DBus", "NameOwnerChanged");
+      if(!(return_value_dbus_message_is_signal_73 == 0u))
       {
         char *name;
         char *old;
         char *new;
-        unsigned int return_value_dbus_message_get_args$1;
-        return_value_dbus_message_get_args$1=dbus_message_get_args(message, &error, (signed int)115, &name, (signed int)115, &old, (signed int)115, &new, (signed int)0);
-        if(return_value_dbus_message_get_args$1 == 0u)
-          tmp_if_expr$3 = (_Bool)1;
+        unsigned int return_value_dbus_message_get_args_1;
+        return_value_dbus_message_get_args_1=dbus_message_get_args(message, &error, (signed int)115, &name, (signed int)115, &old, (signed int)115, &new, (signed int)0);
+        if(return_value_dbus_message_get_args_1 == 0u)
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
-          return_value_dbus_error_is_set$2=dbus_error_is_set(&error);
-          tmp_if_expr$3 = return_value_dbus_error_is_set$2 != 0u ? (_Bool)1 : (_Bool)0;
+          return_value_dbus_error_is_set_2=dbus_error_is_set(&error);
+          tmp_if_expr_3 = return_value_dbus_error_is_set_2 != 0u ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
+        if(tmp_if_expr_3)
         {
           fprintf(stderr, "WARNING: Failed to parse NameOwnerChanged signal: %s\n", error.message);
-          avahi_client_set_errno(filter_func$$1$$client, -22);
+          avahi_client_set_errno(filter_func__1__client, -22);
           goto fail;
         }
 
-        signed int return_value_strcmp$7;
-        return_value_strcmp$7=strcmp(name, "org.freedesktop.Avahi");
-        if(return_value_strcmp$7 == 0)
+        signed int return_value_strcmp_7;
+        return_value_strcmp_7=strcmp(name, "org.freedesktop.Avahi");
+        if(return_value_strcmp_7 == 0)
         {
           if(!(*old == 0))
           {
-            return_value_avahi_client_is_connected$5=avahi_client_is_connected(filter_func$$1$$client);
-            tmp_if_expr$6 = return_value_avahi_client_is_connected$5 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_avahi_client_is_connected_5=avahi_client_is_connected(filter_func__1__client);
+            tmp_if_expr_6 = return_value_avahi_client_is_connected_5 != 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          if(tmp_if_expr$6)
+            tmp_if_expr_6 = (_Bool)0;
+          if(tmp_if_expr_6)
           {
-            avahi_client_set_errno(filter_func$$1$$client, -23);
+            avahi_client_set_errno(filter_func__1__client, -23);
             goto fail;
           }
 
           else
-            if((signed int)filter_func$$1$$client->state == AVAHI_CLIENT_CONNECTING)
+            if((signed int)filter_func__1__client->state == AVAHI_CLIENT_CONNECTING)
             {
               if(old == ((char *)NULL))
-                tmp_if_expr$4 = (_Bool)1;
+                tmp_if_expr_4 = (_Bool)1;
 
               else
-                tmp_if_expr$4 = (signed int)*old == 0 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$4)
+                tmp_if_expr_4 = (signed int)*old == 0 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_4)
               {
                 signed int ret;
-                ret=init_server(filter_func$$1$$client, (signed int *)(void *)0);
+                ret=init_server(filter_func__1__client, (signed int *)(void *)0);
                 if(!(ret >= 0))
                 {
-                  avahi_client_set_errno(filter_func$$1$$client, ret);
+                  avahi_client_set_errno(filter_func__1__client, ret);
                   goto fail;
                 }
 
@@ -11238,330 +11238,330 @@ static enum anonymous$28 filter_func(struct DBusConnection *bus, struct DBusMess
 
       else
       {
-        return_value_avahi_client_is_connected$72=avahi_client_is_connected(filter_func$$1$$client);
-        if(!(return_value_avahi_client_is_connected$72 == 0))
+        return_value_avahi_client_is_connected_72=avahi_client_is_connected(filter_func__1__client);
+        if(!(return_value_avahi_client_is_connected_72 == 0))
         {
-          return_value_dbus_message_is_signal$71=dbus_message_is_signal(message, "org.freedesktop.Avahi.Server", "StateChanged");
-          if(!(return_value_dbus_message_is_signal$71 == 0u))
+          return_value_dbus_message_is_signal_71=dbus_message_is_signal(message, "org.freedesktop.Avahi.Server", "StateChanged");
+          if(!(return_value_dbus_message_is_signal_71 == 0u))
           {
             signed int state;
             char *e = (char *)(void *)0;
             signed int c;
-            unsigned int return_value_dbus_message_get_args$8;
-            return_value_dbus_message_get_args$8=dbus_message_get_args(message, &error, (signed int)105, &state, (signed int)115, &e, (signed int)0);
-            if(return_value_dbus_message_get_args$8 == 0u)
-              tmp_if_expr$10 = (_Bool)1;
+            unsigned int return_value_dbus_message_get_args_8;
+            return_value_dbus_message_get_args_8=dbus_message_get_args(message, &error, (signed int)105, &state, (signed int)115, &e, (signed int)0);
+            if(return_value_dbus_message_get_args_8 == 0u)
+              tmp_if_expr_10 = (_Bool)1;
 
             else
             {
-              return_value_dbus_error_is_set$9=dbus_error_is_set(&error);
-              tmp_if_expr$10 = return_value_dbus_error_is_set$9 != 0u ? (_Bool)1 : (_Bool)0;
+              return_value_dbus_error_is_set_9=dbus_error_is_set(&error);
+              tmp_if_expr_10 = return_value_dbus_error_is_set_9 != 0u ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$10)
+            if(tmp_if_expr_10)
             {
               fprintf(stderr, "WARNING: Failed to parse Server.StateChanged signal: %s\n", error.message);
-              avahi_client_set_errno(filter_func$$1$$client, -22);
+              avahi_client_set_errno(filter_func__1__client, -22);
               goto fail;
             }
 
             c=avahi_error_dbus_to_number(e);
             if(!(c == 0))
-              avahi_client_set_errno(filter_func$$1$$client, c);
+              avahi_client_set_errno(filter_func__1__client, c);
 
-            client_set_state(filter_func$$1$$client, (enum anonymous$7)state);
+            client_set_state(filter_func__1__client, (enum anonymous_7)state);
           }
 
           else
           {
-            return_value_dbus_message_is_signal$70=dbus_message_is_signal(message, "org.freedesktop.Avahi.EntryGroup", "StateChanged");
-            if(!(return_value_dbus_message_is_signal$70 == 0u))
+            return_value_dbus_message_is_signal_70=dbus_message_is_signal(message, "org.freedesktop.Avahi.EntryGroup", "StateChanged");
+            if(!(return_value_dbus_message_is_signal_70 == 0u))
             {
               const char *path;
               struct AvahiEntryGroup *g;
               path=dbus_message_get_path(message);
-              g = filter_func$$1$$client->groups;
+              g = filter_func__1__client->groups;
               for( ; !(g == ((struct AvahiEntryGroup *)NULL)); g = g->groups_next)
               {
-                return_value_strcmp$11=strcmp(g->path, path);
-                if(return_value_strcmp$11 == 0)
+                return_value_strcmp_11=strcmp(g->path, path);
+                if(return_value_strcmp_11 == 0)
                   break;
 
               }
               if(!(g == ((struct AvahiEntryGroup *)NULL)))
               {
-                signed int filter_func$$1$$6$$2$$state;
-                char *filter_func$$1$$6$$2$$e;
-                signed int filter_func$$1$$6$$2$$c;
-                unsigned int return_value_dbus_message_get_args$12;
-                return_value_dbus_message_get_args$12=dbus_message_get_args(message, &error, (signed int)105, &filter_func$$1$$6$$2$$state, (signed int)115, &filter_func$$1$$6$$2$$e, (signed int)0);
-                if(return_value_dbus_message_get_args$12 == 0u)
-                  tmp_if_expr$14 = (_Bool)1;
+                signed int filter_func__1__6__2__state;
+                char *filter_func__1__6__2__e;
+                signed int filter_func__1__6__2__c;
+                unsigned int return_value_dbus_message_get_args_12;
+                return_value_dbus_message_get_args_12=dbus_message_get_args(message, &error, (signed int)105, &filter_func__1__6__2__state, (signed int)115, &filter_func__1__6__2__e, (signed int)0);
+                if(return_value_dbus_message_get_args_12 == 0u)
+                  tmp_if_expr_14 = (_Bool)1;
 
                 else
                 {
-                  return_value_dbus_error_is_set$13=dbus_error_is_set(&error);
-                  tmp_if_expr$14 = return_value_dbus_error_is_set$13 != 0u ? (_Bool)1 : (_Bool)0;
+                  return_value_dbus_error_is_set_13=dbus_error_is_set(&error);
+                  tmp_if_expr_14 = return_value_dbus_error_is_set_13 != 0u ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$14)
+                if(tmp_if_expr_14)
                 {
                   fprintf(stderr, "WARNING: Failed to parse EntryGroup.StateChanged signal: %s\n", error.message);
-                  avahi_client_set_errno(filter_func$$1$$client, -22);
+                  avahi_client_set_errno(filter_func__1__client, -22);
                   goto fail;
                 }
 
-                filter_func$$1$$6$$2$$c=avahi_error_dbus_to_number(filter_func$$1$$6$$2$$e);
-                if(!(filter_func$$1$$6$$2$$c == 0))
-                  avahi_client_set_errno(filter_func$$1$$client, filter_func$$1$$6$$2$$c);
+                filter_func__1__6__2__c=avahi_error_dbus_to_number(filter_func__1__6__2__e);
+                if(!(filter_func__1__6__2__c == 0))
+                  avahi_client_set_errno(filter_func__1__client, filter_func__1__6__2__c);
 
-                avahi_entry_group_set_state(g, (enum anonymous$27)filter_func$$1$$6$$2$$state);
+                avahi_entry_group_set_state(g, (enum anonymous_27)filter_func__1__6__2__state);
               }
 
             }
 
             else
             {
-              return_value_dbus_message_is_signal$69=dbus_message_is_signal(message, "org.freedesktop.Avahi.DomainBrowser", "ItemNew");
-              if(!(return_value_dbus_message_is_signal$69 == 0u))
+              return_value_dbus_message_is_signal_69=dbus_message_is_signal(message, "org.freedesktop.Avahi.DomainBrowser", "ItemNew");
+              if(!(return_value_dbus_message_is_signal_69 == 0u))
               {
-                return_value_avahi_domain_browser_event$15=avahi_domain_browser_event(filter_func$$1$$client, (enum anonymous$2)AVAHI_BROWSER_NEW, message);
-                return return_value_avahi_domain_browser_event$15;
+                return_value_avahi_domain_browser_event_15=avahi_domain_browser_event(filter_func__1__client, (enum anonymous_2)AVAHI_BROWSER_NEW, message);
+                return return_value_avahi_domain_browser_event_15;
               }
 
               else
               {
-                return_value_dbus_message_is_signal$68=dbus_message_is_signal(message, "org.freedesktop.Avahi.DomainBrowser", "ItemRemove");
-                if(!(return_value_dbus_message_is_signal$68 == 0u))
+                return_value_dbus_message_is_signal_68=dbus_message_is_signal(message, "org.freedesktop.Avahi.DomainBrowser", "ItemRemove");
+                if(!(return_value_dbus_message_is_signal_68 == 0u))
                 {
-                  return_value_avahi_domain_browser_event$16=avahi_domain_browser_event(filter_func$$1$$client, (enum anonymous$2)AVAHI_BROWSER_REMOVE, message);
-                  return return_value_avahi_domain_browser_event$16;
+                  return_value_avahi_domain_browser_event_16=avahi_domain_browser_event(filter_func__1__client, (enum anonymous_2)AVAHI_BROWSER_REMOVE, message);
+                  return return_value_avahi_domain_browser_event_16;
                 }
 
                 else
                 {
-                  return_value_dbus_message_is_signal$67=dbus_message_is_signal(message, "org.freedesktop.Avahi.DomainBrowser", "CacheExhausted");
-                  if(!(return_value_dbus_message_is_signal$67 == 0u))
+                  return_value_dbus_message_is_signal_67=dbus_message_is_signal(message, "org.freedesktop.Avahi.DomainBrowser", "CacheExhausted");
+                  if(!(return_value_dbus_message_is_signal_67 == 0u))
                   {
-                    return_value_avahi_domain_browser_event$17=avahi_domain_browser_event(filter_func$$1$$client, (enum anonymous$2)AVAHI_BROWSER_CACHE_EXHAUSTED, message);
-                    return return_value_avahi_domain_browser_event$17;
+                    return_value_avahi_domain_browser_event_17=avahi_domain_browser_event(filter_func__1__client, (enum anonymous_2)AVAHI_BROWSER_CACHE_EXHAUSTED, message);
+                    return return_value_avahi_domain_browser_event_17;
                   }
 
                   else
                   {
-                    return_value_dbus_message_is_signal$66=dbus_message_is_signal(message, "org.freedesktop.Avahi.DomainBrowser", "AllForNow");
-                    if(!(return_value_dbus_message_is_signal$66 == 0u))
+                    return_value_dbus_message_is_signal_66=dbus_message_is_signal(message, "org.freedesktop.Avahi.DomainBrowser", "AllForNow");
+                    if(!(return_value_dbus_message_is_signal_66 == 0u))
                     {
-                      return_value_avahi_domain_browser_event$18=avahi_domain_browser_event(filter_func$$1$$client, (enum anonymous$2)AVAHI_BROWSER_ALL_FOR_NOW, message);
-                      return return_value_avahi_domain_browser_event$18;
+                      return_value_avahi_domain_browser_event_18=avahi_domain_browser_event(filter_func__1__client, (enum anonymous_2)AVAHI_BROWSER_ALL_FOR_NOW, message);
+                      return return_value_avahi_domain_browser_event_18;
                     }
 
                     else
                     {
-                      return_value_dbus_message_is_signal$65=dbus_message_is_signal(message, "org.freedesktop.Avahi.DomainBrowser", "Failure");
-                      if(!(return_value_dbus_message_is_signal$65 == 0u))
+                      return_value_dbus_message_is_signal_65=dbus_message_is_signal(message, "org.freedesktop.Avahi.DomainBrowser", "Failure");
+                      if(!(return_value_dbus_message_is_signal_65 == 0u))
                       {
-                        return_value_avahi_domain_browser_event$19=avahi_domain_browser_event(filter_func$$1$$client, (enum anonymous$2)AVAHI_BROWSER_FAILURE, message);
-                        return return_value_avahi_domain_browser_event$19;
+                        return_value_avahi_domain_browser_event_19=avahi_domain_browser_event(filter_func__1__client, (enum anonymous_2)AVAHI_BROWSER_FAILURE, message);
+                        return return_value_avahi_domain_browser_event_19;
                       }
 
                       else
                       {
-                        return_value_dbus_message_is_signal$64=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceTypeBrowser", "ItemNew");
-                        if(!(return_value_dbus_message_is_signal$64 == 0u))
+                        return_value_dbus_message_is_signal_64=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceTypeBrowser", "ItemNew");
+                        if(!(return_value_dbus_message_is_signal_64 == 0u))
                         {
-                          return_value_avahi_service_type_browser_event$20=avahi_service_type_browser_event(filter_func$$1$$client, (enum anonymous$2)AVAHI_BROWSER_NEW, message);
-                          return return_value_avahi_service_type_browser_event$20;
+                          return_value_avahi_service_type_browser_event_20=avahi_service_type_browser_event(filter_func__1__client, (enum anonymous_2)AVAHI_BROWSER_NEW, message);
+                          return return_value_avahi_service_type_browser_event_20;
                         }
 
                         else
                         {
-                          return_value_dbus_message_is_signal$63=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceTypeBrowser", "ItemRemove");
-                          if(!(return_value_dbus_message_is_signal$63 == 0u))
+                          return_value_dbus_message_is_signal_63=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceTypeBrowser", "ItemRemove");
+                          if(!(return_value_dbus_message_is_signal_63 == 0u))
                           {
-                            return_value_avahi_service_type_browser_event$21=avahi_service_type_browser_event(filter_func$$1$$client, (enum anonymous$2)AVAHI_BROWSER_REMOVE, message);
-                            return return_value_avahi_service_type_browser_event$21;
+                            return_value_avahi_service_type_browser_event_21=avahi_service_type_browser_event(filter_func__1__client, (enum anonymous_2)AVAHI_BROWSER_REMOVE, message);
+                            return return_value_avahi_service_type_browser_event_21;
                           }
 
                           else
                           {
-                            return_value_dbus_message_is_signal$62=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceTypeBrowser", "CacheExhausted");
-                            if(!(return_value_dbus_message_is_signal$62 == 0u))
+                            return_value_dbus_message_is_signal_62=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceTypeBrowser", "CacheExhausted");
+                            if(!(return_value_dbus_message_is_signal_62 == 0u))
                             {
-                              return_value_avahi_service_type_browser_event$22=avahi_service_type_browser_event(filter_func$$1$$client, (enum anonymous$2)AVAHI_BROWSER_CACHE_EXHAUSTED, message);
-                              return return_value_avahi_service_type_browser_event$22;
+                              return_value_avahi_service_type_browser_event_22=avahi_service_type_browser_event(filter_func__1__client, (enum anonymous_2)AVAHI_BROWSER_CACHE_EXHAUSTED, message);
+                              return return_value_avahi_service_type_browser_event_22;
                             }
 
                             else
                             {
-                              return_value_dbus_message_is_signal$61=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceTypeBrowser", "AllForNow");
-                              if(!(return_value_dbus_message_is_signal$61 == 0u))
+                              return_value_dbus_message_is_signal_61=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceTypeBrowser", "AllForNow");
+                              if(!(return_value_dbus_message_is_signal_61 == 0u))
                               {
-                                return_value_avahi_service_type_browser_event$23=avahi_service_type_browser_event(filter_func$$1$$client, (enum anonymous$2)AVAHI_BROWSER_ALL_FOR_NOW, message);
-                                return return_value_avahi_service_type_browser_event$23;
+                                return_value_avahi_service_type_browser_event_23=avahi_service_type_browser_event(filter_func__1__client, (enum anonymous_2)AVAHI_BROWSER_ALL_FOR_NOW, message);
+                                return return_value_avahi_service_type_browser_event_23;
                               }
 
                               else
                               {
-                                return_value_dbus_message_is_signal$60=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceTypeBrowser", "Failure");
-                                if(!(return_value_dbus_message_is_signal$60 == 0u))
+                                return_value_dbus_message_is_signal_60=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceTypeBrowser", "Failure");
+                                if(!(return_value_dbus_message_is_signal_60 == 0u))
                                 {
-                                  return_value_avahi_service_type_browser_event$24=avahi_service_type_browser_event(filter_func$$1$$client, (enum anonymous$2)AVAHI_BROWSER_FAILURE, message);
-                                  return return_value_avahi_service_type_browser_event$24;
+                                  return_value_avahi_service_type_browser_event_24=avahi_service_type_browser_event(filter_func__1__client, (enum anonymous_2)AVAHI_BROWSER_FAILURE, message);
+                                  return return_value_avahi_service_type_browser_event_24;
                                 }
 
                                 else
                                 {
-                                  return_value_dbus_message_is_signal$59=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceBrowser", "ItemNew");
-                                  if(!(return_value_dbus_message_is_signal$59 == 0u))
+                                  return_value_dbus_message_is_signal_59=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceBrowser", "ItemNew");
+                                  if(!(return_value_dbus_message_is_signal_59 == 0u))
                                   {
-                                    return_value_avahi_service_browser_event$25=avahi_service_browser_event(filter_func$$1$$client, (enum anonymous$2)AVAHI_BROWSER_NEW, message);
-                                    return return_value_avahi_service_browser_event$25;
+                                    return_value_avahi_service_browser_event_25=avahi_service_browser_event(filter_func__1__client, (enum anonymous_2)AVAHI_BROWSER_NEW, message);
+                                    return return_value_avahi_service_browser_event_25;
                                   }
 
                                   else
                                   {
-                                    return_value_dbus_message_is_signal$58=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceBrowser", "ItemRemove");
-                                    if(!(return_value_dbus_message_is_signal$58 == 0u))
+                                    return_value_dbus_message_is_signal_58=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceBrowser", "ItemRemove");
+                                    if(!(return_value_dbus_message_is_signal_58 == 0u))
                                     {
-                                      return_value_avahi_service_browser_event$26=avahi_service_browser_event(filter_func$$1$$client, (enum anonymous$2)AVAHI_BROWSER_REMOVE, message);
-                                      return return_value_avahi_service_browser_event$26;
+                                      return_value_avahi_service_browser_event_26=avahi_service_browser_event(filter_func__1__client, (enum anonymous_2)AVAHI_BROWSER_REMOVE, message);
+                                      return return_value_avahi_service_browser_event_26;
                                     }
 
                                     else
                                     {
-                                      return_value_dbus_message_is_signal$57=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceBrowser", "CacheExhausted");
-                                      if(!(return_value_dbus_message_is_signal$57 == 0u))
+                                      return_value_dbus_message_is_signal_57=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceBrowser", "CacheExhausted");
+                                      if(!(return_value_dbus_message_is_signal_57 == 0u))
                                       {
-                                        return_value_avahi_service_browser_event$27=avahi_service_browser_event(filter_func$$1$$client, (enum anonymous$2)AVAHI_BROWSER_CACHE_EXHAUSTED, message);
-                                        return return_value_avahi_service_browser_event$27;
+                                        return_value_avahi_service_browser_event_27=avahi_service_browser_event(filter_func__1__client, (enum anonymous_2)AVAHI_BROWSER_CACHE_EXHAUSTED, message);
+                                        return return_value_avahi_service_browser_event_27;
                                       }
 
                                       else
                                       {
-                                        return_value_dbus_message_is_signal$56=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceBrowser", "AllForNow");
-                                        if(!(return_value_dbus_message_is_signal$56 == 0u))
+                                        return_value_dbus_message_is_signal_56=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceBrowser", "AllForNow");
+                                        if(!(return_value_dbus_message_is_signal_56 == 0u))
                                         {
-                                          return_value_avahi_service_browser_event$28=avahi_service_browser_event(filter_func$$1$$client, (enum anonymous$2)AVAHI_BROWSER_ALL_FOR_NOW, message);
-                                          return return_value_avahi_service_browser_event$28;
+                                          return_value_avahi_service_browser_event_28=avahi_service_browser_event(filter_func__1__client, (enum anonymous_2)AVAHI_BROWSER_ALL_FOR_NOW, message);
+                                          return return_value_avahi_service_browser_event_28;
                                         }
 
                                         else
                                         {
-                                          return_value_dbus_message_is_signal$55=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceBrowser", "Failure");
-                                          if(!(return_value_dbus_message_is_signal$55 == 0u))
+                                          return_value_dbus_message_is_signal_55=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceBrowser", "Failure");
+                                          if(!(return_value_dbus_message_is_signal_55 == 0u))
                                           {
-                                            return_value_avahi_service_browser_event$29=avahi_service_browser_event(filter_func$$1$$client, (enum anonymous$2)AVAHI_BROWSER_FAILURE, message);
-                                            return return_value_avahi_service_browser_event$29;
+                                            return_value_avahi_service_browser_event_29=avahi_service_browser_event(filter_func__1__client, (enum anonymous_2)AVAHI_BROWSER_FAILURE, message);
+                                            return return_value_avahi_service_browser_event_29;
                                           }
 
                                           else
                                           {
-                                            return_value_dbus_message_is_signal$54=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceResolver", "Found");
-                                            if(!(return_value_dbus_message_is_signal$54 == 0u))
+                                            return_value_dbus_message_is_signal_54=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceResolver", "Found");
+                                            if(!(return_value_dbus_message_is_signal_54 == 0u))
                                             {
-                                              return_value_avahi_service_resolver_event$30=avahi_service_resolver_event(filter_func$$1$$client, (enum anonymous$6)AVAHI_RESOLVER_FOUND, message);
-                                              return return_value_avahi_service_resolver_event$30;
+                                              return_value_avahi_service_resolver_event_30=avahi_service_resolver_event(filter_func__1__client, (enum anonymous_6)AVAHI_RESOLVER_FOUND, message);
+                                              return return_value_avahi_service_resolver_event_30;
                                             }
 
                                             else
                                             {
-                                              return_value_dbus_message_is_signal$53=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceResolver", "Failure");
-                                              if(!(return_value_dbus_message_is_signal$53 == 0u))
+                                              return_value_dbus_message_is_signal_53=dbus_message_is_signal(message, "org.freedesktop.Avahi.ServiceResolver", "Failure");
+                                              if(!(return_value_dbus_message_is_signal_53 == 0u))
                                               {
-                                                return_value_avahi_service_resolver_event$31=avahi_service_resolver_event(filter_func$$1$$client, (enum anonymous$6)AVAHI_RESOLVER_FAILURE, message);
-                                                return return_value_avahi_service_resolver_event$31;
+                                                return_value_avahi_service_resolver_event_31=avahi_service_resolver_event(filter_func__1__client, (enum anonymous_6)AVAHI_RESOLVER_FAILURE, message);
+                                                return return_value_avahi_service_resolver_event_31;
                                               }
 
                                               else
                                               {
-                                                return_value_dbus_message_is_signal$52=dbus_message_is_signal(message, "org.freedesktop.Avahi.HostNameResolver", "Found");
-                                                if(!(return_value_dbus_message_is_signal$52 == 0u))
+                                                return_value_dbus_message_is_signal_52=dbus_message_is_signal(message, "org.freedesktop.Avahi.HostNameResolver", "Found");
+                                                if(!(return_value_dbus_message_is_signal_52 == 0u))
                                                 {
-                                                  return_value_avahi_host_name_resolver_event$32=avahi_host_name_resolver_event(filter_func$$1$$client, (enum anonymous$6)AVAHI_RESOLVER_FOUND, message);
-                                                  return return_value_avahi_host_name_resolver_event$32;
+                                                  return_value_avahi_host_name_resolver_event_32=avahi_host_name_resolver_event(filter_func__1__client, (enum anonymous_6)AVAHI_RESOLVER_FOUND, message);
+                                                  return return_value_avahi_host_name_resolver_event_32;
                                                 }
 
                                                 else
                                                 {
-                                                  return_value_dbus_message_is_signal$51=dbus_message_is_signal(message, "org.freedesktop.Avahi.HostNameResolver", "Failure");
-                                                  if(!(return_value_dbus_message_is_signal$51 == 0u))
+                                                  return_value_dbus_message_is_signal_51=dbus_message_is_signal(message, "org.freedesktop.Avahi.HostNameResolver", "Failure");
+                                                  if(!(return_value_dbus_message_is_signal_51 == 0u))
                                                   {
-                                                    return_value_avahi_host_name_resolver_event$33=avahi_host_name_resolver_event(filter_func$$1$$client, (enum anonymous$6)AVAHI_RESOLVER_FAILURE, message);
-                                                    return return_value_avahi_host_name_resolver_event$33;
+                                                    return_value_avahi_host_name_resolver_event_33=avahi_host_name_resolver_event(filter_func__1__client, (enum anonymous_6)AVAHI_RESOLVER_FAILURE, message);
+                                                    return return_value_avahi_host_name_resolver_event_33;
                                                   }
 
                                                   else
                                                   {
-                                                    return_value_dbus_message_is_signal$50=dbus_message_is_signal(message, "org.freedesktop.Avahi.AddressResolver", "Found");
-                                                    if(!(return_value_dbus_message_is_signal$50 == 0u))
+                                                    return_value_dbus_message_is_signal_50=dbus_message_is_signal(message, "org.freedesktop.Avahi.AddressResolver", "Found");
+                                                    if(!(return_value_dbus_message_is_signal_50 == 0u))
                                                     {
-                                                      return_value_avahi_address_resolver_event$34=avahi_address_resolver_event(filter_func$$1$$client, (enum anonymous$6)AVAHI_RESOLVER_FOUND, message);
-                                                      return return_value_avahi_address_resolver_event$34;
+                                                      return_value_avahi_address_resolver_event_34=avahi_address_resolver_event(filter_func__1__client, (enum anonymous_6)AVAHI_RESOLVER_FOUND, message);
+                                                      return return_value_avahi_address_resolver_event_34;
                                                     }
 
                                                     else
                                                     {
-                                                      return_value_dbus_message_is_signal$49=dbus_message_is_signal(message, "org.freedesktop.Avahi.AddressResolver", "Failure");
-                                                      if(!(return_value_dbus_message_is_signal$49 == 0u))
+                                                      return_value_dbus_message_is_signal_49=dbus_message_is_signal(message, "org.freedesktop.Avahi.AddressResolver", "Failure");
+                                                      if(!(return_value_dbus_message_is_signal_49 == 0u))
                                                       {
-                                                        return_value_avahi_address_resolver_event$35=avahi_address_resolver_event(filter_func$$1$$client, (enum anonymous$6)AVAHI_RESOLVER_FAILURE, message);
-                                                        return return_value_avahi_address_resolver_event$35;
+                                                        return_value_avahi_address_resolver_event_35=avahi_address_resolver_event(filter_func__1__client, (enum anonymous_6)AVAHI_RESOLVER_FAILURE, message);
+                                                        return return_value_avahi_address_resolver_event_35;
                                                       }
 
                                                       else
                                                       {
-                                                        return_value_dbus_message_is_signal$48=dbus_message_is_signal(message, "org.freedesktop.Avahi.RecordBrowser", "ItemNew");
-                                                        if(!(return_value_dbus_message_is_signal$48 == 0u))
+                                                        return_value_dbus_message_is_signal_48=dbus_message_is_signal(message, "org.freedesktop.Avahi.RecordBrowser", "ItemNew");
+                                                        if(!(return_value_dbus_message_is_signal_48 == 0u))
                                                         {
-                                                          return_value_avahi_record_browser_event$36=avahi_record_browser_event(filter_func$$1$$client, (enum anonymous$2)AVAHI_BROWSER_NEW, message);
-                                                          return return_value_avahi_record_browser_event$36;
+                                                          return_value_avahi_record_browser_event_36=avahi_record_browser_event(filter_func__1__client, (enum anonymous_2)AVAHI_BROWSER_NEW, message);
+                                                          return return_value_avahi_record_browser_event_36;
                                                         }
 
                                                         else
                                                         {
-                                                          return_value_dbus_message_is_signal$47=dbus_message_is_signal(message, "org.freedesktop.Avahi.RecordBrowser", "ItemRemove");
-                                                          if(!(return_value_dbus_message_is_signal$47 == 0u))
+                                                          return_value_dbus_message_is_signal_47=dbus_message_is_signal(message, "org.freedesktop.Avahi.RecordBrowser", "ItemRemove");
+                                                          if(!(return_value_dbus_message_is_signal_47 == 0u))
                                                           {
-                                                            return_value_avahi_record_browser_event$37=avahi_record_browser_event(filter_func$$1$$client, (enum anonymous$2)AVAHI_BROWSER_REMOVE, message);
-                                                            return return_value_avahi_record_browser_event$37;
+                                                            return_value_avahi_record_browser_event_37=avahi_record_browser_event(filter_func__1__client, (enum anonymous_2)AVAHI_BROWSER_REMOVE, message);
+                                                            return return_value_avahi_record_browser_event_37;
                                                           }
 
                                                           else
                                                           {
-                                                            return_value_dbus_message_is_signal$46=dbus_message_is_signal(message, "org.freedesktop.Avahi.RecordBrowser", "CacheExhausted");
-                                                            if(!(return_value_dbus_message_is_signal$46 == 0u))
+                                                            return_value_dbus_message_is_signal_46=dbus_message_is_signal(message, "org.freedesktop.Avahi.RecordBrowser", "CacheExhausted");
+                                                            if(!(return_value_dbus_message_is_signal_46 == 0u))
                                                             {
-                                                              return_value_avahi_record_browser_event$38=avahi_record_browser_event(filter_func$$1$$client, (enum anonymous$2)AVAHI_BROWSER_CACHE_EXHAUSTED, message);
-                                                              return return_value_avahi_record_browser_event$38;
+                                                              return_value_avahi_record_browser_event_38=avahi_record_browser_event(filter_func__1__client, (enum anonymous_2)AVAHI_BROWSER_CACHE_EXHAUSTED, message);
+                                                              return return_value_avahi_record_browser_event_38;
                                                             }
 
                                                             else
                                                             {
-                                                              return_value_dbus_message_is_signal$45=dbus_message_is_signal(message, "org.freedesktop.Avahi.RecordBrowser", "AllForNow");
-                                                              if(!(return_value_dbus_message_is_signal$45 == 0u))
+                                                              return_value_dbus_message_is_signal_45=dbus_message_is_signal(message, "org.freedesktop.Avahi.RecordBrowser", "AllForNow");
+                                                              if(!(return_value_dbus_message_is_signal_45 == 0u))
                                                               {
-                                                                return_value_avahi_record_browser_event$39=avahi_record_browser_event(filter_func$$1$$client, (enum anonymous$2)AVAHI_BROWSER_ALL_FOR_NOW, message);
-                                                                return return_value_avahi_record_browser_event$39;
+                                                                return_value_avahi_record_browser_event_39=avahi_record_browser_event(filter_func__1__client, (enum anonymous_2)AVAHI_BROWSER_ALL_FOR_NOW, message);
+                                                                return return_value_avahi_record_browser_event_39;
                                                               }
 
                                                               else
                                                               {
-                                                                return_value_dbus_message_is_signal$44=dbus_message_is_signal(message, "org.freedesktop.Avahi.RecordBrowser", "Failure");
-                                                                if(!(return_value_dbus_message_is_signal$44 == 0u))
+                                                                return_value_dbus_message_is_signal_44=dbus_message_is_signal(message, "org.freedesktop.Avahi.RecordBrowser", "Failure");
+                                                                if(!(return_value_dbus_message_is_signal_44 == 0u))
                                                                 {
-                                                                  return_value_avahi_record_browser_event$40=avahi_record_browser_event(filter_func$$1$$client, (enum anonymous$2)AVAHI_BROWSER_FAILURE, message);
-                                                                  return return_value_avahi_record_browser_event$40;
+                                                                  return_value_avahi_record_browser_event_40=avahi_record_browser_event(filter_func__1__client, (enum anonymous_2)AVAHI_BROWSER_FAILURE, message);
+                                                                  return return_value_avahi_record_browser_event_40;
                                                                 }
 
                                                                 else
                                                                 {
-                                                                  const char *return_value_dbus_message_get_interface$41;
-                                                                  return_value_dbus_message_get_interface$41=dbus_message_get_interface(message);
-                                                                  const char *return_value_dbus_message_get_path$42;
-                                                                  return_value_dbus_message_get_path$42=dbus_message_get_path(message);
-                                                                  const char *return_value_dbus_message_get_member$43;
-                                                                  return_value_dbus_message_get_member$43=dbus_message_get_member(message);
-                                                                  fprintf(stderr, "WARNING: Unhandled message: interface=%s, path=%s, member=%s\n", return_value_dbus_message_get_interface$41, return_value_dbus_message_get_path$42, return_value_dbus_message_get_member$43);
-                                                                  return (enum anonymous$28)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
+                                                                  const char *return_value_dbus_message_get_interface_41;
+                                                                  return_value_dbus_message_get_interface_41=dbus_message_get_interface(message);
+                                                                  const char *return_value_dbus_message_get_path_42;
+                                                                  return_value_dbus_message_get_path_42=dbus_message_get_path(message);
+                                                                  const char *return_value_dbus_message_get_member_43;
+                                                                  return_value_dbus_message_get_member_43=dbus_message_get_member(message);
+                                                                  fprintf(stderr, "WARNING: Unhandled message: interface=%s, path=%s, member=%s\n", return_value_dbus_message_get_interface_41, return_value_dbus_message_get_path_42, return_value_dbus_message_get_member_43);
+                                                                  return (enum anonymous_28)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
                                                                 }
                                                               }
                                                             }
@@ -11596,22 +11596,22 @@ static enum anonymous$28 filter_func(struct DBusConnection *bus, struct DBusMess
     }
 
   }
-  return (enum anonymous$28)DBUS_HANDLER_RESULT_HANDLED;
+  return (enum anonymous_28)DBUS_HANDLER_RESULT_HANDLED;
 
 fail:
   ;
-  unsigned int return_value_dbus_error_is_set$77;
-  return_value_dbus_error_is_set$77=dbus_error_is_set(&error);
-  if(!(return_value_dbus_error_is_set$77 == 0u))
+  unsigned int return_value_dbus_error_is_set_77;
+  return_value_dbus_error_is_set_77=dbus_error_is_set(&error);
+  if(!(return_value_dbus_error_is_set_77 == 0u))
   {
-    signed int return_value_avahi_error_dbus_to_number$76;
-    return_value_avahi_error_dbus_to_number$76=avahi_error_dbus_to_number(error.name);
-    avahi_client_set_errno(filter_func$$1$$client, return_value_avahi_error_dbus_to_number$76);
+    signed int return_value_avahi_error_dbus_to_number_76;
+    return_value_avahi_error_dbus_to_number_76=avahi_error_dbus_to_number(error.name);
+    avahi_client_set_errno(filter_func__1__client, return_value_avahi_error_dbus_to_number_76);
     dbus_error_free(&error);
   }
 
-  client_set_state(filter_func$$1$$client, (enum anonymous$7)AVAHI_CLIENT_FAILURE);
-  return (enum anonymous$28)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
+  client_set_state(filter_func__1__client, (enum anonymous_7)AVAHI_CLIENT_FAILURE);
+  return (enum anonymous_28)DBUS_HANDLER_RESULT_NOT_YET_HANDLED;
 }
 
 // find_next_timeout
@@ -11623,27 +11623,27 @@ static struct AvahiTimeout * find_next_timeout(struct AvahiSimplePoll *s)
   /* assertion s */
   assert(s != ((struct AvahiSimplePoll *)NULL));
   t = s->timeouts;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_avahi_timeval_compare$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_avahi_timeval_compare_2;
   for( ; !(t == ((struct AvahiTimeout *)NULL)); t = t->timeouts_next)
   {
     if(!(t->dead == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !(t->enabled != 0) ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = !(t->enabled != 0) ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
     {
       if(n == ((struct AvahiTimeout *)NULL))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
       {
-        return_value_avahi_timeval_compare$2=avahi_timeval_compare(&t->expiry, &n->expiry);
-        tmp_if_expr$3 = return_value_avahi_timeval_compare$2 < 0 ? (_Bool)1 : (_Bool)0;
+        return_value_avahi_timeval_compare_2=avahi_timeval_compare(&t->expiry, &n->expiry);
+        tmp_if_expr_3 = return_value_avahi_timeval_compare_2 < 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3)
+      if(tmp_if_expr_3)
         n = t;
 
     }
@@ -11652,42 +11652,42 @@ static struct AvahiTimeout * find_next_timeout(struct AvahiSimplePoll *s)
   return n;
 }
 
-// find_next_timeout$link1
+// find_next_timeout_link1
 // file simple-watch.c line 425
-static struct AvahiTimeout * find_next_timeout$link1(struct AvahiSimplePoll *s$link1)
+static struct AvahiTimeout * find_next_timeout_link1(struct AvahiSimplePoll *s_link1)
 {
-  struct AvahiTimeout *t$link1;
-  struct AvahiTimeout *n$link1 = (struct AvahiTimeout *)(void *)0;
+  struct AvahiTimeout *t_link1;
+  struct AvahiTimeout *n_link1 = (struct AvahiTimeout *)(void *)0;
   /* assertion s */
-  assert(s$link1 != ((struct AvahiSimplePoll *)NULL));
-  t$link1 = s$link1->timeouts;
-  _Bool tmp_if_expr$1$link1;
-  _Bool tmp_if_expr$3$link1;
-  signed int return_value_avahi_timeval_compare$2$link1;
-  for( ; !(t$link1 == ((struct AvahiTimeout *)NULL)); t$link1 = t$link1->timeouts_next)
+  assert(s_link1 != ((struct AvahiSimplePoll *)NULL));
+  t_link1 = s_link1->timeouts;
+  _Bool tmp_if_expr_1_link1;
+  _Bool tmp_if_expr_3_link1;
+  signed int return_value_avahi_timeval_compare_2_link1;
+  for( ; !(t_link1 == ((struct AvahiTimeout *)NULL)); t_link1 = t_link1->timeouts_next)
   {
-    if(!(t$link1->dead == 0))
-      tmp_if_expr$1$link1 = (_Bool)1;
+    if(!(t_link1->dead == 0))
+      tmp_if_expr_1_link1 = (_Bool)1;
 
     else
-      tmp_if_expr$1$link1 = !(t$link1->enabled != 0) ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1$link1)
+      tmp_if_expr_1_link1 = !(t_link1->enabled != 0) ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1_link1)
     {
-      if(n$link1 == ((struct AvahiTimeout *)NULL))
-        tmp_if_expr$3$link1 = (_Bool)1;
+      if(n_link1 == ((struct AvahiTimeout *)NULL))
+        tmp_if_expr_3_link1 = (_Bool)1;
 
       else
       {
-        return_value_avahi_timeval_compare$2$link1=avahi_timeval_compare(&t$link1->expiry, &n$link1->expiry);
-        tmp_if_expr$3$link1 = return_value_avahi_timeval_compare$2$link1 < 0 ? (_Bool)1 : (_Bool)0;
+        return_value_avahi_timeval_compare_2_link1=avahi_timeval_compare(&t_link1->expiry, &n_link1->expiry);
+        tmp_if_expr_3_link1 = return_value_avahi_timeval_compare_2_link1 < 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$3$link1)
-        n$link1 = t$link1;
+      if(tmp_if_expr_3_link1)
+        n_link1 = t_link1;
 
     }
 
   }
-  return n$link1;
+  return n_link1;
 }
 
 // get_server_state
@@ -11703,38 +11703,38 @@ static signed int get_server_state(struct AvahiClient *client, signed int *ret_e
   assert(client != ((struct AvahiClient *)NULL));
   dbus_error_init(&error);
   message=dbus_message_new_method_call("org.freedesktop.Avahi", "/", "org.freedesktop.Avahi.Server", "GetState");
-  _Bool tmp_if_expr$2;
-  unsigned int return_value_dbus_error_is_set$1;
-  unsigned int return_value_dbus_message_get_args$3;
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_dbus_error_is_set$4;
+  _Bool tmp_if_expr_2;
+  unsigned int return_value_dbus_error_is_set_1;
+  unsigned int return_value_dbus_message_get_args_3;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_dbus_error_is_set_4;
   if(!(message == ((struct DBusMessage *)NULL)))
   {
     reply=dbus_connection_send_with_reply_and_block(client->bus, message, -1, &error);
     if(reply == ((struct DBusMessage *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
-      return_value_dbus_error_is_set$1=dbus_error_is_set(&error);
-      tmp_if_expr$2 = return_value_dbus_error_is_set$1 != 0u ? (_Bool)1 : (_Bool)0;
+      return_value_dbus_error_is_set_1=dbus_error_is_set(&error);
+      tmp_if_expr_2 = return_value_dbus_error_is_set_1 != 0u ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
       goto fail;
 
-    return_value_dbus_message_get_args$3=dbus_message_get_args(reply, &error, (signed int)105, &state, (signed int)0);
-    if(return_value_dbus_message_get_args$3 == 0u)
-      tmp_if_expr$5 = (_Bool)1;
+    return_value_dbus_message_get_args_3=dbus_message_get_args(reply, &error, (signed int)105, &state, (signed int)0);
+    if(return_value_dbus_message_get_args_3 == 0u)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_dbus_error_is_set$4=dbus_error_is_set(&error);
-      tmp_if_expr$5 = return_value_dbus_error_is_set$4 != 0u ? (_Bool)1 : (_Bool)0;
+      return_value_dbus_error_is_set_4=dbus_error_is_set(&error);
+      tmp_if_expr_5 = return_value_dbus_error_is_set_4 != 0u ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
       goto fail;
 
-    client_set_state(client, (enum anonymous$7)state);
+    client_set_state(client, (enum anonymous_7)state);
     dbus_message_unref(message);
     dbus_message_unref(reply);
     return 0;
@@ -11745,9 +11745,9 @@ static signed int get_server_state(struct AvahiClient *client, signed int *ret_e
 
   fail:
     ;
-    unsigned int return_value_dbus_error_is_set$6;
-    return_value_dbus_error_is_set$6=dbus_error_is_set(&error);
-    if(!(return_value_dbus_error_is_set$6 == 0u))
+    unsigned int return_value_dbus_error_is_set_6;
+    return_value_dbus_error_is_set_6=dbus_error_is_set(&error);
+    if(!(return_value_dbus_error_is_set_6 == 0u))
     {
       e=avahi_error_dbus_to_number(error.name);
       dbus_error_free(&error);
@@ -11777,9 +11777,9 @@ static void handler(signed int s)
 // file avahi-set-host-name.c line 71
 static void help(struct _IO_FILE *f, const char *argv0)
 {
-  char *return_value_dgettext$1;
-  return_value_dgettext$1=dgettext("avahi", "%s [options] <new host name>\n\n    -h --help            Show this help\n    -V --version         Show version\n    -v --verbose         Enable verbose mode\n");
-  fprintf(f, return_value_dgettext$1, argv0);
+  char *return_value_dgettext_1;
+  return_value_dgettext_1=dgettext("avahi", "%s [options] <new host name>\n\n    -h --help            Show this help\n    -V --version         Show version\n    -v --verbose         Enable verbose mode\n");
+  fprintf(f, return_value_dgettext_1, argv0);
 }
 
 // init_server
@@ -11818,12 +11818,12 @@ signed int main(signed int argc, char **argv)
 
   else
     argv0 = argv[(signed long int)0];
-  signed int return_value_parse_command_line$1;
-  return_value_parse_command_line$1=parse_command_line(&config, argc, argv);
-  signed int return_value_sigint_install$3;
-  const struct AvahiPoll *return_value_avahi_simple_poll_get$6;
-  signed int return_value_avahi_client_set_host_name$17;
-  if(return_value_parse_command_line$1 >= 0)
+  signed int return_value_parse_command_line_1;
+  return_value_parse_command_line_1=parse_command_line(&config, argc, argv);
+  signed int return_value_sigint_install_3;
+  const struct AvahiPoll *return_value_avahi_simple_poll_get_6;
+  signed int return_value_avahi_client_set_host_name_17;
+  if(return_value_parse_command_line_1 >= 0)
     switch((signed int)config.command)
     {
       case COMMAND_HELP:
@@ -11843,25 +11843,25 @@ signed int main(signed int argc, char **argv)
         simple_poll=avahi_simple_poll_new();
         if(simple_poll == ((struct AvahiSimplePoll *)NULL))
         {
-          char *return_value_dgettext$2;
-          return_value_dgettext$2=dgettext("avahi", "Failed to create simple poll object.\n");
-          fprintf(stderr, return_value_dgettext$2);
+          char *return_value_dgettext_2;
+          return_value_dgettext_2=dgettext("avahi", "Failed to create simple poll object.\n");
+          fprintf(stderr, return_value_dgettext_2);
           break;
         }
 
-        return_value_sigint_install$3=sigint_install(simple_poll);
-        if(!(return_value_sigint_install$3 >= 0))
+        return_value_sigint_install_3=sigint_install(simple_poll);
+        if(!(return_value_sigint_install_3 >= 0))
           break;
 
-        return_value_avahi_simple_poll_get$6=avahi_simple_poll_get(simple_poll);
-        client=avahi_client_new(return_value_avahi_simple_poll_get$6, (enum anonymous$8)0, client_callback, (void *)0, &error);
+        return_value_avahi_simple_poll_get_6=avahi_simple_poll_get(simple_poll);
+        client=avahi_client_new(return_value_avahi_simple_poll_get_6, (enum anonymous_8)0, client_callback, (void *)0, &error);
         if(client == ((struct AvahiClient *)NULL))
         {
-          char *return_value_dgettext$4;
-          return_value_dgettext$4=dgettext("avahi", "Failed to create client object: %s\n");
-          const char *return_value_avahi_strerror$5;
-          return_value_avahi_strerror$5=avahi_strerror(error);
-          fprintf(stderr, return_value_dgettext$4, return_value_avahi_strerror$5);
+          char *return_value_dgettext_4;
+          return_value_dgettext_4=dgettext("avahi", "Failed to create client object: %s\n");
+          const char *return_value_avahi_strerror_5;
+          return_value_avahi_strerror_5=avahi_strerror(error);
+          fprintf(stderr, return_value_dgettext_4, return_value_avahi_strerror_5);
           break;
         }
 
@@ -11872,66 +11872,66 @@ signed int main(signed int argc, char **argv)
           version=avahi_client_get_version_string(client);
           if(version == ((const char *)NULL))
           {
-            char *return_value_dgettext$7;
-            return_value_dgettext$7=dgettext("avahi", "Failed to query version string: %s\n");
-            signed int return_value_avahi_client_errno$8;
-            return_value_avahi_client_errno$8=avahi_client_errno(client);
-            const char *return_value_avahi_strerror$9;
-            return_value_avahi_strerror$9=avahi_strerror(return_value_avahi_client_errno$8);
-            fprintf(stderr, return_value_dgettext$7, return_value_avahi_strerror$9);
+            char *return_value_dgettext_7;
+            return_value_dgettext_7=dgettext("avahi", "Failed to query version string: %s\n");
+            signed int return_value_avahi_client_errno_8;
+            return_value_avahi_client_errno_8=avahi_client_errno(client);
+            const char *return_value_avahi_strerror_9;
+            return_value_avahi_strerror_9=avahi_strerror(return_value_avahi_client_errno_8);
+            fprintf(stderr, return_value_dgettext_7, return_value_avahi_strerror_9);
             break;
           }
 
           hn=avahi_client_get_host_name_fqdn(client);
           if(hn == ((const char *)NULL))
           {
-            char *return_value_dgettext$10;
-            return_value_dgettext$10=dgettext("avahi", "Failed to query host name: %s\n");
-            signed int return_value_avahi_client_errno$11;
-            return_value_avahi_client_errno$11=avahi_client_errno(client);
-            const char *return_value_avahi_strerror$12;
-            return_value_avahi_strerror$12=avahi_strerror(return_value_avahi_client_errno$11);
-            fprintf(stderr, return_value_dgettext$10, return_value_avahi_strerror$12);
+            char *return_value_dgettext_10;
+            return_value_dgettext_10=dgettext("avahi", "Failed to query host name: %s\n");
+            signed int return_value_avahi_client_errno_11;
+            return_value_avahi_client_errno_11=avahi_client_errno(client);
+            const char *return_value_avahi_strerror_12;
+            return_value_avahi_strerror_12=avahi_strerror(return_value_avahi_client_errno_11);
+            fprintf(stderr, return_value_dgettext_10, return_value_avahi_strerror_12);
             break;
           }
 
-          char *return_value_dgettext$13;
-          return_value_dgettext$13=dgettext("avahi", "Server version: %s; Host name: %s\n");
-          fprintf(stderr, return_value_dgettext$13, version, hn);
+          char *return_value_dgettext_13;
+          return_value_dgettext_13=dgettext("avahi", "Server version: %s; Host name: %s\n");
+          fprintf(stderr, return_value_dgettext_13, version, hn);
         }
 
-        return_value_avahi_client_set_host_name$17=avahi_client_set_host_name(client, argv[(signed long int)optind]);
-        if(!(return_value_avahi_client_set_host_name$17 >= 0))
+        return_value_avahi_client_set_host_name_17=avahi_client_set_host_name(client, argv[(signed long int)optind]);
+        if(!(return_value_avahi_client_set_host_name_17 >= 0))
         {
-          char *return_value_dgettext$14;
-          return_value_dgettext$14=dgettext("avahi", "Failed to create host name resolver: %s\n");
-          signed int return_value_avahi_client_errno$15;
-          return_value_avahi_client_errno$15=avahi_client_errno(client);
-          const char *return_value_avahi_strerror$16;
-          return_value_avahi_strerror$16=avahi_strerror(return_value_avahi_client_errno$15);
-          fprintf(stderr, return_value_dgettext$14, return_value_avahi_strerror$16);
+          char *return_value_dgettext_14;
+          return_value_dgettext_14=dgettext("avahi", "Failed to create host name resolver: %s\n");
+          signed int return_value_avahi_client_errno_15;
+          return_value_avahi_client_errno_15=avahi_client_errno(client);
+          const char *return_value_avahi_strerror_16;
+          return_value_avahi_strerror_16=avahi_strerror(return_value_avahi_client_errno_15);
+          fprintf(stderr, return_value_dgettext_14, return_value_avahi_strerror_16);
           break;
         }
 
         if(!(config.verbose == 0))
         {
-          const char *main$$1$$1$$5$$hn;
-          main$$1$$1$$5$$hn=avahi_client_get_host_name_fqdn(client);
-          if(main$$1$$1$$5$$hn == ((const char *)NULL))
+          const char *main__1__1__5__hn;
+          main__1__1__5__hn=avahi_client_get_host_name_fqdn(client);
+          if(main__1__1__5__hn == ((const char *)NULL))
           {
-            char *return_value_dgettext$18;
-            return_value_dgettext$18=dgettext("avahi", "Failed to query host name: %s\n");
-            signed int return_value_avahi_client_errno$19;
-            return_value_avahi_client_errno$19=avahi_client_errno(client);
-            const char *return_value_avahi_strerror$20;
-            return_value_avahi_strerror$20=avahi_strerror(return_value_avahi_client_errno$19);
-            fprintf(stderr, return_value_dgettext$18, return_value_avahi_strerror$20);
+            char *return_value_dgettext_18;
+            return_value_dgettext_18=dgettext("avahi", "Failed to query host name: %s\n");
+            signed int return_value_avahi_client_errno_19;
+            return_value_avahi_client_errno_19=avahi_client_errno(client);
+            const char *return_value_avahi_strerror_20;
+            return_value_avahi_strerror_20=avahi_strerror(return_value_avahi_client_errno_19);
+            fprintf(stderr, return_value_dgettext_18, return_value_avahi_strerror_20);
             break;
           }
 
-          char *return_value_dgettext$21;
-          return_value_dgettext$21=dgettext("avahi", "Host name successfully changed to %s\n");
-          fprintf(stderr, return_value_dgettext$21, main$$1$$1$$5$$hn);
+          char *return_value_dgettext_21;
+          return_value_dgettext_21=dgettext("avahi", "Host name successfully changed to %s\n");
+          fprintf(stderr, return_value_dgettext_21, main__1__1__5__hn);
         }
 
         ret = 0;
@@ -11957,17 +11957,17 @@ static void oom(void)
 {
   static const char msg[29l] = { 'O', 'u', 't', ' ', 'o', 'f', ' ', 'm', 'e', 'm', 'o', 'r', 'y', ',', ' ', 'a', 'b', 'o', 'r', 't', 'i', 'n', 'g', ' ', '.', '.', '.', '\n', 0 };
   const char *n = msg;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   do
   {
-    return_value_strlen$1=strlen(n);
-    if(!(return_value_strlen$1 >= 1ul))
+    return_value_strlen_1=strlen(n);
+    if(!(return_value_strlen_1 >= 1ul))
       break;
 
     signed long int r;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(n);
-    r=write(2, (const void *)n, return_value_strlen$2);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(n);
+    r=write(2, (const void *)n, return_value_strlen_2);
     if(!(r >= 0l))
       break;
 
@@ -11977,27 +11977,27 @@ static void oom(void)
   abort();
 }
 
-// oom$link1
+// oom_link1
 // file malloc.c line 44
-static void oom$link1(void)
+static void oom_link1(void)
 {
-  static const char msg$link1[29l] = { 'O', 'u', 't', ' ', 'o', 'f', ' ', 'm', 'e', 'm', 'o', 'r', 'y', ',', ' ', 'a', 'b', 'o', 'r', 't', 'i', 'n', 'g', ' ', '.', '.', '.', '\n', 0 };
-  const char *n$link1 = msg$link1;
-  unsigned long int return_value_strlen$1$link1;
+  static const char msg_link1[29l] = { 'O', 'u', 't', ' ', 'o', 'f', ' ', 'm', 'e', 'm', 'o', 'r', 'y', ',', ' ', 'a', 'b', 'o', 'r', 't', 'i', 'n', 'g', ' ', '.', '.', '.', '\n', 0 };
+  const char *n_link1 = msg_link1;
+  unsigned long int return_value_strlen_1_link1;
   do
   {
-    return_value_strlen$1$link1=strlen(n$link1);
-    if(!(return_value_strlen$1$link1 >= 1ul))
+    return_value_strlen_1_link1=strlen(n_link1);
+    if(!(return_value_strlen_1_link1 >= 1ul))
       break;
 
-    signed long int r$link1;
-    unsigned long int return_value_strlen$2$link1;
-    return_value_strlen$2$link1=strlen(n$link1);
-    r$link1=write(2, (const void *)n$link1, return_value_strlen$2$link1);
-    if(!(r$link1 >= 0l))
+    signed long int r_link1;
+    unsigned long int return_value_strlen_2_link1;
+    return_value_strlen_2_link1=strlen(n_link1);
+    r_link1=write(2, (const void *)n_link1, return_value_strlen_2_link1);
+    if(!(r_link1 >= 0l))
       break;
 
-    n$link1 = n$link1 + r$link1;
+    n_link1 = n_link1 + r_link1;
   }
   while((_Bool)1);
   abort();
@@ -12010,7 +12010,7 @@ static signed int parse_command_line(struct Config *c, signed int argc, char **a
   signed int o;
   /* assertion c */
   assert(c != ((struct Config *)NULL));
-  c->command = (enum anonymous$5)COMMAND_UNSPEC;
+  c->command = (enum anonymous_5)COMMAND_UNSPEC;
   c->verbose = 0;
   do
   {
@@ -12027,12 +12027,12 @@ static signed int parse_command_line(struct Config *c, signed int argc, char **a
     {
       case 104:
       {
-        c->command = (enum anonymous$5)COMMAND_HELP;
+        c->command = (enum anonymous_5)COMMAND_HELP;
         break;
       }
       case 86:
       {
-        c->command = (enum anonymous$5)COMMAND_VERSION;
+        c->command = (enum anonymous_5)COMMAND_VERSION;
         break;
       }
       case 118:
@@ -12049,9 +12049,9 @@ static signed int parse_command_line(struct Config *c, signed int argc, char **a
   {
     if(!(optind == argc + -1))
     {
-      char *return_value_dgettext$1;
-      return_value_dgettext$1=dgettext("avahi", "Invalid number of arguments, expecting exactly one.\n");
-      fprintf(stderr, return_value_dgettext$1);
+      char *return_value_dgettext_1;
+      return_value_dgettext_1=dgettext("avahi", "Invalid number of arguments, expecting exactly one.\n");
+      fprintf(stderr, return_value_dgettext_1);
       return -1;
     }
 
@@ -12069,21 +12069,21 @@ static void parse_domain_file(struct AvahiDomainBrowser *b)
   /* assertion b */
   assert(b != ((struct AvahiDomainBrowser *)NULL));
   f=avahi_xdg_config_open("avahi/browse-domains");
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   if(!(f == ((struct _IO_FILE *)NULL)))
     do
     {
-      return_value_fgets$1=fgets(buf, (signed int)(sizeof(char [1014l]) /*1014ul*/  - (unsigned long int)1), f);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(buf, (signed int)(sizeof(char [1014l]) /*1014ul*/  - (unsigned long int)1), f);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
       char domain[1014l];
-      unsigned long int return_value_strcspn$2;
-      return_value_strcspn$2=strcspn(buf, "\n\r");
-      buf[(signed long int)return_value_strcspn$2] = (char)0;
-      char *return_value_avahi_normalize_name$3;
-      return_value_avahi_normalize_name$3=avahi_normalize_name(buf, domain, sizeof(char [1014l]) /*1014ul*/ );
-      if(!(return_value_avahi_normalize_name$3 == ((char *)NULL)))
+      unsigned long int return_value_strcspn_2;
+      return_value_strcspn_2=strcspn(buf, "\n\r");
+      buf[(signed long int)return_value_strcspn_2] = (char)0;
+      char *return_value_avahi_normalize_name_3;
+      return_value_avahi_normalize_name_3=avahi_normalize_name(buf, domain, sizeof(char [1014l]) /*1014ul*/ );
+      if(!(return_value_avahi_normalize_name_3 == ((char *)NULL)))
         b->static_browse_domains=avahi_string_list_add(b->static_browse_domains, domain);
 
     }
@@ -12109,9 +12109,9 @@ static void parse_environment(struct AvahiDomainBrowser *b)
     while(!(t == ((char *)NULL)))
     {
       char domain[1014l];
-      char *return_value_avahi_normalize_name$1;
-      return_value_avahi_normalize_name$1=avahi_normalize_name(t, domain, sizeof(char [1014l]) /*1014ul*/ );
-      if(!(return_value_avahi_normalize_name$1 == ((char *)NULL)))
+      char *return_value_avahi_normalize_name_1;
+      return_value_avahi_normalize_name_1=avahi_normalize_name(t, domain, sizeof(char [1014l]) /*1014ul*/ );
+      if(!(return_value_avahi_normalize_name_1 == ((char *)NULL)))
         b->static_browse_domains=avahi_string_list_add(b->static_browse_domains, domain);
 
       t=strtok_r((char *)(void *)0, ":", &p);
@@ -12124,7 +12124,7 @@ static void parse_environment(struct AvahiDomainBrowser *b)
 // file thread-watch.c line 48
 static signed int poll_func(struct pollfd *ufds, unsigned int nfds, signed int timeout, void *userdata)
 {
-  union anonymous$25 *mutex = (union anonymous$25 *)userdata;
+  union anonymous_25 *mutex = (union anonymous_25 *)userdata;
   signed int r;
   pthread_mutex_unlock(mutex);
   r=poll(ufds, (unsigned long int)nfds, timeout);
@@ -12132,16 +12132,16 @@ static signed int poll_func(struct pollfd *ufds, unsigned int nfds, signed int t
   return r;
 }
 
-// poll_func$link1
+// poll_func_link1
 // file thread-watch.c line 48
-static signed int poll_func$link1(struct pollfd *ufds$link1, unsigned int nfds$link1, signed int timeout$link1, void *userdata$link1)
+static signed int poll_func_link1(struct pollfd *ufds_link1, unsigned int nfds_link1, signed int timeout_link1, void *userdata_link1)
 {
-  union anonymous$25 *mutex$link1 = (union anonymous$25 *)userdata$link1;
-  signed int r$link1;
-  pthread_mutex_unlock(mutex$link1);
-  r$link1=poll(ufds$link1, (unsigned long int)nfds$link1, timeout$link1);
-  pthread_mutex_lock(mutex$link1);
-  return r$link1;
+  union anonymous_25 *mutex_link1 = (union anonymous_25 *)userdata_link1;
+  signed int r_link1;
+  pthread_mutex_unlock(mutex_link1);
+  r_link1=poll(ufds_link1, (unsigned long int)nfds_link1, timeout_link1);
+  pthread_mutex_lock(mutex_link1);
+  return r_link1;
 }
 
 // rebuild
@@ -12156,9 +12156,9 @@ static signed int rebuild(struct AvahiSimplePoll *s)
   {
     struct pollfd *n;
     s->max_pollfds = s->n_watches + 10;
-    void *return_value_avahi_realloc$1;
-    return_value_avahi_realloc$1=avahi_realloc((void *)s->pollfds, sizeof(struct pollfd) /*8ul*/  * (unsigned long int)s->max_pollfds);
-    n = (struct pollfd *)return_value_avahi_realloc$1;
+    void *return_value_avahi_realloc_1;
+    return_value_avahi_realloc_1=avahi_realloc((void *)s->pollfds, sizeof(struct pollfd) /*8ul*/  * (unsigned long int)s->max_pollfds);
+    n = (struct pollfd *)return_value_avahi_realloc_1;
     if(n == ((struct pollfd *)NULL))
       return -1;
 
@@ -12170,15 +12170,15 @@ static signed int rebuild(struct AvahiSimplePoll *s)
   (s->pollfds + (signed long int)0)->revents = (signed short int)0;
   idx = 1;
   w = s->watches;
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   for( ; !(w == ((struct AvahiWatch *)NULL)); w = w->watches_next)
     if(w->dead == 0)
     {
       /* assertion w->idx < s->max_pollfds */
       assert(w->idx < s->max_pollfds);
-      tmp_post$2 = idx;
+      tmp_post_2 = idx;
       idx = idx + 1;
-      w->idx = tmp_post$2;
+      w->idx = tmp_post_2;
       s->pollfds[(signed long int)w->idx] = w->pollfd;
     }
 
@@ -12188,47 +12188,47 @@ static signed int rebuild(struct AvahiSimplePoll *s)
   return 0;
 }
 
-// rebuild$link1
+// rebuild_link1
 // file simple-watch.c line 385
-static signed int rebuild$link1(struct AvahiSimplePoll *s$link1)
+static signed int rebuild_link1(struct AvahiSimplePoll *s_link1)
 {
-  struct AvahiWatch *w$link1;
-  signed int idx$link1;
+  struct AvahiWatch *w_link1;
+  signed int idx_link1;
   /* assertion s */
-  assert(s$link1 != ((struct AvahiSimplePoll *)NULL));
-  if(!(s$link1->max_pollfds >= 1 + s$link1->n_watches))
+  assert(s_link1 != ((struct AvahiSimplePoll *)NULL));
+  if(!(s_link1->max_pollfds >= 1 + s_link1->n_watches))
   {
-    struct pollfd *n$link1;
-    s$link1->max_pollfds = s$link1->n_watches + 10;
-    void *return_value_avahi_realloc$1$link1;
-    return_value_avahi_realloc$1$link1=avahi_realloc((void *)s$link1->pollfds, sizeof(struct pollfd) /*8ul*/  * (unsigned long int)s$link1->max_pollfds);
-    n$link1 = (struct pollfd *)return_value_avahi_realloc$1$link1;
-    if(n$link1 == ((struct pollfd *)NULL))
+    struct pollfd *n_link1;
+    s_link1->max_pollfds = s_link1->n_watches + 10;
+    void *return_value_avahi_realloc_1_link1;
+    return_value_avahi_realloc_1_link1=avahi_realloc((void *)s_link1->pollfds, sizeof(struct pollfd) /*8ul*/  * (unsigned long int)s_link1->max_pollfds);
+    n_link1 = (struct pollfd *)return_value_avahi_realloc_1_link1;
+    if(n_link1 == ((struct pollfd *)NULL))
       return -1;
 
-    s$link1->pollfds = n$link1;
+    s_link1->pollfds = n_link1;
   }
 
-  (s$link1->pollfds + (signed long int)0)->fd = s$link1->wakeup_pipe[(signed long int)0];
-  (s$link1->pollfds + (signed long int)0)->events = (signed short int)0x001;
-  (s$link1->pollfds + (signed long int)0)->revents = (signed short int)0;
-  idx$link1 = 1;
-  w$link1 = s$link1->watches;
-  signed int tmp_post$2$link1;
-  for( ; !(w$link1 == ((struct AvahiWatch *)NULL)); w$link1 = w$link1->watches_next)
-    if(w$link1->dead == 0)
+  (s_link1->pollfds + (signed long int)0)->fd = s_link1->wakeup_pipe[(signed long int)0];
+  (s_link1->pollfds + (signed long int)0)->events = (signed short int)0x001;
+  (s_link1->pollfds + (signed long int)0)->revents = (signed short int)0;
+  idx_link1 = 1;
+  w_link1 = s_link1->watches;
+  signed int tmp_post_2_link1;
+  for( ; !(w_link1 == ((struct AvahiWatch *)NULL)); w_link1 = w_link1->watches_next)
+    if(w_link1->dead == 0)
     {
       /* assertion w->idx < s->max_pollfds */
-      assert(w$link1->idx < s$link1->max_pollfds);
-      tmp_post$2$link1 = idx$link1;
-      idx$link1 = idx$link1 + 1;
-      w$link1->idx = tmp_post$2$link1;
-      s$link1->pollfds[(signed long int)w$link1->idx] = w$link1->pollfd;
+      assert(w_link1->idx < s_link1->max_pollfds);
+      tmp_post_2_link1 = idx_link1;
+      idx_link1 = idx_link1 + 1;
+      w_link1->idx = tmp_post_2_link1;
+      s_link1->pollfds[(signed long int)w_link1->idx] = w_link1->pollfd;
     }
 
-  s$link1->n_pollfds = idx$link1;
-  s$link1->events_valid = 0;
-  s$link1->rebuild_pollfds = 0;
+  s_link1->n_pollfds = idx_link1;
+  s_link1->events_valid = 0;
+  s_link1->rebuild_pollfds = 0;
   return 0;
 }
 
@@ -12243,14 +12243,14 @@ static void remove_pollfd(struct AvahiWatch *w)
 
 }
 
-// remove_pollfd$link1
+// remove_pollfd_link1
 // file simple-watch.c line 194
-static void remove_pollfd$link1(struct AvahiWatch *w$link1)
+static void remove_pollfd_link1(struct AvahiWatch *w_link1)
 {
   /* assertion w */
-  assert(w$link1 != ((struct AvahiWatch *)NULL));
-  if(!(w$link1->idx == -1))
-    w$link1->simple_poll->rebuild_pollfds = 1;
+  assert(w_link1 != ((struct AvahiWatch *)NULL));
+  if(!(w_link1->idx == -1))
+    w_link1->simple_poll->rebuild_pollfds = 1;
 
 }
 
@@ -12258,15 +12258,15 @@ static void remove_pollfd$link1(struct AvahiWatch *w$link1)
 // file ../avahi-common/dbus-watch-glue.c line 286
 static void remove_timeout(struct DBusTimeout *dbus_timeout, void *userdata)
 {
-  struct anonymous$11 *d = (struct anonymous$11 *)userdata;
+  struct anonymous_11 *d = (struct anonymous_11 *)userdata;
   struct TimeoutData *timeout;
   /* assertion dbus_timeout */
   assert(dbus_timeout != ((struct DBusTimeout *)NULL));
   /* assertion d */
-  assert(d != ((struct anonymous$11 *)NULL));
-  void *return_value_dbus_timeout_get_data$1;
-  return_value_dbus_timeout_get_data$1=dbus_timeout_get_data(dbus_timeout);
-  timeout = (struct TimeoutData *)return_value_dbus_timeout_get_data$1;
+  assert(d != ((struct anonymous_11 *)NULL));
+  void *return_value_dbus_timeout_get_data_1;
+  return_value_dbus_timeout_get_data_1=dbus_timeout_get_data(dbus_timeout);
+  timeout = (struct TimeoutData *)return_value_dbus_timeout_get_data_1;
   /* assertion timeout */
   assert(timeout != ((struct TimeoutData *)NULL));
   d->poll_api->timeout_free(timeout->avahi_timeout);
@@ -12277,15 +12277,15 @@ static void remove_timeout(struct DBusTimeout *dbus_timeout, void *userdata)
 // file ../avahi-common/dbus-watch-glue.c line 174
 static void remove_watch(struct DBusWatch *dbus_watch, void *userdata)
 {
-  struct anonymous$11 *d = (struct anonymous$11 *)userdata;
+  struct anonymous_11 *d = (struct anonymous_11 *)userdata;
   struct AvahiWatch *avahi_watch;
   /* assertion dbus_watch */
   assert(dbus_watch != ((struct DBusWatch *)NULL));
   /* assertion d */
-  assert(d != ((struct anonymous$11 *)NULL));
-  void *return_value_dbus_watch_get_data$1;
-  return_value_dbus_watch_get_data$1=dbus_watch_get_data(dbus_watch);
-  avahi_watch = (struct AvahiWatch *)return_value_dbus_watch_get_data$1;
+  assert(d != ((struct anonymous_11 *)NULL));
+  void *return_value_dbus_watch_get_data_1;
+  return_value_dbus_watch_get_data_1=dbus_watch_get_data(dbus_watch);
+  avahi_watch = (struct AvahiWatch *)return_value_dbus_watch_get_data_1;
   if(!(avahi_watch == ((struct AvahiWatch *)NULL)))
   {
     d->poll_api->watch_free(avahi_watch);
@@ -12296,16 +12296,16 @@ static void remove_watch(struct DBusWatch *dbus_watch, void *userdata)
 
 // request_dispatch
 // file ../avahi-common/dbus-watch-glue.c line 86
-static void request_dispatch(struct anonymous$11 *d, signed int enable)
+static void request_dispatch(struct anonymous_11 *d, signed int enable)
 {
   /* assertion d */
-  assert(d != ((struct anonymous$11 *)NULL));
+  assert(d != ((struct anonymous_11 *)NULL));
   if(!(enable == 0))
   {
-    enum anonymous$10 return_value_dbus_connection_get_dispatch_status$1;
-    return_value_dbus_connection_get_dispatch_status$1=dbus_connection_get_dispatch_status(d->connection);
+    enum anonymous_10 return_value_dbus_connection_get_dispatch_status_1;
+    return_value_dbus_connection_get_dispatch_status_1=dbus_connection_get_dispatch_status(d->connection);
     /* assertion dbus_connection_get_dispatch_status(d->connection) == DBUS_DISPATCH_DATA_REMAINS */
-    assert((signed int)return_value_dbus_connection_get_dispatch_status$1 == DBUS_DISPATCH_DATA_REMAINS);
+    assert((signed int)return_value_dbus_connection_get_dispatch_status_1 == DBUS_DISPATCH_DATA_REMAINS);
     static struct timeval tv = { .tv_sec=(signed long int)0, .tv_usec=(signed long int)0 };
     d->poll_api->timeout_update(d->dispatch_timeout, &tv);
   }
@@ -12323,47 +12323,47 @@ static signed int retrieve_state(struct AvahiEntryGroup *group)
   struct DBusError error;
   signed int r = 0;
   signed int state;
-  struct AvahiClient *retrieve_state$$1$$client;
+  struct AvahiClient *retrieve_state__1__client;
   dbus_error_init(&error);
   /* assertion group */
   assert(group != ((struct AvahiEntryGroup *)NULL));
-  retrieve_state$$1$$client = group->client;
+  retrieve_state__1__client = group->client;
   message=dbus_message_new_method_call("org.freedesktop.Avahi", group->path, "org.freedesktop.Avahi.EntryGroup", "GetState");
-  _Bool tmp_if_expr$2;
-  unsigned int return_value_dbus_error_is_set$1;
-  unsigned int return_value_dbus_message_get_args$3;
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_dbus_error_is_set$4;
+  _Bool tmp_if_expr_2;
+  unsigned int return_value_dbus_error_is_set_1;
+  unsigned int return_value_dbus_message_get_args_3;
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_dbus_error_is_set_4;
   if(message == ((struct DBusMessage *)NULL))
-    r=avahi_client_set_errno(retrieve_state$$1$$client, -24);
+    r=avahi_client_set_errno(retrieve_state__1__client, -24);
 
   else
   {
-    reply=dbus_connection_send_with_reply_and_block(retrieve_state$$1$$client->bus, message, -1, &error);
+    reply=dbus_connection_send_with_reply_and_block(retrieve_state__1__client->bus, message, -1, &error);
     if(reply == ((struct DBusMessage *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
-      return_value_dbus_error_is_set$1=dbus_error_is_set(&error);
-      tmp_if_expr$2 = return_value_dbus_error_is_set$1 != 0u ? (_Bool)1 : (_Bool)0;
+      return_value_dbus_error_is_set_1=dbus_error_is_set(&error);
+      tmp_if_expr_2 = return_value_dbus_error_is_set_1 != 0u ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
-      r=avahi_client_set_errno(retrieve_state$$1$$client, -22);
+    if(tmp_if_expr_2)
+      r=avahi_client_set_errno(retrieve_state__1__client, -22);
 
     else
     {
-      return_value_dbus_message_get_args$3=dbus_message_get_args(reply, &error, (signed int)105, &state, (signed int)0);
-      if(return_value_dbus_message_get_args$3 == 0u)
-        tmp_if_expr$5 = (_Bool)1;
+      return_value_dbus_message_get_args_3=dbus_message_get_args(reply, &error, (signed int)105, &state, (signed int)0);
+      if(return_value_dbus_message_get_args_3 == 0u)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
       {
-        return_value_dbus_error_is_set$4=dbus_error_is_set(&error);
-        tmp_if_expr$5 = return_value_dbus_error_is_set$4 != 0u ? (_Bool)1 : (_Bool)0;
+        return_value_dbus_error_is_set_4=dbus_error_is_set(&error);
+        tmp_if_expr_5 = return_value_dbus_error_is_set_4 != 0u ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$5)
-        r=avahi_client_set_errno(retrieve_state$$1$$client, -22);
+      if(tmp_if_expr_5)
+        r=avahi_client_set_errno(retrieve_state__1__client, -22);
 
       else
       {
@@ -12376,11 +12376,11 @@ static signed int retrieve_state(struct AvahiEntryGroup *group)
 
 fail:
   ;
-  unsigned int return_value_dbus_error_is_set$6;
-  return_value_dbus_error_is_set$6=dbus_error_is_set(&error);
-  if(!(return_value_dbus_error_is_set$6 == 0u))
+  unsigned int return_value_dbus_error_is_set_6;
+  return_value_dbus_error_is_set_6=dbus_error_is_set(&error);
+  if(!(return_value_dbus_error_is_set_6 == 0u))
   {
-    r=avahi_client_set_dbus_error(retrieve_state$$1$$client, &error);
+    r=avahi_client_set_dbus_error(retrieve_state__1__client, &error);
     dbus_error_free(&error);
   }
 
@@ -12410,55 +12410,55 @@ static signed int set_nonblock(signed int fd)
 
     else
     {
-      signed int return_value_fcntl$1;
-      return_value_fcntl$1=fcntl(fd, 4, n | 04000);
-      return return_value_fcntl$1;
+      signed int return_value_fcntl_1;
+      return_value_fcntl_1=fcntl(fd, 4, n | 04000);
+      return return_value_fcntl_1;
     }
 }
 
-// set_nonblock$link1
+// set_nonblock_link1
 // file simple-watch.c line 118
-static signed int set_nonblock$link1(signed int fd$link1)
+static signed int set_nonblock_link1(signed int fd_link1)
 {
-  signed int n$link1;
+  signed int n_link1;
   /* assertion fd >= 0 */
-  assert(fd$link1 >= 0);
-  n$link1=fcntl(fd$link1, 3);
-  if(!(n$link1 >= 0))
+  assert(fd_link1 >= 0);
+  n_link1=fcntl(fd_link1, 3);
+  if(!(n_link1 >= 0))
     return -1;
 
   else
-    if(!((04000 & n$link1) == 0))
+    if(!((04000 & n_link1) == 0))
       return 0;
 
     else
     {
-      signed int return_value_fcntl$1$link1;
-      return_value_fcntl$1$link1=fcntl(fd$link1, 4, n$link1 | 04000);
-      return return_value_fcntl$1$link1;
+      signed int return_value_fcntl_1_link1;
+      return_value_fcntl_1_link1=fcntl(fd_link1, 4, n_link1 | 04000);
+      return return_value_fcntl_1_link1;
     }
 }
 
-// set_nonblock$link2
+// set_nonblock_link2
 // file simple-watch.c line 118
-static signed int set_nonblock$link2(signed int fd$link2)
+static signed int set_nonblock_link2(signed int fd_link2)
 {
-  signed int n$link2;
+  signed int n_link2;
   /* assertion fd >= 0 */
-  assert(fd$link2 >= 0);
-  n$link2=fcntl(fd$link2, 3);
-  if(!(n$link2 >= 0))
+  assert(fd_link2 >= 0);
+  n_link2=fcntl(fd_link2, 3);
+  if(!(n_link2 >= 0))
     return -1;
 
   else
-    if(!((04000 & n$link2) == 0))
+    if(!((04000 & n_link2) == 0))
       return 0;
 
     else
     {
-      signed int return_value_fcntl$1$link2;
-      return_value_fcntl$1$link2=fcntl(fd$link2, 4, n$link2 | 04000);
-      return return_value_fcntl$1$link2;
+      signed int return_value_fcntl_1_link2;
+      return_value_fcntl_1_link2=fcntl(fd_link2, 4, n_link2 | 04000);
+      return return_value_fcntl_1_link2;
     }
 }
 
@@ -12471,24 +12471,24 @@ signed int sigint_install(struct AvahiSimplePoll *spoll)
   /* assertion spoll */
   assert(spoll != ((struct AvahiSimplePoll *)NULL));
   /* assertion !simple_poll */
-  assert(!(simple_poll$link1 != ((struct AvahiSimplePoll *)NULL)));
-  _Bool tmp_if_expr$1;
+  assert(!(simple_poll_link1 != ((struct AvahiSimplePoll *)NULL)));
+  _Bool tmp_if_expr_1;
   if(pipe_fds[0l] == -1)
-    tmp_if_expr$1 = pipe_fds[(signed long int)1] == -1 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = pipe_fds[(signed long int)1] == -1 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
   /* assertion pipe_fds[0] == -1 && pipe_fds[1] == -1 */
-  assert(tmp_if_expr$1);
-  signed int return_value_pipe$4;
-  return_value_pipe$4=pipe(pipe_fds);
-  if(!(return_value_pipe$4 >= 0))
+  assert(tmp_if_expr_1);
+  signed int return_value_pipe_4;
+  return_value_pipe_4=pipe(pipe_fds);
+  if(!(return_value_pipe_4 >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    fprintf(stderr, "pipe() failed: %s\n", return_value_strerror$3);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    fprintf(stderr, "pipe() failed: %s\n", return_value_strerror_3);
     return -1;
   }
 
@@ -12497,38 +12497,38 @@ signed int sigint_install(struct AvahiSimplePoll *spoll)
   memset((void *)&sa, 0, sizeof(struct sigaction) /*152ul*/ );
   sa.__sigaction_handler.sa_handler = handler;
   sa.sa_flags = 0x10000000;
-  signed int return_value_sigaction$7;
-  return_value_sigaction$7=sigaction(2, &sa, &old_sigint_sa);
-  if(!(return_value_sigaction$7 >= 0))
+  signed int return_value_sigaction_7;
+  return_value_sigaction_7=sigaction(2, &sa, &old_sigint_sa);
+  if(!(return_value_sigaction_7 >= 0))
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    char *return_value_strerror$6;
-    return_value_strerror$6=strerror(*return_value___errno_location$5);
-    fprintf(stderr, "sigaction() failed: %s\n", return_value_strerror$6);
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    char *return_value_strerror_6;
+    return_value_strerror_6=strerror(*return_value___errno_location_5);
+    fprintf(stderr, "sigaction() failed: %s\n", return_value_strerror_6);
     close_pipe_fds();
     return -1;
   }
 
-  signed int return_value_sigaction$10;
-  return_value_sigaction$10=sigaction(15, &sa, &old_sigterm_sa);
-  if(!(return_value_sigaction$10 >= 0))
+  signed int return_value_sigaction_10;
+  return_value_sigaction_10=sigaction(15, &sa, &old_sigterm_sa);
+  if(!(return_value_sigaction_10 >= 0))
   {
     sigaction(2, &old_sigint_sa, (struct sigaction *)(void *)0);
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    char *return_value_strerror$9;
-    return_value_strerror$9=strerror(*return_value___errno_location$8);
-    fprintf(stderr, "sigaction() failed: %s\n", return_value_strerror$9);
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    char *return_value_strerror_9;
+    return_value_strerror_9=strerror(*return_value___errno_location_8);
+    fprintf(stderr, "sigaction() failed: %s\n", return_value_strerror_9);
     close_pipe_fds();
     return -1;
   }
 
   p=avahi_simple_poll_get(spoll);
-  watch=p->watch_new(p, pipe_fds[(signed long int)0], (enum anonymous$9)AVAHI_WATCH_IN, watch_callback, (void *)0);
+  watch=p->watch_new(p, pipe_fds[(signed long int)0], (enum anonymous_9)AVAHI_WATCH_IN, watch_callback, (void *)0);
   /* assertion watch */
   assert(watch != ((struct AvahiWatch *)NULL));
-  simple_poll$link1 = spoll;
+  simple_poll_link1 = spoll;
   return 0;
 }
 
@@ -12536,7 +12536,7 @@ signed int sigint_install(struct AvahiSimplePoll *spoll)
 // file sigint.h line 26
 void sigint_uninstall(void)
 {
-  if(!(simple_poll$link1 == ((struct AvahiSimplePoll *)NULL)))
+  if(!(simple_poll_link1 == ((struct AvahiSimplePoll *)NULL)))
   {
     sigaction(15, &old_sigterm_sa, (struct sigaction *)(void *)0);
     sigaction(2, &old_sigint_sa, (struct sigaction *)(void *)0);
@@ -12545,13 +12545,13 @@ void sigint_uninstall(void)
     {
       const struct AvahiPoll *p;
       /* assertion simple_poll */
-      assert(simple_poll$link1 != ((struct AvahiSimplePoll *)NULL));
-      p=avahi_simple_poll_get(simple_poll$link1);
+      assert(simple_poll_link1 != ((struct AvahiSimplePoll *)NULL));
+      p=avahi_simple_poll_get(simple_poll_link1);
       p->watch_free(watch);
       watch = (struct AvahiWatch *)(void *)0;
     }
 
-    simple_poll$link1 = (struct AvahiSimplePoll *)(void *)0;
+    simple_poll_link1 = (struct AvahiSimplePoll *)(void *)0;
   }
 
 }
@@ -12570,46 +12570,46 @@ static unsigned long int strlcpy(char *dest, const char *src, unsigned long int 
     dest[(signed long int)(n - (unsigned long int)1)] = (char)0;
   }
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(src);
-  return return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(src);
+  return return_value_strlen_1;
 }
 
-// strlcpy$link1
+// strlcpy_link1
 // file domain.c line 482
-static unsigned long int strlcpy$link1(char *dest$link1, const char *src$link1, unsigned long int n$link1)
+static unsigned long int strlcpy_link1(char *dest_link1, const char *src_link1, unsigned long int n_link1)
 {
   /* assertion dest */
-  assert(dest$link1 != ((char *)NULL));
+  assert(dest_link1 != ((char *)NULL));
   /* assertion src */
-  assert(src$link1 != ((const char *)NULL));
-  if(n$link1 >= 1ul)
+  assert(src_link1 != ((const char *)NULL));
+  if(n_link1 >= 1ul)
   {
-    strncpy(dest$link1, src$link1, n$link1 - (unsigned long int)1);
-    dest$link1[(signed long int)(n$link1 - (unsigned long int)1)] = (char)0;
+    strncpy(dest_link1, src_link1, n_link1 - (unsigned long int)1);
+    dest_link1[(signed long int)(n_link1 - (unsigned long int)1)] = (char)0;
   }
 
-  unsigned long int return_value_strlen$1$link1;
-  return_value_strlen$1$link1=strlen(src$link1);
-  return return_value_strlen$1$link1;
+  unsigned long int return_value_strlen_1_link1;
+  return_value_strlen_1_link1=strlen(src_link1);
+  return return_value_strlen_1_link1;
 }
 
 // system_poll
 // file simple-watch.c line 626
 static signed int system_poll(struct pollfd *ufds, unsigned int nfds, signed int timeout, void *userdata)
 {
-  signed int return_value_poll$1;
-  return_value_poll$1=poll(ufds, (unsigned long int)nfds, timeout);
-  return return_value_poll$1;
+  signed int return_value_poll_1;
+  return_value_poll_1=poll(ufds, (unsigned long int)nfds, timeout);
+  return return_value_poll_1;
 }
 
-// system_poll$link1
+// system_poll_link1
 // file simple-watch.c line 626
-static signed int system_poll$link1(struct pollfd *ufds$link1, unsigned int nfds$link1, signed int timeout$link1, void *userdata$link1)
+static signed int system_poll_link1(struct pollfd *ufds_link1, unsigned int nfds_link1, signed int timeout_link1, void *userdata_link1)
 {
-  signed int return_value_poll$1$link1;
-  return_value_poll$1$link1=poll(ufds$link1, (unsigned long int)nfds$link1, timeout$link1);
-  return return_value_poll$1$link1;
+  signed int return_value_poll_1_link1;
+  return_value_poll_1_link1=poll(ufds_link1, (unsigned long int)nfds_link1, timeout_link1);
+  return return_value_poll_1_link1;
 }
 
 // thread
@@ -12617,26 +12617,26 @@ static signed int system_poll$link1(struct pollfd *ufds$link1, unsigned int nfds
 static void * thread(void *userdata)
 {
   struct AvahiThreadedPoll *p = (struct AvahiThreadedPoll *)userdata;
-  struct anonymous$15 mask;
+  struct anonymous_15 mask;
   sigfillset(&mask);
-  pthread_sigmask(0, &mask, (struct anonymous$15 *)(void *)0);
+  pthread_sigmask(0, &mask, (struct anonymous_15 *)(void *)0);
   pthread_mutex_lock(&p->mutex);
   p->retval=avahi_simple_poll_loop(p->simple_poll);
   pthread_mutex_unlock(&p->mutex);
   return (void *)0;
 }
 
-// thread$link1
+// thread_link1
 // file thread-watch.c line 62
-static void * thread$link1(void *userdata$link1)
+static void * thread_link1(void *userdata_link1)
 {
-  struct AvahiThreadedPoll *p$link1 = (struct AvahiThreadedPoll *)userdata$link1;
-  struct anonymous$15 mask$link1;
-  sigfillset(&mask$link1);
-  pthread_sigmask(0, &mask$link1, (struct anonymous$15 *)(void *)0);
-  pthread_mutex_lock(&p$link1->mutex);
-  p$link1->retval=avahi_simple_poll_loop(p$link1->simple_poll);
-  pthread_mutex_unlock(&p$link1->mutex);
+  struct AvahiThreadedPoll *p_link1 = (struct AvahiThreadedPoll *)userdata_link1;
+  struct anonymous_15 mask_link1;
+  sigfillset(&mask_link1);
+  pthread_sigmask(0, &mask_link1, (struct anonymous_15 *)(void *)0);
+  pthread_mutex_lock(&p_link1->mutex);
+  p_link1->retval=avahi_simple_poll_loop(p_link1->simple_poll);
+  pthread_mutex_unlock(&p_link1->mutex);
   return (void *)0;
 }
 
@@ -12657,9 +12657,9 @@ static void timeout_callback(struct AvahiTimeout *avahi_timeout, void *userdata)
   timeout_data_unref(timeout);
 }
 
-// timeout_callback$link1
+// timeout_callback_link1
 // file simple-watch.c line 441
-static void timeout_callback$link1(struct AvahiTimeout *t)
+static void timeout_callback_link1(struct AvahiTimeout *t)
 {
   /* assertion t */
   assert(t != ((struct AvahiTimeout *)NULL));
@@ -12671,18 +12671,18 @@ static void timeout_callback$link1(struct AvahiTimeout *t)
   t->callback(t, t->userdata);
 }
 
-// timeout_callback$link2
+// timeout_callback_link2
 // file simple-watch.c line 441
-static void timeout_callback$link2(struct AvahiTimeout *t$link1)
+static void timeout_callback_link2(struct AvahiTimeout *t_link1)
 {
   /* assertion t */
-  assert(t$link1 != ((struct AvahiTimeout *)NULL));
+  assert(t_link1 != ((struct AvahiTimeout *)NULL));
   /* assertion !t->dead */
-  assert(!(t$link1->dead != 0));
+  assert(!(t_link1->dead != 0));
   /* assertion t->enabled */
-  assert(t$link1->enabled != 0);
-  t$link1->enabled = 0;
-  t$link1->callback(t$link1, t$link1->userdata);
+  assert(t_link1->enabled != 0);
+  t_link1->enabled = 0;
+  t_link1->callback(t_link1, t_link1->userdata);
 }
 
 // timeout_data_ref
@@ -12729,17 +12729,17 @@ static void timeout_free(struct AvahiTimeout *t)
   t->simple_poll->timeout_req_cleanup = 1;
 }
 
-// timeout_free$link1
+// timeout_free_link1
 // file simple-watch.c line 284
-static void timeout_free$link1(struct AvahiTimeout *t$link1)
+static void timeout_free_link1(struct AvahiTimeout *t_link1)
 {
   /* assertion t */
-  assert(t$link1 != ((struct AvahiTimeout *)NULL));
+  assert(t_link1 != ((struct AvahiTimeout *)NULL));
   /* assertion !t->dead */
-  assert(!(t$link1->dead != 0));
-  avahi_simple_poll_wakeup(t$link1->simple_poll);
-  t$link1->dead = 1;
-  t$link1->simple_poll->timeout_req_cleanup = 1;
+  assert(!(t_link1->dead != 0));
+  avahi_simple_poll_wakeup(t_link1->simple_poll);
+  t_link1->dead = 1;
+  t_link1->simple_poll->timeout_req_cleanup = 1;
 }
 
 // timeout_new
@@ -12755,9 +12755,9 @@ static struct AvahiTimeout * timeout_new(const struct AvahiPoll *api, struct tim
   s = (struct AvahiSimplePoll *)api->userdata;
   /* assertion s */
   assert(s != ((struct AvahiSimplePoll *)NULL));
-  void *return_value_avahi_new_internal$1;
-  return_value_avahi_new_internal$1=avahi_new_internal$link2$link1((unsigned int)1, sizeof(struct AvahiTimeout) /*64ul*/ );
-  t = (struct AvahiTimeout *)return_value_avahi_new_internal$1;
+  void *return_value_avahi_new_internal_1;
+  return_value_avahi_new_internal_1=avahi_new_internal_link2_link1((unsigned int)1, sizeof(struct AvahiTimeout) /*64ul*/ );
+  t = (struct AvahiTimeout *)return_value_avahi_new_internal_1;
   if(t == ((struct AvahiTimeout *)NULL))
     return (struct AvahiTimeout *)(void *)0;
 
@@ -12790,51 +12790,51 @@ static struct AvahiTimeout * timeout_new(const struct AvahiPoll *api, struct tim
   }
 }
 
-// timeout_new$link1
+// timeout_new_link1
 // file simple-watch.c line 244
-static struct AvahiTimeout * timeout_new$link1(const struct AvahiPoll *api$link1, struct timeval *tv$link1, void (*callback$link1)(struct AvahiTimeout *, void *), void *userdata$link1)
+static struct AvahiTimeout * timeout_new_link1(const struct AvahiPoll *api_link1, struct timeval *tv_link1, void (*callback_link1)(struct AvahiTimeout *, void *), void *userdata_link1)
 {
-  struct AvahiTimeout *t$link1;
-  struct AvahiSimplePoll *s$link1;
+  struct AvahiTimeout *t_link1;
+  struct AvahiSimplePoll *s_link1;
   /* assertion api */
-  assert(api$link1 != ((const struct AvahiPoll *)NULL));
+  assert(api_link1 != ((const struct AvahiPoll *)NULL));
   /* assertion callback */
-  assert(callback$link1 != ((void (*)(struct AvahiTimeout *, void *))NULL));
-  s$link1 = (struct AvahiSimplePoll *)api$link1->userdata;
+  assert(callback_link1 != ((void (*)(struct AvahiTimeout *, void *))NULL));
+  s_link1 = (struct AvahiSimplePoll *)api_link1->userdata;
   /* assertion s */
-  assert(s$link1 != ((struct AvahiSimplePoll *)NULL));
-  void *return_value_avahi_new_internal$1$link1;
-  return_value_avahi_new_internal$1$link1=avahi_new_internal$link2$link2((unsigned int)1, sizeof(struct AvahiTimeout) /*64ul*/ );
-  t$link1 = (struct AvahiTimeout *)return_value_avahi_new_internal$1$link1;
-  if(t$link1 == ((struct AvahiTimeout *)NULL))
+  assert(s_link1 != ((struct AvahiSimplePoll *)NULL));
+  void *return_value_avahi_new_internal_1_link1;
+  return_value_avahi_new_internal_1_link1=avahi_new_internal_link2_link2((unsigned int)1, sizeof(struct AvahiTimeout) /*64ul*/ );
+  t_link1 = (struct AvahiTimeout *)return_value_avahi_new_internal_1_link1;
+  if(t_link1 == ((struct AvahiTimeout *)NULL))
     return (struct AvahiTimeout *)(void *)0;
 
   else
   {
-    avahi_simple_poll_wakeup(s$link1);
-    t$link1->simple_poll = s$link1;
-    t$link1->dead = 0;
-    t$link1->enabled = (signed int)!(!(tv$link1 != ((struct timeval *)NULL)));
-    if(!(t$link1->enabled == 0))
-      t$link1->expiry = *tv$link1;
+    avahi_simple_poll_wakeup(s_link1);
+    t_link1->simple_poll = s_link1;
+    t_link1->dead = 0;
+    t_link1->enabled = (signed int)!(!(tv_link1 != ((struct timeval *)NULL)));
+    if(!(t_link1->enabled == 0))
+      t_link1->expiry = *tv_link1;
 
-    t$link1->callback = callback$link1;
-    t$link1->userdata = userdata$link1;
+    t_link1->callback = callback_link1;
+    t_link1->userdata = userdata_link1;
     do
     {
-      struct AvahiTimeout **_head$link1 = &s$link1->timeouts;
-      struct AvahiTimeout *_item$link1 = t$link1;
+      struct AvahiTimeout **_head_link1 = &s_link1->timeouts;
+      struct AvahiTimeout *_item_link1 = t_link1;
       /* assertion _item */
-      assert(_item$link1 != ((struct AvahiTimeout *)NULL));
-      _item$link1->timeouts_next = *_head$link1;
-      if(!(_item$link1->timeouts_next == ((struct AvahiTimeout *)NULL)))
-        _item$link1->timeouts_next->timeouts_prev = _item$link1;
+      assert(_item_link1 != ((struct AvahiTimeout *)NULL));
+      _item_link1->timeouts_next = *_head_link1;
+      if(!(_item_link1->timeouts_next == ((struct AvahiTimeout *)NULL)))
+        _item_link1->timeouts_next->timeouts_prev = _item_link1;
 
-      _item$link1->timeouts_prev = (struct AvahiTimeout *)(void *)0;
-      *_head$link1 = _item$link1;
+      _item_link1->timeouts_prev = (struct AvahiTimeout *)(void *)0;
+      *_head_link1 = _item_link1;
     }
     while((_Bool)0);
-    return t$link1;
+    return t_link1;
   }
 }
 
@@ -12845,9 +12845,9 @@ static void timeout_toggled(struct DBusTimeout *dbus_timeout, void *userdata)
   struct TimeoutData *timeout;
   /* assertion dbus_timeout */
   assert(dbus_timeout != ((struct DBusTimeout *)NULL));
-  void *return_value_dbus_timeout_get_data$1;
-  return_value_dbus_timeout_get_data$1=dbus_timeout_get_data(dbus_timeout);
-  timeout = (struct TimeoutData *)return_value_dbus_timeout_get_data$1;
+  void *return_value_dbus_timeout_get_data_1;
+  return_value_dbus_timeout_get_data_1=dbus_timeout_get_data(dbus_timeout);
+  timeout = (struct TimeoutData *)return_value_dbus_timeout_get_data_1;
   /* assertion timeout */
   assert(timeout != ((struct TimeoutData *)NULL));
   update_timeout(timeout);
@@ -12868,24 +12868,24 @@ static void timeout_update(struct AvahiTimeout *t, struct timeval *tv)
 
 }
 
-// timeout_update$link1
+// timeout_update_link1
 // file simple-watch.c line 273
-static void timeout_update$link1(struct AvahiTimeout *t$link1, struct timeval *tv$link1)
+static void timeout_update_link1(struct AvahiTimeout *t_link1, struct timeval *tv_link1)
 {
   /* assertion t */
-  assert(t$link1 != ((struct AvahiTimeout *)NULL));
+  assert(t_link1 != ((struct AvahiTimeout *)NULL));
   /* assertion !t->dead */
-  assert(!(t$link1->dead != 0));
-  avahi_simple_poll_wakeup(t$link1->simple_poll);
-  t$link1->enabled = (signed int)!(!(tv$link1 != ((struct timeval *)NULL)));
-  if(!(t$link1->enabled == 0))
-    t$link1->expiry = *tv$link1;
+  assert(!(t_link1->dead != 0));
+  avahi_simple_poll_wakeup(t_link1->simple_poll);
+  t_link1->enabled = (signed int)!(!(tv_link1 != ((struct timeval *)NULL)));
+  if(!(t_link1->enabled == 0))
+    t_link1->expiry = *tv_link1;
 
 }
 
 // translate_avahi_to_dbus
 // file ../avahi-common/dbus-watch-glue.c line 46
-static unsigned int translate_avahi_to_dbus(enum anonymous$9 e)
+static unsigned int translate_avahi_to_dbus(enum anonymous_9 e)
 {
   unsigned int f = (unsigned int)0;
   if(!((AVAHI_WATCH_IN & (signed int)e) == 0))
@@ -12905,20 +12905,20 @@ static unsigned int translate_avahi_to_dbus(enum anonymous$9 e)
 
 // translate_dbus_to_avahi
 // file ../avahi-common/dbus-watch-glue.c line 31
-static enum anonymous$9 translate_dbus_to_avahi(unsigned int f)
+static enum anonymous_9 translate_dbus_to_avahi(unsigned int f)
 {
-  enum anonymous$9 e = (enum anonymous$9)0;
+  enum anonymous_9 e = (enum anonymous_9)0;
   if(!((1u & f) == 0u))
-    e = e | (enum anonymous$9)AVAHI_WATCH_IN;
+    e = e | (enum anonymous_9)AVAHI_WATCH_IN;
 
   if(!((2u & f) == 0u))
-    e = e | (enum anonymous$9)AVAHI_WATCH_OUT;
+    e = e | (enum anonymous_9)AVAHI_WATCH_OUT;
 
   if(!((4u & f) == 0u))
-    e = e | (enum anonymous$9)AVAHI_WATCH_ERR;
+    e = e | (enum anonymous_9)AVAHI_WATCH_ERR;
 
   if(!((8u & f) == 0u))
-    e = e | (enum anonymous$9)AVAHI_WATCH_HUP;
+    e = e | (enum anonymous_9)AVAHI_WATCH_HUP;
 
   return e;
 }
@@ -12931,14 +12931,14 @@ static void update_timeout(struct TimeoutData *timeout)
   assert(timeout != ((struct TimeoutData *)NULL));
   /* assertion timeout->ref >= 1 */
   assert(timeout->ref >= 1);
-  unsigned int return_value_dbus_timeout_get_enabled$2;
-  return_value_dbus_timeout_get_enabled$2=dbus_timeout_get_enabled(timeout->dbus_timeout);
-  if(!(return_value_dbus_timeout_get_enabled$2 == 0u))
+  unsigned int return_value_dbus_timeout_get_enabled_2;
+  return_value_dbus_timeout_get_enabled_2=dbus_timeout_get_enabled(timeout->dbus_timeout);
+  if(!(return_value_dbus_timeout_get_enabled_2 == 0u))
   {
     struct timeval tv;
-    signed int return_value_dbus_timeout_get_interval$1;
-    return_value_dbus_timeout_get_interval$1=dbus_timeout_get_interval(timeout->dbus_timeout);
-    avahi_elapse_time(&tv, (unsigned int)return_value_dbus_timeout_get_interval$1, (unsigned int)0);
+    signed int return_value_dbus_timeout_get_interval_1;
+    return_value_dbus_timeout_get_interval_1=dbus_timeout_get_interval(timeout->dbus_timeout);
+    avahi_elapse_time(&tv, (unsigned int)return_value_dbus_timeout_get_interval_1, (unsigned int)0);
     timeout->poll_api->timeout_update(timeout->avahi_timeout, &tv);
   }
 
@@ -12954,19 +12954,19 @@ static unsigned int update_watch(const struct AvahiPoll *poll_api, struct DBusWa
   unsigned int b;
   /* assertion dbus_watch */
   assert(dbus_watch != ((struct DBusWatch *)NULL));
-  void *return_value_dbus_watch_get_data$1;
-  return_value_dbus_watch_get_data$1=dbus_watch_get_data(dbus_watch);
-  avahi_watch = (struct AvahiWatch *)return_value_dbus_watch_get_data$1;
+  void *return_value_dbus_watch_get_data_1;
+  return_value_dbus_watch_get_data_1=dbus_watch_get_data(dbus_watch);
+  avahi_watch = (struct AvahiWatch *)return_value_dbus_watch_get_data_1;
   b=dbus_watch_get_enabled(dbus_watch);
   if(avahi_watch == ((struct AvahiWatch *)NULL) && !(b == 0u))
   {
-    signed int return_value_dbus_watch_get_unix_fd$2;
-    return_value_dbus_watch_get_unix_fd$2=dbus_watch_get_unix_fd(dbus_watch);
-    unsigned int return_value_dbus_watch_get_flags$3;
-    return_value_dbus_watch_get_flags$3=dbus_watch_get_flags(dbus_watch);
-    enum anonymous$9 return_value_translate_dbus_to_avahi$4;
-    return_value_translate_dbus_to_avahi$4=translate_dbus_to_avahi(return_value_dbus_watch_get_flags$3);
-    avahi_watch=poll_api->watch_new(poll_api, return_value_dbus_watch_get_unix_fd$2, return_value_translate_dbus_to_avahi$4, watch_callback$link1, (void *)dbus_watch);
+    signed int return_value_dbus_watch_get_unix_fd_2;
+    return_value_dbus_watch_get_unix_fd_2=dbus_watch_get_unix_fd(dbus_watch);
+    unsigned int return_value_dbus_watch_get_flags_3;
+    return_value_dbus_watch_get_flags_3=dbus_watch_get_flags(dbus_watch);
+    enum anonymous_9 return_value_translate_dbus_to_avahi_4;
+    return_value_translate_dbus_to_avahi_4=translate_dbus_to_avahi(return_value_dbus_watch_get_flags_3);
+    avahi_watch=poll_api->watch_new(poll_api, return_value_dbus_watch_get_unix_fd_2, return_value_translate_dbus_to_avahi_4, watch_callback_link1, (void *)dbus_watch);
     if(avahi_watch == ((struct AvahiWatch *)NULL))
       return (unsigned int)0;
 
@@ -12983,9 +12983,9 @@ static unsigned int update_watch(const struct AvahiPoll *poll_api, struct DBusWa
     else
       if(!(avahi_watch == ((struct AvahiWatch *)NULL)))
       {
-        unsigned int return_value_dbus_watch_get_flags$5;
-        return_value_dbus_watch_get_flags$5=dbus_watch_get_flags(dbus_watch);
-        poll_api->watch_update(avahi_watch, (enum anonymous$9)return_value_dbus_watch_get_flags$5);
+        unsigned int return_value_dbus_watch_get_flags_5;
+        return_value_dbus_watch_get_flags_5=dbus_watch_get_flags(dbus_watch);
+        poll_api->watch_update(avahi_watch, (enum anonymous_9)return_value_dbus_watch_get_flags_5);
       }
 
   return (unsigned int)1;
@@ -12993,7 +12993,7 @@ static unsigned int update_watch(const struct AvahiPoll *poll_api, struct DBusWa
 
 // watch_callback
 // file sigint.c line 67
-static void watch_callback(struct AvahiWatch *w, signed int fd, enum anonymous$9 event, void *userdata)
+static void watch_callback(struct AvahiWatch *w, signed int fd, enum anonymous_9 event, void *userdata)
 {
   signed int s;
   signed long int l;
@@ -13007,21 +13007,21 @@ static void watch_callback(struct AvahiWatch *w, signed int fd, enum anonymous$9
   /* assertion l == sizeof(s) */
   assert((unsigned long int)l == sizeof(signed int) /*4ul*/ );
   fprintf(stderr, "Got %s, quitting.\n", s == 2 ? "SIGINT" : "SIGTERM");
-  avahi_simple_poll_quit(simple_poll$link1);
+  avahi_simple_poll_quit(simple_poll_link1);
 }
 
-// watch_callback$link1
+// watch_callback_link1
 // file ../avahi-common/dbus-watch-glue.c line 115
-static void watch_callback$link1(struct AvahiWatch *avahi_watch, signed int fd$link1, enum anonymous$9 events, void *userdata$link1)
+static void watch_callback_link1(struct AvahiWatch *avahi_watch, signed int fd_link1, enum anonymous_9 events, void *userdata_link1)
 {
-  struct DBusWatch *dbus_watch = (struct DBusWatch *)userdata$link1;
+  struct DBusWatch *dbus_watch = (struct DBusWatch *)userdata_link1;
   /* assertion avahi_watch */
   assert(avahi_watch != ((struct AvahiWatch *)NULL));
   /* assertion dbus_watch */
   assert(dbus_watch != ((struct DBusWatch *)NULL));
-  unsigned int return_value_translate_avahi_to_dbus$1;
-  return_value_translate_avahi_to_dbus$1=translate_avahi_to_dbus(events);
-  dbus_watch_handle(dbus_watch, return_value_translate_avahi_to_dbus$1);
+  unsigned int return_value_translate_avahi_to_dbus_1;
+  return_value_translate_avahi_to_dbus_1=translate_avahi_to_dbus(events);
+  dbus_watch_handle(dbus_watch, return_value_translate_avahi_to_dbus_1);
 }
 
 // watch_free
@@ -13039,24 +13039,24 @@ static void watch_free(struct AvahiWatch *w)
   w->simple_poll->watch_req_cleanup = 1;
 }
 
-// watch_free$link1
+// watch_free_link1
 // file simple-watch.c line 203
-static void watch_free$link1(struct AvahiWatch *w$link1)
+static void watch_free_link1(struct AvahiWatch *w_link1)
 {
   /* assertion w */
-  assert(w$link1 != ((struct AvahiWatch *)NULL));
+  assert(w_link1 != ((struct AvahiWatch *)NULL));
   /* assertion !w->dead */
-  assert(!(w$link1->dead != 0));
-  avahi_simple_poll_wakeup(w$link1->simple_poll);
-  remove_pollfd$link1(w$link1);
-  w$link1->dead = 1;
-  w$link1->simple_poll->n_watches = w$link1->simple_poll->n_watches - 1;
-  w$link1->simple_poll->watch_req_cleanup = 1;
+  assert(!(w_link1->dead != 0));
+  avahi_simple_poll_wakeup(w_link1->simple_poll);
+  remove_pollfd_link1(w_link1);
+  w_link1->dead = 1;
+  w_link1->simple_poll->n_watches = w_link1->simple_poll->n_watches - 1;
+  w_link1->simple_poll->watch_req_cleanup = 1;
 }
 
 // watch_get_events
 // file simple-watch.c line 184
-static enum anonymous$9 watch_get_events(struct AvahiWatch *w)
+static enum anonymous_9 watch_get_events(struct AvahiWatch *w)
 {
   /* assertion w */
   assert(w != ((struct AvahiWatch *)NULL));
@@ -13067,7 +13067,7 @@ static enum anonymous$9 watch_get_events(struct AvahiWatch *w)
     if(w->simple_poll->events_valid == 0)
       goto __CPROVER_DUMP_L1;
 
-    return (enum anonymous$9)(w->simple_poll->pollfds + (signed long int)w->idx)->revents;
+    return (enum anonymous_9)(w->simple_poll->pollfds + (signed long int)w->idx)->revents;
   }
 
   else
@@ -13075,24 +13075,24 @@ static enum anonymous$9 watch_get_events(struct AvahiWatch *w)
 
   __CPROVER_DUMP_L1:
     ;
-    return (enum anonymous$9)0;
+    return (enum anonymous_9)0;
   }
 }
 
-// watch_get_events$link1
+// watch_get_events_link1
 // file simple-watch.c line 184
-static enum anonymous$9 watch_get_events$link1(struct AvahiWatch *w$link1)
+static enum anonymous_9 watch_get_events_link1(struct AvahiWatch *w_link1)
 {
   /* assertion w */
-  assert(w$link1 != ((struct AvahiWatch *)NULL));
+  assert(w_link1 != ((struct AvahiWatch *)NULL));
   /* assertion !w->dead */
-  assert(!(w$link1->dead != 0));
-  if(!(w$link1->idx == -1))
+  assert(!(w_link1->dead != 0));
+  if(!(w_link1->idx == -1))
   {
-    if(w$link1->simple_poll->events_valid == 0)
+    if(w_link1->simple_poll->events_valid == 0)
       goto __CPROVER_DUMP_L1;
 
-    return (enum anonymous$9)(w$link1->simple_poll->pollfds + (signed long int)w$link1->idx)->revents;
+    return (enum anonymous_9)(w_link1->simple_poll->pollfds + (signed long int)w_link1->idx)->revents;
   }
 
   else
@@ -13100,13 +13100,13 @@ static enum anonymous$9 watch_get_events$link1(struct AvahiWatch *w$link1)
 
   __CPROVER_DUMP_L1:
     ;
-    return (enum anonymous$9)0;
+    return (enum anonymous_9)0;
   }
 }
 
 // watch_new
 // file simple-watch.c line 132
-static struct AvahiWatch * watch_new(const struct AvahiPoll *api, signed int fd, enum anonymous$9 event, void (*callback)(struct AvahiWatch *, signed int, enum anonymous$9, void *), void *userdata)
+static struct AvahiWatch * watch_new(const struct AvahiPoll *api, signed int fd, enum anonymous_9 event, void (*callback)(struct AvahiWatch *, signed int, enum anonymous_9, void *), void *userdata)
 {
   struct AvahiWatch *w;
   struct AvahiSimplePoll *s;
@@ -13115,13 +13115,13 @@ static struct AvahiWatch * watch_new(const struct AvahiPoll *api, signed int fd,
   /* assertion fd >= 0 */
   assert(fd >= 0);
   /* assertion callback */
-  assert(callback != ((void (*)(struct AvahiWatch *, signed int, enum anonymous$9, void *))NULL));
+  assert(callback != ((void (*)(struct AvahiWatch *, signed int, enum anonymous_9, void *))NULL));
   s = (struct AvahiSimplePoll *)api->userdata;
   /* assertion s */
   assert(s != ((struct AvahiSimplePoll *)NULL));
-  void *return_value_avahi_new_internal$1;
-  return_value_avahi_new_internal$1=avahi_new_internal$link2$link1((unsigned int)1, sizeof(struct AvahiWatch) /*56ul*/ );
-  w = (struct AvahiWatch *)return_value_avahi_new_internal$1;
+  void *return_value_avahi_new_internal_1;
+  return_value_avahi_new_internal_1=avahi_new_internal_link2_link1((unsigned int)1, sizeof(struct AvahiWatch) /*56ul*/ );
+  w = (struct AvahiWatch *)return_value_avahi_new_internal_1;
   if(w == ((struct AvahiWatch *)NULL))
     return (struct AvahiWatch *)(void *)0;
 
@@ -13156,55 +13156,55 @@ static struct AvahiWatch * watch_new(const struct AvahiPoll *api, signed int fd,
   }
 }
 
-// watch_new$link1
+// watch_new_link1
 // file simple-watch.c line 132
-static struct AvahiWatch * watch_new$link1(const struct AvahiPoll *api$link1, signed int fd$link1, enum anonymous$9 event$link1, void (*callback$link1)(struct AvahiWatch *, signed int, enum anonymous$9, void *), void *userdata$link1)
+static struct AvahiWatch * watch_new_link1(const struct AvahiPoll *api_link1, signed int fd_link1, enum anonymous_9 event_link1, void (*callback_link1)(struct AvahiWatch *, signed int, enum anonymous_9, void *), void *userdata_link1)
 {
-  struct AvahiWatch *w$link1;
-  struct AvahiSimplePoll *s$link1;
+  struct AvahiWatch *w_link1;
+  struct AvahiSimplePoll *s_link1;
   /* assertion api */
-  assert(api$link1 != ((const struct AvahiPoll *)NULL));
+  assert(api_link1 != ((const struct AvahiPoll *)NULL));
   /* assertion fd >= 0 */
-  assert(fd$link1 >= 0);
+  assert(fd_link1 >= 0);
   /* assertion callback */
-  assert(callback$link1 != ((void (*)(struct AvahiWatch *, signed int, enum anonymous$9, void *))NULL));
-  s$link1 = (struct AvahiSimplePoll *)api$link1->userdata;
+  assert(callback_link1 != ((void (*)(struct AvahiWatch *, signed int, enum anonymous_9, void *))NULL));
+  s_link1 = (struct AvahiSimplePoll *)api_link1->userdata;
   /* assertion s */
-  assert(s$link1 != ((struct AvahiSimplePoll *)NULL));
-  void *return_value_avahi_new_internal$1$link1;
-  return_value_avahi_new_internal$1$link1=avahi_new_internal$link2$link2((unsigned int)1, sizeof(struct AvahiWatch) /*56ul*/ );
-  w$link1 = (struct AvahiWatch *)return_value_avahi_new_internal$1$link1;
-  if(w$link1 == ((struct AvahiWatch *)NULL))
+  assert(s_link1 != ((struct AvahiSimplePoll *)NULL));
+  void *return_value_avahi_new_internal_1_link1;
+  return_value_avahi_new_internal_1_link1=avahi_new_internal_link2_link2((unsigned int)1, sizeof(struct AvahiWatch) /*56ul*/ );
+  w_link1 = (struct AvahiWatch *)return_value_avahi_new_internal_1_link1;
+  if(w_link1 == ((struct AvahiWatch *)NULL))
     return (struct AvahiWatch *)(void *)0;
 
   else
   {
-    avahi_simple_poll_wakeup(s$link1);
-    w$link1->simple_poll = s$link1;
-    w$link1->dead = 0;
-    w$link1->pollfd.fd = fd$link1;
-    w$link1->pollfd.events = (signed short int)event$link1;
-    w$link1->pollfd.revents = (signed short int)0;
-    w$link1->callback = callback$link1;
-    w$link1->userdata = userdata$link1;
-    w$link1->idx = -1;
-    s$link1->rebuild_pollfds = 1;
+    avahi_simple_poll_wakeup(s_link1);
+    w_link1->simple_poll = s_link1;
+    w_link1->dead = 0;
+    w_link1->pollfd.fd = fd_link1;
+    w_link1->pollfd.events = (signed short int)event_link1;
+    w_link1->pollfd.revents = (signed short int)0;
+    w_link1->callback = callback_link1;
+    w_link1->userdata = userdata_link1;
+    w_link1->idx = -1;
+    s_link1->rebuild_pollfds = 1;
     do
     {
-      struct AvahiWatch **_head$link1 = &s$link1->watches;
-      struct AvahiWatch *_item$link1 = w$link1;
+      struct AvahiWatch **_head_link1 = &s_link1->watches;
+      struct AvahiWatch *_item_link1 = w_link1;
       /* assertion _item */
-      assert(_item$link1 != ((struct AvahiWatch *)NULL));
-      _item$link1->watches_next = *_head$link1;
-      if(!(_item$link1->watches_next == ((struct AvahiWatch *)NULL)))
-        _item$link1->watches_next->watches_prev = _item$link1;
+      assert(_item_link1 != ((struct AvahiWatch *)NULL));
+      _item_link1->watches_next = *_head_link1;
+      if(!(_item_link1->watches_next == ((struct AvahiWatch *)NULL)))
+        _item_link1->watches_next->watches_prev = _item_link1;
 
-      _item$link1->watches_prev = (struct AvahiWatch *)(void *)0;
-      *_head$link1 = _item$link1;
+      _item_link1->watches_prev = (struct AvahiWatch *)(void *)0;
+      *_head_link1 = _item_link1;
     }
     while((_Bool)0);
-    s$link1->n_watches = s$link1->n_watches + 1;
-    return w$link1;
+    s_link1->n_watches = s_link1->n_watches + 1;
+    return w_link1;
   }
 }
 
@@ -13212,17 +13212,17 @@ static struct AvahiWatch * watch_new$link1(const struct AvahiPoll *api$link1, si
 // file ../avahi-common/dbus-watch-glue.c line 187
 static void watch_toggled(struct DBusWatch *dbus_watch, void *userdata)
 {
-  struct anonymous$11 *d = (struct anonymous$11 *)userdata;
+  struct anonymous_11 *d = (struct anonymous_11 *)userdata;
   /* assertion dbus_watch */
   assert(dbus_watch != ((struct DBusWatch *)NULL));
   /* assertion d */
-  assert(d != ((struct anonymous$11 *)NULL));
+  assert(d != ((struct anonymous_11 *)NULL));
   update_watch(d->poll_api, dbus_watch);
 }
 
 // watch_update
 // file simple-watch.c line 168
-static void watch_update(struct AvahiWatch *w, enum anonymous$9 events)
+static void watch_update(struct AvahiWatch *w, enum anonymous_9 events)
 {
   /* assertion w */
   assert(w != ((struct AvahiWatch *)NULL));
@@ -13241,25 +13241,25 @@ static void watch_update(struct AvahiWatch *w, enum anonymous$9 events)
     w->simple_poll->rebuild_pollfds = 1;
 }
 
-// watch_update$link1
+// watch_update_link1
 // file simple-watch.c line 168
-static void watch_update$link1(struct AvahiWatch *w$link1, enum anonymous$9 events$link1)
+static void watch_update_link1(struct AvahiWatch *w_link1, enum anonymous_9 events_link1)
 {
   /* assertion w */
-  assert(w$link1 != ((struct AvahiWatch *)NULL));
+  assert(w_link1 != ((struct AvahiWatch *)NULL));
   /* assertion !w->dead */
-  assert(!(w$link1->dead != 0));
-  avahi_simple_poll_wakeup(w$link1->simple_poll);
-  w$link1->pollfd.events = (signed short int)events$link1;
-  if(!(w$link1->idx == -1))
+  assert(!(w_link1->dead != 0));
+  avahi_simple_poll_wakeup(w_link1->simple_poll);
+  w_link1->pollfd.events = (signed short int)events_link1;
+  if(!(w_link1->idx == -1))
   {
     /* assertion w->simple_poll */
-    assert(w$link1->simple_poll != ((struct AvahiSimplePoll *)NULL));
-    w$link1->simple_poll->pollfds[(signed long int)w$link1->idx] = w$link1->pollfd;
+    assert(w_link1->simple_poll != ((struct AvahiSimplePoll *)NULL));
+    w_link1->simple_poll->pollfds[(signed long int)w_link1->idx] = w_link1->pollfd;
   }
 
   else
-    w$link1->simple_poll->rebuild_pollfds = 1;
+    w_link1->simple_poll->rebuild_pollfds = 1;
 }
 
 // xcalloc
@@ -13280,21 +13280,21 @@ static void * xcalloc(unsigned long int nmemb, unsigned long int size)
   }
 }
 
-// xcalloc$link1
+// xcalloc_link1
 // file malloc.c line 89
-static void * xcalloc$link1(unsigned long int nmemb$link1, unsigned long int size$link1)
+static void * xcalloc_link1(unsigned long int nmemb_link1, unsigned long int size_link1)
 {
-  void *p$link1;
-  if(nmemb$link1 == 0ul || size$link1 == 0ul)
+  void *p_link1;
+  if(nmemb_link1 == 0ul || size_link1 == 0ul)
     return (void *)0;
 
   else
   {
-    p$link1=calloc(nmemb$link1, size$link1);
-    if(p$link1 == NULL)
-      oom$link1();
+    p_link1=calloc(nmemb_link1, size_link1);
+    if(p_link1 == NULL)
+      oom_link1();
 
-    return p$link1;
+    return p_link1;
   }
 }
 
@@ -13316,21 +13316,21 @@ static void * xmalloc(unsigned long int size)
   }
 }
 
-// xmalloc$link1
+// xmalloc_link1
 // file malloc.c line 62
-static void * xmalloc$link1(unsigned long int size$link1)
+static void * xmalloc_link1(unsigned long int size_link1)
 {
-  void *p$link1;
-  if(size$link1 == 0ul)
+  void *p_link1;
+  if(size_link1 == 0ul)
     return (void *)0;
 
   else
   {
-    p$link1=malloc(size$link1);
-    if(p$link1 == NULL)
-      oom$link1();
+    p_link1=malloc(size_link1);
+    if(p_link1 == NULL)
+      oom_link1();
 
-    return p$link1;
+    return p_link1;
   }
 }
 
@@ -13354,23 +13354,23 @@ static void * xrealloc(void *p, unsigned long int size)
   }
 }
 
-// xrealloc$link1
+// xrealloc_link1
 // file malloc.c line 75
-static void * xrealloc$link1(void *p$link1, unsigned long int size$link1)
+static void * xrealloc_link1(void *p_link1, unsigned long int size_link1)
 {
-  if(size$link1 == 0ul)
+  if(size_link1 == 0ul)
   {
-    free(p$link1);
+    free(p_link1);
     return (void *)0;
   }
 
   else
   {
-    p$link1=realloc(p$link1, size$link1);
-    if(p$link1 == NULL)
-      oom$link1();
+    p_link1=realloc(p_link1, size_link1);
+    if(p_link1 == NULL)
+      oom_link1();
 
-    return p$link1;
+    return p_link1;
   }
 }
 

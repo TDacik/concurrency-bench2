@@ -1,94 +1,94 @@
-// #anon_enum$G_SPAWN_DEFAULT=0$G_SPAWN_LEAVE_DESCRIPTORS_OPEN=1$G_SPAWN_DO_NOT_REAP_CHILD=2$G_SPAWN_SEARCH_PATH=4$G_SPAWN_STDOUT_TO_DEV_NULL=8$G_SPAWN_STDERR_TO_DEV_NULL=16$G_SPAWN_CHILD_INHERITS_STDIN=32$G_SPAWN_FILE_AND_ARGV_ZERO=64$G_SPAWN_SEARCH_PATH_FROM_ENVP=128$G_SPAWN_CLOEXEC_PIPES=256
+// #anon_enum_G_SPAWN_DEFAULT=0_G_SPAWN_LEAVE_DESCRIPTORS_OPEN=1_G_SPAWN_DO_NOT_REAP_CHILD=2_G_SPAWN_SEARCH_PATH=4_G_SPAWN_STDOUT_TO_DEV_NULL=8_G_SPAWN_STDERR_TO_DEV_NULL=16_G_SPAWN_CHILD_INHERITS_STDIN=32_G_SPAWN_FILE_AND_ARGV_ZERO=64_G_SPAWN_SEARCH_PATH_FROM_ENVP=128_G_SPAWN_CLOEXEC_PIPES=256
 // file /usr/include/glib-2.0/glib/gspawn.h line 172
-enum anonymous$18 { G_SPAWN_DEFAULT=0, G_SPAWN_LEAVE_DESCRIPTORS_OPEN=1, G_SPAWN_DO_NOT_REAP_CHILD=2, G_SPAWN_SEARCH_PATH=4, G_SPAWN_STDOUT_TO_DEV_NULL=8, G_SPAWN_STDERR_TO_DEV_NULL=16, G_SPAWN_CHILD_INHERITS_STDIN=32, G_SPAWN_FILE_AND_ARGV_ZERO=64, G_SPAWN_SEARCH_PATH_FROM_ENVP=128, G_SPAWN_CLOEXEC_PIPES=256 };
+enum anonymous_18 { G_SPAWN_DEFAULT=0, G_SPAWN_LEAVE_DESCRIPTORS_OPEN=1, G_SPAWN_DO_NOT_REAP_CHILD=2, G_SPAWN_SEARCH_PATH=4, G_SPAWN_STDOUT_TO_DEV_NULL=8, G_SPAWN_STDERR_TO_DEV_NULL=16, G_SPAWN_CHILD_INHERITS_STDIN=32, G_SPAWN_FILE_AND_ARGV_ZERO=64, G_SPAWN_SEARCH_PATH_FROM_ENVP=128, G_SPAWN_CLOEXEC_PIPES=256 };
 
-// #anon_enum$SPD_BEGIN=1$SPD_END=2$SPD_INDEX_MARKS=4$SPD_CANCEL=8$SPD_PAUSE=16$SPD_RESUME=32$SPD_ALL=63
+// #anon_enum_SPD_BEGIN=1_SPD_END=2_SPD_INDEX_MARKS=4_SPD_CANCEL=8_SPD_PAUSE=16_SPD_RESUME=32_SPD_ALL=63
 // file ../../../include/speechd_types.h line 73
-enum anonymous$2 { SPD_BEGIN=1, SPD_END=2, SPD_INDEX_MARKS=4, SPD_CANCEL=8, SPD_PAUSE=16, SPD_RESUME=32, SPD_ALL=63 };
+enum anonymous_2 { SPD_BEGIN=1, SPD_END=2, SPD_INDEX_MARKS=4, SPD_CANCEL=8, SPD_PAUSE=16, SPD_RESUME=32, SPD_ALL=63 };
 
-// #anon_enum$SPD_CAP_NONE=0$SPD_CAP_SPELL=1$SPD_CAP_ICON=2
+// #anon_enum_SPD_CAP_NONE=0_SPD_CAP_SPELL=1_SPD_CAP_ICON=2
 // file ../../../include/speechd_types.h line 32
-enum anonymous$15 { SPD_CAP_NONE=0, SPD_CAP_SPELL=1, SPD_CAP_ICON=2 };
+enum anonymous_15 { SPD_CAP_NONE=0, SPD_CAP_SPELL=1, SPD_CAP_ICON=2 };
 
-// #anon_enum$SPD_DATA_TEXT=0$SPD_DATA_SSML=1
+// #anon_enum_SPD_DATA_TEXT=0_SPD_DATA_SSML=1
 // file ../../../include/speechd_types.h line 60
-enum anonymous$6 { SPD_DATA_TEXT=0, SPD_DATA_SSML=1 };
+enum anonymous_6 { SPD_DATA_TEXT=0, SPD_DATA_SSML=1 };
 
-// #anon_enum$SPD_EVENT_BEGIN=0$SPD_EVENT_END=1$SPD_EVENT_INDEX_MARK=2$SPD_EVENT_CANCEL=3$SPD_EVENT_PAUSE=4$SPD_EVENT_RESUME=5
+// #anon_enum_SPD_EVENT_BEGIN=0_SPD_EVENT_END=1_SPD_EVENT_INDEX_MARK=2_SPD_EVENT_CANCEL=3_SPD_EVENT_PAUSE=4_SPD_EVENT_RESUME=5
 // file ../../include/speechd_types.h line 84
 enum anonymous { SPD_EVENT_BEGIN=0, SPD_EVENT_END=1, SPD_EVENT_INDEX_MARK=2, SPD_EVENT_CANCEL=3, SPD_EVENT_PAUSE=4, SPD_EVENT_RESUME=5 };
 
-// #anon_enum$SPD_IMPORTANT=1$SPD_MESSAGE=2$SPD_TEXT=3$SPD_NOTIFICATION=4$SPD_PROGRESS=5
+// #anon_enum_SPD_IMPORTANT=1_SPD_MESSAGE=2_SPD_TEXT=3_SPD_NOTIFICATION=4_SPD_PROGRESS=5
 // file ../../include/speechd_types.h line 65
-enum anonymous$11 { SPD_IMPORTANT=1, SPD_MESSAGE=2, SPD_TEXT=3, SPD_NOTIFICATION=4, SPD_PROGRESS=5 };
+enum anonymous_11 { SPD_IMPORTANT=1, SPD_MESSAGE=2, SPD_TEXT=3, SPD_NOTIFICATION=4, SPD_PROGRESS=5 };
 
-// #anon_enum$SPD_MALE1=1$SPD_MALE2=2$SPD_MALE3=3$SPD_FEMALE1=4$SPD_FEMALE2=5$SPD_FEMALE3=6$SPD_CHILD_MALE=7$SPD_CHILD_FEMALE=8
+// #anon_enum_SPD_MALE1=1_SPD_MALE2=2_SPD_MALE3=3_SPD_FEMALE1=4_SPD_FEMALE2=5_SPD_FEMALE3=6_SPD_CHILD_MALE=7_SPD_CHILD_FEMALE=8
 // file ../../../include/speechd_types.h line 43
-enum anonymous$7 { SPD_MALE1=1, SPD_MALE2=2, SPD_MALE3=3, SPD_FEMALE1=4, SPD_FEMALE2=5, SPD_FEMALE3=6, SPD_CHILD_MALE=7, SPD_CHILD_FEMALE=8 };
+enum anonymous_7 { SPD_MALE1=1, SPD_MALE2=2, SPD_MALE3=3, SPD_FEMALE1=4, SPD_FEMALE2=5, SPD_FEMALE3=6, SPD_CHILD_MALE=7, SPD_CHILD_FEMALE=8 };
 
-// #anon_enum$SPD_METHOD_UNIX_SOCKET=0$SPD_METHOD_INET_SOCKET=1
+// #anon_enum_SPD_METHOD_UNIX_SOCKET=0_SPD_METHOD_INET_SOCKET=1
 // file libspeechd.h line 58
-enum anonymous$16 { SPD_METHOD_UNIX_SOCKET=0, SPD_METHOD_INET_SOCKET=1 };
+enum anonymous_16 { SPD_METHOD_UNIX_SOCKET=0, SPD_METHOD_INET_SOCKET=1 };
 
-// #anon_enum$SPD_MODE_SINGLE=0$SPD_MODE_THREADED=1
+// #anon_enum_SPD_MODE_SINGLE=0_SPD_MODE_THREADED=1
 // file ../../src/api/c/libspeechd.h line 53
-enum anonymous$4 { SPD_MODE_SINGLE=0, SPD_MODE_THREADED=1 };
+enum anonymous_4 { SPD_MODE_SINGLE=0, SPD_MODE_THREADED=1 };
 
-// #anon_enum$SPD_PUNCT_ALL=0$SPD_PUNCT_NONE=1$SPD_PUNCT_SOME=2
+// #anon_enum_SPD_PUNCT_ALL=0_SPD_PUNCT_NONE=1_SPD_PUNCT_SOME=2
 // file ../../../include/speechd_types.h line 26
-enum anonymous$10 { SPD_PUNCT_ALL=0, SPD_PUNCT_NONE=1, SPD_PUNCT_SOME=2 };
+enum anonymous_10 { SPD_PUNCT_ALL=0, SPD_PUNCT_NONE=1, SPD_PUNCT_SOME=2 };
 
-// #anon_enum$SPD_SPELL_OFF=0$SPD_SPELL_ON=1
+// #anon_enum_SPD_SPELL_OFF=0_SPD_SPELL_ON=1
 // file ../../../include/speechd_types.h line 38
-enum anonymous$5 { SPD_SPELL_OFF=0, SPD_SPELL_ON=1 };
+enum anonymous_5 { SPD_SPELL_OFF=0, SPD_SPELL_ON=1 };
 
-// tag-#anon#ST[*{S8}$S8$'name'||*{S8}$S8$'language'||*{S8}$S8$'variant'|]
+// tag-#anon#ST[*{S8}_S8_'name'||*{S8}_S8_'language'||*{S8}_S8_'variant'|]
 // file ../../include/speechd_types.h line 54
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[*{V(U64|U64|EN#anon_enum$SPD_EVENT_BEGIN=0$SPD_EVENT_END=1$SPD_EVENT_INDEX_MARK=2$SPD_EVENT_CANCEL=3$SPD_EVENT_PAUSE=4$SPD_EVENT_RESUME=5#{U32}$U32$)->V}$V(U64|U64|EN#anon_enum$SPD_EVENT_BEGIN=0$SPD_EVENT_END=1$SPD_EVENT_INDEX_MARK=2$SPD_EVENT_CANCEL=3$SPD_EVENT_PAUSE=4$SPD_EVENT_RESUME=5#{U32}$U32$)->V$'callback_begin'||*{V(U64|U64|EN#anon_enum$SPD_EVENT_BEGIN=0$SPD_EVENT_END=1$SPD_EVENT_INDEX_MARK=2$SPD_EVENT_CANCEL=3$SPD_EVENT_PAUSE=4$SPD_EVENT_RESUME=5#{U32}$U32$)->V}$V(U64|U64|EN#anon_enum$SPD_EVENT_BEGIN=0$SPD_EVENT_END=1$SPD_EVENT_INDEX_MARK=2$SPD_EVENT_CANCEL=3$SPD_EVENT_PAUSE=4$SPD_EVENT_RESUME=5#{U32}$U32$)->V$'callback_end'||*{V(U64|U64|EN#anon_enum$SPD_EVENT_BEGIN=0$SPD_EVENT_END=1$SPD_EVENT_INDEX_MARK=2$SPD_EVENT_CANCEL=3$SPD_EVENT_PAUSE=4$SPD_EVENT_RESUME=5#{U32}$U32$)->V}$V(U64|U64|EN#anon_enum$SPD_EVENT_BEGIN=0$SPD_EVENT_END=1$SPD_EVENT_INDEX_MARK=2$SPD_EVENT_CANCEL=3$SPD_EVENT_PAUSE=4$SPD_EVENT_RESUME=5#{U32}$U32$)->V$'callback_cancel'||*{V(U64|U64|EN#anon_enum$SPD_EVENT_BEGIN=0$SPD_EVENT_END=1$SPD_EVENT_INDEX_MARK=2$SPD_EVENT_CANCEL=3$SPD_EVENT_PAUSE=4$SPD_EVENT_RESUME=5#{U32}$U32$)->V}$V(U64|U64|EN#anon_enum$SPD_EVENT_BEGIN=0$SPD_EVENT_END=1$SPD_EVENT_INDEX_MARK=2$SPD_EVENT_CANCEL=3$SPD_EVENT_PAUSE=4$SPD_EVENT_RESUME=5#{U32}$U32$)->V$'callback_pause'||*{V(U64|U64|EN#anon_enum$SPD_EVENT_BEGIN=0$SPD_EVENT_END=1$SPD_EVENT_INDEX_MARK=2$SPD_EVENT_CANCEL=3$SPD_EVENT_PAUSE=4$SPD_EVENT_RESUME=5#{U32}$U32$)->V}$V(U64|U64|EN#anon_enum$SPD_EVENT_BEGIN=0$SPD_EVENT_END=1$SPD_EVENT_INDEX_MARK=2$SPD_EVENT_CANCEL=3$SPD_EVENT_PAUSE=4$SPD_EVENT_RESUME=5#{U32}$U32$)->V$'callback_resume'||*{V(U64|U64|EN#anon_enum$SPD_EVENT_BEGIN=0$SPD_EVENT_END=1$SPD_EVENT_INDEX_MARK=2$SPD_EVENT_CANCEL=3$SPD_EVENT_PAUSE=4$SPD_EVENT_RESUME=5#{U32}$U32$|*{S8}$S8$)->V}$V(U64|U64|EN#anon_enum$SPD_EVENT_BEGIN=0$SPD_EVENT_END=1$SPD_EVENT_INDEX_MARK=2$SPD_EVENT_CANCEL=3$SPD_EVENT_PAUSE=4$SPD_EVENT_RESUME=5#{U32}$U32$|*{S8}$S8$)->V$'callback_im'||S32'socket'||U32'$pad0'||*{SYM#tag-_IO_FILE#}$SYM#tag-_IO_FILE#$'stream'||EN#anon_enum$SPD_MODE_SINGLE=0$SPD_MODE_THREADED=1#{U32}$U32$'mode'||U32'$pad1'||*{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#}$SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#$'ssip_mutex'||*{U64}$U64$'events_thread'||*{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#}$SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#$'comm_mutex'||*{SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#}$SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#$'cond_reply_ready'||*{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#}$SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#$'mutex_reply_ready'||*{SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#}$SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]#$'cond_reply_ack'||*{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#}$SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#$'mutex_reply_ack'||*{S8}$S8$'reply'|]
+// tag-#anon#ST[*{V(U64|U64|EN#anon_enum_SPD_EVENT_BEGIN=0_SPD_EVENT_END=1_SPD_EVENT_INDEX_MARK=2_SPD_EVENT_CANCEL=3_SPD_EVENT_PAUSE=4_SPD_EVENT_RESUME=5#{U32}_U32_)->V}_V(U64|U64|EN#anon_enum_SPD_EVENT_BEGIN=0_SPD_EVENT_END=1_SPD_EVENT_INDEX_MARK=2_SPD_EVENT_CANCEL=3_SPD_EVENT_PAUSE=4_SPD_EVENT_RESUME=5#{U32}_U32_)->V_'callback_begin'||*{V(U64|U64|EN#anon_enum_SPD_EVENT_BEGIN=0_SPD_EVENT_END=1_SPD_EVENT_INDEX_MARK=2_SPD_EVENT_CANCEL=3_SPD_EVENT_PAUSE=4_SPD_EVENT_RESUME=5#{U32}_U32_)->V}_V(U64|U64|EN#anon_enum_SPD_EVENT_BEGIN=0_SPD_EVENT_END=1_SPD_EVENT_INDEX_MARK=2_SPD_EVENT_CANCEL=3_SPD_EVENT_PAUSE=4_SPD_EVENT_RESUME=5#{U32}_U32_)->V_'callback_end'||*{V(U64|U64|EN#anon_enum_SPD_EVENT_BEGIN=0_SPD_EVENT_END=1_SPD_EVENT_INDEX_MARK=2_SPD_EVENT_CANCEL=3_SPD_EVENT_PAUSE=4_SPD_EVENT_RESUME=5#{U32}_U32_)->V}_V(U64|U64|EN#anon_enum_SPD_EVENT_BEGIN=0_SPD_EVENT_END=1_SPD_EVENT_INDEX_MARK=2_SPD_EVENT_CANCEL=3_SPD_EVENT_PAUSE=4_SPD_EVENT_RESUME=5#{U32}_U32_)->V_'callback_cancel'||*{V(U64|U64|EN#anon_enum_SPD_EVENT_BEGIN=0_SPD_EVENT_END=1_SPD_EVENT_INDEX_MARK=2_SPD_EVENT_CANCEL=3_SPD_EVENT_PAUSE=4_SPD_EVENT_RESUME=5#{U32}_U32_)->V}_V(U64|U64|EN#anon_enum_SPD_EVENT_BEGIN=0_SPD_EVENT_END=1_SPD_EVENT_INDEX_MARK=2_SPD_EVENT_CANCEL=3_SPD_EVENT_PAUSE=4_SPD_EVENT_RESUME=5#{U32}_U32_)->V_'callback_pause'||*{V(U64|U64|EN#anon_enum_SPD_EVENT_BEGIN=0_SPD_EVENT_END=1_SPD_EVENT_INDEX_MARK=2_SPD_EVENT_CANCEL=3_SPD_EVENT_PAUSE=4_SPD_EVENT_RESUME=5#{U32}_U32_)->V}_V(U64|U64|EN#anon_enum_SPD_EVENT_BEGIN=0_SPD_EVENT_END=1_SPD_EVENT_INDEX_MARK=2_SPD_EVENT_CANCEL=3_SPD_EVENT_PAUSE=4_SPD_EVENT_RESUME=5#{U32}_U32_)->V_'callback_resume'||*{V(U64|U64|EN#anon_enum_SPD_EVENT_BEGIN=0_SPD_EVENT_END=1_SPD_EVENT_INDEX_MARK=2_SPD_EVENT_CANCEL=3_SPD_EVENT_PAUSE=4_SPD_EVENT_RESUME=5#{U32}_U32_|*{S8}_S8_)->V}_V(U64|U64|EN#anon_enum_SPD_EVENT_BEGIN=0_SPD_EVENT_END=1_SPD_EVENT_INDEX_MARK=2_SPD_EVENT_CANCEL=3_SPD_EVENT_PAUSE=4_SPD_EVENT_RESUME=5#{U32}_U32_|*{S8}_S8_)->V_'callback_im'||S32'socket'||U32'_pad0'||*{SYM#tag-_IO_FILE#}_SYM#tag-_IO_FILE#_'stream'||EN#anon_enum_SPD_MODE_SINGLE=0_SPD_MODE_THREADED=1#{U32}_U32_'mode'||U32'_pad1'||*{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#}_SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#_'ssip_mutex'||*{U64}_U64_'events_thread'||*{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#}_SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#_'comm_mutex'||*{SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#}_SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#_'cond_reply_ready'||*{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#}_SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#_'mutex_reply_ready'||*{SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#}_SYM#tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]#_'cond_reply_ack'||*{SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#}_SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#_'mutex_reply_ack'||*{S8}_S8_'reply'|]
 // file ../../src/api/c/libspeechd.h line 76
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[EN#anon_enum$SPD_METHOD_UNIX_SOCKET=0$SPD_METHOD_INET_SOCKET=1#{U32}$U32$'method'||U32'$pad0'||*{S8}$S8$'unix_socket_name'||*{S8}$S8$'inet_socket_host'||S32'inet_socket_port'||U32'$pad1'||*{S8}$S8$'dbus_bus'|]
+// tag-#anon#ST[EN#anon_enum_SPD_METHOD_UNIX_SOCKET=0_SPD_METHOD_INET_SOCKET=1#{U32}_U32_'method'||U32'_pad0'||*{S8}_S8_'unix_socket_name'||*{S8}_S8_'inet_socket_host'||S32'inet_socket_port'||U32'_pad1'||*{S8}_S8_'dbus_bus'|]
 // file libspeechd.h line 63
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[S32'__count'||SYM#tag-#anon#UN[U32'__wch'||ARR4{S8}$S8$'__wchb'|]#'__value'|]
+// tag-#anon#ST[S32'__count'||SYM#tag-#anon#UN[U32'__wch'||ARR4{S8}_S8_'__wchb'|]#'__value'|]
 // file /usr/include/wchar.h line 82
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$19;
+union anonymous_19;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$20;
+union anonymous_20;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$21;
+union anonymous_21;
 
-// tag-#anon#UN[U32'__wch'||ARR4{S8}$S8$'__wchb'|]
+// tag-#anon#UN[U32'__wch'||ARR4{S8}_S8_'__wchb'|]
 // file /usr/include/wchar.h line 85
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$14;
+union anonymous_14;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-_GError
 // file /usr/include/glib-2.0/glib/gerror.h line 42
@@ -214,7 +214,7 @@ extern signed int atoi(const char *);
 extern signed int close(signed int);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous$0, unsigned int);
+extern signed int connect(signed int, union anonymous_0, unsigned int);
 // escape_dot
 // file libspeechd.c line 1774
 static char * escape_dot(const char *text);
@@ -250,7 +250,7 @@ extern const char * g_get_user_runtime_dir(void);
 extern const char * g_getenv(const char *);
 // g_spawn_sync
 // file /usr/include/glib-2.0/glib/gspawn.h line 226
-extern signed int g_spawn_sync(const char *, char **, char **, enum anonymous$18, void (*)(void *), void *, char **, char **, signed int *, struct _GError **);
+extern signed int g_spawn_sync(const char *, char **, char **, enum anonymous_18, void (*)(void *), void *, char **, char **, signed int *, struct _GError **);
 // g_strcmp0
 // file /usr/include/glib-2.0/glib/gtestutils.h line 123
 extern signed int g_strcmp0(const char *, const char *);
@@ -295,7 +295,7 @@ static signed int get_param_int(char *reply, signed int num, signed int *err);
 static char * get_param_str(char *reply, signed int num, signed int *err);
 // get_reply
 // file libspeechd.c line 1460
-static char * get_reply(struct anonymous$3 *connection);
+static char * get_reply(struct anonymous_3 *connection);
 // getaddrinfo
 // file /usr/include/netdb.h line 662
 extern signed int getaddrinfo(const char *, const char *, struct addrinfo *, struct addrinfo ** restrict );
@@ -328,16 +328,16 @@ extern signed int printf(const char *, ...);
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$20 *);
+extern signed int pthread_cond_destroy(union anonymous_20 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$20 *, const union anonymous$19 *);
+extern signed int pthread_cond_init(union anonymous_20 *, const union anonymous_19 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$20 *);
+extern signed int pthread_cond_signal(union anonymous_20 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$20 *, union anonymous$21 *);
+extern signed int pthread_cond_wait(union anonymous_20 *, union anonymous_21 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -349,16 +349,16 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$21 *);
+extern signed int pthread_mutex_destroy(union anonymous_21 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$21 *, const union anonymous$19 *);
+extern signed int pthread_mutex_init(union anonymous_21 *, const union anonymous_19 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$21 *);
+extern signed int pthread_mutex_lock(union anonymous_21 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$21 *);
+extern signed int pthread_mutex_unlock(union anonymous_21 *);
 // realloc
 // file /usr/include/stdlib.h line 480
 extern void * realloc(void *, unsigned long int);
@@ -382,247 +382,247 @@ extern unsigned int sleep(unsigned int);
 extern signed int socket(signed int, signed int, signed int);
 // spawn_server
 // file libspeechd.c line 311
-static signed int spawn_server(struct anonymous$17 *address, signed int is_localhost, char **spawn_error);
+static signed int spawn_server(struct anonymous_17 *address, signed int is_localhost, char **spawn_error);
 // spd_cancel
 // file libspeechd.c line 715
-signed int spd_cancel(struct anonymous$3 *connection);
+signed int spd_cancel(struct anonymous_3 *connection);
 // spd_cancel_all
 // file libspeechd.c line 720
-signed int spd_cancel_all(struct anonymous$3 *connection);
+signed int spd_cancel_all(struct anonymous_3 *connection);
 // spd_cancel_uid
 // file libspeechd.c line 725
-signed int spd_cancel_uid(struct anonymous$3 *connection, signed int target_uid);
+signed int spd_cancel_uid(struct anonymous_3 *connection, signed int target_uid);
 // spd_char
 // file libspeechd.c line 796
-signed int spd_char(struct anonymous$3 *connection, enum anonymous$11 priority, const char *character);
+signed int spd_char(struct anonymous_3 *connection, enum anonymous_11 priority, const char *character);
 // spd_close
 // file ../../src/api/c/libspeechd.h line 115
-void spd_close(struct anonymous$3 *connection);
+void spd_close(struct anonymous_3 *connection);
 // spd_events_handler
 // file libspeechd.c line 1504
 static void * spd_events_handler(void *conn);
 // spd_execute_command
 // file libspeechd.c line 1273
-signed int spd_execute_command(struct anonymous$3 *connection, char *command);
+signed int spd_execute_command(struct anonymous_3 *connection, char *command);
 // spd_execute_command_with_list_reply
 // file libspeechd.c line 1201
-char ** spd_execute_command_with_list_reply(struct anonymous$3 *connection, char *command);
+char ** spd_execute_command_with_list_reply(struct anonymous_3 *connection, char *command);
 // spd_execute_command_with_reply
 // file libspeechd.c line 1308
-signed int spd_execute_command_with_reply(struct anonymous$3 *connection, char *command, char **reply);
+signed int spd_execute_command_with_reply(struct anonymous_3 *connection, char *command, char **reply);
 // spd_execute_command_wo_mutex
 // file libspeechd.c line 1291
-signed int spd_execute_command_wo_mutex(struct anonymous$3 *connection, char *command);
+signed int spd_execute_command_wo_mutex(struct anonymous_3 *connection, char *command);
 // spd_get_default_address
 // file libspeechd.c line 170
-struct anonymous$17 * spd_get_default_address(char **error);
+struct anonymous_17 * spd_get_default_address(char **error);
 // spd_get_message_list_fd
 // file libspeechd.c line 1244
-signed int spd_get_message_list_fd(struct anonymous$3 *connection, signed int target, signed int *msg_ids, char **client_names);
+signed int spd_get_message_list_fd(struct anonymous_3 *connection, signed int target, signed int *msg_ids, char **client_names);
 // spd_key
 // file libspeechd.c line 770
-signed int spd_key(struct anonymous$3 *connection, enum anonymous$11 priority, const char *key_name);
+signed int spd_key(struct anonymous_3 *connection, enum anonymous_11 priority, const char *key_name);
 // spd_list_modules
 // file ../../src/api/c/libspeechd.h line 219
-char ** spd_list_modules(struct anonymous$3 *connection);
+char ** spd_list_modules(struct anonymous_3 *connection);
 // spd_list_synthesis_voices
 // file ../../src/api/c/libspeechd.h line 221
-struct anonymous$8 ** spd_list_synthesis_voices(struct anonymous$3 *connection);
+struct anonymous_8 ** spd_list_synthesis_voices(struct anonymous_3 *connection);
 // spd_list_voices
 // file ../../src/api/c/libspeechd.h line 220
-char ** spd_list_voices(struct anonymous$3 *connection);
+char ** spd_list_voices(struct anonymous_3 *connection);
 // spd_open
 // file ../../src/api/c/libspeechd.h line 108
-struct anonymous$3 * spd_open(const char *client_name, const char *connection_name, const char *user_name, enum anonymous$4 mode);
+struct anonymous_3 * spd_open(const char *client_name, const char *connection_name, const char *user_name, enum anonymous_4 mode);
 // spd_open2
 // file libspeechd.c line 372
-struct anonymous$3 * spd_open2(const char *client_name, const char *connection_name, const char *user_name, enum anonymous$4 mode, struct anonymous$17 *address, signed int autospawn, char **error_result);
+struct anonymous_3 * spd_open2(const char *client_name, const char *connection_name, const char *user_name, enum anonymous_4 mode, struct anonymous_17 *address, signed int autospawn, char **error_result);
 // spd_pause
 // file libspeechd.c line 733
-signed int spd_pause(struct anonymous$3 *connection);
+signed int spd_pause(struct anonymous_3 *connection);
 // spd_pause_all
 // file libspeechd.c line 738
-signed int spd_pause_all(struct anonymous$3 *connection);
+signed int spd_pause_all(struct anonymous_3 *connection);
 // spd_pause_uid
 // file libspeechd.c line 743
-signed int spd_pause_uid(struct anonymous$3 *connection, signed int target_uid);
+signed int spd_pause_uid(struct anonymous_3 *connection, signed int target_uid);
 // spd_resume
 // file libspeechd.c line 751
-signed int spd_resume(struct anonymous$3 *connection);
+signed int spd_resume(struct anonymous_3 *connection);
 // spd_resume_all
 // file libspeechd.c line 756
-signed int spd_resume_all(struct anonymous$3 *connection);
+signed int spd_resume_all(struct anonymous_3 *connection);
 // spd_resume_uid
 // file libspeechd.c line 761
-signed int spd_resume_uid(struct anonymous$3 *connection, signed int target_uid);
+signed int spd_resume_uid(struct anonymous_3 *connection, signed int target_uid);
 // spd_say
 // file ../../src/api/c/libspeechd.h line 118
-signed int spd_say(struct anonymous$3 *connection, enum anonymous$11 priority, const char *text);
+signed int spd_say(struct anonymous_3 *connection, enum anonymous_11 priority, const char *text);
 // spd_say_prepare
 // file libspeechd.c line 583
-static inline signed int spd_say_prepare(struct anonymous$3 *connection, enum anonymous$11 priority, const char *text, char **escaped_text);
+static inline signed int spd_say_prepare(struct anonymous_3 *connection, enum anonymous_11 priority, const char *text, char **escaped_text);
 // spd_say_sending
 // file libspeechd.c line 613
-static inline signed int spd_say_sending(struct anonymous$3 *connection, const char *text);
+static inline signed int spd_say_sending(struct anonymous_3 *connection, const char *text);
 // spd_sayf
 // file libspeechd.c line 675
-signed int spd_sayf(struct anonymous$3 *connection, enum anonymous$11 priority, const char *format, ...);
+signed int spd_sayf(struct anonymous_3 *connection, enum anonymous_11 priority, const char *format, ...);
 // spd_send_data
 // file libspeechd.c line 1333
-char * spd_send_data(struct anonymous$3 *connection, const char *message, signed int wfr);
+char * spd_send_data(struct anonymous_3 *connection, const char *message, signed int wfr);
 // spd_send_data_wo_mutex
 // file libspeechd.c line 1351
-char * spd_send_data_wo_mutex(struct anonymous$3 *connection, const char *message, signed int wfr);
+char * spd_send_data_wo_mutex(struct anonymous_3 *connection, const char *message, signed int wfr);
 // spd_set_capital_letters
 // file libspeechd.c line 1072
-signed int spd_set_capital_letters(struct anonymous$3 *connection, enum anonymous$15 val);
+signed int spd_set_capital_letters(struct anonymous_3 *connection, enum anonymous_15 val);
 // spd_set_capital_letters_all
 // file libspeechd.c line 1072
-signed int spd_set_capital_letters_all(struct anonymous$3 *connection, enum anonymous$15 val);
+signed int spd_set_capital_letters_all(struct anonymous_3 *connection, enum anonymous_15 val);
 // spd_set_capital_letters_uid
 // file libspeechd.c line 1072
-signed int spd_set_capital_letters_uid(struct anonymous$3 *connection, enum anonymous$15 val, unsigned int uid);
+signed int spd_set_capital_letters_uid(struct anonymous_3 *connection, enum anonymous_15 val, unsigned int uid);
 // spd_set_data_mode
 // file libspeechd.c line 933
-signed int spd_set_data_mode(struct anonymous$3 *connection, enum anonymous$6 mode);
+signed int spd_set_data_mode(struct anonymous_3 *connection, enum anonymous_6 mode);
 // spd_set_language
 // file libspeechd.c line 1067
-signed int spd_set_language(struct anonymous$3 *connection, const char *str);
+signed int spd_set_language(struct anonymous_3 *connection, const char *str);
 // spd_set_language_all
 // file libspeechd.c line 1067
-signed int spd_set_language_all(struct anonymous$3 *connection, const char *str);
+signed int spd_set_language_all(struct anonymous_3 *connection, const char *str);
 // spd_set_language_uid
 // file libspeechd.c line 1067
-signed int spd_set_language_uid(struct anonymous$3 *connection, const char *str, unsigned int uid);
+signed int spd_set_language_uid(struct anonymous_3 *connection, const char *str, unsigned int uid);
 // spd_set_notification
 // file libspeechd.c line 1107
-signed int spd_set_notification(struct anonymous$3 *connection, enum anonymous$2 notification, const char *state);
+signed int spd_set_notification(struct anonymous_3 *connection, enum anonymous_2 notification, const char *state);
 // spd_set_notification_off
 // file libspeechd.c line 1090
-signed int spd_set_notification_off(struct anonymous$3 *connection, enum anonymous$2 notification);
+signed int spd_set_notification_off(struct anonymous_3 *connection, enum anonymous_2 notification);
 // spd_set_notification_on
 // file libspeechd.c line 1080
-signed int spd_set_notification_on(struct anonymous$3 *connection, enum anonymous$2 notification);
+signed int spd_set_notification_on(struct anonymous_3 *connection, enum anonymous_2 notification);
 // spd_set_output_module
 // file ../../src/api/c/libspeechd.h line 207
-signed int spd_set_output_module(struct anonymous$3 *connection, const char *str);
+signed int spd_set_output_module(struct anonymous_3 *connection, const char *str);
 // spd_set_output_module_all
 // file libspeechd.c line 1068
-signed int spd_set_output_module_all(struct anonymous$3 *connection, const char *str);
+signed int spd_set_output_module_all(struct anonymous_3 *connection, const char *str);
 // spd_set_output_module_uid
 // file libspeechd.c line 1068
-signed int spd_set_output_module_uid(struct anonymous$3 *connection, const char *str, unsigned int uid);
+signed int spd_set_output_module_uid(struct anonymous_3 *connection, const char *str, unsigned int uid);
 // spd_set_priority
 // file libspeechd.c line 1430
-static signed int spd_set_priority(struct anonymous$3 *connection, enum anonymous$11 priority);
+static signed int spd_set_priority(struct anonymous_3 *connection, enum anonymous_11 priority);
 // spd_set_punctuation
 // file libspeechd.c line 1071
-signed int spd_set_punctuation(struct anonymous$3 *connection, enum anonymous$10 val);
+signed int spd_set_punctuation(struct anonymous_3 *connection, enum anonymous_10 val);
 // spd_set_punctuation_all
 // file libspeechd.c line 1071
-signed int spd_set_punctuation_all(struct anonymous$3 *connection, enum anonymous$10 val);
+signed int spd_set_punctuation_all(struct anonymous_3 *connection, enum anonymous_10 val);
 // spd_set_punctuation_uid
 // file libspeechd.c line 1071
-signed int spd_set_punctuation_uid(struct anonymous$3 *connection, enum anonymous$10 val, unsigned int uid);
+signed int spd_set_punctuation_uid(struct anonymous_3 *connection, enum anonymous_10 val, unsigned int uid);
 // spd_set_spelling
 // file libspeechd.c line 1073
-signed int spd_set_spelling(struct anonymous$3 *connection, enum anonymous$5 val);
+signed int spd_set_spelling(struct anonymous_3 *connection, enum anonymous_5 val);
 // spd_set_spelling_all
 // file libspeechd.c line 1073
-signed int spd_set_spelling_all(struct anonymous$3 *connection, enum anonymous$5 val);
+signed int spd_set_spelling_all(struct anonymous_3 *connection, enum anonymous_5 val);
 // spd_set_spelling_uid
 // file libspeechd.c line 1073
-signed int spd_set_spelling_uid(struct anonymous$3 *connection, enum anonymous$5 val, unsigned int uid);
+signed int spd_set_spelling_uid(struct anonymous_3 *connection, enum anonymous_5 val, unsigned int uid);
 // spd_set_synthesis_voice
 // file ../../src/api/c/libspeechd.h line 157
-signed int spd_set_synthesis_voice(struct anonymous$3 *connection, const char *str);
+signed int spd_set_synthesis_voice(struct anonymous_3 *connection, const char *str);
 // spd_set_synthesis_voice_all
 // file libspeechd.c line 1069
-signed int spd_set_synthesis_voice_all(struct anonymous$3 *connection, const char *str);
+signed int spd_set_synthesis_voice_all(struct anonymous_3 *connection, const char *str);
 // spd_set_synthesis_voice_uid
 // file libspeechd.c line 1069
-signed int spd_set_synthesis_voice_uid(struct anonymous$3 *connection, const char *str, unsigned int uid);
+signed int spd_set_synthesis_voice_uid(struct anonymous_3 *connection, const char *str, unsigned int uid);
 // spd_set_voice_pitch
 // file libspeechd.c line 1064
-signed int spd_set_voice_pitch(struct anonymous$3 *connection, signed int val);
+signed int spd_set_voice_pitch(struct anonymous_3 *connection, signed int val);
 // spd_set_voice_pitch_all
 // file libspeechd.c line 1064
-signed int spd_set_voice_pitch_all(struct anonymous$3 *connection, signed int val);
+signed int spd_set_voice_pitch_all(struct anonymous_3 *connection, signed int val);
 // spd_set_voice_pitch_uid
 // file libspeechd.c line 1064
-signed int spd_set_voice_pitch_uid(struct anonymous$3 *connection, signed int val, unsigned int uid);
+signed int spd_set_voice_pitch_uid(struct anonymous_3 *connection, signed int val, unsigned int uid);
 // spd_set_voice_rate
 // file libspeechd.c line 1063
-signed int spd_set_voice_rate(struct anonymous$3 *connection, signed int val);
+signed int spd_set_voice_rate(struct anonymous_3 *connection, signed int val);
 // spd_set_voice_rate_all
 // file libspeechd.c line 1063
-signed int spd_set_voice_rate_all(struct anonymous$3 *connection, signed int val);
+signed int spd_set_voice_rate_all(struct anonymous_3 *connection, signed int val);
 // spd_set_voice_rate_uid
 // file libspeechd.c line 1063
-signed int spd_set_voice_rate_uid(struct anonymous$3 *connection, signed int val, unsigned int uid);
+signed int spd_set_voice_rate_uid(struct anonymous_3 *connection, signed int val, unsigned int uid);
 // spd_set_voice_type
 // file libspeechd.c line 1074
-signed int spd_set_voice_type(struct anonymous$3 *connection, enum anonymous$7 val);
+signed int spd_set_voice_type(struct anonymous_3 *connection, enum anonymous_7 val);
 // spd_set_voice_type_all
 // file libspeechd.c line 1074
-signed int spd_set_voice_type_all(struct anonymous$3 *connection, enum anonymous$7 val);
+signed int spd_set_voice_type_all(struct anonymous_3 *connection, enum anonymous_7 val);
 // spd_set_voice_type_uid
 // file libspeechd.c line 1074
-signed int spd_set_voice_type_uid(struct anonymous$3 *connection, enum anonymous$7 val, unsigned int uid);
+signed int spd_set_voice_type_uid(struct anonymous_3 *connection, enum anonymous_7 val, unsigned int uid);
 // spd_set_volume
 // file libspeechd.c line 1065
-signed int spd_set_volume(struct anonymous$3 *connection, signed int val);
+signed int spd_set_volume(struct anonymous_3 *connection, signed int val);
 // spd_set_volume_all
 // file libspeechd.c line 1065
-signed int spd_set_volume_all(struct anonymous$3 *connection, signed int val);
+signed int spd_set_volume_all(struct anonymous_3 *connection, signed int val);
 // spd_set_volume_uid
 // file libspeechd.c line 1065
-signed int spd_set_volume_uid(struct anonymous$3 *connection, signed int val, unsigned int uid);
+signed int spd_set_volume_uid(struct anonymous_3 *connection, signed int val, unsigned int uid);
 // spd_sound_icon
 // file libspeechd.c line 852
-signed int spd_sound_icon(struct anonymous$3 *connection, enum anonymous$11 priority, const char *icon_name);
+signed int spd_sound_icon(struct anonymous_3 *connection, enum anonymous_11 priority, const char *icon_name);
 // spd_stop
 // file libspeechd.c line 697
-signed int spd_stop(struct anonymous$3 *connection);
+signed int spd_stop(struct anonymous_3 *connection);
 // spd_stop_all
 // file libspeechd.c line 702
-signed int spd_stop_all(struct anonymous$3 *connection);
+signed int spd_stop_all(struct anonymous_3 *connection);
 // spd_stop_uid
 // file libspeechd.c line 707
-signed int spd_stop_uid(struct anonymous$3 *connection, signed int target_uid);
+signed int spd_stop_uid(struct anonymous_3 *connection, signed int target_uid);
 // spd_w_set_capital_letters
 // file libspeechd.c line 898
-signed int spd_w_set_capital_letters(struct anonymous$3 *connection, enum anonymous$15 type, const char *who);
+signed int spd_w_set_capital_letters(struct anonymous_3 *connection, enum anonymous_15 type, const char *who);
 // spd_w_set_language
 // file libspeechd.c line 1067
-signed int spd_w_set_language(struct anonymous$3 *connection, const char *str, const char *who);
+signed int spd_w_set_language(struct anonymous_3 *connection, const char *str, const char *who);
 // spd_w_set_output_module
 // file libspeechd.c line 1068
-signed int spd_w_set_output_module(struct anonymous$3 *connection, const char *str, const char *who);
+signed int spd_w_set_output_module(struct anonymous_3 *connection, const char *str, const char *who);
 // spd_w_set_punctuation
 // file libspeechd.c line 879
-signed int spd_w_set_punctuation(struct anonymous$3 *connection, enum anonymous$10 type, const char *who);
+signed int spd_w_set_punctuation(struct anonymous_3 *connection, enum anonymous_10 type, const char *who);
 // spd_w_set_spelling
 // file libspeechd.c line 917
-signed int spd_w_set_spelling(struct anonymous$3 *connection, enum anonymous$5 type, const char *who);
+signed int spd_w_set_spelling(struct anonymous_3 *connection, enum anonymous_5 type, const char *who);
 // spd_w_set_synthesis_voice
 // file libspeechd.c line 1069
-signed int spd_w_set_synthesis_voice(struct anonymous$3 *connection, const char *str, const char *who);
+signed int spd_w_set_synthesis_voice(struct anonymous_3 *connection, const char *str, const char *who);
 // spd_w_set_voice_pitch
 // file libspeechd.c line 1064
-signed int spd_w_set_voice_pitch(struct anonymous$3 *connection, signed int val, const char *who);
+signed int spd_w_set_voice_pitch(struct anonymous_3 *connection, signed int val, const char *who);
 // spd_w_set_voice_rate
 // file libspeechd.c line 1063
-signed int spd_w_set_voice_rate(struct anonymous$3 *connection, signed int val, const char *who);
+signed int spd_w_set_voice_rate(struct anonymous_3 *connection, signed int val, const char *who);
 // spd_w_set_voice_type
 // file libspeechd.c line 949
-signed int spd_w_set_voice_type(struct anonymous$3 *connection, enum anonymous$7 type, const char *who);
+signed int spd_w_set_voice_type(struct anonymous_3 *connection, enum anonymous_7 type, const char *who);
 // spd_w_set_volume
 // file libspeechd.c line 1065
-signed int spd_w_set_volume(struct anonymous$3 *connection, signed int val, const char *who);
+signed int spd_w_set_volume(struct anonymous_3 *connection, signed int val, const char *who);
 // spd_wchar
 // file libspeechd.c line 824
-signed int spd_wchar(struct anonymous$3 *connection, enum anonymous$11 priority, signed int wcharacter);
+signed int spd_wchar(struct anonymous_3 *connection, enum anonymous_11 priority, signed int wcharacter);
 // sprintf
 // file /usr/include/stdio.h line 364
 extern signed int sprintf(char *, const char *, ...);
@@ -661,7 +661,7 @@ extern char * strstr(const char *, const char *);
 extern signed long int strtol(const char *, char ** restrict , signed int);
 // wcrtomb
 // file /usr/include/wchar.h line 370
-extern unsigned long int wcrtomb(char *, signed int, struct anonymous$13 *);
+extern unsigned long int wcrtomb(char *, signed int, struct anonymous_13 *);
 // write
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
@@ -672,7 +672,7 @@ static void xfree(void *ptr);
 // file libspeechd.c line 1750
 static void * xmalloc(unsigned long int bytes);
 
-struct anonymous$8
+struct anonymous_8
 {
   // name
   char *name;
@@ -682,7 +682,7 @@ struct anonymous$8
   char *variant;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // callback_begin
   void (*callback_begin)(unsigned long int, unsigned long int, enum anonymous);
@@ -701,29 +701,29 @@ struct anonymous$3
   // stream
   struct _IO_FILE *stream;
   // mode
-  enum anonymous$4 mode;
+  enum anonymous_4 mode;
   // ssip_mutex
-  union anonymous$21 *ssip_mutex;
+  union anonymous_21 *ssip_mutex;
   // events_thread
   unsigned long int *events_thread;
   // comm_mutex
-  union anonymous$21 *comm_mutex;
+  union anonymous_21 *comm_mutex;
   // cond_reply_ready
-  union anonymous$20 *cond_reply_ready;
+  union anonymous_20 *cond_reply_ready;
   // mutex_reply_ready
-  union anonymous$21 *mutex_reply_ready;
+  union anonymous_21 *mutex_reply_ready;
   // cond_reply_ack
-  union anonymous$20 *cond_reply_ack;
+  union anonymous_20 *cond_reply_ack;
   // mutex_reply_ack
-  union anonymous$21 *mutex_reply_ack;
+  union anonymous_21 *mutex_reply_ack;
   // reply
   char *reply;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // method
-  enum anonymous$16 method;
+  enum anonymous_16 method;
   // unix_socket_name
   char *unix_socket_name;
   // inet_socket_host
@@ -734,7 +734,7 @@ struct anonymous$17
   char *dbus_bus;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // __wch
   unsigned int __wch;
@@ -742,15 +742,15 @@ union anonymous$12
   char __wchb[4l];
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // __count
   signed int __count;
   // __value
-  union anonymous$12 __value;
+  union anonymous_12 __value;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // __lock
   signed int __lock;
@@ -770,7 +770,7 @@ struct anonymous$1
   unsigned int __broadcast_seq;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -780,7 +780,7 @@ union anonymous$9
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$19
+union anonymous_19
 {
   // __size
   char __size[4l];
@@ -788,10 +788,10 @@ union anonymous$19
   signed int __align;
 };
 
-union anonymous$20
+union anonymous_20
 {
   // __data
-  struct anonymous$1 __data;
+  struct anonymous_1 __data;
   // __size
   char __size[48l];
   // __align
@@ -826,7 +826,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$21
+union anonymous_21
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -836,7 +836,7 @@ union anonymous$21
   signed long int __align;
 };
 
-union anonymous$14
+union anonymous_14
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -866,7 +866,7 @@ union anonymous$14
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1011,7 +1011,7 @@ struct addrinfo
 struct in6_addr
 {
   // __in6_u
-  union anonymous$9 __in6_u;
+  union anonymous_9 __in6_u;
 };
 
 struct in_addr
@@ -1073,7 +1073,7 @@ struct sockaddr_un
 
 // spd_logging_mutex
 // file libspeechd.c line 86
-union anonymous$21 spd_logging_mutex;
+union anonymous_21 spd_logging_mutex;
 // stdout
 // file /usr/include/stdio.h line 169
 extern struct _IO_FILE *stdout;
@@ -1115,12 +1115,12 @@ static char * escape_dot(const char *text)
   const char *orig_end;
   char *result = (char *)(void *)0;
   char *result_ptr;
-  char *tmp_post$2;
-  char *tmp_post$3;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  char *tmp_post$4;
-  const char *tmp_post$5;
+  char *tmp_post_2;
+  char *tmp_post_3;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  char *tmp_post_4;
+  const char *tmp_post_5;
   if(text == ((const char *)NULL))
     return (char *)(void *)0;
 
@@ -1128,9 +1128,9 @@ static char * escape_dot(const char *text)
   {
     orig_len=strlen(text);
     orig_end = text + (signed long int)orig_len;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((orig_len * (unsigned long int)2 + (unsigned long int)1) * sizeof(char) /*1ul*/ );
-    result = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((orig_len * (unsigned long int)2 + (unsigned long int)1) * sizeof(char) /*1ul*/ );
+    result = (char *)return_value_malloc_1;
     if(result == ((char *)NULL))
       return (char *)(void *)0;
 
@@ -1141,12 +1141,12 @@ static char * escape_dot(const char *text)
       {
         if((signed int)*text == 46)
         {
-          tmp_post$2 = result_ptr;
+          tmp_post_2 = result_ptr;
           result_ptr = result_ptr + 1l;
-          *tmp_post$2 = (char)46;
-          tmp_post$3 = result_ptr;
+          *tmp_post_2 = (char)46;
+          tmp_post_3 = result_ptr;
           result_ptr = result_ptr + 1l;
-          *tmp_post$3 = (char)46;
+          *tmp_post_3 = (char)46;
           text = text + (signed long int)1;
         }
 
@@ -1155,16 +1155,16 @@ static char * escape_dot(const char *text)
       while(!(text >= orig_end))
       {
         if((signed int)*text == 13)
-          tmp_if_expr$6 = (signed int)text[(signed long int)1] == 10 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = (signed int)text[(signed long int)1] == 10 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
-          tmp_if_expr$7 = (signed int)text[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
+          tmp_if_expr_7 = (signed int)text[(signed long int)2] == 46 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = (_Bool)0;
+        if(tmp_if_expr_7)
         {
           static const unsigned long int ESCAPED_DOTLINELEN = (const unsigned long int)4;
           static const char *ESCAPED_DOTLINE = "\r\n..";
@@ -1176,11 +1176,11 @@ static char * escape_dot(const char *text)
 
         else
         {
-          tmp_post$4 = result_ptr;
+          tmp_post_4 = result_ptr;
           result_ptr = result_ptr + 1l;
-          tmp_post$5 = text;
+          tmp_post_5 = text;
           text = text + 1l;
-          *tmp_post$4 = *tmp_post$5;
+          *tmp_post_4 = *tmp_post_5;
         }
       }
       *result_ptr = (char)0;
@@ -1206,9 +1206,9 @@ static signed int get_err_code(char *reply)
     err_code[(signed long int)2] = reply[(signed long int)2];
     err_code[(signed long int)3] = (char)0;
     SPD_DBG("ret_ok: err_code:\t|%s|\n", (const void *)err_code);
-    signed int return_value_isanum$1;
-    return_value_isanum$1=isanum(err_code);
-    if(!(return_value_isanum$1 == 0))
+    signed int return_value_isanum_1;
+    return_value_isanum_1=isanum(err_code);
+    if(!(return_value_isanum_1 == 0))
       err=atoi(err_code);
 
     else
@@ -1233,9 +1233,9 @@ static signed int get_param_int(char *reply, signed int num, signed int *err)
 
   else
   {
-    signed long int return_value_strtol$1;
-    return_value_strtol$1=strtol(rep_str, &tptr, 10);
-    ret = (signed int)return_value_strtol$1;
+    signed long int return_value_strtol_1;
+    return_value_strtol_1=strtol(rep_str, &tptr, 10);
+    ret = (signed int)return_value_strtol_1;
     if(!((signed int)*tptr == 0))
     {
       *err = -3;
@@ -1283,16 +1283,16 @@ static char * get_param_str(char *reply, signed int num, signed int *err)
 
       pos = pos + (signed long int)2;
     }
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(pos);
-    if(!(return_value_strlen$1 >= 4ul))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(pos);
+    if(!(return_value_strlen_1 >= 4ul))
       return (char *)(void *)0;
 
     else
     {
-      signed long int return_value_strtol$2;
-      return_value_strtol$2=strtol(pos, &tptr, 10);
-      *err = (signed int)return_value_strtol$2;
+      signed long int return_value_strtol_2;
+      return_value_strtol_2=strtol(pos, &tptr, 10);
+      *err = (signed int)return_value_strtol_2;
       if(*err >= 300)
       {
         if(*err >= 400)
@@ -1324,9 +1324,9 @@ static char * get_param_str(char *reply, signed int num, signed int *err)
 
           else
           {
-            char *return_value_strndup$3;
-            return_value_strndup$3=strndup(pos_begin, (unsigned long int)(pos_end - pos_begin));
-            rep = (char *)return_value_strndup$3;
+            char *return_value_strndup_3;
+            return_value_strndup_3=strndup(pos_begin, (unsigned long int)(pos_end - pos_begin));
+            rep = (char *)return_value_strndup_3;
             *err = 0;
             return rep;
           }
@@ -1338,7 +1338,7 @@ static char * get_param_str(char *reply, signed int num, signed int *err)
 
 // get_reply
 // file libspeechd.c line 1460
-static char * get_reply(struct anonymous$3 *connection)
+static char * get_reply(struct anonymous_3 *connection)
 {
   struct _GString *str;
   char *line = (char *)(void *)0;
@@ -1347,14 +1347,14 @@ static char * get_reply(struct anonymous$3 *connection)
   char *reply;
   signed int errors = 0;
   str=g_string_new("");
-  _Bool tmp_if_expr$3;
-  unsigned long int return_value_strlen$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_3;
+  unsigned long int return_value_strlen_1;
+  _Bool tmp_if_expr_2;
   do
   {
-    signed long int return_value_getline$4;
-    return_value_getline$4=getline(&line, &N, connection->stream);
-    bytes = (signed int)return_value_getline$4;
+    signed long int return_value_getline_4;
+    return_value_getline_4=getline(&line, &N, connection->stream);
+    bytes = (signed int)return_value_getline_4;
     if(bytes == -1)
     {
       SPD_DBG("Error: Can't read reply, broken socket in get_reply!");
@@ -1369,19 +1369,19 @@ static char * get_reply(struct anonymous$3 *connection)
       g_string_append(str, line);
     if(errors == 0)
     {
-      return_value_strlen$1=strlen(line);
-      if(!(return_value_strlen$1 >= 4ul))
-        tmp_if_expr$2 = (_Bool)1;
+      return_value_strlen_1=strlen(line);
+      if(!(return_value_strlen_1 >= 4ul))
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)line[(signed long int)3] == 32 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$3 = !tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)line[(signed long int)3] == 32 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = !tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
   }
-  while(tmp_if_expr$3);
+  while(tmp_if_expr_3);
   xfree((void *)line);
   if(!(errors == 0))
   {
@@ -1402,7 +1402,7 @@ static char * get_reply(struct anonymous$3 *connection)
 static signed int isanum(char *str)
 {
   signed int i;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(str == ((char *)NULL))
     return 0;
 
@@ -1411,13 +1411,13 @@ static signed int isanum(char *str)
     i = 0;
     do
     {
-      return_value_strlen$1=strlen(str);
-      if(!(return_value_strlen$1 + 18446744073709551615ul >= (unsigned long int)i))
+      return_value_strlen_1=strlen(str);
+      if(!(return_value_strlen_1 + 18446744073709551615ul >= (unsigned long int)i))
         break;
 
-      const unsigned short int **return_value___ctype_b_loc$2;
-      return_value___ctype_b_loc$2=__ctype_b_loc();
-      if((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)str[(signed long int)i]]) == 0)
+      const unsigned short int **return_value___ctype_b_loc_2;
+      return_value___ctype_b_loc_2=__ctype_b_loc();
+      if((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)str[(signed long int)i]]) == 0)
         return 0;
 
       i = i + 1;
@@ -1431,17 +1431,17 @@ static signed int isanum(char *str)
 // file clibrary2.c line 36
 signed int main()
 {
-  struct anonymous$3 *conn;
+  struct anonymous_3 *conn;
   signed int i;
   signed int j;
   signed int ret;
   char **modules;
   char **voices;
-  struct anonymous$8 **synth_voices;
+  struct anonymous_8 **synth_voices;
   printf("Start of the test.\n");
   printf("Trying to initialize Speech Deamon...");
-  conn=spd_open("say", (const char *)(void *)0, (const char *)(void *)0, (enum anonymous$4)SPD_MODE_SINGLE);
-  if(conn == ((struct anonymous$3 *)NULL))
+  conn=spd_open("say", (const char *)(void *)0, (const char *)(void *)0, (enum anonymous_4)SPD_MODE_SINGLE);
+  if(conn == ((struct anonymous_3 *)NULL))
   {
     printf("Speech Deamon failed");
     exit(1);
@@ -1482,7 +1482,7 @@ signed int main()
 
     printf("\nListing voices for %s\n", modules[(signed long int)j]);
     synth_voices=spd_list_synthesis_voices(conn);
-    if(synth_voices == ((struct anonymous$8 **)NULL))
+    if(synth_voices == ((struct anonymous_8 **)NULL))
     {
       printf("Can't list voices\n");
       exit(1);
@@ -1490,7 +1490,7 @@ signed int main()
 
     printf("Available synthesis voices:\n");
     i = 0;
-    for( ; !(synth_voices[(signed long int)i] == ((struct anonymous$8 *)NULL)); i = i + 1)
+    for( ; !(synth_voices[(signed long int)i] == ((struct anonymous_8 *)NULL)); i = i + 1)
     {
       printf("     name: %s language: %s variant: %s\n", synth_voices[(signed long int)i]->name, synth_voices[(signed long int)i]->language, synth_voices[(signed long int)i]->variant);
       ret=spd_set_synthesis_voice(conn, synth_voices[(signed long int)i]->name);
@@ -1500,7 +1500,7 @@ signed int main()
         exit(1);
       }
 
-      ret=spd_say(conn, (enum anonymous$11)SPD_TEXT, "test");
+      ret=spd_say(conn, (enum anonymous_11)SPD_TEXT, "test");
       if(ret == -1)
       {
         printf("spd_say failed");
@@ -1524,9 +1524,9 @@ static char * resolve_host(char *host_name_or_ip, signed int *is_localhost, char
   struct addrinfo *addr_result;
   signed int err;
   char *resolve_buffer;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)16 + (unsigned long int)1 * sizeof(char) /*1ul*/ );
-  resolve_buffer = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)16 + (unsigned long int)1 * sizeof(char) /*1ul*/ );
+  resolve_buffer = (char *)return_value_malloc_1;
   const char *resolved_ip = (const char *)(void *)0;
   char *ip;
   *error = (char *)(void *)0;
@@ -1542,9 +1542,9 @@ static char * resolve_host(char *host_name_or_ip, signed int *is_localhost, char
     err=getaddrinfo(host_name_or_ip, ((const char *)NULL), (struct addrinfo *)(void *)0, &addr_result);
     if(!(err == 0))
     {
-      const char *return_value_gai_strerror$2;
-      return_value_gai_strerror$2=gai_strerror(err);
-      *error=g_strdup_printf("Can't resolve address %d due to error %s:", err, return_value_gai_strerror$2);
+      const char *return_value_gai_strerror_2;
+      return_value_gai_strerror_2=gai_strerror(err);
+      *error=g_strdup_printf("Can't resolve address %d due to error %s:", err, return_value_gai_strerror_2);
       xfree((void *)resolve_buffer);
       return (char *)(void *)0;
     }
@@ -1553,19 +1553,19 @@ static char * resolve_host(char *host_name_or_ip, signed int *is_localhost, char
     resolved_ip=inet_ntop(2, (const void *)&addr_in->sin_addr.s_addr, resolve_buffer, (unsigned int)(16 + 1));
     if(resolved_ip == ((const char *)NULL))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      *error=g_strdup_printf("Could not convert address, due to the following error: %s", return_value_strerror$4);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      *error=g_strdup_printf("Could not convert address, due to the following error: %s", return_value_strerror_4);
       freeaddrinfo(addr_result);
       xfree((void *)resolve_buffer);
       return (char *)(void *)0;
     }
 
-    signed int return_value_strncmp$5;
-    return_value_strncmp$5=strncmp(resolved_ip, "127.", (unsigned long int)4);
-    if(return_value_strncmp$5 == 0)
+    signed int return_value_strncmp_5;
+    return_value_strncmp_5=strncmp(resolved_ip, "127.", (unsigned long int)4);
+    if(return_value_strncmp_5 == 0)
     {
       *is_localhost = 1;
       xfree((void *)resolve_buffer);
@@ -1611,12 +1611,12 @@ static signed int ret_ok(char *reply)
 
 // spawn_server
 // file libspeechd.c line 311
-static signed int spawn_server(struct anonymous$17 *address, signed int is_localhost, char **spawn_error)
+static signed int spawn_server(struct anonymous_17 *address, signed int is_localhost, char **spawn_error)
 {
   char **speechd_cmd;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)16 * sizeof(char *) /*8ul*/ );
-  speechd_cmd = (char **)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)16 * sizeof(char *) /*8ul*/ );
+  speechd_cmd = (char **)return_value_malloc_1;
   char *stderr_output;
   signed int spawn_ok;
   struct _GError *gerror = (struct _GError *)(void *)0;
@@ -1659,7 +1659,7 @@ static signed int spawn_server(struct anonymous$17 *address, signed int is_local
       else
         /* assertion 0 */
         assert(0 != 0);
-    spawn_ok=g_spawn_sync((const char *)(void *)0, (char **)speechd_cmd, (char **)(void *)0, (enum anonymous$18)(G_SPAWN_SEARCH_PATH | G_SPAWN_STDOUT_TO_DEV_NULL), (void (*)(void *))(void *)0, (void *)0, (char **)(void *)0, &stderr_output, &exit_status, &gerror);
+    spawn_ok=g_spawn_sync((const char *)(void *)0, (char **)speechd_cmd, (char **)(void *)0, (enum anonymous_18)(G_SPAWN_SEARCH_PATH | G_SPAWN_STDOUT_TO_DEV_NULL), (void (*)(void *))(void *)0, (void *)0, (char **)(void *)0, &stderr_output, &exit_status, &gerror);
     i = 0;
     for( ; !(speechd_cmd[(signed long int)i] == ((char *)NULL)); i = i + 1)
       g_free((void *)speechd_cmd[(signed long int)i]);
@@ -1688,36 +1688,36 @@ static signed int spawn_server(struct anonymous$17 *address, signed int is_local
 
 // spd_cancel
 // file libspeechd.c line 715
-signed int spd_cancel(struct anonymous$3 *connection)
+signed int spd_cancel(struct anonymous_3 *connection)
 {
-  signed int return_value_spd_execute_command$1;
-  return_value_spd_execute_command$1=spd_execute_command(connection, "CANCEL SELF");
-  return return_value_spd_execute_command$1;
+  signed int return_value_spd_execute_command_1;
+  return_value_spd_execute_command_1=spd_execute_command(connection, "CANCEL SELF");
+  return return_value_spd_execute_command_1;
 }
 
 // spd_cancel_all
 // file libspeechd.c line 720
-signed int spd_cancel_all(struct anonymous$3 *connection)
+signed int spd_cancel_all(struct anonymous_3 *connection)
 {
-  signed int return_value_spd_execute_command$1;
-  return_value_spd_execute_command$1=spd_execute_command(connection, "CANCEL ALL");
-  return return_value_spd_execute_command$1;
+  signed int return_value_spd_execute_command_1;
+  return_value_spd_execute_command_1=spd_execute_command(connection, "CANCEL ALL");
+  return return_value_spd_execute_command_1;
 }
 
 // spd_cancel_uid
 // file libspeechd.c line 725
-signed int spd_cancel_uid(struct anonymous$3 *connection, signed int target_uid)
+signed int spd_cancel_uid(struct anonymous_3 *connection, signed int target_uid)
 {
   static char command[16l];
   sprintf(command, "CANCEL %d", target_uid);
-  signed int return_value_spd_execute_command$1;
-  return_value_spd_execute_command$1=spd_execute_command(connection, command);
-  return return_value_spd_execute_command$1;
+  signed int return_value_spd_execute_command_1;
+  return_value_spd_execute_command_1=spd_execute_command(connection, command);
+  return return_value_spd_execute_command_1;
 }
 
 // spd_char
 // file libspeechd.c line 796
-signed int spd_char(struct anonymous$3 *connection, enum anonymous$11 priority, const char *character)
+signed int spd_char(struct anonymous_3 *connection, enum anonymous_11 priority, const char *character)
 {
   signed int ret;
   if(character == ((const char *)NULL))
@@ -1725,9 +1725,9 @@ signed int spd_char(struct anonymous$3 *connection, enum anonymous$11 priority, 
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(character);
-    if(return_value_strlen$1 >= 7ul)
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(character);
+    if(return_value_strlen_1 >= 7ul)
       return -1;
 
     else
@@ -1763,7 +1763,7 @@ signed int spd_char(struct anonymous$3 *connection, enum anonymous$11 priority, 
 
 // spd_close
 // file ../../src/api/c/libspeechd.h line 115
-void spd_close(struct anonymous$3 *connection)
+void spd_close(struct anonymous_3 *connection)
 {
   pthread_mutex_lock(connection->ssip_mutex);
   if((signed int)connection->mode == SPD_MODE_THREADED)
@@ -1774,7 +1774,7 @@ void spd_close(struct anonymous$3 *connection)
     pthread_cond_destroy(connection->cond_reply_ready);
     pthread_cond_destroy(connection->cond_reply_ack);
     pthread_join(*connection->events_thread, (void **)(void *)0);
-    connection->mode = (enum anonymous$4)SPD_MODE_SINGLE;
+    connection->mode = (enum anonymous_4)SPD_MODE_SINGLE;
   }
 
   close(connection->socket);
@@ -1789,7 +1789,7 @@ static void * spd_events_handler(void *conn)
 {
   char *reply;
   signed int reply_code;
-  struct anonymous$3 *connection = (struct anonymous$3 *)conn;
+  struct anonymous_3 *connection = (struct anonymous_3 *)conn;
   while((_Bool)1)
   {
     SPD_DBG("Getting reply in spd_events_handler");
@@ -1809,19 +1809,19 @@ static void * spd_events_handler(void *conn)
     {
       signed int msg_id;
       signed int client_id;
-      signed int spd_events_handler$$1$$1$$3$$err;
+      signed int spd_events_handler__1__1__3__err;
       SPD_DBG("Callback detected: %s", reply);
-      msg_id=get_param_int(reply, 1, &spd_events_handler$$1$$1$$3$$err);
-      if(!(spd_events_handler$$1$$1$$3$$err >= 0))
+      msg_id=get_param_int(reply, 1, &spd_events_handler__1__1__3__err);
+      if(!(spd_events_handler__1__1__3__err >= 0))
       {
-        SPD_DBG("Bad reply from Speech Dispatcher: %s (code %d)", reply, spd_events_handler$$1$$1$$3$$err);
+        SPD_DBG("Bad reply from Speech Dispatcher: %s (code %d)", reply, spd_events_handler__1__1__3__err);
         break;
       }
 
-      client_id=get_param_int(reply, 2, &spd_events_handler$$1$$1$$3$$err);
-      if(!(spd_events_handler$$1$$1$$3$$err >= 0))
+      client_id=get_param_int(reply, 2, &spd_events_handler__1__1__3__err);
+      if(!(spd_events_handler__1__1__3__err >= 0))
       {
-        SPD_DBG("Bad reply from Speech Dispatcher: %s (code %d)", reply, spd_events_handler$$1$$1$$3$$err);
+        SPD_DBG("Bad reply from Speech Dispatcher: %s (code %d)", reply, spd_events_handler__1__1__3__err);
         break;
       }
 
@@ -1919,7 +1919,7 @@ static void * spd_events_handler(void *conn)
 
 // spd_execute_command
 // file libspeechd.c line 1273
-signed int spd_execute_command(struct anonymous$3 *connection, char *command)
+signed int spd_execute_command(struct anonymous_3 *connection, char *command)
 {
   char *reply;
   signed int ret;
@@ -1935,7 +1935,7 @@ signed int spd_execute_command(struct anonymous$3 *connection, char *command)
 
 // spd_execute_command_with_list_reply
 // file libspeechd.c line 1201
-char ** spd_execute_command_with_list_reply(struct anonymous$3 *connection, char *command)
+char ** spd_execute_command_with_list_reply(struct anonymous_3 *connection, char *command)
 {
   char *reply = (char *)(void *)0;
   char *line;
@@ -1945,9 +1945,9 @@ char ** spd_execute_command_with_list_reply(struct anonymous$3 *connection, char
   signed int i;
   signed int ret;
   ret=spd_execute_command_with_reply(connection, command, &reply);
-  signed int return_value_ret_ok$1;
-  return_value_ret_ok$1=ret_ok(reply);
-  if(return_value_ret_ok$1 == 0)
+  signed int return_value_ret_ok_1;
+  return_value_ret_ok_1=ret_ok(reply);
+  if(return_value_ret_ok_1 == 0)
   {
     if(!(reply == ((char *)NULL)))
       free((void *)reply);
@@ -1957,9 +1957,9 @@ char ** spd_execute_command_with_list_reply(struct anonymous$3 *connection, char
 
   else
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)(max_items + 1) * sizeof(char *) /*8ul*/ );
-    result = (char **)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)(max_items + 1) * sizeof(char *) /*8ul*/ );
+    result = (char **)return_value_malloc_2;
     i = 0;
     do
     {
@@ -1971,9 +1971,9 @@ char ** spd_execute_command_with_list_reply(struct anonymous$3 *connection, char
       if(i >= max_items + -2)
       {
         max_items = max_items * 2;
-        void *return_value_realloc$3;
-        return_value_realloc$3=realloc((void *)result, (unsigned long int)max_items * sizeof(char *) /*8ul*/ );
-        result = (char **)return_value_realloc$3;
+        void *return_value_realloc_3;
+        return_value_realloc_3=realloc((void *)result, (unsigned long int)max_items * sizeof(char *) /*8ul*/ );
+        result = (char **)return_value_realloc_3;
       }
 
       i = i + 1;
@@ -1987,7 +1987,7 @@ char ** spd_execute_command_with_list_reply(struct anonymous$3 *connection, char
 
 // spd_execute_command_with_reply
 // file libspeechd.c line 1308
-signed int spd_execute_command_with_reply(struct anonymous$3 *connection, char *command, char **reply)
+signed int spd_execute_command_with_reply(struct anonymous_3 *connection, char *command, char **reply)
 {
   char *buf;
   signed int r;
@@ -2015,7 +2015,7 @@ signed int spd_execute_command_with_reply(struct anonymous$3 *connection, char *
 
 // spd_execute_command_wo_mutex
 // file libspeechd.c line 1291
-signed int spd_execute_command_wo_mutex(struct anonymous$3 *connection, char *command)
+signed int spd_execute_command_wo_mutex(struct anonymous_3 *connection, char *command)
 {
   char *reply;
   signed int ret;
@@ -2030,20 +2030,20 @@ signed int spd_execute_command_wo_mutex(struct anonymous$3 *connection, char *co
 
 // spd_get_default_address
 // file libspeechd.c line 170
-struct anonymous$17 * spd_get_default_address(char **error)
+struct anonymous_17 * spd_get_default_address(char **error)
 {
   const char *env_address;
   env_address=g_getenv("SPEECHD_ADDRESS");
   char **pa;
-  struct anonymous$17 *address;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$17) /*40ul*/ );
-  address = (struct anonymous$17 *)return_value_malloc$1;
-  _Bool tmp_if_expr$4;
-  signed int return_value_g_strcmp0$2;
+  struct anonymous_17 *address;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_17) /*40ul*/ );
+  address = (struct anonymous_17 *)return_value_malloc_1;
+  _Bool tmp_if_expr_4;
+  signed int return_value_g_strcmp0_2;
   if(env_address == ((const char *)NULL))
   {
-    address->method = (enum anonymous$16)SPD_METHOD_UNIX_SOCKET;
+    address->method = (enum anonymous_16)SPD_METHOD_UNIX_SOCKET;
     address->unix_socket_name=_get_default_unix_socket_name();
   }
 
@@ -2052,16 +2052,16 @@ struct anonymous$17 * spd_get_default_address(char **error)
     pa=g_strsplit(env_address, ":", 0);
     /* assertion pa */
     assert(pa != ((char **)NULL));
-    signed int return_value_g_strcmp0$3;
-    return_value_g_strcmp0$3=g_strcmp0(pa[(signed long int)0], "unix_socket");
-    if(return_value_g_strcmp0$3 == 0)
-      tmp_if_expr$4 = (_Bool)1;
+    signed int return_value_g_strcmp0_3;
+    return_value_g_strcmp0_3=g_strcmp0(pa[(signed long int)0], "unix_socket");
+    if(return_value_g_strcmp0_3 == 0)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = pa[(signed long int)0] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = pa[(signed long int)0] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
-      address->method = (enum anonymous$16)SPD_METHOD_UNIX_SOCKET;
+      address->method = (enum anonymous_16)SPD_METHOD_UNIX_SOCKET;
       if(pa[1l] == ((char *)NULL))
         address->unix_socket_name=_get_default_unix_socket_name();
 
@@ -2071,10 +2071,10 @@ struct anonymous$17 * spd_get_default_address(char **error)
 
     else
     {
-      return_value_g_strcmp0$2=g_strcmp0(pa[(signed long int)0], "inet_socket");
-      if(return_value_g_strcmp0$2 == 0)
+      return_value_g_strcmp0_2=g_strcmp0(pa[(signed long int)0], "inet_socket");
+      if(return_value_g_strcmp0_2 == 0)
       {
-        address->method = (enum anonymous$16)SPD_METHOD_INET_SOCKET;
+        address->method = (enum anonymous_16)SPD_METHOD_INET_SOCKET;
         if(pa[1l] == ((char *)NULL))
         {
           address->inet_socket_host=strdup("127.0.0.1");
@@ -2096,7 +2096,7 @@ struct anonymous$17 * spd_get_default_address(char **error)
       {
         *error=strdup("Unknown or unsupported communication method");
         free((void *)address);
-        address = (struct anonymous$17 *)(void *)0;
+        address = (struct anonymous_17 *)(void *)0;
       }
     }
     g_strfreev(pa);
@@ -2106,7 +2106,7 @@ struct anonymous$17 * spd_get_default_address(char **error)
 
 // spd_get_message_list_fd
 // file libspeechd.c line 1244
-signed int spd_get_message_list_fd(struct anonymous$3 *connection, signed int target, signed int *msg_ids, char **client_names)
+signed int spd_get_message_list_fd(struct anonymous_3 *connection, signed int target, signed int *msg_ids, char **client_names)
 {
   SPD_DBG("spd_get_client_list: History is not yet implemented.");
   return -1;
@@ -2114,7 +2114,7 @@ signed int spd_get_message_list_fd(struct anonymous$3 *connection, signed int ta
 
 // spd_key
 // file libspeechd.c line 770
-signed int spd_key(struct anonymous$3 *connection, enum anonymous$11 priority, const char *key_name)
+signed int spd_key(struct anonymous_3 *connection, enum anonymous_11 priority, const char *key_name)
 {
   char *command_key;
   signed int ret;
@@ -2153,7 +2153,7 @@ signed int spd_key(struct anonymous$3 *connection, enum anonymous$11 priority, c
 
 // spd_list_modules
 // file ../../src/api/c/libspeechd.h line 219
-char ** spd_list_modules(struct anonymous$3 *connection)
+char ** spd_list_modules(struct anonymous_3 *connection)
 {
   char **available_modules;
   available_modules=spd_execute_command_with_list_reply(connection, "LIST OUTPUT_MODULES");
@@ -2162,15 +2162,15 @@ char ** spd_list_modules(struct anonymous$3 *connection)
 
 // spd_list_synthesis_voices
 // file ../../src/api/c/libspeechd.h line 221
-struct anonymous$8 ** spd_list_synthesis_voices(struct anonymous$3 *connection)
+struct anonymous_8 ** spd_list_synthesis_voices(struct anonymous_3 *connection)
 {
   char **svoices_str;
-  struct anonymous$8 **svoices;
+  struct anonymous_8 **svoices;
   signed int i;
   signed int num_items;
   svoices_str=spd_execute_command_with_list_reply(connection, "LIST SYNTHESIS_VOICES");
   if(svoices_str == ((char **)NULL))
-    return (struct anonymous$8 **)(void *)0;
+    return (struct anonymous_8 **)(void *)0;
 
   else
   {
@@ -2178,9 +2178,9 @@ struct anonymous$8 ** spd_list_synthesis_voices(struct anonymous$3 *connection)
     for( ; !(svoices_str[(signed long int)i] == ((char *)NULL)); i = i + 1)
       ;
     num_items = i;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)(num_items + 1) * sizeof(struct anonymous$8 *) /*8ul*/ );
-    svoices = (struct anonymous$8 **)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)(num_items + 1) * sizeof(struct anonymous_8 *) /*8ul*/ );
+    svoices = (struct anonymous_8 **)return_value_malloc_1;
     i = 0;
     for( ; num_items >= i; i = i + 1)
     {
@@ -2190,23 +2190,23 @@ struct anonymous$8 ** spd_list_synthesis_voices(struct anonymous$3 *connection)
         break;
 
       running=strdup(svoices_str[(signed long int)i]);
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct anonymous$8) /*24ul*/ );
-      svoices[(signed long int)i] = (struct anonymous$8 *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct anonymous_8) /*24ul*/ );
+      svoices[(signed long int)i] = (struct anonymous_8 *)return_value_malloc_2;
       svoices[(signed long int)i]->name=strsep(&running, delimiters);
       svoices[(signed long int)i]->language=strsep(&running, delimiters);
       svoices[(signed long int)i]->variant=strsep(&running, delimiters);
       /* assertion svoices[i]->name != ((void *)0) */
       assert(svoices[(signed long int)i]->name != (char *)(void *)0);
     }
-    svoices[(signed long int)num_items] = (struct anonymous$8 *)(void *)0;
+    svoices[(signed long int)num_items] = (struct anonymous_8 *)(void *)0;
     return svoices;
   }
 }
 
 // spd_list_voices
 // file ../../src/api/c/libspeechd.h line 220
-char ** spd_list_voices(struct anonymous$3 *connection)
+char ** spd_list_voices(struct anonymous_3 *connection)
 {
   char **voices;
   voices=spd_execute_command_with_list_reply(connection, "LIST VOICES");
@@ -2215,13 +2215,13 @@ char ** spd_list_voices(struct anonymous$3 *connection)
 
 // spd_open
 // file ../../src/api/c/libspeechd.h line 108
-struct anonymous$3 * spd_open(const char *client_name, const char *connection_name, const char *user_name, enum anonymous$4 mode)
+struct anonymous_3 * spd_open(const char *client_name, const char *connection_name, const char *user_name, enum anonymous_4 mode)
 {
   char *error;
   signed int autospawn = 1;
-  struct anonymous$3 *conn;
-  conn=spd_open2(client_name, connection_name, user_name, mode, (struct anonymous$17 *)(void *)0, autospawn, &error);
-  if(conn == ((struct anonymous$3 *)NULL))
+  struct anonymous_3 *conn;
+  conn=spd_open2(client_name, connection_name, user_name, mode, (struct anonymous_17 *)(void *)0, autospawn, &error);
+  if(conn == ((struct anonymous_3 *)NULL))
   {
     _init_debug();
     /* assertion error */
@@ -2235,9 +2235,9 @@ struct anonymous$3 * spd_open(const char *client_name, const char *connection_na
 
 // spd_open2
 // file libspeechd.c line 372
-struct anonymous$3 * spd_open2(const char *client_name, const char *connection_name, const char *user_name, enum anonymous$4 mode, struct anonymous$17 *address, signed int autospawn, char **error_result)
+struct anonymous_3 * spd_open2(const char *client_name, const char *connection_name, const char *user_name, enum anonymous_4 mode, struct anonymous_17 *address, signed int autospawn, char **error_result)
 {
-  struct anonymous$3 *connection;
+  struct anonymous_3 *connection;
   char *set_client_name;
   char *conn_name;
   char *usr_name;
@@ -2253,24 +2253,24 @@ struct anonymous$3 * spd_open2(const char *client_name, const char *connection_n
   unsigned long int sock_address_len;
   char *resolve_error;
   _init_debug();
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
-  signed int *return_value___errno_location$6;
-  char *return_value_strerror$7;
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
+  signed int *return_value___errno_location_6;
+  char *return_value_strerror_7;
   if(client_name == ((const char *)NULL))
   {
     *error_result=strdup("ERROR: Client name not specified");
     SPD_DBG(*error_result);
-    return (struct anonymous$3 *)(void *)0;
+    return (struct anonymous_3 *)(void *)0;
   }
 
   else
   {
     if(user_name == ((const char *)NULL))
     {
-      const char *return_value_g_get_user_name$1;
-      return_value_g_get_user_name$1=g_get_user_name();
-      usr_name=strdup((char *)return_value_g_get_user_name$1);
+      const char *return_value_g_get_user_name_1;
+      return_value_g_get_user_name_1=g_get_user_name();
+      usr_name=strdup((char *)return_value_g_get_user_name_1);
     }
 
     else
@@ -2280,24 +2280,24 @@ struct anonymous$3 * spd_open2(const char *client_name, const char *connection_n
 
     else
       conn_name=strdup(connection_name);
-    if(address == ((struct anonymous$17 *)NULL))
+    if(address == ((struct anonymous_17 *)NULL))
     {
       char *err = (char *)(void *)0;
       address=spd_get_default_address(&err);
-      if(address == ((struct anonymous$17 *)NULL))
+      if(address == ((struct anonymous_17 *)NULL))
       {
         /* assertion err */
         assert(err != ((char *)NULL));
         *error_result = err;
         SPD_DBG(*error_result);
-        return (struct anonymous$3 *)(void *)0;
+        return (struct anonymous_3 *)(void *)0;
       }
 
     }
 
-    void *return_value_xmalloc$2;
-    return_value_xmalloc$2=xmalloc(sizeof(struct anonymous$3) /*136ul*/ );
-    connection = (struct anonymous$3 *)return_value_xmalloc$2;
+    void *return_value_xmalloc_2;
+    return_value_xmalloc_2=xmalloc(sizeof(struct anonymous_3) /*136ul*/ );
+    connection = (struct anonymous_3 *)return_value_xmalloc_2;
     if((signed int)address->method == SPD_METHOD_INET_SOCKET)
     {
       host_ip=resolve_host(address->inet_socket_host, &is_localhost, &resolve_error);
@@ -2305,7 +2305,7 @@ struct anonymous$3 * spd_open2(const char *client_name, const char *connection_n
       {
         *error_result=strdup(resolve_error);
         g_free((void *)resolve_error);
-        return (struct anonymous$3 *)(void *)0;
+        return (struct anonymous_3 *)(void *)0;
       }
 
       address_inet.sin_addr.s_addr=inet_addr(host_ip);
@@ -2324,9 +2324,9 @@ struct anonymous$3 * spd_open2(const char *client_name, const char *connection_n
         address_unix.sun_path[(signed long int)(sizeof(char [108l]) /*108ul*/  - (unsigned long int)1)] = (char)0;
         connection->socket=socket(1, 1, 0);
         sock_address = (struct sockaddr *)&address_unix;
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen((&address_unix)->sun_path);
-        sock_address_len = (unsigned long int)((struct sockaddr_un *)0)->sun_path + return_value_strlen$3;
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen((&address_unix)->sun_path);
+        sock_address_len = (unsigned long int)((struct sockaddr_un *)0)->sun_path + return_value_strlen_3;
       }
 
       else
@@ -2353,17 +2353,17 @@ struct anonymous$3 * spd_open2(const char *client_name, const char *connection_n
       {
         if((signed int)address->method == SPD_METHOD_INET_SOCKET)
         {
-          return_value___errno_location$4=__errno_location();
-          return_value_strerror$5=strerror(*return_value___errno_location$4);
-          *error_result=g_strdup_printf("Error: Can't connect to %s on port %d using inet sockets: %s. Autospawn: %s", address->inet_socket_host, address->inet_socket_port, return_value_strerror$5, spawn_report);
+          return_value___errno_location_4=__errno_location();
+          return_value_strerror_5=strerror(*return_value___errno_location_4);
+          *error_result=g_strdup_printf("Error: Can't connect to %s on port %d using inet sockets: %s. Autospawn: %s", address->inet_socket_host, address->inet_socket_port, return_value_strerror_5, spawn_report);
         }
 
         else
           if((signed int)address->method == SPD_METHOD_UNIX_SOCKET)
           {
-            return_value___errno_location$6=__errno_location();
-            return_value_strerror$7=strerror(*return_value___errno_location$6);
-            *error_result=g_strdup_printf("Error: Can't connect to unix socket %s: %s. Autospawn: %s", address->unix_socket_name, return_value_strerror$7, spawn_report);
+            return_value___errno_location_6=__errno_location();
+            return_value_strerror_7=strerror(*return_value___errno_location_6);
+            *error_result=g_strdup_printf("Error: Can't connect to unix socket %s: %s. Autospawn: %s", address->unix_socket_name, return_value_strerror_7, spawn_report);
           }
 
           else
@@ -2371,7 +2371,7 @@ struct anonymous$3 * spd_open2(const char *client_name, const char *connection_n
             assert(0 != 0);
         SPD_DBG(*error_result);
         close(connection->socket);
-        return (struct anonymous$3 *)(void *)0;
+        return (struct anonymous_3 *)(void *)0;
       }
 
     }
@@ -2402,38 +2402,38 @@ struct anonymous$3 * spd_open2(const char *client_name, const char *connection_n
       exit(1);
     }
 
-    void *return_value_xmalloc$8;
-    return_value_xmalloc$8=xmalloc(sizeof(union anonymous$21) /*40ul*/ );
-    connection->ssip_mutex = (union anonymous$21 *)return_value_xmalloc$8;
-    pthread_mutex_init(connection->ssip_mutex, (const union anonymous$19 *)(void *)0);
+    void *return_value_xmalloc_8;
+    return_value_xmalloc_8=xmalloc(sizeof(union anonymous_21) /*40ul*/ );
+    connection->ssip_mutex = (union anonymous_21 *)return_value_xmalloc_8;
+    pthread_mutex_init(connection->ssip_mutex, (const union anonymous_19 *)(void *)0);
     if((signed int)mode == SPD_MODE_THREADED)
     {
       SPD_DBG("Initializing threads, condition variables and mutexes...");
-      void *return_value_xmalloc$9;
-      return_value_xmalloc$9=xmalloc(sizeof(unsigned long int) /*8ul*/ );
-      connection->events_thread = (unsigned long int *)return_value_xmalloc$9;
-      void *return_value_xmalloc$10;
-      return_value_xmalloc$10=xmalloc(sizeof(union anonymous$20) /*48ul*/ );
-      connection->cond_reply_ready = (union anonymous$20 *)return_value_xmalloc$10;
-      void *return_value_xmalloc$11;
-      return_value_xmalloc$11=xmalloc(sizeof(union anonymous$21) /*40ul*/ );
-      connection->mutex_reply_ready = (union anonymous$21 *)return_value_xmalloc$11;
-      void *return_value_xmalloc$12;
-      return_value_xmalloc$12=xmalloc(sizeof(union anonymous$20) /*48ul*/ );
-      connection->cond_reply_ack = (union anonymous$20 *)return_value_xmalloc$12;
-      void *return_value_xmalloc$13;
-      return_value_xmalloc$13=xmalloc(sizeof(union anonymous$21) /*40ul*/ );
-      connection->mutex_reply_ack = (union anonymous$21 *)return_value_xmalloc$13;
-      pthread_cond_init(connection->cond_reply_ready, (const union anonymous$19 *)(void *)0);
-      pthread_mutex_init(connection->mutex_reply_ready, (const union anonymous$19 *)(void *)0);
-      pthread_cond_init(connection->cond_reply_ack, (const union anonymous$19 *)(void *)0);
-      pthread_mutex_init(connection->mutex_reply_ack, (const union anonymous$19 *)(void *)0);
+      void *return_value_xmalloc_9;
+      return_value_xmalloc_9=xmalloc(sizeof(unsigned long int) /*8ul*/ );
+      connection->events_thread = (unsigned long int *)return_value_xmalloc_9;
+      void *return_value_xmalloc_10;
+      return_value_xmalloc_10=xmalloc(sizeof(union anonymous_20) /*48ul*/ );
+      connection->cond_reply_ready = (union anonymous_20 *)return_value_xmalloc_10;
+      void *return_value_xmalloc_11;
+      return_value_xmalloc_11=xmalloc(sizeof(union anonymous_21) /*40ul*/ );
+      connection->mutex_reply_ready = (union anonymous_21 *)return_value_xmalloc_11;
+      void *return_value_xmalloc_12;
+      return_value_xmalloc_12=xmalloc(sizeof(union anonymous_20) /*48ul*/ );
+      connection->cond_reply_ack = (union anonymous_20 *)return_value_xmalloc_12;
+      void *return_value_xmalloc_13;
+      return_value_xmalloc_13=xmalloc(sizeof(union anonymous_21) /*40ul*/ );
+      connection->mutex_reply_ack = (union anonymous_21 *)return_value_xmalloc_13;
+      pthread_cond_init(connection->cond_reply_ready, (const union anonymous_19 *)(void *)0);
+      pthread_mutex_init(connection->mutex_reply_ready, (const union anonymous_19 *)(void *)0);
+      pthread_cond_init(connection->cond_reply_ack, (const union anonymous_19 *)(void *)0);
+      pthread_mutex_init(connection->mutex_reply_ack, (const union anonymous_19 *)(void *)0);
       ret=pthread_create(connection->events_thread, (const union pthread_attr_t *)(void *)0, spd_events_handler, (void *)connection);
       if(!(ret == 0))
       {
         *error_result=strdup("Thread initialization failed");
         SPD_DBG(*error_result);
-        return (struct anonymous$3 *)(void *)0;
+        return (struct anonymous_3 *)(void *)0;
       }
 
     }
@@ -2449,65 +2449,65 @@ struct anonymous$3 * spd_open2(const char *client_name, const char *connection_n
 
 // spd_pause
 // file libspeechd.c line 733
-signed int spd_pause(struct anonymous$3 *connection)
+signed int spd_pause(struct anonymous_3 *connection)
 {
-  signed int return_value_spd_execute_command$1;
-  return_value_spd_execute_command$1=spd_execute_command(connection, "PAUSE SELF");
-  return return_value_spd_execute_command$1;
+  signed int return_value_spd_execute_command_1;
+  return_value_spd_execute_command_1=spd_execute_command(connection, "PAUSE SELF");
+  return return_value_spd_execute_command_1;
 }
 
 // spd_pause_all
 // file libspeechd.c line 738
-signed int spd_pause_all(struct anonymous$3 *connection)
+signed int spd_pause_all(struct anonymous_3 *connection)
 {
-  signed int return_value_spd_execute_command$1;
-  return_value_spd_execute_command$1=spd_execute_command(connection, "PAUSE ALL");
-  return return_value_spd_execute_command$1;
+  signed int return_value_spd_execute_command_1;
+  return_value_spd_execute_command_1=spd_execute_command(connection, "PAUSE ALL");
+  return return_value_spd_execute_command_1;
 }
 
 // spd_pause_uid
 // file libspeechd.c line 743
-signed int spd_pause_uid(struct anonymous$3 *connection, signed int target_uid)
+signed int spd_pause_uid(struct anonymous_3 *connection, signed int target_uid)
 {
   char command[16l];
   sprintf(command, "PAUSE %d", target_uid);
-  signed int return_value_spd_execute_command$1;
-  return_value_spd_execute_command$1=spd_execute_command(connection, command);
-  return return_value_spd_execute_command$1;
+  signed int return_value_spd_execute_command_1;
+  return_value_spd_execute_command_1=spd_execute_command(connection, command);
+  return return_value_spd_execute_command_1;
 }
 
 // spd_resume
 // file libspeechd.c line 751
-signed int spd_resume(struct anonymous$3 *connection)
+signed int spd_resume(struct anonymous_3 *connection)
 {
-  signed int return_value_spd_execute_command$1;
-  return_value_spd_execute_command$1=spd_execute_command(connection, "RESUME SELF");
-  return return_value_spd_execute_command$1;
+  signed int return_value_spd_execute_command_1;
+  return_value_spd_execute_command_1=spd_execute_command(connection, "RESUME SELF");
+  return return_value_spd_execute_command_1;
 }
 
 // spd_resume_all
 // file libspeechd.c line 756
-signed int spd_resume_all(struct anonymous$3 *connection)
+signed int spd_resume_all(struct anonymous_3 *connection)
 {
-  signed int return_value_spd_execute_command$1;
-  return_value_spd_execute_command$1=spd_execute_command(connection, "RESUME ALL");
-  return return_value_spd_execute_command$1;
+  signed int return_value_spd_execute_command_1;
+  return_value_spd_execute_command_1=spd_execute_command(connection, "RESUME ALL");
+  return return_value_spd_execute_command_1;
 }
 
 // spd_resume_uid
 // file libspeechd.c line 761
-signed int spd_resume_uid(struct anonymous$3 *connection, signed int target_uid)
+signed int spd_resume_uid(struct anonymous_3 *connection, signed int target_uid)
 {
   static char command[16l];
   sprintf(command, "RESUME %d", target_uid);
-  signed int return_value_spd_execute_command$1;
-  return_value_spd_execute_command$1=spd_execute_command(connection, command);
-  return return_value_spd_execute_command$1;
+  signed int return_value_spd_execute_command_1;
+  return_value_spd_execute_command_1=spd_execute_command(connection, command);
+  return return_value_spd_execute_command_1;
 }
 
 // spd_say
 // file ../../src/api/c/libspeechd.h line 118
-signed int spd_say(struct anonymous$3 *connection, enum anonymous$11 priority, const char *text)
+signed int spd_say(struct anonymous_3 *connection, enum anonymous_11 priority, const char *text)
 {
   char *escaped_text = (char *)(void *)0;
   signed int msg_id = -1;
@@ -2531,7 +2531,7 @@ signed int spd_say(struct anonymous$3 *connection, enum anonymous$11 priority, c
 
 // spd_say_prepare
 // file libspeechd.c line 583
-static inline signed int spd_say_prepare(struct anonymous$3 *connection, enum anonymous$11 priority, const char *text, char **escaped_text)
+static inline signed int spd_say_prepare(struct anonymous_3 *connection, enum anonymous_11 priority, const char *text, char **escaped_text)
 {
   signed int ret = 0;
   SPD_DBG("Text to say is: %s", text);
@@ -2561,7 +2561,7 @@ static inline signed int spd_say_prepare(struct anonymous$3 *connection, enum an
 
 // spd_say_sending
 // file libspeechd.c line 613
-static inline signed int spd_say_sending(struct anonymous$3 *connection, const char *text)
+static inline signed int spd_say_sending(struct anonymous_3 *connection, const char *text)
 {
   signed int msg_id = -1;
   signed int err = 0;
@@ -2597,7 +2597,7 @@ static inline signed int spd_say_sending(struct anonymous$3 *connection, const c
 
 // spd_sayf
 // file libspeechd.c line 675
-signed int spd_sayf(struct anonymous$3 *connection, enum anonymous$11 priority, const char *format, ...)
+signed int spd_sayf(struct anonymous_3 *connection, enum anonymous_11 priority, const char *format, ...)
 {
   void **args;
   char *buf;
@@ -2618,7 +2618,7 @@ signed int spd_sayf(struct anonymous$3 *connection, enum anonymous$11 priority, 
 
 // spd_send_data
 // file libspeechd.c line 1333
-char * spd_send_data(struct anonymous$3 *connection, const char *message, signed int wfr)
+char * spd_send_data(struct anonymous_3 *connection, const char *message, signed int wfr)
 {
   char *reply;
   pthread_mutex_lock(connection->ssip_mutex);
@@ -2648,7 +2648,7 @@ char * spd_send_data(struct anonymous$3 *connection, const char *message, signed
 
 // spd_send_data_wo_mutex
 // file libspeechd.c line 1351
-char * spd_send_data_wo_mutex(struct anonymous$3 *connection, const char *message, signed int wfr)
+char * spd_send_data_wo_mutex(struct anonymous_3 *connection, const char *message, signed int wfr)
 {
   char *reply;
   signed int bytes;
@@ -2662,17 +2662,17 @@ char * spd_send_data_wo_mutex(struct anonymous$3 *connection, const char *messag
       pthread_mutex_lock(connection->mutex_reply_ready);
 
     SPD_DBG("Writing to socket");
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(message);
-    signed long int return_value_write$4;
-    return_value_write$4=write(connection->socket, (const void *)message, return_value_strlen$3);
-    if(return_value_write$4 == 0l)
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(message);
+    signed long int return_value_write_4;
+    return_value_write_4=write(connection->socket, (const void *)message, return_value_strlen_3);
+    if(return_value_write_4 == 0l)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      SPD_DBG("Can't write to socket: %s", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      SPD_DBG("Can't write to socket: %s", return_value_strerror_2);
       pthread_mutex_unlock(connection->mutex_reply_ready);
       return (char *)(void *)0;
     }
@@ -2697,9 +2697,9 @@ char * spd_send_data_wo_mutex(struct anonymous$3 *connection, const char *messag
           return (char *)(void *)0;
         }
         xfree((void *)connection->reply);
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(reply);
-        bytes = (signed int)return_value_strlen$5;
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(reply);
+        bytes = (signed int)return_value_strlen_5;
         if(bytes == 0)
         {
           SPD_DBG("Error: Empty reply, broken socket.");
@@ -2724,9 +2724,9 @@ char * spd_send_data_wo_mutex(struct anonymous$3 *connection, const char *messag
         pthread_mutex_unlock(connection->mutex_reply_ready);
 
       SPD_DBG("<< : no reply expected");
-      char *return_value_strdup$6;
-      return_value_strdup$6=strdup("NO REPLY");
-      return return_value_strdup$6;
+      char *return_value_strdup_6;
+      return_value_strdup_6=strdup("NO REPLY");
+      return return_value_strdup_6;
     }
     if(reply == ((char *)NULL))
       SPD_DBG("Reply from get_reply is NULL in spd_send_data_wo_mutex");
@@ -2738,36 +2738,36 @@ char * spd_send_data_wo_mutex(struct anonymous$3 *connection, const char *messag
 
 // spd_set_capital_letters
 // file libspeechd.c line 1072
-signed int spd_set_capital_letters(struct anonymous$3 *connection, enum anonymous$15 val)
+signed int spd_set_capital_letters(struct anonymous_3 *connection, enum anonymous_15 val)
 {
-  signed int return_value_spd_w_set_capital_letters$1;
-  return_value_spd_w_set_capital_letters$1=spd_w_set_capital_letters(connection, val, "SELF");
-  return return_value_spd_w_set_capital_letters$1;
+  signed int return_value_spd_w_set_capital_letters_1;
+  return_value_spd_w_set_capital_letters_1=spd_w_set_capital_letters(connection, val, "SELF");
+  return return_value_spd_w_set_capital_letters_1;
 }
 
 // spd_set_capital_letters_all
 // file libspeechd.c line 1072
-signed int spd_set_capital_letters_all(struct anonymous$3 *connection, enum anonymous$15 val)
+signed int spd_set_capital_letters_all(struct anonymous_3 *connection, enum anonymous_15 val)
 {
-  signed int return_value_spd_w_set_capital_letters$1;
-  return_value_spd_w_set_capital_letters$1=spd_w_set_capital_letters(connection, val, "ALL");
-  return return_value_spd_w_set_capital_letters$1;
+  signed int return_value_spd_w_set_capital_letters_1;
+  return_value_spd_w_set_capital_letters_1=spd_w_set_capital_letters(connection, val, "ALL");
+  return return_value_spd_w_set_capital_letters_1;
 }
 
 // spd_set_capital_letters_uid
 // file libspeechd.c line 1072
-signed int spd_set_capital_letters_uid(struct anonymous$3 *connection, enum anonymous$15 val, unsigned int uid)
+signed int spd_set_capital_letters_uid(struct anonymous_3 *connection, enum anonymous_15 val, unsigned int uid)
 {
   char who[8l];
   sprintf(who, "%d", uid);
-  signed int return_value_spd_w_set_capital_letters$1;
-  return_value_spd_w_set_capital_letters$1=spd_w_set_capital_letters(connection, val, who);
-  return return_value_spd_w_set_capital_letters$1;
+  signed int return_value_spd_w_set_capital_letters_1;
+  return_value_spd_w_set_capital_letters_1=spd_w_set_capital_letters(connection, val, who);
+  return return_value_spd_w_set_capital_letters_1;
 }
 
 // spd_set_data_mode
 // file libspeechd.c line 933
-signed int spd_set_data_mode(struct anonymous$3 *connection, enum anonymous$6 mode)
+signed int spd_set_data_mode(struct anonymous_3 *connection, enum anonymous_6 mode)
 {
   char command[32l];
   signed int ret;
@@ -2783,39 +2783,39 @@ signed int spd_set_data_mode(struct anonymous$3 *connection, enum anonymous$6 mo
 
 // spd_set_language
 // file libspeechd.c line 1067
-signed int spd_set_language(struct anonymous$3 *connection, const char *str)
+signed int spd_set_language(struct anonymous_3 *connection, const char *str)
 {
-  signed int return_value_spd_w_set_language$1;
-  return_value_spd_w_set_language$1=spd_w_set_language(connection, str, "SELF");
-  return return_value_spd_w_set_language$1;
+  signed int return_value_spd_w_set_language_1;
+  return_value_spd_w_set_language_1=spd_w_set_language(connection, str, "SELF");
+  return return_value_spd_w_set_language_1;
 }
 
 // spd_set_language_all
 // file libspeechd.c line 1067
-signed int spd_set_language_all(struct anonymous$3 *connection, const char *str)
+signed int spd_set_language_all(struct anonymous_3 *connection, const char *str)
 {
-  signed int return_value_spd_w_set_language$1;
-  return_value_spd_w_set_language$1=spd_w_set_language(connection, str, "ALL");
-  return return_value_spd_w_set_language$1;
+  signed int return_value_spd_w_set_language_1;
+  return_value_spd_w_set_language_1=spd_w_set_language(connection, str, "ALL");
+  return return_value_spd_w_set_language_1;
 }
 
 // spd_set_language_uid
 // file libspeechd.c line 1067
-signed int spd_set_language_uid(struct anonymous$3 *connection, const char *str, unsigned int uid)
+signed int spd_set_language_uid(struct anonymous_3 *connection, const char *str, unsigned int uid)
 {
   char who[8l];
   sprintf(who, "%d", uid);
-  signed int return_value_spd_w_set_language$1;
-  return_value_spd_w_set_language$1=spd_w_set_language(connection, str, who);
-  return return_value_spd_w_set_language$1;
+  signed int return_value_spd_w_set_language_1;
+  return_value_spd_w_set_language_1=spd_w_set_language(connection, str, who);
+  return return_value_spd_w_set_language_1;
 }
 
 // spd_set_notification
 // file libspeechd.c line 1107
-signed int spd_set_notification(struct anonymous$3 *connection, enum anonymous$2 notification, const char *state)
+signed int spd_set_notification(struct anonymous_3 *connection, enum anonymous_2 notification, const char *state)
 {
   signed int ret;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(!((signed int)connection->mode == SPD_MODE_THREADED))
     return -1;
 
@@ -2828,12 +2828,12 @@ signed int spd_set_notification(struct anonymous$3 *connection, enum anonymous$2
 
     else
     {
-      signed int return_value_strcmp$2;
-      return_value_strcmp$2=strcmp(state, "on");
-      if(!(return_value_strcmp$2 == 0))
+      signed int return_value_strcmp_2;
+      return_value_strcmp_2=strcmp(state, "on");
+      if(!(return_value_strcmp_2 == 0))
       {
-        return_value_strcmp$1=strcmp(state, "off");
-        if(return_value_strcmp$1 == 0)
+        return_value_strcmp_1=strcmp(state, "off");
+        if(return_value_strcmp_1 == 0)
           goto __CPROVER_DUMP_L3;
 
         SPD_DBG("Invalid argument for spd_set_notification: %s", state);
@@ -2974,13 +2974,13 @@ signed int spd_set_notification(struct anonymous$3 *connection, enum anonymous$2
 
 // spd_set_notification_off
 // file libspeechd.c line 1090
-signed int spd_set_notification_off(struct anonymous$3 *connection, enum anonymous$2 notification)
+signed int spd_set_notification_off(struct anonymous_3 *connection, enum anonymous_2 notification)
 {
-  signed int return_value_spd_set_notification$1;
+  signed int return_value_spd_set_notification_1;
   if((signed int)connection->mode == SPD_MODE_THREADED)
   {
-    return_value_spd_set_notification$1=spd_set_notification(connection, notification, "off");
-    return return_value_spd_set_notification$1;
+    return_value_spd_set_notification_1=spd_set_notification(connection, notification, "off");
+    return return_value_spd_set_notification_1;
   }
 
   else
@@ -2989,13 +2989,13 @@ signed int spd_set_notification_off(struct anonymous$3 *connection, enum anonymo
 
 // spd_set_notification_on
 // file libspeechd.c line 1080
-signed int spd_set_notification_on(struct anonymous$3 *connection, enum anonymous$2 notification)
+signed int spd_set_notification_on(struct anonymous_3 *connection, enum anonymous_2 notification)
 {
-  signed int return_value_spd_set_notification$1;
+  signed int return_value_spd_set_notification_1;
   if((signed int)connection->mode == SPD_MODE_THREADED)
   {
-    return_value_spd_set_notification$1=spd_set_notification(connection, notification, "on");
-    return return_value_spd_set_notification$1;
+    return_value_spd_set_notification_1=spd_set_notification(connection, notification, "on");
+    return return_value_spd_set_notification_1;
   }
 
   else
@@ -3004,36 +3004,36 @@ signed int spd_set_notification_on(struct anonymous$3 *connection, enum anonymou
 
 // spd_set_output_module
 // file ../../src/api/c/libspeechd.h line 207
-signed int spd_set_output_module(struct anonymous$3 *connection, const char *str)
+signed int spd_set_output_module(struct anonymous_3 *connection, const char *str)
 {
-  signed int return_value_spd_w_set_output_module$1;
-  return_value_spd_w_set_output_module$1=spd_w_set_output_module(connection, str, "SELF");
-  return return_value_spd_w_set_output_module$1;
+  signed int return_value_spd_w_set_output_module_1;
+  return_value_spd_w_set_output_module_1=spd_w_set_output_module(connection, str, "SELF");
+  return return_value_spd_w_set_output_module_1;
 }
 
 // spd_set_output_module_all
 // file libspeechd.c line 1068
-signed int spd_set_output_module_all(struct anonymous$3 *connection, const char *str)
+signed int spd_set_output_module_all(struct anonymous_3 *connection, const char *str)
 {
-  signed int return_value_spd_w_set_output_module$1;
-  return_value_spd_w_set_output_module$1=spd_w_set_output_module(connection, str, "ALL");
-  return return_value_spd_w_set_output_module$1;
+  signed int return_value_spd_w_set_output_module_1;
+  return_value_spd_w_set_output_module_1=spd_w_set_output_module(connection, str, "ALL");
+  return return_value_spd_w_set_output_module_1;
 }
 
 // spd_set_output_module_uid
 // file libspeechd.c line 1068
-signed int spd_set_output_module_uid(struct anonymous$3 *connection, const char *str, unsigned int uid)
+signed int spd_set_output_module_uid(struct anonymous_3 *connection, const char *str, unsigned int uid)
 {
   char who[8l];
   sprintf(who, "%d", uid);
-  signed int return_value_spd_w_set_output_module$1;
-  return_value_spd_w_set_output_module$1=spd_w_set_output_module(connection, str, who);
-  return return_value_spd_w_set_output_module$1;
+  signed int return_value_spd_w_set_output_module_1;
+  return_value_spd_w_set_output_module_1=spd_w_set_output_module(connection, str, who);
+  return return_value_spd_w_set_output_module_1;
 }
 
 // spd_set_priority
 // file libspeechd.c line 1430
-static signed int spd_set_priority(struct anonymous$3 *connection, enum anonymous$11 priority)
+static signed int spd_set_priority(struct anonymous_3 *connection, enum anonymous_11 priority)
 {
   static char p_name[16l];
   switch((signed int)priority)
@@ -3071,217 +3071,217 @@ static signed int spd_set_priority(struct anonymous$3 *connection, enum anonymou
   }
   static char command[64l];
   sprintf(command, "SET SELF PRIORITY %s", (const void *)p_name);
-  signed int return_value_spd_execute_command_wo_mutex$1;
-  return_value_spd_execute_command_wo_mutex$1=spd_execute_command_wo_mutex(connection, command);
-  return return_value_spd_execute_command_wo_mutex$1;
+  signed int return_value_spd_execute_command_wo_mutex_1;
+  return_value_spd_execute_command_wo_mutex_1=spd_execute_command_wo_mutex(connection, command);
+  return return_value_spd_execute_command_wo_mutex_1;
 }
 
 // spd_set_punctuation
 // file libspeechd.c line 1071
-signed int spd_set_punctuation(struct anonymous$3 *connection, enum anonymous$10 val)
+signed int spd_set_punctuation(struct anonymous_3 *connection, enum anonymous_10 val)
 {
-  signed int return_value_spd_w_set_punctuation$1;
-  return_value_spd_w_set_punctuation$1=spd_w_set_punctuation(connection, val, "SELF");
-  return return_value_spd_w_set_punctuation$1;
+  signed int return_value_spd_w_set_punctuation_1;
+  return_value_spd_w_set_punctuation_1=spd_w_set_punctuation(connection, val, "SELF");
+  return return_value_spd_w_set_punctuation_1;
 }
 
 // spd_set_punctuation_all
 // file libspeechd.c line 1071
-signed int spd_set_punctuation_all(struct anonymous$3 *connection, enum anonymous$10 val)
+signed int spd_set_punctuation_all(struct anonymous_3 *connection, enum anonymous_10 val)
 {
-  signed int return_value_spd_w_set_punctuation$1;
-  return_value_spd_w_set_punctuation$1=spd_w_set_punctuation(connection, val, "ALL");
-  return return_value_spd_w_set_punctuation$1;
+  signed int return_value_spd_w_set_punctuation_1;
+  return_value_spd_w_set_punctuation_1=spd_w_set_punctuation(connection, val, "ALL");
+  return return_value_spd_w_set_punctuation_1;
 }
 
 // spd_set_punctuation_uid
 // file libspeechd.c line 1071
-signed int spd_set_punctuation_uid(struct anonymous$3 *connection, enum anonymous$10 val, unsigned int uid)
+signed int spd_set_punctuation_uid(struct anonymous_3 *connection, enum anonymous_10 val, unsigned int uid)
 {
   char who[8l];
   sprintf(who, "%d", uid);
-  signed int return_value_spd_w_set_punctuation$1;
-  return_value_spd_w_set_punctuation$1=spd_w_set_punctuation(connection, val, who);
-  return return_value_spd_w_set_punctuation$1;
+  signed int return_value_spd_w_set_punctuation_1;
+  return_value_spd_w_set_punctuation_1=spd_w_set_punctuation(connection, val, who);
+  return return_value_spd_w_set_punctuation_1;
 }
 
 // spd_set_spelling
 // file libspeechd.c line 1073
-signed int spd_set_spelling(struct anonymous$3 *connection, enum anonymous$5 val)
+signed int spd_set_spelling(struct anonymous_3 *connection, enum anonymous_5 val)
 {
-  signed int return_value_spd_w_set_spelling$1;
-  return_value_spd_w_set_spelling$1=spd_w_set_spelling(connection, val, "SELF");
-  return return_value_spd_w_set_spelling$1;
+  signed int return_value_spd_w_set_spelling_1;
+  return_value_spd_w_set_spelling_1=spd_w_set_spelling(connection, val, "SELF");
+  return return_value_spd_w_set_spelling_1;
 }
 
 // spd_set_spelling_all
 // file libspeechd.c line 1073
-signed int spd_set_spelling_all(struct anonymous$3 *connection, enum anonymous$5 val)
+signed int spd_set_spelling_all(struct anonymous_3 *connection, enum anonymous_5 val)
 {
-  signed int return_value_spd_w_set_spelling$1;
-  return_value_spd_w_set_spelling$1=spd_w_set_spelling(connection, val, "ALL");
-  return return_value_spd_w_set_spelling$1;
+  signed int return_value_spd_w_set_spelling_1;
+  return_value_spd_w_set_spelling_1=spd_w_set_spelling(connection, val, "ALL");
+  return return_value_spd_w_set_spelling_1;
 }
 
 // spd_set_spelling_uid
 // file libspeechd.c line 1073
-signed int spd_set_spelling_uid(struct anonymous$3 *connection, enum anonymous$5 val, unsigned int uid)
+signed int spd_set_spelling_uid(struct anonymous_3 *connection, enum anonymous_5 val, unsigned int uid)
 {
   char who[8l];
   sprintf(who, "%d", uid);
-  signed int return_value_spd_w_set_spelling$1;
-  return_value_spd_w_set_spelling$1=spd_w_set_spelling(connection, val, who);
-  return return_value_spd_w_set_spelling$1;
+  signed int return_value_spd_w_set_spelling_1;
+  return_value_spd_w_set_spelling_1=spd_w_set_spelling(connection, val, who);
+  return return_value_spd_w_set_spelling_1;
 }
 
 // spd_set_synthesis_voice
 // file ../../src/api/c/libspeechd.h line 157
-signed int spd_set_synthesis_voice(struct anonymous$3 *connection, const char *str)
+signed int spd_set_synthesis_voice(struct anonymous_3 *connection, const char *str)
 {
-  signed int return_value_spd_w_set_synthesis_voice$1;
-  return_value_spd_w_set_synthesis_voice$1=spd_w_set_synthesis_voice(connection, str, "SELF");
-  return return_value_spd_w_set_synthesis_voice$1;
+  signed int return_value_spd_w_set_synthesis_voice_1;
+  return_value_spd_w_set_synthesis_voice_1=spd_w_set_synthesis_voice(connection, str, "SELF");
+  return return_value_spd_w_set_synthesis_voice_1;
 }
 
 // spd_set_synthesis_voice_all
 // file libspeechd.c line 1069
-signed int spd_set_synthesis_voice_all(struct anonymous$3 *connection, const char *str)
+signed int spd_set_synthesis_voice_all(struct anonymous_3 *connection, const char *str)
 {
-  signed int return_value_spd_w_set_synthesis_voice$1;
-  return_value_spd_w_set_synthesis_voice$1=spd_w_set_synthesis_voice(connection, str, "ALL");
-  return return_value_spd_w_set_synthesis_voice$1;
+  signed int return_value_spd_w_set_synthesis_voice_1;
+  return_value_spd_w_set_synthesis_voice_1=spd_w_set_synthesis_voice(connection, str, "ALL");
+  return return_value_spd_w_set_synthesis_voice_1;
 }
 
 // spd_set_synthesis_voice_uid
 // file libspeechd.c line 1069
-signed int spd_set_synthesis_voice_uid(struct anonymous$3 *connection, const char *str, unsigned int uid)
+signed int spd_set_synthesis_voice_uid(struct anonymous_3 *connection, const char *str, unsigned int uid)
 {
   char who[8l];
   sprintf(who, "%d", uid);
-  signed int return_value_spd_w_set_synthesis_voice$1;
-  return_value_spd_w_set_synthesis_voice$1=spd_w_set_synthesis_voice(connection, str, who);
-  return return_value_spd_w_set_synthesis_voice$1;
+  signed int return_value_spd_w_set_synthesis_voice_1;
+  return_value_spd_w_set_synthesis_voice_1=spd_w_set_synthesis_voice(connection, str, who);
+  return return_value_spd_w_set_synthesis_voice_1;
 }
 
 // spd_set_voice_pitch
 // file libspeechd.c line 1064
-signed int spd_set_voice_pitch(struct anonymous$3 *connection, signed int val)
+signed int spd_set_voice_pitch(struct anonymous_3 *connection, signed int val)
 {
-  signed int return_value_spd_w_set_voice_pitch$1;
-  return_value_spd_w_set_voice_pitch$1=spd_w_set_voice_pitch(connection, val, "SELF");
-  return return_value_spd_w_set_voice_pitch$1;
+  signed int return_value_spd_w_set_voice_pitch_1;
+  return_value_spd_w_set_voice_pitch_1=spd_w_set_voice_pitch(connection, val, "SELF");
+  return return_value_spd_w_set_voice_pitch_1;
 }
 
 // spd_set_voice_pitch_all
 // file libspeechd.c line 1064
-signed int spd_set_voice_pitch_all(struct anonymous$3 *connection, signed int val)
+signed int spd_set_voice_pitch_all(struct anonymous_3 *connection, signed int val)
 {
-  signed int return_value_spd_w_set_voice_pitch$1;
-  return_value_spd_w_set_voice_pitch$1=spd_w_set_voice_pitch(connection, val, "ALL");
-  return return_value_spd_w_set_voice_pitch$1;
+  signed int return_value_spd_w_set_voice_pitch_1;
+  return_value_spd_w_set_voice_pitch_1=spd_w_set_voice_pitch(connection, val, "ALL");
+  return return_value_spd_w_set_voice_pitch_1;
 }
 
 // spd_set_voice_pitch_uid
 // file libspeechd.c line 1064
-signed int spd_set_voice_pitch_uid(struct anonymous$3 *connection, signed int val, unsigned int uid)
+signed int spd_set_voice_pitch_uid(struct anonymous_3 *connection, signed int val, unsigned int uid)
 {
   char who[8l];
   sprintf(who, "%d", uid);
-  signed int return_value_spd_w_set_voice_pitch$1;
-  return_value_spd_w_set_voice_pitch$1=spd_w_set_voice_pitch(connection, val, who);
-  return return_value_spd_w_set_voice_pitch$1;
+  signed int return_value_spd_w_set_voice_pitch_1;
+  return_value_spd_w_set_voice_pitch_1=spd_w_set_voice_pitch(connection, val, who);
+  return return_value_spd_w_set_voice_pitch_1;
 }
 
 // spd_set_voice_rate
 // file libspeechd.c line 1063
-signed int spd_set_voice_rate(struct anonymous$3 *connection, signed int val)
+signed int spd_set_voice_rate(struct anonymous_3 *connection, signed int val)
 {
-  signed int return_value_spd_w_set_voice_rate$1;
-  return_value_spd_w_set_voice_rate$1=spd_w_set_voice_rate(connection, val, "SELF");
-  return return_value_spd_w_set_voice_rate$1;
+  signed int return_value_spd_w_set_voice_rate_1;
+  return_value_spd_w_set_voice_rate_1=spd_w_set_voice_rate(connection, val, "SELF");
+  return return_value_spd_w_set_voice_rate_1;
 }
 
 // spd_set_voice_rate_all
 // file libspeechd.c line 1063
-signed int spd_set_voice_rate_all(struct anonymous$3 *connection, signed int val)
+signed int spd_set_voice_rate_all(struct anonymous_3 *connection, signed int val)
 {
-  signed int return_value_spd_w_set_voice_rate$1;
-  return_value_spd_w_set_voice_rate$1=spd_w_set_voice_rate(connection, val, "ALL");
-  return return_value_spd_w_set_voice_rate$1;
+  signed int return_value_spd_w_set_voice_rate_1;
+  return_value_spd_w_set_voice_rate_1=spd_w_set_voice_rate(connection, val, "ALL");
+  return return_value_spd_w_set_voice_rate_1;
 }
 
 // spd_set_voice_rate_uid
 // file libspeechd.c line 1063
-signed int spd_set_voice_rate_uid(struct anonymous$3 *connection, signed int val, unsigned int uid)
+signed int spd_set_voice_rate_uid(struct anonymous_3 *connection, signed int val, unsigned int uid)
 {
   char who[8l];
   sprintf(who, "%d", uid);
-  signed int return_value_spd_w_set_voice_rate$1;
-  return_value_spd_w_set_voice_rate$1=spd_w_set_voice_rate(connection, val, who);
-  return return_value_spd_w_set_voice_rate$1;
+  signed int return_value_spd_w_set_voice_rate_1;
+  return_value_spd_w_set_voice_rate_1=spd_w_set_voice_rate(connection, val, who);
+  return return_value_spd_w_set_voice_rate_1;
 }
 
 // spd_set_voice_type
 // file libspeechd.c line 1074
-signed int spd_set_voice_type(struct anonymous$3 *connection, enum anonymous$7 val)
+signed int spd_set_voice_type(struct anonymous_3 *connection, enum anonymous_7 val)
 {
-  signed int return_value_spd_w_set_voice_type$1;
-  return_value_spd_w_set_voice_type$1=spd_w_set_voice_type(connection, val, "SELF");
-  return return_value_spd_w_set_voice_type$1;
+  signed int return_value_spd_w_set_voice_type_1;
+  return_value_spd_w_set_voice_type_1=spd_w_set_voice_type(connection, val, "SELF");
+  return return_value_spd_w_set_voice_type_1;
 }
 
 // spd_set_voice_type_all
 // file libspeechd.c line 1074
-signed int spd_set_voice_type_all(struct anonymous$3 *connection, enum anonymous$7 val)
+signed int spd_set_voice_type_all(struct anonymous_3 *connection, enum anonymous_7 val)
 {
-  signed int return_value_spd_w_set_voice_type$1;
-  return_value_spd_w_set_voice_type$1=spd_w_set_voice_type(connection, val, "ALL");
-  return return_value_spd_w_set_voice_type$1;
+  signed int return_value_spd_w_set_voice_type_1;
+  return_value_spd_w_set_voice_type_1=spd_w_set_voice_type(connection, val, "ALL");
+  return return_value_spd_w_set_voice_type_1;
 }
 
 // spd_set_voice_type_uid
 // file libspeechd.c line 1074
-signed int spd_set_voice_type_uid(struct anonymous$3 *connection, enum anonymous$7 val, unsigned int uid)
+signed int spd_set_voice_type_uid(struct anonymous_3 *connection, enum anonymous_7 val, unsigned int uid)
 {
   char who[8l];
   sprintf(who, "%d", uid);
-  signed int return_value_spd_w_set_voice_type$1;
-  return_value_spd_w_set_voice_type$1=spd_w_set_voice_type(connection, val, who);
-  return return_value_spd_w_set_voice_type$1;
+  signed int return_value_spd_w_set_voice_type_1;
+  return_value_spd_w_set_voice_type_1=spd_w_set_voice_type(connection, val, who);
+  return return_value_spd_w_set_voice_type_1;
 }
 
 // spd_set_volume
 // file libspeechd.c line 1065
-signed int spd_set_volume(struct anonymous$3 *connection, signed int val)
+signed int spd_set_volume(struct anonymous_3 *connection, signed int val)
 {
-  signed int return_value_spd_w_set_volume$1;
-  return_value_spd_w_set_volume$1=spd_w_set_volume(connection, val, "SELF");
-  return return_value_spd_w_set_volume$1;
+  signed int return_value_spd_w_set_volume_1;
+  return_value_spd_w_set_volume_1=spd_w_set_volume(connection, val, "SELF");
+  return return_value_spd_w_set_volume_1;
 }
 
 // spd_set_volume_all
 // file libspeechd.c line 1065
-signed int spd_set_volume_all(struct anonymous$3 *connection, signed int val)
+signed int spd_set_volume_all(struct anonymous_3 *connection, signed int val)
 {
-  signed int return_value_spd_w_set_volume$1;
-  return_value_spd_w_set_volume$1=spd_w_set_volume(connection, val, "ALL");
-  return return_value_spd_w_set_volume$1;
+  signed int return_value_spd_w_set_volume_1;
+  return_value_spd_w_set_volume_1=spd_w_set_volume(connection, val, "ALL");
+  return return_value_spd_w_set_volume_1;
 }
 
 // spd_set_volume_uid
 // file libspeechd.c line 1065
-signed int spd_set_volume_uid(struct anonymous$3 *connection, signed int val, unsigned int uid)
+signed int spd_set_volume_uid(struct anonymous_3 *connection, signed int val, unsigned int uid)
 {
   char who[8l];
   sprintf(who, "%d", uid);
-  signed int return_value_spd_w_set_volume$1;
-  return_value_spd_w_set_volume$1=spd_w_set_volume(connection, val, who);
-  return return_value_spd_w_set_volume$1;
+  signed int return_value_spd_w_set_volume_1;
+  return_value_spd_w_set_volume_1=spd_w_set_volume(connection, val, who);
+  return return_value_spd_w_set_volume_1;
 }
 
 // spd_sound_icon
 // file libspeechd.c line 852
-signed int spd_sound_icon(struct anonymous$3 *connection, enum anonymous$11 priority, const char *icon_name)
+signed int spd_sound_icon(struct anonymous_3 *connection, enum anonymous_11 priority, const char *icon_name)
 {
   char *command;
   signed int ret;
@@ -3320,36 +3320,36 @@ signed int spd_sound_icon(struct anonymous$3 *connection, enum anonymous$11 prio
 
 // spd_stop
 // file libspeechd.c line 697
-signed int spd_stop(struct anonymous$3 *connection)
+signed int spd_stop(struct anonymous_3 *connection)
 {
-  signed int return_value_spd_execute_command$1;
-  return_value_spd_execute_command$1=spd_execute_command(connection, "STOP SELF");
-  return return_value_spd_execute_command$1;
+  signed int return_value_spd_execute_command_1;
+  return_value_spd_execute_command_1=spd_execute_command(connection, "STOP SELF");
+  return return_value_spd_execute_command_1;
 }
 
 // spd_stop_all
 // file libspeechd.c line 702
-signed int spd_stop_all(struct anonymous$3 *connection)
+signed int spd_stop_all(struct anonymous_3 *connection)
 {
-  signed int return_value_spd_execute_command$1;
-  return_value_spd_execute_command$1=spd_execute_command(connection, "STOP ALL");
-  return return_value_spd_execute_command$1;
+  signed int return_value_spd_execute_command_1;
+  return_value_spd_execute_command_1=spd_execute_command(connection, "STOP ALL");
+  return return_value_spd_execute_command_1;
 }
 
 // spd_stop_uid
 // file libspeechd.c line 707
-signed int spd_stop_uid(struct anonymous$3 *connection, signed int target_uid)
+signed int spd_stop_uid(struct anonymous_3 *connection, signed int target_uid)
 {
   static char command[16l];
   sprintf(command, "STOP %d", target_uid);
-  signed int return_value_spd_execute_command$1;
-  return_value_spd_execute_command$1=spd_execute_command(connection, command);
-  return return_value_spd_execute_command$1;
+  signed int return_value_spd_execute_command_1;
+  return_value_spd_execute_command_1=spd_execute_command(connection, command);
+  return return_value_spd_execute_command_1;
 }
 
 // spd_w_set_capital_letters
 // file libspeechd.c line 898
-signed int spd_w_set_capital_letters(struct anonymous$3 *connection, enum anonymous$15 type, const char *who)
+signed int spd_w_set_capital_letters(struct anonymous_3 *connection, enum anonymous_15 type, const char *who)
 {
   char command[64l];
   signed int ret;
@@ -3368,7 +3368,7 @@ signed int spd_w_set_capital_letters(struct anonymous$3 *connection, enum anonym
 
 // spd_w_set_language
 // file libspeechd.c line 1067
-signed int spd_w_set_language(struct anonymous$3 *connection, const char *str, const char *who)
+signed int spd_w_set_language(struct anonymous_3 *connection, const char *str, const char *who)
 {
   char *command;
   signed int ret;
@@ -3386,7 +3386,7 @@ signed int spd_w_set_language(struct anonymous$3 *connection, const char *str, c
 
 // spd_w_set_output_module
 // file libspeechd.c line 1068
-signed int spd_w_set_output_module(struct anonymous$3 *connection, const char *str, const char *who)
+signed int spd_w_set_output_module(struct anonymous_3 *connection, const char *str, const char *who)
 {
   char *command;
   signed int ret;
@@ -3404,7 +3404,7 @@ signed int spd_w_set_output_module(struct anonymous$3 *connection, const char *s
 
 // spd_w_set_punctuation
 // file libspeechd.c line 879
-signed int spd_w_set_punctuation(struct anonymous$3 *connection, enum anonymous$10 type, const char *who)
+signed int spd_w_set_punctuation(struct anonymous_3 *connection, enum anonymous_10 type, const char *who)
 {
   char command[32l];
   signed int ret;
@@ -3423,7 +3423,7 @@ signed int spd_w_set_punctuation(struct anonymous$3 *connection, enum anonymous$
 
 // spd_w_set_spelling
 // file libspeechd.c line 917
-signed int spd_w_set_spelling(struct anonymous$3 *connection, enum anonymous$5 type, const char *who)
+signed int spd_w_set_spelling(struct anonymous_3 *connection, enum anonymous_5 type, const char *who)
 {
   char command[32l];
   signed int ret;
@@ -3439,7 +3439,7 @@ signed int spd_w_set_spelling(struct anonymous$3 *connection, enum anonymous$5 t
 
 // spd_w_set_synthesis_voice
 // file libspeechd.c line 1069
-signed int spd_w_set_synthesis_voice(struct anonymous$3 *connection, const char *str, const char *who)
+signed int spd_w_set_synthesis_voice(struct anonymous_3 *connection, const char *str, const char *who)
 {
   char *command;
   signed int ret;
@@ -3457,7 +3457,7 @@ signed int spd_w_set_synthesis_voice(struct anonymous$3 *connection, const char 
 
 // spd_w_set_voice_pitch
 // file libspeechd.c line 1064
-signed int spd_w_set_voice_pitch(struct anonymous$3 *connection, signed int val, const char *who)
+signed int spd_w_set_voice_pitch(struct anonymous_3 *connection, signed int val, const char *who)
 {
   if(!(val >= -100) || val >= 101)
     return -1;
@@ -3466,15 +3466,15 @@ signed int spd_w_set_voice_pitch(struct anonymous$3 *connection, signed int val,
   {
     static char command[64l];
     sprintf(command, "SET %s PITCH %d", who, val);
-    signed int return_value_spd_execute_command$1;
-    return_value_spd_execute_command$1=spd_execute_command(connection, command);
-    return return_value_spd_execute_command$1;
+    signed int return_value_spd_execute_command_1;
+    return_value_spd_execute_command_1=spd_execute_command(connection, command);
+    return return_value_spd_execute_command_1;
   }
 }
 
 // spd_w_set_voice_rate
 // file libspeechd.c line 1063
-signed int spd_w_set_voice_rate(struct anonymous$3 *connection, signed int val, const char *who)
+signed int spd_w_set_voice_rate(struct anonymous_3 *connection, signed int val, const char *who)
 {
   if(!(val >= -100) || val >= 101)
     return -1;
@@ -3483,15 +3483,15 @@ signed int spd_w_set_voice_rate(struct anonymous$3 *connection, signed int val, 
   {
     static char command[64l];
     sprintf(command, "SET %s RATE %d", who, val);
-    signed int return_value_spd_execute_command$1;
-    return_value_spd_execute_command$1=spd_execute_command(connection, command);
-    return return_value_spd_execute_command$1;
+    signed int return_value_spd_execute_command_1;
+    return_value_spd_execute_command_1=spd_execute_command(connection, command);
+    return return_value_spd_execute_command_1;
   }
 }
 
 // spd_w_set_voice_type
 // file libspeechd.c line 949
-signed int spd_w_set_voice_type(struct anonymous$3 *connection, enum anonymous$7 type, const char *who)
+signed int spd_w_set_voice_type(struct anonymous_3 *connection, enum anonymous_7 type, const char *who)
 {
   static char command[64l];
   switch((signed int)type)
@@ -3539,14 +3539,14 @@ signed int spd_w_set_voice_type(struct anonymous$3 *connection, enum anonymous$7
     default:
       return -1;
   }
-  signed int return_value_spd_execute_command$1;
-  return_value_spd_execute_command$1=spd_execute_command(connection, command);
-  return return_value_spd_execute_command$1;
+  signed int return_value_spd_execute_command_1;
+  return_value_spd_execute_command_1=spd_execute_command(connection, command);
+  return return_value_spd_execute_command_1;
 }
 
 // spd_w_set_volume
 // file libspeechd.c line 1065
-signed int spd_w_set_volume(struct anonymous$3 *connection, signed int val, const char *who)
+signed int spd_w_set_volume(struct anonymous_3 *connection, signed int val, const char *who)
 {
   if(!(val >= -100) || val >= 101)
     return -1;
@@ -3555,22 +3555,22 @@ signed int spd_w_set_volume(struct anonymous$3 *connection, signed int val, cons
   {
     static char command[64l];
     sprintf(command, "SET %s VOLUME %d", who, val);
-    signed int return_value_spd_execute_command$1;
-    return_value_spd_execute_command$1=spd_execute_command(connection, command);
-    return return_value_spd_execute_command$1;
+    signed int return_value_spd_execute_command_1;
+    return_value_spd_execute_command_1=spd_execute_command(connection, command);
+    return return_value_spd_execute_command_1;
   }
 }
 
 // spd_wchar
 // file libspeechd.c line 824
-signed int spd_wchar(struct anonymous$3 *connection, enum anonymous$11 priority, signed int wcharacter)
+signed int spd_wchar(struct anonymous_3 *connection, enum anonymous_11 priority, signed int wcharacter)
 {
   char character[8l];
   signed int ret;
   pthread_mutex_lock(connection->ssip_mutex);
-  unsigned long int return_value_wcrtomb$1;
-  return_value_wcrtomb$1=wcrtomb(character, wcharacter, (struct anonymous$13 *)(void *)0);
-  ret = (signed int)return_value_wcrtomb$1;
+  unsigned long int return_value_wcrtomb_1;
+  return_value_wcrtomb_1=wcrtomb(character, wcharacter, (struct anonymous_13 *)(void *)0);
+  ret = (signed int)return_value_wcrtomb_1;
   if(!(ret >= 1))
   {
     pthread_mutex_unlock(connection->ssip_mutex);

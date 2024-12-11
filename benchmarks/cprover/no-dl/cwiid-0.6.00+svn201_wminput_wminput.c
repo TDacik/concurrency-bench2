@@ -1,58 +1,58 @@
-// tag-#anon#ST[*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_add'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_subtract'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_multiply'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_divide'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_remainder'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_divmod'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_power'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_negative'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_positive'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_absolute'||*{S32(*{SYM#tag-_object#}$SYM#tag-_object#$)->S32}$S32(*{SYM#tag-_object#}$SYM#tag-_object#$)->S32$'nb_nonzero'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_invert'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_lshift'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_rshift'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_and'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_xor'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_or'||*{S32(*{*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$$|*{*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$$)->S32}$S32(*{*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$$|*{*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$$)->S32$'nb_coerce'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_int'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_long'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_float'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_oct'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_hex'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_inplace_add'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_inplace_subtract'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_inplace_multiply'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_inplace_divide'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_inplace_remainder'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_inplace_power'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_inplace_lshift'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_inplace_rshift'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_inplace_and'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_inplace_xor'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_inplace_or'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_floor_divide'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_true_divide'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_inplace_floor_divide'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_inplace_true_divide'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'nb_index'|]
+// tag-#anon#ST[*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_add'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_subtract'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_multiply'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_divide'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_remainder'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_divmod'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_power'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_negative'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_positive'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_absolute'||*{S32(*{SYM#tag-_object#}_SYM#tag-_object#_)->S32}_S32(*{SYM#tag-_object#}_SYM#tag-_object#_)->S32_'nb_nonzero'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_invert'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_lshift'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_rshift'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_and'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_xor'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_or'||*{S32(*{*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#__|*{*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#__)->S32}_S32(*{*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#__|*{*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#__)->S32_'nb_coerce'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_int'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_long'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_float'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_oct'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_hex'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_inplace_add'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_inplace_subtract'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_inplace_multiply'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_inplace_divide'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_inplace_remainder'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_inplace_power'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_inplace_lshift'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_inplace_rshift'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_inplace_and'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_inplace_xor'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_inplace_or'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_floor_divide'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_true_divide'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_inplace_floor_divide'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_inplace_true_divide'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'nb_index'|]
 // file /usr/include/python2.7/object.h line 219
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[*{S64(*{SYM#tag-_object#}$SYM#tag-_object#$)->S64}$S64(*{SYM#tag-_object#}$SYM#tag-_object#$)->S64$'mp_length'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'mp_subscript'||*{S32(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->S32}$S32(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->S32$'mp_ass_subscript'|]
+// tag-#anon#ST[*{S64(*{SYM#tag-_object#}_SYM#tag-_object#_)->S64}_S64(*{SYM#tag-_object#}_SYM#tag-_object#_)->S64_'mp_length'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'mp_subscript'||*{S32(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->S32}_S32(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->S32_'mp_ass_subscript'|]
 // file /usr/include/python2.7/object.h line 289
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[*{S64(*{SYM#tag-_object#}$SYM#tag-_object#$)->S64}$S64(*{SYM#tag-_object#}$SYM#tag-_object#$)->S64$'sq_length'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'sq_concat'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|S64)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|S64)->*{SYM#tag-_object#}$SYM#tag-_object#$$'sq_repeat'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|S64)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|S64)->*{SYM#tag-_object#}$SYM#tag-_object#$$'sq_item'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|S64|S64)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|S64|S64)->*{SYM#tag-_object#}$SYM#tag-_object#$$'sq_slice'||*{S32(*{SYM#tag-_object#}$SYM#tag-_object#$|S64|*{SYM#tag-_object#}$SYM#tag-_object#$)->S32}$S32(*{SYM#tag-_object#}$SYM#tag-_object#$|S64|*{SYM#tag-_object#}$SYM#tag-_object#$)->S32$'sq_ass_item'||*{S32(*{SYM#tag-_object#}$SYM#tag-_object#$|S64|S64|*{SYM#tag-_object#}$SYM#tag-_object#$)->S32}$S32(*{SYM#tag-_object#}$SYM#tag-_object#$|S64|S64|*{SYM#tag-_object#}$SYM#tag-_object#$)->S32$'sq_ass_slice'||*{S32(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->S32}$S32(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->S32$'sq_contains'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-_object#}$SYM#tag-_object#$)->*{SYM#tag-_object#}$SYM#tag-_object#$$'sq_inplace_concat'||*{*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|S64)->*{SYM#tag-_object#}$SYM#tag-_object#$}$*{SYM#tag-_object#}$SYM#tag-_object#$(*{SYM#tag-_object#}$SYM#tag-_object#$|S64)->*{SYM#tag-_object#}$SYM#tag-_object#$$'sq_inplace_repeat'|]
+// tag-#anon#ST[*{S64(*{SYM#tag-_object#}_SYM#tag-_object#_)->S64}_S64(*{SYM#tag-_object#}_SYM#tag-_object#_)->S64_'sq_length'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'sq_concat'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|S64)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|S64)->*{SYM#tag-_object#}_SYM#tag-_object#__'sq_repeat'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|S64)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|S64)->*{SYM#tag-_object#}_SYM#tag-_object#__'sq_item'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|S64|S64)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|S64|S64)->*{SYM#tag-_object#}_SYM#tag-_object#__'sq_slice'||*{S32(*{SYM#tag-_object#}_SYM#tag-_object#_|S64|*{SYM#tag-_object#}_SYM#tag-_object#_)->S32}_S32(*{SYM#tag-_object#}_SYM#tag-_object#_|S64|*{SYM#tag-_object#}_SYM#tag-_object#_)->S32_'sq_ass_item'||*{S32(*{SYM#tag-_object#}_SYM#tag-_object#_|S64|S64|*{SYM#tag-_object#}_SYM#tag-_object#_)->S32}_S32(*{SYM#tag-_object#}_SYM#tag-_object#_|S64|S64|*{SYM#tag-_object#}_SYM#tag-_object#_)->S32_'sq_ass_slice'||*{S32(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->S32}_S32(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->S32_'sq_contains'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-_object#}_SYM#tag-_object#_)->*{SYM#tag-_object#}_SYM#tag-_object#__'sq_inplace_concat'||*{*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|S64)->*{SYM#tag-_object#}_SYM#tag-_object#_}_*{SYM#tag-_object#}_SYM#tag-_object#_(*{SYM#tag-_object#}_SYM#tag-_object#_|S64)->*{SYM#tag-_object#}_SYM#tag-_object#__'sq_inplace_repeat'|]
 // file /usr/include/python2.7/object.h line 275
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[*{S64(*{SYM#tag-_object#}$SYM#tag-_object#$|S64|*{*{V}$V$}$*{V}$V$$)->S64}$S64(*{SYM#tag-_object#}$SYM#tag-_object#$|S64|*{*{V}$V$}$*{V}$V$$)->S64$'bf_getreadbuffer'||*{S64(*{SYM#tag-_object#}$SYM#tag-_object#$|S64|*{*{V}$V$}$*{V}$V$$)->S64}$S64(*{SYM#tag-_object#}$SYM#tag-_object#$|S64|*{*{V}$V$}$*{V}$V$$)->S64$'bf_getwritebuffer'||*{S64(*{SYM#tag-_object#}$SYM#tag-_object#$|*{S64}$S64$)->S64}$S64(*{SYM#tag-_object#}$SYM#tag-_object#$|*{S64}$S64$)->S64$'bf_getsegcount'||*{S64(*{SYM#tag-_object#}$SYM#tag-_object#$|S64|*{*{S8}$S8$}$*{S8}$S8$$)->S64}$S64(*{SYM#tag-_object#}$SYM#tag-_object#$|S64|*{*{S8}$S8$}$*{S8}$S8$$)->S64$'bf_getcharbuffer'||*{S32(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-bufferinfo#}$SYM#tag-bufferinfo#$|S32)->S32}$S32(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-bufferinfo#}$SYM#tag-bufferinfo#$|S32)->S32$'bf_getbuffer'||*{V(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-bufferinfo#}$SYM#tag-bufferinfo#$)->V}$V(*{SYM#tag-_object#}$SYM#tag-_object#$|*{SYM#tag-bufferinfo#}$SYM#tag-bufferinfo#$)->V$'bf_releasebuffer'|]
+// tag-#anon#ST[*{S64(*{SYM#tag-_object#}_SYM#tag-_object#_|S64|*{*{V}_V_}_*{V}_V__)->S64}_S64(*{SYM#tag-_object#}_SYM#tag-_object#_|S64|*{*{V}_V_}_*{V}_V__)->S64_'bf_getreadbuffer'||*{S64(*{SYM#tag-_object#}_SYM#tag-_object#_|S64|*{*{V}_V_}_*{V}_V__)->S64}_S64(*{SYM#tag-_object#}_SYM#tag-_object#_|S64|*{*{V}_V_}_*{V}_V__)->S64_'bf_getwritebuffer'||*{S64(*{SYM#tag-_object#}_SYM#tag-_object#_|*{S64}_S64_)->S64}_S64(*{SYM#tag-_object#}_SYM#tag-_object#_|*{S64}_S64_)->S64_'bf_getsegcount'||*{S64(*{SYM#tag-_object#}_SYM#tag-_object#_|S64|*{*{S8}_S8_}_*{S8}_S8__)->S64}_S64(*{SYM#tag-_object#}_SYM#tag-_object#_|S64|*{*{S8}_S8_}_*{S8}_S8__)->S64_'bf_getcharbuffer'||*{S32(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-bufferinfo#}_SYM#tag-bufferinfo#_|S32)->S32}_S32(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-bufferinfo#}_SYM#tag-bufferinfo#_|S32)->S32_'bf_getbuffer'||*{V(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-bufferinfo#}_SYM#tag-bufferinfo#_)->V}_V(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-bufferinfo#}_SYM#tag-bufferinfo#_)->V_'bf_releasebuffer'|]
 // file /usr/include/python2.7/object.h line 295
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[*{S8}$S8$'name'||S32'value'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'name'||S32'value'||U32'_pad0'|]
 // file py_plugin.c line 72
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
 struct anonymous;
 
-// tag-#anon#ST[ARR6{U8}$U8$'b'|]
+// tag-#anon#ST[ARR6{U8}_U8_'b'|]
 // file /usr/include/bluetooth/bluetooth.h line 300
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[S64'ob_refcnt'||*{SYM#tag-_typeobject#}$SYM#tag-_typeobject#$'ob_type'||S64'ob_ival'|]
+// tag-#anon#ST[S64'ob_refcnt'||*{SYM#tag-_typeobject#}_SYM#tag-_typeobject#_'ob_type'||S64'ob_ival'|]
 // file /usr/include/python2.7/intobject.h line 23
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[ARR6{U8}$U8$'b'|]#'bdaddr'||U8'pscan_rep_mode'||U8'pscan_period_mode'||U8'pscan_mode'||ARR3{U8}$U8$'dev_class'||U16'clock_offset'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[ARR6{U8}_U8_'b'|]#'bdaddr'||U8'pscan_rep_mode'||U8'pscan_period_mode'||U8'pscan_mode'||ARR3{U8}_U8_'dev_class'||U16'clock_offset'|]
 // file /usr/include/bluetooth/hci.h line 1748
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-ff_constant_effect#'constant'||SYM#tag-ff_ramp_effect#'ramp'||SYM#tag-ff_periodic_effect#'periodic'||ARR2{SYM#tag-ff_condition_effect#}$SYM#tag-ff_condition_effect#$'condition'||SYM#tag-ff_rumble_effect#'rumble'|]
+// tag-#anon#UN[SYM#tag-ff_constant_effect#'constant'||SYM#tag-ff_ramp_effect#'ramp'||SYM#tag-ff_periodic_effect#'periodic'||ARR2{SYM#tag-ff_condition_effect#}_SYM#tag-ff_condition_effect#_'condition'||SYM#tag-ff_rumble_effect#'rumble'|]
 // file /usr/include/linux/input.h line 1155
-union anonymous$11;
+union anonymous_11;
 
 // tag-PyGetSetDef
 // file /usr/include/python2.7/object.h line 382
@@ -382,9 +382,9 @@ union yyalloc;
 #define NULL ((void*)0)
 #endif
 
-// ConvertMesgArray$object
+// ConvertMesgArray_object
 //
-struct _object * ConvertMesgArray$object(signed int, union cwiid_mesg *);
+struct _object * ConvertMesgArray_object(signed int, union cwiid_mesg *);
 // PyArg_ParseTuple
 // file /usr/include/python2.7/modsupport.h line 27
 signed int PyArg_ParseTuple(struct _object *, const char *, ...);
@@ -486,16 +486,16 @@ extern double atof(const char *);
 extern signed int atoi(const char *);
 // bacmp
 // file /usr/include/bluetooth/bluetooth.h line 314
-static inline signed int bacmp(const struct anonymous$0 *ba1, const struct anonymous$0 *ba2);
-// bacmp$link1
+static inline signed int bacmp(const struct anonymous_0 *ba1, const struct anonymous_0 *ba2);
+// bacmp_link1
 // file /usr/include/bluetooth/bluetooth.h line 314
-static inline signed int bacmp$link1(const struct anonymous$0 *ba1$link1, const struct anonymous$0 *ba2$link1);
+static inline signed int bacmp_link1(const struct anonymous_0 *ba1_link1, const struct anonymous_0 *ba2_link1);
 // bacpy
 // file /usr/include/bluetooth/bluetooth.h line 318
-static inline void bacpy(struct anonymous$0 *dst, const struct anonymous$0 *src);
-// bacpy$link1
+static inline void bacpy(struct anonymous_0 *dst, const struct anonymous_0 *src);
+// bacpy_link1
 // file /usr/include/bluetooth/bluetooth.h line 318
-static inline void bacpy$link1(struct anonymous$0 *dst$link1, const struct anonymous$0 *src$link1);
+static inline void bacpy_link1(struct anonymous_0 *dst_link1, const struct anonymous_0 *src_link1);
 // c_deinit
 // file c_plugin.h line 31
 void c_deinit(void);
@@ -514,9 +514,9 @@ signed int c_plugin_init(struct plugin *plugin, signed int id);
 // c_plugin_open
 // file c_plugin.h line 32
 signed int c_plugin_open(struct plugin *plugin, char *dir);
-// c_plugin_open::1::info$object
+// c_plugin_open::1::info_object
 //
-struct wmplugin_info * info$object(void);
+struct wmplugin_info * info_object(void);
 // c_plugin_param_float
 // file c_plugin.h line 38
 signed int c_plugin_param_float(struct plugin *plugin, signed int i, float value);
@@ -610,12 +610,12 @@ void cwiid_err_connect(struct wiimote *wiimote, const char *str, void **ap);
 // cwiid_err_default
 // file ../libcwiid/cwiid.h line 355
 void cwiid_err_default(struct wiimote *wiimote, const char *str, void **ap);
-// cwiid_err_func$object
+// cwiid_err_func_object
 //
-void cwiid_err_func$object(struct wiimote *, const char *, void **);
+void cwiid_err_func_object(struct wiimote *, const char *, void **);
 // cwiid_find_wiimote
 // file ../libcwiid/cwiid.h line 399
-signed int cwiid_find_wiimote(struct anonymous$0 *bdaddr, signed int timeout);
+signed int cwiid_find_wiimote(struct anonymous_0 *bdaddr, signed int timeout);
 // cwiid_get_acc_cal
 // file interface.c line 161
 signed int cwiid_get_acc_cal(struct wiimote *wiimote, enum cwiid_ext_type ext_type, struct acc_cal *acc_cal);
@@ -639,10 +639,10 @@ signed int cwiid_get_mesg(struct wiimote *wiimote, signed int *mesg_count, union
 signed int cwiid_get_state(struct wiimote *wiimote, struct cwiid_state *state);
 // cwiid_open
 // file ../libcwiid/cwiid.h line 360
-struct wiimote * cwiid_open(struct anonymous$0 *bdaddr, signed int flags);
+struct wiimote * cwiid_open(struct anonymous_0 *bdaddr, signed int flags);
 // cwiid_open_timeout
 // file connect.c line 73
-struct wiimote * cwiid_open_timeout(struct anonymous$0 *bdaddr, signed int flags, signed int timeout);
+struct wiimote * cwiid_open_timeout(struct anonymous_0 *bdaddr, signed int flags, signed int timeout);
 // cwiid_read
 // file command.c line 157
 signed int cwiid_read(struct wiimote *wiimote, unsigned char flags, unsigned int offset, unsigned short int len, void *data);
@@ -658,18 +658,18 @@ signed int cwiid_set_data(struct wiimote *wiimote, const void *data);
 // cwiid_set_err
 // file ../libcwiid/cwiid.h line 354
 signed int cwiid_set_err(void (*err)(struct wiimote *, const char *, void **));
-// cwiid_set_err::err$object
+// cwiid_set_err::err_object
 //
-void err$object(struct wiimote *, const char *, void **);
+void err_object(struct wiimote *, const char *, void **);
 // cwiid_set_led
 // file command.c line 121
 signed int cwiid_set_led(struct wiimote *wiimote, unsigned char led);
 // cwiid_set_mesg_callback
 // file ../libcwiid/cwiid.h line 371
 signed int cwiid_set_mesg_callback(struct wiimote *wiimote, void (*callback)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *));
-// cwiid_set_mesg_callback::callback$object
+// cwiid_set_mesg_callback::callback_object
 //
-void callback$object(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *);
+void callback_object(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *);
 // cwiid_set_rpt_mode
 // file ../libcwiid/cwiid.h line 389
 signed int cwiid_set_rpt_mode(struct wiimote *wiimote, unsigned char rpt_mode);
@@ -744,16 +744,16 @@ extern signed int getpid(void);
 signed int hci_close_dev(signed int);
 // hci_get_route
 // file /usr/include/bluetooth/hci_lib.h line 146
-signed int hci_get_route(struct anonymous$0 *);
+signed int hci_get_route(struct anonymous_0 *);
 // hci_inquiry
 // file /usr/include/bluetooth/hci_lib.h line 59
-signed int hci_inquiry(signed int, signed int, signed int, const unsigned char *, struct anonymous$2 **, signed long int);
+signed int hci_inquiry(signed int, signed int, signed int, const unsigned char *, struct anonymous_2 **, signed long int);
 // hci_open_dev
 // file /usr/include/bluetooth/hci_lib.h line 51
 signed int hci_open_dev(signed int);
 // hci_read_remote_name
 // file /usr/include/bluetooth/hci_lib.h line 66
-signed int hci_read_remote_name(signed int, const struct anonymous$0 *, signed int, char *, signed int);
+signed int hci_read_remote_name(signed int, const struct anonymous_0 *, signed int, char *, signed int);
 // ioctl
 // file /usr/include/x86_64-linux-gnu/sys/ioctl.h line 41
 extern signed int ioctl(signed int, unsigned long int, ...);
@@ -781,9 +781,9 @@ extern void * memset(void *, signed int, unsigned long int);
 // mesg_callback_thread
 // file cwiid_internal.h line 194
 void * mesg_callback_thread(struct wiimote *wiimote);
-// mesg_callback_thread::1::callback$object
+// mesg_callback_thread::1::callback_object
 //
-void callback$object(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *);
+void callback_object(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *);
 // open
 // file /usr/include/fcntl.h line 146
 extern signed int open(const char *, signed int, ...);
@@ -840,7 +840,7 @@ signed int process_write(struct wiimote *wiimote, unsigned char *data);
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$9 *, union anonymous$1 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_9 *, union anonymous_1 *, struct timespec *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -852,16 +852,16 @@ extern signed int pthread_detach(unsigned long int);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$1 *);
+extern signed int pthread_mutex_destroy(union anonymous_1 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$1 *, const union anonymous$12 *);
+extern signed int pthread_mutex_init(union anonymous_1 *, const union anonymous_12 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$1 *);
+extern signed int pthread_mutex_lock(union anonymous_1 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$1 *);
+extern signed int pthread_mutex_unlock(union anonymous_1 *);
 // pthread_setcancelstate
 // file /usr/include/pthread.h line 508
 extern signed int pthread_setcancelstate(signed int, signed int *);
@@ -945,7 +945,7 @@ extern signed int stat(const char *, struct stat *);
 void * status_thread(struct wiimote *wiimote);
 // str2ba
 // file /usr/include/bluetooth/bluetooth.h line 327
-signed int str2ba(const char *, struct anonymous$0 *);
+signed int str2ba(const char *, struct anonymous_0 *);
 // strcmp
 // file /usr/include/string.h line 144
 extern signed int strcmp(const char *, const char *);
@@ -1124,7 +1124,7 @@ static unsigned long int yytnamerr(char *yyres, const char *yystr);
 // file lexer.l line 196
 extern signed int yywrap(void);
 
-struct anonymous$3
+struct anonymous_3
 {
   // nb_add
   struct _object * (*nb_add)(struct _object *, struct _object *);
@@ -1206,7 +1206,7 @@ struct anonymous$3
   struct _object * (*nb_index)(struct _object *);
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // mp_length
   signed long int (*mp_length)(struct _object *);
@@ -1216,7 +1216,7 @@ struct anonymous$5
   signed int (*mp_ass_subscript)(struct _object *, struct _object *, struct _object *);
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // sq_length
   signed long int (*sq_length)(struct _object *);
@@ -1240,7 +1240,7 @@ struct anonymous$4
   struct _object * (*sq_inplace_repeat)(struct _object *, signed long int);
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // bf_getreadbuffer
   signed long int (*bf_getreadbuffer)(struct _object *, signed long int, void **);
@@ -1256,7 +1256,7 @@ struct anonymous$6
   void (*bf_releasebuffer)(struct _object *, struct bufferinfo *);
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // name
   char *name;
@@ -1270,13 +1270,13 @@ struct anonymous
   unsigned long int __val[16l];
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // b
   unsigned char b[6l];
 } __attribute__ ((__packed__));
 
-struct anonymous$8
+struct anonymous_8
 {
   // __lock
   signed int __lock;
@@ -1296,7 +1296,7 @@ struct anonymous$8
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // ob_refcnt
   signed long int ob_refcnt;
@@ -1306,10 +1306,10 @@ struct anonymous$10
   signed long int ob_ival;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // bdaddr
-  struct anonymous$0 bdaddr;
+  struct anonymous_0 bdaddr;
   // pscan_rep_mode
   unsigned char pscan_rep_mode;
   // pscan_period_mode
@@ -1322,7 +1322,7 @@ struct anonymous$2
   unsigned short int clock_offset;
 } __attribute__ ((__packed__));
 
-union anonymous$12
+union anonymous_12
 {
   // __size
   char __size[4l];
@@ -1330,10 +1330,10 @@ union anonymous$12
   signed int __align;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // __data
-  struct anonymous$8 __data;
+  struct anonymous_8 __data;
   // __size
   char __size[48l];
   // __align
@@ -1368,7 +1368,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1452,7 +1452,7 @@ struct ff_rumble_effect
   unsigned short int weak_magnitude;
 };
 
-union anonymous$11
+union anonymous_11
 {
   // constant
   struct ff_constant_effect constant;
@@ -1635,11 +1635,11 @@ struct _typeobject
   // tp_repr
   struct _object * (*tp_repr)(struct _object *);
   // tp_as_number
-  struct anonymous$3 *tp_as_number;
+  struct anonymous_3 *tp_as_number;
   // tp_as_sequence
-  struct anonymous$4 *tp_as_sequence;
+  struct anonymous_4 *tp_as_sequence;
   // tp_as_mapping
-  struct anonymous$5 *tp_as_mapping;
+  struct anonymous_5 *tp_as_mapping;
   // tp_hash
   signed long int (*tp_hash)(struct _object *);
   // tp_call
@@ -1651,7 +1651,7 @@ struct _typeobject
   // tp_setattro
   signed int (*tp_setattro)(struct _object *, struct _object *, struct _object *);
   // tp_as_buffer
-  struct anonymous$6 *tp_as_buffer;
+  struct anonymous_6 *tp_as_buffer;
   // tp_flags
   signed long int tp_flags;
   // tp_doc
@@ -1927,7 +1927,7 @@ struct cwiid_balance_mesg
 struct cwiid_bdinfo
 {
   // bdaddr
-  struct anonymous$0 bdaddr;
+  struct anonymous_0 bdaddr;
   // btclass
   unsigned char btclass[3l];
   // name
@@ -2119,7 +2119,7 @@ struct ff_effect
   // replay
   struct ff_replay replay;
   // u
-  union anonymous$11 u;
+  union anonymous_11 u;
 };
 
 struct timeval
@@ -2229,7 +2229,7 @@ struct sockaddr_l2
   // l2_psm
   unsigned short int l2_psm;
   // l2_bdaddr
-  struct anonymous$0 l2_bdaddr;
+  struct anonymous_0 l2_bdaddr;
   // l2_cid
   unsigned short int l2_cid;
   // l2_bdaddr_type
@@ -2327,11 +2327,11 @@ struct wiimote
   // mesg_callback
   void (*mesg_callback)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *);
   // state_mutex
-  union anonymous$1 state_mutex;
+  union anonymous_1 state_mutex;
   // rw_mutex
-  union anonymous$1 rw_mutex;
+  union anonymous_1 rw_mutex;
   // rpt_mutex
-  union anonymous$1 rpt_mutex;
+  union anonymous_1 rpt_mutex;
   // id
   signed int id;
   // data
@@ -2487,10 +2487,10 @@ static struct _object *PyWiimote = (struct _object *)(void *)0;
 extern struct _object _Py_NoneStruct;
 // _Py_TrueStruct
 // file /usr/include/python2.7/boolobject.h line 20
-extern struct anonymous$10 _Py_TrueStruct;
+extern struct anonymous_10 _Py_TrueStruct;
 // _Py_ZeroStruct
 // file /usr/include/python2.7/boolobject.h line 20
-extern struct anonymous$10 _Py_ZeroStruct;
+extern struct anonymous_10 _Py_ZeroStruct;
 // action_enum
 // file action_enum.c line 5
 struct lookup_enum action_enum[430l] = { { .name="KEY_ESC", .value=(unsigned short int)1 },
@@ -2937,7 +2937,7 @@ static void (*cwiid_err_func)(struct wiimote *, const char *, void **);
 static void (*cwiid_err_func)(struct wiimote *, const char *, void **) = cwiid_err_default;
 // global_mutex
 // file connect.c line 64
-union anonymous$1 global_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_1 global_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // init
@@ -3033,15 +3033,15 @@ char *uinput_filename[3l] = { "/dev/uinput", "/dev/input/uinput", "/dev/misc/uin
 // wiimote
 // file main.c line 100
 struct wiimote *wiimote;
-// wiimote$link1
+// wiimote_link1
 // file c_plugin.c line 43
-static struct wiimote *wiimote$link1;
+static struct wiimote *wiimote_link1;
 // wiimote_id
 // file connect.c line 65
 static signed int wiimote_id = 0;
 // wmplugin_constants
 // file py_plugin.c line 75
-static struct anonymous$7 wmplugin_constants[5l] = { { .name="ABS", .value=1 }, { .name="REL", .value=2 }, { .name="PARAM_INT", .value=WMPLUGIN_PARAM_INT },
+static struct anonymous_7 wmplugin_constants[5l] = { { .name="ABS", .value=1 }, { .name="REL", .value=2 }, { .name="PARAM_INT", .value=WMPLUGIN_PARAM_INT },
     { .name="PARAM_FLOAT", .value=WMPLUGIN_PARAM_FLOAT },
     { .name=(char *)(void *)0, .value=0 } };
 // yy_accept
@@ -3157,41 +3157,41 @@ static const unsigned char yytable[35l] = { (const unsigned char)2, (const unsig
 char *yytext;
 // yytname
 // file y.tab.c line 495
-static const char * const yytname[28l] = { "$end", "error", "$undefined", "INT", "ON_OFF", "WM_BTN", "NC_BTN", "CC_BTN", "BTN_ACTION", "AXIS", "ABS_AXIS_ACTION", "REL_AXIS_ACTION", "FLOAT", "ID", "WM_RUMBLE", "PLUGIN", "'\\n'", "'='", "'.'", "'-'", "'~'", "$accept", "conf_list", "conf_line", "conf_item", "sign", "pointer", ((const char *)NULL) };
+static const char * const yytname[28l] = { "_end", "error", "_undefined", "INT", "ON_OFF", "WM_BTN", "NC_BTN", "CC_BTN", "BTN_ACTION", "AXIS", "ABS_AXIS_ACTION", "REL_AXIS_ACTION", "FLOAT", "ID", "WM_RUMBLE", "PLUGIN", "'\\n'", "'='", "'.'", "'-'", "'~'", "_accept", "conf_list", "conf_line", "conf_item", "sign", "pointer", ((const char *)NULL) };
 // yytranslate
 // file y.tab.c line 450
 static const unsigned char yytranslate[271l] = { (const unsigned char)0, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)16, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)19, (const unsigned char)18, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)17, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)20, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)2, (const unsigned char)1, (const unsigned char)2, (const unsigned char)3, (const unsigned char)4, (const unsigned char)5, (const unsigned char)6, (const unsigned char)7, (const unsigned char)8, (const unsigned char)9, (const unsigned char)10, (const unsigned char)11, (const unsigned char)12, (const unsigned char)13, (const unsigned char)14, (const unsigned char)15 };
 
 // bacmp
 // file /usr/include/bluetooth/bluetooth.h line 314
-static inline signed int bacmp(const struct anonymous$0 *ba1, const struct anonymous$0 *ba2)
+static inline signed int bacmp(const struct anonymous_0 *ba1, const struct anonymous_0 *ba2)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)ba1, (const void *)ba2, sizeof(struct anonymous$0) /*6ul*/ );
-  return return_value_memcmp$1;
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)ba1, (const void *)ba2, sizeof(struct anonymous_0) /*6ul*/ );
+  return return_value_memcmp_1;
 }
 
-// bacmp$link1
+// bacmp_link1
 // file /usr/include/bluetooth/bluetooth.h line 314
-static inline signed int bacmp$link1(const struct anonymous$0 *ba1$link1, const struct anonymous$0 *ba2$link1)
+static inline signed int bacmp_link1(const struct anonymous_0 *ba1_link1, const struct anonymous_0 *ba2_link1)
 {
-  signed int return_value_memcmp$1$link1;
-  return_value_memcmp$1$link1=memcmp((const void *)ba1$link1, (const void *)ba2$link1, sizeof(struct anonymous$0) /*6ul*/ );
-  return return_value_memcmp$1$link1;
+  signed int return_value_memcmp_1_link1;
+  return_value_memcmp_1_link1=memcmp((const void *)ba1_link1, (const void *)ba2_link1, sizeof(struct anonymous_0) /*6ul*/ );
+  return return_value_memcmp_1_link1;
 }
 
 // bacpy
 // file /usr/include/bluetooth/bluetooth.h line 318
-static inline void bacpy(struct anonymous$0 *dst, const struct anonymous$0 *src)
+static inline void bacpy(struct anonymous_0 *dst, const struct anonymous_0 *src)
 {
-  memcpy((void *)dst, (const void *)src, sizeof(struct anonymous$0) /*6ul*/ );
+  memcpy((void *)dst, (const void *)src, sizeof(struct anonymous_0) /*6ul*/ );
 }
 
-// bacpy$link1
+// bacpy_link1
 // file /usr/include/bluetooth/bluetooth.h line 318
-static inline void bacpy$link1(struct anonymous$0 *dst$link1, const struct anonymous$0 *src$link1)
+static inline void bacpy_link1(struct anonymous_0 *dst_link1, const struct anonymous_0 *src_link1)
 {
-  memcpy((void *)dst$link1, (const void *)src$link1, sizeof(struct anonymous$0) /*6ul*/ );
+  memcpy((void *)dst_link1, (const void *)src_link1, sizeof(struct anonymous_0) /*6ul*/ );
 }
 
 // c_deinit
@@ -3233,7 +3233,7 @@ signed int c_plugin_exec(struct plugin *plugin, signed int mesg_count, union cwi
 signed int c_plugin_init(struct plugin *plugin, signed int id)
 {
   signed int return_value;
-  return_value=((struct c_plugin *)plugin->p)->init(id, wiimote$link1);
+  return_value=((struct c_plugin *)plugin->p)->init(id, wiimote_link1);
   return return_value;
 }
 
@@ -3246,9 +3246,9 @@ signed int c_plugin_open(struct plugin *plugin, char *dir)
   struct wmplugin_info * (*info)(void);
   void *handle;
   snprintf(pathname, (unsigned long int)128, "%s/%s.so", dir, plugin->name);
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(pathname, &buf);
-  if(!(return_value_stat$1 == 0))
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(pathname, &buf);
+  if(!(return_value_stat_1 == 0))
     return -1;
 
   else
@@ -3256,9 +3256,9 @@ signed int c_plugin_open(struct plugin *plugin, char *dir)
     handle=dlopen(pathname, 0x00002);
     if(handle == NULL)
     {
-      char *return_value_dlerror$2;
-      return_value_dlerror$2=dlerror();
-      wminput_err(return_value_dlerror$2);
+      char *return_value_dlerror_2;
+      return_value_dlerror_2=dlerror();
+      wminput_err(return_value_dlerror_2);
       return -1;
     }
 
@@ -3272,14 +3272,14 @@ signed int c_plugin_open(struct plugin *plugin, char *dir)
 
     else
     {
-      void *return_value_dlsym$4;
-      return_value_dlsym$4=dlsym(handle, "wmplugin_info");
-      info = (struct wmplugin_info * (*)(void))return_value_dlsym$4;
+      void *return_value_dlsym_4;
+      return_value_dlsym_4=dlsym(handle, "wmplugin_info");
+      info = (struct wmplugin_info * (*)(void))return_value_dlsym_4;
       if(info == ((struct wmplugin_info * (*)(void))NULL))
       {
-        char *return_value_dlerror$3;
-        return_value_dlerror$3=dlerror();
-        wminput_err("Unable to load plugin info function: %s", return_value_dlerror$3);
+        char *return_value_dlerror_3;
+        return_value_dlerror_3=dlerror();
+        wminput_err("Unable to load plugin info function: %s", return_value_dlerror_3);
         free(plugin->p);
         dlclose(handle);
         return -1;
@@ -3296,27 +3296,27 @@ signed int c_plugin_open(struct plugin *plugin, char *dir)
 
       else
       {
-        void *return_value_dlsym$6;
-        return_value_dlsym$6=dlsym(handle, "wmplugin_init");
-        ((struct c_plugin *)plugin->p)->init = (signed int (*)(signed int, struct wiimote *))return_value_dlsym$6;
+        void *return_value_dlsym_6;
+        return_value_dlsym_6=dlsym(handle, "wmplugin_init");
+        ((struct c_plugin *)plugin->p)->init = (signed int (*)(signed int, struct wiimote *))return_value_dlsym_6;
         if(((struct c_plugin *)plugin->p)->init == ((signed int (*)(signed int, struct wiimote *))NULL))
         {
-          char *return_value_dlerror$5;
-          return_value_dlerror$5=dlerror();
-          wminput_err("Unable to load plugin init function: %s", return_value_dlerror$5);
+          char *return_value_dlerror_5;
+          return_value_dlerror_5=dlerror();
+          wminput_err("Unable to load plugin init function: %s", return_value_dlerror_5);
           free(plugin->p);
           dlclose(handle);
           return -1;
         }
 
-        void *return_value_dlsym$8;
-        return_value_dlsym$8=dlsym(handle, "wmplugin_exec");
-        ((struct c_plugin *)plugin->p)->exec = (struct wmplugin_data * (*)(signed int, union cwiid_mesg *))return_value_dlsym$8;
+        void *return_value_dlsym_8;
+        return_value_dlsym_8=dlsym(handle, "wmplugin_exec");
+        ((struct c_plugin *)plugin->p)->exec = (struct wmplugin_data * (*)(signed int, union cwiid_mesg *))return_value_dlsym_8;
         if(((struct c_plugin *)plugin->p)->exec == ((struct wmplugin_data * (*)(signed int, union cwiid_mesg *))NULL))
         {
-          char *return_value_dlerror$7;
-          return_value_dlerror$7=dlerror();
-          wminput_err("Unable to load plugin exec function: %s", return_value_dlerror$7);
+          char *return_value_dlerror_7;
+          return_value_dlerror_7=dlerror();
+          wminput_err("Unable to load plugin exec function: %s", return_value_dlerror_7);
           free(plugin->p);
           dlclose(handle);
           return -1;
@@ -3368,7 +3368,7 @@ signed int c_plugin_param_int(struct plugin *plugin, signed int i, signed int va
 // file c_plugin.h line 29
 signed int c_wiimote(struct wiimote *arg_wiimote)
 {
-  wiimote$link1 = arg_wiimote;
+  wiimote_link1 = arg_wiimote;
   return 0;
 }
 
@@ -3384,17 +3384,17 @@ void c_wiimote_deinit()
 signed int cancel_mesg_callback(struct wiimote *wiimote)
 {
   signed int ret = 0;
-  signed int return_value_pthread_cancel$1;
-  return_value_pthread_cancel$1=pthread_cancel(wiimote->mesg_callback_thread);
-  if(!(return_value_pthread_cancel$1 == 0))
+  signed int return_value_pthread_cancel_1;
+  return_value_pthread_cancel_1=pthread_cancel(wiimote->mesg_callback_thread);
+  if(!(return_value_pthread_cancel_1 == 0))
   {
     cwiid_err(wiimote, "Thread cancel error (callback thread)");
     ret = -1;
   }
 
-  signed int return_value_pthread_detach$2;
-  return_value_pthread_detach$2=pthread_detach(wiimote->mesg_callback_thread);
-  if(!(return_value_pthread_detach$2 == 0))
+  signed int return_value_pthread_detach_2;
+  return_value_pthread_detach_2=pthread_detach(wiimote->mesg_callback_thread);
+  if(!(return_value_pthread_detach_2 == 0))
   {
     cwiid_err(wiimote, "Thread detach error (callback thread)");
     ret = -1;
@@ -3409,9 +3409,9 @@ signed int cancel_rw(struct wiimote *wiimote)
 {
   struct rw_mesg rw_mesg;
   rw_mesg.type = (enum rw_status)RW_CANCEL;
-  signed long int return_value_write$1;
-  return_value_write$1=write(wiimote->rw_pipe[(signed long int)1], (const void *)&rw_mesg, sizeof(struct rw_mesg) /*32ul*/ );
-  if(!((unsigned long int)return_value_write$1 == sizeof(struct rw_mesg) /*32ul*/ ))
+  signed long int return_value_write_1;
+  return_value_write_1=write(wiimote->rw_pipe[(signed long int)1], (const void *)&rw_mesg, sizeof(struct rw_mesg) /*32ul*/ );
+  if(!((unsigned long int)return_value_write_1 == sizeof(struct rw_mesg) /*32ul*/ ))
   {
     cwiid_err(wiimote, "Pipe write error (rw)");
     return -1;
@@ -3429,15 +3429,15 @@ signed int conf_axis(struct conf *conf, signed int axis, unsigned short int axis
   conf->amap[(signed long int)axis].axis_type = axis_type;
   conf->amap[(signed long int)axis].action = action;
   conf->amap[(signed long int)axis].flags = (unsigned char)flags;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)axis_type == 0x03)
   {
     if(!(conf->dev.absmax[(signed long int)action] == -1))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = !(conf->dev.absmin[(signed long int)action] == -1) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = !(conf->dev.absmin[(signed long int)action] == -1) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       wminput_err("Warning: duplicate absolute axis assignment");
 
   }
@@ -3704,22 +3704,22 @@ signed int conf_load(struct conf *conf, const char *conf_name, char **config_sea
 
   else
   {
-    signed int return_value_yyparse$2;
-    return_value_yyparse$2=yyparse();
-    if(!(return_value_yyparse$2 == 0))
+    signed int return_value_yyparse_2;
+    return_value_yyparse_2=yyparse();
+    if(!(return_value_yyparse_2 == 0))
     {
-      signed int return_value_fclose$1;
-      return_value_fclose$1=fclose(yyin);
-      if(!(return_value_fclose$1 == 0))
+      signed int return_value_fclose_1;
+      return_value_fclose_1=fclose(yyin);
+      if(!(return_value_fclose_1 == 0))
         wminput_err("Error closing configuration file");
 
       conf_unload(cur_conf);
       return -1;
     }
 
-    signed int return_value_uinput_open$3;
-    return_value_uinput_open$3=uinput_open(cur_conf);
-    if(!(return_value_uinput_open$3 == 0))
+    signed int return_value_uinput_open_3;
+    return_value_uinput_open_3=uinput_open(cur_conf);
+    if(!(return_value_uinput_open_3 == 0))
     {
       conf_unload(cur_conf);
       return -1;
@@ -3739,7 +3739,7 @@ signed int conf_plugin_axis(struct conf *conf, const char *name, const char *axi
   unsigned char axis_found = (unsigned char)0;
   unsigned char mismatch = (unsigned char)0;
   plugin=get_plugin(conf, name);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(plugin == ((struct plugin *)NULL))
     return -1;
 
@@ -3748,9 +3748,9 @@ signed int conf_plugin_axis(struct conf *conf, const char *name, const char *axi
     i = 0;
     for( ; !(i >= (signed int)plugin->info->axis_count); i = i + 1)
     {
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(plugin->info->axis_info[(signed long int)i].name, axis);
-      if(return_value_strcmp$1 == 0)
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(plugin->info->axis_info[(signed long int)i].name, axis);
+      if(return_value_strcmp_1 == 0)
       {
         axis_found = (unsigned char)1;
         break;
@@ -3789,11 +3789,11 @@ signed int conf_plugin_axis(struct conf *conf, const char *name, const char *axi
       if((signed int)axis_type == 0x03)
       {
         if(!(conf->dev.absmax[(signed long int)action] == -1))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = !(conf->dev.absmin[(signed long int)action] == -1) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = !(conf->dev.absmin[(signed long int)action] == -1) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           wminput_err("Warning: duplicate absolute axis assignment");
 
         conf->dev.absmax[(signed long int)action] = plugin->info->axis_info[(signed long int)i].max;
@@ -3823,9 +3823,9 @@ signed int conf_plugin_button(struct conf *conf, const char *name, const char *b
     i = 0;
     for( ; !(i >= (signed int)plugin->info->button_count); i = i + 1)
     {
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(plugin->info->button_info[(signed long int)i].name, button);
-      if(return_value_strcmp$1 == 0)
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(plugin->info->button_info[(signed long int)i].name, button);
+      if(return_value_strcmp_1 == 0)
       {
         button_found = (unsigned char)1;
         break;
@@ -3855,8 +3855,8 @@ signed int conf_plugin_param_float(struct conf *conf, const char *name, const ch
   signed int i;
   unsigned char param_found = (unsigned char)0;
   plugin=get_plugin(conf, name);
-  signed int return_value_c_plugin_param_float$2;
-  signed int return_value_py_plugin_param_float$3;
+  signed int return_value_c_plugin_param_float_2;
+  signed int return_value_py_plugin_param_float_3;
   if(plugin == ((struct plugin *)NULL))
     return -1;
 
@@ -3865,9 +3865,9 @@ signed int conf_plugin_param_float(struct conf *conf, const char *name, const ch
     i = 0;
     for( ; !(i >= (signed int)plugin->info->param_count); i = i + 1)
     {
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(plugin->info->param_info[(signed long int)i].name, param);
-      if(return_value_strcmp$1 == 0)
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(plugin->info->param_info[(signed long int)i].name, param);
+      if(return_value_strcmp_1 == 0)
       {
         param_found = (unsigned char)1;
         break;
@@ -3886,16 +3886,16 @@ signed int conf_plugin_param_float(struct conf *conf, const char *name, const ch
       {
         case PLUGIN_C:
         {
-          return_value_c_plugin_param_float$2=c_plugin_param_float(plugin, i, value);
-          if(!(return_value_c_plugin_param_float$2 == 0))
+          return_value_c_plugin_param_float_2=c_plugin_param_float(plugin, i, value);
+          if(!(return_value_c_plugin_param_float_2 == 0))
             return -1;
 
           break;
         }
         case PLUGIN_PYTHON:
         {
-          return_value_py_plugin_param_float$3=py_plugin_param_float(plugin, i, value);
-          if(!(return_value_py_plugin_param_float$3 == 0))
+          return_value_py_plugin_param_float_3=py_plugin_param_float(plugin, i, value);
+          if(!(return_value_py_plugin_param_float_3 == 0))
             return -1;
 
         }
@@ -3913,8 +3913,8 @@ signed int conf_plugin_param_int(struct conf *conf, const char *name, const char
   signed int i;
   unsigned char param_found = (unsigned char)0;
   plugin=get_plugin(conf, name);
-  signed int return_value_c_plugin_param_int$2;
-  signed int return_value_py_plugin_param_int$3;
+  signed int return_value_c_plugin_param_int_2;
+  signed int return_value_py_plugin_param_int_3;
   if(plugin == ((struct plugin *)NULL))
     return -1;
 
@@ -3923,9 +3923,9 @@ signed int conf_plugin_param_int(struct conf *conf, const char *name, const char
     i = 0;
     for( ; !(i >= (signed int)plugin->info->param_count); i = i + 1)
     {
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(plugin->info->param_info[(signed long int)i].name, param);
-      if(return_value_strcmp$1 == 0)
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(plugin->info->param_info[(signed long int)i].name, param);
+      if(return_value_strcmp_1 == 0)
       {
         param_found = (unsigned char)1;
         break;
@@ -3944,16 +3944,16 @@ signed int conf_plugin_param_int(struct conf *conf, const char *name, const char
       {
         case PLUGIN_C:
         {
-          return_value_c_plugin_param_int$2=c_plugin_param_int(plugin, i, value);
-          if(!(return_value_c_plugin_param_int$2 == 0))
+          return_value_c_plugin_param_int_2=c_plugin_param_int(plugin, i, value);
+          if(!(return_value_c_plugin_param_int_2 == 0))
             return -1;
 
           break;
         }
         case PLUGIN_PYTHON:
         {
-          return_value_py_plugin_param_int$3=py_plugin_param_int(plugin, i, value);
-          if(!(return_value_py_plugin_param_int$3 == 0))
+          return_value_py_plugin_param_int_3=py_plugin_param_int(plugin, i, value);
+          if(!(return_value_py_plugin_param_int_3 == 0))
             return -1;
 
         }
@@ -3988,10 +3988,10 @@ struct _IO_FILE * conf_push_config(struct conf *conf, const char *filename, stru
   struct _IO_FILE *file;
   char pathname[128l];
   const char *stackname;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(1 + conf->stack_index >= 10)
   {
     wminput_err("Maximum include depth exceeded: %s", filename);
@@ -4001,32 +4001,32 @@ struct _IO_FILE * conf_push_config(struct conf *conf, const char *filename, stru
   else
   {
     if((signed int)*filename == 47)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
       if((signed int)*filename == 46)
       {
         if((signed int)filename[1l] == 47)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
         {
           if((signed int)filename[1l] == 46)
-            tmp_if_expr$1 = (signed int)filename[(signed long int)2] == 47 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = (signed int)filename[(signed long int)2] == 47 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = (_Bool)0;
+          tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
         }
-        tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
     {
       stackname = filename;
       file=fopen(filename, "r");
@@ -4056,11 +4056,11 @@ struct _IO_FILE * conf_push_config(struct conf *conf, const char *filename, stru
     else
     {
       conf->stack_index = conf->stack_index + 1;
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen(stackname);
-      void *return_value_malloc$6;
-      return_value_malloc$6=malloc(return_value_strlen$5 + (unsigned long int)1);
-      conf->config_filename_stack[(signed long int)conf->stack_index] = (char *)return_value_malloc$6;
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen(stackname);
+      void *return_value_malloc_6;
+      return_value_malloc_6=malloc(return_value_strlen_5 + (unsigned long int)1);
+      conf->config_filename_stack[(signed long int)conf->stack_index] = (char *)return_value_malloc_6;
       if(conf->config_filename_stack[(signed long int)conf->stack_index] == ((char *)NULL))
       {
         wminput_err("Error allocating pathname");
@@ -4112,17 +4112,17 @@ signed int cwiid_beep(struct wiimote *wiimote)
   unsigned char buf[21l] = { (unsigned char)0xA0, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3, (unsigned char)0xC3 };
   signed int i;
   signed int ret = 0;
-  union anonymous$1 timer_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+  union anonymous_1 timer_mutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
-  union anonymous$9 timer_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+  union anonymous_9 timer_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
   struct timespec t;
-  signed int return_value_exec_write_seq$1;
-  return_value_exec_write_seq$1=exec_write_seq(wiimote, (unsigned int)(sizeof(struct write_seq [7l]) /*168ul*/  / sizeof(struct write_seq) /*24ul*/ ), speaker_enable_seq);
-  if(!(return_value_exec_write_seq$1 == 0))
+  signed int return_value_exec_write_seq_1;
+  return_value_exec_write_seq_1=exec_write_seq(wiimote, (unsigned int)(sizeof(struct write_seq [7l]) /*168ul*/  / sizeof(struct write_seq) /*24ul*/ ), speaker_enable_seq);
+  if(!(return_value_exec_write_seq_1 == 0))
   {
     cwiid_err(wiimote, "Speaker enable error");
     ret = -1;
@@ -4134,9 +4134,9 @@ signed int cwiid_beep(struct wiimote *wiimote)
   {
     clock_gettime(0, &t);
     t.tv_nsec = t.tv_nsec + (signed long int)10204081;
-    signed int return_value_cwiid_send_rpt$2;
-    return_value_cwiid_send_rpt$2=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x18, (unsigned long int)21, (const void *)buf);
-    if(!(return_value_cwiid_send_rpt$2 == 0))
+    signed int return_value_cwiid_send_rpt_2;
+    return_value_cwiid_send_rpt_2=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x18, (unsigned long int)21, (const void *)buf);
+    if(!(return_value_cwiid_send_rpt_2 == 0))
     {
       printf("%d\n", i);
       cwiid_err(wiimote, "Report send error (speaker data)");
@@ -4147,9 +4147,9 @@ signed int cwiid_beep(struct wiimote *wiimote)
     pthread_cond_timedwait(&timer_cond, &timer_mutex, &t);
   }
   pthread_mutex_unlock(&timer_mutex);
-  signed int return_value_exec_write_seq$3;
-  return_value_exec_write_seq$3=exec_write_seq(wiimote, (unsigned int)(sizeof(struct write_seq [2l]) /*48ul*/  / sizeof(struct write_seq) /*24ul*/ ), speaker_disable_seq);
-  if(!(return_value_exec_write_seq$3 == 0))
+  signed int return_value_exec_write_seq_3;
+  return_value_exec_write_seq_3=exec_write_seq(wiimote, (unsigned int)(sizeof(struct write_seq [2l]) /*48ul*/  / sizeof(struct write_seq) /*24ul*/ ), speaker_disable_seq);
+  if(!(return_value_exec_write_seq_3 == 0))
   {
     cwiid_err(wiimote, "Speaker disable error");
     ret = -1;
@@ -4163,8 +4163,8 @@ signed int cwiid_beep(struct wiimote *wiimote)
 void cwiid_callback(struct wiimote *wiimote, signed int mesg_count, union cwiid_mesg *mesg, struct timespec *timestamp)
 {
   signed int i = 0;
-  signed int return_value_getpid$1;
-  signed int return_value_kill$2;
+  signed int return_value_getpid_1;
+  signed int return_value_kill_2;
   for( ; !(i >= mesg_count); i = i + 1)
     switch((signed int)(mesg + (signed long int)i)->type)
     {
@@ -4185,9 +4185,9 @@ void cwiid_callback(struct wiimote *wiimote, signed int mesg_count, union cwiid_
       }
       case CWIID_MESG_ERROR:
       {
-        return_value_getpid$1=getpid();
-        return_value_kill$2=kill(return_value_getpid$1, 10);
-        if(!(return_value_kill$2 == 0))
+        return_value_getpid_1=getpid();
+        return_value_kill_2=kill(return_value_getpid_1, 10);
+        if(!(return_value_kill_2 == 0))
           wminput_err("Error sending SIGUSR1");
 
         break;
@@ -4196,15 +4196,15 @@ void cwiid_callback(struct wiimote *wiimote, signed int mesg_count, union cwiid_
         ;
     }
   i = 0;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   do
   {
     if(!(i >= 6))
-      tmp_if_expr$3 = conf.plugins[(signed long int)i].name != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = conf.plugins[(signed long int)i].name != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(!tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(!tmp_if_expr_3)
       break;
 
     process_plugin(&conf.plugins[(signed long int)i], mesg_count, mesg);
@@ -4219,22 +4219,22 @@ void cwiid_callback(struct wiimote *wiimote, signed int mesg_count, union cwiid_
 signed int cwiid_close(struct wiimote *wiimote)
 {
   void *pthread_ret;
-  signed int return_value_pthread_cancel$1;
-  return_value_pthread_cancel$1=pthread_cancel(wiimote->router_thread);
-  signed int return_value_pthread_join$2;
-  return_value_pthread_join$2=pthread_join(wiimote->router_thread, &pthread_ret);
-  if(!(return_value_pthread_join$2 == 0))
+  signed int return_value_pthread_cancel_1;
+  return_value_pthread_cancel_1=pthread_cancel(wiimote->router_thread);
+  signed int return_value_pthread_join_2;
+  return_value_pthread_join_2=pthread_join(wiimote->router_thread, &pthread_ret);
+  if(!(return_value_pthread_join_2 == 0))
     cwiid_err(wiimote, "Thread join error (router thread)");
 
   else
     if(!(pthread_ret == NULL) && !(pthread_ret == (void *)-1))
       cwiid_err(wiimote, "Bad return value from router thread");
 
-  signed int return_value_pthread_cancel$3;
-  return_value_pthread_cancel$3=pthread_cancel(wiimote->status_thread);
-  signed int return_value_pthread_join$4;
-  return_value_pthread_join$4=pthread_join(wiimote->status_thread, &pthread_ret);
-  if(!(return_value_pthread_join$4 == 0))
+  signed int return_value_pthread_cancel_3;
+  return_value_pthread_cancel_3=pthread_cancel(wiimote->status_thread);
+  signed int return_value_pthread_join_4;
+  return_value_pthread_join_4=pthread_join(wiimote->status_thread, &pthread_ret);
+  if(!(return_value_pthread_join_4 == 0))
     cwiid_err(wiimote, "Thread join error (status thread)");
 
   else
@@ -4243,80 +4243,80 @@ signed int cwiid_close(struct wiimote *wiimote)
 
   if(!(wiimote->mesg_callback == ((void (*)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *))NULL)))
   {
-    signed int return_value_cancel_mesg_callback$5;
-    return_value_cancel_mesg_callback$5=cancel_mesg_callback(wiimote);
+    signed int return_value_cancel_mesg_callback_5;
+    return_value_cancel_mesg_callback_5=cancel_mesg_callback(wiimote);
   }
 
-  signed int return_value_cancel_rw$6;
-  return_value_cancel_rw$6=cancel_rw(wiimote);
-  signed int return_value_close$7;
-  return_value_close$7=close(wiimote->int_socket);
-  if(!(return_value_close$7 == 0))
+  signed int return_value_cancel_rw_6;
+  return_value_cancel_rw_6=cancel_rw(wiimote);
+  signed int return_value_close_7;
+  return_value_close_7=close(wiimote->int_socket);
+  if(!(return_value_close_7 == 0))
     cwiid_err(wiimote, "Socket close error (interrupt channel)");
 
-  signed int return_value_close$8;
-  return_value_close$8=close(wiimote->ctl_socket);
-  if(!(return_value_close$8 == 0))
+  signed int return_value_close_8;
+  return_value_close_8=close(wiimote->ctl_socket);
+  if(!(return_value_close_8 == 0))
     cwiid_err(wiimote, "Socket close error (control channel)");
 
-  signed int return_value_close$9;
-  return_value_close$9=close(wiimote->mesg_pipe[(signed long int)0]);
-  _Bool tmp_if_expr$11;
-  signed int return_value_close$10;
-  if(!(return_value_close$9 == 0))
-    tmp_if_expr$11 = (_Bool)1;
+  signed int return_value_close_9;
+  return_value_close_9=close(wiimote->mesg_pipe[(signed long int)0]);
+  _Bool tmp_if_expr_11;
+  signed int return_value_close_10;
+  if(!(return_value_close_9 == 0))
+    tmp_if_expr_11 = (_Bool)1;
 
   else
   {
-    return_value_close$10=close(wiimote->mesg_pipe[(signed long int)1]);
-    tmp_if_expr$11 = return_value_close$10 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_close_10=close(wiimote->mesg_pipe[(signed long int)1]);
+    tmp_if_expr_11 = return_value_close_10 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$11)
+  if(tmp_if_expr_11)
     cwiid_err(wiimote, "Pipe close error (mesg pipe)");
 
-  signed int return_value_close$12;
-  return_value_close$12=close(wiimote->status_pipe[(signed long int)0]);
-  _Bool tmp_if_expr$14;
-  signed int return_value_close$13;
-  if(!(return_value_close$12 == 0))
-    tmp_if_expr$14 = (_Bool)1;
+  signed int return_value_close_12;
+  return_value_close_12=close(wiimote->status_pipe[(signed long int)0]);
+  _Bool tmp_if_expr_14;
+  signed int return_value_close_13;
+  if(!(return_value_close_12 == 0))
+    tmp_if_expr_14 = (_Bool)1;
 
   else
   {
-    return_value_close$13=close(wiimote->status_pipe[(signed long int)1]);
-    tmp_if_expr$14 = return_value_close$13 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_close_13=close(wiimote->status_pipe[(signed long int)1]);
+    tmp_if_expr_14 = return_value_close_13 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$14)
+  if(tmp_if_expr_14)
     cwiid_err(wiimote, "Pipe close error (status pipe)");
 
-  signed int return_value_close$15;
-  return_value_close$15=close(wiimote->rw_pipe[(signed long int)0]);
-  _Bool tmp_if_expr$17;
-  signed int return_value_close$16;
-  if(!(return_value_close$15 == 0))
-    tmp_if_expr$17 = (_Bool)1;
+  signed int return_value_close_15;
+  return_value_close_15=close(wiimote->rw_pipe[(signed long int)0]);
+  _Bool tmp_if_expr_17;
+  signed int return_value_close_16;
+  if(!(return_value_close_15 == 0))
+    tmp_if_expr_17 = (_Bool)1;
 
   else
   {
-    return_value_close$16=close(wiimote->rw_pipe[(signed long int)1]);
-    tmp_if_expr$17 = return_value_close$16 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_close_16=close(wiimote->rw_pipe[(signed long int)1]);
+    tmp_if_expr_17 = return_value_close_16 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$17)
+  if(tmp_if_expr_17)
     cwiid_err(wiimote, "Pipe close error (rw pipe)");
 
-  signed int return_value_pthread_mutex_destroy$18;
-  return_value_pthread_mutex_destroy$18=pthread_mutex_destroy(&wiimote->state_mutex);
-  if(!(return_value_pthread_mutex_destroy$18 == 0))
+  signed int return_value_pthread_mutex_destroy_18;
+  return_value_pthread_mutex_destroy_18=pthread_mutex_destroy(&wiimote->state_mutex);
+  if(!(return_value_pthread_mutex_destroy_18 == 0))
     cwiid_err(wiimote, "Mutex destroy error (state)");
 
-  signed int return_value_pthread_mutex_destroy$19;
-  return_value_pthread_mutex_destroy$19=pthread_mutex_destroy(&wiimote->rw_mutex);
-  if(!(return_value_pthread_mutex_destroy$19 == 0))
+  signed int return_value_pthread_mutex_destroy_19;
+  return_value_pthread_mutex_destroy_19=pthread_mutex_destroy(&wiimote->rw_mutex);
+  if(!(return_value_pthread_mutex_destroy_19 == 0))
     cwiid_err(wiimote, "Mutex destroy error (rw)");
 
-  signed int return_value_pthread_mutex_destroy$20;
-  return_value_pthread_mutex_destroy$20=pthread_mutex_destroy(&wiimote->rpt_mutex);
-  if(!(return_value_pthread_mutex_destroy$20 == 0))
+  signed int return_value_pthread_mutex_destroy_20;
+  return_value_pthread_mutex_destroy_20=pthread_mutex_destroy(&wiimote->rpt_mutex);
+  if(!(return_value_pthread_mutex_destroy_20 == 0))
     cwiid_err(wiimote, "Mutex destroy error (rpt)");
 
   free((void *)wiimote);
@@ -4365,9 +4365,9 @@ signed int cwiid_disable(struct wiimote *wiimote, signed int flags)
   {
     if(!((0x08 & wiimote->flags) == 0))
     {
-      signed int return_value_fcntl$1;
-      return_value_fcntl$1=fcntl(wiimote->mesg_pipe[(signed long int)0], 4, 0);
-      if(!(return_value_fcntl$1 == 0))
+      signed int return_value_fcntl_1;
+      return_value_fcntl_1=fcntl(wiimote->mesg_pipe[(signed long int)0], 4, 0);
+      if(!(return_value_fcntl_1 == 0))
       {
         cwiid_err(wiimote, "File control error (mesg pipe)");
         return -1;
@@ -4399,9 +4399,9 @@ signed int cwiid_enable(struct wiimote *wiimote, signed int flags)
   {
     if((0x08 & wiimote->flags) == 0)
     {
-      signed int return_value_fcntl$1;
-      return_value_fcntl$1=fcntl(wiimote->mesg_pipe[(signed long int)0], 4, 04000);
-      if(!(return_value_fcntl$1 == 0))
+      signed int return_value_fcntl_1;
+      return_value_fcntl_1=fcntl(wiimote->mesg_pipe[(signed long int)0], 4, 04000);
+      if(!(return_value_fcntl_1 == 0))
       {
         cwiid_err(wiimote, "File control error (mesg pipe)");
         return -1;
@@ -4440,9 +4440,9 @@ void cwiid_err(struct wiimote *wiimote, const char *str, ...)
 // file main.c line 121
 void cwiid_err_connect(struct wiimote *wiimote, const char *str, void **ap)
 {
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  if(!(*return_value___errno_location$1 == 112))
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  if(!(*return_value___errno_location_1 == 112))
   {
     vfprintf(stderr, str, ap);
     fprintf(stderr, "\n");
@@ -4460,7 +4460,7 @@ void cwiid_err_default(struct wiimote *wiimote, const char *str, void **ap)
 
 // cwiid_find_wiimote
 // file ../libcwiid/cwiid.h line 399
-signed int cwiid_find_wiimote(struct anonymous$0 *bdaddr, signed int timeout)
+signed int cwiid_find_wiimote(struct anonymous_0 *bdaddr, signed int timeout)
 {
   struct cwiid_bdinfo *bdinfo;
   signed int bdinfo_count;
@@ -4493,7 +4493,7 @@ signed int cwiid_find_wiimote(struct anonymous$0 *bdaddr, signed int timeout)
       }
 
   }
-  bacpy$link1(bdaddr, &(bdinfo + (signed long int)0)->bdaddr);
+  bacpy_link1(bdaddr, &(bdinfo + (signed long int)0)->bdaddr);
   free((void *)bdinfo);
   return 0;
 }
@@ -4528,9 +4528,9 @@ signed int cwiid_get_acc_cal(struct wiimote *wiimote, enum cwiid_ext_type ext_ty
       return -1;
     }
   }
-  signed int return_value_cwiid_read$1;
-  return_value_cwiid_read$1=cwiid_read(wiimote, flags, offset, (unsigned short int)7, (void *)buf);
-  if(!(return_value_cwiid_read$1 == 0))
+  signed int return_value_cwiid_read_1;
+  return_value_cwiid_read_1=cwiid_read(wiimote, flags, offset, (unsigned short int)7, (void *)buf);
+  if(!(return_value_cwiid_read_1 == 0))
   {
     cwiid_err(wiimote, "Read error (%scal)", err_str);
     return -1;
@@ -4553,9 +4553,9 @@ signed int cwiid_get_acc_cal(struct wiimote *wiimote, enum cwiid_ext_type ext_ty
 signed int cwiid_get_balance_cal(struct wiimote *wiimote, struct balance_cal *balance_cal)
 {
   unsigned char buf[24l];
-  signed int return_value_cwiid_read$1;
-  return_value_cwiid_read$1=cwiid_read(wiimote, (unsigned char)0x04, (unsigned int)0xa40024, (unsigned short int)24, (void *)buf);
-  if(!(return_value_cwiid_read$1 == 0))
+  signed int return_value_cwiid_read_1;
+  return_value_cwiid_read_1=cwiid_read(wiimote, (unsigned char)0x04, (unsigned int)0xa40024, (unsigned short int)24, (void *)buf);
+  if(!(return_value_cwiid_read_1 == 0))
   {
     cwiid_err(wiimote, "Read error (balancecal)");
     return -1;
@@ -4583,7 +4583,7 @@ signed int cwiid_get_balance_cal(struct wiimote *wiimote, struct balance_cal *ba
 // file bluetooth.c line 54
 signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signed int max_bdinfo, struct cwiid_bdinfo **bdinfo, unsigned char flags)
 {
-  struct anonymous$2 *dev_list = (struct anonymous$2 *)(void *)0;
+  struct anonymous_2 *dev_list = (struct anonymous_2 *)(void *)0;
   signed int max_inquiry;
   signed int dev_count;
   signed int sock = -1;
@@ -4593,14 +4593,14 @@ signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signe
   signed int err = 0;
   signed int ret;
   *bdinfo = (struct cwiid_bdinfo *)(void *)0;
-  void *return_value_malloc$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strncmp$6;
-  signed int return_value_strncmp$5;
+  void *return_value_malloc_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strncmp_6;
+  signed int return_value_strncmp_5;
   if(dev_id == -1)
   {
-    dev_id=hci_get_route((struct anonymous$0 *)(void *)0);
+    dev_id=hci_get_route((struct anonymous_0 *)(void *)0);
     if(!(dev_id == -1))
       goto __CPROVER_DUMP_L1;
 
@@ -4643,8 +4643,8 @@ signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signe
           if(max_bdinfo == -1)
             max_bdinfo = dev_count;
 
-          return_value_malloc$1=malloc((unsigned long int)max_bdinfo * sizeof(struct cwiid_bdinfo) /*41ul*/ );
-          *bdinfo = (struct cwiid_bdinfo *)return_value_malloc$1;
+          return_value_malloc_1=malloc((unsigned long int)max_bdinfo * sizeof(struct cwiid_bdinfo) /*41ul*/ );
+          *bdinfo = (struct cwiid_bdinfo *)return_value_malloc_1;
           if(*bdinfo == ((struct cwiid_bdinfo *)NULL))
           {
             cwiid_err((struct wiimote *)(void *)0, "Memory allocation error (bdinfo array)");
@@ -4660,23 +4660,23 @@ signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signe
               if((0x01 & (signed int)flags) == 0)
               {
                 if(!((signed int)(dev_list + (signed long int)i)->dev_class[0l] == 0x04))
-                  tmp_if_expr$2 = (_Bool)1;
+                  tmp_if_expr_2 = (_Bool)1;
 
                 else
-                  tmp_if_expr$2 = (signed int)(dev_list + (signed long int)i)->dev_class[(signed long int)1] != 0x25 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$2)
-                  tmp_if_expr$3 = (_Bool)1;
+                  tmp_if_expr_2 = (signed int)(dev_list + (signed long int)i)->dev_class[(signed long int)1] != 0x25 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_2)
+                  tmp_if_expr_3 = (_Bool)1;
 
                 else
-                  tmp_if_expr$3 = (signed int)(dev_list + (signed long int)i)->dev_class[(signed long int)2] != 0x00 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$3)
+                  tmp_if_expr_3 = (signed int)(dev_list + (signed long int)i)->dev_class[(signed long int)2] != 0x00 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_3)
                   goto __CPROVER_DUMP_L19;
 
               }
 
-              signed int return_value_hci_read_remote_name$4;
-              return_value_hci_read_remote_name$4=hci_read_remote_name(sock, &(dev_list + (signed long int)i)->bdaddr, 32, (*bdinfo + (signed long int)bdinfo_count)->name, 10000);
-              if(!(return_value_hci_read_remote_name$4 == 0))
+              signed int return_value_hci_read_remote_name_4;
+              return_value_hci_read_remote_name_4=hci_read_remote_name(sock, &(dev_list + (signed long int)i)->bdaddr, 32, (*bdinfo + (signed long int)bdinfo_count)->name, 10000);
+              if(!(return_value_hci_read_remote_name_4 == 0))
               {
                 cwiid_err((struct wiimote *)(void *)0, "Bluetooth name read error");
                 err = 1;
@@ -4685,12 +4685,12 @@ signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signe
 
               if((0x01 & (signed int)flags) == 0)
               {
-                return_value_strncmp$6=strncmp((*bdinfo + (signed long int)bdinfo_count)->name, "Nintendo RVL-CNT-01", (unsigned long int)32);
-                if(return_value_strncmp$6 == 0)
+                return_value_strncmp_6=strncmp((*bdinfo + (signed long int)bdinfo_count)->name, "Nintendo RVL-CNT-01", (unsigned long int)32);
+                if(return_value_strncmp_6 == 0)
                   goto __CPROVER_DUMP_L16;
 
-                return_value_strncmp$5=strncmp((*bdinfo + (signed long int)bdinfo_count)->name, "Nintendo RVL-WBC-01", (unsigned long int)32);
-                if(return_value_strncmp$5 == 0)
+                return_value_strncmp_5=strncmp((*bdinfo + (signed long int)bdinfo_count)->name, "Nintendo RVL-WBC-01", (unsigned long int)32);
+                if(return_value_strncmp_5 == 0)
                   goto __CPROVER_DUMP_L16;
 
               }
@@ -4700,7 +4700,7 @@ signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signe
 
               __CPROVER_DUMP_L16:
                 ;
-                bacpy$link1(&(*bdinfo + (signed long int)bdinfo_count)->bdaddr, &(dev_list + (signed long int)i)->bdaddr);
+                bacpy_link1(&(*bdinfo + (signed long int)bdinfo_count)->bdaddr, &(dev_list + (signed long int)i)->bdaddr);
                 j = 0;
                 for( ; !(j >= 3); j = j + 1)
                   (*bdinfo + (signed long int)bdinfo_count)->btclass[(signed long int)j] = (dev_list + (signed long int)i)->dev_class[(signed long int)j];
@@ -4716,9 +4716,9 @@ signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signe
             else
               if(!(bdinfo_count >= max_bdinfo))
               {
-                void *return_value_realloc$7;
-                return_value_realloc$7=realloc((void *)*bdinfo, (unsigned long int)bdinfo_count * sizeof(struct cwiid_bdinfo) /*41ul*/ );
-                *bdinfo = (struct cwiid_bdinfo *)return_value_realloc$7;
+                void *return_value_realloc_7;
+                return_value_realloc_7=realloc((void *)*bdinfo, (unsigned long int)bdinfo_count * sizeof(struct cwiid_bdinfo) /*41ul*/ );
+                *bdinfo = (struct cwiid_bdinfo *)return_value_realloc_7;
                 if(*bdinfo == ((struct cwiid_bdinfo *)NULL))
                 {
                   cwiid_err((struct wiimote *)(void *)0, "Memory reallocation error (bdinfo array)");
@@ -4733,7 +4733,7 @@ signed int cwiid_get_bdinfo_array(signed int dev_id, unsigned int timeout, signe
 
   CODA:
     ;
-    if(!(dev_list == ((struct anonymous$2 *)NULL)))
+    if(!(dev_list == ((struct anonymous_2 *)NULL)))
       free((void *)dev_list);
 
     if(!(sock == -1))
@@ -4772,13 +4772,13 @@ signed int cwiid_get_id(struct wiimote *wiimote)
 signed int cwiid_get_mesg(struct wiimote *wiimote, signed int *mesg_count, union cwiid_mesg **mesg, struct timespec *timestamp)
 {
   struct mesg_array ma;
-  signed int return_value_read_mesg_array$2;
-  return_value_read_mesg_array$2=read_mesg_array(wiimote->mesg_pipe[(signed long int)0], &ma);
-  if(!(return_value_read_mesg_array$2 == 0))
+  signed int return_value_read_mesg_array_2;
+  return_value_read_mesg_array_2=read_mesg_array(wiimote->mesg_pipe[(signed long int)0], &ma);
+  if(!(return_value_read_mesg_array_2 == 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 11)
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 11)
       return -1;
 
     else
@@ -4790,9 +4790,9 @@ signed int cwiid_get_mesg(struct wiimote *wiimote, signed int *mesg_count, union
 
   *mesg_count = (signed int)ma.count;
   *timestamp = ma.timestamp;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)ma.count * sizeof(union cwiid_mesg) /*36ul*/ );
-  *mesg = (union cwiid_mesg *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)ma.count * sizeof(union cwiid_mesg) /*36ul*/ );
+  *mesg = (union cwiid_mesg *)return_value_malloc_3;
   if(*mesg == ((union cwiid_mesg *)NULL))
   {
     cwiid_err(wiimote, "Memory allocation error (mesg array)");
@@ -4810,9 +4810,9 @@ signed int cwiid_get_mesg(struct wiimote *wiimote, signed int *mesg_count, union
 // file interface.c line 143
 signed int cwiid_get_state(struct wiimote *wiimote, struct cwiid_state *state)
 {
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&wiimote->state_mutex);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&wiimote->state_mutex);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
   {
     cwiid_err(wiimote, "Mutex lock error (state mutex)");
     return -1;
@@ -4821,9 +4821,9 @@ signed int cwiid_get_state(struct wiimote *wiimote, struct cwiid_state *state)
   else
   {
     memcpy((void *)state, (const void *)&wiimote->state, sizeof(struct cwiid_state) /*60ul*/ );
-    signed int return_value_pthread_mutex_unlock$2;
-    return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&wiimote->state_mutex);
-    if(!(return_value_pthread_mutex_unlock$2 == 0))
+    signed int return_value_pthread_mutex_unlock_2;
+    return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&wiimote->state_mutex);
+    if(!(return_value_pthread_mutex_unlock_2 == 0))
     {
       cwiid_err(wiimote, "Mutex unlock error (state mutex) - deadlock warning");
       return -1;
@@ -4836,18 +4836,18 @@ signed int cwiid_get_state(struct wiimote *wiimote, struct cwiid_state *state)
 
 // cwiid_open
 // file ../libcwiid/cwiid.h line 360
-struct wiimote * cwiid_open(struct anonymous$0 *bdaddr, signed int flags)
+struct wiimote * cwiid_open(struct anonymous_0 *bdaddr, signed int flags)
 {
-  struct wiimote *return_value_cwiid_open_timeout$1;
-  return_value_cwiid_open_timeout$1=cwiid_open_timeout(bdaddr, flags, 5);
-  return return_value_cwiid_open_timeout$1;
+  struct wiimote *return_value_cwiid_open_timeout_1;
+  return_value_cwiid_open_timeout_1=cwiid_open_timeout(bdaddr, flags, 5);
+  return return_value_cwiid_open_timeout_1;
 }
 
 // cwiid_open_timeout
 // file connect.c line 73
-struct wiimote * cwiid_open_timeout(struct anonymous$0 *bdaddr, signed int flags, signed int timeout)
+struct wiimote * cwiid_open_timeout(struct anonymous_0 *bdaddr, signed int flags, signed int timeout)
 {
-  struct wiimote *cwiid_open_timeout$$1$$wiimote = (struct wiimote *)(void *)0;
+  struct wiimote *cwiid_open_timeout__1__wiimote = (struct wiimote *)(void *)0;
   struct sockaddr_l2 remote_addr;
   char mesg_pipe_init = (char)0;
   char status_pipe_init = (char)0;
@@ -4858,55 +4858,55 @@ struct wiimote * cwiid_open_timeout(struct anonymous$0 *bdaddr, signed int flags
   char router_thread_init = (char)0;
   char status_thread_init = (char)0;
   void *pthread_ret;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct wiimote) /*272ul*/ );
-  cwiid_open_timeout$$1$$wiimote = (struct wiimote *)return_value_malloc$1;
-  signed int return_value_pthread_mutex_lock$2;
-  signed int tmp_post$3;
-  signed int return_value_pthread_mutex_unlock$4;
-  struct anonymous$0 literal$6;
-  signed int return_value_bacmp$7;
-  signed int return_value_connect$8;
-  signed int return_value_connect$9;
-  signed int return_value_pipe$10;
-  signed int return_value_pipe$11;
-  signed int return_value_pipe$12;
-  signed int return_value_fcntl$13;
-  signed int return_value_pthread_mutex_init$15;
-  signed int return_value_pthread_mutex_init$16;
-  signed int return_value_pthread_mutex_init$17;
-  signed int return_value_pthread_create$18;
-  signed int return_value_pthread_create$19;
-  if(cwiid_open_timeout$$1$$wiimote == ((struct wiimote *)NULL))
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct wiimote) /*272ul*/ );
+  cwiid_open_timeout__1__wiimote = (struct wiimote *)return_value_malloc_1;
+  signed int return_value_pthread_mutex_lock_2;
+  signed int tmp_post_3;
+  signed int return_value_pthread_mutex_unlock_4;
+  struct anonymous_0 literal_6;
+  signed int return_value_bacmp_7;
+  signed int return_value_connect_8;
+  signed int return_value_connect_9;
+  signed int return_value_pipe_10;
+  signed int return_value_pipe_11;
+  signed int return_value_pipe_12;
+  signed int return_value_fcntl_13;
+  signed int return_value_pthread_mutex_init_15;
+  signed int return_value_pthread_mutex_init_16;
+  signed int return_value_pthread_mutex_init_17;
+  signed int return_value_pthread_create_18;
+  signed int return_value_pthread_create_19;
+  if(cwiid_open_timeout__1__wiimote == ((struct wiimote *)NULL))
     cwiid_err((struct wiimote *)(void *)0, "Memory allocation error (cwiid_wiimote_t)");
 
   else
   {
-    cwiid_open_timeout$$1$$wiimote->flags = flags;
-    cwiid_open_timeout$$1$$wiimote->int_socket = -1;
-    cwiid_open_timeout$$1$$wiimote->ctl_socket = cwiid_open_timeout$$1$$wiimote->int_socket;
-    return_value_pthread_mutex_lock$2=pthread_mutex_lock(&global_mutex);
-    if(!(return_value_pthread_mutex_lock$2 == 0))
+    cwiid_open_timeout__1__wiimote->flags = flags;
+    cwiid_open_timeout__1__wiimote->int_socket = -1;
+    cwiid_open_timeout__1__wiimote->ctl_socket = cwiid_open_timeout__1__wiimote->int_socket;
+    return_value_pthread_mutex_lock_2=pthread_mutex_lock(&global_mutex);
+    if(!(return_value_pthread_mutex_lock_2 == 0))
       cwiid_err((struct wiimote *)(void *)0, "Mutex lock error (global mutex)");
 
     else
     {
-      tmp_post$3 = wiimote_id;
+      tmp_post_3 = wiimote_id;
       wiimote_id = wiimote_id + 1;
-      cwiid_open_timeout$$1$$wiimote->id = tmp_post$3;
-      return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&global_mutex);
-      if(!(return_value_pthread_mutex_unlock$4 == 0))
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Mutex unlock error (global mutex) - deadlock warning");
+      cwiid_open_timeout__1__wiimote->id = tmp_post_3;
+      return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&global_mutex);
+      if(!(return_value_pthread_mutex_unlock_4 == 0))
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Mutex unlock error (global mutex) - deadlock warning");
 
       else
       {
-        literal$6 = (struct anonymous$0){ .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
-        return_value_bacmp$7=bacmp$link1(bdaddr, &literal$6);
-        if(return_value_bacmp$7 == 0)
+        literal_6 = (struct anonymous_0){ .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
+        return_value_bacmp_7=bacmp_link1(bdaddr, &literal_6);
+        if(return_value_bacmp_7 == 0)
         {
-          signed int return_value_cwiid_find_wiimote$5;
-          return_value_cwiid_find_wiimote$5=cwiid_find_wiimote(bdaddr, timeout);
-          if(!(return_value_cwiid_find_wiimote$5 == 0))
+          signed int return_value_cwiid_find_wiimote_5;
+          return_value_cwiid_find_wiimote_5=cwiid_find_wiimote(bdaddr, timeout);
+          if(!(return_value_cwiid_find_wiimote_5 == 0))
             goto ERR_HND;
 
           sleep((unsigned int)1);
@@ -4916,111 +4916,111 @@ struct wiimote * cwiid_open_timeout(struct anonymous$0 *bdaddr, signed int flags
         remote_addr.l2_family = (unsigned short int)31;
         remote_addr.l2_bdaddr = *bdaddr;
         remote_addr.l2_psm = (unsigned short int)17;
-        cwiid_open_timeout$$1$$wiimote->ctl_socket=socket(31, 5, 0);
-        if(cwiid_open_timeout$$1$$wiimote->ctl_socket == -1)
-          cwiid_err(cwiid_open_timeout$$1$$wiimote, "Socket creation error (control socket)");
+        cwiid_open_timeout__1__wiimote->ctl_socket=socket(31, 5, 0);
+        if(cwiid_open_timeout__1__wiimote->ctl_socket == -1)
+          cwiid_err(cwiid_open_timeout__1__wiimote, "Socket creation error (control socket)");
 
         else
         {
-          return_value_connect$8=connect(cwiid_open_timeout$$1$$wiimote->ctl_socket, (struct sockaddr *)&remote_addr, (unsigned int)sizeof(struct sockaddr_l2) /*14ul*/ );
-          if(!(return_value_connect$8 == 0))
-            cwiid_err(cwiid_open_timeout$$1$$wiimote, "Socket connect error (control channel)");
+          return_value_connect_8=connect(cwiid_open_timeout__1__wiimote->ctl_socket, (struct sockaddr *)&remote_addr, (unsigned int)sizeof(struct sockaddr_l2) /*14ul*/ );
+          if(!(return_value_connect_8 == 0))
+            cwiid_err(cwiid_open_timeout__1__wiimote, "Socket connect error (control channel)");
 
           else
           {
             remote_addr.l2_psm = (unsigned short int)19;
-            cwiid_open_timeout$$1$$wiimote->int_socket=socket(31, 5, 0);
-            if(cwiid_open_timeout$$1$$wiimote->int_socket == -1)
-              cwiid_err(cwiid_open_timeout$$1$$wiimote, "Socket creation error (interrupt socket)");
+            cwiid_open_timeout__1__wiimote->int_socket=socket(31, 5, 0);
+            if(cwiid_open_timeout__1__wiimote->int_socket == -1)
+              cwiid_err(cwiid_open_timeout__1__wiimote, "Socket creation error (interrupt socket)");
 
             else
             {
-              return_value_connect$9=connect(cwiid_open_timeout$$1$$wiimote->int_socket, (struct sockaddr *)&remote_addr, (unsigned int)sizeof(struct sockaddr_l2) /*14ul*/ );
-              if(!(return_value_connect$9 == 0))
-                cwiid_err(cwiid_open_timeout$$1$$wiimote, "Socket connect error (interrupt channel)");
+              return_value_connect_9=connect(cwiid_open_timeout__1__wiimote->int_socket, (struct sockaddr *)&remote_addr, (unsigned int)sizeof(struct sockaddr_l2) /*14ul*/ );
+              if(!(return_value_connect_9 == 0))
+                cwiid_err(cwiid_open_timeout__1__wiimote, "Socket connect error (interrupt channel)");
 
               else
               {
-                return_value_pipe$10=pipe(cwiid_open_timeout$$1$$wiimote->mesg_pipe);
-                if(!(return_value_pipe$10 == 0))
-                  cwiid_err(cwiid_open_timeout$$1$$wiimote, "Pipe creation error (mesg pipe)");
+                return_value_pipe_10=pipe(cwiid_open_timeout__1__wiimote->mesg_pipe);
+                if(!(return_value_pipe_10 == 0))
+                  cwiid_err(cwiid_open_timeout__1__wiimote, "Pipe creation error (mesg pipe)");
 
                 else
                 {
                   mesg_pipe_init = (char)1;
-                  return_value_pipe$11=pipe(cwiid_open_timeout$$1$$wiimote->status_pipe);
-                  if(!(return_value_pipe$11 == 0))
-                    cwiid_err(cwiid_open_timeout$$1$$wiimote, "Pipe creation error (status pipe)");
+                  return_value_pipe_11=pipe(cwiid_open_timeout__1__wiimote->status_pipe);
+                  if(!(return_value_pipe_11 == 0))
+                    cwiid_err(cwiid_open_timeout__1__wiimote, "Pipe creation error (status pipe)");
 
                   else
                   {
                     status_pipe_init = (char)1;
-                    return_value_pipe$12=pipe(cwiid_open_timeout$$1$$wiimote->rw_pipe);
-                    if(!(return_value_pipe$12 == 0))
-                      cwiid_err(cwiid_open_timeout$$1$$wiimote, "Pipe creation error (rw pipe)");
+                    return_value_pipe_12=pipe(cwiid_open_timeout__1__wiimote->rw_pipe);
+                    if(!(return_value_pipe_12 == 0))
+                      cwiid_err(cwiid_open_timeout__1__wiimote, "Pipe creation error (rw pipe)");
 
                     else
                     {
                       rw_pipe_init = (char)1;
-                      return_value_fcntl$13=fcntl(cwiid_open_timeout$$1$$wiimote->mesg_pipe[(signed long int)1], 4, 04000);
-                      if(!(return_value_fcntl$13 == 0))
-                        cwiid_err(cwiid_open_timeout$$1$$wiimote, "File control error (mesg write pipe)");
+                      return_value_fcntl_13=fcntl(cwiid_open_timeout__1__wiimote->mesg_pipe[(signed long int)1], 4, 04000);
+                      if(!(return_value_fcntl_13 == 0))
+                        cwiid_err(cwiid_open_timeout__1__wiimote, "File control error (mesg write pipe)");
 
                       else
                       {
-                        if(!((0x08 & cwiid_open_timeout$$1$$wiimote->flags) == 0))
+                        if(!((0x08 & cwiid_open_timeout__1__wiimote->flags) == 0))
                         {
-                          signed int return_value_fcntl$14;
-                          return_value_fcntl$14=fcntl(cwiid_open_timeout$$1$$wiimote->mesg_pipe[(signed long int)0], 4, 04000);
-                          if(!(return_value_fcntl$14 == 0))
+                          signed int return_value_fcntl_14;
+                          return_value_fcntl_14=fcntl(cwiid_open_timeout__1__wiimote->mesg_pipe[(signed long int)0], 4, 04000);
+                          if(!(return_value_fcntl_14 == 0))
                           {
-                            cwiid_err(cwiid_open_timeout$$1$$wiimote, "File control error (mesg read pipe)");
+                            cwiid_err(cwiid_open_timeout__1__wiimote, "File control error (mesg read pipe)");
                             goto ERR_HND;
                           }
 
                         }
 
-                        return_value_pthread_mutex_init$15=pthread_mutex_init(&cwiid_open_timeout$$1$$wiimote->state_mutex, (const union anonymous$12 *)(void *)0);
-                        if(!(return_value_pthread_mutex_init$15 == 0))
-                          cwiid_err(cwiid_open_timeout$$1$$wiimote, "Mutex initialization error (state mutex)");
+                        return_value_pthread_mutex_init_15=pthread_mutex_init(&cwiid_open_timeout__1__wiimote->state_mutex, (const union anonymous_12 *)(void *)0);
+                        if(!(return_value_pthread_mutex_init_15 == 0))
+                          cwiid_err(cwiid_open_timeout__1__wiimote, "Mutex initialization error (state mutex)");
 
                         else
                         {
                           state_mutex_init = (char)1;
-                          return_value_pthread_mutex_init$16=pthread_mutex_init(&cwiid_open_timeout$$1$$wiimote->rw_mutex, (const union anonymous$12 *)(void *)0);
-                          if(!(return_value_pthread_mutex_init$16 == 0))
-                            cwiid_err(cwiid_open_timeout$$1$$wiimote, "Mutex initialization error (rw mutex)");
+                          return_value_pthread_mutex_init_16=pthread_mutex_init(&cwiid_open_timeout__1__wiimote->rw_mutex, (const union anonymous_12 *)(void *)0);
+                          if(!(return_value_pthread_mutex_init_16 == 0))
+                            cwiid_err(cwiid_open_timeout__1__wiimote, "Mutex initialization error (rw mutex)");
 
                           else
                           {
                             rw_mutex_init = (char)1;
-                            return_value_pthread_mutex_init$17=pthread_mutex_init(&cwiid_open_timeout$$1$$wiimote->rpt_mutex, (const union anonymous$12 *)(void *)0);
-                            if(!(return_value_pthread_mutex_init$17 == 0))
-                              cwiid_err(cwiid_open_timeout$$1$$wiimote, "Mutex initialization error (rpt mutex)");
+                            return_value_pthread_mutex_init_17=pthread_mutex_init(&cwiid_open_timeout__1__wiimote->rpt_mutex, (const union anonymous_12 *)(void *)0);
+                            if(!(return_value_pthread_mutex_init_17 == 0))
+                              cwiid_err(cwiid_open_timeout__1__wiimote, "Mutex initialization error (rpt mutex)");
 
                             else
                             {
                               rpt_mutex_init = (char)1;
-                              cwiid_open_timeout$$1$$wiimote->rw_status = (enum rw_status)RW_IDLE;
-                              return_value_pthread_create$18=pthread_create(&cwiid_open_timeout$$1$$wiimote->router_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))router_thread, (void *)cwiid_open_timeout$$1$$wiimote);
-                              if(!(return_value_pthread_create$18 == 0))
-                                cwiid_err(cwiid_open_timeout$$1$$wiimote, "Thread creation error (router thread)");
+                              cwiid_open_timeout__1__wiimote->rw_status = (enum rw_status)RW_IDLE;
+                              return_value_pthread_create_18=pthread_create(&cwiid_open_timeout__1__wiimote->router_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))router_thread, (void *)cwiid_open_timeout__1__wiimote);
+                              if(!(return_value_pthread_create_18 == 0))
+                                cwiid_err(cwiid_open_timeout__1__wiimote, "Thread creation error (router thread)");
 
                               else
                               {
                                 router_thread_init = (char)1;
-                                return_value_pthread_create$19=pthread_create(&cwiid_open_timeout$$1$$wiimote->status_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))status_thread, (void *)cwiid_open_timeout$$1$$wiimote);
-                                if(!(return_value_pthread_create$19 == 0))
-                                  cwiid_err(cwiid_open_timeout$$1$$wiimote, "Thread creation error (status thread)");
+                                return_value_pthread_create_19=pthread_create(&cwiid_open_timeout__1__wiimote->status_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))status_thread, (void *)cwiid_open_timeout__1__wiimote);
+                                if(!(return_value_pthread_create_19 == 0))
+                                  cwiid_err(cwiid_open_timeout__1__wiimote, "Thread creation error (status thread)");
 
                                 else
                                 {
                                   status_thread_init = (char)1;
-                                  memset((void *)&cwiid_open_timeout$$1$$wiimote->state, 0, sizeof(struct cwiid_state) /*60ul*/ );
-                                  cwiid_open_timeout$$1$$wiimote->mesg_callback = (void (*)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *))(void *)0;
-                                  cwiid_set_led(cwiid_open_timeout$$1$$wiimote, (unsigned char)0);
-                                  cwiid_request_status(cwiid_open_timeout$$1$$wiimote);
-                                  return cwiid_open_timeout$$1$$wiimote;
+                                  memset((void *)&cwiid_open_timeout__1__wiimote->state, 0, sizeof(struct cwiid_state) /*60ul*/ );
+                                  cwiid_open_timeout__1__wiimote->mesg_callback = (void (*)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *))(void *)0;
+                                  cwiid_set_led(cwiid_open_timeout__1__wiimote, (unsigned char)0);
+                                  cwiid_request_status(cwiid_open_timeout__1__wiimote);
+                                  return cwiid_open_timeout__1__wiimote;
                                 }
                               }
                             }
@@ -5040,139 +5040,139 @@ struct wiimote * cwiid_open_timeout(struct anonymous$0 *bdaddr, signed int flags
 
 ERR_HND:
   ;
-  _Bool tmp_if_expr$26;
-  signed int return_value_close$25;
-  _Bool tmp_if_expr$29;
-  signed int return_value_close$28;
-  _Bool tmp_if_expr$32;
-  signed int return_value_close$31;
-  if(!(cwiid_open_timeout$$1$$wiimote == ((struct wiimote *)NULL)))
+  _Bool tmp_if_expr_26;
+  signed int return_value_close_25;
+  _Bool tmp_if_expr_29;
+  signed int return_value_close_28;
+  _Bool tmp_if_expr_32;
+  signed int return_value_close_31;
+  if(!(cwiid_open_timeout__1__wiimote == ((struct wiimote *)NULL)))
   {
     if(!(router_thread_init == 0))
     {
-      pthread_cancel(cwiid_open_timeout$$1$$wiimote->router_thread);
-      signed int return_value_pthread_join$20;
-      return_value_pthread_join$20=pthread_join(cwiid_open_timeout$$1$$wiimote->router_thread, &pthread_ret);
-      if(!(return_value_pthread_join$20 == 0))
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Thread join error (router thread)");
+      pthread_cancel(cwiid_open_timeout__1__wiimote->router_thread);
+      signed int return_value_pthread_join_20;
+      return_value_pthread_join_20=pthread_join(cwiid_open_timeout__1__wiimote->router_thread, &pthread_ret);
+      if(!(return_value_pthread_join_20 == 0))
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Thread join error (router thread)");
 
       else
         if(!(pthread_ret == NULL) || !(pthread_ret == (void *)-1))
-          cwiid_err(cwiid_open_timeout$$1$$wiimote, "Bad return value from router thread");
+          cwiid_err(cwiid_open_timeout__1__wiimote, "Bad return value from router thread");
 
     }
 
     if(!(status_thread_init == 0))
     {
-      pthread_cancel(cwiid_open_timeout$$1$$wiimote->status_thread);
-      signed int return_value_pthread_join$21;
-      return_value_pthread_join$21=pthread_join(cwiid_open_timeout$$1$$wiimote->status_thread, &pthread_ret);
-      if(!(return_value_pthread_join$21 == 0))
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Thread join error (status thread)");
+      pthread_cancel(cwiid_open_timeout__1__wiimote->status_thread);
+      signed int return_value_pthread_join_21;
+      return_value_pthread_join_21=pthread_join(cwiid_open_timeout__1__wiimote->status_thread, &pthread_ret);
+      if(!(return_value_pthread_join_21 == 0))
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Thread join error (status thread)");
 
       else
         if(!(pthread_ret == NULL) || !(pthread_ret == (void *)-1))
-          cwiid_err(cwiid_open_timeout$$1$$wiimote, "Bad return value from status thread");
+          cwiid_err(cwiid_open_timeout__1__wiimote, "Bad return value from status thread");
 
     }
 
-    if(!(cwiid_open_timeout$$1$$wiimote->int_socket == -1))
+    if(!(cwiid_open_timeout__1__wiimote->int_socket == -1))
     {
-      signed int return_value_close$22;
-      return_value_close$22=close(cwiid_open_timeout$$1$$wiimote->int_socket);
-      if(!(return_value_close$22 == 0))
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Socket close error (interrupt channel)");
+      signed int return_value_close_22;
+      return_value_close_22=close(cwiid_open_timeout__1__wiimote->int_socket);
+      if(!(return_value_close_22 == 0))
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Socket close error (interrupt channel)");
 
     }
 
-    if(!(cwiid_open_timeout$$1$$wiimote->ctl_socket == -1))
+    if(!(cwiid_open_timeout__1__wiimote->ctl_socket == -1))
     {
-      signed int return_value_close$23;
-      return_value_close$23=close(cwiid_open_timeout$$1$$wiimote->ctl_socket);
-      if(!(return_value_close$23 == 0))
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Socket close error (control channel)");
+      signed int return_value_close_23;
+      return_value_close_23=close(cwiid_open_timeout__1__wiimote->ctl_socket);
+      if(!(return_value_close_23 == 0))
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Socket close error (control channel)");
 
     }
 
     if(!(mesg_pipe_init == 0))
     {
-      signed int return_value_close$24;
-      return_value_close$24=close(cwiid_open_timeout$$1$$wiimote->mesg_pipe[(signed long int)0]);
-      if(!(return_value_close$24 == 0))
-        tmp_if_expr$26 = (_Bool)1;
+      signed int return_value_close_24;
+      return_value_close_24=close(cwiid_open_timeout__1__wiimote->mesg_pipe[(signed long int)0]);
+      if(!(return_value_close_24 == 0))
+        tmp_if_expr_26 = (_Bool)1;
 
       else
       {
-        return_value_close$25=close(cwiid_open_timeout$$1$$wiimote->mesg_pipe[(signed long int)1]);
-        tmp_if_expr$26 = return_value_close$25 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_close_25=close(cwiid_open_timeout__1__wiimote->mesg_pipe[(signed long int)1]);
+        tmp_if_expr_26 = return_value_close_25 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$26)
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Pipe close error (mesg pipe)");
+      if(tmp_if_expr_26)
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Pipe close error (mesg pipe)");
 
     }
 
     if(!(status_pipe_init == 0))
     {
-      signed int return_value_close$27;
-      return_value_close$27=close(cwiid_open_timeout$$1$$wiimote->status_pipe[(signed long int)0]);
-      if(!(return_value_close$27 == 0))
-        tmp_if_expr$29 = (_Bool)1;
+      signed int return_value_close_27;
+      return_value_close_27=close(cwiid_open_timeout__1__wiimote->status_pipe[(signed long int)0]);
+      if(!(return_value_close_27 == 0))
+        tmp_if_expr_29 = (_Bool)1;
 
       else
       {
-        return_value_close$28=close(cwiid_open_timeout$$1$$wiimote->status_pipe[(signed long int)1]);
-        tmp_if_expr$29 = return_value_close$28 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_close_28=close(cwiid_open_timeout__1__wiimote->status_pipe[(signed long int)1]);
+        tmp_if_expr_29 = return_value_close_28 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$29)
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Pipe close error (status pipe)");
+      if(tmp_if_expr_29)
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Pipe close error (status pipe)");
 
     }
 
     if(!(rw_pipe_init == 0))
     {
-      signed int return_value_close$30;
-      return_value_close$30=close(cwiid_open_timeout$$1$$wiimote->rw_pipe[(signed long int)0]);
-      if(!(return_value_close$30 == 0))
-        tmp_if_expr$32 = (_Bool)1;
+      signed int return_value_close_30;
+      return_value_close_30=close(cwiid_open_timeout__1__wiimote->rw_pipe[(signed long int)0]);
+      if(!(return_value_close_30 == 0))
+        tmp_if_expr_32 = (_Bool)1;
 
       else
       {
-        return_value_close$31=close(cwiid_open_timeout$$1$$wiimote->rw_pipe[(signed long int)1]);
-        tmp_if_expr$32 = return_value_close$31 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_close_31=close(cwiid_open_timeout__1__wiimote->rw_pipe[(signed long int)1]);
+        tmp_if_expr_32 = return_value_close_31 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$32)
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Pipe close error (rw pipe)");
+      if(tmp_if_expr_32)
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Pipe close error (rw pipe)");
 
     }
 
     if(!(state_mutex_init == 0))
     {
-      signed int return_value_pthread_mutex_destroy$33;
-      return_value_pthread_mutex_destroy$33=pthread_mutex_destroy(&cwiid_open_timeout$$1$$wiimote->state_mutex);
-      if(!(return_value_pthread_mutex_destroy$33 == 0))
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Mutex destroy error (state mutex)");
+      signed int return_value_pthread_mutex_destroy_33;
+      return_value_pthread_mutex_destroy_33=pthread_mutex_destroy(&cwiid_open_timeout__1__wiimote->state_mutex);
+      if(!(return_value_pthread_mutex_destroy_33 == 0))
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Mutex destroy error (state mutex)");
 
     }
 
     if(!(rw_mutex_init == 0))
     {
-      signed int return_value_pthread_mutex_destroy$34;
-      return_value_pthread_mutex_destroy$34=pthread_mutex_destroy(&cwiid_open_timeout$$1$$wiimote->rw_mutex);
-      if(!(return_value_pthread_mutex_destroy$34 == 0))
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Mutex destroy error (rw mutex)");
+      signed int return_value_pthread_mutex_destroy_34;
+      return_value_pthread_mutex_destroy_34=pthread_mutex_destroy(&cwiid_open_timeout__1__wiimote->rw_mutex);
+      if(!(return_value_pthread_mutex_destroy_34 == 0))
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Mutex destroy error (rw mutex)");
 
     }
 
     if(!(rpt_mutex_init == 0))
     {
-      signed int return_value_pthread_mutex_destroy$35;
-      return_value_pthread_mutex_destroy$35=pthread_mutex_destroy(&cwiid_open_timeout$$1$$wiimote->rpt_mutex);
-      if(!(return_value_pthread_mutex_destroy$35 == 0))
-        cwiid_err(cwiid_open_timeout$$1$$wiimote, "Mutex destroy error (rpt mutex)");
+      signed int return_value_pthread_mutex_destroy_35;
+      return_value_pthread_mutex_destroy_35=pthread_mutex_destroy(&cwiid_open_timeout__1__wiimote->rpt_mutex);
+      if(!(return_value_pthread_mutex_destroy_35 == 0))
+        cwiid_err(cwiid_open_timeout__1__wiimote, "Mutex destroy error (rpt mutex)");
 
     }
 
-    free((void *)cwiid_open_timeout$$1$$wiimote);
+    free((void *)cwiid_open_timeout__1__wiimote);
   }
 
   return (struct wiimote *)(void *)0;
@@ -5192,9 +5192,9 @@ signed int cwiid_read(struct wiimote *wiimote, unsigned char flags, unsigned int
   buf[(signed long int)3] = (unsigned char)(offset & (unsigned int)0xFF);
   buf[(signed long int)4] = (unsigned char)((signed int)len >> 8 & 0xFF);
   buf[(signed long int)5] = (unsigned char)((signed int)len & 0xFF);
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&wiimote->rw_mutex);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&wiimote->rw_mutex);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
   {
     cwiid_err(wiimote, "Mutex lock error (rw_mutex)");
     return -1;
@@ -5203,9 +5203,9 @@ signed int cwiid_read(struct wiimote *wiimote, unsigned char flags, unsigned int
   else
   {
     wiimote->rw_status = (enum rw_status)RW_READ;
-    signed int return_value_cwiid_send_rpt$2;
-    return_value_cwiid_send_rpt$2=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x17, (unsigned long int)6, (const void *)buf);
-    if(!(return_value_cwiid_send_rpt$2 == 0))
+    signed int return_value_cwiid_send_rpt_2;
+    return_value_cwiid_send_rpt_2=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x17, (unsigned long int)6, (const void *)buf);
+    if(!(return_value_cwiid_send_rpt_2 == 0))
     {
       cwiid_err(wiimote, "Report send error (read)");
       ret = -1;
@@ -5216,9 +5216,9 @@ signed int cwiid_read(struct wiimote *wiimote, unsigned char flags, unsigned int
       cursor = (unsigned char *)data;
       for( ; !(cursor - (unsigned char *)data >= (signed long int)len); cursor = cursor + (signed long int)mesg.len)
       {
-        signed int return_value_full_read$3;
-        return_value_full_read$3=full_read(wiimote->rw_pipe[(signed long int)0], (void *)&mesg, sizeof(struct rw_mesg) /*32ul*/ );
-        if(!(return_value_full_read$3 == 0))
+        signed int return_value_full_read_3;
+        return_value_full_read_3=full_read(wiimote->rw_pipe[(signed long int)0], (void *)&mesg, sizeof(struct rw_mesg) /*32ul*/ );
+        if(!(return_value_full_read_3 == 0))
         {
           cwiid_err(wiimote, "Pipe read error (rw pipe)");
           ret = -1;
@@ -5253,9 +5253,9 @@ signed int cwiid_read(struct wiimote *wiimote, unsigned char flags, unsigned int
   CODA:
     ;
     wiimote->rw_status = (enum rw_status)RW_IDLE;
-    signed int return_value_pthread_mutex_unlock$4;
-    return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&wiimote->rw_mutex);
-    if(!(return_value_pthread_mutex_unlock$4 == 0))
+    signed int return_value_pthread_mutex_unlock_4;
+    return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&wiimote->rw_mutex);
+    if(!(return_value_pthread_mutex_unlock_4 == 0))
       cwiid_err(wiimote, "Mutex unlock error (rw_mutex) - deadlock warning");
 
     return ret;
@@ -5267,9 +5267,9 @@ signed int cwiid_read(struct wiimote *wiimote, unsigned char flags, unsigned int
 signed int cwiid_request_status(struct wiimote *wiimote)
 {
   unsigned char data = (unsigned char)0;
-  signed int return_value_cwiid_send_rpt$1;
-  return_value_cwiid_send_rpt$1=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x15, (unsigned long int)1, (const void *)&data);
-  if(!(return_value_cwiid_send_rpt$1 == 0))
+  signed int return_value_cwiid_send_rpt_1;
+  return_value_cwiid_send_rpt_1=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x15, (unsigned long int)1, (const void *)&data);
+  if(!(return_value_cwiid_send_rpt_1 == 0))
   {
     cwiid_err(wiimote, "Status request error");
     return -1;
@@ -5284,10 +5284,10 @@ signed int cwiid_request_status(struct wiimote *wiimote)
 signed int cwiid_send_rpt(struct wiimote *wiimote, unsigned char flags, unsigned char report, unsigned long int len, const void *data)
 {
   unsigned char *buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(len * (unsigned long int)2 * sizeof(unsigned char) /*1ul*/ );
-  buf = (unsigned char *)return_value_malloc$1;
-  signed int return_value_verify_handshake$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(len * (unsigned long int)2 * sizeof(unsigned char) /*1ul*/ );
+  buf = (unsigned char *)return_value_malloc_1;
+  signed int return_value_verify_handshake_2;
   if(buf == ((unsigned char *)NULL))
   {
     cwiid_err(wiimote, "Memory allocation error (mesg array)");
@@ -5302,9 +5302,9 @@ signed int cwiid_send_rpt(struct wiimote *wiimote, unsigned char flags, unsigned
     if((0x01 & (signed int)flags) == 0)
       buf[(signed long int)2] = buf[(signed long int)2] | wiimote->state.rumble;
 
-    signed long int return_value_write$3;
-    return_value_write$3=write(wiimote->ctl_socket, (const void *)buf, len + (unsigned long int)2);
-    if(!(return_value_write$3 == 2l + (signed long int)len))
+    signed long int return_value_write_3;
+    return_value_write_3=write(wiimote->ctl_socket, (const void *)buf, len + (unsigned long int)2);
+    if(!(return_value_write_3 == 2l + (signed long int)len))
     {
       free((void *)buf);
       return -1;
@@ -5312,8 +5312,8 @@ signed int cwiid_send_rpt(struct wiimote *wiimote, unsigned char flags, unsigned
 
     else
     {
-      return_value_verify_handshake$2=verify_handshake(wiimote);
-      if(!(return_value_verify_handshake$2 == 0))
+      return_value_verify_handshake_2=verify_handshake(wiimote);
+      if(!(return_value_verify_handshake_2 == 0))
       {
         free((void *)buf);
         return -1;
@@ -5347,9 +5347,9 @@ signed int cwiid_set_led(struct wiimote *wiimote, unsigned char led)
   unsigned char data;
   wiimote->state.led = (unsigned char)((signed int)led & 0x0F);
   data = (unsigned char)((signed int)wiimote->state.led << 4);
-  signed int return_value_cwiid_send_rpt$1;
-  return_value_cwiid_send_rpt$1=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x11, (unsigned long int)1, (const void *)&data);
-  if(!(return_value_cwiid_send_rpt$1 == 0))
+  signed int return_value_cwiid_send_rpt_1;
+  return_value_cwiid_send_rpt_1=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x11, (unsigned long int)1, (const void *)&data);
+  if(!(return_value_cwiid_send_rpt_1 == 0))
   {
     cwiid_err(wiimote, "Report send error (led)");
     return -1;
@@ -5365,9 +5365,9 @@ signed int cwiid_set_mesg_callback(struct wiimote *wiimote, void (*callback)(str
 {
   if(!(wiimote->mesg_callback == ((void (*)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *))NULL)))
   {
-    signed int return_value_cancel_mesg_callback$1;
-    return_value_cancel_mesg_callback$1=cancel_mesg_callback(wiimote);
-    if(!(return_value_cancel_mesg_callback$1 == 0))
+    signed int return_value_cancel_mesg_callback_1;
+    return_value_cancel_mesg_callback_1=cancel_mesg_callback(wiimote);
+    if(!(return_value_cancel_mesg_callback_1 == 0))
       return -1;
 
   }
@@ -5375,9 +5375,9 @@ signed int cwiid_set_mesg_callback(struct wiimote *wiimote, void (*callback)(str
   wiimote->mesg_callback = callback;
   if(!(wiimote->mesg_callback == ((void (*)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *))NULL)))
   {
-    signed int return_value_pthread_create$2;
-    return_value_pthread_create$2=pthread_create(&wiimote->mesg_callback_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))mesg_callback_thread, (void *)wiimote);
-    if(!(return_value_pthread_create$2 == 0))
+    signed int return_value_pthread_create_2;
+    return_value_pthread_create_2=pthread_create(&wiimote->mesg_callback_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))mesg_callback_thread, (void *)wiimote);
+    if(!(return_value_pthread_create_2 == 0))
     {
       cwiid_err(wiimote, "Thread creation error (callback thread)");
       return -1;
@@ -5392,9 +5392,9 @@ signed int cwiid_set_mesg_callback(struct wiimote *wiimote, void (*callback)(str
 // file ../libcwiid/cwiid.h line 389
 signed int cwiid_set_rpt_mode(struct wiimote *wiimote, unsigned char rpt_mode)
 {
-  signed int return_value_update_rpt_mode$1;
-  return_value_update_rpt_mode$1=update_rpt_mode(wiimote, (signed char)rpt_mode);
-  return return_value_update_rpt_mode$1;
+  signed int return_value_update_rpt_mode_1;
+  return_value_update_rpt_mode_1=update_rpt_mode(wiimote, (signed char)rpt_mode);
+  return return_value_update_rpt_mode_1;
 }
 
 // cwiid_set_rumble
@@ -5404,9 +5404,9 @@ signed int cwiid_set_rumble(struct wiimote *wiimote, unsigned char rumble)
   unsigned char data;
   wiimote->state.rumble = (unsigned char)(rumble != 0 ? 1 : 0);
   data = (unsigned char)((signed int)wiimote->state.led << 4);
-  signed int return_value_cwiid_send_rpt$1;
-  return_value_cwiid_send_rpt$1=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x11, (unsigned long int)1, (const void *)&data);
-  if(!(return_value_cwiid_send_rpt$1 == 0))
+  signed int return_value_cwiid_send_rpt_1;
+  return_value_cwiid_send_rpt_1=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x11, (unsigned long int)1, (const void *)&data);
+  if(!(return_value_cwiid_send_rpt_1 == 0))
   {
     cwiid_err(wiimote, "Report send error (led)");
     return -1;
@@ -5425,9 +5425,9 @@ signed int cwiid_write(struct wiimote *wiimote, unsigned char flags, unsigned in
   struct rw_mesg mesg;
   signed int ret = 0;
   buf[(signed long int)0] = flags;
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&wiimote->rw_mutex);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&wiimote->rw_mutex);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
   {
     cwiid_err(wiimote, "Mutex lock error (rw mutex)");
     return -1;
@@ -5447,18 +5447,18 @@ signed int cwiid_write(struct wiimote *wiimote, unsigned char flags, unsigned in
       else
         buf[(signed long int)4] = (unsigned char)((signed int)len - (signed int)sent);
       memcpy((void *)(buf + (signed long int)5), data + (signed long int)sent, (unsigned long int)buf[(signed long int)4]);
-      signed int return_value_cwiid_send_rpt$2;
-      return_value_cwiid_send_rpt$2=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x16, (unsigned long int)21, (const void *)buf);
-      if(!(return_value_cwiid_send_rpt$2 == 0))
+      signed int return_value_cwiid_send_rpt_2;
+      return_value_cwiid_send_rpt_2=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x16, (unsigned long int)21, (const void *)buf);
+      if(!(return_value_cwiid_send_rpt_2 == 0))
       {
         cwiid_err(wiimote, "Report send error (write)");
         ret = -1;
         break;
       }
 
-      signed long int return_value_read$3;
-      return_value_read$3=read(wiimote->rw_pipe[(signed long int)0], (void *)&mesg, sizeof(struct rw_mesg) /*32ul*/ );
-      if(!((unsigned long int)return_value_read$3 == sizeof(struct rw_mesg) /*32ul*/ ))
+      signed long int return_value_read_3;
+      return_value_read_3=read(wiimote->rw_pipe[(signed long int)0], (void *)&mesg, sizeof(struct rw_mesg) /*32ul*/ );
+      if(!((unsigned long int)return_value_read_3 == sizeof(struct rw_mesg) /*32ul*/ ))
       {
         cwiid_err(wiimote, "Pipe read error (rw pipe)");
         ret = -1;
@@ -5492,9 +5492,9 @@ signed int cwiid_write(struct wiimote *wiimote, unsigned char flags, unsigned in
   CODA:
     ;
     wiimote->rw_status = (enum rw_status)RW_IDLE;
-    signed int return_value_pthread_mutex_unlock$4;
-    return_value_pthread_mutex_unlock$4=pthread_mutex_unlock(&wiimote->rw_mutex);
-    if(!(return_value_pthread_mutex_unlock$4 == 0))
+    signed int return_value_pthread_mutex_unlock_4;
+    return_value_pthread_mutex_unlock_4=pthread_mutex_unlock(&wiimote->rw_mutex);
+    if(!(return_value_pthread_mutex_unlock_4 == 0))
       cwiid_err(wiimote, "Mutex unlock error (rw_mutex) - deadlock warning");
 
     return ret;
@@ -5506,23 +5506,23 @@ signed int cwiid_write(struct wiimote *wiimote, unsigned char flags, unsigned in
 signed int exec_write_seq(struct wiimote *wiimote, unsigned int len, struct write_seq *seq)
 {
   unsigned int i = (unsigned int)0;
-  signed int return_value_cwiid_send_rpt$1;
-  signed int return_value_cwiid_write$2;
+  signed int return_value_cwiid_send_rpt_1;
+  signed int return_value_cwiid_write_2;
   for( ; !(i >= len); i = i + 1u)
     switch((signed int)(seq + (signed long int)i)->type)
     {
       case WRITE_SEQ_RPT:
       {
-        return_value_cwiid_send_rpt$1=cwiid_send_rpt(wiimote, (seq + (signed long int)i)->flags, (unsigned char)(seq + (signed long int)i)->report_offset, (unsigned long int)(seq + (signed long int)i)->len, (seq + (signed long int)i)->data);
-        if(!(return_value_cwiid_send_rpt$1 == 0))
+        return_value_cwiid_send_rpt_1=cwiid_send_rpt(wiimote, (seq + (signed long int)i)->flags, (unsigned char)(seq + (signed long int)i)->report_offset, (unsigned long int)(seq + (signed long int)i)->len, (seq + (signed long int)i)->data);
+        if(!(return_value_cwiid_send_rpt_1 == 0))
           return -1;
 
         break;
       }
       case WRITE_SEQ_MEM:
       {
-        return_value_cwiid_write$2=cwiid_write(wiimote, (seq + (signed long int)i)->flags, (seq + (signed long int)i)->report_offset, (seq + (signed long int)i)->len, (seq + (signed long int)i)->data);
-        if(!(return_value_cwiid_write$2 == 0))
+        return_value_cwiid_write_2=cwiid_write(wiimote, (seq + (signed long int)i)->flags, (seq + (signed long int)i)->report_offset, (seq + (signed long int)i)->len, (seq + (signed long int)i)->data);
+        if(!(return_value_cwiid_write_2 == 0))
           return -1;
 
       }
@@ -5556,15 +5556,15 @@ struct plugin * get_plugin(struct conf *conf, const char *name)
   char plugin_found = (char)0;
   struct plugin *plugin;
   i = 0;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   for( ; !(i >= 6); i = i + 1)
     if(conf->plugins[(signed long int)i].name == ((char *)NULL))
       break;
 
     else
     {
-      return_value_strcmp$1=strcmp(conf->plugins[(signed long int)i].name, name);
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(conf->plugins[(signed long int)i].name, name);
+      if(return_value_strcmp_1 == 0)
         return &conf->plugins[(signed long int)i];
 
     }
@@ -5581,17 +5581,17 @@ struct plugin * get_plugin(struct conf *conf, const char *name)
     i = 0;
     for( ; !(conf->plugin_search_dirs[(signed long int)i] == ((char *)NULL)); i = i + 1)
     {
-      signed int return_value_c_plugin_open$2;
-      return_value_c_plugin_open$2=c_plugin_open(plugin, conf->plugin_search_dirs[(signed long int)i]);
-      if(return_value_c_plugin_open$2 == 0)
+      signed int return_value_c_plugin_open_2;
+      return_value_c_plugin_open_2=c_plugin_open(plugin, conf->plugin_search_dirs[(signed long int)i]);
+      if(return_value_c_plugin_open_2 == 0)
       {
         plugin_found = (char)1;
         break;
       }
 
-      signed int return_value_py_plugin_open$3;
-      return_value_py_plugin_open$3=py_plugin_open(plugin, conf->plugin_search_dirs[(signed long int)i]);
-      if(return_value_py_plugin_open$3 == 0)
+      signed int return_value_py_plugin_open_3;
+      return_value_py_plugin_open_3=py_plugin_open(plugin, conf->plugin_search_dirs[(signed long int)i]);
+      if(return_value_py_plugin_open_3 == 0)
       {
         plugin_found = (char)1;
         break;
@@ -5618,9 +5618,9 @@ signed int lookup_action(const char *str_action)
   signed int i = 0;
   while(!(action_enum[(signed long int)i].name == ((const char *)NULL)))
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(str_action, action_enum[(signed long int)i].name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(str_action, action_enum[(signed long int)i].name);
+    if(return_value_strcmp_1 == 0)
       return (signed int)action_enum[(signed long int)i].value;
 
     i = i + 1;
@@ -5645,8 +5645,8 @@ signed int main(signed int argc, char **argv)
   signed int c;
   signed int i;
   char *str_addr;
-  struct anonymous$0 bdaddr;
-  struct anonymous$0 current_bdaddr;
+  struct anonymous_0 bdaddr;
+  struct anonymous_0 current_bdaddr;
   struct anonymous sigset;
   signed int signum;
   signed int ret = 0;
@@ -5703,9 +5703,9 @@ signed int main(signed int argc, char **argv)
         reconnect = (char)1;
         if(!(optarg == ((char *)NULL)))
         {
-          signed long int return_value_strtol$1;
-          return_value_strtol$1=strtol(optarg, &tmp, 10);
-          reconnect_wait = (char)return_value_strtol$1;
+          signed long int return_value_strtol_1;
+          return_value_strtol_1=strtol(optarg, &tmp, 10);
+          reconnect_wait = (char)return_value_strtol_1;
           if(!((signed int)*tmp == 0))
           {
             wminput_err("bad reconnect wait time");
@@ -5730,20 +5730,20 @@ signed int main(signed int argc, char **argv)
         return -1;
     }
   }
-  signed int return_value_c_init$2;
-  return_value_c_init$2=c_init();
-  _Bool tmp_if_expr$16;
-  signed int return_value_c_plugin_init$17;
-  signed int return_value_py_plugin_init$18;
-  signed int return_value_pthread_join$21;
-  if(!(return_value_c_init$2 == 0))
+  signed int return_value_c_init_2;
+  return_value_c_init_2=c_init();
+  _Bool tmp_if_expr_16;
+  signed int return_value_c_plugin_init_17;
+  signed int return_value_py_plugin_init_18;
+  signed int return_value_pthread_join_21;
+  if(!(return_value_c_init_2 == 0))
     return -1;
 
   else
   {
-    signed int return_value_py_init$3;
-    return_value_py_init$3=py_init();
-    if(!(return_value_py_init$3 == 0))
+    signed int return_value_py_init_3;
+    return_value_py_init_3=py_init();
+    if(!(return_value_py_init_3 == 0))
       return -1;
 
     else
@@ -5769,22 +5769,22 @@ signed int main(signed int argc, char **argv)
         plugin_search_dirs[(signed long int)2] = (char *)(void *)0;
         config_search_dirs[(signed long int)2] = plugin_search_dirs[(signed long int)2];
       }
-      signed int return_value_conf_load$4;
-      return_value_conf_load$4=conf_load(&conf, config_filename, config_search_dirs, plugin_search_dirs);
-      if(!(return_value_conf_load$4 == 0))
+      signed int return_value_conf_load_4;
+      return_value_conf_load_4=conf_load(&conf, config_filename, config_search_dirs, plugin_search_dirs);
+      if(!(return_value_conf_load_4 == 0))
         return -1;
 
       else
       {
         if(!(optind >= argc))
         {
-          signed int return_value_str2ba$6;
-          return_value_str2ba$6=str2ba(argv[(signed long int)optind], &bdaddr);
-          if(!(return_value_str2ba$6 == 0))
+          signed int return_value_str2ba_6;
+          return_value_str2ba_6=str2ba(argv[(signed long int)optind], &bdaddr);
+          if(!(return_value_str2ba_6 == 0))
           {
             wminput_err("invalid bdaddr");
-            struct anonymous$0 literal$5 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
-            bdaddr = *(&literal$5);
+            struct anonymous_0 literal_5 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
+            bdaddr = *(&literal_5);
           }
 
           optind = optind + 1;
@@ -5803,21 +5803,21 @@ signed int main(signed int argc, char **argv)
           str_addr=getenv("WIIMOTE_BDADDR");
           if(!(str_addr == ((char *)NULL)))
           {
-            signed int return_value_str2ba$8;
-            return_value_str2ba$8=str2ba(str_addr, &bdaddr);
-            if(!(return_value_str2ba$8 == 0))
+            signed int return_value_str2ba_8;
+            return_value_str2ba_8=str2ba(str_addr, &bdaddr);
+            if(!(return_value_str2ba_8 == 0))
             {
               wminput_err("invalid address in %s", (const void *)"WIIMOTE_BDADDR");
-              struct anonymous$0 literal$7 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
-              bdaddr = *(&literal$7);
+              struct anonymous_0 literal_7 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
+              bdaddr = *(&literal_7);
             }
 
           }
 
           else
           {
-            struct anonymous$0 literal$9 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
-            bdaddr = *(&literal$9);
+            struct anonymous_0 literal_9 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
+            bdaddr = *(&literal_9);
           }
         }
         sigemptyset(&sigset);
@@ -5832,14 +5832,14 @@ signed int main(signed int argc, char **argv)
 
           if(!(wait_forever == 0))
           {
-            struct anonymous$0 literal$11 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
-            signed int return_value_bacmp$12;
-            return_value_bacmp$12=bacmp(&current_bdaddr, &literal$11);
-            if(return_value_bacmp$12 == 0)
+            struct anonymous_0 literal_11 = { .b={ (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0 } };
+            signed int return_value_bacmp_12;
+            return_value_bacmp_12=bacmp(&current_bdaddr, &literal_11);
+            if(return_value_bacmp_12 == 0)
             {
-              signed int return_value_cwiid_find_wiimote$10;
-              return_value_cwiid_find_wiimote$10=cwiid_find_wiimote(&current_bdaddr, -1);
-              if(!(return_value_cwiid_find_wiimote$10 == 0))
+              signed int return_value_cwiid_find_wiimote_10;
+              return_value_cwiid_find_wiimote_10=cwiid_find_wiimote(&current_bdaddr, -1);
+              if(!(return_value_cwiid_find_wiimote_10 == 0))
               {
                 wminput_err("error finding wiimote");
                 conf_unload(&conf);
@@ -5871,26 +5871,26 @@ signed int main(signed int argc, char **argv)
             }
 
           }
-          signed int return_value_cwiid_set_mesg_callback$13;
-          return_value_cwiid_set_mesg_callback$13=cwiid_set_mesg_callback(wiimote, cwiid_callback);
-          if(!(return_value_cwiid_set_mesg_callback$13 == 0))
+          signed int return_value_cwiid_set_mesg_callback_13;
+          return_value_cwiid_set_mesg_callback_13=cwiid_set_mesg_callback(wiimote, cwiid_callback);
+          if(!(return_value_cwiid_set_mesg_callback_13 == 0))
           {
             wminput_err("error setting callback");
             conf_unload(&conf);
             return -1;
           }
 
-          signed int return_value_c_wiimote$14;
-          return_value_c_wiimote$14=c_wiimote(wiimote);
-          if(!(return_value_c_wiimote$14 == 0))
+          signed int return_value_c_wiimote_14;
+          return_value_c_wiimote_14=c_wiimote(wiimote);
+          if(!(return_value_c_wiimote_14 == 0))
           {
             conf_unload(&conf);
             return -1;
           }
 
-          signed int return_value_py_wiimote$15;
-          return_value_py_wiimote$15=py_wiimote(wiimote);
-          if(!(return_value_py_wiimote$15 == 0))
+          signed int return_value_py_wiimote_15;
+          return_value_py_wiimote_15=py_wiimote(wiimote);
+          if(!(return_value_py_wiimote_15 == 0))
           {
             conf_unload(&conf);
             return -1;
@@ -5900,19 +5900,19 @@ signed int main(signed int argc, char **argv)
           do
           {
             if(!(i >= 6))
-              tmp_if_expr$16 = conf.plugins[(signed long int)i].name != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_16 = conf.plugins[(signed long int)i].name != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$16 = (_Bool)0;
-            if(!tmp_if_expr$16)
+              tmp_if_expr_16 = (_Bool)0;
+            if(!tmp_if_expr_16)
               break;
 
             switch((signed int)conf.plugins[(signed long int)i].type)
             {
               case PLUGIN_C:
               {
-                return_value_c_plugin_init$17=c_plugin_init(&conf.plugins[(signed long int)i], i);
-                if(!(return_value_c_plugin_init$17 == 0))
+                return_value_c_plugin_init_17=c_plugin_init(&conf.plugins[(signed long int)i], i);
+                if(!(return_value_c_plugin_init_17 == 0))
                 {
                   wminput_err("error on %s init", conf.plugins[(signed long int)i].name);
                   conf_unload(&conf);
@@ -5924,8 +5924,8 @@ signed int main(signed int argc, char **argv)
               }
               case PLUGIN_PYTHON:
               {
-                return_value_py_plugin_init$18=py_plugin_init(&conf.plugins[(signed long int)i], i);
-                if(!(return_value_py_plugin_init$18 == 0))
+                return_value_py_plugin_init_18=py_plugin_init(&conf.plugins[(signed long int)i], i);
+                if(!(return_value_py_plugin_init_18 == 0))
                 {
                   wminput_err("error %s init", conf.plugins[(signed long int)i].name);
                   conf_unload(&conf);
@@ -5938,9 +5938,9 @@ signed int main(signed int argc, char **argv)
             i = i + 1;
           }
           while((_Bool)1);
-          signed int return_value_wminput_set_report_mode$19;
-          return_value_wminput_set_report_mode$19=wminput_set_report_mode();
-          if(!(return_value_wminput_set_report_mode$19 == 0))
+          signed int return_value_wminput_set_report_mode_19;
+          return_value_wminput_set_report_mode_19=wminput_set_report_mode();
+          if(!(return_value_wminput_set_report_mode_19 == 0))
           {
             conf_unload(&conf);
             cwiid_close(wiimote);
@@ -5949,9 +5949,9 @@ signed int main(signed int argc, char **argv)
 
           uinput_listen_data.wiimote = wiimote;
           uinput_listen_data.conf = &conf;
-          signed int return_value_pthread_create$20;
-          return_value_pthread_create$20=pthread_create(&uinput_listen_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))uinput_listen, (void *)&uinput_listen_data);
-          if(!(return_value_pthread_create$20 == 0))
+          signed int return_value_pthread_create_20;
+          return_value_pthread_create_20=pthread_create(&uinput_listen_thread, (const union pthread_attr_t *)(void *)0, (void * (*)(void *))uinput_listen, (void *)&uinput_listen_data);
+          if(!(return_value_pthread_create_20 == 0))
           {
             wminput_err("error starting uinput listen thread");
             conf_unload(&conf);
@@ -5969,9 +5969,9 @@ signed int main(signed int argc, char **argv)
           if(signum == 2 || signum == 15)
             reconnect = (char)0;
 
-          signed int return_value_pthread_cancel$22;
-          return_value_pthread_cancel$22=pthread_cancel(uinput_listen_thread);
-          if(!(return_value_pthread_cancel$22 == 0))
+          signed int return_value_pthread_cancel_22;
+          return_value_pthread_cancel_22=pthread_cancel(uinput_listen_thread);
+          if(!(return_value_pthread_cancel_22 == 0))
           {
             wminput_err("Error canceling uinput listen thread");
             ret = -1;
@@ -5979,8 +5979,8 @@ signed int main(signed int argc, char **argv)
 
           else
           {
-            return_value_pthread_join$21=pthread_join(uinput_listen_thread, (void **)(void *)0);
-            if(!(return_value_pthread_join$21 == 0))
+            return_value_pthread_join_21=pthread_join(uinput_listen_thread, (void **)(void *)0);
+            if(!(return_value_pthread_join_21 == 0))
             {
               wminput_err("Error joining uinput listen thread");
               ret = -1;
@@ -5989,9 +5989,9 @@ signed int main(signed int argc, char **argv)
           }
           c_wiimote_deinit();
           py_wiimote_deinit();
-          signed int return_value_cwiid_close$23;
-          return_value_cwiid_close$23=cwiid_close(wiimote);
-          if(!(return_value_cwiid_close$23 == 0))
+          signed int return_value_cwiid_close_23;
+          return_value_cwiid_close_23=cwiid_close(wiimote);
+          if(!(return_value_cwiid_close_23 == 0))
           {
             wminput_err("Error on wiimote disconnect");
             ret = -1;
@@ -6002,9 +6002,9 @@ signed int main(signed int argc, char **argv)
 
         }
         while(!(reconnect == 0));
-        signed int return_value_conf_unload$24;
-        return_value_conf_unload$24=conf_unload(&conf);
-        if(!(return_value_conf_unload$24 == 0))
+        signed int return_value_conf_unload_24;
+        return_value_conf_unload_24=conf_unload(&conf);
+        if(!(return_value_conf_unload_24 == 0))
           ret = -1;
 
         c_deinit();
@@ -6028,22 +6028,22 @@ void * mesg_callback_thread(struct wiimote *wiimote)
   signed int cancelstate;
   while((_Bool)1)
   {
-    signed int return_value_read_mesg_array$1;
-    return_value_read_mesg_array$1=read_mesg_array(mesg_pipe, &ma);
-    if(!(return_value_read_mesg_array$1 == 0))
+    signed int return_value_read_mesg_array_1;
+    return_value_read_mesg_array_1=read_mesg_array(mesg_pipe, &ma);
+    if(!(return_value_read_mesg_array_1 == 0))
       cwiid_err(wiimote, "Mesg pipe read error");
 
     else
     {
-      signed int return_value_pthread_setcancelstate$2;
-      return_value_pthread_setcancelstate$2=pthread_setcancelstate(1, &cancelstate);
-      if(!(return_value_pthread_setcancelstate$2 == 0))
+      signed int return_value_pthread_setcancelstate_2;
+      return_value_pthread_setcancelstate_2=pthread_setcancelstate(1, &cancelstate);
+      if(!(return_value_pthread_setcancelstate_2 == 0))
         cwiid_err(wiimote, "Cancel state disable error (callback thread)");
 
       callback(wiimote, (signed int)ma.count, ma.array, &ma.timestamp);
-      signed int return_value_pthread_setcancelstate$3;
-      return_value_pthread_setcancelstate$3=pthread_setcancelstate(0, &cancelstate);
-      if(!(return_value_pthread_setcancelstate$3 == 0))
+      signed int return_value_pthread_setcancelstate_3;
+      return_value_pthread_setcancelstate_3=pthread_setcancelstate(0, &cancelstate);
+      if(!(return_value_pthread_setcancelstate_3 == 0))
         cwiid_err(wiimote, "Cancel state restore error (callback thread)");
 
     }
@@ -6072,12 +6072,12 @@ void print_usage(void)
 signed int process_acc(struct wiimote *wiimote, const unsigned char *data, struct mesg_array *ma)
 {
   struct cwiid_acc_mesg *acc_mesg;
-  unsigned char tmp_post$1;
+  unsigned char tmp_post_1;
   if(!((0x04 & (signed int)wiimote->state.rpt_mode) == 0))
   {
-    tmp_post$1 = ma->count;
+    tmp_post_1 = ma->count;
     ma->count = ma->count + 1;
-    acc_mesg = &ma->array[(signed long int)tmp_post$1].acc_mesg;
+    acc_mesg = &ma->array[(signed long int)tmp_post_1].acc_mesg;
     acc_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_ACC;
     acc_mesg->acc[(signed long int)0] = data[(signed long int)0];
     acc_mesg->acc[(signed long int)1] = data[(signed long int)1];
@@ -6093,20 +6093,20 @@ signed int process_btn(struct wiimote *wiimote, const unsigned char *data, struc
 {
   struct cwiid_btn_mesg *btn_mesg;
   unsigned short int buttons = (unsigned short int)(((signed int)data[(signed long int)0] & 0x1F) << 8 | (signed int)data[(signed long int)1] & 0x9F);
-  _Bool tmp_if_expr$2;
-  unsigned char tmp_post$1;
+  _Bool tmp_if_expr_2;
+  unsigned char tmp_post_1;
   if(!((0x02 & (signed int)wiimote->state.rpt_mode) == 0))
   {
     if(!(wiimote->state.buttons == buttons))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (wiimote->flags & 0x04) != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (wiimote->flags & 0x04) != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
-      tmp_post$1 = ma->count;
+      tmp_post_1 = ma->count;
       ma->count = ma->count + 1;
-      btn_mesg = &ma->array[(signed long int)tmp_post$1].btn_mesg;
+      btn_mesg = &ma->array[(signed long int)tmp_post_1].btn_mesg;
       btn_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_BTN;
       btn_mesg->buttons = buttons;
     }
@@ -6293,18 +6293,18 @@ void process_classic_mesg(struct cwiid_classic_mesg *mesg)
 signed int process_error(struct wiimote *wiimote, signed long int len, struct mesg_array *ma)
 {
   struct cwiid_error_mesg *error_mesg;
-  unsigned char tmp_post$1 = ma->count;
+  unsigned char tmp_post_1 = ma->count;
   ma->count = ma->count + 1;
-  error_mesg = &ma->array[(signed long int)tmp_post$1].error_mesg;
+  error_mesg = &ma->array[(signed long int)tmp_post_1].error_mesg;
   error_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_ERROR;
   if(len == 0l)
     error_mesg->error = (enum cwiid_error)CWIID_ERROR_DISCONNECT;
 
   else
     error_mesg->error = (enum cwiid_error)CWIID_ERROR_COMM;
-  signed int return_value_cancel_rw$2;
-  return_value_cancel_rw$2=cancel_rw(wiimote);
-  if(!(return_value_cancel_rw$2 == 0))
+  signed int return_value_cancel_rw_2;
+  return_value_cancel_rw_2=cancel_rw(wiimote);
+  if(!(return_value_cancel_rw_2 == 0))
     cwiid_err(wiimote, "RW cancel error");
 
   return 0;
@@ -6319,10 +6319,10 @@ signed int process_ext(struct wiimote *wiimote, unsigned char *data, unsigned ch
   struct cwiid_balance_mesg *balance_mesg;
   struct cwiid_motionplus_mesg *motionplus_mesg;
   signed int i;
-  unsigned char tmp_post$1;
-  unsigned char tmp_post$2;
-  unsigned char tmp_post$3;
-  unsigned char tmp_post$4;
+  unsigned char tmp_post_1;
+  unsigned char tmp_post_2;
+  unsigned char tmp_post_3;
+  unsigned char tmp_post_4;
   switch((signed int)wiimote->state.ext_type)
   {
     case CWIID_EXT_NONE:
@@ -6336,9 +6336,9 @@ signed int process_ext(struct wiimote *wiimote, unsigned char *data, unsigned ch
     {
       if(!((0x10 & (signed int)wiimote->state.rpt_mode) == 0))
       {
-        tmp_post$1 = ma->count;
+        tmp_post_1 = ma->count;
         ma->count = ma->count + 1;
-        nunchuk_mesg = &ma->array[(signed long int)tmp_post$1].nunchuk_mesg;
+        nunchuk_mesg = &ma->array[(signed long int)tmp_post_1].nunchuk_mesg;
         nunchuk_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_NUNCHUK;
         nunchuk_mesg->stick[(signed long int)0] = data[(signed long int)0];
         nunchuk_mesg->stick[(signed long int)1] = data[(signed long int)1];
@@ -6354,9 +6354,9 @@ signed int process_ext(struct wiimote *wiimote, unsigned char *data, unsigned ch
     {
       if(!((0x20 & (signed int)wiimote->state.rpt_mode) == 0))
       {
-        tmp_post$2 = ma->count;
+        tmp_post_2 = ma->count;
         ma->count = ma->count + 1;
-        classic_mesg = &ma->array[(signed long int)tmp_post$2].classic_mesg;
+        classic_mesg = &ma->array[(signed long int)tmp_post_2].classic_mesg;
         classic_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_CLASSIC;
         i = 0;
         for( ; !(i >= 6); i = i + 1)
@@ -6375,9 +6375,9 @@ signed int process_ext(struct wiimote *wiimote, unsigned char *data, unsigned ch
     case CWIID_EXT_BALANCE:
       if(!((0x40 & (signed int)wiimote->state.rpt_mode) == 0))
       {
-        tmp_post$3 = ma->count;
+        tmp_post_3 = ma->count;
         ma->count = ma->count + 1;
-        balance_mesg = &ma->array[(signed long int)tmp_post$3].balance_mesg;
+        balance_mesg = &ma->array[(signed long int)tmp_post_3].balance_mesg;
         balance_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_BALANCE;
         balance_mesg->right_top = (unsigned short int)((signed int)(unsigned short int)data[(signed long int)0] << 8 | (signed int)(unsigned short int)data[(signed long int)1]);
         balance_mesg->right_bottom = (unsigned short int)((signed int)(unsigned short int)data[(signed long int)2] << 8 | (signed int)(unsigned short int)data[(signed long int)3]);
@@ -6388,9 +6388,9 @@ signed int process_ext(struct wiimote *wiimote, unsigned char *data, unsigned ch
     case CWIID_EXT_MOTIONPLUS:
       if(!((0x80 & (signed int)wiimote->state.rpt_mode) == 0))
       {
-        tmp_post$4 = ma->count;
+        tmp_post_4 = ma->count;
         ma->count = ma->count + 1;
-        motionplus_mesg = &ma->array[(signed long int)tmp_post$4].motionplus_mesg;
+        motionplus_mesg = &ma->array[(signed long int)tmp_post_4].motionplus_mesg;
         motionplus_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_MOTIONPLUS;
         motionplus_mesg->angle_rate[(signed long int)0] = (unsigned short int)(((signed int)(unsigned short int)data[(signed long int)5] & 0xFC) << 6 | (signed int)(unsigned short int)data[(signed long int)2]);
         motionplus_mesg->angle_rate[(signed long int)1] = (unsigned short int)(((signed int)(unsigned short int)data[(signed long int)4] & 0xFC) << 6 | (signed int)(unsigned short int)data[(signed long int)1]);
@@ -6408,12 +6408,12 @@ signed int process_ir10(struct wiimote *wiimote, const unsigned char *data, stru
   struct cwiid_ir_mesg *ir_mesg;
   signed int i;
   const unsigned char *block;
-  unsigned char tmp_post$1;
+  unsigned char tmp_post_1;
   if(!((0x08 & (signed int)wiimote->state.rpt_mode) == 0))
   {
-    tmp_post$1 = ma->count;
+    tmp_post_1 = ma->count;
     ma->count = ma->count + 1;
-    ir_mesg = &ma->array[(signed long int)tmp_post$1].ir_mesg;
+    ir_mesg = &ma->array[(signed long int)tmp_post_1].ir_mesg;
     ir_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_IR;
     i = 0;
     block = data;
@@ -6453,12 +6453,12 @@ signed int process_ir12(struct wiimote *wiimote, const unsigned char *data, stru
   struct cwiid_ir_mesg *ir_mesg;
   signed int i;
   const unsigned char *block;
-  unsigned char tmp_post$1;
+  unsigned char tmp_post_1;
   if(!((0x08 & (signed int)wiimote->state.rpt_mode) == 0))
   {
-    tmp_post$1 = ma->count;
+    tmp_post_1 = ma->count;
     ma->count = ma->count + 1;
-    ir_mesg = &ma->array[(signed long int)tmp_post$1].ir_mesg;
+    ir_mesg = &ma->array[(signed long int)tmp_post_1].ir_mesg;
     ir_mesg->type = (enum cwiid_mesg_type)CWIID_MESG_IR;
     i = 0;
     block = data;
@@ -6537,7 +6537,7 @@ void process_plugin(struct plugin *plugin, signed int mesg_count, union cwiid_me
   unsigned short int released;
   signed int axis_value;
   i = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   static union cwiid_mesg plugin_mesg[5l];
   for( ; !(i >= mesg_count); i = i + 1)
   {
@@ -6573,30 +6573,30 @@ void process_plugin(struct plugin *plugin, signed int mesg_count, union cwiid_me
     }
     if(!(((signed int)plugin->rpt_mode_flags & (signed int)flag) == 0))
     {
-      tmp_post$1 = plugin_mesg_count;
+      tmp_post_1 = plugin_mesg_count;
       plugin_mesg_count = plugin_mesg_count + 1;
-      memcpy((void *)&plugin_mesg[(signed long int)tmp_post$1], (const void *)&mesg[(signed long int)i], sizeof(union cwiid_mesg) /*36ul*/ );
+      memcpy((void *)&plugin_mesg[(signed long int)tmp_post_1], (const void *)&mesg[(signed long int)i], sizeof(union cwiid_mesg) /*36ul*/ );
     }
 
   }
-  signed int return_value_c_plugin_exec$2;
-  signed int return_value_py_plugin_exec$3;
+  signed int return_value_c_plugin_exec_2;
+  signed int return_value_py_plugin_exec_3;
   if(plugin_mesg_count >= 1)
   {
     switch((signed int)plugin->type)
     {
       case PLUGIN_C:
       {
-        return_value_c_plugin_exec$2=c_plugin_exec(plugin, plugin_mesg_count, plugin_mesg);
-        if(!(return_value_c_plugin_exec$2 == 0))
+        return_value_c_plugin_exec_2=c_plugin_exec(plugin, plugin_mesg_count, plugin_mesg);
+        if(!(return_value_c_plugin_exec_2 == 0))
           goto __CPROVER_DUMP_L24;
 
         break;
       }
       case PLUGIN_PYTHON:
       {
-        return_value_py_plugin_exec$3=py_plugin_exec(plugin, plugin_mesg_count, plugin_mesg);
-        if(!(return_value_py_plugin_exec$3 == 0))
+        return_value_py_plugin_exec_3=py_plugin_exec(plugin, plugin_mesg_count, plugin_mesg);
+        if(!(return_value_py_plugin_exec_3 == 0))
           goto __CPROVER_DUMP_L24;
 
       }
@@ -6656,9 +6656,9 @@ signed int process_read(struct wiimote *wiimote, unsigned char *data)
     rw_mesg.len = (unsigned char)(((signed int)data[(signed long int)0] >> 4) + 1);
     rw_mesg.error = (unsigned char)((signed int)data[(signed long int)0] & 0x0F);
     memcpy((void *)&rw_mesg.data, (const void *)(data + (signed long int)3), (unsigned long int)rw_mesg.len);
-    signed long int return_value_write$1;
-    return_value_write$1=write(wiimote->rw_pipe[(signed long int)1], (const void *)&rw_mesg, sizeof(struct rw_mesg) /*32ul*/ );
-    if(!((unsigned long int)return_value_write$1 == sizeof(struct rw_mesg) /*32ul*/ ))
+    signed long int return_value_write_1;
+    return_value_write_1=write(wiimote->rw_pipe[(signed long int)1], (const void *)&rw_mesg, sizeof(struct rw_mesg) /*32ul*/ );
+    if(!((unsigned long int)return_value_write_1 == sizeof(struct rw_mesg) /*32ul*/ ))
     {
       cwiid_err(wiimote, "RW pipe write error");
       return -1;
@@ -6681,9 +6681,9 @@ signed int process_status(struct wiimote *wiimote, const unsigned char *data, st
 
   else
     status_mesg.ext_type = (enum cwiid_ext_type)CWIID_EXT_NONE;
-  signed long int return_value_write$1;
-  return_value_write$1=write(wiimote->status_pipe[(signed long int)1], (const void *)&status_mesg, sizeof(struct cwiid_status_mesg) /*12ul*/ );
-  if(!((unsigned long int)return_value_write$1 == sizeof(struct cwiid_status_mesg) /*12ul*/ ))
+  signed long int return_value_write_1;
+  return_value_write_1=write(wiimote->status_pipe[(signed long int)1], (const void *)&status_mesg, sizeof(struct cwiid_status_mesg) /*12ul*/ );
+  if(!((unsigned long int)return_value_write_1 == sizeof(struct cwiid_status_mesg) /*12ul*/ ))
   {
     cwiid_err(wiimote, "Status pipe write error");
     return -1;
@@ -6708,9 +6708,9 @@ signed int process_write(struct wiimote *wiimote, unsigned char *data)
   {
     rw_mesg.type = (enum rw_status)RW_WRITE;
     rw_mesg.error = data[(signed long int)0];
-    signed long int return_value_write$1;
-    return_value_write$1=write(wiimote->rw_pipe[(signed long int)1], (const void *)&rw_mesg, sizeof(struct rw_mesg) /*32ul*/ );
-    if(!((unsigned long int)return_value_write$1 == sizeof(struct rw_mesg) /*32ul*/ ))
+    signed long int return_value_write_1;
+    return_value_write_1=write(wiimote->rw_pipe[(signed long int)1], (const void *)&rw_mesg, sizeof(struct rw_mesg) /*32ul*/ );
+    if(!((unsigned long int)return_value_write_1 == sizeof(struct rw_mesg) /*32ul*/ ))
     {
       cwiid_err(wiimote, "RW pipe write error");
       return -1;
@@ -6761,7 +6761,7 @@ signed int py_init(void)
   signed int i;
   Py_InitializeEx(0);
   PyCWiidModule=PyImport_ImportModule("cwiid");
-  void *return_value_PyCObject_AsVoidPtr$1;
+  void *return_value_PyCObject_AsVoidPtr_1;
   if(PyCWiidModule == ((struct _object *)NULL))
     PyErr_Print();
 
@@ -6785,8 +6785,8 @@ signed int py_init(void)
 
         else
         {
-          return_value_PyCObject_AsVoidPtr$1=PyCObject_AsVoidPtr(PyObj);
-          ConvertMesgArray = (struct _object * (*)(signed int, union cwiid_mesg *))return_value_PyCObject_AsVoidPtr$1;
+          return_value_PyCObject_AsVoidPtr_1=PyCObject_AsVoidPtr(PyObj);
+          ConvertMesgArray = (struct _object * (*)(signed int, union cwiid_mesg *))return_value_PyCObject_AsVoidPtr_1;
           do
           {
             ((struct _object *)PyObj)->ob_refcnt = ((struct _object *)PyObj)->ob_refcnt - 1l;
@@ -6804,9 +6804,9 @@ signed int py_init(void)
             i = 0;
             for( ; !(wmplugin_constants[(signed long int)i].name == ((char *)NULL)); i = i + 1)
             {
-              signed int return_value_PyModule_AddIntConstant$2;
-              return_value_PyModule_AddIntConstant$2=PyModule_AddIntConstant(PyWmPluginModule, wmplugin_constants[(signed long int)i].name, (signed long int)wmplugin_constants[(signed long int)i].value);
-              if(!(return_value_PyModule_AddIntConstant$2 == 0))
+              signed int return_value_PyModule_AddIntConstant_2;
+              return_value_PyModule_AddIntConstant_2=PyModule_AddIntConstant(PyWmPluginModule, wmplugin_constants[(signed long int)i].name, (signed long int)wmplugin_constants[(signed long int)i].value);
+              if(!(return_value_PyModule_AddIntConstant_2 == 0))
               {
                 PyErr_Print();
                 goto ERR_HND;
@@ -6918,8 +6918,8 @@ signed int py_plugin_exec(struct plugin *plugin, signed int mesg_count, union cw
   struct _object *PyObj;
   signed int i;
   PyMesg=ConvertMesgArray(mesg_count, mesg);
-  _Bool tmp_if_expr$4;
-  signed int return_value_PySequence_Check$3;
+  _Bool tmp_if_expr_4;
+  signed int return_value_PySequence_Check_3;
   if(PyMesg == ((struct _object *)NULL))
   {
     PyErr_Print();
@@ -6962,9 +6962,9 @@ signed int py_plugin_exec(struct plugin *plugin, signed int mesg_count, union cw
         if(PyArgs->ob_refcnt == 0l)
           ((struct _object *)PyArgs)->ob_type->tp_dealloc((struct _object *)PyArgs);
 
-        signed int return_value_PyArg_ParseTuple$1;
-        return_value_PyArg_ParseTuple$1=PyArg_ParseTuple(PyData, "OO", &PyButtonData, &PyAxisData);
-        if(return_value_PyArg_ParseTuple$1 == 0)
+        signed int return_value_PyArg_ParseTuple_1;
+        return_value_PyArg_ParseTuple_1=PyArg_ParseTuple(PyData, "OO", &PyButtonData, &PyAxisData);
+        if(return_value_PyArg_ParseTuple_1 == 0)
         {
           PyErr_Print();
           ((struct _object *)PyData)->ob_refcnt = ((struct _object *)PyData)->ob_refcnt - 1l;
@@ -6976,17 +6976,17 @@ signed int py_plugin_exec(struct plugin *plugin, signed int mesg_count, union cw
 
         else
         {
-          signed int return_value_PySequence_Check$2;
-          return_value_PySequence_Check$2=PySequence_Check(PyButtonData);
-          if(!(return_value_PySequence_Check$2 == 0))
+          signed int return_value_PySequence_Check_2;
+          return_value_PySequence_Check_2=PySequence_Check(PyButtonData);
+          if(!(return_value_PySequence_Check_2 == 0))
           {
-            return_value_PySequence_Check$3=PySequence_Check(PyAxisData);
-            tmp_if_expr$4 = return_value_PySequence_Check$3 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_PySequence_Check_3=PySequence_Check(PyAxisData);
+            tmp_if_expr_4 = return_value_PySequence_Check_3 != 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(!tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(!tmp_if_expr_4)
           {
             wminput_err("Type error on wminput_exec: exec not sequences");
             ((struct _object *)PyData)->ob_refcnt = ((struct _object *)PyData)->ob_refcnt - 1l;
@@ -6998,9 +6998,9 @@ signed int py_plugin_exec(struct plugin *plugin, signed int mesg_count, union cw
 
           else
           {
-            signed long int return_value_PySequence_Size$5;
-            return_value_PySequence_Size$5=PySequence_Size(PyButtonData);
-            if(!(return_value_PySequence_Size$5 == (signed long int)plugin->info->button_count))
+            signed long int return_value_PySequence_Size_5;
+            return_value_PySequence_Size_5=PySequence_Size(PyButtonData);
+            if(!(return_value_PySequence_Size_5 == (signed long int)plugin->info->button_count))
             {
               wminput_err("Type error on wminput_exec: bad button sequence");
               ((struct _object *)PyData)->ob_refcnt = ((struct _object *)PyData)->ob_refcnt - 1l;
@@ -7052,9 +7052,9 @@ signed int py_plugin_exec(struct plugin *plugin, signed int mesg_count, union cw
                 i = i + 1;
               }
 
-              signed long int return_value_PySequence_Size$6;
-              return_value_PySequence_Size$6=PySequence_Size(PyAxisData);
-              if(!(return_value_PySequence_Size$6 == (signed long int)plugin->info->axis_count))
+              signed long int return_value_PySequence_Size_6;
+              return_value_PySequence_Size_6=PySequence_Size(PyAxisData);
+              if(!(return_value_PySequence_Size_6 == (signed long int)plugin->info->axis_count))
               {
                 wminput_err("Error on wminput_exec: bad axis sequence");
                 ((struct _object *)PyData)->ob_refcnt = ((struct _object *)PyData)->ob_refcnt - 1l;
@@ -7101,9 +7101,9 @@ signed int py_plugin_exec(struct plugin *plugin, signed int mesg_count, union cw
                     else
                     {
                       plugin->data->axes[(signed long int)i].valid = (char)1;
-                      signed long int return_value_PyInt_AsLong$7;
-                      return_value_PyInt_AsLong$7=PyInt_AsLong(PyObj);
-                      plugin->data->axes[(signed long int)i].value = (signed int)return_value_PyInt_AsLong$7;
+                      signed long int return_value_PyInt_AsLong_7;
+                      return_value_PyInt_AsLong_7=PyInt_AsLong(PyObj);
+                      plugin->data->axes[(signed long int)i].value = (signed int)return_value_PyInt_AsLong_7;
                     }
                   ((struct _object *)PyObj)->ob_refcnt = ((struct _object *)PyObj)->ob_refcnt - 1l;
                   if(PyObj->ob_refcnt == 0l)
@@ -7136,50 +7136,50 @@ static signed int py_plugin_info(struct plugin *plugin, struct _object *info)
   struct _object *PyObj;
   signed int i;
   ((struct py_plugin *)plugin->p)->PyInfo=PyObject_CallObject(info, (struct _object *)(void *)0);
-  signed int return_value_PyArg_ParseTuple$1;
-  signed int return_value_PySequence_Check$2;
-  _Bool tmp_if_expr$4;
-  signed int return_value_PySequence_Check$3;
-  _Bool tmp_if_expr$6;
-  signed int return_value_PySequence_Check$5;
-  signed long int return_value_PySequence_Size$7;
-  signed long int return_value_PySequence_Size$8;
-  signed long int return_value_PySequence_Size$10;
+  signed int return_value_PyArg_ParseTuple_1;
+  signed int return_value_PySequence_Check_2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_PySequence_Check_3;
+  _Bool tmp_if_expr_6;
+  signed int return_value_PySequence_Check_5;
+  signed long int return_value_PySequence_Size_7;
+  signed long int return_value_PySequence_Size_8;
+  signed long int return_value_PySequence_Size_10;
   if(((struct py_plugin *)plugin->p)->PyInfo == ((struct _object *)NULL))
     PyErr_Print();
 
   else
   {
-    return_value_PyArg_ParseTuple$1=PyArg_ParseTuple(((struct py_plugin *)plugin->p)->PyInfo, "OOO", &PyButtonInfo, &PyAxisInfo, &PyParamInfo);
-    if(return_value_PyArg_ParseTuple$1 == 0)
+    return_value_PyArg_ParseTuple_1=PyArg_ParseTuple(((struct py_plugin *)plugin->p)->PyInfo, "OOO", &PyButtonInfo, &PyAxisInfo, &PyParamInfo);
+    if(return_value_PyArg_ParseTuple_1 == 0)
       PyErr_Print();
 
     else
     {
-      return_value_PySequence_Check$2=PySequence_Check(PyButtonInfo);
-      if(!(return_value_PySequence_Check$2 == 0))
+      return_value_PySequence_Check_2=PySequence_Check(PyButtonInfo);
+      if(!(return_value_PySequence_Check_2 == 0))
       {
-        return_value_PySequence_Check$3=PySequence_Check(PyAxisInfo);
-        tmp_if_expr$4 = return_value_PySequence_Check$3 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_PySequence_Check_3=PySequence_Check(PyAxisInfo);
+        tmp_if_expr_4 = return_value_PySequence_Check_3 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
       {
-        return_value_PySequence_Check$5=PySequence_Check(PyParamInfo);
-        tmp_if_expr$6 = return_value_PySequence_Check$5 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_PySequence_Check_5=PySequence_Check(PyParamInfo);
+        tmp_if_expr_6 = return_value_PySequence_Check_5 != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      if(!tmp_if_expr$6)
+        tmp_if_expr_6 = (_Bool)0;
+      if(!tmp_if_expr_6)
         wminput_err("Type error in wminput_info: info not sequences");
 
       else
       {
-        return_value_PySequence_Size$7=PySequence_Size(PyButtonInfo);
-        plugin->info->button_count = (unsigned char)return_value_PySequence_Size$7;
+        return_value_PySequence_Size_7=PySequence_Size(PyButtonInfo);
+        plugin->info->button_count = (unsigned char)return_value_PySequence_Size_7;
         i = 0;
         for( ; !(i >= (signed int)plugin->info->button_count); i = i + 1)
         {
@@ -7214,8 +7214,8 @@ static signed int py_plugin_info(struct plugin *plugin, struct _object *info)
           }
           while((_Bool)0);
         }
-        return_value_PySequence_Size$8=PySequence_Size(PyAxisInfo);
-        plugin->info->axis_count = (unsigned char)return_value_PySequence_Size$8;
+        return_value_PySequence_Size_8=PySequence_Size(PyAxisInfo);
+        plugin->info->axis_count = (unsigned char)return_value_PySequence_Size_8;
         i = 0;
         for( ; !(i >= (signed int)plugin->info->axis_count); i = i + 1)
         {
@@ -7227,9 +7227,9 @@ static signed int py_plugin_info(struct plugin *plugin, struct _object *info)
             goto ERR_HND;
           }
 
-          signed int return_value_PyArg_ParseTuple$9;
-          return_value_PyArg_ParseTuple$9=PyArg_ParseTuple(PyObj, "sIiiii", &plugin->info->axis_info[(signed long int)i].name, &type, &plugin->info->axis_info[(signed long int)i].max, &plugin->info->axis_info[(signed long int)i].min, &plugin->info->axis_info[(signed long int)i].fuzz, &plugin->info->axis_info[(signed long int)i].flat);
-          if(return_value_PyArg_ParseTuple$9 == 0)
+          signed int return_value_PyArg_ParseTuple_9;
+          return_value_PyArg_ParseTuple_9=PyArg_ParseTuple(PyObj, "sIiiii", &plugin->info->axis_info[(signed long int)i].name, &type, &plugin->info->axis_info[(signed long int)i].max, &plugin->info->axis_info[(signed long int)i].min, &plugin->info->axis_info[(signed long int)i].fuzz, &plugin->info->axis_info[(signed long int)i].flat);
+          if(return_value_PyArg_ParseTuple_9 == 0)
           {
             PyErr_Print();
             do
@@ -7253,8 +7253,8 @@ static signed int py_plugin_info(struct plugin *plugin, struct _object *info)
           }
           while((_Bool)0);
         }
-        return_value_PySequence_Size$10=PySequence_Size(PyParamInfo);
-        plugin->info->param_count = (unsigned char)return_value_PySequence_Size$10;
+        return_value_PySequence_Size_10=PySequence_Size(PyParamInfo);
+        plugin->info->param_count = (unsigned char)return_value_PySequence_Size_10;
         i = 0;
         for( ; !(i >= (signed int)plugin->info->param_count); i = i + 1)
         {
@@ -7265,9 +7265,9 @@ static signed int py_plugin_info(struct plugin *plugin, struct _object *info)
             goto ERR_HND;
           }
 
-          signed int return_value_PyArg_ParseTuple$11;
-          return_value_PyArg_ParseTuple$11=PyArg_ParseTuple(PyObj, "siO", &plugin->info->param_info[(signed long int)i].name, &plugin->info->param_info[(signed long int)i].type, &plugin->info->param_info[(signed long int)i].ptr);
-          if(return_value_PyArg_ParseTuple$11 == 0)
+          signed int return_value_PyArg_ParseTuple_11;
+          return_value_PyArg_ParseTuple_11=PyArg_ParseTuple(PyObj, "siO", &plugin->info->param_info[(signed long int)i].name, &plugin->info->param_info[(signed long int)i].type, &plugin->info->param_info[(signed long int)i].ptr);
+          if(return_value_PyArg_ParseTuple_11 == 0)
           {
             PyErr_Print();
             do
@@ -7324,9 +7324,9 @@ signed int py_plugin_init(struct plugin *plugin, signed int id)
 
   else
   {
-    struct _object *return_value_PyObject_CallObject$1;
-    return_value_PyObject_CallObject$1=PyObject_CallObject(((struct py_plugin *)plugin->p)->init, PyArgs);
-    if(return_value_PyObject_CallObject$1 == ((struct _object *)NULL))
+    struct _object *return_value_PyObject_CallObject_1;
+    return_value_PyObject_CallObject_1=PyObject_CallObject(((struct py_plugin *)plugin->p)->init, PyArgs);
+    if(return_value_PyObject_CallObject_1 == ((struct _object *)NULL))
     {
       PyErr_Print();
       do
@@ -7366,11 +7366,11 @@ signed int py_plugin_open(struct plugin *plugin, char *dir)
   struct _object *PyErr;
   struct _object *PyTraceback;
   PyStr=PyString_FromString(dir);
-  void *return_value_malloc$6;
-  signed int return_value_PyCallable_Check$7;
-  signed int return_value_PyCallable_Check$8;
-  signed int return_value_PyCallable_Check$9;
-  signed int return_value_py_plugin_info$10;
+  void *return_value_malloc_6;
+  signed int return_value_PyCallable_Check_7;
+  signed int return_value_PyCallable_Check_8;
+  signed int return_value_PyCallable_Check_9;
+  signed int return_value_py_plugin_info_10;
   if(PyStr == ((struct _object *)NULL))
   {
     PyErr_Print();
@@ -7379,9 +7379,9 @@ signed int py_plugin_open(struct plugin *plugin, char *dir)
 
   else
   {
-    signed int return_value_PyList_Insert$1;
-    return_value_PyList_Insert$1=PyList_Insert(PyPath, (signed long int)0, PyStr);
-    if(!(return_value_PyList_Insert$1 == 0))
+    signed int return_value_PyList_Insert_1;
+    return_value_PyList_Insert_1=PyList_Insert(PyPath, (signed long int)0, PyStr);
+    if(!(return_value_PyList_Insert_1 == 0))
     {
       do
       {
@@ -7401,9 +7401,9 @@ signed int py_plugin_open(struct plugin *plugin, char *dir)
       {
         PyErr_Fetch(&PyErrType, &PyErr, &PyTraceback);
         PyErr_NormalizeException(&PyErrType, &PyErr, &PyTraceback);
-        signed int return_value_PyErr_GivenExceptionMatches$2;
-        return_value_PyErr_GivenExceptionMatches$2=PyErr_GivenExceptionMatches(PyErr, PyExc_ImportError);
-        if(PyTraceback == ((struct _object *)NULL) && !(return_value_PyErr_GivenExceptionMatches$2 == 0))
+        signed int return_value_PyErr_GivenExceptionMatches_2;
+        return_value_PyErr_GivenExceptionMatches_2=PyErr_GivenExceptionMatches(PyErr, PyExc_ImportError);
+        if(PyTraceback == ((struct _object *)NULL) && !(return_value_PyErr_GivenExceptionMatches_2 == 0))
         {
           do
             if(!(PyErrType == ((struct _object *)NULL)))
@@ -7436,9 +7436,9 @@ signed int py_plugin_open(struct plugin *plugin, char *dir)
           PyErr_Restore(PyErrType, PyErr, PyTraceback);
           PyErr_Print();
         }
-        signed int return_value_PySequence_DelItem$3;
-        return_value_PySequence_DelItem$3=PySequence_DelItem(PyPath, (signed long int)0);
-        if(!(return_value_PySequence_DelItem$3 == 0))
+        signed int return_value_PySequence_DelItem_3;
+        return_value_PySequence_DelItem_3=PySequence_DelItem(PyPath, (signed long int)0);
+        if(!(return_value_PySequence_DelItem_3 == 0))
           PyErr_Print();
 
         do
@@ -7452,9 +7452,9 @@ signed int py_plugin_open(struct plugin *plugin, char *dir)
         return -1;
       }
 
-      signed int return_value_PySequence_DelItem$4;
-      return_value_PySequence_DelItem$4=PySequence_DelItem(PyPath, (signed long int)0);
-      if(!(return_value_PySequence_DelItem$4 == 0))
+      signed int return_value_PySequence_DelItem_4;
+      return_value_PySequence_DelItem_4=PySequence_DelItem(PyPath, (signed long int)0);
+      if(!(return_value_PySequence_DelItem_4 == 0))
         PyErr_Print();
 
       do
@@ -7479,16 +7479,16 @@ signed int py_plugin_open(struct plugin *plugin, char *dir)
         plugin->data = (struct wmplugin_data *)(void *)0;
         ((struct py_plugin *)plugin->p)->init = (struct _object *)(void *)0;
         ((struct py_plugin *)plugin->p)->exec = (struct _object *)(void *)0;
-        void *return_value_malloc$5;
-        return_value_malloc$5=malloc(sizeof(struct wmplugin_info) /*728ul*/ );
-        plugin->info = (struct wmplugin_info *)return_value_malloc$5;
+        void *return_value_malloc_5;
+        return_value_malloc_5=malloc(sizeof(struct wmplugin_info) /*728ul*/ );
+        plugin->info = (struct wmplugin_info *)return_value_malloc_5;
         if(plugin->info == ((struct wmplugin_info *)NULL))
           wminput_err("Error allocating plugin info");
 
         else
         {
-          return_value_malloc$6=malloc(sizeof(struct wmplugin_data) /*52ul*/ );
-          plugin->data = (struct wmplugin_data *)return_value_malloc$6;
+          return_value_malloc_6=malloc(sizeof(struct wmplugin_data) /*52ul*/ );
+          plugin->data = (struct wmplugin_data *)return_value_malloc_6;
           if(plugin->data == ((struct wmplugin_data *)NULL))
             wminput_err("Error allocating plugin data");
 
@@ -7500,8 +7500,8 @@ signed int py_plugin_open(struct plugin *plugin, char *dir)
 
             else
             {
-              return_value_PyCallable_Check$7=PyCallable_Check(((struct py_plugin *)plugin->p)->init);
-              if(return_value_PyCallable_Check$7 == 0)
+              return_value_PyCallable_Check_7=PyCallable_Check(((struct py_plugin *)plugin->p)->init);
+              if(return_value_PyCallable_Check_7 == 0)
                 wminput_err("Unable to load plugin init function: not callable");
 
               else
@@ -7512,8 +7512,8 @@ signed int py_plugin_open(struct plugin *plugin, char *dir)
 
                 else
                 {
-                  return_value_PyCallable_Check$8=PyCallable_Check(((struct py_plugin *)plugin->p)->exec);
-                  if(return_value_PyCallable_Check$8 == 0)
+                  return_value_PyCallable_Check_8=PyCallable_Check(((struct py_plugin *)plugin->p)->exec);
+                  if(return_value_PyCallable_Check_8 == 0)
                     wminput_err("Unable to load plugin exec function: not callable");
 
                   else
@@ -7524,8 +7524,8 @@ signed int py_plugin_open(struct plugin *plugin, char *dir)
 
                     else
                     {
-                      return_value_PyCallable_Check$9=PyCallable_Check(info);
-                      if(return_value_PyCallable_Check$9 == 0)
+                      return_value_PyCallable_Check_9=PyCallable_Check(info);
+                      if(return_value_PyCallable_Check_9 == 0)
                       {
                         wminput_err("Unable to load plugin info function: not callable");
                         do
@@ -7540,8 +7540,8 @@ signed int py_plugin_open(struct plugin *plugin, char *dir)
 
                       else
                       {
-                        return_value_py_plugin_info$10=py_plugin_info(plugin, info);
-                        if(!(return_value_py_plugin_info$10 == 0))
+                        return_value_py_plugin_info_10=py_plugin_info(plugin, info);
+                        if(!(return_value_py_plugin_info_10 == 0))
                         {
                           wminput_err("Error on python_info");
                           do
@@ -7628,16 +7628,16 @@ signed int py_plugin_open(struct plugin *plugin, char *dir)
 signed int py_plugin_param_float(struct plugin *plugin, signed int i, float value)
 {
   struct _object *PyObj;
-  signed int return_value_PyObject_SetAttrString$1;
-  signed int return_value_PyObject_SetAttrString$2;
+  signed int return_value_PyObject_SetAttrString_1;
+  signed int return_value_PyObject_SetAttrString_2;
   switch((signed int)plugin->info->param_info[(signed long int)i].type)
   {
     case WMPLUGIN_PARAM_INT:
     {
       wminput_err("possible loss of precision: %s.%s (cast float to int)", plugin->name, plugin->info->param_info[(signed long int)i].name);
       PyObj=PyInt_FromLong((signed long int)(signed int)value);
-      return_value_PyObject_SetAttrString$1=PyObject_SetAttrString(((struct py_plugin *)plugin->p)->handle, plugin->info->param_info[(signed long int)i].name, PyObj);
-      if(!(return_value_PyObject_SetAttrString$1 == 0))
+      return_value_PyObject_SetAttrString_1=PyObject_SetAttrString(((struct py_plugin *)plugin->p)->handle, plugin->info->param_info[(signed long int)i].name, PyObj);
+      if(!(return_value_PyObject_SetAttrString_1 == 0))
       {
         PyErr_Print();
         return -1;
@@ -7648,8 +7648,8 @@ signed int py_plugin_param_float(struct plugin *plugin, signed int i, float valu
     case WMPLUGIN_PARAM_FLOAT:
     {
       PyObj=PyFloat_FromDouble((double)value);
-      return_value_PyObject_SetAttrString$2=PyObject_SetAttrString(((struct py_plugin *)plugin->p)->handle, plugin->info->param_info[(signed long int)i].name, PyObj);
-      if(!(return_value_PyObject_SetAttrString$2 == 0))
+      return_value_PyObject_SetAttrString_2=PyObject_SetAttrString(((struct py_plugin *)plugin->p)->handle, plugin->info->param_info[(signed long int)i].name, PyObj);
+      if(!(return_value_PyObject_SetAttrString_2 == 0))
       {
         PyErr_Print();
         return -1;
@@ -7665,15 +7665,15 @@ signed int py_plugin_param_float(struct plugin *plugin, signed int i, float valu
 signed int py_plugin_param_int(struct plugin *plugin, signed int i, signed int value)
 {
   struct _object *PyObj;
-  signed int return_value_PyObject_SetAttrString$1;
-  signed int return_value_PyObject_SetAttrString$2;
+  signed int return_value_PyObject_SetAttrString_1;
+  signed int return_value_PyObject_SetAttrString_2;
   switch((signed int)plugin->info->param_info[(signed long int)i].type)
   {
     case WMPLUGIN_PARAM_INT:
     {
       PyObj=PyInt_FromLong((signed long int)value);
-      return_value_PyObject_SetAttrString$1=PyObject_SetAttrString(((struct py_plugin *)plugin->p)->handle, plugin->info->param_info[(signed long int)i].name, PyObj);
-      if(!(return_value_PyObject_SetAttrString$1 == 0))
+      return_value_PyObject_SetAttrString_1=PyObject_SetAttrString(((struct py_plugin *)plugin->p)->handle, plugin->info->param_info[(signed long int)i].name, PyObj);
+      if(!(return_value_PyObject_SetAttrString_1 == 0))
       {
         PyErr_Print();
         return -1;
@@ -7684,8 +7684,8 @@ signed int py_plugin_param_int(struct plugin *plugin, signed int i, signed int v
     case WMPLUGIN_PARAM_FLOAT:
     {
       PyObj=PyFloat_FromDouble((double)value);
-      return_value_PyObject_SetAttrString$2=PyObject_SetAttrString(((struct py_plugin *)plugin->p)->handle, plugin->info->param_info[(signed long int)i].name, PyObj);
-      if(!(return_value_PyObject_SetAttrString$2 == 0))
+      return_value_PyObject_SetAttrString_2=PyObject_SetAttrString(((struct py_plugin *)plugin->p)->handle, plugin->info->param_info[(signed long int)i].name, PyObj);
+      if(!(return_value_PyObject_SetAttrString_2 == 0))
       {
         PyErr_Print();
         return -1;
@@ -7829,17 +7829,17 @@ void py_wiimote_deinit()
 signed int read_mesg_array(signed int fd, struct mesg_array *ma)
 {
   signed long int len = (void *)&ma->array[(signed long int)0] - (void *)ma;
-  signed int return_value_full_read$1;
-  return_value_full_read$1=full_read(fd, (void *)ma, (unsigned long int)len);
-  if(!(return_value_full_read$1 == 0))
+  signed int return_value_full_read_1;
+  return_value_full_read_1=full_read(fd, (void *)ma, (unsigned long int)len);
+  if(!(return_value_full_read_1 == 0))
     return -1;
 
   else
   {
     len = (signed long int)((unsigned long int)ma->count * sizeof(union cwiid_mesg) /*36ul*/ );
-    signed int return_value_full_read$2;
-    return_value_full_read$2=full_read(fd, (void *)&ma->array[(signed long int)0], (unsigned long int)len);
-    if(!(return_value_full_read$2 == 0))
+    signed int return_value_full_read_2;
+    return_value_full_read_2=full_read(fd, (void *)&ma->array[(signed long int)0], (unsigned long int)len);
+    if(!(return_value_full_read_2 == 0))
       return -1;
 
     else
@@ -7856,51 +7856,51 @@ void * router_thread(struct wiimote *wiimote)
   struct mesg_array ma;
   char err;
   char print_clock_err = (char)1;
-  signed int return_value_process_status$2;
-  signed int return_value_process_btn$3;
-  signed int return_value_process_btn$4;
-  _Bool tmp_if_expr$6;
-  signed int return_value_process_acc$5;
-  signed int return_value_process_btn$7;
-  _Bool tmp_if_expr$9;
-  signed int return_value_process_ext$8;
-  signed int return_value_process_btn$10;
-  _Bool tmp_if_expr$12;
-  signed int return_value_process_acc$11;
-  _Bool tmp_if_expr$14;
-  signed int return_value_process_ir12$13;
-  signed int return_value_process_btn$15;
-  _Bool tmp_if_expr$17;
-  signed int return_value_process_ext$16;
-  signed int return_value_process_btn$18;
-  _Bool tmp_if_expr$20;
-  signed int return_value_process_acc$19;
-  _Bool tmp_if_expr$22;
-  signed int return_value_process_ext$21;
-  signed int return_value_process_btn$23;
-  _Bool tmp_if_expr$25;
-  signed int return_value_process_ir10$24;
-  _Bool tmp_if_expr$27;
-  signed int return_value_process_ext$26;
-  signed int return_value_process_btn$28;
-  _Bool tmp_if_expr$30;
-  signed int return_value_process_acc$29;
-  _Bool tmp_if_expr$32;
-  signed int return_value_process_ir10$31;
-  _Bool tmp_if_expr$34;
-  signed int return_value_process_ext$33;
-  signed int return_value_process_ext$35;
-  signed int return_value_process_read$36;
-  _Bool tmp_if_expr$38;
-  signed int return_value_process_btn$37;
-  signed int return_value_process_write$39;
+  signed int return_value_process_status_2;
+  signed int return_value_process_btn_3;
+  signed int return_value_process_btn_4;
+  _Bool tmp_if_expr_6;
+  signed int return_value_process_acc_5;
+  signed int return_value_process_btn_7;
+  _Bool tmp_if_expr_9;
+  signed int return_value_process_ext_8;
+  signed int return_value_process_btn_10;
+  _Bool tmp_if_expr_12;
+  signed int return_value_process_acc_11;
+  _Bool tmp_if_expr_14;
+  signed int return_value_process_ir12_13;
+  signed int return_value_process_btn_15;
+  _Bool tmp_if_expr_17;
+  signed int return_value_process_ext_16;
+  signed int return_value_process_btn_18;
+  _Bool tmp_if_expr_20;
+  signed int return_value_process_acc_19;
+  _Bool tmp_if_expr_22;
+  signed int return_value_process_ext_21;
+  signed int return_value_process_btn_23;
+  _Bool tmp_if_expr_25;
+  signed int return_value_process_ir10_24;
+  _Bool tmp_if_expr_27;
+  signed int return_value_process_ext_26;
+  signed int return_value_process_btn_28;
+  _Bool tmp_if_expr_30;
+  signed int return_value_process_acc_29;
+  _Bool tmp_if_expr_32;
+  signed int return_value_process_ir10_31;
+  _Bool tmp_if_expr_34;
+  signed int return_value_process_ext_33;
+  signed int return_value_process_ext_35;
+  signed int return_value_process_read_36;
+  _Bool tmp_if_expr_38;
+  signed int return_value_process_btn_37;
+  signed int return_value_process_write_39;
   while((_Bool)1)
   {
     len=read(wiimote->int_socket, (void *)buf, (unsigned long int)23);
     ma.count = (unsigned char)0;
-    signed int return_value_clock_gettime$1;
-    return_value_clock_gettime$1=clock_gettime(0, &ma.timestamp);
-    if(!(return_value_clock_gettime$1 == 0))
+    signed int return_value_clock_gettime_1;
+    return_value_clock_gettime_1=clock_gettime(0, &ma.timestamp);
+    if(!(return_value_clock_gettime_1 == 0))
     {
       if(!(print_clock_err == 0))
       {
@@ -7927,158 +7927,158 @@ void * router_thread(struct wiimote *wiimote)
       {
         case 0x20:
         {
-          return_value_process_status$2=process_status(wiimote, &buf[(signed long int)2], &ma);
-          err = (char)return_value_process_status$2;
+          return_value_process_status_2=process_status(wiimote, &buf[(signed long int)2], &ma);
+          err = (char)return_value_process_status_2;
           break;
         }
         case 0x30:
         {
-          return_value_process_btn$3=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          err = (char)return_value_process_btn$3;
+          return_value_process_btn_3=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          err = (char)return_value_process_btn_3;
           break;
         }
         case 0x31:
         {
-          return_value_process_btn$4=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          if(!(return_value_process_btn$4 == 0))
-            tmp_if_expr$6 = (_Bool)1;
+          return_value_process_btn_4=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          if(!(return_value_process_btn_4 == 0))
+            tmp_if_expr_6 = (_Bool)1;
 
           else
           {
-            return_value_process_acc$5=process_acc(wiimote, &buf[(signed long int)4], &ma);
-            tmp_if_expr$6 = return_value_process_acc$5 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_acc_5=process_acc(wiimote, &buf[(signed long int)4], &ma);
+            tmp_if_expr_6 = return_value_process_acc_5 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          err = (char)tmp_if_expr$6;
+          err = (char)tmp_if_expr_6;
           break;
         }
         case 0x32:
         {
-          return_value_process_btn$7=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          if(!(return_value_process_btn$7 == 0))
-            tmp_if_expr$9 = (_Bool)1;
+          return_value_process_btn_7=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          if(!(return_value_process_btn_7 == 0))
+            tmp_if_expr_9 = (_Bool)1;
 
           else
           {
-            return_value_process_ext$8=process_ext(wiimote, &buf[(signed long int)4], (unsigned char)8, &ma);
-            tmp_if_expr$9 = return_value_process_ext$8 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ext_8=process_ext(wiimote, &buf[(signed long int)4], (unsigned char)8, &ma);
+            tmp_if_expr_9 = return_value_process_ext_8 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          err = (char)tmp_if_expr$9;
+          err = (char)tmp_if_expr_9;
           break;
         }
         case 0x33:
         {
-          return_value_process_btn$10=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          if(!(return_value_process_btn$10 == 0))
-            tmp_if_expr$12 = (_Bool)1;
+          return_value_process_btn_10=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          if(!(return_value_process_btn_10 == 0))
+            tmp_if_expr_12 = (_Bool)1;
 
           else
           {
-            return_value_process_acc$11=process_acc(wiimote, &buf[(signed long int)4], &ma);
-            tmp_if_expr$12 = return_value_process_acc$11 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_acc_11=process_acc(wiimote, &buf[(signed long int)4], &ma);
+            tmp_if_expr_12 = return_value_process_acc_11 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$12)
-            tmp_if_expr$14 = (_Bool)1;
+          if(tmp_if_expr_12)
+            tmp_if_expr_14 = (_Bool)1;
 
           else
           {
-            return_value_process_ir12$13=process_ir12(wiimote, &buf[(signed long int)7], &ma);
-            tmp_if_expr$14 = return_value_process_ir12$13 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ir12_13=process_ir12(wiimote, &buf[(signed long int)7], &ma);
+            tmp_if_expr_14 = return_value_process_ir12_13 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          err = (char)tmp_if_expr$14;
+          err = (char)tmp_if_expr_14;
           break;
         }
         case 0x34:
         {
-          return_value_process_btn$15=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          if(!(return_value_process_btn$15 == 0))
-            tmp_if_expr$17 = (_Bool)1;
+          return_value_process_btn_15=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          if(!(return_value_process_btn_15 == 0))
+            tmp_if_expr_17 = (_Bool)1;
 
           else
           {
-            return_value_process_ext$16=process_ext(wiimote, &buf[(signed long int)4], (unsigned char)19, &ma);
-            tmp_if_expr$17 = return_value_process_ext$16 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ext_16=process_ext(wiimote, &buf[(signed long int)4], (unsigned char)19, &ma);
+            tmp_if_expr_17 = return_value_process_ext_16 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          err = (char)tmp_if_expr$17;
+          err = (char)tmp_if_expr_17;
           break;
         }
         case 0x35:
         {
-          return_value_process_btn$18=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          if(!(return_value_process_btn$18 == 0))
-            tmp_if_expr$20 = (_Bool)1;
+          return_value_process_btn_18=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          if(!(return_value_process_btn_18 == 0))
+            tmp_if_expr_20 = (_Bool)1;
 
           else
           {
-            return_value_process_acc$19=process_acc(wiimote, &buf[(signed long int)4], &ma);
-            tmp_if_expr$20 = return_value_process_acc$19 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_acc_19=process_acc(wiimote, &buf[(signed long int)4], &ma);
+            tmp_if_expr_20 = return_value_process_acc_19 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$20)
-            tmp_if_expr$22 = (_Bool)1;
+          if(tmp_if_expr_20)
+            tmp_if_expr_22 = (_Bool)1;
 
           else
           {
-            return_value_process_ext$21=process_ext(wiimote, &buf[(signed long int)7], (unsigned char)16, &ma);
-            tmp_if_expr$22 = return_value_process_ext$21 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ext_21=process_ext(wiimote, &buf[(signed long int)7], (unsigned char)16, &ma);
+            tmp_if_expr_22 = return_value_process_ext_21 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          err = (char)tmp_if_expr$22;
+          err = (char)tmp_if_expr_22;
           break;
         }
         case 0x36:
         {
-          return_value_process_btn$23=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          if(!(return_value_process_btn$23 == 0))
-            tmp_if_expr$25 = (_Bool)1;
+          return_value_process_btn_23=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          if(!(return_value_process_btn_23 == 0))
+            tmp_if_expr_25 = (_Bool)1;
 
           else
           {
-            return_value_process_ir10$24=process_ir10(wiimote, &buf[(signed long int)4], &ma);
-            tmp_if_expr$25 = return_value_process_ir10$24 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ir10_24=process_ir10(wiimote, &buf[(signed long int)4], &ma);
+            tmp_if_expr_25 = return_value_process_ir10_24 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$25)
-            tmp_if_expr$27 = (_Bool)1;
+          if(tmp_if_expr_25)
+            tmp_if_expr_27 = (_Bool)1;
 
           else
           {
-            return_value_process_ext$26=process_ext(wiimote, &buf[(signed long int)14], (unsigned char)9, &ma);
-            tmp_if_expr$27 = return_value_process_ext$26 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ext_26=process_ext(wiimote, &buf[(signed long int)14], (unsigned char)9, &ma);
+            tmp_if_expr_27 = return_value_process_ext_26 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          err = (char)tmp_if_expr$27;
+          err = (char)tmp_if_expr_27;
           break;
         }
         case 0x37:
         {
-          return_value_process_btn$28=process_btn(wiimote, &buf[(signed long int)2], &ma);
-          if(!(return_value_process_btn$28 == 0))
-            tmp_if_expr$30 = (_Bool)1;
+          return_value_process_btn_28=process_btn(wiimote, &buf[(signed long int)2], &ma);
+          if(!(return_value_process_btn_28 == 0))
+            tmp_if_expr_30 = (_Bool)1;
 
           else
           {
-            return_value_process_acc$29=process_acc(wiimote, &buf[(signed long int)4], &ma);
-            tmp_if_expr$30 = return_value_process_acc$29 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_acc_29=process_acc(wiimote, &buf[(signed long int)4], &ma);
+            tmp_if_expr_30 = return_value_process_acc_29 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$30)
-            tmp_if_expr$32 = (_Bool)1;
+          if(tmp_if_expr_30)
+            tmp_if_expr_32 = (_Bool)1;
 
           else
           {
-            return_value_process_ir10$31=process_ir10(wiimote, &buf[(signed long int)7], &ma);
-            tmp_if_expr$32 = return_value_process_ir10$31 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ir10_31=process_ir10(wiimote, &buf[(signed long int)7], &ma);
+            tmp_if_expr_32 = return_value_process_ir10_31 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$32)
-            tmp_if_expr$34 = (_Bool)1;
+          if(tmp_if_expr_32)
+            tmp_if_expr_34 = (_Bool)1;
 
           else
           {
-            return_value_process_ext$33=process_ext(wiimote, &buf[(signed long int)17], (unsigned char)6, &ma);
-            tmp_if_expr$34 = return_value_process_ext$33 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_ext_33=process_ext(wiimote, &buf[(signed long int)17], (unsigned char)6, &ma);
+            tmp_if_expr_34 = return_value_process_ext_33 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          err = (char)tmp_if_expr$34;
+          err = (char)tmp_if_expr_34;
           break;
         }
         case 0x3D:
         {
-          return_value_process_ext$35=process_ext(wiimote, &buf[(signed long int)2], (unsigned char)21, &ma);
-          err = (char)return_value_process_ext$35;
+          return_value_process_ext_35=process_ext(wiimote, &buf[(signed long int)2], (unsigned char)21, &ma);
+          err = (char)return_value_process_ext_35;
           break;
         }
         case 0x3E:
@@ -8091,22 +8091,22 @@ void * router_thread(struct wiimote *wiimote)
         }
         case 0x21:
         {
-          return_value_process_read$36=process_read(wiimote, &buf[(signed long int)4]);
-          if(!(return_value_process_read$36 == 0))
-            tmp_if_expr$38 = (_Bool)1;
+          return_value_process_read_36=process_read(wiimote, &buf[(signed long int)4]);
+          if(!(return_value_process_read_36 == 0))
+            tmp_if_expr_38 = (_Bool)1;
 
           else
           {
-            return_value_process_btn$37=process_btn(wiimote, &buf[(signed long int)2], &ma);
-            tmp_if_expr$38 = return_value_process_btn$37 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_process_btn_37=process_btn(wiimote, &buf[(signed long int)2], &ma);
+            tmp_if_expr_38 = return_value_process_btn_37 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          err = (char)tmp_if_expr$38;
+          err = (char)tmp_if_expr_38;
           break;
         }
         case 0x22:
         {
-          return_value_process_write$39=process_write(wiimote, &buf[(signed long int)2]);
-          err = (char)return_value_process_write$39;
+          return_value_process_write_39=process_write(wiimote, &buf[(signed long int)2]);
+          err = (char)return_value_process_write_39;
           break;
         }
         default:
@@ -8117,9 +8117,9 @@ void * router_thread(struct wiimote *wiimote)
       }
       if(err == 0 && (signed int)ma.count >= 1)
       {
-        signed int return_value_update_state$40;
-        return_value_update_state$40=update_state(wiimote, &ma);
-        if(!(return_value_update_state$40 == 0))
+        signed int return_value_update_state_40;
+        return_value_update_state_40=update_state(wiimote, &ma);
+        if(!(return_value_update_state_40 == 0))
           cwiid_err(wiimote, "State update error");
 
         if(!((0x01 & wiimote->flags) == 0))
@@ -8141,9 +8141,9 @@ signed int send_event(struct conf *conf, unsigned short int type, unsigned short
   event.type = type;
   event.code = code;
   event.value = value;
-  signed long int return_value_write$1;
-  return_value_write$1=write(conf->fd, (const void *)&event, sizeof(struct input_event) /*24ul*/ );
-  if(!((unsigned long int)return_value_write$1 == sizeof(struct input_event) /*24ul*/ ))
+  signed long int return_value_write_1;
+  return_value_write_1=write(conf->fd, (const void *)&event, sizeof(struct input_event) /*24ul*/ );
+  if(!((unsigned long int)return_value_write_1 == sizeof(struct input_event) /*24ul*/ ))
   {
     wminput_err("Error on send_event");
     return -1;
@@ -8159,17 +8159,17 @@ static struct _object * set_rpt_mode(struct _object *self, struct _object *args,
 {
   signed int id;
   signed int rpt_mode;
-  signed int return_value_PyArg_ParseTupleAndKeywords$1;
+  signed int return_value_PyArg_ParseTupleAndKeywords_1;
   static char *kwlist[3l] = { "id", "rpt_mode", (char *)(void *)0 };
-  return_value_PyArg_ParseTupleAndKeywords$1=PyArg_ParseTupleAndKeywords(args, kwds, "ii:wmplugin:set_rpt_mode", kwlist, &id, &rpt_mode);
-  if(return_value_PyArg_ParseTupleAndKeywords$1 == 0)
+  return_value_PyArg_ParseTupleAndKeywords_1=PyArg_ParseTupleAndKeywords(args, kwds, "ii:wmplugin:set_rpt_mode", kwlist, &id, &rpt_mode);
+  if(return_value_PyArg_ParseTupleAndKeywords_1 == 0)
     return (struct _object *)(void *)0;
 
   else
   {
-    signed int return_value_wmplugin_set_rpt_mode$2;
-    return_value_wmplugin_set_rpt_mode$2=wmplugin_set_rpt_mode(id, (unsigned char)rpt_mode);
-    if(!(return_value_wmplugin_set_rpt_mode$2 == 0))
+    signed int return_value_wmplugin_set_rpt_mode_2;
+    return_value_wmplugin_set_rpt_mode_2=wmplugin_set_rpt_mode(id, (unsigned char)rpt_mode);
+    if(!(return_value_wmplugin_set_rpt_mode_2 == 0))
       return (struct _object *)(void *)0;
 
     else
@@ -8189,14 +8189,14 @@ void * status_thread(struct wiimote *wiimote)
   unsigned char buf[2l];
   ma.count = (unsigned char)1;
   status_mesg = &ma.array[(signed long int)0].status_mesg;
-  signed int return_value_cwiid_write$5;
-  signed int return_value_cwiid_write$4;
-  signed int return_value_cwiid_read$3;
+  signed int return_value_cwiid_write_5;
+  signed int return_value_cwiid_write_4;
+  signed int return_value_cwiid_read_3;
   while((_Bool)1)
   {
-    signed int return_value_full_read$1;
-    return_value_full_read$1=full_read(wiimote->status_pipe[(signed long int)0], (void *)status_mesg, sizeof(struct cwiid_status_mesg) /*12ul*/ );
-    if(!(return_value_full_read$1 == 0))
+    signed int return_value_full_read_1;
+    return_value_full_read_1=full_read(wiimote->status_pipe[(signed long int)0], (void *)status_mesg, sizeof(struct cwiid_status_mesg) /*12ul*/ );
+    if(!(return_value_full_read_1 == 0))
     {
       cwiid_err(wiimote, "Pipe read error (status)");
       break;
@@ -8209,9 +8209,9 @@ void * status_thread(struct wiimote *wiimote)
     {
       if((signed int)status_mesg->ext_type == CWIID_EXT_UNKNOWN)
       {
-        signed int return_value_cwiid_read$2;
-        return_value_cwiid_read$2=cwiid_read(wiimote, (unsigned char)0x04, (unsigned int)0xA400FE, (unsigned short int)1, (void *)&buf[(signed long int)0]);
-        if(!(return_value_cwiid_read$2 == 0))
+        signed int return_value_cwiid_read_2;
+        return_value_cwiid_read_2=cwiid_read(wiimote, (unsigned char)0x04, (unsigned int)0xA400FE, (unsigned short int)1, (void *)&buf[(signed long int)0]);
+        if(!(return_value_cwiid_read_2 == 0))
         {
           cwiid_err(wiimote, "Read error (extension error)");
           status_mesg->ext_type = (enum cwiid_ext_type)CWIID_EXT_UNKNOWN;
@@ -8248,8 +8248,8 @@ void * status_thread(struct wiimote *wiimote)
           {
             buf[(signed long int)0] = (unsigned char)0x55;
             buf[(signed long int)1] = (unsigned char)0x00;
-            return_value_cwiid_write$5=cwiid_write(wiimote, (unsigned char)0x04, (unsigned int)0xA400F0, (unsigned short int)1, (const void *)&buf[(signed long int)0]);
-            if(!(return_value_cwiid_write$5 == 0))
+            return_value_cwiid_write_5=cwiid_write(wiimote, (unsigned char)0x04, (unsigned int)0xA400F0, (unsigned short int)1, (const void *)&buf[(signed long int)0]);
+            if(!(return_value_cwiid_write_5 == 0))
             {
               cwiid_err(wiimote, "Extension initialization error");
               status_mesg->ext_type = (enum cwiid_ext_type)CWIID_EXT_UNKNOWN;
@@ -8257,8 +8257,8 @@ void * status_thread(struct wiimote *wiimote)
 
             else
             {
-              return_value_cwiid_write$4=cwiid_write(wiimote, (unsigned char)0x04, (unsigned int)0xA400FB, (unsigned short int)1, (const void *)&buf[(signed long int)1]);
-              if(!(return_value_cwiid_write$4 == 0))
+              return_value_cwiid_write_4=cwiid_write(wiimote, (unsigned char)0x04, (unsigned int)0xA400FB, (unsigned short int)1, (const void *)&buf[(signed long int)1]);
+              if(!(return_value_cwiid_write_4 == 0))
               {
                 cwiid_err(wiimote, "Extension initialization error");
                 status_mesg->ext_type = (enum cwiid_ext_type)CWIID_EXT_UNKNOWN;
@@ -8266,8 +8266,8 @@ void * status_thread(struct wiimote *wiimote)
 
               else
               {
-                return_value_cwiid_read$3=cwiid_read(wiimote, (unsigned char)0x04, (unsigned int)0xA400FE, (unsigned short int)1, (void *)&buf[(signed long int)0]);
-                if(!(return_value_cwiid_read$3 == 0))
+                return_value_cwiid_read_3=cwiid_read(wiimote, (unsigned char)0x04, (unsigned int)0xA400FE, (unsigned short int)1, (void *)&buf[(signed long int)0]);
+                if(!(return_value_cwiid_read_3 == 0))
                 {
                   cwiid_err(wiimote, "Read error (extension error)");
                   status_mesg->ext_type = (enum cwiid_ext_type)CWIID_EXT_UNKNOWN;
@@ -8307,22 +8307,22 @@ void * status_thread(struct wiimote *wiimote)
         }
       }
 
-      signed int return_value_update_state$6;
-      return_value_update_state$6=update_state(wiimote, &ma);
-      if(!(return_value_update_state$6 == 0))
+      signed int return_value_update_state_6;
+      return_value_update_state_6=update_state(wiimote, &ma);
+      if(!(return_value_update_state_6 == 0))
         cwiid_err(wiimote, "State update error");
 
-      signed int return_value_update_rpt_mode$7;
-      return_value_update_rpt_mode$7=update_rpt_mode(wiimote, (signed char)-1);
-      if(!(return_value_update_rpt_mode$7 == 0))
+      signed int return_value_update_rpt_mode_7;
+      return_value_update_rpt_mode_7=update_rpt_mode(wiimote, (signed char)-1);
+      if(!(return_value_update_rpt_mode_7 == 0))
         cwiid_err(wiimote, "Error reseting report mode");
 
       if(!((0x01 & (signed int)wiimote->state.rpt_mode) == 0))
       {
         if(!((0x01 & wiimote->flags) == 0))
         {
-          signed int return_value_write_mesg_array$8;
-          return_value_write_mesg_array$8=write_mesg_array(wiimote, &ma);
+          signed int return_value_write_mesg_array_8;
+          return_value_write_mesg_array_8=write_mesg_array(wiimote, &ma);
         }
 
       }
@@ -8336,9 +8336,9 @@ void * status_thread(struct wiimote *wiimote)
 // file uinput.c line 216
 signed int uinput_close(struct conf *conf)
 {
-  signed int return_value_close$1;
-  return_value_close$1=close(conf->fd);
-  if(!(return_value_close$1 == 0))
+  signed int return_value_close_1;
+  return_value_close_1=close(conf->fd);
+  if(!(return_value_close_1 == 0))
   {
     wminput_err("Error on uinput close");
     return -1;
@@ -8356,17 +8356,17 @@ void * uinput_listen(struct uinput_listen_data *data)
   struct input_event event;
   struct uinput_ff_upload upload;
   struct uinput_ff_erase erase;
-  signed int return_value_ioctl$2;
-  signed int return_value_cwiid_set_rumble$3;
-  signed int return_value_ioctl$4;
-  signed int return_value_ioctl$5;
-  signed int return_value_cwiid_set_rumble$6;
-  signed int return_value_ioctl$7;
+  signed int return_value_ioctl_2;
+  signed int return_value_cwiid_set_rumble_3;
+  signed int return_value_ioctl_4;
+  signed int return_value_ioctl_5;
+  signed int return_value_cwiid_set_rumble_6;
+  signed int return_value_ioctl_7;
   do
   {
-    signed long int return_value_read$1;
-    return_value_read$1=read(data->conf->fd, (void *)&event, sizeof(struct input_event) /*24ul*/ );
-    len = (unsigned long int)return_value_read$1;
+    signed long int return_value_read_1;
+    return_value_read_1=read(data->conf->fd, (void *)&event, sizeof(struct input_event) /*24ul*/ );
+    len = (unsigned long int)return_value_read_1;
     if(!(len == sizeof(struct input_event) /*24ul*/ ))
       wminput_err("Error on uinput read");
 
@@ -8377,16 +8377,16 @@ void * uinput_listen(struct uinput_listen_data *data)
           case 1:
           {
             erase.request_id = (unsigned int)event.value;
-            return_value_ioctl$2=ioctl(data->conf->fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(200 << 0)) | sizeof(struct uinput_ff_upload) /*104ul*/  << 0 + 8 + 8, &upload);
-            if(!(return_value_ioctl$2 >= 0))
+            return_value_ioctl_2=ioctl(data->conf->fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(200 << 0)) | sizeof(struct uinput_ff_upload) /*104ul*/  << 0 + 8 + 8, &upload);
+            if(!(return_value_ioctl_2 >= 0))
               wminput_err("Error on ff upload begin");
 
-            return_value_cwiid_set_rumble$3=cwiid_set_rumble(data->wiimote, (unsigned char)1);
-            if(!(return_value_cwiid_set_rumble$3 == 0))
+            return_value_cwiid_set_rumble_3=cwiid_set_rumble(data->wiimote, (unsigned char)1);
+            if(!(return_value_cwiid_set_rumble_3 == 0))
               wminput_err("Error setting rumble");
 
-            return_value_ioctl$4=ioctl(data->conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(201 << 0)) | sizeof(struct uinput_ff_upload) /*104ul*/  << 0 + 8 + 8, &upload);
-            if(!(return_value_ioctl$4 >= 0))
+            return_value_ioctl_4=ioctl(data->conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(201 << 0)) | sizeof(struct uinput_ff_upload) /*104ul*/  << 0 + 8 + 8, &upload);
+            if(!(return_value_ioctl_4 >= 0))
               wminput_err("Error on ff upload end");
 
             break;
@@ -8394,16 +8394,16 @@ void * uinput_listen(struct uinput_listen_data *data)
           case 2:
           {
             erase.request_id = (unsigned int)event.value;
-            return_value_ioctl$5=ioctl(data->conf->fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(202 << 0)) | sizeof(struct uinput_ff_erase) /*12ul*/  << 0 + 8 + 8, &erase);
-            if(!(return_value_ioctl$5 >= 0))
+            return_value_ioctl_5=ioctl(data->conf->fd, (unsigned long int)((2U | 1U) << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(202 << 0)) | sizeof(struct uinput_ff_erase) /*12ul*/  << 0 + 8 + 8, &erase);
+            if(!(return_value_ioctl_5 >= 0))
               wminput_err("Error on ff erase begin");
 
-            return_value_cwiid_set_rumble$6=cwiid_set_rumble(data->wiimote, (unsigned char)0);
-            if(!(return_value_cwiid_set_rumble$6 == 0))
+            return_value_cwiid_set_rumble_6=cwiid_set_rumble(data->wiimote, (unsigned char)0);
+            if(!(return_value_cwiid_set_rumble_6 == 0))
               wminput_err("Error clearing rumble");
 
-            return_value_ioctl$7=ioctl(data->conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(203 << 0)) | sizeof(struct uinput_ff_erase) /*12ul*/  << 0 + 8 + 8, &erase);
-            if(!(return_value_ioctl$7 >= 0))
+            return_value_ioctl_7=ioctl(data->conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(203 << 0)) | sizeof(struct uinput_ff_erase) /*12ul*/  << 0 + 8 + 8, &erase);
+            if(!(return_value_ioctl_7 >= 0))
               wminput_err("Error on ff erase end");
 
             break;
@@ -8431,10 +8431,10 @@ signed int uinput_open(struct conf *conf)
       break;
 
   }
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$20;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_20;
   if(!(conf->fd >= 0))
   {
     wminput_err("unable to open uinput");
@@ -8443,9 +8443,9 @@ signed int uinput_open(struct conf *conf)
 
   else
   {
-    signed long int return_value_write$1;
-    return_value_write$1=write(conf->fd, (const void *)&conf->dev, sizeof(struct uinput_user_dev) /*1116ul*/ );
-    if(!((unsigned long int)return_value_write$1 == sizeof(struct uinput_user_dev) /*1116ul*/ ))
+    signed long int return_value_write_1;
+    return_value_write_1=write(conf->fd, (const void *)&conf->dev, sizeof(struct uinput_user_dev) /*1116ul*/ );
+    if(!((unsigned long int)return_value_write_1 == sizeof(struct uinput_user_dev) /*1116ul*/ ))
     {
       wminput_err("error on uinput device setup");
       close(conf->fd);
@@ -8456,18 +8456,18 @@ signed int uinput_open(struct conf *conf)
     {
       if(!(conf->ff == 0))
       {
-        signed int return_value_ioctl$2;
-        return_value_ioctl$2=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(100 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, 0x15);
-        if(!(return_value_ioctl$2 >= 0))
+        signed int return_value_ioctl_2;
+        return_value_ioctl_2=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(100 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, 0x15);
+        if(!(return_value_ioctl_2 >= 0))
         {
           wminput_err("error on uinput ioctl");
           close(conf->fd);
           return -1;
         }
 
-        signed int return_value_ioctl$3;
-        return_value_ioctl$3=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(107 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, 0x50);
-        if(!(return_value_ioctl$3 >= 0))
+        signed int return_value_ioctl_3;
+        return_value_ioctl_3=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(107 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, 0x50);
+        if(!(return_value_ioctl_3 >= 0))
         {
           wminput_err("error on uinput ioctl");
           close(conf->fd);
@@ -8476,9 +8476,9 @@ signed int uinput_open(struct conf *conf)
 
       }
 
-      signed int return_value_ioctl$4;
-      return_value_ioctl$4=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(100 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, 0x01);
-      if(!(return_value_ioctl$4 >= 0))
+      signed int return_value_ioctl_4;
+      return_value_ioctl_4=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(100 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, 0x01);
+      if(!(return_value_ioctl_4 >= 0))
       {
         wminput_err("error on uinput ioctl");
         close(conf->fd);
@@ -8491,9 +8491,9 @@ signed int uinput_open(struct conf *conf)
         for( ; !(i >= 11u); i = i + 1u)
           if(!(conf->wiimote_bmap[(signed long int)i].active == 0))
           {
-            signed int return_value_ioctl$5;
-            return_value_ioctl$5=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(101 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, conf->wiimote_bmap[(signed long int)i].action);
-            if(!(return_value_ioctl$5 >= 0))
+            signed int return_value_ioctl_5;
+            return_value_ioctl_5=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(101 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, conf->wiimote_bmap[(signed long int)i].action);
+            if(!(return_value_ioctl_5 >= 0))
             {
               wminput_err("error on uinput ioctl");
               close(conf->fd);
@@ -8506,9 +8506,9 @@ signed int uinput_open(struct conf *conf)
         for( ; !(i >= 2u); i = i + 1u)
           if(!(conf->nunchuk_bmap[(signed long int)i].active == 0))
           {
-            signed int return_value_ioctl$6;
-            return_value_ioctl$6=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(101 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, conf->nunchuk_bmap[(signed long int)i].action);
-            if(!(return_value_ioctl$6 >= 0))
+            signed int return_value_ioctl_6;
+            return_value_ioctl_6=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(101 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, conf->nunchuk_bmap[(signed long int)i].action);
+            if(!(return_value_ioctl_6 >= 0))
             {
               wminput_err("error on uinput ioctl");
               close(conf->fd);
@@ -8521,9 +8521,9 @@ signed int uinput_open(struct conf *conf)
         for( ; !(i >= 15u); i = i + 1u)
           if(!(conf->classic_bmap[(signed long int)i].active == 0))
           {
-            signed int return_value_ioctl$7;
-            return_value_ioctl$7=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(101 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, conf->classic_bmap[(signed long int)i].action);
-            if(!(return_value_ioctl$7 >= 0))
+            signed int return_value_ioctl_7;
+            return_value_ioctl_7=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(101 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, conf->classic_bmap[(signed long int)i].action);
+            if(!(return_value_ioctl_7 >= 0))
             {
               wminput_err("error on uinput ioctl");
               close(conf->fd);
@@ -8536,9 +8536,9 @@ signed int uinput_open(struct conf *conf)
         for( ; !(i >= 12u); i = i + 1u)
           if(!(conf->amap[(signed long int)i].active == 0))
           {
-            signed int return_value_ioctl$8;
-            return_value_ioctl$8=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(100 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, conf->amap[(signed long int)i].axis_type);
-            if(!(return_value_ioctl$8 >= 0))
+            signed int return_value_ioctl_8;
+            return_value_ioctl_8=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(100 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, conf->amap[(signed long int)i].axis_type);
+            if(!(return_value_ioctl_8 >= 0))
             {
               wminput_err("error uinput ioctl");
               close(conf->fd);
@@ -8546,9 +8546,9 @@ signed int uinput_open(struct conf *conf)
             }
 
             request = (signed int)((signed int)conf->amap[(signed long int)i].axis_type == 0x03 ? (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(103 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8 : (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(102 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8);
-            signed int return_value_ioctl$9;
-            return_value_ioctl$9=ioctl(conf->fd, (unsigned long int)request, conf->amap[(signed long int)i].action);
-            if(!(return_value_ioctl$9 >= 0))
+            signed int return_value_ioctl_9;
+            return_value_ioctl_9=ioctl(conf->fd, (unsigned long int)request, conf->amap[(signed long int)i].action);
+            if(!(return_value_ioctl_9 >= 0))
             {
               wminput_err("error uinput ioctl");
               close(conf->fd);
@@ -8560,29 +8560,29 @@ signed int uinput_open(struct conf *conf)
               if((signed int)conf->amap[(signed long int)i].axis_type == 0x03)
               {
                 if((signed int)conf->amap[(signed long int)i].action == 0x00)
-                  tmp_if_expr$12 = (_Bool)1;
+                  tmp_if_expr_12 = (_Bool)1;
 
                 else
-                  tmp_if_expr$12 = (signed int)conf->amap[(signed long int)i].action == 0x01 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$12)
-                  tmp_if_expr$13 = (_Bool)1;
+                  tmp_if_expr_12 = (signed int)conf->amap[(signed long int)i].action == 0x01 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_12)
+                  tmp_if_expr_13 = (_Bool)1;
 
                 else
-                  tmp_if_expr$13 = (signed int)conf->amap[(signed long int)i].action == 0x02 ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$13)
+                  tmp_if_expr_13 = (signed int)conf->amap[(signed long int)i].action == 0x02 ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_13)
                 {
-                  signed int return_value_ioctl$10;
-                  return_value_ioctl$10=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(100 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, 0x02);
-                  if(!(return_value_ioctl$10 >= 0))
+                  signed int return_value_ioctl_10;
+                  return_value_ioctl_10=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(100 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, 0x02);
+                  if(!(return_value_ioctl_10 >= 0))
                   {
                     wminput_err("error uinput ioctl");
                     close(conf->fd);
                     return -1;
                   }
 
-                  signed int return_value_ioctl$11;
-                  return_value_ioctl$11=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(102 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, conf->amap[(signed long int)i].action);
-                  if(!(return_value_ioctl$11 >= 0))
+                  signed int return_value_ioctl_11;
+                  return_value_ioctl_11=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(102 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, conf->amap[(signed long int)i].action);
+                  if(!(return_value_ioctl_11 >= 0))
                   {
                     wminput_err("error uinput ioctl");
                     close(conf->fd);
@@ -8605,9 +8605,9 @@ signed int uinput_open(struct conf *conf)
             for( ; !(j >= (signed int)conf->plugins[(signed long int)i].info->button_count); j = j + 1)
               if(!(conf->plugins[(signed long int)i].bmap[(signed long int)j].active == 0))
               {
-                signed int return_value_ioctl$14;
-                return_value_ioctl$14=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(101 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, conf->plugins[(signed long int)i].bmap[(signed long int)j].action);
-                if(!(return_value_ioctl$14 >= 0))
+                signed int return_value_ioctl_14;
+                return_value_ioctl_14=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(101 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, conf->plugins[(signed long int)i].bmap[(signed long int)j].action);
+                if(!(return_value_ioctl_14 >= 0))
                 {
                   wminput_err("error on uinput ioctl");
                   close(conf->fd);
@@ -8620,9 +8620,9 @@ signed int uinput_open(struct conf *conf)
             for( ; !(j >= (signed int)conf->plugins[(signed long int)i].info->axis_count); j = j + 1)
               if(!(conf->plugins[(signed long int)i].amap[(signed long int)j].active == 0))
               {
-                signed int return_value_ioctl$15;
-                return_value_ioctl$15=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(100 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, conf->plugins[(signed long int)i].amap[(signed long int)j].axis_type);
-                if(!(return_value_ioctl$15 >= 0))
+                signed int return_value_ioctl_15;
+                return_value_ioctl_15=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(100 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, conf->plugins[(signed long int)i].amap[(signed long int)j].axis_type);
+                if(!(return_value_ioctl_15 >= 0))
                 {
                   wminput_err("error uinput ioctl");
                   close(conf->fd);
@@ -8630,9 +8630,9 @@ signed int uinput_open(struct conf *conf)
                 }
 
                 request = (signed int)((signed int)conf->plugins[(signed long int)i].amap[(signed long int)j].axis_type == 0x03 ? (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(103 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8 : (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(102 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8);
-                signed int return_value_ioctl$16;
-                return_value_ioctl$16=ioctl(conf->fd, (unsigned long int)request, conf->plugins[(signed long int)i].amap[(signed long int)j].action);
-                if(!(return_value_ioctl$16 >= 0))
+                signed int return_value_ioctl_16;
+                return_value_ioctl_16=ioctl(conf->fd, (unsigned long int)request, conf->plugins[(signed long int)i].amap[(signed long int)j].action);
+                if(!(return_value_ioctl_16 >= 0))
                 {
                   wminput_err("error uinput ioctl");
                   close(conf->fd);
@@ -8644,29 +8644,29 @@ signed int uinput_open(struct conf *conf)
                   if((signed int)conf->plugins[(signed long int)i].amap[(signed long int)j].axis_type == 0x03)
                   {
                     if((signed int)conf->plugins[(signed long int)i].amap[(signed long int)j].action == 0x00)
-                      tmp_if_expr$19 = (_Bool)1;
+                      tmp_if_expr_19 = (_Bool)1;
 
                     else
-                      tmp_if_expr$19 = (signed int)conf->plugins[(signed long int)i].amap[(signed long int)j].action == 0x01 ? (_Bool)1 : (_Bool)0;
-                    if(tmp_if_expr$19)
-                      tmp_if_expr$20 = (_Bool)1;
+                      tmp_if_expr_19 = (signed int)conf->plugins[(signed long int)i].amap[(signed long int)j].action == 0x01 ? (_Bool)1 : (_Bool)0;
+                    if(tmp_if_expr_19)
+                      tmp_if_expr_20 = (_Bool)1;
 
                     else
-                      tmp_if_expr$20 = (signed int)conf->plugins[(signed long int)i].amap[(signed long int)j].action == 0x02 ? (_Bool)1 : (_Bool)0;
-                    if(tmp_if_expr$20)
+                      tmp_if_expr_20 = (signed int)conf->plugins[(signed long int)i].amap[(signed long int)j].action == 0x02 ? (_Bool)1 : (_Bool)0;
+                    if(tmp_if_expr_20)
                     {
-                      signed int return_value_ioctl$17;
-                      return_value_ioctl$17=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(100 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, 0x02);
-                      if(!(return_value_ioctl$17 >= 0))
+                      signed int return_value_ioctl_17;
+                      return_value_ioctl_17=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(100 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, 0x02);
+                      if(!(return_value_ioctl_17 >= 0))
                       {
                         wminput_err("error uinput ioctl");
                         close(conf->fd);
                         return -1;
                       }
 
-                      signed int return_value_ioctl$18;
-                      return_value_ioctl$18=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(102 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, conf->plugins[(signed long int)i].amap[(signed long int)j].action);
-                      if(!(return_value_ioctl$18 >= 0))
+                      signed int return_value_ioctl_18;
+                      return_value_ioctl_18=ioctl(conf->fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(102 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, conf->plugins[(signed long int)i].amap[(signed long int)j].action);
+                      if(!(return_value_ioctl_18 >= 0))
                       {
                         wminput_err("error uinput ioctl");
                         close(conf->fd);
@@ -8683,9 +8683,9 @@ signed int uinput_open(struct conf *conf)
 
           }
 
-        signed int return_value_ioctl$21;
-        return_value_ioctl$21=ioctl(conf->fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(1 << 0) | (unsigned int)(0 << 0 + 8 + 8)));
-        if(!(return_value_ioctl$21 >= 0))
+        signed int return_value_ioctl_21;
+        return_value_ioctl_21=ioctl(conf->fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(85 << 0 + 8) | (unsigned int)(1 << 0) | (unsigned int)(0 << 0 + 8 + 8)));
+        if(!(return_value_ioctl_21 >= 0))
         {
           wminput_err("Error on uinput dev create");
           close(conf->fd);
@@ -8707,16 +8707,16 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
   unsigned char rpt_type;
   struct write_seq *ir_enable_seq;
   signed int seq_len;
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&wiimote->rpt_mutex);
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$9;
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&wiimote->rpt_mutex);
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_9;
+  if(!(return_value_pthread_mutex_lock_1 == 0))
   {
     cwiid_err(wiimote, "Mutex lock error (rpt mutex)");
     return -1;
@@ -8730,21 +8730,21 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
     if(!((240 & (signed int)rpt_mode) == 0))
     {
       if((signed int)wiimote->state.ext_type == CWIID_EXT_NUNCHUK)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)wiimote->state.ext_type == CWIID_EXT_CLASSIC ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_3 = (signed int)wiimote->state.ext_type == CWIID_EXT_CLASSIC ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)wiimote->state.ext_type == CWIID_EXT_MOTIONPLUS ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (signed int)wiimote->state.ext_type == CWIID_EXT_MOTIONPLUS ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
       if(!((0x04 & (signed int)rpt_mode) == 0) && !((0x08 & (signed int)rpt_mode) == 0))
       {
@@ -8776,11 +8776,11 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
     else
     {
       if(!((240 & (signed int)rpt_mode) == 0))
-        tmp_if_expr$2 = (signed int)wiimote->state.ext_type == CWIID_EXT_BALANCE ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (signed int)wiimote->state.ext_type == CWIID_EXT_BALANCE ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
         rpt_type = (unsigned char)0x32;
 
       else
@@ -8800,9 +8800,9 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
     }
     if(!((0x08 & (signed int)rpt_mode) == 0))
     {
-      signed int return_value_exec_write_seq$6;
-      return_value_exec_write_seq$6=exec_write_seq(wiimote, (unsigned int)seq_len, ir_enable_seq);
-      if(!(return_value_exec_write_seq$6 == 0))
+      signed int return_value_exec_write_seq_6;
+      return_value_exec_write_seq_6=exec_write_seq(wiimote, (unsigned int)seq_len, ir_enable_seq);
+      if(!(return_value_exec_write_seq_6 == 0))
       {
         cwiid_err(wiimote, "IR enable error");
         return -1;
@@ -8815,9 +8815,9 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
       {
         if((0x08 & (signed int)rpt_mode) == 0)
         {
-          signed int return_value_exec_write_seq$7;
-          return_value_exec_write_seq$7=exec_write_seq(wiimote, (unsigned int)(sizeof(struct write_seq [2l]) /*48ul*/  / sizeof(struct write_seq) /*24ul*/ ), ir_disable_seq);
-          if(!(return_value_exec_write_seq$7 == 0))
+          signed int return_value_exec_write_seq_7;
+          return_value_exec_write_seq_7=exec_write_seq(wiimote, (unsigned int)(sizeof(struct write_seq [2l]) /*48ul*/  / sizeof(struct write_seq) /*24ul*/ ), ir_disable_seq);
+          if(!(return_value_exec_write_seq_7 == 0))
           {
             cwiid_err(wiimote, "IR disable error");
             return -1;
@@ -8829,9 +8829,9 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
 
     buf[(signed long int)0] = (unsigned char)((wiimote->flags & 0x02) != 0 ? 0x04 : 0);
     buf[(signed long int)1] = rpt_type;
-    signed int return_value_cwiid_send_rpt$8;
-    return_value_cwiid_send_rpt$8=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x12, (unsigned long int)2, (const void *)buf);
-    if(!(return_value_cwiid_send_rpt$8 == 0))
+    signed int return_value_cwiid_send_rpt_8;
+    return_value_cwiid_send_rpt_8=cwiid_send_rpt(wiimote, (unsigned char)0, (unsigned char)0x12, (unsigned long int)2, (const void *)buf);
+    if(!(return_value_cwiid_send_rpt_8 == 0))
     {
       cwiid_err(wiimote, "Send report error (report mode)");
       return -1;
@@ -8849,31 +8849,31 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
         memset((void *)wiimote->state.ir_src, 0, sizeof(struct cwiid_ir_src [4l]) /*32ul*/ );
 
       if((signed int)wiimote->state.ext_type == CWIID_EXT_NUNCHUK)
-        tmp_if_expr$11 = (0x10 & ~((signed int)rpt_mode) & (signed int)wiimote->state.rpt_mode) != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_11 = (0x10 & ~((signed int)rpt_mode) & (signed int)wiimote->state.rpt_mode) != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$11 = (_Bool)0;
-      if(tmp_if_expr$11)
+        tmp_if_expr_11 = (_Bool)0;
+      if(tmp_if_expr_11)
         memset((void *)&wiimote->state.ext, 0, sizeof(union ext_state) /*8ul*/ );
 
       else
       {
         if((signed int)wiimote->state.ext_type == CWIID_EXT_CLASSIC)
-          tmp_if_expr$10 = (0x20 & ~((signed int)rpt_mode) & (signed int)wiimote->state.rpt_mode) != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_10 = (0x20 & ~((signed int)rpt_mode) & (signed int)wiimote->state.rpt_mode) != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$10 = (_Bool)0;
-        if(tmp_if_expr$10)
+          tmp_if_expr_10 = (_Bool)0;
+        if(tmp_if_expr_10)
           memset((void *)&wiimote->state.ext, 0, sizeof(union ext_state) /*8ul*/ );
 
         else
         {
           if((signed int)wiimote->state.ext_type == CWIID_EXT_BALANCE)
-            tmp_if_expr$9 = (0x40 & ~((signed int)rpt_mode) & (signed int)wiimote->state.rpt_mode) != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_9 = (0x40 & ~((signed int)rpt_mode) & (signed int)wiimote->state.rpt_mode) != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$9 = (_Bool)0;
-          if(tmp_if_expr$9)
+            tmp_if_expr_9 = (_Bool)0;
+          if(tmp_if_expr_9)
             memset((void *)&wiimote->state.ext, 0, sizeof(union ext_state) /*8ul*/ );
 
           else
@@ -8887,9 +8887,9 @@ signed int update_rpt_mode(struct wiimote *wiimote, signed char rpt_mode)
         }
       }
       wiimote->state.rpt_mode = (unsigned char)rpt_mode;
-      signed int return_value_pthread_mutex_unlock$12;
-      return_value_pthread_mutex_unlock$12=pthread_mutex_unlock(&wiimote->rpt_mutex);
-      if(!(return_value_pthread_mutex_unlock$12 == 0))
+      signed int return_value_pthread_mutex_unlock_12;
+      return_value_pthread_mutex_unlock_12=pthread_mutex_unlock(&wiimote->rpt_mutex);
+      if(!(return_value_pthread_mutex_unlock_12 == 0))
       {
         cwiid_err(wiimote, "Mutex unlock error (rpt mutex) - deadlock warning");
         return -1;
@@ -8907,9 +8907,9 @@ signed int update_state(struct wiimote *wiimote, struct mesg_array *ma)
 {
   signed int i;
   union cwiid_mesg *mesg;
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&wiimote->state_mutex);
-  if(!(return_value_pthread_mutex_lock$1 == 0))
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&wiimote->state_mutex);
+  if(!(return_value_pthread_mutex_lock_1 == 0))
   {
     cwiid_err(wiimote, "Mutex lock error (state mutex)");
     return -1;
@@ -8991,9 +8991,9 @@ signed int update_state(struct wiimote *wiimote, struct mesg_array *ma)
         }
       }
     }
-    signed int return_value_pthread_mutex_unlock$2;
-    return_value_pthread_mutex_unlock$2=pthread_mutex_unlock(&wiimote->state_mutex);
-    if(!(return_value_pthread_mutex_unlock$2 == 0))
+    signed int return_value_pthread_mutex_unlock_2;
+    return_value_pthread_mutex_unlock_2=pthread_mutex_unlock(&wiimote->state_mutex);
+    if(!(return_value_pthread_mutex_unlock_2 == 0))
     {
       cwiid_err(wiimote, "Mutex unlock error (state mutex) - deadlock warning");
       return -1;
@@ -9009,9 +9009,9 @@ signed int update_state(struct wiimote *wiimote, struct mesg_array *ma)
 signed int verify_handshake(struct wiimote *wiimote)
 {
   unsigned char handshake;
-  signed long int return_value_read$1;
-  return_value_read$1=read(wiimote->ctl_socket, (void *)&handshake, (unsigned long int)1);
-  if(!(return_value_read$1 == 1l))
+  signed long int return_value_read_1;
+  return_value_read_1=read(wiimote->ctl_socket, (void *)&handshake, (unsigned long int)1);
+  if(!(return_value_read_1 == 1l))
   {
     cwiid_err(wiimote, "Socket read error (handshake)");
     return -1;
@@ -9052,24 +9052,24 @@ signed int wminput_set_report_mode()
   signed int i;
   rpt_mode_flags = conf.rpt_mode_flags;
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(i >= 6))
-      tmp_if_expr$1 = conf.plugins[(signed long int)i].name != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = conf.plugins[(signed long int)i].name != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     rpt_mode_flags = rpt_mode_flags | conf.plugins[(signed long int)i].rpt_mode_flags;
     i = i + 1;
   }
   while((_Bool)1);
-  signed int return_value_cwiid_set_rpt_mode$2;
-  return_value_cwiid_set_rpt_mode$2=cwiid_set_rpt_mode(wiimote, rpt_mode_flags);
-  if(!(return_value_cwiid_set_rpt_mode$2 == 0))
+  signed int return_value_cwiid_set_rpt_mode_2;
+  return_value_cwiid_set_rpt_mode_2=cwiid_set_rpt_mode(wiimote, rpt_mode_flags);
+  if(!(return_value_cwiid_set_rpt_mode_2 == 0))
   {
     wminput_err("Error setting report mode");
     return -1;
@@ -9106,18 +9106,18 @@ signed int write_mesg_array(struct wiimote *wiimote, struct mesg_array *ma)
 {
   signed long int len = (void *)&ma->array[(signed long int)ma->count] - (void *)ma;
   signed int ret = 0;
-  signed long int return_value_write$5;
-  return_value_write$5=write(wiimote->mesg_pipe[(signed long int)1], (const void *)ma, (unsigned long int)len);
-  if(!(return_value_write$5 == len))
+  signed long int return_value_write_5;
+  return_value_write_5=write(wiimote->mesg_pipe[(signed long int)1], (const void *)ma, (unsigned long int)len);
+  if(!(return_value_write_5 == len))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    if(*return_value___errno_location$4 == 11)
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    if(*return_value___errno_location_4 == 11)
     {
       cwiid_err(wiimote, "Mesg pipe overflow");
-      signed int return_value_fcntl$3;
-      return_value_fcntl$3=fcntl(wiimote->mesg_pipe[(signed long int)1], 4, 0);
-      if(!(return_value_fcntl$3 == 0))
+      signed int return_value_fcntl_3;
+      return_value_fcntl_3=fcntl(wiimote->mesg_pipe[(signed long int)1], 4, 0);
+      if(!(return_value_fcntl_3 == 0))
       {
         cwiid_err(wiimote, "File control error (mesg pipe)");
         ret = -1;
@@ -9125,17 +9125,17 @@ signed int write_mesg_array(struct wiimote *wiimote, struct mesg_array *ma)
 
       else
       {
-        signed long int return_value_write$1;
-        return_value_write$1=write(wiimote->mesg_pipe[(signed long int)1], (const void *)ma, (unsigned long int)len);
-        if(!(return_value_write$1 == len))
+        signed long int return_value_write_1;
+        return_value_write_1=write(wiimote->mesg_pipe[(signed long int)1], (const void *)ma, (unsigned long int)len);
+        if(!(return_value_write_1 == len))
         {
           cwiid_err(wiimote, "Pipe write error (mesg pipe)");
           ret = -1;
         }
 
-        signed int return_value_fcntl$2;
-        return_value_fcntl$2=fcntl(wiimote->mesg_pipe[(signed long int)1], 4, 04000);
-        if(!(return_value_fcntl$2 == 0))
+        signed int return_value_fcntl_2;
+        return_value_fcntl_2=fcntl(wiimote->mesg_pipe[(signed long int)1], 4, 04000);
+        if(!(return_value_fcntl_2 == 0))
           cwiid_err(wiimote, "File control error (mesg pipe");
 
       }
@@ -9156,16 +9156,16 @@ signed int write_mesg_array(struct wiimote *wiimote, struct mesg_array *ma)
 struct yy_buffer_state * yy_create_buffer(struct _IO_FILE *file, signed int size)
 {
   struct yy_buffer_state *b;
-  void *return_value_yyalloc$1;
-  return_value_yyalloc$1=yyalloc(sizeof(struct yy_buffer_state) /*72ul*/ );
-  b = (struct yy_buffer_state *)return_value_yyalloc$1;
+  void *return_value_yyalloc_1;
+  return_value_yyalloc_1=yyalloc(sizeof(struct yy_buffer_state) /*72ul*/ );
+  b = (struct yy_buffer_state *)return_value_yyalloc_1;
   if(b == ((struct yy_buffer_state *)NULL))
     yy_fatal_error("out of dynamic memory in yy_create_buffer()");
 
   b->yy_buf_size = (unsigned long int)size;
-  void *return_value_yyalloc$2;
-  return_value_yyalloc$2=yyalloc(b->yy_buf_size + (unsigned long int)2);
-  b->yy_ch_buf = (char *)return_value_yyalloc$2;
+  void *return_value_yyalloc_2;
+  return_value_yyalloc_2=yyalloc(b->yy_buf_size + (unsigned long int)2);
+  b->yy_ch_buf = (char *)return_value_yyalloc_2;
   if(b->yy_ch_buf == ((char *)NULL))
     yy_fatal_error("out of dynamic memory in yy_create_buffer()");
 
@@ -9178,15 +9178,15 @@ struct yy_buffer_state * yy_create_buffer(struct _IO_FILE *file, signed int size
 // file <stdout> line 1795
 void yy_delete_buffer(struct yy_buffer_state *b)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(b == ((struct yy_buffer_state *)NULL)))
   {
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(b == tmp_if_expr$1)
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(b == tmp_if_expr_1)
       yy_buffer_stack[(signed long int)yy_buffer_stack_top] = (struct yy_buffer_state *)0;
 
     if(!(b->yy_is_our_buffer == 0))
@@ -9209,7 +9209,7 @@ static void yy_fatal_error(const char *msg)
 // file <stdout> line 1842
 void yy_flush_buffer(struct yy_buffer_state *b)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(b == ((struct yy_buffer_state *)NULL)))
   {
     b->yy_n_chars = (unsigned long int)0;
@@ -9219,11 +9219,11 @@ void yy_flush_buffer(struct yy_buffer_state *b)
     b->yy_at_bol = 1;
     b->yy_buffer_status = 0;
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(b == tmp_if_expr$1)
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(b == tmp_if_expr_1)
       yy_load_buffer_state();
 
   }
@@ -9242,12 +9242,12 @@ static signed int yy_get_next_buffer(void)
   if(!(yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf + 1l + (signed long int)yy_n_chars >= yy_c_buf_p))
     yy_fatal_error("fatal flex scanner internal error--end of buffer missed");
 
-  char *tmp_post$1;
-  char *tmp_post$2;
-  _Bool tmp_if_expr$4;
-  unsigned long int tmp_post$5;
-  signed int return_value_ferror$6;
-  signed int return_value_ferror$8;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  _Bool tmp_if_expr_4;
+  unsigned long int tmp_post_5;
+  signed int return_value_ferror_6;
+  signed int return_value_ferror_8;
   if(yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_fill_buffer == 0)
   {
     if(yy_c_buf_p - yytext == 1l)
@@ -9262,11 +9262,11 @@ static signed int yy_get_next_buffer(void)
     i = 0;
     for( ; !(i >= number_to_move); i = i + 1)
     {
-      tmp_post$1 = dest;
+      tmp_post_1 = dest;
       dest = dest + 1l;
-      tmp_post$2 = source;
+      tmp_post_2 = source;
       source = source + 1l;
-      *tmp_post$1 = *tmp_post$2;
+      *tmp_post_1 = *tmp_post_2;
     }
     if(yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_buffer_status == 2)
     {
@@ -9283,15 +9283,15 @@ static signed int yy_get_next_buffer(void)
         signed int yy_c_buf_p_offset = (signed int)(yy_c_buf_p - b->yy_ch_buf);
         if(!(b->yy_is_our_buffer == 0))
         {
-          unsigned long int yy_get_next_buffer$$1$$3$$1$$1$$new_size = b->yy_buf_size * (unsigned long int)2;
-          if(!(yy_get_next_buffer$$1$$3$$1$$1$$new_size >= 1ul))
+          unsigned long int yy_get_next_buffer__1__3__1__1__new_size = b->yy_buf_size * (unsigned long int)2;
+          if(!(yy_get_next_buffer__1__3__1__1__new_size >= 1ul))
             b->yy_buf_size = b->yy_buf_size + b->yy_buf_size / (unsigned long int)8;
 
           else
             b->yy_buf_size = b->yy_buf_size * (unsigned long int)2;
-          void *return_value_yyrealloc$3;
-          return_value_yyrealloc$3=yyrealloc((void *)b->yy_ch_buf, b->yy_buf_size + (unsigned long int)2);
-          b->yy_ch_buf = (char *)return_value_yyrealloc$3;
+          void *return_value_yyrealloc_3;
+          return_value_yyrealloc_3=yyrealloc((void *)b->yy_ch_buf, b->yy_buf_size + (unsigned long int)2);
+          b->yy_ch_buf = (char *)return_value_yyrealloc_3;
         }
 
         else
@@ -9314,12 +9314,12 @@ static signed int yy_get_next_buffer(void)
           if(!(n >= num_to_read))
           {
             c=_IO_getc(yyin);
-            tmp_if_expr$4 = c != -1 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = c != -1 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(c == 10 || !tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(c == 10 || !tmp_if_expr_4)
             break;
 
           (&yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move])[(signed long int)n] = (char)c;
@@ -9328,15 +9328,15 @@ static signed int yy_get_next_buffer(void)
         while((_Bool)1);
         if(c == 10)
         {
-          tmp_post$5 = n;
+          tmp_post_5 = n;
           n = n + 1ul;
-          (&yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move])[(signed long int)tmp_post$5] = (char)c;
+          (&yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move])[(signed long int)tmp_post_5] = (char)c;
         }
 
         if(c == -1)
         {
-          return_value_ferror$6=ferror(yyin);
-          if(!(return_value_ferror$6 == 0))
+          return_value_ferror_6=ferror(yyin);
+          if(!(return_value_ferror_6 == 0))
             yy_fatal_error("input in flex scanner failed");
 
         }
@@ -9346,30 +9346,30 @@ static signed int yy_get_next_buffer(void)
 
       else
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        *return_value___errno_location$7 = 0;
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        *return_value___errno_location_7 = 0;
         do
         {
           yy_n_chars=fread((void *)&yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move], (unsigned long int)1, num_to_read, yyin);
           if(!(yy_n_chars == 0ul))
             break;
 
-          return_value_ferror$8=ferror(yyin);
-          if(return_value_ferror$8 == 0)
+          return_value_ferror_8=ferror(yyin);
+          if(return_value_ferror_8 == 0)
             break;
 
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          if(!(*return_value___errno_location$9 == 4))
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          if(!(*return_value___errno_location_9 == 4))
           {
             yy_fatal_error("input in flex scanner failed");
             break;
           }
 
-          signed int *return_value___errno_location$10;
-          return_value___errno_location$10=__errno_location();
-          *return_value___errno_location$10 = 0;
+          signed int *return_value___errno_location_10;
+          return_value___errno_location_10=__errno_location();
+          *return_value___errno_location_10 = 0;
           clearerr(yyin);
         }
         while((_Bool)1);
@@ -9396,9 +9396,9 @@ static signed int yy_get_next_buffer(void)
     if(!(yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_buf_size >= yy_n_chars + (unsigned long int)number_to_move))
     {
       unsigned long int new_size = yy_n_chars + (unsigned long int)number_to_move + (yy_n_chars >> 1);
-      void *return_value_yyrealloc$11;
-      return_value_yyrealloc$11=yyrealloc((void *)yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf, new_size);
-      yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf = (char *)return_value_yyrealloc$11;
+      void *return_value_yyrealloc_11;
+      return_value_yyrealloc_11=yyrealloc((void *)yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf, new_size);
+      yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf = (char *)return_value_yyrealloc_11;
       if(yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf == ((char *)NULL))
         yy_fatal_error("out of dynamic memory in yy_get_next_buffer()");
 
@@ -9421,16 +9421,16 @@ static signed int yy_get_previous_state(void)
   yy_current_state = yy_start;
   yy_current_state = yy_current_state + yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_at_bol;
   yy_cp = yytext + (signed long int)0;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   for( ; !(yy_cp >= yy_c_buf_p); yy_cp = yy_cp + 1l)
   {
     unsigned char yy_c;
     if(!(*yy_cp == 0))
-      tmp_if_expr$1 = yy_ec[(signed long int)(unsigned int)(unsigned char)*yy_cp];
+      tmp_if_expr_1 = yy_ec[(signed long int)(unsigned int)(unsigned char)*yy_cp];
 
     else
-      tmp_if_expr$1 = 1;
-    yy_c = (unsigned char)tmp_if_expr$1;
+      tmp_if_expr_1 = 1;
+    yy_c = (unsigned char)tmp_if_expr_1;
     if(!(yy_accept[(signed long int)yy_current_state] == 0))
     {
       yy_last_accepting_state = yy_current_state;
@@ -9454,40 +9454,40 @@ static signed int yy_get_previous_state(void)
 static void yy_init_buffer(struct yy_buffer_state *b, struct _IO_FILE *file)
 {
   signed int oerrno;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  oerrno = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  oerrno = *return_value___errno_location_1;
   yy_flush_buffer(b);
   b->yy_input_file = file;
   b->yy_fill_buffer = 1;
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_2;
   if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+    tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
   else
-    tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-  if(!(b == tmp_if_expr$2))
+    tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+  if(!(b == tmp_if_expr_2))
   {
     b->yy_bs_lineno = 1;
     b->yy_bs_column = 0;
   }
 
-  signed int tmp_if_expr$5;
-  signed int return_value_fileno$3;
-  signed int return_value_isatty$4;
+  signed int tmp_if_expr_5;
+  signed int return_value_fileno_3;
+  signed int return_value_isatty_4;
   if(!(file == ((struct _IO_FILE *)NULL)))
   {
-    return_value_fileno$3=fileno(file);
-    return_value_isatty$4=isatty(return_value_fileno$3);
-    tmp_if_expr$5 = (signed int)(return_value_isatty$4 > 0);
+    return_value_fileno_3=fileno(file);
+    return_value_isatty_4=isatty(return_value_fileno_3);
+    tmp_if_expr_5 = (signed int)(return_value_isatty_4 > 0);
   }
 
   else
-    tmp_if_expr$5 = 0;
-  b->yy_is_interactive = tmp_if_expr$5;
-  signed int *return_value___errno_location$6;
-  return_value___errno_location$6=__errno_location();
-  *return_value___errno_location$6 = oerrno;
+    tmp_if_expr_5 = 0;
+  b->yy_is_interactive = tmp_if_expr_5;
+  signed int *return_value___errno_location_6;
+  return_value___errno_location_6=__errno_location();
+  *return_value___errno_location_6 = oerrno;
 }
 
 // yy_init_globals
@@ -9521,26 +9521,26 @@ static void yy_load_buffer_state(void)
 struct yy_buffer_state * yy_scan_buffer(char *base, unsigned long int size)
 {
   struct yy_buffer_state *b;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(size >= 2ul))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)base[(signed long int)(size - (unsigned long int)2)] != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (signed int)base[(signed long int)(size - (unsigned long int)2)] != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)base[(signed long int)(size - (unsigned long int)1)] != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)base[(signed long int)(size - (unsigned long int)1)] != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return ((struct yy_buffer_state *)NULL);
 
   else
   {
-    void *return_value_yyalloc$3;
-    return_value_yyalloc$3=yyalloc(sizeof(struct yy_buffer_state) /*72ul*/ );
-    b = (struct yy_buffer_state *)return_value_yyalloc$3;
+    void *return_value_yyalloc_3;
+    return_value_yyalloc_3=yyalloc(sizeof(struct yy_buffer_state) /*72ul*/ );
+    b = (struct yy_buffer_state *)return_value_yyalloc_3;
     if(b == ((struct yy_buffer_state *)NULL))
       yy_fatal_error("out of dynamic memory in yy_scan_buffer()");
 
@@ -9568,9 +9568,9 @@ struct yy_buffer_state * yy_scan_bytes(const char *yybytes, unsigned long int _y
   unsigned long int n;
   unsigned long int i;
   n = _yybytes_len + (unsigned long int)2;
-  void *return_value_yyalloc$1;
-  return_value_yyalloc$1=yyalloc(n);
-  buf = (char *)return_value_yyalloc$1;
+  void *return_value_yyalloc_1;
+  return_value_yyalloc_1=yyalloc(n);
+  buf = (char *)return_value_yyalloc_1;
   if(buf == ((char *)NULL))
     yy_fatal_error("out of dynamic memory in yy_scan_bytes()");
 
@@ -9591,11 +9591,11 @@ struct yy_buffer_state * yy_scan_bytes(const char *yybytes, unsigned long int _y
 // file <stdout> line 2006
 struct yy_buffer_state * yy_scan_string(const char *yystr)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(yystr);
-  struct yy_buffer_state *return_value_yy_scan_bytes$2;
-  return_value_yy_scan_bytes$2=yy_scan_bytes(yystr, return_value_strlen$1);
-  return return_value_yy_scan_bytes$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(yystr);
+  struct yy_buffer_state *return_value_yy_scan_bytes_2;
+  return_value_yy_scan_bytes_2=yy_scan_bytes(yystr, return_value_strlen_1);
+  return return_value_yy_scan_bytes_2;
 }
 
 // yy_switch_to_buffer
@@ -9603,21 +9603,21 @@ struct yy_buffer_state * yy_scan_string(const char *yystr)
 void yy_switch_to_buffer(struct yy_buffer_state *new_buffer)
 {
   yyensure_buffer_stack();
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+    tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  struct yy_buffer_state *tmp_if_expr$2;
-  if(!(tmp_if_expr$1 == new_buffer))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  struct yy_buffer_state *tmp_if_expr_2;
+  if(!(tmp_if_expr_1 == new_buffer))
   {
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$2 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_2 == ((struct yy_buffer_state *)NULL)))
     {
       *yy_c_buf_p = yy_hold_char;
       yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_buf_pos = yy_c_buf_p;
@@ -9660,9 +9660,9 @@ static signed int yy_try_NUL_trans(signed int yy_current_state)
 // file <stdout> line 2230
 void * yyalloc(unsigned long int size)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(size);
-  return (void *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(size);
+  return (void *)return_value_malloc_1;
 }
 
 // yydestruct
@@ -9685,9 +9685,9 @@ static void yyensure_buffer_stack(void)
   if(yy_buffer_stack == ((struct yy_buffer_state **)NULL))
   {
     num_to_alloc = (unsigned long int)1;
-    void *return_value_yyalloc$1;
-    return_value_yyalloc$1=yyalloc(num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ );
-    yy_buffer_stack = (struct yy_buffer_state **)return_value_yyalloc$1;
+    void *return_value_yyalloc_1;
+    return_value_yyalloc_1=yyalloc(num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ );
+    yy_buffer_stack = (struct yy_buffer_state **)return_value_yyalloc_1;
     if(yy_buffer_stack == ((struct yy_buffer_state **)NULL))
       yy_fatal_error("out of dynamic memory in yyensure_buffer_stack()");
 
@@ -9701,9 +9701,9 @@ static void yyensure_buffer_stack(void)
   {
     signed int grow_size = 8;
     num_to_alloc = yy_buffer_stack_max + (unsigned long int)grow_size;
-    void *return_value_yyrealloc$2;
-    return_value_yyrealloc$2=yyrealloc((void *)yy_buffer_stack, num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ );
-    yy_buffer_stack = (struct yy_buffer_state **)return_value_yyrealloc$2;
+    void *return_value_yyrealloc_2;
+    return_value_yyrealloc_2=yyrealloc((void *)yy_buffer_stack, num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ );
+    yy_buffer_stack = (struct yy_buffer_state **)return_value_yyrealloc_2;
     if(yy_buffer_stack == ((struct yy_buffer_state **)NULL))
       yy_fatal_error("out of dynamic memory in yyensure_buffer_stack()");
 
@@ -9783,7 +9783,7 @@ signed int yylex(void)
   char *yy_cp;
   char *yy_bp;
   signed int yy_act;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(yy_init == 0)
   {
     yy_init = 1;
@@ -9797,11 +9797,11 @@ signed int yylex(void)
       yyout = stdout;
 
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
     {
       yyensure_buffer_stack();
       yy_buffer_stack[(signed long int)yy_buffer_stack_top]=yy_create_buffer(yyin, 16384);
@@ -9810,10 +9810,10 @@ signed int yylex(void)
     yy_load_buffer_state();
   }
 
-  struct yy_buffer_state *tmp_if_expr$6;
+  struct yy_buffer_state *tmp_if_expr_6;
   signed int yy_amount_of_matched_text;
-  signed int return_value_yy_get_next_buffer$63;
-  signed int return_value_yywrap$64;
+  signed int return_value_yy_get_next_buffer_63;
+  signed int return_value_yywrap_64;
   while((_Bool)1)
   {
     yy_cp = yy_c_buf_p;
@@ -10064,9 +10064,9 @@ signed int yylex(void)
         yylloc.first_line = yylloc.last_line;
         yylloc.first_column = yylloc.last_column;
         yylloc.last_line = yylloc.last_line + 1;
-        unsigned long int return_value_strlen$2;
-        return_value_strlen$2=strlen(yytext);
-        yylloc.last_column = (signed int)(return_value_strlen$2 - (unsigned long int)1);
+        unsigned long int return_value_strlen_2;
+        return_value_strlen_2=strlen(yytext);
+        yylloc.last_column = (signed int)(return_value_strlen_2 - (unsigned long int)1);
         yy_start = 1 + 2 * 1;
         goto __CPROVER_DUMP_L158;
 
@@ -10079,9 +10079,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$3;
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_3;
         }
         while((_Bool)0);
         goto __CPROVER_DUMP_L158;
@@ -10096,17 +10096,17 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$4;
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_4;
         }
         while((_Bool)0);
         file=conf_push_config(cur_conf, yytext, &yylloc);
         if(!(file == ((struct _IO_FILE *)NULL)))
         {
-          struct yy_buffer_state *return_value_yy_create_buffer$5;
-          return_value_yy_create_buffer$5=yy_create_buffer(file, 16384);
-          yypush_buffer_state(return_value_yy_create_buffer$5);
+          struct yy_buffer_state *return_value_yy_create_buffer_5;
+          return_value_yy_create_buffer_5=yy_create_buffer(file, 16384);
+          yypush_buffer_state(return_value_yy_create_buffer_5);
           yylloc.last_line = 0;
           yylloc.first_line = yylloc.last_line;
           yylloc.last_column = 0;
@@ -10121,11 +10121,11 @@ signed int yylex(void)
         yypop_buffer_state();
         conf_pop_config(cur_conf, &yylloc);
         if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-          tmp_if_expr$6 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+          tmp_if_expr_6 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
         else
-          tmp_if_expr$6 = (struct yy_buffer_state *)(void *)0;
-        if(!(tmp_if_expr$6 == ((struct yy_buffer_state *)NULL)))
+          tmp_if_expr_6 = (struct yy_buffer_state *)(void *)0;
+        if(!(tmp_if_expr_6 == ((struct yy_buffer_state *)NULL)))
           yy_start = 1 + 2 * 2;
 
         else
@@ -10157,9 +10157,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$7;
-          return_value_strlen$7=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$7;
+          unsigned long int return_value_strlen_7;
+          return_value_strlen_7=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_7;
         }
         while((_Bool)0);
         goto __CPROVER_DUMP_L158;
@@ -10173,9 +10173,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$8;
-          return_value_strlen$8=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$8;
+          unsigned long int return_value_strlen_8;
+          return_value_strlen_8=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_8;
         }
         while((_Bool)0);
         goto __CPROVER_DUMP_L158;
@@ -10189,9 +10189,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$9;
-          return_value_strlen$9=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$9;
+          unsigned long int return_value_strlen_9;
+          return_value_strlen_9=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_9;
         }
         while((_Bool)0);
         return (signed int)*yytext;
@@ -10220,9 +10220,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$10;
-          return_value_strlen$10=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$10;
+          unsigned long int return_value_strlen_10;
+          return_value_strlen_10=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_10;
         }
         while((_Bool)0);
         return 269;
@@ -10236,9 +10236,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$11;
-          return_value_strlen$11=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$11;
+          unsigned long int return_value_strlen_11;
+          return_value_strlen_11=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_11;
         }
         while((_Bool)0);
         yylval.Int = 0;
@@ -10253,9 +10253,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$12;
-          return_value_strlen$12=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$12;
+          unsigned long int return_value_strlen_12;
+          return_value_strlen_12=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_12;
         }
         while((_Bool)0);
         yylval.Int = 1;
@@ -10270,9 +10270,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$13;
-          return_value_strlen$13=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$13;
+          unsigned long int return_value_strlen_13;
+          return_value_strlen_13=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_13;
         }
         while((_Bool)0);
         yylval.Int = 2;
@@ -10287,9 +10287,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$14;
-          return_value_strlen$14=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$14;
+          unsigned long int return_value_strlen_14;
+          return_value_strlen_14=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_14;
         }
         while((_Bool)0);
         yylval.Int = 3;
@@ -10304,9 +10304,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$15;
-          return_value_strlen$15=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$15;
+          unsigned long int return_value_strlen_15;
+          return_value_strlen_15=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_15;
         }
         while((_Bool)0);
         yylval.Int = 4;
@@ -10321,9 +10321,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$16;
-          return_value_strlen$16=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$16;
+          unsigned long int return_value_strlen_16;
+          return_value_strlen_16=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_16;
         }
         while((_Bool)0);
         yylval.Int = 5;
@@ -10338,9 +10338,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$17;
-          return_value_strlen$17=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$17;
+          unsigned long int return_value_strlen_17;
+          return_value_strlen_17=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_17;
         }
         while((_Bool)0);
         yylval.Int = 6;
@@ -10355,9 +10355,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$18;
-          return_value_strlen$18=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$18;
+          unsigned long int return_value_strlen_18;
+          return_value_strlen_18=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_18;
         }
         while((_Bool)0);
         yylval.Int = 7;
@@ -10372,9 +10372,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$19;
-          return_value_strlen$19=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$19;
+          unsigned long int return_value_strlen_19;
+          return_value_strlen_19=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_19;
         }
         while((_Bool)0);
         yylval.Int = 8;
@@ -10389,9 +10389,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$20;
-          return_value_strlen$20=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$20;
+          unsigned long int return_value_strlen_20;
+          return_value_strlen_20=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_20;
         }
         while((_Bool)0);
         yylval.Int = 9;
@@ -10406,9 +10406,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$21;
-          return_value_strlen$21=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$21;
+          unsigned long int return_value_strlen_21;
+          return_value_strlen_21=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_21;
         }
         while((_Bool)0);
         yylval.Int = 10;
@@ -10423,9 +10423,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$22;
-          return_value_strlen$22=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$22;
+          unsigned long int return_value_strlen_22;
+          return_value_strlen_22=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_22;
         }
         while((_Bool)0);
         yylval.Int = 0;
@@ -10440,9 +10440,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$23;
-          return_value_strlen$23=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$23;
+          unsigned long int return_value_strlen_23;
+          return_value_strlen_23=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_23;
         }
         while((_Bool)0);
         yylval.Int = 1;
@@ -10457,9 +10457,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$24;
-          return_value_strlen$24=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$24;
+          unsigned long int return_value_strlen_24;
+          return_value_strlen_24=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_24;
         }
         while((_Bool)0);
         yylval.Int = 0;
@@ -10474,9 +10474,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$25;
-          return_value_strlen$25=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$25;
+          unsigned long int return_value_strlen_25;
+          return_value_strlen_25=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_25;
         }
         while((_Bool)0);
         yylval.Int = 1;
@@ -10491,9 +10491,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$26;
-          return_value_strlen$26=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$26;
+          unsigned long int return_value_strlen_26;
+          return_value_strlen_26=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_26;
         }
         while((_Bool)0);
         yylval.Int = 2;
@@ -10508,9 +10508,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$27;
-          return_value_strlen$27=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$27;
+          unsigned long int return_value_strlen_27;
+          return_value_strlen_27=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_27;
         }
         while((_Bool)0);
         yylval.Int = 3;
@@ -10525,9 +10525,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$28;
-          return_value_strlen$28=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$28;
+          unsigned long int return_value_strlen_28;
+          return_value_strlen_28=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_28;
         }
         while((_Bool)0);
         yylval.Int = 4;
@@ -10542,9 +10542,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$29;
-          return_value_strlen$29=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$29;
+          unsigned long int return_value_strlen_29;
+          return_value_strlen_29=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_29;
         }
         while((_Bool)0);
         yylval.Int = 5;
@@ -10559,9 +10559,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$30;
-          return_value_strlen$30=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$30;
+          unsigned long int return_value_strlen_30;
+          return_value_strlen_30=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_30;
         }
         while((_Bool)0);
         yylval.Int = 6;
@@ -10576,9 +10576,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$31;
-          return_value_strlen$31=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$31;
+          unsigned long int return_value_strlen_31;
+          return_value_strlen_31=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_31;
         }
         while((_Bool)0);
         yylval.Int = 7;
@@ -10593,9 +10593,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$32;
-          return_value_strlen$32=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$32;
+          unsigned long int return_value_strlen_32;
+          return_value_strlen_32=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_32;
         }
         while((_Bool)0);
         yylval.Int = 8;
@@ -10610,9 +10610,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$33;
-          return_value_strlen$33=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$33;
+          unsigned long int return_value_strlen_33;
+          return_value_strlen_33=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_33;
         }
         while((_Bool)0);
         yylval.Int = 9;
@@ -10627,9 +10627,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$34;
-          return_value_strlen$34=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$34;
+          unsigned long int return_value_strlen_34;
+          return_value_strlen_34=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_34;
         }
         while((_Bool)0);
         yylval.Int = 10;
@@ -10644,9 +10644,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$35;
-          return_value_strlen$35=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$35;
+          unsigned long int return_value_strlen_35;
+          return_value_strlen_35=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_35;
         }
         while((_Bool)0);
         yylval.Int = 11;
@@ -10661,9 +10661,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$36;
-          return_value_strlen$36=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$36;
+          unsigned long int return_value_strlen_36;
+          return_value_strlen_36=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_36;
         }
         while((_Bool)0);
         yylval.Int = 12;
@@ -10678,9 +10678,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$37;
-          return_value_strlen$37=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$37;
+          unsigned long int return_value_strlen_37;
+          return_value_strlen_37=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_37;
         }
         while((_Bool)0);
         yylval.Int = 13;
@@ -10695,9 +10695,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$38;
-          return_value_strlen$38=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$38;
+          unsigned long int return_value_strlen_38;
+          return_value_strlen_38=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_38;
         }
         while((_Bool)0);
         yylval.Int = 14;
@@ -10712,9 +10712,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$39;
-          return_value_strlen$39=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$39;
+          unsigned long int return_value_strlen_39;
+          return_value_strlen_39=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_39;
         }
         while((_Bool)0);
         yylval.Int = 0;
@@ -10729,9 +10729,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$40;
-          return_value_strlen$40=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$40;
+          unsigned long int return_value_strlen_40;
+          return_value_strlen_40=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_40;
         }
         while((_Bool)0);
         yylval.Int = 1;
@@ -10746,9 +10746,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$41;
-          return_value_strlen$41=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$41;
+          unsigned long int return_value_strlen_41;
+          return_value_strlen_41=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_41;
         }
         while((_Bool)0);
         yylval.Int = 2;
@@ -10763,9 +10763,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$42;
-          return_value_strlen$42=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$42;
+          unsigned long int return_value_strlen_42;
+          return_value_strlen_42=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_42;
         }
         while((_Bool)0);
         yylval.Int = 3;
@@ -10780,9 +10780,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$43;
-          return_value_strlen$43=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$43;
+          unsigned long int return_value_strlen_43;
+          return_value_strlen_43=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_43;
         }
         while((_Bool)0);
         yylval.Int = 4;
@@ -10797,9 +10797,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$44;
-          return_value_strlen$44=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$44;
+          unsigned long int return_value_strlen_44;
+          return_value_strlen_44=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_44;
         }
         while((_Bool)0);
         yylval.Int = 5;
@@ -10814,9 +10814,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$45;
-          return_value_strlen$45=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$45;
+          unsigned long int return_value_strlen_45;
+          return_value_strlen_45=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_45;
         }
         while((_Bool)0);
         yylval.Int = 6;
@@ -10831,9 +10831,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$46;
-          return_value_strlen$46=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$46;
+          unsigned long int return_value_strlen_46;
+          return_value_strlen_46=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_46;
         }
         while((_Bool)0);
         yylval.Int = 7;
@@ -10848,9 +10848,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$47;
-          return_value_strlen$47=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$47;
+          unsigned long int return_value_strlen_47;
+          return_value_strlen_47=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_47;
         }
         while((_Bool)0);
         yylval.Int = 8;
@@ -10865,9 +10865,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$48;
-          return_value_strlen$48=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$48;
+          unsigned long int return_value_strlen_48;
+          return_value_strlen_48=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_48;
         }
         while((_Bool)0);
         yylval.Int = 9;
@@ -10882,9 +10882,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$49;
-          return_value_strlen$49=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$49;
+          unsigned long int return_value_strlen_49;
+          return_value_strlen_49=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_49;
         }
         while((_Bool)0);
         yylval.Int = 10;
@@ -10899,9 +10899,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$50;
-          return_value_strlen$50=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$50;
+          unsigned long int return_value_strlen_50;
+          return_value_strlen_50=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_50;
         }
         while((_Bool)0);
         yylval.Int = 11;
@@ -10916,9 +10916,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$51;
-          return_value_strlen$51=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$51;
+          unsigned long int return_value_strlen_51;
+          return_value_strlen_51=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_51;
         }
         while((_Bool)0);
         return 270;
@@ -10932,9 +10932,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$52;
-          return_value_strlen$52=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$52;
+          unsigned long int return_value_strlen_52;
+          return_value_strlen_52=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_52;
         }
         while((_Bool)0);
         yylval.Int = -1;
@@ -10949,9 +10949,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$53;
-          return_value_strlen$53=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$53;
+          unsigned long int return_value_strlen_53;
+          return_value_strlen_53=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_53;
         }
         while((_Bool)0);
         yylval.Int = 0;
@@ -10966,9 +10966,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$54;
-          return_value_strlen$54=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$54;
+          unsigned long int return_value_strlen_54;
+          return_value_strlen_54=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_54;
         }
         while((_Bool)0);
         yylval.Int=atoi(yytext);
@@ -10983,14 +10983,14 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$55;
-          return_value_strlen$55=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$55;
+          unsigned long int return_value_strlen_55;
+          return_value_strlen_55=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_55;
         }
         while((_Bool)0);
-        double return_value_atof$56;
-        return_value_atof$56=atof(yytext);
-        yylval.Float = (float)return_value_atof$56;
+        double return_value_atof_56;
+        return_value_atof_56=atof(yytext);
+        yylval.Float = (float)return_value_atof_56;
         return 267;
 
       __CPROVER_DUMP_L131:
@@ -11002,9 +11002,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$57;
-          return_value_strlen$57=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$57;
+          unsigned long int return_value_strlen_57;
+          return_value_strlen_57=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_57;
         }
         while((_Bool)0);
         yylval.Int=lookup_action(yytext);
@@ -11036,16 +11036,16 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$58;
-          return_value_strlen$58=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$58;
+          unsigned long int return_value_strlen_58;
+          return_value_strlen_58=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_58;
         }
         while((_Bool)0);
-        unsigned long int return_value_strlen$59;
-        return_value_strlen$59=strlen(yytext);
-        void *return_value_malloc$60;
-        return_value_malloc$60=malloc(return_value_strlen$59 + (unsigned long int)1);
-        yylval.String = (char *)return_value_malloc$60;
+        unsigned long int return_value_strlen_59;
+        return_value_strlen_59=strlen(yytext);
+        void *return_value_malloc_60;
+        return_value_malloc_60=malloc(return_value_strlen_59 + (unsigned long int)1);
+        yylval.String = (char *)return_value_malloc_60;
         if(yylval.String == ((char *)NULL))
           wminput_err("error on malloc");
 
@@ -11065,9 +11065,9 @@ signed int yylex(void)
         {
           yylloc.first_line = yylloc.last_line;
           yylloc.first_column = yylloc.last_column;
-          unsigned long int return_value_strlen$61;
-          return_value_strlen$61=strlen(yytext);
-          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen$61;
+          unsigned long int return_value_strlen_61;
+          return_value_strlen_61=strlen(yytext);
+          yylloc.last_column = yylloc.last_column + (signed int)return_value_strlen_61;
         }
         while((_Bool)0);
         wminput_err("unexpected character %c", *yytext);
@@ -11080,8 +11080,8 @@ signed int yylex(void)
 
         do
         {
-          unsigned long int return_value_fwrite$62;
-          return_value_fwrite$62=fwrite((const void *)yytext, yyleng, (unsigned long int)1, yyout);
+          unsigned long int return_value_fwrite_62;
+          return_value_fwrite_62=fwrite((const void *)yytext, yyleng, (unsigned long int)1, yyout);
         }
         while((_Bool)0);
         goto __CPROVER_DUMP_L158;
@@ -11119,21 +11119,21 @@ signed int yylex(void)
           }
         }
 
-        return_value_yy_get_next_buffer$63=yy_get_next_buffer();
-        if(!(return_value_yy_get_next_buffer$63 == 1))
+        return_value_yy_get_next_buffer_63=yy_get_next_buffer();
+        if(!(return_value_yy_get_next_buffer_63 == 1))
         {
-          if(return_value_yy_get_next_buffer$63 == 0)
+          if(return_value_yy_get_next_buffer_63 == 0)
             goto __CPROVER_DUMP_L154;
 
-          if(return_value_yy_get_next_buffer$63 == 2)
+          if(return_value_yy_get_next_buffer_63 == 2)
             goto __CPROVER_DUMP_L155;
 
           goto __CPROVER_DUMP_L156;
         }
 
         yy_did_buffer_switch_on_eof = 0;
-        return_value_yywrap$64=yywrap();
-        if(return_value_yywrap$64 == 0)
+        return_value_yywrap_64=yywrap();
+        if(return_value_yywrap_64 == 0)
           break;
 
         yy_c_buf_p = yytext + (signed long int)0;
@@ -11177,24 +11177,24 @@ signed int yylex(void)
 // file <stdout> line 2185
 signed int yylex_destroy(void)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_1;
+  struct yy_buffer_state *tmp_if_expr_2;
   do
   {
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
       break;
 
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    yy_delete_buffer(tmp_if_expr$2);
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    yy_delete_buffer(tmp_if_expr_2);
     yy_buffer_stack[(signed long int)yy_buffer_stack_top] = (struct yy_buffer_state *)(void *)0;
     yypop_buffer_state();
   }
@@ -11264,9 +11264,9 @@ yysetstate:
 
     signed short int *yyss1 = yyss;
     union yyalloc *yyptr;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(yystacksize * (sizeof(signed short int) /*2ul*/  + sizeof(union YYSTYPE) /*8ul*/  + sizeof(struct YYLTYPE) /*16ul*/ ) + (unsigned long int)2 * (sizeof(union yyalloc) /*16ul*/  - (unsigned long int)1));
-    yyptr = (union yyalloc *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(yystacksize * (sizeof(signed short int) /*2ul*/  + sizeof(union YYSTYPE) /*8ul*/  + sizeof(struct YYLTYPE) /*16ul*/ ) + (unsigned long int)2 * (sizeof(union yyalloc) /*16ul*/  - (unsigned long int)1));
+    yyptr = (union yyalloc *)return_value_malloc_1;
     if(yyptr == ((union yyalloc *)NULL))
       goto yyexhaustedlab;
 
@@ -11281,20 +11281,20 @@ yysetstate:
     while((_Bool)0);
     do
     {
-      unsigned long int yyparse$$1$$1$$1$$2$$yynewbytes;
+      unsigned long int yyparse__1__1__1__2__yynewbytes;
       __builtin_memcpy((void *)&yyptr->yyvs_alloc, (const void *)yyvs, yysize * sizeof(union YYSTYPE) /*8ul*/ );
       yyvs = &yyptr->yyvs_alloc;
-      yyparse$$1$$1$$1$$2$$yynewbytes = yystacksize * sizeof(union YYSTYPE) /*8ul*/  + (sizeof(union yyalloc) /*16ul*/  - (unsigned long int)1);
-      yyptr = yyptr + (signed long int)(yyparse$$1$$1$$1$$2$$yynewbytes / sizeof(union yyalloc) /*16ul*/ );
+      yyparse__1__1__1__2__yynewbytes = yystacksize * sizeof(union YYSTYPE) /*8ul*/  + (sizeof(union yyalloc) /*16ul*/  - (unsigned long int)1);
+      yyptr = yyptr + (signed long int)(yyparse__1__1__1__2__yynewbytes / sizeof(union yyalloc) /*16ul*/ );
     }
     while((_Bool)0);
     do
     {
-      unsigned long int yyparse$$1$$1$$1$$3$$yynewbytes;
+      unsigned long int yyparse__1__1__1__3__yynewbytes;
       __builtin_memcpy((void *)&yyptr->yyls_alloc, (const void *)yyls, yysize * sizeof(struct YYLTYPE) /*16ul*/ );
       yyls = &yyptr->yyls_alloc;
-      yyparse$$1$$1$$1$$3$$yynewbytes = yystacksize * sizeof(struct YYLTYPE) /*16ul*/  + (sizeof(union yyalloc) /*16ul*/  - (unsigned long int)1);
-      yyptr = yyptr + (signed long int)(yyparse$$1$$1$$1$$3$$yynewbytes / sizeof(union yyalloc) /*16ul*/ );
+      yyparse__1__1__1__3__yynewbytes = yystacksize * sizeof(struct YYLTYPE) /*16ul*/  + (sizeof(union yyalloc) /*16ul*/  - (unsigned long int)1);
+      yyptr = yyptr + (signed long int)(yyparse__1__1__1__3__yynewbytes / sizeof(union yyalloc) /*16ul*/ );
     }
     while((_Bool)0);
     if(!(yyss1 == yyssa))
@@ -11308,11 +11308,11 @@ yysetstate:
 
   }
 
-  signed int tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  signed int tmp_if_expr$6;
-  signed int tmp_if_expr$5;
+  signed int tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  signed int tmp_if_expr_6;
+  signed int tmp_if_expr_5;
   if(!(yystate == 2))
   {
 
@@ -11333,19 +11333,19 @@ yysetstate:
       else
       {
         if(!((unsigned int)yychar >= 271u))
-          tmp_if_expr$2 = (signed int)yytranslate[(signed long int)yychar];
+          tmp_if_expr_2 = (signed int)yytranslate[(signed long int)yychar];
 
         else
-          tmp_if_expr$2 = 2;
-        yytoken = tmp_if_expr$2;
+          tmp_if_expr_2 = 2;
+        yytoken = tmp_if_expr_2;
       }
       yyn = yyn + yytoken;
       if(yyn >= 35 || !(yyn >= 0))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)yycheck[(signed long int)yyn] != yytoken ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)yycheck[(signed long int)yyn] != yytoken ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_3)
       {
         yyn = (signed int)yytable[(signed long int)yyn];
         if(!(yyn >= 1))
@@ -11482,11 +11482,11 @@ yysetstate:
       yyn = (signed int)yyr1[(signed long int)yyn];
       yystate = (signed int)yypgoto[(signed long int)(yyn - 21)] + (signed int)*yyssp;
       if(yystate >= 0 && !(yystate >= 35))
-        tmp_if_expr$4 = (signed int)yycheck[(signed long int)yystate] == (signed int)*yyssp ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (signed int)yycheck[(signed long int)yystate] == (signed int)*yyssp ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
         yystate = (signed int)yytable[(signed long int)yystate];
 
       else
@@ -11498,18 +11498,18 @@ yysetstate:
   yyerrlab:
     ;
     if(yychar == -2)
-      tmp_if_expr$6 = -2;
+      tmp_if_expr_6 = -2;
 
     else
     {
       if(!((unsigned int)yychar >= 271u))
-        tmp_if_expr$5 = (signed int)yytranslate[(signed long int)yychar];
+        tmp_if_expr_5 = (signed int)yytranslate[(signed long int)yychar];
 
       else
-        tmp_if_expr$5 = 2;
-      tmp_if_expr$6 = tmp_if_expr$5;
+        tmp_if_expr_5 = 2;
+      tmp_if_expr_6 = tmp_if_expr_5;
     }
-    yytoken = tmp_if_expr$6;
+    yytoken = tmp_if_expr_6;
     if(yyerrstatus == 0)
     {
       yynerrs = yynerrs + 1;
@@ -11525,9 +11525,9 @@ yysetstate:
           if(!(yymsg == yymsgbuf))
             free((void *)yymsg);
 
-          void *return_value_malloc$7;
-          return_value_malloc$7=malloc(yymsg_alloc);
-          yymsg = (char *)return_value_malloc$7;
+          void *return_value_malloc_7;
+          return_value_malloc_7=malloc(yymsg_alloc);
+          yymsg = (char *)return_value_malloc_7;
           if(yymsg == ((char *)NULL))
           {
             yymsg = yymsgbuf;
@@ -11645,15 +11645,15 @@ yyexhaustedlab:
 
 yyreturn:
   ;
-  signed int tmp_if_expr$8;
+  signed int tmp_if_expr_8;
   if(!(yychar == -2))
   {
     if(!((unsigned int)yychar >= 271u))
-      tmp_if_expr$8 = (signed int)yytranslate[(signed long int)yychar];
+      tmp_if_expr_8 = (signed int)yytranslate[(signed long int)yychar];
 
     else
-      tmp_if_expr$8 = 2;
-    yytoken = tmp_if_expr$8;
+      tmp_if_expr_8 = 2;
+    yytoken = tmp_if_expr_8;
     yydestruct("Cleanup: discarding lookahead", yytoken, &yylval, &yylloc);
   }
 
@@ -11679,32 +11679,32 @@ yyreturn:
 // file <stdout> line 1901
 void yypop_buffer_state(void)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+    tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  struct yy_buffer_state *tmp_if_expr$2;
-  struct yy_buffer_state *tmp_if_expr$3;
-  if(!(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL)))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  struct yy_buffer_state *tmp_if_expr_2;
+  struct yy_buffer_state *tmp_if_expr_3;
+  if(!(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL)))
   {
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    yy_delete_buffer(tmp_if_expr$2);
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    yy_delete_buffer(tmp_if_expr_2);
     yy_buffer_stack[(signed long int)yy_buffer_stack_top] = (struct yy_buffer_state *)(void *)0;
     if(yy_buffer_stack_top >= 1ul)
       yy_buffer_stack_top = yy_buffer_stack_top - 1ul;
 
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$3 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_3 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$3 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$3 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_3 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_3 == ((struct yy_buffer_state *)NULL)))
     {
       yy_load_buffer_state();
       yy_did_buffer_switch_on_eof = 1;
@@ -11718,17 +11718,17 @@ void yypop_buffer_state(void)
 // file <stdout> line 1871
 void yypush_buffer_state(struct yy_buffer_state *new_buffer)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_1;
+  struct yy_buffer_state *tmp_if_expr_2;
   if(!(new_buffer == ((struct yy_buffer_state *)NULL)))
   {
     yyensure_buffer_stack();
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL)))
     {
       *yy_c_buf_p = yy_hold_char;
       yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_buf_pos = yy_c_buf_p;
@@ -11736,11 +11736,11 @@ void yypush_buffer_state(struct yy_buffer_state *new_buffer)
     }
 
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$2 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_2 == ((struct yy_buffer_state *)NULL)))
       yy_buffer_stack_top = yy_buffer_stack_top + 1ul;
 
     yy_buffer_stack[(signed long int)yy_buffer_stack_top] = new_buffer;
@@ -11754,34 +11754,34 @@ void yypush_buffer_state(struct yy_buffer_state *new_buffer)
 // file <stdout> line 2235
 void * yyrealloc(void *ptr, unsigned long int size)
 {
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)(char *)ptr, size);
-  return (void *)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)(char *)ptr, size);
+  return (void *)return_value_realloc_1;
 }
 
 // yyrestart
 // file <stdout> line 1705
 void yyrestart(struct _IO_FILE *input_file)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+    tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
   {
     yyensure_buffer_stack();
     yy_buffer_stack[(signed long int)yy_buffer_stack_top]=yy_create_buffer(yyin, 16384);
   }
 
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_2;
   if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+    tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
   else
-    tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-  yy_init_buffer(tmp_if_expr$2, input_file);
+    tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+  yy_init_buffer(tmp_if_expr_2, input_file);
   yy_load_buffer_state();
 }
 
@@ -11819,16 +11819,16 @@ static char * yystpcpy(char *yydest, const char *yysrc)
 {
   char *yyd = yydest;
   const char *yys = yysrc;
-  char *tmp_post$1;
-  const char *tmp_post$2;
+  char *tmp_post_1;
+  const char *tmp_post_2;
   do
   {
-    tmp_post$1 = yyd;
+    tmp_post_1 = yyd;
     yyd = yyd + 1l;
-    tmp_post$2 = yys;
+    tmp_post_2 = yys;
     yys = yys + 1l;
-    *tmp_post$1 = *tmp_post$2;
-    if((signed int)*tmp_post$1 == 0)
+    *tmp_post_1 = *tmp_post_2;
+    if((signed int)*tmp_post_1 == 0)
       break;
 
   }
@@ -11846,14 +11846,14 @@ static signed int yysyntax_error(unsigned long int *yymsg_alloc, char **yymsg, s
   const char *yyformat = ((const char *)NULL);
   const char *yyarg[5l];
   signed int yycount = 0;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
   if(!(yytoken == -2))
   {
     signed int yyn = (signed int)yypact[(signed long int)*yyssp];
-    tmp_post$1 = yycount;
+    tmp_post_1 = yycount;
     yycount = yycount + 1;
-    yyarg[(signed long int)tmp_post$1] = yytname[(signed long int)yytoken];
+    yyarg[(signed long int)tmp_post_1] = yytname[(signed long int)yytoken];
     if(!(yyn == -15))
     {
       signed int yyxbegin = yyn < 0 ? -yyn : 0;
@@ -11872,13 +11872,13 @@ static signed int yysyntax_error(unsigned long int *yymsg_alloc, char **yymsg, s
               break;
             }
 
-            tmp_post$2 = yycount;
+            tmp_post_2 = yycount;
             yycount = yycount + 1;
-            yyarg[(signed long int)tmp_post$2] = yytname[(signed long int)yyx];
+            yyarg[(signed long int)tmp_post_2] = yytname[(signed long int)yyx];
             unsigned long int yysize1;
-            unsigned long int return_value_yytnamerr$3;
-            return_value_yytnamerr$3=yytnamerr(((char *)NULL), yytname[(signed long int)yyx]);
-            yysize1 = yysize + return_value_yytnamerr$3;
+            unsigned long int return_value_yytnamerr_3;
+            return_value_yytnamerr_3=yytnamerr(((char *)NULL), yytname[(signed long int)yyx]);
+            yysize1 = yysize + return_value_yytnamerr_3;
             if(!(yysize1 >= yysize))
               return 2;
 
@@ -11921,28 +11921,28 @@ static signed int yysyntax_error(unsigned long int *yymsg_alloc, char **yymsg, s
     case 5:
       yyformat = "syntax error, unexpected %s, expecting %s or %s or %s or %s";
   }
-  unsigned long int yysyntax_error$$1$$3$$yysize1;
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(yyformat);
-  yysyntax_error$$1$$3$$yysize1 = yysize + return_value_strlen$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$8;
-  signed int tmp_post$6;
-  if(!(yysyntax_error$$1$$3$$yysize1 >= yysize))
+  unsigned long int yysyntax_error__1__3__yysize1;
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(yyformat);
+  yysyntax_error__1__3__yysize1 = yysize + return_value_strlen_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_8;
+  signed int tmp_post_6;
+  if(!(yysyntax_error__1__3__yysize1 >= yysize))
     return 2;
 
   else
   {
-    yysize = yysyntax_error$$1$$3$$yysize1;
+    yysize = yysyntax_error__1__3__yysize1;
     if(!(*yymsg_alloc >= yysize))
     {
       *yymsg_alloc = (unsigned long int)2 * yysize;
       if(*yymsg_alloc >= yysize)
-        tmp_if_expr$5 = *yymsg_alloc <= (unsigned long int)-1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = *yymsg_alloc <= (unsigned long int)-1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(!tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(!tmp_if_expr_5)
         *yymsg_alloc = (unsigned long int)-1;
 
       return 1;
@@ -11959,17 +11959,17 @@ static signed int yysyntax_error(unsigned long int *yymsg_alloc, char **yymsg, s
           break;
 
         if((signed int)*yyp == 37)
-          tmp_if_expr$8 = (signed int)yyformat[(signed long int)1] == 115 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = (signed int)yyformat[(signed long int)1] == 115 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        if(!(yyi >= yycount) && tmp_if_expr$8)
+          tmp_if_expr_8 = (_Bool)0;
+        if(!(yyi >= yycount) && tmp_if_expr_8)
         {
-          tmp_post$6 = yyi;
+          tmp_post_6 = yyi;
           yyi = yyi + 1;
-          unsigned long int return_value_yytnamerr$7;
-          return_value_yytnamerr$7=yytnamerr(yyp, yyarg[(signed long int)tmp_post$6]);
-          yyp = yyp + (signed long int)return_value_yytnamerr$7;
+          unsigned long int return_value_yytnamerr_7;
+          return_value_yytnamerr_7=yytnamerr(yyp, yyarg[(signed long int)tmp_post_6]);
+          yyp = yyp + (signed long int)return_value_yytnamerr_7;
           yyformat = yyformat + (signed long int)2;
         }
 
@@ -12036,18 +12036,18 @@ static unsigned long int yytnamerr(char *yyres, const char *yystr)
 
 do_not_strip_quotes:
   ;
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(yyres == ((char *)NULL))
   {
-    return_value_strlen$1=strlen(yystr);
-    return return_value_strlen$1;
+    return_value_strlen_1=strlen(yystr);
+    return return_value_strlen_1;
   }
 
   else
   {
-    char *return_value_yystpcpy$2;
-    return_value_yystpcpy$2=yystpcpy(yyres, yystr);
-    return (unsigned long int)(return_value_yystpcpy$2 - yyres);
+    char *return_value_yystpcpy_2;
+    return_value_yystpcpy_2=yystpcpy(yyres, yystr);
+    return (unsigned long int)(return_value_yystpcpy_2 - yyres);
   }
 }
 

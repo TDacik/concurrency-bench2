@@ -1,222 +1,222 @@
-// #anon_enum$UPD_none=0$UPD_hide=1$UPD_show=2$UPD_timer=4$UPD_pos=8$UPD_lines=16$UPD_mask=32$UPD_size=64$UPD_content=48$UPD_font=120
+// #anon_enum_UPD_none=0_UPD_hide=1_UPD_show=2_UPD_timer=4_UPD_pos=8_UPD_lines=16_UPD_mask=32_UPD_size=64_UPD_content=48_UPD_font=120
 // file intern.h line 126
-enum anonymous$50 { UPD_none=0, UPD_hide=1, UPD_show=2, UPD_timer=4, UPD_pos=8, UPD_lines=16, UPD_mask=32, UPD_size=64, UPD_content=48, UPD_font=120 };
+enum anonymous_50 { UPD_none=0, UPD_hide=1, UPD_show=2, UPD_timer=4, UPD_pos=8, UPD_lines=16, UPD_mask=32, UPD_size=64, UPD_content=48, UPD_font=120 };
 
-// #anon_enum$XOSD_left=0$XOSD_center=1$XOSD_right=2
+// #anon_enum_XOSD_left=0_XOSD_center=1_XOSD_right=2
 // file ./xosd.h line 44
-enum anonymous$8 { XOSD_left=0, XOSD_center=1, XOSD_right=2 };
+enum anonymous_8 { XOSD_left=0, XOSD_center=1, XOSD_right=2 };
 
-// #anon_enum$XOSD_percentage=0$XOSD_string=1$XOSD_printf=2$XOSD_slider=3
+// #anon_enum_XOSD_percentage=0_XOSD_string=1_XOSD_printf=2_XOSD_slider=3
 // file ./xosd.h line 27
-enum anonymous$0 { XOSD_percentage=0, XOSD_string=1, XOSD_printf=2, XOSD_slider=3 };
+enum anonymous_0 { XOSD_percentage=0, XOSD_string=1, XOSD_printf=2, XOSD_slider=3 };
 
-// #anon_enum$XOSD_top=0$XOSD_bottom=1$XOSD_middle=2
+// #anon_enum_XOSD_top=0_XOSD_bottom=1_XOSD_middle=2
 // file ./xosd.h line 36
-enum anonymous$40 { XOSD_top=0, XOSD_bottom=1, XOSD_middle=2 };
+enum anonymous_40 { XOSD_top=0, XOSD_bottom=1, XOSD_middle=2 };
 
-// #anon_enum$bar_none=0$bar_percentage=1$bar_slider=2
+// #anon_enum_bar_none=0_bar_percentage=1_bar_slider=2
 // file osd_cat.c line 51
-enum anonymous$17 { bar_none=0, bar_percentage=1, bar_slider=2 };
+enum anonymous_17 { bar_none=0, bar_percentage=1, bar_slider=2 };
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]
 // file /usr/include/X11/Xlib.h line 257
-struct anonymous$53;
+struct anonymous_53;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private1'||S32'fd'||S32'private2'||S32'proto_major_version'||S32'proto_minor_version'||*{S8}$S8$'vendor'||U64'private3'||U64'private4'||U64'private5'||S32'private6'||U32'$pad0'||*{U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64}$U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64$'resource_alloc'||S32'byte_order'||S32'bitmap_unit'||S32'bitmap_pad'||S32'bitmap_bit_order'||S32'nformats'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]#$'pixmap_format'||S32'private8'||S32'release'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private9'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private10'||S32'qlen'||U32'$pad2'||U64'last_request_read'||U64'request'||*{S8}$S8$'private11'||*{S8}$S8$'private12'||*{S8}$S8$'private13'||*{S8}$S8$'private14'||U32'max_request_size'||U32'$pad3'||*{SYM#tag-_XrmHashBucketRec#}$SYM#tag-_XrmHashBucketRec#$'db'||*{S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32}$S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32$'private15'||*{S8}$S8$'display_name'||S32'default_screen'||S32'nscreens'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#$'screens'||U64'motion_buffer'||U64'private16'||S32'min_keycode'||S32'max_keycode'||*{S8}$S8$'private17'||*{S8}$S8$'private18'||S32'private19'||U32'$pad4'||*{S8}$S8$'xdefaults'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private1'||S32'fd'||S32'private2'||S32'proto_major_version'||S32'proto_minor_version'||*{S8}_S8_'vendor'||U64'private3'||U64'private4'||U64'private5'||S32'private6'||U32'_pad0'||*{U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64}_U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64_'resource_alloc'||S32'byte_order'||S32'bitmap_unit'||S32'bitmap_pad'||S32'bitmap_bit_order'||S32'nformats'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]#_'pixmap_format'||S32'private8'||S32'release'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private9'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private10'||S32'qlen'||U32'_pad2'||U64'last_request_read'||U64'request'||*{S8}_S8_'private11'||*{S8}_S8_'private12'||*{S8}_S8_'private13'||*{S8}_S8_'private14'||U32'max_request_size'||U32'_pad3'||*{SYM#tag-_XrmHashBucketRec#}_SYM#tag-_XrmHashBucketRec#_'db'||*{S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32}_S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32_'private15'||*{S8}_S8_'display_name'||S32'default_screen'||S32'nscreens'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#_'screens'||U64'motion_buffer'||U64'private16'||S32'min_keycode'||S32'max_keycode'||*{S8}_S8_'private17'||*{S8}_S8_'private18'||S32'private19'||U32'_pad4'||*{S8}_S8_'xdefaults'|]
 // file /usr/include/X11/Xlib.h line 493
 struct anonymous;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]
 // file /usr/include/X11/Xlib.h line 280
-struct anonymous$47;
+struct anonymous_47;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]
 // file /usr/include/X11/Xlib.h line 227
-struct anonymous$49;
+struct anonymous_49;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$6;
+struct anonymous_6;
 
 // tag-#anon#ST[S16'x'||S16'y'||U16'width'||U16'height'|]
 // file /usr/include/X11/Xlib.h line 430
-struct anonymous$41;
+struct anonymous_41;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$51;
+struct anonymous_51;
 
-// tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]
+// tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]
 // file /usr/include/X11/Xlib.h line 243
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S32'function'||U32'$pad0'||U64'plane_mask'||U64'foreground'||U64'background'||S32'line_width'||S32'line_style'||S32'cap_style'||S32'join_style'||S32'fill_style'||S32'fill_rule'||S32'arc_mode'||U32'$pad1'||U64'tile'||U64'stipple'||S32'ts_x_origin'||S32'ts_y_origin'||U64'font'||S32'subwindow_mode'||S32'graphics_exposures'||S32'clip_x_origin'||S32'clip_y_origin'||U64'clip_mask'||S32'dash_offset'||S8'dashes'||U24'$pad2'|]
+// tag-#anon#ST[S32'function'||U32'_pad0'||U64'plane_mask'||U64'foreground'||U64'background'||S32'line_width'||S32'line_style'||S32'cap_style'||S32'join_style'||S32'fill_style'||S32'fill_rule'||S32'arc_mode'||U32'_pad1'||U64'tile'||U64'stipple'||S32'ts_x_origin'||S32'ts_y_origin'||U64'font'||S32'subwindow_mode'||S32'graphics_exposures'||S32'clip_x_origin'||S32'clip_y_origin'||U64'clip_mask'||S32'dash_offset'||S8'dashes'||U24'_pad2'|]
 // file /usr/include/X11/Xlib.h line 181
-struct anonymous$44;
+struct anonymous_44;
 
 // tag-#anon#ST[S32'screen_number'||S16'x_org'||S16'y_org'||S16'width'||S16'height'|]
 // file /usr/include/X11/extensions/Xinerama.h line 32
-struct anonymous$52;
+struct anonymous_52;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'resourceid'||U64'serial'||U8'error_code'||U8'request_code'||U8'minor_code'||U40'$pad1'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'resourceid'||U64'serial'||U8'error_code'||U8'request_code'||U8'minor_code'||U40'_pad1'|]
 // file /usr/include/X11/Xlib.h line 924
-struct anonymous$36;
+struct anonymous_36;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||S32'extension'||S32'evtype'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||S32'extension'||S32'evtype'|]
 // file /usr/include/X11/Xlib.h line 948
-struct anonymous$38;
+struct anonymous_38;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||S32'extension'||S32'evtype'||U32'cookie'||U32'$pad2'||*{V}$V$'data'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||S32'extension'||S32'evtype'||U32'cookie'||U32'_pad2'||*{V}_V_'data'|]
 // file /usr/include/X11/Xlib.h line 958
-struct anonymous$39;
+struct anonymous_39;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'drawable'||S32'major_code'||S32'minor_code'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'drawable'||S32'major_code'||S32'minor_code'|]
 // file /usr/include/X11/Xlib.h line 686
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'drawable'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||S32'major_code'||S32'minor_code'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'drawable'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||S32'major_code'||S32'minor_code'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 673
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'|]
 // file /usr/include/X11/Xlib.h line 718
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'from_configure'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'from_configure'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 727
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'override_redirect'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'override_redirect'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 737
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'place'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'place'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 816
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'x'||S32'y'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'x'||S32'y'|]
 // file /usr/include/X11/Xlib.h line 782
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'$pad2'||U64'above'||S32'override_redirect'||U32'$pad3'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'_pad2'||U64'above'||S32'override_redirect'||U32'_pad3'|]
 // file /usr/include/X11/Xlib.h line 768
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||U64'parent'||S32'x'||S32'y'||S32'override_redirect'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||U64'parent'||S32'x'||S32'y'||S32'override_redirect'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 756
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'owner'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'owner'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
 // file /usr/include/X11/Xlib.h line 857
-struct anonymous$32;
+struct anonymous_32;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'|]
 // file /usr/include/X11/Xlib.h line 747
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'||S32'place'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'||S32'place'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 826
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||S32'override_redirect'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||S32'override_redirect'|]
 // file /usr/include/X11/Xlib.h line 705
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'$pad2'||U64'above'||S32'detail'||U32'$pad3'||U64'value_mask'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'_pad2'||U64'above'||S32'detail'||U32'_pad3'||U64'value_mask'|]
 // file /usr/include/X11/Xlib.h line 801
-struct anonymous$27;
+struct anonymous_27;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
 // file /usr/include/X11/Xlib.h line 870
-struct anonymous$33;
+struct anonymous_33;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'|]
 // file /usr/include/X11/Xlib.h line 934
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||ARR32{S8}$S8$'key_vector'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||ARR32{S8}_S8_'key_vector'|]
 // file /usr/include/X11/Xlib.h line 653
-struct anonymous$37;
+struct anonymous_37;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'mode'||S32'detail'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'mode'||S32'detail'|]
 // file /usr/include/X11/Xlib.h line 634
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'request'||S32'first_keycode'||S32'count'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'request'||S32'first_keycode'||S32'count'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 912
-struct anonymous$35;
+struct anonymous_35;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'state'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'state'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 696
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'width'||S32'height'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'width'||S32'height'|]
 // file /usr/include/X11/Xlib.h line 792
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 662
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'atom'||U64'time'||S32'state'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'atom'||U64'time'||S32'state'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 836
-struct anonymous$30;
+struct anonymous_30;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'colormap'||S32'new'||S32'state'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'colormap'||S32'new'||S32'state'|]
 // file /usr/include/X11/Xlib.h line 882
-struct anonymous$34;
+struct anonymous_34;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'message_type'||S32'format'||U32'$pad2'||SYM#tag-#anon#UN[ARR20{S8}$S8$'b'||ARR10{S16}$S16$'s'||ARR5{S64}$S64$'l'|]#'data'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'message_type'||S32'format'||U32'_pad2'||SYM#tag-#anon#UN[ARR20{S8}_S8_'b'||ARR10{S16}_S16_'s'||ARR5{S64}_S64_'l'|]#'data'|]
 // file /usr/include/X11/Xlib.h line 897
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||S32'mode'||S32'detail'||S32'same_screen'||S32'focus'||U32'state'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||S32'mode'||S32'detail'||S32'same_screen'||S32'focus'||U32'state'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 610
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||S8'is_hint'||U24'$pad2'||S32'same_screen'||U32'$pad3'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||S8'is_hint'||U24'_pad2'||S32'same_screen'||U32'_pad3'|]
 // file /usr/include/X11/Xlib.h line 593
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'button'||S32'same_screen'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'button'||S32'same_screen'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 575
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'keycode'||S32'same_screen'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'keycode'||S32'same_screen'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 557
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'selection'||U64'time'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'selection'||U64'time'|]
 // file /usr/include/X11/Xlib.h line 847
-struct anonymous$31;
+struct anonymous_31;
 
 // tag-#anon#ST[SYM#tag-#anon#ST[S16'x'||S16'y'||U16'width'||U16'height'|]#'max_ink_extent'||SYM#tag-#anon#ST[S16'x'||S16'y'||U16'width'||U16'height'|]#'max_logical_extent'|]
 // file /usr/include/X11/Xlib.h line 1084
-struct anonymous$45;
+struct anonymous_45;
 
-// tag-#anon#ST[U64'background_pixmap'||U64'background_pixel'||U64'border_pixmap'||U64'border_pixel'||S32'bit_gravity'||S32'win_gravity'||S32'backing_store'||U32'$pad0'||U64'backing_planes'||U64'backing_pixel'||S32'save_under'||U32'$pad1'||S64'event_mask'||S64'do_not_propagate_mask'||S32'override_redirect'||U32'$pad2'||U64'colormap'||U64'cursor'|]
+// tag-#anon#ST[U64'background_pixmap'||U64'background_pixel'||U64'border_pixmap'||U64'border_pixel'||S32'bit_gravity'||S32'win_gravity'||S32'backing_store'||U32'_pad0'||U64'backing_planes'||U64'backing_pixel'||S32'save_under'||U32'_pad1'||S64'event_mask'||S64'do_not_propagate_mask'||S32'override_redirect'||U32'_pad2'||U64'colormap'||U64'cursor'|]
 // file /usr/include/X11/Xlib.h line 290
-struct anonymous$43;
+struct anonymous_43;
 
 // tag-#anon#ST[U64'pixel'||U16'red'||U16'green'||U16'blue'||S8'flags'||S8'pad'|]
 // file /usr/include/X11/Xlib.h line 410
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#UN[ARR20{S8}$S8$'b'||ARR10{S16}$S16$'s'||ARR5{S64}$S64$'l'|]
+// tag-#anon#UN[ARR20{S8}_S8_'b'||ARR10{S16}_S16_'s'||ARR5{S64}_S64_'l'|]
 // file /usr/include/X11/Xlib.h line 905
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$48;
+union anonymous_48;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$42;
+union anonymous_42;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$46;
+union anonymous_46;
 
 // tag-DEBUG_LEVEL
 // file intern.h line 36
@@ -311,7 +311,7 @@ struct xosd_text;
 
 // XAllocColor
 // file /usr/include/X11/Xlib.h line 1958
-extern signed int XAllocColor(struct _XDisplay *, unsigned long int, struct anonymous$2 *);
+extern signed int XAllocColor(struct _XDisplay *, unsigned long int, struct anonymous_2 *);
 // XCloseDisplay
 // file /usr/include/X11/Xlib.h line 2160
 extern signed int XCloseDisplay(struct _XDisplay *);
@@ -323,13 +323,13 @@ extern signed int XCopyArea(struct _XDisplay *, unsigned long int, unsigned long
 extern struct _XOC * XCreateFontSet(struct _XDisplay *, const char *, char ***, signed int *, char **);
 // XCreateGC
 // file /usr/include/X11/Xlib.h line 1584
-extern struct _XGC * XCreateGC(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous$44 *);
+extern struct _XGC * XCreateGC(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous_44 *);
 // XCreatePixmap
 // file /usr/include/X11/Xlib.h line 1597
 extern unsigned long int XCreatePixmap(struct _XDisplay *, unsigned long int, unsigned int, unsigned int, unsigned int);
 // XCreateWindow
 // file /usr/include/X11/Xlib.h line 1636
-extern unsigned long int XCreateWindow(struct _XDisplay *, unsigned long int, signed int, signed int, unsigned int, unsigned int, unsigned int, signed int, unsigned int, struct anonymous$49 *, unsigned long int, struct anonymous$43 *);
+extern unsigned long int XCreateWindow(struct _XDisplay *, unsigned long int, signed int, signed int, unsigned int, unsigned int, unsigned int, signed int, unsigned int, struct anonymous_49 *, unsigned long int, struct anonymous_43 *);
 // XDefaultScreen
 // file /usr/include/X11/Xlib.h line 2227
 extern signed int XDefaultScreen(struct _XDisplay *);
@@ -344,13 +344,13 @@ extern signed int XDisplayHeight(struct _XDisplay *, signed int);
 extern signed int XDisplayWidth(struct _XDisplay *, signed int);
 // XExtentsOfFontSet
 // file /usr/include/X11/Xlib.h line 3648
-extern struct anonymous$45 * XExtentsOfFontSet(struct _XOC *);
+extern struct anonymous_45 * XExtentsOfFontSet(struct _XOC *);
 // XFillRectangle
 // file /usr/include/X11/Xlib.h line 2489
 extern signed int XFillRectangle(struct _XDisplay *, unsigned long int, struct _XGC *, signed int, signed int, unsigned int, unsigned int);
 // XFillRectangles
 // file /usr/include/X11/Xlib.h line 2499
-extern signed int XFillRectangles(struct _XDisplay *, unsigned long int, struct _XGC *, struct anonymous$41 *, signed int);
+extern signed int XFillRectangles(struct _XDisplay *, unsigned long int, struct _XGC *, struct anonymous_41 *, signed int);
 // XFlush
 // file /usr/include/X11/Xlib.h line 2507
 extern signed int XFlush(struct _XDisplay *);
@@ -389,7 +389,7 @@ extern signed int XNextEvent(struct _XDisplay *, union _XEvent *);
 extern struct _XDisplay * XOpenDisplay(const char *);
 // XParseColor
 // file /usr/include/X11/Xlib.h line 2850
-extern signed int XParseColor(struct _XDisplay *, unsigned long int, const char *, struct anonymous$2 *);
+extern signed int XParseColor(struct _XDisplay *, unsigned long int, const char *, struct anonymous_2 *);
 // XRaiseWindow
 // file /usr/include/X11/Xlib.h line 3026
 extern signed int XRaiseWindow(struct _XDisplay *, unsigned long int);
@@ -434,13 +434,13 @@ signed int XineramaIsActive(struct _XDisplay *);
 signed int XineramaQueryExtension(struct _XDisplay *, signed int *, signed int *);
 // XineramaQueryScreens
 // file /usr/include/X11/extensions/Xinerama.h line 66
-struct anonymous$52 * XineramaQueryScreens(struct _XDisplay *, signed int *);
+struct anonymous_52 * XineramaQueryScreens(struct _XDisplay *, signed int *);
 // XmbDrawString
 // file /usr/include/X11/Xlib.h line 3760
 extern void XmbDrawString(struct _XDisplay *, unsigned long int, struct _XOC *, struct _XGC *, signed int, signed int, const char *, signed int);
 // XmbTextExtents
 // file /usr/include/X11/Xlib.h line 3670
-extern signed int XmbTextExtents(struct _XOC *, const char *, signed int, struct anonymous$41 *, struct anonymous$41 *);
+extern signed int XmbTextExtents(struct _XOC *, const char *, signed int, struct anonymous_41 *, struct anonymous_41 *);
 // __assert_fail
 // file /usr/include/assert.h line 69
 extern void __assert_fail(const char *, const char *, unsigned int, const char *);
@@ -452,7 +452,7 @@ extern signed int * __errno_location(void);
 extern void * __rawmemchr(const void *, signed int);
 // _draw_bar
 // file xosd.c line 98
-static void _draw_bar(struct xosd *osd, signed int nbars, signed int on, struct anonymous$41 *p, struct anonymous$41 *mod, signed int is_slider);
+static void _draw_bar(struct xosd *osd, signed int nbars, signed int on, struct anonymous_41 *p, struct anonymous_41 *mod, signed int is_slider);
 // _draw_text
 // file xosd.c line 186
 static void _draw_text(struct xosd *osd, char *string, signed int x, signed int y);
@@ -521,25 +521,25 @@ extern void * memcpy(void *, const void *, unsigned long int);
 extern void * memset(void *, signed int, unsigned long int);
 // parse_colour
 // file xosd.c line 509
-static signed int parse_colour(struct xosd *osd, struct anonymous$2 *col, unsigned long int *pixel, const char *colour);
+static signed int parse_colour(struct xosd *osd, struct anonymous_2 *col, unsigned long int *pixel, const char *colour);
 // pipe
 // file /usr/include/unistd.h line 417
 extern signed int pipe(signed int *);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$42 *);
+extern signed int pthread_cond_broadcast(union anonymous_42 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$42 *);
+extern signed int pthread_cond_destroy(union anonymous_42 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$42 *, const union anonymous$48 *);
+extern signed int pthread_cond_init(union anonymous_42 *, const union anonymous_48 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$42 *);
+extern signed int pthread_cond_signal(union anonymous_42 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$42 *, union anonymous$46 *);
+extern signed int pthread_cond_wait(union anonymous_42 *, union anonymous_46 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -548,16 +548,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$46 *);
+extern signed int pthread_mutex_destroy(union anonymous_46 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$46 *, const union anonymous$48 *);
+extern signed int pthread_mutex_init(union anonymous_46 *, const union anonymous_48 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$46 *);
+extern signed int pthread_mutex_lock(union anonymous_46 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$46 *);
+extern signed int pthread_mutex_unlock(union anonymous_46 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -566,7 +566,7 @@ extern unsigned long int pthread_self(void);
 extern signed long int read(signed int, void *, unsigned long int);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$6 *, struct anonymous$6 *, struct anonymous$6 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_6 *, struct anonymous_6 *, struct anonymous_6 *, struct timeval *);
 // setlocale
 // file /usr/include/locale.h line 124
 extern char * setlocale(signed int, const char *);
@@ -602,7 +602,7 @@ struct xosd * xosd_create(signed int number_lines);
 signed int xosd_destroy(struct xosd *osd);
 // xosd_display
 // file ./xosd.h line 134
-signed int xosd_display(struct xosd *osd, signed int line, enum anonymous$0 command, ...);
+signed int xosd_display(struct xosd *osd, signed int line, enum anonymous_0 command, ...);
 // xosd_get_colour
 // file xosd.c line 1242
 signed int xosd_get_colour(struct xosd *osd, signed int *red, signed int *green, signed int *blue);
@@ -614,7 +614,7 @@ signed int xosd_get_number_lines(struct xosd *osd);
 signed int xosd_hide(struct xosd *osd);
 // xosd_init
 // file xosd.c line 619
-struct xosd * xosd_init(const char *font, const char *colour, signed int timeout, enum anonymous$40 pos, signed int voffset, signed int shadow_offset, signed int number_lines);
+struct xosd * xosd_init(const char *font, const char *colour, signed int timeout, enum anonymous_40 pos, signed int voffset, signed int shadow_offset, signed int number_lines);
 // xosd_is_onscreen
 // file ./xosd.h line 146
 signed int xosd_is_onscreen(struct xosd *osd);
@@ -623,7 +623,7 @@ signed int xosd_is_onscreen(struct xosd *osd);
 signed int xosd_scroll(struct xosd *osd, signed int lines);
 // xosd_set_align
 // file ./xosd.h line 203
-signed int xosd_set_align(struct xosd *osd, enum anonymous$8 align);
+signed int xosd_set_align(struct xosd *osd, enum anonymous_8 align);
 // xosd_set_bar_length
 // file xosd.c line 896
 signed int xosd_set_bar_length(struct xosd *osd, signed int length);
@@ -644,7 +644,7 @@ signed int xosd_set_outline_colour(struct xosd *osd, const char *colour);
 signed int xosd_set_outline_offset(struct xosd *osd, signed int outline_offset);
 // xosd_set_pos
 // file ./xosd.h line 191
-signed int xosd_set_pos(struct xosd *osd, enum anonymous$40 pos);
+signed int xosd_set_pos(struct xosd *osd, enum anonymous_40 pos);
 // xosd_set_shadow_colour
 // file ./xosd.h line 255
 signed int xosd_set_shadow_colour(struct xosd *osd, const char *colour);
@@ -667,7 +667,7 @@ signed int xosd_uninit(struct xosd *osd);
 // file ./xosd.h line 157
 signed int xosd_wait_until_no_display(struct xosd *osd);
 
-struct anonymous$53
+struct anonymous_53
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -686,11 +686,11 @@ struct anonymous$53
   // ndepths
   signed int ndepths;
   // depths
-  struct anonymous$5 *depths;
+  struct anonymous_5 *depths;
   // root_depth
   signed int root_depth;
   // root_visual
-  struct anonymous$49 *root_visual;
+  struct anonymous_49 *root_visual;
   // default_gc
   struct _XGC *default_gc;
   // cmap
@@ -748,7 +748,7 @@ struct anonymous
   // nformats
   signed int nformats;
   // pixmap_format
-  struct anonymous$47 *pixmap_format;
+  struct anonymous_47 *pixmap_format;
   // private8
   signed int private8;
   // release
@@ -784,7 +784,7 @@ struct anonymous
   // nscreens
   signed int nscreens;
   // screens
-  struct anonymous$53 *screens;
+  struct anonymous_53 *screens;
   // motion_buffer
   unsigned long int motion_buffer;
   // private16
@@ -803,7 +803,7 @@ struct anonymous
   char *xdefaults;
 };
 
-struct anonymous$47
+struct anonymous_47
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -815,7 +815,7 @@ struct anonymous$47
   signed int scanline_pad;
 };
 
-struct anonymous$49
+struct anonymous_49
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -835,13 +835,13 @@ struct anonymous$49
   signed int map_entries;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$41
+struct anonymous_41
 {
   // x
   signed short int x;
@@ -853,7 +853,7 @@ struct anonymous$41
   unsigned short int height;
 };
 
-struct anonymous$51
+struct anonymous_51
 {
   // __lock
   signed int __lock;
@@ -873,17 +873,17 @@ struct anonymous$51
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // depth
   signed int depth;
   // nvisuals
   signed int nvisuals;
   // visuals
-  struct anonymous$49 *visuals;
+  struct anonymous_49 *visuals;
 };
 
-struct anonymous$44
+struct anonymous_44
 {
   // function
   signed int function;
@@ -933,7 +933,7 @@ struct anonymous$44
   char dashes;
 };
 
-struct anonymous$52
+struct anonymous_52
 {
   // screen_number
   signed int screen_number;
@@ -947,7 +947,7 @@ struct anonymous$52
   signed short int height;
 };
 
-struct anonymous$36
+struct anonymous_36
 {
   // type
   signed int type;
@@ -965,7 +965,7 @@ struct anonymous$36
   unsigned char minor_code;
 };
 
-struct anonymous$38
+struct anonymous_38
 {
   // type
   signed int type;
@@ -981,7 +981,7 @@ struct anonymous$38
   signed int evtype;
 };
 
-struct anonymous$39
+struct anonymous_39
 {
   // type
   signed int type;
@@ -1001,7 +1001,7 @@ struct anonymous$39
   void *data;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // type
   signed int type;
@@ -1019,7 +1019,7 @@ struct anonymous$16
   signed int minor_code;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // type
   signed int type;
@@ -1047,7 +1047,7 @@ struct anonymous$15
   signed int minor_code;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // type
   signed int type;
@@ -1063,7 +1063,7 @@ struct anonymous$19
   unsigned long int window;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // type
   signed int type;
@@ -1081,7 +1081,7 @@ struct anonymous$20
   signed int from_configure;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // type
   signed int type;
@@ -1099,7 +1099,7 @@ struct anonymous$21
   signed int override_redirect;
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // type
   signed int type;
@@ -1117,7 +1117,7 @@ struct anonymous$28
   signed int place;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // type
   signed int type;
@@ -1137,7 +1137,7 @@ struct anonymous$25
   signed int y;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // type
   signed int type;
@@ -1167,7 +1167,7 @@ struct anonymous$24
   signed int override_redirect;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // type
   signed int type;
@@ -1191,7 +1191,7 @@ struct anonymous$23
   signed int override_redirect;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // type
   signed int type;
@@ -1215,7 +1215,7 @@ struct anonymous$32
   unsigned long int time;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // type
   signed int type;
@@ -1231,7 +1231,7 @@ struct anonymous$22
   unsigned long int window;
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // type
   signed int type;
@@ -1249,7 +1249,7 @@ struct anonymous$29
   signed int place;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // type
   signed int type;
@@ -1277,7 +1277,7 @@ struct anonymous$18
   signed int override_redirect;
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // type
   signed int type;
@@ -1309,7 +1309,7 @@ struct anonymous$27
   unsigned long int value_mask;
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // type
   signed int type;
@@ -1331,7 +1331,7 @@ struct anonymous$33
   unsigned long int time;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // type
   signed int type;
@@ -1345,7 +1345,7 @@ struct anonymous$7
   unsigned long int window;
 };
 
-struct anonymous$37
+struct anonymous_37
 {
   // type
   signed int type;
@@ -1361,7 +1361,7 @@ struct anonymous$37
   char key_vector[32l];
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // type
   signed int type;
@@ -1379,7 +1379,7 @@ struct anonymous$13
   signed int detail;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // type
   signed int type;
@@ -1399,7 +1399,7 @@ struct anonymous$35
   signed int count;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // type
   signed int type;
@@ -1415,7 +1415,7 @@ struct anonymous$4
   signed int state;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // type
   signed int type;
@@ -1433,7 +1433,7 @@ struct anonymous$26
   signed int height;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // type
   signed int type;
@@ -1457,7 +1457,7 @@ struct anonymous$14
   signed int count;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // type
   signed int type;
@@ -1477,7 +1477,7 @@ struct anonymous$30
   signed int state;
 };
 
-struct anonymous$34
+struct anonymous_34
 {
   // type
   signed int type;
@@ -1497,7 +1497,7 @@ struct anonymous$34
   signed int state;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // b
   char b[20l];
@@ -1507,7 +1507,7 @@ union anonymous$1
   signed long int l[5l];
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // type
   signed int type;
@@ -1524,10 +1524,10 @@ struct anonymous$3
   // format
   signed int format;
   // data
-  union anonymous$1 data;
+  union anonymous_1 data;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // type
   signed int type;
@@ -1565,7 +1565,7 @@ struct anonymous$12
   unsigned int state;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // type
   signed int type;
@@ -1599,7 +1599,7 @@ struct anonymous$11
   signed int same_screen;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // type
   signed int type;
@@ -1633,7 +1633,7 @@ struct anonymous$10
   signed int same_screen;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // type
   signed int type;
@@ -1667,7 +1667,7 @@ struct anonymous$9
   signed int same_screen;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // type
   signed int type;
@@ -1685,15 +1685,15 @@ struct anonymous$31
   unsigned long int time;
 };
 
-struct anonymous$45
+struct anonymous_45
 {
   // max_ink_extent
-  struct anonymous$41 max_ink_extent;
+  struct anonymous_41 max_ink_extent;
   // max_logical_extent
-  struct anonymous$41 max_logical_extent;
+  struct anonymous_41 max_logical_extent;
 };
 
-struct anonymous$43
+struct anonymous_43
 {
   // background_pixmap
   unsigned long int background_pixmap;
@@ -1727,7 +1727,7 @@ struct anonymous$43
   unsigned long int cursor;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // pixel
   unsigned long int pixel;
@@ -1743,7 +1743,7 @@ struct anonymous$2
   char pad;
 };
 
-union anonymous$48
+union anonymous_48
 {
   // __size
   char __size[4l];
@@ -1751,10 +1751,10 @@ union anonymous$48
   signed int __align;
 };
 
-union anonymous$42
+union anonymous_42
 {
   // __data
-  struct anonymous$51 __data;
+  struct anonymous_51 __data;
   // __size
   char __size[48l];
   // __align
@@ -1789,7 +1789,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$46
+union anonymous_46
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1876,71 +1876,71 @@ union _XEvent
   // type
   signed int type;
   // xany
-  struct anonymous$7 xany;
+  struct anonymous_7 xany;
   // xkey
-  struct anonymous$9 xkey;
+  struct anonymous_9 xkey;
   // xbutton
-  struct anonymous$10 xbutton;
+  struct anonymous_10 xbutton;
   // xmotion
-  struct anonymous$11 xmotion;
+  struct anonymous_11 xmotion;
   // xcrossing
-  struct anonymous$12 xcrossing;
+  struct anonymous_12 xcrossing;
   // xfocus
-  struct anonymous$13 xfocus;
+  struct anonymous_13 xfocus;
   // xexpose
-  struct anonymous$14 xexpose;
+  struct anonymous_14 xexpose;
   // xgraphicsexpose
-  struct anonymous$15 xgraphicsexpose;
+  struct anonymous_15 xgraphicsexpose;
   // xnoexpose
-  struct anonymous$16 xnoexpose;
+  struct anonymous_16 xnoexpose;
   // xvisibility
-  struct anonymous$4 xvisibility;
+  struct anonymous_4 xvisibility;
   // xcreatewindow
-  struct anonymous$18 xcreatewindow;
+  struct anonymous_18 xcreatewindow;
   // xdestroywindow
-  struct anonymous$19 xdestroywindow;
+  struct anonymous_19 xdestroywindow;
   // xunmap
-  struct anonymous$20 xunmap;
+  struct anonymous_20 xunmap;
   // xmap
-  struct anonymous$21 xmap;
+  struct anonymous_21 xmap;
   // xmaprequest
-  struct anonymous$22 xmaprequest;
+  struct anonymous_22 xmaprequest;
   // xreparent
-  struct anonymous$23 xreparent;
+  struct anonymous_23 xreparent;
   // xconfigure
-  struct anonymous$24 xconfigure;
+  struct anonymous_24 xconfigure;
   // xgravity
-  struct anonymous$25 xgravity;
+  struct anonymous_25 xgravity;
   // xresizerequest
-  struct anonymous$26 xresizerequest;
+  struct anonymous_26 xresizerequest;
   // xconfigurerequest
-  struct anonymous$27 xconfigurerequest;
+  struct anonymous_27 xconfigurerequest;
   // xcirculate
-  struct anonymous$28 xcirculate;
+  struct anonymous_28 xcirculate;
   // xcirculaterequest
-  struct anonymous$29 xcirculaterequest;
+  struct anonymous_29 xcirculaterequest;
   // xproperty
-  struct anonymous$30 xproperty;
+  struct anonymous_30 xproperty;
   // xselectionclear
-  struct anonymous$31 xselectionclear;
+  struct anonymous_31 xselectionclear;
   // xselectionrequest
-  struct anonymous$32 xselectionrequest;
+  struct anonymous_32 xselectionrequest;
   // xselection
-  struct anonymous$33 xselection;
+  struct anonymous_33 xselection;
   // xcolormap
-  struct anonymous$34 xcolormap;
+  struct anonymous_34 xcolormap;
   // xclient
-  struct anonymous$3 xclient;
+  struct anonymous_3 xclient;
   // xmapping
-  struct anonymous$35 xmapping;
+  struct anonymous_35 xmapping;
   // xerror
-  struct anonymous$36 xerror;
+  struct anonymous_36 xerror;
   // xkeymap
-  struct anonymous$37 xkeymap;
+  struct anonymous_37 xkeymap;
   // xgeneric
-  struct anonymous$38 xgeneric;
+  struct anonymous_38 xgeneric;
   // xcookie
-  struct anonymous$39 xcookie;
+  struct anonymous_39 xcookie;
   // pad
   signed long int pad[24l];
 };
@@ -1998,15 +1998,15 @@ struct xosd
   // event_thread
   unsigned long int event_thread;
   // mutex
-  union anonymous$46 mutex;
+  union anonymous_46 mutex;
   // cond_wait
-  union anonymous$42 cond_wait;
+  union anonymous_42 cond_wait;
   // pipefd
   signed int pipefd[2l];
   // mutex_sync
-  union anonymous$46 mutex_sync;
+  union anonymous_46 mutex_sync;
   // cond_sync
-  union anonymous$42 cond_sync;
+  union anonymous_42 cond_sync;
   // display
   struct _XDisplay *display;
   // screen
@@ -2020,11 +2020,11 @@ struct xosd
   // line_bitmap
   unsigned long int line_bitmap;
   // visual
-  struct anonymous$49 *visual;
+  struct anonymous_49 *visual;
   // fontset
   struct _XOC *fontset;
   // extent
-  struct anonymous$41 *extent;
+  struct anonymous_41 *extent;
   // gc
   struct _XGC *gc;
   // mask_gc
@@ -2042,9 +2042,9 @@ struct xosd
   // line_height
   signed int line_height;
   // pos
-  enum anonymous$40 pos;
+  enum anonymous_40 pos;
   // align
-  enum anonymous$8 align;
+  enum anonymous_8 align;
   // hoffset
   signed int hoffset;
   // voffset
@@ -2052,13 +2052,13 @@ struct xosd
   // shadow_offset
   signed int shadow_offset;
   // shadow_colour
-  struct anonymous$2 shadow_colour;
+  struct anonymous_2 shadow_colour;
   // shadow_pixel
   unsigned long int shadow_pixel;
   // outline_offset
   signed int outline_offset;
   // outline_colour
-  struct anonymous$2 outline_colour;
+  struct anonymous_2 outline_colour;
   // outline_pixel
   unsigned long int outline_pixel;
   // bar_length
@@ -2068,11 +2068,11 @@ struct xosd
   // done
   signed int done;
   // update
-  enum anonymous$50 update;
+  enum anonymous_50 update;
   // pixel
   unsigned long int pixel;
   // colour
-  struct anonymous$2 colour;
+  struct anonymous_2 colour;
   // lines
   union xosd_line *lines;
   // number_lines
@@ -2120,10 +2120,10 @@ static const signed int XOSD_MAX_PRINTF_BUF_SIZE = 2000;
 static const enum DEBUG_LEVEL _xosd_debug_level = (const enum DEBUG_LEVEL)0;
 // align
 // file osd_cat.c line 66
-enum anonymous$8 align = (enum anonymous$8)XOSD_left;
+enum anonymous_8 align = (enum anonymous_8)XOSD_left;
 // barmode
 // file osd_cat.c line 51
-enum anonymous$17 barmode = (enum anonymous$17)bar_none;
+enum anonymous_17 barmode = (enum anonymous_17)bar_none;
 // buffer
 // file osd_cat.c line 46
 char buffer[1024l];
@@ -2203,7 +2203,7 @@ signed int outline_offset = 0;
 signed int percentage = 50;
 // pos
 // file osd_cat.c line 58
-enum anonymous$40 pos = (enum anonymous$40)XOSD_top;
+enum anonymous_40 pos = (enum anonymous_40)XOSD_top;
 // screen_line
 // file osd_cat.c line 64
 signed int screen_line = 0;
@@ -2234,16 +2234,16 @@ char *xosd_error;
 
 // _draw_bar
 // file xosd.c line 98
-static void _draw_bar(struct xosd *osd, signed int nbars, signed int on, struct anonymous$41 *p, struct anonymous$41 *mod, signed int is_slider)
+static void _draw_bar(struct xosd *osd, signed int nbars, signed int on, struct anonymous_41 *p, struct anonymous_41 *mod, signed int is_slider)
 {
   signed int i;
-  struct anonymous$41 rs[2l];
-  unsigned long int return_value_pthread_self$1;
+  struct anonymous_41 rs[2l];
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 103, return_value_pthread_self$1, (const void *)"_draw_bar");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 103, return_value_pthread_self_1, (const void *)"_draw_bar");
     }
 
   while((_Bool)0);
@@ -2258,18 +2258,18 @@ static void _draw_bar(struct xosd *osd, signed int nbars, signed int on, struct 
   i = 0;
   for( ; !(i >= nbars); rs[(signed long int)0].x = rs[(signed long int)1].x)
   {
-    struct anonymous$41 *r = &rs[(signed long int)(is_slider != 0 ? (signed int)(i == on) : (signed int)(i < on))];
+    struct anonymous_41 *r = &rs[(signed long int)(is_slider != 0 ? (signed int)(i == on) : (signed int)(i < on))];
     XFillRectangles(osd->display, osd->mask_bitmap, osd->mask_gc, r, 1);
     XFillRectangles(osd->display, osd->line_bitmap, osd->gc, r, 1);
     i = i + 1;
     rs[(signed long int)1].x = rs[(signed long int)1].x + (signed short int)p->width;
   }
-  unsigned long int return_value_pthread_self$2;
+  unsigned long int return_value_pthread_self_2;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$2=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld>%s\n", (const void *)"xosd.c", 116, return_value_pthread_self$2, (const void *)"_draw_bar");
+      return_value_pthread_self_2=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld>%s\n", (const void *)"xosd.c", 116, return_value_pthread_self_2, (const void *)"_draw_bar");
     }
 
   while((_Bool)0);
@@ -2280,26 +2280,26 @@ static void _draw_bar(struct xosd *osd, signed int nbars, signed int on, struct 
 static void _draw_text(struct xosd *osd, char *string, signed int x, signed int y)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(string);
-  len = (signed int)return_value_strlen$1;
-  unsigned long int return_value_pthread_self$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(string);
+  len = (signed int)return_value_strlen_1;
+  unsigned long int return_value_pthread_self_2;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$2=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 189, return_value_pthread_self$2, (const void *)"_draw_text");
+      return_value_pthread_self_2=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 189, return_value_pthread_self_2, (const void *)"_draw_text");
     }
 
   while((_Bool)0);
   XmbDrawString(osd->display, osd->mask_bitmap, osd->fontset, osd->mask_gc, x, y, string, len);
   XmbDrawString(osd->display, osd->line_bitmap, osd->fontset, osd->gc, x, y, string, len);
-  unsigned long int return_value_pthread_self$3;
+  unsigned long int return_value_pthread_self_3;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$3=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld>%s\n", (const void *)"xosd.c", 194, return_value_pthread_self$3, (const void *)"_draw_text");
+      return_value_pthread_self_3=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld>%s\n", (const void *)"xosd.c", 194, return_value_pthread_self_3, (const void *)"_draw_text");
     }
 
   while((_Bool)0);
@@ -2310,14 +2310,14 @@ static void _draw_text(struct xosd *osd, char *string, signed int x, signed int 
 static void _wait_until_update(struct xosd *osd, signed int generation)
 {
   pthread_mutex_lock(&osd->mutex_sync);
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   while(osd->generation == generation)
   {
     do
       if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
       {
-        return_value_pthread_self$1=pthread_self();
-        fprintf(stderr, "%s:%-4d %ld@%s: waiting %d %d\n", (const void *)"xosd.c", 42, return_value_pthread_self$1, (const void *)"_wait_until_update", generation, osd->generation);
+        return_value_pthread_self_1=pthread_self();
+        fprintf(stderr, "%s:%-4d %ld@%s: waiting %d %d\n", (const void *)"xosd.c", 42, return_value_pthread_self_1, (const void *)"_wait_until_update", generation, osd->generation);
       }
 
     while((_Bool)0);
@@ -2331,23 +2331,23 @@ static void _wait_until_update(struct xosd *osd, signed int generation)
 static void _xosd_lock(struct xosd *osd)
 {
   char c = (char)0;
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0) && !((Dlocking & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 75, return_value_pthread_self$1, (const void *)"_xosd_lock");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 75, return_value_pthread_self_1, (const void *)"_xosd_lock");
     }
 
   while((_Bool)0);
   write(osd->pipefd[(signed long int)1], (const void *)&c, sizeof(char) /*1ul*/ );
   pthread_mutex_lock(&osd->mutex);
-  unsigned long int return_value_pthread_self$2;
+  unsigned long int return_value_pthread_self_2;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0) && !((Dlocking & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$2=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld>%s\n", (const void *)"xosd.c", 78, return_value_pthread_self$2, (const void *)"_xosd_lock");
+      return_value_pthread_self_2=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld>%s\n", (const void *)"xosd.c", 78, return_value_pthread_self_2, (const void *)"_xosd_lock");
     }
 
   while((_Bool)0);
@@ -2360,12 +2360,12 @@ static void _xosd_unlock(struct xosd *osd)
   char c;
   signed int generation = osd->generation;
   signed int update = (signed int)osd->update;
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0) && !((Dlocking & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 85, return_value_pthread_self$1, (const void *)"_xosd_unlock");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 85, return_value_pthread_self_1, (const void *)"_xosd_unlock");
     }
 
   while((_Bool)0);
@@ -2375,12 +2375,12 @@ static void _xosd_unlock(struct xosd *osd)
   if(!((UPD_show & update) == 0))
     _wait_until_update(osd, generation & ~1);
 
-  unsigned long int return_value_pthread_self$2;
+  unsigned long int return_value_pthread_self_2;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0) && !((Dlocking & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$2=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld>%s\n", (const void *)"xosd.c", 91, return_value_pthread_self$2, (const void *)"_xosd_unlock");
+      return_value_pthread_self_2=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld>%s\n", (const void *)"xosd.c", 91, return_value_pthread_self_2, (const void *)"_xosd_unlock");
     }
 
   while((_Bool)0);
@@ -2390,9 +2390,9 @@ static void _xosd_unlock(struct xosd *osd)
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // draw_bar
@@ -2403,20 +2403,20 @@ static void draw_bar(struct xosd *osd, signed int line)
   signed int is_slider = (signed int)((signed int)l->type == LINE_slider);
   signed int nbars;
   signed int on;
-  struct anonymous$41 p;
-  struct anonymous$41 m;
+  struct anonymous_41 p;
+  struct anonymous_41 m;
   p.x = (signed short int)10;
   p.y = (signed short int)(osd->line_height * line);
   p.width = (unsigned short int)(-((signed int)osd->extent->y) / 2);
   p.height = (unsigned short int)-((signed int)osd->extent->y);
   /* assertion osd */
   assert(osd != ((struct xosd *)NULL));
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 130, return_value_pthread_self$1, (const void *)"draw_bar");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 130, return_value_pthread_self_1, (const void *)"draw_bar");
     }
 
   while((_Bool)0);
@@ -2458,12 +2458,12 @@ static void draw_bar(struct xosd *osd, signed int line)
     }
   }
   on = ((nbars - is_slider) * l->value) / 100;
-  unsigned long int return_value_pthread_self$2;
+  unsigned long int return_value_pthread_self_2;
   do
     if(!((Dvalue & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$2=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld@%s: percent=%d, nbars=%d, on=%d\n", (const void *)"xosd.c", 158, return_value_pthread_self$2, (const void *)"draw_bar", l->value, nbars, on);
+      return_value_pthread_self_2=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld@%s: percent=%d, nbars=%d, on=%d\n", (const void *)"xosd.c", 158, return_value_pthread_self_2, (const void *)"draw_bar", l->value, nbars, on);
     }
 
   while((_Bool)0);
@@ -2504,12 +2504,12 @@ static void draw_text(struct xosd *osd, signed int line)
   struct xosd_text *l = &(osd->lines + (signed long int)line)->text;
   /* assertion osd */
   assert(osd != ((struct xosd *)NULL));
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 203, return_value_pthread_self$1, (const void *)"draw_text");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 203, return_value_pthread_self_1, (const void *)"draw_text");
     }
 
   while((_Bool)0);
@@ -2517,10 +2517,10 @@ static void draw_text(struct xosd *osd, signed int line)
   {
     if(!(l->width >= 0))
     {
-      struct anonymous$41 rect;
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(l->string);
-      XmbTextExtents(osd->fontset, l->string, (signed int)return_value_strlen$2, (struct anonymous$41 *)(void *)0, &rect);
+      struct anonymous_41 rect;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(l->string);
+      XmbTextExtents(osd->fontset, l->string, (signed int)return_value_strlen_2, (struct anonymous_41 *)(void *)0, &rect);
       l->width = (signed int)rect.width;
     }
 
@@ -2574,207 +2574,207 @@ static void draw_text(struct xosd *osd, signed int line)
 // file xosd.c line 258
 static void * event_loop(void *osdv)
 {
-  struct xosd *event_loop$$1$$osd = (struct xosd *)osdv;
+  struct xosd *event_loop__1__osd = (struct xosd *)osdv;
   signed int xfd;
   signed int max;
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 263, return_value_pthread_self$1, (const void *)"event_loop");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 263, return_value_pthread_self_1, (const void *)"event_loop");
     }
 
   while((_Bool)0);
-  unsigned long int return_value_pthread_self$2;
+  unsigned long int return_value_pthread_self_2;
   do
     if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$2=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld@%s: event thread started\n", (const void *)"xosd.c", 264, return_value_pthread_self$2, (const void *)"event_loop");
+      return_value_pthread_self_2=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld@%s: event thread started\n", (const void *)"xosd.c", 264, return_value_pthread_self_2, (const void *)"event_loop");
     }
 
   while((_Bool)0);
   /* assertion osd */
-  assert(event_loop$$1$$osd != ((struct xosd *)NULL));
-  xfd = ((struct anonymous *)event_loop$$1$$osd->display)->fd;
-  signed int tmp_if_expr$3;
-  if(!(xfd >= event_loop$$1$$osd->pipefd[0l]))
-    tmp_if_expr$3 = event_loop$$1$$osd->pipefd[(signed long int)0];
+  assert(event_loop__1__osd != ((struct xosd *)NULL));
+  xfd = ((struct anonymous *)event_loop__1__osd->display)->fd;
+  signed int tmp_if_expr_3;
+  if(!(xfd >= event_loop__1__osd->pipefd[0l]))
+    tmp_if_expr_3 = event_loop__1__osd->pipefd[(signed long int)0];
 
   else
-    tmp_if_expr$3 = xfd;
-  max = tmp_if_expr$3;
-  pthread_mutex_lock(&event_loop$$1$$osd->mutex);
-  unsigned long int return_value_pthread_self$4;
+    tmp_if_expr_3 = xfd;
+  max = tmp_if_expr_3;
+  pthread_mutex_lock(&event_loop__1__osd->mutex);
+  unsigned long int return_value_pthread_self_4;
   do
     if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$4=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld@%s: Request exposure events\n", (const void *)"xosd.c", 271, return_value_pthread_self$4, (const void *)"event_loop");
+      return_value_pthread_self_4=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld@%s: Request exposure events\n", (const void *)"xosd.c", 271, return_value_pthread_self_4, (const void *)"event_loop");
     }
 
   while((_Bool)0);
-  XSelectInput(event_loop$$1$$osd->display, event_loop$$1$$osd->window, 1L << 15);
-  event_loop$$1$$osd->update = event_loop$$1$$osd->update | (enum anonymous$50)(UPD_size | UPD_pos | UPD_mask);
-  unsigned long int return_value_pthread_self$5;
-  unsigned long int return_value_pthread_self$6;
-  unsigned long int return_value_pthread_self$7;
-  unsigned long int return_value_pthread_self$8;
-  unsigned long int return_value_pthread_self$9;
-  unsigned long int return_value_pthread_self$10;
-  unsigned long int return_value_pthread_self$11;
-  unsigned long int return_value_pthread_self$12;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$15;
-  signed int tmp_if_expr$14;
-  unsigned long int return_value_pthread_self$16;
-  _Bool tmp_if_expr$28;
-  signed int *return_value___errno_location$27;
-  unsigned long int return_value_pthread_self$17;
-  unsigned long int return_value_pthread_self$18;
-  signed int *return_value___errno_location$19;
-  unsigned long int return_value_pthread_self$20;
-  unsigned long int return_value_pthread_self$21;
-  struct anonymous$14 *event_loop$$1$$4$$17$$1$$1$$XE;
-  unsigned long int return_value_pthread_self$22;
-  struct anonymous$15 *XE;
-  unsigned long int return_value_pthread_self$23;
-  struct anonymous$16 *event_loop$$1$$4$$17$$1$$3$$XE;
-  unsigned long int return_value_pthread_self$24;
-  unsigned long int return_value_pthread_self$25;
-  unsigned long int return_value_pthread_self$26;
-  while(event_loop$$1$$osd->done == 0)
+  XSelectInput(event_loop__1__osd->display, event_loop__1__osd->window, 1L << 15);
+  event_loop__1__osd->update = event_loop__1__osd->update | (enum anonymous_50)(UPD_size | UPD_pos | UPD_mask);
+  unsigned long int return_value_pthread_self_5;
+  unsigned long int return_value_pthread_self_6;
+  unsigned long int return_value_pthread_self_7;
+  unsigned long int return_value_pthread_self_8;
+  unsigned long int return_value_pthread_self_9;
+  unsigned long int return_value_pthread_self_10;
+  unsigned long int return_value_pthread_self_11;
+  unsigned long int return_value_pthread_self_12;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_15;
+  signed int tmp_if_expr_14;
+  unsigned long int return_value_pthread_self_16;
+  _Bool tmp_if_expr_28;
+  signed int *return_value___errno_location_27;
+  unsigned long int return_value_pthread_self_17;
+  unsigned long int return_value_pthread_self_18;
+  signed int *return_value___errno_location_19;
+  unsigned long int return_value_pthread_self_20;
+  unsigned long int return_value_pthread_self_21;
+  struct anonymous_14 *event_loop__1__4__17__1__1__XE;
+  unsigned long int return_value_pthread_self_22;
+  struct anonymous_15 *XE;
+  unsigned long int return_value_pthread_self_23;
+  struct anonymous_16 *event_loop__1__4__17__1__3__XE;
+  unsigned long int return_value_pthread_self_24;
+  unsigned long int return_value_pthread_self_25;
+  unsigned long int return_value_pthread_self_26;
+  while(event_loop__1__osd->done == 0)
   {
     signed int retval;
     signed int line;
-    struct anonymous$6 readfds;
+    struct anonymous_6 readfds;
     struct timeval tv;
     struct timeval *tvp = (struct timeval *)(void *)0;
     do
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$6) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_6) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&readfds)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     (&readfds)->__fds_bits[(signed long int)(xfd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&readfds)->__fds_bits[(signed long int)(xfd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << xfd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-    (&readfds)->__fds_bits[(signed long int)(event_loop$$1$$osd->pipefd[(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&readfds)->__fds_bits[(signed long int)(event_loop$$1$$osd->pipefd[(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << event_loop$$1$$osd->pipefd[(signed long int)0] % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
-    if(!((UPD_hide & (signed int)event_loop$$1$$osd->update) == 0))
+    (&readfds)->__fds_bits[(signed long int)(event_loop__1__osd->pipefd[(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&readfds)->__fds_bits[(signed long int)(event_loop__1__osd->pipefd[(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << event_loop__1__osd->pipefd[(signed long int)0] % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
+    if(!((UPD_hide & (signed int)event_loop__1__osd->update) == 0))
     {
       do
         if(!((Dupdate & (signed int)_xosd_debug_level) == 0))
         {
-          return_value_pthread_self$5=pthread_self();
-          fprintf(stderr, "%s:%-4d %ld@%s: UPD_hide\n", (const void *)"xosd.c", 285, return_value_pthread_self$5, (const void *)"event_loop");
+          return_value_pthread_self_5=pthread_self();
+          fprintf(stderr, "%s:%-4d %ld@%s: UPD_hide\n", (const void *)"xosd.c", 285, return_value_pthread_self_5, (const void *)"event_loop");
         }
 
       while((_Bool)0);
-      if(!((1 & event_loop$$1$$osd->generation) == 0))
+      if(!((1 & event_loop__1__osd->generation) == 0))
       {
-        XUnmapWindow(event_loop$$1$$osd->display, event_loop$$1$$osd->window);
-        event_loop$$1$$osd->generation = event_loop$$1$$osd->generation + 1;
+        XUnmapWindow(event_loop__1__osd->display, event_loop__1__osd->window);
+        event_loop__1__osd->generation = event_loop__1__osd->generation + 1;
       }
 
     }
 
-    if(!((UPD_size & (signed int)event_loop$$1$$osd->update) == 0))
+    if(!((UPD_size & (signed int)event_loop__1__osd->update) == 0))
     {
-      struct anonymous$45 *extents;
-      extents=XExtentsOfFontSet(event_loop$$1$$osd->fontset);
+      struct anonymous_45 *extents;
+      extents=XExtentsOfFontSet(event_loop__1__osd->fontset);
       do
         if(!((Dupdate & (signed int)_xosd_debug_level) == 0))
         {
-          return_value_pthread_self$6=pthread_self();
-          fprintf(stderr, "%s:%-4d %ld@%s: UPD_size\n", (const void *)"xosd.c", 295, return_value_pthread_self$6, (const void *)"event_loop");
+          return_value_pthread_self_6=pthread_self();
+          fprintf(stderr, "%s:%-4d %ld@%s: UPD_size\n", (const void *)"xosd.c", 295, return_value_pthread_self_6, (const void *)"event_loop");
         }
 
       while((_Bool)0);
-      event_loop$$1$$osd->extent = &extents->max_logical_extent;
-      event_loop$$1$$osd->line_height = (signed int)event_loop$$1$$osd->extent->height + event_loop$$1$$osd->shadow_offset + 2 * event_loop$$1$$osd->outline_offset;
-      event_loop$$1$$osd->height = event_loop$$1$$osd->line_height * event_loop$$1$$osd->number_lines;
+      event_loop__1__osd->extent = &extents->max_logical_extent;
+      event_loop__1__osd->line_height = (signed int)event_loop__1__osd->extent->height + event_loop__1__osd->shadow_offset + 2 * event_loop__1__osd->outline_offset;
+      event_loop__1__osd->height = event_loop__1__osd->line_height * event_loop__1__osd->number_lines;
       line = 0;
-      for( ; !(line >= event_loop$$1$$osd->number_lines); line = line + 1)
-        if((signed int)(event_loop$$1$$osd->lines + (signed long int)line)->type == LINE_text)
-          (event_loop$$1$$osd->lines + (signed long int)line)->text.width = -1;
+      for( ; !(line >= event_loop__1__osd->number_lines); line = line + 1)
+        if((signed int)(event_loop__1__osd->lines + (signed long int)line)->type == LINE_text)
+          (event_loop__1__osd->lines + (signed long int)line)->text.width = -1;
 
-      XResizeWindow(event_loop$$1$$osd->display, event_loop$$1$$osd->window, (unsigned int)event_loop$$1$$osd->screen_width, (unsigned int)event_loop$$1$$osd->height);
-      XFreePixmap(event_loop$$1$$osd->display, event_loop$$1$$osd->mask_bitmap);
-      event_loop$$1$$osd->mask_bitmap=XCreatePixmap(event_loop$$1$$osd->display, event_loop$$1$$osd->window, (unsigned int)event_loop$$1$$osd->screen_width, (unsigned int)event_loop$$1$$osd->height, (unsigned int)1);
-      XFreePixmap(event_loop$$1$$osd->display, event_loop$$1$$osd->line_bitmap);
-      event_loop$$1$$osd->line_bitmap=XCreatePixmap(event_loop$$1$$osd->display, event_loop$$1$$osd->window, (unsigned int)event_loop$$1$$osd->screen_width, (unsigned int)event_loop$$1$$osd->height, event_loop$$1$$osd->depth);
+      XResizeWindow(event_loop__1__osd->display, event_loop__1__osd->window, (unsigned int)event_loop__1__osd->screen_width, (unsigned int)event_loop__1__osd->height);
+      XFreePixmap(event_loop__1__osd->display, event_loop__1__osd->mask_bitmap);
+      event_loop__1__osd->mask_bitmap=XCreatePixmap(event_loop__1__osd->display, event_loop__1__osd->window, (unsigned int)event_loop__1__osd->screen_width, (unsigned int)event_loop__1__osd->height, (unsigned int)1);
+      XFreePixmap(event_loop__1__osd->display, event_loop__1__osd->line_bitmap);
+      event_loop__1__osd->line_bitmap=XCreatePixmap(event_loop__1__osd->display, event_loop__1__osd->window, (unsigned int)event_loop__1__osd->screen_width, (unsigned int)event_loop__1__osd->height, event_loop__1__osd->depth);
     }
 
-    if(!((UPD_pos & (signed int)event_loop$$1$$osd->update) == 0))
+    if(!((UPD_pos & (signed int)event_loop__1__osd->update) == 0))
     {
       signed int x = 0;
       signed int y = 0;
       do
         if(!((Dupdate & (signed int)_xosd_debug_level) == 0))
         {
-          return_value_pthread_self$7=pthread_self();
-          fprintf(stderr, "%s:%-4d %ld@%s: UPD_pos\n", (const void *)"xosd.c", 318, return_value_pthread_self$7, (const void *)"event_loop");
+          return_value_pthread_self_7=pthread_self();
+          fprintf(stderr, "%s:%-4d %ld@%s: UPD_pos\n", (const void *)"xosd.c", 318, return_value_pthread_self_7, (const void *)"event_loop");
         }
 
       while((_Bool)0);
-      switch((signed int)event_loop$$1$$osd->align)
+      switch((signed int)event_loop__1__osd->align)
       {
         case XOSD_left:
 
         case XOSD_center:
         {
-          x = event_loop$$1$$osd->screen_xpos + event_loop$$1$$osd->hoffset;
+          x = event_loop__1__osd->screen_xpos + event_loop__1__osd->hoffset;
           break;
         }
         case XOSD_right:
-          x = event_loop$$1$$osd->screen_xpos - event_loop$$1$$osd->hoffset;
+          x = event_loop__1__osd->screen_xpos - event_loop__1__osd->hoffset;
       }
-      switch((signed int)event_loop$$1$$osd->pos)
+      switch((signed int)event_loop__1__osd->pos)
       {
         case XOSD_bottom:
         {
-          y = (event_loop$$1$$osd->screen_height - event_loop$$1$$osd->height) - event_loop$$1$$osd->voffset;
+          y = (event_loop__1__osd->screen_height - event_loop__1__osd->height) - event_loop__1__osd->voffset;
           break;
         }
         case XOSD_middle:
         {
-          y = (event_loop$$1$$osd->screen_height - event_loop$$1$$osd->height) / 2 - event_loop$$1$$osd->voffset;
+          y = (event_loop__1__osd->screen_height - event_loop__1__osd->height) / 2 - event_loop__1__osd->voffset;
           break;
         }
         case XOSD_top:
-          y = event_loop$$1$$osd->voffset;
+          y = event_loop__1__osd->voffset;
       }
-      XMoveWindow(event_loop$$1$$osd->display, event_loop$$1$$osd->window, x, y);
+      XMoveWindow(event_loop__1__osd->display, event_loop__1__osd->window, x, y);
     }
 
-    if(!((48 & (signed int)event_loop$$1$$osd->update) == 0))
+    if(!((48 & (signed int)event_loop__1__osd->update) == 0))
     {
       do
         if(!((Dupdate & (signed int)_xosd_debug_level) == 0))
         {
-          return_value_pthread_self$8=pthread_self();
-          fprintf(stderr, "%s:%-4d %ld@%s: UPD_lines\n", (const void *)"xosd.c", 342, return_value_pthread_self$8, (const void *)"event_loop");
+          return_value_pthread_self_8=pthread_self();
+          fprintf(stderr, "%s:%-4d %ld@%s: UPD_lines\n", (const void *)"xosd.c", 342, return_value_pthread_self_8, (const void *)"event_loop");
         }
 
       while((_Bool)0);
       line = 0;
-      while(!(line >= event_loop$$1$$osd->number_lines))
+      while(!(line >= event_loop__1__osd->number_lines))
       {
-        signed int event_loop$$1$$4$$5$$2$$1$$y = event_loop$$1$$osd->line_height * line;
-        if(!((UPD_mask & (signed int)event_loop$$1$$osd->update) == 0))
-          XFillRectangle(event_loop$$1$$osd->display, event_loop$$1$$osd->mask_bitmap, event_loop$$1$$osd->mask_gc_back, 0, event_loop$$1$$4$$5$$2$$1$$y, (unsigned int)event_loop$$1$$osd->screen_width, (unsigned int)event_loop$$1$$osd->line_height);
+        signed int event_loop__1__4__5__2__1__y = event_loop__1__osd->line_height * line;
+        if(!((UPD_mask & (signed int)event_loop__1__osd->update) == 0))
+          XFillRectangle(event_loop__1__osd->display, event_loop__1__osd->mask_bitmap, event_loop__1__osd->mask_gc_back, 0, event_loop__1__4__5__2__1__y, (unsigned int)event_loop__1__osd->screen_width, (unsigned int)event_loop__1__osd->line_height);
 
-        switch((signed int)(event_loop$$1$$osd->lines + (signed long int)line)->type)
+        switch((signed int)(event_loop__1__osd->lines + (signed long int)line)->type)
         {
           case LINE_text:
           {
-            draw_text(event_loop$$1$$osd, line);
+            draw_text(event_loop__1__osd, line);
             goto __CPROVER_DUMP_L36;
           }
           case LINE_percentage:
 
           case LINE_slider:
-            draw_bar(event_loop$$1$$osd, line);
+            draw_bar(event_loop__1__osd, line);
           case LINE_blank:
 
           default:
@@ -2788,104 +2788,104 @@ static void * event_loop(void *osdv)
       }
     }
 
-    if(!((UPD_mask & (signed int)event_loop$$1$$osd->update) == 0))
+    if(!((UPD_mask & (signed int)event_loop__1__osd->update) == 0))
     {
       do
         if(!((Dupdate & (signed int)_xosd_debug_level) == 0))
         {
-          return_value_pthread_self$9=pthread_self();
-          fprintf(stderr, "%s:%-4d %ld@%s: UPD_mask\n", (const void *)"xosd.c", 369, return_value_pthread_self$9, (const void *)"event_loop");
+          return_value_pthread_self_9=pthread_self();
+          fprintf(stderr, "%s:%-4d %ld@%s: UPD_mask\n", (const void *)"xosd.c", 369, return_value_pthread_self_9, (const void *)"event_loop");
         }
 
       while((_Bool)0);
-      XShapeCombineMask(event_loop$$1$$osd->display, event_loop$$1$$osd->window, 0, 0, 0, event_loop$$1$$osd->mask_bitmap, 0);
+      XShapeCombineMask(event_loop__1__osd->display, event_loop__1__osd->window, 0, 0, 0, event_loop__1__osd->mask_bitmap, 0);
     }
 
-    if(!((UPD_show & (signed int)event_loop$$1$$osd->update) == 0))
+    if(!((UPD_show & (signed int)event_loop__1__osd->update) == 0))
     {
       do
         if(!((Dupdate & (signed int)_xosd_debug_level) == 0))
         {
-          return_value_pthread_self$10=pthread_self();
-          fprintf(stderr, "%s:%-4d %ld@%s: UPD_show\n", (const void *)"xosd.c", 376, return_value_pthread_self$10, (const void *)"event_loop");
+          return_value_pthread_self_10=pthread_self();
+          fprintf(stderr, "%s:%-4d %ld@%s: UPD_show\n", (const void *)"xosd.c", 376, return_value_pthread_self_10, (const void *)"event_loop");
         }
 
       while((_Bool)0);
-      if(!((~event_loop$$1$$osd->generation & 1) == 0))
+      if(!((~event_loop__1__osd->generation & 1) == 0))
       {
-        event_loop$$1$$osd->generation = event_loop$$1$$osd->generation + 1;
-        XMapRaised(event_loop$$1$$osd->display, event_loop$$1$$osd->window);
+        event_loop__1__osd->generation = event_loop__1__osd->generation + 1;
+        XMapRaised(event_loop__1__osd->display, event_loop__1__osd->window);
       }
 
     }
 
-    if(!((1 & event_loop$$1$$osd->generation) == 0))
+    if(!((1 & event_loop__1__osd->generation) == 0))
     {
-      if(!((90 & (signed int)event_loop$$1$$osd->update) == 0))
+      if(!((90 & (signed int)event_loop__1__osd->update) == 0))
       {
         do
           if(!((Dupdate & (signed int)_xosd_debug_level) == 0))
           {
-            return_value_pthread_self$11=pthread_self();
-            fprintf(stderr, "%s:%-4d %ld@%s: UPD_copy\n", (const void *)"xosd.c", 385, return_value_pthread_self$11, (const void *)"event_loop");
+            return_value_pthread_self_11=pthread_self();
+            fprintf(stderr, "%s:%-4d %ld@%s: UPD_copy\n", (const void *)"xosd.c", 385, return_value_pthread_self_11, (const void *)"event_loop");
           }
 
         while((_Bool)0);
-        XCopyArea(event_loop$$1$$osd->display, event_loop$$1$$osd->line_bitmap, event_loop$$1$$osd->window, event_loop$$1$$osd->gc, 0, 0, (unsigned int)event_loop$$1$$osd->screen_width, (unsigned int)event_loop$$1$$osd->height, 0, 0);
+        XCopyArea(event_loop__1__osd->display, event_loop__1__osd->line_bitmap, event_loop__1__osd->window, event_loop__1__osd->gc, 0, 0, (unsigned int)event_loop__1__osd->screen_width, (unsigned int)event_loop__1__osd->height, 0, 0);
       }
 
     }
 
-    if(!((-5 & (signed int)event_loop$$1$$osd->update) == 0))
+    if(!((-5 & (signed int)event_loop__1__osd->update) == 0))
     {
-      XFlush(event_loop$$1$$osd->display);
-      event_loop$$1$$osd->update = event_loop$$1$$osd->update & (enum anonymous$50)UPD_timer;
+      XFlush(event_loop__1__osd->display);
+      event_loop__1__osd->update = event_loop__1__osd->update & (enum anonymous_50)UPD_timer;
     }
 
-    if(!((UPD_timer & (signed int)event_loop$$1$$osd->update) == 0))
+    if(!((UPD_timer & (signed int)event_loop__1__osd->update) == 0))
     {
       do
         if(!((Dupdate & (signed int)_xosd_debug_level) == 0))
         {
-          return_value_pthread_self$12=pthread_self();
-          fprintf(stderr, "%s:%-4d %ld@%s: UPD_timer\n", (const void *)"xosd.c", 396, return_value_pthread_self$12, (const void *)"event_loop");
+          return_value_pthread_self_12=pthread_self();
+          fprintf(stderr, "%s:%-4d %ld@%s: UPD_timer\n", (const void *)"xosd.c", 396, return_value_pthread_self_12, (const void *)"event_loop");
         }
 
       while((_Bool)0);
-      event_loop$$1$$osd->update = (enum anonymous$50)UPD_none;
-      if(!((1 & event_loop$$1$$osd->generation) == 0))
-        tmp_if_expr$13 = event_loop$$1$$osd->timeout > 0 ? (_Bool)1 : (_Bool)0;
+      event_loop__1__osd->update = (enum anonymous_50)UPD_none;
+      if(!((1 & event_loop__1__osd->generation) == 0))
+        tmp_if_expr_13 = event_loop__1__osd->timeout > 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$13 = (_Bool)0;
-      if(tmp_if_expr$13)
-        gettimeofday(&event_loop$$1$$osd->timeout_start, (struct timezone *)(void *)0);
+        tmp_if_expr_13 = (_Bool)0;
+      if(tmp_if_expr_13)
+        gettimeofday(&event_loop__1__osd->timeout_start, (struct timezone *)(void *)0);
 
       else
       {
-        (&event_loop$$1$$osd->timeout_start)->tv_usec = (signed long int)0;
-        (&event_loop$$1$$osd->timeout_start)->tv_sec = (&event_loop$$1$$osd->timeout_start)->tv_usec;
+        (&event_loop__1__osd->timeout_start)->tv_usec = (signed long int)0;
+        (&event_loop__1__osd->timeout_start)->tv_sec = (&event_loop__1__osd->timeout_start)->tv_usec;
       }
     }
 
-    if(!(event_loop$$1$$osd->timeout_start.tv_sec == 0l))
-      tmp_if_expr$15 = (_Bool)1;
+    if(!(event_loop__1__osd->timeout_start.tv_sec == 0l))
+      tmp_if_expr_15 = (_Bool)1;
 
     else
-      tmp_if_expr$15 = (&event_loop$$1$$osd->timeout_start)->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$15)
+      tmp_if_expr_15 = (&event_loop__1__osd->timeout_start)->tv_usec != 0l ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_15)
     {
       gettimeofday(&tv, (struct timezone *)(void *)0);
-      tv.tv_sec = tv.tv_sec - (signed long int)event_loop$$1$$osd->timeout;
-      if(tv.tv_sec == event_loop$$1$$osd->timeout_start.tv_sec)
-        tmp_if_expr$14 = (signed int)((&tv)->tv_usec < (&event_loop$$1$$osd->timeout_start)->tv_usec);
+      tv.tv_sec = tv.tv_sec - (signed long int)event_loop__1__osd->timeout;
+      if(tv.tv_sec == event_loop__1__osd->timeout_start.tv_sec)
+        tmp_if_expr_14 = (signed int)((&tv)->tv_usec < (&event_loop__1__osd->timeout_start)->tv_usec);
 
       else
-        tmp_if_expr$14 = (signed int)((&tv)->tv_sec < (&event_loop$$1$$osd->timeout_start)->tv_sec);
-      if(!(tmp_if_expr$14 == 0))
+        tmp_if_expr_14 = (signed int)((&tv)->tv_sec < (&event_loop__1__osd->timeout_start)->tv_sec);
+      if(!(tmp_if_expr_14 == 0))
       {
-        tv.tv_sec = event_loop$$1$$osd->timeout_start.tv_sec - tv.tv_sec;
-        tv.tv_usec = event_loop$$1$$osd->timeout_start.tv_usec - tv.tv_usec;
+        tv.tv_sec = event_loop__1__osd->timeout_start.tv_sec - tv.tv_sec;
+        tv.tv_usec = event_loop__1__osd->timeout_start.tv_usec - tv.tv_usec;
         if(!(tv.tv_usec >= 0l))
         {
           tv.tv_usec = tv.tv_usec + (signed long int)1000000;
@@ -2896,10 +2896,10 @@ static void * event_loop(void *osdv)
         goto __CPROVER_DUMP_L61;
       }
 
-      (&event_loop$$1$$osd->timeout_start)->tv_usec = (signed long int)0;
-      (&event_loop$$1$$osd->timeout_start)->tv_sec = (&event_loop$$1$$osd->timeout_start)->tv_usec;
-      if(!((1 & event_loop$$1$$osd->generation) == 0))
-        event_loop$$1$$osd->update = event_loop$$1$$osd->update | (enum anonymous$50)UPD_hide;
+      (&event_loop__1__osd->timeout_start)->tv_usec = (signed long int)0;
+      (&event_loop__1__osd->timeout_start)->tv_sec = (&event_loop__1__osd->timeout_start)->tv_usec;
+      if(!((1 & event_loop__1__osd->generation) == 0))
+        event_loop__1__osd->update = event_loop__1__osd->update | (enum anonymous_50)UPD_hide;
 
     }
 
@@ -2908,33 +2908,33 @@ static void * event_loop(void *osdv)
 
     __CPROVER_DUMP_L61:
       ;
-      pthread_mutex_lock(&event_loop$$1$$osd->mutex_sync);
-      pthread_cond_broadcast(&event_loop$$1$$osd->cond_sync);
-      pthread_mutex_unlock(&event_loop$$1$$osd->mutex_sync);
-      retval=select(max + 1, &readfds, (struct anonymous$6 *)(void *)0, (struct anonymous$6 *)(void *)0, tvp);
+      pthread_mutex_lock(&event_loop__1__osd->mutex_sync);
+      pthread_cond_broadcast(&event_loop__1__osd->cond_sync);
+      pthread_mutex_unlock(&event_loop__1__osd->mutex_sync);
+      retval=select(max + 1, &readfds, (struct anonymous_6 *)(void *)0, (struct anonymous_6 *)(void *)0, tvp);
       do
         if(!((Dvalue & (signed int)_xosd_debug_level) == 0))
         {
-          return_value_pthread_self$16=pthread_self();
-          fprintf(stderr, "%s:%-4d %ld@%s: SELECT=%d PIPE=%d X11=%d\n", (const void *)"xosd.c", 431, return_value_pthread_self$16, (const void *)"event_loop", retval, ((&readfds)->__fds_bits[(signed long int)(event_loop$$1$$osd->pipefd[(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & (signed long int)(1UL << event_loop$$1$$osd->pipefd[(signed long int)0] % (8 * (signed int)sizeof(signed long int) /*8ul*/ ))) != (signed long int)0, ((&readfds)->__fds_bits[(signed long int)(xfd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & (signed long int)(1UL << xfd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ))) != (signed long int)0);
+          return_value_pthread_self_16=pthread_self();
+          fprintf(stderr, "%s:%-4d %ld@%s: SELECT=%d PIPE=%d X11=%d\n", (const void *)"xosd.c", 431, return_value_pthread_self_16, (const void *)"event_loop", retval, ((&readfds)->__fds_bits[(signed long int)(event_loop__1__osd->pipefd[(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & (signed long int)(1UL << event_loop__1__osd->pipefd[(signed long int)0] % (8 * (signed int)sizeof(signed long int) /*8ul*/ ))) != (signed long int)0, ((&readfds)->__fds_bits[(signed long int)(xfd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & (signed long int)(1UL << xfd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ))) != (signed long int)0);
         }
 
       while((_Bool)0);
       if(retval == -1)
       {
-        return_value___errno_location$27=__errno_location();
-        tmp_if_expr$28 = *return_value___errno_location$27 == 4 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_27=__errno_location();
+        tmp_if_expr_28 = *return_value___errno_location_27 == 4 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$28 = (_Bool)0;
-      if(tmp_if_expr$28)
+        tmp_if_expr_28 = (_Bool)0;
+      if(tmp_if_expr_28)
       {
         do
           if(!((Dselect & (signed int)_xosd_debug_level) == 0))
           {
-            return_value_pthread_self$17=pthread_self();
-            fprintf(stderr, "%s:%-4d %ld@%s: select() EINTR\n", (const void *)"xosd.c", 434, return_value_pthread_self$17, (const void *)"event_loop");
+            return_value_pthread_self_17=pthread_self();
+            fprintf(stderr, "%s:%-4d %ld@%s: select() EINTR\n", (const void *)"xosd.c", 434, return_value_pthread_self_17, (const void *)"event_loop");
           }
 
         while((_Bool)0);
@@ -2947,13 +2947,13 @@ static void * event_loop(void *osdv)
           do
             if(!((Dselect & (signed int)_xosd_debug_level) == 0))
             {
-              return_value_pthread_self$18=pthread_self();
-              return_value___errno_location$19=__errno_location();
-              fprintf(stderr, "%s:%-4d %ld@%s: select() error %d\n", (const void *)"xosd.c", 437, return_value_pthread_self$18, (const void *)"event_loop", *return_value___errno_location$19);
+              return_value_pthread_self_18=pthread_self();
+              return_value___errno_location_19=__errno_location();
+              fprintf(stderr, "%s:%-4d %ld@%s: select() error %d\n", (const void *)"xosd.c", 437, return_value_pthread_self_18, (const void *)"event_loop", *return_value___errno_location_19);
             }
 
           while((_Bool)0);
-          event_loop$$1$$osd->done = 1;
+          event_loop__1__osd->done = 1;
           break;
         }
 
@@ -2963,8 +2963,8 @@ static void * event_loop(void *osdv)
             do
               if(!((Dselect & (signed int)_xosd_debug_level) == 0))
               {
-                return_value_pthread_self$20=pthread_self();
-                fprintf(stderr, "%s:%-4d %ld@%s: select() timeout\n", (const void *)"xosd.c", 441, return_value_pthread_self$20, (const void *)"event_loop");
+                return_value_pthread_self_20=pthread_self();
+                fprintf(stderr, "%s:%-4d %ld@%s: select() timeout\n", (const void *)"xosd.c", 441, return_value_pthread_self_20, (const void *)"event_loop");
               }
 
             while((_Bool)0);
@@ -2972,14 +2972,14 @@ static void * event_loop(void *osdv)
           }
 
           else
-            if(!((readfds.__fds_bits[(signed long int)(event_loop$$1$$osd->pipefd[0l] / 8)] & (signed long int)(1UL << event_loop$$1$$osd->pipefd[0l] % 8)) == 0l))
+            if(!((readfds.__fds_bits[(signed long int)(event_loop__1__osd->pipefd[0l] / 8)] & (signed long int)(1UL << event_loop__1__osd->pipefd[0l] % 8)) == 0l))
             {
-              pthread_cond_wait(&event_loop$$1$$osd->cond_wait, &event_loop$$1$$osd->mutex);
+              pthread_cond_wait(&event_loop__1__osd->cond_wait, &event_loop__1__osd->mutex);
               do
                 if(!((Dselect & (signed int)_xosd_debug_level) == 0))
                 {
-                  return_value_pthread_self$21=pthread_self();
-                  fprintf(stderr, "%s:%-4d %ld@%s: Resume exposure thread after X11 call\n", (const void *)"xosd.c", 446, return_value_pthread_self$21, (const void *)"event_loop");
+                  return_value_pthread_self_21=pthread_self();
+                  fprintf(stderr, "%s:%-4d %ld@%s: Resume exposure thread after X11 call\n", (const void *)"xosd.c", 446, return_value_pthread_self_21, (const void *)"event_loop");
                 }
 
               while((_Bool)0);
@@ -2990,21 +2990,21 @@ static void * event_loop(void *osdv)
               if(!((readfds.__fds_bits[(signed long int)(xfd / 8)] & (signed long int)(1UL << xfd % 8)) == 0l))
               {
                 union _XEvent report;
-                XNextEvent(event_loop$$1$$osd->display, &report);
+                XNextEvent(event_loop__1__osd->display, &report);
                 switch(report.type & 0x7f)
                 {
                   case 12:
                   {
-                    event_loop$$1$$4$$17$$1$$1$$XE = &report.xexpose;
+                    event_loop__1__4__17__1__1__XE = &report.xexpose;
                     do
                       if(!((Dvalue & (signed int)_xosd_debug_level) == 0))
                       {
-                        return_value_pthread_self$22=pthread_self();
-                        fprintf(stderr, "%s:%-4d %ld@%s: expose %d: x=%d y=%d w=%d h=%d\n", (const void *)"xosd.c", 460, return_value_pthread_self$22, (const void *)"event_loop", event_loop$$1$$4$$17$$1$$1$$XE->count, event_loop$$1$$4$$17$$1$$1$$XE->x, event_loop$$1$$4$$17$$1$$1$$XE->y, event_loop$$1$$4$$17$$1$$1$$XE->width, event_loop$$1$$4$$17$$1$$1$$XE->height);
+                        return_value_pthread_self_22=pthread_self();
+                        fprintf(stderr, "%s:%-4d %ld@%s: expose %d: x=%d y=%d w=%d h=%d\n", (const void *)"xosd.c", 460, return_value_pthread_self_22, (const void *)"event_loop", event_loop__1__4__17__1__1__XE->count, event_loop__1__4__17__1__1__XE->x, event_loop__1__4__17__1__1__XE->y, event_loop__1__4__17__1__1__XE->width, event_loop__1__4__17__1__1__XE->height);
                       }
 
                     while((_Bool)0);
-                    XCopyArea(event_loop$$1$$osd->display, event_loop$$1$$osd->line_bitmap, event_loop$$1$$osd->window, event_loop$$1$$osd->gc, report.xexpose.x, report.xexpose.y, (unsigned int)report.xexpose.width, (unsigned int)report.xexpose.height, report.xexpose.x, report.xexpose.y);
+                    XCopyArea(event_loop__1__osd->display, event_loop__1__osd->line_bitmap, event_loop__1__osd->window, event_loop__1__osd->gc, report.xexpose.x, report.xexpose.y, (unsigned int)report.xexpose.width, (unsigned int)report.xexpose.height, report.xexpose.x, report.xexpose.y);
                     break;
                   }
                   case 13:
@@ -3013,8 +3013,8 @@ static void * event_loop(void *osdv)
                     do
                       if(!((Dvalue & (signed int)_xosd_debug_level) == 0))
                       {
-                        return_value_pthread_self$23=pthread_self();
-                        fprintf(stderr, "%s:%-4d %ld@%s: gfxexpose %d: x=%d y=%d w=%d h=%d code=%d\n", (const void *)"xosd.c", 481, return_value_pthread_self$23, (const void *)"event_loop", XE->count, XE->x, XE->y, XE->width, XE->height, XE->major_code);
+                        return_value_pthread_self_23=pthread_self();
+                        fprintf(stderr, "%s:%-4d %ld@%s: gfxexpose %d: x=%d y=%d w=%d h=%d code=%d\n", (const void *)"xosd.c", 481, return_value_pthread_self_23, (const void *)"event_loop", XE->count, XE->x, XE->y, XE->width, XE->height, XE->major_code);
                       }
 
                     while((_Bool)0);
@@ -3022,12 +3022,12 @@ static void * event_loop(void *osdv)
                   }
                   case 14:
                   {
-                    event_loop$$1$$4$$17$$1$$3$$XE = &report.xnoexpose;
+                    event_loop__1__4__17__1__3__XE = &report.xnoexpose;
                     do
                       if(!((Dvalue & (signed int)_xosd_debug_level) == 0))
                       {
-                        return_value_pthread_self$24=pthread_self();
-                        fprintf(stderr, "%s:%-4d %ld@%s: noexpose: code=%d\n", (const void *)"xosd.c", 487, return_value_pthread_self$24, (const void *)"event_loop", event_loop$$1$$4$$17$$1$$3$$XE->major_code);
+                        return_value_pthread_self_24=pthread_self();
+                        fprintf(stderr, "%s:%-4d %ld@%s: noexpose: code=%d\n", (const void *)"xosd.c", 487, return_value_pthread_self_24, (const void *)"event_loop", event_loop__1__4__17__1__3__XE->major_code);
                       }
 
                     while((_Bool)0);
@@ -3037,8 +3037,8 @@ static void * event_loop(void *osdv)
                     do
                       if(!((Dvalue & (signed int)_xosd_debug_level) == 0))
                       {
-                        return_value_pthread_self$25=pthread_self();
-                        fprintf(stderr, "%s:%-4d %ld@%s: XEvent=%d\n", (const void *)"xosd.c", 491, return_value_pthread_self$25, (const void *)"event_loop", report.type);
+                        return_value_pthread_self_25=pthread_self();
+                        fprintf(stderr, "%s:%-4d %ld@%s: XEvent=%d\n", (const void *)"xosd.c", 491, return_value_pthread_self_25, (const void *)"event_loop", report.type);
                       }
 
                     while((_Bool)0);
@@ -3051,8 +3051,8 @@ static void * event_loop(void *osdv)
                 do
                   if(!((Dselect & (signed int)_xosd_debug_level) == 0))
                   {
-                    return_value_pthread_self$26=pthread_self();
-                    fprintf(stderr, "%s:%-4d %ld@%s: select() FATAL %d\n", (const void *)"xosd.c", 496, return_value_pthread_self$26, (const void *)"event_loop", retval);
+                    return_value_pthread_self_26=pthread_self();
+                    fprintf(stderr, "%s:%-4d %ld@%s: select() FATAL %d\n", (const void *)"xosd.c", 496, return_value_pthread_self_26, (const void *)"event_loop", retval);
                   }
 
                 while((_Bool)0);
@@ -3060,7 +3060,7 @@ static void * event_loop(void *osdv)
               }
     }
   }
-  pthread_mutex_unlock(&event_loop$$1$$osd->mutex);
+  pthread_mutex_unlock(&event_loop__1__osd->mutex);
   return (void *)0;
 }
 
@@ -3068,32 +3068,32 @@ static void * event_loop(void *osdv)
 // file osd_cat.c line 69
 signed int main(signed int argc, char **argv)
 {
-  char *return_value_setlocale$1;
-  return_value_setlocale$1=setlocale(6, "");
-  _Bool tmp_if_expr$3;
-  signed int return_value_XSupportsLocale$2;
-  if(return_value_setlocale$1 == ((char *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+  char *return_value_setlocale_1;
+  return_value_setlocale_1=setlocale(6, "");
+  _Bool tmp_if_expr_3;
+  signed int return_value_XSupportsLocale_2;
+  if(return_value_setlocale_1 == ((char *)NULL))
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_XSupportsLocale$2=XSupportsLocale();
-    tmp_if_expr$3 = !(return_value_XSupportsLocale$2 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_XSupportsLocale_2=XSupportsLocale();
+    tmp_if_expr_3 = !(return_value_XSupportsLocale_2 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
     fprintf(stderr, "Locale not available, expect problems with fonts.\n");
 
-  signed int tmp_if_expr$5;
-  signed int return_value_atoi$4;
-  signed int return_value_strcasecmp$9;
-  signed int return_value_strcasecmp$8;
-  signed int return_value_strcasecmp$7;
-  signed int return_value_strcasecmp$6;
-  signed int return_value_strcasecmp$12;
-  signed int return_value_strcasecmp$11;
-  signed int return_value_strcasecmp$10;
-  signed int return_value_strcasecmp$14;
-  signed int return_value_strcasecmp$13;
+  signed int tmp_if_expr_5;
+  signed int return_value_atoi_4;
+  signed int return_value_strcasecmp_9;
+  signed int return_value_strcasecmp_8;
+  signed int return_value_strcasecmp_7;
+  signed int return_value_strcasecmp_6;
+  signed int return_value_strcasecmp_12;
+  signed int return_value_strcasecmp_11;
+  signed int return_value_strcasecmp_10;
+  signed int return_value_strcasecmp_14;
+  signed int return_value_strcasecmp_13;
   while((_Bool)1)
   {
     signed int option_index = 0;
@@ -3108,13 +3108,13 @@ signed int main(signed int argc, char **argv)
       {
         if(!(optarg == ((char *)NULL)))
         {
-          return_value_atoi$4=atoi(optarg);
-          tmp_if_expr$5 = return_value_atoi$4;
+          return_value_atoi_4=atoi(optarg);
+          tmp_if_expr_5 = return_value_atoi_4;
         }
 
         else
-          tmp_if_expr$5 = delay;
-        scroll_age = tmp_if_expr$5;
+          tmp_if_expr_5 = delay;
+        scroll_age = tmp_if_expr_5;
         break;
       }
       case 119:
@@ -3124,27 +3124,27 @@ signed int main(signed int argc, char **argv)
       }
       case 65:
       {
-        return_value_strcasecmp$9=strcasecmp(optarg, "left");
-        if(return_value_strcasecmp$9 == 0)
-          align = (enum anonymous$8)XOSD_left;
+        return_value_strcasecmp_9=strcasecmp(optarg, "left");
+        if(return_value_strcasecmp_9 == 0)
+          align = (enum anonymous_8)XOSD_left;
 
         else
         {
-          return_value_strcasecmp$8=strcasecmp(optarg, "right");
-          if(return_value_strcasecmp$8 == 0)
-            align = (enum anonymous$8)XOSD_right;
+          return_value_strcasecmp_8=strcasecmp(optarg, "right");
+          if(return_value_strcasecmp_8 == 0)
+            align = (enum anonymous_8)XOSD_right;
 
           else
           {
-            return_value_strcasecmp$7=strcasecmp(optarg, "center");
-            if(return_value_strcasecmp$7 == 0)
-              align = (enum anonymous$8)XOSD_center;
+            return_value_strcasecmp_7=strcasecmp(optarg, "center");
+            if(return_value_strcasecmp_7 == 0)
+              align = (enum anonymous_8)XOSD_center;
 
             else
             {
-              return_value_strcasecmp$6=strcasecmp(optarg, "centre");
-              if(return_value_strcasecmp$6 == 0)
-                align = (enum anonymous$8)XOSD_center;
+              return_value_strcasecmp_6=strcasecmp(optarg, "centre");
+              if(return_value_strcasecmp_6 == 0)
+                align = (enum anonymous_8)XOSD_center;
 
               else
               {
@@ -3158,21 +3158,21 @@ signed int main(signed int argc, char **argv)
       }
       case 112:
       {
-        return_value_strcasecmp$12=strcasecmp(optarg, "top");
-        if(return_value_strcasecmp$12 == 0)
-          pos = (enum anonymous$40)XOSD_top;
+        return_value_strcasecmp_12=strcasecmp(optarg, "top");
+        if(return_value_strcasecmp_12 == 0)
+          pos = (enum anonymous_40)XOSD_top;
 
         else
         {
-          return_value_strcasecmp$11=strcasecmp(optarg, "middle");
-          if(return_value_strcasecmp$11 == 0)
-            pos = (enum anonymous$40)XOSD_middle;
+          return_value_strcasecmp_11=strcasecmp(optarg, "middle");
+          if(return_value_strcasecmp_11 == 0)
+            pos = (enum anonymous_40)XOSD_middle;
 
           else
           {
-            return_value_strcasecmp$10=strcasecmp(optarg, "bottom");
-            if(return_value_strcasecmp$10 == 0)
-              pos = (enum anonymous$40)XOSD_bottom;
+            return_value_strcasecmp_10=strcasecmp(optarg, "bottom");
+            if(return_value_strcasecmp_10 == 0)
+              pos = (enum anonymous_40)XOSD_bottom;
 
             else
             {
@@ -3241,15 +3241,15 @@ signed int main(signed int argc, char **argv)
       }
       case 98:
       {
-        return_value_strcasecmp$14=strcasecmp(optarg, "percentage");
-        if(return_value_strcasecmp$14 == 0)
-          barmode = (enum anonymous$17)bar_percentage;
+        return_value_strcasecmp_14=strcasecmp(optarg, "percentage");
+        if(return_value_strcasecmp_14 == 0)
+          barmode = (enum anonymous_17)bar_percentage;
 
         else
         {
-          return_value_strcasecmp$13=strcasecmp(optarg, "slider");
-          if(return_value_strcasecmp$13 == 0)
-            barmode = (enum anonymous$17)bar_slider;
+          return_value_strcasecmp_13=strcasecmp(optarg, "slider");
+          if(return_value_strcasecmp_13 == 0)
+            barmode = (enum anonymous_17)bar_slider;
 
           else
           {
@@ -3283,30 +3283,30 @@ signed int main(signed int argc, char **argv)
       }
     }
   }
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$17;
-  signed int return_value_strncmp$16;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_17;
+  signed int return_value_strncmp_16;
   if(!(barmode == /*enum*/bar_none))
   {
     if(!(text == ((char *)NULL)))
-      tmp_if_expr$15 = *text != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_15 = *text != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$15 = (_Bool)0;
-    osd=xosd_create(tmp_if_expr$15 ? 2 : 1);
+      tmp_if_expr_15 = (_Bool)0;
+    osd=xosd_create(tmp_if_expr_15 ? 2 : 1);
   }
 
   else
   {
     if(!(optind >= argc))
     {
-      return_value_strncmp$16=strncmp(argv[(signed long int)optind], "-", (unsigned long int)2);
-      tmp_if_expr$17 = return_value_strncmp$16 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strncmp_16=strncmp(argv[(signed long int)optind], "-", (unsigned long int)2);
+      tmp_if_expr_17 = return_value_strncmp_16 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$17 = (_Bool)0;
-    if(tmp_if_expr$17)
+      tmp_if_expr_17 = (_Bool)0;
+    if(tmp_if_expr_17)
     {
       fp=fopen(argv[(signed long int)optind], "r");
       if(fp == ((struct _IO_FILE *)NULL))
@@ -3321,11 +3321,11 @@ signed int main(signed int argc, char **argv)
       fp = stdin;
     osd=xosd_create(lines);
   }
-  signed int return_value_xosd_set_font$18;
-  signed int return_value_feof$19;
-  signed int return_value_xosd_is_onscreen$21;
-  signed int tmp_post$22;
-  signed int return_value_feof$25;
+  signed int return_value_xosd_set_font_18;
+  signed int return_value_feof_19;
+  signed int return_value_xosd_is_onscreen_21;
+  signed int tmp_post_22;
+  signed int return_value_feof_25;
   if(osd == ((struct xosd *)NULL))
   {
     fprintf(stderr, "Error initializing osd: %s\n", xosd_error);
@@ -3352,8 +3352,8 @@ signed int main(signed int argc, char **argv)
     xosd_set_align(osd, align);
     if(!(font == ((char *)NULL)))
     {
-      return_value_xosd_set_font$18=xosd_set_font(osd, font);
-      if(return_value_xosd_set_font$18 == 0)
+      return_value_xosd_set_font_18=xosd_set_font(osd, font);
+      if(return_value_xosd_set_font_18 == 0)
         goto __CPROVER_DUMP_L53;
 
       fprintf(stderr, "ABORT: %s\n", xosd_error);
@@ -3370,17 +3370,17 @@ signed int main(signed int argc, char **argv)
         case bar_percentage:
         {
           if(!(text == ((char *)NULL)))
-            xosd_display(osd, 0, (enum anonymous$0)XOSD_string, text);
+            xosd_display(osd, 0, (enum anonymous_0)XOSD_string, text);
 
-          xosd_display(osd, text != ((char *)NULL) ? 1 : 0, (enum anonymous$0)XOSD_percentage, percentage);
+          xosd_display(osd, text != ((char *)NULL) ? 1 : 0, (enum anonymous_0)XOSD_percentage, percentage);
           break;
         }
         case bar_slider:
         {
           if(!(text == ((char *)NULL)))
-            xosd_display(osd, 0, (enum anonymous$0)XOSD_string, text);
+            xosd_display(osd, 0, (enum anonymous_0)XOSD_string, text);
 
-          xosd_display(osd, text != ((char *)NULL) ? 1 : 0, (enum anonymous$0)XOSD_slider, percentage);
+          xosd_display(osd, text != ((char *)NULL) ? 1 : 0, (enum anonymous_0)XOSD_slider, percentage);
           break;
         }
         case bar_none:
@@ -3391,25 +3391,25 @@ signed int main(signed int argc, char **argv)
 
           do
           {
-            return_value_feof$19=feof(fp);
-            if(!(return_value_feof$19 == 0))
+            return_value_feof_19=feof(fp);
+            if(!(return_value_feof_19 == 0))
               break;
 
-            char *return_value_fgets$26;
-            return_value_fgets$26=fgets(buffer, (signed int)(sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1), fp);
-            if(!(return_value_fgets$26 == ((char *)NULL)))
+            char *return_value_fgets_26;
+            return_value_fgets_26=fgets(buffer, (signed int)(sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1), fp);
+            if(!(return_value_fgets_26 == ((char *)NULL)))
             {
               char *newline;
-              char *return_value___builtin_strchr$20;
-              return_value___builtin_strchr$20=__builtin_strchr(buffer, 10);
-              newline = return_value___builtin_strchr$20;
+              char *return_value___builtin_strchr_20;
+              return_value___builtin_strchr_20=__builtin_strchr(buffer, 10);
+              newline = return_value___builtin_strchr_20;
               if(!(newline == ((char *)NULL)))
                 newline[(signed long int)0] = (char)0;
 
               if(!(forcewait == 0))
               {
-                return_value_xosd_is_onscreen$21=xosd_is_onscreen(osd);
-                if(!(return_value_xosd_is_onscreen$21 == 0))
+                return_value_xosd_is_onscreen_21=xosd_is_onscreen(osd);
+                if(!(return_value_xosd_is_onscreen_21 == 0))
                   xosd_wait_until_no_display(osd);
 
               }
@@ -3435,22 +3435,22 @@ signed int main(signed int argc, char **argv)
                 screen_line = lines - 1;
               }
 
-              tmp_post$22 = screen_line;
+              tmp_post_22 = screen_line;
               screen_line = screen_line + 1;
-              xosd_display(osd, tmp_post$22, (enum anonymous$0)XOSD_string, (const void *)buffer);
+              xosd_display(osd, tmp_post_22, (enum anonymous_0)XOSD_string, (const void *)buffer);
               old_age.tv_sec = new_age.tv_sec;
             }
 
             else
             {
-              return_value_feof$25=feof(fp);
-              if(return_value_feof$25 == 0)
+              return_value_feof_25=feof(fp);
+              if(return_value_feof_25 == 0)
               {
-                signed int *return_value___errno_location$23;
-                return_value___errno_location$23=__errno_location();
-                char *return_value_strerror$24;
-                return_value_strerror$24=strerror(*return_value___errno_location$23);
-                fprintf(stderr, "Error occured reading input file: %s\n", return_value_strerror$24);
+                signed int *return_value___errno_location_23;
+                return_value___errno_location_23=__errno_location();
+                char *return_value_strerror_24;
+                return_value_strerror_24=strerror(*return_value___errno_location_23);
+                fprintf(stderr, "Error occured reading input file: %s\n", return_value_strerror_24);
                 exit(1);
               }
 
@@ -3460,9 +3460,9 @@ signed int main(signed int argc, char **argv)
           fclose(fp);
         }
       }
-      signed int return_value_xosd_is_onscreen$27;
-      return_value_xosd_is_onscreen$27=xosd_is_onscreen(osd);
-      if(!(return_value_xosd_is_onscreen$27 == 0))
+      signed int return_value_xosd_is_onscreen_27;
+      return_value_xosd_is_onscreen_27=xosd_is_onscreen(osd);
+      if(!(return_value_xosd_is_onscreen_27 == 0))
         xosd_wait_until_no_display(osd);
 
       xosd_destroy(osd);
@@ -3473,63 +3473,63 @@ signed int main(signed int argc, char **argv)
 
 // parse_colour
 // file xosd.c line 509
-static signed int parse_colour(struct xosd *osd, struct anonymous$2 *col, unsigned long int *pixel, const char *colour)
+static signed int parse_colour(struct xosd *osd, struct anonymous_2 *col, unsigned long int *pixel, const char *colour)
 {
   unsigned long int colourmap;
   signed int retval = 0;
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 515, return_value_pthread_self$1, (const void *)"parse_colour");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 515, return_value_pthread_self_1, (const void *)"parse_colour");
     }
 
   while((_Bool)0);
-  unsigned long int return_value_pthread_self$2;
+  unsigned long int return_value_pthread_self_2;
   do
     if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$2=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld@%s: getting colourmap\n", (const void *)"xosd.c", 516, return_value_pthread_self$2, (const void *)"parse_colour");
+      return_value_pthread_self_2=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld@%s: getting colourmap\n", (const void *)"xosd.c", 516, return_value_pthread_self_2, (const void *)"parse_colour");
     }
 
   while((_Bool)0);
   colourmap = (&((struct anonymous *)osd->display)->screens[(signed long int)osd->screen])->cmap;
-  unsigned long int return_value_pthread_self$3;
+  unsigned long int return_value_pthread_self_3;
   do
     if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$3=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld@%s: parsing colour\n", (const void *)"xosd.c", 519, return_value_pthread_self$3, (const void *)"parse_colour");
+      return_value_pthread_self_3=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld@%s: parsing colour\n", (const void *)"xosd.c", 519, return_value_pthread_self_3, (const void *)"parse_colour");
     }
 
   while((_Bool)0);
-  signed int return_value_XParseColor$9;
-  return_value_XParseColor$9=XParseColor(osd->display, colourmap, colour, col);
-  unsigned long int return_value_pthread_self$4;
-  unsigned long int return_value_pthread_self$5;
-  unsigned long int return_value_pthread_self$6;
-  unsigned long int return_value_pthread_self$8;
-  if(!(return_value_XParseColor$9 == 0))
+  signed int return_value_XParseColor_9;
+  return_value_XParseColor_9=XParseColor(osd->display, colourmap, colour, col);
+  unsigned long int return_value_pthread_self_4;
+  unsigned long int return_value_pthread_self_5;
+  unsigned long int return_value_pthread_self_6;
+  unsigned long int return_value_pthread_self_8;
+  if(!(return_value_XParseColor_9 == 0))
   {
     do
       if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
       {
-        return_value_pthread_self$4=pthread_self();
-        fprintf(stderr, "%s:%-4d %ld@%s: attempting to allocate colour\n", (const void *)"xosd.c", 521, return_value_pthread_self$4, (const void *)"parse_colour");
+        return_value_pthread_self_4=pthread_self();
+        fprintf(stderr, "%s:%-4d %ld@%s: attempting to allocate colour\n", (const void *)"xosd.c", 521, return_value_pthread_self_4, (const void *)"parse_colour");
       }
 
     while((_Bool)0);
-    signed int return_value_XAllocColor$7;
-    return_value_XAllocColor$7=XAllocColor(osd->display, colourmap, col);
-    if(!(return_value_XAllocColor$7 == 0))
+    signed int return_value_XAllocColor_7;
+    return_value_XAllocColor_7=XAllocColor(osd->display, colourmap, col);
+    if(!(return_value_XAllocColor_7 == 0))
     {
       do
         if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
         {
-          return_value_pthread_self$5=pthread_self();
-          fprintf(stderr, "%s:%-4d %ld@%s: allocation sucessful\n", (const void *)"xosd.c", 523, return_value_pthread_self$5, (const void *)"parse_colour");
+          return_value_pthread_self_5=pthread_self();
+          fprintf(stderr, "%s:%-4d %ld@%s: allocation sucessful\n", (const void *)"xosd.c", 523, return_value_pthread_self_5, (const void *)"parse_colour");
         }
 
       while((_Bool)0);
@@ -3541,8 +3541,8 @@ static signed int parse_colour(struct xosd *osd, struct anonymous$2 *col, unsign
       do
         if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
         {
-          return_value_pthread_self$6=pthread_self();
-          fprintf(stderr, "%s:%-4d %ld@%s: defaulting to white. could not allocate colour\n", (const void *)"xosd.c", 526, return_value_pthread_self$6, (const void *)"parse_colour");
+          return_value_pthread_self_6=pthread_self();
+          fprintf(stderr, "%s:%-4d %ld@%s: defaulting to white. could not allocate colour\n", (const void *)"xosd.c", 526, return_value_pthread_self_6, (const void *)"parse_colour");
         }
 
       while((_Bool)0);
@@ -3556,8 +3556,8 @@ static signed int parse_colour(struct xosd *osd, struct anonymous$2 *col, unsign
     do
       if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
       {
-        return_value_pthread_self$8=pthread_self();
-        fprintf(stderr, "%s:%-4d %ld@%s: could not poarse colour. defaulting to white\n", (const void *)"xosd.c", 531, return_value_pthread_self$8, (const void *)"parse_colour");
+        return_value_pthread_self_8=pthread_self();
+        fprintf(stderr, "%s:%-4d %ld@%s: could not poarse colour. defaulting to white\n", (const void *)"xosd.c", 531, return_value_pthread_self_8, (const void *)"parse_colour");
       }
 
     while((_Bool)0);
@@ -3579,26 +3579,26 @@ void stay_on_top(struct _XDisplay *dpy, unsigned long int win)
   unsigned long int bytesafter;
   unsigned char *args = (unsigned char *)(void *)0;
   unsigned long int root = (&((struct anonymous *)dpy)->screens[(signed long int)((struct anonymous *)dpy)->default_screen])->root;
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 551, return_value_pthread_self$1, (const void *)"stay_on_top");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 551, return_value_pthread_self_1, (const void *)"stay_on_top");
     }
 
   while((_Bool)0);
   gnome=XInternAtom(dpy, "_WIN_SUPPORTING_WM_CHECK", 0);
   net_wm=XInternAtom(dpy, "_NET_SUPPORTED", 0);
-  signed int return_value_XGetWindowProperty$3;
-  return_value_XGetWindowProperty$3=XGetWindowProperty(dpy, root, gnome, (signed long int)0, (signed long int)((unsigned long int)65536 / sizeof(signed long int) /*8ul*/ ), 0, (unsigned long int)0L, &type, &format, &nitems, &bytesafter, &args);
-  signed int return_value_XGetWindowProperty$2;
-  if(return_value_XGetWindowProperty$3 == 0 && nitems >= 1ul)
+  signed int return_value_XGetWindowProperty_3;
+  return_value_XGetWindowProperty_3=XGetWindowProperty(dpy, root, gnome, (signed long int)0, (signed long int)((unsigned long int)65536 / sizeof(signed long int) /*8ul*/ ), 0, (unsigned long int)0L, &type, &format, &nitems, &bytesafter, &args);
+  signed int return_value_XGetWindowProperty_2;
+  if(return_value_XGetWindowProperty_3 == 0 && nitems >= 1ul)
   {
-    struct anonymous$3 xev;
+    struct anonymous_3 xev;
     unsigned long int gnome_layer;
     gnome_layer=XInternAtom(dpy, "_WIN_LAYER", 0);
-    memset((void *)&xev, 0, sizeof(struct anonymous$3) /*96ul*/ );
+    memset((void *)&xev, 0, sizeof(struct anonymous_3) /*96ul*/ );
     xev.type = 33;
     xev.window = win;
     xev.message_type = gnome_layer;
@@ -3610,8 +3610,8 @@ void stay_on_top(struct _XDisplay *dpy, unsigned long int win)
 
   else
   {
-    return_value_XGetWindowProperty$2=XGetWindowProperty(dpy, root, net_wm, (signed long int)0, (signed long int)((unsigned long int)65536 / sizeof(signed long int) /*8ul*/ ), 0, (unsigned long int)0L, &type, &format, &nitems, &bytesafter, &args);
-    if(return_value_XGetWindowProperty$2 == 0)
+    return_value_XGetWindowProperty_2=XGetWindowProperty(dpy, root, net_wm, (signed long int)0, (signed long int)((unsigned long int)65536 / sizeof(signed long int) /*8ul*/ ), 0, (unsigned long int)0L, &type, &format, &nitems, &bytesafter, &args);
+    if(return_value_XGetWindowProperty_2 == 0)
     {
       if(nitems >= 1ul)
       {
@@ -3645,13 +3645,13 @@ void stay_on_top(struct _XDisplay *dpy, unsigned long int win)
 // file ./xosd.h line 59
 struct xosd * xosd_create(signed int number_lines)
 {
-  struct xosd *xosd_create$$1$$osd;
+  struct xosd *xosd_create__1__osd;
   signed int event_basep;
   signed int error_basep;
   signed int i;
   char *display;
-  struct anonymous$43 setwinattr;
-  struct anonymous$44 xgcv = { .function=0, .plane_mask=0ul, .foreground=0ul, .background=0ul,
+  struct anonymous_43 setwinattr;
+  struct anonymous_44 xgcv = { .function=0, .plane_mask=0ul, .foreground=0ul, .background=0ul,
     .line_width=0, .line_style=0, .cap_style=0,
     .join_style=0, .fill_style=0, .fill_rule=0,
     .arc_mode=0, .tile=0ul, .stipple=0ul,
@@ -3662,48 +3662,48 @@ struct xosd * xosd_create(signed int number_lines)
   signed int screens;
   signed int dummy_a;
   signed int dummy_b;
-  struct anonymous$52 *screeninfo = (struct anonymous$52 *)(void *)0;
-  unsigned long int return_value_pthread_self$1;
+  struct anonymous_52 *screeninfo = (struct anonymous_52 *)(void *)0;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 662, return_value_pthread_self$1, (const void *)"xosd_create");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 662, return_value_pthread_self_1, (const void *)"xosd_create");
     }
 
   while((_Bool)0);
-  unsigned long int return_value_pthread_self$2;
+  unsigned long int return_value_pthread_self_2;
   do
     if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$2=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld@%s: getting display\n", (const void *)"xosd.c", 663, return_value_pthread_self$2, (const void *)"xosd_create");
+      return_value_pthread_self_2=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld@%s: getting display\n", (const void *)"xosd.c", 663, return_value_pthread_self_2, (const void *)"xosd_create");
     }
 
   while((_Bool)0);
   display=getenv("DISPLAY");
-  unsigned long int return_value_pthread_self$3;
-  unsigned long int return_value_pthread_self$5;
-  signed int return_value_pipe$6;
-  unsigned long int return_value_pthread_self$7;
-  unsigned long int return_value_pthread_self$8;
-  unsigned long int return_value_pthread_self$9;
-  void *return_value_malloc$10;
-  unsigned long int return_value_pthread_self$11;
-  unsigned long int return_value_pthread_self$12;
-  unsigned long int return_value_pthread_self$13;
-  signed int return_value_XShapeQueryExtension$14;
-  unsigned long int return_value_pthread_self$15;
-  unsigned long int return_value_pthread_self$16;
-  signed int return_value_XineramaQueryExtension$17;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$20;
-  signed int return_value_XineramaIsActive$19;
-  unsigned long int return_value_pthread_self$21;
-  unsigned long int return_value_XRootWindow$22;
-  unsigned long int return_value_pthread_self$23;
-  unsigned long int return_value_pthread_self$24;
-  unsigned long int return_value_pthread_self$25;
+  unsigned long int return_value_pthread_self_3;
+  unsigned long int return_value_pthread_self_5;
+  signed int return_value_pipe_6;
+  unsigned long int return_value_pthread_self_7;
+  unsigned long int return_value_pthread_self_8;
+  unsigned long int return_value_pthread_self_9;
+  void *return_value_malloc_10;
+  unsigned long int return_value_pthread_self_11;
+  unsigned long int return_value_pthread_self_12;
+  unsigned long int return_value_pthread_self_13;
+  signed int return_value_XShapeQueryExtension_14;
+  unsigned long int return_value_pthread_self_15;
+  unsigned long int return_value_pthread_self_16;
+  signed int return_value_XineramaQueryExtension_17;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_20;
+  signed int return_value_XineramaIsActive_19;
+  unsigned long int return_value_pthread_self_21;
+  unsigned long int return_value_XRootWindow_22;
+  unsigned long int return_value_pthread_self_23;
+  unsigned long int return_value_pthread_self_24;
+  unsigned long int return_value_pthread_self_25;
   if(display == ((char *)NULL))
   {
     xosd_error = "No display";
@@ -3715,16 +3715,16 @@ struct xosd * xosd_create(signed int number_lines)
     do
       if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
       {
-        return_value_pthread_self$3=pthread_self();
-        fprintf(stderr, "%s:%-4d %ld@%s: Mallocing osd\n", (const void *)"xosd.c", 670, return_value_pthread_self$3, (const void *)"xosd_create");
+        return_value_pthread_self_3=pthread_self();
+        fprintf(stderr, "%s:%-4d %ld@%s: Mallocing osd\n", (const void *)"xosd.c", 670, return_value_pthread_self_3, (const void *)"xosd_create");
       }
 
     while((_Bool)0);
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc(sizeof(struct xosd) /*456ul*/ );
-    xosd_create$$1$$osd = (struct xosd *)return_value_malloc$4;
-    memset((void *)xosd_create$$1$$osd, 0, sizeof(struct xosd) /*456ul*/ );
-    if(xosd_create$$1$$osd == ((struct xosd *)NULL))
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc(sizeof(struct xosd) /*456ul*/ );
+    xosd_create__1__osd = (struct xosd *)return_value_malloc_4;
+    memset((void *)xosd_create__1__osd, 0, sizeof(struct xosd) /*456ul*/ );
+    if(xosd_create__1__osd == ((struct xosd *)NULL))
       xosd_error = "Out of memory";
 
     else
@@ -3732,13 +3732,13 @@ struct xosd * xosd_create(signed int number_lines)
       do
         if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
         {
-          return_value_pthread_self$5=pthread_self();
-          fprintf(stderr, "%s:%-4d %ld@%s: Creating pipe\n", (const void *)"xosd.c", 678, return_value_pthread_self$5, (const void *)"xosd_create");
+          return_value_pthread_self_5=pthread_self();
+          fprintf(stderr, "%s:%-4d %ld@%s: Creating pipe\n", (const void *)"xosd.c", 678, return_value_pthread_self_5, (const void *)"xosd_create");
         }
 
       while((_Bool)0);
-      return_value_pipe$6=pipe(xosd_create$$1$$osd->pipefd);
-      if(return_value_pipe$6 == -1)
+      return_value_pipe_6=pipe(xosd_create__1__osd->pipefd);
+      if(return_value_pipe_6 == -1)
         xosd_error = "Error creating pipe";
 
       else
@@ -3746,102 +3746,102 @@ struct xosd * xosd_create(signed int number_lines)
         do
           if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
           {
-            return_value_pthread_self$7=pthread_self();
-            fprintf(stderr, "%s:%-4d %ld@%s: initializing mutex\n", (const void *)"xosd.c", 684, return_value_pthread_self$7, (const void *)"xosd_create");
+            return_value_pthread_self_7=pthread_self();
+            fprintf(stderr, "%s:%-4d %ld@%s: initializing mutex\n", (const void *)"xosd.c", 684, return_value_pthread_self_7, (const void *)"xosd_create");
           }
 
         while((_Bool)0);
-        pthread_mutex_init(&xosd_create$$1$$osd->mutex, (const union anonymous$48 *)(void *)0);
-        pthread_mutex_init(&xosd_create$$1$$osd->mutex_sync, (const union anonymous$48 *)(void *)0);
+        pthread_mutex_init(&xosd_create__1__osd->mutex, (const union anonymous_48 *)(void *)0);
+        pthread_mutex_init(&xosd_create__1__osd->mutex_sync, (const union anonymous_48 *)(void *)0);
         do
           if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
           {
-            return_value_pthread_self$8=pthread_self();
-            fprintf(stderr, "%s:%-4d %ld@%s: initializing condition\n", (const void *)"xosd.c", 687, return_value_pthread_self$8, (const void *)"xosd_create");
+            return_value_pthread_self_8=pthread_self();
+            fprintf(stderr, "%s:%-4d %ld@%s: initializing condition\n", (const void *)"xosd.c", 687, return_value_pthread_self_8, (const void *)"xosd_create");
           }
 
         while((_Bool)0);
-        pthread_cond_init(&xosd_create$$1$$osd->cond_wait, (const union anonymous$48 *)(void *)0);
-        pthread_cond_init(&xosd_create$$1$$osd->cond_sync, (const union anonymous$48 *)(void *)0);
+        pthread_cond_init(&xosd_create__1__osd->cond_wait, (const union anonymous_48 *)(void *)0);
+        pthread_cond_init(&xosd_create__1__osd->cond_sync, (const union anonymous_48 *)(void *)0);
         do
           if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
           {
-            return_value_pthread_self$9=pthread_self();
-            fprintf(stderr, "%s:%-4d %ld@%s: initializing number lines\n", (const void *)"xosd.c", 691, return_value_pthread_self$9, (const void *)"xosd_create");
+            return_value_pthread_self_9=pthread_self();
+            fprintf(stderr, "%s:%-4d %ld@%s: initializing number lines\n", (const void *)"xosd.c", 691, return_value_pthread_self_9, (const void *)"xosd_create");
           }
 
         while((_Bool)0);
-        xosd_create$$1$$osd->number_lines = number_lines;
-        return_value_malloc$10=malloc(sizeof(union xosd_line) /*16ul*/  * (unsigned long int)xosd_create$$1$$osd->number_lines);
-        xosd_create$$1$$osd->lines = (union xosd_line *)return_value_malloc$10;
-        if(xosd_create$$1$$osd->lines == ((union xosd_line *)NULL))
+        xosd_create__1__osd->number_lines = number_lines;
+        return_value_malloc_10=malloc(sizeof(union xosd_line) /*16ul*/  * (unsigned long int)xosd_create__1__osd->number_lines);
+        xosd_create__1__osd->lines = (union xosd_line *)return_value_malloc_10;
+        if(xosd_create__1__osd->lines == ((union xosd_line *)NULL))
           xosd_error = "Out of memory";
 
         else
         {
           i = 0;
-          for( ; !(i >= xosd_create$$1$$osd->number_lines); i = i + 1)
-            memset((void *)&xosd_create$$1$$osd->lines[(signed long int)i], 0, sizeof(union xosd_line) /*16ul*/ );
+          for( ; !(i >= xosd_create__1__osd->number_lines); i = i + 1)
+            memset((void *)&xosd_create__1__osd->lines[(signed long int)i], 0, sizeof(union xosd_line) /*16ul*/ );
           do
             if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
             {
-              return_value_pthread_self$11=pthread_self();
-              fprintf(stderr, "%s:%-4d %ld@%s: misc osd variable initialization\n", (const void *)"xosd.c", 702, return_value_pthread_self$11, (const void *)"xosd_create");
+              return_value_pthread_self_11=pthread_self();
+              fprintf(stderr, "%s:%-4d %ld@%s: misc osd variable initialization\n", (const void *)"xosd.c", 702, return_value_pthread_self_11, (const void *)"xosd_create");
             }
 
           while((_Bool)0);
-          xosd_create$$1$$osd->generation = 0;
-          xosd_create$$1$$osd->done = 0;
-          xosd_create$$1$$osd->pos = (enum anonymous$40)XOSD_top;
-          xosd_create$$1$$osd->hoffset = 0;
-          xosd_create$$1$$osd->align = (enum anonymous$8)XOSD_left;
-          xosd_create$$1$$osd->voffset = 0;
-          xosd_create$$1$$osd->timeout = -1;
-          (&xosd_create$$1$$osd->timeout_start)->tv_usec = (signed long int)0;
-          (&xosd_create$$1$$osd->timeout_start)->tv_sec = (&xosd_create$$1$$osd->timeout_start)->tv_usec;
-          xosd_create$$1$$osd->fontset = (struct _XOC *)(void *)0;
-          xosd_create$$1$$osd->bar_length = -1;
+          xosd_create__1__osd->generation = 0;
+          xosd_create__1__osd->done = 0;
+          xosd_create__1__osd->pos = (enum anonymous_40)XOSD_top;
+          xosd_create__1__osd->hoffset = 0;
+          xosd_create__1__osd->align = (enum anonymous_8)XOSD_left;
+          xosd_create__1__osd->voffset = 0;
+          xosd_create__1__osd->timeout = -1;
+          (&xosd_create__1__osd->timeout_start)->tv_usec = (signed long int)0;
+          (&xosd_create__1__osd->timeout_start)->tv_sec = (&xosd_create__1__osd->timeout_start)->tv_usec;
+          xosd_create__1__osd->fontset = (struct _XOC *)(void *)0;
+          xosd_create__1__osd->bar_length = -1;
           do
             if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
             {
-              return_value_pthread_self$12=pthread_self();
-              fprintf(stderr, "%s:%-4d %ld@%s: Display query\n", (const void *)"xosd.c", 714, return_value_pthread_self$12, (const void *)"xosd_create");
+              return_value_pthread_self_12=pthread_self();
+              fprintf(stderr, "%s:%-4d %ld@%s: Display query\n", (const void *)"xosd.c", 714, return_value_pthread_self_12, (const void *)"xosd_create");
             }
 
           while((_Bool)0);
-          xosd_create$$1$$osd->display=XOpenDisplay(display);
-          if(xosd_create$$1$$osd->display == ((struct _XDisplay *)NULL))
+          xosd_create__1__osd->display=XOpenDisplay(display);
+          if(xosd_create__1__osd->display == ((struct _XDisplay *)NULL))
             xosd_error = "Cannot open display";
 
           else
           {
-            xosd_create$$1$$osd->screen=XDefaultScreen(xosd_create$$1$$osd->display);
+            xosd_create__1__osd->screen=XDefaultScreen(xosd_create__1__osd->display);
             do
               if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
               {
-                return_value_pthread_self$13=pthread_self();
-                fprintf(stderr, "%s:%-4d %ld@%s: x shape extension query\n", (const void *)"xosd.c", 722, return_value_pthread_self$13, (const void *)"xosd_create");
+                return_value_pthread_self_13=pthread_self();
+                fprintf(stderr, "%s:%-4d %ld@%s: x shape extension query\n", (const void *)"xosd.c", 722, return_value_pthread_self_13, (const void *)"xosd_create");
               }
 
             while((_Bool)0);
-            return_value_XShapeQueryExtension$14=XShapeQueryExtension(xosd_create$$1$$osd->display, &event_basep, &error_basep);
-            if(return_value_XShapeQueryExtension$14 == 0)
+            return_value_XShapeQueryExtension_14=XShapeQueryExtension(xosd_create__1__osd->display, &event_basep, &error_basep);
+            if(return_value_XShapeQueryExtension_14 == 0)
               xosd_error = "X-Server does not support shape extension";
 
             else
             {
-              xosd_create$$1$$osd->visual = (&((struct anonymous *)xosd_create$$1$$osd->display)->screens[(signed long int)xosd_create$$1$$osd->screen])->root_visual;
-              xosd_create$$1$$osd->depth = (unsigned int)(&((struct anonymous *)xosd_create$$1$$osd->display)->screens[(signed long int)xosd_create$$1$$osd->screen])->root_depth;
+              xosd_create__1__osd->visual = (&((struct anonymous *)xosd_create__1__osd->display)->screens[(signed long int)xosd_create__1__osd->screen])->root_visual;
+              xosd_create__1__osd->depth = (unsigned int)(&((struct anonymous *)xosd_create__1__osd->display)->screens[(signed long int)xosd_create__1__osd->screen])->root_depth;
               do
                 if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
                 {
-                  return_value_pthread_self$15=pthread_self();
-                  fprintf(stderr, "%s:%-4d %ld@%s: font selection info\n", (const void *)"xosd.c", 731, return_value_pthread_self$15, (const void *)"xosd_create");
+                  return_value_pthread_self_15=pthread_self();
+                  fprintf(stderr, "%s:%-4d %ld@%s: font selection info\n", (const void *)"xosd.c", 731, return_value_pthread_self_15, (const void *)"xosd_create");
                 }
 
               while((_Bool)0);
-              xosd_set_font(xosd_create$$1$$osd, osd_default_font);
-              if(xosd_create$$1$$osd->fontset == ((struct _XOC *)NULL))
+              xosd_set_font(xosd_create__1__osd, osd_default_font);
+              if(xosd_create__1__osd->fontset == ((struct _XOC *)NULL))
                 xosd_error = "Default font not found";
 
               else
@@ -3849,122 +3849,122 @@ struct xosd * xosd_create(signed int number_lines)
                 do
                   if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
                   {
-                    return_value_pthread_self$16=pthread_self();
-                    fprintf(stderr, "%s:%-4d %ld@%s: width and height initialization\n", (const void *)"xosd.c", 741, return_value_pthread_self$16, (const void *)"xosd_create");
+                    return_value_pthread_self_16=pthread_self();
+                    fprintf(stderr, "%s:%-4d %ld@%s: width and height initialization\n", (const void *)"xosd.c", 741, return_value_pthread_self_16, (const void *)"xosd_create");
                   }
 
                 while((_Bool)0);
-                return_value_XineramaQueryExtension$17=XineramaQueryExtension(xosd_create$$1$$osd->display, &dummy_a, &dummy_b);
-                if(!(return_value_XineramaQueryExtension$17 == 0))
+                return_value_XineramaQueryExtension_17=XineramaQueryExtension(xosd_create__1__osd->display, &dummy_a, &dummy_b);
+                if(!(return_value_XineramaQueryExtension_17 == 0))
                 {
-                  screeninfo=XineramaQueryScreens(xosd_create$$1$$osd->display, &screens);
-                  tmp_if_expr$18 = screeninfo != ((struct anonymous$52 *)NULL) ? (_Bool)1 : (_Bool)0;
+                  screeninfo=XineramaQueryScreens(xosd_create__1__osd->display, &screens);
+                  tmp_if_expr_18 = screeninfo != ((struct anonymous_52 *)NULL) ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$18 = (_Bool)0;
-                if(tmp_if_expr$18)
+                  tmp_if_expr_18 = (_Bool)0;
+                if(tmp_if_expr_18)
                 {
-                  return_value_XineramaIsActive$19=XineramaIsActive(xosd_create$$1$$osd->display);
-                  tmp_if_expr$20 = return_value_XineramaIsActive$19 != 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_XineramaIsActive_19=XineramaIsActive(xosd_create__1__osd->display);
+                  tmp_if_expr_20 = return_value_XineramaIsActive_19 != 0 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$20 = (_Bool)0;
-                if(tmp_if_expr$20)
+                  tmp_if_expr_20 = (_Bool)0;
+                if(tmp_if_expr_20)
                 {
-                  xosd_create$$1$$osd->screen_width = (signed int)(screeninfo + (signed long int)0)->width;
-                  xosd_create$$1$$osd->screen_height = (signed int)(screeninfo + (signed long int)0)->height;
-                  xosd_create$$1$$osd->screen_xpos = (signed int)(screeninfo + (signed long int)0)->x_org;
+                  xosd_create__1__osd->screen_width = (signed int)(screeninfo + (signed long int)0)->width;
+                  xosd_create__1__osd->screen_height = (signed int)(screeninfo + (signed long int)0)->height;
+                  xosd_create__1__osd->screen_xpos = (signed int)(screeninfo + (signed long int)0)->x_org;
                 }
 
                 else
                 {
-                  xosd_create$$1$$osd->screen_width=XDisplayWidth(xosd_create$$1$$osd->display, xosd_create$$1$$osd->screen);
-                  xosd_create$$1$$osd->screen_height=XDisplayHeight(xosd_create$$1$$osd->display, xosd_create$$1$$osd->screen);
-                  xosd_create$$1$$osd->screen_xpos = 0;
+                  xosd_create__1__osd->screen_width=XDisplayWidth(xosd_create__1__osd->display, xosd_create__1__osd->screen);
+                  xosd_create__1__osd->screen_height=XDisplayHeight(xosd_create__1__osd->display, xosd_create__1__osd->screen);
+                  xosd_create__1__osd->screen_xpos = 0;
                 }
-                if(!(screeninfo == ((struct anonymous$52 *)NULL)))
+                if(!(screeninfo == ((struct anonymous_52 *)NULL)))
                   XFree((void *)screeninfo);
 
-                xosd_create$$1$$osd->line_height = 10;
-                xosd_create$$1$$osd->height = xosd_create$$1$$osd->line_height * xosd_create$$1$$osd->number_lines;
+                xosd_create__1__osd->line_height = 10;
+                xosd_create__1__osd->height = xosd_create__1__osd->line_height * xosd_create__1__osd->number_lines;
                 do
                   if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
                   {
-                    return_value_pthread_self$21=pthread_self();
-                    fprintf(stderr, "%s:%-4d %ld@%s: creating X Window\n", (const void *)"xosd.c", 763, return_value_pthread_self$21, (const void *)"xosd_create");
+                    return_value_pthread_self_21=pthread_self();
+                    fprintf(stderr, "%s:%-4d %ld@%s: creating X Window\n", (const void *)"xosd.c", 763, return_value_pthread_self_21, (const void *)"xosd_create");
                   }
 
                 while((_Bool)0);
                 setwinattr.override_redirect = 1;
-                return_value_XRootWindow$22=XRootWindow(xosd_create$$1$$osd->display, xosd_create$$1$$osd->screen);
-                xosd_create$$1$$osd->window=XCreateWindow(xosd_create$$1$$osd->display, return_value_XRootWindow$22, 0, 0, (unsigned int)xosd_create$$1$$osd->screen_width, (unsigned int)xosd_create$$1$$osd->height, (unsigned int)0, (signed int)xosd_create$$1$$osd->depth, (unsigned int)0L, xosd_create$$1$$osd->visual, (unsigned long int)(1L << 9), &setwinattr);
-                XStoreName(xosd_create$$1$$osd->display, xosd_create$$1$$osd->window, "XOSD");
-                xosd_create$$1$$osd->mask_bitmap=XCreatePixmap(xosd_create$$1$$osd->display, xosd_create$$1$$osd->window, (unsigned int)xosd_create$$1$$osd->screen_width, (unsigned int)xosd_create$$1$$osd->height, (unsigned int)1);
-                xosd_create$$1$$osd->line_bitmap=XCreatePixmap(xosd_create$$1$$osd->display, xosd_create$$1$$osd->window, (unsigned int)xosd_create$$1$$osd->screen_width, (unsigned int)xosd_create$$1$$osd->line_height, xosd_create$$1$$osd->depth);
-                xosd_create$$1$$osd->gc=XCreateGC(xosd_create$$1$$osd->display, xosd_create$$1$$osd->window, (unsigned long int)(1L << 16), &xgcv);
-                xosd_create$$1$$osd->mask_gc=XCreateGC(xosd_create$$1$$osd->display, xosd_create$$1$$osd->mask_bitmap, (unsigned long int)(1L << 16), &xgcv);
-                xosd_create$$1$$osd->mask_gc_back=XCreateGC(xosd_create$$1$$osd->display, xosd_create$$1$$osd->mask_bitmap, (unsigned long int)(1L << 16), &xgcv);
-                XSetBackground(xosd_create$$1$$osd->display, xosd_create$$1$$osd->gc, (&((struct anonymous *)xosd_create$$1$$osd->display)->screens[(signed long int)xosd_create$$1$$osd->screen])->white_pixel);
-                XSetForeground(xosd_create$$1$$osd->display, xosd_create$$1$$osd->mask_gc_back, (&((struct anonymous *)xosd_create$$1$$osd->display)->screens[(signed long int)xosd_create$$1$$osd->screen])->black_pixel);
-                XSetBackground(xosd_create$$1$$osd->display, xosd_create$$1$$osd->mask_gc_back, (&((struct anonymous *)xosd_create$$1$$osd->display)->screens[(signed long int)xosd_create$$1$$osd->screen])->white_pixel);
-                XSetForeground(xosd_create$$1$$osd->display, xosd_create$$1$$osd->mask_gc, (&((struct anonymous *)xosd_create$$1$$osd->display)->screens[(signed long int)xosd_create$$1$$osd->screen])->white_pixel);
-                XSetBackground(xosd_create$$1$$osd->display, xosd_create$$1$$osd->mask_gc, (&((struct anonymous *)xosd_create$$1$$osd->display)->screens[(signed long int)xosd_create$$1$$osd->screen])->black_pixel);
+                return_value_XRootWindow_22=XRootWindow(xosd_create__1__osd->display, xosd_create__1__osd->screen);
+                xosd_create__1__osd->window=XCreateWindow(xosd_create__1__osd->display, return_value_XRootWindow_22, 0, 0, (unsigned int)xosd_create__1__osd->screen_width, (unsigned int)xosd_create__1__osd->height, (unsigned int)0, (signed int)xosd_create__1__osd->depth, (unsigned int)0L, xosd_create__1__osd->visual, (unsigned long int)(1L << 9), &setwinattr);
+                XStoreName(xosd_create__1__osd->display, xosd_create__1__osd->window, "XOSD");
+                xosd_create__1__osd->mask_bitmap=XCreatePixmap(xosd_create__1__osd->display, xosd_create__1__osd->window, (unsigned int)xosd_create__1__osd->screen_width, (unsigned int)xosd_create__1__osd->height, (unsigned int)1);
+                xosd_create__1__osd->line_bitmap=XCreatePixmap(xosd_create__1__osd->display, xosd_create__1__osd->window, (unsigned int)xosd_create__1__osd->screen_width, (unsigned int)xosd_create__1__osd->line_height, xosd_create__1__osd->depth);
+                xosd_create__1__osd->gc=XCreateGC(xosd_create__1__osd->display, xosd_create__1__osd->window, (unsigned long int)(1L << 16), &xgcv);
+                xosd_create__1__osd->mask_gc=XCreateGC(xosd_create__1__osd->display, xosd_create__1__osd->mask_bitmap, (unsigned long int)(1L << 16), &xgcv);
+                xosd_create__1__osd->mask_gc_back=XCreateGC(xosd_create__1__osd->display, xosd_create__1__osd->mask_bitmap, (unsigned long int)(1L << 16), &xgcv);
+                XSetBackground(xosd_create__1__osd->display, xosd_create__1__osd->gc, (&((struct anonymous *)xosd_create__1__osd->display)->screens[(signed long int)xosd_create__1__osd->screen])->white_pixel);
+                XSetForeground(xosd_create__1__osd->display, xosd_create__1__osd->mask_gc_back, (&((struct anonymous *)xosd_create__1__osd->display)->screens[(signed long int)xosd_create__1__osd->screen])->black_pixel);
+                XSetBackground(xosd_create__1__osd->display, xosd_create__1__osd->mask_gc_back, (&((struct anonymous *)xosd_create__1__osd->display)->screens[(signed long int)xosd_create__1__osd->screen])->white_pixel);
+                XSetForeground(xosd_create__1__osd->display, xosd_create__1__osd->mask_gc, (&((struct anonymous *)xosd_create__1__osd->display)->screens[(signed long int)xosd_create__1__osd->screen])->white_pixel);
+                XSetBackground(xosd_create__1__osd->display, xosd_create__1__osd->mask_gc, (&((struct anonymous *)xosd_create__1__osd->display)->screens[(signed long int)xosd_create__1__osd->screen])->black_pixel);
                 do
                   if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
                   {
-                    return_value_pthread_self$23=pthread_self();
-                    fprintf(stderr, "%s:%-4d %ld@%s: setting colour\n", (const void *)"xosd.c", 801, return_value_pthread_self$23, (const void *)"xosd_create");
+                    return_value_pthread_self_23=pthread_self();
+                    fprintf(stderr, "%s:%-4d %ld@%s: setting colour\n", (const void *)"xosd.c", 801, return_value_pthread_self_23, (const void *)"xosd_create");
                   }
 
                 while((_Bool)0);
-                xosd_set_colour(xosd_create$$1$$osd, osd_default_colour);
+                xosd_set_colour(xosd_create__1__osd, osd_default_colour);
                 do
                   if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
                   {
-                    return_value_pthread_self$24=pthread_self();
-                    fprintf(stderr, "%s:%-4d %ld@%s: stay on top\n", (const void *)"xosd.c", 804, return_value_pthread_self$24, (const void *)"xosd_create");
+                    return_value_pthread_self_24=pthread_self();
+                    fprintf(stderr, "%s:%-4d %ld@%s: stay on top\n", (const void *)"xosd.c", 804, return_value_pthread_self_24, (const void *)"xosd_create");
                   }
 
                 while((_Bool)0);
-                stay_on_top(xosd_create$$1$$osd->display, xosd_create$$1$$osd->window);
+                stay_on_top(xosd_create__1__osd->display, xosd_create__1__osd->window);
                 do
                   if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
                   {
-                    return_value_pthread_self$25=pthread_self();
-                    fprintf(stderr, "%s:%-4d %ld@%s: initializing event thread\n", (const void *)"xosd.c", 807, return_value_pthread_self$25, (const void *)"xosd_create");
+                    return_value_pthread_self_25=pthread_self();
+                    fprintf(stderr, "%s:%-4d %ld@%s: initializing event thread\n", (const void *)"xosd.c", 807, return_value_pthread_self_25, (const void *)"xosd_create");
                   }
 
                 while((_Bool)0);
-                pthread_create(&xosd_create$$1$$osd->event_thread, (const union pthread_attr_t *)(void *)0, event_loop, (void *)xosd_create$$1$$osd);
-                return xosd_create$$1$$osd;
+                pthread_create(&xosd_create__1__osd->event_thread, (const union pthread_attr_t *)(void *)0, event_loop, (void *)xosd_create__1__osd);
+                return xosd_create__1__osd;
               }
             }
 
           error3:
             ;
-            XCloseDisplay(xosd_create$$1$$osd->display);
+            XCloseDisplay(xosd_create__1__osd->display);
           }
 
         error2:
           ;
-          free((void *)xosd_create$$1$$osd->lines);
+          free((void *)xosd_create__1__osd->lines);
         }
 
       error1:
         ;
-        pthread_cond_destroy(&xosd_create$$1$$osd->cond_sync);
-        pthread_cond_destroy(&xosd_create$$1$$osd->cond_wait);
-        pthread_mutex_destroy(&xosd_create$$1$$osd->mutex_sync);
-        pthread_mutex_destroy(&xosd_create$$1$$osd->mutex);
-        close(xosd_create$$1$$osd->pipefd[(signed long int)0]);
-        close(xosd_create$$1$$osd->pipefd[(signed long int)1]);
+        pthread_cond_destroy(&xosd_create__1__osd->cond_sync);
+        pthread_cond_destroy(&xosd_create__1__osd->cond_wait);
+        pthread_mutex_destroy(&xosd_create__1__osd->mutex_sync);
+        pthread_mutex_destroy(&xosd_create__1__osd->mutex);
+        close(xosd_create__1__osd->pipefd[(signed long int)0]);
+        close(xosd_create__1__osd->pipefd[(signed long int)1]);
       }
 
     error0b:
       ;
-      free((void *)xosd_create$$1$$osd);
+      free((void *)xosd_create__1__osd);
     }
 
   error0:
@@ -3978,22 +3978,22 @@ struct xosd * xosd_create(signed int number_lines)
 signed int xosd_destroy(struct xosd *osd)
 {
   signed int i;
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 848, return_value_pthread_self$1, (const void *)"xosd_destroy");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 848, return_value_pthread_self_1, (const void *)"xosd_destroy");
     }
 
   while((_Bool)0);
-  unsigned long int return_value_pthread_self$2;
-  unsigned long int return_value_pthread_self$3;
-  unsigned long int return_value_pthread_self$4;
-  unsigned long int return_value_pthread_self$5;
-  unsigned long int return_value_pthread_self$6;
-  unsigned long int return_value_pthread_self$7;
-  unsigned long int return_value_pthread_self$8;
+  unsigned long int return_value_pthread_self_2;
+  unsigned long int return_value_pthread_self_3;
+  unsigned long int return_value_pthread_self_4;
+  unsigned long int return_value_pthread_self_5;
+  unsigned long int return_value_pthread_self_6;
+  unsigned long int return_value_pthread_self_7;
+  unsigned long int return_value_pthread_self_8;
   if(osd == ((struct xosd *)NULL))
     return -1;
 
@@ -4002,8 +4002,8 @@ signed int xosd_destroy(struct xosd *osd)
     do
       if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
       {
-        return_value_pthread_self$2=pthread_self();
-        fprintf(stderr, "%s:%-4d %ld@%s: waiting for threads to exit\n", (const void *)"xosd.c", 852, return_value_pthread_self$2, (const void *)"xosd_destroy");
+        return_value_pthread_self_2=pthread_self();
+        fprintf(stderr, "%s:%-4d %ld@%s: waiting for threads to exit\n", (const void *)"xosd.c", 852, return_value_pthread_self_2, (const void *)"xosd_destroy");
       }
 
     while((_Bool)0);
@@ -4013,8 +4013,8 @@ signed int xosd_destroy(struct xosd *osd)
     do
       if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
       {
-        return_value_pthread_self$3=pthread_self();
-        fprintf(stderr, "%s:%-4d %ld@%s: join threads\n", (const void *)"xosd.c", 857, return_value_pthread_self$3, (const void *)"xosd_destroy");
+        return_value_pthread_self_3=pthread_self();
+        fprintf(stderr, "%s:%-4d %ld@%s: join threads\n", (const void *)"xosd.c", 857, return_value_pthread_self_3, (const void *)"xosd_destroy");
       }
 
     while((_Bool)0);
@@ -4022,8 +4022,8 @@ signed int xosd_destroy(struct xosd *osd)
     do
       if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
       {
-        return_value_pthread_self$4=pthread_self();
-        fprintf(stderr, "%s:%-4d %ld@%s: freeing X resources\n", (const void *)"xosd.c", 860, return_value_pthread_self$4, (const void *)"xosd_destroy");
+        return_value_pthread_self_4=pthread_self();
+        fprintf(stderr, "%s:%-4d %ld@%s: freeing X resources\n", (const void *)"xosd.c", 860, return_value_pthread_self_4, (const void *)"xosd_destroy");
       }
 
     while((_Bool)0);
@@ -4038,8 +4038,8 @@ signed int xosd_destroy(struct xosd *osd)
     do
       if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
       {
-        return_value_pthread_self$5=pthread_self();
-        fprintf(stderr, "%s:%-4d %ld@%s: freeing lines\n", (const void *)"xosd.c", 871, return_value_pthread_self$5, (const void *)"xosd_destroy");
+        return_value_pthread_self_5=pthread_self();
+        fprintf(stderr, "%s:%-4d %ld@%s: freeing lines\n", (const void *)"xosd.c", 871, return_value_pthread_self_5, (const void *)"xosd_destroy");
       }
 
     while((_Bool)0);
@@ -4056,8 +4056,8 @@ signed int xosd_destroy(struct xosd *osd)
     do
       if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
       {
-        return_value_pthread_self$6=pthread_self();
-        fprintf(stderr, "%s:%-4d %ld@%s: destroying condition and mutex\n", (const void *)"xosd.c", 877, return_value_pthread_self$6, (const void *)"xosd_destroy");
+        return_value_pthread_self_6=pthread_self();
+        fprintf(stderr, "%s:%-4d %ld@%s: destroying condition and mutex\n", (const void *)"xosd.c", 877, return_value_pthread_self_6, (const void *)"xosd_destroy");
       }
 
     while((_Bool)0);
@@ -4070,8 +4070,8 @@ signed int xosd_destroy(struct xosd *osd)
     do
       if(!((Dtrace & (signed int)_xosd_debug_level) == 0))
       {
-        return_value_pthread_self$7=pthread_self();
-        fprintf(stderr, "%s:%-4d %ld@%s: freeing osd structure\n", (const void *)"xosd.c", 885, return_value_pthread_self$7, (const void *)"xosd_destroy");
+        return_value_pthread_self_7=pthread_self();
+        fprintf(stderr, "%s:%-4d %ld@%s: freeing osd structure\n", (const void *)"xosd.c", 885, return_value_pthread_self_7, (const void *)"xosd_destroy");
       }
 
     while((_Bool)0);
@@ -4079,8 +4079,8 @@ signed int xosd_destroy(struct xosd *osd)
     do
       if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
       {
-        return_value_pthread_self$8=pthread_self();
-        fprintf(stderr, "%s:%-4d %ld>%s\n", (const void *)"xosd.c", 888, return_value_pthread_self$8, (const void *)"xosd_destroy");
+        return_value_pthread_self_8=pthread_self();
+        fprintf(stderr, "%s:%-4d %ld>%s\n", (const void *)"xosd.c", 888, return_value_pthread_self_8, (const void *)"xosd_destroy");
       }
 
     while((_Bool)0);
@@ -4090,38 +4090,38 @@ signed int xosd_destroy(struct xosd *osd)
 
 // xosd_display
 // file ./xosd.h line 134
-signed int xosd_display(struct xosd *osd, signed int line, enum anonymous$0 command, ...)
+signed int xosd_display(struct xosd *osd, signed int line, enum anonymous_0 command, ...)
 {
   signed int ret = -1;
   union xosd_line newline = { .type=(enum LINE)LINE_blank };
   __builtin_va_list a;
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 922, return_value_pthread_self$1, (const void *)"xosd_display");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 922, return_value_pthread_self_1, (const void *)"xosd_display");
     }
 
   while((_Bool)0);
-  _Bool tmp_if_expr$2;
-  signed long int a$array_size0;
-  char buf[a$array_size0];
+  _Bool tmp_if_expr_2;
+  signed long int a_array_size0;
+  char buf[a_array_size0];
   struct xosd_text *l;
   char *string;
-  _Bool tmp_if_expr$6;
-  struct xosd_bar *xosd_display$$1$$3$$2$$l;
+  _Bool tmp_if_expr_6;
+  struct xosd_bar *xosd_display__1__3__2__l;
   if(osd == ((struct xosd *)NULL))
     return -1;
 
   else
   {
     if(!(line >= 0))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = line >= osd->number_lines ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = line >= osd->number_lines ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       xosd_error = "xosd_display: Invalid Line Number";
       return -1;
@@ -4136,14 +4136,14 @@ signed int xosd_display(struct xosd *osd, signed int line, enum anonymous$0 comm
 
         case XOSD_printf:
         {
-          a$array_size0 = (signed long int)XOSD_MAX_PRINTF_BUF_SIZE;
+          a_array_size0 = (signed long int)XOSD_MAX_PRINTF_BUF_SIZE;
           l = &newline.text;
           string=va_arg(a, __typeof__(string));
           if((signed int)command == XOSD_printf)
           {
-            signed int return_value_vsnprintf$3;
-            return_value_vsnprintf$3=vsnprintf(buf, (unsigned long int)a$array_size0, string, a);
-            if((unsigned long int)return_value_vsnprintf$3 >= (unsigned long int)a$array_size0)
+            signed int return_value_vsnprintf_3;
+            return_value_vsnprintf_3=vsnprintf(buf, (unsigned long int)a_array_size0, string, a);
+            if((unsigned long int)return_value_vsnprintf_3 >= (unsigned long int)a_array_size0)
             {
               xosd_error = "xosd_display: Buffer too small";
               goto error;
@@ -4153,19 +4153,19 @@ signed int xosd_display(struct xosd *osd, signed int line, enum anonymous$0 comm
           }
 
           if(!(string == ((char *)NULL)))
-            tmp_if_expr$6 = *string != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = *string != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          if(tmp_if_expr$6)
+            tmp_if_expr_6 = (_Bool)0;
+          if(tmp_if_expr_6)
           {
-            unsigned long int return_value_strlen$4;
-            return_value_strlen$4=strlen(string);
-            ret = (signed int)return_value_strlen$4;
+            unsigned long int return_value_strlen_4;
+            return_value_strlen_4=strlen(string);
+            ret = (signed int)return_value_strlen_4;
             l->type = (enum LINE)LINE_text;
-            void *return_value_malloc$5;
-            return_value_malloc$5=malloc((unsigned long int)(ret + 1));
-            l->string = (char *)return_value_malloc$5;
+            void *return_value_malloc_5;
+            return_value_malloc_5=malloc((unsigned long int)(ret + 1));
+            l->string = (char *)return_value_malloc_5;
             memcpy((void *)l->string, (const void *)string, (unsigned long int)(ret + 1));
           }
 
@@ -4181,11 +4181,11 @@ signed int xosd_display(struct xosd *osd, signed int line, enum anonymous$0 comm
 
         case XOSD_slider:
         {
-          xosd_display$$1$$3$$2$$l = &newline.bar;
+          xosd_display__1__3__2__l = &newline.bar;
           ret=va_arg(a, __typeof__(ret));
           ret = ret < 0 ? 0 : (ret > 100 ? 100 : ret);
-          xosd_display$$1$$3$$2$$l->type = (enum LINE)((signed int)command == XOSD_percentage ? LINE_percentage : LINE_slider);
-          xosd_display$$1$$3$$2$$l->value = ret;
+          xosd_display__1__3__2__l->type = (enum LINE)((signed int)command == XOSD_percentage ? LINE_percentage : LINE_slider);
+          xosd_display__1__3__2__l->value = ret;
           break;
         }
         default:
@@ -4208,7 +4208,7 @@ signed int xosd_display(struct xosd *osd, signed int line, enum anonymous$0 comm
     __CPROVER_DUMP_L18:
       ;
       osd->lines[(signed long int)line] = newline;
-      osd->update = osd->update | (enum anonymous$50)(UPD_content | UPD_timer | UPD_show);
+      osd->update = osd->update | (enum anonymous_50)(UPD_content | UPD_timer | UPD_show);
       _xosd_unlock(osd);
 
     error:
@@ -4223,12 +4223,12 @@ signed int xosd_display(struct xosd *osd, signed int line, enum anonymous$0 comm
 // file xosd.c line 1242
 signed int xosd_get_colour(struct xosd *osd, signed int *red, signed int *green, signed int *blue)
 {
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1244, return_value_pthread_self$1, (const void *)"xosd_get_colour");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1244, return_value_pthread_self_1, (const void *)"xosd_get_colour");
     }
 
   while((_Bool)0);
@@ -4254,12 +4254,12 @@ signed int xosd_get_colour(struct xosd *osd, signed int *red, signed int *green,
 // file xosd.c line 1353
 signed int xosd_get_number_lines(struct xosd *osd)
 {
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1355, return_value_pthread_self$1, (const void *)"xosd_get_number_lines");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1355, return_value_pthread_self_1, (const void *)"xosd_get_number_lines");
     }
 
   while((_Bool)0);
@@ -4274,12 +4274,12 @@ signed int xosd_get_number_lines(struct xosd *osd)
 // file xosd.c line 1278
 signed int xosd_hide(struct xosd *osd)
 {
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1280, return_value_pthread_self$1, (const void *)"xosd_hide");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1280, return_value_pthread_self_1, (const void *)"xosd_hide");
     }
 
   while((_Bool)0);
@@ -4290,8 +4290,8 @@ signed int xosd_hide(struct xosd *osd)
     if(!((1 & osd->generation) == 0))
     {
       _xosd_lock(osd);
-      osd->update = osd->update & (enum anonymous$50)~UPD_show;
-      osd->update = osd->update | (enum anonymous$50)UPD_hide;
+      osd->update = osd->update & (enum anonymous_50)~UPD_show;
+      osd->update = osd->update | (enum anonymous_50)UPD_hide;
       _xosd_unlock(osd);
       return 0;
     }
@@ -4302,40 +4302,40 @@ signed int xosd_hide(struct xosd *osd)
 
 // xosd_init
 // file xosd.c line 619
-struct xosd * xosd_init(const char *font, const char *colour, signed int timeout, enum anonymous$40 pos, signed int voffset, signed int shadow_offset, signed int number_lines)
+struct xosd * xosd_init(const char *font, const char *colour, signed int timeout, enum anonymous_40 pos, signed int voffset, signed int shadow_offset, signed int number_lines)
 {
-  struct xosd *xosd_init$$1$$osd;
-  xosd_init$$1$$osd=xosd_create(number_lines);
-  unsigned long int return_value_pthread_self$1;
+  struct xosd *xosd_init__1__osd;
+  xosd_init__1__osd=xosd_create(number_lines);
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 624, return_value_pthread_self$1, (const void *)"xosd_init");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 624, return_value_pthread_self_1, (const void *)"xosd_init");
     }
 
   while((_Bool)0);
-  if(xosd_init$$1$$osd == ((struct xosd *)NULL))
+  if(xosd_init__1__osd == ((struct xosd *)NULL))
     return (struct xosd *)(void *)0;
 
   else
   {
-    signed int return_value_xosd_set_font$2;
-    return_value_xosd_set_font$2=xosd_set_font(xosd_init$$1$$osd, font);
-    if(return_value_xosd_set_font$2 == -1)
+    signed int return_value_xosd_set_font_2;
+    return_value_xosd_set_font_2=xosd_set_font(xosd_init__1__osd, font);
+    if(return_value_xosd_set_font_2 == -1)
     {
-      xosd_destroy(xosd_init$$1$$osd);
+      xosd_destroy(xosd_init__1__osd);
       return (struct xosd *)(void *)0;
     }
 
     else
     {
-      xosd_set_colour(xosd_init$$1$$osd, colour);
-      xosd_set_timeout(xosd_init$$1$$osd, timeout);
-      xosd_set_pos(xosd_init$$1$$osd, pos);
-      xosd_set_vertical_offset(xosd_init$$1$$osd, voffset);
-      xosd_set_shadow_offset(xosd_init$$1$$osd, shadow_offset);
-      return xosd_init$$1$$osd;
+      xosd_set_colour(xosd_init__1__osd, colour);
+      xosd_set_timeout(xosd_init__1__osd, timeout);
+      xosd_set_pos(xosd_init__1__osd, pos);
+      xosd_set_vertical_offset(xosd_init__1__osd, voffset);
+      xosd_set_shadow_offset(xosd_init__1__osd, shadow_offset);
+      return xosd_init__1__osd;
     }
   }
 }
@@ -4344,12 +4344,12 @@ struct xosd * xosd_init(const char *font, const char *colour, signed int timeout
 // file ./xosd.h line 146
 signed int xosd_is_onscreen(struct xosd *osd)
 {
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1002, return_value_pthread_self$1, (const void *)"xosd_is_onscreen");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1002, return_value_pthread_self_1, (const void *)"xosd_is_onscreen");
     }
 
   while((_Bool)0);
@@ -4367,29 +4367,29 @@ signed int xosd_scroll(struct xosd *osd, signed int lines)
   signed int i;
   union xosd_line *src;
   union xosd_line *dst;
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1323, return_value_pthread_self$1, (const void *)"xosd_scroll");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1323, return_value_pthread_self_1, (const void *)"xosd_scroll");
     }
 
   while((_Bool)0);
-  _Bool tmp_if_expr$2;
-  union xosd_line *tmp_post$3;
-  union xosd_line *tmp_post$4;
+  _Bool tmp_if_expr_2;
+  union xosd_line *tmp_post_3;
+  union xosd_line *tmp_post_4;
   if(osd == ((struct xosd *)NULL))
     return -1;
 
   else
   {
     if(!(lines >= 1))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = lines > osd->number_lines ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = lines > osd->number_lines ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return -1;
 
     else
@@ -4414,18 +4414,18 @@ signed int xosd_scroll(struct xosd *osd, signed int lines)
       dst = osd->lines;
       for( ; !(i >= osd->number_lines); i = i + 1)
       {
-        tmp_post$3 = dst;
+        tmp_post_3 = dst;
         dst = dst + 1l;
-        tmp_post$4 = src;
+        tmp_post_4 = src;
         src = src + 1l;
-        *tmp_post$3 = *tmp_post$4;
+        *tmp_post_3 = *tmp_post_4;
       }
       for( ; !(dst >= src); dst = dst + 1l)
       {
         dst->type = (enum LINE)LINE_blank;
         dst->text.string = (char *)(void *)0;
       }
-      osd->update = osd->update | (enum anonymous$50)UPD_content;
+      osd->update = osd->update | (enum anonymous_50)UPD_content;
       _xosd_unlock(osd);
       return 0;
     }
@@ -4434,14 +4434,14 @@ signed int xosd_scroll(struct xosd *osd, signed int lines)
 
 // xosd_set_align
 // file ./xosd.h line 203
-signed int xosd_set_align(struct xosd *osd, enum anonymous$8 align)
+signed int xosd_set_align(struct xosd *osd, enum anonymous_8 align)
 {
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1226, return_value_pthread_self$1, (const void *)"xosd_set_align");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1226, return_value_pthread_self_1, (const void *)"xosd_set_align");
     }
 
   while((_Bool)0);
@@ -4452,7 +4452,7 @@ signed int xosd_set_align(struct xosd *osd, enum anonymous$8 align)
   {
     _xosd_lock(osd);
     osd->align = align;
-    osd->update = osd->update | (enum anonymous$50)UPD_content;
+    osd->update = osd->update | (enum anonymous_50)UPD_content;
     _xosd_unlock(osd);
     return 0;
   }
@@ -4462,12 +4462,12 @@ signed int xosd_set_align(struct xosd *osd, enum anonymous$8 align)
 // file xosd.c line 896
 signed int xosd_set_bar_length(struct xosd *osd, signed int length)
 {
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 898, return_value_pthread_self$1, (const void *)"xosd_set_bar_length");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 898, return_value_pthread_self_1, (const void *)"xosd_set_bar_length");
     }
 
   while((_Bool)0);
@@ -4494,12 +4494,12 @@ signed int xosd_set_bar_length(struct xosd *osd, signed int length)
 signed int xosd_set_colour(struct xosd *osd, const char *colour)
 {
   signed int retval = 0;
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1034, return_value_pthread_self$1, (const void *)"xosd_set_colour");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1034, return_value_pthread_self_1, (const void *)"xosd_set_colour");
     }
 
   while((_Bool)0);
@@ -4510,7 +4510,7 @@ signed int xosd_set_colour(struct xosd *osd, const char *colour)
   {
     _xosd_lock(osd);
     retval=parse_colour(osd, &osd->colour, &osd->pixel, colour);
-    osd->update = osd->update | (enum anonymous$50)UPD_lines;
+    osd->update = osd->update | (enum anonymous_50)UPD_lines;
     _xosd_unlock(osd);
     return retval;
   }
@@ -4525,12 +4525,12 @@ signed int xosd_set_font(struct xosd *osd, const char *font)
   signed int nmissing;
   char *defstr;
   signed int ret = 0;
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1100, return_value_pthread_self$1, (const void *)"xosd_set_font");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1100, return_value_pthread_self_1, (const void *)"xosd_set_font");
     }
 
   while((_Bool)0);
@@ -4558,7 +4558,7 @@ signed int xosd_set_font(struct xosd *osd, const char *font)
           XFreeFontSet(osd->display, osd->fontset);
 
         osd->fontset = fontset2;
-        osd->update = osd->update | (enum anonymous$50)UPD_font;
+        osd->update = osd->update | (enum anonymous_50)UPD_font;
       }
       _xosd_unlock(osd);
       return ret;
@@ -4569,12 +4569,12 @@ signed int xosd_set_font(struct xosd *osd, const char *font)
 // file ./xosd.h line 269
 signed int xosd_set_horizontal_offset(struct xosd *osd, signed int hoffset)
 {
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1190, return_value_pthread_self$1, (const void *)"xosd_set_horizontal_offset");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1190, return_value_pthread_self_1, (const void *)"xosd_set_horizontal_offset");
     }
 
   while((_Bool)0);
@@ -4585,7 +4585,7 @@ signed int xosd_set_horizontal_offset(struct xosd *osd, signed int hoffset)
   {
     _xosd_lock(osd);
     osd->hoffset = hoffset;
-    osd->update = osd->update | (enum anonymous$50)UPD_pos;
+    osd->update = osd->update | (enum anonymous_50)UPD_pos;
     _xosd_unlock(osd);
     return 0;
   }
@@ -4596,12 +4596,12 @@ signed int xosd_set_horizontal_offset(struct xosd *osd, signed int hoffset)
 signed int xosd_set_outline_colour(struct xosd *osd, const char *colour)
 {
   signed int retval = 0;
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1074, return_value_pthread_self$1, (const void *)"xosd_set_outline_colour");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1074, return_value_pthread_self_1, (const void *)"xosd_set_outline_colour");
     }
 
   while((_Bool)0);
@@ -4612,7 +4612,7 @@ signed int xosd_set_outline_colour(struct xosd *osd, const char *colour)
   {
     _xosd_lock(osd);
     retval=parse_colour(osd, &osd->outline_colour, &osd->outline_pixel, colour);
-    osd->update = osd->update | (enum anonymous$50)UPD_lines;
+    osd->update = osd->update | (enum anonymous_50)UPD_lines;
     _xosd_unlock(osd);
     return retval;
   }
@@ -4622,12 +4622,12 @@ signed int xosd_set_outline_colour(struct xosd *osd, const char *colour)
 // file ./xosd.h line 229
 signed int xosd_set_outline_offset(struct xosd *osd, signed int outline_offset)
 {
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1152, return_value_pthread_self$1, (const void *)"xosd_set_outline_offset");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1152, return_value_pthread_self_1, (const void *)"xosd_set_outline_offset");
     }
 
   while((_Bool)0);
@@ -4642,7 +4642,7 @@ signed int xosd_set_outline_offset(struct xosd *osd, signed int outline_offset)
     {
       _xosd_lock(osd);
       osd->outline_offset = outline_offset;
-      osd->update = osd->update | (enum anonymous$50)UPD_font;
+      osd->update = osd->update | (enum anonymous_50)UPD_font;
       _xosd_unlock(osd);
       return 0;
     }
@@ -4650,14 +4650,14 @@ signed int xosd_set_outline_offset(struct xosd *osd, signed int outline_offset)
 
 // xosd_set_pos
 // file ./xosd.h line 191
-signed int xosd_set_pos(struct xosd *osd, enum anonymous$40 pos)
+signed int xosd_set_pos(struct xosd *osd, enum anonymous_40 pos)
 {
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1208, return_value_pthread_self$1, (const void *)"xosd_set_pos");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1208, return_value_pthread_self_1, (const void *)"xosd_set_pos");
     }
 
   while((_Bool)0);
@@ -4668,7 +4668,7 @@ signed int xosd_set_pos(struct xosd *osd, enum anonymous$40 pos)
   {
     _xosd_lock(osd);
     osd->pos = pos;
-    osd->update = osd->update | (enum anonymous$50)UPD_pos;
+    osd->update = osd->update | (enum anonymous_50)UPD_pos;
     _xosd_unlock(osd);
     return 0;
   }
@@ -4679,12 +4679,12 @@ signed int xosd_set_pos(struct xosd *osd, enum anonymous$40 pos)
 signed int xosd_set_shadow_colour(struct xosd *osd, const char *colour)
 {
   signed int retval = 0;
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1054, return_value_pthread_self$1, (const void *)"xosd_set_shadow_colour");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1054, return_value_pthread_self_1, (const void *)"xosd_set_shadow_colour");
     }
 
   while((_Bool)0);
@@ -4695,7 +4695,7 @@ signed int xosd_set_shadow_colour(struct xosd *osd, const char *colour)
   {
     _xosd_lock(osd);
     retval=parse_colour(osd, &osd->shadow_colour, &osd->shadow_pixel, colour);
-    osd->update = osd->update | (enum anonymous$50)UPD_lines;
+    osd->update = osd->update | (enum anonymous_50)UPD_lines;
     _xosd_unlock(osd);
     return retval;
   }
@@ -4705,12 +4705,12 @@ signed int xosd_set_shadow_colour(struct xosd *osd, const char *colour)
 // file ./xosd.h line 215
 signed int xosd_set_shadow_offset(struct xosd *osd, signed int shadow_offset)
 {
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1132, return_value_pthread_self$1, (const void *)"xosd_set_shadow_offset");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1132, return_value_pthread_self_1, (const void *)"xosd_set_shadow_offset");
     }
 
   while((_Bool)0);
@@ -4725,7 +4725,7 @@ signed int xosd_set_shadow_offset(struct xosd *osd, signed int shadow_offset)
     {
       _xosd_lock(osd);
       osd->shadow_offset = shadow_offset;
-      osd->update = osd->update | (enum anonymous$50)UPD_font;
+      osd->update = osd->update | (enum anonymous_50)UPD_font;
       _xosd_unlock(osd);
       return 0;
     }
@@ -4735,12 +4735,12 @@ signed int xosd_set_shadow_offset(struct xosd *osd, signed int shadow_offset)
 // file ./xosd.h line 295
 signed int xosd_set_timeout(struct xosd *osd, signed int timeout)
 {
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1264, return_value_pthread_self$1, (const void *)"xosd_set_timeout");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1264, return_value_pthread_self_1, (const void *)"xosd_set_timeout");
     }
 
   while((_Bool)0);
@@ -4751,7 +4751,7 @@ signed int xosd_set_timeout(struct xosd *osd, signed int timeout)
   {
     _xosd_lock(osd);
     osd->timeout = timeout;
-    osd->update = osd->update | (enum anonymous$50)UPD_timer;
+    osd->update = osd->update | (enum anonymous_50)UPD_timer;
     _xosd_unlock(osd);
     return 0;
   }
@@ -4761,12 +4761,12 @@ signed int xosd_set_timeout(struct xosd *osd, signed int timeout)
 // file ./xosd.h line 283
 signed int xosd_set_vertical_offset(struct xosd *osd, signed int voffset)
 {
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1172, return_value_pthread_self$1, (const void *)"xosd_set_vertical_offset");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1172, return_value_pthread_self_1, (const void *)"xosd_set_vertical_offset");
     }
 
   while((_Bool)0);
@@ -4777,7 +4777,7 @@ signed int xosd_set_vertical_offset(struct xosd *osd, signed int voffset)
   {
     _xosd_lock(osd);
     osd->voffset = voffset;
-    osd->update = osd->update | (enum anonymous$50)UPD_pos;
+    osd->update = osd->update | (enum anonymous_50)UPD_pos;
     _xosd_unlock(osd);
     return 0;
   }
@@ -4787,12 +4787,12 @@ signed int xosd_set_vertical_offset(struct xosd *osd, signed int voffset)
 // file xosd.c line 1298
 signed int xosd_show(struct xosd *osd)
 {
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1300, return_value_pthread_self$1, (const void *)"xosd_show");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1300, return_value_pthread_self_1, (const void *)"xosd_show");
     }
 
   while((_Bool)0);
@@ -4803,8 +4803,8 @@ signed int xosd_show(struct xosd *osd)
     if(!((~osd->generation & 1) == 0))
     {
       _xosd_lock(osd);
-      osd->update = osd->update & (enum anonymous$50)~UPD_hide;
-      osd->update = osd->update | (enum anonymous$50)(UPD_show | UPD_timer);
+      osd->update = osd->update & (enum anonymous_50)~UPD_hide;
+      osd->update = osd->update | (enum anonymous_50)(UPD_show | UPD_timer);
       _xosd_unlock(osd);
       return 0;
     }
@@ -4817,18 +4817,18 @@ signed int xosd_show(struct xosd *osd)
 // file xosd.c line 834
 signed int xosd_uninit(struct xosd *osd)
 {
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 836, return_value_pthread_self$1, (const void *)"xosd_uninit");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 836, return_value_pthread_self_1, (const void *)"xosd_uninit");
     }
 
   while((_Bool)0);
-  signed int return_value_xosd_destroy$2;
-  return_value_xosd_destroy$2=xosd_destroy(osd);
-  return return_value_xosd_destroy$2;
+  signed int return_value_xosd_destroy_2;
+  return_value_xosd_destroy_2=xosd_destroy(osd);
+  return return_value_xosd_destroy_2;
 }
 
 // xosd_wait_until_no_display
@@ -4836,16 +4836,16 @@ signed int xosd_uninit(struct xosd *osd)
 signed int xosd_wait_until_no_display(struct xosd *osd)
 {
   signed int generation;
-  unsigned long int return_value_pthread_self$1;
+  unsigned long int return_value_pthread_self_1;
   do
     if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
     {
-      return_value_pthread_self$1=pthread_self();
-      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1015, return_value_pthread_self$1, (const void *)"xosd_wait_until_no_display");
+      return_value_pthread_self_1=pthread_self();
+      fprintf(stderr, "%s:%-4d %ld<%s\n", (const void *)"xosd.c", 1015, return_value_pthread_self_1, (const void *)"xosd_wait_until_no_display");
     }
 
   while((_Bool)0);
-  unsigned long int return_value_pthread_self$2;
+  unsigned long int return_value_pthread_self_2;
   if(osd == ((struct xosd *)NULL))
     return -1;
 
@@ -4858,8 +4858,8 @@ signed int xosd_wait_until_no_display(struct xosd *osd)
     do
       if(!((Dfunction & (signed int)_xosd_debug_level) == 0))
       {
-        return_value_pthread_self$2=pthread_self();
-        fprintf(stderr, "%s:%-4d %ld>%s\n", (const void *)"xosd.c", 1022, return_value_pthread_self$2, (const void *)"xosd_wait_until_no_display");
+        return_value_pthread_self_2=pthread_self();
+        fprintf(stderr, "%s:%-4d %ld>%s\n", (const void *)"xosd.c", 1022, return_value_pthread_self_2, (const void *)"xosd_wait_until_no_display");
       }
 
     while((_Bool)0);

@@ -1,134 +1,134 @@
-// #anon_enum$PID_SCAN_EVENT_EXEC=0$PID_SCAN_EVENT_CREATED=1
+// #anon_enum_PID_SCAN_EVENT_EXEC=0_PID_SCAN_EVENT_CREATED=1
 // file collector/common.h line 114
-enum anonymous$24 { PID_SCAN_EVENT_EXEC=0, PID_SCAN_EVENT_CREATED=1 };
+enum anonymous_24 { PID_SCAN_EVENT_EXEC=0, PID_SCAN_EVENT_CREATED=1 };
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[ARR54{S8}$S8$'magic'||U16'$pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$}$*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$$'chunks'||S32'max_chunk'||U32'$pad1'|]#}$SYM#tag-#anon#ST[ARR54{S8}$S8$'magic'||U16'$pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$}$*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$$'chunks'||S32'max_chunk'||U32'$pad1'|]#$'sm'||*{cS8}$cS8$'dest'||*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$'cur'|]#}$SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[ARR54{S8}$S8$'magic'||U16'$pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$}$*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$$'chunks'||S32'max_chunk'||U32'$pad1'|]#}$SYM#tag-#anon#ST[ARR54{S8}$S8$'magic'||U16'$pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$}$*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$$'chunks'||S32'max_chunk'||U32'$pad1'|]#$'sm'||*{cS8}$cS8$'dest'||*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$'cur'|]#$'cmdline_file'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[ARR54{S8}$S8$'magic'||U16'$pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$}$*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$$'chunks'||S32'max_chunk'||U32'$pad1'|]#}$SYM#tag-#anon#ST[ARR54{S8}$S8$'magic'||U16'$pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$}$*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$$'chunks'||S32'max_chunk'||U32'$pad1'|]#$'sm'||*{cS8}$cS8$'dest'||*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$'cur'|]#}$SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[ARR54{S8}$S8$'magic'||U16'$pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$}$*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$$'chunks'||S32'max_chunk'||U32'$pad1'|]#}$SYM#tag-#anon#ST[ARR54{S8}$S8$'magic'||U16'$pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$}$*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$$'chunks'||S32'max_chunk'||U32'$pad1'|]#$'sm'||*{cS8}$cS8$'dest'||*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$'cur'|]#$'paternity_file'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[ARR54{S8}_S8_'magic'||U16'_pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#_}_*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#__'chunks'||S32'max_chunk'||U32'_pad1'|]#}_SYM#tag-#anon#ST[ARR54{S8}_S8_'magic'||U16'_pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#_}_*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#__'chunks'||S32'max_chunk'||U32'_pad1'|]#_'sm'||*{cS8}_cS8_'dest'||*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#_'cur'|]#}_SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[ARR54{S8}_S8_'magic'||U16'_pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#_}_*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#__'chunks'||S32'max_chunk'||U32'_pad1'|]#}_SYM#tag-#anon#ST[ARR54{S8}_S8_'magic'||U16'_pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#_}_*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#__'chunks'||S32'max_chunk'||U32'_pad1'|]#_'sm'||*{cS8}_cS8_'dest'||*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#_'cur'|]#_'cmdline_file'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[ARR54{S8}_S8_'magic'||U16'_pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#_}_*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#__'chunks'||S32'max_chunk'||U32'_pad1'|]#}_SYM#tag-#anon#ST[ARR54{S8}_S8_'magic'||U16'_pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#_}_*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#__'chunks'||S32'max_chunk'||U32'_pad1'|]#_'sm'||*{cS8}_cS8_'dest'||*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#_'cur'|]#}_SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[ARR54{S8}_S8_'magic'||U16'_pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#_}_*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#__'chunks'||S32'max_chunk'||U32'_pad1'|]#}_SYM#tag-#anon#ST[ARR54{S8}_S8_'magic'||U16'_pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#_}_*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#__'chunks'||S32'max_chunk'||U32'_pad1'|]#_'sm'||*{cS8}_cS8_'dest'||*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#_'cur'|]#_'paternity_file'|]
 // file collector/collector.c line 385
-struct anonymous$27;
+struct anonymous_27;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[ARR54{S8}$S8$'magic'||U16'$pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$}$*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$$'chunks'||S32'max_chunk'||U32'$pad1'|]#}$SYM#tag-#anon#ST[ARR54{S8}$S8$'magic'||U16'$pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$}$*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$$'chunks'||S32'max_chunk'||U32'$pad1'|]#$'sm'||*{cS8}$cS8$'dest'||*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$'cur'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[ARR54{S8}_S8_'magic'||U16'_pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#_}_*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#__'chunks'||S32'max_chunk'||U32'_pad1'|]#}_SYM#tag-#anon#ST[ARR54{S8}_S8_'magic'||U16'_pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#_}_*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#__'chunks'||S32'max_chunk'||U32'_pad1'|]#_'sm'||*{cS8}_cS8_'dest'||*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#_'cur'|]
 // file collector/common.h line 85
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[ARR54{S8}$S8$'magic'||U16'$pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$}$*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$$'chunks'||S32'max_chunk'||U32'$pad1'|]
+// tag-#anon#ST[ARR54{S8}_S8_'magic'||U16'_pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#_}_*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#__'chunks'||S32'max_chunk'||U32'_pad1'|]
 // file collector/common.h line 78
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]
+// tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]
 // file collector/common.h line 71
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[BF{U32}$U32$'console_debug'||BF{U32}$U32$'probe_running'||BF{U32}$U32$'relative_time'||BF{U5}$U5$'$bit_field_pad0'||U56'$pad0'||*{S8}$S8$'dump_path'||S64'usleep_time'||S32'hz'||U32'$pad1'|]
+// tag-#anon#ST[BF{U32}_U32_'console_debug'||BF{U32}_U32_'probe_running'||BF{U32}_U32_'relative_time'||BF{U5}_U5_'_bit_field_pad0'||U56'_pad0'||*{S8}_S8_'dump_path'||S64'usleep_time'||S32'hz'||U32'_pad1'|]
 // file collector/common.h line 52
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[EN#anon_enum$PID_SCAN_EVENT_EXEC=0$PID_SCAN_EVENT_CREATED=1#{U32}$U32$'type'||S32'pid'||SYM#tag-#anon#UN[S32'ppid'|]#'u'|]
+// tag-#anon#ST[EN#anon_enum_PID_SCAN_EVENT_EXEC=0_PID_SCAN_EVENT_CREATED=1#{U32}_U32_'type'||S32'pid'||SYM#tag-#anon#UN[S32'ppid'|]#'u'|]
 // file collector/common.h line 119
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[S32'len'||U32'$pad0'||*{U8}$U8$'pids'|]
+// tag-#anon#ST[S32'len'||U32'_pad0'||*{U8}_U8_'pids'|]
 // file collector/common.h line 109
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[S32'pid'||S32'mem'||SYM#tag-#anon#ST[ARR54{S8}$S8$'magic'||U16'$pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$}$*{SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#}$SYM#tag-#anon#ST[ARR60{S8}$S8$'dest_stream'||U32'$pad0'||U64'length'||ARR0{S8}$S8$'data'|]#$$'chunks'||S32'max_chunk'||U32'$pad1'|]#'map'|]
+// tag-#anon#ST[S32'pid'||S32'mem'||SYM#tag-#anon#ST[ARR54{S8}_S8_'magic'||U16'_pad0'||ARR1024{*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#_}_*{SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#}_SYM#tag-#anon#ST[ARR60{S8}_S8_'dest_stream'||U32'_pad0'||U64'length'||ARR0{S8}_S8_'data'|]#__'chunks'||S32'max_chunk'||U32'_pad1'|]#'map'|]
 // file collector/dump.c line 12
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[S32'pid'||S32'parent'||ARR1{S32}$S32$'threads'|]
+// tag-#anon#ST[S32'pid'||S32'parent'||ARR1{S32}_S32_'threads'|]
 // file collector/tasks-netlink.c line 60
-struct anonymous$9;
+struct anonymous_9;
 
 // tag-#anon#ST[S32'pid'||S32'ppid'||U64'time_total'|]
 // file collector/collector.c line 43
-struct anonymous$21;
+struct anonymous_21;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
 struct anonymous;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$8;
+struct anonymous_8;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$30;
+struct anonymous_30;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[SYM#tag-_PidScanner#'parent'||*{SYM#tag-__dirstream#}$SYM#tag-__dirstream#$'proc'||*{SYM#tag-dirent#}$SYM#tag-dirent#$'cur_ent'||S32'cur_pid'||U32'$pad0'||*{SYM#tag-__dirstream#}$SYM#tag-__dirstream#$'proc_task'|]
+// tag-#anon#ST[SYM#tag-_PidScanner#'parent'||*{SYM#tag-__dirstream#}_SYM#tag-__dirstream#_'proc'||*{SYM#tag-dirent#}_SYM#tag-dirent#_'cur_ent'||S32'cur_pid'||U32'_pad0'||*{SYM#tag-__dirstream#}_SYM#tag-__dirstream#_'proc_task'|]
 // file collector/tasks.c line 43
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[SYM#tag-_PidScanner#'parent'||U64'listener'||S32'socket'||U32'$pad0'||*{*{SYM#tag-#anon#ST[S32'pid'||S32'parent'||ARR1{S32}$S32$'threads'|]#}$SYM#tag-#anon#ST[S32'pid'||S32'parent'||ARR1{S32}$S32$'threads'|]#$}$*{SYM#tag-#anon#ST[S32'pid'||S32'parent'||ARR1{S32}$S32$'threads'|]#}$SYM#tag-#anon#ST[S32'pid'||S32'parent'||ARR1{S32}$S32$'threads'|]#$$'procs'||S32'procs_size'||S32'n_procs'||U32'cur_proc'||U32'cur_thread'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'lock'||*{SYM#tag-proc_event#}$SYM#tag-proc_event#$'buffer'||S32'buffer_size'||U32'$pad1'|]
+// tag-#anon#ST[SYM#tag-_PidScanner#'parent'||U64'listener'||S32'socket'||U32'_pad0'||*{*{SYM#tag-#anon#ST[S32'pid'||S32'parent'||ARR1{S32}_S32_'threads'|]#}_SYM#tag-#anon#ST[S32'pid'||S32'parent'||ARR1{S32}_S32_'threads'|]#_}_*{SYM#tag-#anon#ST[S32'pid'||S32'parent'||ARR1{S32}_S32_'threads'|]#}_SYM#tag-#anon#ST[S32'pid'||S32'parent'||ARR1{S32}_S32_'threads'|]#__'procs'||S32'procs_size'||S32'n_procs'||U32'cur_proc'||U32'cur_thread'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'lock'||*{SYM#tag-proc_event#}_SYM#tag-proc_event#_'buffer'||S32'buffer_size'||U32'_pad1'|]
 // file collector/tasks-netlink.c line 66
-struct anonymous$11;
+struct anonymous_11;
 
 // tag-#anon#ST[U32'err'|]
 // file /usr/include/linux/cn_proc.h line 68
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$32;
+union anonymous_32;
 
 // tag-#anon#UN[S32'ppid'|]
 // file collector/common.h line 122
-union anonymous$25;
+union anonymous_25;
 
 // tag-#anon#UN[SYM#tag-#anon#ST[U32'err'|]#'ack'||SYM#tag-fork_proc_event#'fork'||SYM#tag-exec_proc_event#'exec'||SYM#tag-id_proc_event#'id'||SYM#tag-sid_proc_event#'sid'||SYM#tag-ptrace_proc_event#'ptrace'||SYM#tag-comm_proc_event#'comm'||SYM#tag-coredump_proc_event#'coredump'||SYM#tag-exit_proc_event#'exit'|]
 // file /usr/include/linux/cn_proc.h line 67
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$19;
+union anonymous_19;
 
 // tag-#anon#UN[U32'euid'||U32'egid'|]
 // file /usr/include/linux/cn_proc.h line 91
-union anonymous$7;
+union anonymous_7;
 
 // tag-#anon#UN[U32'ruid'||U32'rgid'|]
 // file /usr/include/linux/cn_proc.h line 87
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$14;
+union anonymous_14;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$12;
+union anonymous_12;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -331,37 +331,37 @@ extern signed int access(const char *, signed int);
 static signed int am_in_initrd(void);
 // arguments_free
 // file collector/collector.c line 744
-void arguments_free(struct anonymous$16 *args);
+void arguments_free(struct anonymous_16 *args);
 // arguments_parse
 // file collector/collector.c line 750
-void arguments_parse(struct anonymous$16 *args, signed int argc, char **argv);
+void arguments_parse(struct anonymous_16 *args, signed int argc, char **argv);
 // arguments_set_defaults
 // file collector/collector.c line 738
-void arguments_set_defaults(struct anonymous$16 *args);
+void arguments_set_defaults(struct anonymous_16 *args);
 // atoi
 // file /usr/include/stdlib.h line 147
 extern signed int atoi(const char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$12, unsigned int);
+extern signed int bind(signed int, union anonymous_12, unsigned int);
 // bootchart_find_running_pid
 // file collector/common.h line 102
-signed int bootchart_find_running_pid(struct anonymous$16 *opt_args);
+signed int bootchart_find_running_pid(struct anonymous_16 *opt_args);
 // buffer_file_append
 // file collector/common.h line 93
-void buffer_file_append(struct anonymous$20 *file, const char *str, unsigned long int len);
+void buffer_file_append(struct anonymous_20 *file, const char *str, unsigned long int len);
 // buffer_file_dump
 // file collector/common.h line 92
-void buffer_file_dump(struct anonymous$20 *file, signed int input_fd);
+void buffer_file_dump(struct anonymous_20 *file, signed int input_fd);
 // buffer_file_dump_frame_with_timestamp
 // file collector/common.h line 94
-void buffer_file_dump_frame_with_timestamp(struct anonymous$20 *file, signed int input_fd, const char *uptime, unsigned long int uptimelen);
+void buffer_file_dump_frame_with_timestamp(struct anonymous_20 *file, signed int input_fd, const char *uptime, unsigned long int uptimelen);
 // buffer_file_new
 // file collector/common.h line 91
-struct anonymous$20 * buffer_file_new(struct anonymous$18 *sm, const char *output_fname);
+struct anonymous_20 * buffer_file_new(struct anonymous_18 *sm, const char *output_fname);
 // buffers_extract_and_dump
 // file collector/common.h line 98
-signed int buffers_extract_and_dump(const char *output_path, struct anonymous$16 *remote_args);
+signed int buffers_extract_and_dump(const char *output_path, struct anonymous_16 *remote_args);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -376,7 +376,7 @@ extern signed int chroot(const char *);
 static signed int chroot_into_dev(void);
 // chunk_alloc
 // file collector/output.c line 29
-static struct anonymous$17 * chunk_alloc(struct anonymous$18 *sm, const char *dest);
+static struct anonymous_17 * chunk_alloc(struct anonymous_18 *sm, const char *dest);
 // clean_enviroment
 // file collector/collector.c line 684
 static signed int clean_enviroment(void);
@@ -388,10 +388,10 @@ static void cleanup_dev(void);
 extern signed int close(signed int);
 // close_pid
 // file collector/dump.c line 124
-static signed int close_pid(struct anonymous$15 *s, signed int avoid_kill);
+static signed int close_pid(struct anonymous_15 *s, signed int avoid_kill);
 // close_wait_pid
 // file collector/dump.c line 144
-static void close_wait_pid(struct anonymous$15 *s, signed int avoid_kill);
+static void close_wait_pid(struct anonymous_15 *s, signed int avoid_kill);
 // closedir
 // file /usr/include/dirent.h line 149
 extern signed int closedir(struct __dirstream *);
@@ -403,10 +403,10 @@ extern char * ctime_r(const signed long int *, char *);
 extern signed int dirfd(struct __dirstream *);
 // dump_buffers
 // file collector/dump.c line 161
-static void dump_buffers(struct anonymous$15 *s);
+static void dump_buffers(struct anonymous_15 *s);
 // dump_cmdline
 // file collector/collector.c line 329
-static void dump_cmdline(struct anonymous$20 *file, signed int pid);
+static void dump_cmdline(struct anonymous_20 *file, signed int pid);
 // dump_dmsg
 // file collector/common.h line 100
 signed int dump_dmsg(const char *output_path);
@@ -415,13 +415,13 @@ signed int dump_dmsg(const char *output_path);
 signed int dump_header(const char *output_path);
 // dump_paternity
 // file collector/collector.c line 377
-static void dump_paternity(struct anonymous$20 *file, signed int pid, signed int ppid);
+static void dump_paternity(struct anonymous_20 *file, signed int pid, signed int ppid);
 // dump_proc_stat
 // file collector/collector.c line 311
-static void dump_proc_stat(struct anonymous$20 *file, signed int pid);
+static void dump_proc_stat(struct anonymous_20 *file, signed int pid);
 // dump_taskstat
 // file collector/collector.c line 248
-static void dump_taskstat(struct anonymous$20 *file, struct _PidScanner *scanner);
+static void dump_taskstat(struct anonymous_20 *file, struct _PidScanner *scanner);
 // enter_environment
 // file collector/collector.c line 622
 static signed int enter_environment(signed int console_debug);
@@ -442,10 +442,10 @@ extern signed int fflush(struct _IO_FILE *);
 extern char * fgets(char *, signed int, struct _IO_FILE *);
 // find_chunks
 // file collector/dump.c line 30
-static signed int find_chunks(struct anonymous$15 *s);
+static signed int find_chunks(struct anonymous_15 *s);
 // find_pid_an_idx
 // file collector/tasks-netlink.c line 99
-static signed int find_pid_an_idx(struct anonymous$11 *nls, signed int pid, signed int create);
+static signed int find_pid_an_idx(struct anonymous_11 *nls, signed int pid, signed int create);
 // fopen
 // file /usr/include/stdio.h line 283
 extern struct _IO_FILE * fopen(const char *, const char *);
@@ -478,7 +478,7 @@ extern unsigned long int fwrite(const void *, unsigned long int, unsigned long i
 static signed int get_family_id(signed int sd);
 // get_pid_entry
 // file collector/collector.c line 50
-static inline struct anonymous$21 * get_pid_entry(signed int pid);
+static inline struct anonymous_21 * get_pid_entry(signed int pid);
 // get_taskstats
 // file collector/collector.c line 175
 static struct taskstats * get_taskstats(signed int pid);
@@ -502,7 +502,7 @@ extern signed int getpid(void);
 extern unsigned long long int gnu_dev_makedev(unsigned int, unsigned int);
 // handle_news
 // file collector/tasks-netlink.c line 328
-static void handle_news(struct anonymous$11 *nls, struct cn_msg *cn_hdr);
+static void handle_news(struct anonymous_11 *nls, struct cn_msg *cn_hdr);
 // have_dev_tmpfs
 // file collector/collector.c line 518
 static signed int have_dev_tmpfs(void);
@@ -511,10 +511,10 @@ static signed int have_dev_tmpfs(void);
 static signed int init_taskstat(void);
 // insert_pid
 // file collector/tasks-netlink.c line 141
-static void insert_pid(struct anonymous$11 *nls, signed int pid, signed int parent);
+static void insert_pid(struct anonymous_11 *nls, signed int pid, signed int parent);
 // insert_pid_thread
 // file collector/tasks-netlink.c line 148
-static void insert_pid_thread(struct anonymous$11 *nls, signed int pid, signed int thread);
+static void insert_pid_thread(struct anonymous_11 *nls, signed int pid, signed int thread);
 // kill
 // file /usr/include/signal.h line 127
 extern signed int kill(signed int, signed int);
@@ -550,7 +550,7 @@ extern signed int mount(const char *, const char *, const char *, unsigned long 
 static void * netlink_listen_thread(void *user_data);
 // netlink_pid_scanner_bootstrap
 // file collector/tasks-netlink.c line 255
-static void netlink_pid_scanner_bootstrap(struct anonymous$11 *nls);
+static void netlink_pid_scanner_bootstrap(struct anonymous_11 *nls);
 // netlink_pid_scanner_free
 // file collector/tasks-netlink.c line 89
 static signed int netlink_pid_scanner_free(struct _PidScanner *scanner);
@@ -577,13 +577,13 @@ static signed int netlink_pid_scanner_next(struct _PidScanner *scanner);
 static void netlink_pid_scanner_restart(struct _PidScanner *scanner);
 // netlink_recvfrom
 // file collector/tasks-netlink.c line 360
-static unsigned long int netlink_recvfrom(struct anonymous$11 *nls, char *buffer);
+static unsigned long int netlink_recvfrom(struct anonymous_11 *nls, char *buffer);
 // open
 // file /usr/include/fcntl.h line 149
 extern signed int open(const char *, signed int, ...);
 // open_pid
 // file collector/dump.c line 95
-static struct anonymous$15 * open_pid(signed int pid);
+static struct anonymous_15 * open_pid(signed int pid);
 // openat
 // file /usr/include/fcntl.h line 174
 extern signed int openat(signed int, const char *, signed int, ...);
@@ -598,13 +598,13 @@ extern signed int pclose(struct _IO_FILE *);
 extern void perror(const char *);
 // pid_event_cb
 // file collector/collector.c line 392
-static void pid_event_cb(const struct anonymous$22 *event, void *user_data);
+static void pid_event_cb(const struct anonymous_22 *event, void *user_data);
 // pid_scanner_alloc
 // file collector/tasks.c line 56
-struct _PidScanner * pid_scanner_alloc(signed int derived_size, void (*event_fn)(const struct anonymous$22 *, void *), void *user_data);
-// pid_scanner_alloc::event_fn$object
+struct _PidScanner * pid_scanner_alloc(signed int derived_size, void (*event_fn)(const struct anonymous_22 *, void *), void *user_data);
+// pid_scanner_alloc::event_fn_object
 //
-void event_fn$object(const struct anonymous$22 *, void *);
+void event_fn_object(const struct anonymous_22 *, void *);
 // pid_scanner_emit_exec
 // file collector/tasks.c line 209
 void pid_scanner_emit_exec(struct _PidScanner *scanner, signed int new_pid);
@@ -613,16 +613,16 @@ void pid_scanner_emit_exec(struct _PidScanner *scanner, signed int new_pid);
 void pid_scanner_emit_paternity(struct _PidScanner *scanner, signed int new_pid, signed int parent);
 // pid_scanner_new_netlink
 // file collector/common.h line 146
-struct _PidScanner * pid_scanner_new_netlink(void (*event_fn)(const struct anonymous$22 *, void *), void *user_data);
-// pid_scanner_new_netlink::event_fn$object
+struct _PidScanner * pid_scanner_new_netlink(void (*event_fn)(const struct anonymous_22 *, void *), void *user_data);
+// pid_scanner_new_netlink::event_fn_object
 //
-void event_fn$object(const struct anonymous$22 *, void *);
+void event_fn_object(const struct anonymous_22 *, void *);
 // pid_scanner_new_proc
 // file collector/common.h line 148
-struct _PidScanner * pid_scanner_new_proc(const char *proc_path, void (*event_fn)(const struct anonymous$22 *, void *), void *user_data);
-// pid_scanner_new_proc::event_fn$object
+struct _PidScanner * pid_scanner_new_proc(const char *proc_path, void (*event_fn)(const struct anonymous_22 *, void *), void *user_data);
+// pid_scanner_new_proc::event_fn_object
 //
-void event_fn$object(const struct anonymous$22 *, void *);
+void event_fn_object(const struct anonymous_22 *, void *);
 // poll
 // file /usr/include/x86_64-linux-gnu/sys/poll.h line 57
 extern signed int poll(struct pollfd *, unsigned long int, signed int);
@@ -661,16 +661,16 @@ static void proc_pid_scanner_restart(struct _PidScanner *scanner);
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$19 *);
+extern signed int pthread_mutex_destroy(union anonymous_19 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$19 *, const union anonymous$32 *);
+extern signed int pthread_mutex_init(union anonymous_19 *, const union anonymous_32 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$19 *);
+extern signed int pthread_mutex_lock(union anonymous_19 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$19 *);
+extern signed int pthread_mutex_unlock(union anonymous_19 *);
 // ptrace
 // file /usr/include/x86_64-linux-gnu/sys/ptrace.h line 213
 extern signed long int ptrace(enum __ptrace_request, ...);
@@ -691,13 +691,13 @@ extern void * realloc(void *, unsigned long int);
 extern signed long int recv(signed int, void *, unsigned long int, signed int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, union anonymous$12, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, union anonymous_12, unsigned int *);
 // remove_pid
 // file collector/tasks-netlink.c line 168
-static void remove_pid(struct anonymous$11 *nls, signed int pid);
+static void remove_pid(struct anonymous_11 *nls, signed int pid);
 // remove_pid_thread
 // file collector/tasks-netlink.c line 179
-static void remove_pid_thread(struct anonymous$11 *nls, signed int pid, signed int thread);
+static void remove_pid_thread(struct anonymous_11 *nls, signed int pid, signed int thread);
 // rewinddir
 // file /usr/include/dirent.h line 208
 extern void rewinddir(struct __dirstream *);
@@ -712,7 +712,7 @@ extern signed int rmdir(const char *);
 static signed int sanity_check_initrd(void);
 // search_stack
 // file collector/dump.c line 19
-static struct anonymous$18 * search_stack(char *stack, unsigned long int len);
+static struct anonymous_18 * search_stack(char *stack, unsigned long int len);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
@@ -721,7 +721,7 @@ extern signed long int send(signed int, const void *, unsigned long int, signed 
 static signed int send_cmd(signed int sd, unsigned short int nlmsg_type, unsigned int nlmsg_pid, unsigned char genl_cmd, unsigned short int nla_type, void *nla_data, signed int nla_len);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous$12, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous_12, unsigned int);
 // setup_sigaction
 // file collector/collector.c line 724
 static void setup_sigaction(signed int sig);
@@ -814,27 +814,27 @@ extern signed int usleep(unsigned int);
 static struct taskstats * wait_taskstats(void);
 // was_known_pid
 // file collector/tasks.c line 25
-static signed int was_known_pid(struct anonymous$26 *map, signed int p);
+static signed int was_known_pid(struct anonymous_26 *map, signed int p);
 
-struct anonymous$27
+struct anonymous_27
 {
   // cmdline_file
-  struct anonymous$20 *cmdline_file;
+  struct anonymous_20 *cmdline_file;
   // paternity_file
-  struct anonymous$20 *paternity_file;
+  struct anonymous_20 *paternity_file;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // sm
-  struct anonymous$18 *sm;
+  struct anonymous_18 *sm;
   // dest
   const char *dest;
   // cur
-  struct anonymous$17 *cur;
+  struct anonymous_17 *cur;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // _call_addr
   void *_call_addr;
@@ -844,7 +844,7 @@ struct anonymous$4
   unsigned int _arch;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // si_addr
   void *si_addr;
@@ -852,13 +852,13 @@ struct anonymous$0
   signed short int si_addr_lsb;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // dest_stream
   char dest_stream[60l];
@@ -868,17 +868,17 @@ struct anonymous$17
   char data[0l];
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // magic
   char magic[(signed long int)sizeof(char [54l]) /*54l*/ ];
   // chunks
-  struct anonymous$17 *chunks[1024l];
+  struct anonymous_17 *chunks[1024l];
   // max_chunk
   signed int max_chunk;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // console_debug
   unsigned int console_debug : 1;
@@ -894,23 +894,23 @@ struct anonymous$16
   signed int hz;
 };
 
-union anonymous$25
+union anonymous_25
 {
   // ppid
   signed int ppid;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // type
-  enum anonymous$24 type;
+  enum anonymous_24 type;
   // pid
   signed int pid;
   // u
-  union anonymous$25 u;
+  union anonymous_25 u;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // len
   signed int len;
@@ -918,17 +918,17 @@ struct anonymous$26
   unsigned char *pids;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // pid
   signed int pid;
   // mem
   signed int mem;
   // map
-  struct anonymous$18 map;
+  struct anonymous_18 map;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // pid
   signed int pid;
@@ -938,7 +938,7 @@ struct anonymous$9
   signed int threads[1l];
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // pid
   signed int pid;
@@ -948,7 +948,7 @@ struct anonymous$21
   unsigned long long int time_total;
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // si_pid
   signed int si_pid;
@@ -978,7 +978,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // si_pid
   signed int si_pid;
@@ -988,7 +988,7 @@ struct anonymous$31
   union sigval si_sigval;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // si_tid
   signed int si_tid;
@@ -998,7 +998,7 @@ struct anonymous$30
   union sigval si_sigval;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // si_band
   signed long int si_band;
@@ -1006,27 +1006,27 @@ struct anonymous$1
   signed int si_fd;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$29 _kill;
+  struct anonymous_29 _kill;
   // _timer
-  struct anonymous$30 _timer;
+  struct anonymous_30 _timer;
   // _rt
-  struct anonymous$31 _rt;
+  struct anonymous_31 _rt;
   // _sigchld
   struct anonymous _sigchld;
   // _sigfault
-  struct anonymous$0 _sigfault;
+  struct anonymous_0 _sigfault;
   // _sigpoll
-  struct anonymous$1 _sigpoll;
+  struct anonymous_1 _sigpoll;
   // _sigsys
-  struct anonymous$4 _sigsys;
+  struct anonymous_4 _sigsys;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // si_signo
   signed int si_signo;
@@ -1035,15 +1035,15 @@ struct anonymous$8
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$6 _sifields;
+  union anonymous_6 _sifields;
 };
 
 struct _PidScanner
 {
   // map
-  struct anonymous$26 map;
+  struct anonymous_26 map;
   // event_fn
-  void (*event_fn)(const struct anonymous$22 *, void *);
+  void (*event_fn)(const struct anonymous_22 *, void *);
   // user_data
   void *user_data;
   // free
@@ -1064,7 +1064,7 @@ struct _PidScanner
   void (*get_tasks_stop)(struct _PidScanner *);
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // parent
   struct _PidScanner parent;
@@ -1106,7 +1106,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$19
+union anonymous_19
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1116,7 +1116,7 @@ union anonymous$19
   signed long int __align;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // parent
   struct _PidScanner parent;
@@ -1125,7 +1125,7 @@ struct anonymous$11
   // socket
   signed int socket;
   // procs
-  struct anonymous$9 **procs;
+  struct anonymous_9 **procs;
   // procs_size
   signed int procs_size;
   // n_procs
@@ -1135,28 +1135,28 @@ struct anonymous$11
   // cur_thread
   unsigned int cur_thread;
   // lock
-  union anonymous$19 lock;
+  union anonymous_19 lock;
   // buffer
   struct proc_event *buffer;
   // buffer_size
   signed int buffer_size;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // err
   unsigned int err;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$8 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_8 *, void *);
 };
 
-union anonymous$32
+union anonymous_32
 {
   // __size
   char __size[4l];
@@ -1184,7 +1184,7 @@ struct exec_proc_event
   signed int process_tgid;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // ruid
   unsigned int ruid;
@@ -1192,7 +1192,7 @@ union anonymous$5
   unsigned int rgid;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // euid
   unsigned int euid;
@@ -1207,9 +1207,9 @@ struct id_proc_event
   // process_tgid
   signed int process_tgid;
   // r
-  union anonymous$5 r;
+  union anonymous_5 r;
   // e
-  union anonymous$7 e;
+  union anonymous_7 e;
 };
 
 struct sid_proc_event
@@ -1262,10 +1262,10 @@ struct exit_proc_event
   unsigned int exit_signal;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // ack
-  struct anonymous$2 ack;
+  struct anonymous_2 ack;
   // fork
   struct fork_proc_event fork;
   // exec
@@ -1284,7 +1284,7 @@ union anonymous$3
   struct exit_proc_event exit;
 };
 
-union anonymous$14
+union anonymous_14
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1314,7 +1314,7 @@ union anonymous$14
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -1515,7 +1515,7 @@ struct proc_event
   // timestamp_ns
   unsigned long long int timestamp_ns;
   // event_data
-  union anonymous$3 event_data;
+  union anonymous_3 event_data;
 };
 
 union pthread_attr_t
@@ -1529,9 +1529,9 @@ union pthread_attr_t
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$10 __sigaction_handler;
+  union anonymous_10 __sigaction_handler;
   // sa_mask
-  struct anonymous$13 sa_mask;
+  struct anonymous_13 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -1686,16 +1686,16 @@ static signed int am_in_initrd(void)
   signed int ret = 0;
   char buffer[4096l];
   mi=fopen("/lib/bootchart/tmpfs/proc/self/mountinfo", "r");
-  char *return_value_fgets$1;
+  char *return_value_fgets_1;
   do
   {
-    return_value_fgets$1=fgets(buffer, 4096, mi);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(buffer, 4096, mi);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
-    signed int return_value_strncmp$2;
-    return_value_strncmp$2=strncmp(buffer, "1 1 ", (unsigned long int)4);
-    if(return_value_strncmp$2 == 0)
+    signed int return_value_strncmp_2;
+    return_value_strncmp_2=strncmp(buffer, "1 1 ", (unsigned long int)4);
+    if(return_value_strncmp_2 == 0)
     {
       ret = 1;
       break;
@@ -1710,7 +1710,7 @@ static signed int am_in_initrd(void)
 
 // arguments_free
 // file collector/collector.c line 744
-void arguments_free(struct anonymous$16 *args)
+void arguments_free(struct anonymous_16 *args)
 {
   if(!(args->dump_path == ((char *)NULL)))
     free((void *)args->dump_path);
@@ -1719,113 +1719,113 @@ void arguments_free(struct anonymous$16 *args)
 
 // arguments_parse
 // file collector/collector.c line 750
-void arguments_parse(struct anonymous$16 *args, signed int argc, char **argv)
+void arguments_parse(struct anonymous_16 *args, signed int argc, char **argv)
 {
   signed int i = 1;
-  unsigned long int return_value_strtoul$1;
-  signed int return_value_strcmp$2;
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$16;
-  signed int return_value_strcmp$13;
-  _Bool tmp_if_expr$15;
-  signed int return_value_strcmp$14;
-  signed int return_value_strcmp$10;
-  _Bool tmp_if_expr$12;
-  signed int return_value_strcmp$11;
-  signed int return_value_strcmp$7;
-  _Bool tmp_if_expr$9;
-  signed int return_value_strcmp$8;
-  unsigned long int return_value_strtoul$6;
+  unsigned long int return_value_strtoul_1;
+  signed int return_value_strcmp_2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_16;
+  signed int return_value_strcmp_13;
+  _Bool tmp_if_expr_15;
+  signed int return_value_strcmp_14;
+  signed int return_value_strcmp_10;
+  _Bool tmp_if_expr_12;
+  signed int return_value_strcmp_11;
+  signed int return_value_strcmp_7;
+  _Bool tmp_if_expr_9;
+  signed int return_value_strcmp_8;
+  unsigned long int return_value_strtoul_6;
   for( ; !(i >= argc); i = i + 1)
     if(!(argv[(signed long int)i] == ((char *)NULL)))
     {
       if(!(i >= argc + -1))
       {
         const char *param = argv[(signed long int)(i + 1)];
-        signed int return_value_strcmp$5;
-        return_value_strcmp$5=strcmp(argv[(signed long int)i], "--usleep");
-        if(return_value_strcmp$5 == 0)
+        signed int return_value_strcmp_5;
+        return_value_strcmp_5=strcmp(argv[(signed long int)i], "--usleep");
+        if(return_value_strcmp_5 == 0)
         {
-          return_value_strtoul$1=strtoul(param, (char ** restrict )(void *)0, 0);
-          args->usleep_time = (signed long int)return_value_strtoul$1;
+          return_value_strtoul_1=strtoul(param, (char ** restrict )(void *)0, 0);
+          args->usleep_time = (signed long int)return_value_strtoul_1;
         }
 
         else
         {
-          return_value_strcmp$2=strcmp(argv[(signed long int)i], "-d");
-          if(return_value_strcmp$2 == 0)
-            tmp_if_expr$4 = (_Bool)1;
+          return_value_strcmp_2=strcmp(argv[(signed long int)i], "-d");
+          if(return_value_strcmp_2 == 0)
+            tmp_if_expr_4 = (_Bool)1;
 
           else
           {
-            return_value_strcmp$3=strcmp(argv[(signed long int)i], "--dump");
-            tmp_if_expr$4 = !(return_value_strcmp$3 != 0) ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_3=strcmp(argv[(signed long int)i], "--dump");
+            tmp_if_expr_4 = !(return_value_strcmp_3 != 0) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$4)
+          if(tmp_if_expr_4)
             args->dump_path=strdup(param);
 
         }
       }
 
-      signed int return_value_strcmp$17;
-      return_value_strcmp$17=strcmp(argv[(signed long int)i], "--probe-running");
-      if(return_value_strcmp$17 == 0)
+      signed int return_value_strcmp_17;
+      return_value_strcmp_17=strcmp(argv[(signed long int)i], "--probe-running");
+      if(return_value_strcmp_17 == 0)
         args->probe_running = (unsigned int)1;
 
       else
       {
-        return_value_strcmp$16=strcmp(argv[(signed long int)i], "-r");
-        if(return_value_strcmp$16 == 0)
+        return_value_strcmp_16=strcmp(argv[(signed long int)i], "-r");
+        if(return_value_strcmp_16 == 0)
           args->relative_time = (unsigned int)1;
 
         else
         {
-          return_value_strcmp$13=strcmp(argv[(signed long int)i], "-c");
-          if(return_value_strcmp$13 == 0)
-            tmp_if_expr$15 = (_Bool)1;
+          return_value_strcmp_13=strcmp(argv[(signed long int)i], "-c");
+          if(return_value_strcmp_13 == 0)
+            tmp_if_expr_15 = (_Bool)1;
 
           else
           {
-            return_value_strcmp$14=strcmp(argv[(signed long int)i], "--console");
-            tmp_if_expr$15 = !(return_value_strcmp$14 != 0) ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_14=strcmp(argv[(signed long int)i], "--console");
+            tmp_if_expr_15 = !(return_value_strcmp_14 != 0) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$15)
+          if(tmp_if_expr_15)
             args->console_debug = (unsigned int)1;
 
           else
           {
-            return_value_strcmp$10=strcmp(argv[(signed long int)i], "-h");
-            if(return_value_strcmp$10 == 0)
-              tmp_if_expr$12 = (_Bool)1;
+            return_value_strcmp_10=strcmp(argv[(signed long int)i], "-h");
+            if(return_value_strcmp_10 == 0)
+              tmp_if_expr_12 = (_Bool)1;
 
             else
             {
-              return_value_strcmp$11=strcmp(argv[(signed long int)i], "--help");
-              tmp_if_expr$12 = !(return_value_strcmp$11 != 0) ? (_Bool)1 : (_Bool)0;
+              return_value_strcmp_11=strcmp(argv[(signed long int)i], "--help");
+              tmp_if_expr_12 = !(return_value_strcmp_11 != 0) ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$12)
+            if(tmp_if_expr_12)
               usage();
 
             else
             {
-              return_value_strcmp$7=strcmp(argv[(signed long int)i], "-t");
-              if(return_value_strcmp$7 == 0)
-                tmp_if_expr$9 = (_Bool)1;
+              return_value_strcmp_7=strcmp(argv[(signed long int)i], "-t");
+              if(return_value_strcmp_7 == 0)
+                tmp_if_expr_9 = (_Bool)1;
 
               else
               {
-                return_value_strcmp$8=strcmp(argv[(signed long int)i], "--test");
-                tmp_if_expr$9 = !(return_value_strcmp$8 != 0) ? (_Bool)1 : (_Bool)0;
+                return_value_strcmp_8=strcmp(argv[(signed long int)i], "--test");
+                tmp_if_expr_9 = !(return_value_strcmp_8 != 0) ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$9)
+              if(tmp_if_expr_9)
                 test();
 
               else
                 if(args->hz == 0)
                 {
-                  return_value_strtoul$6=strtoul(argv[(signed long int)i], (char ** restrict )(void *)0, 0);
-                  args->hz = (signed int)return_value_strtoul$6;
+                  return_value_strtoul_6=strtoul(argv[(signed long int)i], (char ** restrict )(void *)0, 0);
+                  args->hz = (signed int)return_value_strtoul_6;
                 }
 
                 else
@@ -1840,22 +1840,22 @@ void arguments_parse(struct anonymous$16 *args, signed int argc, char **argv)
 
 // arguments_set_defaults
 // file collector/collector.c line 738
-void arguments_set_defaults(struct anonymous$16 *args)
+void arguments_set_defaults(struct anonymous_16 *args)
 {
-  memset((void *)args, 0, sizeof(struct anonymous$16) /*32ul*/ );
+  memset((void *)args, 0, sizeof(struct anonymous_16) /*32ul*/ );
 }
 
 // bootchart_find_running_pid
 // file collector/common.h line 102
-signed int bootchart_find_running_pid(struct anonymous$16 *opt_args)
+signed int bootchart_find_running_pid(struct anonymous_16 *opt_args)
 {
   struct __dirstream *proc;
   struct dirent *ent;
   signed int pid = -1;
   char exe_path[1024l];
-  struct anonymous$16 sargs;
-  struct anonymous$16 *args;
-  if(!(opt_args == ((struct anonymous$16 *)NULL)))
+  struct anonymous_16 sargs;
+  struct anonymous_16 *args;
+  if(!(opt_args == ((struct anonymous_16 *)NULL)))
     args = opt_args;
 
   else
@@ -1872,46 +1872,46 @@ signed int bootchart_find_running_pid(struct anonymous$16 *opt_args)
 
     signed int len;
     char link_target[1024l];
-    const unsigned short int **return_value___ctype_b_loc$1;
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if(!((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)ent->d_name[0l]]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_1;
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if(!((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)ent->d_name[0l]]) == 0))
     {
       strcpy(exe_path, "/lib/bootchart/tmpfs/proc");
       strcat(exe_path, "/");
       strcat(exe_path, ent->d_name);
       strcat(exe_path, "/exe");
-      signed long int return_value_readlink$2;
-      return_value_readlink$2=readlink(exe_path, link_target, (unsigned long int)1024);
-      len = (signed int)return_value_readlink$2;
+      signed long int return_value_readlink_2;
+      return_value_readlink_2=readlink(exe_path, link_target, (unsigned long int)1024);
+      len = (signed int)return_value_readlink_2;
       if(len >= 0)
       {
         link_target[(signed long int)len] = (char)0;
-        char *return_value_strstr$7;
-        return_value_strstr$7=strstr(link_target, "bootchart-collector");
-        if(!(return_value_strstr$7 == ((char *)NULL)))
+        char *return_value_strstr_7;
+        return_value_strstr_7=strstr(link_target, "bootchart-collector");
+        if(!(return_value_strstr_7 == ((char *)NULL)))
         {
           struct _IO_FILE *argf;
           signed int harmless = 0;
           signed int p;
           p=atoi(ent->d_name);
-          signed int return_value_getpid$3;
-          return_value_getpid$3=getpid();
-          if(p == return_value_getpid$3)
+          signed int return_value_getpid_3;
+          return_value_getpid_3=getpid();
+          if(p == return_value_getpid_3)
             continue;
 
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(exe_path);
-          unsigned long int return_value_strlen$5;
-          return_value_strlen$5=strlen("/exe");
-          strcpy((exe_path + (signed long int)return_value_strlen$4) - (signed long int)return_value_strlen$5, "/cmdline");
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(exe_path);
+          unsigned long int return_value_strlen_5;
+          return_value_strlen_5=strlen("/exe");
+          strcpy((exe_path + (signed long int)return_value_strlen_4) - (signed long int)return_value_strlen_5, "/cmdline");
           argf=fopen(exe_path, "r");
           if(!(argf == ((struct _IO_FILE *)NULL)))
           {
             signed int i;
             char abuffer[4096l];
-            unsigned long int return_value_fread$6;
-            return_value_fread$6=fread((void *)abuffer, (unsigned long int)1, (unsigned long int)4095, argf);
-            len = (signed int)return_value_fread$6;
+            unsigned long int return_value_fread_6;
+            return_value_fread_6=fread((void *)abuffer, (unsigned long int)1, (unsigned long int)4095, argf);
+            len = (signed int)return_value_fread_6;
             if(len >= 1)
             {
               abuffer[(signed long int)len] = (char)0;
@@ -1960,18 +1960,18 @@ signed int bootchart_find_running_pid(struct anonymous$16 *opt_args)
 
 // buffer_file_append
 // file collector/common.h line 93
-void buffer_file_append(struct anonymous$20 *file, const char *str, unsigned long int len)
+void buffer_file_append(struct anonymous_20 *file, const char *str, unsigned long int len)
 {
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   do
   {
     unsigned long int to_write;
     if(!(131000ul + -file->cur->length >= len))
-      tmp_if_expr$1 = ((unsigned long int)(128 * 1024) - sizeof(struct anonymous$17) /*72ul*/ ) - file->cur->length;
+      tmp_if_expr_1 = ((unsigned long int)(128 * 1024) - sizeof(struct anonymous_17) /*72ul*/ ) - file->cur->length;
 
     else
-      tmp_if_expr$1 = len;
-    to_write = tmp_if_expr$1;
+      tmp_if_expr_1 = len;
+    to_write = tmp_if_expr_1;
     memcpy((void *)(file->cur->data + (signed long int)file->cur->length), (const void *)str, to_write);
     str = str + (signed long int)to_write;
     len = len - to_write;
@@ -1985,11 +1985,11 @@ void buffer_file_append(struct anonymous$20 *file, const char *str, unsigned lon
 
 // buffer_file_dump
 // file collector/common.h line 92
-void buffer_file_dump(struct anonymous$20 *file, signed int input_fd)
+void buffer_file_dump(struct anonymous_20 *file, signed int input_fd)
 {
   do
   {
-    signed long int to_read = (signed long int)(((unsigned long int)(128 * 1024) - sizeof(struct anonymous$17) /*72ul*/ ) - file->cur->length);
+    signed long int to_read = (signed long int)(((unsigned long int)(128 * 1024) - sizeof(struct anonymous_17) /*72ul*/ ) - file->cur->length);
     to_read=read(input_fd, (void *)(file->cur->data + (signed long int)file->cur->length), (unsigned long int)to_read);
     if(!(to_read >= 0l))
     {
@@ -2011,7 +2011,7 @@ void buffer_file_dump(struct anonymous$20 *file, signed int input_fd)
 
 // buffer_file_dump_frame_with_timestamp
 // file collector/common.h line 94
-void buffer_file_dump_frame_with_timestamp(struct anonymous$20 *file, signed int input_fd, const char *uptime, unsigned long int uptimelen)
+void buffer_file_dump_frame_with_timestamp(struct anonymous_20 *file, signed int input_fd, const char *uptime, unsigned long int uptimelen)
 {
   buffer_file_append(file, uptime, uptimelen);
   lseek(input_fd, (signed long int)0, 0);
@@ -2021,12 +2021,12 @@ void buffer_file_dump_frame_with_timestamp(struct anonymous$20 *file, signed int
 
 // buffer_file_new
 // file collector/common.h line 91
-struct anonymous$20 * buffer_file_new(struct anonymous$18 *sm, const char *output_fname)
+struct anonymous_20 * buffer_file_new(struct anonymous_18 *sm, const char *output_fname)
 {
-  struct anonymous$20 *b;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc(sizeof(struct anonymous$20) /*24ul*/ , (unsigned long int)1);
-  b = (struct anonymous$20 *)return_value_calloc$1;
+  struct anonymous_20 *b;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc(sizeof(struct anonymous_20) /*24ul*/ , (unsigned long int)1);
+  b = (struct anonymous_20 *)return_value_calloc_1;
   b->sm = sm;
   b->dest = output_fname;
   b->cur=chunk_alloc(b->sm, b->dest);
@@ -2035,12 +2035,12 @@ struct anonymous$20 * buffer_file_new(struct anonymous$18 *sm, const char *outpu
 
 // buffers_extract_and_dump
 // file collector/common.h line 98
-signed int buffers_extract_and_dump(const char *output_path, struct anonymous$16 *remote_args)
+signed int buffers_extract_and_dump(const char *output_path, struct anonymous_16 *remote_args)
 {
   signed int i;
   signed int pid;
   signed int ret = 0;
-  struct anonymous$15 *state;
+  struct anonymous_15 *state;
   chdir(output_path);
   pid=bootchart_find_running_pid(remote_args);
   if(!(pid >= 0))
@@ -2056,12 +2056,12 @@ signed int buffers_extract_and_dump(const char *output_path, struct anonymous$16
     for( ; !(i >= 8); i = i + 1)
     {
       state=open_pid(pid);
-      if(state == ((struct anonymous$15 *)NULL))
+      if(state == ((struct anonymous_15 *)NULL))
         return 1;
 
-      signed int return_value_find_chunks$1;
-      return_value_find_chunks$1=find_chunks(state);
-      if(!(return_value_find_chunks$1 == 0))
+      signed int return_value_find_chunks_1;
+      return_value_find_chunks_1=find_chunks(state);
+      if(!(return_value_find_chunks_1 == 0))
       {
         ret = 1;
         fprintf(stderr, "Couldn't find state structures on pid %d's stack%s\n", pid, i < 7 ? ", retrying" : " aborting");
@@ -2085,45 +2085,45 @@ signed int buffers_extract_and_dump(const char *output_path, struct anonymous$16
 static signed int chroot_into_dev(void)
 {
   fprintf(stderr, "bootchart-collector - migrating into /dev/\n");
-  signed int return_value_mkdir$4;
-  return_value_mkdir$4=mkdir("/dev/.bootchart", (unsigned int)0777);
-  if(!(return_value_mkdir$4 == 0))
+  signed int return_value_mkdir_4;
+  return_value_mkdir_4=mkdir("/dev/.bootchart", (unsigned int)0777);
+  if(!(return_value_mkdir_4 == 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if(!(*return_value___errno_location$3 == 17))
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if(!(*return_value___errno_location_3 == 17))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fprintf(stderr, "bootchart-collector - failed to create /dev/.bootchart move mount-point: '%s'\n", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fprintf(stderr, "bootchart-collector - failed to create /dev/.bootchart move mount-point: '%s'\n", return_value_strerror_2);
       return 1;
     }
 
   }
 
-  signed int return_value_mount$7;
-  return_value_mount$7=mount("/lib/bootchart/tmpfs", "/dev/.bootchart", (const char *)(void *)0, (unsigned long int)(0xC0ED0000 | (unsigned int)8192), (void *)0);
-  if(!(return_value_mount$7 == 0))
+  signed int return_value_mount_7;
+  return_value_mount_7=mount("/lib/bootchart/tmpfs", "/dev/.bootchart", (const char *)(void *)0, (unsigned long int)(0xC0ED0000 | (unsigned int)8192), (void *)0);
+  if(!(return_value_mount_7 == 0))
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    char *return_value_strerror$6;
-    return_value_strerror$6=strerror(*return_value___errno_location$5);
-    fprintf(stderr, "bootchart-collector - mount failed: '%s'\n", return_value_strerror$6);
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    char *return_value_strerror_6;
+    return_value_strerror_6=strerror(*return_value___errno_location_5);
+    fprintf(stderr, "bootchart-collector - mount failed: '%s'\n", return_value_strerror_6);
     return 1;
   }
 
-  signed int return_value_chroot$10;
-  return_value_chroot$10=chroot("/dev/.bootchart");
-  if(!(return_value_chroot$10 == 0))
+  signed int return_value_chroot_10;
+  return_value_chroot_10=chroot("/dev/.bootchart");
+  if(!(return_value_chroot_10 == 0))
   {
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    char *return_value_strerror$9;
-    return_value_strerror$9=strerror(*return_value___errno_location$8);
-    fprintf(stderr, "bootchart-collector - chroot failed: '%s'\n", return_value_strerror$9);
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    char *return_value_strerror_9;
+    return_value_strerror_9=strerror(*return_value___errno_location_8);
+    fprintf(stderr, "bootchart-collector - chroot failed: '%s'\n", return_value_strerror_9);
     return 1;
   }
 
@@ -2132,14 +2132,14 @@ static signed int chroot_into_dev(void)
 
 // chunk_alloc
 // file collector/output.c line 29
-static struct anonymous$17 * chunk_alloc(struct anonymous$18 *sm, const char *dest)
+static struct anonymous_17 * chunk_alloc(struct anonymous_18 *sm, const char *dest)
 {
-  struct anonymous$17 *c;
-  static union anonymous$19 guard = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+  struct anonymous_17 *c;
+  static union anonymous_19 guard = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
   pthread_mutex_lock(&guard);
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   if((unsigned long int)sm->max_chunk == 1024ul)
   {
     static signed int overflowed = 0;
@@ -2155,14 +2155,14 @@ static struct anonymous$17 * chunk_alloc(struct anonymous$18 *sm, const char *de
 
   else
   {
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)(128 * 1024), (unsigned long int)1);
-    c = (struct anonymous$17 *)return_value_calloc$1;
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)(128 * 1024), (unsigned long int)1);
+    c = (struct anonymous_17 *)return_value_calloc_1;
     strncpy(c->dest_stream, dest, sizeof(char [60l]) /*60ul*/ );
     c->length = (unsigned long int)0;
-    tmp_post$2 = sm->max_chunk;
+    tmp_post_2 = sm->max_chunk;
     sm->max_chunk = sm->max_chunk + 1;
-    sm->chunks[(signed long int)tmp_post$2] = c;
+    sm->chunks[(signed long int)tmp_post_2] = c;
   }
   pthread_mutex_unlock(&guard);
   return c;
@@ -2173,25 +2173,25 @@ static struct anonymous$17 * chunk_alloc(struct anonymous$18 *sm, const char *de
 static signed int clean_enviroment(void)
 {
   signed int ret = 0;
-  signed int return_value_umount2$1;
-  return_value_umount2$1=umount2("/lib/bootchart/tmpfs/proc", 2);
-  if(!(return_value_umount2$1 >= 0))
+  signed int return_value_umount2_1;
+  return_value_umount2_1=umount2("/lib/bootchart/tmpfs/proc", 2);
+  if(!(return_value_umount2_1 >= 0))
   {
     perror("umount /lib/bootchart/tmpfs/proc");
     ret = 1;
   }
 
-  signed int return_value_unlink$2;
-  return_value_unlink$2=unlink("/lib/bootchart/tmpfs/kmsg");
-  if(!(return_value_unlink$2 >= 0))
+  signed int return_value_unlink_2;
+  return_value_unlink_2=unlink("/lib/bootchart/tmpfs/kmsg");
+  if(!(return_value_unlink_2 >= 0))
   {
     perror("unlinking /lib/bootchart/tmpfs/kmsg");
     ret = 1;
   }
 
-  signed int return_value_umount2$3;
-  return_value_umount2$3=umount2("/lib/bootchart/tmpfs", 2);
-  if(!(return_value_umount2$3 >= 0))
+  signed int return_value_umount2_3;
+  return_value_umount2_3=umount2("/lib/bootchart/tmpfs", 2);
+  if(!(return_value_umount2_3 >= 0))
   {
     perror("umount /lib/bootchart/tmpfs");
     ret = 1;
@@ -2204,9 +2204,9 @@ static signed int clean_enviroment(void)
 // file collector/collector.c line 674
 static void cleanup_dev(void)
 {
-  signed int return_value_access$1;
-  return_value_access$1=access("/dev/.bootchart/kmsg", 2);
-  if(return_value_access$1 == 0)
+  signed int return_value_access_1;
+  return_value_access_1=access("/dev/.bootchart/kmsg", 2);
+  if(return_value_access_1 == 0)
   {
     umount2("/dev/.bootchart/lib/bootchart/tmpfs/proc", 2);
     umount2("/dev/.bootchart", 2);
@@ -2217,20 +2217,20 @@ static void cleanup_dev(void)
 
 // close_pid
 // file collector/dump.c line 124
-static signed int close_pid(struct anonymous$15 *s, signed int avoid_kill)
+static signed int close_pid(struct anonymous_15 *s, signed int avoid_kill)
 {
   signed int pid;
-  signed int return_value_kill$3;
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int return_value_kill_3;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(avoid_kill == 0)
   {
-    return_value_kill$3=kill(s->pid, 15);
-    if(!(return_value_kill$3 == 0))
+    return_value_kill_3=kill(s->pid, 15);
+    if(!(return_value_kill_3 == 0))
     {
-      return_value___errno_location$1=__errno_location();
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fprintf(stderr, "failed to terminate pid %d: %s\n", s->pid, return_value_strerror$2);
+      return_value___errno_location_1=__errno_location();
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fprintf(stderr, "failed to terminate pid %d: %s\n", s->pid, return_value_strerror_2);
     }
 
   }
@@ -2244,7 +2244,7 @@ static signed int close_pid(struct anonymous$15 *s, signed int avoid_kill)
 
 // close_wait_pid
 // file collector/dump.c line 144
-static void close_wait_pid(struct anonymous$15 *s, signed int avoid_kill)
+static void close_wait_pid(struct anonymous_15 *s, signed int avoid_kill)
 {
   signed int i;
   signed int pid;
@@ -2254,9 +2254,9 @@ static void close_wait_pid(struct anonymous$15 *s, signed int avoid_kill)
   {
     char buffer[1024l];
     sprintf(buffer, "/lib/bootchart/tmpfs/proc/%d/cmdline", pid);
-    signed int return_value_access$1;
-    return_value_access$1=access(buffer, 4);
-    if(!(return_value_access$1 == 0))
+    signed int return_value_access_1;
+    return_value_access_1=access(buffer, 4);
+    if(!(return_value_access_1 == 0))
       break;
 
     usleep((unsigned int)(10 * 1000));
@@ -2265,25 +2265,25 @@ static void close_wait_pid(struct anonymous$15 *s, signed int avoid_kill)
 
 // dump_buffers
 // file collector/dump.c line 161
-static void dump_buffers(struct anonymous$15 *s)
+static void dump_buffers(struct anonymous_15 *s)
 {
   signed int i;
   signed int max_chunk;
   unsigned long int bytes_dumped = (unsigned long int)0;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(!((unsigned long int)s->map.max_chunk >= 1023ul))
-    tmp_if_expr$1 = (unsigned long int)s->map.max_chunk;
+    tmp_if_expr_1 = (unsigned long int)s->map.max_chunk;
 
   else
-    tmp_if_expr$1 = sizeof(struct anonymous$17 *[1024l]) /*8192ul*/  / sizeof(struct anonymous$17 *) /*8ul*/  - (unsigned long int)1;
-  max_chunk = (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = sizeof(struct anonymous_17 *[1024l]) /*8192ul*/  / sizeof(struct anonymous_17 *) /*8ul*/  - (unsigned long int)1;
+  max_chunk = (signed int)tmp_if_expr_1;
   fprintf(stderr, "reading %d chunks (of %d) ... ", max_chunk, s->map.max_chunk);
   i = 0;
   for( ; !(i >= max_chunk); i = i + 1)
   {
     struct _IO_FILE *output;
     char buffer[131072l];
-    struct anonymous$17 *c = (struct anonymous$17 *)&buffer;
+    struct anonymous_17 *c = (struct anonymous_17 *)&buffer;
     unsigned long int addr = (unsigned long int)s->map.chunks[(signed long int)i];
     pread(s->mem, (void *)&buffer, (unsigned long int)(128 * 1024), (signed long int)addr);
     output=fopen(c->dest_stream, "a+");
@@ -2296,7 +2296,7 @@ static void dump_buffers(struct anonymous$15 *s)
 
 // dump_cmdline
 // file collector/collector.c line 329
-static void dump_cmdline(struct anonymous$20 *file, signed int pid)
+static void dump_cmdline(struct anonymous_20 *file, signed int pid)
 {
   signed int fd;
   signed int len;
@@ -2304,26 +2304,26 @@ static void dump_cmdline(struct anonymous$20 *file, signed int pid)
   char path[4096l];
   char buffer[4096l];
   sprintf(str, "/lib/bootchart/tmpfs/proc/%d/exe", pid);
-  signed long int return_value_readlink$1;
-  return_value_readlink$1=readlink(str, path, sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)1);
-  len = (signed int)return_value_readlink$1;
-  _Bool tmp_if_expr$4;
+  signed long int return_value_readlink_1;
+  return_value_readlink_1=readlink(str, path, sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)1);
+  len = (signed int)return_value_readlink_1;
+  _Bool tmp_if_expr_4;
   if(len >= 0)
   {
     path[(signed long int)len] = (char)0;
     sprintf(str, "%d\n:%s\n:", pid, (const void *)path);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(str);
-    buffer_file_append(file, str, return_value_strlen$2);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(str);
+    buffer_file_append(file, str, return_value_strlen_2);
     sprintf(str, "/lib/bootchart/tmpfs/proc/%d/cmdline", pid);
     fd=open(str, 00);
     if(fd >= 0)
     {
       signed int i;
       signed int start;
-      signed long int return_value_read$3;
-      return_value_read$3=read(fd, (void *)buffer, (unsigned long int)4096);
-      len = (signed int)return_value_read$3;
+      signed long int return_value_read_3;
+      return_value_read_3=read(fd, (void *)buffer, (unsigned long int)4096);
+      len = (signed int)return_value_read_3;
       buffer[(signed long int)4095] = (char)0;
       i = 0;
       start = i;
@@ -2340,11 +2340,11 @@ static void dump_cmdline(struct anonymous$20 *file, signed int pid)
             do
             {
               if(!(i >= len))
-                tmp_if_expr$4 = (signed int)buffer[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_4 = (signed int)buffer[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$4 = (_Bool)0;
-              if(!tmp_if_expr$4)
+                tmp_if_expr_4 = (_Bool)0;
+              if(!tmp_if_expr_4)
                 break;
 
               i = i + 1;
@@ -2376,9 +2376,9 @@ signed int dump_dmsg(const char *output_path)
   size = 256 * 1024;
   do
   {
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)log, (unsigned long int)size);
-    log = (char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)log, (unsigned long int)size);
+    log = (char *)return_value_realloc_1;
     count=klogctl(3, log, size);
     if(!(count >= size + -1))
       break;
@@ -2386,7 +2386,7 @@ signed int dump_dmsg(const char *output_path)
     size = size * 2;
   }
   while((_Bool)1);
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   if(count == 0)
   {
     fprintf(stderr, " odd - no dmesg log data\n");
@@ -2416,9 +2416,9 @@ signed int dump_dmsg(const char *output_path)
           if((signed int)log[(signed long int)(i + -1)] == 10)
             break;
 
-          tmp_post$2 = i;
+          tmp_post_2 = i;
           i = i + 1;
-          fputc((signed int)log[(signed long int)tmp_post$2], dmesg);
+          fputc((signed int)log[(signed long int)tmp_post_2], dmesg);
         }
       }
       if(!((signed int)log[(signed long int)(count + -1)] == 10))
@@ -2435,26 +2435,26 @@ signed int dump_dmsg(const char *output_path)
 signed int dump_header(const char *output_path)
 {
   struct _IO_FILE *header;
-  char dump_header$$1$$fname[4096l];
+  char dump_header__1__fname[4096l];
   if(!(output_path == ((const char *)NULL)))
   {
-    snprintf(dump_header$$1$$fname, (unsigned long int)4095, "%s/header", output_path);
-    header=fopen(dump_header$$1$$fname, "w");
+    snprintf(dump_header__1__fname, (unsigned long int)4095, "%s/header", output_path);
+    header=fopen(dump_header__1__fname, "w");
   }
 
   else
     header = stdout;
-  _Bool tmp_if_expr$4;
-  signed int return_value_getdomainname$3;
-  char *return_value_strrchr$5;
-  _Bool tmp_if_expr$12;
-  char *return_value_fgets$11;
-  unsigned long int return_value_strlen$8;
-  char *return_value_strrchr$9;
-  char *return_value_fgets$13;
-  char *return_value_strchr$15;
-  char *return_value_strstr$14;
-  char *return_value_strrchr$19;
+  _Bool tmp_if_expr_4;
+  signed int return_value_getdomainname_3;
+  char *return_value_strrchr_5;
+  _Bool tmp_if_expr_12;
+  char *return_value_fgets_11;
+  unsigned long int return_value_strlen_8;
+  char *return_value_strrchr_9;
+  char *return_value_fgets_13;
+  char *return_value_strchr_15;
+  char *return_value_strstr_14;
+  char *return_value_strrchr_19;
   if(header == ((struct _IO_FILE *)NULL))
     return 1;
 
@@ -2465,21 +2465,21 @@ signed int dump_header(const char *output_path)
     char host_buf[4096l] = { (char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
     char domain_buf[2048l] = { (char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
     char time_buf[128l];
-    signed int return_value_gethostname$2;
-    return_value_gethostname$2=gethostname(host_buf, (unsigned long int)2047);
-    if(return_value_gethostname$2 == 0)
+    signed int return_value_gethostname_2;
+    return_value_gethostname_2=gethostname(host_buf, (unsigned long int)2047);
+    if(return_value_gethostname_2 == 0)
     {
-      return_value_getdomainname$3=getdomainname(domain_buf, (unsigned long int)2048);
-      tmp_if_expr$4 = !(return_value_getdomainname$3 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_getdomainname_3=getdomainname(domain_buf, (unsigned long int)2048);
+      tmp_if_expr_4 = !(return_value_getdomainname_3 != 0) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
-      unsigned long int return_value_strlen$1;
-      return_value_strlen$1=strlen(domain_buf);
-      if(!(return_value_strlen$1 == 0ul))
+      unsigned long int return_value_strlen_1;
+      return_value_strlen_1=strlen(domain_buf);
+      if(!(return_value_strlen_1 == 0ul))
       {
         strcat(host_buf, ".");
         strcat(host_buf, domain_buf);
@@ -2492,19 +2492,19 @@ signed int dump_header(const char *output_path)
     rewrite_ascii(host_buf);
     now=time((signed long int *)(void *)0);
     ctime_r(&now, time_buf);
-    char *return_value_strrchr$6;
-    return_value_strrchr$6=strrchr(time_buf, 10);
-    if(!(return_value_strrchr$6 == ((char *)NULL)))
+    char *return_value_strrchr_6;
+    return_value_strrchr_6=strrchr(time_buf, 10);
+    if(!(return_value_strrchr_6 == ((char *)NULL)))
     {
-      return_value_strrchr$5=strrchr(time_buf, 10);
-      *return_value_strrchr$5 = (char)0;
+      return_value_strrchr_5=strrchr(time_buf, 10);
+      *return_value_strrchr_5 = (char)0;
     }
 
     fprintf(header, "title = Boot chart for %s (%s)\n", (const void *)host_buf, (const void *)time_buf);
     struct utsname ubuf;
-    signed int return_value_uname$7;
-    return_value_uname$7=uname(&ubuf);
-    if(return_value_uname$7 == 0)
+    signed int return_value_uname_7;
+    return_value_uname_7=uname(&ubuf);
+    if(return_value_uname_7 == 0)
       fprintf(header, "system.uname = %s %s %s %s\n", (const void *)ubuf.sysname, (const void *)ubuf.release, (const void *)ubuf.version, (const void *)ubuf.machine);
 
     struct _IO_FILE *lsb;
@@ -2512,26 +2512,26 @@ signed int dump_header(const char *output_path)
     lsb=popen("lsb_release -sd", "r");
     if(!(lsb == ((struct _IO_FILE *)NULL)))
     {
-      return_value_fgets$11=fgets(release, 4096, lsb);
-      tmp_if_expr$12 = return_value_fgets$11 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      return_value_fgets_11=fgets(release, 4096, lsb);
+      tmp_if_expr_12 = return_value_fgets_11 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$12 = (_Bool)0;
-    if(tmp_if_expr$12)
+      tmp_if_expr_12 = (_Bool)0;
+    if(tmp_if_expr_12)
     {
       if((signed int)release[0l] == 34)
       {
-        return_value_strlen$8=strlen(release + (signed long int)1);
-        memmove((void *)release, (const void *)(release + (signed long int)1), return_value_strlen$8);
+        return_value_strlen_8=strlen(release + (signed long int)1);
+        memmove((void *)release, (const void *)(release + (signed long int)1), return_value_strlen_8);
       }
 
-      char *return_value_strrchr$10;
-      return_value_strrchr$10=strrchr(release, 34);
-      if(!(return_value_strrchr$10 == ((char *)NULL)))
+      char *return_value_strrchr_10;
+      return_value_strrchr_10=strrchr(release, 34);
+      if(!(return_value_strrchr_10 == ((char *)NULL)))
       {
-        return_value_strrchr$9=strrchr(release, 34);
-        *return_value_strrchr$9 = (char)0;
+        return_value_strrchr_9=strrchr(release, 34);
+        *return_value_strrchr_9 = (char)0;
       }
 
     }
@@ -2555,31 +2555,31 @@ signed int dump_header(const char *output_path)
     cpuinfo_dump=fopen(fname, "w");
     while(!(cpuinfo == ((struct _IO_FILE *)NULL)))
     {
-      return_value_fgets$13=fgets(line, 4096, cpuinfo);
-      if(return_value_fgets$13 == ((char *)NULL))
+      return_value_fgets_13=fgets(line, 4096, cpuinfo);
+      if(return_value_fgets_13 == ((char *)NULL))
         break;
 
-      signed int return_value_strncmp$16;
-      return_value_strncmp$16=strncmp(line, "model name", (unsigned long int)10);
-      if(return_value_strncmp$16 == 0)
+      signed int return_value_strncmp_16;
+      return_value_strncmp_16=strncmp(line, "model name", (unsigned long int)10);
+      if(return_value_strncmp_16 == 0)
       {
-        return_value_strchr$15=strchr(line, 58);
-        if(!(return_value_strchr$15 == ((char *)NULL)))
+        return_value_strchr_15=strchr(line, 58);
+        if(!(return_value_strchr_15 == ((char *)NULL)))
         {
-          return_value_strstr$14=strstr(line, ": ");
-          strcpy(cpu_model, return_value_strstr$14 + (signed long int)2);
+          return_value_strstr_14=strstr(line, ": ");
+          strcpy(cpu_model, return_value_strstr_14 + (signed long int)2);
         }
 
       }
 
-      signed int return_value_strncasecmp$18;
-      return_value_strncasecmp$18=strncasecmp(line, "processor", (unsigned long int)9);
-      if(return_value_strncasecmp$18 == 0)
+      signed int return_value_strncasecmp_18;
+      return_value_strncasecmp_18=strncasecmp(line, "processor", (unsigned long int)9);
+      if(return_value_strncasecmp_18 == 0)
       {
         cpus = cpus + 1;
-        char *return_value_strstr$17;
-        return_value_strstr$17=strstr(line, ": ");
-        strcpy(cpu_model_alt, return_value_strstr$17 + (signed long int)2);
+        char *return_value_strstr_17;
+        return_value_strstr_17=strstr(line, ": ");
+        strcpy(cpu_model_alt, return_value_strstr_17 + (signed long int)2);
       }
 
       if(!(cpuinfo_dump == ((struct _IO_FILE *)NULL)))
@@ -2595,12 +2595,12 @@ signed int dump_header(const char *output_path)
     if(cpu_model[0l] == 0)
       cpu_m = cpu_model_alt;
 
-    char *return_value_strrchr$20;
-    return_value_strrchr$20=strrchr(cpu_m, 10);
-    if(!(return_value_strrchr$20 == ((char *)NULL)))
+    char *return_value_strrchr_20;
+    return_value_strrchr_20=strrchr(cpu_m, 10);
+    if(!(return_value_strrchr_20 == ((char *)NULL)))
     {
-      return_value_strrchr$19=strrchr(cpu_m, 10);
-      *return_value_strrchr$19 = (char)0;
+      return_value_strrchr_19=strrchr(cpu_m, 10);
+      *return_value_strrchr_19 = (char)0;
     }
 
     fprintf(header, "system.cpu = %s %d\n", cpu_m, cpus);
@@ -2609,9 +2609,9 @@ signed int dump_header(const char *output_path)
     cmdline=fopen("/proc/cmdline", "r");
     if(!(cmdline == ((struct _IO_FILE *)NULL)))
     {
-      char dump_header$$1$$6$$1$$line[4096l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-      fgets(dump_header$$1$$6$$1$$line, 4096, cmdline);
-      fprintf(header, "system.kernel.options = %s", (const void *)dump_header$$1$$6$$1$$line);
+      char dump_header__1__6__1__line[4096l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+      fgets(dump_header__1__6__1__line, 4096, cmdline);
+      fprintf(header, "system.kernel.options = %s", (const void *)dump_header__1__6__1__line);
       fclose(cmdline);
     }
 
@@ -2631,18 +2631,18 @@ signed int dump_header(const char *output_path)
 
 // dump_paternity
 // file collector/collector.c line 377
-static void dump_paternity(struct anonymous$20 *file, signed int pid, signed int ppid)
+static void dump_paternity(struct anonymous_20 *file, signed int pid, signed int ppid)
 {
   char str[1024l];
   sprintf(str, "%d %d\n", pid, ppid);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  buffer_file_append(file, str, return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  buffer_file_append(file, str, return_value_strlen_1);
 }
 
 // dump_proc_stat
 // file collector/collector.c line 311
-static void dump_proc_stat(struct anonymous$20 *file, signed int pid)
+static void dump_proc_stat(struct anonymous_20 *file, signed int pid)
 {
   signed int fd;
   char filename[4096l];
@@ -2658,12 +2658,12 @@ static void dump_proc_stat(struct anonymous$20 *file, signed int pid)
 
 // dump_taskstat
 // file collector/collector.c line 248
-static void dump_taskstat(struct anonymous$20 *file, struct _PidScanner *scanner)
+static void dump_taskstat(struct anonymous_20 *file, struct _PidScanner *scanner)
 {
   signed int ppid;
   signed int output_len;
   char output_line[1024l];
-  struct anonymous$21 *entry;
+  struct anonymous_21 *entry;
   unsigned long long int time_total;
   struct taskstats *ts;
   ts=get_tgid_taskstats(scanner);
@@ -2702,13 +2702,13 @@ static void dump_taskstat(struct anonymous$20 *file, struct _PidScanner *scanner
 // file collector/collector.c line 622
 static signed int enter_environment(signed int console_debug)
 {
-  signed int return_value_mount$2;
-  return_value_mount$2=mount("none", "/lib/bootchart/tmpfs", "tmpfs", (unsigned long int)(8 | 2), (void *)0);
-  if(!(return_value_mount$2 >= 0))
+  signed int return_value_mount_2;
+  return_value_mount_2=mount("none", "/lib/bootchart/tmpfs", "tmpfs", (unsigned long int)(8 | 2), (void *)0);
+  if(!(return_value_mount_2 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 16))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 16))
     {
       fprintf(stderr, "bootchart-collector tmpfs mount to /lib/bootchart/tmpfs failed\n");
       return 1;
@@ -2716,15 +2716,15 @@ static signed int enter_environment(signed int console_debug)
 
   }
 
-  unsigned long long int return_value_gnu_dev_makedev$4;
-  return_value_gnu_dev_makedev$4=gnu_dev_makedev((unsigned int)1, (unsigned int)11);
-  signed int return_value_mknod$5;
-  return_value_mknod$5=mknod("/lib/bootchart/tmpfs/kmsg", (unsigned int)(0020000 | 0666), return_value_gnu_dev_makedev$4);
-  if(!(return_value_mknod$5 >= 0))
+  unsigned long long int return_value_gnu_dev_makedev_4;
+  return_value_gnu_dev_makedev_4=gnu_dev_makedev((unsigned int)1, (unsigned int)11);
+  signed int return_value_mknod_5;
+  return_value_mknod_5=mknod("/lib/bootchart/tmpfs/kmsg", (unsigned int)(0020000 | 0666), return_value_gnu_dev_makedev_4);
+  if(!(return_value_mknod_5 >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if(!(*return_value___errno_location$3 == 17))
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if(!(*return_value___errno_location_3 == 17))
     {
       fprintf(stderr, "bootchart-collector can't create kmsg node\n");
       return 1;
@@ -2735,13 +2735,13 @@ static signed int enter_environment(signed int console_debug)
   if(console_debug == 0)
     freopen("/lib/bootchart/tmpfs/kmsg", "a", stderr);
 
-  signed int return_value_mkdir$7;
-  return_value_mkdir$7=mkdir("/lib/bootchart/tmpfs/proc", (unsigned int)0777);
-  if(!(return_value_mkdir$7 >= 0))
+  signed int return_value_mkdir_7;
+  return_value_mkdir_7=mkdir("/lib/bootchart/tmpfs/proc", (unsigned int)0777);
+  if(!(return_value_mkdir_7 >= 0))
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    if(!(*return_value___errno_location$6 == 17))
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    if(!(*return_value___errno_location_6 == 17))
     {
       fprintf(stderr, "bootchart-collector proc mkdir at /lib/bootchart/tmpfs/proc failed\n");
       return 1;
@@ -2749,13 +2749,13 @@ static signed int enter_environment(signed int console_debug)
 
   }
 
-  signed int return_value_mount$9;
-  return_value_mount$9=mount("none", "/lib/bootchart/tmpfs/proc", "proc", (unsigned long int)(4 | 8 | 2), (void *)0);
-  if(!(return_value_mount$9 >= 0))
+  signed int return_value_mount_9;
+  return_value_mount_9=mount("none", "/lib/bootchart/tmpfs/proc", "proc", (unsigned long int)(4 | 8 | 2), (void *)0);
+  if(!(return_value_mount_9 >= 0))
   {
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    if(!(*return_value___errno_location$8 == 16))
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    if(!(*return_value___errno_location_8 == 16))
     {
       fprintf(stderr, "bootchart-collector proc mount to /lib/bootchart/tmpfs/proc failed\n");
       return 1;
@@ -2765,19 +2765,19 @@ static signed int enter_environment(signed int console_debug)
 
   mkdir("/lib/bootchart/tmpfs/lib", (unsigned int)0777);
   mkdir("/lib/bootchart/tmpfs/lib/bootchart", (unsigned int)0777);
-  signed int return_value_symlink$13;
-  return_value_symlink$13=symlink("../..", "/lib/bootchart/tmpfs/lib/bootchart/tmpfs");
-  if(!(return_value_symlink$13 == 0))
+  signed int return_value_symlink_13;
+  return_value_symlink_13=symlink("../..", "/lib/bootchart/tmpfs/lib/bootchart/tmpfs");
+  if(!(return_value_symlink_13 == 0))
   {
-    signed int *return_value___errno_location$12;
-    return_value___errno_location$12=__errno_location();
-    if(!(*return_value___errno_location$12 == 17))
+    signed int *return_value___errno_location_12;
+    return_value___errno_location_12=__errno_location();
+    if(!(*return_value___errno_location_12 == 17))
     {
-      signed int *return_value___errno_location$10;
-      return_value___errno_location$10=__errno_location();
-      char *return_value_strerror$11;
-      return_value_strerror$11=strerror(*return_value___errno_location$10);
-      fprintf(stderr, "bootchart-collector failed to create a chroot at /lib/bootchart/tmpfs/lib/bootchart/tmpfs error '%s'\n", return_value_strerror$11);
+      signed int *return_value___errno_location_10;
+      return_value___errno_location_10=__errno_location();
+      char *return_value_strerror_11;
+      return_value_strerror_11=strerror(*return_value___errno_location_10);
+      fprintf(stderr, "bootchart-collector failed to create a chroot at /lib/bootchart/tmpfs/lib/bootchart/tmpfs error '%s'\n", return_value_strerror_11);
       return 1;
     }
 
@@ -2788,22 +2788,22 @@ static signed int enter_environment(signed int console_debug)
 
 // find_chunks
 // file collector/dump.c line 30
-static signed int find_chunks(struct anonymous$15 *s)
+static signed int find_chunks(struct anonymous_15 *s)
 {
   struct _IO_FILE *maps;
   char buffer[1024l];
   unsigned long int result = (unsigned long int)0;
-  struct anonymous$18 *map;
+  struct anonymous_18 *map;
   signed int ret = 1;
   snprintf(buffer, (unsigned long int)1024, "/proc/%d/maps", s->pid);
   maps=fopen(buffer, "r");
-  char *return_value_fgets$1;
-  _Bool tmp_if_expr$8;
-  signed int *return_value___errno_location$7;
+  char *return_value_fgets_1;
+  _Bool tmp_if_expr_8;
+  signed int *return_value___errno_location_7;
   while(result == 0ul)
   {
-    return_value_fgets$1=fgets(buffer, 1024, maps);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(buffer, 1024, maps);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     char *p;
@@ -2812,9 +2812,9 @@ static signed int find_chunks(struct anonymous$15 *s)
     unsigned long int end;
     unsigned long int toread;
     unsigned long int read_bytes;
-    char *return_value_strstr$2;
-    return_value_strstr$2=strstr(buffer, "[stack]");
-    if(!(return_value_strstr$2 == ((char *)NULL)))
+    char *return_value_strstr_2;
+    return_value_strstr_2=strstr(buffer, "[stack]");
+    if(!(return_value_strstr_2 == ((char *)NULL)))
     {
       p=strchr(buffer, 32);
       if(!(p == ((char *)NULL)))
@@ -2828,9 +2828,9 @@ static signed int find_chunks(struct anonymous$15 *s)
           end=strtoull(p + (signed long int)1, (char ** restrict )(void *)0, 0x10);
           fprintf(stderr, "map 0x%lx -> 0x%lx size: %dk from '%s' '%s'\n", (signed long int)start, (signed long int)end, (signed int)(end - start) / 1024, (const void *)buffer, p + (signed long int)1);
           toread = end - start;
-          void *return_value_malloc$3;
-          return_value_malloc$3=malloc(toread);
-          copy = (char *)return_value_malloc$3;
+          void *return_value_malloc_3;
+          return_value_malloc_3=malloc(toread);
+          copy = (char *)return_value_malloc_3;
           read_bytes = (unsigned long int)0;
           while(!(read_bytes >= toread))
           {
@@ -2838,26 +2838,26 @@ static signed int find_chunks(struct anonymous$15 *s)
             count=pread(s->mem, (void *)(copy + (signed long int)read_bytes), toread, (signed long int)start);
             if(!(count >= 0l))
             {
-              signed int *return_value___errno_location$6;
-              return_value___errno_location$6=__errno_location();
-              if(*return_value___errno_location$6 == 4)
-                tmp_if_expr$8 = (_Bool)1;
+              signed int *return_value___errno_location_6;
+              return_value___errno_location_6=__errno_location();
+              if(*return_value___errno_location_6 == 4)
+                tmp_if_expr_8 = (_Bool)1;
 
               else
               {
-                return_value___errno_location$7=__errno_location();
-                tmp_if_expr$8 = *return_value___errno_location$7 == 11 ? (_Bool)1 : (_Bool)0;
+                return_value___errno_location_7=__errno_location();
+                tmp_if_expr_8 = *return_value___errno_location_7 == 11 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$8)
+              if(tmp_if_expr_8)
                 continue;
 
               else
               {
-                signed int *return_value___errno_location$4;
-                return_value___errno_location$4=__errno_location();
-                char *return_value_strerror$5;
-                return_value_strerror$5=strerror(*return_value___errno_location$4);
-                fprintf(stderr, "pread error '%s'\n", return_value_strerror$5);
+                signed int *return_value___errno_location_4;
+                return_value___errno_location_4=__errno_location();
+                char *return_value_strerror_5;
+                return_value_strerror_5=strerror(*return_value___errno_location_4);
+                fprintf(stderr, "pread error '%s'\n", return_value_strerror_5);
                 break;
               }
             }
@@ -2866,7 +2866,7 @@ static signed int find_chunks(struct anonymous$15 *s)
           }
           fprintf(stderr, "read %ld bytes of %ld\n", (signed long int)read_bytes, (signed long int)toread);
           map=search_stack(copy, read_bytes);
-          if(!(map == ((struct anonymous$18 *)NULL)))
+          if(!(map == ((struct anonymous_18 *)NULL)))
           {
             s->map = *map;
             ret = 0;
@@ -2886,17 +2886,17 @@ static signed int find_chunks(struct anonymous$15 *s)
 
 // find_pid_an_idx
 // file collector/tasks-netlink.c line 99
-static signed int find_pid_an_idx(struct anonymous$11 *nls, signed int pid, signed int create)
+static signed int find_pid_an_idx(struct anonymous_11 *nls, signed int pid, signed int create)
 {
   signed int i;
   signed int j;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(nls->n_procs >= 1)
-    tmp_if_expr$1 = pid > nls->procs[(signed long int)(nls->n_procs - 1)]->pid ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = pid > nls->procs[(signed long int)(nls->n_procs - 1)]->pid ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     i = nls->n_procs;
 
   else
@@ -2931,18 +2931,18 @@ static signed int find_pid_an_idx(struct anonymous$11 *nls, signed int pid, sign
           nls->procs_size = 256;
 
         nls->procs_size = nls->procs_size * 2;
-        void *return_value_realloc$2;
-        return_value_realloc$2=realloc((void *)nls->procs, sizeof(struct anonymous$9 *) /*8ul*/  * (unsigned long int)nls->procs_size);
-        nls->procs = (struct anonymous$9 **)return_value_realloc$2;
+        void *return_value_realloc_2;
+        return_value_realloc_2=realloc((void *)nls->procs, sizeof(struct anonymous_9 *) /*8ul*/  * (unsigned long int)nls->procs_size);
+        nls->procs = (struct anonymous_9 **)return_value_realloc_2;
       }
 
       j = nls->n_procs;
       for( ; !(i >= j); j = j - 1)
         nls->procs[(signed long int)j] = nls->procs[(signed long int)(j - 1)];
       nls->n_procs = nls->n_procs + 1;
-      void *return_value_calloc$3;
-      return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct anonymous$9) /*12ul*/ );
-      nls->procs[(signed long int)i] = (struct anonymous$9 *)return_value_calloc$3;
+      void *return_value_calloc_3;
+      return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct anonymous_9) /*12ul*/ );
+      nls->procs[(signed long int)i] = (struct anonymous_9 *)return_value_calloc_3;
       nls->procs[(signed long int)i]->pid = pid;
       return i;
     }
@@ -2953,8 +2953,8 @@ static signed int find_pid_an_idx(struct anonymous$11 *nls, signed int pid, sign
 // file collector/collector.c line 437
 static signed int get_family_id(signed int sd)
 {
-  /* tag-#anon#lST[lSYM#tag-nlmsghdr#'n'||lSYM#tag-genlmsghdr#'g'||lARR256{S8}$S8$'buf'|] */
-struct anonymous$28
+  /* tag-#anon#lST[lSYM#tag-nlmsghdr#'n'||lSYM#tag-genlmsghdr#'g'||lARR256{S8}_S8_'buf'|] */
+struct anonymous_28
 {
   // n
   struct nlmsghdr n;
@@ -2966,42 +2966,42 @@ struct anonymous$28
 
 /* */
   ;
-  struct anonymous$28 ans;
+  struct anonymous_28 ans;
   signed int id = 0;
   signed int rc;
   struct nlattr *na;
   signed int rep_len;
   char name[100l];
   strcpy(name, "TASKSTATS");
-  signed int return_value_getpid$1;
-  return_value_getpid$1=getpid();
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen("TASKSTATS");
-  rc=send_cmd(sd, (unsigned short int)0x10, (unsigned int)return_value_getpid$1, (unsigned char)3, (unsigned short int)2, (void *)name, (signed int)(return_value_strlen$2 + (unsigned long int)1));
-  signed long int return_value_recv$3;
-  return_value_recv$3=recv(sd, (void *)&ans, sizeof(struct anonymous$28) /*276ul*/ , 0);
-  rep_len = (signed int)return_value_recv$3;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  signed int return_value_getpid_1;
+  return_value_getpid_1=getpid();
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen("TASKSTATS");
+  rc=send_cmd(sd, (unsigned short int)0x10, (unsigned int)return_value_getpid_1, (unsigned char)3, (unsigned short int)2, (void *)name, (signed int)(return_value_strlen_2 + (unsigned long int)1));
+  signed long int return_value_recv_3;
+  return_value_recv_3=recv(sd, (void *)&ans, sizeof(struct anonymous_28) /*276ul*/ , 0);
+  rep_len = (signed int)return_value_recv_3;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   if((signed int)ans.n.nlmsg_type == 0x2 || !(rep_len >= 0))
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_6 = (_Bool)1;
 
   else
   {
     if(rep_len >= (signed int)sizeof(struct nlmsghdr) /*16*/ )
-      tmp_if_expr$4 = (unsigned long int)(&ans.n)->nlmsg_len >= sizeof(struct nlmsghdr) /*16ul*/  ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (unsigned long int)(&ans.n)->nlmsg_len >= sizeof(struct nlmsghdr) /*16ul*/  ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = (&ans.n)->nlmsg_len <= (unsigned int)rep_len ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = (&ans.n)->nlmsg_len <= (unsigned int)rep_len ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    tmp_if_expr$6 = !tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (_Bool)0;
+    tmp_if_expr_6 = !tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$6)
+  if(tmp_if_expr_6)
     return -1;
 
   else
@@ -3017,18 +3017,18 @@ struct anonymous$28
 
 // get_pid_entry
 // file collector/collector.c line 50
-static inline struct anonymous$21 * get_pid_entry(signed int pid)
+static inline struct anonymous_21 * get_pid_entry(signed int pid)
 {
   static signed int pids_size = 0;
   signed int old_pids_size = pids_size;
-  static struct anonymous$21 *pids = (struct anonymous$21 *)(void *)0;
+  static struct anonymous_21 *pids = (struct anonymous_21 *)(void *)0;
   if(pid >= pids_size)
   {
     pids_size = pid + 512;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)pids, sizeof(struct anonymous$21) /*16ul*/  * (unsigned long int)pids_size);
-    pids = (struct anonymous$21 *)return_value_realloc$1;
-    memset((void *)(pids + (signed long int)old_pids_size), 0, sizeof(struct anonymous$21) /*16ul*/  * (unsigned long int)(pids_size - old_pids_size));
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)pids, sizeof(struct anonymous_21) /*16ul*/  * (unsigned long int)pids_size);
+    pids = (struct anonymous_21 *)return_value_realloc_1;
+    memset((void *)(pids + (signed long int)old_pids_size), 0, sizeof(struct anonymous_21) /*16ul*/  * (unsigned long int)(pids_size - old_pids_size));
   }
 
   return pids + (signed long int)pid;
@@ -3083,13 +3083,13 @@ static struct taskstats * get_tgid_taskstats(struct _PidScanner *scanner)
     tpid=scanner->get_tasks_next(scanner);
     if(!(tpid == 0))
     {
-      struct taskstats *get_tgid_taskstats$$1$$1$$ts;
-      get_tgid_taskstats$$1$$1$$ts=get_taskstats(tpid);
-      if(!(get_tgid_taskstats$$1$$1$$ts == ((struct taskstats *)NULL)))
+      struct taskstats *get_tgid_taskstats__1__1__ts;
+      get_tgid_taskstats__1__1__ts=get_taskstats(tpid);
+      if(!(get_tgid_taskstats__1__1__ts == ((struct taskstats *)NULL)))
       {
-        tgits.cpu_run_real_total = tgits.cpu_run_real_total + get_tgid_taskstats$$1$$1$$ts->cpu_run_real_total;
-        tgits.swapin_delay_total = tgits.swapin_delay_total + get_tgid_taskstats$$1$$1$$ts->swapin_delay_total;
-        tgits.blkio_delay_total = tgits.blkio_delay_total + get_tgid_taskstats$$1$$1$$ts->blkio_delay_total;
+        tgits.cpu_run_real_total = tgits.cpu_run_real_total + get_tgid_taskstats__1__1__ts->cpu_run_real_total;
+        tgits.swapin_delay_total = tgits.swapin_delay_total + get_tgid_taskstats__1__1__ts->swapin_delay_total;
+        tgits.blkio_delay_total = tgits.blkio_delay_total + get_tgid_taskstats__1__1__ts->blkio_delay_total;
       }
 
     }
@@ -3118,9 +3118,9 @@ static unsigned long int get_uptime(signed int fd)
   else
   {
     buf[len] = (char)0;
-    signed int return_value_sscanf$1;
-    return_value_sscanf$1=sscanf(buf, "%lu.%lu", &u1, &u2);
-    if(!(return_value_sscanf$1 == 2))
+    signed int return_value_sscanf_1;
+    return_value_sscanf_1=sscanf(buf, "%lu.%lu", &u1, &u2);
+    if(!(return_value_sscanf_1 == 2))
     {
       perror("sscanf");
       return (unsigned long int)0;
@@ -3133,10 +3133,10 @@ static unsigned long int get_uptime(signed int fd)
 
 // handle_news
 // file collector/tasks-netlink.c line 328
-static void handle_news(struct anonymous$11 *nls, struct cn_msg *cn_hdr)
+static void handle_news(struct anonymous_11 *nls, struct cn_msg *cn_hdr)
 {
   struct proc_event *ev = (struct proc_event *)cn_hdr->data;
-  void *return_value_realloc$1;
+  void *return_value_realloc_1;
   switch((signed int)ev->what)
   {
     case PROC_EVENT_FORK:
@@ -3146,8 +3146,8 @@ static void handle_news(struct anonymous$11 *nls, struct cn_msg *cn_hdr)
     case PROC_EVENT_EXIT:
     {
       pthread_mutex_lock(&nls->lock);
-      return_value_realloc$1=realloc((void *)nls->buffer, sizeof(struct proc_event) /*40ul*/  * (unsigned long int)(nls->buffer_size + 1));
-      nls->buffer = (struct proc_event *)return_value_realloc$1;
+      return_value_realloc_1=realloc((void *)nls->buffer, sizeof(struct proc_event) /*40ul*/  * (unsigned long int)(nls->buffer_size + 1));
+      nls->buffer = (struct proc_event *)return_value_realloc_1;
       memcpy((void *)&nls->buffer[(signed long int)nls->buffer_size], (const void *)ev, sizeof(struct proc_event) /*40ul*/ );
       nls->buffer_size = nls->buffer_size + 1;
       pthread_mutex_unlock(&nls->lock);
@@ -3173,24 +3173,24 @@ static signed int have_dev_tmpfs(void)
   signed int ret = 0;
   char buffer[4096l];
   mi=fopen("/lib/bootchart/tmpfs/proc/self/mountinfo", "r");
-  char *return_value_fgets$1;
-  char *return_value_strstr$3;
-  char *return_value_strstr$2;
+  char *return_value_fgets_1;
+  char *return_value_strstr_3;
+  char *return_value_strstr_2;
   do
   {
-    return_value_fgets$1=fgets(buffer, 4096, mi);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(buffer, 4096, mi);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
-    char *return_value_strstr$4;
-    return_value_strstr$4=strstr(buffer, "/dev");
-    if(!(return_value_strstr$4 == ((char *)NULL)))
+    char *return_value_strstr_4;
+    return_value_strstr_4=strstr(buffer, "/dev");
+    if(!(return_value_strstr_4 == ((char *)NULL)))
     {
-      return_value_strstr$3=strstr(buffer, "rw");
-      if(!(return_value_strstr$3 == ((char *)NULL)))
+      return_value_strstr_3=strstr(buffer, "rw");
+      if(!(return_value_strstr_3 == ((char *)NULL)))
       {
-        return_value_strstr$2=strstr(buffer, "tmpfs");
-        if(!(return_value_strstr$2 == ((char *)NULL)))
+        return_value_strstr_2=strstr(buffer, "tmpfs");
+        if(!(return_value_strstr_2 == ((char *)NULL)))
         {
           ret = 1;
           break;
@@ -3213,18 +3213,18 @@ static signed int init_taskstat(void)
 {
   struct sockaddr_nl addr;
   netlink_socket=socket(16, 3, 16);
-  signed int return_value_bind$1;
-  signed int return_value_get_family_id$2;
+  signed int return_value_bind_1;
+  signed int return_value_get_family_id_2;
   if(netlink_socket >= 0)
   {
     memset((void *)&addr, 0, sizeof(struct sockaddr_nl) /*12ul*/ );
     addr.nl_family = (unsigned short int)16;
-    return_value_bind$1=bind(netlink_socket, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_nl) /*12ul*/ );
-    if(!(return_value_bind$1 >= 0))
+    return_value_bind_1=bind(netlink_socket, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_nl) /*12ul*/ );
+    if(!(return_value_bind_1 >= 0))
       goto error;
 
-    return_value_get_family_id$2=get_family_id(netlink_socket);
-    netlink_taskstats_id = (unsigned short int)return_value_get_family_id$2;
+    return_value_get_family_id_2=get_family_id(netlink_socket);
+    netlink_taskstats_id = (unsigned short int)return_value_get_family_id_2;
     return (signed int)((signed int)netlink_taskstats_id > 0);
   }
 
@@ -3242,7 +3242,7 @@ static signed int init_taskstat(void)
 
 // insert_pid
 // file collector/tasks-netlink.c line 141
-static void insert_pid(struct anonymous$11 *nls, signed int pid, signed int parent)
+static void insert_pid(struct anonymous_11 *nls, signed int pid, signed int parent)
 {
   signed int idx;
   idx=find_pid_an_idx(nls, pid, 1);
@@ -3251,11 +3251,11 @@ static void insert_pid(struct anonymous$11 *nls, signed int pid, signed int pare
 
 // insert_pid_thread
 // file collector/tasks-netlink.c line 148
-static void insert_pid_thread(struct anonymous$11 *nls, signed int pid, signed int thread)
+static void insert_pid_thread(struct anonymous_11 *nls, signed int pid, signed int thread)
 {
   signed int n;
   signed int idx;
-  struct anonymous$9 *p;
+  struct anonymous_9 *p;
   idx=find_pid_an_idx(nls, pid, 1);
   p = nls->procs[(signed long int)idx];
   n = 0;
@@ -3263,9 +3263,9 @@ static void insert_pid_thread(struct anonymous$11 *nls, signed int pid, signed i
     if(p->threads[(signed long int)n] == thread)
       goto __CPROVER_DUMP_L4;
 
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)p, sizeof(struct anonymous$9) /*12ul*/  + sizeof(signed int) /*4ul*/  * (unsigned long int)(n + 1));
-  p = (struct anonymous$9 *)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)p, sizeof(struct anonymous_9) /*12ul*/  + sizeof(signed int) /*4ul*/  * (unsigned long int)(n + 1));
+  p = (struct anonymous_9 *)return_value_realloc_1;
   nls->procs[(signed long int)idx] = p;
   p->threads[(signed long int)n] = thread;
   p->threads[(signed long int)(n + 1)] = 0;
@@ -3278,7 +3278,7 @@ __CPROVER_DUMP_L4:
 // file collector/collector.c line 800
 signed int main(signed int argc, char **argv)
 {
-  struct anonymous$16 args;
+  struct anonymous_16 args;
   signed int i;
   signed int use_taskstat;
   signed int in_initrd = 0;
@@ -3291,21 +3291,21 @@ signed int main(signed int argc, char **argv)
   signed int ret = 1;
   struct _PidScanner *scanner = (struct _PidScanner *)(void *)0;
   unsigned long int reltime = (unsigned long int)0;
-  struct anonymous$20 *stat_file;
-  struct anonymous$20 *disk_file;
-  struct anonymous$20 *per_pid_file;
-  struct anonymous$20 *meminfo_file;
-  struct anonymous$27 pid_ev_cl;
+  struct anonymous_20 *stat_file;
+  struct anonymous_20 *disk_file;
+  struct anonymous_20 *per_pid_file;
+  struct anonymous_20 *meminfo_file;
+  struct anonymous_27 pid_ev_cl;
   signed int *fds[5l] = { &stat_fd, &disk_fd, &uptime_fd, &meminfo_fd, (signed int *)(void *)0 };
   const char *fd_names[5l] = { "/stat", "/diskstats", "/uptime", "/meminfo", (const char *)(void *)0 };
-  struct anonymous$18 map = { .magic={ 'r', 'e', 'a', 'l', 'l', 'y', '-', 'u', 'n', 'i', 'q', 'u', 'e', '-', 's', 't', 'a', 'c', 'k', '-', 'p', 'o', 'i', 'n', 't', 'e', 'r', '-', 'f', 'o', 'r', '-', 'x', 'p', '-', 'd', 'e', 't', 'e', 'c', 't', 'i', 'o', 'n', '-', 'g', 'o', 'o', 'd', 'n', 'e', 's', 's', 0 }, .chunks={ ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL), ((struct anonymous$17 *)NULL) },
+  struct anonymous_18 map = { .magic={ 'r', 'e', 'a', 'l', 'l', 'y', '-', 'u', 'n', 'i', 'q', 'u', 'e', '-', 's', 't', 'a', 'c', 'k', '-', 'p', 'o', 'i', 'n', 't', 'e', 'r', '-', 'f', 'o', 'r', '-', 'x', 'p', '-', 'd', 'e', 't', 'e', 'c', 't', 'i', 'o', 'n', '-', 'g', 'o', 'o', 'd', 'n', 'e', 's', 's', 0 }, .chunks={ ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL), ((struct anonymous_17 *)NULL) },
     .max_chunk=0 };
   arguments_set_defaults(&args);
   arguments_parse(&args, argc, argv);
-  signed int return_value_dump_dmsg$4;
-  signed int return_value_sanity_check_initrd$5;
+  signed int return_value_dump_dmsg_4;
+  signed int return_value_sanity_check_initrd_5;
   signed int return_value;
-  signed int return_value_getpid$18;
+  signed int return_value_getpid_18;
   if(args.usleep_time >= 1l)
   {
     usleep((unsigned int)args.usleep_time);
@@ -3314,32 +3314,32 @@ signed int main(signed int argc, char **argv)
 
   else
   {
-    signed int return_value_enter_environment$1;
-    return_value_enter_environment$1=enter_environment((signed int)args.console_debug);
-    if(!(return_value_enter_environment$1 == 0))
+    signed int return_value_enter_environment_1;
+    return_value_enter_environment_1=enter_environment((signed int)args.console_debug);
+    if(!(return_value_enter_environment_1 == 0))
       return 1;
 
     else
     {
       setup_sigaction(15);
-      signed int return_value_getpid$2;
-      return_value_getpid$2=getpid();
-      fprintf(stderr, "bootchart-collector started as pid %d with %d args: ", (signed int)return_value_getpid$2, argc - 1);
+      signed int return_value_getpid_2;
+      return_value_getpid_2=getpid();
+      fprintf(stderr, "bootchart-collector started as pid %d with %d args: ", (signed int)return_value_getpid_2, argc - 1);
       i = 1;
       for( ; !(i >= argc); i = i + 1)
         fprintf(stderr, "'%s' ", argv[(signed long int)i]);
       fprintf(stderr, "\n");
       if(!(args.dump_path == ((char *)NULL)))
       {
-        struct anonymous$16 remote_args;
+        struct anonymous_16 remote_args;
         ret=buffers_extract_and_dump(args.dump_path, &remote_args);
-        signed int return_value_dump_header$3;
-        return_value_dump_header$3=dump_header(args.dump_path);
-        ret = ret | return_value_dump_header$3;
+        signed int return_value_dump_header_3;
+        return_value_dump_header_3=dump_header(args.dump_path);
+        ret = ret | return_value_dump_header_3;
         if(remote_args.relative_time == 0u)
         {
-          return_value_dump_dmsg$4=dump_dmsg(args.dump_path);
-          ret = ret | return_value_dump_dmsg$4;
+          return_value_dump_dmsg_4=dump_dmsg(args.dump_path);
+          ret = ret | return_value_dump_dmsg_4;
         }
 
         if(ret == 0)
@@ -3353,15 +3353,15 @@ signed int main(signed int argc, char **argv)
         in_initrd=am_in_initrd();
         if(!(in_initrd == 0))
         {
-          return_value_sanity_check_initrd$5=sanity_check_initrd();
-          if(!(return_value_sanity_check_initrd$5 == 0))
+          return_value_sanity_check_initrd_5=sanity_check_initrd();
+          if(!(return_value_sanity_check_initrd_5 == 0))
             goto exit;
 
         }
 
       }
 
-      pid=bootchart_find_running_pid((struct anonymous$16 *)(void *)0);
+      pid=bootchart_find_running_pid((struct anonymous_16 *)(void *)0);
       if(!(args.probe_running == 0u))
       {
         clean_environment = (signed int)(pid < 0);
@@ -3384,23 +3384,23 @@ signed int main(signed int argc, char **argv)
       for( ; !(fds[(signed long int)i] == ((signed int *)NULL)); i = i + 1)
       {
         char *path;
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen("/lib/bootchart/tmpfs/proc");
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen(fd_names[(signed long int)i]);
-        void *return_value_malloc$8;
-        return_value_malloc$8=malloc(return_value_strlen$6 + return_value_strlen$7 + (unsigned long int)1);
-        path = (char *)return_value_malloc$8;
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen("/lib/bootchart/tmpfs/proc");
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen(fd_names[(signed long int)i]);
+        void *return_value_malloc_8;
+        return_value_malloc_8=malloc(return_value_strlen_6 + return_value_strlen_7 + (unsigned long int)1);
+        path = (char *)return_value_malloc_8;
         strcpy(path, "/lib/bootchart/tmpfs/proc");
         strcat(path, fd_names[(signed long int)i]);
         *fds[(signed long int)i]=open(path, 00);
         if(!(*fds[(signed long int)i] >= 0))
         {
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          char *return_value_strerror$10;
-          return_value_strerror$10=strerror(*return_value___errno_location$9);
-          fprintf(stderr, "error opening '%s': %s'\n", path, return_value_strerror$10);
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          char *return_value_strerror_10;
+          return_value_strerror_10=strerror(*return_value___errno_location_9);
+          fprintf(stderr, "error opening '%s': %s'\n", path, return_value_strerror_10);
           exit(1);
         }
 
@@ -3417,7 +3417,7 @@ signed int main(signed int argc, char **argv)
       meminfo_file=buffer_file_new(&map, "proc_meminfo.log");
       pid_ev_cl.cmdline_file=buffer_file_new(&map, "cmdline2.log");
       pid_ev_cl.paternity_file=buffer_file_new(&map, "paternity.log");
-      if(pid_ev_cl.cmdline_file == ((struct anonymous$20 *)NULL) || pid_ev_cl.paternity_file == ((struct anonymous$20 *)NULL) || disk_file == ((struct anonymous$20 *)NULL) || meminfo_file == ((struct anonymous$20 *)NULL) || per_pid_file == ((struct anonymous$20 *)NULL) || stat_file == ((struct anonymous$20 *)NULL))
+      if(pid_ev_cl.cmdline_file == ((struct anonymous_20 *)NULL) || pid_ev_cl.paternity_file == ((struct anonymous_20 *)NULL) || disk_file == ((struct anonymous_20 *)NULL) || meminfo_file == ((struct anonymous_20 *)NULL) || per_pid_file == ((struct anonymous_20 *)NULL) || stat_file == ((struct anonymous_20 *)NULL))
       {
         fprintf(stderr, "Error allocating output buffers\n");
         return 1;
@@ -3443,19 +3443,19 @@ signed int main(signed int argc, char **argv)
           }
 
           {
-            signed int main$$1$$10$$pid;
+            signed int main__1__10__pid;
             char uptime[80l];
             unsigned long int uptimelen;
             unsigned long int u;
             if(!(in_initrd == 0))
             {
-              signed int return_value_have_dev_tmpfs$12;
-              return_value_have_dev_tmpfs$12=have_dev_tmpfs();
-              if(!(return_value_have_dev_tmpfs$12 == 0))
+              signed int return_value_have_dev_tmpfs_12;
+              return_value_have_dev_tmpfs_12=have_dev_tmpfs();
+              if(!(return_value_have_dev_tmpfs_12 == 0))
               {
-                signed int return_value_chroot_into_dev$11;
-                return_value_chroot_into_dev$11=chroot_into_dev();
-                if(!(return_value_chroot_into_dev$11 == 0))
+                signed int return_value_chroot_into_dev_11;
+                return_value_chroot_into_dev_11=chroot_into_dev();
+                if(!(return_value_chroot_into_dev_11 == 0))
                 {
                   fprintf(stderr, "failed to chroot into /dev - exiting so run_init can proceed\n");
                   return 1;
@@ -3470,22 +3470,22 @@ signed int main(signed int argc, char **argv)
             if(u == 0ul)
               return 1;
 
-            signed int return_value_sprintf$13;
-            return_value_sprintf$13=sprintf(uptime, "%lu\n", u - reltime);
-            uptimelen = (unsigned long int)return_value_sprintf$13;
+            signed int return_value_sprintf_13;
+            return_value_sprintf_13=sprintf(uptime, "%lu\n", u - reltime);
+            uptimelen = (unsigned long int)return_value_sprintf_13;
             buffer_file_dump_frame_with_timestamp(stat_file, stat_fd, uptime, uptimelen);
             buffer_file_dump_frame_with_timestamp(disk_file, disk_fd, uptime, uptimelen);
             buffer_file_dump_frame_with_timestamp(meminfo_file, meminfo_fd, uptime, uptimelen);
             buffer_file_append(per_pid_file, uptime, uptimelen);
             scanner->restart(scanner);
-            main$$1$$10$$pid=scanner->next(scanner);
-            if(!(main$$1$$10$$pid == 0))
+            main__1__10__pid=scanner->next(scanner);
+            if(!(main__1__10__pid == 0))
             {
               if(!(use_taskstat == 0))
                 dump_taskstat(per_pid_file, scanner);
 
               else
-                dump_proc_stat(per_pid_file, main$$1$$10$$pid);
+                dump_proc_stat(per_pid_file, main__1__10__pid);
             }
 
             buffer_file_append(per_pid_file, "\n", (unsigned long int)1);
@@ -3493,9 +3493,9 @@ signed int main(signed int argc, char **argv)
           }
           if(!(use_taskstat == 0))
           {
-            signed int return_value_close$14;
-            return_value_close$14=close(netlink_socket);
-            if(!(return_value_close$14 >= 0))
+            signed int return_value_close_14;
+            return_value_close_14=close(netlink_socket);
+            if(!(return_value_close_14 >= 0))
             {
               perror("failed to close netlink socket");
               exit(1);
@@ -3506,15 +3506,15 @@ signed int main(signed int argc, char **argv)
           i = 0;
           for( ; !(fds[(signed long int)i] == ((signed int *)NULL)); i = i + 1)
           {
-            signed int return_value_close$17;
-            return_value_close$17=close(*fds[(signed long int)i]);
-            if(!(return_value_close$17 >= 0))
+            signed int return_value_close_17;
+            return_value_close_17=close(*fds[(signed long int)i]);
+            if(!(return_value_close_17 >= 0))
             {
-              signed int *return_value___errno_location$15;
-              return_value___errno_location$15=__errno_location();
-              char *return_value_strerror$16;
-              return_value_strerror$16=strerror(*return_value___errno_location$15);
-              fprintf(stderr, "error closing file '%s': %s'\n", fd_names[(signed long int)i], return_value_strerror$16);
+              signed int *return_value___errno_location_15;
+              return_value___errno_location_15=__errno_location();
+              char *return_value_strerror_16;
+              return_value_strerror_16=strerror(*return_value___errno_location_15);
+              fprintf(stderr, "error closing file '%s': %s'\n", fd_names[(signed long int)i], return_value_strerror_16);
               return 1;
             }
 
@@ -3532,12 +3532,12 @@ signed int main(signed int argc, char **argv)
 
           if(!(clean_environment == 0))
           {
-            signed int return_value_clean_enviroment$19;
-            return_value_clean_enviroment$19=clean_enviroment();
-            if(return_value_clean_enviroment$19 == 0)
+            signed int return_value_clean_enviroment_19;
+            return_value_clean_enviroment_19=clean_enviroment();
+            if(return_value_clean_enviroment_19 == 0)
             {
-              return_value_getpid$18=getpid();
-              fprintf(stderr, "bootchart-collector pid: %d unmounted proc / clean exit\n", return_value_getpid$18);
+              return_value_getpid_18=getpid();
+              fprintf(stderr, "bootchart-collector pid: %d unmounted proc / clean exit\n", return_value_getpid_18);
             }
 
           }
@@ -3553,11 +3553,11 @@ signed int main(signed int argc, char **argv)
 // file collector/tasks-netlink.c line 377
 static void * netlink_listen_thread(void *user_data)
 {
-  struct anonymous$11 *nls = (struct anonymous$11 *)user_data;
+  struct anonymous_11 *nls = (struct anonymous_11 *)user_data;
   struct cn_msg *cn_hdr;
   char buff[1024l];
   unsigned long int recv_len = (unsigned long int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     struct nlmsghdr *nlh = (struct nlmsghdr *)buff;
@@ -3575,11 +3575,11 @@ static void * netlink_listen_thread(void *user_data)
         if(!((signed int)nlh->nlmsg_type == 0x1))
         {
           if((signed int)nlh->nlmsg_type == 0x2)
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = (signed int)nlh->nlmsg_type == 0x4 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = (signed int)nlh->nlmsg_type == 0x4 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
           {
             fprintf(stderr, "Netlink error or overrun !\n");
             break;
@@ -3602,11 +3602,11 @@ static void * netlink_listen_thread(void *user_data)
 
 // netlink_pid_scanner_bootstrap
 // file collector/tasks-netlink.c line 255
-static void netlink_pid_scanner_bootstrap(struct anonymous$11 *nls)
+static void netlink_pid_scanner_bootstrap(struct anonymous_11 *nls)
 {
   signed int pid;
   struct _PidScanner *bootstrap;
-  bootstrap=pid_scanner_new_proc("/lib/bootchart/tmpfs/proc", (void (*)(const struct anonymous$22 *, void *))(void *)0, (void *)0);
+  bootstrap=pid_scanner_new_proc("/lib/bootchart/tmpfs/proc", (void (*)(const struct anonymous_22 *, void *))(void *)0, (void *)0);
   bootstrap->restart(bootstrap);
   pid=bootstrap->next(bootstrap);
   if(!(pid == 0))
@@ -3628,7 +3628,7 @@ static void netlink_pid_scanner_bootstrap(struct anonymous$11 *nls)
 // file collector/tasks-netlink.c line 89
 static signed int netlink_pid_scanner_free(struct _PidScanner *scanner)
 {
-  struct anonymous$11 *nls = (struct anonymous$11 *)scanner;
+  struct anonymous_11 *nls = (struct anonymous_11 *)scanner;
   if(!(nls->socket == 0))
     close(nls->socket);
 
@@ -3640,7 +3640,7 @@ static signed int netlink_pid_scanner_free(struct _PidScanner *scanner)
 // file collector/tasks-netlink.c line 286
 static signed int netlink_pid_scanner_get_cur_pid(struct _PidScanner *scanner)
 {
-  struct anonymous$11 *nls = (struct anonymous$11 *)scanner;
+  struct anonymous_11 *nls = (struct anonymous_11 *)scanner;
   if(nls->cur_proc >= (unsigned int)nls->n_procs)
     return 0;
 
@@ -3652,7 +3652,7 @@ static signed int netlink_pid_scanner_get_cur_pid(struct _PidScanner *scanner)
 // file collector/tasks-netlink.c line 295
 static signed int netlink_pid_scanner_get_cur_ppid(struct _PidScanner *scanner)
 {
-  struct anonymous$11 *nls = (struct anonymous$11 *)scanner;
+  struct anonymous_11 *nls = (struct anonymous_11 *)scanner;
   if(nls->cur_proc >= (unsigned int)nls->n_procs)
     return 0;
 
@@ -3664,22 +3664,22 @@ static signed int netlink_pid_scanner_get_cur_ppid(struct _PidScanner *scanner)
 // file collector/tasks-netlink.c line 311
 static signed int netlink_pid_scanner_get_tasks_next(struct _PidScanner *scanner)
 {
-  struct anonymous$11 *nls = (struct anonymous$11 *)scanner;
-  _Bool tmp_if_expr$1;
+  struct anonymous_11 *nls = (struct anonymous_11 *)scanner;
+  _Bool tmp_if_expr_1;
   if(nls->cur_proc >= (unsigned int)nls->n_procs)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(nls->procs[(signed long int)nls->cur_proc]->threads[(signed long int)nls->cur_thread] != 0) ? (_Bool)1 : (_Bool)0;
-  unsigned int tmp_post$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(nls->procs[(signed long int)nls->cur_proc]->threads[(signed long int)nls->cur_thread] != 0) ? (_Bool)1 : (_Bool)0;
+  unsigned int tmp_post_2;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
-    tmp_post$2 = nls->cur_thread;
+    tmp_post_2 = nls->cur_thread;
     nls->cur_thread = nls->cur_thread + 1u;
-    return nls->procs[(signed long int)nls->cur_proc]->threads[(signed long int)tmp_post$2];
+    return nls->procs[(signed long int)nls->cur_proc]->threads[(signed long int)tmp_post_2];
   }
 }
 
@@ -3687,7 +3687,7 @@ static signed int netlink_pid_scanner_get_tasks_next(struct _PidScanner *scanner
 // file collector/tasks-netlink.c line 304
 static void netlink_pid_scanner_get_tasks_start(struct _PidScanner *scanner)
 {
-  struct anonymous$11 *nls = (struct anonymous$11 *)scanner;
+  struct anonymous_11 *nls = (struct anonymous_11 *)scanner;
   nls->cur_thread = (unsigned int)0;
 }
 
@@ -3695,7 +3695,7 @@ static void netlink_pid_scanner_get_tasks_start(struct _PidScanner *scanner)
 // file collector/tasks-netlink.c line 321
 static void netlink_pid_scanner_get_tasks_stop(struct _PidScanner *scanner)
 {
-  struct anonymous$11 *nls = (struct anonymous$11 *)scanner;
+  struct anonymous_11 *nls = (struct anonymous_11 *)scanner;
   nls->cur_thread = (unsigned int)0;
 }
 
@@ -3703,16 +3703,16 @@ static void netlink_pid_scanner_get_tasks_stop(struct _PidScanner *scanner)
 // file collector/tasks-netlink.c line 277
 static signed int netlink_pid_scanner_next(struct _PidScanner *scanner)
 {
-  struct anonymous$11 *nls = (struct anonymous$11 *)scanner;
-  unsigned int tmp_post$1;
+  struct anonymous_11 *nls = (struct anonymous_11 *)scanner;
+  unsigned int tmp_post_1;
   if(nls->cur_proc >= (unsigned int)nls->n_procs)
     return 0;
 
   else
   {
-    tmp_post$1 = nls->cur_proc;
+    tmp_post_1 = nls->cur_proc;
     nls->cur_proc = nls->cur_proc + 1u;
-    return nls->procs[(signed long int)tmp_post$1]->pid;
+    return nls->procs[(signed long int)tmp_post_1]->pid;
   }
 }
 
@@ -3723,7 +3723,7 @@ static void netlink_pid_scanner_restart(struct _PidScanner *scanner)
   signed int ev_count;
   signed int i;
   struct proc_event *evs;
-  struct anonymous$11 *nls = (struct anonymous$11 *)scanner;
+  struct anonymous_11 *nls = (struct anonymous_11 *)scanner;
   nls->cur_proc = (unsigned int)0;
   pthread_mutex_lock(&nls->lock);
   evs = nls->buffer;
@@ -3764,7 +3764,7 @@ static void netlink_pid_scanner_restart(struct _PidScanner *scanner)
 
 // netlink_recvfrom
 // file collector/tasks-netlink.c line 360
-static unsigned long int netlink_recvfrom(struct anonymous$11 *nls, char *buffer)
+static unsigned long int netlink_recvfrom(struct anonymous_11 *nls, char *buffer)
 {
   unsigned int from_nla_len;
   struct sockaddr_nl from_nla;
@@ -3773,38 +3773,38 @@ static unsigned long int netlink_recvfrom(struct anonymous$11 *nls, char *buffer
   from_nla.nl_family = (unsigned short int)16;
   from_nla.nl_groups = (unsigned int)0x1;
   from_nla.nl_pid = (unsigned int)1;
-  signed long int return_value_recvfrom$1;
-  return_value_recvfrom$1=recvfrom(nls->socket, (void *)buffer, (unsigned long int)1024 < (((sizeof(struct cn_msg) /*20ul*/  + sizeof(struct proc_event) /*40ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) < ((sizeof(struct cn_msg) /*20ul*/  + sizeof(enum proc_cn_mcast_op) /*4ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) ? (sizeof(struct cn_msg) /*20ul*/  + sizeof(enum proc_cn_mcast_op) /*4ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1) : (sizeof(struct cn_msg) /*20ul*/  + sizeof(struct proc_event) /*40ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) ? (((sizeof(struct cn_msg) /*20ul*/  + sizeof(struct proc_event) /*40ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) < ((sizeof(struct cn_msg) /*20ul*/  + sizeof(enum proc_cn_mcast_op) /*4ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) ? (sizeof(struct cn_msg) /*20ul*/  + sizeof(enum proc_cn_mcast_op) /*4ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1) : (sizeof(struct cn_msg) /*20ul*/  + sizeof(struct proc_event) /*40ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) : (unsigned long int)1024, 0, (struct sockaddr *)&from_nla, &from_nla_len);
-  return (unsigned long int)return_value_recvfrom$1;
+  signed long int return_value_recvfrom_1;
+  return_value_recvfrom_1=recvfrom(nls->socket, (void *)buffer, (unsigned long int)1024 < (((sizeof(struct cn_msg) /*20ul*/  + sizeof(struct proc_event) /*40ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) < ((sizeof(struct cn_msg) /*20ul*/  + sizeof(enum proc_cn_mcast_op) /*4ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) ? (sizeof(struct cn_msg) /*20ul*/  + sizeof(enum proc_cn_mcast_op) /*4ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1) : (sizeof(struct cn_msg) /*20ul*/  + sizeof(struct proc_event) /*40ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) ? (((sizeof(struct cn_msg) /*20ul*/  + sizeof(struct proc_event) /*40ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) < ((sizeof(struct cn_msg) /*20ul*/  + sizeof(enum proc_cn_mcast_op) /*4ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) ? (sizeof(struct cn_msg) /*20ul*/  + sizeof(enum proc_cn_mcast_op) /*4ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1) : (sizeof(struct cn_msg) /*20ul*/  + sizeof(struct proc_event) /*40ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)) : (unsigned long int)1024, 0, (struct sockaddr *)&from_nla, &from_nla_len);
+  return (unsigned long int)return_value_recvfrom_1;
 }
 
 // open_pid
 // file collector/dump.c line 95
-static struct anonymous$15 * open_pid(signed int pid)
+static struct anonymous_15 * open_pid(signed int pid)
 {
   char name[1024l];
-  struct anonymous$15 *s;
-  signed long int return_value_ptrace$1;
-  return_value_ptrace$1=ptrace((enum __ptrace_request)PTRACE_ATTACH, pid, 0, 0);
-  if(!(return_value_ptrace$1 == 0l))
+  struct anonymous_15 *s;
+  signed long int return_value_ptrace_1;
+  return_value_ptrace_1=ptrace((enum __ptrace_request)PTRACE_ATTACH, pid, 0, 0);
+  if(!(return_value_ptrace_1 == 0l))
   {
     fprintf(stderr, "cannot ptrace %d\n", pid);
-    return (struct anonymous$15 *)(void *)0;
+    return (struct anonymous_15 *)(void *)0;
   }
 
   else
   {
     snprintf(name, (unsigned long int)1024, "/proc/%d/mem", pid);
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc(sizeof(struct anonymous$15) /*8264ul*/ , (unsigned long int)1);
-    s = (struct anonymous$15 *)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc(sizeof(struct anonymous_15) /*8264ul*/ , (unsigned long int)1);
+    s = (struct anonymous_15 *)return_value_calloc_2;
     s->pid = pid;
     s->mem=open(name, 00 | 0);
     if(!(s->mem >= 0))
     {
       fprintf(stderr, "Failed to open memory map\n");
       free((void *)s);
-      return (struct anonymous$15 *)(void *)0;
+      return (struct anonymous_15 *)(void *)0;
     }
 
     else
@@ -3814,9 +3814,9 @@ static struct anonymous$15 * open_pid(signed int pid)
 
 // pid_event_cb
 // file collector/collector.c line 392
-static void pid_event_cb(const struct anonymous$22 *event, void *user_data)
+static void pid_event_cb(const struct anonymous_22 *event, void *user_data)
 {
-  struct anonymous$27 *cl = (struct anonymous$27 *)user_data;
+  struct anonymous_27 *cl = (struct anonymous_27 *)user_data;
   switch((signed int)event->type)
   {
     case PID_SCAN_EVENT_EXEC:
@@ -3831,12 +3831,12 @@ static void pid_event_cb(const struct anonymous$22 *event, void *user_data)
 
 // pid_scanner_alloc
 // file collector/tasks.c line 56
-struct _PidScanner * pid_scanner_alloc(signed int derived_size, void (*event_fn)(const struct anonymous$22 *, void *), void *user_data)
+struct _PidScanner * pid_scanner_alloc(signed int derived_size, void (*event_fn)(const struct anonymous_22 *, void *), void *user_data)
 {
   struct _PidScanner *scanner;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, (unsigned long int)derived_size);
-  scanner = (struct _PidScanner *)return_value_calloc$1;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, (unsigned long int)derived_size);
+  scanner = (struct _PidScanner *)return_value_calloc_1;
   scanner->event_fn = event_fn;
   scanner->user_data = user_data;
   return scanner;
@@ -3846,13 +3846,13 @@ struct _PidScanner * pid_scanner_alloc(signed int derived_size, void (*event_fn)
 // file collector/tasks.c line 209
 void pid_scanner_emit_exec(struct _PidScanner *scanner, signed int new_pid)
 {
-  struct anonymous$22 ev = { .type=(enum anonymous$24)PID_SCAN_EVENT_EXEC, .pid=0,
+  struct anonymous_22 ev = { .type=(enum anonymous_24)PID_SCAN_EVENT_EXEC, .pid=0,
     .u={ .ppid=0 } };
-  if(!(scanner->event_fn == ((void (*)(const struct anonymous$22 *, void *))NULL)))
+  if(!(scanner->event_fn == ((void (*)(const struct anonymous_22 *, void *))NULL)))
   {
-    signed int return_value_was_known_pid$1;
-    return_value_was_known_pid$1=was_known_pid(&scanner->map, new_pid);
-    if(return_value_was_known_pid$1 == 0)
+    signed int return_value_was_known_pid_1;
+    return_value_was_known_pid_1=was_known_pid(&scanner->map, new_pid);
+    if(return_value_was_known_pid_1 == 0)
     {
       ev.pid = new_pid;
       scanner->event_fn(&ev, scanner->user_data);
@@ -3866,9 +3866,9 @@ void pid_scanner_emit_exec(struct _PidScanner *scanner, signed int new_pid)
 // file collector/tasks.c line 228
 void pid_scanner_emit_paternity(struct _PidScanner *scanner, signed int new_pid, signed int parent)
 {
-  struct anonymous$22 ev = { .type=(enum anonymous$24)PID_SCAN_EVENT_CREATED, .pid=0,
+  struct anonymous_22 ev = { .type=(enum anonymous_24)PID_SCAN_EVENT_CREATED, .pid=0,
     .u={ .ppid=0 } };
-  if(!(scanner->event_fn == ((void (*)(const struct anonymous$22 *, void *))NULL)))
+  if(!(scanner->event_fn == ((void (*)(const struct anonymous_22 *, void *))NULL)))
   {
     ev.pid = new_pid;
     ev.u.ppid = parent;
@@ -3879,17 +3879,17 @@ void pid_scanner_emit_paternity(struct _PidScanner *scanner, signed int new_pid,
 
 // pid_scanner_new_netlink
 // file collector/common.h line 146
-struct _PidScanner * pid_scanner_new_netlink(void (*event_fn)(const struct anonymous$22 *, void *), void *user_data)
+struct _PidScanner * pid_scanner_new_netlink(void (*event_fn)(const struct anonymous_22 *, void *), void *user_data)
 {
   char buff[1024l];
-  struct cn_msg *pid_scanner_new_netlink$$1$$cn_hdr;
+  struct cn_msg *pid_scanner_new_netlink__1__cn_hdr;
   struct nlmsghdr *nl_hdr;
   struct sockaddr_nl my_nla;
   enum proc_cn_mcast_op *mcop_msg;
-  struct anonymous$11 *nls;
-  struct _PidScanner *return_value_pid_scanner_alloc$1;
-  return_value_pid_scanner_alloc$1=pid_scanner_alloc((signed int)sizeof(struct anonymous$11) /*192ul*/ , event_fn, user_data);
-  nls = (struct anonymous$11 *)return_value_pid_scanner_alloc$1;
+  struct anonymous_11 *nls;
+  struct _PidScanner *return_value_pid_scanner_alloc_1;
+  return_value_pid_scanner_alloc_1=pid_scanner_alloc((signed int)sizeof(struct anonymous_11) /*192ul*/ , event_fn, user_data);
+  nls = (struct anonymous_11 *)return_value_pid_scanner_alloc_1;
   nls->parent.free = netlink_pid_scanner_free;
   nls->parent.restart = netlink_pid_scanner_restart;
   nls->parent.next = netlink_pid_scanner_next;
@@ -3899,14 +3899,14 @@ struct _PidScanner * pid_scanner_new_netlink(void (*event_fn)(const struct anony
   nls->parent.get_tasks_next = netlink_pid_scanner_get_tasks_next;
   nls->parent.get_tasks_stop = netlink_pid_scanner_get_tasks_stop;
   nls->socket=socket(16, 2, 11);
-  signed int return_value_getpid$4;
-  signed long int return_value_send$11;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$6;
-  signed int return_value_pthread_create$12;
+  signed int return_value_getpid_4;
+  signed long int return_value_send_11;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_6;
+  signed int return_value_pthread_create_12;
   if(nls->socket == -1)
   {
     fprintf(stderr, "netlink socket error\n");
@@ -3917,30 +3917,30 @@ struct _PidScanner * pid_scanner_new_netlink(void (*event_fn)(const struct anony
   {
     my_nla.nl_family = (unsigned short int)16;
     my_nla.nl_groups = (unsigned int)0x1;
-    signed int return_value_getpid$2;
-    return_value_getpid$2=getpid();
-    my_nla.nl_pid = (unsigned int)return_value_getpid$2;
-    signed int return_value_bind$3;
-    return_value_bind$3=bind(nls->socket, (struct sockaddr *)&my_nla, (unsigned int)sizeof(struct sockaddr_nl) /*12ul*/ );
-    if(!(return_value_bind$3 == 0))
+    signed int return_value_getpid_2;
+    return_value_getpid_2=getpid();
+    my_nla.nl_pid = (unsigned int)return_value_getpid_2;
+    signed int return_value_bind_3;
+    return_value_bind_3=bind(nls->socket, (struct sockaddr *)&my_nla, (unsigned int)sizeof(struct sockaddr_nl) /*12ul*/ );
+    if(!(return_value_bind_3 == 0))
       fprintf(stderr, "binding nls->socket error\n");
 
     else
     {
       nl_hdr = (struct nlmsghdr *)buff;
-      pid_scanner_new_netlink$$1$$cn_hdr = (struct cn_msg *)(void *)((char *)nl_hdr + (signed long int)(0 + (signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1))));
-      mcop_msg = (enum proc_cn_mcast_op *)&pid_scanner_new_netlink$$1$$cn_hdr->data[(signed long int)0];
+      pid_scanner_new_netlink__1__cn_hdr = (struct cn_msg *)(void *)((char *)nl_hdr + (signed long int)(0 + (signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1))));
+      mcop_msg = (enum proc_cn_mcast_op *)&pid_scanner_new_netlink__1__cn_hdr->data[(signed long int)0];
       memset((void *)buff, 0, sizeof(char [1024l]) /*1024ul*/ );
       *mcop_msg = (enum proc_cn_mcast_op)1;
       nl_hdr->nlmsg_len = (unsigned int)(sizeof(struct cn_msg) /*20ul*/  + sizeof(enum proc_cn_mcast_op) /*4ul*/  + (unsigned long int)(signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)));
       nl_hdr->nlmsg_type = (unsigned short int)0x3;
-      return_value_getpid$4=getpid();
-      nl_hdr->nlmsg_pid = (unsigned int)return_value_getpid$4;
-      pid_scanner_new_netlink$$1$$cn_hdr->id.idx = (unsigned int)0x1;
-      pid_scanner_new_netlink$$1$$cn_hdr->id.val = (unsigned int)0x1;
-      pid_scanner_new_netlink$$1$$cn_hdr->len = (unsigned short int)sizeof(enum proc_cn_mcast_op) /*4ul*/ ;
-      return_value_send$11=send(nls->socket, (const void *)nl_hdr, (unsigned long int)nl_hdr->nlmsg_len, 0);
-      if(!(return_value_send$11 == (signed long int)nl_hdr->nlmsg_len))
+      return_value_getpid_4=getpid();
+      nl_hdr->nlmsg_pid = (unsigned int)return_value_getpid_4;
+      pid_scanner_new_netlink__1__cn_hdr->id.idx = (unsigned int)0x1;
+      pid_scanner_new_netlink__1__cn_hdr->id.val = (unsigned int)0x1;
+      pid_scanner_new_netlink__1__cn_hdr->len = (unsigned short int)sizeof(enum proc_cn_mcast_op) /*4ul*/ ;
+      return_value_send_11=send(nls->socket, (const void *)nl_hdr, (unsigned long int)nl_hdr->nlmsg_len, 0);
+      if(!(return_value_send_11 == (signed long int)nl_hdr->nlmsg_len))
       {
         fprintf(stderr, "failed to send proc connector mcast ctl op!\n");
         goto close_and_exit;
@@ -3953,9 +3953,9 @@ struct _PidScanner * pid_scanner_new_netlink(void (*event_fn)(const struct anony
         struct pollfd pr = { .fd=0, .events=0, .revents=0 };
         pr.fd = nls->socket;
         pr.events = (signed short int)0x001;
-        signed int return_value_poll$5;
-        return_value_poll$5=poll(&pr, (unsigned long int)1, 50);
-        if((0x001 & (signed int)pr.revents) == 0 || !(return_value_poll$5 >= 1))
+        signed int return_value_poll_5;
+        return_value_poll_5=poll(&pr, (unsigned long int)1, 50);
+        if((0x001 & (signed int)pr.revents) == 0 || !(return_value_poll_5 >= 1))
         {
           fprintf(stderr, "No PROC_EVENTs present\n");
           goto close_and_exit;
@@ -3963,28 +3963,28 @@ struct _PidScanner * pid_scanner_new_netlink(void (*event_fn)(const struct anony
 
         recv_len=netlink_recvfrom(nls, buff);
         if(!(recv_len >= 1ul))
-          tmp_if_expr$9 = (_Bool)1;
+          tmp_if_expr_9 = (_Bool)1;
 
         else
         {
           if(recv_len >= sizeof(struct nlmsghdr) /*16ul*/ )
-            tmp_if_expr$7 = (unsigned long int)nlh->nlmsg_len >= sizeof(struct nlmsghdr) /*16ul*/  ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_7 = (unsigned long int)nlh->nlmsg_len >= sizeof(struct nlmsghdr) /*16ul*/  ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$7 = (_Bool)0;
-          if(tmp_if_expr$7)
-            tmp_if_expr$8 = (unsigned long int)nlh->nlmsg_len <= recv_len ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_7 = (_Bool)0;
+          if(tmp_if_expr_7)
+            tmp_if_expr_8 = (unsigned long int)nlh->nlmsg_len <= recv_len ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$8 = (_Bool)0;
-          tmp_if_expr$9 = !tmp_if_expr$8 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_8 = (_Bool)0;
+          tmp_if_expr_9 = !tmp_if_expr_8 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$9)
-          tmp_if_expr$10 = (_Bool)1;
+        if(tmp_if_expr_9)
+          tmp_if_expr_10 = (_Bool)1;
 
         else
-          tmp_if_expr$10 = (signed int)nlh->nlmsg_type != 0x3 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$10)
+          tmp_if_expr_10 = (signed int)nlh->nlmsg_type != 0x3 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_10)
         {
           fprintf(stderr, "Failed to connect to PROC_EVENT via netlink\n");
           goto close_and_exit;
@@ -3996,11 +3996,11 @@ struct _PidScanner * pid_scanner_new_netlink(void (*event_fn)(const struct anony
           struct cn_msg *cn_hdr = (struct cn_msg *)(void *)((char *)nlh + (signed long int)(0 + (signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1))));
           ev = (struct proc_event *)cn_hdr->data;
           if(!((signed int)ev->what == PROC_EVENT_NONE))
-            tmp_if_expr$6 = (_Bool)1;
+            tmp_if_expr_6 = (_Bool)1;
 
           else
-            tmp_if_expr$6 = ev->event_data.ack.err != 0u ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$6)
+            tmp_if_expr_6 = ev->event_data.ack.err != 0u ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_6)
           {
             fprintf(stderr, "error: expecting an EVENT_NONE in response to PROC_EVENT connect (err 0x%x)\n", ev->event_data.ack.err);
             goto close_and_exit;
@@ -4008,9 +4008,9 @@ struct _PidScanner * pid_scanner_new_netlink(void (*event_fn)(const struct anony
 
         }
       }
-      pthread_mutex_init(&nls->lock, (const union anonymous$32 *)(void *)0);
-      return_value_pthread_create$12=pthread_create(&nls->listener, (const union pthread_attr_t *)(void *)0, netlink_listen_thread, (void *)nls);
-      if(!(return_value_pthread_create$12 == 0))
+      pthread_mutex_init(&nls->lock, (const union anonymous_32 *)(void *)0);
+      return_value_pthread_create_12=pthread_create(&nls->listener, (const union pthread_attr_t *)(void *)0, netlink_listen_thread, (void *)nls);
+      if(!(return_value_pthread_create_12 == 0))
         fprintf(stderr, "Failed to create netlink thread\n");
 
       else
@@ -4030,20 +4030,20 @@ struct _PidScanner * pid_scanner_new_netlink(void (*event_fn)(const struct anony
 
 // pid_scanner_new_proc
 // file collector/common.h line 148
-struct _PidScanner * pid_scanner_new_proc(const char *proc_path, void (*event_fn)(const struct anonymous$22 *, void *), void *user_data)
+struct _PidScanner * pid_scanner_new_proc(const char *proc_path, void (*event_fn)(const struct anonymous_22 *, void *), void *user_data)
 {
-  struct anonymous$23 *ps;
-  struct _PidScanner *return_value_pid_scanner_alloc$1;
-  return_value_pid_scanner_alloc$1=pid_scanner_alloc((signed int)sizeof(struct anonymous$23) /*128ul*/ , event_fn, user_data);
-  ps = (struct anonymous$23 *)return_value_pid_scanner_alloc$1;
+  struct anonymous_23 *ps;
+  struct _PidScanner *return_value_pid_scanner_alloc_1;
+  return_value_pid_scanner_alloc_1=pid_scanner_alloc((signed int)sizeof(struct anonymous_23) /*128ul*/ , event_fn, user_data);
+  ps = (struct anonymous_23 *)return_value_pid_scanner_alloc_1;
   ps->proc=opendir(proc_path);
   if(ps->proc == ((struct __dirstream *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    fprintf(stderr, "Failed to open /lib/bootchart/tmpfs/proc: %s\n", return_value_strerror$3);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    fprintf(stderr, "Failed to open /lib/bootchart/tmpfs/proc: %s\n", return_value_strerror_3);
     return (struct _PidScanner *)(void *)0;
   }
 
@@ -4064,12 +4064,12 @@ struct _PidScanner * pid_scanner_new_proc(const char *proc_path, void (*event_fn
 static signed int proc_pid_scanner_free(struct _PidScanner *scanner)
 {
   signed int ret = 0;
-  struct anonymous$23 *ps = (struct anonymous$23 *)scanner;
+  struct anonymous_23 *ps = (struct anonymous_23 *)scanner;
   if(!(scanner == ((struct _PidScanner *)NULL)))
   {
-    signed int return_value_closedir$1;
-    return_value_closedir$1=closedir(ps->proc);
-    if(!(return_value_closedir$1 >= 0))
+    signed int return_value_closedir_1;
+    return_value_closedir_1=closedir(ps->proc);
+    if(!(return_value_closedir_1 >= 0))
     {
       perror("close /proc");
       ret = 1;
@@ -4085,7 +4085,7 @@ static signed int proc_pid_scanner_free(struct _PidScanner *scanner)
 // file collector/tasks.c line 111
 static signed int proc_pid_scanner_get_cur_pid(struct _PidScanner *scanner)
 {
-  struct anonymous$23 *ps = (struct anonymous$23 *)scanner;
+  struct anonymous_23 *ps = (struct anonymous_23 *)scanner;
   return ps->cur_pid;
 }
 
@@ -4101,7 +4101,7 @@ static signed int proc_pid_scanner_get_cur_ppid(struct _PidScanner *scanner)
 static signed int proc_pid_scanner_get_tasks_next(struct _PidScanner *scanner)
 {
   struct dirent *tent;
-  struct anonymous$23 *ps = (struct anonymous$23 *)scanner;
+  struct anonymous_23 *ps = (struct anonymous_23 *)scanner;
   if(ps->proc_task == ((struct __dirstream *)NULL))
     return 0;
 
@@ -4113,9 +4113,9 @@ static signed int proc_pid_scanner_get_tasks_next(struct _PidScanner *scanner)
       if(tent == ((struct dirent *)NULL))
         return 0;
 
-      const unsigned short int **return_value___ctype_b_loc$1;
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if(!((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)tent->d_name[0l]]) == 0))
+      const unsigned short int **return_value___ctype_b_loc_1;
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if(!((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)tent->d_name[0l]]) == 0))
       {
         tpid=atoi(tent->d_name);
         if(!(tpid == ps->cur_pid))
@@ -4132,16 +4132,16 @@ static signed int proc_pid_scanner_get_tasks_next(struct _PidScanner *scanner)
 static void proc_pid_scanner_get_tasks_start(struct _PidScanner *scanner)
 {
   signed int dfd;
-  struct anonymous$23 *ps = (struct anonymous$23 *)scanner;
+  struct anonymous_23 *ps = (struct anonymous_23 *)scanner;
   char *buffer;
-  void *return_value___builtin_alloca$1;
-  return_value___builtin_alloca$1=__builtin_alloca((unsigned long int)((signed int)ps->cur_ent->d_reclen + 10));
-  buffer = (char *)return_value___builtin_alloca$1;
+  void *return_value___builtin_alloca_1;
+  return_value___builtin_alloca_1=__builtin_alloca((unsigned long int)((signed int)ps->cur_ent->d_reclen + 10));
+  buffer = (char *)return_value___builtin_alloca_1;
   strcpy(buffer, ps->cur_ent->d_name);
   strcat(buffer, "/task");
-  signed int return_value_dirfd$2;
-  return_value_dirfd$2=dirfd(ps->proc);
-  dfd=openat(return_value_dirfd$2, buffer, 00 | 04000 | 0 | 0200000);
+  signed int return_value_dirfd_2;
+  return_value_dirfd_2=dirfd(ps->proc);
+  dfd=openat(return_value_dirfd_2, buffer, 00 | 04000 | 0 | 0200000);
   if(!(dfd >= 0))
     ps->proc_task = (struct __dirstream *)(void *)0;
 
@@ -4153,7 +4153,7 @@ static void proc_pid_scanner_get_tasks_start(struct _PidScanner *scanner)
 // file collector/tasks.c line 143
 static void proc_pid_scanner_get_tasks_stop(struct _PidScanner *scanner)
 {
-  struct anonymous$23 *ps = (struct anonymous$23 *)scanner;
+  struct anonymous_23 *ps = (struct anonymous_23 *)scanner;
   if(!(ps->proc_task == ((struct __dirstream *)NULL)))
   {
     closedir(ps->proc_task);
@@ -4167,17 +4167,17 @@ static void proc_pid_scanner_get_tasks_stop(struct _PidScanner *scanner)
 static signed int proc_pid_scanner_next(struct _PidScanner *scanner)
 {
   signed int pid;
-  struct anonymous$23 *ps = (struct anonymous$23 *)scanner;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  struct anonymous_23 *ps = (struct anonymous_23 *)scanner;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
     ps->cur_ent=readdir(ps->proc);
     if(ps->cur_ent == ((struct dirent *)NULL))
       return 0;
 
-    return_value___ctype_b_loc$1=__ctype_b_loc();
+    return_value___ctype_b_loc_1=__ctype_b_loc();
   }
-  while((2048 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)ps->cur_ent->d_name[0l]]) == 0);
+  while((2048 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)ps->cur_ent->d_name[0l]]) == 0);
   pid=atoi(ps->cur_ent->d_name);
   ps->cur_pid = pid;
   pid_scanner_emit_exec(scanner, pid);
@@ -4188,13 +4188,13 @@ static signed int proc_pid_scanner_next(struct _PidScanner *scanner)
 // file collector/tasks.c line 85
 static void proc_pid_scanner_restart(struct _PidScanner *scanner)
 {
-  struct anonymous$23 *ps = (struct anonymous$23 *)scanner;
+  struct anonymous_23 *ps = (struct anonymous_23 *)scanner;
   rewinddir(ps->proc);
 }
 
 // remove_pid
 // file collector/tasks-netlink.c line 168
-static void remove_pid(struct anonymous$11 *nls, signed int pid)
+static void remove_pid(struct anonymous_11 *nls, signed int pid)
 {
   signed int i;
   i=find_pid_an_idx(nls, pid, 0);
@@ -4209,13 +4209,13 @@ static void remove_pid(struct anonymous$11 *nls, signed int pid)
 
 // remove_pid_thread
 // file collector/tasks-netlink.c line 179
-static void remove_pid_thread(struct anonymous$11 *nls, signed int pid, signed int thread)
+static void remove_pid_thread(struct anonymous_11 *nls, signed int pid, signed int thread)
 {
   signed int i;
   signed int j;
-  struct anonymous$9 *p;
+  struct anonymous_9 *p;
   i=find_pid_an_idx(nls, pid, 0);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(i >= 0)
   {
     p = nls->procs[(signed long int)i];
@@ -4224,11 +4224,11 @@ static void remove_pid_thread(struct anonymous$11 *nls, signed int pid, signed i
     do
     {
       if(!(p->threads[(signed long int)i] == 0))
-        tmp_if_expr$1 = p->threads[(signed long int)j] != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = p->threads[(signed long int)j] != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       if(p->threads[(signed long int)i] == thread)
@@ -4248,15 +4248,15 @@ static void remove_pid_thread(struct anonymous$11 *nls, signed int pid, signed i
 static void rewrite_ascii(char *string)
 {
   char *p = string;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   for( ; !(*p == 0); p = p + 1l)
   {
-    const unsigned short int **return_value___ctype_b_loc$2;
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if((32768 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*p]) == 0)
+    const unsigned short int **return_value___ctype_b_loc_2;
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if((32768 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*p]) == 0)
     {
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if((1 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*p]) == 0)
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if((1 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*p]) == 0)
         *p = (char)46;
 
     }
@@ -4271,8 +4271,8 @@ static signed int sanity_check_initrd(void)
   struct _IO_FILE *cmdline;
   char buffer[4096l];
   cmdline=fopen("/lib/bootchart/tmpfs/proc/cmdline", "r");
-  _Bool tmp_if_expr$3;
-  char *return_value_strstr$2;
+  _Bool tmp_if_expr_3;
+  char *return_value_strstr_2;
   if(cmdline == ((struct _IO_FILE *)NULL))
   {
     fprintf(stderr, "Urk ! no proc/cmdline on a linux system !?\n");
@@ -4283,17 +4283,17 @@ static signed int sanity_check_initrd(void)
   {
     fgets(buffer, (signed int)sizeof(char [4096l]) /*4096ul*/ , cmdline);
     fclose(cmdline);
-    char *return_value_strstr$1;
-    return_value_strstr$1=strstr(buffer, "init=");
-    if(return_value_strstr$1 == ((char *)NULL))
-      tmp_if_expr$3 = (_Bool)1;
+    char *return_value_strstr_1;
+    return_value_strstr_1=strstr(buffer, "init=");
+    if(return_value_strstr_1 == ((char *)NULL))
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_strstr$2=strstr(buffer, "bootchartd");
-      tmp_if_expr$3 = !(return_value_strstr$2 != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+      return_value_strstr_2=strstr(buffer, "bootchartd");
+      tmp_if_expr_3 = !(return_value_strstr_2 != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
     {
       fprintf(stderr, "Urk ! can't find bootchartd on the cmdline\n");
       return 1;
@@ -4306,18 +4306,18 @@ static signed int sanity_check_initrd(void)
 
 // search_stack
 // file collector/dump.c line 19
-static struct anonymous$18 * search_stack(char *stack, unsigned long int len)
+static struct anonymous_18 * search_stack(char *stack, unsigned long int len)
 {
   char *p = stack;
   for( ; !(p >= stack + (signed long int)len); p = p + 1l)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(((struct anonymous$18 *)p)->magic, "really-unique-stack-pointer-for-xp-detection-goodness");
-    if(return_value_strcmp$1 == 0)
-      return (struct anonymous$18 *)p;
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(((struct anonymous_18 *)p)->magic, "really-unique-stack-pointer-for-xp-detection-goodness");
+    if(return_value_strcmp_1 == 0)
+      return (struct anonymous_18 *)p;
 
   }
-  return (struct anonymous$18 *)(void *)0;
+  return (struct anonymous_18 *)(void *)0;
 }
 
 // send_cmd
@@ -4348,12 +4348,12 @@ static signed int send_cmd(signed int sd, unsigned short int nlmsg_type, unsigne
   buflen = (signed int)msg.n.nlmsg_len;
   memset((void *)&nladdr, 0, sizeof(struct sockaddr_nl) /*12ul*/ );
   nladdr.nl_family = (unsigned short int)16;
-  signed long int return_value_sendto$1;
-  signed int *return_value___errno_location$2;
+  signed long int return_value_sendto_1;
+  signed int *return_value___errno_location_2;
   do
   {
-    return_value_sendto$1=sendto(sd, (const void *)buf, (unsigned long int)buflen, 0, (struct sockaddr *)&nladdr, (unsigned int)sizeof(struct sockaddr_nl) /*12ul*/ );
-    r = (signed int)return_value_sendto$1;
+    return_value_sendto_1=sendto(sd, (const void *)buf, (unsigned long int)buflen, 0, (struct sockaddr *)&nladdr, (unsigned int)sizeof(struct sockaddr_nl) /*12ul*/ );
+    r = (signed int)return_value_sendto_1;
     if(r >= buflen)
       break;
 
@@ -4365,8 +4365,8 @@ static signed int send_cmd(signed int sd, unsigned short int nlmsg_type, unsigne
 
     else
     {
-      return_value___errno_location$2=__errno_location();
-      if(!(*return_value___errno_location$2 == 11))
+      return_value___errno_location_2=__errno_location();
+      if(!(*return_value___errno_location_2 == 11))
         return -1;
 
     }
@@ -4389,19 +4389,19 @@ static void setup_sigaction(signed int sig)
 static void term_handler(signed int sig)
 {
   signed int ret = 0;
-  signed int return_value_unlink$1;
-  return_value_unlink$1=unlink("/lib/bootchart/tmpfs/kmsg");
-  if(!(return_value_unlink$1 >= 0))
+  signed int return_value_unlink_1;
+  return_value_unlink_1=unlink("/lib/bootchart/tmpfs/kmsg");
+  if(!(return_value_unlink_1 >= 0))
     ret = 1;
 
-  signed int return_value_umount2$2;
-  return_value_umount2$2=umount2("/lib/bootchart/tmpfs/proc", 2);
-  if(!(return_value_umount2$2 >= 0))
+  signed int return_value_umount2_2;
+  return_value_umount2_2=umount2("/lib/bootchart/tmpfs/proc", 2);
+  if(!(return_value_umount2_2 >= 0))
     ret = 1;
 
-  signed int return_value_umount2$3;
-  return_value_umount2$3=umount2("/lib/bootchart/tmpfs", 2);
-  if(!(return_value_umount2$3 >= 0))
+  signed int return_value_umount2_3;
+  return_value_umount2_3=umount2("/lib/bootchart/tmpfs", 2);
+  if(!(return_value_umount2_3 >= 0))
     ret = 1;
 
   _exit(ret == 0 ? 0 : 1);
@@ -4433,46 +4433,46 @@ static void usage(void)
 // file collector/collector.c line 122
 static struct taskstats * wait_taskstats(void)
 {
-  signed int wait_taskstats$$1$$rep_len;
-  signed int *return_value___errno_location$2;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  signed int wait_taskstats__1__rep_len;
+  signed int *return_value___errno_location_2;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   do
   {
 
   __CPROVER_DUMP_L1:
     ;
-    signed long int return_value_recv$1;
+    signed long int return_value_recv_1;
     static struct msgtemplate msg;
-    return_value_recv$1=recv(netlink_socket, (void *)&msg, sizeof(struct msgtemplate) /*1044ul*/ , 0);
-    wait_taskstats$$1$$rep_len = (signed int)return_value_recv$1;
-    if(!(wait_taskstats$$1$$rep_len >= 0))
+    return_value_recv_1=recv(netlink_socket, (void *)&msg, sizeof(struct msgtemplate) /*1044ul*/ , 0);
+    wait_taskstats__1__rep_len = (signed int)return_value_recv_1;
+    if(!(wait_taskstats__1__rep_len >= 0))
     {
-      return_value___errno_location$2=__errno_location();
-      if(*return_value___errno_location$2 == 4)
+      return_value___errno_location_2=__errno_location();
+      if(*return_value___errno_location_2 == 4)
         goto __CPROVER_DUMP_L1;
 
     }
 
     if((signed int)msg.n.nlmsg_type == 0x2)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      if(wait_taskstats$$1$$rep_len >= (signed int)sizeof(struct nlmsghdr) /*16*/ )
-        tmp_if_expr$3 = (unsigned long int)(&msg.n)->nlmsg_len >= sizeof(struct nlmsghdr) /*16ul*/  ? (_Bool)1 : (_Bool)0;
+      if(wait_taskstats__1__rep_len >= (signed int)sizeof(struct nlmsghdr) /*16*/ )
+        tmp_if_expr_3 = (unsigned long int)(&msg.n)->nlmsg_len >= sizeof(struct nlmsghdr) /*16ul*/  ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (&msg.n)->nlmsg_len <= (unsigned int)wait_taskstats$$1$$rep_len ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (&msg.n)->nlmsg_len <= (unsigned int)wait_taskstats__1__rep_len ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      tmp_if_expr$5 = !tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
+      tmp_if_expr_5 = !tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
       return (struct taskstats *)(void *)0;
 
     signed int rep_len = (signed int)((unsigned long int)((&msg.n)->nlmsg_len - (((unsigned int)(0 + (signed int)((sizeof(struct nlmsghdr) /*16ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1))) + 4U) - (unsigned int)1 & ~(4U - (unsigned int)1))) - ((sizeof(struct genlmsghdr) /*4ul*/  + (unsigned long int)4U) - (unsigned long int)1 & (unsigned long int)~(4U - (unsigned int)1)));
@@ -4507,7 +4507,7 @@ static struct taskstats * wait_taskstats(void)
 
 // was_known_pid
 // file collector/tasks.c line 25
-static signed int was_known_pid(struct anonymous$26 *map, signed int p)
+static signed int was_known_pid(struct anonymous_26 *map, signed int p)
 {
   signed int bit = p & 0x7;
   signed int offset = p >> 3;
@@ -4515,9 +4515,9 @@ static signed int was_known_pid(struct anonymous$26 *map, signed int p)
   if(offset >= map->len)
   {
     map->len = map->len + 512;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)map->pids, (unsigned long int)map->len);
-    map->pids = (unsigned char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)map->pids, (unsigned long int)map->len);
+    map->pids = (unsigned char *)return_value_realloc_1;
     memset((void *)((map->pids + (signed long int)map->len) - (signed long int)512), 0, (unsigned long int)512);
   }
 

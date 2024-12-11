@@ -1,22 +1,22 @@
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
 struct anonymous;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$2;
+union anonymous_2;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -331,9 +331,9 @@ enum _lscp_status_t lscp_client_call(struct _lscp_client_t *pClient, const char 
 // lscp_client_create
 // file client.c line 282
 struct _lscp_client_t * lscp_client_create(const char *pszHost, signed int iPort, enum _lscp_status_t (*pfnCallback)(struct _lscp_client_t *, enum _lscp_event_t, const char *, signed int, void *), void *pvData);
-// lscp_client_create::pfnCallback$object
+// lscp_client_create::pfnCallback_object
 //
-enum _lscp_status_t pfnCallback$object(struct _lscp_client_t *, enum _lscp_event_t, const char *, signed int, void *);
+enum _lscp_status_t pfnCallback_object(struct _lscp_client_t *, enum _lscp_event_t, const char *, signed int, void *);
 // lscp_client_destroy
 // file client.c line 435
 enum _lscp_status_t lscp_client_destroy(struct _lscp_client_t *pClient);
@@ -688,15 +688,15 @@ const char * lscp_server_build(void);
 // lscp_server_create
 // file server.h line 112
 struct _lscp_server_t * lscp_server_create(signed int iPort, enum _lscp_status_t (*pfnCallback)(struct _lscp_connect_t *, const char *, signed int, void *), void *pvData);
-// lscp_server_create::pfnCallback$object
+// lscp_server_create::pfnCallback_object
 //
-enum _lscp_status_t pfnCallback$object(struct _lscp_connect_t *, const char *, signed int, void *);
+enum _lscp_status_t pfnCallback_object(struct _lscp_connect_t *, const char *, signed int, void *);
 // lscp_server_create_ex
 // file server.c line 453
 struct _lscp_server_t * lscp_server_create_ex(signed int iPort, enum _lscp_status_t (*pfnCallback)(struct _lscp_connect_t *, const char *, signed int, void *), void *pvData, enum _lscp_server_mode_t mode);
-// lscp_server_create_ex::pfnCallback$object
+// lscp_server_create_ex::pfnCallback_object
 //
-enum _lscp_status_t pfnCallback$object(struct _lscp_connect_t *, const char *, signed int, void *);
+enum _lscp_status_t pfnCallback_object(struct _lscp_connect_t *, const char *, signed int, void *);
 // lscp_server_destroy
 // file server.h line 115
 enum _lscp_status_t lscp_server_destroy(struct _lscp_server_t *pServer);
@@ -808,9 +808,9 @@ enum _lscp_status_t lscp_socket_agent_join(struct _lscp_socket_agent_t *pAgent);
 // lscp_socket_agent_start
 // file ../lscp/socket.h line 78
 enum _lscp_status_t lscp_socket_agent_start(struct _lscp_socket_agent_t *pAgent, void (*pfnProc)(void *), void *pvData, signed int iDetach);
-// lscp_socket_agent_start::pfnProc$object
+// lscp_socket_agent_start::pfnProc_object
 //
-void pfnProc$object(void *);
+void pfnProc_object(void *);
 // lscp_socket_getopts
 // file socket.c line 153
 void lscp_socket_getopts(const char *pszPrefix, signed int sock);
@@ -838,9 +838,9 @@ enum _lscp_status_t lscp_thread_cancel(struct _lscp_thread_t *pThread);
 // lscp_thread_create
 // file thread.c line 63
 struct _lscp_thread_t * lscp_thread_create(void (*pfnProc)(void *), void *pvData, signed int iDetach);
-// lscp_thread_create::pfnProc$object
+// lscp_thread_create::pfnProc_object
 //
-void pfnProc$object(void *);
+void pfnProc_object(void *);
 // lscp_thread_destroy
 // file thread.c line 160
 enum _lscp_status_t lscp_thread_destroy(struct _lscp_thread_t *pThread);
@@ -888,16 +888,16 @@ extern signed int pthread_attr_setdetachstate(union pthread_attr_t *, signed int
 extern signed int pthread_cancel(unsigned long int);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$0 *);
+extern signed int pthread_cond_destroy(union anonymous_0 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$0 *, const union anonymous$1 *);
+extern signed int pthread_cond_init(union anonymous_0 *, const union anonymous_1 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$0 *);
+extern signed int pthread_cond_signal(union anonymous_0 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$0 *, union anonymous$2 *);
+extern signed int pthread_cond_wait(union anonymous_0 *, union anonymous_2 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -906,16 +906,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$2 *);
+extern signed int pthread_mutex_destroy(union anonymous_2 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$2 *, const union anonymous$1 *);
+extern signed int pthread_mutex_init(union anonymous_2 *, const union anonymous_1 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$2 *);
+extern signed int pthread_mutex_lock(union anonymous_2 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$2 *);
+extern signed int pthread_mutex_unlock(union anonymous_2 *);
 // rand
 // file /usr/include/stdlib.h line 374
 extern signed int rand(void);
@@ -924,7 +924,7 @@ extern signed int rand(void);
 extern signed long int recv(signed int, void *, unsigned long int, signed int);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$3 *, struct anonymous$3 *, struct anonymous$3 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_3 *, struct anonymous_3 *, struct anonymous_3 *, struct timeval *);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
@@ -995,7 +995,7 @@ extern unsigned long int strspn(const char *, const char *);
 // file /usr/include/time.h line 192
 extern signed long int time(signed long int *);
 
-struct anonymous$3
+struct anonymous_3
 {
   // __fds_bits
   signed long int __fds_bits[16l];
@@ -1021,7 +1021,7 @@ struct anonymous
   unsigned int __broadcast_seq;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __size
   char __size[4l];
@@ -1029,7 +1029,7 @@ union anonymous$1
   signed int __align;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct anonymous __data;
@@ -1067,7 +1067,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1408,9 +1408,9 @@ struct _lscp_client_t
   // iTimeout
   signed int iTimeout;
   // mutex
-  union anonymous$2 mutex;
+  union anonymous_2 mutex;
   // cond
-  union anonymous$0 cond;
+  union anonymous_0 cond;
   // iTimeoutCount
   signed int iTimeoutCount;
 };
@@ -1424,7 +1424,7 @@ struct _lscp_connect_list_t
   // count
   unsigned int count;
   // mutex
-  union anonymous$2 mutex;
+  union anonymous_2 mutex;
 };
 
 struct _lscp_connect_t
@@ -1565,9 +1565,9 @@ static enum _lscp_status_t _lscp_client_evt_connect(struct _lscp_client_t *pClie
   {
     cAddr = (signed int)sizeof(struct sockaddr_in) /*16ul*/ ;
     memmove((void *)(char *)&addr, (const void *)&pClient->cmd.addr, (unsigned long int)cAddr);
-    signed int return_value_connect$1;
-    return_value_connect$1=connect(sock, (struct sockaddr *)&addr, (unsigned int)cAddr);
-    if(return_value_connect$1 == -1)
+    signed int return_value_connect_1;
+    return_value_connect_1=connect(sock, (struct sockaddr *)&addr, (unsigned int)cAddr);
+    if(return_value_connect_1 == -1)
     {
       lscp_socket_perror("_lscp_client_evt_connect: connect");
       close(sock);
@@ -1577,9 +1577,9 @@ static enum _lscp_status_t _lscp_client_evt_connect(struct _lscp_client_t *pClie
     else
     {
       lscp_socket_agent_init(&pClient->evt, sock, &addr, cAddr);
-      enum _lscp_status_t return_value_lscp_socket_agent_start$2;
-      return_value_lscp_socket_agent_start$2=lscp_socket_agent_start(&pClient->evt, _lscp_client_evt_proc, (void *)pClient, 0);
-      return return_value_lscp_socket_agent_start$2;
+      enum _lscp_status_t return_value_lscp_socket_agent_start_2;
+      return_value_lscp_socket_agent_start_2=lscp_socket_agent_start(&pClient->evt, _lscp_client_evt_proc, (void *)pClient, 0);
+      return return_value_lscp_socket_agent_start_2;
     }
   }
 }
@@ -1589,7 +1589,7 @@ static enum _lscp_status_t _lscp_client_evt_connect(struct _lscp_client_t *pClie
 static void _lscp_client_evt_proc(void *pvClient)
 {
   struct _lscp_client_t *pClient = (struct _lscp_client_t *)pvClient;
-  struct anonymous$3 fds;
+  struct anonymous_3 fds;
   signed int fd;
   signed int fdmax;
   struct timeval tv;
@@ -1602,9 +1602,9 @@ static void _lscp_client_evt_proc(void *pvClient)
   char *pch;
   signed int cchToken;
   enum _lscp_event_t event;
-  _Bool tmp_if_expr$5;
-  unsigned long int tmp_if_expr$3;
-  unsigned long int return_value_strlen$2;
+  _Bool tmp_if_expr_5;
+  unsigned long int tmp_if_expr_3;
+  unsigned long int return_value_strlen_2;
   while(!(pClient->evt.iState == 0))
   {
     fd = (signed int)pClient->evt.sock;
@@ -1612,7 +1612,7 @@ static void _lscp_client_evt_proc(void *pvClient)
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     (&fds)->__fds_bits[(signed long int)((unsigned int)fd / (unsigned int)(8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&fds)->__fds_bits[(signed long int)((unsigned int)fd / (unsigned int)(8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << (unsigned int)fd % (unsigned int)(8 * (signed int)sizeof(signed long int) /*8ul*/ ));
@@ -1627,17 +1627,17 @@ static void _lscp_client_evt_proc(void *pvClient)
     else
       tv.tv_sec = (signed long int)0;
     tv.tv_usec = (signed long int)(iTimeout * 1000);
-    iSelect=select(fdmax + 1, &fds, (struct anonymous$3 *)(void *)0, (struct anonymous$3 *)(void *)0, &tv);
+    iSelect=select(fdmax + 1, &fds, (struct anonymous_3 *)(void *)0, (struct anonymous_3 *)(void *)0, &tv);
     if(iSelect >= 1)
-      tmp_if_expr$5 = ((&fds)->__fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & (signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ))) != (signed long int)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = ((&fds)->__fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & (signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ))) != (signed long int)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
-      signed long int return_value_recv$1;
-      return_value_recv$1=recv(pClient->evt.sock, (void *)achBuffer, sizeof(char [1024l]) /*1024ul*/ , 0);
-      cchBuffer = (signed int)return_value_recv$1;
+      signed long int return_value_recv_1;
+      return_value_recv_1=recv(pClient->evt.sock, (void *)achBuffer, sizeof(char [1024l]) /*1024ul*/ , 0);
+      cchBuffer = (signed int)return_value_recv_1;
       if(cchBuffer >= 1)
       {
         achBuffer[(signed long int)cchBuffer] = (char)0;
@@ -1645,22 +1645,22 @@ static void _lscp_client_evt_proc(void *pvClient)
         do
         {
           pszToken=lscp_strtok((char *)(void *)0, pszSeps, &pch);
-          signed int return_value_strcasecmp$4;
-          return_value_strcasecmp$4=strcasecmp(pszToken, "NOTIFY");
-          if(return_value_strcasecmp$4 == 0)
+          signed int return_value_strcasecmp_4;
+          return_value_strcasecmp_4=strcasecmp(pszToken, "NOTIFY");
+          if(return_value_strcasecmp_4 == 0)
           {
             pszToken=lscp_strtok((char *)(void *)0, pszSeps, &pch);
             event=lscp_event_from_text(pszToken);
             pszToken=lscp_strtok((char *)(void *)0, pszSeps, &pch);
             if(pszToken == ((char *)NULL))
-              tmp_if_expr$3 = (unsigned long int)0;
+              tmp_if_expr_3 = (unsigned long int)0;
 
             else
             {
-              return_value_strlen$2=strlen(pszToken);
-              tmp_if_expr$3 = return_value_strlen$2;
+              return_value_strlen_2=strlen(pszToken);
+              tmp_if_expr_3 = return_value_strlen_2;
             }
-            cchToken = (signed int)tmp_if_expr$3;
+            cchToken = (signed int)tmp_if_expr_3;
             if(!(((signed int)pClient->events & (signed int)event) == 0))
             {
               enum _lscp_status_t return_value;
@@ -1713,9 +1713,9 @@ static enum _lscp_status_t _lscp_client_evt_request(struct _lscp_client_t *pClie
     else
     {
       cchQuery=sprintf(szQuery, "%sSUBSCRIBE %s\n\n", iSubscribe == 0 ? "UN" : "", pszEvent);
-      signed long int return_value_send$1;
-      return_value_send$1=send(pClient->evt.sock, (const void *)szQuery, (unsigned long int)cchQuery, 0);
-      if(!(return_value_send$1 >= (signed long int)cchQuery))
+      signed long int return_value_send_1;
+      return_value_send_1=send(pClient->evt.sock, (const void *)szQuery, (unsigned long int)cchQuery, 0);
+      if(!(return_value_send_1 >= (signed long int)cchQuery))
       {
         lscp_socket_perror("_lscp_client_evt_request: send");
         return (enum _lscp_status_t)LSCP_FAILED;
@@ -1748,9 +1748,9 @@ static struct _lscp_connect_t * _lscp_connect_create(struct _lscp_server_t *pSer
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct _lscp_connect_t) /*72ul*/ );
-    pConnect = (struct _lscp_connect_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct _lscp_connect_t) /*72ul*/ );
+    pConnect = (struct _lscp_connect_t *)return_value_malloc_1;
     if(pConnect == ((struct _lscp_connect_t *)NULL))
     {
       fprintf(stderr, "_lscp_connect_create: Out of memory.\n");
@@ -1766,9 +1766,9 @@ static struct _lscp_connect_t * _lscp_connect_create(struct _lscp_server_t *pSer
       lscp_socket_agent_init(&pConnect->client, sock, pAddr, cAddr);
       if((signed int)pServer->mode == LSCP_SERVER_THREAD)
       {
-        enum _lscp_status_t return_value_lscp_socket_agent_start$2;
-        return_value_lscp_socket_agent_start$2=lscp_socket_agent_start(&pConnect->client, _lscp_connect_proc, (void *)pConnect, 0);
-        if(!((signed int)return_value_lscp_socket_agent_start$2 == LSCP_OK))
+        enum _lscp_status_t return_value_lscp_socket_agent_start_2;
+        return_value_lscp_socket_agent_start_2=lscp_socket_agent_start(&pConnect->client, _lscp_connect_proc, (void *)pConnect, 0);
+        if(!((signed int)return_value_lscp_socket_agent_start_2 == LSCP_OK))
         {
           close(sock);
           free((void *)pConnect);
@@ -1852,7 +1852,7 @@ static void _lscp_connect_list_init(struct _lscp_connect_list_t *pList)
   pList->first = (struct _lscp_connect_t *)(void *)0;
   pList->last = (struct _lscp_connect_t *)(void *)0;
   pList->count = (unsigned int)0;
-  pthread_mutex_init(&pList->mutex, (const union anonymous$1 *)(void *)0);
+  pthread_mutex_init(&pList->mutex, (const union anonymous_1 *)(void *)0);
 }
 
 // _lscp_connect_list_remove
@@ -1902,9 +1902,9 @@ static void _lscp_connect_proc(void *pvConnect)
     if(pConnect->client.iState == 0)
       break;
 
-    enum _lscp_status_t return_value__lscp_connect_recv$1;
-    return_value__lscp_connect_recv$1=_lscp_connect_recv(pConnect);
-    if(!((signed int)return_value__lscp_connect_recv$1 == LSCP_OK))
+    enum _lscp_status_t return_value__lscp_connect_recv_1;
+    return_value__lscp_connect_recv_1=_lscp_connect_recv(pConnect);
+    if(!((signed int)return_value__lscp_connect_recv_1 == LSCP_OK))
       pConnect->client.iState = 0;
 
   }
@@ -1932,9 +1932,9 @@ static enum _lscp_status_t _lscp_connect_recv(struct _lscp_connect_t *pConnect)
 
     else
     {
-      signed long int return_value_recv$1;
-      return_value_recv$1=recv(pConnect->client.sock, (void *)achBuffer, sizeof(char [1024l]) /*1024ul*/ , 0);
-      cchBuffer = (signed int)return_value_recv$1;
+      signed long int return_value_recv_1;
+      return_value_recv_1=recv(pConnect->client.sock, (void *)achBuffer, sizeof(char [1024l]) /*1024ul*/ , 0);
+      cchBuffer = (signed int)return_value_recv_1;
       if(cchBuffer >= 1)
         ret=pServer->pfnCallback(pConnect, achBuffer, cchBuffer, pServer->pvData);
 
@@ -1959,18 +1959,18 @@ static struct _lscp_device_info_t * _lscp_device_info_query(struct _lscp_client_
   char *pszKey;
   pthread_mutex_lock(&pClient->mutex);
   lscp_device_info_reset(pDeviceInfo);
-  enum _lscp_status_t return_value_lscp_client_call$3;
-  return_value_lscp_client_call$3=lscp_client_call(pClient, pszQuery, 1);
-  char *return_value_lscp_unquote$1;
-  if((signed int)return_value_lscp_client_call$3 == LSCP_OK)
+  enum _lscp_status_t return_value_lscp_client_call_3;
+  return_value_lscp_client_call_3=lscp_client_call(pClient, pszQuery, 1);
+  char *return_value_lscp_unquote_1;
+  if((signed int)return_value_lscp_client_call_3 == LSCP_OK)
   {
     pszResult=lscp_client_get_result(pClient);
     pszToken=lscp_strtok((char *)pszResult, pszSeps, &pch);
     while(!(pszToken == ((char *)NULL)))
     {
-      signed int return_value_strcasecmp$2;
-      return_value_strcasecmp$2=strcasecmp(pszToken, "DRIVER");
-      if(return_value_strcasecmp$2 == 0)
+      signed int return_value_strcasecmp_2;
+      return_value_strcasecmp_2=strcasecmp(pszToken, "DRIVER");
+      if(return_value_strcasecmp_2 == 0)
       {
         pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
         if(!(pszToken == ((char *)NULL)))
@@ -1984,8 +1984,8 @@ static struct _lscp_device_info_t * _lscp_device_info_query(struct _lscp_client_
         pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
         if(!(pszToken == ((char *)NULL)))
         {
-          return_value_lscp_unquote$1=lscp_unquote(&pszToken, 0);
-          lscp_plist_append(&pDeviceInfo->params, pszKey, return_value_lscp_unquote$1);
+          return_value_lscp_unquote_1=lscp_unquote(&pszToken, 0);
+          lscp_plist_append(&pDeviceInfo->params, pszKey, return_value_lscp_unquote_1);
         }
 
       }
@@ -2012,9 +2012,9 @@ static struct _lscp_device_port_info_t * _lscp_device_port_info_query(struct _ls
   char *pszVal;
   pthread_mutex_lock(&pClient->mutex);
   lscp_device_port_info_reset(pDevicePortInfo);
-  enum _lscp_status_t return_value_lscp_client_call$2;
-  return_value_lscp_client_call$2=lscp_client_call(pClient, pszQuery, 1);
-  if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+  enum _lscp_status_t return_value_lscp_client_call_2;
+  return_value_lscp_client_call_2=lscp_client_call(pClient, pszQuery, 1);
+  if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
   {
     pszResult=lscp_client_get_result(pClient);
     pszToken=lscp_strtok((char *)pszResult, pszSeps, &pch);
@@ -2026,9 +2026,9 @@ static struct _lscp_device_port_info_t * _lscp_device_port_info_query(struct _ls
       {
         pszVal=lscp_unquote(&pszToken, 0);
         lscp_plist_append(&pDevicePortInfo->params, pszKey, pszVal);
-        signed int return_value_strcasecmp$1;
-        return_value_strcasecmp$1=strcasecmp(pszKey, "NAME");
-        if(return_value_strcasecmp$1 == 0)
+        signed int return_value_strcasecmp_1;
+        return_value_strcasecmp_1=strcasecmp(pszKey, "NAME");
+        if(return_value_strcasecmp_1 == 0)
         {
           if(!(pDevicePortInfo->name == ((char *)NULL)))
             free((void *)pDevicePortInfo->name);
@@ -2062,19 +2062,19 @@ static struct _lscp_driver_info_t * _lscp_driver_info_query(struct _lscp_client_
   char *pch;
   pthread_mutex_lock(&pClient->mutex);
   lscp_driver_info_reset(pDriverInfo);
-  enum _lscp_status_t return_value_lscp_client_call$4;
-  return_value_lscp_client_call$4=lscp_client_call(pClient, pszQuery, 1);
-  signed int return_value_strcasecmp$2;
-  signed int return_value_strcasecmp$1;
-  if((signed int)return_value_lscp_client_call$4 == LSCP_OK)
+  enum _lscp_status_t return_value_lscp_client_call_4;
+  return_value_lscp_client_call_4=lscp_client_call(pClient, pszQuery, 1);
+  signed int return_value_strcasecmp_2;
+  signed int return_value_strcasecmp_1;
+  if((signed int)return_value_lscp_client_call_4 == LSCP_OK)
   {
     pszResult=lscp_client_get_result(pClient);
     pszToken=lscp_strtok((char *)pszResult, pszSeps, &pch);
     while(!(pszToken == ((char *)NULL)))
     {
-      signed int return_value_strcasecmp$3;
-      return_value_strcasecmp$3=strcasecmp(pszToken, "DESCRIPTION");
-      if(return_value_strcasecmp$3 == 0)
+      signed int return_value_strcasecmp_3;
+      return_value_strcasecmp_3=strcasecmp(pszToken, "DESCRIPTION");
+      if(return_value_strcasecmp_3 == 0)
       {
         pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
         if(!(pszToken == ((char *)NULL)))
@@ -2084,8 +2084,8 @@ static struct _lscp_driver_info_t * _lscp_driver_info_query(struct _lscp_client_
 
       else
       {
-        return_value_strcasecmp$2=strcasecmp(pszToken, "VERSION");
-        if(return_value_strcasecmp$2 == 0)
+        return_value_strcasecmp_2=strcasecmp(pszToken, "VERSION");
+        if(return_value_strcasecmp_2 == 0)
         {
           pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
           if(!(pszToken == ((char *)NULL)))
@@ -2095,8 +2095,8 @@ static struct _lscp_driver_info_t * _lscp_driver_info_query(struct _lscp_client_
 
         else
         {
-          return_value_strcasecmp$1=strcasecmp(pszToken, "PARAMETERS");
-          if(return_value_strcasecmp$1 == 0)
+          return_value_strcasecmp_1=strcasecmp(pszToken, "PARAMETERS");
+          if(return_value_strcasecmp_1 == 0)
           {
             pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
             if(!(pszToken == ((char *)NULL)))
@@ -2133,61 +2133,61 @@ static struct _lscp_param_info_t * _lscp_param_info_query(struct _lscp_client_t 
   pthread_mutex_lock(&pClient->mutex);
   lscp_param_info_reset(pParamInfo);
   lscp_param_concat(pszQuery, cchMaxQuery, pDepList);
-  enum _lscp_status_t return_value_lscp_client_call$21;
-  return_value_lscp_client_call$21=lscp_client_call(pClient, pszQuery, 1);
-  signed int return_value_strcasecmp$3;
-  signed int return_value_strcasecmp$2;
-  signed int return_value_strcasecmp$1;
-  signed int return_value_strcasecmp$19;
-  signed int return_value_strcasecmp$18;
-  char *return_value_lscp_unquote$5;
-  signed int return_value_strcasecmp$6;
-  signed int return_value_strcasecmp$17;
-  char *return_value_lscp_unquote$7;
-  signed int return_value_strcasecmp$8;
-  signed int return_value_strcasecmp$16;
-  char *return_value_lscp_unquote$9;
-  signed int return_value_strcasecmp$10;
-  signed int return_value_strcasecmp$15;
-  signed int return_value_strcasecmp$14;
-  signed int return_value_strcasecmp$13;
-  signed int return_value_strcasecmp$12;
-  signed int return_value_strcasecmp$11;
-  if((signed int)return_value_lscp_client_call$21 == LSCP_OK)
+  enum _lscp_status_t return_value_lscp_client_call_21;
+  return_value_lscp_client_call_21=lscp_client_call(pClient, pszQuery, 1);
+  signed int return_value_strcasecmp_3;
+  signed int return_value_strcasecmp_2;
+  signed int return_value_strcasecmp_1;
+  signed int return_value_strcasecmp_19;
+  signed int return_value_strcasecmp_18;
+  char *return_value_lscp_unquote_5;
+  signed int return_value_strcasecmp_6;
+  signed int return_value_strcasecmp_17;
+  char *return_value_lscp_unquote_7;
+  signed int return_value_strcasecmp_8;
+  signed int return_value_strcasecmp_16;
+  char *return_value_lscp_unquote_9;
+  signed int return_value_strcasecmp_10;
+  signed int return_value_strcasecmp_15;
+  signed int return_value_strcasecmp_14;
+  signed int return_value_strcasecmp_13;
+  signed int return_value_strcasecmp_12;
+  signed int return_value_strcasecmp_11;
+  if((signed int)return_value_lscp_client_call_21 == LSCP_OK)
   {
     pszResult=lscp_client_get_result(pClient);
     pszToken=lscp_strtok((char *)pszResult, pszSeps, &pch);
     while(!(pszToken == ((char *)NULL)))
     {
-      signed int return_value_strcasecmp$20;
-      return_value_strcasecmp$20=strcasecmp(pszToken, "TYPE");
-      if(return_value_strcasecmp$20 == 0)
+      signed int return_value_strcasecmp_20;
+      return_value_strcasecmp_20=strcasecmp(pszToken, "TYPE");
+      if(return_value_strcasecmp_20 == 0)
       {
         pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
         if(!(pszToken == ((char *)NULL)))
         {
           pszToken=lscp_unquote(&pszToken, 0);
-          signed int return_value_strcasecmp$4;
-          return_value_strcasecmp$4=strcasecmp(pszToken, "BOOL");
-          if(return_value_strcasecmp$4 == 0)
+          signed int return_value_strcasecmp_4;
+          return_value_strcasecmp_4=strcasecmp(pszToken, "BOOL");
+          if(return_value_strcasecmp_4 == 0)
             pParamInfo->type = (enum _lscp_type_t)LSCP_TYPE_BOOL;
 
           else
           {
-            return_value_strcasecmp$3=strcasecmp(pszToken, "INT");
-            if(return_value_strcasecmp$3 == 0)
+            return_value_strcasecmp_3=strcasecmp(pszToken, "INT");
+            if(return_value_strcasecmp_3 == 0)
               pParamInfo->type = (enum _lscp_type_t)LSCP_TYPE_INT;
 
             else
             {
-              return_value_strcasecmp$2=strcasecmp(pszToken, "FLOAT");
-              if(return_value_strcasecmp$2 == 0)
+              return_value_strcasecmp_2=strcasecmp(pszToken, "FLOAT");
+              if(return_value_strcasecmp_2 == 0)
                 pParamInfo->type = (enum _lscp_type_t)LSCP_TYPE_FLOAT;
 
               else
               {
-                return_value_strcasecmp$1=strcasecmp(pszToken, "STRING");
-                if(return_value_strcasecmp$1 == 0)
+                return_value_strcasecmp_1=strcasecmp(pszToken, "STRING");
+                if(return_value_strcasecmp_1 == 0)
                   pParamInfo->type = (enum _lscp_type_t)LSCP_TYPE_STRING;
 
               }
@@ -2199,8 +2199,8 @@ static struct _lscp_param_info_t * _lscp_param_info_query(struct _lscp_client_t 
 
       else
       {
-        return_value_strcasecmp$19=strcasecmp(pszToken, "DESCRIPTION");
-        if(return_value_strcasecmp$19 == 0)
+        return_value_strcasecmp_19=strcasecmp(pszToken, "DESCRIPTION");
+        if(return_value_strcasecmp_19 == 0)
         {
           pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
           if(!(pszToken == ((char *)NULL)))
@@ -2210,53 +2210,53 @@ static struct _lscp_param_info_t * _lscp_param_info_query(struct _lscp_client_t 
 
         else
         {
-          return_value_strcasecmp$18=strcasecmp(pszToken, "MANDATORY");
-          if(return_value_strcasecmp$18 == 0)
+          return_value_strcasecmp_18=strcasecmp(pszToken, "MANDATORY");
+          if(return_value_strcasecmp_18 == 0)
           {
             pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
             if(!(pszToken == ((char *)NULL)))
             {
-              return_value_lscp_unquote$5=lscp_unquote(&pszToken, 0);
-              return_value_strcasecmp$6=strcasecmp(return_value_lscp_unquote$5, "TRUE");
-              pParamInfo->mandatory = (signed int)(return_value_strcasecmp$6 == 0);
+              return_value_lscp_unquote_5=lscp_unquote(&pszToken, 0);
+              return_value_strcasecmp_6=strcasecmp(return_value_lscp_unquote_5, "TRUE");
+              pParamInfo->mandatory = (signed int)(return_value_strcasecmp_6 == 0);
             }
 
           }
 
           else
           {
-            return_value_strcasecmp$17=strcasecmp(pszToken, "FIX");
-            if(return_value_strcasecmp$17 == 0)
+            return_value_strcasecmp_17=strcasecmp(pszToken, "FIX");
+            if(return_value_strcasecmp_17 == 0)
             {
               pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
               if(!(pszToken == ((char *)NULL)))
               {
-                return_value_lscp_unquote$7=lscp_unquote(&pszToken, 0);
-                return_value_strcasecmp$8=strcasecmp(return_value_lscp_unquote$7, "TRUE");
-                pParamInfo->fix = (signed int)(return_value_strcasecmp$8 == 0);
+                return_value_lscp_unquote_7=lscp_unquote(&pszToken, 0);
+                return_value_strcasecmp_8=strcasecmp(return_value_lscp_unquote_7, "TRUE");
+                pParamInfo->fix = (signed int)(return_value_strcasecmp_8 == 0);
               }
 
             }
 
             else
             {
-              return_value_strcasecmp$16=strcasecmp(pszToken, "MULTIPLICITY");
-              if(return_value_strcasecmp$16 == 0)
+              return_value_strcasecmp_16=strcasecmp(pszToken, "MULTIPLICITY");
+              if(return_value_strcasecmp_16 == 0)
               {
                 pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                 if(!(pszToken == ((char *)NULL)))
                 {
-                  return_value_lscp_unquote$9=lscp_unquote(&pszToken, 0);
-                  return_value_strcasecmp$10=strcasecmp(return_value_lscp_unquote$9, "TRUE");
-                  pParamInfo->multiplicity = (signed int)(return_value_strcasecmp$10 == 0);
+                  return_value_lscp_unquote_9=lscp_unquote(&pszToken, 0);
+                  return_value_strcasecmp_10=strcasecmp(return_value_lscp_unquote_9, "TRUE");
+                  pParamInfo->multiplicity = (signed int)(return_value_strcasecmp_10 == 0);
                 }
 
               }
 
               else
               {
-                return_value_strcasecmp$15=strcasecmp(pszToken, "DEPENDS");
-                if(return_value_strcasecmp$15 == 0)
+                return_value_strcasecmp_15=strcasecmp(pszToken, "DEPENDS");
+                if(return_value_strcasecmp_15 == 0)
                 {
                   pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                   if(!(pszToken == ((char *)NULL)))
@@ -2271,8 +2271,8 @@ static struct _lscp_param_info_t * _lscp_param_info_query(struct _lscp_client_t 
 
                 else
                 {
-                  return_value_strcasecmp$14=strcasecmp(pszToken, "DEFAULT");
-                  if(return_value_strcasecmp$14 == 0)
+                  return_value_strcasecmp_14=strcasecmp(pszToken, "DEFAULT");
+                  if(return_value_strcasecmp_14 == 0)
                   {
                     pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                     if(!(pszToken == ((char *)NULL)))
@@ -2282,8 +2282,8 @@ static struct _lscp_param_info_t * _lscp_param_info_query(struct _lscp_client_t 
 
                   else
                   {
-                    return_value_strcasecmp$13=strcasecmp(pszToken, "RANGE_MIN");
-                    if(return_value_strcasecmp$13 == 0)
+                    return_value_strcasecmp_13=strcasecmp(pszToken, "RANGE_MIN");
+                    if(return_value_strcasecmp_13 == 0)
                     {
                       pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                       if(!(pszToken == ((char *)NULL)))
@@ -2293,8 +2293,8 @@ static struct _lscp_param_info_t * _lscp_param_info_query(struct _lscp_client_t 
 
                     else
                     {
-                      return_value_strcasecmp$12=strcasecmp(pszToken, "RANGE_MAX");
-                      if(return_value_strcasecmp$12 == 0)
+                      return_value_strcasecmp_12=strcasecmp(pszToken, "RANGE_MAX");
+                      if(return_value_strcasecmp_12 == 0)
                       {
                         pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                         if(!(pszToken == ((char *)NULL)))
@@ -2304,8 +2304,8 @@ static struct _lscp_param_info_t * _lscp_param_info_query(struct _lscp_client_t 
 
                       else
                       {
-                        return_value_strcasecmp$11=strcasecmp(pszToken, "POSSIBILITIES");
-                        if(return_value_strcasecmp$11 == 0)
+                        return_value_strcasecmp_11=strcasecmp(pszToken, "POSSIBILITIES");
+                        if(return_value_strcasecmp_11 == 0)
                         {
                           pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                           if(!(pszToken == ((char *)NULL)))
@@ -2353,8 +2353,8 @@ static void _lscp_server_agent_proc(void *pvServer)
 // file server.c line 291
 static void _lscp_server_select_proc(struct _lscp_server_t *pServer)
 {
-  struct anonymous$3 master_fds;
-  struct anonymous$3 select_fds;
+  struct anonymous_3 master_fds;
+  struct anonymous_3 select_fds;
   signed int fd;
   signed int fdmax;
   struct timeval tv;
@@ -2365,16 +2365,16 @@ static void _lscp_server_select_proc(struct _lscp_server_t *pServer)
   struct _lscp_connect_t *pConnect;
   do
   {
-    signed int _lscp_server_select_proc$$1$$1$$__d0;
-    signed int _lscp_server_select_proc$$1$$1$$__d1;
-    asm("cld; rep; stosq" : "=c"(_lscp_server_select_proc$$1$$1$$__d0), "=D"(_lscp_server_select_proc$$1$$1$$__d1) : "a"(0), "0"(sizeof(struct anonymous$3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&master_fds)->__fds_bits[(signed long int)0]) : "memory");
+    signed int _lscp_server_select_proc__1__1____d0;
+    signed int _lscp_server_select_proc__1__1____d1;
+    asm("cld; rep; stosq" : "=c"(_lscp_server_select_proc__1__1____d0), "=D"(_lscp_server_select_proc__1__1____d1) : "a"(0), "0"(sizeof(struct anonymous_3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&master_fds)->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   do
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&select_fds)->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&select_fds)->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   (&master_fds)->__fds_bits[(signed long int)((unsigned int)pServer->agent.sock / (unsigned int)(8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&master_fds)->__fds_bits[(signed long int)((unsigned int)pServer->agent.sock / (unsigned int)(8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << (unsigned int)pServer->agent.sock % (unsigned int)(8 * (signed int)sizeof(signed long int) /*8ul*/ ));
@@ -2384,7 +2384,7 @@ static void _lscp_server_select_proc(struct _lscp_server_t *pServer)
     select_fds = master_fds;
     tv.tv_sec = (signed long int)30;
     tv.tv_usec = (signed long int)0;
-    iSelect=select(fdmax + 1, &select_fds, (struct anonymous$3 *)(void *)0, (struct anonymous$3 *)(void *)0, &tv);
+    iSelect=select(fdmax + 1, &select_fds, (struct anonymous_3 *)(void *)0, (struct anonymous_3 *)(void *)0, &tv);
     if(!(iSelect >= 0))
     {
       lscp_socket_perror("_lscp_server_select_proc: select");
@@ -2428,9 +2428,9 @@ static void _lscp_server_select_proc(struct _lscp_server_t *pServer)
             {
               pthread_mutex_lock(&pServer->connects.mutex);
               pConnect=_lscp_connect_list_find_sock(&pServer->connects, (signed int)fd);
-              enum _lscp_status_t return_value__lscp_connect_recv$1;
-              return_value__lscp_connect_recv$1=_lscp_connect_recv(pConnect);
-              if(!((signed int)return_value__lscp_connect_recv$1 == LSCP_OK))
+              enum _lscp_status_t return_value__lscp_connect_recv_1;
+              return_value__lscp_connect_recv_1=_lscp_connect_recv(pConnect);
+              if(!((signed int)return_value__lscp_connect_recv_1 == LSCP_OK))
               {
                 if(!(pConnect == ((struct _lscp_connect_t *)NULL)))
                 {
@@ -2490,9 +2490,9 @@ static void _lscp_socket_getopt_bool(signed int sock, const char *pszOptName, si
   unsigned int cSockLen = (unsigned int)sizeof(signed int) /*4ul*/ ;
   char szPrefix[33l];
   sprintf(szPrefix, "  %s\t", pszOptName);
-  signed int return_value_getsockopt$1;
-  return_value_getsockopt$1=getsockopt(sock, 1, iOptName, (void *)(char *)&iSockOpt, &cSockLen);
-  if(return_value_getsockopt$1 == -1)
+  signed int return_value_getsockopt_1;
+  return_value_getsockopt_1=getsockopt(sock, 1, iOptName, (void *)(char *)&iSockOpt, &cSockLen);
+  if(return_value_getsockopt_1 == -1)
     lscp_socket_perror(szPrefix);
 
   else
@@ -2507,9 +2507,9 @@ static void _lscp_socket_getopt_int(signed int sock, const char *pszOptName, sig
   unsigned int cSockLen = (unsigned int)sizeof(signed int) /*4ul*/ ;
   char szPrefix[33l];
   sprintf(szPrefix, "  %s\t", pszOptName);
-  signed int return_value_getsockopt$1;
-  return_value_getsockopt$1=getsockopt(sock, 1, iOptName, (void *)(char *)&iSockOpt, &cSockLen);
-  if(return_value_getsockopt$1 == -1)
+  signed int return_value_getsockopt_1;
+  return_value_getsockopt_1=getsockopt(sock, 1, iOptName, (void *)(char *)&iSockOpt, &cSockLen);
+  if(return_value_getsockopt_1 == -1)
     lscp_socket_perror(szPrefix);
 
   else
@@ -2544,12 +2544,12 @@ static void _restore_locale(struct _locale_t *locale)
 // file client.c line 49
 static void _save_and_set_c_locale(struct _locale_t *locale)
 {
-  char *return_value_setlocale$1;
-  return_value_setlocale$1=setlocale(1, (const char *)(void *)0);
-  strncpy(locale->numeric, return_value_setlocale$1, (unsigned long int)32);
-  char *return_value_setlocale$2;
-  return_value_setlocale$2=setlocale(0, (const char *)(void *)0);
-  strncpy(locale->ctype, return_value_setlocale$2, (unsigned long int)32);
+  char *return_value_setlocale_1;
+  return_value_setlocale_1=setlocale(1, (const char *)(void *)0);
+  strncpy(locale->numeric, return_value_setlocale_1, (unsigned long int)32);
+  char *return_value_setlocale_2;
+  return_value_setlocale_2=setlocale(0, (const char *)(void *)0);
+  strncpy(locale->ctype, return_value_setlocale_2, (unsigned long int)32);
   setlocale(1, "C");
   setlocale(0, "C");
 }
@@ -2559,19 +2559,19 @@ static void _save_and_set_c_locale(struct _locale_t *locale)
 signed int lscp_add_channel(struct _lscp_client_t *pClient)
 {
   signed int iSamplerChannel = -1;
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return -1;
 
   else
   {
     pthread_mutex_lock(&pClient->mutex);
-    enum _lscp_status_t return_value_lscp_client_call$2;
-    return_value_lscp_client_call$2=lscp_client_call(pClient, "ADD CHANNEL\r\n", 0);
-    if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_2;
+    return_value_lscp_client_call_2=lscp_client_call(pClient, "ADD CHANNEL\r\n", 0);
+    if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-      iSamplerChannel=atoi(return_value_lscp_client_get_result$1);
+      return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+      iSamplerChannel=atoi(return_value_lscp_client_get_result_1);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -2585,8 +2585,8 @@ signed int lscp_add_midi_instrument_map(struct _lscp_client_t *pClient, const ch
 {
   signed int iMidiMap = -1;
   char szQuery[1024l];
-  unsigned long int return_value_strlen$1;
-  const char *return_value_lscp_client_get_result$2;
+  unsigned long int return_value_strlen_1;
+  const char *return_value_lscp_client_get_result_2;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return -1;
 
@@ -2596,17 +2596,17 @@ signed int lscp_add_midi_instrument_map(struct _lscp_client_t *pClient, const ch
     strcpy(szQuery, "ADD MIDI_INSTRUMENT_MAP");
     if(!(pszMapName == ((const char *)NULL)))
     {
-      return_value_strlen$1=strlen(szQuery);
-      sprintf(szQuery + (signed long int)return_value_strlen$1, " '%s'", pszMapName);
+      return_value_strlen_1=strlen(szQuery);
+      sprintf(szQuery + (signed long int)return_value_strlen_1, " '%s'", pszMapName);
     }
 
     strcat(szQuery, "\r\n");
-    enum _lscp_status_t return_value_lscp_client_call$3;
-    return_value_lscp_client_call$3=lscp_client_call(pClient, szQuery, 0);
-    if((signed int)return_value_lscp_client_call$3 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_3;
+    return_value_lscp_client_call_3=lscp_client_call(pClient, szQuery, 0);
+    if((signed int)return_value_lscp_client_call_3 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$2=lscp_client_get_result(pClient);
-      iMidiMap=atoi(return_value_lscp_client_get_result$2);
+      return_value_lscp_client_get_result_2=lscp_client_get_result(pClient);
+      iMidiMap=atoi(return_value_lscp_client_get_result_2);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -2667,19 +2667,19 @@ enum _lscp_status_t lscp_clear_midi_instruments(struct _lscp_client_t *pClient, 
 {
   char szQuery[1024l];
   strcpy(szQuery, "CLEAR MIDI_INSTRUMENTS ");
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(!(iMidiMap >= 0))
     strcat(szQuery, "ALL");
 
   else
   {
-    return_value_strlen$1=strlen(szQuery);
-    sprintf(szQuery + (signed long int)return_value_strlen$1, "%d", iMidiMap);
+    return_value_strlen_1=strlen(szQuery);
+    sprintf(szQuery + (signed long int)return_value_strlen_1, "%d", iMidiMap);
   }
   strcat(szQuery, "\r\n");
-  enum _lscp_status_t return_value_lscp_client_query$2;
-  return_value_lscp_client_query$2=lscp_client_query(pClient, szQuery);
-  return return_value_lscp_client_query$2;
+  enum _lscp_status_t return_value_lscp_client_query_2;
+  return_value_lscp_client_query_2=lscp_client_query(pClient, szQuery);
+  return return_value_lscp_client_query_2;
 }
 
 // lscp_client_build
@@ -2704,12 +2704,12 @@ enum _lscp_status_t lscp_client_call(struct _lscp_client_t *pClient, const char 
   char *pszResult;
   signed int cchResult;
   enum _lscp_status_t ret = (enum _lscp_status_t)LSCP_FAILED;
-  signed int return_value_strncasecmp$4;
-  signed int return_value_strncasecmp$3;
-  _Bool tmp_if_expr$10;
-  signed int return_value_strncasecmp$9;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
+  signed int return_value_strncasecmp_4;
+  signed int return_value_strncasecmp_3;
+  _Bool tmp_if_expr_10;
+  signed int return_value_strncasecmp_9;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return ret;
 
@@ -2746,12 +2746,12 @@ enum _lscp_status_t lscp_client_call(struct _lscp_client_t *pClient, const char 
 
       __CPROVER_DUMP_L3:
         ;
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(pszQuery);
-        cchQuery = (signed int)return_value_strlen$1;
-        signed long int return_value_send$2;
-        return_value_send$2=send(pClient->cmd.sock, (const void *)pszQuery, (unsigned long int)cchQuery, 0);
-        if(!(return_value_send$2 >= (signed long int)cchQuery))
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(pszQuery);
+        cchQuery = (signed int)return_value_strlen_1;
+        signed long int return_value_send_2;
+        return_value_send_2=send(pClient->cmd.sock, (const void *)pszQuery, (unsigned long int)cchQuery, 0);
+        if(!(return_value_send_2 >= (signed long int)cchQuery))
         {
           lscp_socket_perror("lscp_client_call: send");
           pszResult = "Failure during send operation";
@@ -2770,14 +2770,14 @@ enum _lscp_status_t lscp_client_call(struct _lscp_client_t *pClient, const char 
               case LSCP_OK:
               {
                 achBuffer[(signed long int)cchBuffer] = (char)0;
-                return_value_strncasecmp$4=strncasecmp(achBuffer, "WRN:", (unsigned long int)4);
-                if(return_value_strncasecmp$4 == 0)
+                return_value_strncasecmp_4=strncasecmp(achBuffer, "WRN:", (unsigned long int)4);
+                if(return_value_strncasecmp_4 == 0)
                   ret = (enum _lscp_status_t)LSCP_WARNING;
 
                 else
                 {
-                  return_value_strncasecmp$3=strncasecmp(achBuffer, "ERR:", (unsigned long int)4);
-                  if(return_value_strncasecmp$3 == 0)
+                  return_value_strncasecmp_3=strncasecmp(achBuffer, "ERR:", (unsigned long int)4);
+                  if(return_value_strncasecmp_3 == 0)
                     ret = (enum _lscp_status_t)LSCP_ERROR;
 
                 }
@@ -2786,13 +2786,13 @@ enum _lscp_status_t lscp_client_call(struct _lscp_client_t *pClient, const char 
                   iErrno = 0;
                   if(!(iResult >= 1))
                   {
-                    return_value_strncasecmp$9=strncasecmp(achBuffer, "OK[", (unsigned long int)3);
-                    tmp_if_expr$10 = return_value_strncasecmp$9 == 0 ? (_Bool)1 : (_Bool)0;
+                    return_value_strncasecmp_9=strncasecmp(achBuffer, "OK[", (unsigned long int)3);
+                    tmp_if_expr_10 = return_value_strncasecmp_9 == 0 ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$10 = (_Bool)0;
-                  if(tmp_if_expr$10)
+                    tmp_if_expr_10 = (_Bool)0;
+                  if(tmp_if_expr_10)
                   {
                     pszToken=lscp_strtok(achBuffer, pszSeps, &pch);
                     if(!(pszToken == ((char *)NULL)))
@@ -2803,9 +2803,9 @@ enum _lscp_status_t lscp_client_call(struct _lscp_client_t *pClient, const char 
                   else
                   {
                     cchResult = cchResult + (signed int)sizeof(char [1024l]) /*1024ul*/ ;
-                    void *return_value_malloc$5;
-                    return_value_malloc$5=malloc((unsigned long int)(cchResult + 1));
-                    pszResult = (char *)return_value_malloc$5;
+                    void *return_value_malloc_5;
+                    return_value_malloc_5=malloc((unsigned long int)(cchResult + 1));
+                    pszResult = (char *)return_value_malloc_5;
                     pszResult[(signed long int)0] = (char)0;
                     if(!(pszBuffer == ((char *)NULL)))
                     {
@@ -2816,9 +2816,9 @@ enum _lscp_status_t lscp_client_call(struct _lscp_client_t *pClient, const char 
                     strcat(pszResult, achBuffer);
                     pszBuffer = pszResult;
                     pszResult = (char *)(void *)0;
-                    unsigned long int return_value_strlen$6;
-                    return_value_strlen$6=strlen(pszBuffer);
-                    cchBuffer = (signed int)return_value_strlen$6;
+                    unsigned long int return_value_strlen_6;
+                    return_value_strlen_6=strlen(pszBuffer);
+                    cchBuffer = (signed int)return_value_strlen_6;
                     if(cchBuffer >= 2)
                     {
                       if((signed int)pszBuffer[(signed long int)(cchBuffer + -1)] == 10)
@@ -2826,18 +2826,18 @@ enum _lscp_status_t lscp_client_call(struct _lscp_client_t *pClient, const char 
                         if((signed int)pszBuffer[(signed long int)(cchBuffer + -2)] == 13)
                         {
                           if(!(iResult >= 1))
-                            tmp_if_expr$8 = (_Bool)1;
+                            tmp_if_expr_8 = (_Bool)1;
 
                           else
                           {
                             if(cchBuffer >= 3)
-                              tmp_if_expr$7 = (signed int)pszBuffer[(signed long int)(cchBuffer - 3)] == 46 ? (_Bool)1 : (_Bool)0;
+                              tmp_if_expr_7 = (signed int)pszBuffer[(signed long int)(cchBuffer - 3)] == 46 ? (_Bool)1 : (_Bool)0;
 
                             else
-                              tmp_if_expr$7 = (_Bool)0;
-                            tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+                              tmp_if_expr_7 = (_Bool)0;
+                            tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
                           }
-                          if(tmp_if_expr$8)
+                          if(tmp_if_expr_8)
                           {
                             for( ; cchBuffer >= 1; cchBuffer = cchBuffer - 1)
                               if(!((signed int)pszBuffer[(signed long int)(cchBuffer + -1)] == 13))
@@ -2883,9 +2883,9 @@ enum _lscp_status_t lscp_client_call(struct _lscp_client_t *pClient, const char 
                     pszToken=lscp_strtok((char *)(void *)0, pszSeps, &pch);
                     if(!(pszToken == ((char *)NULL)))
                     {
-                      signed int return_value_atoi$11;
-                      return_value_atoi$11=atoi(pszToken);
-                      iErrno = return_value_atoi$11 + 100;
+                      signed int return_value_atoi_11;
+                      return_value_atoi_11=atoi(pszToken);
+                      iErrno = return_value_atoi_11 + 100;
                       pszResult=lscp_strtok((char *)(void *)0, pszSeps, &pch);
                     }
 
@@ -2949,9 +2949,9 @@ struct _lscp_client_t * lscp_client_create(const char *pszHost, signed int iPort
 
     else
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct _lscp_client_t) /*912ul*/ );
-      pClient = (struct _lscp_client_t *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct _lscp_client_t) /*912ul*/ );
+      pClient = (struct _lscp_client_t *)return_value_malloc_1;
       if(pClient == ((struct _lscp_client_t *)NULL))
       {
         fprintf(stderr, "lscp_client_create: Out of memory.\n");
@@ -2978,9 +2978,9 @@ struct _lscp_client_t * lscp_client_create(const char *pszHost, signed int iPort
           addr.sin_family = (unsigned short int)pHost->h_addrtype;
           memmove((void *)(char *)&addr.sin_addr, (const void *)pHost->h_addr_list[(signed long int)0], (unsigned long int)pHost->h_length);
           addr.sin_port=htons((unsigned short int)(signed short int)iPort);
-          signed int return_value_connect$2;
-          return_value_connect$2=connect(sock, (struct sockaddr *)&addr, (unsigned int)cAddr);
-          if(return_value_connect$2 == -1)
+          signed int return_value_connect_2;
+          return_value_connect_2=connect(sock, (struct sockaddr *)&addr, (unsigned int)cAddr);
+          if(return_value_connect_2 == -1)
           {
             lscp_socket_perror("lscp_client_create: cmd: connect");
             close(sock);
@@ -3024,8 +3024,8 @@ struct _lscp_client_t * lscp_client_create(const char *pszHost, signed int iPort
             pClient->iStreamCount = 0;
             pClient->iTimeout = 500;
             pClient->iTimeoutCount = 0;
-            pthread_mutex_init(&pClient->mutex, (const union anonymous$1 *)(void *)0);
-            pthread_cond_init(&pClient->cond, (const union anonymous$1 *)(void *)0);
+            pthread_mutex_init(&pClient->mutex, (const union anonymous_1 *)(void *)0);
+            pthread_cond_init(&pClient->cond, (const union anonymous_1 *)(void *)0);
             return pClient;
           }
         }
@@ -3184,13 +3184,13 @@ enum _lscp_status_t lscp_client_query(struct _lscp_client_t *pClient, const char
 // file common.c line 54
 enum _lscp_status_t lscp_client_recv(struct _lscp_client_t *pClient, char *pchBuffer, signed int *pcchBuffer, signed int iTimeout)
 {
-  struct anonymous$3 fds;
+  struct anonymous_3 fds;
   signed int fd;
   signed int fdmax;
   struct timeval tv;
   signed int iSelect;
   enum _lscp_status_t ret = (enum _lscp_status_t)LSCP_FAILED;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return ret;
 
@@ -3201,7 +3201,7 @@ enum _lscp_status_t lscp_client_recv(struct _lscp_client_t *pClient, char *pchBu
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_3) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&fds)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     (&fds)->__fds_bits[(signed long int)((unsigned int)fd / (unsigned int)(8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&fds)->__fds_bits[(signed long int)((unsigned int)fd / (unsigned int)(8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << (unsigned int)fd % (unsigned int)(8 * (signed int)sizeof(signed long int) /*8ul*/ ));
@@ -3218,17 +3218,17 @@ enum _lscp_status_t lscp_client_recv(struct _lscp_client_t *pClient, char *pchBu
     else
       tv.tv_sec = (signed long int)0;
     tv.tv_usec = (signed long int)(iTimeout * 1000);
-    iSelect=select(fdmax + 1, &fds, (struct anonymous$3 *)(void *)0, (struct anonymous$3 *)(void *)0, &tv);
+    iSelect=select(fdmax + 1, &fds, (struct anonymous_3 *)(void *)0, (struct anonymous_3 *)(void *)0, &tv);
     if(iSelect >= 1)
-      tmp_if_expr$2 = ((&fds)->__fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & (signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ))) != (signed long int)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = ((&fds)->__fds_bits[(signed long int)(fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & (signed long int)(1UL << fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ))) != (signed long int)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
-      signed long int return_value_recv$1;
-      return_value_recv$1=recv(pClient->cmd.sock, (void *)pchBuffer, (unsigned long int)*pcchBuffer, 0);
-      *pcchBuffer = (signed int)return_value_recv$1;
+      signed long int return_value_recv_1;
+      return_value_recv_1=recv(pClient->cmd.sock, (void *)pchBuffer, (unsigned long int)*pcchBuffer, 0);
+      *pcchBuffer = (signed int)return_value_recv_1;
       if(*pcchBuffer >= 1)
         ret = (enum _lscp_status_t)LSCP_OK;
 
@@ -3265,11 +3265,11 @@ void lscp_client_set_result(struct _lscp_client_t *pClient, char *pszResult, sig
 
   pClient->pszResult = (char *)(void *)0;
   pClient->iErrno = iErrno;
-  char *return_value_lscp_ltrim$1;
+  char *return_value_lscp_ltrim_1;
   if(!(pszResult == ((char *)NULL)))
   {
-    return_value_lscp_ltrim$1=lscp_ltrim(pszResult);
-    pClient->pszResult=strdup(return_value_lscp_ltrim$1);
+    return_value_lscp_ltrim_1=lscp_ltrim(pszResult);
+    pClient->pszResult=strdup(return_value_lscp_ltrim_1);
   }
 
 }
@@ -3465,7 +3465,7 @@ signed int lscp_create_audio_device(struct _lscp_client_t *pClient, const char *
 {
   char szQuery[1024l];
   signed int iAudioDevice = -1;
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return -1;
 
@@ -3478,12 +3478,12 @@ signed int lscp_create_audio_device(struct _lscp_client_t *pClient, const char *
       pthread_mutex_lock(&pClient->mutex);
       sprintf(szQuery, "CREATE AUDIO_OUTPUT_DEVICE %s", pszAudioDriver);
       lscp_param_concat(szQuery, (signed int)sizeof(char [1024l]) /*1024ul*/ , pParams);
-      enum _lscp_status_t return_value_lscp_client_call$2;
-      return_value_lscp_client_call$2=lscp_client_call(pClient, szQuery, 0);
-      if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+      enum _lscp_status_t return_value_lscp_client_call_2;
+      return_value_lscp_client_call_2=lscp_client_call(pClient, szQuery, 0);
+      if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
       {
-        return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-        iAudioDevice=atoi(return_value_lscp_client_get_result$1);
+        return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+        iAudioDevice=atoi(return_value_lscp_client_get_result_1);
       }
 
       pthread_mutex_unlock(&pClient->mutex);
@@ -3497,8 +3497,8 @@ signed int lscp_create_fxsend(struct _lscp_client_t *pClient, signed int iSample
 {
   signed int iFxSend = -1;
   char szQuery[1024l];
-  unsigned long int return_value_strlen$1;
-  const char *return_value_lscp_client_get_result$2;
+  unsigned long int return_value_strlen_1;
+  const char *return_value_lscp_client_get_result_2;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return -1;
 
@@ -3512,17 +3512,17 @@ signed int lscp_create_fxsend(struct _lscp_client_t *pClient, signed int iSample
       sprintf(szQuery, "CREATE FX_SEND %d %d", iSamplerChannel, iMidiController);
       if(!(pszFxName == ((const char *)NULL)))
       {
-        return_value_strlen$1=strlen(szQuery);
-        sprintf(szQuery + (signed long int)return_value_strlen$1, " '%s'", pszFxName);
+        return_value_strlen_1=strlen(szQuery);
+        sprintf(szQuery + (signed long int)return_value_strlen_1, " '%s'", pszFxName);
       }
 
       strcat(szQuery, "\r\n");
-      enum _lscp_status_t return_value_lscp_client_call$3;
-      return_value_lscp_client_call$3=lscp_client_call(pClient, szQuery, 0);
-      if((signed int)return_value_lscp_client_call$3 == LSCP_OK)
+      enum _lscp_status_t return_value_lscp_client_call_3;
+      return_value_lscp_client_call_3=lscp_client_call(pClient, szQuery, 0);
+      if((signed int)return_value_lscp_client_call_3 == LSCP_OK)
       {
-        return_value_lscp_client_get_result$2=lscp_client_get_result(pClient);
-        iFxSend=atoi(return_value_lscp_client_get_result$2);
+        return_value_lscp_client_get_result_2=lscp_client_get_result(pClient);
+        iFxSend=atoi(return_value_lscp_client_get_result_2);
       }
 
       pthread_mutex_unlock(&pClient->mutex);
@@ -3536,7 +3536,7 @@ signed int lscp_create_midi_device(struct _lscp_client_t *pClient, const char *p
 {
   char szQuery[1024l];
   signed int iMidiDevice = -1;
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return -1;
 
@@ -3549,12 +3549,12 @@ signed int lscp_create_midi_device(struct _lscp_client_t *pClient, const char *p
       pthread_mutex_lock(&pClient->mutex);
       sprintf(szQuery, "CREATE MIDI_INPUT_DEVICE %s", pszMidiDriver);
       lscp_param_concat(szQuery, (signed int)sizeof(char [1024l]) /*1024ul*/ , pParams);
-      enum _lscp_status_t return_value_lscp_client_call$2;
-      return_value_lscp_client_call$2=lscp_client_call(pClient, szQuery, 0);
-      if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+      enum _lscp_status_t return_value_lscp_client_call_2;
+      return_value_lscp_client_call_2=lscp_client_call(pClient, szQuery, 0);
+      if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
       {
-        return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-        iMidiDevice=atoi(return_value_lscp_client_get_result$1);
+        return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+        iMidiDevice=atoi(return_value_lscp_client_get_result_1);
       }
 
       pthread_mutex_unlock(&pClient->mutex);
@@ -3578,9 +3578,9 @@ enum _lscp_status_t lscp_destroy_audio_device(struct _lscp_client_t *pClient, si
     else
     {
       sprintf(szQuery, "DESTROY AUDIO_OUTPUT_DEVICE %d\r\n", iAudioDevice);
-      enum _lscp_status_t return_value_lscp_client_query$1;
-      return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-      return return_value_lscp_client_query$1;
+      enum _lscp_status_t return_value_lscp_client_query_1;
+      return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+      return return_value_lscp_client_query_1;
     }
 }
 
@@ -3595,9 +3595,9 @@ enum _lscp_status_t lscp_destroy_fxsend(struct _lscp_client_t *pClient, signed i
   else
   {
     sprintf(szQuery, "DESTROY FX_SEND %d %d\r\n", iSamplerChannel, iFxSend);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -3617,9 +3617,9 @@ enum _lscp_status_t lscp_destroy_midi_device(struct _lscp_client_t *pClient, sig
     else
     {
       sprintf(szQuery, "DESTROY MIDI_INPUT_DEVICE %d\r\n", iMidiDevice);
-      enum _lscp_status_t return_value_lscp_client_query$1;
-      return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-      return return_value_lscp_client_query$1;
+      enum _lscp_status_t return_value_lscp_client_query_1;
+      return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+      return return_value_lscp_client_query_1;
     }
 }
 
@@ -3716,9 +3716,9 @@ enum _lscp_status_t lscp_edit_channel_instrument(struct _lscp_client_t *pClient,
   else
   {
     sprintf(szQuery, "EDIT CHANNEL INSTRUMENT %d\r\n", iSamplerChannel);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -3755,123 +3755,123 @@ void lscp_engine_info_reset(struct _lscp_engine_info_t *pEngineInfo)
 enum _lscp_event_t lscp_event_from_text(const char *pszText)
 {
   enum _lscp_event_t event = (enum _lscp_event_t)LSCP_EVENT_NONE;
-  signed int return_value_strcasecmp$16;
-  signed int return_value_strcasecmp$15;
-  signed int return_value_strcasecmp$14;
-  signed int return_value_strcasecmp$13;
-  signed int return_value_strcasecmp$12;
-  signed int return_value_strcasecmp$11;
-  signed int return_value_strcasecmp$10;
-  signed int return_value_strcasecmp$9;
-  signed int return_value_strcasecmp$8;
-  signed int return_value_strcasecmp$7;
-  signed int return_value_strcasecmp$6;
-  signed int return_value_strcasecmp$5;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_strcasecmp$3;
-  signed int return_value_strcasecmp$2;
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_16;
+  signed int return_value_strcasecmp_15;
+  signed int return_value_strcasecmp_14;
+  signed int return_value_strcasecmp_13;
+  signed int return_value_strcasecmp_12;
+  signed int return_value_strcasecmp_11;
+  signed int return_value_strcasecmp_10;
+  signed int return_value_strcasecmp_9;
+  signed int return_value_strcasecmp_8;
+  signed int return_value_strcasecmp_7;
+  signed int return_value_strcasecmp_6;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_strcasecmp_3;
+  signed int return_value_strcasecmp_2;
+  signed int return_value_strcasecmp_1;
   if(!(pszText == ((const char *)NULL)))
   {
-    signed int return_value_strcasecmp$17;
-    return_value_strcasecmp$17=strcasecmp(pszText, "CHANNEL_COUNT");
-    if(return_value_strcasecmp$17 == 0)
+    signed int return_value_strcasecmp_17;
+    return_value_strcasecmp_17=strcasecmp(pszText, "CHANNEL_COUNT");
+    if(return_value_strcasecmp_17 == 0)
       event = (enum _lscp_event_t)LSCP_EVENT_CHANNEL_COUNT;
 
     else
     {
-      return_value_strcasecmp$16=strcasecmp(pszText, "VOICE_COUNT");
-      if(return_value_strcasecmp$16 == 0)
+      return_value_strcasecmp_16=strcasecmp(pszText, "VOICE_COUNT");
+      if(return_value_strcasecmp_16 == 0)
         event = (enum _lscp_event_t)LSCP_EVENT_VOICE_COUNT;
 
       else
       {
-        return_value_strcasecmp$15=strcasecmp(pszText, "STREAM_COUNT");
-        if(return_value_strcasecmp$15 == 0)
+        return_value_strcasecmp_15=strcasecmp(pszText, "STREAM_COUNT");
+        if(return_value_strcasecmp_15 == 0)
           event = (enum _lscp_event_t)LSCP_EVENT_STREAM_COUNT;
 
         else
         {
-          return_value_strcasecmp$14=strcasecmp(pszText, "BUFFER_FILL");
-          if(return_value_strcasecmp$14 == 0)
+          return_value_strcasecmp_14=strcasecmp(pszText, "BUFFER_FILL");
+          if(return_value_strcasecmp_14 == 0)
             event = (enum _lscp_event_t)LSCP_EVENT_BUFFER_FILL;
 
           else
           {
-            return_value_strcasecmp$13=strcasecmp(pszText, "CHANNEL_INFO");
-            if(return_value_strcasecmp$13 == 0)
+            return_value_strcasecmp_13=strcasecmp(pszText, "CHANNEL_INFO");
+            if(return_value_strcasecmp_13 == 0)
               event = (enum _lscp_event_t)LSCP_EVENT_CHANNEL_INFO;
 
             else
             {
-              return_value_strcasecmp$12=strcasecmp(pszText, "TOTAL_VOICE_COUNT");
-              if(return_value_strcasecmp$12 == 0)
+              return_value_strcasecmp_12=strcasecmp(pszText, "TOTAL_VOICE_COUNT");
+              if(return_value_strcasecmp_12 == 0)
                 event = (enum _lscp_event_t)LSCP_EVENT_TOTAL_VOICE_COUNT;
 
               else
               {
-                return_value_strcasecmp$11=strcasecmp(pszText, "AUDIO_OUTPUT_DEVICE_COUNT");
-                if(return_value_strcasecmp$11 == 0)
+                return_value_strcasecmp_11=strcasecmp(pszText, "AUDIO_OUTPUT_DEVICE_COUNT");
+                if(return_value_strcasecmp_11 == 0)
                   event = (enum _lscp_event_t)LSCP_EVENT_AUDIO_OUTPUT_DEVICE_COUNT;
 
                 else
                 {
-                  return_value_strcasecmp$10=strcasecmp(pszText, "AUDIO_OUTPUT_DEVICE_INFO");
-                  if(return_value_strcasecmp$10 == 0)
+                  return_value_strcasecmp_10=strcasecmp(pszText, "AUDIO_OUTPUT_DEVICE_INFO");
+                  if(return_value_strcasecmp_10 == 0)
                     event = (enum _lscp_event_t)LSCP_EVENT_AUDIO_OUTPUT_DEVICE_INFO;
 
                   else
                   {
-                    return_value_strcasecmp$9=strcasecmp(pszText, "MIDI_INPUT_DEVICE_COUNT");
-                    if(return_value_strcasecmp$9 == 0)
+                    return_value_strcasecmp_9=strcasecmp(pszText, "MIDI_INPUT_DEVICE_COUNT");
+                    if(return_value_strcasecmp_9 == 0)
                       event = (enum _lscp_event_t)LSCP_EVENT_MIDI_INPUT_DEVICE_COUNT;
 
                     else
                     {
-                      return_value_strcasecmp$8=strcasecmp(pszText, "MIDI_INPUT_DEVICE_INFO");
-                      if(return_value_strcasecmp$8 == 0)
+                      return_value_strcasecmp_8=strcasecmp(pszText, "MIDI_INPUT_DEVICE_INFO");
+                      if(return_value_strcasecmp_8 == 0)
                         event = (enum _lscp_event_t)LSCP_EVENT_MIDI_INPUT_DEVICE_INFO;
 
                       else
                       {
-                        return_value_strcasecmp$7=strcasecmp(pszText, "MIDI_INSTRUMENT_MAP_COUNT");
-                        if(return_value_strcasecmp$7 == 0)
+                        return_value_strcasecmp_7=strcasecmp(pszText, "MIDI_INSTRUMENT_MAP_COUNT");
+                        if(return_value_strcasecmp_7 == 0)
                           event = (enum _lscp_event_t)LSCP_EVENT_MIDI_INSTRUMENT_MAP_COUNT;
 
                         else
                         {
-                          return_value_strcasecmp$6=strcasecmp(pszText, "MIDI_INSTRUMENT_MAP_INFO");
-                          if(return_value_strcasecmp$6 == 0)
+                          return_value_strcasecmp_6=strcasecmp(pszText, "MIDI_INSTRUMENT_MAP_INFO");
+                          if(return_value_strcasecmp_6 == 0)
                             event = (enum _lscp_event_t)LSCP_EVENT_MIDI_INSTRUMENT_MAP_INFO;
 
                           else
                           {
-                            return_value_strcasecmp$5=strcasecmp(pszText, "MIDI_INSTRUMENT_COUNT");
-                            if(return_value_strcasecmp$5 == 0)
+                            return_value_strcasecmp_5=strcasecmp(pszText, "MIDI_INSTRUMENT_COUNT");
+                            if(return_value_strcasecmp_5 == 0)
                               event = (enum _lscp_event_t)LSCP_EVENT_MIDI_INSTRUMENT_COUNT;
 
                             else
                             {
-                              return_value_strcasecmp$4=strcasecmp(pszText, "MIDI_INSTRUMENT_INFO");
-                              if(return_value_strcasecmp$4 == 0)
+                              return_value_strcasecmp_4=strcasecmp(pszText, "MIDI_INSTRUMENT_INFO");
+                              if(return_value_strcasecmp_4 == 0)
                                 event = (enum _lscp_event_t)LSCP_EVENT_MIDI_INSTRUMENT_INFO;
 
                               else
                               {
-                                return_value_strcasecmp$3=strcasecmp(pszText, "MISCELLANEOUS");
-                                if(return_value_strcasecmp$3 == 0)
+                                return_value_strcasecmp_3=strcasecmp(pszText, "MISCELLANEOUS");
+                                if(return_value_strcasecmp_3 == 0)
                                   event = (enum _lscp_event_t)LSCP_EVENT_MISCELLANEOUS;
 
                                 else
                                 {
-                                  return_value_strcasecmp$2=strcasecmp(pszText, "CHANNEL_MIDI");
-                                  if(return_value_strcasecmp$2 == 0)
+                                  return_value_strcasecmp_2=strcasecmp(pszText, "CHANNEL_MIDI");
+                                  if(return_value_strcasecmp_2 == 0)
                                     event = (enum _lscp_event_t)LSCP_EVENT_CHANNEL_MIDI;
 
                                   else
                                   {
-                                    return_value_strcasecmp$1=strcasecmp(pszText, "DEVICE_MIDI");
-                                    if(return_value_strcasecmp$1 == 0)
+                                    return_value_strcasecmp_1=strcasecmp(pszText, "DEVICE_MIDI");
+                                    if(return_value_strcasecmp_1 == 0)
                                       event = (enum _lscp_event_t)LSCP_EVENT_DEVICE_MIDI;
 
                                   }
@@ -4045,9 +4045,9 @@ struct _lscp_device_port_info_t * lscp_get_audio_channel_info(struct _lscp_clien
       else
       {
         sprintf(szQuery, "GET AUDIO_OUTPUT_CHANNEL INFO %d %d\r\n", iAudioDevice, iAudioChannel);
-        struct _lscp_device_port_info_t *return_value__lscp_device_port_info_query$1;
-        return_value__lscp_device_port_info_query$1=_lscp_device_port_info_query(pClient, &pClient->audio_channel_info, szQuery);
-        return return_value__lscp_device_port_info_query$1;
+        struct _lscp_device_port_info_t *return_value__lscp_device_port_info_query_1;
+        return_value__lscp_device_port_info_query_1=_lscp_device_port_info_query(pClient, &pClient->audio_channel_info, szQuery);
+        return return_value__lscp_device_port_info_query_1;
       }
 }
 
@@ -4074,9 +4074,9 @@ struct _lscp_param_info_t * lscp_get_audio_channel_param_info(struct _lscp_clien
         else
         {
           sprintf(szQuery, "GET AUDIO_OUTPUT_CHANNEL_PARAMETER INFO %d %d %s", iAudioDevice, iAudioChannel, pszParam);
-          struct _lscp_param_info_t *return_value__lscp_param_info_query$1;
-          return_value__lscp_param_info_query$1=_lscp_param_info_query(pClient, &pClient->audio_channel_param_info, szQuery, (signed int)sizeof(char [1024l]) /*1024ul*/ , (struct _lscp_param_t *)(void *)0);
-          return return_value__lscp_param_info_query$1;
+          struct _lscp_param_info_t *return_value__lscp_param_info_query_1;
+          return_value__lscp_param_info_query_1=_lscp_param_info_query(pClient, &pClient->audio_channel_param_info, szQuery, (signed int)sizeof(char [1024l]) /*1024ul*/ , (struct _lscp_param_t *)(void *)0);
+          return return_value__lscp_param_info_query_1;
         }
 }
 
@@ -4095,9 +4095,9 @@ struct _lscp_device_info_t * lscp_get_audio_device_info(struct _lscp_client_t *p
     else
     {
       sprintf(szQuery, "GET AUDIO_OUTPUT_DEVICE INFO %d\r\n", iAudioDevice);
-      struct _lscp_device_info_t *return_value__lscp_device_info_query$1;
-      return_value__lscp_device_info_query$1=_lscp_device_info_query(pClient, &pClient->audio_device_info, szQuery);
-      return return_value__lscp_device_info_query$1;
+      struct _lscp_device_info_t *return_value__lscp_device_info_query_1;
+      return_value__lscp_device_info_query_1=_lscp_device_info_query(pClient, &pClient->audio_device_info, szQuery);
+      return return_value__lscp_device_info_query_1;
     }
 }
 
@@ -4106,19 +4106,19 @@ struct _lscp_device_info_t * lscp_get_audio_device_info(struct _lscp_client_t *p
 signed int lscp_get_audio_devices(struct _lscp_client_t *pClient)
 {
   signed int iAudioDevices = -1;
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return -1;
 
   else
   {
     pthread_mutex_lock(&pClient->mutex);
-    enum _lscp_status_t return_value_lscp_client_call$2;
-    return_value_lscp_client_call$2=lscp_client_call(pClient, "GET AUDIO_OUTPUT_DEVICES\r\n", 0);
-    if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_2;
+    return_value_lscp_client_call_2=lscp_client_call(pClient, "GET AUDIO_OUTPUT_DEVICES\r\n", 0);
+    if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-      iAudioDevices=atoi(return_value_lscp_client_get_result$1);
+      return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+      iAudioDevices=atoi(return_value_lscp_client_get_result_1);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -4137,9 +4137,9 @@ struct _lscp_driver_info_t * lscp_get_audio_driver_info(struct _lscp_client_t *p
   else
   {
     sprintf(szQuery, "GET AUDIO_OUTPUT_DRIVER INFO %s\r\n", pszAudioDriver);
-    struct _lscp_driver_info_t *return_value__lscp_driver_info_query$1;
-    return_value__lscp_driver_info_query$1=_lscp_driver_info_query(pClient, &pClient->audio_driver_info, szQuery);
-    return return_value__lscp_driver_info_query$1;
+    struct _lscp_driver_info_t *return_value__lscp_driver_info_query_1;
+    return_value__lscp_driver_info_query_1=_lscp_driver_info_query(pClient, &pClient->audio_driver_info, szQuery);
+    return return_value__lscp_driver_info_query_1;
   }
 }
 
@@ -4162,9 +4162,9 @@ struct _lscp_param_info_t * lscp_get_audio_driver_param_info(struct _lscp_client
       else
       {
         sprintf(szQuery, "GET AUDIO_OUTPUT_DRIVER_PARAMETER INFO %s %s", pszAudioDriver, pszParam);
-        struct _lscp_param_info_t *return_value__lscp_param_info_query$1;
-        return_value__lscp_param_info_query$1=_lscp_param_info_query(pClient, &pClient->audio_param_info, szQuery, (signed int)sizeof(char [1024l]) /*1024ul*/ , pDepList);
-        return return_value__lscp_param_info_query$1;
+        struct _lscp_param_info_t *return_value__lscp_param_info_query_1;
+        return_value__lscp_param_info_query_1=_lscp_param_info_query(pClient, &pClient->audio_param_info, szQuery, (signed int)sizeof(char [1024l]) /*1024ul*/ , pDepList);
+        return return_value__lscp_param_info_query_1;
       }
 }
 
@@ -4173,19 +4173,19 @@ struct _lscp_param_info_t * lscp_get_audio_driver_param_info(struct _lscp_client
 signed int lscp_get_available_audio_drivers(struct _lscp_client_t *pClient)
 {
   signed int iAudioDrivers = -1;
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return -1;
 
   else
   {
     pthread_mutex_lock(&pClient->mutex);
-    enum _lscp_status_t return_value_lscp_client_call$2;
-    return_value_lscp_client_call$2=lscp_client_call(pClient, "GET AVAILABLE_AUDIO_OUTPUT_DRIVERS\r\n", 0);
-    if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_2;
+    return_value_lscp_client_call_2=lscp_client_call(pClient, "GET AVAILABLE_AUDIO_OUTPUT_DRIVERS\r\n", 0);
+    if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-      iAudioDrivers=atoi(return_value_lscp_client_get_result$1);
+      return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+      iAudioDrivers=atoi(return_value_lscp_client_get_result_1);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -4198,19 +4198,19 @@ signed int lscp_get_available_audio_drivers(struct _lscp_client_t *pClient)
 signed int lscp_get_available_engines(struct _lscp_client_t *pClient)
 {
   signed int iAvailableEngines = -1;
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return -1;
 
   else
   {
     pthread_mutex_lock(&pClient->mutex);
-    enum _lscp_status_t return_value_lscp_client_call$2;
-    return_value_lscp_client_call$2=lscp_client_call(pClient, "GET AVAILABLE_ENGINES\r\n", 0);
-    if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_2;
+    return_value_lscp_client_call_2=lscp_client_call(pClient, "GET AVAILABLE_ENGINES\r\n", 0);
+    if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-      iAvailableEngines=atoi(return_value_lscp_client_get_result$1);
+      return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+      iAvailableEngines=atoi(return_value_lscp_client_get_result_1);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -4223,19 +4223,19 @@ signed int lscp_get_available_engines(struct _lscp_client_t *pClient)
 signed int lscp_get_available_midi_drivers(struct _lscp_client_t *pClient)
 {
   signed int iMidiDrivers = -1;
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return -1;
 
   else
   {
     pthread_mutex_lock(&pClient->mutex);
-    enum _lscp_status_t return_value_lscp_client_call$2;
-    return_value_lscp_client_call$2=lscp_client_call(pClient, "GET AVAILABLE_MIDI_INPUT_DRIVERS\r\n", 0);
-    if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_2;
+    return_value_lscp_client_call_2=lscp_client_call(pClient, "GET AVAILABLE_MIDI_INPUT_DRIVERS\r\n", 0);
+    if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-      iMidiDrivers=atoi(return_value_lscp_client_get_result$1);
+      return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+      iMidiDrivers=atoi(return_value_lscp_client_get_result_1);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -4257,8 +4257,8 @@ struct _lscp_buffer_fill_t * lscp_get_channel_buffer_fill(struct _lscp_client_t 
   char *pch;
   signed int iStream;
   iStreamCount=lscp_get_channel_stream_count(pClient, iSamplerChannel);
-  void *return_value_malloc$1;
-  signed int tmp_post$4;
+  void *return_value_malloc_1;
+  signed int tmp_post_4;
   if(!(iStreamCount >= 0))
     return (struct _lscp_buffer_fill_t *)(void *)0;
 
@@ -4272,8 +4272,8 @@ struct _lscp_buffer_fill_t * lscp_get_channel_buffer_fill(struct _lscp_client_t 
 
       if(iStreamCount >= 1)
       {
-        return_value_malloc$1=malloc((unsigned long int)iStreamCount * sizeof(struct _lscp_buffer_fill_t) /*16ul*/ );
-        pClient->buffer_fill = (struct _lscp_buffer_fill_t *)return_value_malloc$1;
+        return_value_malloc_1=malloc((unsigned long int)iStreamCount * sizeof(struct _lscp_buffer_fill_t) /*16ul*/ );
+        pClient->buffer_fill = (struct _lscp_buffer_fill_t *)return_value_malloc_1;
       }
 
       else
@@ -4287,9 +4287,9 @@ struct _lscp_buffer_fill_t * lscp_get_channel_buffer_fill(struct _lscp_client_t 
       iStream = 0;
       pBufferFill = pClient->buffer_fill;
       sprintf(szQuery, "GET CHANNEL BUFFER_FILL %s %d\r\n", pszUsageType, iSamplerChannel);
-      enum _lscp_status_t return_value_lscp_client_call$5;
-      return_value_lscp_client_call$5=lscp_client_call(pClient, szQuery, 0);
-      if((signed int)return_value_lscp_client_call$5 == LSCP_OK)
+      enum _lscp_status_t return_value_lscp_client_call_5;
+      return_value_lscp_client_call_5=lscp_client_call(pClient, szQuery, 0);
+      if((signed int)return_value_lscp_client_call_5 == LSCP_OK)
       {
         pszResult=lscp_client_get_result(pClient);
         pszToken=lscp_strtok((char *)pszResult, pszSeps, &pch);
@@ -4300,16 +4300,16 @@ struct _lscp_buffer_fill_t * lscp_get_channel_buffer_fill(struct _lscp_client_t 
 
           if(!(*pszToken == 0))
           {
-            signed long int return_value_atol$2;
-            return_value_atol$2=atol(pszToken);
-            (pBufferFill + (signed long int)iStream)->stream_id = (unsigned int)return_value_atol$2;
+            signed long int return_value_atol_2;
+            return_value_atol_2=atol(pszToken);
+            (pBufferFill + (signed long int)iStream)->stream_id = (unsigned int)return_value_atol_2;
             pszToken=lscp_strtok((char *)(void *)0, pszSeps, &pch);
             if(pszToken == ((char *)NULL))
               break;
 
-            signed long int return_value_atol$3;
-            return_value_atol$3=atol(pszToken);
-            (pBufferFill + (signed long int)iStream)->stream_usage = (unsigned long int)return_value_atol$3;
+            signed long int return_value_atol_3;
+            return_value_atol_3=atol(pszToken);
+            (pBufferFill + (signed long int)iStream)->stream_usage = (unsigned long int)return_value_atol_3;
             iStream = iStream + 1;
           }
 
@@ -4318,9 +4318,9 @@ struct _lscp_buffer_fill_t * lscp_get_channel_buffer_fill(struct _lscp_client_t 
       }
 
       else
-        for( ; !(iStream >= pClient->iStreamCount); (pBufferFill + (signed long int)tmp_post$4)->stream_usage = (unsigned long int)0)
+        for( ; !(iStream >= pClient->iStreamCount); (pBufferFill + (signed long int)tmp_post_4)->stream_usage = (unsigned long int)0)
         {
-          tmp_post$4 = iStream;
+          tmp_post_4 = iStream;
           iStream = iStream + 1;
         }
     }
@@ -4342,32 +4342,32 @@ struct _lscp_channel_info_t * lscp_get_channel_info(struct _lscp_client_t *pClie
   char *pszToken;
   char *pch;
   struct _locale_t locale;
-  signed int return_value_strcasecmp$28;
-  char *return_value_lscp_ltrim$1;
-  signed int return_value_strcasecmp$27;
-  char *return_value_lscp_ltrim$2;
-  signed int return_value_strcasecmp$26;
-  signed int return_value_strcasecmp$25;
-  signed int return_value_strcasecmp$24;
-  char *return_value_lscp_ltrim$3;
-  signed int return_value_strcasecmp$23;
-  signed int return_value_strcasecmp$22;
-  char *return_value_lscp_ltrim$4;
-  signed int return_value_strcasecmp$21;
-  char *return_value_lscp_ltrim$5;
-  signed int return_value_strcasecmp$20;
-  char *return_value_lscp_ltrim$6;
-  signed int return_value_strcasecmp$19;
-  signed int return_value_strcasecmp$18;
-  signed int return_value_strcasecmp$8;
-  signed int return_value_strcasecmp$17;
-  char *return_value_lscp_ltrim$10;
-  signed int return_value_strcasecmp$16;
-  char *return_value_lscp_unquote$11;
-  signed int return_value_strcasecmp$12;
-  signed int return_value_strcasecmp$15;
-  char *return_value_lscp_unquote$13;
-  signed int return_value_strcasecmp$14;
+  signed int return_value_strcasecmp_28;
+  char *return_value_lscp_ltrim_1;
+  signed int return_value_strcasecmp_27;
+  char *return_value_lscp_ltrim_2;
+  signed int return_value_strcasecmp_26;
+  signed int return_value_strcasecmp_25;
+  signed int return_value_strcasecmp_24;
+  char *return_value_lscp_ltrim_3;
+  signed int return_value_strcasecmp_23;
+  signed int return_value_strcasecmp_22;
+  char *return_value_lscp_ltrim_4;
+  signed int return_value_strcasecmp_21;
+  char *return_value_lscp_ltrim_5;
+  signed int return_value_strcasecmp_20;
+  char *return_value_lscp_ltrim_6;
+  signed int return_value_strcasecmp_19;
+  signed int return_value_strcasecmp_18;
+  signed int return_value_strcasecmp_8;
+  signed int return_value_strcasecmp_17;
+  char *return_value_lscp_ltrim_10;
+  signed int return_value_strcasecmp_16;
+  char *return_value_lscp_unquote_11;
+  signed int return_value_strcasecmp_12;
+  signed int return_value_strcasecmp_15;
+  char *return_value_lscp_unquote_13;
+  signed int return_value_strcasecmp_14;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return (struct _lscp_channel_info_t *)(void *)0;
 
@@ -4382,17 +4382,17 @@ struct _lscp_channel_info_t * lscp_get_channel_info(struct _lscp_client_t *pClie
       lscp_channel_info_reset(pChannelInfo);
       _save_and_set_c_locale(&locale);
       sprintf(szQuery, "GET CHANNEL INFO %d\r\n", iSamplerChannel);
-      enum _lscp_status_t return_value_lscp_client_call$30;
-      return_value_lscp_client_call$30=lscp_client_call(pClient, szQuery, 1);
-      if((signed int)return_value_lscp_client_call$30 == LSCP_OK)
+      enum _lscp_status_t return_value_lscp_client_call_30;
+      return_value_lscp_client_call_30=lscp_client_call(pClient, szQuery, 1);
+      if((signed int)return_value_lscp_client_call_30 == LSCP_OK)
       {
         pszResult=lscp_client_get_result(pClient);
         pszToken=lscp_strtok((char *)pszResult, pszSeps, &pch);
         while(!(pszToken == ((char *)NULL)))
         {
-          signed int return_value_strcasecmp$29;
-          return_value_strcasecmp$29=strcasecmp(pszToken, "ENGINE_NAME");
-          if(return_value_strcasecmp$29 == 0)
+          signed int return_value_strcasecmp_29;
+          return_value_strcasecmp_29=strcasecmp(pszToken, "ENGINE_NAME");
+          if(return_value_strcasecmp_29 == 0)
           {
             pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
             if(!(pszToken == ((char *)NULL)))
@@ -4402,36 +4402,36 @@ struct _lscp_channel_info_t * lscp_get_channel_info(struct _lscp_client_t *pClie
 
           else
           {
-            return_value_strcasecmp$28=strcasecmp(pszToken, "AUDIO_OUTPUT_DEVICE");
-            if(return_value_strcasecmp$28 == 0)
+            return_value_strcasecmp_28=strcasecmp(pszToken, "AUDIO_OUTPUT_DEVICE");
+            if(return_value_strcasecmp_28 == 0)
             {
               pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
               if(!(pszToken == ((char *)NULL)))
               {
-                return_value_lscp_ltrim$1=lscp_ltrim(pszToken);
-                pChannelInfo->audio_device=atoi(return_value_lscp_ltrim$1);
+                return_value_lscp_ltrim_1=lscp_ltrim(pszToken);
+                pChannelInfo->audio_device=atoi(return_value_lscp_ltrim_1);
               }
 
             }
 
             else
             {
-              return_value_strcasecmp$27=strcasecmp(pszToken, "AUDIO_OUTPUT_CHANNELS");
-              if(return_value_strcasecmp$27 == 0)
+              return_value_strcasecmp_27=strcasecmp(pszToken, "AUDIO_OUTPUT_CHANNELS");
+              if(return_value_strcasecmp_27 == 0)
               {
                 pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                 if(!(pszToken == ((char *)NULL)))
                 {
-                  return_value_lscp_ltrim$2=lscp_ltrim(pszToken);
-                  pChannelInfo->audio_channels=atoi(return_value_lscp_ltrim$2);
+                  return_value_lscp_ltrim_2=lscp_ltrim(pszToken);
+                  pChannelInfo->audio_channels=atoi(return_value_lscp_ltrim_2);
                 }
 
               }
 
               else
               {
-                return_value_strcasecmp$26=strcasecmp(pszToken, "AUDIO_OUTPUT_ROUTING");
-                if(return_value_strcasecmp$26 == 0)
+                return_value_strcasecmp_26=strcasecmp(pszToken, "AUDIO_OUTPUT_ROUTING");
+                if(return_value_strcasecmp_26 == 0)
                 {
                   pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                   if(!(pszToken == ((char *)NULL)))
@@ -4446,8 +4446,8 @@ struct _lscp_channel_info_t * lscp_get_channel_info(struct _lscp_client_t *pClie
 
                 else
                 {
-                  return_value_strcasecmp$25=strcasecmp(pszToken, "INSTRUMENT_FILE");
-                  if(return_value_strcasecmp$25 == 0)
+                  return_value_strcasecmp_25=strcasecmp(pszToken, "INSTRUMENT_FILE");
+                  if(return_value_strcasecmp_25 == 0)
                   {
                     pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                     if(!(pszToken == ((char *)NULL)))
@@ -4457,22 +4457,22 @@ struct _lscp_channel_info_t * lscp_get_channel_info(struct _lscp_client_t *pClie
 
                   else
                   {
-                    return_value_strcasecmp$24=strcasecmp(pszToken, "INSTRUMENT_NR");
-                    if(return_value_strcasecmp$24 == 0)
+                    return_value_strcasecmp_24=strcasecmp(pszToken, "INSTRUMENT_NR");
+                    if(return_value_strcasecmp_24 == 0)
                     {
                       pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                       if(!(pszToken == ((char *)NULL)))
                       {
-                        return_value_lscp_ltrim$3=lscp_ltrim(pszToken);
-                        pChannelInfo->instrument_nr=atoi(return_value_lscp_ltrim$3);
+                        return_value_lscp_ltrim_3=lscp_ltrim(pszToken);
+                        pChannelInfo->instrument_nr=atoi(return_value_lscp_ltrim_3);
                       }
 
                     }
 
                     else
                     {
-                      return_value_strcasecmp$23=strcasecmp(pszToken, "INSTRUMENT_NAME");
-                      if(return_value_strcasecmp$23 == 0)
+                      return_value_strcasecmp_23=strcasecmp(pszToken, "INSTRUMENT_NAME");
+                      if(return_value_strcasecmp_23 == 0)
                       {
                         pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                         if(!(pszToken == ((char *)NULL)))
@@ -4482,58 +4482,58 @@ struct _lscp_channel_info_t * lscp_get_channel_info(struct _lscp_client_t *pClie
 
                       else
                       {
-                        return_value_strcasecmp$22=strcasecmp(pszToken, "INSTRUMENT_STATUS");
-                        if(return_value_strcasecmp$22 == 0)
+                        return_value_strcasecmp_22=strcasecmp(pszToken, "INSTRUMENT_STATUS");
+                        if(return_value_strcasecmp_22 == 0)
                         {
                           pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                           if(!(pszToken == ((char *)NULL)))
                           {
-                            return_value_lscp_ltrim$4=lscp_ltrim(pszToken);
-                            pChannelInfo->instrument_status=atoi(return_value_lscp_ltrim$4);
+                            return_value_lscp_ltrim_4=lscp_ltrim(pszToken);
+                            pChannelInfo->instrument_status=atoi(return_value_lscp_ltrim_4);
                           }
 
                         }
 
                         else
                         {
-                          return_value_strcasecmp$21=strcasecmp(pszToken, "MIDI_INPUT_DEVICE");
-                          if(return_value_strcasecmp$21 == 0)
+                          return_value_strcasecmp_21=strcasecmp(pszToken, "MIDI_INPUT_DEVICE");
+                          if(return_value_strcasecmp_21 == 0)
                           {
                             pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                             if(!(pszToken == ((char *)NULL)))
                             {
-                              return_value_lscp_ltrim$5=lscp_ltrim(pszToken);
-                              pChannelInfo->midi_device=atoi(return_value_lscp_ltrim$5);
+                              return_value_lscp_ltrim_5=lscp_ltrim(pszToken);
+                              pChannelInfo->midi_device=atoi(return_value_lscp_ltrim_5);
                             }
 
                           }
 
                           else
                           {
-                            return_value_strcasecmp$20=strcasecmp(pszToken, "MIDI_INPUT_PORT");
-                            if(return_value_strcasecmp$20 == 0)
+                            return_value_strcasecmp_20=strcasecmp(pszToken, "MIDI_INPUT_PORT");
+                            if(return_value_strcasecmp_20 == 0)
                             {
                               pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                               if(!(pszToken == ((char *)NULL)))
                               {
-                                return_value_lscp_ltrim$6=lscp_ltrim(pszToken);
-                                pChannelInfo->midi_port=atoi(return_value_lscp_ltrim$6);
+                                return_value_lscp_ltrim_6=lscp_ltrim(pszToken);
+                                pChannelInfo->midi_port=atoi(return_value_lscp_ltrim_6);
                               }
 
                             }
 
                             else
                             {
-                              return_value_strcasecmp$19=strcasecmp(pszToken, "MIDI_INPUT_CHANNEL");
-                              if(return_value_strcasecmp$19 == 0)
+                              return_value_strcasecmp_19=strcasecmp(pszToken, "MIDI_INPUT_CHANNEL");
+                              if(return_value_strcasecmp_19 == 0)
                               {
                                 pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                                 if(!(pszToken == ((char *)NULL)))
                                 {
                                   pszToken=lscp_ltrim(pszToken);
-                                  signed int return_value_strcasecmp$7;
-                                  return_value_strcasecmp$7=strcasecmp(pszToken, "ALL");
-                                  if(return_value_strcasecmp$7 == 0)
+                                  signed int return_value_strcasecmp_7;
+                                  return_value_strcasecmp_7=strcasecmp(pszToken, "ALL");
+                                  if(return_value_strcasecmp_7 == 0)
                                     pChannelInfo->midi_channel = 16;
 
                                   else
@@ -4544,22 +4544,22 @@ struct _lscp_channel_info_t * lscp_get_channel_info(struct _lscp_client_t *pClie
 
                               else
                               {
-                                return_value_strcasecmp$18=strcasecmp(pszToken, "MIDI_INSTRUMENT_MAP");
-                                if(return_value_strcasecmp$18 == 0)
+                                return_value_strcasecmp_18=strcasecmp(pszToken, "MIDI_INSTRUMENT_MAP");
+                                if(return_value_strcasecmp_18 == 0)
                                 {
                                   pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                                   if(!(pszToken == ((char *)NULL)))
                                   {
                                     pszToken=lscp_ltrim(pszToken);
-                                    signed int return_value_strcasecmp$9;
-                                    return_value_strcasecmp$9=strcasecmp(pszToken, "NONE");
-                                    if(return_value_strcasecmp$9 == 0)
+                                    signed int return_value_strcasecmp_9;
+                                    return_value_strcasecmp_9=strcasecmp(pszToken, "NONE");
+                                    if(return_value_strcasecmp_9 == 0)
                                       pChannelInfo->midi_map = -1;
 
                                     else
                                     {
-                                      return_value_strcasecmp$8=strcasecmp(pszToken, "DEFAULT");
-                                      if(return_value_strcasecmp$8 == 0)
+                                      return_value_strcasecmp_8=strcasecmp(pszToken, "DEFAULT");
+                                      if(return_value_strcasecmp_8 == 0)
                                         pChannelInfo->midi_map = -2;
 
                                       else
@@ -4571,44 +4571,44 @@ struct _lscp_channel_info_t * lscp_get_channel_info(struct _lscp_client_t *pClie
 
                                 else
                                 {
-                                  return_value_strcasecmp$17=strcasecmp(pszToken, "VOLUME");
-                                  if(return_value_strcasecmp$17 == 0)
+                                  return_value_strcasecmp_17=strcasecmp(pszToken, "VOLUME");
+                                  if(return_value_strcasecmp_17 == 0)
                                   {
                                     pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                                     if(!(pszToken == ((char *)NULL)))
                                     {
-                                      return_value_lscp_ltrim$10=lscp_ltrim(pszToken);
-                                      pChannelInfo->volume=_atof(return_value_lscp_ltrim$10);
+                                      return_value_lscp_ltrim_10=lscp_ltrim(pszToken);
+                                      pChannelInfo->volume=_atof(return_value_lscp_ltrim_10);
                                     }
 
                                   }
 
                                   else
                                   {
-                                    return_value_strcasecmp$16=strcasecmp(pszToken, "MUTE");
-                                    if(return_value_strcasecmp$16 == 0)
+                                    return_value_strcasecmp_16=strcasecmp(pszToken, "MUTE");
+                                    if(return_value_strcasecmp_16 == 0)
                                     {
                                       pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                                       if(!(pszToken == ((char *)NULL)))
                                       {
-                                        return_value_lscp_unquote$11=lscp_unquote(&pszToken, 0);
-                                        return_value_strcasecmp$12=strcasecmp(return_value_lscp_unquote$11, "TRUE");
-                                        pChannelInfo->mute = (signed int)(return_value_strcasecmp$12 == 0);
+                                        return_value_lscp_unquote_11=lscp_unquote(&pszToken, 0);
+                                        return_value_strcasecmp_12=strcasecmp(return_value_lscp_unquote_11, "TRUE");
+                                        pChannelInfo->mute = (signed int)(return_value_strcasecmp_12 == 0);
                                       }
 
                                     }
 
                                     else
                                     {
-                                      return_value_strcasecmp$15=strcasecmp(pszToken, "SOLO");
-                                      if(return_value_strcasecmp$15 == 0)
+                                      return_value_strcasecmp_15=strcasecmp(pszToken, "SOLO");
+                                      if(return_value_strcasecmp_15 == 0)
                                       {
                                         pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                                         if(!(pszToken == ((char *)NULL)))
                                         {
-                                          return_value_lscp_unquote$13=lscp_unquote(&pszToken, 0);
-                                          return_value_strcasecmp$14=strcasecmp(return_value_lscp_unquote$13, "TRUE");
-                                          pChannelInfo->solo = (signed int)(return_value_strcasecmp$14 == 0);
+                                          return_value_lscp_unquote_13=lscp_unquote(&pszToken, 0);
+                                          return_value_strcasecmp_14=strcasecmp(return_value_lscp_unquote_13, "TRUE");
+                                          pChannelInfo->solo = (signed int)(return_value_strcasecmp_14 == 0);
                                         }
 
                                       }
@@ -4645,7 +4645,7 @@ signed int lscp_get_channel_stream_count(struct _lscp_client_t *pClient, signed 
 {
   char szQuery[1024l];
   signed int iStreamCount = -1;
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return -1;
 
@@ -4657,12 +4657,12 @@ signed int lscp_get_channel_stream_count(struct _lscp_client_t *pClient, signed 
     {
       pthread_mutex_lock(&pClient->mutex);
       sprintf(szQuery, "GET CHANNEL STREAM_COUNT %d\r\n", iSamplerChannel);
-      enum _lscp_status_t return_value_lscp_client_call$2;
-      return_value_lscp_client_call$2=lscp_client_call(pClient, szQuery, 0);
-      if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+      enum _lscp_status_t return_value_lscp_client_call_2;
+      return_value_lscp_client_call_2=lscp_client_call(pClient, szQuery, 0);
+      if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
       {
-        return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-        iStreamCount=atoi(return_value_lscp_client_get_result$1);
+        return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+        iStreamCount=atoi(return_value_lscp_client_get_result_1);
       }
 
       pthread_mutex_unlock(&pClient->mutex);
@@ -4694,9 +4694,9 @@ signed int lscp_get_channel_stream_usage(struct _lscp_client_t *pClient, signed 
       pthread_mutex_lock(&pClient->mutex);
       iStream = 0;
       sprintf(szQuery, "GET CHANNEL BUFFER_FILL PERCENTAGE %d\r\n", iSamplerChannel);
-      enum _lscp_status_t return_value_lscp_client_call$2;
-      return_value_lscp_client_call$2=lscp_client_call(pClient, szQuery, 0);
-      if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+      enum _lscp_status_t return_value_lscp_client_call_2;
+      return_value_lscp_client_call_2=lscp_client_call(pClient, szQuery, 0);
+      if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
       {
         pszResult=lscp_client_get_result(pClient);
         pszToken=lscp_strtok((char *)pszResult, pszSeps, &pch);
@@ -4708,9 +4708,9 @@ signed int lscp_get_channel_stream_usage(struct _lscp_client_t *pClient, signed 
             if(pszToken == ((char *)NULL))
               break;
 
-            signed long int return_value_atol$1;
-            return_value_atol$1=atol(pszToken);
-            iPercent = (signed int)return_value_atol$1;
+            signed long int return_value_atol_1;
+            return_value_atol_1=atol(pszToken);
+            iPercent = (signed int)return_value_atol_1;
             if(iStream == 0 || !(iPercent >= iStreamUsage))
               iStreamUsage = iPercent;
 
@@ -4732,7 +4732,7 @@ signed int lscp_get_channel_voice_count(struct _lscp_client_t *pClient, signed i
 {
   char szQuery[1024l];
   signed int iVoiceCount = -1;
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return -1;
 
@@ -4744,12 +4744,12 @@ signed int lscp_get_channel_voice_count(struct _lscp_client_t *pClient, signed i
     {
       pthread_mutex_lock(&pClient->mutex);
       sprintf(szQuery, "GET CHANNEL VOICE_COUNT %d\r\n", iSamplerChannel);
-      enum _lscp_status_t return_value_lscp_client_call$2;
-      return_value_lscp_client_call$2=lscp_client_call(pClient, szQuery, 0);
-      if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+      enum _lscp_status_t return_value_lscp_client_call_2;
+      return_value_lscp_client_call_2=lscp_client_call(pClient, szQuery, 0);
+      if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
       {
-        return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-        iVoiceCount=atoi(return_value_lscp_client_get_result$1);
+        return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+        iVoiceCount=atoi(return_value_lscp_client_get_result_1);
       }
 
       pthread_mutex_unlock(&pClient->mutex);
@@ -4762,19 +4762,19 @@ signed int lscp_get_channel_voice_count(struct _lscp_client_t *pClient, signed i
 signed int lscp_get_channels(struct _lscp_client_t *pClient)
 {
   signed int iChannels = -1;
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return -1;
 
   else
   {
     pthread_mutex_lock(&pClient->mutex);
-    enum _lscp_status_t return_value_lscp_client_call$2;
-    return_value_lscp_client_call$2=lscp_client_call(pClient, "GET CHANNELS\r\n", 0);
-    if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_2;
+    return_value_lscp_client_call_2=lscp_client_call(pClient, "GET CHANNELS\r\n", 0);
+    if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-      iChannels=atoi(return_value_lscp_client_get_result$1);
+      return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+      iChannels=atoi(return_value_lscp_client_get_result_1);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -4793,7 +4793,7 @@ struct _lscp_engine_info_t * lscp_get_engine_info(struct _lscp_client_t *pClient
   const char *pszCrlf = "\r\n";
   char *pszToken;
   char *pch;
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return (struct _lscp_engine_info_t *)(void *)0;
 
@@ -4807,17 +4807,17 @@ struct _lscp_engine_info_t * lscp_get_engine_info(struct _lscp_client_t *pClient
       pEngineInfo = &pClient->engine_info;
       lscp_engine_info_reset(pEngineInfo);
       sprintf(szQuery, "GET ENGINE INFO %s\r\n", pszEngineName);
-      enum _lscp_status_t return_value_lscp_client_call$3;
-      return_value_lscp_client_call$3=lscp_client_call(pClient, szQuery, 1);
-      if((signed int)return_value_lscp_client_call$3 == LSCP_OK)
+      enum _lscp_status_t return_value_lscp_client_call_3;
+      return_value_lscp_client_call_3=lscp_client_call(pClient, szQuery, 1);
+      if((signed int)return_value_lscp_client_call_3 == LSCP_OK)
       {
         pszResult=lscp_client_get_result(pClient);
         pszToken=lscp_strtok((char *)pszResult, pszSeps, &pch);
         while(!(pszToken == ((char *)NULL)))
         {
-          signed int return_value_strcasecmp$2;
-          return_value_strcasecmp$2=strcasecmp(pszToken, "DESCRIPTION");
-          if(return_value_strcasecmp$2 == 0)
+          signed int return_value_strcasecmp_2;
+          return_value_strcasecmp_2=strcasecmp(pszToken, "DESCRIPTION");
+          if(return_value_strcasecmp_2 == 0)
           {
             pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
             if(!(pszToken == ((char *)NULL)))
@@ -4827,8 +4827,8 @@ struct _lscp_engine_info_t * lscp_get_engine_info(struct _lscp_client_t *pClient
 
           else
           {
-            return_value_strcasecmp$1=strcasecmp(pszToken, "VERSION");
-            if(return_value_strcasecmp$1 == 0)
+            return_value_strcasecmp_1=strcasecmp(pszToken, "VERSION");
+            if(return_value_strcasecmp_1 == 0)
             {
               pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
               if(!(pszToken == ((char *)NULL)))
@@ -4860,11 +4860,11 @@ struct _lscp_fxsend_info_t * lscp_get_fxsend_info(struct _lscp_client_t *pClient
   char *pszToken;
   char *pch;
   struct _locale_t locale;
-  signed int return_value_strcasecmp$5;
-  char *return_value_lscp_ltrim$1;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_strcasecmp$3;
-  char *return_value_lscp_ltrim$2;
+  signed int return_value_strcasecmp_5;
+  char *return_value_lscp_ltrim_1;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_strcasecmp_3;
+  char *return_value_lscp_ltrim_2;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return (struct _lscp_fxsend_info_t *)(void *)0;
 
@@ -4879,17 +4879,17 @@ struct _lscp_fxsend_info_t * lscp_get_fxsend_info(struct _lscp_client_t *pClient
       pFxSendInfo = &pClient->fxsend_info;
       lscp_fxsend_info_reset(pFxSendInfo);
       sprintf(szQuery, "GET FX_SEND INFO %d %d\r\n", iSamplerChannel, iFxSend);
-      enum _lscp_status_t return_value_lscp_client_call$7;
-      return_value_lscp_client_call$7=lscp_client_call(pClient, szQuery, 1);
-      if((signed int)return_value_lscp_client_call$7 == LSCP_OK)
+      enum _lscp_status_t return_value_lscp_client_call_7;
+      return_value_lscp_client_call_7=lscp_client_call(pClient, szQuery, 1);
+      if((signed int)return_value_lscp_client_call_7 == LSCP_OK)
       {
         pszResult=lscp_client_get_result(pClient);
         pszToken=lscp_strtok((char *)pszResult, pszSeps, &pch);
         while(!(pszToken == ((char *)NULL)))
         {
-          signed int return_value_strcasecmp$6;
-          return_value_strcasecmp$6=strcasecmp(pszToken, "NAME");
-          if(return_value_strcasecmp$6 == 0)
+          signed int return_value_strcasecmp_6;
+          return_value_strcasecmp_6=strcasecmp(pszToken, "NAME");
+          if(return_value_strcasecmp_6 == 0)
           {
             pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
             if(!(pszToken == ((char *)NULL)))
@@ -4899,22 +4899,22 @@ struct _lscp_fxsend_info_t * lscp_get_fxsend_info(struct _lscp_client_t *pClient
 
           else
           {
-            return_value_strcasecmp$5=strcasecmp(pszToken, "MIDI_CONTROLLER");
-            if(return_value_strcasecmp$5 == 0)
+            return_value_strcasecmp_5=strcasecmp(pszToken, "MIDI_CONTROLLER");
+            if(return_value_strcasecmp_5 == 0)
             {
               pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
               if(!(pszToken == ((char *)NULL)))
               {
-                return_value_lscp_ltrim$1=lscp_ltrim(pszToken);
-                pFxSendInfo->midi_controller=atoi(return_value_lscp_ltrim$1);
+                return_value_lscp_ltrim_1=lscp_ltrim(pszToken);
+                pFxSendInfo->midi_controller=atoi(return_value_lscp_ltrim_1);
               }
 
             }
 
             else
             {
-              return_value_strcasecmp$4=strcasecmp(pszToken, "AUDIO_OUTPUT_ROUTING");
-              if(return_value_strcasecmp$4 == 0)
+              return_value_strcasecmp_4=strcasecmp(pszToken, "AUDIO_OUTPUT_ROUTING");
+              if(return_value_strcasecmp_4 == 0)
               {
                 pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                 if(!(pszToken == ((char *)NULL)))
@@ -4929,14 +4929,14 @@ struct _lscp_fxsend_info_t * lscp_get_fxsend_info(struct _lscp_client_t *pClient
 
               else
               {
-                return_value_strcasecmp$3=strcasecmp(pszToken, "LEVEL");
-                if(return_value_strcasecmp$3 == 0)
+                return_value_strcasecmp_3=strcasecmp(pszToken, "LEVEL");
+                if(return_value_strcasecmp_3 == 0)
                 {
                   pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                   if(!(pszToken == ((char *)NULL)))
                   {
-                    return_value_lscp_ltrim$2=lscp_ltrim(pszToken);
-                    pFxSendInfo->level=_atof(return_value_lscp_ltrim$2);
+                    return_value_lscp_ltrim_2=lscp_ltrim(pszToken);
+                    pFxSendInfo->level=_atof(return_value_lscp_ltrim_2);
                   }
 
                 }
@@ -4962,7 +4962,7 @@ signed int lscp_get_fxsends(struct _lscp_client_t *pClient, signed int iSamplerC
 {
   signed int iFxSends = -1;
   char szQuery[1024l];
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return -1;
 
@@ -4974,12 +4974,12 @@ signed int lscp_get_fxsends(struct _lscp_client_t *pClient, signed int iSamplerC
     {
       pthread_mutex_lock(&pClient->mutex);
       sprintf(szQuery, "GET FX_SENDS %d\r\n", iSamplerChannel);
-      enum _lscp_status_t return_value_lscp_client_call$2;
-      return_value_lscp_client_call$2=lscp_client_call(pClient, szQuery, 0);
-      if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+      enum _lscp_status_t return_value_lscp_client_call_2;
+      return_value_lscp_client_call_2=lscp_client_call(pClient, szQuery, 0);
+      if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
       {
-        return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-        iFxSends=atoi(return_value_lscp_client_get_result$1);
+        return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+        iFxSends=atoi(return_value_lscp_client_get_result_1);
       }
 
       pthread_mutex_unlock(&pClient->mutex);
@@ -5002,9 +5002,9 @@ struct _lscp_device_info_t * lscp_get_midi_device_info(struct _lscp_client_t *pC
     else
     {
       sprintf(szQuery, "GET MIDI_INPUT_DEVICE INFO %d\r\n", iMidiDevice);
-      struct _lscp_device_info_t *return_value__lscp_device_info_query$1;
-      return_value__lscp_device_info_query$1=_lscp_device_info_query(pClient, &pClient->midi_device_info, szQuery);
-      return return_value__lscp_device_info_query$1;
+      struct _lscp_device_info_t *return_value__lscp_device_info_query_1;
+      return_value__lscp_device_info_query_1=_lscp_device_info_query(pClient, &pClient->midi_device_info, szQuery);
+      return return_value__lscp_device_info_query_1;
     }
 }
 
@@ -5013,19 +5013,19 @@ struct _lscp_device_info_t * lscp_get_midi_device_info(struct _lscp_client_t *pC
 signed int lscp_get_midi_devices(struct _lscp_client_t *pClient)
 {
   signed int iMidiDevices = -1;
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return -1;
 
   else
   {
     pthread_mutex_lock(&pClient->mutex);
-    enum _lscp_status_t return_value_lscp_client_call$2;
-    return_value_lscp_client_call$2=lscp_client_call(pClient, "GET MIDI_INPUT_DEVICES\r\n", 0);
-    if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_2;
+    return_value_lscp_client_call_2=lscp_client_call(pClient, "GET MIDI_INPUT_DEVICES\r\n", 0);
+    if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-      iMidiDevices=atoi(return_value_lscp_client_get_result$1);
+      return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+      iMidiDevices=atoi(return_value_lscp_client_get_result_1);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -5044,9 +5044,9 @@ struct _lscp_driver_info_t * lscp_get_midi_driver_info(struct _lscp_client_t *pC
   else
   {
     sprintf(szQuery, "GET MIDI_INPUT_DRIVER INFO %s\r\n", pszMidiDriver);
-    struct _lscp_driver_info_t *return_value__lscp_driver_info_query$1;
-    return_value__lscp_driver_info_query$1=_lscp_driver_info_query(pClient, &pClient->midi_driver_info, szQuery);
-    return return_value__lscp_driver_info_query$1;
+    struct _lscp_driver_info_t *return_value__lscp_driver_info_query_1;
+    return_value__lscp_driver_info_query_1=_lscp_driver_info_query(pClient, &pClient->midi_driver_info, szQuery);
+    return return_value__lscp_driver_info_query_1;
   }
 }
 
@@ -5069,9 +5069,9 @@ struct _lscp_param_info_t * lscp_get_midi_driver_param_info(struct _lscp_client_
       else
       {
         sprintf(szQuery, "GET MIDI_INPUT_DRIVER_PARAMETER INFO %s %s", pszMidiDriver, pszParam);
-        struct _lscp_param_info_t *return_value__lscp_param_info_query$1;
-        return_value__lscp_param_info_query$1=_lscp_param_info_query(pClient, &pClient->midi_param_info, szQuery, (signed int)sizeof(char [1024l]) /*1024ul*/ , pDepList);
-        return return_value__lscp_param_info_query$1;
+        struct _lscp_param_info_t *return_value__lscp_param_info_query_1;
+        return_value__lscp_param_info_query_1=_lscp_param_info_query(pClient, &pClient->midi_param_info, szQuery, (signed int)sizeof(char [1024l]) /*1024ul*/ , pDepList);
+        return return_value__lscp_param_info_query_1;
       }
 }
 
@@ -5087,18 +5087,18 @@ struct _lscp_midi_instrument_info_t * lscp_get_midi_instrument_info(struct _lscp
   char *pszToken;
   char *pch;
   struct _locale_t locale;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcasecmp$13;
-  signed int return_value_strcasecmp$12;
-  signed int return_value_strcasecmp$11;
-  char *return_value_lscp_ltrim$3;
-  signed int return_value_strcasecmp$10;
-  signed int return_value_strcasecmp$9;
-  signed int return_value_strcasecmp$5;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_strcasecmp$8;
-  char *return_value_lscp_ltrim$7;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcasecmp_13;
+  signed int return_value_strcasecmp_12;
+  signed int return_value_strcasecmp_11;
+  char *return_value_lscp_ltrim_3;
+  signed int return_value_strcasecmp_10;
+  signed int return_value_strcasecmp_9;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_strcasecmp_8;
+  char *return_value_lscp_ltrim_7;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return (struct _lscp_midi_instrument_info_t *)(void *)0;
 
@@ -5109,21 +5109,21 @@ struct _lscp_midi_instrument_info_t * lscp_get_midi_instrument_info(struct _lscp
     else
     {
       if(!(pMidiInstr->bank >= 0))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = pMidiInstr->bank > 16383 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = pMidiInstr->bank > 16383 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         return (struct _lscp_midi_instrument_info_t *)(void *)0;
 
       else
       {
         if(!(pMidiInstr->prog >= 0))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = pMidiInstr->prog > 127 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = pMidiInstr->prog > 127 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           return (struct _lscp_midi_instrument_info_t *)(void *)0;
 
         else
@@ -5133,17 +5133,17 @@ struct _lscp_midi_instrument_info_t * lscp_get_midi_instrument_info(struct _lscp
           pInstrInfo = &pClient->midi_instrument_info;
           lscp_midi_instrument_info_reset(pInstrInfo);
           sprintf(szQuery, "GET MIDI_INSTRUMENT INFO %d %d %d\r\n", pMidiInstr->map, pMidiInstr->bank, pMidiInstr->prog);
-          enum _lscp_status_t return_value_lscp_client_call$15;
-          return_value_lscp_client_call$15=lscp_client_call(pClient, szQuery, 1);
-          if((signed int)return_value_lscp_client_call$15 == LSCP_OK)
+          enum _lscp_status_t return_value_lscp_client_call_15;
+          return_value_lscp_client_call_15=lscp_client_call(pClient, szQuery, 1);
+          if((signed int)return_value_lscp_client_call_15 == LSCP_OK)
           {
             pszResult=lscp_client_get_result(pClient);
             pszToken=lscp_strtok((char *)pszResult, pszSeps, &pch);
             while(!(pszToken == ((char *)NULL)))
             {
-              signed int return_value_strcasecmp$14;
-              return_value_strcasecmp$14=strcasecmp(pszToken, "NAME");
-              if(return_value_strcasecmp$14 == 0)
+              signed int return_value_strcasecmp_14;
+              return_value_strcasecmp_14=strcasecmp(pszToken, "NAME");
+              if(return_value_strcasecmp_14 == 0)
               {
                 pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                 if(!(pszToken == ((char *)NULL)))
@@ -5153,8 +5153,8 @@ struct _lscp_midi_instrument_info_t * lscp_get_midi_instrument_info(struct _lscp
 
               else
               {
-                return_value_strcasecmp$13=strcasecmp(pszToken, "ENGINE_NAME");
-                if(return_value_strcasecmp$13 == 0)
+                return_value_strcasecmp_13=strcasecmp(pszToken, "ENGINE_NAME");
+                if(return_value_strcasecmp_13 == 0)
                 {
                   pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                   if(!(pszToken == ((char *)NULL)))
@@ -5164,8 +5164,8 @@ struct _lscp_midi_instrument_info_t * lscp_get_midi_instrument_info(struct _lscp
 
                 else
                 {
-                  return_value_strcasecmp$12=strcasecmp(pszToken, "INSTRUMENT_FILE");
-                  if(return_value_strcasecmp$12 == 0)
+                  return_value_strcasecmp_12=strcasecmp(pszToken, "INSTRUMENT_FILE");
+                  if(return_value_strcasecmp_12 == 0)
                   {
                     pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                     if(!(pszToken == ((char *)NULL)))
@@ -5175,22 +5175,22 @@ struct _lscp_midi_instrument_info_t * lscp_get_midi_instrument_info(struct _lscp
 
                   else
                   {
-                    return_value_strcasecmp$11=strcasecmp(pszToken, "INSTRUMENT_NR");
-                    if(return_value_strcasecmp$11 == 0)
+                    return_value_strcasecmp_11=strcasecmp(pszToken, "INSTRUMENT_NR");
+                    if(return_value_strcasecmp_11 == 0)
                     {
                       pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                       if(!(pszToken == ((char *)NULL)))
                       {
-                        return_value_lscp_ltrim$3=lscp_ltrim(pszToken);
-                        pInstrInfo->instrument_nr=atoi(return_value_lscp_ltrim$3);
+                        return_value_lscp_ltrim_3=lscp_ltrim(pszToken);
+                        pInstrInfo->instrument_nr=atoi(return_value_lscp_ltrim_3);
                       }
 
                     }
 
                     else
                     {
-                      return_value_strcasecmp$10=strcasecmp(pszToken, "INSTRUMENT_NAME");
-                      if(return_value_strcasecmp$10 == 0)
+                      return_value_strcasecmp_10=strcasecmp(pszToken, "INSTRUMENT_NAME");
+                      if(return_value_strcasecmp_10 == 0)
                       {
                         pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                         if(!(pszToken == ((char *)NULL)))
@@ -5200,28 +5200,28 @@ struct _lscp_midi_instrument_info_t * lscp_get_midi_instrument_info(struct _lscp
 
                       else
                       {
-                        return_value_strcasecmp$9=strcasecmp(pszToken, "LOAD_MODE");
-                        if(return_value_strcasecmp$9 == 0)
+                        return_value_strcasecmp_9=strcasecmp(pszToken, "LOAD_MODE");
+                        if(return_value_strcasecmp_9 == 0)
                         {
                           pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                           if(!(pszToken == ((char *)NULL)))
                           {
                             pszToken=lscp_ltrim(pszToken);
-                            signed int return_value_strcasecmp$6;
-                            return_value_strcasecmp$6=strcasecmp(pszToken, "ON_DEMAND");
-                            if(return_value_strcasecmp$6 == 0)
+                            signed int return_value_strcasecmp_6;
+                            return_value_strcasecmp_6=strcasecmp(pszToken, "ON_DEMAND");
+                            if(return_value_strcasecmp_6 == 0)
                               pInstrInfo->load_mode = (enum _lscp_load_mode_t)LSCP_LOAD_ON_DEMAND;
 
                             else
                             {
-                              return_value_strcasecmp$5=strcasecmp(pszToken, "ON_DEMAND_HOLD");
-                              if(return_value_strcasecmp$5 == 0)
+                              return_value_strcasecmp_5=strcasecmp(pszToken, "ON_DEMAND_HOLD");
+                              if(return_value_strcasecmp_5 == 0)
                                 pInstrInfo->load_mode = (enum _lscp_load_mode_t)LSCP_LOAD_ON_DEMAND_HOLD;
 
                               else
                               {
-                                return_value_strcasecmp$4=strcasecmp(pszToken, "PERSISTENT");
-                                if(return_value_strcasecmp$4 == 0)
+                                return_value_strcasecmp_4=strcasecmp(pszToken, "PERSISTENT");
+                                if(return_value_strcasecmp_4 == 0)
                                   pInstrInfo->load_mode = (enum _lscp_load_mode_t)LSCP_LOAD_PERSISTENT;
 
                                 else
@@ -5234,14 +5234,14 @@ struct _lscp_midi_instrument_info_t * lscp_get_midi_instrument_info(struct _lscp
 
                         else
                         {
-                          return_value_strcasecmp$8=strcasecmp(pszToken, "VOLUME");
-                          if(return_value_strcasecmp$8 == 0)
+                          return_value_strcasecmp_8=strcasecmp(pszToken, "VOLUME");
+                          if(return_value_strcasecmp_8 == 0)
                           {
                             pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
                             if(!(pszToken == ((char *)NULL)))
                             {
-                              return_value_lscp_ltrim$7=lscp_ltrim(pszToken);
-                              pInstrInfo->volume=_atof(return_value_lscp_ltrim$7);
+                              return_value_lscp_ltrim_7=lscp_ltrim(pszToken);
+                              pInstrInfo->volume=_atof(return_value_lscp_ltrim_7);
                             }
 
                           }
@@ -5293,17 +5293,17 @@ const char * lscp_get_midi_instrument_map_name(struct _lscp_client_t *pClient, s
       }
 
       sprintf(szQuery, "GET MIDI_INSTRUMENT_MAP INFO %d\r\n", iMidiMap);
-      enum _lscp_status_t return_value_lscp_client_call$2;
-      return_value_lscp_client_call$2=lscp_client_call(pClient, szQuery, 1);
-      if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+      enum _lscp_status_t return_value_lscp_client_call_2;
+      return_value_lscp_client_call_2=lscp_client_call(pClient, szQuery, 1);
+      if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
       {
         pszResult=lscp_client_get_result(pClient);
         pszToken=lscp_strtok((char *)pszResult, pszSeps, &pch);
         while(!(pszToken == ((char *)NULL)))
         {
-          signed int return_value_strcasecmp$1;
-          return_value_strcasecmp$1=strcasecmp(pszToken, "NAME");
-          if(return_value_strcasecmp$1 == 0)
+          signed int return_value_strcasecmp_1;
+          return_value_strcasecmp_1=strcasecmp(pszToken, "NAME");
+          if(return_value_strcasecmp_1 == 0)
           {
             pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
             if(!(pszToken == ((char *)NULL)))
@@ -5325,19 +5325,19 @@ const char * lscp_get_midi_instrument_map_name(struct _lscp_client_t *pClient, s
 signed int lscp_get_midi_instrument_maps(struct _lscp_client_t *pClient)
 {
   signed int iMidiMaps = -1;
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return -1;
 
   else
   {
     pthread_mutex_lock(&pClient->mutex);
-    enum _lscp_status_t return_value_lscp_client_call$2;
-    return_value_lscp_client_call$2=lscp_client_call(pClient, "GET MIDI_INSTRUMENT_MAPS\r\n", 0);
-    if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_2;
+    return_value_lscp_client_call_2=lscp_client_call(pClient, "GET MIDI_INSTRUMENT_MAPS\r\n", 0);
+    if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-      iMidiMaps=atoi(return_value_lscp_client_get_result$1);
+      return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+      iMidiMaps=atoi(return_value_lscp_client_get_result_1);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -5351,8 +5351,8 @@ signed int lscp_get_midi_instruments(struct _lscp_client_t *pClient, signed int 
 {
   signed int iInstruments = -1;
   char szQuery[1024l];
-  unsigned long int return_value_strlen$1;
-  const char *return_value_lscp_client_get_result$2;
+  unsigned long int return_value_strlen_1;
+  const char *return_value_lscp_client_get_result_2;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return -1;
 
@@ -5365,16 +5365,16 @@ signed int lscp_get_midi_instruments(struct _lscp_client_t *pClient, signed int 
 
     else
     {
-      return_value_strlen$1=strlen(szQuery);
-      sprintf(szQuery + (signed long int)return_value_strlen$1, "%d", iMidiMap);
+      return_value_strlen_1=strlen(szQuery);
+      sprintf(szQuery + (signed long int)return_value_strlen_1, "%d", iMidiMap);
     }
     strcat(szQuery, "\r\n");
-    enum _lscp_status_t return_value_lscp_client_call$3;
-    return_value_lscp_client_call$3=lscp_client_call(pClient, szQuery, 0);
-    if((signed int)return_value_lscp_client_call$3 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_3;
+    return_value_lscp_client_call_3=lscp_client_call(pClient, szQuery, 0);
+    if((signed int)return_value_lscp_client_call_3 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$2=lscp_client_get_result(pClient);
-      iInstruments=atoi(return_value_lscp_client_get_result$2);
+      return_value_lscp_client_get_result_2=lscp_client_get_result(pClient);
+      iInstruments=atoi(return_value_lscp_client_get_result_2);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -5401,9 +5401,9 @@ struct _lscp_device_port_info_t * lscp_get_midi_port_info(struct _lscp_client_t 
       else
       {
         sprintf(szQuery, "GET MIDI_INPUT_PORT INFO %d %d\r\n", iMidiDevice, iMidiPort);
-        struct _lscp_device_port_info_t *return_value__lscp_device_port_info_query$1;
-        return_value__lscp_device_port_info_query$1=_lscp_device_port_info_query(pClient, &pClient->midi_port_info, szQuery);
-        return return_value__lscp_device_port_info_query$1;
+        struct _lscp_device_port_info_t *return_value__lscp_device_port_info_query_1;
+        return_value__lscp_device_port_info_query_1=_lscp_device_port_info_query(pClient, &pClient->midi_port_info, szQuery);
+        return return_value__lscp_device_port_info_query_1;
       }
 }
 
@@ -5430,9 +5430,9 @@ struct _lscp_param_info_t * lscp_get_midi_port_param_info(struct _lscp_client_t 
         else
         {
           sprintf(szQuery, "GET MIDI_INPUT_PORT_PARAMETER INFO %d %d %s", iMidiDevice, iMidiPort, pszParam);
-          struct _lscp_param_info_t *return_value__lscp_param_info_query$1;
-          return_value__lscp_param_info_query$1=_lscp_param_info_query(pClient, &pClient->midi_port_param_info, szQuery, (signed int)sizeof(char [1024l]) /*1024ul*/ , (struct _lscp_param_t *)(void *)0);
-          return return_value__lscp_param_info_query$1;
+          struct _lscp_param_info_t *return_value__lscp_param_info_query_1;
+          return_value__lscp_param_info_query_1=_lscp_param_info_query(pClient, &pClient->midi_port_param_info, szQuery, (signed int)sizeof(char [1024l]) /*1024ul*/ , (struct _lscp_param_t *)(void *)0);
+          return return_value__lscp_param_info_query_1;
         }
 }
 
@@ -5441,20 +5441,20 @@ struct _lscp_param_info_t * lscp_get_midi_port_param_info(struct _lscp_client_t 
 const char * lscp_get_param_value(struct _lscp_param_t *pParams, const char *pszParam)
 {
   signed int i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(pParams == ((struct _lscp_param_t *)NULL)))
-      tmp_if_expr$1 = (pParams + (signed long int)i)->key != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (pParams + (signed long int)i)->key != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
-    signed int return_value_strcasecmp$2;
-    return_value_strcasecmp$2=strcasecmp((pParams + (signed long int)i)->key, pszParam);
-    if(return_value_strcasecmp$2 == 0)
+    signed int return_value_strcasecmp_2;
+    return_value_strcasecmp_2=strcasecmp((pParams + (signed long int)i)->key, pszParam);
+    if(return_value_strcasecmp_2 == 0)
       return (const char *)(pParams + (signed long int)i)->value;
 
     i = i + 1;
@@ -5473,8 +5473,8 @@ struct _lscp_server_info_t * lscp_get_server_info(struct _lscp_client_t *pClient
   const char *pszCrlf = "\r\n";
   char *pszToken;
   char *pch;
-  signed int return_value_strcasecmp$2;
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_2;
+  signed int return_value_strcasecmp_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return (struct _lscp_server_info_t *)(void *)0;
 
@@ -5483,17 +5483,17 @@ struct _lscp_server_info_t * lscp_get_server_info(struct _lscp_client_t *pClient
     pthread_mutex_lock(&pClient->mutex);
     pServerInfo = &pClient->server_info;
     lscp_server_info_reset(pServerInfo);
-    enum _lscp_status_t return_value_lscp_client_call$4;
-    return_value_lscp_client_call$4=lscp_client_call(pClient, "GET SERVER INFO\r\n", 1);
-    if((signed int)return_value_lscp_client_call$4 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_4;
+    return_value_lscp_client_call_4=lscp_client_call(pClient, "GET SERVER INFO\r\n", 1);
+    if((signed int)return_value_lscp_client_call_4 == LSCP_OK)
     {
       pszResult=lscp_client_get_result(pClient);
       pszToken=lscp_strtok((char *)pszResult, pszSeps, &pch);
       while(!(pszToken == ((char *)NULL)))
       {
-        signed int return_value_strcasecmp$3;
-        return_value_strcasecmp$3=strcasecmp(pszToken, "DESCRIPTION");
-        if(return_value_strcasecmp$3 == 0)
+        signed int return_value_strcasecmp_3;
+        return_value_strcasecmp_3=strcasecmp(pszToken, "DESCRIPTION");
+        if(return_value_strcasecmp_3 == 0)
         {
           pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
           if(!(pszToken == ((char *)NULL)))
@@ -5503,8 +5503,8 @@ struct _lscp_server_info_t * lscp_get_server_info(struct _lscp_client_t *pClient
 
         else
         {
-          return_value_strcasecmp$2=strcasecmp(pszToken, "VERSION");
-          if(return_value_strcasecmp$2 == 0)
+          return_value_strcasecmp_2=strcasecmp(pszToken, "VERSION");
+          if(return_value_strcasecmp_2 == 0)
           {
             pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
             if(!(pszToken == ((char *)NULL)))
@@ -5514,8 +5514,8 @@ struct _lscp_server_info_t * lscp_get_server_info(struct _lscp_client_t *pClient
 
           else
           {
-            return_value_strcasecmp$1=strcasecmp(pszToken, "PROTOCOL_VERSION");
-            if(return_value_strcasecmp$1 == 0)
+            return_value_strcasecmp_1=strcasecmp(pszToken, "PROTOCOL_VERSION");
+            if(return_value_strcasecmp_1 == 0)
             {
               pszToken=lscp_strtok((char *)(void *)0, pszCrlf, &pch);
               if(!(pszToken == ((char *)NULL)))
@@ -5541,19 +5541,19 @@ struct _lscp_server_info_t * lscp_get_server_info(struct _lscp_client_t *pClient
 signed int lscp_get_streams(struct _lscp_client_t *pClient)
 {
   signed int iStreams = -1;
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return -1;
 
   else
   {
     pthread_mutex_lock(&pClient->mutex);
-    enum _lscp_status_t return_value_lscp_client_call$2;
-    return_value_lscp_client_call$2=lscp_client_call(pClient, "GET STREAMS\r\n", 0);
-    if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_2;
+    return_value_lscp_client_call_2=lscp_client_call(pClient, "GET STREAMS\r\n", 0);
+    if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-      iStreams=atoi(return_value_lscp_client_get_result$1);
+      return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+      iStreams=atoi(return_value_lscp_client_get_result_1);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -5566,19 +5566,19 @@ signed int lscp_get_streams(struct _lscp_client_t *pClient)
 signed int lscp_get_total_voice_count(struct _lscp_client_t *pClient)
 {
   signed int iVoiceCount = -1;
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return -1;
 
   else
   {
     pthread_mutex_lock(&pClient->mutex);
-    enum _lscp_status_t return_value_lscp_client_call$2;
-    return_value_lscp_client_call$2=lscp_client_call(pClient, "GET TOTAL_VOICE_COUNT\r\n", 0);
-    if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_2;
+    return_value_lscp_client_call_2=lscp_client_call(pClient, "GET TOTAL_VOICE_COUNT\r\n", 0);
+    if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-      iVoiceCount=atoi(return_value_lscp_client_get_result$1);
+      return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+      iVoiceCount=atoi(return_value_lscp_client_get_result_1);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -5591,19 +5591,19 @@ signed int lscp_get_total_voice_count(struct _lscp_client_t *pClient)
 signed int lscp_get_total_voice_count_max(struct _lscp_client_t *pClient)
 {
   signed int iVoiceCount = -1;
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return -1;
 
   else
   {
     pthread_mutex_lock(&pClient->mutex);
-    enum _lscp_status_t return_value_lscp_client_call$2;
-    return_value_lscp_client_call$2=lscp_client_call(pClient, "GET TOTAL_VOICE_COUNT_MAX\r\n", 0);
-    if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_2;
+    return_value_lscp_client_call_2=lscp_client_call(pClient, "GET TOTAL_VOICE_COUNT_MAX\r\n", 0);
+    if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-      iVoiceCount=atoi(return_value_lscp_client_get_result$1);
+      return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+      iVoiceCount=atoi(return_value_lscp_client_get_result_1);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -5616,19 +5616,19 @@ signed int lscp_get_total_voice_count_max(struct _lscp_client_t *pClient)
 signed int lscp_get_voices(struct _lscp_client_t *pClient)
 {
   signed int iVoices = -1;
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return -1;
 
   else
   {
     pthread_mutex_lock(&pClient->mutex);
-    enum _lscp_status_t return_value_lscp_client_call$2;
-    return_value_lscp_client_call$2=lscp_client_call(pClient, "GET VOICES\r\n", 0);
-    if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_2;
+    return_value_lscp_client_call_2=lscp_client_call(pClient, "GET VOICES\r\n", 0);
+    if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-      iVoices=atoi(return_value_lscp_client_get_result$1);
+      return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+      iVoices=atoi(return_value_lscp_client_get_result_1);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -5642,7 +5642,7 @@ float lscp_get_volume(struct _lscp_client_t *pClient)
 {
   float fVolume = 0.0f;
   struct _locale_t locale;
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return 0.0f;
 
@@ -5650,12 +5650,12 @@ float lscp_get_volume(struct _lscp_client_t *pClient)
   {
     pthread_mutex_lock(&pClient->mutex);
     _save_and_set_c_locale(&locale);
-    enum _lscp_status_t return_value_lscp_client_call$2;
-    return_value_lscp_client_call$2=lscp_client_call(pClient, "GET VOLUME\r\n", 0);
-    if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_2;
+    return_value_lscp_client_call_2=lscp_client_call(pClient, "GET VOLUME\r\n", 0);
+    if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-      fVolume=_atof(return_value_lscp_client_get_result$1);
+      return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+      fVolume=_atof(return_value_lscp_client_get_result_1);
     }
 
     _restore_locale(&locale);
@@ -5677,26 +5677,26 @@ signed int * lscp_isplit_create(const char *pszCsv, const char *pszSeps)
   signed int *piSplit;
   signed int *piNewSplit;
   pchHead=lscp_ltrim((char *)pszCsv);
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   if(*pchHead == 0)
     return (signed int *)(void *)0;
 
   else
   {
     iSize = 4;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)iSize * sizeof(signed int) /*4ul*/ );
-    piSplit = (signed int *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)iSize * sizeof(signed int) /*4ul*/ );
+    piSplit = (signed int *)return_value_malloc_1;
     if(piSplit == ((signed int *)NULL))
       return (signed int *)(void *)0;
 
     else
     {
       i = 0;
-      tmp_post$2 = i;
+      tmp_post_2 = i;
       i = i + 1;
-      piSplit[(signed long int)tmp_post$2]=atoi(pchHead);
-      if(!(piSplit[(signed long int)tmp_post$2] >= 0))
+      piSplit[(signed long int)tmp_post_2]=atoi(pchHead);
+      if(!(piSplit[(signed long int)tmp_post_2] >= 0))
       {
         free((void *)piSplit);
         return (signed int *)(void *)0;
@@ -5704,9 +5704,9 @@ signed int * lscp_isplit_create(const char *pszCsv, const char *pszSeps)
 
       else
       {
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(pszSeps);
-        cchSeps = (signed int)return_value_strlen$3;
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(pszSeps);
+        cchSeps = (signed int)return_value_strlen_3;
         do
         {
           pch=strpbrk(pchHead, pszSeps);
@@ -5719,9 +5719,9 @@ signed int * lscp_isplit_create(const char *pszCsv, const char *pszSeps)
           if(i >= iSize)
           {
             iSize = iSize + 4;
-            void *return_value_malloc$4;
-            return_value_malloc$4=malloc((unsigned long int)iSize * sizeof(signed int) /*4ul*/ );
-            piNewSplit = (signed int *)return_value_malloc$4;
+            void *return_value_malloc_4;
+            return_value_malloc_4=malloc((unsigned long int)iSize * sizeof(signed int) /*4ul*/ );
+            piNewSplit = (signed int *)return_value_malloc_4;
             if(!(piNewSplit == ((signed int *)NULL)))
             {
               j = 0;
@@ -5757,7 +5757,7 @@ void lscp_isplit_destroy(signed int *piSplit)
 signed int * lscp_list_audio_devices(struct _lscp_client_t *pClient)
 {
   const char *pszSeps = ",";
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return (signed int *)(void *)0;
 
@@ -5770,12 +5770,12 @@ signed int * lscp_list_audio_devices(struct _lscp_client_t *pClient)
       pClient->audio_devices = (signed int *)(void *)0;
     }
 
-    enum _lscp_status_t return_value_lscp_client_call$2;
-    return_value_lscp_client_call$2=lscp_client_call(pClient, "LIST AUDIO_OUTPUT_DEVICES\r\n", 0);
-    if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_2;
+    return_value_lscp_client_call_2=lscp_client_call(pClient, "LIST AUDIO_OUTPUT_DEVICES\r\n", 0);
+    if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-      pClient->audio_devices=lscp_isplit_create(return_value_lscp_client_get_result$1, pszSeps);
+      return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+      pClient->audio_devices=lscp_isplit_create(return_value_lscp_client_get_result_1, pszSeps);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -5788,7 +5788,7 @@ signed int * lscp_list_audio_devices(struct _lscp_client_t *pClient)
 const char ** lscp_list_available_audio_drivers(struct _lscp_client_t *pClient)
 {
   const char *pszSeps = ",";
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return (const char **)(void *)0;
 
@@ -5801,12 +5801,12 @@ const char ** lscp_list_available_audio_drivers(struct _lscp_client_t *pClient)
       pClient->audio_drivers = (char **)(void *)0;
     }
 
-    enum _lscp_status_t return_value_lscp_client_call$2;
-    return_value_lscp_client_call$2=lscp_client_call(pClient, "LIST AVAILABLE_AUDIO_OUTPUT_DRIVERS\r\n", 0);
-    if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_2;
+    return_value_lscp_client_call_2=lscp_client_call(pClient, "LIST AVAILABLE_AUDIO_OUTPUT_DRIVERS\r\n", 0);
+    if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-      pClient->audio_drivers=lscp_szsplit_create(return_value_lscp_client_get_result$1, pszSeps);
+      return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+      pClient->audio_drivers=lscp_szsplit_create(return_value_lscp_client_get_result_1, pszSeps);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -5819,7 +5819,7 @@ const char ** lscp_list_available_audio_drivers(struct _lscp_client_t *pClient)
 const char ** lscp_list_available_engines(struct _lscp_client_t *pClient)
 {
   const char *pszSeps = ",";
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return (const char **)(void *)0;
 
@@ -5832,12 +5832,12 @@ const char ** lscp_list_available_engines(struct _lscp_client_t *pClient)
       pClient->engines = (char **)(void *)0;
     }
 
-    enum _lscp_status_t return_value_lscp_client_call$2;
-    return_value_lscp_client_call$2=lscp_client_call(pClient, "LIST AVAILABLE_ENGINES\r\n", 0);
-    if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_2;
+    return_value_lscp_client_call_2=lscp_client_call(pClient, "LIST AVAILABLE_ENGINES\r\n", 0);
+    if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-      pClient->engines=lscp_szsplit_create(return_value_lscp_client_get_result$1, pszSeps);
+      return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+      pClient->engines=lscp_szsplit_create(return_value_lscp_client_get_result_1, pszSeps);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -5850,7 +5850,7 @@ const char ** lscp_list_available_engines(struct _lscp_client_t *pClient)
 const char ** lscp_list_available_midi_drivers(struct _lscp_client_t *pClient)
 {
   const char *pszSeps = ",";
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return (const char **)(void *)0;
 
@@ -5863,12 +5863,12 @@ const char ** lscp_list_available_midi_drivers(struct _lscp_client_t *pClient)
       pClient->midi_drivers = (char **)(void *)0;
     }
 
-    enum _lscp_status_t return_value_lscp_client_call$2;
-    return_value_lscp_client_call$2=lscp_client_call(pClient, "LIST AVAILABLE_MIDI_INPUT_DRIVERS\r\n", 0);
-    if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_2;
+    return_value_lscp_client_call_2=lscp_client_call(pClient, "LIST AVAILABLE_MIDI_INPUT_DRIVERS\r\n", 0);
+    if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-      pClient->midi_drivers=lscp_szsplit_create(return_value_lscp_client_get_result$1, pszSeps);
+      return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+      pClient->midi_drivers=lscp_szsplit_create(return_value_lscp_client_get_result_1, pszSeps);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -5881,7 +5881,7 @@ const char ** lscp_list_available_midi_drivers(struct _lscp_client_t *pClient)
 signed int * lscp_list_channels(struct _lscp_client_t *pClient)
 {
   const char *pszSeps = ",";
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return (signed int *)(void *)0;
 
@@ -5894,12 +5894,12 @@ signed int * lscp_list_channels(struct _lscp_client_t *pClient)
       pClient->channels = (signed int *)(void *)0;
     }
 
-    enum _lscp_status_t return_value_lscp_client_call$2;
-    return_value_lscp_client_call$2=lscp_client_call(pClient, "LIST CHANNELS\r\n", 0);
-    if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_2;
+    return_value_lscp_client_call_2=lscp_client_call(pClient, "LIST CHANNELS\r\n", 0);
+    if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-      pClient->channels=lscp_isplit_create(return_value_lscp_client_get_result$1, pszSeps);
+      return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+      pClient->channels=lscp_isplit_create(return_value_lscp_client_get_result_1, pszSeps);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -5913,7 +5913,7 @@ signed int * lscp_list_fxsends(struct _lscp_client_t *pClient, signed int iSampl
 {
   const char *pszSeps = ",";
   char szQuery[1024l];
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return (signed int *)(void *)0;
 
@@ -5927,12 +5927,12 @@ signed int * lscp_list_fxsends(struct _lscp_client_t *pClient, signed int iSampl
     }
 
     sprintf(szQuery, "LIST FX_SENDS %d\r\n", iSamplerChannel);
-    enum _lscp_status_t return_value_lscp_client_call$2;
-    return_value_lscp_client_call$2=lscp_client_call(pClient, szQuery, 0);
-    if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_2;
+    return_value_lscp_client_call_2=lscp_client_call(pClient, szQuery, 0);
+    if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-      pClient->fxsends=lscp_isplit_create(return_value_lscp_client_get_result$1, pszSeps);
+      return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+      pClient->fxsends=lscp_isplit_create(return_value_lscp_client_get_result_1, pszSeps);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -5945,7 +5945,7 @@ signed int * lscp_list_fxsends(struct _lscp_client_t *pClient, signed int iSampl
 signed int * lscp_list_midi_devices(struct _lscp_client_t *pClient)
 {
   const char *pszSeps = ",";
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return (signed int *)(void *)0;
 
@@ -5958,12 +5958,12 @@ signed int * lscp_list_midi_devices(struct _lscp_client_t *pClient)
       pClient->midi_devices = (signed int *)(void *)0;
     }
 
-    enum _lscp_status_t return_value_lscp_client_call$2;
-    return_value_lscp_client_call$2=lscp_client_call(pClient, "LIST MIDI_INPUT_DEVICES\r\n", 0);
-    if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_2;
+    return_value_lscp_client_call_2=lscp_client_call(pClient, "LIST MIDI_INPUT_DEVICES\r\n", 0);
+    if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-      pClient->midi_devices=lscp_isplit_create(return_value_lscp_client_get_result$1, pszSeps);
+      return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+      pClient->midi_devices=lscp_isplit_create(return_value_lscp_client_get_result_1, pszSeps);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -5976,7 +5976,7 @@ signed int * lscp_list_midi_devices(struct _lscp_client_t *pClient)
 signed int * lscp_list_midi_instrument_maps(struct _lscp_client_t *pClient)
 {
   const char *pszSeps = ",";
-  const char *return_value_lscp_client_get_result$1;
+  const char *return_value_lscp_client_get_result_1;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return (signed int *)(void *)0;
 
@@ -5989,12 +5989,12 @@ signed int * lscp_list_midi_instrument_maps(struct _lscp_client_t *pClient)
       pClient->midi_maps = (signed int *)(void *)0;
     }
 
-    enum _lscp_status_t return_value_lscp_client_call$2;
-    return_value_lscp_client_call$2=lscp_client_call(pClient, "LIST MIDI_INSTRUMENT_MAPS\r\n", 0);
-    if((signed int)return_value_lscp_client_call$2 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_2;
+    return_value_lscp_client_call_2=lscp_client_call(pClient, "LIST MIDI_INSTRUMENT_MAPS\r\n", 0);
+    if((signed int)return_value_lscp_client_call_2 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$1=lscp_client_get_result(pClient);
-      pClient->midi_maps=lscp_isplit_create(return_value_lscp_client_get_result$1, pszSeps);
+      return_value_lscp_client_get_result_1=lscp_client_get_result(pClient);
+      pClient->midi_maps=lscp_isplit_create(return_value_lscp_client_get_result_1, pszSeps);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -6007,8 +6007,8 @@ signed int * lscp_list_midi_instrument_maps(struct _lscp_client_t *pClient)
 struct _lscp_midi_instrument_t * lscp_list_midi_instruments(struct _lscp_client_t *pClient, signed int iMidiMap)
 {
   char szQuery[1024l];
-  unsigned long int return_value_strlen$1;
-  const char *return_value_lscp_client_get_result$2;
+  unsigned long int return_value_strlen_1;
+  const char *return_value_lscp_client_get_result_2;
   if(pClient == ((struct _lscp_client_t *)NULL))
     return (struct _lscp_midi_instrument_t *)(void *)0;
 
@@ -6027,16 +6027,16 @@ struct _lscp_midi_instrument_t * lscp_list_midi_instruments(struct _lscp_client_
 
     else
     {
-      return_value_strlen$1=strlen(szQuery);
-      sprintf(szQuery + (signed long int)return_value_strlen$1, "%d", iMidiMap);
+      return_value_strlen_1=strlen(szQuery);
+      sprintf(szQuery + (signed long int)return_value_strlen_1, "%d", iMidiMap);
     }
     strcat(szQuery, "\r\n");
-    enum _lscp_status_t return_value_lscp_client_call$3;
-    return_value_lscp_client_call$3=lscp_client_call(pClient, szQuery, 0);
-    if((signed int)return_value_lscp_client_call$3 == LSCP_OK)
+    enum _lscp_status_t return_value_lscp_client_call_3;
+    return_value_lscp_client_call_3=lscp_client_call(pClient, szQuery, 0);
+    if((signed int)return_value_lscp_client_call_3 == LSCP_OK)
     {
-      return_value_lscp_client_get_result$2=lscp_client_get_result(pClient);
-      pClient->midi_instruments=lscp_midi_instruments_create(return_value_lscp_client_get_result$2);
+      return_value_lscp_client_get_result_2=lscp_client_get_result(pClient);
+      pClient->midi_instruments=lscp_midi_instruments_create(return_value_lscp_client_get_result_2);
     }
 
     pthread_mutex_unlock(&pClient->mutex);
@@ -6055,9 +6055,9 @@ enum _lscp_status_t lscp_load_engine(struct _lscp_client_t *pClient, const char 
   else
   {
     sprintf(szQuery, "LOAD ENGINE %s %d\r\n", pszEngineName, iSamplerChannel);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -6072,9 +6072,9 @@ enum _lscp_status_t lscp_load_instrument(struct _lscp_client_t *pClient, const c
   else
   {
     sprintf(szQuery, "LOAD INSTRUMENT '%s' %d %d\r\n", pszFileName, iInstrIndex, iSamplerChannel);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -6089,9 +6089,9 @@ enum _lscp_status_t lscp_load_instrument_non_modal(struct _lscp_client_t *pClien
   else
   {
     sprintf(szQuery, "LOAD INSTRUMENT NON_MODAL '%s' %d %d\r\n", pszFileName, iInstrIndex, iSamplerChannel);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -6099,11 +6099,11 @@ enum _lscp_status_t lscp_load_instrument_non_modal(struct _lscp_client_t *pClien
 // file common.h line 101
 char * lscp_ltrim(char *psz)
 {
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*psz]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*psz]) == 0)
       break;
 
     psz = psz + 1l;
@@ -6118,31 +6118,31 @@ enum _lscp_status_t lscp_map_midi_instrument(struct _lscp_client_t *pClient, str
 {
   char szQuery[1024l];
   struct _locale_t locale;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$3;
-  enum _lscp_status_t return_value_lscp_client_query$4;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_3;
+  enum _lscp_status_t return_value_lscp_client_query_4;
   if(!(pMidiInstr->map >= 0))
     return (enum _lscp_status_t)LSCP_FAILED;
 
   else
   {
     if(!(pMidiInstr->bank >= 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = pMidiInstr->bank > 16383 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = pMidiInstr->bank > 16383 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return (enum _lscp_status_t)LSCP_FAILED;
 
     else
     {
       if(!(pMidiInstr->prog >= 0))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = pMidiInstr->prog > 127 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = pMidiInstr->prog > 127 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         return (enum _lscp_status_t)LSCP_FAILED;
 
       else
@@ -6180,13 +6180,13 @@ enum _lscp_status_t lscp_map_midi_instrument(struct _lscp_client_t *pClient, str
               ;
               if(!(pszName == ((const char *)NULL)))
               {
-                return_value_strlen$3=strlen(szQuery);
-                sprintf(szQuery + (signed long int)return_value_strlen$3, " '%s'", pszName);
+                return_value_strlen_3=strlen(szQuery);
+                sprintf(szQuery + (signed long int)return_value_strlen_3, " '%s'", pszName);
               }
 
               strcat(szQuery, "\r\n");
-              return_value_lscp_client_query$4=lscp_client_query(pClient, szQuery);
-              return return_value_lscp_client_query$4;
+              return_value_lscp_client_query_4=lscp_client_query(pClient, szQuery);
+              return return_value_lscp_client_query_4;
             }
           }
         }
@@ -6252,9 +6252,9 @@ struct _lscp_midi_instrument_t * lscp_midi_instruments_create(const char *pszCsv
   else
   {
     iSize = 4;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)iSize * sizeof(struct _lscp_midi_instrument_t) /*12ul*/ );
-    pInstrs = (struct _lscp_midi_instrument_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)iSize * sizeof(struct _lscp_midi_instrument_t) /*12ul*/ );
+    pInstrs = (struct _lscp_midi_instrument_t *)return_value_malloc_1;
     if(pInstrs == ((struct _lscp_midi_instrument_t *)NULL))
       return (struct _lscp_midi_instrument_t *)(void *)0;
 
@@ -6311,9 +6311,9 @@ struct _lscp_midi_instrument_t * lscp_midi_instruments_create(const char *pszCsv
           if(i >= iSize)
           {
             iSize = iSize + 4;
-            void *return_value_malloc$2;
-            return_value_malloc$2=malloc((unsigned long int)iSize * sizeof(struct _lscp_midi_instrument_t) /*12ul*/ );
-            pNewInstrs = (struct _lscp_midi_instrument_t *)return_value_malloc$2;
+            void *return_value_malloc_2;
+            return_value_malloc_2=malloc((unsigned long int)iSize * sizeof(struct _lscp_midi_instrument_t) /*12ul*/ );
+            pNewInstrs = (struct _lscp_midi_instrument_t *)return_value_malloc_2;
             if(!(pNewInstrs == ((struct _lscp_midi_instrument_t *)NULL)))
             {
               j = 0;
@@ -6360,39 +6360,39 @@ signed int lscp_param_concat(char *pszBuffer, signed int cchMaxBuffer, struct _l
   signed int cchBuffer;
   signed int cchParam;
   signed int i;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  signed int tmp_post$6;
-  signed int tmp_post$7;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  signed int tmp_post_6;
+  signed int tmp_post_7;
   if(pszBuffer == ((char *)NULL))
     return 0;
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(pszBuffer);
-    cchBuffer = (signed int)return_value_strlen$1;
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(pszBuffer);
+    cchBuffer = (signed int)return_value_strlen_1;
     i = 0;
     do
     {
       if(!(pParams == ((struct _lscp_param_t *)NULL)))
-        tmp_if_expr$2 = (pParams + (signed long int)i)->key != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (pParams + (signed long int)i)->key != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (pParams + (signed long int)i)->value != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (pParams + (signed long int)i)->value != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(!tmp_if_expr$3)
+        tmp_if_expr_3 = (_Bool)0;
+      if(!tmp_if_expr_3)
         break;
 
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen((pParams + (signed long int)i)->key);
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen((pParams + (signed long int)i)->value);
-      cchParam = (signed int)(return_value_strlen$4 + return_value_strlen$5 + (unsigned long int)4);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen((pParams + (signed long int)i)->key);
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen((pParams + (signed long int)i)->value);
+      cchParam = (signed int)(return_value_strlen_4 + return_value_strlen_5 + (unsigned long int)4);
       if(!(2 + cchBuffer + cchParam >= cchMaxBuffer))
       {
         sprintf(pszBuffer + (signed long int)cchBuffer, " %s='%s'", (pParams + (signed long int)i)->key, (pParams + (signed long int)i)->value);
@@ -6404,12 +6404,12 @@ signed int lscp_param_concat(char *pszBuffer, signed int cchMaxBuffer, struct _l
     while((_Bool)1);
     if(!(2 + cchBuffer >= cchMaxBuffer))
     {
-      tmp_post$6 = cchBuffer;
+      tmp_post_6 = cchBuffer;
       cchBuffer = cchBuffer + 1;
-      pszBuffer[(signed long int)tmp_post$6] = (char)13;
-      tmp_post$7 = cchBuffer;
+      pszBuffer[(signed long int)tmp_post_6] = (char)13;
+      tmp_post_7 = cchBuffer;
       cchBuffer = cchBuffer + 1;
-      pszBuffer[(signed long int)tmp_post$7] = (char)10;
+      pszBuffer[(signed long int)tmp_post_7] = (char)10;
       pszBuffer[(signed long int)cchBuffer] = (char)0;
     }
 
@@ -6476,9 +6476,9 @@ void lscp_parser_free(struct _lscp_parser_t *pParser)
 void lscp_parser_init(struct _lscp_parser_t *pParser, const char *pchBuffer, signed int cchBuffer)
 {
   memset((void *)pParser, 0, sizeof(struct _lscp_parser_t) /*32ul*/ );
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(cchBuffer + 1));
-  pParser->pchBuffer = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(cchBuffer + 1));
+  pParser->pchBuffer = (char *)return_value_malloc_1;
   if(!(pParser->pchBuffer == ((char *)NULL)))
   {
     memcpy((void *)pParser->pchBuffer, (const void *)pchBuffer, (unsigned long int)cchBuffer);
@@ -6520,9 +6520,9 @@ float lscp_parser_nextnum(struct _lscp_parser_t *pParser)
   float ret = 0.0f;
   if(!(pParser->pszToken == ((const char *)NULL)))
   {
-    double return_value_atof$1;
-    return_value_atof$1=atof(pParser->pszToken);
-    ret = (float)return_value_atof$1;
+    double return_value_atof_1;
+    return_value_atof_1=atof(pParser->pszToken);
+    ret = (float)return_value_atof_1;
     lscp_parser_next(pParser);
   }
 
@@ -6537,10 +6537,10 @@ const char * lscp_parser_strtok(char *pchBuffer, const char *pszDelim, char **pp
   if(pchBuffer == ((char *)NULL))
     pchBuffer = *ppch;
 
-  unsigned long int return_value_strspn$1;
-  return_value_strspn$1=strspn(pchBuffer, pszDelim);
-  pchBuffer = pchBuffer + (signed long int)return_value_strspn$1;
-  char *return_value_strchr$2;
+  unsigned long int return_value_strspn_1;
+  return_value_strspn_1=strspn(pchBuffer, pszDelim);
+  pchBuffer = pchBuffer + (signed long int)return_value_strspn_1;
+  char *return_value_strchr_2;
   if((signed int)*pchBuffer == 0)
     return (const char *)(void *)0;
 
@@ -6557,8 +6557,8 @@ const char * lscp_parser_strtok(char *pchBuffer, const char *pszDelim, char **pp
       *ppch = pchBuffer + (signed long int)1;
       do
       {
-        return_value_strchr$2=strchr(pszDelim, (signed int)*(*ppch));
-        if(return_value_strchr$2 == ((char *)NULL))
+        return_value_strchr_2=strchr(pszDelim, (signed int)*(*ppch));
+        if(return_value_strchr_2 == ((char *)NULL))
           break;
 
         *ppch = *ppch + 1l;
@@ -6574,11 +6574,11 @@ const char * lscp_parser_strtok(char *pchBuffer, const char *pszDelim, char **pp
 signed int lscp_parser_test(struct _lscp_parser_t *pParser, const char *pszToken)
 {
   signed int ret = (signed int)(pParser->pszToken != (const char *)(void *)0);
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_1;
   if(!(ret == 0))
   {
-    return_value_strcasecmp$1=strcasecmp(pParser->pszToken, pszToken);
-    ret = (signed int)(return_value_strcasecmp$1 == 0);
+    return_value_strcasecmp_1=strcasecmp(pParser->pszToken, pszToken);
+    ret = (signed int)(return_value_strcasecmp_1 == 0);
   }
 
   if(!(ret == 0))
@@ -6609,9 +6609,9 @@ void lscp_plist_alloc(struct _lscp_param_t **ppList)
   if(!(ppList == ((struct _lscp_param_t **)NULL)))
   {
     iSize = 4;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)iSize * sizeof(struct _lscp_param_t) /*16ul*/ );
-    pParams = (struct _lscp_param_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)iSize * sizeof(struct _lscp_param_t) /*16ul*/ );
+    pParams = (struct _lscp_param_t *)return_value_malloc_1;
     if(!(pParams == ((struct _lscp_param_t *)NULL)))
     {
       i = 0;
@@ -6643,9 +6643,9 @@ void lscp_plist_append(struct _lscp_param_t **ppList, const char *pszKey, const 
       pParams = *ppList;
       while(!((pParams + (signed long int)i)->key == ((char *)NULL)))
       {
-        signed int return_value_strcasecmp$1;
-        return_value_strcasecmp$1=strcasecmp((pParams + (signed long int)i)->key, pszKey);
-        if(return_value_strcasecmp$1 == 0)
+        signed int return_value_strcasecmp_1;
+        return_value_strcasecmp_1=strcasecmp((pParams + (signed long int)i)->key, pszKey);
+        if(return_value_strcasecmp_1 == 0)
         {
           if(!((pParams + (signed long int)i)->value == ((char *)NULL)))
             free((void *)(pParams + (signed long int)i)->value);
@@ -6663,9 +6663,9 @@ void lscp_plist_append(struct _lscp_param_t **ppList, const char *pszKey, const 
       if(i >= iSize)
       {
         iNewSize = iSize + 4;
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc((unsigned long int)iNewSize * sizeof(struct _lscp_param_t) /*16ul*/ );
-        pNewParams = (struct _lscp_param_t *)return_value_malloc$2;
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc((unsigned long int)iNewSize * sizeof(struct _lscp_param_t) /*16ul*/ );
+        pNewParams = (struct _lscp_param_t *)return_value_malloc_2;
         i = 0;
         for( ; !(i >= iSize); i = i + 1)
         {
@@ -6696,7 +6696,7 @@ void lscp_plist_free(struct _lscp_param_t **ppList)
 {
   struct _lscp_param_t *pParams;
   signed int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(ppList == ((struct _lscp_param_t **)NULL)))
   {
     if(!(*ppList == ((struct _lscp_param_t *)NULL)))
@@ -6706,11 +6706,11 @@ void lscp_plist_free(struct _lscp_param_t **ppList)
       do
       {
         if(!(pParams == ((struct _lscp_param_t *)NULL)))
-          tmp_if_expr$1 = (pParams + (signed long int)i)->key != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (pParams + (signed long int)i)->key != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(!tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(!tmp_if_expr_1)
           break;
 
         free((void *)(pParams + (signed long int)i)->key);
@@ -6746,9 +6746,9 @@ struct _lscp_param_t * lscp_psplit_create(const char *pszCsv, const char *pszSep
   else
   {
     iSize = 4;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)iSize * sizeof(struct _lscp_param_t) /*16ul*/ );
-    ppSplit = (struct _lscp_param_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)iSize * sizeof(struct _lscp_param_t) /*16ul*/ );
+    ppSplit = (struct _lscp_param_t *)return_value_malloc_1;
     if(ppSplit == ((struct _lscp_param_t *)NULL))
     {
       free((void *)pszHead);
@@ -6757,12 +6757,12 @@ struct _lscp_param_t * lscp_psplit_create(const char *pszCsv, const char *pszSep
 
     else
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(pszSeps1);
-      cchSeps1 = (signed int)return_value_strlen$2;
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(pszSeps2);
-      cchSeps2 = (signed int)return_value_strlen$3;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(pszSeps1);
+      cchSeps1 = (signed int)return_value_strlen_2;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(pszSeps2);
+      cchSeps2 = (signed int)return_value_strlen_3;
       i = 0;
       do
       {
@@ -6785,9 +6785,9 @@ struct _lscp_param_t * lscp_psplit_create(const char *pszCsv, const char *pszSep
         if(i >= iSize)
         {
           iSize = iSize + 4;
-          void *return_value_malloc$4;
-          return_value_malloc$4=malloc((unsigned long int)iSize * sizeof(struct _lscp_param_t) /*16ul*/ );
-          ppNewSplit = (struct _lscp_param_t *)return_value_malloc$4;
+          void *return_value_malloc_4;
+          return_value_malloc_4=malloc((unsigned long int)iSize * sizeof(struct _lscp_param_t) /*16ul*/ );
+          ppNewSplit = (struct _lscp_param_t *)return_value_malloc_4;
           if(!(ppNewSplit == ((struct _lscp_param_t *)NULL)))
           {
             j = 0;
@@ -6844,9 +6844,9 @@ enum _lscp_status_t lscp_remove_channel(struct _lscp_client_t *pClient, signed i
   else
   {
     sprintf(szQuery, "REMOVE CHANNEL %d\r\n", iSamplerChannel);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -6861,9 +6861,9 @@ enum _lscp_status_t lscp_remove_midi_instrument_map(struct _lscp_client_t *pClie
   else
   {
     sprintf(szQuery, "REMOVE MIDI_INSTRUMENT_MAP %d\r\n", iMidiMap);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -6878,9 +6878,9 @@ enum _lscp_status_t lscp_reset_channel(struct _lscp_client_t *pClient, signed in
   else
   {
     sprintf(szQuery, "RESET CHANNEL %d\r\n", iSamplerChannel);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -6888,9 +6888,9 @@ enum _lscp_status_t lscp_reset_channel(struct _lscp_client_t *pClient, signed in
 // file client.c line 1772
 enum _lscp_status_t lscp_reset_sampler(struct _lscp_client_t *pClient)
 {
-  enum _lscp_status_t return_value_lscp_client_query$1;
-  return_value_lscp_client_query$1=lscp_client_query(pClient, "RESET\r\n");
-  return return_value_lscp_client_query$1;
+  enum _lscp_status_t return_value_lscp_client_query_1;
+  return_value_lscp_client_query_1=lscp_client_query(pClient, "RESET\r\n");
+  return return_value_lscp_client_query_1;
 }
 
 // lscp_server_broadcast
@@ -6901,8 +6901,8 @@ enum _lscp_status_t lscp_server_broadcast(struct _lscp_server_t *pServer, enum _
   const char *pszEvent;
   char achBuffer[1024l];
   signed int cchBuffer;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
   if(pServer == ((struct _lscp_server_t *)NULL))
     return (enum _lscp_status_t)LSCP_FAILED;
 
@@ -6928,12 +6928,12 @@ enum _lscp_status_t lscp_server_broadcast(struct _lscp_server_t *pServer, enum _
           cchBuffer = cchBuffer + cchData;
         }
 
-        tmp_post$1 = cchBuffer;
+        tmp_post_1 = cchBuffer;
         cchBuffer = cchBuffer + 1;
-        achBuffer[(signed long int)tmp_post$1] = (char)13;
-        tmp_post$2 = cchBuffer;
+        achBuffer[(signed long int)tmp_post_1] = (char)13;
+        tmp_post_2 = cchBuffer;
         cchBuffer = cchBuffer + 1;
-        achBuffer[(signed long int)tmp_post$2] = (char)10;
+        achBuffer[(signed long int)tmp_post_2] = (char)10;
         pthread_mutex_lock(&pServer->connects.mutex);
         p = pServer->connects.first;
         for( ; !(p == ((struct _lscp_connect_t *)NULL)); p = p->next)
@@ -6957,9 +6957,9 @@ const char * lscp_server_build(void)
 // file server.h line 112
 struct _lscp_server_t * lscp_server_create(signed int iPort, enum _lscp_status_t (*pfnCallback)(struct _lscp_connect_t *, const char *, signed int, void *), void *pvData)
 {
-  struct _lscp_server_t *return_value_lscp_server_create_ex$1;
-  return_value_lscp_server_create_ex$1=lscp_server_create_ex(iPort, pfnCallback, pvData, (enum _lscp_server_mode_t)LSCP_SERVER_SELECT);
-  return return_value_lscp_server_create_ex$1;
+  struct _lscp_server_t *return_value_lscp_server_create_ex_1;
+  return_value_lscp_server_create_ex_1=lscp_server_create_ex(iPort, pfnCallback, pvData, (enum _lscp_server_mode_t)LSCP_SERVER_SELECT);
+  return return_value_lscp_server_create_ex_1;
 }
 
 // lscp_server_create_ex
@@ -6979,9 +6979,9 @@ struct _lscp_server_t * lscp_server_create_ex(signed int iPort, enum _lscp_statu
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct _lscp_server_t) /*128ul*/ );
-    pServer = (struct _lscp_server_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct _lscp_server_t) /*128ul*/ );
+    pServer = (struct _lscp_server_t *)return_value_malloc_1;
     if(pServer == ((struct _lscp_server_t *)NULL))
     {
       fprintf(stderr, "lscp_server_create: Out of memory.\n");
@@ -7005,9 +7005,9 @@ struct _lscp_server_t * lscp_server_create_ex(signed int iPort, enum _lscp_statu
 
       else
       {
-        signed int return_value_setsockopt$2;
-        return_value_setsockopt$2=setsockopt(sock, 1, 2, (const void *)(char *)&iSockOpt, (unsigned int)sizeof(signed int) /*4ul*/ );
-        if(return_value_setsockopt$2 == -1)
+        signed int return_value_setsockopt_2;
+        return_value_setsockopt_2=setsockopt(sock, 1, 2, (const void *)(char *)&iSockOpt, (unsigned int)sizeof(signed int) /*4ul*/ );
+        if(return_value_setsockopt_2 == -1)
           lscp_socket_perror("lscp_server_create: setsockopt(SO_REUSEADDR)");
 
         cAddr = (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ ;
@@ -7015,9 +7015,9 @@ struct _lscp_server_t * lscp_server_create_ex(signed int iPort, enum _lscp_statu
         addr.sin_family = (unsigned short int)2;
         addr.sin_addr.s_addr=htonl((unsigned int)0x00000000);
         addr.sin_port=htons((unsigned short int)(signed short int)iPort);
-        signed int return_value_bind$3;
-        return_value_bind$3=bind(sock, (struct sockaddr *)&addr, cAddr);
-        if(return_value_bind$3 == -1)
+        signed int return_value_bind_3;
+        return_value_bind_3=bind(sock, (struct sockaddr *)&addr, cAddr);
+        if(return_value_bind_3 == -1)
         {
           lscp_socket_perror("lscp_server_create: bind");
           close(sock);
@@ -7027,9 +7027,9 @@ struct _lscp_server_t * lscp_server_create_ex(signed int iPort, enum _lscp_statu
 
         else
         {
-          signed int return_value_listen$4;
-          return_value_listen$4=listen(sock, 10);
-          if(return_value_listen$4 == -1)
+          signed int return_value_listen_4;
+          return_value_listen_4=listen(sock, 10);
+          if(return_value_listen_4 == -1)
           {
             lscp_socket_perror("lscp_server_create: listen");
             close(sock);
@@ -7041,9 +7041,9 @@ struct _lscp_server_t * lscp_server_create_ex(signed int iPort, enum _lscp_statu
           {
             if(iPort == 0)
             {
-              signed int return_value_getsockname$5;
-              return_value_getsockname$5=getsockname(sock, (struct sockaddr *)&addr, &cAddr);
-              if(return_value_getsockname$5 == -1)
+              signed int return_value_getsockname_5;
+              return_value_getsockname_5=getsockname(sock, (struct sockaddr *)&addr, &cAddr);
+              if(return_value_getsockname_5 == -1)
               {
                 lscp_socket_perror("lscp_server_create: getsockname");
                 close(sock);
@@ -7053,9 +7053,9 @@ struct _lscp_server_t * lscp_server_create_ex(signed int iPort, enum _lscp_statu
             }
 
             lscp_socket_agent_init(&pServer->agent, sock, &addr, (signed int)cAddr);
-            enum _lscp_status_t return_value_lscp_socket_agent_start$6;
-            return_value_lscp_socket_agent_start$6=lscp_socket_agent_start(&pServer->agent, _lscp_server_agent_proc, (void *)pServer, 0);
-            if(!((signed int)return_value_lscp_socket_agent_start$6 == LSCP_OK))
+            enum _lscp_status_t return_value_lscp_socket_agent_start_6;
+            return_value_lscp_socket_agent_start_6=lscp_socket_agent_start(&pServer->agent, _lscp_server_agent_proc, (void *)pServer, 0);
+            if(!((signed int)return_value_lscp_socket_agent_start_6 == LSCP_OK))
             {
               lscp_socket_agent_free(&pServer->agent);
               free((void *)pServer);
@@ -7154,9 +7154,9 @@ enum _lscp_status_t lscp_server_result(struct _lscp_connect_t *pConnect, const c
 
     else
     {
-      signed long int return_value_send$1;
-      return_value_send$1=send(pConnect->client.sock, (const void *)pchBuffer, (unsigned long int)cchBuffer, 0);
-      if(!(return_value_send$1 == (signed long int)cchBuffer))
+      signed long int return_value_send_1;
+      return_value_send_1=send(pConnect->client.sock, (const void *)pchBuffer, (unsigned long int)cchBuffer, 0);
+      if(!(return_value_send_1 == (signed long int)cchBuffer))
         lscp_socket_perror("lscp_server_result");
 
       else
@@ -7231,9 +7231,9 @@ enum _lscp_status_t lscp_set_audio_channel_param(struct _lscp_client_t *pClient,
         else
         {
           sprintf(szQuery, "SET AUDIO_OUTPUT_CHANNEL_PARAMETER %d %d %s='%s'\r\n", iAudioDevice, iAudioChannel, pParam->key, pParam->value);
-          enum _lscp_status_t return_value_lscp_client_query$1;
-          return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-          return return_value_lscp_client_query$1;
+          enum _lscp_status_t return_value_lscp_client_query_1;
+          return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+          return return_value_lscp_client_query_1;
         }
 }
 
@@ -7256,9 +7256,9 @@ enum _lscp_status_t lscp_set_audio_device_param(struct _lscp_client_t *pClient, 
       else
       {
         sprintf(szQuery, "SET AUDIO_OUTPUT_DEVICE_PARAMETER %d %s='%s'\r\n", iAudioDevice, pParam->key, pParam->value);
-        enum _lscp_status_t return_value_lscp_client_query$1;
-        return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-        return return_value_lscp_client_query$1;
+        enum _lscp_status_t return_value_lscp_client_query_1;
+        return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+        return return_value_lscp_client_query_1;
       }
 }
 
@@ -7273,9 +7273,9 @@ enum _lscp_status_t lscp_set_channel_audio_channel(struct _lscp_client_t *pClien
   else
   {
     sprintf(szQuery, "SET CHANNEL AUDIO_OUTPUT_CHANNEL %d %d %d\r\n", iSamplerChannel, iAudioOut, iAudioIn);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -7290,9 +7290,9 @@ enum _lscp_status_t lscp_set_channel_audio_device(struct _lscp_client_t *pClient
   else
   {
     sprintf(szQuery, "SET CHANNEL AUDIO_OUTPUT_DEVICE %d %d\r\n", iSamplerChannel, iAudioDevice);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -7307,9 +7307,9 @@ enum _lscp_status_t lscp_set_channel_audio_type(struct _lscp_client_t *pClient, 
   else
   {
     sprintf(szQuery, "SET CHANNEL AUDIO_OUTPUT_TYPE %d %s\r\n", iSamplerChannel, pszAudioDriver);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -7328,9 +7328,9 @@ enum _lscp_status_t lscp_set_channel_midi_channel(struct _lscp_client_t *pClient
 
     else
       sprintf(szQuery, "SET CHANNEL MIDI_INPUT_CHANNEL %d %d\r\n", iSamplerChannel, iMidiChannel);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -7345,9 +7345,9 @@ enum _lscp_status_t lscp_set_channel_midi_device(struct _lscp_client_t *pClient,
   else
   {
     sprintf(szQuery, "SET CHANNEL MIDI_INPUT_DEVICE %d %d\r\n", iSamplerChannel, iMidiDevice);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -7356,7 +7356,7 @@ enum _lscp_status_t lscp_set_channel_midi_device(struct _lscp_client_t *pClient,
 enum _lscp_status_t lscp_set_channel_midi_map(struct _lscp_client_t *pClient, signed int iSamplerChannel, signed int iMidiMap)
 {
   char szQuery[1024l];
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(!(iSamplerChannel >= 0))
     return (enum _lscp_status_t)LSCP_FAILED;
 
@@ -7372,13 +7372,13 @@ enum _lscp_status_t lscp_set_channel_midi_map(struct _lscp_client_t *pClient, si
 
       else
       {
-        return_value_strlen$1=strlen(szQuery);
-        sprintf(szQuery + (signed long int)return_value_strlen$1, "%d", iMidiMap);
+        return_value_strlen_1=strlen(szQuery);
+        sprintf(szQuery + (signed long int)return_value_strlen_1, "%d", iMidiMap);
       }
     strcat(szQuery, "\r\n");
-    enum _lscp_status_t return_value_lscp_client_query$2;
-    return_value_lscp_client_query$2=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$2;
+    enum _lscp_status_t return_value_lscp_client_query_2;
+    return_value_lscp_client_query_2=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_2;
   }
 }
 
@@ -7393,9 +7393,9 @@ enum _lscp_status_t lscp_set_channel_midi_port(struct _lscp_client_t *pClient, s
   else
   {
     sprintf(szQuery, "SET CHANNEL MIDI_INPUT_PORT %d %d\r\n", iSamplerChannel, iMidiPort);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -7410,9 +7410,9 @@ enum _lscp_status_t lscp_set_channel_midi_type(struct _lscp_client_t *pClient, s
   else
   {
     sprintf(szQuery, "SET CHANNEL MIDI_INPUT_TYPE %d %s\r\n", iSamplerChannel, pszMidiDriver);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -7427,9 +7427,9 @@ enum _lscp_status_t lscp_set_channel_mute(struct _lscp_client_t *pClient, signed
   else
   {
     sprintf(szQuery, "SET CHANNEL MUTE %d %d\r\n", iSamplerChannel, iMute);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -7444,9 +7444,9 @@ enum _lscp_status_t lscp_set_channel_solo(struct _lscp_client_t *pClient, signed
   else
   {
     sprintf(szQuery, "SET CHANNEL SOLO %d %d\r\n", iSamplerChannel, iSolo);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -7464,9 +7464,9 @@ enum _lscp_status_t lscp_set_channel_volume(struct _lscp_client_t *pClient, sign
     _save_and_set_c_locale(&locale);
     sprintf(szQuery, "SET CHANNEL VOLUME %d %g\r\n", iSamplerChannel, fVolume);
     _restore_locale(&locale);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -7481,9 +7481,9 @@ enum _lscp_status_t lscp_set_fxsend_audio_channel(struct _lscp_client_t *pClient
   else
   {
     sprintf(szQuery, "SET FX_SEND AUDIO_OUTPUT_CHANNEL %d %d %d %d\r\n", iSamplerChannel, iFxSend, iAudioSrc, iAudioDst);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -7501,9 +7501,9 @@ enum _lscp_status_t lscp_set_fxsend_level(struct _lscp_client_t *pClient, signed
     _save_and_set_c_locale(&locale);
     sprintf(szQuery, "SET FX_SEND LEVEL %d %d %f\r\n", iSamplerChannel, iFxSend, fLevel);
     _restore_locale(&locale);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -7518,9 +7518,9 @@ enum _lscp_status_t lscp_set_fxsend_midi_controller(struct _lscp_client_t *pClie
   else
   {
     sprintf(szQuery, "SET FX_SEND MIDI_CONTROLLER %d %d %d\r\n", iSamplerChannel, iFxSend, iMidiController);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -7535,9 +7535,9 @@ enum _lscp_status_t lscp_set_fxsend_name(struct _lscp_client_t *pClient, signed 
   else
   {
     snprintf(szQuery, (unsigned long int)1024, "SET FX_SEND NAME %d %d '%s'\r\n", iSamplerChannel, iFxSend, pszFxName);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -7560,9 +7560,9 @@ enum _lscp_status_t lscp_set_midi_device_param(struct _lscp_client_t *pClient, s
       else
       {
         sprintf(szQuery, "SET MIDI_INPUT_DEVICE_PARAMETER %d %s='%s'\r\n", iMidiDevice, pParam->key, pParam->value);
-        enum _lscp_status_t return_value_lscp_client_query$1;
-        return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-        return return_value_lscp_client_query$1;
+        enum _lscp_status_t return_value_lscp_client_query_1;
+        return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+        return return_value_lscp_client_query_1;
       }
 }
 
@@ -7581,9 +7581,9 @@ enum _lscp_status_t lscp_set_midi_instrument_map_name(struct _lscp_client_t *pCl
     else
     {
       sprintf(szQuery, "SET MIDI_INSTRUMENT_MAP NAME %d '%s'\r\n", iMidiMap, pszMapName);
-      enum _lscp_status_t return_value_lscp_client_query$1;
-      return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-      return return_value_lscp_client_query$1;
+      enum _lscp_status_t return_value_lscp_client_query_1;
+      return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+      return return_value_lscp_client_query_1;
     }
 }
 
@@ -7610,9 +7610,9 @@ enum _lscp_status_t lscp_set_midi_port_param(struct _lscp_client_t *pClient, sig
         else
         {
           sprintf(szQuery, "SET MIDI_INPUT_PORT_PARAMETER %d %d %s='%s'\r\n", iMidiDevice, iMidiPort, pParam->key, pParam->value);
-          enum _lscp_status_t return_value_lscp_client_query$1;
-          return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-          return return_value_lscp_client_query$1;
+          enum _lscp_status_t return_value_lscp_client_query_1;
+          return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+          return return_value_lscp_client_query_1;
         }
 }
 
@@ -7627,9 +7627,9 @@ enum _lscp_status_t lscp_set_streams(struct _lscp_client_t *pClient, signed int 
   else
   {
     sprintf(szQuery, "SET STREAMS %d\r\n", iMaxStreams);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -7644,9 +7644,9 @@ enum _lscp_status_t lscp_set_voices(struct _lscp_client_t *pClient, signed int i
   else
   {
     sprintf(szQuery, "SET VOICES %d\r\n", iMaxVoices);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -7664,9 +7664,9 @@ enum _lscp_status_t lscp_set_volume(struct _lscp_client_t *pClient, float fVolum
     _save_and_set_c_locale(&locale);
     sprintf(szQuery, "SET VOLUME %g\r\n", fVolume);
     _restore_locale(&locale);
-    enum _lscp_status_t return_value_lscp_client_query$1;
-    return_value_lscp_client_query$1=lscp_client_query(pClient, szQuery);
-    return return_value_lscp_client_query$1;
+    enum _lscp_status_t return_value_lscp_client_query_1;
+    return_value_lscp_client_query_1=lscp_client_query(pClient, szQuery);
+    return return_value_lscp_client_query_1;
   }
 }
 
@@ -7762,16 +7762,16 @@ void lscp_socket_perror(const char *pszPrefix)
 void lscp_socket_trace(const char *pszPrefix, struct sockaddr_in *pAddr, const char *pchBuffer, signed int cchBuffer)
 {
   char *pszBuffer;
-  char *return_value_inet_ntoa$1;
-  return_value_inet_ntoa$1=inet_ntoa(pAddr->sin_addr);
-  unsigned short int return_value_htons$2;
-  return_value_htons$2=htons(pAddr->sin_port);
-  fprintf(stderr, "%s: addr=%s port=%d:\n", pszPrefix, return_value_inet_ntoa$1, return_value_htons$2);
+  char *return_value_inet_ntoa_1;
+  return_value_inet_ntoa_1=inet_ntoa(pAddr->sin_addr);
+  unsigned short int return_value_htons_2;
+  return_value_htons_2=htons(pAddr->sin_port);
+  fprintf(stderr, "%s: addr=%s port=%d:\n", pszPrefix, return_value_inet_ntoa_1, return_value_htons_2);
   if(cchBuffer >= 1 && !(pchBuffer == ((const char *)NULL)))
   {
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)(cchBuffer + 1));
-    pszBuffer = (char *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)(cchBuffer + 1));
+    pszBuffer = (char *)return_value_malloc_3;
     if(!(pszBuffer == ((char *)NULL)))
     {
       memcpy((void *)pszBuffer, (const void *)pchBuffer, (unsigned long int)cchBuffer);
@@ -7802,10 +7802,10 @@ char * lscp_strtok(char *pchBuffer, const char *pszSeps, char **ppch)
   if(pchBuffer == ((char *)NULL))
     pchBuffer = *ppch;
 
-  unsigned long int return_value_strspn$1;
-  return_value_strspn$1=strspn(pchBuffer, pszSeps);
-  pchBuffer = pchBuffer + (signed long int)return_value_strspn$1;
-  char *return_value_strchr$2;
+  unsigned long int return_value_strspn_1;
+  return_value_strspn_1=strspn(pchBuffer, pszSeps);
+  pchBuffer = pchBuffer + (signed long int)return_value_strspn_1;
+  char *return_value_strchr_2;
   if((signed int)*pchBuffer == 0)
     return (char *)(void *)0;
 
@@ -7822,8 +7822,8 @@ char * lscp_strtok(char *pchBuffer, const char *pszSeps, char **ppch)
       *ppch = pchBuffer + (signed long int)1;
       for( ; !(*(*ppch) == 0); *ppch = *ppch + 1l)
       {
-        return_value_strchr$2=strchr(pszSeps, (signed int)*(*ppch));
-        if(return_value_strchr$2 == ((char *)NULL))
+        return_value_strchr_2=strchr(pszSeps, (signed int)*(*ppch));
+        if(return_value_strchr_2 == ((char *)NULL))
           break;
 
       }
@@ -7845,11 +7845,11 @@ char ** lscp_szsplit_create(const char *pszCsv, const char *pszSeps)
   char **ppszSplit;
   char **ppszNewSplit;
   iSize = 4;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)iSize * sizeof(char *) /*8ul*/ );
-  ppszSplit = (char **)return_value_malloc$1;
-  signed int tmp_post$2;
-  const unsigned short int **return_value___ctype_b_loc$4;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)iSize * sizeof(char *) /*8ul*/ );
+  ppszSplit = (char **)return_value_malloc_1;
+  signed int tmp_post_2;
+  const unsigned short int **return_value___ctype_b_loc_4;
   if(ppszSplit == ((char **)NULL))
     return (char **)(void *)0;
 
@@ -7857,10 +7857,10 @@ char ** lscp_szsplit_create(const char *pszCsv, const char *pszSeps)
   {
     i = 0;
     pszHead = (char *)pszCsv;
-    tmp_post$2 = i;
+    tmp_post_2 = i;
     i = i + 1;
-    ppszSplit[(signed long int)tmp_post$2]=lscp_unquote(&pszHead, 1);
-    if(ppszSplit[(signed long int)tmp_post$2] == ((char *)NULL))
+    ppszSplit[(signed long int)tmp_post_2]=lscp_unquote(&pszHead, 1);
+    if(ppszSplit[(signed long int)tmp_post_2] == ((char *)NULL))
     {
       free((void *)ppszSplit);
       return (char **)(void *)0;
@@ -7868,9 +7868,9 @@ char ** lscp_szsplit_create(const char *pszCsv, const char *pszSeps)
 
     else
     {
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(pszSeps);
-      cchSeps = (signed int)return_value_strlen$3;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(pszSeps);
+      cchSeps = (signed int)return_value_strlen_3;
       do
       {
         pch=strpbrk(pszHead, pszSeps);
@@ -7880,8 +7880,8 @@ char ** lscp_szsplit_create(const char *pszCsv, const char *pszSeps)
         pszHead = pch + (signed long int)cchSeps;
         do
         {
-          return_value___ctype_b_loc$4=__ctype_b_loc();
-          if((8192 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)pch[-1l]]) == 0)
+          return_value___ctype_b_loc_4=__ctype_b_loc();
+          if((8192 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)pch[-1l]]) == 0)
             break;
 
           if(*ppszSplit >= pch)
@@ -7896,9 +7896,9 @@ char ** lscp_szsplit_create(const char *pszCsv, const char *pszSeps)
         if(i >= iSize)
         {
           iSize = iSize + 4;
-          void *return_value_malloc$5;
-          return_value_malloc$5=malloc((unsigned long int)iSize * sizeof(char *) /*8ul*/ );
-          ppszNewSplit = (char **)return_value_malloc$5;
+          void *return_value_malloc_5;
+          return_value_malloc_5=malloc((unsigned long int)iSize * sizeof(char *) /*8ul*/ );
+          ppszNewSplit = (char **)return_value_malloc_5;
           if(!(ppszNewSplit == ((char **)NULL)))
           {
             j = 0;
@@ -7940,7 +7940,7 @@ void lscp_szsplit_destroy(char **ppszSplit)
 enum _lscp_status_t lscp_thread_cancel(struct _lscp_thread_t *pThread)
 {
   enum _lscp_status_t ret = (enum _lscp_status_t)LSCP_FAILED;
-  signed int return_value_pthread_cancel$1;
+  signed int return_value_pthread_cancel_1;
   if(pThread == ((struct _lscp_thread_t *)NULL))
     return ret;
 
@@ -7948,8 +7948,8 @@ enum _lscp_status_t lscp_thread_cancel(struct _lscp_thread_t *pThread)
   {
     if(!(pThread->pthread == 0ul))
     {
-      return_value_pthread_cancel$1=pthread_cancel(pThread->pthread);
-      if(return_value_pthread_cancel$1 == 0)
+      return_value_pthread_cancel_1=pthread_cancel(pThread->pthread);
+      if(return_value_pthread_cancel_1 == 0)
       {
         pThread->pthread = (unsigned long int)0;
         ret = (enum _lscp_status_t)LSCP_OK;
@@ -7975,9 +7975,9 @@ struct _lscp_thread_t * lscp_thread_create(void (*pfnProc)(void *), void *pvData
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct _lscp_thread_t) /*32ul*/ );
-    pThread = (struct _lscp_thread_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct _lscp_thread_t) /*32ul*/ );
+    pThread = (struct _lscp_thread_t *)return_value_malloc_1;
     if(pThread == ((struct _lscp_thread_t *)NULL))
     {
       fprintf(stderr, "lcsp_thread_create: Out of memory.\n");
@@ -7994,9 +7994,9 @@ struct _lscp_thread_t * lscp_thread_create(void (*pfnProc)(void *), void *pvData
       if(!(iDetach == 0))
         pthread_attr_setdetachstate(&attr, 1);
 
-      signed int return_value_pthread_create$2;
-      return_value_pthread_create$2=pthread_create(&pThread->pthread, &attr, _lscp_thread_start, (void *)pThread);
-      if(!(return_value_pthread_create$2 == 0))
+      signed int return_value_pthread_create_2;
+      return_value_pthread_create_2=pthread_create(&pThread->pthread, &attr, _lscp_thread_start, (void *)pThread);
+      if(!(return_value_pthread_create_2 == 0))
       {
         fprintf(stderr, "lcsp_thread_create: Failed to create thread.\n");
         free((void *)pThread);
@@ -8029,7 +8029,7 @@ enum _lscp_status_t lscp_thread_destroy(struct _lscp_thread_t *pThread)
 enum _lscp_status_t lscp_thread_join(struct _lscp_thread_t *pThread)
 {
   enum _lscp_status_t ret = (enum _lscp_status_t)LSCP_FAILED;
-  signed int return_value_pthread_join$1;
+  signed int return_value_pthread_join_1;
   if(pThread == ((struct _lscp_thread_t *)NULL))
     return ret;
 
@@ -8037,8 +8037,8 @@ enum _lscp_status_t lscp_thread_join(struct _lscp_thread_t *pThread)
   {
     if(!(pThread->pthread == 0ul))
     {
-      return_value_pthread_join$1=pthread_join(pThread->pthread, (void **)(void *)0);
-      if(return_value_pthread_join$1 == 0)
+      return_value_pthread_join_1=pthread_join(pThread->pthread, (void **)(void *)0);
+      if(return_value_pthread_join_1 == 0)
       {
         pThread->pthread = (unsigned long int)0;
         ret = (enum _lscp_status_t)LSCP_OK;
@@ -8055,37 +8055,37 @@ enum _lscp_status_t lscp_thread_join(struct _lscp_thread_t *pThread)
 enum _lscp_status_t lscp_unmap_midi_instrument(struct _lscp_client_t *pClient, struct _lscp_midi_instrument_t *pMidiInstr)
 {
   char szQuery[1024l];
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!(pMidiInstr->map >= 0))
     return (enum _lscp_status_t)LSCP_FAILED;
 
   else
   {
     if(!(pMidiInstr->bank >= 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = pMidiInstr->bank > 16383 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = pMidiInstr->bank > 16383 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return (enum _lscp_status_t)LSCP_FAILED;
 
     else
     {
       if(!(pMidiInstr->prog >= 0))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = pMidiInstr->prog > 127 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = pMidiInstr->prog > 127 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         return (enum _lscp_status_t)LSCP_FAILED;
 
       else
       {
         sprintf(szQuery, "UNMAP MIDI_INSTRUMENT %d %d %d\r\n", pMidiInstr->map, pMidiInstr->bank, pMidiInstr->prog);
-        enum _lscp_status_t return_value_lscp_client_query$3;
-        return_value_lscp_client_query$3=lscp_client_query(pClient, szQuery);
-        return return_value_lscp_client_query$3;
+        enum _lscp_status_t return_value_lscp_client_query_3;
+        return_value_lscp_client_query_3=lscp_client_query(pClient, szQuery);
+        return return_value_lscp_client_query_3;
       }
     }
   }
@@ -8097,35 +8097,35 @@ char * lscp_unquote(char **ppsz, signed int dup)
 {
   char chQuote;
   char *psz = *ppsz;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*psz]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*psz]) == 0)
       break;
 
     psz = psz + 1l;
   }
   while((_Bool)1);
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_6;
   if((signed int)*psz == 34)
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_6 = (_Bool)1;
 
   else
-    tmp_if_expr$6 = (signed int)*psz == 39 ? (_Bool)1 : (_Bool)0;
-  char *tmp_post$2;
-  const unsigned short int **return_value___ctype_b_loc$3;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  char *tmp_post$5;
-  if(tmp_if_expr$6)
+    tmp_if_expr_6 = (signed int)*psz == 39 ? (_Bool)1 : (_Bool)0;
+  char *tmp_post_2;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  char *tmp_post_5;
+  if(tmp_if_expr_6)
   {
-    tmp_post$2 = psz;
+    tmp_post_2 = psz;
     psz = psz + 1l;
-    chQuote = *tmp_post$2;
+    chQuote = *tmp_post_2;
     do
     {
-      return_value___ctype_b_loc$3=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*psz]) == 0)
+      return_value___ctype_b_loc_3=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*psz]) == 0)
         break;
 
       psz = psz + 1l;
@@ -8145,8 +8145,8 @@ char * lscp_unquote(char **ppsz, signed int dup)
       {
         do
         {
-          return_value___ctype_b_loc$4=__ctype_b_loc();
-          if((8192 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)(*ppsz)[-1l]]) == 0)
+          return_value___ctype_b_loc_4=__ctype_b_loc();
+          if((8192 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)(*ppsz)[-1l]]) == 0)
             break;
 
           if(psz >= *ppsz)
@@ -8155,9 +8155,9 @@ char * lscp_unquote(char **ppsz, signed int dup)
           *ppsz = *ppsz - 1l;
         }
         while((_Bool)1);
-        tmp_post$5 = *ppsz;
+        tmp_post_5 = *ppsz;
         *ppsz = *ppsz + 1l;
-        *tmp_post$5 = (char)0;
+        *tmp_post_5 = (char)0;
       }
 
     }
@@ -8195,17 +8195,17 @@ signed int main(signed int argc, char **argv)
   char szLine[200l];
   signed int cchLine;
   struct _lscp_connect_t *p;
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
-  srand((unsigned int)return_value_time$1);
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
+  srand((unsigned int)return_value_time_1);
   pServer=lscp_server_create(8888, server_callback, (void *)0);
-  char *return_value_fgets$2;
-  _Bool tmp_if_expr$12;
-  signed int return_value_strcmp$11;
-  signed int return_value_strcmp$9;
-  _Bool tmp_if_expr$8;
-  signed int return_value_strcmp$7;
-  unsigned long int return_value_strlen$6;
+  char *return_value_fgets_2;
+  _Bool tmp_if_expr_12;
+  signed int return_value_strcmp_11;
+  signed int return_value_strcmp_9;
+  _Bool tmp_if_expr_8;
+  signed int return_value_strcmp_7;
+  unsigned long int return_value_strlen_6;
   if(pServer == ((struct _lscp_server_t *)NULL))
     return -1;
 
@@ -8215,13 +8215,13 @@ signed int main(signed int argc, char **argv)
     server_prompt();
     do
     {
-      return_value_fgets$2=fgets(szLine, (signed int)sizeof(char [200l]) /*200ul*/ , stdin);
-      if(return_value_fgets$2 == ((char *)NULL))
+      return_value_fgets_2=fgets(szLine, (signed int)sizeof(char [200l]) /*200ul*/ , stdin);
+      if(return_value_fgets_2 == ((char *)NULL))
         break;
 
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(szLine);
-      cchLine = (signed int)return_value_strlen$3;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(szLine);
+      cchLine = (signed int)return_value_strlen_3;
       for( ; cchLine >= 1; cchLine = cchLine - 1)
         if(!((signed int)szLine[(signed long int)(cchLine + -1)] == 10))
         {
@@ -8231,32 +8231,32 @@ signed int main(signed int argc, char **argv)
         }
 
       szLine[(signed long int)cchLine] = (char)0;
-      signed int return_value_strcmp$10;
-      return_value_strcmp$10=strcmp(szLine, "exit");
-      if(return_value_strcmp$10 == 0)
-        tmp_if_expr$12 = (_Bool)1;
+      signed int return_value_strcmp_10;
+      return_value_strcmp_10=strcmp(szLine, "exit");
+      if(return_value_strcmp_10 == 0)
+        tmp_if_expr_12 = (_Bool)1;
 
       else
       {
-        return_value_strcmp$11=strcmp(szLine, "quit");
-        tmp_if_expr$12 = return_value_strcmp$11 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strcmp_11=strcmp(szLine, "quit");
+        tmp_if_expr_12 = return_value_strcmp_11 == 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$12)
+      if(tmp_if_expr_12)
         break;
 
       else
       {
-        return_value_strcmp$9=strcmp(szLine, "list");
-        if(return_value_strcmp$9 == 0)
+        return_value_strcmp_9=strcmp(szLine, "list");
+        if(return_value_strcmp_9 == 0)
         {
           p = pServer->connects.first;
           for( ; !(p == ((struct _lscp_connect_t *)NULL)); p = p->next)
           {
-            char *return_value_inet_ntoa$4;
-            return_value_inet_ntoa$4=inet_ntoa(p->client.addr.sin_addr);
-            unsigned short int return_value_ntohs$5;
-            return_value_ntohs$5=ntohs(p->client.addr.sin_port);
-            printf("client: sock=%d addr=%s port=%d events=0x%04x.\n", p->client.sock, return_value_inet_ntoa$4, return_value_ntohs$5, (signed int)p->events);
+            char *return_value_inet_ntoa_4;
+            return_value_inet_ntoa_4=inet_ntoa(p->client.addr.sin_addr);
+            unsigned short int return_value_ntohs_5;
+            return_value_ntohs_5=ntohs(p->client.addr.sin_port);
+            printf("client: sock=%d addr=%s port=%d events=0x%04x.\n", p->client.sock, return_value_inet_ntoa_4, return_value_ntohs_5, (signed int)p->events);
           }
         }
 
@@ -8264,16 +8264,16 @@ signed int main(signed int argc, char **argv)
         {
           if(cchLine >= 1)
           {
-            return_value_strcmp$7=strcmp(szLine, "help");
-            tmp_if_expr$8 = return_value_strcmp$7 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_7=strcmp(szLine, "help");
+            tmp_if_expr_8 = return_value_strcmp_7 != 0 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$8 = (_Bool)0;
-          if(tmp_if_expr$8)
+            tmp_if_expr_8 = (_Bool)0;
+          if(tmp_if_expr_8)
           {
-            return_value_strlen$6=strlen(szLine);
-            lscp_server_broadcast(pServer, (enum _lscp_event_t)LSCP_EVENT_MISCELLANEOUS, szLine, (signed int)return_value_strlen$6);
+            return_value_strlen_6=strlen(szLine);
+            lscp_server_broadcast(pServer, (enum _lscp_event_t)LSCP_EVENT_MISCELLANEOUS, szLine, (signed int)return_value_strlen_6);
           }
 
           else
@@ -8299,11 +8299,11 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
   signed int i;
   if(pchBuffer == ((const char *)NULL))
   {
-    char *return_value_inet_ntoa$1;
-    return_value_inet_ntoa$1=inet_ntoa(pConnect->client.addr.sin_addr);
-    unsigned short int return_value_htons$2;
-    return_value_htons$2=htons(pConnect->client.addr.sin_port);
-    fprintf(stderr, "server_callback: addr=%s port=%d: ", return_value_inet_ntoa$1, return_value_htons$2);
+    char *return_value_inet_ntoa_1;
+    return_value_inet_ntoa_1=inet_ntoa(pConnect->client.addr.sin_addr);
+    unsigned short int return_value_htons_2;
+    return_value_htons_2=htons(pConnect->client.addr.sin_port);
+    fprintf(stderr, "server_callback: addr=%s port=%d: ", return_value_inet_ntoa_1, return_value_htons_2);
     switch(cchBuffer)
     {
       case 0:
@@ -8319,110 +8319,110 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
   lscp_socket_trace("server_callback", &pConnect->client.addr, pchBuffer, cchBuffer);
   lscp_parser_init(&tok, pchBuffer, cchBuffer);
-  signed int return_value_lscp_parser_test$163;
-  return_value_lscp_parser_test$163=lscp_parser_test(&tok, "GET");
-  signed int return_value_lscp_parser_test$14;
-  signed int return_value_lscp_parser_test$13;
-  signed int return_value_lscp_parser_test$12;
-  signed int return_value_lscp_parser_test$10;
-  signed int return_value_lscp_parser_test$74;
-  signed int return_value_lscp_parser_test$73;
-  signed int return_value_lscp_parser_test$72;
-  signed int return_value_lscp_parser_test2$71;
-  signed int return_value_lscp_parser_test$16;
-  signed int return_value_lscp_parser_test2$70;
-  signed int return_value_lscp_parser_test2$69;
-  signed int return_value_lscp_parser_test$20;
-  signed int return_value_lscp_parser_test$19;
-  signed int return_value_lscp_parser_test$25;
-  signed int return_value_lscp_parser_test$23;
-  signed int return_value_lscp_parser_test$22;
-  signed int return_value_lscp_parser_test2$68;
-  signed int return_value_lscp_parser_test$27;
-  signed int return_value_lscp_parser_test2$67;
-  signed int return_value_lscp_parser_test2$66;
-  signed int return_value_lscp_parser_test2$65;
-  signed int return_value_lscp_parser_test2$64;
-  signed int return_value_lscp_parser_test2$63;
-  signed int return_value_lscp_parser_test$34;
-  signed int return_value_lscp_parser_test2$62;
-  signed int return_value_lscp_parser_test$61;
-  signed int return_value_lscp_parser_test$60;
-  signed int return_value_lscp_parser_test$59;
-  signed int return_value_lscp_parser_test2$58;
-  signed int return_value_lscp_parser_test2$57;
-  signed int return_value_lscp_parser_test$43;
-  signed int return_value_lscp_parser_test$42;
-  signed int return_value_lscp_parser_test$56;
-  signed int return_value_lscp_parser_test$55;
-  signed int return_value_lscp_parser_test$54;
-  signed int return_value_lscp_parser_test2$53;
-  signed int return_value_lscp_parser_test$52;
-  signed int return_value_lscp_parser_test$51;
-  signed int return_value_lscp_parser_test$50;
-  signed int return_value_lscp_parser_test2$49;
-  signed int return_value_lscp_parser_test2$48;
-  signed int return_value_lscp_parser_test$162;
-  _Bool tmp_if_expr$77;
-  unsigned long int return_value_strlen$76;
-  signed int return_value_lscp_parser_test$101;
-  signed int return_value_lscp_parser_test$100;
-  signed int return_value_lscp_parser_test$99;
-  signed int return_value_lscp_parser_test$98;
-  _Bool tmp_if_expr$80;
-  unsigned long int return_value_strlen$79;
-  signed int return_value_lscp_parser_test$97;
-  _Bool tmp_if_expr$83;
-  unsigned long int return_value_strlen$82;
-  signed int return_value_lscp_parser_test$96;
-  _Bool tmp_if_expr$86;
-  unsigned long int return_value_strlen$85;
-  signed int return_value_lscp_parser_test$95;
-  _Bool tmp_if_expr$89;
-  unsigned long int return_value_strlen$88;
-  signed int return_value_lscp_parser_test$94;
-  _Bool tmp_if_expr$92;
-  unsigned long int return_value_strlen$91;
-  signed int return_value_lscp_parser_test$161;
-  signed int return_value_lscp_parser_test$112;
-  signed int return_value_lscp_parser_test$111;
-  signed int return_value_lscp_parser_test$110;
-  signed int return_value_lscp_parser_test$109;
-  signed int return_value_lscp_parser_test$108;
-  signed int return_value_lscp_parser_test$107;
-  signed int return_value_lscp_parser_test$106;
-  signed int return_value_lscp_parser_test$105;
-  signed int return_value_lscp_parser_test$104;
-  signed int return_value_lscp_parser_test$103;
-  signed int return_value_lscp_parser_test$119;
-  signed int return_value_lscp_parser_test$118;
-  signed int return_value_lscp_parser_test$115;
-  signed int return_value_lscp_parser_test$114;
-  signed int return_value_lscp_parser_test2$117;
-  signed int return_value_lscp_parser_test$160;
-  signed int return_value_lscp_parser_test$121;
-  signed int return_value_lscp_parser_test$159;
-  signed int tmp_post$123;
-  signed int return_value_lscp_parser_test$125;
-  signed int tmp_post$124;
-  signed int return_value_lscp_parser_test$158;
-  signed int return_value_lscp_parser_test$129;
-  signed int return_value_lscp_parser_test$157;
-  signed int return_value_lscp_parser_test$156;
-  signed int tmp_post$133;
-  signed int return_value_lscp_parser_test$137;
-  signed int tmp_post$134;
-  signed int return_value_lscp_parser_test$136;
-  signed int tmp_post$135;
-  signed int return_value_lscp_parser_test$155;
-  signed int return_value_lscp_parser_test$143;
-  signed int return_value_lscp_parser_test$142;
-  signed int return_value_lscp_parser_test2$154;
-  signed int return_value_lscp_parser_test2$153;
-  signed int return_value_lscp_parser_test2$152;
-  signed int return_value_lscp_parser_test$151;
-  signed int return_value_lscp_parser_test$150;
-  signed int return_value_lscp_parser_test$149;
+  signed int return_value_lscp_parser_test_163;
+  return_value_lscp_parser_test_163=lscp_parser_test(&tok, "GET");
+  signed int return_value_lscp_parser_test_14;
+  signed int return_value_lscp_parser_test_13;
+  signed int return_value_lscp_parser_test_12;
+  signed int return_value_lscp_parser_test_10;
+  signed int return_value_lscp_parser_test_74;
+  signed int return_value_lscp_parser_test_73;
+  signed int return_value_lscp_parser_test_72;
+  signed int return_value_lscp_parser_test2_71;
+  signed int return_value_lscp_parser_test_16;
+  signed int return_value_lscp_parser_test2_70;
+  signed int return_value_lscp_parser_test2_69;
+  signed int return_value_lscp_parser_test_20;
+  signed int return_value_lscp_parser_test_19;
+  signed int return_value_lscp_parser_test_25;
+  signed int return_value_lscp_parser_test_23;
+  signed int return_value_lscp_parser_test_22;
+  signed int return_value_lscp_parser_test2_68;
+  signed int return_value_lscp_parser_test_27;
+  signed int return_value_lscp_parser_test2_67;
+  signed int return_value_lscp_parser_test2_66;
+  signed int return_value_lscp_parser_test2_65;
+  signed int return_value_lscp_parser_test2_64;
+  signed int return_value_lscp_parser_test2_63;
+  signed int return_value_lscp_parser_test_34;
+  signed int return_value_lscp_parser_test2_62;
+  signed int return_value_lscp_parser_test_61;
+  signed int return_value_lscp_parser_test_60;
+  signed int return_value_lscp_parser_test_59;
+  signed int return_value_lscp_parser_test2_58;
+  signed int return_value_lscp_parser_test2_57;
+  signed int return_value_lscp_parser_test_43;
+  signed int return_value_lscp_parser_test_42;
+  signed int return_value_lscp_parser_test_56;
+  signed int return_value_lscp_parser_test_55;
+  signed int return_value_lscp_parser_test_54;
+  signed int return_value_lscp_parser_test2_53;
+  signed int return_value_lscp_parser_test_52;
+  signed int return_value_lscp_parser_test_51;
+  signed int return_value_lscp_parser_test_50;
+  signed int return_value_lscp_parser_test2_49;
+  signed int return_value_lscp_parser_test2_48;
+  signed int return_value_lscp_parser_test_162;
+  _Bool tmp_if_expr_77;
+  unsigned long int return_value_strlen_76;
+  signed int return_value_lscp_parser_test_101;
+  signed int return_value_lscp_parser_test_100;
+  signed int return_value_lscp_parser_test_99;
+  signed int return_value_lscp_parser_test_98;
+  _Bool tmp_if_expr_80;
+  unsigned long int return_value_strlen_79;
+  signed int return_value_lscp_parser_test_97;
+  _Bool tmp_if_expr_83;
+  unsigned long int return_value_strlen_82;
+  signed int return_value_lscp_parser_test_96;
+  _Bool tmp_if_expr_86;
+  unsigned long int return_value_strlen_85;
+  signed int return_value_lscp_parser_test_95;
+  _Bool tmp_if_expr_89;
+  unsigned long int return_value_strlen_88;
+  signed int return_value_lscp_parser_test_94;
+  _Bool tmp_if_expr_92;
+  unsigned long int return_value_strlen_91;
+  signed int return_value_lscp_parser_test_161;
+  signed int return_value_lscp_parser_test_112;
+  signed int return_value_lscp_parser_test_111;
+  signed int return_value_lscp_parser_test_110;
+  signed int return_value_lscp_parser_test_109;
+  signed int return_value_lscp_parser_test_108;
+  signed int return_value_lscp_parser_test_107;
+  signed int return_value_lscp_parser_test_106;
+  signed int return_value_lscp_parser_test_105;
+  signed int return_value_lscp_parser_test_104;
+  signed int return_value_lscp_parser_test_103;
+  signed int return_value_lscp_parser_test_119;
+  signed int return_value_lscp_parser_test_118;
+  signed int return_value_lscp_parser_test_115;
+  signed int return_value_lscp_parser_test_114;
+  signed int return_value_lscp_parser_test2_117;
+  signed int return_value_lscp_parser_test_160;
+  signed int return_value_lscp_parser_test_121;
+  signed int return_value_lscp_parser_test_159;
+  signed int tmp_post_123;
+  signed int return_value_lscp_parser_test_125;
+  signed int tmp_post_124;
+  signed int return_value_lscp_parser_test_158;
+  signed int return_value_lscp_parser_test_129;
+  signed int return_value_lscp_parser_test_157;
+  signed int return_value_lscp_parser_test_156;
+  signed int tmp_post_133;
+  signed int return_value_lscp_parser_test_137;
+  signed int tmp_post_134;
+  signed int return_value_lscp_parser_test_136;
+  signed int tmp_post_135;
+  signed int return_value_lscp_parser_test_155;
+  signed int return_value_lscp_parser_test_143;
+  signed int return_value_lscp_parser_test_142;
+  signed int return_value_lscp_parser_test2_154;
+  signed int return_value_lscp_parser_test2_153;
+  signed int return_value_lscp_parser_test2_152;
+  signed int return_value_lscp_parser_test_151;
+  signed int return_value_lscp_parser_test_150;
+  signed int return_value_lscp_parser_test_149;
   static signed int iMidiMaps = 0;
   static signed int iMidiInstruments = 0;
   static signed int iFxSend = 0;
@@ -8430,65 +8430,65 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
   static signed int iMidiDevice = 0;
   static signed int iAudioDevice = 0;
   static signed int iSamplerChannel = 0;
-  if(!(return_value_lscp_parser_test$163 == 0))
+  if(!(return_value_lscp_parser_test_163 == 0))
   {
-    signed int return_value_lscp_parser_test$75;
-    return_value_lscp_parser_test$75=lscp_parser_test(&tok, "CHANNEL");
-    if(!(return_value_lscp_parser_test$75 == 0))
+    signed int return_value_lscp_parser_test_75;
+    return_value_lscp_parser_test_75=lscp_parser_test(&tok, "CHANNEL");
+    if(!(return_value_lscp_parser_test_75 == 0))
     {
-      signed int return_value_lscp_parser_test$15;
-      return_value_lscp_parser_test$15=lscp_parser_test(&tok, "INFO");
-      if(!(return_value_lscp_parser_test$15 == 0))
+      signed int return_value_lscp_parser_test_15;
+      return_value_lscp_parser_test_15=lscp_parser_test(&tok, "INFO");
+      if(!(return_value_lscp_parser_test_15 == 0))
         pszResult = "ENGINE_NAME: DummyEngine\r\nINSTRUMENT_FILE: DummyInstrument.gig\r\nINSTRUMENT_NR: 0\r\nINSTRUMENT_NAME: Dummy Instrument\r\nINSTRUMENT_STATUS: 100\r\nAUDIO_OUTPUT_DEVICE: 0\r\nAUDIO_OUTPUT_CHANNELS: 2\r\nAUDIO_OUTPUT_ROUTING: 0,1\r\nMIDI_INPUT_DEVICE: 0\r\nMIDI_INPUT_PORT: 0\r\nMIDI_INPUT_CHANNEL: ALL\r\nVOLUME: 0.5\r\nMUTE: FALSE\r\nSOLO: TRUE\r\n.\r\n";
 
       else
       {
-        return_value_lscp_parser_test$14=lscp_parser_test(&tok, "VOICE_COUNT");
-        if(!(return_value_lscp_parser_test$14 == 0))
+        return_value_lscp_parser_test_14=lscp_parser_test(&tok, "VOICE_COUNT");
+        if(!(return_value_lscp_parser_test_14 == 0))
         {
-          signed int return_value_rand$3;
-          return_value_rand$3=rand();
-          sprintf(szTemp, "%d\r\n", return_value_rand$3 % 100);
+          signed int return_value_rand_3;
+          return_value_rand_3=rand();
+          sprintf(szTemp, "%d\r\n", return_value_rand_3 % 100);
           pszResult = szTemp;
         }
 
         else
         {
-          return_value_lscp_parser_test$13=lscp_parser_test(&tok, "STREAM_COUNT");
-          if(!(return_value_lscp_parser_test$13 == 0))
+          return_value_lscp_parser_test_13=lscp_parser_test(&tok, "STREAM_COUNT");
+          if(!(return_value_lscp_parser_test_13 == 0))
             pszResult = "3\r\n";
 
           else
           {
-            return_value_lscp_parser_test$12=lscp_parser_test(&tok, "BUFFER_FILL");
-            if(!(return_value_lscp_parser_test$12 == 0))
+            return_value_lscp_parser_test_12=lscp_parser_test(&tok, "BUFFER_FILL");
+            if(!(return_value_lscp_parser_test_12 == 0))
             {
-              signed int return_value_lscp_parser_test$11;
-              return_value_lscp_parser_test$11=lscp_parser_test(&tok, "BYTES");
-              if(!(return_value_lscp_parser_test$11 == 0))
+              signed int return_value_lscp_parser_test_11;
+              return_value_lscp_parser_test_11=lscp_parser_test(&tok, "BYTES");
+              if(!(return_value_lscp_parser_test_11 == 0))
               {
-                signed int return_value_rand$4;
-                return_value_rand$4=rand();
-                signed int return_value_rand$5;
-                return_value_rand$5=rand();
-                signed int return_value_rand$6;
-                return_value_rand$6=rand();
-                sprintf(szTemp, "[1]%d,[2]%d,[3]%d\r\n", return_value_rand$4, return_value_rand$5, return_value_rand$6);
+                signed int return_value_rand_4;
+                return_value_rand_4=rand();
+                signed int return_value_rand_5;
+                return_value_rand_5=rand();
+                signed int return_value_rand_6;
+                return_value_rand_6=rand();
+                sprintf(szTemp, "[1]%d,[2]%d,[3]%d\r\n", return_value_rand_4, return_value_rand_5, return_value_rand_6);
                 pszResult = szTemp;
               }
 
               else
               {
-                return_value_lscp_parser_test$10=lscp_parser_test(&tok, "PERCENTAGE");
-                if(!(return_value_lscp_parser_test$10 == 0))
+                return_value_lscp_parser_test_10=lscp_parser_test(&tok, "PERCENTAGE");
+                if(!(return_value_lscp_parser_test_10 == 0))
                 {
-                  signed int return_value_rand$7;
-                  return_value_rand$7=rand();
-                  signed int return_value_rand$8;
-                  return_value_rand$8=rand();
-                  signed int return_value_rand$9;
-                  return_value_rand$9=rand();
-                  sprintf(szTemp, "[1]%d%%,[2]%d%%,[3]%d%%\r\n", return_value_rand$7 % 100, return_value_rand$8 % 100, return_value_rand$9 % 100);
+                  signed int return_value_rand_7;
+                  return_value_rand_7=rand();
+                  signed int return_value_rand_8;
+                  return_value_rand_8=rand();
+                  signed int return_value_rand_9;
+                  return_value_rand_9=rand();
+                  sprintf(szTemp, "[1]%d%%,[2]%d%%,[3]%d%%\r\n", return_value_rand_7 % 100, return_value_rand_8 % 100, return_value_rand_9 % 100);
                   pszResult = szTemp;
                 }
 
@@ -8506,8 +8506,8 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
     else
     {
-      return_value_lscp_parser_test$74=lscp_parser_test(&tok, "CHANNELS");
-      if(!(return_value_lscp_parser_test$74 == 0))
+      return_value_lscp_parser_test_74=lscp_parser_test(&tok, "CHANNELS");
+      if(!(return_value_lscp_parser_test_74 == 0))
       {
         sprintf(szTemp, "%d\r\n", iSamplerChannel);
         pszResult = szTemp;
@@ -8515,30 +8515,30 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
       else
       {
-        return_value_lscp_parser_test$73=lscp_parser_test(&tok, "AVAILABLE_AUDIO_OUTPUT_DRIVERS");
-        if(!(return_value_lscp_parser_test$73 == 0))
+        return_value_lscp_parser_test_73=lscp_parser_test(&tok, "AVAILABLE_AUDIO_OUTPUT_DRIVERS");
+        if(!(return_value_lscp_parser_test_73 == 0))
           pszResult = "2\r\n";
 
         else
         {
-          return_value_lscp_parser_test$72=lscp_parser_test(&tok, "AVAILABLE_MIDI_INPUT_DRIVERS");
-          if(!(return_value_lscp_parser_test$72 == 0))
+          return_value_lscp_parser_test_72=lscp_parser_test(&tok, "AVAILABLE_MIDI_INPUT_DRIVERS");
+          if(!(return_value_lscp_parser_test_72 == 0))
             pszResult = "1\r\n";
 
           else
           {
-            return_value_lscp_parser_test2$71=lscp_parser_test2(&tok, "AUDIO_OUTPUT_DRIVER", "INFO");
-            if(!(return_value_lscp_parser_test2$71 == 0))
+            return_value_lscp_parser_test2_71=lscp_parser_test2(&tok, "AUDIO_OUTPUT_DRIVER", "INFO");
+            if(!(return_value_lscp_parser_test2_71 == 0))
             {
-              signed int return_value_lscp_parser_test$17;
-              return_value_lscp_parser_test$17=lscp_parser_test(&tok, "Alsa");
-              if(!(return_value_lscp_parser_test$17 == 0))
+              signed int return_value_lscp_parser_test_17;
+              return_value_lscp_parser_test_17=lscp_parser_test(&tok, "Alsa");
+              if(!(return_value_lscp_parser_test_17 == 0))
                 pszResult = "DESCRIPTION: 'ALSA PCM'\r\nVERSION: '1.0'\r\nPARAMETERS: channels,samplerate,active\r\n.\r\n";
 
               else
               {
-                return_value_lscp_parser_test$16=lscp_parser_test(&tok, "Jack");
-                if(!(return_value_lscp_parser_test$16 == 0))
+                return_value_lscp_parser_test_16=lscp_parser_test(&tok, "Jack");
+                if(!(return_value_lscp_parser_test_16 == 0))
                   pszResult = "DESCRIPTION: JACK Audio Connection Kit\r\nVERSION: 0.98.1\r\nPARAMETERS: channels,samplerate,active\r\n.\r\n";
 
                 else
@@ -8548,12 +8548,12 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
             else
             {
-              return_value_lscp_parser_test2$70=lscp_parser_test2(&tok, "MIDI_INPUT_DRIVER", "INFO");
-              if(!(return_value_lscp_parser_test2$70 == 0))
+              return_value_lscp_parser_test2_70=lscp_parser_test2(&tok, "MIDI_INPUT_DRIVER", "INFO");
+              if(!(return_value_lscp_parser_test2_70 == 0))
               {
-                signed int return_value_lscp_parser_test$18;
-                return_value_lscp_parser_test$18=lscp_parser_test(&tok, "Alsa");
-                if(!(return_value_lscp_parser_test$18 == 0))
+                signed int return_value_lscp_parser_test_18;
+                return_value_lscp_parser_test_18=lscp_parser_test(&tok, "Alsa");
+                if(!(return_value_lscp_parser_test_18 == 0))
                   pszResult = "DESCRIPTION: ALSA Sequencer\r\nVERSION: 1.0\r\nPARAMETERS: ports,active\r\n.\r\n";
 
                 else
@@ -8562,28 +8562,28 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
               else
               {
-                return_value_lscp_parser_test2$69=lscp_parser_test2(&tok, "AUDIO_OUTPUT_DRIVER_PARAMETER", "INFO");
-                if(!(return_value_lscp_parser_test2$69 == 0))
+                return_value_lscp_parser_test2_69=lscp_parser_test2(&tok, "AUDIO_OUTPUT_DRIVER_PARAMETER", "INFO");
+                if(!(return_value_lscp_parser_test2_69 == 0))
                 {
-                  signed int return_value_lscp_parser_test$26;
-                  return_value_lscp_parser_test$26=lscp_parser_test(&tok, "Alsa");
-                  if(!(return_value_lscp_parser_test$26 == 0))
+                  signed int return_value_lscp_parser_test_26;
+                  return_value_lscp_parser_test_26=lscp_parser_test(&tok, "Alsa");
+                  if(!(return_value_lscp_parser_test_26 == 0))
                   {
-                    signed int return_value_lscp_parser_test$21;
-                    return_value_lscp_parser_test$21=lscp_parser_test(&tok, "active");
-                    if(!(return_value_lscp_parser_test$21 == 0))
+                    signed int return_value_lscp_parser_test_21;
+                    return_value_lscp_parser_test_21=lscp_parser_test(&tok, "active");
+                    if(!(return_value_lscp_parser_test_21 == 0))
                       pszResult = "DESCRIPTION: 'ALSA PCM active state'\r\nTYPE: BOOL\r\nMANDATORY: TRUE\r\nFIX: TRUE\r\nMULTIPLICITY: FALSE\r\nDEPENDS: channels,samplerate,card\r\nDEFAULT: TRUE\r\nRANGE_MIN: FALSE\r\nRANGE_MAX: TRUE\r\nPOSSIBILITIES: FALSE,TRUE\r\n.\r\n";
 
                     else
                     {
-                      return_value_lscp_parser_test$20=lscp_parser_test(&tok, "channels");
-                      if(!(return_value_lscp_parser_test$20 == 0))
+                      return_value_lscp_parser_test_20=lscp_parser_test(&tok, "channels");
+                      if(!(return_value_lscp_parser_test_20 == 0))
                         pszResult = "DESCRIPTION: 'Number of ALSA PCM channels'\r\nTYPE: INT\r\nMANDATORY: TRUE\r\nFIX: TRUE\r\nMULTIPLICITY: FALSE\r\nDEFAULT: 2\r\n.\r\n";
 
                       else
                       {
-                        return_value_lscp_parser_test$19=lscp_parser_test(&tok, "samplerate");
-                        if(!(return_value_lscp_parser_test$19 == 0))
+                        return_value_lscp_parser_test_19=lscp_parser_test(&tok, "samplerate");
+                        if(!(return_value_lscp_parser_test_19 == 0))
                           pszResult = "DESCRIPTION: 'ALSA PCM sample rate'\r\nTYPE: INT\r\nMANDATORY: TRUE\r\nFIX: TRUE\r\nMULTIPLICITY: TRUE\r\nDEFAULT: 44100\r\nPOSSIBILITIES: 44100,48000,96000\r\n.\r\n";
 
                         else
@@ -8594,24 +8594,24 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                   else
                   {
-                    return_value_lscp_parser_test$25=lscp_parser_test(&tok, "Jack");
-                    if(!(return_value_lscp_parser_test$25 == 0))
+                    return_value_lscp_parser_test_25=lscp_parser_test(&tok, "Jack");
+                    if(!(return_value_lscp_parser_test_25 == 0))
                     {
-                      signed int return_value_lscp_parser_test$24;
-                      return_value_lscp_parser_test$24=lscp_parser_test(&tok, "active");
-                      if(!(return_value_lscp_parser_test$24 == 0))
+                      signed int return_value_lscp_parser_test_24;
+                      return_value_lscp_parser_test_24=lscp_parser_test(&tok, "active");
+                      if(!(return_value_lscp_parser_test_24 == 0))
                         pszResult = "DESCRIPTION: 'JACK active state'\r\nTYPE: BOOL\r\nMANDATORY: TRUE\r\nFIX: TRUE\r\nMULTIPLICITY: FALSE\r\nDEPENDS: channels,samplerate\r\nDEFAULT: TRUE\r\nRANGE_MIN: FALSE\r\nRANGE_MAX: TRUE\r\nPOSSIBILITIES: FALSE,TRUE\r\n.\r\n";
 
                       else
                       {
-                        return_value_lscp_parser_test$23=lscp_parser_test(&tok, "channels");
-                        if(!(return_value_lscp_parser_test$23 == 0))
+                        return_value_lscp_parser_test_23=lscp_parser_test(&tok, "channels");
+                        if(!(return_value_lscp_parser_test_23 == 0))
                           pszResult = "DESCRIPTION: 'Number of JACK audio channels'\r\nTYPE: INT\r\nMANDATORY: TRUE\r\nFIX: TRUE\r\nMULTIPLICITY: FALSE\r\nDEFAULT: 2\r\n.\r\n";
 
                         else
                         {
-                          return_value_lscp_parser_test$22=lscp_parser_test(&tok, "samplerate");
-                          if(!(return_value_lscp_parser_test$22 == 0))
+                          return_value_lscp_parser_test_22=lscp_parser_test(&tok, "samplerate");
+                          if(!(return_value_lscp_parser_test_22 == 0))
                             pszResult = "DESCRIPTION: 'JACK sample rate'\r\nTYPE: INT\r\nMANDATORY: TRUE\r\nFIX: TRUE\r\nMULTIPLICITY: TRUE\r\nDEFAULT: 44100\r\nPOSSIBILITIES: 44100,48000,96000\r\n.\r\n";
 
                           else
@@ -8627,22 +8627,22 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                 else
                 {
-                  return_value_lscp_parser_test2$68=lscp_parser_test2(&tok, "MIDI_INPUT_DRIVER_PARAMETER", "INFO");
-                  if(!(return_value_lscp_parser_test2$68 == 0))
+                  return_value_lscp_parser_test2_68=lscp_parser_test2(&tok, "MIDI_INPUT_DRIVER_PARAMETER", "INFO");
+                  if(!(return_value_lscp_parser_test2_68 == 0))
                   {
-                    signed int return_value_lscp_parser_test$29;
-                    return_value_lscp_parser_test$29=lscp_parser_test(&tok, "Alsa");
-                    if(!(return_value_lscp_parser_test$29 == 0))
+                    signed int return_value_lscp_parser_test_29;
+                    return_value_lscp_parser_test_29=lscp_parser_test(&tok, "Alsa");
+                    if(!(return_value_lscp_parser_test_29 == 0))
                     {
-                      signed int return_value_lscp_parser_test$28;
-                      return_value_lscp_parser_test$28=lscp_parser_test(&tok, "active");
-                      if(!(return_value_lscp_parser_test$28 == 0))
+                      signed int return_value_lscp_parser_test_28;
+                      return_value_lscp_parser_test_28=lscp_parser_test(&tok, "active");
+                      if(!(return_value_lscp_parser_test_28 == 0))
                         pszResult = "DESCRIPTION: 'ALSA Sequencer device active state'\r\nTYPE: BOOL\r\nMANDATORY: TRUE\r\nFIX: TRUE\r\nMULTIPLICITY: FALSE\r\nDEPENDS: channels,ports\r\nDEFAULT: TRUE\r\nRANGE_MIN: FALSE\r\nRANGE_MAX: TRUE\r\nPOSSIBILITIES: FALSE,TRUE\r\n.\r\n";
 
                       else
                       {
-                        return_value_lscp_parser_test$27=lscp_parser_test(&tok, "ports");
-                        if(!(return_value_lscp_parser_test$27 == 0))
+                        return_value_lscp_parser_test_27=lscp_parser_test(&tok, "ports");
+                        if(!(return_value_lscp_parser_test_27 == 0))
                           pszResult = "DESCRIPTION: 'Number of ALSA Sequencer ports'\r\nTYPE: INT\r\nMANDATORY: FALSE\r\nFIX: FALSE\r\nMULTIPLICITY: FALSE\r\nDEFAULT: 1\r\nRANGE_MIN: 1\r\nRANGE_MAX: 4\r\n.\r\n";
 
                         else
@@ -8656,12 +8656,12 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                   else
                   {
-                    return_value_lscp_parser_test2$67=lscp_parser_test2(&tok, "AUDIO_OUTPUT_DEVICE", "INFO");
-                    if(!(return_value_lscp_parser_test2$67 == 0))
+                    return_value_lscp_parser_test2_67=lscp_parser_test2(&tok, "AUDIO_OUTPUT_DEVICE", "INFO");
+                    if(!(return_value_lscp_parser_test2_67 == 0))
                     {
-                      signed int return_value_lscp_parser_nextint$30;
-                      return_value_lscp_parser_nextint$30=lscp_parser_nextint(&tok);
-                      if(!(return_value_lscp_parser_nextint$30 >= iAudioDevice))
+                      signed int return_value_lscp_parser_nextint_30;
+                      return_value_lscp_parser_nextint_30=lscp_parser_nextint(&tok);
+                      if(!(return_value_lscp_parser_nextint_30 >= iAudioDevice))
                         pszResult = "driver: Alsa\r\nactive: TRUE\r\nchannels: 2\r\nsamplerate: 44100\r\n.\r\n";
 
                       else
@@ -8670,12 +8670,12 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                     else
                     {
-                      return_value_lscp_parser_test2$66=lscp_parser_test2(&tok, "MIDI_INPUT_DEVICE", "INFO");
-                      if(!(return_value_lscp_parser_test2$66 == 0))
+                      return_value_lscp_parser_test2_66=lscp_parser_test2(&tok, "MIDI_INPUT_DEVICE", "INFO");
+                      if(!(return_value_lscp_parser_test2_66 == 0))
                       {
-                        signed int return_value_lscp_parser_nextint$31;
-                        return_value_lscp_parser_nextint$31=lscp_parser_nextint(&tok);
-                        if(!(return_value_lscp_parser_nextint$31 >= iMidiDevice))
+                        signed int return_value_lscp_parser_nextint_31;
+                        return_value_lscp_parser_nextint_31=lscp_parser_nextint(&tok);
+                        if(!(return_value_lscp_parser_nextint_31 >= iMidiDevice))
                           pszResult = "driver: Alsa\r\nactive: TRUE\r\nchannels: 16\r\nports: 1\r\n.\r\n";
 
                         else
@@ -8684,12 +8684,12 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                       else
                       {
-                        return_value_lscp_parser_test2$65=lscp_parser_test2(&tok, "AUDIO_OUTPUT_CHANNEL", "INFO");
-                        if(!(return_value_lscp_parser_test2$65 == 0))
+                        return_value_lscp_parser_test2_65=lscp_parser_test2(&tok, "AUDIO_OUTPUT_CHANNEL", "INFO");
+                        if(!(return_value_lscp_parser_test2_65 == 0))
                         {
-                          signed int return_value_lscp_parser_nextint$32;
-                          return_value_lscp_parser_nextint$32=lscp_parser_nextint(&tok);
-                          if(!(return_value_lscp_parser_nextint$32 >= iAudioDevice))
+                          signed int return_value_lscp_parser_nextint_32;
+                          return_value_lscp_parser_nextint_32=lscp_parser_nextint(&tok);
+                          if(!(return_value_lscp_parser_nextint_32 >= iAudioDevice))
                             pszResult = "name: DummyMonitor\r\nis_mix_channel: FALSE\r\nmix_channel_destination: 0\r\n.\r\n";
 
                           else
@@ -8698,12 +8698,12 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                         else
                         {
-                          return_value_lscp_parser_test2$64=lscp_parser_test2(&tok, "MIDI_INPUT_PORT", "INFO");
-                          if(!(return_value_lscp_parser_test2$64 == 0))
+                          return_value_lscp_parser_test2_64=lscp_parser_test2(&tok, "MIDI_INPUT_PORT", "INFO");
+                          if(!(return_value_lscp_parser_test2_64 == 0))
                           {
-                            signed int return_value_lscp_parser_nextint$33;
-                            return_value_lscp_parser_nextint$33=lscp_parser_nextint(&tok);
-                            if(!(return_value_lscp_parser_nextint$33 >= iMidiDevice))
+                            signed int return_value_lscp_parser_nextint_33;
+                            return_value_lscp_parser_nextint_33=lscp_parser_nextint(&tok);
+                            if(!(return_value_lscp_parser_nextint_33 >= iMidiDevice))
                               pszResult = "name: DummyKeyboard\r\nalsa_seq_bindings: '64:0'\r\n.\r\n";
 
                             else
@@ -8712,23 +8712,23 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                           else
                           {
-                            return_value_lscp_parser_test2$63=lscp_parser_test2(&tok, "AUDIO_OUTPUT_CHANNEL_PARAMETER", "INFO");
-                            if(!(return_value_lscp_parser_test2$63 == 0))
+                            return_value_lscp_parser_test2_63=lscp_parser_test2(&tok, "AUDIO_OUTPUT_CHANNEL_PARAMETER", "INFO");
+                            if(!(return_value_lscp_parser_test2_63 == 0))
                             {
-                              signed int return_value_lscp_parser_nextint$36;
-                              return_value_lscp_parser_nextint$36=lscp_parser_nextint(&tok);
-                              if(!(return_value_lscp_parser_nextint$36 >= iAudioDevice))
+                              signed int return_value_lscp_parser_nextint_36;
+                              return_value_lscp_parser_nextint_36=lscp_parser_nextint(&tok);
+                              if(!(return_value_lscp_parser_nextint_36 >= iAudioDevice))
                               {
                                 lscp_parser_nextint(&tok);
-                                signed int return_value_lscp_parser_test$35;
-                                return_value_lscp_parser_test$35=lscp_parser_test(&tok, "is_mix_channel");
-                                if(!(return_value_lscp_parser_test$35 == 0))
+                                signed int return_value_lscp_parser_test_35;
+                                return_value_lscp_parser_test_35=lscp_parser_test(&tok, "is_mix_channel");
+                                if(!(return_value_lscp_parser_test_35 == 0))
                                   pszResult = "DESCRIPTION: 'Whether this is an audio mix channel'\r\nTYPE: BOOL\r\nMANDATORY: TRUE\r\nFIX: FALSE\r\nMULTIPLICITY: FALSE\r\nPOSSIBILITIES: FALSE,TRUE\r\n.\r\n";
 
                                 else
                                 {
-                                  return_value_lscp_parser_test$34=lscp_parser_test(&tok, "mix_channel_destination");
-                                  if(!(return_value_lscp_parser_test$34 == 0))
+                                  return_value_lscp_parser_test_34=lscp_parser_test(&tok, "mix_channel_destination");
+                                  if(!(return_value_lscp_parser_test_34 == 0))
                                     pszResult = "DESCRIPTION: 'Audio mix channel destination'\r\nTYPE: INT\r\nMANDATORY: TRUE\r\nFIX: FALSE\r\nMULTIPLICITY: TRUE\r\nPOSSIBILITIES: 0,1\r\n.\r\n";
 
                                   else
@@ -8742,17 +8742,17 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                             else
                             {
-                              return_value_lscp_parser_test2$62=lscp_parser_test2(&tok, "MIDI_INPUT_PORT_PARAMETER", "INFO");
-                              if(!(return_value_lscp_parser_test2$62 == 0))
+                              return_value_lscp_parser_test2_62=lscp_parser_test2(&tok, "MIDI_INPUT_PORT_PARAMETER", "INFO");
+                              if(!(return_value_lscp_parser_test2_62 == 0))
                               {
-                                signed int return_value_lscp_parser_nextint$38;
-                                return_value_lscp_parser_nextint$38=lscp_parser_nextint(&tok);
-                                if(!(return_value_lscp_parser_nextint$38 >= iMidiDevice))
+                                signed int return_value_lscp_parser_nextint_38;
+                                return_value_lscp_parser_nextint_38=lscp_parser_nextint(&tok);
+                                if(!(return_value_lscp_parser_nextint_38 >= iMidiDevice))
                                 {
                                   lscp_parser_nextint(&tok);
-                                  signed int return_value_lscp_parser_test$37;
-                                  return_value_lscp_parser_test$37=lscp_parser_test(&tok, "alsa_seq_bindings");
-                                  if(!(return_value_lscp_parser_test$37 == 0))
+                                  signed int return_value_lscp_parser_test_37;
+                                  return_value_lscp_parser_test_37=lscp_parser_test(&tok, "alsa_seq_bindings");
+                                  if(!(return_value_lscp_parser_test_37 == 0))
                                     pszResult = "DESCRIPTION: 'Alsa sequencer port bindings'\r\nTYPE: STRING\r\nMANDATORY: TRUE\r\nFIX: FALSE\r\nMULTIPLICITY: TRUE\r\nPOSSIBILITIES: '64:0','68:0','68:1'\r\n.\r\n";
 
                                   else
@@ -8765,8 +8765,8 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                               else
                               {
-                                return_value_lscp_parser_test$61=lscp_parser_test(&tok, "AUDIO_OUTPUT_DEVICES");
-                                if(!(return_value_lscp_parser_test$61 == 0))
+                                return_value_lscp_parser_test_61=lscp_parser_test(&tok, "AUDIO_OUTPUT_DEVICES");
+                                if(!(return_value_lscp_parser_test_61 == 0))
                                 {
                                   sprintf(szTemp, "%d\r\n", iAudioDevice);
                                   pszResult = szTemp;
@@ -8774,8 +8774,8 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                                 else
                                 {
-                                  return_value_lscp_parser_test$60=lscp_parser_test(&tok, "MIDI_INPUT_DEVICES");
-                                  if(!(return_value_lscp_parser_test$60 == 0))
+                                  return_value_lscp_parser_test_60=lscp_parser_test(&tok, "MIDI_INPUT_DEVICES");
+                                  if(!(return_value_lscp_parser_test_60 == 0))
                                   {
                                     sprintf(szTemp, "%d\r\n", iMidiDevice);
                                     pszResult = szTemp;
@@ -8783,45 +8783,45 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                                   else
                                   {
-                                    return_value_lscp_parser_test$59=lscp_parser_test(&tok, "AVAILABLE_ENGINES");
-                                    if(!(return_value_lscp_parser_test$59 == 0))
+                                    return_value_lscp_parser_test_59=lscp_parser_test(&tok, "AVAILABLE_ENGINES");
+                                    if(!(return_value_lscp_parser_test_59 == 0))
                                       pszResult = "3\r\n";
 
                                     else
                                     {
-                                      return_value_lscp_parser_test2$58=lscp_parser_test2(&tok, "SERVER", "INFO");
-                                      if(!(return_value_lscp_parser_test2$58 == 0))
+                                      return_value_lscp_parser_test2_58=lscp_parser_test2(&tok, "SERVER", "INFO");
+                                      if(!(return_value_lscp_parser_test2_58 == 0))
                                       {
-                                        const char *return_value_lscp_server_package$39;
-                                        return_value_lscp_server_package$39=lscp_server_package();
-                                        const char *return_value_lscp_server_build$40;
-                                        return_value_lscp_server_build$40=lscp_server_build();
-                                        const char *return_value_lscp_server_version$41;
-                                        return_value_lscp_server_version$41=lscp_server_version();
-                                        sprintf(szTemp, "DESCRIPTION: example_server (%s) %s\r\nVERSION: %s\r\n.\r\n", return_value_lscp_server_package$39, return_value_lscp_server_build$40, return_value_lscp_server_version$41);
+                                        const char *return_value_lscp_server_package_39;
+                                        return_value_lscp_server_package_39=lscp_server_package();
+                                        const char *return_value_lscp_server_build_40;
+                                        return_value_lscp_server_build_40=lscp_server_build();
+                                        const char *return_value_lscp_server_version_41;
+                                        return_value_lscp_server_version_41=lscp_server_version();
+                                        sprintf(szTemp, "DESCRIPTION: example_server (%s) %s\r\nVERSION: %s\r\n.\r\n", return_value_lscp_server_package_39, return_value_lscp_server_build_40, return_value_lscp_server_version_41);
                                         pszResult = szTemp;
                                       }
 
                                       else
                                       {
-                                        return_value_lscp_parser_test2$57=lscp_parser_test2(&tok, "ENGINE", "INFO");
-                                        if(!(return_value_lscp_parser_test2$57 == 0))
+                                        return_value_lscp_parser_test2_57=lscp_parser_test2(&tok, "ENGINE", "INFO");
+                                        if(!(return_value_lscp_parser_test2_57 == 0))
                                         {
-                                          signed int return_value_lscp_parser_test$44;
-                                          return_value_lscp_parser_test$44=lscp_parser_test(&tok, "GigEngine");
-                                          if(!(return_value_lscp_parser_test$44 == 0))
+                                          signed int return_value_lscp_parser_test_44;
+                                          return_value_lscp_parser_test_44=lscp_parser_test(&tok, "GigEngine");
+                                          if(!(return_value_lscp_parser_test_44 == 0))
                                             pszResult = "DESCRIPTION: GigaSampler Engine\r\nVERSION: 0.3\r\n.\r\n";
 
                                           else
                                           {
-                                            return_value_lscp_parser_test$43=lscp_parser_test(&tok, "DLSEngine");
-                                            if(!(return_value_lscp_parser_test$43 == 0))
+                                            return_value_lscp_parser_test_43=lscp_parser_test(&tok, "DLSEngine");
+                                            if(!(return_value_lscp_parser_test_43 == 0))
                                               pszResult = "DESCRIPTION: 'DLS Generic Engine'\r\nVERSION: 0.2\r\n.\r\n";
 
                                             else
                                             {
-                                              return_value_lscp_parser_test$42=lscp_parser_test(&tok, "AkaiEngine");
-                                              if(!(return_value_lscp_parser_test$42 == 0))
+                                              return_value_lscp_parser_test_42=lscp_parser_test(&tok, "AkaiEngine");
+                                              if(!(return_value_lscp_parser_test_42 == 0))
                                                 pszResult = "DESCRIPTION: Akai Sampler Engine\r\nVERSION: 0.1\r\n.\r\n";
 
                                               else
@@ -8832,30 +8832,30 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                                         else
                                         {
-                                          return_value_lscp_parser_test$56=lscp_parser_test(&tok, "TOTAL_VOICE_COUNT");
-                                          if(!(return_value_lscp_parser_test$56 == 0))
+                                          return_value_lscp_parser_test_56=lscp_parser_test(&tok, "TOTAL_VOICE_COUNT");
+                                          if(!(return_value_lscp_parser_test_56 == 0))
                                           {
-                                            signed int return_value_rand$45;
-                                            return_value_rand$45=rand();
-                                            sprintf(szTemp, "%d\r\n", return_value_rand$45 % 100);
+                                            signed int return_value_rand_45;
+                                            return_value_rand_45=rand();
+                                            sprintf(szTemp, "%d\r\n", return_value_rand_45 % 100);
                                             pszResult = szTemp;
                                           }
 
                                           else
                                           {
-                                            return_value_lscp_parser_test$55=lscp_parser_test(&tok, "TOTAL_VOICE_COUNT_MAX");
-                                            if(!(return_value_lscp_parser_test$55 == 0))
+                                            return_value_lscp_parser_test_55=lscp_parser_test(&tok, "TOTAL_VOICE_COUNT_MAX");
+                                            if(!(return_value_lscp_parser_test_55 == 0))
                                             {
-                                              signed int return_value_rand$46;
-                                              return_value_rand$46=rand();
-                                              sprintf(szTemp, "%d\r\n", return_value_rand$46 % 100);
+                                              signed int return_value_rand_46;
+                                              return_value_rand_46=rand();
+                                              sprintf(szTemp, "%d\r\n", return_value_rand_46 % 100);
                                               pszResult = szTemp;
                                             }
 
                                             else
                                             {
-                                              return_value_lscp_parser_test$54=lscp_parser_test(&tok, "VOLUME");
-                                              if(!(return_value_lscp_parser_test$54 == 0))
+                                              return_value_lscp_parser_test_54=lscp_parser_test(&tok, "VOLUME");
+                                              if(!(return_value_lscp_parser_test_54 == 0))
                                               {
                                                 sprintf(szTemp, "%g\r\n", fVolume);
                                                 pszResult = szTemp;
@@ -8863,14 +8863,14 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                                               else
                                               {
-                                                return_value_lscp_parser_test2$53=lscp_parser_test2(&tok, "FX_SEND", "INFO");
-                                                if(!(return_value_lscp_parser_test2$53 == 0))
+                                                return_value_lscp_parser_test2_53=lscp_parser_test2(&tok, "FX_SEND", "INFO");
+                                                if(!(return_value_lscp_parser_test2_53 == 0))
                                                   pszResult = "NAME: DummyFxSend\r\nMIDI_CONTROLLER: 99\r\nAUDIO_OUTPUT_ROUTING: 0,1\r\nLEVEL: 0.15\r\n.\r\n";
 
                                                 else
                                                 {
-                                                  return_value_lscp_parser_test$52=lscp_parser_test(&tok, "FX_SENDS");
-                                                  if(!(return_value_lscp_parser_test$52 == 0))
+                                                  return_value_lscp_parser_test_52=lscp_parser_test(&tok, "FX_SENDS");
+                                                  if(!(return_value_lscp_parser_test_52 == 0))
                                                   {
                                                     sprintf(szTemp, "%d\r\n", iFxSend);
                                                     pszResult = szTemp;
@@ -8878,8 +8878,8 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                                                   else
                                                   {
-                                                    return_value_lscp_parser_test$51=lscp_parser_test(&tok, "MIDI_INSTRUMENTS");
-                                                    if(!(return_value_lscp_parser_test$51 == 0))
+                                                    return_value_lscp_parser_test_51=lscp_parser_test(&tok, "MIDI_INSTRUMENTS");
+                                                    if(!(return_value_lscp_parser_test_51 == 0))
                                                     {
                                                       sprintf(szTemp, "%d\r\n", iMidiInstruments);
                                                       pszResult = szTemp;
@@ -8887,8 +8887,8 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                                                     else
                                                     {
-                                                      return_value_lscp_parser_test$50=lscp_parser_test(&tok, "MIDI_INSTRUMENT_MAPS");
-                                                      if(!(return_value_lscp_parser_test$50 == 0))
+                                                      return_value_lscp_parser_test_50=lscp_parser_test(&tok, "MIDI_INSTRUMENT_MAPS");
+                                                      if(!(return_value_lscp_parser_test_50 == 0))
                                                       {
                                                         sprintf(szTemp, "%d\r\n", iMidiMaps);
                                                         pszResult = szTemp;
@@ -8896,13 +8896,13 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                                                       else
                                                       {
-                                                        return_value_lscp_parser_test2$49=lscp_parser_test2(&tok, "MIDI_INSTRUMENT_MAP", "INFO");
-                                                        if(!(return_value_lscp_parser_test2$49 == 0))
+                                                        return_value_lscp_parser_test2_49=lscp_parser_test2(&tok, "MIDI_INSTRUMENT_MAP", "INFO");
+                                                        if(!(return_value_lscp_parser_test2_49 == 0))
                                                         {
                                                           strcpy(szTemp, "NAME: ");
-                                                          signed int return_value_lscp_parser_nextint$47;
-                                                          return_value_lscp_parser_nextint$47=lscp_parser_nextint(&tok);
-                                                          switch(return_value_lscp_parser_nextint$47)
+                                                          signed int return_value_lscp_parser_nextint_47;
+                                                          return_value_lscp_parser_nextint_47=lscp_parser_nextint(&tok);
+                                                          switch(return_value_lscp_parser_nextint_47)
                                                           {
                                                             case 0:
                                                             {
@@ -8918,8 +8918,8 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                                                         else
                                                         {
-                                                          return_value_lscp_parser_test2$48=lscp_parser_test2(&tok, "MIDI_INSTRUMENT", "INFO");
-                                                          if(!(return_value_lscp_parser_test2$48 == 0))
+                                                          return_value_lscp_parser_test2_48=lscp_parser_test2(&tok, "MIDI_INSTRUMENT", "INFO");
+                                                          if(!(return_value_lscp_parser_test2_48 == 0))
                                                             pszResult = "NAME: DummyName\r\nENGINE_NAME: DummyEngine\r\nINSTRUMENT_FILE: DummyInstrument.gig\r\nINSTRUMENT_NR: 0\r\nINSTRUMENT_NAME: Dummy Instrument\r\nLOAD_MODE: ON_DEMAND\r\nVOLUME: 0.5\r\n.\r\n";
 
                                                           else
@@ -8955,12 +8955,12 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
   else
   {
-    return_value_lscp_parser_test$162=lscp_parser_test(&tok, "LIST");
-    if(!(return_value_lscp_parser_test$162 == 0))
+    return_value_lscp_parser_test_162=lscp_parser_test(&tok, "LIST");
+    if(!(return_value_lscp_parser_test_162 == 0))
     {
-      signed int return_value_lscp_parser_test$102;
-      return_value_lscp_parser_test$102=lscp_parser_test(&tok, "CHANNELS");
-      if(!(return_value_lscp_parser_test$102 == 0))
+      signed int return_value_lscp_parser_test_102;
+      return_value_lscp_parser_test_102=lscp_parser_test(&tok, "CHANNELS");
+      if(!(return_value_lscp_parser_test_102 == 0))
       {
         szTemp[(signed long int)0] = (char)0;
         i = 0;
@@ -8968,21 +8968,21 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
         {
           if(!(i >= iSamplerChannel))
           {
-            return_value_strlen$76=strlen(szTemp);
-            tmp_if_expr$77 = return_value_strlen$76 < sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)8 ? (_Bool)1 : (_Bool)0;
+            return_value_strlen_76=strlen(szTemp);
+            tmp_if_expr_77 = return_value_strlen_76 < sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)8 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$77 = (_Bool)0;
-          if(!tmp_if_expr$77)
+            tmp_if_expr_77 = (_Bool)0;
+          if(!tmp_if_expr_77)
             break;
 
           if(i >= 1)
             strcat(szTemp, ",");
 
-          unsigned long int return_value_strlen$78;
-          return_value_strlen$78=strlen(szTemp);
-          sprintf(szTemp + (signed long int)return_value_strlen$78, "%d", i);
+          unsigned long int return_value_strlen_78;
+          return_value_strlen_78=strlen(szTemp);
+          sprintf(szTemp + (signed long int)return_value_strlen_78, "%d", i);
           i = i + 1;
         }
         while((_Bool)1);
@@ -8992,26 +8992,26 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
       else
       {
-        return_value_lscp_parser_test$101=lscp_parser_test(&tok, "AVAILABLE_ENGINES");
-        if(!(return_value_lscp_parser_test$101 == 0))
+        return_value_lscp_parser_test_101=lscp_parser_test(&tok, "AVAILABLE_ENGINES");
+        if(!(return_value_lscp_parser_test_101 == 0))
           pszResult = "GigEngine,DLSEngine,AkaiEngine\r\n";
 
         else
         {
-          return_value_lscp_parser_test$100=lscp_parser_test(&tok, "AVAILABLE_AUDIO_OUTPUT_DRIVERS");
-          if(!(return_value_lscp_parser_test$100 == 0))
+          return_value_lscp_parser_test_100=lscp_parser_test(&tok, "AVAILABLE_AUDIO_OUTPUT_DRIVERS");
+          if(!(return_value_lscp_parser_test_100 == 0))
             pszResult = "ALSA,JACK\r\n";
 
           else
           {
-            return_value_lscp_parser_test$99=lscp_parser_test(&tok, "AVAILABLE_MIDI_INPUT_DRIVERS");
-            if(!(return_value_lscp_parser_test$99 == 0))
+            return_value_lscp_parser_test_99=lscp_parser_test(&tok, "AVAILABLE_MIDI_INPUT_DRIVERS");
+            if(!(return_value_lscp_parser_test_99 == 0))
               pszResult = "ALSA\r\n";
 
             else
             {
-              return_value_lscp_parser_test$98=lscp_parser_test(&tok, "AUDIO_OUTPUT_DEVICES");
-              if(!(return_value_lscp_parser_test$98 == 0))
+              return_value_lscp_parser_test_98=lscp_parser_test(&tok, "AUDIO_OUTPUT_DEVICES");
+              if(!(return_value_lscp_parser_test_98 == 0))
               {
                 szTemp[(signed long int)0] = (char)0;
                 i = 0;
@@ -9019,21 +9019,21 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
                 {
                   if(!(i >= iAudioDevice))
                   {
-                    return_value_strlen$79=strlen(szTemp);
-                    tmp_if_expr$80 = return_value_strlen$79 < sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)8 ? (_Bool)1 : (_Bool)0;
+                    return_value_strlen_79=strlen(szTemp);
+                    tmp_if_expr_80 = return_value_strlen_79 < sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)8 ? (_Bool)1 : (_Bool)0;
                   }
 
                   else
-                    tmp_if_expr$80 = (_Bool)0;
-                  if(!tmp_if_expr$80)
+                    tmp_if_expr_80 = (_Bool)0;
+                  if(!tmp_if_expr_80)
                     break;
 
                   if(i >= 1)
                     strcat(szTemp, ",");
 
-                  unsigned long int return_value_strlen$81;
-                  return_value_strlen$81=strlen(szTemp);
-                  sprintf(szTemp + (signed long int)return_value_strlen$81, "%d", i);
+                  unsigned long int return_value_strlen_81;
+                  return_value_strlen_81=strlen(szTemp);
+                  sprintf(szTemp + (signed long int)return_value_strlen_81, "%d", i);
                   i = i + 1;
                 }
                 while((_Bool)1);
@@ -9043,8 +9043,8 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
               else
               {
-                return_value_lscp_parser_test$97=lscp_parser_test(&tok, "MIDI_INPUT_DEVICES");
-                if(!(return_value_lscp_parser_test$97 == 0))
+                return_value_lscp_parser_test_97=lscp_parser_test(&tok, "MIDI_INPUT_DEVICES");
+                if(!(return_value_lscp_parser_test_97 == 0))
                 {
                   szTemp[(signed long int)0] = (char)0;
                   i = 0;
@@ -9052,21 +9052,21 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
                   {
                     if(!(i >= iMidiDevice))
                     {
-                      return_value_strlen$82=strlen(szTemp);
-                      tmp_if_expr$83 = return_value_strlen$82 < sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)8 ? (_Bool)1 : (_Bool)0;
+                      return_value_strlen_82=strlen(szTemp);
+                      tmp_if_expr_83 = return_value_strlen_82 < sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)8 ? (_Bool)1 : (_Bool)0;
                     }
 
                     else
-                      tmp_if_expr$83 = (_Bool)0;
-                    if(!tmp_if_expr$83)
+                      tmp_if_expr_83 = (_Bool)0;
+                    if(!tmp_if_expr_83)
                       break;
 
                     if(i >= 1)
                       strcat(szTemp, ",");
 
-                    unsigned long int return_value_strlen$84;
-                    return_value_strlen$84=strlen(szTemp);
-                    sprintf(szTemp + (signed long int)return_value_strlen$84, "%d", i);
+                    unsigned long int return_value_strlen_84;
+                    return_value_strlen_84=strlen(szTemp);
+                    sprintf(szTemp + (signed long int)return_value_strlen_84, "%d", i);
                     i = i + 1;
                   }
                   while((_Bool)1);
@@ -9076,8 +9076,8 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                 else
                 {
-                  return_value_lscp_parser_test$96=lscp_parser_test(&tok, "FX_SENDS");
-                  if(!(return_value_lscp_parser_test$96 == 0))
+                  return_value_lscp_parser_test_96=lscp_parser_test(&tok, "FX_SENDS");
+                  if(!(return_value_lscp_parser_test_96 == 0))
                   {
                     szTemp[(signed long int)0] = (char)0;
                     i = 0;
@@ -9085,21 +9085,21 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
                     {
                       if(!(i >= iFxSend))
                       {
-                        return_value_strlen$85=strlen(szTemp);
-                        tmp_if_expr$86 = return_value_strlen$85 < sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)8 ? (_Bool)1 : (_Bool)0;
+                        return_value_strlen_85=strlen(szTemp);
+                        tmp_if_expr_86 = return_value_strlen_85 < sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)8 ? (_Bool)1 : (_Bool)0;
                       }
 
                       else
-                        tmp_if_expr$86 = (_Bool)0;
-                      if(!tmp_if_expr$86)
+                        tmp_if_expr_86 = (_Bool)0;
+                      if(!tmp_if_expr_86)
                         break;
 
                       if(i >= 1)
                         strcat(szTemp, ",");
 
-                      unsigned long int return_value_strlen$87;
-                      return_value_strlen$87=strlen(szTemp);
-                      sprintf(szTemp + (signed long int)return_value_strlen$87, "%d", i);
+                      unsigned long int return_value_strlen_87;
+                      return_value_strlen_87=strlen(szTemp);
+                      sprintf(szTemp + (signed long int)return_value_strlen_87, "%d", i);
                       i = i + 1;
                     }
                     while((_Bool)1);
@@ -9109,8 +9109,8 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                   else
                   {
-                    return_value_lscp_parser_test$95=lscp_parser_test(&tok, "MIDI_INSTRUMENTS");
-                    if(!(return_value_lscp_parser_test$95 == 0))
+                    return_value_lscp_parser_test_95=lscp_parser_test(&tok, "MIDI_INSTRUMENTS");
+                    if(!(return_value_lscp_parser_test_95 == 0))
                     {
                       szTemp[(signed long int)0] = (char)0;
                       i = 0;
@@ -9118,21 +9118,21 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
                       {
                         if(!(i >= iMidiInstruments))
                         {
-                          return_value_strlen$88=strlen(szTemp);
-                          tmp_if_expr$89 = return_value_strlen$88 < sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)16 ? (_Bool)1 : (_Bool)0;
+                          return_value_strlen_88=strlen(szTemp);
+                          tmp_if_expr_89 = return_value_strlen_88 < sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)16 ? (_Bool)1 : (_Bool)0;
                         }
 
                         else
-                          tmp_if_expr$89 = (_Bool)0;
-                        if(!tmp_if_expr$89)
+                          tmp_if_expr_89 = (_Bool)0;
+                        if(!tmp_if_expr_89)
                           break;
 
                         if(i >= 1)
                           strcat(szTemp, ",");
 
-                        unsigned long int return_value_strlen$90;
-                        return_value_strlen$90=strlen(szTemp);
-                        sprintf(szTemp + (signed long int)return_value_strlen$90, "{0,%d,%d}", i / 128, i % 128);
+                        unsigned long int return_value_strlen_90;
+                        return_value_strlen_90=strlen(szTemp);
+                        sprintf(szTemp + (signed long int)return_value_strlen_90, "{0,%d,%d}", i / 128, i % 128);
                         i = i + 1;
                       }
                       while((_Bool)1);
@@ -9142,8 +9142,8 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                     else
                     {
-                      return_value_lscp_parser_test$94=lscp_parser_test(&tok, "MIDI_INSTRUMENT_MAPS");
-                      if(!(return_value_lscp_parser_test$94 == 0))
+                      return_value_lscp_parser_test_94=lscp_parser_test(&tok, "MIDI_INSTRUMENT_MAPS");
+                      if(!(return_value_lscp_parser_test_94 == 0))
                       {
                         szTemp[(signed long int)0] = (char)0;
                         i = 0;
@@ -9151,21 +9151,21 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
                         {
                           if(!(i >= iMidiMaps))
                           {
-                            return_value_strlen$91=strlen(szTemp);
-                            tmp_if_expr$92 = return_value_strlen$91 < sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)8 ? (_Bool)1 : (_Bool)0;
+                            return_value_strlen_91=strlen(szTemp);
+                            tmp_if_expr_92 = return_value_strlen_91 < sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)8 ? (_Bool)1 : (_Bool)0;
                           }
 
                           else
-                            tmp_if_expr$92 = (_Bool)0;
-                          if(!tmp_if_expr$92)
+                            tmp_if_expr_92 = (_Bool)0;
+                          if(!tmp_if_expr_92)
                             break;
 
                           if(i >= 1)
                             strcat(szTemp, ",");
 
-                          unsigned long int return_value_strlen$93;
-                          return_value_strlen$93=strlen(szTemp);
-                          sprintf(szTemp + (signed long int)return_value_strlen$93, "%d", i);
+                          unsigned long int return_value_strlen_93;
+                          return_value_strlen_93=strlen(szTemp);
+                          sprintf(szTemp + (signed long int)return_value_strlen_93, "%d", i);
                           i = i + 1;
                         }
                         while((_Bool)1);
@@ -9187,46 +9187,46 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
     else
     {
-      return_value_lscp_parser_test$161=lscp_parser_test(&tok, "SET");
-      if(!(return_value_lscp_parser_test$161 == 0))
+      return_value_lscp_parser_test_161=lscp_parser_test(&tok, "SET");
+      if(!(return_value_lscp_parser_test_161 == 0))
       {
-        signed int return_value_lscp_parser_test$120;
-        return_value_lscp_parser_test$120=lscp_parser_test(&tok, "CHANNEL");
-        if(!(return_value_lscp_parser_test$120 == 0))
+        signed int return_value_lscp_parser_test_120;
+        return_value_lscp_parser_test_120=lscp_parser_test(&tok, "CHANNEL");
+        if(!(return_value_lscp_parser_test_120 == 0))
         {
-          signed int return_value_lscp_parser_test$113;
-          return_value_lscp_parser_test$113=lscp_parser_test(&tok, "VOLUME");
-          if(return_value_lscp_parser_test$113 == 0)
+          signed int return_value_lscp_parser_test_113;
+          return_value_lscp_parser_test_113=lscp_parser_test(&tok, "VOLUME");
+          if(return_value_lscp_parser_test_113 == 0)
           {
-            return_value_lscp_parser_test$112=lscp_parser_test(&tok, "MUTE");
-            if(return_value_lscp_parser_test$112 == 0)
+            return_value_lscp_parser_test_112=lscp_parser_test(&tok, "MUTE");
+            if(return_value_lscp_parser_test_112 == 0)
             {
-              return_value_lscp_parser_test$111=lscp_parser_test(&tok, "SOLO");
-              if(return_value_lscp_parser_test$111 == 0)
+              return_value_lscp_parser_test_111=lscp_parser_test(&tok, "SOLO");
+              if(return_value_lscp_parser_test_111 == 0)
               {
-                return_value_lscp_parser_test$110=lscp_parser_test(&tok, "AUDIO_OUTPUT_TYPE");
-                if(return_value_lscp_parser_test$110 == 0)
+                return_value_lscp_parser_test_110=lscp_parser_test(&tok, "AUDIO_OUTPUT_TYPE");
+                if(return_value_lscp_parser_test_110 == 0)
                 {
-                  return_value_lscp_parser_test$109=lscp_parser_test(&tok, "AUDIO_OUTPUT_DEVICE");
-                  if(return_value_lscp_parser_test$109 == 0)
+                  return_value_lscp_parser_test_109=lscp_parser_test(&tok, "AUDIO_OUTPUT_DEVICE");
+                  if(return_value_lscp_parser_test_109 == 0)
                   {
-                    return_value_lscp_parser_test$108=lscp_parser_test(&tok, "AUDIO_OUTPUT_CHANNEL");
-                    if(return_value_lscp_parser_test$108 == 0)
+                    return_value_lscp_parser_test_108=lscp_parser_test(&tok, "AUDIO_OUTPUT_CHANNEL");
+                    if(return_value_lscp_parser_test_108 == 0)
                     {
-                      return_value_lscp_parser_test$107=lscp_parser_test(&tok, "MIDI_INPUT_TYPE");
-                      if(return_value_lscp_parser_test$107 == 0)
+                      return_value_lscp_parser_test_107=lscp_parser_test(&tok, "MIDI_INPUT_TYPE");
+                      if(return_value_lscp_parser_test_107 == 0)
                       {
-                        return_value_lscp_parser_test$106=lscp_parser_test(&tok, "MIDI_INPUT_DEVICE");
-                        if(return_value_lscp_parser_test$106 == 0)
+                        return_value_lscp_parser_test_106=lscp_parser_test(&tok, "MIDI_INPUT_DEVICE");
+                        if(return_value_lscp_parser_test_106 == 0)
                         {
-                          return_value_lscp_parser_test$105=lscp_parser_test(&tok, "MIDI_INPUT_PORT");
-                          if(return_value_lscp_parser_test$105 == 0)
+                          return_value_lscp_parser_test_105=lscp_parser_test(&tok, "MIDI_INPUT_PORT");
+                          if(return_value_lscp_parser_test_105 == 0)
                           {
-                            return_value_lscp_parser_test$104=lscp_parser_test(&tok, "MIDI_INPUT_CHANNEL");
-                            if(return_value_lscp_parser_test$104 == 0)
+                            return_value_lscp_parser_test_104=lscp_parser_test(&tok, "MIDI_INPUT_CHANNEL");
+                            if(return_value_lscp_parser_test_104 == 0)
                             {
-                              return_value_lscp_parser_test$103=lscp_parser_test(&tok, "MIDI_INSTRUMENT_MAP");
-                              if(return_value_lscp_parser_test$103 == 0)
+                              return_value_lscp_parser_test_103=lscp_parser_test(&tok, "MIDI_INSTRUMENT_MAP");
+                              if(return_value_lscp_parser_test_103 == 0)
                                 ret = (enum _lscp_status_t)LSCP_FAILED;
 
                             }
@@ -9253,24 +9253,24 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
         else
         {
-          return_value_lscp_parser_test$119=lscp_parser_test(&tok, "VOLUME");
-          if(!(return_value_lscp_parser_test$119 == 0))
+          return_value_lscp_parser_test_119=lscp_parser_test(&tok, "VOLUME");
+          if(!(return_value_lscp_parser_test_119 == 0))
             fVolume=lscp_parser_nextnum(&tok);
 
           else
           {
-            return_value_lscp_parser_test$118=lscp_parser_test(&tok, "FX_SEND");
-            if(!(return_value_lscp_parser_test$118 == 0))
+            return_value_lscp_parser_test_118=lscp_parser_test(&tok, "FX_SEND");
+            if(!(return_value_lscp_parser_test_118 == 0))
             {
-              signed int return_value_lscp_parser_test$116;
-              return_value_lscp_parser_test$116=lscp_parser_test(&tok, "MIDI_CONTROLLER");
-              if(return_value_lscp_parser_test$116 == 0)
+              signed int return_value_lscp_parser_test_116;
+              return_value_lscp_parser_test_116=lscp_parser_test(&tok, "MIDI_CONTROLLER");
+              if(return_value_lscp_parser_test_116 == 0)
               {
-                return_value_lscp_parser_test$115=lscp_parser_test(&tok, "AUDIO_OUTPUT_CHANNEL");
-                if(return_value_lscp_parser_test$115 == 0)
+                return_value_lscp_parser_test_115=lscp_parser_test(&tok, "AUDIO_OUTPUT_CHANNEL");
+                if(return_value_lscp_parser_test_115 == 0)
                 {
-                  return_value_lscp_parser_test$114=lscp_parser_test(&tok, "LEVEL");
-                  if(return_value_lscp_parser_test$114 == 0)
+                  return_value_lscp_parser_test_114=lscp_parser_test(&tok, "LEVEL");
+                  if(return_value_lscp_parser_test_114 == 0)
                     ret = (enum _lscp_status_t)LSCP_FAILED;
 
                 }
@@ -9281,8 +9281,8 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
             else
             {
-              return_value_lscp_parser_test2$117=lscp_parser_test2(&tok, "MIDI_INSTRUMENT_MAP", "NAME");
-              if(return_value_lscp_parser_test2$117 == 0)
+              return_value_lscp_parser_test2_117=lscp_parser_test2(&tok, "MIDI_INSTRUMENT_MAP", "NAME");
+              if(return_value_lscp_parser_test2_117 == 0)
                 ret = (enum _lscp_status_t)LSCP_FAILED;
 
             }
@@ -9292,15 +9292,15 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
       else
       {
-        return_value_lscp_parser_test$160=lscp_parser_test(&tok, "LOAD");
-        if(!(return_value_lscp_parser_test$160 == 0))
+        return_value_lscp_parser_test_160=lscp_parser_test(&tok, "LOAD");
+        if(!(return_value_lscp_parser_test_160 == 0))
         {
-          signed int return_value_lscp_parser_test$122;
-          return_value_lscp_parser_test$122=lscp_parser_test(&tok, "ENGINE");
-          if(return_value_lscp_parser_test$122 == 0)
+          signed int return_value_lscp_parser_test_122;
+          return_value_lscp_parser_test_122=lscp_parser_test(&tok, "ENGINE");
+          if(return_value_lscp_parser_test_122 == 0)
           {
-            return_value_lscp_parser_test$121=lscp_parser_test(&tok, "INSTRUMENT");
-            if(return_value_lscp_parser_test$121 == 0)
+            return_value_lscp_parser_test_121=lscp_parser_test(&tok, "INSTRUMENT");
+            if(return_value_lscp_parser_test_121 == 0)
               ret = (enum _lscp_status_t)LSCP_FAILED;
 
           }
@@ -9309,18 +9309,18 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
         else
         {
-          return_value_lscp_parser_test$159=lscp_parser_test(&tok, "ADD");
-          if(!(return_value_lscp_parser_test$159 == 0))
+          return_value_lscp_parser_test_159=lscp_parser_test(&tok, "ADD");
+          if(!(return_value_lscp_parser_test_159 == 0))
           {
-            signed int return_value_lscp_parser_test$126;
-            return_value_lscp_parser_test$126=lscp_parser_test(&tok, "CHANNEL");
-            if(!(return_value_lscp_parser_test$126 == 0))
+            signed int return_value_lscp_parser_test_126;
+            return_value_lscp_parser_test_126=lscp_parser_test(&tok, "CHANNEL");
+            if(!(return_value_lscp_parser_test_126 == 0))
             {
               if(!(iSamplerChannel >= 16))
               {
-                tmp_post$123 = iSamplerChannel;
+                tmp_post_123 = iSamplerChannel;
                 iSamplerChannel = iSamplerChannel + 1;
-                sprintf(szTemp, "OK[%d]\r\n", tmp_post$123);
+                sprintf(szTemp, "OK[%d]\r\n", tmp_post_123);
                 pszResult = szTemp;
               }
 
@@ -9333,14 +9333,14 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
             else
             {
-              return_value_lscp_parser_test$125=lscp_parser_test(&tok, "MIDI_INSTRUMENT_MAP");
-              if(!(return_value_lscp_parser_test$125 == 0))
+              return_value_lscp_parser_test_125=lscp_parser_test(&tok, "MIDI_INSTRUMENT_MAP");
+              if(!(return_value_lscp_parser_test_125 == 0))
               {
                 if(!(iMidiMaps >= 2))
                 {
-                  tmp_post$124 = iMidiMaps;
+                  tmp_post_124 = iMidiMaps;
                   iMidiMaps = iMidiMaps + 1;
-                  sprintf(szTemp, "OK[%d]\r\n", tmp_post$124);
+                  sprintf(szTemp, "OK[%d]\r\n", tmp_post_124);
                   pszResult = szTemp;
                 }
 
@@ -9356,16 +9356,16 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
           else
           {
-            return_value_lscp_parser_test$158=lscp_parser_test(&tok, "REMOVE");
-            if(!(return_value_lscp_parser_test$158 == 0))
+            return_value_lscp_parser_test_158=lscp_parser_test(&tok, "REMOVE");
+            if(!(return_value_lscp_parser_test_158 == 0))
             {
-              signed int return_value_lscp_parser_test$130;
-              return_value_lscp_parser_test$130=lscp_parser_test(&tok, "CHANNEL");
-              if(!(return_value_lscp_parser_test$130 == 0))
+              signed int return_value_lscp_parser_test_130;
+              return_value_lscp_parser_test_130=lscp_parser_test(&tok, "CHANNEL");
+              if(!(return_value_lscp_parser_test_130 == 0))
               {
-                signed int return_value_lscp_parser_nextint$127;
-                return_value_lscp_parser_nextint$127=lscp_parser_nextint(&tok);
-                if(return_value_lscp_parser_nextint$127 >= 0)
+                signed int return_value_lscp_parser_nextint_127;
+                return_value_lscp_parser_nextint_127=lscp_parser_nextint(&tok);
+                if(return_value_lscp_parser_nextint_127 >= 0)
                   iSamplerChannel = iSamplerChannel - 1;
 
                 else
@@ -9374,12 +9374,12 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
               else
               {
-                return_value_lscp_parser_test$129=lscp_parser_test(&tok, "MIDI_INSTRUMENT_MAP");
-                if(!(return_value_lscp_parser_test$129 == 0))
+                return_value_lscp_parser_test_129=lscp_parser_test(&tok, "MIDI_INSTRUMENT_MAP");
+                if(!(return_value_lscp_parser_test_129 == 0))
                 {
-                  signed int return_value_lscp_parser_nextint$128;
-                  return_value_lscp_parser_nextint$128=lscp_parser_nextint(&tok);
-                  if(return_value_lscp_parser_nextint$128 >= 0)
+                  signed int return_value_lscp_parser_nextint_128;
+                  return_value_lscp_parser_nextint_128=lscp_parser_nextint(&tok);
+                  if(return_value_lscp_parser_nextint_128 >= 0)
                     iMidiMaps = iMidiMaps - 1;
 
                   else
@@ -9391,16 +9391,16 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
             else
             {
-              return_value_lscp_parser_test$157=lscp_parser_test(&tok, "RESET");
-              if(!(return_value_lscp_parser_test$157 == 0))
+              return_value_lscp_parser_test_157=lscp_parser_test(&tok, "RESET");
+              if(!(return_value_lscp_parser_test_157 == 0))
               {
-                signed int return_value_lscp_parser_test$132;
-                return_value_lscp_parser_test$132=lscp_parser_test(&tok, "CHANNEL");
-                if(!(return_value_lscp_parser_test$132 == 0))
+                signed int return_value_lscp_parser_test_132;
+                return_value_lscp_parser_test_132=lscp_parser_test(&tok, "CHANNEL");
+                if(!(return_value_lscp_parser_test_132 == 0))
                 {
-                  signed int return_value_lscp_parser_nextint$131;
-                  return_value_lscp_parser_nextint$131=lscp_parser_nextint(&tok);
-                  if(!(iSamplerChannel >= return_value_lscp_parser_nextint$131))
+                  signed int return_value_lscp_parser_nextint_131;
+                  return_value_lscp_parser_nextint_131=lscp_parser_nextint(&tok);
+                  if(!(iSamplerChannel >= return_value_lscp_parser_nextint_131))
                     ret = (enum _lscp_status_t)LSCP_FAILED;
 
                 }
@@ -9417,18 +9417,18 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
               else
               {
-                return_value_lscp_parser_test$156=lscp_parser_test(&tok, "CREATE");
-                if(!(return_value_lscp_parser_test$156 == 0))
+                return_value_lscp_parser_test_156=lscp_parser_test(&tok, "CREATE");
+                if(!(return_value_lscp_parser_test_156 == 0))
                 {
-                  signed int return_value_lscp_parser_test$138;
-                  return_value_lscp_parser_test$138=lscp_parser_test(&tok, "AUDIO_OUTPUT_DEVICE");
-                  if(!(return_value_lscp_parser_test$138 == 0))
+                  signed int return_value_lscp_parser_test_138;
+                  return_value_lscp_parser_test_138=lscp_parser_test(&tok, "AUDIO_OUTPUT_DEVICE");
+                  if(!(return_value_lscp_parser_test_138 == 0))
                   {
                     if(!(iAudioDevice >= 8))
                     {
-                      tmp_post$133 = iAudioDevice;
+                      tmp_post_133 = iAudioDevice;
                       iAudioDevice = iAudioDevice + 1;
-                      sprintf(szTemp, "OK[%d]\r\n", tmp_post$133);
+                      sprintf(szTemp, "OK[%d]\r\n", tmp_post_133);
                       pszResult = szTemp;
                     }
 
@@ -9441,14 +9441,14 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                   else
                   {
-                    return_value_lscp_parser_test$137=lscp_parser_test(&tok, "MIDI_INPUT_DEVICE");
-                    if(!(return_value_lscp_parser_test$137 == 0))
+                    return_value_lscp_parser_test_137=lscp_parser_test(&tok, "MIDI_INPUT_DEVICE");
+                    if(!(return_value_lscp_parser_test_137 == 0))
                     {
                       if(!(iMidiDevice >= 8))
                       {
-                        tmp_post$134 = iMidiDevice;
+                        tmp_post_134 = iMidiDevice;
                         iMidiDevice = iMidiDevice + 1;
-                        sprintf(szTemp, "OK[%d]\r\n", tmp_post$134);
+                        sprintf(szTemp, "OK[%d]\r\n", tmp_post_134);
                         pszResult = szTemp;
                       }
 
@@ -9461,14 +9461,14 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                     else
                     {
-                      return_value_lscp_parser_test$136=lscp_parser_test(&tok, "FX_SEND");
-                      if(!(return_value_lscp_parser_test$136 == 0))
+                      return_value_lscp_parser_test_136=lscp_parser_test(&tok, "FX_SEND");
+                      if(!(return_value_lscp_parser_test_136 == 0))
                       {
                         if(!(iFxSend >= 8))
                         {
-                          tmp_post$135 = iFxSend;
+                          tmp_post_135 = iFxSend;
                           iFxSend = iFxSend + 1;
-                          sprintf(szTemp, "OK[%d]\r\n", tmp_post$135);
+                          sprintf(szTemp, "OK[%d]\r\n", tmp_post_135);
                           pszResult = szTemp;
                         }
 
@@ -9487,16 +9487,16 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                 else
                 {
-                  return_value_lscp_parser_test$155=lscp_parser_test(&tok, "DESTROY");
-                  if(!(return_value_lscp_parser_test$155 == 0))
+                  return_value_lscp_parser_test_155=lscp_parser_test(&tok, "DESTROY");
+                  if(!(return_value_lscp_parser_test_155 == 0))
                   {
-                    signed int return_value_lscp_parser_test$144;
-                    return_value_lscp_parser_test$144=lscp_parser_test(&tok, "AUDIO_OUTPUT_DEVICE");
-                    if(!(return_value_lscp_parser_test$144 == 0))
+                    signed int return_value_lscp_parser_test_144;
+                    return_value_lscp_parser_test_144=lscp_parser_test(&tok, "AUDIO_OUTPUT_DEVICE");
+                    if(!(return_value_lscp_parser_test_144 == 0))
                     {
-                      signed int return_value_lscp_parser_nextint$139;
-                      return_value_lscp_parser_nextint$139=lscp_parser_nextint(&tok);
-                      if(return_value_lscp_parser_nextint$139 >= 0 && iAudioDevice >= 1)
+                      signed int return_value_lscp_parser_nextint_139;
+                      return_value_lscp_parser_nextint_139=lscp_parser_nextint(&tok);
+                      if(return_value_lscp_parser_nextint_139 >= 0 && iAudioDevice >= 1)
                         iAudioDevice = iAudioDevice - 1;
 
                       else
@@ -9505,12 +9505,12 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                     else
                     {
-                      return_value_lscp_parser_test$143=lscp_parser_test(&tok, "MIDI_INPUT_DEVICE");
-                      if(!(return_value_lscp_parser_test$143 == 0))
+                      return_value_lscp_parser_test_143=lscp_parser_test(&tok, "MIDI_INPUT_DEVICE");
+                      if(!(return_value_lscp_parser_test_143 == 0))
                       {
-                        signed int return_value_lscp_parser_nextint$140;
-                        return_value_lscp_parser_nextint$140=lscp_parser_nextint(&tok);
-                        if(return_value_lscp_parser_nextint$140 >= 0 && iMidiDevice >= 1)
+                        signed int return_value_lscp_parser_nextint_140;
+                        return_value_lscp_parser_nextint_140=lscp_parser_nextint(&tok);
+                        if(return_value_lscp_parser_nextint_140 >= 0 && iMidiDevice >= 1)
                           iMidiDevice = iMidiDevice - 1;
 
                         else
@@ -9519,12 +9519,12 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                       else
                       {
-                        return_value_lscp_parser_test$142=lscp_parser_test(&tok, "FX_SEND");
-                        if(!(return_value_lscp_parser_test$142 == 0))
+                        return_value_lscp_parser_test_142=lscp_parser_test(&tok, "FX_SEND");
+                        if(!(return_value_lscp_parser_test_142 == 0))
                         {
-                          signed int return_value_lscp_parser_nextint$141;
-                          return_value_lscp_parser_nextint$141=lscp_parser_nextint(&tok);
-                          if(return_value_lscp_parser_nextint$141 >= 0 && iFxSend >= 1)
+                          signed int return_value_lscp_parser_nextint_141;
+                          return_value_lscp_parser_nextint_141=lscp_parser_nextint(&tok);
+                          if(return_value_lscp_parser_nextint_141 >= 0 && iFxSend >= 1)
                             iFxSend = iFxSend - 1;
 
                           else
@@ -9539,14 +9539,14 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                   else
                   {
-                    return_value_lscp_parser_test2$154=lscp_parser_test2(&tok, "MAP", "MIDI_INSTRUMENT");
-                    if(!(return_value_lscp_parser_test2$154 == 0))
+                    return_value_lscp_parser_test2_154=lscp_parser_test2(&tok, "MAP", "MIDI_INSTRUMENT");
+                    if(!(return_value_lscp_parser_test2_154 == 0))
                       iMidiInstruments = iMidiInstruments + 1;
 
                     else
                     {
-                      return_value_lscp_parser_test2$153=lscp_parser_test2(&tok, "UNMAP", "MIDI_INSTRUMENT");
-                      if(!(return_value_lscp_parser_test2$153 == 0))
+                      return_value_lscp_parser_test2_153=lscp_parser_test2(&tok, "UNMAP", "MIDI_INSTRUMENT");
+                      if(!(return_value_lscp_parser_test2_153 == 0))
                       {
                         if(iMidiInstruments >= 1)
                           iMidiInstruments = iMidiInstruments - 1;
@@ -9557,38 +9557,38 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
 
                       else
                       {
-                        return_value_lscp_parser_test2$152=lscp_parser_test2(&tok, "CLEAR", "MIDI_INSTRUMENTS");
-                        if(!(return_value_lscp_parser_test2$152 == 0))
+                        return_value_lscp_parser_test2_152=lscp_parser_test2(&tok, "CLEAR", "MIDI_INSTRUMENTS");
+                        if(!(return_value_lscp_parser_test2_152 == 0))
                           iMidiInstruments = 0;
 
                         else
                         {
-                          return_value_lscp_parser_test$151=lscp_parser_test(&tok, "SUBSCRIBE");
-                          if(!(return_value_lscp_parser_test$151 == 0))
+                          return_value_lscp_parser_test_151=lscp_parser_test(&tok, "SUBSCRIBE");
+                          if(!(return_value_lscp_parser_test_151 == 0))
                           {
-                            const char *return_value_lscp_parser_next$145;
-                            return_value_lscp_parser_next$145=lscp_parser_next(&tok);
-                            enum _lscp_event_t return_value_lscp_event_from_text$146;
-                            return_value_lscp_event_from_text$146=lscp_event_from_text(return_value_lscp_parser_next$145);
-                            ret=lscp_server_subscribe(pConnect, return_value_lscp_event_from_text$146);
+                            const char *return_value_lscp_parser_next_145;
+                            return_value_lscp_parser_next_145=lscp_parser_next(&tok);
+                            enum _lscp_event_t return_value_lscp_event_from_text_146;
+                            return_value_lscp_event_from_text_146=lscp_event_from_text(return_value_lscp_parser_next_145);
+                            ret=lscp_server_subscribe(pConnect, return_value_lscp_event_from_text_146);
                           }
 
                           else
                           {
-                            return_value_lscp_parser_test$150=lscp_parser_test(&tok, "UNSUBSCRIBE");
-                            if(!(return_value_lscp_parser_test$150 == 0))
+                            return_value_lscp_parser_test_150=lscp_parser_test(&tok, "UNSUBSCRIBE");
+                            if(!(return_value_lscp_parser_test_150 == 0))
                             {
-                              const char *return_value_lscp_parser_next$147;
-                              return_value_lscp_parser_next$147=lscp_parser_next(&tok);
-                              enum _lscp_event_t return_value_lscp_event_from_text$148;
-                              return_value_lscp_event_from_text$148=lscp_event_from_text(return_value_lscp_parser_next$147);
-                              ret=lscp_server_unsubscribe(pConnect, return_value_lscp_event_from_text$148);
+                              const char *return_value_lscp_parser_next_147;
+                              return_value_lscp_parser_next_147=lscp_parser_next(&tok);
+                              enum _lscp_event_t return_value_lscp_event_from_text_148;
+                              return_value_lscp_event_from_text_148=lscp_event_from_text(return_value_lscp_parser_next_147);
+                              ret=lscp_server_unsubscribe(pConnect, return_value_lscp_event_from_text_148);
                             }
 
                             else
                             {
-                              return_value_lscp_parser_test$149=lscp_parser_test(&tok, "QUIT");
-                              if(!(return_value_lscp_parser_test$149 == 0))
+                              return_value_lscp_parser_test_149=lscp_parser_test(&tok, "QUIT");
+                              if(!(return_value_lscp_parser_test_149 == 0))
                               {
                                 lscp_parser_free(&tok);
                                 return (enum _lscp_status_t)LSCP_FAILED;
@@ -9615,11 +9615,11 @@ enum _lscp_status_t server_callback(struct _lscp_connect_t *pConnect, const char
     pszResult = (signed int)ret == LSCP_OK ? "OK\r\n" : "ERR:1:Failed\r\n";
 
   fprintf(stderr, "> %s", pszResult);
-  unsigned long int return_value_strlen$164;
-  return_value_strlen$164=strlen(pszResult);
-  enum _lscp_status_t return_value_lscp_server_result$165;
-  return_value_lscp_server_result$165=lscp_server_result(pConnect, pszResult, (signed int)return_value_strlen$164);
-  return return_value_lscp_server_result$165;
+  unsigned long int return_value_strlen_164;
+  return_value_strlen_164=strlen(pszResult);
+  enum _lscp_status_t return_value_lscp_server_result_165;
+  return_value_lscp_server_result_165=lscp_server_result(pConnect, pszResult, (signed int)return_value_strlen_164);
+  return return_value_lscp_server_result_165;
 }
 
 // server_prompt
@@ -9633,13 +9633,13 @@ void server_prompt(void)
 // file example_server.c line 827
 void server_usage(void)
 {
-  const char *return_value_lscp_server_package$1;
-  return_value_lscp_server_package$1=lscp_server_package();
-  const char *return_value_lscp_server_version$2;
-  return_value_lscp_server_version$2=lscp_server_version();
-  const char *return_value_lscp_server_build$3;
-  return_value_lscp_server_build$3=lscp_server_build();
-  printf("\n  %s %s (Build: %s)\n", return_value_lscp_server_package$1, return_value_lscp_server_version$2, return_value_lscp_server_build$3);
+  const char *return_value_lscp_server_package_1;
+  return_value_lscp_server_package_1=lscp_server_package();
+  const char *return_value_lscp_server_version_2;
+  return_value_lscp_server_version_2=lscp_server_version();
+  const char *return_value_lscp_server_build_3;
+  return_value_lscp_server_build_3=lscp_server_build();
+  printf("\n  %s %s (Build: %s)\n", return_value_lscp_server_package_1, return_value_lscp_server_version_2, return_value_lscp_server_build_3);
   fputs("\n  Available server commands: help, exit, quit, list", stdout);
   fputs("\n  (all else are broadcast verbatim to subscribers)\n\n", stdout);
 }

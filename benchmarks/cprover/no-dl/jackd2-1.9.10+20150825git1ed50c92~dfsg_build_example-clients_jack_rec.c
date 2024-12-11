@@ -1,22 +1,22 @@
-// tag-#anon#ST[*{S8}$S8$'buf'||U64'len'|]
+// tag-#anon#ST[*{S8}_S8_'buf'||U64'len'|]
 // file ../common/ringbuffer.c line 30
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[*{S8}$S8$'buf'||vU64'write_ptr'||vU64'read_ptr'||U64'size'||U64'size_mask'||S32'mlocked'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'buf'||vU64'write_ptr'||vU64'read_ptr'||U64'size'||U64'size_mask'||S32'mlocked'||U32'_pad0'|]
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/ringbuffer.h line 51
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
 struct anonymous;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$2;
+union anonymous_2;
 
 // tag-JackOptions
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/types.h line 82
@@ -121,46 +121,46 @@ const char * jack_port_name(const struct _jack_port *);
 struct _jack_port * jack_port_register(struct _jack_client *, const char *, const char *, unsigned long int, unsigned long int);
 // jack_ringbuffer_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/ringbuffer.h line 71
-struct anonymous$1 * jack_ringbuffer_create(unsigned long int sz);
+struct anonymous_1 * jack_ringbuffer_create(unsigned long int sz);
 // jack_ringbuffer_free
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/ringbuffer.h line 79
-void jack_ringbuffer_free(struct anonymous$1 *rb);
+void jack_ringbuffer_free(struct anonymous_1 *rb);
 // jack_ringbuffer_get_read_vector
 // file ../common/ringbuffer.c line 326
-void jack_ringbuffer_get_read_vector(const struct anonymous$1 *rb, struct anonymous$3 *vec);
+void jack_ringbuffer_get_read_vector(const struct anonymous_1 *rb, struct anonymous_3 *vec);
 // jack_ringbuffer_get_write_vector
 // file ../common/ringbuffer.c line 370
-void jack_ringbuffer_get_write_vector(const struct anonymous$1 *rb, struct anonymous$3 *vec);
+void jack_ringbuffer_get_write_vector(const struct anonymous_1 *rb, struct anonymous_3 *vec);
 // jack_ringbuffer_mlock
 // file ../common/ringbuffer.c line 110
-signed int jack_ringbuffer_mlock(struct anonymous$1 *rb);
+signed int jack_ringbuffer_mlock(struct anonymous_1 *rb);
 // jack_ringbuffer_peek
 // file ../common/ringbuffer.c line 228
-unsigned long int jack_ringbuffer_peek(struct anonymous$1 *rb, char *dest, unsigned long int cnt);
+unsigned long int jack_ringbuffer_peek(struct anonymous_1 *rb, char *dest, unsigned long int cnt);
 // jack_ringbuffer_read
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/ringbuffer.h line 136
-unsigned long int jack_ringbuffer_read(struct anonymous$1 *rb, char *dest, unsigned long int cnt);
+unsigned long int jack_ringbuffer_read(struct anonymous_1 *rb, char *dest, unsigned long int cnt);
 // jack_ringbuffer_read_advance
 // file ../common/ringbuffer.c line 305
-void jack_ringbuffer_read_advance(struct anonymous$1 *rb, unsigned long int cnt);
+void jack_ringbuffer_read_advance(struct anonymous_1 *rb, unsigned long int cnt);
 // jack_ringbuffer_read_space
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/ringbuffer.h line 175
-unsigned long int jack_ringbuffer_read_space(const struct anonymous$1 *rb);
+unsigned long int jack_ringbuffer_read_space(const struct anonymous_1 *rb);
 // jack_ringbuffer_reset
 // file ../common/ringbuffer.c line 125
-void jack_ringbuffer_reset(struct anonymous$1 *rb);
+void jack_ringbuffer_reset(struct anonymous_1 *rb);
 // jack_ringbuffer_reset_size
 // file ../common/ringbuffer.c line 136
-void jack_ringbuffer_reset_size(struct anonymous$1 *rb, unsigned long int sz);
+void jack_ringbuffer_reset_size(struct anonymous_1 *rb, unsigned long int sz);
 // jack_ringbuffer_write
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/ringbuffer.h line 214
-unsigned long int jack_ringbuffer_write(struct anonymous$1 *rb, const char *src, unsigned long int cnt);
+unsigned long int jack_ringbuffer_write(struct anonymous_1 *rb, const char *src, unsigned long int cnt);
 // jack_ringbuffer_write_advance
 // file ../common/ringbuffer.c line 314
-void jack_ringbuffer_write_advance(struct anonymous$1 *rb, unsigned long int cnt);
+void jack_ringbuffer_write_advance(struct anonymous_1 *rb, unsigned long int cnt);
 // jack_ringbuffer_write_space
 // file ../common/ringbuffer.c line 169
-unsigned long int jack_ringbuffer_write_space(const struct anonymous$1 *rb);
+unsigned long int jack_ringbuffer_write_space(const struct anonymous_1 *rb);
 // jack_set_process_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/jack.h line 395
 signed int jack_set_process_callback(struct _jack_client *, signed int (*)(unsigned int, void *), void *);
@@ -184,10 +184,10 @@ extern signed int printf(const char *, ...);
 static signed int process(unsigned int nframes, void *arg);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$0 *);
+extern signed int pthread_cond_signal(union anonymous_0 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$0 *, union anonymous$2 *);
+extern signed int pthread_cond_wait(union anonymous_0 *, union anonymous_2 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -196,13 +196,13 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$2 *);
+extern signed int pthread_mutex_lock(union anonymous_2 *);
 // pthread_mutex_trylock
 // file /usr/include/pthread.h line 760
-extern signed int pthread_mutex_trylock(union anonymous$2 *);
+extern signed int pthread_mutex_trylock(union anonymous_2 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$2 *);
+extern signed int pthread_mutex_unlock(union anonymous_2 *);
 // pthread_setcanceltype
 // file /usr/include/pthread.h line 512
 extern signed int pthread_setcanceltype(signed int, signed int *);
@@ -237,7 +237,7 @@ static void signal_handler(signed int sig);
 // file /usr/include/stdio.h line 364
 extern signed int sprintf(char *, const char *, ...);
 
-struct anonymous$3
+struct anonymous_3
 {
   // buf
   char *buf;
@@ -245,7 +245,7 @@ struct anonymous$3
   unsigned long int len;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // buf
   char *buf;
@@ -281,7 +281,7 @@ struct anonymous
   unsigned int __broadcast_seq;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct anonymous __data;
@@ -319,7 +319,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -469,13 +469,13 @@ union pthread_attr_t
 struct _jack_client *client;
 // data_ready
 // file ../example-clients/capture_client.c line 62
-union anonymous$0 data_ready = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+union anonymous_0 data_ready = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
 // disk_thread_lock
 // file ../example-clients/capture_client.c line 61
-union anonymous$2 disk_thread_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_2 disk_thread_lock = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // in
@@ -504,7 +504,7 @@ signed long int overruns = (signed long int)0;
 struct _jack_port **ports;
 // rb
 // file ../example-clients/capture_client.c line 60
-struct anonymous$1 *rb;
+struct anonymous_1 *rb;
 // sample_size
 // file ../example-clients/capture_client.c line 56
 const unsigned long int sample_size = sizeof(float) /*4ul*/ ;
@@ -524,19 +524,19 @@ static void * disk_thread(void *arg)
   pthread_setcanceltype(1, (signed int *)(void *)0);
   pthread_mutex_lock(&disk_thread_lock);
   info->status = 0;
-  unsigned long int return_value_jack_ringbuffer_read_space$1;
+  unsigned long int return_value_jack_ringbuffer_read_space_1;
   while((_Bool)1)
   {
     while(!(info->can_capture == 0))
     {
-      return_value_jack_ringbuffer_read_space$1=jack_ringbuffer_read_space(rb);
-      if(!(return_value_jack_ringbuffer_read_space$1 >= bytes_per_frame))
+      return_value_jack_ringbuffer_read_space_1=jack_ringbuffer_read_space(rb);
+      if(!(return_value_jack_ringbuffer_read_space_1 >= bytes_per_frame))
         break;
 
       jack_ringbuffer_read(rb, (char *)framebuf, bytes_per_frame);
-      signed long int return_value_sf_writef_float$2;
-      return_value_sf_writef_float$2=sf_writef_float(info->sf, (const float *)framebuf, (signed long int)1);
-      if(!(return_value_sf_writef_float$2 == 1l))
+      signed long int return_value_sf_writef_float_2;
+      return_value_sf_writef_float_2=sf_writef_float(info->sf, (const float *)framebuf, (signed long int)1);
+      if(!(return_value_sf_writef_float_2 == 1l))
       {
         char errstr[256l];
         sf_error_str(((struct SNDFILE_tag *)NULL), errstr, sizeof(char [256l]) /*256ul*/  - (unsigned long int)1);
@@ -566,46 +566,46 @@ done:
 
 // jack_ringbuffer_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/ringbuffer.h line 71
-struct anonymous$1 * jack_ringbuffer_create(unsigned long int sz)
+struct anonymous_1 * jack_ringbuffer_create(unsigned long int sz)
 {
   signed int power_of_two;
-  struct anonymous$1 *jack_ringbuffer_create$$1$$rb;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct anonymous$1) /*48ul*/ );
-  jack_ringbuffer_create$$1$$rb = (struct anonymous$1 *)return_value_malloc$1;
-  if(jack_ringbuffer_create$$1$$rb == ((struct anonymous$1 *)NULL))
-    return (struct anonymous$1 *)(void *)0;
+  struct anonymous_1 *jack_ringbuffer_create__1__rb;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct anonymous_1) /*48ul*/ );
+  jack_ringbuffer_create__1__rb = (struct anonymous_1 *)return_value_malloc_1;
+  if(jack_ringbuffer_create__1__rb == ((struct anonymous_1 *)NULL))
+    return (struct anonymous_1 *)(void *)0;
 
   else
   {
     power_of_two = 1;
     for( ; !((unsigned long int)(1 << power_of_two) >= sz); power_of_two = power_of_two + 1)
       ;
-    jack_ringbuffer_create$$1$$rb->size = (unsigned long int)(1 << power_of_two);
-    jack_ringbuffer_create$$1$$rb->size_mask = jack_ringbuffer_create$$1$$rb->size;
-    jack_ringbuffer_create$$1$$rb->size_mask = jack_ringbuffer_create$$1$$rb->size_mask - (unsigned long int)1;
-    jack_ringbuffer_create$$1$$rb->write_ptr = (volatile unsigned long int)0;
-    jack_ringbuffer_create$$1$$rb->read_ptr = (volatile unsigned long int)0;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(jack_ringbuffer_create$$1$$rb->size);
-    jack_ringbuffer_create$$1$$rb->buf = (char *)return_value_malloc$2;
-    if(jack_ringbuffer_create$$1$$rb->buf == ((char *)NULL))
+    jack_ringbuffer_create__1__rb->size = (unsigned long int)(1 << power_of_two);
+    jack_ringbuffer_create__1__rb->size_mask = jack_ringbuffer_create__1__rb->size;
+    jack_ringbuffer_create__1__rb->size_mask = jack_ringbuffer_create__1__rb->size_mask - (unsigned long int)1;
+    jack_ringbuffer_create__1__rb->write_ptr = (volatile unsigned long int)0;
+    jack_ringbuffer_create__1__rb->read_ptr = (volatile unsigned long int)0;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(jack_ringbuffer_create__1__rb->size);
+    jack_ringbuffer_create__1__rb->buf = (char *)return_value_malloc_2;
+    if(jack_ringbuffer_create__1__rb->buf == ((char *)NULL))
     {
-      free((void *)jack_ringbuffer_create$$1$$rb);
-      return (struct anonymous$1 *)(void *)0;
+      free((void *)jack_ringbuffer_create__1__rb);
+      return (struct anonymous_1 *)(void *)0;
     }
 
     else
     {
-      jack_ringbuffer_create$$1$$rb->mlocked = 0;
-      return jack_ringbuffer_create$$1$$rb;
+      jack_ringbuffer_create__1__rb->mlocked = 0;
+      return jack_ringbuffer_create__1__rb;
     }
   }
 }
 
 // jack_ringbuffer_free
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/ringbuffer.h line 79
-void jack_ringbuffer_free(struct anonymous$1 *rb)
+void jack_ringbuffer_free(struct anonymous_1 *rb)
 {
   free((void *)rb->buf);
   free((void *)rb);
@@ -613,7 +613,7 @@ void jack_ringbuffer_free(struct anonymous$1 *rb)
 
 // jack_ringbuffer_get_read_vector
 // file ../common/ringbuffer.c line 326
-void jack_ringbuffer_get_read_vector(const struct anonymous$1 *rb, struct anonymous$3 *vec)
+void jack_ringbuffer_get_read_vector(const struct anonymous_1 *rb, struct anonymous_3 *vec)
 {
   unsigned long int free_cnt;
   unsigned long int cnt2;
@@ -645,7 +645,7 @@ void jack_ringbuffer_get_read_vector(const struct anonymous$1 *rb, struct anonym
 
 // jack_ringbuffer_get_write_vector
 // file ../common/ringbuffer.c line 370
-void jack_ringbuffer_get_write_vector(const struct anonymous$1 *rb, struct anonymous$3 *vec)
+void jack_ringbuffer_get_write_vector(const struct anonymous_1 *rb, struct anonymous_3 *vec)
 {
   unsigned long int free_cnt;
   unsigned long int cnt2;
@@ -681,7 +681,7 @@ void jack_ringbuffer_get_write_vector(const struct anonymous$1 *rb, struct anony
 
 // jack_ringbuffer_mlock
 // file ../common/ringbuffer.c line 110
-signed int jack_ringbuffer_mlock(struct anonymous$1 *rb)
+signed int jack_ringbuffer_mlock(struct anonymous_1 *rb)
 {
   rb->mlocked = 1;
   return 0;
@@ -689,7 +689,7 @@ signed int jack_ringbuffer_mlock(struct anonymous$1 *rb)
 
 // jack_ringbuffer_peek
 // file ../common/ringbuffer.c line 228
-unsigned long int jack_ringbuffer_peek(struct anonymous$1 *rb, char *dest, unsigned long int cnt)
+unsigned long int jack_ringbuffer_peek(struct anonymous_1 *rb, char *dest, unsigned long int cnt)
 {
   unsigned long int free_cnt;
   unsigned long int cnt2;
@@ -727,7 +727,7 @@ unsigned long int jack_ringbuffer_peek(struct anonymous$1 *rb, char *dest, unsig
 
 // jack_ringbuffer_read
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/ringbuffer.h line 136
-unsigned long int jack_ringbuffer_read(struct anonymous$1 *rb, char *dest, unsigned long int cnt)
+unsigned long int jack_ringbuffer_read(struct anonymous_1 *rb, char *dest, unsigned long int cnt)
 {
   unsigned long int free_cnt;
   unsigned long int cnt2;
@@ -767,7 +767,7 @@ unsigned long int jack_ringbuffer_read(struct anonymous$1 *rb, char *dest, unsig
 
 // jack_ringbuffer_read_advance
 // file ../common/ringbuffer.c line 305
-void jack_ringbuffer_read_advance(struct anonymous$1 *rb, unsigned long int cnt)
+void jack_ringbuffer_read_advance(struct anonymous_1 *rb, unsigned long int cnt)
 {
   unsigned long int tmp = rb->read_ptr + cnt & rb->size_mask;
   rb->read_ptr = tmp;
@@ -775,7 +775,7 @@ void jack_ringbuffer_read_advance(struct anonymous$1 *rb, unsigned long int cnt)
 
 // jack_ringbuffer_read_space
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/ringbuffer.h line 175
-unsigned long int jack_ringbuffer_read_space(const struct anonymous$1 *rb)
+unsigned long int jack_ringbuffer_read_space(const struct anonymous_1 *rb)
 {
   unsigned long int w;
   unsigned long int r;
@@ -790,7 +790,7 @@ unsigned long int jack_ringbuffer_read_space(const struct anonymous$1 *rb)
 
 // jack_ringbuffer_reset
 // file ../common/ringbuffer.c line 125
-void jack_ringbuffer_reset(struct anonymous$1 *rb)
+void jack_ringbuffer_reset(struct anonymous_1 *rb)
 {
   rb->read_ptr = (volatile unsigned long int)0;
   rb->write_ptr = (volatile unsigned long int)0;
@@ -799,7 +799,7 @@ void jack_ringbuffer_reset(struct anonymous$1 *rb)
 
 // jack_ringbuffer_reset_size
 // file ../common/ringbuffer.c line 136
-void jack_ringbuffer_reset_size(struct anonymous$1 *rb, unsigned long int sz)
+void jack_ringbuffer_reset_size(struct anonymous_1 *rb, unsigned long int sz)
 {
   rb->size = sz;
   rb->size_mask = rb->size;
@@ -810,7 +810,7 @@ void jack_ringbuffer_reset_size(struct anonymous$1 *rb, unsigned long int sz)
 
 // jack_ringbuffer_write
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/ringbuffer.h line 214
-unsigned long int jack_ringbuffer_write(struct anonymous$1 *rb, const char *src, unsigned long int cnt)
+unsigned long int jack_ringbuffer_write(struct anonymous_1 *rb, const char *src, unsigned long int cnt)
 {
   unsigned long int free_cnt;
   unsigned long int cnt2;
@@ -850,7 +850,7 @@ unsigned long int jack_ringbuffer_write(struct anonymous$1 *rb, const char *src,
 
 // jack_ringbuffer_write_advance
 // file ../common/ringbuffer.c line 314
-void jack_ringbuffer_write_advance(struct anonymous$1 *rb, unsigned long int cnt)
+void jack_ringbuffer_write_advance(struct anonymous_1 *rb, unsigned long int cnt)
 {
   unsigned long int tmp = rb->write_ptr + cnt & rb->size_mask;
   rb->write_ptr = tmp;
@@ -858,7 +858,7 @@ void jack_ringbuffer_write_advance(struct anonymous$1 *rb, unsigned long int cnt
 
 // jack_ringbuffer_write_space
 // file ../common/ringbuffer.c line 169
-unsigned long int jack_ringbuffer_write_space(const struct anonymous$1 *rb)
+unsigned long int jack_ringbuffer_write_space(const struct anonymous_1 *rb)
 {
   unsigned long int w;
   unsigned long int r;
@@ -902,8 +902,8 @@ signed int main(signed int argc, char **argv)
   memset((void *)&thread_info, 0, sizeof(struct _thread_info) /*64ul*/ );
   thread_info.rb_size = (unsigned int)16384;
   opterr = 0;
-  signed int return_value_atoi$1;
-  signed int return_value_atoi$2;
+  signed int return_value_atoi_1;
+  signed int return_value_atoi_2;
   do
   {
     c=getopt_long(argc, argv, optstring, long_options, &longopt_index);
@@ -921,8 +921,8 @@ signed int main(signed int argc, char **argv)
       }
       case 100:
       {
-        return_value_atoi$1=atoi(optarg);
-        thread_info.duration = (unsigned int)return_value_atoi$1;
+        return_value_atoi_1=atoi(optarg);
+        thread_info.duration = (unsigned int)return_value_atoi_1;
         break;
       }
       case 102:
@@ -937,8 +937,8 @@ signed int main(signed int argc, char **argv)
       }
       case 66:
       {
-        return_value_atoi$2=atoi(optarg);
-        thread_info.rb_size = (unsigned int)return_value_atoi$2;
+        return_value_atoi_2=atoi(optarg);
+        thread_info.rb_size = (unsigned int)return_value_atoi_2;
         break;
       }
       default:
@@ -968,9 +968,9 @@ signed int main(signed int argc, char **argv)
   setup_disk_thread(&thread_info);
   jack_set_process_callback(client, process, (void *)&thread_info);
   jack_on_shutdown(client, jack_shutdown, (void *)&thread_info);
-  signed int return_value_jack_activate$3;
-  return_value_jack_activate$3=jack_activate(client);
-  if(!(return_value_jack_activate$3 == 0))
+  signed int return_value_jack_activate_3;
+  return_value_jack_activate_3=jack_activate(client);
+  if(!(return_value_jack_activate_3 == 0))
     fprintf(stderr, "cannot activate client");
 
   setup_ports(argc - optind, &argv[(signed long int)optind], &thread_info);
@@ -991,14 +991,14 @@ static signed int process(unsigned int nframes, void *arg)
   signed int chn;
   unsigned long int i;
   struct _thread_info *info = (struct _thread_info *)arg;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(info->can_process == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(info->can_capture != 0) ? (_Bool)1 : (_Bool)0;
-  void *return_value_jack_port_get_buffer$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = !(info->can_capture != 0) ? (_Bool)1 : (_Bool)0;
+  void *return_value_jack_port_get_buffer_2;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -1006,8 +1006,8 @@ static signed int process(unsigned int nframes, void *arg)
     chn = 0;
     for( ; !((unsigned int)chn >= nports); chn = chn + 1)
     {
-      return_value_jack_port_get_buffer$2=jack_port_get_buffer(ports[(signed long int)chn], nframes);
-      in[(signed long int)chn] = (float *)return_value_jack_port_get_buffer$2;
+      return_value_jack_port_get_buffer_2=jack_port_get_buffer(ports[(signed long int)chn], nframes);
+      in[(signed long int)chn] = (float *)return_value_jack_port_get_buffer_2;
     }
     i = (unsigned long int)0;
     for( ; !(i >= (unsigned long int)nframes); i = i + 1ul)
@@ -1015,16 +1015,16 @@ static signed int process(unsigned int nframes, void *arg)
       chn = 0;
       for( ; !((unsigned int)chn >= nports); chn = chn + 1)
       {
-        unsigned long int return_value_jack_ringbuffer_write$3;
-        return_value_jack_ringbuffer_write$3=jack_ringbuffer_write(rb, (const char *)(void *)(in[(signed long int)chn] + (signed long int)i), sample_size);
-        if(!(return_value_jack_ringbuffer_write$3 >= sample_size))
+        unsigned long int return_value_jack_ringbuffer_write_3;
+        return_value_jack_ringbuffer_write_3=jack_ringbuffer_write(rb, (const char *)(void *)(in[(signed long int)chn] + (signed long int)i), sample_size);
+        if(!(return_value_jack_ringbuffer_write_3 >= sample_size))
           overruns = overruns + 1l;
 
       }
     }
-    signed int return_value_pthread_mutex_trylock$4;
-    return_value_pthread_mutex_trylock$4=pthread_mutex_trylock(&disk_thread_lock);
-    if(return_value_pthread_mutex_trylock$4 == 0)
+    signed int return_value_pthread_mutex_trylock_4;
+    return_value_pthread_mutex_trylock_4=pthread_mutex_trylock(&disk_thread_lock);
+    if(return_value_pthread_mutex_trylock_4 == 0)
     {
       pthread_cond_signal(&data_ready);
       pthread_mutex_unlock(&disk_thread_lock);
@@ -1056,9 +1056,9 @@ static void setup_disk_thread(struct _thread_info *info)
 {
   struct SF_INFO sf_info;
   signed int short_mask;
-  unsigned int return_value_jack_get_sample_rate$1;
-  return_value_jack_get_sample_rate$1=jack_get_sample_rate(info->client);
-  sf_info.samplerate = (signed int)return_value_jack_get_sample_rate$1;
+  unsigned int return_value_jack_get_sample_rate_1;
+  return_value_jack_get_sample_rate_1=jack_get_sample_rate(info->client);
+  sf_info.samplerate = (signed int)return_value_jack_get_sample_rate_1;
   sf_info.channels = (signed int)info->channels;
   switch(info->bitdepth)
   {
@@ -1108,13 +1108,13 @@ static void setup_ports(signed int sources, char **source_names, struct _thread_
   unsigned int i;
   unsigned long int in_size;
   nports = (unsigned int)sources;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _jack_port *) /*8ul*/  * (unsigned long int)nports);
-  ports = (struct _jack_port **)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _jack_port *) /*8ul*/  * (unsigned long int)nports);
+  ports = (struct _jack_port **)return_value_malloc_1;
   in_size = (unsigned long int)nports * sizeof(float *) /*8ul*/ ;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(in_size);
-  in = (float **)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(in_size);
+  in = (float **)return_value_malloc_2;
   rb=jack_ringbuffer_create((unsigned long int)nports * sample_size * (unsigned long int)info->rb_size);
   memset((void *)in, 0, in_size);
   memset((void *)rb->buf, 0, rb->size);
@@ -1135,15 +1135,15 @@ static void setup_ports(signed int sources, char **source_names, struct _thread_
   i = (unsigned int)0;
   for( ; !(i >= nports); i = i + 1u)
   {
-    const char *return_value_jack_port_name$4;
-    return_value_jack_port_name$4=jack_port_name(ports[(signed long int)i]);
-    signed int return_value_jack_connect$5;
-    return_value_jack_connect$5=jack_connect(info->client, source_names[(signed long int)i], return_value_jack_port_name$4);
-    if(!(return_value_jack_connect$5 == 0))
+    const char *return_value_jack_port_name_4;
+    return_value_jack_port_name_4=jack_port_name(ports[(signed long int)i]);
+    signed int return_value_jack_connect_5;
+    return_value_jack_connect_5=jack_connect(info->client, source_names[(signed long int)i], return_value_jack_port_name_4);
+    if(!(return_value_jack_connect_5 == 0))
     {
-      const char *return_value_jack_port_name$3;
-      return_value_jack_port_name$3=jack_port_name(ports[(signed long int)i]);
-      fprintf(stderr, "cannot connect input port %s to %s\n", return_value_jack_port_name$3, source_names[(signed long int)i]);
+      const char *return_value_jack_port_name_3;
+      return_value_jack_port_name_3=jack_port_name(ports[(signed long int)i]);
+      fprintf(stderr, "cannot connect input port %s to %s\n", return_value_jack_port_name_3, source_names[(signed long int)i]);
       jack_client_close(info->client);
       exit(1);
     }

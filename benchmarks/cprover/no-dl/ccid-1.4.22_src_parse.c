@@ -1,34 +1,34 @@
-// #anon_enum$STATUS_NO_SUCH_DEVICE=249$STATUS_SUCCESS=250$STATUS_UNSUCCESSFUL=251$STATUS_COMM_ERROR=252$STATUS_DEVICE_PROTOCOL_ERROR=253$STATUS_COMM_NAK=254$STATUS_SECONDARY_SLOT=255
+// #anon_enum_STATUS_NO_SUCH_DEVICE=249_STATUS_SUCCESS=250_STATUS_UNSUCCESSFUL=251_STATUS_COMM_ERROR=252_STATUS_DEVICE_PROTOCOL_ERROR=253_STATUS_COMM_NAK=254_STATUS_SECONDARY_SLOT=255
 // file defs.h line 48
-enum anonymous$2 { STATUS_NO_SUCH_DEVICE=249, STATUS_SUCCESS=250, STATUS_UNSUCCESSFUL=251, STATUS_COMM_ERROR=252, STATUS_DEVICE_PROTOCOL_ERROR=253, STATUS_COMM_NAK=254, STATUS_SECONDARY_SLOT=255 };
+enum anonymous_2 { STATUS_NO_SUCH_DEVICE=249, STATUS_SUCCESS=250, STATUS_UNSUCCESSFUL=251, STATUS_COMM_ERROR=252, STATUS_DEVICE_PROTOCOL_ERROR=253, STATUS_COMM_NAK=254, STATUS_SECONDARY_SLOT=255 };
 
-// tag-#anon#ST[*{SYM#tag-libusb_device_handle#}$SYM#tag-libusb_device_handle#$'dev_handle'||U8'bus_number'||U8'device_address'||U16'$pad0'||S32'interface'||S32'bulk_in'||S32'bulk_out'||S32'interrupt'||S32'real_nb_opened_slots'||*{S32}$S32$'nb_opened_slots'||SYM#tag-#anon#ST[*{U8}$U8$'pbSeq'||U8'real_bSeq'||U24'$pad0'||S32'readerID'||U32'dwMaxCCIDMessageLength'||S32'dwMaxIFSD'||S32'dwFeatures'||S8'bPINSupport'||U24'$pad1'||U32'wLcdLayout'||S32'dwDefaultClock'||U32'dwMaxDataRate'||S8'bMaxSlotIndex'||S8'bCurrentSlotIndex'||U16'$pad2'||*{U32}$U32$'arrayOfSupportedDataRates'||U32'readTimeout'||S32'cardProtocol'||S32'bInterfaceProtocol'||S32'bNumEndpoints'||S32'dwSlotStatus'||S32'bVoltageSupport'||*{S8}$S8$'sIFD_serial_number'||*{S8}$S8$'sIFD_iManufacturer'||S32'IFD_bcdDevice'||U32'$pad3'||*{SYM#tag-GEMALTO_FIRMWARE_FEATURES#}$SYM#tag-GEMALTO_FIRMWARE_FEATURES#$'gemalto_firmware_features'|]#'ccid'||*{SYM#tag-libusb_transfer#}$SYM#tag-libusb_transfer#$'polling_transfer'||*{SYM#tag-usbDevice_MultiSlot_Extension#}$SYM#tag-usbDevice_MultiSlot_Extension#$'multislot_extension'|]
+// tag-#anon#ST[*{SYM#tag-libusb_device_handle#}_SYM#tag-libusb_device_handle#_'dev_handle'||U8'bus_number'||U8'device_address'||U16'_pad0'||S32'interface'||S32'bulk_in'||S32'bulk_out'||S32'interrupt'||S32'real_nb_opened_slots'||*{S32}_S32_'nb_opened_slots'||SYM#tag-#anon#ST[*{U8}_U8_'pbSeq'||U8'real_bSeq'||U24'_pad0'||S32'readerID'||U32'dwMaxCCIDMessageLength'||S32'dwMaxIFSD'||S32'dwFeatures'||S8'bPINSupport'||U24'_pad1'||U32'wLcdLayout'||S32'dwDefaultClock'||U32'dwMaxDataRate'||S8'bMaxSlotIndex'||S8'bCurrentSlotIndex'||U16'_pad2'||*{U32}_U32_'arrayOfSupportedDataRates'||U32'readTimeout'||S32'cardProtocol'||S32'bInterfaceProtocol'||S32'bNumEndpoints'||S32'dwSlotStatus'||S32'bVoltageSupport'||*{S8}_S8_'sIFD_serial_number'||*{S8}_S8_'sIFD_iManufacturer'||S32'IFD_bcdDevice'||U32'_pad3'||*{SYM#tag-GEMALTO_FIRMWARE_FEATURES#}_SYM#tag-GEMALTO_FIRMWARE_FEATURES#_'gemalto_firmware_features'|]#'ccid'||*{SYM#tag-libusb_transfer#}_SYM#tag-libusb_transfer#_'polling_transfer'||*{SYM#tag-usbDevice_MultiSlot_Extension#}_SYM#tag-usbDevice_MultiSlot_Extension#_'multislot_extension'|]
 // file ccid_usb.c line 78
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[*{SYM#tag-list_entry_s#}$SYM#tag-list_entry_s#$'head_sentinel'||*{SYM#tag-list_entry_s#}$SYM#tag-list_entry_s#$'tail_sentinel'||*{SYM#tag-list_entry_s#}$SYM#tag-list_entry_s#$'mid'||U32'numels'||U32'$pad0'||*{*{SYM#tag-list_entry_s#}$SYM#tag-list_entry_s#$}$*{SYM#tag-list_entry_s#}$SYM#tag-list_entry_s#$$'spareels'||U32'spareelsnum'||S32'iter_active'||U32'iter_pos'||U32'$pad1'||*{SYM#tag-list_entry_s#}$SYM#tag-list_entry_s#$'iter_curentry'||SYM#tag-list_attributes_s#'attrs'|]
+// tag-#anon#ST[*{SYM#tag-list_entry_s#}_SYM#tag-list_entry_s#_'head_sentinel'||*{SYM#tag-list_entry_s#}_SYM#tag-list_entry_s#_'tail_sentinel'||*{SYM#tag-list_entry_s#}_SYM#tag-list_entry_s#_'mid'||U32'numels'||U32'_pad0'||*{*{SYM#tag-list_entry_s#}_SYM#tag-list_entry_s#_}_*{SYM#tag-list_entry_s#}_SYM#tag-list_entry_s#__'spareels'||U32'spareelsnum'||S32'iter_active'||U32'iter_pos'||U32'_pad1'||*{SYM#tag-list_entry_s#}_SYM#tag-list_entry_s#_'iter_curentry'||SYM#tag-list_attributes_s#'attrs'|]
 // file simclist.h line 181
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[*{U8}$U8$'pbSeq'||U8'real_bSeq'||U24'$pad0'||S32'readerID'||U32'dwMaxCCIDMessageLength'||S32'dwMaxIFSD'||S32'dwFeatures'||S8'bPINSupport'||U24'$pad1'||U32'wLcdLayout'||S32'dwDefaultClock'||U32'dwMaxDataRate'||S8'bMaxSlotIndex'||S8'bCurrentSlotIndex'||U16'$pad2'||*{U32}$U32$'arrayOfSupportedDataRates'||U32'readTimeout'||S32'cardProtocol'||S32'bInterfaceProtocol'||S32'bNumEndpoints'||S32'dwSlotStatus'||S32'bVoltageSupport'||*{S8}$S8$'sIFD_serial_number'||*{S8}$S8$'sIFD_iManufacturer'||S32'IFD_bcdDevice'||U32'$pad3'||*{SYM#tag-GEMALTO_FIRMWARE_FEATURES#}$SYM#tag-GEMALTO_FIRMWARE_FEATURES#$'gemalto_firmware_features'|]
+// tag-#anon#ST[*{U8}_U8_'pbSeq'||U8'real_bSeq'||U24'_pad0'||S32'readerID'||U32'dwMaxCCIDMessageLength'||S32'dwMaxIFSD'||S32'dwFeatures'||S8'bPINSupport'||U24'_pad1'||U32'wLcdLayout'||S32'dwDefaultClock'||U32'dwMaxDataRate'||S8'bMaxSlotIndex'||S8'bCurrentSlotIndex'||U16'_pad2'||*{U32}_U32_'arrayOfSupportedDataRates'||U32'readTimeout'||S32'cardProtocol'||S32'bInterfaceProtocol'||S32'bNumEndpoints'||S32'dwSlotStatus'||S32'bVoltageSupport'||*{S8}_S8_'sIFD_serial_number'||*{S8}_S8_'sIFD_iManufacturer'||S32'IFD_bcdDevice'||U32'_pad3'||*{SYM#tag-GEMALTO_FIRMWARE_FEATURES#}_SYM#tag-GEMALTO_FIRMWARE_FEATURES#_'gemalto_firmware_features'|]
 // file ccid.h line 20
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$5;
+union anonymous_5;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$4;
+union anonymous_4;
 
 // tag-GEMALTO_FIRMWARE_FEATURES
 // file ccid.h line 139
@@ -140,7 +140,7 @@ struct yy_buffer_state;
 
 // CloseUSB
 // file ccid_usb.c line 848
-enum anonymous$2 CloseUSB(unsigned int reader_index);
+enum anonymous_2 CloseUSB(unsigned int reader_index);
 // ControlUSB
 // file ccid_usb.c line 1167
 signed int ControlUSB(signed int reader_index, signed int requesttype, signed int request, signed int value, unsigned char *bytes, unsigned int size);
@@ -152,7 +152,7 @@ signed int InterruptRead(signed int reader_index, signed int timeout);
 void InterruptStop(signed int reader_index);
 // LTPBundleFindValueWithKey
 // file parser.h line 49
-signed int LTPBundleFindValueWithKey(struct anonymous$1 *l, const char *key, struct anonymous$1 **values);
+signed int LTPBundleFindValueWithKey(struct anonymous_1 *l, const char *key, struct anonymous_1 **values);
 // Multi_CreateFirstSlot
 // file ccid_usb.c line 1648
 static struct usbDevice_MultiSlot_Extension * Multi_CreateFirstSlot(signed int reader_index);
@@ -173,16 +173,16 @@ static void * Multi_PollingProc(void *p_ext);
 static void Multi_PollingTerminate(struct usbDevice_MultiSlot_Extension *msExt);
 // OpenUSB
 // file ccid_usb.c line 197
-enum anonymous$2 OpenUSB(unsigned int reader_index, signed int Channel);
+enum anonymous_2 OpenUSB(unsigned int reader_index, signed int Channel);
 // OpenUSBByName
 // file ccid_usb.c line 210
-enum anonymous$2 OpenUSBByName(unsigned int reader_index, char *device);
+enum anonymous_2 OpenUSBByName(unsigned int reader_index, char *device);
 // ReadUSB
 // file ccid_usb.c line 791
-enum anonymous$2 ReadUSB(unsigned int reader_index, unsigned int *length, unsigned char *buffer);
+enum anonymous_2 ReadUSB(unsigned int reader_index, unsigned int *length, unsigned char *buffer);
 // WriteUSB
 // file ccid_usb.c line 754
-enum anonymous$2 WriteUSB(unsigned int reader_index, unsigned int length, unsigned char *buffer);
+enum anonymous_2 WriteUSB(unsigned int reader_index, unsigned int length, unsigned char *buffer);
 // _IO_getc
 // file /usr/include/libio.h line 434
 extern signed int _IO_getc(struct _IO_FILE *);
@@ -194,10 +194,10 @@ extern signed int * __errno_location(void);
 static void bulk_transfer_cb(struct libusb_transfer *transfer);
 // bundleParse
 // file parser.h line 50
-signed int bundleParse(const char *fileName, struct anonymous$1 *l);
+signed int bundleParse(const char *fileName, struct anonymous_1 *l);
 // bundleRelease
 // file parser.h line 51
-void bundleRelease(struct anonymous$1 *l);
+void bundleRelease(struct anonymous_1 *l);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -215,10 +215,10 @@ extern void clearerr(struct _IO_FILE *);
 static void close_libusb_if_needed(void);
 // eval_key
 // file tokenparser.l line 78
-static void eval_key(char *pcToken, struct anonymous$1 *list_key);
+static void eval_key(char *pcToken, struct anonymous_1 *list_key);
 // eval_value
 // file tokenparser.l line 111
-static void eval_value(char *pcToken, struct anonymous$1 *list_values);
+static void eval_value(char *pcToken, struct anonymous_1 *list_values);
 // exit
 // file /usr/include/stdlib.h line 543
 extern void exit(signed int);
@@ -254,7 +254,7 @@ extern void free(void *);
 extern unsigned long int fwrite(const void *, unsigned long int, unsigned long int, struct _IO_FILE *);
 // get_ccid_descriptor
 // file ccid_usb.c line 925
-struct anonymous$3 * get_ccid_descriptor(unsigned int reader_index);
+struct anonymous_3 * get_ccid_descriptor(unsigned int reader_index);
 // get_ccid_device_descriptor
 // file ccid_usb.h line 38
 const unsigned char * get_ccid_device_descriptor(struct libusb_interface *usb_interface);
@@ -266,7 +266,7 @@ struct libusb_interface * get_ccid_usb_interface(struct libusb_config_descriptor
 static unsigned int * get_data_rates(unsigned int reader_index, struct libusb_config_descriptor *desc, signed int num);
 // get_end_points
 // file ccid_usb.c line 978
-static signed int get_end_points(struct libusb_config_descriptor *desc, struct anonymous$6 *usbdevice, signed int num);
+static signed int get_end_points(struct libusb_config_descriptor *desc, struct anonymous_6 *usbdevice, signed int num);
 // getenv
 // file /usr/include/stdlib.h line 564
 extern char * getenv(const char *);
@@ -309,9 +309,9 @@ void libusb_exit(struct libusb_context *);
 // libusb_fill_bulk_transfer
 // file /usr/include/libusb-1.0/libusb.h line 1545
 static inline void libusb_fill_bulk_transfer(struct libusb_transfer *transfer, struct libusb_device_handle *dev_handle, unsigned char endpoint, unsigned char *buffer, signed int length, void (*callback)(struct libusb_transfer *), void *user_data, unsigned int timeout);
-// libusb_fill_bulk_transfer::callback$object
+// libusb_fill_bulk_transfer::callback_object
 //
-void callback$object(struct libusb_transfer *);
+void callback_object(struct libusb_transfer *);
 // libusb_free_device_list
 // file /usr/include/libusb-1.0/libusb.h line 1314
 void libusb_free_device_list(struct libusb_device **, signed int);
@@ -356,49 +356,49 @@ signed int libusb_reset_device(struct libusb_device_handle *);
 signed int libusb_submit_transfer(struct libusb_transfer *);
 // list_append
 // file simclist.h line 358
-signed int list_append(struct anonymous$1 * restrict l, const void *data);
+signed int list_append(struct anonymous_1 * restrict l, const void *data);
 // list_attributes_comparator
 // file simclist.c line 332
-signed int list_attributes_comparator(struct anonymous$1 * restrict l, signed int (*comparator_fun)(const void *, const void *));
-// list_attributes_comparator::comparator_fun$object
+signed int list_attributes_comparator(struct anonymous_1 * restrict l, signed int (*comparator_fun)(const void *, const void *));
+// list_attributes_comparator::comparator_fun_object
 //
-signed int comparator_fun$object(const void *, const void *);
+signed int comparator_fun_object(const void *, const void *);
 // list_attributes_copy
 // file simclist.c line 351
-signed int list_attributes_copy(struct anonymous$1 * restrict l, unsigned long int (*metric_fun)(const void *), signed int copy_data);
-// list_attributes_copy::metric_fun$object
+signed int list_attributes_copy(struct anonymous_1 * restrict l, unsigned long int (*metric_fun)(const void *), signed int copy_data);
+// list_attributes_copy::metric_fun_object
 //
-unsigned long int metric_fun$object(const void *);
+unsigned long int metric_fun_object(const void *);
 // list_attributes_hash_computer
 // file simclist.c line 362
-signed int list_attributes_hash_computer(struct anonymous$1 * restrict l, signed int (*hash_computer_fun)(const void *));
-// list_attributes_hash_computer::hash_computer_fun$object
+signed int list_attributes_hash_computer(struct anonymous_1 * restrict l, signed int (*hash_computer_fun)(const void *));
+// list_attributes_hash_computer::hash_computer_fun_object
 //
-signed int hash_computer_fun$object(const void *);
+signed int hash_computer_fun_object(const void *);
 // list_attributes_seeker
 // file simclist.c line 342
-signed int list_attributes_seeker(struct anonymous$1 * restrict l, signed int (*seeker_fun)(const void *, const void *));
-// list_attributes_seeker::seeker_fun$object
+signed int list_attributes_seeker(struct anonymous_1 * restrict l, signed int (*seeker_fun)(const void *, const void *));
+// list_attributes_seeker::seeker_fun_object
 //
-signed int seeker_fun$object(const void *, const void *);
+signed int seeker_fun_object(const void *, const void *);
 // list_attributes_serializer
 // file simclist.c line 370
-signed int list_attributes_serializer(struct anonymous$1 * restrict l, void * (*serializer_fun)(const void *, unsigned int *));
-// list_attributes_serializer::serializer_fun$object
+signed int list_attributes_serializer(struct anonymous_1 * restrict l, void * (*serializer_fun)(const void *, unsigned int *));
+// list_attributes_serializer::serializer_fun_object
 //
-void * serializer_fun$object(const void *, unsigned int *);
+void * serializer_fun_object(const void *, unsigned int *);
 // list_attributes_setdefaults
 // file simclist.c line 312
-static signed int list_attributes_setdefaults(struct anonymous$1 * restrict l);
+static signed int list_attributes_setdefaults(struct anonymous_1 * restrict l);
 // list_attributes_unserializer
 // file simclist.c line 378
-signed int list_attributes_unserializer(struct anonymous$1 * restrict l, void * (*unserializer_fun)(const void *, unsigned int *));
-// list_attributes_unserializer::unserializer_fun$object
+signed int list_attributes_unserializer(struct anonymous_1 * restrict l, void * (*unserializer_fun)(const void *, unsigned int *));
+// list_attributes_unserializer::unserializer_fun_object
 //
-void * unserializer_fun$object(const void *, unsigned int *);
+void * unserializer_fun_object(const void *, unsigned int *);
 // list_clear
 // file simclist.c line 623
-signed int list_clear(struct anonymous$1 * restrict l);
+signed int list_clear(struct anonymous_1 * restrict l);
 // list_comparator_double
 // file simclist.c line 1430
 signed int list_comparator_double(const void *a, const void *b);
@@ -434,52 +434,52 @@ signed int list_comparator_uint64_t(const void *a, const void *b);
 signed int list_comparator_uint8_t(const void *a, const void *b);
 // list_concat
 // file simclist.c line 713
-signed int list_concat(const struct anonymous$1 *l1, const struct anonymous$1 *l2, struct anonymous$1 * restrict dest);
+signed int list_concat(const struct anonymous_1 *l1, const struct anonymous_1 *l2, struct anonymous_1 * restrict dest);
 // list_contains
 // file simclist.c line 709
-signed int list_contains(const struct anonymous$1 * restrict l, const void *data);
+signed int list_contains(const struct anonymous_1 * restrict l, const void *data);
 // list_delete
 // file simclist.c line 526
-signed int list_delete(struct anonymous$1 * restrict l, const void *data);
+signed int list_delete(struct anonymous_1 * restrict l, const void *data);
 // list_delete_at
 // file simclist.c line 542
-signed int list_delete_at(struct anonymous$1 * restrict l, unsigned int pos);
+signed int list_delete_at(struct anonymous_1 * restrict l, unsigned int pos);
 // list_delete_range
 // file simclist.c line 560
-signed int list_delete_range(struct anonymous$1 * restrict l, unsigned int posstart, unsigned int posend);
+signed int list_delete_range(struct anonymous_1 * restrict l, unsigned int posstart, unsigned int posend);
 // list_destroy
 // file simclist.h line 223
-void list_destroy(struct anonymous$1 * restrict l);
+void list_destroy(struct anonymous_1 * restrict l);
 // list_drop_elem
 // file simclist.c line 1388
-static signed int list_drop_elem(struct anonymous$1 * restrict l, struct list_entry_s *tmp, unsigned int pos);
+static signed int list_drop_elem(struct anonymous_1 * restrict l, struct list_entry_s *tmp, unsigned int pos);
 // list_empty
 // file simclist.c line 673
-signed int list_empty(const struct anonymous$1 * restrict l);
+signed int list_empty(const struct anonymous_1 * restrict l);
 // list_extract_at
 // file simclist.c line 459
-void * list_extract_at(struct anonymous$1 * restrict l, unsigned int pos);
+void * list_extract_at(struct anonymous_1 * restrict l, unsigned int pos);
 // list_fetch
 // file simclist.c line 394
-void * list_fetch(struct anonymous$1 * restrict l);
+void * list_fetch(struct anonymous_1 * restrict l);
 // list_findpos
 // file simclist.c line 433
-static inline struct list_entry_s * list_findpos(const struct anonymous$1 * restrict l, signed int posstart);
+static inline struct list_entry_s * list_findpos(const struct anonymous_1 * restrict l, signed int posstart);
 // list_get_at
 // file simclist.h line 389
-void * list_get_at(const struct anonymous$1 * restrict l, unsigned int pos);
+void * list_get_at(const struct anonymous_1 * restrict l, unsigned int pos);
 // list_get_max
 // file simclist.c line 406
-void * list_get_max(const struct anonymous$1 * restrict l);
+void * list_get_max(const struct anonymous_1 * restrict l);
 // list_get_min
 // file simclist.c line 410
-void * list_get_min(const struct anonymous$1 * restrict l);
+void * list_get_min(const struct anonymous_1 * restrict l);
 // list_get_minmax
 // file simclist.c line 416
-static void * list_get_minmax(const struct anonymous$1 * restrict l, signed int versus);
+static void * list_get_minmax(const struct anonymous_1 * restrict l, signed int versus);
 // list_hash
 // file simclist.c line 970
-signed int list_hash(const struct anonymous$1 * restrict l, signed int * restrict hash);
+signed int list_hash(const struct anonymous_1 * restrict l, signed int * restrict hash);
 // list_hashcomputer_double
 // file simclist.c line 1466
 signed int list_hashcomputer_double(const void *el);
@@ -515,25 +515,25 @@ signed int list_hashcomputer_uint64_t(const void *el);
 signed int list_hashcomputer_uint8_t(const void *el);
 // list_init
 // file simclist.h line 212
-signed int list_init(struct anonymous$1 * restrict l);
+signed int list_init(struct anonymous_1 * restrict l);
 // list_insert_at
 // file simclist.c line 477
-signed int list_insert_at(struct anonymous$1 * restrict l, const void *data, unsigned int pos);
+signed int list_insert_at(struct anonymous_1 * restrict l, const void *data, unsigned int pos);
 // list_iterator_hasnext
 // file simclist.c line 958
-signed int list_iterator_hasnext(const struct anonymous$1 * restrict l);
+signed int list_iterator_hasnext(const struct anonymous_1 * restrict l);
 // list_iterator_next
 // file simclist.c line 946
-void * list_iterator_next(struct anonymous$1 * restrict l);
+void * list_iterator_next(struct anonymous_1 * restrict l);
 // list_iterator_start
 // file simclist.c line 938
-signed int list_iterator_start(struct anonymous$1 * restrict l);
+signed int list_iterator_start(struct anonymous_1 * restrict l);
 // list_iterator_stop
 // file simclist.c line 963
-signed int list_iterator_stop(struct anonymous$1 * restrict l);
+signed int list_iterator_stop(struct anonymous_1 * restrict l);
 // list_locate
 // file simclist.c line 677
-signed int list_locate(const struct anonymous$1 * restrict l, const void *data);
+signed int list_locate(const struct anonymous_1 * restrict l, const void *data);
 // list_meter_double
 // file simclist.c line 1448
 unsigned long int list_meter_double(const void *el);
@@ -569,22 +569,22 @@ unsigned long int list_meter_uint64_t(const void *el);
 unsigned long int list_meter_uint8_t(const void *el);
 // list_prepend
 // file simclist.c line 390
-signed int list_prepend(struct anonymous$1 * restrict l, const void *data);
+signed int list_prepend(struct anonymous_1 * restrict l, const void *data);
 // list_seek
 // file simclist.c line 697
-void * list_seek(struct anonymous$1 * restrict l, const void *indicator);
+void * list_seek(struct anonymous_1 * restrict l, const void *indicator);
 // list_size
 // file simclist.h line 493
-unsigned int list_size(const struct anonymous$1 * restrict l);
+unsigned int list_size(const struct anonymous_1 * restrict l);
 // list_sort
 // file simclist.c line 766
-signed int list_sort(struct anonymous$1 * restrict l, signed int versus);
+signed int list_sort(struct anonymous_1 * restrict l, signed int versus);
 // list_sort_quicksort
 // file simclist.c line 815
-static void list_sort_quicksort(struct anonymous$1 * restrict l, signed int versus, unsigned int first, struct list_entry_s *fel, unsigned int last, struct list_entry_s *lel);
+static void list_sort_quicksort(struct anonymous_1 * restrict l, signed int versus, unsigned int first, struct list_entry_s *fel, unsigned int last, struct list_entry_s *lel);
 // list_sort_selectionsort
 // file simclist.c line 794
-static inline void list_sort_selectionsort(struct anonymous$1 * restrict l, signed int versus, unsigned int first, struct list_entry_s *fel, unsigned int last, struct list_entry_s *lel);
+static inline void list_sort_selectionsort(struct anonymous_1 * restrict l, signed int versus, unsigned int first, struct list_entry_s *fel, unsigned int last, struct list_entry_s *lel);
 // log_msg
 // file debug.c line 44
 void log_msg(const signed int priority, const char *fmt, ...);
@@ -605,16 +605,16 @@ extern void * memset(void *, signed int, unsigned long int);
 extern signed int printf(const char *, ...);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$5 *);
+extern signed int pthread_cond_broadcast(union anonymous_5 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$5 *);
+extern signed int pthread_cond_destroy(union anonymous_5 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$5 *, const union anonymous *);
+extern signed int pthread_cond_init(union anonymous_5 *, const union anonymous *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$5 *, union anonymous$4 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_5 *, union anonymous_4 *, struct timespec *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -626,16 +626,16 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$4 *);
+extern signed int pthread_mutex_destroy(union anonymous_4 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$4 *, const union anonymous *);
+extern signed int pthread_mutex_init(union anonymous_4 *, const union anonymous *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$4 *);
+extern signed int pthread_mutex_lock(union anonymous_4 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$4 *);
+extern signed int pthread_mutex_unlock(union anonymous_4 *);
 // rand
 // file /usr/include/stdlib.h line 374
 extern signed int rand(void);
@@ -778,7 +778,7 @@ void yyset_lineno(signed int line_number);
 // file tokenparser.c line 1697
 void yyset_out(struct _IO_FILE *out_str);
 
-struct anonymous$3
+struct anonymous_3
 {
   // pbSeq
   unsigned char *pbSeq;
@@ -828,7 +828,7 @@ struct anonymous$3
   struct GEMALTO_FIRMWARE_FEATURES *gemalto_firmware_features;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // dev_handle
   struct libusb_device_handle *dev_handle;
@@ -849,7 +849,7 @@ struct anonymous$6
   // nb_opened_slots
   signed int *nb_opened_slots;
   // ccid
-  struct anonymous$3 ccid;
+  struct anonymous_3 ccid;
   // polling_transfer
   struct libusb_transfer *polling_transfer;
   // multislot_extension
@@ -874,7 +874,7 @@ struct list_attributes_s
   void * (*unserializer)(const void *, unsigned int *);
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // head_sentinel
   struct list_entry_s *head_sentinel;
@@ -898,7 +898,7 @@ struct anonymous$1
   struct list_attributes_s attrs;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // __lock
   signed int __lock;
@@ -926,10 +926,10 @@ union anonymous
   signed int __align;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __data
-  struct anonymous$0 __data;
+  struct anonymous_0 __data;
   // __size
   char __size[48l];
   // __align
@@ -964,7 +964,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1129,7 +1129,7 @@ struct bundleElt
   // key
   char *key;
   // values
-  struct anonymous$1 values;
+  struct anonymous_1 values;
 };
 
 struct libusb_config_descriptor
@@ -1345,9 +1345,9 @@ struct usbDevice_MultiSlot_Extension
   // thread_proc
   unsigned long int thread_proc;
   // mutex
-  union anonymous$4 mutex;
+  union anonymous_4 mutex;
   // condition
-  union anonymous$5 condition;
+  union anonymous_5 condition;
   // transfer
   struct libusb_transfer *transfer;
 };
@@ -1405,10 +1405,10 @@ static struct _bogus_firmware Bogus_firmwares[17l] = { { .vendor=0x04e6, .produc
 signed int DriverOptions = 0;
 // ListKeys
 // file tokenparser.l line 58
-static struct anonymous$1 *ListKeys;
+static struct anonymous_1 *ListKeys;
 // ListValues
 // file tokenparser.l line 59
-static struct anonymous$1 *ListValues;
+static struct anonymous_1 *ListValues;
 // LogLevel
 // file parse.c line 48
 signed int LogLevel = 1 + 2 + 4 + 8;
@@ -1429,7 +1429,7 @@ extern struct _IO_FILE *stdin;
 extern struct _IO_FILE *stdout;
 // usbDevice
 // file ccid_usb.c line 126
-static struct anonymous$6 usbDevice[16l];
+static struct anonymous_6 usbDevice[16l];
 // yy_accept
 // file tokenparser.c line 384
 static const signed short int yy_accept[39l] = { (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)8, (const signed short int)6, (const signed short int)4, (const signed short int)2, (const signed short int)1, (const signed short int)6, (const signed short int)1, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)3, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)0, (const signed short int)5, (const signed short int)0 };
@@ -1505,10 +1505,10 @@ char *yytext;
 
 // CloseUSB
 // file ccid_usb.c line 848
-enum anonymous$2 CloseUSB(unsigned int reader_index)
+enum anonymous_2 CloseUSB(unsigned int reader_index)
 {
   if(usbDevice[(signed long int)reader_index].dev_handle == ((struct libusb_device_handle *)NULL))
-    return (enum anonymous$2)STATUS_UNSUCCESSFUL;
+    return (enum anonymous_2)STATUS_UNSUCCESSFUL;
 
   else
   {
@@ -1555,7 +1555,7 @@ enum anonymous$2 CloseUSB(unsigned int reader_index)
     usbDevice[(signed long int)reader_index].dev_handle = (struct libusb_device_handle *)(void *)0;
     usbDevice[(signed long int)reader_index].interface = 0;
     close_libusb_if_needed();
-    return (enum anonymous$2)STATUS_SUCCESS;
+    return (enum anonymous_2)STATUS_SUCCESS;
   }
 }
 
@@ -1575,13 +1575,13 @@ signed int ControlUSB(signed int reader_index, signed int requesttype, signed in
   }
 
   ret=libusb_control_transfer(usbDevice[(signed long int)reader_index].dev_handle, (unsigned char)requesttype, (unsigned char)request, (unsigned short int)value, (unsigned short int)usbDevice[(signed long int)reader_index].interface, bytes, (unsigned short int)size, usbDevice[(signed long int)reader_index].ccid.readTimeout);
-  const char *return_value_libusb_error_name$1;
+  const char *return_value_libusb_error_name_1;
   if(!(ret >= 0))
   {
     if(!((1 & LogLevel) == 0))
     {
-      return_value_libusb_error_name$1=libusb_error_name(ret);
-      log_msg(3, "%s:%d:%s() control failed (%d/%d): %d %s", (const void *)"ccid_usb.c", 1185, (const void *)"ControlUSB", usbDevice[(signed long int)reader_index].bus_number, usbDevice[(signed long int)reader_index].device_address, ret, return_value_libusb_error_name$1);
+      return_value_libusb_error_name_1=libusb_error_name(ret);
+      log_msg(3, "%s:%d:%s() control failed (%d/%d): %d %s", (const void *)"ccid_usb.c", 1185, (const void *)"ControlUSB", usbDevice[(signed long int)reader_index].bus_number, usbDevice[(signed long int)reader_index].device_address, ret, return_value_libusb_error_name_1);
     }
 
     return ret;
@@ -1607,13 +1607,13 @@ signed int InterruptRead(signed int reader_index, signed int timeout)
   unsigned char buffer[8l];
   struct libusb_transfer *transfer;
   signed int completed = 0;
-  signed int return_value_Multi_InterruptRead$1;
-  signed int return_value_libusb_handle_events$2;
-  const char *return_value_libusb_error_name$3;
+  signed int return_value_Multi_InterruptRead_1;
+  signed int return_value_libusb_handle_events_2;
+  const char *return_value_libusb_error_name_3;
   if(!(usbDevice[(signed long int)reader_index].multislot_extension == ((struct usbDevice_MultiSlot_Extension *)NULL)))
   {
-    return_value_Multi_InterruptRead$1=Multi_InterruptRead(reader_index, timeout);
-    return return_value_Multi_InterruptRead$1;
+    return_value_Multi_InterruptRead_1=Multi_InterruptRead(reader_index, timeout);
+    return return_value_Multi_InterruptRead_1;
   }
 
   else
@@ -1652,8 +1652,8 @@ signed int InterruptRead(signed int reader_index, signed int timeout)
               libusb_cancel_transfer(transfer);
               while(completed == 0)
               {
-                return_value_libusb_handle_events$2=libusb_handle_events(ctx);
-                if(!(return_value_libusb_handle_events$2 >= 0))
+                return_value_libusb_handle_events_2=libusb_handle_events(ctx);
+                if(!(return_value_libusb_handle_events_2 >= 0))
                   break;
 
               }
@@ -1689,8 +1689,8 @@ signed int InterruptRead(signed int reader_index, signed int timeout)
           {
             if(!((4 & LogLevel) == 0))
             {
-              return_value_libusb_error_name$3=libusb_error_name(ret);
-              log_msg(0, "%s:%d:%s() InterruptRead (%d/%d): %s", (const void *)"ccid_usb.c", 1284, (const void *)"InterruptRead", usbDevice[(signed long int)reader_index].bus_number, usbDevice[(signed long int)reader_index].device_address, return_value_libusb_error_name$3);
+              return_value_libusb_error_name_3=libusb_error_name(ret);
+              log_msg(0, "%s:%d:%s() InterruptRead (%d/%d): %s", (const void *)"ccid_usb.c", 1284, (const void *)"InterruptRead", usbDevice[(signed long int)reader_index].bus_number, usbDevice[(signed long int)reader_index].device_address, return_value_libusb_error_name_3);
             }
 
             return_value = 612;
@@ -1732,25 +1732,25 @@ void InterruptStop(signed int reader_index)
 
 // LTPBundleFindValueWithKey
 // file parser.h line 49
-signed int LTPBundleFindValueWithKey(struct anonymous$1 *l, const char *key, struct anonymous$1 **values)
+signed int LTPBundleFindValueWithKey(struct anonymous_1 *l, const char *key, struct anonymous_1 **values)
 {
   unsigned int i;
   signed int ret = 1;
   i = (unsigned int)0;
-  unsigned int return_value_list_size$1;
+  unsigned int return_value_list_size_1;
   do
   {
-    return_value_list_size$1=list_size(l);
-    if(i >= return_value_list_size$1)
+    return_value_list_size_1=list_size(l);
+    if(i >= return_value_list_size_1)
       break;
 
     struct bundleElt *elt;
-    void *return_value_list_get_at$2;
-    return_value_list_get_at$2=list_get_at(l, i);
-    elt = (struct bundleElt *)return_value_list_get_at$2;
-    signed int return_value_strcmp$3;
-    return_value_strcmp$3=strcmp(elt->key, key);
-    if(return_value_strcmp$3 == 0)
+    void *return_value_list_get_at_2;
+    return_value_list_get_at_2=list_get_at(l, i);
+    elt = (struct bundleElt *)return_value_list_get_at_2;
+    signed int return_value_strcmp_3;
+    return_value_strcmp_3=strcmp(elt->key, key);
+    if(return_value_strcmp_3 == 0)
     {
       *values = &elt->values;
       ret = 0;
@@ -1767,9 +1767,9 @@ signed int LTPBundleFindValueWithKey(struct anonymous$1 *l, const char *key, str
 static struct usbDevice_MultiSlot_Extension * Multi_CreateFirstSlot(signed int reader_index)
 {
   struct usbDevice_MultiSlot_Extension *msExt;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct usbDevice_MultiSlot_Extension) /*128ul*/ );
-  msExt = (struct usbDevice_MultiSlot_Extension *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct usbDevice_MultiSlot_Extension) /*128ul*/ );
+  msExt = (struct usbDevice_MultiSlot_Extension *)return_value_malloc_1;
   if(msExt == ((struct usbDevice_MultiSlot_Extension *)NULL))
     return (struct usbDevice_MultiSlot_Extension *)(void *)0;
 
@@ -1806,13 +1806,13 @@ static signed int Multi_InterruptRead(signed int reader_index, signed int timeou
   signed int interrupt_byte;
   signed int interrupt_mask;
   msExt = usbDevice[(signed long int)reader_index].multislot_extension;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(msExt == ((struct usbDevice_MultiSlot_Extension *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = msExt->terminated != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = msExt->terminated != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -1886,13 +1886,13 @@ static void Multi_InterruptStop(signed int reader_index)
   signed int interrupt_byte;
   signed int interrupt_mask;
   msExt = usbDevice[(signed long int)reader_index].multislot_extension;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(msExt == ((struct usbDevice_MultiSlot_Extension *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = msExt->terminated != 0 ? (_Bool)1 : (_Bool)0;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = msExt->terminated != 0 ? (_Bool)1 : (_Bool)0;
+  if(!tmp_if_expr_1)
   {
     if(!((8 & LogLevel) == 0))
       log_msg(0, "%s:%d:%s() Stop (%d)", (const void *)"ccid_usb.c", 1628, (const void *)"Multi_InterruptStop", reader_index);
@@ -1970,9 +1970,9 @@ static void * Multi_PollingProc(void *p_ext)
             if(!(msExt->terminated == 0))
               break;
 
-            signed int return_value_libusb_handle_events$1;
-            return_value_libusb_handle_events$1=libusb_handle_events(ctx);
-            if(!(return_value_libusb_handle_events$1 >= 0))
+            signed int return_value_libusb_handle_events_1;
+            return_value_libusb_handle_events_1=libusb_handle_events(ctx);
+            if(!(return_value_libusb_handle_events_1 >= 0))
               break;
 
           }
@@ -2101,17 +2101,17 @@ static void Multi_PollingTerminate(struct usbDevice_MultiSlot_Extension *msExt)
 
 // OpenUSB
 // file ccid_usb.c line 197
-enum anonymous$2 OpenUSB(unsigned int reader_index, signed int Channel)
+enum anonymous_2 OpenUSB(unsigned int reader_index, signed int Channel)
 {
   (void)Channel;
-  enum anonymous$2 return_value_OpenUSBByName$1;
-  return_value_OpenUSBByName$1=OpenUSBByName(reader_index, (char *)(void *)0);
-  return return_value_OpenUSBByName$1;
+  enum anonymous_2 return_value_OpenUSBByName_1;
+  return_value_OpenUSBByName_1=OpenUSBByName(reader_index, (char *)(void *)0);
+  return return_value_OpenUSBByName_1;
 }
 
 // OpenUSBByName
 // file ccid_usb.c line 210
-enum anonymous$2 OpenUSBByName(unsigned int reader_index, char *device)
+enum anonymous_2 OpenUSBByName(unsigned int reader_index, char *device)
 {
   unsigned int alias;
   struct libusb_device_handle *dev_handle;
@@ -2125,11 +2125,11 @@ enum anonymous$2 OpenUSBByName(unsigned int reader_index, char *device)
   struct libusb_device **devs;
   struct libusb_device *dev;
   signed long int cnt;
-  struct anonymous$1 plist;
-  struct anonymous$1 *values;
-  struct anonymous$1 *ifdVendorID;
-  struct anonymous$1 *ifdProductID;
-  struct anonymous$1 *ifdFriendlyName;
+  struct anonymous_1 plist;
+  struct anonymous_1 *values;
+  struct anonymous_1 *ifdVendorID;
+  struct anonymous_1 *ifdProductID;
+  struct anonymous_1 *ifdFriendlyName;
   signed int rv;
   signed int claim_failed = 0;
   signed int return_value = STATUS_SUCCESS;
@@ -2139,32 +2139,32 @@ enum anonymous$2 OpenUSBByName(unsigned int reader_index, char *device)
   if(!(device == ((char *)NULL)))
   {
     char *dirname;
-    signed int return_value_strncmp$1;
-    return_value_strncmp$1=strncmp("usb:", device, (unsigned long int)4);
-    if(!(return_value_strncmp$1 == 0))
+    signed int return_value_strncmp_1;
+    return_value_strncmp_1=strncmp("usb:", device, (unsigned long int)4);
+    if(!(return_value_strncmp_1 == 0))
     {
       if(!((1 & LogLevel) == 0))
         log_msg(3, "%s:%d:%s() device name does not start with \"usb:\": %s", (const void *)"ccid_usb.c", 246, (const void *)"OpenUSBByName", device);
 
-      return (enum anonymous$2)STATUS_UNSUCCESSFUL;
+      return (enum anonymous_2)STATUS_UNSUCCESSFUL;
     }
 
-    signed int return_value_sscanf$2;
-    return_value_sscanf$2=sscanf(device, "usb:%x/%x", &device_vendor, &device_product);
-    if(!(return_value_sscanf$2 == 2))
+    signed int return_value_sscanf_2;
+    return_value_sscanf_2=sscanf(device, "usb:%x/%x", &device_vendor, &device_product);
+    if(!(return_value_sscanf_2 == 2))
     {
       if(!((1 & LogLevel) == 0))
         log_msg(3, "%s:%d:%s() device name can't be parsed: %s", (const void *)"ccid_usb.c", 252, (const void *)"OpenUSBByName", device);
 
-      return (enum anonymous$2)STATUS_UNSUCCESSFUL;
+      return (enum anonymous_2)STATUS_UNSUCCESSFUL;
     }
 
     dirname=strstr(device, "libudev:");
     if(!(dirname == ((char *)NULL)))
     {
-      signed int return_value_sscanf$3;
-      return_value_sscanf$3=sscanf(dirname + (signed long int)8, "%d:/dev/bus/usb/%d/%d", &interface_number, &device_bus, &device_addr);
-      if(return_value_sscanf$3 == 3)
+      signed int return_value_sscanf_3;
+      return_value_sscanf_3=sscanf(dirname + (signed long int)8, "%d:/dev/bus/usb/%d/%d", &interface_number, &device_bus, &device_addr);
+      if(return_value_sscanf_3 == 3)
       {
         if(!((4 & LogLevel) == 0))
           log_msg(0, "%s:%d:%s() interface_number: %d", (const void *)"ccid_usb.c", 266, (const void *)"OpenUSBByName", interface_number);
@@ -2178,32 +2178,32 @@ enum anonymous$2 OpenUSBByName(unsigned int reader_index, char *device)
 
   }
 
-  void *return_value_list_get_at$4;
-  void *return_value_list_get_at$5;
-  void *return_value_list_get_at$6;
-  const char *return_value_libusb_error_name$7;
-  unsigned int return_value_list_size$8;
-  unsigned int return_value_list_size$9;
-  _Bool tmp_if_expr$12;
-  unsigned int return_value_list_size$10;
-  unsigned int return_value_list_size$11;
-  unsigned int return_value_list_size$13;
-  signed int tmp_post$19;
-  _Bool tmp_if_expr$22;
-  _Bool tmp_if_expr$23;
-  _Bool tmp_if_expr$24;
-  _Bool tmp_if_expr$25;
-  _Bool tmp_if_expr$21;
-  _Bool tmp_if_expr$20;
-  const char *return_value_libusb_error_name$26;
-  const char *return_value_libusb_error_name$27;
-  const char *return_value_libusb_error_name$28;
+  void *return_value_list_get_at_4;
+  void *return_value_list_get_at_5;
+  void *return_value_list_get_at_6;
+  const char *return_value_libusb_error_name_7;
+  unsigned int return_value_list_size_8;
+  unsigned int return_value_list_size_9;
+  _Bool tmp_if_expr_12;
+  unsigned int return_value_list_size_10;
+  unsigned int return_value_list_size_11;
+  unsigned int return_value_list_size_13;
+  signed int tmp_post_19;
+  _Bool tmp_if_expr_22;
+  _Bool tmp_if_expr_23;
+  _Bool tmp_if_expr_24;
+  _Bool tmp_if_expr_25;
+  _Bool tmp_if_expr_21;
+  _Bool tmp_if_expr_20;
+  const char *return_value_libusb_error_name_26;
+  const char *return_value_libusb_error_name_27;
+  const char *return_value_libusb_error_name_28;
   if(!(usbDevice[(signed long int)reader_index].dev_handle == ((struct libusb_device_handle *)NULL)))
   {
     if(!((1 & LogLevel) == 0))
       log_msg(3, "%s:%d:%s() USB driver with index %X already in use", (const void *)"ccid_usb.c", 277, (const void *)"OpenUSBByName", reader_index);
 
-    return (enum anonymous$2)STATUS_UNSUCCESSFUL;
+    return (enum anonymous_2)STATUS_UNSUCCESSFUL;
   }
 
   else
@@ -2214,7 +2214,7 @@ enum anonymous$2 OpenUSBByName(unsigned int reader_index, char *device)
 
     rv=bundleParse(infofile, &plist);
     if(!(rv == 0))
-      return (enum anonymous$2)STATUS_UNSUCCESSFUL;
+      return (enum anonymous_2)STATUS_UNSUCCESSFUL;
 
     else
     {
@@ -2231,8 +2231,8 @@ enum anonymous$2 OpenUSBByName(unsigned int reader_index, char *device)
       else
         if(!((2 & LogLevel) == 0))
         {
-          return_value_list_get_at$4=list_get_at(values, (unsigned int)0);
-          log_msg(1, "%s:%d:%s() ifdManufacturerString: %s", (const void *)"ccid_usb.c", 302, (const void *)"OpenUSBByName", (char *)return_value_list_get_at$4);
+          return_value_list_get_at_4=list_get_at(values, (unsigned int)0);
+          log_msg(1, "%s:%d:%s() ifdManufacturerString: %s", (const void *)"ccid_usb.c", 302, (const void *)"OpenUSBByName", (char *)return_value_list_get_at_4);
         }
 
       rv=LTPBundleFindValueWithKey(&plist, "ifdProductString", &values);
@@ -2248,8 +2248,8 @@ enum anonymous$2 OpenUSBByName(unsigned int reader_index, char *device)
       else
         if(!((2 & LogLevel) == 0))
         {
-          return_value_list_get_at$5=list_get_at(values, (unsigned int)0);
-          log_msg(1, "%s:%d:%s() ifdProductString: %s", (const void *)"ccid_usb.c", 303, (const void *)"OpenUSBByName", (char *)return_value_list_get_at$5);
+          return_value_list_get_at_5=list_get_at(values, (unsigned int)0);
+          log_msg(1, "%s:%d:%s() ifdProductString: %s", (const void *)"ccid_usb.c", 303, (const void *)"OpenUSBByName", (char *)return_value_list_get_at_5);
         }
 
       rv=LTPBundleFindValueWithKey(&plist, "Copyright", &values);
@@ -2265,8 +2265,8 @@ enum anonymous$2 OpenUSBByName(unsigned int reader_index, char *device)
       else
         if(!((2 & LogLevel) == 0))
         {
-          return_value_list_get_at$6=list_get_at(values, (unsigned int)0);
-          log_msg(1, "%s:%d:%s() Copyright: %s", (const void *)"ccid_usb.c", 304, (const void *)"OpenUSBByName", (char *)return_value_list_get_at$6);
+          return_value_list_get_at_6=list_get_at(values, (unsigned int)0);
+          log_msg(1, "%s:%d:%s() Copyright: %s", (const void *)"ccid_usb.c", 304, (const void *)"OpenUSBByName", (char *)return_value_list_get_at_6);
         }
 
       if(ctx == ((struct libusb_context *)NULL))
@@ -2276,8 +2276,8 @@ enum anonymous$2 OpenUSBByName(unsigned int reader_index, char *device)
         {
           if(!((1 & LogLevel) == 0))
           {
-            return_value_libusb_error_name$7=libusb_error_name(rv);
-            log_msg(3, "%s:%d:%s() libusb_init failed: %s", (const void *)"ccid_usb.c", 311, (const void *)"OpenUSBByName", return_value_libusb_error_name$7);
+            return_value_libusb_error_name_7=libusb_error_name(rv);
+            log_msg(3, "%s:%d:%s() libusb_init failed: %s", (const void *)"ccid_usb.c", 311, (const void *)"OpenUSBByName", return_value_libusb_error_name_7);
           }
 
           return_value = STATUS_UNSUCCESSFUL;
@@ -2319,18 +2319,18 @@ enum anonymous$2 OpenUSBByName(unsigned int reader_index, char *device)
 
           else
           {
-            return_value_list_size$8=list_size(ifdVendorID);
-            return_value_list_size$9=list_size(ifdProductID);
-            if(!(return_value_list_size$8 == return_value_list_size$9))
-              tmp_if_expr$12 = (_Bool)1;
+            return_value_list_size_8=list_size(ifdVendorID);
+            return_value_list_size_9=list_size(ifdProductID);
+            if(!(return_value_list_size_8 == return_value_list_size_9))
+              tmp_if_expr_12 = (_Bool)1;
 
             else
             {
-              return_value_list_size$10=list_size(ifdVendorID);
-              return_value_list_size$11=list_size(ifdFriendlyName);
-              tmp_if_expr$12 = return_value_list_size$10 != return_value_list_size$11 ? (_Bool)1 : (_Bool)0;
+              return_value_list_size_10=list_size(ifdVendorID);
+              return_value_list_size_11=list_size(ifdFriendlyName);
+              tmp_if_expr_12 = return_value_list_size_10 != return_value_list_size_11 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$12)
+            if(tmp_if_expr_12)
             {
               if(!((1 & LogLevel) == 0))
                 log_msg(3, "%s:%d:%s() Error parsing %s", (const void *)"ccid_usb.c", 334, (const void *)"OpenUSBByName", (const void *)infofile);
@@ -2355,34 +2355,34 @@ enum anonymous$2 OpenUSBByName(unsigned int reader_index, char *device)
                 static signed int previous_reader_index = -1;
                 do
                 {
-                  return_value_list_size$13=list_size(ifdVendorID);
-                  if(alias >= return_value_list_size$13)
+                  return_value_list_size_13=list_size(ifdVendorID);
+                  if(alias >= return_value_list_size_13)
                     break;
 
                   unsigned int vendorID;
                   unsigned int productID;
                   char *friendlyName;
-                  void *return_value_list_get_at$14;
-                  return_value_list_get_at$14=list_get_at(ifdVendorID, alias);
-                  unsigned long int return_value_strtoul$15;
-                  return_value_strtoul$15=strtoul((const char *)return_value_list_get_at$14, (char ** restrict )(void *)0, 0);
-                  vendorID = (unsigned int)return_value_strtoul$15;
-                  void *return_value_list_get_at$16;
-                  return_value_list_get_at$16=list_get_at(ifdProductID, alias);
-                  unsigned long int return_value_strtoul$17;
-                  return_value_strtoul$17=strtoul((const char *)return_value_list_get_at$16, (char ** restrict )(void *)0, 0);
-                  productID = (unsigned int)return_value_strtoul$17;
-                  void *return_value_list_get_at$18;
-                  return_value_list_get_at$18=list_get_at(ifdFriendlyName, alias);
-                  friendlyName = (char *)return_value_list_get_at$18;
+                  void *return_value_list_get_at_14;
+                  return_value_list_get_at_14=list_get_at(ifdVendorID, alias);
+                  unsigned long int return_value_strtoul_15;
+                  return_value_strtoul_15=strtoul((const char *)return_value_list_get_at_14, (char ** restrict )(void *)0, 0);
+                  vendorID = (unsigned int)return_value_strtoul_15;
+                  void *return_value_list_get_at_16;
+                  return_value_list_get_at_16=list_get_at(ifdProductID, alias);
+                  unsigned long int return_value_strtoul_17;
+                  return_value_strtoul_17=strtoul((const char *)return_value_list_get_at_16, (char ** restrict )(void *)0, 0);
+                  productID = (unsigned int)return_value_strtoul_17;
+                  void *return_value_list_get_at_18;
+                  return_value_list_get_at_18=list_get_at(ifdFriendlyName, alias);
+                  friendlyName = (char *)return_value_list_get_at_18;
                   if(device == ((char *)NULL) || productID == device_product && vendorID == device_vendor)
                   {
                     i = 0;
                     do
                     {
-                      tmp_post$19 = i;
+                      tmp_post_19 = i;
                       i = i + 1;
-                      dev = devs[(signed long int)tmp_post$19];
+                      dev = devs[(signed long int)tmp_post_19];
                       if(dev == ((struct libusb_device *)NULL))
                         break;
 
@@ -2439,41 +2439,41 @@ enum anonymous$2 OpenUSBByName(unsigned int reader_index, char *device)
                             if(!(already_used == 0))
                             {
                               if(!(previous_reader_index == -1))
-                                tmp_if_expr$22 = usbDevice[(signed long int)previous_reader_index].dev_handle != ((struct libusb_device_handle *)NULL) ? (_Bool)1 : (_Bool)0;
+                                tmp_if_expr_22 = usbDevice[(signed long int)previous_reader_index].dev_handle != ((struct libusb_device_handle *)NULL) ? (_Bool)1 : (_Bool)0;
 
                               else
-                                tmp_if_expr$22 = (_Bool)0;
-                              if(tmp_if_expr$22)
-                                tmp_if_expr$23 = usbDevice[(signed long int)previous_reader_index].bus_number == bus_number ? (_Bool)1 : (_Bool)0;
+                                tmp_if_expr_22 = (_Bool)0;
+                              if(tmp_if_expr_22)
+                                tmp_if_expr_23 = usbDevice[(signed long int)previous_reader_index].bus_number == bus_number ? (_Bool)1 : (_Bool)0;
 
                               else
-                                tmp_if_expr$23 = (_Bool)0;
-                              if(tmp_if_expr$23)
-                                tmp_if_expr$24 = usbDevice[(signed long int)previous_reader_index].device_address == device_address ? (_Bool)1 : (_Bool)0;
+                                tmp_if_expr_23 = (_Bool)0;
+                              if(tmp_if_expr_23)
+                                tmp_if_expr_24 = usbDevice[(signed long int)previous_reader_index].device_address == device_address ? (_Bool)1 : (_Bool)0;
 
                               else
-                                tmp_if_expr$24 = (_Bool)0;
-                              if(tmp_if_expr$24)
-                                tmp_if_expr$25 = (signed int)usbDevice[(signed long int)previous_reader_index].ccid.bCurrentSlotIndex < (signed int)usbDevice[(signed long int)previous_reader_index].ccid.bMaxSlotIndex ? (_Bool)1 : (_Bool)0;
+                                tmp_if_expr_24 = (_Bool)0;
+                              if(tmp_if_expr_24)
+                                tmp_if_expr_25 = (signed int)usbDevice[(signed long int)previous_reader_index].ccid.bCurrentSlotIndex < (signed int)usbDevice[(signed long int)previous_reader_index].ccid.bMaxSlotIndex ? (_Bool)1 : (_Bool)0;
 
                               else
-                                tmp_if_expr$25 = (_Bool)0;
-                              if(tmp_if_expr$25)
+                                tmp_if_expr_25 = (_Bool)0;
+                              if(tmp_if_expr_25)
                               {
                                 usbDevice[(signed long int)reader_index] = usbDevice[(signed long int)previous_reader_index];
                                 if(readerID == 0x08E63479)
-                                  tmp_if_expr$21 = (_Bool)1;
+                                  tmp_if_expr_21 = (_Bool)1;
 
                                 else
                                 {
                                   if(readerID == 0x08E63480)
-                                    tmp_if_expr$20 = usbDevice[(signed long int)reader_index].ccid.IFD_bcdDevice < 0x0200 ? (_Bool)1 : (_Bool)0;
+                                    tmp_if_expr_20 = usbDevice[(signed long int)reader_index].ccid.IFD_bcdDevice < 0x0200 ? (_Bool)1 : (_Bool)0;
 
                                   else
-                                    tmp_if_expr$20 = (_Bool)0;
-                                  tmp_if_expr$21 = tmp_if_expr$20 ? (_Bool)1 : (_Bool)0;
+                                    tmp_if_expr_20 = (_Bool)0;
+                                  tmp_if_expr_21 = tmp_if_expr_20 ? (_Bool)1 : (_Bool)0;
                                 }
-                                if(tmp_if_expr$21)
+                                if(tmp_if_expr_21)
                                 {
                                   usbDevice[(signed long int)reader_index].ccid.arrayOfSupportedDataRates = SerialCustomDataRates;
                                   usbDevice[(signed long int)reader_index].ccid.dwMaxDataRate = (unsigned int)125000;
@@ -2508,8 +2508,8 @@ enum anonymous$2 OpenUSBByName(unsigned int reader_index, char *device)
                             {
                               if(!((1 & LogLevel) == 0))
                               {
-                                return_value_libusb_error_name$26=libusb_error_name(r);
-                                log_msg(3, "%s:%d:%s() Can't libusb_open(%d/%d): %s", (const void *)"ccid_usb.c", 513, (const void *)"OpenUSBByName", bus_number, device_address, return_value_libusb_error_name$26);
+                                return_value_libusb_error_name_26=libusb_error_name(r);
+                                log_msg(3, "%s:%d:%s() Can't libusb_open(%d/%d): %s", (const void *)"ccid_usb.c", 513, (const void *)"OpenUSBByName", bus_number, device_address, return_value_libusb_error_name_26);
                               }
 
                               continue;
@@ -2526,8 +2526,8 @@ enum anonymous$2 OpenUSBByName(unsigned int reader_index, char *device)
                                 libusb_close(dev_handle);
                                 if(!((1 & LogLevel) == 0))
                                 {
-                                  return_value_libusb_error_name$27=libusb_error_name(r);
-                                  log_msg(3, "%s:%d:%s() Can't get config descriptor on %d/%d: %s", (const void *)"ccid_usb.c", 552, (const void *)"OpenUSBByName", bus_number, device_address, return_value_libusb_error_name$27);
+                                  return_value_libusb_error_name_27=libusb_error_name(r);
+                                  log_msg(3, "%s:%d:%s() Can't get config descriptor on %d/%d: %s", (const void *)"ccid_usb.c", 552, (const void *)"OpenUSBByName", bus_number, device_address, return_value_libusb_error_name_27);
                                 }
 
                                 goto __CPROVER_DUMP_L92;
@@ -2578,8 +2578,8 @@ enum anonymous$2 OpenUSBByName(unsigned int reader_index, char *device)
                               libusb_close(dev_handle);
                               if(!((1 & LogLevel) == 0))
                               {
-                                return_value_libusb_error_name$28=libusb_error_name(r);
-                                log_msg(3, "%s:%d:%s() Can't claim interface %d/%d: %s", (const void *)"ccid_usb.c", 602, (const void *)"OpenUSBByName", bus_number, device_address, return_value_libusb_error_name$28);
+                                return_value_libusb_error_name_28=libusb_error_name(r);
+                                log_msg(3, "%s:%d:%s() Can't claim interface %d/%d: %s", (const void *)"ccid_usb.c", 602, (const void *)"OpenUSBByName", bus_number, device_address, return_value_libusb_error_name_28);
                               }
 
                               claim_failed = 1;
@@ -2593,9 +2593,9 @@ enum anonymous$2 OpenUSBByName(unsigned int reader_index, char *device)
                             if(!((2 & LogLevel) == 0))
                               log_msg(1, "%s:%d:%s() Using USB bus/device: %d/%d", (const void *)"ccid_usb.c", 611, (const void *)"OpenUSBByName", bus_number, device_address);
 
-                            signed int return_value_ccid_check_firmware$29;
-                            return_value_ccid_check_firmware$29=ccid_check_firmware(&desc);
-                            if(!(return_value_ccid_check_firmware$29 == 0))
+                            signed int return_value_ccid_check_firmware_29;
+                            return_value_ccid_check_firmware_29=ccid_check_firmware(&desc);
+                            if(!(return_value_ccid_check_firmware_29 == 0))
                             {
                               libusb_close(dev_handle);
                               return_value = STATUS_UNSUCCESSFUL;
@@ -2653,9 +2653,9 @@ enum anonymous$2 OpenUSBByName(unsigned int reader_index, char *device)
                             if(!(desc.iManufacturer == 0))
                             {
                               unsigned char iManufacturer[128l];
-                              signed int OpenUSBByName$$1$$12$$1$$1$$3$$12$$ret;
-                              OpenUSBByName$$1$$12$$1$$1$$3$$12$$ret=libusb_get_string_descriptor_ascii(dev_handle, desc.iManufacturer, iManufacturer, (signed int)sizeof(unsigned char [128l]) /*128ul*/ );
-                              if(OpenUSBByName$$1$$12$$1$$1$$3$$12$$ret >= 1)
+                              signed int OpenUSBByName__1__12__1__1__3__12__ret;
+                              OpenUSBByName__1__12__1__1__3__12__ret=libusb_get_string_descriptor_ascii(dev_handle, desc.iManufacturer, iManufacturer, (signed int)sizeof(unsigned char [128l]) /*128ul*/ );
+                              if(OpenUSBByName__1__12__1__1__3__12__ret >= 1)
                                 usbDevice[(signed long int)reader_index].ccid.sIFD_iManufacturer=strdup((char *)iManufacturer);
 
                             }
@@ -2689,12 +2689,12 @@ enum anonymous$2 OpenUSBByName(unsigned int reader_index, char *device)
                 {
                   libusb_free_device_list(devs, 1);
                   if(!(claim_failed == 0))
-                    return (enum anonymous$2)STATUS_COMM_ERROR;
+                    return (enum anonymous_2)STATUS_COMM_ERROR;
 
                   if(!((2 & LogLevel) == 0))
                     log_msg(1, "%s:%d:%s() Device not found?", (const void *)"ccid_usb.c", 729, (const void *)"OpenUSBByName");
 
-                  return (enum anonymous$2)STATUS_NO_SUCH_DEVICE;
+                  return (enum anonymous_2)STATUS_NO_SUCH_DEVICE;
                 }
 
                 previous_reader_index = (signed int)reader_index;
@@ -2711,22 +2711,22 @@ enum anonymous$2 OpenUSBByName(unsigned int reader_index, char *device)
     end1:
       ;
       bundleRelease(&plist);
-      return (enum anonymous$2)return_value;
+      return (enum anonymous_2)return_value;
     }
   }
 }
 
 // ReadUSB
 // file ccid_usb.c line 791
-enum anonymous$2 ReadUSB(unsigned int reader_index, unsigned int *length, unsigned char *buffer)
+enum anonymous_2 ReadUSB(unsigned int reader_index, unsigned int *length, unsigned char *buffer)
 {
   signed int rv;
   signed int actual_length;
   char debug_header[11l] = { '<', '-', ' ', '1', '2', '1', '2', '3', '4', ' ', 0 };
-  struct anonymous$3 *ccid_descriptor;
+  struct anonymous_3 *ccid_descriptor;
   ccid_descriptor=get_ccid_descriptor(reader_index);
   signed int duplicate_frame = 0;
-  const char *return_value_libusb_error_name$1;
+  const char *return_value_libusb_error_name_1;
   do
   {
 
@@ -2739,14 +2739,14 @@ enum anonymous$2 ReadUSB(unsigned int reader_index, unsigned int *length, unsign
       *length = (unsigned int)0;
       if(!((1 & LogLevel) == 0))
       {
-        return_value_libusb_error_name$1=libusb_error_name(rv);
-        log_msg(3, "%s:%d:%s() read failed (%d/%d): %d %s", (const void *)"ccid_usb.c", 813, (const void *)"ReadUSB", usbDevice[(signed long int)reader_index].bus_number, usbDevice[(signed long int)reader_index].device_address, rv, return_value_libusb_error_name$1);
+        return_value_libusb_error_name_1=libusb_error_name(rv);
+        log_msg(3, "%s:%d:%s() read failed (%d/%d): %d %s", (const void *)"ccid_usb.c", 813, (const void *)"ReadUSB", usbDevice[(signed long int)reader_index].bus_number, usbDevice[(signed long int)reader_index].device_address, rv, return_value_libusb_error_name_1);
       }
 
       if(rv == -4)
-        return (enum anonymous$2)STATUS_NO_SUCH_DEVICE;
+        return (enum anonymous_2)STATUS_NO_SUCH_DEVICE;
 
-      return (enum anonymous$2)STATUS_UNSUCCESSFUL;
+      return (enum anonymous_2)STATUS_UNSUCCESSFUL;
     }
 
     *length = (unsigned int)actual_length;
@@ -2765,7 +2765,7 @@ enum anonymous$2 ReadUSB(unsigned int reader_index, unsigned int *length, unsign
       if(!((1 & LogLevel) == 0))
         log_msg(3, "%s:%d:%s() Too many duplicate frame detected", (const void *)"ccid_usb.c", 832, (const void *)"ReadUSB");
 
-      return (enum anonymous$2)STATUS_UNSUCCESSFUL;
+      return (enum anonymous_2)STATUS_UNSUCCESSFUL;
     }
 
     if(!((2 & LogLevel) == 0))
@@ -2773,12 +2773,12 @@ enum anonymous$2 ReadUSB(unsigned int reader_index, unsigned int *length, unsign
 
   }
   while((_Bool)1);
-  return (enum anonymous$2)STATUS_SUCCESS;
+  return (enum anonymous_2)STATUS_SUCCESS;
 }
 
 // WriteUSB
 // file ccid_usb.c line 754
-enum anonymous$2 WriteUSB(unsigned int reader_index, unsigned int length, unsigned char *buffer)
+enum anonymous_2 WriteUSB(unsigned int reader_index, unsigned int length, unsigned char *buffer)
 {
   signed int rv;
   signed int actual_length;
@@ -2788,22 +2788,22 @@ enum anonymous$2 WriteUSB(unsigned int reader_index, unsigned int length, unsign
     log_xxd(0, debug_header, buffer, (const signed int)length);
 
   rv=libusb_bulk_transfer(usbDevice[(signed long int)reader_index].dev_handle, (unsigned char)usbDevice[(signed long int)reader_index].bulk_out, buffer, (signed int)length, &actual_length, (unsigned int)(5 * 1000));
-  const char *return_value_libusb_error_name$1;
+  const char *return_value_libusb_error_name_1;
   if(!(rv >= 0))
   {
     if(!((1 & LogLevel) == 0))
     {
-      return_value_libusb_error_name$1=libusb_error_name(rv);
-      log_msg(3, "%s:%d:%s() write failed (%d/%d): %d %s", (const void *)"ccid_usb.c", 774, (const void *)"WriteUSB", usbDevice[(signed long int)reader_index].bus_number, usbDevice[(signed long int)reader_index].device_address, rv, return_value_libusb_error_name$1);
+      return_value_libusb_error_name_1=libusb_error_name(rv);
+      log_msg(3, "%s:%d:%s() write failed (%d/%d): %d %s", (const void *)"ccid_usb.c", 774, (const void *)"WriteUSB", usbDevice[(signed long int)reader_index].bus_number, usbDevice[(signed long int)reader_index].device_address, rv, return_value_libusb_error_name_1);
     }
 
     if(rv == -4)
-      return (enum anonymous$2)STATUS_NO_SUCH_DEVICE;
+      return (enum anonymous_2)STATUS_NO_SUCH_DEVICE;
 
-    return (enum anonymous$2)STATUS_UNSUCCESSFUL;
+    return (enum anonymous_2)STATUS_UNSUCCESSFUL;
   }
 
-  return (enum anonymous$2)STATUS_SUCCESS;
+  return (enum anonymous_2)STATUS_SUCCESS;
 }
 
 // bulk_transfer_cb
@@ -2816,18 +2816,18 @@ static void bulk_transfer_cb(struct libusb_transfer *transfer)
 
 // bundleParse
 // file parser.h line 50
-signed int bundleParse(const char *fileName, struct anonymous$1 *l)
+signed int bundleParse(const char *fileName, struct anonymous_1 *l)
 {
   struct _IO_FILE *file = (struct _IO_FILE *)(void *)0;
   signed int r;
   file=fopen(fileName, "r");
   if(file == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(3, "%s:%d:%s() Could not open bundle file %s: %s", (const void *)"tokenparser.l", 213, (const void *)"bundleParse", fileName, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(3, "%s:%d:%s() Could not open bundle file %s: %s", (const void *)"tokenparser.l", 213, (const void *)"bundleParse", fileName, return_value_strerror_2);
     return 1;
   }
 
@@ -2835,13 +2835,13 @@ signed int bundleParse(const char *fileName, struct anonymous$1 *l)
   (void)r;
   ListKeys = l;
   yyin = file;
-  signed int return_value_feof$3;
+  signed int return_value_feof_3;
   do
   {
     yylex();
-    return_value_feof$3=feof(file);
+    return_value_feof_3=feof(file);
   }
-  while(return_value_feof$3 == 0);
+  while(return_value_feof_3 == 0);
   yylex_destroy();
   fclose(file);
   return 0;
@@ -2849,32 +2849,32 @@ signed int bundleParse(const char *fileName, struct anonymous$1 *l)
 
 // bundleRelease
 // file parser.h line 51
-void bundleRelease(struct anonymous$1 *l)
+void bundleRelease(struct anonymous_1 *l)
 {
   unsigned int i = (unsigned int)0;
-  unsigned int return_value_list_size$1;
-  unsigned int return_value_list_size$3;
-  void *return_value_list_get_at$4;
+  unsigned int return_value_list_size_1;
+  unsigned int return_value_list_size_3;
+  void *return_value_list_get_at_4;
   do
   {
-    return_value_list_size$1=list_size(l);
-    if(i >= return_value_list_size$1)
+    return_value_list_size_1=list_size(l);
+    if(i >= return_value_list_size_1)
       break;
 
     struct bundleElt *elt;
     unsigned int j;
-    void *return_value_list_get_at$2;
-    return_value_list_get_at$2=list_get_at(l, i);
-    elt = (struct bundleElt *)return_value_list_get_at$2;
+    void *return_value_list_get_at_2;
+    return_value_list_get_at_2=list_get_at(l, i);
+    elt = (struct bundleElt *)return_value_list_get_at_2;
     j = (unsigned int)0;
     do
     {
-      return_value_list_size$3=list_size(&elt->values);
-      if(j >= return_value_list_size$3)
+      return_value_list_size_3=list_size(&elt->values);
+      if(j >= return_value_list_size_3)
         break;
 
-      return_value_list_get_at$4=list_get_at(&elt->values, j);
-      free(return_value_list_get_at$4);
+      return_value_list_get_at_4=list_get_at(&elt->values, j);
+      free(return_value_list_get_at_4);
       j = j + 1u;
     }
     while((_Bool)1);
@@ -2936,9 +2936,9 @@ static signed int ccid_parse_interface_descriptor(struct libusb_device_handle *h
   if(!(r >= 0))
   {
     printf("  Can't get iManufacturer string\n");
-    unsigned int return_value_getuid$1;
-    return_value_getuid$1=getuid();
-    if(!(return_value_getuid$1 == 0u))
+    unsigned int return_value_getuid_1;
+    return_value_getuid_1=getuid();
+    if(!(return_value_getuid_1 == 0u))
     {
       fprintf(stderr, "\033[01;31mPlease, restart the command as root\n\n\033[0m");
       return 1;
@@ -2956,9 +2956,9 @@ static signed int ccid_parse_interface_descriptor(struct libusb_device_handle *h
   else
     printf("  iProduct: %s\n", (const void *)buffer);
   printf(" bcdDevice: %X.%02X (firmware release?)\n", (signed int)desc.bcdDevice >> 8, (signed int)desc.bcdDevice & 0xFF);
-  struct libusb_interface *return_value_get_ccid_usb_interface$2;
-  return_value_get_ccid_usb_interface$2=get_ccid_usb_interface(config_desc, &num);
-  usb_interface_descriptor = return_value_get_ccid_usb_interface$2->altsetting;
+  struct libusb_interface *return_value_get_ccid_usb_interface_2;
+  return_value_get_ccid_usb_interface_2=get_ccid_usb_interface(config_desc, &num);
+  usb_interface_descriptor = return_value_get_ccid_usb_interface_2->altsetting;
   printf(" bLength: %d\n", usb_interface_descriptor->bLength);
   printf(" bDescriptorType: %d\n", usb_interface_descriptor->bDescriptorType);
   printf(" bInterfaceNumber: %d\n", usb_interface_descriptor->bInterfaceNumber);
@@ -3034,8 +3034,8 @@ static signed int ccid_parse_interface_descriptor(struct libusb_device_handle *h
   else
     printf(" iInterface: %s\n", (const void *)buffer);
   device_descriptor=get_ccid_device_descriptor(usb_interface);
-  signed int *return_value___errno_location$6;
-  char *return_value_strerror$7;
+  signed int *return_value___errno_location_6;
+  char *return_value_strerror_7;
   if(device_descriptor == ((const unsigned char *)NULL))
   {
     printf("\n  NOT A CCID DEVICE\n");
@@ -3098,14 +3098,14 @@ static signed int ccid_parse_interface_descriptor(struct libusb_device_handle *h
         n=libusb_control_transfer(handle, (unsigned char)0xA1, (unsigned char)0x02, (unsigned short int)0x00, (unsigned short int)usb_interface_descriptor->bInterfaceNumber, buffer, (unsigned short int)sizeof(unsigned char [1024l]) /*1024ul*/ , (unsigned int)(2 * 1000));
         if(!(n >= 1))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          char *return_value_strerror$4;
-          return_value_strerror$4=strerror(*return_value___errno_location$3);
-          printf("   IFD does not support GET CLOCK FREQUENCIES request: %s\n", return_value_strerror$4);
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          if(*return_value___errno_location$5 == 16)
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          char *return_value_strerror_4;
+          return_value_strerror_4=strerror(*return_value___errno_location_3);
+          printf("   IFD does not support GET CLOCK FREQUENCIES request: %s\n", return_value_strerror_4);
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          if(*return_value___errno_location_5 == 16)
           {
             fprintf(stderr, "\033[01;31m   Please, stop pcscd and retry\n\n\033[0m");
             return 1;
@@ -3139,37 +3139,37 @@ static signed int ccid_parse_interface_descriptor(struct libusb_device_handle *h
         printf("  dwDataRate: %d bps\n", (unsigned int)(((((signed int)device_descriptor[(signed long int)(19 + 3)] << 8) + (signed int)device_descriptor[(signed long int)(19 + 2)] << 8) + (signed int)device_descriptor[(signed long int)(19 + 1)] << 8) + (signed int)device_descriptor[(signed long int)19]));
         printf("  dwMaxDataRate: %d bps\n", (unsigned int)(((((signed int)device_descriptor[(signed long int)(23 + 3)] << 8) + (signed int)device_descriptor[(signed long int)(23 + 2)] << 8) + (signed int)device_descriptor[(signed long int)(23 + 1)] << 8) + (signed int)device_descriptor[(signed long int)23]));
         printf("  bNumDataRatesSupported: %d%s\n", device_descriptor[(signed long int)27], device_descriptor[(signed long int)27] != 0 ? "" : " (will use whatever is returned)");
-        signed int ccid_parse_interface_descriptor$$1$$9$$n;
-        ccid_parse_interface_descriptor$$1$$9$$n=libusb_control_transfer(handle, (unsigned char)0xA1, (unsigned char)0x03, (unsigned short int)0x00, (unsigned short int)usb_interface_descriptor->bInterfaceNumber, buffer, (unsigned short int)sizeof(unsigned char [1024l]) /*1024ul*/ , (unsigned int)(2 * 1000));
-        if(!(ccid_parse_interface_descriptor$$1$$9$$n >= 1))
+        signed int ccid_parse_interface_descriptor__1__9__n;
+        ccid_parse_interface_descriptor__1__9__n=libusb_control_transfer(handle, (unsigned char)0xA1, (unsigned char)0x03, (unsigned short int)0x00, (unsigned short int)usb_interface_descriptor->bInterfaceNumber, buffer, (unsigned short int)sizeof(unsigned char [1024l]) /*1024ul*/ , (unsigned int)(2 * 1000));
+        if(!(ccid_parse_interface_descriptor__1__9__n >= 1))
         {
-          return_value___errno_location$6=__errno_location();
-          return_value_strerror$7=strerror(*return_value___errno_location$6);
-          printf("   IFD does not support GET_DATA_RATES request: %s\n", return_value_strerror$7);
+          return_value___errno_location_6=__errno_location();
+          return_value_strerror_7=strerror(*return_value___errno_location_6);
+          printf("   IFD does not support GET_DATA_RATES request: %s\n", return_value_strerror_7);
         }
 
         else
-          if(!(ccid_parse_interface_descriptor$$1$$9$$n % 4 == 0))
-            printf("   wrong size for GET_DATA_RATES: %d\n", ccid_parse_interface_descriptor$$1$$9$$n);
+          if(!(ccid_parse_interface_descriptor__1__9__n % 4 == 0))
+            printf("   wrong size for GET_DATA_RATES: %d\n", ccid_parse_interface_descriptor__1__9__n);
 
           else
           {
-            signed int ccid_parse_interface_descriptor$$1$$9$$1$$i;
-            if(!(ccid_parse_interface_descriptor$$1$$9$$n == 4 * (signed int)device_descriptor[27l]))
+            signed int ccid_parse_interface_descriptor__1__9__1__i;
+            if(!(ccid_parse_interface_descriptor__1__9__n == 4 * (signed int)device_descriptor[27l]))
             {
               if(!(device_descriptor[27l] == 0))
               {
-                printf("   Got %d data rates but was expecting %d\n", ccid_parse_interface_descriptor$$1$$9$$n / 4, device_descriptor[(signed long int)27]);
-                if(!(4 * (signed int)device_descriptor[27l] >= ccid_parse_interface_descriptor$$1$$9$$n))
-                  ccid_parse_interface_descriptor$$1$$9$$n = (signed int)device_descriptor[(signed long int)27] * 4;
+                printf("   Got %d data rates but was expecting %d\n", ccid_parse_interface_descriptor__1__9__n / 4, device_descriptor[(signed long int)27]);
+                if(!(4 * (signed int)device_descriptor[27l] >= ccid_parse_interface_descriptor__1__9__n))
+                  ccid_parse_interface_descriptor__1__9__n = (signed int)device_descriptor[(signed long int)27] * 4;
 
               }
 
             }
 
-            ccid_parse_interface_descriptor$$1$$9$$1$$i = 0;
-            for( ; !(ccid_parse_interface_descriptor$$1$$9$$1$$i >= ccid_parse_interface_descriptor$$1$$9$$n); ccid_parse_interface_descriptor$$1$$9$$1$$i = ccid_parse_interface_descriptor$$1$$9$$1$$i + 4)
-              printf("   Support %d bps\n", (unsigned int)(((((signed int)buffer[(signed long int)(ccid_parse_interface_descriptor$$1$$9$$1$$i + 3)] << 8) + (signed int)buffer[(signed long int)(ccid_parse_interface_descriptor$$1$$9$$1$$i + 2)] << 8) + (signed int)buffer[(signed long int)(ccid_parse_interface_descriptor$$1$$9$$1$$i + 1)] << 8) + (signed int)buffer[(signed long int)ccid_parse_interface_descriptor$$1$$9$$1$$i]));
+            ccid_parse_interface_descriptor__1__9__1__i = 0;
+            for( ; !(ccid_parse_interface_descriptor__1__9__1__i >= ccid_parse_interface_descriptor__1__9__n); ccid_parse_interface_descriptor__1__9__1__i = ccid_parse_interface_descriptor__1__9__1__i + 4)
+              printf("   Support %d bps\n", (unsigned int)(((((signed int)buffer[(signed long int)(ccid_parse_interface_descriptor__1__9__1__i + 3)] << 8) + (signed int)buffer[(signed long int)(ccid_parse_interface_descriptor__1__9__1__i + 2)] << 8) + (signed int)buffer[(signed long int)(ccid_parse_interface_descriptor__1__9__1__i + 1)] << 8) + (signed int)buffer[(signed long int)ccid_parse_interface_descriptor__1__9__1__i]));
           }
         printf("  dwMaxIFSD: %d\n", (unsigned int)(((((signed int)device_descriptor[(signed long int)(28 + 3)] << 8) + (signed int)device_descriptor[(signed long int)(28 + 2)] << 8) + (signed int)device_descriptor[(signed long int)(28 + 1)] << 8) + (signed int)device_descriptor[(signed long int)28]));
         printf("  dwSynchProtocols: 0x%08X\n", (unsigned int)(((((signed int)device_descriptor[(signed long int)(32 + 3)] << 8) + (signed int)device_descriptor[(signed long int)(32 + 2)] << 8) + (signed int)device_descriptor[(signed long int)(32 + 1)] << 8) + (signed int)device_descriptor[(signed long int)32]));
@@ -3312,21 +3312,21 @@ static void close_libusb_if_needed(void)
 
 // eval_key
 // file tokenparser.l line 78
-static void eval_key(char *pcToken, struct anonymous$1 *list_key)
+static void eval_key(char *pcToken, struct anonymous_1 *list_key)
 {
   struct bundleElt *elt;
   signed int r;
   unsigned long int len;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct bundleElt) /*128ul*/ );
-  elt = (struct bundleElt *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct bundleElt) /*128ul*/ );
+  elt = (struct bundleElt *)return_value_malloc_1;
   len = (unsigned long int)0;
   for( ; !((signed int)pcToken[5l + (signed long int)len] == 60); len = len + 1ul)
     ;
   len = len + 1ul;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(len);
-  elt->key = (char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(len);
+  elt->key = (char *)return_value_malloc_2;
   memcpy((void *)elt->key, (const void *)&pcToken[(signed long int)5], len - (unsigned long int)1);
   elt->key[(signed long int)(len - (unsigned long int)1)] = (char)0;
   r=list_init(&elt->values);
@@ -3337,7 +3337,7 @@ static void eval_key(char *pcToken, struct anonymous$1 *list_key)
 
 // eval_value
 // file tokenparser.l line 111
-static void eval_value(char *pcToken, struct anonymous$1 *list_values)
+static void eval_value(char *pcToken, struct anonymous_1 *list_values)
 {
   signed int r;
   unsigned long int len;
@@ -3347,9 +3347,9 @@ static void eval_value(char *pcToken, struct anonymous$1 *list_values)
   for( ; !((signed int)pcToken[8l + (signed long int)len] == 60); len = len + 1ul)
     ;
   len = len + 1ul;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(len);
-  value = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(len);
+  value = (char *)return_value_malloc_1;
   memcpy((void *)value, (const void *)&pcToken[(signed long int)8], len - (unsigned long int)1);
   value[(signed long int)(len - (unsigned long int)1)] = (char)0;
   amp = value;
@@ -3372,7 +3372,7 @@ static void eval_value(char *pcToken, struct anonymous$1 *list_values)
 
 // get_ccid_descriptor
 // file ccid_usb.c line 925
-struct anonymous$3 * get_ccid_descriptor(unsigned int reader_index)
+struct anonymous_3 * get_ccid_descriptor(unsigned int reader_index)
 {
   return &usbDevice[(signed long int)reader_index].ccid;
 }
@@ -3421,23 +3421,23 @@ struct libusb_interface * get_ccid_usb_interface(struct libusb_config_descriptor
 {
   struct libusb_interface *usb_interface = (struct libusb_interface *)(void *)0;
   signed int i = *num;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   for( ; !(i >= (signed int)desc->bNumInterfaces); i = i + 1)
   {
     if((signed int)(desc->interface + (signed long int)i)->altsetting->bInterfaceClass == 0xb)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
       if((signed int)(desc->interface + (signed long int)i)->altsetting->bInterfaceClass == 0xff)
-        tmp_if_expr$1 = 54 == (desc->interface + (signed long int)i)->altsetting->extra_length ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = 54 == (desc->interface + (signed long int)i)->altsetting->extra_length ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (_Bool)0;
+      tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
+    if(tmp_if_expr_2)
     {
       usb_interface = &desc->interface[(signed long int)i];
       *num = i;
@@ -3478,11 +3478,11 @@ static unsigned int * get_data_rates(unsigned int reader_index, struct libusb_co
     else
     {
       n = n / (signed int)sizeof(signed int) /*4ul*/ ;
-      struct libusb_interface *return_value_get_ccid_usb_interface$1;
-      return_value_get_ccid_usb_interface$1=get_ccid_usb_interface(desc, &num);
-      const unsigned char *return_value_get_ccid_device_descriptor$2;
-      return_value_get_ccid_device_descriptor$2=get_ccid_device_descriptor(return_value_get_ccid_usb_interface$1);
-      len = (signed int)return_value_get_ccid_device_descriptor$2[(signed long int)27];
+      struct libusb_interface *return_value_get_ccid_usb_interface_1;
+      return_value_get_ccid_usb_interface_1=get_ccid_usb_interface(desc, &num);
+      const unsigned char *return_value_get_ccid_device_descriptor_2;
+      return_value_get_ccid_device_descriptor_2=get_ccid_device_descriptor(return_value_get_ccid_usb_interface_1);
+      len = (signed int)return_value_get_ccid_device_descriptor_2[(signed long int)27];
       if(!(len == 0) && !(n == len))
       {
         if(!((2 & LogLevel) == 0))
@@ -3493,9 +3493,9 @@ static unsigned int * get_data_rates(unsigned int reader_index, struct libusb_co
 
       }
 
-      void *return_value_calloc$3;
-      return_value_calloc$3=calloc((unsigned long int)(n + 1), sizeof(unsigned int) /*4ul*/ );
-      uint_array = (unsigned int *)return_value_calloc$3;
+      void *return_value_calloc_3;
+      return_value_calloc_3=calloc((unsigned long int)(n + 1), sizeof(unsigned int) /*4ul*/ );
+      uint_array = (unsigned int *)return_value_calloc_3;
       if(uint_array == ((unsigned int *)NULL))
       {
         if(!((1 & LogLevel) == 0))
@@ -3522,7 +3522,7 @@ static unsigned int * get_data_rates(unsigned int reader_index, struct libusb_co
 
 // get_end_points
 // file ccid_usb.c line 978
-static signed int get_end_points(struct libusb_config_descriptor *desc, struct anonymous$6 *usbdevice, signed int num)
+static signed int get_end_points(struct libusb_config_descriptor *desc, struct anonymous_6 *usbdevice, signed int num)
 {
   signed int i;
   signed int bEndpointAddress;
@@ -3564,18 +3564,18 @@ static inline void libusb_fill_bulk_transfer(struct libusb_transfer *transfer, s
 
 // list_append
 // file simclist.h line 358
-signed int list_append(struct anonymous$1 * restrict l, const void *data)
+signed int list_append(struct anonymous_1 * restrict l, const void *data)
 {
-  signed int return_value_list_insert_at$1;
-  return_value_list_insert_at$1=list_insert_at(l, data, l->numels);
-  return return_value_list_insert_at$1;
+  signed int return_value_list_insert_at_1;
+  return_value_list_insert_at_1=list_insert_at(l, data, l->numels);
+  return return_value_list_insert_at_1;
 }
 
 // list_attributes_comparator
 // file simclist.c line 332
-signed int list_attributes_comparator(struct anonymous$1 * restrict l, signed int (*comparator_fun)(const void *, const void *))
+signed int list_attributes_comparator(struct anonymous_1 * restrict l, signed int (*comparator_fun)(const void *, const void *))
 {
-  if(l == ((struct anonymous$1 *)NULL))
+  if(l == ((struct anonymous_1 *)NULL))
     return -1;
 
   else
@@ -3587,9 +3587,9 @@ signed int list_attributes_comparator(struct anonymous$1 * restrict l, signed in
 
 // list_attributes_copy
 // file simclist.c line 351
-signed int list_attributes_copy(struct anonymous$1 * restrict l, unsigned long int (*metric_fun)(const void *), signed int copy_data)
+signed int list_attributes_copy(struct anonymous_1 * restrict l, unsigned long int (*metric_fun)(const void *), signed int copy_data)
 {
-  if(l == ((struct anonymous$1 *)NULL) || metric_fun == ((unsigned long int (*)(const void *))NULL) && !(copy_data == 0))
+  if(l == ((struct anonymous_1 *)NULL) || metric_fun == ((unsigned long int (*)(const void *))NULL) && !(copy_data == 0))
     return -1;
 
   else
@@ -3602,9 +3602,9 @@ signed int list_attributes_copy(struct anonymous$1 * restrict l, unsigned long i
 
 // list_attributes_hash_computer
 // file simclist.c line 362
-signed int list_attributes_hash_computer(struct anonymous$1 * restrict l, signed int (*hash_computer_fun)(const void *))
+signed int list_attributes_hash_computer(struct anonymous_1 * restrict l, signed int (*hash_computer_fun)(const void *))
 {
-  if(l == ((struct anonymous$1 *)NULL))
+  if(l == ((struct anonymous_1 *)NULL))
     return -1;
 
   else
@@ -3616,9 +3616,9 @@ signed int list_attributes_hash_computer(struct anonymous$1 * restrict l, signed
 
 // list_attributes_seeker
 // file simclist.c line 342
-signed int list_attributes_seeker(struct anonymous$1 * restrict l, signed int (*seeker_fun)(const void *, const void *))
+signed int list_attributes_seeker(struct anonymous_1 * restrict l, signed int (*seeker_fun)(const void *, const void *))
 {
-  if(l == ((struct anonymous$1 *)NULL))
+  if(l == ((struct anonymous_1 *)NULL))
     return -1;
 
   else
@@ -3630,9 +3630,9 @@ signed int list_attributes_seeker(struct anonymous$1 * restrict l, signed int (*
 
 // list_attributes_serializer
 // file simclist.c line 370
-signed int list_attributes_serializer(struct anonymous$1 * restrict l, void * (*serializer_fun)(const void *, unsigned int *))
+signed int list_attributes_serializer(struct anonymous_1 * restrict l, void * (*serializer_fun)(const void *, unsigned int *))
 {
-  if(l == ((struct anonymous$1 *)NULL))
+  if(l == ((struct anonymous_1 *)NULL))
     return -1;
 
   else
@@ -3644,7 +3644,7 @@ signed int list_attributes_serializer(struct anonymous$1 * restrict l, void * (*
 
 // list_attributes_setdefaults
 // file simclist.c line 312
-static signed int list_attributes_setdefaults(struct anonymous$1 * restrict l)
+static signed int list_attributes_setdefaults(struct anonymous_1 * restrict l)
 {
   l->attrs.comparator = (signed int (*)(const void *, const void *))(void *)0;
   l->attrs.seeker = (signed int (*)(const void *, const void *))(void *)0;
@@ -3658,9 +3658,9 @@ static signed int list_attributes_setdefaults(struct anonymous$1 * restrict l)
 
 // list_attributes_unserializer
 // file simclist.c line 378
-signed int list_attributes_unserializer(struct anonymous$1 * restrict l, void * (*unserializer_fun)(const void *, unsigned int *))
+signed int list_attributes_unserializer(struct anonymous_1 * restrict l, void * (*unserializer_fun)(const void *, unsigned int *))
 {
-  if(l == ((struct anonymous$1 *)NULL))
+  if(l == ((struct anonymous_1 *)NULL))
     return -1;
 
   else
@@ -3672,14 +3672,14 @@ signed int list_attributes_unserializer(struct anonymous$1 * restrict l, void * 
 
 // list_clear
 // file simclist.c line 623
-signed int list_clear(struct anonymous$1 * restrict l)
+signed int list_clear(struct anonymous_1 * restrict l)
 {
   struct list_entry_s *s;
   unsigned int numels = l->numels;
-  _Bool tmp_if_expr$1;
-  unsigned int tmp_post$2;
-  _Bool tmp_if_expr$3;
-  unsigned int tmp_post$4;
+  _Bool tmp_if_expr_1;
+  unsigned int tmp_post_2;
+  _Bool tmp_if_expr_3;
+  unsigned int tmp_post_4;
   if(!(l->iter_active == 0))
     return -1;
 
@@ -3691,19 +3691,19 @@ signed int list_clear(struct anonymous$1 * restrict l)
       do
       {
         if(!(l->spareelsnum >= 5u))
-          tmp_if_expr$1 = s != l->tail_sentinel ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = s != l->tail_sentinel ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(!tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(!tmp_if_expr_1)
           break;
 
         if(!(s->data == NULL))
           free(s->data);
 
-        tmp_post$2 = l->spareelsnum;
+        tmp_post_2 = l->spareelsnum;
         l->spareelsnum = l->spareelsnum + 1u;
-        l->spareels[(signed long int)tmp_post$2] = s;
+        l->spareels[(signed long int)tmp_post_2] = s;
         s = s->next;
       }
       while((_Bool)1);
@@ -3725,16 +3725,16 @@ signed int list_clear(struct anonymous$1 * restrict l)
       do
       {
         if(!(l->spareelsnum >= 5u))
-          tmp_if_expr$3 = s != l->tail_sentinel ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = s != l->tail_sentinel ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(!tmp_if_expr$3)
+          tmp_if_expr_3 = (_Bool)0;
+        if(!tmp_if_expr_3)
           break;
 
-        tmp_post$4 = l->spareelsnum;
+        tmp_post_4 = l->spareelsnum;
         l->spareelsnum = l->spareelsnum + 1u;
-        l->spareels[(signed long int)tmp_post$4] = s;
+        l->spareels[(signed long int)tmp_post_4] = s;
         s = s->next;
       }
       while((_Bool)1);
@@ -3798,9 +3798,9 @@ signed int list_comparator_int8_t(const void *a, const void *b)
 // file simclist.c line 1432
 signed int list_comparator_string(const void *a, const void *b)
 {
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp((const char *)b, (const char *)a);
-  return return_value_strcmp$1;
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp((const char *)b, (const char *)a);
+  return return_value_strcmp_1;
 }
 
 // list_comparator_uint16_t
@@ -3833,13 +3833,13 @@ signed int list_comparator_uint8_t(const void *a, const void *b)
 
 // list_concat
 // file simclist.c line 713
-signed int list_concat(const struct anonymous$1 *l1, const struct anonymous$1 *l2, struct anonymous$1 * restrict dest)
+signed int list_concat(const struct anonymous_1 *l1, const struct anonymous_1 *l2, struct anonymous_1 * restrict dest)
 {
   struct list_entry_s *el;
   struct list_entry_s *srcel;
   unsigned int cnt;
   signed int err;
-  if(dest == ((struct anonymous$1 *)NULL) || l1 == ((const struct anonymous$1 *)NULL) || l1 == dest || l2 == ((const struct anonymous$1 *)NULL) || l2 == dest)
+  if(dest == ((struct anonymous_1 *)NULL) || l1 == ((const struct anonymous_1 *)NULL) || l1 == dest || l2 == ((const struct anonymous_1 *)NULL) || l2 == dest)
     return -1;
 
   else
@@ -3855,9 +3855,9 @@ signed int list_concat(const struct anonymous$1 *l1, const struct anonymous$1 *l
       el = dest->head_sentinel;
       while(!(srcel == l1->tail_sentinel))
       {
-        void *return_value_malloc$1;
-        return_value_malloc$1=malloc(sizeof(struct list_entry_s) /*24ul*/ );
-        el->next = (struct list_entry_s *)return_value_malloc$1;
+        void *return_value_malloc_1;
+        return_value_malloc_1=malloc(sizeof(struct list_entry_s) /*24ul*/ );
+        el->next = (struct list_entry_s *)return_value_malloc_1;
         el->next->prev = el;
         el = el->next;
         el->data = srcel->data;
@@ -3867,9 +3867,9 @@ signed int list_concat(const struct anonymous$1 *l1, const struct anonymous$1 *l
       srcel = l2->head_sentinel->next;
       while(!(srcel == l2->tail_sentinel))
       {
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc(sizeof(struct list_entry_s) /*24ul*/ );
-        el->next = (struct list_entry_s *)return_value_malloc$2;
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc(sizeof(struct list_entry_s) /*24ul*/ );
+        el->next = (struct list_entry_s *)return_value_malloc_2;
         el->next->prev = el;
         el = el->next;
         el->data = srcel->data;
@@ -3902,16 +3902,16 @@ signed int list_concat(const struct anonymous$1 *l1, const struct anonymous$1 *l
 
 // list_contains
 // file simclist.c line 709
-signed int list_contains(const struct anonymous$1 * restrict l, const void *data)
+signed int list_contains(const struct anonymous_1 * restrict l, const void *data)
 {
-  signed int return_value_list_locate$1;
-  return_value_list_locate$1=list_locate(l, data);
-  return (signed int)(return_value_list_locate$1 >= 0);
+  signed int return_value_list_locate_1;
+  return_value_list_locate_1=list_locate(l, data);
+  return (signed int)(return_value_list_locate_1 >= 0);
 }
 
 // list_delete
 // file simclist.c line 526
-signed int list_delete(struct anonymous$1 * restrict l, const void *data)
+signed int list_delete(struct anonymous_1 * restrict l, const void *data)
 {
   signed int pos;
   signed int r;
@@ -3932,16 +3932,16 @@ signed int list_delete(struct anonymous$1 * restrict l, const void *data)
 
 // list_delete_at
 // file simclist.c line 542
-signed int list_delete_at(struct anonymous$1 * restrict l, unsigned int pos)
+signed int list_delete_at(struct anonymous_1 * restrict l, unsigned int pos)
 {
   struct list_entry_s *delendo;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(l->iter_active == 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = pos >= l->numels ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = pos >= l->numels ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return -1;
 
   else
@@ -3955,7 +3955,7 @@ signed int list_delete_at(struct anonymous$1 * restrict l, unsigned int pos)
 
 // list_delete_range
 // file simclist.c line 560
-signed int list_delete_range(struct anonymous$1 * restrict l, unsigned int posstart, unsigned int posend)
+signed int list_delete_range(struct anonymous_1 * restrict l, unsigned int posstart, unsigned int posend)
 {
   struct list_entry_s *lastvalid;
   struct list_entry_s *tmp;
@@ -3964,16 +3964,16 @@ signed int list_delete_range(struct anonymous$1 * restrict l, unsigned int posst
   unsigned int midposafter;
   unsigned int i;
   signed int movedx;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(l->iter_active == 0) || !(posend >= posstart))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = posend >= l->numels ? (_Bool)1 : (_Bool)0;
-  signed int return_value_list_clear$2;
-  unsigned int tmp_post$3;
-  unsigned int tmp_post$4;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = posend >= l->numels ? (_Bool)1 : (_Bool)0;
+  signed int return_value_list_clear_2;
+  unsigned int tmp_post_3;
+  unsigned int tmp_post_4;
+  if(tmp_if_expr_1)
     return -1;
 
   else
@@ -3981,8 +3981,8 @@ signed int list_delete_range(struct anonymous$1 * restrict l, unsigned int posst
     numdel = (posend - posstart) + (unsigned int)1;
     if(numdel == l->numels)
     {
-      return_value_list_clear$2=list_clear(l);
-      return return_value_list_clear$2;
+      return_value_list_clear_2=list_clear(l);
+      return return_value_list_clear_2;
     }
 
     else
@@ -4017,9 +4017,9 @@ signed int list_delete_range(struct anonymous$1 * restrict l, unsigned int posst
 
           if(!(l->spareelsnum >= 5u))
           {
-            tmp_post$3 = l->spareelsnum;
+            tmp_post_3 = l->spareelsnum;
             l->spareelsnum = l->spareelsnum + 1u;
-            l->spareels[(signed long int)tmp_post$3] = tmp2;
+            l->spareels[(signed long int)tmp_post_3] = tmp2;
           }
 
           else
@@ -4033,9 +4033,9 @@ signed int list_delete_range(struct anonymous$1 * restrict l, unsigned int posst
           tmp = tmp->next;
           if(!(l->spareelsnum >= 5u))
           {
-            tmp_post$4 = l->spareelsnum;
+            tmp_post_4 = l->spareelsnum;
             l->spareelsnum = l->spareelsnum + 1u;
-            l->spareels[(signed long int)tmp_post$4] = tmp2;
+            l->spareels[(signed long int)tmp_post_4] = tmp2;
           }
 
           else
@@ -4051,7 +4051,7 @@ signed int list_delete_range(struct anonymous$1 * restrict l, unsigned int posst
 
 // list_destroy
 // file simclist.h line 223
-void list_destroy(struct anonymous$1 * restrict l)
+void list_destroy(struct anonymous_1 * restrict l)
 {
   unsigned int i;
   list_clear(l);
@@ -4065,9 +4065,9 @@ void list_destroy(struct anonymous$1 * restrict l)
 
 // list_drop_elem
 // file simclist.c line 1388
-static signed int list_drop_elem(struct anonymous$1 * restrict l, struct list_entry_s *tmp, unsigned int pos)
+static signed int list_drop_elem(struct anonymous_1 * restrict l, struct list_entry_s *tmp, unsigned int pos)
 {
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   if(tmp == ((struct list_entry_s *)NULL))
     return -1;
 
@@ -4099,9 +4099,9 @@ static signed int list_drop_elem(struct anonymous$1 * restrict l, struct list_en
 
     if(!(l->spareelsnum >= 5u))
     {
-      tmp_post$1 = l->spareelsnum;
+      tmp_post_1 = l->spareelsnum;
       l->spareelsnum = l->spareelsnum + 1u;
-      l->spareels[(signed long int)tmp_post$1] = tmp;
+      l->spareels[(signed long int)tmp_post_1] = tmp;
     }
 
     else
@@ -4112,24 +4112,24 @@ static signed int list_drop_elem(struct anonymous$1 * restrict l, struct list_en
 
 // list_empty
 // file simclist.c line 673
-signed int list_empty(const struct anonymous$1 * restrict l)
+signed int list_empty(const struct anonymous_1 * restrict l)
 {
   return (signed int)(l->numels == (unsigned int)0);
 }
 
 // list_extract_at
 // file simclist.c line 459
-void * list_extract_at(struct anonymous$1 * restrict l, unsigned int pos)
+void * list_extract_at(struct anonymous_1 * restrict l, unsigned int pos)
 {
   struct list_entry_s *tmp;
   void *data;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(l->iter_active == 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = pos >= l->numels ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = pos >= l->numels ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return (void *)0;
 
   else
@@ -4145,27 +4145,27 @@ void * list_extract_at(struct anonymous$1 * restrict l, unsigned int pos)
 
 // list_fetch
 // file simclist.c line 394
-void * list_fetch(struct anonymous$1 * restrict l)
+void * list_fetch(struct anonymous_1 * restrict l)
 {
-  void *return_value_list_extract_at$1;
-  return_value_list_extract_at$1=list_extract_at(l, (unsigned int)0);
-  return return_value_list_extract_at$1;
+  void *return_value_list_extract_at_1;
+  return_value_list_extract_at_1=list_extract_at(l, (unsigned int)0);
+  return return_value_list_extract_at_1;
 }
 
 // list_findpos
 // file simclist.c line 433
-static inline struct list_entry_s * list_findpos(const struct anonymous$1 * restrict l, signed int posstart)
+static inline struct list_entry_s * list_findpos(const struct anonymous_1 * restrict l, signed int posstart)
 {
   struct list_entry_s *ptr;
   float x;
   signed int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(posstart >= -1))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = posstart > (signed int)l->numels ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = posstart > (signed int)l->numels ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return (struct list_entry_s *)(void *)0;
 
   else
@@ -4210,50 +4210,50 @@ static inline struct list_entry_s * list_findpos(const struct anonymous$1 * rest
 
 // list_get_at
 // file simclist.h line 389
-void * list_get_at(const struct anonymous$1 * restrict l, unsigned int pos)
+void * list_get_at(const struct anonymous_1 * restrict l, unsigned int pos)
 {
   struct list_entry_s *tmp;
   tmp=list_findpos(l, (signed int)pos);
-  void *tmp_if_expr$1;
+  void *tmp_if_expr_1;
   if(!(tmp == ((struct list_entry_s *)NULL)))
-    tmp_if_expr$1 = tmp->data;
+    tmp_if_expr_1 = tmp->data;
 
   else
-    tmp_if_expr$1 = (void *)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (void *)0;
+  return tmp_if_expr_1;
 }
 
 // list_get_max
 // file simclist.c line 406
-void * list_get_max(const struct anonymous$1 * restrict l)
+void * list_get_max(const struct anonymous_1 * restrict l)
 {
-  void *return_value_list_get_minmax$1;
-  return_value_list_get_minmax$1=list_get_minmax(l, +1);
-  return return_value_list_get_minmax$1;
+  void *return_value_list_get_minmax_1;
+  return_value_list_get_minmax_1=list_get_minmax(l, +1);
+  return return_value_list_get_minmax_1;
 }
 
 // list_get_min
 // file simclist.c line 410
-void * list_get_min(const struct anonymous$1 * restrict l)
+void * list_get_min(const struct anonymous_1 * restrict l)
 {
-  void *return_value_list_get_minmax$1;
-  return_value_list_get_minmax$1=list_get_minmax(l, -1);
-  return return_value_list_get_minmax$1;
+  void *return_value_list_get_minmax_1;
+  return_value_list_get_minmax_1=list_get_minmax(l, -1);
+  return return_value_list_get_minmax_1;
 }
 
 // list_get_minmax
 // file simclist.c line 416
-static void * list_get_minmax(const struct anonymous$1 * restrict l, signed int versus)
+static void * list_get_minmax(const struct anonymous_1 * restrict l, signed int versus)
 {
   void *curminmax;
   struct list_entry_s *s;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(l->attrs.comparator == ((signed int (*)(const void *, const void *))NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = l->numels == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = l->numels == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return (void *)0;
 
   else
@@ -4276,7 +4276,7 @@ static void * list_get_minmax(const struct anonymous$1 * restrict l, signed int 
 
 // list_hash
 // file simclist.c line 970
-signed int list_hash(const struct anonymous$1 * restrict l, signed int * restrict hash)
+signed int list_hash(const struct anonymous_1 * restrict l, signed int * restrict hash)
 {
   struct list_entry_s *x;
   signed int tmphash = (signed int)(l->numels * (unsigned int)2 + (unsigned int)100);
@@ -4393,20 +4393,20 @@ signed int list_hashcomputer_uint8_t(const void *el)
 
 // list_init
 // file simclist.h line 212
-signed int list_init(struct anonymous$1 * restrict l)
+signed int list_init(struct anonymous_1 * restrict l)
 {
-  if(l == ((struct anonymous$1 *)NULL))
+  if(l == ((struct anonymous_1 *)NULL))
     return -1;
 
   else
   {
     l->numels = (unsigned int)0;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct list_entry_s) /*24ul*/ );
-    l->head_sentinel = (struct list_entry_s *)return_value_malloc$1;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct list_entry_s) /*24ul*/ );
-    l->tail_sentinel = (struct list_entry_s *)return_value_malloc$2;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct list_entry_s) /*24ul*/ );
+    l->head_sentinel = (struct list_entry_s *)return_value_malloc_1;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct list_entry_s) /*24ul*/ );
+    l->tail_sentinel = (struct list_entry_s *)return_value_malloc_2;
     l->head_sentinel->next = l->tail_sentinel;
     l->tail_sentinel->prev = l->head_sentinel;
     l->mid = (struct list_entry_s *)(void *)0;
@@ -4417,9 +4417,9 @@ signed int list_init(struct anonymous$1 * restrict l)
     l->iter_active = 0;
     l->iter_pos = (unsigned int)0;
     l->iter_curentry = (struct list_entry_s *)(void *)0;
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)5 * sizeof(struct list_entry_s *) /*8ul*/ );
-    l->spareels = (struct list_entry_s **)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)5 * sizeof(struct list_entry_s *) /*8ul*/ );
+    l->spareels = (struct list_entry_s **)return_value_malloc_3;
     l->spareelsnum = (unsigned int)0;
     list_attributes_setdefaults(l);
     return 0;
@@ -4428,18 +4428,18 @@ signed int list_init(struct anonymous$1 * restrict l)
 
 // list_insert_at
 // file simclist.c line 477
-signed int list_insert_at(struct anonymous$1 * restrict l, const void *data, unsigned int pos)
+signed int list_insert_at(struct anonymous_1 * restrict l, const void *data, unsigned int pos)
 {
   struct list_entry_s *lent;
   struct list_entry_s *succ;
   struct list_entry_s *prec;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(l->iter_active == 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = pos > l->numels ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = pos > l->numels ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return -1;
 
   else
@@ -4452,9 +4452,9 @@ signed int list_insert_at(struct anonymous$1 * restrict l, const void *data, uns
 
     else
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct list_entry_s) /*24ul*/ );
-      lent = (struct list_entry_s *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct list_entry_s) /*24ul*/ );
+      lent = (struct list_entry_s *)return_value_malloc_2;
       if(lent == ((struct list_entry_s *)NULL))
         return -1;
 
@@ -4463,9 +4463,9 @@ signed int list_insert_at(struct anonymous$1 * restrict l, const void *data, uns
     {
       unsigned long int datalen;
       datalen=l->attrs.meter(data);
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(datalen);
-      lent->data = (void *)(struct list_entry_s *)return_value_malloc$3;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(datalen);
+      lent->data = (void *)(struct list_entry_s *)return_value_malloc_3;
       memcpy(lent->data, data, datalen);
     }
 
@@ -4499,7 +4499,7 @@ signed int list_insert_at(struct anonymous$1 * restrict l, const void *data, uns
 
 // list_iterator_hasnext
 // file simclist.c line 958
-signed int list_iterator_hasnext(const struct anonymous$1 * restrict l)
+signed int list_iterator_hasnext(const struct anonymous_1 * restrict l)
 {
   if(l->iter_active == 0)
     return 0;
@@ -4510,7 +4510,7 @@ signed int list_iterator_hasnext(const struct anonymous$1 * restrict l)
 
 // list_iterator_next
 // file simclist.c line 946
-void * list_iterator_next(struct anonymous$1 * restrict l)
+void * list_iterator_next(struct anonymous_1 * restrict l)
 {
   void *toret;
   if(l->iter_active == 0)
@@ -4527,7 +4527,7 @@ void * list_iterator_next(struct anonymous$1 * restrict l)
 
 // list_iterator_start
 // file simclist.c line 938
-signed int list_iterator_start(struct anonymous$1 * restrict l)
+signed int list_iterator_start(struct anonymous_1 * restrict l)
 {
   if(!(l->iter_active == 0))
     return 0;
@@ -4543,7 +4543,7 @@ signed int list_iterator_start(struct anonymous$1 * restrict l)
 
 // list_iterator_stop
 // file simclist.c line 963
-signed int list_iterator_stop(struct anonymous$1 * restrict l)
+signed int list_iterator_stop(struct anonymous_1 * restrict l)
 {
   if(l->iter_active == 0)
     return 0;
@@ -4558,7 +4558,7 @@ signed int list_iterator_stop(struct anonymous$1 * restrict l)
 
 // list_locate
 // file simclist.c line 677
-signed int list_locate(const struct anonymous$1 * restrict l, const void *data)
+signed int list_locate(const struct anonymous_1 * restrict l, const void *data)
 {
   struct list_entry_s *el;
   signed int pos = 0;
@@ -4643,9 +4643,9 @@ unsigned long int list_meter_int8_t(const void *el)
 // file simclist.c line 1450
 unsigned long int list_meter_string(const void *el)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen((const char *)el);
-  return return_value_strlen$1 + (unsigned long int)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen((const char *)el);
+  return return_value_strlen_1 + (unsigned long int)1;
 }
 
 // list_meter_uint16_t
@@ -4678,16 +4678,16 @@ unsigned long int list_meter_uint8_t(const void *el)
 
 // list_prepend
 // file simclist.c line 390
-signed int list_prepend(struct anonymous$1 * restrict l, const void *data)
+signed int list_prepend(struct anonymous_1 * restrict l, const void *data)
 {
-  signed int return_value_list_insert_at$1;
-  return_value_list_insert_at$1=list_insert_at(l, data, (unsigned int)0);
-  return return_value_list_insert_at$1;
+  signed int return_value_list_insert_at_1;
+  return_value_list_insert_at_1=list_insert_at(l, data, (unsigned int)0);
+  return return_value_list_insert_at_1;
 }
 
 // list_seek
 // file simclist.c line 697
-void * list_seek(struct anonymous$1 * restrict l, const void *indicator)
+void * list_seek(struct anonymous_1 * restrict l, const void *indicator)
 {
   struct list_entry_s *iter;
   if(l->attrs.seeker == ((signed int (*)(const void *, const void *))NULL))
@@ -4712,22 +4712,22 @@ void * list_seek(struct anonymous$1 * restrict l, const void *indicator)
 
 // list_size
 // file simclist.h line 493
-unsigned int list_size(const struct anonymous$1 * restrict l)
+unsigned int list_size(const struct anonymous_1 * restrict l)
 {
   return l->numels;
 }
 
 // list_sort
 // file simclist.c line 766
-signed int list_sort(struct anonymous$1 * restrict l, signed int versus)
+signed int list_sort(struct anonymous_1 * restrict l, signed int versus)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(l->iter_active == 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = l->attrs.comparator == (signed int (*)(const void *, const void *))(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = l->attrs.comparator == (signed int (*)(const void *, const void *))(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return -1;
 
   else
@@ -4743,7 +4743,7 @@ signed int list_sort(struct anonymous$1 * restrict l, signed int versus)
 
 // list_sort_quicksort
 // file simclist.c line 815
-static void list_sort_quicksort(struct anonymous$1 * restrict l, signed int versus, unsigned int first, struct list_entry_s *fel, unsigned int last, struct list_entry_s *lel)
+static void list_sort_quicksort(struct anonymous_1 * restrict l, signed int versus, unsigned int first, struct list_entry_s *fel, unsigned int last, struct list_entry_s *lel)
 {
   unsigned int pivotid;
   unsigned int i;
@@ -4751,9 +4751,9 @@ static void list_sort_quicksort(struct anonymous$1 * restrict l, signed int vers
   struct list_entry_s *left;
   struct list_entry_s *right;
   void *tmpdata;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   signed int return_value;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   signed int return_value_1;
   if(!(first >= last))
   {
@@ -4763,9 +4763,9 @@ static void list_sort_quicksort(struct anonymous$1 * restrict l, signed int vers
     else
       if(!(first >= last))
       {
-        signed int return_value_rand$1;
-        return_value_rand$1=rand();
-        pivotid = (unsigned int)return_value_rand$1 % ((last - first) + (unsigned int)1);
+        signed int return_value_rand_1;
+        return_value_rand_1=rand();
+        pivotid = (unsigned int)return_value_rand_1 % ((last - first) + (unsigned int)1);
         if(!(pivotid >= (1u + last + -first) / 2u))
         {
           i = (unsigned int)0;
@@ -4790,12 +4790,12 @@ static void list_sort_quicksort(struct anonymous$1 * restrict l, signed int vers
             if(!(left == pivot))
             {
               return_value=l->attrs.comparator(left->data, pivot->data);
-              tmp_if_expr$2 = return_value * -versus <= 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_2 = return_value * -versus <= 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$2 = (_Bool)0;
-            if(!tmp_if_expr$2)
+              tmp_if_expr_2 = (_Bool)0;
+            if(!tmp_if_expr_2)
               break;
 
             left = left->next;
@@ -4806,12 +4806,12 @@ static void list_sort_quicksort(struct anonymous$1 * restrict l, signed int vers
             if(!(right == pivot))
             {
               return_value_1=l->attrs.comparator(right->data, pivot->data);
-              tmp_if_expr$3 = return_value_1 * -versus >= 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_3 = return_value_1 * -versus >= 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$3 = (_Bool)0;
-            if(!tmp_if_expr$3)
+              tmp_if_expr_3 = (_Bool)0;
+            if(!tmp_if_expr_3)
               break;
 
             right = right->prev;
@@ -4882,7 +4882,7 @@ static void list_sort_quicksort(struct anonymous$1 * restrict l, signed int vers
 
 // list_sort_selectionsort
 // file simclist.c line 794
-static inline void list_sort_selectionsort(struct anonymous$1 * restrict l, signed int versus, unsigned int first, struct list_entry_s *fel, unsigned int last, struct list_entry_s *lel)
+static inline void list_sort_selectionsort(struct anonymous_1 * restrict l, signed int versus, unsigned int first, struct list_entry_s *fel, unsigned int last, struct list_entry_s *lel)
 {
   struct list_entry_s *cursor;
   struct list_entry_s *toswap;
@@ -4943,9 +4943,9 @@ void log_msg(const signed int priority, const char *fmt, ...)
       unsigned int i = (unsigned int)0;
       for( ; !((unsigned long int)i >= 7ul); i = i + 1u)
       {
-        signed int return_value_strcmp$1;
-        return_value_strcmp$1=strcmp(terms[(signed long int)i], term);
-        if(return_value_strcmp$1 == 0)
+        signed int return_value_strcmp_1;
+        return_value_strcmp_1=strcmp(terms[(signed long int)i], term);
+        if(return_value_strcmp_1 == 0)
         {
           LogDoColor = 1;
           break;
@@ -5017,15 +5017,15 @@ void log_msg(const signed int priority, const char *fmt, ...)
 void log_xxd(const signed int priority, const char *msg, const unsigned char *buffer, const signed int len)
 {
   signed int i;
-  signed long int c$array_size0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(msg);
-  c$array_size0 = (signed long int)((unsigned long int)(len * 3) + return_value_strlen$1 + (unsigned long int)1);
+  signed long int c_array_size0;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(msg);
+  c_array_size0 = (signed long int)((unsigned long int)(len * 3) + return_value_strlen_1 + (unsigned long int)1);
   char *c;
-  char debug_buffer[c$array_size0];
+  char debug_buffer[c_array_size0];
   unsigned long int l;
   (void)priority;
-  l=strlcpy(debug_buffer, msg, (unsigned long int)c$array_size0);
+  l=strlcpy(debug_buffer, msg, (unsigned long int)c_array_size0);
   c = debug_buffer + (signed long int)l;
   i = 0;
   for( ; !(i >= len); i = i + 1)
@@ -5049,18 +5049,18 @@ signed int main(signed int argc, char **argv)
   unsigned char buffer[256l];
   char class_ff = (char)0;
   signed long int cnt;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(argc >= 2)
   {
-    return_value_strcmp$1=strcmp(argv[(signed long int)1], "-p");
-    if(return_value_strcmp$1 == 0)
+    return_value_strcmp_1=strcmp(argv[(signed long int)1], "-p");
+    if(return_value_strcmp_1 == 0)
       class_ff = (char)1;
 
   }
 
   r=libusb_init((struct libusb_context **)(void *)0);
-  signed int tmp_post$2;
-  unsigned int return_value_geteuid$14;
+  signed int tmp_post_2;
+  unsigned int return_value_geteuid_14;
   if(!(r >= 0))
   {
     printf("libusb_init() failed\n");
@@ -5081,9 +5081,9 @@ signed int main(signed int argc, char **argv)
       i = 0;
       do
       {
-        tmp_post$2 = i;
+        tmp_post_2 = i;
         i = i + 1;
-        dev = devs[(signed long int)tmp_post$2];
+        dev = devs[(signed long int)tmp_post_2];
         if(dev == ((struct libusb_device *)NULL))
           break;
 
@@ -5096,14 +5096,14 @@ signed int main(signed int argc, char **argv)
         r=libusb_open(dev, &handle);
         if(!(r >= 0))
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          char *return_value_strerror$4;
-          return_value_strerror$4=strerror(*return_value___errno_location$3);
-          fprintf(stderr, "Can't libusb_open(): %s\n", return_value_strerror$4);
-          unsigned int return_value_getuid$5;
-          return_value_getuid$5=getuid();
-          if(!(return_value_getuid$5 == 0u))
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          char *return_value_strerror_4;
+          return_value_strerror_4=strerror(*return_value___errno_location_3);
+          fprintf(stderr, "Can't libusb_open(): %s\n", return_value_strerror_4);
+          unsigned int return_value_getuid_5;
+          return_value_getuid_5=getuid();
+          if(!(return_value_getuid_5 == 0u))
           {
             fprintf(stderr, "\033[01;31mPlease, restart the command as root\n\033[0m");
             return 1;
@@ -5119,19 +5119,19 @@ signed int main(signed int argc, char **argv)
           return 1;
         }
 
-        unsigned char return_value_libusb_get_bus_number$6;
-        return_value_libusb_get_bus_number$6=libusb_get_bus_number(dev);
-        unsigned char return_value_libusb_get_device_address$7;
-        return_value_libusb_get_device_address$7=libusb_get_device_address(dev);
-        fprintf(stderr, "Parsing USB bus/device: %04X:%04X (bus %d, device %d)\n", desc.idVendor, desc.idProduct, return_value_libusb_get_bus_number$6, return_value_libusb_get_device_address$7);
+        unsigned char return_value_libusb_get_bus_number_6;
+        return_value_libusb_get_bus_number_6=libusb_get_bus_number(dev);
+        unsigned char return_value_libusb_get_device_address_7;
+        return_value_libusb_get_device_address_7=libusb_get_device_address(dev);
+        fprintf(stderr, "Parsing USB bus/device: %04X:%04X (bus %d, device %d)\n", desc.idVendor, desc.idProduct, return_value_libusb_get_bus_number_6, return_value_libusb_get_device_address_7);
         fprintf(stderr, " idVendor:  0x%04X", desc.idVendor);
         r=libusb_get_string_descriptor_ascii(handle, desc.iManufacturer, buffer, (signed int)sizeof(unsigned char [256l]) /*256ul*/ );
         if(!(r >= 0))
         {
           fprintf(stderr, "  Can't get iManufacturer string\n");
-          unsigned int return_value_getuid$8;
-          return_value_getuid$8=getuid();
-          if(!(return_value_getuid$8 == 0u))
+          unsigned int return_value_getuid_8;
+          return_value_getuid_8=getuid();
+          if(!(return_value_getuid_8 == 0u))
           {
             fprintf(stderr, "\033[01;31mPlease, restart the command as root\n\033[0m");
             return 1;
@@ -5187,19 +5187,19 @@ signed int main(signed int argc, char **argv)
           r=libusb_claim_interface(handle, interface);
           if(!(r >= 0))
           {
-            unsigned char return_value_libusb_get_bus_number$9;
-            return_value_libusb_get_bus_number$9=libusb_get_bus_number(dev);
-            unsigned char return_value_libusb_get_device_address$10;
-            return_value_libusb_get_device_address$10=libusb_get_device_address(dev);
-            signed int *return_value___errno_location$11;
-            return_value___errno_location$11=__errno_location();
-            char *return_value_strerror$12;
-            return_value_strerror$12=strerror(*return_value___errno_location$11);
-            fprintf(stderr, "Can't claim interface (bus %d, device %d): %s\n", return_value_libusb_get_bus_number$9, return_value_libusb_get_device_address$10, return_value_strerror$12);
+            unsigned char return_value_libusb_get_bus_number_9;
+            return_value_libusb_get_bus_number_9=libusb_get_bus_number(dev);
+            unsigned char return_value_libusb_get_device_address_10;
+            return_value_libusb_get_device_address_10=libusb_get_device_address(dev);
+            signed int *return_value___errno_location_11;
+            return_value___errno_location_11=__errno_location();
+            char *return_value_strerror_12;
+            return_value_strerror_12=strerror(*return_value___errno_location_11);
+            fprintf(stderr, "Can't claim interface (bus %d, device %d): %s\n", return_value_libusb_get_bus_number_9, return_value_libusb_get_device_address_10, return_value_strerror_12);
             libusb_close(handle);
-            signed int *return_value___errno_location$13;
-            return_value___errno_location$13=__errno_location();
-            if(*return_value___errno_location$13 == 16)
+            signed int *return_value___errno_location_13;
+            return_value___errno_location_13=__errno_location();
+            if(*return_value___errno_location_13 == 16)
             {
               fprintf(stderr, "\033[01;31m Please, stop pcscd and retry\n\n\033[0m");
               if(!(class_ff == 0))
@@ -5222,8 +5222,8 @@ signed int main(signed int argc, char **argv)
       while((_Bool)1);
       if(nb == 0)
       {
-        return_value_geteuid$14=geteuid();
-        if(!(return_value_geteuid$14 == 0u))
+        return_value_geteuid_14=geteuid();
+        if(!(return_value_geteuid_14 == 0u))
           fprintf(stderr, "Can't find any CCID device.\nMaybe you must run parse as root?\n");
 
       }
@@ -5241,20 +5241,20 @@ unsigned long int strlcpy(char *dst, const char *src, unsigned long int siz)
   char *d = dst;
   const char *s = src;
   unsigned long int n = siz;
-  char *tmp_post$1;
-  const char *tmp_post$2;
+  char *tmp_post_1;
+  const char *tmp_post_2;
   if(!(n == 0ul))
   {
     n = n - 1ul;
     if(!(n == 0ul))
       do
       {
-        tmp_post$1 = d;
+        tmp_post_1 = d;
         d = d + 1l;
-        tmp_post$2 = s;
+        tmp_post_2 = s;
         s = s + 1l;
-        *tmp_post$1 = *tmp_post$2;
-        if((signed int)*tmp_post$1 == 0)
+        *tmp_post_1 = *tmp_post_2;
+        if((signed int)*tmp_post_1 == 0)
           break;
 
         n = n - 1ul;
@@ -5263,7 +5263,7 @@ unsigned long int strlcpy(char *dst, const char *src, unsigned long int siz)
 
   }
 
-  const char *tmp_post$3;
+  const char *tmp_post_3;
   if(n == 0ul)
   {
     if(!(siz == 0ul))
@@ -5271,9 +5271,9 @@ unsigned long int strlcpy(char *dst, const char *src, unsigned long int siz)
 
     do
     {
-      tmp_post$3 = s;
+      tmp_post_3 = s;
       s = s + 1l;
-      if(*tmp_post$3 == 0)
+      if(*tmp_post_3 == 0)
         break;
 
     }
@@ -5295,16 +5295,16 @@ void tperrorCheck(char *token_error)
 struct yy_buffer_state * yy_create_buffer(struct _IO_FILE *file, signed int size)
 {
   struct yy_buffer_state *b;
-  void *return_value_yyalloc$1;
-  return_value_yyalloc$1=yyalloc(sizeof(struct yy_buffer_state) /*72ul*/ );
-  b = (struct yy_buffer_state *)return_value_yyalloc$1;
+  void *return_value_yyalloc_1;
+  return_value_yyalloc_1=yyalloc(sizeof(struct yy_buffer_state) /*72ul*/ );
+  b = (struct yy_buffer_state *)return_value_yyalloc_1;
   if(b == ((struct yy_buffer_state *)NULL))
     yy_fatal_error("out of dynamic memory in yy_create_buffer()");
 
   b->yy_buf_size = (unsigned long int)size;
-  void *return_value_yyalloc$2;
-  return_value_yyalloc$2=yyalloc(b->yy_buf_size + (unsigned long int)2);
-  b->yy_ch_buf = (char *)return_value_yyalloc$2;
+  void *return_value_yyalloc_2;
+  return_value_yyalloc_2=yyalloc(b->yy_buf_size + (unsigned long int)2);
+  b->yy_ch_buf = (char *)return_value_yyalloc_2;
   if(b->yy_ch_buf == ((char *)NULL))
     yy_fatal_error("out of dynamic memory in yy_create_buffer()");
 
@@ -5317,15 +5317,15 @@ struct yy_buffer_state * yy_create_buffer(struct _IO_FILE *file, signed int size
 // file tokenparser.c line 1351
 void yy_delete_buffer(struct yy_buffer_state *b)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(b == ((struct yy_buffer_state *)NULL)))
   {
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(b == tmp_if_expr$1)
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(b == tmp_if_expr_1)
       yy_buffer_stack[(signed long int)yy_buffer_stack_top] = (struct yy_buffer_state *)0;
 
     if(!(b->yy_is_our_buffer == 0))
@@ -5348,7 +5348,7 @@ static void yy_fatal_error(const char *msg)
 // file tokenparser.c line 1398
 void yy_flush_buffer(struct yy_buffer_state *b)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(b == ((struct yy_buffer_state *)NULL)))
   {
     b->yy_n_chars = (unsigned long int)0;
@@ -5358,11 +5358,11 @@ void yy_flush_buffer(struct yy_buffer_state *b)
     b->yy_at_bol = 1;
     b->yy_buffer_status = 0;
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(b == tmp_if_expr$1)
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(b == tmp_if_expr_1)
       yy_load_buffer_state();
 
   }
@@ -5381,12 +5381,12 @@ static signed int yy_get_next_buffer(void)
   if(!(yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf + 1l + (signed long int)yy_n_chars >= yy_c_buf_p))
     yy_fatal_error("fatal flex scanner internal error--end of buffer missed");
 
-  char *tmp_post$1;
-  char *tmp_post$2;
-  _Bool tmp_if_expr$4;
-  unsigned long int tmp_post$5;
-  signed int return_value_ferror$6;
-  signed int return_value_ferror$8;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  _Bool tmp_if_expr_4;
+  unsigned long int tmp_post_5;
+  signed int return_value_ferror_6;
+  signed int return_value_ferror_8;
   if(yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_fill_buffer == 0)
   {
     if(yy_c_buf_p - yytext == 1l)
@@ -5401,11 +5401,11 @@ static signed int yy_get_next_buffer(void)
     i = 0;
     for( ; !(i >= number_to_move); i = i + 1)
     {
-      tmp_post$1 = dest;
+      tmp_post_1 = dest;
       dest = dest + 1l;
-      tmp_post$2 = source;
+      tmp_post_2 = source;
       source = source + 1l;
-      *tmp_post$1 = *tmp_post$2;
+      *tmp_post_1 = *tmp_post_2;
     }
     if(yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_buffer_status == 2)
     {
@@ -5428,9 +5428,9 @@ static signed int yy_get_next_buffer(void)
 
           else
             b->yy_buf_size = b->yy_buf_size * (unsigned long int)2;
-          void *return_value_yyrealloc$3;
-          return_value_yyrealloc$3=yyrealloc((void *)b->yy_ch_buf, b->yy_buf_size + (unsigned long int)2);
-          b->yy_ch_buf = (char *)return_value_yyrealloc$3;
+          void *return_value_yyrealloc_3;
+          return_value_yyrealloc_3=yyrealloc((void *)b->yy_ch_buf, b->yy_buf_size + (unsigned long int)2);
+          b->yy_ch_buf = (char *)return_value_yyrealloc_3;
         }
 
         else
@@ -5453,12 +5453,12 @@ static signed int yy_get_next_buffer(void)
           if(!(n >= num_to_read))
           {
             c=_IO_getc(yyin);
-            tmp_if_expr$4 = c != -1 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = c != -1 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(c == 10 || !tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(c == 10 || !tmp_if_expr_4)
             break;
 
           (&yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move])[(signed long int)n] = (char)c;
@@ -5467,15 +5467,15 @@ static signed int yy_get_next_buffer(void)
         while((_Bool)1);
         if(c == 10)
         {
-          tmp_post$5 = n;
+          tmp_post_5 = n;
           n = n + 1ul;
-          (&yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move])[(signed long int)tmp_post$5] = (char)c;
+          (&yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move])[(signed long int)tmp_post_5] = (char)c;
         }
 
         if(c == -1)
         {
-          return_value_ferror$6=ferror(yyin);
-          if(!(return_value_ferror$6 == 0))
+          return_value_ferror_6=ferror(yyin);
+          if(!(return_value_ferror_6 == 0))
             yy_fatal_error("input in flex scanner failed");
 
         }
@@ -5485,30 +5485,30 @@ static signed int yy_get_next_buffer(void)
 
       else
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        *return_value___errno_location$7 = 0;
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        *return_value___errno_location_7 = 0;
         do
         {
           yy_n_chars=fread((void *)&yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf[(signed long int)number_to_move], (unsigned long int)1, num_to_read, yyin);
           if(!(yy_n_chars == 0ul))
             break;
 
-          return_value_ferror$8=ferror(yyin);
-          if(return_value_ferror$8 == 0)
+          return_value_ferror_8=ferror(yyin);
+          if(return_value_ferror_8 == 0)
             break;
 
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          if(!(*return_value___errno_location$9 == 4))
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          if(!(*return_value___errno_location_9 == 4))
           {
             yy_fatal_error("input in flex scanner failed");
             break;
           }
 
-          signed int *return_value___errno_location$10;
-          return_value___errno_location$10=__errno_location();
-          *return_value___errno_location$10 = 0;
+          signed int *return_value___errno_location_10;
+          return_value___errno_location_10=__errno_location();
+          *return_value___errno_location_10 = 0;
           clearerr(yyin);
         }
         while((_Bool)1);
@@ -5534,10 +5534,10 @@ static signed int yy_get_next_buffer(void)
       ret_val = 0;
     if(!(yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_buf_size >= yy_n_chars + (unsigned long int)number_to_move))
     {
-      unsigned long int yy_get_next_buffer$$1$$5$$new_size = yy_n_chars + (unsigned long int)number_to_move + (yy_n_chars >> 1);
-      void *return_value_yyrealloc$11;
-      return_value_yyrealloc$11=yyrealloc((void *)yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf, yy_get_next_buffer$$1$$5$$new_size);
-      yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf = (char *)return_value_yyrealloc$11;
+      unsigned long int yy_get_next_buffer__1__5__new_size = yy_n_chars + (unsigned long int)number_to_move + (yy_n_chars >> 1);
+      void *return_value_yyrealloc_11;
+      return_value_yyrealloc_11=yyrealloc((void *)yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf, yy_get_next_buffer__1__5__new_size);
+      yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf = (char *)return_value_yyrealloc_11;
       if(yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_ch_buf == ((char *)NULL))
         yy_fatal_error("out of dynamic memory in yy_get_next_buffer()");
 
@@ -5559,16 +5559,16 @@ static signed int yy_get_previous_state(void)
   char *yy_cp;
   yy_current_state = yy_start;
   yy_cp = yytext + (signed long int)0;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   for( ; !(yy_cp >= yy_c_buf_p); yy_cp = yy_cp + 1l)
   {
     unsigned char yy_c;
     if(!(*yy_cp == 0))
-      tmp_if_expr$1 = yy_ec[(signed long int)(unsigned int)(unsigned char)*yy_cp];
+      tmp_if_expr_1 = yy_ec[(signed long int)(unsigned int)(unsigned char)*yy_cp];
 
     else
-      tmp_if_expr$1 = 1;
-    yy_c = (unsigned char)tmp_if_expr$1;
+      tmp_if_expr_1 = 1;
+    yy_c = (unsigned char)tmp_if_expr_1;
     if(!(yy_accept[(signed long int)yy_current_state] == 0))
     {
       yy_last_accepting_state = yy_current_state;
@@ -5592,40 +5592,40 @@ static signed int yy_get_previous_state(void)
 static void yy_init_buffer(struct yy_buffer_state *b, struct _IO_FILE *file)
 {
   signed int oerrno;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  oerrno = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  oerrno = *return_value___errno_location_1;
   yy_flush_buffer(b);
   b->yy_input_file = file;
   b->yy_fill_buffer = 1;
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_2;
   if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+    tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
   else
-    tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-  if(!(b == tmp_if_expr$2))
+    tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+  if(!(b == tmp_if_expr_2))
   {
     b->yy_bs_lineno = 1;
     b->yy_bs_column = 0;
   }
 
-  signed int tmp_if_expr$5;
-  signed int return_value_fileno$3;
-  signed int return_value_isatty$4;
+  signed int tmp_if_expr_5;
+  signed int return_value_fileno_3;
+  signed int return_value_isatty_4;
   if(!(file == ((struct _IO_FILE *)NULL)))
   {
-    return_value_fileno$3=fileno(file);
-    return_value_isatty$4=isatty(return_value_fileno$3);
-    tmp_if_expr$5 = (signed int)(return_value_isatty$4 > 0);
+    return_value_fileno_3=fileno(file);
+    return_value_isatty_4=isatty(return_value_fileno_3);
+    tmp_if_expr_5 = (signed int)(return_value_isatty_4 > 0);
   }
 
   else
-    tmp_if_expr$5 = 0;
-  b->yy_is_interactive = tmp_if_expr$5;
-  signed int *return_value___errno_location$6;
-  return_value___errno_location$6=__errno_location();
-  *return_value___errno_location$6 = oerrno;
+    tmp_if_expr_5 = 0;
+  b->yy_is_interactive = tmp_if_expr_5;
+  signed int *return_value___errno_location_6;
+  return_value___errno_location_6=__errno_location();
+  *return_value___errno_location_6 = oerrno;
 }
 
 // yy_init_globals
@@ -5659,26 +5659,26 @@ static void yy_load_buffer_state(void)
 struct yy_buffer_state * yy_scan_buffer(char *base, unsigned long int size)
 {
   struct yy_buffer_state *b;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(size >= 2ul))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)base[(signed long int)(size - (unsigned long int)2)] != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (signed int)base[(signed long int)(size - (unsigned long int)2)] != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)base[(signed long int)(size - (unsigned long int)1)] != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)base[(signed long int)(size - (unsigned long int)1)] != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return ((struct yy_buffer_state *)NULL);
 
   else
   {
-    void *return_value_yyalloc$3;
-    return_value_yyalloc$3=yyalloc(sizeof(struct yy_buffer_state) /*72ul*/ );
-    b = (struct yy_buffer_state *)return_value_yyalloc$3;
+    void *return_value_yyalloc_3;
+    return_value_yyalloc_3=yyalloc(sizeof(struct yy_buffer_state) /*72ul*/ );
+    b = (struct yy_buffer_state *)return_value_yyalloc_3;
     if(b == ((struct yy_buffer_state *)NULL))
       yy_fatal_error("out of dynamic memory in yy_scan_buffer()");
 
@@ -5706,9 +5706,9 @@ struct yy_buffer_state * yy_scan_bytes(const char *yybytes, unsigned long int _y
   unsigned long int n;
   unsigned long int i;
   n = _yybytes_len + (unsigned long int)2;
-  void *return_value_yyalloc$1;
-  return_value_yyalloc$1=yyalloc(n);
-  buf = (char *)return_value_yyalloc$1;
+  void *return_value_yyalloc_1;
+  return_value_yyalloc_1=yyalloc(n);
+  buf = (char *)return_value_yyalloc_1;
   if(buf == ((char *)NULL))
     yy_fatal_error("out of dynamic memory in yy_scan_bytes()");
 
@@ -5729,11 +5729,11 @@ struct yy_buffer_state * yy_scan_bytes(const char *yybytes, unsigned long int _y
 // file tokenparser.c line 1562
 struct yy_buffer_state * yy_scan_string(const char *yystr)
 {
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(yystr);
-  struct yy_buffer_state *return_value_yy_scan_bytes$2;
-  return_value_yy_scan_bytes$2=yy_scan_bytes(yystr, return_value_strlen$1);
-  return return_value_yy_scan_bytes$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(yystr);
+  struct yy_buffer_state *return_value_yy_scan_bytes_2;
+  return_value_yy_scan_bytes_2=yy_scan_bytes(yystr, return_value_strlen_1);
+  return return_value_yy_scan_bytes_2;
 }
 
 // yy_switch_to_buffer
@@ -5741,21 +5741,21 @@ struct yy_buffer_state * yy_scan_string(const char *yystr)
 void yy_switch_to_buffer(struct yy_buffer_state *new_buffer)
 {
   yyensure_buffer_stack();
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+    tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  struct yy_buffer_state *tmp_if_expr$2;
-  if(!(tmp_if_expr$1 == new_buffer))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  struct yy_buffer_state *tmp_if_expr_2;
+  if(!(tmp_if_expr_1 == new_buffer))
   {
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$2 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_2 == ((struct yy_buffer_state *)NULL)))
     {
       *yy_c_buf_p = yy_hold_char;
       yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_buf_pos = yy_c_buf_p;
@@ -5798,9 +5798,9 @@ static signed int yy_try_NUL_trans(signed int yy_current_state)
 // file tokenparser.c line 1786
 void * yyalloc(unsigned long int size)
 {
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(size);
-  return (void *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(size);
+  return (void *)return_value_malloc_1;
 }
 
 // yyensure_buffer_stack
@@ -5811,9 +5811,9 @@ static void yyensure_buffer_stack(void)
   if(yy_buffer_stack == ((struct yy_buffer_state **)NULL))
   {
     num_to_alloc = (unsigned long int)1;
-    void *return_value_yyalloc$1;
-    return_value_yyalloc$1=yyalloc(num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ );
-    yy_buffer_stack = (struct yy_buffer_state **)return_value_yyalloc$1;
+    void *return_value_yyalloc_1;
+    return_value_yyalloc_1=yyalloc(num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ );
+    yy_buffer_stack = (struct yy_buffer_state **)return_value_yyalloc_1;
     if(yy_buffer_stack == ((struct yy_buffer_state **)NULL))
       yy_fatal_error("out of dynamic memory in yyensure_buffer_stack()");
 
@@ -5827,9 +5827,9 @@ static void yyensure_buffer_stack(void)
   {
     signed int grow_size = 8;
     num_to_alloc = yy_buffer_stack_max + (unsigned long int)grow_size;
-    void *return_value_yyrealloc$2;
-    return_value_yyrealloc$2=yyrealloc((void *)yy_buffer_stack, num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ );
-    yy_buffer_stack = (struct yy_buffer_state **)return_value_yyrealloc$2;
+    void *return_value_yyrealloc_2;
+    return_value_yyrealloc_2=yyrealloc((void *)yy_buffer_stack, num_to_alloc * sizeof(struct yy_buffer_state *) /*8ul*/ );
+    yy_buffer_stack = (struct yy_buffer_state **)return_value_yyrealloc_2;
     if(yy_buffer_stack == ((struct yy_buffer_state **)NULL))
       yy_fatal_error("out of dynamic memory in yyensure_buffer_stack()");
 
@@ -5899,7 +5899,7 @@ extern signed int yylex(void)
   char *yy_cp;
   char *yy_bp;
   signed int yy_act;
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(yy_init == 0)
   {
     yy_init = 1;
@@ -5913,11 +5913,11 @@ extern signed int yylex(void)
       yyout = stdout;
 
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
     {
       yyensure_buffer_stack();
       yy_buffer_stack[(signed long int)yy_buffer_stack_top]=yy_create_buffer(yyin, 16384);
@@ -5927,7 +5927,7 @@ extern signed int yylex(void)
   }
 
   signed int yy_amount_of_matched_text;
-  signed int return_value_yy_get_next_buffer$3;
+  signed int return_value_yy_get_next_buffer_3;
   while((_Bool)1)
   {
     yy_cp = yy_c_buf_p;
@@ -6047,8 +6047,8 @@ extern signed int yylex(void)
 
         __CPROVER_DUMP_L22:
           ;
-          unsigned long int return_value_fwrite$2;
-          return_value_fwrite$2=fwrite((const void *)yytext, yyleng, (unsigned long int)1, yyout);
+          unsigned long int return_value_fwrite_2;
+          return_value_fwrite_2=fwrite((const void *)yytext, yyleng, (unsigned long int)1, yyout);
         }
         while((_Bool)0);
         goto __CPROVER_DUMP_L36;
@@ -6090,13 +6090,13 @@ extern signed int yylex(void)
           }
         }
 
-        return_value_yy_get_next_buffer$3=yy_get_next_buffer();
-        if(!(return_value_yy_get_next_buffer$3 == 1))
+        return_value_yy_get_next_buffer_3=yy_get_next_buffer();
+        if(!(return_value_yy_get_next_buffer_3 == 1))
         {
-          if(return_value_yy_get_next_buffer$3 == 0)
+          if(return_value_yy_get_next_buffer_3 == 0)
             goto __CPROVER_DUMP_L32;
 
-          if(return_value_yy_get_next_buffer$3 == 2)
+          if(return_value_yy_get_next_buffer_3 == 2)
             goto __CPROVER_DUMP_L33;
 
           goto __CPROVER_DUMP_L34;
@@ -6144,24 +6144,24 @@ extern signed int yylex(void)
 // file tokenparser.c line 1741
 signed int yylex_destroy(void)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_1;
+  struct yy_buffer_state *tmp_if_expr_2;
   do
   {
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
       break;
 
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    yy_delete_buffer(tmp_if_expr$2);
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    yy_delete_buffer(tmp_if_expr_2);
     yy_buffer_stack[(signed long int)yy_buffer_stack_top] = (struct yy_buffer_state *)(void *)0;
     yypop_buffer_state();
   }
@@ -6176,32 +6176,32 @@ signed int yylex_destroy(void)
 // file tokenparser.c line 1457
 void yypop_buffer_state(void)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+    tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  struct yy_buffer_state *tmp_if_expr$2;
-  struct yy_buffer_state *tmp_if_expr$3;
-  if(!(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL)))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  struct yy_buffer_state *tmp_if_expr_2;
+  struct yy_buffer_state *tmp_if_expr_3;
+  if(!(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL)))
   {
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    yy_delete_buffer(tmp_if_expr$2);
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    yy_delete_buffer(tmp_if_expr_2);
     yy_buffer_stack[(signed long int)yy_buffer_stack_top] = (struct yy_buffer_state *)(void *)0;
     if(yy_buffer_stack_top >= 1ul)
       yy_buffer_stack_top = yy_buffer_stack_top - 1ul;
 
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$3 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_3 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$3 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$3 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_3 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_3 == ((struct yy_buffer_state *)NULL)))
     {
       yy_load_buffer_state();
       yy_did_buffer_switch_on_eof = 1;
@@ -6215,17 +6215,17 @@ void yypop_buffer_state(void)
 // file tokenparser.c line 1427
 void yypush_buffer_state(struct yy_buffer_state *new_buffer)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_1;
+  struct yy_buffer_state *tmp_if_expr_2;
   if(!(new_buffer == ((struct yy_buffer_state *)NULL)))
   {
     yyensure_buffer_stack();
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL)))
     {
       *yy_c_buf_p = yy_hold_char;
       yy_buffer_stack[(signed long int)yy_buffer_stack_top]->yy_buf_pos = yy_c_buf_p;
@@ -6233,11 +6233,11 @@ void yypush_buffer_state(struct yy_buffer_state *new_buffer)
     }
 
     if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-      tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+      tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
     else
-      tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-    if(!(tmp_if_expr$2 == ((struct yy_buffer_state *)NULL)))
+      tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+    if(!(tmp_if_expr_2 == ((struct yy_buffer_state *)NULL)))
       yy_buffer_stack_top = yy_buffer_stack_top + 1ul;
 
     yy_buffer_stack[(signed long int)yy_buffer_stack_top] = new_buffer;
@@ -6251,34 +6251,34 @@ void yypush_buffer_state(struct yy_buffer_state *new_buffer)
 // file tokenparser.c line 1791
 void * yyrealloc(void *ptr, unsigned long int size)
 {
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)(char *)ptr, size);
-  return (void *)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)(char *)ptr, size);
+  return (void *)return_value_realloc_1;
 }
 
 // yyrestart
 // file tokenparser.c line 1261
 void yyrestart(struct _IO_FILE *input_file)
 {
-  struct yy_buffer_state *tmp_if_expr$1;
+  struct yy_buffer_state *tmp_if_expr_1;
   if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+    tmp_if_expr_1 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
   else
-    tmp_if_expr$1 = (struct yy_buffer_state *)(void *)0;
-  if(tmp_if_expr$1 == ((struct yy_buffer_state *)NULL))
+    tmp_if_expr_1 = (struct yy_buffer_state *)(void *)0;
+  if(tmp_if_expr_1 == ((struct yy_buffer_state *)NULL))
   {
     yyensure_buffer_stack();
     yy_buffer_stack[(signed long int)yy_buffer_stack_top]=yy_create_buffer(yyin, 16384);
   }
 
-  struct yy_buffer_state *tmp_if_expr$2;
+  struct yy_buffer_state *tmp_if_expr_2;
   if(!(yy_buffer_stack == ((struct yy_buffer_state **)NULL)))
-    tmp_if_expr$2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
+    tmp_if_expr_2 = yy_buffer_stack[(signed long int)yy_buffer_stack_top];
 
   else
-    tmp_if_expr$2 = (struct yy_buffer_state *)(void *)0;
-  yy_init_buffer(tmp_if_expr$2, input_file);
+    tmp_if_expr_2 = (struct yy_buffer_state *)(void *)0;
+  yy_init_buffer(tmp_if_expr_2, input_file);
   yy_load_buffer_state();
 }
 

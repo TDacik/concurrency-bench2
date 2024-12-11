@@ -1,78 +1,78 @@
-// tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$$'filter_group'||U32'group_size'||U32'$pad0'|]
+// tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#__'filter_group'||U32'group_size'||U32'_pad0'|]
 // file ../include/bloom.h line 56
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$$'filter_group'||U32'group_size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$$'filter_group'||U32'group_size'||U32'$pad0'|]#$'group'||*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$'aggregate'||U32'current_index'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#__'filter_group'||U32'group_size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#__'filter_group'||U32'group_size'||U32'_pad0'|]#_'group'||*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_'aggregate'||U32'current_index'||U32'_pad0'|]
 // file ../include/bloom.h line 62
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$$'filter_group'||U32'group_size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$$'filter_group'||U32'group_size'||U32'$pad0'|]#$'group'||*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$'aggregate'||U32'current_index'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$$'filter_group'||U32'group_size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$$'filter_group'||U32'group_size'||U32'$pad0'|]#$'group'||*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$'aggregate'||U32'current_index'||U32'$pad0'|]#$'filter'||S32'update_q'||U32'$pad0'||*{SYM#tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]#}$SYM#tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]#$'sync_guard'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'bloom_guard'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'update_guard'||*{S64}$S64$'last_rotate'||*{SYM#tag-dnsbl_s#}$SYM#tag-dnsbl_s#$'dnsbl'||*{SYM#tag-dnsbl_s#}$SYM#tag-dnsbl_s#$'dnswl'||*{SYM#tag-dnsbl_s#}$SYM#tag-dnsbl_s#$'rhsbl'||SYM#tag-#anon#ST[SYM#tag-sockaddr_in#'gross_host'||SYM#tag-sockaddr_in#'sync_host'||SYM#tag-sockaddr_in#'status_host'||SYM#tag-peer_s#'peer'||S32'max_connq'||U32'$pad0'||S64'rotate_interval'||S64'stat_interval'||U32'filter_size'||U32'num_bufs'||*{S8}$S8$'statefile'||S32'loglevel'||S32'syslogfacility'||S32'statlevel'||S32'flags'||S32'checks'||S32'grey_mask'||S32'protocols'||S32'greylist_delay'||SYM#tag-postfix_config_s#'postfix'||SYM#tag-sjsms_config_s#'sjsms'||SYM#tag-blocker_config_s#'blocker'||S32'query_timelimit'||S32'grey_threshold'||S32'block_threshold'||S32'pool_maxthreads'||U32'$pad1'||*{S8}$S8$'grey_reason'||*{S8}$S8$'block_reason'||*{S8}$S8$'pidfile'|]#'config'||*{SYM#tag-#anon#ST[ARR8{S8}$S8$'magic'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$$'filter_group'||U32'group_size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$$'filter_group'||U32'group_size'||U32'$pad0'|]#$'group'||*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$'aggregate'||U32'current_index'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$$'filter_group'||U32'group_size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$$'filter_group'||U32'group_size'||U32'$pad0'|]#$'group'||*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$'aggregate'||U32'current_index'||U32'$pad0'|]#$'brq'||U64'lumpsize'||S64'last_rotate'|]#}$SYM#tag-#anon#ST[ARR8{S8}$S8$'magic'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$$'filter_group'||U32'group_size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$$'filter_group'||U32'group_size'||U32'$pad0'|]#$'group'||*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$'aggregate'||U32'current_index'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$$'filter_group'||U32'group_size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$$'filter_group'||U32'group_size'||U32'$pad0'|]#$'group'||*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$'aggregate'||U32'current_index'||U32'$pad0'|]#$'brq'||U64'lumpsize'||S64'last_rotate'|]#$'mmap_info'||*{SYM#tag-statefile_info_s#}$SYM#tag-statefile_info_s#$'statefile_info'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[*{U64}$U64$'thread'|]#'bloommgr'||SYM#tag-#anon#ST[*{U64}$U64$'thread'|]#'syncmgr'||SYM#tag-#anon#ST[*{U64}$U64$'thread'|]#'postfix_server'||SYM#tag-#anon#ST[*{U64}$U64$'thread'|]#'sjsms_server'||SYM#tag-#anon#ST[*{U64}$U64$'thread'|]#'milter_server'|]#'process_parts'||SYM#tag-#anon#ST[S64'startup'||S64'begin'||S64'end'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'mx'||U64'block'||U64'greylist'||U64'match'||U64'trust'||U64'all_block'||U64'all_greylist'||U64'all_match'||U64'all_trust'||F64'block_avg_delay'||F64'greylist_avg_delay'||F64'match_avg_delay'||F64'trust_avg_delay'||F64'block_max_delay'||F64'greylist_max_delay'||F64'match_max_delay'||F64'trust_max_delay'||*{SYM#tag-dnsbl_stat#}$SYM#tag-dnsbl_stat#$'dnsbl_match'|]#'stats'||ARR128{*{SYM#tag-#anon#ST[*{SYM#tag-thread_pool_s#}$SYM#tag-thread_pool_s#$'pool'||S32'definitive'||U32'$pad0'||*{S8}$S8$'name'||*{V(*{V}$V$|*{SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#}$SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#$)->V}$V(*{V}$V$|*{SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#}$SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#$)->V$'init_routine'||*{V}$V$'check_arg'|]#}$SYM#tag-#anon#ST[*{SYM#tag-thread_pool_s#}$SYM#tag-thread_pool_s#$'pool'||S32'definitive'||U32'$pad0'||*{S8}$S8$'name'||*{V(*{V}$V$|*{SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#}$SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#$)->V}$V(*{V}$V$|*{SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#}$SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#$)->V$'init_routine'||*{V}$V$'check_arg'|]#$}$*{SYM#tag-#anon#ST[*{SYM#tag-thread_pool_s#}$SYM#tag-thread_pool_s#$'pool'||S32'definitive'||U32'$pad0'||*{S8}$S8$'name'||*{V(*{V}$V$|*{SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#}$SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#$)->V}$V(*{V}$V$|*{SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#}$SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#$)->V$'init_routine'||*{V}$V$'check_arg'|]#}$SYM#tag-#anon#ST[*{SYM#tag-thread_pool_s#}$SYM#tag-thread_pool_s#$'pool'||S32'definitive'||U32'$pad0'||*{S8}$S8$'name'||*{V(*{V}$V$|*{SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#}$SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#$)->V}$V(*{V}$V$|*{SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#}$SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#$)->V$'init_routine'||*{V}$V$'check_arg'|]#$$'checklist'||S32'syslog_open'||U32'$pad1'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#__'filter_group'||U32'group_size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#__'filter_group'||U32'group_size'||U32'_pad0'|]#_'group'||*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_'aggregate'||U32'current_index'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#__'filter_group'||U32'group_size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#__'filter_group'||U32'group_size'||U32'_pad0'|]#_'group'||*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_'aggregate'||U32'current_index'||U32'_pad0'|]#_'filter'||S32'update_q'||U32'_pad0'||*{SYM#tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]#}_SYM#tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]#_'sync_guard'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'bloom_guard'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'update_guard'||*{S64}_S64_'last_rotate'||*{SYM#tag-dnsbl_s#}_SYM#tag-dnsbl_s#_'dnsbl'||*{SYM#tag-dnsbl_s#}_SYM#tag-dnsbl_s#_'dnswl'||*{SYM#tag-dnsbl_s#}_SYM#tag-dnsbl_s#_'rhsbl'||SYM#tag-#anon#ST[SYM#tag-sockaddr_in#'gross_host'||SYM#tag-sockaddr_in#'sync_host'||SYM#tag-sockaddr_in#'status_host'||SYM#tag-peer_s#'peer'||S32'max_connq'||U32'_pad0'||S64'rotate_interval'||S64'stat_interval'||U32'filter_size'||U32'num_bufs'||*{S8}_S8_'statefile'||S32'loglevel'||S32'syslogfacility'||S32'statlevel'||S32'flags'||S32'checks'||S32'grey_mask'||S32'protocols'||S32'greylist_delay'||SYM#tag-postfix_config_s#'postfix'||SYM#tag-sjsms_config_s#'sjsms'||SYM#tag-blocker_config_s#'blocker'||S32'query_timelimit'||S32'grey_threshold'||S32'block_threshold'||S32'pool_maxthreads'||U32'_pad1'||*{S8}_S8_'grey_reason'||*{S8}_S8_'block_reason'||*{S8}_S8_'pidfile'|]#'config'||*{SYM#tag-#anon#ST[ARR8{S8}_S8_'magic'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#__'filter_group'||U32'group_size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#__'filter_group'||U32'group_size'||U32'_pad0'|]#_'group'||*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_'aggregate'||U32'current_index'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#__'filter_group'||U32'group_size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#__'filter_group'||U32'group_size'||U32'_pad0'|]#_'group'||*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_'aggregate'||U32'current_index'||U32'_pad0'|]#_'brq'||U64'lumpsize'||S64'last_rotate'|]#}_SYM#tag-#anon#ST[ARR8{S8}_S8_'magic'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#__'filter_group'||U32'group_size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#__'filter_group'||U32'group_size'||U32'_pad0'|]#_'group'||*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_'aggregate'||U32'current_index'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#__'filter_group'||U32'group_size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#__'filter_group'||U32'group_size'||U32'_pad0'|]#_'group'||*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_'aggregate'||U32'current_index'||U32'_pad0'|]#_'brq'||U64'lumpsize'||S64'last_rotate'|]#_'mmap_info'||*{SYM#tag-statefile_info_s#}_SYM#tag-statefile_info_s#_'statefile_info'||SYM#tag-#anon#ST[SYM#tag-#anon#ST[*{U64}_U64_'thread'|]#'bloommgr'||SYM#tag-#anon#ST[*{U64}_U64_'thread'|]#'syncmgr'||SYM#tag-#anon#ST[*{U64}_U64_'thread'|]#'postfix_server'||SYM#tag-#anon#ST[*{U64}_U64_'thread'|]#'sjsms_server'||SYM#tag-#anon#ST[*{U64}_U64_'thread'|]#'milter_server'|]#'process_parts'||SYM#tag-#anon#ST[S64'startup'||S64'begin'||S64'end'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'mx'||U64'block'||U64'greylist'||U64'match'||U64'trust'||U64'all_block'||U64'all_greylist'||U64'all_match'||U64'all_trust'||F64'block_avg_delay'||F64'greylist_avg_delay'||F64'match_avg_delay'||F64'trust_avg_delay'||F64'block_max_delay'||F64'greylist_max_delay'||F64'match_max_delay'||F64'trust_max_delay'||*{SYM#tag-dnsbl_stat#}_SYM#tag-dnsbl_stat#_'dnsbl_match'|]#'stats'||ARR128{*{SYM#tag-#anon#ST[*{SYM#tag-thread_pool_s#}_SYM#tag-thread_pool_s#_'pool'||S32'definitive'||U32'_pad0'||*{S8}_S8_'name'||*{V(*{V}_V_|*{SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#}_SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#_)->V}_V(*{V}_V_|*{SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#}_SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#_)->V_'init_routine'||*{V}_V_'check_arg'|]#}_SYM#tag-#anon#ST[*{SYM#tag-thread_pool_s#}_SYM#tag-thread_pool_s#_'pool'||S32'definitive'||U32'_pad0'||*{S8}_S8_'name'||*{V(*{V}_V_|*{SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#}_SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#_)->V}_V(*{V}_V_|*{SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#}_SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#_)->V_'init_routine'||*{V}_V_'check_arg'|]#_}_*{SYM#tag-#anon#ST[*{SYM#tag-thread_pool_s#}_SYM#tag-thread_pool_s#_'pool'||S32'definitive'||U32'_pad0'||*{S8}_S8_'name'||*{V(*{V}_V_|*{SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#}_SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#_)->V}_V(*{V}_V_|*{SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#}_SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#_)->V_'init_routine'||*{V}_V_'check_arg'|]#}_SYM#tag-#anon#ST[*{SYM#tag-thread_pool_s#}_SYM#tag-thread_pool_s#_'pool'||S32'definitive'||U32'_pad0'||*{S8}_S8_'name'||*{V(*{V}_V_|*{SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#}_SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#_)->V}_V(*{V}_V_|*{SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#}_SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#_)->V_'init_routine'||*{V}_V_'check_arg'|]#__'checklist'||S32'syslog_open'||U32'_pad1'|]
 // file ../include/common.h line 270
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[*{SYM#tag-msgqueue_s#}$SYM#tag-msgqueue_s#$'inq'||*{SYM#tag-msgqueue_s#}$SYM#tag-msgqueue_s#$'outq'|]
+// tag-#anon#ST[*{SYM#tag-msgqueue_s#}_SYM#tag-msgqueue_s#_'inq'||*{SYM#tag-msgqueue_s#}_SYM#tag-msgqueue_s#_'outq'|]
 // file ../include/msgqueue.h line 45
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[*{SYM#tag-thread_pool_s#}$SYM#tag-thread_pool_s#$'pool'||S32'definitive'||U32'$pad0'||*{S8}$S8$'name'||*{V(*{V}$V$|*{SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#}$SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#$)->V}$V(*{V}$V$|*{SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#}$SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#$)->V$'init_routine'||*{V}$V$'check_arg'|]
+// tag-#anon#ST[*{SYM#tag-thread_pool_s#}_SYM#tag-thread_pool_s#_'pool'||S32'definitive'||U32'_pad0'||*{S8}_S8_'name'||*{V(*{V}_V_|*{SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#}_SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#_)->V}_V(*{V}_V_|*{SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#}_SYM#tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]#_)->V_'init_routine'||*{V}_V_'check_arg'|]
 // file ../include/common.h line 256
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]
+// tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]
 // file ../include/bloom.h line 48
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[*{U64}$U64$'thread'|]
+// tag-#anon#ST[*{U64}_U64_'thread'|]
 // file ../include/common.h line 239
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[ARR8{S8}$S8$'magic'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$$'filter_group'||U32'group_size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$$'filter_group'||U32'group_size'||U32'$pad0'|]#$'group'||*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$'aggregate'||U32'current_index'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$$'filter_group'||U32'group_size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$}$*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$$'filter_group'||U32'group_size'||U32'$pad0'|]#$'group'||*{SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{U32}$U32$'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'$pad0'|]#$'aggregate'||U32'current_index'||U32'$pad0'|]#$'brq'||U64'lumpsize'||S64'last_rotate'|]
+// tag-#anon#ST[ARR8{S8}_S8_'magic'||*{SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#__'filter_group'||U32'group_size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#__'filter_group'||U32'group_size'||U32'_pad0'|]#_'group'||*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_'aggregate'||U32'current_index'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#__'filter_group'||U32'group_size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_}_*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#__'filter_group'||U32'group_size'||U32'_pad0'|]#_'group'||*{SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{U32}_U32_'filter'||U32'bitsize'||U32'mask'||U32'size'||U32'_pad0'|]#_'aggregate'||U32'current_index'||U32'_pad0'|]#_'brq'||U64'lumpsize'||S64'last_rotate'|]
 // file ../include/bloom.h line 69
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$0;
+struct anonymous_0;
 
 // tag-#anon#ST[S32'max_thread'||S32'watchdog_time'||S32'watchdog'|]
 // file ../include/thread_pool.h line 77
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S64'startup'||S64'begin'||S64'end'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'mx'||U64'block'||U64'greylist'||U64'match'||U64'trust'||U64'all_block'||U64'all_greylist'||U64'all_match'||U64'all_trust'||F64'block_avg_delay'||F64'greylist_avg_delay'||F64'match_avg_delay'||F64'trust_avg_delay'||F64'block_max_delay'||F64'greylist_max_delay'||F64'match_max_delay'||F64'trust_max_delay'||*{SYM#tag-dnsbl_stat#}$SYM#tag-dnsbl_stat#$'dnsbl_match'|]
+// tag-#anon#ST[S64'startup'||S64'begin'||S64'end'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'mx'||U64'block'||U64'greylist'||U64'match'||U64'trust'||U64'all_block'||U64'all_greylist'||U64'all_match'||U64'all_trust'||F64'block_avg_delay'||F64'greylist_avg_delay'||F64'match_avg_delay'||F64'trust_avg_delay'||F64'block_max_delay'||F64'greylist_max_delay'||F64'match_max_delay'||F64'trust_max_delay'||*{SYM#tag-dnsbl_stat#}_SYM#tag-dnsbl_stat#_'dnsbl_match'|]
 // file ../include/stats.h line 33
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[*{U64}$U64$'thread'|]#'bloommgr'||SYM#tag-#anon#ST[*{U64}$U64$'thread'|]#'syncmgr'||SYM#tag-#anon#ST[*{U64}$U64$'thread'|]#'postfix_server'||SYM#tag-#anon#ST[*{U64}$U64$'thread'|]#'sjsms_server'||SYM#tag-#anon#ST[*{U64}$U64$'thread'|]#'milter_server'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[*{U64}_U64_'thread'|]#'bloommgr'||SYM#tag-#anon#ST[*{U64}_U64_'thread'|]#'syncmgr'||SYM#tag-#anon#ST[*{U64}_U64_'thread'|]#'postfix_server'||SYM#tag-#anon#ST[*{U64}_U64_'thread'|]#'sjsms_server'||SYM#tag-#anon#ST[*{U64}_U64_'thread'|]#'milter_server'|]
 // file ../include/common.h line 245
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[SYM#tag-sockaddr_in#'gross_host'||SYM#tag-sockaddr_in#'sync_host'||SYM#tag-sockaddr_in#'status_host'||SYM#tag-peer_s#'peer'||S32'max_connq'||U32'$pad0'||S64'rotate_interval'||S64'stat_interval'||U32'filter_size'||U32'num_bufs'||*{S8}$S8$'statefile'||S32'loglevel'||S32'syslogfacility'||S32'statlevel'||S32'flags'||S32'checks'||S32'grey_mask'||S32'protocols'||S32'greylist_delay'||SYM#tag-postfix_config_s#'postfix'||SYM#tag-sjsms_config_s#'sjsms'||SYM#tag-blocker_config_s#'blocker'||S32'query_timelimit'||S32'grey_threshold'||S32'block_threshold'||S32'pool_maxthreads'||U32'$pad1'||*{S8}$S8$'grey_reason'||*{S8}$S8$'block_reason'||*{S8}$S8$'pidfile'|]
+// tag-#anon#ST[SYM#tag-sockaddr_in#'gross_host'||SYM#tag-sockaddr_in#'sync_host'||SYM#tag-sockaddr_in#'status_host'||SYM#tag-peer_s#'peer'||S32'max_connq'||U32'_pad0'||S64'rotate_interval'||S64'stat_interval'||U32'filter_size'||U32'num_bufs'||*{S8}_S8_'statefile'||S32'loglevel'||S32'syslogfacility'||S32'statlevel'||S32'flags'||S32'checks'||S32'grey_mask'||S32'protocols'||S32'greylist_delay'||SYM#tag-postfix_config_s#'postfix'||SYM#tag-sjsms_config_s#'sjsms'||SYM#tag-blocker_config_s#'blocker'||S32'query_timelimit'||S32'grey_threshold'||S32'block_threshold'||S32'pool_maxthreads'||U32'_pad1'||*{S8}_S8_'grey_reason'||*{S8}_S8_'block_reason'||*{S8}_S8_'pidfile'|]
 // file ../include/common.h line 183
-struct anonymous$16;
+struct anonymous_16;
 
 // tag-#anon#ST[U32'array_index'||U32'intra_index'|]
 // file ../include/bloom.h line 42
-struct anonymous$10;
+struct anonymous_10;
 
 // tag-#anon#ST[U32'h0'||U32'h1'||U32'h2'||U32'h3'||U32'h4'||U32'h5'||U32'h6'||U32'h7'|]
 // file ../include/sha256.h line 38
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 239
-union anonymous$13;
+union anonymous_13;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$3;
+union anonymous_3;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -186,16 +186,16 @@ extern signed int * __errno_location(void);
 extern signed int abs(signed int);
 // add_filter
 // file bloom.c line 309
-struct anonymous$4 * add_filter(struct anonymous$4 *lvalue, const struct anonymous$4 *rvalue);
+struct anonymous_4 * add_filter(struct anonymous_4 *lvalue, const struct anonymous_4 *rvalue);
 // add_mask
 // file bloom.c line 92
 unsigned int add_mask(unsigned int intra_index);
 // advance_bloom_ring_queue
 // file bloom.c line 366
-struct anonymous$7 * advance_bloom_ring_queue(struct anonymous$7 *brq);
+struct anonymous_7 * advance_bloom_ring_queue(struct anonymous_7 *brq);
 // array_index
 // file bloom.c line 27
-struct anonymous$10 array_index(unsigned int bit_index);
+struct anonymous_10 array_index(unsigned int bit_index);
 // bloom_error_rate
 // file bloom.c line 278
 double bloom_error_rate(unsigned int n, unsigned int k, unsigned int m);
@@ -204,10 +204,10 @@ double bloom_error_rate(unsigned int n, unsigned int k, unsigned int m);
 unsigned int bloom_required_size(double c, unsigned int k, unsigned int n);
 // bloom_ring_queue_next_index
 // file bloom.c line 356
-unsigned int bloom_ring_queue_next_index(struct anonymous$7 *brq);
+unsigned int bloom_ring_queue_next_index(struct anonymous_7 *brq);
 // build_bloom_ring
 // file srvutils.c line 224
-struct anonymous$7 * build_bloom_ring(unsigned int num, unsigned int num_bits);
+struct anonymous_7 * build_bloom_ring(unsigned int num, unsigned int num_bits);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -231,16 +231,16 @@ extern void closelog(void);
 signed int connected(struct peer_s *peer);
 // copy_bloom_filter
 // file bloom.c line 218
-struct anonymous$4 * copy_bloom_filter(struct anonymous$4 *filter, signed int empty);
+struct anonymous_4 * copy_bloom_filter(struct anonymous_4 *filter, signed int empty);
 // create_bloom_filter
 // file bloom.c line 179
-struct anonymous$4 * create_bloom_filter(unsigned int num_bits);
+struct anonymous_4 * create_bloom_filter(unsigned int num_bits);
 // create_bloom_filter_group
 // file bloom.c line 241
-struct anonymous$6 * create_bloom_filter_group(unsigned int num, unsigned int num_bits);
+struct anonymous_6 * create_bloom_filter_group(unsigned int num, unsigned int num_bits);
 // create_bloom_ring_queue
 // file bloom.c line 327
-struct anonymous$7 * create_bloom_ring_queue(unsigned int num, unsigned int num_bits);
+struct anonymous_7 * create_bloom_ring_queue(unsigned int num, unsigned int num_bits);
 // create_pidfile
 // file srvutils.c line 399
 void create_pidfile(void);
@@ -252,10 +252,10 @@ struct msgqueue_s * create_queue(void);
 void create_statefile(void);
 // create_thread
 // file ../include/srvutils.h line 114
-void * create_thread(struct anonymous$5 *tinfo, signed int detach, void * (*routine)(void *), void *arg);
-// create_thread::routine$object
+void * create_thread(struct anonymous_5 *tinfo, signed int detach, void * (*routine)(void *), void *arg);
+// create_thread::routine_object
 //
-void * routine$object(void *);
+void * routine_object(void *);
 // ctime_r
 // file /usr/include/time.h line 276
 extern char * ctime_r(const signed long int *, char *);
@@ -273,7 +273,7 @@ void daemonize(void);
 unsigned long int date_fmt(char *msg, unsigned long int len);
 // debug_print_array_index
 // file bloom.c line 69
-void debug_print_array_index(struct anonymous$10 index, signed int with_newline);
+void debug_print_array_index(struct anonymous_10 index, signed int with_newline);
 // debug_print_bit_up
 // file bloom.c line 77
 void debug_print_bit_up(unsigned int *array, unsigned int bit_index, signed int with_newline);
@@ -282,10 +282,10 @@ void debug_print_bit_up(unsigned int *array, unsigned int bit_index, signed int 
 void debug_print_bits(signed int value, signed int with_newline);
 // debug_print_filter
 // file bloom.c line 38
-void debug_print_filter(struct anonymous$4 *filter, signed int with_newline);
+void debug_print_filter(struct anonymous_4 *filter, signed int with_newline);
 // debug_print_ring_queue
 // file bloom.c line 409
-void debug_print_ring_queue(struct anonymous$7 *brq, signed int with_newline);
+void debug_print_ring_queue(struct anonymous_7 *brq, signed int with_newline);
 // delay
 // file msgqueue.c line 142
 void * delay(void *arg);
@@ -354,19 +354,19 @@ extern const char * inet_ntop(signed int, const void *, char *, unsigned int);
 void init_bit_array(unsigned int *array, unsigned int size);
 // insert_absolute_bloom_ring_queue
 // file bloom.c line 427
-void insert_absolute_bloom_ring_queue(struct anonymous$7 *brq, unsigned int *buffer, signed int size, signed int index, unsigned int buf_index);
+void insert_absolute_bloom_ring_queue(struct anonymous_7 *brq, unsigned int *buffer, signed int size, signed int index, unsigned int buf_index);
 // insert_bit
 // file bloom.c line 110
 void insert_bit(unsigned int *array, unsigned int bit_index);
 // insert_digest
 // file bloom.c line 139
-void insert_digest(struct anonymous$4 *filter, struct anonymous$9 digest);
+void insert_digest(struct anonymous_4 *filter, struct anonymous_9 digest);
 // insert_digest_bloom_ring_queue
 // file bloom.c line 341
-void insert_digest_bloom_ring_queue(struct anonymous$7 *brq, struct anonymous$9 digest);
+void insert_digest_bloom_ring_queue(struct anonymous_7 *brq, struct anonymous_9 digest);
 // insert_digest_to_group_member
 // file bloom.c line 169
-void insert_digest_to_group_member(struct anonymous$6 *filter_group, unsigned int member_index, struct anonymous$9 digest);
+void insert_digest_to_group_member(struct anonymous_6 *filter_group, unsigned int member_index, struct anonymous_9 digest);
 // instant_msg
 // file msgqueue.c line 448
 signed int instant_msg(signed int msqid, void *omsgp, unsigned long int msgsz, signed int msgflg);
@@ -378,10 +378,10 @@ unsigned int int_to_index(unsigned int value, unsigned int mask);
 char * ipstr(struct sockaddr_in *saddr);
 // is_in_array
 // file bloom.c line 154
-signed int is_in_array(struct anonymous$4 *filter, struct anonymous$9 digest);
+signed int is_in_array(struct anonymous_4 *filter, struct anonymous_9 digest);
 // is_in_ring_queue
 // file bloom.c line 349
-signed int is_in_ring_queue(struct anonymous$7 *brq, struct anonymous$9 digest);
+signed int is_in_ring_queue(struct anonymous_7 *brq, struct anonymous_9 digest);
 // log
 // file /usr/include/x86_64-linux-gnu/bits/mathcalls.h line 109
 extern double log(double);
@@ -468,16 +468,16 @@ extern signed int pthread_attr_setdetachstate(union pthread_attr_t *, signed int
 extern signed int pthread_attr_setstacksize(union pthread_attr_t *, unsigned long int);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$2 *, const union anonymous *);
+extern signed int pthread_cond_init(union anonymous_2 *, const union anonymous *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$2 *);
+extern signed int pthread_cond_signal(union anonymous_2 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$2 *, union anonymous$3 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_2 *, union anonymous_3 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$2 *, union anonymous$3 *);
+extern signed int pthread_cond_wait(union anonymous_2 *, union anonymous_3 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -489,13 +489,13 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$3 *, const union anonymous *);
+extern signed int pthread_mutex_init(union anonymous_3 *, const union anonymous *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$3 *);
+extern signed int pthread_mutex_lock(union anonymous_3 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$3 *);
+extern signed int pthread_mutex_unlock(union anonymous_3 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -534,13 +534,13 @@ extern void * realloc(void *, unsigned long int);
 void register_check(struct thread_pool_s *pool, signed int definitive);
 // release_bloom_filter
 // file bloom.c line 202
-void release_bloom_filter(struct anonymous$4 *filter);
+void release_bloom_filter(struct anonymous_4 *filter);
 // release_bloom_filter_group
 // file bloom.c line 263
-void release_bloom_filter_group(struct anonymous$6 *filter_group);
+void release_bloom_filter_group(struct anonymous_6 *filter_group);
 // release_bloom_ring_queue
 // file srvutils.c line 380
-void release_bloom_ring_queue(struct anonymous$7 *brq);
+void release_bloom_ring_queue(struct anonymous_7 *brq);
 // release_queue
 // file msgqueue.c line 490
 signed int release_queue(signed int msqid);
@@ -549,7 +549,7 @@ signed int release_queue(signed int msqid);
 signed long int respond(signed int fd, const char *response);
 // rotate_bloom_ring_queue
 // file bloom.c line 375
-struct anonymous$7 * rotate_bloom_ring_queue(struct anonymous$7 *brq);
+struct anonymous_7 * rotate_bloom_ring_queue(struct anonymous_7 *brq);
 // set_delay
 // file msgqueue.c line 347
 signed int set_delay(signed int msqid, struct timespec *ts);
@@ -588,7 +588,7 @@ extern char * strncpy(char *, const char *, unsigned long int);
 extern unsigned long int strspn(const char *, const char *);
 // sync_aggregate
 // file bloom.c line 445
-void sync_aggregate(struct anonymous$7 *brq);
+void sync_aggregate(struct anonymous_7 *brq);
 // syslog
 // file /usr/include/x86_64-linux-gnu/sys/syslog.h line 190
 extern void syslog(signed int, const char *, ...);
@@ -628,9 +628,9 @@ signed int walk_mmap_info(void);
 // walk_queue
 // file msgqueue.c line 709
 signed int walk_queue(signed int msgid, signed int (*callback)(void *));
-// walk_queue::callback$object
+// walk_queue::callback_object
 //
-signed int callback$object(void *);
+signed int callback_object(void *);
 // write
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
@@ -645,25 +645,25 @@ signed long int writen(signed int fd, const void *vptr, unsigned long int n);
 signed long int writet(signed int fd, const char *line, const char *terminator);
 // zero_bloom_filter
 // file ../include/bloom.h line 109
-void zero_bloom_filter(struct anonymous$4 *filter);
+void zero_bloom_filter(struct anonymous_4 *filter);
 // zero_bloom_ring_queue
 // file bloom.c line 395
-void zero_bloom_ring_queue(struct anonymous$7 *brq);
+void zero_bloom_ring_queue(struct anonymous_7 *brq);
 
-struct anonymous$6
+struct anonymous_6
 {
   // filter_group
-  struct anonymous$4 **filter_group;
+  struct anonymous_4 **filter_group;
   // group_size
   unsigned int group_size;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // group
-  struct anonymous$6 *group;
+  struct anonymous_6 *group;
   // aggregate
-  struct anonymous$4 *aggregate;
+  struct anonymous_4 *aggregate;
   // current_index
   unsigned int current_index;
 };
@@ -696,7 +696,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -737,7 +737,7 @@ struct peer_s
   // peer_addr
   struct sockaddr_in peer_addr;
   // peer_in_mutex
-  union anonymous$3 peer_in_mutex;
+  union anonymous_3 peer_in_mutex;
   // peerfd_in
   signed int peerfd_in;
   // peerfd_out
@@ -774,7 +774,7 @@ struct blocker_config_s
   signed int weight;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // gross_host
   struct sockaddr_in gross_host;
@@ -834,27 +834,27 @@ struct anonymous$16
   char *pidfile;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // thread
   unsigned long int *thread;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // bloommgr
-  struct anonymous$5 bloommgr;
+  struct anonymous_5 bloommgr;
   // syncmgr
-  struct anonymous$5 syncmgr;
+  struct anonymous_5 syncmgr;
   // postfix_server
-  struct anonymous$5 postfix_server;
+  struct anonymous_5 postfix_server;
   // sjsms_server
-  struct anonymous$5 sjsms_server;
+  struct anonymous_5 sjsms_server;
   // milter_server
-  struct anonymous$5 milter_server;
+  struct anonymous_5 milter_server;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // startup
   signed long int startup;
@@ -863,7 +863,7 @@ struct anonymous$15
   // end
   signed long int end;
   // mx
-  union anonymous$3 mx;
+  union anonymous_3 mx;
   // block
   unsigned long int block;
   // greylist
@@ -900,7 +900,7 @@ struct anonymous$15
   struct dnsbl_stat *dnsbl_match;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // pool
   struct thread_pool_s *pool;
@@ -909,23 +909,23 @@ struct anonymous$12
   // name
   char *name;
   // init_routine
-  void (*init_routine)(void *, struct anonymous$11 *);
+  void (*init_routine)(void *, struct anonymous_11 *);
   // check_arg
   void *check_arg;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // filter
-  struct anonymous$7 *filter;
+  struct anonymous_7 *filter;
   // update_q
   signed int update_q;
   // sync_guard
-  union anonymous$13 *sync_guard;
+  union anonymous_13 *sync_guard;
   // bloom_guard
-  union anonymous$3 bloom_guard;
+  union anonymous_3 bloom_guard;
   // update_guard
-  union anonymous$3 update_guard;
+  union anonymous_3 update_guard;
   // last_rotate
   signed long int *last_rotate;
   // dnsbl
@@ -935,22 +935,22 @@ struct anonymous$17
   // rhsbl
   struct dnsbl_s *rhsbl;
   // config
-  struct anonymous$16 config;
+  struct anonymous_16 config;
   // mmap_info
-  struct anonymous$14 *mmap_info;
+  struct anonymous_14 *mmap_info;
   // statefile_info
   struct statefile_info_s *statefile_info;
   // process_parts
-  struct anonymous$8 process_parts;
+  struct anonymous_8 process_parts;
   // stats
-  struct anonymous$15 stats;
+  struct anonymous_15 stats;
   // checklist
-  struct anonymous$12 *checklist[128l];
+  struct anonymous_12 *checklist[128l];
   // syslog_open
   signed int syslog_open;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // inq
   struct msgqueue_s *inq;
@@ -958,7 +958,7 @@ struct anonymous$1
   struct msgqueue_s *outq;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // filter
   unsigned int *filter;
@@ -970,19 +970,19 @@ struct anonymous$4
   unsigned int size;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // magic
   char magic[8l];
   // brq
-  struct anonymous$7 *brq;
+  struct anonymous_7 *brq;
   // lumpsize
   unsigned long int lumpsize;
   // last_rotate
   signed long int last_rotate;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // __lock
   signed int __lock;
@@ -1002,7 +1002,7 @@ struct anonymous$0
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // max_thread
   signed int max_thread;
@@ -1012,7 +1012,7 @@ struct anonymous$11
   signed int watchdog;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // array_index
   unsigned int array_index;
@@ -1020,7 +1020,7 @@ struct anonymous$10
   unsigned int intra_index;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // h0
   unsigned int h0;
@@ -1040,7 +1040,7 @@ struct anonymous$9
   unsigned int h7;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // __size
   char __size[32l];
@@ -1056,10 +1056,10 @@ union anonymous
   signed int __align;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
-  struct anonymous$0 __data;
+  struct anonymous_0 __data;
   // __size
   char __size[48l];
   // __align
@@ -1183,9 +1183,9 @@ struct msg_s
 struct msgqueue_s
 {
   // cv
-  union anonymous$2 cv;
+  union anonymous_2 cv;
   // mx
-  union anonymous$3 mx;
+  union anonymous_3 mx;
   // head
   struct msg_s *head;
   // tail
@@ -1292,10 +1292,10 @@ struct timeval
 unsigned int BITARRAY_BASE_SIZE = (unsigned int)(sizeof(unsigned int) /*4ul*/  * (unsigned long int)(unsigned int)8);
 // ctx
 // file srvutils.c line 29
-struct anonymous$17 *ctx;
+struct anonymous_17 *ctx;
 // global_queue_lk
 // file msgqueue.c line 53
-union anonymous$3 global_queue_lk = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_3 global_queue_lk = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // initialized
@@ -1336,13 +1336,13 @@ void * Malloc(unsigned long int size)
 
 // add_filter
 // file bloom.c line 309
-struct anonymous$4 * add_filter(struct anonymous$4 *lvalue, const struct anonymous$4 *rvalue)
+struct anonymous_4 * add_filter(struct anonymous_4 *lvalue, const struct anonymous_4 *rvalue)
 {
   signed int i;
   /* assertion lvalue */
-  assert(lvalue != ((struct anonymous$4 *)NULL));
+  assert(lvalue != ((struct anonymous_4 *)NULL));
   /* assertion rvalue */
-  assert(rvalue != ((const struct anonymous$4 *)NULL));
+  assert(rvalue != ((const struct anonymous_4 *)NULL));
   /* assertion lvalue->size == rvalue->size */
   assert(lvalue->size == rvalue->size);
   /* assertion lvalue->mask == rvalue->mask */
@@ -1364,19 +1364,19 @@ unsigned int add_mask(unsigned int intra_index)
 
 // advance_bloom_ring_queue
 // file bloom.c line 366
-struct anonymous$7 * advance_bloom_ring_queue(struct anonymous$7 *brq)
+struct anonymous_7 * advance_bloom_ring_queue(struct anonymous_7 *brq)
 {
   /* assertion brq */
-  assert(brq != ((struct anonymous$7 *)NULL));
+  assert(brq != ((struct anonymous_7 *)NULL));
   brq->current_index=bloom_ring_queue_next_index(brq);
   return brq;
 }
 
 // array_index
 // file bloom.c line 27
-struct anonymous$10 array_index(unsigned int bit_index)
+struct anonymous_10 array_index(unsigned int bit_index)
 {
-  struct anonymous$10 index;
+  struct anonymous_10 index;
   index.array_index = bit_index / BITARRAY_BASE_SIZE;
   index.intra_index = bit_index % BITARRAY_BASE_SIZE;
   return index;
@@ -1386,28 +1386,28 @@ struct anonymous$10 array_index(unsigned int bit_index)
 // file bloom.c line 278
 double bloom_error_rate(unsigned int n, unsigned int k, unsigned int m)
 {
-  double return_value_exp$1;
-  return_value_exp$1=exp(-((double)n * (double)k) / (double)m);
-  return 1.0 - return_value_exp$1 * (double)k;
+  double return_value_exp_1;
+  return_value_exp_1=exp(-((double)n * (double)k) / (double)m);
+  return 1.0 - return_value_exp_1 * (double)k;
 }
 
 // bloom_required_size
 // file bloom.c line 284
 unsigned int bloom_required_size(double c, unsigned int k, unsigned int n)
 {
-  double return_value_pow$1;
-  return_value_pow$1=pow(c, 1.0 / (double)k);
-  double return_value_log$2;
-  return_value_log$2=log(1.0 - return_value_pow$1);
-  return (unsigned int)((-((double)k) * (double)n) / return_value_log$2);
+  double return_value_pow_1;
+  return_value_pow_1=pow(c, 1.0 / (double)k);
+  double return_value_log_2;
+  return_value_log_2=log(1.0 - return_value_pow_1);
+  return (unsigned int)((-((double)k) * (double)n) / return_value_log_2);
 }
 
 // bloom_ring_queue_next_index
 // file bloom.c line 356
-unsigned int bloom_ring_queue_next_index(struct anonymous$7 *brq)
+unsigned int bloom_ring_queue_next_index(struct anonymous_7 *brq)
 {
   /* assertion brq */
-  assert(brq != ((struct anonymous$7 *)NULL));
+  assert(brq != ((struct anonymous_7 *)NULL));
   if(1u + brq->current_index >= brq->group->group_size)
     return (unsigned int)0;
 
@@ -1417,9 +1417,9 @@ unsigned int bloom_ring_queue_next_index(struct anonymous$7 *brq)
 
 // build_bloom_ring
 // file srvutils.c line 224
-struct anonymous$7 * build_bloom_ring(unsigned int num, unsigned int num_bits)
+struct anonymous_7 * build_bloom_ring(unsigned int num, unsigned int num_bits)
 {
-  struct anonymous$7 *brq;
+  struct anonymous_7 *brq;
   char *ptr;
   signed int i;
   signed int ret;
@@ -1429,7 +1429,7 @@ struct anonymous$7 * build_bloom_ring(unsigned int num, unsigned int num_bits)
   signed int use_mmap = 0;
   /* assertion num_bits > 3 */
   assert(num_bits > (unsigned int)3);
-  lumpsize = sizeof(struct anonymous$7) /*24ul*/  + sizeof(struct anonymous$6) /*16ul*/  + (unsigned long int)num * sizeof(struct anonymous$4 *) /*8ul*/  + (unsigned long int)(num + (unsigned int)1) * sizeof(struct anonymous$4) /*24ul*/  + (unsigned long int)((num + (unsigned int)1) * ((unsigned int)(1 << num_bits) / (unsigned int)8));
+  lumpsize = sizeof(struct anonymous_7) /*24ul*/  + sizeof(struct anonymous_6) /*16ul*/  + (unsigned long int)num * sizeof(struct anonymous_4 *) /*8ul*/  + (unsigned long int)(num + (unsigned int)1) * sizeof(struct anonymous_4) /*24ul*/  + (unsigned long int)((num + (unsigned int)1) * ((unsigned int)(1 << num_bits) / (unsigned int)8));
   if(!(ctx->config.statefile == ((char *)NULL)))
     use_mmap = 1;
 
@@ -1438,7 +1438,7 @@ struct anonymous$7 * build_bloom_ring(unsigned int num, unsigned int num_bits)
     if(!(ctx->statefile_info == ((struct statefile_info_s *)NULL)))
       daemon_shutdown(2, "statefile already open");
 
-    lumpsize = lumpsize + sizeof(struct anonymous$14) /*32ul*/ ;
+    lumpsize = lumpsize + sizeof(struct anonymous_14) /*32ul*/ ;
     ret=stat(ctx->config.statefile, &statbuf);
     if(!(ret >= 0))
       daemon_fatal("stat(): statefile opening failed");
@@ -1450,28 +1450,28 @@ struct anonymous$7 * build_bloom_ring(unsigned int num, unsigned int num_bits)
         daemon_shutdown(2, "statefile size differs from the calculated size");
       }
 
-    void *return_value_Malloc$1;
-    return_value_Malloc$1=Malloc(sizeof(struct statefile_info_s) /*4ul*/ );
-    ctx->statefile_info = (struct statefile_info_s *)return_value_Malloc$1;
+    void *return_value_Malloc_1;
+    return_value_Malloc_1=Malloc(sizeof(struct statefile_info_s) /*4ul*/ );
+    ctx->statefile_info = (struct statefile_info_s *)return_value_Malloc_1;
     ctx->statefile_info->fd=open(ctx->config.statefile, 02);
     if(!(ctx->statefile_info->fd >= 0))
       daemon_fatal("open() statefile:");
 
-    void *return_value_mmap$2;
-    return_value_mmap$2=mmap((void *)0, lumpsize, 0x1 | 0x2, 0x01, ctx->statefile_info->fd, (signed long int)0);
-    ptr = (char *)return_value_mmap$2;
+    void *return_value_mmap_2;
+    return_value_mmap_2=mmap((void *)0, lumpsize, 0x1 | 0x2, 0x01, ctx->statefile_info->fd, (signed long int)0);
+    ptr = (char *)return_value_mmap_2;
     /* assertion ptr */
     assert(ptr != ((char *)NULL));
-    ctx->mmap_info = (struct anonymous$14 *)ptr;
+    ctx->mmap_info = (struct anonymous_14 *)ptr;
     ctx->last_rotate = &ctx->mmap_info->last_rotate;
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(magic);
-    signed int return_value_strncmp$4;
-    return_value_strncmp$4=strncmp(ctx->mmap_info->magic, magic, return_value_strlen$3);
-    if(return_value_strncmp$4 == 0)
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(magic);
+    signed int return_value_strncmp_4;
+    return_value_strncmp_4=strncmp(ctx->mmap_info->magic, magic, return_value_strlen_3);
+    if(return_value_strncmp_4 == 0)
     {
       logstr(65543, "Found the correct state file magic string.");
-      ctx->mmap_info->brq = (struct anonymous$7 *)&ctx->mmap_info[(signed long int)1];
+      ctx->mmap_info->brq = (struct anonymous_7 *)&ctx->mmap_info[(signed long int)1];
       walk_mmap_info();
       return ctx->mmap_info->brq;
     }
@@ -1479,39 +1479,39 @@ struct anonymous$7 * build_bloom_ring(unsigned int num, unsigned int num_bits)
     logstr(65543, "Unable to find the state file magic string. Initializing.");
     strncpy(ctx->mmap_info->magic, magic, (unsigned long int)8);
     ctx->mmap_info->last_rotate=time((signed long int *)(void *)0);
-    ptr = ptr + (signed long int)sizeof(struct anonymous$14) /*32ul*/ ;
+    ptr = ptr + (signed long int)sizeof(struct anonymous_14) /*32ul*/ ;
   }
 
   else
   {
-    void *return_value_Malloc$5;
-    return_value_Malloc$5=Malloc(lumpsize);
-    ptr = (char *)return_value_Malloc$5;
+    void *return_value_Malloc_5;
+    return_value_Malloc_5=Malloc(lumpsize);
+    ptr = (char *)return_value_Malloc_5;
   }
-  brq = (struct anonymous$7 *)ptr;
+  brq = (struct anonymous_7 *)ptr;
   if(!(use_mmap == 0))
     ctx->mmap_info->brq = brq;
 
   brq->current_index = (unsigned int)0;
-  ptr = ptr + (signed long int)sizeof(struct anonymous$7) /*24ul*/ ;
-  brq->group = (struct anonymous$6 *)ptr;
+  ptr = ptr + (signed long int)sizeof(struct anonymous_7) /*24ul*/ ;
+  brq->group = (struct anonymous_6 *)ptr;
   brq->group->group_size = num;
-  ptr = ptr + (signed long int)sizeof(struct anonymous$6) /*16ul*/ ;
-  brq->group->filter_group = (struct anonymous$4 **)ptr;
-  ptr = ptr + (signed long int)((unsigned long int)num * sizeof(struct anonymous$4 *) /*8ul*/ );
-  brq->aggregate = (struct anonymous$4 *)ptr;
+  ptr = ptr + (signed long int)sizeof(struct anonymous_6) /*16ul*/ ;
+  brq->group->filter_group = (struct anonymous_4 **)ptr;
+  ptr = ptr + (signed long int)((unsigned long int)num * sizeof(struct anonymous_4 *) /*8ul*/ );
+  brq->aggregate = (struct anonymous_4 *)ptr;
   brq->aggregate->bitsize = (unsigned int)(1 << num_bits);
   brq->aggregate->mask = (unsigned int)-1 >> BITARRAY_BASE_SIZE - num_bits;
   brq->aggregate->size = brq->aggregate->bitsize / BITARRAY_BASE_SIZE;
   i = 0;
   for( ; !((unsigned int)i >= brq->group->group_size); i = i + 1)
   {
-    brq->group->filter_group[(signed long int)i] = (struct anonymous$4 *)(ptr + (signed long int)(sizeof(struct anonymous$4) /*24ul*/  * (unsigned long int)(i + 1)));
+    brq->group->filter_group[(signed long int)i] = (struct anonymous_4 *)(ptr + (signed long int)(sizeof(struct anonymous_4) /*24ul*/  * (unsigned long int)(i + 1)));
     brq->group->filter_group[(signed long int)i]->bitsize = (unsigned int)(1 << num_bits);
     brq->group->filter_group[(signed long int)i]->mask = (unsigned int)-1 >> BITARRAY_BASE_SIZE - num_bits;
     brq->group->filter_group[(signed long int)i]->size = brq->group->filter_group[(signed long int)i]->bitsize / BITARRAY_BASE_SIZE;
   }
-  ptr = ptr + (signed long int)((unsigned long int)(num + (unsigned int)1) * sizeof(struct anonymous$4) /*24ul*/ );
+  ptr = ptr + (signed long int)((unsigned long int)(num + (unsigned int)1) * sizeof(struct anonymous_4) /*24ul*/ );
   brq->aggregate->filter = (unsigned int *)ptr;
   i = 0;
   for( ; !((unsigned int)i >= brq->group->group_size); i = i + 1)
@@ -1538,11 +1538,11 @@ void check_pidfile(void)
   signed int ret;
   struct stat statinfo;
   ret=stat(ctx->config.pidfile, &statinfo);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(!(ret >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 2))
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 2))
       daemon_fatal("stat");
 
     else
@@ -1561,9 +1561,9 @@ __CPROVER_DUMP_L5:
 signed int chomp(char *buffer)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(buffer);
-  len = (signed int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(buffer);
+  len = (signed int)return_value_strlen_1;
   if(!(len >= 2))
     return -1;
 
@@ -1588,20 +1588,20 @@ signed int connected(struct peer_s *peer)
 
 // copy_bloom_filter
 // file bloom.c line 218
-struct anonymous$4 * copy_bloom_filter(struct anonymous$4 *filter, signed int empty)
+struct anonymous_4 * copy_bloom_filter(struct anonymous_4 *filter, signed int empty)
 {
-  struct anonymous$4 *tmp;
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc(sizeof(struct anonymous$4) /*24ul*/ );
-  tmp = (struct anonymous$4 *)return_value_Malloc$1;
+  struct anonymous_4 *tmp;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc(sizeof(struct anonymous_4) /*24ul*/ );
+  tmp = (struct anonymous_4 *)return_value_Malloc_1;
   /* assertion tmp */
-  assert(tmp != ((struct anonymous$4 *)NULL));
+  assert(tmp != ((struct anonymous_4 *)NULL));
   tmp->bitsize = filter->bitsize;
   tmp->mask = filter->mask;
   tmp->size = filter->size;
-  void *return_value_Malloc$2;
-  return_value_Malloc$2=Malloc((unsigned long int)(tmp->bitsize / (unsigned int)8));
-  tmp->filter = (unsigned int *)return_value_Malloc$2;
+  void *return_value_Malloc_2;
+  return_value_Malloc_2=Malloc((unsigned long int)(tmp->bitsize / (unsigned int)8));
+  tmp->filter = (unsigned int *)return_value_Malloc_2;
   /* assertion tmp->filter */
   assert(tmp->filter != ((unsigned int *)NULL));
   if(!(empty == 0))
@@ -1614,25 +1614,25 @@ struct anonymous$4 * copy_bloom_filter(struct anonymous$4 *filter, signed int em
 
 // create_bloom_filter
 // file bloom.c line 179
-struct anonymous$4 * create_bloom_filter(unsigned int num_bits)
+struct anonymous_4 * create_bloom_filter(unsigned int num_bits)
 {
-  struct anonymous$4 *result;
+  struct anonymous_4 *result;
   /* assertion num_bits < sizeof(num_bits) * ((uint32_t)8) */
   assert((unsigned long int)num_bits < sizeof(unsigned int) /*4ul*/  * (unsigned long int)(unsigned int)8);
   /* assertion num_bits >= 4 */
   assert(num_bits >= (unsigned int)4);
   /* assertion num_bits <= 32 */
   assert(num_bits <= (unsigned int)32);
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc(sizeof(struct anonymous$4) /*24ul*/ );
-  result = (struct anonymous$4 *)return_value_Malloc$1;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc(sizeof(struct anonymous_4) /*24ul*/ );
+  result = (struct anonymous_4 *)return_value_Malloc_1;
   /* assertion result */
-  assert(result != ((struct anonymous$4 *)NULL));
+  assert(result != ((struct anonymous_4 *)NULL));
   result->bitsize = (unsigned int)(1 << num_bits);
   result->mask = (unsigned int)-1 >> BITARRAY_BASE_SIZE - num_bits;
-  void *return_value_Malloc$2;
-  return_value_Malloc$2=Malloc((unsigned long int)(result->bitsize / (unsigned int)8));
-  result->filter = (unsigned int *)return_value_Malloc$2;
+  void *return_value_Malloc_2;
+  return_value_Malloc_2=Malloc((unsigned long int)(result->bitsize / (unsigned int)8));
+  result->filter = (unsigned int *)return_value_Malloc_2;
   result->size = result->bitsize / BITARRAY_BASE_SIZE;
   zero_bloom_filter(result);
   return result;
@@ -1640,39 +1640,39 @@ struct anonymous$4 * create_bloom_filter(unsigned int num_bits)
 
 // create_bloom_filter_group
 // file bloom.c line 241
-struct anonymous$6 * create_bloom_filter_group(unsigned int num, unsigned int num_bits)
+struct anonymous_6 * create_bloom_filter_group(unsigned int num, unsigned int num_bits)
 {
-  struct anonymous$6 *result;
+  struct anonymous_6 *result;
   unsigned int i;
   /* assertion num > 0 */
   assert(num > (unsigned int)0);
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc(sizeof(struct anonymous$6) /*16ul*/ );
-  result = (struct anonymous$6 *)return_value_Malloc$1;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc(sizeof(struct anonymous_6) /*16ul*/ );
+  result = (struct anonymous_6 *)return_value_Malloc_1;
   result->group_size = num;
-  void *return_value_Malloc$2;
-  return_value_Malloc$2=Malloc(sizeof(struct anonymous$6 *) /*8ul*/  * (unsigned long int)num);
-  result->filter_group = (struct anonymous$4 **)return_value_Malloc$2;
+  void *return_value_Malloc_2;
+  return_value_Malloc_2=Malloc(sizeof(struct anonymous_6 *) /*8ul*/  * (unsigned long int)num);
+  result->filter_group = (struct anonymous_4 **)return_value_Malloc_2;
   /* assertion result->filter_group */
-  assert(result->filter_group != ((struct anonymous$4 **)NULL));
+  assert(result->filter_group != ((struct anonymous_4 **)NULL));
   i = (unsigned int)0;
   for( ; !(i >= result->group_size); i = i + 1u)
   {
     result->filter_group[(signed long int)i]=create_bloom_filter(num_bits);
     /* assertion result->filter_group[i] */
-    assert(result->filter_group[(signed long int)i] != ((struct anonymous$4 *)NULL));
+    assert(result->filter_group[(signed long int)i] != ((struct anonymous_4 *)NULL));
   }
   return result;
 }
 
 // create_bloom_ring_queue
 // file bloom.c line 327
-struct anonymous$7 * create_bloom_ring_queue(unsigned int num, unsigned int num_bits)
+struct anonymous_7 * create_bloom_ring_queue(unsigned int num, unsigned int num_bits)
 {
-  struct anonymous$7 *result;
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc(sizeof(struct anonymous$7) /*24ul*/ );
-  result = (struct anonymous$7 *)return_value_Malloc$1;
+  struct anonymous_7 *result;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc(sizeof(struct anonymous_7) /*24ul*/ );
+  result = (struct anonymous_7 *)return_value_Malloc_1;
   result->group=create_bloom_filter_group(num, num_bits);
   result->current_index = (unsigned int)0;
   result->aggregate=create_bloom_filter(num_bits);
@@ -1691,9 +1691,9 @@ void create_pidfile(void)
   pf=fopen(ctx->config.pidfile, "w");
   if(!(pf == ((struct _IO_FILE *)NULL)))
   {
-    signed int return_value_getpid$1;
-    return_value_getpid$1=getpid();
-    ret=fprintf(pf, "%d", return_value_getpid$1);
+    signed int return_value_getpid_1;
+    return_value_getpid_1=getpid();
+    ret=fprintf(pf, "%d", return_value_getpid_1);
     if(!(ret >= 0))
       daemon_fatal("writing pidfile");
 
@@ -1709,9 +1709,9 @@ void create_pidfile(void)
 struct msgqueue_s * create_queue(void)
 {
   struct msgqueue_s *mq;
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc(sizeof(struct msgqueue_s) /*144ul*/ );
-  mq = (struct msgqueue_s *)return_value_Malloc$1;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc(sizeof(struct msgqueue_s) /*144ul*/ );
+  mq = (struct msgqueue_s *)return_value_Malloc_1;
   memset((void *)mq, 0, sizeof(struct msgqueue_s) /*144ul*/ );
   pthread_cond_init(&mq->cv, (const union anonymous *)(void *)0);
   pthread_mutex_init(&mq->mx, (const union anonymous *)(void *)0);
@@ -1729,17 +1729,17 @@ void create_statefile(void)
   struct _IO_FILE *statefile;
   unsigned int num = ctx->config.num_bufs;
   unsigned int num_bits = ctx->config.filter_size;
-  lumpsize = sizeof(struct anonymous$7) /*24ul*/  + sizeof(struct anonymous$6) /*16ul*/  + (unsigned long int)num * sizeof(struct anonymous$4 *) /*8ul*/  + (unsigned long int)(num + (unsigned int)1) * sizeof(struct anonymous$4) /*24ul*/  + (unsigned long int)((num + (unsigned int)1) * ((unsigned int)(1 << num_bits) / (unsigned int)8)) + sizeof(struct anonymous$14) /*32ul*/ ;
+  lumpsize = sizeof(struct anonymous_7) /*24ul*/  + sizeof(struct anonymous_6) /*16ul*/  + (unsigned long int)num * sizeof(struct anonymous_4 *) /*8ul*/  + (unsigned long int)(num + (unsigned int)1) * sizeof(struct anonymous_4) /*24ul*/  + (unsigned long int)((num + (unsigned int)1) * ((unsigned int)(1 << num_bits) / (unsigned int)8)) + sizeof(struct anonymous_14) /*32ul*/ ;
   ret=stat(ctx->config.statefile, &statbuf);
-  signed int *return_value___errno_location$2;
-  signed int return_value_fputc$1;
+  signed int *return_value___errno_location_2;
+  signed int return_value_fputc_1;
   if(ret == 0)
     daemon_shutdown(2, "statefile already exists");
 
   else
   {
-    return_value___errno_location$2=__errno_location();
-    if(*return_value___errno_location$2 == 2)
+    return_value___errno_location_2=__errno_location();
+    if(*return_value___errno_location_2 == 2)
     {
       statefile=fopen(ctx->config.statefile, "w");
       if(statefile == ((struct _IO_FILE *)NULL))
@@ -1748,8 +1748,8 @@ void create_statefile(void)
       i = 0;
       for( ; !((unsigned long int)i >= lumpsize); i = i + 1)
       {
-        return_value_fputc$1=fputc(0, statefile);
-        if(!(return_value_fputc$1 == 0))
+        return_value_fputc_1=fputc(0, statefile);
+        if(!(return_value_fputc_1 == 0))
           daemon_fatal("fputc()");
 
       }
@@ -1767,14 +1767,14 @@ __CPROVER_DUMP_L8:
 
 // create_thread
 // file ../include/srvutils.h line 114
-void * create_thread(struct anonymous$5 *tinfo, signed int detach, void * (*routine)(void *), void *arg)
+void * create_thread(struct anonymous_5 *tinfo, signed int detach, void * (*routine)(void *), void *arg)
 {
   unsigned long int *tid;
   union pthread_attr_t tattr;
   signed int ret;
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc(sizeof(unsigned long int) /*8ul*/ );
-  tid = (unsigned long int *)return_value_Malloc$1;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc(sizeof(unsigned long int) /*8ul*/ );
+  tid = (unsigned long int *)return_value_Malloc_1;
   ret=pthread_attr_init(&tattr);
   if(!(ret == 0))
     daemon_fatal("pthread_attr_init");
@@ -1795,7 +1795,7 @@ void * create_thread(struct anonymous$5 *tinfo, signed int detach, void * (*rout
   if(!(ret == 0))
     daemon_fatal("pthread_create");
 
-  if(!(tinfo == ((struct anonymous$5 *)NULL)))
+  if(!(tinfo == ((struct anonymous_5 *)NULL)))
     tinfo->thread = tid;
 
   else
@@ -1817,20 +1817,20 @@ void daemon_fatal(const char *reason)
   char *errstr;
   signed int errnum;
   unsigned long int combolen;
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  errnum = *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  errnum = *return_value___errno_location_1;
   errstr=strerror(errnum);
   /* assertion errstr */
   assert(errstr != ((char *)NULL));
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(reason);
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(errstr);
-  combolen = return_value_strlen$2 + (unsigned long int)1 + return_value_strlen$3 + (unsigned long int)1;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(combolen);
-  combo = (char *)return_value_malloc$4;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(reason);
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(errstr);
+  combolen = return_value_strlen_2 + (unsigned long int)1 + return_value_strlen_3 + (unsigned long int)1;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(combolen);
+  combo = (char *)return_value_malloc_4;
   /* assertion combo */
   assert(combo != ((char *)NULL));
   snprintf(combo, combolen, "%s %s\n", reason, errstr);
@@ -1937,14 +1937,14 @@ unsigned long int date_fmt(char *msg, unsigned long int len)
   snprintf(buf, (unsigned long int)(1024 - 1), "%s %s\n", (const void *)timestr, msg);
   strncpy(msg, buf, len - (unsigned long int)1);
   msg[(signed long int)(len - (unsigned long int)1)] = (char)0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(msg);
-  return return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(msg);
+  return return_value_strlen_1;
 }
 
 // debug_print_array_index
 // file bloom.c line 69
-void debug_print_array_index(struct anonymous$10 index, signed int with_newline)
+void debug_print_array_index(struct anonymous_10 index, signed int with_newline)
 {
   printf("array index=%d intra index=%d", index.array_index, index.intra_index);
   if(!(with_newline == 0))
@@ -1956,7 +1956,7 @@ void debug_print_array_index(struct anonymous$10 index, signed int with_newline)
 // file bloom.c line 77
 void debug_print_bit_up(unsigned int *array, unsigned int bit_index, signed int with_newline)
 {
-  struct anonymous$10 index;
+  struct anonymous_10 index;
   index=array_index(bit_index);
   unsigned int bit;
   bit=get_bit(array, bit_index);
@@ -1988,11 +1988,11 @@ void debug_print_bits(signed int value, signed int with_newline)
 
 // debug_print_filter
 // file bloom.c line 38
-void debug_print_filter(struct anonymous$4 *filter, signed int with_newline)
+void debug_print_filter(struct anonymous_4 *filter, signed int with_newline)
 {
   signed int i;
   /* assertion filter */
-  assert(filter != ((struct anonymous$4 *)NULL));
+  assert(filter != ((struct anonymous_4 *)NULL));
   i = 0;
   for( ; !((unsigned int)i >= filter->size); i = i + 1)
     debug_print_bits((signed int)filter->filter[(signed long int)i], 0);
@@ -2003,11 +2003,11 @@ void debug_print_filter(struct anonymous$4 *filter, signed int with_newline)
 
 // debug_print_ring_queue
 // file bloom.c line 409
-void debug_print_ring_queue(struct anonymous$7 *brq, signed int with_newline)
+void debug_print_ring_queue(struct anonymous_7 *brq, signed int with_newline)
 {
   unsigned int i;
   /* assertion brq */
-  assert(brq != ((struct anonymous$7 *)NULL));
+  assert(brq != ((struct anonymous_7 *)NULL));
   printf("Aggregate: ");
   debug_print_filter(brq->aggregate, 1);
   i = (unsigned int)0;
@@ -2025,7 +2025,7 @@ void debug_print_ring_queue(struct anonymous$7 *brq, signed int with_newline)
 // file msgqueue.c line 142
 void * delay(void *arg)
 {
-  struct anonymous$1 *queue_info;
+  struct anonymous_1 *queue_info;
   struct msg_s *msg;
   struct timespec sleeptime;
   struct timespec reftime;
@@ -2034,8 +2034,8 @@ void * delay(void *arg)
   struct timespec *msgtimestamp;
   signed int ret;
   logstr(65543, "delay queue manager thread starting");
-  queue_info = (struct anonymous$1 *)arg;
-  _Bool tmp_if_expr$1;
+  queue_info = (struct anonymous_1 *)arg;
+  _Bool tmp_if_expr_1;
   do
   {
     logstr(65544, "waiting for messages");
@@ -2047,11 +2047,11 @@ void * delay(void *arg)
         if(!(queue_info->inq->delay_ts == ((struct timespec *)NULL)))
         {
           if(!(queue_info->inq->delay_ts->tv_sec == 0l))
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = queue_info->inq->delay_ts->tv_nsec != 0l ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = queue_info->inq->delay_ts->tv_nsec != 0l ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
           {
             clock_gettime(1, &now);
             ts_sum(&reftime, msgtimestamp, queue_info->inq->delay_ts);
@@ -2091,25 +2091,25 @@ void * delay(void *arg)
 // file msgqueue.c line 253
 signed int disable_delay(signed int msqid)
 {
-  signed int return_value_set_delay_status$1;
-  return_value_set_delay_status$1=set_delay_status(msqid, 0);
-  return return_value_set_delay_status$1;
+  signed int return_value_set_delay_status_1;
+  return_value_set_delay_status_1=set_delay_status(msqid, 0);
+  return return_value_set_delay_status_1;
 }
 
 // enable_delay
 // file msgqueue.c line 259
 signed int enable_delay(signed int msqid)
 {
-  signed int return_value_set_delay_status$1;
-  return_value_set_delay_status$1=set_delay_status(msqid, 1);
-  return return_value_set_delay_status$1;
+  signed int return_value_set_delay_status_1;
+  return_value_set_delay_status_1=set_delay_status(msqid, 1);
+  return return_value_set_delay_status_1;
 }
 
 // get_bit
 // file bloom.c line 99
 unsigned int get_bit(unsigned int *array, unsigned int bit_index)
 {
-  struct anonymous$10 index;
+  struct anonymous_10 index;
   index=array_index(bit_index);
   /* assertion array */
   assert(array != ((unsigned int *)NULL));
@@ -2124,24 +2124,24 @@ signed int get_delay_queue(struct timespec *ts)
 {
   signed int putqid;
   signed int getqid;
-  struct anonymous$1 *queue_info;
+  struct anonymous_1 *queue_info;
   signed int *impose_delay;
   if(ts == ((struct timespec *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
-  void *return_value_Malloc$2;
-  return_value_Malloc$2=Malloc(sizeof(struct anonymous$1) /*16ul*/ );
-  queue_info = (struct anonymous$1 *)return_value_Malloc$2;
+  void *return_value_Malloc_2;
+  return_value_Malloc_2=Malloc(sizeof(struct anonymous_1) /*16ul*/ );
+  queue_info = (struct anonymous_1 *)return_value_Malloc_2;
   putqid=get_queue();
   getqid=get_queue();
-  void *return_value_Malloc$3;
-  return_value_Malloc$3=Malloc(sizeof(signed int) /*4ul*/ );
-  impose_delay = (signed int *)return_value_Malloc$3;
+  void *return_value_Malloc_3;
+  return_value_Malloc_3=Malloc(sizeof(signed int) /*4ul*/ );
+  impose_delay = (signed int *)return_value_Malloc_3;
   *impose_delay = 1;
   queue_info->inq=queuebyid(putqid);
   /* assertion queue_info->inq != ((void *)0) */
@@ -2155,7 +2155,7 @@ signed int get_delay_queue(struct timespec *ts)
   queue_info->outq->impose_delay = impose_delay;
   queue_info->inq->delaypair = queue_info->outq;
   queue_info->outq->delaypair = queue_info->inq;
-  create_thread((struct anonymous$5 *)(void *)0, 1, delay, (void *)queue_info);
+  create_thread((struct anonymous_5 *)(void *)0, 1, delay, (void *)queue_info);
   return putqid;
 }
 
@@ -2163,9 +2163,9 @@ signed int get_delay_queue(struct timespec *ts)
 // file msgqueue.c line 645
 unsigned long int get_msg(signed int msqid, void *msgp, unsigned long int maxsize, signed int msgflag)
 {
-  unsigned long int return_value_get_msg_timed$1;
-  return_value_get_msg_timed$1=get_msg_timed(msqid, msgp, maxsize, msgflag, 0);
-  return return_value_get_msg_timed$1;
+  unsigned long int return_value_get_msg_timed_1;
+  return_value_get_msg_timed_1=get_msg_timed(msqid, msgp, maxsize, msgflag, 0);
+  return return_value_get_msg_timed_1;
 }
 
 // get_msg_raw
@@ -2188,9 +2188,9 @@ struct msg_s * get_msg_raw(struct msgqueue_s *mq, signed int timeout)
     assert(ret == 0);
     msg = (struct msg_s *)(void *)0;
     mstotimespec(timeout, &to);
-    signed long int return_value_time$1;
-    return_value_time$1=time((signed long int *)(void *)0);
-    to.tv_sec = to.tv_sec + return_value_time$1;
+    signed long int return_value_time_1;
+    return_value_time_1=time((signed long int *)(void *)0);
+    to.tv_sec = to.tv_sec + return_value_time_1;
     if(timeout >= 0)
       while(mq->head == ((struct msg_s *)NULL))
         if(timeout == 0)
@@ -2276,15 +2276,15 @@ signed int get_queue(void)
 {
   signed int i;
   struct msgqueue_s *mq;
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&global_queue_lk);
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&global_queue_lk);
   /* assertion pthread_mutex_lock(&global_queue_lk) == 0 */
-  assert(return_value_pthread_mutex_lock$1 == 0);
+  assert(return_value_pthread_mutex_lock_1 == 0);
   if(initialized == 0)
   {
-    void *return_value_calloc$2;
-    return_value_calloc$2=calloc((unsigned long int)queuespace, sizeof(struct msgqueue_s *) /*8ul*/ );
-    queues = (struct msgqueue_s **)return_value_calloc$2;
+    void *return_value_calloc_2;
+    return_value_calloc_2=calloc((unsigned long int)queuespace, sizeof(struct msgqueue_s *) /*8ul*/ );
+    queues = (struct msgqueue_s **)return_value_calloc_2;
     metaqueue=create_queue();
     metaqueue->active = 1;
     initialized = 1;
@@ -2335,11 +2335,11 @@ void init_bit_array(unsigned int *array, unsigned int size)
 
 // insert_absolute_bloom_ring_queue
 // file bloom.c line 427
-void insert_absolute_bloom_ring_queue(struct anonymous$7 *brq, unsigned int *buffer, signed int size, signed int index, unsigned int buf_index)
+void insert_absolute_bloom_ring_queue(struct anonymous_7 *brq, unsigned int *buffer, signed int size, signed int index, unsigned int buf_index)
 {
   unsigned int i;
   /* assertion brq */
-  assert(brq != ((struct anonymous$7 *)NULL));
+  assert(brq != ((struct anonymous_7 *)NULL));
   /* assertion buf_index < brq->group->group_size */
   assert(buf_index < brq->group->group_size);
   if(!(brq->group->filter_group[(signed long int)buf_index]->size >= (unsigned int)size))
@@ -2358,65 +2358,65 @@ void insert_absolute_bloom_ring_queue(struct anonymous$7 *brq, unsigned int *buf
 // file bloom.c line 110
 void insert_bit(unsigned int *array, unsigned int bit_index)
 {
-  struct anonymous$10 index;
+  struct anonymous_10 index;
   index=array_index(bit_index);
   /* assertion array */
   assert(array != ((unsigned int *)NULL));
   /* assertion index.intra_index <= 32 */
   assert(index.intra_index <= (unsigned int)32);
-  unsigned int return_value_add_mask$1;
-  return_value_add_mask$1=add_mask(index.intra_index);
-  array[(signed long int)index.array_index] = array[(signed long int)index.array_index] | return_value_add_mask$1;
+  unsigned int return_value_add_mask_1;
+  return_value_add_mask_1=add_mask(index.intra_index);
+  array[(signed long int)index.array_index] = array[(signed long int)index.array_index] | return_value_add_mask_1;
 }
 
 // insert_digest
 // file bloom.c line 139
-void insert_digest(struct anonymous$4 *filter, struct anonymous$9 digest)
+void insert_digest(struct anonymous_4 *filter, struct anonymous_9 digest)
 {
   /* assertion filter */
-  assert(filter != ((struct anonymous$4 *)NULL));
-  unsigned int return_value_int_to_index$1;
-  return_value_int_to_index$1=int_to_index(digest.h0, filter->mask);
-  insert_bit(filter->filter, return_value_int_to_index$1);
-  unsigned int return_value_int_to_index$2;
-  return_value_int_to_index$2=int_to_index(digest.h1, filter->mask);
-  insert_bit(filter->filter, return_value_int_to_index$2);
-  unsigned int return_value_int_to_index$3;
-  return_value_int_to_index$3=int_to_index(digest.h2, filter->mask);
-  insert_bit(filter->filter, return_value_int_to_index$3);
-  unsigned int return_value_int_to_index$4;
-  return_value_int_to_index$4=int_to_index(digest.h3, filter->mask);
-  insert_bit(filter->filter, return_value_int_to_index$4);
-  unsigned int return_value_int_to_index$5;
-  return_value_int_to_index$5=int_to_index(digest.h4, filter->mask);
-  insert_bit(filter->filter, return_value_int_to_index$5);
-  unsigned int return_value_int_to_index$6;
-  return_value_int_to_index$6=int_to_index(digest.h5, filter->mask);
-  insert_bit(filter->filter, return_value_int_to_index$6);
-  unsigned int return_value_int_to_index$7;
-  return_value_int_to_index$7=int_to_index(digest.h6, filter->mask);
-  insert_bit(filter->filter, return_value_int_to_index$7);
-  unsigned int return_value_int_to_index$8;
-  return_value_int_to_index$8=int_to_index(digest.h7, filter->mask);
-  insert_bit(filter->filter, return_value_int_to_index$8);
+  assert(filter != ((struct anonymous_4 *)NULL));
+  unsigned int return_value_int_to_index_1;
+  return_value_int_to_index_1=int_to_index(digest.h0, filter->mask);
+  insert_bit(filter->filter, return_value_int_to_index_1);
+  unsigned int return_value_int_to_index_2;
+  return_value_int_to_index_2=int_to_index(digest.h1, filter->mask);
+  insert_bit(filter->filter, return_value_int_to_index_2);
+  unsigned int return_value_int_to_index_3;
+  return_value_int_to_index_3=int_to_index(digest.h2, filter->mask);
+  insert_bit(filter->filter, return_value_int_to_index_3);
+  unsigned int return_value_int_to_index_4;
+  return_value_int_to_index_4=int_to_index(digest.h3, filter->mask);
+  insert_bit(filter->filter, return_value_int_to_index_4);
+  unsigned int return_value_int_to_index_5;
+  return_value_int_to_index_5=int_to_index(digest.h4, filter->mask);
+  insert_bit(filter->filter, return_value_int_to_index_5);
+  unsigned int return_value_int_to_index_6;
+  return_value_int_to_index_6=int_to_index(digest.h5, filter->mask);
+  insert_bit(filter->filter, return_value_int_to_index_6);
+  unsigned int return_value_int_to_index_7;
+  return_value_int_to_index_7=int_to_index(digest.h6, filter->mask);
+  insert_bit(filter->filter, return_value_int_to_index_7);
+  unsigned int return_value_int_to_index_8;
+  return_value_int_to_index_8=int_to_index(digest.h7, filter->mask);
+  insert_bit(filter->filter, return_value_int_to_index_8);
 }
 
 // insert_digest_bloom_ring_queue
 // file bloom.c line 341
-void insert_digest_bloom_ring_queue(struct anonymous$7 *brq, struct anonymous$9 digest)
+void insert_digest_bloom_ring_queue(struct anonymous_7 *brq, struct anonymous_9 digest)
 {
   /* assertion brq */
-  assert(brq != ((struct anonymous$7 *)NULL));
+  assert(brq != ((struct anonymous_7 *)NULL));
   insert_digest(brq->aggregate, digest);
   insert_digest_to_group_member(brq->group, brq->current_index, digest);
 }
 
 // insert_digest_to_group_member
 // file bloom.c line 169
-void insert_digest_to_group_member(struct anonymous$6 *filter_group, unsigned int member_index, struct anonymous$9 digest)
+void insert_digest_to_group_member(struct anonymous_6 *filter_group, unsigned int member_index, struct anonymous_9 digest)
 {
   /* assertion filter_group */
-  assert(filter_group != ((struct anonymous$6 *)NULL));
+  assert(filter_group != ((struct anonymous_6 *)NULL));
   /* assertion member_index < filter_group->group_size */
   assert(member_index < filter_group->group_size);
   insert_digest(filter_group->filter_group[(signed long int)member_index], digest);
@@ -2439,9 +2439,9 @@ signed int instant_msg(signed int msqid, void *omsgp, unsigned long int msgsz, s
 
   /* assertion mq */
   assert(mq != ((struct msgqueue_s *)NULL));
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc(sizeof(struct msg_s) /*40ul*/ );
-  new = (struct msg_s *)return_value_Malloc$1;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc(sizeof(struct msg_s) /*40ul*/ );
+  new = (struct msg_s *)return_value_Malloc_1;
   memset((void *)new, 0, sizeof(struct msg_s) /*40ul*/ );
   clock_gettime(1, &new->timestamp);
   truesize = msgsz + sizeof(signed long int) /*8ul*/ ;
@@ -2464,123 +2464,123 @@ unsigned int int_to_index(unsigned int value, unsigned int mask)
 // file srvutils.c line 589
 char * ipstr(struct sockaddr_in *saddr)
 {
-  char ipstr$$1$$ipstr[16l];
-  const char *return_value_inet_ntop$1;
-  return_value_inet_ntop$1=inet_ntop(2, (const void *)&saddr->sin_addr, ipstr$$1$$ipstr, (unsigned int)16);
-  if(return_value_inet_ntop$1 == ((const char *)NULL))
-    strncpy(ipstr$$1$$ipstr, "UNKNOWN\0", (unsigned long int)16);
+  char ipstr__1__ipstr[16l];
+  const char *return_value_inet_ntop_1;
+  return_value_inet_ntop_1=inet_ntop(2, (const void *)&saddr->sin_addr, ipstr__1__ipstr, (unsigned int)16);
+  if(return_value_inet_ntop_1 == ((const char *)NULL))
+    strncpy(ipstr__1__ipstr, "UNKNOWN\0", (unsigned long int)16);
 
-  char *return_value_strdup$2;
-  return_value_strdup$2=strdup(ipstr$$1$$ipstr);
-  return return_value_strdup$2;
+  char *return_value_strdup_2;
+  return_value_strdup_2=strdup(ipstr__1__ipstr);
+  return return_value_strdup_2;
 }
 
 // is_in_array
 // file bloom.c line 154
-signed int is_in_array(struct anonymous$4 *filter, struct anonymous$9 digest)
+signed int is_in_array(struct anonymous_4 *filter, struct anonymous_9 digest)
 {
   /* assertion filter */
-  assert(filter != ((struct anonymous$4 *)NULL));
-  unsigned int return_value_int_to_index$1;
-  return_value_int_to_index$1=int_to_index(digest.h0, filter->mask);
-  unsigned int return_value_get_bit$2;
-  return_value_get_bit$2=get_bit(filter->filter, return_value_int_to_index$1);
-  _Bool tmp_if_expr$5;
-  unsigned int return_value_int_to_index$3;
-  unsigned int return_value_get_bit$4;
-  if(!(return_value_get_bit$2 == 0u))
+  assert(filter != ((struct anonymous_4 *)NULL));
+  unsigned int return_value_int_to_index_1;
+  return_value_int_to_index_1=int_to_index(digest.h0, filter->mask);
+  unsigned int return_value_get_bit_2;
+  return_value_get_bit_2=get_bit(filter->filter, return_value_int_to_index_1);
+  _Bool tmp_if_expr_5;
+  unsigned int return_value_int_to_index_3;
+  unsigned int return_value_get_bit_4;
+  if(!(return_value_get_bit_2 == 0u))
   {
-    return_value_int_to_index$3=int_to_index(digest.h1, filter->mask);
-    return_value_get_bit$4=get_bit(filter->filter, return_value_int_to_index$3);
-    tmp_if_expr$5 = return_value_get_bit$4 != 0u ? (_Bool)1 : (_Bool)0;
+    return_value_int_to_index_3=int_to_index(digest.h1, filter->mask);
+    return_value_get_bit_4=get_bit(filter->filter, return_value_int_to_index_3);
+    tmp_if_expr_5 = return_value_get_bit_4 != 0u ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$5 = (_Bool)0;
-  _Bool tmp_if_expr$8;
-  unsigned int return_value_int_to_index$6;
-  unsigned int return_value_get_bit$7;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = (_Bool)0;
+  _Bool tmp_if_expr_8;
+  unsigned int return_value_int_to_index_6;
+  unsigned int return_value_get_bit_7;
+  if(tmp_if_expr_5)
   {
-    return_value_int_to_index$6=int_to_index(digest.h2, filter->mask);
-    return_value_get_bit$7=get_bit(filter->filter, return_value_int_to_index$6);
-    tmp_if_expr$8 = return_value_get_bit$7 != 0u ? (_Bool)1 : (_Bool)0;
+    return_value_int_to_index_6=int_to_index(digest.h2, filter->mask);
+    return_value_get_bit_7=get_bit(filter->filter, return_value_int_to_index_6);
+    tmp_if_expr_8 = return_value_get_bit_7 != 0u ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$8 = (_Bool)0;
-  _Bool tmp_if_expr$11;
-  unsigned int return_value_int_to_index$9;
-  unsigned int return_value_get_bit$10;
-  if(tmp_if_expr$8)
+    tmp_if_expr_8 = (_Bool)0;
+  _Bool tmp_if_expr_11;
+  unsigned int return_value_int_to_index_9;
+  unsigned int return_value_get_bit_10;
+  if(tmp_if_expr_8)
   {
-    return_value_int_to_index$9=int_to_index(digest.h3, filter->mask);
-    return_value_get_bit$10=get_bit(filter->filter, return_value_int_to_index$9);
-    tmp_if_expr$11 = return_value_get_bit$10 != 0u ? (_Bool)1 : (_Bool)0;
+    return_value_int_to_index_9=int_to_index(digest.h3, filter->mask);
+    return_value_get_bit_10=get_bit(filter->filter, return_value_int_to_index_9);
+    tmp_if_expr_11 = return_value_get_bit_10 != 0u ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$11 = (_Bool)0;
-  _Bool tmp_if_expr$14;
-  unsigned int return_value_int_to_index$12;
-  unsigned int return_value_get_bit$13;
-  if(tmp_if_expr$11)
+    tmp_if_expr_11 = (_Bool)0;
+  _Bool tmp_if_expr_14;
+  unsigned int return_value_int_to_index_12;
+  unsigned int return_value_get_bit_13;
+  if(tmp_if_expr_11)
   {
-    return_value_int_to_index$12=int_to_index(digest.h4, filter->mask);
-    return_value_get_bit$13=get_bit(filter->filter, return_value_int_to_index$12);
-    tmp_if_expr$14 = return_value_get_bit$13 != 0u ? (_Bool)1 : (_Bool)0;
+    return_value_int_to_index_12=int_to_index(digest.h4, filter->mask);
+    return_value_get_bit_13=get_bit(filter->filter, return_value_int_to_index_12);
+    tmp_if_expr_14 = return_value_get_bit_13 != 0u ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$14 = (_Bool)0;
-  _Bool tmp_if_expr$17;
-  unsigned int return_value_int_to_index$15;
-  unsigned int return_value_get_bit$16;
-  if(tmp_if_expr$14)
+    tmp_if_expr_14 = (_Bool)0;
+  _Bool tmp_if_expr_17;
+  unsigned int return_value_int_to_index_15;
+  unsigned int return_value_get_bit_16;
+  if(tmp_if_expr_14)
   {
-    return_value_int_to_index$15=int_to_index(digest.h5, filter->mask);
-    return_value_get_bit$16=get_bit(filter->filter, return_value_int_to_index$15);
-    tmp_if_expr$17 = return_value_get_bit$16 != 0u ? (_Bool)1 : (_Bool)0;
+    return_value_int_to_index_15=int_to_index(digest.h5, filter->mask);
+    return_value_get_bit_16=get_bit(filter->filter, return_value_int_to_index_15);
+    tmp_if_expr_17 = return_value_get_bit_16 != 0u ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$17 = (_Bool)0;
-  _Bool tmp_if_expr$20;
-  unsigned int return_value_int_to_index$18;
-  unsigned int return_value_get_bit$19;
-  if(tmp_if_expr$17)
+    tmp_if_expr_17 = (_Bool)0;
+  _Bool tmp_if_expr_20;
+  unsigned int return_value_int_to_index_18;
+  unsigned int return_value_get_bit_19;
+  if(tmp_if_expr_17)
   {
-    return_value_int_to_index$18=int_to_index(digest.h6, filter->mask);
-    return_value_get_bit$19=get_bit(filter->filter, return_value_int_to_index$18);
-    tmp_if_expr$20 = return_value_get_bit$19 != 0u ? (_Bool)1 : (_Bool)0;
+    return_value_int_to_index_18=int_to_index(digest.h6, filter->mask);
+    return_value_get_bit_19=get_bit(filter->filter, return_value_int_to_index_18);
+    tmp_if_expr_20 = return_value_get_bit_19 != 0u ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$20 = (_Bool)0;
-  _Bool tmp_if_expr$23;
-  unsigned int return_value_int_to_index$21;
-  unsigned int return_value_get_bit$22;
-  if(tmp_if_expr$20)
+    tmp_if_expr_20 = (_Bool)0;
+  _Bool tmp_if_expr_23;
+  unsigned int return_value_int_to_index_21;
+  unsigned int return_value_get_bit_22;
+  if(tmp_if_expr_20)
   {
-    return_value_int_to_index$21=int_to_index(digest.h7, filter->mask);
-    return_value_get_bit$22=get_bit(filter->filter, return_value_int_to_index$21);
-    tmp_if_expr$23 = return_value_get_bit$22 != 0u ? (_Bool)1 : (_Bool)0;
+    return_value_int_to_index_21=int_to_index(digest.h7, filter->mask);
+    return_value_get_bit_22=get_bit(filter->filter, return_value_int_to_index_21);
+    tmp_if_expr_23 = return_value_get_bit_22 != 0u ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$23 = (_Bool)0;
-  return (signed int)tmp_if_expr$23;
+    tmp_if_expr_23 = (_Bool)0;
+  return (signed int)tmp_if_expr_23;
 }
 
 // is_in_ring_queue
 // file bloom.c line 349
-signed int is_in_ring_queue(struct anonymous$7 *brq, struct anonymous$9 digest)
+signed int is_in_ring_queue(struct anonymous_7 *brq, struct anonymous_9 digest)
 {
   /* assertion brq */
-  assert(brq != ((struct anonymous$7 *)NULL));
-  signed int return_value_is_in_array$1;
-  return_value_is_in_array$1=is_in_array(brq->aggregate, digest);
-  return return_value_is_in_array$1;
+  assert(brq != ((struct anonymous_7 *)NULL));
+  signed int return_value_is_in_array_1;
+  return_value_is_in_array_1=is_in_array(brq->aggregate, digest);
+  return return_value_is_in_array_1;
 }
 
 // log_close
@@ -2620,9 +2620,9 @@ signed int log_open(void)
 signed int log_put(const char *msg)
 {
   char *final;
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc((unsigned long int)1024);
-  final = (char *)return_value_Malloc$1;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc((unsigned long int)1024);
+  final = (char *)return_value_Malloc_1;
   snprintf(final, (unsigned long int)(1024 - 1), "%s", msg);
   date_fmt(final, (unsigned long int)1024);
   printf("%s", final);
@@ -2641,22 +2641,22 @@ signed int logstr(signed int level, const char *fmt, ...)
   char logfmt[1024l] = { (char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   char mbuf[1024l] = { (char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   void **vap;
-  signed int return_value_log_put$2;
+  signed int return_value_log_put_2;
   if(!(ctx->config.loglevel >= level))
     return 0;
 
   else
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    snprintf(logfmt, (unsigned long int)1024, "#%x: %s", (unsigned int)return_value_pthread_self$1, fmt);
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    snprintf(logfmt, (unsigned long int)1024, "#%x: %s", (unsigned int)return_value_pthread_self_1, fmt);
     vap = (void **)&fmt;
     vsnprintf(mbuf, (unsigned long int)1024, logfmt, vap);
     vap = ((void **)NULL);
     if(ctx->syslog_open == 0)
     {
-      return_value_log_put$2=log_put(mbuf);
-      return return_value_log_put$2;
+      return_value_log_put_2=log_put(mbuf);
+      return return_value_log_put_2;
     }
 
     else
@@ -2675,16 +2675,16 @@ signed int logstr(signed int level, const char *fmt, ...)
 // file msgqueue-test.c line 79
 signed int main(signed int argc, char **argv)
 {
-  struct anonymous$5 threads[512l];
+  struct anonymous_5 threads[512l];
   signed int balls[128l];
-  signed int main$$1$$queues[8l];
+  signed int main__1__queues[8l];
   struct queuepair_s qpairs[64l];
   struct test_message_s message;
   signed int ret;
   signed int i;
   signed int *exitvalue;
   signed int sum = 0;
-  struct anonymous$17 myctx = { .filter=((struct anonymous$7 *)NULL), .update_q=0, .sync_guard=((union anonymous$13 *)NULL),
+  struct anonymous_17 myctx = { .filter=((struct anonymous_7 *)NULL), .update_q=0, .sync_guard=((union anonymous_13 *)NULL),
     .bloom_guard={ .__data={ .__lock=0, .__count=0u, .__owner=0, .__nusers=0u, .__kind=0,
     .__spins=0, .__elision=0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } },
     .update_guard={ .__data={ .__lock=0, .__count=0u, .__owner=0, .__nusers=0u, .__kind=0,
@@ -2709,7 +2709,7 @@ signed int main(signed int argc, char **argv)
     .query_timelimit=0,
     .grey_threshold=0, .block_threshold=0,
     .pool_maxthreads=0, .grey_reason=((char *)NULL),
-    .block_reason=((char *)NULL), .pidfile=((char *)NULL) }, .mmap_info=((struct anonymous$14 *)NULL),
+    .block_reason=((char *)NULL), .pidfile=((char *)NULL) }, .mmap_info=((struct anonymous_14 *)NULL),
     .statefile_info=((struct statefile_info_s *)NULL),
     .process_parts={ .bloommgr={ .thread=((unsigned long int *)NULL) }, .syncmgr={ .thread=((unsigned long int *)NULL) },
     .postfix_server={ .thread=((unsigned long int *)NULL) },
@@ -2724,7 +2724,7 @@ signed int main(signed int argc, char **argv)
     .block_max_delay=0.000000, .greylist_max_delay=0.000000,
     .match_max_delay=0.000000, .trust_max_delay=0.000000,
     .dnsbl_match=((struct dnsbl_stat *)NULL) },
-    .checklist={ ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL), ((struct anonymous$12 *)NULL) },
+    .checklist={ ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL), ((struct anonymous_12 *)NULL) },
     .syslog_open=0 };
   ctx = &myctx;
   printf("Check: msgqueue\n");
@@ -2732,14 +2732,14 @@ signed int main(signed int argc, char **argv)
   fflush(stdout);
   i = 0;
   for( ; !(i >= 8); i = i + 1)
-    main$$1$$queues[(signed long int)i]=get_queue();
+    main__1__queues[(signed long int)i]=get_queue();
   printf("  Done.\n");
   printf("  Making %d circular queue pairs...", 8 * 8);
   i = 0;
   for( ; !(i >= 8); i = i + 1)
   {
-    qpairs[(signed long int)i].inq = main$$1$$queues[(signed long int)(i % 8)];
-    qpairs[(signed long int)i].outq = main$$1$$queues[(signed long int)((i + 1) % 8)];
+    qpairs[(signed long int)i].inq = main__1__queues[(signed long int)(i % 8)];
+    qpairs[(signed long int)i].outq = main__1__queues[(signed long int)((i + 1) % 8)];
   }
   printf("  Done.\n");
   printf("  Creating %d threads to test the message queues...", 8 * 8 * 8);
@@ -2756,7 +2756,7 @@ signed int main(signed int argc, char **argv)
     balls[(signed long int)i] = 0;
     message.mtype = (signed long int)0;
     message.counter = &balls[(signed long int)i];
-    put_msg(main$$1$$queues[(signed long int)(i % 8)], (void *)&message, sizeof(signed int *) /*8ul*/ , 0);
+    put_msg(main__1__queues[(signed long int)(i % 8)], (void *)&message, sizeof(signed int *) /*8ul*/ , 0);
   }
   printf("  Done.\n");
   printf("  Waiting for the results...");
@@ -2817,9 +2817,9 @@ static void * msgqueueping(void *arg)
   signed int i;
   signed int tmp;
   struct test_message_s message;
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc(sizeof(signed int) /*4ul*/ );
-  ret = (signed int *)return_value_Malloc$1;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc(sizeof(signed int) /*4ul*/ );
+  ret = (signed int *)return_value_Malloc_1;
   *ret = 0;
   qpair = (struct queuepair_s *)arg;
   i = 0;
@@ -2851,9 +2851,9 @@ OUT:
 void mstotimespec(signed int mseconds, struct timespec *ts)
 {
   ts->tv_sec = (signed long int)(mseconds / 1000);
-  signed int return_value_abs$1;
-  return_value_abs$1=abs(mseconds % 1000);
-  ts->tv_nsec = (signed long int)(return_value_abs$1 * 1000 * 1000);
+  signed int return_value_abs_1;
+  return_value_abs_1=abs(mseconds % 1000);
+  ts->tv_nsec = (signed long int)(return_value_abs_1 * 1000 * 1000);
 }
 
 // new_address
@@ -2873,9 +2873,9 @@ unsigned int optimal_size(unsigned int n, double c)
   result = (unsigned int)1;
   for( ; !(result >= BITARRAY_BASE_SIZE); result = result + 1u)
   {
-    unsigned int return_value_bloom_required_size$1;
-    return_value_bloom_required_size$1=bloom_required_size(c, (unsigned int)8, (unsigned int)(1 << result));
-    if(return_value_bloom_required_size$1 >= native_size)
+    unsigned int return_value_bloom_required_size_1;
+    return_value_bloom_required_size_1=bloom_required_size(c, (unsigned int)8, (unsigned int)(1 << result));
+    if(return_value_bloom_required_size_1 >= native_size)
       return result;
 
   }
@@ -2897,9 +2897,9 @@ unsigned long int out_queue_len(signed int msgid)
 
   else
   {
-    unsigned long int return_value_in_queue_len$1;
-    return_value_in_queue_len$1=in_queue_len(msgid);
-    return return_value_in_queue_len$1;
+    unsigned long int return_value_in_queue_len_1;
+    return_value_in_queue_len_1=in_queue_len(msgid);
+    return return_value_in_queue_len_1;
   }
 }
 
@@ -2944,9 +2944,9 @@ signed int put_msg(signed int msqid, void *omsgp, unsigned long int msgsz, signe
   mq=queuebyid(msqid);
   /* assertion mq */
   assert(mq != ((struct msgqueue_s *)NULL));
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc(sizeof(struct msg_s) /*40ul*/ );
-  new = (struct msg_s *)return_value_Malloc$1;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc(sizeof(struct msg_s) /*40ul*/ );
+  new = (struct msg_s *)return_value_Malloc_1;
   memset((void *)new, 0, sizeof(struct msg_s) /*40ul*/ );
   clock_gettime(1, &new->timestamp);
   truesize = msgsz + sizeof(signed long int) /*8ul*/ ;
@@ -3008,9 +3008,9 @@ signed int queue_freeze(signed int msqid)
   mq=queuebyid(msqid);
   if(mq == ((struct msgqueue_s *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -3038,9 +3038,9 @@ void queue_realloc(void)
 
   logstr(65543, "doubling the space for message queues from %d to %d", queuespace, queuespace * 2);
   queuesize = (unsigned long int)queuespace * sizeof(struct msgqueue_s *) /*8ul*/ ;
-  void *return_value_realloc$1;
-  return_value_realloc$1=realloc((void *)queues, queuesize * (unsigned long int)2);
-  queues = (struct msgqueue_s **)return_value_realloc$1;
+  void *return_value_realloc_1;
+  return_value_realloc_1=realloc((void *)queues, queuesize * (unsigned long int)2);
+  queues = (struct msgqueue_s **)return_value_realloc_1;
   queuespace = queuespace * 2;
 }
 
@@ -3053,9 +3053,9 @@ signed int queue_thaw(signed int msqid)
   mq=queuebyid(msqid);
   if(mq == ((struct msgqueue_s *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -3078,10 +3078,10 @@ signed int queue_thaw(signed int msqid)
 struct msgqueue_s * queuebyid(signed int msqid)
 {
   struct msgqueue_s *mq;
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&global_queue_lk);
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&global_queue_lk);
   /* assertion pthread_mutex_lock(&global_queue_lk) == 0 */
-  assert(return_value_pthread_mutex_lock$1 == 0);
+  assert(return_value_pthread_mutex_lock_1 == 0);
   mq = queues[(signed long int)msqid];
   pthread_mutex_unlock(&global_queue_lk);
   return mq;
@@ -3096,8 +3096,8 @@ signed int readline(signed int fd, void *vptr, unsigned long int maxlen)
   char c;
   char *ptr = (char *)vptr;
   n = (signed long int)1;
-  char *tmp_post$1;
-  signed int *return_value___errno_location$2;
+  char *tmp_post_1;
+  signed int *return_value___errno_location_2;
   for( ; !((unsigned long int)n >= maxlen); n = n + 1l)
   {
     do
@@ -3113,9 +3113,9 @@ signed int readline(signed int fd, void *vptr, unsigned long int maxlen)
 
         if(!((signed int)c == 13))
         {
-          tmp_post$1 = ptr;
+          tmp_post_1 = ptr;
           ptr = ptr + 1l;
-          *tmp_post$1 = c;
+          *tmp_post_1 = c;
         }
 
         goto __CPROVER_DUMP_L8;
@@ -3130,9 +3130,9 @@ signed int readline(signed int fd, void *vptr, unsigned long int maxlen)
           goto __CPROVER_DUMP_L9;
       }
 
-      return_value___errno_location$2=__errno_location();
+      return_value___errno_location_2=__errno_location();
     }
-    while(*return_value___errno_location$2 == 4);
+    while(*return_value___errno_location_2 == 4);
     return -1;
 
   __CPROVER_DUMP_L8:
@@ -3158,9 +3158,9 @@ signed long int readn(signed int fd, void *vptr, unsigned long int n)
     nread=read(fd, (void *)ptr, nleft);
     if(!(nread >= 0l))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 4)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 4)
         nread = (signed long int)0;
 
       else
@@ -3181,15 +3181,15 @@ signed long int readn(signed int fd, void *vptr, unsigned long int n)
 void register_check(struct thread_pool_s *pool, signed int definitive)
 {
   signed int i;
-  struct anonymous$12 *check;
-  void *return_value_Malloc$1;
-  return_value_Malloc$1=Malloc(sizeof(struct anonymous$12) /*40ul*/ );
-  check = (struct anonymous$12 *)return_value_Malloc$1;
+  struct anonymous_12 *check;
+  void *return_value_Malloc_1;
+  return_value_Malloc_1=Malloc(sizeof(struct anonymous_12) /*40ul*/ );
+  check = (struct anonymous_12 *)return_value_Malloc_1;
   check->pool = pool;
   check->definitive = definitive;
   i = 0;
   for( ; !(i >= 128); i = i + 1)
-    if(ctx->checklist[(signed long int)i] == ((struct anonymous$12 *)NULL))
+    if(ctx->checklist[(signed long int)i] == ((struct anonymous_12 *)NULL))
     {
       ctx->checklist[(signed long int)i] = check;
       break;
@@ -3202,48 +3202,48 @@ void register_check(struct thread_pool_s *pool, signed int definitive)
 
 // release_bloom_filter
 // file bloom.c line 202
-void release_bloom_filter(struct anonymous$4 *filter)
+void release_bloom_filter(struct anonymous_4 *filter)
 {
   /* assertion filter->filter */
   assert(filter->filter != ((unsigned int *)NULL));
   free((void *)(unsigned int *)filter->filter);
   filter->filter = (unsigned int *)(void *)0;
   /* assertion filter */
-  assert(filter != ((struct anonymous$4 *)NULL));
+  assert(filter != ((struct anonymous_4 *)NULL));
   free((void *)filter);
-  filter = (struct anonymous$4 *)(void *)0;
+  filter = (struct anonymous_4 *)(void *)0;
 }
 
 // release_bloom_filter_group
 // file bloom.c line 263
-void release_bloom_filter_group(struct anonymous$6 *filter_group)
+void release_bloom_filter_group(struct anonymous_6 *filter_group)
 {
   unsigned int i;
   /* assertion filter_group */
-  assert(filter_group != ((struct anonymous$6 *)NULL));
+  assert(filter_group != ((struct anonymous_6 *)NULL));
   i = (unsigned int)0;
   for( ; !(i >= filter_group->group_size); i = i + 1u)
   {
     release_bloom_filter(filter_group->filter_group[(signed long int)i]);
-    filter_group->filter_group[(signed long int)i] = ((struct anonymous$4 *)NULL);
+    filter_group->filter_group[(signed long int)i] = ((struct anonymous_4 *)NULL);
   }
   /* assertion filter_group */
-  assert(filter_group != ((struct anonymous$6 *)NULL));
+  assert(filter_group != ((struct anonymous_6 *)NULL));
   free((void *)filter_group);
-  filter_group = (struct anonymous$6 *)(void *)0;
+  filter_group = (struct anonymous_6 *)(void *)0;
 }
 
 // release_bloom_ring_queue
 // file srvutils.c line 380
-void release_bloom_ring_queue(struct anonymous$7 *brq)
+void release_bloom_ring_queue(struct anonymous_7 *brq)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(ctx->statefile_info == ((struct statefile_info_s *)NULL)))
-    tmp_if_expr$1 = brq == ctx->mmap_info->brq ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = brq == ctx->mmap_info->brq ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     munmap((void *)ctx->mmap_info->brq, ctx->mmap_info->lumpsize);
     close(ctx->statefile_info->fd);
@@ -3252,16 +3252,16 @@ void release_bloom_ring_queue(struct anonymous$7 *brq)
     free((void *)ctx->statefile_info);
     ctx->statefile_info = (struct statefile_info_s *)(void *)0;
     ctx->statefile_info = (struct statefile_info_s *)(void *)0;
-    ctx->filter = (struct anonymous$7 *)(void *)0;
-    ctx->mmap_info = (struct anonymous$14 *)(void *)0;
+    ctx->filter = (struct anonymous_7 *)(void *)0;
+    ctx->mmap_info = (struct anonymous_14 *)(void *)0;
   }
 
   else
   {
     /* assertion brq */
-    assert(brq != ((struct anonymous$7 *)NULL));
+    assert(brq != ((struct anonymous_7 *)NULL));
     free((void *)brq);
-    brq = (struct anonymous$7 *)(void *)0;
+    brq = (struct anonymous_7 *)(void *)0;
   }
 }
 
@@ -3295,9 +3295,9 @@ signed int release_queue(signed int msqid)
       ret=pthread_mutex_unlock(&mq->mx);
       /* assertion ret == 0 */
       assert(ret == 0);
-      void *return_value_Malloc$1;
-      return_value_Malloc$1=Malloc(sizeof(struct msg_s) /*40ul*/ );
-      msg = (struct msg_s *)return_value_Malloc$1;
+      void *return_value_Malloc_1;
+      return_value_Malloc_1=Malloc(sizeof(struct msg_s) /*40ul*/ );
+      msg = (struct msg_s *)return_value_Malloc_1;
       memset((void *)msg, 0, sizeof(struct msg_s) /*40ul*/ );
       msg->msgp = (void *)mq;
       ret=put_msg_raw(metaqueue, msg);
@@ -3312,21 +3312,21 @@ signed int release_queue(signed int msqid)
 signed long int respond(signed int fd, const char *response)
 {
   const char terminator[3l] = { '\n', '\n', 0 };
-  signed long int return_value_writet$1;
-  return_value_writet$1=writet(fd, response, terminator);
-  return return_value_writet$1;
+  signed long int return_value_writet_1;
+  return_value_writet_1=writet(fd, response, terminator);
+  return return_value_writet_1;
 }
 
 // rotate_bloom_ring_queue
 // file bloom.c line 375
-struct anonymous$7 * rotate_bloom_ring_queue(struct anonymous$7 *brq)
+struct anonymous_7 * rotate_bloom_ring_queue(struct anonymous_7 *brq)
 {
   unsigned int i;
-  struct anonymous$4 *tmp;
+  struct anonymous_4 *tmp;
   tmp=copy_bloom_filter(brq->aggregate, 1);
-  unsigned int return_value_bloom_ring_queue_next_index$1;
-  return_value_bloom_ring_queue_next_index$1=bloom_ring_queue_next_index(brq);
-  zero_bloom_filter(brq->group->filter_group[(signed long int)return_value_bloom_ring_queue_next_index$1]);
+  unsigned int return_value_bloom_ring_queue_next_index_1;
+  return_value_bloom_ring_queue_next_index_1=bloom_ring_queue_next_index(brq);
+  zero_bloom_filter(brq->group->filter_group[(signed long int)return_value_bloom_ring_queue_next_index_1]);
   i = (unsigned int)0;
   for( ; !(i >= brq->group->group_size); i = i + 1u)
     tmp=add_filter(tmp, brq->group->filter_group[(signed long int)i]);
@@ -3345,25 +3345,25 @@ signed int set_delay(signed int msqid, struct timespec *ts)
   mq=queuebyid(msqid);
   if(mq == ((struct msgqueue_s *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
   if(mq->delaypair == ((struct msgqueue_s *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
     return -1;
   }
 
   if(mq->delay_ts == ((struct timespec *)NULL))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 22;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 22;
     return -1;
   }
 
@@ -3386,17 +3386,17 @@ signed int set_delay_status(signed int msqid, signed int state)
   mq=queuebyid(msqid);
   if(mq == ((struct msgqueue_s *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
   if(mq->delaypair == ((struct msgqueue_s *)NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
     return -1;
   }
 
@@ -3416,7 +3416,7 @@ signed int statstr(signed int level, const char *fmt, ...)
 {
   char mbuf[1024l] = { (char)0x00, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   void **vap;
-  signed int return_value_log_put$1;
+  signed int return_value_log_put_1;
   if((ctx->config.statlevel & level) == 262144)
     return 0;
 
@@ -3431,8 +3431,8 @@ signed int statstr(signed int level, const char *fmt, ...)
       vap = ((void **)NULL);
       if(!((0x01 & ctx->config.flags) == 0))
       {
-        return_value_log_put$1=log_put(mbuf);
-        return return_value_log_put$1;
+        return_value_log_put_1=log_put(mbuf);
+        return return_value_log_put_1;
       }
 
       else
@@ -3447,7 +3447,7 @@ signed int statstr(signed int level, const char *fmt, ...)
 
 // sync_aggregate
 // file bloom.c line 445
-void sync_aggregate(struct anonymous$7 *brq)
+void sync_aggregate(struct anonymous_7 *brq)
 {
   signed int i;
   unsigned int index = brq->current_index;
@@ -3468,14 +3468,14 @@ void sync_aggregate(struct anonymous$7 *brq)
 signed int trim(char **buf)
 {
   char *end;
-  unsigned long int return_value_strspn$1;
-  return_value_strspn$1=strspn(*buf, " \t");
-  *buf = *buf + (signed long int)return_value_strspn$1;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(*buf);
-  end = (*buf + (signed long int)return_value_strlen$2) - (signed long int)1;
-  char *tmp_post$3;
-  for( ; (_Bool)1; *tmp_post$3 = (char)0)
+  unsigned long int return_value_strspn_1;
+  return_value_strspn_1=strspn(*buf, " \t");
+  *buf = *buf + (signed long int)return_value_strspn_1;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(*buf);
+  end = (*buf + (signed long int)return_value_strlen_2) - (signed long int)1;
+  char *tmp_post_3;
+  for( ; (_Bool)1; *tmp_post_3 = (char)0)
   {
     if(!((signed int)*end == 32))
     {
@@ -3484,15 +3484,15 @@ signed int trim(char **buf)
 
     }
 
-    tmp_post$3 = end;
+    tmp_post_3 = end;
     end = end - 1l;
   }
 
 __CPROVER_DUMP_L3:
   ;
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(*buf);
-  return (signed int)return_value_strlen$4;
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(*buf);
+  return (signed int)return_value_strlen_4;
 }
 
 // try_available
@@ -3569,27 +3569,27 @@ signed int walk_mmap_info(void)
   signed int i;
   unsigned long int offset = (unsigned long int)&ctx->mmap_info->brq[(signed long int)1] - (unsigned long int)ctx->mmap_info->brq->group;
   logstr(65543, "fixing bloom ring queue memory pointers, offset=%x", offset);
-  void *return_value_new_address$1;
-  return_value_new_address$1=new_address((void *)ctx->mmap_info->brq->group, offset);
-  ctx->mmap_info->brq->group = (struct anonymous$6 *)return_value_new_address$1;
-  void *return_value_new_address$2;
-  return_value_new_address$2=new_address((void *)ctx->mmap_info->brq->aggregate, offset);
-  ctx->mmap_info->brq->aggregate = (struct anonymous$4 *)return_value_new_address$2;
-  void *return_value_new_address$3;
-  return_value_new_address$3=new_address((void *)ctx->mmap_info->brq->aggregate->filter, offset);
-  ctx->mmap_info->brq->aggregate->filter = (unsigned int *)return_value_new_address$3;
-  void *return_value_new_address$4;
-  return_value_new_address$4=new_address((void *)ctx->mmap_info->brq->group->filter_group, offset);
-  ctx->mmap_info->brq->group->filter_group = (struct anonymous$4 **)return_value_new_address$4;
+  void *return_value_new_address_1;
+  return_value_new_address_1=new_address((void *)ctx->mmap_info->brq->group, offset);
+  ctx->mmap_info->brq->group = (struct anonymous_6 *)return_value_new_address_1;
+  void *return_value_new_address_2;
+  return_value_new_address_2=new_address((void *)ctx->mmap_info->brq->aggregate, offset);
+  ctx->mmap_info->brq->aggregate = (struct anonymous_4 *)return_value_new_address_2;
+  void *return_value_new_address_3;
+  return_value_new_address_3=new_address((void *)ctx->mmap_info->brq->aggregate->filter, offset);
+  ctx->mmap_info->brq->aggregate->filter = (unsigned int *)return_value_new_address_3;
+  void *return_value_new_address_4;
+  return_value_new_address_4=new_address((void *)ctx->mmap_info->brq->group->filter_group, offset);
+  ctx->mmap_info->brq->group->filter_group = (struct anonymous_4 **)return_value_new_address_4;
   i = 0;
   for( ; !((unsigned int)i >= ctx->mmap_info->brq->group->group_size); i = i + 1)
   {
-    void *return_value_new_address$5;
-    return_value_new_address$5=new_address((void *)ctx->mmap_info->brq->group->filter_group[(signed long int)i], offset);
-    ctx->mmap_info->brq->group->filter_group[(signed long int)i] = (struct anonymous$4 *)return_value_new_address$5;
-    void *return_value_new_address$6;
-    return_value_new_address$6=new_address((void *)ctx->mmap_info->brq->group->filter_group[(signed long int)i]->filter, offset);
-    ctx->mmap_info->brq->group->filter_group[(signed long int)i]->filter = (unsigned int *)return_value_new_address$6;
+    void *return_value_new_address_5;
+    return_value_new_address_5=new_address((void *)ctx->mmap_info->brq->group->filter_group[(signed long int)i], offset);
+    ctx->mmap_info->brq->group->filter_group[(signed long int)i] = (struct anonymous_4 *)return_value_new_address_5;
+    void *return_value_new_address_6;
+    return_value_new_address_6=new_address((void *)ctx->mmap_info->brq->group->filter_group[(signed long int)i]->filter, offset);
+    ctx->mmap_info->brq->group->filter_group[(signed long int)i]->filter = (unsigned int *)return_value_new_address_6;
   }
   return 1;
 }
@@ -3661,9 +3661,9 @@ signed int walk_queue(signed int msgid, signed int (*callback)(void *))
 signed long int writeline(signed int fd, const char *line)
 {
   const char terminator[3l] = { '\r', '\n', 0 };
-  signed long int return_value_writet$1;
-  return_value_writet$1=writet(fd, line, terminator);
-  return return_value_writet$1;
+  signed long int return_value_writet_1;
+  return_value_writet_1=writet(fd, line, terminator);
+  return return_value_writet_1;
 }
 
 // writen
@@ -3679,9 +3679,9 @@ signed long int writen(signed int fd, const void *vptr, unsigned long int n)
     nwritten=write(fd, (const void *)ptr, nleft);
     if(!(nwritten >= 1l))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 4)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 4)
         nwritten = (signed long int)0;
 
       else
@@ -3700,14 +3700,14 @@ signed long int writet(signed int fd, const char *line, const char *terminator)
   char *str;
   unsigned long int linelen;
   unsigned long int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(line);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(terminator);
-  linelen = return_value_strlen$1 + return_value_strlen$2 + (unsigned long int)1;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(linelen);
-  str = (char *)return_value_malloc$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(line);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(terminator);
+  linelen = return_value_strlen_1 + return_value_strlen_2 + (unsigned long int)1;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(linelen);
+  str = (char *)return_value_malloc_3;
   if(str == ((char *)NULL))
   {
     perror("malloc");
@@ -3717,9 +3717,9 @@ signed long int writet(signed int fd, const char *line, const char *terminator)
   else
   {
     snprintf(str, linelen, "%s%s", line, terminator);
-    signed long int return_value_writen$4;
-    return_value_writen$4=writen(fd, (const void *)str, linelen - (unsigned long int)1);
-    len = (unsigned long int)return_value_writen$4;
+    signed long int return_value_writen_4;
+    return_value_writen_4=writen(fd, (const void *)str, linelen - (unsigned long int)1);
+    len = (unsigned long int)return_value_writen_4;
     /* assertion str */
     assert(str != ((char *)NULL));
     free((void *)str);
@@ -3730,20 +3730,20 @@ signed long int writet(signed int fd, const char *line, const char *terminator)
 
 // zero_bloom_filter
 // file ../include/bloom.h line 109
-void zero_bloom_filter(struct anonymous$4 *filter)
+void zero_bloom_filter(struct anonymous_4 *filter)
 {
   /* assertion filter */
-  assert(filter != ((struct anonymous$4 *)NULL));
+  assert(filter != ((struct anonymous_4 *)NULL));
   init_bit_array(filter->filter, filter->size);
 }
 
 // zero_bloom_ring_queue
 // file bloom.c line 395
-void zero_bloom_ring_queue(struct anonymous$7 *brq)
+void zero_bloom_ring_queue(struct anonymous_7 *brq)
 {
   unsigned int i;
   /* assertion brq */
-  assert(brq != ((struct anonymous$7 *)NULL));
+  assert(brq != ((struct anonymous_7 *)NULL));
   zero_bloom_filter(brq->aggregate);
   i = (unsigned int)0;
   for( ; !(i >= brq->group->group_size); i = i + 1u)

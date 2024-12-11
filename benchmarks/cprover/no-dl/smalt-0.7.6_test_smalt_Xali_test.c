@@ -1,12 +1,12 @@
-// tag-#anon#UN[ARR32{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR32{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 239
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -286,9 +286,9 @@ struct _ResultSet;
 // file hashhit.c line 148
 struct _SEED;
 
-// tag-_SEED$link1
+// tag-_SEED_link1
 // file segment.c line 162
-struct _SEED$0;
+struct _SEED_0;
 
 // tag-_SEGCAND
 // file segment.c line 239
@@ -318,7 +318,7 @@ struct _SegAliCands;
 // file ../src/segment.h line 77
 struct _SegLst;
 
-// tag-_SegLst$link1
+// tag-_SegLst_link1
 // file segment.h line 77
 struct _SegLst;
 
@@ -493,13 +493,13 @@ static inline __gcc_v2di _mm_subs_epu8(__gcc_v2di __A, __gcc_v2di __B);
 static signed int addALIMETAtoRsltSet(struct _AliRsltSet *p);
 // addCandsFast
 // file segment.c line 1140
-static signed int addCandsFast(struct _SEGCAND **candr, unsigned int *maxcover, unsigned int *max2ndcover, struct _SEGMENT * const segmr, struct _SEED$0 * const seedr, struct _HITREGION * const hregr, unsigned char *maskp, unsigned int qlen, unsigned char ktup, unsigned char nskip, unsigned char is_reverse, unsigned int mincover, unsigned int mincover_noindel, signed int seqidx);
+static signed int addCandsFast(struct _SEGCAND **candr, unsigned int *maxcover, unsigned int *max2ndcover, struct _SEGMENT * const segmr, struct _SEED_0 * const seedr, struct _HITREGION * const hregr, unsigned char *maskp, unsigned int qlen, unsigned char ktup, unsigned char nskip, unsigned char is_reverse, unsigned int mincover, unsigned int mincover_noindel, signed int seqidx);
 // addCandsFromSortedSegments
 // file segment.c line 1225
-static signed int addCandsFromSortedSegments(struct _SEGCAND **candr, struct _SEGMENT *segmr, unsigned int nseg, const unsigned int *segmidx, struct _SEED$0 * const seedr, struct _HITREGION * const hregr, unsigned int hridx, unsigned int mincov_noindel, unsigned char ktup, unsigned char nskip, char is_reverse);
+static signed int addCandsFromSortedSegments(struct _SEGCAND **candr, struct _SEGMENT *segmr, unsigned int nseg, const unsigned int *segmidx, struct _SEED_0 * const seedr, struct _HITREGION * const hregr, unsigned int hridx, unsigned int mincov_noindel, unsigned char ktup, unsigned char nskip, char is_reverse);
 // addNoIndelCandsFromSegmentSeeds
 // file segment.c line 1284
-static signed int addNoIndelCandsFromSegmentSeeds(struct _SEGCAND **candr, unsigned int *max_cover, struct _SEGMENT *segmr, struct _SEED$0 * const seedr, struct _HITREGION * const hregr, unsigned int mincover, unsigned char ktup, unsigned char nskip, char is_reverse);
+static signed int addNoIndelCandsFromSegmentSeeds(struct _SEGCAND **candr, unsigned int *max_cover, struct _SEGMENT *segmr, struct _SEED_0 * const seedr, struct _HITREGION * const hregr, unsigned int mincover, unsigned char ktup, unsigned char nskip, char is_reverse);
 // addPairResultsToReport
 // file ../src/resultpairs.c line 1008
 static signed int addPairResultsToReport(struct _Report *rep, const unsigned char mapflg, unsigned char repmateflg, const struct _RESULT *rp, signed short int mapqA, const struct _ResultSet *rsrp, const struct _RESULT *mp, signed short int mapqB, const struct _ResultSet *rsmp);
@@ -622,10 +622,10 @@ static signed int calcPhredScaledMappingQualityPerQuerySegment(struct _ResultSet
 static signed int calcRESULTid(const struct _RESULT *rp, const struct _ResultSet *rsp);
 // calcSegmentBoundaries
 // file segment.c line 635
-static void calcSegmentBoundaries(unsigned int *qs, unsigned int *qe, unsigned int *rs, unsigned int *re, const struct _SEGMENT *sgp, struct _SEED$0 * const seedr, unsigned char ktup, unsigned char nskip, unsigned char is_reverse);
+static void calcSegmentBoundaries(unsigned int *qs, unsigned int *qe, unsigned int *rs, unsigned int *re, const struct _SEGMENT *sgp, struct _SEED_0 * const seedr, unsigned char ktup, unsigned char nskip, unsigned char is_reverse);
 // calcSegmentOverlap
 // file segment.c line 587
-static signed int calcSegmentOverlap(const struct _SEGMENT *sgAp, const struct _SEGMENT *sgBp, struct _SEED$0 * const seedr);
+static signed int calcSegmentOverlap(const struct _SEGMENT *sgAp, const struct _SEGMENT *sgBp, struct _SEED_0 * const seedr);
 // calcTotalHitNumStats
 // file ../src/rmap.c line 1086
 static unsigned int calcTotalHitNumStats(const struct RMAPINFO_ *rmrp, unsigned int *nhit_tot);
@@ -674,9 +674,9 @@ static signed int checkSeqNtSymbolsAreLetters(const struct _SEQSEQ *sp);
 // checkWordsInSeqSet
 // file hashidx.c line 606
 static signed int checkWordsInSeqSet(struct _SeqFastq *sqbufp, const struct _HashTable *htp, const struct _SeqSet *ssp, const struct _SeqCodec *codecp, signed int (*checkfunc)(const struct _HashTable *, const struct _SeqSet *, unsigned long int, signed long int, unsigned long int));
-// checkWordsInSeqSet::checkfunc$object
+// checkWordsInSeqSet::checkfunc_object
 //
-signed int checkfunc$object(const struct _HashTable *, const struct _SeqSet *, unsigned long int, signed long int, unsigned long int);
+signed int checkfunc_object(const struct _HashTable *, const struct _SeqSet *, unsigned long int, signed long int, unsigned long int);
 // cleanupALIMETA
 // file alignment.c line 554
 static void cleanupALIMETA(struct _ALIMETA *p);
@@ -832,7 +832,7 @@ static void deleteRMAPPROF(struct RMAPPROF_ *p);
 static void deleteSeq(struct _SEQSEQ *sp);
 // derriveSEGCAND
 // file segment.c line 929
-static signed int derriveSEGCAND(struct _SEGCAND *candp, signed int segix_start, signed int nseg, struct _SEGMENT *segmbasp, struct _SEED$0 * const seedr, unsigned char ktup, unsigned char nskip, unsigned int cover, unsigned int mincover_noindel, unsigned int hregix, unsigned char is_reverse);
+static signed int derriveSEGCAND(struct _SEGCAND *candp, signed int segix_start, signed int nseg, struct _SEGMENT *segmbasp, struct _SEED_0 * const seedr, unsigned char ktup, unsigned char nskip, unsigned int cover, unsigned int mincover_noindel, unsigned int hregix, unsigned char is_reverse);
 // diffBlocksCreate
 // file ../src/diffstr.h line 157
 struct _DiffBlocks * diffBlocksCreate(signed int blksz);
@@ -932,15 +932,15 @@ extern double difftime(signed long int, signed long int);
 // doAllWordsInSeqSet
 // file hashidx.c line 533
 static signed int doAllWordsInSeqSet(unsigned int *tuplectrp, struct _SeqFastq *sqbufp, const struct _HashTable *htp, const struct _SeqSet *ssp, const struct V_IVAL_ *ivp, const struct _SeqCodec *codecp, signed int (*keyfunc)(const struct _HashTable *, unsigned long int, unsigned int));
-// doAllWordsInSeqSet::keyfunc$object
+// doAllWordsInSeqSet::keyfunc_object
 //
-signed int keyfunc$object(const struct _HashTable *, unsigned long int, unsigned int);
+signed int keyfunc_object(const struct _HashTable *, unsigned long int, unsigned int);
 // doWordsInSeq
 // file hashidx.c line 465
 static signed int doWordsInSeq(unsigned int *tuplectr, unsigned char *ktup_offs, const struct _SeqFastq *sqp, const struct _HashTable *htp, signed int (*keyfunc)(const struct _HashTable *, unsigned long int, unsigned int));
-// doWordsInSeq::keyfunc$object
+// doWordsInSeq::keyfunc_object
 //
-signed int keyfunc$object(const struct _HashTable *, unsigned long int, unsigned int);
+signed int keyfunc_object(const struct _HashTable *, unsigned long int, unsigned int);
 // drand48
 // file /usr/include/stdlib.h line 389
 extern double drand48(void);
@@ -1027,7 +1027,7 @@ static void exitPairedReadError(const char *option);
 extern double exp(double);
 // extendCand
 // file segment.c line 1097
-static signed int extendCand(struct _SEGCAND *sgcp, struct _SEGMENT *segmr, struct _HITREGION * const hregr, struct _SEED$0 * const seedr, unsigned char ktup, unsigned char nskip);
+static signed int extendCand(struct _SEGCAND *sgcp, struct _SEGMENT *segmr, struct _HITREGION * const hregr, struct _SEED_0 * const seedr, unsigned char ktup, unsigned char nskip);
 // fclose
 // file /usr/include/stdio.h line 237
 extern signed int fclose(struct _IO_FILE *);
@@ -1492,10 +1492,10 @@ static signed int makeRMAPCANDfromSegment(struct RMAPCAND_ *cp, struct _SeqFastq
 static signed int makeRMAPPROFfromRead(struct RMAPPROF_ *prp, const struct _SeqFastq *readp, const struct _ScoreMatrix *scormtxp, const struct _SeqCodec *codecp);
 // makeSeedsFromHits
 // file segment.c line 455
-static signed int makeSeedsFromHits(struct _SEED$0 **seedr, struct _HITREGION * const idxr, signed int reg_start, signed int nreg, const struct _HashHitList *hhlp);
+static signed int makeSeedsFromHits(struct _SEED_0 **seedr, struct _HITREGION * const idxr, signed int reg_start, signed int nreg, const struct _HashHitList *hhlp);
 // makeSegmentsFromSeeds
 // file segment.c line 535
-static signed int makeSegmentsFromSeeds(struct _SEGMENT **segmr, unsigned int *maxcover, struct _HITREGION * const hregr, unsigned int reg_start, unsigned int nreg, struct _SEED$0 * const seedr, unsigned char nskip);
+static signed int makeSegmentsFromSeeds(struct _SEGMENT **segmr, unsigned int *maxcover, struct _HITREGION * const hregr, unsigned int reg_start, unsigned int nreg, struct _SEED_0 * const seedr, unsigned char nskip);
 // makeStripedProfileFromSequence
 // file score.c line 438
 static signed int makeStripedProfileFromSequence(struct _ScoreProfile *app, const char *seq_basp, unsigned int length, const struct _ScoreMatrix *amp);
@@ -1505,12 +1505,12 @@ extern void * malloc(unsigned long int);
 // mapReads
 // file ../src/smalt.c line 1316
 static signed int mapReads(struct _ErrMsg *errmsgp, const struct _MenuOpt *menup);
-// mapReads::1::checkf$object
+// mapReads::1::checkf_object
 //
-signed int checkf$object(const void *, const void *);
-// mapReads::1::cmpf$object
+signed int checkf_object(const void *, const void *);
+// mapReads::1::cmpf_object
 //
-signed int cmpf$object(const void *, const void *);
+signed int cmpf_object(const void *, const void *);
 // mapSecondary
 // file ../src/rmap.c line 1435
 static signed int mapSecondary(struct _ErrMsg *errmsgp, struct RMAPBUFF_ *bufp, struct _ResultSet *rssp, struct RMAPINFO_ *rmrp, const struct RMAPPROF_ *rmprp, struct _SeqFastq *readp, signed int ktuple_maxhit, unsigned int min_cover, signed int min_swatscor, signed int min_swatscor_below_max, unsigned char min_basqval, signed short int target_depth, signed short int max_depth, unsigned short int rmapflg, const struct _HashTable *htp, const struct _SeqSet *ssp, const struct _SeqCodec *codecp);
@@ -1562,12 +1562,12 @@ char menuGetSubProgTyp(const struct _MenuOpt *mp);
 // menuParseCommandLine
 // file ../src/menu.h line 133
 signed int menuParseCommandLine(struct _MenuOpt *menu, signed int argc, char **argv);
-// menuParseCommandLine::1::check_fn$object
+// menuParseCommandLine::1::check_fn_object
 //
-signed int check_fn$object(struct _MenuOpt *, const struct _optflags *);
-// menuParseCommandLine::1::parse_fn$object
+signed int check_fn_object(struct _MenuOpt *, const struct _optflags *);
+// menuParseCommandLine::1::parse_fn_object
 //
-signed int parse_fn$object(struct _MenuOpt *, struct _optflags *, signed int, char **);
+signed int parse_fn_object(struct _MenuOpt *, struct _optflags *, signed int, char **);
 // menuPrint
 // file ../src/menu.c line 1851
 void menuPrint(struct _IO_FILE *fp, const struct _MenuOpt *menup);
@@ -1636,7 +1636,7 @@ static void printBlurb(struct _IO_FILE *oufp);
 static signed int printSEGCAND(struct _IO_FILE *fp, const struct _SEGCAND *scp);
 // printSeed
 // file segment.c line 378
-static void printSeed(struct _IO_FILE *fp, const struct _SEED$0 *sp, char is_reverse, unsigned char nskip, unsigned char ktup);
+static void printSeed(struct _IO_FILE *fp, const struct _SEED_0 *sp, char is_reverse, unsigned char nskip, unsigned char ktup);
 // printWord
 // file hashidx.c line 174
 static char * printWord(char *buff, unsigned long int word, unsigned char len);
@@ -1663,7 +1663,7 @@ extern signed int pthread_join(unsigned long int, void **);
 extern signed int pthread_mutex_destroy(union anonymous *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$0 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_0 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -1676,18 +1676,18 @@ static signed int pullARGBUFF(struct _BUFFARG **argp, struct _ARGBUFF *fifop);
 // pullTHREADARGInternalBuffer
 // file ../src/threads.c line 489
 static struct _BUFFARG * pullTHREADARGInternalBuffer(struct _THREADARG *thargp, signed int (*checkf)(const void *, const void *), void *tdatap);
-// pullTHREADARGInternalBuffer::checkf$object
+// pullTHREADARGInternalBuffer::checkf_object
 //
-signed int checkf$object(const void *, const void *);
+signed int checkf_object(const void *, const void *);
 // pushARGBUFF
 // file ../src/threads.c line 227
 static signed int pushARGBUFF(struct _ARGBUFF *fifop, struct _BUFFARG *argp);
 // pushTHREADARGInternalBuffer
 // file ../src/threads.c line 442
 static void pushTHREADARGInternalBuffer(struct _THREADARG *thargp, struct _BUFFARG *argp, signed int (*cmpf)(const void *, const void *));
-// pushTHREADARGInternalBuffer::cmpf$object
+// pushTHREADARGInternalBuffer::cmpf_object
 //
-signed int cmpf$object(const void *, const void *);
+signed int cmpf_object(const void *, const void *);
 // qsort
 // file /usr/include/stdlib.h line 764
 extern void qsort(void *, unsigned long int, unsigned long int, signed int (*)(const void *, const void *));
@@ -1703,9 +1703,9 @@ static signed int readCompressedSeqOfKnownLength(struct _SEQSEQ *sp, struct _IO_
 // readHeader
 // file filio.c line 79
 static signed int readHeader(unsigned int *filsiz, unsigned char *filtyp, unsigned int *version, unsigned char *is_endianid, unsigned int *headsiz, struct _IO_FILE *fp);
-// readHeader$link1
+// readHeader_link1
 // file sequence.c line 1056
-static signed int readHeader$link1(struct _SEQSEQ *sp, struct gzFile_s *fp$link1, signed int *prompt, char *bufp);
+static signed int readHeader_link1(struct _SEQSEQ *sp, struct gzFile_s *fp_link1, signed int *prompt, char *bufp);
 // readQual
 // file sequence.c line 1743
 static signed int readQual(struct _SeqFastq *sqp, struct _SeqIO *ifp);
@@ -1865,9 +1865,9 @@ void resultSetDeletePairs(struct _ResultPairs *p);
 // resultSetDo
 // file ../src/results.c line 2179
 signed int resultSetDo(void *argp, signed int (*cbf)(signed int *, void *, const struct _RESULT *), const struct _ResultSet *rsp);
-// resultSetDo::cbf$object
+// resultSetDo::cbf_object
 //
-signed int cbf$object(signed int *, void *, const struct _RESULT *);
+signed int cbf_object(signed int *, void *, const struct _RESULT *);
 // resultSetFilterData
 // file ../src/results.h line 629
 void resultSetFilterData(struct _ResultFilter *p, signed int sw_abs, signed int sw_rel, double id_abs);
@@ -2110,13 +2110,13 @@ void segQMaskDelete(struct _SegQMask *sqmp);
 static signed int selectHashTyp(unsigned char *typ, unsigned char *nbits_key, unsigned char *nbits_perf, unsigned char wordlen, unsigned char nskip, const struct _SeqSet *ssp);
 // sem_init
 // file /usr/include/semaphore.h line 36
-extern signed int sem_init(union anonymous$1 *, signed int, unsigned int);
+extern signed int sem_init(union anonymous_1 *, signed int, unsigned int);
 // sem_post
 // file /usr/include/semaphore.h line 69
-extern signed int sem_post(union anonymous$1 *);
+extern signed int sem_post(union anonymous_1 *);
 // sem_wait
 // file /usr/include/semaphore.h line 54
-extern signed int sem_wait(union anonymous$1 *);
+extern signed int sem_wait(union anonymous_1 *);
 // seqCodecCreate
 // file ../src/sequence.h line 137
 struct _SeqCodec * seqCodecCreate(void);
@@ -2420,21 +2420,21 @@ signed int threadsRun(void);
 // threadsSetTask
 // file ../src/threads.h line 97
 signed int threadsSetTask(unsigned char task_typ, signed short int n_threads, signed int (*initf)(void *, const void *, signed short int), const void *initargp, signed int (*procf)(struct _ErrMsg *, void *, void *), signed int (*cleanf)(struct _ErrMsg *, void *), signed int (*checkf)(const void *, const void *), signed int (*cmpf)(const void *, const void *), unsigned long int argsz);
-// threadsSetTask::checkf$object
+// threadsSetTask::checkf_object
 //
-signed int checkf$object(const void *, const void *);
-// threadsSetTask::cleanf$object
+signed int checkf_object(const void *, const void *);
+// threadsSetTask::cleanf_object
 //
-signed int cleanf$object(struct _ErrMsg *, void *);
-// threadsSetTask::cmpf$object
+signed int cleanf_object(struct _ErrMsg *, void *);
+// threadsSetTask::cmpf_object
 //
-signed int cmpf$object(const void *, const void *);
-// threadsSetTask::initf$object
+signed int cmpf_object(const void *, const void *);
+// threadsSetTask::initf_object
 //
-signed int initf$object(void *, const void *, signed short int);
-// threadsSetTask::procf$object
+signed int initf_object(void *, const void *, signed short int);
+// threadsSetTask::procf_object
 //
-signed int procf$object(struct _ErrMsg *, void *, void *);
+signed int procf_object(struct _ErrMsg *, void *, void *);
 // threadsSetUp
 // file ../src/threads.h line 116
 signed int threadsSetUp(signed int n_buffarg_factor);
@@ -2461,7 +2461,7 @@ static signed int transferParamFromSegLst(struct _SegAliCands *sacp, const struc
 static signed int uncompressSeq(struct _SEQSEQ *ucp, unsigned int *tcpos, unsigned char *ntc, const struct _SEQSEQ *sp, unsigned long int start, unsigned long int length, const struct _SeqCodec *codep);
 // updateCandBoundaries
 // file segment.c line 1061
-static signed int updateCandBoundaries(struct _SEGCAND *sgcp, const struct _SEGMENT *segmp, struct _SEED$0 * const seedr, unsigned char ktup, unsigned char nskip);
+static signed int updateCandBoundaries(struct _SEGCAND *sgcp, const struct _SEGMENT *segmp, struct _SEED_0 * const seedr, unsigned char ktup, unsigned char nskip);
 // updateInsertBoundariesFromSample
 // file ../src/smalt.c line 417
 static void updateInsertBoundariesFromSample(struct _SmaltMapConst *macop, const struct _InsHist *ihp);
@@ -2477,9 +2477,9 @@ static signed int writeCompressedSeq(struct _IO_FILE *fp, struct _SEQSEQ *sp);
 // writeDiffStrCIGAR
 // file diffstr.c line 298
 static signed int writeDiffStrCIGAR(void * const top, signed int *nchar, unsigned char cgt, const unsigned char *diffstr, signed int clip_start, signed int clip_end, signed int (*writerp)(void *, unsigned char, char, signed int));
-// writeDiffStrCIGAR::writerp$object
+// writeDiffStrCIGAR::writerp_object
 //
-signed int writerp$object(void *, unsigned char, char, signed int);
+signed int writerp_object(void *, unsigned char, char, signed int);
 // writeHeader
 // file filio.c line 55
 static signed int writeHeader(unsigned int filsiz, unsigned char filtyp, unsigned int version, unsigned int headsiz, struct _IO_FILE *fp);
@@ -2496,7 +2496,7 @@ static signed int writeReportForRead(const struct _ReportWriter *wrp, const stru
 // file ../src/report.c line 1266
 static signed int writeSAMHeaderf(struct _IO_FILE *oufp, const struct _SeqSet *ssp, const char *prognam, const char *progversion, signed int narg, char * const *argv);
 
-union anonymous$1
+union anonymous_1
 {
   // __size
   char __size[32l];
@@ -2504,7 +2504,7 @@ union anonymous$1
   signed long int __align;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __size
   char __size[4l];
@@ -2899,7 +2899,7 @@ struct _ARGBUFF
   // lastp
   struct _BUFFARG *lastp;
   // sema
-  union anonymous$1 sema;
+  union anonymous_1 sema;
   // mutex
   union anonymous mutex;
   // buftyp
@@ -3760,7 +3760,7 @@ struct _SEED
   unsigned int qoffs;
 };
 
-struct _SEED$0
+struct _SEED_0
 {
   // sqo
   unsigned long int sqo;
@@ -3903,7 +3903,7 @@ struct _SegLst
   // hregr
   struct _HITREGION *hregr;
   // seedr
-  struct _SEED$0 *seedr;
+  struct _SEED_0 *seedr;
   // segmr
   struct _SEGMENT *segmr;
   // dshift_cutoff
@@ -4484,9 +4484,9 @@ static const float MINFRACT_MAXSCOR_2ND = (const float)0.8;
 // MINLOGARG
 // file ../src/results.c line 103
 static const double MINLOGARG = 1E-7;
-// MINLOGARG$link1
+// MINLOGARG_link1
 // file ../src/resultpairs.c line 121
-static const double MINLOGARG$link1 = 1E-7;
+static const double MINLOGARG_link1 = 1E-7;
 // OPTION_TYPSTR
 // file ../src/menu.c line 79
 static const char *OPTION_TYPSTR[5l] = { "", "STR", "INT", "INT,INT", "FLT" };
@@ -4585,18 +4585,18 @@ extern struct _IO_FILE *stdout;
 // file /usr/lib/gcc/x86_64-linux-gnu/5/include/emmintrin.h line 1041
 static inline __gcc_v2di _mm_adds_epi16(__gcc_v2di __A, __gcc_v2di __B)
 {
-  __gcc_v8hi return_value___builtin_ia32_paddsw128$1;
-  return_value___builtin_ia32_paddsw128$1=__builtin_ia32_paddsw128((__gcc_v8hi)__A, (__gcc_v8hi)__B);
-  return (__gcc_v2di)return_value___builtin_ia32_paddsw128$1;
+  __gcc_v8hi return_value___builtin_ia32_paddsw128_1;
+  return_value___builtin_ia32_paddsw128_1=__builtin_ia32_paddsw128((__gcc_v8hi)__A, (__gcc_v8hi)__B);
+  return (__gcc_v2di)return_value___builtin_ia32_paddsw128_1;
 }
 
 // _mm_adds_epu8
 // file /usr/lib/gcc/x86_64-linux-gnu/5/include/emmintrin.h line 1047
 static inline __gcc_v2di _mm_adds_epu8(__gcc_v2di __A, __gcc_v2di __B)
 {
-  __gcc_v16qi return_value___builtin_ia32_paddusb128$1;
-  return_value___builtin_ia32_paddusb128$1=__builtin_ia32_paddusb128((__gcc_v16qi)__A, (__gcc_v16qi)__B);
-  return (__gcc_v2di)return_value___builtin_ia32_paddusb128$1;
+  __gcc_v16qi return_value___builtin_ia32_paddusb128_1;
+  return_value___builtin_ia32_paddusb128_1=__builtin_ia32_paddusb128((__gcc_v16qi)__A, (__gcc_v16qi)__B);
+  return (__gcc_v2di)return_value___builtin_ia32_paddusb128_1;
 }
 
 // _mm_cmpeq_epi16
@@ -4631,27 +4631,27 @@ static inline __gcc_v2di _mm_load_si128(const __gcc_v2di *__P)
 // file /usr/lib/gcc/x86_64-linux-gnu/5/include/emmintrin.h line 1366
 static inline __gcc_v2di _mm_max_epi16(__gcc_v2di __A, __gcc_v2di __B)
 {
-  __gcc_v8hi return_value___builtin_ia32_pmaxsw128$1;
-  return_value___builtin_ia32_pmaxsw128$1=__builtin_ia32_pmaxsw128((__gcc_v8hi)__A, (__gcc_v8hi)__B);
-  return (__gcc_v2di)return_value___builtin_ia32_pmaxsw128$1;
+  __gcc_v8hi return_value___builtin_ia32_pmaxsw128_1;
+  return_value___builtin_ia32_pmaxsw128_1=__builtin_ia32_pmaxsw128((__gcc_v8hi)__A, (__gcc_v8hi)__B);
+  return (__gcc_v2di)return_value___builtin_ia32_pmaxsw128_1;
 }
 
 // _mm_max_epu8
 // file /usr/lib/gcc/x86_64-linux-gnu/5/include/emmintrin.h line 1372
 static inline __gcc_v2di _mm_max_epu8(__gcc_v2di __A, __gcc_v2di __B)
 {
-  __gcc_v16qi return_value___builtin_ia32_pmaxub128$1;
-  return_value___builtin_ia32_pmaxub128$1=__builtin_ia32_pmaxub128((__gcc_v16qi)__A, (__gcc_v16qi)__B);
-  return (__gcc_v2di)return_value___builtin_ia32_pmaxub128$1;
+  __gcc_v16qi return_value___builtin_ia32_pmaxub128_1;
+  return_value___builtin_ia32_pmaxub128_1=__builtin_ia32_pmaxub128((__gcc_v16qi)__A, (__gcc_v16qi)__B);
+  return (__gcc_v2di)return_value___builtin_ia32_pmaxub128_1;
 }
 
 // _mm_movemask_epi8
 // file /usr/lib/gcc/x86_64-linux-gnu/5/include/emmintrin.h line 1390
 static inline signed int _mm_movemask_epi8(__gcc_v2di __A)
 {
-  signed int return_value___builtin_ia32_pmovmskb128$1;
-  return_value___builtin_ia32_pmovmskb128$1=__builtin_ia32_pmovmskb128((__gcc_v16qi)__A);
-  return return_value___builtin_ia32_pmovmskb128$1;
+  signed int return_value___builtin_ia32_pmovmskb128_1;
+  return_value___builtin_ia32_pmovmskb128_1=__builtin_ia32_pmovmskb128((__gcc_v16qi)__A);
+  return return_value___builtin_ia32_pmovmskb128_1;
 }
 
 // _mm_or_si128
@@ -4672,9 +4672,9 @@ static inline __gcc_v2di _mm_setzero_si128(void)
 // file /usr/lib/gcc/x86_64-linux-gnu/5/include/emmintrin.h line 1137
 static inline __gcc_v2di _mm_slli_epi16(__gcc_v2di __A, signed int __B)
 {
-  __gcc_v8hi return_value___builtin_ia32_psllwi128$1;
-  return_value___builtin_ia32_psllwi128$1=__builtin_ia32_psllwi128((__gcc_v8hi)__A, __B);
-  return (__gcc_v2di)return_value___builtin_ia32_psllwi128$1;
+  __gcc_v8hi return_value___builtin_ia32_psllwi128_1;
+  return_value___builtin_ia32_psllwi128_1=__builtin_ia32_psllwi128((__gcc_v8hi)__A, __B);
+  return (__gcc_v2di)return_value___builtin_ia32_psllwi128_1;
 }
 
 // _mm_store_si128
@@ -4688,18 +4688,18 @@ static inline void _mm_store_si128(__gcc_v2di *__P, __gcc_v2di __B)
 // file /usr/lib/gcc/x86_64-linux-gnu/5/include/emmintrin.h line 1089
 static inline __gcc_v2di _mm_subs_epi16(__gcc_v2di __A, __gcc_v2di __B)
 {
-  __gcc_v8hi return_value___builtin_ia32_psubsw128$1;
-  return_value___builtin_ia32_psubsw128$1=__builtin_ia32_psubsw128((__gcc_v8hi)__A, (__gcc_v8hi)__B);
-  return (__gcc_v2di)return_value___builtin_ia32_psubsw128$1;
+  __gcc_v8hi return_value___builtin_ia32_psubsw128_1;
+  return_value___builtin_ia32_psubsw128_1=__builtin_ia32_psubsw128((__gcc_v8hi)__A, (__gcc_v8hi)__B);
+  return (__gcc_v2di)return_value___builtin_ia32_psubsw128_1;
 }
 
 // _mm_subs_epu8
 // file /usr/lib/gcc/x86_64-linux-gnu/5/include/emmintrin.h line 1095
 static inline __gcc_v2di _mm_subs_epu8(__gcc_v2di __A, __gcc_v2di __B)
 {
-  __gcc_v16qi return_value___builtin_ia32_psubusb128$1;
-  return_value___builtin_ia32_psubusb128$1=__builtin_ia32_psubusb128((__gcc_v16qi)__A, (__gcc_v16qi)__B);
-  return (__gcc_v2di)return_value___builtin_ia32_psubusb128$1;
+  __gcc_v16qi return_value___builtin_ia32_psubusb128_1;
+  return_value___builtin_ia32_psubusb128_1=__builtin_ia32_psubusb128((__gcc_v16qi)__A, (__gcc_v16qi)__B);
+  return (__gcc_v2di)return_value___builtin_ia32_psubusb128_1;
 }
 
 // addALIMETAtoRsltSet
@@ -4737,7 +4737,7 @@ static signed int addALIMETAtoRsltSet(struct _AliRsltSet *p)
 
 // addCandsFast
 // file segment.c line 1140
-static signed int addCandsFast(struct _SEGCAND **candr, unsigned int *maxcover, unsigned int *max2ndcover, struct _SEGMENT * const segmr, struct _SEED$0 * const seedr, struct _HITREGION * const hregr, unsigned char *maskp, unsigned int qlen, unsigned char ktup, unsigned char nskip, unsigned char is_reverse, unsigned int mincover, unsigned int mincover_noindel, signed int seqidx)
+static signed int addCandsFast(struct _SEGCAND **candr, unsigned int *maxcover, unsigned int *max2ndcover, struct _SEGMENT * const segmr, struct _SEED_0 * const seedr, struct _HITREGION * const hregr, unsigned char *maskp, unsigned int qlen, unsigned char ktup, unsigned char nskip, unsigned char is_reverse, unsigned int mincover, unsigned int mincover_noindel, signed int seqidx)
 {
   signed int errcode;
   unsigned int r;
@@ -4752,8 +4752,8 @@ static signed int addCandsFast(struct _SEGCAND **candr, unsigned int *maxcover, 
   struct _SEGCAND *cdp;
   nreg = (unsigned int)((unsigned long int *)hregr)[(signed long int)-1];
   r = (unsigned int)0;
-  unsigned long int tmp_post$2;
-  unsigned long int tmp_post$3;
+  unsigned long int tmp_post_2;
+  unsigned long int tmp_post_3;
   for( ; !(r >= nreg); r = r + 1u)
   {
     hitregp = hregr + (signed long int)r;
@@ -4765,7 +4765,7 @@ static signed int addCandsFast(struct _SEGCAND **candr, unsigned int *maxcover, 
       signed int l;
       signed int q;
       unsigned char *ucp;
-      const struct _SEED$0 *sep = seedr + (signed long int)sgp->ix;
+      const struct _SEED_0 *sep = seedr + (signed long int)sgp->ix;
       memset((void *)maskp, 0, (unsigned long int)qlen);
       l = sgp->nseed;
       for( ; l >= 1; sep = sep + 1l)
@@ -4784,24 +4784,24 @@ static signed int addCandsFast(struct _SEGCAND **candr, unsigned int *maxcover, 
         if(!(sgp->nseed >= 0))
           break;
 
-        signed int addCandsFast$$1$$1$$1$$1$$1$$2$$1$$1$$l;
-        signed int addCandsFast$$1$$1$$1$$1$$1$$2$$1$$1$$q;
-        unsigned char *addCandsFast$$1$$1$$1$$1$$1$$2$$1$$1$$ucp;
-        const struct _SEED$0 *addCandsFast$$1$$1$$1$$1$$1$$2$$1$$1$$sep = seedr + (signed long int)sgp->ix;
+        signed int addCandsFast__1__1__1__1__1__2__1__1__l;
+        signed int addCandsFast__1__1__1__1__1__2__1__1__q;
+        unsigned char *addCandsFast__1__1__1__1__1__2__1__1__ucp;
+        const struct _SEED_0 *addCandsFast__1__1__1__1__1__2__1__1__sep = seedr + (signed long int)sgp->ix;
         cover_new = (unsigned int)0;
-        addCandsFast$$1$$1$$1$$1$$1$$2$$1$$1$$l = sgp->nseed;
-        for( ; addCandsFast$$1$$1$$1$$1$$1$$2$$1$$1$$l >= 1; addCandsFast$$1$$1$$1$$1$$1$$2$$1$$1$$sep = addCandsFast$$1$$1$$1$$1$$1$$2$$1$$1$$sep + 1l)
+        addCandsFast__1__1__1__1__1__2__1__1__l = sgp->nseed;
+        for( ; addCandsFast__1__1__1__1__1__2__1__1__l >= 1; addCandsFast__1__1__1__1__1__2__1__1__sep = addCandsFast__1__1__1__1__1__2__1__1__sep + 1l)
         {
-          addCandsFast$$1$$1$$1$$1$$1$$2$$1$$1$$ucp = maskp + (signed long int)(addCandsFast$$1$$1$$1$$1$$1$$2$$1$$1$$sep->sqo & (unsigned long int)2147483647);
-          addCandsFast$$1$$1$$1$$1$$1$$2$$1$$1$$q = 0;
-          for( ; !(addCandsFast$$1$$1$$1$$1$$1$$2$$1$$1$$q >= addCandsFast$$1$$1$$1$$1$$1$$2$$1$$1$$sep->len); addCandsFast$$1$$1$$1$$1$$1$$2$$1$$1$$q = addCandsFast$$1$$1$$1$$1$$1$$2$$1$$1$$q + 1)
-            if(addCandsFast$$1$$1$$1$$1$$1$$2$$1$$1$$ucp[(signed long int)addCandsFast$$1$$1$$1$$1$$1$$2$$1$$1$$q] == 0)
+          addCandsFast__1__1__1__1__1__2__1__1__ucp = maskp + (signed long int)(addCandsFast__1__1__1__1__1__2__1__1__sep->sqo & (unsigned long int)2147483647);
+          addCandsFast__1__1__1__1__1__2__1__1__q = 0;
+          for( ; !(addCandsFast__1__1__1__1__1__2__1__1__q >= addCandsFast__1__1__1__1__1__2__1__1__sep->len); addCandsFast__1__1__1__1__1__2__1__1__q = addCandsFast__1__1__1__1__1__2__1__1__q + 1)
+            if(addCandsFast__1__1__1__1__1__2__1__1__ucp[(signed long int)addCandsFast__1__1__1__1__1__2__1__1__q] == 0)
             {
               cover_new = cover_new + 1u;
-              addCandsFast$$1$$1$$1$$1$$1$$2$$1$$1$$ucp[(signed long int)addCandsFast$$1$$1$$1$$1$$1$$2$$1$$1$$q] = (unsigned char)1;
+              addCandsFast__1__1__1__1__1__2__1__1__ucp[(signed long int)addCandsFast__1__1__1__1__1__2__1__1__q] = (unsigned char)1;
             }
 
-          addCandsFast$$1$$1$$1$$1$$1$$2$$1$$1$$l = addCandsFast$$1$$1$$1$$1$$1$$2$$1$$1$$l - 1;
+          addCandsFast__1__1__1__1__1__2__1__1__l = addCandsFast__1__1__1__1__1__2__1__1__l - 1;
         }
         if(!(cover_new << 1 >= sgp->cover))
         {
@@ -4817,24 +4817,24 @@ static signed int addCandsFast(struct _SEGCAND **candr, unsigned int *maxcover, 
       {
         if(((unsigned long int *)*candr)[-1l] >= ((unsigned long int *)*candr)[-2l])
         {
-          void *return_value_arrayRealloc$1;
-          return_value_arrayRealloc$1=arrayRealloc((void *)*candr, (unsigned long int)0, (char)0, "segment.c", 1198);
-          cdp = (struct _SEGCAND *)return_value_arrayRealloc$1;
+          void *return_value_arrayRealloc_1;
+          return_value_arrayRealloc_1=arrayRealloc((void *)*candr, (unsigned long int)0, (char)0, "segment.c", 1198);
+          cdp = (struct _SEGCAND *)return_value_arrayRealloc_1;
           if(!(cdp == ((struct _SEGCAND *)NULL)))
           {
             *candr = cdp;
-            tmp_post$2 = ((unsigned long int *)*candr)[(signed long int)-1];
+            tmp_post_2 = ((unsigned long int *)*candr)[(signed long int)-1];
             ((unsigned long int *)*candr)[(signed long int)-1] = ((unsigned long int *)*candr)[(signed long int)-1] + 1ul;
-            cdp = *candr + (signed long int)tmp_post$2;
+            cdp = *candr + (signed long int)tmp_post_2;
           }
 
         }
 
         else
         {
-          tmp_post$3 = ((unsigned long int *)*candr)[(signed long int)-1];
+          tmp_post_3 = ((unsigned long int *)*candr)[(signed long int)-1];
           ((unsigned long int *)*candr)[(signed long int)-1] = ((unsigned long int *)*candr)[(signed long int)-1] + 1ul;
-          cdp = *candr + (signed long int)tmp_post$3;
+          cdp = *candr + (signed long int)tmp_post_3;
         }
         if(cdp == ((struct _SEGCAND *)NULL))
           return 2;
@@ -4867,7 +4867,7 @@ static signed int addCandsFast(struct _SEGCAND **candr, unsigned int *maxcover, 
 
 // addCandsFromSortedSegments
 // file segment.c line 1225
-static signed int addCandsFromSortedSegments(struct _SEGCAND **candr, struct _SEGMENT *segmr, unsigned int nseg, const unsigned int *segmidx, struct _SEED$0 * const seedr, struct _HITREGION * const hregr, unsigned int hridx, unsigned int mincov_noindel, unsigned char ktup, unsigned char nskip, char is_reverse)
+static signed int addCandsFromSortedSegments(struct _SEGCAND **candr, struct _SEGMENT *segmr, unsigned int nseg, const unsigned int *segmidx, struct _SEED_0 * const seedr, struct _HITREGION * const hregr, unsigned int hridx, unsigned int mincov_noindel, unsigned char ktup, unsigned char nskip, char is_reverse)
 {
   signed int errcode = 0;
   unsigned int i;
@@ -4875,8 +4875,8 @@ static signed int addCandsFromSortedSegments(struct _SEGCAND **candr, struct _SE
   struct _SEGMENT *sgp;
   struct _SEGCAND *cdp;
   i = nseg;
-  unsigned long int tmp_post$2;
-  unsigned long int tmp_post$3;
+  unsigned long int tmp_post_2;
+  unsigned long int tmp_post_3;
   for( ; i >= 1u; i = i - 1u)
   {
     sgx = segmidx[(signed long int)(i - (unsigned int)1)];
@@ -4885,24 +4885,24 @@ static signed int addCandsFromSortedSegments(struct _SEGCAND **candr, struct _SE
     {
       if(((unsigned long int *)*candr)[-1l] >= ((unsigned long int *)*candr)[-2l])
       {
-        void *return_value_arrayRealloc$1;
-        return_value_arrayRealloc$1=arrayRealloc((void *)*candr, (unsigned long int)0, (char)0, "segment.c", 1261);
-        cdp = (struct _SEGCAND *)return_value_arrayRealloc$1;
+        void *return_value_arrayRealloc_1;
+        return_value_arrayRealloc_1=arrayRealloc((void *)*candr, (unsigned long int)0, (char)0, "segment.c", 1261);
+        cdp = (struct _SEGCAND *)return_value_arrayRealloc_1;
         if(!(cdp == ((struct _SEGCAND *)NULL)))
         {
           *candr = cdp;
-          tmp_post$2 = ((unsigned long int *)*candr)[(signed long int)-1];
+          tmp_post_2 = ((unsigned long int *)*candr)[(signed long int)-1];
           ((unsigned long int *)*candr)[(signed long int)-1] = ((unsigned long int *)*candr)[(signed long int)-1] + 1ul;
-          cdp = *candr + (signed long int)tmp_post$2;
+          cdp = *candr + (signed long int)tmp_post_2;
         }
 
       }
 
       else
       {
-        tmp_post$3 = ((unsigned long int *)*candr)[(signed long int)-1];
+        tmp_post_3 = ((unsigned long int *)*candr)[(signed long int)-1];
         ((unsigned long int *)*candr)[(signed long int)-1] = ((unsigned long int *)*candr)[(signed long int)-1] + 1ul;
-        cdp = *candr + (signed long int)tmp_post$3;
+        cdp = *candr + (signed long int)tmp_post_3;
       }
       if(cdp == ((struct _SEGCAND *)NULL))
         return 2;
@@ -4935,7 +4935,7 @@ static signed int addCandsFromSortedSegments(struct _SEGCAND **candr, struct _SE
 
 // addNoIndelCandsFromSegmentSeeds
 // file segment.c line 1284
-static signed int addNoIndelCandsFromSegmentSeeds(struct _SEGCAND **candr, unsigned int *max_cover, struct _SEGMENT *segmr, struct _SEED$0 * const seedr, struct _HITREGION * const hregr, unsigned int mincover, unsigned char ktup, unsigned char nskip, char is_reverse)
+static signed int addNoIndelCandsFromSegmentSeeds(struct _SEGCAND **candr, unsigned int *max_cover, struct _SEGMENT *segmr, struct _SEED_0 * const seedr, struct _HITREGION * const hregr, unsigned int mincover, unsigned char ktup, unsigned char nskip, char is_reverse)
 {
   signed int s;
   signed int nseg = (signed int)((unsigned long int *)hregr)[(signed long int)-1];
@@ -4944,9 +4944,9 @@ static signed int addNoIndelCandsFromSegmentSeeds(struct _SEGCAND **candr, unsig
   unsigned int cover;
   struct _SEGCAND *cdp;
   s = 0;
-  _Bool tmp_if_expr$1;
-  unsigned long int tmp_post$3;
-  unsigned long int tmp_post$4;
+  _Bool tmp_if_expr_1;
+  unsigned long int tmp_post_3;
+  unsigned long int tmp_post_4;
   for( ; !(s >= nseg); s = s + 1)
   {
     i = (hregr + (signed long int)s)->idx;
@@ -4955,35 +4955,35 @@ static signed int addNoIndelCandsFromSegmentSeeds(struct _SEGCAND **candr, unsig
     {
       cover = (segmr + (signed long int)i)->cover;
       if(!(cover >= mincover))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (segmr + (signed long int)i)->nseed < 0 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (segmr + (signed long int)i)->nseed < 0 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_1)
       {
         if(!(*max_cover >= cover))
           *max_cover = cover;
 
         if(((unsigned long int *)*candr)[-1l] >= ((unsigned long int *)*candr)[-2l])
         {
-          void *return_value_arrayRealloc$2;
-          return_value_arrayRealloc$2=arrayRealloc((void *)*candr, (unsigned long int)0, (char)0, "segment.c", 1308);
-          cdp = (struct _SEGCAND *)return_value_arrayRealloc$2;
+          void *return_value_arrayRealloc_2;
+          return_value_arrayRealloc_2=arrayRealloc((void *)*candr, (unsigned long int)0, (char)0, "segment.c", 1308);
+          cdp = (struct _SEGCAND *)return_value_arrayRealloc_2;
           if(!(cdp == ((struct _SEGCAND *)NULL)))
           {
             *candr = cdp;
-            tmp_post$3 = ((unsigned long int *)*candr)[(signed long int)-1];
+            tmp_post_3 = ((unsigned long int *)*candr)[(signed long int)-1];
             ((unsigned long int *)*candr)[(signed long int)-1] = ((unsigned long int *)*candr)[(signed long int)-1] + 1ul;
-            cdp = *candr + (signed long int)tmp_post$3;
+            cdp = *candr + (signed long int)tmp_post_3;
           }
 
         }
 
         else
         {
-          tmp_post$4 = ((unsigned long int *)*candr)[(signed long int)-1];
+          tmp_post_4 = ((unsigned long int *)*candr)[(signed long int)-1];
           ((unsigned long int *)*candr)[(signed long int)-1] = ((unsigned long int *)*candr)[(signed long int)-1] + 1ul;
-          cdp = *candr + (signed long int)tmp_post$4;
+          cdp = *candr + (signed long int)tmp_post_4;
         }
         if(cdp == ((struct _SEGCAND *)NULL))
           return 2;
@@ -5018,8 +5018,8 @@ static signed int addPairResultsToReport(struct _Report *rep, const unsigned cha
   unsigned char reppairflg = (unsigned char)0;
   unsigned char rmAflg;
   unsigned char rmBflg;
-  unsigned short int return_value_resultGetStatusFlag$2;
-  unsigned short int return_value_resultGetStatusFlag$1;
+  unsigned short int return_value_resultGetStatusFlag_2;
+  unsigned short int return_value_resultGetStatusFlag_1;
   if(!(pairID >= 0))
     return 2;
 
@@ -5028,11 +5028,11 @@ static signed int addPairResultsToReport(struct _Report *rep, const unsigned cha
     repmateflg = repmateflg | (unsigned char)4;
     if(!((1 & (signed int)mapflg) == 0) && !(mp == ((const struct _RESULT *)NULL)) && !(rp == ((const struct _RESULT *)NULL)))
     {
-      return_value_resultGetStatusFlag$2=resultGetStatusFlag(rp);
-      if((16 & (signed int)return_value_resultGetStatusFlag$2) == 0)
+      return_value_resultGetStatusFlag_2=resultGetStatusFlag(rp);
+      if((16 & (signed int)return_value_resultGetStatusFlag_2) == 0)
       {
-        return_value_resultGetStatusFlag$1=resultGetStatusFlag(mp);
-        if((16 & (signed int)return_value_resultGetStatusFlag$1) == 0)
+        return_value_resultGetStatusFlag_1=resultGetStatusFlag(mp);
+        if((16 & (signed int)return_value_resultGetStatusFlag_1) == 0)
         {
           reppairflg = reppairflg | (unsigned char)1;
           if(!((2 & (signed int)mapflg) == 0))
@@ -5082,9 +5082,9 @@ static signed int addPairResultsToReport(struct _Report *rep, const unsigned cha
 struct _AliBuffer * aliBufferCreate(signed int blocksiz)
 {
   struct _AliBuffer *p;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _AliBuffer) /*72ul*/ , "alibuffer.c", 52);
-  p = (struct _AliBuffer *)return_value_ecalloc$1;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _AliBuffer) /*72ul*/ , "alibuffer.c", 52);
+  p = (struct _AliBuffer *)return_value_ecalloc_1;
   if(p == ((struct _AliBuffer *)NULL))
     return ((struct _AliBuffer *)NULL);
 
@@ -5093,9 +5093,9 @@ struct _AliBuffer * aliBufferCreate(signed int blocksiz)
     if(!(blocksiz >= 1))
       blocksiz = 256;
 
-    void *return_value_ecalloc$2;
-    return_value_ecalloc$2=ecalloc((unsigned long int)blocksiz, sizeof(unsigned char) /*1ul*/ , "alibuffer.c", 57);
-    p->datap = (unsigned char *)return_value_ecalloc$2;
+    void *return_value_ecalloc_2;
+    return_value_ecalloc_2=ecalloc((unsigned long int)blocksiz, sizeof(unsigned char) /*1ul*/ , "alibuffer.c", 57);
+    p->datap = (unsigned char *)return_value_ecalloc_2;
     if(p->datap == ((unsigned char *)NULL))
     {
       aliBufferDelete(p);
@@ -5182,10 +5182,10 @@ struct _AliRsltSet * aliRsltSetCreate(const struct _ScoreMatrix *smp, signed sho
   signed int errcode = 0;
   signed short int i;
   struct _AliRsltSet *p;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _AliRsltSet) /*120ul*/ , "alignment.c", 1448);
-  p = (struct _AliRsltSet *)return_value_ecalloc$1;
-  _Bool tmp_if_expr$3;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _AliRsltSet) /*120ul*/ , "alignment.c", 1448);
+  p = (struct _AliRsltSet *)return_value_ecalloc_1;
+  _Bool tmp_if_expr_3;
   if(p == ((struct _AliRsltSet *)NULL))
     return (struct _AliRsltSet *)(void *)0;
 
@@ -5194,9 +5194,9 @@ struct _AliRsltSet * aliRsltSetCreate(const struct _ScoreMatrix *smp, signed sho
     if(!((signed int)blksz >= 1))
       blksz = (signed short int)16;
 
-    void *return_value_ecalloc$2;
-    return_value_ecalloc$2=ecalloc((unsigned long int)blksz, sizeof(struct _ALIRESULT) /*48ul*/ , "alignment.c", 1454);
-    p->rsp = (struct _ALIRESULT *)return_value_ecalloc$2;
+    void *return_value_ecalloc_2;
+    return_value_ecalloc_2=ecalloc((unsigned long int)blksz, sizeof(struct _ALIRESULT) /*48ul*/ , "alignment.c", 1454);
+    p->rsp = (struct _ALIRESULT *)return_value_ecalloc_2;
     if(p->rsp == ((struct _ALIRESULT *)NULL))
     {
       aliRsltSetDelete(p);
@@ -5238,14 +5238,14 @@ struct _AliRsltSet * aliRsltSetCreate(const struct _ScoreMatrix *smp, signed sho
           p->cplxp = ((struct _ALICPLX *)NULL);
         errcode=initALITRACK(&p->track, (unsigned long int)track_blksz, (unsigned long int)track_thresh);
         if(!(errcode == 0))
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
         {
           errcode=initALIMETA(&p->meta, diffblksz);
-          tmp_if_expr$3 = errcode != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = errcode != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$3)
+        if(tmp_if_expr_3)
         {
           aliRsltSetDelete(p);
           p = ((struct _AliRsltSet *)NULL);
@@ -5346,36 +5346,36 @@ signed int aliScoreDiffStr(signed int *swscor, const char *unprofiled_seqp, sign
   *swscor = 0;
   rs = 0;
   i = 0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  signed int tmp_post$4;
-  unsigned int tmp_post$5;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  signed int tmp_post_4;
+  unsigned int tmp_post_5;
   do
   {
     if(!(i >= diffstrlen))
-      tmp_if_expr$1 = diffstrp[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = diffstrp[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     typ = (unsigned char)((signed int)diffstrp[(signed long int)i] >> 6);
     count = (unsigned char)((signed int)diffstrp[(signed long int)i] & 63);
     if((signed int)typ == 0)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       if((signed int)typ == 3)
-        tmp_if_expr$2 = diffstrp[(signed long int)(i + 1)] != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = diffstrp[(signed long int)(i + 1)] != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       count = count + 1;
 
     if((signed int)count >= 1)
@@ -5384,11 +5384,11 @@ signed int aliScoreDiffStr(signed int *swscor, const char *unprofiled_seqp, sign
       j = (unsigned char)0;
       for( ; !((signed int)j >= (signed int)count); j = j + 1)
       {
-        tmp_post$4 = rs;
+        tmp_post_4 = rs;
         rs = rs + 1;
-        tmp_post$5 = profiled_offs;
+        tmp_post_5 = profiled_offs;
         profiled_offs = profiled_offs + 1u;
-        *swscor = *swscor + (signed int)scorepp[(signed long int)((signed int)unprofiled_seqp[(signed long int)tmp_post$4] & 7)][(signed long int)tmp_post$5];
+        *swscor = *swscor + (signed int)scorepp[(signed long int)((signed int)unprofiled_seqp[(signed long int)tmp_post_4] & 7)][(signed long int)tmp_post_5];
         if(!(unprofiled_seqlen >= rs) || !(profiled_len >= profiled_offs))
           return 47;
 
@@ -5454,9 +5454,9 @@ signed int aliSmiWatInBand(struct _AliRsltSet *rssp, struct _AliBuffer *bufp, co
 
       else
       {
-        signed int return_value_alignSmiWatBandRecursive$1;
-        return_value_alignSmiWatBandRecursive$1=alignSmiWatBandRecursive(rssp, bufp, profp, (signed int)qlen, unprofiled_seqp, unprofiled_seqlen, l_edge, r_edge, profiled_left, profiled_right, unprofiled_left, unprofiled_right, minscore, minscorlen);
-        return return_value_alignSmiWatBandRecursive$1;
+        signed int return_value_alignSmiWatBandRecursive_1;
+        return_value_alignSmiWatBandRecursive_1=alignSmiWatBandRecursive(rssp, bufp, profp, (signed int)qlen, unprofiled_seqp, unprofiled_seqlen, l_edge, r_edge, profiled_left, profiled_right, unprofiled_left, unprofiled_right, minscore, minscorlen);
+        return return_value_alignSmiWatBandRecursive_1;
       }
     }
   }
@@ -5498,11 +5498,11 @@ static signed int alignRMAPCANDFull(struct _ResultSet *rsp, struct _AliRsltSet *
   unsigned long int re;
   signed int swatscor_2ndmax = 0;
   i = 0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  signed long int tmp_if_expr$5;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  signed long int tmp_if_expr_5;
   for( ; !(i >= scrlen); i = i + 1)
   {
     const struct _ScoreProfile *scprofp = (const struct _ScoreProfile *)(void *)0;
@@ -5520,11 +5520,11 @@ static signed int alignRMAPCANDFull(struct _ResultSet *rsp, struct _AliRsltSet *
     __CPROVER_DUMP_L2:
       ;
       if(!(cp->re >= cp->rs))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = cp->re - cp->rs > (unsigned long int)0x7fffffff ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = cp->re - cp->rs > (unsigned long int)0x7fffffff ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         return 48;
 
       re = cp->re;
@@ -5558,21 +5558,21 @@ static signed int alignRMAPCANDFull(struct _ResultSet *rsp, struct _AliRsltSet *
       unprofiled_seqp=seqFastqGetConstSequence(sqbufp, &unprofiled_seqlen, (char *)(void *)0);
       scoreGetProfile((signed short int *)(void *)0, &profiled_seqlen, (signed char *)(void *)0, (signed char *)(void *)0, scprofp);
       if(unprofiled_seqlen >= 2147483648u)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (unsigned long int)unprofiled_seqlen != (cp->re - cp->rs) + (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_2 = (unsigned long int)unprofiled_seqlen != (cp->re - cp->rs) + (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = cp->qs > cp->qe ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_3 = cp->qs > cp->qe ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = cp->qe >= profiled_seqlen ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = cp->qe >= profiled_seqlen ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
         return 47;
 
       if(!((2 & (signed int)rmapflag) == 0))
@@ -5601,11 +5601,11 @@ static signed int alignRMAPCANDFull(struct _ResultSet *rsp, struct _AliRsltSet *
       if(errcode == 0)
       {
         if(cp->sqidx == -1l)
-          tmp_if_expr$5 = (signed long int)-1;
+          tmp_if_expr_5 = (signed long int)-1;
 
         else
-          tmp_if_expr$5 = cp->sqidx;
-        errcode=resultSetAddFromAli(rsp, alirsp, (unsigned int)cp->rs, (unsigned int)0, profiled_seqlen, tmp_if_expr$5, (char)((signed int)cp->flags & 1));
+          tmp_if_expr_5 = cp->sqidx;
+        errcode=resultSetAddFromAli(rsp, alirsp, (unsigned int)cp->rs, (unsigned int)0, profiled_seqlen, tmp_if_expr_5, (char)((signed int)cp->flags & 1));
       }
 
       if(!(errcode == 0))
@@ -5642,7 +5642,7 @@ static signed int alignSmiWatBand(struct _ALITRACK *bktp, struct _AliBuffer *buf
   signed int *Hp;
   signed int *Ep;
   scorpp=scoreGetProfile((signed short int *)(void *)0, (unsigned int *)(void *)0, &gap_init, &gap_ext, profp);
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(bandp->q_len >= bufp->qlen_max)
   {
     errcode=aliBufferInit(bufp, (unsigned int)bandp->q_len);
@@ -5858,9 +5858,9 @@ static signed int alignSmiWatBand(struct _ALITRACK *bktp, struct _AliBuffer *buf
 
       else
       {
-        tmp_post$1 = delta_band_end;
+        tmp_post_1 = delta_band_end;
         delta_band_end = delta_band_end + 1;
-        dirp = dirp + (signed long int)tmp_post$1;
+        dirp = dirp + (signed long int)tmp_post_1;
       }
     }
     bktp->max_i = max_i;
@@ -6086,9 +6086,9 @@ static signed int alignSmiWatBandRecursive(struct _AliRsltSet *rssp, struct _Ali
 
   else
   {
-    signed int return_value_initALIBAND$1;
-    return_value_initALIBAND$1=initALIBAND(&band, l_edge, r_edge, q_left, q_right, q_len, s_left, s_right, s_len);
-    if(!(return_value_initALIBAND$1 == 0))
+    signed int return_value_initALIBAND_1;
+    return_value_initALIBAND_1=initALIBAND(&band, l_edge, r_edge, q_left, q_right, q_len, s_left, s_right, s_len);
+    if(!(return_value_initALIBAND_1 == 0))
       return 0;
 
     else
@@ -6209,9 +6209,9 @@ static signed int alignSmiWatByteStriped(unsigned char *maxscor, const struct _A
 
   else
   {
-    const void *return_value_scoreGetStripedProfile$1;
-    return_value_scoreGetStripedProfile$1=scoreGetStripedProfile((signed short int *)(void *)0, (unsigned int *)(void *)0, &gap_init, &gap_ext, &bias, &segsiz, (char)2, spp);
-    vProfp = (const __gcc_v2di *)return_value_scoreGetStripedProfile$1;
+    const void *return_value_scoreGetStripedProfile_1;
+    return_value_scoreGetStripedProfile_1=scoreGetStripedProfile((signed short int *)(void *)0, (unsigned int *)(void *)0, &gap_init, &gap_ext, &bias, &segsiz, (char)2, spp);
+    vProfp = (const __gcc_v2di *)return_value_scoreGetStripedProfile_1;
     if(vProfp == ((const __gcc_v2di *)NULL))
       return 66;
 
@@ -6219,37 +6219,37 @@ static signed int alignSmiWatByteStriped(unsigned char *maxscor, const struct _A
     {
       vBias=_mm_setzero_si128();
       intval = (signed int)bias << 8 | (signed int)bias & 255;
-      __gcc_v8hi return_value___builtin_ia32_vec_set_v8hi$2;
-      return_value___builtin_ia32_vec_set_v8hi$2=__builtin_ia32_vec_set_v8hi((__gcc_v8hi)(__gcc_v2di)vBias, (signed int)intval, (signed int)0);
-      vBias = (__gcc_v2di)return_value___builtin_ia32_vec_set_v8hi$2;
-      __gcc_v8hi return_value___builtin_ia32_pshuflw$3;
-      return_value___builtin_ia32_pshuflw$3=__builtin_ia32_pshuflw((__gcc_v8hi)(__gcc_v2di)vBias, (signed int)0);
-      vBias = (__gcc_v2di)return_value___builtin_ia32_pshuflw$3;
-      __gcc_v4si return_value___builtin_ia32_pshufd$4;
-      return_value___builtin_ia32_pshufd$4=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)vBias, (signed int)0);
-      vBias = (__gcc_v2di)return_value___builtin_ia32_pshufd$4;
+      __gcc_v8hi return_value___builtin_ia32_vec_set_v8hi_2;
+      return_value___builtin_ia32_vec_set_v8hi_2=__builtin_ia32_vec_set_v8hi((__gcc_v8hi)(__gcc_v2di)vBias, (signed int)intval, (signed int)0);
+      vBias = (__gcc_v2di)return_value___builtin_ia32_vec_set_v8hi_2;
+      __gcc_v8hi return_value___builtin_ia32_pshuflw_3;
+      return_value___builtin_ia32_pshuflw_3=__builtin_ia32_pshuflw((__gcc_v8hi)(__gcc_v2di)vBias, (signed int)0);
+      vBias = (__gcc_v2di)return_value___builtin_ia32_pshuflw_3;
+      __gcc_v4si return_value___builtin_ia32_pshufd_4;
+      return_value___builtin_ia32_pshufd_4=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)vBias, (signed int)0);
+      vBias = (__gcc_v2di)return_value___builtin_ia32_pshufd_4;
       vGapI=_mm_setzero_si128();
       intval = (signed int)gap_init << 8 | (signed int)gap_init & 255;
-      __gcc_v8hi return_value___builtin_ia32_vec_set_v8hi$5;
-      return_value___builtin_ia32_vec_set_v8hi$5=__builtin_ia32_vec_set_v8hi((__gcc_v8hi)(__gcc_v2di)vGapI, (signed int)intval, (signed int)0);
-      vGapI = (__gcc_v2di)return_value___builtin_ia32_vec_set_v8hi$5;
-      __gcc_v8hi return_value___builtin_ia32_pshuflw$6;
-      return_value___builtin_ia32_pshuflw$6=__builtin_ia32_pshuflw((__gcc_v8hi)(__gcc_v2di)vGapI, (signed int)0);
-      vGapI = (__gcc_v2di)return_value___builtin_ia32_pshuflw$6;
-      __gcc_v4si return_value___builtin_ia32_pshufd$7;
-      return_value___builtin_ia32_pshufd$7=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)vGapI, (signed int)0);
-      vGapI = (__gcc_v2di)return_value___builtin_ia32_pshufd$7;
+      __gcc_v8hi return_value___builtin_ia32_vec_set_v8hi_5;
+      return_value___builtin_ia32_vec_set_v8hi_5=__builtin_ia32_vec_set_v8hi((__gcc_v8hi)(__gcc_v2di)vGapI, (signed int)intval, (signed int)0);
+      vGapI = (__gcc_v2di)return_value___builtin_ia32_vec_set_v8hi_5;
+      __gcc_v8hi return_value___builtin_ia32_pshuflw_6;
+      return_value___builtin_ia32_pshuflw_6=__builtin_ia32_pshuflw((__gcc_v8hi)(__gcc_v2di)vGapI, (signed int)0);
+      vGapI = (__gcc_v2di)return_value___builtin_ia32_pshuflw_6;
+      __gcc_v4si return_value___builtin_ia32_pshufd_7;
+      return_value___builtin_ia32_pshufd_7=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)vGapI, (signed int)0);
+      vGapI = (__gcc_v2di)return_value___builtin_ia32_pshufd_7;
       vGapE=_mm_setzero_si128();
       intval = (signed int)gap_ext << 8 | (signed int)gap_ext & 255;
-      __gcc_v8hi return_value___builtin_ia32_vec_set_v8hi$8;
-      return_value___builtin_ia32_vec_set_v8hi$8=__builtin_ia32_vec_set_v8hi((__gcc_v8hi)(__gcc_v2di)vGapE, (signed int)intval, (signed int)0);
-      vGapE = (__gcc_v2di)return_value___builtin_ia32_vec_set_v8hi$8;
-      __gcc_v8hi return_value___builtin_ia32_pshuflw$9;
-      return_value___builtin_ia32_pshuflw$9=__builtin_ia32_pshuflw((__gcc_v8hi)(__gcc_v2di)vGapE, (signed int)0);
-      vGapE = (__gcc_v2di)return_value___builtin_ia32_pshuflw$9;
-      __gcc_v4si return_value___builtin_ia32_pshufd$10;
-      return_value___builtin_ia32_pshufd$10=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)vGapE, (signed int)0);
-      vGapE = (__gcc_v2di)return_value___builtin_ia32_pshufd$10;
+      __gcc_v8hi return_value___builtin_ia32_vec_set_v8hi_8;
+      return_value___builtin_ia32_vec_set_v8hi_8=__builtin_ia32_vec_set_v8hi((__gcc_v8hi)(__gcc_v2di)vGapE, (signed int)intval, (signed int)0);
+      vGapE = (__gcc_v2di)return_value___builtin_ia32_vec_set_v8hi_8;
+      __gcc_v8hi return_value___builtin_ia32_pshuflw_9;
+      return_value___builtin_ia32_pshuflw_9=__builtin_ia32_pshuflw((__gcc_v8hi)(__gcc_v2di)vGapE, (signed int)0);
+      vGapE = (__gcc_v2di)return_value___builtin_ia32_pshuflw_9;
+      __gcc_v4si return_value___builtin_ia32_pshufd_10;
+      return_value___builtin_ia32_pshufd_10=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)vGapE, (signed int)0);
+      vGapE = (__gcc_v2di)return_value___builtin_ia32_pshufd_10;
       vMax=_mm_setzero_si128();
       vZero=_mm_setzero_si128();
       i = 0;
@@ -6264,9 +6264,9 @@ static signed int alignSmiWatByteStriped(unsigned char *maxscor, const struct _A
         vScorep = vProfp + (signed long int)(((signed int)usqp[(signed long int)i] & 7) * segsiz);
         vF=_mm_setzero_si128();
         vH=_mm_load_si128((vHSp + (signed long int)segsiz) - (signed long int)1);
-        __gcc_v2di return_value___builtin_ia32_pslldqi128$11;
-        return_value___builtin_ia32_pslldqi128$11=__builtin_ia32_pslldqi128((__gcc_v2di)vH, (signed int)1 * 8);
-        vH = (__gcc_v2di)return_value___builtin_ia32_pslldqi128$11;
+        __gcc_v2di return_value___builtin_ia32_pslldqi128_11;
+        return_value___builtin_ia32_pslldqi128_11=__builtin_ia32_pslldqi128((__gcc_v2di)vH, (signed int)1 * 8);
+        vH = (__gcc_v2di)return_value___builtin_ia32_pslldqi128_11;
         vp = vHLp;
         vHLp = vHSp;
         vHSp = vp;
@@ -6291,9 +6291,9 @@ static signed int alignSmiWatByteStriped(unsigned char *maxscor, const struct _A
         }
         j = 0;
         vH=_mm_load_si128(vHSp + (signed long int)j);
-        __gcc_v2di return_value___builtin_ia32_pslldqi128$12;
-        return_value___builtin_ia32_pslldqi128$12=__builtin_ia32_pslldqi128((__gcc_v2di)vF, (signed int)1 * 8);
-        vF = (__gcc_v2di)return_value___builtin_ia32_pslldqi128$12;
+        __gcc_v2di return_value___builtin_ia32_pslldqi128_12;
+        return_value___builtin_ia32_pslldqi128_12=__builtin_ia32_pslldqi128((__gcc_v2di)vF, (signed int)1 * 8);
+        vF = (__gcc_v2di)return_value___builtin_ia32_pslldqi128_12;
         vTmp=_mm_subs_epu8(vH, vGapI);
         vTmp=_mm_subs_epu8(vF, vTmp);
         vTmp=_mm_cmpeq_epi8(vTmp, vZero);
@@ -6311,9 +6311,9 @@ static signed int alignSmiWatByteStriped(unsigned char *maxscor, const struct _A
           if(j >= segsiz)
           {
             j = 0;
-            __gcc_v2di return_value___builtin_ia32_pslldqi128$13;
-            return_value___builtin_ia32_pslldqi128$13=__builtin_ia32_pslldqi128((__gcc_v2di)vF, (signed int)1 * 8);
-            vF = (__gcc_v2di)return_value___builtin_ia32_pslldqi128$13;
+            __gcc_v2di return_value___builtin_ia32_pslldqi128_13;
+            return_value___builtin_ia32_pslldqi128_13=__builtin_ia32_pslldqi128((__gcc_v2di)vF, (signed int)1 * 8);
+            vF = (__gcc_v2di)return_value___builtin_ia32_pslldqi128_13;
           }
 
           vH=_mm_load_si128(vHSp + (signed long int)j);
@@ -6323,25 +6323,25 @@ static signed int alignSmiWatByteStriped(unsigned char *maxscor, const struct _A
           cmpval=_mm_movemask_epi8(vTmp);
         }
       }
-      __gcc_v2di return_value___builtin_ia32_psrldqi128$14;
-      return_value___builtin_ia32_psrldqi128$14=__builtin_ia32_psrldqi128((__gcc_v2di)vMax, (signed int)8 * 8);
-      vTmp = (__gcc_v2di)return_value___builtin_ia32_psrldqi128$14;
+      __gcc_v2di return_value___builtin_ia32_psrldqi128_14;
+      return_value___builtin_ia32_psrldqi128_14=__builtin_ia32_psrldqi128((__gcc_v2di)vMax, (signed int)8 * 8);
+      vTmp = (__gcc_v2di)return_value___builtin_ia32_psrldqi128_14;
       vMax=_mm_max_epu8(vMax, vTmp);
-      __gcc_v2di return_value___builtin_ia32_psrldqi128$15;
-      return_value___builtin_ia32_psrldqi128$15=__builtin_ia32_psrldqi128((__gcc_v2di)vMax, (signed int)4 * 8);
-      vTmp = (__gcc_v2di)return_value___builtin_ia32_psrldqi128$15;
+      __gcc_v2di return_value___builtin_ia32_psrldqi128_15;
+      return_value___builtin_ia32_psrldqi128_15=__builtin_ia32_psrldqi128((__gcc_v2di)vMax, (signed int)4 * 8);
+      vTmp = (__gcc_v2di)return_value___builtin_ia32_psrldqi128_15;
       vMax=_mm_max_epu8(vMax, vTmp);
-      __gcc_v2di return_value___builtin_ia32_psrldqi128$16;
-      return_value___builtin_ia32_psrldqi128$16=__builtin_ia32_psrldqi128((__gcc_v2di)vMax, (signed int)2 * 8);
-      vTmp = (__gcc_v2di)return_value___builtin_ia32_psrldqi128$16;
+      __gcc_v2di return_value___builtin_ia32_psrldqi128_16;
+      return_value___builtin_ia32_psrldqi128_16=__builtin_ia32_psrldqi128((__gcc_v2di)vMax, (signed int)2 * 8);
+      vTmp = (__gcc_v2di)return_value___builtin_ia32_psrldqi128_16;
       vMax=_mm_max_epu8(vMax, vTmp);
-      __gcc_v2di return_value___builtin_ia32_psrldqi128$17;
-      return_value___builtin_ia32_psrldqi128$17=__builtin_ia32_psrldqi128((__gcc_v2di)vMax, (signed int)1 * 8);
-      vTmp = (__gcc_v2di)return_value___builtin_ia32_psrldqi128$17;
+      __gcc_v2di return_value___builtin_ia32_psrldqi128_17;
+      return_value___builtin_ia32_psrldqi128_17=__builtin_ia32_psrldqi128((__gcc_v2di)vMax, (signed int)1 * 8);
+      vTmp = (__gcc_v2di)return_value___builtin_ia32_psrldqi128_17;
       vMax=_mm_max_epu8(vMax, vTmp);
-      unsigned int return_value___builtin_ia32_vec_ext_v8hi$18;
-      return_value___builtin_ia32_vec_ext_v8hi$18=__builtin_ia32_vec_ext_v8hi((__gcc_v8hi)(__gcc_v2di)vMax, (signed int)0);
-      score = (signed int)(unsigned short int)return_value___builtin_ia32_vec_ext_v8hi$18;
+      unsigned int return_value___builtin_ia32_vec_ext_v8hi_18;
+      return_value___builtin_ia32_vec_ext_v8hi_18=__builtin_ia32_vec_ext_v8hi((__gcc_v8hi)(__gcc_v2di)vMax, (signed int)0);
+      score = (signed int)(unsigned short int)return_value___builtin_ia32_vec_ext_v8hi_18;
       score = score & 255;
       if(score + (signed int)bias >= 1)
         errcode = 41;
@@ -6389,43 +6389,43 @@ static signed int alignSmiWatShortStriped(unsigned short int *maxscor, const str
 
   else
   {
-    const void *return_value_scoreGetStripedProfile$1;
-    return_value_scoreGetStripedProfile$1=scoreGetStripedProfile((signed short int *)(void *)0, (unsigned int *)(void *)0, &gap_init, &gap_ext, (unsigned short int *)(void *)0, &segsiz, (char)4, spp);
-    vProfp = (const __gcc_v2di *)return_value_scoreGetStripedProfile$1;
+    const void *return_value_scoreGetStripedProfile_1;
+    return_value_scoreGetStripedProfile_1=scoreGetStripedProfile((signed short int *)(void *)0, (unsigned int *)(void *)0, &gap_init, &gap_ext, (unsigned short int *)(void *)0, &segsiz, (char)4, spp);
+    vProfp = (const __gcc_v2di *)return_value_scoreGetStripedProfile_1;
     if(vProfp == ((const __gcc_v2di *)NULL))
       return 66;
 
     else
     {
       vGapI=_mm_setzero_si128();
-      __gcc_v8hi return_value___builtin_ia32_vec_set_v8hi$2;
-      return_value___builtin_ia32_vec_set_v8hi$2=__builtin_ia32_vec_set_v8hi((__gcc_v8hi)(__gcc_v2di)vGapI, (signed int)gap_init, (signed int)0);
-      vGapI = (__gcc_v2di)return_value___builtin_ia32_vec_set_v8hi$2;
-      __gcc_v8hi return_value___builtin_ia32_pshuflw$3;
-      return_value___builtin_ia32_pshuflw$3=__builtin_ia32_pshuflw((__gcc_v8hi)(__gcc_v2di)vGapI, (signed int)0);
-      vGapI = (__gcc_v2di)return_value___builtin_ia32_pshuflw$3;
-      __gcc_v4si return_value___builtin_ia32_pshufd$4;
-      return_value___builtin_ia32_pshufd$4=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)vGapI, (signed int)0);
-      vGapI = (__gcc_v2di)return_value___builtin_ia32_pshufd$4;
+      __gcc_v8hi return_value___builtin_ia32_vec_set_v8hi_2;
+      return_value___builtin_ia32_vec_set_v8hi_2=__builtin_ia32_vec_set_v8hi((__gcc_v8hi)(__gcc_v2di)vGapI, (signed int)gap_init, (signed int)0);
+      vGapI = (__gcc_v2di)return_value___builtin_ia32_vec_set_v8hi_2;
+      __gcc_v8hi return_value___builtin_ia32_pshuflw_3;
+      return_value___builtin_ia32_pshuflw_3=__builtin_ia32_pshuflw((__gcc_v8hi)(__gcc_v2di)vGapI, (signed int)0);
+      vGapI = (__gcc_v2di)return_value___builtin_ia32_pshuflw_3;
+      __gcc_v4si return_value___builtin_ia32_pshufd_4;
+      return_value___builtin_ia32_pshufd_4=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)vGapI, (signed int)0);
+      vGapI = (__gcc_v2di)return_value___builtin_ia32_pshufd_4;
       vGapE=_mm_setzero_si128();
-      __gcc_v8hi return_value___builtin_ia32_vec_set_v8hi$5;
-      return_value___builtin_ia32_vec_set_v8hi$5=__builtin_ia32_vec_set_v8hi((__gcc_v8hi)(__gcc_v2di)vGapE, (signed int)gap_ext, (signed int)0);
-      vGapE = (__gcc_v2di)return_value___builtin_ia32_vec_set_v8hi$5;
-      __gcc_v8hi return_value___builtin_ia32_pshuflw$6;
-      return_value___builtin_ia32_pshuflw$6=__builtin_ia32_pshuflw((__gcc_v8hi)(__gcc_v2di)vGapE, (signed int)0);
-      vGapE = (__gcc_v2di)return_value___builtin_ia32_pshuflw$6;
-      __gcc_v4si return_value___builtin_ia32_pshufd$7;
-      return_value___builtin_ia32_pshufd$7=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)vGapE, (signed int)0);
-      vGapE = (__gcc_v2di)return_value___builtin_ia32_pshufd$7;
+      __gcc_v8hi return_value___builtin_ia32_vec_set_v8hi_5;
+      return_value___builtin_ia32_vec_set_v8hi_5=__builtin_ia32_vec_set_v8hi((__gcc_v8hi)(__gcc_v2di)vGapE, (signed int)gap_ext, (signed int)0);
+      vGapE = (__gcc_v2di)return_value___builtin_ia32_vec_set_v8hi_5;
+      __gcc_v8hi return_value___builtin_ia32_pshuflw_6;
+      return_value___builtin_ia32_pshuflw_6=__builtin_ia32_pshuflw((__gcc_v8hi)(__gcc_v2di)vGapE, (signed int)0);
+      vGapE = (__gcc_v2di)return_value___builtin_ia32_pshuflw_6;
+      __gcc_v4si return_value___builtin_ia32_pshufd_7;
+      return_value___builtin_ia32_pshufd_7=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)vGapE, (signed int)0);
+      vGapE = (__gcc_v2di)return_value___builtin_ia32_pshufd_7;
       vMax=_mm_setzero_si128();
       vMax=_mm_cmpeq_epi16(vMax, vMax);
       vMax=_mm_slli_epi16(vMax, 15);
-      __gcc_v4si return_value___builtin_ia32_pshufd$8;
-      return_value___builtin_ia32_pshufd$8=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)vMax, (signed int)0);
-      vMin = (__gcc_v2di)return_value___builtin_ia32_pshufd$8;
-      __gcc_v2di return_value___builtin_ia32_psrldqi128$9;
-      return_value___builtin_ia32_psrldqi128$9=__builtin_ia32_psrldqi128((__gcc_v2di)vMin, (signed int)14 * 8);
-      vMin = (__gcc_v2di)return_value___builtin_ia32_psrldqi128$9;
+      __gcc_v4si return_value___builtin_ia32_pshufd_8;
+      return_value___builtin_ia32_pshufd_8=__builtin_ia32_pshufd((__gcc_v4si)(__gcc_v2di)vMax, (signed int)0);
+      vMin = (__gcc_v2di)return_value___builtin_ia32_pshufd_8;
+      __gcc_v2di return_value___builtin_ia32_psrldqi128_9;
+      return_value___builtin_ia32_psrldqi128_9=__builtin_ia32_psrldqi128((__gcc_v2di)vMin, (signed int)14 * 8);
+      vMin = (__gcc_v2di)return_value___builtin_ia32_psrldqi128_9;
       i = 0;
       for( ; !(i >= segsiz); i = i + 1)
       {
@@ -6440,9 +6440,9 @@ static signed int alignSmiWatShortStriped(unsigned short int *maxscor, const str
         vF=_mm_cmpeq_epi16(vF, vF);
         vF=_mm_slli_epi16(vF, 15);
         vH=_mm_load_si128((vHSp + (signed long int)segsiz) - (signed long int)1);
-        __gcc_v2di return_value___builtin_ia32_pslldqi128$10;
-        return_value___builtin_ia32_pslldqi128$10=__builtin_ia32_pslldqi128((__gcc_v2di)vH, (signed int)2 * 8);
-        vH = (__gcc_v2di)return_value___builtin_ia32_pslldqi128$10;
+        __gcc_v2di return_value___builtin_ia32_pslldqi128_10;
+        return_value___builtin_ia32_pslldqi128_10=__builtin_ia32_pslldqi128((__gcc_v2di)vH, (signed int)2 * 8);
+        vH = (__gcc_v2di)return_value___builtin_ia32_pslldqi128_10;
         vH=_mm_or_si128(vH, vMin);
         vp = vHLp;
         vHLp = vHSp;
@@ -6467,9 +6467,9 @@ static signed int alignSmiWatShortStriped(unsigned short int *maxscor, const str
         }
         j = 0;
         vH=_mm_load_si128(vHSp + (signed long int)j);
-        __gcc_v2di return_value___builtin_ia32_pslldqi128$11;
-        return_value___builtin_ia32_pslldqi128$11=__builtin_ia32_pslldqi128((__gcc_v2di)vF, (signed int)2 * 8);
-        vF = (__gcc_v2di)return_value___builtin_ia32_pslldqi128$11;
+        __gcc_v2di return_value___builtin_ia32_pslldqi128_11;
+        return_value___builtin_ia32_pslldqi128_11=__builtin_ia32_pslldqi128((__gcc_v2di)vF, (signed int)2 * 8);
+        vF = (__gcc_v2di)return_value___builtin_ia32_pslldqi128_11;
         vF=_mm_or_si128(vF, vMin);
         vTmp=_mm_subs_epi16(vH, vGapI);
         vTmp=_mm_cmpgt_epi16(vF, vTmp);
@@ -6487,9 +6487,9 @@ static signed int alignSmiWatShortStriped(unsigned short int *maxscor, const str
           if(j >= segsiz)
           {
             j = 0;
-            __gcc_v2di return_value___builtin_ia32_pslldqi128$12;
-            return_value___builtin_ia32_pslldqi128$12=__builtin_ia32_pslldqi128((__gcc_v2di)vF, (signed int)2 * 8);
-            vF = (__gcc_v2di)return_value___builtin_ia32_pslldqi128$12;
+            __gcc_v2di return_value___builtin_ia32_pslldqi128_12;
+            return_value___builtin_ia32_pslldqi128_12=__builtin_ia32_pslldqi128((__gcc_v2di)vF, (signed int)2 * 8);
+            vF = (__gcc_v2di)return_value___builtin_ia32_pslldqi128_12;
             vF=_mm_or_si128(vF, vMin);
           }
 
@@ -6499,21 +6499,21 @@ static signed int alignSmiWatShortStriped(unsigned short int *maxscor, const str
           cmpval=_mm_movemask_epi8(vTmp);
         }
       }
-      __gcc_v2di return_value___builtin_ia32_psrldqi128$13;
-      return_value___builtin_ia32_psrldqi128$13=__builtin_ia32_psrldqi128((__gcc_v2di)vMax, (signed int)8 * 8);
-      vTmp = (__gcc_v2di)return_value___builtin_ia32_psrldqi128$13;
+      __gcc_v2di return_value___builtin_ia32_psrldqi128_13;
+      return_value___builtin_ia32_psrldqi128_13=__builtin_ia32_psrldqi128((__gcc_v2di)vMax, (signed int)8 * 8);
+      vTmp = (__gcc_v2di)return_value___builtin_ia32_psrldqi128_13;
       vMax=_mm_max_epi16(vMax, vTmp);
-      __gcc_v2di return_value___builtin_ia32_psrldqi128$14;
-      return_value___builtin_ia32_psrldqi128$14=__builtin_ia32_psrldqi128((__gcc_v2di)vMax, (signed int)4 * 8);
-      vTmp = (__gcc_v2di)return_value___builtin_ia32_psrldqi128$14;
+      __gcc_v2di return_value___builtin_ia32_psrldqi128_14;
+      return_value___builtin_ia32_psrldqi128_14=__builtin_ia32_psrldqi128((__gcc_v2di)vMax, (signed int)4 * 8);
+      vTmp = (__gcc_v2di)return_value___builtin_ia32_psrldqi128_14;
       vMax=_mm_max_epi16(vMax, vTmp);
-      __gcc_v2di return_value___builtin_ia32_psrldqi128$15;
-      return_value___builtin_ia32_psrldqi128$15=__builtin_ia32_psrldqi128((__gcc_v2di)vMax, (signed int)2 * 8);
-      vTmp = (__gcc_v2di)return_value___builtin_ia32_psrldqi128$15;
+      __gcc_v2di return_value___builtin_ia32_psrldqi128_15;
+      return_value___builtin_ia32_psrldqi128_15=__builtin_ia32_psrldqi128((__gcc_v2di)vMax, (signed int)2 * 8);
+      vTmp = (__gcc_v2di)return_value___builtin_ia32_psrldqi128_15;
       vMax=_mm_max_epi16(vMax, vTmp);
-      unsigned int return_value___builtin_ia32_vec_ext_v8hi$16;
-      return_value___builtin_ia32_vec_ext_v8hi$16=__builtin_ia32_vec_ext_v8hi((__gcc_v8hi)(__gcc_v2di)vMax, (signed int)0);
-      tmp = (signed short int)(signed int)(unsigned short int)return_value___builtin_ia32_vec_ext_v8hi$16;
+      unsigned int return_value___builtin_ia32_vec_ext_v8hi_16;
+      return_value___builtin_ia32_vec_ext_v8hi_16=__builtin_ia32_vec_ext_v8hi((__gcc_v8hi)(__gcc_v2di)vMax, (signed int)0);
+      tmp = (signed short int)(signed int)(unsigned short int)return_value___builtin_ia32_vec_ext_v8hi_16;
       score = (signed int)tmp - (signed int)BIAS;
       if(score >= 1)
         errcode = 41;
@@ -6545,9 +6545,9 @@ static signed int appendMangledToCompressedSeq(struct _SEQSEQ *top, const struct
   unsigned long int n_unit;
   unsigned int to_unit;
   unsigned int *tsp = (unsigned int *)top->basep;
-  signed int return_value_reallocSeqBlocks$1;
-  unsigned long int tmp_post$2;
-  unsigned long int tmp_post$3;
+  signed int return_value_reallocSeqBlocks_1;
+  unsigned long int tmp_post_2;
+  unsigned long int tmp_post_3;
   if(!((signed int)fromp->code == 1))
     return 22;
 
@@ -6592,8 +6592,8 @@ static signed int appendMangledToCompressedSeq(struct _SEQSEQ *top, const struct
     n_alloc = n_unit * (unsigned long int)10;
     if(n_alloc >= top->alloc_size)
     {
-      return_value_reallocSeqBlocks$1=reallocSeqBlocks(top, n_alloc);
-      if(return_value_reallocSeqBlocks$1 == 0)
+      return_value_reallocSeqBlocks_1=reallocSeqBlocks(top, n_alloc);
+      if(return_value_reallocSeqBlocks_1 == 0)
         goto __CPROVER_DUMP_L8;
 
       return 2;
@@ -6613,9 +6613,9 @@ static signed int appendMangledToCompressedSeq(struct _SEQSEQ *top, const struct
         nsu = nsu - 1;
         if(!(nsu >= 1))
         {
-          tmp_post$2 = offset;
+          tmp_post_2 = offset;
           offset = offset + 1ul;
-          tsp[(signed long int)tmp_post$2] = to_unit;
+          tsp[(signed long int)tmp_post_2] = to_unit;
           nsu = 10;
           to_unit = (unsigned int)0;
         }
@@ -6629,9 +6629,9 @@ static signed int appendMangledToCompressedSeq(struct _SEQSEQ *top, const struct
       else
       {
         to_unit = to_unit << nsu * 3;
-        tmp_post$3 = offset;
+        tmp_post_3 = offset;
         offset = offset + 1ul;
-        tsp[(signed long int)tmp_post$3] = to_unit;
+        tsp[(signed long int)tmp_post_3] = to_unit;
         if(!(offset == n_unit))
           return 28;
 
@@ -6655,19 +6655,19 @@ static signed int appendSeqSegment(struct _SEQSEQ *top, unsigned int *tcpos, uns
   unsigned int i;
   unsigned char nt = (unsigned char)0;
   unsigned long int totsize;
-  _Bool tmp_if_expr$1;
-  char *tmp_post$3;
-  unsigned char tmp_post$4;
-  char *tmp_post$5;
-  char *tmp_post$6;
-  unsigned char tmp_post$7;
-  char *tmp_post$8;
-  unsigned char tmp_post$9;
-  char *tmp_post$10;
-  const char *tmp_post$11;
-  unsigned char tmp_post$12;
-  char *tmp_post$13;
-  const char *tmp_post$14;
+  _Bool tmp_if_expr_1;
+  char *tmp_post_3;
+  unsigned char tmp_post_4;
+  char *tmp_post_5;
+  char *tmp_post_6;
+  unsigned char tmp_post_7;
+  char *tmp_post_8;
+  unsigned char tmp_post_9;
+  char *tmp_post_10;
+  const char *tmp_post_11;
+  unsigned char tmp_post_12;
+  char *tmp_post_13;
+  const char *tmp_post_14;
   if((signed int)fromp->code == 2)
     return 22;
 
@@ -6678,11 +6678,11 @@ static signed int appendSeqSegment(struct _SEQSEQ *top, unsigned int *tcpos, uns
     else
     {
       if(length == 0u)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (unsigned long int)(start + length) > fromp->size ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (unsigned long int)(start + length) > fromp->size ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         length = (unsigned int)(fromp->size - (unsigned long int)start);
 
       if(!(withTerm == 0))
@@ -6700,9 +6700,9 @@ static signed int appendSeqSegment(struct _SEQSEQ *top, unsigned int *tcpos, uns
         totsize = (unsigned long int)length + top->size;
         if(!(top->alloc_size >= 1ul + totsize))
         {
-          signed int return_value_reallocSeqBlocks$2;
-          return_value_reallocSeqBlocks$2=reallocSeqBlocks(top, totsize);
-          if(!(return_value_reallocSeqBlocks$2 == 0))
+          signed int return_value_reallocSeqBlocks_2;
+          return_value_reallocSeqBlocks_2=reallocSeqBlocks(top, totsize);
+          if(!(return_value_reallocSeqBlocks_2 == 0))
             return 2;
 
         }
@@ -6721,16 +6721,16 @@ static signed int appendSeqSegment(struct _SEQSEQ *top, unsigned int *tcpos, uns
               {
                 if(!((4 & (signed int)*cp) == 0))
                 {
-                  tmp_post$3 = hp;
+                  tmp_post_3 = hp;
                   hp = hp + 1l;
-                  *tmp_post$3 = *cp;
+                  *tmp_post_3 = *cp;
                   if((signed int)*cp == 7)
                   {
                     if(!(tcpos == ((unsigned int *)NULL)) && !((signed int)nt >= 8))
                     {
-                      tmp_post$4 = nt;
+                      tmp_post_4 = nt;
                       nt = nt + 1;
-                      tcpos[(signed long int)tmp_post$4] = i;
+                      tcpos[(signed long int)tmp_post_4] = i;
                     }
 
                   }
@@ -6739,9 +6739,9 @@ static signed int appendSeqSegment(struct _SEQSEQ *top, unsigned int *tcpos, uns
 
                 else
                 {
-                  tmp_post$5 = hp;
+                  tmp_post_5 = hp;
                   hp = hp + 1l;
-                  *tmp_post$5 = (char)codep->codtab_complement[(signed long int)((signed int)*cp & 3)];
+                  *tmp_post_5 = (char)codep->codtab_complement[(signed long int)((signed int)*cp & 3)];
                 }
                 i = i + 1u;
               }
@@ -6755,16 +6755,16 @@ static signed int appendSeqSegment(struct _SEQSEQ *top, unsigned int *tcpos, uns
                 uc = codep->codtab[(signed long int)(signed int)*cp];
                 if(!((4 & (signed int)uc) == 0))
                 {
-                  tmp_post$6 = hp;
+                  tmp_post_6 = hp;
                   hp = hp + 1l;
-                  *tmp_post$6 = *cp;
+                  *tmp_post_6 = *cp;
                   if((signed int)uc == 7)
                   {
                     if(!(tcpos == ((unsigned int *)NULL)) && !((signed int)nt >= 8))
                     {
-                      tmp_post$7 = nt;
+                      tmp_post_7 = nt;
                       nt = nt + 1;
-                      tcpos[(signed long int)tmp_post$7] = i;
+                      tcpos[(signed long int)tmp_post_7] = i;
                     }
 
                   }
@@ -6773,9 +6773,9 @@ static signed int appendSeqSegment(struct _SEQSEQ *top, unsigned int *tcpos, uns
 
                 else
                 {
-                  tmp_post$8 = hp;
+                  tmp_post_8 = hp;
                   hp = hp + 1l;
-                  *tmp_post$8 = codep->decodtab[(signed long int)codep->codtab_complement[(signed long int)((signed int)uc & 3)]];
+                  *tmp_post_8 = codep->decodtab[(signed long int)codep->codtab_complement[(signed long int)((signed int)uc & 3)]];
                 }
                 i = i + 1u;
               }
@@ -6793,20 +6793,20 @@ static signed int appendSeqSegment(struct _SEQSEQ *top, unsigned int *tcpos, uns
                 {
                   if(!((signed int)nt >= 8))
                   {
-                    tmp_post$9 = nt;
+                    tmp_post_9 = nt;
                     nt = nt + 1;
-                    tcpos[(signed long int)tmp_post$9] = i;
+                    tcpos[(signed long int)tmp_post_9] = i;
                   }
 
                 }
 
               }
 
-              tmp_post$10 = hp;
+              tmp_post_10 = hp;
               hp = hp + 1l;
-              tmp_post$11 = cp;
+              tmp_post_11 = cp;
               cp = cp - 1l;
-              *tmp_post$10 = *tmp_post$11;
+              *tmp_post_10 = *tmp_post_11;
             }
           }
         }
@@ -6822,20 +6822,20 @@ static signed int appendSeqSegment(struct _SEQSEQ *top, unsigned int *tcpos, uns
               {
                 if(!((signed int)nt >= 8))
                 {
-                  tmp_post$12 = nt;
+                  tmp_post_12 = nt;
                   nt = nt + 1;
-                  tcpos[(signed long int)tmp_post$12] = i;
+                  tcpos[(signed long int)tmp_post_12] = i;
                 }
 
               }
 
             }
 
-            tmp_post$13 = hp;
+            tmp_post_13 = hp;
             hp = hp + 1l;
-            tmp_post$14 = cp;
+            tmp_post_14 = cp;
             cp = cp + 1l;
-            *tmp_post$13 = *tmp_post$14;
+            *tmp_post_13 = *tmp_post_14;
           }
         }
         *hp = (char)0;
@@ -6863,9 +6863,9 @@ void * arrayCreate(unsigned long int elemsiz, unsigned long int blocksiz, const 
   else
   {
     blksz = blocksiz > (unsigned long int)0 ? ((elemsiz * blocksiz - (unsigned long int)1) / (unsigned long int)4096 + (unsigned long int)1) * (unsigned long int)4096 : (unsigned long int)4096;
-    void *return_value_ecalloc$1;
-    return_value_ecalloc$1=ecalloc((unsigned long int)1, blksz, nam, lin);
-    p = (unsigned long int *)return_value_ecalloc$1;
+    void *return_value_ecalloc_1;
+    return_value_ecalloc_1=ecalloc((unsigned long int)1, blksz, nam, lin);
+    p = (unsigned long int *)return_value_ecalloc_1;
     if(p == ((unsigned long int *)NULL))
       return (void *)0;
 
@@ -6909,9 +6909,9 @@ void * arrayRealloc(void *p, unsigned long int new_nelem, char is_final, const c
       newsiz = ((headsiz + (headp[(signed long int)-2] + (unsigned long int)1) * elsiz) - (unsigned long int)1) / blocksiz + (unsigned long int)1;
       newsiz = newsiz * blocksiz;
     }
-  void *return_value_erealloc$1;
-  return_value_erealloc$1=erealloc((void *)(headp - (signed long int)4), newsiz, (unsigned long int)0, nam, lin);
-  newp = (unsigned long int *)return_value_erealloc$1;
+  void *return_value_erealloc_1;
+  return_value_erealloc_1=erealloc((void *)(headp - (signed long int)4), newsiz, (unsigned long int)0, nam, lin);
+  newp = (unsigned long int *)return_value_erealloc_1;
   if(newp == ((unsigned long int *)NULL))
     return (void *)newp;
 
@@ -6937,9 +6937,9 @@ static signed int assignPhredScaledMappingScoreToRandomDraw(signed int samplesiz
 
     else
     {
-      double return_value_log10$1;
-      return_value_log10$1=log10((double)(samplesiz - 1) / (double)samplesiz);
-      mapq = (signed int)((double)-10 * return_value_log10$1 + .499);
+      double return_value_log10_1;
+      return_value_log10_1=log10((double)(samplesiz - 1) / (double)samplesiz);
+      mapq = (signed int)((double)-10 * return_value_log10_1 + .499);
       if(mapq >= 4)
         mapq = 3;
 
@@ -6962,13 +6962,13 @@ static signed int assignProbabilityToPairs(struct _MATEPAIR *mpr, double *psum, 
   const double prob_out = CUMULPROB_PROPER_OUTSIDE;
   const double prob_in = 1.0 - CUMULPROB_PROPER_OUTSIDE;
   const double prob_allout = prob_improper + prob_proper * prob_out;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(n_pairs >= 1))
     return 0;
 
   else
   {
-    *psum = MINLOGARG$link1;
+    *psum = MINLOGARG_link1;
     *margb = 0.0;
     *marga = *margb;
     i = 0;
@@ -7011,11 +7011,11 @@ static signed int assignProbabilityToPairs(struct _MATEPAIR *mpr, double *psum, 
             signed int totnum;
             double p;
             if(!(mp->ins >= 0))
-              tmp_if_expr$1 = -1 * mp->ins;
+              tmp_if_expr_1 = -1 * mp->ins;
 
             else
-              tmp_if_expr$1 = mp->ins;
-            count=insGetHistoCountCumulative(&totnum, tmp_if_expr$1, (unsigned char)1, ihistp);
+              tmp_if_expr_1 = mp->ins;
+            count=insGetHistoCountCumulative(&totnum, tmp_if_expr_1, (unsigned char)1, ihistp);
             if(!(totnum >= 1))
             {
               totnum = 1;
@@ -7047,9 +7047,9 @@ static signed int assignProbabilityToPairs(struct _MATEPAIR *mpr, double *psum, 
 
       if(!((256 & (signed int)flgb) == 0))
       {
-        double assignProbabilityToPairs$$1$$1$$1$$6$$s = pa * prob_allout * (1.0 - pb);
-        *marga = *marga + assignProbabilityToPairs$$1$$1$$1$$6$$s;
-        *psum = *psum + assignProbabilityToPairs$$1$$1$$1$$6$$s;
+        double assignProbabilityToPairs__1__1__1__6__s = pa * prob_allout * (1.0 - pb);
+        *marga = *marga + assignProbabilityToPairs__1__1__1__6__s;
+        *psum = *psum + assignProbabilityToPairs__1__1__1__6__s;
       }
 
     }
@@ -7073,10 +7073,10 @@ static signed int assignSequenceIndex(struct _ResultSet *rsp, struct _SeqFastq *
   ((unsigned long int *)rsp->sortidxr)[(signed long int)-1] = (unsigned long int)0;
   ((unsigned long int *)rsp->sortkeyr)[(signed long int)-1] = (unsigned long int)0;
   i = (signed short int)0;
-  unsigned long int tmp_post$2;
-  unsigned long int tmp_post$3;
-  unsigned long int tmp_post$5;
-  unsigned long int tmp_post$6;
+  unsigned long int tmp_post_2;
+  unsigned long int tmp_post_3;
+  unsigned long int tmp_post_5;
+  unsigned long int tmp_post_6;
   for( ; !((signed int)i >= (signed int)nres); i = i + 1)
   {
     struct _RESULT *rp = rsp->resr + (signed long int)i;
@@ -7089,46 +7089,46 @@ static signed int assignSequenceIndex(struct _ResultSet *rsp, struct _SeqFastq *
         rsp->sortidxr[(signed long int)((unsigned long int *)rsp->sortidxr)[(signed long int)-1]] = (unsigned int)i;
         if(((unsigned long int *)rsp->sortidxr)[-1l] >= ((unsigned long int *)rsp->sortidxr)[-2l])
         {
-          void *return_value_arrayRealloc$1;
-          return_value_arrayRealloc$1=arrayRealloc((void *)rsp->sortidxr, (unsigned long int)0, (char)0, "../src/results.c", 1719);
-          sip = (unsigned int *)return_value_arrayRealloc$1;
+          void *return_value_arrayRealloc_1;
+          return_value_arrayRealloc_1=arrayRealloc((void *)rsp->sortidxr, (unsigned long int)0, (char)0, "../src/results.c", 1719);
+          sip = (unsigned int *)return_value_arrayRealloc_1;
           if(!(sip == ((unsigned int *)NULL)))
           {
             rsp->sortidxr = sip;
-            tmp_post$2 = ((unsigned long int *)rsp->sortidxr)[(signed long int)-1];
+            tmp_post_2 = ((unsigned long int *)rsp->sortidxr)[(signed long int)-1];
             ((unsigned long int *)rsp->sortidxr)[(signed long int)-1] = ((unsigned long int *)rsp->sortidxr)[(signed long int)-1] + 1ul;
-            sip = rsp->sortidxr + (signed long int)tmp_post$2;
+            sip = rsp->sortidxr + (signed long int)tmp_post_2;
           }
 
         }
 
         else
         {
-          tmp_post$3 = ((unsigned long int *)rsp->sortidxr)[(signed long int)-1];
+          tmp_post_3 = ((unsigned long int *)rsp->sortidxr)[(signed long int)-1];
           ((unsigned long int *)rsp->sortidxr)[(signed long int)-1] = ((unsigned long int *)rsp->sortidxr)[(signed long int)-1] + 1ul;
-          sip = rsp->sortidxr + (signed long int)tmp_post$3;
+          sip = rsp->sortidxr + (signed long int)tmp_post_3;
         }
         rsp->sortkeyr[(signed long int)((unsigned long int *)rsp->sortkeyr)[(signed long int)-1]] = rp->s_start;
         if(rsp->sortkeyr[-1l] >= rsp->sortkeyr[-2l])
         {
-          void *return_value_arrayRealloc$4;
-          return_value_arrayRealloc$4=arrayRealloc((void *)rsp->sortkeyr, (unsigned long int)0, (char)0, "../src/results.c", 1721);
-          skp = (unsigned long int *)return_value_arrayRealloc$4;
+          void *return_value_arrayRealloc_4;
+          return_value_arrayRealloc_4=arrayRealloc((void *)rsp->sortkeyr, (unsigned long int)0, (char)0, "../src/results.c", 1721);
+          skp = (unsigned long int *)return_value_arrayRealloc_4;
           if(!(skp == ((unsigned long int *)NULL)))
           {
             rsp->sortkeyr = skp;
-            tmp_post$5 = ((unsigned long int *)rsp->sortkeyr)[(signed long int)-1];
+            tmp_post_5 = ((unsigned long int *)rsp->sortkeyr)[(signed long int)-1];
             ((unsigned long int *)rsp->sortkeyr)[(signed long int)-1] = ((unsigned long int *)rsp->sortkeyr)[(signed long int)-1] + 1ul;
-            skp = rsp->sortkeyr + (signed long int)tmp_post$5;
+            skp = rsp->sortkeyr + (signed long int)tmp_post_5;
           }
 
         }
 
         else
         {
-          tmp_post$6 = ((unsigned long int *)rsp->sortkeyr)[(signed long int)-1];
+          tmp_post_6 = ((unsigned long int *)rsp->sortkeyr)[(signed long int)-1];
           ((unsigned long int *)rsp->sortkeyr)[(signed long int)-1] = ((unsigned long int *)rsp->sortkeyr)[(signed long int)-1] + 1ul;
-          skp = rsp->sortkeyr + (signed long int)tmp_post$6;
+          skp = rsp->sortkeyr + (signed long int)tmp_post_6;
         }
         if(sip == ((unsigned int *)NULL) || skp == ((unsigned long int *)NULL))
           return 2;
@@ -7139,8 +7139,8 @@ static signed int assignSequenceIndex(struct _ResultSet *rsp, struct _SeqFastq *
 
   }
   ctr = (signed short int)((unsigned long int *)rsp->sortidxr)[(signed long int)-1];
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
   if((signed int)ctr >= 2)
   {
     errcode=sortUINT64andUINT32ArraysByQuickSort((signed int)ctr, rsp->sortkeyr, rsp->sortidxr);
@@ -7159,17 +7159,17 @@ static signed int assignSequenceIndex(struct _ResultSet *rsp, struct _SeqFastq *
     i = (signed short int)0;
     for( ; !(s >= nseq) && !((signed int)i >= (signed int)ctr); i = i + 1)
     {
-      struct _RESULT *assignSequenceIndex$$1$$3$$1$$rp = rsp->resr + (signed long int)rsp->sortidxr[(signed long int)i];
-      if(!((9 & (signed int)assignSequenceIndex$$1$$3$$1$$rp->status) == 0))
+      struct _RESULT *assignSequenceIndex__1__3__1__rp = rsp->resr + (signed long int)rsp->sortidxr[(signed long int)i];
+      if(!((9 & (signed int)assignSequenceIndex__1__3__1__rp->status) == 0))
       {
         do
         {
           if(!(s >= nseq))
-            tmp_if_expr$7 = assignSequenceIndex$$1$$3$$1$$rp->s_start > ofp[s + (signed long int)1] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_7 = assignSequenceIndex__1__3__1__rp->s_start > ofp[s + (signed long int)1] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$7 = (_Bool)0;
-          if(!tmp_if_expr$7)
+            tmp_if_expr_7 = (_Bool)0;
+          if(!tmp_if_expr_7)
             break;
 
           s = s + 1l;
@@ -7179,24 +7179,24 @@ static signed int assignSequenceIndex(struct _ResultSet *rsp, struct _SeqFastq *
         do
         {
           if(!(e >= nseq))
-            tmp_if_expr$8 = assignSequenceIndex$$1$$3$$1$$rp->s_end > ofp[e] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_8 = assignSequenceIndex__1__3__1__rp->s_end > ofp[e] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$8 = (_Bool)0;
-          if(!tmp_if_expr$8)
+            tmp_if_expr_8 = (_Bool)0;
+          if(!tmp_if_expr_8)
             break;
 
           e = e + 1l;
         }
         while((_Bool)1);
-        if(!(ofp[e] >= assignSequenceIndex$$1$$3$$1$$rp->s_end))
+        if(!(ofp[e] >= assignSequenceIndex__1__3__1__rp->s_end))
           return 47;
 
         if(!(1l + s >= e))
         {
           errcode=splitMultiSpan(&rsp->resr, rsp->sortidxr[(signed long int)i], rsp->diffstrbufp, rsp->diffstrp, sbufp, s, e, scpp, scpRCp, ssp, codecp);
-          assignSequenceIndex$$1$$3$$1$$rp = rsp->resr + (signed long int)rsp->sortidxr[(signed long int)i];
-          assignSequenceIndex$$1$$3$$1$$rp->status = assignSequenceIndex$$1$$3$$1$$rp->status & (unsigned short int)~1;
+          assignSequenceIndex__1__3__1__rp = rsp->resr + (signed long int)rsp->sortidxr[(signed long int)i];
+          assignSequenceIndex__1__3__1__rp->status = assignSequenceIndex__1__3__1__rp->status & (unsigned short int)~1;
           if(!(errcode == 0))
             return errcode;
 
@@ -7204,10 +7204,10 @@ static signed int assignSequenceIndex(struct _ResultSet *rsp, struct _SeqFastq *
 
         else
         {
-          assignSequenceIndex$$1$$3$$1$$rp->sidx = s;
-          assignSequenceIndex$$1$$3$$1$$rp->s_start = assignSequenceIndex$$1$$3$$1$$rp->s_start - ofp[s];
-          assignSequenceIndex$$1$$3$$1$$rp->s_end = assignSequenceIndex$$1$$3$$1$$rp->s_end - ofp[s];
-          assignSequenceIndex$$1$$3$$1$$rp->status = assignSequenceIndex$$1$$3$$1$$rp->status & (unsigned short int)~8;
+          assignSequenceIndex__1__3__1__rp->sidx = s;
+          assignSequenceIndex__1__3__1__rp->s_start = assignSequenceIndex__1__3__1__rp->s_start - ofp[s];
+          assignSequenceIndex__1__3__1__rp->s_end = assignSequenceIndex__1__3__1__rp->s_end - ofp[s];
+          assignSequenceIndex__1__3__1__rp->status = assignSequenceIndex__1__3__1__rp->status & (unsigned short int)~8;
         }
       }
 
@@ -7396,17 +7396,17 @@ static unsigned int calcIndelFreeMincover(unsigned int slen, unsigned char ktup,
 // file ../src/insert.c line 136
 static signed int calcKernelBandWidth(signed int n, signed int iqr)
 {
-  signed int tmp_if_expr$2;
-  double return_value_pow$1;
+  signed int tmp_if_expr_2;
+  double return_value_pow_1;
   if(n >= 1)
   {
-    return_value_pow$1=pow((double)n, -0.2);
-    tmp_if_expr$2 = (signed int)((0.9 * return_value_pow$1 * (double)iqr) / 1.34);
+    return_value_pow_1=pow((double)n, -0.2);
+    tmp_if_expr_2 = (signed int)((0.9 * return_value_pow_1 * (double)iqr) / 1.34);
   }
 
   else
-    tmp_if_expr$2 = 0;
-  return tmp_if_expr$2;
+    tmp_if_expr_2 = 0;
+  return tmp_if_expr_2;
 }
 
 // calcKtupOffs
@@ -7457,13 +7457,13 @@ static unsigned int calcMinKtup(unsigned int *mincover, const struct _HashTable 
   unsigned char ktup;
   ktup=hashTableGetKtupLen(htp, &nskip);
   unsigned int minktup;
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   if(*mincover >= (unsigned int)(signed int)ktup + (unsigned int)(signed int)nskip)
-    tmp_if_expr$1 = (*mincover - (unsigned int)ktup) / (unsigned int)nskip;
+    tmp_if_expr_1 = (*mincover - (unsigned int)ktup) / (unsigned int)nskip;
 
   else
-    tmp_if_expr$1 = (unsigned int)1;
-  minktup = tmp_if_expr$1;
+    tmp_if_expr_1 = (unsigned int)1;
+  minktup = tmp_if_expr_1;
   *mincover = (minktup - (unsigned int)1) * (unsigned int)nskip + (unsigned int)ktup;
   return minktup;
 }
@@ -7494,17 +7494,17 @@ static signed int calcPhredScaledMappingQuality(signed short int qsegx, const st
   signed int qvalsum_ali;
   const unsigned char *dstrp = rsetp->diffstrp->dstrp;
   struct _RESULT **rspp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((8 & (signed int)rsetp->status) == 0 || !((signed int)qsegx >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)qsegx >= (signed int)rsetp->qsegno ? (_Bool)1 : (_Bool)0;
-  double tmp_if_expr$3;
-  double return_value_log$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)qsegx >= (signed int)rsetp->qsegno ? (_Bool)1 : (_Bool)0;
+  double tmp_if_expr_3;
+  double return_value_log_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_1)
     return 47;
 
   else
@@ -7532,13 +7532,13 @@ static signed int calcPhredScaledMappingQuality(signed short int qsegx, const st
 
         if(fs > MINLOGARG)
         {
-          return_value_log$2=log(fs);
-          tmp_if_expr$3 = ((double)-10 * return_value_log$2) / (double)QUALSCOR_LOGBASE;
+          return_value_log_2=log(fs);
+          tmp_if_expr_3 = ((double)-10 * return_value_log_2) / (double)QUALSCOR_LOGBASE;
         }
 
         else
-          tmp_if_expr$3 = (double)60;
-        fs = tmp_if_expr$3;
+          tmp_if_expr_3 = (double)60;
+        fs = tmp_if_expr_3;
         maxmapscor = fs < (double)60 ? 60 - (signed int)fs : 0;
         if((signed int)n >= 2)
         {
@@ -7547,20 +7547,20 @@ static signed int calcPhredScaledMappingQuality(signed short int qsegx, const st
           do
           {
             if(!((signed int)i >= (signed int)n))
-              tmp_if_expr$4 = rspp[(signed long int)i]->swatscor == swatscor_2nd ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_4 = rspp[(signed long int)i]->swatscor == swatscor_2nd ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$4 = (_Bool)0;
-            if(!tmp_if_expr$4)
+              tmp_if_expr_4 = (_Bool)0;
+            if(!tmp_if_expr_4)
               break;
 
             i = i + 1;
           }
           while((_Bool)1);
           n_swatscor_2nd = (signed short int)((signed int)i - 1);
-          double return_value_log$5;
-          return_value_log$5=log((double)n_swatscor_2nd);
-          qn = (signed int)(((double)10 * return_value_log$5) / (double)QUALSCOR_LOGBASE);
+          double return_value_log_5;
+          return_value_log_5=log((double)n_swatscor_2nd);
+          qn = (signed int)(((double)10 * return_value_log_5) / (double)QUALSCOR_LOGBASE);
         }
 
         else
@@ -7592,11 +7592,11 @@ static signed int calcPhredScaledMappingQuality(signed short int qsegx, const st
               do
               {
                 if(!((signed int)i >= (signed int)n))
-                  tmp_if_expr$6 = rspp[(signed long int)i]->swatscor == swatscor_1st ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_6 = rspp[(signed long int)i]->swatscor == swatscor_1st ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$6 = (_Bool)0;
-                if(!tmp_if_expr$6)
+                  tmp_if_expr_6 = (_Bool)0;
+                if(!tmp_if_expr_6)
                   break;
 
                 seglen = rspp[(signed long int)i]->q_end - rspp[(signed long int)i]->q_start;
@@ -7643,9 +7643,9 @@ static signed int calcPhredScaledMappingQuality(signed short int qsegx, const st
         {
           unsigned int qlen;
           seqFastqGetConstSequence(sqp, &qlen, (char *)(void *)0);
-          double return_value_exp$7;
-          return_value_exp$7=exp(((double)(swatscor_2nd - swatscor_1st) * (double)10) / (double)qlen);
-          mapscor = (signed int)((double)60 * ((double)1 - return_value_exp$7) - (double)qn);
+          double return_value_exp_7;
+          return_value_exp_7=exp(((double)(swatscor_2nd - swatscor_1st) * (double)10) / (double)qlen);
+          mapscor = (signed int)((double)60 * ((double)1 - return_value_exp_7) - (double)qn);
           if(mapscor >= 0)
             mapscor = mapscor + 4;
 
@@ -7711,10 +7711,10 @@ static signed int calcRESULTid(const struct _RESULT *rp, const struct _ResultSet
 
 // calcSegmentBoundaries
 // file segment.c line 635
-static void calcSegmentBoundaries(unsigned int *qs, unsigned int *qe, unsigned int *rs, unsigned int *re, const struct _SEGMENT *sgp, struct _SEED$0 * const seedr, unsigned char ktup, unsigned char nskip, unsigned char is_reverse)
+static void calcSegmentBoundaries(unsigned int *qs, unsigned int *qe, unsigned int *rs, unsigned int *re, const struct _SEGMENT *sgp, struct _SEED_0 * const seedr, unsigned char ktup, unsigned char nskip, unsigned char is_reverse)
 {
-  const struct _SEED$0 *seed_startp = seedr + (signed long int)sgp->ix;
-  const struct _SEED$0 *seed_endp = (seed_startp + (signed long int)sgp->nseed) - (signed long int)1;
+  const struct _SEED_0 *seed_startp = seedr + (signed long int)sgp->ix;
+  const struct _SEED_0 *seed_endp = (seed_startp + (signed long int)sgp->nseed) - (signed long int)1;
   *qs = (unsigned int)(seed_startp->sqo & (unsigned long int)2147483647);
   *qe = (unsigned int)(((seed_endp->sqo & (unsigned long int)2147483647) + (unsigned long int)seed_endp->len) - (unsigned long int)1);
   if(!(is_reverse == 0))
@@ -7738,7 +7738,7 @@ __CPROVER_DUMP_L3:
 
 // calcSegmentOverlap
 // file segment.c line 587
-static signed int calcSegmentOverlap(const struct _SEGMENT *sgAp, const struct _SEGMENT *sgBp, struct _SEED$0 * const seedr)
+static signed int calcSegmentOverlap(const struct _SEGMENT *sgAp, const struct _SEGMENT *sgBp, struct _SEED_0 * const seedr)
 {
   unsigned int qa_start;
   unsigned int qb_start;
@@ -7795,9 +7795,9 @@ static unsigned int calcTotalNumberOfHits(const struct RMAPINFO_ *rmrp, signed i
 {
   unsigned int hitnum;
   hitnum=hashCalcHitInfoNumberOfHits(rmrp->hhiFp, (unsigned int)ktuple_maxhit);
-  unsigned int return_value_hashCalcHitInfoNumberOfHits$1;
-  return_value_hashCalcHitInfoNumberOfHits$1=hashCalcHitInfoNumberOfHits(rmrp->hhiRp, (unsigned int)ktuple_maxhit);
-  return (unsigned int)(hitnum + return_value_hashCalcHitInfoNumberOfHits$1);
+  unsigned int return_value_hashCalcHitInfoNumberOfHits_1;
+  return_value_hashCalcHitInfoNumberOfHits_1=hashCalcHitInfoNumberOfHits(rmrp->hhiRp, (unsigned int)ktuple_maxhit);
+  return (unsigned int)(hitnum + return_value_hashCalcHitInfoNumberOfHits_1);
 }
 
 // checkArgBlockReadNo
@@ -7814,13 +7814,13 @@ static signed int checkArgBlockReadNo(const void *thargp, const void *buffargp)
   /* assertion blockp->iobfp != ((void *)0) */
   assert(blockp->iobfp != (struct _SmaltIOBuffArg *)(void *)0);
   readno = blockp->iobfp->readno;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)blockp->n_iobf >= 1)
-    tmp_if_expr$1 = readno <= dop->next_readno ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = readno <= dop->next_readno ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  return (signed int)tmp_if_expr_1;
 }
 
 // checkCodec
@@ -7830,21 +7830,21 @@ static signed int checkCodec(struct _SeqCodec *codep)
   signed int errcode = 0;
   const char bases[53l] = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 0 };
   const char *bp = bases;
-  signed int return_value_toupper$1;
-  _Bool tmp_if_expr$2;
+  signed int return_value_toupper_1;
+  _Bool tmp_if_expr_2;
   for( ; !(*bp == 0); bp = bp + 1l)
   {
-    signed int return_value_toupper$3;
-    return_value_toupper$3=toupper((signed int)*bp);
-    if(!(return_value_toupper$3 == (signed int)codep->decodtab[(signed long int)codep->codtab[(signed long int)(unsigned char)*bp]]))
+    signed int return_value_toupper_3;
+    return_value_toupper_3=toupper((signed int)*bp);
+    if(!(return_value_toupper_3 == (signed int)codep->decodtab[(signed long int)codep->codtab[(signed long int)(unsigned char)*bp]]))
     {
-      return_value_toupper$1=toupper((signed int)*bp);
-      if(!(return_value_toupper$1 == 85))
-        tmp_if_expr$2 = (_Bool)1;
+      return_value_toupper_1=toupper((signed int)*bp);
+      if(!(return_value_toupper_1 == 85))
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)codep->decodtab[(signed long int)codep->codtab[(signed long int)(unsigned char)*bp]] != 84 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (signed int)codep->decodtab[(signed long int)codep->codtab[(signed long int)(unsigned char)*bp]] != 84 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
       {
         errcode = -1;
         break;
@@ -7917,12 +7917,12 @@ static signed int checkHashWithCollisions(const struct _HashTable *htp, const st
   unsigned int offs;
   signed long int si = (signed long int)0;
   word_hi = (unsigned int)((word & htp->wordmask_hi) >> (signed int)htp->nbits_lo);
-  unsigned int return_value_hash32mix$1;
-  return_value_hash32mix$1=hash32mix(word_hi);
-  key_hi = return_value_hash32mix$1 % htp->keymod;
+  unsigned int return_value_hash32mix_1;
+  return_value_hash32mix_1=hash32mix(word_hi);
+  key_hi = return_value_hash32mix_1 % htp->keymod;
   key = (unsigned int)((unsigned long int)(key_hi << (signed int)htp->nbits_lo) + (word & htp->wordmask_lo));
   b = htp->idx[(signed long int)(key + (unsigned int)1)];
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(b >= 1u))
     return 69;
 
@@ -7940,11 +7940,11 @@ static signed int checkHashWithCollisions(const struct _HashTable *htp, const st
         b = pivot;
     }
     if(!(b >= a))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = htp->wordidx[(signed long int)b] != word_hi ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = htp->wordidx[(signed long int)b] != word_hi ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return 69;
 
     else
@@ -7988,18 +7988,18 @@ static signed int checkHashWithCollisions(const struct _HashTable *htp, const st
 static signed int checkMapDefaults(struct _MenuOpt *menup, const struct _optflags *optflp)
 {
   struct _MAPMENU *mp = (struct _MAPMENU *)menup->paramp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((signed int)menup->subprog == 2))
     return -1;
 
   else
   {
     if(!(menup->ninfil >= 2))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = menup->ninfil > 3 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = menup->ninfil > 3 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       exitOptionError((const char *)(void *)0, "Expected one or two file names.");
 
     if((signed int)mp->inform == 1)
@@ -8105,8 +8105,8 @@ static signed int checkQuickHashIndexWithCollisions(struct _SeqFastq *sqbufp, co
   unsigned int key;
   unsigned long int keyword;
   key = (unsigned int)0;
-  _Bool tmp_if_expr$1;
-  const char *tmp_post$2;
+  _Bool tmp_if_expr_1;
+  const char *tmp_post_2;
   for( ; !(key >= htp->nkeys); key = key + 1u)
   {
     iha = htp->idx[(signed long int)key];
@@ -8143,17 +8143,17 @@ static signed int checkQuickHashIndexWithCollisions(struct _SeqFastq *sqbufp, co
         do
         {
           if((signed int)i >= 1)
-            tmp_if_expr$1 = *cp != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = *cp != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(!tmp_if_expr$1)
+            tmp_if_expr_1 = (_Bool)0;
+          if(!tmp_if_expr_1)
             break;
 
-          tmp_post$2 = cp;
+          tmp_post_2 = cp;
           cp = cp + 1l;
           i = i - 1;
-          if(!((unsigned long int)(3 & (signed int)*tmp_post$2) == (3ul & keyword >> ((signed int)i << 1))))
+          if(!((unsigned long int)(3 & (signed int)*tmp_post_2) == (3ul & keyword >> ((signed int)i << 1))))
           {
             seqFastqDecode(sqbufp, codecp);
             pData=seqFastqGetConstSequence(sqbufp, &seqlen, &codtyp);
@@ -8186,8 +8186,8 @@ static signed int checkQuickPerfectHashIndex(struct _SeqFastq *sqbufp, const str
   unsigned int *p;
   unsigned int *endp;
   key = (unsigned int)0;
-  _Bool tmp_if_expr$1;
-  const char *tmp_post$2;
+  _Bool tmp_if_expr_1;
+  const char *tmp_post_2;
   for( ; !(key >= htp->nkeys); key = key + 1u)
   {
     endp = htp->pos + (signed long int)htp->idx[(signed long int)(key + (unsigned int)1)];
@@ -8221,17 +8221,17 @@ static signed int checkQuickPerfectHashIndex(struct _SeqFastq *sqbufp, const str
       do
       {
         if((signed int)i >= 1)
-          tmp_if_expr$1 = *cp != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = *cp != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(!tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(!tmp_if_expr_1)
           break;
 
-        tmp_post$2 = cp;
+        tmp_post_2 = cp;
         cp = cp + 1l;
         i = i - 1;
-        if(!((3u & (unsigned int)(signed int)*tmp_post$2) == (3u & key >> ((signed int)i << 1))))
+        if(!((3u & (unsigned int)(signed int)*tmp_post_2) == (3u & key >> ((signed int)i << 1))))
         {
           printf("HASH (perfect) failed with key %d, pos %u, offset %lu\n", key, *p, (unsigned long int)offset);
           return 21;
@@ -8333,8 +8333,8 @@ static signed int checkSampleDefaults(struct _MenuOpt *menup, const struct _optf
 static signed int checkSeqNtSymbolsAreLetters(const struct _SEQSEQ *sp)
 {
   signed int errcode = 0;
-  _Bool tmp_if_expr$2;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  _Bool tmp_if_expr_2;
+  const unsigned short int **return_value___ctype_b_loc_1;
   if((signed int)sp->code == 0)
   {
     unsigned long int i = (unsigned long int)0;
@@ -8343,13 +8343,13 @@ static signed int checkSeqNtSymbolsAreLetters(const struct _SEQSEQ *sp)
     {
       if(!(i >= sp->size))
       {
-        return_value___ctype_b_loc$1=__ctype_b_loc();
-        tmp_if_expr$2 = ((signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)sp->basep[(signed long int)i]] & (signed int)(unsigned short int)1024) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_1=__ctype_b_loc();
+        tmp_if_expr_2 = ((signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)sp->basep[(signed long int)i]] & (signed int)(unsigned short int)1024) != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(!tmp_if_expr_2)
         break;
 
       i = i + 1ul;
@@ -8380,7 +8380,7 @@ static signed int checkWordsInSeqSet(struct _SeqFastq *sqbufp, const struct _Has
   n_seq=seqSetGetOffsets(ssp, (const unsigned long int **)(void *)0);
   ktup_i = (unsigned char)0;
   seqidx = (signed long int)0;
-  const char *tmp_post$1;
+  const char *tmp_post_1;
   for( ; errcode == 0 && !(seqidx >= n_seq); seqidx = seqidx + 1l)
   {
     printf("Checking sequence %lli ...\n", (signed long long int)seqidx);
@@ -8420,9 +8420,9 @@ static signed int checkWordsInSeqSet(struct _SeqFastq *sqbufp, const struct _Has
         if(!(n_nonstdnt == 0))
           n_nonstdnt = n_nonstdnt - 1;
 
-      tmp_post$1 = datap;
+      tmp_post_1 = datap;
       datap = datap + 1l;
-      word = (word << 2) + (unsigned long int)((signed int)*tmp_post$1 & 3);
+      word = (word << 2) + (unsigned long int)((signed int)*tmp_post_1 & 3);
       ktup_i = ktup_i - 1;
       if(!((signed int)ktup_i >= 1))
       {
@@ -8611,22 +8611,22 @@ static signed int cmpArgBlockReadNo(const void *buffargAp, const void *buffargBp
   const struct SmaltArgBlock_ *bfAp = (const struct SmaltArgBlock_ *)buffargAp;
   const struct SmaltArgBlock_ *bfBp = (const struct SmaltArgBlock_ *)buffargBp;
   signed int rv = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(buffargAp == NULL))
-    tmp_if_expr$1 = bfAp->iobfp != (struct _SmaltIOBuffArg *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = bfAp->iobfp != (struct _SmaltIOBuffArg *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
   /* assertion buffargAp != ((void *)0) && bfAp->iobfp != ((void *)0) */
-  assert(tmp_if_expr$1);
-  _Bool tmp_if_expr$2;
+  assert(tmp_if_expr_1);
+  _Bool tmp_if_expr_2;
   if(!(buffargBp == NULL))
-    tmp_if_expr$2 = bfBp->iobfp != (struct _SmaltIOBuffArg *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = bfBp->iobfp != (struct _SmaltIOBuffArg *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
+    tmp_if_expr_2 = (_Bool)0;
   /* assertion buffargBp != ((void *)0) && bfBp->iobfp != ((void *)0) */
-  assert(tmp_if_expr$2);
+  assert(tmp_if_expr_2);
   if(!(bfAp->iobfp->readno >= bfBp->iobfp->readno))
     rv = -1;
 
@@ -8747,34 +8747,34 @@ static signed int cmpPairNamStr(const char *ap, const char *bp, unsigned long in
   unsigned char isMate2;
   const char *extstr[2l];
   unsigned long int s = (unsigned long int)0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   do
   {
     if(!(s >= maxlen))
-      tmp_if_expr$1 = ap[(signed long int)s] == bp[(signed long int)s] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = ap[(signed long int)s] == bp[(signed long int)s] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (signed int)ap[(signed long int)s] != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (signed int)ap[(signed long int)s] != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     s = s + 1ul;
   }
   while((_Bool)1);
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$9;
-  const unsigned short int **return_value___ctype_b_loc$8;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_9;
+  const unsigned short int **return_value___ctype_b_loc_8;
   if(!(ap[(signed long int)s] == bp[(signed long int)s]))
   {
     rv = (signed int)ap[(signed long int)s] > (signed int)bp[(signed long int)s] ? 1 : -1;
@@ -8807,11 +8807,11 @@ static signed int cmpPairNamStr(const char *ap, const char *bp, unsigned long in
             do
             {
               if(*ap == *extstr[0l])
-                tmp_if_expr$3 = (signed int)*extstr[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_3 = (signed int)*extstr[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$3 = (_Bool)0;
-              if(!tmp_if_expr$3)
+                tmp_if_expr_3 = (_Bool)0;
+              if(!tmp_if_expr_3)
                 break;
 
               ap = ap + 1l;
@@ -8821,28 +8821,28 @@ static signed int cmpPairNamStr(const char *ap, const char *bp, unsigned long in
             if((signed int)*extstr[0l] == 0)
             {
               if((signed int)*ap == 0)
-                tmp_if_expr$5 = (_Bool)1;
+                tmp_if_expr_5 = (_Bool)1;
 
               else
               {
-                return_value___ctype_b_loc$4=__ctype_b_loc();
-                tmp_if_expr$5 = ((signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)*ap] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+                return_value___ctype_b_loc_4=__ctype_b_loc();
+                tmp_if_expr_5 = ((signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)*ap] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
               }
-              tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$6 = (_Bool)0;
-            isMate1 = (unsigned char)tmp_if_expr$6;
+              tmp_if_expr_6 = (_Bool)0;
+            isMate1 = (unsigned char)tmp_if_expr_6;
             bp = bp + (signed long int)s;
             do
             {
               if(*bp == *extstr[1l])
-                tmp_if_expr$7 = (signed int)*extstr[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_7 = (signed int)*extstr[(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$7 = (_Bool)0;
-              if(!tmp_if_expr$7)
+                tmp_if_expr_7 = (_Bool)0;
+              if(!tmp_if_expr_7)
                 break;
 
               bp = bp + 1l;
@@ -8852,19 +8852,19 @@ static signed int cmpPairNamStr(const char *ap, const char *bp, unsigned long in
             if((signed int)*extstr[1l] == 0)
             {
               if((signed int)*bp == 0)
-                tmp_if_expr$9 = (_Bool)1;
+                tmp_if_expr_9 = (_Bool)1;
 
               else
               {
-                return_value___ctype_b_loc$8=__ctype_b_loc();
-                tmp_if_expr$9 = ((signed int)(*return_value___ctype_b_loc$8)[(signed long int)(signed int)*bp] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+                return_value___ctype_b_loc_8=__ctype_b_loc();
+                tmp_if_expr_9 = ((signed int)(*return_value___ctype_b_loc_8)[(signed long int)(signed int)*bp] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
               }
-              tmp_if_expr$10 = tmp_if_expr$9 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_10 = tmp_if_expr_9 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$10 = (_Bool)0;
-            isMate2 = (unsigned char)tmp_if_expr$10;
+              tmp_if_expr_10 = (_Bool)0;
+            isMate2 = (unsigned char)tmp_if_expr_10;
             if(!(isMate1 == 0) && !(isMate2 == 0))
               rv = 0;
 
@@ -9077,9 +9077,9 @@ static signed int collectHitInfo(struct _HashHitInfo *hip, unsigned char is_reve
   datap=seqFastqGetConstSequence(seqp, &seqlen, &codtyp);
   unsigned char *qmaskp;
   const unsigned char *qualp;
-  const char *return_value_seqFastqGetConstQualityFactors$1;
-  return_value_seqFastqGetConstQualityFactors$1=seqFastqGetConstQualityFactors(seqp, (unsigned int *)(void *)0, (char *)(void *)0);
-  qualp = (const unsigned char *)return_value_seqFastqGetConstQualityFactors$1;
+  const char *return_value_seqFastqGetConstQualityFactors_1;
+  return_value_seqFastqGetConstQualityFactors_1=seqFastqGetConstQualityFactors(seqp, (unsigned int *)(void *)0, (char *)(void *)0);
+  qualp = (const unsigned char *)return_value_seqFastqGetConstQualityFactors_1;
   unsigned char ktup;
   ktup=hashTableGetKtupLen(htp, &nskip);
   const unsigned char minqval = (const unsigned char)((signed int)basqual_threshold + 33);
@@ -9091,23 +9091,23 @@ static signed int collectHitInfo(struct _HashHitInfo *hip, unsigned char is_reve
   unsigned int nhits;
   signed long int tr_filter[4l];
   hip->status = (unsigned char)0;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if((signed int)ktup >= 32)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = ktup != hip->ktup ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = ktup != hip->ktup ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = nskip != hip->nskip ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = nskip != hip->nskip ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_3)
     return 47;
 
   else
@@ -9162,18 +9162,18 @@ static signed int collectHitInfo(struct _HashHitInfo *hip, unsigned char is_reve
             for( ; !(s >= seq_start + (unsigned int)ktup + 4294967295u); s = s + 1u)
             {
               if(!((4 & (signed int)datap[(signed long int)s]) == 0))
-                tmp_if_expr$5 = (_Bool)1;
+                tmp_if_expr_5 = (_Bool)1;
 
               else
               {
                 if(!(qualp == ((const unsigned char *)NULL)))
-                  tmp_if_expr$4 = (signed int)qualp[(signed long int)s] < (signed int)minqval ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_4 = (signed int)qualp[(signed long int)s] < (signed int)minqval ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$4 = (_Bool)0;
-                tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_4 = (_Bool)0;
+                tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$5)
+              if(tmp_if_expr_5)
                 non_stdnt = ktup;
 
               else
@@ -9189,18 +9189,18 @@ static signed int collectHitInfo(struct _HashHitInfo *hip, unsigned char is_reve
             for( ; seq_end >= s; s = s + 1u)
             {
               if(!((4 & (signed int)datap[(signed long int)s]) == 0))
-                tmp_if_expr$7 = (_Bool)1;
+                tmp_if_expr_7 = (_Bool)1;
 
               else
               {
                 if(!(qualp == ((const unsigned char *)NULL)))
-                  tmp_if_expr$6 = (signed int)qualp[(signed long int)s] < (signed int)minqval ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_6 = (signed int)qualp[(signed long int)s] < (signed int)minqval ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$6 = (_Bool)0;
-                tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_6 = (_Bool)0;
+                tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
               }
-              if(tmp_if_expr$7)
+              if(tmp_if_expr_7)
                 non_stdnt = ktup;
 
               else
@@ -9217,9 +9217,9 @@ static signed int collectHitInfo(struct _HashHitInfo *hip, unsigned char is_reve
 
               else
               {
-                unsigned char return_value_checkForRepeats$8;
-                return_value_checkForRepeats$8=checkForRepeats((signed long int)(ktup_word & wordmask), tr_filter);
-                if(!(return_value_checkForRepeats$8 == 0))
+                unsigned char return_value_checkForRepeats_8;
+                return_value_checkForRepeats_8=checkForRepeats((signed long int)(ktup_word & wordmask), tr_filter);
+                if(!(return_value_checkForRepeats_8 == 0))
                   qmaskp[(signed long int)tuplectr] = (unsigned char)3;
 
                 else
@@ -9351,14 +9351,14 @@ static signed int collectWords(const struct _HashTable *htp, unsigned long int w
   unsigned int word_hi;
   unsigned int *iwp;
   word_hi = (unsigned int)((word & htp->wordmask_hi) >> (signed int)htp->nbits_lo);
-  unsigned int return_value_hash32mix$1;
-  return_value_hash32mix$1=hash32mix(word_hi);
-  key_hi = return_value_hash32mix$1 % htp->keymod;
+  unsigned int return_value_hash32mix_1;
+  return_value_hash32mix_1=hash32mix(word_hi);
+  key_hi = return_value_hash32mix_1 % htp->keymod;
   key = (unsigned int)((unsigned long int)(key_hi << (signed int)htp->nbits_lo) + (word & htp->wordmask_lo));
   iwp = htp->pos + (signed long int)htp->idx[(signed long int)key];
-  _Bool tmp_if_expr$4;
-  unsigned int tmp_post$2;
-  unsigned int tmp_post$3;
+  _Bool tmp_if_expr_4;
+  unsigned int tmp_post_2;
+  unsigned int tmp_post_3;
   if(htp->wordctr[(signed long int)key] == 0u)
   {
     htp->wordctr[(signed long int)key] = (unsigned int)1;
@@ -9381,23 +9381,23 @@ static signed int collectWords(const struct _HashTable *htp, unsigned long int w
         b = pivot;
     }
     if(!(b >= a))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = iwp[(signed long int)b] < word_hi ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = iwp[(signed long int)b] < word_hi ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
-      tmp_post$2 = htp->wordctr[(signed long int)key];
+      tmp_post_2 = htp->wordctr[(signed long int)key];
       htp->wordctr[(signed long int)key] = htp->wordctr[(signed long int)key] + 1u;
-      iwp[(signed long int)tmp_post$2] = word_hi;
+      iwp[(signed long int)tmp_post_2] = word_hi;
     }
 
     else
       if(!(word_hi >= iwp[(signed long int)b]))
       {
-        tmp_post$3 = htp->wordctr[(signed long int)key];
+        tmp_post_3 = htp->wordctr[(signed long int)key];
         htp->wordctr[(signed long int)key] = htp->wordctr[(signed long int)key] + 1u;
-        a = tmp_post$3;
+        a = tmp_post_3;
         for( ; !(b >= a); a = a - 1u)
           iwp[(signed long int)a] = iwp[(signed long int)(a - (unsigned int)1)];
         iwp[(signed long int)b] = word_hi;
@@ -9413,7 +9413,7 @@ static signed int complementAsciiSeqInPlace(struct _SEQSEQ *sp, const struct _Se
 {
   char *cp;
   unsigned char c;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((signed int)sp->code == 0))
     return 22;
 
@@ -9424,11 +9424,11 @@ static signed int complementAsciiSeqInPlace(struct _SEQSEQ *sp, const struct _Se
     {
       c = (unsigned char)codep->codtab[(signed long int)(signed int)*cp];
       if(!((4 & (signed int)c) == 0))
-        tmp_if_expr$1 = 78;
+        tmp_if_expr_1 = 78;
 
       else
-        tmp_if_expr$1 = (signed int)codep->alphabet[(signed long int)(~((signed int)c) & 3)];
-      *cp = (char)tmp_if_expr$1;
+        tmp_if_expr_1 = (signed int)codep->alphabet[(signed long int)(~((signed int)c) & 3)];
+      *cp = (char)tmp_if_expr_1;
     }
     return 0;
   }
@@ -9445,8 +9445,8 @@ static signed int compressSeq(struct _SEQSEQ *sp)
   unsigned int to_unit;
   unsigned long int unit_ctr;
   unsigned long int i;
-  unsigned int *tmp_post$2;
-  unsigned int *tmp_post$3;
+  unsigned int *tmp_post_2;
+  unsigned int *tmp_post_3;
   if(!((signed int)sp->code == 1))
     return 22;
 
@@ -9454,9 +9454,9 @@ static signed int compressSeq(struct _SEQSEQ *sp)
   {
     if(!(sp->alloc_size >= 5ul))
     {
-      void *return_value_erealloc$1;
-      return_value_erealloc$1=erealloc((void *)sp->basep, (unsigned long int)(4 + 1) * sizeof(char) /*1ul*/ , (unsigned long int)0, "sequence.c", 1379);
-      hp = (char *)return_value_erealloc$1;
+      void *return_value_erealloc_1;
+      return_value_erealloc_1=erealloc((void *)sp->basep, (unsigned long int)(4 + 1) * sizeof(char) /*1ul*/ , (unsigned long int)0, "sequence.c", 1379);
+      hp = (char *)return_value_erealloc_1;
       if(hp == ((char *)NULL))
         return 2;
 
@@ -9482,9 +9482,9 @@ static signed int compressSeq(struct _SEQSEQ *sp)
       nsu = nsu - 1;
       if(!(nsu >= 0))
       {
-        tmp_post$2 = top;
+        tmp_post_2 = top;
         top = top + 1l;
-        *tmp_post$2 = to_unit;
+        *tmp_post_2 = to_unit;
         to_unit = (unsigned int)0;
         nsu = 10 - 1;
         unit_ctr = unit_ctr + 1ul;
@@ -9492,17 +9492,17 @@ static signed int compressSeq(struct _SEQSEQ *sp)
 
     }
     to_unit = to_unit + ((unsigned int)7 << nsu * 3);
-    tmp_post$3 = top;
+    tmp_post_3 = top;
     top = top + 1l;
-    *tmp_post$3 = to_unit;
+    *tmp_post_3 = to_unit;
     if(!(unit_ctr == sp->size / 10ul + 1ul))
       return 28;
 
     else
     {
-      void *return_value_erealloc$4;
-      return_value_erealloc$4=erealloc((void *)sp->basep, (unit_ctr * (unsigned long int)4 + (unsigned long int)1) * sizeof(char) /*1ul*/ , (unsigned long int)0, "sequence.c", 1416);
-      hp = (char *)return_value_erealloc$4;
+      void *return_value_erealloc_4;
+      return_value_erealloc_4=erealloc((void *)sp->basep, (unit_ctr * (unsigned long int)4 + (unsigned long int)1) * sizeof(char) /*1ul*/ , (unsigned long int)0, "sequence.c", 1416);
+      hp = (char *)return_value_erealloc_4;
       if(hp == ((char *)NULL))
         return 2;
 
@@ -9553,12 +9553,12 @@ static unsigned char convertInputFormat(unsigned char form)
 static unsigned char convertOutputFormat(unsigned char *modiflg, unsigned char form, const struct _MenuOpt *mp)
 {
   char rv;
-  signed int return_value_menuTestMapOutputFormatFlags$1;
-  signed int return_value_menuTestMapOutputFormatFlags$2;
-  signed int return_value_menuTestMapOutputFormatFlags$3;
-  signed int return_value_menuTestMapOutputFormatFlags$4;
-  signed int return_value_menuTestMapOutputFormatFlags$5;
-  signed int return_value_menuTestMapOutputFormatFlags$6;
+  signed int return_value_menuTestMapOutputFormatFlags_1;
+  signed int return_value_menuTestMapOutputFormatFlags_2;
+  signed int return_value_menuTestMapOutputFormatFlags_3;
+  signed int return_value_menuTestMapOutputFormatFlags_4;
+  signed int return_value_menuTestMapOutputFormatFlags_5;
+  signed int return_value_menuTestMapOutputFormatFlags_6;
   switch((signed int)form)
   {
     case 0:
@@ -9569,16 +9569,16 @@ static unsigned char convertOutputFormat(unsigned char *modiflg, unsigned char f
     case 1:
     {
       rv = (char)2;
-      return_value_menuTestMapOutputFormatFlags$1=menuTestMapOutputFormatFlags(mp, form, (const unsigned char)2);
-      if(return_value_menuTestMapOutputFormatFlags$1 == 0)
+      return_value_menuTestMapOutputFormatFlags_1=menuTestMapOutputFormatFlags(mp, form, (const unsigned char)2);
+      if(return_value_menuTestMapOutputFormatFlags_1 == 0)
         *modiflg = *modiflg | (unsigned char)2;
 
-      return_value_menuTestMapOutputFormatFlags$2=menuTestMapOutputFormatFlags(mp, form, (const unsigned char)1);
-      if(!(return_value_menuTestMapOutputFormatFlags$2 == 0))
+      return_value_menuTestMapOutputFormatFlags_2=menuTestMapOutputFormatFlags(mp, form, (const unsigned char)1);
+      if(!(return_value_menuTestMapOutputFormatFlags_2 == 0))
         *modiflg = *modiflg | (unsigned char)4;
 
-      return_value_menuTestMapOutputFormatFlags$3=menuTestMapOutputFormatFlags(mp, form, (const unsigned char)4);
-      if(!(return_value_menuTestMapOutputFormatFlags$3 == 0))
+      return_value_menuTestMapOutputFormatFlags_3=menuTestMapOutputFormatFlags(mp, form, (const unsigned char)4);
+      if(!(return_value_menuTestMapOutputFormatFlags_3 == 0))
         *modiflg = *modiflg | (unsigned char)8;
 
       break;
@@ -9586,16 +9586,16 @@ static unsigned char convertOutputFormat(unsigned char *modiflg, unsigned char f
     case 2:
     {
       rv = (char)3;
-      return_value_menuTestMapOutputFormatFlags$4=menuTestMapOutputFormatFlags(mp, form, (const unsigned char)2);
-      if(return_value_menuTestMapOutputFormatFlags$4 == 0)
+      return_value_menuTestMapOutputFormatFlags_4=menuTestMapOutputFormatFlags(mp, form, (const unsigned char)2);
+      if(return_value_menuTestMapOutputFormatFlags_4 == 0)
         *modiflg = *modiflg | (unsigned char)2;
 
-      return_value_menuTestMapOutputFormatFlags$5=menuTestMapOutputFormatFlags(mp, form, (const unsigned char)1);
-      if(!(return_value_menuTestMapOutputFormatFlags$5 == 0))
+      return_value_menuTestMapOutputFormatFlags_5=menuTestMapOutputFormatFlags(mp, form, (const unsigned char)1);
+      if(!(return_value_menuTestMapOutputFormatFlags_5 == 0))
         *modiflg = *modiflg | (unsigned char)4;
 
-      return_value_menuTestMapOutputFormatFlags$6=menuTestMapOutputFormatFlags(mp, form, (const unsigned char)4);
-      if(!(return_value_menuTestMapOutputFormatFlags$6 == 0))
+      return_value_menuTestMapOutputFormatFlags_6=menuTestMapOutputFormatFlags(mp, form, (const unsigned char)4);
+      if(!(return_value_menuTestMapOutputFormatFlags_6 == 0))
         *modiflg = *modiflg | (unsigned char)8;
 
       break;
@@ -9630,9 +9630,9 @@ static signed int copyReadNamStrToREPSTR(struct _REPSTR *rsp, unsigned char is_s
     if(c == 0)
       break;
 
-    const unsigned short int **return_value___ctype_b_loc$1;
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if(!((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)c]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_1;
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if(!((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)c]) == 0))
       break;
 
     if(1ul + (unsigned long int)i >= rsp->n_alloc)
@@ -9645,17 +9645,17 @@ static signed int copyReadNamStrToREPSTR(struct _REPSTR *rsp, unsigned char is_s
 
     rsp->strp[(signed long int)i] = (char)c;
   }
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(i >= 3 && !(is_stripped == 0))
   {
     if((signed int)rsp->strp[(signed long int)(i + -2)] == 47)
     {
       if((signed int)rsp->strp[(signed long int)(i + -1)] == 49)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)rsp->strp[(signed long int)(i - 1)] == 50 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (signed int)rsp->strp[(signed long int)(i - 1)] == 50 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         i = i - 2;
 
     }
@@ -9672,20 +9672,20 @@ static signed int copyReadNamStrToREPSTR(struct _REPSTR *rsp, unsigned char is_s
 static signed int copyReadNameToREPSTR(struct _REPSTR *rsp, unsigned char is_stripped, const struct _SeqFastq *sqp)
 {
   const char *namp;
-  const char *tmp_if_expr$2;
-  const char *return_value_seqFastqGetSeqName$1;
+  const char *tmp_if_expr_2;
+  const char *return_value_seqFastqGetSeqName_1;
   if(sqp == ((const struct _SeqFastq *)NULL))
-    tmp_if_expr$2 = OUFMT_SAM_NULLSTR;
+    tmp_if_expr_2 = OUFMT_SAM_NULLSTR;
 
   else
   {
-    return_value_seqFastqGetSeqName$1=seqFastqGetSeqName(sqp);
-    tmp_if_expr$2 = return_value_seqFastqGetSeqName$1;
+    return_value_seqFastqGetSeqName_1=seqFastqGetSeqName(sqp);
+    tmp_if_expr_2 = return_value_seqFastqGetSeqName_1;
   }
-  namp = tmp_if_expr$2;
-  signed int return_value_copyReadNamStrToREPSTR$3;
-  return_value_copyReadNamStrToREPSTR$3=copyReadNamStrToREPSTR(rsp, is_stripped, namp);
-  return return_value_copyReadNamStrToREPSTR$3;
+  namp = tmp_if_expr_2;
+  signed int return_value_copyReadNamStrToREPSTR_3;
+  return_value_copyReadNamStrToREPSTR_3=copyReadNamStrToREPSTR(rsp, is_stripped, namp);
+  return return_value_copyReadNamStrToREPSTR_3;
 }
 
 // copySAMheaderCommandLineToREPSTR
@@ -9696,12 +9696,12 @@ static signed int copySAMheaderCommandLineToREPSTR(struct _REPSTR *rsp, const ch
   signed int i;
   signed int nc;
   unsigned long int maxlen;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(SAMFORM_PROGLINE);
-  maxlen = return_value_strlen$1 + (unsigned long int)1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(SAMFORM_PROGLINE);
+  maxlen = return_value_strlen_1 + (unsigned long int)1;
   rsp->strp[(signed long int)0] = (char)0;
   rsp->strl = (unsigned long int)0;
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_2;
   if(argv == ((char * const *)NULL) || !(narg >= 1))
     return 0;
 
@@ -9710,8 +9710,8 @@ static signed int copySAMheaderCommandLineToREPSTR(struct _REPSTR *rsp, const ch
     i = 0;
     for( ; !(i >= narg); i = i + 1)
     {
-      return_value_strlen$2=strlen(argv[(signed long int)i]);
-      maxlen = maxlen + return_value_strlen$2 + (unsigned long int)1;
+      return_value_strlen_2=strlen(argv[(signed long int)i]);
+      maxlen = maxlen + return_value_strlen_2 + (unsigned long int)1;
     }
     if(!(rsp->n_alloc >= maxlen))
     {
@@ -9772,9 +9772,9 @@ static signed int countCollisionKey(const struct _HashTable *htp, unsigned long 
   unsigned int key;
   unsigned int key_hi;
   unsigned int word_hi = (unsigned int)((word & htp->wordmask_hi) >> (signed int)htp->nbits_lo);
-  unsigned int return_value_hash32mix$1;
-  return_value_hash32mix$1=hash32mix(word_hi);
-  key_hi = return_value_hash32mix$1 % htp->keymod;
+  unsigned int return_value_hash32mix_1;
+  return_value_hash32mix_1=hash32mix(word_hi);
+  key_hi = return_value_hash32mix_1 % htp->keymod;
   key = (unsigned int)((unsigned long int)(key_hi << (signed int)htp->nbits_lo) + (word & htp->wordmask_lo));
   htp->idx[(signed long int)key] = htp->idx[(signed long int)key] + 1u;
   return 0;
@@ -9799,12 +9799,12 @@ static signed int countWords(const struct _HashTable *htp, unsigned long int wor
   unsigned int b;
   unsigned int a;
   word_hi = (unsigned int)((word & htp->wordmask_hi) >> (signed int)htp->nbits_lo);
-  unsigned int return_value_hash32mix$1;
-  return_value_hash32mix$1=hash32mix(word_hi);
-  key_hi = return_value_hash32mix$1 % htp->keymod;
+  unsigned int return_value_hash32mix_1;
+  return_value_hash32mix_1=hash32mix(word_hi);
+  key_hi = return_value_hash32mix_1 % htp->keymod;
   key = (unsigned int)((unsigned long int)(key_hi << (signed int)htp->nbits_lo) + (word & htp->wordmask_lo));
   b = htp->idx[(signed long int)(key + (unsigned int)1)];
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(b >= 1u))
     return 69;
 
@@ -9822,11 +9822,11 @@ static signed int countWords(const struct _HashTable *htp, unsigned long int wor
         b = pivot;
     }
     if(!(b >= a))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = htp->wordidx[(signed long int)b] != word_hi ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = htp->wordidx[(signed long int)b] != word_hi ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return 69;
 
     else
@@ -9843,15 +9843,15 @@ static struct _ALICPLX * createALICPLX(const struct _ScoreMatrix *smp)
 {
   struct _ALICPLX *p;
   signed short int alphabetsiz;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _ALICPLX) /*24ul*/ , "alignment.c", 243);
-  p = (struct _ALICPLX *)return_value_ecalloc$1;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _ALICPLX) /*24ul*/ , "alignment.c", 243);
+  p = (struct _ALICPLX *)return_value_ecalloc_1;
   if(!(p == ((struct _ALICPLX *)NULL)))
   {
     alphabetsiz=scoreMatrixGetAlphabetSize(smp);
-    void *return_value_ecalloc$2;
-    return_value_ecalloc$2=ecalloc((unsigned long int)alphabetsiz, sizeof(signed int) /*4ul*/ , "alignment.c", 246);
-    p->countp = (signed int *)return_value_ecalloc$2;
+    void *return_value_ecalloc_2;
+    return_value_ecalloc_2=ecalloc((unsigned long int)alphabetsiz, sizeof(signed int) /*4ul*/ , "alignment.c", 246);
+    p->countp = (signed int *)return_value_ecalloc_2;
     if(p->countp == ((signed int *)NULL))
     {
       deleteALICPLX(p);
@@ -9873,40 +9873,40 @@ static struct _ALICPLX * createALICPLX(const struct _ScoreMatrix *smp)
 static struct _REPNAMBUF * createREPNAMBUF(void)
 {
   struct _REPNAMBUF *p;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _REPNAMBUF) /*96ul*/ , "../src/report.c", 531);
-  p = (struct _REPNAMBUF *)return_value_ecalloc$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_initREPSTR$2;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _REPNAMBUF) /*96ul*/ , "../src/report.c", 531);
+  p = (struct _REPNAMBUF *)return_value_ecalloc_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_initREPSTR_2;
   if(p == ((struct _REPNAMBUF *)NULL))
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value_initREPSTR$2=initREPSTR(&p->ref_nam, 0);
-    tmp_if_expr$3 = return_value_initREPSTR$2 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_initREPSTR_2=initREPSTR(&p->ref_nam, 0);
+    tmp_if_expr_3 = return_value_initREPSTR_2 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$5;
-  signed int return_value_initREPSTR$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$5 = (_Bool)1;
+  _Bool tmp_if_expr_5;
+  signed int return_value_initREPSTR_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
   {
-    return_value_initREPSTR$4=initREPSTR(&p->mref_nam, 0);
-    tmp_if_expr$5 = return_value_initREPSTR$4 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_initREPSTR_4=initREPSTR(&p->mref_nam, 0);
+    tmp_if_expr_5 = return_value_initREPSTR_4 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$7;
-  signed int return_value_initREPSTR$6;
-  if(tmp_if_expr$5)
-    tmp_if_expr$7 = (_Bool)1;
+  _Bool tmp_if_expr_7;
+  signed int return_value_initREPSTR_6;
+  if(tmp_if_expr_5)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
   {
-    return_value_initREPSTR$6=initREPSTR(&p->q_nam, 0);
-    tmp_if_expr$7 = return_value_initREPSTR$6 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_initREPSTR_6=initREPSTR(&p->q_nam, 0);
+    tmp_if_expr_7 = return_value_initREPSTR_6 != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$7)
+  if(tmp_if_expr_7)
   {
     deleteREPNAMBUF(p);
     p = (struct _REPNAMBUF *)(void *)0;
@@ -9920,15 +9920,15 @@ static struct _REPNAMBUF * createREPNAMBUF(void)
 static struct RMAPBUFF_ * createRMAPBUFF(const struct _ScoreMatrix *scormtxp)
 {
   struct RMAPBUFF_ *rmp;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct RMAPBUFF_) /*72ul*/ , "../src/rmap.c", 1118);
-  rmp = (struct RMAPBUFF_ *)return_value_ecalloc$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct RMAPBUFF_) /*72ul*/ , "../src/rmap.c", 1118);
+  rmp = (struct RMAPBUFF_ *)return_value_ecalloc_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
   if(rmp == ((struct RMAPBUFF_ *)NULL))
     return ((struct RMAPBUFF_ *)NULL);
 
@@ -9939,43 +9939,43 @@ static struct RMAPBUFF_ * createRMAPBUFF(const struct _ScoreMatrix *scormtxp)
     rmp->hhlp=hashCreateHitList(16384);
     rmp->sglp=segLstCreate(65536);
     rmp->sacp=segAliCandsCreate(32768);
-    void *return_value_arrayCreate$2;
-    return_value_arrayCreate$2=arrayCreate(sizeof(struct RMAPCAND_) /*64ul*/ , (unsigned long int)512, "../src/rmap.c", 1126);
-    rmp->candr = (struct RMAPCAND_ *)return_value_arrayCreate$2;
+    void *return_value_arrayCreate_2;
+    return_value_arrayCreate_2=arrayCreate(sizeof(struct RMAPCAND_) /*64ul*/ , (unsigned long int)512, "../src/rmap.c", 1126);
+    rmp->candr = (struct RMAPCAND_ *)return_value_arrayCreate_2;
     rmp->alibufp=aliBufferCreate(0);
     rmp->alirsltp=aliRsltSetCreate(scormtxp, (signed short int)0, (signed short int)0, 0, 0);
     rmp->qmp=segQMaskCreate(0);
     if(!(rmp->hhlp == ((struct _HashHitList *)NULL)))
-      tmp_if_expr$3 = rmp->sglp != ((struct _SegLst *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = rmp->sglp != ((struct _SegLst *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = rmp->sacp != ((struct _SegAliCands *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = rmp->sacp != ((struct _SegAliCands *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = rmp->candr != ((struct RMAPCAND_ *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = rmp->candr != ((struct RMAPCAND_ *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = rmp->alibufp != ((struct _AliBuffer *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = rmp->alibufp != ((struct _AliBuffer *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(tmp_if_expr$6)
-      tmp_if_expr$7 = rmp->alirsltp != ((struct _AliRsltSet *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = (_Bool)0;
+    if(tmp_if_expr_6)
+      tmp_if_expr_7 = rmp->alirsltp != ((struct _AliRsltSet *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    if(tmp_if_expr$7)
-      tmp_if_expr$8 = rmp->qmp != ((struct _SegQMask *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_7 = (_Bool)0;
+    if(tmp_if_expr_7)
+      tmp_if_expr_8 = rmp->qmp != ((struct _SegQMask *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    if(!tmp_if_expr$8)
+      tmp_if_expr_8 = (_Bool)0;
+    if(!tmp_if_expr_8)
     {
       deleteRMAPBUFF(rmp);
       rmp = ((struct RMAPBUFF_ *)NULL);
@@ -9990,10 +9990,10 @@ static struct RMAPBUFF_ * createRMAPBUFF(const struct _ScoreMatrix *scormtxp)
 static struct RMAPINFO_ * createRMAPINFO(const struct _HashTable *htp)
 {
   struct RMAPINFO_ *rmp;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct RMAPINFO_) /*16ul*/ , "../src/rmap.c", 1013);
-  rmp = (struct RMAPINFO_ *)return_value_ecalloc$1;
-  _Bool tmp_if_expr$2;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct RMAPINFO_) /*16ul*/ , "../src/rmap.c", 1013);
+  rmp = (struct RMAPINFO_ *)return_value_ecalloc_1;
+  _Bool tmp_if_expr_2;
   if(rmp == ((struct RMAPINFO_ *)NULL))
     return ((struct RMAPINFO_ *)NULL);
 
@@ -10002,11 +10002,11 @@ static struct RMAPINFO_ * createRMAPINFO(const struct _HashTable *htp)
     rmp->hhiFp=hashCreateHitInfo(1024, htp);
     rmp->hhiRp=hashCreateHitInfo(1024, htp);
     if(!(rmp->hhiFp == ((struct _HashHitInfo *)NULL)))
-      tmp_if_expr$2 = rmp->hhiRp != ((struct _HashHitInfo *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = rmp->hhiRp != ((struct _HashHitInfo *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
     {
       deleteRMAPINFO(rmp);
       rmp = ((struct RMAPINFO_ *)NULL);
@@ -10022,11 +10022,11 @@ static struct RMAPPROF_ * createRMAPPROF(const struct _SeqCodec * const codecp)
 {
   struct RMAPPROF_ *p;
   const unsigned char mode = (const unsigned char)(1 | 2 | 4);
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct RMAPPROF_) /*24ul*/ , "../src/rmap.c", 958);
-  p = (struct RMAPPROF_ *)return_value_ecalloc$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct RMAPPROF_) /*24ul*/ , "../src/rmap.c", 958);
+  p = (struct RMAPPROF_ *)return_value_ecalloc_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if(p == ((struct RMAPPROF_ *)NULL))
     return (struct RMAPPROF_ *)(void *)0;
 
@@ -10036,16 +10036,16 @@ static struct RMAPPROF_ * createRMAPPROF(const struct _SeqCodec * const codecp)
     p->scorprofp=scoreCreateProfile(0, codecp, mode);
     p->scorprofRCp=scoreCreateProfile(0, codecp, mode);
     if(p->readRCp == ((struct _SeqFastq *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (struct _ScoreProfile *)(void *)0 == p->scorprofp ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = (struct _ScoreProfile *)(void *)0 == p->scorprofp ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (struct _ScoreProfile *)(void *)0 == p->scorprofRCp ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (struct _ScoreProfile *)(void *)0 == p->scorprofRCp ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       deleteRMAPPROF(p);
       p = (struct RMAPPROF_ *)(void *)0;
@@ -10060,9 +10060,9 @@ static struct RMAPPROF_ * createRMAPPROF(const struct _SeqCodec * const codecp)
 static struct _SEQSEQ * createSeq(unsigned int blocksize)
 {
   struct _SEQSEQ *sp;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _SEQSEQ) /*48ul*/ , "sequence.c", 724);
-  sp = (struct _SEQSEQ *)return_value_ecalloc$1;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _SEQSEQ) /*48ul*/ , "sequence.c", 724);
+  sp = (struct _SEQSEQ *)return_value_ecalloc_1;
   if(sp == ((struct _SEQSEQ *)NULL))
     return (struct _SEQSEQ *)(void *)0;
 
@@ -10071,9 +10071,9 @@ static struct _SEQSEQ * createSeq(unsigned int blocksize)
     if(!(blocksize >= 1u))
       blocksize = (unsigned int)256;
 
-    void *return_value_ecalloc$2;
-    return_value_ecalloc$2=ecalloc((unsigned long int)blocksize, sizeof(char) /*1ul*/ , "sequence.c", 729);
-    sp->basep = (char *)return_value_ecalloc$2;
+    void *return_value_ecalloc_2;
+    return_value_ecalloc_2=ecalloc((unsigned long int)blocksize, sizeof(char) /*1ul*/ , "sequence.c", 729);
+    sp->basep = (char *)return_value_ecalloc_2;
     if(sp->basep == ((char *)NULL))
     {
       deleteSeq(sp);
@@ -10097,7 +10097,7 @@ static struct _SEQSEQ * createSeq(unsigned int blocksize)
 // file sequence.c line 805
 static signed int cropSeq(struct _SEQSEQ *sp, unsigned int s, unsigned int e)
 {
-  char *tmp_post$1;
+  char *tmp_post_1;
   if((signed int)sp->code == 2)
     return 22;
 
@@ -10120,9 +10120,9 @@ static signed int cropSeq(struct _SEQSEQ *sp, unsigned int s, unsigned int e)
           char *cp = sp->basep;
           for( ; e >= s; s = s + 1u)
           {
-            tmp_post$1 = cp;
+            tmp_post_1 = cp;
             cp = cp + 1l;
-            *tmp_post$1 = sp->basep[(signed long int)s];
+            *tmp_post_1 = sp->basep[(signed long int)s];
           }
         }
 
@@ -10173,12 +10173,12 @@ static signed int decodeSeqAsStandardNt(struct _SEQSEQ *dep, const struct _SEQSE
   unsigned char c;
   const unsigned char *fromp;
   const unsigned char *endp;
-  _Bool tmp_if_expr$1;
-  signed int return_value_reallocSeqBlocks$2;
-  char *tmp_post$3;
-  signed int tmp_if_expr$4;
-  char *tmp_post$5;
-  const unsigned char *tmp_post$6;
+  _Bool tmp_if_expr_1;
+  signed int return_value_reallocSeqBlocks_2;
+  char *tmp_post_3;
+  signed int tmp_if_expr_4;
+  char *tmp_post_5;
+  const unsigned char *tmp_post_6;
   if(!((signed int)sp->code == 1))
     return 22;
 
@@ -10189,17 +10189,17 @@ static signed int decodeSeqAsStandardNt(struct _SEQSEQ *dep, const struct _SEQSE
     else
     {
       if(length == 0ul)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = length > sp->size ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = length > sp->size ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         length = sp->size - start;
 
       if(!(dep->alloc_size >= 1ul + length))
       {
-        return_value_reallocSeqBlocks$2=reallocSeqBlocks(dep, length + (unsigned long int)1);
-        if(return_value_reallocSeqBlocks$2 == 0)
+        return_value_reallocSeqBlocks_2=reallocSeqBlocks(dep, length + (unsigned long int)1);
+        if(return_value_reallocSeqBlocks_2 == 0)
           goto __CPROVER_DUMP_L6;
 
         return 2;
@@ -10215,17 +10215,17 @@ static signed int decodeSeqAsStandardNt(struct _SEQSEQ *dep, const struct _SEQSE
         {
           endp = (unsigned char *)sp->basep + (signed long int)start;
           fromp = endp + (signed long int)length;
-          for( ; !(endp >= fromp); *tmp_post$3 = (char)tmp_if_expr$4)
+          for( ; !(endp >= fromp); *tmp_post_3 = (char)tmp_if_expr_4)
           {
             fromp = fromp - 1l;
             c = *fromp;
-            tmp_post$3 = bufp;
+            tmp_post_3 = bufp;
             bufp = bufp + 1l;
             if(!((4 & (signed int)c) == 0))
-              tmp_if_expr$4 = 78;
+              tmp_if_expr_4 = 78;
 
             else
-              tmp_if_expr$4 = (signed int)codep->alphabet[(signed long int)(~((signed int)c) & 3)];
+              tmp_if_expr_4 = (signed int)codep->alphabet[(signed long int)(~((signed int)c) & 3)];
           }
         }
 
@@ -10233,11 +10233,11 @@ static signed int decodeSeqAsStandardNt(struct _SEQSEQ *dep, const struct _SEQSE
         {
           fromp = (unsigned char *)sp->basep + (signed long int)start;
           endp = fromp + (signed long int)length;
-          for( ; !(fromp >= endp); *tmp_post$5 = codep->alphabet[(signed long int)((signed int)*tmp_post$6 & 7)])
+          for( ; !(fromp >= endp); *tmp_post_5 = codep->alphabet[(signed long int)((signed int)*tmp_post_6 & 7)])
           {
-            tmp_post$5 = bufp;
+            tmp_post_5 = bufp;
             bufp = bufp + 1l;
-            tmp_post$6 = fromp;
+            tmp_post_6 = fromp;
             fromp = fromp + 1l;
           }
         }
@@ -10276,8 +10276,8 @@ static signed int defineHitRegions(struct _HITREGION **idxr, signed int *n_added
     ((unsigned long int *)*idxr)[(signed long int)-1] = (unsigned long int)0;
     n0 = (unsigned long int)0;
   }
-  unsigned long int tmp_post$2;
-  unsigned long int tmp_post$3;
+  unsigned long int tmp_post_2;
+  unsigned long int tmp_post_3;
   if(!(nhits >= 1))
     return 0;
 
@@ -10301,24 +10301,24 @@ static signed int defineHitRegions(struct _HITREGION **idxr, signed int *n_added
       {
         if(((unsigned long int *)*idxr)[-1l] >= ((unsigned long int *)*idxr)[-2l])
         {
-          void *return_value_arrayRealloc$1;
-          return_value_arrayRealloc$1=arrayRealloc((void *)*idxr, (unsigned long int)0, (char)0, "segment.c", 437);
-          sp = (struct _HITREGION *)return_value_arrayRealloc$1;
+          void *return_value_arrayRealloc_1;
+          return_value_arrayRealloc_1=arrayRealloc((void *)*idxr, (unsigned long int)0, (char)0, "segment.c", 437);
+          sp = (struct _HITREGION *)return_value_arrayRealloc_1;
           if(!(sp == ((struct _HITREGION *)NULL)))
           {
             *idxr = sp;
-            tmp_post$2 = ((unsigned long int *)*idxr)[(signed long int)-1];
+            tmp_post_2 = ((unsigned long int *)*idxr)[(signed long int)-1];
             ((unsigned long int *)*idxr)[(signed long int)-1] = ((unsigned long int *)*idxr)[(signed long int)-1] + 1ul;
-            sp = *idxr + (signed long int)tmp_post$2;
+            sp = *idxr + (signed long int)tmp_post_2;
           }
 
         }
 
         else
         {
-          tmp_post$3 = ((unsigned long int *)*idxr)[(signed long int)-1];
+          tmp_post_3 = ((unsigned long int *)*idxr)[(signed long int)-1];
           ((unsigned long int *)*idxr)[(signed long int)-1] = ((unsigned long int *)*idxr)[(signed long int)-1] + 1ul;
-          sp = *idxr + (signed long int)tmp_post$3;
+          sp = *idxr + (signed long int)tmp_post_3;
         }
         if(sp == ((struct _HITREGION *)NULL))
           return 2;
@@ -10425,7 +10425,7 @@ static void deleteSeq(struct _SEQSEQ *sp)
 
 // derriveSEGCAND
 // file segment.c line 929
-static signed int derriveSEGCAND(struct _SEGCAND *candp, signed int segix_start, signed int nseg, struct _SEGMENT *segmbasp, struct _SEED$0 * const seedr, unsigned char ktup, unsigned char nskip, unsigned int cover, unsigned int mincover_noindel, unsigned int hregix, unsigned char is_reverse)
+static signed int derriveSEGCAND(struct _SEGCAND *candp, signed int segix_start, signed int nseg, struct _SEGMENT *segmbasp, struct _SEED_0 * const seedr, unsigned char ktup, unsigned char nskip, unsigned int cover, unsigned int mincover_noindel, unsigned int hregix, unsigned char is_reverse)
 {
   signed int n;
   unsigned int qs;
@@ -10530,18 +10530,18 @@ static signed int derriveSEGCAND(struct _SEGCAND *candp, signed int segix_start,
 struct _DiffBlocks * diffBlocksCreate(signed int blksz)
 {
   struct _DiffBlocks *p;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _DiffBlocks) /*24ul*/ , "diffstr.c", 621);
-  p = (struct _DiffBlocks *)return_value_ecalloc$1;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _DiffBlocks) /*24ul*/ , "diffstr.c", 621);
+  p = (struct _DiffBlocks *)return_value_ecalloc_1;
   if(!(p == ((struct _DiffBlocks *)NULL)))
   {
     p->nblk = 0;
     if(!(blksz >= 1))
       blksz = 64;
 
-    void *return_value_ecalloc$2;
-    return_value_ecalloc$2=ecalloc((unsigned long int)blksz, sizeof(struct _BLOCK) /*12ul*/ , "diffstr.c", 625);
-    p->blkp = (struct _BLOCK *)return_value_ecalloc$2;
+    void *return_value_ecalloc_2;
+    return_value_ecalloc_2=ecalloc((unsigned long int)blksz, sizeof(struct _BLOCK) /*12ul*/ , "diffstr.c", 625);
+    p->blkp = (struct _BLOCK *)return_value_ecalloc_2;
     if(p->blkp == ((struct _BLOCK *)NULL))
     {
       diffBlocksDelete(p);
@@ -10612,8 +10612,8 @@ signed int diffStrAdd(struct _DiffStr *top, const unsigned char *fcp, signed int
   signed int errcode = 0;
   unsigned long int newlen = (unsigned long int)(top->len + (len > 0 ? len : 0));
   unsigned char *tcp;
-  unsigned char *tmp_post$1;
-  const unsigned char *tmp_post$2;
+  unsigned char *tmp_post_1;
+  const unsigned char *tmp_post_2;
   if(fcp == ((const unsigned char *)NULL) || !(len >= 1))
     return 0;
 
@@ -10640,11 +10640,11 @@ signed int diffStrAdd(struct _DiffStr *top, const unsigned char *fcp, signed int
         l = 0;
         for( ; !(l >= len); l = l + 1)
         {
-          tmp_post$1 = tcp;
+          tmp_post_1 = tcp;
           tcp = tcp + 1l;
-          tmp_post$2 = fcp;
+          tmp_post_2 = fcp;
           fcp = fcp + 1l;
-          *tmp_post$1 = *tmp_post$2;
+          *tmp_post_1 = *tmp_post_2;
         }
         top->len = (signed int)newlen;
         if(newlen >= 1ul)
@@ -10662,9 +10662,9 @@ signed int diffStrAdd(struct _DiffStr *top, const unsigned char *fcp, signed int
 // file ../src/diffstr.h line 229
 signed int diffStrAppend(struct _DiffStr *top, const struct _DiffStr *fromp)
 {
-  signed int return_value_diffStrAdd$1;
-  return_value_diffStrAdd$1=diffStrAdd(top, fromp->dstrp, fromp->len);
-  return return_value_diffStrAdd$1;
+  signed int return_value_diffStrAdd_1;
+  return_value_diffStrAdd_1=diffStrAdd(top, fromp->dstrp, fromp->len);
+  return return_value_diffStrAdd_1;
 }
 
 // diffStrAsView
@@ -10676,15 +10676,15 @@ signed int diffStrAsView(struct _DiffView *dvp, const unsigned char *dstrp, char
   signed int len = 0;
   unsigned long int maxlen;
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(i >= 0x7fffffff))
-      tmp_if_expr$1 = dstrp[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = dstrp[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     i = i + 1;
@@ -10839,8 +10839,8 @@ signed int diffStrCopy(struct _DiffStr *dfsp, const unsigned char *diffstrp)
     if((signed int)l >= 0x7fff)
       return 48;
 
-  unsigned char *tmp_post$1;
-  const unsigned char *tmp_post$2;
+  unsigned char *tmp_post_1;
+  const unsigned char *tmp_post_2;
   if((signed int)l >= dfsp->n_alloc)
   {
     errcode=diffStrRealloc(dfsp, (signed int)l);
@@ -10859,11 +10859,11 @@ signed int diffStrCopy(struct _DiffStr *dfsp, const unsigned char *diffstrp)
     ucp = dfsp->dstrp;
     for( ; (signed int)l >= 0; l = l - 1)
     {
-      tmp_post$1 = ucp;
+      tmp_post_1 = ucp;
       ucp = ucp + 1l;
-      tmp_post$2 = dstrp;
+      tmp_post_2 = dstrp;
       dstrp = dstrp + 1l;
-      *tmp_post$1 = *tmp_post$2;
+      *tmp_post_1 = *tmp_post_2;
     }
     return 0;
   }
@@ -10874,14 +10874,14 @@ signed int diffStrCopy(struct _DiffStr *dfsp, const unsigned char *diffstrp)
 struct _DiffStr * diffStrCreate(signed int blocksiz)
 {
   struct _DiffStr *dfsp;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _DiffStr) /*24ul*/ , "diffstr.c", 720);
-  dfsp = (struct _DiffStr *)return_value_ecalloc$1;
-  signed int return_value_diffStrInit$2;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _DiffStr) /*24ul*/ , "diffstr.c", 720);
+  dfsp = (struct _DiffStr *)return_value_ecalloc_1;
+  signed int return_value_diffStrInit_2;
   if(!(dfsp == ((struct _DiffStr *)NULL)))
   {
-    return_value_diffStrInit$2=diffStrInit(dfsp, blocksiz);
-    if(!(return_value_diffStrInit$2 == 0))
+    return_value_diffStrInit_2=diffStrInit(dfsp, blocksiz);
+    if(!(return_value_diffStrInit_2 == 0))
     {
       diffStrDelete(dfsp);
       dfsp = ((struct _DiffStr *)NULL);
@@ -10897,17 +10897,17 @@ struct _DiffStr * diffStrCreate(signed int blocksiz)
 struct _DiffView * diffStrCreateView(signed int blksz)
 {
   struct _DiffView *p;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _DiffView) /*32ul*/ , "diffstr.c", 1519);
-  p = (struct _DiffView *)return_value_ecalloc$1;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _DiffView) /*32ul*/ , "diffstr.c", 1519);
+  p = (struct _DiffView *)return_value_ecalloc_1;
   if(!(p == ((struct _DiffView *)NULL)))
   {
     if(!(blksz >= 1))
       blksz = 256;
 
-    void *return_value_ecalloc$2;
-    return_value_ecalloc$2=ecalloc((unsigned long int)blksz, sizeof(char) /*1ul*/ , "diffstr.c", 1523);
-    p->strp = (char *)return_value_ecalloc$2;
+    void *return_value_ecalloc_2;
+    return_value_ecalloc_2=ecalloc((unsigned long int)blksz, sizeof(char) /*1ul*/ , "diffstr.c", 1523);
+    p->strp = (char *)return_value_ecalloc_2;
     if(p->strp == ((char *)NULL))
     {
       diffStrDeleteView(p);
@@ -10944,11 +10944,11 @@ signed int diffStrCrop(unsigned char *diffstrp, signed int *dstrlen, signed int 
   *end_prof = 0;
   *start_prof = *end_prof;
   errcode=scrollDiffStr(diffstrp, start_unprof_target, (unsigned char)0, start_unprof, start_prof, &is);
-  signed int tmp_post$1;
-  _Bool tmp_if_expr$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
+  signed int tmp_post_1;
+  _Bool tmp_if_expr_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
   if(!(errcode == 0))
     return errcode;
 
@@ -10986,20 +10986,20 @@ signed int diffStrCrop(unsigned char *diffstrp, signed int *dstrlen, signed int 
             if((signed int)typ == 0)
               count = count - 1;
 
-            tmp_post$1 = j;
+            tmp_post_1 = j;
             j = j + 1;
-            diffstrp[(signed long int)tmp_post$1] = (unsigned char)((signed int)count + ((signed int)(unsigned char)typ << 6));
+            diffstrp[(signed long int)tmp_post_1] = (unsigned char)((signed int)count + ((signed int)(unsigned char)typ << 6));
             count_over = (unsigned char)0;
           }
           is = is + 1;
           do
           {
             if(!(is >= ie))
-              tmp_if_expr$2 = diffstrp[(signed long int)is] != 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_2 = diffstrp[(signed long int)is] != 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$2 = (_Bool)0;
-            if(!tmp_if_expr$2)
+              tmp_if_expr_2 = (_Bool)0;
+            if(!tmp_if_expr_2)
               break;
 
             typ = (unsigned char)((signed int)diffstrp[(signed long int)is] >> 6);
@@ -11007,9 +11007,9 @@ signed int diffStrCrop(unsigned char *diffstrp, signed int *dstrlen, signed int 
             count = (unsigned char)((signed int)count + (signed int)count_over);
             if((signed int)count >= 62)
             {
-              tmp_post$3 = j;
+              tmp_post_3 = j;
               j = j + 1;
-              diffstrp[(signed long int)tmp_post$3] = (unsigned char)(61 + ((signed int)(unsigned char)0 << 6));
+              diffstrp[(signed long int)tmp_post_3] = (unsigned char)(61 + ((signed int)(unsigned char)0 << 6));
               count = count - (unsigned char)(61 + 1);
               count_over = (unsigned char)0;
             }
@@ -11019,9 +11019,9 @@ signed int diffStrCrop(unsigned char *diffstrp, signed int *dstrlen, signed int 
 
             else
             {
-              tmp_post$4 = j;
+              tmp_post_4 = j;
               j = j + 1;
-              diffstrp[(signed long int)tmp_post$4] = (unsigned char)((signed int)count + ((signed int)(unsigned char)typ << 6));
+              diffstrp[(signed long int)tmp_post_4] = (unsigned char)((signed int)count + ((signed int)(unsigned char)typ << 6));
             }
             is = is + 1;
           }
@@ -11052,9 +11052,9 @@ signed int diffStrCrop(unsigned char *diffstrp, signed int *dstrlen, signed int 
           *end_unprof = *end_unprof - dd;
           *end_prof = *end_prof - dd;
         }
-        tmp_post$5 = j;
+        tmp_post_5 = j;
         j = j + 1;
-        diffstrp[(signed long int)tmp_post$5] = (unsigned char)((signed int)count + ((signed int)(unsigned char)3 << 6));
+        diffstrp[(signed long int)tmp_post_5] = (unsigned char)((signed int)count + ((signed int)(unsigned char)3 << 6));
         diffstrp[(signed long int)j] = (unsigned char)(0 + ((signed int)(unsigned char)0 << 6));
         *dstrlen = j + 1;
         return 0;
@@ -11092,9 +11092,9 @@ signed int diffStrFetchSegment(struct _DiffStr *dfsp, const unsigned char *diffs
 
   else
   {
-    signed int return_value_diffStrCrop$1;
-    return_value_diffStrCrop$1=diffStrCrop(dfsp->dstrp, &dfsp->len, start_unprof_target, end_unprof_target, start_unprof, end_unprof, start_prof, end_prof);
-    return return_value_diffStrCrop$1;
+    signed int return_value_diffStrCrop_1;
+    return_value_diffStrCrop_1=diffStrCrop(dfsp->dstrp, &dfsp->len, start_unprof_target, end_unprof_target, start_unprof, end_unprof, start_prof, end_prof);
+    return return_value_diffStrCrop_1;
   }
 }
 
@@ -11108,9 +11108,9 @@ signed int diffStrFindBlocks(struct _DiffBlocks *dbp, const unsigned char *diffs
   unsigned char count = (unsigned char)0;
   unsigned char typ = (unsigned char)0;
   dbp->nblk = 0;
-  signed int tmp_post$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
   if(diffstrp == ((const unsigned char *)NULL))
     return 0;
 
@@ -11135,9 +11135,9 @@ signed int diffStrFindBlocks(struct _DiffBlocks *dbp, const unsigned char *diffs
 
           }
 
-          tmp_post$1 = dbp->nblk;
+          tmp_post_1 = dbp->nblk;
           dbp->nblk = dbp->nblk + 1;
-          bp = dbp->blkp + (signed long int)tmp_post$1;
+          bp = dbp->blkp + (signed long int)tmp_post_1;
           bp->unprof_start = u;
           bp->prof_start = p;
           bp->len = l;
@@ -11154,22 +11154,22 @@ signed int diffStrFindBlocks(struct _DiffBlocks *dbp, const unsigned char *diffs
         {
           if(l >= 1)
           {
-            struct _BLOCK *diffStrFindBlocks$$1$$1$$1$$2$$1$$bp;
+            struct _BLOCK *diffStrFindBlocks__1__1__1__2__1__bp;
             if(dbp->nblk >= dbp->n_alloc)
             {
-              signed int diffStrFindBlocks$$1$$1$$1$$2$$1$$1$$errcode;
-              diffStrFindBlocks$$1$$1$$1$$2$$1$$1$$errcode=reallocDiffBlocks(dbp, dbp->nblk + 1);
-              if(!(diffStrFindBlocks$$1$$1$$1$$2$$1$$1$$errcode == 0))
-                return diffStrFindBlocks$$1$$1$$1$$2$$1$$1$$errcode;
+              signed int diffStrFindBlocks__1__1__1__2__1__1__errcode;
+              diffStrFindBlocks__1__1__1__2__1__1__errcode=reallocDiffBlocks(dbp, dbp->nblk + 1);
+              if(!(diffStrFindBlocks__1__1__1__2__1__1__errcode == 0))
+                return diffStrFindBlocks__1__1__1__2__1__1__errcode;
 
             }
 
-            tmp_post$2 = dbp->nblk;
+            tmp_post_2 = dbp->nblk;
             dbp->nblk = dbp->nblk + 1;
-            diffStrFindBlocks$$1$$1$$1$$2$$1$$bp = dbp->blkp + (signed long int)tmp_post$2;
-            diffStrFindBlocks$$1$$1$$1$$2$$1$$bp->unprof_start = u;
-            diffStrFindBlocks$$1$$1$$1$$2$$1$$bp->prof_start = p;
-            diffStrFindBlocks$$1$$1$$1$$2$$1$$bp->len = l;
+            diffStrFindBlocks__1__1__1__2__1__bp = dbp->blkp + (signed long int)tmp_post_2;
+            diffStrFindBlocks__1__1__1__2__1__bp->unprof_start = u;
+            diffStrFindBlocks__1__1__1__2__1__bp->prof_start = p;
+            diffStrFindBlocks__1__1__1__2__1__bp->len = l;
             u = u + l;
             p = p + l;
             l = 0;
@@ -11189,22 +11189,22 @@ signed int diffStrFindBlocks(struct _DiffBlocks *dbp, const unsigned char *diffs
       l = l - 1;
       if(l >= 1)
       {
-        struct _BLOCK *diffStrFindBlocks$$1$$2$$bp;
+        struct _BLOCK *diffStrFindBlocks__1__2__bp;
         if(dbp->nblk >= dbp->n_alloc)
         {
-          signed int diffStrFindBlocks$$1$$2$$1$$errcode;
-          diffStrFindBlocks$$1$$2$$1$$errcode=reallocDiffBlocks(dbp, dbp->nblk + 1);
-          if(!(diffStrFindBlocks$$1$$2$$1$$errcode == 0))
-            return diffStrFindBlocks$$1$$2$$1$$errcode;
+          signed int diffStrFindBlocks__1__2__1__errcode;
+          diffStrFindBlocks__1__2__1__errcode=reallocDiffBlocks(dbp, dbp->nblk + 1);
+          if(!(diffStrFindBlocks__1__2__1__errcode == 0))
+            return diffStrFindBlocks__1__2__1__errcode;
 
         }
 
-        tmp_post$3 = dbp->nblk;
+        tmp_post_3 = dbp->nblk;
         dbp->nblk = dbp->nblk + 1;
-        diffStrFindBlocks$$1$$2$$bp = dbp->blkp + (signed long int)tmp_post$3;
-        diffStrFindBlocks$$1$$2$$bp->unprof_start = u;
-        diffStrFindBlocks$$1$$2$$bp->prof_start = p;
-        diffStrFindBlocks$$1$$2$$bp->len = l;
+        diffStrFindBlocks__1__2__bp = dbp->blkp + (signed long int)tmp_post_3;
+        diffStrFindBlocks__1__2__bp->unprof_start = u;
+        diffStrFindBlocks__1__2__bp->prof_start = p;
+        diffStrFindBlocks__1__2__bp->len = l;
         u = u + l;
         p = p + l;
         l = 0;
@@ -11231,7 +11231,7 @@ signed int diffStrGenerateFromMismatches(signed int *dlen, unsigned char *diffst
   if(!(diffstrp == ((unsigned char *)NULL)))
     dcp = diffstrp;
 
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(mmnum >= 1))
   {
     n = (qlen - 1) / 61;
@@ -11241,34 +11241,34 @@ signed int diffStrGenerateFromMismatches(signed int *dlen, unsigned char *diffst
   else
   {
     if(*mmpos >= 1)
-      tmp_if_expr$1 = (mmpos[(signed long int)0] - 1) / 61;
+      tmp_if_expr_1 = (mmpos[(signed long int)0] - 1) / 61;
 
     else
-      tmp_if_expr$1 = 0;
-    n = tmp_if_expr$1;
+      tmp_if_expr_1 = 0;
+    n = tmp_if_expr_1;
     supos = mmpos[(signed long int)0];
   }
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
   if(!(dcp == ((unsigned char *)NULL)))
   {
     j = 0;
     for( ; !(j >= n); j = j + 1)
     {
-      tmp_post$2 = dcp;
+      tmp_post_2 = dcp;
       dcp = dcp + 1l;
-      *tmp_post$2 = (unsigned char)(61 + ((signed int)(unsigned char)0 << 6));
+      *tmp_post_2 = (unsigned char)(61 + ((signed int)(unsigned char)0 << 6));
     }
-    tmp_post$3 = dcp;
+    tmp_post_3 = dcp;
     dcp = dcp + 1l;
-    *tmp_post$3 = (unsigned char)((supos - n * 61) + 1 + ((signed int)(unsigned char)3 << 6));
+    *tmp_post_3 = (unsigned char)((supos - n * 61) + 1 + ((signed int)(unsigned char)3 << 6));
   }
 
   ntot = n + 1;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
   if(mmnum >= 1)
   {
     i = 1;
@@ -11283,13 +11283,13 @@ signed int diffStrGenerateFromMismatches(signed int *dlen, unsigned char *diffst
         j = 0;
         for( ; !(j >= n); j = j + 1)
         {
-          tmp_post$4 = dcp;
+          tmp_post_4 = dcp;
           dcp = dcp + 1l;
-          *tmp_post$4 = (unsigned char)(61 + ((signed int)(unsigned char)0 << 6));
+          *tmp_post_4 = (unsigned char)(61 + ((signed int)(unsigned char)0 << 6));
         }
-        tmp_post$5 = dcp;
+        tmp_post_5 = dcp;
         dcp = dcp + 1l;
-        *tmp_post$5 = (unsigned char)(((mmpos[(signed long int)i] - mmpos[(signed long int)(i - 1)]) - n * 61) + ((signed int)(unsigned char)3 << 6));
+        *tmp_post_5 = (unsigned char)(((mmpos[(signed long int)i] - mmpos[(signed long int)(i - 1)]) - n * 61) + ((signed int)(unsigned char)3 << 6));
       }
 
       ntot = ntot + n + 1;
@@ -11302,13 +11302,13 @@ signed int diffStrGenerateFromMismatches(signed int *dlen, unsigned char *diffst
         j = 0;
         for( ; !(j >= n); j = j + 1)
         {
-          tmp_post$6 = dcp;
+          tmp_post_6 = dcp;
           dcp = dcp + 1l;
-          *tmp_post$6 = (unsigned char)(61 + ((signed int)(unsigned char)0 << 6));
+          *tmp_post_6 = (unsigned char)(61 + ((signed int)(unsigned char)0 << 6));
         }
-        tmp_post$7 = dcp;
+        tmp_post_7 = dcp;
         dcp = dcp + 1l;
-        *tmp_post$7 = (unsigned char)(((qlen - mmpos[(signed long int)(i - 1)]) - n * 61) + ((signed int)(unsigned char)3 << 6));
+        *tmp_post_7 = (unsigned char)(((qlen - mmpos[(signed long int)(i - 1)]) - n * 61) + ((signed int)(unsigned char)3 << 6));
       }
 
       ntot = ntot + n + 1;
@@ -11316,12 +11316,12 @@ signed int diffStrGenerateFromMismatches(signed int *dlen, unsigned char *diffst
 
   }
 
-  unsigned char *tmp_post$8;
+  unsigned char *tmp_post_8;
   if(!(dcp == ((unsigned char *)NULL)))
   {
-    tmp_post$8 = dcp;
+    tmp_post_8 = dcp;
     dcp = dcp + 1l;
-    *tmp_post$8 = (unsigned char)(0 + ((signed int)(unsigned char)0 << 6));
+    *tmp_post_8 = (unsigned char)(0 + ((signed int)(unsigned char)0 << 6));
   }
 
   if(!(dlen == ((signed int *)NULL)))
@@ -11348,15 +11348,15 @@ signed int diffStrGetDiffStats(signed int *n_sub, signed int *n_ins, signed int 
   if(!(n_del == ((signed int *)NULL)))
     *n_del = 0;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(errcode == 0)
-      tmp_if_expr$1 = *diffstrp != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *diffstrp != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     typ = (unsigned char)((signed int)diffstrp[(signed long int)0] >> 6);
@@ -11450,9 +11450,9 @@ signed int diffStrInit(struct _DiffStr *p, signed int blocksiz)
   if(!(blocksiz >= 1))
     blocksiz = 256;
 
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)blocksiz, sizeof(unsigned char) /*1ul*/ , "diffstr.c", 740);
-  p->dstrp = (unsigned char *)return_value_ecalloc$1;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)blocksiz, sizeof(unsigned char) /*1ul*/ , "diffstr.c", 740);
+  p->dstrp = (unsigned char *)return_value_ecalloc_1;
   if(p->dstrp == ((unsigned char *)NULL))
     return 2;
 
@@ -11477,30 +11477,30 @@ signed int diffStrParsePlain(struct _DiffStr *dfsp, const char *rawstrp)
   const char *cp;
   dfsp->len = 0;
   cp = rawstrp;
-  _Bool tmp_if_expr$2;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  _Bool tmp_if_expr_2;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
     if(!(*cp == 0))
     {
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      tmp_if_expr$2 = ((signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*cp] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      tmp_if_expr_2 = ((signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*cp] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     cp = cp + 1l;
   }
   while((_Bool)1);
-  _Bool tmp_if_expr$4;
-  const unsigned short int **return_value___ctype_b_loc$3;
-  signed int tmp_post$5;
-  _Bool tmp_if_expr$7;
-  signed int return_value_toupper$6;
-  signed int tmp_post$8;
+  _Bool tmp_if_expr_4;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  signed int tmp_post_5;
+  _Bool tmp_if_expr_7;
+  signed int return_value_toupper_6;
+  signed int tmp_post_8;
   for( ; !(*cp == 0); cp = cp + (signed long int)((signed int)i + 1))
   {
     i = (signed short int)0;
@@ -11508,13 +11508,13 @@ signed int diffStrParsePlain(struct _DiffStr *dfsp, const char *rawstrp)
     {
       if(!(cp[(signed long int)i] == 0) && !((signed int)i >= 6))
       {
-        return_value___ctype_b_loc$3=__ctype_b_loc();
-        tmp_if_expr$4 = ((signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)cp[(signed long int)i]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_3=__ctype_b_loc();
+        tmp_if_expr_4 = ((signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)cp[(signed long int)i]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(!tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(!tmp_if_expr_4)
         break;
 
       numbuf[(signed long int)i] = cp[(signed long int)i];
@@ -11536,9 +11536,9 @@ signed int diffStrParsePlain(struct _DiffStr *dfsp, const char *rawstrp)
 
       }
 
-      tmp_post$5 = dfsp->len;
+      tmp_post_5 = dfsp->len;
       dfsp->len = dfsp->len + 1;
-      dfsp->dstrp[(signed long int)tmp_post$5] = (unsigned char)((0 << 6) + (signed int)(unsigned char)(61 & 63));
+      dfsp->dstrp[(signed long int)tmp_post_5] = (unsigned char)((0 << 6) + (signed int)(unsigned char)(61 & 63));
     }
     c=toupper((signed int)cp[(signed long int)i]);
     code = (unsigned char)0;
@@ -11546,13 +11546,13 @@ signed int diffStrParsePlain(struct _DiffStr *dfsp, const char *rawstrp)
     {
       if(!(DIFFSTR_SYMBOLS[(signed long int)code] == 0))
       {
-        return_value_toupper$6=toupper((signed int)DIFFSTR_SYMBOLS[(signed long int)code]);
-        tmp_if_expr$7 = c != return_value_toupper$6 ? (_Bool)1 : (_Bool)0;
+        return_value_toupper_6=toupper((signed int)DIFFSTR_SYMBOLS[(signed long int)code]);
+        tmp_if_expr_7 = c != return_value_toupper_6 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(!tmp_if_expr$7)
+        tmp_if_expr_7 = (_Bool)0;
+      if(!tmp_if_expr_7)
         break;
 
       code = code + 1;
@@ -11569,11 +11569,11 @@ signed int diffStrParsePlain(struct _DiffStr *dfsp, const char *rawstrp)
 
     }
 
-    tmp_post$8 = dfsp->len;
+    tmp_post_8 = dfsp->len;
     dfsp->len = dfsp->len + 1;
-    dfsp->dstrp[(signed long int)tmp_post$8] = (unsigned char)(((signed int)code << 6) + (signed int)(unsigned char)(count & 63));
+    dfsp->dstrp[(signed long int)tmp_post_8] = (unsigned char)(((signed int)code << 6) + (signed int)(unsigned char)(count & 63));
   }
-  signed int tmp_post$9;
+  signed int tmp_post_9;
   if(1 + dfsp->len >= dfsp->n_alloc)
   {
     errcode=diffStrRealloc(dfsp, dfsp->len + 1);
@@ -11588,9 +11588,9 @@ signed int diffStrParsePlain(struct _DiffStr *dfsp, const char *rawstrp)
 
   __CPROVER_DUMP_L20:
     ;
-    tmp_post$9 = dfsp->len;
+    tmp_post_9 = dfsp->len;
     dfsp->len = dfsp->len + 1;
-    dfsp->dstrp[(signed long int)tmp_post$9] = (unsigned char)0;
+    dfsp->dstrp[(signed long int)tmp_post_9] = (unsigned char)0;
     return 0;
   }
 }
@@ -11609,35 +11609,35 @@ signed int diffStrParseSimul(struct _DiffStr *dfsp, signed int *clip_start, sign
   *clip_start = 0;
   *clip_end = 0;
   cp = rawstrp;
-  _Bool tmp_if_expr$2;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  _Bool tmp_if_expr_2;
+  const unsigned short int **return_value___ctype_b_loc_1;
   do
   {
     if(!(*cp == 0))
     {
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      tmp_if_expr$2 = ((signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*cp] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      tmp_if_expr_2 = ((signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*cp] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     cp = cp + 1l;
   }
   while((_Bool)1);
   dfsp->len = 0;
-  _Bool tmp_if_expr$4;
-  const unsigned short int **return_value___ctype_b_loc$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$9;
-  signed int tmp_post$10;
-  signed int tmp_post$11;
-  signed int tmp_post$12;
+  _Bool tmp_if_expr_4;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_9;
+  signed int tmp_post_10;
+  signed int tmp_post_11;
+  signed int tmp_post_12;
   while(!(*cp == 0))
   {
     if(!(errcode == 0))
@@ -11649,13 +11649,13 @@ signed int diffStrParseSimul(struct _DiffStr *dfsp, signed int *clip_start, sign
     {
       if(!(cp[(signed long int)i] == 0) && !(i >= 6))
       {
-        return_value___ctype_b_loc$3=__ctype_b_loc();
-        tmp_if_expr$4 = ((signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)cp[(signed long int)i]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_3=__ctype_b_loc();
+        tmp_if_expr_4 = ((signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)cp[(signed long int)i]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(!tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(!tmp_if_expr_4)
         break;
 
       numbuf[(signed long int)i] = cp[(signed long int)i];
@@ -11663,11 +11663,11 @@ signed int diffStrParseSimul(struct _DiffStr *dfsp, signed int *clip_start, sign
     }
     while((_Bool)1);
     if(i >= 6)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = !(cp[(signed long int)i] != 0) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = !(cp[(signed long int)i] != 0) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
       return 59;
 
     numbuf[(signed long int)i] = (char)0;
@@ -11682,11 +11682,11 @@ signed int diffStrParseSimul(struct _DiffStr *dfsp, signed int *clip_start, sign
       do
       {
         if(!(DIFFSTR_SYMBOLS_X[(signed long int)code] == 0))
-          tmp_if_expr$6 = *cp != DIFFSTR_SYMBOLS_X[(signed long int)code] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = *cp != DIFFSTR_SYMBOLS_X[(signed long int)code] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(!tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(!tmp_if_expr_6)
           break;
 
         code = code + 1;
@@ -11695,18 +11695,18 @@ signed int diffStrParseSimul(struct _DiffStr *dfsp, signed int *clip_start, sign
       if(DIFFSTR_SYMBOLS_X[(signed long int)code] == 0)
       {
         if((signed int)*cp == 72)
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
-          tmp_if_expr$8 = (signed int)*cp == 83 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$8)
+          tmp_if_expr_8 = (signed int)*cp == 83 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_8)
         {
           if(dfsp->len == 0)
-            tmp_if_expr$7 = (_Bool)1;
+            tmp_if_expr_7 = (_Bool)1;
 
           else
-            tmp_if_expr$7 = *clip_start == 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$7)
+            tmp_if_expr_7 = *clip_start == 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_7)
           {
             *clip_start = count;
             isClip = (unsigned char)1;
@@ -11735,11 +11735,11 @@ signed int diffStrParseSimul(struct _DiffStr *dfsp, signed int *clip_start, sign
       do
       {
         if(!(DIFFSTR_SYMBOLS[(signed long int)code] == 0))
-          tmp_if_expr$9 = *cp != DIFFSTR_SYMBOLS[(signed long int)code] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_9 = *cp != DIFFSTR_SYMBOLS[(signed long int)code] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        if(!tmp_if_expr$9)
+          tmp_if_expr_9 = (_Bool)0;
+        if(!tmp_if_expr_9)
           break;
 
         code = code + 1;
@@ -11777,18 +11777,18 @@ signed int diffStrParseSimul(struct _DiffStr *dfsp, signed int *clip_start, sign
 
           }
 
-          tmp_post$10 = dfsp->len;
+          tmp_post_10 = dfsp->len;
           dfsp->len = dfsp->len + 1;
-          dfsp->dstrp[(signed long int)tmp_post$10] = (unsigned char)(((signed int)(unsigned char)0 << 6) + (signed int)(unsigned char)61);
+          dfsp->dstrp[(signed long int)tmp_post_10] = (unsigned char)(((signed int)(unsigned char)0 << 6) + (signed int)(unsigned char)61);
         }
       }
 
       else
         do
         {
-          tmp_post$11 = count;
+          tmp_post_11 = count;
           count = count - 1;
-          if(!(tmp_post$11 >= 1))
+          if(!(tmp_post_11 >= 1))
             break;
 
           if(1 + dfsp->len >= dfsp->n_alloc)
@@ -11799,15 +11799,15 @@ signed int diffStrParseSimul(struct _DiffStr *dfsp, signed int *clip_start, sign
 
           }
 
-          tmp_post$12 = dfsp->len;
+          tmp_post_12 = dfsp->len;
           dfsp->len = dfsp->len + 1;
-          dfsp->dstrp[(signed long int)tmp_post$12] = (unsigned char)(((signed int)code << 6) + (curr_count & 63));
+          dfsp->dstrp[(signed long int)tmp_post_12] = (unsigned char)(((signed int)code << 6) + (curr_count & 63));
           curr_count = 0;
         }
         while((_Bool)1);
     cp = cp + 1l;
   }
-  signed int tmp_post$13;
+  signed int tmp_post_13;
   if(curr_count >= 1)
   {
     if(1 + dfsp->len >= dfsp->n_alloc)
@@ -11818,12 +11818,12 @@ signed int diffStrParseSimul(struct _DiffStr *dfsp, signed int *clip_start, sign
 
     }
 
-    tmp_post$13 = dfsp->len;
+    tmp_post_13 = dfsp->len;
     dfsp->len = dfsp->len + 1;
-    dfsp->dstrp[(signed long int)tmp_post$13] = (unsigned char)(((signed int)(unsigned char)3 << 6) + (curr_count & 63));
+    dfsp->dstrp[(signed long int)tmp_post_13] = (unsigned char)(((signed int)(unsigned char)3 << 6) + (curr_count & 63));
   }
 
-  signed int tmp_post$14;
+  signed int tmp_post_14;
   if(1 + dfsp->len >= dfsp->n_alloc)
   {
     errcode=diffStrRealloc(dfsp, dfsp->len + 1);
@@ -11838,9 +11838,9 @@ signed int diffStrParseSimul(struct _DiffStr *dfsp, signed int *clip_start, sign
 
   __CPROVER_DUMP_L44:
     ;
-    tmp_post$14 = dfsp->len;
+    tmp_post_14 = dfsp->len;
     dfsp->len = dfsp->len + 1;
-    dfsp->dstrp[(signed long int)tmp_post$14] = (unsigned char)0;
+    dfsp->dstrp[(signed long int)tmp_post_14] = (unsigned char)0;
     return errcode;
   }
 }
@@ -11960,9 +11960,9 @@ signed int diffStrRealloc(struct _DiffStr *dfsp, signed int n_new)
 
       else
       {
-        void *return_value_erealloc$1;
-        return_value_erealloc$1=erealloc((void *)dfsp->dstrp, nsiz * sizeof(unsigned char) /*1ul*/ , (unsigned long int)0, "diffstr.c", 784);
-        hp = (unsigned char *)return_value_erealloc$1;
+        void *return_value_erealloc_1;
+        return_value_erealloc_1=erealloc((void *)dfsp->dstrp, nsiz * sizeof(unsigned char) /*1ul*/ , (unsigned long int)0, "diffstr.c", 784);
+        hp = (unsigned char *)return_value_erealloc_1;
         if(hp == ((unsigned char *)NULL))
           return 2;
 
@@ -11995,10 +11995,10 @@ signed int diffStrReverse(struct _DiffStr *dfsp, const unsigned char *diffstrp)
     if((signed int)l >= 0x7fff)
       return 48;
 
-  signed short int tmp_post$1;
-  signed short int tmp_post$2;
-  signed short int tmp_post$3;
-  signed short int tmp_post$4;
+  signed short int tmp_post_1;
+  signed short int tmp_post_2;
+  signed short int tmp_post_3;
+  signed short int tmp_post_4;
   if((signed int)l >= dfsp->n_alloc)
   {
     errcode=diffStrRealloc(dfsp, (signed int)l + 1);
@@ -12032,9 +12032,9 @@ signed int diffStrReverse(struct _DiffStr *dfsp, const unsigned char *diffstrp)
           count_prev = (unsigned char)((signed int)count_prev + (signed int)count + 1);
           if((signed int)count_prev >= 62)
           {
-            tmp_post$1 = u;
+            tmp_post_1 = u;
             u = u + 1;
-            ucp[(signed long int)tmp_post$1] = (unsigned char)(61 + ((signed int)(unsigned char)0 << 6));
+            ucp[(signed long int)tmp_post_1] = (unsigned char)(61 + ((signed int)(unsigned char)0 << 6));
             count_prev = count_prev - (unsigned char)(61 + 1);
           }
 
@@ -12042,18 +12042,18 @@ signed int diffStrReverse(struct _DiffStr *dfsp, const unsigned char *diffstrp)
 
         else
         {
-          tmp_post$2 = u;
+          tmp_post_2 = u;
           u = u + 1;
-          ucp[(signed long int)tmp_post$2] = (unsigned char)((signed int)count_prev + ((signed int)(unsigned char)typ << 6));
+          ucp[(signed long int)tmp_post_2] = (unsigned char)((signed int)count_prev + ((signed int)(unsigned char)typ << 6));
           count_prev = count;
         }
       }
-      tmp_post$3 = u;
+      tmp_post_3 = u;
       u = u + 1;
-      ucp[(signed long int)tmp_post$3] = (unsigned char)((signed int)count_prev + ((signed int)(unsigned char)3 << 6));
-      tmp_post$4 = u;
+      ucp[(signed long int)tmp_post_3] = (unsigned char)((signed int)count_prev + ((signed int)(unsigned char)3 << 6));
+      tmp_post_4 = u;
       u = u + 1;
-      ucp[(signed long int)tmp_post$4] = (unsigned char)(0 + ((signed int)(unsigned char)0 << 6));
+      ucp[(signed long int)tmp_post_4] = (unsigned char)(0 + ((signed int)(unsigned char)0 << 6));
       dfsp->len = (signed int)u;
       return 0;
     }
@@ -12134,13 +12134,13 @@ signed int diffStrSegment(struct _DiffStr *dfsp, const unsigned char *diffstrp, 
   nmatch_start = nmatch_end;
   nmatch = (signed int)nmatch_start;
   errcode=scrollDIFFSTRStartEnd(start_unprof, end_unprof, start_prof, end_prof, &nmatch_start, &nmatch_end, &typ_start, &idx_start, &idx_end, start_unprof_target, end_unprof_target, diffstrp);
-  signed int tmp_post$1;
-  _Bool tmp_if_expr$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
-  signed int tmp_post$6;
-  signed int tmp_post$7;
+  signed int tmp_post_1;
+  _Bool tmp_if_expr_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
+  signed int tmp_post_6;
+  signed int tmp_post_7;
   if(!(errcode == 0))
     return errcode;
 
@@ -12180,9 +12180,9 @@ signed int diffStrSegment(struct _DiffStr *dfsp, const unsigned char *diffstrp, 
         else
           if((signed int)nmatch_start >= 1)
           {
-            tmp_post$1 = dfsp->len;
+            tmp_post_1 = dfsp->len;
             dfsp->len = dfsp->len + 1;
-            dfsp->dstrp[(signed long int)tmp_post$1] = (unsigned char)((signed int)nmatch_start + ((signed int)(unsigned char)typ_start << 6));
+            dfsp->dstrp[(signed long int)tmp_post_1] = (unsigned char)((signed int)nmatch_start + ((signed int)(unsigned char)typ_start << 6));
             nmatch = 0;
           }
 
@@ -12192,11 +12192,11 @@ signed int diffStrSegment(struct _DiffStr *dfsp, const unsigned char *diffstrp, 
           do
           {
             if(!(i >= idx_end))
-              tmp_if_expr$2 = (signed int)diffstrp[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_2 = (signed int)diffstrp[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$2 = (_Bool)0;
-            if(!tmp_if_expr$2)
+              tmp_if_expr_2 = (_Bool)0;
+            if(!tmp_if_expr_2)
               break;
 
             typ = (unsigned char)((signed int)diffstrp[(signed long int)i] >> 6);
@@ -12209,16 +12209,16 @@ signed int diffStrSegment(struct _DiffStr *dfsp, const unsigned char *diffstrp, 
             {
               for( ; nmatch >= 62; nmatch = nmatch - (61 + 1))
               {
-                tmp_post$3 = dfsp->len;
+                tmp_post_3 = dfsp->len;
                 dfsp->len = dfsp->len + 1;
-                dfsp->dstrp[(signed long int)tmp_post$3] = (unsigned char)(61 + ((signed int)(unsigned char)0 << 6));
+                dfsp->dstrp[(signed long int)tmp_post_3] = (unsigned char)(61 + ((signed int)(unsigned char)0 << 6));
                 if(dfsp->len >= dfsp->n_alloc)
                   return 32;
 
               }
-              tmp_post$4 = dfsp->len;
+              tmp_post_4 = dfsp->len;
               dfsp->len = dfsp->len + 1;
-              dfsp->dstrp[(signed long int)tmp_post$4] = (unsigned char)(nmatch + ((signed int)(unsigned char)typ << 6));
+              dfsp->dstrp[(signed long int)tmp_post_4] = (unsigned char)(nmatch + ((signed int)(unsigned char)typ << 6));
               if(dfsp->len >= dfsp->n_alloc)
                 return 32;
 
@@ -12233,9 +12233,9 @@ signed int diffStrSegment(struct _DiffStr *dfsp, const unsigned char *diffstrp, 
       nmatch = nmatch + (signed int)nmatch_end;
       for( ; nmatch >= 63; nmatch = nmatch - (61 + 1))
       {
-        tmp_post$5 = dfsp->len;
+        tmp_post_5 = dfsp->len;
         dfsp->len = dfsp->len + 1;
-        dfsp->dstrp[(signed long int)tmp_post$5] = (unsigned char)(61 + ((signed int)(unsigned char)0 << 6));
+        dfsp->dstrp[(signed long int)tmp_post_5] = (unsigned char)(61 + ((signed int)(unsigned char)0 << 6));
         if(dfsp->len >= dfsp->n_alloc)
           return 32;
 
@@ -12245,12 +12245,12 @@ signed int diffStrSegment(struct _DiffStr *dfsp, const unsigned char *diffstrp, 
 
       else
       {
-        tmp_post$6 = dfsp->len;
+        tmp_post_6 = dfsp->len;
         dfsp->len = dfsp->len + 1;
-        dfsp->dstrp[(signed long int)tmp_post$6] = (unsigned char)(nmatch + ((signed int)(unsigned char)3 << 6));
-        tmp_post$7 = dfsp->len;
+        dfsp->dstrp[(signed long int)tmp_post_6] = (unsigned char)(nmatch + ((signed int)(unsigned char)3 << 6));
+        tmp_post_7 = dfsp->len;
         dfsp->len = dfsp->len + 1;
-        dfsp->dstrp[(signed long int)tmp_post$7] = (unsigned char)(0 + ((signed int)(unsigned char)0 << 6));
+        dfsp->dstrp[(signed long int)tmp_post_7] = (unsigned char)(0 + ((signed int)(unsigned char)0 << 6));
         return 0;
       }
     }
@@ -12359,7 +12359,7 @@ static signed int doWordsInSeq(unsigned int *tuplectr, unsigned char *ktup_offs,
   unsigned char non_stdnt;
   unsigned int seqlen;
   unsigned long int word;
-  const char *tmp_post$1;
+  const char *tmp_post_1;
   if((signed int)*ktup_offs >= (signed int)htp->nskip)
     return 29;
 
@@ -12387,9 +12387,9 @@ static signed int doWordsInSeq(unsigned int *tuplectr, unsigned char *ktup_offs,
             if(!(non_stdnt == 0))
               non_stdnt = non_stdnt - 1;
 
-          tmp_post$1 = datap;
+          tmp_post_1 = datap;
           datap = datap + 1l;
-          word = (word << 2) + (unsigned long int)((signed int)*tmp_post$1 & 3);
+          word = (word << 2) + (unsigned long int)((signed int)*tmp_post_1 & 3);
           ktup_i = ktup_i - 1;
           if(!((signed int)ktup_i >= 1))
           {
@@ -12423,15 +12423,15 @@ static struct _MATEPAIR * drawPairAtRandomByProbability(struct _MATEPAIR * const
   i = 0;
   for( ; !(i >= n_pairs); i = i + 1)
     s = s + (mpr + (signed long int)i)->pbf;
-  double return_value_drand48$1;
-  return_value_drand48$1=drand48();
-  pthresh = return_value_drand48$1 * s;
+  double return_value_drand48_1;
+  return_value_drand48_1=drand48();
+  pthresh = return_value_drand48_1 * s;
   s = 0.0;
   i = 0;
   for( ; !(i >= n_pairs); i = i + 1)
   {
     s = s + (mpr + (signed long int)i)->pbf;
-    if(s + MINLOGARG$link1 > pthresh)
+    if(s + MINLOGARG_link1 > pthresh)
     {
       mp = mpr + (signed long int)i;
       break;
@@ -12476,14 +12476,14 @@ signed int eStringAppend(struct EString_ *esp, const char *strp, const char *pro
 struct EString_ * eStringCreate(signed int blksz, const char *progfil, signed int line)
 {
   struct EString_ *esp;
-  void *return_value_emalloc$1;
-  return_value_emalloc$1=emalloc(sizeof(struct EString_) /*32ul*/ , progfil, line);
-  esp = (struct EString_ *)return_value_emalloc$1;
-  char *return_value_eStringInit$2;
+  void *return_value_emalloc_1;
+  return_value_emalloc_1=emalloc(sizeof(struct EString_) /*32ul*/ , progfil, line);
+  esp = (struct EString_ *)return_value_emalloc_1;
+  char *return_value_eStringInit_2;
   if(!(esp == ((struct EString_ *)NULL)))
   {
-    return_value_eStringInit$2=eStringInit(esp, blksz, progfil, line);
-    if(return_value_eStringInit$2 == ((char *)NULL))
+    return_value_eStringInit_2=eStringInit(esp, blksz, progfil, line);
+    if(return_value_eStringInit_2 == ((char *)NULL))
     {
       eStringDelete(&esp, progfil, line);
       esp = (struct EString_ *)(void *)0;
@@ -12498,13 +12498,13 @@ struct EString_ * eStringCreate(signed int blksz, const char *progfil, signed in
 // file ../src/elib.h line 241
 void eStringDelete(struct EString_ **esp, const char *progfil, signed int line)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(esp == ((struct EString_ **)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (struct EString_ *)(void *)0 == *esp ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (struct EString_ *)(void *)0 == *esp ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     fprintf(stderr, "ERROR: eStringDelete on NULL pointer in %s, line %i\n", progfil, line);
 
   else
@@ -12532,9 +12532,9 @@ char * eStringInit(struct EString_ *esp, signed int blksz, const char *progfil, 
     esp->len = (unsigned long int)0;
     esp->allocsz = (unsigned long int)0;
     esp->blksz = blksz < 1 ? 128 : blksz;
-    void *return_value_emalloc$1;
-    return_value_emalloc$1=emalloc((unsigned long int)esp->blksz, progfil, line);
-    esp->strp = (char *)return_value_emalloc$1;
+    void *return_value_emalloc_1;
+    return_value_emalloc_1=emalloc((unsigned long int)esp->blksz, progfil, line);
+    esp->strp = (char *)return_value_emalloc_1;
     if(!(esp->strp == ((char *)NULL)))
     {
       esp->strp[(signed long int)0] = (char)0;
@@ -12576,9 +12576,9 @@ signed int eStringResize(struct EString_ *esp, unsigned long int newlen, const c
       {
         newsz = ((newlen + (unsigned long int)esp->blksz) - (unsigned long int)1) / (unsigned long int)esp->blksz;
         newsz = newsz * (unsigned long int)esp->blksz;
-        void *return_value_erealloc$1;
-        return_value_erealloc$1=erealloc((void *)esp->strp, newsz, (unsigned long int)0, progfil, line);
-        hp = (char *)return_value_erealloc$1;
+        void *return_value_erealloc_1;
+        return_value_erealloc_1=erealloc((void *)esp->strp, newsz, (unsigned long int)0, progfil, line);
+        hp = (char *)return_value_erealloc_1;
         if(hp == ((char *)NULL))
         {
           fprintf(stderr, "ERROR: EString memory re-allocation failed in %s, line %i\n", progfil, line);
@@ -12611,12 +12611,12 @@ void * ecalloc(unsigned long int nobj, unsigned long int size, const char *progf
 signed int efclose(struct _IO_FILE *fp, const char *progfil, signed int line)
 {
   signed int rv = 0;
-  signed int return_value_fclose$2;
+  signed int return_value_fclose_2;
   if(!(fp == ((struct _IO_FILE *)NULL)))
   {
-    signed int return_value_ferror$1;
-    return_value_ferror$1=ferror(fp);
-    if(!(return_value_ferror$1 == 0))
+    signed int return_value_ferror_1;
+    return_value_ferror_1=ferror(fp);
+    if(!(return_value_ferror_1 == 0))
     {
       fprintf(stderr, "ERROR when closing file in %s, line %i\n", progfil, line);
       perror("Error message from <stdlib>:\n");
@@ -12625,8 +12625,8 @@ signed int efclose(struct _IO_FILE *fp, const char *progfil, signed int line)
 
     if(!(fp == stderr) && !(fp == stdout))
     {
-      return_value_fclose$2=fclose(fp);
-      if(!(return_value_fclose$2 == 0))
+      return_value_fclose_2=fclose(fp);
+      if(!(return_value_fclose_2 == 0))
         rv = 50;
 
     }
@@ -12641,13 +12641,13 @@ signed int efclose(struct _IO_FILE *fp, const char *progfil, signed int line)
 struct _IO_FILE * efopen(const char *filnam, const char *mode, const char *progfil, signed int line)
 {
   struct _IO_FILE *fp = (struct _IO_FILE *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)*filnam == 45)
-    tmp_if_expr$1 = (signed int)filnam[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)filnam[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if((signed int)*mode == 119)
       fp = stdout;
@@ -12743,23 +12743,23 @@ void errMsgAdd(struct _ErrMsg *emp, const char *message, const char *progfil, si
   signed short int maxfree;
   signed short int n;
   struct _MESSAGE *mp;
-  signed int tmp_if_expr$1;
-  signed short int tmp_post$4;
-  signed short int tmp_post$5;
-  signed short int tmp_post$6;
-  _Bool tmp_if_expr$7;
+  signed int tmp_if_expr_1;
+  signed short int tmp_post_4;
+  signed short int tmp_post_5;
+  signed short int tmp_post_6;
+  _Bool tmp_if_expr_7;
   if(emp == ((struct _ErrMsg *)NULL) || (signed int)level == 2)
   {
     if(!(emp == ((struct _ErrMsg *)NULL)))
-      tmp_if_expr$1 = (signed int)emp->num;
+      tmp_if_expr_1 = (signed int)emp->num;
 
     else
-      tmp_if_expr$1 = 0;
-    const char *return_value_strMessageLevel$2;
-    return_value_strMessageLevel$2=strMessageLevel((unsigned char)2);
-    const char *return_value_errMsgString$3;
-    return_value_errMsgString$3=errMsgString(errcode);
-    fprintf(stderr, ERRMSG_FORMAT, tmp_if_expr$1, progfil, linenum, return_value_strMessageLevel$2, return_value_errMsgString$3, message != ((const char *)NULL) ? message : "");
+      tmp_if_expr_1 = 0;
+    const char *return_value_strMessageLevel_2;
+    return_value_strMessageLevel_2=strMessageLevel((unsigned char)2);
+    const char *return_value_errMsgString_3;
+    return_value_errMsgString_3=errMsgString(errcode);
+    fprintf(stderr, ERRMSG_FORMAT, tmp_if_expr_1, progfil, linenum, return_value_strMessageLevel_2, return_value_errMsgString_3, message != ((const char *)NULL) ? message : "");
     if(!(emp == ((struct _ErrMsg *)NULL)))
     {
       fprintReadNameAndNumber(stderr, emp->currReadNam, emp->currReadNo);
@@ -12783,9 +12783,9 @@ void errMsgAdd(struct _ErrMsg *emp, const char *message, const char *progfil, si
       n = (signed short int)0;
       for( ; !(progfil[(signed long int)n] == 0) && !((signed int)n >= (signed int)maxfree); n = n + 1)
         mp->filnamp[(signed long int)n] = progfil[(signed long int)n];
-      tmp_post$4 = n;
+      tmp_post_4 = n;
       n = n + 1;
-      mp->filnamp[(signed long int)tmp_post$4] = (char)0;
+      mp->filnamp[(signed long int)tmp_post_4] = (char)0;
       emp->usedSpace = emp->usedSpace + n;
     }
 
@@ -12798,9 +12798,9 @@ void errMsgAdd(struct _ErrMsg *emp, const char *message, const char *progfil, si
       n = (signed short int)0;
       for( ; !(message[(signed long int)n] == 0) && !((signed int)n >= (signed int)maxfree); n = n + 1)
         mp->textp[(signed long int)n] = message[(signed long int)n];
-      tmp_post$5 = n;
+      tmp_post_5 = n;
       n = n + 1;
-      mp->textp[(signed long int)tmp_post$5] = (char)0;
+      mp->textp[(signed long int)tmp_post_5] = (char)0;
       emp->usedSpace = emp->usedSpace + n;
     }
 
@@ -12813,9 +12813,9 @@ void errMsgAdd(struct _ErrMsg *emp, const char *message, const char *progfil, si
       n = (signed short int)0;
       for( ; !(emp->currReadNam[(signed long int)n] == 0) && !((signed int)n >= (signed int)maxfree); n = n + 1)
         mp->readnamp[(signed long int)n] = emp->currReadNam[(signed long int)n];
-      tmp_post$6 = n;
+      tmp_post_6 = n;
       n = n + 1;
-      mp->readnamp[(signed long int)tmp_post$6] = (char)0;
+      mp->readnamp[(signed long int)tmp_post_6] = (char)0;
       emp->usedSpace = emp->usedSpace + n;
     }
 
@@ -12823,11 +12823,11 @@ void errMsgAdd(struct _ErrMsg *emp, const char *message, const char *progfil, si
       mp->readnamp = (char *)(void *)0;
     emp->num = emp->num + 1;
     if((signed int)emp->num >= 10)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = (signed int)emp->usedSpace + 32 > 512 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = (signed int)emp->usedSpace + 32 > 512 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_7)
     {
       errMsgFlush(stderr, emp);
       exit(1);
@@ -12842,9 +12842,9 @@ struct _ErrMsg * errMsgCreate(const char *progfil, signed int linenum)
 {
   signed int i;
   struct _ErrMsg *p;
-  void *return_value_emalloc$1;
-  return_value_emalloc$1=emalloc(sizeof(struct _ErrMsg) /*1072ul*/ , progfil, linenum);
-  p = (struct _ErrMsg *)return_value_emalloc$1;
+  void *return_value_emalloc_1;
+  return_value_emalloc_1=emalloc(sizeof(struct _ErrMsg) /*1072ul*/ , progfil, linenum);
+  p = (struct _ErrMsg *)return_value_emalloc_1;
   if(p == ((struct _ErrMsg *)NULL))
     exit(1);
 
@@ -12877,29 +12877,29 @@ void errMsgEnd(struct _ErrMsg *p)
 // file elib.c line 395
 void errMsgFlush(struct _IO_FILE *fp, struct _ErrMsg *emp)
 {
-  signed short int tmp_post$1;
-  char *tmp_if_expr$4;
+  signed short int tmp_post_1;
+  char *tmp_if_expr_4;
   if(!(emp == ((struct _ErrMsg *)NULL)))
   {
     struct _MESSAGE *mp;
     do
     {
-      tmp_post$1 = emp->num;
+      tmp_post_1 = emp->num;
       emp->num = emp->num - 1;
-      if(tmp_post$1 == 0)
+      if(tmp_post_1 == 0)
         break;
 
       mp = emp->messages + (signed long int)emp->num;
-      const char *return_value_strMessageLevel$2;
-      return_value_strMessageLevel$2=strMessageLevel((unsigned char)mp->level);
-      const char *return_value_errMsgString$3;
-      return_value_errMsgString$3=errMsgString(mp->code);
+      const char *return_value_strMessageLevel_2;
+      return_value_strMessageLevel_2=strMessageLevel((unsigned char)mp->level);
+      const char *return_value_errMsgString_3;
+      return_value_errMsgString_3=errMsgString(mp->code);
       if(!(mp->textp == ((char *)NULL)))
-        tmp_if_expr$4 = mp->textp;
+        tmp_if_expr_4 = mp->textp;
 
       else
-        tmp_if_expr$4 = "";
-      fprintf(fp, ERRMSG_FORMAT, mp->num, mp->filnamp, mp->linno, return_value_strMessageLevel$2, return_value_errMsgString$3, tmp_if_expr$4);
+        tmp_if_expr_4 = "";
+      fprintf(fp, ERRMSG_FORMAT, mp->num, mp->filnamp, mp->linno, return_value_strMessageLevel_2, return_value_errMsgString_3, tmp_if_expr_4);
       fprintReadNameAndNumber(fp, mp->readnamp, mp->readno);
     }
     while((_Bool)1);
@@ -13116,13 +13116,13 @@ const char * errMsgString(signed int errcode)
 char * estrcat(const char *str1, const char *str2, const char *progfil, signed int line)
 {
   char *cp;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str1);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(str2);
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(return_value_strlen$1 + return_value_strlen$2 + (unsigned long int)1);
-  cp = (char *)return_value_malloc$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str1);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(str2);
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(return_value_strlen_1 + return_value_strlen_2 + (unsigned long int)1);
+  cp = (char *)return_value_malloc_3;
   if(!(cp == ((char *)NULL)))
   {
     strcpy(cp, str1);
@@ -13139,11 +13139,11 @@ char * estrcat(const char *str1, const char *str2, const char *progfil, signed i
 char * estrcpy(const char *str, const char *progfil, signed int line)
 {
   char *cp;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)1);
-  cp = (char *)return_value_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)1);
+  cp = (char *)return_value_malloc_2;
   if(!(cp == ((char *)NULL)))
     strcpy(cp, str);
 
@@ -13199,7 +13199,7 @@ static void exitPairedReadError(const char *option)
 
 // extendCand
 // file segment.c line 1097
-static signed int extendCand(struct _SEGCAND *sgcp, struct _SEGMENT *segmr, struct _HITREGION * const hregr, struct _SEED$0 * const seedr, unsigned char ktup, unsigned char nskip)
+static signed int extendCand(struct _SEGCAND *sgcp, struct _SEGMENT *segmr, struct _HITREGION * const hregr, struct _SEED_0 * const seedr, unsigned char ktup, unsigned char nskip)
 {
   signed int errcode;
   signed int ovl;
@@ -13209,15 +13209,15 @@ static signed int extendCand(struct _SEGCAND *sgcp, struct _SEGMENT *segmr, stru
   struct _SEGMENT *sap = segmr + (signed long int)sgcp->segix;
   struct _HITREGION *hregp = hregr + (signed long int)sgcp->hregix;
   endix = hregp->idx + (unsigned int)hregp->num;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(sap->ix >= hregp->idx))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = sap->ix >= endix ? (_Bool)1 : (_Bool)0;
-  unsigned int tmp_if_expr$2;
-  unsigned int tmp_if_expr$3;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = sap->ix >= endix ? (_Bool)1 : (_Bool)0;
+  unsigned int tmp_if_expr_2;
+  unsigned int tmp_if_expr_3;
+  if(tmp_if_expr_1)
     return 47;
 
   else
@@ -13231,11 +13231,11 @@ static signed int extendCand(struct _SEGCAND *sgcp, struct _SEGMENT *segmr, stru
 
       ovl=calcSegmentOverlap(sip, sap, seedr);
       if(!((signed int)!(sip->cover >= sap->cover) >= ovl))
-        tmp_if_expr$2 = sip->cover;
+        tmp_if_expr_2 = sip->cover;
 
       else
-        tmp_if_expr$2 = sap->cover / (unsigned int)2;
-      if(!(tmp_if_expr$2 == 0u))
+        tmp_if_expr_2 = sap->cover / (unsigned int)2;
+      if(!(tmp_if_expr_2 == 0u))
         break;
 
       errcode=updateCandBoundaries(sgcp, sip, seedr, ktup, nskip);
@@ -13253,11 +13253,11 @@ static signed int extendCand(struct _SEGCAND *sgcp, struct _SEGMENT *segmr, stru
 
       ovl=calcSegmentOverlap(sip, sap, seedr);
       if(!((signed int)!(sip->cover >= sap->cover) >= ovl))
-        tmp_if_expr$3 = sip->cover;
+        tmp_if_expr_3 = sip->cover;
 
       else
-        tmp_if_expr$3 = sap->cover / (unsigned int)2;
-      if(!(tmp_if_expr$3 == 0u))
+        tmp_if_expr_3 = sap->cover / (unsigned int)2;
+      if(!(tmp_if_expr_3 == 0u))
         break;
 
       errcode=updateCandBoundaries(sgcp, sip, seedr, ktup, nskip);
@@ -13277,22 +13277,22 @@ struct _IO_FILE * filioOpenForReading(signed int *errcode, unsigned char *is_end
   char fnam[4096l];
   unsigned long int namlen;
   unsigned long int extlen;
-  unsigned long int tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  unsigned long int tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(!(filext == ((const char *)NULL)))
   {
-    return_value_strlen$1=strlen(filext);
-    tmp_if_expr$2 = return_value_strlen$1;
+    return_value_strlen_1=strlen(filext);
+    tmp_if_expr_2 = return_value_strlen_1;
   }
 
   else
-    tmp_if_expr$2 = (unsigned long int)0;
-  extlen = tmp_if_expr$2;
+    tmp_if_expr_2 = (unsigned long int)0;
+  extlen = tmp_if_expr_2;
   unsigned long int nrobj;
   unsigned int filsiz = (unsigned int)0;
   unsigned int hs = (unsigned int)0;
   struct _IO_FILE *fp = (struct _IO_FILE *)(void *)0;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(filnam == ((const char *)NULL))
   {
     *errcode = 15;
@@ -13336,11 +13336,11 @@ struct _IO_FILE * filioOpenForReading(signed int *errcode, unsigned char *is_end
       else
       {
         if(!(filsiz >= 12u))
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = hs > *headsiz ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$3)
+          tmp_if_expr_3 = hs > *headsiz ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_3)
         {
           *errcode = 55;
           fclose(fp);
@@ -13354,9 +13354,9 @@ struct _IO_FILE * filioOpenForReading(signed int *errcode, unsigned char *is_end
           *headsiz = hs;
           if(!(nrobj == (unsigned long int)hs))
           {
-            signed int return_value_ferror$4;
-            return_value_ferror$4=ferror(fp);
-            if(!(return_value_ferror$4 == 0))
+            signed int return_value_ferror_4;
+            return_value_ferror_4=ferror(fp);
+            if(!(return_value_ferror_4 == 0))
               perror(READERRMSG);
 
             fclose(fp);
@@ -13382,17 +13382,17 @@ struct _IO_FILE * filioOpenForWriting(signed int *errcode, unsigned int siz, uns
   unsigned long int namlen;
   namlen=strlen(filnam);
   unsigned long int extlen;
-  unsigned long int tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  unsigned long int tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(!(filext == ((const char *)NULL)))
   {
-    return_value_strlen$1=strlen(filext);
-    tmp_if_expr$2 = return_value_strlen$1;
+    return_value_strlen_1=strlen(filext);
+    tmp_if_expr_2 = return_value_strlen_1;
   }
 
   else
-    tmp_if_expr$2 = (unsigned long int)0;
-  extlen = tmp_if_expr$2;
+    tmp_if_expr_2 = (unsigned long int)0;
+  extlen = tmp_if_expr_2;
   struct _IO_FILE *fp = ((struct _IO_FILE *)NULL);
   *errcode = 0;
   if(1ul + extlen + namlen >= 4097ul)
@@ -13428,9 +13428,9 @@ struct _IO_FILE * filioOpenForWriting(signed int *errcode, unsigned int siz, uns
     else
     {
       fwrite((const void *)header, sizeof(unsigned int) /*4ul*/ , (unsigned long int)headsiz, fp);
-      signed int return_value_ferror$3;
-      return_value_ferror$3=ferror(fp);
-      if(!(return_value_ferror$3 == 0))
+      signed int return_value_ferror_3;
+      return_value_ferror_3=ferror(fp);
+      if(!(return_value_ferror_3 == 0))
       {
         perror(WRITERRMSG);
         fclose(fp);
@@ -13449,16 +13449,16 @@ void filioSwapEndian(unsigned int *p, unsigned int len)
 {
   char *cp;
   char tmp;
-  unsigned int *tmp_post$1;
+  unsigned int *tmp_post_1;
   do
   {
     len = len - 1u;
     if(!(len >= 1u))
       break;
 
-    tmp_post$1 = p;
+    tmp_post_1 = p;
     p = p + 1l;
-    cp = (char *)tmp_post$1;
+    cp = (char *)tmp_post_1;
     tmp = cp[(signed long int)1];
     cp[(signed long int)1] = cp[(signed long int)4];
     cp[(signed long int)4] = tmp;
@@ -13484,19 +13484,19 @@ static signed int fillHitListFromHitInfoSegment(struct _HashHitList *hlp, unsign
   unsigned int n;
   unsigned int tuplectr;
   unsigned int n_seeds;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(use_short_hitinfo == 0))
-    tmp_if_expr$1 = hip->seed_rank > (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = hip->seed_rank > (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  unsigned int tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = hip->seed_rank;
+    tmp_if_expr_1 = (_Bool)0;
+  unsigned int tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = hip->seed_rank;
 
   else
-    tmp_if_expr$2 = hip->n_seeds;
-  n_seeds = tmp_if_expr$2;
+    tmp_if_expr_2 = hip->n_seeds;
+  n_seeds = tmp_if_expr_2;
   struct _SEED *seedp;
   unsigned int *posp;
   unsigned long int *sqdatp;
@@ -13504,11 +13504,11 @@ static signed int fillHitListFromHitInfoSegment(struct _HashHitList *hlp, unsign
   unsigned char * const qmaskp = hip->qmaskp;
   const struct _FILTERIVAL *ivalp = ((const struct _FILTERIVAL *)NULL);
   errcode=initHitList(hlp, hip);
-  unsigned int tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
+  unsigned int tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
   if(!(errcode == 0))
     return errcode;
 
@@ -13518,11 +13518,11 @@ static signed int fillHitListFromHitInfoSegment(struct _HashHitList *hlp, unsign
     for( ; !(n >= n_seeds); n = n + 1u)
     {
       if(!(use_short_hitinfo == 0))
-        tmp_if_expr$3 = hip->sidxp[(signed long int)n];
+        tmp_if_expr_3 = hip->sidxp[(signed long int)n];
 
       else
-        tmp_if_expr$3 = n;
-      seedp = hip->seedp + (signed long int)tmp_if_expr$3;
+        tmp_if_expr_3 = n;
+      seedp = hip->seedp + (signed long int)tmp_if_expr_3;
       if(maxhit_per_tuple >= 1u)
       {
         if(maxhit_per_tuple >= hip->nhitqual_sortkeyp[(signed long int)n])
@@ -13554,11 +13554,11 @@ static signed int fillHitListFromHitInfoSegment(struct _HashHitList *hlp, unsign
         do
         {
           if(!(i >= nh))
-            tmp_if_expr$4 = posp[(signed long int)i] < segpos_lo ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = posp[(signed long int)i] < segpos_lo ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(!tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(!tmp_if_expr_4)
             break;
 
           i = i + 1u;
@@ -13587,11 +13587,11 @@ static signed int fillHitListFromHitInfoSegment(struct _HashHitList *hlp, unsign
             do
             {
               if(!(i >= nh))
-                tmp_if_expr$5 = posp[(signed long int)i] < segpos_hi ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_5 = posp[(signed long int)i] < segpos_hi ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$5 = (_Bool)0;
-              if(!tmp_if_expr$5)
+                tmp_if_expr_5 = (_Bool)0;
+              if(!tmp_if_expr_5)
                 break;
 
               ivalp = hhfp->ivp + (signed long int)j;
@@ -13600,11 +13600,11 @@ static signed int fillHitListFromHitInfoSegment(struct _HashHitList *hlp, unsign
                 do
                 {
                   if(!(ivalp->upper >= posp[(signed long int)i]))
-                    tmp_if_expr$6 = (signed int)j < (signed int)hhfp->num ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_6 = (signed int)j < (signed int)hhfp->num ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$6 = (_Bool)0;
-                  if(!tmp_if_expr$6)
+                    tmp_if_expr_6 = (_Bool)0;
+                  if(!tmp_if_expr_6)
                     break;
 
                   ivalp = hhfp->ivp + (signed long int)j;
@@ -13637,11 +13637,11 @@ static signed int fillHitListFromHitInfoSegment(struct _HashHitList *hlp, unsign
             do
             {
               if(!(i >= nh))
-                tmp_if_expr$7 = posp[(signed long int)i] < segpos_hi ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_7 = posp[(signed long int)i] < segpos_hi ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$7 = (_Bool)0;
-              if(!tmp_if_expr$7)
+                tmp_if_expr_7 = (_Bool)0;
+              if(!tmp_if_expr_7)
                 break;
 
               if(!(is_reverse == 0))
@@ -13700,9 +13700,9 @@ static signed int finaliseSeq(struct _SEQSEQ *sp)
 
   else
   {
-    void *return_value_erealloc$1;
-    return_value_erealloc$1=erealloc((void *)sp->basep, (sp->size + (unsigned long int)1) * sizeof(char) /*1ul*/ , (unsigned long int)0, "sequence.c", 773);
-    hp = (char *)return_value_erealloc$1;
+    void *return_value_erealloc_1;
+    return_value_erealloc_1=erealloc((void *)sp->basep, (sp->size + (unsigned long int)1) * sizeof(char) /*1ul*/ , (unsigned long int)0, "sequence.c", 773);
+    hp = (char *)return_value_erealloc_1;
     if(hp == ((char *)NULL))
       return 2;
 
@@ -13724,15 +13724,15 @@ static signed int findInsHistMax(const struct _InsHist *pHist, signed int *count
   *range_max = *count_max;
   *range_min = *range_max;
   i = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(i >= pHist->iSpan))
-      tmp_if_expr$1 = pHist->pCounts[(signed long int)i] == 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = pHist->pCounts[(signed long int)i] == 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     i = i + 1;
@@ -13780,9 +13780,9 @@ static signed int findProperMATEPAIR(struct _ResultPairs * const pairp, const st
       if(!(maxnum >= 1))
         maxnum = 1;
 
-      signed int return_value_resultSetGetMaxSwat$1;
-      return_value_resultSetGetMaxSwat$1=resultSetGetMaxSwat(rsp, (signed int *)(void *)0);
-      if(!(return_value_resultSetGetMaxSwat$1 >= swscor_min))
+      signed int return_value_resultSetGetMaxSwat_1;
+      return_value_resultSetGetMaxSwat_1=resultSetGetMaxSwat(rsp, (signed int *)(void *)0);
+      if(!(return_value_resultSetGetMaxSwat_1 >= swscor_min))
         return 0;
 
       else
@@ -13808,12 +13808,12 @@ static signed int findREPALI(const struct _REPALI *rar, signed int *idxp, unsign
   const unsigned char mask = (const unsigned char)(2 | 8);
   signed int i;
   *idxp = -1;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   if(!(n >= 1ul))
     return -1;
 
@@ -13829,36 +13829,36 @@ static signed int findREPALI(const struct _REPALI *rar, signed int *idxp, unsign
         if(i >= 0)
         {
           if(!(s_start == (rar + (signed long int)i)->s_start))
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = s_end != (rar + (signed long int)i)->s_end ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_1 = s_end != (rar + (signed long int)i)->s_end ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = s_idx != (rar + (signed long int)i)->s_idx ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$2)
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_2 = s_idx != (rar + (signed long int)i)->s_idx ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_2)
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = q_start != (rar + (signed long int)i)->q_start ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$3)
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_3 = q_start != (rar + (signed long int)i)->q_start ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_3)
+            tmp_if_expr_4 = (_Bool)1;
 
           else
-            tmp_if_expr$4 = q_end != (rar + (signed long int)i)->q_end ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$4)
-            tmp_if_expr$5 = (_Bool)1;
+            tmp_if_expr_4 = q_end != (rar + (signed long int)i)->q_end ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_4)
+            tmp_if_expr_5 = (_Bool)1;
 
           else
-            tmp_if_expr$5 = ((signed int)rmatflg & (signed int)mask) != ((signed int)(rar + (signed long int)i)->status & (signed int)mask) ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = ((signed int)rmatflg & (signed int)mask) != ((signed int)(rar + (signed long int)i)->status & (signed int)mask) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(!tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(!tmp_if_expr_6)
           break;
 
         i = i - 1;
@@ -13881,7 +13881,7 @@ static signed int findSplitReads(struct _RESULT * const *rspp)
   struct _RESULT *ap;
   struct _RESULT *bp;
   i = (signed short int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   for( ; !((signed int)i >= (signed int)n); i = i + 1)
   {
     ap = rspp[(signed long int)i];
@@ -13895,11 +13895,11 @@ static signed int findSplitReads(struct _RESULT * const *rspp)
       if(!((signed int)bp->rsltx >= 0))
       {
         if(!(ap->q_end >= bp->q_start))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = ap->q_start > bp->q_end ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = ap->q_start > bp->q_end ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
         {
           bp->rsltx = i;
           ap->status = ap->status | (unsigned short int)64;
@@ -13940,42 +13940,42 @@ static signed int fprintAlignment(struct _IO_FILE *fp, struct _SeqFastq *sbufp, 
   unsigned int s_linstart;
   const unsigned char *ucp;
   const unsigned char *diffstrp = dfsp->dstrp + (signed long int)rp->dfo;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  unsigned char tmp_post$7;
-  unsigned int tmp_post$5;
-  unsigned int tmp_post$6;
-  unsigned int tmp_post$8;
-  unsigned int tmp_post$9;
-  unsigned int tmp_post$10;
-  unsigned int tmp_post$11;
-  unsigned int tmp_if_expr$12;
-  unsigned int tmp_if_expr$13;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  unsigned char tmp_post_7;
+  unsigned int tmp_post_5;
+  unsigned int tmp_post_6;
+  unsigned int tmp_post_8;
+  unsigned int tmp_post_9;
+  unsigned int tmp_post_10;
+  unsigned int tmp_post_11;
+  unsigned int tmp_if_expr_12;
+  unsigned int tmp_if_expr_13;
   if(rp == ((const struct _REPALI *)NULL))
     return 47;
 
   else
   {
-    char return_value_seqCodecType$1;
-    return_value_seqCodecType$1=seqCodecType(codecp);
-    if(!((signed int)return_value_seqCodecType$1 == 0))
+    char return_value_seqCodecType_1;
+    return_value_seqCodecType_1=seqCodecType(codecp);
+    if(!((signed int)return_value_seqCodecType_1 == 0))
       return 47;
 
     else
     {
       seqFastqGetConstSequence(sqp, &qlen, &cod);
       if(!(rp->q_start >= 1u))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = rp->q_start > rp->q_end ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_2 = rp->q_start > rp->q_end ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = rp->q_end > qlen ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = rp->q_end > qlen ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
         return 47;
 
       else
@@ -14024,11 +14024,11 @@ static signed int fprintAlignment(struct _IO_FILE *fp, struct _SeqFastq *sbufp, 
           else
           {
             if(!(rp->s_start >= 1u))
-              tmp_if_expr$4 = (_Bool)1;
+              tmp_if_expr_4 = (_Bool)1;
 
             else
-              tmp_if_expr$4 = rp->s_start > rp->s_end ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$4)
+              tmp_if_expr_4 = rp->s_start > rp->s_end ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_4)
               return 47;
 
             else
@@ -14064,17 +14064,17 @@ static signed int fprintAlignment(struct _IO_FILE *fp, struct _SeqFastq *sbufp, 
                       j = (unsigned short int)0;
                       for( ; qlen >= q && slen >= s && !((signed int)j >= (signed int)linwidth); j = j + 1)
                       {
-                        tmp_post$7 = k;
+                        tmp_post_7 = k;
                         k = k + 1;
-                        if(!((signed int)tmp_post$7 >= (signed int)count))
+                        if(!((signed int)tmp_post_7 >= (signed int)count))
                         {
-                          tmp_post$5 = q;
+                          tmp_post_5 = q;
                           q = q + 1u;
-                          qbuf[(signed long int)j] = qcp[(signed long int)tmp_post$5];
+                          qbuf[(signed long int)j] = qcp[(signed long int)tmp_post_5];
                           dbuf[(signed long int)j] = (char)32;
-                          tmp_post$6 = s;
+                          tmp_post_6 = s;
                           s = s + 1u;
-                          sbuf[(signed long int)j] = scp[(signed long int)tmp_post$6];
+                          sbuf[(signed long int)j] = scp[(signed long int)tmp_post_6];
                         }
 
                         else
@@ -14083,13 +14083,13 @@ static signed int fprintAlignment(struct _IO_FILE *fp, struct _SeqFastq *sbufp, 
                           ucp = ucp + 1l;
                           if((signed int)typ == 0)
                           {
-                            tmp_post$8 = q;
+                            tmp_post_8 = q;
                             q = q + 1u;
-                            qbuf[(signed long int)j] = qcp[(signed long int)tmp_post$8];
+                            qbuf[(signed long int)j] = qcp[(signed long int)tmp_post_8];
                             dbuf[(signed long int)j] = (char)32;
-                            tmp_post$9 = s;
+                            tmp_post_9 = s;
                             s = s + 1u;
-                            sbuf[(signed long int)j] = scp[(signed long int)tmp_post$9];
+                            sbuf[(signed long int)j] = scp[(signed long int)tmp_post_9];
                           }
 
                           else
@@ -14127,17 +14127,17 @@ static signed int fprintAlignment(struct _IO_FILE *fp, struct _SeqFastq *sbufp, 
                               {
                                 qbuf[(signed long int)j] = (char)45;
                                 dbuf[(signed long int)j] = (char)45;
-                                tmp_post$10 = s;
+                                tmp_post_10 = s;
                                 s = s + 1u;
-                                sbuf[(signed long int)j] = scp[(signed long int)tmp_post$10];
+                                sbuf[(signed long int)j] = scp[(signed long int)tmp_post_10];
                               }
 
                               else
                                 if((signed int)typ == 2)
                                 {
-                                  tmp_post$11 = q;
+                                  tmp_post_11 = q;
                                   q = q + 1u;
-                                  qbuf[(signed long int)j] = qcp[(signed long int)tmp_post$11];
+                                  qbuf[(signed long int)j] = qcp[(signed long int)tmp_post_11];
                                   dbuf[(signed long int)j] = (char)45;
                                   sbuf[(signed long int)j] = (char)45;
                                 }
@@ -14153,16 +14153,16 @@ static signed int fprintAlignment(struct _IO_FILE *fp, struct _SeqFastq *sbufp, 
                       dbuf[(signed long int)j] = sbuf[(signed long int)j];
                       qbuf[(signed long int)j] = dbuf[(signed long int)j];
                       if(!((2 & (signed int)rp->status) == 0))
-                        tmp_if_expr$12 = rp->q_end - q_linstart;
+                        tmp_if_expr_12 = rp->q_end - q_linstart;
 
                       else
-                        tmp_if_expr$12 = rp->q_start + q_linstart;
+                        tmp_if_expr_12 = rp->q_start + q_linstart;
                       if(!((2 & (signed int)rp->status) == 0))
-                        tmp_if_expr$13 = (rp->q_end - q) + (unsigned int)1;
+                        tmp_if_expr_13 = (rp->q_end - q) + (unsigned int)1;
 
                       else
-                        tmp_if_expr$13 = (rp->q_start + q) - (unsigned int)1;
-                      fprintf(fp, OUFMT_ALIGN, tmp_if_expr$12, (const void *)qbuf, tmp_if_expr$13, (const void *)dbuf, (unsigned int)(signed int)rp->s_start + s_linstart, (const void *)sbuf, ((unsigned int)(signed int)rp->s_start + s) - (unsigned int)1);
+                        tmp_if_expr_13 = (rp->q_start + q) - (unsigned int)1;
+                      fprintf(fp, OUFMT_ALIGN, tmp_if_expr_12, (const void *)qbuf, tmp_if_expr_13, (const void *)dbuf, (unsigned int)(signed int)rp->s_start + s_linstart, (const void *)sbuf, ((unsigned int)(signed int)rp->s_start + s) - (unsigned int)1);
                       s_linstart = s;
                       q_linstart = q;
                     }
@@ -14235,18 +14235,18 @@ static signed int fprintREPALIcigar(struct _IO_FILE *fp, const struct _REPALI *r
   char sensechr;
   char flagchr;
   errcode=copyReadNameToREPSTR(q_namp, (unsigned char)0, q_sqp);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(errcode == 0))
     return errcode;
 
   else
   {
     if(!(rp == ((const struct _REPALI *)NULL)))
-      tmp_if_expr$1 = ((signed int)rp->status & 1) != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = ((signed int)rp->status & 1) != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
     {
       if(!((2 & (signed int)rp->status) == 0))
       {
@@ -14302,15 +14302,15 @@ static signed int fprintREPALIgff2(struct _IO_FILE *fp, const struct _REPALI *rp
   unsigned long int re;
   char sensechr;
   unsigned char isReverse;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(rp == ((const struct _REPALI *)NULL)))
-    tmp_if_expr$1 = ((signed int)rp->status & 2) != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)rp->status & 2) != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  isReverse = (unsigned char)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  isReverse = (unsigned char)tmp_if_expr_1;
   errcode=copyReadNameToREPSTR(q_namp, (unsigned char)0, q_sqp);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(errcode == 0))
     return errcode;
 
@@ -14318,11 +14318,11 @@ static signed int fprintREPALIgff2(struct _IO_FILE *fp, const struct _REPALI *rp
   {
     seqFastqGetConstSequence(q_sqp, &qlen, (char *)(void *)0);
     if(!(rp == ((const struct _REPALI *)NULL)))
-      tmp_if_expr$2 = ((signed int)rp->status & 1) != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = ((signed int)rp->status & 1) != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       if(!(isReverse == 0))
       {
@@ -14394,8 +14394,8 @@ static signed int fprintREPALIsam(struct _IO_FILE *fp, struct _SeqFastq *sqbufp,
   signed int swatscor;
   unsigned int pos = (unsigned int)0;
   unsigned int mpos = (unsigned int)0;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(rrp == ((const struct _REPALI *)NULL))
     return 47;
 
@@ -14425,11 +14425,11 @@ static signed int fprintREPALIsam(struct _IO_FILE *fp, struct _SeqFastq *sqbufp,
           else
             samflg = samflg | (unsigned short int)64;
           if(!(rmp == ((const struct _REPALI *)NULL)))
-            tmp_if_expr$1 = ((signed int)rmp->status & 1) != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = ((signed int)rmp->status & 1) != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = (_Bool)0;
+          if(tmp_if_expr_1)
           {
             mpos = (unsigned int)rmp->s_start;
             if(!((2 & (signed int)rmp->status) == 0))
@@ -14540,11 +14540,11 @@ static signed int fprintREPALIsam(struct _IO_FILE *fp, struct _SeqFastq *sqbufp,
           isize = 0;
         }
         if(qualstr == ((const char *)NULL))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = !(qualstr[(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = !(qualstr[(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           qualstr = OUFMT_SAM_NULLSTR;
 
         fprintf(fp, OUFMT_SAM_BEFORE, readnamp->strp, samflg, s_nam, pos, mapscor);
@@ -14581,8 +14581,8 @@ static signed int fprintREPALIssaha(struct _IO_FILE *fp, const struct _REPALI *r
   char flagchr;
   double idfrac = .0;
   errcode=copyReadNameToREPSTR(q_namp, (unsigned char)0, q_sqp);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(!(errcode == 0))
     return errcode;
 
@@ -14590,11 +14590,11 @@ static signed int fprintREPALIssaha(struct _IO_FILE *fp, const struct _REPALI *r
   {
     seqFastqGetConstSequence(q_sqp, &qlen, (char *)(void *)0);
     if(!(rp == ((const struct _REPALI *)NULL)))
-      tmp_if_expr$2 = ((signed int)rp->status & 1) != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = ((signed int)rp->status & 1) != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       if(!((2 & (signed int)rp->status) == 0))
       {
@@ -14633,11 +14633,11 @@ static signed int fprintREPALIssaha(struct _IO_FILE *fp, const struct _REPALI *r
       swatscor = 0;
       mapscor = (signed short int)0;
       if(!(rp == ((const struct _REPALI *)NULL)))
-        tmp_if_expr$1 = ((signed int)rp->status & 64) != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = ((signed int)rp->status & 64) != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      flagchr = (char)(tmp_if_expr$1 ? 82 : 78);
+        tmp_if_expr_1 = (_Bool)0;
+      flagchr = (char)(tmp_if_expr_1 ? 82 : 78);
       idfrac = .0;
     }
     fprintf(fp, OUFMT_SSAHA, flagchr, (signed int)mapscor > 99 ? 99 : (signed int)mapscor, swatscor, q_namp->strp, q_namext, s_nam, (unsigned int)qs, (unsigned int)qe, (unsigned int)rs, (unsigned int)re, sensechr, matchlen, idfrac, qlen, s_len);
@@ -14649,13 +14649,13 @@ static signed int fprintREPALIssaha(struct _IO_FILE *fp, const struct _REPALI *r
 // file elib.c line 282
 static void fprintReadNameAndNumber(struct _IO_FILE *fp, const char *rnam, unsigned long int rno)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(rnam == ((const char *)NULL)))
-    tmp_if_expr$1 = rnam[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = rnam[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(rno >= 2ul || tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(rno >= 2ul || tmp_if_expr_1)
   {
     fprintf(fp, "  when processing read");
     if(rno >= 2ul)
@@ -14707,21 +14707,21 @@ static signed int fprintSeqFastqHeader(void *top, unsigned char is_gzipped, cons
 {
   struct gzFile_s *gzfp = is_gzipped != 0 ? (struct gzFile_s *)top : (struct gzFile_s *)(void *)0;
   struct _IO_FILE *fp = is_gzipped != 0 ? (struct _IO_FILE *)(void *)0 : (struct _IO_FILE *)top;
-  signed int tmp_if_expr$3;
-  signed int return_value_gzputc$1;
-  signed int return_value_fputc$2;
+  signed int tmp_if_expr_3;
+  signed int return_value_gzputc_1;
+  signed int return_value_fputc_2;
   if(!(is_gzipped == 0))
   {
-    return_value_gzputc$1=gzputc(gzfp, prompt);
-    tmp_if_expr$3 = (signed int)(return_value_gzputc$1 == -1);
+    return_value_gzputc_1=gzputc(gzfp, prompt);
+    tmp_if_expr_3 = (signed int)(return_value_gzputc_1 == -1);
   }
 
   else
   {
-    return_value_fputc$2=fputc(prompt, fp);
-    tmp_if_expr$3 = (signed int)(return_value_fputc$2 == -1);
+    return_value_fputc_2=fputc(prompt, fp);
+    tmp_if_expr_3 = (signed int)(return_value_fputc_2 == -1);
   }
-  if(!(tmp_if_expr$3 == 0))
+  if(!(tmp_if_expr_3 == 0))
     return 11;
 
   else
@@ -14768,9 +14768,9 @@ static signed int fprintSeqFastqSequence(void *top, unsigned char is_gzipped, co
       if(!(is_gzipped == 0))
       {
         gzputs(gzfp, sp->basep);
-        signed int return_value_gzputc$1;
-        return_value_gzputc$1=gzputc(gzfp, 10);
-        if(return_value_gzputc$1 == -1)
+        signed int return_value_gzputc_1;
+        return_value_gzputc_1=gzputc(gzfp, 10);
+        if(return_value_gzputc_1 == -1)
           return 11;
 
       }
@@ -14778,9 +14778,9 @@ static signed int fprintSeqFastqSequence(void *top, unsigned char is_gzipped, co
       else
       {
         fputs(sp->basep, fp);
-        signed int return_value_fputc$2;
-        return_value_fputc$2=fputc(10, fp);
-        if(return_value_fputc$2 == -1)
+        signed int return_value_fputc_2;
+        return_value_fputc_2=fputc(10, fp);
+        if(return_value_fputc_2 == -1)
           return 11;
 
       }
@@ -14796,9 +14796,9 @@ static signed int fprintSeqFastqSequence(void *top, unsigned char is_gzipped, co
         if(!(is_gzipped == 0))
         {
           gzputs(gzfp, buf);
-          signed int return_value_gzputc$3;
-          return_value_gzputc$3=gzputc(gzfp, 10);
-          if(return_value_gzputc$3 == -1)
+          signed int return_value_gzputc_3;
+          return_value_gzputc_3=gzputc(gzfp, 10);
+          if(return_value_gzputc_3 == -1)
             return 11;
 
         }
@@ -14806,9 +14806,9 @@ static signed int fprintSeqFastqSequence(void *top, unsigned char is_gzipped, co
         else
         {
           fputs(buf, fp);
-          signed int return_value_fputc$4;
-          return_value_fputc$4=fputc(10, fp);
-          if(return_value_fputc$4 == -1)
+          signed int return_value_fputc_4;
+          return_value_fputc_4=fputc(10, fp);
+          if(return_value_fputc_4 == -1)
             return 11;
 
         }
@@ -14904,9 +14904,9 @@ static signed int generateOFFSIVAL(struct _OFFSIVAL **oivr, signed int d_min, si
   struct SETUPOFFSIVALARG_ arg;
   resultSetGetNumberOfResultsInSegment(0, rsp);
   ((unsigned long int *)*oivr)[(signed long int)-1] = (unsigned long int)0;
-  signed int return_value_resultSetGetNumberOfResultsInSegment$1;
-  return_value_resultSetGetNumberOfResultsInSegment$1=resultSetGetNumberOfResultsInSegment(0, rsp);
-  if(!(return_value_resultSetGetNumberOfResultsInSegment$1 >= 1))
+  signed int return_value_resultSetGetNumberOfResultsInSegment_1;
+  return_value_resultSetGetNumberOfResultsInSegment_1=resultSetGetNumberOfResultsInSegment(0, rsp);
+  if(!(return_value_resultSetGetNumberOfResultsInSegment_1 >= 1))
     return 0;
 
   else
@@ -14970,10 +14970,10 @@ static signed int getHitInfoMaxRank(unsigned int *n, unsigned int mincover, unsi
   unsigned int nmax;
   unsigned int ntot;
   unsigned int cover;
-  unsigned int tmp_post$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  unsigned int tmp_if_expr$4;
+  unsigned int tmp_post_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  unsigned int tmp_if_expr_4;
   if(!(hip->n_seeds >= 1u) || !(maxcover >= mincover))
     return 47;
 
@@ -14999,9 +14999,9 @@ static signed int getHitInfoMaxRank(unsigned int *n, unsigned int mincover, unsi
       {
         unsigned int ix = hip->sidxp[(signed long int)i];
         f = (signed short int)((hip->seedp + (signed long int)ix)->qoffs % (unsigned int)nskip);
-        tmp_post$1 = hip->countp[(signed long int)f];
+        tmp_post_1 = hip->countp[(signed long int)f];
         hip->countp[(signed long int)f] = hip->countp[(signed long int)f] + 1u;
-        hip->framep[(signed long int)f][(signed long int)tmp_post$1] = i;
+        hip->framep[(signed long int)f][(signed long int)tmp_post_1] = i;
       }
       nmax = (unsigned int)0;
       ntot = hip->nhitqual_sortkeyp[(signed long int)0];
@@ -15025,20 +15025,20 @@ static signed int getHitInfoMaxRank(unsigned int *n, unsigned int mincover, unsi
             if(maxcover >= cover && !(i >= imax))
             {
               if(!(cover >= mincover))
-                tmp_if_expr$2 = (_Bool)1;
+                tmp_if_expr_2 = (_Bool)1;
 
               else
-                tmp_if_expr$2 = ixp[(signed long int)i] <= *n ? (_Bool)1 : (_Bool)0;
-              tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_2 = ixp[(signed long int)i] <= *n ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$3 = (_Bool)0;
-            if(!tmp_if_expr$3)
+              tmp_if_expr_3 = (_Bool)0;
+            if(!tmp_if_expr_3)
               break;
 
-            unsigned int getHitInfoMaxRank$$1$$4$$1$$1$$1$$ix = hip->sidxp[(signed long int)ixp[(signed long int)i]];
-            const struct _SEED *sp = hip->seedp + (signed long int)getHitInfoMaxRank$$1$$4$$1$$1$$1$$ix;
+            unsigned int getHitInfoMaxRank__1__4__1__1__1__ix = hip->sidxp[(signed long int)ixp[(signed long int)i]];
+            const struct _SEED *sp = hip->seedp + (signed long int)getHitInfoMaxRank__1__4__1__1__1__ix;
             unsigned int q = sp->qoffs;
             for( ; !(q >= sp->qoffs + (unsigned int)ktup + 4294967295u); q = q + 1u)
               if(qbufp[(signed long int)q] == 0)
@@ -15063,11 +15063,11 @@ static signed int getHitInfoMaxRank(unsigned int *n, unsigned int mincover, unsi
       if(!(nmax >= 3u))
       {
         if(hip->n_seeds >= 4u)
-          tmp_if_expr$4 = (unsigned int)3;
+          tmp_if_expr_4 = (unsigned int)3;
 
         else
-          tmp_if_expr$4 = hip->n_seeds;
-        *n = tmp_if_expr$4;
+          tmp_if_expr_4 = hip->n_seeds;
+        *n = tmp_if_expr_4;
       }
 
       else
@@ -15083,35 +15083,35 @@ static signed int getMATEPAIRcbf_InnerLoop(signed int *errcode, void *argp, cons
   struct GETMATEPAIRARG_ *p = (struct GETMATEPAIRARG_ *)argp;
   struct _ResultPairs *pairp = p->pairp;
   struct _MATEPAIR *mp;
-  signed short int return_value_resultGetSWRank$1;
-  return_value_resultGetSWRank$1=resultGetSWRank(rp);
-  unsigned long int tmp_post$3;
-  unsigned long int tmp_post$4;
-  if(!((signed int)p->max_rankB >= (signed int)return_value_resultGetSWRank$1))
+  signed short int return_value_resultGetSWRank_1;
+  return_value_resultGetSWRank_1=resultGetSWRank(rp);
+  unsigned long int tmp_post_3;
+  unsigned long int tmp_post_4;
+  if(!((signed int)p->max_rankB >= (signed int)return_value_resultGetSWRank_1))
     return 1;
 
   else
   {
     if(((unsigned long int *)pairp->mpr)[-1l] >= ((unsigned long int *)pairp->mpr)[-2l])
     {
-      void *return_value_arrayRealloc$2;
-      return_value_arrayRealloc$2=arrayRealloc((void *)pairp->mpr, (unsigned long int)0, (char)0, "../src/resultpairs.c", 374);
-      mp = (struct _MATEPAIR *)return_value_arrayRealloc$2;
+      void *return_value_arrayRealloc_2;
+      return_value_arrayRealloc_2=arrayRealloc((void *)pairp->mpr, (unsigned long int)0, (char)0, "../src/resultpairs.c", 374);
+      mp = (struct _MATEPAIR *)return_value_arrayRealloc_2;
       if(!(mp == ((struct _MATEPAIR *)NULL)))
       {
         pairp->mpr = mp;
-        tmp_post$3 = ((unsigned long int *)pairp->mpr)[(signed long int)-1];
+        tmp_post_3 = ((unsigned long int *)pairp->mpr)[(signed long int)-1];
         ((unsigned long int *)pairp->mpr)[(signed long int)-1] = ((unsigned long int *)pairp->mpr)[(signed long int)-1] + 1ul;
-        mp = pairp->mpr + (signed long int)tmp_post$3;
+        mp = pairp->mpr + (signed long int)tmp_post_3;
       }
 
     }
 
     else
     {
-      tmp_post$4 = ((unsigned long int *)pairp->mpr)[(signed long int)-1];
+      tmp_post_4 = ((unsigned long int *)pairp->mpr)[(signed long int)-1];
       ((unsigned long int *)pairp->mpr)[(signed long int)-1] = ((unsigned long int *)pairp->mpr)[(signed long int)-1] + 1ul;
-      mp = pairp->mpr + (signed long int)tmp_post$4;
+      mp = pairp->mpr + (signed long int)tmp_post_4;
     }
     if(mp == ((struct _MATEPAIR *)NULL))
     {
@@ -15130,9 +15130,9 @@ static signed int getMATEPAIRcbf_InnerLoop(signed int *errcode, void *argp, cons
       mp->flag=resultCalcInsertSize(&mp->ins, (unsigned char)1, mp->ap, mp->bp);
       if(!((4 & (signed int)mp->flag) == 0))
       {
-        unsigned char return_value_testProperPair$5;
-        return_value_testProperPair$5=testProperPair(mp->ins, mp->flag, pairp->dmin, pairp->dmax, p->pairlibcode);
-        mp->mapflg = (unsigned char)((signed int)mp->mapflg | (signed int)return_value_testProperPair$5);
+        unsigned char return_value_testProperPair_5;
+        return_value_testProperPair_5=testProperPair(mp->ins, mp->flag, pairp->dmin, pairp->dmax, p->pairlibcode);
+        mp->mapflg = (unsigned char)((signed int)mp->mapflg | (signed int)return_value_testProperPair_5);
         if(!((8 & (signed int)mp->mapflg) == 0))
         {
           pairp->n_within = pairp->n_within + 1;
@@ -15161,9 +15161,9 @@ static signed int getMATEPAIRcbf_InnerLoop(signed int *errcode, void *argp, cons
 static signed int getMATEPAIRcbf_OuterLoop(signed int *errcode, void *argp, const struct _RESULT *rp)
 {
   struct GETMATEPAIRARG_ *p = (struct GETMATEPAIRARG_ *)argp;
-  signed short int return_value_resultGetSWRank$1;
-  return_value_resultGetSWRank$1=resultGetSWRank(rp);
-  if(!((signed int)p->max_rankA >= (signed int)return_value_resultGetSWRank$1))
+  signed short int return_value_resultGetSWRank_1;
+  return_value_resultGetSWRank_1=resultGetSWRank(rp);
+  if(!((signed int)p->max_rankA >= (signed int)return_value_resultGetSWRank_1))
     return 1;
 
   else
@@ -15221,13 +15221,13 @@ static unsigned char getNumberOfTopSwatRESULTs(signed short int *n_best, struct 
   signed short int nb;
   signed short int n = (signed short int)((unsigned long int *)rspp)[(signed long int)-1];
   nb = n;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((signed int)n >= 2))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = rspp[(signed long int)1]->swatscor != rspp[(signed long int)0]->swatscor ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = rspp[(signed long int)1]->swatscor != rspp[(signed long int)0]->swatscor ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     rv = (unsigned char)1;
 
   else
@@ -15263,13 +15263,13 @@ static signed int getProperMATEPAIRcbf(signed int *errcode, void *argp, const st
   unsigned short int status;
   struct GETPROPERMATEPAIRARG_ *p = (struct GETPROPERMATEPAIRARG_ *)argp;
   struct _ResultPairs * const pairp = p->pairp;
-  signed short int return_value_resultGetSWRank$1;
-  return_value_resultGetSWRank$1=resultGetSWRank(rp);
-  unsigned long int tmp_post$3;
-  unsigned long int tmp_post$4;
-  signed int tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  if(!((signed int)p->max_rank >= (signed int)return_value_resultGetSWRank$1))
+  signed short int return_value_resultGetSWRank_1;
+  return_value_resultGetSWRank_1=resultGetSWRank(rp);
+  unsigned long int tmp_post_3;
+  unsigned long int tmp_post_4;
+  signed int tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  if(!((signed int)p->max_rank >= (signed int)return_value_resultGetSWRank_1))
     return 1;
 
   else
@@ -15335,24 +15335,24 @@ static signed int getProperMATEPAIRcbf(signed int *errcode, void *argp, const st
 
                 if(((unsigned long int *)pairp->mpr)[-1l] >= ((unsigned long int *)pairp->mpr)[-2l])
                 {
-                  void *return_value_arrayRealloc$2;
-                  return_value_arrayRealloc$2=arrayRealloc((void *)pairp->mpr, (unsigned long int)0, (char)0, "../src/resultpairs.c", 329);
-                  mp = (struct _MATEPAIR *)return_value_arrayRealloc$2;
+                  void *return_value_arrayRealloc_2;
+                  return_value_arrayRealloc_2=arrayRealloc((void *)pairp->mpr, (unsigned long int)0, (char)0, "../src/resultpairs.c", 329);
+                  mp = (struct _MATEPAIR *)return_value_arrayRealloc_2;
                   if(!(mp == ((struct _MATEPAIR *)NULL)))
                   {
                     pairp->mpr = mp;
-                    tmp_post$3 = ((unsigned long int *)pairp->mpr)[(signed long int)-1];
+                    tmp_post_3 = ((unsigned long int *)pairp->mpr)[(signed long int)-1];
                     ((unsigned long int *)pairp->mpr)[(signed long int)-1] = ((unsigned long int *)pairp->mpr)[(signed long int)-1] + 1ul;
-                    mp = pairp->mpr + (signed long int)tmp_post$3;
+                    mp = pairp->mpr + (signed long int)tmp_post_3;
                   }
 
                 }
 
                 else
                 {
-                  tmp_post$4 = ((unsigned long int *)pairp->mpr)[(signed long int)-1];
+                  tmp_post_4 = ((unsigned long int *)pairp->mpr)[(signed long int)-1];
                   ((unsigned long int *)pairp->mpr)[(signed long int)-1] = ((unsigned long int *)pairp->mpr)[(signed long int)-1] + 1ul;
-                  mp = pairp->mpr + (signed long int)tmp_post$4;
+                  mp = pairp->mpr + (signed long int)tmp_post_4;
                 }
                 if(mp == ((struct _MATEPAIR *)NULL))
                 {
@@ -15368,17 +15368,17 @@ static signed int getProperMATEPAIRcbf(signed int *errcode, void *argp, const st
                 mp->mapflg = mp->mapflg | (unsigned char)(1 | 2);
                 mp->mscor = 0;
                 if(!(mp->ins >= 0))
-                  tmp_if_expr$5 = -1 * mp->ins;
+                  tmp_if_expr_5 = -1 * mp->ins;
 
                 else
-                  tmp_if_expr$5 = mp->ins;
-                isiz = tmp_if_expr$5;
+                  tmp_if_expr_5 = mp->ins;
+                isiz = tmp_if_expr_5;
                 if(!(isiz >= pairp->dmin))
-                  tmp_if_expr$6 = (_Bool)1;
+                  tmp_if_expr_6 = (_Bool)1;
 
                 else
-                  tmp_if_expr$6 = isiz > pairp->dmax ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$6)
+                  tmp_if_expr_6 = isiz > pairp->dmax ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_6)
                   ((unsigned long int *)pairp->mpr)[(signed long int)-1] = ((unsigned long int *)pairp->mpr)[(signed long int)-1] - 1ul;
 
                 if(((unsigned long int *)pairp->mpr)[-1l] >= (unsigned long int)p->maxnum)
@@ -15454,7 +15454,7 @@ signed int hashAddToHitFilter(struct _HashHitFilter *hhfp, unsigned int lo, unsi
 {
   signed int errcode;
   struct _FILTERIVAL *hp;
-  signed short int tmp_post$1;
+  signed short int tmp_post_1;
   if((signed int)hhfp->num >= (signed int)hhfp->n_alloc)
   {
     errcode=reallocHitFilter(hhfp, (signed short int)((signed int)hhfp->num + 1));
@@ -15469,9 +15469,9 @@ signed int hashAddToHitFilter(struct _HashHitFilter *hhfp, unsigned int lo, unsi
 
   __CPROVER_DUMP_L1:
     ;
-    tmp_post$1 = hhfp->num;
+    tmp_post_1 = hhfp->num;
     hhfp->num = hhfp->num + 1;
-    hp = hhfp->ivp + (signed long int)tmp_post$1;
+    hp = hhfp->ivp + (signed long int)tmp_post_1;
     hp->upper = hi;
     hp->lower = lo;
     return 0;
@@ -15496,7 +15496,7 @@ unsigned int hashCalcHitInfoCoverDeficit(const struct _HashHitInfo *hip)
   unsigned int d;
   const unsigned char * const qmaskp = hip->qmaskp;
   const unsigned char ktup = hip->ktup;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((4 & (signed int)hip->status) == 0))
   {
     unsigned int cover;
@@ -15522,11 +15522,11 @@ unsigned int hashCalcHitInfoCoverDeficit(const struct _HashHitInfo *hip)
         do
         {
           if(!(i >= imax))
-            tmp_if_expr$1 = ixp[(signed long int)i] < hip->seed_rank ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = ixp[(signed long int)i] < hip->seed_rank ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(!tmp_if_expr$1)
+            tmp_if_expr_1 = (_Bool)0;
+          if(!tmp_if_expr_1)
             break;
 
           ix = hip->sidxp[(signed long int)ixp[(signed long int)i]];
@@ -15673,10 +15673,10 @@ signed int hashCheckHitList(const struct _HashHitList *hlp, const struct _SeqFas
   signed int j;
   signed int errcode;
   struct _SeqFastq *ucp = (struct _SeqFastq *)(void *)0;
-  const char *tmp_post$1;
-  const char *tmp_post$2;
-  const char *tmp_post$3;
-  const char *tmp_post$4;
+  const char *tmp_post_1;
+  const char *tmp_post_2;
+  const char *tmp_post_3;
+  const char *tmp_post_4;
   if((2 & (signed int)hlp->status) == 0)
     return 35;
 
@@ -15745,11 +15745,11 @@ signed int hashCheckHitList(const struct _HashHitList *hlp, const struct _SeqFas
                 k = (unsigned char)0;
                 for( ; !((signed int)k >= (signed int)ktup); k = k + 1)
                 {
-                  tmp_post$1 = qdp;
+                  tmp_post_1 = qdp;
                   qdp = qdp - 1l;
-                  tmp_post$2 = sdp;
+                  tmp_post_2 = sdp;
                   sdp = sdp + 1l;
-                  if(!((3 & (signed int)*tmp_post$1) == ((3 ^ (signed int)*tmp_post$2) & 3)))
+                  if(!((3 & (signed int)*tmp_post_1) == ((3 ^ (signed int)*tmp_post_2) & 3)))
                     return -1;
 
                 }
@@ -15761,11 +15761,11 @@ signed int hashCheckHitList(const struct _HashHitList *hlp, const struct _SeqFas
                 k = (unsigned char)0;
                 for( ; !((signed int)k >= (signed int)ktup); k = k + 1)
                 {
-                  tmp_post$3 = qdp;
+                  tmp_post_3 = qdp;
                   qdp = qdp + 1l;
-                  tmp_post$4 = sdp;
+                  tmp_post_4 = sdp;
                   sdp = sdp + 1l;
-                  if(!((3 & (signed int)*tmp_post$3) == (3 & (signed int)*tmp_post$4)))
+                  if(!((3 & (signed int)*tmp_post_3) == (3 & (signed int)*tmp_post_4)))
                     return -1;
 
                 }
@@ -15890,13 +15890,13 @@ signed int hashCollectHitsUsingCutoff(struct _HashHitList *hlp, unsigned int max
   unsigned int q;
   unsigned int qo;
   unsigned int n_seeds;
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   if(!(hip->seed_rank == 0u))
-    tmp_if_expr$1 = hip->seed_rank;
+    tmp_if_expr_1 = hip->seed_rank;
 
   else
-    tmp_if_expr$1 = hip->n_seeds;
-  n_seeds = tmp_if_expr$1;
+    tmp_if_expr_1 = hip->n_seeds;
+  n_seeds = tmp_if_expr_1;
   const unsigned long int offbit = (unsigned long int)1 << 31 + 1;
   unsigned long int *dp;
   const struct _SEED *sp;
@@ -15976,9 +15976,9 @@ signed int hashCollectHitsUsingCutoff(struct _HashHitList *hlp, unsigned int max
 struct _HashHitFilter * hashCreateHitFilter(signed short int blocksiz)
 {
   struct _HashHitFilter *p;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _HashHitFilter) /*16ul*/ , "hashhit.c", 1945);
-  p = (struct _HashHitFilter *)return_value_ecalloc$1;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _HashHitFilter) /*16ul*/ , "hashhit.c", 1945);
+  p = (struct _HashHitFilter *)return_value_ecalloc_1;
   if(p == ((struct _HashHitFilter *)NULL))
     return ((struct _HashHitFilter *)NULL);
 
@@ -15987,9 +15987,9 @@ struct _HashHitFilter * hashCreateHitFilter(signed short int blocksiz)
     if(!((signed int)blocksiz >= 1))
       blocksiz = (signed short int)1024;
 
-    void *return_value_ecalloc$2;
-    return_value_ecalloc$2=ecalloc((unsigned long int)blocksiz, sizeof(struct _FILTERIVAL) /*8ul*/ , "hashhit.c", 1949);
-    p->ivp = (struct _FILTERIVAL *)return_value_ecalloc$2;
+    void *return_value_ecalloc_2;
+    return_value_ecalloc_2=ecalloc((unsigned long int)blocksiz, sizeof(struct _FILTERIVAL) /*8ul*/ , "hashhit.c", 1949);
+    p->ivp = (struct _FILTERIVAL *)return_value_ecalloc_2;
     if(p->ivp == ((struct _FILTERIVAL *)NULL))
     {
       hashDeleteHitFilter(p);
@@ -16013,15 +16013,15 @@ struct _HashHitInfo * hashCreateHitInfo(signed int blksz, const struct _HashTabl
   struct _HashHitInfo *p;
   unsigned int *sp;
   signed int dblk;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _HashHitInfo) /*104ul*/ , "hashhit.c", 906);
-  p = (struct _HashHitInfo *)return_value_ecalloc$1;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$16;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _HashHitInfo) /*104ul*/ , "hashhit.c", 906);
+  p = (struct _HashHitInfo *)return_value_ecalloc_1;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_16;
   if(p == ((struct _HashHitInfo *)NULL))
     return ((struct _HashHitInfo *)NULL);
 
@@ -16030,42 +16030,42 @@ struct _HashHitInfo * hashCreateHitInfo(signed int blksz, const struct _HashTabl
     if(!(blksz >= 1))
       blksz = 512;
 
-    void *return_value_ecalloc$2;
-    return_value_ecalloc$2=ecalloc((unsigned long int)blksz, sizeof(unsigned char) /*1ul*/ , "hashhit.c", 910);
-    p->qmaskp = (unsigned char *)return_value_ecalloc$2;
-    void *return_value_ecalloc$3;
-    return_value_ecalloc$3=ecalloc((unsigned long int)blksz, sizeof(unsigned char) /*1ul*/ , "hashhit.c", 911);
-    p->qbufp = (unsigned char *)return_value_ecalloc$3;
-    void *return_value_ecalloc$4;
-    return_value_ecalloc$4=ecalloc((unsigned long int)blksz, sizeof(unsigned int) /*4ul*/ , "hashhit.c", 912);
-    p->sidxp = (unsigned int *)return_value_ecalloc$4;
-    void *return_value_ecalloc$5;
-    return_value_ecalloc$5=ecalloc((unsigned long int)blksz, sizeof(unsigned int) /*4ul*/ , "hashhit.c", 913);
-    p->nhitqual_sortkeyp = (unsigned int *)return_value_ecalloc$5;
-    void *return_value_ecalloc$6;
-    return_value_ecalloc$6=ecalloc((unsigned long int)blksz, sizeof(struct _SEED) /*16ul*/ , "hashhit.c", 914);
-    p->seedp = (struct _SEED *)return_value_ecalloc$6;
+    void *return_value_ecalloc_2;
+    return_value_ecalloc_2=ecalloc((unsigned long int)blksz, sizeof(unsigned char) /*1ul*/ , "hashhit.c", 910);
+    p->qmaskp = (unsigned char *)return_value_ecalloc_2;
+    void *return_value_ecalloc_3;
+    return_value_ecalloc_3=ecalloc((unsigned long int)blksz, sizeof(unsigned char) /*1ul*/ , "hashhit.c", 911);
+    p->qbufp = (unsigned char *)return_value_ecalloc_3;
+    void *return_value_ecalloc_4;
+    return_value_ecalloc_4=ecalloc((unsigned long int)blksz, sizeof(unsigned int) /*4ul*/ , "hashhit.c", 912);
+    p->sidxp = (unsigned int *)return_value_ecalloc_4;
+    void *return_value_ecalloc_5;
+    return_value_ecalloc_5=ecalloc((unsigned long int)blksz, sizeof(unsigned int) /*4ul*/ , "hashhit.c", 913);
+    p->nhitqual_sortkeyp = (unsigned int *)return_value_ecalloc_5;
+    void *return_value_ecalloc_6;
+    return_value_ecalloc_6=ecalloc((unsigned long int)blksz, sizeof(struct _SEED) /*16ul*/ , "hashhit.c", 914);
+    p->seedp = (struct _SEED *)return_value_ecalloc_6;
     if(!(p->qmaskp == ((unsigned char *)NULL)))
-      tmp_if_expr$7 = p->qbufp != ((unsigned char *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_7 = p->qbufp != ((unsigned char *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    if(tmp_if_expr$7)
-      tmp_if_expr$8 = p->sidxp != ((unsigned int *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_7 = (_Bool)0;
+    if(tmp_if_expr_7)
+      tmp_if_expr_8 = p->sidxp != ((unsigned int *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    if(tmp_if_expr$8)
-      tmp_if_expr$9 = p->nhitqual_sortkeyp != ((unsigned int *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_8 = (_Bool)0;
+    if(tmp_if_expr_8)
+      tmp_if_expr_9 = p->nhitqual_sortkeyp != ((unsigned int *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$9 = (_Bool)0;
-    if(tmp_if_expr$9)
-      tmp_if_expr$10 = p->seedp != ((struct _SEED *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_9 = (_Bool)0;
+    if(tmp_if_expr_9)
+      tmp_if_expr_10 = p->seedp != ((struct _SEED *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$10 = (_Bool)0;
-    if(!tmp_if_expr$10)
+      tmp_if_expr_10 = (_Bool)0;
+    if(!tmp_if_expr_10)
     {
       hashDeleteHitInfo(p);
       return ((struct _HashHitInfo *)NULL);
@@ -16076,29 +16076,29 @@ struct _HashHitInfo * hashCreateHitInfo(signed int blksz, const struct _HashTabl
       p->blksz = blksz;
       p->n_alloc = (unsigned long int)blksz;
       p->ktup=hashTableGetKtupLen(htp, &p->nskip);
-      void *return_value_ecalloc$11;
-      return_value_ecalloc$11=ecalloc((unsigned long int)p->nskip, sizeof(unsigned int) /*4ul*/ , "hashhit.c", 945);
-      p->coverp = (unsigned int *)return_value_ecalloc$11;
-      void *return_value_ecalloc$12;
-      return_value_ecalloc$12=ecalloc((unsigned long int)p->nskip, sizeof(unsigned int *) /*8ul*/ , "hashhit.c", 946);
-      p->framep = (unsigned int **)return_value_ecalloc$12;
-      void *return_value_ecalloc$13;
-      return_value_ecalloc$13=ecalloc((unsigned long int)p->nskip, sizeof(unsigned int) /*4ul*/ , "hashhit.c", 947);
-      p->countp = (unsigned int *)return_value_ecalloc$13;
-      void *return_value_ecalloc$14;
-      return_value_ecalloc$14=ecalloc((unsigned long int)(blksz + (signed int)p->nskip), sizeof(unsigned int) /*4ul*/ , "hashhit.c", 948);
-      sp = (unsigned int *)return_value_ecalloc$14;
+      void *return_value_ecalloc_11;
+      return_value_ecalloc_11=ecalloc((unsigned long int)p->nskip, sizeof(unsigned int) /*4ul*/ , "hashhit.c", 945);
+      p->coverp = (unsigned int *)return_value_ecalloc_11;
+      void *return_value_ecalloc_12;
+      return_value_ecalloc_12=ecalloc((unsigned long int)p->nskip, sizeof(unsigned int *) /*8ul*/ , "hashhit.c", 946);
+      p->framep = (unsigned int **)return_value_ecalloc_12;
+      void *return_value_ecalloc_13;
+      return_value_ecalloc_13=ecalloc((unsigned long int)p->nskip, sizeof(unsigned int) /*4ul*/ , "hashhit.c", 947);
+      p->countp = (unsigned int *)return_value_ecalloc_13;
+      void *return_value_ecalloc_14;
+      return_value_ecalloc_14=ecalloc((unsigned long int)(blksz + (signed int)p->nskip), sizeof(unsigned int) /*4ul*/ , "hashhit.c", 948);
+      sp = (unsigned int *)return_value_ecalloc_14;
       if(!(p->coverp == ((unsigned int *)NULL)))
-        tmp_if_expr$15 = p->framep != ((unsigned int **)NULL) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_15 = p->framep != ((unsigned int **)NULL) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$15 = (_Bool)0;
-      if(tmp_if_expr$15)
-        tmp_if_expr$16 = p->countp != ((unsigned int *)NULL) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_15 = (_Bool)0;
+      if(tmp_if_expr_15)
+        tmp_if_expr_16 = p->countp != ((unsigned int *)NULL) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$16 = (_Bool)0;
-      if(sp == ((unsigned int *)NULL) || !tmp_if_expr$16)
+        tmp_if_expr_16 = (_Bool)0;
+      if(sp == ((unsigned int *)NULL) || !tmp_if_expr_16)
       {
         hashDeleteHitInfo(p);
         return ((struct _HashHitInfo *)NULL);
@@ -16122,27 +16122,27 @@ struct _HashHitInfo * hashCreateHitInfo(signed int blksz, const struct _HashTabl
 struct _HashHitList * hashCreateHitList(signed int maxnhits)
 {
   struct _HashHitList *hlp = ((struct _HashHitList *)NULL);
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _HashHitList) /*56ul*/ , "hashhit.c", 1557);
-  hlp = (struct _HashHitList *)return_value_ecalloc$1;
-  _Bool tmp_if_expr$4;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _HashHitList) /*56ul*/ , "hashhit.c", 1557);
+  hlp = (struct _HashHitList *)return_value_ecalloc_1;
+  _Bool tmp_if_expr_4;
   if(!(hlp == ((struct _HashHitList *)NULL)))
   {
     if(!(maxnhits >= 8192))
       maxnhits = 8192;
 
-    void *return_value_ecalloc$2;
-    return_value_ecalloc$2=ecalloc((unsigned long int)maxnhits, sizeof(unsigned long int) /*8ul*/ , "hashhit.c", 1560);
-    hlp->sqdat = (unsigned long int *)return_value_ecalloc$2;
-    void *return_value_ecalloc$3;
-    return_value_ecalloc$3=ecalloc((unsigned long int)512, sizeof(char) /*1ul*/ , "hashhit.c", 1561);
-    hlp->qmask = (char *)return_value_ecalloc$3;
+    void *return_value_ecalloc_2;
+    return_value_ecalloc_2=ecalloc((unsigned long int)maxnhits, sizeof(unsigned long int) /*8ul*/ , "hashhit.c", 1560);
+    hlp->sqdat = (unsigned long int *)return_value_ecalloc_2;
+    void *return_value_ecalloc_3;
+    return_value_ecalloc_3=ecalloc((unsigned long int)512, sizeof(char) /*1ul*/ , "hashhit.c", 1561);
+    hlp->qmask = (char *)return_value_ecalloc_3;
     if(!(hlp->sqdat == ((unsigned long int *)NULL)))
-      tmp_if_expr$4 = hlp->qmask != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = hlp->qmask != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
       hlp->nhits = 0;
       hlp->nhits_max = maxnhits;
@@ -16240,13 +16240,13 @@ unsigned int hashHitInfoCalcHitNumbers(const struct _HashHitInfo *hhip, unsigned
   unsigned int i;
   unsigned int ns;
   unsigned int nr = (unsigned int)0;
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   if(hhip->seed_rank >= 1u)
-    tmp_if_expr$1 = hhip->seed_rank;
+    tmp_if_expr_1 = hhip->seed_rank;
 
   else
-    tmp_if_expr$1 = hhip->n_seeds;
-  ns = tmp_if_expr$1;
+    tmp_if_expr_1 = hhip->n_seeds;
+  ns = tmp_if_expr_1;
   i = (unsigned int)0;
   for( ; !(i >= ns); i = i + 1u)
     nr = nr + hhip->nhitqual_sortkeyp[(signed long int)i];
@@ -16342,30 +16342,30 @@ signed int hashSortHitInfo(struct _HashHitInfo *hhip)
 // file hashidx.c line 1000
 signed int hashTableCheckExtensive(struct _SeqFastq *sqbufp, const struct _HashTable *htp, const struct _SeqSet *ssp, const struct _SeqCodec *codecp)
 {
-  signed int tmp_if_expr$3;
-  signed int return_value_checkWordsInSeqSet$1;
-  signed int return_value_checkWordsInSeqSet$2;
+  signed int tmp_if_expr_3;
+  signed int return_value_checkWordsInSeqSet_1;
+  signed int return_value_checkWordsInSeqSet_2;
   if((signed int)htp->typ == 0)
   {
-    return_value_checkWordsInSeqSet$1=checkWordsInSeqSet(sqbufp, htp, ssp, codecp, checkPerfectHash);
-    tmp_if_expr$3 = return_value_checkWordsInSeqSet$1;
+    return_value_checkWordsInSeqSet_1=checkWordsInSeqSet(sqbufp, htp, ssp, codecp, checkPerfectHash);
+    tmp_if_expr_3 = return_value_checkWordsInSeqSet_1;
   }
 
   else
   {
-    return_value_checkWordsInSeqSet$2=checkWordsInSeqSet(sqbufp, htp, ssp, codecp, checkHashWithCollisions);
-    tmp_if_expr$3 = return_value_checkWordsInSeqSet$2;
+    return_value_checkWordsInSeqSet_2=checkWordsInSeqSet(sqbufp, htp, ssp, codecp, checkHashWithCollisions);
+    tmp_if_expr_3 = return_value_checkWordsInSeqSet_2;
   }
-  return tmp_if_expr$3;
+  return tmp_if_expr_3;
 }
 
 // hashTableCheckQuick
 // file hashidx.c line 1008
 signed int hashTableCheckQuick(struct _SeqFastq *sqbufp, const struct _HashTable *htp, const struct _SeqSet *ssp, const struct _SeqCodec *codecp)
 {
-  signed int tmp_if_expr$3;
-  signed int return_value_checkQuickPerfectHashIndex$1;
-  signed int return_value_checkQuickHashIndexWithCollisions$2;
+  signed int tmp_if_expr_3;
+  signed int return_value_checkQuickPerfectHashIndex_1;
+  signed int return_value_checkQuickHashIndexWithCollisions_2;
   if(!((signed int)htp->status == 2))
     return -1;
 
@@ -16373,16 +16373,16 @@ signed int hashTableCheckQuick(struct _SeqFastq *sqbufp, const struct _HashTable
   {
     if((signed int)htp->typ == 0)
     {
-      return_value_checkQuickPerfectHashIndex$1=checkQuickPerfectHashIndex(sqbufp, htp, ssp, codecp);
-      tmp_if_expr$3 = return_value_checkQuickPerfectHashIndex$1;
+      return_value_checkQuickPerfectHashIndex_1=checkQuickPerfectHashIndex(sqbufp, htp, ssp, codecp);
+      tmp_if_expr_3 = return_value_checkQuickPerfectHashIndex_1;
     }
 
     else
     {
-      return_value_checkQuickHashIndexWithCollisions$2=checkQuickHashIndexWithCollisions(sqbufp, htp, ssp, codecp);
-      tmp_if_expr$3 = return_value_checkQuickHashIndexWithCollisions$2;
+      return_value_checkQuickHashIndexWithCollisions_2=checkQuickHashIndexWithCollisions(sqbufp, htp, ssp, codecp);
+      tmp_if_expr_3 = return_value_checkQuickHashIndexWithCollisions_2;
     }
-    return tmp_if_expr$3;
+    return tmp_if_expr_3;
   }
 }
 
@@ -16391,16 +16391,16 @@ signed int hashTableCheckQuick(struct _SeqFastq *sqbufp, const struct _HashTable
 signed int hashTableCmp(const struct _HashTable *ap, const struct _HashTable *bp)
 {
   unsigned int i;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
   if(!(ap->nkeys == bp->nkeys))
   {
     printf("Tables have different key length: (A) %d, (b) %d\n", ap->wordlen, bp->wordlen);
@@ -16417,11 +16417,11 @@ signed int hashTableCmp(const struct _HashTable *ap, const struct _HashTable *bp
     else
     {
       if(!(ap->typ == bp->typ))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = ap->status != bp->status ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = ap->status != bp->status ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         printf("Tables differ in type or status.\n");
         return -1;
@@ -16445,46 +16445,46 @@ signed int hashTableCmp(const struct _HashTable *ap, const struct _HashTable *bp
         else
         {
           if(!(ap->nbits_key == bp->nbits_key))
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = ap->nbits_lo != bp->nbits_lo ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$2)
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_2 = ap->nbits_lo != bp->nbits_lo ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_2)
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = ap->keymask != bp->keymask ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$3)
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_3 = ap->keymask != bp->keymask ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_3)
+            tmp_if_expr_4 = (_Bool)1;
 
           else
-            tmp_if_expr$4 = ap->keymask_lo != bp->keymask_lo ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$4)
-            tmp_if_expr$5 = (_Bool)1;
+            tmp_if_expr_4 = ap->keymask_lo != bp->keymask_lo ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_4)
+            tmp_if_expr_5 = (_Bool)1;
 
           else
-            tmp_if_expr$5 = ap->keymask_hi != bp->keymask_hi ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$5)
-            tmp_if_expr$6 = (_Bool)1;
+            tmp_if_expr_5 = ap->keymask_hi != bp->keymask_hi ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_5)
+            tmp_if_expr_6 = (_Bool)1;
 
           else
-            tmp_if_expr$6 = ap->keymod != bp->keymod ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$6)
-            tmp_if_expr$7 = (_Bool)1;
+            tmp_if_expr_6 = ap->keymod != bp->keymod ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_6)
+            tmp_if_expr_7 = (_Bool)1;
 
           else
-            tmp_if_expr$7 = ap->wordmask != bp->wordmask ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$7)
-            tmp_if_expr$8 = (_Bool)1;
+            tmp_if_expr_7 = ap->wordmask != bp->wordmask ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_7)
+            tmp_if_expr_8 = (_Bool)1;
 
           else
-            tmp_if_expr$8 = ap->wordmask_lo != bp->wordmask_lo ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$8)
-            tmp_if_expr$9 = (_Bool)1;
+            tmp_if_expr_8 = ap->wordmask_lo != bp->wordmask_lo ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_8)
+            tmp_if_expr_9 = (_Bool)1;
 
           else
-            tmp_if_expr$9 = ap->wordmask_hi != bp->wordmask_hi ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$9)
+            tmp_if_expr_9 = ap->wordmask_hi != bp->wordmask_hi ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_9)
             return -1;
 
           else
@@ -16500,11 +16500,11 @@ signed int hashTableCmp(const struct _HashTable *ap, const struct _HashTable *bp
               for( ; !(i >= ap->nwords); i = i + 1u)
               {
                 if(!(ap->wordidx[(signed long int)i] == bp->wordidx[(signed long int)i]))
-                  tmp_if_expr$10 = (_Bool)1;
+                  tmp_if_expr_10 = (_Bool)1;
 
                 else
-                  tmp_if_expr$10 = ap->posidx[(signed long int)i] != bp->posidx[(signed long int)i] ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$10)
+                  tmp_if_expr_10 = ap->posidx[(signed long int)i] != bp->posidx[(signed long int)i] ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_10)
                   return -1;
 
               }
@@ -16536,9 +16536,9 @@ struct _HashTable * hashTableCreate(unsigned char wordlen, unsigned char nskip, 
 
     else
     {
-      void *return_value_ecalloc$1;
-      return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _HashTable) /*136ul*/ , "hashidx.c", 770);
-      htp = (struct _HashTable *)return_value_ecalloc$1;
+      void *return_value_ecalloc_1;
+      return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _HashTable) /*136ul*/ , "hashidx.c", 770);
+      htp = (struct _HashTable *)return_value_ecalloc_1;
       if(htp == ((struct _HashTable *)NULL))
         return (struct _HashTable *)(void *)0;
 
@@ -16565,9 +16565,9 @@ struct _HashTable * hashTableCreate(unsigned char wordlen, unsigned char nskip, 
         htp->npos = (unsigned int)htp->npos_alloc;
         htp->wordidx = (unsigned int *)(void *)0;
         htp->wordctr = (unsigned int *)(void *)0;
-        void *return_value_ecalloc$2;
-        return_value_ecalloc$2=ecalloc((unsigned long int)(htp->nkeys + (unsigned int)2), sizeof(unsigned int) /*4ul*/ , "hashidx.c", 794);
-        htp->idx = (unsigned int *)return_value_ecalloc$2;
+        void *return_value_ecalloc_2;
+        return_value_ecalloc_2=ecalloc((unsigned long int)(htp->nkeys + (unsigned int)2), sizeof(unsigned int) /*4ul*/ , "hashidx.c", 794);
+        htp->idx = (unsigned int *)return_value_ecalloc_2;
         if(htp->idx == ((unsigned int *)NULL))
         {
           hashTableDelete(htp);
@@ -16662,9 +16662,9 @@ unsigned int hashTableGetKtupleHits(unsigned int **posp, unsigned int *posidx, c
     unsigned int b;
     unsigned int a;
     word_hi = (unsigned int)((word & htp->wordmask_hi) >> (signed int)htp->nbits_lo);
-    unsigned int return_value_hash32mix$1;
-    return_value_hash32mix$1=hash32mix(word_hi);
-    key_hi = return_value_hash32mix$1 % htp->keymod;
+    unsigned int return_value_hash32mix_1;
+    return_value_hash32mix_1=hash32mix(word_hi);
+    key_hi = return_value_hash32mix_1 % htp->keymod;
     key = (unsigned int)((unsigned long int)(key_hi << (signed int)htp->nbits_lo) + (word & htp->wordmask_lo));
     b = htp->idx[(signed long int)(key + (unsigned int)1)];
     if(!(b >= 1u))
@@ -16725,9 +16725,9 @@ void hashTablePrintStats(struct _IO_FILE *fp, const struct _HashTable *htp)
   fprintf(fp, "# Number of word positions: %u\n", htp->npos);
   if((signed int)htp->typ == 1)
   {
-    signed int return_value_calcMaxWordNumPerKey$1;
-    return_value_calcMaxWordNumPerKey$1=calcMaxWordNumPerKey(&nkey_zero, htp);
-    maxperkey = (unsigned int)return_value_calcMaxWordNumPerKey$1;
+    signed int return_value_calcMaxWordNumPerKey_1;
+    return_value_calcMaxWordNumPerKey_1=calcMaxWordNumPerKey(&nkey_zero, htp);
+    maxperkey = (unsigned int)return_value_calcMaxWordNumPerKey_1;
     fprintf(fp, "# Number of different words:        %u\n", htp->nwords);
     fprintf(fp, "# Maximum number of words per key:  %i\n", maxperkey);
     fprintf(fp, "# Number of keys without words:     %u\n", nkey_zero);
@@ -16753,10 +16753,10 @@ struct _HashTable * hashTableRead(signed int *errcode, const char *filnam)
   struct _HashTable *htp = (struct _HashTable *)(void *)0;
   struct _IO_FILE *fp;
   fp=filioOpenForReading(errcode, &is_endianid, &totsiz, &typ, &version, &headsiz, header, filnam, HASHTABFIL_NAMEXT);
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
   if(!(*errcode == 0))
     return ((struct _HashTable *)NULL);
 
@@ -16782,30 +16782,30 @@ struct _HashTable * hashTableRead(signed int *errcode, const char *filnam)
     else
     {
       if(header[0l] >= 22u)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = header[(signed long int)1] > (unsigned int)255 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_1 = header[(signed long int)1] > (unsigned int)255 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
         if(version == 3u)
         {
           if(header[5l] >= 33u)
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = header[(signed long int)6] >= header[(signed long int)5] ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = header[(signed long int)6] >= header[(signed long int)5] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
+      if(tmp_if_expr_4)
       {
         *errcode = 33;
         fclose(fp);
@@ -16835,9 +16835,9 @@ struct _HashTable * hashTableRead(signed int *errcode, const char *filnam)
         {
           htp->npos = header[(signed long int)2];
           htp->maxpos = header[(signed long int)3];
-          void *return_value_ecalloc$5;
-          return_value_ecalloc$5=ecalloc((unsigned long int)htp->npos, sizeof(unsigned int) /*4ul*/ , "hashidx.c", 1308);
-          htp->pos = (unsigned int *)return_value_ecalloc$5;
+          void *return_value_ecalloc_5;
+          return_value_ecalloc_5=ecalloc((unsigned long int)htp->npos, sizeof(unsigned int) /*4ul*/ , "hashidx.c", 1308);
+          htp->pos = (unsigned int *)return_value_ecalloc_5;
           if(htp->pos == ((unsigned int *)NULL))
             *errcode = 2;
 
@@ -16850,9 +16850,9 @@ struct _HashTable * hashTableRead(signed int *errcode, const char *filnam)
               else
               {
                 htp->nwords = header[(signed long int)7];
-                void *return_value_ecalloc$6;
-                return_value_ecalloc$6=ecalloc((unsigned long int)((htp->nwords + (unsigned int)1) * (unsigned int)2), sizeof(unsigned int) /*4ul*/ , "hashidx.c", 1316);
-                htp->wordidx = (unsigned int *)return_value_ecalloc$6;
+                void *return_value_ecalloc_6;
+                return_value_ecalloc_6=ecalloc((unsigned long int)((htp->nwords + (unsigned int)1) * (unsigned int)2), sizeof(unsigned int) /*4ul*/ , "hashidx.c", 1316);
+                htp->wordidx = (unsigned int *)return_value_ecalloc_6;
                 if(htp->wordidx == ((unsigned int *)NULL))
                   *errcode = 2;
 
@@ -16892,9 +16892,9 @@ struct _HashTable * hashTableRead(signed int *errcode, const char *filnam)
 
           else
             *errcode = 33;
-          signed int return_value_ferror$7;
-          return_value_ferror$7=ferror(fp);
-          if(!(return_value_ferror$7 == 0))
+          signed int return_value_ferror_7;
+          return_value_ferror_7=ferror(fp);
+          if(!(return_value_ferror_7 == 0))
             *errcode = 14;
 
           if(is_endianid == 0)
@@ -16945,17 +16945,17 @@ signed int hashTableSetUp(struct _HashTable *htp, struct _SeqFastq *sqbufp, cons
   unsigned long int k;
   unsigned int tuplectr = (unsigned int)0;
   unsigned long int npos;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)htp->status == 0)
   {
     unsigned long int totlen;
     seqSetGetSeqNumAndTotLen(&totlen, ssp);
     if(!((signed int)htp->nskip >= 1))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (totlen + (unsigned long int)1) / (unsigned long int)htp->nskip > (unsigned long int)-1 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (totlen + (unsigned long int)1) / (unsigned long int)htp->nskip > (unsigned long int)-1 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return 47;
 
   }
@@ -16974,7 +16974,7 @@ signed int hashTableSetUp(struct _HashTable *htp, struct _SeqFastq *sqbufp, cons
   htp->idx = htp->idx + (signed long int)2;
   errcode=doAllWordsInSeqSet(&tuplectr, sqbufp, htp, ssp, ivp, codecp, (signed int)htp->typ == 0 ? countPerfectKey : countCollisionKey);
   htp->idx = htp->idx - (signed long int)2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(errcode == 0))
     return errcode;
 
@@ -17010,19 +17010,19 @@ signed int hashTableSetUp(struct _HashTable *htp, struct _SeqFastq *sqbufp, cons
       }
 
       if(htp->pos == ((unsigned int *)NULL))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = npos > htp->npos_alloc ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = npos > htp->npos_alloc ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
         unsigned long int n_alloc = (npos + (unsigned long int)1) / (unsigned long int)8192 + (unsigned long int)1;
         n_alloc = n_alloc * (unsigned long int)8192;
         if(htp->pos == ((unsigned int *)NULL))
         {
-          void *return_value_ecalloc$2;
-          return_value_ecalloc$2=ecalloc(n_alloc, sizeof(unsigned int) /*4ul*/ , "hashidx.c", 895);
-          htp->pos = (unsigned int *)return_value_ecalloc$2;
+          void *return_value_ecalloc_2;
+          return_value_ecalloc_2=ecalloc(n_alloc, sizeof(unsigned int) /*4ul*/ , "hashidx.c", 895);
+          htp->pos = (unsigned int *)return_value_ecalloc_2;
           if(htp->pos == ((unsigned int *)NULL))
             return 2;
 
@@ -17058,9 +17058,9 @@ signed int hashTableSetUp(struct _HashTable *htp, struct _SeqFastq *sqbufp, cons
       else
       {
         free((void *)htp->wordctr);
-        void *return_value_ecalloc$4;
-        return_value_ecalloc$4=ecalloc((unsigned long int)htp->nkeys, sizeof(unsigned int) /*4ul*/ , "hashidx.c", 919);
-        htp->wordctr = (unsigned int *)return_value_ecalloc$4;
+        void *return_value_ecalloc_4;
+        return_value_ecalloc_4=ecalloc((unsigned long int)htp->nkeys, sizeof(unsigned int) /*4ul*/ , "hashidx.c", 919);
+        htp->wordctr = (unsigned int *)return_value_ecalloc_4;
         if(htp->wordctr == ((unsigned int *)NULL))
           return 2;
 
@@ -17082,9 +17082,9 @@ signed int hashTableSetUp(struct _HashTable *htp, struct _SeqFastq *sqbufp, cons
           w = w + htp->wordctr[(signed long int)k];
         htp->nwords = w;
         free((void *)htp->wordidx);
-        void *return_value_ecalloc$5;
-        return_value_ecalloc$5=ecalloc((unsigned long int)((unsigned int)2 * (w + (unsigned int)2)), sizeof(unsigned int) /*4ul*/ , "hashidx.c", 941);
-        htp->wordidx = (unsigned int *)return_value_ecalloc$5;
+        void *return_value_ecalloc_5;
+        return_value_ecalloc_5=ecalloc((unsigned long int)((unsigned int)2 * (w + (unsigned int)2)), sizeof(unsigned int) /*4ul*/ , "hashidx.c", 941);
+        htp->wordidx = (unsigned int *)return_value_ecalloc_5;
         if(htp->wordidx == ((unsigned int *)NULL))
           return 2;
 
@@ -17181,9 +17181,9 @@ signed int hashTableWrite(const char *filnam, const struct _HashTable *htp)
         fwrite((const void *)htp->posidx, sizeof(unsigned int) /*4ul*/ , (unsigned long int)(htp->nwords + (unsigned int)1), fp);
       }
 
-      signed int return_value_ferror$1;
-      return_value_ferror$1=ferror(fp);
-      if(!(return_value_ferror$1 == 0))
+      signed int return_value_ferror_1;
+      return_value_ferror_1=ferror(fp);
+      if(!(return_value_ferror_1 == 0))
       {
         perror(HASHTABFIL_WRITERRMSG);
         errcode = 11;
@@ -17220,10 +17220,10 @@ signed int infmtCheckReads(struct _InFmtReader *ifrp, struct _SeqFastq *sqbufAp,
 struct _InFmtReader * infmtCreateReader(signed int *errcode, const char *filnamA, const char *filnamB, const char *tmpdir, const unsigned char fmt)
 {
   struct _InFmtReader *p;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _InFmtReader) /*112ul*/ , "../src/infmt.c", 121);
-  p = (struct _InFmtReader *)return_value_ecalloc$1;
-  _Bool tmp_if_expr$2;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _InFmtReader) /*112ul*/ , "../src/infmt.c", 121);
+  p = (struct _InFmtReader *)return_value_ecalloc_1;
+  _Bool tmp_if_expr_2;
   if(p == ((struct _InFmtReader *)NULL))
     return p;
 
@@ -17245,11 +17245,11 @@ struct _InFmtReader * infmtCreateReader(signed int *errcode, const char *filnamA
       else
       {
         if(*errcode == 0)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = 6 == *errcode ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = 6 == *errcode ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
         {
           *errcode=openINFMTReaderAsSAMBAM(p, filnamA, tmpdir, (unsigned char)0);
           if(*errcode == 0)
@@ -17349,16 +17349,16 @@ signed int infmtRead(struct _InFmtReader *ifrp, struct _SeqFastq *sfqAp, struct 
             errcode=seqFastqRead(sfqBp, ifrp->sfBp);
             if(errcode == 0)
             {
-              signed int infmtRead$$1$$1$$1$$1$$erc;
-              infmtRead$$1$$1$$1$$1$$erc=seqIOstatus(ifrp->sfBp);
+              signed int infmtRead__1__1__1__1__erc;
+              infmtRead__1__1__1__1__erc=seqIOstatus(ifrp->sfBp);
               *isPair = (unsigned char)1;
-              if(!(infmtRead$$1$$1$$1$$1$$erc == 0))
+              if(!(infmtRead__1__1__1__1__erc == 0))
               {
-                if(infmtRead$$1$$1$$1$$1$$erc == 10)
+                if(infmtRead__1__1__1__1__erc == 10)
                 {
-                  signed int return_value_seqIOstatus$1;
-                  return_value_seqIOstatus$1=seqIOstatus(ifrp->sfAp);
-                  if(return_value_seqIOstatus$1 == 10)
+                  signed int return_value_seqIOstatus_1;
+                  return_value_seqIOstatus_1=seqIOstatus(ifrp->sfAp);
+                  if(return_value_seqIOstatus_1 == 10)
                     ifrp->errcode = 10;
 
                   else
@@ -17366,7 +17366,7 @@ signed int infmtRead(struct _InFmtReader *ifrp, struct _SeqFastq *sfqAp, struct 
                 }
 
                 else
-                  errcode = infmtRead$$1$$1$$1$$1$$erc;
+                  errcode = infmtRead__1__1__1__1__erc;
               }
 
             }
@@ -17468,28 +17468,28 @@ static signed int initALIBAND(struct _ALIBAND *abp, signed int l_edge, signed in
   abp->q_len = q_right < 0 || q_right >= q_len ? q_len : q_right + 1;
   abp->s_totlen = s_len;
   abp->q_totlen = q_len;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(s_left >= 1)
-    tmp_if_expr$1 = s_left < abp->s_len ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = s_left < abp->s_len ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  abp->s_left_orig = tmp_if_expr$1 ? s_left : 0;
+    tmp_if_expr_1 = (_Bool)0;
+  abp->s_left_orig = tmp_if_expr_1 ? s_left : 0;
   abp->s_left = abp->s_left_orig;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(q_left >= 1)
-    tmp_if_expr$2 = q_left < abp->q_len ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = q_left < abp->q_len ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  abp->q_left_orig = tmp_if_expr$2 ? q_left : 0;
+    tmp_if_expr_2 = (_Bool)0;
+  abp->q_left_orig = tmp_if_expr_2 ? q_left : 0;
   abp->q_left = abp->q_left_orig;
   abp->l_edge = l_edge;
   abp->l_edge_orig = abp->l_edge;
   abp->r_edge = r_edge;
   abp->r_edge_orig = abp->r_edge;
   abp->band_width = (r_edge - l_edge) + 1;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(abp->band_width >= 1))
   {
     abp->band_width = 0;
@@ -17504,11 +17504,11 @@ static signed int initALIBAND(struct _ALIBAND *abp, signed int l_edge, signed in
 
     abp->l_edge = abp->l_edge + abp->s_left;
     if(abp->l_edge >= abp->q_len)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = abp->r_edge_orig + abp->s_len <= abp->q_left ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = abp->r_edge_orig + abp->s_len <= abp->q_left ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
       return -1;
 
     abp->r_edge = abp->r_edge + abp->s_left;
@@ -17546,9 +17546,9 @@ static signed int initALITRACK(struct _ALITRACK *p, unsigned long int blksz, uns
   if(!(blksz >= 1ul))
     blksz = (unsigned long int)32768;
 
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc(blksz, sizeof(unsigned char) /*1ul*/ , "alignment.c", 442);
-  p->bdp = (unsigned char *)return_value_ecalloc$1;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc(blksz, sizeof(unsigned char) /*1ul*/ , "alignment.c", 442);
+  p->bdp = (unsigned char *)return_value_ecalloc_1;
   if(p->bdp == ((unsigned char *)NULL))
     return 2;
 
@@ -17571,7 +17571,7 @@ static signed int initARGBUFF(struct _ARGBUFF *fifop, unsigned char buftyp)
   signed int errcode;
   sem_init(&fifop->sema, 0, (unsigned int)0);
   fifop->buftyp = buftyp;
-  pthread_mutex_init(&fifop->mutex, (const union anonymous$0 *)(void *)0);
+  pthread_mutex_init(&fifop->mutex, (const union anonymous_0 *)(void *)0);
   errcode=pushARGBUFF(fifop, (struct _BUFFARG *)(void *)0);
   return errcode;
 }
@@ -17585,24 +17585,24 @@ static signed int initArgBlock(void *ap, const void *ip, signed short int argno)
   struct SmaltArgBlock_ *blockp = (struct SmaltArgBlock_ *)ap;
   const struct _SmaltMapConst *mcp = (const struct _SmaltMapConst *)ip;
   unsigned char prep_paired;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((64 & (signed int)mcp->rmapflg) == 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)mcp->inform == 2 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (signed int)mcp->inform == 2 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)mcp->inform == 3 ? (_Bool)1 : (_Bool)0;
-  prep_paired = (unsigned char)tmp_if_expr$2;
+    tmp_if_expr_2 = (signed int)mcp->inform == 3 ? (_Bool)1 : (_Bool)0;
+  prep_paired = (unsigned char)tmp_if_expr_2;
   blockp->argno = argno;
   blockp->n_iobf = (signed short int)0;
-  void *return_value_ecalloc$3;
-  return_value_ecalloc$3=ecalloc((unsigned long int)mcp->threadblksz, sizeof(struct _SmaltIOBuffArg) /*48ul*/ , "../src/smalt.c", 894);
-  blockp->iobfp = (struct _SmaltIOBuffArg *)return_value_ecalloc$3;
+  void *return_value_ecalloc_3;
+  return_value_ecalloc_3=ecalloc((unsigned long int)mcp->threadblksz, sizeof(struct _SmaltIOBuffArg) /*48ul*/ , "../src/smalt.c", 894);
+  blockp->iobfp = (struct _SmaltIOBuffArg *)return_value_ecalloc_3;
   if(blockp->iobfp == ((struct _SmaltIOBuffArg *)NULL))
   {
     errcode = 2;
@@ -17652,9 +17652,9 @@ static signed int initBAMHeader(struct _BamBam_BamWriter **bamwriterpp, struct _
           if(!(errcode == 0))
             break;
 
-          signed int return_value_BamBam_BamHeaderInfo_AddChromosome$1;
-          return_value_BamBam_BamHeaderInfo_AddChromosome$1=BamBam_BamHeaderInfo_AddChromosome(*headinfopp, sbufp->strp, (unsigned long int)chrlen);
-          if(!(return_value_BamBam_BamHeaderInfo_AddChromosome$1 == 0))
+          signed int return_value_BamBam_BamHeaderInfo_AddChromosome_1;
+          return_value_BamBam_BamHeaderInfo_AddChromosome_1=BamBam_BamHeaderInfo_AddChromosome(*headinfopp, sbufp->strp, (unsigned long int)chrlen);
+          if(!(return_value_BamBam_BamHeaderInfo_AddChromosome_1 == 0))
           {
             errcode = 87;
             break;
@@ -17680,9 +17680,9 @@ static signed int initHashOptions(struct _MenuOpt *menup)
 {
   struct _INDEXMENU *ip;
   free(menup->paramp);
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _INDEXMENU) /*2ul*/ , "../src/menu.c", 1110);
-  ip = (struct _INDEXMENU *)return_value_ecalloc$1;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _INDEXMENU) /*2ul*/ , "../src/menu.c", 1110);
+  ip = (struct _INDEXMENU *)return_value_ecalloc_1;
   if(ip == ((struct _INDEXMENU *)NULL))
     return 2;
 
@@ -17703,9 +17703,9 @@ static signed int initHitList(struct _HashHitList *hlp, const struct _HashHitInf
 {
   signed int errcode;
   unsigned long int target_size;
-  double return_value_log$1;
-  return_value_log$1=log((double)hip->qlen);
-  target_size = (unsigned long int)((double)hip->qlen * return_value_log$1 * (double)32);
+  double return_value_log_1;
+  return_value_log_1=log((double)hip->qlen);
+  target_size = (unsigned long int)((double)hip->qlen * return_value_log_1 * (double)32);
   hlp->qlen = hip->qlen;
   hlp->ktup = hip->ktup;
   hlp->nskip = hip->nskip;
@@ -17813,13 +17813,13 @@ static signed int initMapArgs(void *ap, const void *ip, signed short int threadn
   struct _SmaltMapArgs *map = (struct _SmaltMapArgs *)ap;
   const struct _SmaltMapConst *mcp = (const struct _SmaltMapConst *)ip;
   unsigned short int rmapflg = mcp->rmapflg;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)mcp->inform == 2)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)mcp->inform == 3 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)mcp->inform == 3 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     rmapflg = rmapflg | (unsigned short int)64;
 
   map->rmp=rmapCreate(mcp->htp, mcp->codecp, mcp->ssp, mcp->scormtxp, rmapflg);
@@ -17865,8 +17865,8 @@ static signed int initMapConst(struct _SmaltMapConst *smcp, const struct _MenuOp
 
   smcp->threadblksz = (signed short int)((signed int)nthreads > 0 ? (signed int)nthreads * 32 : 1);
   errcode=menuGetMapParams(menup, &indexnam, &smcp->nhitmax_tuple, &smcp->tupcovmin, &min_swatscor, &swatscordiff, &smcp->minbasq, &idmin, &seed, &smcp->readskip, &smcp->insert_min, &smcp->insert_max, &menuoutform, &smcp->oufilnam, &insfilnam, &pairtyp);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
   if(!(errcode == 0))
     return errcode;
 
@@ -17902,9 +17902,9 @@ static signed int initMapConst(struct _SmaltMapConst *smcp, const struct _MenuOp
               smcp->rsltouflg = smcp->rsltouflg | (unsigned char)8;
               if(!(seed >= 1))
               {
-                signed long int return_value_time$1;
-                return_value_time$1=time(((signed long int *)NULL));
-                srand48(return_value_time$1);
+                signed long int return_value_time_1;
+                return_value_time_1=time(((signed long int *)NULL));
+                srand48(return_value_time_1);
               }
 
               else
@@ -17927,11 +17927,11 @@ static signed int initMapConst(struct _SmaltMapConst *smcp, const struct _MenuOp
         if(!((16 & (signed int)smcp->menuflg) == 0))
         {
           if((signed int)smcp->inform == 1)
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = (signed int)smcp->inform == 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$2)
+            tmp_if_expr_2 = (signed int)smcp->inform == 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_2)
             smcp->rmapflg = smcp->rmapflg | (unsigned short int)64;
 
         }
@@ -17962,9 +17962,9 @@ static signed int initMapConst(struct _SmaltMapConst *smcp, const struct _MenuOp
 
         else
         {
-          unsigned char return_value_menuGetMapPenaltyScores$3;
-          return_value_menuGetMapPenaltyScores$3=menuGetMapPenaltyScores(menup, (signed char *)(void *)0, (signed char *)(void *)0, (signed char *)(void *)0, (signed char *)(void *)0);
-          if(!((signed int)return_value_menuGetMapPenaltyScores$3 == 0))
+          unsigned char return_value_menuGetMapPenaltyScores_3;
+          return_value_menuGetMapPenaltyScores_3=menuGetMapPenaltyScores(menup, (signed char *)(void *)0, (signed char *)(void *)0, (signed char *)(void *)0, (signed char *)(void *)0);
+          if(!((signed int)return_value_menuGetMapPenaltyScores_3 == 0))
           {
             signed char match;
             signed char subst;
@@ -17988,14 +17988,14 @@ static signed int initMapConst(struct _SmaltMapConst *smcp, const struct _MenuOp
 
           smcp->codecp=seqCodecCreate();
           if(smcp->codecp == ((struct _SeqCodec *)NULL))
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_4 = (_Bool)1;
 
           else
           {
             smcp->scormtxp=scoreCreateMatrix(smcp->codecp, smcp->scorpltyp);
-            tmp_if_expr$4 = !(smcp->scormtxp != ((struct _ScoreMatrix *)NULL)) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = !(smcp->scormtxp != ((struct _ScoreMatrix *)NULL)) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$4)
+          if(tmp_if_expr_4)
             return 2;
 
           else
@@ -18054,9 +18054,9 @@ static signed int initMapConst(struct _SmaltMapConst *smcp, const struct _MenuOp
 
                   else
                   {
-                    signed long int return_value_seqSetGetOffsets$5;
-                    return_value_seqSetGetOffsets$5=seqSetGetOffsets(smcp->ssp, (const unsigned long int **)(void *)0);
-                    if(!(return_value_seqSetGetOffsets$5 >= 1l))
+                    signed long int return_value_seqSetGetOffsets_5;
+                    return_value_seqSetGetOffsets_5=seqSetGetOffsets(smcp->ssp, (const unsigned long int **)(void *)0);
+                    if(!(return_value_seqSetGetOffsets_5 >= 1l))
                       smcp->rmapflg = smcp->rmapflg | (unsigned short int)16;
 
                     if(!((4 & (signed int)smcp->menuflg) == 0))
@@ -18100,9 +18100,9 @@ static signed int initMapOptions(struct _MenuOpt *menup)
   struct _MAPMENU *mp;
   signed int i;
   free(menup->paramp);
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _MAPMENU) /*112ul*/ , "../src/menu.c", 1127);
-  mp = (struct _MAPMENU *)return_value_ecalloc$1;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _MAPMENU) /*112ul*/ , "../src/menu.c", 1127);
+  mp = (struct _MAPMENU *)return_value_ecalloc_1;
   if(mp == ((struct _MAPMENU *)NULL))
     return 2;
 
@@ -18167,9 +18167,9 @@ static signed int initREPSTR(struct _REPSTR *rsp, signed int blksz)
     rsp->blksz = blksz;
     rsp->strl = (unsigned long int)0;
     rsp->n_alloc = (unsigned long int)0;
-    void *return_value_ecalloc$1;
-    return_value_ecalloc$1=ecalloc((unsigned long int)blksz, sizeof(char) /*1ul*/ , "../src/report.c", 410);
-    rsp->strp = (char *)return_value_ecalloc$1;
+    void *return_value_ecalloc_1;
+    return_value_ecalloc_1=ecalloc((unsigned long int)blksz, sizeof(char) /*1ul*/ , "../src/report.c", 410);
+    rsp->strp = (char *)return_value_ecalloc_1;
     if(rsp->strp == ((char *)NULL))
       return 2;
 
@@ -18224,13 +18224,13 @@ static signed int initSmaltOutput(void *op, const void *mp, signed short int thr
   const struct _SmaltMapConst *mcp = (const struct _SmaltMapConst *)mp;
   dop->threadno = threadno;
   dop->writerp=reportCreateWriter(&errcode, mcp->oufilnam, mcp->outform, mcp->oumodflg, mcp->ssp, mcp->prognam, mcp->progversion, mcp->cmdlin_argv, mcp->cmdlin_narg);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(errcode == 0)
-    tmp_if_expr$1 = 4 == (signed int)mcp->subprogtyp ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = 4 == (signed int)mcp->subprogtyp ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
   {
     dop->isamp=insCreateSample(2048);
     if(dop->isamp == ((struct _InsSample *)NULL))
@@ -18253,7 +18253,7 @@ static signed int initSmaltOutput(void *op, const void *mp, signed short int thr
 // file ../src/insert.h line 69
 signed int insAddSample(struct _InsSample *pInsSample, signed int insertsiz)
 {
-  unsigned long int tmp_post$1;
+  unsigned long int tmp_post_1;
   do
   {
     if(pInsSample->pSample->n >= pInsSample->pSample->n_alloc)
@@ -18268,9 +18268,9 @@ signed int insAddSample(struct _InsSample *pInsSample, signed int insertsiz)
       pInsSample->pSample->n_alloc = siz;
     }
 
-    tmp_post$1 = pInsSample->pSample->n;
+    tmp_post_1 = pInsSample->pSample->n;
     pInsSample->pSample->n = pInsSample->pSample->n + 1ul;
-    pInsSample->pSample->vp[(signed long int)tmp_post$1] = insertsiz;
+    pInsSample->pSample->vp[(signed long int)tmp_post_1] = insertsiz;
   }
   while((_Bool)0);
   return 0;
@@ -18281,27 +18281,27 @@ signed int insAddSample(struct _InsSample *pInsSample, signed int insertsiz)
 struct _InsHist * insCreateHisto(signed int iLen)
 {
   struct _InsHist *p;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _InsHist) /*72ul*/ , "../src/insert.c", 309);
-  p = (struct _InsHist *)return_value_ecalloc$1;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _InsHist) /*72ul*/ , "../src/insert.c", 309);
+  p = (struct _InsHist *)return_value_ecalloc_1;
   if(!(iLen >= 1))
     iLen = 128;
 
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(!(p == ((struct _InsHist *)NULL)))
   {
-    void *return_value_ecalloc$2;
-    return_value_ecalloc$2=ecalloc((unsigned long int)(2 * iLen), sizeof(signed int) /*4ul*/ , "../src/insert.c", 314);
-    p->pCounts = (signed int *)return_value_ecalloc$2;
-    void *return_value_ecalloc$3;
-    return_value_ecalloc$3=ecalloc((unsigned long int)iLen, sizeof(double) /*8ul*/ , "../src/insert.c", 315);
-    p->pKernelBuf = (double *)return_value_ecalloc$3;
+    void *return_value_ecalloc_2;
+    return_value_ecalloc_2=ecalloc((unsigned long int)(2 * iLen), sizeof(signed int) /*4ul*/ , "../src/insert.c", 314);
+    p->pCounts = (signed int *)return_value_ecalloc_2;
+    void *return_value_ecalloc_3;
+    return_value_ecalloc_3=ecalloc((unsigned long int)iLen, sizeof(double) /*8ul*/ , "../src/insert.c", 315);
+    p->pKernelBuf = (double *)return_value_ecalloc_3;
     if(!(p->pCounts == ((signed int *)NULL)))
-      tmp_if_expr$4 = p->pKernelBuf != ((double *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = p->pKernelBuf != ((double *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
       p->pSmoothCounts = p->pCounts + (signed long int)iLen;
       p->iSpan = iLen;
@@ -18324,29 +18324,29 @@ struct _InsHist * insCreateHisto(signed int iLen)
 struct _InsSample * insCreateSample(signed int blksz)
 {
   struct _InsSample *p;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _InsSample) /*16ul*/ , "../src/insert.c", 170);
-  p = (struct _InsSample *)return_value_ecalloc$1;
-  _Bool tmp_if_expr$4;
-  void *return_value_ecalloc$3;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _InsSample) /*16ul*/ , "../src/insert.c", 170);
+  p = (struct _InsSample *)return_value_ecalloc_1;
+  _Bool tmp_if_expr_4;
+  void *return_value_ecalloc_3;
   if(!(p == ((struct _InsSample *)NULL)))
   {
     do
     {
       unsigned long int siz = (unsigned long int)((unsigned long int)(blksz < 1) != 0ul ? 256 : blksz);
-      void *return_value_ecalloc$2;
-      return_value_ecalloc$2=ecalloc((unsigned long int)1, sizeof(struct V_int32_t_) /*32ul*/ , "../src/insert.c", 172);
-      p->pSample = (struct V_int32_t_ *)return_value_ecalloc$2;
+      void *return_value_ecalloc_2;
+      return_value_ecalloc_2=ecalloc((unsigned long int)1, sizeof(struct V_int32_t_) /*32ul*/ , "../src/insert.c", 172);
+      p->pSample = (struct V_int32_t_ *)return_value_ecalloc_2;
       if(!(p->pSample == ((struct V_int32_t_ *)NULL)))
       {
-        return_value_ecalloc$3=ecalloc(siz, sizeof(signed int) /*4ul*/ , "../src/insert.c", 172);
-        p->pSample->vp = (signed int *)return_value_ecalloc$3;
-        tmp_if_expr$4 = (signed int *)(void *)0 != p->pSample->vp ? (_Bool)1 : (_Bool)0;
+        return_value_ecalloc_3=ecalloc(siz, sizeof(signed int) /*4ul*/ , "../src/insert.c", 172);
+        p->pSample->vp = (signed int *)return_value_ecalloc_3;
+        tmp_if_expr_4 = (signed int *)(void *)0 != p->pSample->vp ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
       {
         p->pSample->n_blksz = siz;
         p->pSample->n_alloc = p->pSample->n_blksz;
@@ -18415,8 +18415,8 @@ signed int insGetHistoCount(signed int *totnum, signed int insiz, unsigned char 
 {
   signed int idx;
   signed int rv = 0;
-  _Bool tmp_if_expr$1;
-  signed int tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  signed int tmp_if_expr_2;
   if(insiz >= pHist->iInSizLo)
   {
     if(pHist->iInSizHi >= insiz)
@@ -18436,16 +18436,16 @@ signed int insGetHistoCount(signed int *totnum, signed int insiz, unsigned char 
 
         }
       if(!(is_smooth == 0))
-        tmp_if_expr$1 = (signed int)pHist->status == 2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)pHist->status == 2 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$2 = pHist->pSmoothCounts[(signed long int)idx];
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_2 = pHist->pSmoothCounts[(signed long int)idx];
 
       else
-        tmp_if_expr$2 = pHist->pCounts[(signed long int)idx];
-      rv = tmp_if_expr$2;
+        tmp_if_expr_2 = pHist->pCounts[(signed long int)idx];
+      rv = tmp_if_expr_2;
     }
 
   }
@@ -18463,14 +18463,14 @@ signed int insGetHistoCountCumulative(signed int *totnum, signed int insiz, unsi
   signed int i;
   signed int idx;
   signed int ccount = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(is_smooth == 0))
-    tmp_if_expr$1 = (signed int)pHist->status == 2 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)pHist->status == 2 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  is_smooth = (unsigned char)tmp_if_expr$1;
-  signed int tmp_if_expr$2;
+    tmp_if_expr_1 = (_Bool)0;
+  is_smooth = (unsigned char)tmp_if_expr_1;
+  signed int tmp_if_expr_2;
   if(insiz >= pHist->iInSizLo)
   {
     if(pHist->iInSizHi >= insiz)
@@ -18493,11 +18493,11 @@ signed int insGetHistoCountCumulative(signed int *totnum, signed int insiz, unsi
       for( ; idx >= i; i = i + 1)
       {
         if(!(is_smooth == 0))
-          tmp_if_expr$2 = pHist->pSmoothCounts[(signed long int)i];
+          tmp_if_expr_2 = pHist->pSmoothCounts[(signed long int)i];
 
         else
-          tmp_if_expr$2 = pHist->pCounts[(signed long int)i];
-        ccount = ccount + tmp_if_expr$2;
+          tmp_if_expr_2 = pHist->pCounts[(signed long int)i];
+        ccount = ccount + tmp_if_expr_2;
       }
     }
 
@@ -18530,7 +18530,7 @@ unsigned long int insGetHistoData(signed int *lo, signed int *hi, signed int *n_
 double insGetHistoProb(signed int insiz, const struct _InsHist *pHist)
 {
   double prob = 0.0;
-  double tmp_if_expr$1;
+  double tmp_if_expr_1;
   if(insiz >= pHist->iInSizLo)
   {
     if(pHist->iInSizHi >= insiz)
@@ -18539,11 +18539,11 @@ double insGetHistoProb(signed int insiz, const struct _InsHist *pHist)
       {
         signed int idx = (signed int)(insiz - pHist->iInSizLo) / pHist->iScalFac;
         if((signed int)pHist->status == 2)
-          tmp_if_expr$1 = (double)pHist->pSmoothCounts[(signed long int)idx];
+          tmp_if_expr_1 = (double)pHist->pSmoothCounts[(signed long int)idx];
 
         else
-          tmp_if_expr$1 = (double)pHist->pCounts[(signed long int)idx];
-        prob = tmp_if_expr$1;
+          tmp_if_expr_1 = (double)pHist->pCounts[(signed long int)idx];
+        prob = tmp_if_expr_1;
         prob = prob / (double)pHist->iNum;
       }
 
@@ -18584,13 +18584,13 @@ unsigned long int insGetSample(signed int **pSample, signed int *readival, const
 // file ../src/insert.c line 215
 signed int insIsInSample(const struct _InsSample *pInsSample, unsigned long int readno)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(pInsSample == ((const struct _InsSample *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = readno % (unsigned long int)pInsSample->readival == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-  return (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = readno % (unsigned long int)pInsSample->readival == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+  return (signed int)tmp_if_expr_1;
 }
 
 // insMakeHistoFromSample
@@ -18610,9 +18610,9 @@ struct _InsHist * insMakeHistoFromSample(const struct _InsSample *pInsSample)
   {
     signed int ns = (signed int)pInsSample->pSample->n;
     signed int nbins;
-    double return_value_sqrt$1;
-    return_value_sqrt$1=sqrt((double)ns);
-    nbins = (signed int)((double)3 * return_value_sqrt$1);
+    double return_value_sqrt_1;
+    return_value_sqrt_1=sqrt((double)ns);
+    nbins = (signed int)((double)3 * return_value_sqrt_1);
     if(!(nbins >= 16))
       nbins = 16;
 
@@ -18694,19 +18694,19 @@ signed int insPrintHisto(struct _IO_FILE *fp, signed int linwidth, unsigned char
   signed int range_min;
   signed int range_max;
   double wf;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(pHist == ((const struct _InsHist *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
   {
     errcode=findInsHistMax(pHist, &max_count, &range_min, &range_max);
-    tmp_if_expr$1 = errcode != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = errcode != 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$2;
-  signed int tmp_if_expr$3;
-  signed int return_value_fputc$4;
-  if(tmp_if_expr$1)
+  _Bool tmp_if_expr_2;
+  signed int tmp_if_expr_3;
+  signed int return_value_fputc_4;
+  if(tmp_if_expr_1)
   {
     fprintf(fp, "# Histogram of insert sizes is empty.\n");
     return -1;
@@ -18715,11 +18715,11 @@ signed int insPrintHisto(struct _IO_FILE *fp, signed int linwidth, unsigned char
   else
   {
     if(!(is_smooth == 0))
-      tmp_if_expr$2 = (signed int)pHist->status == 2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)pHist->status == 2 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    is_smooth = (unsigned char)tmp_if_expr$2;
+      tmp_if_expr_2 = (_Bool)0;
+    is_smooth = (unsigned char)tmp_if_expr_2;
     wf = (double)linwidth / (double)max_count;
     if(wf > 1.0)
       wf = 1.0;
@@ -18730,17 +18730,17 @@ signed int insPrintHisto(struct _IO_FILE *fp, signed int linwidth, unsigned char
       signed int j;
       signed int col_idx;
       if(!(is_smooth == 0))
-        tmp_if_expr$3 = pHist->pSmoothCounts[(signed long int)i];
+        tmp_if_expr_3 = pHist->pSmoothCounts[(signed long int)i];
 
       else
-        tmp_if_expr$3 = pHist->pCounts[(signed long int)i];
-      col_idx = (signed int)((double)tmp_if_expr$3 * wf);
+        tmp_if_expr_3 = pHist->pCounts[(signed long int)i];
+      col_idx = (signed int)((double)tmp_if_expr_3 * wf);
       fprintf(fp, "#%5i ", (signed int)(pHist->iInSizLo + i * pHist->iScalFac));
       j = 0;
       for( ; !(j >= col_idx); j = j + 1)
       {
-        return_value_fputc$4=fputc(42, fp);
-        if(!(return_value_fputc$4 == 42))
+        return_value_fputc_4=fputc(42, fp);
+        if(!(return_value_fputc_4 == 42))
           return 11;
 
       }
@@ -18772,12 +18772,12 @@ struct _InsHist * insReadHisto(signed int *errcode, const char *filnam)
   struct _InsHist *ihp = (struct _InsHist *)(void *)0;
   struct _IO_FILE *fp;
   fp=efopen(filnam, "r", "../src/insert.c", 641);
-  char *return_value_fgets$1;
-  _Bool tmp_if_expr$4;
-  signed int return_value_fscanf$3;
-  char *return_value_fgets$5;
-  signed int tmp_post$8;
-  _Bool tmp_if_expr$9;
+  char *return_value_fgets_1;
+  _Bool tmp_if_expr_4;
+  signed int return_value_fscanf_3;
+  char *return_value_fgets_5;
+  signed int tmp_post_8;
+  _Bool tmp_if_expr_9;
   if(fp == ((struct _IO_FILE *)NULL))
   {
     *errcode = 50;
@@ -18792,13 +18792,13 @@ struct _InsHist * insReadHisto(signed int *errcode, const char *filnam)
     slen=strlen(IOFIL_KEY_START);
     do
     {
-      return_value_fgets$1=fgets(linbufp, 128 - 1, fp);
-      if(return_value_fgets$1 == ((char *)NULL))
+      return_value_fgets_1=fgets(linbufp, 128 - 1, fp);
+      if(return_value_fgets_1 == ((char *)NULL))
         break;
 
-      signed int return_value_strncmp$2;
-      return_value_strncmp$2=strncmp(IOFIL_KEY_START, linbufp, slen);
-      if(return_value_strncmp$2 == 0)
+      signed int return_value_strncmp_2;
+      return_value_strncmp_2=strncmp(IOFIL_KEY_START, linbufp, slen);
+      if(return_value_strncmp_2 == 0)
       {
         has_start = (unsigned char)1;
         break;
@@ -18807,14 +18807,14 @@ struct _InsHist * insReadHisto(signed int *errcode, const char *filnam)
     }
     while((_Bool)1);
     if(has_start == 0)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
-      return_value_fscanf$3=fscanf(fp, IOFIL_KEY_FORMAT, &binnum, &scalfac, &insizlo, &insizhi, &totnum, &qlo, &med, &qhi);
-      tmp_if_expr$4 = return_value_fscanf$3 != 8 ? (_Bool)1 : (_Bool)0;
+      return_value_fscanf_3=fscanf(fp, IOFIL_KEY_FORMAT, &binnum, &scalfac, &insizlo, &insizhi, &totnum, &qlo, &med, &qhi);
+      tmp_if_expr_4 = return_value_fscanf_3 != 8 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
     {
       *errcode = 33;
       efclose(fp, "../src/insert.c", 661);
@@ -18841,21 +18841,21 @@ struct _InsHist * insReadHisto(signed int *errcode, const char *filnam)
       slen=strlen(IOFIL_KEY_END);
       do
       {
-        return_value_fgets$5=fgets(linbufp, 128 - 1, fp);
-        if(return_value_fgets$5 == ((char *)NULL))
+        return_value_fgets_5=fgets(linbufp, 128 - 1, fp);
+        if(return_value_fgets_5 == ((char *)NULL))
           break;
 
-        signed int return_value_strncmp$6;
-        return_value_strncmp$6=strncmp(IOFIL_KEY_END, linbufp, slen);
-        if(return_value_strncmp$6 == 0)
+        signed int return_value_strncmp_6;
+        return_value_strncmp_6=strncmp(IOFIL_KEY_END, linbufp, slen);
+        if(return_value_strncmp_6 == 0)
         {
           has_end = (unsigned char)1;
           break;
         }
 
-        signed int return_value_sscanf$7;
-        return_value_sscanf$7=sscanf(linbufp, IOFIL_FORMAT, &isiz, &count);
-        if(!(return_value_sscanf$7 == 2))
+        signed int return_value_sscanf_7;
+        return_value_sscanf_7=sscanf(linbufp, IOFIL_FORMAT, &isiz, &count);
+        if(!(return_value_sscanf_7 == 2))
           break;
 
         if(!(isiz == linctr * scalfac + insizlo))
@@ -18864,18 +18864,18 @@ struct _InsHist * insReadHisto(signed int *errcode, const char *filnam)
         if(linctr >= binnum)
           break;
 
-        tmp_post$8 = linctr;
+        tmp_post_8 = linctr;
         linctr = linctr + 1;
-        ihp->pCounts[(signed long int)tmp_post$8] = count;
+        ihp->pCounts[(signed long int)tmp_post_8] = count;
         ihp->iNum = ihp->iNum + (unsigned long int)count;
       }
       while((_Bool)1);
       if(has_end == 0)
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_9 = (_Bool)1;
 
       else
-        tmp_if_expr$9 = ihp->iNum != totnum ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$9)
+        tmp_if_expr_9 = ihp->iNum != totnum ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_9)
       {
         *errcode = 33;
         efclose(fp, "../src/insert.c", 696);
@@ -18921,9 +18921,9 @@ void insSeedHistoNormal(struct _InsHist *pHist, signed int mean, signed int std,
   for( ; !(i >= pHist->iSpan); i = i + 1)
   {
     x = ((double)pHist->iInSizLo + d * (double)i) - (double)mean;
-    double return_value_exp$1;
-    return_value_exp$1=exp((-x * x) / var2);
-    y = return_value_exp$1 / norm;
+    double return_value_exp_1;
+    return_value_exp_1=exp((-x * x) / var2);
+    y = return_value_exp_1 / norm;
     pHist->pCounts[(signed long int)i] = (signed int)(y * (double)num + 0.4999);
   }
   pHist->iNum = (unsigned long int)num;
@@ -18962,7 +18962,7 @@ signed int insSmoothHisto(struct _InsHist *pHist)
   signed int th;
   signed int kbw;
   signed int iqr = 0;
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(!(pHist->iNum >= 2ul))
     return -1;
 
@@ -18980,9 +18980,9 @@ signed int insSmoothHisto(struct _InsHist *pHist)
         n = n + pHist->pCounts[(signed long int)i];
         if(!(th >= n))
         {
-          tmp_post$1 = q;
+          tmp_post_1 = q;
           q = q + 1;
-          quart[(signed long int)tmp_post$1] = (unsigned int)i;
+          quart[(signed long int)tmp_post_1] = (unsigned int)i;
           n = n - pHist->pCounts[(signed long int)i] / 2;
           th = (signed int)((pHist->iNum * (unsigned long int)q) / (unsigned long int)4);
         }
@@ -19029,25 +19029,25 @@ signed int insWriteHisto(struct _IO_FILE *fp, unsigned char is_smooth, const str
   signed int i;
   signed int *cp;
   unsigned long int totnum = (unsigned long int)0;
-  _Bool tmp_if_expr$1;
-  signed int *tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  signed int *tmp_if_expr_2;
   if(pHist == ((const struct _InsHist *)NULL))
     return -1;
 
   else
   {
     if(!(is_smooth == 0))
-      tmp_if_expr$1 = (signed int)pHist->status == 2 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)pHist->status == 2 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    is_smooth = (unsigned char)tmp_if_expr$1;
+      tmp_if_expr_1 = (_Bool)0;
+    is_smooth = (unsigned char)tmp_if_expr_1;
     if(!(is_smooth == 0))
-      tmp_if_expr$2 = pHist->pSmoothCounts;
+      tmp_if_expr_2 = pHist->pSmoothCounts;
 
     else
-      tmp_if_expr$2 = pHist->pCounts;
-    cp = tmp_if_expr$2;
+      tmp_if_expr_2 = pHist->pCounts;
+    cp = tmp_if_expr_2;
     i = 0;
     for( ; !(i >= pHist->iSpan); i = i + 1)
       totnum = totnum + (unsigned long int)cp[(signed long int)i];
@@ -19081,42 +19081,42 @@ signed int insWriteHisto(struct _IO_FILE *fp, unsigned char is_smooth, const str
 signed int interValAppend(struct V_IVAL_ *p, unsigned int lo, unsigned int hi, signed long int sx, unsigned short int flag)
 {
   struct _IVAL *ivp;
-  _Bool tmp_if_expr$3;
-  void *return_value_ereallocp$1;
-  _Bool tmp_if_expr$2;
-  struct _IVAL *tmp_if_expr$5;
-  unsigned long int tmp_post$4;
+  _Bool tmp_if_expr_3;
+  void *return_value_ereallocp_1;
+  _Bool tmp_if_expr_2;
+  struct _IVAL *tmp_if_expr_5;
+  unsigned long int tmp_post_4;
   if(!(hi >= lo))
     return 47;
 
   else
   {
     if(!(p->n >= p->n_alloc))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_ereallocp$1=ereallocp((void **)&p->vp, (unsigned long int)((p->n + p->n_blksz) / p->n_blksz) * p->n_blksz * sizeof(struct _IVAL) /*24ul*/ , "interval.c", 105);
-      if(!(return_value_ereallocp$1 == NULL))
+      return_value_ereallocp_1=ereallocp((void **)&p->vp, (unsigned long int)((p->n + p->n_blksz) / p->n_blksz) * p->n_blksz * sizeof(struct _IVAL) /*24ul*/ , "interval.c", 105);
+      if(!(return_value_ereallocp_1 == NULL))
       {
         p->n_alloc = (unsigned long int)((p->n + p->n_blksz) / p->n_blksz) * p->n_blksz;
-        tmp_if_expr$2 = p->n_alloc > p->n ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = p->n_alloc > p->n ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
     {
-      tmp_post$4 = p->n;
+      tmp_post_4 = p->n;
       p->n = p->n + 1ul;
-      tmp_if_expr$5 = p->vp + (signed long int)tmp_post$4;
+      tmp_if_expr_5 = p->vp + (signed long int)tmp_post_4;
     }
 
     else
-      tmp_if_expr$5 = (struct _IVAL *)(void *)0;
-    ivp = tmp_if_expr$5;
+      tmp_if_expr_5 = (struct _IVAL *)(void *)0;
+    ivp = tmp_if_expr_5;
     if(ivp == ((struct _IVAL *)NULL))
       return 2;
 
@@ -19150,24 +19150,24 @@ struct V_IVAL_ * interValCreate(signed int blksz)
   if(!(blksz >= 1))
     blksz = 256;
 
-  _Bool tmp_if_expr$3;
-  void *return_value_ecalloc$2;
+  _Bool tmp_if_expr_3;
+  void *return_value_ecalloc_2;
   do
   {
     unsigned long int siz = (unsigned long int)((unsigned long int)(blksz < 1) != 0ul ? 256 : blksz);
-    void *return_value_ecalloc$1;
-    return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct V_IVAL_) /*32ul*/ , "interval.c", 84);
-    p = (struct V_IVAL_ *)return_value_ecalloc$1;
+    void *return_value_ecalloc_1;
+    return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct V_IVAL_) /*32ul*/ , "interval.c", 84);
+    p = (struct V_IVAL_ *)return_value_ecalloc_1;
     if(!(p == ((struct V_IVAL_ *)NULL)))
     {
-      return_value_ecalloc$2=ecalloc(siz, sizeof(struct _IVAL) /*24ul*/ , "interval.c", 84);
-      p->vp = (struct _IVAL *)return_value_ecalloc$2;
-      tmp_if_expr$3 = (struct _IVAL *)(void *)0 != p->vp ? (_Bool)1 : (_Bool)0;
+      return_value_ecalloc_2=ecalloc(siz, sizeof(struct _IVAL) /*24ul*/ , "interval.c", 84);
+      p->vp = (struct _IVAL *)return_value_ecalloc_2;
+      tmp_if_expr_3 = (struct _IVAL *)(void *)0 != p->vp ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
     {
       p->n_blksz = siz;
       p->n_alloc = p->n_blksz;
@@ -19209,13 +19209,13 @@ void interValDelete(struct V_IVAL_ *p)
 signed int interValGet(unsigned int *lo, unsigned int *hi, signed long int *sx, unsigned short int *flg, signed int idx, const struct V_IVAL_ *p)
 {
   const struct _IVAL *ivp;
-  struct _IVAL *tmp_if_expr$1;
+  struct _IVAL *tmp_if_expr_1;
   if(!((unsigned long int)idx >= p->n))
-    tmp_if_expr$1 = p->vp + (signed long int)idx;
+    tmp_if_expr_1 = p->vp + (signed long int)idx;
 
   else
-    tmp_if_expr$1 = (struct _IVAL *)(void *)0;
-  ivp = tmp_if_expr$1;
+    tmp_if_expr_1 = (struct _IVAL *)(void *)0;
+  ivp = tmp_if_expr_1;
   if(ivp == ((const struct _IVAL *)NULL))
     return 29;
 
@@ -19256,7 +19256,7 @@ void interValPrune(struct V_IVAL_ *p)
   signed int j;
   signed int niv = (signed int)p->n;
   struct _IVAL *ivp = p->vp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(niv >= 1)
   {
     qsort((void *)ivp, (unsigned long int)niv, sizeof(struct _IVAL) /*24ul*/ , cmpIVAL);
@@ -19265,11 +19265,11 @@ void interValPrune(struct V_IVAL_ *p)
     for( ; !(j >= niv); j = j + 1)
     {
       if((ivp + (signed long int)j)->sx == (ivp + (signed long int)i)->sx)
-        tmp_if_expr$1 = (ivp + (signed long int)j)->lo <= (ivp + (signed long int)i)->hi ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (ivp + (signed long int)j)->lo <= (ivp + (signed long int)i)->hi ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
       {
         if(!((ivp + (signed long int)i)->hi >= (ivp + (signed long int)j)->hi))
           (ivp + (signed long int)i)->hi = (ivp + (signed long int)j)->hi;
@@ -19293,37 +19293,37 @@ void interValPrune(struct V_IVAL_ *p)
 // file ../src/results.c line 556
 static signed int isIdenticalResult(const struct _RESULT *ap, const struct _RESULT *bp)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(ap->s_start == bp->s_start))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = ap->s_end != bp->s_end ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = ap->s_end != bp->s_end ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = ap->q_start != bp->q_start ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = ap->q_start != bp->q_start ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = ap->q_end != bp->q_end ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_3 = ap->q_end != bp->q_end ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = ap->swatscor != bp->swatscor ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$5;
-  if(tmp_if_expr$4)
-    tmp_if_expr$5 = (_Bool)1;
+    tmp_if_expr_4 = ap->swatscor != bp->swatscor ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_5;
+  if(tmp_if_expr_4)
+    tmp_if_expr_5 = (_Bool)1;
 
   else
-    tmp_if_expr$5 = ap->sidx != bp->sidx ? (_Bool)1 : (_Bool)0;
-  return tmp_if_expr$5 ? 0 : 1;
+    tmp_if_expr_5 = ap->sidx != bp->sidx ? (_Bool)1 : (_Bool)0;
+  return tmp_if_expr_5 ? 0 : 1;
 }
 
 // labelComplementarySegments
@@ -19352,7 +19352,7 @@ static signed int labelComplementarySegments(struct _ResultSet *rsp, const signe
     rspp[(signed long int)i]->qsegx = (signed short int)-1;
   i_start = (signed short int)0;
   rsp->qsegno = (signed short int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     struct _RESULT *r1p = rspp[(signed long int)i_start];
@@ -19371,11 +19371,11 @@ static signed int labelComplementarySegments(struct _ResultSet *rsp, const signe
         unsigned int l2 = r2p->q_end - r2p->q_start;
         unsigned int min_overlap = (unsigned int)((double)(l1 < l2 ? l1 : l2) * min_overlap_frac);
         if(!(r1p->q_start + min_overlap >= r2p->q_end))
-          tmp_if_expr$1 = r2p->q_start + min_overlap < r1p->q_end ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = r2p->q_start + min_overlap < r1p->q_end ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
           r2p->qsegx = rsp->qsegno;
 
         else
@@ -19488,9 +19488,9 @@ signed int main(signed int argc, char **argv)
   errcode=menuParseCommandLine(menup, argc, argv);
   if(errcode == 0)
   {
-    char return_value_menuGetSubProgTyp$1;
-    return_value_menuGetSubProgTyp$1=menuGetSubProgTyp(menup);
-    switch((signed int)return_value_menuGetSubProgTyp$1)
+    char return_value_menuGetSubProgTyp_1;
+    return_value_menuGetSubProgTyp_1=menuGetSubProgTyp(menup);
+    switch((signed int)return_value_menuGetSubProgTyp_1)
     {
       case 1:
       {
@@ -19545,10 +19545,10 @@ static signed int make3BitMangledCodec(struct _SeqCodec *codp)
   unsigned char cu;
   unsigned char a;
   codp->typ = (char)0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(CODEC_ALPHABET);
-  codp->alphlen = (unsigned char)return_value_strlen$1;
-  _Bool tmp_if_expr$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(CODEC_ALPHABET);
+  codp->alphlen = (unsigned char)return_value_strlen_1;
+  _Bool tmp_if_expr_3;
   if((signed int)codp->alphlen >= 8)
     return 47;
 
@@ -19558,9 +19558,9 @@ static signed int make3BitMangledCodec(struct _SeqCodec *codp)
     i = 1;
     for( ; !(i >= 256); i = i + 1)
     {
-      signed int return_value_toupper$2;
-      return_value_toupper$2=toupper(i);
-      cu = (unsigned char)return_value_toupper$2;
+      signed int return_value_toupper_2;
+      return_value_toupper_2=toupper(i);
+      cu = (unsigned char)return_value_toupper_2;
       if((signed int)cu == 85)
         cu = (unsigned char)84;
 
@@ -19571,11 +19571,11 @@ static signed int make3BitMangledCodec(struct _SeqCodec *codp)
         do
         {
           if(!((signed int)a >= 4))
-            tmp_if_expr$3 = (signed int)cu != (signed int)codp->alphabet[(signed long int)a] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = (signed int)cu != (signed int)codp->alphabet[(signed long int)a] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          if(!tmp_if_expr$3)
+            tmp_if_expr_3 = (_Bool)0;
+          if(!tmp_if_expr_3)
             break;
 
           a = a + 1;
@@ -19631,25 +19631,25 @@ static signed int makeMetaFromTrack(struct _ALIMETA *metap, struct _ALICPLX *cpl
   j = tp->max_j;
   i = tp->max_i;
   j = tp->max_j;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  signed int tmp_post$3;
-  signed int tmp_post$4;
-  signed int tmp_post$5;
-  signed int tmp_post$6;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  signed int tmp_post_3;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
+  signed int tmp_post_6;
   do
   {
     if(i >= bp->s_left)
-      tmp_if_expr$1 = j >= bp->q_left ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = j >= bp->q_left ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = *dp != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = *dp != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(!tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(!tmp_if_expr_2)
       break;
 
     if((signed int)*dp == 3)
@@ -19667,9 +19667,9 @@ static signed int makeMetaFromTrack(struct _ALIMETA *metap, struct _ALICPLX *cpl
 
           }
 
-          tmp_post$3 = dfsp->len;
+          tmp_post_3 = dfsp->len;
           dfsp->len = dfsp->len + 1;
-          dfsp->dstrp[(signed long int)tmp_post$3] = (unsigned char)(61 + ((signed int)(unsigned char)0 << 6));
+          dfsp->dstrp[(signed long int)tmp_post_3] = (unsigned char)(61 + ((signed int)(unsigned char)0 << 6));
           nmatch = nmatch - (unsigned char)61;
         }
 
@@ -19687,9 +19687,9 @@ static signed int makeMetaFromTrack(struct _ALIMETA *metap, struct _ALICPLX *cpl
 
         }
 
-        tmp_post$4 = dfsp->len;
+        tmp_post_4 = dfsp->len;
         dfsp->len = dfsp->len + 1;
-        dfsp->dstrp[(signed long int)tmp_post$4] = (unsigned char)((signed int)nmatch + ((signed int)(unsigned char)3 << 6));
+        dfsp->dstrp[(signed long int)tmp_post_4] = (unsigned char)((signed int)nmatch + ((signed int)(unsigned char)3 << 6));
         nmatch = (unsigned char)0;
       }
       checksum_score = checksum_score + s;
@@ -19722,9 +19722,9 @@ static signed int makeMetaFromTrack(struct _ALIMETA *metap, struct _ALICPLX *cpl
 
         }
 
-        tmp_post$5 = dfsp->len;
+        tmp_post_5 = dfsp->len;
         dfsp->len = dfsp->len + 1;
-        dfsp->dstrp[(signed long int)tmp_post$5] = (unsigned char)((signed int)nmatch + ((signed int)(unsigned char)1 << 6));
+        dfsp->dstrp[(signed long int)tmp_post_5] = (unsigned char)((signed int)nmatch + ((signed int)(unsigned char)1 << 6));
         nmatch = (unsigned char)0;
         dp = dp - (signed long int)(bp->band_width - 1);
         i = i - 1;
@@ -19743,9 +19743,9 @@ static signed int makeMetaFromTrack(struct _ALIMETA *metap, struct _ALICPLX *cpl
 
         }
 
-        tmp_post$6 = dfsp->len;
+        tmp_post_6 = dfsp->len;
         dfsp->len = dfsp->len + 1;
-        dfsp->dstrp[(signed long int)tmp_post$6] = (unsigned char)((signed int)nmatch + ((signed int)(unsigned char)2 << 6));
+        dfsp->dstrp[(signed long int)tmp_post_6] = (unsigned char)((signed int)nmatch + ((signed int)(unsigned char)2 << 6));
         nmatch = (unsigned char)0;
         dp = dp - 1l;
         j = j - 1;
@@ -19753,8 +19753,8 @@ static signed int makeMetaFromTrack(struct _ALIMETA *metap, struct _ALICPLX *cpl
     }
   }
   while((_Bool)1);
-  signed int tmp_post$7;
-  signed int tmp_post$8;
+  signed int tmp_post_7;
+  signed int tmp_post_8;
   if(dfsp->len >= dfsp->n_alloc)
   {
     errcode=diffStrRealloc(dfsp, dfsp->len + 1);
@@ -19769,9 +19769,9 @@ static signed int makeMetaFromTrack(struct _ALIMETA *metap, struct _ALICPLX *cpl
 
   __CPROVER_DUMP_L23:
     ;
-    tmp_post$7 = dfsp->len;
+    tmp_post_7 = dfsp->len;
     dfsp->len = dfsp->len + 1;
-    dfsp->dstrp[(signed long int)tmp_post$7] = (unsigned char)((signed int)nmatch + ((signed int)(unsigned char)3 << 6));
+    dfsp->dstrp[(signed long int)tmp_post_7] = (unsigned char)((signed int)nmatch + ((signed int)(unsigned char)3 << 6));
     if(dfsp->len >= dfsp->n_alloc)
     {
       errcode=diffStrRealloc(dfsp, dfsp->len + 1);
@@ -19786,9 +19786,9 @@ static signed int makeMetaFromTrack(struct _ALIMETA *metap, struct _ALICPLX *cpl
 
     __CPROVER_DUMP_L24:
       ;
-      tmp_post$8 = dfsp->len;
+      tmp_post_8 = dfsp->len;
       dfsp->len = dfsp->len + 1;
-      dfsp->dstrp[(signed long int)tmp_post$8] = (unsigned char)(0 + ((signed int)(unsigned char)0 << 6));
+      dfsp->dstrp[(signed long int)tmp_post_8] = (unsigned char)(0 + ((signed int)(unsigned char)0 << 6));
       metap->nonprof_start = i + 1;
       metap->nonprof_end = tp->max_i;
       metap->prof_start = j + 1;
@@ -19815,24 +19815,24 @@ static signed int makeRMAPCANDfromSegment(struct RMAPCAND_ *cp, struct _SeqFastq
   unsigned long int rs;
   unsigned long int re;
   errcode=segAliCandsCalcSegmentOffsets(&cp->qs, &cp->qe, &cp->rs, &cp->re, &cp->band_l, &cp->band_r, &cp->dqo, &cp->dro, &cp->sqidx, &bitflags, coverp, (signed short int)0, qlen, ssp, i, sacp);
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(!(errcode == 0))
     return errcode;
 
   else
   {
     if(cp->qe >= 2147483648u)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = cp->re < cp->rs ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = cp->re < cp->rs ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = cp->re - cp->rs > (unsigned long int)0x7fffffff ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = cp->re - cp->rs > (unsigned long int)0x7fffffff ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return 48;
 
     else
@@ -19882,7 +19882,7 @@ static signed int makeRMAPPROFfromRead(struct RMAPPROF_ *prp, const struct _SeqF
 
 // makeSeedsFromHits
 // file segment.c line 455
-static signed int makeSeedsFromHits(struct _SEED$0 **seedr, struct _HITREGION * const idxr, signed int reg_start, signed int nreg, const struct _HashHitList *hhlp)
+static signed int makeSeedsFromHits(struct _SEED_0 **seedr, struct _HITREGION * const idxr, signed int reg_start, signed int nreg, const struct _HashHitList *hhlp)
 {
   unsigned char ktup;
   unsigned char nskip;
@@ -19893,7 +19893,7 @@ static signed int makeSeedsFromHits(struct _SEED$0 **seedr, struct _HITREGION * 
   unsigned int i;
   unsigned int j;
   unsigned int end_idx;
-  struct _SEED$0 *sdp;
+  struct _SEED_0 *sdp;
   unsigned long int shift;
   const unsigned long int *shdat;
   shdat=hashGetHitListData((signed int *)(void *)0, (char *)(void *)0, (unsigned int *)(void *)0, &ktup, &nskip, (const char **)(void *)0, hhlp);
@@ -19905,8 +19905,8 @@ static signed int makeSeedsFromHits(struct _SEED$0 **seedr, struct _HITREGION * 
   }
 
   s = reg_start;
-  unsigned long int tmp_post$2;
-  unsigned long int tmp_post$3;
+  unsigned long int tmp_post_2;
+  unsigned long int tmp_post_3;
   for( ; !(s >= nreg); s = s + 1)
   {
     i = (idxr + (signed long int)s)->idx;
@@ -19916,26 +19916,26 @@ static signed int makeSeedsFromHits(struct _SEED$0 **seedr, struct _HITREGION * 
     {
       if(((unsigned long int *)*seedr)[-1l] >= ((unsigned long int *)*seedr)[-2l])
       {
-        void *return_value_arrayRealloc$1;
-        return_value_arrayRealloc$1=arrayRealloc((void *)*seedr, (unsigned long int)0, (char)0, "segment.c", 494);
-        sdp = (struct _SEED$0 *)return_value_arrayRealloc$1;
-        if(!(sdp == ((struct _SEED$0 *)NULL)))
+        void *return_value_arrayRealloc_1;
+        return_value_arrayRealloc_1=arrayRealloc((void *)*seedr, (unsigned long int)0, (char)0, "segment.c", 494);
+        sdp = (struct _SEED_0 *)return_value_arrayRealloc_1;
+        if(!(sdp == ((struct _SEED_0 *)NULL)))
         {
           *seedr = sdp;
-          tmp_post$2 = ((unsigned long int *)*seedr)[(signed long int)-1];
+          tmp_post_2 = ((unsigned long int *)*seedr)[(signed long int)-1];
           ((unsigned long int *)*seedr)[(signed long int)-1] = ((unsigned long int *)*seedr)[(signed long int)-1] + 1ul;
-          sdp = *seedr + (signed long int)tmp_post$2;
+          sdp = *seedr + (signed long int)tmp_post_2;
         }
 
       }
 
       else
       {
-        tmp_post$3 = ((unsigned long int *)*seedr)[(signed long int)-1];
+        tmp_post_3 = ((unsigned long int *)*seedr)[(signed long int)-1];
         ((unsigned long int *)*seedr)[(signed long int)-1] = ((unsigned long int *)*seedr)[(signed long int)-1] + 1ul;
-        sdp = *seedr + (signed long int)tmp_post$3;
+        sdp = *seedr + (signed long int)tmp_post_3;
       }
-      if(sdp == ((struct _SEED$0 *)NULL))
+      if(sdp == ((struct _SEED_0 *)NULL))
         return 2;
 
       sdp->sqo = shdat[(signed long int)i];
@@ -19963,7 +19963,7 @@ static signed int makeSeedsFromHits(struct _SEED$0 **seedr, struct _HITREGION * 
 
 // makeSegmentsFromSeeds
 // file segment.c line 535
-static signed int makeSegmentsFromSeeds(struct _SEGMENT **segmr, unsigned int *maxcover, struct _HITREGION * const hregr, unsigned int reg_start, unsigned int nreg, struct _SEED$0 * const seedr, unsigned char nskip)
+static signed int makeSegmentsFromSeeds(struct _SEGMENT **segmr, unsigned int *maxcover, struct _HITREGION * const hregr, unsigned int reg_start, unsigned int nreg, struct _SEED_0 * const seedr, unsigned char nskip)
 {
   unsigned int r;
   unsigned int i;
@@ -19982,9 +19982,9 @@ static signed int makeSegmentsFromSeeds(struct _SEGMENT **segmr, unsigned int *m
 
   *maxcover = (unsigned int)0;
   r = reg_start;
-  unsigned long int tmp_post$2;
-  unsigned long int tmp_post$3;
-  _Bool tmp_if_expr$4;
+  unsigned long int tmp_post_2;
+  unsigned long int tmp_post_3;
+  _Bool tmp_if_expr_4;
   for( ; !(r >= nreg); r = r + 1u)
   {
     i = (hregr + (signed long int)r)->idx;
@@ -19995,24 +19995,24 @@ static signed int makeSegmentsFromSeeds(struct _SEGMENT **segmr, unsigned int *m
     {
       if(((unsigned long int *)*segmr)[-1l] >= ((unsigned long int *)*segmr)[-2l])
       {
-        void *return_value_arrayRealloc$1;
-        return_value_arrayRealloc$1=arrayRealloc((void *)*segmr, (unsigned long int)0, (char)0, "segment.c", 559);
-        sgp = (struct _SEGMENT *)return_value_arrayRealloc$1;
+        void *return_value_arrayRealloc_1;
+        return_value_arrayRealloc_1=arrayRealloc((void *)*segmr, (unsigned long int)0, (char)0, "segment.c", 559);
+        sgp = (struct _SEGMENT *)return_value_arrayRealloc_1;
         if(!(sgp == ((struct _SEGMENT *)NULL)))
         {
           *segmr = sgp;
-          tmp_post$2 = ((unsigned long int *)*segmr)[(signed long int)-1];
+          tmp_post_2 = ((unsigned long int *)*segmr)[(signed long int)-1];
           ((unsigned long int *)*segmr)[(signed long int)-1] = ((unsigned long int *)*segmr)[(signed long int)-1] + 1ul;
-          sgp = *segmr + (signed long int)tmp_post$2;
+          sgp = *segmr + (signed long int)tmp_post_2;
         }
 
       }
 
       else
       {
-        tmp_post$3 = ((unsigned long int *)*segmr)[(signed long int)-1];
+        tmp_post_3 = ((unsigned long int *)*segmr)[(signed long int)-1];
         ((unsigned long int *)*segmr)[(signed long int)-1] = ((unsigned long int *)*segmr)[(signed long int)-1] + 1ul;
-        sgp = *segmr + (signed long int)tmp_post$3;
+        sgp = *segmr + (signed long int)tmp_post_3;
       }
       if(sgp == ((struct _SEGMENT *)NULL))
         return 2;
@@ -20026,11 +20026,11 @@ static signed int makeSegmentsFromSeeds(struct _SEGMENT **segmr, unsigned int *m
       for( ; !(j >= end_i); j = j + 1u)
       {
         if(!((18446744071562067968ul & (seedr + (signed long int)j)->sqo) == shift))
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = (((seedr + (signed long int)j)->sqo & (unsigned long int)2147483647) - (unsigned long int)qoffs) % (unsigned long int)nskip != 0ul ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (((seedr + (signed long int)j)->sqo & (unsigned long int)2147483647) - (unsigned long int)qoffs) % (unsigned long int)nskip != 0ul ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
           break;
 
         sgp->cover = sgp->cover + (unsigned int)(seedr + (signed long int)j)->len;
@@ -20087,9 +20087,9 @@ static signed int makeStripedProfileFromSequence(struct _ScoreProfile *app, cons
   if(!((2 & (signed int)app->mod) == 0))
   {
     app->striped_bytep = (__gcc_v2di *)((unsigned long int)app->striped_datap + (unsigned long int)15 & ~((unsigned long int)15));
-    signed char return_value_scoreMatrixGetMinSubstScore$1;
-    return_value_scoreMatrixGetMinSubstScore$1=scoreMatrixGetMinSubstScore(amp);
-    app->bias = (signed short int)return_value_scoreMatrixGetMinSubstScore$1;
+    signed char return_value_scoreMatrixGetMinSubstScore_1;
+    return_value_scoreMatrixGetMinSubstScore_1=scoreMatrixGetMinSubstScore(amp);
+    app->bias = (signed short int)return_value_scoreMatrixGetMinSubstScore_1;
     if(!((4 & (signed int)app->mod) == 0))
       app->striped_shortp = app->striped_bytep + (signed long int)(lenBYT * (unsigned long int)app->alphabetsiz);
 
@@ -20099,8 +20099,8 @@ static signed int makeStripedProfileFromSequence(struct _ScoreProfile *app, cons
     if(!((4 & (signed int)app->mod) == 0))
       app->striped_shortp = (__gcc_v2di *)((unsigned long int)app->striped_datap + (unsigned long int)15 & ~((unsigned long int)15));
 
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
   if(!((2 & (signed int)app->mod) == 0))
   {
     signed short int i;
@@ -20120,50 +20120,50 @@ static signed int makeStripedProfileFromSequence(struct _ScoreProfile *app, cons
         unsigned int k = j;
         for( ; !(k >= length); k = k + segsiz)
         {
-          tmp_post$2 = sprofp;
+          tmp_post_2 = sprofp;
           sprofp = sprofp + 1l;
-          *tmp_post$2 = (unsigned char)((signed int)(unsigned char)sp[(signed long int)((signed int)seq_basp[(signed long int)k] & 7)] - (signed int)app->bias);
+          *tmp_post_2 = (unsigned char)((signed int)(unsigned char)sp[(signed long int)((signed int)seq_basp[(signed long int)k] & 7)] - (signed int)app->bias);
         }
         for( ; !(k >= segbyt); k = k + segsiz)
         {
-          tmp_post$3 = sprofp;
+          tmp_post_3 = sprofp;
           sprofp = sprofp + 1l;
-          *tmp_post$3 = (unsigned char)0;
+          *tmp_post_3 = (unsigned char)0;
         }
       }
     }
   }
 
-  signed short int *tmp_post$4;
-  signed short int *tmp_post$5;
+  signed short int *tmp_post_4;
+  signed short int *tmp_post_5;
   if(!((4 & (signed int)app->mod) == 0))
   {
-    signed short int makeStripedProfileFromSequence$$1$$5$$i;
-    unsigned int makeStripedProfileFromSequence$$1$$5$$segsiz;
-    unsigned int makeStripedProfileFromSequence$$1$$5$$segbyt;
-    signed short int *makeStripedProfileFromSequence$$1$$5$$sprofp = (signed short int *)app->striped_shortp;
-    makeStripedProfileFromSequence$$1$$5$$segsiz = ((length + (unsigned int)8) - (unsigned int)1) / (unsigned int)8;
-    makeStripedProfileFromSequence$$1$$5$$segbyt = makeStripedProfileFromSequence$$1$$5$$segsiz * (unsigned int)8;
-    makeStripedProfileFromSequence$$1$$5$$i = (signed short int)0;
-    for( ; !((signed int)makeStripedProfileFromSequence$$1$$5$$i >= (signed int)app->alphabetsiz); makeStripedProfileFromSequence$$1$$5$$i = makeStripedProfileFromSequence$$1$$5$$i + 1)
+    signed short int makeStripedProfileFromSequence__1__5__i;
+    unsigned int makeStripedProfileFromSequence__1__5__segsiz;
+    unsigned int makeStripedProfileFromSequence__1__5__segbyt;
+    signed short int *makeStripedProfileFromSequence__1__5__sprofp = (signed short int *)app->striped_shortp;
+    makeStripedProfileFromSequence__1__5__segsiz = ((length + (unsigned int)8) - (unsigned int)1) / (unsigned int)8;
+    makeStripedProfileFromSequence__1__5__segbyt = makeStripedProfileFromSequence__1__5__segsiz * (unsigned int)8;
+    makeStripedProfileFromSequence__1__5__i = (signed short int)0;
+    for( ; !((signed int)makeStripedProfileFromSequence__1__5__i >= (signed int)app->alphabetsiz); makeStripedProfileFromSequence__1__5__i = makeStripedProfileFromSequence__1__5__i + 1)
     {
-      unsigned int makeStripedProfileFromSequence$$1$$5$$1$$1$$j;
-      const signed char *makeStripedProfileFromSequence$$1$$5$$1$$1$$sp = amp->score[(signed long int)makeStripedProfileFromSequence$$1$$5$$i];
-      makeStripedProfileFromSequence$$1$$5$$1$$1$$j = (unsigned int)0;
-      for( ; !(makeStripedProfileFromSequence$$1$$5$$1$$1$$j >= makeStripedProfileFromSequence$$1$$5$$segsiz); makeStripedProfileFromSequence$$1$$5$$1$$1$$j = makeStripedProfileFromSequence$$1$$5$$1$$1$$j + 1u)
+      unsigned int makeStripedProfileFromSequence__1__5__1__1__j;
+      const signed char *makeStripedProfileFromSequence__1__5__1__1__sp = amp->score[(signed long int)makeStripedProfileFromSequence__1__5__i];
+      makeStripedProfileFromSequence__1__5__1__1__j = (unsigned int)0;
+      for( ; !(makeStripedProfileFromSequence__1__5__1__1__j >= makeStripedProfileFromSequence__1__5__segsiz); makeStripedProfileFromSequence__1__5__1__1__j = makeStripedProfileFromSequence__1__5__1__1__j + 1u)
       {
-        unsigned int makeStripedProfileFromSequence$$1$$5$$1$$1$$1$$1$$k = makeStripedProfileFromSequence$$1$$5$$1$$1$$j;
-        for( ; !(makeStripedProfileFromSequence$$1$$5$$1$$1$$1$$1$$k >= length); makeStripedProfileFromSequence$$1$$5$$1$$1$$1$$1$$k = makeStripedProfileFromSequence$$1$$5$$1$$1$$1$$1$$k + makeStripedProfileFromSequence$$1$$5$$segsiz)
+        unsigned int makeStripedProfileFromSequence__1__5__1__1__1__1__k = makeStripedProfileFromSequence__1__5__1__1__j;
+        for( ; !(makeStripedProfileFromSequence__1__5__1__1__1__1__k >= length); makeStripedProfileFromSequence__1__5__1__1__1__1__k = makeStripedProfileFromSequence__1__5__1__1__1__1__k + makeStripedProfileFromSequence__1__5__segsiz)
         {
-          tmp_post$4 = makeStripedProfileFromSequence$$1$$5$$sprofp;
-          makeStripedProfileFromSequence$$1$$5$$sprofp = makeStripedProfileFromSequence$$1$$5$$sprofp + 1l;
-          *tmp_post$4 = (signed short int)((signed int)(signed short int)makeStripedProfileFromSequence$$1$$5$$1$$1$$sp[(signed long int)((signed int)seq_basp[(signed long int)makeStripedProfileFromSequence$$1$$5$$1$$1$$1$$1$$k] & 7)] - 0);
+          tmp_post_4 = makeStripedProfileFromSequence__1__5__sprofp;
+          makeStripedProfileFromSequence__1__5__sprofp = makeStripedProfileFromSequence__1__5__sprofp + 1l;
+          *tmp_post_4 = (signed short int)((signed int)(signed short int)makeStripedProfileFromSequence__1__5__1__1__sp[(signed long int)((signed int)seq_basp[(signed long int)makeStripedProfileFromSequence__1__5__1__1__1__1__k] & 7)] - 0);
         }
-        for( ; !(makeStripedProfileFromSequence$$1$$5$$1$$1$$1$$1$$k >= makeStripedProfileFromSequence$$1$$5$$segbyt); makeStripedProfileFromSequence$$1$$5$$1$$1$$1$$1$$k = makeStripedProfileFromSequence$$1$$5$$1$$1$$1$$1$$k + makeStripedProfileFromSequence$$1$$5$$segsiz)
+        for( ; !(makeStripedProfileFromSequence__1__5__1__1__1__1__k >= makeStripedProfileFromSequence__1__5__segbyt); makeStripedProfileFromSequence__1__5__1__1__1__1__k = makeStripedProfileFromSequence__1__5__1__1__1__1__k + makeStripedProfileFromSequence__1__5__segsiz)
         {
-          tmp_post$5 = makeStripedProfileFromSequence$$1$$5$$sprofp;
-          makeStripedProfileFromSequence$$1$$5$$sprofp = makeStripedProfileFromSequence$$1$$5$$sprofp + 1l;
-          *tmp_post$5 = (signed short int)0;
+          tmp_post_5 = makeStripedProfileFromSequence__1__5__sprofp;
+          makeStripedProfileFromSequence__1__5__sprofp = makeStripedProfileFromSequence__1__5__sprofp + 1l;
+          *tmp_post_5 = (signed short int)0;
         }
       }
     }
@@ -20188,7 +20188,7 @@ static signed int mapReads(struct _ErrMsg *errmsgp, const struct _MenuOpt *menup
   signed long int time_setup;
   signed long int time_stop;
   errcode=threadsInit();
-  unsigned short int return_value_menuGetFlags$1;
+  unsigned short int return_value_menuGetFlags_1;
   if(!(errcode == 0))
   {
     errMsgAdd(errmsgp, "", "../src/smalt.c", 1333, errcode, (unsigned char)2);
@@ -20223,8 +20223,8 @@ static signed int mapReads(struct _ErrMsg *errmsgp, const struct _MenuOpt *menup
 
     if((signed int)nthreads >= 1)
     {
-      return_value_menuGetFlags$1=menuGetFlags(menup);
-      if(!((16384 & (signed int)return_value_menuGetFlags$1) == 0))
+      return_value_menuGetFlags_1=menuGetFlags(menup);
+      if(!((16384 & (signed int)return_value_menuGetFlags_1) == 0))
       {
         checkf = checkArgBlockReadNo;
         cmpf = cmpArgBlockReadNo;
@@ -20242,9 +20242,9 @@ static signed int mapReads(struct _ErrMsg *errmsgp, const struct _MenuOpt *menup
       errMsgAdd(errmsgp, "", "../src/smalt.c", 1392, errcode, (unsigned char)2);
 
     is_verbose = (unsigned char)(((signed int)common_args.menuflg & 4) != 0);
-    char return_value_menuGetSubProgTyp$2;
-    return_value_menuGetSubProgTyp$2=menuGetSubProgTyp(menup);
-    if((signed int)return_value_menuGetSubProgTyp$2 == 4)
+    char return_value_menuGetSubProgTyp_2;
+    return_value_menuGetSubProgTyp_2=menuGetSubProgTyp(menup);
+    if((signed int)return_value_menuGetSubProgTyp_2 == 4)
     {
       errcode=prepSample(errmsgp, &common_args);
       common_args.rmapflg = common_args.rmapflg | (unsigned short int)(2 | 4);
@@ -20470,14 +20470,14 @@ static signed int mapSingleRead(struct _ErrMsg *errmsgp, struct RMAPBUFF_ *bufp,
 struct _MenuOpt * menuCreate(void)
 {
   struct _MenuOpt *mp;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _MenuOpt) /*88ul*/ , "../src/menu.c", 1690);
-  mp = (struct _MenuOpt *)return_value_ecalloc$1;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _MenuOpt) /*88ul*/ , "../src/menu.c", 1690);
+  mp = (struct _MenuOpt *)return_value_ecalloc_1;
   if(!(mp == ((struct _MenuOpt *)NULL)))
   {
-    char *return_value_eStringInit$2;
-    return_value_eStringInit$2=eStringInit(&mp->estrbuf, 0, "../src/menu.c", 1692);
-    if(return_value_eStringInit$2 == ((char *)NULL))
+    char *return_value_eStringInit_2;
+    return_value_eStringInit_2=eStringInit(&mp->estrbuf, 0, "../src/menu.c", 1692);
+    if(return_value_eStringInit_2 == ((char *)NULL))
     {
       menuDelete(mp);
       mp = (struct _MenuOpt *)(void *)0;
@@ -20493,17 +20493,17 @@ struct _MenuOpt * menuCreate(void)
 // file ../src/menu.h line 130
 void menuDelete(struct _MenuOpt *mp)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(mp == ((struct _MenuOpt *)NULL)))
   {
     free((void *)mp->estrbuf.strp);
     memset((void *)&mp->estrbuf, 0, sizeof(struct EString_) /*32ul*/ );
     if((signed int)mp->subprog == 2)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)mp->subprog == 4 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)mp->subprog == 4 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
     {
       struct _MAPMENU *p = (struct _MAPMENU *)mp->paramp;
       free((void *)p->oufilnam);
@@ -20538,13 +20538,13 @@ signed int menuGetFileNames(const struct _MenuOpt *mp, const char **filnam1p, co
   if(!(filnam2p == ((const char **)NULL)))
     *filnam2p = ((const char *)NULL);
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)mp->subprog == 2)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)mp->subprog == 4 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)mp->subprog == 4 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(!(filnam1p == ((const char **)NULL)))
     {
@@ -20601,17 +20601,17 @@ signed int menuGetFileNames(const struct _MenuOpt *mp, const char **filnam1p, co
 unsigned short int menuGetFlags(const struct _MenuOpt *menup)
 {
   unsigned short int flags = (unsigned short int)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(menup == ((const struct _MenuOpt *)NULL)))
   {
     if(!(menup->paramp == NULL))
     {
       if((signed int)menup->subprog == 2)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)menup->subprog == 4 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)menup->subprog == 4 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         flags = ((const struct _MAPMENU *)menup->paramp)->flags;
 
     }
@@ -20626,7 +20626,7 @@ unsigned short int menuGetFlags(const struct _MenuOpt *menup)
 signed int menuGetHashParams(const struct _MenuOpt *mp, const char **hashnamp, unsigned char *kmer, unsigned char *nskip)
 {
   const struct _INDEXMENU *ip = (struct _INDEXMENU *)mp->paramp;
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!((signed int)mp->subprog == 1))
     return -1;
 
@@ -20641,11 +20641,11 @@ signed int menuGetHashParams(const struct _MenuOpt *mp, const char **hashnamp, u
     if(!(hashnamp == ((const char **)NULL)))
     {
       if(mp->ninfil >= 1)
-        tmp_if_expr$1 = mp->filnams[(signed long int)0];
+        tmp_if_expr_1 = mp->filnams[(signed long int)0];
 
       else
-        tmp_if_expr$1 = (char *)(void *)0;
-      *hashnamp = tmp_if_expr$1;
+        tmp_if_expr_1 = (char *)(void *)0;
+      *hashnamp = tmp_if_expr_1;
     }
 
     return 0;
@@ -20685,9 +20685,9 @@ signed int menuGetMapInputFormat(const struct _MenuOpt *menup, unsigned char *in
 signed int menuGetMapParams(const struct _MenuOpt *menup, const char **hashnamp, signed int *nhitmax_tuple, double *tupcovmin, signed short int *minscore, signed short int *scorediff, unsigned char *minbasq, double *minidentity, signed int *randseed, signed int *readskip, signed int *insert_min, signed int *insert_max, unsigned char *outform, const char **outfilnam, const char **insfilnam, unsigned char *pairtyp)
 {
   const struct _MAPMENU *mp = (struct _MAPMENU *)menup->paramp;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  char *tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  char *tmp_if_expr_3;
   if(!((signed int)menup->subprog == 2))
   {
     if((signed int)menup->subprog == 4)
@@ -20704,21 +20704,21 @@ signed int menuGetMapParams(const struct _MenuOpt *menup, const char **hashnamp,
     if(!(hashnamp == ((const char **)NULL)))
     {
       if((signed int)menup->subprog == 4)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = 2 == (signed int)menup->subprog ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
-        tmp_if_expr$2 = menup->ninfil > 1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = 2 == (signed int)menup->subprog ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
+        tmp_if_expr_2 = menup->ninfil > 1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = menup->filnams[(signed long int)0];
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = menup->filnams[(signed long int)0];
 
       else
-        tmp_if_expr$3 = (char *)(void *)0;
-      *hashnamp = tmp_if_expr$3;
+        tmp_if_expr_3 = (char *)(void *)0;
+      *hashnamp = tmp_if_expr_3;
     }
 
     if(!(nhitmax_tuple == ((signed int *)NULL)))
@@ -20836,12 +20836,12 @@ signed int menuParseCommandLine(struct _MenuOpt *menu, signed int argc, char **a
   const struct TASKDOC_ *taskdocp = (const struct TASKDOC_ *)(void *)0;
   menu->argc = argc;
   menu->argv = argv;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
-  _Bool tmp_if_expr$7;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
+  _Bool tmp_if_expr_7;
   signed int return_value;
   if(!(argc >= 2))
   {
@@ -20855,11 +20855,11 @@ signed int menuParseCommandLine(struct _MenuOpt *menu, signed int argc, char **a
   {
     memset((void *)&optfl, 0, sizeof(struct _optflags) /*4ul*/ );
     subprognam = argv[(signed long int)1];
-    signed int return_value_strcmp$6;
-    return_value_strcmp$6=strcmp(subprognam, "index");
+    signed int return_value_strcmp_6;
+    return_value_strcmp_6=strcmp(subprognam, "index");
     static signed int (*check_fn)(struct _MenuOpt *, const struct _optflags *) = (signed int (*)(struct _MenuOpt *, const struct _optflags *))(void *)0;
     static signed int (*parse_fn)(struct _MenuOpt *, struct _optflags *, signed int, char **) = (signed int (*)(struct _MenuOpt *, struct _optflags *, signed int, char **))(void *)0;
-    if(return_value_strcmp$6 == 0)
+    if(return_value_strcmp_6 == 0)
     {
       taskdocp = &MENU_TASKDOC_INDEX;
       if(argc >= 3)
@@ -20886,8 +20886,8 @@ signed int menuParseCommandLine(struct _MenuOpt *menu, signed int argc, char **a
 
     else
     {
-      return_value_strcmp$5=strcmp(subprognam, "map");
-      if(return_value_strcmp$5 == 0)
+      return_value_strcmp_5=strcmp(subprognam, "map");
+      if(return_value_strcmp_5 == 0)
       {
         taskdocp = &MENU_TASKDOC_MAP;
         if(argc >= 3)
@@ -20915,8 +20915,8 @@ signed int menuParseCommandLine(struct _MenuOpt *menu, signed int argc, char **a
 
       else
       {
-        return_value_strcmp$4=strcmp(subprognam, "check");
-        if(return_value_strcmp$4 == 0)
+        return_value_strcmp_4=strcmp(subprognam, "check");
+        if(return_value_strcmp_4 == 0)
         {
           menu->subprog = (char)3;
           taskdocp = &MENU_TASKDOC_CHECK;
@@ -20940,8 +20940,8 @@ signed int menuParseCommandLine(struct _MenuOpt *menu, signed int argc, char **a
 
         else
         {
-          return_value_strcmp$3=strcmp(subprognam, "sample");
-          if(return_value_strcmp$3 == 0)
+          return_value_strcmp_3=strcmp(subprognam, "sample");
+          if(return_value_strcmp_3 == 0)
           {
             menu->subprog = (char)4;
             taskdocp = &MENU_TASKDOC_SAMPLE;
@@ -20968,8 +20968,8 @@ signed int menuParseCommandLine(struct _MenuOpt *menu, signed int argc, char **a
 
           else
           {
-            return_value_strcmp$2=strcmp(subprognam, "help");
-            if(return_value_strcmp$2 == 0)
+            return_value_strcmp_2=strcmp(subprognam, "help");
+            if(return_value_strcmp_2 == 0)
             {
               menu->subprog = (char)5;
               fprintf(stdout, "\n%s\n\n", (const void *)MENU_PROGNAM);
@@ -20980,8 +20980,8 @@ signed int menuParseCommandLine(struct _MenuOpt *menu, signed int argc, char **a
 
             else
             {
-              return_value_strcmp$1=strcmp(subprognam, "version");
-              if(return_value_strcmp$1 == 0)
+              return_value_strcmp_1=strcmp(subprognam, "version");
+              if(return_value_strcmp_1 == 0)
               {
                 menu->subprog = (char)6;
                 printBlurb(stdout);
@@ -21039,11 +21039,11 @@ signed int menuParseCommandLine(struct _MenuOpt *menu, signed int argc, char **a
     if(!(menu->ninfil >= 2))
     {
       if((signed int)menu->subprog == 3)
-        tmp_if_expr$7 = menu->ninfil == 1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = menu->ninfil == 1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(!tmp_if_expr$7)
+        tmp_if_expr_7 = (_Bool)0;
+      if(!tmp_if_expr_7)
       {
         fprintf(stdout, "no input files specified.\n");
         fprintTaskDoc(stdout, taskdocp, (unsigned char)0);
@@ -21091,13 +21091,13 @@ void menuPrint(struct _IO_FILE *fp, const struct _MenuOpt *menup)
       fprintf(fp, "unknown\n");
   }
   fprintf(fp, "\nFiles\n");
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!(menup->indir == ((char *)NULL)))
-    tmp_if_expr$1 = menup->indir;
+    tmp_if_expr_1 = menup->indir;
 
   else
-    tmp_if_expr$1 = "-";
-  fprintf(fp, "dir: %s\n", tmp_if_expr$1);
+    tmp_if_expr_1 = "-";
+  fprintf(fp, "dir: %s\n", tmp_if_expr_1);
   fprintf(fp, "infil: %d\n", menup->ninfil);
   fprintf(fp, "====== End of Menue =====\n");
 }
@@ -21134,13 +21134,13 @@ void menuPrintWallClockTime(struct _IO_FILE *fp, signed long int time_start, sig
 signed int menuTestMapOutputFormatFlags(const struct _MenuOpt *menup, const unsigned char outform, const unsigned char flags)
 {
   const struct _MAPMENU *mp = (struct _MAPMENU *)menup->paramp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((signed int)menup->subprog == 2))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = mp->oufmt.typ != outform ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = mp->oufmt.typ != outform ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
@@ -21162,13 +21162,13 @@ static void mkeyQSortSuffix(const char *hstrp, unsigned int *sfxidxp, unsigned i
   unsigned int *jp;
   unsigned int k;
   unsigned int tmp;
-  unsigned int tmp_post$2;
-  unsigned int tmp_post$3;
+  unsigned int tmp_post_2;
+  unsigned int tmp_post_3;
   if(nsfx >= 2u)
   {
-    signed int return_value_rand$1;
-    return_value_rand$1=rand();
-    a = (unsigned int)return_value_rand$1 % nsfx;
+    signed int return_value_rand_1;
+    return_value_rand_1=rand();
+    a = (unsigned int)return_value_rand_1 % nsfx;
     tmp = sfxidxp[(signed long int)0];
     sfxidxp[(signed long int)0] = sfxidxp[(signed long int)a];
     sfxidxp[(signed long int)a] = tmp;
@@ -21230,9 +21230,9 @@ static void mkeyQSortSuffix(const char *hstrp, unsigned int *sfxidxp, unsigned i
     k = m;
     do
     {
-      tmp_post$2 = k;
+      tmp_post_2 = k;
       k = k - 1u;
-      if(!(tmp_post$2 >= 1u))
+      if(!(tmp_post_2 >= 1u))
         break;
 
       tmp = *ip;
@@ -21248,9 +21248,9 @@ static void mkeyQSortSuffix(const char *hstrp, unsigned int *sfxidxp, unsigned i
     k = m;
     do
     {
-      tmp_post$3 = k;
+      tmp_post_3 = k;
       k = k - 1u;
-      if(!(tmp_post$3 >= 1u))
+      if(!(tmp_post_3 >= 1u))
         break;
 
       tmp = *ip;
@@ -21289,13 +21289,13 @@ static void mksort(const char **x, signed int n, signed int depth, signed int ma
   signed int r;
   signed int v;
   const char *tmp;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
   if(n >= 2)
   {
-    signed int return_value_rand$1;
-    return_value_rand$1=rand();
-    a = return_value_rand$1 % n;
+    signed int return_value_rand_1;
+    return_value_rand_1=rand();
+    a = return_value_rand_1 % n;
     tmp = x[(signed long int)0];
     x[(signed long int)0] = x[(signed long int)a];
     x[(signed long int)a] = tmp;
@@ -21357,9 +21357,9 @@ static void mksort(const char **x, signed int n, signed int depth, signed int ma
     k = r;
     do
     {
-      tmp_post$2 = k;
+      tmp_post_2 = k;
       k = k - 1;
-      if(!(tmp_post$2 >= 1))
+      if(!(tmp_post_2 >= 1))
         break;
 
       tmp = x[(signed long int)i];
@@ -21375,9 +21375,9 @@ static void mksort(const char **x, signed int n, signed int depth, signed int ma
     k = r;
     do
     {
-      tmp_post$3 = k;
+      tmp_post_3 = k;
       k = k - 1;
-      if(!(tmp_post$3 >= 1))
+      if(!(tmp_post_3 >= 1))
         break;
 
       tmp = x[(signed long int)i];
@@ -21442,19 +21442,19 @@ static signed int openINFMTReaderAsFASTQ(struct _InFmtReader *p, const char *fil
 static signed int openINFMTReaderAsSAMBAM(struct _InFmtReader *p, const char *filnam, const char *tmpdir, unsigned char is_sam)
 {
   signed int errcode = 0;
-  const char *tmp_if_expr$1;
+  const char *tmp_if_expr_1;
   if(!(is_sam == 0))
-    tmp_if_expr$1 = BAMBAM_FILTYP_SAM;
+    tmp_if_expr_1 = BAMBAM_FILTYP_SAM;
 
   else
-    tmp_if_expr$1 = BAMBAM_FILTYP_BAM;
-  const char *tmp_if_expr$2;
+    tmp_if_expr_1 = BAMBAM_FILTYP_BAM;
+  const char *tmp_if_expr_2;
   if(!(tmpdir == ((const char *)NULL)))
-    tmp_if_expr$2 = tmpdir;
+    tmp_if_expr_2 = tmpdir;
 
   else
-    tmp_if_expr$2 = BAMBAM_TMPDIR_DEFAULT;
-  p->fid=BamBam_AllocBamCollator(filnam, tmp_if_expr$1, tmp_if_expr$2, 1);
+    tmp_if_expr_2 = BAMBAM_TMPDIR_DEFAULT;
+  p->fid=BamBam_AllocBamCollator(filnam, tmp_if_expr_1, tmp_if_expr_2, 1);
   if(!(p->fid >= 0))
     errcode = 9;
 
@@ -21483,9 +21483,9 @@ static signed int outputHisto(struct _ErrMsg *errmsgp)
 {
   signed int errcode = 0;
   struct _SmaltOutput *dop;
-  void *return_value_threadsGetMem$1;
-  return_value_threadsGetMem$1=threadsGetMem((unsigned char)3);
-  dop = (struct _SmaltOutput *)return_value_threadsGetMem$1;
+  void *return_value_threadsGetMem_1;
+  return_value_threadsGetMem_1=threadsGetMem((unsigned char)3);
+  dop = (struct _SmaltOutput *)return_value_threadsGetMem_1;
   if(!(dop->isamp == ((struct _InsSample *)NULL)))
   {
     struct _InsHist *ihistp;
@@ -21541,15 +21541,15 @@ static signed int outputIOBuffArg(struct _ErrMsg *errmsgp, struct _SmaltOutput *
   }
 
   dop->next_readno = argp->readno + (unsigned long int)1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((2048 & (signed int)smcp->menuflg) == 0))
   {
     if((signed int)smcp->outform == 2)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)smcp->outform == 3 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)smcp->outform == 3 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       reportFixMultiplePrimary(argp->rep);
 
   }
@@ -21568,9 +21568,9 @@ static signed int parseHashOptions(struct _MenuOpt *menup, struct _optflags *opt
   signed int n;
   signed int iv;
   struct _INDEXMENU *ip = (struct _INDEXMENU *)menup->paramp;
-  signed short int return_value_parseOption$1;
-  signed short int return_value_parseOption$2;
-  signed short int return_value_parseOption$3;
+  signed short int return_value_parseOption_1;
+  signed short int return_value_parseOption_2;
+  signed short int return_value_parseOption_3;
   if(!((signed int)menup->subprog == 1))
     return -3;
 
@@ -21580,8 +21580,8 @@ static signed int parseHashOptions(struct _MenuOpt *menup, struct _optflags *opt
     {
       case 68:
       {
-        return_value_parseOption$1=parseOption((void *)&menup->indir, "-D", (char)1, narg, argp);
-        n = (signed int)return_value_parseOption$1;
+        return_value_parseOption_1=parseOption((void *)&menup->indir, "-D", (char)1, narg, argp);
+        n = (signed int)return_value_parseOption_1;
         if(n == -1)
           exitOptionError(argp[(signed long int)0], "requires a directory name as argument.");
 
@@ -21589,8 +21589,8 @@ static signed int parseHashOptions(struct _MenuOpt *menup, struct _optflags *opt
       }
       case 107:
       {
-        return_value_parseOption$2=parseOption((void *)&iv, "-k", (char)2, narg, argp);
-        n = (signed int)return_value_parseOption$2;
+        return_value_parseOption_2=parseOption((void *)&iv, "-k", (char)2, narg, argp);
+        n = (signed int)return_value_parseOption_2;
         if(!(n == -3))
         {
           if(n == -1 || iv >= 21 || !(iv >= 3))
@@ -21604,8 +21604,8 @@ static signed int parseHashOptions(struct _MenuOpt *menup, struct _optflags *opt
       }
       case 115:
       {
-        return_value_parseOption$3=parseOption((void *)&iv, "-s", (char)2, narg, argp);
-        n = (signed int)return_value_parseOption$3;
+        return_value_parseOption_3=parseOption((void *)&iv, "-s", (char)2, narg, argp);
+        n = (signed int)return_value_parseOption_3;
         if(!(n == -3))
         {
           if(n == -1 || iv >= 128 || !(iv >= 1))
@@ -21634,19 +21634,19 @@ static void parseListOfKeyValueAssignments(signed char *vals, unsigned char *bit
   *bitfld = (unsigned char)0;
   estrbufp->strp[(signed long int)0] = (char)0;
   estrbufp->len = (unsigned long int)0;
-  signed int return_value_eStringAppend$1;
-  return_value_eStringAppend$1=eStringAppend(&(*estrbufp), listp, "../src/menu.c", 885);
-  if(!(return_value_eStringAppend$1 == 0))
+  signed int return_value_eStringAppend_1;
+  return_value_eStringAppend_1=eStringAppend(&(*estrbufp), listp, "../src/menu.c", 885);
+  if(!(return_value_eStringAppend_1 == 0))
     exit(1);
 
   liststr = estrbufp->strp;
   parkey=strtok(liststr, OUFMT_LISTSEP);
-  char *tmp_post$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
+  char *tmp_post_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
   while(!(parkey == ((char *)NULL)))
   {
     char *value;
@@ -21656,43 +21656,43 @@ static void parseListOfKeyValueAssignments(signed char *vals, unsigned char *bit
     for( ; !(*value == 0); value = value + 1l)
       if((signed int)*value == 61)
       {
-        tmp_post$2 = value;
+        tmp_post_2 = value;
         value = value + 1l;
-        *tmp_post$2 = (char)0;
+        *tmp_post_2 = (char)0;
         break;
       }
 
     cp = value;
     if((signed int)*cp == 43)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)*cp == 45 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)*cp == 45 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
       cp = cp + 1l;
 
     do
     {
       if(!(*cp == 0))
       {
-        return_value___ctype_b_loc$4=__ctype_b_loc();
-        tmp_if_expr$5 = ((signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)*cp] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_4=__ctype_b_loc();
+        tmp_if_expr_5 = ((signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)*cp] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      if(!tmp_if_expr$5)
+        tmp_if_expr_5 = (_Bool)0;
+      if(!tmp_if_expr_5)
         break;
 
       cp = cp + 1l;
     }
     while((_Bool)1);
     if(!((signed int)*cp == 0))
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = 0 == (signed int)*value ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = 0 == (signed int)*value ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
     {
       printf("Error: wrong format string %s.\n", parkey);
       exit(1);
@@ -21708,16 +21708,16 @@ static void parseListOfKeyValueAssignments(signed char *vals, unsigned char *bit
     i = (signed short int)0;
     for( ; !((signed int)i >= (signed int)nelem); i = i + 1)
     {
-      signed int return_value_strcmp$8;
-      return_value_strcmp$8=strcmp(parkey, (lst + (signed long int)i)->varnam);
-      if(return_value_strcmp$8 == 0)
+      signed int return_value_strcmp_8;
+      return_value_strcmp_8=strcmp(parkey, (lst + (signed long int)i)->varnam);
+      if(return_value_strcmp_8 == 0)
       {
         if(!(ival >= (signed int)(lst + (signed long int)i)->min))
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = ival > (signed int)(lst + (signed long int)i)->max ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = ival > (signed int)(lst + (signed long int)i)->max ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_7)
         {
           printf("Error: value %s=%hi is outside the range [%hi,%hi].\n", parkey, ival, (signed short int)(lst + (signed long int)i)->min, (signed short int)(lst + (signed long int)i)->max);
           exit(1);
@@ -21751,32 +21751,32 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
   signed int iserr = 0;
   double fv;
   struct _MAPMENU *mp = (struct _MAPMENU *)menup->paramp;
-  signed short int return_value_parseOption$1;
-  signed short int return_value_parseOption$2;
-  signed short int return_value_parseOption$3;
-  signed short int return_value_parseOption$4;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$9;
-  signed int return_value_strcmp$7;
-  signed int return_value_strcmp$6;
-  signed short int return_value_parseOption$10;
-  signed short int return_value_parseOption$11;
-  signed short int return_value_parseOption$12;
-  signed int return_value_strcmp$16;
-  signed int return_value_strcmp$14;
-  signed int return_value_strcmp$13;
-  signed short int return_value_parseOption$17;
-  signed short int return_value_parseOption$18;
-  signed short int return_value_parseOption$19;
-  signed short int return_value_parseOption$20;
-  signed short int return_value_parseOption$21;
-  signed short int return_value_parseOption$22;
-  signed short int return_value_parseOption$23;
-  signed int return_value_strcmp$24;
-  signed short int return_value_parseOption$25;
-  signed short int return_value_parseOption$26;
-  signed short int return_value_parseOption$27;
-  signed short int return_value_parseOption$28;
+  signed short int return_value_parseOption_1;
+  signed short int return_value_parseOption_2;
+  signed short int return_value_parseOption_3;
+  signed short int return_value_parseOption_4;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_9;
+  signed int return_value_strcmp_7;
+  signed int return_value_strcmp_6;
+  signed short int return_value_parseOption_10;
+  signed short int return_value_parseOption_11;
+  signed short int return_value_parseOption_12;
+  signed int return_value_strcmp_16;
+  signed int return_value_strcmp_14;
+  signed int return_value_strcmp_13;
+  signed short int return_value_parseOption_17;
+  signed short int return_value_parseOption_18;
+  signed short int return_value_parseOption_19;
+  signed short int return_value_parseOption_20;
+  signed short int return_value_parseOption_21;
+  signed short int return_value_parseOption_22;
+  signed short int return_value_parseOption_23;
+  signed int return_value_strcmp_24;
+  signed short int return_value_parseOption_25;
+  signed short int return_value_parseOption_26;
+  signed short int return_value_parseOption_27;
+  signed short int return_value_parseOption_28;
   if(!((signed int)menup->subprog == 2))
     return -3;
 
@@ -21786,8 +21786,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
     {
       case 97:
       {
-        return_value_parseOption$1=parseOption((void *)0, "-a", (char)0, narg, argp);
-        n = (signed int)return_value_parseOption$1;
+        return_value_parseOption_1=parseOption((void *)0, "-a", (char)0, narg, argp);
+        n = (signed int)return_value_parseOption_1;
         if(!(n == -3))
           mp->flags = mp->flags | (unsigned short int)128;
 
@@ -21795,8 +21795,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
       }
       case 68:
       {
-        return_value_parseOption$2=parseOption((void *)&menup->indir, "-D", (char)1, narg, argp);
-        n = (signed int)return_value_parseOption$2;
+        return_value_parseOption_2=parseOption((void *)&menup->indir, "-D", (char)1, narg, argp);
+        n = (signed int)return_value_parseOption_2;
         if(n == -1)
           exitOptionError(argp[(signed long int)0], "requires a directory name as argument.");
 
@@ -21804,8 +21804,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
       }
       case 99:
       {
-        return_value_parseOption$3=parseOption((void *)&fv, "-c", (char)4, narg, argp);
-        n = (signed int)return_value_parseOption$3;
+        return_value_parseOption_3=parseOption((void *)&fv, "-c", (char)4, narg, argp);
+        n = (signed int)return_value_parseOption_3;
         if(!(n == -3))
         {
           if(fv < -0.000000 || n == -1 || fv > 32767.000000)
@@ -21819,8 +21819,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
       }
       case 100:
       {
-        return_value_parseOption$4=parseOption((void *)&iv, "-d", (char)2, narg, argp);
-        n = (signed int)return_value_parseOption$4;
+        return_value_parseOption_4=parseOption((void *)&iv, "-d", (char)2, narg, argp);
+        n = (signed int)return_value_parseOption_4;
         if(!(n == -3))
         {
           if(n == -1 || iv >= 32768 || !(iv >= -32768))
@@ -21837,8 +21837,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
       {
         n = 2;
         iserr = 0;
-        return_value_strcmp$5=strcmp(argp[(signed long int)0], "-f");
-        if(!(return_value_strcmp$5 == 0))
+        return_value_strcmp_5=strcmp(argp[(signed long int)0], "-f");
+        if(!(return_value_strcmp_5 == 0))
           n = -3;
 
         else
@@ -21855,8 +21855,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
       case 70:
       {
         iserr = 0;
-        return_value_strcmp$9=strcmp(argp[(signed long int)0], "-F");
-        if(!(return_value_strcmp$9 == 0))
+        return_value_strcmp_9=strcmp(argp[(signed long int)0], "-F");
+        if(!(return_value_strcmp_9 == 0))
           n = -3;
 
         else
@@ -21870,21 +21870,21 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
           else
           {
             n = 2;
-            signed int return_value_strcmp$8;
-            return_value_strcmp$8=strcmp(argp[(signed long int)1], "fastq");
-            if(return_value_strcmp$8 == 0)
+            signed int return_value_strcmp_8;
+            return_value_strcmp_8=strcmp(argp[(signed long int)1], "fastq");
+            if(return_value_strcmp_8 == 0)
               mp->inform = (unsigned char)1;
 
             else
             {
-              return_value_strcmp$7=strcmp(argp[(signed long int)1], "sam");
-              if(return_value_strcmp$7 == 0)
+              return_value_strcmp_7=strcmp(argp[(signed long int)1], "sam");
+              if(return_value_strcmp_7 == 0)
                 mp->inform = (unsigned char)2;
 
               else
               {
-                return_value_strcmp$6=strcmp(argp[(signed long int)1], "bam");
-                if(return_value_strcmp$6 == 0)
+                return_value_strcmp_6=strcmp(argp[(signed long int)1], "bam");
+                if(return_value_strcmp_6 == 0)
                   mp->inform = (unsigned char)3;
 
                 else
@@ -21899,8 +21899,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
       }
       case 103:
       {
-        return_value_parseOption$10=parseOption((void *)&mp->insfilnam, "-g", (char)1, narg, argp);
-        n = (signed int)return_value_parseOption$10;
+        return_value_parseOption_10=parseOption((void *)&mp->insfilnam, "-g", (char)1, narg, argp);
+        n = (signed int)return_value_parseOption_10;
         if(n == -1)
           exitOptionError(argp[(signed long int)0], "requires a file name as argument.");
 
@@ -21908,8 +21908,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
       }
       case 105:
       {
-        return_value_parseOption$11=parseOption((void *)&iv, "-i", (char)2, narg, argp);
-        n = (signed int)return_value_parseOption$11;
+        return_value_parseOption_11=parseOption((void *)&iv, "-i", (char)2, narg, argp);
+        n = (signed int)return_value_parseOption_11;
         if(!(n == -3))
         {
           if(n == -1 || !(iv >= 0))
@@ -21923,8 +21923,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
       }
       case 106:
       {
-        return_value_parseOption$12=parseOption((void *)&iv, "-j", (char)2, narg, argp);
-        n = (signed int)return_value_parseOption$12;
+        return_value_parseOption_12=parseOption((void *)&iv, "-j", (char)2, narg, argp);
+        n = (signed int)return_value_parseOption_12;
         if(!(n == -3))
         {
           if(n == -1 || !(iv >= 0))
@@ -21939,8 +21939,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
       case 108:
       {
         okflg = 1;
-        return_value_strcmp$16=strcmp(argp[(signed long int)0], "-l");
-        if(!(return_value_strcmp$16 == 0))
+        return_value_strcmp_16=strcmp(argp[(signed long int)0], "-l");
+        if(!(return_value_strcmp_16 == 0))
           n = -3;
 
         else
@@ -21953,9 +21953,9 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
           else
           {
             n = 2;
-            signed int return_value_strcmp$15;
-            return_value_strcmp$15=strcmp(argp[(signed long int)1], "pe");
-            if(return_value_strcmp$15 == 0)
+            signed int return_value_strcmp_15;
+            return_value_strcmp_15=strcmp(argp[(signed long int)1], "pe");
+            if(return_value_strcmp_15 == 0)
             {
               mp->flags = mp->flags & (unsigned short int)~8192;
               mp->pairtyp = (unsigned char)2;
@@ -21964,8 +21964,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
 
             else
             {
-              return_value_strcmp$14=strcmp(argp[(signed long int)1], "mp");
-              if(return_value_strcmp$14 == 0)
+              return_value_strcmp_14=strcmp(argp[(signed long int)1], "mp");
+              if(return_value_strcmp_14 == 0)
               {
                 mp->flags = mp->flags | (unsigned short int)8192;
                 mp->pairtyp = (unsigned char)3;
@@ -21974,8 +21974,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
 
               else
               {
-                return_value_strcmp$13=strcmp(argp[(signed long int)1], "pp");
-                if(return_value_strcmp$13 == 0)
+                return_value_strcmp_13=strcmp(argp[(signed long int)1], "pp");
+                if(return_value_strcmp_13 == 0)
                 {
                   mp->flags = mp->flags & (unsigned short int)~8192;
                   mp->pairtyp = (unsigned char)4;
@@ -21994,8 +21994,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
       }
       case 109:
       {
-        return_value_parseOption$17=parseOption((void *)&iv, "-m", (char)2, narg, argp);
-        n = (signed int)return_value_parseOption$17;
+        return_value_parseOption_17=parseOption((void *)&iv, "-m", (char)2, narg, argp);
+        n = (signed int)return_value_parseOption_17;
         if(!(n == -3))
         {
           if(n == -1 || iv >= 32768 || !(iv >= 0))
@@ -22010,8 +22010,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
       }
       case 110:
       {
-        return_value_parseOption$18=parseOption((void *)&iv, "-n", (char)2, narg, argp);
-        n = (signed int)return_value_parseOption$18;
+        return_value_parseOption_18=parseOption((void *)&iv, "-n", (char)2, narg, argp);
+        n = (signed int)return_value_parseOption_18;
         if(!(n == -3))
         {
           if(n == -1 || iv >= 32768 || !(iv >= 1))
@@ -22024,8 +22024,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
       }
       case 111:
       {
-        return_value_parseOption$19=parseOption((void *)&mp->oufilnam, "-o", (char)1, narg, argp);
-        n = (signed int)return_value_parseOption$19;
+        return_value_parseOption_19=parseOption((void *)&mp->oufilnam, "-o", (char)1, narg, argp);
+        n = (signed int)return_value_parseOption_19;
         if(n == -1)
           exitOptionError(argp[(signed long int)0], "requires a file name as argument.");
 
@@ -22033,8 +22033,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
       }
       case 79:
       {
-        return_value_parseOption$20=parseOption((void *)0, "-O", (char)0, narg, argp);
-        n = (signed int)return_value_parseOption$20;
+        return_value_parseOption_20=parseOption((void *)0, "-O", (char)0, narg, argp);
+        n = (signed int)return_value_parseOption_20;
         if(!(n == -3))
           mp->flags = mp->flags | (unsigned short int)16384;
 
@@ -22042,8 +22042,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
       }
       case 112:
       {
-        return_value_parseOption$21=parseOption((void *)0, "-p", (char)0, narg, argp);
-        n = (signed int)return_value_parseOption$21;
+        return_value_parseOption_21=parseOption((void *)0, "-p", (char)0, narg, argp);
+        n = (signed int)return_value_parseOption_21;
         if(!(n == -3))
           mp->flags = mp->flags | (unsigned short int)256;
 
@@ -22051,8 +22051,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
       }
       case 113:
       {
-        return_value_parseOption$22=parseOption((void *)&iv, "-q", (char)2, narg, argp);
-        n = (signed int)return_value_parseOption$22;
+        return_value_parseOption_22=parseOption((void *)&iv, "-q", (char)2, narg, argp);
+        n = (signed int)return_value_parseOption_22;
         if(!(n == -3))
         {
           if(n == -1 || iv >= 11 || !(iv >= 0))
@@ -22066,8 +22066,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
       }
       case 114:
       {
-        return_value_parseOption$23=parseOption((void *)&iv, "-r", (char)2, narg, argp);
-        n = (signed int)return_value_parseOption$23;
+        return_value_parseOption_23=parseOption((void *)&iv, "-r", (char)2, narg, argp);
+        n = (signed int)return_value_parseOption_23;
         if(!(n == -3))
         {
           if(n == -1)
@@ -22090,8 +22090,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
       {
         n = 2;
         iserr = 0;
-        return_value_strcmp$24=strcmp(argp[(signed long int)0], "-S");
-        if(!(return_value_strcmp$24 == 0))
+        return_value_strcmp_24=strcmp(argp[(signed long int)0], "-S");
+        if(!(return_value_strcmp_24 == 0))
           n = -3;
 
         else
@@ -22110,8 +22110,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
       }
       case 84:
       {
-        return_value_parseOption$25=parseOption((void *)&mp->tmpdirnam, "-T", (char)1, narg, argp);
-        n = (signed int)return_value_parseOption$25;
+        return_value_parseOption_25=parseOption((void *)&mp->tmpdirnam, "-T", (char)1, narg, argp);
+        n = (signed int)return_value_parseOption_25;
         if(n == -1)
           exitOptionError(argp[(signed long int)0], "requires a directory name as argument.");
 
@@ -22119,8 +22119,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
       }
       case 119:
       {
-        return_value_parseOption$26=parseOption((void *)0, "-w", (char)0, narg, argp);
-        n = (signed int)return_value_parseOption$26;
+        return_value_parseOption_26=parseOption((void *)0, "-w", (char)0, narg, argp);
+        n = (signed int)return_value_parseOption_26;
         if(!(n == -3))
           mp->flags = mp->flags | (unsigned short int)2;
 
@@ -22128,8 +22128,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
       }
       case 120:
       {
-        return_value_parseOption$27=parseOption((void *)0, "-x", (char)0, narg, argp);
-        n = (signed int)return_value_parseOption$27;
+        return_value_parseOption_27=parseOption((void *)0, "-x", (char)0, narg, argp);
+        n = (signed int)return_value_parseOption_27;
         if(!(n == -3))
           mp->flags = mp->flags | (unsigned short int)512;
 
@@ -22137,8 +22137,8 @@ static signed int parseMapOptions(struct _MenuOpt *menup, struct _optflags *optf
       }
       case 121:
       {
-        return_value_parseOption$28=parseOption((void *)&fv, "-y", (char)4, narg, argp);
-        n = (signed int)return_value_parseOption$28;
+        return_value_parseOption_28=parseOption((void *)&fv, "-y", (char)4, narg, argp);
+        n = (signed int)return_value_parseOption_28;
         if(!(n == -3))
         {
           if(fv < -0.000000 || n == -1 || fv > 32767.000000)
@@ -22164,10 +22164,10 @@ static signed short int parseOption(void *optarg, const char *optnam, char optyp
   signed short int rv;
   char *cp;
   char **strpp;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(argp[(signed long int)0], optnam);
-  char *tmp_post$2;
-  if(!(return_value_strcmp$1 == 0))
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(argp[(signed long int)0], optnam);
+  char *tmp_post_2;
+  if(!(return_value_strcmp_1 == 0))
     return (signed short int)-3;
 
   else
@@ -22211,9 +22211,9 @@ static signed short int parseOption(void *optarg, const char *optnam, char optyp
           for( ; !(*cp == 0); cp = cp + 1l)
             if((signed int)*cp == 44)
             {
-              tmp_post$2 = cp;
+              tmp_post_2 = cp;
               cp = cp + 1l;
-              *tmp_post$2 = (char)0;
+              *tmp_post_2 = (char)0;
               break;
             }
 
@@ -22260,16 +22260,16 @@ static void parseOutputFormat(struct _OUFMT *oufmt, struct EString_ *estrbufp, c
   unsigned char is_err = (unsigned char)0;
   estrbufp->strp[(signed long int)0] = (char)0;
   estrbufp->len = (unsigned long int)0;
-  signed int return_value_eStringAppend$1;
-  return_value_eStringAppend$1=eStringAppend(&(*estrbufp), formatp, "../src/menu.c", 990);
-  if(!(return_value_eStringAppend$1 == 0))
+  signed int return_value_eStringAppend_1;
+  return_value_eStringAppend_1=eStringAppend(&(*estrbufp), formatp, "../src/menu.c", 990);
+  if(!(return_value_eStringAppend_1 == 0))
     exit(1);
 
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$2;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_2;
   if(formatp == ((const char *)NULL))
     is_err = (unsigned char)1;
 
@@ -22278,26 +22278,26 @@ static void parseOutputFormat(struct _OUFMT *oufmt, struct EString_ *estrbufp, c
     char *fmtstr = estrbufp->strp;
     char *fmtkey;
     fmtkey=strtok(fmtstr, OUFMT_TYPSEP);
-    signed int return_value_strcmp$7;
-    return_value_strcmp$7=strcmp(fmtkey, "cigar");
-    if(return_value_strcmp$7 == 0)
+    signed int return_value_strcmp_7;
+    return_value_strcmp_7=strcmp(fmtkey, "cigar");
+    if(return_value_strcmp_7 == 0)
       oufmt->typ = (unsigned char)0;
 
     else
     {
-      return_value_strcmp$6=strcmp(fmtkey, "sam");
-      if(return_value_strcmp$6 == 0)
+      return_value_strcmp_6=strcmp(fmtkey, "sam");
+      if(return_value_strcmp_6 == 0)
       {
-        char *parseOutputFormat$$1$$2$$2$$par;
-        parseOutputFormat$$1$$2$$2$$par=strtok((char *)(void *)0, OUFMT_TYPSEP);
+        char *parseOutputFormat__1__2__2__par;
+        parseOutputFormat__1__2__2__par=strtok((char *)(void *)0, OUFMT_TYPSEP);
         oufmt->typ = (unsigned char)1;
-        parseSamParams(&oufmt->flags, parseOutputFormat$$1$$2$$2$$par, optstr);
+        parseSamParams(&oufmt->flags, parseOutputFormat__1__2__2__par, optstr);
       }
 
       else
       {
-        return_value_strcmp$5=strcmp(fmtkey, "samsoft");
-        if(return_value_strcmp$5 == 0)
+        return_value_strcmp_5=strcmp(fmtkey, "samsoft");
+        if(return_value_strcmp_5 == 0)
         {
           oufmt->typ = (unsigned char)1;
           oufmt->flags = (unsigned char)1;
@@ -22305,8 +22305,8 @@ static void parseOutputFormat(struct _OUFMT *oufmt, struct EString_ *estrbufp, c
 
         else
         {
-          return_value_strcmp$4=strcmp(fmtkey, "bam");
-          if(return_value_strcmp$4 == 0)
+          return_value_strcmp_4=strcmp(fmtkey, "bam");
+          if(return_value_strcmp_4 == 0)
           {
             char *par;
             par=strtok((char *)(void *)0, OUFMT_TYPSEP);
@@ -22316,14 +22316,14 @@ static void parseOutputFormat(struct _OUFMT *oufmt, struct EString_ *estrbufp, c
 
           else
           {
-            return_value_strcmp$3=strcmp(fmtkey, "ssaha");
-            if(return_value_strcmp$3 == 0)
+            return_value_strcmp_3=strcmp(fmtkey, "ssaha");
+            if(return_value_strcmp_3 == 0)
               oufmt->typ = (unsigned char)3;
 
             else
             {
-              return_value_strcmp$2=strcmp(fmtkey, "gff");
-              if(return_value_strcmp$2 == 0)
+              return_value_strcmp_2=strcmp(fmtkey, "gff");
+              if(return_value_strcmp_2 == 0)
                 oufmt->typ = (unsigned char)4;
 
               else
@@ -22352,17 +22352,17 @@ static void parseSamParams(unsigned char *samflg, const char *formatp, const cha
     exit(1);
 
   *samflg = (unsigned char)1;
-  signed int return_value_strcmp$5;
-  signed int return_value_strcmp$2;
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcmp$3;
+  signed int return_value_strcmp_5;
+  signed int return_value_strcmp_2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcmp_3;
   if(!(formatp == ((const char *)NULL)))
   {
     estrbufp->strp[(signed long int)0] = (char)0;
     estrbufp->len = (unsigned long int)0;
-    signed int return_value_eStringAppend$1;
-    return_value_eStringAppend$1=eStringAppend(&(*estrbufp), formatp, "../src/menu.c", 954);
-    if(!(return_value_eStringAppend$1 == 0))
+    signed int return_value_eStringAppend_1;
+    return_value_eStringAppend_1=eStringAppend(&(*estrbufp), formatp, "../src/menu.c", 954);
+    if(!(return_value_eStringAppend_1 == 0))
     {
       eStringDelete(&estrbufp, "../src/menu.c", 955);
       exit(1);
@@ -22372,29 +22372,29 @@ static void parseSamParams(unsigned char *samflg, const char *formatp, const cha
     parkey=strtok(fmtstr, OUFMT_PARSEP);
     while(is_err == 0 && !(parkey == ((char *)NULL)))
     {
-      signed int return_value_strcmp$6;
-      return_value_strcmp$6=strcmp(parkey, "nohead");
-      if(return_value_strcmp$6 == 0)
+      signed int return_value_strcmp_6;
+      return_value_strcmp_6=strcmp(parkey, "nohead");
+      if(return_value_strcmp_6 == 0)
         *samflg = *samflg & (unsigned char)~1;
 
       else
       {
-        return_value_strcmp$5=strcmp(parkey, "clip");
-        if(return_value_strcmp$5 == 0)
+        return_value_strcmp_5=strcmp(parkey, "clip");
+        if(return_value_strcmp_5 == 0)
           *samflg = *samflg | (unsigned char)2;
 
         else
         {
-          return_value_strcmp$2=strcmp(parkey, "x");
-          if(return_value_strcmp$2 == 0)
-            tmp_if_expr$4 = (_Bool)1;
+          return_value_strcmp_2=strcmp(parkey, "x");
+          if(return_value_strcmp_2 == 0)
+            tmp_if_expr_4 = (_Bool)1;
 
           else
           {
-            return_value_strcmp$3=strcmp(parkey, "X");
-            tmp_if_expr$4 = !(return_value_strcmp$3 != 0) ? (_Bool)1 : (_Bool)0;
+            return_value_strcmp_3=strcmp(parkey, "X");
+            tmp_if_expr_4 = !(return_value_strcmp_3 != 0) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$4)
+          if(tmp_if_expr_4)
             *samflg = *samflg | (unsigned char)4;
 
           else
@@ -22425,16 +22425,16 @@ static signed int parseSampleOptions(struct _MenuOpt *menup, struct _optflags *o
   signed int iv;
   struct _MAPMENU *mp = (struct _MAPMENU *)menup->paramp;
   signed int iserr;
-  signed int return_value_strcmp$4;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
-  signed short int return_value_parseOption$5;
-  signed short int return_value_parseOption$6;
-  signed short int return_value_parseOption$7;
-  signed short int return_value_parseOption$8;
-  signed short int return_value_parseOption$9;
-  signed short int return_value_parseOption$10;
-  signed short int return_value_parseOption$11;
+  signed int return_value_strcmp_4;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
+  signed short int return_value_parseOption_5;
+  signed short int return_value_parseOption_6;
+  signed short int return_value_parseOption_7;
+  signed short int return_value_parseOption_8;
+  signed short int return_value_parseOption_9;
+  signed short int return_value_parseOption_10;
+  signed short int return_value_parseOption_11;
   if(!((signed int)menup->subprog == 4))
     return -3;
 
@@ -22445,8 +22445,8 @@ static signed int parseSampleOptions(struct _MenuOpt *menup, struct _optflags *o
       case 70:
       {
         iserr = 0;
-        return_value_strcmp$4=strcmp(argp[(signed long int)0], "-F");
-        if(!(return_value_strcmp$4 == 0))
+        return_value_strcmp_4=strcmp(argp[(signed long int)0], "-F");
+        if(!(return_value_strcmp_4 == 0))
           n = -3;
 
         else
@@ -22460,21 +22460,21 @@ static signed int parseSampleOptions(struct _MenuOpt *menup, struct _optflags *o
           else
           {
             n = 2;
-            signed int return_value_strcmp$3;
-            return_value_strcmp$3=strcmp(argp[(signed long int)1], "fastq");
-            if(return_value_strcmp$3 == 0)
+            signed int return_value_strcmp_3;
+            return_value_strcmp_3=strcmp(argp[(signed long int)1], "fastq");
+            if(return_value_strcmp_3 == 0)
               mp->inform = (unsigned char)1;
 
             else
             {
-              return_value_strcmp$2=strcmp(argp[(signed long int)1], "sam");
-              if(return_value_strcmp$2 == 0)
+              return_value_strcmp_2=strcmp(argp[(signed long int)1], "sam");
+              if(return_value_strcmp_2 == 0)
                 mp->inform = (unsigned char)2;
 
               else
               {
-                return_value_strcmp$1=strcmp(argp[(signed long int)1], "bam");
-                if(return_value_strcmp$1 == 0)
+                return_value_strcmp_1=strcmp(argp[(signed long int)1], "bam");
+                if(return_value_strcmp_1 == 0)
                   mp->inform = (unsigned char)3;
 
                 else
@@ -22489,8 +22489,8 @@ static signed int parseSampleOptions(struct _MenuOpt *menup, struct _optflags *o
       }
       case 109:
       {
-        return_value_parseOption$5=parseOption((void *)&iv, "-m", (char)2, narg, argp);
-        n = (signed int)return_value_parseOption$5;
+        return_value_parseOption_5=parseOption((void *)&iv, "-m", (char)2, narg, argp);
+        n = (signed int)return_value_parseOption_5;
         if(!(n == -3))
         {
           if(n == -1 || iv >= 32768 || !(iv >= 0))
@@ -22505,8 +22505,8 @@ static signed int parseSampleOptions(struct _MenuOpt *menup, struct _optflags *o
       }
       case 110:
       {
-        return_value_parseOption$6=parseOption((void *)&iv, "-n", (char)2, narg, argp);
-        n = (signed int)return_value_parseOption$6;
+        return_value_parseOption_6=parseOption((void *)&iv, "-n", (char)2, narg, argp);
+        n = (signed int)return_value_parseOption_6;
         if(!(n == -3))
         {
           if(n == -1 || iv >= 32768 || !(iv >= 1))
@@ -22519,8 +22519,8 @@ static signed int parseSampleOptions(struct _MenuOpt *menup, struct _optflags *o
       }
       case 111:
       {
-        return_value_parseOption$7=parseOption((void *)&mp->oufilnam, "-o", (char)1, narg, argp);
-        n = (signed int)return_value_parseOption$7;
+        return_value_parseOption_7=parseOption((void *)&mp->oufilnam, "-o", (char)1, narg, argp);
+        n = (signed int)return_value_parseOption_7;
         if(n == -1)
           exitOptionError(argp[(signed long int)0], "requires a file name as argument.");
 
@@ -22528,8 +22528,8 @@ static signed int parseSampleOptions(struct _MenuOpt *menup, struct _optflags *o
       }
       case 113:
       {
-        return_value_parseOption$8=parseOption((void *)&iv, "-q", (char)2, narg, argp);
-        n = (signed int)return_value_parseOption$8;
+        return_value_parseOption_8=parseOption((void *)&iv, "-q", (char)2, narg, argp);
+        n = (signed int)return_value_parseOption_8;
         if(!(n == -3))
         {
           if(n == -1 || iv >= 11 || !(iv >= 0))
@@ -22543,8 +22543,8 @@ static signed int parseSampleOptions(struct _MenuOpt *menup, struct _optflags *o
       }
       case 116:
       {
-        return_value_parseOption$9=parseOption((void *)&iv, "-t", (char)2, narg, argp);
-        n = (signed int)return_value_parseOption$9;
+        return_value_parseOption_9=parseOption((void *)&iv, "-t", (char)2, narg, argp);
+        n = (signed int)return_value_parseOption_9;
         if(!(n == -3))
         {
           if(n == -1 || !(iv >= 0))
@@ -22558,8 +22558,8 @@ static signed int parseSampleOptions(struct _MenuOpt *menup, struct _optflags *o
       }
       case 84:
       {
-        return_value_parseOption$10=parseOption((void *)&mp->tmpdirnam, "-T", (char)1, narg, argp);
-        n = (signed int)return_value_parseOption$10;
+        return_value_parseOption_10=parseOption((void *)&mp->tmpdirnam, "-T", (char)1, narg, argp);
+        n = (signed int)return_value_parseOption_10;
         if(n == -1)
           exitOptionError(argp[(signed long int)0], "requires a directory name as argument.");
 
@@ -22567,8 +22567,8 @@ static signed int parseSampleOptions(struct _MenuOpt *menup, struct _optflags *o
       }
       case 117:
       {
-        return_value_parseOption$11=parseOption((void *)&iv, "-u", (char)2, narg, argp);
-        n = (signed int)return_value_parseOption$11;
+        return_value_parseOption_11=parseOption((void *)&iv, "-u", (char)2, narg, argp);
+        n = (signed int)return_value_parseOption_11;
         if(!(n == -3))
         {
           if(n == -1 || !(iv >= 0))
@@ -22594,17 +22594,17 @@ static signed int prepSample(struct _ErrMsg *errmsgp, const struct _SmaltMapCons
   signed int errcode = 0;
   signed long int nreads = (signed long int)0;
   struct _SmaltInput *input_args;
-  void *return_value_threadsGetMem$1;
-  return_value_threadsGetMem$1=threadsGetMem((unsigned char)1);
-  input_args = (struct _SmaltInput *)return_value_threadsGetMem$1;
+  void *return_value_threadsGetMem_1;
+  return_value_threadsGetMem_1=threadsGetMem((unsigned char)1);
+  input_args = (struct _SmaltInput *)return_value_threadsGetMem_1;
   struct SmaltArgBlock_ *blockp;
-  void *return_value_threadsGetMem$2;
-  return_value_threadsGetMem$2=threadsGetMem((unsigned char)0);
-  blockp = (struct SmaltArgBlock_ *)return_value_threadsGetMem$2;
+  void *return_value_threadsGetMem_2;
+  return_value_threadsGetMem_2=threadsGetMem((unsigned char)0);
+  blockp = (struct SmaltArgBlock_ *)return_value_threadsGetMem_2;
   struct _SmaltOutput *dop;
-  void *return_value_threadsGetMem$3;
-  return_value_threadsGetMem$3=threadsGetMem((unsigned char)3);
-  dop = (struct _SmaltOutput *)return_value_threadsGetMem$3;
+  void *return_value_threadsGetMem_3;
+  return_value_threadsGetMem_3=threadsGetMem((unsigned char)3);
+  dop = (struct _SmaltOutput *)return_value_threadsGetMem_3;
   struct _SmaltIOBuffArg *iobfp;
   /* assertion common_args != ((void *)0) */
   assert(common_args != (const struct _SmaltMapConst *)(void *)0);
@@ -22655,7 +22655,7 @@ static signed int printSEGCAND(struct _IO_FILE *fp, const struct _SEGCAND *scp)
 
 // printSeed
 // file segment.c line 378
-static void printSeed(struct _IO_FILE *fp, const struct _SEED$0 *sp, char is_reverse, unsigned char nskip, unsigned char ktup)
+static void printSeed(struct _IO_FILE *fp, const struct _SEED_0 *sp, char is_reverse, unsigned char nskip, unsigned char ktup)
 {
   unsigned int qo = (unsigned int)(sp->sqo & (unsigned long int)2147483647);
   unsigned long int so;
@@ -22724,10 +22724,10 @@ static signed int processMapArgs(struct _ErrMsg *errmsgp, struct _SmaltMapArgs *
   readp = brgp->readp;
   matep = brgp->matep;
   errMsgSetCurrentReadNumber(errmsgp, brgp->readno + (unsigned long int)1);
-  const char *return_value_seqFastqGetSeqName$1;
-  return_value_seqFastqGetSeqName$1=seqFastqGetSeqName(readp);
-  errMsgSetCurrentReadName(errmsgp, return_value_seqFastqGetSeqName$1);
-  signed int return_value_resultSetInferInsertSize$2;
+  const char *return_value_seqFastqGetSeqName_1;
+  return_value_seqFastqGetSeqName_1=seqFastqGetSeqName(readp);
+  errMsgSetCurrentReadName(errmsgp, return_value_seqFastqGetSeqName_1);
+  signed int return_value_resultSetInferInsertSize_2;
   if(macop->tupcovmin < 0.000000)
     return 47;
 
@@ -22796,8 +22796,8 @@ static signed int processMapArgs(struct _ErrMsg *errmsgp, struct _SmaltMapArgs *
 
         if((signed int)macop->subprogtyp == 4)
         {
-          return_value_resultSetInferInsertSize$2=resultSetInferInsertSize(&brgp->isiz, (unsigned char)1, rsltp, rslt_matep);
-          if(return_value_resultSetInferInsertSize$2 == 0)
+          return_value_resultSetInferInsertSize_2=resultSetInferInsertSize(&brgp->isiz, (unsigned char)1, rsltp, rslt_matep);
+          if(return_value_resultSetInferInsertSize_2 == 0)
             brgp->pairflg = brgp->pairflg | (unsigned char)64;
 
         }
@@ -22830,15 +22830,15 @@ static signed int propagateMapQualAsProb(signed short int qsegx, const struct _R
   double p1 = 0.0;
   double p2 = 0.0;
   struct _RESULT **rspp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((8 & (signed int)rsetp->status) == 0 || !((signed int)qsegx >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)qsegx >= (signed int)rsetp->qsegno ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)qsegx >= (signed int)rsetp->qsegno ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_1)
     return 47;
 
   else
@@ -22854,11 +22854,11 @@ static signed int propagateMapQualAsProb(signed short int qsegx, const struct _R
       do
       {
         if(!((signed int)i >= (signed int)nn))
-          tmp_if_expr$2 = rspp[(signed long int)i]->swatscor == rspp[(signed long int)0]->swatscor ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = rspp[(signed long int)i]->swatscor == rspp[(signed long int)0]->swatscor ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(!tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(!tmp_if_expr_2)
           break;
 
         i = i + 1;
@@ -22871,11 +22871,11 @@ static signed int propagateMapQualAsProb(signed short int qsegx, const struct _R
         do
         {
           if(!((signed int)i >= (signed int)nn))
-            tmp_if_expr$3 = rspp[(signed long int)i]->swatscor == rspp[(signed long int)n1]->swatscor ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = rspp[(signed long int)i]->swatscor == rspp[(signed long int)n1]->swatscor ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          if(!tmp_if_expr$3)
+            tmp_if_expr_3 = (_Bool)0;
+          if(!tmp_if_expr_3)
             break;
 
           i = i + 1;
@@ -22972,19 +22972,19 @@ static signed int pullARGBUFF(struct _BUFFARG **argp, struct _ARGBUFF *fifop)
 static struct _BUFFARG * pullTHREADARGInternalBuffer(struct _THREADARG *thargp, signed int (*checkf)(const void *, const void *), void *tdatap)
 {
   struct _BUFFARG *argp = thargp->buflstp;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   signed int return_value;
   if(!(argp == ((struct _BUFFARG *)NULL)))
   {
     if(checkf == ((signed int (*)(const void *, const void *))NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
     {
       return_value=checkf(tdatap, argp->thisp);
-      tmp_if_expr$1 = return_value != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = return_value != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$1)
+    if(tmp_if_expr_1)
     {
       thargp->buflstp = argp->nextp;
       argp->nextp = (struct _BUFFARG *)(void *)0;
@@ -23044,19 +23044,19 @@ static signed int pushARGBUFF(struct _ARGBUFF *fifop, struct _BUFFARG *argp)
 static void pushTHREADARGInternalBuffer(struct _THREADARG *thargp, struct _BUFFARG *argp, signed int (*cmpf)(const void *, const void *))
 {
   struct _BUFFARG *hp = thargp->buflstp;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   signed int return_value_1;
   if(cmpf == ((signed int (*)(const void *, const void *))NULL) || hp == ((struct _BUFFARG *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
     return_value_1=cmpf(argp->thisp, hp->thisp);
-    tmp_if_expr$2 = return_value_1 <= 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = return_value_1 <= 0 ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   signed int return_value;
-  if(tmp_if_expr$2)
+  if(tmp_if_expr_2)
   {
     argp->nextp = hp;
     thargp->buflstp = argp;
@@ -23070,12 +23070,12 @@ static void pushTHREADARGInternalBuffer(struct _THREADARG *thargp, struct _BUFFA
       if(!(lp == ((struct _BUFFARG *)NULL)))
       {
         return_value=cmpf(argp->thisp, lp->thisp);
-        tmp_if_expr$1 = return_value > 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = return_value > 0 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       hp = lp;
@@ -23105,17 +23105,17 @@ static signed int readCompressedSeq(struct _SEQSEQ *sp, struct _IO_FILE *fp)
   {
     if(bytctr >= sp->alloc_size + -nbytes_uint32_t)
     {
-      signed int return_value_reallocSeqBlocks$1;
-      return_value_reallocSeqBlocks$1=reallocSeqBlocks(sp, bytctr + nbytes_uint32_t);
-      if(!(return_value_reallocSeqBlocks$1 == 0))
+      signed int return_value_reallocSeqBlocks_1;
+      return_value_reallocSeqBlocks_1=reallocSeqBlocks(sp, bytctr + nbytes_uint32_t);
+      if(!(return_value_reallocSeqBlocks_1 == 0))
         return 2;
 
       cp = (unsigned int *)(sp->basep + (signed long int)bytctr);
     }
 
-    unsigned long int return_value_fread$2;
-    return_value_fread$2=fread((void *)cp, nbytes_uint32_t, (unsigned long int)1, fp);
-    if(!(return_value_fread$2 == 1ul))
+    unsigned long int return_value_fread_2;
+    return_value_fread_2=fread((void *)cp, nbytes_uint32_t, (unsigned long int)1, fp);
+    if(!(return_value_fread_2 == 1ul))
       break;
 
     i = (signed short int)(10 - 1);
@@ -23154,9 +23154,9 @@ static signed int readCompressedSeqOfKnownLength(struct _SEQSEQ *sp, struct _IO_
 
   else
   {
-    unsigned long int return_value_fread$1;
-    return_value_fread$1=fread((void *)sp->basep, (unsigned long int)4, n_units, fp);
-    if(!(return_value_fread$1 == n_units))
+    unsigned long int return_value_fread_1;
+    return_value_fread_1=fread((void *)sp->basep, (unsigned long int)4, n_units, fp);
+    if(!(return_value_fread_1 == n_units))
       return 33;
 
     else
@@ -23185,9 +23185,9 @@ static signed int readHeader(unsigned int *filsiz, unsigned char *filtyp, unsign
   nrobj=fread((void *)header, sizeof(unsigned int) /*4ul*/ , (unsigned long int)12, fp);
   if(!(nrobj == 12ul))
   {
-    signed int return_value_ferror$1;
-    return_value_ferror$1=ferror(fp);
-    if(!(return_value_ferror$1 == 0))
+    signed int return_value_ferror_1;
+    return_value_ferror_1=ferror(fp);
+    if(!(return_value_ferror_1 == 0))
       perror(READERRMSG);
 
     return 14;
@@ -23222,9 +23222,9 @@ static signed int readHeader(unsigned int *filsiz, unsigned char *filtyp, unsign
   }
 }
 
-// readHeader$link1
+// readHeader_link1
 // file sequence.c line 1056
-static signed int readHeader$link1(struct _SEQSEQ *sp, struct gzFile_s *fp$link1, signed int *prompt, char *bufp)
+static signed int readHeader_link1(struct _SEQSEQ *sp, struct gzFile_s *fp_link1, signed int *prompt, char *bufp)
 {
   signed int errcode = 0;
   char *cp;
@@ -23240,11 +23240,11 @@ static signed int readHeader$link1(struct _SEQSEQ *sp, struct gzFile_s *fp$link1
   top = sp->basep;
   nextp = bufp;
   i = (unsigned int)0;
-  _Bool tmp_if_expr$1;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  _Bool tmp_if_expr$3;
-  signed int return_value_reallocSeqBlocks$5;
-  char *tmp_post$6;
+  _Bool tmp_if_expr_1;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  _Bool tmp_if_expr_3;
+  signed int return_value_reallocSeqBlocks_5;
+  char *tmp_post_6;
   while(eol_flag == 0 && !(nextp == ((char *)NULL)))
   {
     cp = nextp;
@@ -23252,16 +23252,16 @@ static signed int readHeader$link1(struct _SEQSEQ *sp, struct gzFile_s *fp$link1
     {
       if(!(was_space == 0))
       {
-        const unsigned short int **return_value___ctype_b_loc$2;
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        if(!((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*cp]) == 0))
+        const unsigned short int **return_value___ctype_b_loc_2;
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        if(!((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*cp]) == 0))
         {
           if((signed int)*cp == 10)
-            tmp_if_expr$1 = *prompt != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = *prompt != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          eol_flag = (unsigned char)tmp_if_expr$1;
+            tmp_if_expr_1 = (_Bool)0;
+          eol_flag = (unsigned char)tmp_if_expr_1;
           goto __CPROVER_DUMP_L14;
         }
 
@@ -23287,15 +23287,15 @@ static signed int readHeader$link1(struct _SEQSEQ *sp, struct gzFile_s *fp$link1
 
       else
       {
-        return_value___ctype_b_loc$4=__ctype_b_loc();
-        if(!((8192 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)*cp]) == 0))
+        return_value___ctype_b_loc_4=__ctype_b_loc();
+        if(!((8192 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)*cp]) == 0))
         {
           if((signed int)*cp == 10)
-            tmp_if_expr$3 = *prompt != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = *prompt != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          eol_flag = (unsigned char)tmp_if_expr$3;
+            tmp_if_expr_3 = (_Bool)0;
+          eol_flag = (unsigned char)tmp_if_expr_3;
           if(!(eol_flag == 0))
             goto __CPROVER_DUMP_L14;
 
@@ -23305,16 +23305,16 @@ static signed int readHeader$link1(struct _SEQSEQ *sp, struct gzFile_s *fp$link1
       }
       if((unsigned long int)(1u + i) >= sp->alloc_size)
       {
-        return_value_reallocSeqBlocks$5=reallocSeqBlocks(sp, (unsigned long int)(i + (unsigned int)2));
-        if(!(return_value_reallocSeqBlocks$5 == 0))
+        return_value_reallocSeqBlocks_5=reallocSeqBlocks(sp, (unsigned long int)(i + (unsigned int)2));
+        if(!(return_value_reallocSeqBlocks_5 == 0))
           return 2;
 
       }
 
       top = sp->basep + (signed long int)i;
-      tmp_post$6 = top;
+      tmp_post_6 = top;
       top = top + 1l;
-      *tmp_post$6 = *cp;
+      *tmp_post_6 = *cp;
       i = i + 1u;
       if(i >= 4294967295u)
         return 36;
@@ -23323,7 +23323,7 @@ static signed int readHeader$link1(struct _SEQSEQ *sp, struct gzFile_s *fp$link1
     __CPROVER_DUMP_L14:
       ;
     }
-    nextp=gzgets(fp$link1, bufp, 1024);
+    nextp=gzgets(fp_link1, bufp, 1024);
   }
   if(i >= 1u && !(was_space == 0))
   {
@@ -23335,9 +23335,9 @@ static signed int readHeader$link1(struct _SEQSEQ *sp, struct gzFile_s *fp$link1
   sp->size = (unsigned long int)i;
   if(nextp == ((char *)NULL))
   {
-    signed int return_value_gzeof$7;
-    return_value_gzeof$7=gzeof(fp$link1);
-    errcode = return_value_gzeof$7 != 0 ? 10 : 50;
+    signed int return_value_gzeof_7;
+    return_value_gzeof_7=gzeof(fp_link1);
+    errcode = return_value_gzeof_7 != 0 ? 10 : 50;
   }
 
   return errcode;
@@ -23348,7 +23348,7 @@ static signed int readHeader$link1(struct _SEQSEQ *sp, struct gzFile_s *fp$link1
 static signed int readQual(struct _SeqFastq *sqp, struct _SeqIO *ifp)
 {
   signed int this_prompt;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(sqp->qheadp == ((struct _SEQSEQ *)NULL))
   {
     sqp->qheadp=createSeq((unsigned int)sqp->headp->block_size);
@@ -23363,7 +23363,7 @@ static signed int readQual(struct _SeqFastq *sqp, struct _SeqIO *ifp)
 
   __CPROVER_DUMP_L1:
     ;
-    ifp->status=readHeader$link1(sqp->qheadp, (struct gzFile_s *)ifp->fp, &this_prompt, ifp->linbufp);
+    ifp->status=readHeader_link1(sqp->qheadp, (struct gzFile_s *)ifp->fp, &this_prompt, ifp->linbufp);
     if(!(ifp->status == 0))
       return ifp->status;
 
@@ -23398,11 +23398,11 @@ static signed int readQual(struct _SeqFastq *sqp, struct _SeqIO *ifp)
             ifp->status=readSeqFast(sqp->qualp, (struct gzFile_s *)ifp->fp, &this_prompt, ifp->linbufp, (unsigned int)sqp->datap->size);
             sqp->type = (char)2;
             if(ifp->status == 10)
-              tmp_if_expr$1 = 0;
+              tmp_if_expr_1 = 0;
 
             else
-              tmp_if_expr$1 = ifp->status;
-            return tmp_if_expr$1;
+              tmp_if_expr_1 = ifp->status;
+            return tmp_if_expr_1;
           }
         }
   }
@@ -23422,34 +23422,34 @@ static signed int readSeq(struct _SEQSEQ *sp, struct gzFile_s *fp, signed int *p
   *prompt = 0;
   cp = sp->basep;
   i = (unsigned int)0;
-  signed int tmp_if_expr$3;
-  unsigned char *tmp_post$1;
-  signed int return_value_gzgetc$2;
+  signed int tmp_if_expr_3;
+  unsigned char *tmp_post_1;
+  signed int return_value_gzgetc_2;
   if(!(fp->have == 0u))
   {
     fp->have = fp->have - 1u;
     fp->pos = fp->pos + 1l;
-    tmp_post$1 = fp->next;
+    tmp_post_1 = fp->next;
     fp->next = fp->next + 1l;
-    tmp_if_expr$3 = (signed int)*tmp_post$1;
+    tmp_if_expr_3 = (signed int)*tmp_post_1;
   }
 
   else
   {
-    return_value_gzgetc$2=gzgetc(fp);
-    tmp_if_expr$3 = return_value_gzgetc$2;
+    return_value_gzgetc_2=gzgetc(fp);
+    tmp_if_expr_3 = return_value_gzgetc_2;
   }
-  c = tmp_if_expr$3;
-  signed int return_value_reallocSeqBlocks$8;
-  char *tmp_post$9;
-  signed int tmp_if_expr$6;
-  unsigned char *tmp_post$4;
-  signed int return_value_gzgetc$5;
-  for( ; !(c == -1) && !(i >= 4294967295u); c = tmp_if_expr$6)
+  c = tmp_if_expr_3;
+  signed int return_value_reallocSeqBlocks_8;
+  char *tmp_post_9;
+  signed int tmp_if_expr_6;
+  unsigned char *tmp_post_4;
+  signed int return_value_gzgetc_5;
+  for( ; !(c == -1) && !(i >= 4294967295u); c = tmp_if_expr_6)
   {
-    const unsigned short int **return_value___ctype_b_loc$7;
-    return_value___ctype_b_loc$7=__ctype_b_loc();
-    if(!((8192 & (signed int)(*return_value___ctype_b_loc$7)[(signed long int)c]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_7;
+    return_value___ctype_b_loc_7=__ctype_b_loc();
+    if(!((8192 & (signed int)(*return_value___ctype_b_loc_7)[(signed long int)c]) == 0))
     {
       if(c == 10)
         was_newline = (unsigned char)1;
@@ -23467,31 +23467,31 @@ static signed int readSeq(struct _SEQSEQ *sp, struct gzFile_s *fp, signed int *p
 
       if((unsigned long int)(1u + i) >= sp->alloc_size)
       {
-        return_value_reallocSeqBlocks$8=reallocSeqBlocks(sp, (unsigned long int)(i + (unsigned int)2));
-        if(!(return_value_reallocSeqBlocks$8 == 0))
+        return_value_reallocSeqBlocks_8=reallocSeqBlocks(sp, (unsigned long int)(i + (unsigned int)2));
+        if(!(return_value_reallocSeqBlocks_8 == 0))
           return 2;
 
       }
 
       cp = sp->basep + (signed long int)i;
-      tmp_post$9 = cp;
+      tmp_post_9 = cp;
       cp = cp + 1l;
-      *tmp_post$9 = (char)c;
+      *tmp_post_9 = (char)c;
       i = i + 1u;
     }
     if(!(fp->have == 0u))
     {
       fp->have = fp->have - 1u;
       fp->pos = fp->pos + 1l;
-      tmp_post$4 = fp->next;
+      tmp_post_4 = fp->next;
       fp->next = fp->next + 1l;
-      tmp_if_expr$6 = (signed int)*tmp_post$4;
+      tmp_if_expr_6 = (signed int)*tmp_post_4;
     }
 
     else
     {
-      return_value_gzgetc$5=gzgetc(fp);
-      tmp_if_expr$6 = return_value_gzgetc$5;
+      return_value_gzgetc_5=gzgetc(fp);
+      tmp_if_expr_6 = return_value_gzgetc_5;
     }
   }
   *cp = (char)0;
@@ -23517,19 +23517,19 @@ static signed int readSeqFast(struct _SEQSEQ *sp, struct gzFile_s *fp, signed in
   top = sp->basep;
   i = (unsigned int)0;
   nextp = bufp;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  signed int return_value_reallocSeqBlocks$4;
-  char *tmp_post$5;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_reallocSeqBlocks_4;
+  char *tmp_post_5;
+  _Bool tmp_if_expr_1;
   do
   {
     cp = nextp;
     for( ; eos_flag == 0 && !(*cp == 0); cp = cp + 1l)
     {
-      const unsigned short int **return_value___ctype_b_loc$6;
-      return_value___ctype_b_loc$6=__ctype_b_loc();
-      if(!((8192 & (signed int)(*return_value___ctype_b_loc$6)[(signed long int)(signed int)*cp]) == 0))
+      const unsigned short int **return_value___ctype_b_loc_6;
+      return_value___ctype_b_loc_6=__ctype_b_loc();
+      if(!((8192 & (signed int)(*return_value___ctype_b_loc_6)[(signed long int)(signed int)*cp]) == 0))
         was_newline = (unsigned char)((signed int)*cp == 10);
 
       else
@@ -23539,16 +23539,16 @@ static signed int readSeqFast(struct _SEQSEQ *sp, struct gzFile_s *fp, signed in
           if(i >= minlen)
           {
             if((signed int)*cp == 62)
-              tmp_if_expr$2 = (_Bool)1;
+              tmp_if_expr_2 = (_Bool)1;
 
             else
-              tmp_if_expr$2 = (signed int)*cp == 64 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$2)
-              tmp_if_expr$3 = (_Bool)1;
+              tmp_if_expr_2 = (signed int)*cp == 64 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_2)
+              tmp_if_expr_3 = (_Bool)1;
 
             else
-              tmp_if_expr$3 = (signed int)*cp == 43 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$3)
+              tmp_if_expr_3 = (signed int)*cp == 43 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_3)
             {
               *prompt = (signed int)*cp;
               eos_flag = (unsigned char)1;
@@ -23562,16 +23562,16 @@ static signed int readSeqFast(struct _SEQSEQ *sp, struct gzFile_s *fp, signed in
 
         if((unsigned long int)(1u + i) >= sp->alloc_size)
         {
-          return_value_reallocSeqBlocks$4=reallocSeqBlocks(sp, (unsigned long int)(i + (unsigned int)2));
-          if(!(return_value_reallocSeqBlocks$4 == 0))
+          return_value_reallocSeqBlocks_4=reallocSeqBlocks(sp, (unsigned long int)(i + (unsigned int)2));
+          if(!(return_value_reallocSeqBlocks_4 == 0))
             return 2;
 
         }
 
         top = sp->basep + (signed long int)i;
-        tmp_post$5 = top;
+        tmp_post_5 = top;
         top = top + 1l;
-        *tmp_post$5 = *cp;
+        *tmp_post_5 = *cp;
         i = i + 1u;
       }
 
@@ -23581,20 +23581,20 @@ static signed int readSeqFast(struct _SEQSEQ *sp, struct gzFile_s *fp, signed in
     if(eos_flag == 0)
     {
       nextp=gzgets(fp, bufp, 1024);
-      tmp_if_expr$1 = nextp != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = nextp != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$1 = (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
   }
-  while(tmp_if_expr$1);
+  while(tmp_if_expr_1);
   *top = (char)0;
-  signed int return_value_gzeof$7;
+  signed int return_value_gzeof_7;
   sp->size = (unsigned long int)i;
   if(nextp == ((char *)NULL))
   {
-    return_value_gzeof$7=gzeof(fp);
-    errcode = return_value_gzeof$7 != 0 ? 10 : 50;
+    return_value_gzeof_7=gzeof(fp);
+    errcode = return_value_gzeof_7 != 0 ? 10 : 50;
   }
 
   return errcode;
@@ -23759,9 +23759,9 @@ static signed int reallocQMask(struct _SegQMask *p, unsigned int newsiz)
 {
   unsigned long int nsz = (unsigned long int)(((newsiz - (unsigned int)1) / (unsigned int)p->blksiz + (unsigned int)1) * (unsigned int)p->blksiz);
   unsigned char *hp;
-  void *return_value_erealloc$1;
-  return_value_erealloc$1=erealloc((void *)p->maskp, nsz * sizeof(unsigned char) /*1ul*/ , (unsigned long int)0, "segment.c", 678);
-  hp = (unsigned char *)return_value_erealloc$1;
+  void *return_value_erealloc_1;
+  return_value_erealloc_1=erealloc((void *)p->maskp, nsz * sizeof(unsigned char) /*1ul*/ , (unsigned long int)0, "segment.c", 678);
+  hp = (unsigned char *)return_value_erealloc_1;
   if(hp == ((unsigned char *)NULL))
     return 2;
 
@@ -23779,9 +23779,9 @@ static signed int reallocQmask(struct _HashHitList *hlp, unsigned int seqlen)
 {
   unsigned long int nsiz = (unsigned long int)(((unsigned int)(seqlen / (unsigned int)512) + (unsigned int)1) * (unsigned int)512);
   char *qmaskp;
-  void *return_value_erealloc$1;
-  return_value_erealloc$1=erealloc((void *)hlp->qmask, nsiz, (unsigned long int)0, "hashhit.c", 1253);
-  qmaskp = (char *)return_value_erealloc$1;
+  void *return_value_erealloc_1;
+  return_value_erealloc_1=erealloc((void *)hlp->qmask, nsiz, (unsigned long int)0, "hashhit.c", 1253);
+  qmaskp = (char *)return_value_erealloc_1;
   if(qmaskp == ((char *)NULL))
     return 2;
 
@@ -23891,9 +23891,9 @@ static signed int reallocSeqBlocks(struct _SEQSEQ *sp, unsigned long int minsize
   unsigned long int newsiz = minsize / (unsigned long int)sp->block_size + (unsigned long int)1;
   newsiz = newsiz * (unsigned long int)sp->block_size;
   char *hp;
-  void *return_value_erealloc$1;
-  return_value_erealloc$1=erealloc((void *)sp->basep, newsiz * sizeof(char) /*1ul*/ , (unsigned long int)0, "sequence.c", 748);
-  hp = (char *)return_value_erealloc$1;
+  void *return_value_erealloc_1;
+  return_value_erealloc_1=erealloc((void *)sp->basep, newsiz * sizeof(char) /*1ul*/ , (unsigned long int)0, "sequence.c", 748);
+  hp = (char *)return_value_erealloc_1;
   if(hp == ((char *)NULL))
     return 2;
 
@@ -23961,9 +23961,9 @@ static signed int reallocSeqSetName(struct _SeqSet *ssp, unsigned long int len)
 
     else
     {
-      void *return_value_erealloc$1;
-      return_value_erealloc$1=erealloc((void *)ssp->namebasep, nsiz * sizeof(char) /*1ul*/ , (unsigned long int)0, "sequence.c", 2269);
-      hp = (char *)return_value_erealloc$1;
+      void *return_value_erealloc_1;
+      return_value_erealloc_1=erealloc((void *)ssp->namebasep, nsiz * sizeof(char) /*1ul*/ , (unsigned long int)0, "sequence.c", 2269);
+      hp = (char *)return_value_erealloc_1;
       if(hp == ((char *)NULL))
         return 2;
 
@@ -24045,10 +24045,10 @@ signed int reportAddMap(struct _Report *rep, signed int pairid, signed int swats
   if(dstrp == ((const unsigned char *)NULL) || !(dfslen >= 1))
     mateflg = mateflg & (unsigned char)~1;
 
-  unsigned long int tmp_post$2;
-  unsigned long int tmp_post$3;
-  unsigned long int tmp_post$5;
-  unsigned long int tmp_post$6;
+  unsigned long int tmp_post_2;
+  unsigned long int tmp_post_3;
+  unsigned long int tmp_post_5;
+  unsigned long int tmp_post_6;
   if(pairid >= 0 && !((4 & (signed int)mateflg) == 0))
   {
     if((unsigned long int)pairid >= ((unsigned long int *)rep->pairr)[-1l])
@@ -24085,24 +24085,24 @@ signed int reportAddMap(struct _Report *rep, signed int pairid, signed int swats
           pp->iB = (signed int)((unsigned long int *)rep->arBr)[(signed long int)-1];
           if(((unsigned long int *)rep->arBr)[-1l] >= ((unsigned long int *)rep->arBr)[-2l])
           {
-            void *return_value_arrayRealloc$1;
-            return_value_arrayRealloc$1=arrayRealloc((void *)rep->arBr, (unsigned long int)0, (char)0, "../src/report.c", 1637);
-            rp = (struct _REPALI *)return_value_arrayRealloc$1;
+            void *return_value_arrayRealloc_1;
+            return_value_arrayRealloc_1=arrayRealloc((void *)rep->arBr, (unsigned long int)0, (char)0, "../src/report.c", 1637);
+            rp = (struct _REPALI *)return_value_arrayRealloc_1;
             if(!(rp == ((struct _REPALI *)NULL)))
             {
               rep->arBr = rp;
-              tmp_post$2 = ((unsigned long int *)rep->arBr)[(signed long int)-1];
+              tmp_post_2 = ((unsigned long int *)rep->arBr)[(signed long int)-1];
               ((unsigned long int *)rep->arBr)[(signed long int)-1] = ((unsigned long int *)rep->arBr)[(signed long int)-1] + 1ul;
-              rp = rep->arBr + (signed long int)tmp_post$2;
+              rp = rep->arBr + (signed long int)tmp_post_2;
             }
 
           }
 
           else
           {
-            tmp_post$3 = ((unsigned long int *)rep->arBr)[(signed long int)-1];
+            tmp_post_3 = ((unsigned long int *)rep->arBr)[(signed long int)-1];
             ((unsigned long int *)rep->arBr)[(signed long int)-1] = ((unsigned long int *)rep->arBr)[(signed long int)-1] + 1ul;
-            rp = rep->arBr + (signed long int)tmp_post$3;
+            rp = rep->arBr + (signed long int)tmp_post_3;
           }
           if(rp == ((struct _REPALI *)NULL))
             errcode = 2;
@@ -24152,24 +24152,24 @@ signed int reportAddMap(struct _Report *rep, signed int pairid, signed int swats
 
         if(((unsigned long int *)*arp)[-1l] >= ((unsigned long int *)*arp)[-2l])
         {
-          void *return_value_arrayRealloc$4;
-          return_value_arrayRealloc$4=arrayRealloc((void *)*arp, (unsigned long int)0, (char)0, "../src/report.c", 1672);
-          rp = (struct _REPALI *)return_value_arrayRealloc$4;
+          void *return_value_arrayRealloc_4;
+          return_value_arrayRealloc_4=arrayRealloc((void *)*arp, (unsigned long int)0, (char)0, "../src/report.c", 1672);
+          rp = (struct _REPALI *)return_value_arrayRealloc_4;
           if(!(rp == ((struct _REPALI *)NULL)))
           {
             *arp = rp;
-            tmp_post$5 = ((unsigned long int *)*arp)[(signed long int)-1];
+            tmp_post_5 = ((unsigned long int *)*arp)[(signed long int)-1];
             ((unsigned long int *)*arp)[(signed long int)-1] = ((unsigned long int *)*arp)[(signed long int)-1] + 1ul;
-            rp = *arp + (signed long int)tmp_post$5;
+            rp = *arp + (signed long int)tmp_post_5;
           }
 
         }
 
         else
         {
-          tmp_post$6 = ((unsigned long int *)*arp)[(signed long int)-1];
+          tmp_post_6 = ((unsigned long int *)*arp)[(signed long int)-1];
           ((unsigned long int *)*arp)[(signed long int)-1] = ((unsigned long int *)*arp)[(signed long int)-1] + 1ul;
-          rp = *arp + (signed long int)tmp_post$6;
+          rp = *arp + (signed long int)tmp_post_6;
         }
         if(rp == ((struct _REPALI *)NULL))
           errcode = 2;
@@ -24243,50 +24243,50 @@ void reportBlank(struct _Report *p)
 struct _Report * reportCreate(signed int blksz)
 {
   struct _Report *p;
-  void *return_value_ecalloc$8;
-  return_value_ecalloc$8=ecalloc((unsigned long int)1, sizeof(struct _Report) /*48ul*/ , "../src/report.c", 1547);
-  p = (struct _Report *)return_value_ecalloc$8;
-  _Bool tmp_if_expr$3;
-  void *return_value_arrayCreate$2;
-  _Bool tmp_if_expr$5;
-  void *return_value_arrayCreate$4;
-  _Bool tmp_if_expr$7;
-  signed int return_value_diffStrInit$6;
+  void *return_value_ecalloc_8;
+  return_value_ecalloc_8=ecalloc((unsigned long int)1, sizeof(struct _Report) /*48ul*/ , "../src/report.c", 1547);
+  p = (struct _Report *)return_value_ecalloc_8;
+  _Bool tmp_if_expr_3;
+  void *return_value_arrayCreate_2;
+  _Bool tmp_if_expr_5;
+  void *return_value_arrayCreate_4;
+  _Bool tmp_if_expr_7;
+  signed int return_value_diffStrInit_6;
   if(!(p == ((struct _Report *)NULL)))
   {
     if(!(blksz >= 1))
       blksz = 256;
 
-    void *return_value_arrayCreate$1;
-    return_value_arrayCreate$1=arrayCreate(sizeof(struct _REPPAIR) /*16ul*/ , (unsigned long int)blksz, "../src/report.c", 1549);
-    p->pairr = (struct _REPPAIR *)return_value_arrayCreate$1;
+    void *return_value_arrayCreate_1;
+    return_value_arrayCreate_1=arrayCreate(sizeof(struct _REPPAIR) /*16ul*/ , (unsigned long int)blksz, "../src/report.c", 1549);
+    p->pairr = (struct _REPPAIR *)return_value_arrayCreate_1;
     if(p->pairr == ((struct _REPPAIR *)NULL))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_arrayCreate$2=arrayCreate(sizeof(struct _REPALI) /*56ul*/ , (unsigned long int)blksz, "../src/report.c", 1550);
-      p->arAr = (struct _REPALI *)return_value_arrayCreate$2;
-      tmp_if_expr$3 = (struct _REPALI *)(void *)0 == p->arAr ? (_Bool)1 : (_Bool)0;
+      return_value_arrayCreate_2=arrayCreate(sizeof(struct _REPALI) /*56ul*/ , (unsigned long int)blksz, "../src/report.c", 1550);
+      p->arAr = (struct _REPALI *)return_value_arrayCreate_2;
+      tmp_if_expr_3 = (struct _REPALI *)(void *)0 == p->arAr ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
-      tmp_if_expr$5 = (_Bool)1;
+    if(tmp_if_expr_3)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_arrayCreate$4=arrayCreate(sizeof(struct _REPALI) /*56ul*/ , (unsigned long int)blksz, "../src/report.c", 1551);
-      p->arBr = (struct _REPALI *)return_value_arrayCreate$4;
-      tmp_if_expr$5 = (struct _REPALI *)(void *)0 == p->arBr ? (_Bool)1 : (_Bool)0;
+      return_value_arrayCreate_4=arrayCreate(sizeof(struct _REPALI) /*56ul*/ , (unsigned long int)blksz, "../src/report.c", 1551);
+      p->arBr = (struct _REPALI *)return_value_arrayCreate_4;
+      tmp_if_expr_5 = (struct _REPALI *)(void *)0 == p->arBr ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
-      tmp_if_expr$7 = (_Bool)1;
+    if(tmp_if_expr_5)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
-      return_value_diffStrInit$6=diffStrInit(&p->dfs, 0);
-      tmp_if_expr$7 = return_value_diffStrInit$6 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_diffStrInit_6=diffStrInit(&p->dfs, 0);
+      tmp_if_expr_7 = return_value_diffStrInit_6 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
     {
       reportDelete(p);
       p = (struct _Report *)(void *)0;
@@ -24303,12 +24303,12 @@ struct _ReportWriter * reportCreateWriter(signed int *errcode, const char * cons
 {
   signed int errc = 0;
   struct _ReportWriter *p;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _ReportWriter) /*112ul*/ , "../src/report.c", 1373);
-  p = (struct _ReportWriter *)return_value_ecalloc$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _ReportWriter) /*112ul*/ , "../src/report.c", 1373);
+  p = (struct _ReportWriter *)return_value_ecalloc_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   if(p == ((struct _ReportWriter *)NULL))
   {
     *errcode = 2;
@@ -24323,30 +24323,30 @@ struct _ReportWriter * reportCreateWriter(signed int *errcode, const char * cons
     else
       p->filnam=estrcpy(filnam, "../src/report.c", 1382);
     if(p->filnam == ((char *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
       p->qbufp=seqFastqCreate(0, (char)2);
-      tmp_if_expr$2 = (struct _SeqFastq *)(void *)0 == p->qbufp ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (struct _SeqFastq *)(void *)0 == p->qbufp ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       p->sbufp=seqFastqCreate(0, (char)1);
-      tmp_if_expr$3 = (struct _SeqFastq *)(void *)0 == p->sbufp ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (struct _SeqFastq *)(void *)0 == p->sbufp ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
       p->nambufp=createREPNAMBUF();
-      tmp_if_expr$4 = (struct _REPNAMBUF *)(void *)0 == p->nambufp ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (struct _REPNAMBUF *)(void *)0 == p->nambufp ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
       errc = 2;
 
     else
@@ -24547,28 +24547,28 @@ signed int reportNextPairID(struct _Report *rep)
 {
   signed int pairid = (signed int)((unsigned long int *)rep->pairr)[(signed long int)-1];
   struct _REPPAIR *pp;
-  unsigned long int tmp_post$2;
-  unsigned long int tmp_post$3;
+  unsigned long int tmp_post_2;
+  unsigned long int tmp_post_3;
   if(((unsigned long int *)rep->pairr)[-1l] >= ((unsigned long int *)rep->pairr)[-2l])
   {
-    void *return_value_arrayRealloc$1;
-    return_value_arrayRealloc$1=arrayRealloc((void *)rep->pairr, (unsigned long int)0, (char)0, "../src/report.c", 1586);
-    pp = (struct _REPPAIR *)return_value_arrayRealloc$1;
+    void *return_value_arrayRealloc_1;
+    return_value_arrayRealloc_1=arrayRealloc((void *)rep->pairr, (unsigned long int)0, (char)0, "../src/report.c", 1586);
+    pp = (struct _REPPAIR *)return_value_arrayRealloc_1;
     if(!(pp == ((struct _REPPAIR *)NULL)))
     {
       rep->pairr = pp;
-      tmp_post$2 = ((unsigned long int *)rep->pairr)[(signed long int)-1];
+      tmp_post_2 = ((unsigned long int *)rep->pairr)[(signed long int)-1];
       ((unsigned long int *)rep->pairr)[(signed long int)-1] = ((unsigned long int *)rep->pairr)[(signed long int)-1] + 1ul;
-      pp = rep->pairr + (signed long int)tmp_post$2;
+      pp = rep->pairr + (signed long int)tmp_post_2;
     }
 
   }
 
   else
   {
-    tmp_post$3 = ((unsigned long int *)rep->pairr)[(signed long int)-1];
+    tmp_post_3 = ((unsigned long int *)rep->pairr)[(signed long int)-1];
     ((unsigned long int *)rep->pairr)[(signed long int)-1] = ((unsigned long int *)rep->pairr)[(signed long int)-1] + 1ul;
-    pp = rep->pairr + (signed long int)tmp_post$3;
+    pp = rep->pairr + (signed long int)tmp_post_3;
   }
   if(pp == ((struct _REPPAIR *)NULL))
     pairid = -1;
@@ -24681,21 +24681,21 @@ unsigned char resultCalcInsertSize(signed int *isiz, unsigned char samspec, cons
   if(!(bp->s_start >= ap->s_start))
     flag = flag | (unsigned char)8;
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(ap->sidx >= 0l))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = bp->sidx < (signed long int)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = bp->sidx < (signed long int)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     flag = flag | (unsigned char)16;
 
   else
     if(ap->sidx == bp->sidx)
       flag = flag | (unsigned char)4;
 
-  unsigned long int tmp_if_expr$2;
-  unsigned long int tmp_if_expr$3;
+  unsigned long int tmp_if_expr_2;
+  unsigned long int tmp_if_expr_3;
   if(!(isiz == ((signed int *)NULL)))
   {
     unsigned long int rA;
@@ -24703,17 +24703,17 @@ unsigned char resultCalcInsertSize(signed int *isiz, unsigned char samspec, cons
     if((signed int)samspec == 1)
     {
       if(!(ap->s_start >= bp->s_start))
-        tmp_if_expr$2 = ap->s_start;
+        tmp_if_expr_2 = ap->s_start;
 
       else
-        tmp_if_expr$2 = bp->s_start;
-      rA = tmp_if_expr$2;
+        tmp_if_expr_2 = bp->s_start;
+      rA = tmp_if_expr_2;
       if(!(ap->s_end >= bp->s_end))
-        tmp_if_expr$3 = bp->s_end;
+        tmp_if_expr_3 = bp->s_end;
 
       else
-        tmp_if_expr$3 = ap->s_end;
-      rB = tmp_if_expr$3;
+        tmp_if_expr_3 = ap->s_end;
+      rB = tmp_if_expr_3;
       *isiz = (signed int)(rA + (unsigned long int)0x7fffffff > rB || rA < rB + (unsigned long int)0x7fffffff ? (rB - rA) + (unsigned long int)1 : (unsigned long int)0);
       if(!((8 & (signed int)flag) == 0))
         *isiz = *isiz * -1;
@@ -24749,9 +24749,9 @@ signed short int resultConvertProbabilityToMappingScore(double p)
   if(isc < MINLOGARG)
     isc = MINLOGARG;
 
-  double return_value_log10$1;
-  return_value_log10$1=log10(isc);
-  m = (double)-10 * return_value_log10$1;
+  double return_value_log10_1;
+  return_value_log10_1=log10(isc);
+  m = (double)-10 * return_value_log10_1;
   if(m > 60.000000)
     ms = (signed short int)60;
 
@@ -24835,15 +24835,15 @@ signed short int resultGetFragmentNo(const struct _RESULT *rp)
 signed int resultGetMapQualScore(double *prob, unsigned short int *flag, const struct _RESULT * const rp)
 {
   signed int mapq = 0;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(rp == ((const struct _RESULT *)NULL)))
   {
     if(!(rp->mapscor >= 0))
-      tmp_if_expr$1 = 0;
+      tmp_if_expr_1 = 0;
 
     else
-      tmp_if_expr$1 = rp->mapscor;
-    mapq = tmp_if_expr$1;
+      tmp_if_expr_1 = rp->mapscor;
+    mapq = tmp_if_expr_1;
     if(!(prob == ((double *)NULL)))
       *prob = rp->prob;
 
@@ -24887,9 +24887,9 @@ unsigned short int resultGetStatusFlag(const struct _RESULT *rp)
 signed int resultSetAdd2ndaryResultsToReport(struct _Report *rep, unsigned char mateflg, unsigned char rsltflg, const struct _ResultSet *rsp)
 {
   signed int errcode = 0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
   if(!(rsp == ((const struct _ResultSet *)NULL)))
   {
     signed short int qsegx = (signed short int)0;
@@ -24903,25 +24903,25 @@ signed int resultSetAdd2ndaryResultsToReport(struct _Report *rep, unsigned char 
         if((16 & (signed int)rp->status) == 0)
         {
           if(!((512 & (signed int)rp->status) == 0))
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_3 = (_Bool)1;
 
           else
           {
             if(!(rp->swatscor >= swscor))
             {
               if(!((1 & (signed int)rsltflg) == 0))
-                tmp_if_expr$1 = (_Bool)1;
+                tmp_if_expr_1 = (_Bool)1;
 
               else
-                tmp_if_expr$1 = ((signed int)rp->status & 32) != 0 ? (_Bool)1 : (_Bool)0;
-              tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_1 = ((signed int)rp->status & 32) != 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$2 = (_Bool)0;
-            tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_2 = (_Bool)0;
+            tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$3)
+          if(tmp_if_expr_3)
             break;
 
           errcode=resultSetAddResultToReport(rep, -1, (signed short int)0, mateflg, (unsigned char)0, 0, rp, rsp);
@@ -24954,12 +24954,12 @@ signed int resultSetAddFromAli(struct _ResultSet *rsp, const struct _AliRsltSet 
   signed int re;
   struct _RESULT *rp;
   const struct _DiffStr *dfsp;
-  unsigned long int tmp_post$2;
-  unsigned long int tmp_post$3;
-  unsigned long int tmp_post$5;
-  unsigned long int tmp_post$6;
-  _Bool tmp_if_expr$8;
-  signed int return_value_isIdenticalResult$7;
+  unsigned long int tmp_post_2;
+  unsigned long int tmp_post_3;
+  unsigned long int tmp_post_5;
+  unsigned long int tmp_post_6;
+  _Bool tmp_if_expr_8;
+  signed int return_value_isIdenticalResult_7;
   if(!((signed int)nres >= 1))
     return 0;
 
@@ -24967,24 +24967,24 @@ signed int resultSetAddFromAli(struct _ResultSet *rsp, const struct _AliRsltSet 
   {
     if(((unsigned long int *)rsp->resr)[-1l] >= ((unsigned long int *)rsp->resr)[-2l])
     {
-      void *return_value_arrayRealloc$1;
-      return_value_arrayRealloc$1=arrayRealloc((void *)rsp->resr, (unsigned long int)0, (char)0, "../src/results.c", 1875);
-      rp = (struct _RESULT *)return_value_arrayRealloc$1;
+      void *return_value_arrayRealloc_1;
+      return_value_arrayRealloc_1=arrayRealloc((void *)rsp->resr, (unsigned long int)0, (char)0, "../src/results.c", 1875);
+      rp = (struct _RESULT *)return_value_arrayRealloc_1;
       if(!(rp == ((struct _RESULT *)NULL)))
       {
         rsp->resr = rp;
-        tmp_post$2 = ((unsigned long int *)rsp->resr)[(signed long int)-1];
+        tmp_post_2 = ((unsigned long int *)rsp->resr)[(signed long int)-1];
         ((unsigned long int *)rsp->resr)[(signed long int)-1] = ((unsigned long int *)rsp->resr)[(signed long int)-1] + 1ul;
-        rp = rsp->resr + (signed long int)tmp_post$2;
+        rp = rsp->resr + (signed long int)tmp_post_2;
       }
 
     }
 
     else
     {
-      tmp_post$3 = ((unsigned long int *)rsp->resr)[(signed long int)-1];
+      tmp_post_3 = ((unsigned long int *)rsp->resr)[(signed long int)-1];
       ((unsigned long int *)rsp->resr)[(signed long int)-1] = ((unsigned long int *)rsp->resr)[(signed long int)-1] + 1ul;
-      rp = rsp->resr + (signed long int)tmp_post$3;
+      rp = rsp->resr + (signed long int)tmp_post_3;
     }
     if(rp == ((struct _RESULT *)NULL))
       return 2;
@@ -25002,24 +25002,24 @@ signed int resultSetAddFromAli(struct _ResultSet *rsp, const struct _AliRsltSet 
         {
           if(((unsigned long int *)rsp->resr)[-1l] >= ((unsigned long int *)rsp->resr)[-2l])
           {
-            void *return_value_arrayRealloc$4;
-            return_value_arrayRealloc$4=arrayRealloc((void *)rsp->resr, (unsigned long int)0, (char)0, "../src/results.c", 1886);
-            rp = (struct _RESULT *)return_value_arrayRealloc$4;
+            void *return_value_arrayRealloc_4;
+            return_value_arrayRealloc_4=arrayRealloc((void *)rsp->resr, (unsigned long int)0, (char)0, "../src/results.c", 1886);
+            rp = (struct _RESULT *)return_value_arrayRealloc_4;
             if(!(rp == ((struct _RESULT *)NULL)))
             {
               rsp->resr = rp;
-              tmp_post$5 = ((unsigned long int *)rsp->resr)[(signed long int)-1];
+              tmp_post_5 = ((unsigned long int *)rsp->resr)[(signed long int)-1];
               ((unsigned long int *)rsp->resr)[(signed long int)-1] = ((unsigned long int *)rsp->resr)[(signed long int)-1] + 1ul;
-              rp = rsp->resr + (signed long int)tmp_post$5;
+              rp = rsp->resr + (signed long int)tmp_post_5;
             }
 
           }
 
           else
           {
-            tmp_post$6 = ((unsigned long int *)rsp->resr)[(signed long int)-1];
+            tmp_post_6 = ((unsigned long int *)rsp->resr)[(signed long int)-1];
             ((unsigned long int *)rsp->resr)[(signed long int)-1] = ((unsigned long int *)rsp->resr)[(signed long int)-1] + 1ul;
-            rp = rsp->resr + (signed long int)tmp_post$6;
+            rp = rsp->resr + (signed long int)tmp_post_6;
           }
           if(rp == ((struct _RESULT *)NULL))
             return 2;
@@ -25051,14 +25051,14 @@ signed int resultSetAddFromAli(struct _ResultSet *rsp, const struct _AliRsltSet 
           rp->status = rp->status | (unsigned short int)8;
 
         if(!(((unsigned long int *)rsp->resr)[-1l] >= 2ul))
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_8 = (_Bool)1;
 
         else
         {
-          return_value_isIdenticalResult$7=isIdenticalResult(rp, rp - (signed long int)1);
-          tmp_if_expr$8 = !(return_value_isIdenticalResult$7 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_isIdenticalResult_7=isIdenticalResult(rp, rp - (signed long int)1);
+          tmp_if_expr_8 = !(return_value_isIdenticalResult_7 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        is_new = (unsigned char)tmp_if_expr$8;
+        is_new = (unsigned char)tmp_if_expr_8;
         if(!(is_new == 0))
         {
           rp->stroffs = rsp->diffstrp->len;
@@ -25112,8 +25112,8 @@ signed int resultSetAddMisMatch(struct _ResultSet *rsp, const signed int *mmoffs
   unsigned long int newlen;
   signed int nl;
   struct _RESULT *rp;
-  unsigned long int tmp_post$2;
-  unsigned long int tmp_post$3;
+  unsigned long int tmp_post_2;
+  unsigned long int tmp_post_3;
   if(!(len >= 1))
     return -1;
 
@@ -25148,24 +25148,24 @@ signed int resultSetAddMisMatch(struct _ResultSet *rsp, const signed int *mmoffs
           ;
           if(((unsigned long int *)rsp->resr)[-1l] >= ((unsigned long int *)rsp->resr)[-2l])
           {
-            void *return_value_arrayRealloc$1;
-            return_value_arrayRealloc$1=arrayRealloc((void *)rsp->resr, (unsigned long int)0, (char)0, "../src/results.c", 1967);
-            rp = (struct _RESULT *)return_value_arrayRealloc$1;
+            void *return_value_arrayRealloc_1;
+            return_value_arrayRealloc_1=arrayRealloc((void *)rsp->resr, (unsigned long int)0, (char)0, "../src/results.c", 1967);
+            rp = (struct _RESULT *)return_value_arrayRealloc_1;
             if(!(rp == ((struct _RESULT *)NULL)))
             {
               rsp->resr = rp;
-              tmp_post$2 = ((unsigned long int *)rsp->resr)[(signed long int)-1];
+              tmp_post_2 = ((unsigned long int *)rsp->resr)[(signed long int)-1];
               ((unsigned long int *)rsp->resr)[(signed long int)-1] = ((unsigned long int *)rsp->resr)[(signed long int)-1] + 1ul;
-              rp = rsp->resr + (signed long int)tmp_post$2;
+              rp = rsp->resr + (signed long int)tmp_post_2;
             }
 
           }
 
           else
           {
-            tmp_post$3 = ((unsigned long int *)rsp->resr)[(signed long int)-1];
+            tmp_post_3 = ((unsigned long int *)rsp->resr)[(signed long int)-1];
             ((unsigned long int *)rsp->resr)[(signed long int)-1] = ((unsigned long int *)rsp->resr)[(signed long int)-1] + 1ul;
-            rp = rsp->resr + (signed long int)tmp_post$3;
+            rp = rsp->resr + (signed long int)tmp_post_3;
           }
           if(rp == ((struct _RESULT *)NULL))
             return 2;
@@ -25236,7 +25236,7 @@ signed int resultSetAddPairToReport(struct _Report *rep, const struct _InsHist *
   const struct _RESULT *ap = (const struct _RESULT *)(void *)0;
   const struct _RESULT *bp = (const struct _RESULT *)(void *)0;
   errcode=scorePairsSimple(&ap, &bp, &mapqA, &mapqB, &mapflg, &n_max, pairp->mpr, pairflg, ihistp, rsltouflg, rsrp, rsmp);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(errcode == 0))
     return errcode;
 
@@ -25282,11 +25282,11 @@ signed int resultSetAddPairToReport(struct _Report *rep, const struct _InsHist *
         {
           struct _MATEPAIR *mp = pairp->mpr + (signed long int)i;
           if(!(mp->ap == ap))
-            tmp_if_expr$1 = (_Bool)1;
+            tmp_if_expr_1 = (_Bool)1;
 
           else
-            tmp_if_expr$1 = mp->bp != bp ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$1)
+            tmp_if_expr_1 = mp->bp != bp ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_1)
           {
             unsigned char mflg = (unsigned char)((signed int)mp->mapflg | (signed int)mapflg & (32 | 64));
             errcode=addPairResultsToReport(rep, mflg, (unsigned char)((signed int)repmateflg | 16), mp->ap, mapqA, rsrp, mp->bp, mapqB, rsmp);
@@ -25327,14 +25327,14 @@ signed int resultSetAddPairToReport(struct _Report *rep, const struct _InsHist *
 signed int resultSetAddResultToReport(struct _Report *rep, signed int pairid, signed short int mapscor, unsigned char mateflg, unsigned char pairflg, signed int isize, const struct _RESULT *rp, const struct _ResultSet *rsp)
 {
   signed int errcode;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(rp == ((const struct _RESULT *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = ((signed int)rp->status & 16) != 0 ? (_Bool)1 : (_Bool)0;
-  signed int tmp_if_expr$1;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = ((signed int)rp->status & 16) != 0 ? (_Bool)1 : (_Bool)0;
+  signed int tmp_if_expr_1;
+  if(tmp_if_expr_2)
     errcode=reportAddMap(rep, pairid, 0, (signed short int)0, (unsigned int)0, (unsigned int)0, (unsigned int)0, (unsigned int)0, (signed long int)0, (const unsigned char *)(void *)0, 0, 0, mateflg, pairflg);
 
   else
@@ -25345,11 +25345,11 @@ signed int resultSetAddResultToReport(struct _Report *rep, signed int pairid, si
       mateflg = mateflg | (unsigned char)2;
 
     if(!(pairid >= 0))
-      tmp_if_expr$1 = rp->mapscor;
+      tmp_if_expr_1 = rp->mapscor;
 
     else
-      tmp_if_expr$1 = (signed int)mapscor;
-    errcode=reportAddMap(rep, pairid, rp->swatscor, (signed short int)tmp_if_expr$1, rp->q_start, rp->q_end, (unsigned int)rp->s_start, (unsigned int)rp->s_end, rp->sidx, dstrp, rp->strlen, isize, mateflg, pairflg);
+      tmp_if_expr_1 = (signed int)mapscor;
+    errcode=reportAddMap(rep, pairid, rp->swatscor, (signed short int)tmp_if_expr_1, rp->q_start, rp->q_end, (unsigned int)rp->s_start, (unsigned int)rp->s_end, rp->sidx, dstrp, rp->strlen, isize, mateflg, pairflg);
   }
   return errcode;
 }
@@ -25362,13 +25362,13 @@ signed int resultSetAddToReport(struct _Report *rep, unsigned char rsltflg, cons
   signed short int i;
   signed short int nsort = (signed short int)((unsigned long int *)rsp->sortr)[(signed long int)-1];
   struct _RESULT *rp;
-  struct _RESULT *tmp_if_expr$1;
+  struct _RESULT *tmp_if_expr_1;
   if(!((signed int)nsort >= 1))
-    tmp_if_expr$1 = (struct _RESULT *)(void *)0;
+    tmp_if_expr_1 = (struct _RESULT *)(void *)0;
 
   else
-    tmp_if_expr$1 = rsp->sortr[(signed long int)0];
-  rp = tmp_if_expr$1;
+    tmp_if_expr_1 = rsp->sortr[(signed long int)0];
+  rp = tmp_if_expr_1;
   unsigned char mateflg = (unsigned char)0;
   if(!(rp == ((struct _RESULT *)NULL)))
   {
@@ -25389,9 +25389,9 @@ signed int resultSetAddToReport(struct _Report *rep, unsigned char rsltflg, cons
               if(!((8 & (signed int)rsltflg) == 0))
               {
                 signed short int r;
-                double return_value_drand48$2;
-                return_value_drand48$2=drand48();
-                r = (signed short int)(return_value_drand48$2 * (double)ns);
+                double return_value_drand48_2;
+                return_value_drand48_2=drand48();
+                r = (signed short int)(return_value_drand48_2 * (double)ns);
                 rp = rsp->sortr[(signed long int)r];
                 if(!(rp == ((struct _RESULT *)NULL)))
                   rp->mapscor=assignPhredScaledMappingScoreToRandomDraw((signed int)ns);
@@ -25472,13 +25472,13 @@ void resultSetAlignmentStats(struct _ResultSet *rsp, signed int n_ali_done, sign
 // file ../src/results.c line 1847
 unsigned char resultSetAlignmentWasCurtailed(const struct _ResultSet *rsp)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((signed int)rsp->n_ali_max >= rsp->n_ali_tot))
-    tmp_if_expr$1 = rsp->n_ali_done >= (signed int)rsp->n_ali_max ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = rsp->n_ali_done >= (signed int)rsp->n_ali_max ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return (unsigned char)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  return (unsigned char)tmp_if_expr_1;
 }
 
 // resultSetBlank
@@ -25520,16 +25520,16 @@ void resultSetBlankPairs(struct _ResultPairs *p)
 struct _ResultSet * resultSetCreate(signed int blocksiz, signed int blocksiz_diffstr)
 {
   struct _ResultSet *rsp;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _ResultSet) /*104ul*/ , "../src/results.c", 1785);
-  rsp = (struct _ResultSet *)return_value_ecalloc$1;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$14;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _ResultSet) /*104ul*/ , "../src/results.c", 1785);
+  rsp = (struct _ResultSet *)return_value_ecalloc_1;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_14;
   if(rsp == ((struct _ResultSet *)NULL))
     return (struct _ResultSet *)(void *)0;
 
@@ -25541,62 +25541,62 @@ struct _ResultSet * resultSetCreate(signed int blocksiz, signed int blocksiz_dif
     if(!(blocksiz_diffstr >= 1))
       blocksiz = 4096;
 
-    void *return_value_arrayCreate$2;
-    return_value_arrayCreate$2=arrayCreate(sizeof(struct _RESULT) /*72ul*/ , (unsigned long int)blocksiz, "../src/results.c", 1791);
-    rsp->resr = (struct _RESULT *)return_value_arrayCreate$2;
-    void *return_value_arrayCreate$3;
-    return_value_arrayCreate$3=arrayCreate(sizeof(struct _RESULT *) /*8ul*/ , (unsigned long int)blocksiz, "../src/results.c", 1792);
-    rsp->sortr = (struct _RESULT **)return_value_arrayCreate$3;
-    void *return_value_arrayCreate$4;
-    return_value_arrayCreate$4=arrayCreate(sizeof(struct _RESULT *) /*8ul*/ , (unsigned long int)blocksiz, "../src/results.c", 1793);
-    rsp->segsrtr = (struct _RESULT **)return_value_arrayCreate$4;
-    void *return_value_arrayCreate$5;
-    return_value_arrayCreate$5=arrayCreate(sizeof(unsigned int) /*4ul*/ , (unsigned long int)blocksiz, "../src/results.c", 1794);
-    rsp->sortidxr = (unsigned int *)return_value_arrayCreate$5;
-    void *return_value_arrayCreate$6;
-    return_value_arrayCreate$6=arrayCreate(sizeof(unsigned long int) /*8ul*/ , (unsigned long int)blocksiz, "../src/results.c", 1795);
-    rsp->sortkeyr = (unsigned long int *)return_value_arrayCreate$6;
-    void *return_value_arrayCreate$7;
-    return_value_arrayCreate$7=arrayCreate(sizeof(signed short int) /*2ul*/ , (unsigned long int)32, "../src/results.c", 1796);
-    rsp->segnor = (signed short int *)return_value_arrayCreate$7;
+    void *return_value_arrayCreate_2;
+    return_value_arrayCreate_2=arrayCreate(sizeof(struct _RESULT) /*72ul*/ , (unsigned long int)blocksiz, "../src/results.c", 1791);
+    rsp->resr = (struct _RESULT *)return_value_arrayCreate_2;
+    void *return_value_arrayCreate_3;
+    return_value_arrayCreate_3=arrayCreate(sizeof(struct _RESULT *) /*8ul*/ , (unsigned long int)blocksiz, "../src/results.c", 1792);
+    rsp->sortr = (struct _RESULT **)return_value_arrayCreate_3;
+    void *return_value_arrayCreate_4;
+    return_value_arrayCreate_4=arrayCreate(sizeof(struct _RESULT *) /*8ul*/ , (unsigned long int)blocksiz, "../src/results.c", 1793);
+    rsp->segsrtr = (struct _RESULT **)return_value_arrayCreate_4;
+    void *return_value_arrayCreate_5;
+    return_value_arrayCreate_5=arrayCreate(sizeof(unsigned int) /*4ul*/ , (unsigned long int)blocksiz, "../src/results.c", 1794);
+    rsp->sortidxr = (unsigned int *)return_value_arrayCreate_5;
+    void *return_value_arrayCreate_6;
+    return_value_arrayCreate_6=arrayCreate(sizeof(unsigned long int) /*8ul*/ , (unsigned long int)blocksiz, "../src/results.c", 1795);
+    rsp->sortkeyr = (unsigned long int *)return_value_arrayCreate_6;
+    void *return_value_arrayCreate_7;
+    return_value_arrayCreate_7=arrayCreate(sizeof(signed short int) /*2ul*/ , (unsigned long int)32, "../src/results.c", 1796);
+    rsp->segnor = (signed short int *)return_value_arrayCreate_7;
     rsp->diffstrp=diffStrCreate(blocksiz_diffstr);
     rsp->diffstrbufp=diffStrCreate(256);
     if(!(rsp->resr == ((struct _RESULT *)NULL)))
-      tmp_if_expr$8 = rsp->sortr != ((struct _RESULT **)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_8 = rsp->sortr != ((struct _RESULT **)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    if(tmp_if_expr$8)
-      tmp_if_expr$9 = rsp->segsrtr != ((struct _RESULT **)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_8 = (_Bool)0;
+    if(tmp_if_expr_8)
+      tmp_if_expr_9 = rsp->segsrtr != ((struct _RESULT **)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$9 = (_Bool)0;
-    if(tmp_if_expr$9)
-      tmp_if_expr$10 = rsp->segnor != ((signed short int *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_9 = (_Bool)0;
+    if(tmp_if_expr_9)
+      tmp_if_expr_10 = rsp->segnor != ((signed short int *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$10 = (_Bool)0;
-    if(tmp_if_expr$10)
-      tmp_if_expr$11 = rsp->sortidxr != ((unsigned int *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_10 = (_Bool)0;
+    if(tmp_if_expr_10)
+      tmp_if_expr_11 = rsp->sortidxr != ((unsigned int *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$11 = (_Bool)0;
-    if(tmp_if_expr$11)
-      tmp_if_expr$12 = rsp->sortidxr != ((unsigned int *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_11 = (_Bool)0;
+    if(tmp_if_expr_11)
+      tmp_if_expr_12 = rsp->sortidxr != ((unsigned int *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$12 = (_Bool)0;
-    if(tmp_if_expr$12)
-      tmp_if_expr$13 = rsp->diffstrp != ((struct _DiffStr *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_12 = (_Bool)0;
+    if(tmp_if_expr_12)
+      tmp_if_expr_13 = rsp->diffstrp != ((struct _DiffStr *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$13 = (_Bool)0;
-    if(tmp_if_expr$13)
-      tmp_if_expr$14 = rsp->diffstrbufp != ((struct _DiffStr *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_13 = (_Bool)0;
+    if(tmp_if_expr_13)
+      tmp_if_expr_14 = rsp->diffstrbufp != ((struct _DiffStr *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$14 = (_Bool)0;
-    if(!tmp_if_expr$14)
+      tmp_if_expr_14 = (_Bool)0;
+    if(!tmp_if_expr_14)
     {
       resultSetDelete(rsp);
       rsp = ((struct _ResultSet *)NULL);
@@ -25613,9 +25613,9 @@ struct _ResultSet * resultSetCreate(signed int blocksiz, signed int blocksiz_dif
 struct _ResultFilter * resultSetCreateFilter(void)
 {
   struct _ResultFilter *p;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _ResultFilter) /*16ul*/ , "../src/results.c", 2574);
-  p = (struct _ResultFilter *)return_value_ecalloc$1;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _ResultFilter) /*16ul*/ , "../src/results.c", 2574);
+  p = (struct _ResultFilter *)return_value_ecalloc_1;
   return p;
 }
 
@@ -25624,10 +25624,10 @@ struct _ResultFilter * resultSetCreateFilter(void)
 struct _ResultPairs * resultSetCreatePairs(signed short int blksz)
 {
   struct _ResultPairs *p;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _ResultPairs) /*40ul*/ , "../src/resultpairs.c", 1077);
-  p = (struct _ResultPairs *)return_value_ecalloc$1;
-  _Bool tmp_if_expr$4;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _ResultPairs) /*40ul*/ , "../src/resultpairs.c", 1077);
+  p = (struct _ResultPairs *)return_value_ecalloc_1;
+  _Bool tmp_if_expr_4;
   if(p == ((struct _ResultPairs *)NULL))
     return ((struct _ResultPairs *)NULL);
 
@@ -25636,18 +25636,18 @@ struct _ResultPairs * resultSetCreatePairs(signed short int blksz)
     if(!((signed int)blksz >= 1))
       blksz = (signed short int)256;
 
-    void *return_value_arrayCreate$2;
-    return_value_arrayCreate$2=arrayCreate(sizeof(struct _OFFSIVAL) /*32ul*/ , (unsigned long int)blksz, "../src/resultpairs.c", 1081);
-    p->ivr = (struct _OFFSIVAL *)return_value_arrayCreate$2;
-    void *return_value_arrayCreate$3;
-    return_value_arrayCreate$3=arrayCreate(sizeof(struct _MATEPAIR) /*48ul*/ , (unsigned long int)blksz, "../src/resultpairs.c", 1082);
-    p->mpr = (struct _MATEPAIR *)return_value_arrayCreate$3;
+    void *return_value_arrayCreate_2;
+    return_value_arrayCreate_2=arrayCreate(sizeof(struct _OFFSIVAL) /*32ul*/ , (unsigned long int)blksz, "../src/resultpairs.c", 1081);
+    p->ivr = (struct _OFFSIVAL *)return_value_arrayCreate_2;
+    void *return_value_arrayCreate_3;
+    return_value_arrayCreate_3=arrayCreate(sizeof(struct _MATEPAIR) /*48ul*/ , (unsigned long int)blksz, "../src/resultpairs.c", 1082);
+    p->mpr = (struct _MATEPAIR *)return_value_arrayCreate_3;
     if(!(p->ivr == ((struct _OFFSIVAL *)NULL)))
-      tmp_if_expr$4 = p->mpr != ((struct _MATEPAIR *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = p->mpr != ((struct _MATEPAIR *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
       resultSetBlankPairs(p);
 
     else
@@ -25716,7 +25716,7 @@ signed int resultSetDo(void *argp, signed int (*cbf)(signed int *, void *, const
   signed short int nseg;
   signed short int nres;
   errcode=resultSetGetNumberOfSegments(&nres, &nseg, rsp);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(errcode == 0))
     return errcode;
 
@@ -25727,11 +25727,11 @@ signed int resultSetDo(void *argp, signed int (*cbf)(signed int *, void *, const
     else
     {
       if(!((4 & (signed int)rsp->status) == 0))
-        tmp_if_expr$1 = ((signed int)rsp->status & 8) != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = ((signed int)rsp->status & 8) != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         return 47;
 
       else
@@ -25783,8 +25783,8 @@ signed int resultSetFilterResults(const struct _ResultSet *rsp, const struct _Re
   unsigned int idthresh;
   idthresh=getFilterIdForRead(rsfp, sqp);
   signed int minid = 0;
-  _Bool tmp_if_expr$2;
-  signed int return_value_calcRESULTid$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_calcRESULTid_1;
   if(!((signed int)n >= 1))
     return 0;
 
@@ -25810,14 +25810,14 @@ signed int resultSetFilterResults(const struct _ResultSet *rsp, const struct _Re
       {
         rp = rsp->sortr[(signed long int)i];
         if(!(rp->swatscor >= minabsswscor))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
         {
-          return_value_calcRESULTid$1=calcRESULTid(rp, rsp);
-          tmp_if_expr$2 = return_value_calcRESULTid$1 < minid ? (_Bool)1 : (_Bool)0;
+          return_value_calcRESULTid_1=calcRESULTid(rp, rsp);
+          tmp_if_expr_2 = return_value_calcRESULTid_1 < minid ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$2)
+        if(tmp_if_expr_2)
           rp->status = rp->status | (unsigned short int)16;
 
         else
@@ -26041,18 +26041,18 @@ signed int resultSetGetNumberOfResultsInSegment(signed int segx, const struct _R
 signed int resultSetGetNumberOfSegments(signed short int *nres, signed short int *nseg, const struct _ResultSet *rsp)
 {
   signed int errcode = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(rsp == ((const struct _ResultSet *)NULL))
     errcode = 15;
 
   else
   {
     if(((unsigned long int *)rsp->sortr)[-1l] >= 32768ul)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = ((unsigned long int *)rsp->segnor)[(signed long int)-1] > (unsigned long int)0x7fff ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = ((unsigned long int *)rsp->segnor)[(signed long int)-1] > (unsigned long int)0x7fff ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       errcode = 48;
 
     else
@@ -26123,7 +26123,7 @@ signed int resultSetGetResultByRank(const struct _RESULT **rpp, signed int rank,
 {
   signed int errcode = 0;
   *rpp = (const struct _RESULT *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(rsp == ((const struct _ResultSet *)NULL))
     errcode = 15;
 
@@ -26134,11 +26134,11 @@ signed int resultSetGetResultByRank(const struct _RESULT **rpp, signed int rank,
     else
     {
       if(!(rank >= 0))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (unsigned long int)rank >= ((unsigned long int *)rsp->sortr)[(signed long int)-1] ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (unsigned long int)rank >= ((unsigned long int *)rsp->sortr)[(signed long int)-1] ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         errcode = 29;
 
       else
@@ -26168,7 +26168,7 @@ signed int resultSetGetResultInSegment(const struct _RESULT **rpp, signed int se
 {
   signed int errcode = 0;
   *rpp = (const struct _RESULT *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(rsp == ((const struct _ResultSet *)NULL))
     errcode = 15;
 
@@ -26183,11 +26183,11 @@ signed int resultSetGetResultInSegment(const struct _RESULT **rpp, signed int se
       else
       {
         if(!(resx >= 0) || !(segx >= 0))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = (unsigned long int)segx + (unsigned long int)1 >= ((unsigned long int *)rsp->segnor)[(signed long int)-1] ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (unsigned long int)segx + (unsigned long int)1 >= ((unsigned long int *)rsp->segnor)[(signed long int)-1] ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
           errcode = 29;
 
         else
@@ -26272,9 +26272,9 @@ struct _RESULT * resultSetGetTopResult(unsigned char *is_multi, const unsigned c
       if(!(is_randsel == 0))
       {
         signed short int rsltx;
-        double return_value_drand48$1;
-        return_value_drand48$1=drand48();
-        rsltx = (signed short int)(return_value_drand48$1 * (double)ntop);
+        double return_value_drand48_1;
+        return_value_drand48_1=drand48();
+        rsltx = (signed short int)(return_value_drand48_1 * (double)ntop);
         toprp = rsp->sortr[(signed long int)rsltx];
         toprp->mapscor=assignPhredScaledMappingScoreToRandomDraw((signed int)ntop);
       }
@@ -26468,16 +26468,16 @@ static signed int reverseComplementSeq(struct _SEQSEQ *sp, const struct _SeqCode
   char *cp = sp->basep;
   char *ep = (cp + (signed long int)sp->size) - (signed long int)1;
   char tmp;
-  signed int tmp_if_expr$1;
-  char *tmp_post$2;
-  signed int tmp_if_expr$3;
-  char *tmp_post$4;
-  signed int tmp_if_expr$5;
-  char *tmp_post$6;
-  signed int tmp_if_expr$7;
-  char *tmp_post$8;
-  char *tmp_post$9;
-  char *tmp_post$10;
+  signed int tmp_if_expr_1;
+  char *tmp_post_2;
+  signed int tmp_if_expr_3;
+  char *tmp_post_4;
+  signed int tmp_if_expr_5;
+  char *tmp_post_6;
+  signed int tmp_if_expr_7;
+  char *tmp_post_8;
+  char *tmp_post_9;
+  char *tmp_post_10;
   if((signed int)sp->code == 2)
     return 22;
 
@@ -26487,23 +26487,23 @@ static signed int reverseComplementSeq(struct _SEQSEQ *sp, const struct _SeqCode
     {
       if((signed int)sp->code == 1)
       {
-        for( ; !(cp >= ep); *tmp_post$4 = tmp)
+        for( ; !(cp >= ep); *tmp_post_4 = tmp)
         {
           if(!((4 & (signed int)*cp) == 0))
-            tmp_if_expr$1 = (signed int)*cp;
+            tmp_if_expr_1 = (signed int)*cp;
 
           else
-            tmp_if_expr$1 = (signed int)codecp->codtab_complement[(signed long int)((signed int)*cp & 3)];
-          tmp = (char)tmp_if_expr$1;
-          tmp_post$2 = cp;
+            tmp_if_expr_1 = (signed int)codecp->codtab_complement[(signed long int)((signed int)*cp & 3)];
+          tmp = (char)tmp_if_expr_1;
+          tmp_post_2 = cp;
           cp = cp + 1l;
           if(!((4 & (signed int)*ep) == 0))
-            tmp_if_expr$3 = (signed int)*ep;
+            tmp_if_expr_3 = (signed int)*ep;
 
           else
-            tmp_if_expr$3 = (signed int)codecp->codtab_complement[(signed long int)((signed int)*ep & 3)];
-          *tmp_post$2 = (char)tmp_if_expr$3;
-          tmp_post$4 = ep;
+            tmp_if_expr_3 = (signed int)codecp->codtab_complement[(signed long int)((signed int)*ep & 3)];
+          *tmp_post_2 = (char)tmp_if_expr_3;
+          tmp_post_4 = ep;
           ep = ep - 1l;
         }
         if(cp == ep)
@@ -26517,25 +26517,25 @@ static signed int reverseComplementSeq(struct _SEQSEQ *sp, const struct _SeqCode
 
       else
       {
-        for( ; !(cp >= ep); *tmp_post$8 = tmp)
+        for( ; !(cp >= ep); *tmp_post_8 = tmp)
         {
           uc = codecp->codtab[(signed long int)(signed int)*cp];
           if(!((4 & (signed int)uc) == 0))
-            tmp_if_expr$5 = (signed int)*cp;
+            tmp_if_expr_5 = (signed int)*cp;
 
           else
-            tmp_if_expr$5 = (signed int)codecp->decodtab[(signed long int)codecp->codtab_complement[(signed long int)((signed int)uc & 3)]];
-          tmp = (char)tmp_if_expr$5;
+            tmp_if_expr_5 = (signed int)codecp->decodtab[(signed long int)codecp->codtab_complement[(signed long int)((signed int)uc & 3)]];
+          tmp = (char)tmp_if_expr_5;
           uc = codecp->codtab[(signed long int)(signed int)*ep];
-          tmp_post$6 = cp;
+          tmp_post_6 = cp;
           cp = cp + 1l;
           if(!((4 & (signed int)uc) == 0))
-            tmp_if_expr$7 = (signed int)*ep;
+            tmp_if_expr_7 = (signed int)*ep;
 
           else
-            tmp_if_expr$7 = (signed int)codecp->decodtab[(signed long int)codecp->codtab_complement[(signed long int)((signed int)uc & 3)]];
-          *tmp_post$6 = (char)tmp_if_expr$7;
-          tmp_post$8 = ep;
+            tmp_if_expr_7 = (signed int)codecp->decodtab[(signed long int)codecp->codtab_complement[(signed long int)((signed int)uc & 3)]];
+          *tmp_post_6 = (char)tmp_if_expr_7;
+          tmp_post_8 = ep;
           ep = ep - 1l;
         }
         if(cp == ep)
@@ -26550,13 +26550,13 @@ static signed int reverseComplementSeq(struct _SEQSEQ *sp, const struct _SeqCode
     }
 
     else
-      for( ; !(cp >= ep); *tmp_post$10 = tmp)
+      for( ; !(cp >= ep); *tmp_post_10 = tmp)
       {
         tmp = *cp;
-        tmp_post$9 = cp;
+        tmp_post_9 = cp;
         cp = cp + 1l;
-        *tmp_post$9 = *ep;
-        tmp_post$10 = ep;
+        *tmp_post_9 = *ep;
+        tmp_post_10 = ep;
         ep = ep - 1l;
       }
     return 0;
@@ -26570,8 +26570,8 @@ static signed int reverseSeqInPlace(struct _SEQSEQ *sp)
   char *cp;
   char *tp;
   char tmp;
-  char *tmp_post$1;
-  char *tmp_post$2;
+  char *tmp_post_1;
+  char *tmp_post_2;
   if((signed int)sp->code == 2)
     return 22;
 
@@ -26579,13 +26579,13 @@ static signed int reverseSeqInPlace(struct _SEQSEQ *sp)
   {
     cp = sp->basep;
     tp = (cp + (signed long int)sp->size) - (signed long int)1;
-    for( ; !(cp >= tp); *tmp_post$2 = tmp)
+    for( ; !(cp >= tp); *tmp_post_2 = tmp)
     {
       tmp = *cp;
-      tmp_post$1 = cp;
+      tmp_post_1 = cp;
       cp = cp + 1l;
-      *tmp_post$1 = *tp;
-      tmp_post$2 = tp;
+      *tmp_post_1 = *tp;
+      tmp_post_2 = tp;
       tp = tp - 1l;
     }
     return 0;
@@ -26620,16 +26620,16 @@ struct RMap_ * rmapCreate(const struct _HashTable *htp, const struct _SeqCodec *
   unsigned char okflg = (unsigned char)0;
   unsigned long int totlen;
   struct RMap_ *rmp;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct RMap_) /*104ul*/ , "../src/rmap.c", 1518);
-  rmp = (struct RMap_ *)return_value_ecalloc$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct RMap_) /*104ul*/ , "../src/rmap.c", 1518);
+  rmp = (struct RMap_ *)return_value_ecalloc_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
   if(rmp == ((struct RMap_ *)NULL))
     return ((struct RMap_ *)NULL);
 
@@ -26641,21 +26641,21 @@ struct RMap_ * rmapCreate(const struct _HashTable *htp, const struct _SeqCodec *
     rmp->mrp=createRMAPINFO(htp);
     rmp->rsrp=resultSetCreate(0, 0);
     if(!(rmp->bfp == ((struct RMAPBUFF_ *)NULL)))
-      tmp_if_expr$2 = rmp->prp != (struct RMAPPROF_ *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = rmp->prp != (struct RMAPPROF_ *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = rmp->mrp != (struct RMAPINFO_ *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = rmp->mrp != (struct RMAPINFO_ *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = rmp->rsrp != (struct _ResultSet *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = rmp->rsrp != (struct _ResultSet *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    okflg = (unsigned char)tmp_if_expr$4;
+      tmp_if_expr_4 = (_Bool)0;
+    okflg = (unsigned char)tmp_if_expr_4;
     if(!((64 & (signed int)rmapflg) == 0) && !(okflg == 0))
     {
       unsigned char nskip = (unsigned char)1;
@@ -26671,26 +26671,26 @@ struct RMap_ * rmapCreate(const struct _HashTable *htp, const struct _SeqCodec *
           rmp->mflyp=createRMAPINFO(rmp->htflyp);
 
         if(!(rmp->mmp == ((struct RMAPINFO_ *)NULL)))
-          tmp_if_expr$5 = rmp->rsmp != (struct _ResultSet *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = rmp->rsmp != (struct _ResultSet *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
-          tmp_if_expr$6 = rmp->ivr != (struct V_IVAL_ *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
+          tmp_if_expr_6 = rmp->ivr != (struct V_IVAL_ *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
-          tmp_if_expr$7 = rmp->htflyp != (struct _HashTable *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
+          tmp_if_expr_7 = rmp->htflyp != (struct _HashTable *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(tmp_if_expr$7)
-          tmp_if_expr$8 = rmp->pairp != (struct _ResultPairs *)(void *)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = (_Bool)0;
+        if(tmp_if_expr_7)
+          tmp_if_expr_8 = rmp->pairp != (struct _ResultPairs *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        okflg = (unsigned char)tmp_if_expr$8;
+          tmp_if_expr_8 = (_Bool)0;
+        okflg = (unsigned char)tmp_if_expr_8;
       }
 
     }
@@ -26808,19 +26808,19 @@ signed int rmapPair(struct _ErrMsg *errmsgp, struct RMap_ *rmp, struct _SeqFastq
   struct _ResultSet *rsmp = rmp->rsmp;
   struct _SeqFastq *read1p;
   struct _SeqFastq *read2p;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(rmmp == ((struct RMAPINFO_ *)NULL)))
-    tmp_if_expr$1 = rmp->ivr != ((struct V_IVAL_ *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = rmp->ivr != ((struct V_IVAL_ *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = rmp->pairp != ((struct _ResultPairs *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = rmp->pairp != ((struct _ResultPairs *)NULL) ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(!tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(!tmp_if_expr_2)
     errMsgAdd(errmsgp, "", "../src/rmap.c", 1785, 47, (unsigned char)2);
 
   rmapBlank(rmp);
@@ -26872,8 +26872,8 @@ signed int rmapPair(struct _ErrMsg *errmsgp, struct RMap_ *rmp, struct _SeqFastq
     }
 
   }
-  _Bool tmp_if_expr$5;
-  unsigned char return_value_scorIsAboveFractMax$4;
+  _Bool tmp_if_expr_5;
+  unsigned char return_value_scorIsAboveFractMax_4;
   if(!(errcode_mate == 0) && !(errcode_read == 0))
     return 0;
 
@@ -26934,14 +26934,14 @@ signed int rmapPair(struct _ErrMsg *errmsgp, struct RMap_ *rmp, struct _SeqFastq
     resultSetGetMappingScore(rs2p, &swscor2_restricted);
     resultSetGetNumberOfPairs(&n_proper, rmp->pairp);
     if(!((4 & (signed int)rmapflg) == 0) || !(mapq1 >= 20) || !(n_proper >= 1))
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_scorIsAboveFractMax$4=scorIsAboveFractMax(swscor2_restricted, swscor1, MINFRACT_MAXSCOR_2ND, read2p, read1p);
-      tmp_if_expr$5 = !(return_value_scorIsAboveFractMax$4 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_scorIsAboveFractMax_4=scorIsAboveFractMax(swscor2_restricted, swscor1, MINFRACT_MAXSCOR_2ND, read2p, read1p);
+      tmp_if_expr_5 = !(return_value_scorIsAboveFractMax_4 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
     {
       signed int mapq2;
       signed int swscor2;
@@ -26961,9 +26961,9 @@ signed int rmapPair(struct _ErrMsg *errmsgp, struct RMap_ *rmp, struct _SeqFastq
 
         interValPrune(rmp->ivr);
         seqFastqGetConstSequence(read1p, &rlen, (char *)(void *)0);
-        unsigned char return_value_hashTableGetKtupLen$3;
-        return_value_hashTableGetKtupLen$3=hashTableGetKtupLen(htp, (unsigned char *)(void *)0);
-        if(rlen >= (unsigned int)return_value_hashTableGetKtupLen$3)
+        unsigned char return_value_hashTableGetKtupLen_3;
+        return_value_hashTableGetKtupLen_3=hashTableGetKtupLen(htp, (unsigned char *)(void *)0);
+        if(rlen >= (unsigned int)return_value_hashTableGetKtupLen_3)
         {
           errcode=setupFineHashTable(rmp->htflyp, bufp->sqbfp, ssp, rmp->ivr, htp, codecp);
           if(!(errcode == 0) && !(errcode == 17))
@@ -27080,22 +27080,22 @@ static signed int scaleALICPLX(signed int *adj_score, signed int orig_score, con
     count = cplxp->countp[(signed long int)i];
     if(!(count == 0))
     {
-      double return_value_log$1;
-      return_value_log$1=log((double)count);
-      t_factor = t_factor + (double)count * return_value_log$1;
+      double return_value_log_1;
+      return_value_log_1=log((double)count);
+      t_factor = t_factor + (double)count * return_value_log_1;
       t_sum = t_sum + (double)count * LN0P25;
       t_counts = t_counts + count;
       n_letters = n_letters + 1;
     }
 
   }
-  double return_value_log$2;
-  return_value_log$2=log((double)t_counts);
-  t_factor = t_factor - (double)t_counts * return_value_log$2;
+  double return_value_log_2;
+  return_value_log_2=log((double)t_counts);
+  t_factor = t_factor - (double)t_counts * return_value_log_2;
   t_sum = t_sum - t_factor;
-  double return_value_log$3;
-  return_value_log$3=log(n_letters > 4 ? 1. / (double)n_letters : .25);
-  t_factor = t_factor / ((double)t_counts * return_value_log$3);
+  double return_value_log_3;
+  return_value_log_3=log(n_letters > 4 ? 1. / (double)n_letters : .25);
+  t_factor = t_factor / ((double)t_counts * return_value_log_3);
   *adj_score = (signed int)((double)orig_score + t_sum / cplxp->lambda + .999);
   if(!(orig_score >= *adj_score))
     return 62;
@@ -27131,17 +27131,17 @@ struct _ScoreMatrix * scoreCreateMatrix(const struct _SeqCodec *scp, const struc
 
   else
   {
-    void *return_value_ecalloc$1;
-    return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _ScoreMatrix) /*24ul*/ , "score.c", 208);
-    amp = (struct _ScoreMatrix *)return_value_ecalloc$1;
+    void *return_value_ecalloc_1;
+    return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _ScoreMatrix) /*24ul*/ , "score.c", 208);
+    amp = (struct _ScoreMatrix *)return_value_ecalloc_1;
     if(amp == ((struct _ScoreMatrix *)NULL))
       return (struct _ScoreMatrix *)(void *)0;
 
     else
     {
-      void *return_value_ecalloc$2;
-      return_value_ecalloc$2=ecalloc((unsigned long int)(7 + 1), sizeof(signed char *) /*8ul*/ , "score.c", 211);
-      amp->score = (signed char **)return_value_ecalloc$2;
+      void *return_value_ecalloc_2;
+      return_value_ecalloc_2=ecalloc((unsigned long int)(7 + 1), sizeof(signed char *) /*8ul*/ , "score.c", 211);
+      amp->score = (signed char **)return_value_ecalloc_2;
       if(amp->score == ((signed char **)NULL))
       {
         scoreDeleteMatrix(amp);
@@ -27153,9 +27153,9 @@ struct _ScoreMatrix * scoreCreateMatrix(const struct _SeqCodec *scp, const struc
         i = (signed short int)0;
         for( ; !((signed int)i >= 8); i = i + 1)
         {
-          void *return_value_ecalloc$3;
-          return_value_ecalloc$3=ecalloc((unsigned long int)(7 + 1), sizeof(signed char) /*1ul*/ , "score.c", 217);
-          amp->score[(signed long int)i] = (signed char *)return_value_ecalloc$3;
+          void *return_value_ecalloc_3;
+          return_value_ecalloc_3=ecalloc((unsigned long int)(7 + 1), sizeof(signed char) /*1ul*/ , "score.c", 217);
+          amp->score[(signed long int)i] = (signed char *)return_value_ecalloc_3;
           if(amp->score[(signed long int)i] == ((signed char *)NULL))
           {
             scoreDeleteMatrix(amp);
@@ -27177,9 +27177,9 @@ struct _ScoreProfile * scoreCreateProfile(signed int blocksize, const struct _Se
   signed short int i;
   signed short int alphabetsiz;
   struct _ScoreProfile *app;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _ScoreProfile) /*64ul*/ , "score.c", 550);
-  app = (struct _ScoreProfile *)return_value_ecalloc$1;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _ScoreProfile) /*64ul*/ , "score.c", 550);
+  app = (struct _ScoreProfile *)return_value_ecalloc_1;
   if(app == ((struct _ScoreProfile *)NULL))
     return (struct _ScoreProfile *)(void *)0;
 
@@ -27196,9 +27196,9 @@ struct _ScoreProfile * scoreCreateProfile(signed int blocksize, const struct _Se
     {
       if(!((1 & (signed int)mod) == 0))
       {
-        void *return_value_ecalloc$2;
-        return_value_ecalloc$2=ecalloc((unsigned long int)alphabetsiz, sizeof(signed char *) /*8ul*/ , "score.c", 569);
-        app->score = (signed char **)return_value_ecalloc$2;
+        void *return_value_ecalloc_2;
+        return_value_ecalloc_2=ecalloc((unsigned long int)alphabetsiz, sizeof(signed char *) /*8ul*/ , "score.c", 569);
+        app->score = (signed char **)return_value_ecalloc_2;
         if(app->score == ((signed char **)NULL))
         {
           scoreDeleteProfile(app);
@@ -27208,9 +27208,9 @@ struct _ScoreProfile * scoreCreateProfile(signed int blocksize, const struct _Se
         i = (signed short int)0;
         for( ; !((signed int)i >= (signed int)alphabetsiz); i = i + 1)
         {
-          void *return_value_ecalloc$3;
-          return_value_ecalloc$3=ecalloc((unsigned long int)blocksize, sizeof(signed char) /*1ul*/ , "score.c", 575);
-          app->score[(signed long int)i] = (signed char *)return_value_ecalloc$3;
+          void *return_value_ecalloc_3;
+          return_value_ecalloc_3=ecalloc((unsigned long int)blocksize, sizeof(signed char) /*1ul*/ , "score.c", 575);
+          app->score[(signed long int)i] = (signed char *)return_value_ecalloc_3;
           if(app->score[(signed long int)i] == ((signed char *)NULL))
           {
             scoreDeleteProfile(app);
@@ -27350,15 +27350,15 @@ const void * scoreGetStripedProfile(signed short int *alphabetsiz, unsigned int 
   if(!(gap_ext == ((unsigned short int *)NULL)))
     *gap_ext = (unsigned short int)((signed int)(unsigned short int)((signed int)spp->gap_ext < 0 ? -1 : 1) * (signed int)spp->gap_ext);
 
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!(bias == ((unsigned short int *)NULL)))
   {
     if(!((signed int)spp->bias >= 0))
-      tmp_if_expr$1 = -1 * (signed int)spp->bias;
+      tmp_if_expr_1 = -1 * (signed int)spp->bias;
 
     else
-      tmp_if_expr$1 = 0;
-    *bias = (unsigned short int)tmp_if_expr$1;
+      tmp_if_expr_1 = 0;
+    *bias = (unsigned short int)tmp_if_expr_1;
   }
 
   if((signed int)mod == 2)
@@ -27395,8 +27395,8 @@ signed int scoreMakeProfileFromSequence(struct _ScoreProfile *app, const struct 
   signed char *sc;
   signed char *hp;
   seq_basp=seqFastqGetConstSequence(sqp, &length, &cod);
-  signed char *tmp_post$1;
-  const char *tmp_post$2;
+  signed char *tmp_post_1;
+  const char *tmp_post_2;
   if(!((signed int)cod == 1))
     return 22;
 
@@ -27421,11 +27421,11 @@ signed int scoreMakeProfileFromSequence(struct _ScoreProfile *app, const struct 
         j = length;
         for( ; j >= 1u && !(*cp == 0); j = j - 1u)
         {
-          tmp_post$1 = hp;
+          tmp_post_1 = hp;
           hp = hp + 1l;
-          tmp_post$2 = cp;
+          tmp_post_2 = cp;
           cp = cp + 1l;
-          *tmp_post$1 = sc[(signed long int)((signed int)*tmp_post$2 & 7)];
+          *tmp_post_1 = sc[(signed long int)((signed int)*tmp_post_2 & 7)];
         }
         *hp = (signed char)0;
       }
@@ -27466,7 +27466,7 @@ double scoreMatrixCalcLambda(const struct _ScoreMatrix *smp)
   double lambda_upper;
   lambda_lower = 0.0;
   lambda = 0.5;
-  double return_value_exp$1;
+  double return_value_exp_1;
   do
   {
     sum = (double)0;
@@ -27476,8 +27476,8 @@ double scoreMatrixCalcLambda(const struct _ScoreMatrix *smp)
       j = 0;
       for( ; !(j >= 4); j = j + 1)
       {
-        return_value_exp$1=exp(lambda * (double)smp->score[(signed long int)i][(signed long int)j]);
-        sum = sum + return_value_exp$1;
+        return_value_exp_1=exp(lambda * (double)smp->score[(signed long int)i][(signed long int)j]);
+        sum = sum + return_value_exp_1;
       }
     }
     sum = sum * 0.0625;
@@ -27489,7 +27489,7 @@ double scoreMatrixCalcLambda(const struct _ScoreMatrix *smp)
   }
   while((_Bool)1);
   lambda_upper = lambda;
-  double return_value_exp$2;
+  double return_value_exp_2;
   while(lambda_upper + -lambda_lower > .00001)
   {
     lambda = (lambda_lower + lambda_upper) / 2.0;
@@ -27500,8 +27500,8 @@ double scoreMatrixCalcLambda(const struct _ScoreMatrix *smp)
       j = 0;
       for( ; !(j >= 4); j = j + 1)
       {
-        return_value_exp$2=exp(lambda * (double)smp->score[(signed long int)i][(signed long int)j]);
-        sum = sum + return_value_exp$2;
+        return_value_exp_2=exp(lambda * (double)smp->score[(signed long int)i][(signed long int)j]);
+        sum = sum + return_value_exp_2;
       }
     }
     sum = sum * 0.0625;
@@ -27604,7 +27604,7 @@ static signed int scorePairsSimple(const struct _RESULT **ap, const struct _RESU
   signed int errcode;
   signed int i;
   signed int n_pairs;
-  double psum = MINLOGARG$link1;
+  double psum = MINLOGARG_link1;
   double marga = 0.0;
   double margb = 0.0;
   double maxprob = 0.0;
@@ -27631,13 +27631,13 @@ static signed int scorePairsSimple(const struct _RESULT **ap, const struct _RESU
 
     else
     {
-      if(psum < MINLOGARG$link1)
-        psum = MINLOGARG$link1;
+      if(psum < MINLOGARG_link1)
+        psum = MINLOGARG_link1;
 
       qsort((void *)mpr, (unsigned long int)n_pairs, sizeof(struct _MATEPAIR) /*48ul*/ , cmpMATEPAIRbyProbDescending);
       i = 1;
       for( ; !(i >= n_pairs); i = i + 1)
-        if((mpr + (signed long int)i)->pbf + MINLOGARG$link1 < mpr->pbf)
+        if((mpr + (signed long int)i)->pbf + MINLOGARG_link1 < mpr->pbf)
           break;
 
       *nmax = i;
@@ -27688,9 +27688,9 @@ static signed int scorePairsSimple(const struct _RESULT **ap, const struct _RESU
 struct ScorePenalties_ * scorePenaltiesCreate(void)
 {
   struct ScorePenalties_ *p;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct ScorePenalties_) /*4ul*/ , "score.c", 72);
-  p = (struct ScorePenalties_ *)return_value_ecalloc$1;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct ScorePenalties_) /*4ul*/ , "score.c", 72);
+  p = (struct ScorePenalties_ *)return_value_ecalloc_1;
   if(!(p == ((struct ScorePenalties_ *)NULL)))
   {
     p->penalty[(signed long int)0] = (signed char)1;
@@ -27768,10 +27768,10 @@ static signed int scoreRMAPCAND(struct RMAPCAND_ **csr, signed int *max1scor, si
   n_candseg=segAliCandsGetNumberOfSegments(sacp, &curr_min_cover, (unsigned int *)(void *)0, cover_deficit, cover_deficit + (signed long int)1, (unsigned int *)(void *)0);
   struct RMAPCAND_ *cp;
   unsigned char isSIMDAliCand;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   if(n_candseg >= 2147483648u || !((signed int)mmscordiff >= 1))
     return 47;
 
@@ -27779,9 +27779,9 @@ static signed int scoreRMAPCAND(struct RMAPCAND_ **csr, signed int *max1scor, si
   {
     if((unsigned long int)n_candseg >= ((unsigned long int *)*csr)[-2l])
     {
-      void *return_value_arrayRealloc$1;
-      return_value_arrayRealloc$1=arrayRealloc((void *)*csr, (unsigned long int)n_candseg, (char)0, "../src/rmap.c", 640);
-      hp = (struct RMAPCAND_ *)return_value_arrayRealloc$1;
+      void *return_value_arrayRealloc_1;
+      return_value_arrayRealloc_1=arrayRealloc((void *)*csr, (unsigned long int)n_candseg, (char)0, "../src/rmap.c", 640);
+      hp = (struct RMAPCAND_ *)return_value_arrayRealloc_1;
       if(hp == ((struct RMAPCAND_ *)NULL))
         return 2;
 
@@ -27816,29 +27816,29 @@ static signed int scoreRMAPCAND(struct RMAPCAND_ **csr, signed int *max1scor, si
           scprofp = profp;
         unprofiled_seqp=seqFastqGetConstSequence(sqbufp, &unprofiled_seqlen, (char *)(void *)0);
         if(unprofiled_seqlen >= 2147483648u)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = (unsigned long int)unprofiled_seqlen != (cp->re - cp->rs) + (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (unsigned long int)unprofiled_seqlen != (cp->re - cp->rs) + (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           return 47;
 
         if(qlen >= 32u)
-          tmp_if_expr$3 = (unsigned int)(cp->band_r - cp->band_l) * (unsigned int)48 > qlen ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (unsigned int)(cp->band_r - cp->band_l) * (unsigned int)48 > qlen ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = cp->qs == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = cp->qs == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
-          tmp_if_expr$5 = cp->qe >= qlen - (unsigned int)1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
+          tmp_if_expr_5 = cp->qe >= qlen - (unsigned int)1 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        isSIMDAliCand = (unsigned char)tmp_if_expr$5;
+          tmp_if_expr_5 = (_Bool)0;
+        isSIMDAliCand = (unsigned char)tmp_if_expr_5;
         if(!(isSIMDAliCand == 0))
           errcode=swSIMDAlignStriped(&cp->swscor, alibufp, scprofp, unprofiled_seqp, (signed int)unprofiled_seqlen);
 
@@ -28159,26 +28159,26 @@ static signed int scrollToHeaderLine(struct gzFile_s *fp, signed int *prompt, ch
 {
   char *cp = bufp;
   *prompt = 0;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   do
   {
 
   __CPROVER_DUMP_L1:
     ;
-    const unsigned short int **return_value___ctype_b_loc$1;
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if(!((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*cp]) == 0))
+    const unsigned short int **return_value___ctype_b_loc_1;
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if(!((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*cp]) == 0))
     {
       cp = cp + 1l;
       goto __CPROVER_DUMP_L1;
     }
 
     if((signed int)*cp == 62)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)*cp == 64 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)*cp == 64 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
     {
       *prompt = (signed int)*cp;
       return 0;
@@ -28187,9 +28187,9 @@ static signed int scrollToHeaderLine(struct gzFile_s *fp, signed int *prompt, ch
     cp=gzgets(fp, bufp, 1024);
   }
   while(!(cp == ((char *)NULL)));
-  signed int return_value_gzeof$3;
-  return_value_gzeof$3=gzeof(fp);
-  return return_value_gzeof$3 != 0 ? 10 : 14;
+  signed int return_value_gzeof_3;
+  return_value_gzeof_3=gzeof(fp);
+  return return_value_gzeof_3 != 0 ? 10 : 14;
 }
 
 // segAliCandsAdd
@@ -28335,12 +28335,12 @@ signed int segAliCandsCalcSegmentOffsets(unsigned int *qs, unsigned int *qe, uns
   unsigned long int roffs;
   unsigned long int rlen;
   const struct _SEGCAND *scandp;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  signed int tmp_if_expr$6;
-  signed int tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  signed int tmp_if_expr_6;
+  signed int tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
   if(scidx >= sacp->n_sort)
     return -1;
 
@@ -28350,15 +28350,15 @@ signed int segAliCandsCalcSegmentOffsets(unsigned int *qs, unsigned int *qe, uns
     *seqidx = (signed long int)scandp->seqidx;
     *bitflags = scandp->flag;
     *cover = scandp->cover;
-    signed long int return_value_seqSetGetOffsets$1;
-    return_value_seqSetGetOffsets$1=seqSetGetOffsets(ssp, &soffsp);
-    nseq = (signed int)return_value_seqSetGetOffsets$1;
+    signed long int return_value_seqSetGetOffsets_1;
+    return_value_seqSetGetOffsets_1=seqSetGetOffsets(ssp, &soffsp);
+    nseq = (signed int)return_value_seqSetGetOffsets_1;
     if(!(scandp->seqidx >= 0))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = scandp->seqidx >= nseq ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = scandp->seqidx >= nseq ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       roffs = (unsigned long int)0;
       rlen = soffsp[(signed long int)nseq];
@@ -28366,18 +28366,18 @@ signed int segAliCandsCalcSegmentOffsets(unsigned int *qs, unsigned int *qe, uns
 
     else
     {
-      unsigned int return_value_seqSetGetSeqDatByIndex$2;
-      return_value_seqSetGetSeqDatByIndex$2=seqSetGetSeqDatByIndex(&roffs, (const char **)(void *)0, (signed long int)scandp->seqidx, ssp);
-      rlen = (unsigned long int)return_value_seqSetGetSeqDatByIndex$2;
+      unsigned int return_value_seqSetGetSeqDatByIndex_2;
+      return_value_seqSetGetSeqDatByIndex_2=seqSetGetSeqDatByIndex(&roffs, (const char **)(void *)0, (signed long int)scandp->seqidx, ssp);
+      rlen = (unsigned long int)return_value_seqSetGetSeqDatByIndex_2;
     }
     *rs = (unsigned long int)scandp->rs * (unsigned long int)nskip;
     *re = ((unsigned long int)scandp->re * (unsigned long int)nskip + (unsigned long int)ktup) - (unsigned long int)1;
     if(!(*rs >= roffs))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = *re < *rs ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = *re < *rs ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
       return 47;
 
     else
@@ -28390,11 +28390,11 @@ signed int segAliCandsCalcSegmentOffsets(unsigned int *qs, unsigned int *qe, uns
       else
       {
         if(!(scandp->qe >= scandp->qs))
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
-          tmp_if_expr$5 = scandp->qs >= qlen ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = scandp->qs >= qlen ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_5)
           return 47;
 
         else
@@ -28424,27 +28424,27 @@ signed int segAliCandsCalcSegmentOffsets(unsigned int *qs, unsigned int *qe, uns
           br = (-((signed int)scandp->shiftoffs) + 1) * (signed int)nskip + edge_band + 1;
           bl = ((br - ((signed int)scandp->srange + 2) * (signed int)nskip) - 2 * edge_band) - 2;
           if(*qs >= (unsigned int)edgelen && (signed int)edgelen >= 1)
-            tmp_if_expr$6 = (signed int)edgelen;
+            tmp_if_expr_6 = (signed int)edgelen;
 
           else
-            tmp_if_expr$6 = (signed int)*qs;
-          q_edge_l = tmp_if_expr$6;
+            tmp_if_expr_6 = (signed int)*qs;
+          q_edge_l = tmp_if_expr_6;
           if(qlen >= 1u + *qe + (unsigned int)edgelen && (signed int)edgelen >= 1)
-            tmp_if_expr$7 = (signed int)edgelen;
+            tmp_if_expr_7 = (signed int)edgelen;
 
           else
-            tmp_if_expr$7 = (signed int)((qlen - *qe) - (unsigned int)1);
-          q_edge_r = tmp_if_expr$7;
+            tmp_if_expr_7 = (signed int)((qlen - *qe) - (unsigned int)1);
+          q_edge_r = tmp_if_expr_7;
           *qs = *qs - (unsigned int)q_edge_l;
           *qe = *qe + (unsigned int)q_edge_r;
           r_edge_l = q_edge_l + br;
           r_edge_r = q_edge_r - bl;
           if(r_edge_l >= 1)
-            tmp_if_expr$8 = *rs < (unsigned long int)r_edge_l ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_8 = *rs < (unsigned long int)r_edge_l ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$8 = (_Bool)0;
-          if(tmp_if_expr$8)
+            tmp_if_expr_8 = (_Bool)0;
+          if(tmp_if_expr_8)
           {
             r_edge_l = (signed int)*rs;
             *rs = (unsigned long int)0;
@@ -28493,11 +28493,11 @@ signed int segAliCandsCalcSegmentOffsets(unsigned int *qs, unsigned int *qe, uns
 struct _SegAliCands * segAliCandsCreate(signed int blocksiz)
 {
   struct _SegAliCands *sacp;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _SegAliCands) /*64ul*/ , "segment.c", 1478);
-  sacp = (struct _SegAliCands *)return_value_ecalloc$1;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _SegAliCands) /*64ul*/ , "segment.c", 1478);
+  sacp = (struct _SegAliCands *)return_value_ecalloc_1;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
   if(sacp == ((struct _SegAliCands *)NULL))
     return ((struct _SegAliCands *)NULL);
 
@@ -28506,26 +28506,26 @@ struct _SegAliCands * segAliCandsCreate(signed int blocksiz)
     if(!(blocksiz >= 1))
       blocksiz = 65536;
 
-    void *return_value_arrayCreate$2;
-    return_value_arrayCreate$2=arrayCreate(sizeof(struct _SEGCAND) /*48ul*/ , (unsigned long int)blocksiz, "segment.c", 1484);
-    sacp->candr = (struct _SEGCAND *)return_value_arrayCreate$2;
-    void *return_value_ecalloc$3;
-    return_value_ecalloc$3=ecalloc((unsigned long int)blocksiz, sizeof(unsigned int) /*4ul*/ , "segment.c", 1485);
-    sacp->sort_keys = (unsigned int *)return_value_ecalloc$3;
-    void *return_value_ecalloc$4;
-    return_value_ecalloc$4=ecalloc((unsigned long int)blocksiz, sizeof(unsigned int) /*4ul*/ , "segment.c", 1486);
-    sacp->sort_idx = (unsigned int *)return_value_ecalloc$4;
+    void *return_value_arrayCreate_2;
+    return_value_arrayCreate_2=arrayCreate(sizeof(struct _SEGCAND) /*48ul*/ , (unsigned long int)blocksiz, "segment.c", 1484);
+    sacp->candr = (struct _SEGCAND *)return_value_arrayCreate_2;
+    void *return_value_ecalloc_3;
+    return_value_ecalloc_3=ecalloc((unsigned long int)blocksiz, sizeof(unsigned int) /*4ul*/ , "segment.c", 1485);
+    sacp->sort_keys = (unsigned int *)return_value_ecalloc_3;
+    void *return_value_ecalloc_4;
+    return_value_ecalloc_4=ecalloc((unsigned long int)blocksiz, sizeof(unsigned int) /*4ul*/ , "segment.c", 1486);
+    sacp->sort_idx = (unsigned int *)return_value_ecalloc_4;
     if(!(sacp->candr == ((struct _SEGCAND *)NULL)))
-      tmp_if_expr$5 = sacp->sort_keys != ((unsigned int *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = sacp->sort_keys != ((unsigned int *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = sacp->sort_idx != ((unsigned int *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = sacp->sort_idx != ((unsigned int *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (_Bool)0;
+    if(tmp_if_expr_6)
     {
       sacp->alloc_blksz = (unsigned int)blocksiz;
       sacp->n_alloc = sacp->alloc_blksz;
@@ -28588,13 +28588,13 @@ unsigned int segAliCandsGetNumberOfSegments(const struct _SegAliCands *sacp, uns
 // file segment.c line 1787
 const struct _SEGCAND * segAliCandsGetSegment(const struct _SegAliCands *sacp, unsigned int idx)
 {
-  struct _SEGCAND *tmp_if_expr$1;
+  struct _SEGCAND *tmp_if_expr_1;
   if(!(idx >= sacp->n_sort))
-    tmp_if_expr$1 = sacp->candr + (signed long int)sacp->sort_idx[(signed long int)idx];
+    tmp_if_expr_1 = sacp->candr + (signed long int)sacp->sort_idx[(signed long int)idx];
 
   else
-    tmp_if_expr$1 = ((struct _SEGCAND *)NULL);
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = ((struct _SEGCAND *)NULL);
+  return tmp_if_expr_1;
 }
 
 // segAliCandsGetSegmentData
@@ -28630,13 +28630,13 @@ void segAliCandsPrint(struct _IO_FILE *fp, unsigned int max_depth, const struct 
 {
   signed short int i;
   signed short int n_cand;
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   if(!(max_depth >= sacp->n_sort))
-    tmp_if_expr$1 = max_depth;
+    tmp_if_expr_1 = max_depth;
 
   else
-    tmp_if_expr$1 = sacp->n_sort;
-  n_cand = (signed short int)tmp_if_expr$1;
+    tmp_if_expr_1 = sacp->n_sort;
+  n_cand = (signed short int)tmp_if_expr_1;
   printf("======= List of %hi candidate segments =======\n", n_cand);
   i = (signed short int)0;
   for( ; !((signed int)i >= (signed int)n_cand); i = i + 1)
@@ -28703,13 +28703,13 @@ signed int segAliCandsStats(struct _SegAliCands *sacp, unsigned int min_cover_be
   if(!(max_depth >= target_depth))
     target_depth = max_depth;
 
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   if(!(sacp->max_cover >= min_cover_below_max))
-    tmp_if_expr$1 = (unsigned int)0;
+    tmp_if_expr_1 = (unsigned int)0;
 
   else
-    tmp_if_expr$1 = sacp->max_cover - min_cover_below_max;
-  min_cover = tmp_if_expr$1;
+    tmp_if_expr_1 = sacp->max_cover - min_cover_below_max;
+  min_cover = tmp_if_expr_1;
   if(!(sacp->max2nd_cover >= min_cover))
   {
     cdf = min_cover - sacp->max2nd_cover;
@@ -28754,8 +28754,8 @@ signed int segAliCandsStats(struct _SegAliCands *sacp, unsigned int min_cover_be
 
   }
   errcode=sort2UINTarraysByQuickSort((signed int)j, sacp->sort_keys, sacp->sort_idx);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if(!(errcode == 0))
     return errcode;
 
@@ -28778,11 +28778,11 @@ signed int segAliCandsStats(struct _SegAliCands *sacp, unsigned int min_cover_be
         do
         {
           if(!(j >= sacp->n_mincover))
-            tmp_if_expr$2 = sacp->sort_keys[(signed long int)j] < (unsigned int)nskip ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = sacp->sort_keys[(signed long int)j] < (unsigned int)nskip ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2 = (_Bool)0;
-          if(!tmp_if_expr$2)
+            tmp_if_expr_2 = (_Bool)0;
+          if(!tmp_if_expr_2)
             break;
 
           j = j + 1u;
@@ -28800,11 +28800,11 @@ signed int segAliCandsStats(struct _SegAliCands *sacp, unsigned int min_cover_be
         do
         {
           if(!(j >= maxj))
-            tmp_if_expr$3 = sacp->sort_keys[(signed long int)j] < cov ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = sacp->sort_keys[(signed long int)j] < cov ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          if(!tmp_if_expr$3)
+            tmp_if_expr_3 = (_Bool)0;
+          if(!tmp_if_expr_3)
             break;
 
           j = j + 1u;
@@ -28888,11 +28888,11 @@ void segLstBlank(struct _SegLst *sp)
 struct _SegLst * segLstCreate(signed int blocksiz)
 {
   struct _SegLst *sp;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _SegLst) /*40ul*/ , "segment.c", 725);
-  sp = (struct _SegLst *)return_value_ecalloc$1;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _SegLst) /*40ul*/ , "segment.c", 725);
+  sp = (struct _SegLst *)return_value_ecalloc_1;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
   if(sp == ((struct _SegLst *)NULL))
     return ((struct _SegLst *)NULL);
 
@@ -28901,26 +28901,26 @@ struct _SegLst * segLstCreate(signed int blocksiz)
     if(!(blocksiz >= 65536))
       blocksiz = 65536;
 
-    void *return_value_arrayCreate$2;
-    return_value_arrayCreate$2=arrayCreate(sizeof(struct _SEED$0) /*16ul*/ , (unsigned long int)blocksiz, "segment.c", 730);
-    sp->seedr = (struct _SEED$0 *)return_value_arrayCreate$2;
-    void *return_value_arrayCreate$3;
-    return_value_arrayCreate$3=arrayCreate(sizeof(struct _SEGMENT) /*12ul*/ , (unsigned long int)blocksiz, "segment.c", 731);
-    sp->segmr = (struct _SEGMENT *)return_value_arrayCreate$3;
-    void *return_value_arrayCreate$4;
-    return_value_arrayCreate$4=arrayCreate(sizeof(struct _HITREGION) /*8ul*/ , (unsigned long int)(blocksiz / 2), "segment.c", 732);
-    sp->hregr = (struct _HITREGION *)return_value_arrayCreate$4;
+    void *return_value_arrayCreate_2;
+    return_value_arrayCreate_2=arrayCreate(sizeof(struct _SEED_0) /*16ul*/ , (unsigned long int)blocksiz, "segment.c", 730);
+    sp->seedr = (struct _SEED_0 *)return_value_arrayCreate_2;
+    void *return_value_arrayCreate_3;
+    return_value_arrayCreate_3=arrayCreate(sizeof(struct _SEGMENT) /*12ul*/ , (unsigned long int)blocksiz, "segment.c", 731);
+    sp->segmr = (struct _SEGMENT *)return_value_arrayCreate_3;
+    void *return_value_arrayCreate_4;
+    return_value_arrayCreate_4=arrayCreate(sizeof(struct _HITREGION) /*8ul*/ , (unsigned long int)(blocksiz / 2), "segment.c", 732);
+    sp->hregr = (struct _HITREGION *)return_value_arrayCreate_4;
     if(!(sp->hregr == ((struct _HITREGION *)NULL)))
-      tmp_if_expr$5 = sp->seedr != ((struct _SEED$0 *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = sp->seedr != ((struct _SEED_0 *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = sp->segmr != ((struct _SEGMENT *)NULL) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = sp->segmr != ((struct _SEGMENT *)NULL) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(!tmp_if_expr$6)
+      tmp_if_expr_6 = (_Bool)0;
+    if(!tmp_if_expr_6)
     {
       segLstDelete(sp);
       sp = ((struct _SegLst *)NULL);
@@ -28941,7 +28941,7 @@ void segLstDelete(struct _SegLst *sp)
     free((void *)((unsigned long int *)sp->segmr - (signed long int)4));
     sp->segmr = (struct _SEGMENT *)(void *)0;
     free((void *)((unsigned long int *)sp->seedr - (signed long int)4));
-    sp->seedr = (struct _SEED$0 *)(void *)0;
+    sp->seedr = (struct _SEED_0 *)(void *)0;
   }
 
   free((void *)sp);
@@ -28951,7 +28951,7 @@ void segLstDelete(struct _SegLst *sp)
 // file segment.c line 875
 signed int segLstFetchSeed(unsigned int *q_offs, unsigned int *s_offs, unsigned int idx, const struct _SegLst *sp)
 {
-  struct _SEED$0 *seedp;
+  struct _SEED_0 *seedp;
   if((unsigned long int)idx >= ((unsigned long int *)sp->seedr)[-1l])
   {
     if(!(q_offs == ((unsigned int *)NULL)))
@@ -29046,7 +29046,7 @@ void segLstPrintSeeds(struct _IO_FILE *fp, const struct _SegLst *sglp)
 {
   unsigned int i;
   unsigned int n_seeds;
-  struct _SEED$0 *sp;
+  struct _SEED_0 *sp;
   n_seeds = (unsigned int)((unsigned long int *)sglp->seedr)[(signed long int)-1];
   fprintf(fp, "=-=-=-=-= Seed List =-=-=-=-=\n");
   fprintf(fp, "%u Seeds\n", n_seeds);
@@ -29065,17 +29065,17 @@ void segLstPrintSeeds(struct _IO_FILE *fp, const struct _SegLst *sglp)
 struct _SegQMask * segQMaskCreate(signed int qblksz)
 {
   struct _SegQMask *sqmp;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _SegQMask) /*24ul*/ , "segment.c", 693);
-  sqmp = (struct _SegQMask *)return_value_ecalloc$1;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _SegQMask) /*24ul*/ , "segment.c", 693);
+  sqmp = (struct _SegQMask *)return_value_ecalloc_1;
   if(!(sqmp == ((struct _SegQMask *)NULL)))
   {
     if(!(qblksz >= 1024))
       qblksz = 1024;
 
-    void *return_value_ecalloc$2;
-    return_value_ecalloc$2=ecalloc((unsigned long int)qblksz, sizeof(unsigned char) /*1ul*/ , "segment.c", 697);
-    sqmp->maskp = (unsigned char *)return_value_ecalloc$2;
+    void *return_value_ecalloc_2;
+    return_value_ecalloc_2=ecalloc((unsigned long int)qblksz, sizeof(unsigned char) /*1ul*/ , "segment.c", 697);
+    sqmp->maskp = (unsigned char *)return_value_ecalloc_2;
     if(!(sqmp->maskp == ((unsigned char *)NULL)))
     {
       sqmp->n_alloc = (unsigned long int)qblksz;
@@ -29183,11 +29183,11 @@ struct _SeqCodec * seqCodecCreate(void)
 {
   signed int errcode;
   struct _SeqCodec *codp;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _SeqCodec) /*525ul*/ , "sequence.c", 340);
-  codp = (struct _SeqCodec *)return_value_ecalloc$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_checkCodec$2;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _SeqCodec) /*525ul*/ , "sequence.c", 340);
+  codp = (struct _SeqCodec *)return_value_ecalloc_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_checkCodec_2;
   if(codp == ((struct _SeqCodec *)NULL))
     return (struct _SeqCodec *)(void *)0;
 
@@ -29195,14 +29195,14 @@ struct _SeqCodec * seqCodecCreate(void)
   {
     errcode=make3BitMangledCodec(codp);
     if(!(errcode == 0))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_checkCodec$2=checkCodec(codp);
-      tmp_if_expr$3 = return_value_checkCodec$2 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_checkCodec_2=checkCodec(codp);
+      tmp_if_expr_3 = return_value_checkCodec_2 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
     {
       seqCodecDelete(codp);
       codp = (struct _SeqCodec *)(void *)0;
@@ -29223,17 +29223,17 @@ struct _SeqCodec * seqCodecCreateFromAlphabet(const char *alphabet, unsigned cha
   unsigned long int alphsiz;
   alphsiz=strlen(alphabet);
   struct _SeqCodec *codp;
-  signed int return_value_toupper$2;
-  _Bool tmp_if_expr$4;
+  signed int return_value_toupper_2;
+  _Bool tmp_if_expr_4;
   if(alphsiz >= 8ul || (unsigned long int)code_unknown >= alphsiz || !(alphsiz >= 4ul))
     return (struct _SeqCodec *)(void *)0;
 
   else
   {
     al = (signed int)alphsiz;
-    void *return_value_ecalloc$1;
-    return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _SeqCodec) /*525ul*/ , "sequence.c", 365);
-    codp = (struct _SeqCodec *)return_value_ecalloc$1;
+    void *return_value_ecalloc_1;
+    return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _SeqCodec) /*525ul*/ , "sequence.c", 365);
+    codp = (struct _SeqCodec *)return_value_ecalloc_1;
     if(codp == ((struct _SeqCodec *)NULL))
       return (struct _SeqCodec *)(void *)0;
 
@@ -29248,15 +29248,15 @@ struct _SeqCodec * seqCodecCreateFromAlphabet(const char *alphabet, unsigned cha
       i = 0;
       for( ; !(i >= al); i = i + 1)
       {
-        return_value_toupper$2=toupper((signed int)codp->alphabet[(signed long int)i]);
-        codp->alphabet[(signed long int)i] = (char)return_value_toupper$2;
+        return_value_toupper_2=toupper((signed int)codp->alphabet[(signed long int)i]);
+        codp->alphabet[(signed long int)i] = (char)return_value_toupper_2;
       }
       i = 0;
       for( ; !(i >= 256); i = i + 1)
       {
-        signed int return_value_toupper$3;
-        return_value_toupper$3=toupper(i);
-        cu = (unsigned char)return_value_toupper$3;
+        signed int return_value_toupper_3;
+        return_value_toupper_3=toupper(i);
+        cu = (unsigned char)return_value_toupper_3;
         if((signed int)cu == 85)
           cu = (unsigned char)84;
 
@@ -29264,11 +29264,11 @@ struct _SeqCodec * seqCodecCreateFromAlphabet(const char *alphabet, unsigned cha
         do
         {
           if(!((signed int)a >= al))
-            tmp_if_expr$4 = cu != (unsigned char)codp->alphabet[(signed long int)a] ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = cu != (unsigned char)codp->alphabet[(signed long int)a] ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(!tmp_if_expr$4)
+            tmp_if_expr_4 = (_Bool)0;
+          if(!tmp_if_expr_4)
             break;
 
           a = a + 1;
@@ -29349,11 +29349,11 @@ char seqCodecFindBaseClass(char c, const struct _SeqCodec *codecp)
 // file sequence.h line 153
 const char * seqCodecGetAlphabet(const struct _SeqCodec *codp, signed short int *length)
 {
-  unsigned long int return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
   if(!(length == ((signed short int *)NULL)))
   {
-    return_value_strlen$1=strlen(codp->alphabet);
-    *length = (signed short int)return_value_strlen$1;
+    return_value_strlen_1=strlen(codp->alphabet);
+    *length = (signed short int)return_value_strlen_1;
   }
 
   return codp->alphabet;
@@ -29392,7 +29392,7 @@ signed int seqFastqAppendSegment(struct _SeqFastq *top, const struct _SeqFastq *
 {
   signed int errcode;
   errcode=appendSeqSegment(top->datap, (unsigned int *)(void *)0, (unsigned char *)(void *)0, fromp->datap, start, length, reverse, (char)0, codep);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(errcode == 0))
     return errcode;
 
@@ -29415,11 +29415,11 @@ signed int seqFastqAppendSegment(struct _SeqFastq *top, const struct _SeqFastq *
         top->type = fromp->type;
 
       if(fromp->qualp == ((struct _SEQSEQ *)NULL))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = fromp->qualp->size < (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = fromp->qualp->size < (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         return errcode;
 
       else
@@ -29468,31 +29468,31 @@ void seqFastqBlank(struct _SeqFastq *p)
 // file ../src/sequence.h line 245
 signed int seqFastqCheck(const struct _SeqFastq *sqp)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(sqp == ((const struct _SeqFastq *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = sqp->headp == (struct _SEQSEQ *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = sqp->headp == (struct _SEQSEQ *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = sqp->datap == (struct _SEQSEQ *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = sqp->datap == (struct _SEQSEQ *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
     return -1;
 
   else
     if((signed int)sqp->type == 2)
     {
       if(sqp->qualp == ((struct _SEQSEQ *)NULL))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = sqp->datap->size != sqp->qualp->size ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$3)
+        tmp_if_expr_3 = sqp->datap->size != sqp->qualp->size ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_3)
         goto __CPROVER_DUMP_L8;
 
       return -1;
@@ -29503,9 +29503,9 @@ signed int seqFastqCheck(const struct _SeqFastq *sqp)
 
     __CPROVER_DUMP_L8:
       ;
-      signed int return_value_checkSeqNtSymbolsAreLetters$4;
-      return_value_checkSeqNtSymbolsAreLetters$4=checkSeqNtSymbolsAreLetters(sqp->datap);
-      return return_value_checkSeqNtSymbolsAreLetters$4;
+      signed int return_value_checkSeqNtSymbolsAreLetters_4;
+      return_value_checkSeqNtSymbolsAreLetters_4=checkSeqNtSymbolsAreLetters(sqp->datap);
+      return return_value_checkSeqNtSymbolsAreLetters_4;
     }
 }
 
@@ -29518,9 +29518,9 @@ signed int seqFastqCompress(struct _SeqFastq *sqp)
 
   else
   {
-    signed int return_value_compressSeq$1;
-    return_value_compressSeq$1=compressSeq(sqp->datap);
-    return return_value_compressSeq$1;
+    signed int return_value_compressSeq_1;
+    return_value_compressSeq_1=compressSeq(sqp->datap);
+    return return_value_compressSeq_1;
   }
 }
 
@@ -29529,12 +29529,12 @@ signed int seqFastqCompress(struct _SeqFastq *sqp)
 struct _SeqFastq * seqFastqCreate(signed int blocksize, char type)
 {
   struct _SeqFastq *sqp = (struct _SeqFastq *)(void *)0;
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _SeqFastq) /*40ul*/ , "sequence.c", 1780);
-  sqp = (struct _SeqFastq *)return_value_ecalloc$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _SeqFastq) /*40ul*/ , "sequence.c", 1780);
+  sqp = (struct _SeqFastq *)return_value_ecalloc_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
   if(sqp == ((struct _SeqFastq *)NULL))
     return (struct _SeqFastq *)(void *)0;
 
@@ -29546,29 +29546,29 @@ struct _SeqFastq * seqFastqCreate(signed int blocksize, char type)
 
     sqp->headp=createSeq((unsigned int)128);
     if(sqp->headp == ((struct _SEQSEQ *)NULL))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
       sqp->datap=createSeq((unsigned int)blocksize);
-      tmp_if_expr$2 = !(sqp->datap != ((struct _SEQSEQ *)NULL)) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = !(sqp->datap != ((struct _SEQSEQ *)NULL)) ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
-      tmp_if_expr$4 = (_Bool)1;
+    if(tmp_if_expr_2)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
       if((signed int)type == 2)
       {
         sqp->qualp=createSeq((unsigned int)blocksize);
-        tmp_if_expr$3 = !(sqp->qualp != ((struct _SEQSEQ *)NULL)) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = !(sqp->qualp != ((struct _SEQSEQ *)NULL)) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
     {
       seqFastqDelete(sqp);
       sqp = (struct _SeqFastq *)(void *)0;
@@ -29589,9 +29589,9 @@ void seqFastqCurtailSeqName(struct _SeqFastq *sfqp)
 // file ../src/sequence.h line 350
 signed int seqFastqDecode(struct _SeqFastq *sqp, const struct _SeqCodec *codep)
 {
-  signed int return_value_decodeSeq$1;
-  return_value_decodeSeq$1=decodeSeq(sqp->datap, codep);
-  return return_value_decodeSeq$1;
+  signed int return_value_decodeSeq_1;
+  return_value_decodeSeq_1=decodeSeq(sqp->datap, codep);
+  return return_value_decodeSeq_1;
 }
 
 // seqFastqDecodeAsStandardNt
@@ -29636,9 +29636,9 @@ void seqFastqDelete(struct _SeqFastq *sqp)
 // file ../src/sequence.h line 347
 signed int seqFastqEncode(struct _SeqFastq *sqp, const struct _SeqCodec *codep)
 {
-  signed int return_value_encodeSeq$1;
-  return_value_encodeSeq$1=encodeSeq(sqp->datap, codep);
-  return return_value_encodeSeq$1;
+  signed int return_value_encodeSeq_1;
+  return_value_encodeSeq_1=encodeSeq(sqp->datap, codep);
+  return return_value_encodeSeq_1;
 }
 
 // seqFastqFind
@@ -29648,8 +29648,8 @@ signed int seqFastqFind(struct _SeqFastq *sqp, const char *nam, struct _SeqIO *i
   signed int this_prompt = 43;
   signed int next_prompt;
   signed int cmp = 0;
-  _Bool tmp_if_expr$2;
-  signed int tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  signed int tmp_if_expr_1;
   if(!((signed int)ifp->mode == 0))
     return 13;
 
@@ -29664,7 +29664,7 @@ signed int seqFastqFind(struct _SeqFastq *sqp, const char *nam, struct _SeqIO *i
       if(cmp == 0)
         break;
 
-      ifp->status=readHeader$link1(sqp->headp, (struct gzFile_s *)ifp->fp, &this_prompt, ifp->linbufp);
+      ifp->status=readHeader_link1(sqp->headp, (struct gzFile_s *)ifp->fp, &this_prompt, ifp->linbufp);
       if(!(ifp->status == 0))
         break;
 
@@ -29683,26 +29683,26 @@ signed int seqFastqFind(struct _SeqFastq *sqp, const char *nam, struct _SeqIO *i
       {
         ifp->status=readSeq(sqp->datap, (struct gzFile_s *)ifp->fp, &next_prompt);
         if(!(ifp->status == 0))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = (signed int)sqp->type == 1 ? (_Bool)1 : (_Bool)0;
-        if(!(next_prompt == 43) || tmp_if_expr$2)
+          tmp_if_expr_2 = (signed int)sqp->type == 1 ? (_Bool)1 : (_Bool)0;
+        if(!(next_prompt == 43) || tmp_if_expr_2)
         {
           sqp->type = (char)1;
           if(ifp->status == 10)
-            tmp_if_expr$1 = 0;
+            tmp_if_expr_1 = 0;
 
           else
-            tmp_if_expr$1 = ifp->status;
-          return tmp_if_expr$1;
+            tmp_if_expr_1 = ifp->status;
+          return tmp_if_expr_1;
         }
 
         else
         {
-          signed int return_value_readQual$3;
-          return_value_readQual$3=readQual(sqp, ifp);
-          return return_value_readQual$3;
+          signed int return_value_readQual_3;
+          return_value_readQual_3=readQual(sqp, ifp);
+          return return_value_readQual_3;
         }
       }
   }
@@ -29790,13 +29790,13 @@ const char * seqFastqGetConstSequence(const struct _SeqFastq *sfqp, unsigned int
 // file sequence.c line 2140
 const char * seqFastqGetQualName(const struct _SeqFastq *sfqp)
 {
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!(sfqp->qheadp == ((struct _SEQSEQ *)NULL)))
-    tmp_if_expr$1 = sfqp->qheadp->basep;
+    tmp_if_expr_1 = sfqp->qheadp->basep;
 
   else
-    tmp_if_expr$1 = (char *)(void *)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (char *)(void *)0;
+  return tmp_if_expr_1;
 }
 
 // seqFastqGetQualityFactors
@@ -29835,13 +29835,13 @@ char * seqFastqGetQualityFactors(struct _SeqFastq *sfqp, unsigned int *length, c
 // file ../src/sequence.h line 336
 const char * seqFastqGetSeqName(const struct _SeqFastq *sfqp)
 {
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!(sfqp == ((const struct _SeqFastq *)NULL)))
-    tmp_if_expr$1 = sfqp->headp->basep;
+    tmp_if_expr_1 = sfqp->headp->basep;
 
   else
-    tmp_if_expr$1 = (char *)(void *)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (char *)(void *)0;
+  return tmp_if_expr_1;
 }
 
 // seqFastqGetSequence
@@ -29879,7 +29879,7 @@ signed int seqFastqRead(struct _SeqFastq *sqp, struct _SeqIO *ifp)
   signed int errcode;
   signed int this_prompt = 43;
   signed int next_prompt;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_1;
   if(!((signed int)ifp->mode == 0))
     return 13;
 
@@ -29891,7 +29891,7 @@ signed int seqFastqRead(struct _SeqFastq *sqp, struct _SeqIO *ifp)
     {
       while(this_prompt == 43)
       {
-        ifp->status=readHeader$link1(sqp->headp, (struct gzFile_s *)ifp->fp, &this_prompt, ifp->linbufp);
+        ifp->status=readHeader_link1(sqp->headp, (struct gzFile_s *)ifp->fp, &this_prompt, ifp->linbufp);
         if(!(ifp->status == 0))
           return ifp->status;
 
@@ -29901,11 +29901,11 @@ signed int seqFastqRead(struct _SeqFastq *sqp, struct _SeqIO *ifp)
       {
         sqp->type = (char)1;
         if(ifp->status == 10)
-          tmp_if_expr$1 = 0;
+          tmp_if_expr_1 = 0;
 
         else
-          tmp_if_expr$1 = ifp->status;
-        return tmp_if_expr$1;
+          tmp_if_expr_1 = ifp->status;
+        return tmp_if_expr_1;
       }
 
       else
@@ -29982,11 +29982,11 @@ signed int seqFastqReverse(struct _SeqFastq *sqp, const struct _SeqCodec *codecp
 signed int seqFastqSetAscii(struct _SeqFastq *sqp, const char *name, const char *seqp, const char *name_qual, const char *qualp)
 {
   signed int errcode;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   if(!(name == ((const char *)NULL)))
   {
     errcode=setSeq(sqp->headp, name);
@@ -30018,14 +30018,14 @@ signed int seqFastqSetAscii(struct _SeqFastq *sqp, const char *name, const char 
       if(!(name_qual == ((const char *)NULL)))
       {
         if(!(sqp->qheadp == ((struct _SEQSEQ *)NULL)))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
         {
           sqp->qheadp=createSeq((unsigned int)128);
-          tmp_if_expr$1 = sqp->qheadp != ((struct _SEQSEQ *)NULL) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = sqp->qheadp != ((struct _SEQSEQ *)NULL) ? (_Bool)1 : (_Bool)0;
         }
-        if(!tmp_if_expr$1)
+        if(!tmp_if_expr_1)
           return 2;
 
         errcode=setSeq(sqp->qheadp, name_qual);
@@ -30041,22 +30041,22 @@ signed int seqFastqSetAscii(struct _SeqFastq *sqp, const char *name, const char 
       __CPROVER_DUMP_L6:
         ;
         if(!(qualp == ((const char *)NULL)))
-          tmp_if_expr$5 = (signed int)qualp[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = (signed int)qualp[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
         {
           sqp->type = (char)2;
           if(!(sqp->qualp == ((struct _SEQSEQ *)NULL)))
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
           {
             sqp->qualp=createSeq((unsigned int)sqp->datap->block_size);
-            tmp_if_expr$2 = sqp->qualp != ((struct _SEQSEQ *)NULL) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_2 = sqp->qualp != ((struct _SEQSEQ *)NULL) ? (_Bool)1 : (_Bool)0;
           }
-          if(!tmp_if_expr$2)
+          if(!tmp_if_expr_2)
             return 2;
 
           errcode=setSeq(sqp->qualp, qualp);
@@ -30071,16 +30071,16 @@ signed int seqFastqSetAscii(struct _SeqFastq *sqp, const char *name, const char 
         else
         {
           if(!((signed int)sqp->type == 2))
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = !(sqp->qualp != ((struct _SEQSEQ *)NULL)) ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$3)
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_3 = !(sqp->qualp != ((struct _SEQSEQ *)NULL)) ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_3)
+            tmp_if_expr_4 = (_Bool)1;
 
           else
-            tmp_if_expr$4 = sqp->datap->size != sqp->qualp->size ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$4)
+            tmp_if_expr_4 = sqp->datap->size != sqp->qualp->size ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_4)
             sqp->type = (char)1;
 
         }
@@ -30095,31 +30095,31 @@ signed int seqFastqSetAscii(struct _SeqFastq *sqp, const char *name, const char 
 signed int seqFastqSetQual(struct _SeqFastq *sqp, const char qval)
 {
   unsigned long int i;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(sqp->qualp == ((struct _SEQSEQ *)NULL)))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
   {
     sqp->qualp=createSeq((unsigned int)sqp->datap->block_size);
-    tmp_if_expr$1 = sqp->qualp != ((struct _SEQSEQ *)NULL) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = sqp->qualp != ((struct _SEQSEQ *)NULL) ? (_Bool)1 : (_Bool)0;
   }
-  _Bool tmp_if_expr$3;
-  signed int return_value_reallocSeqBlocks$2;
-  if(!tmp_if_expr$1)
+  _Bool tmp_if_expr_3;
+  signed int return_value_reallocSeqBlocks_2;
+  if(!tmp_if_expr_1)
     return 2;
 
   else
   {
     if(sqp->datap->size >= sqp->qualp->alloc_size)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_reallocSeqBlocks$2=reallocSeqBlocks(sqp->qualp, sqp->datap->size);
-      tmp_if_expr$3 = return_value_reallocSeqBlocks$2 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_reallocSeqBlocks_2=reallocSeqBlocks(sqp->qualp, sqp->datap->size);
+      tmp_if_expr_3 = return_value_reallocSeqBlocks_2 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       return 2;
 
     else
@@ -30180,9 +30180,9 @@ signed int seqFastqUncompress(struct _SeqFastq *ucp, const struct _SeqFastq *sqp
 {
   signed int errcode;
   errcode=uncompressSeq(ucp->datap, (unsigned int *)(void *)0, (unsigned char *)(void *)0, sqp->datap, (unsigned long int)start, (unsigned long int)length, codep);
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if(!(errcode == 0))
     return errcode;
 
@@ -30199,14 +30199,14 @@ signed int seqFastqUncompress(struct _SeqFastq *ucp, const struct _SeqFastq *sqp
       {
         errcode=reverseSeqInPlace(ucp->datap);
         if(!(errcode == 0))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
         {
           errcode=complementAsciiSeqInPlace(ucp->datap, codep);
-          tmp_if_expr$1 = errcode != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = errcode != 0 ? (_Bool)1 : (_Bool)0;
         }
-        if(!tmp_if_expr$1)
+        if(!tmp_if_expr_1)
           goto __CPROVER_DUMP_L5;
 
         return errcode;
@@ -30218,24 +30218,24 @@ signed int seqFastqUncompress(struct _SeqFastq *ucp, const struct _SeqFastq *sqp
       __CPROVER_DUMP_L5:
         ;
         if(sqp->qualp == ((struct _SEQSEQ *)NULL))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = sqp->qualp->size <= (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = sqp->qualp->size <= (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           return 0;
 
         else
         {
           if(!(ucp->qualp == ((struct _SEQSEQ *)NULL)))
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_3 = (_Bool)1;
 
           else
           {
             ucp->qualp=createSeq((unsigned int)sqp->qualp->block_size);
-            tmp_if_expr$3 = ucp->qualp != ((struct _SEQSEQ *)NULL) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = ucp->qualp != ((struct _SEQSEQ *)NULL) ? (_Bool)1 : (_Bool)0;
           }
-          if(!tmp_if_expr$3)
+          if(!tmp_if_expr_3)
             return 2;
 
           else
@@ -30258,8 +30258,8 @@ signed int seqFastqUncompress(struct _SeqFastq *ucp, const struct _SeqFastq *sqp
 signed int seqFastqWrite(struct _SeqIO *ofp, const struct _SeqFastq *sqp, signed short int linewidth)
 {
   signed int cprompt;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
   if(sqp == ((const struct _SeqFastq *)NULL))
     return -1;
 
@@ -30287,16 +30287,16 @@ signed int seqFastqWrite(struct _SeqIO *ofp, const struct _SeqFastq *sqp, signed
           ofp->status=fprintSeqFastqSequence(ofp->fp, (unsigned char)(((signed int)ofp->flags & 2) != 0), sqp->datap, linewidth);
 
         if(!(ofp->status == 0))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = (signed int)sqp->type != 2 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$1)
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_1 = (signed int)sqp->type != 2 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_1)
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = sqp->qualp == (struct _SEQSEQ *)(void *)0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = sqp->qualp == (struct _SEQSEQ *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_2)
           return ofp->status;
 
         else
@@ -30319,9 +30319,9 @@ signed int seqFastqWriteCompressedToFile(struct _IO_FILE *fp, const struct _SeqF
 
   else
   {
-    signed int return_value_writeCompressedSeq$1;
-    return_value_writeCompressedSeq$1=writeCompressedSeq(fp, sqp->datap);
-    return return_value_writeCompressedSeq$1;
+    signed int return_value_writeCompressedSeq_1;
+    return_value_writeCompressedSeq_1=writeCompressedSeq(fp, sqp->datap);
+    return return_value_writeCompressedSeq_1;
   }
 }
 
@@ -30335,9 +30335,9 @@ signed int seqIOCheckReads(struct _ErrMsg *errmsgp, struct _SeqFastq *sqbufp, st
   unsigned char namflg = (unsigned char)1;
   unsigned int mxnaml;
   unsigned int mxseql;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$1;
-  unsigned long int tmp_if_expr$4;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_1;
+  unsigned long int tmp_if_expr_4;
   if(!((signed int)sfp->mode == 0))
     return -1;
 
@@ -30351,23 +30351,23 @@ signed int seqIOCheckReads(struct _ErrMsg *errmsgp, struct _SeqFastq *sqbufp, st
       if(sfp->status == 0)
       {
         if(isPaired == 0)
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = !(sfp->status != 0) ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$2 = tmp_if_expr$1 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = !(sfp->status != 0) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = tmp_if_expr_1 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(snum >= 4294967295ul || !tmp_if_expr$2)
+        tmp_if_expr_2 = (_Bool)0;
+      if(snum >= 4294967295ul || !tmp_if_expr_2)
         break;
 
       errcode=seqFastqRead(sqbufp, sfp);
       errMsgSetCurrentReadNumber(errmsgp, snum);
-      const char *return_value_seqFastqGetSeqName$3;
-      return_value_seqFastqGetSeqName$3=seqFastqGetSeqName(sqbufp);
-      errMsgSetCurrentReadName(errmsgp, return_value_seqFastqGetSeqName$3);
+      const char *return_value_seqFastqGetSeqName_3;
+      return_value_seqFastqGetSeqName_3=seqFastqGetSeqName(sqbufp);
+      errMsgSetCurrentReadName(errmsgp, return_value_seqFastqGetSeqName_3);
       if(!(errcode == 0))
       {
         if(!(errcode == 10))
@@ -30399,14 +30399,14 @@ signed int seqIOCheckReads(struct _ErrMsg *errmsgp, struct _SeqFastq *sqbufp, st
         {
           unsigned long int maxlen;
           if(!(sqbufBp->headp->size >= sqbufp->headp->size))
-            tmp_if_expr$4 = sqbufBp->headp->size;
+            tmp_if_expr_4 = sqbufBp->headp->size;
 
           else
-            tmp_if_expr$4 = sqbufp->headp->size;
-          maxlen = tmp_if_expr$4;
-          signed int return_value_cmpPairNamStr$5;
-          return_value_cmpPairNamStr$5=cmpPairNamStr(sqbufp->headp->basep, sqbufBp->headp->basep, maxlen);
-          if(!(return_value_cmpPairNamStr$5 == 0))
+            tmp_if_expr_4 = sqbufp->headp->size;
+          maxlen = tmp_if_expr_4;
+          signed int return_value_cmpPairNamStr_5;
+          return_value_cmpPairNamStr_5=cmpPairNamStr(sqbufp->headp->basep, sqbufBp->headp->basep, maxlen);
+          if(!(return_value_cmpPairNamStr_5 == 0))
             namflg = (unsigned char)0;
 
         }
@@ -30488,10 +30488,10 @@ signed int seqIOCheckReads(struct _ErrMsg *errmsgp, struct _SeqFastq *sqbufp, st
 // file ../src/sequence.h line 193
 signed int seqIOReset(struct _SeqIO *p)
 {
-  char *return_value_gzgets$2;
-  signed int return_value_gzeof$1;
-  char *return_value_fgets$4;
-  signed int return_value_feof$3;
+  char *return_value_gzgets_2;
+  signed int return_value_gzeof_1;
+  char *return_value_fgets_4;
+  signed int return_value_feof_3;
   if((signed int)p->mode == 0)
   {
     if(p->status == 0)
@@ -30514,11 +30514,11 @@ signed int seqIOReset(struct _SeqIO *p)
       gzrewind((struct gzFile_s *)p->fp);
       if((signed int)p->mode == 0)
       {
-        return_value_gzgets$2=gzgets((struct gzFile_s *)p->fp, p->linbufp, 1024);
-        if(return_value_gzgets$2 == ((char *)NULL))
+        return_value_gzgets_2=gzgets((struct gzFile_s *)p->fp, p->linbufp, 1024);
+        if(return_value_gzgets_2 == ((char *)NULL))
         {
-          return_value_gzeof$1=gzeof((struct gzFile_s *)p->fp);
-          p->status = return_value_gzeof$1 != 0 ? 10 : 14;
+          return_value_gzeof_1=gzeof((struct gzFile_s *)p->fp);
+          p->status = return_value_gzeof_1 != 0 ? 10 : 14;
         }
 
       }
@@ -30530,11 +30530,11 @@ signed int seqIOReset(struct _SeqIO *p)
       rewind((struct _IO_FILE *)p->fp);
       if((signed int)p->mode == 0)
       {
-        return_value_fgets$4=fgets(p->linbufp, 1024, (struct _IO_FILE *)p->fp);
-        if(return_value_fgets$4 == ((char *)NULL))
+        return_value_fgets_4=fgets(p->linbufp, 1024, (struct _IO_FILE *)p->fp);
+        if(return_value_fgets_4 == ((char *)NULL))
         {
-          return_value_feof$3=feof((struct _IO_FILE *)p->fp);
-          p->status = return_value_feof$3 != 0 ? 10 : 14;
+          return_value_feof_3=feof((struct _IO_FILE *)p->fp);
+          p->status = return_value_feof_3 != 0 ? 10 : 14;
         }
 
       }
@@ -30549,51 +30549,51 @@ signed int seqIOReset(struct _SeqIO *p)
 signed int seqIOclose(struct _SeqIO *p)
 {
   signed int errcode = 0;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  const unsigned short int **return_value___ctype_b_loc$3;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  const unsigned short int **return_value___ctype_b_loc_3;
   if(!(p == ((struct _SeqIO *)NULL)))
   {
     if(!(p->fp == NULL))
     {
       if(!((2 & (signed int)p->flags) == 0))
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = !(((signed int)p->flags & 1) != 0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$6)
+        tmp_if_expr_6 = !(((signed int)p->flags & 1) != 0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_6)
       {
-        signed int return_value_gzclose$1;
-        return_value_gzclose$1=gzclose((struct gzFile_s *)p->fp);
-        if(!(return_value_gzclose$1 == 0))
+        signed int return_value_gzclose_1;
+        return_value_gzclose_1=gzclose((struct gzFile_s *)p->fp);
+        if(!(return_value_gzclose_1 == 0))
           errcode = 50;
 
       }
 
       else
       {
-        signed int return_value_fflush$2;
-        return_value_fflush$2=fflush((struct _IO_FILE *)p->fp);
-        if(!(return_value_fflush$2 == 0))
+        signed int return_value_fflush_2;
+        return_value_fflush_2=fflush((struct _IO_FILE *)p->fp);
+        if(!(return_value_fflush_2 == 0))
           errcode = 50;
 
         if(!((signed int)*p->filnam == 45))
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_5 = (_Bool)1;
 
         else
         {
           if(!((signed int)p->filnam[1l] == 0))
           {
-            return_value___ctype_b_loc$3=__ctype_b_loc();
-            tmp_if_expr$4 = !(((signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)p->filnam[(signed long int)1]] & (signed int)(unsigned short int)8192) != 0) ? (_Bool)1 : (_Bool)0;
+            return_value___ctype_b_loc_3=__ctype_b_loc();
+            tmp_if_expr_4 = !(((signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)p->filnam[(signed long int)1]] & (signed int)(unsigned short int)8192) != 0) ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = (_Bool)0;
+          tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$5)
+        if(tmp_if_expr_5)
           fclose((struct _IO_FILE *)p->fp);
 
       }
@@ -30615,23 +30615,23 @@ struct _SeqIO * seqIOopen(signed int *errcode, const char *filnam, char mode, un
 {
   struct _SeqIO *p = ((struct _SeqIO *)NULL);
   *errcode = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(filnam == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)filnam[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  const unsigned short int **return_value___ctype_b_loc$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_1 = (signed int)filnam[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  const unsigned short int **return_value___ctype_b_loc_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    tmp_if_expr$3 = ((signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)filnam[(signed long int)0]] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    tmp_if_expr_3 = ((signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)filnam[(signed long int)0]] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
   {
     *errcode = 47;
     return (struct _SeqIO *)(void *)0;
@@ -30639,9 +30639,9 @@ struct _SeqIO * seqIOopen(signed int *errcode, const char *filnam, char mode, un
 
   else
   {
-    void *return_value_ecalloc$4;
-    return_value_ecalloc$4=ecalloc((unsigned long int)1, sizeof(struct _SeqIO) /*56ul*/ , "sequence.c", 478);
-    p = (struct _SeqIO *)return_value_ecalloc$4;
+    void *return_value_ecalloc_4;
+    return_value_ecalloc_4=ecalloc((unsigned long int)1, sizeof(struct _SeqIO) /*56ul*/ , "sequence.c", 478);
+    p = (struct _SeqIO *)return_value_ecalloc_4;
     if(p == ((struct _SeqIO *)NULL))
     {
       *errcode = 2;
@@ -30689,16 +30689,16 @@ struct _SeqIO * seqIOopen(signed int *errcode, const char *filnam, char mode, un
       {
         if((signed int)mode == 0 || (signed int)mode == 4)
         {
-          struct gzFile_s *return_value_gzopen$5;
-          return_value_gzopen$5=gzopen(p->filnam, p->fmode);
-          p->fp = (void *)return_value_gzopen$5;
+          struct gzFile_s *return_value_gzopen_5;
+          return_value_gzopen_5=gzopen(p->filnam, p->fmode);
+          p->fp = (void *)return_value_gzopen_5;
         }
 
         else
         {
-          struct _IO_FILE *return_value_efopen$6;
-          return_value_efopen$6=efopen(p->filnam, p->fmode, "sequence.c", 523);
-          p->fp = (void *)return_value_efopen$6;
+          struct _IO_FILE *return_value_efopen_6;
+          return_value_efopen_6=efopen(p->filnam, p->fmode, "sequence.c", 523);
+          p->fp = (void *)return_value_efopen_6;
         }
         if(p->fp == NULL)
           *errcode = 9;
@@ -30709,14 +30709,14 @@ struct _SeqIO * seqIOopen(signed int *errcode, const char *filnam, char mode, un
       {
         if((signed int)mode == 0)
         {
-          void *return_value_ecalloc$7;
-          return_value_ecalloc$7=ecalloc((unsigned long int)(1024 + 1), sizeof(char) /*1ul*/ , "sequence.c", 536);
-          p->linbufp = (char *)return_value_ecalloc$7;
+          void *return_value_ecalloc_7;
+          return_value_ecalloc_7=ecalloc((unsigned long int)(1024 + 1), sizeof(char) /*1ul*/ , "sequence.c", 536);
+          p->linbufp = (char *)return_value_ecalloc_7;
           if(!(p->linbufp == ((char *)NULL)))
           {
-            char *return_value_gzgets$8;
-            return_value_gzgets$8=gzgets((struct gzFile_s *)p->fp, p->linbufp, 1024);
-            if(return_value_gzgets$8 == ((char *)NULL))
+            char *return_value_gzgets_8;
+            return_value_gzgets_8=gzgets((struct gzFile_s *)p->fp, p->linbufp, 1024);
+            if(return_value_gzgets_8 == ((char *)NULL))
               *errcode = 6;
 
           }
@@ -30767,19 +30767,19 @@ signed int seqSetAddFromFastqFile(struct _ErrMsg *errmsg, struct _SeqSet *ssp, s
     printf("File %s opened for reading sequences in FASTA/FASTQ format ...\n", filnam);
 
   sctr = (signed long int)0;
-  signed int return_value_seqIOstatus$1;
-  signed long int tmp_post$2;
+  signed int return_value_seqIOstatus_1;
+  signed long int tmp_post_2;
   do
   {
-    return_value_seqIOstatus$1=seqIOstatus(sfp);
-    if(!(return_value_seqIOstatus$1 == 0))
+    return_value_seqIOstatus_1=seqIOstatus(sfp);
+    if(!(return_value_seqIOstatus_1 == 0))
       break;
 
     if(!(verbose == 0))
     {
-      tmp_post$2 = sctr;
+      tmp_post_2 = sctr;
       sctr = sctr + 1l;
-      printf("Reading sequence %llu ...\n", (unsigned long long int)tmp_post$2);
+      printf("Reading sequence %llu ...\n", (unsigned long long int)tmp_post_2);
     }
 
     errcode=seqFastqRead(sqbufp, sfp);
@@ -30796,17 +30796,17 @@ signed int seqSetAddFromFastqFile(struct _ErrMsg *errmsg, struct _SeqSet *ssp, s
 
   }
   while((_Bool)1);
-  signed int return_value_seqIOstatus$5;
-  return_value_seqIOstatus$5=seqIOstatus(sfp);
-  signed int return_value_seqIOstatus$4;
-  signed int return_value_seqIOstatus$3;
-  if(!(return_value_seqIOstatus$5 == 0))
+  signed int return_value_seqIOstatus_5;
+  return_value_seqIOstatus_5=seqIOstatus(sfp);
+  signed int return_value_seqIOstatus_4;
+  signed int return_value_seqIOstatus_3;
+  if(!(return_value_seqIOstatus_5 == 0))
   {
-    return_value_seqIOstatus$4=seqIOstatus(sfp);
-    if(!(return_value_seqIOstatus$4 == 10))
+    return_value_seqIOstatus_4=seqIOstatus(sfp);
+    if(!(return_value_seqIOstatus_4 == 10))
     {
-      return_value_seqIOstatus$3=seqIOstatus(sfp);
-      errMsgAdd(errmsg, "", "sequence.c", 2423, return_value_seqIOstatus$3, (unsigned char)2);
+      return_value_seqIOstatus_3=seqIOstatus(sfp);
+      errMsgAdd(errmsg, "", "sequence.c", 2423, return_value_seqIOstatus_3, (unsigned char)2);
     }
 
   }
@@ -30839,8 +30839,8 @@ signed int seqSetAddSequence(struct _SeqSet *ssp, const struct _SeqFastq *sqp)
   signed int errcode;
   char *cp;
   unsigned long int namsiz;
-  _Bool tmp_if_expr$1;
-  unsigned long int tmp_if_expr$2;
+  _Bool tmp_if_expr_1;
+  unsigned long int tmp_if_expr_2;
   if((signed int)sqp->datap->code == 2)
     return 22;
 
@@ -30868,11 +30868,11 @@ signed int seqSetAddSequence(struct _SeqSet *ssp, const struct _SeqFastq *sqp)
       if(!((4 & (signed int)ssp->statusflag) == 0))
       {
         if(sqp->qualp == ((struct _SEQSEQ *)NULL))
-          tmp_if_expr$1 = (_Bool)1;
+          tmp_if_expr_1 = (_Bool)1;
 
         else
-          tmp_if_expr$1 = (signed int)sqp->type != 2 ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$1)
+          tmp_if_expr_1 = (signed int)sqp->type != 2 ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_1)
           goto __CPROVER_DUMP_L8;
 
         return 39;
@@ -30925,11 +30925,11 @@ signed int seqSetAddSequence(struct _SeqSet *ssp, const struct _SeqFastq *sqp)
                 ssp->sop[ssp->n_seq + (signed long int)1] = ssp->sop[ssp->n_seq + (signed long int)1] + 1ul;
 
               if(ssp->n_seq >= 1l)
-                tmp_if_expr$2 = ssp->namoffs[ssp->n_seq];
+                tmp_if_expr_2 = ssp->namoffs[ssp->n_seq];
 
               else
-                tmp_if_expr$2 = (unsigned long int)0;
-              namsiz = tmp_if_expr$2;
+                tmp_if_expr_2 = (unsigned long int)0;
+              namsiz = tmp_if_expr_2;
               if(sqp->headp->size + namsiz >= ssp->nam_alloc)
               {
                 errcode=reallocSeqSetName(ssp, sqp->headp->size + namsiz + (unsigned long int)1);
@@ -31004,14 +31004,14 @@ struct _SeqSet * seqSetCreate(signed int blocksiz, unsigned char flags)
   if(!(blocksiz >= 1))
     blocksiz = 4096;
 
-  void *return_value_ecalloc$1;
-  return_value_ecalloc$1=ecalloc((unsigned long int)1, sizeof(struct _SeqSet) /*96ul*/ , "sequence.c", 2286);
-  ssp = (struct _SeqSet *)return_value_ecalloc$1;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
+  void *return_value_ecalloc_1;
+  return_value_ecalloc_1=ecalloc((unsigned long int)1, sizeof(struct _SeqSet) /*96ul*/ , "sequence.c", 2286);
+  ssp = (struct _SeqSet *)return_value_ecalloc_1;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
   if(ssp == ((struct _SeqSet *)NULL))
     return ((struct _SeqSet *)NULL);
 
@@ -31022,43 +31022,43 @@ struct _SeqSet * seqSetCreate(signed int blocksiz, unsigned char flags)
     if(!((4 & (signed int)flags) == 0))
       ssp->qqp=createSeq((unsigned int)blocksiz);
 
-    void *return_value_ecalloc$2;
-    return_value_ecalloc$2=ecalloc((unsigned long int)blocksiz, sizeof(unsigned long int) /*8ul*/ , "sequence.c", 2294);
-    ssp->sop = (unsigned long int *)return_value_ecalloc$2;
-    void *return_value_ecalloc$3;
-    return_value_ecalloc$3=ecalloc((unsigned long int)blocksiz, sizeof(unsigned long int) /*8ul*/ , "sequence.c", 2295);
-    ssp->namoffs = (unsigned long int *)return_value_ecalloc$3;
-    void *return_value_ecalloc$4;
-    return_value_ecalloc$4=ecalloc((unsigned long int)1024, sizeof(char) /*1ul*/ , "sequence.c", 2296);
-    ssp->namebasep = (char *)return_value_ecalloc$4;
+    void *return_value_ecalloc_2;
+    return_value_ecalloc_2=ecalloc((unsigned long int)blocksiz, sizeof(unsigned long int) /*8ul*/ , "sequence.c", 2294);
+    ssp->sop = (unsigned long int *)return_value_ecalloc_2;
+    void *return_value_ecalloc_3;
+    return_value_ecalloc_3=ecalloc((unsigned long int)blocksiz, sizeof(unsigned long int) /*8ul*/ , "sequence.c", 2295);
+    ssp->namoffs = (unsigned long int *)return_value_ecalloc_3;
+    void *return_value_ecalloc_4;
+    return_value_ecalloc_4=ecalloc((unsigned long int)1024, sizeof(char) /*1ul*/ , "sequence.c", 2296);
+    ssp->namebasep = (char *)return_value_ecalloc_4;
     if(ssp->sqp == ((struct _SEQSEQ *)NULL))
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
       if(!((4 & (signed int)flags) == 0))
-        tmp_if_expr$5 = !(ssp->qqp != ((struct _SEQSEQ *)NULL)) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = !(ssp->qqp != ((struct _SEQSEQ *)NULL)) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (_Bool)0;
+      tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
-      tmp_if_expr$7 = (_Bool)1;
+    if(tmp_if_expr_6)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = !(ssp->sop != ((unsigned long int *)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$7)
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_7 = !(ssp->sop != ((unsigned long int *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_7)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
-      tmp_if_expr$8 = !(ssp->namoffs != ((unsigned long int *)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$8)
-      tmp_if_expr$9 = (_Bool)1;
+      tmp_if_expr_8 = !(ssp->namoffs != ((unsigned long int *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_8)
+      tmp_if_expr_9 = (_Bool)1;
 
     else
-      tmp_if_expr$9 = !(ssp->namebasep != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$9)
+      tmp_if_expr_9 = !(ssp->namebasep != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_9)
     {
       seqSetDelete(ssp);
       return ((struct _SeqSet *)NULL);
@@ -31099,30 +31099,30 @@ signed int seqSetFetchSegment(struct _SeqFastq *sqp, unsigned long int *offs_sta
   signed int errcode;
   unsigned char ntc = (unsigned char)0;
   unsigned char with_qual;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((4 & (signed int)ssp->statusflag) == 0))
-    tmp_if_expr$1 = (signed int)sqp->type == 2 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)sqp->type == 2 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  with_qual = (unsigned char)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  with_qual = (unsigned char)tmp_if_expr_1;
   unsigned int len;
   unsigned int os;
   unsigned int oe;
   unsigned int tcpos[8l];
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(*offs_start >= ssp->sop[ssp->n_seq])
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = *offs_start >= *offs_end ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_2 = *offs_start >= *offs_end ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = *offs_end >= ssp->sqp->size ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = *offs_end >= ssp->sqp->size ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
     return 29;
 
   else
@@ -31189,13 +31189,13 @@ signed int seqSetFetchSegmentBySequence(struct _SeqFastq *sqp, signed long int s
 {
   signed int errcode;
   unsigned char with_qual;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((4 & (signed int)ssp->statusflag) == 0))
-    tmp_if_expr$1 = (signed int)sqp->type == 2 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = (signed int)sqp->type == 2 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  with_qual = (unsigned char)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  with_qual = (unsigned char)tmp_if_expr_1;
   unsigned int slen;
   if(seqidx >= ssp->n_seq)
     return 29;
@@ -31353,14 +31353,14 @@ struct _SeqSet * seqSetReadBinFil(signed int *errcode, const char *filnam)
   struct _SeqSet *ssp = ((struct _SeqSet *)NULL);
   struct _IO_FILE *fp;
   fp=filioOpenForReading(errcode, &is_endianid, &totsiz, &typ, &version, &headsiz, header, filnam, SEQSET_FILNAMEXT);
-  void *return_value_ecalloc$1;
-  unsigned long int return_value_fread$2;
-  signed long int tmp_post$3;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$5;
-  signed int return_value_ferror$4;
-  _Bool tmp_if_expr$9;
-  signed int return_value_ferror$8;
+  void *return_value_ecalloc_1;
+  unsigned long int return_value_fread_2;
+  signed long int tmp_post_3;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_5;
+  signed int return_value_ferror_4;
+  _Bool tmp_if_expr_9;
+  signed int return_value_ferror_8;
   if(!(*errcode == 0))
     return ((struct _SeqSet *)NULL);
 
@@ -31451,8 +31451,8 @@ struct _SeqSet * seqSetReadBinFil(signed int *errcode, const char *filnam)
 
           if(*errcode == 0)
           {
-            return_value_ecalloc$1=ecalloc((unsigned long int)seqnum_dat, sizeof(unsigned int) /*4ul*/ , "sequence.c", 2603);
-            seqlenp = (unsigned int *)return_value_ecalloc$1;
+            return_value_ecalloc_1=ecalloc((unsigned long int)seqnum_dat, sizeof(unsigned int) /*4ul*/ , "sequence.c", 2603);
+            seqlenp = (unsigned int *)return_value_ecalloc_1;
             if(seqlenp == ((unsigned int *)NULL))
               *errcode = 2;
 
@@ -31460,8 +31460,8 @@ struct _SeqSet * seqSetReadBinFil(signed int *errcode, const char *filnam)
 
           if(*errcode == 0)
           {
-            return_value_fread$2=fread((void *)ssp->namebasep, sizeof(char) /*1ul*/ , namsiz, fp);
-            if(!(return_value_fread$2 == namsiz))
+            return_value_fread_2=fread((void *)ssp->namebasep, sizeof(char) /*1ul*/ , namsiz, fp);
+            if(!(return_value_fread_2 == namsiz))
               *errcode = 33;
 
           }
@@ -31481,24 +31481,24 @@ struct _SeqSet * seqSetReadBinFil(signed int *errcode, const char *filnam)
             for( ; (signed long int)seqnum >= i && !(j >= namsiz); j = j + 1ul)
               if(ssp->namebasep[(signed long int)j] == 0)
               {
-                tmp_post$3 = i;
+                tmp_post_3 = i;
                 i = i + 1l;
-                ssp->namoffs[tmp_post$3] = j + (unsigned long int)1;
+                ssp->namoffs[tmp_post_3] = j + (unsigned long int)1;
               }
 
             if(!(i + -1l == (signed long int)seqnum))
-              tmp_if_expr$11 = (_Bool)1;
+              tmp_if_expr_11 = (_Bool)1;
 
             else
-              tmp_if_expr$11 = ssp->namoffs[(signed long int)seqnum] != namsiz ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$11)
+              tmp_if_expr_11 = ssp->namoffs[(signed long int)seqnum] != namsiz ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_11)
               *errcode = 47;
 
             else
             {
-              unsigned long int return_value_fread$6;
-              return_value_fread$6=fread((void *)seqlenp, sizeof(unsigned int) /*4ul*/ , (unsigned long int)seqnum_dat, fp);
-              if(!(return_value_fread$6 == (unsigned long int)seqnum_dat))
+              unsigned long int return_value_fread_6;
+              return_value_fread_6=fread((void *)seqlenp, sizeof(unsigned int) /*4ul*/ , (unsigned long int)seqnum_dat, fp);
+              if(!(return_value_fread_6 == (unsigned long int)seqnum_dat))
                 *errcode = 33;
 
               else
@@ -31506,13 +31506,13 @@ struct _SeqSet * seqSetReadBinFil(signed int *errcode, const char *filnam)
                 *errcode=readCompressedSeqOfKnownLength(ssp->sqp, fp, seqsiz);
                 if(*errcode == 0)
                 {
-                  return_value_ferror$4=ferror(fp);
-                  tmp_if_expr$5 = return_value_ferror$4 != 0 ? (_Bool)1 : (_Bool)0;
+                  return_value_ferror_4=ferror(fp);
+                  tmp_if_expr_5 = return_value_ferror_4 != 0 ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$5 = (_Bool)0;
-                if(tmp_if_expr$5)
+                  tmp_if_expr_5 = (_Bool)0;
+                if(tmp_if_expr_5)
                   *errcode = 14;
 
                 else
@@ -31548,24 +31548,24 @@ struct _SeqSet * seqSetReadBinFil(signed int *errcode, const char *filnam)
                 }
                 if(!((4 & (signed int)ssp->statusflag) == 0))
                 {
-                  signed int return_value_reallocSeqBlocks$10;
-                  return_value_reallocSeqBlocks$10=reallocSeqBlocks(ssp->qqp, seqsiz + (unsigned long int)1);
-                  if(!(return_value_reallocSeqBlocks$10 == 0))
+                  signed int return_value_reallocSeqBlocks_10;
+                  return_value_reallocSeqBlocks_10=reallocSeqBlocks(ssp->qqp, seqsiz + (unsigned long int)1);
+                  if(!(return_value_reallocSeqBlocks_10 == 0))
                     *errcode = 2;
 
                   else
                   {
-                    unsigned long int return_value_fread$7;
-                    return_value_fread$7=fread((void *)ssp->qqp->basep, sizeof(char) /*1ul*/ , seqsiz + (unsigned long int)1, fp);
-                    if(!(return_value_fread$7 == 1ul + seqsiz))
-                      tmp_if_expr$9 = (_Bool)1;
+                    unsigned long int return_value_fread_7;
+                    return_value_fread_7=fread((void *)ssp->qqp->basep, sizeof(char) /*1ul*/ , seqsiz + (unsigned long int)1, fp);
+                    if(!(return_value_fread_7 == 1ul + seqsiz))
+                      tmp_if_expr_9 = (_Bool)1;
 
                     else
                     {
-                      return_value_ferror$8=ferror(fp);
-                      tmp_if_expr$9 = return_value_ferror$8 != 0 ? (_Bool)1 : (_Bool)0;
+                      return_value_ferror_8=ferror(fp);
+                      tmp_if_expr_9 = return_value_ferror_8 != 0 ? (_Bool)1 : (_Bool)0;
                     }
-                    if(tmp_if_expr$9)
+                    if(tmp_if_expr_9)
                       *errcode = 14;
 
                     else
@@ -31613,7 +31613,7 @@ signed int seqSetWriteBinFil(const struct _SeqSet *ssp, const char *filnam)
   unsigned long int bigval;
   unsigned long int totsiz;
   unsigned long int seqnamsiz;
-  signed int return_value_ferror$2;
+  signed int return_value_ferror_2;
   if(!(ssp->n_seq >= 1l))
     return -1;
 
@@ -31642,9 +31642,9 @@ signed int seqSetWriteBinFil(const struct _SeqSet *ssp, const char *filnam)
 
       else
       {
-        void *return_value_ecalloc$1;
-        return_value_ecalloc$1=ecalloc((unsigned long int)ssp->n_seq, sizeof(unsigned int) /*4ul*/ , "sequence.c", 2485);
-        seqlenp = (unsigned int *)return_value_ecalloc$1;
+        void *return_value_ecalloc_1;
+        return_value_ecalloc_1=ecalloc((unsigned long int)ssp->n_seq, sizeof(unsigned int) /*4ul*/ , "sequence.c", 2485);
+        seqlenp = (unsigned int *)return_value_ecalloc_1;
         if(seqlenp == ((unsigned int *)NULL))
           return 2;
 
@@ -31669,8 +31669,8 @@ signed int seqSetWriteBinFil(const struct _SeqSet *ssp, const char *filnam)
             errcode=writeCompressedSeq(fp, ssp->sqp);
             if(errcode == 0)
             {
-              return_value_ferror$2=ferror(fp);
-              if(!(return_value_ferror$2 == 0))
+              return_value_ferror_2=ferror(fp);
+              if(!(return_value_ferror_2 == 0))
                 errcode = 11;
 
             }
@@ -31688,9 +31688,9 @@ signed int seqSetWriteBinFil(const struct _SeqSet *ssp, const char *filnam)
 
             }
 
-            signed int return_value_efclose$3;
-            return_value_efclose$3=efclose(fp, "sequence.c", 2518);
-            return return_value_efclose$3;
+            signed int return_value_efclose_3;
+            return_value_efclose_3=efclose(fp, "sequence.c", 2518);
+            return return_value_efclose_3;
           }
         }
       }
@@ -31713,12 +31713,12 @@ static void setInSampleIntervalInput(struct _SmaltInput *inargp, const struct _I
 static signed int setKeyPos(const struct _HashTable *htp, unsigned long int word, unsigned int tuplectr)
 {
   unsigned int k = (unsigned int)(word & htp->wordmask);
-  unsigned int tmp_post$1;
+  unsigned int tmp_post_1;
   if(htp->idx[(signed long int)(1u + k)] + -htp->idx[(signed long int)k] >= 1u)
   {
-    tmp_post$1 = htp->idx[(signed long int)k];
+    tmp_post_1 = htp->idx[(signed long int)k];
     htp->idx[(signed long int)k] = htp->idx[(signed long int)k] + 1u;
-    htp->pos[(signed long int)tmp_post$1] = tuplectr;
+    htp->pos[(signed long int)tmp_post_1] = tuplectr;
   }
 
   return 0;
@@ -31730,33 +31730,33 @@ static signed int setMemALITRACK(struct _ALITRACK *btrkp, struct _ALIBAND *bandp
 {
   void *hp;
   unsigned long int newsiz;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(bandp->s_left >= bandp->s_len)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = bandp->band_width < 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = bandp->band_width < 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
     return 47;
 
   else
   {
     newsiz = (unsigned long int)(bandp->band_width * (bandp->s_len - bandp->s_left));
     if(!(btrkp->n_alloc >= newsiz))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       if(!(btrkp->blksz + newsiz >= btrkp->n_alloc))
-        tmp_if_expr$2 = btrkp->n_alloc > btrkp->n_alloc_thresh ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = btrkp->n_alloc > btrkp->n_alloc_thresh ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
     {
       newsiz = ((newsiz - (unsigned long int)1) / btrkp->blksz + (unsigned long int)1) * btrkp->blksz;
       hp=erealloc((void *)btrkp->bdp, newsiz * sizeof(unsigned char) /*1ul*/ , (unsigned long int)0, "alignment.c", 467);
@@ -31783,9 +31783,9 @@ static signed int setScoreMatrix(struct _ScoreMatrix *amp, const struct _SeqCode
   signed short int alphabetsiz;
   const char *alphabet;
   signed short int xmatch = (signed short int)((signed int)penp->penalty[(signed long int)1] - (signed int)penp->penalty[(signed long int)0]);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_1;
   if((signed int)xmatch >= 128 || !((signed int)xmatch >= -127))
     return 47;
 
@@ -31810,26 +31810,26 @@ static signed int setScoreMatrix(struct _ScoreMatrix *amp, const struct _SeqCode
           for( ; !((signed int)j >= 8); j = j + 1)
           {
             if((signed int)i >= (signed int)alphabetsiz || (signed int)j >= (signed int)alphabetsiz)
-              tmp_if_expr$2 = (_Bool)1;
+              tmp_if_expr_2 = (_Bool)1;
 
             else
-              tmp_if_expr$2 = (signed int)alphabet[(signed long int)i] == 78 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$2)
-              tmp_if_expr$3 = (_Bool)1;
+              tmp_if_expr_2 = (signed int)alphabet[(signed long int)i] == 78 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_2)
+              tmp_if_expr_3 = (_Bool)1;
 
             else
-              tmp_if_expr$3 = (signed int)alphabet[(signed long int)j] == 78 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$3)
+              tmp_if_expr_3 = (signed int)alphabet[(signed long int)j] == 78 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_3)
               amp->score[(signed long int)i][(signed long int)j] = (signed char)0;
 
             else
             {
               if((signed int)alphabet[(signed long int)i] == 88)
-                tmp_if_expr$1 = (_Bool)1;
+                tmp_if_expr_1 = (_Bool)1;
 
               else
-                tmp_if_expr$1 = (signed int)alphabet[(signed long int)j] == 88 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$1)
+                tmp_if_expr_1 = (signed int)alphabet[(signed long int)j] == 88 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_1)
                 amp->score[(signed long int)i][(signed long int)j] = (signed char)xmatch;
 
               else
@@ -31853,11 +31853,11 @@ static signed int setSeq(struct _SEQSEQ *sp, const char *cp)
 {
   char *hp;
   unsigned int i;
-  const unsigned short int **return_value___ctype_b_loc$1;
-  signed int return_value_reallocSeqBlocks$2;
-  char *tmp_post$3;
-  const char *tmp_post$4;
-  const unsigned short int **return_value___ctype_b_loc$5;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  signed int return_value_reallocSeqBlocks_2;
+  char *tmp_post_3;
+  const char *tmp_post_4;
+  const unsigned short int **return_value___ctype_b_loc_5;
   if(cp == ((const char *)NULL))
     return 0;
 
@@ -31866,8 +31866,8 @@ static signed int setSeq(struct _SEQSEQ *sp, const char *cp)
     hp = sp->basep;
     for( ; !(*cp == 0); cp = cp + 1l)
     {
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*cp]) == 0)
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*cp]) == 0)
         break;
 
     }
@@ -31876,23 +31876,23 @@ static signed int setSeq(struct _SEQSEQ *sp, const char *cp)
     {
       if((unsigned long int)(1u + i) >= sp->alloc_size)
       {
-        return_value_reallocSeqBlocks$2=reallocSeqBlocks(sp, (unsigned long int)(i + (unsigned int)2));
-        if(!(return_value_reallocSeqBlocks$2 == 0))
+        return_value_reallocSeqBlocks_2=reallocSeqBlocks(sp, (unsigned long int)(i + (unsigned int)2));
+        if(!(return_value_reallocSeqBlocks_2 == 0))
           return 2;
 
       }
 
       hp = sp->basep + (signed long int)i;
-      tmp_post$3 = hp;
+      tmp_post_3 = hp;
       hp = hp + 1l;
-      tmp_post$4 = cp;
+      tmp_post_4 = cp;
       cp = cp + 1l;
-      *tmp_post$3 = *tmp_post$4;
+      *tmp_post_3 = *tmp_post_4;
     }
     for( ; i >= 1u; i = i - 1u)
     {
-      return_value___ctype_b_loc$5=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)hp[-1l]]) == 0)
+      return_value___ctype_b_loc_5=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)hp[-1l]]) == 0)
         break;
 
       hp = hp - 1l;
@@ -31920,13 +31920,13 @@ static signed int setWordPos(const struct _HashTable *htp, unsigned long int wor
   unsigned int b;
   unsigned int a;
   word_hi = (unsigned int)((word & htp->wordmask_hi) >> (signed int)htp->nbits_lo);
-  unsigned int return_value_hash32mix$1;
-  return_value_hash32mix$1=hash32mix(word_hi);
-  key_hi = return_value_hash32mix$1 % htp->keymod;
+  unsigned int return_value_hash32mix_1;
+  return_value_hash32mix_1=hash32mix(word_hi);
+  key_hi = return_value_hash32mix_1 % htp->keymod;
   key = (unsigned int)((unsigned long int)(key_hi << (signed int)htp->nbits_lo) + (word & htp->wordmask_lo));
   b = htp->idx[(signed long int)(key + (unsigned int)1)];
-  _Bool tmp_if_expr$2;
-  unsigned int tmp_post$3;
+  _Bool tmp_if_expr_2;
+  unsigned int tmp_post_3;
   if(!(b >= 1u))
     return 69;
 
@@ -31944,18 +31944,18 @@ static signed int setWordPos(const struct _HashTable *htp, unsigned long int wor
         b = pivot;
     }
     if(!(b >= a))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = htp->wordidx[(signed long int)b] != word_hi ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = htp->wordidx[(signed long int)b] != word_hi ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return 69;
 
     else
     {
-      tmp_post$3 = htp->posidx[(signed long int)b];
+      tmp_post_3 = htp->posidx[(signed long int)b];
       htp->posidx[(signed long int)b] = htp->posidx[(signed long int)b] + 1u;
-      htp->pos[(signed long int)tmp_post$3] = tuplectr;
+      htp->pos[(signed long int)tmp_post_3] = tuplectr;
       return 0;
     }
   }
@@ -32103,14 +32103,14 @@ static signed int setupOFFSIVALcbf(signed int *errcode, void *argp, const struct
   unsigned int r0;
   struct _OFFSIVAL *ivp;
   struct SETUPOFFSIVALARG_ *p = (struct SETUPOFFSIVALARG_ *)argp;
-  signed short int return_value_resultGetSWRank$1;
-  return_value_resultGetSWRank$1=resultGetSWRank(rp);
-  unsigned long int tmp_post$3;
-  unsigned long int tmp_post$4;
-  unsigned int tmp_if_expr$5;
-  unsigned long int tmp_post$7;
-  unsigned long int tmp_post$8;
-  if(!((signed int)p->max_rank >= (signed int)return_value_resultGetSWRank$1))
+  signed short int return_value_resultGetSWRank_1;
+  return_value_resultGetSWRank_1=resultGetSWRank(rp);
+  unsigned long int tmp_post_3;
+  unsigned long int tmp_post_4;
+  unsigned int tmp_if_expr_5;
+  unsigned long int tmp_post_7;
+  unsigned long int tmp_post_8;
+  if(!((signed int)p->max_rank >= (signed int)return_value_resultGetSWRank_1))
     return 1;
 
   else
@@ -32128,24 +32128,24 @@ static signed int setupOFFSIVALcbf(signed int *errcode, void *argp, const struct
         r0 = s_start - q_start;
       if(((unsigned long int *)p->oivr)[-1l] >= ((unsigned long int *)p->oivr)[-2l])
       {
-        void *return_value_arrayRealloc$2;
-        return_value_arrayRealloc$2=arrayRealloc((void *)p->oivr, (unsigned long int)0, (char)0, "../src/resultpairs.c", 220);
-        ivp = (struct _OFFSIVAL *)return_value_arrayRealloc$2;
+        void *return_value_arrayRealloc_2;
+        return_value_arrayRealloc_2=arrayRealloc((void *)p->oivr, (unsigned long int)0, (char)0, "../src/resultpairs.c", 220);
+        ivp = (struct _OFFSIVAL *)return_value_arrayRealloc_2;
         if(!(ivp == ((struct _OFFSIVAL *)NULL)))
         {
           p->oivr = ivp;
-          tmp_post$3 = ((unsigned long int *)p->oivr)[(signed long int)-1];
+          tmp_post_3 = ((unsigned long int *)p->oivr)[(signed long int)-1];
           ((unsigned long int *)p->oivr)[(signed long int)-1] = ((unsigned long int *)p->oivr)[(signed long int)-1] + 1ul;
-          ivp = p->oivr + (signed long int)tmp_post$3;
+          ivp = p->oivr + (signed long int)tmp_post_3;
         }
 
       }
 
       else
       {
-        tmp_post$4 = ((unsigned long int *)p->oivr)[(signed long int)-1];
+        tmp_post_4 = ((unsigned long int *)p->oivr)[(signed long int)-1];
         ((unsigned long int *)p->oivr)[(signed long int)-1] = ((unsigned long int *)p->oivr)[(signed long int)-1] + 1ul;
-        ivp = p->oivr + (signed long int)tmp_post$4;
+        ivp = p->oivr + (signed long int)tmp_post_4;
       }
       if(ivp == ((struct _OFFSIVAL *)NULL))
       {
@@ -32167,33 +32167,33 @@ static signed int setupOFFSIVALcbf(signed int *errcode, void *argp, const struct
         else
         {
           if(!(p->dmin >= r0))
-            tmp_if_expr$5 = r0 - p->dmin;
+            tmp_if_expr_5 = r0 - p->dmin;
 
           else
-            tmp_if_expr$5 = (unsigned int)0;
-          ivp->upper = tmp_if_expr$5;
+            tmp_if_expr_5 = (unsigned int)0;
+          ivp->upper = tmp_if_expr_5;
           ivp->lower = (unsigned int)0;
         }
         if(((unsigned long int *)p->oivr)[-1l] >= ((unsigned long int *)p->oivr)[-2l])
         {
-          void *return_value_arrayRealloc$6;
-          return_value_arrayRealloc$6=arrayRealloc((void *)p->oivr, (unsigned long int)0, (char)0, "../src/resultpairs.c", 236);
-          ivp = (struct _OFFSIVAL *)return_value_arrayRealloc$6;
+          void *return_value_arrayRealloc_6;
+          return_value_arrayRealloc_6=arrayRealloc((void *)p->oivr, (unsigned long int)0, (char)0, "../src/resultpairs.c", 236);
+          ivp = (struct _OFFSIVAL *)return_value_arrayRealloc_6;
           if(!(ivp == ((struct _OFFSIVAL *)NULL)))
           {
             p->oivr = ivp;
-            tmp_post$7 = ((unsigned long int *)p->oivr)[(signed long int)-1];
+            tmp_post_7 = ((unsigned long int *)p->oivr)[(signed long int)-1];
             ((unsigned long int *)p->oivr)[(signed long int)-1] = ((unsigned long int *)p->oivr)[(signed long int)-1] + 1ul;
-            ivp = p->oivr + (signed long int)tmp_post$7;
+            ivp = p->oivr + (signed long int)tmp_post_7;
           }
 
         }
 
         else
         {
-          tmp_post$8 = ((unsigned long int *)p->oivr)[(signed long int)-1];
+          tmp_post_8 = ((unsigned long int *)p->oivr)[(signed long int)-1];
           ((unsigned long int *)p->oivr)[(signed long int)-1] = ((unsigned long int *)p->oivr)[(signed long int)-1] + 1ul;
-          ivp = p->oivr + (signed long int)tmp_post$8;
+          ivp = p->oivr + (signed long int)tmp_post_8;
         }
         if(ivp == ((struct _OFFSIVAL *)NULL))
         {
@@ -32274,9 +32274,9 @@ static signed int smoothGauss(signed int *targetp, double *Kp, signed int bw, co
   for( ; !(i >= imax); i = i + 1)
   {
     x = (double)(i - cutoff) / (double)bw;
-    double return_value_exp$1;
-    return_value_exp$1=exp((-x * x) / (double)2);
-    Kp[(signed long int)i] = return_value_exp$1 / normfac;
+    double return_value_exp_1;
+    return_value_exp_1=exp((-x * x) / (double)2);
+    Kp[(signed long int)i] = return_value_exp_1 / normfac;
   }
   i = 0;
   for( ; !(i >= n); i = i + 1)
@@ -32324,9 +32324,9 @@ signed int sort2UINTarraysByQuickSort(signed int n, unsigned int *arr, unsigned 
   signed int stack_size = 0;
   signed int errcode = 0;
   unsigned int temp;
-  _Bool tmp_if_expr$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
+  _Bool tmp_if_expr_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
   while((_Bool)1)
     if(!(i_right + -i_left >= 7))
     {
@@ -32339,11 +32339,11 @@ signed int sort2UINTarraysByQuickSort(signed int n, unsigned int *arr, unsigned 
         do
         {
           if(i >= i_left)
-            tmp_if_expr$1 = arr[(signed long int)i] > partelem_a ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = arr[(signed long int)i] > partelem_a ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(!tmp_if_expr$1)
+            tmp_if_expr_1 = (_Bool)0;
+          if(!tmp_if_expr_1)
             break;
 
           arr[(signed long int)(i + 1)] = arr[(signed long int)i];
@@ -32357,12 +32357,12 @@ signed int sort2UINTarraysByQuickSort(signed int n, unsigned int *arr, unsigned 
       if(stack_size == 0)
         return errcode;
 
-      tmp_post$2 = stack_size;
+      tmp_post_2 = stack_size;
       stack_size = stack_size - 1;
-      i_right = index_stack[(signed long int)tmp_post$2];
-      tmp_post$3 = stack_size;
+      i_right = index_stack[(signed long int)tmp_post_2];
+      tmp_post_3 = stack_size;
       stack_size = stack_size - 1;
-      i_left = index_stack[(signed long int)tmp_post$3];
+      i_left = index_stack[(signed long int)tmp_post_3];
     }
 
     else
@@ -32466,8 +32466,8 @@ static signed int sortAndPrune(struct _ResultSet *rsp)
   struct _RESULT **endpp;
   ((unsigned long int *)rsp->sortr)[(signed long int)-1] = (unsigned long int)0;
   i = (signed short int)0;
-  unsigned long int tmp_post$2;
-  unsigned long int tmp_post$3;
+  unsigned long int tmp_post_2;
+  unsigned long int tmp_post_3;
   for( ; !((signed int)i >= (signed int)nres); i = i + 1)
   {
     struct _RESULT *rp = rsp->resr + (signed long int)i;
@@ -32478,24 +32478,24 @@ static signed int sortAndPrune(struct _ResultSet *rsp)
       struct _RESULT **sortp;
       if(((unsigned long int *)rsp->sortr)[-1l] >= ((unsigned long int *)rsp->sortr)[-2l])
       {
-        void *return_value_arrayRealloc$1;
-        return_value_arrayRealloc$1=arrayRealloc((void *)rsp->sortr, (unsigned long int)0, (char)0, "../src/results.c", 776);
-        sortp = (struct _RESULT **)return_value_arrayRealloc$1;
+        void *return_value_arrayRealloc_1;
+        return_value_arrayRealloc_1=arrayRealloc((void *)rsp->sortr, (unsigned long int)0, (char)0, "../src/results.c", 776);
+        sortp = (struct _RESULT **)return_value_arrayRealloc_1;
         if(!(sortp == ((struct _RESULT **)NULL)))
         {
           rsp->sortr = sortp;
-          tmp_post$2 = ((unsigned long int *)rsp->sortr)[(signed long int)-1];
+          tmp_post_2 = ((unsigned long int *)rsp->sortr)[(signed long int)-1];
           ((unsigned long int *)rsp->sortr)[(signed long int)-1] = ((unsigned long int *)rsp->sortr)[(signed long int)-1] + 1ul;
-          sortp = rsp->sortr + (signed long int)tmp_post$2;
+          sortp = rsp->sortr + (signed long int)tmp_post_2;
         }
 
       }
 
       else
       {
-        tmp_post$3 = ((unsigned long int *)rsp->sortr)[(signed long int)-1];
+        tmp_post_3 = ((unsigned long int *)rsp->sortr)[(signed long int)-1];
         ((unsigned long int *)rsp->sortr)[(signed long int)-1] = ((unsigned long int *)rsp->sortr)[(signed long int)-1] + 1ul;
-        sortp = rsp->sortr + (signed long int)tmp_post$3;
+        sortp = rsp->sortr + (signed long int)tmp_post_3;
       }
       if(sortp == ((struct _RESULT **)NULL))
         return 2;
@@ -32506,11 +32506,11 @@ static signed int sortAndPrune(struct _ResultSet *rsp)
   }
   rsp->status = rsp->status | (unsigned char)2;
   nres = (signed short int)((unsigned long int *)rsp->sortr)[(signed long int)-1];
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
   if(!((signed int)nres >= 2))
   {
     rsp->status = rsp->status | (unsigned char)4;
@@ -32527,31 +32527,31 @@ static signed int sortAndPrune(struct _ResultSet *rsp)
     for( ; !(dpp >= endpp); dpp = dpp + 1l)
     {
       if(!((*prevpp)->s_end >= (*dpp)->s_end))
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (*dpp)->swatscor > (*prevpp)->swatscor ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_4 = (*dpp)->swatscor > (*prevpp)->swatscor ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (*dpp)->q_start < (*prevpp)->q_start ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_5 = (*dpp)->q_start < (*prevpp)->q_start ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = (*dpp)->q_end > (*prevpp)->q_end ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$6)
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_6 = (*dpp)->q_end > (*prevpp)->q_end ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_6)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = (*dpp)->sidx != (*prevpp)->sidx ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_7 = (*dpp)->sidx != (*prevpp)->sidx ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
+        tmp_if_expr_8 = (_Bool)1;
 
       else
-        tmp_if_expr$8 = ((signed int)(*dpp)->status & 4) != ((signed int)(*prevpp)->status & 4) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$8)
+        tmp_if_expr_8 = ((signed int)(*dpp)->status & 4) != ((signed int)(*prevpp)->status & 4) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_8)
       {
         if((signed int)nres == 0x7fff)
           return 48;
@@ -32598,9 +32598,9 @@ static signed int sortBySegmentAndSWscor(struct _ResultSet *rsp)
   signed short int i;
   signed short int j;
   signed short int nres = (signed short int)((unsigned long int *)rsp->sortr)[(signed long int)-1];
-  signed short int tmp_post$1;
-  signed short int tmp_post$2;
-  signed short int tmp_post$3;
+  signed short int tmp_post_1;
+  signed short int tmp_post_2;
+  signed short int tmp_post_3;
   if(!((signed int)nres >= 1))
     return 0;
 
@@ -32618,12 +32618,12 @@ static signed int sortBySegmentAndSWscor(struct _ResultSet *rsp)
 
     if((unsigned long int)rsp->qsegno >= ((unsigned long int *)rsp->segnor)[-2l])
     {
-      void *sortBySegmentAndSWscor$$1$$2$$hp;
-      sortBySegmentAndSWscor$$1$$2$$hp=arrayRealloc((void *)rsp->segnor, (unsigned long int)((signed int)rsp->qsegno + 1), (char)0, "../src/results.c", 684);
-      if(sortBySegmentAndSWscor$$1$$2$$hp == NULL)
+      void *sortBySegmentAndSWscor__1__2__hp;
+      sortBySegmentAndSWscor__1__2__hp=arrayRealloc((void *)rsp->segnor, (unsigned long int)((signed int)rsp->qsegno + 1), (char)0, "../src/results.c", 684);
+      if(sortBySegmentAndSWscor__1__2__hp == NULL)
         return 2;
 
-      rsp->segnor = (signed short int *)sortBySegmentAndSWscor$$1$$2$$hp;
+      rsp->segnor = (signed short int *)sortBySegmentAndSWscor__1__2__hp;
     }
 
     i = (signed short int)0;
@@ -32634,9 +32634,9 @@ static signed int sortBySegmentAndSWscor(struct _ResultSet *rsp)
 
     ((unsigned long int *)rsp->segsrtr)[(signed long int)-1] = (unsigned long int)nres;
     j = (signed short int)0;
-    tmp_post$1 = j;
+    tmp_post_1 = j;
     j = j + 1;
-    rsp->segnor[(signed long int)tmp_post$1] = (signed short int)0;
+    rsp->segnor[(signed long int)tmp_post_1] = (signed short int)0;
     i = (signed short int)1;
     for( ; !((signed int)i >= (signed int)nres); i = i + 1)
     {
@@ -32645,15 +32645,15 @@ static signed int sortBySegmentAndSWscor(struct _ResultSet *rsp)
 
       if(!((signed int)rsp->segsrtr[(signed long int)((signed int)i + -1)]->qsegx >= (signed int)rsp->segsrtr[(signed long int)i]->qsegx))
       {
-        tmp_post$2 = j;
+        tmp_post_2 = j;
         j = j + 1;
-        rsp->segnor[(signed long int)tmp_post$2] = i;
+        rsp->segnor[(signed long int)tmp_post_2] = i;
       }
 
     }
-    tmp_post$3 = j;
+    tmp_post_3 = j;
     j = j + 1;
-    rsp->segnor[(signed long int)tmp_post$3] = nres;
+    rsp->segnor[(signed long int)tmp_post_3] = nres;
     ((unsigned long int *)rsp->segnor)[(signed long int)-1] = (unsigned long int)j;
     return (signed int)j == (signed int)rsp->qsegno + 1 ? 0 : 47;
   }
@@ -32687,9 +32687,9 @@ signed int sortUINT32arrayByQuickSort(signed int n, unsigned int *arr)
   signed int stack_size = 0;
   signed int errcode = 0;
   unsigned int temp;
-  _Bool tmp_if_expr$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
+  _Bool tmp_if_expr_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
   while((_Bool)1)
     if(!(i_right + -i_left >= 7))
     {
@@ -32701,11 +32701,11 @@ signed int sortUINT32arrayByQuickSort(signed int n, unsigned int *arr)
         do
         {
           if(i >= i_left)
-            tmp_if_expr$1 = arr[(signed long int)i] > partelem ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = arr[(signed long int)i] > partelem ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(!tmp_if_expr$1)
+            tmp_if_expr_1 = (_Bool)0;
+          if(!tmp_if_expr_1)
             break;
 
           arr[(signed long int)(i + 1)] = arr[(signed long int)i];
@@ -32717,12 +32717,12 @@ signed int sortUINT32arrayByQuickSort(signed int n, unsigned int *arr)
       if(stack_size == 0)
         return errcode;
 
-      tmp_post$2 = stack_size;
+      tmp_post_2 = stack_size;
       stack_size = stack_size - 1;
-      i_right = index_stack[(signed long int)tmp_post$2];
-      tmp_post$3 = stack_size;
+      i_right = index_stack[(signed long int)tmp_post_2];
+      tmp_post_3 = stack_size;
       stack_size = stack_size - 1;
-      i_left = index_stack[(signed long int)tmp_post$3];
+      i_left = index_stack[(signed long int)tmp_post_3];
     }
 
     else
@@ -32813,9 +32813,9 @@ signed int sortUINT64andUINT32ArraysByQuickSort(signed int n, unsigned long int 
   signed int index_stack[60l];
   signed int stack_size = 0;
   signed int errcode = 0;
-  _Bool tmp_if_expr$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
+  _Bool tmp_if_expr_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
   while((_Bool)1)
     if(!(i_right + -i_left >= 7))
     {
@@ -32828,11 +32828,11 @@ signed int sortUINT64andUINT32ArraysByQuickSort(signed int n, unsigned long int 
         do
         {
           if(i >= i_left)
-            tmp_if_expr$1 = arr[(signed long int)i] > partelem_a ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = arr[(signed long int)i] > partelem_a ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(!tmp_if_expr$1)
+            tmp_if_expr_1 = (_Bool)0;
+          if(!tmp_if_expr_1)
             break;
 
           arr[(signed long int)(i + 1)] = arr[(signed long int)i];
@@ -32846,12 +32846,12 @@ signed int sortUINT64andUINT32ArraysByQuickSort(signed int n, unsigned long int 
       if(stack_size == 0)
         return errcode;
 
-      tmp_post$2 = stack_size;
+      tmp_post_2 = stack_size;
       stack_size = stack_size - 1;
-      i_right = index_stack[(signed long int)tmp_post$2];
-      tmp_post$3 = stack_size;
+      i_right = index_stack[(signed long int)tmp_post_2];
+      tmp_post_3 = stack_size;
       stack_size = stack_size - 1;
-      i_left = index_stack[(signed long int)tmp_post$3];
+      i_left = index_stack[(signed long int)tmp_post_3];
     }
 
     else
@@ -32958,9 +32958,9 @@ signed int sortUINT64arrayByQuickSort(signed int n, unsigned long int *arr)
   signed int stack_size = 0;
   signed int errcode = 0;
   unsigned long int temp;
-  _Bool tmp_if_expr$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
+  _Bool tmp_if_expr_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
   while((_Bool)1)
     if(!(i_right + -i_left >= 7))
     {
@@ -32972,11 +32972,11 @@ signed int sortUINT64arrayByQuickSort(signed int n, unsigned long int *arr)
         do
         {
           if(i >= i_left)
-            tmp_if_expr$1 = arr[(signed long int)i] > partelem ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = arr[(signed long int)i] > partelem ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(!tmp_if_expr$1)
+            tmp_if_expr_1 = (_Bool)0;
+          if(!tmp_if_expr_1)
             break;
 
           arr[(signed long int)(i + 1)] = arr[(signed long int)i];
@@ -32988,12 +32988,12 @@ signed int sortUINT64arrayByQuickSort(signed int n, unsigned long int *arr)
       if(stack_size == 0)
         return errcode;
 
-      tmp_post$2 = stack_size;
+      tmp_post_2 = stack_size;
       stack_size = stack_size - 1;
-      i_right = index_stack[(signed long int)tmp_post$2];
-      tmp_post$3 = stack_size;
+      i_right = index_stack[(signed long int)tmp_post_2];
+      tmp_post_3 = stack_size;
       stack_size = stack_size - 1;
-      i_left = index_stack[(signed long int)tmp_post$3];
+      i_left = index_stack[(signed long int)tmp_post_3];
     }
 
     else
@@ -33084,9 +33084,9 @@ static signed int sort_int32_t_quicksort(struct V_int32_t_ *p)
   signed int el;
   signed int tmp;
   signed int *arr = p->vp;
-  _Bool tmp_if_expr$1;
-  signed int tmp_post$2;
-  signed int tmp_post$3;
+  _Bool tmp_if_expr_1;
+  signed int tmp_post_2;
+  signed int tmp_post_3;
   while((_Bool)1)
     if(!(ir + -il >= 7))
     {
@@ -33098,11 +33098,11 @@ static signed int sort_int32_t_quicksort(struct V_int32_t_ *p)
         do
         {
           if(i >= il)
-            tmp_if_expr$1 = arr[(signed long int)i] > el ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = arr[(signed long int)i] > el ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(!tmp_if_expr$1)
+            tmp_if_expr_1 = (_Bool)0;
+          if(!tmp_if_expr_1)
             break;
 
           arr[(signed long int)(i + 1)] = arr[(signed long int)i];
@@ -33114,12 +33114,12 @@ static signed int sort_int32_t_quicksort(struct V_int32_t_ *p)
       if(stksz == 0)
         return errcode;
 
-      tmp_post$2 = stksz;
+      tmp_post_2 = stksz;
       stksz = stksz - 1;
-      ir = idxstk[(signed long int)tmp_post$2];
-      tmp_post$3 = stksz;
+      ir = idxstk[(signed long int)tmp_post_2];
+      tmp_post_3 = stksz;
       stksz = stksz - 1;
-      il = idxstk[(signed long int)tmp_post$3];
+      il = idxstk[(signed long int)tmp_post_3];
     }
 
     else
@@ -33221,23 +33221,23 @@ static signed int splitMultiSpan(struct _RESULT **resr, const unsigned int resid
   unsigned int profiled_seqlenRC;
   scoreGetProfile((signed short int *)(void *)0, &profiled_seqlen, (signed char *)(void *)0, (signed char *)(void *)0, scpp);
   scoreGetProfile((signed short int *)(void *)0, &profiled_seqlenRC, (signed char *)(void *)0, (signed char *)(void *)0, scpRCp);
-  _Bool tmp_if_expr$1;
-  unsigned long int tmp_if_expr$2;
-  unsigned long int tmp_post$4;
-  unsigned long int tmp_post$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_1;
+  unsigned long int tmp_if_expr_2;
+  unsigned long int tmp_post_4;
+  unsigned long int tmp_post_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
   if(!(profiled_seqlen == profiled_seqlenRC))
     return 47;
 
   else
   {
     if(so >= eo || (unsigned long int)residx >= ((unsigned long int *)*resr)[-1l] || !(nseq >= eo) || !(so >= 0l))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (*resr + (signed long int)residx)->s_start <= ofp[so] ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (*resr + (signed long int)residx)->s_start <= ofp[so] ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return 47;
 
     else
@@ -33262,11 +33262,11 @@ static signed int splitMultiSpan(struct _RESULT **resr, const unsigned int resid
         else
           curr_start = (signed int)((ofp[(signed long int)idx] - rp->s_start) + (unsigned long int)1);
         if(ofp[(signed long int)(1 + idx)] >= rp->s_end)
-          tmp_if_expr$2 = rp->s_end;
+          tmp_if_expr_2 = rp->s_end;
 
         else
-          tmp_if_expr$2 = ofp[(signed long int)(idx + 1)];
-        curr_end = (signed int)(tmp_if_expr$2 - rp->s_start);
+          tmp_if_expr_2 = ofp[(signed long int)(idx + 1)];
+        curr_end = (signed int)(tmp_if_expr_2 - rp->s_start);
         errcode=diffStrSegment(diffstrbufp, diffstrp->dstrp + (signed long int)rp->stroffs, curr_start, curr_end, &s_start, &s_end, &q_start, &q_end);
         if(!(errcode == 0))
         {
@@ -33279,24 +33279,24 @@ static signed int splitMultiSpan(struct _RESULT **resr, const unsigned int resid
 
         if(((unsigned long int *)*resr)[-1l] >= ((unsigned long int *)*resr)[-2l])
         {
-          void *return_value_arrayRealloc$3;
-          return_value_arrayRealloc$3=arrayRealloc((void *)*resr, (unsigned long int)0, (char)0, "../src/results.c", 1579);
-          hp = (struct _RESULT *)return_value_arrayRealloc$3;
+          void *return_value_arrayRealloc_3;
+          return_value_arrayRealloc_3=arrayRealloc((void *)*resr, (unsigned long int)0, (char)0, "../src/results.c", 1579);
+          hp = (struct _RESULT *)return_value_arrayRealloc_3;
           if(!(hp == ((struct _RESULT *)NULL)))
           {
             *resr = hp;
-            tmp_post$4 = ((unsigned long int *)*resr)[(signed long int)-1];
+            tmp_post_4 = ((unsigned long int *)*resr)[(signed long int)-1];
             ((unsigned long int *)*resr)[(signed long int)-1] = ((unsigned long int *)*resr)[(signed long int)-1] + 1ul;
-            hp = *resr + (signed long int)tmp_post$4;
+            hp = *resr + (signed long int)tmp_post_4;
           }
 
         }
 
         else
         {
-          tmp_post$5 = ((unsigned long int *)*resr)[(signed long int)-1];
+          tmp_post_5 = ((unsigned long int *)*resr)[(signed long int)-1];
           ((unsigned long int *)*resr)[(signed long int)-1] = ((unsigned long int *)*resr)[(signed long int)-1] + 1ul;
-          hp = *resr + (signed long int)tmp_post$5;
+          hp = *resr + (signed long int)tmp_post_5;
         }
         if(hp == ((struct _RESULT *)NULL))
           return 2;
@@ -33323,21 +33323,21 @@ static signed int splitMultiSpan(struct _RESULT **resr, const unsigned int resid
           q_start_0based_inprofil = hp->q_start - (unsigned int)1;
         }
         if(!(hp->q_end >= hp->q_start))
-          tmp_if_expr$6 = (_Bool)1;
+          tmp_if_expr_6 = (_Bool)1;
 
         else
-          tmp_if_expr$6 = hp->q_end > profiled_seqlen ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = hp->q_end > profiled_seqlen ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_6)
           return 47;
 
         hp->s_start = (rp->s_start + (unsigned long int)s_start) - ofp[(signed long int)idx];
         hp->s_end = (rp->s_start + (unsigned long int)s_end) - ofp[(signed long int)idx];
         if(!(hp->s_end >= hp->s_start))
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = hp->s_end - hp->s_start >= (unsigned long int)0x7fffffff ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$7)
+          tmp_if_expr_7 = hp->s_end - hp->s_start >= (unsigned long int)0x7fffffff ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_7)
           return 48;
 
         hp->sidx = (signed long int)idx;
@@ -33378,14 +33378,14 @@ static signed int sprintfDiffStrPlain(char *sp, const unsigned char *dstrp)
 {
   const unsigned char *ucp;
   signed int nchar = 0;
-  signed int return_value_sprintf$1;
+  signed int return_value_sprintf_1;
   if(!(dstrp == ((const unsigned char *)NULL)))
   {
     ucp = dstrp;
     for( ; !(*ucp == 0); ucp = ucp + 1l)
     {
-      return_value_sprintf$1=sprintf(sp + (signed long int)nchar, "%c%i", DIFFSTR_SYMBOLS[(signed long int)((signed int)*ucp >> 6)], (signed short int)((signed int)*ucp & 63));
-      nchar = nchar + return_value_sprintf$1;
+      return_value_sprintf_1=sprintf(sp + (signed long int)nchar, "%c%i", DIFFSTR_SYMBOLS[(signed long int)((signed int)*ucp >> 6)], (signed short int)((signed int)*ucp & 63));
+      nchar = nchar + return_value_sprintf_1;
     }
   }
 
@@ -33398,23 +33398,23 @@ static signed int sprintfDiffStrRaw(char *sp, const unsigned char *dstrp)
 {
   const unsigned char *ucp;
   signed int nchar = 0;
-  signed int return_value_sprintf$1;
-  return_value_sprintf$1=sprintf(sp, "(");
-  nchar = nchar + return_value_sprintf$1;
-  signed int return_value_sprintf$2;
+  signed int return_value_sprintf_1;
+  return_value_sprintf_1=sprintf(sp, "(");
+  nchar = nchar + return_value_sprintf_1;
+  signed int return_value_sprintf_2;
   if(!(dstrp == ((const unsigned char *)NULL)))
   {
     ucp = dstrp;
     for( ; !(*ucp == 0); ucp = ucp + 1l)
     {
-      return_value_sprintf$2=sprintf(sp + (signed long int)nchar, "%c:%2.2hi|", DIFFSTR_SYMBOLS[(signed long int)((signed int)*ucp >> 6)], (signed short int)((signed int)*ucp & 63));
-      nchar = nchar + return_value_sprintf$2;
+      return_value_sprintf_2=sprintf(sp + (signed long int)nchar, "%c:%2.2hi|", DIFFSTR_SYMBOLS[(signed long int)((signed int)*ucp >> 6)], (signed short int)((signed int)*ucp & 63));
+      nchar = nchar + return_value_sprintf_2;
     }
   }
 
-  signed int return_value_sprintf$3;
-  return_value_sprintf$3=sprintf(sp + (signed long int)nchar, "M:00)");
-  nchar = nchar + return_value_sprintf$3;
+  signed int return_value_sprintf_3;
+  return_value_sprintf_3=sprintf(sp + (signed long int)nchar, "M:00)");
+  nchar = nchar + return_value_sprintf_3;
   return nchar;
 }
 
@@ -33825,7 +33825,7 @@ signed int threadsSetUp(signed int n_buffarg_factor)
   if(!(n_buffarg_factor >= 1))
     n_buffarg_factor = 4;
 
-  signed short int tmp_post$4;
+  signed short int tmp_post_4;
   if(!((32 & (signed int)testflg) == 0) || !(((signed int)Threads.status & (signed int)testflg) == (signed int)testflg))
     return 47;
 
@@ -33838,21 +33838,21 @@ signed int threadsSetUp(signed int n_buffarg_factor)
     for( ; !((signed int)nta >= 4); nta = nta + 1)
       if(!((signed int)nta == 0))
       {
-        struct _THREADTASK *threadsSetUp$$1$$1$$1$$1$$taskp = Threads.tasks + (signed long int)nta;
-        if(!((signed int)threadsSetUp$$1$$1$$1$$1$$taskp->n_threads >= 1))
+        struct _THREADTASK *threadsSetUp__1__1__1__1__taskp = Threads.tasks + (signed long int)nta;
+        if(!((signed int)threadsSetUp__1__1__1__1__taskp->n_threads >= 1))
         {
           Threads.n_targ = Threads.n_targ + (signed short int)1;
-          memsz = memsz + threadsSetUp$$1$$1$$1$$1$$taskp->argsz;
+          memsz = memsz + threadsSetUp__1__1__1__1__taskp->argsz;
         }
 
         else
         {
-          if((signed int)threadsSetUp$$1$$1$$1$$1$$taskp->n_threads + (signed int)Threads.n_threads >= 32768)
+          if((signed int)threadsSetUp__1__1__1__1__taskp->n_threads + (signed int)Threads.n_threads >= 32768)
             return 48;
 
-          Threads.n_threads = (signed short int)((signed int)Threads.n_threads + (signed int)threadsSetUp$$1$$1$$1$$1$$taskp->n_threads);
-          Threads.n_targ = (signed short int)((signed int)Threads.n_targ + (signed int)threadsSetUp$$1$$1$$1$$1$$taskp->n_threads);
-          memsz = memsz + threadsSetUp$$1$$1$$1$$1$$taskp->argsz * (unsigned long int)threadsSetUp$$1$$1$$1$$1$$taskp->n_threads;
+          Threads.n_threads = (signed short int)((signed int)Threads.n_threads + (signed int)threadsSetUp__1__1__1__1__taskp->n_threads);
+          Threads.n_targ = (signed short int)((signed int)Threads.n_targ + (signed int)threadsSetUp__1__1__1__1__taskp->n_threads);
+          memsz = memsz + threadsSetUp__1__1__1__1__taskp->argsz * (unsigned long int)threadsSetUp__1__1__1__1__taskp->n_threads;
         }
       }
 
@@ -33860,9 +33860,9 @@ signed int threadsSetUp(signed int n_buffarg_factor)
     memsz = memsz + (unsigned long int)Threads.n_buffargs * Threads.tasks[(signed long int)0].argsz;
     if((signed int)Threads.n_threads >= 1)
     {
-      void *return_value_ecalloc$1;
-      return_value_ecalloc$1=ecalloc((unsigned long int)Threads.n_threads, sizeof(unsigned long int) /*8ul*/ , "../src/threads.c", 837);
-      Threads.threadp = (unsigned long int *)return_value_ecalloc$1;
+      void *return_value_ecalloc_1;
+      return_value_ecalloc_1=ecalloc((unsigned long int)Threads.n_threads, sizeof(unsigned long int) /*8ul*/ , "../src/threads.c", 837);
+      Threads.threadp = (unsigned long int *)return_value_ecalloc_1;
       if(Threads.threadp == ((unsigned long int *)NULL))
         errcode = 2;
 
@@ -33870,12 +33870,12 @@ signed int threadsSetUp(signed int n_buffarg_factor)
 
     else
       Threads.threadp = (unsigned long int *)(void *)0;
-    void *return_value_ecalloc$2;
-    return_value_ecalloc$2=ecalloc((unsigned long int)Threads.n_targ, sizeof(struct _THREADARG) /*40ul*/ , "../src/threads.c", 844);
-    Threads.targp = (struct _THREADARG *)return_value_ecalloc$2;
-    void *return_value_ecalloc$3;
-    return_value_ecalloc$3=ecalloc((unsigned long int)Threads.n_buffargs, sizeof(struct _BUFFARG) /*24ul*/ , "../src/threads.c", 845);
-    Threads.buffargp = (struct _BUFFARG *)return_value_ecalloc$3;
+    void *return_value_ecalloc_2;
+    return_value_ecalloc_2=ecalloc((unsigned long int)Threads.n_targ, sizeof(struct _THREADARG) /*40ul*/ , "../src/threads.c", 844);
+    Threads.targp = (struct _THREADARG *)return_value_ecalloc_2;
+    void *return_value_ecalloc_3;
+    return_value_ecalloc_3=ecalloc((unsigned long int)Threads.n_buffargs, sizeof(struct _BUFFARG) /*24ul*/ , "../src/threads.c", 845);
+    Threads.buffargp = (struct _BUFFARG *)return_value_ecalloc_3;
     Threads.memp=ecalloc((unsigned long int)1, memsz, "../src/threads.c", 846);
     if(Threads.memp == NULL || Threads.buffargp == ((struct _BUFFARG *)NULL) || Threads.targp == ((struct _THREADARG *)NULL))
       errcode = 2;
@@ -33916,9 +33916,9 @@ signed int threadsSetUp(signed int n_buffarg_factor)
 
           else
           {
-            tmp_post$4 = nth;
+            tmp_post_4 = nth;
             nth = nth + 1;
-            targp->threadno = tmp_post$4;
+            targp->threadno = tmp_post_4;
             targp->flags = (unsigned char)1;
           }
           targp->errmsgp=errMsgCreate("../src/threads.c", 880);
@@ -34015,7 +34015,7 @@ static void * tprocf(void *p)
     thargp->flags = thargp->flags | (unsigned char)2;
   }
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     errcode=pullARGBUFF(&argp, argbf_fromp);
@@ -34043,12 +34043,12 @@ static void * tprocf(void *p)
     }
 
     if(errcode == 0)
-      tmp_if_expr$1 = (signed int)thargp->threadno >= 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)thargp->threadno >= 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
+      tmp_if_expr_1 = (_Bool)0;
   }
-  while(tmp_if_expr$1);
+  while(tmp_if_expr_1);
   if(!(errcode == 0))
   {
     signOffARGBUFF(argbf_top);
@@ -34064,7 +34064,7 @@ static void * tprocf(void *p)
 static signed int transferParamFromSegLst(struct _SegAliCands *sacp, const struct _SegLst *sglp)
 {
   signed int errcode = 0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(((unsigned long int *)sacp->candr)[-1l] == 0ul)
   {
     sacp->ktup = sglp->ktup;
@@ -34074,11 +34074,11 @@ static signed int transferParamFromSegLst(struct _SegAliCands *sacp, const struc
   else
   {
     if(!(sglp->ktup == sacp->ktup))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = sglp->nskip != sacp->nskip ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = sglp->nskip != sacp->nskip ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       errcode = 47;
 
   }
@@ -34096,12 +34096,12 @@ static signed int uncompressSeq(struct _SEQSEQ *ucp, unsigned int *tcpos, unsign
   unsigned long int ctr;
   unsigned long int offset;
   unsigned char code;
-  _Bool tmp_if_expr$1;
-  signed int return_value_reallocSeqBlocks$2;
-  char *tmp_post$3;
-  unsigned char tmp_post$4;
-  char *tmp_post$5;
-  char *tmp_post$6;
+  _Bool tmp_if_expr_1;
+  signed int return_value_reallocSeqBlocks_2;
+  char *tmp_post_3;
+  unsigned char tmp_post_4;
+  char *tmp_post_5;
+  char *tmp_post_6;
   if(!((signed int)sp->code == 2))
     return 22;
 
@@ -34112,17 +34112,17 @@ static signed int uncompressSeq(struct _SEQSEQ *ucp, unsigned int *tcpos, unsign
     else
     {
       if(length == 0ul)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = start + length > sp->size ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = start + length > sp->size ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         length = sp->size - start;
 
       if(!(ucp->alloc_size >= 1ul + length))
       {
-        return_value_reallocSeqBlocks$2=reallocSeqBlocks(ucp, length + (unsigned long int)1);
-        if(return_value_reallocSeqBlocks$2 == 0)
+        return_value_reallocSeqBlocks_2=reallocSeqBlocks(ucp, length + (unsigned long int)1);
+        if(return_value_reallocSeqBlocks_2 == 0)
           goto __CPROVER_DUMP_L6;
 
         return 2;
@@ -34151,14 +34151,14 @@ static signed int uncompressSeq(struct _SEQSEQ *ucp, unsigned int *tcpos, unsign
 
           if((signed int)code == 7)
           {
-            tmp_post$3 = bufp;
+            tmp_post_3 = bufp;
             bufp = bufp + 1l;
-            *tmp_post$3 = (char)0;
+            *tmp_post_3 = (char)0;
             if(!(tcpos == ((unsigned int *)NULL)) && !((signed int)nt >= 8))
             {
-              tmp_post$4 = nt;
+              tmp_post_4 = nt;
               nt = nt + 1;
-              tcpos[(signed long int)tmp_post$4] = (unsigned int)ctr;
+              tcpos[(signed long int)tmp_post_4] = (unsigned int)ctr;
             }
 
           }
@@ -34166,16 +34166,16 @@ static signed int uncompressSeq(struct _SEQSEQ *ucp, unsigned int *tcpos, unsign
           else
             if(!((signed int)code >= (signed int)codep->alphlen))
             {
-              tmp_post$5 = bufp;
+              tmp_post_5 = bufp;
               bufp = bufp + 1l;
-              *tmp_post$5 = codep->alphabet[(signed long int)code];
+              *tmp_post_5 = codep->alphabet[(signed long int)code];
             }
 
             else
             {
-              tmp_post$6 = bufp;
+              tmp_post_6 = bufp;
               bufp = bufp + 1l;
-              *tmp_post$6 = (char)78;
+              *tmp_post_6 = (char)78;
             }
         }
         *bufp = (char)0;
@@ -34191,7 +34191,7 @@ static signed int uncompressSeq(struct _SEQSEQ *ucp, unsigned int *tcpos, unsign
 
 // updateCandBoundaries
 // file segment.c line 1061
-static signed int updateCandBoundaries(struct _SEGCAND *sgcp, const struct _SEGMENT *segmp, struct _SEED$0 * const seedr, unsigned char ktup, unsigned char nskip)
+static signed int updateCandBoundaries(struct _SEGCAND *sgcp, const struct _SEGMENT *segmp, struct _SEED_0 * const seedr, unsigned char ktup, unsigned char nskip)
 {
   unsigned int qs;
   unsigned int qe;
@@ -34263,66 +34263,66 @@ __CPROVER_DUMP_L3:
 // file diffstr.c line 159
 static inline signed int writeCigarToFile(void *top, unsigned char cigtyp, char typc, signed int ctr)
 {
-  signed int tmp_if_expr$5;
-  signed int tmp_if_expr$3;
-  signed int return_value_fprintf$1;
-  signed int return_value_fprintf$2;
-  signed int return_value_fprintf$4;
+  signed int tmp_if_expr_5;
+  signed int tmp_if_expr_3;
+  signed int return_value_fprintf_1;
+  signed int return_value_fprintf_2;
+  signed int return_value_fprintf_4;
   if(ctr >= 1)
   {
     if(!((2 & (signed int)cigtyp) == 0))
     {
-      return_value_fprintf$1=fprintf((struct _IO_FILE *)top, CIGAR_EXTF, ctr, typc);
-      tmp_if_expr$3 = return_value_fprintf$1;
+      return_value_fprintf_1=fprintf((struct _IO_FILE *)top, CIGAR_EXTF, ctr, typc);
+      tmp_if_expr_3 = return_value_fprintf_1;
     }
 
     else
     {
-      return_value_fprintf$2=fprintf((struct _IO_FILE *)top, CIGAR_FORM, typc, ctr);
-      tmp_if_expr$3 = return_value_fprintf$2;
+      return_value_fprintf_2=fprintf((struct _IO_FILE *)top, CIGAR_FORM, typc, ctr);
+      tmp_if_expr_3 = return_value_fprintf_2;
     }
-    tmp_if_expr$5 = tmp_if_expr$3;
+    tmp_if_expr_5 = tmp_if_expr_3;
   }
 
   else
   {
-    return_value_fprintf$4=fprintf((struct _IO_FILE *)top, "%c", typc);
-    tmp_if_expr$5 = return_value_fprintf$4;
+    return_value_fprintf_4=fprintf((struct _IO_FILE *)top, "%c", typc);
+    tmp_if_expr_5 = return_value_fprintf_4;
   }
-  return tmp_if_expr$5;
+  return tmp_if_expr_5;
 }
 
 // writeCigarToStr
 // file diffstr.c line 167
 static inline signed int writeCigarToStr(void *top, unsigned char cigtyp, char typc, signed int ctr)
 {
-  signed int tmp_if_expr$5;
-  signed int tmp_if_expr$3;
-  signed int return_value_sprintf$1;
-  signed int return_value_sprintf$2;
-  signed int return_value_sprintf$4;
+  signed int tmp_if_expr_5;
+  signed int tmp_if_expr_3;
+  signed int return_value_sprintf_1;
+  signed int return_value_sprintf_2;
+  signed int return_value_sprintf_4;
   if(ctr >= 1)
   {
     if(!((2 & (signed int)cigtyp) == 0))
     {
-      return_value_sprintf$1=sprintf((char *)top, CIGAR_EXTF, ctr, typc);
-      tmp_if_expr$3 = return_value_sprintf$1;
+      return_value_sprintf_1=sprintf((char *)top, CIGAR_EXTF, ctr, typc);
+      tmp_if_expr_3 = return_value_sprintf_1;
     }
 
     else
     {
-      return_value_sprintf$2=sprintf((char *)top, CIGAR_FORM, typc, ctr);
-      tmp_if_expr$3 = return_value_sprintf$2;
+      return_value_sprintf_2=sprintf((char *)top, CIGAR_FORM, typc, ctr);
+      tmp_if_expr_3 = return_value_sprintf_2;
     }
-    tmp_if_expr$5 = tmp_if_expr$3;
+    tmp_if_expr_5 = tmp_if_expr_3;
   }
 
   else
   {
-    return_value_sprintf$4=sprintf((char *)top, "%c", typc);
-    tmp_if_expr$5 = return_value_sprintf$4;
+    return_value_sprintf_4=sprintf((char *)top, "%c", typc);
+    tmp_if_expr_5 = return_value_sprintf_4;
   }
-  return tmp_if_expr$5;
+  return tmp_if_expr_5;
 }
 
 // writeCompressedSeq
@@ -34336,9 +34336,9 @@ static signed int writeCompressedSeq(struct _IO_FILE *fp, struct _SEQSEQ *sp)
   else
   {
     n_unit = sp->size / (unsigned long int)10 + (unsigned long int)1;
-    unsigned long int return_value_fwrite$1;
-    return_value_fwrite$1=fwrite((const void *)sp->basep, sizeof(unsigned int) /*4ul*/ , n_unit, fp);
-    if(!(return_value_fwrite$1 == n_unit))
+    unsigned long int return_value_fwrite_1;
+    return_value_fwrite_1=fwrite((const void *)sp->basep, sizeof(unsigned int) /*4ul*/ , n_unit, fp);
+    if(!(return_value_fwrite_1 == n_unit))
       return -1;
 
     else
@@ -34472,9 +34472,9 @@ static signed int writeHeader(unsigned int filsiz, unsigned char filtyp, unsigne
   for( ; !((signed int)i >= 12); i = i + 1)
     header[(signed long int)i] = (unsigned int)0;
   fwrite((const void *)header, sizeof(unsigned int) /*4ul*/ , (unsigned long int)12, fp);
-  signed int return_value_ferror$1;
-  return_value_ferror$1=ferror(fp);
-  if(!(return_value_ferror$1 == 0))
+  signed int return_value_ferror_1;
+  return_value_ferror_1=ferror(fp);
+  if(!(return_value_ferror_1 == 0))
   {
     errcode = 11;
     perror(WRITERRMSG);
@@ -34490,13 +34490,13 @@ static signed int writeREPALI(struct _IO_FILE *fp, struct _BamBam_BamWriter *bam
   signed int errcode = 0;
   signed short int mapscor = (signed short int)0;
   unsigned char is_mapped;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(rp == ((const struct _REPALI *)NULL)))
-    tmp_if_expr$1 = ((signed int)rp->status & 1) != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = ((signed int)rp->status & 1) != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  is_mapped = (unsigned char)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  is_mapped = (unsigned char)tmp_if_expr_1;
   const char *s_nam;
   const char *m_snam;
   unsigned char *dstrp;
@@ -34599,10 +34599,10 @@ static signed int writeREPALIbam(struct _BamBam_BamWriter *bamwriterp, struct _S
   const char *seqstr;
   const char *qualstr;
   const char *cigarstr;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  const char *tmp_if_expr$4;
-  const char *return_value_diffStrGetViewStr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  const char *tmp_if_expr_4;
+  const char *return_value_diffStrGetViewStr_3;
   if(rrp == ((const struct _REPALI *)NULL))
     return 47;
 
@@ -34637,11 +34637,11 @@ static signed int writeREPALIbam(struct _BamBam_BamWriter *bamwriterp, struct _S
             else
               bamflg = bamflg | 64;
             if(!(rmp == ((const struct _REPALI *)NULL)))
-              tmp_if_expr$1 = ((signed int)rmp->status & 1) != 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_1 = ((signed int)rmp->status & 1) != 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$1 = (_Bool)0;
-            if(tmp_if_expr$1)
+              tmp_if_expr_1 = (_Bool)0;
+            if(tmp_if_expr_1)
             {
               mpos = (unsigned int)rmp->s_start;
               if(rmp->s_idx >= 2147483648l)
@@ -34734,11 +34734,11 @@ static signed int writeREPALIbam(struct _BamBam_BamWriter *bamwriterp, struct _S
             isize = 0;
           }
           if(qualstr == ((const char *)NULL))
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = !(qualstr[(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$2)
+            tmp_if_expr_2 = !(qualstr[(signed long int)0] != 0) ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_2)
           {
             errcode=seqFastqSetQual(sqbufp, (const char)-1);
             if(!(errcode == 0))
@@ -34751,14 +34751,14 @@ static signed int writeREPALIbam(struct _BamBam_BamWriter *bamwriterp, struct _S
           {
             errcode=diffStrAsView(dvp, diffstr, (char)(((signed int)oumodiflg & 8) != 0 ? 4 : 3), clip_start, clip_end, (char)(((signed int)oumodiflg & 2) != 0));
             if(!(errcode == 0))
-              tmp_if_expr$4 = OUFMT_BAM_NULLSTR;
+              tmp_if_expr_4 = OUFMT_BAM_NULLSTR;
 
             else
             {
-              return_value_diffStrGetViewStr$3=diffStrGetViewStr(dvp);
-              tmp_if_expr$4 = return_value_diffStrGetViewStr$3;
+              return_value_diffStrGetViewStr_3=diffStrGetViewStr(dvp);
+              tmp_if_expr_4 = return_value_diffStrGetViewStr_3;
             }
-            cigarstr = tmp_if_expr$4;
+            cigarstr = tmp_if_expr_4;
             if(errcode == 0)
               editdist=diffStrGetLevenshteinDistance(diffstr);
 
@@ -34824,13 +34824,13 @@ static signed int writeSAMHeaderf(struct _IO_FILE *oufp, const struct _SeqSet *s
   snum=seqSetGetSeqNumAndTotLen((unsigned long int *)(void *)0, ssp);
   signed int i;
   char nambf[512l];
-  signed int return_value_fprintf$1;
-  return_value_fprintf$1=fprintf(oufp, SAMFORM_HEADLINE);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  const unsigned short int **return_value___ctype_b_loc$3;
-  signed int return_value_fprintf$8;
-  if(!(return_value_fprintf$1 >= 1))
+  signed int return_value_fprintf_1;
+  return_value_fprintf_1=fprintf(oufp, SAMFORM_HEADLINE);
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  signed int return_value_fprintf_8;
+  if(!(return_value_fprintf_1 >= 1))
     return 11;
 
   else
@@ -34845,19 +34845,19 @@ static signed int writeSAMHeaderf(struct _IO_FILE *oufp, const struct _SeqSet *s
       do
       {
         if(!(i >= 511))
-          tmp_if_expr$2 = (signed int)namp[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)namp[(signed long int)i] != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
         {
-          return_value___ctype_b_loc$3=__ctype_b_loc();
-          tmp_if_expr$4 = !(((signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)namp[(signed long int)i]] & (signed int)(unsigned short int)8192) != 0) ? (_Bool)1 : (_Bool)0;
+          return_value___ctype_b_loc_3=__ctype_b_loc();
+          tmp_if_expr_4 = !(((signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)namp[(signed long int)i]] & (signed int)(unsigned short int)8192) != 0) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(!tmp_if_expr$4)
+          tmp_if_expr_4 = (_Bool)0;
+        if(!tmp_if_expr_4)
           break;
 
         nambf[(signed long int)i] = namp[(signed long int)i];
@@ -34865,37 +34865,37 @@ static signed int writeSAMHeaderf(struct _IO_FILE *oufp, const struct _SeqSet *s
       }
       while((_Bool)1);
       nambf[(signed long int)i] = (char)0;
-      signed int return_value_fprintf$5;
-      return_value_fprintf$5=fprintf(oufp, SAMFORM_REFSEQLINE, (const void *)nambf, (unsigned int)sl);
-      if(!(return_value_fprintf$5 >= 1))
+      signed int return_value_fprintf_5;
+      return_value_fprintf_5=fprintf(oufp, SAMFORM_REFSEQLINE, (const void *)nambf, (unsigned int)sl);
+      if(!(return_value_fprintf_5 >= 1))
         return 11;
 
     }
-    signed int return_value_fprintf$6;
-    return_value_fprintf$6=fprintf(oufp, SAMFORM_PROGLINE, prognam, prognam, progversion);
-    if(!(return_value_fprintf$6 >= 0))
+    signed int return_value_fprintf_6;
+    return_value_fprintf_6=fprintf(oufp, SAMFORM_PROGLINE, prognam, prognam, progversion);
+    if(!(return_value_fprintf_6 >= 0))
       return 11;
 
     else
     {
       if(narg >= 1 && !(argv == ((char * const *)NULL)))
       {
-        signed int return_value_fprintf$7;
-        return_value_fprintf$7=fprintf(oufp, "%s", argv[(signed long int)0]);
-        if(!(return_value_fprintf$7 >= 0))
+        signed int return_value_fprintf_7;
+        return_value_fprintf_7=fprintf(oufp, "%s", argv[(signed long int)0]);
+        if(!(return_value_fprintf_7 >= 0))
           return 11;
 
         i = 1;
         for( ; !(i >= narg); i = i + 1)
         {
-          return_value_fprintf$8=fprintf(oufp, " %s", argv[(signed long int)i]);
-          if(!(return_value_fprintf$8 >= 0))
+          return_value_fprintf_8=fprintf(oufp, " %s", argv[(signed long int)i]);
+          if(!(return_value_fprintf_8 >= 0))
             return 11;
 
         }
-        signed int return_value_fprintf$9;
-        return_value_fprintf$9=fprintf(oufp, "\n");
-        if(!(return_value_fprintf$9 >= 0))
+        signed int return_value_fprintf_9;
+        return_value_fprintf_9=fprintf(oufp, "\n");
+        if(!(return_value_fprintf_9 >= 0))
           return 11;
 
       }

@@ -1,26 +1,26 @@
-// tag-#anon#ST[ARR16{U64}$U64$'__bits'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__bits'|]
 // file /usr/include/x86_64-linux-gnu/bits/sched.h line 125
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
 // tag-#anon#UN[SYM#tag-io_iocb_common#'c'||SYM#tag-io_iocb_vector#'v'||SYM#tag-io_iocb_poll#'poll'||SYM#tag-io_iocb_sockaddr#'saddr'|]
 // file /usr/include/libaio.h line 126
-union anonymous$4;
+union anonymous_4;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -166,13 +166,13 @@ static inline void __list_del(struct list_head *prev, struct list_head *next);
 static inline void __list_splice(struct list_head *list, struct list_head *head);
 // __sched_cpualloc
 // file /usr/include/x86_64-linux-gnu/bits/sched.h line 205
-extern struct anonymous$1 * __sched_cpualloc(unsigned long int);
+extern struct anonymous_1 * __sched_cpualloc(unsigned long int);
 // __set_cv
 // file btreplay.c line 390
-static inline void __set_cv(union anonymous *pmp, union anonymous$3 *pcp, volatile signed int *vp, signed int mxv);
+static inline void __set_cv(union anonymous *pmp, union anonymous_3 *pcp, volatile signed int *vp, signed int mxv);
 // __wait_cv
 // file btreplay.c line 408
-static inline void __wait_cv(union anonymous *pmp, union anonymous$3 *pcp, volatile signed int *vp, signed int mxv);
+static inline void __wait_cv(union anonymous *pmp, union anonymous_3 *pcp, volatile signed int *vp, signed int mxv);
 // access
 // file /usr/include/unistd.h line 287
 extern signed int access(const char *, signed int);
@@ -370,19 +370,19 @@ extern signed int posix_memalign(void **, unsigned long int, unsigned long int);
 static void process_bunch(struct thr_info *tip, struct io_bunch *bunch);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$3 *);
+extern signed int pthread_cond_broadcast(union anonymous_3 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$3 *);
+extern signed int pthread_cond_destroy(union anonymous_3 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$3 *, const union anonymous$0 *);
+extern signed int pthread_cond_init(union anonymous_3 *, const union anonymous_0 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$3 *);
+extern signed int pthread_cond_signal(union anonymous_3 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$3 *, union anonymous *);
+extern signed int pthread_cond_wait(union anonymous_3 *, union anonymous *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -394,7 +394,7 @@ extern signed int pthread_join(unsigned long int, void **);
 extern signed int pthread_mutex_destroy(union anonymous *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$0 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_0 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -439,10 +439,10 @@ static void * replay_sub(void *arg);
 static void reset_input_file(struct thr_info *tip);
 // sched_getaffinity
 // file /usr/include/sched.h line 122
-extern signed int sched_getaffinity(signed int, unsigned long int, struct anonymous$1 *);
+extern signed int sched_getaffinity(signed int, unsigned long int, struct anonymous_1 *);
 // sched_setaffinity
 // file /usr/include/sched.h line 118
-extern signed int sched_setaffinity(signed int, unsigned long int, const struct anonymous$1 *);
+extern signed int sched_setaffinity(signed int, unsigned long int, const struct anonymous_1 *);
 // set_iter_done
 // file btreplay.c line 454
 static inline void set_iter_done(void);
@@ -464,12 +464,12 @@ extern void setlinebuf(struct _IO_FILE *);
 // setup_signal
 // file btreplay.c line 368
 static inline void setup_signal(signed int signum, void (*handler)(signed int));
-// setup_signal::$tmp::return_value_signal$1$object
+// setup_signal::_tmp::return_value_signal_1_object
 //
-void return_value_signal$1$object(signed int);
-// setup_signal::handler$object
+void return_value_signal_1_object(signed int);
+// setup_signal::handler_object
 //
-void handler$object(signed int);
+void handler_object(signed int);
 // signal
 // file /usr/include/signal.h line 102
 extern void (*signal(signed int, void (*)(signed int)))(signed int);
@@ -540,13 +540,13 @@ static inline void wait_replays_done(void);
 // file btreplay.c line 436
 static inline void wait_replays_ready(void);
 
-struct anonymous$1
+struct anonymous_1
 {
   // __bits
   unsigned long int __bits[16l];
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __lock
   signed int __lock;
@@ -566,7 +566,7 @@ struct anonymous$2
   unsigned int __broadcast_seq;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __size
   char __size[4l];
@@ -574,10 +574,10 @@ union anonymous$0
   signed int __align;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
-  struct anonymous$2 __data;
+  struct anonymous_2 __data;
   // __size
   char __size[48l];
   // __align
@@ -664,7 +664,7 @@ struct io_iocb_sockaddr
   signed int len;
 };
 
-union anonymous$4
+union anonymous_4
 {
   // c
   struct io_iocb_common c;
@@ -843,7 +843,7 @@ struct iocb
   // aio_fildes
   signed int aio_fildes;
   // u
-  union anonymous$4 u;
+  union anonymous_4 u;
 };
 
 struct iocb_pkt
@@ -949,7 +949,7 @@ struct thr_info
   // mutex
   union anonymous mutex;
   // cond
-  union anonymous$3 cond;
+  union anonymous_3 cond;
   // naios_out
   volatile signed long int naios_out;
   // naios_free
@@ -1048,7 +1048,7 @@ static struct list_head input_files;
 static struct list_head input_files = { .next=&input_files, .prev=&input_files };
 // iter_done_cond
 // file btreplay.c line 183
-static union anonymous$3 iter_done_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_3 iter_done_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -1062,7 +1062,7 @@ static union anonymous iter_done_mutex = { .__data={ .__lock=0, .__count=(unsign
 static volatile signed int iter_start = 0;
 // iter_start_cond
 // file btreplay.c line 187
-static union anonymous$3 iter_start_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_3 iter_start_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -1134,7 +1134,7 @@ extern signed int optind;
 static unsigned long int pgsize;
 // reclaim_done_cond
 // file btreplay.c line 171
-static union anonymous$3 reclaim_done_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_3 reclaim_done_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -1145,7 +1145,7 @@ static union anonymous reclaim_done_mutex = { .__data={ .__lock=0, .__count=(uns
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // replay_done_cond
 // file btreplay.c line 175
-static union anonymous$3 replay_done_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_3 replay_done_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -1156,7 +1156,7 @@ static union anonymous replay_done_mutex = { .__data={ .__lock=0, .__count=(unsi
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // replay_ready_cond
 // file btreplay.c line 179
-static union anonymous$3 replay_ready_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
+static union anonymous_3 replay_ready_cond = { .__data={ .__lock=0, .__futex=(unsigned int)0, .__total_seq=(unsigned long long int)0, .__wakeup_seq=(unsigned long long int)0,
     .__woken_seq=(unsigned long long int)0,
     .__mutex=(void *)0,
     .__nwaiters=(unsigned int)0, .__broadcast_seq=(unsigned int)0 } };
@@ -1201,9 +1201,9 @@ static void __find_input_files(struct dev_info *dip)
   {
     char full_name[4096l];
     sprintf(full_name, "%s/%s.%s.%d", idir, dip->devnm, ibase, cpu);
-    signed int return_value_access$1;
-    return_value_access$1=access(full_name, 4);
-    if(!(return_value_access$1 == 0))
+    signed int return_value_access_1;
+    return_value_access_1=access(full_name, 4);
+    if(!(return_value_access_1 == 0))
       break;
 
     add_input_file(cpu, dip->devnm, full_name);
@@ -1249,7 +1249,7 @@ static inline void __list_splice(struct list_head *list, struct list_head *head)
 
 // __set_cv
 // file btreplay.c line 390
-static inline void __set_cv(union anonymous *pmp, union anonymous$3 *pcp, volatile signed int *vp, signed int mxv)
+static inline void __set_cv(union anonymous *pmp, union anonymous_3 *pcp, volatile signed int *vp, signed int mxv)
 {
   pthread_mutex_lock(pmp);
   *vp = *vp + 1;
@@ -1259,7 +1259,7 @@ static inline void __set_cv(union anonymous *pmp, union anonymous$3 *pcp, volati
 
 // __wait_cv
 // file btreplay.c line 408
-static inline void __wait_cv(union anonymous *pmp, union anonymous$3 *pcp, volatile signed int *vp, signed int mxv)
+static inline void __wait_cv(union anonymous *pmp, union anonymous_3 *pcp, volatile signed int *vp, signed int mxv)
 {
   pthread_mutex_lock(pmp);
   while(!(*vp >= mxv))
@@ -1275,21 +1275,21 @@ static void add_input_dev(char *devnm)
   struct list_head *p;
   struct dev_info *dip;
   p = (&input_devs)->next;
-  struct dev_info *tmp_statement_expression$1;
+  struct dev_info *tmp_statement_expression_1;
   for( ; !(p == &input_devs); p = p->next)
   {
     const struct list_head *__mptr = p;
-    tmp_statement_expression$1 = (struct dev_info *)((char *)__mptr - (signed long int)(unsigned long int)&((struct dev_info *)0)->head);
-    dip = tmp_statement_expression$1;
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(dip->devnm, devnm);
-    if(return_value_strcmp$2 == 0)
+    tmp_statement_expression_1 = (struct dev_info *)((char *)__mptr - (signed long int)(unsigned long int)&((struct dev_info *)0)->head);
+    dip = tmp_statement_expression_1;
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(dip->devnm, devnm);
+    if(return_value_strcmp_2 == 0)
       goto __CPROVER_DUMP_L4;
 
   }
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(struct dev_info) /*24ul*/ );
-  dip = (struct dev_info *)return_value_malloc$3;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(struct dev_info) /*24ul*/ );
+  dip = (struct dev_info *)return_value_malloc_3;
   dip->devnm=strdup(devnm);
   list_add_tail(&dip->head, &input_devs);
 
@@ -1304,9 +1304,9 @@ static void add_input_file(signed int cpu, char *devnm, char *file_name)
   struct stat buf;
   struct io_file_hdr hdr;
   struct thr_info *tip;
-  void *return_value_buf_alloc$1;
-  return_value_buf_alloc$1=buf_alloc(sizeof(struct thr_info) /*232ul*/ );
-  tip = (struct thr_info *)return_value_buf_alloc$1;
+  void *return_value_buf_alloc_1;
+  return_value_buf_alloc_1=buf_alloc(sizeof(struct thr_info) /*232ul*/ );
+  tip = (struct thr_info *)return_value_buf_alloc_1;
   unsigned long long int my_version;
   my_version=mk_btversion(btver_mjr, btver_mnr, btver_sub);
   memset((void *)&hdr, 0, sizeof(struct io_file_hdr) /*32ul*/ );
@@ -1317,12 +1317,12 @@ static void add_input_file(signed int cpu, char *devnm, char *file_name)
   if(!(tip->ifd >= 0))
     fatal(file_name, 1, "Unable to open\n");
 
-  signed int return_value_fstat$2;
-  return_value_fstat$2=fstat(tip->ifd, &buf);
-  if(!(return_value_fstat$2 >= 0))
+  signed int return_value_fstat_2;
+  return_value_fstat_2=fstat(tip->ifd, &buf);
+  if(!(return_value_fstat_2 >= 0))
     fatal(file_name, 2, "fstat failed\n");
 
-  signed long int return_value_read$3;
+  signed long int return_value_read_3;
   if(!(buf.st_size >= (signed long int)sizeof(struct io_file_hdr) /*32l*/ ))
   {
     if(!(verbose == 0))
@@ -1332,8 +1332,8 @@ static void add_input_file(signed int cpu, char *devnm, char *file_name)
 
   else
   {
-    return_value_read$3=read(tip->ifd, (void *)&hdr, sizeof(struct io_file_hdr) /*32ul*/ );
-    if(!((unsigned long int)return_value_read$3 == sizeof(struct io_file_hdr) /*32ul*/ ))
+    return_value_read_3=read(tip->ifd, (void *)&hdr, sizeof(struct io_file_hdr) /*32ul*/ );
+    if(!((unsigned long int)return_value_read_3 == sizeof(struct io_file_hdr) /*32ul*/ ))
       fatal(file_name, 1, "Header read failed\n");
 
     if(!(hdr.version == my_version))
@@ -1355,15 +1355,15 @@ empty_file:
 
 __CPROVER_DUMP_L8:
   ;
-  unsigned long long int return_value_du64_to_sec$4;
-  unsigned long long int return_value_du64_to_nsec$5;
+  unsigned long long int return_value_du64_to_sec_4;
+  unsigned long long int return_value_du64_to_nsec_5;
   if(!(hdr.genesis >= genesis))
   {
     if(verbose >= 2)
     {
-      return_value_du64_to_sec$4=du64_to_sec(hdr.genesis);
-      return_value_du64_to_nsec$5=du64_to_nsec(hdr.genesis);
-      fprintf(stderr, "Setting genesis to %llu.%llu\n", return_value_du64_to_sec$4, return_value_du64_to_nsec$5);
+      return_value_du64_to_sec_4=du64_to_sec(hdr.genesis);
+      return_value_du64_to_nsec_5=du64_to_nsec(hdr.genesis);
+      fprintf(stderr, "Setting genesis to %llu.%llu\n", return_value_du64_to_sec_4, return_value_du64_to_nsec_5);
     }
 
     genesis = hdr.genesis;
@@ -1385,9 +1385,9 @@ __CPROVER_DUMP_L12:
 static inline void * buf_alloc(unsigned long int nbytes)
 {
   void *buf;
-  signed int return_value_posix_memalign$1;
-  return_value_posix_memalign$1=posix_memalign(&buf, pgsize, nbytes);
-  if(!(return_value_posix_memalign$1 == 0))
+  signed int return_value_posix_memalign_1;
+  return_value_posix_memalign_1=posix_memalign(&buf, pgsize, nbytes);
+  if(!(return_value_posix_memalign_1 == 0))
     fatal("posix_memalign", 2, "Allocation failed\n");
 
   return buf;
@@ -1397,9 +1397,9 @@ static inline void * buf_alloc(unsigned long int nbytes)
 // file btreplay.c line 233
 static inline unsigned long long int du64_to_nsec(unsigned long long int du64)
 {
-  signed long long int return_value_llabs$1;
-  return_value_llabs$1=llabs((signed long long int)du64);
-  return (unsigned long long int)(return_value_llabs$1 % (signed long int)(1000 * 1000 * 1000));
+  signed long long int return_value_llabs_1;
+  return_value_llabs_1=llabs((signed long long int)du64);
+  return (unsigned long long int)(return_value_llabs_1 % (signed long int)(1000 * 1000 * 1000));
 }
 
 // du64_to_sec
@@ -1441,9 +1441,9 @@ static void find_input_devs(char *idir)
 
     char *p;
     char *dsf;
-    char *return_value_strstr$1;
-    return_value_strstr$1=strstr(ent->d_name, ".replay.");
-    if(!(return_value_strstr$1 == ((char *)NULL)))
+    char *return_value_strstr_1;
+    return_value_strstr_1=strstr(ent->d_name, ".replay.");
+    if(!(return_value_strstr_1 == ((char *)NULL)))
     {
       dsf=strdup(ent->d_name);
       p=index(dsf, 46);
@@ -1465,12 +1465,12 @@ static void find_input_files(void)
   struct list_head *q;
   p = (&input_devs)->next;
   q = p->next;
-  struct dev_info *tmp_statement_expression$1;
+  struct dev_info *tmp_statement_expression_1;
   for( ; !(p == &input_devs); q = p->next)
   {
     const struct list_head *__mptr = p;
-    tmp_statement_expression$1 = (struct dev_info *)((char *)__mptr - (signed long int)(unsigned long int)&((struct dev_info *)0)->head);
-    __find_input_files(tmp_statement_expression$1);
+    tmp_statement_expression_1 = (struct dev_info *)((char *)__mptr - (signed long int)(unsigned long int)&((struct dev_info *)0)->head);
+    __find_input_files(tmp_statement_expression_1);
     p = q;
   }
 }
@@ -1479,9 +1479,9 @@ static void find_input_files(void)
 // file btreplay.c line 503
 static void get_ncpus(void)
 {
-  signed long int return_value_sysconf$1;
-  return_value_sysconf$1=sysconf(83);
-  ncpus = (signed int)return_value_sysconf$1;
+  signed long int return_value_sysconf_1;
+  return_value_sysconf_1=sysconf(83);
+  ncpus = (signed int)return_value_sysconf_1;
   if(ncpus == 0)
     fatal((const char *)(void *)0, 2, "Insufficient number of CPUs\n");
 
@@ -1494,9 +1494,9 @@ static inline unsigned long long int gettime(void)
   static signed int use_clock_gettime = -1;
   if(!(use_clock_gettime >= 0))
   {
-    signed int return_value_clock_getres$1;
-    return_value_clock_getres$1=clock_getres(1, (struct timespec *)(void *)0);
-    use_clock_gettime = (signed int)(return_value_clock_getres$1 == 0);
+    signed int return_value_clock_getres_1;
+    return_value_clock_getres_1=clock_getres(1, (struct timespec *)(void *)0);
+    use_clock_gettime = (signed int)(return_value_clock_getres_1 == 0);
     if(!(use_clock_gettime == 0))
     {
       struct timespec ts = { .tv_sec=(signed long int)0, .tv_nsec=(signed long int)0 };
@@ -1507,20 +1507,20 @@ static inline unsigned long long int gettime(void)
 
   if(!(use_clock_gettime == 0))
   {
-    struct timespec gettime$$1$$2$$ts;
-    clock_gettime(1, &gettime$$1$$2$$ts);
-    unsigned long long int return_value_ts2ns$2;
-    return_value_ts2ns$2=ts2ns(&gettime$$1$$2$$ts);
-    return return_value_ts2ns$2;
+    struct timespec gettime__1__2__ts;
+    clock_gettime(1, &gettime__1__2__ts);
+    unsigned long long int return_value_ts2ns_2;
+    return_value_ts2ns_2=ts2ns(&gettime__1__2__ts);
+    return return_value_ts2ns_2;
   }
 
   else
   {
     struct timeval tp;
     gettimeofday(&tp, (struct timezone *)(void *)0);
-    unsigned long long int return_value_tv2ns$3;
-    return_value_tv2ns$3=tv2ns(&tp);
-    return return_value_tv2ns$3;
+    unsigned long long int return_value_tv2ns_3;
+    return_value_tv2ns_3=tv2ns(&tp);
+    return return_value_tv2ns_3;
   }
 }
 
@@ -1530,7 +1530,7 @@ static void handle_args(signed int argc, char **argv)
 {
   signed int c;
   signed int r;
-  signed int return_value_access$1;
+  signed int return_value_access_1;
   do
   {
     c=getopt_long(argc, argv, "c:d:Fhi:I:M:Nx:t:vVW", l_opts, (signed int *)(void *)0);
@@ -1550,8 +1550,8 @@ static void handle_args(signed int argc, char **argv)
       case 100:
       {
         idir = optarg;
-        return_value_access$1=access(idir, 4 | 1);
-        if(!(return_value_access$1 == 0))
+        return_value_access_1=access(idir, 4 | 1);
+        if(!(return_value_access_1 == 0))
           fatal(idir, 1, "Invalid input directory specified\n");
 
         break;
@@ -1627,19 +1627,19 @@ static void handle_args(signed int argc, char **argv)
     }
   }
   while((_Bool)1);
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   while(!(optind >= argc))
   {
-    tmp_post$2 = optind;
+    tmp_post_2 = optind;
     optind = optind + 1;
-    add_input_dev(argv[(signed long int)tmp_post$2]);
+    add_input_dev(argv[(signed long int)tmp_post_2]);
   }
   if(!(find_records == 0))
     find_input_devs(idir);
 
-  signed int return_value_list_len$3;
-  return_value_list_len$3=list_len(&input_devs);
-  if(return_value_list_len$3 == 0)
+  signed int return_value_list_len_3;
+  return_value_list_len_3=list_len(&input_devs);
+  if(return_value_list_len_3 == 0)
     fatal((const char *)(void *)0, 1, "Missing required input dev name(s)\n");
 
   if(!(cpus_to_use >= 0))
@@ -1699,9 +1699,9 @@ static void iocb_setup(struct iocb_pkt *iocbp, signed int rw, signed int n, sign
     free(iop->u.c.buf);
   }
 
-  void *return_value_buf_alloc$1;
-  return_value_buf_alloc$1=buf_alloc((unsigned long int)n);
-  buf = (char *)return_value_buf_alloc$1;
+  void *return_value_buf_alloc_1;
+  return_value_buf_alloc_1=buf_alloc((unsigned long int)n);
+  buf = (char *)return_value_buf_alloc_1;
   iocbp->nbytes = n;
 
 prep:
@@ -1726,8 +1726,8 @@ static void iocbs_map(struct thr_info *tip, struct iocb **list, struct io_pkt *p
   pthread_mutex_lock(&tip->mutex);
   i = 0;
   pkt = pkts;
-  _Bool tmp_if_expr$1;
-  struct iocb_pkt *tmp_statement_expression$2;
+  _Bool tmp_if_expr_1;
+  struct iocb_pkt *tmp_statement_expression_2;
   for( ; !(i >= ntodo); pkt = pkt + 1l)
   {
     unsigned int rw = pkt->rw;
@@ -1742,16 +1742,16 @@ static void iocbs_map(struct thr_info *tip, struct iocb **list, struct io_pkt *p
     if(verbose >= 2)
     {
       if(rw == 1u)
-        tmp_if_expr$1 = pkt->rw == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = pkt->rw == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      fprintf(tip->vfp, "\t%10llu + %10llu %c%c\n", (unsigned long long int)pkt->sector, (unsigned long long int)pkt->nbytes / (unsigned long int)nb_sec, rw != 0u ? 82 : 87, tmp_if_expr$1 ? 33 : 32);
+        tmp_if_expr_1 = (_Bool)0;
+      fprintf(tip->vfp, "\t%10llu + %10llu %c%c\n", (unsigned long long int)pkt->sector, (unsigned long long int)pkt->nbytes / (unsigned long int)nb_sec, rw != 0u ? 82 : 87, tmp_if_expr_1 ? 33 : 32);
     }
 
     const struct list_head *__mptr = tip->free_iocbs.next;
-    tmp_statement_expression$2 = (struct iocb_pkt *)((char *)__mptr - (signed long int)(unsigned long int)&((struct iocb_pkt *)0)->head);
-    iocbp = tmp_statement_expression$2;
+    tmp_statement_expression_2 = (struct iocb_pkt *)((char *)__mptr - (signed long int)(unsigned long int)&((struct iocb_pkt *)0)->head);
+    iocbp = tmp_statement_expression_2;
     iocb_setup(iocbp, (signed int)rw, (signed int)pkt->nbytes, (signed long long int)(pkt->sector * (unsigned long int)nb_sec));
     list_move_tail(&iocbp->head, &tip->used_iocbs);
     list[(signed long int)i] = &iocbp->iocb;
@@ -1765,26 +1765,26 @@ static void iocbs_map(struct thr_info *tip, struct iocb **list, struct io_pkt *p
 // file btreplay.c line 276
 static inline signed int is_reap_done(struct thr_info *tip)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(tip->send_done == 0))
-    tmp_if_expr$1 = tip->naios_out == (signed long int)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = tip->naios_out == (signed long int)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  return (signed int)tmp_if_expr_1;
 }
 
 // is_send_done
 // file btreplay.c line 267
 static inline signed int is_send_done(struct thr_info *tip)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(signal_done == 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = tip->send_done != 0 ? (_Bool)1 : (_Bool)0;
-  return (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = tip->send_done != 0 ? (_Bool)1 : (_Bool)0;
+  return (signed int)tmp_if_expr_1;
 }
 
 // list_add_tail
@@ -1834,9 +1834,9 @@ static inline void list_move_tail(struct list_head *list, struct list_head *head
 // file ../btt/list.h line 210
 static inline void list_splice(struct list_head *list, struct list_head *head)
 {
-  signed int return_value_list_empty$1;
-  return_value_list_empty$1=list_empty(list);
-  if(return_value_list_empty$1 == 0)
+  signed int return_value_list_empty_1;
+  return_value_list_empty_1=list_empty(list);
+  if(return_value_list_empty_1 == 0)
     __list_splice(list, head);
 
 }
@@ -1847,9 +1847,9 @@ signed int main(signed int argc, char **argv)
 {
   signed int i;
   struct list_head *p;
-  signed int return_value_getpagesize$1;
-  return_value_getpagesize$1=getpagesize();
-  pgsize = (unsigned long int)return_value_getpagesize$1;
+  signed int return_value_getpagesize_1;
+  return_value_getpagesize_1=getpagesize();
+  pgsize = (unsigned long int)return_value_getpagesize_1;
   setup_signal(2, set_signal_done);
   setup_signal(15, set_signal_done);
   get_ncpus();
@@ -1857,12 +1857,12 @@ signed int main(signed int argc, char **argv)
   find_input_files();
   nfiles=list_len(&input_files);
   p = (&input_files)->next;
-  struct thr_info *tmp_statement_expression$2;
+  struct thr_info *tmp_statement_expression_2;
   for( ; !(p == &input_files); p = p->next)
   {
     const struct list_head *__mptr = p;
-    tmp_statement_expression$2 = (struct thr_info *)((char *)__mptr - (signed long int)(unsigned long int)&((struct thr_info *)0)->head);
-    tip_init(tmp_statement_expression$2);
+    tmp_statement_expression_2 = (struct thr_info *)((char *)__mptr - (signed long int)(unsigned long int)&((struct thr_info *)0)->head);
+    tip_init(tmp_statement_expression_2);
   }
   wait_replays_ready();
   i = 0;
@@ -1890,16 +1890,16 @@ signed int main(signed int argc, char **argv)
 static char * map_dev(char *from_dev)
 {
   struct list_head *p = (&map_devs)->next;
-  struct map_dev *tmp_statement_expression$1;
+  struct map_dev *tmp_statement_expression_1;
   for( ; !(p == &map_devs); p = p->next)
   {
     struct map_dev *mdp;
     const struct list_head *__mptr = p;
-    tmp_statement_expression$1 = (struct map_dev *)((char *)__mptr - (signed long int)(unsigned long int)&((struct map_dev *)0)->head);
-    mdp = tmp_statement_expression$1;
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(from_dev, mdp->from_dev);
-    if(return_value_strcmp$2 == 0)
+    tmp_statement_expression_1 = (struct map_dev *)((char *)__mptr - (signed long int)(unsigned long int)&((struct map_dev *)0)->head);
+    mdp = tmp_statement_expression_1;
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(from_dev, mdp->from_dev);
+    if(return_value_strcmp_2 == 0)
       return mdp->to_dev;
 
   }
@@ -1933,9 +1933,9 @@ static signed int next_bunch(struct thr_info *tip, struct io_bunch *bunch)
 {
   unsigned long int count;
   unsigned long int result;
-  signed long int return_value_read$1;
-  return_value_read$1=read(tip->ifd, (void *)&bunch->hdr, sizeof(struct io_bunch_hdr) /*16ul*/ );
-  result = (unsigned long int)return_value_read$1;
+  signed long int return_value_read_1;
+  return_value_read_1=read(tip->ifd, (void *)&bunch->hdr, sizeof(struct io_bunch_hdr) /*16ul*/ );
+  result = (unsigned long int)return_value_read_1;
   if(!(result == sizeof(struct io_bunch_hdr) /*16ul*/ ))
   {
     if(result == 0ul)
@@ -1945,9 +1945,9 @@ static signed int next_bunch(struct thr_info *tip, struct io_bunch *bunch)
   }
 
   count = bunch->hdr.npkts * sizeof(struct io_pkt) /*24ul*/ ;
-  signed long int return_value_read$2;
-  return_value_read$2=read(tip->ifd, (void *)&bunch->pkts, count);
-  result = (unsigned long int)return_value_read$2;
+  signed long int return_value_read_2;
+  return_value_read_2=read(tip->ifd, (void *)&bunch->pkts, count);
+  result = (unsigned long int)return_value_read_2;
   if(!(result == count))
     fatal(tip->file_name, 2, "Short pkts(%ld/%ld)\n", (signed long int)result, (signed long int)count);
 
@@ -1960,11 +1960,11 @@ static signed int nfree_current(struct thr_info *tip)
 {
   signed int nfree = 0;
   pthread_mutex_lock(&tip->mutex);
-  signed int return_value_is_send_done$1;
+  signed int return_value_is_send_done_1;
   do
   {
-    return_value_is_send_done$1=is_send_done(tip);
-    if(!(return_value_is_send_done$1 == 0))
+    return_value_is_send_done_1=is_send_done(tip);
+    if(!(return_value_is_send_done_1 == 0))
       break;
 
     nfree = (signed int)tip->naios_free;
@@ -1972,9 +1972,9 @@ static signed int nfree_current(struct thr_info *tip)
       break;
 
     tip->send_wait = 1;
-    signed int return_value_pthread_cond_wait$2;
-    return_value_pthread_cond_wait$2=pthread_cond_wait(&tip->cond, &tip->mutex);
-    if(!(return_value_pthread_cond_wait$2 == 0))
+    signed int return_value_pthread_cond_wait_2;
+    return_value_pthread_cond_wait_2=pthread_cond_wait(&tip->cond, &tip->mutex);
+    if(!(return_value_pthread_cond_wait_2 == 0))
       fatal("pthread_cond_wait", 2, "nfree_current cond wait failed\n");
 
   }
@@ -1987,7 +1987,7 @@ static signed int nfree_current(struct thr_info *tip)
 // file btreplay.c line 543
 static void pin_to_cpu(struct thr_info *tip)
 {
-  struct anonymous$1 *cpus;
+  struct anonymous_1 *cpus;
   unsigned long int size;
   cpus=__sched_cpualloc((unsigned long int)ncpus);
   size = ((((unsigned long int)ncpus + (unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ) - (unsigned long int)1) / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ )) * sizeof(unsigned long int) /*8ul*/ ;
@@ -2000,35 +2000,35 @@ static void pin_to_cpu(struct thr_info *tip)
 
   else
     (unsigned long int)0;
-  signed int return_value_getpid$1;
-  return_value_getpid$1=getpid();
-  signed int return_value_sched_setaffinity$2;
-  return_value_sched_setaffinity$2=sched_setaffinity(return_value_getpid$1, size, cpus);
-  if(!(return_value_sched_setaffinity$2 == 0))
+  signed int return_value_getpid_1;
+  return_value_getpid_1=getpid();
+  signed int return_value_sched_setaffinity_2;
+  return_value_sched_setaffinity_2=sched_setaffinity(return_value_getpid_1, size, cpus);
+  if(!(return_value_sched_setaffinity_2 == 0))
     fatal("sched_setaffinity", 2, "Failed to pin CPU\n");
 
-  signed int tmp_statement_expression$4;
-  signed int tmp_if_expr$5;
+  signed int tmp_statement_expression_4;
+  signed int tmp_if_expr_5;
   if(verbose >= 2)
   {
     signed int i;
-    struct anonymous$1 *now;
+    struct anonymous_1 *now;
     now=__sched_cpualloc((unsigned long int)ncpus);
-    signed int return_value_getpid$3;
-    return_value_getpid$3=getpid();
-    sched_getaffinity(return_value_getpid$3, size, now);
+    signed int return_value_getpid_3;
+    return_value_getpid_3=getpid();
+    sched_getaffinity(return_value_getpid_3, size, now);
     fprintf(tip->vfp, "Pinned to CPU %02d ", tip->cpu);
     i = 0;
     for( ; !(i >= ncpus); i = i + 1)
     {
-      unsigned long int pin_to_cpu$$1$$3$$1$$1$$__cpu = (unsigned long int)i;
-      if(!(pin_to_cpu$$1$$3$$1$$1$$__cpu / 8ul >= size))
-        tmp_if_expr$5 = (signed int)((((const unsigned long int *)now->__bits)[(signed long int)(pin_to_cpu$$1$$3$$1$$1$$__cpu / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ))] & (unsigned long int)1 << pin_to_cpu$$1$$3$$1$$1$$__cpu % ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ )) != (unsigned long int)0);
+      unsigned long int pin_to_cpu__1__3__1__1____cpu = (unsigned long int)i;
+      if(!(pin_to_cpu__1__3__1__1____cpu / 8ul >= size))
+        tmp_if_expr_5 = (signed int)((((const unsigned long int *)now->__bits)[(signed long int)(pin_to_cpu__1__3__1__1____cpu / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ))] & (unsigned long int)1 << pin_to_cpu__1__3__1__1____cpu % ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ )) != (unsigned long int)0);
 
       else
-        tmp_if_expr$5 = 0;
-      tmp_statement_expression$4 = tmp_if_expr$5;
-      fprintf(tip->vfp, "%1d", tmp_statement_expression$4);
+        tmp_if_expr_5 = 0;
+      tmp_statement_expression_4 = tmp_if_expr_5;
+      fprintf(tip->vfp, "%1d", tmp_statement_expression_4);
     }
     fprintf(tip->vfp, "\n");
   }
@@ -2040,13 +2040,13 @@ static void pin_to_cpu(struct thr_info *tip)
 static void process_bunch(struct thr_info *tip, struct io_bunch *bunch)
 {
   unsigned long long int i = (unsigned long long int)0;
-  const signed long int i$array_size0 = (signed long int)bunch->hdr.npkts;
-  struct iocb *list[i$array_size0];
-  signed int return_value_is_send_done$1;
+  const signed long int i_array_size0 = (signed long int)bunch->hdr.npkts;
+  struct iocb *list[i_array_size0];
+  signed int return_value_is_send_done_1;
   do
   {
-    return_value_is_send_done$1=is_send_done(tip);
-    if(!(return_value_is_send_done$1 == 0))
+    return_value_is_send_done_1=is_send_done(tip);
+    if(!(return_value_is_send_done_1 == 0))
       break;
 
     if(i >= bunch->hdr.npkts)
@@ -2054,9 +2054,9 @@ static void process_bunch(struct thr_info *tip, struct io_bunch *bunch)
 
     signed long int ndone;
     signed int ntodo;
-    signed int return_value_nfree_current$2;
-    return_value_nfree_current$2=nfree_current(tip);
-    ntodo=min(return_value_nfree_current$2, (signed int)(bunch->hdr.npkts - i));
+    signed int return_value_nfree_current_2;
+    return_value_nfree_current_2=nfree_current(tip);
+    ntodo=min(return_value_nfree_current_2, (signed int)(bunch->hdr.npkts - i));
     iocbs_map(tip, list, &bunch->pkts[(signed long int)i], ntodo);
     if(no_stalls == 0)
       stall(tip, (signed long long int)(bunch->hdr.time_stamp - genesis));
@@ -2066,16 +2066,16 @@ static void process_bunch(struct thr_info *tip, struct io_bunch *bunch)
       if(verbose >= 2)
         fprintf(tip->vfp, "submit(%d)\n", ntodo);
 
-      signed int return_value_io_submit$3;
-      return_value_io_submit$3=io_submit(tip->ctx, (signed long int)ntodo, list);
-      ndone = (signed long int)return_value_io_submit$3;
+      signed int return_value_io_submit_3;
+      return_value_io_submit_3=io_submit(tip->ctx, (signed long int)ntodo, list);
+      ndone = (signed long int)return_value_io_submit_3;
       if(!(ndone == (signed long int)ntodo))
       {
-        signed long int return_value_labs$4;
-        return_value_labs$4=labs(ndone);
-        char *return_value_strerror$5;
-        return_value_strerror$5=strerror((signed int)return_value_labs$4);
-        fatal("io_submit", 2, "%d: io_submit(%d:%ld) failed (%s)\n", tip->cpu, ntodo, ndone, return_value_strerror$5);
+        signed long int return_value_labs_4;
+        return_value_labs_4=labs(ndone);
+        char *return_value_strerror_5;
+        return_value_strerror_5=strerror((signed int)return_value_labs_4);
+        fatal("io_submit", 2, "%d: io_submit(%d:%ld) failed (%s)\n", tip->cpu, ntodo, ndone, return_value_strerror_5);
       }
 
       pthread_mutex_lock(&tip->mutex);
@@ -2105,17 +2105,17 @@ static void read_map_devs(char *file_name)
   if(fp == ((struct _IO_FILE *)NULL))
     fatal(file_name, 2, "Could not open map devs file\n");
 
-  signed int return_value_fscanf$1;
+  signed int return_value_fscanf_1;
   do
   {
-    return_value_fscanf$1=fscanf(fp, "%as %as", &from_dev, &to_dev);
-    if(!(return_value_fscanf$1 == 2))
+    return_value_fscanf_1=fscanf(fp, "%as %as", &from_dev, &to_dev);
+    if(!(return_value_fscanf_1 == 2))
       break;
 
     struct map_dev *mdp;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct map_dev) /*32ul*/ );
-    mdp = (struct map_dev *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct map_dev) /*32ul*/ );
+    mdp = (struct map_dev *)return_value_malloc_2;
     mdp->from_dev = from_dev;
     mdp->to_dev = to_dev;
     list_add_tail(&mdp->head, &map_devs);
@@ -2128,28 +2128,28 @@ static void read_map_devs(char *file_name)
 // file btreplay.c line 1025
 static signed int reap_wait_aios(struct thr_info *tip)
 {
-  signed int reap_wait_aios$$1$$naios = 0;
-  signed int return_value_is_reap_done$2;
-  return_value_is_reap_done$2=is_reap_done(tip);
-  if(return_value_is_reap_done$2 == 0)
+  signed int reap_wait_aios__1__naios = 0;
+  signed int return_value_is_reap_done_2;
+  return_value_is_reap_done_2=is_reap_done(tip);
+  if(return_value_is_reap_done_2 == 0)
   {
     pthread_mutex_lock(&tip->mutex);
     while(tip->naios_out == 0l)
     {
       tip->reap_wait = 1;
-      signed int return_value_pthread_cond_wait$1;
-      return_value_pthread_cond_wait$1=pthread_cond_wait(&tip->cond, &tip->mutex);
-      if(!(return_value_pthread_cond_wait$1 == 0))
+      signed int return_value_pthread_cond_wait_1;
+      return_value_pthread_cond_wait_1=pthread_cond_wait(&tip->cond, &tip->mutex);
+      if(!(return_value_pthread_cond_wait_1 == 0))
         fatal("pthread_cond_wait", 2, "nfree_current cond wait failed\n");
 
     }
-    reap_wait_aios$$1$$naios = (signed int)tip->naios_out;
+    reap_wait_aios__1__naios = (signed int)tip->naios_out;
     pthread_mutex_unlock(&tip->mutex);
   }
 
-  signed int return_value_is_reap_done$3;
-  return_value_is_reap_done$3=is_reap_done(tip);
-  return return_value_is_reap_done$3 != 0 ? 0 : reap_wait_aios$$1$$naios;
+  signed int return_value_is_reap_done_3;
+  return_value_is_reap_done_3=is_reap_done(tip);
+  return return_value_is_reap_done_3 != 0 ? 0 : reap_wait_aios__1__naios;
 }
 
 // reclaim_ios
@@ -2158,10 +2158,10 @@ static void reclaim_ios(struct thr_info *tip, signed long int naios_out)
 {
   signed long int i;
   signed long int ndone;
-  const signed long int evp$array_size0 = naios_out;
+  const signed long int evp_array_size0 = naios_out;
   struct io_event *evp;
-  struct io_event events[evp$array_size0];
-  signed int *return_value___errno_location$2;
+  struct io_event events[evp_array_size0];
+  signed int *return_value___errno_location_2;
   do
   {
 
@@ -2170,18 +2170,18 @@ static void reclaim_ios(struct thr_info *tip, signed long int naios_out)
     (void)0;
     do
     {
-      signed int return_value_io_getevents$1;
-      return_value_io_getevents$1=io_getevents(tip->ctx, (signed long int)1, naios_out, events, (struct timespec *)(void *)0);
-      ndone = (signed long int)return_value_io_getevents$1;
+      signed int return_value_io_getevents_1;
+      return_value_io_getevents_1=io_getevents(tip->ctx, (signed long int)1, naios_out, events, (struct timespec *)(void *)0);
+      ndone = (signed long int)return_value_io_getevents_1;
       if(ndone >= 1l)
         break;
 
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      if(!(*return_value___errno_location$3 == 0))
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      if(!(*return_value___errno_location_3 == 0))
       {
-        return_value___errno_location$2=__errno_location();
-        if(!(*return_value___errno_location$2 == 4))
+        return_value___errno_location_2=__errno_location();
+        if(!(*return_value___errno_location_2 == 4))
           fatal("io_getevents", 2, "io_getevents failed\n");
 
       }
@@ -2222,13 +2222,13 @@ static void release_map_devs(void)
   struct list_head *q;
   p = (&map_devs)->next;
   q = p->next;
-  struct map_dev *tmp_statement_expression$1;
+  struct map_dev *tmp_statement_expression_1;
   for( ; !(p == &map_devs); q = p->next)
   {
     struct map_dev *mdp;
     const struct list_head *__mptr = p;
-    tmp_statement_expression$1 = (struct map_dev *)((char *)__mptr - (signed long int)(unsigned long int)&((struct map_dev *)0)->head);
-    mdp = tmp_statement_expression$1;
+    tmp_statement_expression_1 = (struct map_dev *)((char *)__mptr - (signed long int)(unsigned long int)&((struct map_dev *)0)->head);
+    mdp = tmp_statement_expression_1;
     list_del(&mdp->head);
     free((void *)mdp->from_dev);
     free((void *)mdp->to_dev);
@@ -2267,12 +2267,12 @@ static void rem_input_files(void)
   struct list_head *q;
   p = (&input_files)->next;
   q = p->next;
-  struct thr_info *tmp_statement_expression$1;
+  struct thr_info *tmp_statement_expression_1;
   for( ; !(p == &input_files); q = p->next)
   {
     const struct list_head *__mptr = p;
-    tmp_statement_expression$1 = (struct thr_info *)((char *)__mptr - (signed long int)(unsigned long int)&((struct thr_info *)0)->head);
-    rem_input_file(tmp_statement_expression$1);
+    tmp_statement_expression_1 = (struct thr_info *)((char *)__mptr - (signed long int)(unsigned long int)&((struct thr_info *)0)->head);
+    rem_input_file(tmp_statement_expression_1);
     p = q;
   }
 }
@@ -2283,11 +2283,11 @@ static void * replay_rec(void *arg)
 {
   signed long int naios_out;
   struct thr_info *tip = (struct thr_info *)arg;
-  signed int return_value_reap_wait_aios$1;
+  signed int return_value_reap_wait_aios_1;
   do
   {
-    return_value_reap_wait_aios$1=reap_wait_aios(tip);
-    naios_out = (signed long int)return_value_reap_wait_aios$1;
+    return_value_reap_wait_aios_1=reap_wait_aios(tip);
+    naios_out = (signed long int)return_value_reap_wait_aios_1;
     if(!(naios_out >= 1l))
       break;
 
@@ -2313,20 +2313,20 @@ static void * replay_sub(void *arg)
   mdev=map_dev(tip->devnm);
   sprintf(path, "/dev/%s", mdev);
   i = (unsigned int)0;
-  unsigned long int return_value_strlen$1;
-  unsigned long int return_value_strlen$3;
-  unsigned long int return_value_strlen$2;
+  unsigned long int return_value_strlen_1;
+  unsigned long int return_value_strlen_3;
+  unsigned long int return_value_strlen_2;
   do
   {
-    return_value_strlen$1=strlen(mdev);
-    if((unsigned long int)i >= return_value_strlen$1)
+    return_value_strlen_1=strlen(mdev);
+    if((unsigned long int)i >= return_value_strlen_1)
       break;
 
-    return_value_strlen$3=strlen("/dev/");
-    if((signed int)path[(signed long int)return_value_strlen$3 + (signed long int)(unsigned long int)i] == 95)
+    return_value_strlen_3=strlen("/dev/");
+    if((signed int)path[(signed long int)return_value_strlen_3 + (signed long int)(unsigned long int)i] == 95)
     {
-      return_value_strlen$2=strlen("/dev/");
-      path[(signed long int)(return_value_strlen$2 + (unsigned long int)i)] = (char)47;
+      return_value_strlen_2=strlen("/dev/");
+      path[(signed long int)(return_value_strlen_2 + (unsigned long int)i)] = (char)47;
     }
 
     i = i + 1u;
@@ -2338,19 +2338,19 @@ static void * replay_sub(void *arg)
     fatal(path, 2, "Failed device open\n");
 
   set_replay_ready();
-  signed int return_value_is_send_done$4;
-  signed int tmp_post$5;
-  signed int return_value_is_send_done$6;
-  signed int return_value_next_bunch$7;
+  signed int return_value_is_send_done_4;
+  signed int tmp_post_5;
+  signed int return_value_is_send_done_6;
+  signed int return_value_next_bunch_7;
   do
   {
-    return_value_is_send_done$4=is_send_done(tip);
-    if(!(return_value_is_send_done$4 == 0))
+    return_value_is_send_done_4=is_send_done(tip);
+    if(!(return_value_is_send_done_4 == 0))
       break;
 
-    tmp_post$5 = tip->iterations;
+    tmp_post_5 = tip->iterations;
     tip->iterations = tip->iterations - 1;
-    if(tmp_post$5 == 0)
+    if(tmp_post_5 == 0)
       break;
 
     wait_iter_start();
@@ -2359,12 +2359,12 @@ static void * replay_sub(void *arg)
 
     do
     {
-      return_value_is_send_done$6=is_send_done(tip);
-      if(!(return_value_is_send_done$6 == 0))
+      return_value_is_send_done_6=is_send_done(tip);
+      if(!(return_value_is_send_done_6 == 0))
         break;
 
-      return_value_next_bunch$7=next_bunch(tip, &bunch);
-      if(return_value_next_bunch$7 == 0)
+      return_value_next_bunch_7=next_bunch(tip, &bunch);
+      if(return_value_next_bunch_7 == 0)
         break;
 
       process_bunch(tip, &bunch);
@@ -2385,9 +2385,9 @@ static void reset_input_file(struct thr_info *tip)
 {
   struct io_file_hdr hdr;
   lseek(tip->ifd, (signed long int)0, 0);
-  signed long int return_value_read$1;
-  return_value_read$1=read(tip->ifd, (void *)&hdr, sizeof(struct io_file_hdr) /*32ul*/ );
-  if(!((unsigned long int)return_value_read$1 == sizeof(struct io_file_hdr) /*32ul*/ ))
+  signed long int return_value_read_1;
+  return_value_read_1=read(tip->ifd, (void *)&hdr, sizeof(struct io_file_hdr) /*32ul*/ );
+  if(!((unsigned long int)return_value_read_1 == sizeof(struct io_file_hdr) /*32ul*/ ))
     fatal(tip->file_name, 1, "Header reread failed\n");
 
 }
@@ -2431,9 +2431,9 @@ static void set_signal_done(signed int signum)
 // file btreplay.c line 368
 static inline void setup_signal(signed int signum, void (*handler)(signed int))
 {
-  void (*return_value_signal$1)(signed int);
-  return_value_signal$1=signal(signum, handler);
-  if(return_value_signal$1 == (void (*)(signed int))-1)
+  void (*return_value_signal_1)(signed int);
+  return_value_signal_1=signal(signum, handler);
+  if(return_value_signal_1 == (void (*)(signed int))-1)
     fatal("signal", 2, "Failed to set signal %d\n", signum);
 
 }
@@ -2445,28 +2445,28 @@ static void stall(struct thr_info *tip, signed long long int oclock)
   struct timespec req;
   signed long long int dreal;
   signed long long int tclock;
-  unsigned long long int return_value_gettime$1;
-  return_value_gettime$1=gettime();
-  tclock = (signed long long int)(return_value_gettime$1 - rgenesis);
+  unsigned long long int return_value_gettime_1;
+  return_value_gettime_1=gettime();
+  tclock = (signed long long int)(return_value_gettime_1 - rgenesis);
   oclock = oclock / (signed long long int)acc_factor;
-  unsigned long long int return_value_du64_to_sec$2;
-  unsigned long long int return_value_du64_to_nsec$3;
-  unsigned long long int return_value_du64_to_sec$4;
-  unsigned long long int return_value_du64_to_nsec$5;
+  unsigned long long int return_value_du64_to_sec_2;
+  unsigned long long int return_value_du64_to_nsec_3;
+  unsigned long long int return_value_du64_to_sec_4;
+  unsigned long long int return_value_du64_to_nsec_5;
   if(verbose >= 2)
   {
-    return_value_du64_to_sec$2=du64_to_sec((unsigned long long int)oclock);
-    return_value_du64_to_nsec$3=du64_to_nsec((unsigned long long int)oclock);
-    return_value_du64_to_sec$4=du64_to_sec((unsigned long long int)tclock);
-    return_value_du64_to_nsec$5=du64_to_nsec((unsigned long long int)tclock);
-    fprintf(tip->vfp, "   stall(%lld.%09lld, %lld.%09lld)\n", return_value_du64_to_sec$2, return_value_du64_to_nsec$3, return_value_du64_to_sec$4, return_value_du64_to_nsec$5);
+    return_value_du64_to_sec_2=du64_to_sec((unsigned long long int)oclock);
+    return_value_du64_to_nsec_3=du64_to_nsec((unsigned long long int)oclock);
+    return_value_du64_to_sec_4=du64_to_sec((unsigned long long int)tclock);
+    return_value_du64_to_nsec_5=du64_to_nsec((unsigned long long int)tclock);
+    fprintf(tip->vfp, "   stall(%lld.%09lld, %lld.%09lld)\n", return_value_du64_to_sec_2, return_value_du64_to_nsec_3, return_value_du64_to_sec_4, return_value_du64_to_nsec_5);
   }
 
-  signed int return_value_is_send_done$6;
+  signed int return_value_is_send_done_6;
   do
   {
-    return_value_is_send_done$6=is_send_done(tip);
-    if(!(return_value_is_send_done$6 == 0))
+    return_value_is_send_done_6=is_send_done(tip);
+    if(!(return_value_is_send_done_6 == 0))
       break;
 
     if(tclock >= oclock)
@@ -2478,18 +2478,18 @@ static void stall(struct thr_info *tip, signed long long int oclock)
     if(verbose >= 2)
       fprintf(tip->vfp, "++ stall(%lld.%09lld) ++\n", (signed long long int)req.tv_sec, (signed long long int)req.tv_nsec);
 
-    signed int return_value_nanosleep$7;
-    return_value_nanosleep$7=nanosleep(&req, (struct timespec *)(void *)0);
-    if(!(return_value_nanosleep$7 >= 0))
+    signed int return_value_nanosleep_7;
+    return_value_nanosleep_7=nanosleep(&req, (struct timespec *)(void *)0);
+    if(!(return_value_nanosleep_7 >= 0))
     {
       if(!(signal_done == 0))
         break;
 
     }
 
-    unsigned long long int return_value_gettime$8;
-    return_value_gettime$8=gettime();
-    tclock = (signed long long int)(return_value_gettime$8 - rgenesis);
+    unsigned long long int return_value_gettime_8;
+    return_value_gettime_8=gettime();
+    tclock = (signed long long int)(return_value_gettime_8 - rgenesis);
   }
   while((_Bool)1);
 }
@@ -2511,11 +2511,11 @@ static void tip_init(struct thr_info *tip)
   signed int i;
   INIT_LIST_HEAD(&tip->free_iocbs);
   INIT_LIST_HEAD(&tip->used_iocbs);
-  pthread_mutex_init(&tip->mutex, (const union anonymous$0 *)(void *)0);
-  pthread_cond_init(&tip->cond, (const union anonymous$0 *)(void *)0);
-  signed int return_value_io_setup$1;
-  return_value_io_setup$1=io_setup(naios, &tip->ctx);
-  if(!(return_value_io_setup$1 == 0))
+  pthread_mutex_init(&tip->mutex, (const union anonymous_0 *)(void *)0);
+  pthread_cond_init(&tip->cond, (const union anonymous_0 *)(void *)0);
+  signed int return_value_io_setup_1;
+  return_value_io_setup_1=io_setup(naios, &tip->ctx);
+  if(!(return_value_io_setup_1 == 0))
     fatal("io_setup", 2, "io_setup failed\n");
 
   tip->ofd = -1;
@@ -2530,9 +2530,9 @@ static void tip_init(struct thr_info *tip)
   for( ; !(i >= naios); i = i + 1)
   {
     struct iocb_pkt *iocbp;
-    void *return_value_buf_alloc$2;
-    return_value_buf_alloc$2=buf_alloc(sizeof(struct iocb_pkt) /*96ul*/ );
-    iocbp = (struct iocb_pkt *)return_value_buf_alloc$2;
+    void *return_value_buf_alloc_2;
+    return_value_buf_alloc_2=buf_alloc(sizeof(struct iocb_pkt) /*96ul*/ );
+    iocbp = (struct iocb_pkt *)return_value_buf_alloc_2;
     iocb_init(tip, iocbp);
     list_add_tail(&iocbp->head, &tip->free_iocbs);
   }
@@ -2548,14 +2548,14 @@ static void tip_init(struct thr_info *tip)
     setlinebuf(tip->vfp);
   }
 
-  signed int return_value_pthread_create$3;
-  return_value_pthread_create$3=pthread_create(&tip->sub_thread, (const union pthread_attr_t *)(void *)0, replay_sub, (void *)tip);
-  if(!(return_value_pthread_create$3 == 0))
+  signed int return_value_pthread_create_3;
+  return_value_pthread_create_3=pthread_create(&tip->sub_thread, (const union pthread_attr_t *)(void *)0, replay_sub, (void *)tip);
+  if(!(return_value_pthread_create_3 == 0))
     fatal("pthread_create", 2, "thread create failed\n");
 
-  signed int return_value_pthread_create$4;
-  return_value_pthread_create$4=pthread_create(&tip->rec_thread, (const union pthread_attr_t *)(void *)0, replay_rec, (void *)tip);
-  if(!(return_value_pthread_create$4 == 0))
+  signed int return_value_pthread_create_4;
+  return_value_pthread_create_4=pthread_create(&tip->rec_thread, (const union pthread_attr_t *)(void *)0, replay_rec, (void *)tip);
+  if(!(return_value_pthread_create_4 == 0))
     fatal("pthread_create", 2, "thread create failed\n");
 
 }
@@ -2566,27 +2566,27 @@ static void tip_release(struct thr_info *tip)
 {
   struct list_head *p;
   struct list_head *q;
-  signed int return_value_pthread_join$1;
-  return_value_pthread_join$1=pthread_join(tip->sub_thread, (void **)(void *)0);
-  if(!(return_value_pthread_join$1 == 0))
+  signed int return_value_pthread_join_1;
+  return_value_pthread_join_1=pthread_join(tip->sub_thread, (void **)(void *)0);
+  if(!(return_value_pthread_join_1 == 0))
     fatal("pthread_join", 2, "pthread sub join failed\n");
 
-  signed int return_value_pthread_join$2;
-  return_value_pthread_join$2=pthread_join(tip->rec_thread, (void **)(void *)0);
-  if(!(return_value_pthread_join$2 == 0))
+  signed int return_value_pthread_join_2;
+  return_value_pthread_join_2=pthread_join(tip->rec_thread, (void **)(void *)0);
+  if(!(return_value_pthread_join_2 == 0))
     fatal("pthread_join", 2, "pthread rec join failed\n");
 
   io_destroy(tip->ctx);
   list_splice(&tip->used_iocbs, &tip->free_iocbs);
   p = (&tip->free_iocbs)->next;
   q = p->next;
-  struct iocb_pkt *tmp_statement_expression$3;
+  struct iocb_pkt *tmp_statement_expression_3;
   for( ; !(p == &tip->free_iocbs); q = p->next)
   {
     struct iocb_pkt *iocbp;
     const struct list_head *__mptr = p;
-    tmp_statement_expression$3 = (struct iocb_pkt *)((char *)__mptr - (signed long int)(unsigned long int)&((struct iocb_pkt *)0)->head);
-    iocbp = tmp_statement_expression$3;
+    tmp_statement_expression_3 = (struct iocb_pkt *)((char *)__mptr - (signed long int)(unsigned long int)&((struct iocb_pkt *)0)->head);
+    iocbp = tmp_statement_expression_3;
     list_del(&iocbp->head);
     if(!(iocbp->nbytes == 0))
       free(iocbp->iocb.u.c.buf);

@@ -1,74 +1,74 @@
 // tag-#anon#ST[SYM#tag-dvbfe_atsc_mod#'modulation']
 // file ../../lib/libdvbapi/dvbfe.h line 146
-struct anonymous$6;
+struct anonymous_6;
 
 // tag-#anon#ST[SYM#tag-dvbfe_dvbt_bandwidth#'bandwidth'|SYM#tag-dvbfe_code_rate#'code_rate_HP'|SYM#tag-dvbfe_code_rate#'code_rate_LP'|SYM#tag-dvbfe_dvbt_const#'constellation'|SYM#tag-dvbfe_dvbt_transmit_mode#'transmission_mode'|SYM#tag-dvbfe_dvbt_guard_interval#'guard_interval'|SYM#tag-dvbfe_dvbt_hierarchy#'hierarchy_information']
 // file ../../lib/libdvbapi/dvbfe.h line 136
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[U16'width'|U16'height'|U8'aspect_ratio'|U8'gfx_relation_to_video'|U8'multiple_depths'|U8'$pad0'|U16'display_bytes'|U8'composition_buffer_bytes'|U8'object_cache_bytes'|U8'num_pixel_depths'|U24'$pad1'|*{SYM#tag-en50221_app_mmi_pixel_depth#}$SYM#tag-en50221_app_mmi_pixel_depth#$'pixel_depths']
+// tag-#anon#ST[U16'width'|U16'height'|U8'aspect_ratio'|U8'gfx_relation_to_video'|U8'multiple_depths'|U8'_pad0'|U16'display_bytes'|U8'composition_buffer_bytes'|U8'object_cache_bytes'|U8'num_pixel_depths'|U24'_pad1'|*{SYM#tag-en50221_app_mmi_pixel_depth#}_SYM#tag-en50221_app_mmi_pixel_depth#_'pixel_depths']
 // file en50221_app_mmi.h line 100
-struct anonymous$14;
+struct anonymous_14;
 
 // tag-#anon#ST[U32'symbol_rate'|SYM#tag-dvbfe_code_rate#'fec_inner']
 // file ../../lib/libdvbapi/dvbfe.h line 125
-struct anonymous$3;
+struct anonymous_3;
 
 // tag-#anon#ST[U32'symbol_rate'|SYM#tag-dvbfe_code_rate#'fec_inner'|SYM#tag-dvbfe_dvbc_mod#'modulation']
 // file ../../lib/libdvbapi/dvbfe.h line 130
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[U32'table_length'|U32'$pad0'|*{U8}$U8$'table']
+// tag-#anon#ST[U32'table_length'|U32'_pad0'|*{U8}_U8_'table']
 // file en50221_app_mmi.h line 114
-struct anonymous$15;
+struct anonymous_15;
 
 // tag-#anon#ST[U8'buffer_size'|U8'timeout']
 // file en50221_app_lowspeed.h line 70
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[U8'descriptor_type'|U8'retry_count'|U8'timeout'|U40'$pad0'|SYM#tag-#anon#UN[*{SYM#tag-dvb_telephone_descriptor#}$SYM#tag-dvb_telephone_descriptor#$'telephone'|U8'cable_channel_id']#'descriptor']
+// tag-#anon#ST[U8'descriptor_type'|U8'retry_count'|U8'timeout'|U40'_pad0'|SYM#tag-#anon#UN[*{SYM#tag-dvb_telephone_descriptor#}_SYM#tag-dvb_telephone_descriptor#_'telephone'|U8'cable_channel_id']#'descriptor']
 // file en50221_app_lowspeed.h line 60
-struct anonymous$9;
+struct anonymous_9;
 
 // tag-#anon#ST[U8'mmi_mode']
 // file en50221_app_mmi.h line 120
-struct anonymous$16;
+struct anonymous_16;
 
 // tag-#anon#ST[U8'phase_id']
 // file en50221_app_lowspeed.h line 75
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#UN[*{SYM#tag-dvb_telephone_descriptor#}$SYM#tag-dvb_telephone_descriptor#$'telephone'|U8'cable_channel_id']
+// tag-#anon#UN[*{SYM#tag-dvb_telephone_descriptor#}_SYM#tag-dvb_telephone_descriptor#_'telephone'|U8'cable_channel_id']
 // file en50221_app_lowspeed.h line 64
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'|S32'__align']
+// tag-#anon#UN[ARR4{S8}_S8_'__size'|S32'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$2;
+union anonymous_2;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U16'width'|U16'height'|U8'aspect_ratio'|U8'gfx_relation_to_video'|U8'multiple_depths'|U8'$pad0'|U16'display_bytes'|U8'composition_buffer_bytes'|U8'object_cache_bytes'|U8'num_pixel_depths'|U24'$pad1'|*{SYM#tag-en50221_app_mmi_pixel_depth#}$SYM#tag-en50221_app_mmi_pixel_depth#$'pixel_depths']#'gfx'|SYM#tag-#anon#ST[U32'table_length'|U32'$pad0'|*{U8}$U8$'table']#'char_table'|SYM#tag-#anon#ST[U8'mmi_mode']#'mode_ack']
+// tag-#anon#UN[SYM#tag-#anon#ST[U16'width'|U16'height'|U8'aspect_ratio'|U8'gfx_relation_to_video'|U8'multiple_depths'|U8'_pad0'|U16'display_bytes'|U8'composition_buffer_bytes'|U8'object_cache_bytes'|U8'num_pixel_depths'|U24'_pad1'|*{SYM#tag-en50221_app_mmi_pixel_depth#}_SYM#tag-en50221_app_mmi_pixel_depth#_'pixel_depths']#'gfx'|SYM#tag-#anon#ST[U32'table_length'|U32'_pad0'|*{U8}_U8_'table']#'char_table'|SYM#tag-#anon#ST[U8'mmi_mode']#'mode_ack']
 // file en50221_app_mmi.h line 99
-union anonymous$13;
+union anonymous_13;
 
 // tag-#anon#UN[SYM#tag-#anon#ST[U32'symbol_rate'|SYM#tag-dvbfe_code_rate#'fec_inner']#'dvbs'|SYM#tag-#anon#ST[U32'symbol_rate'|SYM#tag-dvbfe_code_rate#'fec_inner'|SYM#tag-dvbfe_dvbc_mod#'modulation']#'dvbc'|SYM#tag-#anon#ST[SYM#tag-dvbfe_dvbt_bandwidth#'bandwidth'|SYM#tag-dvbfe_code_rate#'code_rate_HP'|SYM#tag-dvbfe_code_rate#'code_rate_LP'|SYM#tag-dvbfe_dvbt_const#'constellation'|SYM#tag-dvbfe_dvbt_transmit_mode#'transmission_mode'|SYM#tag-dvbfe_dvbt_guard_interval#'guard_interval'|SYM#tag-dvbfe_dvbt_hierarchy#'hierarchy_information']#'dvbt'|SYM#tag-#anon#ST[SYM#tag-dvbfe_atsc_mod#'modulation']#'atsc']
 // file ../../lib/libdvbapi/dvbfe.h line 124
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U8'descriptor_type'|U8'retry_count'|U8'timeout'|U40'$pad0'|SYM#tag-#anon#UN[*{SYM#tag-dvb_telephone_descriptor#}$SYM#tag-dvb_telephone_descriptor#$'telephone'|U8'cable_channel_id']#'descriptor']#'connect_on_channel'|SYM#tag-#anon#ST[U8'buffer_size'|U8'timeout']#'set_params'|SYM#tag-#anon#ST[U8'phase_id']#'get_next_buffer']
+// tag-#anon#UN[SYM#tag-#anon#ST[U8'descriptor_type'|U8'retry_count'|U8'timeout'|U40'_pad0'|SYM#tag-#anon#UN[*{SYM#tag-dvb_telephone_descriptor#}_SYM#tag-dvb_telephone_descriptor#_'telephone'|U8'cable_channel_id']#'descriptor']#'connect_on_channel'|SYM#tag-#anon#ST[U8'buffer_size'|U8'timeout']#'set_params'|SYM#tag-#anon#ST[U8'phase_id']#'get_next_buffer']
 // file en50221_app_lowspeed.h line 59
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}$S8$'__size'|S64'__align']
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'|ARR40{S8}_S8_'__size'|S64'__align']
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
 // tag-#anon#UN[SYM#tag-dvb_qpsk_parameters#'qpsk'|SYM#tag-dvb_qam_parameters#'qam'|SYM#tag-dvb_ofdm_parameters#'ofdm'|SYM#tag-dvb_vsb_parameters#'vsb']
 // file /usr/include/linux/dvb/frontend.h line 551
-union anonymous$1;
+union anonymous_1;
 
 // tag-#anon#UN[SYM#tag-mpeg_odsmt_stream_single#'single'|SYM#tag-mpeg_odsmt_stream_multi#'multi']
 // file ../../lib/libucsi/mpeg/odsmt_section.h line 63
-union anonymous$0;
+union anonymous_0;
 
 // tag-_IO_FILE
 // file /usr/include/stdio.h line 44
@@ -821,27 +821,27 @@ struct zap_dvb_params;
 // __bswap_32
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx);
-// __bswap_32$link1
+// __bswap_32_link1
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link1(unsigned int __bsx$link1);
-// __bswap_32$link2
+static inline unsigned int __bswap_32_link1(unsigned int __bsx_link1);
+// __bswap_32_link2
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link2(unsigned int __bsx$link2);
-// __bswap_32$link3
+static inline unsigned int __bswap_32_link2(unsigned int __bsx_link2);
+// __bswap_32_link3
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link3(unsigned int __bsx$link3);
-// __bswap_32$link4
+static inline unsigned int __bswap_32_link3(unsigned int __bsx_link3);
+// __bswap_32_link4
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link4(unsigned int __bsx$link4);
-// __bswap_32$link5
+static inline unsigned int __bswap_32_link4(unsigned int __bsx_link4);
+// __bswap_32_link5
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link5(unsigned int __bsx$link5);
-// __bswap_32$link6
+static inline unsigned int __bswap_32_link5(unsigned int __bsx_link5);
+// __bswap_32_link6
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link6(unsigned int __bsx$link6);
-// __bswap_32$link7
+static inline unsigned int __bswap_32_link6(unsigned int __bsx_link6);
+// __bswap_32_link7
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link7(unsigned int __bsx$link7);
+static inline unsigned int __bswap_32_link7(unsigned int __bsx_link7);
 // __bswap_64
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 109
 static inline unsigned long int __bswap_64(unsigned long int __bsx);
@@ -905,90 +905,90 @@ extern unsigned int bcd_to_integer(unsigned int bcdval);
 // bswap16
 // file ../../lib/libucsi/endianops.h line 80
 static inline void bswap16(unsigned char *buf);
-// bswap16$link1
+// bswap16_link1
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link1(unsigned char *buf$link1);
-// bswap16$link10
+static inline void bswap16_link1(unsigned char *buf_link1);
+// bswap16_link10
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link10(unsigned char *buf$link10);
-// bswap16$link11
+static inline void bswap16_link10(unsigned char *buf_link10);
+// bswap16_link11
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link11(unsigned char *buf$link11);
-// bswap16$link12
+static inline void bswap16_link11(unsigned char *buf_link11);
+// bswap16_link12
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link12(unsigned char *buf$link12);
-// bswap16$link13
+static inline void bswap16_link12(unsigned char *buf_link12);
+// bswap16_link13
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link13(unsigned char *buf$link13);
-// bswap16$link14
+static inline void bswap16_link13(unsigned char *buf_link13);
+// bswap16_link14
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link14(unsigned char *buf$link14);
-// bswap16$link15
+static inline void bswap16_link14(unsigned char *buf_link14);
+// bswap16_link15
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link15(unsigned char *buf$link15);
-// bswap16$link16
+static inline void bswap16_link15(unsigned char *buf_link15);
+// bswap16_link16
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link16(unsigned char *buf$link16);
-// bswap16$link17
+static inline void bswap16_link16(unsigned char *buf_link16);
+// bswap16_link17
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link17(unsigned char *buf$link17);
-// bswap16$link18
+static inline void bswap16_link17(unsigned char *buf_link17);
+// bswap16_link18
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link18(unsigned char *buf$link18);
-// bswap16$link19
+static inline void bswap16_link18(unsigned char *buf_link18);
+// bswap16_link19
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link19(unsigned char *buf$link19);
-// bswap16$link2
+static inline void bswap16_link19(unsigned char *buf_link19);
+// bswap16_link2
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link2(unsigned char *buf$link2);
-// bswap16$link3
+static inline void bswap16_link2(unsigned char *buf_link2);
+// bswap16_link3
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link3(unsigned char *buf$link3);
-// bswap16$link4
+static inline void bswap16_link3(unsigned char *buf_link3);
+// bswap16_link4
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link4(unsigned char *buf$link4);
-// bswap16$link5
+static inline void bswap16_link4(unsigned char *buf_link4);
+// bswap16_link5
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link5(unsigned char *buf$link5);
-// bswap16$link6
+static inline void bswap16_link5(unsigned char *buf_link5);
+// bswap16_link6
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link6(unsigned char *buf$link6);
-// bswap16$link7
+static inline void bswap16_link6(unsigned char *buf_link6);
+// bswap16_link7
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link7(unsigned char *buf$link7);
-// bswap16$link8
+static inline void bswap16_link7(unsigned char *buf_link7);
+// bswap16_link8
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link8(unsigned char *buf$link8);
-// bswap16$link9
+static inline void bswap16_link8(unsigned char *buf_link8);
+// bswap16_link9
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link9(unsigned char *buf$link9);
+static inline void bswap16_link9(unsigned char *buf_link9);
 // bswap24
 // file ../../lib/libucsi/endianops.h line 92
 static inline void bswap24(unsigned char *buf);
 // bswap32
 // file ../../lib/libucsi/endianops.h line 84
 static inline void bswap32(unsigned char *buf);
-// bswap32$link1
+// bswap32_link1
 // file ../../lib/libucsi/endianops.h line 84
-static inline void bswap32$link1(unsigned char *buf$link1);
-// bswap32$link2
+static inline void bswap32_link1(unsigned char *buf_link1);
+// bswap32_link2
 // file ../../lib/libucsi/endianops.h line 84
-static inline void bswap32$link2(unsigned char *buf$link2);
-// bswap32$link3
+static inline void bswap32_link2(unsigned char *buf_link2);
+// bswap32_link3
 // file ../../lib/libucsi/endianops.h line 84
-static inline void bswap32$link3(unsigned char *buf$link3);
-// bswap32$link4
+static inline void bswap32_link3(unsigned char *buf_link3);
+// bswap32_link4
 // file ../../lib/libucsi/endianops.h line 84
-static inline void bswap32$link4(unsigned char *buf$link4);
-// bswap32$link5
+static inline void bswap32_link4(unsigned char *buf_link4);
+// bswap32_link5
 // file ../../lib/libucsi/endianops.h line 84
-static inline void bswap32$link5(unsigned char *buf$link5);
-// bswap32$link6
+static inline void bswap32_link5(unsigned char *buf_link5);
+// bswap32_link6
 // file ../../lib/libucsi/endianops.h line 84
-static inline void bswap32$link6(unsigned char *buf$link6);
-// bswap32$link7
+static inline void bswap32_link6(unsigned char *buf_link6);
+// bswap32_link7
 // file ../../lib/libucsi/endianops.h line 84
-static inline void bswap32$link7(unsigned char *buf$link7);
+static inline void bswap32_link7(unsigned char *buf_link7);
 // bswap64
 // file ../../lib/libucsi/endianops.h line 88
 static inline void bswap64(unsigned char *buf);
@@ -1100,21 +1100,21 @@ extern void dvbcfg_parse_string(char **text, char *tokens, char *dest, unsigned 
 // dvbcfg_scanfile_parse
 // file dvbcfg_scanfile.c line 107
 extern signed int dvbcfg_scanfile_parse(struct _IO_FILE *file, signed int (*callback)(struct dvbcfg_scanfile *, void *), void *private_data);
-// dvbcfg_scanfile_parse::callback$object
+// dvbcfg_scanfile_parse::callback_object
 //
-signed int callback$object(struct dvbcfg_scanfile *, void *);
+signed int callback_object(struct dvbcfg_scanfile *, void *);
 // dvbcfg_zapchannel_parse
 // file ../../lib/libdvbcfg/dvbcfg_zapchannel.h line 61
 extern signed int dvbcfg_zapchannel_parse(struct _IO_FILE *file, signed int (*callback)(struct dvbcfg_zapchannel *, void *), void *private_data);
-// dvbcfg_zapchannel_parse::callback$object
+// dvbcfg_zapchannel_parse::callback_object
 //
-signed int callback$object(struct dvbcfg_zapchannel *, void *);
+signed int callback_object(struct dvbcfg_zapchannel *, void *);
 // dvbcfg_zapchannel_save
 // file dvbcfg_zapchannel.c line 305
 extern signed int dvbcfg_zapchannel_save(struct _IO_FILE *file, signed int (*callback)(struct dvbcfg_zapchannel *, void *), void *private_data);
-// dvbcfg_zapchannel_save::callback$object
+// dvbcfg_zapchannel_save::callback_object
 //
-signed int callback$object(struct dvbcfg_zapchannel *, void *);
+signed int callback_object(struct dvbcfg_zapchannel *, void *);
 // dvbdate_to_unixtime
 // file ../../lib/libucsi/dvb/types.h line 53
 extern signed long int dvbdate_to_unixtime(unsigned char *dvbdate);
@@ -1211,9 +1211,9 @@ static signed int dvbsec_cfg_find_default(const char *sec_id, struct dvbsec_conf
 // dvbsec_cfg_load
 // file dvbsec_cfg.c line 78
 extern signed int dvbsec_cfg_load(struct _IO_FILE *f, void *arg, signed int (*cb)(void *, struct dvbsec_config *));
-// dvbsec_cfg_load::cb$object
+// dvbsec_cfg_load::cb_object
 //
-signed int cb$object(void *, struct dvbsec_config *);
+signed int cb_object(void *, struct dvbsec_config *);
 // dvbsec_cfg_save
 // file dvbsec_cfg.c line 232
 extern signed int dvbsec_cfg_save(struct _IO_FILE *f, struct dvbsec_config *secs, signed int count);
@@ -1298,15 +1298,15 @@ extern signed int en50221_app_ai_message(struct en50221_app_ai *ai, unsigned cha
 // en50221_app_ai_parse_app_info
 // file en50221_app_ai.c line 140
 static signed int en50221_app_ai_parse_app_info(struct en50221_app_ai *ai, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_ai_parse_app_info::1::cb$object
+// en50221_app_ai_parse_app_info::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned char, unsigned short int, unsigned short int, unsigned char, unsigned char *);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned char, unsigned short int, unsigned short int, unsigned char, unsigned char *);
 // en50221_app_ai_register_callback
 // file ../../lib/libdvben50221/en50221_app_ai.h line 90
 extern void en50221_app_ai_register_callback(struct en50221_app_ai *ai, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned char, unsigned short int, unsigned short int, unsigned char, unsigned char *), void *arg);
-// en50221_app_ai_register_callback::callback$object
+// en50221_app_ai_register_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned char, unsigned short int, unsigned short int, unsigned char, unsigned char *);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned char, unsigned short int, unsigned short int, unsigned char, unsigned char *);
 // en50221_app_auth_create
 // file en50221_app_auth.c line 47
 extern struct en50221_app_auth * en50221_app_auth_create(struct en50221_app_send_functions *funcs);
@@ -1319,15 +1319,15 @@ extern signed int en50221_app_auth_message(struct en50221_app_auth *auth, unsign
 // en50221_app_auth_parse_request
 // file en50221_app_auth.c line 142
 static signed int en50221_app_auth_parse_request(struct en50221_app_auth *auth, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_auth_parse_request::1::cb$object
+// en50221_app_auth_parse_request::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned short int, unsigned char *, unsigned int);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned short int, unsigned char *, unsigned int);
 // en50221_app_auth_register_request_callback
 // file en50221_app_auth.c line 71
 extern void en50221_app_auth_register_request_callback(struct en50221_app_auth *auth, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned short int, unsigned char *, unsigned int), void *arg);
-// en50221_app_auth_register_request_callback::callback$object
+// en50221_app_auth_register_request_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned short int, unsigned char *, unsigned int);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned short int, unsigned char *, unsigned int);
 // en50221_app_auth_send
 // file en50221_app_auth.c line 80
 extern signed int en50221_app_auth_send(struct en50221_app_auth *auth, unsigned short int session_number, unsigned short int auth_protocol_id, unsigned char *auth_data, unsigned int auth_data_length);
@@ -1346,30 +1346,30 @@ extern signed int en50221_app_ca_message(struct en50221_app_ca *ca, unsigned cha
 // en50221_app_ca_parse_info
 // file en50221_app_ca.c line 546
 static signed int en50221_app_ca_parse_info(struct en50221_app_ca *ca, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_ca_parse_info::1::cb$object
+// en50221_app_ca_parse_info::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned int, unsigned short int *);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned int, unsigned short int *);
 // en50221_app_ca_parse_reply
 // file en50221_app_ca.c line 588
 static signed int en50221_app_ca_parse_reply(struct en50221_app_ca *ca, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_ca_parse_reply::1::cb$object
+// en50221_app_ca_parse_reply::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, struct en50221_app_pmt_reply *, unsigned int);
+signed int cb_object(void *, unsigned char, unsigned short int, struct en50221_app_pmt_reply *, unsigned int);
 // en50221_app_ca_pmt
 // file ../../lib/libdvben50221/en50221_app_ca.h line 187
 extern signed int en50221_app_ca_pmt(struct en50221_app_ca *ca, unsigned short int session_number, unsigned char *ca_pmt, unsigned int ca_pmt_length);
 // en50221_app_ca_register_info_callback
 // file ../../lib/libdvben50221/en50221_app_ca.h line 153
 extern void en50221_app_ca_register_info_callback(struct en50221_app_ca *ca, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned int, unsigned short int *), void *arg);
-// en50221_app_ca_register_info_callback::callback$object
+// en50221_app_ca_register_info_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned int, unsigned short int *);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned int, unsigned short int *);
 // en50221_app_ca_register_pmt_reply_callback
 // file en50221_app_ca.c line 122
 extern void en50221_app_ca_register_pmt_reply_callback(struct en50221_app_ca *ca, signed int (*callback)(void *, unsigned char, unsigned short int, struct en50221_app_pmt_reply *, unsigned int), void *arg);
-// en50221_app_ca_register_pmt_reply_callback::callback$object
+// en50221_app_ca_register_pmt_reply_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, struct en50221_app_pmt_reply *, unsigned int);
+signed int callback_object(void *, unsigned char, unsigned short int, struct en50221_app_pmt_reply *, unsigned int);
 // en50221_app_datetime_create
 // file en50221_app_datetime.c line 49
 extern struct en50221_app_datetime * en50221_app_datetime_create(struct en50221_app_send_functions *funcs);
@@ -1382,15 +1382,15 @@ extern signed int en50221_app_datetime_message(struct en50221_app_datetime *date
 // en50221_app_datetime_parse_enquiry
 // file en50221_app_datetime.c line 146
 static signed int en50221_app_datetime_parse_enquiry(struct en50221_app_datetime *datetime, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_datetime_parse_enquiry::1::cb$object
+// en50221_app_datetime_parse_enquiry::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned char);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned char);
 // en50221_app_datetime_register_enquiry_callback
 // file en50221_app_datetime.c line 73
 extern void en50221_app_datetime_register_enquiry_callback(struct en50221_app_datetime *datetime, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned char), void *arg);
-// en50221_app_datetime_register_enquiry_callback::callback$object
+// en50221_app_datetime_register_enquiry_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned char);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned char);
 // en50221_app_datetime_send
 // file en50221_app_datetime.c line 83
 extern signed int en50221_app_datetime_send(struct en50221_app_datetime *datetime, unsigned short int session_number, signed long int utc_time, signed int time_offset);
@@ -1412,39 +1412,39 @@ extern signed int en50221_app_dvb_message(struct en50221_app_dvb *dvb, unsigned 
 // en50221_app_dvb_parse_clear_replace
 // file en50221_app_dvb.c line 251
 static signed int en50221_app_dvb_parse_clear_replace(struct en50221_app_dvb *dvb, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_dvb_parse_clear_replace::1::cb$object
+// en50221_app_dvb_parse_clear_replace::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned char);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned char);
 // en50221_app_dvb_parse_replace
 // file en50221_app_dvb.c line 215
 static signed int en50221_app_dvb_parse_replace(struct en50221_app_dvb *dvb, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_dvb_parse_replace::1::cb$object
+// en50221_app_dvb_parse_replace::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned char, unsigned short int, unsigned short int);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned char, unsigned short int, unsigned short int);
 // en50221_app_dvb_parse_tune
 // file en50221_app_dvb.c line 180
 static signed int en50221_app_dvb_parse_tune(struct en50221_app_dvb *dvb, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_dvb_parse_tune::1::cb$object
+// en50221_app_dvb_parse_tune::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned short int, unsigned int, unsigned short int, unsigned short int);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned short int, unsigned int, unsigned short int, unsigned short int);
 // en50221_app_dvb_register_clear_replace_callback
 // file en50221_app_dvb.c line 112
 extern void en50221_app_dvb_register_clear_replace_callback(struct en50221_app_dvb *dvb, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned char), void *arg);
-// en50221_app_dvb_register_clear_replace_callback::callback$object
+// en50221_app_dvb_register_clear_replace_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned char);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned char);
 // en50221_app_dvb_register_replace_callback
 // file en50221_app_dvb.c line 102
 extern void en50221_app_dvb_register_replace_callback(struct en50221_app_dvb *dvb, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned char, unsigned short int, unsigned short int), void *arg);
-// en50221_app_dvb_register_replace_callback::callback$object
+// en50221_app_dvb_register_replace_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned char, unsigned short int, unsigned short int);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned char, unsigned short int, unsigned short int);
 // en50221_app_dvb_register_tune_callback
 // file en50221_app_dvb.c line 92
 extern void en50221_app_dvb_register_tune_callback(struct en50221_app_dvb *dvb, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned short int, unsigned int, unsigned short int, unsigned short int), void *arg);
-// en50221_app_dvb_register_tune_callback::callback$object
+// en50221_app_dvb_register_tune_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned short int, unsigned int, unsigned short int, unsigned short int);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned short int, unsigned int, unsigned short int, unsigned short int);
 // en50221_app_epg_create
 // file en50221_app_epg.c line 49
 extern struct en50221_app_epg * en50221_app_epg_create(struct en50221_app_send_functions *funcs);
@@ -1460,15 +1460,15 @@ extern signed int en50221_app_epg_message(struct en50221_app_epg *epg, unsigned 
 // en50221_app_epg_parse_reply
 // file en50221_app_epg.c line 141
 static signed int en50221_app_epg_parse_reply(struct en50221_app_epg *epg, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_epg_parse_reply::1::cb$object
+// en50221_app_epg_parse_reply::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned char);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned char);
 // en50221_app_epg_register_enquiry_callback
 // file en50221_app_epg.c line 73
 void en50221_app_epg_register_enquiry_callback(struct en50221_app_epg *epg, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned char), void *arg);
-// en50221_app_epg_register_enquiry_callback::callback$object
+// en50221_app_epg_register_enquiry_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned char);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned char);
 // en50221_app_lowspeed_clear_session
 // file en50221_app_lowspeed.c line 105
 extern void en50221_app_lowspeed_clear_session(struct en50221_app_lowspeed *lowspeed, unsigned short int session_number);
@@ -1484,30 +1484,30 @@ extern signed int en50221_app_lowspeed_message(struct en50221_app_lowspeed *lows
 // en50221_app_lowspeed_parse_command
 // file en50221_app_lowspeed.c line 349
 static signed int en50221_app_lowspeed_parse_command(struct en50221_app_lowspeed *lowspeed, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_lowspeed_parse_command::1::cb$object
+// en50221_app_lowspeed_parse_command::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned char, struct en50221_app_lowspeed_command *);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned char, struct en50221_app_lowspeed_command *);
 // en50221_app_lowspeed_parse_connect_on_channel
 // file en50221_app_lowspeed.c line 244
 static signed int en50221_app_lowspeed_parse_connect_on_channel(struct en50221_app_lowspeed_command *command, unsigned char *data, signed int data_length);
 // en50221_app_lowspeed_parse_send
 // file en50221_app_lowspeed.c line 427
 static signed int en50221_app_lowspeed_parse_send(struct en50221_app_lowspeed *lowspeed, unsigned char slot_id, unsigned short int session_number, signed int more_last, unsigned char *data, unsigned int data_length);
-// en50221_app_lowspeed_parse_send::1::cb$object
+// en50221_app_lowspeed_parse_send::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned char, unsigned char *, unsigned int);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned char, unsigned char *, unsigned int);
 // en50221_app_lowspeed_register_command_callback
 // file en50221_app_lowspeed.c line 130
 extern void en50221_app_lowspeed_register_command_callback(struct en50221_app_lowspeed *lowspeed, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned char, struct en50221_app_lowspeed_command *), void *arg);
-// en50221_app_lowspeed_register_command_callback::callback$object
+// en50221_app_lowspeed_register_command_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned char, struct en50221_app_lowspeed_command *);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned char, struct en50221_app_lowspeed_command *);
 // en50221_app_lowspeed_register_send_callback
 // file en50221_app_lowspeed.c line 140
 extern void en50221_app_lowspeed_register_send_callback(struct en50221_app_lowspeed *lowspeed, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned char, unsigned char *, unsigned int), void *arg);
-// en50221_app_lowspeed_register_send_callback::callback$object
+// en50221_app_lowspeed_register_send_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned char, unsigned char *, unsigned int);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned char, unsigned char *, unsigned int);
 // en50221_app_lowspeed_send_comms_data
 // file en50221_app_lowspeed.c line 167
 extern signed int en50221_app_lowspeed_send_comms_data(struct en50221_app_lowspeed *lowspeed, unsigned short int session_number, unsigned char phase_id, unsigned int tx_data_length, unsigned char *tx_data);
@@ -1556,129 +1556,129 @@ extern signed int en50221_app_mmi_message(struct en50221_app_mmi *mmi, unsigned 
 // en50221_app_mmi_parse_close
 // file en50221_app_mmi.c line 687
 static signed int en50221_app_mmi_parse_close(struct en50221_app_mmi *mmi, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_mmi_parse_close::1::cb$object
+// en50221_app_mmi_parse_close::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned char, unsigned char);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned char, unsigned char);
 // en50221_app_mmi_parse_display_control
 // file en50221_app_mmi.c line 723
 static signed int en50221_app_mmi_parse_display_control(struct en50221_app_mmi *mmi, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_mmi_parse_display_control::1::cb$object
+// en50221_app_mmi_parse_display_control::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned char, unsigned char);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned char, unsigned char);
 // en50221_app_mmi_parse_enq
 // file en50221_app_mmi.c line 800
 static signed int en50221_app_mmi_parse_enq(struct en50221_app_mmi *mmi, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_mmi_parse_enq::1::cb$object
+// en50221_app_mmi_parse_enq::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned char, unsigned char, unsigned char *, unsigned int);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned char, unsigned char, unsigned char *, unsigned int);
 // en50221_app_mmi_parse_flush_download
 // file en50221_app_mmi.c line 1146
 static signed int en50221_app_mmi_parse_flush_download(struct en50221_app_mmi *mmi, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_mmi_parse_flush_download::1::cb$object
+// en50221_app_mmi_parse_flush_download::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int);
+signed int cb_object(void *, unsigned char, unsigned short int);
 // en50221_app_mmi_parse_keypad_control
 // file en50221_app_mmi.c line 759
 static signed int en50221_app_mmi_parse_keypad_control(struct en50221_app_mmi *mmi, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_mmi_parse_keypad_control::1::cb$object
+// en50221_app_mmi_parse_keypad_control::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned char, unsigned char *, unsigned int);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned char, unsigned char *, unsigned int);
 // en50221_app_mmi_parse_list_menu
 // file en50221_app_mmi.c line 841
 static signed int en50221_app_mmi_parse_list_menu(struct en50221_app_mmi *mmi, unsigned char slot_id, unsigned short int session_number, unsigned int tag_id, signed int more_last, unsigned char *data, unsigned int data_length);
-// en50221_app_mmi_parse_list_menu::1::11::1::cb$object
+// en50221_app_mmi_parse_list_menu::1::11::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, unsigned int, struct en50221_app_mmi_text *, unsigned int, unsigned char *);
-// en50221_app_mmi_parse_list_menu::1::11::2::cb$object
+signed int cb_object(void *, unsigned char, unsigned short int, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, unsigned int, struct en50221_app_mmi_text *, unsigned int, unsigned char *);
+// en50221_app_mmi_parse_list_menu::1::11::2::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, unsigned int, struct en50221_app_mmi_text *, unsigned int, unsigned char *);
+signed int cb_object(void *, unsigned char, unsigned short int, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, unsigned int, struct en50221_app_mmi_text *, unsigned int, unsigned char *);
 // en50221_app_mmi_parse_scene_control
 // file en50221_app_mmi.c line 1116
 static signed int en50221_app_mmi_parse_scene_control(struct en50221_app_mmi *mmi, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_mmi_parse_scene_control::1::cb$object
+// en50221_app_mmi_parse_scene_control::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned char, unsigned char, unsigned char);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned char, unsigned char, unsigned char);
 // en50221_app_mmi_parse_scene_end_mark
 // file en50221_app_mmi.c line 1084
 static signed int en50221_app_mmi_parse_scene_end_mark(struct en50221_app_mmi *mmi, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_mmi_parse_scene_end_mark::1::cb$object
+// en50221_app_mmi_parse_scene_end_mark::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned char, unsigned char, unsigned char, unsigned char);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned char, unsigned char, unsigned char, unsigned char);
 // en50221_app_mmi_parse_subtitle
 // file en50221_app_mmi.c line 1011
 static signed int en50221_app_mmi_parse_subtitle(struct en50221_app_mmi *mmi, unsigned char slot_id, unsigned short int session_number, unsigned int tag_id, signed int more_last, unsigned char *data, unsigned int data_length);
-// en50221_app_mmi_parse_subtitle::1::4::1::cb$object
+// en50221_app_mmi_parse_subtitle::1::4::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned char *, unsigned int);
-// en50221_app_mmi_parse_subtitle::1::4::2::cb$object
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned char *, unsigned int);
+// en50221_app_mmi_parse_subtitle::1::4::2::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned char *, unsigned int);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned char *, unsigned int);
 // en50221_app_mmi_register_close_callback
 // file en50221_app_mmi.c line 238
 extern void en50221_app_mmi_register_close_callback(struct en50221_app_mmi *mmi, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned char, unsigned char), void *arg);
-// en50221_app_mmi_register_close_callback::callback$object
+// en50221_app_mmi_register_close_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned char, unsigned char);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned char, unsigned char);
 // en50221_app_mmi_register_display_control_callback
 // file en50221_app_mmi.c line 248
 extern void en50221_app_mmi_register_display_control_callback(struct en50221_app_mmi *mmi, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned char, unsigned char), void *arg);
-// en50221_app_mmi_register_display_control_callback::callback$object
+// en50221_app_mmi_register_display_control_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned char, unsigned char);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned char, unsigned char);
 // en50221_app_mmi_register_enq_callback
 // file en50221_app_mmi.c line 316
 extern void en50221_app_mmi_register_enq_callback(struct en50221_app_mmi *mmi, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned char, unsigned char, unsigned char *, unsigned int), void *arg);
-// en50221_app_mmi_register_enq_callback::callback$object
+// en50221_app_mmi_register_enq_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned char, unsigned char, unsigned char *, unsigned int);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned char, unsigned char, unsigned char *, unsigned int);
 // en50221_app_mmi_register_flush_download_callback
 // file en50221_app_mmi.c line 306
 extern void en50221_app_mmi_register_flush_download_callback(struct en50221_app_mmi *mmi, signed int (*callback)(void *, unsigned char, unsigned short int), void *arg);
-// en50221_app_mmi_register_flush_download_callback::callback$object
+// en50221_app_mmi_register_flush_download_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int);
+signed int callback_object(void *, unsigned char, unsigned short int);
 // en50221_app_mmi_register_keypad_control_callback
 // file en50221_app_mmi.c line 258
 extern void en50221_app_mmi_register_keypad_control_callback(struct en50221_app_mmi *mmi, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned char, unsigned char *, unsigned int), void *arg);
-// en50221_app_mmi_register_keypad_control_callback::callback$object
+// en50221_app_mmi_register_keypad_control_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned char, unsigned char *, unsigned int);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned char, unsigned char *, unsigned int);
 // en50221_app_mmi_register_list_callback
 // file en50221_app_mmi.c line 336
 extern void en50221_app_mmi_register_list_callback(struct en50221_app_mmi *mmi, signed int (*callback)(void *, unsigned char, unsigned short int, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, unsigned int, struct en50221_app_mmi_text *, unsigned int, unsigned char *), void *arg);
-// en50221_app_mmi_register_list_callback::callback$object
+// en50221_app_mmi_register_list_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, unsigned int, struct en50221_app_mmi_text *, unsigned int, unsigned char *);
+signed int callback_object(void *, unsigned char, unsigned short int, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, unsigned int, struct en50221_app_mmi_text *, unsigned int, unsigned char *);
 // en50221_app_mmi_register_menu_callback
 // file en50221_app_mmi.c line 326
 extern void en50221_app_mmi_register_menu_callback(struct en50221_app_mmi *mmi, signed int (*callback)(void *, unsigned char, unsigned short int, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, unsigned int, struct en50221_app_mmi_text *, unsigned int, unsigned char *), void *arg);
-// en50221_app_mmi_register_menu_callback::callback$object
+// en50221_app_mmi_register_menu_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, unsigned int, struct en50221_app_mmi_text *, unsigned int, unsigned char *);
+signed int callback_object(void *, unsigned char, unsigned short int, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, unsigned int, struct en50221_app_mmi_text *, unsigned int, unsigned char *);
 // en50221_app_mmi_register_scene_control_callback
 // file en50221_app_mmi.c line 287
 extern void en50221_app_mmi_register_scene_control_callback(struct en50221_app_mmi *mmi, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned char, unsigned char, unsigned char), void *arg);
-// en50221_app_mmi_register_scene_control_callback::callback$object
+// en50221_app_mmi_register_scene_control_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned char, unsigned char, unsigned char);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned char, unsigned char, unsigned char);
 // en50221_app_mmi_register_scene_end_mark_callback
 // file en50221_app_mmi.c line 278
 extern void en50221_app_mmi_register_scene_end_mark_callback(struct en50221_app_mmi *mmi, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned char, unsigned char, unsigned char, unsigned char), void *arg);
-// en50221_app_mmi_register_scene_end_mark_callback::callback$object
+// en50221_app_mmi_register_scene_end_mark_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned char, unsigned char, unsigned char, unsigned char);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned char, unsigned char, unsigned char, unsigned char);
 // en50221_app_mmi_register_subtitle_download_callback
 // file en50221_app_mmi.c line 296
 extern void en50221_app_mmi_register_subtitle_download_callback(struct en50221_app_mmi *mmi, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned char *, unsigned int), void *arg);
-// en50221_app_mmi_register_subtitle_download_callback::callback$object
+// en50221_app_mmi_register_subtitle_download_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned char *, unsigned int);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned char *, unsigned int);
 // en50221_app_mmi_register_subtitle_segment_callback
 // file en50221_app_mmi.c line 268
 extern void en50221_app_mmi_register_subtitle_segment_callback(struct en50221_app_mmi *mmi, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned char *, unsigned int), void *arg);
-// en50221_app_mmi_register_subtitle_segment_callback::callback$object
+// en50221_app_mmi_register_subtitle_segment_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned char *, unsigned int);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned char *, unsigned int);
 // en50221_app_mmi_scene_done
 // file en50221_app_mmi.c line 499
 extern signed int en50221_app_mmi_scene_done(struct en50221_app_mmi *mmi, unsigned short int session_number, unsigned char decoder_continue, unsigned char scene_reveal, unsigned char scene_tag);
@@ -1700,39 +1700,39 @@ extern signed int en50221_app_rm_message(struct en50221_app_rm *rm, unsigned cha
 // en50221_app_rm_parse_profile_change
 // file en50221_app_rm.c line 290
 static signed int en50221_app_rm_parse_profile_change(struct en50221_app_rm *rm, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_rm_parse_profile_change::1::cb$object
+// en50221_app_rm_parse_profile_change::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int);
+signed int cb_object(void *, unsigned char, unsigned short int);
 // en50221_app_rm_parse_profile_enq
 // file en50221_app_rm.c line 231
 static signed int en50221_app_rm_parse_profile_enq(struct en50221_app_rm *rm, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_rm_parse_profile_enq::1::cb$object
+// en50221_app_rm_parse_profile_enq::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int);
+signed int cb_object(void *, unsigned char, unsigned short int);
 // en50221_app_rm_parse_profile_reply
 // file en50221_app_rm.c line 250
 static signed int en50221_app_rm_parse_profile_reply(struct en50221_app_rm *rm, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_rm_parse_profile_reply::1::cb$object
+// en50221_app_rm_parse_profile_reply::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned int, unsigned int *);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned int, unsigned int *);
 // en50221_app_rm_register_changed_callback
 // file en50221_app_rm.c line 112
 extern void en50221_app_rm_register_changed_callback(struct en50221_app_rm *rm, signed int (*callback)(void *, unsigned char, unsigned short int), void *arg);
-// en50221_app_rm_register_changed_callback::callback$object
+// en50221_app_rm_register_changed_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int);
+signed int callback_object(void *, unsigned char, unsigned short int);
 // en50221_app_rm_register_enq_callback
 // file en50221_app_rm.c line 92
 extern void en50221_app_rm_register_enq_callback(struct en50221_app_rm *rm, signed int (*callback)(void *, unsigned char, unsigned short int), void *arg);
-// en50221_app_rm_register_enq_callback::callback$object
+// en50221_app_rm_register_enq_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int);
+signed int callback_object(void *, unsigned char, unsigned short int);
 // en50221_app_rm_register_reply_callback
 // file en50221_app_rm.c line 102
 extern void en50221_app_rm_register_reply_callback(struct en50221_app_rm *rm, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned int, unsigned int *), void *arg);
-// en50221_app_rm_register_reply_callback::callback$object
+// en50221_app_rm_register_reply_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned int, unsigned int *);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned int, unsigned int *);
 // en50221_app_rm_reply
 // file en50221_app_rm.c line 136
 extern signed int en50221_app_rm_reply(struct en50221_app_rm *rm, unsigned short int session_number, unsigned int resource_id_count, unsigned int *resource_ids);
@@ -1751,30 +1751,30 @@ extern signed int en50221_app_smartcard_message(struct en50221_app_smartcard *sm
 // en50221_app_smartcard_parse_command
 // file en50221_app_smartcard.c line 219
 static signed int en50221_app_smartcard_parse_command(struct en50221_app_smartcard *smartcard, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_smartcard_parse_command::1::cb$object
+// en50221_app_smartcard_parse_command::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned char);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned char);
 // en50221_app_smartcard_parse_send
 // file en50221_app_smartcard.c line 246
 static signed int en50221_app_smartcard_parse_send(struct en50221_app_smartcard *smartcard, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_smartcard_parse_send::1::cb$object
+// en50221_app_smartcard_parse_send::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char *, unsigned int, unsigned int);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char *, unsigned int, unsigned int);
 // en50221_app_smartcard_receive
 // file en50221_app_smartcard.c line 143
 extern signed int en50221_app_smartcard_receive(struct en50221_app_smartcard *smartcard, unsigned short int session_number, unsigned char *data, unsigned int data_length, unsigned char SW1, unsigned char SW2);
 // en50221_app_smartcard_register_command_callback
 // file en50221_app_smartcard.c line 81
 extern void en50221_app_smartcard_register_command_callback(struct en50221_app_smartcard *smartcard, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned char), void *arg);
-// en50221_app_smartcard_register_command_callback::callback$object
+// en50221_app_smartcard_register_command_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned char);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned char);
 // en50221_app_smartcard_register_send_callback
 // file en50221_app_smartcard.c line 90
 extern void en50221_app_smartcard_register_send_callback(struct en50221_app_smartcard *smartcard, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char *, unsigned int, unsigned int), void *arg);
-// en50221_app_smartcard_register_send_callback::callback$object
+// en50221_app_smartcard_register_send_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char *, unsigned int, unsigned int);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char *, unsigned int, unsigned int);
 // en50221_app_teletext_create
 // file en50221_app_teletext.c line 49
 extern struct en50221_app_teletext * en50221_app_teletext_create(struct en50221_app_send_functions *funcs);
@@ -1787,15 +1787,15 @@ extern signed int en50221_app_teletext_message(struct en50221_app_teletext *tele
 // en50221_app_teletext_parse_ebu
 // file en50221_app_teletext.c line 110
 static signed int en50221_app_teletext_parse_ebu(struct en50221_app_teletext *teletext, unsigned char slot_id, unsigned short int session_number, unsigned char *data, unsigned int data_length);
-// en50221_app_teletext_parse_ebu::1::cb$object
+// en50221_app_teletext_parse_ebu::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned char *, unsigned int);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned char *, unsigned int);
 // en50221_app_teletext_register_callback
 // file en50221_app_teletext.c line 73
 extern void en50221_app_teletext_register_callback(struct en50221_app_teletext *teletext, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned char *, unsigned int), void *arg);
-// en50221_app_teletext_register_callback::callback$object
+// en50221_app_teletext_register_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned char *, unsigned int);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned char *, unsigned int);
 // en50221_ca_calculate_length
 // file en50221_app_ca.c line 499
 static unsigned int en50221_ca_calculate_length(struct ca_pmt_descriptor *pmt_descriptors, unsigned int *pmt_descriptors_length, struct ca_pmt_stream *pmt_streams);
@@ -1814,9 +1814,9 @@ static void en50221_ca_try_move_pmt_descriptors(struct ca_pmt_descriptor **pmt_d
 // en50221_sl_alloc_new_session
 // file en50221_session.c line 1026
 static signed int en50221_sl_alloc_new_session(struct en50221_session_layer *sl, unsigned int resource_id, unsigned char slot_id, unsigned char connection_id, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int), void *arg);
-// en50221_sl_alloc_new_session::callback$object
+// en50221_sl_alloc_new_session::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int);
 // en50221_sl_broadcast_data
 // file en50221_session.c line 366
 extern signed int en50221_sl_broadcast_data(struct en50221_session_layer *sl, signed int slot_id, unsigned int resource_id, unsigned char *data, unsigned short int data_length);
@@ -1826,9 +1826,9 @@ extern struct en50221_session_layer * en50221_sl_create(struct en50221_transport
 // en50221_sl_create_session
 // file en50221_session.c line 195
 extern signed int en50221_sl_create_session(struct en50221_session_layer *sl, signed int slot_id, unsigned char connection_id, unsigned int resource_id, signed int (*callback)(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int), void *arg);
-// en50221_sl_create_session::callback$object
+// en50221_sl_create_session::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int);
+signed int callback_object(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int);
 // en50221_sl_destroy
 // file ../../lib/libdvben50221/en50221_session.h line 124
 extern void en50221_sl_destroy(struct en50221_session_layer *sl);
@@ -1841,54 +1841,54 @@ extern signed int en50221_sl_get_error(struct en50221_session_layer *sl);
 // en50221_sl_handle_close_session_request
 // file en50221_session.c line 541
 static void en50221_sl_handle_close_session_request(struct en50221_session_layer *sl, unsigned char *data, unsigned int data_length, unsigned char slot_id, unsigned char connection_id);
-// en50221_sl_handle_close_session_request::1::6::cb$object
+// en50221_sl_handle_close_session_request::1::6::cb_object
 //
-signed int cb$object(void *, signed int, unsigned char, unsigned short int, unsigned int);
+signed int cb_object(void *, signed int, unsigned char, unsigned short int, unsigned int);
 // en50221_sl_handle_close_session_response
 // file en50221_session.c line 711
 static void en50221_sl_handle_close_session_response(struct en50221_session_layer *sl, unsigned char *data, unsigned int data_length, unsigned char slot_id, unsigned char connection_id);
 // en50221_sl_handle_create_session_response
 // file en50221_session.c line 627
 static void en50221_sl_handle_create_session_response(struct en50221_session_layer *sl, unsigned char *data, unsigned int data_length, unsigned char slot_id, unsigned char connection_id);
-// en50221_sl_handle_create_session_response::1::7::cb$object
+// en50221_sl_handle_create_session_response::1::7::cb_object
 //
-signed int cb$object(void *, signed int, unsigned char, unsigned short int, unsigned int);
-// en50221_sl_handle_create_session_response::1::cb$object
+signed int cb_object(void *, signed int, unsigned char, unsigned short int, unsigned int);
+// en50221_sl_handle_create_session_response::1::cb_object
 //
-signed int cb$object(void *, signed int, unsigned char, unsigned short int, unsigned int);
+signed int cb_object(void *, signed int, unsigned char, unsigned short int, unsigned int);
 // en50221_sl_handle_open_session_request
 // file en50221_session.c line 398
 static void en50221_sl_handle_open_session_request(struct en50221_session_layer *sl, unsigned char *data, unsigned int data_length, unsigned char slot_id, unsigned char connection_id);
-// en50221_sl_handle_open_session_request::1::4::2::cb$object
+// en50221_sl_handle_open_session_request::1::4::2::cb_object
 //
-signed int cb$object(void *, signed int, unsigned char, unsigned short int, unsigned int);
-// en50221_sl_handle_open_session_request::1::6::3::cb$object
+signed int cb_object(void *, signed int, unsigned char, unsigned short int, unsigned int);
+// en50221_sl_handle_open_session_request::1::6::3::cb_object
 //
-signed int cb$object(void *, signed int, unsigned char, unsigned short int, unsigned int);
-// en50221_sl_handle_open_session_request::1::lcb$object
+signed int cb_object(void *, signed int, unsigned char, unsigned short int, unsigned int);
+// en50221_sl_handle_open_session_request::1::lcb_object
 //
-signed int lcb$object(void *, unsigned char, unsigned int, signed int (**)(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int), void **, unsigned int *);
-// en50221_sl_handle_open_session_request::1::resource_callback$object
+signed int lcb_object(void *, unsigned char, unsigned int, signed int (**)(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int), void **, unsigned int *);
+// en50221_sl_handle_open_session_request::1::resource_callback_object
 //
-signed int resource_callback$object(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int);
+signed int resource_callback_object(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int);
 // en50221_sl_handle_session_package
 // file en50221_session.c line 771
 static void en50221_sl_handle_session_package(struct en50221_session_layer *sl, unsigned char *data, unsigned int data_length, unsigned char slot_id, unsigned char connection_id);
-// en50221_sl_handle_session_package::1::cb$object
+// en50221_sl_handle_session_package::1::cb_object
 //
-signed int cb$object(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int);
+signed int cb_object(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int);
 // en50221_sl_register_lookup_callback
 // file en50221_session.c line 175
 extern void en50221_sl_register_lookup_callback(struct en50221_session_layer *sl, signed int (*callback)(void *, unsigned char, unsigned int, signed int (**)(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int), void **, unsigned int *), void *arg);
-// en50221_sl_register_lookup_callback::callback$object
+// en50221_sl_register_lookup_callback::callback_object
 //
-signed int callback$object(void *, unsigned char, unsigned int, signed int (**)(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int), void **, unsigned int *);
+signed int callback_object(void *, unsigned char, unsigned int, signed int (**)(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int), void **, unsigned int *);
 // en50221_sl_register_session_callback
 // file en50221_session.c line 185
 extern void en50221_sl_register_session_callback(struct en50221_session_layer *sl, signed int (*callback)(void *, signed int, unsigned char, unsigned short int, unsigned int), void *arg);
-// en50221_sl_register_session_callback::callback$object
+// en50221_sl_register_session_callback::callback_object
 //
-signed int callback$object(void *, signed int, unsigned char, unsigned short int, unsigned int);
+signed int callback_object(void *, signed int, unsigned char, unsigned short int, unsigned int);
 // en50221_sl_send_data
 // file en50221_session.c line 280
 extern signed int en50221_sl_send_data(struct en50221_session_layer *sl, unsigned short int session_number, unsigned char *data, unsigned short int data_length);
@@ -1898,18 +1898,18 @@ extern signed int en50221_sl_send_datav(struct en50221_session_layer *sl, unsign
 // en50221_sl_transport_callback
 // file en50221_session.c line 869
 static void en50221_sl_transport_callback(void *arg, signed int reason, unsigned char *data, unsigned int data_length, unsigned char slot_id, unsigned char connection_id);
-// en50221_sl_transport_callback::1::1::1::cb$object
+// en50221_sl_transport_callback::1::1::1::cb_object
 //
-signed int cb$object(void *, signed int, unsigned char, unsigned short int, unsigned int);
-// en50221_sl_transport_callback::1::1::2::cb$object
+signed int cb_object(void *, signed int, unsigned char, unsigned short int, unsigned int);
+// en50221_sl_transport_callback::1::1::2::cb_object
 //
-signed int cb$object(void *, signed int, unsigned char, unsigned short int, unsigned int);
-// en50221_sl_transport_callback::1::1::3::cb$object
+signed int cb_object(void *, signed int, unsigned char, unsigned short int, unsigned int);
+// en50221_sl_transport_callback::1::1::3::cb_object
 //
-signed int cb$object(void *, signed int, unsigned char, unsigned short int, unsigned int);
-// en50221_sl_transport_callback::1::1::4::cb$object
+signed int cb_object(void *, signed int, unsigned char, unsigned short int, unsigned int);
+// en50221_sl_transport_callback::1::1::4::cb_object
 //
-signed int cb$object(void *, signed int, unsigned char, unsigned short int, unsigned int);
+signed int cb_object(void *, signed int, unsigned char, unsigned short int, unsigned int);
 // en50221_stdcam_create
 // file ../../lib/libdvben50221/en50221_stdcam.h line 94
 extern struct en50221_stdcam * en50221_stdcam_create(signed int adapter, signed int slotnum, struct en50221_transport_layer *tl, struct en50221_session_layer *sl);
@@ -1949,9 +1949,9 @@ extern void en50221_tl_destroy(struct en50221_transport_layer *tl);
 // en50221_tl_destroy_slot
 // file ../../lib/libdvben50221/en50221_transport.h line 120
 extern void en50221_tl_destroy_slot(struct en50221_transport_layer *tl, unsigned char slot_id);
-// en50221_tl_destroy_slot::1::cb$object
+// en50221_tl_destroy_slot::1::cb_object
 //
-void cb$object(void *, signed int, unsigned char *, unsigned int, unsigned char, unsigned char);
+void cb_object(void *, signed int, unsigned char *, unsigned int, unsigned char, unsigned char);
 // en50221_tl_get_connection_state
 // file en50221_transport.c line 780
 extern signed int en50221_tl_get_connection_state(struct en50221_transport_layer *tl, unsigned char slot_id, unsigned char connection_id);
@@ -1964,36 +1964,36 @@ extern signed int en50221_tl_get_error_slot(struct en50221_transport_layer *tl);
 // en50221_tl_handle_create_tc_reply
 // file en50221_transport.c line 947
 static signed int en50221_tl_handle_create_tc_reply(struct en50221_transport_layer *tl, unsigned char slot_id, unsigned char connection_id);
-// en50221_tl_handle_create_tc_reply::1::1::cb$object
+// en50221_tl_handle_create_tc_reply::1::1::cb_object
 //
-void cb$object(void *, signed int, unsigned char *, unsigned int, unsigned char, unsigned char);
+void cb_object(void *, signed int, unsigned char *, unsigned int, unsigned char, unsigned char);
 // en50221_tl_handle_data_last
 // file en50221_transport.c line 1144
 static signed int en50221_tl_handle_data_last(struct en50221_transport_layer *tl, unsigned char slot_id, unsigned char connection_id, unsigned char *data, unsigned int data_length);
-// en50221_tl_handle_data_last::1::2::cb$object
+// en50221_tl_handle_data_last::1::2::cb_object
 //
-void cb$object(void *, signed int, unsigned char *, unsigned int, unsigned char, unsigned char);
-// en50221_tl_handle_data_last::1::3::cb$object
+void cb_object(void *, signed int, unsigned char *, unsigned int, unsigned char, unsigned char);
+// en50221_tl_handle_data_last::1::3::cb_object
 //
-void cb$object(void *, signed int, unsigned char *, unsigned int, unsigned char, unsigned char);
+void cb_object(void *, signed int, unsigned char *, unsigned int, unsigned char, unsigned char);
 // en50221_tl_handle_data_more
 // file en50221_transport.c line 1106
 static signed int en50221_tl_handle_data_more(struct en50221_transport_layer *tl, unsigned char slot_id, unsigned char connection_id, unsigned char *data, unsigned int data_length);
 // en50221_tl_handle_delete_tc
 // file en50221_transport.c line 976
 static signed int en50221_tl_handle_delete_tc(struct en50221_transport_layer *tl, unsigned char slot_id, unsigned char connection_id);
-// en50221_tl_handle_delete_tc::1::1::cb$object
+// en50221_tl_handle_delete_tc::1::1::cb_object
 //
-void cb$object(void *, signed int, unsigned char *, unsigned int, unsigned char, unsigned char);
+void cb_object(void *, signed int, unsigned char *, unsigned int, unsigned char, unsigned char);
 // en50221_tl_handle_delete_tc_reply
 // file en50221_transport.c line 1022
 static signed int en50221_tl_handle_delete_tc_reply(struct en50221_transport_layer *tl, unsigned char slot_id, unsigned char connection_id);
 // en50221_tl_handle_request_tc
 // file en50221_transport.c line 1042
 static signed int en50221_tl_handle_request_tc(struct en50221_transport_layer *tl, unsigned char slot_id, unsigned char connection_id);
-// en50221_tl_handle_request_tc::1::2::cb$object
+// en50221_tl_handle_request_tc::1::2::cb_object
 //
-void cb$object(void *, signed int, unsigned char *, unsigned int, unsigned char, unsigned char);
+void cb_object(void *, signed int, unsigned char *, unsigned int, unsigned char, unsigned char);
 // en50221_tl_handle_sb
 // file en50221_transport.c line 1213
 static signed int en50221_tl_handle_sb(struct en50221_transport_layer *tl, unsigned char slot_id, unsigned char connection_id, unsigned char *data, unsigned int data_length);
@@ -2012,9 +2012,9 @@ static signed int en50221_tl_process_data(struct en50221_transport_layer *tl, un
 // en50221_tl_register_callback
 // file en50221_transport.h line 141
 extern void en50221_tl_register_callback(struct en50221_transport_layer *tl, void (*callback)(void *, signed int, unsigned char *, unsigned int, unsigned char, unsigned char), void *arg);
-// en50221_tl_register_callback::callback$object
+// en50221_tl_register_callback::callback_object
 //
-void callback$object(void *, signed int, unsigned char *, unsigned int, unsigned char, unsigned char);
+void callback_object(void *, signed int, unsigned char *, unsigned int, unsigned char, unsigned char);
 // en50221_tl_register_slot
 // file ../../lib/libdvben50221/en50221_transport.h line 108
 extern signed int en50221_tl_register_slot(struct en50221_transport_layer *tl, signed int ca_hndl, unsigned char slot, unsigned int response_timeout, unsigned int poll_delay);
@@ -2099,9 +2099,9 @@ static signed int llci_datetime_enquiry_callback(void *arg, unsigned char _slot_
 // llci_lookup_callback
 // file en50221_stdcam_llci.c line 307
 static signed int llci_lookup_callback(void *arg, unsigned char _slot_id, unsigned int requested_resource_id, signed int (**callback_out)(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int), void **arg_out, unsigned int *connected_resource_id);
-// llci_lookup_callback::callback_out$object$object
+// llci_lookup_callback::callback_out_object_object
 //
-signed int callback_out$object$object(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int);
+signed int callback_out_object_object(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int);
 // llci_rm_changed_callback
 // file en50221_stdcam_llci.c line 420
 static signed int llci_rm_changed_callback(void *arg, unsigned char _slot_id, unsigned short int session_number);
@@ -2224,7 +2224,7 @@ extern signed int pthread_join(unsigned long int, void **);
 extern signed int pthread_mutex_destroy(union anonymous *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 749
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$2 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_2 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 762
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -2270,84 +2270,84 @@ static inline struct section_ext * section_ext_decode(struct section *section, s
 // section_ext_length
 // file ../../lib/libucsi/section.h line 96
 static inline unsigned long int section_ext_length(struct section_ext *section);
-// section_ext_length$link1
+// section_ext_length_link1
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link1(struct section_ext *section$link1);
-// section_ext_length$link10
+static inline unsigned long int section_ext_length_link1(struct section_ext *section_link1);
+// section_ext_length_link10
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link10(struct section_ext *section$link10);
-// section_ext_length$link11
+static inline unsigned long int section_ext_length_link10(struct section_ext *section_link10);
+// section_ext_length_link11
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link11(struct section_ext *section$link11);
-// section_ext_length$link12
+static inline unsigned long int section_ext_length_link11(struct section_ext *section_link11);
+// section_ext_length_link12
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link12(struct section_ext *section$link12);
-// section_ext_length$link13
+static inline unsigned long int section_ext_length_link12(struct section_ext *section_link12);
+// section_ext_length_link13
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link13(struct section_ext *section$link13);
-// section_ext_length$link14
+static inline unsigned long int section_ext_length_link13(struct section_ext *section_link13);
+// section_ext_length_link14
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link14(struct section_ext *section$link14);
-// section_ext_length$link15
+static inline unsigned long int section_ext_length_link14(struct section_ext *section_link14);
+// section_ext_length_link15
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link15(struct section_ext *section$link15);
-// section_ext_length$link16
+static inline unsigned long int section_ext_length_link15(struct section_ext *section_link15);
+// section_ext_length_link16
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link16(struct section_ext *section$link16);
-// section_ext_length$link17
+static inline unsigned long int section_ext_length_link16(struct section_ext *section_link16);
+// section_ext_length_link17
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link17(struct section_ext *section$link17);
-// section_ext_length$link18
+static inline unsigned long int section_ext_length_link17(struct section_ext *section_link17);
+// section_ext_length_link18
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link18(struct section_ext *section$link18);
-// section_ext_length$link19
+static inline unsigned long int section_ext_length_link18(struct section_ext *section_link18);
+// section_ext_length_link19
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link19(struct section_ext *section$link19);
-// section_ext_length$link2
+static inline unsigned long int section_ext_length_link19(struct section_ext *section_link19);
+// section_ext_length_link2
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link2(struct section_ext *section$link2);
-// section_ext_length$link20
+static inline unsigned long int section_ext_length_link2(struct section_ext *section_link2);
+// section_ext_length_link20
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link20(struct section_ext *section$link20);
-// section_ext_length$link21
+static inline unsigned long int section_ext_length_link20(struct section_ext *section_link20);
+// section_ext_length_link21
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link21(struct section_ext *section$link21);
-// section_ext_length$link22
+static inline unsigned long int section_ext_length_link21(struct section_ext *section_link21);
+// section_ext_length_link22
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link22(struct section_ext *section$link22);
-// section_ext_length$link3
+static inline unsigned long int section_ext_length_link22(struct section_ext *section_link22);
+// section_ext_length_link3
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link3(struct section_ext *section$link3);
-// section_ext_length$link4
+static inline unsigned long int section_ext_length_link3(struct section_ext *section_link3);
+// section_ext_length_link4
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link4(struct section_ext *section$link4);
-// section_ext_length$link5
+static inline unsigned long int section_ext_length_link4(struct section_ext *section_link4);
+// section_ext_length_link5
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link5(struct section_ext *section$link5);
-// section_ext_length$link6
+static inline unsigned long int section_ext_length_link5(struct section_ext *section_link5);
+// section_ext_length_link6
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link6(struct section_ext *section$link6);
-// section_ext_length$link7
+static inline unsigned long int section_ext_length_link6(struct section_ext *section_link6);
+// section_ext_length_link7
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link7(struct section_ext *section$link7);
-// section_ext_length$link8
+static inline unsigned long int section_ext_length_link7(struct section_ext *section_link7);
+// section_ext_length_link8
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link8(struct section_ext *section$link8);
-// section_ext_length$link9
+static inline unsigned long int section_ext_length_link8(struct section_ext *section_link8);
+// section_ext_length_link9
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link9(struct section_ext *section$link9);
+static inline unsigned long int section_ext_length_link9(struct section_ext *section_link9);
 // section_length
 // file ../../lib/libucsi/section.h line 84
 static inline unsigned long int section_length(struct section *section);
-// section_length$link1
+// section_length_link1
 // file ../../lib/libucsi/section.h line 84
-static inline unsigned long int section_length$link1(struct section *section$link1);
-// section_length$link2
+static inline unsigned long int section_length_link1(struct section *section_link1);
+// section_length_link2
 // file ../../lib/libucsi/section.h line 84
-static inline unsigned long int section_length$link2(struct section *section$link2);
-// section_length$link3
+static inline unsigned long int section_length_link2(struct section *section_link2);
+// section_length_link3
 // file ../../lib/libucsi/section.h line 84
-static inline unsigned long int section_length$link3(struct section *section$link3);
+static inline unsigned long int section_length_link3(struct section *section_link3);
 // signal
 // file /usr/include/signal.h line 102
 extern void (*signal(signed int, void (*)(signed int)))(signed int);
@@ -2426,108 +2426,108 @@ extern signed int usleep(unsigned int);
 // verify_descriptors
 // file ../../lib/libucsi/descriptor.h line 108
 static inline signed int verify_descriptors(unsigned char *buf, unsigned long int len);
-// verify_descriptors$link1
+// verify_descriptors_link1
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link1(unsigned char *buf$link1, unsigned long int len$link1);
-// verify_descriptors$link10
+static inline signed int verify_descriptors_link1(unsigned char *buf_link1, unsigned long int len_link1);
+// verify_descriptors_link10
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link10(unsigned char *buf$link10, unsigned long int len$link10);
-// verify_descriptors$link11
+static inline signed int verify_descriptors_link10(unsigned char *buf_link10, unsigned long int len_link10);
+// verify_descriptors_link11
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link11(unsigned char *buf$link11, unsigned long int len$link11);
-// verify_descriptors$link12
+static inline signed int verify_descriptors_link11(unsigned char *buf_link11, unsigned long int len_link11);
+// verify_descriptors_link12
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link12(unsigned char *buf$link12, unsigned long int len$link12);
-// verify_descriptors$link13
+static inline signed int verify_descriptors_link12(unsigned char *buf_link12, unsigned long int len_link12);
+// verify_descriptors_link13
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link13(unsigned char *buf$link13, unsigned long int len$link13);
-// verify_descriptors$link14
+static inline signed int verify_descriptors_link13(unsigned char *buf_link13, unsigned long int len_link13);
+// verify_descriptors_link14
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link14(unsigned char *buf$link14, unsigned long int len$link14);
-// verify_descriptors$link15
+static inline signed int verify_descriptors_link14(unsigned char *buf_link14, unsigned long int len_link14);
+// verify_descriptors_link15
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link15(unsigned char *buf$link15, unsigned long int len$link15);
-// verify_descriptors$link16
+static inline signed int verify_descriptors_link15(unsigned char *buf_link15, unsigned long int len_link15);
+// verify_descriptors_link16
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link16(unsigned char *buf$link16, unsigned long int len$link16);
-// verify_descriptors$link17
+static inline signed int verify_descriptors_link16(unsigned char *buf_link16, unsigned long int len_link16);
+// verify_descriptors_link17
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link17(unsigned char *buf$link17, unsigned long int len$link17);
-// verify_descriptors$link18
+static inline signed int verify_descriptors_link17(unsigned char *buf_link17, unsigned long int len_link17);
+// verify_descriptors_link18
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link18(unsigned char *buf$link18, unsigned long int len$link18);
-// verify_descriptors$link2
+static inline signed int verify_descriptors_link18(unsigned char *buf_link18, unsigned long int len_link18);
+// verify_descriptors_link2
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link2(unsigned char *buf$link2, unsigned long int len$link2);
-// verify_descriptors$link3
+static inline signed int verify_descriptors_link2(unsigned char *buf_link2, unsigned long int len_link2);
+// verify_descriptors_link3
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link3(unsigned char *buf$link3, unsigned long int len$link3);
-// verify_descriptors$link4
+static inline signed int verify_descriptors_link3(unsigned char *buf_link3, unsigned long int len_link3);
+// verify_descriptors_link4
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link4(unsigned char *buf$link4, unsigned long int len$link4);
-// verify_descriptors$link5
+static inline signed int verify_descriptors_link4(unsigned char *buf_link4, unsigned long int len_link4);
+// verify_descriptors_link5
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link5(unsigned char *buf$link5, unsigned long int len$link5);
-// verify_descriptors$link6
+static inline signed int verify_descriptors_link5(unsigned char *buf_link5, unsigned long int len_link5);
+// verify_descriptors_link6
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link6(unsigned char *buf$link6, unsigned long int len$link6);
-// verify_descriptors$link7
+static inline signed int verify_descriptors_link6(unsigned char *buf_link6, unsigned long int len_link6);
+// verify_descriptors_link7
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link7(unsigned char *buf$link7, unsigned long int len$link7);
-// verify_descriptors$link8
+static inline signed int verify_descriptors_link7(unsigned char *buf_link7, unsigned long int len_link7);
+// verify_descriptors_link8
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link8(unsigned char *buf$link8, unsigned long int len$link8);
-// verify_descriptors$link9
+static inline signed int verify_descriptors_link8(unsigned char *buf_link8, unsigned long int len_link8);
+// verify_descriptors_link9
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link9(unsigned char *buf$link9, unsigned long int len$link9);
+static inline signed int verify_descriptors_link9(unsigned char *buf_link9, unsigned long int len_link9);
 // vfprintf
 // file /usr/include/stdio.h line 371
 extern signed int vfprintf(struct _IO_FILE *, const char *, void **);
 // vprint
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
 static inline void vprint(char *fmt, ...);
-// vprint$link1
+// vprint_link1
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link1(char *fmt$link1, ...);
-// vprint$link10
+static inline void vprint_link1(char *fmt_link1, ...);
+// vprint_link10
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link10(char *fmt$link10, ...);
-// vprint$link11
+static inline void vprint_link10(char *fmt_link10, ...);
+// vprint_link11
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link11(char *fmt$link11, ...);
-// vprint$link12
+static inline void vprint_link11(char *fmt_link11, ...);
+// vprint_link12
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link12(char *fmt$link12, ...);
-// vprint$link13
+static inline void vprint_link12(char *fmt_link12, ...);
+// vprint_link13
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link13(char *fmt$link13, ...);
-// vprint$link14
+static inline void vprint_link13(char *fmt_link13, ...);
+// vprint_link14
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link14(char *fmt$link14, ...);
-// vprint$link2
+static inline void vprint_link14(char *fmt_link14, ...);
+// vprint_link2
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link2(char *fmt$link2, ...);
-// vprint$link3
+static inline void vprint_link2(char *fmt_link2, ...);
+// vprint_link3
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link3(char *fmt$link3, ...);
-// vprint$link4
+static inline void vprint_link3(char *fmt_link3, ...);
+// vprint_link4
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link4(char *fmt$link4, ...);
-// vprint$link5
+static inline void vprint_link4(char *fmt_link4, ...);
+// vprint_link5
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link5(char *fmt$link5, ...);
-// vprint$link6
+static inline void vprint_link5(char *fmt_link5, ...);
+// vprint_link6
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link6(char *fmt$link6, ...);
-// vprint$link7
+static inline void vprint_link6(char *fmt_link6, ...);
+// vprint_link7
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link7(char *fmt$link7, ...);
-// vprint$link8
+static inline void vprint_link7(char *fmt_link7, ...);
+// vprint_link8
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link8(char *fmt$link8, ...);
-// vprint$link9
+static inline void vprint_link8(char *fmt_link8, ...);
+// vprint_link9
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link9(char *fmt$link9, ...);
+static inline void vprint_link9(char *fmt_link9, ...);
 // write
 // file /usr/include/unistd.h line 369
 extern signed long int write(signed int, const void *, unsigned long int);
@@ -2556,13 +2556,13 @@ extern signed int zap_dvb_start(struct zap_dvb_params *params);
 // file zap_dvb.h line 39
 extern void zap_dvb_stop(void);
 
-struct anonymous$6
+struct anonymous_6
 {
   // modulation
   enum dvbfe_atsc_mod modulation;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // bandwidth
   enum dvbfe_dvbt_bandwidth bandwidth;
@@ -2580,7 +2580,7 @@ struct anonymous$5
   enum dvbfe_dvbt_hierarchy hierarchy_information;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // width
   unsigned short int width;
@@ -2604,7 +2604,7 @@ struct anonymous$14
   struct en50221_app_mmi_pixel_depth *pixel_depths;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // symbol_rate
   unsigned int symbol_rate;
@@ -2612,7 +2612,7 @@ struct anonymous$3
   enum dvbfe_code_rate fec_inner;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // symbol_rate
   unsigned int symbol_rate;
@@ -2622,7 +2622,7 @@ struct anonymous$4
   enum dvbfe_dvbc_mod modulation;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // table_length
   unsigned int table_length;
@@ -2630,7 +2630,7 @@ struct anonymous$15
   unsigned char *table;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // buffer_size
   unsigned char buffer_size;
@@ -2638,7 +2638,7 @@ struct anonymous$10
   unsigned char timeout;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // telephone
   struct dvb_telephone_descriptor *telephone;
@@ -2646,7 +2646,7 @@ union anonymous$12
   unsigned char cable_channel_id;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // descriptor_type
   unsigned char descriptor_type;
@@ -2655,22 +2655,22 @@ struct anonymous$9
   // timeout
   unsigned char timeout;
   // descriptor
-  union anonymous$12 descriptor;
+  union anonymous_12 descriptor;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // mmi_mode
   unsigned char mmi_mode;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // phase_id
   unsigned char phase_id;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __size
   char __size[4l];
@@ -2678,36 +2678,36 @@ union anonymous$2
   signed int __align;
 };
 
-union anonymous$13
+union anonymous_13
 {
   // gfx
-  struct anonymous$14 gfx;
+  struct anonymous_14 gfx;
   // char_table
-  struct anonymous$15 char_table;
+  struct anonymous_15 char_table;
   // mode_ack
-  struct anonymous$16 mode_ack;
+  struct anonymous_16 mode_ack;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // dvbs
-  struct anonymous$3 dvbs;
+  struct anonymous_3 dvbs;
   // dvbc
-  struct anonymous$4 dvbc;
+  struct anonymous_4 dvbc;
   // dvbt
-  struct anonymous$5 dvbt;
+  struct anonymous_5 dvbt;
   // atsc
-  struct anonymous$6 atsc;
+  struct anonymous_6 atsc;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // connect_on_channel
-  struct anonymous$9 connect_on_channel;
+  struct anonymous_9 connect_on_channel;
   // set_params
-  struct anonymous$10 set_params;
+  struct anonymous_10 set_params;
   // get_next_buffer
-  struct anonymous$11 get_next_buffer;
+  struct anonymous_11 get_next_buffer;
 };
 
 struct __pthread_internal_list
@@ -2790,7 +2790,7 @@ struct dvb_vsb_parameters
   enum fe_modulation modulation;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // qpsk
   struct dvb_qpsk_parameters qpsk;
@@ -2820,7 +2820,7 @@ struct mpeg_odsmt_stream_multi
   unsigned char es_info_length;
 } __attribute__ ((__packed__));
 
-union anonymous$0
+union anonymous_0
 {
   // single
   struct mpeg_odsmt_stream_single single;
@@ -3499,7 +3499,7 @@ struct dvb_frontend_parameters
   // inversion
   enum fe_spectral_inversion inversion;
   // u
-  union anonymous$1 u;
+  union anonymous_1 u;
 };
 
 struct dvb_frontend_event
@@ -3743,7 +3743,7 @@ struct dvbfe_parameters
   // inversion
   enum dvbfe_spectral_inversion inversion;
   // u
-  union anonymous$7 u;
+  union anonymous_7 u;
 };
 
 struct dvbcfg_scanfile
@@ -3969,7 +3969,7 @@ struct en50221_app_lowspeed
 struct en50221_app_lowspeed_command
 {
   // u
-  union anonymous$8 u;
+  union anonymous_8 u;
 };
 
 struct en50221_app_lowspeed_session
@@ -4041,7 +4041,7 @@ struct en50221_app_mmi
 struct en50221_app_mmi_display_reply_details
 {
   // u
-  union anonymous$13 u;
+  union anonymous_13 u;
 };
 
 struct en50221_app_mmi_pixel_depth
@@ -4431,7 +4431,7 @@ struct mpeg_odsmt_section
 struct mpeg_odsmt_stream
 {
   // u
-  union anonymous$0 u;
+  union anonymous_0 u;
 } __attribute__ ((__packed__));
 
 struct mpeg_pat_program
@@ -4738,9 +4738,9 @@ static struct dvbcfg_setting dvbcfg_atsc_modulation_list[5l] = { { .name="8VSB",
     { .name="QAM_64", .value=(unsigned int)0 },
     { .name="QAM_256", .value=(unsigned int)1 },
     { .name=(const char *)(void *)0, .value=(unsigned int)0 } };
-// dvbcfg_atsc_modulation_list$link1
+// dvbcfg_atsc_modulation_list_link1
 // file dvbcfg_scanfile.c line 99
-static struct dvbcfg_setting dvbcfg_atsc_modulation_list$link1[5l] = { { .name="8VSB", .value=(unsigned int)2 },
+static struct dvbcfg_setting dvbcfg_atsc_modulation_list_link1[5l] = { { .name="8VSB", .value=(unsigned int)2 },
     { .name="16VSB", .value=(unsigned int)3 },
     { .name="QAM64", .value=(unsigned int)0 },
     { .name="QAM256", .value=(unsigned int)1 },
@@ -4752,9 +4752,9 @@ static struct dvbcfg_setting dvbcfg_bandwidth_list[5l] = { { .name="BANDWIDTH_6_
     { .name="BANDWIDTH_8_MHZ", .value=(unsigned int)0 },
     { .name="BANDWIDTH_AUTO", .value=(unsigned int)3 },
     { .name=(const char *)(void *)0, .value=(unsigned int)0 } };
-// dvbcfg_bandwidth_list$link1
+// dvbcfg_bandwidth_list_link1
 // file dvbcfg_scanfile.c line 55
-static struct dvbcfg_setting dvbcfg_bandwidth_list$link1[5l] = { { .name="6MHz", .value=(unsigned int)2 },
+static struct dvbcfg_setting dvbcfg_bandwidth_list_link1[5l] = { { .name="6MHz", .value=(unsigned int)2 },
     { .name="7MHz", .value=(unsigned int)1 },
     { .name="8MHz", .value=(unsigned int)0 },
     { .name="AUTO", .value=(unsigned int)3 },
@@ -4769,9 +4769,9 @@ static struct dvbcfg_setting dvbcfg_constellation_list[8l] = { { .name="QAM_16",
     { .name="QPSK", .value=(unsigned int)0 },
     { .name="QAM_AUTO", .value=(unsigned int)6 },
     { .name=(const char *)(void *)0, .value=(unsigned int)0 } };
-// dvbcfg_constellation_list$link1
+// dvbcfg_constellation_list_link1
 // file dvbcfg_scanfile.c line 63
-static struct dvbcfg_setting dvbcfg_constellation_list$link1[8l] = { { .name="QAM16", .value=(unsigned int)1 },
+static struct dvbcfg_setting dvbcfg_constellation_list_link1[8l] = { { .name="QAM16", .value=(unsigned int)1 },
     { .name="QAM32", .value=(unsigned int)2 },
     { .name="QAM64", .value=(unsigned int)3 },
     { .name="QAM128", .value=(unsigned int)4 },
@@ -4788,9 +4788,9 @@ static struct dvbcfg_setting dvbcfg_dvbc_modulation_list[7l] = { { .name="QAM_16
     { .name="QAM_256", .value=(unsigned int)4 },
     { .name="QAM_AUTO", .value=(unsigned int)5 },
     { .name=(const char *)(void *)0, .value=(unsigned int)0 } };
-// dvbcfg_dvbc_modulation_list$link1
+// dvbcfg_dvbc_modulation_list_link1
 // file dvbcfg_scanfile.c line 45
-static struct dvbcfg_setting dvbcfg_dvbc_modulation_list$link1[7l] = { { .name="QAM16", .value=(unsigned int)0 },
+static struct dvbcfg_setting dvbcfg_dvbc_modulation_list_link1[7l] = { { .name="QAM16", .value=(unsigned int)0 },
     { .name="QAM32", .value=(unsigned int)1 },
     { .name="QAM64", .value=(unsigned int)2 },
     { .name="QAM128", .value=(unsigned int)3 },
@@ -4810,9 +4810,9 @@ static struct dvbcfg_setting dvbcfg_fec_list[11l] = { { .name="FEC_1_2", .value=
     { .name="FEC_AUTO", .value=(unsigned int)9 },
     { .name="FEC_NONE", .value=(unsigned int)0 },
     { .name=(const char *)(void *)0, .value=(unsigned int)0 } };
-// dvbcfg_fec_list$link1
+// dvbcfg_fec_list_link1
 // file dvbcfg_scanfile.c line 31
-static struct dvbcfg_setting dvbcfg_fec_list$link1[11l] = { { .name="1/2", .value=(unsigned int)1 },
+static struct dvbcfg_setting dvbcfg_fec_list_link1[11l] = { { .name="1/2", .value=(unsigned int)1 },
     { .name="2/3", .value=(unsigned int)2 },
     { .name="3/4", .value=(unsigned int)3 },
     { .name="4/5", .value=(unsigned int)4 },
@@ -4831,9 +4831,9 @@ static struct dvbcfg_setting dvbcfg_guard_interval_list[6l] = { { .name="GUARD_I
     { .name="GUARD_INTERVAL_1_4", .value=(unsigned int)3 },
     { .name="GUARD_INTERVAL_AUTO", .value=(unsigned int)4 },
     { .name=(const char *)(void *)0, .value=(unsigned int)0 } };
-// dvbcfg_guard_interval_list$link1
+// dvbcfg_guard_interval_list_link1
 // file dvbcfg_scanfile.c line 81
-static struct dvbcfg_setting dvbcfg_guard_interval_list$link1[6l] = { { .name="1/32", .value=(unsigned int)0 },
+static struct dvbcfg_setting dvbcfg_guard_interval_list_link1[6l] = { { .name="1/32", .value=(unsigned int)0 },
     { .name="1/16", .value=(unsigned int)1 },
     { .name="1/8", .value=(unsigned int)2 },
     { .name="1/4", .value=(unsigned int)3 },
@@ -4847,9 +4847,9 @@ static struct dvbcfg_setting dvbcfg_hierarchy_list[6l] = { { .name="HIERARCHY_1"
     { .name="HIERARCHY_AUTO", .value=(unsigned int)4 },
     { .name="HIERARCHY_NONE", .value=(unsigned int)0 },
     { .name=(const char *)(void *)0, .value=(unsigned int)0 } };
-// dvbcfg_hierarchy_list$link1
+// dvbcfg_hierarchy_list_link1
 // file dvbcfg_scanfile.c line 90
-static struct dvbcfg_setting dvbcfg_hierarchy_list$link1[6l] = { { .name="1", .value=(unsigned int)1 }, { .name="2", .value=(unsigned int)2 }, { .name="4", .value=(unsigned int)3 }, { .name="AUTO", .value=(unsigned int)4 },
+static struct dvbcfg_setting dvbcfg_hierarchy_list_link1[6l] = { { .name="1", .value=(unsigned int)1 }, { .name="2", .value=(unsigned int)2 }, { .name="4", .value=(unsigned int)3 }, { .name="AUTO", .value=(unsigned int)4 },
     { .name="NONE", .value=(unsigned int)0 },
     { .name=(const char *)(void *)0, .value=(unsigned int)0 } };
 // dvbcfg_inversion_list
@@ -4864,9 +4864,9 @@ static struct dvbcfg_setting dvbcfg_transmission_mode_list[4l] = { { .name="TRAN
     { .name="TRANSMISSION_MODE_8K", .value=(unsigned int)1 },
     { .name="TRANSMISSION_MODE_AUTO", .value=(unsigned int)2 },
     { .name=(const char *)(void *)0, .value=(unsigned int)0 } };
-// dvbcfg_transmission_mode_list$link1
+// dvbcfg_transmission_mode_list_link1
 // file dvbcfg_scanfile.c line 74
-static struct dvbcfg_setting dvbcfg_transmission_mode_list$link1[4l] = { { .name="2k", .value=(unsigned int)0 }, { .name="8k", .value=(unsigned int)1 }, { .name="AUTO", .value=(unsigned int)2 },
+static struct dvbcfg_setting dvbcfg_transmission_mode_list_link1[4l] = { { .name="2k", .value=(unsigned int)0 }, { .name="8k", .value=(unsigned int)1 }, { .name="AUTO", .value=(unsigned int)2 },
     { .name=(const char *)(void *)0, .value=(unsigned int)0 } };
 // dvbfe_atsc_mod_to_kapi
 // file dvbfe.c line 87
@@ -6801,81 +6801,81 @@ signed int verbose = 0;
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
 static inline unsigned int __bswap_32(unsigned int __bsx)
 {
-  signed long int return_value___builtin_bswap32$1;
-  return_value___builtin_bswap32$1=__builtin_bswap32((signed long int)__bsx);
-  return (unsigned int)return_value___builtin_bswap32$1;
+  signed long int return_value___builtin_bswap32_1;
+  return_value___builtin_bswap32_1=__builtin_bswap32((signed long int)__bsx);
+  return (unsigned int)return_value___builtin_bswap32_1;
 }
 
-// __bswap_32$link1
+// __bswap_32_link1
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link1(unsigned int __bsx$link1)
+static inline unsigned int __bswap_32_link1(unsigned int __bsx_link1)
 {
-  signed long int return_value___builtin_bswap32$1$link1;
-  return_value___builtin_bswap32$1$link1=__builtin_bswap32((signed long int)__bsx$link1);
-  return (unsigned int)return_value___builtin_bswap32$1$link1;
+  signed long int return_value___builtin_bswap32_1_link1;
+  return_value___builtin_bswap32_1_link1=__builtin_bswap32((signed long int)__bsx_link1);
+  return (unsigned int)return_value___builtin_bswap32_1_link1;
 }
 
-// __bswap_32$link2
+// __bswap_32_link2
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link2(unsigned int __bsx$link2)
+static inline unsigned int __bswap_32_link2(unsigned int __bsx_link2)
 {
-  signed long int return_value___builtin_bswap32$1$link2;
-  return_value___builtin_bswap32$1$link2=__builtin_bswap32((signed long int)__bsx$link2);
-  return (unsigned int)return_value___builtin_bswap32$1$link2;
+  signed long int return_value___builtin_bswap32_1_link2;
+  return_value___builtin_bswap32_1_link2=__builtin_bswap32((signed long int)__bsx_link2);
+  return (unsigned int)return_value___builtin_bswap32_1_link2;
 }
 
-// __bswap_32$link3
+// __bswap_32_link3
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link3(unsigned int __bsx$link3)
+static inline unsigned int __bswap_32_link3(unsigned int __bsx_link3)
 {
-  signed long int return_value___builtin_bswap32$1$link3;
-  return_value___builtin_bswap32$1$link3=__builtin_bswap32((signed long int)__bsx$link3);
-  return (unsigned int)return_value___builtin_bswap32$1$link3;
+  signed long int return_value___builtin_bswap32_1_link3;
+  return_value___builtin_bswap32_1_link3=__builtin_bswap32((signed long int)__bsx_link3);
+  return (unsigned int)return_value___builtin_bswap32_1_link3;
 }
 
-// __bswap_32$link4
+// __bswap_32_link4
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link4(unsigned int __bsx$link4)
+static inline unsigned int __bswap_32_link4(unsigned int __bsx_link4)
 {
-  signed long int return_value___builtin_bswap32$1$link4;
-  return_value___builtin_bswap32$1$link4=__builtin_bswap32((signed long int)__bsx$link4);
-  return (unsigned int)return_value___builtin_bswap32$1$link4;
+  signed long int return_value___builtin_bswap32_1_link4;
+  return_value___builtin_bswap32_1_link4=__builtin_bswap32((signed long int)__bsx_link4);
+  return (unsigned int)return_value___builtin_bswap32_1_link4;
 }
 
-// __bswap_32$link5
+// __bswap_32_link5
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link5(unsigned int __bsx$link5)
+static inline unsigned int __bswap_32_link5(unsigned int __bsx_link5)
 {
-  signed long int return_value___builtin_bswap32$1$link5;
-  return_value___builtin_bswap32$1$link5=__builtin_bswap32((signed long int)__bsx$link5);
-  return (unsigned int)return_value___builtin_bswap32$1$link5;
+  signed long int return_value___builtin_bswap32_1_link5;
+  return_value___builtin_bswap32_1_link5=__builtin_bswap32((signed long int)__bsx_link5);
+  return (unsigned int)return_value___builtin_bswap32_1_link5;
 }
 
-// __bswap_32$link6
+// __bswap_32_link6
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link6(unsigned int __bsx$link6)
+static inline unsigned int __bswap_32_link6(unsigned int __bsx_link6)
 {
-  signed long int return_value___builtin_bswap32$1$link6;
-  return_value___builtin_bswap32$1$link6=__builtin_bswap32((signed long int)__bsx$link6);
-  return (unsigned int)return_value___builtin_bswap32$1$link6;
+  signed long int return_value___builtin_bswap32_1_link6;
+  return_value___builtin_bswap32_1_link6=__builtin_bswap32((signed long int)__bsx_link6);
+  return (unsigned int)return_value___builtin_bswap32_1_link6;
 }
 
-// __bswap_32$link7
+// __bswap_32_link7
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 45
-static inline unsigned int __bswap_32$link7(unsigned int __bsx$link7)
+static inline unsigned int __bswap_32_link7(unsigned int __bsx_link7)
 {
-  signed long int return_value___builtin_bswap32$1$link7;
-  return_value___builtin_bswap32$1$link7=__builtin_bswap32((signed long int)__bsx$link7);
-  return (unsigned int)return_value___builtin_bswap32$1$link7;
+  signed long int return_value___builtin_bswap32_1_link7;
+  return_value___builtin_bswap32_1_link7=__builtin_bswap32((signed long int)__bsx_link7);
+  return (unsigned int)return_value___builtin_bswap32_1_link7;
 }
 
 // __bswap_64
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 109
 static inline unsigned long int __bswap_64(unsigned long int __bsx)
 {
-  signed long long int return_value___builtin_bswap64$1;
-  return_value___builtin_bswap64$1=__builtin_bswap64((signed long long int)__bsx);
-  return (unsigned long int)return_value___builtin_bswap64$1;
+  signed long long int return_value___builtin_bswap64_1;
+  return_value___builtin_bswap64_1=__builtin_bswap64((signed long long int)__bsx);
+  return (unsigned long int)return_value___builtin_bswap64_1;
 }
 
 // append_unicode_char
@@ -6912,9 +6912,9 @@ static inline signed int append_unicode_char(unsigned char **destbuf, unsigned l
   if(*destbufpos + (unsigned long int)tmplen >= *destbuflen)
   {
     unsigned char *new_dest;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)*destbuf, *destbuflen + (unsigned long int)20);
-    new_dest = (unsigned char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)*destbuf, *destbuflen + (unsigned long int)20);
+    new_dest = (unsigned char *)return_value_realloc_1;
     if(new_dest == ((unsigned char *)NULL))
       return -12;
 
@@ -7011,7 +7011,7 @@ struct atsc_cvct_section * atsc_cvct_section_codec(struct atsc_section_psip *psi
   unsigned char *buf = (unsigned char *)psip;
   unsigned long int pos = sizeof(struct atsc_section_psip) /*9ul*/ ;
   unsigned long int len;
-  len=section_ext_length$link2(&psip->ext_head);
+  len=section_ext_length_link2(&psip->ext_head);
   signed int idx;
   if(!(len >= sizeof(struct atsc_cvct_section) /*10ul*/ ))
     return (struct atsc_cvct_section *)(void *)0;
@@ -7028,20 +7028,20 @@ struct atsc_cvct_section * atsc_cvct_section_codec(struct atsc_section_psip *psi
 
       struct atsc_cvct_channel *channel = (struct atsc_cvct_channel *)(buf + (signed long int)pos);
       pos = pos + (unsigned long int)(7 * 2);
-      bswap32$link1(buf + (signed long int)pos);
-      bswap32$link1(buf + (signed long int)pos + (signed long int)4);
-      bswap16$link2(buf + (signed long int)pos + (signed long int)8);
-      bswap16$link2(buf + (signed long int)pos + (signed long int)10);
-      bswap16$link2(buf + (signed long int)pos + (signed long int)12);
-      bswap16$link2(buf + (signed long int)pos + (signed long int)14);
-      bswap16$link2(buf + (signed long int)pos + (signed long int)16);
+      bswap32_link1(buf + (signed long int)pos);
+      bswap32_link1(buf + (signed long int)pos + (signed long int)4);
+      bswap16_link2(buf + (signed long int)pos + (signed long int)8);
+      bswap16_link2(buf + (signed long int)pos + (signed long int)10);
+      bswap16_link2(buf + (signed long int)pos + (signed long int)12);
+      bswap16_link2(buf + (signed long int)pos + (signed long int)14);
+      bswap16_link2(buf + (signed long int)pos + (signed long int)16);
       pos = pos + (unsigned long int)18;
       if(!(len >= pos + (unsigned long int)channel->descriptors_length))
         return (struct atsc_cvct_section *)(void *)0;
 
-      signed int return_value_verify_descriptors$1;
-      return_value_verify_descriptors$1=verify_descriptors(buf + (signed long int)pos, (unsigned long int)channel->descriptors_length);
-      if(!(return_value_verify_descriptors$1 == 0))
+      signed int return_value_verify_descriptors_1;
+      return_value_verify_descriptors_1=verify_descriptors(buf + (signed long int)pos, (unsigned long int)channel->descriptors_length);
+      if(!(return_value_verify_descriptors_1 == 0))
         return (struct atsc_cvct_section *)(void *)0;
 
       pos = pos + (unsigned long int)channel->descriptors_length;
@@ -7052,16 +7052,16 @@ struct atsc_cvct_section * atsc_cvct_section_codec(struct atsc_section_psip *psi
     else
     {
       struct atsc_cvct_section_part2 *part2 = (struct atsc_cvct_section_part2 *)(buf + (signed long int)pos);
-      bswap16$link2(buf + (signed long int)pos);
+      bswap16_link2(buf + (signed long int)pos);
       pos = pos + (unsigned long int)2;
       if(!(len >= pos + (unsigned long int)part2->descriptors_length))
         return (struct atsc_cvct_section *)(void *)0;
 
       else
       {
-        signed int return_value_verify_descriptors$2;
-        return_value_verify_descriptors$2=verify_descriptors(buf + (signed long int)pos, (unsigned long int)part2->descriptors_length);
-        if(!(return_value_verify_descriptors$2 == 0))
+        signed int return_value_verify_descriptors_2;
+        return_value_verify_descriptors_2=verify_descriptors(buf + (signed long int)pos, (unsigned long int)part2->descriptors_length);
+        if(!(return_value_verify_descriptors_2 == 0))
           return (struct atsc_cvct_section *)(void *)0;
 
         else
@@ -7085,14 +7085,14 @@ struct atsc_dccsct_section * atsc_dccsct_section_codec(struct atsc_section_psip 
   unsigned char *buf = (unsigned char *)psip;
   unsigned long int pos = (unsigned long int)0;
   unsigned long int len;
-  len=section_ext_length$link3(&psip->ext_head);
+  len=section_ext_length_link3(&psip->ext_head);
   signed int idx;
   signed int sublen;
-  signed int return_value_atsc_text_validate$1;
-  signed int atsc_dccsct_section_codec$$1$$1$$1$$1$$2$$sublen;
-  signed int return_value_atsc_text_validate$2;
-  signed int atsc_dccsct_section_codec$$1$$1$$1$$1$$3$$sublen;
-  signed int return_value_atsc_text_validate$3;
+  signed int return_value_atsc_text_validate_1;
+  signed int atsc_dccsct_section_codec__1__1__1__1__2__sublen;
+  signed int return_value_atsc_text_validate_2;
+  signed int atsc_dccsct_section_codec__1__1__1__1__3__sublen;
+  signed int return_value_atsc_text_validate_3;
   if(!(len >= sizeof(struct atsc_dccsct_section) /*10ul*/ ))
     return (struct atsc_dccsct_section *)(void *)0;
 
@@ -7119,33 +7119,33 @@ struct atsc_dccsct_section * atsc_dccsct_section_codec(struct atsc_section_psip 
           if(!((signed int)update->update_data_length >= sublen))
             return (struct atsc_dccsct_section *)(void *)0;
 
-          return_value_atsc_text_validate$1=atsc_text_validate(buf + (signed long int)pos + (signed long int)sublen, (signed int)update->update_data_length - sublen);
-          if(!(return_value_atsc_text_validate$1 == 0))
+          return_value_atsc_text_validate_1=atsc_text_validate(buf + (signed long int)pos + (signed long int)sublen, (signed int)update->update_data_length - sublen);
+          if(!(return_value_atsc_text_validate_1 == 0))
             return (struct atsc_dccsct_section *)(void *)0;
 
           break;
         }
         case 2:
         {
-          atsc_dccsct_section_codec$$1$$1$$1$$1$$2$$sublen = (signed int)sizeof(struct atsc_dccsct_update_new_state) /*1ul*/ ;
-          if(!((signed int)update->update_data_length >= atsc_dccsct_section_codec$$1$$1$$1$$1$$2$$sublen))
+          atsc_dccsct_section_codec__1__1__1__1__2__sublen = (signed int)sizeof(struct atsc_dccsct_update_new_state) /*1ul*/ ;
+          if(!((signed int)update->update_data_length >= atsc_dccsct_section_codec__1__1__1__1__2__sublen))
             return (struct atsc_dccsct_section *)(void *)0;
 
-          return_value_atsc_text_validate$2=atsc_text_validate(buf + (signed long int)pos + (signed long int)atsc_dccsct_section_codec$$1$$1$$1$$1$$2$$sublen, (signed int)update->update_data_length - atsc_dccsct_section_codec$$1$$1$$1$$1$$2$$sublen);
-          if(!(return_value_atsc_text_validate$2 == 0))
+          return_value_atsc_text_validate_2=atsc_text_validate(buf + (signed long int)pos + (signed long int)atsc_dccsct_section_codec__1__1__1__1__2__sublen, (signed int)update->update_data_length - atsc_dccsct_section_codec__1__1__1__1__2__sublen);
+          if(!(return_value_atsc_text_validate_2 == 0))
             return (struct atsc_dccsct_section *)(void *)0;
 
           break;
         }
         case 3:
         {
-          atsc_dccsct_section_codec$$1$$1$$1$$1$$3$$sublen = (signed int)sizeof(struct atsc_dccsct_update_new_county) /*3ul*/ ;
-          if(!((signed int)update->update_data_length >= atsc_dccsct_section_codec$$1$$1$$1$$1$$3$$sublen))
+          atsc_dccsct_section_codec__1__1__1__1__3__sublen = (signed int)sizeof(struct atsc_dccsct_update_new_county) /*3ul*/ ;
+          if(!((signed int)update->update_data_length >= atsc_dccsct_section_codec__1__1__1__1__3__sublen))
             return (struct atsc_dccsct_section *)(void *)0;
 
-          bswap16$link3(buf + (signed long int)pos + (signed long int)1);
-          return_value_atsc_text_validate$3=atsc_text_validate(buf + (signed long int)pos + (signed long int)atsc_dccsct_section_codec$$1$$1$$1$$1$$3$$sublen, (signed int)update->update_data_length - atsc_dccsct_section_codec$$1$$1$$1$$1$$3$$sublen);
-          if(!(return_value_atsc_text_validate$3 == 0))
+          bswap16_link3(buf + (signed long int)pos + (signed long int)1);
+          return_value_atsc_text_validate_3=atsc_text_validate(buf + (signed long int)pos + (signed long int)atsc_dccsct_section_codec__1__1__1__1__3__sublen, (signed int)update->update_data_length - atsc_dccsct_section_codec__1__1__1__1__3__sublen);
+          if(!(return_value_atsc_text_validate_3 == 0))
             return (struct atsc_dccsct_section *)(void *)0;
 
         }
@@ -7155,14 +7155,14 @@ struct atsc_dccsct_section * atsc_dccsct_section_codec(struct atsc_section_psip 
         return (struct atsc_dccsct_section *)(void *)0;
 
       struct atsc_dccsct_update_part2 *part2 = (struct atsc_dccsct_update_part2 *)buf + (signed long int)pos;
-      bswap16$link3(buf + (signed long int)pos);
+      bswap16_link3(buf + (signed long int)pos);
       pos = pos + sizeof(struct atsc_dccsct_update_part2) /*2ul*/ ;
       if(!(len >= pos + (unsigned long int)part2->descriptors_length))
         return (struct atsc_dccsct_section *)(void *)0;
 
-      signed int return_value_verify_descriptors$4;
-      return_value_verify_descriptors$4=verify_descriptors$link1(buf + (signed long int)pos, (unsigned long int)part2->descriptors_length);
-      if(!(return_value_verify_descriptors$4 == 0))
+      signed int return_value_verify_descriptors_4;
+      return_value_verify_descriptors_4=verify_descriptors_link1(buf + (signed long int)pos, (unsigned long int)part2->descriptors_length);
+      if(!(return_value_verify_descriptors_4 == 0))
         return (struct atsc_dccsct_section *)(void *)0;
 
       pos = pos + (unsigned long int)part2->descriptors_length;
@@ -7172,22 +7172,22 @@ struct atsc_dccsct_section * atsc_dccsct_section_codec(struct atsc_section_psip 
 
     else
     {
-      struct atsc_dccsct_section_part2 *atsc_dccsct_section_codec$$1$$part2 = (struct atsc_dccsct_section_part2 *)(buf + (signed long int)pos);
-      bswap16$link3(buf + (signed long int)pos);
+      struct atsc_dccsct_section_part2 *atsc_dccsct_section_codec__1__part2 = (struct atsc_dccsct_section_part2 *)(buf + (signed long int)pos);
+      bswap16_link3(buf + (signed long int)pos);
       pos = pos + sizeof(struct atsc_dccsct_section_part2) /*2ul*/ ;
-      if(!(len >= pos + (unsigned long int)atsc_dccsct_section_codec$$1$$part2->descriptors_length))
+      if(!(len >= pos + (unsigned long int)atsc_dccsct_section_codec__1__part2->descriptors_length))
         return (struct atsc_dccsct_section *)(void *)0;
 
       else
       {
-        signed int return_value_verify_descriptors$5;
-        return_value_verify_descriptors$5=verify_descriptors$link1(buf + (signed long int)pos, (unsigned long int)atsc_dccsct_section_codec$$1$$part2->descriptors_length);
-        if(!(return_value_verify_descriptors$5 == 0))
+        signed int return_value_verify_descriptors_5;
+        return_value_verify_descriptors_5=verify_descriptors_link1(buf + (signed long int)pos, (unsigned long int)atsc_dccsct_section_codec__1__part2->descriptors_length);
+        if(!(return_value_verify_descriptors_5 == 0))
           return (struct atsc_dccsct_section *)(void *)0;
 
         else
         {
-          pos = pos + (unsigned long int)atsc_dccsct_section_codec$$1$$part2->descriptors_length;
+          pos = pos + (unsigned long int)atsc_dccsct_section_codec__1__part2->descriptors_length;
           if(!(pos == len))
             return (struct atsc_dccsct_section *)(void *)0;
 
@@ -7206,7 +7206,7 @@ struct atsc_dcct_section * atsc_dcct_section_codec(struct atsc_section_psip *psi
   unsigned char *buf = (unsigned char *)psip;
   unsigned long int pos = (unsigned long int)0;
   unsigned long int len;
-  len=section_ext_length$link4(&psip->ext_head);
+  len=section_ext_length_link4(&psip->ext_head);
   signed int testidx;
   signed int termidx;
   if(!(len >= sizeof(struct atsc_dcct_section) /*10ul*/ ))
@@ -7225,8 +7225,8 @@ struct atsc_dcct_section * atsc_dcct_section_codec(struct atsc_section_psip *psi
       struct atsc_dcct_test *test = (struct atsc_dcct_test *)(buf + (signed long int)pos);
       bswap24(buf + (signed long int)pos);
       bswap24(buf + (signed long int)pos + (signed long int)3);
-      bswap32$link2(buf + (signed long int)pos + (signed long int)6);
-      bswap32$link2(buf + (signed long int)pos + (signed long int)10);
+      bswap32_link2(buf + (signed long int)pos + (signed long int)6);
+      bswap32_link2(buf + (signed long int)pos + (signed long int)10);
       pos = pos + sizeof(struct atsc_dcct_test) /*15ul*/ ;
       termidx = 0;
       for( ; !(termidx >= (signed int)test->dcc_term_count); termidx = termidx + 1)
@@ -7236,14 +7236,14 @@ struct atsc_dcct_section * atsc_dcct_section_codec(struct atsc_section_psip *psi
 
         struct atsc_dcct_term *term = (struct atsc_dcct_term *)(buf + (signed long int)pos);
         bswap64(buf + (signed long int)pos + (signed long int)1);
-        bswap16$link4(buf + (signed long int)pos + (signed long int)9);
+        bswap16_link4(buf + (signed long int)pos + (signed long int)9);
         pos = pos + sizeof(struct atsc_dcct_term) /*11ul*/ ;
         if(!(len >= pos + (unsigned long int)term->descriptors_length))
           return (struct atsc_dcct_section *)(void *)0;
 
-        signed int return_value_verify_descriptors$1;
-        return_value_verify_descriptors$1=verify_descriptors$link2(buf + (signed long int)pos, (unsigned long int)term->descriptors_length);
-        if(!(return_value_verify_descriptors$1 == 0))
+        signed int return_value_verify_descriptors_1;
+        return_value_verify_descriptors_1=verify_descriptors_link2(buf + (signed long int)pos, (unsigned long int)term->descriptors_length);
+        if(!(return_value_verify_descriptors_1 == 0))
           return (struct atsc_dcct_section *)(void *)0;
 
         pos = pos + (unsigned long int)term->descriptors_length;
@@ -7252,14 +7252,14 @@ struct atsc_dcct_section * atsc_dcct_section_codec(struct atsc_section_psip *psi
         return (struct atsc_dcct_section *)(void *)0;
 
       struct atsc_dcct_test_part2 *part2 = (struct atsc_dcct_test_part2 *)(buf + (signed long int)pos);
-      bswap16$link4(buf + (signed long int)pos);
+      bswap16_link4(buf + (signed long int)pos);
       pos = pos + sizeof(struct atsc_dcct_test_part2) /*2ul*/ ;
       if(!(len >= pos + (unsigned long int)part2->descriptors_length))
         return (struct atsc_dcct_section *)(void *)0;
 
-      signed int return_value_verify_descriptors$2;
-      return_value_verify_descriptors$2=verify_descriptors$link2(buf + (signed long int)pos, (unsigned long int)part2->descriptors_length);
-      if(!(return_value_verify_descriptors$2 == 0))
+      signed int return_value_verify_descriptors_2;
+      return_value_verify_descriptors_2=verify_descriptors_link2(buf + (signed long int)pos, (unsigned long int)part2->descriptors_length);
+      if(!(return_value_verify_descriptors_2 == 0))
         return (struct atsc_dcct_section *)(void *)0;
 
       pos = pos + (unsigned long int)part2->descriptors_length;
@@ -7269,22 +7269,22 @@ struct atsc_dcct_section * atsc_dcct_section_codec(struct atsc_section_psip *psi
 
     else
     {
-      struct atsc_dcct_section_part2 *atsc_dcct_section_codec$$1$$part2 = (struct atsc_dcct_section_part2 *)(buf + (signed long int)pos);
-      bswap16$link4(buf + (signed long int)pos);
+      struct atsc_dcct_section_part2 *atsc_dcct_section_codec__1__part2 = (struct atsc_dcct_section_part2 *)(buf + (signed long int)pos);
+      bswap16_link4(buf + (signed long int)pos);
       pos = pos + sizeof(struct atsc_dcct_section_part2) /*2ul*/ ;
-      if(!(len >= pos + (unsigned long int)atsc_dcct_section_codec$$1$$part2->descriptors_length))
+      if(!(len >= pos + (unsigned long int)atsc_dcct_section_codec__1__part2->descriptors_length))
         return (struct atsc_dcct_section *)(void *)0;
 
       else
       {
-        signed int return_value_verify_descriptors$3;
-        return_value_verify_descriptors$3=verify_descriptors$link2(buf + (signed long int)pos, (unsigned long int)atsc_dcct_section_codec$$1$$part2->descriptors_length);
-        if(!(return_value_verify_descriptors$3 == 0))
+        signed int return_value_verify_descriptors_3;
+        return_value_verify_descriptors_3=verify_descriptors_link2(buf + (signed long int)pos, (unsigned long int)atsc_dcct_section_codec__1__part2->descriptors_length);
+        if(!(return_value_verify_descriptors_3 == 0))
           return (struct atsc_dcct_section *)(void *)0;
 
         else
         {
-          pos = pos + (unsigned long int)atsc_dcct_section_codec$$1$$part2->descriptors_length;
+          pos = pos + (unsigned long int)atsc_dcct_section_codec__1__part2->descriptors_length;
           if(!(pos == len))
             return (struct atsc_dcct_section *)(void *)0;
 
@@ -7303,19 +7303,19 @@ struct atsc_ett_section * atsc_ett_section_codec(struct atsc_section_psip *psip)
   unsigned char *buf = (unsigned char *)psip;
   unsigned long int pos = sizeof(struct atsc_section_psip) /*9ul*/ ;
   unsigned long int len;
-  len=section_ext_length$link6(&psip->ext_head);
+  len=section_ext_length_link6(&psip->ext_head);
   if(!(len >= sizeof(struct atsc_ett_section) /*13ul*/ ))
     return (struct atsc_ett_section *)(void *)0;
 
   else
   {
-    bswap32$link3(buf + (signed long int)pos);
+    bswap32_link3(buf + (signed long int)pos);
     pos = pos + (unsigned long int)4;
-    unsigned long int return_value_section_ext_length$1;
-    return_value_section_ext_length$1=section_ext_length$link6(&psip->ext_head);
-    signed int return_value_atsc_text_validate$2;
-    return_value_atsc_text_validate$2=atsc_text_validate(buf + (signed long int)pos, (signed int)(return_value_section_ext_length$1 - sizeof(struct atsc_ett_section) /*13ul*/ ));
-    if(!(return_value_atsc_text_validate$2 == 0))
+    unsigned long int return_value_section_ext_length_1;
+    return_value_section_ext_length_1=section_ext_length_link6(&psip->ext_head);
+    signed int return_value_atsc_text_validate_2;
+    return_value_atsc_text_validate_2=atsc_text_validate(buf + (signed long int)pos, (signed int)(return_value_section_ext_length_1 - sizeof(struct atsc_ett_section) /*13ul*/ ));
+    if(!(return_value_atsc_text_validate_2 == 0))
       return (struct atsc_ett_section *)(void *)0;
 
     else
@@ -7330,7 +7330,7 @@ struct atsc_mgt_section * atsc_mgt_section_codec(struct atsc_section_psip *psip)
   unsigned char *buf = (unsigned char *)psip;
   unsigned long int pos = sizeof(struct atsc_section_psip) /*9ul*/ ;
   unsigned long int len;
-  len=section_ext_length$link7(&psip->ext_head);
+  len=section_ext_length_link7(&psip->ext_head);
   struct atsc_mgt_section *mgt = (struct atsc_mgt_section *)psip;
   signed int i;
   if(!(len >= sizeof(struct atsc_mgt_section) /*11ul*/ ))
@@ -7338,7 +7338,7 @@ struct atsc_mgt_section * atsc_mgt_section_codec(struct atsc_section_psip *psip)
 
   else
   {
-    bswap16$link6(buf + (signed long int)pos);
+    bswap16_link6(buf + (signed long int)pos);
     pos = pos + (unsigned long int)2;
     i = 0;
     for( ; !(i >= (signed int)mgt->tables_defined); i = i + 1)
@@ -7347,17 +7347,17 @@ struct atsc_mgt_section * atsc_mgt_section_codec(struct atsc_section_psip *psip)
         return (struct atsc_mgt_section *)(void *)0;
 
       struct atsc_mgt_table *table = (struct atsc_mgt_table *)(buf + (signed long int)pos);
-      bswap16$link6(buf + (signed long int)pos);
-      bswap16$link6(buf + (signed long int)pos + (signed long int)2);
-      bswap32$link4(buf + (signed long int)pos + (signed long int)5);
-      bswap16$link6(buf + (signed long int)pos + (signed long int)9);
+      bswap16_link6(buf + (signed long int)pos);
+      bswap16_link6(buf + (signed long int)pos + (signed long int)2);
+      bswap32_link4(buf + (signed long int)pos + (signed long int)5);
+      bswap16_link6(buf + (signed long int)pos + (signed long int)9);
       pos = pos + sizeof(struct atsc_mgt_table) /*11ul*/ ;
       if(!(len >= pos + (unsigned long int)table->table_type_descriptors_length))
         return (struct atsc_mgt_section *)(void *)0;
 
-      signed int return_value_verify_descriptors$1;
-      return_value_verify_descriptors$1=verify_descriptors$link4(buf + (signed long int)pos, (unsigned long int)table->table_type_descriptors_length);
-      if(!(return_value_verify_descriptors$1 == 0))
+      signed int return_value_verify_descriptors_1;
+      return_value_verify_descriptors_1=verify_descriptors_link4(buf + (signed long int)pos, (unsigned long int)table->table_type_descriptors_length);
+      if(!(return_value_verify_descriptors_1 == 0))
         return (struct atsc_mgt_section *)(void *)0;
 
       pos = pos + (unsigned long int)table->table_type_descriptors_length;
@@ -7368,16 +7368,16 @@ struct atsc_mgt_section * atsc_mgt_section_codec(struct atsc_section_psip *psip)
     else
     {
       struct atsc_mgt_section_part2 *part2 = (struct atsc_mgt_section_part2 *)(buf + (signed long int)pos);
-      bswap16$link6(buf + (signed long int)pos);
+      bswap16_link6(buf + (signed long int)pos);
       pos = pos + sizeof(struct atsc_mgt_section_part2) /*2ul*/ ;
       if(!(len >= pos + (unsigned long int)part2->descriptors_length))
         return (struct atsc_mgt_section *)(void *)0;
 
       else
       {
-        signed int return_value_verify_descriptors$2;
-        return_value_verify_descriptors$2=verify_descriptors$link4(buf + (signed long int)pos, (unsigned long int)part2->descriptors_length);
-        if(!(return_value_verify_descriptors$2 == 0))
+        signed int return_value_verify_descriptors_2;
+        return_value_verify_descriptors_2=verify_descriptors_link4(buf + (signed long int)pos, (unsigned long int)part2->descriptors_length);
+        if(!(return_value_verify_descriptors_2 == 0))
           return (struct atsc_mgt_section *)(void *)0;
 
         else
@@ -7401,7 +7401,7 @@ struct atsc_rrt_section * atsc_rrt_section_codec(struct atsc_section_psip *psip)
   unsigned char *buf = (unsigned char *)psip;
   unsigned long int pos = (unsigned long int)0;
   unsigned long int len;
-  len=section_ext_length$link8(&psip->ext_head);
+  len=section_ext_length_link8(&psip->ext_head);
   signed int idx;
   signed int vidx;
   struct atsc_rrt_section *rrt = (struct atsc_rrt_section *)psip;
@@ -7416,9 +7416,9 @@ struct atsc_rrt_section * atsc_rrt_section_codec(struct atsc_section_psip *psip)
 
     else
     {
-      signed int return_value_atsc_text_validate$1;
-      return_value_atsc_text_validate$1=atsc_text_validate(buf + (signed long int)pos, (signed int)rrt->rating_region_name_length);
-      if(!(return_value_atsc_text_validate$1 == 0))
+      signed int return_value_atsc_text_validate_1;
+      return_value_atsc_text_validate_1=atsc_text_validate(buf + (signed long int)pos, (signed int)rrt->rating_region_name_length);
+      if(!(return_value_atsc_text_validate_1 == 0))
         return (struct atsc_rrt_section *)(void *)0;
 
       else
@@ -7442,9 +7442,9 @@ struct atsc_rrt_section * atsc_rrt_section_codec(struct atsc_section_psip *psip)
             if(!(len >= pos + (unsigned long int)dimension->dimension_name_length))
               return (struct atsc_rrt_section *)(void *)0;
 
-            signed int return_value_atsc_text_validate$2;
-            return_value_atsc_text_validate$2=atsc_text_validate(buf + (signed long int)pos, (signed int)dimension->dimension_name_length);
-            if(!(return_value_atsc_text_validate$2 == 0))
+            signed int return_value_atsc_text_validate_2;
+            return_value_atsc_text_validate_2=atsc_text_validate(buf + (signed long int)pos, (signed int)dimension->dimension_name_length);
+            if(!(return_value_atsc_text_validate_2 == 0))
               return (struct atsc_rrt_section *)(void *)0;
 
             pos = pos + (unsigned long int)dimension->dimension_name_length;
@@ -7464,9 +7464,9 @@ struct atsc_rrt_section * atsc_rrt_section_codec(struct atsc_section_psip *psip)
               if(!(len >= pos + (unsigned long int)value->abbrev_rating_value_length))
                 return (struct atsc_rrt_section *)(void *)0;
 
-              signed int return_value_atsc_text_validate$3;
-              return_value_atsc_text_validate$3=atsc_text_validate(buf + (signed long int)pos, (signed int)value->abbrev_rating_value_length);
-              if(!(return_value_atsc_text_validate$3 == 0))
+              signed int return_value_atsc_text_validate_3;
+              return_value_atsc_text_validate_3=atsc_text_validate(buf + (signed long int)pos, (signed int)value->abbrev_rating_value_length);
+              if(!(return_value_atsc_text_validate_3 == 0))
                 return (struct atsc_rrt_section *)(void *)0;
 
               pos = pos + (unsigned long int)value->abbrev_rating_value_length;
@@ -7478,9 +7478,9 @@ struct atsc_rrt_section * atsc_rrt_section_codec(struct atsc_section_psip *psip)
               if(!(len >= pos + (unsigned long int)vpart2->rating_value_length))
                 return (struct atsc_rrt_section *)(void *)0;
 
-              signed int return_value_atsc_text_validate$4;
-              return_value_atsc_text_validate$4=atsc_text_validate(buf + (signed long int)pos, (signed int)vpart2->rating_value_length);
-              if(!(return_value_atsc_text_validate$4 == 0))
+              signed int return_value_atsc_text_validate_4;
+              return_value_atsc_text_validate_4=atsc_text_validate(buf + (signed long int)pos, (signed int)vpart2->rating_value_length);
+              if(!(return_value_atsc_text_validate_4 == 0))
                 return (struct atsc_rrt_section *)(void *)0;
 
               pos = pos + (unsigned long int)vpart2->rating_value_length;
@@ -7498,9 +7498,9 @@ struct atsc_rrt_section * atsc_rrt_section_codec(struct atsc_section_psip *psip)
 
             else
             {
-              signed int return_value_verify_descriptors$5;
-              return_value_verify_descriptors$5=verify_descriptors$link5(buf + (signed long int)pos, (unsigned long int)part3->descriptors_length);
-              if(!(return_value_verify_descriptors$5 == 0))
+              signed int return_value_verify_descriptors_5;
+              return_value_verify_descriptors_5=verify_descriptors_link5(buf + (signed long int)pos, (unsigned long int)part3->descriptors_length);
+              if(!(return_value_verify_descriptors_5 == 0))
                 return (struct atsc_rrt_section *)(void *)0;
 
               else
@@ -7527,19 +7527,19 @@ struct atsc_stt_section * atsc_stt_section_codec(struct atsc_section_psip *psip)
   unsigned char *buf = (unsigned char *)psip;
   unsigned long int pos = sizeof(struct atsc_section_psip) /*9ul*/ ;
   unsigned long int len;
-  len=section_ext_length$link9(&psip->ext_head);
+  len=section_ext_length_link9(&psip->ext_head);
   if(!(len >= sizeof(struct atsc_stt_section) /*16ul*/ ))
     return (struct atsc_stt_section *)(void *)0;
 
   else
   {
-    bswap32$link5(buf + (signed long int)pos);
+    bswap32_link5(buf + (signed long int)pos);
     pos = pos + (unsigned long int)5;
-    bswap16$link7(buf + (signed long int)pos);
+    bswap16_link7(buf + (signed long int)pos);
     pos = pos + (unsigned long int)2;
-    signed int return_value_verify_descriptors$1;
-    return_value_verify_descriptors$1=verify_descriptors$link6(buf + (signed long int)pos, len - sizeof(struct atsc_stt_section) /*16ul*/ );
-    if(!(return_value_verify_descriptors$1 == 0))
+    signed int return_value_verify_descriptors_1;
+    return_value_verify_descriptors_1=verify_descriptors_link6(buf + (signed long int)pos, len - sizeof(struct atsc_stt_section) /*16ul*/ );
+    if(!(return_value_verify_descriptors_1 == 0))
       return (struct atsc_stt_section *)(void *)0;
 
     else
@@ -7551,9 +7551,9 @@ struct atsc_stt_section * atsc_stt_section_codec(struct atsc_section_psip *psip)
 // file atsc/atsc_text.c line 714
 extern signed int atsc_text_segment_decode(struct atsc_text_string_segment *segment, unsigned char **destbuf, unsigned long int *destbufsize, unsigned long int *destbufpos)
 {
-  signed int return_value_unicode_decode$1;
-  signed int return_value_huffman_decode$2;
-  signed int return_value_huffman_decode$3;
+  signed int return_value_unicode_decode_1;
+  signed int return_value_huffman_decode_2;
+  signed int return_value_huffman_decode_3;
   if((signed int)segment->mode >= 52)
     return -1;
 
@@ -7577,18 +7577,18 @@ extern signed int atsc_text_segment_decode(struct atsc_text_string_segment *segm
       {
         case 0:
         {
-          return_value_unicode_decode$1=unicode_decode(buf, (unsigned long int)segment->number_bytes, (signed int)segment->mode, destbuf, destbufsize, destbufpos);
-          return return_value_unicode_decode$1;
+          return_value_unicode_decode_1=unicode_decode(buf, (unsigned long int)segment->number_bytes, (signed int)segment->mode, destbuf, destbufsize, destbufpos);
+          return return_value_unicode_decode_1;
         }
         case 1:
         {
-          return_value_huffman_decode$2=huffman_decode(buf, (unsigned long int)segment->number_bytes, destbuf, destbufsize, destbufpos, program_title_hufftree);
-          return return_value_huffman_decode$2;
+          return_value_huffman_decode_2=huffman_decode(buf, (unsigned long int)segment->number_bytes, destbuf, destbufsize, destbufpos, program_title_hufftree);
+          return return_value_huffman_decode_2;
         }
         case 2:
         {
-          return_value_huffman_decode$3=huffman_decode(buf, (unsigned long int)segment->number_bytes, destbuf, destbufsize, destbufpos, program_description_hufftree);
-          return return_value_huffman_decode$3;
+          return_value_huffman_decode_3=huffman_decode(buf, (unsigned long int)segment->number_bytes, destbuf, destbufsize, destbufpos, program_description_hufftree);
+          return return_value_huffman_decode_3;
         }
         default:
           return -1;
@@ -7610,7 +7610,7 @@ struct atsc_tvct_section * atsc_tvct_section_codec(struct atsc_section_psip *psi
   unsigned char *buf = (unsigned char *)psip;
   unsigned long int pos = sizeof(struct atsc_section_psip) /*9ul*/ ;
   unsigned long int len;
-  len=section_ext_length$link10(&psip->ext_head);
+  len=section_ext_length_link10(&psip->ext_head);
   signed int idx;
   struct atsc_tvct_section *tvct = (struct atsc_tvct_section *)psip;
   if(!(len >= sizeof(struct atsc_tvct_section) /*10ul*/ ))
@@ -7627,20 +7627,20 @@ struct atsc_tvct_section * atsc_tvct_section_codec(struct atsc_section_psip *psi
 
       struct atsc_tvct_channel *channel = (struct atsc_tvct_channel *)(buf + (signed long int)pos);
       pos = pos + (unsigned long int)(7 * 2);
-      bswap32$link6(buf + (signed long int)pos);
-      bswap32$link6(buf + (signed long int)pos + (signed long int)4);
-      bswap16$link8(buf + (signed long int)pos + (signed long int)8);
-      bswap16$link8(buf + (signed long int)pos + (signed long int)10);
-      bswap16$link8(buf + (signed long int)pos + (signed long int)12);
-      bswap16$link8(buf + (signed long int)pos + (signed long int)14);
-      bswap16$link8(buf + (signed long int)pos + (signed long int)16);
+      bswap32_link6(buf + (signed long int)pos);
+      bswap32_link6(buf + (signed long int)pos + (signed long int)4);
+      bswap16_link8(buf + (signed long int)pos + (signed long int)8);
+      bswap16_link8(buf + (signed long int)pos + (signed long int)10);
+      bswap16_link8(buf + (signed long int)pos + (signed long int)12);
+      bswap16_link8(buf + (signed long int)pos + (signed long int)14);
+      bswap16_link8(buf + (signed long int)pos + (signed long int)16);
       pos = pos + (unsigned long int)18;
       if(!(len >= pos + (unsigned long int)channel->descriptors_length))
         return (struct atsc_tvct_section *)(void *)0;
 
-      signed int return_value_verify_descriptors$1;
-      return_value_verify_descriptors$1=verify_descriptors$link7(buf + (signed long int)pos, (unsigned long int)channel->descriptors_length);
-      if(!(return_value_verify_descriptors$1 == 0))
+      signed int return_value_verify_descriptors_1;
+      return_value_verify_descriptors_1=verify_descriptors_link7(buf + (signed long int)pos, (unsigned long int)channel->descriptors_length);
+      if(!(return_value_verify_descriptors_1 == 0))
         return (struct atsc_tvct_section *)(void *)0;
 
       pos = pos + (unsigned long int)channel->descriptors_length;
@@ -7651,16 +7651,16 @@ struct atsc_tvct_section * atsc_tvct_section_codec(struct atsc_section_psip *psi
     else
     {
       struct atsc_tvct_section_part2 *part2 = (struct atsc_tvct_section_part2 *)(buf + (signed long int)pos);
-      bswap16$link8(buf + (signed long int)pos);
+      bswap16_link8(buf + (signed long int)pos);
       pos = pos + (unsigned long int)2;
       if(!(len >= pos + (unsigned long int)part2->descriptors_length))
         return (struct atsc_tvct_section *)(void *)0;
 
       else
       {
-        signed int return_value_verify_descriptors$2;
-        return_value_verify_descriptors$2=verify_descriptors$link7(buf + (signed long int)pos, (unsigned long int)part2->descriptors_length);
-        if(!(return_value_verify_descriptors$2 == 0))
+        signed int return_value_verify_descriptors_2;
+        return_value_verify_descriptors_2=verify_descriptors_link7(buf + (signed long int)pos, (unsigned long int)part2->descriptors_length);
+        if(!(return_value_verify_descriptors_2 == 0))
           return (struct atsc_tvct_section *)(void *)0;
 
         else
@@ -7697,240 +7697,240 @@ extern unsigned int bcd_to_integer(unsigned int bcdval)
 // file ../../lib/libucsi/endianops.h line 80
 static inline void bswap16(unsigned char *buf)
 {
-  unsigned short int tmp_statement_expression$1;
+  unsigned short int tmp_statement_expression_1;
   unsigned short int __v;
   unsigned short int __x = (unsigned short int)*((unsigned short int *)buf);
-  asm("rorw $8, %w0" : "=r"(__v) : "0"(__x) : "cc");
-  tmp_statement_expression$1 = __v;
-  *((unsigned short int *)buf) = tmp_statement_expression$1;
+  asm("rorw _8, %w0" : "=r"(__v) : "0"(__x) : "cc");
+  tmp_statement_expression_1 = __v;
+  *((unsigned short int *)buf) = tmp_statement_expression_1;
 }
 
-// bswap16$link1
+// bswap16_link1
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link1(unsigned char *buf$link1)
+static inline void bswap16_link1(unsigned char *buf_link1)
 {
-  unsigned short int tmp_statement_expression$1$link1;
-  unsigned short int __v$link1;
-  unsigned short int __x$link1 = (unsigned short int)*((unsigned short int *)buf$link1);
-  asm("rorw $8, %w0" : "=r"(__v$link1) : "0"(__x$link1) : "cc");
-  tmp_statement_expression$1$link1 = __v$link1;
-  *((unsigned short int *)buf$link1) = tmp_statement_expression$1$link1;
+  unsigned short int tmp_statement_expression_1_link1;
+  unsigned short int __v_link1;
+  unsigned short int __x_link1 = (unsigned short int)*((unsigned short int *)buf_link1);
+  asm("rorw _8, %w0" : "=r"(__v_link1) : "0"(__x_link1) : "cc");
+  tmp_statement_expression_1_link1 = __v_link1;
+  *((unsigned short int *)buf_link1) = tmp_statement_expression_1_link1;
 }
 
-// bswap16$link10
+// bswap16_link10
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link10(unsigned char *buf$link10)
+static inline void bswap16_link10(unsigned char *buf_link10)
 {
-  unsigned short int tmp_statement_expression$1$link10;
-  unsigned short int __v$link10;
-  unsigned short int __x$link10 = (unsigned short int)*((unsigned short int *)buf$link10);
-  asm("rorw $8, %w0" : "=r"(__v$link10) : "0"(__x$link10) : "cc");
-  tmp_statement_expression$1$link10 = __v$link10;
-  *((unsigned short int *)buf$link10) = tmp_statement_expression$1$link10;
+  unsigned short int tmp_statement_expression_1_link10;
+  unsigned short int __v_link10;
+  unsigned short int __x_link10 = (unsigned short int)*((unsigned short int *)buf_link10);
+  asm("rorw _8, %w0" : "=r"(__v_link10) : "0"(__x_link10) : "cc");
+  tmp_statement_expression_1_link10 = __v_link10;
+  *((unsigned short int *)buf_link10) = tmp_statement_expression_1_link10;
 }
 
-// bswap16$link11
+// bswap16_link11
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link11(unsigned char *buf$link11)
+static inline void bswap16_link11(unsigned char *buf_link11)
 {
-  unsigned short int tmp_statement_expression$1$link11;
-  unsigned short int __v$link11;
-  unsigned short int __x$link11 = (unsigned short int)*((unsigned short int *)buf$link11);
-  asm("rorw $8, %w0" : "=r"(__v$link11) : "0"(__x$link11) : "cc");
-  tmp_statement_expression$1$link11 = __v$link11;
-  *((unsigned short int *)buf$link11) = tmp_statement_expression$1$link11;
+  unsigned short int tmp_statement_expression_1_link11;
+  unsigned short int __v_link11;
+  unsigned short int __x_link11 = (unsigned short int)*((unsigned short int *)buf_link11);
+  asm("rorw _8, %w0" : "=r"(__v_link11) : "0"(__x_link11) : "cc");
+  tmp_statement_expression_1_link11 = __v_link11;
+  *((unsigned short int *)buf_link11) = tmp_statement_expression_1_link11;
 }
 
-// bswap16$link12
+// bswap16_link12
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link12(unsigned char *buf$link12)
+static inline void bswap16_link12(unsigned char *buf_link12)
 {
-  unsigned short int tmp_statement_expression$1$link12;
-  unsigned short int __v$link12;
-  unsigned short int __x$link12 = (unsigned short int)*((unsigned short int *)buf$link12);
-  asm("rorw $8, %w0" : "=r"(__v$link12) : "0"(__x$link12) : "cc");
-  tmp_statement_expression$1$link12 = __v$link12;
-  *((unsigned short int *)buf$link12) = tmp_statement_expression$1$link12;
+  unsigned short int tmp_statement_expression_1_link12;
+  unsigned short int __v_link12;
+  unsigned short int __x_link12 = (unsigned short int)*((unsigned short int *)buf_link12);
+  asm("rorw _8, %w0" : "=r"(__v_link12) : "0"(__x_link12) : "cc");
+  tmp_statement_expression_1_link12 = __v_link12;
+  *((unsigned short int *)buf_link12) = tmp_statement_expression_1_link12;
 }
 
-// bswap16$link13
+// bswap16_link13
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link13(unsigned char *buf$link13)
+static inline void bswap16_link13(unsigned char *buf_link13)
 {
-  unsigned short int tmp_statement_expression$1$link13;
-  unsigned short int __v$link13;
-  unsigned short int __x$link13 = (unsigned short int)*((unsigned short int *)buf$link13);
-  asm("rorw $8, %w0" : "=r"(__v$link13) : "0"(__x$link13) : "cc");
-  tmp_statement_expression$1$link13 = __v$link13;
-  *((unsigned short int *)buf$link13) = tmp_statement_expression$1$link13;
+  unsigned short int tmp_statement_expression_1_link13;
+  unsigned short int __v_link13;
+  unsigned short int __x_link13 = (unsigned short int)*((unsigned short int *)buf_link13);
+  asm("rorw _8, %w0" : "=r"(__v_link13) : "0"(__x_link13) : "cc");
+  tmp_statement_expression_1_link13 = __v_link13;
+  *((unsigned short int *)buf_link13) = tmp_statement_expression_1_link13;
 }
 
-// bswap16$link14
+// bswap16_link14
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link14(unsigned char *buf$link14)
+static inline void bswap16_link14(unsigned char *buf_link14)
 {
-  unsigned short int tmp_statement_expression$1$link14;
-  unsigned short int __v$link14;
-  unsigned short int __x$link14 = (unsigned short int)*((unsigned short int *)buf$link14);
-  asm("rorw $8, %w0" : "=r"(__v$link14) : "0"(__x$link14) : "cc");
-  tmp_statement_expression$1$link14 = __v$link14;
-  *((unsigned short int *)buf$link14) = tmp_statement_expression$1$link14;
+  unsigned short int tmp_statement_expression_1_link14;
+  unsigned short int __v_link14;
+  unsigned short int __x_link14 = (unsigned short int)*((unsigned short int *)buf_link14);
+  asm("rorw _8, %w0" : "=r"(__v_link14) : "0"(__x_link14) : "cc");
+  tmp_statement_expression_1_link14 = __v_link14;
+  *((unsigned short int *)buf_link14) = tmp_statement_expression_1_link14;
 }
 
-// bswap16$link15
+// bswap16_link15
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link15(unsigned char *buf$link15)
+static inline void bswap16_link15(unsigned char *buf_link15)
 {
-  unsigned short int tmp_statement_expression$1$link15;
-  unsigned short int __v$link15;
-  unsigned short int __x$link15 = (unsigned short int)*((unsigned short int *)buf$link15);
-  asm("rorw $8, %w0" : "=r"(__v$link15) : "0"(__x$link15) : "cc");
-  tmp_statement_expression$1$link15 = __v$link15;
-  *((unsigned short int *)buf$link15) = tmp_statement_expression$1$link15;
+  unsigned short int tmp_statement_expression_1_link15;
+  unsigned short int __v_link15;
+  unsigned short int __x_link15 = (unsigned short int)*((unsigned short int *)buf_link15);
+  asm("rorw _8, %w0" : "=r"(__v_link15) : "0"(__x_link15) : "cc");
+  tmp_statement_expression_1_link15 = __v_link15;
+  *((unsigned short int *)buf_link15) = tmp_statement_expression_1_link15;
 }
 
-// bswap16$link16
+// bswap16_link16
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link16(unsigned char *buf$link16)
+static inline void bswap16_link16(unsigned char *buf_link16)
 {
-  unsigned short int tmp_statement_expression$1$link16;
-  unsigned short int __v$link16;
-  unsigned short int __x$link16 = (unsigned short int)*((unsigned short int *)buf$link16);
-  asm("rorw $8, %w0" : "=r"(__v$link16) : "0"(__x$link16) : "cc");
-  tmp_statement_expression$1$link16 = __v$link16;
-  *((unsigned short int *)buf$link16) = tmp_statement_expression$1$link16;
+  unsigned short int tmp_statement_expression_1_link16;
+  unsigned short int __v_link16;
+  unsigned short int __x_link16 = (unsigned short int)*((unsigned short int *)buf_link16);
+  asm("rorw _8, %w0" : "=r"(__v_link16) : "0"(__x_link16) : "cc");
+  tmp_statement_expression_1_link16 = __v_link16;
+  *((unsigned short int *)buf_link16) = tmp_statement_expression_1_link16;
 }
 
-// bswap16$link17
+// bswap16_link17
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link17(unsigned char *buf$link17)
+static inline void bswap16_link17(unsigned char *buf_link17)
 {
-  unsigned short int tmp_statement_expression$1$link17;
-  unsigned short int __v$link17;
-  unsigned short int __x$link17 = (unsigned short int)*((unsigned short int *)buf$link17);
-  asm("rorw $8, %w0" : "=r"(__v$link17) : "0"(__x$link17) : "cc");
-  tmp_statement_expression$1$link17 = __v$link17;
-  *((unsigned short int *)buf$link17) = tmp_statement_expression$1$link17;
+  unsigned short int tmp_statement_expression_1_link17;
+  unsigned short int __v_link17;
+  unsigned short int __x_link17 = (unsigned short int)*((unsigned short int *)buf_link17);
+  asm("rorw _8, %w0" : "=r"(__v_link17) : "0"(__x_link17) : "cc");
+  tmp_statement_expression_1_link17 = __v_link17;
+  *((unsigned short int *)buf_link17) = tmp_statement_expression_1_link17;
 }
 
-// bswap16$link18
+// bswap16_link18
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link18(unsigned char *buf$link18)
+static inline void bswap16_link18(unsigned char *buf_link18)
 {
-  unsigned short int tmp_statement_expression$1$link18;
-  unsigned short int __v$link18;
-  unsigned short int __x$link18 = (unsigned short int)*((unsigned short int *)buf$link18);
-  asm("rorw $8, %w0" : "=r"(__v$link18) : "0"(__x$link18) : "cc");
-  tmp_statement_expression$1$link18 = __v$link18;
-  *((unsigned short int *)buf$link18) = tmp_statement_expression$1$link18;
+  unsigned short int tmp_statement_expression_1_link18;
+  unsigned short int __v_link18;
+  unsigned short int __x_link18 = (unsigned short int)*((unsigned short int *)buf_link18);
+  asm("rorw _8, %w0" : "=r"(__v_link18) : "0"(__x_link18) : "cc");
+  tmp_statement_expression_1_link18 = __v_link18;
+  *((unsigned short int *)buf_link18) = tmp_statement_expression_1_link18;
 }
 
-// bswap16$link19
+// bswap16_link19
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link19(unsigned char *buf$link19)
+static inline void bswap16_link19(unsigned char *buf_link19)
 {
-  unsigned short int tmp_statement_expression$1$link19;
-  unsigned short int __v$link19;
-  unsigned short int __x$link19 = (unsigned short int)*((unsigned short int *)buf$link19);
-  asm("rorw $8, %w0" : "=r"(__v$link19) : "0"(__x$link19) : "cc");
-  tmp_statement_expression$1$link19 = __v$link19;
-  *((unsigned short int *)buf$link19) = tmp_statement_expression$1$link19;
+  unsigned short int tmp_statement_expression_1_link19;
+  unsigned short int __v_link19;
+  unsigned short int __x_link19 = (unsigned short int)*((unsigned short int *)buf_link19);
+  asm("rorw _8, %w0" : "=r"(__v_link19) : "0"(__x_link19) : "cc");
+  tmp_statement_expression_1_link19 = __v_link19;
+  *((unsigned short int *)buf_link19) = tmp_statement_expression_1_link19;
 }
 
-// bswap16$link2
+// bswap16_link2
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link2(unsigned char *buf$link2)
+static inline void bswap16_link2(unsigned char *buf_link2)
 {
-  unsigned short int tmp_statement_expression$1$link2;
-  unsigned short int __v$link2;
-  unsigned short int __x$link2 = (unsigned short int)*((unsigned short int *)buf$link2);
-  asm("rorw $8, %w0" : "=r"(__v$link2) : "0"(__x$link2) : "cc");
-  tmp_statement_expression$1$link2 = __v$link2;
-  *((unsigned short int *)buf$link2) = tmp_statement_expression$1$link2;
+  unsigned short int tmp_statement_expression_1_link2;
+  unsigned short int __v_link2;
+  unsigned short int __x_link2 = (unsigned short int)*((unsigned short int *)buf_link2);
+  asm("rorw _8, %w0" : "=r"(__v_link2) : "0"(__x_link2) : "cc");
+  tmp_statement_expression_1_link2 = __v_link2;
+  *((unsigned short int *)buf_link2) = tmp_statement_expression_1_link2;
 }
 
-// bswap16$link3
+// bswap16_link3
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link3(unsigned char *buf$link3)
+static inline void bswap16_link3(unsigned char *buf_link3)
 {
-  unsigned short int tmp_statement_expression$1$link3;
-  unsigned short int __v$link3;
-  unsigned short int __x$link3 = (unsigned short int)*((unsigned short int *)buf$link3);
-  asm("rorw $8, %w0" : "=r"(__v$link3) : "0"(__x$link3) : "cc");
-  tmp_statement_expression$1$link3 = __v$link3;
-  *((unsigned short int *)buf$link3) = tmp_statement_expression$1$link3;
+  unsigned short int tmp_statement_expression_1_link3;
+  unsigned short int __v_link3;
+  unsigned short int __x_link3 = (unsigned short int)*((unsigned short int *)buf_link3);
+  asm("rorw _8, %w0" : "=r"(__v_link3) : "0"(__x_link3) : "cc");
+  tmp_statement_expression_1_link3 = __v_link3;
+  *((unsigned short int *)buf_link3) = tmp_statement_expression_1_link3;
 }
 
-// bswap16$link4
+// bswap16_link4
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link4(unsigned char *buf$link4)
+static inline void bswap16_link4(unsigned char *buf_link4)
 {
-  unsigned short int tmp_statement_expression$1$link4;
-  unsigned short int __v$link4;
-  unsigned short int __x$link4 = (unsigned short int)*((unsigned short int *)buf$link4);
-  asm("rorw $8, %w0" : "=r"(__v$link4) : "0"(__x$link4) : "cc");
-  tmp_statement_expression$1$link4 = __v$link4;
-  *((unsigned short int *)buf$link4) = tmp_statement_expression$1$link4;
+  unsigned short int tmp_statement_expression_1_link4;
+  unsigned short int __v_link4;
+  unsigned short int __x_link4 = (unsigned short int)*((unsigned short int *)buf_link4);
+  asm("rorw _8, %w0" : "=r"(__v_link4) : "0"(__x_link4) : "cc");
+  tmp_statement_expression_1_link4 = __v_link4;
+  *((unsigned short int *)buf_link4) = tmp_statement_expression_1_link4;
 }
 
-// bswap16$link5
+// bswap16_link5
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link5(unsigned char *buf$link5)
+static inline void bswap16_link5(unsigned char *buf_link5)
 {
-  unsigned short int tmp_statement_expression$1$link5;
-  unsigned short int __v$link5;
-  unsigned short int __x$link5 = (unsigned short int)*((unsigned short int *)buf$link5);
-  asm("rorw $8, %w0" : "=r"(__v$link5) : "0"(__x$link5) : "cc");
-  tmp_statement_expression$1$link5 = __v$link5;
-  *((unsigned short int *)buf$link5) = tmp_statement_expression$1$link5;
+  unsigned short int tmp_statement_expression_1_link5;
+  unsigned short int __v_link5;
+  unsigned short int __x_link5 = (unsigned short int)*((unsigned short int *)buf_link5);
+  asm("rorw _8, %w0" : "=r"(__v_link5) : "0"(__x_link5) : "cc");
+  tmp_statement_expression_1_link5 = __v_link5;
+  *((unsigned short int *)buf_link5) = tmp_statement_expression_1_link5;
 }
 
-// bswap16$link6
+// bswap16_link6
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link6(unsigned char *buf$link6)
+static inline void bswap16_link6(unsigned char *buf_link6)
 {
-  unsigned short int tmp_statement_expression$1$link6;
-  unsigned short int __v$link6;
-  unsigned short int __x$link6 = (unsigned short int)*((unsigned short int *)buf$link6);
-  asm("rorw $8, %w0" : "=r"(__v$link6) : "0"(__x$link6) : "cc");
-  tmp_statement_expression$1$link6 = __v$link6;
-  *((unsigned short int *)buf$link6) = tmp_statement_expression$1$link6;
+  unsigned short int tmp_statement_expression_1_link6;
+  unsigned short int __v_link6;
+  unsigned short int __x_link6 = (unsigned short int)*((unsigned short int *)buf_link6);
+  asm("rorw _8, %w0" : "=r"(__v_link6) : "0"(__x_link6) : "cc");
+  tmp_statement_expression_1_link6 = __v_link6;
+  *((unsigned short int *)buf_link6) = tmp_statement_expression_1_link6;
 }
 
-// bswap16$link7
+// bswap16_link7
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link7(unsigned char *buf$link7)
+static inline void bswap16_link7(unsigned char *buf_link7)
 {
-  unsigned short int tmp_statement_expression$1$link7;
-  unsigned short int __v$link7;
-  unsigned short int __x$link7 = (unsigned short int)*((unsigned short int *)buf$link7);
-  asm("rorw $8, %w0" : "=r"(__v$link7) : "0"(__x$link7) : "cc");
-  tmp_statement_expression$1$link7 = __v$link7;
-  *((unsigned short int *)buf$link7) = tmp_statement_expression$1$link7;
+  unsigned short int tmp_statement_expression_1_link7;
+  unsigned short int __v_link7;
+  unsigned short int __x_link7 = (unsigned short int)*((unsigned short int *)buf_link7);
+  asm("rorw _8, %w0" : "=r"(__v_link7) : "0"(__x_link7) : "cc");
+  tmp_statement_expression_1_link7 = __v_link7;
+  *((unsigned short int *)buf_link7) = tmp_statement_expression_1_link7;
 }
 
-// bswap16$link8
+// bswap16_link8
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link8(unsigned char *buf$link8)
+static inline void bswap16_link8(unsigned char *buf_link8)
 {
-  unsigned short int tmp_statement_expression$1$link8;
-  unsigned short int __v$link8;
-  unsigned short int __x$link8 = (unsigned short int)*((unsigned short int *)buf$link8);
-  asm("rorw $8, %w0" : "=r"(__v$link8) : "0"(__x$link8) : "cc");
-  tmp_statement_expression$1$link8 = __v$link8;
-  *((unsigned short int *)buf$link8) = tmp_statement_expression$1$link8;
+  unsigned short int tmp_statement_expression_1_link8;
+  unsigned short int __v_link8;
+  unsigned short int __x_link8 = (unsigned short int)*((unsigned short int *)buf_link8);
+  asm("rorw _8, %w0" : "=r"(__v_link8) : "0"(__x_link8) : "cc");
+  tmp_statement_expression_1_link8 = __v_link8;
+  *((unsigned short int *)buf_link8) = tmp_statement_expression_1_link8;
 }
 
-// bswap16$link9
+// bswap16_link9
 // file ../../lib/libucsi/endianops.h line 80
-static inline void bswap16$link9(unsigned char *buf$link9)
+static inline void bswap16_link9(unsigned char *buf_link9)
 {
-  unsigned short int tmp_statement_expression$1$link9;
-  unsigned short int __v$link9;
-  unsigned short int __x$link9 = (unsigned short int)*((unsigned short int *)buf$link9);
-  asm("rorw $8, %w0" : "=r"(__v$link9) : "0"(__x$link9) : "cc");
-  tmp_statement_expression$1$link9 = __v$link9;
-  *((unsigned short int *)buf$link9) = tmp_statement_expression$1$link9;
+  unsigned short int tmp_statement_expression_1_link9;
+  unsigned short int __v_link9;
+  unsigned short int __x_link9 = (unsigned short int)*((unsigned short int *)buf_link9);
+  asm("rorw _8, %w0" : "=r"(__v_link9) : "0"(__x_link9) : "cc");
+  tmp_statement_expression_1_link9 = __v_link9;
+  *((unsigned short int *)buf_link9) = tmp_statement_expression_1_link9;
 }
 
 // bswap24
@@ -7949,53 +7949,53 @@ static inline void bswap32(unsigned char *buf)
   *((unsigned int *)buf)=__bswap_32(*((unsigned int *)buf));
 }
 
-// bswap32$link1
+// bswap32_link1
 // file ../../lib/libucsi/endianops.h line 84
-static inline void bswap32$link1(unsigned char *buf$link1)
+static inline void bswap32_link1(unsigned char *buf_link1)
 {
-  *((unsigned int *)buf$link1)=__bswap_32$link1(*((unsigned int *)buf$link1));
+  *((unsigned int *)buf_link1)=__bswap_32_link1(*((unsigned int *)buf_link1));
 }
 
-// bswap32$link2
+// bswap32_link2
 // file ../../lib/libucsi/endianops.h line 84
-static inline void bswap32$link2(unsigned char *buf$link2)
+static inline void bswap32_link2(unsigned char *buf_link2)
 {
-  *((unsigned int *)buf$link2)=__bswap_32$link2(*((unsigned int *)buf$link2));
+  *((unsigned int *)buf_link2)=__bswap_32_link2(*((unsigned int *)buf_link2));
 }
 
-// bswap32$link3
+// bswap32_link3
 // file ../../lib/libucsi/endianops.h line 84
-static inline void bswap32$link3(unsigned char *buf$link3)
+static inline void bswap32_link3(unsigned char *buf_link3)
 {
-  *((unsigned int *)buf$link3)=__bswap_32$link3(*((unsigned int *)buf$link3));
+  *((unsigned int *)buf_link3)=__bswap_32_link3(*((unsigned int *)buf_link3));
 }
 
-// bswap32$link4
+// bswap32_link4
 // file ../../lib/libucsi/endianops.h line 84
-static inline void bswap32$link4(unsigned char *buf$link4)
+static inline void bswap32_link4(unsigned char *buf_link4)
 {
-  *((unsigned int *)buf$link4)=__bswap_32$link4(*((unsigned int *)buf$link4));
+  *((unsigned int *)buf_link4)=__bswap_32_link4(*((unsigned int *)buf_link4));
 }
 
-// bswap32$link5
+// bswap32_link5
 // file ../../lib/libucsi/endianops.h line 84
-static inline void bswap32$link5(unsigned char *buf$link5)
+static inline void bswap32_link5(unsigned char *buf_link5)
 {
-  *((unsigned int *)buf$link5)=__bswap_32$link5(*((unsigned int *)buf$link5));
+  *((unsigned int *)buf_link5)=__bswap_32_link5(*((unsigned int *)buf_link5));
 }
 
-// bswap32$link6
+// bswap32_link6
 // file ../../lib/libucsi/endianops.h line 84
-static inline void bswap32$link6(unsigned char *buf$link6)
+static inline void bswap32_link6(unsigned char *buf_link6)
 {
-  *((unsigned int *)buf$link6)=__bswap_32$link6(*((unsigned int *)buf$link6));
+  *((unsigned int *)buf_link6)=__bswap_32_link6(*((unsigned int *)buf_link6));
 }
 
-// bswap32$link7
+// bswap32_link7
 // file ../../lib/libucsi/endianops.h line 84
-static inline void bswap32$link7(unsigned char *buf$link7)
+static inline void bswap32_link7(unsigned char *buf_link7)
 {
-  *((unsigned int *)buf$link7)=__bswap_32$link7(*((unsigned int *)buf$link7));
+  *((unsigned int *)buf_link7)=__bswap_32_link7(*((unsigned int *)buf_link7));
 }
 
 // bswap64
@@ -8043,9 +8043,9 @@ static signed int create_section_filter(signed int adapter, signed int demux, un
     memset((void *)mask, 0, sizeof(unsigned char [18l]) /*18ul*/ );
     filter[(signed long int)0] = table_id;
     mask[(signed long int)0] = (unsigned char)0xFF;
-    signed int return_value_dvbdemux_set_section_filter$1;
-    return_value_dvbdemux_set_section_filter$1=dvbdemux_set_section_filter(demux_fd, (signed int)pid, filter, mask, 1, 1);
-    if(!(return_value_dvbdemux_set_section_filter$1 == 0))
+    signed int return_value_dvbdemux_set_section_filter_1;
+    return_value_dvbdemux_set_section_filter_1=dvbdemux_set_section_filter(demux_fd, (signed int)pid, filter, mask, 1, 1);
+    if(!(return_value_dvbdemux_set_section_filter_1 == 0))
     {
       close(demux_fd);
       return -1;
@@ -8063,23 +8063,23 @@ struct dvb_bat_section * dvb_bat_section_codec(struct section_ext *ext)
   unsigned char *buf = (unsigned char *)ext;
   unsigned long int pos = sizeof(struct section_ext) /*8ul*/ ;
   unsigned long int len;
-  len=section_ext_length$link11(ext);
+  len=section_ext_length_link11(ext);
   struct dvb_bat_section *ret = (struct dvb_bat_section *)ext;
   if(!(len >= sizeof(struct dvb_bat_section) /*10ul*/ ))
     return (struct dvb_bat_section *)(void *)0;
 
   else
   {
-    bswap16$link9(buf + (signed long int)pos);
+    bswap16_link9(buf + (signed long int)pos);
     pos = pos + (unsigned long int)2;
     if(!(len >= pos + (unsigned long int)ret->bouquet_descriptors_length))
       return (struct dvb_bat_section *)(void *)0;
 
     else
     {
-      signed int return_value_verify_descriptors$1;
-      return_value_verify_descriptors$1=verify_descriptors$link8(buf + (signed long int)pos, (unsigned long int)ret->bouquet_descriptors_length);
-      if(!(return_value_verify_descriptors$1 == 0))
+      signed int return_value_verify_descriptors_1;
+      return_value_verify_descriptors_1=verify_descriptors_link8(buf + (signed long int)pos, (unsigned long int)ret->bouquet_descriptors_length);
+      if(!(return_value_verify_descriptors_1 == 0))
         return (struct dvb_bat_section *)(void *)0;
 
       else
@@ -8090,7 +8090,7 @@ struct dvb_bat_section * dvb_bat_section_codec(struct section_ext *ext)
 
         else
         {
-          bswap16$link9(buf + (signed long int)pos);
+          bswap16_link9(buf + (signed long int)pos);
           pos = pos + sizeof(struct dvb_bat_section_part2) /*2ul*/ ;
           while(!(pos >= len))
           {
@@ -8098,16 +8098,16 @@ struct dvb_bat_section * dvb_bat_section_codec(struct section_ext *ext)
             if(!(len >= sizeof(struct dvb_bat_transport) /*6ul*/  + pos))
               return (struct dvb_bat_section *)(void *)0;
 
-            bswap16$link9(buf + (signed long int)pos);
-            bswap16$link9(buf + (signed long int)pos + (signed long int)2);
-            bswap16$link9(buf + (signed long int)pos + (signed long int)4);
+            bswap16_link9(buf + (signed long int)pos);
+            bswap16_link9(buf + (signed long int)pos + (signed long int)2);
+            bswap16_link9(buf + (signed long int)pos + (signed long int)4);
             pos = pos + sizeof(struct dvb_bat_transport) /*6ul*/ ;
             if(!(len >= pos + (unsigned long int)transport->transport_descriptors_length))
               return (struct dvb_bat_section *)(void *)0;
 
-            signed int return_value_verify_descriptors$2;
-            return_value_verify_descriptors$2=verify_descriptors$link8(buf + (signed long int)pos, (unsigned long int)transport->transport_descriptors_length);
-            if(!(return_value_verify_descriptors$2 == 0))
+            signed int return_value_verify_descriptors_2;
+            return_value_verify_descriptors_2=verify_descriptors_link8(buf + (signed long int)pos, (unsigned long int)transport->transport_descriptors_length);
+            if(!(return_value_verify_descriptors_2 == 0))
               return (struct dvb_bat_section *)(void *)0;
 
             pos = pos + (unsigned long int)transport->transport_descriptors_length;
@@ -8331,15 +8331,15 @@ struct dvb_eit_section * dvb_eit_section_codec(struct section_ext *ext)
   unsigned char *buf = (unsigned char *)ext;
   unsigned long int pos = sizeof(struct section_ext) /*8ul*/ ;
   unsigned long int len;
-  len=section_ext_length$link5(ext);
+  len=section_ext_length_link5(ext);
   if(!(len >= sizeof(struct dvb_eit_section) /*14ul*/ ))
     return (struct dvb_eit_section *)(void *)0;
 
   else
   {
-    bswap16$link5(buf + (signed long int)pos);
+    bswap16_link5(buf + (signed long int)pos);
     pos = pos + (unsigned long int)2;
-    bswap16$link5(buf + (signed long int)pos);
+    bswap16_link5(buf + (signed long int)pos);
     pos = pos + (unsigned long int)4;
     while(!(pos >= len))
     {
@@ -8347,15 +8347,15 @@ struct dvb_eit_section * dvb_eit_section_codec(struct section_ext *ext)
       if(!(len >= sizeof(struct dvb_eit_event) /*12ul*/  + pos))
         return (struct dvb_eit_section *)(void *)0;
 
-      bswap16$link5(buf + (signed long int)pos);
-      bswap16$link5(buf + (signed long int)pos + (signed long int)10);
+      bswap16_link5(buf + (signed long int)pos);
+      bswap16_link5(buf + (signed long int)pos + (signed long int)10);
       pos = pos + sizeof(struct dvb_eit_event) /*12ul*/ ;
       if(!(len >= pos + (unsigned long int)event->descriptors_loop_length))
         return (struct dvb_eit_section *)(void *)0;
 
-      signed int return_value_verify_descriptors$1;
-      return_value_verify_descriptors$1=verify_descriptors$link3(buf + (signed long int)pos, (unsigned long int)event->descriptors_loop_length);
-      if(!(return_value_verify_descriptors$1 == 0))
+      signed int return_value_verify_descriptors_1;
+      return_value_verify_descriptors_1=verify_descriptors_link3(buf + (signed long int)pos, (unsigned long int)event->descriptors_loop_length);
+      if(!(return_value_verify_descriptors_1 == 0))
         return (struct dvb_eit_section *)(void *)0;
 
       pos = pos + (unsigned long int)event->descriptors_loop_length;
@@ -8376,23 +8376,23 @@ extern struct dvb_int_section * dvb_int_section_codec(struct section_ext *ext)
   struct dvb_int_section *in = (struct dvb_int_section *)ext;
   unsigned long int pos = sizeof(struct section_ext) /*8ul*/ ;
   unsigned long int len;
-  len=section_ext_length$link13(ext);
+  len=section_ext_length_link13(ext);
   if(!(len >= sizeof(struct dvb_int_section) /*14ul*/ ))
     return (struct dvb_int_section *)(void *)0;
 
   else
   {
-    bswap32$link7(buf + (signed long int)8);
-    bswap16$link11(buf + (signed long int)12);
+    bswap32_link7(buf + (signed long int)8);
+    bswap16_link11(buf + (signed long int)12);
     pos = pos + (unsigned long int)6;
     if(!(len + -pos >= (unsigned long int)in->platform_descriptors_length))
       return (struct dvb_int_section *)(void *)0;
 
     else
     {
-      signed int return_value_verify_descriptors$1;
-      return_value_verify_descriptors$1=verify_descriptors$link10(buf + (signed long int)pos, (unsigned long int)in->platform_descriptors_length);
-      if(!(return_value_verify_descriptors$1 == 0))
+      signed int return_value_verify_descriptors_1;
+      return_value_verify_descriptors_1=verify_descriptors_link10(buf + (signed long int)pos, (unsigned long int)in->platform_descriptors_length);
+      if(!(return_value_verify_descriptors_1 == 0))
         return (struct dvb_int_section *)(void *)0;
 
       else
@@ -8402,26 +8402,26 @@ extern struct dvb_int_section * dvb_int_section_codec(struct section_ext *ext)
         {
           struct dvb_int_target *s2 = (struct dvb_int_target *)(buf + (signed long int)pos);
           struct dvb_int_operational_loop *s3;
-          bswap16$link11(buf + (signed long int)pos);
+          bswap16_link11(buf + (signed long int)pos);
           if(!(len + -pos >= (unsigned long int)s2->target_descriptors_length))
             return (struct dvb_int_section *)(void *)0;
 
           pos = pos + sizeof(struct dvb_int_target) /*2ul*/ ;
-          signed int return_value_verify_descriptors$2;
-          return_value_verify_descriptors$2=verify_descriptors$link10(buf + (signed long int)pos, (unsigned long int)s2->target_descriptors_length);
-          if(!(return_value_verify_descriptors$2 == 0))
+          signed int return_value_verify_descriptors_2;
+          return_value_verify_descriptors_2=verify_descriptors_link10(buf + (signed long int)pos, (unsigned long int)s2->target_descriptors_length);
+          if(!(return_value_verify_descriptors_2 == 0))
             return (struct dvb_int_section *)(void *)0;
 
           pos = pos + (unsigned long int)s2->target_descriptors_length;
           s3 = (struct dvb_int_operational_loop *)(buf + (signed long int)pos);
-          bswap16$link11(buf + (signed long int)pos);
+          bswap16_link11(buf + (signed long int)pos);
           if(!(len + -pos >= (unsigned long int)s3->operational_descriptors_length))
             return (struct dvb_int_section *)(void *)0;
 
           pos = pos + sizeof(struct dvb_int_operational_loop) /*2ul*/ ;
-          signed int return_value_verify_descriptors$3;
-          return_value_verify_descriptors$3=verify_descriptors$link10(buf + (signed long int)pos, (unsigned long int)s3->operational_descriptors_length);
-          if(!(return_value_verify_descriptors$3 == 0))
+          signed int return_value_verify_descriptors_3;
+          return_value_verify_descriptors_3=verify_descriptors_link10(buf + (signed long int)pos, (unsigned long int)s3->operational_descriptors_length);
+          if(!(return_value_verify_descriptors_3 == 0))
             return (struct dvb_int_section *)(void *)0;
 
           pos = pos + (unsigned long int)s3->operational_descriptors_length;
@@ -8440,22 +8440,22 @@ struct dvb_nit_section * dvb_nit_section_codec(struct section_ext *ext)
   struct dvb_nit_section *ret = (struct dvb_nit_section *)ext;
   unsigned long int pos = sizeof(struct section_ext) /*8ul*/ ;
   unsigned long int len;
-  len=section_ext_length$link14(ext);
+  len=section_ext_length_link14(ext);
   if(!(len >= sizeof(struct dvb_nit_section) /*10ul*/ ))
     return (struct dvb_nit_section *)(void *)0;
 
   else
   {
-    bswap16$link12(buf + (signed long int)pos);
+    bswap16_link12(buf + (signed long int)pos);
     pos = pos + (unsigned long int)2;
     if(!(len >= pos + (unsigned long int)ret->network_descriptors_length))
       return (struct dvb_nit_section *)(void *)0;
 
     else
     {
-      signed int return_value_verify_descriptors$1;
-      return_value_verify_descriptors$1=verify_descriptors$link11(buf + (signed long int)pos, (unsigned long int)ret->network_descriptors_length);
-      if(!(return_value_verify_descriptors$1 == 0))
+      signed int return_value_verify_descriptors_1;
+      return_value_verify_descriptors_1=verify_descriptors_link11(buf + (signed long int)pos, (unsigned long int)ret->network_descriptors_length);
+      if(!(return_value_verify_descriptors_1 == 0))
         return (struct dvb_nit_section *)(void *)0;
 
       else
@@ -8466,7 +8466,7 @@ struct dvb_nit_section * dvb_nit_section_codec(struct section_ext *ext)
 
         else
         {
-          bswap16$link12(buf + (signed long int)pos);
+          bswap16_link12(buf + (signed long int)pos);
           pos = pos + (unsigned long int)2;
           while(!(pos >= len))
           {
@@ -8474,16 +8474,16 @@ struct dvb_nit_section * dvb_nit_section_codec(struct section_ext *ext)
             if(!(len >= sizeof(struct dvb_nit_transport) /*6ul*/  + pos))
               return (struct dvb_nit_section *)(void *)0;
 
-            bswap16$link12(buf + (signed long int)pos);
-            bswap16$link12(buf + (signed long int)pos + (signed long int)2);
-            bswap16$link12(buf + (signed long int)pos + (signed long int)4);
+            bswap16_link12(buf + (signed long int)pos);
+            bswap16_link12(buf + (signed long int)pos + (signed long int)2);
+            bswap16_link12(buf + (signed long int)pos + (signed long int)4);
             pos = pos + sizeof(struct dvb_nit_transport) /*6ul*/ ;
             if(!(len >= pos + (unsigned long int)transport->transport_descriptors_length))
               return (struct dvb_nit_section *)(void *)0;
 
-            signed int return_value_verify_descriptors$2;
-            return_value_verify_descriptors$2=verify_descriptors$link11(buf + (signed long int)pos, (unsigned long int)transport->transport_descriptors_length);
-            if(!(return_value_verify_descriptors$2 == 0))
+            signed int return_value_verify_descriptors_2;
+            return_value_verify_descriptors_2=verify_descriptors_link11(buf + (signed long int)pos, (unsigned long int)transport->transport_descriptors_length);
+            if(!(return_value_verify_descriptors_2 == 0))
               return (struct dvb_nit_section *)(void *)0;
 
             pos = pos + (unsigned long int)transport->transport_descriptors_length;
@@ -8506,17 +8506,17 @@ struct dvb_rst_section * dvb_rst_section_codec(struct section *section)
   unsigned char *buf = (unsigned char *)section;
   unsigned long int pos = sizeof(struct section) /*3ul*/ ;
   unsigned long int len;
-  len=section_length$link1(section);
+  len=section_length_link1(section);
   struct dvb_rst_section *ret = (struct dvb_rst_section *)section;
   for( ; !(pos >= len); pos = pos + sizeof(struct dvb_rst_status) /*10ul*/ )
   {
     if(!(len >= sizeof(struct dvb_rst_status) /*10ul*/  + pos))
       return (struct dvb_rst_section *)(void *)0;
 
-    bswap16$link13(buf + (signed long int)pos);
-    bswap16$link13(buf + (signed long int)pos + (signed long int)2);
-    bswap16$link13(buf + (signed long int)pos + (signed long int)4);
-    bswap16$link13(buf + (signed long int)pos + (signed long int)6);
+    bswap16_link13(buf + (signed long int)pos);
+    bswap16_link13(buf + (signed long int)pos + (signed long int)2);
+    bswap16_link13(buf + (signed long int)pos + (signed long int)4);
+    bswap16_link13(buf + (signed long int)pos + (signed long int)6);
   }
   if(!(pos == len))
     return (struct dvb_rst_section *)(void *)0;
@@ -8532,13 +8532,13 @@ struct dvb_sdt_section * dvb_sdt_section_codec(struct section_ext *ext)
   unsigned char *buf = (unsigned char *)ext;
   unsigned long int pos = sizeof(struct section_ext) /*8ul*/ ;
   unsigned long int len;
-  len=section_ext_length$link15(ext);
+  len=section_ext_length_link15(ext);
   if(!(len >= sizeof(struct dvb_sdt_section) /*11ul*/ ))
     return (struct dvb_sdt_section *)(void *)0;
 
   else
   {
-    bswap16$link14(buf + (signed long int)pos);
+    bswap16_link14(buf + (signed long int)pos);
     pos = pos + (unsigned long int)3;
     while(!(pos >= len))
     {
@@ -8546,15 +8546,15 @@ struct dvb_sdt_section * dvb_sdt_section_codec(struct section_ext *ext)
       if(!(len >= sizeof(struct dvb_sdt_service) /*5ul*/  + pos))
         return (struct dvb_sdt_section *)(void *)0;
 
-      bswap16$link14(buf + (signed long int)pos);
-      bswap16$link14(buf + (signed long int)pos + (signed long int)3);
+      bswap16_link14(buf + (signed long int)pos);
+      bswap16_link14(buf + (signed long int)pos + (signed long int)3);
       pos = pos + sizeof(struct dvb_sdt_service) /*5ul*/ ;
       if(!(len >= pos + (unsigned long int)service->descriptors_loop_length))
         return (struct dvb_sdt_section *)(void *)0;
 
-      signed int return_value_verify_descriptors$1;
-      return_value_verify_descriptors$1=verify_descriptors$link12(buf + (signed long int)pos, (unsigned long int)service->descriptors_loop_length);
-      if(!(return_value_verify_descriptors$1 == 0))
+      signed int return_value_verify_descriptors_1;
+      return_value_verify_descriptors_1=verify_descriptors_link12(buf + (signed long int)pos, (unsigned long int)service->descriptors_loop_length);
+      if(!(return_value_verify_descriptors_1 == 0))
         return (struct dvb_sdt_section *)(void *)0;
 
       pos = pos + (unsigned long int)service->descriptors_loop_length;
@@ -8575,22 +8575,22 @@ struct dvb_sit_section * dvb_sit_section_codec(struct section_ext *ext)
   struct dvb_sit_section *ret = (struct dvb_sit_section *)ext;
   unsigned long int pos = sizeof(struct section_ext) /*8ul*/ ;
   unsigned long int len;
-  len=section_ext_length$link16(ext);
+  len=section_ext_length_link16(ext);
   if(!(len >= sizeof(struct dvb_sit_section) /*10ul*/ ))
     return (struct dvb_sit_section *)(void *)0;
 
   else
   {
-    bswap16$link15(buf + (signed long int)pos);
+    bswap16_link15(buf + (signed long int)pos);
     pos = pos + (unsigned long int)2;
     if(!(len >= pos + (unsigned long int)ret->transmission_info_loop_length))
       return (struct dvb_sit_section *)(void *)0;
 
     else
     {
-      signed int return_value_verify_descriptors$1;
-      return_value_verify_descriptors$1=verify_descriptors$link13(buf + (signed long int)pos, (unsigned long int)ret->transmission_info_loop_length);
-      if(!(return_value_verify_descriptors$1 == 0))
+      signed int return_value_verify_descriptors_1;
+      return_value_verify_descriptors_1=verify_descriptors_link13(buf + (signed long int)pos, (unsigned long int)ret->transmission_info_loop_length);
+      if(!(return_value_verify_descriptors_1 == 0))
         return (struct dvb_sit_section *)(void *)0;
 
       else
@@ -8602,16 +8602,16 @@ struct dvb_sit_section * dvb_sit_section_codec(struct section_ext *ext)
           if(!(len >= sizeof(struct dvb_sit_service) /*4ul*/  + pos))
             return (struct dvb_sit_section *)(void *)0;
 
-          bswap16$link15(buf + (signed long int)pos);
-          bswap16$link15(buf + (signed long int)pos + (signed long int)2);
-          bswap16$link15(buf + (signed long int)pos + (signed long int)4);
+          bswap16_link15(buf + (signed long int)pos);
+          bswap16_link15(buf + (signed long int)pos + (signed long int)2);
+          bswap16_link15(buf + (signed long int)pos + (signed long int)4);
           pos = pos + sizeof(struct dvb_sit_service) /*4ul*/ ;
           if(!(len >= pos + (unsigned long int)service->service_loop_length))
             return (struct dvb_sit_section *)(void *)0;
 
-          signed int return_value_verify_descriptors$2;
-          return_value_verify_descriptors$2=verify_descriptors$link13(buf + (signed long int)pos, (unsigned long int)service->service_loop_length);
-          if(!(return_value_verify_descriptors$2 == 0))
+          signed int return_value_verify_descriptors_2;
+          return_value_verify_descriptors_2=verify_descriptors_link13(buf + (signed long int)pos, (unsigned long int)service->service_loop_length);
+          if(!(return_value_verify_descriptors_2 == 0))
             return (struct dvb_sit_section *)(void *)0;
 
           pos = pos + (unsigned long int)service->service_loop_length;
@@ -8639,7 +8639,7 @@ struct dvb_st_section * dvb_st_section_codec(struct section *section)
 struct dvb_tdt_section * dvb_tdt_section_codec(struct section *section)
 {
   unsigned long int len;
-  len=section_length$link2(section);
+  len=section_length_link2(section);
   struct dvb_tdt_section *ret = (struct dvb_tdt_section *)section;
   if(!(len == sizeof(struct dvb_tdt_section) /*8ul*/ ))
     return (struct dvb_tdt_section *)(void *)0;
@@ -8676,9 +8676,9 @@ struct dvb_tot_section * dvb_tot_section_codec(struct section *section)
   unsigned char *buf = (unsigned char *)section;
   unsigned long int pos = sizeof(struct section) /*3ul*/ ;
   unsigned long int len;
-  unsigned long int return_value_section_length$1;
-  return_value_section_length$1=section_length$link3(section);
-  len = return_value_section_length$1 - (unsigned long int)4;
+  unsigned long int return_value_section_length_1;
+  return_value_section_length_1=section_length_link3(section);
+  len = return_value_section_length_1 - (unsigned long int)4;
   struct dvb_tot_section *ret = (struct dvb_tot_section *)section;
   if(!(len >= sizeof(struct dvb_tot_section) /*10ul*/ ))
     return (struct dvb_tot_section *)(void *)0;
@@ -8686,16 +8686,16 @@ struct dvb_tot_section * dvb_tot_section_codec(struct section *section)
   else
   {
     pos = pos + (unsigned long int)5;
-    bswap16$link16(buf + (signed long int)pos);
+    bswap16_link16(buf + (signed long int)pos);
     pos = pos + (unsigned long int)2;
     if(!(len >= pos + (unsigned long int)ret->descriptors_loop_length))
       return (struct dvb_tot_section *)(void *)0;
 
     else
     {
-      signed int return_value_verify_descriptors$2;
-      return_value_verify_descriptors$2=verify_descriptors$link14(buf + (signed long int)pos, (unsigned long int)ret->descriptors_loop_length);
-      if(!(return_value_verify_descriptors$2 == 0))
+      signed int return_value_verify_descriptors_2;
+      return_value_verify_descriptors_2=verify_descriptors_link14(buf + (signed long int)pos, (unsigned long int)ret->descriptors_loop_length);
+      if(!(return_value_verify_descriptors_2 == 0))
         return (struct dvb_tot_section *)(void *)0;
 
       else
@@ -8716,7 +8716,7 @@ struct dvb_tot_section * dvb_tot_section_codec(struct section *section)
 struct dvb_tva_container_section * dvb_tva_container_section_codec(struct section_ext *ext)
 {
   unsigned long int len;
-  len=section_ext_length$link17(ext);
+  len=section_ext_length_link17(ext);
   struct dvb_tva_container_section *ret = (struct dvb_tva_container_section *)ext;
   if(!(len >= sizeof(struct dvb_tva_container_section) /*8ul*/ ))
     return (struct dvb_tva_container_section *)(void *)0;
@@ -8746,9 +8746,9 @@ extern signed int dvbaudio_open(signed int adapter, signed int audiodeviceid)
 // file dvbaudio.c line 48
 extern signed int dvbaudio_set_bypass(signed int fd, signed int bypass)
 {
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(8 << 0) | (unsigned int)(0 << 0 + 8 + 8)), bypass);
-  return return_value_ioctl$1;
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(8 << 0) | (unsigned int)(0 << 0 + 8 + 8)), bypass);
+  return return_value_ioctl_1;
 }
 
 // dvbca_get_cam_state
@@ -8757,9 +8757,9 @@ extern signed int dvbca_get_cam_state(signed int fd, unsigned char slot)
 {
   struct ca_slot_info info;
   info.num = (signed int)slot;
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(130 << 0)) | sizeof(struct ca_slot_info) /*12ul*/  << 0 + 8 + 8, &info);
-  if(!(return_value_ioctl$1 == 0))
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(130 << 0)) | sizeof(struct ca_slot_info) /*12ul*/  << 0 + 8 + 8, &info);
+  if(!(return_value_ioctl_1 == 0))
     return -1;
 
   else
@@ -8784,9 +8784,9 @@ extern signed int dvbca_get_interface_type(signed int fd, unsigned char slot)
 {
   struct ca_slot_info info;
   info.num = (signed int)slot;
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(130 << 0)) | sizeof(struct ca_slot_info) /*12ul*/  << 0 + 8 + 8, &info);
-  if(!(return_value_ioctl$1 == 0))
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(130 << 0)) | sizeof(struct ca_slot_info) /*12ul*/  << 0 + 8 + 8, &info);
+  if(!(return_value_ioctl_1 == 0))
     return -1;
 
   else
@@ -8842,9 +8842,9 @@ extern signed int dvbca_hlci_write(signed int fd, unsigned char *data, unsigned 
     memset((void *)&msg, 0, sizeof(struct ca_msg) /*268ul*/ );
     msg.length = (unsigned int)data_length;
     memcpy((void *)msg.msg, (const void *)data, (unsigned long int)data_length);
-    signed int return_value_ioctl$1;
-    return_value_ioctl$1=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(133 << 0)) | sizeof(struct ca_msg) /*268ul*/  << 0 + 8 + 8, &msg);
-    return return_value_ioctl$1;
+    signed int return_value_ioctl_1;
+    return_value_ioctl_1=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(133 << 0)) | sizeof(struct ca_msg) /*268ul*/  << 0 + 8 + 8, &msg);
+    return return_value_ioctl_1;
   }
 }
 
@@ -8854,17 +8854,17 @@ extern signed int dvbca_link_read(signed int fd, unsigned char *slot, unsigned c
 {
   signed int size;
   unsigned char *buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)((signed int)data_length + 2));
-  buf = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)((signed int)data_length + 2));
+  buf = (unsigned char *)return_value_malloc_1;
   if(buf == ((unsigned char *)NULL))
     return -1;
 
   else
   {
-    signed long int return_value_read$2;
-    return_value_read$2=read(fd, (void *)buf, (unsigned long int)((signed int)data_length + 2));
-    size = (signed int)return_value_read$2;
+    signed long int return_value_read_2;
+    return_value_read_2=read(fd, (void *)buf, (unsigned long int)((signed int)data_length + 2));
+    size = (signed int)return_value_read_2;
     if(!(size >= 2))
       return -1;
 
@@ -8884,9 +8884,9 @@ extern signed int dvbca_link_read(signed int fd, unsigned char *slot, unsigned c
 extern signed int dvbca_link_write(signed int fd, unsigned char slot, unsigned char connection_id, unsigned char *data, unsigned short int data_length)
 {
   unsigned char *buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)((signed int)data_length + 2));
-  buf = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)((signed int)data_length + 2));
+  buf = (unsigned char *)return_value_malloc_1;
   if(buf == ((unsigned char *)NULL))
     return -1;
 
@@ -8896,9 +8896,9 @@ extern signed int dvbca_link_write(signed int fd, unsigned char slot, unsigned c
     buf[(signed long int)1] = connection_id;
     memcpy((void *)(buf + (signed long int)2), (const void *)data, (unsigned long int)data_length);
     signed int result;
-    signed long int return_value_write$2;
-    return_value_write$2=write(fd, (const void *)buf, (unsigned long int)((signed int)data_length + 2));
-    result = (signed int)return_value_write$2;
+    signed long int return_value_write_2;
+    return_value_write_2=write(fd, (const void *)buf, (unsigned long int)((signed int)data_length + 2));
+    result = (signed int)return_value_write_2;
     free((void *)buf);
     return result;
   }
@@ -8925,9 +8925,9 @@ extern signed int dvbca_open(signed int adapter, signed int cadevice)
 // file ../../lib/libdvbapi/dvbca.h line 61
 extern signed int dvbca_reset(signed int fd, unsigned char slot)
 {
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(128 << 0) | (unsigned int)(0 << 0 + 8 + 8)), 1 << (signed int)slot);
-  return return_value_ioctl$1;
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(128 << 0) | (unsigned int)(0 << 0 + 8 + 8)), 1 << (signed int)slot);
+  return return_value_ioctl_1;
 }
 
 // dvbcfg_iskey
@@ -8935,14 +8935,14 @@ extern signed int dvbca_reset(signed int fd, unsigned char slot)
 char * dvbcfg_iskey(char *line, char *keyname)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(keyname);
-  len = (signed int)return_value_strlen$1;
-  signed int return_value_strncmp$2;
-  return_value_strncmp$2=strncmp(line, keyname, (unsigned long int)len);
-  const unsigned short int **return_value___ctype_b_loc$3;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  if(!(return_value_strncmp$2 == 0))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(keyname);
+  len = (signed int)return_value_strlen_1;
+  signed int return_value_strncmp_2;
+  return_value_strncmp_2=strncmp(line, keyname, (unsigned long int)len);
+  const unsigned short int **return_value___ctype_b_loc_3;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  if(!(return_value_strncmp_2 == 0))
     return (char *)(void *)0;
 
   else
@@ -8950,8 +8950,8 @@ char * dvbcfg_iskey(char *line, char *keyname)
     line = line + (signed long int)len;
     do
     {
-      return_value___ctype_b_loc$3=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*line]) == 0)
+      return_value___ctype_b_loc_3=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*line]) == 0)
         break;
 
       line = line + 1l;
@@ -8965,8 +8965,8 @@ char * dvbcfg_iskey(char *line, char *keyname)
       line = line + 1l;
       do
       {
-        return_value___ctype_b_loc$4=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)*line]) == 0)
+        return_value___ctype_b_loc_4=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)*line]) == 0)
           break;
 
         line = line + 1l;
@@ -8982,22 +8982,22 @@ char * dvbcfg_iskey(char *line, char *keyname)
 signed int dvbcfg_issection(char *line, char *sectionname)
 {
   signed int len;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(line);
-  len = (signed int)return_value_strlen$1;
-  const unsigned short int **return_value___ctype_b_loc$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(line);
+  len = (signed int)return_value_strlen_1;
+  const unsigned short int **return_value___ctype_b_loc_3;
   if(!(len >= 2))
     return 0;
 
   else
   {
-    _Bool tmp_if_expr$2;
+    _Bool tmp_if_expr_2;
     if(!((signed int)*line == 91))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)line[(signed long int)(len - 1)] != 93 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)line[(signed long int)(len - 1)] != 93 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return 0;
 
     else
@@ -9005,18 +9005,18 @@ signed int dvbcfg_issection(char *line, char *sectionname)
       line = line + 1l;
       do
       {
-        return_value___ctype_b_loc$3=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*line]) == 0)
+        return_value___ctype_b_loc_3=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*line]) == 0)
           break;
 
         line = line + 1l;
       }
       while((_Bool)1);
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(sectionname);
-      signed int return_value_strncmp$5;
-      return_value_strncmp$5=strncmp(line, sectionname, return_value_strlen$4);
-      if(!(return_value_strncmp$5 == 0))
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(sectionname);
+      signed int return_value_strncmp_5;
+      return_value_strncmp_5=strncmp(line, sectionname, return_value_strlen_4);
+      if(!(return_value_strncmp_5 == 0))
         return 0;
 
       else
@@ -9045,9 +9045,9 @@ extern signed int dvbcfg_parse_char(char **text, char *tokens)
   char value;
   while(!((signed int)*stop == 0))
   {
-    char *return_value_strchr$1;
-    return_value_strchr$1=strchr(tokens, (signed int)*stop);
-    if(!(return_value_strchr$1 == ((char *)NULL)))
+    char *return_value_strchr_1;
+    return_value_strchr_1=strchr(tokens, (signed int)*stop);
+    if(!(return_value_strchr_1 == ((char *)NULL)))
     {
       *stop = (char)0;
       stop = stop + 1l;
@@ -9056,9 +9056,9 @@ extern signed int dvbcfg_parse_char(char **text, char *tokens)
 
     stop = stop + 1l;
   }
-  signed int return_value___isoc99_sscanf$2;
-  return_value___isoc99_sscanf$2=__isoc99_sscanf(start, "%c", &value);
-  if(return_value___isoc99_sscanf$2 == 1)
+  signed int return_value___isoc99_sscanf_2;
+  return_value___isoc99_sscanf_2=__isoc99_sscanf(start, "%c", &value);
+  if(return_value___isoc99_sscanf_2 == 1)
   {
     *text = stop;
     return (signed int)value;
@@ -9080,9 +9080,9 @@ extern signed int dvbcfg_parse_int(char **text, char *tokens)
   signed int value;
   while(!((signed int)*stop == 0))
   {
-    char *return_value_strchr$1;
-    return_value_strchr$1=strchr(tokens, (signed int)*stop);
-    if(!(return_value_strchr$1 == ((char *)NULL)))
+    char *return_value_strchr_1;
+    return_value_strchr_1=strchr(tokens, (signed int)*stop);
+    if(!(return_value_strchr_1 == ((char *)NULL)))
     {
       *stop = (char)0;
       stop = stop + 1l;
@@ -9091,9 +9091,9 @@ extern signed int dvbcfg_parse_int(char **text, char *tokens)
 
     stop = stop + 1l;
   }
-  signed int return_value___isoc99_sscanf$2;
-  return_value___isoc99_sscanf$2=__isoc99_sscanf(start, "%i", &value);
-  if(return_value___isoc99_sscanf$2 == 1)
+  signed int return_value___isoc99_sscanf_2;
+  return_value___isoc99_sscanf_2=__isoc99_sscanf(start, "%i", &value);
+  if(return_value___isoc99_sscanf_2 == 1)
   {
     *text = stop;
     return value;
@@ -9114,9 +9114,9 @@ extern signed int dvbcfg_parse_setting(char **text, char *tokens, struct dvbcfg_
   char *stop = *text;
   while(!((signed int)*stop == 0))
   {
-    char *return_value_strchr$1;
-    return_value_strchr$1=strchr(tokens, (signed int)*stop);
-    if(!(return_value_strchr$1 == ((char *)NULL)))
+    char *return_value_strchr_1;
+    return_value_strchr_1=strchr(tokens, (signed int)*stop);
+    if(!(return_value_strchr_1 == ((char *)NULL)))
     {
       *stop = (char)0;
       stop = stop + 1l;
@@ -9127,9 +9127,9 @@ extern signed int dvbcfg_parse_setting(char **text, char *tokens, struct dvbcfg_
   }
   while(!(settings->name == ((const char *)NULL)))
   {
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(start, settings->name);
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(start, settings->name);
+    if(return_value_strcmp_2 == 0)
     {
       *text = stop;
       return (signed int)settings->value;
@@ -9148,20 +9148,20 @@ extern void dvbcfg_parse_string(char **text, char *tokens, char *dest, unsigned 
   char *start = *text;
   char *stop = *text;
   unsigned long int length;
-  char *return_value_strchr$1;
+  char *return_value_strchr_1;
   for( ; !((signed int)*stop == 0); stop = stop + 1l)
   {
-    return_value_strchr$1=strchr(tokens, (signed int)*stop);
-    if(!(return_value_strchr$1 == ((char *)NULL)))
+    return_value_strchr_1=strchr(tokens, (signed int)*stop);
+    if(!(return_value_strchr_1 == ((char *)NULL)))
       break;
 
   }
   length = (unsigned long int)((stop - start) + (signed long int)1);
   if(size >= length)
   {
-    char *return_value_strchr$2;
-    return_value_strchr$2=strchr(tokens, (signed int)*stop);
-    if(!(return_value_strchr$2 == ((char *)NULL)))
+    char *return_value_strchr_2;
+    return_value_strchr_2=strchr(tokens, (signed int)*stop);
+    if(!(return_value_strchr_2 == ((char *)NULL)))
     {
       *stop = (char)0;
       *text = stop + (signed long int)1;
@@ -9188,30 +9188,30 @@ extern signed int dvbcfg_scanfile_parse(struct _IO_FILE *file, signed int (*call
   unsigned long int line_size = (unsigned long int)0;
   signed int line_len = 0;
   signed int ret_val = 0;
-  signed long int return_value_getline$1;
-  signed int return_value_dvbcfg_parse_int$3;
-  signed int return_value_dvbcfg_parse_setting$4;
-  signed int return_value_dvbcfg_parse_int$5;
-  signed int return_value_dvbcfg_parse_int$6;
-  signed int return_value_dvbcfg_parse_setting$7;
-  signed int return_value_dvbcfg_parse_setting$8;
-  signed int return_value_dvbcfg_parse_int$9;
-  signed int return_value_dvbcfg_parse_char$10;
-  signed int return_value_tolower$11;
-  signed int return_value_dvbcfg_parse_int$12;
-  signed int return_value_dvbcfg_parse_setting$13;
-  signed int return_value_dvbcfg_parse_int$14;
-  signed int return_value_dvbcfg_parse_setting$15;
-  signed int return_value_dvbcfg_parse_setting$16;
-  signed int return_value_dvbcfg_parse_setting$17;
-  signed int return_value_dvbcfg_parse_setting$18;
-  signed int return_value_dvbcfg_parse_setting$19;
-  signed int return_value_dvbcfg_parse_setting$20;
-  signed int return_value_dvbcfg_parse_setting$21;
+  signed long int return_value_getline_1;
+  signed int return_value_dvbcfg_parse_int_3;
+  signed int return_value_dvbcfg_parse_setting_4;
+  signed int return_value_dvbcfg_parse_int_5;
+  signed int return_value_dvbcfg_parse_int_6;
+  signed int return_value_dvbcfg_parse_setting_7;
+  signed int return_value_dvbcfg_parse_setting_8;
+  signed int return_value_dvbcfg_parse_int_9;
+  signed int return_value_dvbcfg_parse_char_10;
+  signed int return_value_tolower_11;
+  signed int return_value_dvbcfg_parse_int_12;
+  signed int return_value_dvbcfg_parse_setting_13;
+  signed int return_value_dvbcfg_parse_int_14;
+  signed int return_value_dvbcfg_parse_setting_15;
+  signed int return_value_dvbcfg_parse_setting_16;
+  signed int return_value_dvbcfg_parse_setting_17;
+  signed int return_value_dvbcfg_parse_setting_18;
+  signed int return_value_dvbcfg_parse_setting_19;
+  signed int return_value_dvbcfg_parse_setting_20;
+  signed int return_value_dvbcfg_parse_setting_21;
   do
   {
-    return_value_getline$1=getline(&line_buf, &line_size, file);
-    line_len = (signed int)return_value_getline$1;
+    return_value_getline_1=getline(&line_buf, &line_size, file);
+    line_len = (signed int)return_value_getline_1;
     if(!(line_len >= 1))
       break;
 
@@ -9229,9 +9229,9 @@ extern signed int dvbcfg_scanfile_parse(struct _IO_FILE *file, signed int (*call
     }
     *line_tmp = (char)0;
     tmp.fe_params.inversion = (enum dvbfe_spectral_inversion)DVBFE_INVERSION_AUTO;
-    signed int return_value_dvbcfg_parse_char$2;
-    return_value_dvbcfg_parse_char$2=dvbcfg_parse_char(&line_pos, " ");
-    switch(return_value_dvbcfg_parse_char$2)
+    signed int return_value_dvbcfg_parse_char_2;
+    return_value_dvbcfg_parse_char_2=dvbcfg_parse_char(&line_pos, " ");
+    switch(return_value_dvbcfg_parse_char_2)
     {
       case 84:
       {
@@ -9260,13 +9260,13 @@ extern signed int dvbcfg_scanfile_parse(struct _IO_FILE *file, signed int (*call
     {
       case DVBFE_TYPE_ATSC:
       {
-        return_value_dvbcfg_parse_int$3=dvbcfg_parse_int(&line_pos, " ");
-        tmp.fe_params.frequency = (unsigned int)return_value_dvbcfg_parse_int$3;
+        return_value_dvbcfg_parse_int_3=dvbcfg_parse_int(&line_pos, " ");
+        tmp.fe_params.frequency = (unsigned int)return_value_dvbcfg_parse_int_3;
         if(line_pos == ((char *)NULL))
           goto __CPROVER_DUMP_L36;
 
-        return_value_dvbcfg_parse_setting$4=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_atsc_modulation_list$link1);
-        tmp.fe_params.u.atsc.modulation = (enum dvbfe_atsc_mod)return_value_dvbcfg_parse_setting$4;
+        return_value_dvbcfg_parse_setting_4=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_atsc_modulation_list_link1);
+        tmp.fe_params.u.atsc.modulation = (enum dvbfe_atsc_mod)return_value_dvbcfg_parse_setting_4;
         if(line_pos == ((char *)NULL))
           goto __CPROVER_DUMP_L36;
 
@@ -9274,23 +9274,23 @@ extern signed int dvbcfg_scanfile_parse(struct _IO_FILE *file, signed int (*call
       }
       case DVBFE_TYPE_DVBC:
       {
-        return_value_dvbcfg_parse_int$5=dvbcfg_parse_int(&line_pos, " ");
-        tmp.fe_params.frequency = (unsigned int)return_value_dvbcfg_parse_int$5;
+        return_value_dvbcfg_parse_int_5=dvbcfg_parse_int(&line_pos, " ");
+        tmp.fe_params.frequency = (unsigned int)return_value_dvbcfg_parse_int_5;
         if(line_pos == ((char *)NULL))
           goto __CPROVER_DUMP_L36;
 
-        return_value_dvbcfg_parse_int$6=dvbcfg_parse_int(&line_pos, " ");
-        tmp.fe_params.u.dvbc.symbol_rate = (unsigned int)return_value_dvbcfg_parse_int$6;
+        return_value_dvbcfg_parse_int_6=dvbcfg_parse_int(&line_pos, " ");
+        tmp.fe_params.u.dvbc.symbol_rate = (unsigned int)return_value_dvbcfg_parse_int_6;
         if(line_pos == ((char *)NULL))
           goto __CPROVER_DUMP_L36;
 
-        return_value_dvbcfg_parse_setting$7=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_fec_list$link1);
-        tmp.fe_params.u.dvbc.fec_inner = (enum dvbfe_code_rate)return_value_dvbcfg_parse_setting$7;
+        return_value_dvbcfg_parse_setting_7=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_fec_list_link1);
+        tmp.fe_params.u.dvbc.fec_inner = (enum dvbfe_code_rate)return_value_dvbcfg_parse_setting_7;
         if(line_pos == ((char *)NULL))
           goto __CPROVER_DUMP_L36;
 
-        return_value_dvbcfg_parse_setting$8=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_dvbc_modulation_list$link1);
-        tmp.fe_params.u.dvbc.modulation = (enum dvbfe_dvbc_mod)return_value_dvbcfg_parse_setting$8;
+        return_value_dvbcfg_parse_setting_8=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_dvbc_modulation_list_link1);
+        tmp.fe_params.u.dvbc.modulation = (enum dvbfe_dvbc_mod)return_value_dvbcfg_parse_setting_8;
         if(line_pos == ((char *)NULL))
           goto __CPROVER_DUMP_L36;
 
@@ -9298,27 +9298,27 @@ extern signed int dvbcfg_scanfile_parse(struct _IO_FILE *file, signed int (*call
       }
       case DVBFE_TYPE_DVBS:
       {
-        return_value_dvbcfg_parse_int$9=dvbcfg_parse_int(&line_pos, " ");
-        tmp.fe_params.frequency = (unsigned int)return_value_dvbcfg_parse_int$9;
+        return_value_dvbcfg_parse_int_9=dvbcfg_parse_int(&line_pos, " ");
+        tmp.fe_params.frequency = (unsigned int)return_value_dvbcfg_parse_int_9;
         if(line_pos == ((char *)NULL))
           goto __CPROVER_DUMP_L36;
 
-        return_value_dvbcfg_parse_char$10=dvbcfg_parse_char(&line_pos, " ");
-        return_value_tolower$11=tolower(return_value_dvbcfg_parse_char$10);
-        tmp.polarization = (char)return_value_tolower$11;
+        return_value_dvbcfg_parse_char_10=dvbcfg_parse_char(&line_pos, " ");
+        return_value_tolower_11=tolower(return_value_dvbcfg_parse_char_10);
+        tmp.polarization = (char)return_value_tolower_11;
         if(line_pos == ((char *)NULL))
           goto __CPROVER_DUMP_L36;
 
         if(!((signed int)tmp.polarization == 104) && !((signed int)tmp.polarization == 108) && !((signed int)tmp.polarization == 114) && !((signed int)tmp.polarization == 118))
           goto __CPROVER_DUMP_L36;
 
-        return_value_dvbcfg_parse_int$12=dvbcfg_parse_int(&line_pos, " ");
-        tmp.fe_params.u.dvbs.symbol_rate = (unsigned int)return_value_dvbcfg_parse_int$12;
+        return_value_dvbcfg_parse_int_12=dvbcfg_parse_int(&line_pos, " ");
+        tmp.fe_params.u.dvbs.symbol_rate = (unsigned int)return_value_dvbcfg_parse_int_12;
         if(line_pos == ((char *)NULL))
           goto __CPROVER_DUMP_L36;
 
-        return_value_dvbcfg_parse_setting$13=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_fec_list$link1);
-        tmp.fe_params.u.dvbc.fec_inner = (enum dvbfe_code_rate)return_value_dvbcfg_parse_setting$13;
+        return_value_dvbcfg_parse_setting_13=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_fec_list_link1);
+        tmp.fe_params.u.dvbc.fec_inner = (enum dvbfe_code_rate)return_value_dvbcfg_parse_setting_13;
         if(line_pos == ((char *)NULL))
           goto __CPROVER_DUMP_L36;
 
@@ -9326,43 +9326,43 @@ extern signed int dvbcfg_scanfile_parse(struct _IO_FILE *file, signed int (*call
       }
       case DVBFE_TYPE_DVBT:
       {
-        return_value_dvbcfg_parse_int$14=dvbcfg_parse_int(&line_pos, " ");
-        tmp.fe_params.frequency = (unsigned int)return_value_dvbcfg_parse_int$14;
+        return_value_dvbcfg_parse_int_14=dvbcfg_parse_int(&line_pos, " ");
+        tmp.fe_params.frequency = (unsigned int)return_value_dvbcfg_parse_int_14;
         if(line_pos == ((char *)NULL))
           goto __CPROVER_DUMP_L36;
 
-        return_value_dvbcfg_parse_setting$15=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_bandwidth_list$link1);
-        tmp.fe_params.u.dvbt.bandwidth = (enum dvbfe_dvbt_bandwidth)return_value_dvbcfg_parse_setting$15;
+        return_value_dvbcfg_parse_setting_15=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_bandwidth_list_link1);
+        tmp.fe_params.u.dvbt.bandwidth = (enum dvbfe_dvbt_bandwidth)return_value_dvbcfg_parse_setting_15;
         if(line_pos == ((char *)NULL))
           goto __CPROVER_DUMP_L36;
 
-        return_value_dvbcfg_parse_setting$16=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_fec_list$link1);
-        tmp.fe_params.u.dvbt.code_rate_HP = (enum dvbfe_code_rate)return_value_dvbcfg_parse_setting$16;
+        return_value_dvbcfg_parse_setting_16=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_fec_list_link1);
+        tmp.fe_params.u.dvbt.code_rate_HP = (enum dvbfe_code_rate)return_value_dvbcfg_parse_setting_16;
         if(line_pos == ((char *)NULL))
           goto __CPROVER_DUMP_L36;
 
-        return_value_dvbcfg_parse_setting$17=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_fec_list$link1);
-        tmp.fe_params.u.dvbt.code_rate_LP = (enum dvbfe_code_rate)return_value_dvbcfg_parse_setting$17;
+        return_value_dvbcfg_parse_setting_17=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_fec_list_link1);
+        tmp.fe_params.u.dvbt.code_rate_LP = (enum dvbfe_code_rate)return_value_dvbcfg_parse_setting_17;
         if(line_pos == ((char *)NULL))
           goto __CPROVER_DUMP_L36;
 
-        return_value_dvbcfg_parse_setting$18=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_constellation_list$link1);
-        tmp.fe_params.u.dvbt.constellation = (enum dvbfe_dvbt_const)return_value_dvbcfg_parse_setting$18;
+        return_value_dvbcfg_parse_setting_18=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_constellation_list_link1);
+        tmp.fe_params.u.dvbt.constellation = (enum dvbfe_dvbt_const)return_value_dvbcfg_parse_setting_18;
         if(line_pos == ((char *)NULL))
           goto __CPROVER_DUMP_L36;
 
-        return_value_dvbcfg_parse_setting$19=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_transmission_mode_list$link1);
-        tmp.fe_params.u.dvbt.transmission_mode = (enum dvbfe_dvbt_transmit_mode)return_value_dvbcfg_parse_setting$19;
+        return_value_dvbcfg_parse_setting_19=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_transmission_mode_list_link1);
+        tmp.fe_params.u.dvbt.transmission_mode = (enum dvbfe_dvbt_transmit_mode)return_value_dvbcfg_parse_setting_19;
         if(line_pos == ((char *)NULL))
           goto __CPROVER_DUMP_L36;
 
-        return_value_dvbcfg_parse_setting$20=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_guard_interval_list$link1);
-        tmp.fe_params.u.dvbt.guard_interval = (enum dvbfe_dvbt_guard_interval)return_value_dvbcfg_parse_setting$20;
+        return_value_dvbcfg_parse_setting_20=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_guard_interval_list_link1);
+        tmp.fe_params.u.dvbt.guard_interval = (enum dvbfe_dvbt_guard_interval)return_value_dvbcfg_parse_setting_20;
         if(line_pos == ((char *)NULL))
           goto __CPROVER_DUMP_L36;
 
-        return_value_dvbcfg_parse_setting$21=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_hierarchy_list$link1);
-        tmp.fe_params.u.dvbt.hierarchy_information = (enum dvbfe_dvbt_hierarchy)return_value_dvbcfg_parse_setting$21;
+        return_value_dvbcfg_parse_setting_21=dvbcfg_parse_setting(&line_pos, " ", dvbcfg_hierarchy_list_link1);
+        tmp.fe_params.u.dvbt.hierarchy_information = (enum dvbfe_dvbt_hierarchy)return_value_dvbcfg_parse_setting_21;
         if(line_pos == ((char *)NULL))
           goto __CPROVER_DUMP_L36;
 
@@ -9396,28 +9396,28 @@ extern signed int dvbcfg_zapchannel_parse(struct _IO_FILE *file, signed int (*ca
   unsigned long int line_size = (unsigned long int)0;
   signed int line_len = 0;
   signed int ret_val = 0;
-  signed long int return_value_getline$1;
-  char *return_value_strstr$5;
-  signed int return_value_dvbcfg_parse_setting$8;
-  signed int return_value_dvbcfg_parse_setting$9;
-  signed int return_value_dvbcfg_parse_int$10;
-  signed int return_value_dvbcfg_parse_setting$11;
-  signed int return_value_dvbcfg_parse_setting$12;
-  signed int return_value_dvbcfg_parse_char$13;
-  signed int return_value_tolower$14;
-  signed int return_value_dvbcfg_parse_int$15;
-  signed int return_value_dvbcfg_parse_setting$16;
-  signed int return_value_dvbcfg_parse_setting$17;
-  signed int return_value_dvbcfg_parse_setting$18;
-  signed int return_value_dvbcfg_parse_setting$19;
-  signed int return_value_dvbcfg_parse_setting$20;
-  signed int return_value_dvbcfg_parse_setting$21;
-  signed int return_value_dvbcfg_parse_setting$22;
-  signed int return_value_dvbcfg_parse_setting$23;
+  signed long int return_value_getline_1;
+  char *return_value_strstr_5;
+  signed int return_value_dvbcfg_parse_setting_8;
+  signed int return_value_dvbcfg_parse_setting_9;
+  signed int return_value_dvbcfg_parse_int_10;
+  signed int return_value_dvbcfg_parse_setting_11;
+  signed int return_value_dvbcfg_parse_setting_12;
+  signed int return_value_dvbcfg_parse_char_13;
+  signed int return_value_tolower_14;
+  signed int return_value_dvbcfg_parse_int_15;
+  signed int return_value_dvbcfg_parse_setting_16;
+  signed int return_value_dvbcfg_parse_setting_17;
+  signed int return_value_dvbcfg_parse_setting_18;
+  signed int return_value_dvbcfg_parse_setting_19;
+  signed int return_value_dvbcfg_parse_setting_20;
+  signed int return_value_dvbcfg_parse_setting_21;
+  signed int return_value_dvbcfg_parse_setting_22;
+  signed int return_value_dvbcfg_parse_setting_23;
   do
   {
-    return_value_getline$1=getline(&line_buf, &line_size, file);
-    line_len = (signed int)return_value_getline$1;
+    return_value_getline_1=getline(&line_buf, &line_size, file);
+    line_len = (signed int)return_value_getline_1;
     if(!(line_len >= 1))
       break;
 
@@ -9437,18 +9437,18 @@ extern signed int dvbcfg_zapchannel_parse(struct _IO_FILE *file, signed int (*ca
     dvbcfg_parse_string(&line_pos, ":", tmp.name, sizeof(char [128l]) /*128ul*/ );
     if(!(line_pos == ((char *)NULL)))
     {
-      signed int return_value_dvbcfg_parse_int$2;
-      return_value_dvbcfg_parse_int$2=dvbcfg_parse_int(&line_pos, ":");
-      tmp.fe_params.frequency = (unsigned int)return_value_dvbcfg_parse_int$2;
+      signed int return_value_dvbcfg_parse_int_2;
+      return_value_dvbcfg_parse_int_2=dvbcfg_parse_int(&line_pos, ":");
+      tmp.fe_params.frequency = (unsigned int)return_value_dvbcfg_parse_int_2;
       if(!(line_pos == ((char *)NULL)))
       {
-        char *return_value_strstr$7;
-        return_value_strstr$7=strstr(line_pos, ":FEC_");
-        if(!(return_value_strstr$7 == ((char *)NULL)))
+        char *return_value_strstr_7;
+        return_value_strstr_7=strstr(line_pos, ":FEC_");
+        if(!(return_value_strstr_7 == ((char *)NULL)))
         {
-          char *return_value_strstr$3;
-          return_value_strstr$3=strstr(line_pos, ":HIERARCHY_");
-          if(!(return_value_strstr$3 == ((char *)NULL)))
+          char *return_value_strstr_3;
+          return_value_strstr_3=strstr(line_pos, ":HIERARCHY_");
+          if(!(return_value_strstr_3 == ((char *)NULL)))
             tmp.fe_type = (enum dvbfe_type)DVBFE_TYPE_DVBT;
 
           else
@@ -9457,18 +9457,18 @@ extern signed int dvbcfg_zapchannel_parse(struct _IO_FILE *file, signed int (*ca
 
         else
         {
-          char *return_value_strstr$4;
-          return_value_strstr$4=strstr(line_pos, "VSB:");
-          _Bool tmp_if_expr$6;
-          if(!(return_value_strstr$4 == ((char *)NULL)))
-            tmp_if_expr$6 = (_Bool)1;
+          char *return_value_strstr_4;
+          return_value_strstr_4=strstr(line_pos, "VSB:");
+          _Bool tmp_if_expr_6;
+          if(!(return_value_strstr_4 == ((char *)NULL)))
+            tmp_if_expr_6 = (_Bool)1;
 
           else
           {
-            return_value_strstr$5=strstr(line_pos, "QAM_");
-            tmp_if_expr$6 = return_value_strstr$5 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+            return_value_strstr_5=strstr(line_pos, "QAM_");
+            tmp_if_expr_6 = return_value_strstr_5 != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$6)
+          if(tmp_if_expr_6)
             tmp.fe_type = (enum dvbfe_type)DVBFE_TYPE_ATSC;
 
           else
@@ -9479,8 +9479,8 @@ extern signed int dvbcfg_zapchannel_parse(struct _IO_FILE *file, signed int (*ca
           case DVBFE_TYPE_ATSC:
           {
             tmp.fe_params.inversion = (enum dvbfe_spectral_inversion)DVBFE_INVERSION_AUTO;
-            return_value_dvbcfg_parse_setting$8=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_atsc_modulation_list);
-            tmp.fe_params.u.atsc.modulation = (enum dvbfe_atsc_mod)return_value_dvbcfg_parse_setting$8;
+            return_value_dvbcfg_parse_setting_8=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_atsc_modulation_list);
+            tmp.fe_params.u.atsc.modulation = (enum dvbfe_atsc_mod)return_value_dvbcfg_parse_setting_8;
             if(line_pos == ((char *)NULL))
               goto __CPROVER_DUMP_L40;
 
@@ -9488,23 +9488,23 @@ extern signed int dvbcfg_zapchannel_parse(struct _IO_FILE *file, signed int (*ca
           }
           case DVBFE_TYPE_DVBC:
           {
-            return_value_dvbcfg_parse_setting$9=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_inversion_list);
-            tmp.fe_params.inversion = (enum dvbfe_spectral_inversion)return_value_dvbcfg_parse_setting$9;
+            return_value_dvbcfg_parse_setting_9=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_inversion_list);
+            tmp.fe_params.inversion = (enum dvbfe_spectral_inversion)return_value_dvbcfg_parse_setting_9;
             if(line_pos == ((char *)NULL))
               goto __CPROVER_DUMP_L40;
 
-            return_value_dvbcfg_parse_int$10=dvbcfg_parse_int(&line_pos, ":");
-            tmp.fe_params.u.dvbc.symbol_rate = (unsigned int)return_value_dvbcfg_parse_int$10;
+            return_value_dvbcfg_parse_int_10=dvbcfg_parse_int(&line_pos, ":");
+            tmp.fe_params.u.dvbc.symbol_rate = (unsigned int)return_value_dvbcfg_parse_int_10;
             if(line_pos == ((char *)NULL))
               goto __CPROVER_DUMP_L40;
 
-            return_value_dvbcfg_parse_setting$11=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_fec_list);
-            tmp.fe_params.u.dvbc.fec_inner = (enum dvbfe_code_rate)return_value_dvbcfg_parse_setting$11;
+            return_value_dvbcfg_parse_setting_11=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_fec_list);
+            tmp.fe_params.u.dvbc.fec_inner = (enum dvbfe_code_rate)return_value_dvbcfg_parse_setting_11;
             if(line_pos == ((char *)NULL))
               goto __CPROVER_DUMP_L40;
 
-            return_value_dvbcfg_parse_setting$12=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_dvbc_modulation_list);
-            tmp.fe_params.u.dvbc.modulation = (enum dvbfe_dvbc_mod)return_value_dvbcfg_parse_setting$12;
+            return_value_dvbcfg_parse_setting_12=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_dvbc_modulation_list);
+            tmp.fe_params.u.dvbc.modulation = (enum dvbfe_dvbc_mod)return_value_dvbcfg_parse_setting_12;
             if(line_pos == ((char *)NULL))
               goto __CPROVER_DUMP_L40;
 
@@ -9515,9 +9515,9 @@ extern signed int dvbcfg_zapchannel_parse(struct _IO_FILE *file, signed int (*ca
             tmp.fe_params.frequency = tmp.fe_params.frequency * (unsigned int)1000;
             tmp.fe_params.inversion = (enum dvbfe_spectral_inversion)DVBFE_INVERSION_AUTO;
             tmp.fe_params.u.dvbs.fec_inner = (enum dvbfe_code_rate)DVBFE_FEC_AUTO;
-            return_value_dvbcfg_parse_char$13=dvbcfg_parse_char(&line_pos, ":");
-            return_value_tolower$14=tolower(return_value_dvbcfg_parse_char$13);
-            tmp.polarization = (char)return_value_tolower$14;
+            return_value_dvbcfg_parse_char_13=dvbcfg_parse_char(&line_pos, ":");
+            return_value_tolower_14=tolower(return_value_dvbcfg_parse_char_13);
+            tmp.polarization = (char)return_value_tolower_14;
             if(line_pos == ((char *)NULL))
               goto __CPROVER_DUMP_L40;
 
@@ -9528,8 +9528,8 @@ extern signed int dvbcfg_zapchannel_parse(struct _IO_FILE *file, signed int (*ca
             if(line_pos == ((char *)NULL))
               goto __CPROVER_DUMP_L40;
 
-            return_value_dvbcfg_parse_int$15=dvbcfg_parse_int(&line_pos, ":");
-            tmp.fe_params.u.dvbs.symbol_rate = (unsigned int)(return_value_dvbcfg_parse_int$15 * 1000);
+            return_value_dvbcfg_parse_int_15=dvbcfg_parse_int(&line_pos, ":");
+            tmp.fe_params.u.dvbs.symbol_rate = (unsigned int)(return_value_dvbcfg_parse_int_15 * 1000);
             if(line_pos == ((char *)NULL))
               goto __CPROVER_DUMP_L40;
 
@@ -9537,43 +9537,43 @@ extern signed int dvbcfg_zapchannel_parse(struct _IO_FILE *file, signed int (*ca
           }
           case DVBFE_TYPE_DVBT:
           {
-            return_value_dvbcfg_parse_setting$16=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_inversion_list);
-            tmp.fe_params.inversion = (enum dvbfe_spectral_inversion)return_value_dvbcfg_parse_setting$16;
+            return_value_dvbcfg_parse_setting_16=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_inversion_list);
+            tmp.fe_params.inversion = (enum dvbfe_spectral_inversion)return_value_dvbcfg_parse_setting_16;
             if(line_pos == ((char *)NULL))
               goto __CPROVER_DUMP_L40;
 
-            return_value_dvbcfg_parse_setting$17=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_bandwidth_list);
-            tmp.fe_params.u.dvbt.bandwidth = (enum dvbfe_dvbt_bandwidth)return_value_dvbcfg_parse_setting$17;
+            return_value_dvbcfg_parse_setting_17=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_bandwidth_list);
+            tmp.fe_params.u.dvbt.bandwidth = (enum dvbfe_dvbt_bandwidth)return_value_dvbcfg_parse_setting_17;
             if(line_pos == ((char *)NULL))
               goto __CPROVER_DUMP_L40;
 
-            return_value_dvbcfg_parse_setting$18=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_fec_list);
-            tmp.fe_params.u.dvbt.code_rate_HP = (enum dvbfe_code_rate)return_value_dvbcfg_parse_setting$18;
+            return_value_dvbcfg_parse_setting_18=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_fec_list);
+            tmp.fe_params.u.dvbt.code_rate_HP = (enum dvbfe_code_rate)return_value_dvbcfg_parse_setting_18;
             if(line_pos == ((char *)NULL))
               goto __CPROVER_DUMP_L40;
 
-            return_value_dvbcfg_parse_setting$19=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_fec_list);
-            tmp.fe_params.u.dvbt.code_rate_LP = (enum dvbfe_code_rate)return_value_dvbcfg_parse_setting$19;
+            return_value_dvbcfg_parse_setting_19=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_fec_list);
+            tmp.fe_params.u.dvbt.code_rate_LP = (enum dvbfe_code_rate)return_value_dvbcfg_parse_setting_19;
             if(line_pos == ((char *)NULL))
               goto __CPROVER_DUMP_L40;
 
-            return_value_dvbcfg_parse_setting$20=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_constellation_list);
-            tmp.fe_params.u.dvbt.constellation = (enum dvbfe_dvbt_const)return_value_dvbcfg_parse_setting$20;
+            return_value_dvbcfg_parse_setting_20=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_constellation_list);
+            tmp.fe_params.u.dvbt.constellation = (enum dvbfe_dvbt_const)return_value_dvbcfg_parse_setting_20;
             if(line_pos == ((char *)NULL))
               goto __CPROVER_DUMP_L40;
 
-            return_value_dvbcfg_parse_setting$21=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_transmission_mode_list);
-            tmp.fe_params.u.dvbt.transmission_mode = (enum dvbfe_dvbt_transmit_mode)return_value_dvbcfg_parse_setting$21;
+            return_value_dvbcfg_parse_setting_21=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_transmission_mode_list);
+            tmp.fe_params.u.dvbt.transmission_mode = (enum dvbfe_dvbt_transmit_mode)return_value_dvbcfg_parse_setting_21;
             if(line_pos == ((char *)NULL))
               goto __CPROVER_DUMP_L40;
 
-            return_value_dvbcfg_parse_setting$22=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_guard_interval_list);
-            tmp.fe_params.u.dvbt.guard_interval = (enum dvbfe_dvbt_guard_interval)return_value_dvbcfg_parse_setting$22;
+            return_value_dvbcfg_parse_setting_22=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_guard_interval_list);
+            tmp.fe_params.u.dvbt.guard_interval = (enum dvbfe_dvbt_guard_interval)return_value_dvbcfg_parse_setting_22;
             if(line_pos == ((char *)NULL))
               goto __CPROVER_DUMP_L40;
 
-            return_value_dvbcfg_parse_setting$23=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_hierarchy_list);
-            tmp.fe_params.u.dvbt.hierarchy_information = (enum dvbfe_dvbt_hierarchy)return_value_dvbcfg_parse_setting$23;
+            return_value_dvbcfg_parse_setting_23=dvbcfg_parse_setting(&line_pos, ":", dvbcfg_hierarchy_list);
+            tmp.fe_params.u.dvbt.hierarchy_information = (enum dvbfe_dvbt_hierarchy)return_value_dvbcfg_parse_setting_23;
             if(line_pos == ((char *)NULL))
               goto __CPROVER_DUMP_L40;
 
@@ -9632,45 +9632,45 @@ extern signed int dvbcfg_zapchannel_save(struct _IO_FILE *file, signed int (*cal
 
     if((signed int)tmp.fe_type == DVBFE_TYPE_ATSC)
     {
-      const char *return_value_dvbcfg_lookup_setting$1;
-      return_value_dvbcfg_lookup_setting$1=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.u.atsc.modulation, dvbcfg_atsc_modulation_list);
-      ret_val=fprintf(file, "%i:%s:", tmp.fe_params.frequency, return_value_dvbcfg_lookup_setting$1);
+      const char *return_value_dvbcfg_lookup_setting_1;
+      return_value_dvbcfg_lookup_setting_1=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.u.atsc.modulation, dvbcfg_atsc_modulation_list);
+      ret_val=fprintf(file, "%i:%s:", tmp.fe_params.frequency, return_value_dvbcfg_lookup_setting_1);
       if(!(ret_val >= 0))
         return ret_val;
 
-      const char *return_value_dvbcfg_lookup_setting$2;
-      return_value_dvbcfg_lookup_setting$2=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.inversion, dvbcfg_inversion_list);
-      const char *return_value_dvbcfg_lookup_setting$3;
-      return_value_dvbcfg_lookup_setting$3=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.u.dvbc.fec_inner, dvbcfg_fec_list);
-      const char *return_value_dvbcfg_lookup_setting$4;
-      return_value_dvbcfg_lookup_setting$4=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.u.dvbc.modulation, dvbcfg_dvbc_modulation_list);
-      ret_val=fprintf(file, "%i:%s:%i:%s:%s:", tmp.fe_params.frequency, return_value_dvbcfg_lookup_setting$2, tmp.fe_params.u.dvbc.symbol_rate, return_value_dvbcfg_lookup_setting$3, return_value_dvbcfg_lookup_setting$4);
+      const char *return_value_dvbcfg_lookup_setting_2;
+      return_value_dvbcfg_lookup_setting_2=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.inversion, dvbcfg_inversion_list);
+      const char *return_value_dvbcfg_lookup_setting_3;
+      return_value_dvbcfg_lookup_setting_3=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.u.dvbc.fec_inner, dvbcfg_fec_list);
+      const char *return_value_dvbcfg_lookup_setting_4;
+      return_value_dvbcfg_lookup_setting_4=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.u.dvbc.modulation, dvbcfg_dvbc_modulation_list);
+      ret_val=fprintf(file, "%i:%s:%i:%s:%s:", tmp.fe_params.frequency, return_value_dvbcfg_lookup_setting_2, tmp.fe_params.u.dvbc.symbol_rate, return_value_dvbcfg_lookup_setting_3, return_value_dvbcfg_lookup_setting_4);
       if(!(ret_val >= 0))
         return ret_val;
 
-      signed int return_value_tolower$5;
-      return_value_tolower$5=tolower((signed int)tmp.polarization);
-      ret_val=fprintf(file, "%i:%c:%i:%i:", tmp.fe_params.frequency / (unsigned int)1000, return_value_tolower$5, tmp.diseqc_switch, tmp.fe_params.u.dvbs.symbol_rate / (unsigned int)1000);
+      signed int return_value_tolower_5;
+      return_value_tolower_5=tolower((signed int)tmp.polarization);
+      ret_val=fprintf(file, "%i:%c:%i:%i:", tmp.fe_params.frequency / (unsigned int)1000, return_value_tolower_5, tmp.diseqc_switch, tmp.fe_params.u.dvbs.symbol_rate / (unsigned int)1000);
       if(!(ret_val >= 0))
         return ret_val;
 
-      const char *return_value_dvbcfg_lookup_setting$6;
-      return_value_dvbcfg_lookup_setting$6=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.inversion, dvbcfg_inversion_list);
-      const char *return_value_dvbcfg_lookup_setting$7;
-      return_value_dvbcfg_lookup_setting$7=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.u.dvbt.bandwidth, dvbcfg_bandwidth_list);
-      const char *return_value_dvbcfg_lookup_setting$8;
-      return_value_dvbcfg_lookup_setting$8=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.u.dvbt.code_rate_HP, dvbcfg_fec_list);
-      const char *return_value_dvbcfg_lookup_setting$9;
-      return_value_dvbcfg_lookup_setting$9=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.u.dvbt.code_rate_LP, dvbcfg_fec_list);
-      const char *return_value_dvbcfg_lookup_setting$10;
-      return_value_dvbcfg_lookup_setting$10=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.u.dvbt.constellation, dvbcfg_constellation_list);
-      const char *return_value_dvbcfg_lookup_setting$11;
-      return_value_dvbcfg_lookup_setting$11=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.u.dvbt.transmission_mode, dvbcfg_transmission_mode_list);
-      const char *return_value_dvbcfg_lookup_setting$12;
-      return_value_dvbcfg_lookup_setting$12=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.u.dvbt.guard_interval, dvbcfg_guard_interval_list);
-      const char *return_value_dvbcfg_lookup_setting$13;
-      return_value_dvbcfg_lookup_setting$13=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.u.dvbt.hierarchy_information, dvbcfg_hierarchy_list);
-      ret_val=fprintf(file, "%i:%s:%s:%s:%s:%s:%s:%s:%s:", tmp.fe_params.frequency, return_value_dvbcfg_lookup_setting$6, return_value_dvbcfg_lookup_setting$7, return_value_dvbcfg_lookup_setting$8, return_value_dvbcfg_lookup_setting$9, return_value_dvbcfg_lookup_setting$10, return_value_dvbcfg_lookup_setting$11, return_value_dvbcfg_lookup_setting$12, return_value_dvbcfg_lookup_setting$13);
+      const char *return_value_dvbcfg_lookup_setting_6;
+      return_value_dvbcfg_lookup_setting_6=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.inversion, dvbcfg_inversion_list);
+      const char *return_value_dvbcfg_lookup_setting_7;
+      return_value_dvbcfg_lookup_setting_7=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.u.dvbt.bandwidth, dvbcfg_bandwidth_list);
+      const char *return_value_dvbcfg_lookup_setting_8;
+      return_value_dvbcfg_lookup_setting_8=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.u.dvbt.code_rate_HP, dvbcfg_fec_list);
+      const char *return_value_dvbcfg_lookup_setting_9;
+      return_value_dvbcfg_lookup_setting_9=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.u.dvbt.code_rate_LP, dvbcfg_fec_list);
+      const char *return_value_dvbcfg_lookup_setting_10;
+      return_value_dvbcfg_lookup_setting_10=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.u.dvbt.constellation, dvbcfg_constellation_list);
+      const char *return_value_dvbcfg_lookup_setting_11;
+      return_value_dvbcfg_lookup_setting_11=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.u.dvbt.transmission_mode, dvbcfg_transmission_mode_list);
+      const char *return_value_dvbcfg_lookup_setting_12;
+      return_value_dvbcfg_lookup_setting_12=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.u.dvbt.guard_interval, dvbcfg_guard_interval_list);
+      const char *return_value_dvbcfg_lookup_setting_13;
+      return_value_dvbcfg_lookup_setting_13=dvbcfg_lookup_setting((unsigned int)tmp.fe_params.u.dvbt.hierarchy_information, dvbcfg_hierarchy_list);
+      ret_val=fprintf(file, "%i:%s:%s:%s:%s:%s:%s:%s:%s:", tmp.fe_params.frequency, return_value_dvbcfg_lookup_setting_6, return_value_dvbcfg_lookup_setting_7, return_value_dvbcfg_lookup_setting_8, return_value_dvbcfg_lookup_setting_9, return_value_dvbcfg_lookup_setting_10, return_value_dvbcfg_lookup_setting_11, return_value_dvbcfg_lookup_setting_12, return_value_dvbcfg_lookup_setting_13);
       if(!(ret_val >= 0))
         return ret_val;
 
@@ -9727,18 +9727,18 @@ extern signed long int dvbdate_to_unixtime(unsigned char *dvbdate)
 
     tm.tm_year = tm.tm_year + k;
     tm.tm_mon = (tm.tm_mon - 2) - k * 12;
-    unsigned int return_value_bcd_to_integer$1;
-    return_value_bcd_to_integer$1=bcd_to_integer((unsigned int)dvbdate[(signed long int)4]);
-    tm.tm_sec = (signed int)return_value_bcd_to_integer$1;
-    unsigned int return_value_bcd_to_integer$2;
-    return_value_bcd_to_integer$2=bcd_to_integer((unsigned int)dvbdate[(signed long int)3]);
-    tm.tm_min = (signed int)return_value_bcd_to_integer$2;
-    unsigned int return_value_bcd_to_integer$3;
-    return_value_bcd_to_integer$3=bcd_to_integer((unsigned int)dvbdate[(signed long int)2]);
-    tm.tm_hour = (signed int)return_value_bcd_to_integer$3;
-    signed long int return_value_mktime$4;
-    return_value_mktime$4=mktime(&tm);
-    return return_value_mktime$4;
+    unsigned int return_value_bcd_to_integer_1;
+    return_value_bcd_to_integer_1=bcd_to_integer((unsigned int)dvbdate[(signed long int)4]);
+    tm.tm_sec = (signed int)return_value_bcd_to_integer_1;
+    unsigned int return_value_bcd_to_integer_2;
+    return_value_bcd_to_integer_2=bcd_to_integer((unsigned int)dvbdate[(signed long int)3]);
+    tm.tm_min = (signed int)return_value_bcd_to_integer_2;
+    unsigned int return_value_bcd_to_integer_3;
+    return_value_bcd_to_integer_3=bcd_to_integer((unsigned int)dvbdate[(signed long int)2]);
+    tm.tm_hour = (signed int)return_value_bcd_to_integer_3;
+    signed long int return_value_mktime_4;
+    return_value_mktime_4=mktime(&tm);
+    return return_value_mktime_4;
   }
 }
 
@@ -9809,9 +9809,9 @@ extern signed int dvbdemux_open_dvr(signed int adapter, signed int dvrdevice, si
 // file dvbdemux.c line 252
 extern signed int dvbdemux_set_buffer(signed int fd, signed int bufsize)
 {
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(45 << 0) | (unsigned int)(0 << 0 + 8 + 8)), bufsize);
-  return return_value_ioctl$1;
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(45 << 0) | (unsigned int)(0 << 0 + 8 + 8)), bufsize);
+  return return_value_ioctl_1;
 }
 
 // dvbdemux_set_pes_filter
@@ -9889,9 +9889,9 @@ extern signed int dvbdemux_set_pes_filter(signed int fd, signed int pid, signed 
   if(!(start == 0))
     filter.flags = filter.flags | (unsigned int)4;
 
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(44 << 0)) | sizeof(struct dmx_pes_filter_params) /*20ul*/  << 0 + 8 + 8, &filter);
-  return return_value_ioctl$1;
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(44 << 0)) | sizeof(struct dmx_pes_filter_params) /*20ul*/  << 0 + 8 + 8, &filter);
+  return return_value_ioctl_1;
 }
 
 // dvbdemux_set_pid_filter
@@ -9944,9 +9944,9 @@ extern signed int dvbdemux_set_pid_filter(signed int fd, signed int pid, signed 
   if(!(start == 0))
     filter.flags = filter.flags | (unsigned int)4;
 
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(44 << 0)) | sizeof(struct dmx_pes_filter_params) /*20ul*/  << 0 + 8 + 8, &filter);
-  return return_value_ioctl$1;
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(44 << 0)) | sizeof(struct dmx_pes_filter_params) /*20ul*/  << 0 + 8 + 8, &filter);
+  return return_value_ioctl_1;
 }
 
 // dvbdemux_set_section_filter
@@ -9967,27 +9967,27 @@ extern signed int dvbdemux_set_section_filter(signed int fd, signed int pid, uns
   if(!(checkcrc == 0))
     sctfilter.flags = sctfilter.flags | (unsigned int)1;
 
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(43 << 0)) | sizeof(struct dmx_sct_filter_params) /*60ul*/  << 0 + 8 + 8, &sctfilter);
-  return return_value_ioctl$1;
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(43 << 0)) | sizeof(struct dmx_sct_filter_params) /*60ul*/  << 0 + 8 + 8, &sctfilter);
+  return return_value_ioctl_1;
 }
 
 // dvbdemux_start
 // file dvbdemux.c line 228
 extern signed int dvbdemux_start(signed int fd)
 {
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(41 << 0) | (unsigned int)(0 << 0 + 8 + 8)));
-  return return_value_ioctl$1;
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(41 << 0) | (unsigned int)(0 << 0 + 8 + 8)));
+  return return_value_ioctl_1;
 }
 
 // dvbdemux_stop
 // file dvbdemux.c line 233
 extern signed int dvbdemux_stop(signed int fd)
 {
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(42 << 0) | (unsigned int)(0 << 0 + 8 + 8)));
-  return return_value_ioctl$1;
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(42 << 0) | (unsigned int)(0 << 0 + 8 + 8)));
+  return return_value_ioctl_1;
 }
 
 // dvbduration_to_seconds
@@ -9995,15 +9995,15 @@ extern signed int dvbdemux_stop(signed int fd)
 extern signed int dvbduration_to_seconds(unsigned char *dvbduration)
 {
   signed int seconds = 0;
-  unsigned int return_value_bcd_to_integer$1;
-  return_value_bcd_to_integer$1=bcd_to_integer((unsigned int)dvbduration[(signed long int)0]);
-  seconds = seconds + (signed int)(return_value_bcd_to_integer$1 * (unsigned int)60 * (unsigned int)60);
-  unsigned int return_value_bcd_to_integer$2;
-  return_value_bcd_to_integer$2=bcd_to_integer((unsigned int)dvbduration[(signed long int)1]);
-  seconds = seconds + (signed int)(return_value_bcd_to_integer$2 * (unsigned int)60);
-  unsigned int return_value_bcd_to_integer$3;
-  return_value_bcd_to_integer$3=bcd_to_integer((unsigned int)dvbduration[(signed long int)2]);
-  seconds = seconds + (signed int)return_value_bcd_to_integer$3;
+  unsigned int return_value_bcd_to_integer_1;
+  return_value_bcd_to_integer_1=bcd_to_integer((unsigned int)dvbduration[(signed long int)0]);
+  seconds = seconds + (signed int)(return_value_bcd_to_integer_1 * (unsigned int)60 * (unsigned int)60);
+  unsigned int return_value_bcd_to_integer_2;
+  return_value_bcd_to_integer_2=bcd_to_integer((unsigned int)dvbduration[(signed long int)1]);
+  seconds = seconds + (signed int)(return_value_bcd_to_integer_2 * (unsigned int)60);
+  unsigned int return_value_bcd_to_integer_3;
+  return_value_bcd_to_integer_3=bcd_to_integer((unsigned int)dvbduration[(signed long int)2]);
+  seconds = seconds + (signed int)return_value_bcd_to_integer_3;
   return seconds;
 }
 
@@ -10058,19 +10058,19 @@ extern signed int dvbfe_do_diseqc_command(struct dvbfe_handle *fehandle, unsigne
     if(ret == -1)
       do
         if(verbose >= 1)
-          vprint$link14("%s: IOCTL failed\n", (const void *)"dvbfe_do_diseqc_command");
+          vprint_link14("%s: IOCTL failed\n", (const void *)"dvbfe_do_diseqc_command");
 
         else
           if(verbose >= 1 && verbose >= 2)
-            vprint$link14("%s: IOCTL failed\n", (const void *)"dvbfe_do_diseqc_command");
+            vprint_link14("%s: IOCTL failed\n", (const void *)"dvbfe_do_diseqc_command");
 
           else
             if(verbose >= 1 && verbose >= 3)
-              vprint$link14("%s: IOCTL failed\n", (const void *)"dvbfe_do_diseqc_command");
+              vprint_link14("%s: IOCTL failed\n", (const void *)"dvbfe_do_diseqc_command");
 
             else
               if(verbose >= 1 && verbose >= 4)
-                vprint$link14("%s: IOCTL failed\n", (const void *)"dvbfe_do_diseqc_command");
+                vprint_link14("%s: IOCTL failed\n", (const void *)"dvbfe_do_diseqc_command");
 
       while((_Bool)0);
 
@@ -10087,19 +10087,19 @@ extern signed int dvbfe_do_dishnetworks_legacy_command(struct dvbfe_handle *feha
   if(ret == -1)
     do
       if(verbose >= 1)
-        vprint$link14("%s: IOCTL failed\n", (const void *)"dvbfe_do_dishnetworks_legacy_command");
+        vprint_link14("%s: IOCTL failed\n", (const void *)"dvbfe_do_dishnetworks_legacy_command");
 
       else
         if(verbose >= 1 && verbose >= 2)
-          vprint$link14("%s: IOCTL failed\n", (const void *)"dvbfe_do_dishnetworks_legacy_command");
+          vprint_link14("%s: IOCTL failed\n", (const void *)"dvbfe_do_dishnetworks_legacy_command");
 
         else
           if(verbose >= 1 && verbose >= 3)
-            vprint$link14("%s: IOCTL failed\n", (const void *)"dvbfe_do_dishnetworks_legacy_command");
+            vprint_link14("%s: IOCTL failed\n", (const void *)"dvbfe_do_dishnetworks_legacy_command");
 
           else
             if(verbose >= 1 && verbose >= 4)
-              vprint$link14("%s: IOCTL failed\n", (const void *)"dvbfe_do_dishnetworks_legacy_command");
+              vprint_link14("%s: IOCTL failed\n", (const void *)"dvbfe_do_dishnetworks_legacy_command");
 
     while((_Bool)0);
 
@@ -10121,18 +10121,18 @@ extern signed int dvbfe_get_info(struct dvbfe_handle *fehandle, enum dvbfe_info_
     {
       if(!((DVBFE_INFO_LOCKSTATUS & (signed int)querymask) == 0))
       {
-        signed int return_value_ioctl$1;
-        return_value_ioctl$1=ioctl(fehandle->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(69 << 0)) | sizeof(enum fe_status) /*4ul*/  << 0 + 8 + 8, &kevent.status);
-        if(return_value_ioctl$1 == 0)
+        signed int return_value_ioctl_1;
+        return_value_ioctl_1=ioctl(fehandle->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(69 << 0)) | sizeof(enum fe_status) /*4ul*/  << 0 + 8 + 8, &kevent.status);
+        if(return_value_ioctl_1 == 0)
           returnval = returnval | DVBFE_INFO_LOCKSTATUS;
 
       }
 
       if(!((DVBFE_INFO_FEPARAMS & (signed int)querymask) == 0))
       {
-        signed int return_value_ioctl$2;
-        return_value_ioctl$2=ioctl(fehandle->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(77 << 0)) | sizeof(struct dvb_frontend_parameters) /*36ul*/  << 0 + 8 + 8, &kevent.parameters);
-        if(return_value_ioctl$2 == 0)
+        signed int return_value_ioctl_2;
+        return_value_ioctl_2=ioctl(fehandle->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(77 << 0)) | sizeof(struct dvb_frontend_parameters) /*36ul*/  << 0 + 8 + 8, &kevent.parameters);
+        if(return_value_ioctl_2 == 0)
           returnval = returnval | DVBFE_INFO_FEPARAMS;
 
       }
@@ -10145,9 +10145,9 @@ extern signed int dvbfe_get_info(struct dvbfe_handle *fehandle, enum dvbfe_info_
       pollfd.fd = fehandle->fd;
       pollfd.events = (signed short int)(0x001 | 0x008);
       ok = 1;
-      signed int return_value_poll$3;
-      return_value_poll$3=poll(&pollfd, (unsigned long int)1, timeout);
-      if(!(return_value_poll$3 >= 0))
+      signed int return_value_poll_3;
+      return_value_poll_3=poll(&pollfd, (unsigned long int)1, timeout);
+      if(!(return_value_poll_3 >= 0))
         ok = 0;
 
       if(!((0x008 & (signed int)pollfd.revents) == 0))
@@ -10158,9 +10158,9 @@ extern signed int dvbfe_get_info(struct dvbfe_handle *fehandle, enum dvbfe_info_
 
       if(!(ok == 0) && (!((DVBFE_INFO_LOCKSTATUS & (signed int)querymask) == 0) || !((DVBFE_INFO_FEPARAMS & (signed int)querymask) == 0)))
       {
-        signed int return_value_ioctl$4;
-        return_value_ioctl$4=ioctl(fehandle->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(78 << 0)) | sizeof(struct dvb_frontend_event) /*40ul*/  << 0 + 8 + 8, &kevent);
-        if(return_value_ioctl$4 == 0)
+        signed int return_value_ioctl_4;
+        return_value_ioctl_4=ioctl(fehandle->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(78 << 0)) | sizeof(struct dvb_frontend_event) /*40ul*/  << 0 + 8 + 8, &kevent);
+        if(return_value_ioctl_4 == 0)
         {
           if(!((DVBFE_INFO_LOCKSTATUS & (signed int)querymask) == 0))
             returnval = returnval | DVBFE_INFO_LOCKSTATUS;
@@ -10183,99 +10183,99 @@ extern signed int dvbfe_get_info(struct dvbfe_handle *fehandle, enum dvbfe_info_
     result->lock = (unsigned int)(((signed int)kevent.status & FE_HAS_LOCK) != 0 ? 1 : 0);
   }
 
-  signed int return_value_lookupval$6;
-  signed int return_value_lookupval$7;
-  signed int return_value_lookupval$8;
-  signed int return_value_lookupval$9;
-  signed int return_value_lookupval$10;
-  signed int return_value_lookupval$11;
-  signed int return_value_lookupval$12;
-  signed int return_value_lookupval$13;
-  signed int return_value_lookupval$14;
-  signed int return_value_lookupval$15;
-  signed int return_value_lookupval$16;
+  signed int return_value_lookupval_6;
+  signed int return_value_lookupval_7;
+  signed int return_value_lookupval_8;
+  signed int return_value_lookupval_9;
+  signed int return_value_lookupval_10;
+  signed int return_value_lookupval_11;
+  signed int return_value_lookupval_12;
+  signed int return_value_lookupval_13;
+  signed int return_value_lookupval_14;
+  signed int return_value_lookupval_15;
+  signed int return_value_lookupval_16;
   if(!((DVBFE_INFO_FEPARAMS & returnval) == 0))
   {
     result->feparams.frequency = kevent.parameters.frequency;
-    signed int return_value_lookupval$5;
-    return_value_lookupval$5=lookupval((signed int)kevent.parameters.inversion, 1, dvbfe_spectral_inversion_to_kapi);
-    result->feparams.inversion = (enum dvbfe_spectral_inversion)return_value_lookupval$5;
+    signed int return_value_lookupval_5;
+    return_value_lookupval_5=lookupval((signed int)kevent.parameters.inversion, 1, dvbfe_spectral_inversion_to_kapi);
+    result->feparams.inversion = (enum dvbfe_spectral_inversion)return_value_lookupval_5;
     switch((signed int)fehandle->type)
     {
       case FE_QPSK:
       {
         result->feparams.u.dvbs.symbol_rate = kevent.parameters.u.qpsk.symbol_rate;
-        return_value_lookupval$6=lookupval((signed int)kevent.parameters.u.qpsk.fec_inner, 1, dvbfe_code_rate_to_kapi);
-        result->feparams.u.dvbs.fec_inner = (enum dvbfe_code_rate)return_value_lookupval$6;
+        return_value_lookupval_6=lookupval((signed int)kevent.parameters.u.qpsk.fec_inner, 1, dvbfe_code_rate_to_kapi);
+        result->feparams.u.dvbs.fec_inner = (enum dvbfe_code_rate)return_value_lookupval_6;
         break;
       }
       case FE_QAM:
       {
         result->feparams.u.dvbc.symbol_rate = kevent.parameters.u.qam.symbol_rate;
-        return_value_lookupval$7=lookupval((signed int)kevent.parameters.u.qam.fec_inner, 1, dvbfe_code_rate_to_kapi);
-        result->feparams.u.dvbc.fec_inner = (enum dvbfe_code_rate)return_value_lookupval$7;
-        return_value_lookupval$8=lookupval((signed int)kevent.parameters.u.qam.modulation, 1, dvbfe_dvbc_mod_to_kapi);
-        result->feparams.u.dvbc.modulation = (enum dvbfe_dvbc_mod)return_value_lookupval$8;
+        return_value_lookupval_7=lookupval((signed int)kevent.parameters.u.qam.fec_inner, 1, dvbfe_code_rate_to_kapi);
+        result->feparams.u.dvbc.fec_inner = (enum dvbfe_code_rate)return_value_lookupval_7;
+        return_value_lookupval_8=lookupval((signed int)kevent.parameters.u.qam.modulation, 1, dvbfe_dvbc_mod_to_kapi);
+        result->feparams.u.dvbc.modulation = (enum dvbfe_dvbc_mod)return_value_lookupval_8;
         break;
       }
       case FE_OFDM:
       {
-        return_value_lookupval$9=lookupval((signed int)kevent.parameters.u.ofdm.bandwidth, 1, dvbfe_dvbt_bandwidth_to_kapi);
-        result->feparams.u.dvbt.bandwidth = (enum dvbfe_dvbt_bandwidth)return_value_lookupval$9;
-        return_value_lookupval$10=lookupval((signed int)kevent.parameters.u.ofdm.code_rate_HP, 1, dvbfe_code_rate_to_kapi);
-        result->feparams.u.dvbt.code_rate_HP = (enum dvbfe_code_rate)return_value_lookupval$10;
-        return_value_lookupval$11=lookupval((signed int)kevent.parameters.u.ofdm.code_rate_LP, 1, dvbfe_code_rate_to_kapi);
-        result->feparams.u.dvbt.code_rate_LP = (enum dvbfe_code_rate)return_value_lookupval$11;
-        return_value_lookupval$12=lookupval((signed int)kevent.parameters.u.ofdm.constellation, 1, dvbfe_dvbt_const_to_kapi);
-        result->feparams.u.dvbt.constellation = (enum dvbfe_dvbt_const)return_value_lookupval$12;
-        return_value_lookupval$13=lookupval((signed int)kevent.parameters.u.ofdm.transmission_mode, 1, dvbfe_dvbt_transmit_mode_to_kapi);
-        result->feparams.u.dvbt.transmission_mode = (enum dvbfe_dvbt_transmit_mode)return_value_lookupval$13;
-        return_value_lookupval$14=lookupval((signed int)kevent.parameters.u.ofdm.guard_interval, 1, dvbfe_dvbt_guard_interval_to_kapi);
-        result->feparams.u.dvbt.guard_interval = (enum dvbfe_dvbt_guard_interval)return_value_lookupval$14;
-        return_value_lookupval$15=lookupval((signed int)kevent.parameters.u.ofdm.hierarchy_information, 1, dvbfe_dvbt_hierarchy_to_kapi);
-        result->feparams.u.dvbt.hierarchy_information = (enum dvbfe_dvbt_hierarchy)return_value_lookupval$15;
+        return_value_lookupval_9=lookupval((signed int)kevent.parameters.u.ofdm.bandwidth, 1, dvbfe_dvbt_bandwidth_to_kapi);
+        result->feparams.u.dvbt.bandwidth = (enum dvbfe_dvbt_bandwidth)return_value_lookupval_9;
+        return_value_lookupval_10=lookupval((signed int)kevent.parameters.u.ofdm.code_rate_HP, 1, dvbfe_code_rate_to_kapi);
+        result->feparams.u.dvbt.code_rate_HP = (enum dvbfe_code_rate)return_value_lookupval_10;
+        return_value_lookupval_11=lookupval((signed int)kevent.parameters.u.ofdm.code_rate_LP, 1, dvbfe_code_rate_to_kapi);
+        result->feparams.u.dvbt.code_rate_LP = (enum dvbfe_code_rate)return_value_lookupval_11;
+        return_value_lookupval_12=lookupval((signed int)kevent.parameters.u.ofdm.constellation, 1, dvbfe_dvbt_const_to_kapi);
+        result->feparams.u.dvbt.constellation = (enum dvbfe_dvbt_const)return_value_lookupval_12;
+        return_value_lookupval_13=lookupval((signed int)kevent.parameters.u.ofdm.transmission_mode, 1, dvbfe_dvbt_transmit_mode_to_kapi);
+        result->feparams.u.dvbt.transmission_mode = (enum dvbfe_dvbt_transmit_mode)return_value_lookupval_13;
+        return_value_lookupval_14=lookupval((signed int)kevent.parameters.u.ofdm.guard_interval, 1, dvbfe_dvbt_guard_interval_to_kapi);
+        result->feparams.u.dvbt.guard_interval = (enum dvbfe_dvbt_guard_interval)return_value_lookupval_14;
+        return_value_lookupval_15=lookupval((signed int)kevent.parameters.u.ofdm.hierarchy_information, 1, dvbfe_dvbt_hierarchy_to_kapi);
+        result->feparams.u.dvbt.hierarchy_information = (enum dvbfe_dvbt_hierarchy)return_value_lookupval_15;
         break;
       }
       case FE_ATSC:
       {
-        return_value_lookupval$16=lookupval((signed int)kevent.parameters.u.vsb.modulation, 1, dvbfe_atsc_mod_to_kapi);
-        result->feparams.u.atsc.modulation = (enum dvbfe_atsc_mod)return_value_lookupval$16;
+        return_value_lookupval_16=lookupval((signed int)kevent.parameters.u.vsb.modulation, 1, dvbfe_atsc_mod_to_kapi);
+        result->feparams.u.atsc.modulation = (enum dvbfe_atsc_mod)return_value_lookupval_16;
       }
     }
   }
 
   if(!((DVBFE_INFO_BER & (signed int)querymask) == 0))
   {
-    signed int return_value_ioctl$17;
-    return_value_ioctl$17=ioctl(fehandle->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(70 << 0)) | sizeof(unsigned int) /*4ul*/  << 0 + 8 + 8, &result->ber);
-    if(return_value_ioctl$17 == 0)
+    signed int return_value_ioctl_17;
+    return_value_ioctl_17=ioctl(fehandle->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(70 << 0)) | sizeof(unsigned int) /*4ul*/  << 0 + 8 + 8, &result->ber);
+    if(return_value_ioctl_17 == 0)
       returnval = returnval | DVBFE_INFO_BER;
 
   }
 
   if(!((DVBFE_INFO_SIGNAL_STRENGTH & (signed int)querymask) == 0))
   {
-    signed int return_value_ioctl$18;
-    return_value_ioctl$18=ioctl(fehandle->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(71 << 0)) | sizeof(unsigned short int) /*2ul*/  << 0 + 8 + 8, &result->signal_strength);
-    if(return_value_ioctl$18 == 0)
+    signed int return_value_ioctl_18;
+    return_value_ioctl_18=ioctl(fehandle->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(71 << 0)) | sizeof(unsigned short int) /*2ul*/  << 0 + 8 + 8, &result->signal_strength);
+    if(return_value_ioctl_18 == 0)
       returnval = returnval | DVBFE_INFO_SIGNAL_STRENGTH;
 
   }
 
   if(!((DVBFE_INFO_SNR & (signed int)querymask) == 0))
   {
-    signed int return_value_ioctl$19;
-    return_value_ioctl$19=ioctl(fehandle->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(72 << 0)) | sizeof(unsigned short int) /*2ul*/  << 0 + 8 + 8, &result->snr);
-    if(return_value_ioctl$19 == 0)
+    signed int return_value_ioctl_19;
+    return_value_ioctl_19=ioctl(fehandle->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(72 << 0)) | sizeof(unsigned short int) /*2ul*/  << 0 + 8 + 8, &result->snr);
+    if(return_value_ioctl_19 == 0)
       returnval = returnval | DVBFE_INFO_SNR;
 
   }
 
   if(!((DVBFE_INFO_UNCORRECTED_BLOCKS & (signed int)querymask) == 0))
   {
-    signed int return_value_ioctl$20;
-    return_value_ioctl$20=ioctl(fehandle->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(73 << 0)) | sizeof(unsigned int) /*4ul*/  << 0 + 8 + 8, &result->ucblocks);
-    if(return_value_ioctl$20 == 0)
+    signed int return_value_ioctl_20;
+    return_value_ioctl_20=ioctl(fehandle->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(73 << 0)) | sizeof(unsigned int) /*4ul*/  << 0 + 8 + 8, &result->ucblocks);
+    if(return_value_ioctl_20 == 0)
       returnval = returnval | DVBFE_INFO_UNCORRECTED_BLOCKS;
 
   }
@@ -10319,9 +10319,9 @@ extern struct dvbfe_handle * dvbfe_open(signed int adapter, signed int frontend,
 
   __CPROVER_DUMP_L2:
     ;
-    signed int return_value_ioctl$1;
-    return_value_ioctl$1=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(61 << 0)) | sizeof(struct dvb_frontend_info) /*168ul*/  << 0 + 8 + 8, &info);
-    if(!(return_value_ioctl$1 == 0))
+    signed int return_value_ioctl_1;
+    return_value_ioctl_1=ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(61 << 0)) | sizeof(struct dvb_frontend_info) /*168ul*/  << 0 + 8 + 8, &info);
+    if(!(return_value_ioctl_1 == 0))
     {
       close(fd);
       return (struct dvbfe_handle *)(void *)0;
@@ -10329,9 +10329,9 @@ extern struct dvbfe_handle * dvbfe_open(signed int adapter, signed int frontend,
 
     else
     {
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct dvbfe_handle) /*16ul*/ );
-      fehandle = (struct dvbfe_handle *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct dvbfe_handle) /*16ul*/ );
+      fehandle = (struct dvbfe_handle *)return_value_malloc_2;
       memset((void *)fehandle, 0, sizeof(struct dvbfe_handle) /*16ul*/ );
       fehandle->fd = fd;
       switch((signed int)info.type)
@@ -10369,60 +10369,60 @@ extern signed int dvbfe_set(struct dvbfe_handle *fehandle, struct dvbfe_paramete
   struct timeval endtime;
   enum fe_status status;
   kparams.frequency = params->frequency;
-  signed int return_value_lookupval$1;
-  return_value_lookupval$1=lookupval((signed int)params->inversion, 0, dvbfe_spectral_inversion_to_kapi);
-  kparams.inversion = (enum fe_spectral_inversion)return_value_lookupval$1;
-  signed int return_value_lookupval$2;
-  signed int return_value_lookupval$3;
-  signed int return_value_lookupval$4;
-  signed int return_value_lookupval$5;
-  signed int return_value_lookupval$6;
-  signed int return_value_lookupval$7;
-  signed int return_value_lookupval$8;
-  signed int return_value_lookupval$9;
-  signed int return_value_lookupval$10;
-  signed int return_value_lookupval$11;
-  signed int return_value_lookupval$12;
+  signed int return_value_lookupval_1;
+  return_value_lookupval_1=lookupval((signed int)params->inversion, 0, dvbfe_spectral_inversion_to_kapi);
+  kparams.inversion = (enum fe_spectral_inversion)return_value_lookupval_1;
+  signed int return_value_lookupval_2;
+  signed int return_value_lookupval_3;
+  signed int return_value_lookupval_4;
+  signed int return_value_lookupval_5;
+  signed int return_value_lookupval_6;
+  signed int return_value_lookupval_7;
+  signed int return_value_lookupval_8;
+  signed int return_value_lookupval_9;
+  signed int return_value_lookupval_10;
+  signed int return_value_lookupval_11;
+  signed int return_value_lookupval_12;
   switch((signed int)fehandle->type)
   {
     case FE_QPSK:
     {
       kparams.u.qpsk.symbol_rate = params->u.dvbs.symbol_rate;
-      return_value_lookupval$2=lookupval((signed int)params->u.dvbs.fec_inner, 0, dvbfe_code_rate_to_kapi);
-      kparams.u.qpsk.fec_inner = (enum fe_code_rate)return_value_lookupval$2;
+      return_value_lookupval_2=lookupval((signed int)params->u.dvbs.fec_inner, 0, dvbfe_code_rate_to_kapi);
+      kparams.u.qpsk.fec_inner = (enum fe_code_rate)return_value_lookupval_2;
       break;
     }
     case FE_QAM:
     {
       kparams.u.qam.symbol_rate = params->u.dvbc.symbol_rate;
-      return_value_lookupval$3=lookupval((signed int)params->u.dvbc.fec_inner, 0, dvbfe_code_rate_to_kapi);
-      kparams.u.qam.fec_inner = (enum fe_code_rate)return_value_lookupval$3;
-      return_value_lookupval$4=lookupval((signed int)params->u.dvbc.modulation, 0, dvbfe_dvbc_mod_to_kapi);
-      kparams.u.qam.modulation = (enum fe_modulation)return_value_lookupval$4;
+      return_value_lookupval_3=lookupval((signed int)params->u.dvbc.fec_inner, 0, dvbfe_code_rate_to_kapi);
+      kparams.u.qam.fec_inner = (enum fe_code_rate)return_value_lookupval_3;
+      return_value_lookupval_4=lookupval((signed int)params->u.dvbc.modulation, 0, dvbfe_dvbc_mod_to_kapi);
+      kparams.u.qam.modulation = (enum fe_modulation)return_value_lookupval_4;
       break;
     }
     case FE_OFDM:
     {
-      return_value_lookupval$5=lookupval((signed int)params->u.dvbt.bandwidth, 0, dvbfe_dvbt_bandwidth_to_kapi);
-      kparams.u.ofdm.bandwidth = (enum fe_bandwidth)return_value_lookupval$5;
-      return_value_lookupval$6=lookupval((signed int)params->u.dvbt.code_rate_HP, 0, dvbfe_code_rate_to_kapi);
-      kparams.u.ofdm.code_rate_HP = (enum fe_code_rate)return_value_lookupval$6;
-      return_value_lookupval$7=lookupval((signed int)params->u.dvbt.code_rate_LP, 0, dvbfe_code_rate_to_kapi);
-      kparams.u.ofdm.code_rate_LP = (enum fe_code_rate)return_value_lookupval$7;
-      return_value_lookupval$8=lookupval((signed int)params->u.dvbt.constellation, 0, dvbfe_dvbt_const_to_kapi);
-      kparams.u.ofdm.constellation = (enum fe_modulation)return_value_lookupval$8;
-      return_value_lookupval$9=lookupval((signed int)params->u.dvbt.transmission_mode, 0, dvbfe_dvbt_transmit_mode_to_kapi);
-      kparams.u.ofdm.transmission_mode = (enum fe_transmit_mode)return_value_lookupval$9;
-      return_value_lookupval$10=lookupval((signed int)params->u.dvbt.guard_interval, 0, dvbfe_dvbt_guard_interval_to_kapi);
-      kparams.u.ofdm.guard_interval = (enum fe_guard_interval)return_value_lookupval$10;
-      return_value_lookupval$11=lookupval((signed int)params->u.dvbt.hierarchy_information, 0, dvbfe_dvbt_hierarchy_to_kapi);
-      kparams.u.ofdm.hierarchy_information = (enum fe_hierarchy)return_value_lookupval$11;
+      return_value_lookupval_5=lookupval((signed int)params->u.dvbt.bandwidth, 0, dvbfe_dvbt_bandwidth_to_kapi);
+      kparams.u.ofdm.bandwidth = (enum fe_bandwidth)return_value_lookupval_5;
+      return_value_lookupval_6=lookupval((signed int)params->u.dvbt.code_rate_HP, 0, dvbfe_code_rate_to_kapi);
+      kparams.u.ofdm.code_rate_HP = (enum fe_code_rate)return_value_lookupval_6;
+      return_value_lookupval_7=lookupval((signed int)params->u.dvbt.code_rate_LP, 0, dvbfe_code_rate_to_kapi);
+      kparams.u.ofdm.code_rate_LP = (enum fe_code_rate)return_value_lookupval_7;
+      return_value_lookupval_8=lookupval((signed int)params->u.dvbt.constellation, 0, dvbfe_dvbt_const_to_kapi);
+      kparams.u.ofdm.constellation = (enum fe_modulation)return_value_lookupval_8;
+      return_value_lookupval_9=lookupval((signed int)params->u.dvbt.transmission_mode, 0, dvbfe_dvbt_transmit_mode_to_kapi);
+      kparams.u.ofdm.transmission_mode = (enum fe_transmit_mode)return_value_lookupval_9;
+      return_value_lookupval_10=lookupval((signed int)params->u.dvbt.guard_interval, 0, dvbfe_dvbt_guard_interval_to_kapi);
+      kparams.u.ofdm.guard_interval = (enum fe_guard_interval)return_value_lookupval_10;
+      return_value_lookupval_11=lookupval((signed int)params->u.dvbt.hierarchy_information, 0, dvbfe_dvbt_hierarchy_to_kapi);
+      kparams.u.ofdm.hierarchy_information = (enum fe_hierarchy)return_value_lookupval_11;
       break;
     }
     case FE_ATSC:
     {
-      return_value_lookupval$12=lookupval((signed int)params->u.atsc.modulation, 0, dvbfe_atsc_mod_to_kapi);
-      kparams.u.vsb.modulation = (enum fe_modulation)return_value_lookupval$12;
+      return_value_lookupval_12=lookupval((signed int)params->u.atsc.modulation, 0, dvbfe_atsc_mod_to_kapi);
+      kparams.u.vsb.modulation = (enum fe_modulation)return_value_lookupval_12;
       break;
     }
     default:
@@ -10448,9 +10448,9 @@ extern signed int dvbfe_set(struct dvbfe_handle *fehandle, struct dvbfe_paramete
 
       while((_Bool)1)
       {
-        signed int return_value_ioctl$13;
-        return_value_ioctl$13=ioctl(fehandle->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(69 << 0)) | sizeof(enum fe_status) /*4ul*/  << 0 + 8 + 8, &status);
-        if(return_value_ioctl$13 == 0)
+        signed int return_value_ioctl_13;
+        return_value_ioctl_13=ioctl(fehandle->fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(69 << 0)) | sizeof(enum fe_status) /*4ul*/  << 0 + 8 + 8, &status);
+        if(return_value_ioctl_13 == 0)
         {
           if(!((FE_HAS_LOCK & (signed int)status) == 0))
             break;
@@ -10496,38 +10496,38 @@ extern signed int dvbfe_set_22k_tone(struct dvbfe_handle *fehandle, enum dvbfe_s
     default:
       do
         if(verbose >= 1)
-          vprint$link14("%s: Invalid command !\n", (const void *)"dvbfe_set_22k_tone");
+          vprint_link14("%s: Invalid command !\n", (const void *)"dvbfe_set_22k_tone");
 
         else
           if(verbose >= 1 && verbose >= 2)
-            vprint$link14("%s: Invalid command !\n", (const void *)"dvbfe_set_22k_tone");
+            vprint_link14("%s: Invalid command !\n", (const void *)"dvbfe_set_22k_tone");
 
           else
             if(verbose >= 1 && verbose >= 3)
-              vprint$link14("%s: Invalid command !\n", (const void *)"dvbfe_set_22k_tone");
+              vprint_link14("%s: Invalid command !\n", (const void *)"dvbfe_set_22k_tone");
 
             else
               if(verbose >= 1 && verbose >= 4)
-                vprint$link14("%s: Invalid command !\n", (const void *)"dvbfe_set_22k_tone");
+                vprint_link14("%s: Invalid command !\n", (const void *)"dvbfe_set_22k_tone");
 
       while((_Bool)0);
   }
   if(ret == -1)
     do
       if(verbose >= 1)
-        vprint$link14("%s: IOCTL failed !\n", (const void *)"dvbfe_set_22k_tone");
+        vprint_link14("%s: IOCTL failed !\n", (const void *)"dvbfe_set_22k_tone");
 
       else
         if(verbose >= 1 && verbose >= 2)
-          vprint$link14("%s: IOCTL failed !\n", (const void *)"dvbfe_set_22k_tone");
+          vprint_link14("%s: IOCTL failed !\n", (const void *)"dvbfe_set_22k_tone");
 
         else
           if(verbose >= 1 && verbose >= 3)
-            vprint$link14("%s: IOCTL failed !\n", (const void *)"dvbfe_set_22k_tone");
+            vprint_link14("%s: IOCTL failed !\n", (const void *)"dvbfe_set_22k_tone");
 
           else
             if(verbose >= 1 && verbose >= 4)
-              vprint$link14("%s: IOCTL failed !\n", (const void *)"dvbfe_set_22k_tone");
+              vprint_link14("%s: IOCTL failed !\n", (const void *)"dvbfe_set_22k_tone");
 
     while((_Bool)0);
 
@@ -10571,38 +10571,38 @@ extern signed int dvbfe_set_tone_data_burst(struct dvbfe_handle *fehandle, enum 
     default:
       do
         if(verbose >= 1)
-          vprint$link14("%s: Invalid command\n", (const void *)"dvbfe_set_tone_data_burst");
+          vprint_link14("%s: Invalid command\n", (const void *)"dvbfe_set_tone_data_burst");
 
         else
           if(verbose >= 1 && verbose >= 2)
-            vprint$link14("%s: Invalid command\n", (const void *)"dvbfe_set_tone_data_burst");
+            vprint_link14("%s: Invalid command\n", (const void *)"dvbfe_set_tone_data_burst");
 
           else
             if(verbose >= 1 && verbose >= 3)
-              vprint$link14("%s: Invalid command\n", (const void *)"dvbfe_set_tone_data_burst");
+              vprint_link14("%s: Invalid command\n", (const void *)"dvbfe_set_tone_data_burst");
 
             else
               if(verbose >= 1 && verbose >= 4)
-                vprint$link14("%s: Invalid command\n", (const void *)"dvbfe_set_tone_data_burst");
+                vprint_link14("%s: Invalid command\n", (const void *)"dvbfe_set_tone_data_burst");
 
       while((_Bool)0);
   }
   if(ret == -1)
     do
       if(verbose >= 1)
-        vprint$link14("%s: IOCTL failed\n", (const void *)"dvbfe_set_tone_data_burst");
+        vprint_link14("%s: IOCTL failed\n", (const void *)"dvbfe_set_tone_data_burst");
 
       else
         if(verbose >= 1 && verbose >= 2)
-          vprint$link14("%s: IOCTL failed\n", (const void *)"dvbfe_set_tone_data_burst");
+          vprint_link14("%s: IOCTL failed\n", (const void *)"dvbfe_set_tone_data_burst");
 
         else
           if(verbose >= 1 && verbose >= 3)
-            vprint$link14("%s: IOCTL failed\n", (const void *)"dvbfe_set_tone_data_burst");
+            vprint_link14("%s: IOCTL failed\n", (const void *)"dvbfe_set_tone_data_burst");
 
           else
             if(verbose >= 1 && verbose >= 4)
-              vprint$link14("%s: IOCTL failed\n", (const void *)"dvbfe_set_tone_data_burst");
+              vprint_link14("%s: IOCTL failed\n", (const void *)"dvbfe_set_tone_data_burst");
 
     while((_Bool)0);
 
@@ -10634,38 +10634,38 @@ extern signed int dvbfe_set_voltage(struct dvbfe_handle *fehandle, enum dvbfe_se
     default:
       do
         if(verbose >= 1)
-          vprint$link14("%s: Invalid command\n", (const void *)"dvbfe_set_voltage");
+          vprint_link14("%s: Invalid command\n", (const void *)"dvbfe_set_voltage");
 
         else
           if(verbose >= 1 && verbose >= 2)
-            vprint$link14("%s: Invalid command\n", (const void *)"dvbfe_set_voltage");
+            vprint_link14("%s: Invalid command\n", (const void *)"dvbfe_set_voltage");
 
           else
             if(verbose >= 1 && verbose >= 3)
-              vprint$link14("%s: Invalid command\n", (const void *)"dvbfe_set_voltage");
+              vprint_link14("%s: Invalid command\n", (const void *)"dvbfe_set_voltage");
 
             else
               if(verbose >= 1 && verbose >= 4)
-                vprint$link14("%s: Invalid command\n", (const void *)"dvbfe_set_voltage");
+                vprint_link14("%s: Invalid command\n", (const void *)"dvbfe_set_voltage");
 
       while((_Bool)0);
   }
   if(ret == -1)
     do
       if(verbose >= 1)
-        vprint$link14("%s: IOCTL failed\n", (const void *)"dvbfe_set_voltage");
+        vprint_link14("%s: IOCTL failed\n", (const void *)"dvbfe_set_voltage");
 
       else
         if(verbose >= 1 && verbose >= 2)
-          vprint$link14("%s: IOCTL failed\n", (const void *)"dvbfe_set_voltage");
+          vprint_link14("%s: IOCTL failed\n", (const void *)"dvbfe_set_voltage");
 
         else
           if(verbose >= 1 && verbose >= 3)
-            vprint$link14("%s: IOCTL failed\n", (const void *)"dvbfe_set_voltage");
+            vprint_link14("%s: IOCTL failed\n", (const void *)"dvbfe_set_voltage");
 
           else
             if(verbose >= 1 && verbose >= 4)
-              vprint$link14("%s: IOCTL failed\n", (const void *)"dvbfe_set_voltage");
+              vprint_link14("%s: IOCTL failed\n", (const void *)"dvbfe_set_voltage");
 
     while((_Bool)0);
 
@@ -10677,12 +10677,12 @@ extern signed int dvbfe_set_voltage(struct dvbfe_handle *fehandle, enum dvbfe_se
 extern signed int dvbhhmm_to_seconds(unsigned char *dvbhhmm)
 {
   signed int seconds = 0;
-  unsigned int return_value_bcd_to_integer$1;
-  return_value_bcd_to_integer$1=bcd_to_integer((unsigned int)dvbhhmm[(signed long int)0]);
-  seconds = seconds + (signed int)(return_value_bcd_to_integer$1 * (unsigned int)60 * (unsigned int)60);
-  unsigned int return_value_bcd_to_integer$2;
-  return_value_bcd_to_integer$2=bcd_to_integer((unsigned int)dvbhhmm[(signed long int)1]);
-  seconds = seconds + (signed int)(return_value_bcd_to_integer$2 * (unsigned int)60);
+  unsigned int return_value_bcd_to_integer_1;
+  return_value_bcd_to_integer_1=bcd_to_integer((unsigned int)dvbhhmm[(signed long int)0]);
+  seconds = seconds + (signed int)(return_value_bcd_to_integer_1 * (unsigned int)60 * (unsigned int)60);
+  unsigned int return_value_bcd_to_integer_2;
+  return_value_bcd_to_integer_2=bcd_to_integer((unsigned int)dvbhhmm[(signed long int)1]);
+  seconds = seconds + (signed int)(return_value_bcd_to_integer_2 * (unsigned int)60);
   return seconds;
 }
 
@@ -10772,9 +10772,9 @@ extern signed int dvbnet_open(signed int adapter, signed int netdeviceid)
 // file dvbnet.c line 101
 extern signed int dvbnet_remove_interface(signed int fd, signed int ifnum)
 {
-  signed int return_value_ioctl$1;
-  return_value_ioctl$1=ioctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(53 << 0) | (unsigned int)(0 << 0 + 8 + 8)), ifnum);
-  return return_value_ioctl$1;
+  signed int return_value_ioctl_1;
+  return_value_ioctl_1=ioctl(fd, (unsigned long int)(0U << 0 + 8 + 8 + 14 | (unsigned int)(111 << 0 + 8) | (unsigned int)(53 << 0) | (unsigned int)(0 << 0 + 8 + 8)), ifnum);
+  return return_value_ioctl_1;
 }
 
 // dvbsec_cfg_find
@@ -10799,9 +10799,9 @@ extern signed int dvbsec_cfg_find(const char *config_file, const char *sec_id, s
 
   }
 
-  signed int return_value_dvbsec_cfg_find_default$1;
-  return_value_dvbsec_cfg_find_default$1=dvbsec_cfg_find_default(sec_id, sec);
-  return return_value_dvbsec_cfg_find_default$1;
+  signed int return_value_dvbsec_cfg_find_default_1;
+  return_value_dvbsec_cfg_find_default_1=dvbsec_cfg_find_default(sec_id, sec);
+  return return_value_dvbsec_cfg_find_default_1;
 }
 
 // dvbsec_cfg_find_callback
@@ -10809,9 +10809,9 @@ extern signed int dvbsec_cfg_find(const char *config_file, const char *sec_id, s
 static signed int dvbsec_cfg_find_callback(void *arg, struct dvbsec_config *sec)
 {
   struct findparams *findp = (struct findparams *)arg;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(findp->sec_id, sec->id);
-  if(!(return_value_strcmp$1 == 0))
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(findp->sec_id, sec->id);
+  if(!(return_value_strcmp_1 == 0))
     return 0;
 
   else
@@ -10828,9 +10828,9 @@ static signed int dvbsec_cfg_find_default(const char *sec_id, struct dvbsec_conf
   unsigned int i = (unsigned int)0;
   for( ; !((unsigned long int)i >= 7ul); i = i + 1u)
   {
-    signed int return_value_strncmp$1;
-    return_value_strncmp$1=strncmp(sec_id, defaults[(signed long int)i].id, sizeof(char [32l]) /*32ul*/ );
-    if(return_value_strncmp$1 == 0)
+    signed int return_value_strncmp_1;
+    return_value_strncmp_1=strncmp(sec_id, defaults[(signed long int)i].id, sizeof(char [32l]) /*32ul*/ );
+    if(return_value_strncmp_1 == 0)
     {
       memcpy((void *)sec, (const void *)&defaults[(signed long int)i], sizeof(struct dvbsec_config) /*872ul*/ );
       return 0;
@@ -10850,16 +10850,16 @@ extern signed int dvbsec_cfg_load(struct _IO_FILE *f, void *arg, signed int (*cb
   signed int len;
   signed int insection = 0;
   char *value;
-  signed long int return_value_getline$1;
-  const unsigned short int **return_value___ctype_b_loc$3;
-  const unsigned short int **return_value___ctype_b_loc$4;
-  signed int return_value_strcasecmp$16;
-  signed int return_value_strcasecmp$15;
-  signed int return_value_strcasecmp$14;
+  signed long int return_value_getline_1;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  const unsigned short int **return_value___ctype_b_loc_4;
+  signed int return_value_strcasecmp_16;
+  signed int return_value_strcasecmp_15;
+  signed int return_value_strcasecmp_14;
   do
   {
-    return_value_getline$1=getline(&linebuf, &line_size, f);
-    len = (signed int)return_value_getline$1;
+    return_value_getline_1=getline(&linebuf, &line_size, f);
+    len = (signed int)return_value_getline_1;
     if(!(len >= 1))
       break;
 
@@ -10870,29 +10870,29 @@ extern signed int dvbsec_cfg_load(struct _IO_FILE *f, void *arg, signed int (*cb
       *hashpos = (char)0;
 
     char *lineend;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(line);
-    lineend = line + (signed long int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(line);
+    lineend = line + (signed long int)return_value_strlen_2;
     for( ; !(*line == 0); line = line + 1l)
     {
-      return_value___ctype_b_loc$3=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*line]) == 0)
+      return_value___ctype_b_loc_3=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*line]) == 0)
         break;
 
     }
     for( ; !(lineend == line); lineend = lineend - 1l)
     {
-      return_value___ctype_b_loc$4=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$4)[(signed long int)(signed int)lineend[-1l]]) == 0)
+      return_value___ctype_b_loc_4=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_4)[(signed long int)(signed int)lineend[-1l]]) == 0)
         break;
 
     }
     *lineend = (char)0;
     if(!((signed int)*line == 0))
     {
-      signed int return_value_dvbcfg_issection$18;
-      return_value_dvbcfg_issection$18=dvbcfg_issection(line, "sec");
-      if(!(return_value_dvbcfg_issection$18 == 0))
+      signed int return_value_dvbcfg_issection_18;
+      return_value_dvbcfg_issection_18=dvbcfg_issection(line, "sec");
+      if(!(return_value_dvbcfg_issection_18 == 0))
       {
         if(!(insection == 0))
         {
@@ -10918,9 +10918,9 @@ extern signed int dvbsec_cfg_load(struct _IO_FILE *f, void *arg, signed int (*cb
           value=dvbcfg_iskey(line, "switch-frequency");
           if(!(value == ((char *)NULL)))
           {
-            signed int return_value_atoi$5;
-            return_value_atoi$5=atoi(value);
-            tmpsec.switch_frequency = (unsigned int)return_value_atoi$5;
+            signed int return_value_atoi_5;
+            return_value_atoi_5=atoi(value);
+            tmpsec.switch_frequency = (unsigned int)return_value_atoi_5;
           }
 
           else
@@ -10928,9 +10928,9 @@ extern signed int dvbsec_cfg_load(struct _IO_FILE *f, void *arg, signed int (*cb
             value=dvbcfg_iskey(line, "lof-lo-v");
             if(!(value == ((char *)NULL)))
             {
-              signed int return_value_atoi$6;
-              return_value_atoi$6=atoi(value);
-              tmpsec.lof_lo_v = (unsigned int)return_value_atoi$6;
+              signed int return_value_atoi_6;
+              return_value_atoi_6=atoi(value);
+              tmpsec.lof_lo_v = (unsigned int)return_value_atoi_6;
             }
 
             else
@@ -10938,9 +10938,9 @@ extern signed int dvbsec_cfg_load(struct _IO_FILE *f, void *arg, signed int (*cb
               value=dvbcfg_iskey(line, "lof-lo-h");
               if(!(value == ((char *)NULL)))
               {
-                signed int return_value_atoi$7;
-                return_value_atoi$7=atoi(value);
-                tmpsec.lof_lo_h = (unsigned int)return_value_atoi$7;
+                signed int return_value_atoi_7;
+                return_value_atoi_7=atoi(value);
+                tmpsec.lof_lo_h = (unsigned int)return_value_atoi_7;
               }
 
               else
@@ -10948,9 +10948,9 @@ extern signed int dvbsec_cfg_load(struct _IO_FILE *f, void *arg, signed int (*cb
                 value=dvbcfg_iskey(line, "lof-lo-l");
                 if(!(value == ((char *)NULL)))
                 {
-                  signed int return_value_atoi$8;
-                  return_value_atoi$8=atoi(value);
-                  tmpsec.lof_lo_l = (unsigned int)return_value_atoi$8;
+                  signed int return_value_atoi_8;
+                  return_value_atoi_8=atoi(value);
+                  tmpsec.lof_lo_l = (unsigned int)return_value_atoi_8;
                 }
 
                 else
@@ -10958,9 +10958,9 @@ extern signed int dvbsec_cfg_load(struct _IO_FILE *f, void *arg, signed int (*cb
                   value=dvbcfg_iskey(line, "lof-lo-r");
                   if(!(value == ((char *)NULL)))
                   {
-                    signed int return_value_atoi$9;
-                    return_value_atoi$9=atoi(value);
-                    tmpsec.lof_lo_r = (unsigned int)return_value_atoi$9;
+                    signed int return_value_atoi_9;
+                    return_value_atoi_9=atoi(value);
+                    tmpsec.lof_lo_r = (unsigned int)return_value_atoi_9;
                   }
 
                   else
@@ -10968,9 +10968,9 @@ extern signed int dvbsec_cfg_load(struct _IO_FILE *f, void *arg, signed int (*cb
                     value=dvbcfg_iskey(line, "lof-hi-v");
                     if(!(value == ((char *)NULL)))
                     {
-                      signed int return_value_atoi$10;
-                      return_value_atoi$10=atoi(value);
-                      tmpsec.lof_hi_v = (unsigned int)return_value_atoi$10;
+                      signed int return_value_atoi_10;
+                      return_value_atoi_10=atoi(value);
+                      tmpsec.lof_hi_v = (unsigned int)return_value_atoi_10;
                     }
 
                     else
@@ -10978,9 +10978,9 @@ extern signed int dvbsec_cfg_load(struct _IO_FILE *f, void *arg, signed int (*cb
                       value=dvbcfg_iskey(line, "lof-hi-h");
                       if(!(value == ((char *)NULL)))
                       {
-                        signed int return_value_atoi$11;
-                        return_value_atoi$11=atoi(value);
-                        tmpsec.lof_hi_h = (unsigned int)return_value_atoi$11;
+                        signed int return_value_atoi_11;
+                        return_value_atoi_11=atoi(value);
+                        tmpsec.lof_hi_h = (unsigned int)return_value_atoi_11;
                       }
 
                       else
@@ -10988,9 +10988,9 @@ extern signed int dvbsec_cfg_load(struct _IO_FILE *f, void *arg, signed int (*cb
                         value=dvbcfg_iskey(line, "lof-hi-l");
                         if(!(value == ((char *)NULL)))
                         {
-                          signed int return_value_atoi$12;
-                          return_value_atoi$12=atoi(value);
-                          tmpsec.lof_hi_l = (unsigned int)return_value_atoi$12;
+                          signed int return_value_atoi_12;
+                          return_value_atoi_12=atoi(value);
+                          tmpsec.lof_hi_l = (unsigned int)return_value_atoi_12;
                         }
 
                         else
@@ -10998,9 +10998,9 @@ extern signed int dvbsec_cfg_load(struct _IO_FILE *f, void *arg, signed int (*cb
                           value=dvbcfg_iskey(line, "lof-hi-r");
                           if(!(value == ((char *)NULL)))
                           {
-                            signed int return_value_atoi$13;
-                            return_value_atoi$13=atoi(value);
-                            tmpsec.lof_hi_r = (unsigned int)return_value_atoi$13;
+                            signed int return_value_atoi_13;
+                            return_value_atoi_13=atoi(value);
+                            tmpsec.lof_hi_r = (unsigned int)return_value_atoi_13;
                           }
 
                           else
@@ -11008,27 +11008,27 @@ extern signed int dvbsec_cfg_load(struct _IO_FILE *f, void *arg, signed int (*cb
                             value=dvbcfg_iskey(line, "config-type");
                             if(!(value == ((char *)NULL)))
                             {
-                              signed int return_value_strcasecmp$17;
-                              return_value_strcasecmp$17=strcasecmp(value, "none");
-                              if(return_value_strcasecmp$17 == 0)
+                              signed int return_value_strcasecmp_17;
+                              return_value_strcasecmp_17=strcasecmp(value, "none");
+                              if(return_value_strcasecmp_17 == 0)
                                 tmpsec.config_type = (enum dvbsec_config_type)DVBSEC_CONFIG_NONE;
 
                               else
                               {
-                                return_value_strcasecmp$16=strcasecmp(value, "power");
-                                if(return_value_strcasecmp$16 == 0)
+                                return_value_strcasecmp_16=strcasecmp(value, "power");
+                                if(return_value_strcasecmp_16 == 0)
                                   tmpsec.config_type = (enum dvbsec_config_type)DVBSEC_CONFIG_POWER;
 
                                 else
                                 {
-                                  return_value_strcasecmp$15=strcasecmp(value, "standard");
-                                  if(return_value_strcasecmp$15 == 0)
+                                  return_value_strcasecmp_15=strcasecmp(value, "standard");
+                                  if(return_value_strcasecmp_15 == 0)
                                     tmpsec.config_type = (enum dvbsec_config_type)DVBSEC_CONFIG_STANDARD;
 
                                   else
                                   {
-                                    return_value_strcasecmp$14=strcasecmp(value, "advanced");
-                                    if(return_value_strcasecmp$14 == 0)
+                                    return_value_strcasecmp_14=strcasecmp(value, "advanced");
+                                    if(return_value_strcasecmp_14 == 0)
                                       tmpsec.config_type = (enum dvbsec_config_type)DVBSEC_CONFIG_ADVANCED;
 
                                     else
@@ -11228,39 +11228,39 @@ extern signed int dvbsec_command(struct dvbfe_handle *fe, char *command)
   signed int iarg3;
   signed int iarg4;
   float farg;
-  signed int return_value_parsefunction$1;
-  signed int return_value_strncasecmp$52;
-  signed int return_value_strncasecmp$51;
-  signed int return_value_strncasecmp$50;
-  signed int return_value_strncasecmp$49;
-  signed int return_value_strncasecmp$48;
-  signed int return_value_strncasecmp$47;
-  signed int return_value_strncasecmp$46;
-  signed int return_value_strncasecmp$45;
-  signed int return_value_strncasecmp$44;
-  signed int return_value_strncasecmp$43;
-  signed int return_value_strncasecmp$42;
-  signed int return_value_strncasecmp$41;
-  signed int return_value_strncasecmp$40;
+  signed int return_value_parsefunction_1;
+  signed int return_value_strncasecmp_52;
+  signed int return_value_strncasecmp_51;
+  signed int return_value_strncasecmp_50;
+  signed int return_value_strncasecmp_49;
+  signed int return_value_strncasecmp_48;
+  signed int return_value_strncasecmp_47;
+  signed int return_value_strncasecmp_46;
+  signed int return_value_strncasecmp_45;
+  signed int return_value_strncasecmp_44;
+  signed int return_value_strncasecmp_43;
+  signed int return_value_strncasecmp_42;
+  signed int return_value_strncasecmp_41;
+  signed int return_value_strncasecmp_40;
   do
   {
-    return_value_parsefunction$1=parsefunction(&command, &name, &namelen, &args, &argslen);
-    if(!(return_value_parsefunction$1 == 0))
+    return_value_parsefunction_1=parsefunction(&command, &name, &namelen, &args, &argslen);
+    if(!(return_value_parsefunction_1 == 0))
       break;
 
     char *argsend = args + (signed long int)argslen;
-    signed int return_value_strncasecmp$53;
-    return_value_strncasecmp$53=strncasecmp(name, "tone", (unsigned long int)namelen);
-    if(return_value_strncasecmp$53 == 0)
+    signed int return_value_strncasecmp_53;
+    return_value_strncasecmp_53=strncasecmp(name, "tone", (unsigned long int)namelen);
+    if(return_value_strncasecmp_53 == 0)
     {
-      signed int return_value_parsechararg$2;
-      return_value_parsechararg$2=parsechararg(&args, argsend, &iarg);
-      if(!(return_value_parsechararg$2 == 0))
+      signed int return_value_parsechararg_2;
+      return_value_parsechararg_2=parsechararg(&args, argsend, &iarg);
+      if(!(return_value_parsechararg_2 == 0))
         return -1;
 
-      signed int return_value_toupper$3;
-      return_value_toupper$3=toupper(iarg);
-      if(return_value_toupper$3 == 66)
+      signed int return_value_toupper_3;
+      return_value_toupper_3=toupper(iarg);
+      if(return_value_toupper_3 == 66)
         dvbfe_set_22k_tone(fe, (enum dvbfe_sec_tone_mode)DVBFE_SEC_TONE_ON);
 
       else
@@ -11269,12 +11269,12 @@ extern signed int dvbsec_command(struct dvbfe_handle *fe, char *command)
 
     else
     {
-      return_value_strncasecmp$52=strncasecmp(name, "voltage", (unsigned long int)namelen);
-      if(return_value_strncasecmp$52 == 0)
+      return_value_strncasecmp_52=strncasecmp(name, "voltage", (unsigned long int)namelen);
+      if(return_value_strncasecmp_52 == 0)
       {
-        signed int return_value_parseintarg$4;
-        return_value_parseintarg$4=parseintarg(&args, argsend, &iarg);
-        if(!(return_value_parseintarg$4 == 0))
+        signed int return_value_parseintarg_4;
+        return_value_parseintarg_4=parseintarg(&args, argsend, &iarg);
+        if(!(return_value_parseintarg_4 == 0))
           return -1;
 
         switch(iarg)
@@ -11301,17 +11301,17 @@ extern signed int dvbsec_command(struct dvbfe_handle *fe, char *command)
 
       else
       {
-        return_value_strncasecmp$51=strncasecmp(name, "toneburst", (unsigned long int)namelen);
-        if(return_value_strncasecmp$51 == 0)
+        return_value_strncasecmp_51=strncasecmp(name, "toneburst", (unsigned long int)namelen);
+        if(return_value_strncasecmp_51 == 0)
         {
-          signed int return_value_parsechararg$5;
-          return_value_parsechararg$5=parsechararg(&args, argsend, &iarg);
-          if(!(return_value_parsechararg$5 == 0))
+          signed int return_value_parsechararg_5;
+          return_value_parsechararg_5=parsechararg(&args, argsend, &iarg);
+          if(!(return_value_parsechararg_5 == 0))
             return -1;
 
-          signed int return_value_toupper$6;
-          return_value_toupper$6=toupper(iarg);
-          if(return_value_toupper$6 == 66)
+          signed int return_value_toupper_6;
+          return_value_toupper_6=toupper(iarg);
+          if(return_value_toupper_6 == 66)
             dvbfe_set_tone_data_burst(fe, (enum dvbfe_sec_mini_cmd)DVBFE_SEC_MINI_B);
 
           else
@@ -11320,12 +11320,12 @@ extern signed int dvbsec_command(struct dvbfe_handle *fe, char *command)
 
         else
         {
-          return_value_strncasecmp$50=strncasecmp(name, "highvoltage", (unsigned long int)namelen);
-          if(return_value_strncasecmp$50 == 0)
+          return_value_strncasecmp_50=strncasecmp(name, "highvoltage", (unsigned long int)namelen);
+          if(return_value_strncasecmp_50 == 0)
           {
-            signed int return_value_parseintarg$7;
-            return_value_parseintarg$7=parseintarg(&args, argsend, &iarg);
-            if(!(return_value_parseintarg$7 == 0))
+            signed int return_value_parseintarg_7;
+            return_value_parseintarg_7=parseintarg(&args, argsend, &iarg);
+            if(!(return_value_parseintarg_7 == 0))
               return -1;
 
             dvbfe_set_high_lnb_voltage(fe, iarg != 0 ? 1 : 0);
@@ -11333,12 +11333,12 @@ extern signed int dvbsec_command(struct dvbfe_handle *fe, char *command)
 
           else
           {
-            return_value_strncasecmp$49=strncasecmp(name, "dishnetworks", (unsigned long int)namelen);
-            if(return_value_strncasecmp$49 == 0)
+            return_value_strncasecmp_49=strncasecmp(name, "dishnetworks", (unsigned long int)namelen);
+            if(return_value_strncasecmp_49 == 0)
             {
-              signed int return_value_parseintarg$8;
-              return_value_parseintarg$8=parseintarg(&args, argsend, &iarg);
-              if(!(return_value_parseintarg$8 == 0))
+              signed int return_value_parseintarg_8;
+              return_value_parseintarg_8=parseintarg(&args, argsend, &iarg);
+              if(!(return_value_parseintarg_8 == 0))
                 return -1;
 
               dvbfe_do_dishnetworks_legacy_command(fe, (unsigned int)iarg);
@@ -11346,12 +11346,12 @@ extern signed int dvbsec_command(struct dvbfe_handle *fe, char *command)
 
             else
             {
-              return_value_strncasecmp$48=strncasecmp(name, "wait", (unsigned long int)namelen);
-              if(return_value_strncasecmp$48 == 0)
+              return_value_strncasecmp_48=strncasecmp(name, "wait", (unsigned long int)namelen);
+              if(return_value_strncasecmp_48 == 0)
               {
-                signed int return_value_parseintarg$9;
-                return_value_parseintarg$9=parseintarg(&args, argsend, &iarg);
-                if(!(return_value_parseintarg$9 == 0))
+                signed int return_value_parseintarg_9;
+                return_value_parseintarg_9=parseintarg(&args, argsend, &iarg);
+                if(!(return_value_parseintarg_9 == 0))
                   return -1;
 
                 if(!(iarg == 0))
@@ -11361,17 +11361,17 @@ extern signed int dvbsec_command(struct dvbfe_handle *fe, char *command)
 
               else
               {
-                return_value_strncasecmp$47=strncasecmp(name, "Dreset", (unsigned long int)namelen);
-                if(return_value_strncasecmp$47 == 0)
+                return_value_strncasecmp_47=strncasecmp(name, "Dreset", (unsigned long int)namelen);
+                if(return_value_strncasecmp_47 == 0)
                 {
-                  signed int return_value_parseintarg$10;
-                  return_value_parseintarg$10=parseintarg(&args, argsend, &address);
-                  if(!(return_value_parseintarg$10 == 0))
+                  signed int return_value_parseintarg_10;
+                  return_value_parseintarg_10=parseintarg(&args, argsend, &address);
+                  if(!(return_value_parseintarg_10 == 0))
                     return -1;
 
-                  signed int return_value_parseintarg$11;
-                  return_value_parseintarg$11=parseintarg(&args, argsend, &iarg);
-                  if(!(return_value_parseintarg$11 == 0))
+                  signed int return_value_parseintarg_11;
+                  return_value_parseintarg_11=parseintarg(&args, argsend, &iarg);
+                  if(!(return_value_parseintarg_11 == 0))
                     return -1;
 
                   if(!(iarg == 0))
@@ -11383,17 +11383,17 @@ extern signed int dvbsec_command(struct dvbfe_handle *fe, char *command)
 
                 else
                 {
-                  return_value_strncasecmp$46=strncasecmp(name, "Dpower", (unsigned long int)namelen);
-                  if(return_value_strncasecmp$46 == 0)
+                  return_value_strncasecmp_46=strncasecmp(name, "Dpower", (unsigned long int)namelen);
+                  if(return_value_strncasecmp_46 == 0)
                   {
-                    signed int return_value_parseintarg$12;
-                    return_value_parseintarg$12=parseintarg(&args, argsend, &address);
-                    if(!(return_value_parseintarg$12 == 0))
+                    signed int return_value_parseintarg_12;
+                    return_value_parseintarg_12=parseintarg(&args, argsend, &address);
+                    if(!(return_value_parseintarg_12 == 0))
                       return -1;
 
-                    signed int return_value_parseintarg$13;
-                    return_value_parseintarg$13=parseintarg(&args, argsend, &iarg);
-                    if(!(return_value_parseintarg$13 == 0))
+                    signed int return_value_parseintarg_13;
+                    return_value_parseintarg_13=parseintarg(&args, argsend, &iarg);
+                    if(!(return_value_parseintarg_13 == 0))
                       return -1;
 
                     if(!(iarg == 0))
@@ -11405,38 +11405,38 @@ extern signed int dvbsec_command(struct dvbfe_handle *fe, char *command)
 
                   else
                   {
-                    return_value_strncasecmp$45=strncasecmp(name, "Dcommitted", (unsigned long int)namelen);
-                    if(return_value_strncasecmp$45 == 0)
+                    return_value_strncasecmp_45=strncasecmp(name, "Dcommitted", (unsigned long int)namelen);
+                    if(return_value_strncasecmp_45 == 0)
                     {
-                      signed int return_value_parseintarg$14;
-                      return_value_parseintarg$14=parseintarg(&args, argsend, &address);
-                      if(!(return_value_parseintarg$14 == 0))
+                      signed int return_value_parseintarg_14;
+                      return_value_parseintarg_14=parseintarg(&args, argsend, &address);
+                      if(!(return_value_parseintarg_14 == 0))
                         return -1;
 
-                      signed int return_value_parsechararg$15;
-                      return_value_parsechararg$15=parsechararg(&args, argsend, &iarg);
-                      if(!(return_value_parsechararg$15 == 0))
+                      signed int return_value_parsechararg_15;
+                      return_value_parsechararg_15=parsechararg(&args, argsend, &iarg);
+                      if(!(return_value_parsechararg_15 == 0))
                         return -1;
 
-                      signed int return_value_parsechararg$16;
-                      return_value_parsechararg$16=parsechararg(&args, argsend, &iarg2);
-                      if(!(return_value_parsechararg$16 == 0))
+                      signed int return_value_parsechararg_16;
+                      return_value_parsechararg_16=parsechararg(&args, argsend, &iarg2);
+                      if(!(return_value_parsechararg_16 == 0))
                         return -1;
 
-                      signed int return_value_parsechararg$17;
-                      return_value_parsechararg$17=parsechararg(&args, argsend, &iarg3);
-                      if(!(return_value_parsechararg$17 == 0))
+                      signed int return_value_parsechararg_17;
+                      return_value_parsechararg_17=parsechararg(&args, argsend, &iarg3);
+                      if(!(return_value_parsechararg_17 == 0))
                         return -1;
 
-                      signed int return_value_parsechararg$18;
-                      return_value_parsechararg$18=parsechararg(&args, argsend, &iarg4);
-                      if(!(return_value_parsechararg$18 == 0))
+                      signed int return_value_parsechararg_18;
+                      return_value_parsechararg_18=parsechararg(&args, argsend, &iarg4);
+                      if(!(return_value_parsechararg_18 == 0))
                         return -1;
 
                       enum dvbsec_diseqc_oscillator oscillator;
-                      signed int return_value_toupper$19;
-                      return_value_toupper$19=toupper(iarg);
-                      switch(return_value_toupper$19)
+                      signed int return_value_toupper_19;
+                      return_value_toupper_19=toupper(iarg);
+                      switch(return_value_toupper_19)
                       {
                         case 72:
                         {
@@ -11452,9 +11452,9 @@ extern signed int dvbsec_command(struct dvbfe_handle *fe, char *command)
                           oscillator = (enum dvbsec_diseqc_oscillator)DISEQC_OSCILLATOR_UNCHANGED;
                       }
                       signed int polarization = -1;
-                      signed int return_value_toupper$20;
-                      return_value_toupper$20=toupper(iarg2);
-                      switch(return_value_toupper$20)
+                      signed int return_value_toupper_20;
+                      return_value_toupper_20=toupper(iarg2);
+                      switch(return_value_toupper_20)
                       {
                         case 72:
                         {
@@ -11479,67 +11479,67 @@ extern signed int dvbsec_command(struct dvbfe_handle *fe, char *command)
                         default:
                           polarization = -1;
                       }
-                      enum dvbsec_diseqc_switch return_value_parse_switch$21;
-                      return_value_parse_switch$21=parse_switch(iarg3);
-                      enum dvbsec_diseqc_switch return_value_parse_switch$22;
-                      return_value_parse_switch$22=parse_switch(iarg4);
-                      dvbsec_diseqc_set_committed_switches(fe, (enum dvbsec_diseqc_address)address, oscillator, (enum dvbsec_diseqc_polarization)polarization, return_value_parse_switch$21, return_value_parse_switch$22);
+                      enum dvbsec_diseqc_switch return_value_parse_switch_21;
+                      return_value_parse_switch_21=parse_switch(iarg3);
+                      enum dvbsec_diseqc_switch return_value_parse_switch_22;
+                      return_value_parse_switch_22=parse_switch(iarg4);
+                      dvbsec_diseqc_set_committed_switches(fe, (enum dvbsec_diseqc_address)address, oscillator, (enum dvbsec_diseqc_polarization)polarization, return_value_parse_switch_21, return_value_parse_switch_22);
                     }
 
                     else
                     {
-                      return_value_strncasecmp$44=strncasecmp(name, "Duncommitted", (unsigned long int)namelen);
-                      if(return_value_strncasecmp$44 == 0)
+                      return_value_strncasecmp_44=strncasecmp(name, "Duncommitted", (unsigned long int)namelen);
+                      if(return_value_strncasecmp_44 == 0)
                       {
-                        signed int return_value_parsechararg$23;
-                        return_value_parsechararg$23=parsechararg(&args, argsend, &address);
-                        if(!(return_value_parsechararg$23 == 0))
+                        signed int return_value_parsechararg_23;
+                        return_value_parsechararg_23=parsechararg(&args, argsend, &address);
+                        if(!(return_value_parsechararg_23 == 0))
                           return -1;
 
-                        signed int return_value_parsechararg$24;
-                        return_value_parsechararg$24=parsechararg(&args, argsend, &iarg);
-                        if(!(return_value_parsechararg$24 == 0))
+                        signed int return_value_parsechararg_24;
+                        return_value_parsechararg_24=parsechararg(&args, argsend, &iarg);
+                        if(!(return_value_parsechararg_24 == 0))
                           return -1;
 
-                        signed int return_value_parsechararg$25;
-                        return_value_parsechararg$25=parsechararg(&args, argsend, &iarg2);
-                        if(!(return_value_parsechararg$25 == 0))
+                        signed int return_value_parsechararg_25;
+                        return_value_parsechararg_25=parsechararg(&args, argsend, &iarg2);
+                        if(!(return_value_parsechararg_25 == 0))
                           return -1;
 
-                        signed int return_value_parsechararg$26;
-                        return_value_parsechararg$26=parsechararg(&args, argsend, &iarg3);
-                        if(!(return_value_parsechararg$26 == 0))
+                        signed int return_value_parsechararg_26;
+                        return_value_parsechararg_26=parsechararg(&args, argsend, &iarg3);
+                        if(!(return_value_parsechararg_26 == 0))
                           return -1;
 
-                        signed int return_value_parsechararg$27;
-                        return_value_parsechararg$27=parsechararg(&args, argsend, &iarg4);
-                        if(!(return_value_parsechararg$27 == 0))
+                        signed int return_value_parsechararg_27;
+                        return_value_parsechararg_27=parsechararg(&args, argsend, &iarg4);
+                        if(!(return_value_parsechararg_27 == 0))
                           return -1;
 
-                        enum dvbsec_diseqc_switch return_value_parse_switch$28;
-                        return_value_parse_switch$28=parse_switch(iarg);
-                        enum dvbsec_diseqc_switch return_value_parse_switch$29;
-                        return_value_parse_switch$29=parse_switch(iarg2);
-                        enum dvbsec_diseqc_switch return_value_parse_switch$30;
-                        return_value_parse_switch$30=parse_switch(iarg3);
-                        enum dvbsec_diseqc_switch return_value_parse_switch$31;
-                        return_value_parse_switch$31=parse_switch(iarg4);
-                        dvbsec_diseqc_set_uncommitted_switches(fe, (enum dvbsec_diseqc_address)address, return_value_parse_switch$28, return_value_parse_switch$29, return_value_parse_switch$30, return_value_parse_switch$31);
+                        enum dvbsec_diseqc_switch return_value_parse_switch_28;
+                        return_value_parse_switch_28=parse_switch(iarg);
+                        enum dvbsec_diseqc_switch return_value_parse_switch_29;
+                        return_value_parse_switch_29=parse_switch(iarg2);
+                        enum dvbsec_diseqc_switch return_value_parse_switch_30;
+                        return_value_parse_switch_30=parse_switch(iarg3);
+                        enum dvbsec_diseqc_switch return_value_parse_switch_31;
+                        return_value_parse_switch_31=parse_switch(iarg4);
+                        dvbsec_diseqc_set_uncommitted_switches(fe, (enum dvbsec_diseqc_address)address, return_value_parse_switch_28, return_value_parse_switch_29, return_value_parse_switch_30, return_value_parse_switch_31);
                       }
 
                       else
                       {
-                        return_value_strncasecmp$43=strncasecmp(name, "Dfrequency", (unsigned long int)namelen);
-                        if(return_value_strncasecmp$43 == 0)
+                        return_value_strncasecmp_43=strncasecmp(name, "Dfrequency", (unsigned long int)namelen);
+                        if(return_value_strncasecmp_43 == 0)
                         {
-                          signed int return_value_parseintarg$32;
-                          return_value_parseintarg$32=parseintarg(&args, argsend, &address);
-                          if(!(return_value_parseintarg$32 == 0))
+                          signed int return_value_parseintarg_32;
+                          return_value_parseintarg_32=parseintarg(&args, argsend, &address);
+                          if(!(return_value_parseintarg_32 == 0))
                             return -1;
 
-                          signed int return_value_parseintarg$33;
-                          return_value_parseintarg$33=parseintarg(&args, argsend, &iarg);
-                          if(!(return_value_parseintarg$33 == 0))
+                          signed int return_value_parseintarg_33;
+                          return_value_parseintarg_33=parseintarg(&args, argsend, &iarg);
+                          if(!(return_value_parseintarg_33 == 0))
                             return -1;
 
                           dvbsec_diseqc_set_frequency(fe, (enum dvbsec_diseqc_address)address, (unsigned int)iarg);
@@ -11547,17 +11547,17 @@ extern signed int dvbsec_command(struct dvbfe_handle *fe, char *command)
 
                         else
                         {
-                          return_value_strncasecmp$42=strncasecmp(name, "Dchannel", (unsigned long int)namelen);
-                          if(return_value_strncasecmp$42 == 0)
+                          return_value_strncasecmp_42=strncasecmp(name, "Dchannel", (unsigned long int)namelen);
+                          if(return_value_strncasecmp_42 == 0)
                           {
-                            signed int return_value_parseintarg$34;
-                            return_value_parseintarg$34=parseintarg(&args, argsend, &address);
-                            if(!(return_value_parseintarg$34 == 0))
+                            signed int return_value_parseintarg_34;
+                            return_value_parseintarg_34=parseintarg(&args, argsend, &address);
+                            if(!(return_value_parseintarg_34 == 0))
                               return -1;
 
-                            signed int return_value_parseintarg$35;
-                            return_value_parseintarg$35=parseintarg(&args, argsend, &iarg);
-                            if(!(return_value_parseintarg$35 == 0))
+                            signed int return_value_parseintarg_35;
+                            return_value_parseintarg_35=parseintarg(&args, argsend, &iarg);
+                            if(!(return_value_parseintarg_35 == 0))
                               return -1;
 
                             dvbsec_diseqc_set_channel(fe, (enum dvbsec_diseqc_address)address, (unsigned short int)iarg);
@@ -11565,17 +11565,17 @@ extern signed int dvbsec_command(struct dvbfe_handle *fe, char *command)
 
                           else
                           {
-                            return_value_strncasecmp$41=strncasecmp(name, "Dgotopreset", (unsigned long int)namelen);
-                            if(return_value_strncasecmp$41 == 0)
+                            return_value_strncasecmp_41=strncasecmp(name, "Dgotopreset", (unsigned long int)namelen);
+                            if(return_value_strncasecmp_41 == 0)
                             {
-                              signed int return_value_parseintarg$36;
-                              return_value_parseintarg$36=parseintarg(&args, argsend, &address);
-                              if(!(return_value_parseintarg$36 == 0))
+                              signed int return_value_parseintarg_36;
+                              return_value_parseintarg_36=parseintarg(&args, argsend, &address);
+                              if(!(return_value_parseintarg_36 == 0))
                                 return -1;
 
-                              signed int return_value_parseintarg$37;
-                              return_value_parseintarg$37=parseintarg(&args, argsend, &iarg);
-                              if(!(return_value_parseintarg$37 == 0))
+                              signed int return_value_parseintarg_37;
+                              return_value_parseintarg_37=parseintarg(&args, argsend, &iarg);
+                              if(!(return_value_parseintarg_37 == 0))
                                 return -1;
 
                               dvbsec_diseqc_goto_satpos_preset(fe, (enum dvbsec_diseqc_address)address, (unsigned char)iarg);
@@ -11583,17 +11583,17 @@ extern signed int dvbsec_command(struct dvbfe_handle *fe, char *command)
 
                             else
                             {
-                              return_value_strncasecmp$40=strncasecmp(name, "Dgotobearing", (unsigned long int)namelen);
-                              if(return_value_strncasecmp$40 == 0)
+                              return_value_strncasecmp_40=strncasecmp(name, "Dgotobearing", (unsigned long int)namelen);
+                              if(return_value_strncasecmp_40 == 0)
                               {
-                                signed int return_value_parseintarg$38;
-                                return_value_parseintarg$38=parseintarg(&args, argsend, &address);
-                                if(!(return_value_parseintarg$38 == 0))
+                                signed int return_value_parseintarg_38;
+                                return_value_parseintarg_38=parseintarg(&args, argsend, &address);
+                                if(!(return_value_parseintarg_38 == 0))
                                   return -1;
 
-                                signed int return_value_parsefloatarg$39;
-                                return_value_parsefloatarg$39=parsefloatarg(&args, argsend, &farg);
-                                if(!(return_value_parsefloatarg$39 == 0))
+                                signed int return_value_parsefloatarg_39;
+                                return_value_parsefloatarg_39=parsefloatarg(&args, argsend, &farg);
+                                if(!(return_value_parsefloatarg_39 == 0))
                                   return -1;
 
                                 dvbsec_diseqc_goto_rotator_bearing(fe, (enum dvbsec_diseqc_address)address, farg);
@@ -11624,9 +11624,9 @@ extern signed int dvbsec_command(struct dvbfe_handle *fe, char *command)
 extern signed int dvbsec_diseqc_disable_satpos_limits(struct dvbfe_handle *fe, enum dvbsec_diseqc_address address)
 {
   unsigned char data[3l] = { (unsigned char)224, (unsigned char)address, (unsigned char)0x63 };
-  signed int return_value_dvbfe_do_diseqc_command$1;
-  return_value_dvbfe_do_diseqc_command$1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [3l]) /*3ul*/ );
-  return return_value_dvbfe_do_diseqc_command$1;
+  signed int return_value_dvbfe_do_diseqc_command_1;
+  return_value_dvbfe_do_diseqc_command_1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [3l]) /*3ul*/ );
+  return return_value_dvbfe_do_diseqc_command_1;
 }
 
 // dvbsec_diseqc_drive_satpos_motor
@@ -11647,9 +11647,9 @@ extern signed int dvbsec_diseqc_drive_satpos_motor(struct dvbfe_handle *fe, enum
     case DISEQC_DRIVE_MODE_TIMEOUT:
       data[(signed long int)3] = (unsigned char)((signed int)value & 0x7f);
   }
-  signed int return_value_dvbfe_do_diseqc_command$1;
-  return_value_dvbfe_do_diseqc_command$1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [4l]) /*4ul*/ );
-  return return_value_dvbfe_do_diseqc_command$1;
+  signed int return_value_dvbfe_do_diseqc_command_1;
+  return_value_dvbfe_do_diseqc_command_1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [4l]) /*4ul*/ );
+  return return_value_dvbfe_do_diseqc_command_1;
 }
 
 // dvbsec_diseqc_goto_rotator_bearing
@@ -11673,9 +11673,9 @@ extern signed int dvbsec_diseqc_goto_rotator_bearing(struct dvbfe_handle *fe, en
   data[(signed long int)3] = data[(signed long int)3] | (unsigned char)(integer / 16 & 0x0f);
   integer = integer % 16;
   data[(signed long int)4] = data[(signed long int)4] | (unsigned char)((integer & 0x0f) << 4 | fraction);
-  signed int return_value_dvbfe_do_diseqc_command$1;
-  return_value_dvbfe_do_diseqc_command$1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [5l]) /*5ul*/ );
-  return return_value_dvbfe_do_diseqc_command$1;
+  signed int return_value_dvbfe_do_diseqc_command_1;
+  return_value_dvbfe_do_diseqc_command_1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [5l]) /*5ul*/ );
+  return return_value_dvbfe_do_diseqc_command_1;
 }
 
 // dvbsec_diseqc_goto_satpos_preset
@@ -11683,9 +11683,9 @@ extern signed int dvbsec_diseqc_goto_rotator_bearing(struct dvbfe_handle *fe, en
 extern signed int dvbsec_diseqc_goto_satpos_preset(struct dvbfe_handle *fe, enum dvbsec_diseqc_address address, unsigned char id)
 {
   unsigned char data[4l] = { (unsigned char)224, (unsigned char)address, (unsigned char)0x6B, id };
-  signed int return_value_dvbfe_do_diseqc_command$1;
-  return_value_dvbfe_do_diseqc_command$1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [4l]) /*4ul*/ );
-  return return_value_dvbfe_do_diseqc_command$1;
+  signed int return_value_dvbfe_do_diseqc_command_1;
+  return_value_dvbfe_do_diseqc_command_1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [4l]) /*4ul*/ );
+  return return_value_dvbfe_do_diseqc_command_1;
 }
 
 // dvbsec_diseqc_halt_satpos
@@ -11693,9 +11693,9 @@ extern signed int dvbsec_diseqc_goto_satpos_preset(struct dvbfe_handle *fe, enum
 extern signed int dvbsec_diseqc_halt_satpos(struct dvbfe_handle *fe, enum dvbsec_diseqc_address address)
 {
   unsigned char data[3l] = { (unsigned char)224, (unsigned char)address, (unsigned char)0x60 };
-  signed int return_value_dvbfe_do_diseqc_command$1;
-  return_value_dvbfe_do_diseqc_command$1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [3l]) /*3ul*/ );
-  return return_value_dvbfe_do_diseqc_command$1;
+  signed int return_value_dvbfe_do_diseqc_command_1;
+  return_value_dvbfe_do_diseqc_command_1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [3l]) /*3ul*/ );
+  return return_value_dvbfe_do_diseqc_command_1;
 }
 
 // dvbsec_diseqc_recalculate_satpos_positions
@@ -11716,9 +11716,9 @@ extern signed int dvbsec_diseqc_recalculate_satpos_positions(struct dvbfe_handle
     len = 5;
   }
 
-  signed int return_value_dvbfe_do_diseqc_command$1;
-  return_value_dvbfe_do_diseqc_command$1=dvbfe_do_diseqc_command(fe, data, (unsigned char)len);
-  return return_value_dvbfe_do_diseqc_command$1;
+  signed int return_value_dvbfe_do_diseqc_command_1;
+  return_value_dvbfe_do_diseqc_command_1=dvbfe_do_diseqc_command(fe, data, (unsigned char)len);
+  return return_value_dvbfe_do_diseqc_command_1;
 }
 
 // dvbsec_diseqc_set_analog_value
@@ -11729,9 +11729,9 @@ extern signed int dvbsec_diseqc_set_analog_value(struct dvbfe_handle *fe, enum d
   if((signed int)id == DISEQC_ANALOG_ID_A1)
     data[(signed long int)2] = (unsigned char)0x49;
 
-  signed int return_value_dvbfe_do_diseqc_command$1;
-  return_value_dvbfe_do_diseqc_command$1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [4l]) /*4ul*/ );
-  return return_value_dvbfe_do_diseqc_command$1;
+  signed int return_value_dvbfe_do_diseqc_command_1;
+  return_value_dvbfe_do_diseqc_command_1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [4l]) /*4ul*/ );
+  return return_value_dvbfe_do_diseqc_command_1;
 }
 
 // dvbsec_diseqc_set_channel
@@ -11741,9 +11741,9 @@ extern signed int dvbsec_diseqc_set_channel(struct dvbfe_handle *fe, enum dvbsec
   unsigned char data[5l] = { (unsigned char)224, (unsigned char)address, (unsigned char)0x59, (unsigned char)0x00, (unsigned char)0x00 };
   data[(signed long int)3] = (unsigned char)((signed int)channel >> 8);
   data[(signed long int)4] = (unsigned char)channel;
-  signed int return_value_dvbfe_do_diseqc_command$1;
-  return_value_dvbfe_do_diseqc_command$1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [5l]) /*5ul*/ );
-  return return_value_dvbfe_do_diseqc_command$1;
+  signed int return_value_dvbfe_do_diseqc_command_1;
+  return_value_dvbfe_do_diseqc_command_1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [5l]) /*5ul*/ );
+  return return_value_dvbfe_do_diseqc_command_1;
 }
 
 // dvbsec_diseqc_set_committed_switches
@@ -11751,7 +11751,7 @@ extern signed int dvbsec_diseqc_set_channel(struct dvbfe_handle *fe, enum dvbsec
 extern signed int dvbsec_diseqc_set_committed_switches(struct dvbfe_handle *fe, enum dvbsec_diseqc_address address, enum dvbsec_diseqc_oscillator oscillator, enum dvbsec_diseqc_polarization polarization, enum dvbsec_diseqc_switch sat_pos, enum dvbsec_diseqc_switch switch_option)
 {
   unsigned char data[4l] = { (unsigned char)224, (unsigned char)address, (unsigned char)0x38, (unsigned char)0x00 };
-  signed int return_value_dvbfe_do_diseqc_command$1;
+  signed int return_value_dvbfe_do_diseqc_command_1;
   switch((signed int)oscillator)
   {
     case DISEQC_OSCILLATOR_LOW:
@@ -11821,8 +11821,8 @@ extern signed int dvbsec_diseqc_set_committed_switches(struct dvbfe_handle *fe, 
                   if((signed int)data[3l] == 0)
                     return 0;
 
-                  return_value_dvbfe_do_diseqc_command$1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [4l]) /*4ul*/ );
-                  return return_value_dvbfe_do_diseqc_command$1;
+                  return_value_dvbfe_do_diseqc_command_1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [4l]) /*4ul*/ );
+                  return return_value_dvbfe_do_diseqc_command_1;
                 }
               }
             }
@@ -11854,9 +11854,9 @@ extern signed int dvbsec_diseqc_set_frequency(struct dvbfe_handle *fe, enum dvbs
     len = len + 1;
   }
 
-  signed int return_value_dvbfe_do_diseqc_command$1;
-  return_value_dvbfe_do_diseqc_command$1=dvbfe_do_diseqc_command(fe, data, (unsigned char)len);
-  return return_value_dvbfe_do_diseqc_command$1;
+  signed int return_value_dvbfe_do_diseqc_command_1;
+  return_value_dvbfe_do_diseqc_command_1=dvbfe_do_diseqc_command(fe, data, (unsigned char)len);
+  return return_value_dvbfe_do_diseqc_command_1;
 }
 
 // dvbsec_diseqc_set_listen
@@ -11867,9 +11867,9 @@ extern signed int dvbsec_diseqc_set_listen(struct dvbfe_handle *fe, enum dvbsec_
   if((signed int)state == DISEQC_LISTEN_AWAKE)
     data[(signed long int)2] = (unsigned char)0x31;
 
-  signed int return_value_dvbfe_do_diseqc_command$1;
-  return_value_dvbfe_do_diseqc_command$1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [3l]) /*3ul*/ );
-  return return_value_dvbfe_do_diseqc_command$1;
+  signed int return_value_dvbfe_do_diseqc_command_1;
+  return_value_dvbfe_do_diseqc_command_1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [3l]) /*3ul*/ );
+  return return_value_dvbfe_do_diseqc_command_1;
 }
 
 // dvbsec_diseqc_set_power
@@ -11880,9 +11880,9 @@ extern signed int dvbsec_diseqc_set_power(struct dvbfe_handle *fe, enum dvbsec_d
   if((signed int)state == DISEQC_POWER_ON)
     data[(signed long int)2] = (unsigned char)0x03;
 
-  signed int return_value_dvbfe_do_diseqc_command$1;
-  return_value_dvbfe_do_diseqc_command$1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [3l]) /*3ul*/ );
-  return return_value_dvbfe_do_diseqc_command$1;
+  signed int return_value_dvbfe_do_diseqc_command_1;
+  return_value_dvbfe_do_diseqc_command_1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [3l]) /*3ul*/ );
+  return return_value_dvbfe_do_diseqc_command_1;
 }
 
 // dvbsec_diseqc_set_reset
@@ -11893,9 +11893,9 @@ extern signed int dvbsec_diseqc_set_reset(struct dvbfe_handle *fe, enum dvbsec_d
   if((signed int)state == DISEQC_RESET_CLEAR)
     data[(signed long int)2] = (unsigned char)0x01;
 
-  signed int return_value_dvbfe_do_diseqc_command$1;
-  return_value_dvbfe_do_diseqc_command$1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [3l]) /*3ul*/ );
-  return return_value_dvbfe_do_diseqc_command$1;
+  signed int return_value_dvbfe_do_diseqc_command_1;
+  return_value_dvbfe_do_diseqc_command_1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [3l]) /*3ul*/ );
+  return return_value_dvbfe_do_diseqc_command_1;
 }
 
 // dvbsec_diseqc_set_satpos_limit
@@ -11906,9 +11906,9 @@ extern signed int dvbsec_diseqc_set_satpos_limit(struct dvbfe_handle *fe, enum d
   if((signed int)direction == DISEQC_DIRECTION_WEST)
     data[(signed long int)2] = (unsigned char)0x67;
 
-  signed int return_value_dvbfe_do_diseqc_command$1;
-  return_value_dvbfe_do_diseqc_command$1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [3l]) /*3ul*/ );
-  return return_value_dvbfe_do_diseqc_command$1;
+  signed int return_value_dvbfe_do_diseqc_command_1;
+  return_value_dvbfe_do_diseqc_command_1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [3l]) /*3ul*/ );
+  return return_value_dvbfe_do_diseqc_command_1;
 }
 
 // dvbsec_diseqc_set_uncommitted_switches
@@ -11916,7 +11916,7 @@ extern signed int dvbsec_diseqc_set_satpos_limit(struct dvbfe_handle *fe, enum d
 extern signed int dvbsec_diseqc_set_uncommitted_switches(struct dvbfe_handle *fe, enum dvbsec_diseqc_address address, enum dvbsec_diseqc_switch s1, enum dvbsec_diseqc_switch s2, enum dvbsec_diseqc_switch s3, enum dvbsec_diseqc_switch s4)
 {
   unsigned char data[4l] = { (unsigned char)224, (unsigned char)address, (unsigned char)0x39, (unsigned char)0x00 };
-  signed int return_value_dvbfe_do_diseqc_command$1;
+  signed int return_value_dvbfe_do_diseqc_command_1;
   switch((signed int)s1)
   {
     case DISEQC_SWITCH_A:
@@ -11984,8 +11984,8 @@ extern signed int dvbsec_diseqc_set_uncommitted_switches(struct dvbfe_handle *fe
                   if((signed int)data[3l] == 0)
                     return 0;
 
-                  return_value_dvbfe_do_diseqc_command$1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [4l]) /*4ul*/ );
-                  return return_value_dvbfe_do_diseqc_command$1;
+                  return_value_dvbfe_do_diseqc_command_1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [4l]) /*4ul*/ );
+                  return return_value_dvbfe_do_diseqc_command_1;
                 }
               }
             }
@@ -12001,9 +12001,9 @@ extern signed int dvbsec_diseqc_set_uncommitted_switches(struct dvbfe_handle *fe
 extern signed int dvbsec_diseqc_store_satpos_preset(struct dvbfe_handle *fe, enum dvbsec_diseqc_address address, unsigned char id)
 {
   unsigned char data[4l] = { (unsigned char)224, (unsigned char)address, (unsigned char)0x6A, id };
-  signed int return_value_dvbfe_do_diseqc_command$1;
-  return_value_dvbfe_do_diseqc_command$1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [4l]) /*4ul*/ );
-  return return_value_dvbfe_do_diseqc_command$1;
+  signed int return_value_dvbfe_do_diseqc_command_1;
+  return_value_dvbfe_do_diseqc_command_1=dvbfe_do_diseqc_command(fe, data, (unsigned char)sizeof(unsigned char [4l]) /*4ul*/ );
+  return return_value_dvbfe_do_diseqc_command_1;
 }
 
 // dvbsec_set
@@ -12106,13 +12106,13 @@ extern signed int dvbsec_set(struct dvbfe_handle *fe, struct dvbsec_config *sec_
       }
     }
     unsigned int lof = (unsigned int)0;
-    _Bool tmp_if_expr$1;
+    _Bool tmp_if_expr_1;
     if(sec_config->switch_frequency == 0u)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = params->frequency < sec_config->switch_frequency ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = params->frequency < sec_config->switch_frequency ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       switch((signed int)polarization)
       {
         case DISEQC_POLARIZATION_H:
@@ -12176,9 +12176,9 @@ extern signed int dvbsec_set(struct dvbfe_handle *fe, struct dvbsec_config *sec_
 
   }
 
-  signed int return_value_dvbfe_set$2;
-  return_value_dvbfe_set$2=dvbfe_set(fe, topass, timeout);
-  return return_value_dvbfe_set$2;
+  signed int return_value_dvbfe_set_2;
+  return_value_dvbfe_set_2=dvbfe_set(fe, topass, timeout);
+  return return_value_dvbfe_set_2;
 }
 
 // dvbsec_std_sequence
@@ -12301,9 +12301,9 @@ static void * dvbthread_func(void *arg)
       if(!(params->valid_sec == 0))
         sec = &params->sec;
 
-      signed int return_value_dvbsec_set$1;
-      return_value_dvbsec_set$1=dvbsec_set(params->fe, sec, (enum dvbsec_diseqc_polarization)params->channel.polarization, (enum dvbsec_diseqc_switch)((params->channel.diseqc_switch & 0x01) != 0 ? DISEQC_SWITCH_B : DISEQC_SWITCH_A), (enum dvbsec_diseqc_switch)((params->channel.diseqc_switch & 0x02) != 0 ? DISEQC_SWITCH_B : DISEQC_SWITCH_A), &params->channel.fe_params, 0);
-      if(!(return_value_dvbsec_set$1 == 0))
+      signed int return_value_dvbsec_set_1;
+      return_value_dvbsec_set_1=dvbsec_set(params->fe, sec, (enum dvbsec_diseqc_polarization)params->channel.polarization, (enum dvbsec_diseqc_switch)((params->channel.diseqc_switch & 0x01) != 0 ? DISEQC_SWITCH_B : DISEQC_SWITCH_A), (enum dvbsec_diseqc_switch)((params->channel.diseqc_switch & 0x02) != 0 ? DISEQC_SWITCH_B : DISEQC_SWITCH_A), &params->channel.fe_params, 0);
+      if(!(return_value_dvbsec_set_1 == 0))
       {
         fprintf(stderr, "Failed to set frontend\n");
         exit(1);
@@ -12315,16 +12315,16 @@ static void * dvbthread_func(void *arg)
     else
       if(tune_state == 1)
       {
-        struct dvbfe_info dvbthread_func$$1$$3$$2$$result;
-        memset((void *)&dvbthread_func$$1$$3$$2$$result, 0, sizeof(struct dvbfe_info) /*72ul*/ );
-        signed int return_value_dvbfe_get_info$2;
-        return_value_dvbfe_get_info$2=dvbfe_get_info(params->fe, (enum dvbfe_info_mask)(DVBFE_INFO_LOCKSTATUS | DVBFE_INFO_SIGNAL_STRENGTH | DVBFE_INFO_BER | DVBFE_INFO_SNR | DVBFE_INFO_UNCORRECTED_BLOCKS), &dvbthread_func$$1$$3$$2$$result, (enum dvbfe_info_querytype)DVBFE_INFO_QUERYTYPE_IMMEDIATE, 0);
-        if(!(return_value_dvbfe_get_info$2 == 61))
+        struct dvbfe_info dvbthread_func__1__3__2__result;
+        memset((void *)&dvbthread_func__1__3__2__result, 0, sizeof(struct dvbfe_info) /*72ul*/ );
+        signed int return_value_dvbfe_get_info_2;
+        return_value_dvbfe_get_info_2=dvbfe_get_info(params->fe, (enum dvbfe_info_mask)(DVBFE_INFO_LOCKSTATUS | DVBFE_INFO_SIGNAL_STRENGTH | DVBFE_INFO_BER | DVBFE_INFO_SNR | DVBFE_INFO_UNCORRECTED_BLOCKS), &dvbthread_func__1__3__2__result, (enum dvbfe_info_querytype)DVBFE_INFO_QUERYTYPE_IMMEDIATE, 0);
+        if(!(return_value_dvbfe_get_info_2 == 61))
           fprintf(stderr, "Problem retrieving frontend information: %m\n");
 
-        fprintf(stderr, "status %c%c%c%c%c | signal %04x | snr %04x | ber %08x | unc %08x | %s\r", dvbthread_func$$1$$3$$2$$result.signal != 0u ? 83 : 32, dvbthread_func$$1$$3$$2$$result.carrier != 0u ? 67 : 32, dvbthread_func$$1$$3$$2$$result.viterbi != 0u ? 86 : 32, dvbthread_func$$1$$3$$2$$result.sync != 0u ? 89 : 32, dvbthread_func$$1$$3$$2$$result.lock != 0u ? 76 : 32, dvbthread_func$$1$$3$$2$$result.signal_strength, dvbthread_func$$1$$3$$2$$result.snr, dvbthread_func$$1$$3$$2$$result.ber, dvbthread_func$$1$$3$$2$$result.ucblocks, dvbthread_func$$1$$3$$2$$result.lock != 0u ? "FE_HAS_LOCK" : "");
+        fprintf(stderr, "status %c%c%c%c%c | signal %04x | snr %04x | ber %08x | unc %08x | %s\r", dvbthread_func__1__3__2__result.signal != 0u ? 83 : 32, dvbthread_func__1__3__2__result.carrier != 0u ? 67 : 32, dvbthread_func__1__3__2__result.viterbi != 0u ? 86 : 32, dvbthread_func__1__3__2__result.sync != 0u ? 89 : 32, dvbthread_func__1__3__2__result.lock != 0u ? 76 : 32, dvbthread_func__1__3__2__result.signal_strength, dvbthread_func__1__3__2__result.snr, dvbthread_func__1__3__2__result.ber, dvbthread_func__1__3__2__result.ucblocks, dvbthread_func__1__3__2__result.lock != 0u ? "FE_HAS_LOCK" : "");
         fflush(stderr);
-        if(!(dvbthread_func$$1$$3$$2$$result.lock == 0u))
+        if(!(dvbthread_func__1__3__2__result.lock == 0u))
         {
           tune_state = tune_state + 1;
           fprintf(stderr, "\n");
@@ -12391,9 +12391,9 @@ extern signed int dvbvideo_open(signed int adapter, signed int videodeviceid)
 extern struct en50221_app_ai * en50221_app_ai_create(struct en50221_app_send_functions *funcs)
 {
   struct en50221_app_ai *ai = (struct en50221_app_ai *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct en50221_app_ai) /*64ul*/ );
-  ai = (struct en50221_app_ai *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct en50221_app_ai) /*64ul*/ );
+  ai = (struct en50221_app_ai *)return_value_malloc_1;
   if(ai == ((struct en50221_app_ai *)NULL))
     return (struct en50221_app_ai *)(void *)0;
 
@@ -12401,7 +12401,7 @@ extern struct en50221_app_ai * en50221_app_ai_create(struct en50221_app_send_fun
   {
     ai->funcs = funcs;
     ai->callback = (signed int (*)(void *, unsigned char, unsigned short int, unsigned char, unsigned short int, unsigned short int, unsigned char, unsigned char *))(void *)0;
-    pthread_mutex_init(&ai->lock, (const union anonymous$2 *)(void *)0);
+    pthread_mutex_init(&ai->lock, (const union anonymous_2 *)(void *)0);
     return ai;
   }
 }
@@ -12460,9 +12460,9 @@ extern signed int en50221_app_ai_message(struct en50221_app_ai *ai, unsigned cha
     unsigned int tag = (unsigned int)((signed int)data[(signed long int)0] << 16 | (signed int)data[(signed long int)1] << 8 | (signed int)data[(signed long int)2]);
     if(tag == 10453025u)
     {
-      signed int return_value_en50221_app_ai_parse_app_info$1;
-      return_value_en50221_app_ai_parse_app_info$1=en50221_app_ai_parse_app_info(ai, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-      return return_value_en50221_app_ai_parse_app_info$1;
+      signed int return_value_en50221_app_ai_parse_app_info_1;
+      return_value_en50221_app_ai_parse_app_info_1=en50221_app_ai_parse_app_info(ai, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+      return return_value_en50221_app_ai_parse_app_info_1;
     }
 
     do
@@ -12551,9 +12551,9 @@ extern void en50221_app_ai_register_callback(struct en50221_app_ai *ai, signed i
 extern struct en50221_app_auth * en50221_app_auth_create(struct en50221_app_send_functions *funcs)
 {
   struct en50221_app_auth *auth = (struct en50221_app_auth *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct en50221_app_auth) /*64ul*/ );
-  auth = (struct en50221_app_auth *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct en50221_app_auth) /*64ul*/ );
+  auth = (struct en50221_app_auth *)return_value_malloc_1;
   if(auth == ((struct en50221_app_auth *)NULL))
     return (struct en50221_app_auth *)(void *)0;
 
@@ -12561,7 +12561,7 @@ extern struct en50221_app_auth * en50221_app_auth_create(struct en50221_app_send
   {
     auth->funcs = funcs;
     auth->callback = (signed int (*)(void *, unsigned char, unsigned short int, unsigned short int, unsigned char *, unsigned int))(void *)0;
-    pthread_mutex_init(&auth->lock, (const union anonymous$2 *)(void *)0);
+    pthread_mutex_init(&auth->lock, (const union anonymous_2 *)(void *)0);
     return auth;
   }
 }
@@ -12582,7 +12582,7 @@ extern signed int en50221_app_auth_message(struct en50221_app_auth *auth, unsign
   if(!(data_length >= 3u))
   {
     do
-      vprint$link1("%s: Received short data\n\n", (const void *)"en50221_app_auth_message");
+      vprint_link1("%s: Received short data\n\n", (const void *)"en50221_app_auth_message");
     while((_Bool)0);
     return -1;
   }
@@ -12592,13 +12592,13 @@ extern signed int en50221_app_auth_message(struct en50221_app_auth *auth, unsign
     unsigned int tag = (unsigned int)((signed int)data[(signed long int)0] << 16 | (signed int)data[(signed long int)1] << 8 | (signed int)data[(signed long int)2]);
     if(tag == 10453504u)
     {
-      signed int return_value_en50221_app_auth_parse_request$1;
-      return_value_en50221_app_auth_parse_request$1=en50221_app_auth_parse_request(auth, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-      return return_value_en50221_app_auth_parse_request$1;
+      signed int return_value_en50221_app_auth_parse_request_1;
+      return_value_en50221_app_auth_parse_request_1=en50221_app_auth_parse_request(auth, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+      return return_value_en50221_app_auth_parse_request_1;
     }
 
     do
-      vprint$link1("%s: Received unexpected tag %x\n\n", (const void *)"en50221_app_auth_message", tag);
+      vprint_link1("%s: Received unexpected tag %x\n\n", (const void *)"en50221_app_auth_message", tag);
     while((_Bool)0);
     return -1;
   }
@@ -12614,7 +12614,7 @@ static signed int en50221_app_auth_parse_request(struct en50221_app_auth *auth, 
   if(!(length_field_len >= 0))
   {
     do
-      vprint$link1("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_auth_parse_request");
+      vprint_link1("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_auth_parse_request");
     while((_Bool)0);
     return -1;
   }
@@ -12623,7 +12623,7 @@ static signed int en50221_app_auth_parse_request(struct en50221_app_auth *auth, 
     if(!((signed int)asn_data_length >= 2))
     {
       do
-        vprint$link1("%s: Received short data\n\n", (const void *)"en50221_app_auth_parse_request");
+        vprint_link1("%s: Received short data\n\n", (const void *)"en50221_app_auth_parse_request");
       while((_Bool)0);
       return -1;
     }
@@ -12632,7 +12632,7 @@ static signed int en50221_app_auth_parse_request(struct en50221_app_auth *auth, 
       if(!(data_length + -((unsigned int)length_field_len) >= (unsigned int)asn_data_length))
       {
         do
-          vprint$link1("%s: Received short data\n\n", (const void *)"en50221_app_auth_parse_request");
+          vprint_link1("%s: Received short data\n\n", (const void *)"en50221_app_auth_parse_request");
         while((_Bool)0);
         return -1;
       }
@@ -12699,9 +12699,9 @@ extern signed int en50221_app_auth_send(struct en50221_app_auth *auth, unsigned 
 extern struct en50221_app_ca * en50221_app_ca_create(struct en50221_app_send_functions *funcs)
 {
   struct en50221_app_ca *ca = (struct en50221_app_ca *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct en50221_app_ca) /*80ul*/ );
-  ca = (struct en50221_app_ca *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct en50221_app_ca) /*80ul*/ );
+  ca = (struct en50221_app_ca *)return_value_malloc_1;
   if(ca == ((struct en50221_app_ca *)NULL))
     return (struct en50221_app_ca *)(void *)0;
 
@@ -12710,7 +12710,7 @@ extern struct en50221_app_ca * en50221_app_ca_create(struct en50221_app_send_fun
     ca->funcs = funcs;
     ca->ca_info_callback = (signed int (*)(void *, unsigned char, unsigned short int, unsigned int, unsigned short int *))(void *)0;
     ca->ca_pmt_reply_callback = (signed int (*)(void *, unsigned char, unsigned short int, struct en50221_app_pmt_reply *, unsigned int))(void *)0;
-    pthread_mutex_init(&ca->lock, (const union anonymous$2 *)(void *)0);
+    pthread_mutex_init(&ca->lock, (const union anonymous_2 *)(void *)0);
     return ca;
   }
 }
@@ -12742,12 +12742,12 @@ extern signed int en50221_app_ca_info_enq(struct en50221_app_ca *ca, unsigned sh
 extern signed int en50221_app_ca_message(struct en50221_app_ca *ca, unsigned char slot_id, unsigned short int session_number, unsigned int resource_id, unsigned char *data, unsigned int data_length)
 {
   (void)resource_id;
-  signed int return_value_en50221_app_ca_parse_info$1;
-  signed int return_value_en50221_app_ca_parse_reply$2;
+  signed int return_value_en50221_app_ca_parse_info_1;
+  signed int return_value_en50221_app_ca_parse_reply_2;
   if(!(data_length >= 3u))
   {
     do
-      vprint$link2("%s: Received short data\n\n", (const void *)"en50221_app_ca_message");
+      vprint_link2("%s: Received short data\n\n", (const void *)"en50221_app_ca_message");
     while((_Bool)0);
     return -1;
   }
@@ -12759,18 +12759,18 @@ extern signed int en50221_app_ca_message(struct en50221_app_ca *ca, unsigned cha
     {
       case (unsigned int)0x9f8031:
       {
-        return_value_en50221_app_ca_parse_info$1=en50221_app_ca_parse_info(ca, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_ca_parse_info$1;
+        return_value_en50221_app_ca_parse_info_1=en50221_app_ca_parse_info(ca, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_ca_parse_info_1;
       }
       case (unsigned int)0x9f8033:
       {
-        return_value_en50221_app_ca_parse_reply$2=en50221_app_ca_parse_reply(ca, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_ca_parse_reply$2;
+        return_value_en50221_app_ca_parse_reply_2=en50221_app_ca_parse_reply(ca, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_ca_parse_reply_2;
       }
       default:
       {
         do
-          vprint$link2("%s: Received unexpected tag %x\n\n", (const void *)"en50221_app_ca_message", tag);
+          vprint_link2("%s: Received unexpected tag %x\n\n", (const void *)"en50221_app_ca_message", tag);
         while((_Bool)0);
         return -1;
       }
@@ -12788,7 +12788,7 @@ static signed int en50221_app_ca_parse_info(struct en50221_app_ca *ca, unsigned 
   if(!(length_field_len >= 0))
   {
     do
-      vprint$link2("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_ca_parse_info");
+      vprint_link2("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_ca_parse_info");
     while((_Bool)0);
     return -1;
   }
@@ -12797,7 +12797,7 @@ static signed int en50221_app_ca_parse_info(struct en50221_app_ca *ca, unsigned 
     if(!(data_length + -((unsigned int)length_field_len) >= (unsigned int)asn_data_length))
     {
       do
-        vprint$link2("%s: Received short data\n\n", (const void *)"en50221_app_ca_parse_info");
+        vprint_link2("%s: Received short data\n\n", (const void *)"en50221_app_ca_parse_info");
       while((_Bool)0);
       return -1;
     }
@@ -12810,7 +12810,7 @@ static signed int en50221_app_ca_parse_info(struct en50221_app_ca *ca, unsigned 
       unsigned int i = (unsigned int)0;
       for( ; !(i >= ca_id_count); i = i + 1u)
       {
-        bswap16$link1(data);
+        bswap16_link1(data);
         data = data + (signed long int)2;
       }
       pthread_mutex_lock(&ca->lock);
@@ -12838,7 +12838,7 @@ static signed int en50221_app_ca_parse_reply(struct en50221_app_ca *ca, unsigned
   if(!(length_field_len >= 0))
   {
     do
-      vprint$link2("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_ca_parse_reply");
+      vprint_link2("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_ca_parse_reply");
     while((_Bool)0);
     return -1;
   }
@@ -12847,7 +12847,7 @@ static signed int en50221_app_ca_parse_reply(struct en50221_app_ca *ca, unsigned
     if(!((signed int)asn_data_length >= 4))
     {
       do
-        vprint$link2("%s: Received short data\n\n", (const void *)"en50221_app_ca_parse_reply");
+        vprint_link2("%s: Received short data\n\n", (const void *)"en50221_app_ca_parse_reply");
       while((_Bool)0);
       return -1;
     }
@@ -12856,7 +12856,7 @@ static signed int en50221_app_ca_parse_reply(struct en50221_app_ca *ca, unsigned
       if(!(data_length + -((unsigned int)length_field_len) >= (unsigned int)asn_data_length))
       {
         do
-          vprint$link2("%s: Received short data\n\n", (const void *)"en50221_app_ca_parse_reply");
+          vprint_link2("%s: Received short data\n\n", (const void *)"en50221_app_ca_parse_reply");
         while((_Bool)0);
         return -1;
       }
@@ -12866,9 +12866,9 @@ static signed int en50221_app_ca_parse_reply(struct en50221_app_ca *ca, unsigned
         data = data + (signed long int)length_field_len;
         data_length = data_length - (unsigned int)length_field_len;
         unsigned int pos = (unsigned int)4;
-        bswap16$link1(data);
+        bswap16_link1(data);
         for( ; !(pos >= (unsigned int)asn_data_length); pos = pos + (unsigned int)3)
-          bswap16$link1(data + (signed long int)pos);
+          bswap16_link1(data + (signed long int)pos);
         pthread_mutex_lock(&ca->lock);
         signed int (*cb)(void *, unsigned char, unsigned short int, struct en50221_app_pmt_reply *, unsigned int) = ca->ca_pmt_reply_callback;
         void *cb_arg = ca->ca_pmt_reply_callback_arg;
@@ -12935,9 +12935,9 @@ extern void en50221_app_ca_register_pmt_reply_callback(struct en50221_app_ca *ca
 extern struct en50221_app_datetime * en50221_app_datetime_create(struct en50221_app_send_functions *funcs)
 {
   struct en50221_app_datetime *datetime = (struct en50221_app_datetime *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct en50221_app_datetime) /*64ul*/ );
-  datetime = (struct en50221_app_datetime *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct en50221_app_datetime) /*64ul*/ );
+  datetime = (struct en50221_app_datetime *)return_value_malloc_1;
   if(datetime == ((struct en50221_app_datetime *)NULL))
     return (struct en50221_app_datetime *)(void *)0;
 
@@ -12945,7 +12945,7 @@ extern struct en50221_app_datetime * en50221_app_datetime_create(struct en50221_
   {
     datetime->funcs = funcs;
     datetime->callback = (signed int (*)(void *, unsigned char, unsigned short int, unsigned char))(void *)0;
-    pthread_mutex_init(&datetime->lock, (const union anonymous$2 *)(void *)0);
+    pthread_mutex_init(&datetime->lock, (const union anonymous_2 *)(void *)0);
     return datetime;
   }
 }
@@ -12966,7 +12966,7 @@ extern signed int en50221_app_datetime_message(struct en50221_app_datetime *date
   if(!(data_length >= 3u))
   {
     do
-      vprint$link3("%s: Received short data\n\n", (const void *)"en50221_app_datetime_message");
+      vprint_link3("%s: Received short data\n\n", (const void *)"en50221_app_datetime_message");
     while((_Bool)0);
     return -1;
   }
@@ -12976,13 +12976,13 @@ extern signed int en50221_app_datetime_message(struct en50221_app_datetime *date
     unsigned int tag = (unsigned int)((signed int)data[(signed long int)0] << 16 | (signed int)data[(signed long int)1] << 8 | (signed int)data[(signed long int)2]);
     if(tag == 10454080u)
     {
-      signed int return_value_en50221_app_datetime_parse_enquiry$1;
-      return_value_en50221_app_datetime_parse_enquiry$1=en50221_app_datetime_parse_enquiry(datetime, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-      return return_value_en50221_app_datetime_parse_enquiry$1;
+      signed int return_value_en50221_app_datetime_parse_enquiry_1;
+      return_value_en50221_app_datetime_parse_enquiry_1=en50221_app_datetime_parse_enquiry(datetime, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+      return return_value_en50221_app_datetime_parse_enquiry_1;
     }
 
     do
-      vprint$link3("%s: Received unexpected tag %x\n\n", (const void *)"en50221_app_datetime_message", tag);
+      vprint_link3("%s: Received unexpected tag %x\n\n", (const void *)"en50221_app_datetime_message", tag);
     while((_Bool)0);
     return -1;
   }
@@ -12995,7 +12995,7 @@ static signed int en50221_app_datetime_parse_enquiry(struct en50221_app_datetime
   if(!(data_length == 2u))
   {
     do
-      vprint$link3("%s: Received short data\n\n", (const void *)"en50221_app_datetime_parse_enquiry");
+      vprint_link3("%s: Received short data\n\n", (const void *)"en50221_app_datetime_parse_enquiry");
     while((_Bool)0);
     return -1;
   }
@@ -13004,7 +13004,7 @@ static signed int en50221_app_datetime_parse_enquiry(struct en50221_app_datetime
     if(!((signed int)*data == 1))
     {
       do
-        vprint$link3("%s: Received short data\n\n", (const void *)"en50221_app_datetime_parse_enquiry");
+        vprint_link3("%s: Received short data\n\n", (const void *)"en50221_app_datetime_parse_enquiry");
       while((_Bool)0);
       return -1;
     }
@@ -13101,9 +13101,9 @@ extern signed int en50221_app_dvb_ask_release(struct en50221_app_dvb *dvb, unsig
 extern struct en50221_app_dvb * en50221_app_dvb_create(struct en50221_app_send_functions *funcs)
 {
   struct en50221_app_dvb *dvb = (struct en50221_app_dvb *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct en50221_app_dvb) /*96ul*/ );
-  dvb = (struct en50221_app_dvb *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct en50221_app_dvb) /*96ul*/ );
+  dvb = (struct en50221_app_dvb *)return_value_malloc_1;
   if(dvb == ((struct en50221_app_dvb *)NULL))
     return (struct en50221_app_dvb *)(void *)0;
 
@@ -13113,7 +13113,7 @@ extern struct en50221_app_dvb * en50221_app_dvb_create(struct en50221_app_send_f
     dvb->tune_callback = (signed int (*)(void *, unsigned char, unsigned short int, unsigned short int, unsigned int, unsigned short int, unsigned short int))(void *)0;
     dvb->replace_callback = (signed int (*)(void *, unsigned char, unsigned short int, unsigned char, unsigned short int, unsigned short int))(void *)0;
     dvb->clear_replace_callback = (signed int (*)(void *, unsigned char, unsigned short int, unsigned char))(void *)0;
-    pthread_mutex_init(&dvb->lock, (const union anonymous$2 *)(void *)0);
+    pthread_mutex_init(&dvb->lock, (const union anonymous_2 *)(void *)0);
     return dvb;
   }
 }
@@ -13131,13 +13131,13 @@ extern void en50221_app_dvb_destroy(struct en50221_app_dvb *dvb)
 extern signed int en50221_app_dvb_message(struct en50221_app_dvb *dvb, unsigned char slot_id, unsigned short int session_number, unsigned int resource_id, unsigned char *data, unsigned int data_length)
 {
   (void)resource_id;
-  signed int return_value_en50221_app_dvb_parse_tune$1;
-  signed int return_value_en50221_app_dvb_parse_replace$2;
-  signed int return_value_en50221_app_dvb_parse_clear_replace$3;
+  signed int return_value_en50221_app_dvb_parse_tune_1;
+  signed int return_value_en50221_app_dvb_parse_replace_2;
+  signed int return_value_en50221_app_dvb_parse_clear_replace_3;
   if(!(data_length >= 3u))
   {
     do
-      vprint$link4("%s: Received short data\n\n", (const void *)"en50221_app_dvb_message");
+      vprint_link4("%s: Received short data\n\n", (const void *)"en50221_app_dvb_message");
     while((_Bool)0);
     return -1;
   }
@@ -13149,23 +13149,23 @@ extern signed int en50221_app_dvb_message(struct en50221_app_dvb *dvb, unsigned 
     {
       case (unsigned int)0x9f8400:
       {
-        return_value_en50221_app_dvb_parse_tune$1=en50221_app_dvb_parse_tune(dvb, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_dvb_parse_tune$1;
+        return_value_en50221_app_dvb_parse_tune_1=en50221_app_dvb_parse_tune(dvb, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_dvb_parse_tune_1;
       }
       case (unsigned int)0x9f8401:
       {
-        return_value_en50221_app_dvb_parse_replace$2=en50221_app_dvb_parse_replace(dvb, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_dvb_parse_replace$2;
+        return_value_en50221_app_dvb_parse_replace_2=en50221_app_dvb_parse_replace(dvb, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_dvb_parse_replace_2;
       }
       case (unsigned int)0x9f8402:
       {
-        return_value_en50221_app_dvb_parse_clear_replace$3=en50221_app_dvb_parse_clear_replace(dvb, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_dvb_parse_clear_replace$3;
+        return_value_en50221_app_dvb_parse_clear_replace_3=en50221_app_dvb_parse_clear_replace(dvb, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_dvb_parse_clear_replace_3;
       }
       default:
       {
         do
-          vprint$link4("%s: Received unexpected tag %x\n\n", (const void *)"en50221_app_dvb_message", tag);
+          vprint_link4("%s: Received unexpected tag %x\n\n", (const void *)"en50221_app_dvb_message", tag);
         while((_Bool)0);
         return -1;
       }
@@ -13180,7 +13180,7 @@ static signed int en50221_app_dvb_parse_clear_replace(struct en50221_app_dvb *dv
   if(!(data_length >= 2u))
   {
     do
-      vprint$link4("%s: Received short data\n\n", (const void *)"en50221_app_dvb_parse_clear_replace");
+      vprint_link4("%s: Received short data\n\n", (const void *)"en50221_app_dvb_parse_clear_replace");
     while((_Bool)0);
     return -1;
   }
@@ -13189,7 +13189,7 @@ static signed int en50221_app_dvb_parse_clear_replace(struct en50221_app_dvb *dv
     if(!((signed int)*data == 1))
     {
       do
-        vprint$link4("%s: Received short data\n\n", (const void *)"en50221_app_dvb_parse_clear_replace");
+        vprint_link4("%s: Received short data\n\n", (const void *)"en50221_app_dvb_parse_clear_replace");
       while((_Bool)0);
       return -1;
     }
@@ -13220,7 +13220,7 @@ static signed int en50221_app_dvb_parse_replace(struct en50221_app_dvb *dvb, uns
   if(!(data_length >= 6u))
   {
     do
-      vprint$link4("%s: Received short data\n\n", (const void *)"en50221_app_dvb_parse_replace");
+      vprint_link4("%s: Received short data\n\n", (const void *)"en50221_app_dvb_parse_replace");
     while((_Bool)0);
     return -1;
   }
@@ -13229,7 +13229,7 @@ static signed int en50221_app_dvb_parse_replace(struct en50221_app_dvb *dvb, uns
     if(!((signed int)*data == 5))
     {
       do
-        vprint$link4("%s: Received short data\n\n", (const void *)"en50221_app_dvb_parse_replace");
+        vprint_link4("%s: Received short data\n\n", (const void *)"en50221_app_dvb_parse_replace");
       while((_Bool)0);
       return -1;
     }
@@ -13262,7 +13262,7 @@ static signed int en50221_app_dvb_parse_tune(struct en50221_app_dvb *dvb, unsign
   if(!(data_length >= 9u))
   {
     do
-      vprint$link4("%s: Received short data\n\n", (const void *)"en50221_app_dvb_parse_tune");
+      vprint_link4("%s: Received short data\n\n", (const void *)"en50221_app_dvb_parse_tune");
     while((_Bool)0);
     return -1;
   }
@@ -13271,7 +13271,7 @@ static signed int en50221_app_dvb_parse_tune(struct en50221_app_dvb *dvb, unsign
     if(!((signed int)*data == 8))
     {
       do
-        vprint$link4("%s: Received short data\n\n", (const void *)"en50221_app_dvb_parse_tune");
+        vprint_link4("%s: Received short data\n\n", (const void *)"en50221_app_dvb_parse_tune");
       while((_Bool)0);
       return -1;
     }
@@ -13333,9 +13333,9 @@ extern void en50221_app_dvb_register_tune_callback(struct en50221_app_dvb *dvb, 
 extern struct en50221_app_epg * en50221_app_epg_create(struct en50221_app_send_functions *funcs)
 {
   struct en50221_app_epg *epg = (struct en50221_app_epg *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct en50221_app_epg) /*64ul*/ );
-  epg = (struct en50221_app_epg *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct en50221_app_epg) /*64ul*/ );
+  epg = (struct en50221_app_epg *)return_value_malloc_1;
   if(epg == ((struct en50221_app_epg *)NULL))
     return (struct en50221_app_epg *)(void *)0;
 
@@ -13343,7 +13343,7 @@ extern struct en50221_app_epg * en50221_app_epg_create(struct en50221_app_send_f
   {
     epg->funcs = funcs;
     epg->callback = (signed int (*)(void *, unsigned char, unsigned short int, unsigned char))(void *)0;
-    pthread_mutex_init(&epg->lock, (const union anonymous$2 *)(void *)0);
+    pthread_mutex_init(&epg->lock, (const union anonymous_2 *)(void *)0);
     return epg;
   }
 }
@@ -13390,7 +13390,7 @@ extern signed int en50221_app_epg_message(struct en50221_app_epg *epg, unsigned 
   if(!(data_length >= 3u))
   {
     do
-      vprint$link5("%s: Received short data\n\n", (const void *)"en50221_app_epg_message");
+      vprint_link5("%s: Received short data\n\n", (const void *)"en50221_app_epg_message");
     while((_Bool)0);
     return -1;
   }
@@ -13400,13 +13400,13 @@ extern signed int en50221_app_epg_message(struct en50221_app_epg *epg, unsigned 
     unsigned int tag = (unsigned int)((signed int)data[(signed long int)0] << 16 | (signed int)data[(signed long int)1] << 8 | (signed int)data[(signed long int)2]);
     if(tag == 10456833u)
     {
-      signed int return_value_en50221_app_epg_parse_reply$1;
-      return_value_en50221_app_epg_parse_reply$1=en50221_app_epg_parse_reply(private, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-      return return_value_en50221_app_epg_parse_reply$1;
+      signed int return_value_en50221_app_epg_parse_reply_1;
+      return_value_en50221_app_epg_parse_reply_1=en50221_app_epg_parse_reply(private, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+      return return_value_en50221_app_epg_parse_reply_1;
     }
 
     do
-      vprint$link5("%s: Received unexpected tag %x\n\n", (const void *)"en50221_app_epg_message", tag);
+      vprint_link5("%s: Received unexpected tag %x\n\n", (const void *)"en50221_app_epg_message", tag);
     while((_Bool)0);
     return -1;
   }
@@ -13419,7 +13419,7 @@ static signed int en50221_app_epg_parse_reply(struct en50221_app_epg *epg, unsig
   if(!(data_length == 2u))
   {
     do
-      vprint$link5("%s: Received short data\n\n", (const void *)"en50221_app_epg_parse_reply");
+      vprint_link5("%s: Received short data\n\n", (const void *)"en50221_app_epg_parse_reply");
     while((_Bool)0);
     return -1;
   }
@@ -13428,7 +13428,7 @@ static signed int en50221_app_epg_parse_reply(struct en50221_app_epg *epg, unsig
     if(!((signed int)*data == 1))
     {
       do
-        vprint$link5("%s: Received short data\n\n", (const void *)"en50221_app_epg_parse_reply");
+        vprint_link5("%s: Received short data\n\n", (const void *)"en50221_app_epg_parse_reply");
       while((_Bool)0);
       return -1;
     }
@@ -13497,9 +13497,9 @@ __CPROVER_DUMP_L7:
 extern struct en50221_app_lowspeed * en50221_app_lowspeed_create(struct en50221_app_send_functions *funcs)
 {
   struct en50221_app_lowspeed *lowspeed = (struct en50221_app_lowspeed *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct en50221_app_lowspeed) /*88ul*/ );
-  lowspeed = (struct en50221_app_lowspeed *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct en50221_app_lowspeed) /*88ul*/ );
+  lowspeed = (struct en50221_app_lowspeed *)return_value_malloc_1;
   if(lowspeed == ((struct en50221_app_lowspeed *)NULL))
     return (struct en50221_app_lowspeed *)(void *)0;
 
@@ -13509,7 +13509,7 @@ extern struct en50221_app_lowspeed * en50221_app_lowspeed_create(struct en50221_
     lowspeed->command_callback = (signed int (*)(void *, unsigned char, unsigned short int, unsigned char, struct en50221_app_lowspeed_command *))(void *)0;
     lowspeed->send_callback = (signed int (*)(void *, unsigned char, unsigned short int, unsigned char, unsigned char *, unsigned int))(void *)0;
     lowspeed->sessions = (struct en50221_app_lowspeed_session *)(void *)0;
-    pthread_mutex_init(&lowspeed->lock, (const union anonymous$2 *)(void *)0);
+    pthread_mutex_init(&lowspeed->lock, (const union anonymous_2 *)(void *)0);
     return lowspeed;
   }
 }
@@ -13537,13 +13537,13 @@ extern void en50221_app_lowspeed_destroy(struct en50221_app_lowspeed *lowspeed)
 extern signed int en50221_app_lowspeed_message(struct en50221_app_lowspeed *lowspeed, unsigned char slot_id, unsigned short int session_number, unsigned int resource_id, unsigned char *data, unsigned int data_length)
 {
   (void)resource_id;
-  signed int return_value_en50221_app_lowspeed_parse_command$1;
-  signed int return_value_en50221_app_lowspeed_parse_send$2;
-  signed int return_value_en50221_app_lowspeed_parse_send$3;
+  signed int return_value_en50221_app_lowspeed_parse_command_1;
+  signed int return_value_en50221_app_lowspeed_parse_send_2;
+  signed int return_value_en50221_app_lowspeed_parse_send_3;
   if(!(data_length >= 3u))
   {
     do
-      vprint$link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_message");
+      vprint_link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_message");
     while((_Bool)0);
     return -1;
   }
@@ -13555,23 +13555,23 @@ extern signed int en50221_app_lowspeed_message(struct en50221_app_lowspeed *lows
     {
       case (unsigned int)0x9f8c00:
       {
-        return_value_en50221_app_lowspeed_parse_command$1=en50221_app_lowspeed_parse_command(lowspeed, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_lowspeed_parse_command$1;
+        return_value_en50221_app_lowspeed_parse_command_1=en50221_app_lowspeed_parse_command(lowspeed, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_lowspeed_parse_command_1;
       }
       case (unsigned int)0x9f8c03:
       {
-        return_value_en50221_app_lowspeed_parse_send$2=en50221_app_lowspeed_parse_send(lowspeed, slot_id, session_number, 1, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_lowspeed_parse_send$2;
+        return_value_en50221_app_lowspeed_parse_send_2=en50221_app_lowspeed_parse_send(lowspeed, slot_id, session_number, 1, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_lowspeed_parse_send_2;
       }
       case (unsigned int)0x9f8c04:
       {
-        return_value_en50221_app_lowspeed_parse_send$3=en50221_app_lowspeed_parse_send(lowspeed, slot_id, session_number, 0, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_lowspeed_parse_send$3;
+        return_value_en50221_app_lowspeed_parse_send_3=en50221_app_lowspeed_parse_send(lowspeed, slot_id, session_number, 0, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_lowspeed_parse_send_3;
       }
       default:
       {
         do
-          vprint$link6("%s: Received unexpected tag %x\n\n", (const void *)"en50221_app_lowspeed_message", tag);
+          vprint_link6("%s: Received unexpected tag %x\n\n", (const void *)"en50221_app_lowspeed_message", tag);
         while((_Bool)0);
         return -1;
       }
@@ -13586,11 +13586,11 @@ static signed int en50221_app_lowspeed_parse_command(struct en50221_app_lowspeed
   unsigned short int asn_data_length;
   signed int length_field_len;
   length_field_len=asn_1_decode(&asn_data_length, data, data_length);
-  signed int return_value_en50221_app_lowspeed_parse_connect_on_channel$1;
+  signed int return_value_en50221_app_lowspeed_parse_connect_on_channel_1;
   if(!(length_field_len >= 0))
   {
     do
-      vprint$link6("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_lowspeed_parse_command");
+      vprint_link6("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_lowspeed_parse_command");
     while((_Bool)0);
     return -1;
   }
@@ -13599,7 +13599,7 @@ static signed int en50221_app_lowspeed_parse_command(struct en50221_app_lowspeed
     if(!((signed int)asn_data_length >= 1))
     {
       do
-        vprint$link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_command");
+        vprint_link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_command");
       while((_Bool)0);
       return -1;
     }
@@ -13608,7 +13608,7 @@ static signed int en50221_app_lowspeed_parse_command(struct en50221_app_lowspeed
       if(!(data_length + -((unsigned int)length_field_len) >= (unsigned int)asn_data_length))
       {
         do
-          vprint$link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_command");
+          vprint_link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_command");
         while((_Bool)0);
         return -1;
       }
@@ -13624,8 +13624,8 @@ static signed int en50221_app_lowspeed_parse_command(struct en50221_app_lowspeed
         {
           case 0x01:
           {
-            return_value_en50221_app_lowspeed_parse_connect_on_channel$1=en50221_app_lowspeed_parse_connect_on_channel(&command, data, (signed int)asn_data_length);
-            if(!(return_value_en50221_app_lowspeed_parse_connect_on_channel$1 == 0))
+            return_value_en50221_app_lowspeed_parse_connect_on_channel_1=en50221_app_lowspeed_parse_connect_on_channel(&command, data, (signed int)asn_data_length);
+            if(!(return_value_en50221_app_lowspeed_parse_connect_on_channel_1 == 0))
               return -1;
 
             break;
@@ -13635,7 +13635,7 @@ static signed int en50221_app_lowspeed_parse_command(struct en50221_app_lowspeed
             if(!((signed int)asn_data_length == 2))
             {
               do
-                vprint$link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_command");
+                vprint_link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_command");
               while((_Bool)0);
               return -1;
             }
@@ -13649,7 +13649,7 @@ static signed int en50221_app_lowspeed_parse_command(struct en50221_app_lowspeed
             if(!((signed int)asn_data_length == 1))
             {
               do
-                vprint$link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_command");
+                vprint_link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_command");
               while((_Bool)0);
               return -1;
             }
@@ -13664,7 +13664,7 @@ static signed int en50221_app_lowspeed_parse_command(struct en50221_app_lowspeed
           default:
           {
             do
-              vprint$link6("%s: Received unexpected command_id %02x\n\n", (const void *)"en50221_app_lowspeed_parse_command", command_id);
+              vprint_link6("%s: Received unexpected command_id %02x\n\n", (const void *)"en50221_app_lowspeed_parse_command", command_id);
             while((_Bool)0);
             return -1;
           }
@@ -13692,7 +13692,7 @@ static signed int en50221_app_lowspeed_parse_connect_on_channel(struct en50221_a
   if(!(data_length >= 3))
   {
     do
-      vprint$link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
+      vprint_link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
     while((_Bool)0);
     return -1;
   }
@@ -13703,7 +13703,7 @@ static signed int en50221_app_lowspeed_parse_connect_on_channel(struct en50221_a
     if(!(tag == 10456065u))
     {
       do
-        vprint$link6("%s: Received bad CONNECT_ON_CHANNEL\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
+        vprint_link6("%s: Received bad CONNECT_ON_CHANNEL\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
       while((_Bool)0);
       return -1;
     }
@@ -13718,7 +13718,7 @@ static signed int en50221_app_lowspeed_parse_connect_on_channel(struct en50221_a
       if(!(length_field_len >= 0))
       {
         do
-          vprint$link6("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
+          vprint_link6("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
         while((_Bool)0);
         return -1;
       }
@@ -13730,7 +13730,7 @@ static signed int en50221_app_lowspeed_parse_connect_on_channel(struct en50221_a
         if(!(data_length >= (signed int)asn_data_length))
         {
           do
-            vprint$link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
+            vprint_link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
           while((_Bool)0);
           return -1;
         }
@@ -13739,7 +13739,7 @@ static signed int en50221_app_lowspeed_parse_connect_on_channel(struct en50221_a
           if(!((signed int)asn_data_length >= 1))
           {
             do
-              vprint$link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
+              vprint_link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
             while((_Bool)0);
             return -1;
           }
@@ -13758,7 +13758,7 @@ static signed int en50221_app_lowspeed_parse_connect_on_channel(struct en50221_a
                 if(!((signed int)asn_data_length >= 2))
                 {
                   do
-                    vprint$link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
+                    vprint_link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
                   while((_Bool)0);
                   return -1;
                 }
@@ -13766,7 +13766,7 @@ static signed int en50221_app_lowspeed_parse_connect_on_channel(struct en50221_a
                 if(!((signed int)asn_data_length == 2 + (signed int)d->len))
                 {
                   do
-                    vprint$link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
+                    vprint_link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
                   while((_Bool)0);
                   return -1;
                 }
@@ -13774,7 +13774,7 @@ static signed int en50221_app_lowspeed_parse_connect_on_channel(struct en50221_a
                 if(!((signed int)d->tag == 87))
                 {
                   do
-                    vprint$link6("%s: Received invalid telephone descriptor\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
+                    vprint_link6("%s: Received invalid telephone descriptor\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
                   while((_Bool)0);
                   return -1;
                 }
@@ -13783,7 +13783,7 @@ static signed int en50221_app_lowspeed_parse_connect_on_channel(struct en50221_a
                 if(command->u.connect_on_channel.descriptor.telephone == ((struct dvb_telephone_descriptor *)NULL))
                 {
                   do
-                    vprint$link6("%s: Received invalid telephone descriptor\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
+                    vprint_link6("%s: Received invalid telephone descriptor\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
                   while((_Bool)0);
                   return -1;
                 }
@@ -13797,7 +13797,7 @@ static signed int en50221_app_lowspeed_parse_connect_on_channel(struct en50221_a
                 if(!((signed int)asn_data_length == 1))
                 {
                   do
-                    vprint$link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
+                    vprint_link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
                   while((_Bool)0);
                   return -1;
                 }
@@ -13810,7 +13810,7 @@ static signed int en50221_app_lowspeed_parse_connect_on_channel(struct en50221_a
               default:
               {
                 do
-                  vprint$link6("%s: Received unknown connection descriptor %02x\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel", command->u.connect_on_channel.descriptor_type);
+                  vprint_link6("%s: Received unknown connection descriptor %02x\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel", command->u.connect_on_channel.descriptor_type);
                 while((_Bool)0);
                 return -1;
               }
@@ -13818,7 +13818,7 @@ static signed int en50221_app_lowspeed_parse_connect_on_channel(struct en50221_a
             if(!(data_length == 2))
             {
               do
-                vprint$link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
+                vprint_link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_connect_on_channel");
               while((_Bool)0);
               return -1;
             }
@@ -13845,7 +13845,7 @@ static signed int en50221_app_lowspeed_parse_send(struct en50221_app_lowspeed *l
   if(!(length_field_len >= 0))
   {
     do
-      vprint$link6("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_lowspeed_parse_send");
+      vprint_link6("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_lowspeed_parse_send");
     while((_Bool)0);
     return -1;
   }
@@ -13854,7 +13854,7 @@ static signed int en50221_app_lowspeed_parse_send(struct en50221_app_lowspeed *l
     if(!(data_length + -((unsigned int)length_field_len) >= (unsigned int)asn_data_length))
     {
       do
-        vprint$link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_send");
+        vprint_link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_send");
       while((_Bool)0);
       return -1;
     }
@@ -13872,13 +13872,13 @@ static signed int en50221_app_lowspeed_parse_send(struct en50221_app_lowspeed *l
       {
         if(cur_s == ((struct en50221_app_lowspeed_session *)NULL))
         {
-          void *return_value_malloc$1;
-          return_value_malloc$1=malloc(sizeof(struct en50221_app_lowspeed_session) /*32ul*/ );
-          cur_s = (struct en50221_app_lowspeed_session *)return_value_malloc$1;
+          void *return_value_malloc_1;
+          return_value_malloc_1=malloc(sizeof(struct en50221_app_lowspeed_session) /*32ul*/ );
+          cur_s = (struct en50221_app_lowspeed_session *)return_value_malloc_1;
           if(cur_s == ((struct en50221_app_lowspeed_session *)NULL))
           {
             do
-              vprint$link6("%s: Ran out of memory\n\n", (const void *)"en50221_app_lowspeed_parse_send");
+              vprint_link6("%s: Ran out of memory\n\n", (const void *)"en50221_app_lowspeed_parse_send");
             while((_Bool)0);
             pthread_mutex_unlock(&lowspeed->lock);
             return -1;
@@ -13892,13 +13892,13 @@ static signed int en50221_app_lowspeed_parse_send(struct en50221_app_lowspeed *l
         }
 
         unsigned char *new_data;
-        void *return_value_realloc$2;
-        return_value_realloc$2=realloc((void *)cur_s->block_chain, (unsigned long int)(cur_s->block_length + (unsigned int)asn_data_length));
-        new_data = (unsigned char *)return_value_realloc$2;
+        void *return_value_realloc_2;
+        return_value_realloc_2=realloc((void *)cur_s->block_chain, (unsigned long int)(cur_s->block_length + (unsigned int)asn_data_length));
+        new_data = (unsigned char *)return_value_realloc_2;
         if(new_data == ((unsigned char *)NULL))
         {
           do
-            vprint$link6("%s: Ran out of memory\n\n", (const void *)"en50221_app_lowspeed_parse_send");
+            vprint_link6("%s: Ran out of memory\n\n", (const void *)"en50221_app_lowspeed_parse_send");
           while((_Bool)0);
           pthread_mutex_unlock(&lowspeed->lock);
           return -1;
@@ -13914,22 +13914,22 @@ static signed int en50221_app_lowspeed_parse_send(struct en50221_app_lowspeed *l
       signed int do_free = 0;
       if(!(cur_s == ((struct en50221_app_lowspeed_session *)NULL)))
       {
-        unsigned char *en50221_app_lowspeed_parse_send$$1$$5$$new_data;
-        void *return_value_realloc$3;
-        return_value_realloc$3=realloc((void *)cur_s->block_chain, (unsigned long int)(cur_s->block_length + (unsigned int)asn_data_length));
-        en50221_app_lowspeed_parse_send$$1$$5$$new_data = (unsigned char *)return_value_realloc$3;
-        if(en50221_app_lowspeed_parse_send$$1$$5$$new_data == ((unsigned char *)NULL))
+        unsigned char *en50221_app_lowspeed_parse_send__1__5__new_data;
+        void *return_value_realloc_3;
+        return_value_realloc_3=realloc((void *)cur_s->block_chain, (unsigned long int)(cur_s->block_length + (unsigned int)asn_data_length));
+        en50221_app_lowspeed_parse_send__1__5__new_data = (unsigned char *)return_value_realloc_3;
+        if(en50221_app_lowspeed_parse_send__1__5__new_data == ((unsigned char *)NULL))
         {
           do
-            vprint$link6("%s: Ran out of memory\n\n", (const void *)"en50221_app_lowspeed_parse_send");
+            vprint_link6("%s: Ran out of memory\n\n", (const void *)"en50221_app_lowspeed_parse_send");
           while((_Bool)0);
           pthread_mutex_unlock(&lowspeed->lock);
           return -1;
         }
 
-        memcpy((void *)(en50221_app_lowspeed_parse_send$$1$$5$$new_data + (signed long int)cur_s->block_length), (const void *)data, (unsigned long int)asn_data_length);
+        memcpy((void *)(en50221_app_lowspeed_parse_send__1__5__new_data + (signed long int)cur_s->block_length), (const void *)data, (unsigned long int)asn_data_length);
         asn_data_length = (unsigned short int)(cur_s->block_length + (unsigned int)asn_data_length);
-        data = en50221_app_lowspeed_parse_send$$1$$5$$new_data;
+        data = en50221_app_lowspeed_parse_send__1__5__new_data;
         cur_s->block_chain = (unsigned char *)(void *)0;
         cur_s->block_length = (unsigned int)0;
         do_free = 1;
@@ -13939,7 +13939,7 @@ static signed int en50221_app_lowspeed_parse_send(struct en50221_app_lowspeed *l
       {
         pthread_mutex_unlock(&lowspeed->lock);
         do
-          vprint$link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_send");
+          vprint_link6("%s: Received short data\n\n", (const void *)"en50221_app_lowspeed_parse_send");
         while((_Bool)0);
         if(!(do_free == 0))
           free((void *)data);
@@ -14029,9 +14029,9 @@ extern signed int en50221_app_lowspeed_send_comms_reply(struct en50221_app_lowsp
   data[(signed long int)3] = (unsigned char)2;
   data[(signed long int)4] = comms_reply_id;
   data[(signed long int)5] = return_value;
-  signed int en50221_app_lowspeed_send_comms_reply$$$tmp$$return_value;
-  en50221_app_lowspeed_send_comms_reply$$$tmp$$return_value=lowspeed->funcs->send_data(lowspeed->funcs->arg, session_number, data, (unsigned short int)6);
-  return en50221_app_lowspeed_send_comms_reply$$$tmp$$return_value;
+  signed int en50221_app_lowspeed_send_comms_reply___tmp__return_value;
+  en50221_app_lowspeed_send_comms_reply___tmp__return_value=lowspeed->funcs->send_data(lowspeed->funcs->arg, session_number, data, (unsigned short int)6);
+  return en50221_app_lowspeed_send_comms_reply___tmp__return_value;
 }
 
 // en50221_app_mmi_answ
@@ -14140,9 +14140,9 @@ extern signed int en50221_app_mmi_close(struct en50221_app_mmi *mmi, unsigned sh
 extern struct en50221_app_mmi * en50221_app_mmi_create(struct en50221_app_send_functions *funcs)
 {
   struct en50221_app_mmi *mmi = (struct en50221_app_mmi *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct en50221_app_mmi) /*232ul*/ );
-  mmi = (struct en50221_app_mmi *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct en50221_app_mmi) /*232ul*/ );
+  mmi = (struct en50221_app_mmi *)return_value_malloc_1;
   if(mmi == ((struct en50221_app_mmi *)NULL))
     return (struct en50221_app_mmi *)(void *)0;
 
@@ -14161,7 +14161,7 @@ extern struct en50221_app_mmi * en50221_app_mmi_create(struct en50221_app_send_f
     mmi->menucallback = (signed int (*)(void *, unsigned char, unsigned short int, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, unsigned int, struct en50221_app_mmi_text *, unsigned int, unsigned char *))(void *)0;
     mmi->listcallback = (signed int (*)(void *, unsigned char, unsigned short int, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, unsigned int, struct en50221_app_mmi_text *, unsigned int, unsigned char *))(void *)0;
     mmi->sessions = (struct en50221_app_mmi_session *)(void *)0;
-    pthread_mutex_init(&mmi->lock, (const union anonymous$2 *)(void *)0);
+    pthread_mutex_init(&mmi->lock, (const union anonymous_2 *)(void *)0);
     return mmi;
   }
 }
@@ -14179,13 +14179,13 @@ static signed int en50221_app_mmi_defragment(struct en50221_app_mmi *mmi, unsign
   {
     if(cur_s == ((struct en50221_app_mmi_session *)NULL))
     {
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct en50221_app_mmi_session) /*80ul*/ );
-      cur_s = (struct en50221_app_mmi_session *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct en50221_app_mmi_session) /*80ul*/ );
+      cur_s = (struct en50221_app_mmi_session *)return_value_malloc_1;
       if(cur_s == ((struct en50221_app_mmi_session *)NULL))
       {
         do
-          vprint$link7("%s: Ran out of memory\n\n", (const void *)"en50221_app_mmi_defragment");
+          vprint_link7("%s: Ran out of memory\n\n", (const void *)"en50221_app_mmi_defragment");
         while((_Bool)0);
         return -1;
       }
@@ -14243,13 +14243,13 @@ static signed int en50221_app_mmi_defragment(struct en50221_app_mmi *mmi, unsign
         return -1;
     }
     unsigned char *new_data;
-    void *return_value_realloc$2;
-    return_value_realloc$2=realloc((void *)*block_chain, (unsigned long int)(*block_length + indata_length));
-    new_data = (unsigned char *)return_value_realloc$2;
+    void *return_value_realloc_2;
+    return_value_realloc_2=realloc((void *)*block_chain, (unsigned long int)(*block_length + indata_length));
+    new_data = (unsigned char *)return_value_realloc_2;
     if(new_data == ((unsigned char *)NULL))
     {
       do
-        vprint$link7("%s: Ran out of memory\n\n", (const void *)"en50221_app_mmi_defragment");
+        vprint_link7("%s: Ran out of memory\n\n", (const void *)"en50221_app_mmi_defragment");
       while((_Bool)0);
       return -1;
     }
@@ -14262,62 +14262,62 @@ static signed int en50221_app_mmi_defragment(struct en50221_app_mmi *mmi, unsign
 
   if(!(cur_s == ((struct en50221_app_mmi_session *)NULL)))
   {
-    unsigned char **en50221_app_mmi_defragment$$1$$3$$block_chain;
-    unsigned int *en50221_app_mmi_defragment$$1$$3$$block_length;
+    unsigned char **en50221_app_mmi_defragment__1__3__block_chain;
+    unsigned int *en50221_app_mmi_defragment__1__3__block_length;
     switch(tag_id)
     {
       case (unsigned int)0x9f8809:
 
       case (unsigned int)0x9f880a:
       {
-        en50221_app_mmi_defragment$$1$$3$$block_chain = &cur_s->menu_block_chain;
-        en50221_app_mmi_defragment$$1$$3$$block_length = &cur_s->menu_block_length;
+        en50221_app_mmi_defragment__1__3__block_chain = &cur_s->menu_block_chain;
+        en50221_app_mmi_defragment__1__3__block_length = &cur_s->menu_block_length;
         break;
       }
       case (unsigned int)0x9f880c:
 
       case (unsigned int)0x9f880d:
       {
-        en50221_app_mmi_defragment$$1$$3$$block_chain = &cur_s->list_block_chain;
-        en50221_app_mmi_defragment$$1$$3$$block_length = &cur_s->list_block_length;
+        en50221_app_mmi_defragment__1__3__block_chain = &cur_s->list_block_chain;
+        en50221_app_mmi_defragment__1__3__block_length = &cur_s->list_block_length;
         break;
       }
       case (unsigned int)0x9f880e:
 
       case (unsigned int)0x9f880f:
       {
-        en50221_app_mmi_defragment$$1$$3$$block_chain = &cur_s->subtitlesegment_block_chain;
-        en50221_app_mmi_defragment$$1$$3$$block_length = &cur_s->subtitlesegment_block_length;
+        en50221_app_mmi_defragment__1__3__block_chain = &cur_s->subtitlesegment_block_chain;
+        en50221_app_mmi_defragment__1__3__block_length = &cur_s->subtitlesegment_block_length;
         break;
       }
       case (unsigned int)0x9f8814:
 
       case (unsigned int)0x9f8815:
       {
-        en50221_app_mmi_defragment$$1$$3$$block_chain = &cur_s->subtitledownload_block_chain;
-        en50221_app_mmi_defragment$$1$$3$$block_length = &cur_s->subtitledownload_block_length;
+        en50221_app_mmi_defragment__1__3__block_chain = &cur_s->subtitledownload_block_chain;
+        en50221_app_mmi_defragment__1__3__block_length = &cur_s->subtitledownload_block_length;
         break;
       }
       default:
         return -1;
     }
-    unsigned char *en50221_app_mmi_defragment$$1$$3$$new_data;
-    void *return_value_realloc$3;
-    return_value_realloc$3=realloc((void *)*en50221_app_mmi_defragment$$1$$3$$block_chain, (unsigned long int)(*en50221_app_mmi_defragment$$1$$3$$block_length + indata_length));
-    en50221_app_mmi_defragment$$1$$3$$new_data = (unsigned char *)return_value_realloc$3;
-    if(en50221_app_mmi_defragment$$1$$3$$new_data == ((unsigned char *)NULL))
+    unsigned char *en50221_app_mmi_defragment__1__3__new_data;
+    void *return_value_realloc_3;
+    return_value_realloc_3=realloc((void *)*en50221_app_mmi_defragment__1__3__block_chain, (unsigned long int)(*en50221_app_mmi_defragment__1__3__block_length + indata_length));
+    en50221_app_mmi_defragment__1__3__new_data = (unsigned char *)return_value_realloc_3;
+    if(en50221_app_mmi_defragment__1__3__new_data == ((unsigned char *)NULL))
     {
       do
-        vprint$link7("%s: Ran out of memory\n\n", (const void *)"en50221_app_mmi_defragment");
+        vprint_link7("%s: Ran out of memory\n\n", (const void *)"en50221_app_mmi_defragment");
       while((_Bool)0);
       return -1;
     }
 
-    memcpy((void *)(en50221_app_mmi_defragment$$1$$3$$new_data + (signed long int)*en50221_app_mmi_defragment$$1$$3$$block_length), (const void *)indata, (unsigned long int)indata_length);
-    *outdata_length = *en50221_app_mmi_defragment$$1$$3$$block_length + indata_length;
-    *outdata = en50221_app_mmi_defragment$$1$$3$$new_data;
-    *en50221_app_mmi_defragment$$1$$3$$block_chain = (unsigned char *)(void *)0;
-    *en50221_app_mmi_defragment$$1$$3$$block_length = (unsigned int)0;
+    memcpy((void *)(en50221_app_mmi_defragment__1__3__new_data + (signed long int)*en50221_app_mmi_defragment__1__3__block_length), (const void *)indata, (unsigned long int)indata_length);
+    *outdata_length = *en50221_app_mmi_defragment__1__3__block_length + indata_length;
+    *outdata = en50221_app_mmi_defragment__1__3__new_data;
+    *en50221_app_mmi_defragment__1__3__block_chain = (unsigned char *)(void *)0;
+    *en50221_app_mmi_defragment__1__3__block_length = (unsigned int)0;
     return 2;
   }
 
@@ -14338,7 +14338,7 @@ static signed int en50221_app_mmi_defragment_text(unsigned char *data, unsigned 
     if(!(data_length >= 3u))
     {
       do
-        vprint$link7("%s: Short data\n\n", (const void *)"en50221_app_mmi_defragment_text");
+        vprint_link7("%s: Short data\n\n", (const void *)"en50221_app_mmi_defragment_text");
       while((_Bool)0);
       if(!(text == ((unsigned char *)NULL)))
         free((void *)text);
@@ -14356,7 +14356,7 @@ static signed int en50221_app_mmi_defragment_text(unsigned char *data, unsigned 
     if(!(length_field_len >= 0))
     {
       do
-        vprint$link7("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_mmi_defragment_text");
+        vprint_link7("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_mmi_defragment_text");
       while((_Bool)0);
       if(!(text == ((unsigned char *)NULL)))
         free((void *)text);
@@ -14380,13 +14380,13 @@ static signed int en50221_app_mmi_defragment_text(unsigned char *data, unsigned 
       else
       {
         unsigned char *new_text;
-        void *return_value_realloc$1;
-        return_value_realloc$1=realloc((void *)text, (unsigned long int)(text_length + (unsigned int)asn_data_length));
-        new_text = (unsigned char *)return_value_realloc$1;
+        void *return_value_realloc_1;
+        return_value_realloc_1=realloc((void *)text, (unsigned long int)(text_length + (unsigned int)asn_data_length));
+        new_text = (unsigned char *)return_value_realloc_1;
         if(new_text == ((unsigned char *)NULL))
         {
           do
-            vprint$link7("%s: Ran out of memory\n\n", (const void *)"en50221_app_mmi_defragment_text");
+            vprint_link7("%s: Ran out of memory\n\n", (const void *)"en50221_app_mmi_defragment_text");
           while((_Bool)0);
           if(!(text == ((unsigned char *)NULL)))
             free((void *)text);
@@ -14405,14 +14405,14 @@ static signed int en50221_app_mmi_defragment_text(unsigned char *data, unsigned 
     else
       if(tag == 10455044u)
       {
-        unsigned char *en50221_app_mmi_defragment_text$$1$$1$$4$$new_text;
-        void *return_value_realloc$2;
-        return_value_realloc$2=realloc((void *)text, (unsigned long int)(text_length + (unsigned int)asn_data_length));
-        en50221_app_mmi_defragment_text$$1$$1$$4$$new_text = (unsigned char *)return_value_realloc$2;
-        if(en50221_app_mmi_defragment_text$$1$$1$$4$$new_text == ((unsigned char *)NULL))
+        unsigned char *en50221_app_mmi_defragment_text__1__1__4__new_text;
+        void *return_value_realloc_2;
+        return_value_realloc_2=realloc((void *)text, (unsigned long int)(text_length + (unsigned int)asn_data_length));
+        en50221_app_mmi_defragment_text__1__1__4__new_text = (unsigned char *)return_value_realloc_2;
+        if(en50221_app_mmi_defragment_text__1__1__4__new_text == ((unsigned char *)NULL))
         {
           do
-            vprint$link7("%s: Ran out of memory\n\n", (const void *)"en50221_app_mmi_defragment_text");
+            vprint_link7("%s: Ran out of memory\n\n", (const void *)"en50221_app_mmi_defragment_text");
           while((_Bool)0);
           if(!(text == ((unsigned char *)NULL)))
             free((void *)text);
@@ -14420,8 +14420,8 @@ static signed int en50221_app_mmi_defragment_text(unsigned char *data, unsigned 
           return -1;
         }
 
-        memcpy((void *)(en50221_app_mmi_defragment_text$$1$$1$$4$$new_text + (signed long int)text_length), (const void *)data, (unsigned long int)asn_data_length);
-        text = en50221_app_mmi_defragment_text$$1$$1$$4$$new_text;
+        memcpy((void *)(en50221_app_mmi_defragment_text__1__1__4__new_text + (signed long int)text_length), (const void *)data, (unsigned long int)asn_data_length);
+        text = en50221_app_mmi_defragment_text__1__1__4__new_text;
         text_length = text_length + (unsigned int)asn_data_length;
         data = data + (signed long int)asn_data_length;
         data_length = data_length - (unsigned int)asn_data_length;
@@ -14431,7 +14431,7 @@ static signed int en50221_app_mmi_defragment_text(unsigned char *data, unsigned 
       else
       {
         do
-          vprint$link7("%s: Unknown MMI text tag\n\n", (const void *)"en50221_app_mmi_defragment_text");
+          vprint_link7("%s: Unknown MMI text tag\n\n", (const void *)"en50221_app_mmi_defragment_text");
         while((_Bool)0);
         if(!(text == ((unsigned char *)NULL)))
           free((void *)text);
@@ -14495,7 +14495,7 @@ extern signed int en50221_app_mmi_display_reply(struct en50221_app_mmi *mmi, uns
   data[(signed long int)1] = (unsigned char)(0x9f8802 >> 8 & 0xFF);
   data[(signed long int)2] = (unsigned char)(0x9f8802 & 0xFF);
   unsigned char *pixdepths;
-  void *return_value___builtin_alloca$1;
+  void *return_value___builtin_alloca_1;
   unsigned int i;
   switch((signed int)reply_id)
   {
@@ -14543,8 +14543,8 @@ extern signed int en50221_app_mmi_display_reply(struct en50221_app_mmi *mmi, uns
       data[(signed long int)(3 + length_field_len + 7)] = (unsigned char)(((signed int)details->u.gfx.display_bytes & 0x0f) << 4 | ((signed int)details->u.gfx.composition_buffer_bytes & 0xf0) >> 4);
       data[(signed long int)(3 + length_field_len + 8)] = (unsigned char)(((signed int)details->u.gfx.composition_buffer_bytes & 0x0f) << 4 | ((signed int)details->u.gfx.object_cache_bytes & 0xf0) >> 4);
       data[(signed long int)(3 + length_field_len + 9)] = (unsigned char)(((signed int)details->u.gfx.object_cache_bytes & 0x0f) << 4 | (signed int)details->u.gfx.num_pixel_depths & 0x0f);
-      return_value___builtin_alloca$1=__builtin_alloca((unsigned long int)((signed int)details->u.gfx.num_pixel_depths * 2));
-      pixdepths = (unsigned char *)return_value___builtin_alloca$1;
+      return_value___builtin_alloca_1=__builtin_alloca((unsigned long int)((signed int)details->u.gfx.num_pixel_depths * 2));
+      pixdepths = (unsigned char *)return_value___builtin_alloca_1;
       if(pixdepths == ((unsigned char *)NULL))
         return -1;
 
@@ -14628,25 +14628,25 @@ extern signed int en50221_app_mmi_menu_answ(struct en50221_app_mmi *mmi, unsigne
 extern signed int en50221_app_mmi_message(struct en50221_app_mmi *mmi, unsigned char slot_id, unsigned short int session_number, unsigned int resource_id, unsigned char *data, unsigned int data_length)
 {
   (void)resource_id;
-  signed int return_value_en50221_app_mmi_parse_close$1;
-  signed int return_value_en50221_app_mmi_parse_display_control$2;
-  signed int return_value_en50221_app_mmi_parse_keypad_control$3;
-  signed int return_value_en50221_app_mmi_parse_enq$4;
-  signed int return_value_en50221_app_mmi_parse_list_menu$5;
-  signed int return_value_en50221_app_mmi_parse_list_menu$6;
-  signed int return_value_en50221_app_mmi_parse_list_menu$7;
-  signed int return_value_en50221_app_mmi_parse_list_menu$8;
-  signed int return_value_en50221_app_mmi_parse_subtitle$9;
-  signed int return_value_en50221_app_mmi_parse_subtitle$10;
-  signed int return_value_en50221_app_mmi_parse_scene_end_mark$11;
-  signed int return_value_en50221_app_mmi_parse_scene_control$12;
-  signed int return_value_en50221_app_mmi_parse_subtitle$13;
-  signed int return_value_en50221_app_mmi_parse_subtitle$14;
-  signed int return_value_en50221_app_mmi_parse_flush_download$15;
+  signed int return_value_en50221_app_mmi_parse_close_1;
+  signed int return_value_en50221_app_mmi_parse_display_control_2;
+  signed int return_value_en50221_app_mmi_parse_keypad_control_3;
+  signed int return_value_en50221_app_mmi_parse_enq_4;
+  signed int return_value_en50221_app_mmi_parse_list_menu_5;
+  signed int return_value_en50221_app_mmi_parse_list_menu_6;
+  signed int return_value_en50221_app_mmi_parse_list_menu_7;
+  signed int return_value_en50221_app_mmi_parse_list_menu_8;
+  signed int return_value_en50221_app_mmi_parse_subtitle_9;
+  signed int return_value_en50221_app_mmi_parse_subtitle_10;
+  signed int return_value_en50221_app_mmi_parse_scene_end_mark_11;
+  signed int return_value_en50221_app_mmi_parse_scene_control_12;
+  signed int return_value_en50221_app_mmi_parse_subtitle_13;
+  signed int return_value_en50221_app_mmi_parse_subtitle_14;
+  signed int return_value_en50221_app_mmi_parse_flush_download_15;
   if(!(data_length >= 3u))
   {
     do
-      vprint$link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_message");
+      vprint_link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_message");
     while((_Bool)0);
     return -1;
   }
@@ -14658,83 +14658,83 @@ extern signed int en50221_app_mmi_message(struct en50221_app_mmi *mmi, unsigned 
     {
       case (unsigned int)0x9f8800:
       {
-        return_value_en50221_app_mmi_parse_close$1=en50221_app_mmi_parse_close(mmi, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_mmi_parse_close$1;
+        return_value_en50221_app_mmi_parse_close_1=en50221_app_mmi_parse_close(mmi, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_mmi_parse_close_1;
       }
       case (unsigned int)0x9f8801:
       {
-        return_value_en50221_app_mmi_parse_display_control$2=en50221_app_mmi_parse_display_control(mmi, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_mmi_parse_display_control$2;
+        return_value_en50221_app_mmi_parse_display_control_2=en50221_app_mmi_parse_display_control(mmi, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_mmi_parse_display_control_2;
       }
       case (unsigned int)0x9f8805:
       {
-        return_value_en50221_app_mmi_parse_keypad_control$3=en50221_app_mmi_parse_keypad_control(mmi, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_mmi_parse_keypad_control$3;
+        return_value_en50221_app_mmi_parse_keypad_control_3=en50221_app_mmi_parse_keypad_control(mmi, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_mmi_parse_keypad_control_3;
       }
       case (unsigned int)0x9f8807:
       {
-        return_value_en50221_app_mmi_parse_enq$4=en50221_app_mmi_parse_enq(mmi, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_mmi_parse_enq$4;
+        return_value_en50221_app_mmi_parse_enq_4=en50221_app_mmi_parse_enq(mmi, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_mmi_parse_enq_4;
       }
       case (unsigned int)0x9f8809:
       {
-        return_value_en50221_app_mmi_parse_list_menu$5=en50221_app_mmi_parse_list_menu(mmi, slot_id, session_number, tag, 1, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_mmi_parse_list_menu$5;
+        return_value_en50221_app_mmi_parse_list_menu_5=en50221_app_mmi_parse_list_menu(mmi, slot_id, session_number, tag, 1, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_mmi_parse_list_menu_5;
       }
       case (unsigned int)0x9f880a:
       {
-        return_value_en50221_app_mmi_parse_list_menu$6=en50221_app_mmi_parse_list_menu(mmi, slot_id, session_number, tag, 0, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_mmi_parse_list_menu$6;
+        return_value_en50221_app_mmi_parse_list_menu_6=en50221_app_mmi_parse_list_menu(mmi, slot_id, session_number, tag, 0, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_mmi_parse_list_menu_6;
       }
       case (unsigned int)0x9f880c:
       {
-        return_value_en50221_app_mmi_parse_list_menu$7=en50221_app_mmi_parse_list_menu(mmi, slot_id, session_number, tag, 1, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_mmi_parse_list_menu$7;
+        return_value_en50221_app_mmi_parse_list_menu_7=en50221_app_mmi_parse_list_menu(mmi, slot_id, session_number, tag, 1, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_mmi_parse_list_menu_7;
       }
       case (unsigned int)0x9f880d:
       {
-        return_value_en50221_app_mmi_parse_list_menu$8=en50221_app_mmi_parse_list_menu(mmi, slot_id, session_number, tag, 0, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_mmi_parse_list_menu$8;
+        return_value_en50221_app_mmi_parse_list_menu_8=en50221_app_mmi_parse_list_menu(mmi, slot_id, session_number, tag, 0, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_mmi_parse_list_menu_8;
       }
       case (unsigned int)0x9f880e:
       {
-        return_value_en50221_app_mmi_parse_subtitle$9=en50221_app_mmi_parse_subtitle(mmi, slot_id, session_number, tag, 1, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_mmi_parse_subtitle$9;
+        return_value_en50221_app_mmi_parse_subtitle_9=en50221_app_mmi_parse_subtitle(mmi, slot_id, session_number, tag, 1, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_mmi_parse_subtitle_9;
       }
       case (unsigned int)0x9f880f:
       {
-        return_value_en50221_app_mmi_parse_subtitle$10=en50221_app_mmi_parse_subtitle(mmi, slot_id, session_number, tag, 0, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_mmi_parse_subtitle$10;
+        return_value_en50221_app_mmi_parse_subtitle_10=en50221_app_mmi_parse_subtitle(mmi, slot_id, session_number, tag, 0, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_mmi_parse_subtitle_10;
       }
       case (unsigned int)0x9f8811:
       {
-        return_value_en50221_app_mmi_parse_scene_end_mark$11=en50221_app_mmi_parse_scene_end_mark(mmi, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_mmi_parse_scene_end_mark$11;
+        return_value_en50221_app_mmi_parse_scene_end_mark_11=en50221_app_mmi_parse_scene_end_mark(mmi, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_mmi_parse_scene_end_mark_11;
       }
       case (unsigned int)0x9f8813:
       {
-        return_value_en50221_app_mmi_parse_scene_control$12=en50221_app_mmi_parse_scene_control(mmi, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_mmi_parse_scene_control$12;
+        return_value_en50221_app_mmi_parse_scene_control_12=en50221_app_mmi_parse_scene_control(mmi, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_mmi_parse_scene_control_12;
       }
       case (unsigned int)0x9f8814:
       {
-        return_value_en50221_app_mmi_parse_subtitle$13=en50221_app_mmi_parse_subtitle(mmi, slot_id, session_number, tag, 1, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_mmi_parse_subtitle$13;
+        return_value_en50221_app_mmi_parse_subtitle_13=en50221_app_mmi_parse_subtitle(mmi, slot_id, session_number, tag, 1, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_mmi_parse_subtitle_13;
       }
       case (unsigned int)0x9f8815:
       {
-        return_value_en50221_app_mmi_parse_subtitle$14=en50221_app_mmi_parse_subtitle(mmi, slot_id, session_number, tag, 0, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_mmi_parse_subtitle$14;
+        return_value_en50221_app_mmi_parse_subtitle_14=en50221_app_mmi_parse_subtitle(mmi, slot_id, session_number, tag, 0, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_mmi_parse_subtitle_14;
       }
       case (unsigned int)0x9f8816:
       {
-        return_value_en50221_app_mmi_parse_flush_download$15=en50221_app_mmi_parse_flush_download(mmi, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_mmi_parse_flush_download$15;
+        return_value_en50221_app_mmi_parse_flush_download_15=en50221_app_mmi_parse_flush_download(mmi, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_mmi_parse_flush_download_15;
       }
       default:
       {
         do
-          vprint$link7("%s: Received unexpected tag %x\n\n", (const void *)"en50221_app_mmi_message", tag);
+          vprint_link7("%s: Received unexpected tag %x\n\n", (const void *)"en50221_app_mmi_message", tag);
         while((_Bool)0);
         return -1;
       }
@@ -14749,7 +14749,7 @@ static signed int en50221_app_mmi_parse_close(struct en50221_app_mmi *mmi, unsig
   if(!(data_length >= 2u))
   {
     do
-      vprint$link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_close");
+      vprint_link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_close");
     while((_Bool)0);
     return -1;
   }
@@ -14758,7 +14758,7 @@ static signed int en50221_app_mmi_parse_close(struct en50221_app_mmi *mmi, unsig
     if(!(data_length + 4294967295u >= (unsigned int)*data))
     {
       do
-        vprint$link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_close");
+        vprint_link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_close");
       while((_Bool)0);
       return -1;
     }
@@ -14772,7 +14772,7 @@ static signed int en50221_app_mmi_parse_close(struct en50221_app_mmi *mmi, unsig
         if(!((signed int)*data == 2))
         {
           do
-            vprint$link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_close");
+            vprint_link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_close");
           while((_Bool)0);
           return -1;
         }
@@ -14802,7 +14802,7 @@ static signed int en50221_app_mmi_parse_display_control(struct en50221_app_mmi *
   if(!(data_length >= 2u))
   {
     do
-      vprint$link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_display_control");
+      vprint_link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_display_control");
     while((_Bool)0);
     return -1;
   }
@@ -14811,7 +14811,7 @@ static signed int en50221_app_mmi_parse_display_control(struct en50221_app_mmi *
     if(!(data_length + 4294967295u >= (unsigned int)*data))
     {
       do
-        vprint$link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_display_control");
+        vprint_link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_display_control");
       while((_Bool)0);
       return -1;
     }
@@ -14825,7 +14825,7 @@ static signed int en50221_app_mmi_parse_display_control(struct en50221_app_mmi *
         if(!((signed int)*data == 2))
         {
           do
-            vprint$link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_display_control");
+            vprint_link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_display_control");
           while((_Bool)0);
           return -1;
         }
@@ -14858,7 +14858,7 @@ static signed int en50221_app_mmi_parse_enq(struct en50221_app_mmi *mmi, unsigne
   if(!(length_field_len >= 0))
   {
     do
-      vprint$link7("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_mmi_parse_enq");
+      vprint_link7("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_mmi_parse_enq");
     while((_Bool)0);
     return -1;
   }
@@ -14867,7 +14867,7 @@ static signed int en50221_app_mmi_parse_enq(struct en50221_app_mmi *mmi, unsigne
     if(!(data_length + -((unsigned int)length_field_len) >= (unsigned int)asn_data_length))
     {
       do
-        vprint$link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_enq");
+        vprint_link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_enq");
       while((_Bool)0);
       return -1;
     }
@@ -14876,7 +14876,7 @@ static signed int en50221_app_mmi_parse_enq(struct en50221_app_mmi *mmi, unsigne
       if(!((signed int)asn_data_length >= 2))
       {
         do
-          vprint$link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_enq");
+          vprint_link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_enq");
         while((_Bool)0);
         return -1;
       }
@@ -14909,7 +14909,7 @@ static signed int en50221_app_mmi_parse_flush_download(struct en50221_app_mmi *m
   if(!(data_length == 1u))
   {
     do
-      vprint$link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_flush_download");
+      vprint_link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_flush_download");
     while((_Bool)0);
     return -1;
   }
@@ -14918,7 +14918,7 @@ static signed int en50221_app_mmi_parse_flush_download(struct en50221_app_mmi *m
     if(!((signed int)*data == 0))
     {
       do
-        vprint$link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_flush_download");
+        vprint_link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_flush_download");
       while((_Bool)0);
       return -1;
     }
@@ -14950,7 +14950,7 @@ static signed int en50221_app_mmi_parse_keypad_control(struct en50221_app_mmi *m
   if(!(length_field_len >= 0))
   {
     do
-      vprint$link7("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_mmi_parse_keypad_control");
+      vprint_link7("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_mmi_parse_keypad_control");
     while((_Bool)0);
     return -1;
   }
@@ -14959,7 +14959,7 @@ static signed int en50221_app_mmi_parse_keypad_control(struct en50221_app_mmi *m
     if(!(data_length + -((unsigned int)length_field_len) >= (unsigned int)asn_data_length))
     {
       do
-        vprint$link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_keypad_control");
+        vprint_link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_keypad_control");
       while((_Bool)0);
       return -1;
     }
@@ -14968,7 +14968,7 @@ static signed int en50221_app_mmi_parse_keypad_control(struct en50221_app_mmi *m
       if(!((signed int)asn_data_length >= 1))
       {
         do
-          vprint$link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_keypad_control");
+          vprint_link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_keypad_control");
         while((_Bool)0);
         return -1;
       }
@@ -15006,21 +15006,21 @@ static signed int en50221_app_mmi_parse_list_menu(struct en50221_app_mmi *mmi, u
   signed int length_field_len;
   length_field_len=asn_1_decode(&asn_data_length, data, data_length);
   unsigned char choice_nb;
-  void *return_value___builtin_alloca$1;
-  void *return_value___builtin_alloca$2;
+  void *return_value___builtin_alloca_1;
+  void *return_value___builtin_alloca_2;
   struct en50221_app_mmi_text *text_data_for_user;
-  void *return_value___builtin_alloca$3;
+  void *return_value___builtin_alloca_3;
   struct en50221_app_mmi_text *text_ptr;
   unsigned char *items_raw;
   unsigned int items_raw_length;
   signed int (*cb)(void *, unsigned char, unsigned short int, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, unsigned int, struct en50221_app_mmi_text *, unsigned int, unsigned char *);
   void *cb_arg;
-  signed int (*en50221_app_mmi_parse_list_menu$$1$$11$$2$$cb)(void *, unsigned char, unsigned short int, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, unsigned int, struct en50221_app_mmi_text *, unsigned int, unsigned char *);
-  void *en50221_app_mmi_parse_list_menu$$1$$11$$2$$cb_arg;
+  signed int (*en50221_app_mmi_parse_list_menu__1__11__2__cb)(void *, unsigned char, unsigned short int, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, unsigned int, struct en50221_app_mmi_text *, unsigned int, unsigned char *);
+  void *en50221_app_mmi_parse_list_menu__1__11__2__cb_arg;
   if(!(length_field_len >= 0))
   {
     do
-      vprint$link7("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_mmi_parse_list_menu");
+      vprint_link7("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_mmi_parse_list_menu");
     while((_Bool)0);
     return -1;
   }
@@ -15029,7 +15029,7 @@ static signed int en50221_app_mmi_parse_list_menu(struct en50221_app_mmi *mmi, u
     if(!(data_length + -((unsigned int)length_field_len) >= (unsigned int)asn_data_length))
     {
       do
-        vprint$link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_list_menu");
+        vprint_link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_list_menu");
       while((_Bool)0);
       return -1;
     }
@@ -15055,7 +15055,7 @@ static signed int en50221_app_mmi_parse_list_menu(struct en50221_app_mmi *mmi, u
         if(!(data_length >= 1u))
         {
           do
-            vprint$link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_list_menu");
+            vprint_link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_list_menu");
           while((_Bool)0);
           pthread_mutex_unlock(&mmi->lock);
           result = -1;
@@ -15070,8 +15070,8 @@ static signed int en50221_app_mmi_parse_list_menu(struct en50221_app_mmi *mmi, u
 
           data = data + 1l;
           data_length = data_length - 1u;
-          return_value___builtin_alloca$1=__builtin_alloca((unsigned long int)text_count);
-          text_flags = (unsigned char *)return_value___builtin_alloca$1;
+          return_value___builtin_alloca_1=__builtin_alloca((unsigned long int)text_count);
+          text_flags = (unsigned char *)return_value___builtin_alloca_1;
           if(text_flags == ((unsigned char *)NULL))
           {
             pthread_mutex_unlock(&mmi->lock);
@@ -15081,8 +15081,8 @@ static signed int en50221_app_mmi_parse_list_menu(struct en50221_app_mmi *mmi, u
           else
           {
             memset((void *)text_flags, 0, (unsigned long int)text_count);
-            return_value___builtin_alloca$2=__builtin_alloca(sizeof(struct en50221_app_mmi_text) /*16ul*/  * (unsigned long int)text_count);
-            text_data = (struct en50221_app_mmi_text *)return_value___builtin_alloca$2;
+            return_value___builtin_alloca_2=__builtin_alloca(sizeof(struct en50221_app_mmi_text) /*16ul*/  * (unsigned long int)text_count);
+            text_data = (struct en50221_app_mmi_text *)return_value___builtin_alloca_2;
             if(text_data == ((struct en50221_app_mmi_text *)NULL))
             {
               pthread_mutex_unlock(&mmi->lock);
@@ -15109,8 +15109,8 @@ static signed int en50221_app_mmi_parse_list_menu(struct en50221_app_mmi *mmi, u
                 data = data + (signed long int)consumed;
                 data_length = data_length - consumed;
               }
-              return_value___builtin_alloca$3=__builtin_alloca(sizeof(struct en50221_app_mmi_text) /*16ul*/  * (unsigned long int)text_count);
-              text_data_for_user = (struct en50221_app_mmi_text *)return_value___builtin_alloca$3;
+              return_value___builtin_alloca_3=__builtin_alloca(sizeof(struct en50221_app_mmi_text) /*16ul*/  * (unsigned long int)text_count);
+              text_data_for_user = (struct en50221_app_mmi_text *)return_value___builtin_alloca_3;
               if(text_data_for_user == ((struct en50221_app_mmi_text *)NULL))
                 result = -1;
 
@@ -15144,11 +15144,11 @@ static signed int en50221_app_mmi_parse_list_menu(struct en50221_app_mmi *mmi, u
                   }
                   case (unsigned int)0x9f880c:
                   {
-                    en50221_app_mmi_parse_list_menu$$1$$11$$2$$cb = mmi->listcallback;
-                    en50221_app_mmi_parse_list_menu$$1$$11$$2$$cb_arg = mmi->listcallback_arg;
+                    en50221_app_mmi_parse_list_menu__1__11__2__cb = mmi->listcallback;
+                    en50221_app_mmi_parse_list_menu__1__11__2__cb_arg = mmi->listcallback_arg;
                     pthread_mutex_unlock(&mmi->lock);
-                    if(!(en50221_app_mmi_parse_list_menu$$1$$11$$2$$cb == ((signed int (*)(void *, unsigned char, unsigned short int, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, unsigned int, struct en50221_app_mmi_text *, unsigned int, unsigned char *))NULL)))
-                      result=en50221_app_mmi_parse_list_menu$$1$$11$$2$$cb(en50221_app_mmi_parse_list_menu$$1$$11$$2$$cb_arg, slot_id, session_number, &text_data_for_user[(signed long int)0], &text_data_for_user[(signed long int)1], &text_data_for_user[(signed long int)2], (unsigned int)((signed int)text_count - 3), text_ptr, items_raw_length, items_raw);
+                    if(!(en50221_app_mmi_parse_list_menu__1__11__2__cb == ((signed int (*)(void *, unsigned char, unsigned short int, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, struct en50221_app_mmi_text *, unsigned int, struct en50221_app_mmi_text *, unsigned int, unsigned char *))NULL)))
+                      result=en50221_app_mmi_parse_list_menu__1__11__2__cb(en50221_app_mmi_parse_list_menu__1__11__2__cb_arg, slot_id, session_number, &text_data_for_user[(signed long int)0], &text_data_for_user[(signed long int)1], &text_data_for_user[(signed long int)2], (unsigned int)((signed int)text_count - 3), text_ptr, items_raw_length, items_raw);
 
                     break;
                   }
@@ -15190,7 +15190,7 @@ static signed int en50221_app_mmi_parse_scene_control(struct en50221_app_mmi *mm
   if(!(data_length == 2u))
   {
     do
-      vprint$link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_scene_control");
+      vprint_link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_scene_control");
     while((_Bool)0);
     return -1;
   }
@@ -15199,7 +15199,7 @@ static signed int en50221_app_mmi_parse_scene_control(struct en50221_app_mmi *mm
     if(!((signed int)*data == 1))
     {
       do
-        vprint$link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_scene_control");
+        vprint_link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_scene_control");
       while((_Bool)0);
       return -1;
     }
@@ -15229,7 +15229,7 @@ static signed int en50221_app_mmi_parse_scene_end_mark(struct en50221_app_mmi *m
   if(!(data_length == 2u))
   {
     do
-      vprint$link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_scene_end_mark");
+      vprint_link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_scene_end_mark");
     while((_Bool)0);
     return -1;
   }
@@ -15238,7 +15238,7 @@ static signed int en50221_app_mmi_parse_scene_end_mark(struct en50221_app_mmi *m
     if(!((signed int)*data == 1))
     {
       do
-        vprint$link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_scene_end_mark");
+        vprint_link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_scene_end_mark");
       while((_Bool)0);
       return -1;
     }
@@ -15270,12 +15270,12 @@ static signed int en50221_app_mmi_parse_subtitle(struct en50221_app_mmi *mmi, un
   length_field_len=asn_1_decode(&asn_data_length, data, data_length);
   signed int (*cb)(void *, unsigned char, unsigned short int, unsigned char *, unsigned int);
   void *cb_arg;
-  signed int (*en50221_app_mmi_parse_subtitle$$1$$4$$2$$cb)(void *, unsigned char, unsigned short int, unsigned char *, unsigned int);
-  void *en50221_app_mmi_parse_subtitle$$1$$4$$2$$cb_arg;
+  signed int (*en50221_app_mmi_parse_subtitle__1__4__2__cb)(void *, unsigned char, unsigned short int, unsigned char *, unsigned int);
+  void *en50221_app_mmi_parse_subtitle__1__4__2__cb_arg;
   if(!(length_field_len >= 0))
   {
     do
-      vprint$link7("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_mmi_parse_subtitle");
+      vprint_link7("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_mmi_parse_subtitle");
     while((_Bool)0);
     return -1;
   }
@@ -15284,7 +15284,7 @@ static signed int en50221_app_mmi_parse_subtitle(struct en50221_app_mmi *mmi, un
     if(!(data_length + -((unsigned int)length_field_len) >= (unsigned int)asn_data_length))
     {
       do
-        vprint$link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_subtitle");
+        vprint_link7("%s: Received short data\n\n", (const void *)"en50221_app_mmi_parse_subtitle");
       while((_Bool)0);
       return -1;
     }
@@ -15320,11 +15320,11 @@ static signed int en50221_app_mmi_parse_subtitle(struct en50221_app_mmi *mmi, un
           }
           case (unsigned int)0x9f8814:
           {
-            en50221_app_mmi_parse_subtitle$$1$$4$$2$$cb = mmi->subtitledownloadcallback;
-            en50221_app_mmi_parse_subtitle$$1$$4$$2$$cb_arg = mmi->subtitledownloadcallback_arg;
+            en50221_app_mmi_parse_subtitle__1__4__2__cb = mmi->subtitledownloadcallback;
+            en50221_app_mmi_parse_subtitle__1__4__2__cb_arg = mmi->subtitledownloadcallback_arg;
             pthread_mutex_unlock(&mmi->lock);
-            if(!(en50221_app_mmi_parse_subtitle$$1$$4$$2$$cb == ((signed int (*)(void *, unsigned char, unsigned short int, unsigned char *, unsigned int))NULL)))
-              cbstatus=en50221_app_mmi_parse_subtitle$$1$$4$$2$$cb(en50221_app_mmi_parse_subtitle$$1$$4$$2$$cb_arg, slot_id, session_number, outdata, outdata_length);
+            if(!(en50221_app_mmi_parse_subtitle__1__4__2__cb == ((signed int (*)(void *, unsigned char, unsigned short int, unsigned char *, unsigned int))NULL)))
+              cbstatus=en50221_app_mmi_parse_subtitle__1__4__2__cb(en50221_app_mmi_parse_subtitle__1__4__2__cb_arg, slot_id, session_number, outdata, outdata_length);
 
           }
         }
@@ -15480,9 +15480,9 @@ extern signed int en50221_app_rm_changed(struct en50221_app_rm *rm, unsigned sho
 extern struct en50221_app_rm * en50221_app_rm_create(struct en50221_app_send_functions *funcs)
 {
   struct en50221_app_rm *rm = (struct en50221_app_rm *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct en50221_app_rm) /*96ul*/ );
-  rm = (struct en50221_app_rm *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct en50221_app_rm) /*96ul*/ );
+  rm = (struct en50221_app_rm *)return_value_malloc_1;
   if(rm == ((struct en50221_app_rm *)NULL))
     return (struct en50221_app_rm *)(void *)0;
 
@@ -15492,7 +15492,7 @@ extern struct en50221_app_rm * en50221_app_rm_create(struct en50221_app_send_fun
     rm->enqcallback = (signed int (*)(void *, unsigned char, unsigned short int))(void *)0;
     rm->replycallback = (signed int (*)(void *, unsigned char, unsigned short int, unsigned int, unsigned int *))(void *)0;
     rm->changedcallback = (signed int (*)(void *, unsigned char, unsigned short int))(void *)0;
-    pthread_mutex_init(&rm->lock, (const union anonymous$2 *)(void *)0);
+    pthread_mutex_init(&rm->lock, (const union anonymous_2 *)(void *)0);
     return rm;
   }
 }
@@ -15524,13 +15524,13 @@ extern signed int en50221_app_rm_enq(struct en50221_app_rm *rm, unsigned short i
 extern signed int en50221_app_rm_message(struct en50221_app_rm *rm, unsigned char slot_id, unsigned short int session_number, unsigned int resource_id, unsigned char *data, unsigned int data_length)
 {
   (void)resource_id;
-  signed int return_value_en50221_app_rm_parse_profile_enq$1;
-  signed int return_value_en50221_app_rm_parse_profile_reply$2;
-  signed int return_value_en50221_app_rm_parse_profile_change$3;
+  signed int return_value_en50221_app_rm_parse_profile_enq_1;
+  signed int return_value_en50221_app_rm_parse_profile_reply_2;
+  signed int return_value_en50221_app_rm_parse_profile_change_3;
   if(!(data_length >= 3u))
   {
     do
-      vprint$link8("%s: Received short data\n\n", (const void *)"en50221_app_rm_message");
+      vprint_link8("%s: Received short data\n\n", (const void *)"en50221_app_rm_message");
     while((_Bool)0);
     return -1;
   }
@@ -15542,23 +15542,23 @@ extern signed int en50221_app_rm_message(struct en50221_app_rm *rm, unsigned cha
     {
       case (unsigned int)0x9f8010:
       {
-        return_value_en50221_app_rm_parse_profile_enq$1=en50221_app_rm_parse_profile_enq(rm, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_rm_parse_profile_enq$1;
+        return_value_en50221_app_rm_parse_profile_enq_1=en50221_app_rm_parse_profile_enq(rm, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_rm_parse_profile_enq_1;
       }
       case (unsigned int)0x9f8011:
       {
-        return_value_en50221_app_rm_parse_profile_reply$2=en50221_app_rm_parse_profile_reply(rm, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_rm_parse_profile_reply$2;
+        return_value_en50221_app_rm_parse_profile_reply_2=en50221_app_rm_parse_profile_reply(rm, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_rm_parse_profile_reply_2;
       }
       case (unsigned int)0x9f8012:
       {
-        return_value_en50221_app_rm_parse_profile_change$3=en50221_app_rm_parse_profile_change(rm, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_rm_parse_profile_change$3;
+        return_value_en50221_app_rm_parse_profile_change_3=en50221_app_rm_parse_profile_change(rm, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_rm_parse_profile_change_3;
       }
       default:
       {
         do
-          vprint$link8("%s: Received unexpected tag %x\n\n", (const void *)"en50221_app_rm_message", tag);
+          vprint_link8("%s: Received unexpected tag %x\n\n", (const void *)"en50221_app_rm_message", tag);
         while((_Bool)0);
         return -1;
       }
@@ -15616,7 +15616,7 @@ static signed int en50221_app_rm_parse_profile_reply(struct en50221_app_rm *rm, 
   if(!(length_field_len >= 0))
   {
     do
-      vprint$link8("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_rm_parse_profile_reply");
+      vprint_link8("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_rm_parse_profile_reply");
     while((_Bool)0);
     return -1;
   }
@@ -15625,7 +15625,7 @@ static signed int en50221_app_rm_parse_profile_reply(struct en50221_app_rm *rm, 
     if(!(data_length + -((unsigned int)length_field_len) >= (unsigned int)asn_data_length))
     {
       do
-        vprint$link8("%s: Received short data\n\n", (const void *)"en50221_app_rm_parse_profile_reply");
+        vprint_link8("%s: Received short data\n\n", (const void *)"en50221_app_rm_parse_profile_reply");
       while((_Bool)0);
       return -1;
     }
@@ -15633,7 +15633,7 @@ static signed int en50221_app_rm_parse_profile_reply(struct en50221_app_rm *rm, 
     else
     {
       unsigned int resources_count = (unsigned int)((signed int)asn_data_length / 4);
-      unsigned int *en50221_app_rm_parse_profile_reply$$1$$resource_ids = (unsigned int *)(data + (signed long int)length_field_len);
+      unsigned int *en50221_app_rm_parse_profile_reply__1__resource_ids = (unsigned int *)(data + (signed long int)length_field_len);
       data = data + (signed long int)length_field_len;
       unsigned int i = (unsigned int)0;
       for( ; !(i >= resources_count); i = i + 1u)
@@ -15648,7 +15648,7 @@ static signed int en50221_app_rm_parse_profile_reply(struct en50221_app_rm *rm, 
       if(!(cb == ((signed int (*)(void *, unsigned char, unsigned short int, unsigned int, unsigned int *))NULL)))
       {
         signed int return_value;
-        return_value=cb(cb_arg, slot_id, session_number, resources_count, en50221_app_rm_parse_profile_reply$$1$$resource_ids);
+        return_value=cb(cb_arg, slot_id, session_number, resources_count, en50221_app_rm_parse_profile_reply__1__resource_ids);
         return return_value;
       }
 
@@ -15702,9 +15702,9 @@ extern signed int en50221_app_rm_reply(struct en50221_app_rm *rm, unsigned short
   else
   {
     unsigned int *copy_resource_ids;
-    void *return_value___builtin_alloca$1;
-    return_value___builtin_alloca$1=__builtin_alloca((unsigned long int)((unsigned int)4 * resource_id_count));
-    copy_resource_ids = (unsigned int *)return_value___builtin_alloca$1;
+    void *return_value___builtin_alloca_1;
+    return_value___builtin_alloca_1=__builtin_alloca((unsigned long int)((unsigned int)4 * resource_id_count));
+    copy_resource_ids = (unsigned int *)return_value___builtin_alloca_1;
     if(copy_resource_ids == ((unsigned int *)NULL))
       return -1;
 
@@ -15775,9 +15775,9 @@ extern signed int en50221_app_smartcard_command_reply(struct en50221_app_smartca
 extern struct en50221_app_smartcard * en50221_app_smartcard_create(struct en50221_app_send_functions *funcs)
 {
   struct en50221_app_smartcard *smartcard = (struct en50221_app_smartcard *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct en50221_app_smartcard) /*80ul*/ );
-  smartcard = (struct en50221_app_smartcard *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct en50221_app_smartcard) /*80ul*/ );
+  smartcard = (struct en50221_app_smartcard *)return_value_malloc_1;
   if(smartcard == ((struct en50221_app_smartcard *)NULL))
     return (struct en50221_app_smartcard *)(void *)0;
 
@@ -15786,7 +15786,7 @@ extern struct en50221_app_smartcard * en50221_app_smartcard_create(struct en5022
     smartcard->funcs = funcs;
     smartcard->command_callback = (signed int (*)(void *, unsigned char, unsigned short int, unsigned char))(void *)0;
     smartcard->send_callback = (signed int (*)(void *, unsigned char, unsigned short int, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char *, unsigned int, unsigned int))(void *)0;
-    pthread_mutex_init(&smartcard->lock, (const union anonymous$2 *)(void *)0);
+    pthread_mutex_init(&smartcard->lock, (const union anonymous_2 *)(void *)0);
     return smartcard;
   }
 }
@@ -15804,12 +15804,12 @@ extern void en50221_app_smartcard_destroy(struct en50221_app_smartcard *smartcar
 extern signed int en50221_app_smartcard_message(struct en50221_app_smartcard *smartcard, unsigned char slot_id, unsigned short int session_number, unsigned int resource_id, unsigned char *data, unsigned int data_length)
 {
   (void)resource_id;
-  signed int return_value_en50221_app_smartcard_parse_command$1;
-  signed int return_value_en50221_app_smartcard_parse_send$2;
+  signed int return_value_en50221_app_smartcard_parse_command_1;
+  signed int return_value_en50221_app_smartcard_parse_send_2;
   if(!(data_length >= 3u))
   {
     do
-      vprint$link9("%s: Received short data\n\n", (const void *)"en50221_app_smartcard_message");
+      vprint_link9("%s: Received short data\n\n", (const void *)"en50221_app_smartcard_message");
     while((_Bool)0);
     return -1;
   }
@@ -15821,18 +15821,18 @@ extern signed int en50221_app_smartcard_message(struct en50221_app_smartcard *sm
     {
       case (unsigned int)0x9f8e00:
       {
-        return_value_en50221_app_smartcard_parse_command$1=en50221_app_smartcard_parse_command(smartcard, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_smartcard_parse_command$1;
+        return_value_en50221_app_smartcard_parse_command_1=en50221_app_smartcard_parse_command(smartcard, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_smartcard_parse_command_1;
       }
       case (unsigned int)0x9f8e02:
       {
-        return_value_en50221_app_smartcard_parse_send$2=en50221_app_smartcard_parse_send(smartcard, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-        return return_value_en50221_app_smartcard_parse_send$2;
+        return_value_en50221_app_smartcard_parse_send_2=en50221_app_smartcard_parse_send(smartcard, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+        return return_value_en50221_app_smartcard_parse_send_2;
       }
       default:
       {
         do
-          vprint$link9("%s: Received unexpected tag %x\n\n", (const void *)"en50221_app_smartcard_message", tag);
+          vprint_link9("%s: Received unexpected tag %x\n\n", (const void *)"en50221_app_smartcard_message", tag);
         while((_Bool)0);
         return -1;
       }
@@ -15847,7 +15847,7 @@ static signed int en50221_app_smartcard_parse_command(struct en50221_app_smartca
   if(!(data_length == 2u))
   {
     do
-      vprint$link9("%s: Received short data\n\n", (const void *)"en50221_app_smartcard_parse_command");
+      vprint_link9("%s: Received short data\n\n", (const void *)"en50221_app_smartcard_parse_command");
     while((_Bool)0);
     return -1;
   }
@@ -15856,7 +15856,7 @@ static signed int en50221_app_smartcard_parse_command(struct en50221_app_smartca
     if(!((signed int)*data == 1))
     {
       do
-        vprint$link9("%s: Received short data\n\n", (const void *)"en50221_app_smartcard_parse_command");
+        vprint_link9("%s: Received short data\n\n", (const void *)"en50221_app_smartcard_parse_command");
       while((_Bool)0);
       return -1;
     }
@@ -15889,7 +15889,7 @@ static signed int en50221_app_smartcard_parse_send(struct en50221_app_smartcard 
   if(!(length_field_len >= 0))
   {
     do
-      vprint$link9("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_smartcard_parse_send");
+      vprint_link9("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_smartcard_parse_send");
     while((_Bool)0);
     return -1;
   }
@@ -15898,7 +15898,7 @@ static signed int en50221_app_smartcard_parse_send(struct en50221_app_smartcard 
     if(!((signed int)asn_data_length >= 8))
     {
       do
-        vprint$link9("%s: Received short data\n\n", (const void *)"en50221_app_smartcard_parse_send");
+        vprint_link9("%s: Received short data\n\n", (const void *)"en50221_app_smartcard_parse_send");
       while((_Bool)0);
       return -1;
     }
@@ -15907,7 +15907,7 @@ static signed int en50221_app_smartcard_parse_send(struct en50221_app_smartcard 
       if(!(data_length + -((unsigned int)length_field_len) >= (unsigned int)asn_data_length))
       {
         do
-          vprint$link9("%s: Received short data\n\n", (const void *)"en50221_app_smartcard_parse_send");
+          vprint_link9("%s: Received short data\n\n", (const void *)"en50221_app_smartcard_parse_send");
         while((_Bool)0);
         return -1;
       }
@@ -15924,7 +15924,7 @@ static signed int en50221_app_smartcard_parse_send(struct en50221_app_smartcard 
         if(!(8 + (signed int)length_in == (signed int)asn_data_length))
         {
           do
-            vprint$link9("%s: Received short data\n\n", (const void *)"en50221_app_smartcard_parse_send");
+            vprint_link9("%s: Received short data\n\n", (const void *)"en50221_app_smartcard_parse_send");
           while((_Bool)0);
           return -1;
         }
@@ -16004,9 +16004,9 @@ extern void en50221_app_smartcard_register_send_callback(struct en50221_app_smar
 extern struct en50221_app_teletext * en50221_app_teletext_create(struct en50221_app_send_functions *funcs)
 {
   struct en50221_app_teletext *teletext = (struct en50221_app_teletext *)(void *)0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct en50221_app_teletext) /*64ul*/ );
-  teletext = (struct en50221_app_teletext *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct en50221_app_teletext) /*64ul*/ );
+  teletext = (struct en50221_app_teletext *)return_value_malloc_1;
   if(teletext == ((struct en50221_app_teletext *)NULL))
     return (struct en50221_app_teletext *)(void *)0;
 
@@ -16014,7 +16014,7 @@ extern struct en50221_app_teletext * en50221_app_teletext_create(struct en50221_
   {
     teletext->funcs = funcs;
     teletext->callback = (signed int (*)(void *, unsigned char, unsigned short int, unsigned char *, unsigned int))(void *)0;
-    pthread_mutex_init(&teletext->lock, (const union anonymous$2 *)(void *)0);
+    pthread_mutex_init(&teletext->lock, (const union anonymous_2 *)(void *)0);
     return teletext;
   }
 }
@@ -16035,7 +16035,7 @@ extern signed int en50221_app_teletext_message(struct en50221_app_teletext *tele
   if(!(data_length >= 3u))
   {
     do
-      vprint$link10("%s: Received short data\n\n", (const void *)"en50221_app_teletext_message");
+      vprint_link10("%s: Received short data\n\n", (const void *)"en50221_app_teletext_message");
     while((_Bool)0);
     return -1;
   }
@@ -16045,13 +16045,13 @@ extern signed int en50221_app_teletext_message(struct en50221_app_teletext *tele
     unsigned int tag = (unsigned int)((signed int)data[(signed long int)0] << 16 | (signed int)data[(signed long int)1] << 8 | (signed int)data[(signed long int)2]);
     if(tag == 10457088u)
     {
-      signed int return_value_en50221_app_teletext_parse_ebu$1;
-      return_value_en50221_app_teletext_parse_ebu$1=en50221_app_teletext_parse_ebu(teletext, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
-      return return_value_en50221_app_teletext_parse_ebu$1;
+      signed int return_value_en50221_app_teletext_parse_ebu_1;
+      return_value_en50221_app_teletext_parse_ebu_1=en50221_app_teletext_parse_ebu(teletext, slot_id, session_number, data + (signed long int)3, data_length - (unsigned int)3);
+      return return_value_en50221_app_teletext_parse_ebu_1;
     }
 
     do
-      vprint$link10("%s: Received unexpected tag %x\n\n", (const void *)"en50221_app_teletext_message", tag);
+      vprint_link10("%s: Received unexpected tag %x\n\n", (const void *)"en50221_app_teletext_message", tag);
     while((_Bool)0);
     return -1;
   }
@@ -16067,7 +16067,7 @@ static signed int en50221_app_teletext_parse_ebu(struct en50221_app_teletext *te
   if(!(length_field_len >= 0))
   {
     do
-      vprint$link10("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_teletext_parse_ebu");
+      vprint_link10("%s: ASN.1 decode error\n\n", (const void *)"en50221_app_teletext_parse_ebu");
     while((_Bool)0);
     return -1;
   }
@@ -16076,7 +16076,7 @@ static signed int en50221_app_teletext_parse_ebu(struct en50221_app_teletext *te
     if(!(data_length + -((unsigned int)length_field_len) >= (unsigned int)asn_data_length))
     {
       do
-        vprint$link10("%s: Received short data\n\n", (const void *)"en50221_app_teletext_parse_ebu");
+        vprint_link10("%s: Received short data\n\n", (const void *)"en50221_app_teletext_parse_ebu");
       while((_Bool)0);
       return -1;
     }
@@ -16152,9 +16152,9 @@ static signed int en50221_ca_extract_pmt_descriptors(struct mpeg_pmt_section *pm
     if((signed int)cur_descriptor->tag == 9)
     {
       struct ca_pmt_descriptor *new_d;
-      void *return_value_malloc$1;
-      return_value_malloc$1=malloc(sizeof(struct ca_pmt_descriptor) /*24ul*/ );
-      new_d = (struct ca_pmt_descriptor *)return_value_malloc$1;
+      void *return_value_malloc_1;
+      return_value_malloc_1=malloc(sizeof(struct ca_pmt_descriptor) /*24ul*/ );
+      new_d = (struct ca_pmt_descriptor *)return_value_malloc_1;
       if(new_d == ((struct ca_pmt_descriptor *)NULL))
         goto error_exit;
 
@@ -16200,9 +16200,9 @@ static signed int en50221_ca_extract_streams(struct mpeg_pmt_section *pmt, struc
   {
     struct ca_pmt_descriptor *descriptors_tail = (struct ca_pmt_descriptor *)(void *)0;
     struct ca_pmt_stream *new_s;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct ca_pmt_stream) /*32ul*/ );
-    new_s = (struct ca_pmt_stream *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct ca_pmt_stream) /*32ul*/ );
+    new_s = (struct ca_pmt_stream *)return_value_malloc_1;
     if(new_s == ((struct ca_pmt_stream *)NULL))
       goto exit_cleanup;
 
@@ -16223,9 +16223,9 @@ static signed int en50221_ca_extract_streams(struct mpeg_pmt_section *pmt, struc
       if((signed int)cur_descriptor->tag == 9)
       {
         struct ca_pmt_descriptor *new_d;
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc(sizeof(struct ca_pmt_descriptor) /*24ul*/ );
-        new_d = (struct ca_pmt_descriptor *)return_value_malloc$2;
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc(sizeof(struct ca_pmt_descriptor) /*24ul*/ );
+        new_d = (struct ca_pmt_descriptor *)return_value_malloc_2;
         if(new_d == ((struct ca_pmt_descriptor *)NULL))
           goto exit_cleanup;
 
@@ -16278,16 +16278,16 @@ extern signed int en50221_ca_format_pmt(struct mpeg_pmt_section *pmt, unsigned c
   struct ca_pmt_descriptor *cur_d;
   struct ca_pmt_stream *cur_s;
   signed int result = -1;
-  signed int return_value_en50221_ca_extract_pmt_descriptors$1;
-  return_value_en50221_ca_extract_pmt_descriptors$1=en50221_ca_extract_pmt_descriptors(pmt, &pmt_descriptors);
-  signed int return_value_en50221_ca_extract_streams$2;
+  signed int return_value_en50221_ca_extract_pmt_descriptors_1;
+  return_value_en50221_ca_extract_pmt_descriptors_1=en50221_ca_extract_pmt_descriptors(pmt, &pmt_descriptors);
+  signed int return_value_en50221_ca_extract_streams_2;
   unsigned int data_pos;
-  unsigned short int return_value_mpeg_pmt_section_program_number$5;
-  unsigned short int return_value_mpeg_pmt_section_program_number$7;
-  if(return_value_en50221_ca_extract_pmt_descriptors$1 == 0)
+  unsigned short int return_value_mpeg_pmt_section_program_number_5;
+  unsigned short int return_value_mpeg_pmt_section_program_number_7;
+  if(return_value_en50221_ca_extract_pmt_descriptors_1 == 0)
   {
-    return_value_en50221_ca_extract_streams$2=en50221_ca_extract_streams(pmt, &pmt_streams);
-    if(return_value_en50221_ca_extract_streams$2 == 0)
+    return_value_en50221_ca_extract_streams_2=en50221_ca_extract_streams(pmt, &pmt_streams);
+    if(return_value_en50221_ca_extract_streams_2 == 0)
     {
       if(pmt_descriptors == ((struct ca_pmt_descriptor *)NULL) && !(move_ca_descriptors == 0))
         en50221_ca_try_move_pmt_descriptors(&pmt_descriptors, &pmt_streams);
@@ -16296,31 +16296,31 @@ extern signed int en50221_ca_format_pmt(struct mpeg_pmt_section *pmt, unsigned c
       if(data_length >= total_required_length)
       {
         data_pos = (unsigned int)0;
-        unsigned int tmp_post$3 = data_pos;
+        unsigned int tmp_post_3 = data_pos;
         data_pos = data_pos + 1u;
-        data[(signed long int)tmp_post$3] = ca_pmt_list_management;
-        unsigned int tmp_post$4 = data_pos;
+        data[(signed long int)tmp_post_3] = ca_pmt_list_management;
+        unsigned int tmp_post_4 = data_pos;
         data_pos = data_pos + 1u;
-        return_value_mpeg_pmt_section_program_number$5=mpeg_pmt_section_program_number(pmt);
-        data[(signed long int)tmp_post$4] = (unsigned char)((signed int)return_value_mpeg_pmt_section_program_number$5 >> 8);
-        unsigned int tmp_post$6 = data_pos;
+        return_value_mpeg_pmt_section_program_number_5=mpeg_pmt_section_program_number(pmt);
+        data[(signed long int)tmp_post_4] = (unsigned char)((signed int)return_value_mpeg_pmt_section_program_number_5 >> 8);
+        unsigned int tmp_post_6 = data_pos;
         data_pos = data_pos + 1u;
-        return_value_mpeg_pmt_section_program_number$7=mpeg_pmt_section_program_number(pmt);
-        data[(signed long int)tmp_post$6] = (unsigned char)return_value_mpeg_pmt_section_program_number$7;
-        unsigned int tmp_post$8 = data_pos;
+        return_value_mpeg_pmt_section_program_number_7=mpeg_pmt_section_program_number(pmt);
+        data[(signed long int)tmp_post_6] = (unsigned char)return_value_mpeg_pmt_section_program_number_7;
+        unsigned int tmp_post_8 = data_pos;
         data_pos = data_pos + 1u;
-        data[(signed long int)tmp_post$8] = (unsigned char)((signed int)pmt->head.version_number << 1 | (signed int)pmt->head.current_next_indicator);
-        unsigned int tmp_post$9 = data_pos;
+        data[(signed long int)tmp_post_8] = (unsigned char)((signed int)pmt->head.version_number << 1 | (signed int)pmt->head.current_next_indicator);
+        unsigned int tmp_post_9 = data_pos;
         data_pos = data_pos + 1u;
-        data[(signed long int)tmp_post$9] = (unsigned char)(pmt_descriptors_length >> 8 & (unsigned int)0x0f);
-        unsigned int tmp_post$10 = data_pos;
+        data[(signed long int)tmp_post_9] = (unsigned char)(pmt_descriptors_length >> 8 & (unsigned int)0x0f);
+        unsigned int tmp_post_10 = data_pos;
         data_pos = data_pos + 1u;
-        data[(signed long int)tmp_post$10] = (unsigned char)pmt_descriptors_length;
+        data[(signed long int)tmp_post_10] = (unsigned char)pmt_descriptors_length;
         if(!(pmt_descriptors_length == 0u))
         {
-          unsigned int tmp_post$11 = data_pos;
+          unsigned int tmp_post_11 = data_pos;
           data_pos = data_pos + 1u;
-          data[(signed long int)tmp_post$11] = ca_pmt_cmd_id;
+          data[(signed long int)tmp_post_11] = ca_pmt_cmd_id;
           cur_d = pmt_descriptors;
           for( ; !(cur_d == ((struct ca_pmt_descriptor *)NULL)); cur_d = cur_d->next)
           {
@@ -16332,26 +16332,26 @@ extern signed int en50221_ca_format_pmt(struct mpeg_pmt_section *pmt, unsigned c
         cur_s = pmt_streams;
         for( ; !(cur_s == ((struct ca_pmt_stream *)NULL)); cur_s = cur_s->next)
         {
-          unsigned int tmp_post$12 = data_pos;
+          unsigned int tmp_post_12 = data_pos;
           data_pos = data_pos + 1u;
-          data[(signed long int)tmp_post$12] = cur_s->stream_type;
-          unsigned int tmp_post$13 = data_pos;
+          data[(signed long int)tmp_post_12] = cur_s->stream_type;
+          unsigned int tmp_post_13 = data_pos;
           data_pos = data_pos + 1u;
-          data[(signed long int)tmp_post$13] = (unsigned char)((signed int)cur_s->pid >> 8 & 0x1f);
-          unsigned int tmp_post$14 = data_pos;
+          data[(signed long int)tmp_post_13] = (unsigned char)((signed int)cur_s->pid >> 8 & 0x1f);
+          unsigned int tmp_post_14 = data_pos;
           data_pos = data_pos + 1u;
-          data[(signed long int)tmp_post$14] = (unsigned char)cur_s->pid;
-          unsigned int tmp_post$15 = data_pos;
+          data[(signed long int)tmp_post_14] = (unsigned char)cur_s->pid;
+          unsigned int tmp_post_15 = data_pos;
           data_pos = data_pos + 1u;
-          data[(signed long int)tmp_post$15] = (unsigned char)(cur_s->descriptors_length >> 8 & (unsigned int)0x0f);
-          unsigned int tmp_post$16 = data_pos;
+          data[(signed long int)tmp_post_15] = (unsigned char)(cur_s->descriptors_length >> 8 & (unsigned int)0x0f);
+          unsigned int tmp_post_16 = data_pos;
           data_pos = data_pos + 1u;
-          data[(signed long int)tmp_post$16] = (unsigned char)cur_s->descriptors_length;
+          data[(signed long int)tmp_post_16] = (unsigned char)cur_s->descriptors_length;
           if(!(cur_s->descriptors_length == 0u))
           {
-            unsigned int tmp_post$17 = data_pos;
+            unsigned int tmp_post_17 = data_pos;
             data_pos = data_pos + 1u;
-            data[(signed long int)tmp_post$17] = ca_pmt_cmd_id;
+            data[(signed long int)tmp_post_17] = ca_pmt_cmd_id;
             cur_d = cur_s->descriptors;
             for( ; !(cur_d == ((struct ca_pmt_descriptor *)NULL)); cur_d = cur_d->next)
             {
@@ -16408,19 +16408,19 @@ static void en50221_ca_try_move_pmt_descriptors(struct ca_pmt_descriptor **pmt_d
       if(!(cur_stream->descriptors_count == first_stream->descriptors_count))
         goto __CPROVER_DUMP_L13;
 
-      struct ca_pmt_descriptor *en50221_ca_try_move_pmt_descriptors$$1$$1$$cur_descriptor = cur_stream->descriptors;
+      struct ca_pmt_descriptor *en50221_ca_try_move_pmt_descriptors__1__1__cur_descriptor = cur_stream->descriptors;
       struct ca_pmt_descriptor *first_cur_descriptor = first_stream->descriptors;
-      while(!(en50221_ca_try_move_pmt_descriptors$$1$$1$$cur_descriptor == ((struct ca_pmt_descriptor *)NULL)))
+      while(!(en50221_ca_try_move_pmt_descriptors__1__1__cur_descriptor == ((struct ca_pmt_descriptor *)NULL)))
       {
-        if(!(en50221_ca_try_move_pmt_descriptors$$1$$1$$cur_descriptor->length == first_cur_descriptor->length))
+        if(!(en50221_ca_try_move_pmt_descriptors__1__1__cur_descriptor->length == first_cur_descriptor->length))
           goto __CPROVER_DUMP_L13;
 
-        signed int return_value_memcmp$1;
-        return_value_memcmp$1=memcmp((const void *)en50221_ca_try_move_pmt_descriptors$$1$$1$$cur_descriptor->descriptor, (const void *)first_cur_descriptor->descriptor, (unsigned long int)en50221_ca_try_move_pmt_descriptors$$1$$1$$cur_descriptor->length);
-        if(!(return_value_memcmp$1 == 0))
+        signed int return_value_memcmp_1;
+        return_value_memcmp_1=memcmp((const void *)en50221_ca_try_move_pmt_descriptors__1__1__cur_descriptor->descriptor, (const void *)first_cur_descriptor->descriptor, (unsigned long int)en50221_ca_try_move_pmt_descriptors__1__1__cur_descriptor->length);
+        if(!(return_value_memcmp_1 == 0))
           goto __CPROVER_DUMP_L13;
 
-        en50221_ca_try_move_pmt_descriptors$$1$$1$$cur_descriptor = en50221_ca_try_move_pmt_descriptors$$1$$1$$cur_descriptor->next;
+        en50221_ca_try_move_pmt_descriptors__1__1__cur_descriptor = en50221_ca_try_move_pmt_descriptors__1__1__cur_descriptor->next;
         first_cur_descriptor = first_cur_descriptor->next;
       }
       cur_stream = cur_stream->next;
@@ -16522,35 +16522,35 @@ extern signed int en50221_sl_broadcast_data(struct en50221_session_layer *sl, si
 // file ../../lib/libdvben50221/en50221_session.h line 116
 extern struct en50221_session_layer * en50221_sl_create(struct en50221_transport_layer *tl, unsigned int max_sessions)
 {
-  struct en50221_session_layer *en50221_sl_create$$1$$sl = (struct en50221_session_layer *)(void *)0;
+  struct en50221_session_layer *en50221_sl_create__1__sl = (struct en50221_session_layer *)(void *)0;
   unsigned int i;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct en50221_session_layer) /*144ul*/ );
-  en50221_sl_create$$1$$sl = (struct en50221_session_layer *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  if(!(en50221_sl_create$$1$$sl == ((struct en50221_session_layer *)NULL)))
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct en50221_session_layer) /*144ul*/ );
+  en50221_sl_create__1__sl = (struct en50221_session_layer *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  if(!(en50221_sl_create__1__sl == ((struct en50221_session_layer *)NULL)))
   {
-    en50221_sl_create$$1$$sl->max_sessions = max_sessions;
-    en50221_sl_create$$1$$sl->lookup = (signed int (*)(void *, unsigned char, unsigned int, signed int (**)(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int), void **, unsigned int *))(void *)0;
-    en50221_sl_create$$1$$sl->session = (signed int (*)(void *, signed int, unsigned char, unsigned short int, unsigned int))(void *)0;
-    en50221_sl_create$$1$$sl->tl = tl;
-    en50221_sl_create$$1$$sl->error = 0;
-    pthread_mutex_init(&en50221_sl_create$$1$$sl->global_lock, (const union anonymous$2 *)(void *)0);
-    pthread_mutex_init(&en50221_sl_create$$1$$sl->setcallback_lock, (const union anonymous$2 *)(void *)0);
-    return_value_malloc$2=malloc(sizeof(struct en50221_session) /*72ul*/  * (unsigned long int)max_sessions);
-    en50221_sl_create$$1$$sl->sessions = (struct en50221_session *)return_value_malloc$2;
-    if(en50221_sl_create$$1$$sl->sessions == ((struct en50221_session *)NULL))
+    en50221_sl_create__1__sl->max_sessions = max_sessions;
+    en50221_sl_create__1__sl->lookup = (signed int (*)(void *, unsigned char, unsigned int, signed int (**)(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int), void **, unsigned int *))(void *)0;
+    en50221_sl_create__1__sl->session = (signed int (*)(void *, signed int, unsigned char, unsigned short int, unsigned int))(void *)0;
+    en50221_sl_create__1__sl->tl = tl;
+    en50221_sl_create__1__sl->error = 0;
+    pthread_mutex_init(&en50221_sl_create__1__sl->global_lock, (const union anonymous_2 *)(void *)0);
+    pthread_mutex_init(&en50221_sl_create__1__sl->setcallback_lock, (const union anonymous_2 *)(void *)0);
+    return_value_malloc_2=malloc(sizeof(struct en50221_session) /*72ul*/  * (unsigned long int)max_sessions);
+    en50221_sl_create__1__sl->sessions = (struct en50221_session *)return_value_malloc_2;
+    if(en50221_sl_create__1__sl->sessions == ((struct en50221_session *)NULL))
       goto error_exit;
 
     i = (unsigned int)0;
     for( ; !(i >= max_sessions); i = i + 1u)
     {
-      (en50221_sl_create$$1$$sl->sessions + (signed long int)i)->state = (unsigned char)0x01;
-      (en50221_sl_create$$1$$sl->sessions + (signed long int)i)->callback = (signed int (*)(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int))(void *)0;
-      pthread_mutex_init(&(en50221_sl_create$$1$$sl->sessions + (signed long int)i)->session_lock, (const union anonymous$2 *)(void *)0);
+      (en50221_sl_create__1__sl->sessions + (signed long int)i)->state = (unsigned char)0x01;
+      (en50221_sl_create__1__sl->sessions + (signed long int)i)->callback = (signed int (*)(void *, unsigned char, unsigned short int, unsigned int, unsigned char *, unsigned int))(void *)0;
+      pthread_mutex_init(&(en50221_sl_create__1__sl->sessions + (signed long int)i)->session_lock, (const union anonymous_2 *)(void *)0);
     }
-    en50221_tl_register_callback(tl, en50221_sl_transport_callback, (void *)en50221_sl_create$$1$$sl);
-    return en50221_sl_create$$1$$sl;
+    en50221_tl_register_callback(tl, en50221_sl_transport_callback, (void *)en50221_sl_create__1__sl);
+    return en50221_sl_create__1__sl;
   }
 
   else
@@ -16558,7 +16558,7 @@ extern struct en50221_session_layer * en50221_sl_create(struct en50221_transport
 
   error_exit:
     ;
-    en50221_sl_destroy(en50221_sl_create$$1$$sl);
+    en50221_sl_destroy(en50221_sl_create__1__sl);
     return (struct en50221_session_layer *)(void *)0;
   }
 }
@@ -16588,9 +16588,9 @@ extern signed int en50221_sl_create_session(struct en50221_session_layer *sl, si
     hdr[(signed long int)5] = (unsigned char)resource_id;
     hdr[(signed long int)6] = (unsigned char)(session_number >> 8);
     hdr[(signed long int)7] = (unsigned char)session_number;
-    signed int return_value_en50221_tl_send_data$1;
-    return_value_en50221_tl_send_data$1=en50221_tl_send_data(sl->tl, (unsigned char)slot_id, connection_id, hdr, (unsigned int)8);
-    if(!(return_value_en50221_tl_send_data$1 == 0))
+    signed int return_value_en50221_tl_send_data_1;
+    return_value_en50221_tl_send_data_1=en50221_tl_send_data(sl->tl, (unsigned char)slot_id, connection_id, hdr, (unsigned int)8);
+    if(!(return_value_en50221_tl_send_data_1 == 0))
     {
       pthread_mutex_lock(&(sl->sessions + (signed long int)session_number)->session_lock);
       if((signed int)(sl->sessions + (signed long int)session_number)->state == 0x04)
@@ -16659,9 +16659,9 @@ extern signed int en50221_sl_destroy_session(struct en50221_session_layer *sl, u
       hdr[(signed long int)1] = (unsigned char)2;
       hdr[(signed long int)2] = (unsigned char)((signed int)session_number >> 8);
       hdr[(signed long int)3] = (unsigned char)session_number;
-      signed int return_value_en50221_tl_send_data$1;
-      return_value_en50221_tl_send_data$1=en50221_tl_send_data(sl->tl, slot_id, connection_id, hdr, (unsigned int)4);
-      if(!(return_value_en50221_tl_send_data$1 == 0))
+      signed int return_value_en50221_tl_send_data_1;
+      return_value_en50221_tl_send_data_1=en50221_tl_send_data(sl->tl, slot_id, connection_id, hdr, (unsigned int)4);
+      if(!(return_value_en50221_tl_send_data_1 == 0))
       {
         pthread_mutex_lock(&(sl->sessions + (signed long int)session_number)->session_lock);
         if((signed int)(sl->sessions + (signed long int)session_number)->state == 0x08)
@@ -16689,20 +16689,20 @@ extern signed int en50221_sl_get_error(struct en50221_session_layer *sl)
 // file en50221_session.c line 541
 static void en50221_sl_handle_close_session_request(struct en50221_session_layer *sl, unsigned char *data, unsigned int data_length, unsigned char slot_id, unsigned char connection_id)
 {
-  signed int return_value_en50221_tl_get_error$1;
-  signed int return_value_en50221_tl_get_error$2;
-  signed int return_value_en50221_tl_get_error$3;
-  signed int return_value_en50221_tl_get_error$4;
-  signed int return_value_en50221_tl_get_error$5;
+  signed int return_value_en50221_tl_get_error_1;
+  signed int return_value_en50221_tl_get_error_2;
+  signed int return_value_en50221_tl_get_error_3;
+  signed int return_value_en50221_tl_get_error_4;
+  signed int return_value_en50221_tl_get_error_5;
   if(!(data_length >= 3u))
     do
-      vprint$link11("%s: Received data with invalid length from module on slot %02x\n\n", (const void *)"en50221_sl_handle_close_session_request", slot_id);
+      vprint_link11("%s: Received data with invalid length from module on slot %02x\n\n", (const void *)"en50221_sl_handle_close_session_request", slot_id);
     while((_Bool)0);
 
   else
     if(!((signed int)*data == 2))
       do
-        vprint$link11("%s: Received data with invalid length from module on slot %02x\n\n", (const void *)"en50221_sl_handle_close_session_request", slot_id);
+        vprint_link11("%s: Received data with invalid length from module on slot %02x\n\n", (const void *)"en50221_sl_handle_close_session_request", slot_id);
       while((_Bool)0);
 
     else
@@ -16714,7 +16714,7 @@ static void en50221_sl_handle_close_session_request(struct en50221_session_layer
       {
         code = (unsigned char)0xF0;
         do
-          vprint$link11("%s: Received bad session id %i\n\n", (const void *)"en50221_sl_handle_close_session_request", slot_id);
+          vprint_link11("%s: Received bad session id %i\n\n", (const void *)"en50221_sl_handle_close_session_request", slot_id);
         while((_Bool)0);
       }
 
@@ -16724,7 +16724,7 @@ static void en50221_sl_handle_close_session_request(struct en50221_session_layer
         if(!(slot_id == (sl->sessions + (signed long int)session_number)->slot_id))
         {
           do
-            vprint$link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_close_session_request", slot_id);
+            vprint_link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_close_session_request", slot_id);
           while((_Bool)0);
           code = (unsigned char)0xF0;
         }
@@ -16732,7 +16732,7 @@ static void en50221_sl_handle_close_session_request(struct en50221_session_layer
         if(!(connection_id == (sl->sessions + (signed long int)session_number)->connection_id))
         {
           do
-            vprint$link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_close_session_request", slot_id);
+            vprint_link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_close_session_request", slot_id);
           while((_Bool)0);
           code = (unsigned char)0xF0;
         }
@@ -16740,7 +16740,7 @@ static void en50221_sl_handle_close_session_request(struct en50221_session_layer
         if((10 & (signed int)(sl->sessions + (signed long int)session_number)->state) == 0)
         {
           do
-            vprint$link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_close_session_request", slot_id);
+            vprint_link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_close_session_request", slot_id);
           while((_Bool)0);
           code = (unsigned char)0xF0;
         }
@@ -16760,13 +16760,13 @@ static void en50221_sl_handle_close_session_request(struct en50221_session_layer
       hdr[(signed long int)2] = code;
       hdr[(signed long int)3] = (unsigned char)((signed int)session_number >> 8);
       hdr[(signed long int)4] = (unsigned char)session_number;
-      signed int return_value_en50221_tl_send_data$6;
-      return_value_en50221_tl_send_data$6=en50221_tl_send_data(sl->tl, slot_id, connection_id, hdr, (unsigned int)5);
-      if(!(return_value_en50221_tl_send_data$6 == 0))
+      signed int return_value_en50221_tl_send_data_6;
+      return_value_en50221_tl_send_data_6=en50221_tl_send_data(sl->tl, slot_id, connection_id, hdr, (unsigned int)5);
+      if(!(return_value_en50221_tl_send_data_6 == 0))
         do
         {
-          return_value_en50221_tl_get_error$1=en50221_tl_get_error(sl->tl);
-          vprint$link11("%s: Transport layer reports error %i on slot %i\n\n", (const void *)"en50221_sl_handle_close_session_request", return_value_en50221_tl_get_error$1, slot_id);
+          return_value_en50221_tl_get_error_1=en50221_tl_get_error(sl->tl);
+          vprint_link11("%s: Transport layer reports error %i on slot %i\n\n", (const void *)"en50221_sl_handle_close_session_request", return_value_en50221_tl_get_error_1, slot_id);
         }
         while((_Bool)0);
 
@@ -16790,13 +16790,13 @@ static void en50221_sl_handle_close_session_response(struct en50221_session_laye
 {
   if(!(data_length >= 5u))
     do
-      vprint$link11("%s: Received data with invalid length from module on slot %02x\n\n", (const void *)"en50221_sl_handle_close_session_response", slot_id);
+      vprint_link11("%s: Received data with invalid length from module on slot %02x\n\n", (const void *)"en50221_sl_handle_close_session_response", slot_id);
     while((_Bool)0);
 
   else
     if(!((signed int)*data == 4))
       do
-        vprint$link11("%s: Received data with invalid length from module on slot %02x\n\n", (const void *)"en50221_sl_handle_close_session_response", slot_id);
+        vprint_link11("%s: Received data with invalid length from module on slot %02x\n\n", (const void *)"en50221_sl_handle_close_session_response", slot_id);
       while((_Bool)0);
 
     else
@@ -16804,7 +16804,7 @@ static void en50221_sl_handle_close_session_response(struct en50221_session_laye
       unsigned short int session_number = (unsigned short int)((signed int)data[(signed long int)2] << 8 | (signed int)data[(signed long int)3]);
       if((unsigned int)session_number >= sl->max_sessions)
         do
-          vprint$link11("%s: Received bad session id %i\n\n", (const void *)"en50221_sl_handle_close_session_response", slot_id);
+          vprint_link11("%s: Received bad session id %i\n\n", (const void *)"en50221_sl_handle_close_session_response", slot_id);
         while((_Bool)0);
 
       else
@@ -16813,7 +16813,7 @@ static void en50221_sl_handle_close_session_response(struct en50221_session_laye
         if(!(slot_id == (sl->sessions + (signed long int)session_number)->slot_id))
         {
           do
-            vprint$link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_close_session_response", slot_id);
+            vprint_link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_close_session_response", slot_id);
           while((_Bool)0);
           pthread_mutex_unlock(&(sl->sessions + (signed long int)session_number)->session_lock);
         }
@@ -16822,7 +16822,7 @@ static void en50221_sl_handle_close_session_response(struct en50221_session_laye
           if(!(connection_id == (sl->sessions + (signed long int)session_number)->connection_id))
           {
             do
-              vprint$link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_close_session_response", slot_id);
+              vprint_link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_close_session_response", slot_id);
             while((_Bool)0);
             pthread_mutex_unlock(&(sl->sessions + (signed long int)session_number)->session_lock);
           }
@@ -16831,7 +16831,7 @@ static void en50221_sl_handle_close_session_response(struct en50221_session_laye
             if(!((signed int)(sl->sessions + (signed long int)session_number)->state == 0x08))
             {
               do
-                vprint$link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_close_session_response", slot_id);
+                vprint_link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_close_session_response", slot_id);
               while((_Bool)0);
               pthread_mutex_unlock(&(sl->sessions + (signed long int)session_number)->session_lock);
             }
@@ -16840,7 +16840,7 @@ static void en50221_sl_handle_close_session_response(struct en50221_session_laye
             {
               if(!((signed int)data[1l] == 0x00))
                 do
-                  vprint$link11("%s: Session close failed 0x%02x\n\n", (const void *)"en50221_sl_handle_close_session_response", data[(signed long int)1]);
+                  vprint_link11("%s: Session close failed 0x%02x\n\n", (const void *)"en50221_sl_handle_close_session_response", data[(signed long int)1]);
                 while((_Bool)0);
 
               (sl->sessions + (signed long int)session_number)->state = (unsigned char)0x01;
@@ -16856,13 +16856,13 @@ static void en50221_sl_handle_create_session_response(struct en50221_session_lay
 {
   if(!(data_length >= 8u))
     do
-      vprint$link11("%s: Received data with invalid length from module on slot %02x\n\n", (const void *)"en50221_sl_handle_create_session_response", slot_id);
+      vprint_link11("%s: Received data with invalid length from module on slot %02x\n\n", (const void *)"en50221_sl_handle_create_session_response", slot_id);
     while((_Bool)0);
 
   else
     if(!((signed int)*data == 7))
       do
-        vprint$link11("%s: Received data with invalid length from module on slot %02x\n\n", (const void *)"en50221_sl_handle_create_session_response", slot_id);
+        vprint_link11("%s: Received data with invalid length from module on slot %02x\n\n", (const void *)"en50221_sl_handle_create_session_response", slot_id);
       while((_Bool)0);
 
     else
@@ -16870,7 +16870,7 @@ static void en50221_sl_handle_create_session_response(struct en50221_session_lay
       unsigned short int session_number = (unsigned short int)((signed int)data[(signed long int)5] << 8 | (signed int)data[(signed long int)6]);
       if((unsigned int)session_number >= sl->max_sessions)
         do
-          vprint$link11("%s: Received bad session id %i\n\n", (const void *)"en50221_sl_handle_create_session_response", slot_id);
+          vprint_link11("%s: Received bad session id %i\n\n", (const void *)"en50221_sl_handle_create_session_response", slot_id);
         while((_Bool)0);
 
       else
@@ -16879,7 +16879,7 @@ static void en50221_sl_handle_create_session_response(struct en50221_session_lay
         if(!(slot_id == (sl->sessions + (signed long int)session_number)->slot_id))
         {
           do
-            vprint$link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_create_session_response", slot_id);
+            vprint_link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_create_session_response", slot_id);
           while((_Bool)0);
           pthread_mutex_unlock(&(sl->sessions + (signed long int)session_number)->session_lock);
         }
@@ -16888,7 +16888,7 @@ static void en50221_sl_handle_create_session_response(struct en50221_session_lay
           if(!(connection_id == (sl->sessions + (signed long int)session_number)->connection_id))
           {
             do
-              vprint$link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_create_session_response", slot_id);
+              vprint_link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_create_session_response", slot_id);
             while((_Bool)0);
             pthread_mutex_unlock(&(sl->sessions + (signed long int)session_number)->session_lock);
           }
@@ -16897,7 +16897,7 @@ static void en50221_sl_handle_create_session_response(struct en50221_session_lay
             if(!((signed int)(sl->sessions + (signed long int)session_number)->state == 0x04))
             {
               do
-                vprint$link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_create_session_response", slot_id);
+                vprint_link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_create_session_response", slot_id);
               while((_Bool)0);
               pthread_mutex_unlock(&(sl->sessions + (signed long int)session_number)->session_lock);
             }
@@ -16907,7 +16907,7 @@ static void en50221_sl_handle_create_session_response(struct en50221_session_lay
               if(!((signed int)data[1l] == 0x00))
               {
                 do
-                  vprint$link11("%s: Session creation failed 0x%02x\n\n", (const void *)"en50221_sl_handle_create_session_response", data[(signed long int)1]);
+                  vprint_link11("%s: Session creation failed 0x%02x\n\n", (const void *)"en50221_sl_handle_create_session_response", data[(signed long int)1]);
                 while((_Bool)0);
                 (sl->sessions + (signed long int)session_number)->state = (unsigned char)0x01;
                 pthread_mutex_unlock(&(sl->sessions + (signed long int)session_number)->session_lock);
@@ -16924,11 +16924,11 @@ static void en50221_sl_handle_create_session_response(struct en50221_session_lay
               (sl->sessions + (signed long int)session_number)->state = (unsigned char)0x02;
               pthread_mutex_unlock(&(sl->sessions + (signed long int)session_number)->session_lock);
               pthread_mutex_lock(&sl->setcallback_lock);
-              signed int (*en50221_sl_handle_create_session_response$$1$$cb)(void *, signed int, unsigned char, unsigned short int, unsigned int) = sl->session;
-              void *en50221_sl_handle_create_session_response$$1$$cb_arg = sl->session_arg;
+              signed int (*en50221_sl_handle_create_session_response__1__cb)(void *, signed int, unsigned char, unsigned short int, unsigned int) = sl->session;
+              void *en50221_sl_handle_create_session_response__1__cb_arg = sl->session_arg;
               pthread_mutex_unlock(&sl->setcallback_lock);
-              if(!(en50221_sl_handle_create_session_response$$1$$cb == ((signed int (*)(void *, signed int, unsigned char, unsigned short int, unsigned int))NULL)))
-                en50221_sl_handle_create_session_response$$1$$cb(en50221_sl_handle_create_session_response$$1$$cb_arg, 0x03, slot_id, session_number, (sl->sessions + (signed long int)session_number)->resource_id);
+              if(!(en50221_sl_handle_create_session_response__1__cb == ((signed int (*)(void *, signed int, unsigned char, unsigned short int, unsigned int))NULL)))
+                en50221_sl_handle_create_session_response__1__cb(en50221_sl_handle_create_session_response__1__cb_arg, 0x03, slot_id, session_number, (sl->sessions + (signed long int)session_number)->resource_id);
 
             }
       }
@@ -16942,20 +16942,20 @@ __CPROVER_DUMP_L59:
 // file en50221_session.c line 398
 static void en50221_sl_handle_open_session_request(struct en50221_session_layer *sl, unsigned char *data, unsigned int data_length, unsigned char slot_id, unsigned char connection_id)
 {
-  signed int return_value_en50221_tl_get_error$1;
-  signed int return_value_en50221_tl_get_error$2;
-  signed int return_value_en50221_tl_get_error$3;
-  signed int return_value_en50221_tl_get_error$4;
-  signed int return_value_en50221_tl_get_error$5;
+  signed int return_value_en50221_tl_get_error_1;
+  signed int return_value_en50221_tl_get_error_2;
+  signed int return_value_en50221_tl_get_error_3;
+  signed int return_value_en50221_tl_get_error_4;
+  signed int return_value_en50221_tl_get_error_5;
   if(!(data_length >= 5u))
     do
-      vprint$link11("%s: Received data with invalid length from module on slot %02x\n\n", (const void *)"en50221_sl_handle_open_session_request", slot_id);
+      vprint_link11("%s: Received data with invalid length from module on slot %02x\n\n", (const void *)"en50221_sl_handle_open_session_request", slot_id);
     while((_Bool)0);
 
   else
     if(!((signed int)*data == 4))
       do
-        vprint$link11("%s: Received data with invalid length from module on slot %02x\n\n", (const void *)"en50221_sl_handle_open_session_request", slot_id);
+        vprint_link11("%s: Received data with invalid length from module on slot %02x\n\n", (const void *)"en50221_sl_handle_open_session_request", slot_id);
       while((_Bool)0);
 
     else
@@ -17021,14 +17021,14 @@ static void en50221_sl_handle_open_session_request(struct en50221_session_layer 
       hdr[(signed long int)6] = (unsigned char)connected_resource_id;
       hdr[(signed long int)7] = (unsigned char)(session_number >> 8);
       hdr[(signed long int)8] = (unsigned char)session_number;
-      signed int return_value_en50221_tl_send_data$6;
-      return_value_en50221_tl_send_data$6=en50221_tl_send_data(sl->tl, slot_id, connection_id, hdr, (unsigned int)9);
-      if(!(return_value_en50221_tl_send_data$6 == 0))
+      signed int return_value_en50221_tl_send_data_6;
+      return_value_en50221_tl_send_data_6=en50221_tl_send_data(sl->tl, slot_id, connection_id, hdr, (unsigned int)9);
+      if(!(return_value_en50221_tl_send_data_6 == 0))
       {
         do
         {
-          return_value_en50221_tl_get_error$1=en50221_tl_get_error(sl->tl);
-          vprint$link11("%s: Transport layer error %i occurred\n\n", (const void *)"en50221_sl_handle_open_session_request", return_value_en50221_tl_get_error$1);
+          return_value_en50221_tl_get_error_1=en50221_tl_get_error(sl->tl);
+          vprint_link11("%s: Transport layer error %i occurred\n\n", (const void *)"en50221_sl_handle_open_session_request", return_value_en50221_tl_get_error_1);
         }
         while((_Bool)0);
         status = 0xF0;
@@ -17046,21 +17046,21 @@ static void en50221_sl_handle_open_session_request(struct en50221_session_layer 
         if((signed int)(sl->sessions + (signed long int)session_number)->state == 0x02)
         {
           pthread_mutex_lock(&sl->setcallback_lock);
-          signed int (*en50221_sl_handle_open_session_request$$1$$6$$3$$cb)(void *, signed int, unsigned char, unsigned short int, unsigned int) = sl->session;
-          void *en50221_sl_handle_open_session_request$$1$$6$$3$$cb_arg = sl->session_arg;
+          signed int (*en50221_sl_handle_open_session_request__1__6__3__cb)(void *, signed int, unsigned char, unsigned short int, unsigned int) = sl->session;
+          void *en50221_sl_handle_open_session_request__1__6__3__cb_arg = sl->session_arg;
           pthread_mutex_unlock(&sl->setcallback_lock);
           if(status == 0x00)
           {
-            if(!(en50221_sl_handle_open_session_request$$1$$6$$3$$cb == ((signed int (*)(void *, signed int, unsigned char, unsigned short int, unsigned int))NULL)))
-              en50221_sl_handle_open_session_request$$1$$6$$3$$cb(en50221_sl_handle_open_session_request$$1$$6$$3$$cb_arg, 0x01, slot_id, (unsigned short int)session_number, connected_resource_id);
+            if(!(en50221_sl_handle_open_session_request__1__6__3__cb == ((signed int (*)(void *, signed int, unsigned char, unsigned short int, unsigned int))NULL)))
+              en50221_sl_handle_open_session_request__1__6__3__cb(en50221_sl_handle_open_session_request__1__6__3__cb_arg, 0x01, slot_id, (unsigned short int)session_number, connected_resource_id);
 
           }
 
           else
           {
             (sl->sessions + (signed long int)session_number)->state = (unsigned char)0x01;
-            if(!(en50221_sl_handle_open_session_request$$1$$6$$3$$cb == ((signed int (*)(void *, signed int, unsigned char, unsigned short int, unsigned int))NULL)))
-              en50221_sl_handle_open_session_request$$1$$6$$3$$cb(en50221_sl_handle_open_session_request$$1$$6$$3$$cb_arg, 0x02, slot_id, (unsigned short int)session_number, connected_resource_id);
+            if(!(en50221_sl_handle_open_session_request__1__6__3__cb == ((signed int (*)(void *, signed int, unsigned char, unsigned short int, unsigned int))NULL)))
+              en50221_sl_handle_open_session_request__1__6__3__cb(en50221_sl_handle_open_session_request__1__6__3__cb_arg, 0x02, slot_id, (unsigned short int)session_number, connected_resource_id);
 
           }
         }
@@ -17076,13 +17076,13 @@ static void en50221_sl_handle_session_package(struct en50221_session_layer *sl, 
 {
   if(!(data_length >= 3u))
     do
-      vprint$link11("%s: Received data with invalid length from module on slot %i\n\n", (const void *)"en50221_sl_handle_session_package", slot_id);
+      vprint_link11("%s: Received data with invalid length from module on slot %i\n\n", (const void *)"en50221_sl_handle_session_package", slot_id);
     while((_Bool)0);
 
   else
     if(!((signed int)*data == 2))
       do
-        vprint$link11("%s: Received data with invalid length from module on slot %i\n\n", (const void *)"en50221_sl_handle_session_package", slot_id);
+        vprint_link11("%s: Received data with invalid length from module on slot %i\n\n", (const void *)"en50221_sl_handle_session_package", slot_id);
       while((_Bool)0);
 
     else
@@ -17090,7 +17090,7 @@ static void en50221_sl_handle_session_package(struct en50221_session_layer *sl, 
       unsigned short int session_number = (unsigned short int)((signed int)data[(signed long int)1] << 8 | (signed int)data[(signed long int)2]);
       if((unsigned int)session_number >= sl->max_sessions)
         do
-          vprint$link11("%s: Received data with bad session_number from module on slot %i\n\n", (const void *)"en50221_sl_handle_session_package", slot_id);
+          vprint_link11("%s: Received data with bad session_number from module on slot %i\n\n", (const void *)"en50221_sl_handle_session_package", slot_id);
         while((_Bool)0);
 
       else
@@ -17099,7 +17099,7 @@ static void en50221_sl_handle_session_package(struct en50221_session_layer *sl, 
         if(!(slot_id == (sl->sessions + (signed long int)session_number)->slot_id))
         {
           do
-            vprint$link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_session_package", slot_id);
+            vprint_link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_session_package", slot_id);
           while((_Bool)0);
           pthread_mutex_unlock(&(sl->sessions + (signed long int)session_number)->session_lock);
         }
@@ -17108,7 +17108,7 @@ static void en50221_sl_handle_session_package(struct en50221_session_layer *sl, 
           if(!(connection_id == (sl->sessions + (signed long int)session_number)->connection_id))
           {
             do
-              vprint$link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_session_package", slot_id);
+              vprint_link11("%s: Received unexpected session on invalid slot %i\n\n", (const void *)"en50221_sl_handle_session_package", slot_id);
             while((_Bool)0);
             pthread_mutex_unlock(&(sl->sessions + (signed long int)session_number)->session_lock);
           }
@@ -17117,7 +17117,7 @@ static void en50221_sl_handle_session_package(struct en50221_session_layer *sl, 
             if(!((signed int)(sl->sessions + (signed long int)session_number)->state == 0x02))
             {
               do
-                vprint$link11("%s: Received data with bad session_number from module on slot %i\n\n", (const void *)"en50221_sl_handle_session_package", slot_id);
+                vprint_link11("%s: Received data with bad session_number from module on slot %i\n\n", (const void *)"en50221_sl_handle_session_package", slot_id);
               while((_Bool)0);
               pthread_mutex_unlock(&(sl->sessions + (signed long int)session_number)->session_lock);
             }
@@ -17135,7 +17135,7 @@ static void en50221_sl_handle_session_package(struct en50221_session_layer *sl, 
                 if(!(data_length >= 3u))
                 {
                   do
-                    vprint$link11("%s: Received invalid sized session package from slot %i\n\n", (const void *)"en50221_sl_handle_session_package", slot_id);
+                    vprint_link11("%s: Received invalid sized session package from slot %i\n\n", (const void *)"en50221_sl_handle_session_package", slot_id);
                   while((_Bool)0);
                   goto __CPROVER_DUMP_L76;
                 }
@@ -17146,7 +17146,7 @@ static void en50221_sl_handle_session_package(struct en50221_session_layer *sl, 
                 if(!(length_field_len >= 0))
                 {
                   do
-                    vprint$link11("%s: Received invalid sized session package from slot %i\n\n", (const void *)"en50221_sl_handle_session_package", slot_id);
+                    vprint_link11("%s: Received invalid sized session package from slot %i\n\n", (const void *)"en50221_sl_handle_session_package", slot_id);
                   while((_Bool)0);
                   goto __CPROVER_DUMP_L76;
                 }
@@ -17155,7 +17155,7 @@ static void en50221_sl_handle_session_package(struct en50221_session_layer *sl, 
                 if(!(data_length >= apdu_length))
                 {
                   do
-                    vprint$link11("%s: Received invalid sized session package from slot %i\n\n", (const void *)"en50221_sl_handle_session_package", slot_id);
+                    vprint_link11("%s: Received invalid sized session package from slot %i\n\n", (const void *)"en50221_sl_handle_session_package", slot_id);
                   while((_Bool)0);
                   goto __CPROVER_DUMP_L76;
                 }
@@ -17229,9 +17229,9 @@ extern signed int en50221_sl_send_data(struct en50221_session_layer *sl, unsigne
       iov[(signed long int)0].iov_len = (unsigned long int)4;
       iov[(signed long int)1].iov_base = (void *)data;
       iov[(signed long int)1].iov_len = (unsigned long int)data_length;
-      signed int return_value_en50221_tl_send_datav$1;
-      return_value_en50221_tl_send_datav$1=en50221_tl_send_datav(sl->tl, slot_id, connection_id, iov, 2);
-      if(!(return_value_en50221_tl_send_datav$1 == 0))
+      signed int return_value_en50221_tl_send_datav_1;
+      return_value_en50221_tl_send_datav_1=en50221_tl_send_datav(sl->tl, slot_id, connection_id, iov, 2);
+      if(!(return_value_en50221_tl_send_datav_1 == 0))
       {
         sl->error=en50221_tl_get_error(sl->tl);
         return -1;
@@ -17285,9 +17285,9 @@ extern signed int en50221_sl_send_datav(struct en50221_session_layer *sl, unsign
         out_iov[(signed long int)0].iov_base = (void *)hdr;
         out_iov[(signed long int)0].iov_len = (unsigned long int)4;
         memcpy((void *)&out_iov[(signed long int)1], (const void *)vector, (unsigned long int)iov_count * sizeof(struct iovec) /*16ul*/ );
-        signed int return_value_en50221_tl_send_datav$1;
-        return_value_en50221_tl_send_datav$1=en50221_tl_send_datav(sl->tl, slot_id, connection_id, out_iov, iov_count + 1);
-        if(!(return_value_en50221_tl_send_datav$1 == 0))
+        signed int return_value_en50221_tl_send_datav_1;
+        return_value_en50221_tl_send_datav_1=en50221_tl_send_datav(sl->tl, slot_id, connection_id, out_iov, iov_count + 1);
+        if(!(return_value_en50221_tl_send_datav_1 == 0))
         {
           sl->error=en50221_tl_get_error(sl->tl);
           return -1;
@@ -17303,65 +17303,65 @@ extern signed int en50221_sl_send_datav(struct en50221_session_layer *sl, unsign
 // file en50221_session.c line 869
 static void en50221_sl_transport_callback(void *arg, signed int reason, unsigned char *data, unsigned int data_length, unsigned char slot_id, unsigned char connection_id)
 {
-  struct en50221_session_layer *en50221_sl_transport_callback$$1$$sl = (struct en50221_session_layer *)arg;
+  struct en50221_session_layer *en50221_sl_transport_callback__1__sl = (struct en50221_session_layer *)arg;
   unsigned int i;
-  signed int (*en50221_sl_transport_callback$$1$$1$$1$$cb)(void *, signed int, unsigned char, unsigned short int, unsigned int);
-  void *en50221_sl_transport_callback$$1$$1$$1$$cb_arg;
-  signed int (*en50221_sl_transport_callback$$1$$1$$2$$cb)(void *, signed int, unsigned char, unsigned short int, unsigned int);
-  void *en50221_sl_transport_callback$$1$$1$$2$$cb_arg;
+  signed int (*en50221_sl_transport_callback__1__1__1__cb)(void *, signed int, unsigned char, unsigned short int, unsigned int);
+  void *en50221_sl_transport_callback__1__1__1__cb_arg;
+  signed int (*en50221_sl_transport_callback__1__1__2__cb)(void *, signed int, unsigned char, unsigned short int, unsigned int);
+  void *en50221_sl_transport_callback__1__1__2__cb_arg;
   signed int (*cb)(void *, signed int, unsigned char, unsigned short int, unsigned int);
   void *cb_arg;
-  signed int (*en50221_sl_transport_callback$$1$$1$$4$$cb)(void *, signed int, unsigned char, unsigned short int, unsigned int);
-  void *en50221_sl_transport_callback$$1$$1$$4$$cb_arg;
+  signed int (*en50221_sl_transport_callback__1__1__4__cb)(void *, signed int, unsigned char, unsigned short int, unsigned int);
+  void *en50221_sl_transport_callback__1__1__4__cb_arg;
   switch(reason)
   {
     case 0x02:
       goto __CPROVER_DUMP_L20;
     case 0x00:
     {
-      pthread_mutex_lock(&en50221_sl_transport_callback$$1$$sl->setcallback_lock);
-      en50221_sl_transport_callback$$1$$1$$1$$cb = en50221_sl_transport_callback$$1$$sl->session;
-      en50221_sl_transport_callback$$1$$1$$1$$cb_arg = en50221_sl_transport_callback$$1$$sl->session_arg;
-      pthread_mutex_unlock(&en50221_sl_transport_callback$$1$$sl->setcallback_lock);
-      if(!(en50221_sl_transport_callback$$1$$1$$1$$cb == ((signed int (*)(void *, signed int, unsigned char, unsigned short int, unsigned int))NULL)))
-        en50221_sl_transport_callback$$1$$1$$1$$cb(en50221_sl_transport_callback$$1$$1$$1$$cb_arg, 0x06, slot_id, (unsigned short int)connection_id, (unsigned int)0);
+      pthread_mutex_lock(&en50221_sl_transport_callback__1__sl->setcallback_lock);
+      en50221_sl_transport_callback__1__1__1__cb = en50221_sl_transport_callback__1__sl->session;
+      en50221_sl_transport_callback__1__1__1__cb_arg = en50221_sl_transport_callback__1__sl->session_arg;
+      pthread_mutex_unlock(&en50221_sl_transport_callback__1__sl->setcallback_lock);
+      if(!(en50221_sl_transport_callback__1__1__1__cb == ((signed int (*)(void *, signed int, unsigned char, unsigned short int, unsigned int))NULL)))
+        en50221_sl_transport_callback__1__1__1__cb(en50221_sl_transport_callback__1__1__1__cb_arg, 0x06, slot_id, (unsigned short int)connection_id, (unsigned int)0);
 
       break;
     }
     case 0x01:
     {
-      pthread_mutex_lock(&en50221_sl_transport_callback$$1$$sl->setcallback_lock);
-      en50221_sl_transport_callback$$1$$1$$2$$cb = en50221_sl_transport_callback$$1$$sl->session;
-      en50221_sl_transport_callback$$1$$1$$2$$cb_arg = en50221_sl_transport_callback$$1$$sl->session_arg;
-      pthread_mutex_unlock(&en50221_sl_transport_callback$$1$$sl->setcallback_lock);
-      if(!(en50221_sl_transport_callback$$1$$1$$2$$cb == ((signed int (*)(void *, signed int, unsigned char, unsigned short int, unsigned int))NULL)))
-        en50221_sl_transport_callback$$1$$1$$2$$cb(en50221_sl_transport_callback$$1$$1$$2$$cb_arg, 0x07, slot_id, (unsigned short int)connection_id, (unsigned int)0);
+      pthread_mutex_lock(&en50221_sl_transport_callback__1__sl->setcallback_lock);
+      en50221_sl_transport_callback__1__1__2__cb = en50221_sl_transport_callback__1__sl->session;
+      en50221_sl_transport_callback__1__1__2__cb_arg = en50221_sl_transport_callback__1__sl->session_arg;
+      pthread_mutex_unlock(&en50221_sl_transport_callback__1__sl->setcallback_lock);
+      if(!(en50221_sl_transport_callback__1__1__2__cb == ((signed int (*)(void *, signed int, unsigned char, unsigned short int, unsigned int))NULL)))
+        en50221_sl_transport_callback__1__1__2__cb(en50221_sl_transport_callback__1__1__2__cb_arg, 0x07, slot_id, (unsigned short int)connection_id, (unsigned int)0);
 
       break;
     }
     case 0x03:
     {
-      pthread_mutex_lock(&en50221_sl_transport_callback$$1$$sl->setcallback_lock);
-      cb = en50221_sl_transport_callback$$1$$sl->session;
-      cb_arg = en50221_sl_transport_callback$$1$$sl->session_arg;
-      pthread_mutex_unlock(&en50221_sl_transport_callback$$1$$sl->setcallback_lock);
+      pthread_mutex_lock(&en50221_sl_transport_callback__1__sl->setcallback_lock);
+      cb = en50221_sl_transport_callback__1__sl->session;
+      cb_arg = en50221_sl_transport_callback__1__sl->session_arg;
+      pthread_mutex_unlock(&en50221_sl_transport_callback__1__sl->setcallback_lock);
       i = (unsigned int)0;
-      for( ; !(i >= en50221_sl_transport_callback$$1$$sl->max_sessions); i = i + 1u)
+      for( ; !(i >= en50221_sl_transport_callback__1__sl->max_sessions); i = i + 1u)
       {
-        pthread_mutex_lock(&(en50221_sl_transport_callback$$1$$sl->sessions + (signed long int)i)->session_lock);
-        if((signed int)(en50221_sl_transport_callback$$1$$sl->sessions + (signed long int)i)->state == 0x01)
-          pthread_mutex_unlock(&(en50221_sl_transport_callback$$1$$sl->sessions + (signed long int)i)->session_lock);
+        pthread_mutex_lock(&(en50221_sl_transport_callback__1__sl->sessions + (signed long int)i)->session_lock);
+        if((signed int)(en50221_sl_transport_callback__1__sl->sessions + (signed long int)i)->state == 0x01)
+          pthread_mutex_unlock(&(en50221_sl_transport_callback__1__sl->sessions + (signed long int)i)->session_lock);
 
         else
-          if(!((en50221_sl_transport_callback$$1$$sl->sessions + (signed long int)i)->connection_id == connection_id))
-            pthread_mutex_unlock(&(en50221_sl_transport_callback$$1$$sl->sessions + (signed long int)i)->session_lock);
+          if(!((en50221_sl_transport_callback__1__sl->sessions + (signed long int)i)->connection_id == connection_id))
+            pthread_mutex_unlock(&(en50221_sl_transport_callback__1__sl->sessions + (signed long int)i)->session_lock);
 
           else
           {
-            (en50221_sl_transport_callback$$1$$sl->sessions + (signed long int)i)->state = (unsigned char)0x01;
-            unsigned char _slot_id = (en50221_sl_transport_callback$$1$$sl->sessions + (signed long int)i)->slot_id;
-            unsigned int resource_id = (en50221_sl_transport_callback$$1$$sl->sessions + (signed long int)i)->resource_id;
-            pthread_mutex_unlock(&(en50221_sl_transport_callback$$1$$sl->sessions + (signed long int)i)->session_lock);
+            (en50221_sl_transport_callback__1__sl->sessions + (signed long int)i)->state = (unsigned char)0x01;
+            unsigned char _slot_id = (en50221_sl_transport_callback__1__sl->sessions + (signed long int)i)->slot_id;
+            unsigned int resource_id = (en50221_sl_transport_callback__1__sl->sessions + (signed long int)i)->resource_id;
+            pthread_mutex_unlock(&(en50221_sl_transport_callback__1__sl->sessions + (signed long int)i)->session_lock);
             if(!(cb == ((signed int (*)(void *, signed int, unsigned char, unsigned short int, unsigned int))NULL)))
               cb(cb_arg, 0x05, _slot_id, (unsigned short int)i, resource_id);
 
@@ -17371,28 +17371,28 @@ static void en50221_sl_transport_callback(void *arg, signed int reason, unsigned
     }
     case 0x04:
     {
-      pthread_mutex_lock(&en50221_sl_transport_callback$$1$$sl->setcallback_lock);
-      en50221_sl_transport_callback$$1$$1$$4$$cb = en50221_sl_transport_callback$$1$$sl->session;
-      en50221_sl_transport_callback$$1$$1$$4$$cb_arg = en50221_sl_transport_callback$$1$$sl->session_arg;
-      pthread_mutex_unlock(&en50221_sl_transport_callback$$1$$sl->setcallback_lock);
+      pthread_mutex_lock(&en50221_sl_transport_callback__1__sl->setcallback_lock);
+      en50221_sl_transport_callback__1__1__4__cb = en50221_sl_transport_callback__1__sl->session;
+      en50221_sl_transport_callback__1__1__4__cb_arg = en50221_sl_transport_callback__1__sl->session_arg;
+      pthread_mutex_unlock(&en50221_sl_transport_callback__1__sl->setcallback_lock);
       i = (unsigned int)0;
-      for( ; !(i >= en50221_sl_transport_callback$$1$$sl->max_sessions); i = i + 1u)
+      for( ; !(i >= en50221_sl_transport_callback__1__sl->max_sessions); i = i + 1u)
       {
-        pthread_mutex_lock(&(en50221_sl_transport_callback$$1$$sl->sessions + (signed long int)i)->session_lock);
-        if((signed int)(en50221_sl_transport_callback$$1$$sl->sessions + (signed long int)i)->state == 0x01)
-          pthread_mutex_unlock(&(en50221_sl_transport_callback$$1$$sl->sessions + (signed long int)i)->session_lock);
+        pthread_mutex_lock(&(en50221_sl_transport_callback__1__sl->sessions + (signed long int)i)->session_lock);
+        if((signed int)(en50221_sl_transport_callback__1__sl->sessions + (signed long int)i)->state == 0x01)
+          pthread_mutex_unlock(&(en50221_sl_transport_callback__1__sl->sessions + (signed long int)i)->session_lock);
 
         else
-          if(!((en50221_sl_transport_callback$$1$$sl->sessions + (signed long int)i)->slot_id == slot_id))
-            pthread_mutex_unlock(&(en50221_sl_transport_callback$$1$$sl->sessions + (signed long int)i)->session_lock);
+          if(!((en50221_sl_transport_callback__1__sl->sessions + (signed long int)i)->slot_id == slot_id))
+            pthread_mutex_unlock(&(en50221_sl_transport_callback__1__sl->sessions + (signed long int)i)->session_lock);
 
           else
           {
-            (en50221_sl_transport_callback$$1$$sl->sessions + (signed long int)i)->state = (unsigned char)0x01;
-            unsigned int en50221_sl_transport_callback$$1$$1$$4$$1$$1$$resource_id = (en50221_sl_transport_callback$$1$$sl->sessions + (signed long int)i)->resource_id;
-            pthread_mutex_unlock(&(en50221_sl_transport_callback$$1$$sl->sessions + (signed long int)i)->session_lock);
-            if(!(en50221_sl_transport_callback$$1$$1$$4$$cb == ((signed int (*)(void *, signed int, unsigned char, unsigned short int, unsigned int))NULL)))
-              en50221_sl_transport_callback$$1$$1$$4$$cb(en50221_sl_transport_callback$$1$$1$$4$$cb_arg, 0x05, slot_id, (unsigned short int)i, en50221_sl_transport_callback$$1$$1$$4$$1$$1$$resource_id);
+            (en50221_sl_transport_callback__1__sl->sessions + (signed long int)i)->state = (unsigned char)0x01;
+            unsigned int en50221_sl_transport_callback__1__1__4__1__1__resource_id = (en50221_sl_transport_callback__1__sl->sessions + (signed long int)i)->resource_id;
+            pthread_mutex_unlock(&(en50221_sl_transport_callback__1__sl->sessions + (signed long int)i)->session_lock);
+            if(!(en50221_sl_transport_callback__1__1__4__cb == ((signed int (*)(void *, signed int, unsigned char, unsigned short int, unsigned int))NULL)))
+              en50221_sl_transport_callback__1__1__4__cb(en50221_sl_transport_callback__1__1__4__cb_arg, 0x05, slot_id, (unsigned short int)i, en50221_sl_transport_callback__1__1__4__1__1__resource_id);
 
           }
       }
@@ -17405,7 +17405,7 @@ static void en50221_sl_transport_callback(void *arg, signed int reason, unsigned
       ;
       if(!(data_length >= 1u))
         do
-          vprint$link11("%s: Received data with invalid length from module on slot %i\n\n", (const void *)"en50221_sl_transport_callback", slot_id);
+          vprint_link11("%s: Received data with invalid length from module on slot %i\n\n", (const void *)"en50221_sl_transport_callback", slot_id);
         while((_Bool)0);
 
       else
@@ -17415,32 +17415,32 @@ static void en50221_sl_transport_callback(void *arg, signed int reason, unsigned
         {
           case 0x91:
           {
-            en50221_sl_handle_open_session_request(en50221_sl_transport_callback$$1$$sl, data + (signed long int)1, data_length - (unsigned int)1, slot_id, connection_id);
+            en50221_sl_handle_open_session_request(en50221_sl_transport_callback__1__sl, data + (signed long int)1, data_length - (unsigned int)1, slot_id, connection_id);
             break;
           }
           case 0x95:
           {
-            en50221_sl_handle_close_session_request(en50221_sl_transport_callback$$1$$sl, data + (signed long int)1, data_length - (unsigned int)1, slot_id, connection_id);
+            en50221_sl_handle_close_session_request(en50221_sl_transport_callback__1__sl, data + (signed long int)1, data_length - (unsigned int)1, slot_id, connection_id);
             break;
           }
           case 0x90:
           {
-            en50221_sl_handle_session_package(en50221_sl_transport_callback$$1$$sl, data + (signed long int)1, data_length - (unsigned int)1, slot_id, connection_id);
+            en50221_sl_handle_session_package(en50221_sl_transport_callback__1__sl, data + (signed long int)1, data_length - (unsigned int)1, slot_id, connection_id);
             break;
           }
           case 0x94:
           {
-            en50221_sl_handle_create_session_response(en50221_sl_transport_callback$$1$$sl, data + (signed long int)1, data_length - (unsigned int)1, slot_id, connection_id);
+            en50221_sl_handle_create_session_response(en50221_sl_transport_callback__1__sl, data + (signed long int)1, data_length - (unsigned int)1, slot_id, connection_id);
             break;
           }
           case 0x96:
           {
-            en50221_sl_handle_close_session_response(en50221_sl_transport_callback$$1$$sl, data + (signed long int)1, data_length - (unsigned int)1, slot_id, connection_id);
+            en50221_sl_handle_close_session_response(en50221_sl_transport_callback__1__sl, data + (signed long int)1, data_length - (unsigned int)1, slot_id, connection_id);
             break;
           }
           default:
             do
-              vprint$link11("%s: Received unknown session tag %02x from module on slot %i\n", (const void *)"en50221_sl_transport_callback", spdu_tag, slot_id);
+              vprint_link11("%s: Received unknown session tag %02x from module on slot %i\n", (const void *)"en50221_sl_transport_callback", spdu_tag, slot_id);
             while((_Bool)0);
         }
       }
@@ -17484,9 +17484,9 @@ extern struct en50221_stdcam * en50221_stdcam_create(signed int adapter, signed 
 extern struct en50221_stdcam * en50221_stdcam_hlci_create(signed int cafd, signed int slotnum)
 {
   struct en50221_stdcam_hlci *hlci;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct en50221_stdcam_hlci) /*104ul*/ );
-  hlci = (struct en50221_stdcam_hlci *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct en50221_stdcam_hlci) /*104ul*/ );
+  hlci = (struct en50221_stdcam_hlci *)return_value_malloc_1;
   if(hlci == ((struct en50221_stdcam_hlci *)NULL))
     return (struct en50221_stdcam *)(void *)0;
 
@@ -17534,9 +17534,9 @@ static void en50221_stdcam_hlci_destroy(struct en50221_stdcam *stdcam, signed in
 static enum en50221_stdcam_status en50221_stdcam_hlci_poll(struct en50221_stdcam *stdcam)
 {
   struct en50221_stdcam_hlci *hlci = (struct en50221_stdcam_hlci *)stdcam;
-  signed int return_value_dvbca_get_cam_state$1;
-  return_value_dvbca_get_cam_state$1=dvbca_get_cam_state(hlci->cafd, (unsigned char)hlci->slotnum);
-  switch(return_value_dvbca_get_cam_state$1)
+  signed int return_value_dvbca_get_cam_state_1;
+  return_value_dvbca_get_cam_state_1=dvbca_get_cam_state(hlci->cafd, (unsigned char)hlci->slotnum);
+  switch(return_value_dvbca_get_cam_state_1)
   {
     case 0:
     {
@@ -17568,9 +17568,9 @@ static enum en50221_stdcam_status en50221_stdcam_hlci_poll(struct en50221_stdcam
 extern struct en50221_stdcam * en50221_stdcam_llci_create(signed int cafd, signed int slotnum, struct en50221_transport_layer *tl, struct en50221_session_layer *sl)
 {
   struct en50221_stdcam_llci *llci;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct en50221_stdcam_llci) /*328ul*/ );
-  llci = (struct en50221_stdcam_llci *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct en50221_stdcam_llci) /*328ul*/ );
+  llci = (struct en50221_stdcam_llci *)return_value_malloc_1;
   if(llci == ((struct en50221_stdcam_llci *)NULL))
     return (struct en50221_stdcam *)(void *)0;
 
@@ -17677,9 +17677,9 @@ static void en50221_stdcam_llci_dvbtime(struct en50221_stdcam *stdcam, signed lo
 static enum en50221_stdcam_status en50221_stdcam_llci_poll(struct en50221_stdcam *stdcam)
 {
   struct en50221_stdcam_llci *llci = (struct en50221_stdcam_llci *)stdcam;
-  signed int return_value_dvbca_get_cam_state$1;
-  return_value_dvbca_get_cam_state$1=dvbca_get_cam_state(llci->cafd, (unsigned char)llci->slotnum);
-  switch(return_value_dvbca_get_cam_state$1)
+  signed int return_value_dvbca_get_cam_state_1;
+  return_value_dvbca_get_cam_state_1=dvbca_get_cam_state(llci->cafd, (unsigned char)llci->slotnum);
+  switch(return_value_dvbca_get_cam_state_1)
   {
     case 0:
     {
@@ -17699,16 +17699,16 @@ static enum en50221_stdcam_status en50221_stdcam_llci_poll(struct en50221_stdcam
   }
   signed int error;
   error=en50221_tl_poll(llci->tl);
-  signed int return_value_en50221_tl_get_error$2;
-  signed int return_value_en50221_tl_get_error$3;
-  signed int return_value_en50221_tl_get_error$4;
-  signed int return_value_en50221_tl_get_error$5;
-  signed int return_value_en50221_tl_get_error$6;
+  signed int return_value_en50221_tl_get_error_2;
+  signed int return_value_en50221_tl_get_error_3;
+  signed int return_value_en50221_tl_get_error_4;
+  signed int return_value_en50221_tl_get_error_5;
+  signed int return_value_en50221_tl_get_error_6;
   if(!(error == 0))
     do
     {
-      return_value_en50221_tl_get_error$2=en50221_tl_get_error(llci->tl);
-      vprint$link12("%s: Error reported by stack:%i\n\n", (const void *)"en50221_stdcam_llci_poll", return_value_en50221_tl_get_error$2);
+      return_value_en50221_tl_get_error_2=en50221_tl_get_error(llci->tl);
+      vprint_link12("%s: Error reported by stack:%i\n\n", (const void *)"en50221_stdcam_llci_poll", return_value_en50221_tl_get_error_2);
     }
     while((_Bool)0);
 
@@ -17748,7 +17748,7 @@ static signed int en50221_tl_alloc_new_tc(struct en50221_transport_layer *tl, un
   if(conid == -1)
   {
     do
-      vprint$link13("%s: CREATE_T_C failed: no more connections available\n\n", (const void *)"en50221_tl_alloc_new_tc");
+      vprint_link13("%s: CREATE_T_C failed: no more connections available\n\n", (const void *)"en50221_tl_alloc_new_tc");
     while((_Bool)0);
     return -1;
   }
@@ -17766,63 +17766,63 @@ static signed int en50221_tl_alloc_new_tc(struct en50221_transport_layer *tl, un
 // file ../../lib/libdvben50221/en50221_transport.h line 88
 extern struct en50221_transport_layer * en50221_tl_create(unsigned char max_slots, unsigned char max_connections_per_slot)
 {
-  struct en50221_transport_layer *en50221_tl_create$$1$$tl = (struct en50221_transport_layer *)(void *)0;
+  struct en50221_transport_layer *en50221_tl_create__1__tl = (struct en50221_transport_layer *)(void *)0;
   signed int i;
   signed int j;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct en50221_transport_layer) /*136ul*/ );
-  en50221_tl_create$$1$$tl = (struct en50221_transport_layer *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  void *return_value_malloc$4;
-  if(!(en50221_tl_create$$1$$tl == ((struct en50221_transport_layer *)NULL)))
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct en50221_transport_layer) /*136ul*/ );
+  en50221_tl_create__1__tl = (struct en50221_transport_layer *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  void *return_value_malloc_4;
+  if(!(en50221_tl_create__1__tl == ((struct en50221_transport_layer *)NULL)))
   {
-    en50221_tl_create$$1$$tl->max_slots = max_slots;
-    en50221_tl_create$$1$$tl->max_connections_per_slot = max_connections_per_slot;
-    en50221_tl_create$$1$$tl->slots = (struct en50221_slot *)(void *)0;
-    en50221_tl_create$$1$$tl->slot_pollfds = (struct pollfd *)(void *)0;
-    en50221_tl_create$$1$$tl->slots_changed = 1;
-    en50221_tl_create$$1$$tl->callback = (void (*)(void *, signed int, unsigned char *, unsigned int, unsigned char, unsigned char))(void *)0;
-    en50221_tl_create$$1$$tl->callback_arg = (void *)0;
-    en50221_tl_create$$1$$tl->error_slot = 0;
-    en50221_tl_create$$1$$tl->error = 0;
-    pthread_mutex_init(&en50221_tl_create$$1$$tl->global_lock, (const union anonymous$2 *)(void *)0);
-    pthread_mutex_init(&en50221_tl_create$$1$$tl->setcallback_lock, (const union anonymous$2 *)(void *)0);
-    return_value_malloc$2=malloc(sizeof(struct en50221_slot) /*64ul*/  * (unsigned long int)max_slots);
-    en50221_tl_create$$1$$tl->slots = (struct en50221_slot *)return_value_malloc$2;
-    if(en50221_tl_create$$1$$tl->slots == ((struct en50221_slot *)NULL))
+    en50221_tl_create__1__tl->max_slots = max_slots;
+    en50221_tl_create__1__tl->max_connections_per_slot = max_connections_per_slot;
+    en50221_tl_create__1__tl->slots = (struct en50221_slot *)(void *)0;
+    en50221_tl_create__1__tl->slot_pollfds = (struct pollfd *)(void *)0;
+    en50221_tl_create__1__tl->slots_changed = 1;
+    en50221_tl_create__1__tl->callback = (void (*)(void *, signed int, unsigned char *, unsigned int, unsigned char, unsigned char))(void *)0;
+    en50221_tl_create__1__tl->callback_arg = (void *)0;
+    en50221_tl_create__1__tl->error_slot = 0;
+    en50221_tl_create__1__tl->error = 0;
+    pthread_mutex_init(&en50221_tl_create__1__tl->global_lock, (const union anonymous_2 *)(void *)0);
+    pthread_mutex_init(&en50221_tl_create__1__tl->setcallback_lock, (const union anonymous_2 *)(void *)0);
+    return_value_malloc_2=malloc(sizeof(struct en50221_slot) /*64ul*/  * (unsigned long int)max_slots);
+    en50221_tl_create__1__tl->slots = (struct en50221_slot *)return_value_malloc_2;
+    if(en50221_tl_create__1__tl->slots == ((struct en50221_slot *)NULL))
       goto error_exit;
 
     i = 0;
     for( ; !(i >= (signed int)max_slots); i = i + 1)
     {
-      (en50221_tl_create$$1$$tl->slots + (signed long int)i)->ca_hndl = -1;
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(struct en50221_connection) /*72ul*/  * (unsigned long int)max_connections_per_slot);
-      (en50221_tl_create$$1$$tl->slots + (signed long int)i)->connections = (struct en50221_connection *)return_value_malloc$3;
-      if((en50221_tl_create$$1$$tl->slots + (signed long int)i)->connections == ((struct en50221_connection *)NULL))
+      (en50221_tl_create__1__tl->slots + (signed long int)i)->ca_hndl = -1;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(struct en50221_connection) /*72ul*/  * (unsigned long int)max_connections_per_slot);
+      (en50221_tl_create__1__tl->slots + (signed long int)i)->connections = (struct en50221_connection *)return_value_malloc_3;
+      if((en50221_tl_create__1__tl->slots + (signed long int)i)->connections == ((struct en50221_connection *)NULL))
         goto error_exit;
 
-      pthread_mutex_init(&(en50221_tl_create$$1$$tl->slots + (signed long int)i)->slot_lock, (const union anonymous$2 *)(void *)0);
+      pthread_mutex_init(&(en50221_tl_create__1__tl->slots + (signed long int)i)->slot_lock, (const union anonymous_2 *)(void *)0);
       j = 0;
       for( ; !(j >= (signed int)max_connections_per_slot); j = j + 1)
       {
-        ((en50221_tl_create$$1$$tl->slots + (signed long int)i)->connections + (signed long int)j)->state = (unsigned int)0x01;
-        ((en50221_tl_create$$1$$tl->slots + (signed long int)i)->connections + (signed long int)j)->tx_time.tv_sec = (signed long int)0;
-        ((en50221_tl_create$$1$$tl->slots + (signed long int)i)->connections + (signed long int)j)->last_poll_time.tv_sec = (signed long int)0;
-        ((en50221_tl_create$$1$$tl->slots + (signed long int)i)->connections + (signed long int)j)->last_poll_time.tv_usec = (signed long int)0;
-        ((en50221_tl_create$$1$$tl->slots + (signed long int)i)->connections + (signed long int)j)->chain_buffer = (unsigned char *)(void *)0;
-        ((en50221_tl_create$$1$$tl->slots + (signed long int)i)->connections + (signed long int)j)->buffer_length = (unsigned int)0;
-        ((en50221_tl_create$$1$$tl->slots + (signed long int)i)->connections + (signed long int)j)->send_queue = (struct en50221_message *)(void *)0;
-        ((en50221_tl_create$$1$$tl->slots + (signed long int)i)->connections + (signed long int)j)->send_queue_tail = (struct en50221_message *)(void *)0;
+        ((en50221_tl_create__1__tl->slots + (signed long int)i)->connections + (signed long int)j)->state = (unsigned int)0x01;
+        ((en50221_tl_create__1__tl->slots + (signed long int)i)->connections + (signed long int)j)->tx_time.tv_sec = (signed long int)0;
+        ((en50221_tl_create__1__tl->slots + (signed long int)i)->connections + (signed long int)j)->last_poll_time.tv_sec = (signed long int)0;
+        ((en50221_tl_create__1__tl->slots + (signed long int)i)->connections + (signed long int)j)->last_poll_time.tv_usec = (signed long int)0;
+        ((en50221_tl_create__1__tl->slots + (signed long int)i)->connections + (signed long int)j)->chain_buffer = (unsigned char *)(void *)0;
+        ((en50221_tl_create__1__tl->slots + (signed long int)i)->connections + (signed long int)j)->buffer_length = (unsigned int)0;
+        ((en50221_tl_create__1__tl->slots + (signed long int)i)->connections + (signed long int)j)->send_queue = (struct en50221_message *)(void *)0;
+        ((en50221_tl_create__1__tl->slots + (signed long int)i)->connections + (signed long int)j)->send_queue_tail = (struct en50221_message *)(void *)0;
       }
     }
-    return_value_malloc$4=malloc(sizeof(struct pollfd) /*8ul*/  * (unsigned long int)max_slots);
-    en50221_tl_create$$1$$tl->slot_pollfds = (struct pollfd *)return_value_malloc$4;
-    if(en50221_tl_create$$1$$tl->slot_pollfds == ((struct pollfd *)NULL))
+    return_value_malloc_4=malloc(sizeof(struct pollfd) /*8ul*/  * (unsigned long int)max_slots);
+    en50221_tl_create__1__tl->slot_pollfds = (struct pollfd *)return_value_malloc_4;
+    if(en50221_tl_create__1__tl->slot_pollfds == ((struct pollfd *)NULL))
       goto error_exit;
 
-    memset((void *)en50221_tl_create$$1$$tl->slot_pollfds, 0, sizeof(struct pollfd) /*8ul*/  * (unsigned long int)max_slots);
-    return en50221_tl_create$$1$$tl;
+    memset((void *)en50221_tl_create__1__tl->slot_pollfds, 0, sizeof(struct pollfd) /*8ul*/  * (unsigned long int)max_slots);
+    return en50221_tl_create__1__tl;
   }
 
   else
@@ -17830,7 +17830,7 @@ extern struct en50221_transport_layer * en50221_tl_create(unsigned char max_slot
 
   error_exit:
     ;
-    en50221_tl_destroy(en50221_tl_create$$1$$tl);
+    en50221_tl_destroy(en50221_tl_create__1__tl);
     return (struct en50221_transport_layer *)(void *)0;
   }
 }
@@ -17876,9 +17876,9 @@ extern signed int en50221_tl_del_tc(struct en50221_transport_layer *tl, unsigned
         else
         {
           struct en50221_message *msg;
-          void *return_value_malloc$1;
-          return_value_malloc$1=malloc(sizeof(struct en50221_message) /*16ul*/  + (unsigned long int)3);
-          msg = (struct en50221_message *)return_value_malloc$1;
+          void *return_value_malloc_1;
+          return_value_malloc_1=malloc(sizeof(struct en50221_message) /*16ul*/  + (unsigned long int)3);
+          msg = (struct en50221_message *)return_value_malloc_1;
           if(msg == ((struct en50221_message *)NULL))
           {
             tl->error_slot = (signed int)slot_id;
@@ -18068,7 +18068,7 @@ static signed int en50221_tl_handle_create_tc_reply(struct en50221_transport_lay
   else
   {
     do
-      vprint$link13("%s: Received T_C_T_C_REPLY for connection not in T_STATE_IN_CREATION from module on slot %02x\n\n", (const void *)"en50221_tl_handle_create_tc_reply", slot_id);
+      vprint_link13("%s: Received T_C_T_C_REPLY for connection not in T_STATE_IN_CREATION from module on slot %02x\n\n", (const void *)"en50221_tl_handle_create_tc_reply", slot_id);
     while((_Bool)0);
     tl->error_slot = (signed int)slot_id;
     tl->error = -7;
@@ -18084,7 +18084,7 @@ static signed int en50221_tl_handle_data_last(struct en50221_transport_layer *tl
   if(!(((tl->slots + (signed long int)slot_id)->connections + (signed long int)connection_id)->state == 2u))
   {
     do
-      vprint$link13("%s: Received T_DATA_LAST received for connection not in T_STATE_ACTIVE from module on slot %02x\n\n", (const void *)"en50221_tl_handle_data_last", slot_id);
+      vprint_link13("%s: Received T_DATA_LAST received for connection not in T_STATE_ACTIVE from module on slot %02x\n\n", (const void *)"en50221_tl_handle_data_last", slot_id);
     while((_Bool)0);
     tl->error_slot = (signed int)slot_id;
     tl->error = -7;
@@ -18113,9 +18113,9 @@ static signed int en50221_tl_handle_data_last(struct en50221_transport_layer *tl
     {
       signed int new_data_length = (signed int)(((tl->slots + (signed long int)slot_id)->connections + (signed long int)connection_id)->buffer_length + data_length);
       unsigned char *new_data_buffer;
-      void *return_value_realloc$1;
-      return_value_realloc$1=realloc((void *)((tl->slots + (signed long int)slot_id)->connections + (signed long int)connection_id)->chain_buffer, (unsigned long int)new_data_length);
-      new_data_buffer = (unsigned char *)return_value_realloc$1;
+      void *return_value_realloc_1;
+      return_value_realloc_1=realloc((void *)((tl->slots + (signed long int)slot_id)->connections + (signed long int)connection_id)->chain_buffer, (unsigned long int)new_data_length);
+      new_data_buffer = (unsigned char *)return_value_realloc_1;
       if(new_data_buffer == ((unsigned char *)NULL))
       {
         tl->error_slot = (signed int)slot_id;
@@ -18127,13 +18127,13 @@ static signed int en50221_tl_handle_data_last(struct en50221_transport_layer *tl
       ((tl->slots + (signed long int)slot_id)->connections + (signed long int)connection_id)->chain_buffer = (unsigned char *)(void *)0;
       ((tl->slots + (signed long int)slot_id)->connections + (signed long int)connection_id)->buffer_length = (unsigned int)0;
       pthread_mutex_lock(&tl->setcallback_lock);
-      void (*en50221_tl_handle_data_last$$1$$3$$cb)(void *, signed int, unsigned char *, unsigned int, unsigned char, unsigned char) = tl->callback;
-      void *en50221_tl_handle_data_last$$1$$3$$cb_arg = tl->callback_arg;
+      void (*en50221_tl_handle_data_last__1__3__cb)(void *, signed int, unsigned char *, unsigned int, unsigned char, unsigned char) = tl->callback;
+      void *en50221_tl_handle_data_last__1__3__cb_arg = tl->callback_arg;
       pthread_mutex_unlock(&tl->setcallback_lock);
-      if(!(en50221_tl_handle_data_last$$1$$3$$cb == ((void (*)(void *, signed int, unsigned char *, unsigned int, unsigned char, unsigned char))NULL)) && !(data_length == 0u))
+      if(!(en50221_tl_handle_data_last__1__3__cb == ((void (*)(void *, signed int, unsigned char *, unsigned int, unsigned char, unsigned char))NULL)) && !(data_length == 0u))
       {
         pthread_mutex_unlock(&(tl->slots + (signed long int)slot_id)->slot_lock);
-        en50221_tl_handle_data_last$$1$$3$$cb(en50221_tl_handle_data_last$$1$$3$$cb_arg, 0x02, new_data_buffer, (unsigned int)new_data_length, slot_id, connection_id);
+        en50221_tl_handle_data_last__1__3__cb(en50221_tl_handle_data_last__1__3__cb_arg, 0x02, new_data_buffer, (unsigned int)new_data_length, slot_id, connection_id);
         pthread_mutex_lock(&(tl->slots + (signed long int)slot_id)->slot_lock);
       }
 
@@ -18150,7 +18150,7 @@ static signed int en50221_tl_handle_data_more(struct en50221_transport_layer *tl
   if(!(((tl->slots + (signed long int)slot_id)->connections + (signed long int)connection_id)->state == 2u))
   {
     do
-      vprint$link13("%s: Received T_DATA_MORE for connection not in T_STATE_ACTIVE from module on slot %02x\n\n", (const void *)"en50221_tl_handle_data_more", slot_id);
+      vprint_link13("%s: Received T_DATA_MORE for connection not in T_STATE_ACTIVE from module on slot %02x\n\n", (const void *)"en50221_tl_handle_data_more", slot_id);
     while((_Bool)0);
     tl->error_slot = (signed int)slot_id;
     tl->error = -7;
@@ -18162,9 +18162,9 @@ static signed int en50221_tl_handle_data_more(struct en50221_transport_layer *tl
     ((tl->slots + (signed long int)slot_id)->connections + (signed long int)connection_id)->tx_time.tv_sec = (signed long int)0;
     signed int new_data_length = (signed int)(((tl->slots + (signed long int)slot_id)->connections + (signed long int)connection_id)->buffer_length + data_length);
     unsigned char *new_data_buffer;
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)((tl->slots + (signed long int)slot_id)->connections + (signed long int)connection_id)->chain_buffer, (unsigned long int)new_data_length);
-    new_data_buffer = (unsigned char *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)((tl->slots + (signed long int)slot_id)->connections + (signed long int)connection_id)->chain_buffer, (unsigned long int)new_data_length);
+    new_data_buffer = (unsigned char *)return_value_realloc_1;
     if(new_data_buffer == ((unsigned char *)NULL))
     {
       tl->error_slot = (signed int)slot_id;
@@ -18198,9 +18198,9 @@ static signed int en50221_tl_handle_delete_tc(struct en50221_transport_layer *tl
     hdr[(signed long int)0] = (unsigned char)0x85;
     hdr[(signed long int)1] = (unsigned char)1;
     hdr[(signed long int)2] = connection_id;
-    signed int return_value_dvbca_link_write$1;
-    return_value_dvbca_link_write$1=dvbca_link_write((tl->slots + (signed long int)slot_id)->ca_hndl, (tl->slots + (signed long int)slot_id)->slot, connection_id, hdr, (unsigned short int)3);
-    if(!(return_value_dvbca_link_write$1 >= 0))
+    signed int return_value_dvbca_link_write_1;
+    return_value_dvbca_link_write_1=dvbca_link_write((tl->slots + (signed long int)slot_id)->ca_hndl, (tl->slots + (signed long int)slot_id)->slot, connection_id, hdr, (unsigned short int)3);
+    if(!(return_value_dvbca_link_write_1 >= 0))
     {
       tl->error_slot = (signed int)slot_id;
       tl->error = -2;
@@ -18219,7 +18219,7 @@ static signed int en50221_tl_handle_delete_tc(struct en50221_transport_layer *tl
   else
   {
     do
-      vprint$link13("%s: Received T_DELETE_T_C for inactive connection from module on slot %02x\n\n", (const void *)"en50221_tl_handle_delete_tc", slot_id);
+      vprint_link13("%s: Received T_DELETE_T_C for inactive connection from module on slot %02x\n\n", (const void *)"en50221_tl_handle_delete_tc", slot_id);
     while((_Bool)0);
     tl->error_slot = (signed int)slot_id;
     tl->error = -7;
@@ -18238,7 +18238,7 @@ static signed int en50221_tl_handle_delete_tc_reply(struct en50221_transport_lay
   else
   {
     do
-      vprint$link13("%s: Received T_D_T_C_REPLY received for connection not in T_STATE_IN_DELETION from module on slot %02x\n\n", (const void *)"en50221_tl_handle_delete_tc_reply", slot_id);
+      vprint_link13("%s: Received T_D_T_C_REPLY received for connection not in T_STATE_IN_DELETION from module on slot %02x\n\n", (const void *)"en50221_tl_handle_delete_tc_reply", slot_id);
     while((_Bool)0);
     tl->error_slot = (signed int)slot_id;
     tl->error = -7;
@@ -18257,16 +18257,16 @@ static signed int en50221_tl_handle_request_tc(struct en50221_transport_layer *t
   if(conid == -1)
   {
     do
-      vprint$link13("%s: Too many connections requested by module on slot %02x\n\n", (const void *)"en50221_tl_handle_request_tc", slot_id);
+      vprint_link13("%s: Too many connections requested by module on slot %02x\n\n", (const void *)"en50221_tl_handle_request_tc", slot_id);
     while((_Bool)0);
-    unsigned char en50221_tl_handle_request_tc$$1$$1$$hdr[4l];
-    en50221_tl_handle_request_tc$$1$$1$$hdr[(signed long int)0] = (unsigned char)0x77;
-    en50221_tl_handle_request_tc$$1$$1$$hdr[(signed long int)1] = (unsigned char)2;
-    en50221_tl_handle_request_tc$$1$$1$$hdr[(signed long int)2] = connection_id;
-    en50221_tl_handle_request_tc$$1$$1$$hdr[(signed long int)3] = (unsigned char)1;
-    signed int return_value_dvbca_link_write$1;
-    return_value_dvbca_link_write$1=dvbca_link_write(ca_hndl, (tl->slots + (signed long int)slot_id)->slot, connection_id, en50221_tl_handle_request_tc$$1$$1$$hdr, (unsigned short int)4);
-    if(!(return_value_dvbca_link_write$1 >= 0))
+    unsigned char en50221_tl_handle_request_tc__1__1__hdr[4l];
+    en50221_tl_handle_request_tc__1__1__hdr[(signed long int)0] = (unsigned char)0x77;
+    en50221_tl_handle_request_tc__1__1__hdr[(signed long int)1] = (unsigned char)2;
+    en50221_tl_handle_request_tc__1__1__hdr[(signed long int)2] = connection_id;
+    en50221_tl_handle_request_tc__1__1__hdr[(signed long int)3] = (unsigned char)1;
+    signed int return_value_dvbca_link_write_1;
+    return_value_dvbca_link_write_1=dvbca_link_write(ca_hndl, (tl->slots + (signed long int)slot_id)->slot, connection_id, en50221_tl_handle_request_tc__1__1__hdr, (unsigned short int)4);
+    if(!(return_value_dvbca_link_write_1 >= 0))
     {
       tl->error_slot = (signed int)slot_id;
       tl->error = -2;
@@ -18283,9 +18283,9 @@ static signed int en50221_tl_handle_request_tc(struct en50221_transport_layer *t
     hdr[(signed long int)1] = (unsigned char)2;
     hdr[(signed long int)2] = connection_id;
     hdr[(signed long int)3] = (unsigned char)conid;
-    signed int return_value_dvbca_link_write$2;
-    return_value_dvbca_link_write$2=dvbca_link_write(ca_hndl, (tl->slots + (signed long int)slot_id)->slot, connection_id, hdr, (unsigned short int)4);
-    if(!(return_value_dvbca_link_write$2 >= 0))
+    signed int return_value_dvbca_link_write_2;
+    return_value_dvbca_link_write_2=dvbca_link_write(ca_hndl, (tl->slots + (signed long int)slot_id)->slot, connection_id, hdr, (unsigned short int)4);
+    if(!(return_value_dvbca_link_write_2 >= 0))
     {
       ((tl->slots + (signed long int)slot_id)->connections + (signed long int)conid)->state = (unsigned int)0x01;
       tl->error_slot = (signed int)slot_id;
@@ -18297,9 +18297,9 @@ static signed int en50221_tl_handle_request_tc(struct en50221_transport_layer *t
     hdr[(signed long int)0] = (unsigned char)0x82;
     hdr[(signed long int)1] = (unsigned char)1;
     hdr[(signed long int)2] = (unsigned char)conid;
-    signed int return_value_dvbca_link_write$3;
-    return_value_dvbca_link_write$3=dvbca_link_write(ca_hndl, (tl->slots + (signed long int)slot_id)->slot, (unsigned char)conid, hdr, (unsigned short int)3);
-    if(!(return_value_dvbca_link_write$3 >= 0))
+    signed int return_value_dvbca_link_write_3;
+    return_value_dvbca_link_write_3=dvbca_link_write(ca_hndl, (tl->slots + (signed long int)slot_id)->slot, (unsigned char)conid, hdr, (unsigned short int)3);
+    if(!(return_value_dvbca_link_write_3 >= 0))
     {
       ((tl->slots + (signed long int)slot_id)->connections + (signed long int)conid)->state = (unsigned int)0x01;
       tl->error_slot = (signed int)slot_id;
@@ -18326,7 +18326,7 @@ static signed int en50221_tl_handle_sb(struct en50221_transport_layer *tl, unsig
   if(!(((tl->slots + (signed long int)slot_id)->connections + (signed long int)connection_id)->state == 2u))
   {
     do
-      vprint$link13("%s: Received T_SB for connection not in T_STATE_ACTIVE from module on slot %02x\n\n", (const void *)"en50221_tl_handle_sb", slot_id);
+      vprint_link13("%s: Received T_SB for connection not in T_STATE_ACTIVE from module on slot %02x\n\n", (const void *)"en50221_tl_handle_sb", slot_id);
     while((_Bool)0);
     tl->error_slot = (signed int)slot_id;
     tl->error = -7;
@@ -18337,7 +18337,7 @@ static signed int en50221_tl_handle_sb(struct en50221_transport_layer *tl, unsig
     if(!(data_length == 1u))
     {
       do
-        vprint$link13("%s: Recieved T_SB with invalid length from module on slot %02x\n\n", (const void *)"en50221_tl_handle_sb", slot_id);
+        vprint_link13("%s: Recieved T_SB with invalid length from module on slot %02x\n\n", (const void *)"en50221_tl_handle_sb", slot_id);
       while((_Bool)0);
       tl->error_slot = (signed int)slot_id;
       tl->error = -7;
@@ -18353,9 +18353,9 @@ static signed int en50221_tl_handle_sb(struct en50221_transport_layer *tl, unsig
         hdr[(signed long int)0] = (unsigned char)0x81;
         hdr[(signed long int)1] = (unsigned char)1;
         hdr[(signed long int)2] = connection_id;
-        signed int return_value_dvbca_link_write$1;
-        return_value_dvbca_link_write$1=dvbca_link_write(ca_hndl, (tl->slots + (signed long int)slot_id)->slot, connection_id, hdr, (unsigned short int)3);
-        if(!(return_value_dvbca_link_write$1 >= 0))
+        signed int return_value_dvbca_link_write_1;
+        return_value_dvbca_link_write_1=dvbca_link_write(ca_hndl, (tl->slots + (signed long int)slot_id)->slot, connection_id, hdr, (unsigned short int)3);
+        if(!(return_value_dvbca_link_write_1 >= 0))
         {
           tl->error_slot = (signed int)slot_id;
           tl->error = -2;
@@ -18406,9 +18406,9 @@ extern signed int en50221_tl_new_tc(struct en50221_transport_layer *tl, unsigned
       else
       {
         struct en50221_message *msg;
-        void *return_value_malloc$1;
-        return_value_malloc$1=malloc(sizeof(struct en50221_message) /*16ul*/  + (unsigned long int)3);
-        msg = (struct en50221_message *)return_value_malloc$1;
+        void *return_value_malloc_1;
+        return_value_malloc_1=malloc(sizeof(struct en50221_message) /*16ul*/  + (unsigned long int)3);
+        msg = (struct en50221_message *)return_value_malloc_1;
         if(msg == ((struct en50221_message *)NULL))
         {
           tl->error_slot = (signed int)slot_id;
@@ -18462,12 +18462,12 @@ extern signed int en50221_tl_poll(struct en50221_transport_layer *tl)
   }
 
   pthread_mutex_unlock(&tl->global_lock);
-  signed int return_value_poll$1;
-  return_value_poll$1=poll(tl->slot_pollfds, (unsigned long int)tl->max_slots, 10);
-  signed int return_value_en50221_tl_process_data$3;
-  signed int return_value_time_after$6;
-  signed int return_value_time_after$7;
-  if(!(return_value_poll$1 >= 0))
+  signed int return_value_poll_1;
+  return_value_poll_1=poll(tl->slot_pollfds, (unsigned long int)tl->max_slots, 10);
+  signed int return_value_en50221_tl_process_data_3;
+  signed int return_value_time_after_6;
+  signed int return_value_time_after_7;
+  if(!(return_value_poll_1 >= 0))
   {
     tl->error_slot = -1;
     tl->error = -1;
@@ -18516,9 +18516,9 @@ extern signed int en50221_tl_poll(struct en50221_transport_layer *tl)
               if(!(new_slot_id == (signed int)tl->max_slots))
               {
                 pthread_mutex_lock(&(tl->slots + (signed long int)new_slot_id)->slot_lock);
-                signed int return_value_en50221_tl_process_data$2;
-                return_value_en50221_tl_process_data$2=en50221_tl_process_data(tl, (unsigned char)new_slot_id, data, (unsigned int)readcnt);
-                if(!(return_value_en50221_tl_process_data$2 == 0))
+                signed int return_value_en50221_tl_process_data_2;
+                return_value_en50221_tl_process_data_2=en50221_tl_process_data(tl, (unsigned char)new_slot_id, data, (unsigned int)readcnt);
+                if(!(return_value_en50221_tl_process_data_2 == 0))
                 {
                   pthread_mutex_unlock(&(tl->slots + (signed long int)new_slot_id)->slot_lock);
                   pthread_mutex_unlock(&(tl->slots + (signed long int)slot_id)->slot_lock);
@@ -18538,8 +18538,8 @@ extern signed int en50221_tl_poll(struct en50221_transport_layer *tl)
 
             else
             {
-              return_value_en50221_tl_process_data$3=en50221_tl_process_data(tl, (unsigned char)slot_id, data, (unsigned int)readcnt);
-              if(!(return_value_en50221_tl_process_data$3 == 0))
+              return_value_en50221_tl_process_data_3=en50221_tl_process_data(tl, (unsigned char)slot_id, data, (unsigned int)readcnt);
+              if(!(return_value_en50221_tl_process_data_3 == 0))
               {
                 pthread_mutex_unlock(&(tl->slots + (signed long int)slot_id)->slot_lock);
                 return -1;
@@ -18578,16 +18578,16 @@ extern signed int en50221_tl_poll(struct en50221_transport_layer *tl)
                     ((tl->slots + (signed long int)slot_id)->connections + (signed long int)j)->send_queue = (struct en50221_message *)(void *)0;
                     ((tl->slots + (signed long int)slot_id)->connections + (signed long int)j)->send_queue_tail = (struct en50221_message *)(void *)0;
                   }
-                  signed int return_value_dvbca_link_write$4;
-                  return_value_dvbca_link_write$4=dvbca_link_write((tl->slots + (signed long int)slot_id)->ca_hndl, (tl->slots + (signed long int)slot_id)->slot, (unsigned char)j, msg->data, (unsigned short int)msg->length);
-                  if(!(return_value_dvbca_link_write$4 >= 0))
+                  signed int return_value_dvbca_link_write_4;
+                  return_value_dvbca_link_write_4=dvbca_link_write((tl->slots + (signed long int)slot_id)->ca_hndl, (tl->slots + (signed long int)slot_id)->slot, (unsigned char)j, msg->data, (unsigned short int)msg->length);
+                  if(!(return_value_dvbca_link_write_4 >= 0))
                   {
                     free((void *)msg);
                     pthread_mutex_unlock(&(tl->slots + (signed long int)slot_id)->slot_lock);
                     tl->error_slot = slot_id;
                     tl->error = -2;
                     do
-                      vprint$link13("%s: CAWrite failed\n", (const void *)"en50221_tl_poll");
+                      vprint_link13("%s: CAWrite failed\n", (const void *)"en50221_tl_poll");
                     while((_Bool)0);
                     return -1;
                   }
@@ -18618,13 +18618,13 @@ extern signed int en50221_tl_poll(struct en50221_transport_layer *tl)
             {
               if(((tl->slots + (signed long int)slot_id)->connections + (signed long int)j)->tx_time.tv_sec == 0l)
               {
-                return_value_time_after$6=time_after(((tl->slots + (signed long int)slot_id)->connections + (signed long int)j)->last_poll_time, (tl->slots + (signed long int)slot_id)->poll_delay);
-                if(!(return_value_time_after$6 == 0))
+                return_value_time_after_6=time_after(((tl->slots + (signed long int)slot_id)->connections + (signed long int)j)->last_poll_time, (tl->slots + (signed long int)slot_id)->poll_delay);
+                if(!(return_value_time_after_6 == 0))
                 {
                   gettimeofday(&((tl->slots + (signed long int)slot_id)->connections + (signed long int)j)->last_poll_time, ((struct timezone *)NULL));
-                  signed int return_value_en50221_tl_poll_tc$5;
-                  return_value_en50221_tl_poll_tc$5=en50221_tl_poll_tc(tl, (unsigned char)slot_id, (unsigned char)j);
-                  if(!(return_value_en50221_tl_poll_tc$5 == 0))
+                  signed int return_value_en50221_tl_poll_tc_5;
+                  return_value_en50221_tl_poll_tc_5=en50221_tl_poll_tc(tl, (unsigned char)slot_id, (unsigned char)j);
+                  if(!(return_value_en50221_tl_poll_tc_5 == 0))
                   {
                     pthread_mutex_unlock(&(tl->slots + (signed long int)slot_id)->slot_lock);
                     return -1;
@@ -18638,8 +18638,8 @@ extern signed int en50221_tl_poll(struct en50221_transport_layer *tl)
 
             if(!(((tl->slots + (signed long int)slot_id)->connections + (signed long int)j)->tx_time.tv_sec == 0l))
             {
-              return_value_time_after$7=time_after(((tl->slots + (signed long int)slot_id)->connections + (signed long int)j)->tx_time, (tl->slots + (signed long int)slot_id)->response_timeout);
-              if(!(return_value_time_after$7 == 0))
+              return_value_time_after_7=time_after(((tl->slots + (signed long int)slot_id)->connections + (signed long int)j)->tx_time, (tl->slots + (signed long int)slot_id)->response_timeout);
+              if(!(return_value_time_after_7 == 0))
               {
                 if(!((24u & ((tl->slots + (signed long int)slot_id)->connections + (signed long int)j)->state) == 0u))
                   ((tl->slots + (signed long int)slot_id)->connections + (signed long int)j)->state = (unsigned int)0x01;
@@ -18675,9 +18675,9 @@ static signed int en50221_tl_poll_tc(struct en50221_transport_layer *tl, unsigne
   hdr[(signed long int)0] = (unsigned char)0xA0;
   hdr[(signed long int)1] = (unsigned char)1;
   hdr[(signed long int)2] = connection_id;
-  signed int return_value_dvbca_link_write$1;
-  return_value_dvbca_link_write$1=dvbca_link_write((tl->slots + (signed long int)slot_id)->ca_hndl, (tl->slots + (signed long int)slot_id)->slot, connection_id, hdr, (unsigned short int)3);
-  if(!(return_value_dvbca_link_write$1 >= 0))
+  signed int return_value_dvbca_link_write_1;
+  return_value_dvbca_link_write_1=dvbca_link_write((tl->slots + (signed long int)slot_id)->ca_hndl, (tl->slots + (signed long int)slot_id)->slot, connection_id, hdr, (unsigned short int)3);
+  if(!(return_value_dvbca_link_write_1 >= 0))
   {
     tl->error_slot = (signed int)slot_id;
     tl->error = -2;
@@ -18702,7 +18702,7 @@ static signed int en50221_tl_process_data(struct en50221_transport_layer *tl, un
     if(!(length_field_len >= 0))
     {
       do
-        vprint$link13("%s: Received data with invalid asn from module on slot %02x\n\n", (const void *)"en50221_tl_process_data", slot_id);
+        vprint_link13("%s: Received data with invalid asn from module on slot %02x\n\n", (const void *)"en50221_tl_process_data", slot_id);
       while((_Bool)0);
       tl->error_slot = (signed int)slot_id;
       tl->error = -7;
@@ -18712,7 +18712,7 @@ static signed int en50221_tl_process_data(struct en50221_transport_layer *tl, un
     if(!(data_length + -(1u + (unsigned int)length_field_len) >= (unsigned int)asn_data_length) || !((signed int)asn_data_length >= 1))
     {
       do
-        vprint$link13("%s: Received data with invalid length from module on slot %02x\n\n", (const void *)"en50221_tl_process_data", slot_id);
+        vprint_link13("%s: Received data with invalid length from module on slot %02x\n\n", (const void *)"en50221_tl_process_data", slot_id);
       while((_Bool)0);
       tl->error_slot = (signed int)slot_id;
       tl->error = -7;
@@ -18726,7 +18726,7 @@ static signed int en50221_tl_process_data(struct en50221_transport_layer *tl, un
     if((signed int)connection_id >= (signed int)tl->max_connections_per_slot)
     {
       do
-        vprint$link13("%s: Received bad connection id %02x from module on slot %02x\n\n", (const void *)"en50221_tl_process_data", connection_id, slot_id);
+        vprint_link13("%s: Received bad connection id %02x from module on slot %02x\n\n", (const void *)"en50221_tl_process_data", connection_id, slot_id);
       while((_Bool)0);
       tl->error_slot = (signed int)slot_id;
       tl->error = -5;
@@ -18794,7 +18794,7 @@ static signed int en50221_tl_process_data(struct en50221_transport_layer *tl, un
       default:
       {
         do
-          vprint$link13("%s: Recieved unexpected TPDU tag %02x from module on slot %02x\n\n", (const void *)"en50221_tl_process_data", tpdu_tag, slot_id);
+          vprint_link13("%s: Recieved unexpected TPDU tag %02x from module on slot %02x\n\n", (const void *)"en50221_tl_process_data", tpdu_tag, slot_id);
         while((_Bool)0);
         tl->error_slot = (signed int)slot_id;
         tl->error = -7;
@@ -18893,9 +18893,9 @@ extern signed int en50221_tl_send_data(struct en50221_transport_layer *tl, unsig
         else
         {
           struct en50221_message *msg;
-          void *return_value_malloc$1;
-          return_value_malloc$1=malloc(sizeof(struct en50221_message) /*16ul*/  + (unsigned long int)data_size + (unsigned long int)10);
-          msg = (struct en50221_message *)return_value_malloc$1;
+          void *return_value_malloc_1;
+          return_value_malloc_1=malloc(sizeof(struct en50221_message) /*16ul*/  + (unsigned long int)data_size + (unsigned long int)10);
+          msg = (struct en50221_message *)return_value_malloc_1;
           if(msg == ((struct en50221_message *)NULL))
           {
             tl->error_slot = (signed int)slot_id;
@@ -18976,9 +18976,9 @@ extern signed int en50221_tl_send_datav(struct en50221_transport_layer *tl, unsi
           for( ; !(i >= iov_count); i = i + 1)
             data_size = data_size + (unsigned int)(vector + (signed long int)i)->iov_len;
           struct en50221_message *msg;
-          void *return_value_malloc$1;
-          return_value_malloc$1=malloc(sizeof(struct en50221_message) /*16ul*/  + (unsigned long int)data_size + (unsigned long int)10);
-          msg = (struct en50221_message *)return_value_malloc$1;
+          void *return_value_malloc_1;
+          return_value_malloc_1=malloc(sizeof(struct en50221_message) /*16ul*/  + (unsigned long int)data_size + (unsigned long int)10);
+          msg = (struct en50221_message *)return_value_malloc_1;
           if(msg == ((struct en50221_message *)NULL))
           {
             tl->error_slot = (signed int)slot_id;
@@ -19027,9 +19027,9 @@ extern signed int en50221_tl_send_datav(struct en50221_transport_layer *tl, unsi
 signed int find_channel(struct dvbcfg_zapchannel *channel, void *private_data)
 {
   struct dvbcfg_zapchannel *tmpchannel = (struct dvbcfg_zapchannel *)private_data;
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(channel->name, tmpchannel->name);
-  if(return_value_strcmp$1 == 0)
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(channel->name, tmpchannel->name);
+  if(return_value_strcmp_1 == 0)
   {
     memcpy((void *)tmpchannel, (const void *)channel, sizeof(struct dvbcfg_zapchannel) /*188ul*/ );
     return 1;
@@ -19053,9 +19053,9 @@ static signed int getstringupto(char **line, char *end, char *matches, char **pt
 
     }
 
-    char *return_value_strchr$1;
-    return_value_strchr$1=strchr(matches, (signed int)*(*line));
-    if(!(return_value_strchr$1 == ((char *)NULL)))
+    char *return_value_strchr_1;
+    return_value_strchr_1=strchr(matches, (signed int)*(*line));
+    if(!(return_value_strchr_1 == ((char *)NULL)))
     {
       *ptrdest = start;
       *ptrlen = (signed int)(*line - start);
@@ -19075,9 +19075,9 @@ static signed int hlci_cam_added(struct en50221_stdcam_hlci *hlci)
 {
   unsigned char buf[256l];
   signed int size;
-  signed int return_value_en50221_app_ai_enquiry$1;
-  return_value_en50221_app_ai_enquiry$1=en50221_app_ai_enquiry(hlci->stdcam.ai_resource, (unsigned short int)0);
-  if(!(return_value_en50221_app_ai_enquiry$1 == 0))
+  signed int return_value_en50221_app_ai_enquiry_1;
+  return_value_en50221_app_ai_enquiry_1=en50221_app_ai_enquiry(hlci->stdcam.ai_resource, (unsigned short int)0);
+  if(!(return_value_en50221_app_ai_enquiry_1 == 0))
     return -5;
 
   else
@@ -19088,9 +19088,9 @@ static signed int hlci_cam_added(struct en50221_stdcam_hlci *hlci)
 
     else
     {
-      signed int return_value_en50221_app_ai_message$2;
-      return_value_en50221_app_ai_message$2=en50221_app_ai_message(hlci->stdcam.ai_resource, (unsigned char)0, (unsigned short int)0, (unsigned int)((2 & 0xffff) << 16 | (1 & 0x3ff) << 6 | 1 & 0x3f), buf, (unsigned int)size);
-      if(!(return_value_en50221_app_ai_message$2 == 0))
+      signed int return_value_en50221_app_ai_message_2;
+      return_value_en50221_app_ai_message_2=en50221_app_ai_message(hlci->stdcam.ai_resource, (unsigned char)0, (unsigned short int)0, (unsigned int)((2 & 0xffff) << 16 | (1 & 0x3ff) << 6 | 1 & 0x3f), buf, (unsigned int)size);
+      if(!(return_value_en50221_app_ai_message_2 == 0))
         return -5;
 
       else
@@ -19099,9 +19099,9 @@ static signed int hlci_cam_added(struct en50221_stdcam_hlci *hlci)
         buf[(signed long int)1] = (unsigned char)(0x9f8031 >> 8);
         buf[(signed long int)2] = (unsigned char)0x9f8031;
         buf[(signed long int)3] = (unsigned char)0;
-        signed int return_value_en50221_app_ca_message$3;
-        return_value_en50221_app_ca_message$3=en50221_app_ca_message(hlci->stdcam.ca_resource, (unsigned char)0, (unsigned short int)0, (unsigned int)((3 & 0xffff) << 16 | (1 & 0x3ff) << 6 | 1 & 0x3f), buf, (unsigned int)4);
-        if(!(return_value_en50221_app_ca_message$3 == 0))
+        signed int return_value_en50221_app_ca_message_3;
+        return_value_en50221_app_ca_message_3=en50221_app_ca_message(hlci->stdcam.ca_resource, (unsigned char)0, (unsigned short int)0, (unsigned int)((3 & 0xffff) << 16 | (1 & 0x3ff) << 6 | 1 & 0x3f), buf, (unsigned int)4);
+        if(!(return_value_en50221_app_ca_message_3 == 0))
           return -5;
 
         else
@@ -19120,9 +19120,9 @@ static signed int hlci_send_data(void *arg, unsigned short int session_number, u
 {
   (void)session_number;
   struct en50221_stdcam_hlci *hlci = (struct en50221_stdcam_hlci *)arg;
-  signed int return_value_dvbca_hlci_write$1;
-  return_value_dvbca_hlci_write$1=dvbca_hlci_write(hlci->cafd, data, data_length);
-  return return_value_dvbca_hlci_write$1;
+  signed int return_value_dvbca_hlci_write_1;
+  return_value_dvbca_hlci_write_1=dvbca_hlci_write(hlci->cafd, data, data_length);
+  return return_value_dvbca_hlci_write_1;
 }
 
 // hlci_send_datav
@@ -19136,9 +19136,9 @@ static signed int hlci_send_datav(void *arg, unsigned short int session_number, 
   for( ; !(i >= iov_count); i = i + 1)
     data_size = data_size + (unsigned int)(vector + (signed long int)i)->iov_len;
   unsigned char *buf;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)data_size);
-  buf = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)data_size);
+  buf = (unsigned char *)return_value_malloc_1;
   if(buf == ((unsigned char *)NULL))
     return -1;
 
@@ -19163,7 +19163,7 @@ static signed int hlci_send_datav(void *arg, unsigned short int session_number, 
 static inline signed int huffbuff_bits(struct huffbuff *hbuf, unsigned char nbits)
 {
   unsigned char result = (unsigned char)0;
-  unsigned char tmp_post$1;
+  unsigned char tmp_post_1;
   if((signed int)nbits >= 9)
     return -1;
 
@@ -19171,9 +19171,9 @@ static inline signed int huffbuff_bits(struct huffbuff *hbuf, unsigned char nbit
   {
     do
     {
-      tmp_post$1 = nbits;
+      tmp_post_1 = nbits;
       nbits = nbits - 1;
-      if(tmp_post$1 == 0)
+      if(tmp_post_1 == 0)
         break;
 
       if(hbuf->cur_byte >= hbuf->buf_len)
@@ -19216,7 +19216,7 @@ static signed int huffman_decode(unsigned char *src, unsigned long int srclen, u
   unsigned char treeval;
   signed int tmp;
   huffbuff_init(&hbuf, src, (unsigned int)srclen);
-  signed int return_value_append_unicode_char$1;
+  signed int return_value_append_unicode_char_1;
   while(!(hbuf.cur_byte >= hbuf.buf_len))
   {
     bit=huffbuff_bits(&hbuf, (unsigned char)1);
@@ -19248,8 +19248,8 @@ static signed int huffman_decode(unsigned char *src, unsigned long int srclen, u
         }
         default:
         {
-          return_value_append_unicode_char$1=append_unicode_char(destbuf, destbuflen, destbufpos, (unsigned int)((signed int)treeval & ~0x80));
-          if(!(return_value_append_unicode_char$1 == 0))
+          return_value_append_unicode_char_1=append_unicode_char(destbuf, destbuflen, destbufpos, (unsigned int)((signed int)treeval & ~0x80));
+          if(!(return_value_append_unicode_char_1 == 0))
             return -1;
 
           tree = hufftree[(signed long int)((signed int)treeval & ~0x80)];
@@ -19268,7 +19268,7 @@ static signed int huffman_decode(unsigned char *src, unsigned long int srclen, u
 static signed int huffman_decode_uncompressed(struct huffbuff *hbuf, unsigned char **destbuf, unsigned long int *destbuflen, unsigned long int *destbufpos)
 {
   signed int c;
-  signed int return_value_append_unicode_char$1;
+  signed int return_value_append_unicode_char_1;
   while(!(hbuf->cur_byte >= hbuf->buf_len))
   {
     c=huffbuff_bits(hbuf, (unsigned char)8);
@@ -19283,8 +19283,8 @@ static signed int huffman_decode_uncompressed(struct huffbuff *hbuf, unsigned ch
         return 0x1b;
       default:
       {
-        return_value_append_unicode_char$1=append_unicode_char(destbuf, destbuflen, destbufpos, (unsigned int)c);
-        if(!(return_value_append_unicode_char$1 == 0))
+        return_value_append_unicode_char_1=append_unicode_char(destbuf, destbuflen, destbufpos, (unsigned int)c);
+        if(!(return_value_append_unicode_char_1 == 0))
           return -1;
 
         if((0x80 & c) == 0)
@@ -19325,9 +19325,9 @@ static void llci_cam_added(struct en50221_stdcam_llci *llci)
 // file en50221_stdcam_llci.c line 268
 static void llci_cam_in_reset(struct en50221_stdcam_llci *llci)
 {
-  signed int return_value_dvbca_get_cam_state$1;
-  return_value_dvbca_get_cam_state$1=dvbca_get_cam_state(llci->cafd, (unsigned char)llci->slotnum);
-  if(return_value_dvbca_get_cam_state$1 == 2)
+  signed int return_value_dvbca_get_cam_state_1;
+  return_value_dvbca_get_cam_state_1=dvbca_get_cam_state(llci->cafd, (unsigned char)llci->slotnum);
+  if(return_value_dvbca_get_cam_state_1 == 2)
   {
     llci->tl_slot_id=en50221_tl_register_slot(llci->tl, llci->cafd, (unsigned char)llci->slotnum, (unsigned int)1000, (unsigned int)100);
     if(!(llci->tl_slot_id >= 0))
@@ -19335,9 +19335,9 @@ static void llci_cam_in_reset(struct en50221_stdcam_llci *llci)
 
     else
     {
-      signed int return_value_en50221_tl_new_tc$2;
-      return_value_en50221_tl_new_tc$2=en50221_tl_new_tc(llci->tl, (unsigned char)llci->tl_slot_id);
-      if(!(return_value_en50221_tl_new_tc$2 >= 0))
+      signed int return_value_en50221_tl_new_tc_2;
+      return_value_en50221_tl_new_tc_2=en50221_tl_new_tc(llci->tl, (unsigned char)llci->tl_slot_id);
+      if(!(return_value_en50221_tl_new_tc_2 >= 0))
       {
         llci->state = EN50221_STDCAM_CAM_BAD;
         llci->tl_slot_id = -1;
@@ -19378,9 +19378,9 @@ static signed int llci_datetime_enquiry_callback(void *arg, unsigned char _slot_
   llci->datetime_next_send = (signed long int)0;
   if(!(response_interval == 0))
   {
-    signed long int return_value_time$1;
-    return_value_time$1=time((signed long int *)(void *)0);
-    llci->datetime_next_send = return_value_time$1 + (signed long int)response_interval;
+    signed long int return_value_time_1;
+    return_value_time_1=time((signed long int *)(void *)0);
+    llci->datetime_next_send = return_value_time_1 + (signed long int)response_interval;
   }
 
   en50221_app_datetime_send(llci->datetime_resource, session_number, llci->datetime_dvbtime, 0);
@@ -19394,9 +19394,9 @@ static signed int llci_lookup_callback(void *arg, unsigned char _slot_id, unsign
   struct en50221_app_public_resource_id resid;
   struct en50221_stdcam_llci *llci = (struct en50221_stdcam_llci *)arg;
   (void)_slot_id;
-  struct en50221_app_public_resource_id *return_value_en50221_app_decode_public_resource_id$1;
-  return_value_en50221_app_decode_public_resource_id$1=en50221_app_decode_public_resource_id(&resid, requested_resource_id);
-  if(return_value_en50221_app_decode_public_resource_id$1 == ((struct en50221_app_public_resource_id *)NULL))
+  struct en50221_app_public_resource_id *return_value_en50221_app_decode_public_resource_id_1;
+  return_value_en50221_app_decode_public_resource_id_1=en50221_app_decode_public_resource_id(&resid, requested_resource_id);
+  if(return_value_en50221_app_decode_public_resource_id_1 == ((struct en50221_app_public_resource_id *)NULL))
     return -1;
 
   else
@@ -19468,11 +19468,11 @@ static signed int llci_rm_changed_callback(void *arg, unsigned char _slot_id, un
 {
   struct en50221_stdcam_llci *llci = (struct en50221_stdcam_llci *)arg;
   (void)_slot_id;
-  signed int return_value_en50221_app_rm_enq$1;
-  return_value_en50221_app_rm_enq$1=en50221_app_rm_enq(llci->rm_resource, session_number);
-  if(!(return_value_en50221_app_rm_enq$1 == 0))
+  signed int return_value_en50221_app_rm_enq_1;
+  return_value_en50221_app_rm_enq_1=en50221_app_rm_enq(llci->rm_resource, session_number);
+  if(!(return_value_en50221_app_rm_enq_1 == 0))
     do
-      vprint$link12("%s: Failed to send RM CHANGED on slot %02x\n\n", (const void *)"llci_rm_changed_callback", _slot_id);
+      vprint_link12("%s: Failed to send RM CHANGED on slot %02x\n\n", (const void *)"llci_rm_changed_callback", _slot_id);
     while((_Bool)0);
 
   return 0;
@@ -19484,11 +19484,11 @@ static signed int llci_rm_enq_callback(void *arg, unsigned char _slot_id, unsign
 {
   struct en50221_stdcam_llci *llci = (struct en50221_stdcam_llci *)arg;
   (void)_slot_id;
-  signed int return_value_en50221_app_rm_reply$1;
-  return_value_en50221_app_rm_reply$1=en50221_app_rm_reply(llci->rm_resource, session_number, (unsigned int)(sizeof(unsigned int [5l]) /*20ul*/  / (unsigned long int)4), resource_ids);
-  if(!(return_value_en50221_app_rm_reply$1 == 0))
+  signed int return_value_en50221_app_rm_reply_1;
+  return_value_en50221_app_rm_reply_1=en50221_app_rm_reply(llci->rm_resource, session_number, (unsigned int)(sizeof(unsigned int [5l]) /*20ul*/  / (unsigned long int)4), resource_ids);
+  if(!(return_value_en50221_app_rm_reply_1 == 0))
     do
-      vprint$link12("%s: Failed to send RM ENQ on slot %02x\n\n", (const void *)"llci_rm_enq_callback", _slot_id);
+      vprint_link12("%s: Failed to send RM ENQ on slot %02x\n\n", (const void *)"llci_rm_enq_callback", _slot_id);
     while((_Bool)0);
 
   return 0;
@@ -19502,11 +19502,11 @@ static signed int llci_rm_reply_callback(void *arg, unsigned char _slot_id, unsi
   (void)_slot_id;
   (void)resource_id_count;
   (void)_resource_ids;
-  signed int return_value_en50221_app_rm_changed$1;
-  return_value_en50221_app_rm_changed$1=en50221_app_rm_changed(llci->rm_resource, session_number);
-  if(!(return_value_en50221_app_rm_changed$1 == 0))
+  signed int return_value_en50221_app_rm_changed_1;
+  return_value_en50221_app_rm_changed_1=en50221_app_rm_changed(llci->rm_resource, session_number);
+  if(!(return_value_en50221_app_rm_changed_1 == 0))
     do
-      vprint$link12("%s: Failed to send RM REPLY on slot %02x\n\n", (const void *)"llci_rm_reply_callback", _slot_id);
+      vprint_link12("%s: Failed to send RM REPLY on slot %02x\n\n", (const void *)"llci_rm_reply_callback", _slot_id);
     while((_Bool)0);
 
   return 0;
@@ -19605,36 +19605,36 @@ signed int main(signed int argc, char **argv)
   char *secfile = (char *)(void *)0;
   char *secid = (char *)(void *)0;
   char *channel_name = (char *)(void *)0;
-  signed int main$$1$$moveca = 1;
+  signed int main__1__moveca = 1;
   signed int argpos = 1;
   struct zap_dvb_params zap_dvb_params;
   struct zap_ca_params zap_ca_params;
-  signed int return_value_strcmp$12;
-  signed int return_value_strcmp$11;
-  signed int return_value_strcmp$10;
-  signed int return_value_strcmp$9;
-  signed int return_value_strcmp$8;
-  signed int return_value_strcmp$7;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
+  signed int return_value_strcmp_12;
+  signed int return_value_strcmp_11;
+  signed int return_value_strcmp_10;
+  signed int return_value_strcmp_9;
+  signed int return_value_strcmp_8;
+  signed int return_value_strcmp_7;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
   while(!(argpos == argc))
   {
-    signed int return_value_strcmp$13;
-    return_value_strcmp$13=strcmp(argv[(signed long int)argpos], "-h");
-    if(return_value_strcmp$13 == 0)
+    signed int return_value_strcmp_13;
+    return_value_strcmp_13=strcmp(argv[(signed long int)argpos], "-h");
+    if(return_value_strcmp_13 == 0)
       usage();
 
     else
     {
-      return_value_strcmp$12=strcmp(argv[(signed long int)argpos], "-adapter");
-      if(return_value_strcmp$12 == 0)
+      return_value_strcmp_12=strcmp(argv[(signed long int)argpos], "-adapter");
+      if(return_value_strcmp_12 == 0)
       {
         if(!(argc + -argpos >= 2))
           usage();
 
-        signed int return_value___isoc99_sscanf$1;
-        return_value___isoc99_sscanf$1=__isoc99_sscanf(argv[(signed long int)(argpos + 1)], "%i", &adapter_id);
-        if(!(return_value___isoc99_sscanf$1 == 1))
+        signed int return_value___isoc99_sscanf_1;
+        return_value___isoc99_sscanf_1=__isoc99_sscanf(argv[(signed long int)(argpos + 1)], "%i", &adapter_id);
+        if(!(return_value___isoc99_sscanf_1 == 1))
           usage();
 
         argpos = argpos + 2;
@@ -19642,15 +19642,15 @@ signed int main(signed int argc, char **argv)
 
       else
       {
-        return_value_strcmp$11=strcmp(argv[(signed long int)argpos], "-frontend");
-        if(return_value_strcmp$11 == 0)
+        return_value_strcmp_11=strcmp(argv[(signed long int)argpos], "-frontend");
+        if(return_value_strcmp_11 == 0)
         {
           if(!(argc + -argpos >= 2))
             usage();
 
-          signed int return_value___isoc99_sscanf$2;
-          return_value___isoc99_sscanf$2=__isoc99_sscanf(argv[(signed long int)(argpos + 1)], "%i", &frontend_id);
-          if(!(return_value___isoc99_sscanf$2 == 1))
+          signed int return_value___isoc99_sscanf_2;
+          return_value___isoc99_sscanf_2=__isoc99_sscanf(argv[(signed long int)(argpos + 1)], "%i", &frontend_id);
+          if(!(return_value___isoc99_sscanf_2 == 1))
             usage();
 
           argpos = argpos + 2;
@@ -19658,15 +19658,15 @@ signed int main(signed int argc, char **argv)
 
         else
         {
-          return_value_strcmp$10=strcmp(argv[(signed long int)argpos], "-demux");
-          if(return_value_strcmp$10 == 0)
+          return_value_strcmp_10=strcmp(argv[(signed long int)argpos], "-demux");
+          if(return_value_strcmp_10 == 0)
           {
             if(!(argc + -argpos >= 2))
               usage();
 
-            signed int return_value___isoc99_sscanf$3;
-            return_value___isoc99_sscanf$3=__isoc99_sscanf(argv[(signed long int)(argpos + 1)], "%i", &demux_id);
-            if(!(return_value___isoc99_sscanf$3 == 1))
+            signed int return_value___isoc99_sscanf_3;
+            return_value___isoc99_sscanf_3=__isoc99_sscanf(argv[(signed long int)(argpos + 1)], "%i", &demux_id);
+            if(!(return_value___isoc99_sscanf_3 == 1))
               usage();
 
             argpos = argpos + 2;
@@ -19674,15 +19674,15 @@ signed int main(signed int argc, char **argv)
 
           else
           {
-            return_value_strcmp$9=strcmp(argv[(signed long int)argpos], "-caslotnum");
-            if(return_value_strcmp$9 == 0)
+            return_value_strcmp_9=strcmp(argv[(signed long int)argpos], "-caslotnum");
+            if(return_value_strcmp_9 == 0)
             {
               if(!(argc + -argpos >= 2))
                 usage();
 
-              signed int return_value___isoc99_sscanf$4;
-              return_value___isoc99_sscanf$4=__isoc99_sscanf(argv[(signed long int)(argpos + 1)], "%i", &caslot_num);
-              if(!(return_value___isoc99_sscanf$4 == 1))
+              signed int return_value___isoc99_sscanf_4;
+              return_value___isoc99_sscanf_4=__isoc99_sscanf(argv[(signed long int)(argpos + 1)], "%i", &caslot_num);
+              if(!(return_value___isoc99_sscanf_4 == 1))
                 usage();
 
               argpos = argpos + 2;
@@ -19690,8 +19690,8 @@ signed int main(signed int argc, char **argv)
 
             else
             {
-              return_value_strcmp$8=strcmp(argv[(signed long int)argpos], "-channels");
-              if(return_value_strcmp$8 == 0)
+              return_value_strcmp_8=strcmp(argv[(signed long int)argpos], "-channels");
+              if(return_value_strcmp_8 == 0)
               {
                 if(!(argc + -argpos >= 2))
                   usage();
@@ -19702,8 +19702,8 @@ signed int main(signed int argc, char **argv)
 
               else
               {
-                return_value_strcmp$7=strcmp(argv[(signed long int)argpos], "-secfile");
-                if(return_value_strcmp$7 == 0)
+                return_value_strcmp_7=strcmp(argv[(signed long int)argpos], "-secfile");
+                if(return_value_strcmp_7 == 0)
                 {
                   if(!(argc + -argpos >= 2))
                     usage();
@@ -19714,8 +19714,8 @@ signed int main(signed int argc, char **argv)
 
                 else
                 {
-                  return_value_strcmp$6=strcmp(argv[(signed long int)argpos], "-secid");
-                  if(return_value_strcmp$6 == 0)
+                  return_value_strcmp_6=strcmp(argv[(signed long int)argpos], "-secid");
+                  if(return_value_strcmp_6 == 0)
                   {
                     if(!(argc + -argpos >= 2))
                       usage();
@@ -19726,10 +19726,10 @@ signed int main(signed int argc, char **argv)
 
                   else
                   {
-                    return_value_strcmp$5=strcmp(argv[(signed long int)argpos], "-nomoveca");
-                    if(return_value_strcmp$5 == 0)
+                    return_value_strcmp_5=strcmp(argv[(signed long int)argpos], "-nomoveca");
+                    if(return_value_strcmp_5 == 0)
                     {
-                      main$$1$$moveca = 0;
+                      main__1__moveca = 0;
                       argpos = argpos + 1;
                     }
 
@@ -19757,11 +19757,11 @@ signed int main(signed int argc, char **argv)
   signal(13, (void (*)(signed int))1);
   zap_ca_params.adapter_id = adapter_id;
   zap_ca_params.caslot_num = caslot_num;
-  zap_ca_params.moveca = main$$1$$moveca;
+  zap_ca_params.moveca = main__1__moveca;
   zap_ca_start(&zap_ca_params);
-  unsigned long int return_value_strlen$14;
-  return_value_strlen$14=strlen(channel_name);
-  if(return_value_strlen$14 >= sizeof(char [128l]) /*128ul*/ )
+  unsigned long int return_value_strlen_14;
+  return_value_strlen_14=strlen(channel_name);
+  if(return_value_strlen_14 >= sizeof(char [128l]) /*128ul*/ )
   {
     fprintf(stderr, "Channel name is too long %s\n", channel_name);
     exit(1);
@@ -19775,12 +19775,12 @@ signed int main(signed int argc, char **argv)
     exit(1);
   }
 
-  unsigned long int return_value_strlen$15;
-  return_value_strlen$15=strlen(channel_name);
-  memcpy((void *)zap_dvb_params.channel.name, (const void *)channel_name, return_value_strlen$15 + (unsigned long int)1);
-  signed int return_value_dvbcfg_zapchannel_parse$16;
-  return_value_dvbcfg_zapchannel_parse$16=dvbcfg_zapchannel_parse(channel_file, find_channel, (void *)&zap_dvb_params.channel);
-  if(!(return_value_dvbcfg_zapchannel_parse$16 == 1))
+  unsigned long int return_value_strlen_15;
+  return_value_strlen_15=strlen(channel_name);
+  memcpy((void *)zap_dvb_params.channel.name, (const void *)channel_name, return_value_strlen_15 + (unsigned long int)1);
+  signed int return_value_dvbcfg_zapchannel_parse_16;
+  return_value_dvbcfg_zapchannel_parse_16=dvbcfg_zapchannel_parse(channel_file, find_channel, (void *)&zap_dvb_params.channel);
+  if(!(return_value_dvbcfg_zapchannel_parse_16 == 1))
   {
     fprintf(stderr, "Unable to find requested channel %s\n", channel_name);
     exit(1);
@@ -19793,9 +19793,9 @@ signed int main(signed int argc, char **argv)
   zap_dvb_params.valid_sec = 0;
   if(!(secid == ((char *)NULL)))
   {
-    signed int return_value_dvbsec_cfg_find$17;
-    return_value_dvbsec_cfg_find$17=dvbsec_cfg_find(secfile, secid, &zap_dvb_params.sec);
-    if(!(return_value_dvbsec_cfg_find$17 == 0))
+    signed int return_value_dvbsec_cfg_find_17;
+    return_value_dvbsec_cfg_find_17=dvbsec_cfg_find(secfile, secid, &zap_dvb_params.sec);
+    if(!(return_value_dvbsec_cfg_find_17 == 0))
     {
       fprintf(stderr, "Unable to find suitable sec/lnb configuration for channel\n");
       exit(1);
@@ -19830,11 +19830,11 @@ extern struct mpeg_cat_section * mpeg_cat_section_codec(struct section_ext *ext)
 {
   unsigned char *buf = (unsigned char *)ext;
   unsigned long int pos = sizeof(struct section_ext) /*8ul*/ ;
-  unsigned long int return_value_section_ext_length$1;
-  return_value_section_ext_length$1=section_ext_length$link18(ext);
-  signed int return_value_verify_descriptors$2;
-  return_value_verify_descriptors$2=verify_descriptors$link15(buf + (signed long int)pos, return_value_section_ext_length$1 - sizeof(struct mpeg_cat_section) /*8ul*/ );
-  if(!(return_value_verify_descriptors$2 == 0))
+  unsigned long int return_value_section_ext_length_1;
+  return_value_section_ext_length_1=section_ext_length_link18(ext);
+  signed int return_value_verify_descriptors_2;
+  return_value_verify_descriptors_2=verify_descriptors_link15(buf + (signed long int)pos, return_value_section_ext_length_1 - sizeof(struct mpeg_cat_section) /*8ul*/ );
+  if(!(return_value_verify_descriptors_2 == 0))
     return (struct mpeg_cat_section *)(void *)0;
 
   else
@@ -19856,7 +19856,7 @@ extern struct mpeg_odsmt_section * mpeg_odsmt_section_codec(struct section_ext *
   unsigned char *buf = (unsigned char *)ext;
   unsigned long int pos = sizeof(struct section_ext) /*8ul*/ ;
   unsigned long int len;
-  len=section_ext_length$link19(ext);
+  len=section_ext_length_link19(ext);
   signed int i;
   if(!(len >= sizeof(struct mpeg_odsmt_section) /*9ul*/ ))
     return (struct mpeg_odsmt_section *)(void *)0;
@@ -19870,14 +19870,14 @@ extern struct mpeg_odsmt_section * mpeg_odsmt_section_codec(struct section_ext *
       if(!(len >= sizeof(struct mpeg_odsmt_stream_single) /*3ul*/  + pos))
         return (struct mpeg_odsmt_section *)(void *)0;
 
-      bswap16$link17(buf + (signed long int)pos);
+      bswap16_link17(buf + (signed long int)pos);
       pos = pos + (unsigned long int)3;
       if(pos + (unsigned long int)stream->u.single.es_info_length >= len)
         return (struct mpeg_odsmt_section *)(void *)0;
 
-      signed int return_value_verify_descriptors$1;
-      return_value_verify_descriptors$1=verify_descriptors$link16(buf + (signed long int)pos, (unsigned long int)stream->u.single.es_info_length);
-      if(!(return_value_verify_descriptors$1 == 0))
+      signed int return_value_verify_descriptors_1;
+      return_value_verify_descriptors_1=verify_descriptors_link16(buf + (signed long int)pos, (unsigned long int)stream->u.single.es_info_length);
+      if(!(return_value_verify_descriptors_1 == 0))
         return (struct mpeg_odsmt_section *)(void *)0;
 
       pos = pos + (unsigned long int)stream->u.single.es_info_length;
@@ -19888,21 +19888,21 @@ extern struct mpeg_odsmt_section * mpeg_odsmt_section_codec(struct section_ext *
       i = 0;
       for( ; !(i >= (signed int)odsmt->stream_count); i = i + 1)
       {
-        struct mpeg_odsmt_stream *mpeg_odsmt_section_codec$$1$$2$$1$$1$$stream = (struct mpeg_odsmt_stream *)(buf + (signed long int)pos);
+        struct mpeg_odsmt_stream *mpeg_odsmt_section_codec__1__2__1__1__stream = (struct mpeg_odsmt_stream *)(buf + (signed long int)pos);
         if(!(len >= sizeof(struct mpeg_odsmt_stream_multi) /*4ul*/  + pos))
           return (struct mpeg_odsmt_section *)(void *)0;
 
-        bswap16$link17(buf + (signed long int)pos);
+        bswap16_link17(buf + (signed long int)pos);
         pos = pos + sizeof(struct mpeg_odsmt_stream_multi) /*4ul*/ ;
-        if(!(len >= pos + (unsigned long int)mpeg_odsmt_section_codec$$1$$2$$1$$1$$stream->u.multi.es_info_length))
+        if(!(len >= pos + (unsigned long int)mpeg_odsmt_section_codec__1__2__1__1__stream->u.multi.es_info_length))
           return (struct mpeg_odsmt_section *)(void *)0;
 
-        signed int return_value_verify_descriptors$2;
-        return_value_verify_descriptors$2=verify_descriptors$link16(buf + (signed long int)pos, (unsigned long int)mpeg_odsmt_section_codec$$1$$2$$1$$1$$stream->u.multi.es_info_length);
-        if(!(return_value_verify_descriptors$2 == 0))
+        signed int return_value_verify_descriptors_2;
+        return_value_verify_descriptors_2=verify_descriptors_link16(buf + (signed long int)pos, (unsigned long int)mpeg_odsmt_section_codec__1__2__1__1__stream->u.multi.es_info_length);
+        if(!(return_value_verify_descriptors_2 == 0))
           return (struct mpeg_odsmt_section *)(void *)0;
 
-        pos = pos + (unsigned long int)mpeg_odsmt_section_codec$$1$$2$$1$$1$$stream->u.multi.es_info_length;
+        pos = pos + (unsigned long int)mpeg_odsmt_section_codec__1__2__1__1__stream->u.multi.es_info_length;
       }
     }
     if(!(pos == len))
@@ -19920,7 +19920,7 @@ extern struct mpeg_pat_section * mpeg_pat_section_codec(struct section_ext *ext)
   unsigned char *buf = (unsigned char *)ext;
   unsigned long int pos = sizeof(struct section_ext) /*8ul*/ ;
   unsigned long int len;
-  len=section_ext_length$link20(ext);
+  len=section_ext_length_link20(ext);
   if(!(len >= sizeof(struct mpeg_pat_section) /*8ul*/ ))
     return (struct mpeg_pat_section *)(void *)0;
 
@@ -19931,8 +19931,8 @@ extern struct mpeg_pat_section * mpeg_pat_section_codec(struct section_ext *ext)
       if(!(len >= 4ul + pos))
         return (struct mpeg_pat_section *)(void *)0;
 
-      bswap16$link18(buf + (signed long int)pos);
-      bswap16$link18(buf + (signed long int)pos + (signed long int)2);
+      bswap16_link18(buf + (signed long int)pos);
+      bswap16_link18(buf + (signed long int)pos + (signed long int)2);
     }
     if(!(pos == len))
       return (struct mpeg_pat_section *)(void *)0;
@@ -19947,9 +19947,9 @@ extern struct mpeg_pat_section * mpeg_pat_section_codec(struct section_ext *ext)
 static inline struct mpeg_pat_program * mpeg_pat_section_programs_first(struct mpeg_pat_section *pat)
 {
   unsigned long int pos = sizeof(struct mpeg_pat_section) /*8ul*/ ;
-  unsigned long int return_value_section_ext_length$1;
-  return_value_section_ext_length$1=section_ext_length(&pat->head);
-  if(pos >= return_value_section_ext_length$1)
+  unsigned long int return_value_section_ext_length_1;
+  return_value_section_ext_length_1=section_ext_length(&pat->head);
+  if(pos >= return_value_section_ext_length_1)
     return (struct mpeg_pat_program *)(void *)0;
 
   else
@@ -19961,9 +19961,9 @@ static inline struct mpeg_pat_program * mpeg_pat_section_programs_first(struct m
 static inline struct mpeg_pat_program * mpeg_pat_section_programs_next(struct mpeg_pat_section *pat, struct mpeg_pat_program *pos)
 {
   unsigned char *end;
-  unsigned long int return_value_section_ext_length$1;
-  return_value_section_ext_length$1=section_ext_length(&pat->head);
-  end = (unsigned char *)pat + (signed long int)return_value_section_ext_length$1;
+  unsigned long int return_value_section_ext_length_1;
+  return_value_section_ext_length_1=section_ext_length(&pat->head);
+  end = (unsigned char *)pat + (signed long int)return_value_section_ext_length_1;
   unsigned char *next = (unsigned char *)pos + (signed long int)sizeof(struct mpeg_pat_program) /*4ul*/ ;
   if(next >= end)
     return (struct mpeg_pat_program *)(void *)0;
@@ -19980,24 +19980,24 @@ extern struct mpeg_pmt_section * mpeg_pmt_section_codec(struct section_ext *ext)
   struct mpeg_pmt_section *pmt = (struct mpeg_pmt_section *)ext;
   unsigned long int pos = sizeof(struct section_ext) /*8ul*/ ;
   unsigned long int len;
-  len=section_ext_length$link21(ext);
+  len=section_ext_length_link21(ext);
   if(!(len >= sizeof(struct mpeg_pmt_section) /*12ul*/ ))
     return (struct mpeg_pmt_section *)(void *)0;
 
   else
   {
-    bswap16$link19(buf + (signed long int)pos);
+    bswap16_link19(buf + (signed long int)pos);
     pos = pos + (unsigned long int)2;
-    bswap16$link19(buf + (signed long int)pos);
+    bswap16_link19(buf + (signed long int)pos);
     pos = pos + (unsigned long int)2;
     if(!(len >= pos + (unsigned long int)pmt->program_info_length))
       return (struct mpeg_pmt_section *)(void *)0;
 
     else
     {
-      signed int return_value_verify_descriptors$1;
-      return_value_verify_descriptors$1=verify_descriptors$link17(buf + (signed long int)pos, (unsigned long int)pmt->program_info_length);
-      if(!(return_value_verify_descriptors$1 == 0))
+      signed int return_value_verify_descriptors_1;
+      return_value_verify_descriptors_1=verify_descriptors_link17(buf + (signed long int)pos, (unsigned long int)pmt->program_info_length);
+      if(!(return_value_verify_descriptors_1 == 0))
         return (struct mpeg_pmt_section *)(void *)0;
 
       else
@@ -20009,15 +20009,15 @@ extern struct mpeg_pmt_section * mpeg_pmt_section_codec(struct section_ext *ext)
           if(!(len >= sizeof(struct mpeg_pmt_stream) /*5ul*/  + pos))
             return (struct mpeg_pmt_section *)(void *)0;
 
-          bswap16$link19(buf + (signed long int)pos + (signed long int)1);
-          bswap16$link19(buf + (signed long int)pos + (signed long int)3);
+          bswap16_link19(buf + (signed long int)pos + (signed long int)1);
+          bswap16_link19(buf + (signed long int)pos + (signed long int)3);
           pos = pos + sizeof(struct mpeg_pmt_stream) /*5ul*/ ;
           if(!(len >= pos + (unsigned long int)stream->es_info_length))
             return (struct mpeg_pmt_section *)(void *)0;
 
-          signed int return_value_verify_descriptors$2;
-          return_value_verify_descriptors$2=verify_descriptors$link17(buf + (signed long int)pos, (unsigned long int)stream->es_info_length);
-          if(!(return_value_verify_descriptors$2 == 0))
+          signed int return_value_verify_descriptors_2;
+          return_value_verify_descriptors_2=verify_descriptors_link17(buf + (signed long int)pos, (unsigned long int)stream->es_info_length);
+          if(!(return_value_verify_descriptors_2 == 0))
             return (struct mpeg_pmt_section *)(void *)0;
 
           pos = pos + (unsigned long int)stream->es_info_length;
@@ -20047,9 +20047,9 @@ static inline struct descriptor * mpeg_pmt_section_descriptors_first(struct mpeg
 // file ../../lib/libucsi/mpeg/pmt_section.h line 132
 static inline struct descriptor * mpeg_pmt_section_descriptors_next(struct mpeg_pmt_section *pmt, struct descriptor *pos)
 {
-  struct descriptor *return_value_next_descriptor$1;
-  return_value_next_descriptor$1=next_descriptor((unsigned char *)pmt + (signed long int)sizeof(struct mpeg_pmt_section) /*12ul*/ , (unsigned long int)pmt->program_info_length, pos);
-  return return_value_next_descriptor$1;
+  struct descriptor *return_value_next_descriptor_1;
+  return_value_next_descriptor_1=next_descriptor((unsigned char *)pmt + (signed long int)sizeof(struct mpeg_pmt_section) /*12ul*/ , (unsigned long int)pmt->program_info_length, pos);
+  return return_value_next_descriptor_1;
 }
 
 // mpeg_pmt_section_program_number
@@ -20064,9 +20064,9 @@ static inline unsigned short int mpeg_pmt_section_program_number(struct mpeg_pmt
 static inline struct mpeg_pmt_stream * mpeg_pmt_section_streams_first(struct mpeg_pmt_section *pmt)
 {
   unsigned long int pos = sizeof(struct mpeg_pmt_section) /*12ul*/  + (unsigned long int)pmt->program_info_length;
-  unsigned long int return_value_section_ext_length$1;
-  return_value_section_ext_length$1=section_ext_length$link1(&pmt->head);
-  if(pos >= return_value_section_ext_length$1)
+  unsigned long int return_value_section_ext_length_1;
+  return_value_section_ext_length_1=section_ext_length_link1(&pmt->head);
+  if(pos >= return_value_section_ext_length_1)
     return (struct mpeg_pmt_stream *)(void *)0;
 
   else
@@ -20078,9 +20078,9 @@ static inline struct mpeg_pmt_stream * mpeg_pmt_section_streams_first(struct mpe
 static inline struct mpeg_pmt_stream * mpeg_pmt_section_streams_next(struct mpeg_pmt_section *pmt, struct mpeg_pmt_stream *pos)
 {
   unsigned char *end;
-  unsigned long int return_value_section_ext_length$1;
-  return_value_section_ext_length$1=section_ext_length$link1(&pmt->head);
-  end = (unsigned char *)pmt + (signed long int)return_value_section_ext_length$1;
+  unsigned long int return_value_section_ext_length_1;
+  return_value_section_ext_length_1=section_ext_length_link1(&pmt->head);
+  end = (unsigned char *)pmt + (signed long int)return_value_section_ext_length_1;
   unsigned char *next = (unsigned char *)pos + (signed long int)sizeof(struct mpeg_pmt_stream) /*5ul*/  + (signed long int)pos->es_info_length;
   if(next >= end)
     return (struct mpeg_pmt_stream *)(void *)0;
@@ -20104,9 +20104,9 @@ static inline struct descriptor * mpeg_pmt_stream_descriptors_first(struct mpeg_
 // file ../../lib/libucsi/mpeg/pmt_section.h line 176
 static inline struct descriptor * mpeg_pmt_stream_descriptors_next(struct mpeg_pmt_stream *stream, struct descriptor *pos)
 {
-  struct descriptor *return_value_next_descriptor$1;
-  return_value_next_descriptor$1=next_descriptor((unsigned char *)stream + (signed long int)sizeof(struct mpeg_pmt_stream) /*5ul*/ , (unsigned long int)stream->es_info_length, pos);
-  return return_value_next_descriptor$1;
+  struct descriptor *return_value_next_descriptor_1;
+  return_value_next_descriptor_1=next_descriptor((unsigned char *)stream + (signed long int)sizeof(struct mpeg_pmt_stream) /*5ul*/ , (unsigned long int)stream->es_info_length, pos);
+  return return_value_next_descriptor_1;
 }
 
 // mpeg_tsdt_section_codec
@@ -20115,11 +20115,11 @@ extern struct mpeg_tsdt_section * mpeg_tsdt_section_codec(struct section_ext *ex
 {
   unsigned char *buf = (unsigned char *)ext;
   unsigned long int pos = sizeof(struct section_ext) /*8ul*/ ;
-  unsigned long int return_value_section_ext_length$1;
-  return_value_section_ext_length$1=section_ext_length$link22(ext);
-  signed int return_value_verify_descriptors$2;
-  return_value_verify_descriptors$2=verify_descriptors$link18(buf + (signed long int)pos, return_value_section_ext_length$1 - sizeof(struct mpeg_tsdt_section) /*8ul*/ );
-  if(!(return_value_verify_descriptors$2 == 0))
+  unsigned long int return_value_section_ext_length_1;
+  return_value_section_ext_length_1=section_ext_length_link22(ext);
+  signed int return_value_verify_descriptors_2;
+  return_value_verify_descriptors_2=verify_descriptors_link18(buf + (signed long int)pos, return_value_section_ext_length_1 - sizeof(struct mpeg_tsdt_section) /*8ul*/ );
+  if(!(return_value_verify_descriptors_2 == 0))
     return (struct mpeg_tsdt_section *)(void *)0;
 
   else
@@ -20149,9 +20149,9 @@ static inline struct descriptor * next_descriptor(unsigned char *buf, unsigned l
 // file dvbsec_api.c line 679
 static enum dvbsec_diseqc_switch parse_switch(signed int c)
 {
-  signed int return_value_toupper$1;
-  return_value_toupper$1=toupper(c);
-  switch(return_value_toupper$1)
+  signed int return_value_toupper_1;
+  return_value_toupper_1=toupper(c);
+  switch(return_value_toupper_1)
   {
     case 65:
       return (enum dvbsec_diseqc_switch)DISEQC_SWITCH_A;
@@ -20168,16 +20168,16 @@ static signed int parsechararg(char **args, char *argsend, signed int *result)
 {
   char *arg;
   signed int arglen;
-  signed int return_value_skipwhite$1;
-  return_value_skipwhite$1=skipwhite(args, argsend);
-  if(!(return_value_skipwhite$1 == 0))
+  signed int return_value_skipwhite_1;
+  return_value_skipwhite_1=skipwhite(args, argsend);
+  if(!(return_value_skipwhite_1 == 0))
     return -1;
 
   else
   {
-    signed int return_value_getstringupto$2;
-    return_value_getstringupto$2=getstringupto(args, argsend, ",", &arg, &arglen);
-    if(!(return_value_getstringupto$2 == 0))
+    signed int return_value_getstringupto_2;
+    return_value_getstringupto_2=getstringupto(args, argsend, ",", &arg, &arglen);
+    if(!(return_value_getstringupto_2 == 0))
       return -1;
 
     else
@@ -20200,16 +20200,16 @@ static signed int parsefloatarg(char **args, char *argsend, float *result)
   char tmp[32l];
   char *arg;
   signed int arglen;
-  signed int return_value_skipwhite$1;
-  return_value_skipwhite$1=skipwhite(args, argsend);
-  if(!(return_value_skipwhite$1 == 0))
+  signed int return_value_skipwhite_1;
+  return_value_skipwhite_1=skipwhite(args, argsend);
+  if(!(return_value_skipwhite_1 == 0))
     return -1;
 
   else
   {
-    signed int return_value_getstringupto$2;
-    return_value_getstringupto$2=getstringupto(args, argsend, ",", &arg, &arglen);
-    if(!(return_value_getstringupto$2 == 0))
+    signed int return_value_getstringupto_2;
+    return_value_getstringupto_2=getstringupto(args, argsend, ",", &arg, &arglen);
+    if(!(return_value_getstringupto_2 == 0))
       return -1;
 
     else
@@ -20222,9 +20222,9 @@ static signed int parsefloatarg(char **args, char *argsend, float *result)
 
       strncpy(tmp, arg, (unsigned long int)arglen);
       arg[(signed long int)arglen] = (char)0;
-      signed int return_value___isoc99_sscanf$3;
-      return_value___isoc99_sscanf$3=__isoc99_sscanf(tmp, "%f", result);
-      if(!(return_value___isoc99_sscanf$3 == 1))
+      signed int return_value___isoc99_sscanf_3;
+      return_value___isoc99_sscanf_3=__isoc99_sscanf(tmp, "%f", result);
+      if(!(return_value___isoc99_sscanf_3 == 1))
         return -1;
 
       else
@@ -20237,16 +20237,16 @@ static signed int parsefloatarg(char **args, char *argsend, float *result)
 // file dvbsec_api.c line 586
 static signed int parsefunction(char **line, char **nameptr, signed int *namelen, char **argsptr, signed int *argslen)
 {
-  signed int return_value_skipwhite$1;
-  return_value_skipwhite$1=skipwhite(line, (char *)(void *)0);
-  if(!(return_value_skipwhite$1 == 0))
+  signed int return_value_skipwhite_1;
+  return_value_skipwhite_1=skipwhite(line, (char *)(void *)0);
+  if(!(return_value_skipwhite_1 == 0))
     return -1;
 
   else
   {
-    signed int return_value_getstringupto$2;
-    return_value_getstringupto$2=getstringupto(line, (char *)(void *)0, "(", nameptr, namelen);
-    if(!(return_value_getstringupto$2 == 0))
+    signed int return_value_getstringupto_2;
+    return_value_getstringupto_2=getstringupto(line, (char *)(void *)0, "(", nameptr, namelen);
+    if(!(return_value_getstringupto_2 == 0))
       return -1;
 
     else
@@ -20256,9 +20256,9 @@ static signed int parsefunction(char **line, char **nameptr, signed int *namelen
       else
       {
         *line = *line + 1l;
-        signed int return_value_getstringupto$3;
-        return_value_getstringupto$3=getstringupto(line, (char *)(void *)0, ")", argsptr, argslen);
-        if(!(return_value_getstringupto$3 == 0))
+        signed int return_value_getstringupto_3;
+        return_value_getstringupto_3=getstringupto(line, (char *)(void *)0, ")", argsptr, argslen);
+        if(!(return_value_getstringupto_3 == 0))
           return -1;
 
         else
@@ -20281,16 +20281,16 @@ static signed int parseintarg(char **args, char *argsend, signed int *result)
   char tmp[32l];
   char *arg;
   signed int arglen;
-  signed int return_value_skipwhite$1;
-  return_value_skipwhite$1=skipwhite(args, argsend);
-  if(!(return_value_skipwhite$1 == 0))
+  signed int return_value_skipwhite_1;
+  return_value_skipwhite_1=skipwhite(args, argsend);
+  if(!(return_value_skipwhite_1 == 0))
     return -1;
 
   else
   {
-    signed int return_value_getstringupto$2;
-    return_value_getstringupto$2=getstringupto(args, argsend, ",", &arg, &arglen);
-    if(!(return_value_getstringupto$2 == 0))
+    signed int return_value_getstringupto_2;
+    return_value_getstringupto_2=getstringupto(args, argsend, ",", &arg, &arglen);
+    if(!(return_value_getstringupto_2 == 0))
       return -1;
 
     else
@@ -20303,9 +20303,9 @@ static signed int parseintarg(char **args, char *argsend, signed int *result)
 
       strncpy(tmp, arg, (unsigned long int)arglen);
       tmp[(signed long int)arglen] = (char)0;
-      signed int return_value___isoc99_sscanf$3;
-      return_value___isoc99_sscanf$3=__isoc99_sscanf(tmp, "%i", result);
-      if(!(return_value___isoc99_sscanf$3 == 1))
+      signed int return_value___isoc99_sscanf_3;
+      return_value___isoc99_sscanf_3=__isoc99_sscanf(tmp, "%i", result);
+      if(!(return_value___isoc99_sscanf_3 == 1))
         return -1;
 
       else
@@ -20320,9 +20320,9 @@ static void process_pat(signed int pat_fd, struct zap_dvb_params *params, signed
 {
   signed int size;
   unsigned char sibuf[4096l];
-  signed long int return_value_read$1;
-  return_value_read$1=read(pat_fd, (void *)sibuf, sizeof(unsigned char [4096l]) /*4096ul*/ );
-  size = (signed int)return_value_read$1;
+  signed long int return_value_read_1;
+  return_value_read_1=read(pat_fd, (void *)sibuf, sizeof(unsigned char [4096l]) /*4096ul*/ );
+  size = (signed int)return_value_read_1;
   if(size >= 0)
   {
     struct section *section;
@@ -20382,9 +20382,9 @@ static void process_pmt(signed int pmt_fd, struct zap_dvb_params *params)
 {
   signed int size;
   unsigned char sibuf[4096l];
-  signed long int return_value_read$1;
-  return_value_read$1=read(pmt_fd, (void *)sibuf, sizeof(unsigned char [4096l]) /*4096ul*/ );
-  size = (signed int)return_value_read$1;
+  signed long int return_value_read_1;
+  return_value_read_1=read(pmt_fd, (void *)sibuf, sizeof(unsigned char [4096l]) /*4096ul*/ );
+  size = (signed int)return_value_read_1;
   if(size >= 0)
   {
     struct section *section;
@@ -20395,21 +20395,21 @@ static void process_pmt(signed int pmt_fd, struct zap_dvb_params *params)
       section_ext=section_ext_decode(section, 0);
       if(!(section_ext == ((struct section_ext *)NULL)))
       {
-        _Bool tmp_if_expr$2;
+        _Bool tmp_if_expr_2;
         if(!((signed int)section_ext->table_id_ext == params->channel.service_id))
-          tmp_if_expr$2 = (_Bool)1;
+          tmp_if_expr_2 = (_Bool)1;
 
         else
-          tmp_if_expr$2 = (signed int)section_ext->version_number == ca_pmt_version ? (_Bool)1 : (_Bool)0;
-        if(!tmp_if_expr$2)
+          tmp_if_expr_2 = (signed int)section_ext->version_number == ca_pmt_version ? (_Bool)1 : (_Bool)0;
+        if(!tmp_if_expr_2)
         {
           struct mpeg_pmt_section *pmt;
           pmt=mpeg_pmt_section_codec(section_ext);
           if(!(pmt == ((struct mpeg_pmt_section *)NULL)))
           {
-            signed int return_value_zap_ca_new_pmt$3;
-            return_value_zap_ca_new_pmt$3=zap_ca_new_pmt(pmt);
-            if(return_value_zap_ca_new_pmt$3 == 1)
+            signed int return_value_zap_ca_new_pmt_3;
+            return_value_zap_ca_new_pmt_3=zap_ca_new_pmt(pmt);
+            if(return_value_zap_ca_new_pmt_3 == 1)
               ca_pmt_version = (signed int)pmt->head.version_number;
 
           }
@@ -20430,9 +20430,9 @@ static void process_tdt(signed int tdt_fd)
 {
   signed int size;
   unsigned char sibuf[4096l];
-  signed long int return_value_read$1;
-  return_value_read$1=read(tdt_fd, (void *)sibuf, sizeof(unsigned char [4096l]) /*4096ul*/ );
-  size = (signed int)return_value_read$1;
+  signed long int return_value_read_1;
+  return_value_read_1=read(tdt_fd, (void *)sibuf, sizeof(unsigned char [4096l]) /*4096ul*/ );
+  size = (signed int)return_value_read_1;
   if(size >= 0)
   {
     struct section *section;
@@ -20443,9 +20443,9 @@ static void process_tdt(signed int tdt_fd)
       tdt=dvb_tdt_section_codec(section);
       if(!(tdt == ((struct dvb_tdt_section *)NULL)))
       {
-        signed long int return_value_dvbdate_to_unixtime$2;
-        return_value_dvbdate_to_unixtime$2=dvbdate_to_unixtime(tdt->utc_time);
-        zap_ca_new_dvbtime(return_value_dvbdate_to_unixtime$2);
+        signed long int return_value_dvbdate_to_unixtime_2;
+        return_value_dvbdate_to_unixtime_2=dvbdate_to_unixtime(tdt->utc_time);
+        zap_ca_new_dvbtime(return_value_dvbdate_to_unixtime_2);
       }
 
     }
@@ -20482,15 +20482,15 @@ extern void seconds_to_dvbduration(signed int seconds, unsigned char *dvbduratio
   seconds = seconds - hours * 60 * 60;
   mins = seconds / 60;
   seconds = seconds - mins * 60;
-  unsigned int return_value_integer_to_bcd$1;
-  return_value_integer_to_bcd$1=integer_to_bcd((unsigned int)hours);
-  dvbduration[(signed long int)0] = (unsigned char)return_value_integer_to_bcd$1;
-  unsigned int return_value_integer_to_bcd$2;
-  return_value_integer_to_bcd$2=integer_to_bcd((unsigned int)mins);
-  dvbduration[(signed long int)1] = (unsigned char)return_value_integer_to_bcd$2;
-  unsigned int return_value_integer_to_bcd$3;
-  return_value_integer_to_bcd$3=integer_to_bcd((unsigned int)seconds);
-  dvbduration[(signed long int)2] = (unsigned char)return_value_integer_to_bcd$3;
+  unsigned int return_value_integer_to_bcd_1;
+  return_value_integer_to_bcd_1=integer_to_bcd((unsigned int)hours);
+  dvbduration[(signed long int)0] = (unsigned char)return_value_integer_to_bcd_1;
+  unsigned int return_value_integer_to_bcd_2;
+  return_value_integer_to_bcd_2=integer_to_bcd((unsigned int)mins);
+  dvbduration[(signed long int)1] = (unsigned char)return_value_integer_to_bcd_2;
+  unsigned int return_value_integer_to_bcd_3;
+  return_value_integer_to_bcd_3=integer_to_bcd((unsigned int)seconds);
+  dvbduration[(signed long int)2] = (unsigned char)return_value_integer_to_bcd_3;
 }
 
 // seconds_to_dvbhhmm
@@ -20502,12 +20502,12 @@ extern void seconds_to_dvbhhmm(signed int seconds, unsigned char *dvbhhmm)
   hours = seconds / (60 * 60);
   seconds = seconds - hours * 60 * 60;
   mins = seconds / 60;
-  unsigned int return_value_integer_to_bcd$1;
-  return_value_integer_to_bcd$1=integer_to_bcd((unsigned int)hours);
-  dvbhhmm[(signed long int)0] = (unsigned char)return_value_integer_to_bcd$1;
-  unsigned int return_value_integer_to_bcd$2;
-  return_value_integer_to_bcd$2=integer_to_bcd((unsigned int)mins);
-  dvbhhmm[(signed long int)1] = (unsigned char)return_value_integer_to_bcd$2;
+  unsigned int return_value_integer_to_bcd_1;
+  return_value_integer_to_bcd_1=integer_to_bcd((unsigned int)hours);
+  dvbhhmm[(signed long int)0] = (unsigned char)return_value_integer_to_bcd_1;
+  unsigned int return_value_integer_to_bcd_2;
+  return_value_integer_to_bcd_2=integer_to_bcd((unsigned int)mins);
+  dvbhhmm[(signed long int)1] = (unsigned char)return_value_integer_to_bcd_2;
 }
 
 // section_buf_add
@@ -20605,7 +20605,7 @@ extern signed int section_buf_add_transport_payload(struct section_buf *section,
 {
   signed int used = 0;
   signed int tmp;
-  signed int return_value_section_buf_remaining$1;
+  signed int return_value_section_buf_remaining_1;
   if(!(section->header == 0))
   {
     if(!(section->len == section->count))
@@ -20648,22 +20648,22 @@ extern signed int section_buf_add_transport_payload(struct section_buf *section,
         if(!(section->count == 0u))
         {
           tmp=section_buf_add(section, payload + (signed long int)1, offset, section_status);
-          _Bool tmp_if_expr$2;
+          _Bool tmp_if_expr_2;
           if(!(tmp == offset))
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
           {
-            return_value_section_buf_remaining$1=section_buf_remaining(section);
-            tmp_if_expr$2 = return_value_section_buf_remaining$1 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_section_buf_remaining_1=section_buf_remaining(section);
+            tmp_if_expr_2 = return_value_section_buf_remaining_1 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          _Bool tmp_if_expr$3;
-          if(tmp_if_expr$2)
-            tmp_if_expr$3 = (_Bool)1;
+          _Bool tmp_if_expr_3;
+          if(tmp_if_expr_2)
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = *section_status != 1 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = *section_status != 1 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_3)
           {
             *section_status = -34;
             section->wait_pdu = (unsigned char)1;
@@ -20757,9 +20757,9 @@ static inline struct section_ext * section_ext_decode(struct section *section, s
   {
     if(!(check_crc == 0))
     {
-      signed int return_value_section_check_crc$1;
-      return_value_section_check_crc$1=section_check_crc(section);
-      if(!(return_value_section_check_crc$1 == 0))
+      signed int return_value_section_check_crc_1;
+      return_value_section_check_crc_1=section_check_crc(section);
+      if(!(return_value_section_check_crc_1 == 0))
         return (struct section_ext *)(void *)0;
 
     }
@@ -20776,158 +20776,158 @@ static inline unsigned long int section_ext_length(struct section_ext *section)
   return ((unsigned long int)section->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link1
+// section_ext_length_link1
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link1(struct section_ext *section$link1)
+static inline unsigned long int section_ext_length_link1(struct section_ext *section_link1)
 {
-  return ((unsigned long int)section$link1->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link1->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link10
+// section_ext_length_link10
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link10(struct section_ext *section$link10)
+static inline unsigned long int section_ext_length_link10(struct section_ext *section_link10)
 {
-  return ((unsigned long int)section$link10->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link10->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link11
+// section_ext_length_link11
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link11(struct section_ext *section$link11)
+static inline unsigned long int section_ext_length_link11(struct section_ext *section_link11)
 {
-  return ((unsigned long int)section$link11->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link11->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link12
+// section_ext_length_link12
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link12(struct section_ext *section$link12)
+static inline unsigned long int section_ext_length_link12(struct section_ext *section_link12)
 {
-  return ((unsigned long int)section$link12->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link12->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link13
+// section_ext_length_link13
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link13(struct section_ext *section$link13)
+static inline unsigned long int section_ext_length_link13(struct section_ext *section_link13)
 {
-  return ((unsigned long int)section$link13->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link13->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link14
+// section_ext_length_link14
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link14(struct section_ext *section$link14)
+static inline unsigned long int section_ext_length_link14(struct section_ext *section_link14)
 {
-  return ((unsigned long int)section$link14->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link14->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link15
+// section_ext_length_link15
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link15(struct section_ext *section$link15)
+static inline unsigned long int section_ext_length_link15(struct section_ext *section_link15)
 {
-  return ((unsigned long int)section$link15->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link15->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link16
+// section_ext_length_link16
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link16(struct section_ext *section$link16)
+static inline unsigned long int section_ext_length_link16(struct section_ext *section_link16)
 {
-  return ((unsigned long int)section$link16->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link16->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link17
+// section_ext_length_link17
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link17(struct section_ext *section$link17)
+static inline unsigned long int section_ext_length_link17(struct section_ext *section_link17)
 {
-  return ((unsigned long int)section$link17->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link17->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link18
+// section_ext_length_link18
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link18(struct section_ext *section$link18)
+static inline unsigned long int section_ext_length_link18(struct section_ext *section_link18)
 {
-  return ((unsigned long int)section$link18->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link18->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link19
+// section_ext_length_link19
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link19(struct section_ext *section$link19)
+static inline unsigned long int section_ext_length_link19(struct section_ext *section_link19)
 {
-  return ((unsigned long int)section$link19->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link19->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link2
+// section_ext_length_link2
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link2(struct section_ext *section$link2)
+static inline unsigned long int section_ext_length_link2(struct section_ext *section_link2)
 {
-  return ((unsigned long int)section$link2->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link2->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link20
+// section_ext_length_link20
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link20(struct section_ext *section$link20)
+static inline unsigned long int section_ext_length_link20(struct section_ext *section_link20)
 {
-  return ((unsigned long int)section$link20->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link20->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link21
+// section_ext_length_link21
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link21(struct section_ext *section$link21)
+static inline unsigned long int section_ext_length_link21(struct section_ext *section_link21)
 {
-  return ((unsigned long int)section$link21->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link21->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link22
+// section_ext_length_link22
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link22(struct section_ext *section$link22)
+static inline unsigned long int section_ext_length_link22(struct section_ext *section_link22)
 {
-  return ((unsigned long int)section$link22->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link22->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link3
+// section_ext_length_link3
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link3(struct section_ext *section$link3)
+static inline unsigned long int section_ext_length_link3(struct section_ext *section_link3)
 {
-  return ((unsigned long int)section$link3->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link3->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link4
+// section_ext_length_link4
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link4(struct section_ext *section$link4)
+static inline unsigned long int section_ext_length_link4(struct section_ext *section_link4)
 {
-  return ((unsigned long int)section$link4->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link4->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link5
+// section_ext_length_link5
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link5(struct section_ext *section$link5)
+static inline unsigned long int section_ext_length_link5(struct section_ext *section_link5)
 {
-  return ((unsigned long int)section$link5->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link5->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link6
+// section_ext_length_link6
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link6(struct section_ext *section$link6)
+static inline unsigned long int section_ext_length_link6(struct section_ext *section_link6)
 {
-  return ((unsigned long int)section$link6->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link6->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link7
+// section_ext_length_link7
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link7(struct section_ext *section$link7)
+static inline unsigned long int section_ext_length_link7(struct section_ext *section_link7)
 {
-  return ((unsigned long int)section$link7->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link7->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link8
+// section_ext_length_link8
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link8(struct section_ext *section$link8)
+static inline unsigned long int section_ext_length_link8(struct section_ext *section_link8)
 {
-  return ((unsigned long int)section$link8->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link8->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
-// section_ext_length$link9
+// section_ext_length_link9
 // file ../../lib/libucsi/section.h line 96
-static inline unsigned long int section_ext_length$link9(struct section_ext *section$link9)
+static inline unsigned long int section_ext_length_link9(struct section_ext *section_link9)
 {
-  return ((unsigned long int)section$link9->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
+  return ((unsigned long int)section_link9->length + sizeof(struct section) /*3ul*/ ) - (unsigned long int)4;
 }
 
 // section_length
@@ -20937,25 +20937,25 @@ static inline unsigned long int section_length(struct section *section)
   return (unsigned long int)section->length + sizeof(struct section) /*3ul*/ ;
 }
 
-// section_length$link1
+// section_length_link1
 // file ../../lib/libucsi/section.h line 84
-static inline unsigned long int section_length$link1(struct section *section$link1)
+static inline unsigned long int section_length_link1(struct section *section_link1)
 {
-  return (unsigned long int)section$link1->length + sizeof(struct section) /*3ul*/ ;
+  return (unsigned long int)section_link1->length + sizeof(struct section) /*3ul*/ ;
 }
 
-// section_length$link2
+// section_length_link2
 // file ../../lib/libucsi/section.h line 84
-static inline unsigned long int section_length$link2(struct section *section$link2)
+static inline unsigned long int section_length_link2(struct section *section_link2)
 {
-  return (unsigned long int)section$link2->length + sizeof(struct section) /*3ul*/ ;
+  return (unsigned long int)section_link2->length + sizeof(struct section) /*3ul*/ ;
 }
 
-// section_length$link3
+// section_length_link3
 // file ../../lib/libucsi/section.h line 84
-static inline unsigned long int section_length$link3(struct section *section$link3)
+static inline unsigned long int section_length_link3(struct section *section_link3)
 {
-  return (unsigned long int)section$link3->length + sizeof(struct section) /*3ul*/ ;
+  return (unsigned long int)section_link3->length + sizeof(struct section) /*3ul*/ ;
 }
 
 // signal_handler
@@ -20981,9 +20981,9 @@ static signed int skipwhite(char **line, char *end)
 
     }
 
-    const unsigned short int **return_value___ctype_b_loc$1;
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*(*line)]) == 0)
+    const unsigned short int **return_value___ctype_b_loc_1;
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*(*line)]) == 0)
       return 0;
 
     *line = *line + 1l;
@@ -21010,9 +21010,9 @@ extern signed int transport_packet_continuity_check(struct transport_packet *pkt
   unsigned char pktcontinuity = (unsigned char)pkt->continuity_counter;
   unsigned char prevcontinuity = (unsigned char)((signed int)*cstate & 0x0f);
   unsigned char nextcontinuity;
-  signed int return_value_transport_packet_pid$1;
-  return_value_transport_packet_pid$1=transport_packet_pid(pkt);
-  if(return_value_transport_packet_pid$1 == 0x1fff)
+  signed int return_value_transport_packet_pid_1;
+  return_value_transport_packet_pid_1=transport_packet_pid(pkt);
+  if(return_value_transport_packet_pid_1 == 0x1fff)
     return 0;
 
   else
@@ -21083,18 +21083,18 @@ extern signed int transport_packet_values_extract(struct transport_packet *pkt, 
   signed int adapextlength = 0;
   if(!((2 & (signed int)pkt->adaptation_field_control) == 0))
   {
-    unsigned char *tmp_post$1 = pos;
+    unsigned char *tmp_post_1 = pos;
     pos = pos + 1l;
-    adaplength = (signed int)*tmp_post$1;
+    adaplength = (signed int)*tmp_post_1;
     if(!(adaplength == 0))
     {
       adapend = pos + (signed long int)adaplength;
       if(!(end >= adapend))
         return -1;
 
-      unsigned char *tmp_post$2 = pos;
+      unsigned char *tmp_post_2 = pos;
       pos = pos + 1l;
-      adapflags = (enum transport_adaptation_flags)*tmp_post$2;
+      adapflags = (enum transport_adaptation_flags)*tmp_post_2;
       if(!((0xffff & (signed int)extract) == 0))
       {
         if(!((transport_adaptation_flag_pcr & (signed int)adapflags) == 0))
@@ -21120,9 +21120,9 @@ extern signed int transport_packet_values_extract(struct transport_packet *pkt, 
 
           if(!((transport_value_opcr & (signed int)extract) == 0))
           {
-            unsigned long int transport_packet_values_extract$$1$$2$$1$$base = (unsigned long int)pos[(signed long int)0] << 25 | (unsigned long int)pos[(signed long int)1] << 17 | (unsigned long int)pos[(signed long int)2] << 9 | (unsigned long int)pos[(signed long int)3] << 1 | (unsigned long int)pos[(signed long int)4] >> 7;
-            unsigned long int transport_packet_values_extract$$1$$2$$1$$ext = ((unsigned long int)pos[(signed long int)4] & (unsigned long int)1) << 8 | (unsigned long int)pos[(signed long int)5];
-            out->opcr = transport_packet_values_extract$$1$$2$$1$$base * 300ULL + transport_packet_values_extract$$1$$2$$1$$ext;
+            unsigned long int transport_packet_values_extract__1__2__1__base = (unsigned long int)pos[(signed long int)0] << 25 | (unsigned long int)pos[(signed long int)1] << 17 | (unsigned long int)pos[(signed long int)2] << 9 | (unsigned long int)pos[(signed long int)3] << 1 | (unsigned long int)pos[(signed long int)4] >> 7;
+            unsigned long int transport_packet_values_extract__1__2__1__ext = ((unsigned long int)pos[(signed long int)4] & (unsigned long int)1) << 8 | (unsigned long int)pos[(signed long int)5];
+            out->opcr = transport_packet_values_extract__1__2__1__base * 300ULL + transport_packet_values_extract__1__2__1__ext;
             extracted = extracted | (enum transport_value)transport_value_opcr;
           }
 
@@ -21166,17 +21166,17 @@ extern signed int transport_packet_values_extract(struct transport_packet *pkt, 
           if(pos >= adapend)
             return -1;
 
-          unsigned char *tmp_post$3 = pos;
+          unsigned char *tmp_post_3 = pos;
           pos = pos + 1l;
-          adapextlength = (signed int)*tmp_post$3;
+          adapextlength = (signed int)*tmp_post_3;
           if(!(adapend >= pos + (signed long int)adapextlength))
             return -1;
 
           if(!((0xff00 & (signed int)extract) == 0) && !(adapextlength == 0))
           {
-            unsigned char *tmp_post$4 = pos;
+            unsigned char *tmp_post_4 = pos;
             pos = pos + 1l;
-            adapextflags = (enum transport_adaptation_extension_flags)*tmp_post$4;
+            adapextflags = (enum transport_adaptation_extension_flags)*tmp_post_4;
             if(!((transport_adaptation_extension_flag_ltw & (signed int)adapextflags) == 0))
             {
               if(!(adapend >= pos + 2l))
@@ -21266,9 +21266,9 @@ static inline signed int unicode_decode(unsigned char *srcbuf, unsigned long int
   i = (unsigned long int)0;
   for( ; !(i >= srcbuflen); i = i + 1ul)
   {
-    signed int return_value_append_unicode_char$1;
-    return_value_append_unicode_char$1=append_unicode_char(destbuf, destbuflen, destbufpos, msb + (unsigned int)srcbuf[(signed long int)i]);
-    if(!(return_value_append_unicode_char$1 == 0))
+    signed int return_value_append_unicode_char_1;
+    return_value_append_unicode_char_1=append_unicode_char(destbuf, destbuflen, destbufpos, msb + (unsigned int)srcbuf[(signed long int)i]);
+    if(!(return_value_append_unicode_char_1 == 0))
       return -1;
 
   }
@@ -21295,15 +21295,15 @@ extern void unixtime_to_dvbdate(signed long int unixtime, unsigned char *dvbdate
     mjd = 14956 + tm.tm_mday + (signed int)(((double)tm.tm_year - l) * 365.25) + (signed int)(((double)(tm.tm_mon + 1) + l * (double)12) * 30.6001);
     dvbdate[(signed long int)0] = (unsigned char)((mjd & 0xff00) >> 8);
     dvbdate[(signed long int)1] = (unsigned char)(mjd & 0xff);
-    unsigned int return_value_integer_to_bcd$1;
-    return_value_integer_to_bcd$1=integer_to_bcd((unsigned int)tm.tm_hour);
-    dvbdate[(signed long int)2] = (unsigned char)return_value_integer_to_bcd$1;
-    unsigned int return_value_integer_to_bcd$2;
-    return_value_integer_to_bcd$2=integer_to_bcd((unsigned int)tm.tm_min);
-    dvbdate[(signed long int)3] = (unsigned char)return_value_integer_to_bcd$2;
-    unsigned int return_value_integer_to_bcd$3;
-    return_value_integer_to_bcd$3=integer_to_bcd((unsigned int)tm.tm_sec);
-    dvbdate[(signed long int)4] = (unsigned char)return_value_integer_to_bcd$3;
+    unsigned int return_value_integer_to_bcd_1;
+    return_value_integer_to_bcd_1=integer_to_bcd((unsigned int)tm.tm_hour);
+    dvbdate[(signed long int)2] = (unsigned char)return_value_integer_to_bcd_1;
+    unsigned int return_value_integer_to_bcd_2;
+    return_value_integer_to_bcd_2=integer_to_bcd((unsigned int)tm.tm_min);
+    dvbdate[(signed long int)3] = (unsigned char)return_value_integer_to_bcd_2;
+    unsigned int return_value_integer_to_bcd_3;
+    return_value_integer_to_bcd_3=integer_to_bcd((unsigned int)tm.tm_sec);
+    dvbdate[(signed long int)4] = (unsigned char)return_value_integer_to_bcd_3;
   }
 }
 
@@ -21332,288 +21332,288 @@ static inline signed int verify_descriptors(unsigned char *buf, unsigned long in
     return 0;
 }
 
-// verify_descriptors$link1
+// verify_descriptors_link1
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link1(unsigned char *buf$link1, unsigned long int len$link1)
+static inline signed int verify_descriptors_link1(unsigned char *buf_link1, unsigned long int len_link1)
 {
-  unsigned long int pos$link1 = (unsigned long int)0;
-  for( ; !(pos$link1 >= len$link1); pos$link1 = pos$link1 + (unsigned long int)(2 + (signed int)buf$link1[(signed long int)(pos$link1 + (unsigned long int)1)]))
-    if(!(len$link1 >= 2ul + pos$link1))
+  unsigned long int pos_link1 = (unsigned long int)0;
+  for( ; !(pos_link1 >= len_link1); pos_link1 = pos_link1 + (unsigned long int)(2 + (signed int)buf_link1[(signed long int)(pos_link1 + (unsigned long int)1)]))
+    if(!(len_link1 >= 2ul + pos_link1))
       return -1;
 
-  if(!(pos$link1 == len$link1))
+  if(!(pos_link1 == len_link1))
     return -1;
 
   else
     return 0;
 }
 
-// verify_descriptors$link10
+// verify_descriptors_link10
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link10(unsigned char *buf$link10, unsigned long int len$link10)
+static inline signed int verify_descriptors_link10(unsigned char *buf_link10, unsigned long int len_link10)
 {
-  unsigned long int pos$link10 = (unsigned long int)0;
-  for( ; !(pos$link10 >= len$link10); pos$link10 = pos$link10 + (unsigned long int)(2 + (signed int)buf$link10[(signed long int)(pos$link10 + (unsigned long int)1)]))
-    if(!(len$link10 >= 2ul + pos$link10))
+  unsigned long int pos_link10 = (unsigned long int)0;
+  for( ; !(pos_link10 >= len_link10); pos_link10 = pos_link10 + (unsigned long int)(2 + (signed int)buf_link10[(signed long int)(pos_link10 + (unsigned long int)1)]))
+    if(!(len_link10 >= 2ul + pos_link10))
       return -1;
 
-  if(!(pos$link10 == len$link10))
+  if(!(pos_link10 == len_link10))
     return -1;
 
   else
     return 0;
 }
 
-// verify_descriptors$link11
+// verify_descriptors_link11
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link11(unsigned char *buf$link11, unsigned long int len$link11)
+static inline signed int verify_descriptors_link11(unsigned char *buf_link11, unsigned long int len_link11)
 {
-  unsigned long int pos$link11 = (unsigned long int)0;
-  for( ; !(pos$link11 >= len$link11); pos$link11 = pos$link11 + (unsigned long int)(2 + (signed int)buf$link11[(signed long int)(pos$link11 + (unsigned long int)1)]))
-    if(!(len$link11 >= 2ul + pos$link11))
+  unsigned long int pos_link11 = (unsigned long int)0;
+  for( ; !(pos_link11 >= len_link11); pos_link11 = pos_link11 + (unsigned long int)(2 + (signed int)buf_link11[(signed long int)(pos_link11 + (unsigned long int)1)]))
+    if(!(len_link11 >= 2ul + pos_link11))
       return -1;
 
-  if(!(pos$link11 == len$link11))
+  if(!(pos_link11 == len_link11))
     return -1;
 
   else
     return 0;
 }
 
-// verify_descriptors$link12
+// verify_descriptors_link12
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link12(unsigned char *buf$link12, unsigned long int len$link12)
+static inline signed int verify_descriptors_link12(unsigned char *buf_link12, unsigned long int len_link12)
 {
-  unsigned long int pos$link12 = (unsigned long int)0;
-  for( ; !(pos$link12 >= len$link12); pos$link12 = pos$link12 + (unsigned long int)(2 + (signed int)buf$link12[(signed long int)(pos$link12 + (unsigned long int)1)]))
-    if(!(len$link12 >= 2ul + pos$link12))
+  unsigned long int pos_link12 = (unsigned long int)0;
+  for( ; !(pos_link12 >= len_link12); pos_link12 = pos_link12 + (unsigned long int)(2 + (signed int)buf_link12[(signed long int)(pos_link12 + (unsigned long int)1)]))
+    if(!(len_link12 >= 2ul + pos_link12))
       return -1;
 
-  if(!(pos$link12 == len$link12))
+  if(!(pos_link12 == len_link12))
     return -1;
 
   else
     return 0;
 }
 
-// verify_descriptors$link13
+// verify_descriptors_link13
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link13(unsigned char *buf$link13, unsigned long int len$link13)
+static inline signed int verify_descriptors_link13(unsigned char *buf_link13, unsigned long int len_link13)
 {
-  unsigned long int pos$link13 = (unsigned long int)0;
-  for( ; !(pos$link13 >= len$link13); pos$link13 = pos$link13 + (unsigned long int)(2 + (signed int)buf$link13[(signed long int)(pos$link13 + (unsigned long int)1)]))
-    if(!(len$link13 >= 2ul + pos$link13))
+  unsigned long int pos_link13 = (unsigned long int)0;
+  for( ; !(pos_link13 >= len_link13); pos_link13 = pos_link13 + (unsigned long int)(2 + (signed int)buf_link13[(signed long int)(pos_link13 + (unsigned long int)1)]))
+    if(!(len_link13 >= 2ul + pos_link13))
       return -1;
 
-  if(!(pos$link13 == len$link13))
+  if(!(pos_link13 == len_link13))
     return -1;
 
   else
     return 0;
 }
 
-// verify_descriptors$link14
+// verify_descriptors_link14
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link14(unsigned char *buf$link14, unsigned long int len$link14)
+static inline signed int verify_descriptors_link14(unsigned char *buf_link14, unsigned long int len_link14)
 {
-  unsigned long int pos$link14 = (unsigned long int)0;
-  for( ; !(pos$link14 >= len$link14); pos$link14 = pos$link14 + (unsigned long int)(2 + (signed int)buf$link14[(signed long int)(pos$link14 + (unsigned long int)1)]))
-    if(!(len$link14 >= 2ul + pos$link14))
+  unsigned long int pos_link14 = (unsigned long int)0;
+  for( ; !(pos_link14 >= len_link14); pos_link14 = pos_link14 + (unsigned long int)(2 + (signed int)buf_link14[(signed long int)(pos_link14 + (unsigned long int)1)]))
+    if(!(len_link14 >= 2ul + pos_link14))
       return -1;
 
-  if(!(pos$link14 == len$link14))
+  if(!(pos_link14 == len_link14))
     return -1;
 
   else
     return 0;
 }
 
-// verify_descriptors$link15
+// verify_descriptors_link15
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link15(unsigned char *buf$link15, unsigned long int len$link15)
+static inline signed int verify_descriptors_link15(unsigned char *buf_link15, unsigned long int len_link15)
 {
-  unsigned long int pos$link15 = (unsigned long int)0;
-  for( ; !(pos$link15 >= len$link15); pos$link15 = pos$link15 + (unsigned long int)(2 + (signed int)buf$link15[(signed long int)(pos$link15 + (unsigned long int)1)]))
-    if(!(len$link15 >= 2ul + pos$link15))
+  unsigned long int pos_link15 = (unsigned long int)0;
+  for( ; !(pos_link15 >= len_link15); pos_link15 = pos_link15 + (unsigned long int)(2 + (signed int)buf_link15[(signed long int)(pos_link15 + (unsigned long int)1)]))
+    if(!(len_link15 >= 2ul + pos_link15))
       return -1;
 
-  if(!(pos$link15 == len$link15))
+  if(!(pos_link15 == len_link15))
     return -1;
 
   else
     return 0;
 }
 
-// verify_descriptors$link16
+// verify_descriptors_link16
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link16(unsigned char *buf$link16, unsigned long int len$link16)
+static inline signed int verify_descriptors_link16(unsigned char *buf_link16, unsigned long int len_link16)
 {
-  unsigned long int pos$link16 = (unsigned long int)0;
-  for( ; !(pos$link16 >= len$link16); pos$link16 = pos$link16 + (unsigned long int)(2 + (signed int)buf$link16[(signed long int)(pos$link16 + (unsigned long int)1)]))
-    if(!(len$link16 >= 2ul + pos$link16))
+  unsigned long int pos_link16 = (unsigned long int)0;
+  for( ; !(pos_link16 >= len_link16); pos_link16 = pos_link16 + (unsigned long int)(2 + (signed int)buf_link16[(signed long int)(pos_link16 + (unsigned long int)1)]))
+    if(!(len_link16 >= 2ul + pos_link16))
       return -1;
 
-  if(!(pos$link16 == len$link16))
+  if(!(pos_link16 == len_link16))
     return -1;
 
   else
     return 0;
 }
 
-// verify_descriptors$link17
+// verify_descriptors_link17
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link17(unsigned char *buf$link17, unsigned long int len$link17)
+static inline signed int verify_descriptors_link17(unsigned char *buf_link17, unsigned long int len_link17)
 {
-  unsigned long int pos$link17 = (unsigned long int)0;
-  for( ; !(pos$link17 >= len$link17); pos$link17 = pos$link17 + (unsigned long int)(2 + (signed int)buf$link17[(signed long int)(pos$link17 + (unsigned long int)1)]))
-    if(!(len$link17 >= 2ul + pos$link17))
+  unsigned long int pos_link17 = (unsigned long int)0;
+  for( ; !(pos_link17 >= len_link17); pos_link17 = pos_link17 + (unsigned long int)(2 + (signed int)buf_link17[(signed long int)(pos_link17 + (unsigned long int)1)]))
+    if(!(len_link17 >= 2ul + pos_link17))
       return -1;
 
-  if(!(pos$link17 == len$link17))
+  if(!(pos_link17 == len_link17))
     return -1;
 
   else
     return 0;
 }
 
-// verify_descriptors$link18
+// verify_descriptors_link18
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link18(unsigned char *buf$link18, unsigned long int len$link18)
+static inline signed int verify_descriptors_link18(unsigned char *buf_link18, unsigned long int len_link18)
 {
-  unsigned long int pos$link18 = (unsigned long int)0;
-  for( ; !(pos$link18 >= len$link18); pos$link18 = pos$link18 + (unsigned long int)(2 + (signed int)buf$link18[(signed long int)(pos$link18 + (unsigned long int)1)]))
-    if(!(len$link18 >= 2ul + pos$link18))
+  unsigned long int pos_link18 = (unsigned long int)0;
+  for( ; !(pos_link18 >= len_link18); pos_link18 = pos_link18 + (unsigned long int)(2 + (signed int)buf_link18[(signed long int)(pos_link18 + (unsigned long int)1)]))
+    if(!(len_link18 >= 2ul + pos_link18))
       return -1;
 
-  if(!(pos$link18 == len$link18))
+  if(!(pos_link18 == len_link18))
     return -1;
 
   else
     return 0;
 }
 
-// verify_descriptors$link2
+// verify_descriptors_link2
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link2(unsigned char *buf$link2, unsigned long int len$link2)
+static inline signed int verify_descriptors_link2(unsigned char *buf_link2, unsigned long int len_link2)
 {
-  unsigned long int pos$link2 = (unsigned long int)0;
-  for( ; !(pos$link2 >= len$link2); pos$link2 = pos$link2 + (unsigned long int)(2 + (signed int)buf$link2[(signed long int)(pos$link2 + (unsigned long int)1)]))
-    if(!(len$link2 >= 2ul + pos$link2))
+  unsigned long int pos_link2 = (unsigned long int)0;
+  for( ; !(pos_link2 >= len_link2); pos_link2 = pos_link2 + (unsigned long int)(2 + (signed int)buf_link2[(signed long int)(pos_link2 + (unsigned long int)1)]))
+    if(!(len_link2 >= 2ul + pos_link2))
       return -1;
 
-  if(!(pos$link2 == len$link2))
+  if(!(pos_link2 == len_link2))
     return -1;
 
   else
     return 0;
 }
 
-// verify_descriptors$link3
+// verify_descriptors_link3
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link3(unsigned char *buf$link3, unsigned long int len$link3)
+static inline signed int verify_descriptors_link3(unsigned char *buf_link3, unsigned long int len_link3)
 {
-  unsigned long int pos$link3 = (unsigned long int)0;
-  for( ; !(pos$link3 >= len$link3); pos$link3 = pos$link3 + (unsigned long int)(2 + (signed int)buf$link3[(signed long int)(pos$link3 + (unsigned long int)1)]))
-    if(!(len$link3 >= 2ul + pos$link3))
+  unsigned long int pos_link3 = (unsigned long int)0;
+  for( ; !(pos_link3 >= len_link3); pos_link3 = pos_link3 + (unsigned long int)(2 + (signed int)buf_link3[(signed long int)(pos_link3 + (unsigned long int)1)]))
+    if(!(len_link3 >= 2ul + pos_link3))
       return -1;
 
-  if(!(pos$link3 == len$link3))
+  if(!(pos_link3 == len_link3))
     return -1;
 
   else
     return 0;
 }
 
-// verify_descriptors$link4
+// verify_descriptors_link4
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link4(unsigned char *buf$link4, unsigned long int len$link4)
+static inline signed int verify_descriptors_link4(unsigned char *buf_link4, unsigned long int len_link4)
 {
-  unsigned long int pos$link4 = (unsigned long int)0;
-  for( ; !(pos$link4 >= len$link4); pos$link4 = pos$link4 + (unsigned long int)(2 + (signed int)buf$link4[(signed long int)(pos$link4 + (unsigned long int)1)]))
-    if(!(len$link4 >= 2ul + pos$link4))
+  unsigned long int pos_link4 = (unsigned long int)0;
+  for( ; !(pos_link4 >= len_link4); pos_link4 = pos_link4 + (unsigned long int)(2 + (signed int)buf_link4[(signed long int)(pos_link4 + (unsigned long int)1)]))
+    if(!(len_link4 >= 2ul + pos_link4))
       return -1;
 
-  if(!(pos$link4 == len$link4))
+  if(!(pos_link4 == len_link4))
     return -1;
 
   else
     return 0;
 }
 
-// verify_descriptors$link5
+// verify_descriptors_link5
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link5(unsigned char *buf$link5, unsigned long int len$link5)
+static inline signed int verify_descriptors_link5(unsigned char *buf_link5, unsigned long int len_link5)
 {
-  unsigned long int pos$link5 = (unsigned long int)0;
-  for( ; !(pos$link5 >= len$link5); pos$link5 = pos$link5 + (unsigned long int)(2 + (signed int)buf$link5[(signed long int)(pos$link5 + (unsigned long int)1)]))
-    if(!(len$link5 >= 2ul + pos$link5))
+  unsigned long int pos_link5 = (unsigned long int)0;
+  for( ; !(pos_link5 >= len_link5); pos_link5 = pos_link5 + (unsigned long int)(2 + (signed int)buf_link5[(signed long int)(pos_link5 + (unsigned long int)1)]))
+    if(!(len_link5 >= 2ul + pos_link5))
       return -1;
 
-  if(!(pos$link5 == len$link5))
+  if(!(pos_link5 == len_link5))
     return -1;
 
   else
     return 0;
 }
 
-// verify_descriptors$link6
+// verify_descriptors_link6
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link6(unsigned char *buf$link6, unsigned long int len$link6)
+static inline signed int verify_descriptors_link6(unsigned char *buf_link6, unsigned long int len_link6)
 {
-  unsigned long int pos$link6 = (unsigned long int)0;
-  for( ; !(pos$link6 >= len$link6); pos$link6 = pos$link6 + (unsigned long int)(2 + (signed int)buf$link6[(signed long int)(pos$link6 + (unsigned long int)1)]))
-    if(!(len$link6 >= 2ul + pos$link6))
+  unsigned long int pos_link6 = (unsigned long int)0;
+  for( ; !(pos_link6 >= len_link6); pos_link6 = pos_link6 + (unsigned long int)(2 + (signed int)buf_link6[(signed long int)(pos_link6 + (unsigned long int)1)]))
+    if(!(len_link6 >= 2ul + pos_link6))
       return -1;
 
-  if(!(pos$link6 == len$link6))
+  if(!(pos_link6 == len_link6))
     return -1;
 
   else
     return 0;
 }
 
-// verify_descriptors$link7
+// verify_descriptors_link7
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link7(unsigned char *buf$link7, unsigned long int len$link7)
+static inline signed int verify_descriptors_link7(unsigned char *buf_link7, unsigned long int len_link7)
 {
-  unsigned long int pos$link7 = (unsigned long int)0;
-  for( ; !(pos$link7 >= len$link7); pos$link7 = pos$link7 + (unsigned long int)(2 + (signed int)buf$link7[(signed long int)(pos$link7 + (unsigned long int)1)]))
-    if(!(len$link7 >= 2ul + pos$link7))
+  unsigned long int pos_link7 = (unsigned long int)0;
+  for( ; !(pos_link7 >= len_link7); pos_link7 = pos_link7 + (unsigned long int)(2 + (signed int)buf_link7[(signed long int)(pos_link7 + (unsigned long int)1)]))
+    if(!(len_link7 >= 2ul + pos_link7))
       return -1;
 
-  if(!(pos$link7 == len$link7))
+  if(!(pos_link7 == len_link7))
     return -1;
 
   else
     return 0;
 }
 
-// verify_descriptors$link8
+// verify_descriptors_link8
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link8(unsigned char *buf$link8, unsigned long int len$link8)
+static inline signed int verify_descriptors_link8(unsigned char *buf_link8, unsigned long int len_link8)
 {
-  unsigned long int pos$link8 = (unsigned long int)0;
-  for( ; !(pos$link8 >= len$link8); pos$link8 = pos$link8 + (unsigned long int)(2 + (signed int)buf$link8[(signed long int)(pos$link8 + (unsigned long int)1)]))
-    if(!(len$link8 >= 2ul + pos$link8))
+  unsigned long int pos_link8 = (unsigned long int)0;
+  for( ; !(pos_link8 >= len_link8); pos_link8 = pos_link8 + (unsigned long int)(2 + (signed int)buf_link8[(signed long int)(pos_link8 + (unsigned long int)1)]))
+    if(!(len_link8 >= 2ul + pos_link8))
       return -1;
 
-  if(!(pos$link8 == len$link8))
+  if(!(pos_link8 == len_link8))
     return -1;
 
   else
     return 0;
 }
 
-// verify_descriptors$link9
+// verify_descriptors_link9
 // file ../../lib/libucsi/descriptor.h line 108
-static inline signed int verify_descriptors$link9(unsigned char *buf$link9, unsigned long int len$link9)
+static inline signed int verify_descriptors_link9(unsigned char *buf_link9, unsigned long int len_link9)
 {
-  unsigned long int pos$link9 = (unsigned long int)0;
-  for( ; !(pos$link9 >= len$link9); pos$link9 = pos$link9 + (unsigned long int)(2 + (signed int)buf$link9[(signed long int)(pos$link9 + (unsigned long int)1)]))
-    if(!(len$link9 >= 2ul + pos$link9))
+  unsigned long int pos_link9 = (unsigned long int)0;
+  for( ; !(pos_link9 >= len_link9); pos_link9 = pos_link9 + (unsigned long int)(2 + (signed int)buf_link9[(signed long int)(pos_link9 + (unsigned long int)1)]))
+    if(!(len_link9 >= 2ul + pos_link9))
       return -1;
 
-  if(!(pos$link9 == len$link9))
+  if(!(pos_link9 == len_link9))
     return -1;
 
   else
@@ -21629,130 +21629,130 @@ static inline void vprint(char *fmt, ...)
   args = ((void **)NULL);
 }
 
-// vprint$link1
+// vprint_link1
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link1(char *fmt$link1, ...)
+static inline void vprint_link1(char *fmt_link1, ...)
 {
-  void **args$link1 = (void **)&fmt$link1;
-  vfprintf(stderr, fmt$link1, args$link1);
-  args$link1 = ((void **)NULL);
+  void **args_link1 = (void **)&fmt_link1;
+  vfprintf(stderr, fmt_link1, args_link1);
+  args_link1 = ((void **)NULL);
 }
 
-// vprint$link10
+// vprint_link10
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link10(char *fmt$link10, ...)
+static inline void vprint_link10(char *fmt_link10, ...)
 {
-  void **args$link10 = (void **)&fmt$link10;
-  vfprintf(stderr, fmt$link10, args$link10);
-  args$link10 = ((void **)NULL);
+  void **args_link10 = (void **)&fmt_link10;
+  vfprintf(stderr, fmt_link10, args_link10);
+  args_link10 = ((void **)NULL);
 }
 
-// vprint$link11
+// vprint_link11
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link11(char *fmt$link11, ...)
+static inline void vprint_link11(char *fmt_link11, ...)
 {
-  void **args$link11 = (void **)&fmt$link11;
-  vfprintf(stderr, fmt$link11, args$link11);
-  args$link11 = ((void **)NULL);
+  void **args_link11 = (void **)&fmt_link11;
+  vfprintf(stderr, fmt_link11, args_link11);
+  args_link11 = ((void **)NULL);
 }
 
-// vprint$link12
+// vprint_link12
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link12(char *fmt$link12, ...)
+static inline void vprint_link12(char *fmt_link12, ...)
 {
-  void **args$link12 = (void **)&fmt$link12;
-  vfprintf(stderr, fmt$link12, args$link12);
-  args$link12 = ((void **)NULL);
+  void **args_link12 = (void **)&fmt_link12;
+  vfprintf(stderr, fmt_link12, args_link12);
+  args_link12 = ((void **)NULL);
 }
 
-// vprint$link13
+// vprint_link13
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link13(char *fmt$link13, ...)
+static inline void vprint_link13(char *fmt_link13, ...)
 {
-  void **args$link13 = (void **)&fmt$link13;
-  vfprintf(stderr, fmt$link13, args$link13);
-  args$link13 = ((void **)NULL);
+  void **args_link13 = (void **)&fmt_link13;
+  vfprintf(stderr, fmt_link13, args_link13);
+  args_link13 = ((void **)NULL);
 }
 
-// vprint$link14
+// vprint_link14
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link14(char *fmt$link14, ...)
+static inline void vprint_link14(char *fmt_link14, ...)
 {
-  void **args$link14 = (void **)&fmt$link14;
-  vfprintf(stderr, fmt$link14, args$link14);
-  args$link14 = ((void **)NULL);
+  void **args_link14 = (void **)&fmt_link14;
+  vfprintf(stderr, fmt_link14, args_link14);
+  args_link14 = ((void **)NULL);
 }
 
-// vprint$link2
+// vprint_link2
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link2(char *fmt$link2, ...)
+static inline void vprint_link2(char *fmt_link2, ...)
 {
-  void **args$link2 = (void **)&fmt$link2;
-  vfprintf(stderr, fmt$link2, args$link2);
-  args$link2 = ((void **)NULL);
+  void **args_link2 = (void **)&fmt_link2;
+  vfprintf(stderr, fmt_link2, args_link2);
+  args_link2 = ((void **)NULL);
 }
 
-// vprint$link3
+// vprint_link3
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link3(char *fmt$link3, ...)
+static inline void vprint_link3(char *fmt_link3, ...)
 {
-  void **args$link3 = (void **)&fmt$link3;
-  vfprintf(stderr, fmt$link3, args$link3);
-  args$link3 = ((void **)NULL);
+  void **args_link3 = (void **)&fmt_link3;
+  vfprintf(stderr, fmt_link3, args_link3);
+  args_link3 = ((void **)NULL);
 }
 
-// vprint$link4
+// vprint_link4
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link4(char *fmt$link4, ...)
+static inline void vprint_link4(char *fmt_link4, ...)
 {
-  void **args$link4 = (void **)&fmt$link4;
-  vfprintf(stderr, fmt$link4, args$link4);
-  args$link4 = ((void **)NULL);
+  void **args_link4 = (void **)&fmt_link4;
+  vfprintf(stderr, fmt_link4, args_link4);
+  args_link4 = ((void **)NULL);
 }
 
-// vprint$link5
+// vprint_link5
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link5(char *fmt$link5, ...)
+static inline void vprint_link5(char *fmt_link5, ...)
 {
-  void **args$link5 = (void **)&fmt$link5;
-  vfprintf(stderr, fmt$link5, args$link5);
-  args$link5 = ((void **)NULL);
+  void **args_link5 = (void **)&fmt_link5;
+  vfprintf(stderr, fmt_link5, args_link5);
+  args_link5 = ((void **)NULL);
 }
 
-// vprint$link6
+// vprint_link6
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link6(char *fmt$link6, ...)
+static inline void vprint_link6(char *fmt_link6, ...)
 {
-  void **args$link6 = (void **)&fmt$link6;
-  vfprintf(stderr, fmt$link6, args$link6);
-  args$link6 = ((void **)NULL);
+  void **args_link6 = (void **)&fmt_link6;
+  vfprintf(stderr, fmt_link6, args_link6);
+  args_link6 = ((void **)NULL);
 }
 
-// vprint$link7
+// vprint_link7
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link7(char *fmt$link7, ...)
+static inline void vprint_link7(char *fmt_link7, ...)
 {
-  void **args$link7 = (void **)&fmt$link7;
-  vfprintf(stderr, fmt$link7, args$link7);
-  args$link7 = ((void **)NULL);
+  void **args_link7 = (void **)&fmt_link7;
+  vfprintf(stderr, fmt_link7, args_link7);
+  args_link7 = ((void **)NULL);
 }
 
-// vprint$link8
+// vprint_link8
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link8(char *fmt$link8, ...)
+static inline void vprint_link8(char *fmt_link8, ...)
 {
-  void **args$link8 = (void **)&fmt$link8;
-  vfprintf(stderr, fmt$link8, args$link8);
-  args$link8 = ((void **)NULL);
+  void **args_link8 = (void **)&fmt_link8;
+  vfprintf(stderr, fmt_link8, args_link8);
+  args_link8 = ((void **)NULL);
 }
 
-// vprint$link9
+// vprint_link9
 // file ../../lib/libdvbmisc/dvbmisc.h line 48
-static inline void vprint$link9(char *fmt$link9, ...)
+static inline void vprint_link9(char *fmt_link9, ...)
 {
-  void **args$link9 = (void **)&fmt$link9;
-  vfprintf(stderr, fmt$link9, args$link9);
-  args$link9 = ((void **)NULL);
+  void **args_link9 = (void **)&fmt_link9;
+  vfprintf(stderr, fmt_link9, args_link9);
+  args_link9 = ((void **)NULL);
 }
 
 // zap_ai_callback
@@ -21823,9 +21823,9 @@ extern signed int zap_ca_new_pmt(struct mpeg_pmt_section *pmt)
         return -1;
       }
 
-      signed int return_value_en50221_app_ca_pmt$1;
-      return_value_en50221_app_ca_pmt$1=en50221_app_ca_pmt(stdcam->ca_resource, (unsigned short int)stdcam->ca_session_number, capmt, (unsigned int)size);
-      if(!(return_value_en50221_app_ca_pmt$1 == 0))
+      signed int return_value_en50221_app_ca_pmt_1;
+      return_value_en50221_app_ca_pmt_1=en50221_app_ca_pmt(stdcam->ca_resource, (unsigned short int)stdcam->ca_session_number, capmt, (unsigned int)size);
+      if(!(return_value_en50221_app_ca_pmt_1 == 0))
       {
         fprintf(stderr, "Failed to send PMT\n");
         return -1;

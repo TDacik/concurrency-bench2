@@ -1,60 +1,60 @@
-// #anon_enum$TPOLL_ZERO_FDS=1$TPOLL_ZERO_TIMERS=2$TPOLL_ZERO_ALL=3
+// #anon_enum_TPOLL_ZERO_FDS=1_TPOLL_ZERO_TIMERS=2_TPOLL_ZERO_ALL=3
 // file tpoll.h line 48
-enum anonymous$1 { TPOLL_ZERO_FDS=1, TPOLL_ZERO_TIMERS=2, TPOLL_ZERO_ALL=3 };
+enum anonymous_1 { TPOLL_ZERO_FDS=1, TPOLL_ZERO_TIMERS=2, TPOLL_ZERO_ALL=3 };
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$13;
+struct anonymous_13;
 
 // tag-#anon#ST[S32'rm_so'||S32'rm_eo'|]
 // file /usr/include/regex.h line 452
-struct anonymous$2;
+struct anonymous_2;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$4;
+struct anonymous_4;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$11;
+struct anonymous_11;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$0;
+union anonymous_0;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
 union anonymous;
 
@@ -297,9 +297,9 @@ extern void _exit(signed int);
 // _inevent_create
 // file inevent.c line 411
 static struct inevent * _inevent_create(const char *pathname, void (*cb_fnc)(void *), void *cb_arg);
-// _inevent_create::cb_fnc$object
+// _inevent_create::cb_fnc_object
 //
-void cb_fnc$object(void *);
+void cb_fnc_object(void *);
 // _inevent_destroy
 // file inevent.c line 472
 static void _inevent_destroy(struct inevent *inevent_ptr);
@@ -329,7 +329,7 @@ static void _tpoll_get_timeval(struct timeval *tvp, signed int ms);
 static signed int _tpoll_grow(struct tpoll *tp, signed int num_fds_req);
 // _tpoll_init
 // file tpoll.c line 698
-static void _tpoll_init(struct tpoll *tp, enum anonymous$1 how);
+static void _tpoll_init(struct tpoll *tp, enum anonymous_1 how);
 // _tpoll_signal_recv
 // file tpoll.c line 771
 static void _tpoll_signal_recv(struct tpoll *tp);
@@ -663,9 +663,9 @@ extern const char * inet_ntop(signed int, const void *, char *, unsigned int);
 // inevent_add
 // file inevent.h line 45
 signed int inevent_add(const char *pathname, void (*cb_fnc)(void *), void *cb_arg);
-// inevent_add::cb_fnc$object
+// inevent_add::cb_fnc_object
 //
-void cb_fnc$object(void *);
+void cb_fnc_object(void *);
 // inevent_get_fd
 // file inevent.h line 49
 signed int inevent_get_fd(void);
@@ -825,18 +825,18 @@ signed int list_count(struct list *l);
 // list_create
 // file list.h line 82
 struct list * list_create(void (*f)(void *));
-// list_create::f$object
+// list_create::f_object
 //
-void f$object(void *);
+void f_object(void *);
 // list_delete
 // file list.h line 248
 signed int list_delete(struct listIterator *i);
 // list_delete_all
 // file list.h line 136
 signed int list_delete_all(struct list *l, signed int (*f)(void *, void *), void *key);
-// list_delete_all::f$object
+// list_delete_all::f_object
 //
-signed int f$object(void *, void *);
+signed int f_object(void *, void *);
 // list_dequeue
 // file list.c line 427
 void * list_dequeue(struct list *l);
@@ -849,15 +849,15 @@ void * list_enqueue(struct list *l, void *x);
 // list_find
 // file list.h line 232
 void * list_find(struct listIterator *i, signed int (*f)(void *, void *), void *key);
-// list_find::f$object
+// list_find::f_object
 //
-signed int f$object(void *, void *);
+signed int f_object(void *, void *);
 // list_find_first
 // file list.h line 126
 void * list_find_first(struct list *l, signed int (*f)(void *, void *), void *key);
-// list_find_first::f$object
+// list_find_first::f_object
 //
-signed int f$object(void *, void *);
+signed int f_object(void *, void *);
 // list_free
 // file list.c line 703
 static void list_free(struct list *l);
@@ -915,9 +915,9 @@ void * list_remove(struct listIterator *i);
 // list_sort
 // file list.h line 145
 void list_sort(struct list *l, signed int (*f)(void *, void *));
-// list_sort::f$object
+// list_sort::f_object
 //
-signed int f$object(void *, void *);
+signed int f_object(void *, void *);
 // listen
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 233
 extern signed int listen(signed int, signed int);
@@ -1089,9 +1089,9 @@ extern signed int poll(struct pollfd *, unsigned long int, signed int);
 // posix_signal
 // file util.h line 49
 void (*posix_signal(signed int signum, void (*f)(signed int)))(signed int);
-// posix_signal::f$object
+// posix_signal::f_object
 //
-void f$object(signed int);
+void f_object(signed int);
 // printf
 // file /usr/include/stdio.h line 362
 extern signed int printf(const char *, ...);
@@ -1148,7 +1148,7 @@ extern signed int pthread_detach(unsigned long int);
 extern signed int pthread_mutex_destroy(union anonymous *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous *, const union anonymous$0 *);
+extern signed int pthread_mutex_init(union anonymous *, const union anonymous_0 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
 extern signed int pthread_mutex_lock(union anonymous *);
@@ -1199,7 +1199,7 @@ extern signed int regcomp(struct re_pattern_buffer *, const char *, signed int);
 extern unsigned long int regerror(signed int, const struct re_pattern_buffer *, char *, unsigned long int);
 // regexec
 // file /usr/include/regex.h line 566
-extern signed int regexec(const struct re_pattern_buffer *, const char *, unsigned long int, struct anonymous$2 *, signed int);
+extern signed int regexec(const struct re_pattern_buffer *, const char *, unsigned long int, struct anonymous_2 *, signed int);
 // regfree
 // file /usr/include/regex.h line 574
 extern void regfree(struct re_pattern_buffer *);
@@ -1298,7 +1298,7 @@ static void sig_hup_handler(signed int signum);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$13 *);
+extern signed int sigemptyset(struct anonymous_13 *);
 // signal_daemon
 // file server-conf.c line 517
 static void signal_daemon(struct server_conf *conf);
@@ -1428,21 +1428,21 @@ signed int tpoll_set(struct tpoll *tp, signed int fd, signed short int events);
 // tpoll_timeout_absolute
 // file tpoll.h line 74
 signed int tpoll_timeout_absolute(struct tpoll *tp, void (*cb)(void *), void *arg, struct timeval *tvp);
-// tpoll_timeout_absolute::cb$object
+// tpoll_timeout_absolute::cb_object
 //
-void cb$object(void *);
+void cb_object(void *);
 // tpoll_timeout_cancel
 // file tpoll.h line 79
 signed int tpoll_timeout_cancel(struct tpoll *tp, signed int id);
 // tpoll_timeout_relative
 // file tpoll.h line 77
 signed int tpoll_timeout_relative(struct tpoll *tp, void (*cb)(void *), void *arg, signed int ms);
-// tpoll_timeout_relative::cb$object
+// tpoll_timeout_relative::cb_object
 //
-void cb$object(void *);
+void cb_object(void *);
 // tpoll_zero
 // file tpoll.h line 66
-signed int tpoll_zero(struct tpoll *tp, enum anonymous$1 how);
+signed int tpoll_zero(struct tpoll *tp, enum anonymous_1 how);
 // umask
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 311
 extern unsigned int umask(unsigned int);
@@ -1492,7 +1492,7 @@ signed int write_time_string(signed long int t, char *dst, unsigned long int dst
 // file server.h line 427
 signed int write_to_obj(struct base_obj *obj);
 
-struct anonymous$7
+struct anonymous_7
 {
   // _call_addr
   void *_call_addr;
@@ -1502,7 +1502,7 @@ struct anonymous$7
   unsigned int _arch;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // si_addr
   void *si_addr;
@@ -1510,13 +1510,13 @@ struct anonymous$5
   signed short int si_addr_lsb;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // rm_so
   signed int rm_so;
@@ -1524,7 +1524,7 @@ struct anonymous$2
   signed int rm_eo;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // si_pid
   signed int si_pid;
@@ -1532,7 +1532,7 @@ struct anonymous$8
   unsigned int si_uid;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // si_pid
   signed int si_pid;
@@ -1554,7 +1554,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // si_pid
   signed int si_pid;
@@ -1564,7 +1564,7 @@ struct anonymous$3
   union sigval si_sigval;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // si_tid
   signed int si_tid;
@@ -1574,7 +1574,7 @@ struct anonymous$9
   union sigval si_sigval;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // si_band
   signed long int si_band;
@@ -1582,27 +1582,27 @@ struct anonymous$6
   signed int si_fd;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$8 _kill;
+  struct anonymous_8 _kill;
   // _timer
-  struct anonymous$9 _timer;
+  struct anonymous_9 _timer;
   // _rt
-  struct anonymous$3 _rt;
+  struct anonymous_3 _rt;
   // _sigchld
-  struct anonymous$4 _sigchld;
+  struct anonymous_4 _sigchld;
   // _sigfault
-  struct anonymous$5 _sigfault;
+  struct anonymous_5 _sigfault;
   // _sigpoll
-  struct anonymous$6 _sigpoll;
+  struct anonymous_6 _sigpoll;
   // _sigsys
-  struct anonymous$7 _sigsys;
+  struct anonymous_7 _sigsys;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // si_signo
   signed int si_signo;
@@ -1611,18 +1611,18 @@ struct anonymous$11
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$10 _sifields;
+  union anonymous_10 _sifields;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$11 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_11 *, void *);
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __size
   char __size[4l];
@@ -2321,9 +2321,9 @@ struct server_conf
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$12 __sigaction_handler;
+  union anonymous_12 __sigaction_handler;
   // sa_mask
-  struct anonymous$13 sa_mask;
+  struct anonymous_13 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -2631,9 +2631,9 @@ static struct inevent * _inevent_create(const char *pathname, void (*cb_fnc)(voi
   struct inevent *inevent_ptr = (struct inevent *)(void *)0;
   char *p;
   unsigned int event_mask = (unsigned int)(0x00000100 | 0x00000080);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct inevent) /*48ul*/ );
-  inevent_ptr = (struct inevent *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct inevent) /*48ul*/ );
+  inevent_ptr = (struct inevent *)return_value_malloc_1;
   if(!(inevent_ptr == ((struct inevent *)NULL)))
   {
     memset((void *)inevent_ptr, 0, sizeof(struct inevent) /*48ul*/ );
@@ -2750,26 +2750,26 @@ err:
 // file inevent.c line 527
 static signed int _list_find_by_event(const struct inevent *inevent_ptr, struct inotify_event *event_ptr)
 {
-  _Bool tmp_if_expr$2;
-  signed int return_value_strcmp$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_strcmp_1;
   if(inevent_ptr->wd == event_ptr->wd)
   {
-    return_value_strcmp$1=strcmp(inevent_ptr->filename, event_ptr->name);
-    tmp_if_expr$2 = return_value_strcmp$1 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_strcmp_1=strcmp(inevent_ptr->filename, event_ptr->name);
+    tmp_if_expr_2 = return_value_strcmp_1 == 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  return (signed int)tmp_if_expr$2;
+    tmp_if_expr_2 = (_Bool)0;
+  return (signed int)tmp_if_expr_2;
 }
 
 // _list_find_by_path
 // file inevent.c line 499
 static signed int _list_find_by_path(const struct inevent *inevent_ptr, const char *pathname)
 {
-  signed int return_value_strcmp$1;
-  return_value_strcmp$1=strcmp(inevent_ptr->pathname, pathname);
-  return (signed int)(return_value_strcmp$1 == 0);
+  signed int return_value_strcmp_1;
+  return_value_strcmp_1=strcmp(inevent_ptr->pathname, pathname);
+  return (signed int)(return_value_strcmp_1 == 0);
 }
 
 // _list_find_by_wd
@@ -2787,9 +2787,9 @@ static signed int _tpoll_diff_timeval(struct timeval *tvp1, struct timeval *tvp0
   signed int ms;
   if(tvp0 == ((struct timeval *)NULL) || tvp1 == ((struct timeval *)NULL))
   {
-    signed int return_value_gettimeofday$1;
-    return_value_gettimeofday$1=gettimeofday(&tv, (struct timezone *)(void *)0);
-    if(!(return_value_gettimeofday$1 >= 0))
+    signed int return_value_gettimeofday_1;
+    return_value_gettimeofday_1=gettimeofday(&tv, (struct timezone *)(void *)0);
+    if(!(return_value_gettimeofday_1 >= 0))
       log_err(0, "Unable to get time of day");
 
     if(tvp0 == ((struct timeval *)NULL))
@@ -2801,13 +2801,13 @@ static signed int _tpoll_diff_timeval(struct timeval *tvp1, struct timeval *tvp0
   }
 
   ms = (signed int)((tvp1->tv_sec - tvp0->tv_sec) * (signed long int)1000 + (tvp1->tv_usec - tvp0->tv_usec) / (signed long int)1000);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(tvp1->tv_sec >= tvp0->tv_sec)
-    tmp_if_expr$2 = tvp1->tv_usec > tvp0->tv_usec ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = tvp1->tv_usec > tvp0->tv_usec ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
     ms = ms + 1;
 
   else
@@ -2825,9 +2825,9 @@ static signed int _tpoll_diff_timeval(struct timeval *tvp1, struct timeval *tvp0
 // file tpoll.c line 859
 static void _tpoll_get_timeval(struct timeval *tvp, signed int ms)
 {
-  signed int return_value_gettimeofday$1;
-  return_value_gettimeofday$1=gettimeofday(tvp, (struct timezone *)(void *)0);
-  if(!(return_value_gettimeofday$1 >= 0))
+  signed int return_value_gettimeofday_1;
+  return_value_gettimeofday_1=gettimeofday(tvp, (struct timezone *)(void *)0);
+  if(!(return_value_gettimeofday_1 >= 0))
     log_err(0, "Unable to get time of day");
 
   if(ms >= 1)
@@ -2869,9 +2869,9 @@ static signed int _tpoll_grow(struct tpoll *tp, signed int num_fds_req)
       num_fds_tmp = num_fds_req;
 
     _tpoll_signal_send(tp);
-    void *return_value_realloc$1;
-    return_value_realloc$1=realloc((void *)tp->fd_array, (unsigned long int)num_fds_tmp * sizeof(struct pollfd) /*8ul*/ );
-    fd_array_tmp = (struct pollfd *)return_value_realloc$1;
+    void *return_value_realloc_1;
+    return_value_realloc_1=realloc((void *)tp->fd_array, (unsigned long int)num_fds_tmp * sizeof(struct pollfd) /*8ul*/ );
+    fd_array_tmp = (struct pollfd *)return_value_realloc_1;
     if(fd_array_tmp == ((struct pollfd *)NULL))
       return -1;
 
@@ -2892,7 +2892,7 @@ static signed int _tpoll_grow(struct tpoll *tp, signed int num_fds_req)
 
 // _tpoll_init
 // file tpoll.c line 698
-static void _tpoll_init(struct tpoll *tp, enum anonymous$1 how)
+static void _tpoll_init(struct tpoll *tp, enum anonymous_1 how)
 {
   signed int i;
   struct tpoll_timer *t;
@@ -2931,38 +2931,38 @@ static void _tpoll_signal_recv(struct tpoll *tp)
 {
   signed int n;
   unsigned char c[2l];
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
   if(!(tp->is_signaled == (_Bool)0))
   {
     do
     {
-      signed long int return_value_read$1;
-      return_value_read$1=read(tp->fd_pipe[(signed long int)0], (void *)&c, sizeof(unsigned char [2l]) /*2ul*/ );
-      n = (signed int)return_value_read$1;
+      signed long int return_value_read_1;
+      return_value_read_1=read(tp->fd_pipe[(signed long int)0], (void *)&c, sizeof(unsigned char [2l]) /*2ul*/ );
+      n = (signed int)return_value_read_1;
       if(!(n >= 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        if(*return_value___errno_location$2 == 4)
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        if(*return_value___errno_location_2 == 4)
           continue;
 
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        if(*return_value___errno_location$3 == 11)
-          tmp_if_expr$5 = (_Bool)1;
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        if(*return_value___errno_location_3 == 11)
+          tmp_if_expr_5 = (_Bool)1;
 
         else
         {
-          return_value___errno_location$4=__errno_location();
-          tmp_if_expr$5 = *return_value___errno_location$4 == 11 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_4=__errno_location();
+          tmp_if_expr_5 = *return_value___errno_location_4 == 11 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$5)
+        if(tmp_if_expr_5)
           break;
 
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        log_err(*return_value___errno_location$6, "Unable to read signal from tpoll");
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        log_err(*return_value___errno_location_6, "Unable to read signal from tpoll");
       }
 
       else
@@ -2991,44 +2991,44 @@ static void _tpoll_signal_send(struct tpoll *tp)
 {
   signed int n;
   unsigned char c = (unsigned char)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(tp->is_signaled == (_Bool)0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = !(tp->is_blocked != (_Bool)0) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$5;
-  if(!tmp_if_expr$1)
+    tmp_if_expr_1 = !(tp->is_blocked != (_Bool)0) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_5;
+  if(!tmp_if_expr_1)
   {
     do
     {
-      signed long int return_value_write$2;
-      return_value_write$2=write(tp->fd_pipe[(signed long int)1], (const void *)&c, (unsigned long int)1);
-      n = (signed int)return_value_write$2;
+      signed long int return_value_write_2;
+      return_value_write_2=write(tp->fd_pipe[(signed long int)1], (const void *)&c, (unsigned long int)1);
+      n = (signed int)return_value_write_2;
       if(!(n >= 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        if(*return_value___errno_location$3 == 4)
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        if(*return_value___errno_location_3 == 4)
           continue;
 
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        if(*return_value___errno_location$4 == 11)
-          tmp_if_expr$6 = (_Bool)1;
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        if(*return_value___errno_location_4 == 11)
+          tmp_if_expr_6 = (_Bool)1;
 
         else
         {
-          return_value___errno_location$5=__errno_location();
-          tmp_if_expr$6 = *return_value___errno_location$5 == 11 ? (_Bool)1 : (_Bool)0;
+          return_value___errno_location_5=__errno_location();
+          tmp_if_expr_6 = *return_value___errno_location_5 == 11 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$6)
+        if(tmp_if_expr_6)
           break;
 
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        log_err(*return_value___errno_location$7, "Unable to write signal to tpoll");
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        log_err(*return_value___errno_location_7, "Unable to write signal to tpoll");
       }
 
       else
@@ -3056,39 +3056,39 @@ static void accept_client(struct server_conf *conf)
   struct client_args *args;
   signed int rc;
   unsigned long int tid;
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
   do
   {
     sd=accept(conf->ld, (struct sockaddr *)(void *)0, (unsigned int *)(void *)0);
     if(sd >= 0)
       break;
 
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 4))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 4))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      if(*return_value___errno_location$2 == 11)
-        tmp_if_expr$4 = (_Bool)1;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      if(*return_value___errno_location_2 == 11)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
       {
-        return_value___errno_location$3=__errno_location();
-        tmp_if_expr$4 = *return_value___errno_location$3 == 11 ? (_Bool)1 : (_Bool)0;
+        return_value___errno_location_3=__errno_location();
+        tmp_if_expr_4 = *return_value___errno_location_3 == 11 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$4)
+      if(tmp_if_expr_4)
         goto __CPROVER_DUMP_L12;
 
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      if(*return_value___errno_location$5 == 103)
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      if(*return_value___errno_location_5 == 103)
         goto __CPROVER_DUMP_L12;
 
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      log_err(*return_value___errno_location$6, "Unable to accept new connection");
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      log_err(*return_value___errno_location_6, "Unable to accept new connection");
     }
 
   }
@@ -3096,20 +3096,20 @@ static void accept_client(struct server_conf *conf)
   set_fd_blocking(sd);
   if(!(conf->enableKeepAlive == 0u))
   {
-    signed int return_value_setsockopt$8;
-    return_value_setsockopt$8=setsockopt(sd, 1, 9, (const void *)&on, (unsigned int)sizeof(const signed int) /*4ul*/ );
-    if(!(return_value_setsockopt$8 >= 0))
+    signed int return_value_setsockopt_8;
+    return_value_setsockopt_8=setsockopt(sd, 1, 9, (const void *)&on, (unsigned int)sizeof(const signed int) /*4ul*/ );
+    if(!(return_value_setsockopt_8 >= 0))
     {
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      log_err(*return_value___errno_location$7, "Unable to set KEEPALIVE socket option");
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      log_err(*return_value___errno_location_7, "Unable to set KEEPALIVE socket option");
     }
 
   }
 
-  void *return_value_malloc$9;
-  return_value_malloc$9=malloc(sizeof(struct client_args) /*16ul*/ );
-  args = (struct client_args *)return_value_malloc$9;
+  void *return_value_malloc_9;
+  return_value_malloc_9=malloc(sizeof(struct client_args) /*16ul*/ );
+  args = (struct client_args *)return_value_malloc_9;
   if(args == ((struct client_args *)NULL))
   {
     log_err(0, "Out of memory");
@@ -3183,57 +3183,57 @@ static void begin_daemonize(signed int *fd_ptr, signed int *pgid_ptr)
   char ebuf[1024l];
   signed int pgid;
   umask((unsigned int)0);
-  signed int return_value_pipe$2;
-  return_value_pipe$2=pipe(fds);
-  if(!(return_value_pipe$2 >= 0))
+  signed int return_value_pipe_2;
+  return_value_pipe_2=pipe(fds);
+  if(!(return_value_pipe_2 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    log_err(*return_value___errno_location$1, "Unable to create daemon pipe");
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    log_err(*return_value___errno_location_1, "Unable to create daemon pipe");
   }
 
   log_set_err_pipe(fds[(signed long int)1]);
   pid=fork();
   if(!(pid >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    log_err(*return_value___errno_location$3, "Unable to create child process");
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    log_err(*return_value___errno_location_3, "Unable to create child process");
   }
 
   else
     if(pid >= 1)
     {
       log_set_err_pipe(-1);
-      signed int return_value_close$5;
-      return_value_close$5=close(fds[(signed long int)1]);
-      if(!(return_value_close$5 >= 0))
+      signed int return_value_close_5;
+      return_value_close_5=close(fds[(signed long int)1]);
+      if(!(return_value_close_5 >= 0))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        log_err(*return_value___errno_location$4, "Unable to close write-pipe in parent process");
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        log_err(*return_value___errno_location_4, "Unable to close write-pipe in parent process");
       }
 
-      signed long int return_value_read$7;
-      return_value_read$7=read(fds[(signed long int)0], (void *)&priority, sizeof(signed char) /*1ul*/ );
-      n = (signed int)return_value_read$7;
+      signed long int return_value_read_7;
+      return_value_read_7=read(fds[(signed long int)0], (void *)&priority, sizeof(signed char) /*1ul*/ );
+      n = (signed int)return_value_read_7;
       if(!(n >= 0))
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        log_err(*return_value___errno_location$6, "Unable to read status from grandchild process");
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        log_err(*return_value___errno_location_6, "Unable to read status from grandchild process");
       }
 
       if(n >= 1 && (signed int)priority >= 0)
       {
-        signed long int return_value_read$9;
-        return_value_read$9=read(fds[(signed long int)0], (void *)ebuf, sizeof(char [1024l]) /*1024ul*/ );
-        n = (signed int)return_value_read$9;
+        signed long int return_value_read_9;
+        return_value_read_9=read(fds[(signed long int)0], (void *)ebuf, sizeof(char [1024l]) /*1024ul*/ );
+        n = (signed int)return_value_read_9;
         if(!(n >= 0))
         {
-          signed int *return_value___errno_location$8;
-          return_value___errno_location$8=__errno_location();
-          log_err(*return_value___errno_location$8, "Unable to read error message from grandchild process");
+          signed int *return_value___errno_location_8;
+          return_value___errno_location_8=__errno_location();
+          log_err(*return_value___errno_location_8, "Unable to read error message from grandchild process");
         }
 
         if(n >= 1)
@@ -3252,30 +3252,30 @@ static void begin_daemonize(signed int *fd_ptr, signed int *pgid_ptr)
       exit(0);
     }
 
-  signed int return_value_close$11;
-  return_value_close$11=close(fds[(signed long int)0]);
-  if(!(return_value_close$11 >= 0))
+  signed int return_value_close_11;
+  return_value_close_11=close(fds[(signed long int)0]);
+  if(!(return_value_close_11 >= 0))
   {
-    signed int *return_value___errno_location$10;
-    return_value___errno_location$10=__errno_location();
-    log_err(*return_value___errno_location$10, "Unable to close read-pipe in child process");
+    signed int *return_value___errno_location_10;
+    return_value___errno_location_10=__errno_location();
+    log_err(*return_value___errno_location_10, "Unable to close read-pipe in child process");
   }
 
   pgid=setsid();
   if(!(pgid >= 0))
   {
-    signed int *return_value___errno_location$12;
-    return_value___errno_location$12=__errno_location();
-    log_err(*return_value___errno_location$12, "Unable to disassociate controlling tty");
+    signed int *return_value___errno_location_12;
+    return_value___errno_location_12=__errno_location();
+    log_err(*return_value___errno_location_12, "Unable to disassociate controlling tty");
   }
 
   posix_signal(1, (void (*)(signed int))1);
   pid=fork();
   if(!(pid >= 0))
   {
-    signed int *return_value___errno_location$13;
-    return_value___errno_location$13=__errno_location();
-    log_err(*return_value___errno_location$13, "Unable to create grandchild process");
+    signed int *return_value___errno_location_13;
+    return_value___errno_location_13=__errno_location();
+    log_err(*return_value___errno_location_13, "Unable to create grandchild process");
   }
 
   else
@@ -3307,29 +3307,29 @@ static signed int check_busy_consoles(struct request *req)
   signed long int t;
   char *delta;
   char buf[1024l];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((signed int)req->command == 3)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)req->command == 2 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  void *return_value_list_next$3;
-  void *return_value_list_pop$8;
-  void *return_value_list_next$9;
-  signed int *return_value___errno_location$10;
-  signed int *return_value___errno_location$12;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)req->command == 2 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  void *return_value_list_next_3;
+  void *return_value_list_pop_8;
+  void *return_value_list_next_9;
+  signed int *return_value___errno_location_10;
+  signed int *return_value___errno_location_12;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
     if(!(req->enableForce == 0u))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = req->enableJoin != 0u ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = req->enableJoin != 0u ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return 0;
 
     else
@@ -3338,22 +3338,22 @@ static signed int check_busy_consoles(struct request *req)
       i=list_iterator_create(req->consoles);
       do
       {
-        return_value_list_next$3=list_next(i);
-        console = (struct base_obj *)return_value_list_next$3;
+        return_value_list_next_3=list_next(i);
+        console = (struct base_obj *)return_value_list_next_3;
         if(console == ((struct base_obj *)NULL))
           break;
 
-        signed int return_value_list_is_empty$4;
-        return_value_list_is_empty$4=list_is_empty(console->writers);
-        if(return_value_list_is_empty$4 == 0)
+        signed int return_value_list_is_empty_4;
+        return_value_list_is_empty_4=list_is_empty(console->writers);
+        if(return_value_list_is_empty_4 == 0)
           list_append(busy, (void *)console);
 
       }
       while((_Bool)1);
       list_iterator_destroy(i);
-      signed int return_value_list_is_empty$5;
-      return_value_list_is_empty$5=list_is_empty(busy);
-      if(!(return_value_list_is_empty$5 == 0))
+      signed int return_value_list_is_empty_5;
+      return_value_list_is_empty_5=list_is_empty(busy);
+      if(!(return_value_list_is_empty_5 == 0))
       {
         list_destroy(busy);
         return 0;
@@ -3361,42 +3361,42 @@ static signed int check_busy_consoles(struct request *req)
 
       else
       {
-        signed int return_value_list_count$7;
-        return_value_list_count$7=list_count(busy);
-        if(return_value_list_count$7 == 1)
+        signed int return_value_list_count_7;
+        return_value_list_count_7=list_count(busy);
+        if(return_value_list_count_7 == 1)
           snprintf(buf, sizeof(char [1024l]) /*1024ul*/ , "Found console already in use");
 
         else
         {
-          signed int return_value_list_count$6;
-          return_value_list_count$6=list_count(busy);
-          snprintf(buf, sizeof(char [1024l]) /*1024ul*/ , "Found %d consoles already in use", return_value_list_count$6);
+          signed int return_value_list_count_6;
+          return_value_list_count_6=list_count(busy);
+          snprintf(buf, sizeof(char [1024l]) /*1024ul*/ , "Found %d consoles already in use", return_value_list_count_6);
         }
         send_rsp(req, 7, buf);
         do
         {
-          return_value_list_pop$8=list_pop(busy);
-          console = (struct base_obj *)return_value_list_pop$8;
+          return_value_list_pop_8=list_pop(busy);
+          console = (struct base_obj *)return_value_list_pop_8;
           if(console == ((struct base_obj *)NULL))
             break;
 
           i=list_iterator_create(console->writers);
           do
           {
-            return_value_list_next$9=list_next(i);
-            writer = (struct base_obj *)return_value_list_next$9;
+            return_value_list_next_9=list_next(i);
+            writer = (struct base_obj *)return_value_list_next_9;
             if(writer == ((struct base_obj *)NULL))
               break;
 
             do
             {
-              signed int *return_value___errno_location$11;
-              return_value___errno_location$11=__errno_location();
-              *return_value___errno_location$11=pthread_mutex_lock(&writer->bufLock);
-              if(!(*return_value___errno_location$11 == 0))
+              signed int *return_value___errno_location_11;
+              return_value___errno_location_11=__errno_location();
+              *return_value___errno_location_11=pthread_mutex_lock(&writer->bufLock);
+              if(!(*return_value___errno_location_11 == 0))
               {
-                return_value___errno_location$10=__errno_location();
-                log_err(*return_value___errno_location$10, "pthread_mutex_lock() failed");
+                return_value___errno_location_10=__errno_location();
+                log_err(*return_value___errno_location_10, "pthread_mutex_lock() failed");
               }
 
             }
@@ -3406,13 +3406,13 @@ static signed int check_busy_consoles(struct request *req)
             tty = writer->aux.client.req->tty;
             do
             {
-              signed int *return_value___errno_location$13;
-              return_value___errno_location$13=__errno_location();
-              *return_value___errno_location$13=pthread_mutex_unlock(&writer->bufLock);
-              if(!(*return_value___errno_location$13 == 0))
+              signed int *return_value___errno_location_13;
+              return_value___errno_location_13=__errno_location();
+              *return_value___errno_location_13=pthread_mutex_unlock(&writer->bufLock);
+              if(!(*return_value___errno_location_13 == 0))
               {
-                return_value___errno_location$12=__errno_location();
-                log_err(*return_value___errno_location$12, "pthread_mutex_unlock() failed");
+                return_value___errno_location_12=__errno_location();
+                log_err(*return_value___errno_location_12, "pthread_mutex_unlock() failed");
               }
 
             }
@@ -3424,17 +3424,17 @@ static signed int check_busy_consoles(struct request *req)
             if(!(delta == ((char *)NULL)))
               free((void *)delta);
 
-            unsigned long int return_value_strlen$16;
-            return_value_strlen$16=strlen(buf);
-            signed long int return_value_write_n$17;
-            return_value_write_n$17=write_n(req->sd, (void *)buf, return_value_strlen$16);
-            if(!(return_value_write_n$17 >= 0l))
+            unsigned long int return_value_strlen_16;
+            return_value_strlen_16=strlen(buf);
+            signed long int return_value_write_n_17;
+            return_value_write_n_17=write_n(req->sd, (void *)buf, return_value_strlen_16);
+            if(!(return_value_write_n_17 >= 0l))
             {
-              signed int *return_value___errno_location$14;
-              return_value___errno_location$14=__errno_location();
-              char *return_value_strerror$15;
-              return_value_strerror$15=strerror(*return_value___errno_location$14);
-              log_msg(5, "Unable to write to <%s:%d>: %s", req->fqdn, req->port, return_value_strerror$15);
+              signed int *return_value___errno_location_14;
+              return_value___errno_location_14=__errno_location();
+              char *return_value_strerror_15;
+              return_value_strerror_15=strerror(*return_value___errno_location_14);
+              log_msg(5, "Unable to write to <%s:%d>: %s", req->fqdn, req->port, return_value_strerror_15);
               break;
             }
 
@@ -3455,56 +3455,56 @@ static signed int check_busy_consoles(struct request *req)
 static void check_console_state(struct base_obj *console, struct base_obj *client)
 {
   char buf[1024l];
-  _Bool tmp_if_expr$9;
+  _Bool tmp_if_expr_9;
   if((signed int)console->type == CONMAN_OBJ_PROCESS)
-    tmp_if_expr$9 = console->fd < 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_9 = console->fd < 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$9 = (_Bool)0;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$9)
+    tmp_if_expr_9 = (_Bool)0;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_9)
   {
     snprintf(buf, sizeof(char [1024l]) /*1024ul*/ , "%sConsole [%s] is currently disconnected from \"%s\"%s", (const void *)"\r\n<ConMan> ", console->name, console->aux.process.prog, (const void *)".\r\n");
     strcpy(&buf[(signed long int)(sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)3)], "\r\n");
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(buf);
-    write_obj_data(client, (const void *)buf, (signed int)return_value_strlen$1, 1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(buf);
+    write_obj_data(client, (const void *)buf, (signed int)return_value_strlen_1, 1);
     open_process_obj(console);
   }
 
   else
   {
     if((signed int)console->type == CONMAN_OBJ_SERIAL)
-      tmp_if_expr$8 = console->fd < 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_8 = console->fd < 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    if(tmp_if_expr$8)
+      tmp_if_expr_8 = (_Bool)0;
+    if(tmp_if_expr_8)
     {
       snprintf(buf, sizeof(char [1024l]) /*1024ul*/ , "%sConsole [%s] is currently disconnected from \"%s\"%s", (const void *)"\r\n<ConMan> ", console->name, console->aux.serial.dev, (const void *)".\r\n");
       strcpy(&buf[(signed long int)(sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)3)], "\r\n");
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(buf);
-      write_obj_data(client, (const void *)buf, (signed int)return_value_strlen$2, 1);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(buf);
+      write_obj_data(client, (const void *)buf, (signed int)return_value_strlen_2, 1);
       open_serial_obj(console);
     }
 
     else
     {
       if((signed int)console->type == CONMAN_OBJ_TELNET)
-        tmp_if_expr$7 = (signed int)console->aux.telnet.state != 3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = (signed int)console->aux.telnet.state != 3 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = (_Bool)0;
+      if(tmp_if_expr_7)
       {
         snprintf(buf, sizeof(char [1024l]) /*1024ul*/ , "%sConsole [%s] is currently disconnected from <%s:%d>%s", (const void *)"\r\n<ConMan> ", console->name, console->aux.telnet.host, console->aux.telnet.port, (const void *)".\r\n");
         strcpy(&buf[(signed long int)(sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)3)], "\r\n");
-        unsigned long int return_value_strlen$3;
-        return_value_strlen$3=strlen(buf);
-        write_obj_data(client, (const void *)buf, (signed int)return_value_strlen$3, 1);
+        unsigned long int return_value_strlen_3;
+        return_value_strlen_3=strlen(buf);
+        write_obj_data(client, (const void *)buf, (signed int)return_value_strlen_3, 1);
         console->aux.telnet.delay = 15;
         if((signed int)console->aux.telnet.state == 1)
           open_telnet_obj(console);
@@ -3514,17 +3514,17 @@ static void check_console_state(struct base_obj *console, struct base_obj *clien
       else
       {
         if((signed int)console->type == CONMAN_OBJ_UNIXSOCK)
-          tmp_if_expr$6 = console->fd < 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = console->fd < 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
         {
           snprintf(buf, sizeof(char [1024l]) /*1024ul*/ , "%sConsole [%s] is currently disconnected from \"%s\"%s", (const void *)"\r\n<ConMan> ", console->name, console->aux.unixsock.dev, (const void *)".\r\n");
           strcpy(&buf[(signed long int)(sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)3)], "\r\n");
-          unsigned long int return_value_strlen$4;
-          return_value_strlen$4=strlen(buf);
-          write_obj_data(client, (const void *)buf, (signed int)return_value_strlen$4, 1);
+          unsigned long int return_value_strlen_4;
+          return_value_strlen_4=strlen(buf);
+          write_obj_data(client, (const void *)buf, (signed int)return_value_strlen_4, 1);
           open_unixsock_obj(console);
         }
 
@@ -3535,9 +3535,9 @@ static void check_console_state(struct base_obj *console, struct base_obj *clien
             {
               snprintf(buf, sizeof(char [1024l]) /*1024ul*/ , "%sConsole [%s] is currently disconnected from <%s>%s", (const void *)"\r\n<ConMan> ", console->name, console->aux.ipmi.host, (const void *)".\r\n");
               strcpy(&buf[(signed long int)(sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)3)], "\r\n");
-              unsigned long int return_value_strlen$5;
-              return_value_strlen$5=strlen(buf);
-              write_obj_data(client, (const void *)buf, (signed int)return_value_strlen$5, 1);
+              unsigned long int return_value_strlen_5;
+              return_value_strlen_5=strlen(buf);
+              write_obj_data(client, (const void *)buf, (signed int)return_value_strlen_5, 1);
               if((signed int)console->aux.ipmi.state == CONMAN_IPMI_DOWN)
                 open_ipmi_obj(console);
 
@@ -3561,15 +3561,15 @@ static signed int check_process_prog(struct base_obj *process)
   struct process_obj *auxp;
   struct stat st;
   auxp = &process->aux.process;
-  signed int return_value_stat$3;
-  return_value_stat$3=stat(auxp->argv[(signed long int)0], &st);
-  if(!(return_value_stat$3 >= 0))
+  signed int return_value_stat_3;
+  return_value_stat_3=stat(auxp->argv[(signed long int)0], &st);
+  if(!(return_value_stat_3 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    write_notify_msg(process, 4, "Console [%s] connection failed: \"%s\" stat error: %s", process->name, auxp->prog, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    write_notify_msg(process, 4, "Console [%s] connection failed: \"%s\" stat error: %s", process->name, auxp->prog, return_value_strerror_2);
     return -1;
   }
 
@@ -3581,9 +3581,9 @@ static signed int check_process_prog(struct base_obj *process)
 
   else
   {
-    signed int return_value_access$4;
-    return_value_access$4=access(auxp->argv[(signed long int)0], 1);
-    if(!(return_value_access$4 >= 0))
+    signed int return_value_access_4;
+    return_value_access_4=access(auxp->argv[(signed long int)0], 1);
+    if(!(return_value_access_4 >= 0))
     {
       write_notify_msg(process, 4, "Console [%s] connection failed: \"%s\" not executable", process->name, auxp->prog);
       return -1;
@@ -3601,15 +3601,15 @@ static signed int check_too_many_consoles(struct request *req)
   struct listIterator *i;
   struct base_obj *obj;
   char buf[32768l];
-  void *return_value_list_next$3;
+  void *return_value_list_next_3;
   if((signed int)req->command == 3)
     return 0;
 
   else
   {
-    signed int return_value_list_count$1;
-    return_value_list_count$1=list_count(req->consoles);
-    if(return_value_list_count$1 == 1)
+    signed int return_value_list_count_1;
+    return_value_list_count_1=list_count(req->consoles);
+    if(return_value_list_count_1 == 1)
       return 0;
 
     else
@@ -3626,31 +3626,31 @@ static signed int check_too_many_consoles(struct request *req)
 
       __CPROVER_DUMP_L3:
         ;
-        signed int return_value_list_count$2;
-        return_value_list_count$2=list_count(req->consoles);
-        snprintf(buf, sizeof(char [32768l]) /*32768ul*/ , "Found %d matching consoles", return_value_list_count$2);
+        signed int return_value_list_count_2;
+        return_value_list_count_2=list_count(req->consoles);
+        snprintf(buf, sizeof(char [32768l]) /*32768ul*/ , "Found %d matching consoles", return_value_list_count_2);
         send_rsp(req, 6, buf);
         i=list_iterator_create(req->consoles);
         do
         {
-          return_value_list_next$3=list_next(i);
-          obj = (struct base_obj *)return_value_list_next$3;
+          return_value_list_next_3=list_next(i);
+          obj = (struct base_obj *)return_value_list_next_3;
           if(obj == ((struct base_obj *)NULL))
             break;
 
           strlcpy(buf, obj->name, sizeof(char [32768l]) /*32768ul*/ );
           strlcat(buf, "\n", sizeof(char [32768l]) /*32768ul*/ );
-          unsigned long int return_value_strlen$6;
-          return_value_strlen$6=strlen(buf);
-          signed long int return_value_write_n$7;
-          return_value_write_n$7=write_n(req->sd, (void *)buf, return_value_strlen$6);
-          if(!(return_value_write_n$7 >= 0l))
+          unsigned long int return_value_strlen_6;
+          return_value_strlen_6=strlen(buf);
+          signed long int return_value_write_n_7;
+          return_value_write_n_7=write_n(req->sd, (void *)buf, return_value_strlen_6);
+          if(!(return_value_write_n_7 >= 0l))
           {
-            signed int *return_value___errno_location$4;
-            return_value___errno_location$4=__errno_location();
-            char *return_value_strerror$5;
-            return_value_strerror$5=strerror(*return_value___errno_location$4);
-            log_msg(5, "Unable to write to <%s:%d>: %s", req->fqdn, req->port, return_value_strerror$5);
+            signed int *return_value___errno_location_4;
+            return_value___errno_location_4=__errno_location();
+            char *return_value_strerror_5;
+            return_value_strerror_5=strerror(*return_value___errno_location_4);
+            log_msg(5, "Unable to write to <%s:%d>: %s", req->fqdn, req->port, return_value_strerror_5);
             break;
           }
 
@@ -3674,14 +3674,14 @@ signed int compare_objs(struct base_obj *obj1, struct base_obj *obj2)
   str2 = obj2->name;
   int1=find_trailing_int_str(str1);
   int2=find_trailing_int_str(str2);
-  signed int return_value_atoi$1;
-  signed int return_value_atoi$2;
+  signed int return_value_atoi_1;
+  signed int return_value_atoi_2;
   while(!(*str1 == 0))
     if(str1 == int1 && str2 == int2)
     {
-      return_value_atoi$1=atoi(int1);
-      return_value_atoi$2=atoi(int2);
-      return return_value_atoi$1 - return_value_atoi$2;
+      return_value_atoi_1=atoi(int1);
+      return_value_atoi_2=atoi(int2);
+      return return_value_atoi_1 - return_value_atoi_2;
     }
 
     else
@@ -3729,16 +3729,16 @@ static signed int complete_ipmi_connect(struct base_obj *ipmi)
 static signed int connect_ipmi_obj(struct base_obj *ipmi)
 {
   signed int rc = 0;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_lock(&ipmi->aux.ipmi.mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_lock(&ipmi->aux.ipmi.mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
-      return_value___errno_location$1=__errno_location();
-      log_err(*return_value___errno_location$1, "pthread_mutex_lock() failed");
+      return_value___errno_location_1=__errno_location();
+      log_err(*return_value___errno_location_1, "pthread_mutex_lock() failed");
     }
 
   }
@@ -3765,16 +3765,16 @@ static signed int connect_ipmi_obj(struct base_obj *ipmi)
 
   }
 
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_3;
   do
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    *return_value___errno_location$4=pthread_mutex_unlock(&ipmi->aux.ipmi.mutex);
-    if(!(*return_value___errno_location$4 == 0))
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    *return_value___errno_location_4=pthread_mutex_unlock(&ipmi->aux.ipmi.mutex);
+    if(!(*return_value___errno_location_4 == 0))
     {
-      return_value___errno_location$3=__errno_location();
-      log_err(*return_value___errno_location$3, "pthread_mutex_unlock() failed");
+      return_value___errno_location_3=__errno_location();
+      log_err(*return_value___errno_location_3, "pthread_mutex_unlock() failed");
     }
 
   }
@@ -3790,21 +3790,21 @@ static signed int connect_process_obj(struct base_obj *process)
   signed int fd_pair[2l] = { -1, -1 };
   signed int pid;
   auxp = &process->aux.process;
-  signed int return_value_check_process_prog$1;
-  return_value_check_process_prog$1=check_process_prog(process);
-  signed int return_value_socketpair$4;
-  signed int return_value_close$16;
-  signed long int return_value_time$18;
-  if(return_value_check_process_prog$1 >= 0)
+  signed int return_value_check_process_prog_1;
+  return_value_check_process_prog_1=check_process_prog(process);
+  signed int return_value_socketpair_4;
+  signed int return_value_close_16;
+  signed long int return_value_time_18;
+  if(return_value_check_process_prog_1 >= 0)
   {
-    return_value_socketpair$4=socketpair(1, 1, 0, fd_pair);
-    if(!(return_value_socketpair$4 >= 0))
+    return_value_socketpair_4=socketpair(1, 1, 0, fd_pair);
+    if(!(return_value_socketpair_4 >= 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      write_notify_msg(process, 4, "Console [%s] connection failed: socketpair error: %s", process->name, return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      write_notify_msg(process, 4, "Console [%s] connection failed: socketpair error: %s", process->name, return_value_strerror_3);
       goto err;
     }
 
@@ -3815,71 +3815,71 @@ static signed int connect_process_obj(struct base_obj *process)
     pid=fork();
     if(!(pid >= 0))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      char *return_value_strerror$6;
-      return_value_strerror$6=strerror(*return_value___errno_location$5);
-      write_notify_msg(process, 4, "Console [%s] connection failed: fork error: %s", process->name, return_value_strerror$6);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      char *return_value_strerror_6;
+      return_value_strerror_6=strerror(*return_value___errno_location_5);
+      write_notify_msg(process, 4, "Console [%s] connection failed: fork error: %s", process->name, return_value_strerror_6);
       goto err;
     }
 
     else
       if(pid == 0)
       {
-        signed int return_value_close$8;
-        return_value_close$8=close(fd_pair[(signed long int)0]);
-        if(!(return_value_close$8 >= 0))
+        signed int return_value_close_8;
+        return_value_close_8=close(fd_pair[(signed long int)0]);
+        if(!(return_value_close_8 >= 0))
         {
-          signed int *return_value___errno_location$7;
-          return_value___errno_location$7=__errno_location();
-          log_err(*return_value___errno_location$7, "close() of child fd_pair failed");
+          signed int *return_value___errno_location_7;
+          return_value___errno_location_7=__errno_location();
+          log_err(*return_value___errno_location_7, "close() of child fd_pair failed");
         }
 
-        signed int return_value_dup2$10;
-        return_value_dup2$10=dup2(fd_pair[(signed long int)1], 0);
-        if(!(return_value_dup2$10 >= 0))
+        signed int return_value_dup2_10;
+        return_value_dup2_10=dup2(fd_pair[(signed long int)1], 0);
+        if(!(return_value_dup2_10 >= 0))
         {
-          signed int *return_value___errno_location$9;
-          return_value___errno_location$9=__errno_location();
-          log_err(*return_value___errno_location$9, "dup2() of child stdin failed");
+          signed int *return_value___errno_location_9;
+          return_value___errno_location_9=__errno_location();
+          log_err(*return_value___errno_location_9, "dup2() of child stdin failed");
         }
 
-        signed int return_value_dup2$12;
-        return_value_dup2$12=dup2(fd_pair[(signed long int)1], 1);
-        if(!(return_value_dup2$12 >= 0))
+        signed int return_value_dup2_12;
+        return_value_dup2_12=dup2(fd_pair[(signed long int)1], 1);
+        if(!(return_value_dup2_12 >= 0))
         {
-          signed int *return_value___errno_location$11;
-          return_value___errno_location$11=__errno_location();
-          log_err(*return_value___errno_location$11, "dup2() of child stdout failed");
+          signed int *return_value___errno_location_11;
+          return_value___errno_location_11=__errno_location();
+          log_err(*return_value___errno_location_11, "dup2() of child stdout failed");
         }
 
-        signed int return_value_dup2$14;
-        return_value_dup2$14=dup2(fd_pair[(signed long int)1], 2);
-        if(!(return_value_dup2$14 >= 0))
+        signed int return_value_dup2_14;
+        return_value_dup2_14=dup2(fd_pair[(signed long int)1], 2);
+        if(!(return_value_dup2_14 >= 0))
         {
-          signed int *return_value___errno_location$13;
-          return_value___errno_location$13=__errno_location();
-          log_err(*return_value___errno_location$13, "dup2() of child stderr failed");
+          signed int *return_value___errno_location_13;
+          return_value___errno_location_13=__errno_location();
+          log_err(*return_value___errno_location_13, "dup2() of child stderr failed");
         }
 
         execv(auxp->argv[(signed long int)0], auxp->argv);
         _exit(127);
       }
 
-    return_value_close$16=close(fd_pair[(signed long int)1]);
-    if(!(return_value_close$16 >= 0))
+    return_value_close_16=close(fd_pair[(signed long int)1]);
+    if(!(return_value_close_16 >= 0))
     {
-      signed int *return_value___errno_location$15;
-      return_value___errno_location$15=__errno_location();
-      log_err(*return_value___errno_location$15, "close() of parent fd_pair failed");
+      signed int *return_value___errno_location_15;
+      return_value___errno_location_15=__errno_location();
+      log_err(*return_value___errno_location_15, "close() of parent fd_pair failed");
     }
 
-    return_value_time$18=time(&auxp->tStart);
-    if(return_value_time$18 == -1l)
+    return_value_time_18=time(&auxp->tStart);
+    if(return_value_time_18 == -1l)
     {
-      signed int *return_value___errno_location$17;
-      return_value___errno_location$17=__errno_location();
-      log_err(*return_value___errno_location$17, "time() failed");
+      signed int *return_value___errno_location_17;
+      return_value___errno_location_17=__errno_location();
+      log_err(*return_value___errno_location_17, "time() failed");
     }
 
     process->fd = fd_pair[(signed long int)0];
@@ -3923,9 +3923,9 @@ static signed int connect_telnet_obj(struct base_obj *telnet)
     memset((void *)&saddr, 0, sizeof(struct sockaddr_in) /*16ul*/ );
     saddr.sin_family = (unsigned short int)2;
     saddr.sin_port=htons((unsigned short int)telnet->aux.telnet.port);
-    signed int return_value_host_name_to_addr4$1;
-    return_value_host_name_to_addr4$1=host_name_to_addr4(telnet->aux.telnet.host, &saddr.sin_addr);
-    if(!(return_value_host_name_to_addr4$1 >= 0))
+    signed int return_value_host_name_to_addr4_1;
+    return_value_host_name_to_addr4_1=host_name_to_addr4(telnet->aux.telnet.host, &saddr.sin_addr);
+    if(!(return_value_host_name_to_addr4_1 >= 0))
     {
       log_msg(4, "Unable to resolve hostname \"%s\" for [%s]", telnet->aux.telnet.host, telnet->name);
       telnet->aux.telnet.timer=tpoll_timeout_relative(tp_global, (void (*)(void *))connect_telnet_obj, (void *)telnet, 1800 * 1000);
@@ -3935,42 +3935,42 @@ static signed int connect_telnet_obj(struct base_obj *telnet)
     telnet->fd=socket(2, 1, 0);
     if(!(telnet->fd >= 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      log_err(*return_value___errno_location$2, "Unable to create socket for [%s]", telnet->name);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      log_err(*return_value___errno_location_2, "Unable to create socket for [%s]", telnet->name);
     }
 
-    signed int return_value_setsockopt$4;
-    return_value_setsockopt$4=setsockopt(telnet->fd, 1, 10, (const void *)&on, (unsigned int)sizeof(const signed int) /*4ul*/ );
-    if(!(return_value_setsockopt$4 >= 0))
+    signed int return_value_setsockopt_4;
+    return_value_setsockopt_4=setsockopt(telnet->fd, 1, 10, (const void *)&on, (unsigned int)sizeof(const signed int) /*4ul*/ );
+    if(!(return_value_setsockopt_4 >= 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      log_err(*return_value___errno_location$3, "Unable to set OOBINLINE socket option");
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      log_err(*return_value___errno_location_3, "Unable to set OOBINLINE socket option");
     }
 
     if(!(telnet->aux.telnet.enableKeepAlive == 0u))
     {
-      signed int return_value_setsockopt$6;
-      return_value_setsockopt$6=setsockopt(telnet->fd, 1, 9, (const void *)&on, (unsigned int)sizeof(const signed int) /*4ul*/ );
-      if(!(return_value_setsockopt$6 >= 0))
+      signed int return_value_setsockopt_6;
+      return_value_setsockopt_6=setsockopt(telnet->fd, 1, 9, (const void *)&on, (unsigned int)sizeof(const signed int) /*4ul*/ );
+      if(!(return_value_setsockopt_6 >= 0))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        log_err(*return_value___errno_location$5, "Unable to set KEEPALIVE socket option");
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        log_err(*return_value___errno_location_5, "Unable to set KEEPALIVE socket option");
       }
 
     }
 
     set_fd_nonblocking(telnet->fd);
     set_fd_closed_on_exec(telnet->fd);
-    signed int return_value_connect$8;
-    return_value_connect$8=connect(telnet->fd, (struct sockaddr *)&saddr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-    if(!(return_value_connect$8 >= 0))
+    signed int return_value_connect_8;
+    return_value_connect_8=connect(telnet->fd, (struct sockaddr *)&saddr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+    if(!(return_value_connect_8 >= 0))
     {
-      signed int *return_value___errno_location$7;
-      return_value___errno_location$7=__errno_location();
-      if(*return_value___errno_location$7 == 115)
+      signed int *return_value___errno_location_7;
+      return_value___errno_location_7=__errno_location();
+      if(*return_value___errno_location_7 == 115)
         telnet->aux.telnet.state = (unsigned int)2;
 
       else
@@ -3989,9 +3989,9 @@ static signed int connect_telnet_obj(struct base_obj *telnet)
       rc=getsockopt(telnet->fd, 1, 4, (void *)&err, &len);
       if(!(rc >= 0))
       {
-        signed int *return_value___errno_location$9;
-        return_value___errno_location$9=__errno_location();
-        err = *return_value___errno_location$9;
+        signed int *return_value___errno_location_9;
+        return_value___errno_location_9=__errno_location();
+        err = *return_value___errno_location_9;
       }
 
       if(!(err == 0))
@@ -4030,59 +4030,59 @@ static signed int connect_unixsock_obj(struct base_obj *unixsock)
     auxp->timer = -1;
   }
 
-  signed int return_value_stat$4;
-  return_value_stat$4=stat(auxp->dev, &st);
-  if(!(return_value_stat$4 >= 0))
+  signed int return_value_stat_4;
+  return_value_stat_4=stat(auxp->dev, &st);
+  if(!(return_value_stat_4 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(7, "Console [%s] cannot stat device \"%s\": %s", unixsock->name, auxp->dev, return_value_strerror$2);
-    signed int return_value_disconnect_unixsock_obj$3;
-    return_value_disconnect_unixsock_obj$3=disconnect_unixsock_obj(unixsock);
-    return return_value_disconnect_unixsock_obj$3;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(7, "Console [%s] cannot stat device \"%s\": %s", unixsock->name, auxp->dev, return_value_strerror_2);
+    signed int return_value_disconnect_unixsock_obj_3;
+    return_value_disconnect_unixsock_obj_3=disconnect_unixsock_obj(unixsock);
+    return return_value_disconnect_unixsock_obj_3;
   }
 
   if(!((61440u & st.st_mode) == 49152u))
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    char *return_value_strerror$6;
-    return_value_strerror$6=strerror(*return_value___errno_location$5);
-    log_msg(6, "Console [%s] device \"%s\" is not a socket", unixsock->name, auxp->dev, return_value_strerror$6);
-    signed int return_value_disconnect_unixsock_obj$7;
-    return_value_disconnect_unixsock_obj$7=disconnect_unixsock_obj(unixsock);
-    return return_value_disconnect_unixsock_obj$7;
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    char *return_value_strerror_6;
+    return_value_strerror_6=strerror(*return_value___errno_location_5);
+    log_msg(6, "Console [%s] device \"%s\" is not a socket", unixsock->name, auxp->dev, return_value_strerror_6);
+    signed int return_value_disconnect_unixsock_obj_7;
+    return_value_disconnect_unixsock_obj_7=disconnect_unixsock_obj(unixsock);
+    return return_value_disconnect_unixsock_obj_7;
   }
 
   memset((void *)&saddr, 0, sizeof(struct sockaddr_un) /*110ul*/ );
   saddr.sun_family = (unsigned short int)1;
-  unsigned long int return_value_strlcpy$8;
-  return_value_strlcpy$8=strlcpy(saddr.sun_path, auxp->dev, sizeof(char [108l]) /*108ul*/ );
-  rc = (signed int)return_value_strlcpy$8;
+  unsigned long int return_value_strlcpy_8;
+  return_value_strlcpy_8=strlcpy(saddr.sun_path, auxp->dev, sizeof(char [108l]) /*108ul*/ );
+  rc = (signed int)return_value_strlcpy_8;
   unixsock->fd=socket(1, 1, 0);
   if(!(unixsock->fd >= 0))
   {
-    signed int *return_value___errno_location$9;
-    return_value___errno_location$9=__errno_location();
-    log_err(*return_value___errno_location$9, "Unable to create console [%s] socket", unixsock->name);
+    signed int *return_value___errno_location_9;
+    return_value___errno_location_9=__errno_location();
+    log_err(*return_value___errno_location_9, "Unable to create console [%s] socket", unixsock->name);
   }
 
   set_fd_nonblocking(unixsock->fd);
   set_fd_closed_on_exec(unixsock->fd);
-  signed int return_value_connect$13;
-  return_value_connect$13=connect(unixsock->fd, (struct sockaddr *)&saddr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
-  if(!(return_value_connect$13 >= 0))
+  signed int return_value_connect_13;
+  return_value_connect_13=connect(unixsock->fd, (struct sockaddr *)&saddr, (unsigned int)sizeof(struct sockaddr_un) /*110ul*/ );
+  if(!(return_value_connect_13 >= 0))
   {
-    signed int *return_value___errno_location$10;
-    return_value___errno_location$10=__errno_location();
-    char *return_value_strerror$11;
-    return_value_strerror$11=strerror(*return_value___errno_location$10);
-    log_msg(6, "Console [%s] cannot connect to device \"%s\": %s", unixsock->name, auxp->dev, return_value_strerror$11);
-    signed int return_value_disconnect_unixsock_obj$12;
-    return_value_disconnect_unixsock_obj$12=disconnect_unixsock_obj(unixsock);
-    return return_value_disconnect_unixsock_obj$12;
+    signed int *return_value___errno_location_10;
+    return_value___errno_location_10=__errno_location();
+    char *return_value_strerror_11;
+    return_value_strerror_11=strerror(*return_value___errno_location_10);
+    log_msg(6, "Console [%s] cannot connect to device \"%s\": %s", unixsock->name, auxp->dev, return_value_strerror_11);
+    signed int return_value_disconnect_unixsock_obj_12;
+    return_value_disconnect_unixsock_obj_12=disconnect_unixsock_obj(unixsock);
+    return return_value_disconnect_unixsock_obj_12;
   }
 
   unixsock->gotEOF = (unsigned int)0;
@@ -4161,9 +4161,9 @@ static signed int copy_hostent(struct hostent *src, char *buf, signed int len)
         q = dst->h_aliases;
         for( ; !(*p == ((char *)NULL)); q = q + 1l)
         {
-          unsigned long int return_value_strlcpy$1;
-          return_value_strlcpy$1=strlcpy(buf, *p, (unsigned long int)len);
-          n = (signed int)return_value_strlcpy$1;
+          unsigned long int return_value_strlcpy_1;
+          return_value_strlcpy_1=strlcpy(buf, *p, (unsigned long int)len);
+          n = (signed int)return_value_strlcpy_1;
           *q = buf;
           n = n + 1;
           buf = buf + (signed long int)n;
@@ -4175,9 +4175,9 @@ static signed int copy_hostent(struct hostent *src, char *buf, signed int len)
         }
         *q = (char *)(void *)0;
         dst->h_name = buf;
-        unsigned long int return_value_strlcpy$2;
-        return_value_strlcpy$2=strlcpy(buf, src->h_name, (unsigned long int)len);
-        n = (signed int)return_value_strlcpy$2;
+        unsigned long int return_value_strlcpy_2;
+        return_value_strlcpy_2=strlcpy(buf, src->h_name, (unsigned long int)len);
+        n = (signed int)return_value_strlcpy_2;
         n = n + 1;
         buf = buf + (signed long int)n;
         len = len - n;
@@ -4195,13 +4195,13 @@ static signed int copy_hostent(struct hostent *src, char *buf, signed int len)
 // file server.c line 389
 static void coredump_handler(signed int signum)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(coredump == 0))
-    tmp_if_expr$1 = coredumpdir[0l] != 0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = coredumpdir[0l] != 0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (_Bool)0;
+  if(tmp_if_expr_1)
     log_msg(3, "Terminating on signal=%d (check \"%s\" for core)", signum, (const void *)coredumpdir);
 
   else
@@ -4215,9 +4215,9 @@ static void coredump_handler(signed int signum)
   }
 
   posix_signal(signum, (void (*)(signed int))0);
-  signed int return_value_getpid$2;
-  return_value_getpid$2=getpid();
-  kill(return_value_getpid$2, signum);
+  signed int return_value_getpid_2;
+  return_value_getpid_2=getpid();
+  kill(return_value_getpid_2, signum);
   goto __CPROVER_DUMP_L6;
 
 __CPROVER_DUMP_L6:
@@ -4237,11 +4237,11 @@ struct base_obj * create_client_obj(struct server_conf *conf, struct request *re
   client=create_obj(conf, name, req->sd, (enum obj_type)CONMAN_OBJ_CLIENT);
   client->aux.client.req = req;
   time(&client->aux.client.timeLastRead);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(client->aux.client.timeLastRead == -1l)
   {
-    return_value___errno_location$1=__errno_location();
-    log_err(*return_value___errno_location$1, "time() failed");
+    return_value___errno_location_1=__errno_location();
+    log_err(*return_value___errno_location_1, "time() failed");
   }
 
   client->aux.client.gotEscape = (unsigned int)0;
@@ -4259,66 +4259,66 @@ signed int create_dirs(const char *dir_name)
   char *p;
   char *slash_ptr;
   unsigned int dir_mode = (unsigned int)(0400 | 0200 | 0100 | 0400 >> 3 | 0100 >> 3 | (0400 >> 3) >> 3 | (0100 >> 3) >> 3);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(dir_name == ((const char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)*dir_name == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)*dir_name == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     log_msg(4, "No directory specified for creation");
     return -1;
   }
 
-  signed int return_value_stat$6;
-  return_value_stat$6=stat(dir_name, &st_buf);
-  if(return_value_stat$6 == 0)
+  signed int return_value_stat_6;
+  return_value_stat_6=stat(dir_name, &st_buf);
+  if(return_value_stat_6 == 0)
   {
     if((61440u & st_buf.st_mode) == 16384u)
       return 0;
 
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 17;
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    log_msg(4, "Cannot create directory \"%s\": %s", dir_name, return_value_strerror$5);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 17;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    log_msg(4, "Cannot create directory \"%s\": %s", dir_name, return_value_strerror_5);
     return -1;
   }
 
-  unsigned long int return_value_strlcpy$8;
-  return_value_strlcpy$8=strlcpy(dir_buf, dir_name, sizeof(char [4096l]) /*4096ul*/ );
-  if(return_value_strlcpy$8 >= sizeof(char [4096l]) /*4096ul*/ )
+  unsigned long int return_value_strlcpy_8;
+  return_value_strlcpy_8=strlcpy(dir_buf, dir_name, sizeof(char [4096l]) /*4096ul*/ );
+  if(return_value_strlcpy_8 >= sizeof(char [4096l]) /*4096ul*/ )
   {
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    *return_value___errno_location$7 = 36;
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    *return_value___errno_location_7 = 36;
     log_msg(4, "Exceeded maximum directory length of %d bytes", sizeof(char [4096l]) /*4096ul*/  - (unsigned long int)1);
     return -1;
   }
 
-  unsigned long int return_value_strlen$9;
-  return_value_strlen$9=strlen(dir_buf);
-  p = (dir_buf + (signed long int)return_value_strlen$9) - (signed long int)1;
-  char *tmp_post$10;
-  for( ; !(dir_buf >= p); *tmp_post$10 = (char)0)
+  unsigned long int return_value_strlen_9;
+  return_value_strlen_9=strlen(dir_buf);
+  p = (dir_buf + (signed long int)return_value_strlen_9) - (signed long int)1;
+  char *tmp_post_10;
+  for( ; !(dir_buf >= p); *tmp_post_10 = (char)0)
   {
     if(!((signed int)*p == 47))
       break;
 
-    tmp_post$10 = p;
+    tmp_post_10 = p;
     p = p - 1l;
   }
   slash_ptr = dir_buf;
-  _Bool tmp_if_expr$14;
-  signed int return_value_stat$13;
-  char *tmp_post$16;
+  _Bool tmp_if_expr_14;
+  signed int return_value_stat_13;
+  char *tmp_post_16;
   while((_Bool)1)
   {
     for( ; (signed int)*slash_ptr == 47; slash_ptr = slash_ptr + 1l)
@@ -4327,27 +4327,27 @@ signed int create_dirs(const char *dir_name)
     if(!(slash_ptr == ((char *)NULL)))
       *slash_ptr = (char)0;
 
-    signed int return_value_mkdir$15;
-    return_value_mkdir$15=mkdir(dir_buf, dir_mode);
-    if(!(return_value_mkdir$15 >= 0))
+    signed int return_value_mkdir_15;
+    return_value_mkdir_15=mkdir(dir_buf, dir_mode);
+    if(!(return_value_mkdir_15 >= 0))
     {
       signed int mkdir_errno;
-      signed int *return_value___errno_location$11;
-      return_value___errno_location$11=__errno_location();
-      mkdir_errno = *return_value___errno_location$11;
+      signed int *return_value___errno_location_11;
+      return_value___errno_location_11=__errno_location();
+      mkdir_errno = *return_value___errno_location_11;
       if(!(mkdir_errno == 17))
-        tmp_if_expr$14 = (_Bool)1;
+        tmp_if_expr_14 = (_Bool)1;
 
       else
       {
-        return_value_stat$13=stat(dir_buf, &st_buf);
-        tmp_if_expr$14 = return_value_stat$13 < 0 ? (_Bool)1 : (_Bool)0;
+        return_value_stat_13=stat(dir_buf, &st_buf);
+        tmp_if_expr_14 = return_value_stat_13 < 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(!((61440u & st_buf.st_mode) == 16384u) || tmp_if_expr$14)
+      if(!((61440u & st_buf.st_mode) == 16384u) || tmp_if_expr_14)
       {
-        char *return_value_strerror$12;
-        return_value_strerror$12=strerror(mkdir_errno);
-        log_msg(4, "Cannot create directory \"%s\": %s", (const void *)dir_buf, return_value_strerror$12);
+        char *return_value_strerror_12;
+        return_value_strerror_12=strerror(mkdir_errno);
+        log_msg(4, "Cannot create directory \"%s\": %s", (const void *)dir_buf, return_value_strerror_12);
         return -1;
       }
 
@@ -4356,9 +4356,9 @@ signed int create_dirs(const char *dir_name)
     if(slash_ptr == ((char *)NULL))
       break;
 
-    tmp_post$16 = slash_ptr;
+    tmp_post_16 = slash_ptr;
     slash_ptr = slash_ptr + 1l;
-    *tmp_post$16 = (char)47;
+    *tmp_post_16 = (char)47;
   }
   return 0;
 }
@@ -4432,44 +4432,44 @@ struct base_obj * create_ipmi_obj(struct server_conf *conf, char *name, struct i
   struct listIterator *i;
   struct base_obj *ipmi;
   i=list_iterator_create(conf->objs);
-  void *return_value_list_next$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$7;
+  void *return_value_list_next_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_7;
   do
   {
-    return_value_list_next$1=list_next(i);
-    ipmi = (struct base_obj *)return_value_list_next$1;
+    return_value_list_next_1=list_next(i);
+    ipmi = (struct base_obj *)return_value_list_next_1;
     if(ipmi == ((struct base_obj *)NULL))
       break;
 
     if((signed int)ipmi->type == CONMAN_OBJ_TELNET)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)ipmi->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_3 = (signed int)ipmi->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)ipmi->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_4 = (signed int)ipmi->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = (signed int)ipmi->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_5 = (signed int)ipmi->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (signed int)ipmi->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (signed int)ipmi->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
     {
-      return_value_strcmp$2=strcmp(ipmi->name, name);
-      if(return_value_strcmp$2 == 0)
+      return_value_strcmp_2=strcmp(ipmi->name, name);
+      if(return_value_strcmp_2 == 0)
       {
         snprintf(errbuf, (unsigned long int)errlen, "console [%s] specifies duplicate console name", name);
         break;
@@ -4479,8 +4479,8 @@ struct base_obj * create_ipmi_obj(struct server_conf *conf, char *name, struct i
 
     if((signed int)ipmi->type == CONMAN_OBJ_IPMI)
     {
-      return_value_strcmp$7=strcmp(ipmi->aux.ipmi.host, host);
-      if(return_value_strcmp$7 == 0)
+      return_value_strcmp_7=strcmp(ipmi->aux.ipmi.host, host);
+      if(return_value_strcmp_7 == 0)
       {
         snprintf(errbuf, (unsigned long int)errlen, "console [%s] specifies duplicate hostname \"%s\"", name, host);
         break;
@@ -4491,7 +4491,7 @@ struct base_obj * create_ipmi_obj(struct server_conf *conf, char *name, struct i
   }
   while((_Bool)1);
   list_iterator_destroy(i);
-  signed int *return_value___errno_location$8;
+  signed int *return_value___errno_location_8;
   if(!(ipmi == ((struct base_obj *)NULL)))
     return (struct base_obj *)(void *)0;
 
@@ -4507,13 +4507,13 @@ struct base_obj * create_ipmi_obj(struct server_conf *conf, char *name, struct i
     ipmi->aux.ipmi.delay = 60;
     do
     {
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      *return_value___errno_location$9=pthread_mutex_init(&ipmi->aux.ipmi.mutex, (const union anonymous$0 *)(void *)0);
-      if(!(*return_value___errno_location$9 == 0))
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      *return_value___errno_location_9=pthread_mutex_init(&ipmi->aux.ipmi.mutex, (const union anonymous_0 *)(void *)0);
+      if(!(*return_value___errno_location_9 == 0))
       {
-        return_value___errno_location$8=__errno_location();
-        log_err(*return_value___errno_location$8, "pthread_mutex_init() failed");
+        return_value___errno_location_8=__errno_location();
+        log_err(*return_value___errno_location_8, "pthread_mutex_init() failed");
       }
 
     }
@@ -4534,9 +4534,9 @@ static void create_listen_socket(struct server_conf *conf)
   ld=socket(2, 1, 0);
   if(!(ld >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    log_err(*return_value___errno_location$1, "Unable to create listening socket");
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    log_err(*return_value___errno_location_1, "Unable to create listening socket");
   }
 
   set_fd_nonblocking(ld);
@@ -4549,31 +4549,31 @@ static void create_listen_socket(struct server_conf *conf)
 
   else
     addr.sin_addr.s_addr=htonl((unsigned int)0x00000000);
-  signed int return_value_setsockopt$3;
-  return_value_setsockopt$3=setsockopt(ld, 1, 2, (const void *)&on, (unsigned int)sizeof(const signed int) /*4ul*/ );
-  if(!(return_value_setsockopt$3 >= 0))
+  signed int return_value_setsockopt_3;
+  return_value_setsockopt_3=setsockopt(ld, 1, 2, (const void *)&on, (unsigned int)sizeof(const signed int) /*4ul*/ );
+  if(!(return_value_setsockopt_3 >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    log_err(*return_value___errno_location$2, "Unable to set REUSEADDR socket option");
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    log_err(*return_value___errno_location_2, "Unable to set REUSEADDR socket option");
   }
 
-  signed int return_value_bind$5;
-  return_value_bind$5=bind(ld, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
-  if(!(return_value_bind$5 >= 0))
+  signed int return_value_bind_5;
+  return_value_bind_5=bind(ld, (struct sockaddr *)&addr, (unsigned int)sizeof(struct sockaddr_in) /*16ul*/ );
+  if(!(return_value_bind_5 >= 0))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    log_err(*return_value___errno_location$4, "Unable to bind to port %d", conf->port);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    log_err(*return_value___errno_location_4, "Unable to bind to port %d", conf->port);
   }
 
-  signed int return_value_listen$7;
-  return_value_listen$7=listen(ld, 10);
-  if(!(return_value_listen$7 >= 0))
+  signed int return_value_listen_7;
+  return_value_listen_7=listen(ld, 10);
+  if(!(return_value_listen_7 >= 0))
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    log_err(*return_value___errno_location$6, "Unable to listen on port %d", conf->port);
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    log_err(*return_value___errno_location_6, "Unable to listen on port %d", conf->port);
   }
 
   conf->ld = ld;
@@ -4592,37 +4592,37 @@ struct base_obj * create_logfile_obj(struct server_conf *conf, char *name, struc
   char buf[1024l];
   char *pname;
   struct base_obj *obj;
-  char *return_value_strchr$1;
-  return_value_strchr$1=strchr(name, 37);
-  _Bool tmp_if_expr$3;
-  signed int return_value_format_obj_string$2;
-  if(!(return_value_strchr$1 == ((char *)NULL)))
+  char *return_value_strchr_1;
+  return_value_strchr_1=strchr(name, 37);
+  _Bool tmp_if_expr_3;
+  signed int return_value_format_obj_string_2;
+  if(!(return_value_strchr_1 == ((char *)NULL)))
   {
-    return_value_format_obj_string$2=format_obj_string(buf, (signed int)sizeof(char [1024l]) /*1024ul*/ , console, name);
-    tmp_if_expr$3 = return_value_format_obj_string$2 >= 0 ? (_Bool)1 : (_Bool)0;
+    return_value_format_obj_string_2=format_obj_string(buf, (signed int)sizeof(char [1024l]) /*1024ul*/ , console, name);
+    tmp_if_expr_3 = return_value_format_obj_string_2 >= 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
     pname = buf;
 
   else
     pname = name;
   i=list_iterator_create(conf->objs);
-  void *return_value_list_next$4;
+  void *return_value_list_next_4;
   do
   {
-    return_value_list_next$4=list_next(i);
-    logfile = (struct base_obj *)return_value_list_next$4;
+    return_value_list_next_4=list_next(i);
+    logfile = (struct base_obj *)return_value_list_next_4;
     if(logfile == ((struct base_obj *)NULL))
       break;
 
     if((signed int)logfile->type == CONMAN_OBJ_LOGFILE)
     {
-      signed int return_value_strcmp$5;
-      return_value_strcmp$5=strcmp(logfile->name, pname);
-      if(return_value_strcmp$5 == 0)
+      signed int return_value_strcmp_5;
+      return_value_strcmp_5=strcmp(logfile->name, pname);
+      if(return_value_strcmp_5 == 0)
         break;
 
     }
@@ -4630,8 +4630,8 @@ struct base_obj * create_logfile_obj(struct server_conf *conf, char *name, struc
   }
   while((_Bool)1);
   list_iterator_destroy(i);
-  _Bool tmp_if_expr$6;
-  void *return_value_list_next$8;
+  _Bool tmp_if_expr_6;
+  void *return_value_list_next_8;
   if(!(logfile == ((struct base_obj *)NULL)))
   {
     snprintf(errbuf, (unsigned long int)errlen, "console [%s] already logging to \"%s\"", logfile->aux.logfile.console->name, pname);
@@ -4646,18 +4646,18 @@ struct base_obj * create_logfile_obj(struct server_conf *conf, char *name, struc
     logfile->aux.logfile.opts = *opts;
     logfile->aux.logfile.gotTruncate = (unsigned int)!(!(conf->enableZeroLogs != 0u));
     if(!(logfile->aux.logfile.opts.enableSanitize == 0u))
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = logfile->aux.logfile.opts.enableTimestamp != 0u ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = logfile->aux.logfile.opts.enableTimestamp != 0u ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
       logfile->aux.logfile.gotProcessing = (unsigned int)1;
 
     else
       logfile->aux.logfile.gotProcessing = (unsigned int)0;
-    char *return_value_strchr$7;
-    return_value_strchr$7=strchr(name, 37);
-    if(!(return_value_strchr$7 == ((char *)NULL)))
+    char *return_value_strchr_7;
+    return_value_strchr_7=strchr(name, 37);
+    if(!(return_value_strchr_7 == ((char *)NULL)))
       logfile->aux.logfile.fmtName=create_string(name);
 
     else
@@ -4686,8 +4686,8 @@ struct base_obj * create_logfile_obj(struct server_conf *conf, char *name, struc
     i=list_iterator_create(conf->objs);
     do
     {
-      return_value_list_next$8=list_next(i);
-      obj = (struct base_obj *)return_value_list_next$8;
+      return_value_list_next_8=list_next(i);
+      obj = (struct base_obj *)return_value_list_next_8;
       if(obj == ((struct base_obj *)NULL))
         break;
 
@@ -4714,9 +4714,9 @@ char * create_long_time_string(signed long int t)
   char *p;
   struct tm tm;
   const signed int len = 25;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)len);
-  p = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)len);
+  p = (char *)return_value_malloc_1;
   if(p == ((char *)NULL))
   {
     log_err(0, "Out of memory");
@@ -4724,9 +4724,9 @@ char * create_long_time_string(signed long int t)
   }
 
   get_localtime(&t, &tm);
-  unsigned long int return_value_strftime$2;
-  return_value_strftime$2=strftime(p, (unsigned long int)len, "%Y-%m-%d %H:%M:%S %Z", &tm);
-  if(return_value_strftime$2 == 0ul)
+  unsigned long int return_value_strftime_2;
+  return_value_strftime_2=strftime(p, (unsigned long int)len, "%Y-%m-%d %H:%M:%S %Z", &tm);
+  if(return_value_strftime_2 == 0ul)
     log_err(0, "strftime() failed");
 
   return p;
@@ -4737,9 +4737,9 @@ char * create_long_time_string(signed long int t)
 struct base_obj * create_obj(struct server_conf *conf, char *name, signed int fd, enum obj_type type)
 {
   struct base_obj *obj;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct base_obj) /*8448ul*/ );
-  obj = (struct base_obj *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct base_obj) /*8448ul*/ );
+  obj = (struct base_obj *)return_value_malloc_1;
   if(obj == ((struct base_obj *)NULL))
   {
     log_err(0, "Out of memory");
@@ -4750,16 +4750,16 @@ struct base_obj * create_obj(struct server_conf *conf, char *name, signed int fd
   obj->fd = fd;
   obj->bufOutPtr = obj->buf;
   obj->bufInPtr = obj->bufOutPtr;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   do
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3=pthread_mutex_init(&obj->bufLock, (const union anonymous$0 *)(void *)0);
-    if(!(*return_value___errno_location$3 == 0))
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3=pthread_mutex_init(&obj->bufLock, (const union anonymous_0 *)(void *)0);
+    if(!(*return_value___errno_location_3 == 0))
     {
-      return_value___errno_location$2=__errno_location();
-      log_err(*return_value___errno_location$2, "pthread_mutex_init() failed");
+      return_value___errno_location_2=__errno_location();
+      log_err(*return_value___errno_location_2, "pthread_mutex_init() failed");
     }
 
   }
@@ -4787,43 +4787,43 @@ struct base_obj * create_process_obj(struct server_conf *conf, char *name, struc
   signed int n;
   char *arg;
   i=list_iterator_create(conf->objs);
-  void *return_value_list_next$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strcmp$2;
+  void *return_value_list_next_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strcmp_2;
   do
   {
-    return_value_list_next$1=list_next(i);
-    process = (struct base_obj *)return_value_list_next$1;
+    return_value_list_next_1=list_next(i);
+    process = (struct base_obj *)return_value_list_next_1;
     if(process == ((struct base_obj *)NULL))
       break;
 
     if((signed int)process->type == CONMAN_OBJ_TELNET)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)process->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_3 = (signed int)process->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)process->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_4 = (signed int)process->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = (signed int)process->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_5 = (signed int)process->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (signed int)process->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (signed int)process->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
     {
-      return_value_strcmp$2=strcmp(process->name, name);
-      if(return_value_strcmp$2 == 0)
+      return_value_strcmp_2=strcmp(process->name, name);
+      if(return_value_strcmp_2 == 0)
       {
         snprintf(errbuf, (unsigned long int)errlen, "console [%s] specifies duplicate console name", name);
         break;
@@ -4834,8 +4834,8 @@ struct base_obj * create_process_obj(struct server_conf *conf, char *name, struc
   }
   while((_Bool)1);
   list_iterator_destroy(i);
-  _Bool tmp_if_expr$9;
-  void *return_value_list_pop$8;
+  _Bool tmp_if_expr_9;
+  void *return_value_list_pop_8;
   if(!(process == ((struct base_obj *)NULL)))
     return (struct base_obj *)(void *)0;
 
@@ -4850,9 +4850,9 @@ struct base_obj * create_process_obj(struct server_conf *conf, char *name, struc
     auxp->logfile = (struct base_obj *)(void *)0;
     auxp->state = (unsigned int)0;
     num_args=list_count(args);
-    void *return_value_calloc$7;
-    return_value_calloc$7=calloc((unsigned long int)(num_args + 1), sizeof(char *) /*8ul*/ );
-    auxp->argv = (char **)return_value_calloc$7;
+    void *return_value_calloc_7;
+    return_value_calloc_7=calloc((unsigned long int)(num_args + 1), sizeof(char *) /*8ul*/ );
+    auxp->argv = (char **)return_value_calloc_7;
     if(auxp->argv == ((char **)NULL))
     {
       log_err(0, "Out of memory");
@@ -4864,14 +4864,14 @@ struct base_obj * create_process_obj(struct server_conf *conf, char *name, struc
     {
       if(!(n >= num_args))
       {
-        return_value_list_pop$8=list_pop(args);
-        arg = (char *)return_value_list_pop$8;
-        tmp_if_expr$9 = arg != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+        return_value_list_pop_8=list_pop(args);
+        arg = (char *)return_value_list_pop_8;
+        tmp_if_expr_9 = arg != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$9 = (_Bool)0;
-      if(!tmp_if_expr$9)
+        tmp_if_expr_9 = (_Bool)0;
+      if(!tmp_if_expr_9)
         break;
 
       auxp->argv[(signed long int)n] = arg;
@@ -4895,9 +4895,9 @@ struct base_obj * create_process_obj(struct server_conf *conf, char *name, struc
 struct request * create_req(void)
 {
   struct request *req;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct request) /*72ul*/ );
-  req = (struct request *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct request) /*72ul*/ );
+  req = (struct request *)return_value_malloc_1;
   if(req == ((struct request *)NULL))
   {
     log_err(0, "Out of memory");
@@ -4930,44 +4930,44 @@ struct base_obj * create_serial_obj(struct server_conf *conf, char *name, char *
   struct listIterator *i;
   struct base_obj *serial;
   i=list_iterator_create(conf->objs);
-  void *return_value_list_next$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$7;
+  void *return_value_list_next_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_7;
   do
   {
-    return_value_list_next$1=list_next(i);
-    serial = (struct base_obj *)return_value_list_next$1;
+    return_value_list_next_1=list_next(i);
+    serial = (struct base_obj *)return_value_list_next_1;
     if(serial == ((struct base_obj *)NULL))
       break;
 
     if((signed int)serial->type == CONMAN_OBJ_TELNET)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)serial->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_3 = (signed int)serial->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)serial->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_4 = (signed int)serial->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = (signed int)serial->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_5 = (signed int)serial->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (signed int)serial->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (signed int)serial->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
     {
-      return_value_strcmp$2=strcmp(serial->name, name);
-      if(return_value_strcmp$2 == 0)
+      return_value_strcmp_2=strcmp(serial->name, name);
+      if(return_value_strcmp_2 == 0)
       {
         snprintf(errbuf, (unsigned long int)errlen, "console [%s] specifies duplicate console name", name);
         break;
@@ -4977,8 +4977,8 @@ struct base_obj * create_serial_obj(struct server_conf *conf, char *name, char *
 
     if((signed int)serial->type == CONMAN_OBJ_SERIAL)
     {
-      return_value_strcmp$7=strcmp(serial->aux.serial.dev, dev);
-      if(return_value_strcmp$7 == 0)
+      return_value_strcmp_7=strcmp(serial->aux.serial.dev, dev);
+      if(return_value_strcmp_7 == 0)
       {
         snprintf(errbuf, (unsigned long int)errlen, "console [%s] specifies duplicate device \"%s\"", name, dev);
         break;
@@ -5009,9 +5009,9 @@ struct server_conf * create_server_conf(void)
 {
   struct server_conf *conf;
   char buf[4096l];
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct server_conf) /*256ul*/ );
-  conf = (struct server_conf *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct server_conf) /*256ul*/ );
+  conf = (struct server_conf *)return_value_malloc_1;
   if(conf == ((struct server_conf *)NULL))
   {
     log_err(0, "Out of memory");
@@ -5049,9 +5049,9 @@ struct server_conf * create_server_conf(void)
   conf->globalSerOpts.databits = 8;
   conf->globalSerOpts.parity = 0;
   conf->globalSerOpts.stopbits = 1;
-  signed int return_value_init_ipmi_opts$2;
-  return_value_init_ipmi_opts$2=init_ipmi_opts(&conf->globalIpmiOpts);
-  if(!(return_value_init_ipmi_opts$2 >= 0))
+  signed int return_value_init_ipmi_opts_2;
+  return_value_init_ipmi_opts_2=init_ipmi_opts(&conf->globalIpmiOpts);
+  if(!(return_value_init_ipmi_opts_2 >= 0))
     log_err(0, "Unable to initialize default IPMI options");
 
   conf->numIpmiObjs = 0;
@@ -5062,13 +5062,13 @@ struct server_conf * create_server_conf(void)
   conf->enableVerbose = (unsigned int)0;
   conf->enableZeroLogs = (unsigned int)0;
   conf->enableForeground = (unsigned int)0;
-  char *return_value_getcwd$4;
-  return_value_getcwd$4=getcwd(buf, sizeof(char [4096l]) /*4096ul*/ );
-  if(return_value_getcwd$4 == ((char *)NULL))
+  char *return_value_getcwd_4;
+  return_value_getcwd_4=getcwd(buf, sizeof(char [4096l]) /*4096ul*/ );
+  if(return_value_getcwd_4 == ((char *)NULL))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    log_err(*return_value___errno_location$3, "Unable to determine working directory");
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    log_err(*return_value___errno_location_3, "Unable to determine working directory");
   }
 
   conf->cwd=create_string(buf);
@@ -5083,9 +5083,9 @@ char * create_short_time_string(signed long int t)
   char *p;
   struct tm tm;
   const signed int len = 12;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)len);
-  p = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)len);
+  p = (char *)return_value_malloc_1;
   if(p == ((char *)NULL))
   {
     log_err(0, "Out of memory");
@@ -5093,9 +5093,9 @@ char * create_short_time_string(signed long int t)
   }
 
   get_localtime(&t, &tm);
-  unsigned long int return_value_strftime$2;
-  return_value_strftime$2=strftime(p, (unsigned long int)len, "%m-%d %H:%M", &tm);
-  if(return_value_strftime$2 == 0ul)
+  unsigned long int return_value_strftime_2;
+  return_value_strftime_2=strftime(p, (unsigned long int)len, "%m-%d %H:%M", &tm);
+  if(return_value_strftime_2 == 0ul)
     log_err(0, "strftime() failed");
 
   return p;
@@ -5128,12 +5128,12 @@ struct base_obj * create_telnet_obj(struct server_conf *conf, char *name, char *
 {
   struct listIterator *i;
   struct base_obj *telnet;
-  void *return_value_list_next$1;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  signed int return_value_strcmp$2;
+  void *return_value_list_next_1;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  signed int return_value_strcmp_2;
   if(!(port >= 1))
   {
     snprintf(errbuf, (unsigned long int)errlen, "console [%s] specifies invalid port \"%d\"", name, port);
@@ -5145,35 +5145,35 @@ struct base_obj * create_telnet_obj(struct server_conf *conf, char *name, char *
     i=list_iterator_create(conf->objs);
     do
     {
-      return_value_list_next$1=list_next(i);
-      telnet = (struct base_obj *)return_value_list_next$1;
+      return_value_list_next_1=list_next(i);
+      telnet = (struct base_obj *)return_value_list_next_1;
       if(telnet == ((struct base_obj *)NULL))
         break;
 
       if((signed int)telnet->type == CONMAN_OBJ_TELNET)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)telnet->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_3 = (signed int)telnet->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)telnet->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_4 = (signed int)telnet->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (signed int)telnet->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_5 = (signed int)telnet->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = (signed int)telnet->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$6)
+        tmp_if_expr_6 = (signed int)telnet->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_6)
       {
-        return_value_strcmp$2=strcmp(telnet->name, name);
-        if(return_value_strcmp$2 == 0)
+        return_value_strcmp_2=strcmp(telnet->name, name);
+        if(return_value_strcmp_2 == 0)
         {
           snprintf(errbuf, (unsigned long int)errlen, "console [%s] specifies duplicate console name", name);
           break;
@@ -5218,20 +5218,20 @@ char * create_time_delta_string(signed long int t0, signed long int t1)
   char buf[25l];
   if(t1 == -1l)
   {
-    signed long int return_value_time$2;
-    return_value_time$2=time(&t1);
-    if(return_value_time$2 == -1l)
+    signed long int return_value_time_2;
+    return_value_time_2=time(&t1);
+    if(return_value_time_2 == -1l)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      log_err(*return_value___errno_location$1, "time() failed");
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      log_err(*return_value___errno_location_1, "time() failed");
     }
 
   }
 
-  double return_value_difftime$3;
-  return_value_difftime$3=difftime(t1, t0);
-  n = (signed long int)return_value_difftime$3;
+  double return_value_difftime_3;
+  return_value_difftime_3=difftime(t1, t0);
+  n = (signed long int)return_value_difftime_3;
   seconds = (signed int)(n % (signed long int)60);
   n = n / (signed long int)60;
   minutes = (signed int)(n % (signed long int)60);
@@ -5245,52 +5245,52 @@ char * create_time_delta_string(signed long int t0, signed long int t1)
   years = (signed int)n;
   if(years >= 1)
   {
-    signed int return_value_snprintf$4;
-    return_value_snprintf$4=snprintf(buf, sizeof(char [25l]) /*25ul*/ , "%dy%dw%dd%dh%dm%ds", years, weeks, days, hours, minutes, seconds);
-    n = (signed long int)return_value_snprintf$4;
+    signed int return_value_snprintf_4;
+    return_value_snprintf_4=snprintf(buf, sizeof(char [25l]) /*25ul*/ , "%dy%dw%dd%dh%dm%ds", years, weeks, days, hours, minutes, seconds);
+    n = (signed long int)return_value_snprintf_4;
   }
 
   else
     if(weeks >= 1)
     {
-      signed int return_value_snprintf$5;
-      return_value_snprintf$5=snprintf(buf, sizeof(char [25l]) /*25ul*/ , "%dw%dd%dh%dm%ds", weeks, days, hours, minutes, seconds);
-      n = (signed long int)return_value_snprintf$5;
+      signed int return_value_snprintf_5;
+      return_value_snprintf_5=snprintf(buf, sizeof(char [25l]) /*25ul*/ , "%dw%dd%dh%dm%ds", weeks, days, hours, minutes, seconds);
+      n = (signed long int)return_value_snprintf_5;
     }
 
     else
       if(days >= 1)
       {
-        signed int return_value_snprintf$6;
-        return_value_snprintf$6=snprintf(buf, sizeof(char [25l]) /*25ul*/ , "%dd%dh%dm%ds", days, hours, minutes, seconds);
-        n = (signed long int)return_value_snprintf$6;
+        signed int return_value_snprintf_6;
+        return_value_snprintf_6=snprintf(buf, sizeof(char [25l]) /*25ul*/ , "%dd%dh%dm%ds", days, hours, minutes, seconds);
+        n = (signed long int)return_value_snprintf_6;
       }
 
       else
         if(hours >= 1)
         {
-          signed int return_value_snprintf$7;
-          return_value_snprintf$7=snprintf(buf, sizeof(char [25l]) /*25ul*/ , "%dh%dm%ds", hours, minutes, seconds);
-          n = (signed long int)return_value_snprintf$7;
+          signed int return_value_snprintf_7;
+          return_value_snprintf_7=snprintf(buf, sizeof(char [25l]) /*25ul*/ , "%dh%dm%ds", hours, minutes, seconds);
+          n = (signed long int)return_value_snprintf_7;
         }
 
         else
           if(minutes >= 1)
           {
-            signed int return_value_snprintf$8;
-            return_value_snprintf$8=snprintf(buf, sizeof(char [25l]) /*25ul*/ , "%dm%ds", minutes, seconds);
-            n = (signed long int)return_value_snprintf$8;
+            signed int return_value_snprintf_8;
+            return_value_snprintf_8=snprintf(buf, sizeof(char [25l]) /*25ul*/ , "%dm%ds", minutes, seconds);
+            n = (signed long int)return_value_snprintf_8;
           }
 
           else
           {
-            signed int return_value_snprintf$9;
-            return_value_snprintf$9=snprintf(buf, sizeof(char [25l]) /*25ul*/ , "%ds", seconds);
-            n = (signed long int)return_value_snprintf$9;
+            signed int return_value_snprintf_9;
+            return_value_snprintf_9=snprintf(buf, sizeof(char [25l]) /*25ul*/ , "%ds", seconds);
+            n = (signed long int)return_value_snprintf_9;
           }
-  char *return_value_create_string$10;
-  return_value_create_string$10=create_string(buf);
-  return return_value_create_string$10;
+  char *return_value_create_string_10;
+  return_value_create_string_10=create_string(buf);
+  return return_value_create_string_10;
 }
 
 // create_unixsock_obj
@@ -5302,16 +5302,16 @@ struct base_obj * create_unixsock_obj(struct server_conf *conf, char *name, char
   struct base_obj *unixsock;
   signed int rv;
   n=max_unixsock_dev_strlen();
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(dev);
-  void *return_value_list_next$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  signed int return_value_strcmp$3;
-  signed int return_value_strcmp$8;
-  if(!((unsigned long int)n >= return_value_strlen$1))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(dev);
+  void *return_value_list_next_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  signed int return_value_strcmp_3;
+  signed int return_value_strcmp_8;
+  if(!((unsigned long int)n >= return_value_strlen_1))
   {
     snprintf(errbuf, (unsigned long int)errlen, "console [%s] exceeds maximum device length of %d bytes", name, n);
     return (struct base_obj *)(void *)0;
@@ -5322,35 +5322,35 @@ struct base_obj * create_unixsock_obj(struct server_conf *conf, char *name, char
     i=list_iterator_create(conf->objs);
     do
     {
-      return_value_list_next$2=list_next(i);
-      unixsock = (struct base_obj *)return_value_list_next$2;
+      return_value_list_next_2=list_next(i);
+      unixsock = (struct base_obj *)return_value_list_next_2;
       if(unixsock == ((struct base_obj *)NULL))
         break;
 
       if((signed int)unixsock->type == CONMAN_OBJ_TELNET)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)unixsock->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_4 = (signed int)unixsock->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (signed int)unixsock->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_5 = (signed int)unixsock->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = (signed int)unixsock->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$6)
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_6 = (signed int)unixsock->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_6)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = (signed int)unixsock->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = (signed int)unixsock->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
       {
-        return_value_strcmp$3=strcmp(unixsock->name, name);
-        if(return_value_strcmp$3 == 0)
+        return_value_strcmp_3=strcmp(unixsock->name, name);
+        if(return_value_strcmp_3 == 0)
         {
           snprintf(errbuf, (unsigned long int)errlen, "console [%s] specifies duplicate console name", name);
           break;
@@ -5360,8 +5360,8 @@ struct base_obj * create_unixsock_obj(struct server_conf *conf, char *name, char
 
       if((signed int)unixsock->type == CONMAN_OBJ_UNIXSOCK)
       {
-        return_value_strcmp$8=strcmp(unixsock->aux.unixsock.dev, dev);
-        if(return_value_strcmp$8 == 0)
+        return_value_strcmp_8=strcmp(unixsock->aux.unixsock.dev, dev);
+        if(return_value_strcmp_8 == 0)
         {
           snprintf(errbuf, (unsigned long int)errlen, "console [%s] specifies duplicate device \"%s\"", name, dev);
           break;
@@ -5427,7 +5427,7 @@ __CPROVER_DUMP_L4:
 void destroy_obj(struct base_obj *obj)
 {
   char **pp;
-  signed int *return_value___errno_location$2;
+  signed int *return_value___errno_location_2;
   switch((signed int)obj->type)
   {
     case CONMAN_OBJ_CLIENT:
@@ -5459,9 +5459,9 @@ void destroy_obj(struct base_obj *obj)
       if(obj->fd >= 0)
       {
         set_tty_mode(&obj->aux.serial.tty, obj->fd);
-        signed int return_value_tcflush$1;
-        return_value_tcflush$1=tcflush(obj->fd, 2);
-        if(!(return_value_tcflush$1 >= 0))
+        signed int return_value_tcflush_1;
+        return_value_tcflush_1=tcflush(obj->fd, 2);
+        if(!(return_value_tcflush_1 >= 0))
           log_msg(6, "Unable to flush tty device for console [%s]", obj->name);
 
       }
@@ -5498,13 +5498,13 @@ void destroy_obj(struct base_obj *obj)
 
       do
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3=pthread_mutex_destroy(&obj->aux.ipmi.mutex);
-        if(!(*return_value___errno_location$3 == 0))
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3=pthread_mutex_destroy(&obj->aux.ipmi.mutex);
+        if(!(*return_value___errno_location_3 == 0))
         {
-          return_value___errno_location$2=__errno_location();
-          log_err(*return_value___errno_location$2, "pthread_mutex_destroy() failed");
+          return_value___errno_location_2=__errno_location();
+          log_err(*return_value___errno_location_2, "pthread_mutex_destroy() failed");
         }
 
       }
@@ -5514,16 +5514,16 @@ void destroy_obj(struct base_obj *obj)
     default:
       log_err(0, "INTERNAL: Unrecognized object [%s] type=%d", obj->name, obj->type);
   }
-  signed int *return_value___errno_location$4;
+  signed int *return_value___errno_location_4;
   do
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    *return_value___errno_location$5=pthread_mutex_destroy(&obj->bufLock);
-    if(!(*return_value___errno_location$5 == 0))
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    *return_value___errno_location_5=pthread_mutex_destroy(&obj->bufLock);
+    if(!(*return_value___errno_location_5 == 0))
     {
-      return_value___errno_location$4=__errno_location();
-      log_err(*return_value___errno_location$4, "pthread_mutex_destroy() failed");
+      return_value___errno_location_4=__errno_location();
+      log_err(*return_value___errno_location_4, "pthread_mutex_destroy() failed");
     }
 
   }
@@ -5534,15 +5534,15 @@ void destroy_obj(struct base_obj *obj)
   if(!(obj->writers == ((struct list *)NULL)))
     list_destroy(obj->writers);
 
-  signed int *return_value___errno_location$6;
+  signed int *return_value___errno_location_6;
   if(obj->fd >= 0)
   {
-    signed int return_value_close$7;
-    return_value_close$7=close(obj->fd);
-    if(!(return_value_close$7 >= 0))
+    signed int return_value_close_7;
+    return_value_close_7=close(obj->fd);
+    if(!(return_value_close_7 >= 0))
     {
-      return_value___errno_location$6=__errno_location();
-      log_err(*return_value___errno_location$6, "Unable to close object [%s]", obj->name);
+      return_value___errno_location_6=__errno_location();
+      log_err(*return_value___errno_location_6, "Unable to close object [%s]", obj->name);
     }
 
     obj->fd = -1;
@@ -5562,17 +5562,17 @@ __CPROVER_DUMP_L28:
 // file common.h line 198
 void destroy_req(struct request *req)
 {
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(!(req == ((struct request *)NULL)))
   {
     if(req->sd >= 0)
     {
-      signed int return_value_close$2;
-      return_value_close$2=close(req->sd);
-      if(!(return_value_close$2 >= 0))
+      signed int return_value_close_2;
+      return_value_close_2=close(req->sd);
+      if(!(return_value_close_2 >= 0))
       {
-        return_value___errno_location$1=__errno_location();
-        log_err(*return_value___errno_location$1, "close() failed on fd=%d", req->sd);
+        return_value___errno_location_1=__errno_location();
+        log_err(*return_value___errno_location_1, "close() failed on fd=%d", req->sd);
       }
 
       req->sd = -1;
@@ -5609,30 +5609,30 @@ void destroy_server_conf(struct server_conf *conf)
   {
     if(!(conf->pidFileName == ((char *)NULL)))
     {
-      signed int return_value_unlink$3;
-      return_value_unlink$3=unlink(conf->pidFileName);
-      if(!(return_value_unlink$3 >= 0))
+      signed int return_value_unlink_3;
+      return_value_unlink_3=unlink(conf->pidFileName);
+      if(!(return_value_unlink_3 >= 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        char *return_value_strerror$2;
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        log_msg(3, "Unable to delete pid file \"%s\": %s", conf->pidFileName, return_value_strerror$2);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        char *return_value_strerror_2;
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        log_msg(3, "Unable to delete pid file \"%s\": %s", conf->pidFileName, return_value_strerror_2);
       }
 
     }
 
     if(conf->fd >= 0)
     {
-      signed int return_value_close$6;
-      return_value_close$6=close(conf->fd);
-      if(!(return_value_close$6 >= 0))
+      signed int return_value_close_6;
+      return_value_close_6=close(conf->fd);
+      if(!(return_value_close_6 >= 0))
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        char *return_value_strerror$5;
-        return_value_strerror$5=strerror(*return_value___errno_location$4);
-        log_msg(3, "Unable to close config file \"%s\": %s", conf->confFileName, return_value_strerror$5);
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        char *return_value_strerror_5;
+        return_value_strerror_5=strerror(*return_value___errno_location_4);
+        log_msg(3, "Unable to close config file \"%s\": %s", conf->confFileName, return_value_strerror_5);
       }
 
       conf->fd = -1;
@@ -5640,15 +5640,15 @@ void destroy_server_conf(struct server_conf *conf)
 
     if(conf->ld >= 0)
     {
-      signed int return_value_close$9;
-      return_value_close$9=close(conf->ld);
-      if(!(return_value_close$9 >= 0))
+      signed int return_value_close_9;
+      return_value_close_9=close(conf->ld);
+      if(!(return_value_close_9 >= 0))
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        char *return_value_strerror$8;
-        return_value_strerror$8=strerror(*return_value___errno_location$7);
-        log_msg(3, "Unable to close listening socket: %s", return_value_strerror$8);
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        char *return_value_strerror_8;
+        return_value_strerror_8=strerror(*return_value___errno_location_7);
+        log_msg(3, "Unable to close listening socket: %s", return_value_strerror_8);
       }
 
       conf->ld = -1;
@@ -5688,16 +5688,16 @@ void destroy_string(char *str)
 // file server-ipmi.c line 777
 static void disconnect_ipmi_obj(struct base_obj *ipmi)
 {
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_lock(&ipmi->aux.ipmi.mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_lock(&ipmi->aux.ipmi.mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
-      return_value___errno_location$1=__errno_location();
-      log_err(*return_value___errno_location$1, "pthread_mutex_lock() failed");
+      return_value___errno_location_1=__errno_location();
+      log_err(*return_value___errno_location_1, "pthread_mutex_lock() failed");
     }
 
   }
@@ -5710,15 +5710,15 @@ static void disconnect_ipmi_obj(struct base_obj *ipmi)
 
   if(ipmi->fd >= 0)
   {
-    signed int return_value_close$5;
-    return_value_close$5=close(ipmi->fd);
-    if(!(return_value_close$5 >= 0))
+    signed int return_value_close_5;
+    return_value_close_5=close(ipmi->fd);
+    if(!(return_value_close_5 >= 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      log_msg(3, "Unable to close connection to <%s> for console [%s]: %s", ipmi->aux.ipmi.host, ipmi->name, return_value_strerror$4);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      log_msg(3, "Unable to close connection to <%s> for console [%s]: %s", ipmi->aux.ipmi.host, ipmi->name, return_value_strerror_4);
     }
 
     ipmi->fd = -1;
@@ -5728,16 +5728,16 @@ static void disconnect_ipmi_obj(struct base_obj *ipmi)
     write_notify_msg(ipmi, 5, "Console [%s] disconnected from <%s>", ipmi->name, ipmi->aux.ipmi.host);
 
   ipmi->aux.ipmi.state = (enum ipmi_connect_state)CONMAN_IPMI_DOWN;
-  signed int *return_value___errno_location$6;
+  signed int *return_value___errno_location_6;
   do
   {
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    *return_value___errno_location$7=pthread_mutex_unlock(&ipmi->aux.ipmi.mutex);
-    if(!(*return_value___errno_location$7 == 0))
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    *return_value___errno_location_7=pthread_mutex_unlock(&ipmi->aux.ipmi.mutex);
+    if(!(*return_value___errno_location_7 == 0))
     {
-      return_value___errno_location$6=__errno_location();
-      log_err(*return_value___errno_location$6, "pthread_mutex_unlock() failed");
+      return_value___errno_location_6=__errno_location();
+      log_err(*return_value___errno_location_6, "pthread_mutex_unlock() failed");
     }
 
   }
@@ -5759,13 +5759,13 @@ static signed int disconnect_process_obj(struct base_obj *process)
     process->fd = -1;
   }
 
-  signed long int return_value_time$2;
-  return_value_time$2=time(&tNow);
-  if(return_value_time$2 == -1l)
+  signed long int return_value_time_2;
+  return_value_time_2=time(&tNow);
+  if(return_value_time_2 == -1l)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    log_err(*return_value___errno_location$1, "time() failed");
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    log_err(*return_value___errno_location_1, "time() failed");
   }
 
   n = (signed int)(tNow - auxp->tStart);
@@ -5789,17 +5789,17 @@ static void disconnect_telnet_obj(struct base_obj *telnet)
     telnet->aux.telnet.timer = -1;
   }
 
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(telnet->fd >= 0)
   {
-    signed int return_value_close$3;
-    return_value_close$3=close(telnet->fd);
-    if(!(return_value_close$3 >= 0))
+    signed int return_value_close_3;
+    return_value_close_3=close(telnet->fd);
+    if(!(return_value_close_3 >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      log_msg(3, "Unable to close connection to <%s:%d> for [%s]: %s", telnet->aux.telnet.host, telnet->aux.telnet.port, telnet->name, return_value_strerror$2);
+      return_value___errno_location_1=__errno_location();
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      log_msg(3, "Unable to close connection to <%s:%d> for [%s]: %s", telnet->aux.telnet.host, telnet->aux.telnet.port, telnet->name, return_value_strerror_2);
     }
 
     telnet->fd = -1;
@@ -5810,7 +5810,7 @@ static void disconnect_telnet_obj(struct base_obj *telnet)
 
   telnet->aux.telnet.state = (unsigned int)1;
   telnet->aux.telnet.timer=tpoll_timeout_relative(tp_global, (void (*)(void *))connect_telnet_obj, (void *)telnet, telnet->aux.telnet.delay * 1000);
-  signed int tmp_if_expr$4;
+  signed int tmp_if_expr_4;
   if(telnet->aux.telnet.delay == 0)
     telnet->aux.telnet.delay = 15;
 
@@ -5818,11 +5818,11 @@ static void disconnect_telnet_obj(struct base_obj *telnet)
     if(!(telnet->aux.telnet.delay >= 1800))
     {
       if(!(2 * telnet->aux.telnet.delay >= 1801))
-        tmp_if_expr$4 = telnet->aux.telnet.delay * 2;
+        tmp_if_expr_4 = telnet->aux.telnet.delay * 2;
 
       else
-        tmp_if_expr$4 = 1800;
-      telnet->aux.telnet.delay = tmp_if_expr$4;
+        tmp_if_expr_4 = 1800;
+      telnet->aux.telnet.delay = tmp_if_expr_4;
     }
 
 }
@@ -5840,15 +5840,15 @@ static signed int disconnect_unixsock_obj(struct base_obj *unixsock)
 
   if(unixsock->fd >= 0)
   {
-    signed int return_value_close$3;
-    return_value_close$3=close(unixsock->fd);
-    if(!(return_value_close$3 >= 0))
+    signed int return_value_close_3;
+    return_value_close_3=close(unixsock->fd);
+    if(!(return_value_close_3 >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      log_msg(3, "Unable to close console [%s] socket \"%s\": %s", unixsock->name, auxp->dev, return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      log_msg(3, "Unable to close console [%s] socket \"%s\": %s", unixsock->name, auxp->dev, return_value_strerror_2);
     }
 
     unixsock->fd = -1;
@@ -5873,47 +5873,47 @@ static void display_configuration(struct server_conf *conf)
   signed int n = 0;
   signed int gotOptions = 0;
   i=list_iterator_create(conf->objs);
-  void *return_value_list_next$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  void *return_value_list_next_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   do
   {
-    return_value_list_next$1=list_next(i);
-    obj = (struct base_obj *)return_value_list_next$1;
+    return_value_list_next_1=list_next(i);
+    obj = (struct base_obj *)return_value_list_next_1;
     if(obj == ((struct base_obj *)NULL))
       break;
 
     if((signed int)obj->type == CONMAN_OBJ_TELNET)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)obj->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_2 = (signed int)obj->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)obj->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_3 = (signed int)obj->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)obj->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_4 = (signed int)obj->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = (signed int)obj->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (signed int)obj->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
       n = n + 1;
 
   }
   while((_Bool)1);
   list_iterator_destroy(i);
-  signed int return_value_getpid$6;
-  return_value_getpid$6=getpid();
-  fprintf(stderr, "\nStarting ConMan daemon %s (pid %d)\n", (const void *)"0.2.7", (signed int)return_value_getpid$6);
+  signed int return_value_getpid_6;
+  return_value_getpid_6=getpid();
+  fprintf(stderr, "\nStarting ConMan daemon %s (pid %d)\n", (const void *)"0.2.7", (signed int)return_value_getpid_6);
   fprintf(stderr, "Configuration: %s\n", conf->confFileName);
   fprintf(stderr, "Options:");
   if(!(conf->enableCoreDump == 0u))
@@ -5994,9 +5994,9 @@ static void display_server_help(char *prog)
   printf("  -h        Display this help.\n");
   printf("  -k        Kill daemon.\n");
   printf("  -L        Display license information.\n");
-  signed int return_value_atoi$1;
-  return_value_atoi$1=atoi("7890");
-  printf("  -p PORT   Specify port number. [%d]\n", return_value_atoi$1);
+  signed int return_value_atoi_1;
+  return_value_atoi_1=atoi("7890");
+  printf("  -p PORT   Specify port number. [%d]\n", return_value_atoi_1);
   printf("  -q        Query daemon's pid.\n");
   printf("  -r        Re-open log files.\n");
   printf("  -v        Be verbose.\n");
@@ -6014,69 +6014,69 @@ __CPROVER_DUMP_L1:
 static void end_daemonize(signed int fd)
 {
   signed int dev_null;
-  signed int return_value_chdir$2;
-  return_value_chdir$2=chdir("/");
-  if(!(return_value_chdir$2 >= 0))
+  signed int return_value_chdir_2;
+  return_value_chdir_2=chdir("/");
+  if(!(return_value_chdir_2 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    log_err(*return_value___errno_location$1, "Unable to change to root directory");
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    log_err(*return_value___errno_location_1, "Unable to change to root directory");
   }
 
   dev_null=open("/dev/null", 02);
   if(!(dev_null >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    log_err(*return_value___errno_location$3, "Unable to open \"/dev/null\"");
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    log_err(*return_value___errno_location_3, "Unable to open \"/dev/null\"");
   }
 
-  signed int return_value_dup2$5;
-  return_value_dup2$5=dup2(dev_null, 0);
-  if(!(return_value_dup2$5 >= 0))
+  signed int return_value_dup2_5;
+  return_value_dup2_5=dup2(dev_null, 0);
+  if(!(return_value_dup2_5 >= 0))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    log_err(*return_value___errno_location$4, "Unable to dup \"/dev/null\" onto stdin");
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    log_err(*return_value___errno_location_4, "Unable to dup \"/dev/null\" onto stdin");
   }
 
-  signed int return_value_dup2$7;
-  return_value_dup2$7=dup2(dev_null, 1);
-  if(!(return_value_dup2$7 >= 0))
+  signed int return_value_dup2_7;
+  return_value_dup2_7=dup2(dev_null, 1);
+  if(!(return_value_dup2_7 >= 0))
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    log_err(*return_value___errno_location$6, "Unable to dup \"/dev/null\" onto stdout");
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    log_err(*return_value___errno_location_6, "Unable to dup \"/dev/null\" onto stdout");
   }
 
-  signed int return_value_dup2$9;
-  return_value_dup2$9=dup2(dev_null, 2);
-  if(!(return_value_dup2$9 >= 0))
+  signed int return_value_dup2_9;
+  return_value_dup2_9=dup2(dev_null, 2);
+  if(!(return_value_dup2_9 >= 0))
   {
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    log_err(*return_value___errno_location$8, "Unable to dup \"/dev/null\" onto stderr");
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    log_err(*return_value___errno_location_8, "Unable to dup \"/dev/null\" onto stderr");
   }
 
-  signed int return_value_close$11;
-  return_value_close$11=close(dev_null);
-  if(!(return_value_close$11 >= 0))
+  signed int return_value_close_11;
+  return_value_close_11=close(dev_null);
+  if(!(return_value_close_11 >= 0))
   {
-    signed int *return_value___errno_location$10;
-    return_value___errno_location$10=__errno_location();
-    log_err(*return_value___errno_location$10, "Unable to close \"/dev/null\"");
+    signed int *return_value___errno_location_10;
+    return_value___errno_location_10=__errno_location();
+    log_err(*return_value___errno_location_10, "Unable to close \"/dev/null\"");
   }
 
   log_set_err_pipe(-1);
-  signed int return_value_close$13;
+  signed int return_value_close_13;
   if(fd >= 0)
   {
-    return_value_close$13=close(fd);
-    if(!(return_value_close$13 >= 0))
+    return_value_close_13=close(fd);
+    if(!(return_value_close_13 >= 0))
     {
-      signed int *return_value___errno_location$12;
-      return_value___errno_location$12=__errno_location();
-      log_err(*return_value___errno_location$12, "Unable to close write-pipe in grandchild process");
+      signed int *return_value___errno_location_12;
+      return_value___errno_location_12=__errno_location();
+      log_err(*return_value___errno_location_12, "Unable to close write-pipe in grandchild process");
     }
 
   }
@@ -6106,20 +6106,20 @@ static void fail_ipmi_connect(struct base_obj *ipmi)
   {
     signed int e;
     e=ipmiconsole_ctx_errnum(ipmi->aux.ipmi.ctx);
-    char *return_value_ipmiconsole_ctx_strerror$1;
-    return_value_ipmiconsole_ctx_strerror$1=ipmiconsole_ctx_strerror(e);
-    log_msg(6, "Unable to connect to <%s> via IPMI for [%s]: %s", ipmi->aux.ipmi.host, ipmi->name, return_value_ipmiconsole_ctx_strerror$1);
+    char *return_value_ipmiconsole_ctx_strerror_1;
+    return_value_ipmiconsole_ctx_strerror_1=ipmiconsole_ctx_strerror(e);
+    log_msg(6, "Unable to connect to <%s> via IPMI for [%s]: %s", ipmi->aux.ipmi.host, ipmi->name, return_value_ipmiconsole_ctx_strerror_1);
   }
   ipmi->aux.ipmi.timer=tpoll_timeout_relative(tp_global, (void (*)(void *))connect_ipmi_obj, (void *)ipmi, ipmi->aux.ipmi.delay * 1000);
-  signed int tmp_if_expr$2;
+  signed int tmp_if_expr_2;
   if(!(ipmi->aux.ipmi.delay >= 1800))
   {
     if(!(2 * ipmi->aux.ipmi.delay >= 1801))
-      tmp_if_expr$2 = ipmi->aux.ipmi.delay * 2;
+      tmp_if_expr_2 = ipmi->aux.ipmi.delay * 2;
 
     else
-      tmp_if_expr$2 = 1800;
-    ipmi->aux.ipmi.delay = tmp_if_expr$2;
+      tmp_if_expr_2 = 1800;
+    ipmi->aux.ipmi.delay = tmp_if_expr_2;
   }
 
 }
@@ -6139,20 +6139,20 @@ static char * find_trailing_int_str(char *str)
   char *q;
   p = str;
   q = (char *)(void *)0;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(p == ((char *)NULL)))
-      tmp_if_expr$1 = *p != 0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *p != 0 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
-    const unsigned short int **return_value___ctype_b_loc$2;
-    return_value___ctype_b_loc$2=__ctype_b_loc();
-    if((2048 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*p]) == 0)
+    const unsigned short int **return_value___ctype_b_loc_2;
+    return_value___ctype_b_loc_2=__ctype_b_loc();
+    if((2048 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*p]) == 0)
       q = (char *)(void *)0;
 
     else
@@ -6185,25 +6185,25 @@ signed int format_obj_string(char *buf, signed int buflen, struct base_obj *obj,
   n = buflen;
   t = (signed long int)0;
   get_localtime(&t, &tm);
-  const char *tmp_post$1;
-  _Bool tmp_if_expr$16;
-  const char *tmp_post$15;
-  char *tmp_post$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$9;
-  signed int return_value_getpid$10;
-  unsigned long int return_value_strftime$11;
-  char *tmp_post$12;
-  char *tmp_post$13;
-  char *tmp_post$14;
+  const char *tmp_post_1;
+  _Bool tmp_if_expr_16;
+  const char *tmp_post_15;
+  char *tmp_post_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_9;
+  signed int return_value_getpid_10;
+  unsigned long int return_value_strftime_11;
+  char *tmp_post_12;
+  char *tmp_post_13;
+  char *tmp_post_14;
   do
   {
-    tmp_post$1 = psrc;
+    tmp_post_1 = psrc;
     psrc = psrc + 1l;
-    c = *tmp_post$1;
+    c = *tmp_post_1;
     if((signed int)c == 0)
       break;
 
@@ -6211,23 +6211,23 @@ signed int format_obj_string(char *buf, signed int buflen, struct base_obj *obj,
       break;
 
     if(!((signed int)c == 37))
-      tmp_if_expr$16 = (_Bool)1;
+      tmp_if_expr_16 = (_Bool)1;
 
     else
     {
-      tmp_post$15 = psrc;
+      tmp_post_15 = psrc;
       psrc = psrc + 1l;
-      *pspec = *tmp_post$15;
-      tmp_if_expr$16 = (signed int)*pspec == 0 ? (_Bool)1 : (_Bool)0;
+      *pspec = *tmp_post_15;
+      tmp_if_expr_16 = (signed int)*pspec == 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$16)
+    if(tmp_if_expr_16)
     {
       n = n - 1;
       if(n >= 1)
       {
-        tmp_post$2 = pdst;
+        tmp_post_2 = pdst;
         pdst = pdst + 1l;
-        *tmp_post$2 = c;
+        *tmp_post_2 = c;
       }
 
     }
@@ -6241,31 +6241,31 @@ signed int format_obj_string(char *buf, signed int buflen, struct base_obj *obj,
             goto ignore_specifier;
 
           if((signed int)obj->type == CONMAN_OBJ_TELNET)
-            tmp_if_expr$4 = (_Bool)1;
+            tmp_if_expr_4 = (_Bool)1;
 
           else
-            tmp_if_expr$4 = (signed int)obj->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$4)
-            tmp_if_expr$5 = (_Bool)1;
+            tmp_if_expr_4 = (signed int)obj->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_4)
+            tmp_if_expr_5 = (_Bool)1;
 
           else
-            tmp_if_expr$5 = (signed int)obj->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$5)
-            tmp_if_expr$6 = (_Bool)1;
+            tmp_if_expr_5 = (signed int)obj->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_5)
+            tmp_if_expr_6 = (_Bool)1;
 
           else
-            tmp_if_expr$6 = (signed int)obj->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$6)
-            tmp_if_expr$7 = (_Bool)1;
+            tmp_if_expr_6 = (signed int)obj->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_6)
+            tmp_if_expr_7 = (_Bool)1;
 
           else
-            tmp_if_expr$7 = (signed int)obj->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$7)
+            tmp_if_expr_7 = (signed int)obj->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_7)
           {
             p = obj->name;
-            unsigned long int return_value_strlen$3;
-            return_value_strlen$3=strlen(p);
-            m = (signed int)return_value_strlen$3;
+            unsigned long int return_value_strlen_3;
+            return_value_strlen_3=strlen(p);
+            m = (signed int)return_value_strlen_3;
             n = n - m;
             if(n >= 1)
             {
@@ -6284,18 +6284,18 @@ signed int format_obj_string(char *buf, signed int buflen, struct base_obj *obj,
             goto ignore_specifier;
 
           if((signed int)obj->type == CONMAN_OBJ_SERIAL)
-            tmp_if_expr$9 = (_Bool)1;
+            tmp_if_expr_9 = (_Bool)1;
 
           else
-            tmp_if_expr$9 = (signed int)obj->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$9)
+            tmp_if_expr_9 = (signed int)obj->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_9)
           {
             q = obj->aux.serial.dev;
             p=strrchr(q, 47);
             p = p != ((char *)NULL) ? p + (signed long int)1 : q;
-            unsigned long int return_value_strlen$8;
-            return_value_strlen$8=strlen(p);
-            m = (signed int)return_value_strlen$8;
+            unsigned long int return_value_strlen_8;
+            return_value_strlen_8=strlen(p);
+            m = (signed int)return_value_strlen_8;
             n = n - m;
             if(n >= 1)
             {
@@ -6325,8 +6325,8 @@ signed int format_obj_string(char *buf, signed int buflen, struct base_obj *obj,
         }
         case 80:
         {
-          return_value_getpid$10=getpid();
-          m=snprintf(pdst, (unsigned long int)n, "%d", (signed int)return_value_getpid$10);
+          return_value_getpid_10=getpid();
+          m=snprintf(pdst, (unsigned long int)n, "%d", (signed int)return_value_getpid_10);
           if(m >= n || !(m >= 0))
             n = 0;
 
@@ -6353,8 +6353,8 @@ signed int format_obj_string(char *buf, signed int buflen, struct base_obj *obj,
 
         case 115:
         {
-          return_value_strftime$11=strftime(pdst, (unsigned long int)n, tfmt, &tm);
-          m = (signed int)return_value_strftime$11;
+          return_value_strftime_11=strftime(pdst, (unsigned long int)n, tfmt, &tm);
+          m = (signed int)return_value_strftime_11;
           if(m == 0)
             n = 0;
 
@@ -6370,9 +6370,9 @@ signed int format_obj_string(char *buf, signed int buflen, struct base_obj *obj,
           n = n - 1;
           if(n >= 1)
           {
-            tmp_post$12 = pdst;
+            tmp_post_12 = pdst;
             pdst = pdst + 1l;
-            *tmp_post$12 = *pspec;
+            *tmp_post_12 = *pspec;
           }
 
           break;
@@ -6385,12 +6385,12 @@ signed int format_obj_string(char *buf, signed int buflen, struct base_obj *obj,
           n = n - 2;
           if(n >= 1)
           {
-            tmp_post$13 = pdst;
+            tmp_post_13 = pdst;
             pdst = pdst + 1l;
-            *tmp_post$13 = (char)37;
-            tmp_post$14 = pdst;
+            *tmp_post_13 = (char)37;
+            tmp_post_14 = pdst;
             pdst = pdst + 1l;
-            *tmp_post$14 = *pspec;
+            *tmp_post_14 = *pspec;
           }
 
         }
@@ -6427,13 +6427,13 @@ struct base_obj * get_console_logfile_obj(struct base_obj *console)
 
           else
             log_err(0, "INTERNAL: Unrecognized console [%s] type=%d", console->name, console->type);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(logfile == ((struct base_obj *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = logfile->fd < 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = logfile->fd < 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return (struct base_obj *)(void *)0;
 
   else
@@ -6448,15 +6448,15 @@ char * get_dir_name(const char *srcpath, char *dstdir, unsigned long int dstdirl
   signed int len;
   if(dstdir == ((char *)NULL) || srcpath == ((const char *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return (char *)(void *)0;
   }
 
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(srcpath);
-  p = (srcpath + (signed long int)return_value_strlen$2) - (signed long int)1;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(srcpath);
+  p = (srcpath + (signed long int)return_value_strlen_2) - (signed long int)1;
   for( ; !(srcpath >= p); p = p - 1l)
     if(!((signed int)*p == 47))
       break;
@@ -6473,9 +6473,9 @@ char * get_dir_name(const char *srcpath, char *dstdir, unsigned long int dstdirl
   {
     if(!(dstdirlen >= 2ul))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = 36;
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = 36;
       return (char *)(void *)0;
     }
 
@@ -6488,9 +6488,9 @@ char * get_dir_name(const char *srcpath, char *dstdir, unsigned long int dstdirl
     len = (signed int)((p - srcpath) + (signed long int)1);
     if((unsigned long int)len >= dstdirlen || !(len >= 1))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = 36;
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = 36;
       return (char *)(void *)0;
     }
 
@@ -6509,9 +6509,9 @@ static signed int get_file_lock(signed int fd, signed int cmd, signed int type)
   lock.l_start = (signed long int)0;
   lock.l_whence = (signed short int)0;
   lock.l_len = (signed long int)0;
-  signed int return_value_fcntl$1;
-  return_value_fcntl$1=fcntl(fd, cmd, &lock);
-  return return_value_fcntl$1;
+  signed int return_value_fcntl_1;
+  return_value_fcntl_1=fcntl(fd, cmd, &lock);
+  return return_value_fcntl_1;
 }
 
 // get_host_by_addr
@@ -6520,16 +6520,16 @@ struct hostent * get_host_by_addr(const char *addr, signed int len, signed int t
 {
   struct hostent *hptr;
   signed int n = 0;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_lock(&hostentLock);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_lock(&hostentLock);
+    if(!(*return_value___errno_location_2 == 0))
     {
-      return_value___errno_location$1=__errno_location();
-      log_err(*return_value___errno_location$1, "pthread_mutex_lock() failed");
+      return_value___errno_location_1=__errno_location();
+      log_err(*return_value___errno_location_1, "pthread_mutex_lock() failed");
     }
 
   }
@@ -6538,32 +6538,32 @@ struct hostent * get_host_by_addr(const char *addr, signed int len, signed int t
   if(!(hptr == ((struct hostent *)NULL)))
     n=copy_hostent(hptr, (char *)buf, buflen);
 
-  signed int *return_value___h_errno_location$3;
+  signed int *return_value___h_errno_location_3;
   if(!(h_err == ((signed int *)NULL)))
   {
-    return_value___h_errno_location$3=__h_errno_location();
-    *h_err = *return_value___h_errno_location$3;
+    return_value___h_errno_location_3=__h_errno_location();
+    *h_err = *return_value___h_errno_location_3;
   }
 
-  signed int *return_value___errno_location$4;
+  signed int *return_value___errno_location_4;
   do
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    *return_value___errno_location$5=pthread_mutex_unlock(&hostentLock);
-    if(!(*return_value___errno_location$5 == 0))
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    *return_value___errno_location_5=pthread_mutex_unlock(&hostentLock);
+    if(!(*return_value___errno_location_5 == 0))
     {
-      return_value___errno_location$4=__errno_location();
-      log_err(*return_value___errno_location$4, "pthread_mutex_unlock() failed");
+      return_value___errno_location_4=__errno_location();
+      log_err(*return_value___errno_location_4, "pthread_mutex_unlock() failed");
     }
 
   }
   while((_Bool)0);
   if(!(n >= 0))
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    *return_value___errno_location$6 = 34;
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    *return_value___errno_location_6 = 34;
     return (struct hostent *)(void *)0;
   }
 
@@ -6576,16 +6576,16 @@ struct hostent * get_host_by_name(const char *name, void *buf, signed int buflen
 {
   struct hostent *hptr;
   signed int n = 0;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_lock(&hostentLock);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_lock(&hostentLock);
+    if(!(*return_value___errno_location_2 == 0))
     {
-      return_value___errno_location$1=__errno_location();
-      log_err(*return_value___errno_location$1, "pthread_mutex_lock() failed");
+      return_value___errno_location_1=__errno_location();
+      log_err(*return_value___errno_location_1, "pthread_mutex_lock() failed");
     }
 
   }
@@ -6594,32 +6594,32 @@ struct hostent * get_host_by_name(const char *name, void *buf, signed int buflen
   if(!(hptr == ((struct hostent *)NULL)))
     n=copy_hostent(hptr, (char *)buf, buflen);
 
-  signed int *return_value___h_errno_location$3;
+  signed int *return_value___h_errno_location_3;
   if(!(h_err == ((signed int *)NULL)))
   {
-    return_value___h_errno_location$3=__h_errno_location();
-    *h_err = *return_value___h_errno_location$3;
+    return_value___h_errno_location_3=__h_errno_location();
+    *h_err = *return_value___h_errno_location_3;
   }
 
-  signed int *return_value___errno_location$4;
+  signed int *return_value___errno_location_4;
   do
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    *return_value___errno_location$5=pthread_mutex_unlock(&hostentLock);
-    if(!(*return_value___errno_location$5 == 0))
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    *return_value___errno_location_5=pthread_mutex_unlock(&hostentLock);
+    if(!(*return_value___errno_location_5 == 0))
     {
-      return_value___errno_location$4=__errno_location();
-      log_err(*return_value___errno_location$4, "pthread_mutex_unlock() failed");
+      return_value___errno_location_4=__errno_location();
+      log_err(*return_value___errno_location_4, "pthread_mutex_unlock() failed");
     }
 
   }
   while((_Bool)0);
   if(!(n >= 0))
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    *return_value___errno_location$6 = 34;
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    *return_value___errno_location_6 = 34;
     return (struct hostent *)(void *)0;
   }
 
@@ -6632,24 +6632,24 @@ struct tm * get_localtime(signed long int *tPtr, struct tm *tmPtr)
 {
   if(*tPtr == 0l)
   {
-    signed long int return_value_time$2;
-    return_value_time$2=time(tPtr);
-    if(return_value_time$2 == -1l)
+    signed long int return_value_time_2;
+    return_value_time_2=time(tPtr);
+    if(return_value_time_2 == -1l)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      log_err(*return_value___errno_location$1, "time() failed");
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      log_err(*return_value___errno_location_1, "time() failed");
     }
 
   }
 
-  struct tm *return_value_localtime_r$4;
-  return_value_localtime_r$4=localtime_r(tPtr, tmPtr);
-  if(return_value_localtime_r$4 == ((struct tm *)NULL))
+  struct tm *return_value_localtime_r_4;
+  return_value_localtime_r_4=localtime_r(tPtr, tmPtr);
+  if(return_value_localtime_r_4 == ((struct tm *)NULL))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    log_err(*return_value___errno_location$3, "localtime_r() failed");
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    log_err(*return_value___errno_location_3, "localtime_r() failed");
   }
 
   return tmPtr;
@@ -6659,18 +6659,18 @@ struct tm * get_localtime(signed long int *tPtr, struct tm *tmPtr)
 // file util-file.h line 53
 signed int get_read_lock(signed int fd)
 {
-  signed int return_value_get_file_lock$1;
-  return_value_get_file_lock$1=get_file_lock(fd, 6, 0);
-  return return_value_get_file_lock$1;
+  signed int return_value_get_file_lock_1;
+  return_value_get_file_lock_1=get_file_lock(fd, 6, 0);
+  return return_value_get_file_lock_1;
 }
 
 // get_readw_lock
 // file util-file.c line 93
 signed int get_readw_lock(signed int fd)
 {
-  signed int return_value_get_file_lock$1;
-  return_value_get_file_lock$1=get_file_lock(fd, 7, 0);
-  return return_value_get_file_lock$1;
+  signed int return_value_get_file_lock_1;
+  return_value_get_file_lock_1=get_file_lock(fd, 7, 0);
+  return return_value_get_file_lock_1;
 }
 
 // get_sane_env
@@ -6692,9 +6692,9 @@ static char ** get_sane_env(void)
   pp = env_restrict;
   for( ; !(*pp == ((char *)NULL)); pp = pp + 1l)
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(*pp);
-    env_len = env_len + (signed int)(return_value_strlen$1 + (unsigned long int)1);
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(*pp);
+    env_len = env_len + (signed int)(return_value_strlen_1 + (unsigned long int)1);
     env_num = env_num + 1;
   }
   pp = env_preserve;
@@ -6703,23 +6703,23 @@ static char ** get_sane_env(void)
     p=getenv(*pp);
     if(!(p == ((char *)NULL)))
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(*pp);
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(p);
-      env_len = env_len + (signed int)(return_value_strlen$2 + return_value_strlen$3 + (unsigned long int)2);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(*pp);
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(p);
+      env_len = env_len + (signed int)(return_value_strlen_2 + return_value_strlen_3 + (unsigned long int)2);
       env_num = env_num + 1;
     }
 
   }
   env_len = env_len + (signed int)((unsigned long int)env_num * sizeof(char *) /*8ul*/ );
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc((unsigned long int)env_len);
-  env = (char **)return_value_malloc$4;
-  signed int tmp_post$5;
-  signed int tmp_post$7;
-  char *tmp_post$9;
-  signed int tmp_post$11;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc((unsigned long int)env_len);
+  env = (char **)return_value_malloc_4;
+  signed int tmp_post_5;
+  signed int tmp_post_7;
+  char *tmp_post_9;
+  signed int tmp_post_11;
   if(env == ((char **)NULL))
     return (char **)(void *)0;
 
@@ -6730,12 +6730,12 @@ static char ** get_sane_env(void)
     pp = env_restrict;
     for( ; !(*pp == ((char *)NULL)); pp = pp + 1l)
     {
-      tmp_post$5 = num;
+      tmp_post_5 = num;
       num = num + 1;
-      env[(signed long int)tmp_post$5] = ptr;
-      unsigned long int return_value_strlen$6;
-      return_value_strlen$6=strlen(*pp);
-      len = (signed int)(return_value_strlen$6 + (unsigned long int)1);
+      env[(signed long int)tmp_post_5] = ptr;
+      unsigned long int return_value_strlen_6;
+      return_value_strlen_6=strlen(*pp);
+      len = (signed int)(return_value_strlen_6 + (unsigned long int)1);
       memcpy((void *)ptr, (const void *)*pp, (unsigned long int)len);
       ptr = ptr + (signed long int)len;
     }
@@ -6745,28 +6745,28 @@ static char ** get_sane_env(void)
       p=getenv(*pp);
       if(!(p == ((char *)NULL)))
       {
-        tmp_post$7 = num;
+        tmp_post_7 = num;
         num = num + 1;
-        env[(signed long int)tmp_post$7] = ptr;
-        unsigned long int return_value_strlen$8;
-        return_value_strlen$8=strlen(*pp);
-        len = (signed int)return_value_strlen$8;
+        env[(signed long int)tmp_post_7] = ptr;
+        unsigned long int return_value_strlen_8;
+        return_value_strlen_8=strlen(*pp);
+        len = (signed int)return_value_strlen_8;
         memcpy((void *)ptr, (const void *)*pp, (unsigned long int)len);
         ptr = ptr + (signed long int)len;
-        tmp_post$9 = ptr;
+        tmp_post_9 = ptr;
         ptr = ptr + 1l;
-        *tmp_post$9 = (char)61;
-        unsigned long int return_value_strlen$10;
-        return_value_strlen$10=strlen(p);
-        len = (signed int)(return_value_strlen$10 + (unsigned long int)1);
+        *tmp_post_9 = (char)61;
+        unsigned long int return_value_strlen_10;
+        return_value_strlen_10=strlen(p);
+        len = (signed int)(return_value_strlen_10 + (unsigned long int)1);
         memcpy((void *)ptr, (const void *)p, (unsigned long int)len);
         ptr = ptr + (signed long int)len;
       }
 
     }
-    tmp_post$11 = num;
+    tmp_post_11 = num;
     num = num + 1;
-    env[(signed long int)tmp_post$11] = (char *)(void *)0;
+    env[(signed long int)tmp_post_11] = (char *)(void *)0;
     return env;
   }
 }
@@ -6775,17 +6775,17 @@ static char ** get_sane_env(void)
 // file common.h line 200
 void get_tty_mode(struct termios *tty, signed int fd)
 {
-  signed int return_value_isatty$1;
-  return_value_isatty$1=isatty(fd);
-  signed int *return_value___errno_location$2;
-  if(!(return_value_isatty$1 == 0))
+  signed int return_value_isatty_1;
+  return_value_isatty_1=isatty(fd);
+  signed int *return_value___errno_location_2;
+  if(!(return_value_isatty_1 == 0))
   {
-    signed int return_value_tcgetattr$3;
-    return_value_tcgetattr$3=tcgetattr(fd, tty);
-    if(!(return_value_tcgetattr$3 >= 0))
+    signed int return_value_tcgetattr_3;
+    return_value_tcgetattr_3=tcgetattr(fd, tty);
+    if(!(return_value_tcgetattr_3 >= 0))
     {
-      return_value___errno_location$2=__errno_location();
-      log_err(*return_value___errno_location$2, "tcgetattr() failed on fd=%d", fd);
+      return_value___errno_location_2=__errno_location();
+      log_err(*return_value___errno_location_2, "tcgetattr() failed on fd=%d", fd);
     }
 
     goto __CPROVER_DUMP_L2;
@@ -6816,18 +6816,18 @@ void get_tty_raw(struct termios *tty, signed int fd)
 // file util-file.h line 66
 signed int get_write_lock(signed int fd)
 {
-  signed int return_value_get_file_lock$1;
-  return_value_get_file_lock$1=get_file_lock(fd, 6, 1);
-  return return_value_get_file_lock$1;
+  signed int return_value_get_file_lock_1;
+  return_value_get_file_lock_1=get_file_lock(fd, 6, 1);
+  return return_value_get_file_lock_1;
 }
 
 // get_writew_lock
 // file util-file.c line 105
 signed int get_writew_lock(signed int fd)
 {
-  signed int return_value_get_file_lock$1;
-  return_value_get_file_lock$1=get_file_lock(fd, 7, 1);
-  return return_value_get_file_lock$1;
+  signed int return_value_get_file_lock_1;
+  return_value_get_file_lock_1=get_file_lock(fd, 7, 1);
+  return return_value_get_file_lock_1;
 }
 
 // host_addr4_to_name
@@ -6842,13 +6842,13 @@ char * host_addr4_to_name(struct in_addr *addr, char *dst, signed int dstlen)
 
   else
   {
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(hptr->h_name);
-    if(return_value_strlen$2 >= (unsigned long int)dstlen)
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(hptr->h_name);
+    if(return_value_strlen_2 >= (unsigned long int)dstlen)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 34;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 34;
       return (char *)(void *)0;
     }
 
@@ -6871,9 +6871,9 @@ signed int host_name_to_addr4(const char *name, struct in_addr *addr)
   {
     if(hptr->h_length >= 5)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 34;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 34;
       return -1;
     }
 
@@ -6902,13 +6902,13 @@ char * host_name_to_cname(const char *src, char *dst, signed int dstlen)
 
     else
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(hptr->h_name);
-      if(return_value_strlen$2 >= (unsigned long int)dstlen)
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(hptr->h_name);
+      if(return_value_strlen_2 >= (unsigned long int)dstlen)
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = 34;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = 34;
         return (char *)(void *)0;
       }
 
@@ -6969,23 +6969,23 @@ signed int inevent_add(const char *pathname, void (*cb_fnc)(void *), void *cb_ar
       {
         if(inevent_fd == -1)
         {
-          signed int return_value__inevent_init$3;
-          return_value__inevent_init$3=_inevent_init();
-          if(!(return_value__inevent_init$3 >= 0))
+          signed int return_value__inevent_init_3;
+          return_value__inevent_init_3=_inevent_init();
+          if(!(return_value__inevent_init_3 >= 0))
           {
-            signed int *return_value___errno_location$1;
-            return_value___errno_location$1=__errno_location();
-            char *return_value_strerror$2;
-            return_value_strerror$2=strerror(*return_value___errno_location$1);
-            log_msg(3, "unable to initialize inotify: %s", return_value_strerror$2);
+            signed int *return_value___errno_location_1;
+            return_value___errno_location_1=__errno_location();
+            char *return_value_strerror_2;
+            return_value_strerror_2=strerror(*return_value___errno_location_1);
+            log_msg(3, "unable to initialize inotify: %s", return_value_strerror_2);
             return -1;
           }
 
         }
 
-        void *return_value_list_find_first$4;
-        return_value_list_find_first$4=list_find_first(inevent_list, (signed int (*)(void *, void *))_list_find_by_path, (void *)pathname);
-        if(!(return_value_list_find_first$4 == NULL))
+        void *return_value_list_find_first_4;
+        return_value_list_find_first_4=list_find_first(inevent_list, (signed int (*)(void *, void *))_list_find_by_path, (void *)pathname);
+        if(!(return_value_list_find_first_4 == NULL))
         {
           log_msg(3, "inotify event path \"%s\" already specified", pathname);
           return -1;
@@ -7020,8 +7020,8 @@ signed int inevent_process(void)
   char buf[(signed long int)(sizeof(struct inotify_event) * 256) /*4096l*/ ];
   signed int len;
   signed int n = 0;
-  signed long int return_value_read$1;
-  signed int *return_value___errno_location$2;
+  signed long int return_value_read_1;
+  signed int *return_value___errno_location_2;
   if(inevent_fd == -1)
     return -1;
 
@@ -7032,19 +7032,19 @@ signed int inevent_process(void)
 
     retry_read:
       ;
-      return_value_read$1=read(inevent_fd, (void *)buf, sizeof(char [4096l]) /*4096ul*/ );
-      len = (signed int)return_value_read$1;
+      return_value_read_1=read(inevent_fd, (void *)buf, sizeof(char [4096l]) /*4096ul*/ );
+      len = (signed int)return_value_read_1;
       if(len >= 0)
         goto __CPROVER_DUMP_L2;
 
-      return_value___errno_location$2=__errno_location();
+      return_value___errno_location_2=__errno_location();
     }
-    while(*return_value___errno_location$2 == 4);
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    log_msg(3, "unable to read inotify fd: %s", return_value_strerror$4);
+    while(*return_value___errno_location_2 == 4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    log_msg(3, "unable to read inotify fd: %s", return_value_strerror_4);
     return -1;
 
   __CPROVER_DUMP_L2:
@@ -7072,9 +7072,9 @@ signed int inevent_process(void)
           {
             if(event_ptr->len >= 1u)
             {
-              void *return_value_list_find_first$5;
-              return_value_list_find_first$5=list_find_first(inevent_list, (signed int (*)(void *, void *))_list_find_by_event, (void *)event_ptr);
-              inevent_ptr = (struct inevent *)return_value_list_find_first$5;
+              void *return_value_list_find_first_5;
+              return_value_list_find_first_5=list_find_first(inevent_list, (signed int (*)(void *, void *))_list_find_by_event, (void *)event_ptr);
+              inevent_ptr = (struct inevent *)return_value_list_find_first_5;
               if(!(inevent_ptr == ((struct inevent *)NULL)))
               {
                 if(!(inevent_ptr->cb_fnc == ((void (*)(void *))NULL)))
@@ -7101,7 +7101,7 @@ signed int inevent_remove(const char *pathname)
   struct listIterator *li = (struct listIterator *)(void *)0;
   struct inevent *inevent_ptr;
   signed int wd_cnt;
-  void *return_value_list_find$2;
+  void *return_value_list_find_2;
   if(pathname == ((const char *)NULL))
     return 0;
 
@@ -7112,9 +7112,9 @@ signed int inevent_remove(const char *pathname)
     else
     {
       li=list_iterator_create(inevent_list);
-      void *return_value_list_find$1;
-      return_value_list_find$1=list_find(li, (signed int (*)(void *, void *))_list_find_by_path, (void *)pathname);
-      inevent_ptr = (struct inevent *)return_value_list_find$1;
+      void *return_value_list_find_1;
+      return_value_list_find_1=list_find(li, (signed int (*)(void *, void *))_list_find_by_path, (void *)pathname);
+      inevent_ptr = (struct inevent *)return_value_list_find_1;
       if(inevent_ptr == ((struct inevent *)NULL))
       {
         log_msg(3, "inotify event path \"%s\" not registered", pathname);
@@ -7129,8 +7129,8 @@ signed int inevent_remove(const char *pathname)
         wd_cnt = 0;
         do
         {
-          return_value_list_find$2=list_find(li, (signed int (*)(void *, void *))_list_find_by_wd, (void *)&inevent_ptr->wd);
-          if(return_value_list_find$2 == NULL)
+          return_value_list_find_2=list_find(li, (signed int (*)(void *, void *))_list_find_by_wd, (void *)&inevent_ptr->wd);
+          if(return_value_list_find_2 == NULL)
             break;
 
           wd_cnt = wd_cnt + 1;
@@ -7145,9 +7145,9 @@ signed int inevent_remove(const char *pathname)
         }
 
         _inevent_destroy(inevent_ptr);
-        signed int return_value_list_is_empty$3;
-        return_value_list_is_empty$3=list_is_empty(inevent_list);
-        if(!(return_value_list_is_empty$3 == 0))
+        signed int return_value_list_is_empty_3;
+        return_value_list_is_empty_3=list_is_empty(inevent_list);
+        if(!(return_value_list_is_empty_3 == 0))
           _inevent_fini();
 
         return 0;
@@ -7177,9 +7177,9 @@ signed int init_ipmi_opts(struct ipmi_opt *iopts)
 static signed int initiate_ipmi_connect(struct base_obj *ipmi)
 {
   signed int rc;
-  signed int return_value_create_ipmi_ctx$1;
-  return_value_create_ipmi_ctx$1=create_ipmi_ctx(ipmi);
-  if(!(return_value_create_ipmi_ctx$1 >= 0))
+  signed int return_value_create_ipmi_ctx_1;
+  return_value_create_ipmi_ctx_1=create_ipmi_ctx(ipmi);
+  if(!(return_value_create_ipmi_ctx_1 >= 0))
     return -1;
 
   else
@@ -7240,9 +7240,9 @@ void ipmi_init(signed int num_consoles)
     if(is_ipmi_engine_started == 0)
     {
       num_threads = (num_consoles - 1) / 128 + 1;
-      signed int return_value_ipmiconsole_engine_init$1;
-      return_value_ipmiconsole_engine_init$1=ipmiconsole_engine_init((unsigned int)num_threads, (unsigned int)0);
-      if(!(return_value_ipmiconsole_engine_init$1 >= 0))
+      signed int return_value_ipmiconsole_engine_init_1;
+      return_value_ipmiconsole_engine_init_1=ipmiconsole_engine_init((unsigned int)num_threads, (unsigned int)0);
+      if(!(return_value_ipmiconsole_engine_init_1 >= 0))
         log_err(0, "Unable to start IPMI SOL engine");
 
       else
@@ -7269,9 +7269,9 @@ signed int is_empty_string(const char *str)
   {
     for( ; !(*str == 0); str = str + 1l)
     {
-      const unsigned short int **return_value___ctype_b_loc$1;
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*str]) == 0)
+      const unsigned short int **return_value___ctype_b_loc_1;
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*str]) == 0)
         return 0;
 
     }
@@ -7289,18 +7289,18 @@ signed int is_ipmi_dev(const char *dev, char **host_ref)
 
   else
   {
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(prefix);
-    signed int return_value_strncasecmp$2;
-    return_value_strncasecmp$2=strncasecmp(dev, prefix, return_value_strlen$1);
-    if(!(return_value_strncasecmp$2 == 0))
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(prefix);
+    signed int return_value_strncasecmp_2;
+    return_value_strncasecmp_2=strncasecmp(dev, prefix, return_value_strlen_1);
+    if(!(return_value_strncasecmp_2 == 0))
       return 0;
 
     else
     {
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(prefix);
-      dev = dev + (signed long int)return_value_strlen$3;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(prefix);
+      dev = dev + (signed long int)return_value_strlen_3;
       if((signed int)*dev == 0)
         return 0;
 
@@ -7319,26 +7319,26 @@ signed int is_ipmi_dev(const char *dev, char **host_ref)
 // file server-ipmi.c line 329
 static signed int is_ipmi_opt_tag(const char *str)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(str == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)str[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = (signed int)str[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)str[(signed long int)1] != 58 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)str[(signed long int)1] != 58 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
     return 0;
 
   else
   {
-    signed int return_value_toupper$3;
-    return_value_toupper$3=toupper((signed int)str[(signed long int)0]);
-    if(return_value_toupper$3 == 67 || return_value_toupper$3 == 75 || return_value_toupper$3 == 76 || return_value_toupper$3 == 80 || return_value_toupper$3 == 85 || return_value_toupper$3 == 87)
+    signed int return_value_toupper_3;
+    return_value_toupper_3=toupper((signed int)str[(signed long int)0]);
+    if(return_value_toupper_3 == 67 || return_value_toupper_3 == 75 || return_value_toupper_3 == 76 || return_value_toupper_3 == 80 || return_value_toupper_3 == 85 || return_value_toupper_3 == 87)
       return 1;
 
     return 0;
@@ -7352,19 +7352,19 @@ signed int is_process_dev(const char *dev, const char *cwd, const char *exec_pat
   char buf[4096l];
   signed int n;
   struct stat st;
-  char *return_value_strchr$1;
-  return_value_strchr$1=strchr(dev, 47);
-  _Bool tmp_if_expr$3;
-  signed int return_value_search_exec_path$2;
-  if(return_value_strchr$1 == ((char *)NULL))
+  char *return_value_strchr_1;
+  return_value_strchr_1=strchr(dev, 47);
+  _Bool tmp_if_expr_3;
+  signed int return_value_search_exec_path_2;
+  if(return_value_strchr_1 == ((char *)NULL))
   {
-    return_value_search_exec_path$2=search_exec_path(exec_path, dev, buf, (signed int)sizeof(char [4096l]) /*4096ul*/ );
-    tmp_if_expr$3 = return_value_search_exec_path$2 == 0 ? (_Bool)1 : (_Bool)0;
+    return_value_search_exec_path_2=search_exec_path(exec_path, dev, buf, (signed int)sizeof(char [4096l]) /*4096ul*/ );
+    tmp_if_expr_3 = return_value_search_exec_path_2 == 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  if(tmp_if_expr_3)
     dev = buf;
 
   else
@@ -7381,9 +7381,9 @@ signed int is_process_dev(const char *dev, const char *cwd, const char *exec_pat
 
     }
 
-  signed int return_value_stat$4;
-  return_value_stat$4=stat(dev, &st);
-  if(!(return_value_stat$4 >= 0))
+  signed int return_value_stat_4;
+  return_value_stat_4=stat(dev, &st);
+  if(!(return_value_stat_4 >= 0))
     return 0;
 
   else
@@ -7392,9 +7392,9 @@ signed int is_process_dev(const char *dev, const char *cwd, const char *exec_pat
 
     else
     {
-      signed int return_value_access$5;
-      return_value_access$5=access(dev, 1);
-      if(!(return_value_access$5 >= 0))
+      signed int return_value_access_5;
+      return_value_access_5=access(dev, 1);
+      if(!(return_value_access_5 >= 0))
         return 0;
 
       else
@@ -7411,9 +7411,9 @@ signed int is_process_dev(const char *dev, const char *cwd, const char *exec_pat
 // file util-file.c line 117
 signed int is_read_lock_blocked(signed int fd)
 {
-  signed int return_value_test_file_lock$1;
-  return_value_test_file_lock$1=test_file_lock(fd, 0);
-  return return_value_test_file_lock$1;
+  signed int return_value_test_file_lock_1;
+  return_value_test_file_lock_1=test_file_lock(fd, 0);
+  return return_value_test_file_lock_1;
 }
 
 // is_serial_dev
@@ -7436,9 +7436,9 @@ signed int is_serial_dev(const char *dev, const char *cwd, char **path_ref)
 
   }
 
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(dev, &st);
-  if(!(return_value_stat$1 >= 0))
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(dev, &st);
+  if(!(return_value_stat_1 >= 0))
     return 0;
 
   else
@@ -7461,10 +7461,10 @@ signed int is_telnet_dev(const char *dev, char **host_ref, signed int *port_ref)
   char buf[1024l];
   char *p;
   signed int n;
-  unsigned long int return_value_strlcpy$1;
-  return_value_strlcpy$1=strlcpy(buf, dev, sizeof(char [1024l]) /*1024ul*/ );
-  char *tmp_post$3;
-  if(return_value_strlcpy$1 >= sizeof(char [1024l]) /*1024ul*/ )
+  unsigned long int return_value_strlcpy_1;
+  return_value_strlcpy_1=strlcpy(buf, dev, sizeof(char [1024l]) /*1024ul*/ );
+  char *tmp_post_3;
+  if(return_value_strlcpy_1 >= sizeof(char [1024l]) /*1024ul*/ )
     return 0;
 
   else
@@ -7475,9 +7475,9 @@ signed int is_telnet_dev(const char *dev, char **host_ref, signed int *port_ref)
 
     else
     {
-      unsigned long int return_value_strspn$2;
-      return_value_strspn$2=strspn(p + (signed long int)1, "0123456789");
-      n = (signed int)return_value_strspn$2;
+      unsigned long int return_value_strspn_2;
+      return_value_strspn_2=strspn(p + (signed long int)1, "0123456789");
+      n = (signed int)return_value_strspn_2;
       if(n == 0)
         return 0;
 
@@ -7487,9 +7487,9 @@ signed int is_telnet_dev(const char *dev, char **host_ref, signed int *port_ref)
 
         else
         {
-          tmp_post$3 = p;
+          tmp_post_3 = p;
           p = p + 1l;
-          *tmp_post$3 = (char)0;
+          *tmp_post_3 = (char)0;
           if(!(host_ref == ((char **)NULL)))
             *host_ref=create_string(buf);
 
@@ -7509,18 +7509,18 @@ signed int is_unixsock_dev(const char *dev, const char *cwd, char **path_ref)
   const char *prefix = "unix:";
   signed int n;
   char buf[4096l];
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(prefix);
-  signed int return_value_strncasecmp$2;
-  return_value_strncasecmp$2=strncasecmp(dev, prefix, return_value_strlen$1);
-  if(!(return_value_strncasecmp$2 == 0))
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(prefix);
+  signed int return_value_strncasecmp_2;
+  return_value_strncasecmp_2=strncasecmp(dev, prefix, return_value_strlen_1);
+  if(!(return_value_strncasecmp_2 == 0))
     return 0;
 
   else
   {
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(prefix);
-    dev = dev + (signed long int)return_value_strlen$3;
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(prefix);
+    dev = dev + (signed long int)return_value_strlen_3;
     if((signed int)*dev == 0)
       return 0;
 
@@ -7551,9 +7551,9 @@ signed int is_unixsock_dev(const char *dev, const char *cwd, char **path_ref)
 // file util-file.h line 92
 signed int is_write_lock_blocked(signed int fd)
 {
-  signed int return_value_test_file_lock$1;
-  return_value_test_file_lock$1=test_file_lock(fd, 1);
-  return return_value_test_file_lock$1;
+  signed int return_value_test_file_lock_1;
+  return_value_test_file_lock_1=test_file_lock(fd, 1);
+  return return_value_test_file_lock_1;
 }
 
 // kill_console_reset
@@ -7562,13 +7562,13 @@ static void kill_console_reset(signed int *arg)
 {
   signed int pid = *arg;
   free((void *)arg);
-  signed int return_value_kill$1;
-  return_value_kill$1=kill(pid, 0);
-  if(return_value_kill$1 >= 0)
+  signed int return_value_kill_1;
+  return_value_kill_1=kill(pid, 0);
+  if(return_value_kill_1 >= 0)
   {
-    signed int return_value_kill$2;
-    return_value_kill$2=kill(-pid, 9);
-    if(return_value_kill$2 == 0)
+    signed int return_value_kill_2;
+    return_value_kill_2=kill(-pid, 9);
+    if(return_value_kill_2 == 0)
       log_msg(5, "ResetCmd process pid=%d exceeded %ds time limit", (signed int)pid, 60);
 
     goto __CPROVER_DUMP_L3;
@@ -7584,9 +7584,9 @@ __CPROVER_DUMP_L3:
 struct lexer_state * lex_create(void *buf, char **toks)
 {
   struct lexer_state *l;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct lexer_state) /*1056ul*/ );
-  l = (struct lexer_state *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct lexer_state) /*1056ul*/ );
+  l = (struct lexer_state *)return_value_malloc_1;
   if(l == ((struct lexer_state *)NULL))
   {
     log_err(0, "Out of memory");
@@ -7644,7 +7644,7 @@ void lex_destroy(struct lexer_state *l)
 char * lex_encode(char *str)
 {
   char *p;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(str == ((char *)NULL))
     return (char *)(void *)0;
 
@@ -7654,11 +7654,11 @@ char * lex_encode(char *str)
     for( ; !(*p == 0); p = p + 1l)
     {
       if((signed int)*p == 39)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = (signed int)*p == 34 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (signed int)*p == 34 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         *p = *p | (char)0x80;
 
     }
@@ -7685,28 +7685,28 @@ signed int lex_next(struct lexer_state *l)
     l->gotEOL = 0;
   }
 
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  char *tmp_post$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  signed long int tmp_if_expr$7;
-  const unsigned short int **return_value___ctype_b_loc$20;
-  _Bool tmp_if_expr$21;
-  _Bool tmp_if_expr$10;
-  const unsigned short int **return_value___ctype_b_loc$8;
-  _Bool tmp_if_expr$9;
-  signed long int tmp_if_expr$11;
-  const unsigned short int **return_value___ctype_b_loc$15;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$18;
-  const unsigned short int **return_value___ctype_b_loc$17;
-  _Bool tmp_if_expr$13;
-  const unsigned short int **return_value___ctype_b_loc$12;
-  signed long int tmp_if_expr$14;
-  char *tmp_post$22;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  char *tmp_post_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  signed long int tmp_if_expr_7;
+  const unsigned short int **return_value___ctype_b_loc_20;
+  _Bool tmp_if_expr_21;
+  _Bool tmp_if_expr_10;
+  const unsigned short int **return_value___ctype_b_loc_8;
+  _Bool tmp_if_expr_9;
+  signed long int tmp_if_expr_11;
+  const unsigned short int **return_value___ctype_b_loc_15;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_18;
+  const unsigned short int **return_value___ctype_b_loc_17;
+  _Bool tmp_if_expr_13;
+  const unsigned short int **return_value___ctype_b_loc_12;
+  signed long int tmp_if_expr_14;
+  char *tmp_post_22;
   while((_Bool)1)
     switch((signed int)*l->pos)
     {
@@ -7733,17 +7733,17 @@ signed int lex_next(struct lexer_state *l)
         {
           l->pos = l->pos + 1l;
           if(!(*l->pos == 0))
-            tmp_if_expr$1 = (signed int)*l->pos != 10 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = (signed int)*l->pos != 10 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$1 = (_Bool)0;
-          if(tmp_if_expr$1)
-            tmp_if_expr$2 = (signed int)*l->pos != 13 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_1 = (_Bool)0;
+          if(tmp_if_expr_1)
+            tmp_if_expr_2 = (signed int)*l->pos != 13 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$2 = (_Bool)0;
+            tmp_if_expr_2 = (_Bool)0;
         }
-        while(tmp_if_expr$2);
+        while(tmp_if_expr_2);
         break;
       }
       case 13:
@@ -7752,9 +7752,9 @@ signed int lex_next(struct lexer_state *l)
 
       case 10:
       {
-        tmp_post$3 = l->pos;
+        tmp_post_3 = l->pos;
         l->pos = l->pos + 1l;
-        l->text[(signed long int)0] = *tmp_post$3;
+        l->text[(signed long int)0] = *tmp_post_3;
         l->text[(signed long int)1] = (char)0;
         l->gotEOL = 1;
         l->prev = 256;
@@ -7768,21 +7768,21 @@ signed int lex_next(struct lexer_state *l)
         do
         {
           if(!(*p == 0))
-            tmp_if_expr$4 = *p != *l->pos ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = *p != *l->pos ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          if(tmp_if_expr$4)
-            tmp_if_expr$5 = (signed int)*p != 13 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = (_Bool)0;
+          if(tmp_if_expr_4)
+            tmp_if_expr_5 = (signed int)*p != 13 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$5 = (_Bool)0;
-          if(tmp_if_expr$5)
-            tmp_if_expr$6 = (signed int)*p != 10 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_5 = (_Bool)0;
+          if(tmp_if_expr_5)
+            tmp_if_expr_6 = (signed int)*p != 10 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          if(!tmp_if_expr$6)
+            tmp_if_expr_6 = (_Bool)0;
+          if(!tmp_if_expr_6)
             break;
 
           p = p + 1l;
@@ -7791,11 +7791,11 @@ signed int lex_next(struct lexer_state *l)
         if(*p == *l->pos)
         {
           if(!((p - l->pos) + -1l >= 1024l))
-            tmp_if_expr$7 = (p - l->pos) - (signed long int)1;
+            tmp_if_expr_7 = (p - l->pos) - (signed long int)1;
 
           else
-            tmp_if_expr$7 = (signed long int)(1024 - 1);
-          len = (signed int)tmp_if_expr$7;
+            tmp_if_expr_7 = (signed long int)(1024 - 1);
+          len = (signed int)tmp_if_expr_7;
           memcpy((void *)l->text, (const void *)(l->pos + (signed long int)1), (unsigned long int)len);
           l->text[(signed long int)len] = (char)0;
           l->pos = p + (signed long int)1;
@@ -7833,42 +7833,42 @@ signed int lex_next(struct lexer_state *l)
 
       default:
       {
-        return_value___ctype_b_loc$20=__ctype_b_loc();
-        if(!((1024 & (signed int)(*return_value___ctype_b_loc$20)[(signed long int)(signed int)*l->pos]) == 0))
-          tmp_if_expr$21 = (_Bool)1;
+        return_value___ctype_b_loc_20=__ctype_b_loc();
+        if(!((1024 & (signed int)(*return_value___ctype_b_loc_20)[(signed long int)(signed int)*l->pos]) == 0))
+          tmp_if_expr_21 = (_Bool)1;
 
         else
-          tmp_if_expr$21 = (signed int)*l->pos == 95 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$21)
+          tmp_if_expr_21 = (signed int)*l->pos == 95 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_21)
         {
           p = l->pos + (signed long int)1;
           do
           {
             if(!(*p == 0))
             {
-              return_value___ctype_b_loc$8=__ctype_b_loc();
-              if(!((8 & (signed int)(*return_value___ctype_b_loc$8)[(signed long int)(signed int)*p]) == 0))
-                tmp_if_expr$9 = (_Bool)1;
+              return_value___ctype_b_loc_8=__ctype_b_loc();
+              if(!((8 & (signed int)(*return_value___ctype_b_loc_8)[(signed long int)(signed int)*p]) == 0))
+                tmp_if_expr_9 = (_Bool)1;
 
               else
-                tmp_if_expr$9 = (signed int)*p == 95 ? (_Bool)1 : (_Bool)0;
-              tmp_if_expr$10 = tmp_if_expr$9 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_9 = (signed int)*p == 95 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_10 = tmp_if_expr_9 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$10 = (_Bool)0;
-            if(!tmp_if_expr$10)
+              tmp_if_expr_10 = (_Bool)0;
+            if(!tmp_if_expr_10)
               break;
 
             p = p + 1l;
           }
           while((_Bool)1);
           if(!(p - l->pos >= 1024l))
-            tmp_if_expr$11 = p - l->pos;
+            tmp_if_expr_11 = p - l->pos;
 
           else
-            tmp_if_expr$11 = (signed long int)(1024 - 1);
-          len = (signed int)tmp_if_expr$11;
+            tmp_if_expr_11 = (signed long int)(1024 - 1);
+          len = (signed int)tmp_if_expr_11;
           memcpy((void *)l->text, (const void *)l->pos, (unsigned long int)len);
           l->text[(signed long int)len] = (char)0;
           l->pos = p;
@@ -7878,52 +7878,52 @@ signed int lex_next(struct lexer_state *l)
 
         else
         {
-          return_value___ctype_b_loc$15=__ctype_b_loc();
-          if(!((2048 & (signed int)(*return_value___ctype_b_loc$15)[(signed long int)(signed int)*l->pos]) == 0))
-            tmp_if_expr$19 = (_Bool)1;
+          return_value___ctype_b_loc_15=__ctype_b_loc();
+          if(!((2048 & (signed int)(*return_value___ctype_b_loc_15)[(signed long int)(signed int)*l->pos]) == 0))
+            tmp_if_expr_19 = (_Bool)1;
 
           else
           {
             if((signed int)*l->pos == 45)
-              tmp_if_expr$16 = (_Bool)1;
+              tmp_if_expr_16 = (_Bool)1;
 
             else
-              tmp_if_expr$16 = (signed int)*l->pos == 43 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$16)
+              tmp_if_expr_16 = (signed int)*l->pos == 43 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_16)
             {
-              return_value___ctype_b_loc$17=__ctype_b_loc();
-              tmp_if_expr$18 = ((signed int)(*return_value___ctype_b_loc$17)[(signed long int)(signed int)l->pos[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+              return_value___ctype_b_loc_17=__ctype_b_loc();
+              tmp_if_expr_18 = ((signed int)(*return_value___ctype_b_loc_17)[(signed long int)(signed int)l->pos[(signed long int)1]] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$18 = (_Bool)0;
-            tmp_if_expr$19 = tmp_if_expr$18 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_18 = (_Bool)0;
+            tmp_if_expr_19 = tmp_if_expr_18 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$19)
+          if(tmp_if_expr_19)
           {
             p = l->pos + (signed long int)1;
             do
             {
               if(!(*p == 0))
               {
-                return_value___ctype_b_loc$12=__ctype_b_loc();
-                tmp_if_expr$13 = ((signed int)(*return_value___ctype_b_loc$12)[(signed long int)(signed int)*p] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
+                return_value___ctype_b_loc_12=__ctype_b_loc();
+                tmp_if_expr_13 = ((signed int)(*return_value___ctype_b_loc_12)[(signed long int)(signed int)*p] & (signed int)(unsigned short int)2048) != 0 ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$13 = (_Bool)0;
-              if(!tmp_if_expr$13)
+                tmp_if_expr_13 = (_Bool)0;
+              if(!tmp_if_expr_13)
                 break;
 
               p = p + 1l;
             }
             while((_Bool)1);
             if(!(p - l->pos >= 1024l))
-              tmp_if_expr$14 = p - l->pos;
+              tmp_if_expr_14 = p - l->pos;
 
             else
-              tmp_if_expr$14 = (signed long int)(1024 - 1);
-            len = (signed int)tmp_if_expr$14;
+              tmp_if_expr_14 = (signed long int)(1024 - 1);
+            len = (signed int)tmp_if_expr_14;
             memcpy((void *)l->text, (const void *)l->pos, (unsigned long int)len);
             l->text[(signed long int)len] = (char)0;
             l->pos = p;
@@ -7932,9 +7932,9 @@ signed int lex_next(struct lexer_state *l)
           }
 
         }
-        tmp_post$22 = l->pos;
+        tmp_post_22 = l->pos;
         l->pos = l->pos + 1l;
-        l->text[(signed long int)0] = *tmp_post$22;
+        l->text[(signed long int)0] = *tmp_post_22;
         l->text[(signed long int)1] = (char)0;
         l->prev = (signed int)l->text[(signed long int)0];
         return l->prev;
@@ -7949,23 +7949,23 @@ void lex_parse_test(char *buf, char **toks)
   struct lexer_state *l;
   signed int tok;
   signed int newline = 1;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(buf == ((char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
   {
     l=lex_create((void *)buf, toks);
-    tmp_if_expr$1 = !(l != ((struct lexer_state *)NULL)) ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = !(l != ((struct lexer_state *)NULL)) ? (_Bool)1 : (_Bool)0;
   }
-  const char *return_value_lex_text$3;
-  signed int return_value_atoi$4;
-  const char *return_value_lex_text$5;
-  const char *return_value_lex_text$6;
-  signed int return_value_lex_line$7;
-  signed int return_value_lex_prev$8;
-  const char *return_value_lex_text$9;
-  if(!tmp_if_expr$1)
+  const char *return_value_lex_text_3;
+  signed int return_value_atoi_4;
+  const char *return_value_lex_text_5;
+  const char *return_value_lex_text_6;
+  signed int return_value_lex_line_7;
+  signed int return_value_lex_prev_8;
+  const char *return_value_lex_text_9;
+  if(!tmp_if_expr_1)
   {
     do
     {
@@ -7975,9 +7975,9 @@ void lex_parse_test(char *buf, char **toks)
 
       if(!(newline == 0))
       {
-        signed int return_value_lex_line$2;
-        return_value_lex_line$2=lex_line(l);
-        printf("%3d: ", return_value_lex_line$2);
+        signed int return_value_lex_line_2;
+        return_value_lex_line_2=lex_line(l);
+        printf("%3d: ", return_value_lex_line_2);
         newline = 0;
       }
 
@@ -7997,22 +7997,22 @@ void lex_parse_test(char *buf, char **toks)
         }
         case 257:
         {
-          return_value_lex_text$3=lex_text(l);
-          return_value_atoi$4=atoi(return_value_lex_text$3);
-          printf("INT(%d) ", return_value_atoi$4);
+          return_value_lex_text_3=lex_text(l);
+          return_value_atoi_4=atoi(return_value_lex_text_3);
+          printf("INT(%d) ", return_value_atoi_4);
           break;
         }
         case 258:
         {
-          return_value_lex_text$5=lex_text(l);
-          printf("STR(%s) ", return_value_lex_text$5);
+          return_value_lex_text_5=lex_text(l);
+          printf("STR(%s) ", return_value_lex_text_5);
           break;
         }
         default:
           if(!(tok >= 259))
           {
-            return_value_lex_text$6=lex_text(l);
-            printf("CHR(%c) ", return_value_lex_text$6[(signed long int)0]);
+            return_value_lex_text_6=lex_text(l);
+            printf("CHR(%c) ", return_value_lex_text_6[(signed long int)0]);
           }
 
           else
@@ -8021,10 +8021,10 @@ void lex_parse_test(char *buf, char **toks)
 
             else
             {
-              return_value_lex_line$7=lex_line(l);
-              return_value_lex_prev$8=lex_prev(l);
-              return_value_lex_text$9=lex_text(l);
-              printf("\nINTERNAL ERROR: line=%d, tok=%d, str=\"%s\"\n", return_value_lex_line$7, return_value_lex_prev$8, return_value_lex_text$9);
+              return_value_lex_line_7=lex_line(l);
+              return_value_lex_prev_8=lex_prev(l);
+              return_value_lex_text_9=lex_text(l);
+              printf("\nINTERNAL ERROR: line=%d, tok=%d, str=\"%s\"\n", return_value_lex_line_7, return_value_lex_prev_8, return_value_lex_text_9);
             }
       }
     }
@@ -8063,48 +8063,48 @@ void link_objs(struct base_obj *src, struct base_obj *dst)
   char buf[1024l];
   struct listIterator *i;
   struct base_obj *writer;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$2;
-  signed int return_value_list_is_empty$1;
-  void *return_value_list_next$3;
-  void *return_value_list_next$5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_2;
+  signed int return_value_list_is_empty_1;
+  void *return_value_list_next_3;
+  void *return_value_list_next_5;
   if((signed int)src->type == CONMAN_OBJ_CLIENT)
   {
     if((signed int)dst->type == CONMAN_OBJ_TELNET)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (signed int)dst->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_6 = (signed int)dst->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = (signed int)dst->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$7)
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_7 = (signed int)dst->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_7)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
-      tmp_if_expr$8 = (signed int)dst->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$8)
-      tmp_if_expr$9 = (_Bool)1;
+      tmp_if_expr_8 = (signed int)dst->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_8)
+      tmp_if_expr_9 = (_Bool)1;
 
     else
-      tmp_if_expr$9 = (signed int)dst->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$9)
+      tmp_if_expr_9 = (signed int)dst->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_9)
     {
       gotBcast = (signed int)src->aux.client.req->enableBroadcast;
       if(!(src->aux.client.req->enableForce == 0u))
       {
-        return_value_list_is_empty$1=list_is_empty(dst->writers);
-        tmp_if_expr$2 = !(return_value_list_is_empty$1 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_list_is_empty_1=list_is_empty(dst->writers);
+        tmp_if_expr_2 = !(return_value_list_is_empty_1 != 0) ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      gotStolen = (signed int)tmp_if_expr$2;
+        tmp_if_expr_2 = (_Bool)0;
+      gotStolen = (signed int)tmp_if_expr_2;
       now=create_short_time_string((signed long int)0);
       tty = src->aux.client.req->tty;
       snprintf(buf, sizeof(char [1024l]) /*1024ul*/ , "%sConsole [%s] %s%s by <%s@%s>%s%s at %s%s", (const void *)"\r\n<ConMan> ", dst->name, gotStolen != 0 ? "stolen" : "joined", gotBcast != 0 ? " for B/C" : "", src->aux.client.req->user, src->aux.client.req->host, tty != ((char *)NULL) ? " on " : "", tty != ((char *)NULL) ? tty : "", now, (const void *)".\r\n");
@@ -8113,17 +8113,17 @@ void link_objs(struct base_obj *src, struct base_obj *dst)
       i=list_iterator_create(dst->writers);
       do
       {
-        return_value_list_next$3=list_next(i);
-        writer = (struct base_obj *)return_value_list_next$3;
+        return_value_list_next_3=list_next(i);
+        writer = (struct base_obj *)return_value_list_next_3;
         if(writer == ((struct base_obj *)NULL))
           break;
 
         tty = writer->aux.client.req->tty;
         snprintf(buf, sizeof(char [1024l]) /*1024ul*/ , "%sConsole [%s] %s <%s@%s>%s%s at %s%s", (const void *)"\r\n<ConMan> ", dst->name, gotStolen != 0 ? "stolen from" : "joined with", writer->aux.client.req->user, writer->aux.client.req->host, tty != ((char *)NULL) ? " on " : "", tty != ((char *)NULL) ? tty : "", now, (const void *)".\r\n");
         strcpy(&buf[(signed long int)(sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)3)], "\r\n");
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(buf);
-        write_obj_data(src, (const void *)buf, (signed int)return_value_strlen$4, 1);
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(buf);
+        write_obj_data(src, (const void *)buf, (signed int)return_value_strlen_4, 1);
       }
       while((_Bool)1);
       list_iterator_destroy(i);
@@ -8132,8 +8132,8 @@ void link_objs(struct base_obj *src, struct base_obj *dst)
         i=list_iterator_create(dst->writers);
         do
         {
-          return_value_list_next$5=list_next(i);
-          writer = (struct base_obj *)return_value_list_next$5;
+          return_value_list_next_5=list_next(i);
+          writer = (struct base_obj *)return_value_list_next_5;
           if(writer == ((struct base_obj *)NULL))
             break;
 
@@ -8164,10 +8164,10 @@ static struct list * list_alloc(void)
   struct list *last;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&freeListsLock);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&freeListsLock);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -8177,9 +8177,9 @@ static struct list * list_alloc(void)
   while((_Bool)0);
   if(freeLists == ((struct list *)NULL))
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)10 * sizeof(struct list) /*80ul*/ );
-    freeLists = (struct list *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)10 * sizeof(struct list) /*80ul*/ );
+    freeLists = (struct list *)return_value_malloc_2;
     if(!(freeLists == ((struct list *)NULL)))
     {
       last = (freeLists + (signed long int)10) - (signed long int)1;
@@ -8197,10 +8197,10 @@ static struct list * list_alloc(void)
 
   do
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3=pthread_mutex_unlock(&freeListsLock);
-    if(!(*return_value___errno_location$3 == 0))
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3=pthread_mutex_unlock(&freeListsLock);
+    if(!(*return_value___errno_location_3 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -8218,10 +8218,10 @@ void * list_append(struct list *l, void *x)
   void *v;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&l->mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&l->mutex);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -8232,10 +8232,10 @@ void * list_append(struct list *l, void *x)
   v=list_node_create(l, l->tail, x);
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&l->mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&l->mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -8253,10 +8253,10 @@ signed int list_count(struct list *l)
   signed int n;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&l->mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&l->mutex);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -8267,10 +8267,10 @@ signed int list_count(struct list *l)
   n = l->count;
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&l->mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&l->mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -8302,10 +8302,10 @@ struct list * list_create(void (*f)(void *))
     l->count = 0;
     do
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1=pthread_mutex_init(&l->mutex, (const union anonymous$0 *)(void *)0);
-      if(!(*return_value___errno_location$1 == 0))
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1=pthread_mutex_init(&l->mutex, (const union anonymous_0 *)(void *)0);
+      if(!(*return_value___errno_location_1 == 0))
       {
         perror("ERROR: pthread_mutex_init() failed");
         exit(1);
@@ -8344,10 +8344,10 @@ signed int list_delete_all(struct list *l, signed int (*f)(void *, void *), void
   signed int n = 0;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&l->mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&l->mutex);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -8379,10 +8379,10 @@ signed int list_delete_all(struct list *l, signed int (*f)(void *, void *), void
 
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&l->mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&l->mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -8400,10 +8400,10 @@ void * list_dequeue(struct list *l)
   void *v;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&l->mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&l->mutex);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -8414,10 +8414,10 @@ void * list_dequeue(struct list *l)
   v=list_node_destroy(l, &l->head);
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&l->mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&l->mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -8438,10 +8438,10 @@ void list_destroy(struct list *l)
   struct listNode *pTmp;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&l->mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&l->mutex);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -8470,10 +8470,10 @@ void list_destroy(struct list *l)
   }
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&l->mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&l->mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -8483,10 +8483,10 @@ void list_destroy(struct list *l)
   while((_Bool)0);
   do
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3=pthread_mutex_destroy(&l->mutex);
-    if(!(*return_value___errno_location$3 == 0))
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3=pthread_mutex_destroy(&l->mutex);
+    if(!(*return_value___errno_location_3 == 0))
     {
       perror("ERROR: pthread_mutex_destroy() failed");
       exit(1);
@@ -8508,10 +8508,10 @@ void * list_enqueue(struct list *l, void *x)
   void *v;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&l->mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&l->mutex);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -8522,10 +8522,10 @@ void * list_enqueue(struct list *l, void *x)
   v=list_node_create(l, l->tail, x);
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&l->mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&l->mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -8557,10 +8557,10 @@ void * list_find_first(struct list *l, signed int (*f)(void *, void *), void *ke
   void *v = (void *)0;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&l->mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&l->mutex);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -8582,10 +8582,10 @@ void * list_find_first(struct list *l, signed int (*f)(void *, void *), void *ke
 
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&l->mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&l->mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -8602,10 +8602,10 @@ static void list_free(struct list *l)
 {
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&freeListsLock);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&freeListsLock);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -8617,10 +8617,10 @@ static void list_free(struct list *l)
   freeLists = l;
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&freeListsLock);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&freeListsLock);
+    if(!(*return_value___errno_location_2 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -8637,10 +8637,10 @@ void * list_insert(struct listIterator *i, void *x)
   void *v;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&i->list->mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&i->list->mutex);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -8651,10 +8651,10 @@ void * list_insert(struct listIterator *i, void *x)
   v=list_node_create(i->list, i->prev, x);
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&i->list->mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&i->list->mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -8672,10 +8672,10 @@ signed int list_is_empty(struct list *l)
   signed int n;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&l->mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&l->mutex);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -8686,10 +8686,10 @@ signed int list_is_empty(struct list *l)
   n = l->count;
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&l->mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&l->mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -8708,10 +8708,10 @@ static struct listIterator * list_iterator_alloc(void)
   struct listIterator *last;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&freeListIteratorsLock);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&freeListIteratorsLock);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -8721,9 +8721,9 @@ static struct listIterator * list_iterator_alloc(void)
   while((_Bool)0);
   if(freeListIterators == ((struct listIterator *)NULL))
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)10 * sizeof(struct listIterator) /*32ul*/ );
-    freeListIterators = (struct listIterator *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)10 * sizeof(struct listIterator) /*32ul*/ );
+    freeListIterators = (struct listIterator *)return_value_malloc_2;
     if(!(freeListIterators == ((struct listIterator *)NULL)))
     {
       last = (freeListIterators + (signed long int)10) - (signed long int)1;
@@ -8741,10 +8741,10 @@ static struct listIterator * list_iterator_alloc(void)
 
   do
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3=pthread_mutex_unlock(&freeListIteratorsLock);
-    if(!(*return_value___errno_location$3 == 0))
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3=pthread_mutex_unlock(&freeListIteratorsLock);
+    if(!(*return_value___errno_location_3 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -8772,10 +8772,10 @@ struct listIterator * list_iterator_create(struct list *l)
     i->list = l;
     do
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1=pthread_mutex_lock(&l->mutex);
-      if(!(*return_value___errno_location$1 == 0))
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1=pthread_mutex_lock(&l->mutex);
+      if(!(*return_value___errno_location_1 == 0))
       {
         perror("ERROR: pthread_mutex_lock() failed");
         exit(1);
@@ -8789,10 +8789,10 @@ struct listIterator * list_iterator_create(struct list *l)
     l->iNext = i;
     do
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      *return_value___errno_location$2=pthread_mutex_unlock(&l->mutex);
-      if(!(*return_value___errno_location$2 == 0))
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      *return_value___errno_location_2=pthread_mutex_unlock(&l->mutex);
+      if(!(*return_value___errno_location_2 == 0))
       {
         perror("ERROR: pthread_mutex_unlock() failed");
         exit(1);
@@ -8811,10 +8811,10 @@ void list_iterator_destroy(struct listIterator *i)
   struct listIterator **pi;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&i->list->mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&i->list->mutex);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -8832,10 +8832,10 @@ void list_iterator_destroy(struct listIterator *i)
 
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&i->list->mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&i->list->mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -8856,10 +8856,10 @@ static void list_iterator_free(struct listIterator *i)
 {
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&freeListIteratorsLock);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&freeListIteratorsLock);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -8871,10 +8871,10 @@ static void list_iterator_free(struct listIterator *i)
   freeListIterators = i;
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&freeListIteratorsLock);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&freeListIteratorsLock);
+    if(!(*return_value___errno_location_2 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -8890,10 +8890,10 @@ void list_iterator_reset(struct listIterator *i)
 {
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&i->list->mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&i->list->mutex);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -8905,10 +8905,10 @@ void list_iterator_reset(struct listIterator *i)
   i->prev = &i->list->head;
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&i->list->mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&i->list->mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -8925,10 +8925,10 @@ void * list_next(struct listIterator *i)
   struct listNode *p;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&i->list->mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&i->list->mutex);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -8945,10 +8945,10 @@ void * list_next(struct listIterator *i)
 
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&i->list->mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&i->list->mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -8956,13 +8956,13 @@ void * list_next(struct listIterator *i)
 
   }
   while((_Bool)0);
-  void *tmp_if_expr$3;
+  void *tmp_if_expr_3;
   if(!(p == ((struct listNode *)NULL)))
-    tmp_if_expr$3 = p->data;
+    tmp_if_expr_3 = p->data;
 
   else
-    tmp_if_expr$3 = (void *)0;
-  return tmp_if_expr$3;
+    tmp_if_expr_3 = (void *)0;
+  return tmp_if_expr_3;
 }
 
 // list_node_alloc
@@ -8973,10 +8973,10 @@ static struct listNode * list_node_alloc(void)
   struct listNode *last;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&freeListNodesLock);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&freeListNodesLock);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -8986,9 +8986,9 @@ static struct listNode * list_node_alloc(void)
   while((_Bool)0);
   if(freeListNodes == ((struct listNode *)NULL))
   {
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)10 * sizeof(struct listNode) /*16ul*/ );
-    freeListNodes = (struct listNode *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)10 * sizeof(struct listNode) /*16ul*/ );
+    freeListNodes = (struct listNode *)return_value_malloc_2;
     if(!(freeListNodes == ((struct listNode *)NULL)))
     {
       last = (freeListNodes + (signed long int)10) - (signed long int)1;
@@ -9006,10 +9006,10 @@ static struct listNode * list_node_alloc(void)
 
   do
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3=pthread_mutex_unlock(&freeListNodesLock);
-    if(!(*return_value___errno_location$3 == 0))
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3=pthread_mutex_unlock(&freeListNodesLock);
+    if(!(*return_value___errno_location_3 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -9097,10 +9097,10 @@ static void list_node_free(struct listNode *p)
 {
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&freeListNodesLock);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&freeListNodesLock);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -9112,10 +9112,10 @@ static void list_node_free(struct listNode *p)
   freeListNodes = p;
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&freeListNodesLock);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&freeListNodesLock);
+    if(!(*return_value___errno_location_2 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -9132,10 +9132,10 @@ void * list_peek(struct list *l)
   void *v;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&l->mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&l->mutex);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -9143,19 +9143,19 @@ void * list_peek(struct list *l)
 
   }
   while((_Bool)0);
-  void *tmp_if_expr$2;
+  void *tmp_if_expr_2;
   if(!(l->head == ((struct listNode *)NULL)))
-    tmp_if_expr$2 = l->head->data;
+    tmp_if_expr_2 = l->head->data;
 
   else
-    tmp_if_expr$2 = (void *)0;
-  v = tmp_if_expr$2;
+    tmp_if_expr_2 = (void *)0;
+  v = tmp_if_expr_2;
   do
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3=pthread_mutex_unlock(&l->mutex);
-    if(!(*return_value___errno_location$3 == 0))
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3=pthread_mutex_unlock(&l->mutex);
+    if(!(*return_value___errno_location_3 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -9173,10 +9173,10 @@ void * list_pop(struct list *l)
   void *v;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&l->mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&l->mutex);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -9187,10 +9187,10 @@ void * list_pop(struct list *l)
   v=list_node_destroy(l, &l->head);
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&l->mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&l->mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -9208,10 +9208,10 @@ void * list_prepend(struct list *l, void *x)
   void *v;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&l->mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&l->mutex);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -9222,10 +9222,10 @@ void * list_prepend(struct list *l, void *x)
   v=list_node_create(l, &l->head, x);
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&l->mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&l->mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -9243,10 +9243,10 @@ void * list_push(struct list *l, void *x)
   void *v;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&l->mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&l->mutex);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -9257,10 +9257,10 @@ void * list_push(struct list *l, void *x)
   v=list_node_create(l, &l->head, x);
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&l->mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&l->mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -9278,10 +9278,10 @@ void * list_remove(struct listIterator *i)
   void *v = (void *)0;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&i->list->mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&i->list->mutex);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -9294,10 +9294,10 @@ void * list_remove(struct listIterator *i)
 
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&i->list->mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&i->list->mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -9319,10 +9319,10 @@ void list_sort(struct list *l, signed int (*f)(void *, void *))
   struct listIterator *i;
   do
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1=pthread_mutex_lock(&l->mutex);
-    if(!(*return_value___errno_location$1 == 0))
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1=pthread_mutex_lock(&l->mutex);
+    if(!(*return_value___errno_location_1 == 0))
     {
       perror("ERROR: pthread_mutex_lock() failed");
       exit(1);
@@ -9373,10 +9373,10 @@ void list_sort(struct list *l, signed int (*f)(void *, void *))
 
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_unlock(&l->mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_unlock(&l->mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
       perror("ERROR: pthread_mutex_unlock() failed");
       exit(1);
@@ -9409,9 +9409,9 @@ static void log_aux(signed int errnum, signed int priority, char *msgbuf, signed
   len = (signed int)(sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1);
   t = (signed long int)0;
   get_localtime(&t, &tm);
-  unsigned long int return_value_strftime$1;
-  return_value_strftime$1=strftime(p, (unsigned long int)len, "%Y-%m-%d %H:%M:%S ", &tm);
-  n = (signed int)return_value_strftime$1;
+  unsigned long int return_value_strftime_1;
+  return_value_strftime_1=strftime(p, (unsigned long int)len, "%Y-%m-%d %H:%M:%S ", &tm);
+  n = (signed int)return_value_strftime_1;
   if(n == 0)
   {
     *p = (char)0;
@@ -9426,9 +9426,9 @@ static void log_aux(signed int errnum, signed int priority, char *msgbuf, signed
   if(!(prefix == ((const char *)NULL)))
   {
     signed int m;
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(prefix);
-    m = (signed int)((unsigned long int)10 - return_value_strlen$2);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(prefix);
+    m = (signed int)((unsigned long int)10 - return_value_strlen_2);
     if(!(m >= 1))
       m = 1;
 
@@ -9447,15 +9447,15 @@ static void log_aux(signed int errnum, signed int priority, char *msgbuf, signed
 
   p = p + (signed long int)n;
   len = len - n;
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(format);
-  if(!((signed int)format[-1l + (signed long int)return_value_strlen$4] == 10))
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(format);
+  if(!((signed int)format[-1l + (signed long int)return_value_strlen_4] == 10))
   {
     if(len >= 1 && errnum >= 1)
     {
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(errnum);
-      n=snprintf(p, (unsigned long int)len, ": %s", return_value_strerror$3);
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(errnum);
+      n=snprintf(p, (unsigned long int)len, ": %s", return_value_strerror_3);
       if(n >= len || !(n >= 0))
         n = len - 1;
 
@@ -9481,15 +9481,15 @@ static void log_aux(signed int errnum, signed int priority, char *msgbuf, signed
   if(!(log_syslog == 0))
     syslog(priority, "%s", sbuf);
 
-  char *tmp_if_expr$5;
+  char *tmp_if_expr_5;
   if(log_file_priority >= priority && !(log_file_fp == ((struct _IO_FILE *)NULL)))
   {
     if(!(log_file_timestamp == 0))
-      tmp_if_expr$5 = buf;
+      tmp_if_expr_5 = buf;
 
     else
-      tmp_if_expr$5 = pbuf;
-    n=fprintf(log_file_fp, "%s", tmp_if_expr$5);
+      tmp_if_expr_5 = pbuf;
+    n=fprintf(log_file_fp, "%s", tmp_if_expr_5);
     if(n == -1)
     {
       syslog(2, "Logging stopped due to error");
@@ -9520,9 +9520,9 @@ void log_err(signed int errnum, const char *format, ...)
   if(log_fd_daemonize >= 0)
   {
     c = (signed char)priority;
-    signed long int return_value_write$1;
-    return_value_write$1=write(log_fd_daemonize, (const void *)&c, sizeof(signed char) /*1ul*/ );
-    n = (signed int)return_value_write$1;
+    signed long int return_value_write_1;
+    return_value_write_1=write(log_fd_daemonize, (const void *)&c, sizeof(signed char) /*1ul*/ );
+    n = (signed int)return_value_write_1;
     if(n >= 1)
     {
       if(!((signed int)msg[0l] == 0))
@@ -9533,11 +9533,11 @@ void log_err(signed int errnum, const char *format, ...)
           if(!(p == ((char *)NULL)))
             *p = (char)0;
 
-          unsigned long int return_value_strlen$2;
-          return_value_strlen$2=strlen(msg);
-          signed long int return_value_write$3;
-          return_value_write$3=write(log_fd_daemonize, (const void *)msg, return_value_strlen$2 + (unsigned long int)1);
-          n = (signed int)return_value_write$3;
+          unsigned long int return_value_strlen_2;
+          return_value_strlen_2=strlen(msg);
+          signed long int return_value_write_3;
+          return_value_write_3=write(log_fd_daemonize, (const void *)msg, return_value_strlen_2 + (unsigned long int)1);
+          n = (signed int)return_value_write_3;
         }
 
       }
@@ -9600,17 +9600,17 @@ void log_set_err_pipe(signed int fd)
 // file ./log.h line 61
 void log_set_file(struct _IO_FILE *fp, signed int priority, signed int timestamp)
 {
-  _Bool tmp_if_expr$2;
-  signed int return_value_ferror$1;
+  _Bool tmp_if_expr_2;
+  signed int return_value_ferror_1;
   if(!(fp == ((struct _IO_FILE *)NULL)))
   {
-    return_value_ferror$1=ferror(fp);
-    tmp_if_expr$2 = !(return_value_ferror$1 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_ferror_1=ferror(fp);
+    tmp_if_expr_2 = !(return_value_ferror_1 != 0) ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  if(tmp_if_expr_2)
   {
     log_file_fp = fp;
     log_file_priority = priority > 0 ? priority : 0;
@@ -9661,20 +9661,20 @@ __CPROVER_DUMP_L4:
 static signed int lookup_syslog_facility(const char *facility)
 {
   struct tag *t;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   for( ; !(*facility == 0); facility = facility + 1l)
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*facility]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*facility]) == 0)
       break;
 
   }
   t = logFacilities;
   for( ; !(t->key == ((const char *)NULL)); t = t + 1l)
   {
-    signed int return_value_strcasecmp$2;
-    return_value_strcasecmp$2=strcasecmp(t->key, facility);
-    if(return_value_strcasecmp$2 == 0)
+    signed int return_value_strcasecmp_2;
+    return_value_strcasecmp_2=strcasecmp(t->key, facility);
+    if(return_value_strcasecmp_2 == 0)
       return t->val;
 
   }
@@ -9686,20 +9686,20 @@ static signed int lookup_syslog_facility(const char *facility)
 static signed int lookup_syslog_priority(const char *priority)
 {
   struct tag *t;
-  const unsigned short int **return_value___ctype_b_loc$1;
+  const unsigned short int **return_value___ctype_b_loc_1;
   for( ; !(*priority == 0); priority = priority + 1l)
   {
-    return_value___ctype_b_loc$1=__ctype_b_loc();
-    if((8192 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*priority]) == 0)
+    return_value___ctype_b_loc_1=__ctype_b_loc();
+    if((8192 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*priority]) == 0)
       break;
 
   }
   t = logPriorities;
   for( ; !(t->key == ((const char *)NULL)); t = t + 1l)
   {
-    signed int return_value_strcasecmp$2;
-    return_value_strcasecmp$2=strcasecmp(t->key, priority);
-    if(return_value_strcasecmp$2 == 0)
+    signed int return_value_strcasecmp_2;
+    return_value_strcasecmp_2=strcasecmp(t->key, priority);
+    if(return_value_strcasecmp_2 == 0)
       return t->val;
 
   }
@@ -9762,9 +9762,9 @@ signed int main(signed int argc, char **argv)
   if(!(conf->enableVerbose == 0u))
     display_configuration(conf);
 
-  signed int return_value_list_is_empty$1;
-  return_value_list_is_empty$1=list_is_empty(conf->objs);
-  if(!(return_value_list_is_empty$1 == 0))
+  signed int return_value_list_is_empty_1;
+  return_value_list_is_empty_1=list_is_empty(conf->objs);
+  if(!(return_value_list_is_empty_1 == 0))
     log_err(0, "Configuration \"%s\" has no consoles defined", conf->confFileName);
 
   if(conf->tStampMinutes >= 1)
@@ -9784,9 +9784,9 @@ signed int main(signed int argc, char **argv)
     end_daemonize(fd);
   }
 
-  signed int return_value_getpid$2;
-  return_value_getpid$2=getpid();
-  log_msg(5, "Starting ConMan daemon %s (pid %d)", (const void *)"0.2.7", (signed int)return_value_getpid$2);
+  signed int return_value_getpid_2;
+  return_value_getpid_2=getpid();
+  log_msg(5, "Starting ConMan daemon %s (pid %d)", (const void *)"0.2.7", (signed int)return_value_getpid_2);
   ipmi_init(conf->numIpmiObjs);
   open_objs(conf);
   mux_io(conf);
@@ -9794,22 +9794,22 @@ signed int main(signed int argc, char **argv)
   destroy_server_conf(conf);
   if(pgid >= 1)
   {
-    signed int return_value_kill$5;
-    return_value_kill$5=kill(-pgid, 15);
-    if(!(return_value_kill$5 >= 0))
+    signed int return_value_kill_5;
+    return_value_kill_5=kill(-pgid, 15);
+    if(!(return_value_kill_5 >= 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      log_msg(4, "Unable to terminate process group ID %d: %s", pgid, return_value_strerror$4);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      log_msg(4, "Unable to terminate process group ID %d: %s", pgid, return_value_strerror_4);
     }
 
   }
 
-  signed int return_value_getpid$6;
-  return_value_getpid$6=getpid();
-  log_msg(5, "Stopping ConMan daemon %s (pid %d)", (const void *)"0.2.7", (signed int)return_value_getpid$6);
+  signed int return_value_getpid_6;
+  return_value_getpid_6=getpid();
+  log_msg(5, "Stopping ConMan daemon %s (pid %d)", (const void *)"0.2.7", (signed int)return_value_getpid_6);
   exit(0);
 }
 
@@ -9828,27 +9828,27 @@ static void mux_io(struct server_conf *conf)
   struct listIterator *i;
   signed int n;
   struct base_obj *obj;
-  signed int mux_io$$1$$inevent_fd;
+  signed int mux_io__1__inevent_fd;
   i=list_iterator_create(conf->objs);
-  void *return_value_list_next$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$12;
-  signed int return_value_tpoll_is_set$21;
-  void *return_value_list_next$22;
-  signed int return_value_tpoll_is_set$23;
+  void *return_value_list_next_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_12;
+  signed int return_value_tpoll_is_set_21;
+  void *return_value_list_next_22;
+  signed int return_value_tpoll_is_set_23;
   while(done == 0)
   {
     if(!(reconfig == 0))
@@ -9858,21 +9858,21 @@ static void mux_io(struct server_conf *conf)
       reconfig = 0;
     }
 
-    tpoll_zero(conf->tp, (enum anonymous$1)TPOLL_ZERO_FDS);
+    tpoll_zero(conf->tp, (enum anonymous_1)TPOLL_ZERO_FDS);
     tpoll_set(conf->tp, conf->ld, (signed short int)0x001);
-    mux_io$$1$$inevent_fd=inevent_get_fd();
-    if(mux_io$$1$$inevent_fd >= 0)
+    mux_io__1__inevent_fd=inevent_get_fd();
+    if(mux_io__1__inevent_fd >= 0)
     {
-      signed int return_value_inevent_get_fd$1;
-      return_value_inevent_get_fd$1=inevent_get_fd();
-      tpoll_set(conf->tp, return_value_inevent_get_fd$1, (signed short int)0x001);
+      signed int return_value_inevent_get_fd_1;
+      return_value_inevent_get_fd_1=inevent_get_fd();
+      tpoll_set(conf->tp, return_value_inevent_get_fd_1, (signed short int)0x001);
     }
 
     list_iterator_reset(i);
     do
     {
-      return_value_list_next$2=list_next(i);
-      obj = (struct base_obj *)return_value_list_next$2;
+      return_value_list_next_2=list_next(i);
+      obj = (struct base_obj *)return_value_list_next_2;
       if(obj == ((struct base_obj *)NULL))
         break;
 
@@ -9882,57 +9882,57 @@ static void mux_io(struct server_conf *conf)
       if(obj->fd >= 0)
       {
         if((signed int)obj->type == CONMAN_OBJ_TELNET)
-          tmp_if_expr$3 = (signed int)obj->aux.telnet.state == 3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (signed int)obj->aux.telnet.state == 3 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$5 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_5 = (_Bool)1;
 
         else
         {
           if((signed int)obj->type == CONMAN_OBJ_PROCESS)
-            tmp_if_expr$4 = (signed int)obj->aux.process.state == 1 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = (signed int)obj->aux.process.state == 1 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$4 = (_Bool)0;
-          tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_4 = (_Bool)0;
+          tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$5)
-          tmp_if_expr$7 = (_Bool)1;
+        if(tmp_if_expr_5)
+          tmp_if_expr_7 = (_Bool)1;
 
         else
         {
           if((signed int)obj->type == CONMAN_OBJ_IPMI)
-            tmp_if_expr$6 = (signed int)obj->aux.ipmi.state == CONMAN_IPMI_UP ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = (signed int)obj->aux.ipmi.state == CONMAN_IPMI_UP ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = (_Bool)0;
+          tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$7)
-          tmp_if_expr$9 = (_Bool)1;
+        if(tmp_if_expr_7)
+          tmp_if_expr_9 = (_Bool)1;
 
         else
         {
           if((signed int)obj->type == CONMAN_OBJ_UNIXSOCK)
-            tmp_if_expr$8 = (signed int)obj->aux.unixsock.state == 1 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_8 = (signed int)obj->aux.unixsock.state == 1 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$8 = (_Bool)0;
-          tmp_if_expr$9 = tmp_if_expr$8 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_8 = (_Bool)0;
+          tmp_if_expr_9 = tmp_if_expr_8 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$9)
-          tmp_if_expr$10 = (_Bool)1;
+        if(tmp_if_expr_9)
+          tmp_if_expr_10 = (_Bool)1;
 
         else
-          tmp_if_expr$10 = (signed int)obj->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$10)
-          tmp_if_expr$11 = (_Bool)1;
+          tmp_if_expr_10 = (signed int)obj->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_10)
+          tmp_if_expr_11 = (_Bool)1;
 
         else
-          tmp_if_expr$11 = (signed int)obj->type == CONMAN_OBJ_CLIENT ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$11)
+          tmp_if_expr_11 = (signed int)obj->type == CONMAN_OBJ_CLIENT ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_11)
         {
           if(obj->gotEOF == 0u)
             tpoll_set(conf->tp, obj->fd, (signed short int)0x001);
@@ -9940,46 +9940,46 @@ static void mux_io(struct server_conf *conf)
         }
 
         if(!(obj->bufInPtr == obj->bufOutPtr))
-          tmp_if_expr$17 = (_Bool)1;
+          tmp_if_expr_17 = (_Bool)1;
 
         else
-          tmp_if_expr$17 = obj->gotEOF != 0u ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$17)
+          tmp_if_expr_17 = obj->gotEOF != 0u ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_17)
         {
           if((signed int)obj->type == CONMAN_OBJ_TELNET)
-            tmp_if_expr$16 = (signed int)obj->aux.telnet.state != 3 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_16 = (signed int)obj->aux.telnet.state != 3 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$16 = (_Bool)0;
-          if(!tmp_if_expr$16)
+            tmp_if_expr_16 = (_Bool)0;
+          if(!tmp_if_expr_16)
           {
             if((signed int)obj->type == CONMAN_OBJ_PROCESS)
-              tmp_if_expr$15 = (signed int)obj->aux.process.state != 1 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_15 = (signed int)obj->aux.process.state != 1 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$15 = (_Bool)0;
-            if(!tmp_if_expr$15)
+              tmp_if_expr_15 = (_Bool)0;
+            if(!tmp_if_expr_15)
             {
               if((signed int)obj->type == CONMAN_OBJ_IPMI)
-                tmp_if_expr$14 = (signed int)obj->aux.ipmi.state != CONMAN_IPMI_UP ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_14 = (signed int)obj->aux.ipmi.state != CONMAN_IPMI_UP ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$14 = (_Bool)0;
-              if(!tmp_if_expr$14)
+                tmp_if_expr_14 = (_Bool)0;
+              if(!tmp_if_expr_14)
               {
                 if((signed int)obj->type == CONMAN_OBJ_UNIXSOCK)
-                  tmp_if_expr$13 = (signed int)obj->aux.unixsock.state != 1 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_13 = (signed int)obj->aux.unixsock.state != 1 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$13 = (_Bool)0;
-                if(!tmp_if_expr$13)
+                  tmp_if_expr_13 = (_Bool)0;
+                if(!tmp_if_expr_13)
                 {
                   if((signed int)obj->type == CONMAN_OBJ_CLIENT)
-                    tmp_if_expr$12 = obj->aux.client.gotSuspend != 0u ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_12 = obj->aux.client.gotSuspend != 0u ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$12 = (_Bool)0;
-                  if(!tmp_if_expr$12)
+                    tmp_if_expr_12 = (_Bool)0;
+                  if(!tmp_if_expr_12)
                     tpoll_set(conf->tp, obj->fd, (signed short int)0x004);
 
                 }
@@ -10009,13 +10009,13 @@ static void mux_io(struct server_conf *conf)
       if(n >= 0)
         break;
 
-      signed int *return_value___errno_location$19;
-      return_value___errno_location$19=__errno_location();
-      if(!(*return_value___errno_location$19 == 4))
+      signed int *return_value___errno_location_19;
+      return_value___errno_location_19=__errno_location();
+      if(!(*return_value___errno_location_19 == 4))
       {
-        signed int *return_value___errno_location$18;
-        return_value___errno_location$18=__errno_location();
-        log_err(*return_value___errno_location$18, "Unable to multiplex I/O");
+        signed int *return_value___errno_location_18;
+        return_value___errno_location_18=__errno_location();
+        log_err(*return_value___errno_location_18, "Unable to multiplex I/O");
       }
 
       else
@@ -10026,15 +10026,15 @@ static void mux_io(struct server_conf *conf)
     while((_Bool)1);
     if(n >= 1)
     {
-      signed int return_value_tpoll_is_set$20;
-      return_value_tpoll_is_set$20=tpoll_is_set(conf->tp, conf->ld, (signed short int)0x001);
-      if(!(return_value_tpoll_is_set$20 == 0))
+      signed int return_value_tpoll_is_set_20;
+      return_value_tpoll_is_set_20=tpoll_is_set(conf->tp, conf->ld, (signed short int)0x001);
+      if(!(return_value_tpoll_is_set_20 == 0))
         accept_client(conf);
 
-      if(mux_io$$1$$inevent_fd >= 0)
+      if(mux_io__1__inevent_fd >= 0)
       {
-        return_value_tpoll_is_set$21=tpoll_is_set(conf->tp, mux_io$$1$$inevent_fd, (signed short int)0x001);
-        if(!(return_value_tpoll_is_set$21 == 0))
+        return_value_tpoll_is_set_21=tpoll_is_set(conf->tp, mux_io__1__inevent_fd, (signed short int)0x001);
+        if(!(return_value_tpoll_is_set_21 == 0))
           inevent_process();
 
       }
@@ -10042,8 +10042,8 @@ static void mux_io(struct server_conf *conf)
       list_iterator_reset(i);
       do
       {
-        return_value_list_next$22=list_next(i);
-        obj = (struct base_obj *)return_value_list_next$22;
+        return_value_list_next_22=list_next(i);
+        obj = (struct base_obj *)return_value_list_next_22;
         if(obj == ((struct base_obj *)NULL))
           break;
 
@@ -10051,8 +10051,8 @@ static void mux_io(struct server_conf *conf)
         {
           if((signed int)obj->type == CONMAN_OBJ_TELNET)
           {
-            return_value_tpoll_is_set$23=tpoll_is_set(conf->tp, obj->fd, (signed short int)(0x001 | 0x004));
-            if(return_value_tpoll_is_set$23 == 0)
+            return_value_tpoll_is_set_23=tpoll_is_set(conf->tp, obj->fd, (signed short int)(0x001 | 0x004));
+            if(return_value_tpoll_is_set_23 == 0)
               goto __CPROVER_DUMP_L46;
 
             if(!((signed int)obj->aux.telnet.state == 2))
@@ -10066,13 +10066,13 @@ static void mux_io(struct server_conf *conf)
 
           __CPROVER_DUMP_L46:
             ;
-            signed int return_value_tpoll_is_set$25;
-            return_value_tpoll_is_set$25=tpoll_is_set(conf->tp, obj->fd, (signed short int)(0x001 | 0x010 | 0x008));
-            if(!(return_value_tpoll_is_set$25 == 0))
+            signed int return_value_tpoll_is_set_25;
+            return_value_tpoll_is_set_25=tpoll_is_set(conf->tp, obj->fd, (signed short int)(0x001 | 0x010 | 0x008));
+            if(!(return_value_tpoll_is_set_25 == 0))
             {
-              signed int return_value_read_from_obj$24;
-              return_value_read_from_obj$24=read_from_obj(obj, conf->tp);
-              if(!(return_value_read_from_obj$24 >= 0))
+              signed int return_value_read_from_obj_24;
+              return_value_read_from_obj_24=read_from_obj(obj, conf->tp);
+              if(!(return_value_read_from_obj_24 >= 0))
               {
                 list_delete(i);
                 continue;
@@ -10083,13 +10083,13 @@ static void mux_io(struct server_conf *conf)
 
             }
 
-            signed int return_value_tpoll_is_set$27;
-            return_value_tpoll_is_set$27=tpoll_is_set(conf->tp, obj->fd, (signed short int)0x004);
-            if(!(return_value_tpoll_is_set$27 == 0))
+            signed int return_value_tpoll_is_set_27;
+            return_value_tpoll_is_set_27=tpoll_is_set(conf->tp, obj->fd, (signed short int)0x004);
+            if(!(return_value_tpoll_is_set_27 == 0))
             {
-              signed int return_value_write_to_obj$26;
-              return_value_write_to_obj$26=write_to_obj(obj);
-              if(!(return_value_write_to_obj$26 >= 0))
+              signed int return_value_write_to_obj_26;
+              return_value_write_to_obj_26=write_to_obj(obj);
+              if(!(return_value_write_to_obj_26 >= 0))
               {
                 list_delete(i);
                 continue;
@@ -10122,49 +10122,49 @@ void notify_console_objs(struct base_obj *console, char *msg)
 {
   struct listIterator *i;
   struct base_obj *obj;
-  _Bool tmp_if_expr$2;
-  unsigned long int return_value_strlen$1;
+  _Bool tmp_if_expr_2;
+  unsigned long int return_value_strlen_1;
   if(msg == ((char *)NULL))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
   {
-    return_value_strlen$1=strlen(msg);
-    tmp_if_expr$2 = !(return_value_strlen$1 != 0ul) ? (_Bool)1 : (_Bool)0;
+    return_value_strlen_1=strlen(msg);
+    tmp_if_expr_2 = !(return_value_strlen_1 != 0ul) ? (_Bool)1 : (_Bool)0;
   }
-  void *return_value_list_next$3;
-  void *return_value_list_next$5;
-  if(!tmp_if_expr$2)
+  void *return_value_list_next_3;
+  void *return_value_list_next_5;
+  if(!tmp_if_expr_2)
   {
     i=list_iterator_create(console->readers);
     do
     {
-      return_value_list_next$3=list_next(i);
-      obj = (struct base_obj *)return_value_list_next$3;
+      return_value_list_next_3=list_next(i);
+      obj = (struct base_obj *)return_value_list_next_3;
       if(obj == ((struct base_obj *)NULL))
         break;
 
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(msg);
-      write_obj_data(obj, (const void *)msg, (signed int)return_value_strlen$4, 1);
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(msg);
+      write_obj_data(obj, (const void *)msg, (signed int)return_value_strlen_4, 1);
     }
     while((_Bool)1);
     list_iterator_destroy(i);
     i=list_iterator_create(console->writers);
     do
     {
-      return_value_list_next$5=list_next(i);
-      obj = (struct base_obj *)return_value_list_next$5;
+      return_value_list_next_5=list_next(i);
+      obj = (struct base_obj *)return_value_list_next_5;
       if(obj == ((struct base_obj *)NULL))
         break;
 
-      void *return_value_list_find_first$7;
-      return_value_list_find_first$7=list_find_first(console->readers, (signed int (*)(void *, void *))find_obj, (void *)obj);
-      if(return_value_list_find_first$7 == NULL)
+      void *return_value_list_find_first_7;
+      return_value_list_find_first_7=list_find_first(console->readers, (signed int (*)(void *, void *))find_obj, (void *)obj);
+      if(return_value_list_find_first_7 == NULL)
       {
-        unsigned long int return_value_strlen$6;
-        return_value_strlen$6=strlen(msg);
-        write_obj_data(obj, (const void *)msg, (signed int)return_value_strlen$6, 1);
+        unsigned long int return_value_strlen_6;
+        return_value_strlen_6=strlen(msg);
+        write_obj_data(obj, (const void *)msg, (signed int)return_value_strlen_6, 1);
       }
 
     }
@@ -10199,9 +10199,9 @@ static void open_daemon_logfile(struct server_conf *conf)
   if(!(conf->logFmtName == ((char *)NULL)))
   {
     char buf[1024l];
-    signed int return_value_format_obj_string$1;
-    return_value_format_obj_string$1=format_obj_string(buf, (signed int)sizeof(char [1024l]) /*1024ul*/ , (struct base_obj *)(void *)0, conf->logFmtName);
-    if(!(return_value_format_obj_string$1 >= 0))
+    signed int return_value_format_obj_string_1;
+    return_value_format_obj_string_1=format_obj_string(buf, (signed int)sizeof(char [1024l]) /*1024ul*/ , (struct base_obj *)(void *)0, conf->logFmtName);
+    if(!(return_value_format_obj_string_1 >= 0))
     {
       log_msg(4, "Unable to open daemon logfile: filename too long");
       goto err;
@@ -10213,37 +10213,37 @@ static void open_daemon_logfile(struct server_conf *conf)
 
   mask=umask((unsigned int)0);
   umask(mask | (unsigned int)022);
-  char *return_value_get_dir_name$2;
-  return_value_get_dir_name$2=get_dir_name(conf->logFileName, dirname, sizeof(char [4096l]) /*4096ul*/ );
-  if(!(return_value_get_dir_name$2 == ((char *)NULL)))
+  char *return_value_get_dir_name_2;
+  return_value_get_dir_name_2=get_dir_name(conf->logFileName, dirname, sizeof(char [4096l]) /*4096ul*/ );
+  if(!(return_value_get_dir_name_2 == ((char *)NULL)))
     create_dirs(dirname);
 
   fp=fopen(conf->logFileName, mode);
   umask(mask);
   if(fp == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    log_msg(4, "Unable to open daemon logfile \"%s\": %s", conf->logFileName, return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    log_msg(4, "Unable to open daemon logfile \"%s\": %s", conf->logFileName, return_value_strerror_4);
     goto err;
   }
 
   fd=fileno(fp);
   if(!(fd >= 0))
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    char *return_value_strerror$6;
-    return_value_strerror$6=strerror(*return_value___errno_location$5);
-    log_msg(4, "Unable to obtain descriptor for daemon logfile \"%s\": %s", conf->logFileName, return_value_strerror$6);
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    char *return_value_strerror_6;
+    return_value_strerror_6=strerror(*return_value___errno_location_5);
+    log_msg(4, "Unable to obtain descriptor for daemon logfile \"%s\": %s", conf->logFileName, return_value_strerror_6);
     goto err;
   }
 
-  signed int return_value_get_write_lock$7;
-  return_value_get_write_lock$7=get_write_lock(fd);
-  if(!(return_value_get_write_lock$7 >= 0))
+  signed int return_value_get_write_lock_7;
+  return_value_get_write_lock_7=get_write_lock(fd);
+  if(!(return_value_get_write_lock_7 >= 0))
     log_msg(4, "Unable to lock daemon logfile \"%s\"", conf->logFileName);
 
   else
@@ -10252,9 +10252,9 @@ static void open_daemon_logfile(struct server_conf *conf)
     log_set_file(fp, conf->logFileLevel, 1);
     if(!(conf->logFilePtr == ((struct _IO_FILE *)NULL)))
     {
-      signed int return_value_fclose$8;
-      return_value_fclose$8=fclose(conf->logFilePtr);
-      if(return_value_fclose$8 == -1)
+      signed int return_value_fclose_8;
+      return_value_fclose_8=fclose(conf->logFilePtr);
+      if(return_value_fclose_8 == -1)
         log_msg(4, "Unable to close daemon logfile \"%s\"", conf->logFileName);
 
     }
@@ -10271,9 +10271,9 @@ err:
   log_set_file((struct _IO_FILE *)(void *)0, 0, 0);
   if(!(conf->logFilePtr == ((struct _IO_FILE *)NULL)))
   {
-    signed int return_value_fclose$9;
-    return_value_fclose$9=fclose(conf->logFilePtr);
-    if(return_value_fclose$9 == -1)
+    signed int return_value_fclose_9;
+    return_value_fclose_9=fclose(conf->logFilePtr);
+    if(return_value_fclose_9 == -1)
       log_msg(4, "Unable to close daemon logfile \"%s\"", conf->logFileName);
 
   }
@@ -10291,31 +10291,31 @@ signed int open_ipmi_obj(struct base_obj *ipmi)
 {
   signed int rc = 0;
   enum ipmi_connect_state state;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_lock(&ipmi->aux.ipmi.mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_lock(&ipmi->aux.ipmi.mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
-      return_value___errno_location$1=__errno_location();
-      log_err(*return_value___errno_location$1, "pthread_mutex_lock() failed");
+      return_value___errno_location_1=__errno_location();
+      log_err(*return_value___errno_location_1, "pthread_mutex_lock() failed");
     }
 
   }
   while((_Bool)0);
   state = ipmi->aux.ipmi.state;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_3;
   do
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    *return_value___errno_location$4=pthread_mutex_unlock(&ipmi->aux.ipmi.mutex);
-    if(!(*return_value___errno_location$4 == 0))
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    *return_value___errno_location_4=pthread_mutex_unlock(&ipmi->aux.ipmi.mutex);
+    if(!(*return_value___errno_location_4 == 0))
     {
-      return_value___errno_location$3=__errno_location();
-      log_err(*return_value___errno_location$3, "pthread_mutex_unlock() failed");
+      return_value___errno_location_3=__errno_location();
+      log_err(*return_value___errno_location_3, "pthread_mutex_unlock() failed");
     }
 
   }
@@ -10341,17 +10341,17 @@ signed int open_logfile_obj(struct base_obj *logfile)
   signed int flags;
   char *now;
   char *msg;
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(logfile->fd >= 0)
   {
-    signed int return_value_close$3;
-    return_value_close$3=close(logfile->fd);
-    if(!(return_value_close$3 >= 0))
+    signed int return_value_close_3;
+    return_value_close_3=close(logfile->fd);
+    if(!(return_value_close_3 >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      log_msg(4, "Unable to close logfile \"%s\": %s", logfile->name, return_value_strerror$2);
+      return_value___errno_location_1=__errno_location();
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      log_msg(4, "Unable to close logfile \"%s\": %s", logfile->name, return_value_strerror_2);
     }
 
     logfile->fd = -1;
@@ -10360,9 +10360,9 @@ signed int open_logfile_obj(struct base_obj *logfile)
   if(!(logfile->aux.logfile.fmtName == ((char *)NULL)))
   {
     char buf[1024l];
-    signed int return_value_format_obj_string$4;
-    return_value_format_obj_string$4=format_obj_string(buf, (signed int)sizeof(char [1024l]) /*1024ul*/ , logfile->aux.logfile.console, logfile->aux.logfile.fmtName);
-    if(!(return_value_format_obj_string$4 >= 0))
+    signed int return_value_format_obj_string_4;
+    return_value_format_obj_string_4=format_obj_string(buf, (signed int)sizeof(char [1024l]) /*1024ul*/ , logfile->aux.logfile.console, logfile->aux.logfile.fmtName);
+    if(!(return_value_format_obj_string_4 >= 0))
     {
       log_msg(4, "Unable to open logfile for [%s]: filename exceeded buffer", logfile->aux.logfile.console->name);
       logfile->fd = -1;
@@ -10373,9 +10373,9 @@ signed int open_logfile_obj(struct base_obj *logfile)
     logfile->name=create_string(buf);
   }
 
-  char *return_value_get_dir_name$5;
-  return_value_get_dir_name$5=get_dir_name(logfile->name, dirname, sizeof(char [4096l]) /*4096ul*/ );
-  if(!(return_value_get_dir_name$5 == ((char *)NULL)))
+  char *return_value_get_dir_name_5;
+  return_value_get_dir_name_5=get_dir_name(logfile->name, dirname, sizeof(char [4096l]) /*4096ul*/ );
+  if(!(return_value_get_dir_name_5 == ((char *)NULL)))
     create_dirs(dirname);
 
   flags = 01 | 0100 | 02000 | 04000;
@@ -10388,19 +10388,19 @@ signed int open_logfile_obj(struct base_obj *logfile)
   logfile->fd=open(logfile->name, flags, 0400 | 0200);
   if(!(logfile->fd >= 0))
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    char *return_value_strerror$7;
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    log_msg(4, "Unable to open logfile \"%s\": %s", logfile->name, return_value_strerror$7);
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    char *return_value_strerror_7;
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    log_msg(4, "Unable to open logfile \"%s\": %s", logfile->name, return_value_strerror_7);
     return -1;
   }
 
-  signed int return_value_get_write_lock$8;
+  signed int return_value_get_write_lock_8;
   if(!(logfile->aux.logfile.opts.enableLock == 0u))
   {
-    return_value_get_write_lock$8=get_write_lock(logfile->fd);
-    if(return_value_get_write_lock$8 >= 0)
+    return_value_get_write_lock_8=get_write_lock(logfile->fd);
+    if(return_value_get_write_lock_8 >= 0)
       goto __CPROVER_DUMP_L8;
 
     log_msg(4, "Unable to lock \"%s\"", logfile->name);
@@ -10419,9 +10419,9 @@ signed int open_logfile_obj(struct base_obj *logfile)
     set_fd_closed_on_exec(logfile->fd);
     now=create_long_time_string((signed long int)0);
     msg=create_format_string("%sConsole [%s] log opened at %s%s", (const void *)"\r\n<ConMan> ", logfile->aux.logfile.console->name, now, (const void *)".\r\n");
-    unsigned long int return_value_strlen$9;
-    return_value_strlen$9=strlen(msg);
-    write_obj_data(logfile, (const void *)msg, (signed int)return_value_strlen$9, 0);
+    unsigned long int return_value_strlen_9;
+    return_value_strlen_9=strlen(msg);
+    write_obj_data(logfile, (const void *)msg, (signed int)return_value_strlen_9, 0);
     free((void *)now);
     free((void *)msg);
     logfile->aux.logfile.lineState = (unsigned int)0;
@@ -10436,21 +10436,21 @@ static void open_objs(struct server_conf *conf)
   struct rlimit limit;
   struct listIterator *i;
   struct base_obj *obj;
-  signed int return_value_getrlimit$2;
-  return_value_getrlimit$2=getrlimit(7, &limit);
-  if(!(return_value_getrlimit$2 >= 0))
+  signed int return_value_getrlimit_2;
+  return_value_getrlimit_2=getrlimit(7, &limit);
+  if(!(return_value_getrlimit_2 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    log_err(*return_value___errno_location$1, "Unable to get open file limit");
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    log_err(*return_value___errno_location_1, "Unable to get open file limit");
   }
 
   if(!(limit.rlim_cur >= limit.rlim_max))
   {
     limit.rlim_cur = limit.rlim_max;
-    signed int return_value_setrlimit$3;
-    return_value_setrlimit$3=setrlimit(7, &limit);
-    if(!(return_value_setrlimit$3 >= 0))
+    signed int return_value_setrlimit_3;
+    return_value_setrlimit_3=setrlimit(7, &limit);
+    if(!(return_value_setrlimit_3 >= 0))
       log_msg(3, "Unable to set open file limit to %d", limit.rlim_cur);
 
     else
@@ -10460,11 +10460,11 @@ static void open_objs(struct server_conf *conf)
   else
     log_msg(6, "Open file limit set to %d", limit.rlim_cur);
   i=list_iterator_create(conf->objs);
-  void *return_value_list_next$4;
+  void *return_value_list_next_4;
   do
   {
-    return_value_list_next$4=list_next(i);
-    obj = (struct base_obj *)return_value_list_next$4;
+    return_value_list_next_4=list_next(i);
+    obj = (struct base_obj *)return_value_list_next_4;
     if(obj == ((struct base_obj *)NULL))
       break;
 
@@ -10498,24 +10498,24 @@ signed int open_process_obj(struct base_obj *process)
     if((signed int)auxp->state == 0)
       rc=connect_process_obj(process);
 
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_1;
   if(!(rc >= 0))
   {
     auxp->timer=tpoll_timeout_relative(tp_global, (void (*)(void *))open_process_obj, (void *)process, auxp->delay * 1000);
     if(auxp->delay == 0)
-      tmp_if_expr$2 = 60;
+      tmp_if_expr_2 = 60;
 
     else
     {
       if(!(2 * auxp->delay >= 1801))
-        tmp_if_expr$1 = auxp->delay * 2;
+        tmp_if_expr_1 = auxp->delay * 2;
 
       else
-        tmp_if_expr$1 = 1800;
-      tmp_if_expr$2 = tmp_if_expr$1;
+        tmp_if_expr_1 = 1800;
+      tmp_if_expr_2 = tmp_if_expr_1;
     }
-    auxp->delay = tmp_if_expr$2;
+    auxp->delay = tmp_if_expr_2;
   }
 
   return rc;
@@ -10528,19 +10528,19 @@ signed int open_serial_obj(struct base_obj *serial)
   signed int fd;
   signed int flags;
   struct termios tty;
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(serial->fd >= 0)
   {
     write_notify_msg(serial, 6, "Console [%s] disconnected from \"%s\"", serial->name, serial->aux.serial.dev);
     set_tty_mode(&serial->aux.serial.tty, serial->fd);
-    signed int return_value_close$3;
-    return_value_close$3=close(serial->fd);
-    if(!(return_value_close$3 >= 0))
+    signed int return_value_close_3;
+    return_value_close_3=close(serial->fd);
+    if(!(return_value_close_3 >= 0))
     {
-      return_value___errno_location$1=__errno_location();
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      log_msg(4, "Unable to close [%s] device \"%s\": %s", serial->name, serial->aux.serial.dev, return_value_strerror$2);
+      return_value___errno_location_1=__errno_location();
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      log_msg(4, "Unable to close [%s] device \"%s\": %s", serial->name, serial->aux.serial.dev, return_value_strerror_2);
     }
 
     serial->fd = -1;
@@ -10550,24 +10550,24 @@ signed int open_serial_obj(struct base_obj *serial)
   fd=open(serial->aux.serial.dev, flags);
   if(!(fd >= 0))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    log_msg(4, "Unable to open [%s] device \"%s\": %s", serial->name, serial->aux.serial.dev, return_value_strerror$5);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    log_msg(4, "Unable to open [%s] device \"%s\": %s", serial->name, serial->aux.serial.dev, return_value_strerror_5);
     goto err;
   }
 
-  signed int return_value_get_write_lock$6;
-  return_value_get_write_lock$6=get_write_lock(fd);
-  signed int return_value_isatty$7;
-  if(!(return_value_get_write_lock$6 >= 0))
+  signed int return_value_get_write_lock_6;
+  return_value_get_write_lock_6=get_write_lock(fd);
+  signed int return_value_isatty_7;
+  if(!(return_value_get_write_lock_6 >= 0))
     log_msg(4, "Unable to lock [%s] device \"%s\"", serial->name, serial->aux.serial.dev);
 
   else
   {
-    return_value_isatty$7=isatty(fd);
-    if(return_value_isatty$7 == 0)
+    return_value_isatty_7=isatty(fd);
+    if(return_value_isatty_7 == 0)
       log_msg(4, "[%s] device \"%s\" not a terminal", serial->name, serial->aux.serial.dev);
 
     else
@@ -10631,38 +10631,38 @@ static char * opt2str(signed int opt, char *buf, signed int buflen)
 // file server-sock.c line 374
 static void parse_cmd_opts(struct lexer_state *l, struct request *req)
 {
-  signed int parse_cmd_opts$$1$$done = 0;
+  signed int parse_cmd_opts__1__done = 0;
   signed int tok;
   char *str;
-  signed int return_value_lex_next$5;
-  signed int return_value_lex_next$4;
-  const char *return_value_lex_text$3;
-  signed int return_value_lex_next$11;
-  signed int return_value_lex_prev$9;
-  signed int return_value_lex_prev$8;
-  signed int return_value_lex_prev$7;
-  signed int return_value_lex_prev$6;
-  while(parse_cmd_opts$$1$$done == 0)
+  signed int return_value_lex_next_5;
+  signed int return_value_lex_next_4;
+  const char *return_value_lex_text_3;
+  signed int return_value_lex_next_11;
+  signed int return_value_lex_prev_9;
+  signed int return_value_lex_prev_8;
+  signed int return_value_lex_prev_7;
+  signed int return_value_lex_prev_6;
+  while(parse_cmd_opts__1__done == 0)
   {
     tok=lex_next(l);
     switch(tok)
     {
       case 262:
       {
-        return_value_lex_next$5=lex_next(l);
-        if(return_value_lex_next$5 == 61)
+        return_value_lex_next_5=lex_next(l);
+        if(return_value_lex_next_5 == 61)
         {
-          return_value_lex_next$4=lex_next(l);
-          if(return_value_lex_next$4 == 258)
+          return_value_lex_next_4=lex_next(l);
+          if(return_value_lex_next_4 == 258)
           {
-            return_value_lex_text$3=lex_text(l);
-            if(!((signed int)*return_value_lex_text$3 == 0))
+            return_value_lex_text_3=lex_text(l);
+            if(!((signed int)*return_value_lex_text_3 == 0))
             {
-              const char *return_value_lex_text$1;
-              return_value_lex_text$1=lex_text(l);
-              char *return_value_create_string$2;
-              return_value_create_string$2=create_string(return_value_lex_text$1);
-              str=lex_decode(return_value_create_string$2);
+              const char *return_value_lex_text_1;
+              return_value_lex_text_1=lex_text(l);
+              char *return_value_create_string_2;
+              return_value_create_string_2=create_string(return_value_lex_text_1);
+              str=lex_decode(return_value_create_string_2);
               list_append(req->consoles, (void *)str);
             }
 
@@ -10674,36 +10674,36 @@ static void parse_cmd_opts(struct lexer_state *l, struct request *req)
       }
       case 270:
       {
-        return_value_lex_next$11=lex_next(l);
-        if(return_value_lex_next$11 == 61)
+        return_value_lex_next_11=lex_next(l);
+        if(return_value_lex_next_11 == 61)
         {
-          signed int return_value_lex_next$10;
-          return_value_lex_next$10=lex_next(l);
-          if(return_value_lex_next$10 == 259)
+          signed int return_value_lex_next_10;
+          return_value_lex_next_10=lex_next(l);
+          if(return_value_lex_next_10 == 259)
             req->enableBroadcast = (unsigned int)1;
 
           else
           {
-            return_value_lex_prev$9=lex_prev(l);
-            if(return_value_lex_prev$9 == 264)
+            return_value_lex_prev_9=lex_prev(l);
+            if(return_value_lex_prev_9 == 264)
               req->enableForce = (unsigned int)1;
 
             else
             {
-              return_value_lex_prev$8=lex_prev(l);
-              if(return_value_lex_prev$8 == 266)
+              return_value_lex_prev_8=lex_prev(l);
+              if(return_value_lex_prev_8 == 266)
                 req->enableJoin = (unsigned int)1;
 
               else
               {
-                return_value_lex_prev$7=lex_prev(l);
-                if(return_value_lex_prev$7 == 272)
+                return_value_lex_prev_7=lex_prev(l);
+                if(return_value_lex_prev_7 == 272)
                   req->enableQuiet = (unsigned int)1;
 
                 else
                 {
-                  return_value_lex_prev$6=lex_prev(l);
-                  if(return_value_lex_prev$6 == 273)
+                  return_value_lex_prev_6=lex_prev(l);
+                  if(return_value_lex_prev_6 == 273)
                     req->enableRegex = (unsigned int)1;
 
                 }
@@ -10718,7 +10718,7 @@ static void parse_cmd_opts(struct lexer_state *l, struct request *req)
 
       case 256:
       {
-        parse_cmd_opts$$1$$done = 1;
+        parse_cmd_opts__1__done = 1;
         break;
       }
       default:
@@ -10738,60 +10738,60 @@ static void parse_console_directive(struct server_conf *conf, struct lexer_state
   char *directive;
   signed int line;
   signed int tok;
-  signed int parse_console_directive$$1$$done = 0;
+  signed int parse_console_directive__1__done = 0;
   char err[1024l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   struct console_strs con;
   memset((void *)&con, 0, sizeof(struct console_strs) /*48ul*/ );
-  signed int return_value_lex_prev$1;
-  return_value_lex_prev$1=lex_prev(l);
-  signed int tmp_if_expr$4;
-  signed int return_value_lex_prev$2;
-  signed int return_value_lex_prev$3;
-  if(!(return_value_lex_prev$1 >= 259))
+  signed int return_value_lex_prev_1;
+  return_value_lex_prev_1=lex_prev(l);
+  signed int tmp_if_expr_4;
+  signed int return_value_lex_prev_2;
+  signed int return_value_lex_prev_3;
+  if(!(return_value_lex_prev_1 >= 259))
   {
-    return_value_lex_prev$2=lex_prev(l);
-    tmp_if_expr$4 = return_value_lex_prev$2;
+    return_value_lex_prev_2=lex_prev(l);
+    tmp_if_expr_4 = return_value_lex_prev_2;
   }
 
   else
   {
-    return_value_lex_prev$3=lex_prev(l);
-    tmp_if_expr$4 = return_value_lex_prev$3 - 259;
+    return_value_lex_prev_3=lex_prev(l);
+    tmp_if_expr_4 = return_value_lex_prev_3 - 259;
   }
-  directive = server_conf_strs[(signed long int)tmp_if_expr$4];
+  directive = server_conf_strs[(signed long int)tmp_if_expr_4];
   line=lex_line(l);
-  signed int return_value_lex_next$10;
-  signed int return_value_lex_next$6;
-  _Bool tmp_if_expr$9;
-  const char *return_value_lex_text$7;
-  signed int return_value_is_empty_string$8;
-  signed int return_value_lex_next$16;
-  signed int return_value_lex_next$12;
-  _Bool tmp_if_expr$15;
-  const char *return_value_lex_text$13;
-  signed int return_value_is_empty_string$14;
-  signed int return_value_lex_next$26;
-  signed int return_value_lex_next$25;
-  const char *return_value_lex_text$23;
-  char *return_value_strchr$24;
-  const char *return_value_lex_text$21;
-  signed int return_value_is_empty_string$22;
-  const char *return_value_lex_text$19;
-  _Bool tmp_if_expr$20;
-  signed int return_value_lex_next$32;
-  signed int return_value_lex_next$28;
-  _Bool tmp_if_expr$31;
-  const char *return_value_lex_text$29;
-  signed int return_value_is_empty_string$30;
-  signed int return_value_lex_next$38;
-  signed int return_value_lex_next$34;
-  _Bool tmp_if_expr$37;
-  const char *return_value_lex_text$35;
-  signed int return_value_is_empty_string$36;
-  signed int return_value_lex_next$41;
-  signed int return_value_lex_next$40;
-  const char *return_value_lex_text$42;
-  while(parse_console_directive$$1$$done == 0)
+  signed int return_value_lex_next_10;
+  signed int return_value_lex_next_6;
+  _Bool tmp_if_expr_9;
+  const char *return_value_lex_text_7;
+  signed int return_value_is_empty_string_8;
+  signed int return_value_lex_next_16;
+  signed int return_value_lex_next_12;
+  _Bool tmp_if_expr_15;
+  const char *return_value_lex_text_13;
+  signed int return_value_is_empty_string_14;
+  signed int return_value_lex_next_26;
+  signed int return_value_lex_next_25;
+  const char *return_value_lex_text_23;
+  char *return_value_strchr_24;
+  const char *return_value_lex_text_21;
+  signed int return_value_is_empty_string_22;
+  const char *return_value_lex_text_19;
+  _Bool tmp_if_expr_20;
+  signed int return_value_lex_next_32;
+  signed int return_value_lex_next_28;
+  _Bool tmp_if_expr_31;
+  const char *return_value_lex_text_29;
+  signed int return_value_is_empty_string_30;
+  signed int return_value_lex_next_38;
+  signed int return_value_lex_next_34;
+  _Bool tmp_if_expr_37;
+  const char *return_value_lex_text_35;
+  signed int return_value_is_empty_string_36;
+  signed int return_value_lex_next_41;
+  signed int return_value_lex_next_40;
+  const char *return_value_lex_text_42;
+  while(parse_console_directive__1__done == 0)
   {
     if(!(err[0l] == 0))
       break;
@@ -10801,111 +10801,111 @@ static void parse_console_directive(struct server_conf *conf, struct lexer_state
     {
       case 272:
       {
-        return_value_lex_next$10=lex_next(l);
-        if(!(return_value_lex_next$10 == 61))
+        return_value_lex_next_10=lex_next(l);
+        if(!(return_value_lex_next_10 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$6=lex_next(l);
-          if(!(return_value_lex_next$6 == 258))
-            tmp_if_expr$9 = (_Bool)1;
+          return_value_lex_next_6=lex_next(l);
+          if(!(return_value_lex_next_6 == 258))
+            tmp_if_expr_9 = (_Bool)1;
 
           else
           {
-            return_value_lex_text$7=lex_text(l);
-            return_value_is_empty_string$8=is_empty_string(return_value_lex_text$7);
-            tmp_if_expr$9 = return_value_is_empty_string$8 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_lex_text_7=lex_text(l);
+            return_value_is_empty_string_8=is_empty_string(return_value_lex_text_7);
+            tmp_if_expr_9 = return_value_is_empty_string_8 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$9)
+          if(tmp_if_expr_9)
             snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected STRING for %s value", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
           else
           {
-            const char *return_value_lex_text$5;
-            return_value_lex_text$5=lex_text(l);
-            replace_string(&con.name, return_value_lex_text$5);
+            const char *return_value_lex_text_5;
+            return_value_lex_text_5=lex_text(l);
+            replace_string(&con.name, return_value_lex_text_5);
           }
         }
         break;
       }
       case 262:
       {
-        return_value_lex_next$16=lex_next(l);
-        if(!(return_value_lex_next$16 == 61))
+        return_value_lex_next_16=lex_next(l);
+        if(!(return_value_lex_next_16 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$12=lex_next(l);
-          if(!(return_value_lex_next$12 == 258))
-            tmp_if_expr$15 = (_Bool)1;
+          return_value_lex_next_12=lex_next(l);
+          if(!(return_value_lex_next_12 == 258))
+            tmp_if_expr_15 = (_Bool)1;
 
           else
           {
-            return_value_lex_text$13=lex_text(l);
-            return_value_is_empty_string$14=is_empty_string(return_value_lex_text$13);
-            tmp_if_expr$15 = return_value_is_empty_string$14 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_lex_text_13=lex_text(l);
+            return_value_is_empty_string_14=is_empty_string(return_value_lex_text_13);
+            tmp_if_expr_15 = return_value_is_empty_string_14 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$15)
+          if(tmp_if_expr_15)
             snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected STRING for %s value", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
           else
           {
-            const char *return_value_lex_text$11;
-            return_value_lex_text$11=lex_text(l);
-            replace_string(&con.dev, return_value_lex_text$11);
+            const char *return_value_lex_text_11;
+            return_value_lex_text_11=lex_text(l);
+            replace_string(&con.dev, return_value_lex_text_11);
           }
         }
         break;
       }
       case 267:
       {
-        return_value_lex_next$26=lex_next(l);
-        if(!(return_value_lex_next$26 == 61))
+        return_value_lex_next_26=lex_next(l);
+        if(!(return_value_lex_next_26 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$25=lex_next(l);
-          if(!(return_value_lex_next$25 == 258))
+          return_value_lex_next_25=lex_next(l);
+          if(!(return_value_lex_next_25 == 258))
             snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected STRING for %s value", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
           else
           {
-            return_value_lex_text$23=lex_text(l);
-            return_value_strchr$24=strchr(return_value_lex_text$23, 38);
-            if(!(return_value_strchr$24 == ((char *)NULL)))
+            return_value_lex_text_23=lex_text(l);
+            return_value_strchr_24=strchr(return_value_lex_text_23, 38);
+            if(!(return_value_strchr_24 == ((char *)NULL)))
               snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "ignoring %s %s value with deprecated '%c' -- use '%%N'", directive, server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)], 38);
 
             else
             {
-              return_value_lex_text$21=lex_text(l);
-              return_value_is_empty_string$22=is_empty_string(return_value_lex_text$21);
-              if(!(return_value_is_empty_string$22 == 0))
+              return_value_lex_text_21=lex_text(l);
+              return_value_is_empty_string_22=is_empty_string(return_value_lex_text_21);
+              if(!(return_value_is_empty_string_22 == 0))
                 replace_string(&con.log, "");
 
               else
               {
-                return_value_lex_text$19=lex_text(l);
-                if(!((signed int)*return_value_lex_text$19 == 47))
-                  tmp_if_expr$20 = conf->logDirName != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+                return_value_lex_text_19=lex_text(l);
+                if(!((signed int)*return_value_lex_text_19 == 47))
+                  tmp_if_expr_20 = conf->logDirName != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$20 = (_Bool)0;
-                if(tmp_if_expr$20)
+                  tmp_if_expr_20 = (_Bool)0;
+                if(tmp_if_expr_20)
                 {
                   destroy_string(con.log);
-                  const char *return_value_lex_text$17;
-                  return_value_lex_text$17=lex_text(l);
-                  con.log=create_format_string("%s/%s", conf->logDirName, return_value_lex_text$17);
+                  const char *return_value_lex_text_17;
+                  return_value_lex_text_17=lex_text(l);
+                  con.log=create_format_string("%s/%s", conf->logDirName, return_value_lex_text_17);
                 }
 
                 else
                 {
-                  const char *return_value_lex_text$18;
-                  return_value_lex_text$18=lex_text(l);
-                  replace_string(&con.log, return_value_lex_text$18);
+                  const char *return_value_lex_text_18;
+                  return_value_lex_text_18=lex_text(l);
+                  replace_string(&con.log, return_value_lex_text_18);
                 }
               }
             }
@@ -10915,81 +10915,81 @@ static void parse_console_directive(struct server_conf *conf, struct lexer_state
       }
       case 270:
       {
-        return_value_lex_next$32=lex_next(l);
-        if(!(return_value_lex_next$32 == 61))
+        return_value_lex_next_32=lex_next(l);
+        if(!(return_value_lex_next_32 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$28=lex_next(l);
-          if(!(return_value_lex_next$28 == 258))
-            tmp_if_expr$31 = (_Bool)1;
+          return_value_lex_next_28=lex_next(l);
+          if(!(return_value_lex_next_28 == 258))
+            tmp_if_expr_31 = (_Bool)1;
 
           else
           {
-            return_value_lex_text$29=lex_text(l);
-            return_value_is_empty_string$30=is_empty_string(return_value_lex_text$29);
-            tmp_if_expr$31 = return_value_is_empty_string$30 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_lex_text_29=lex_text(l);
+            return_value_is_empty_string_30=is_empty_string(return_value_lex_text_29);
+            tmp_if_expr_31 = return_value_is_empty_string_30 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$31)
+          if(tmp_if_expr_31)
             snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected STRING for %s value", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
           else
           {
-            const char *return_value_lex_text$27;
-            return_value_lex_text$27=lex_text(l);
-            replace_string(&con.lopts, return_value_lex_text$27);
+            const char *return_value_lex_text_27;
+            return_value_lex_text_27=lex_text(l);
+            replace_string(&con.lopts, return_value_lex_text_27);
           }
         }
         break;
       }
       case 278:
       {
-        return_value_lex_next$38=lex_next(l);
-        if(!(return_value_lex_next$38 == 61))
+        return_value_lex_next_38=lex_next(l);
+        if(!(return_value_lex_next_38 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$34=lex_next(l);
-          if(!(return_value_lex_next$34 == 258))
-            tmp_if_expr$37 = (_Bool)1;
+          return_value_lex_next_34=lex_next(l);
+          if(!(return_value_lex_next_34 == 258))
+            tmp_if_expr_37 = (_Bool)1;
 
           else
           {
-            return_value_lex_text$35=lex_text(l);
-            return_value_is_empty_string$36=is_empty_string(return_value_lex_text$35);
-            tmp_if_expr$37 = return_value_is_empty_string$36 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_lex_text_35=lex_text(l);
+            return_value_is_empty_string_36=is_empty_string(return_value_lex_text_35);
+            tmp_if_expr_37 = return_value_is_empty_string_36 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$37)
+          if(tmp_if_expr_37)
             snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected STRING for %s value", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
           else
           {
-            const char *return_value_lex_text$33;
-            return_value_lex_text$33=lex_text(l);
-            replace_string(&con.sopts, return_value_lex_text$33);
+            const char *return_value_lex_text_33;
+            return_value_lex_text_33=lex_text(l);
+            replace_string(&con.sopts, return_value_lex_text_33);
           }
         }
         break;
       }
       case 265:
       {
-        return_value_lex_next$41=lex_next(l);
-        if(!(return_value_lex_next$41 == 61))
+        return_value_lex_next_41=lex_next(l);
+        if(!(return_value_lex_next_41 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "unexpected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$40=lex_next(l);
-          if(!(return_value_lex_next$40 == 258))
+          return_value_lex_next_40=lex_next(l);
+          if(!(return_value_lex_next_40 == 258))
             snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected STRING for %s value", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
           else
           {
-            const char *return_value_lex_text$39;
-            return_value_lex_text$39=lex_text(l);
-            replace_string(&con.iopts, return_value_lex_text$39);
+            const char *return_value_lex_text_39;
+            return_value_lex_text_39=lex_text(l);
+            replace_string(&con.iopts, return_value_lex_text_39);
           }
         }
         break;
@@ -10998,7 +10998,7 @@ static void parse_console_directive(struct server_conf *conf, struct lexer_state
 
       case 256:
       {
-        parse_console_directive$$1$$done = 1;
+        parse_console_directive__1__done = 1;
         break;
       }
       case -1:
@@ -11008,8 +11008,8 @@ static void parse_console_directive(struct server_conf *conf, struct lexer_state
       }
       default:
       {
-        return_value_lex_text$42=lex_text(l);
-        snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "unrecognized token '%s'", return_value_lex_text$42);
+        return_value_lex_text_42=lex_text(l);
+        snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "unrecognized token '%s'", return_value_lex_text_42);
       }
     }
   }
@@ -11022,21 +11022,21 @@ static void parse_console_directive(struct server_conf *conf, struct lexer_state
       process_console(conf, &con, err, (signed int)sizeof(char [1024l]) /*1024ul*/ );
   }
 
-  signed int return_value_lex_prev$44;
-  signed int return_value_lex_prev$45;
+  signed int return_value_lex_prev_44;
+  signed int return_value_lex_prev_45;
   if(!(err[0l] == 0))
   {
-    signed int return_value_lex_line$43;
-    return_value_lex_line$43=lex_line(l);
-    log_msg(3, "CONFIG[%s:%d]: %s", conf->confFileName, return_value_lex_line$43, (const void *)err);
+    signed int return_value_lex_line_43;
+    return_value_lex_line_43=lex_line(l);
+    log_msg(3, "CONFIG[%s:%d]: %s", conf->confFileName, return_value_lex_line_43, (const void *)err);
     do
     {
-      return_value_lex_prev$44=lex_prev(l);
-      if(return_value_lex_prev$44 == 256)
+      return_value_lex_prev_44=lex_prev(l);
+      if(return_value_lex_prev_44 == 256)
         break;
 
-      return_value_lex_prev$45=lex_prev(l);
-      if(return_value_lex_prev$45 == 0)
+      return_value_lex_prev_45=lex_prev(l);
+      if(return_value_lex_prev_45 == 0)
         break;
 
       lex_next(l);
@@ -11062,53 +11062,53 @@ static void parse_global_directive(struct server_conf *conf, struct lexer_state 
 {
   char *directive;
   signed int tok;
-  signed int parse_global_directive$$1$$done = 0;
+  signed int parse_global_directive__1__done = 0;
   char err[1024l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-  signed int return_value_lex_prev$1;
-  return_value_lex_prev$1=lex_prev(l);
-  signed int tmp_if_expr$4;
-  signed int return_value_lex_prev$2;
-  signed int return_value_lex_prev$3;
-  if(!(return_value_lex_prev$1 >= 259))
+  signed int return_value_lex_prev_1;
+  return_value_lex_prev_1=lex_prev(l);
+  signed int tmp_if_expr_4;
+  signed int return_value_lex_prev_2;
+  signed int return_value_lex_prev_3;
+  if(!(return_value_lex_prev_1 >= 259))
   {
-    return_value_lex_prev$2=lex_prev(l);
-    tmp_if_expr$4 = return_value_lex_prev$2;
+    return_value_lex_prev_2=lex_prev(l);
+    tmp_if_expr_4 = return_value_lex_prev_2;
   }
 
   else
   {
-    return_value_lex_prev$3=lex_prev(l);
-    tmp_if_expr$4 = return_value_lex_prev$3 - 259;
+    return_value_lex_prev_3=lex_prev(l);
+    tmp_if_expr_4 = return_value_lex_prev_3 - 259;
   }
-  directive = server_conf_strs[(signed long int)tmp_if_expr$4];
-  signed int return_value_lex_next$16;
-  signed int return_value_lex_next$15;
-  const char *return_value_lex_text$13;
-  signed int return_value_is_empty_string$14;
-  const char *return_value_lex_text$11;
-  char *return_value_strchr$12;
-  const char *return_value_lex_text$6;
-  char *return_value_strstr$7;
-  _Bool tmp_if_expr$10;
-  const char *return_value_lex_text$8;
-  char *return_value_strstr$9;
-  signed int return_value_lex_next$22;
-  signed int return_value_lex_next$18;
-  _Bool tmp_if_expr$21;
-  const char *return_value_lex_text$19;
-  signed int return_value_is_empty_string$20;
-  signed int return_value_lex_next$28;
-  signed int return_value_lex_next$24;
-  _Bool tmp_if_expr$27;
-  const char *return_value_lex_text$25;
-  signed int return_value_is_empty_string$26;
-  signed int return_value_lex_next$34;
-  signed int return_value_lex_next$30;
-  _Bool tmp_if_expr$33;
-  const char *return_value_lex_text$31;
-  signed int return_value_is_empty_string$32;
-  const char *return_value_lex_text$35;
-  while(parse_global_directive$$1$$done == 0)
+  directive = server_conf_strs[(signed long int)tmp_if_expr_4];
+  signed int return_value_lex_next_16;
+  signed int return_value_lex_next_15;
+  const char *return_value_lex_text_13;
+  signed int return_value_is_empty_string_14;
+  const char *return_value_lex_text_11;
+  char *return_value_strchr_12;
+  const char *return_value_lex_text_6;
+  char *return_value_strstr_7;
+  _Bool tmp_if_expr_10;
+  const char *return_value_lex_text_8;
+  char *return_value_strstr_9;
+  signed int return_value_lex_next_22;
+  signed int return_value_lex_next_18;
+  _Bool tmp_if_expr_21;
+  const char *return_value_lex_text_19;
+  signed int return_value_is_empty_string_20;
+  signed int return_value_lex_next_28;
+  signed int return_value_lex_next_24;
+  _Bool tmp_if_expr_27;
+  const char *return_value_lex_text_25;
+  signed int return_value_is_empty_string_26;
+  signed int return_value_lex_next_34;
+  signed int return_value_lex_next_30;
+  _Bool tmp_if_expr_33;
+  const char *return_value_lex_text_31;
+  signed int return_value_is_empty_string_32;
+  const char *return_value_lex_text_35;
+  while(parse_global_directive__1__done == 0)
   {
     if(!(err[0l] == 0))
       break;
@@ -11118,21 +11118,21 @@ static void parse_global_directive(struct server_conf *conf, struct lexer_state 
     {
       case 267:
       {
-        return_value_lex_next$16=lex_next(l);
-        if(!(return_value_lex_next$16 == 61))
+        return_value_lex_next_16=lex_next(l);
+        if(!(return_value_lex_next_16 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$15=lex_next(l);
-          if(!(return_value_lex_next$15 == 258))
+          return_value_lex_next_15=lex_next(l);
+          if(!(return_value_lex_next_15 == 258))
             snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected STRING for %s value", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
           else
           {
-            return_value_lex_text$13=lex_text(l);
-            return_value_is_empty_string$14=is_empty_string(return_value_lex_text$13);
-            if(!(return_value_is_empty_string$14 == 0))
+            return_value_lex_text_13=lex_text(l);
+            return_value_is_empty_string_14=is_empty_string(return_value_lex_text_13);
+            if(!(return_value_is_empty_string_14 == 0))
             {
               destroy_string(conf->globalLogName);
               conf->globalLogName = (char *)(void *)0;
@@ -11140,33 +11140,33 @@ static void parse_global_directive(struct server_conf *conf, struct lexer_state 
 
             else
             {
-              return_value_lex_text$11=lex_text(l);
-              return_value_strchr$12=strchr(return_value_lex_text$11, 38);
-              if(!(return_value_strchr$12 == ((char *)NULL)))
+              return_value_lex_text_11=lex_text(l);
+              return_value_strchr_12=strchr(return_value_lex_text_11, 38);
+              if(!(return_value_strchr_12 == ((char *)NULL)))
                 snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "ignoring %s %s value with deprecated '%c' -- use '%%N'", directive, server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)], 38);
 
               else
               {
-                return_value_lex_text$6=lex_text(l);
-                return_value_strstr$7=strstr(return_value_lex_text$6, "%N");
-                if(return_value_strstr$7 == ((char *)NULL))
+                return_value_lex_text_6=lex_text(l);
+                return_value_strstr_7=strstr(return_value_lex_text_6, "%N");
+                if(return_value_strstr_7 == ((char *)NULL))
                 {
-                  return_value_lex_text$8=lex_text(l);
-                  return_value_strstr$9=strstr(return_value_lex_text$8, "%D");
-                  tmp_if_expr$10 = !(return_value_strstr$9 != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
+                  return_value_lex_text_8=lex_text(l);
+                  return_value_strstr_9=strstr(return_value_lex_text_8, "%D");
+                  tmp_if_expr_10 = !(return_value_strstr_9 != ((char *)NULL)) ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$10 = (_Bool)0;
-                if(tmp_if_expr$10)
+                  tmp_if_expr_10 = (_Bool)0;
+                if(tmp_if_expr_10)
                   snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "ignoring %s %s value without '%%N' or '%%D'", directive, server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
                 else
                 {
                   destroy_string(conf->globalLogName);
-                  const char *return_value_lex_text$5;
-                  return_value_lex_text$5=lex_text(l);
-                  conf->globalLogName=create_string(return_value_lex_text$5);
+                  const char *return_value_lex_text_5;
+                  return_value_lex_text_5=lex_text(l);
+                  conf->globalLogName=create_string(return_value_lex_text_5);
                 }
               }
             }
@@ -11176,90 +11176,90 @@ static void parse_global_directive(struct server_conf *conf, struct lexer_state 
       }
       case 270:
       {
-        return_value_lex_next$22=lex_next(l);
-        if(!(return_value_lex_next$22 == 61))
+        return_value_lex_next_22=lex_next(l);
+        if(!(return_value_lex_next_22 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$18=lex_next(l);
-          if(!(return_value_lex_next$18 == 258))
-            tmp_if_expr$21 = (_Bool)1;
+          return_value_lex_next_18=lex_next(l);
+          if(!(return_value_lex_next_18 == 258))
+            tmp_if_expr_21 = (_Bool)1;
 
           else
           {
-            return_value_lex_text$19=lex_text(l);
-            return_value_is_empty_string$20=is_empty_string(return_value_lex_text$19);
-            tmp_if_expr$21 = return_value_is_empty_string$20 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_lex_text_19=lex_text(l);
+            return_value_is_empty_string_20=is_empty_string(return_value_lex_text_19);
+            tmp_if_expr_21 = return_value_is_empty_string_20 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$21)
+          if(tmp_if_expr_21)
             snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected STRING for %s value", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
           else
           {
-            const char *return_value_lex_text$17;
-            return_value_lex_text$17=lex_text(l);
-            parse_logfile_opts(&conf->globalLogOpts, return_value_lex_text$17, err, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+            const char *return_value_lex_text_17;
+            return_value_lex_text_17=lex_text(l);
+            parse_logfile_opts(&conf->globalLogOpts, return_value_lex_text_17, err, (signed int)sizeof(char [1024l]) /*1024ul*/ );
           }
         }
         break;
       }
       case 278:
       {
-        return_value_lex_next$28=lex_next(l);
-        if(!(return_value_lex_next$28 == 61))
+        return_value_lex_next_28=lex_next(l);
+        if(!(return_value_lex_next_28 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$24=lex_next(l);
-          if(!(return_value_lex_next$24 == 258))
-            tmp_if_expr$27 = (_Bool)1;
+          return_value_lex_next_24=lex_next(l);
+          if(!(return_value_lex_next_24 == 258))
+            tmp_if_expr_27 = (_Bool)1;
 
           else
           {
-            return_value_lex_text$25=lex_text(l);
-            return_value_is_empty_string$26=is_empty_string(return_value_lex_text$25);
-            tmp_if_expr$27 = return_value_is_empty_string$26 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_lex_text_25=lex_text(l);
+            return_value_is_empty_string_26=is_empty_string(return_value_lex_text_25);
+            tmp_if_expr_27 = return_value_is_empty_string_26 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$27)
+          if(tmp_if_expr_27)
             snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected STRING for %s value", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
           else
           {
-            const char *return_value_lex_text$23;
-            return_value_lex_text$23=lex_text(l);
-            parse_serial_opts(&conf->globalSerOpts, return_value_lex_text$23, err, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+            const char *return_value_lex_text_23;
+            return_value_lex_text_23=lex_text(l);
+            parse_serial_opts(&conf->globalSerOpts, return_value_lex_text_23, err, (signed int)sizeof(char [1024l]) /*1024ul*/ );
           }
         }
         break;
       }
       case 265:
       {
-        return_value_lex_next$34=lex_next(l);
-        if(!(return_value_lex_next$34 == 61))
+        return_value_lex_next_34=lex_next(l);
+        if(!(return_value_lex_next_34 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$30=lex_next(l);
-          if(!(return_value_lex_next$30 == 258))
-            tmp_if_expr$33 = (_Bool)1;
+          return_value_lex_next_30=lex_next(l);
+          if(!(return_value_lex_next_30 == 258))
+            tmp_if_expr_33 = (_Bool)1;
 
           else
           {
-            return_value_lex_text$31=lex_text(l);
-            return_value_is_empty_string$32=is_empty_string(return_value_lex_text$31);
-            tmp_if_expr$33 = return_value_is_empty_string$32 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_lex_text_31=lex_text(l);
+            return_value_is_empty_string_32=is_empty_string(return_value_lex_text_31);
+            tmp_if_expr_33 = return_value_is_empty_string_32 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$33)
+          if(tmp_if_expr_33)
             snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected STRING for %s value", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
           else
           {
-            const char *return_value_lex_text$29;
-            return_value_lex_text$29=lex_text(l);
-            parse_ipmi_opts(&conf->globalIpmiOpts, return_value_lex_text$29, err, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+            const char *return_value_lex_text_29;
+            return_value_lex_text_29=lex_text(l);
+            parse_ipmi_opts(&conf->globalIpmiOpts, return_value_lex_text_29, err, (signed int)sizeof(char [1024l]) /*1024ul*/ );
           }
         }
         break;
@@ -11268,7 +11268,7 @@ static void parse_global_directive(struct server_conf *conf, struct lexer_state 
 
       case 256:
       {
-        parse_global_directive$$1$$done = 1;
+        parse_global_directive__1__done = 1;
         break;
       }
       case -1:
@@ -11278,26 +11278,26 @@ static void parse_global_directive(struct server_conf *conf, struct lexer_state 
       }
       default:
       {
-        return_value_lex_text$35=lex_text(l);
-        snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "unrecognized token '%s'", return_value_lex_text$35);
+        return_value_lex_text_35=lex_text(l);
+        snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "unrecognized token '%s'", return_value_lex_text_35);
       }
     }
   }
-  signed int return_value_lex_prev$37;
-  signed int return_value_lex_prev$38;
+  signed int return_value_lex_prev_37;
+  signed int return_value_lex_prev_38;
   if(!(err[0l] == 0))
   {
-    signed int return_value_lex_line$36;
-    return_value_lex_line$36=lex_line(l);
-    log_msg(3, "CONFIG[%s:%d]: %s", conf->confFileName, return_value_lex_line$36, (const void *)err);
+    signed int return_value_lex_line_36;
+    return_value_lex_line_36=lex_line(l);
+    log_msg(3, "CONFIG[%s:%d]: %s", conf->confFileName, return_value_lex_line_36, (const void *)err);
     do
     {
-      return_value_lex_prev$37=lex_prev(l);
-      if(return_value_lex_prev$37 == 256)
+      return_value_lex_prev_37=lex_prev(l);
+      if(return_value_lex_prev_37 == 256)
         break;
 
-      return_value_lex_prev$38=lex_prev(l);
-      if(return_value_lex_prev$38 == 0)
+      return_value_lex_prev_38=lex_prev(l);
+      if(return_value_lex_prev_38 == 0)
         break;
 
       lex_next(l);
@@ -11315,38 +11315,38 @@ __CPROVER_DUMP_L39:
 // file server-sock.c line 279
 static void parse_greeting(struct lexer_state *l, struct request *req)
 {
-  signed int parse_greeting$$1$$done = 0;
+  signed int parse_greeting__1__done = 0;
   signed int tok;
-  signed int return_value_lex_next$5;
-  signed int return_value_lex_next$4;
-  const char *return_value_lex_text$3;
-  signed int return_value_lex_next$10;
-  signed int return_value_lex_next$9;
-  const char *return_value_lex_text$8;
-  while(parse_greeting$$1$$done == 0)
+  signed int return_value_lex_next_5;
+  signed int return_value_lex_next_4;
+  const char *return_value_lex_text_3;
+  signed int return_value_lex_next_10;
+  signed int return_value_lex_next_9;
+  const char *return_value_lex_text_8;
+  while(parse_greeting__1__done == 0)
   {
     tok=lex_next(l);
     switch(tok)
     {
       case 276:
       {
-        return_value_lex_next$5=lex_next(l);
-        if(return_value_lex_next$5 == 61)
+        return_value_lex_next_5=lex_next(l);
+        if(return_value_lex_next_5 == 61)
         {
-          return_value_lex_next$4=lex_next(l);
-          if(return_value_lex_next$4 == 258)
+          return_value_lex_next_4=lex_next(l);
+          if(return_value_lex_next_4 == 258)
           {
-            return_value_lex_text$3=lex_text(l);
-            if(!((signed int)*return_value_lex_text$3 == 0))
+            return_value_lex_text_3=lex_text(l);
+            if(!((signed int)*return_value_lex_text_3 == 0))
             {
               if(!(req->user == ((char *)NULL)))
                 free((void *)req->user);
 
-              const char *return_value_lex_text$1;
-              return_value_lex_text$1=lex_text(l);
-              char *return_value_create_string$2;
-              return_value_create_string$2=create_string(return_value_lex_text$1);
-              req->user=lex_decode(return_value_create_string$2);
+              const char *return_value_lex_text_1;
+              return_value_lex_text_1=lex_text(l);
+              char *return_value_create_string_2;
+              return_value_create_string_2=create_string(return_value_lex_text_1);
+              req->user=lex_decode(return_value_create_string_2);
             }
 
           }
@@ -11357,23 +11357,23 @@ static void parse_greeting(struct lexer_state *l, struct request *req)
       }
       case 275:
       {
-        return_value_lex_next$10=lex_next(l);
-        if(return_value_lex_next$10 == 61)
+        return_value_lex_next_10=lex_next(l);
+        if(return_value_lex_next_10 == 61)
         {
-          return_value_lex_next$9=lex_next(l);
-          if(return_value_lex_next$9 == 258)
+          return_value_lex_next_9=lex_next(l);
+          if(return_value_lex_next_9 == 258)
           {
-            return_value_lex_text$8=lex_text(l);
-            if(!((signed int)*return_value_lex_text$8 == 0))
+            return_value_lex_text_8=lex_text(l);
+            if(!((signed int)*return_value_lex_text_8 == 0))
             {
               if(!(req->tty == ((char *)NULL)))
                 free((void *)req->tty);
 
-              const char *return_value_lex_text$6;
-              return_value_lex_text$6=lex_text(l);
-              char *return_value_create_string$7;
-              return_value_create_string$7=create_string(return_value_lex_text$6);
-              req->tty=lex_decode(return_value_create_string$7);
+              const char *return_value_lex_text_6;
+              return_value_lex_text_6=lex_text(l);
+              char *return_value_create_string_7;
+              return_value_create_string_7=create_string(return_value_lex_text_6);
+              req->tty=lex_decode(return_value_create_string_7);
             }
 
           }
@@ -11386,7 +11386,7 @@ static void parse_greeting(struct lexer_state *l, struct request *req)
 
       case 256:
       {
-        parse_greeting$$1$$done = 1;
+        parse_greeting__1__done = 1;
         break;
       }
       default:
@@ -11411,10 +11411,10 @@ signed int parse_ipmi_opts(struct ipmi_opt *iopts, const char *str, char *errbuf
     log_err(0, "parse_ipmi_opts: iopts ptr is NULL");
 
   ioptsTmp = *iopts;
-  unsigned long int return_value_strlcpy$1;
-  return_value_strlcpy$1=strlcpy(buf, str, sizeof(char [1024l]) /*1024ul*/ );
-  _Bool tmp_if_expr$4;
-  if(return_value_strlcpy$1 >= sizeof(char [1024l]) /*1024ul*/ )
+  unsigned long int return_value_strlcpy_1;
+  return_value_strlcpy_1=strlcpy(buf, str, sizeof(char [1024l]) /*1024ul*/ );
+  _Bool tmp_if_expr_4;
+  if(return_value_strlcpy_1 >= sizeof(char [1024l]) /*1024ul*/ )
   {
     if(errlen >= 1 && !(errbuf == ((char *)NULL)))
       snprintf(errbuf, (unsigned long int)errlen, "ipmiopts string exceeds %d-byte maximum", (signed int)sizeof(char [1024l]) /*1024ul*/  - 1);
@@ -11425,15 +11425,15 @@ signed int parse_ipmi_opts(struct ipmi_opt *iopts, const char *str, char *errbuf
   else
   {
     if(!((signed int)buf[0l] == 0))
-      tmp_if_expr$4 = (signed int)buf[(signed long int)1] != 58 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (signed int)buf[(signed long int)1] != 58 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
     {
-      signed int return_value_parse_ipmi_opts_v1$2;
-      return_value_parse_ipmi_opts_v1$2=parse_ipmi_opts_v1(&ioptsTmp, buf, errbuf, errlen);
-      if(!(return_value_parse_ipmi_opts_v1$2 >= 0))
+      signed int return_value_parse_ipmi_opts_v1_2;
+      return_value_parse_ipmi_opts_v1_2=parse_ipmi_opts_v1(&ioptsTmp, buf, errbuf, errlen);
+      if(!(return_value_parse_ipmi_opts_v1_2 >= 0))
         return -1;
 
     }
@@ -11443,9 +11443,9 @@ signed int parse_ipmi_opts(struct ipmi_opt *iopts, const char *str, char *errbuf
       tok=strtok(buf, separators);
       while(!(tok == ((char *)NULL)))
       {
-        signed int return_value_process_ipmi_opt$3;
-        return_value_process_ipmi_opt$3=process_ipmi_opt(&ioptsTmp, tok, errbuf, errlen);
-        if(!(return_value_process_ipmi_opt$3 >= 0))
+        signed int return_value_process_ipmi_opt_3;
+        return_value_process_ipmi_opt_3=process_ipmi_opt(&ioptsTmp, tok, errbuf, errlen);
+        if(!(return_value_process_ipmi_opt_3 >= 0))
           return -1;
 
         tok=strtok((char *)(void *)0, separators);
@@ -11472,9 +11472,9 @@ static signed int parse_ipmi_opts_v1(struct ipmi_opt *iopts, char *str, char *er
 
     }
 
-    signed int return_value_process_ipmi_opt_username$1;
-    return_value_process_ipmi_opt_username$1=process_ipmi_opt_username(iopts, tok, errbuf, errlen);
-    if(!(return_value_process_ipmi_opt_username$1 >= 0))
+    signed int return_value_process_ipmi_opt_username_1;
+    return_value_process_ipmi_opt_username_1=process_ipmi_opt_username(iopts, tok, errbuf, errlen);
+    if(!(return_value_process_ipmi_opt_username_1 >= 0))
       return -1;
 
   }
@@ -11489,9 +11489,9 @@ static signed int parse_ipmi_opts_v1(struct ipmi_opt *iopts, char *str, char *er
 
     }
 
-    signed int return_value_process_ipmi_opt_password$2;
-    return_value_process_ipmi_opt_password$2=process_ipmi_opt_password(iopts, tok, errbuf, errlen);
-    if(!(return_value_process_ipmi_opt_password$2 >= 0))
+    signed int return_value_process_ipmi_opt_password_2;
+    return_value_process_ipmi_opt_password_2=process_ipmi_opt_password(iopts, tok, errbuf, errlen);
+    if(!(return_value_process_ipmi_opt_password_2 >= 0))
       return -1;
 
   }
@@ -11506,9 +11506,9 @@ static signed int parse_ipmi_opts_v1(struct ipmi_opt *iopts, char *str, char *er
 
     }
 
-    signed int return_value_process_ipmi_opt_k_g$3;
-    return_value_process_ipmi_opt_k_g$3=process_ipmi_opt_k_g(iopts, tok, errbuf, errlen);
-    if(!(return_value_process_ipmi_opt_k_g$3 >= 0))
+    signed int return_value_process_ipmi_opt_k_g_3;
+    return_value_process_ipmi_opt_k_g_3=process_ipmi_opt_k_g(iopts, tok, errbuf, errlen);
+    if(!(return_value_process_ipmi_opt_k_g_3 >= 0))
       return -1;
 
   }
@@ -11526,9 +11526,9 @@ static signed int parse_ipmi_opts_v1(struct ipmi_opt *iopts, char *str, char *er
 
     }
 
-    signed int return_value_process_ipmi_opt_workaround$4;
-    return_value_process_ipmi_opt_workaround$4=process_ipmi_opt_workaround(iopts, tok, errbuf, errlen);
-    if(!(return_value_process_ipmi_opt_workaround$4 >= 0))
+    signed int return_value_process_ipmi_opt_workaround_4;
+    return_value_process_ipmi_opt_workaround_4=process_ipmi_opt_workaround(iopts, tok, errbuf, errlen);
+    if(!(return_value_process_ipmi_opt_workaround_4 >= 0))
       return -1;
 
   }
@@ -11545,14 +11545,14 @@ static signed int parse_key(char *dst, const char *src, unsigned long int dstlen
   char *p;
   char *q;
   signed int n;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$11;
-  unsigned long int return_value_strspn$9;
-  unsigned long int return_value_strlen$10;
-  char *tmp_post$1;
-  char *tmp_post$3;
-  char *tmp_post$4;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_11;
+  unsigned long int return_value_strspn_9;
+  unsigned long int return_value_strlen_10;
+  char *tmp_post_1;
+  char *tmp_post_3;
+  char *tmp_post_4;
   if(dstlen == 0ul)
     return -1;
 
@@ -11561,25 +11561,25 @@ static signed int parse_key(char *dst, const char *src, unsigned long int dstlen
     if((signed int)*src == 48)
     {
       if((signed int)src[1l] == 120)
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = (signed int)src[(signed long int)1] == 88 ? (_Bool)1 : (_Bool)0;
-      tmp_if_expr$8 = tmp_if_expr$7 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = (signed int)src[(signed long int)1] == 88 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_8 = tmp_if_expr_7 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    if(tmp_if_expr$8)
+      tmp_if_expr_8 = (_Bool)0;
+    if(tmp_if_expr_8)
     {
-      return_value_strspn$9=strspn(src + (signed long int)2, hexdigits);
-      return_value_strlen$10=strlen(src + (signed long int)2);
-      tmp_if_expr$11 = return_value_strspn$9 == return_value_strlen$10 ? (_Bool)1 : (_Bool)0;
+      return_value_strspn_9=strspn(src + (signed long int)2, hexdigits);
+      return_value_strlen_10=strlen(src + (signed long int)2);
+      tmp_if_expr_11 = return_value_strspn_9 == return_value_strlen_10 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$11 = (_Bool)0;
-    if(tmp_if_expr$11)
+      tmp_if_expr_11 = (_Bool)0;
+    if(tmp_if_expr_11)
     {
       dstend = (dst + (signed long int)dstlen) - (signed long int)1;
       p = (char *)src + (signed long int)2;
@@ -11592,23 +11592,23 @@ static signed int parse_key(char *dst, const char *src, unsigned long int dstlen
 
         if((p - src & 1l) == 0l)
         {
-          tmp_post$1 = p;
+          tmp_post_1 = p;
           p = p + 1l;
-          signed int return_value_toint$2;
-          return_value_toint$2=toint((signed int)*tmp_post$1);
-          *q = (char)(return_value_toint$2 << 4 & 0xf0);
+          signed int return_value_toint_2;
+          return_value_toint_2=toint((signed int)*tmp_post_1);
+          *q = (char)(return_value_toint_2 << 4 & 0xf0);
           n = n + 1;
         }
 
         else
         {
-          tmp_post$3 = q;
+          tmp_post_3 = q;
           q = q + 1l;
-          tmp_post$4 = p;
+          tmp_post_4 = p;
           p = p + 1l;
-          signed int return_value_toint$5;
-          return_value_toint$5=toint((signed int)*tmp_post$4);
-          *tmp_post$3 = *tmp_post$3 | (char)(return_value_toint$5 & 0x0f);
+          signed int return_value_toint_5;
+          return_value_toint_5=toint((signed int)*tmp_post_4);
+          *tmp_post_3 = *tmp_post_3 | (char)(return_value_toint_5 & 0x0f);
         }
       }
       dst[(signed long int)n] = (char)0;
@@ -11619,9 +11619,9 @@ static signed int parse_key(char *dst, const char *src, unsigned long int dstlen
 
     else
     {
-      unsigned long int return_value_strlcpy$6;
-      return_value_strlcpy$6=strlcpy(dst, src, dstlen);
-      n = (signed int)return_value_strlcpy$6;
+      unsigned long int return_value_strlcpy_6;
+      return_value_strlcpy_6=strlcpy(dst, src, dstlen);
+      n = (signed int)return_value_strlcpy_6;
       if((unsigned long int)n >= dstlen)
         return -1;
 
@@ -11639,18 +11639,18 @@ signed int parse_logfile_opts(struct logfile_opt *opts, const char *str, char *e
   const char * const separators = " \t\n.,;";
   char *tok;
   optsTmp = *opts;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(str == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)str[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  signed int return_value_strcasecmp$7;
-  signed int return_value_strcasecmp$6;
-  signed int return_value_strcasecmp$5;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_strcasecmp$3;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)str[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  signed int return_value_strcasecmp_7;
+  signed int return_value_strcasecmp_6;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_strcasecmp_3;
+  if(tmp_if_expr_1)
   {
     if(errlen >= 1 && !(errbuf == ((char *)NULL)))
       snprintf(errbuf, (unsigned long int)errlen, "encountered empty options string");
@@ -11660,9 +11660,9 @@ signed int parse_logfile_opts(struct logfile_opt *opts, const char *str, char *e
 
   else
   {
-    unsigned long int return_value_strlcpy$2;
-    return_value_strlcpy$2=strlcpy(buf, str, sizeof(char [1024l]) /*1024ul*/ );
-    if(return_value_strlcpy$2 >= sizeof(char [1024l]) /*1024ul*/ )
+    unsigned long int return_value_strlcpy_2;
+    return_value_strlcpy_2=strlcpy(buf, str, sizeof(char [1024l]) /*1024ul*/ );
+    if(return_value_strlcpy_2 >= sizeof(char [1024l]) /*1024ul*/ )
     {
       if(errlen >= 1 && !(errbuf == ((char *)NULL)))
         snprintf(errbuf, (unsigned long int)errlen, "logopt string exceeded buffer size");
@@ -11675,39 +11675,39 @@ signed int parse_logfile_opts(struct logfile_opt *opts, const char *str, char *e
       tok=strtok(buf, separators);
       while(!(tok == ((char *)NULL)))
       {
-        signed int return_value_strcasecmp$8;
-        return_value_strcasecmp$8=strcasecmp(tok, "lock");
-        if(return_value_strcasecmp$8 == 0)
+        signed int return_value_strcasecmp_8;
+        return_value_strcasecmp_8=strcasecmp(tok, "lock");
+        if(return_value_strcasecmp_8 == 0)
           optsTmp.enableLock = (unsigned int)1;
 
         else
         {
-          return_value_strcasecmp$7=strcasecmp(tok, "nolock");
-          if(return_value_strcasecmp$7 == 0)
+          return_value_strcasecmp_7=strcasecmp(tok, "nolock");
+          if(return_value_strcasecmp_7 == 0)
             optsTmp.enableLock = (unsigned int)0;
 
           else
           {
-            return_value_strcasecmp$6=strcasecmp(tok, "sanitize");
-            if(return_value_strcasecmp$6 == 0)
+            return_value_strcasecmp_6=strcasecmp(tok, "sanitize");
+            if(return_value_strcasecmp_6 == 0)
               optsTmp.enableSanitize = (unsigned int)1;
 
             else
             {
-              return_value_strcasecmp$5=strcasecmp(tok, "nosanitize");
-              if(return_value_strcasecmp$5 == 0)
+              return_value_strcasecmp_5=strcasecmp(tok, "nosanitize");
+              if(return_value_strcasecmp_5 == 0)
                 optsTmp.enableSanitize = (unsigned int)0;
 
               else
               {
-                return_value_strcasecmp$4=strcasecmp(tok, "timestamp");
-                if(return_value_strcasecmp$4 == 0)
+                return_value_strcasecmp_4=strcasecmp(tok, "timestamp");
+                if(return_value_strcasecmp_4 == 0)
                   optsTmp.enableTimestamp = (unsigned int)1;
 
                 else
                 {
-                  return_value_strcasecmp$3=strcasecmp(tok, "notimestamp");
-                  if(return_value_strcasecmp$3 == 0)
+                  return_value_strcasecmp_3=strcasecmp(tok, "notimestamp");
+                  if(return_value_strcasecmp_3 == 0)
                     optsTmp.enableTimestamp = (unsigned int)0;
 
                   else
@@ -11734,13 +11734,13 @@ signed int parse_serial_opts(struct serial_opt *opts, const char *str, char *err
   signed int bpsTmp;
   char parityTmp;
   optsTmp = *opts;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(str == ((const char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)str[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)str[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     if(errlen >= 1 && !(errbuf == ((char *)NULL)))
       snprintf(errbuf, (unsigned long int)errlen, "encountered empty options string");
@@ -11853,112 +11853,112 @@ static void parse_server_directive(struct server_conf *conf, struct lexer_state 
 {
   char *directive;
   signed int tok;
-  signed int parse_server_directive$$1$$done = 0;
+  signed int parse_server_directive__1__done = 0;
   char err[1024l] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
   char *p;
   signed int n;
   struct stat st;
-  signed int return_value_lex_prev$1;
-  return_value_lex_prev$1=lex_prev(l);
-  signed int tmp_if_expr$4;
-  signed int return_value_lex_prev$2;
-  signed int return_value_lex_prev$3;
-  if(!(return_value_lex_prev$1 >= 259))
+  signed int return_value_lex_prev_1;
+  return_value_lex_prev_1=lex_prev(l);
+  signed int tmp_if_expr_4;
+  signed int return_value_lex_prev_2;
+  signed int return_value_lex_prev_3;
+  if(!(return_value_lex_prev_1 >= 259))
   {
-    return_value_lex_prev$2=lex_prev(l);
-    tmp_if_expr$4 = return_value_lex_prev$2;
+    return_value_lex_prev_2=lex_prev(l);
+    tmp_if_expr_4 = return_value_lex_prev_2;
   }
 
   else
   {
-    return_value_lex_prev$3=lex_prev(l);
-    tmp_if_expr$4 = return_value_lex_prev$3 - 259;
+    return_value_lex_prev_3=lex_prev(l);
+    tmp_if_expr_4 = return_value_lex_prev_3 - 259;
   }
-  directive = server_conf_strs[(signed long int)tmp_if_expr$4];
-  signed int return_value_lex_next$7;
-  signed int return_value_lex_next$6;
-  signed int return_value_lex_prev$5;
-  signed int return_value_lex_next$23;
-  signed int return_value_lex_next$22;
-  const char *return_value_lex_text$20;
-  signed int return_value_is_empty_string$21;
-  const char *return_value_lex_text$18;
-  signed int return_value_stat$19;
-  char *tmp_if_expr$15;
-  const char *return_value_lex_text$11;
-  char *return_value_create_format_string$12;
-  const char *return_value_lex_text$13;
-  char *return_value_create_string$14;
-  char *tmp_post$17;
-  signed int return_value_lex_next$30;
-  signed int return_value_lex_next$29;
-  const char *return_value_lex_text$27;
-  unsigned long int return_value_strlen$28;
-  const char *return_value_lex_text$25;
-  signed int return_value_is_empty_string$26;
-  signed int return_value_lex_next$33;
-  signed int return_value_lex_next$32;
-  signed int return_value_lex_prev$31;
-  signed int return_value_lex_next$43;
-  signed int return_value_lex_next$42;
-  const char *return_value_lex_text$40;
-  signed int return_value_is_empty_string$41;
-  char *tmp_if_expr$39;
-  const char *return_value_lex_text$35;
-  char *return_value_create_format_string$36;
-  const char *return_value_lex_text$37;
-  char *return_value_create_string$38;
-  signed int return_value_lex_next$53;
-  signed int return_value_lex_next$49;
-  _Bool tmp_if_expr$52;
-  const char *return_value_lex_text$50;
-  signed int return_value_is_empty_string$51;
-  _Bool tmp_if_expr$47;
-  char *tmp_post$48;
-  signed int return_value_lex_next$56;
-  signed int return_value_lex_next$55;
-  signed int return_value_lex_prev$54;
-  signed int return_value_lex_next$64;
-  signed int return_value_lex_next$60;
-  _Bool tmp_if_expr$63;
-  const char *return_value_lex_text$61;
-  signed int return_value_is_empty_string$62;
-  signed int return_value_lex_next$67;
-  signed int return_value_lex_next$66;
-  const char *return_value_lex_text$65;
-  signed int return_value_lex_next$75;
-  signed int return_value_lex_next$71;
-  _Bool tmp_if_expr$74;
-  const char *return_value_lex_text$72;
-  signed int return_value_is_empty_string$73;
-  const char *return_value_lex_text$69;
-  char *return_value_strchr$70;
-  signed int return_value_lex_next$82;
-  signed int return_value_lex_next$78;
-  _Bool tmp_if_expr$81;
-  const char *return_value_lex_text$79;
-  signed int return_value_is_empty_string$80;
-  const char *return_value_lex_text$77;
-  signed int return_value_lex_next$85;
-  signed int return_value_lex_next$84;
-  signed int return_value_lex_prev$83;
-  signed int return_value_lex_next$102;
-  signed int return_value_lex_next$101;
-  const char *return_value_lex_text$100;
-  _Bool tmp_if_expr$99;
-  signed int return_value_lex_prev$98;
-  signed int return_value_lex_prev$96;
-  const char *return_value_lex_text$92;
-  _Bool tmp_if_expr$94;
-  const char *return_value_lex_text$93;
-  const char *return_value_lex_text$89;
-  _Bool tmp_if_expr$91;
-  const char *return_value_lex_text$90;
-  const char *return_value_lex_text$86;
-  _Bool tmp_if_expr$88;
-  const char *return_value_lex_text$87;
-  const char *return_value_lex_text$103;
-  while(parse_server_directive$$1$$done == 0)
+  directive = server_conf_strs[(signed long int)tmp_if_expr_4];
+  signed int return_value_lex_next_7;
+  signed int return_value_lex_next_6;
+  signed int return_value_lex_prev_5;
+  signed int return_value_lex_next_23;
+  signed int return_value_lex_next_22;
+  const char *return_value_lex_text_20;
+  signed int return_value_is_empty_string_21;
+  const char *return_value_lex_text_18;
+  signed int return_value_stat_19;
+  char *tmp_if_expr_15;
+  const char *return_value_lex_text_11;
+  char *return_value_create_format_string_12;
+  const char *return_value_lex_text_13;
+  char *return_value_create_string_14;
+  char *tmp_post_17;
+  signed int return_value_lex_next_30;
+  signed int return_value_lex_next_29;
+  const char *return_value_lex_text_27;
+  unsigned long int return_value_strlen_28;
+  const char *return_value_lex_text_25;
+  signed int return_value_is_empty_string_26;
+  signed int return_value_lex_next_33;
+  signed int return_value_lex_next_32;
+  signed int return_value_lex_prev_31;
+  signed int return_value_lex_next_43;
+  signed int return_value_lex_next_42;
+  const char *return_value_lex_text_40;
+  signed int return_value_is_empty_string_41;
+  char *tmp_if_expr_39;
+  const char *return_value_lex_text_35;
+  char *return_value_create_format_string_36;
+  const char *return_value_lex_text_37;
+  char *return_value_create_string_38;
+  signed int return_value_lex_next_53;
+  signed int return_value_lex_next_49;
+  _Bool tmp_if_expr_52;
+  const char *return_value_lex_text_50;
+  signed int return_value_is_empty_string_51;
+  _Bool tmp_if_expr_47;
+  char *tmp_post_48;
+  signed int return_value_lex_next_56;
+  signed int return_value_lex_next_55;
+  signed int return_value_lex_prev_54;
+  signed int return_value_lex_next_64;
+  signed int return_value_lex_next_60;
+  _Bool tmp_if_expr_63;
+  const char *return_value_lex_text_61;
+  signed int return_value_is_empty_string_62;
+  signed int return_value_lex_next_67;
+  signed int return_value_lex_next_66;
+  const char *return_value_lex_text_65;
+  signed int return_value_lex_next_75;
+  signed int return_value_lex_next_71;
+  _Bool tmp_if_expr_74;
+  const char *return_value_lex_text_72;
+  signed int return_value_is_empty_string_73;
+  const char *return_value_lex_text_69;
+  char *return_value_strchr_70;
+  signed int return_value_lex_next_82;
+  signed int return_value_lex_next_78;
+  _Bool tmp_if_expr_81;
+  const char *return_value_lex_text_79;
+  signed int return_value_is_empty_string_80;
+  const char *return_value_lex_text_77;
+  signed int return_value_lex_next_85;
+  signed int return_value_lex_next_84;
+  signed int return_value_lex_prev_83;
+  signed int return_value_lex_next_102;
+  signed int return_value_lex_next_101;
+  const char *return_value_lex_text_100;
+  _Bool tmp_if_expr_99;
+  signed int return_value_lex_prev_98;
+  signed int return_value_lex_prev_96;
+  const char *return_value_lex_text_92;
+  _Bool tmp_if_expr_94;
+  const char *return_value_lex_text_93;
+  const char *return_value_lex_text_89;
+  _Bool tmp_if_expr_91;
+  const char *return_value_lex_text_90;
+  const char *return_value_lex_text_86;
+  _Bool tmp_if_expr_88;
+  const char *return_value_lex_text_87;
+  const char *return_value_lex_text_103;
+  while(parse_server_directive__1__done == 0)
   {
     if(!(err[0l] == 0))
       break;
@@ -11968,20 +11968,20 @@ static void parse_server_directive(struct server_conf *conf, struct lexer_state 
     {
       case 260:
       {
-        return_value_lex_next$7=lex_next(l);
-        if(!(return_value_lex_next$7 == 61))
+        return_value_lex_next_7=lex_next(l);
+        if(!(return_value_lex_next_7 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$6=lex_next(l);
-          if(return_value_lex_next$6 == 274)
+          return_value_lex_next_6=lex_next(l);
+          if(return_value_lex_next_6 == 274)
             conf->enableCoreDump = (unsigned int)1;
 
           else
           {
-            return_value_lex_prev$5=lex_prev(l);
-            if(return_value_lex_prev$5 == 273)
+            return_value_lex_prev_5=lex_prev(l);
+            if(return_value_lex_prev_5 == 273)
               conf->enableCoreDump = (unsigned int)0;
 
             else
@@ -11992,21 +11992,21 @@ static void parse_server_directive(struct server_conf *conf, struct lexer_state 
       }
       case 261:
       {
-        return_value_lex_next$23=lex_next(l);
-        if(!(return_value_lex_next$23 == 61))
+        return_value_lex_next_23=lex_next(l);
+        if(!(return_value_lex_next_23 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$22=lex_next(l);
-          if(!(return_value_lex_next$22 == 258))
+          return_value_lex_next_22=lex_next(l);
+          if(!(return_value_lex_next_22 == 258))
             snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected STRING for %s value", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
           else
           {
-            return_value_lex_text$20=lex_text(l);
-            return_value_is_empty_string$21=is_empty_string(return_value_lex_text$20);
-            if(!(return_value_is_empty_string$21 == 0))
+            return_value_lex_text_20=lex_text(l);
+            return_value_is_empty_string_21=is_empty_string(return_value_lex_text_20);
+            if(!(return_value_is_empty_string_21 == 0))
             {
               destroy_string(conf->coreDumpDir);
               conf->coreDumpDir = (char *)(void *)0;
@@ -12014,52 +12014,52 @@ static void parse_server_directive(struct server_conf *conf, struct lexer_state 
 
             else
             {
-              return_value_lex_text$18=lex_text(l);
-              return_value_stat$19=stat(return_value_lex_text$18, &st);
-              if(!(return_value_stat$19 >= 0))
+              return_value_lex_text_18=lex_text(l);
+              return_value_stat_19=stat(return_value_lex_text_18, &st);
+              if(!(return_value_stat_19 >= 0))
               {
-                const char *return_value_lex_text$8;
-                return_value_lex_text$8=lex_text(l);
-                snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "cannot stat %s \"%s\"", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)], return_value_lex_text$8);
+                const char *return_value_lex_text_8;
+                return_value_lex_text_8=lex_text(l);
+                snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "cannot stat %s \"%s\"", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)], return_value_lex_text_8);
               }
 
               else
                 if(!((61440u & st.st_mode) == 16384u))
                 {
-                  const char *return_value_lex_text$9;
-                  return_value_lex_text$9=lex_text(l);
-                  snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "invalid %s \"%s\" not a directory", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)], return_value_lex_text$9);
+                  const char *return_value_lex_text_9;
+                  return_value_lex_text_9=lex_text(l);
+                  snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "invalid %s \"%s\" not a directory", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)], return_value_lex_text_9);
                 }
 
                 else
                 {
-                  const char *return_value_lex_text$10;
-                  return_value_lex_text$10=lex_text(l);
-                  if(!((signed int)*return_value_lex_text$10 == 47))
+                  const char *return_value_lex_text_10;
+                  return_value_lex_text_10=lex_text(l);
+                  if(!((signed int)*return_value_lex_text_10 == 47))
                   {
-                    return_value_lex_text$11=lex_text(l);
-                    return_value_create_format_string$12=create_format_string("%s/%s", conf->cwd, return_value_lex_text$11);
-                    tmp_if_expr$15 = return_value_create_format_string$12;
+                    return_value_lex_text_11=lex_text(l);
+                    return_value_create_format_string_12=create_format_string("%s/%s", conf->cwd, return_value_lex_text_11);
+                    tmp_if_expr_15 = return_value_create_format_string_12;
                   }
 
                   else
                   {
-                    return_value_lex_text$13=lex_text(l);
-                    return_value_create_string$14=create_string(return_value_lex_text$13);
-                    tmp_if_expr$15 = return_value_create_string$14;
+                    return_value_lex_text_13=lex_text(l);
+                    return_value_create_string_14=create_string(return_value_lex_text_13);
+                    tmp_if_expr_15 = return_value_create_string_14;
                   }
-                  p = tmp_if_expr$15;
+                  p = tmp_if_expr_15;
                   destroy_string(conf->coreDumpDir);
                   conf->coreDumpDir = p;
-                  unsigned long int return_value_strlen$16;
-                  return_value_strlen$16=strlen(p);
-                  p = p + (signed long int)(return_value_strlen$16 - (unsigned long int)1);
-                  for( ; !(conf->coreDumpDir >= p); *tmp_post$17 = (char)0)
+                  unsigned long int return_value_strlen_16;
+                  return_value_strlen_16=strlen(p);
+                  p = p + (signed long int)(return_value_strlen_16 - (unsigned long int)1);
+                  for( ; !(conf->coreDumpDir >= p); *tmp_post_17 = (char)0)
                   {
                     if(!((signed int)*p == 47))
                       break;
 
-                    tmp_post$17 = p;
+                    tmp_post_17 = p;
                     p = p - 1l;
                   }
                 }
@@ -12070,28 +12070,28 @@ static void parse_server_directive(struct server_conf *conf, struct lexer_state 
       }
       case 263:
       {
-        return_value_lex_next$30=lex_next(l);
-        if(!(return_value_lex_next$30 == 61))
+        return_value_lex_next_30=lex_next(l);
+        if(!(return_value_lex_next_30 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$29=lex_next(l);
-          if(!(return_value_lex_next$29 == 258))
+          return_value_lex_next_29=lex_next(l);
+          if(!(return_value_lex_next_29 == 258))
             snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected STRING for %s value", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
           else
           {
-            return_value_lex_text$27=lex_text(l);
-            return_value_strlen$28=strlen(return_value_lex_text$27);
-            if(return_value_strlen$28 >= 4096ul)
+            return_value_lex_text_27=lex_text(l);
+            return_value_strlen_28=strlen(return_value_lex_text_27);
+            if(return_value_strlen_28 >= 4096ul)
               snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "exceeded max length for %s value", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
             else
             {
-              return_value_lex_text$25=lex_text(l);
-              return_value_is_empty_string$26=is_empty_string(return_value_lex_text$25);
-              if(!(return_value_is_empty_string$26 == 0))
+              return_value_lex_text_25=lex_text(l);
+              return_value_is_empty_string_26=is_empty_string(return_value_lex_text_25);
+              if(!(return_value_is_empty_string_26 == 0))
               {
                 destroy_string(conf->execPath);
                 conf->execPath = (char *)(void *)0;
@@ -12100,9 +12100,9 @@ static void parse_server_directive(struct server_conf *conf, struct lexer_state 
               else
               {
                 destroy_string(conf->execPath);
-                const char *return_value_lex_text$24;
-                return_value_lex_text$24=lex_text(l);
-                conf->execPath=create_string(return_value_lex_text$24);
+                const char *return_value_lex_text_24;
+                return_value_lex_text_24=lex_text(l);
+                conf->execPath=create_string(return_value_lex_text_24);
               }
             }
           }
@@ -12111,20 +12111,20 @@ static void parse_server_directive(struct server_conf *conf, struct lexer_state 
       }
       case 266:
       {
-        return_value_lex_next$33=lex_next(l);
-        if(!(return_value_lex_next$33 == 61))
+        return_value_lex_next_33=lex_next(l);
+        if(!(return_value_lex_next_33 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$32=lex_next(l);
-          if(return_value_lex_next$32 == 274)
+          return_value_lex_next_32=lex_next(l);
+          if(return_value_lex_next_32 == 274)
             conf->enableKeepAlive = (unsigned int)1;
 
           else
           {
-            return_value_lex_prev$31=lex_prev(l);
-            if(return_value_lex_prev$31 == 273)
+            return_value_lex_prev_31=lex_prev(l);
+            if(return_value_lex_prev_31 == 273)
               conf->enableKeepAlive = (unsigned int)0;
 
             else
@@ -12135,21 +12135,21 @@ static void parse_server_directive(struct server_conf *conf, struct lexer_state 
       }
       case 268:
       {
-        return_value_lex_next$43=lex_next(l);
-        if(!(return_value_lex_next$43 == 61))
+        return_value_lex_next_43=lex_next(l);
+        if(!(return_value_lex_next_43 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$42=lex_next(l);
-          if(!(return_value_lex_next$42 == 258))
+          return_value_lex_next_42=lex_next(l);
+          if(!(return_value_lex_next_42 == 258))
             snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected STRING for %s value", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
           else
           {
-            return_value_lex_text$40=lex_text(l);
-            return_value_is_empty_string$41=is_empty_string(return_value_lex_text$40);
-            if(!(return_value_is_empty_string$41 == 0))
+            return_value_lex_text_40=lex_text(l);
+            return_value_is_empty_string_41=is_empty_string(return_value_lex_text_40);
+            if(!(return_value_is_empty_string_41 == 0))
             {
               destroy_string(conf->logDirName);
               conf->logDirName=create_string(conf->cwd);
@@ -12157,22 +12157,22 @@ static void parse_server_directive(struct server_conf *conf, struct lexer_state 
 
             else
             {
-              const char *return_value_lex_text$34;
-              return_value_lex_text$34=lex_text(l);
-              if(!((signed int)*return_value_lex_text$34 == 47))
+              const char *return_value_lex_text_34;
+              return_value_lex_text_34=lex_text(l);
+              if(!((signed int)*return_value_lex_text_34 == 47))
               {
-                return_value_lex_text$35=lex_text(l);
-                return_value_create_format_string$36=create_format_string("%s/%s", conf->cwd, return_value_lex_text$35);
-                tmp_if_expr$39 = return_value_create_format_string$36;
+                return_value_lex_text_35=lex_text(l);
+                return_value_create_format_string_36=create_format_string("%s/%s", conf->cwd, return_value_lex_text_35);
+                tmp_if_expr_39 = return_value_create_format_string_36;
               }
 
               else
               {
-                return_value_lex_text$37=lex_text(l);
-                return_value_create_string$38=create_string(return_value_lex_text$37);
-                tmp_if_expr$39 = return_value_create_string$38;
+                return_value_lex_text_37=lex_text(l);
+                return_value_create_string_38=create_string(return_value_lex_text_37);
+                tmp_if_expr_39 = return_value_create_string_38;
               }
-              p = tmp_if_expr$39;
+              p = tmp_if_expr_39;
               destroy_string(conf->logDirName);
               conf->logDirName = p;
             }
@@ -12182,54 +12182,54 @@ static void parse_server_directive(struct server_conf *conf, struct lexer_state 
       }
       case 269:
       {
-        return_value_lex_next$53=lex_next(l);
-        if(!(return_value_lex_next$53 == 61))
+        return_value_lex_next_53=lex_next(l);
+        if(!(return_value_lex_next_53 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$49=lex_next(l);
-          if(!(return_value_lex_next$49 == 258))
-            tmp_if_expr$52 = (_Bool)1;
+          return_value_lex_next_49=lex_next(l);
+          if(!(return_value_lex_next_49 == 258))
+            tmp_if_expr_52 = (_Bool)1;
 
           else
           {
-            return_value_lex_text$50=lex_text(l);
-            return_value_is_empty_string$51=is_empty_string(return_value_lex_text$50);
-            tmp_if_expr$52 = return_value_is_empty_string$51 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_lex_text_50=lex_text(l);
+            return_value_is_empty_string_51=is_empty_string(return_value_lex_text_50);
+            tmp_if_expr_52 = return_value_is_empty_string_51 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$52)
+          if(tmp_if_expr_52)
             snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected STRING for %s value", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
           else
           {
             destroy_string(conf->logFileName);
-            const char *return_value_lex_text$46;
-            return_value_lex_text$46=lex_text(l);
-            if(!((signed int)*return_value_lex_text$46 == 47))
-              tmp_if_expr$47 = conf->logDirName != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+            const char *return_value_lex_text_46;
+            return_value_lex_text_46=lex_text(l);
+            if(!((signed int)*return_value_lex_text_46 == 47))
+              tmp_if_expr_47 = conf->logDirName != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$47 = (_Bool)0;
-            if(tmp_if_expr$47)
+              tmp_if_expr_47 = (_Bool)0;
+            if(tmp_if_expr_47)
             {
-              const char *return_value_lex_text$44;
-              return_value_lex_text$44=lex_text(l);
-              conf->logFileName=create_format_string("%s/%s", conf->logDirName, return_value_lex_text$44);
+              const char *return_value_lex_text_44;
+              return_value_lex_text_44=lex_text(l);
+              conf->logFileName=create_format_string("%s/%s", conf->logDirName, return_value_lex_text_44);
             }
 
             else
             {
-              const char *return_value_lex_text$45;
-              return_value_lex_text$45=lex_text(l);
-              conf->logFileName=create_string(return_value_lex_text$45);
+              const char *return_value_lex_text_45;
+              return_value_lex_text_45=lex_text(l);
+              conf->logFileName=create_string(return_value_lex_text_45);
             }
             p=strrchr(conf->logFileName, 44);
             if(!(p == ((char *)NULL)))
             {
-              tmp_post$48 = p;
+              tmp_post_48 = p;
               p = p + 1l;
-              *tmp_post$48 = (char)0;
+              *tmp_post_48 = (char)0;
               n=lookup_syslog_priority(p);
               if(!(n >= 0))
                 snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "invalid %s priority \"%s\"", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)], p);
@@ -12244,20 +12244,20 @@ static void parse_server_directive(struct server_conf *conf, struct lexer_state 
       }
       case 271:
       {
-        return_value_lex_next$56=lex_next(l);
-        if(!(return_value_lex_next$56 == 61))
+        return_value_lex_next_56=lex_next(l);
+        if(!(return_value_lex_next_56 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$55=lex_next(l);
-          if(return_value_lex_next$55 == 274)
+          return_value_lex_next_55=lex_next(l);
+          if(return_value_lex_next_55 == 274)
             conf->enableLoopBack = (unsigned int)1;
 
           else
           {
-            return_value_lex_prev$54=lex_prev(l);
-            if(return_value_lex_prev$54 == 273)
+            return_value_lex_prev_54=lex_prev(l);
+            if(return_value_lex_prev_54 == 273)
               conf->enableLoopBack = (unsigned int)0;
 
             else
@@ -12268,42 +12268,42 @@ static void parse_server_directive(struct server_conf *conf, struct lexer_state 
       }
       case 275:
       {
-        return_value_lex_next$64=lex_next(l);
-        if(!(return_value_lex_next$64 == 61))
+        return_value_lex_next_64=lex_next(l);
+        if(!(return_value_lex_next_64 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$60=lex_next(l);
-          if(!(return_value_lex_next$60 == 258))
-            tmp_if_expr$63 = (_Bool)1;
+          return_value_lex_next_60=lex_next(l);
+          if(!(return_value_lex_next_60 == 258))
+            tmp_if_expr_63 = (_Bool)1;
 
           else
           {
-            return_value_lex_text$61=lex_text(l);
-            return_value_is_empty_string$62=is_empty_string(return_value_lex_text$61);
-            tmp_if_expr$63 = return_value_is_empty_string$62 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_lex_text_61=lex_text(l);
+            return_value_is_empty_string_62=is_empty_string(return_value_lex_text_61);
+            tmp_if_expr_63 = return_value_is_empty_string_62 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$63)
+          if(tmp_if_expr_63)
             snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected STRING for %s value", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
           else
           {
             destroy_string(conf->pidFileName);
-            const char *return_value_lex_text$59;
-            return_value_lex_text$59=lex_text(l);
-            if(!((signed int)*return_value_lex_text$59 == 47))
+            const char *return_value_lex_text_59;
+            return_value_lex_text_59=lex_text(l);
+            if(!((signed int)*return_value_lex_text_59 == 47))
             {
-              const char *return_value_lex_text$57;
-              return_value_lex_text$57=lex_text(l);
-              conf->pidFileName=create_format_string("%s/%s", conf->cwd, return_value_lex_text$57);
+              const char *return_value_lex_text_57;
+              return_value_lex_text_57=lex_text(l);
+              conf->pidFileName=create_format_string("%s/%s", conf->cwd, return_value_lex_text_57);
             }
 
             else
             {
-              const char *return_value_lex_text$58;
-              return_value_lex_text$58=lex_text(l);
-              conf->pidFileName=create_string(return_value_lex_text$58);
+              const char *return_value_lex_text_58;
+              return_value_lex_text_58=lex_text(l);
+              conf->pidFileName=create_string(return_value_lex_text_58);
             }
           }
         }
@@ -12311,20 +12311,20 @@ static void parse_server_directive(struct server_conf *conf, struct lexer_state 
       }
       case 276:
       {
-        return_value_lex_next$67=lex_next(l);
-        if(!(return_value_lex_next$67 == 61))
+        return_value_lex_next_67=lex_next(l);
+        if(!(return_value_lex_next_67 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$66=lex_next(l);
-          if(!(return_value_lex_next$66 == 257))
+          return_value_lex_next_66=lex_next(l);
+          if(!(return_value_lex_next_66 == 257))
             snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected INTEGER for %s value", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
           else
           {
-            return_value_lex_text$65=lex_text(l);
-            n=atoi(return_value_lex_text$65);
+            return_value_lex_text_65=lex_text(l);
+            n=atoi(return_value_lex_text_65);
             if(!(n >= 1))
               snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "invalid %s value %d", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)], n);
 
@@ -12336,38 +12336,38 @@ static void parse_server_directive(struct server_conf *conf, struct lexer_state 
       }
       case 277:
       {
-        return_value_lex_next$75=lex_next(l);
-        if(!(return_value_lex_next$75 == 61))
+        return_value_lex_next_75=lex_next(l);
+        if(!(return_value_lex_next_75 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$71=lex_next(l);
-          if(!(return_value_lex_next$71 == 258))
-            tmp_if_expr$74 = (_Bool)1;
+          return_value_lex_next_71=lex_next(l);
+          if(!(return_value_lex_next_71 == 258))
+            tmp_if_expr_74 = (_Bool)1;
 
           else
           {
-            return_value_lex_text$72=lex_text(l);
-            return_value_is_empty_string$73=is_empty_string(return_value_lex_text$72);
-            tmp_if_expr$74 = return_value_is_empty_string$73 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_lex_text_72=lex_text(l);
+            return_value_is_empty_string_73=is_empty_string(return_value_lex_text_72);
+            tmp_if_expr_74 = return_value_is_empty_string_73 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$74)
+          if(tmp_if_expr_74)
             snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected STRING for %s value", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
           else
           {
-            return_value_lex_text$69=lex_text(l);
-            return_value_strchr$70=strchr(return_value_lex_text$69, 38);
-            if(!(return_value_strchr$70 == ((char *)NULL)))
+            return_value_lex_text_69=lex_text(l);
+            return_value_strchr_70=strchr(return_value_lex_text_69, 38);
+            if(!(return_value_strchr_70 == ((char *)NULL)))
               snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "ignoring %s %s value with deprecated '%c' -- use '%%N'", directive, server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)], 38);
 
             else
             {
               destroy_string(conf->resetCmd);
-              const char *return_value_lex_text$68;
-              return_value_lex_text$68=lex_text(l);
-              conf->resetCmd=create_string(return_value_lex_text$68);
+              const char *return_value_lex_text_68;
+              return_value_lex_text_68=lex_text(l);
+              conf->resetCmd=create_string(return_value_lex_text_68);
             }
           }
         }
@@ -12375,34 +12375,34 @@ static void parse_server_directive(struct server_conf *conf, struct lexer_state 
       }
       case 280:
       {
-        return_value_lex_next$82=lex_next(l);
-        if(!(return_value_lex_next$82 == 61))
+        return_value_lex_next_82=lex_next(l);
+        if(!(return_value_lex_next_82 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$78=lex_next(l);
-          if(!(return_value_lex_next$78 == 258))
-            tmp_if_expr$81 = (_Bool)1;
+          return_value_lex_next_78=lex_next(l);
+          if(!(return_value_lex_next_78 == 258))
+            tmp_if_expr_81 = (_Bool)1;
 
           else
           {
-            return_value_lex_text$79=lex_text(l);
-            return_value_is_empty_string$80=is_empty_string(return_value_lex_text$79);
-            tmp_if_expr$81 = return_value_is_empty_string$80 != 0 ? (_Bool)1 : (_Bool)0;
+            return_value_lex_text_79=lex_text(l);
+            return_value_is_empty_string_80=is_empty_string(return_value_lex_text_79);
+            tmp_if_expr_81 = return_value_is_empty_string_80 != 0 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$81)
+          if(tmp_if_expr_81)
             snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected STRING for %s value", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
           else
           {
-            return_value_lex_text$77=lex_text(l);
-            n=lookup_syslog_facility(return_value_lex_text$77);
+            return_value_lex_text_77=lex_text(l);
+            n=lookup_syslog_facility(return_value_lex_text_77);
             if(!(n >= 0))
             {
-              const char *return_value_lex_text$76;
-              return_value_lex_text$76=lex_text(l);
-              snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "invalid %s facility \"%s\"", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)], return_value_lex_text$76);
+              const char *return_value_lex_text_76;
+              return_value_lex_text_76=lex_text(l);
+              snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "invalid %s facility \"%s\"", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)], return_value_lex_text_76);
             }
 
             else
@@ -12413,20 +12413,20 @@ static void parse_server_directive(struct server_conf *conf, struct lexer_state 
       }
       case 281:
       {
-        return_value_lex_next$85=lex_next(l);
-        if(!(return_value_lex_next$85 == 61))
+        return_value_lex_next_85=lex_next(l);
+        if(!(return_value_lex_next_85 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$84=lex_next(l);
-          if(return_value_lex_next$84 == 274)
+          return_value_lex_next_84=lex_next(l);
+          if(return_value_lex_next_84 == 274)
             conf->enableTCPWrap = (unsigned int)1;
 
           else
           {
-            return_value_lex_prev$83=lex_prev(l);
-            if(return_value_lex_prev$83 == 273)
+            return_value_lex_prev_83=lex_prev(l);
+            if(return_value_lex_prev_83 == 273)
               conf->enableTCPWrap = (unsigned int)0;
 
             else
@@ -12437,83 +12437,83 @@ static void parse_server_directive(struct server_conf *conf, struct lexer_state 
       }
       case 282:
       {
-        return_value_lex_next$102=lex_next(l);
-        if(!(return_value_lex_next$102 == 61))
+        return_value_lex_next_102=lex_next(l);
+        if(!(return_value_lex_next_102 == 61))
           snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected '=' after %s keyword", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
         else
         {
-          return_value_lex_next$101=lex_next(l);
-          if(!(return_value_lex_next$101 == 257))
+          return_value_lex_next_101=lex_next(l);
+          if(!(return_value_lex_next_101 == 257))
             snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "expected INTEGER for %s value", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)]);
 
           else
           {
-            return_value_lex_text$100=lex_text(l);
-            n=atoi(return_value_lex_text$100);
+            return_value_lex_text_100=lex_text(l);
+            n=atoi(return_value_lex_text_100);
             if(!(n >= 0))
               snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "invalid %s value %d", server_conf_strs[(signed long int)(tok < 259 ? tok : tok - 259)], n);
 
             else
             {
               conf->tStampMinutes = n;
-              signed int return_value_lex_next$97;
-              return_value_lex_next$97=lex_next(l);
-              if(return_value_lex_next$97 == 0)
-                tmp_if_expr$99 = (_Bool)1;
+              signed int return_value_lex_next_97;
+              return_value_lex_next_97=lex_next(l);
+              if(return_value_lex_next_97 == 0)
+                tmp_if_expr_99 = (_Bool)1;
 
               else
               {
-                return_value_lex_prev$98=lex_prev(l);
-                tmp_if_expr$99 = return_value_lex_prev$98 == 256 ? (_Bool)1 : (_Bool)0;
+                return_value_lex_prev_98=lex_prev(l);
+                tmp_if_expr_99 = return_value_lex_prev_98 == 256 ? (_Bool)1 : (_Bool)0;
               }
-              if(!tmp_if_expr$99)
+              if(!tmp_if_expr_99)
               {
-                return_value_lex_prev$96=lex_prev(l);
-                if(return_value_lex_prev$96 == 258)
+                return_value_lex_prev_96=lex_prev(l);
+                if(return_value_lex_prev_96 == 258)
                 {
-                  const char *return_value_lex_text$95;
-                  return_value_lex_text$95=lex_text(l);
-                  if(!((signed int)return_value_lex_text$95[1l] == 0))
+                  const char *return_value_lex_text_95;
+                  return_value_lex_text_95=lex_text(l);
+                  if(!((signed int)return_value_lex_text_95[1l] == 0))
                     conf->tStampMinutes = -1;
 
                   else
                   {
-                    return_value_lex_text$92=lex_text(l);
-                    if((signed int)*return_value_lex_text$92 == 109)
-                      tmp_if_expr$94 = (_Bool)1;
+                    return_value_lex_text_92=lex_text(l);
+                    if((signed int)*return_value_lex_text_92 == 109)
+                      tmp_if_expr_94 = (_Bool)1;
 
                     else
                     {
-                      return_value_lex_text$93=lex_text(l);
-                      tmp_if_expr$94 = (signed int)return_value_lex_text$93[(signed long int)0] == 77 ? (_Bool)1 : (_Bool)0;
+                      return_value_lex_text_93=lex_text(l);
+                      tmp_if_expr_94 = (signed int)return_value_lex_text_93[(signed long int)0] == 77 ? (_Bool)1 : (_Bool)0;
                     }
-                    if(!tmp_if_expr$94)
+                    if(!tmp_if_expr_94)
                     {
-                      return_value_lex_text$89=lex_text(l);
-                      if((signed int)*return_value_lex_text$89 == 104)
-                        tmp_if_expr$91 = (_Bool)1;
+                      return_value_lex_text_89=lex_text(l);
+                      if((signed int)*return_value_lex_text_89 == 104)
+                        tmp_if_expr_91 = (_Bool)1;
 
                       else
                       {
-                        return_value_lex_text$90=lex_text(l);
-                        tmp_if_expr$91 = (signed int)return_value_lex_text$90[(signed long int)0] == 72 ? (_Bool)1 : (_Bool)0;
+                        return_value_lex_text_90=lex_text(l);
+                        tmp_if_expr_91 = (signed int)return_value_lex_text_90[(signed long int)0] == 72 ? (_Bool)1 : (_Bool)0;
                       }
-                      if(tmp_if_expr$91)
+                      if(tmp_if_expr_91)
                         conf->tStampMinutes = conf->tStampMinutes * 60;
 
                       else
                       {
-                        return_value_lex_text$86=lex_text(l);
-                        if((signed int)*return_value_lex_text$86 == 100)
-                          tmp_if_expr$88 = (_Bool)1;
+                        return_value_lex_text_86=lex_text(l);
+                        if((signed int)*return_value_lex_text_86 == 100)
+                          tmp_if_expr_88 = (_Bool)1;
 
                         else
                         {
-                          return_value_lex_text$87=lex_text(l);
-                          tmp_if_expr$88 = (signed int)return_value_lex_text$87[(signed long int)0] == 68 ? (_Bool)1 : (_Bool)0;
+                          return_value_lex_text_87=lex_text(l);
+                          tmp_if_expr_88 = (signed int)return_value_lex_text_87[(signed long int)0] == 68 ? (_Bool)1 : (_Bool)0;
                         }
-                        if(tmp_if_expr$88)
+                        if(tmp_if_expr_88)
                           conf->tStampMinutes = conf->tStampMinutes * 60 * 24;
 
                         else
@@ -12543,7 +12543,7 @@ static void parse_server_directive(struct server_conf *conf, struct lexer_state 
 
       case 256:
       {
-        parse_server_directive$$1$$done = 1;
+        parse_server_directive__1__done = 1;
         break;
       }
       case -1:
@@ -12553,26 +12553,26 @@ static void parse_server_directive(struct server_conf *conf, struct lexer_state 
       }
       default:
       {
-        return_value_lex_text$103=lex_text(l);
-        snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "unrecognized token '%s'", return_value_lex_text$103);
+        return_value_lex_text_103=lex_text(l);
+        snprintf(err, sizeof(char [1024l]) /*1024ul*/ , "unrecognized token '%s'", return_value_lex_text_103);
       }
     }
   }
-  signed int return_value_lex_prev$105;
-  signed int return_value_lex_prev$106;
+  signed int return_value_lex_prev_105;
+  signed int return_value_lex_prev_106;
   if(!(err[0l] == 0))
   {
-    signed int return_value_lex_line$104;
-    return_value_lex_line$104=lex_line(l);
-    log_msg(3, "CONFIG[%s:%d]: %s", conf->confFileName, return_value_lex_line$104, (const void *)err);
+    signed int return_value_lex_line_104;
+    return_value_lex_line_104=lex_line(l);
+    log_msg(3, "CONFIG[%s:%d]: %s", conf->confFileName, return_value_lex_line_104, (const void *)err);
     do
     {
-      return_value_lex_prev$105=lex_prev(l);
-      if(return_value_lex_prev$105 == 256)
+      return_value_lex_prev_105=lex_prev(l);
+      if(return_value_lex_prev_105 == 256)
         break;
 
-      return_value_lex_prev$106=lex_prev(l);
-      if(return_value_lex_prev$106 == 0)
+      return_value_lex_prev_106=lex_prev(l);
+      if(return_value_lex_prev_106 == 0)
         break;
 
       lex_next(l);
@@ -12595,18 +12595,18 @@ signed int parse_string(char *src, char **dst_p, char **ptr_p, char *quote_p)
   char c = (char)0;
   if(dst_p == ((char **)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
   if(ptr_p == ((char **)NULL) || src == ((char *)NULL))
   {
     *dst_p = (char *)(void *)0;
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
     return -1;
   }
 
@@ -12614,32 +12614,32 @@ signed int parse_string(char *src, char **dst_p, char **ptr_p, char *quote_p)
     *ptr_p = src;
 
   p = *ptr_p;
-  _Bool tmp_if_expr$4;
-  const unsigned short int **return_value___ctype_b_loc$3;
+  _Bool tmp_if_expr_4;
+  const unsigned short int **return_value___ctype_b_loc_3;
   do
   {
     if(!(*p == 0))
     {
-      return_value___ctype_b_loc$3=__ctype_b_loc();
-      tmp_if_expr$4 = ((signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*p] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+      return_value___ctype_b_loc_3=__ctype_b_loc();
+      tmp_if_expr_4 = ((signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*p] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(!tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(!tmp_if_expr_4)
       break;
 
     p = p + 1l;
   }
   while((_Bool)1);
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$10;
-  const unsigned short int **return_value___ctype_b_loc$8;
-  _Bool tmp_if_expr$9;
-  char *tmp_post$5;
-  char *tmp_post$6;
-  const unsigned short int **return_value___ctype_b_loc$12;
-  char *tmp_post$11;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_10;
+  const unsigned short int **return_value___ctype_b_loc_8;
+  _Bool tmp_if_expr_9;
+  char *tmp_post_5;
+  char *tmp_post_6;
+  const unsigned short int **return_value___ctype_b_loc_12;
+  char *tmp_post_11;
   if((signed int)*p == 0)
   {
     *ptr_p = p;
@@ -12653,42 +12653,42 @@ signed int parse_string(char *src, char **dst_p, char **ptr_p, char *quote_p)
     for( ; !(*q == 0); q = q + 1l)
     {
       if((signed int)*p == 34)
-        tmp_if_expr$13 = (_Bool)1;
+        tmp_if_expr_13 = (_Bool)1;
 
       else
-        tmp_if_expr$13 = (signed int)*p == 39 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$13)
+        tmp_if_expr_13 = (signed int)*p == 39 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_13)
       {
         if(*q == *p)
         {
-          return_value___ctype_b_loc$8=__ctype_b_loc();
-          if(!((8192 & (signed int)(*return_value___ctype_b_loc$8)[(signed long int)(signed int)q[1l]]) == 0))
-            tmp_if_expr$9 = (_Bool)1;
+          return_value___ctype_b_loc_8=__ctype_b_loc();
+          if(!((8192 & (signed int)(*return_value___ctype_b_loc_8)[(signed long int)(signed int)q[1l]]) == 0))
+            tmp_if_expr_9 = (_Bool)1;
 
           else
-            tmp_if_expr$9 = (signed int)q[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$10 = tmp_if_expr$9 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_9 = (signed int)q[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_10 = tmp_if_expr_9 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$10 = (_Bool)0;
-        if(tmp_if_expr$10)
+          tmp_if_expr_10 = (_Bool)0;
+        if(tmp_if_expr_10)
         {
-          tmp_post$5 = p;
+          tmp_post_5 = p;
           p = p + 1l;
-          c = *tmp_post$5;
-          tmp_post$6 = q;
+          c = *tmp_post_5;
+          tmp_post_6 = q;
           q = q + 1l;
-          *tmp_post$6 = (char)0;
+          *tmp_post_6 = (char)0;
           break;
         }
 
         else
           if((signed int)q[1l] == 0)
           {
-            signed int *return_value___errno_location$7;
-            return_value___errno_location$7=__errno_location();
-            *return_value___errno_location$7 = 5;
+            signed int *return_value___errno_location_7;
+            return_value___errno_location_7=__errno_location();
+            *return_value___errno_location_7 = 5;
             *dst_p = p;
             *ptr_p = q + (signed long int)1;
             return -1;
@@ -12698,12 +12698,12 @@ signed int parse_string(char *src, char **dst_p, char **ptr_p, char *quote_p)
 
       else
       {
-        return_value___ctype_b_loc$12=__ctype_b_loc();
-        if(!((8192 & (signed int)(*return_value___ctype_b_loc$12)[(signed long int)(signed int)*q]) == 0))
+        return_value___ctype_b_loc_12=__ctype_b_loc();
+        if(!((8192 & (signed int)(*return_value___ctype_b_loc_12)[(signed long int)(signed int)*q]) == 0))
         {
-          tmp_post$11 = q;
+          tmp_post_11 = q;
           q = q + 1l;
-          *tmp_post$11 = (char)0;
+          *tmp_post_11 = (char)0;
           break;
         }
 
@@ -12726,22 +12726,22 @@ static signed int perform_connect_cmd(struct request *req, struct server_conf *c
   struct base_obj *console;
   struct listIterator *i;
   log_msg(6, "Client <%s@%s:%d> issued connect command", req->user, req->fqdn, req->port);
-  signed int return_value_send_rsp$1;
-  return_value_send_rsp$1=send_rsp(req, 0, (char *)(void *)0);
-  void *return_value_list_next$3;
-  if(!(return_value_send_rsp$1 >= 0))
+  signed int return_value_send_rsp_1;
+  return_value_send_rsp_1=send_rsp(req, 0, (char *)(void *)0);
+  void *return_value_list_next_3;
+  if(!(return_value_send_rsp_1 >= 0))
     return -1;
 
   else
   {
     client=create_client_obj(conf, req);
-    signed int return_value_list_count$4;
-    return_value_list_count$4=list_count(req->consoles);
-    if(return_value_list_count$4 == 1)
+    signed int return_value_list_count_4;
+    return_value_list_count_4=list_count(req->consoles);
+    if(return_value_list_count_4 == 1)
     {
-      void *return_value_list_peek$2;
-      return_value_list_peek$2=list_peek(req->consoles);
-      console = (struct base_obj *)return_value_list_peek$2;
+      void *return_value_list_peek_2;
+      return_value_list_peek_2=list_peek(req->consoles);
+      console = (struct base_obj *)return_value_list_peek_2;
       link_objs(client, console);
       link_objs(console, client);
       check_console_state(console, client);
@@ -12752,8 +12752,8 @@ static signed int perform_connect_cmd(struct request *req, struct server_conf *c
       i=list_iterator_create(req->consoles);
       do
       {
-        return_value_list_next$3=list_next(i);
-        console = (struct base_obj *)return_value_list_next$3;
+        return_value_list_next_3=list_next(i);
+        console = (struct base_obj *)return_value_list_next_3;
         if(console == ((struct base_obj *)NULL))
           break;
 
@@ -12775,9 +12775,9 @@ static void perform_console_writer_linkage(struct base_obj *client)
   signed int gotWrite;
   if(client->aux.client.req->enableBroadcast == 0u)
   {
-    void *return_value_list_peek$1;
-    return_value_list_peek$1=list_peek(client->writers);
-    console = (struct base_obj *)return_value_list_peek$1;
+    void *return_value_list_peek_1;
+    return_value_list_peek_1=list_peek(client->writers);
+    console = (struct base_obj *)return_value_list_peek_1;
     gotWrite=list_count(client->readers);
     if(!(gotWrite == 0))
     {
@@ -12806,11 +12806,11 @@ static void perform_del_char_seq(struct base_obj *client)
   struct base_obj *console;
   unsigned char del = (unsigned char)0x7F;
   i=list_iterator_create(client->readers);
-  void *return_value_list_next$1;
+  void *return_value_list_next_1;
   do
   {
-    return_value_list_next$1=list_next(i);
-    console = (struct base_obj *)return_value_list_next$1;
+    return_value_list_next_1=list_next(i);
+    console = (struct base_obj *)return_value_list_next_1;
     if(console == ((struct base_obj *)NULL))
       break;
 
@@ -12836,16 +12836,16 @@ static void perform_log_replay(struct base_obj *client)
   unsigned char *p;
   signed int n;
   signed int m;
-  signed int return_value_list_is_empty$1;
-  return_value_list_is_empty$1=list_is_empty(client->writers);
-  signed int *return_value___errno_location$3;
-  signed long int tmp_if_expr$5;
-  signed int *return_value___errno_location$6;
-  if(return_value_list_is_empty$1 == 0)
+  signed int return_value_list_is_empty_1;
+  return_value_list_is_empty_1=list_is_empty(client->writers);
+  signed int *return_value___errno_location_3;
+  signed long int tmp_if_expr_5;
+  signed int *return_value___errno_location_6;
+  if(return_value_list_is_empty_1 == 0)
   {
-    void *return_value_list_peek$2;
-    return_value_list_peek$2=list_peek(client->writers);
-    console = (struct base_obj *)return_value_list_peek$2;
+    void *return_value_list_peek_2;
+    return_value_list_peek_2=list_peek(client->writers);
+    console = (struct base_obj *)return_value_list_peek_2;
     logfile=get_console_logfile_obj(console);
     if(logfile == ((struct base_obj *)NULL))
     {
@@ -12872,13 +12872,13 @@ static void perform_log_replay(struct base_obj *client)
       len = len - (2 * n - 2);
       do
       {
-        signed int *return_value___errno_location$4;
-        return_value___errno_location$4=__errno_location();
-        *return_value___errno_location$4=pthread_mutex_lock(&logfile->bufLock);
-        if(!(*return_value___errno_location$4 == 0))
+        signed int *return_value___errno_location_4;
+        return_value___errno_location_4=__errno_location();
+        *return_value___errno_location_4=pthread_mutex_lock(&logfile->bufLock);
+        if(!(*return_value___errno_location_4 == 0))
         {
-          return_value___errno_location$3=__errno_location();
-          log_err(*return_value___errno_location$3, "pthread_mutex_lock() failed");
+          return_value___errno_location_3=__errno_location();
+          log_err(*return_value___errno_location_3, "pthread_mutex_lock() failed");
         }
 
       }
@@ -12886,11 +12886,11 @@ static void perform_log_replay(struct base_obj *client)
       if(logfile->gotBufWrap == 0u)
       {
         if(logfile->bufInPtr - logfile->buf >= 4096l)
-          tmp_if_expr$5 = (signed long int)4096;
+          tmp_if_expr_5 = (signed long int)4096;
 
         else
-          tmp_if_expr$5 = logfile->bufInPtr - logfile->buf;
-        n = (signed int)tmp_if_expr$5;
+          tmp_if_expr_5 = logfile->bufInPtr - logfile->buf;
+        n = (signed int)tmp_if_expr_5;
       }
 
       else
@@ -12915,13 +12915,13 @@ static void perform_log_replay(struct base_obj *client)
       }
       do
       {
-        signed int *return_value___errno_location$7;
-        return_value___errno_location$7=__errno_location();
-        *return_value___errno_location$7=pthread_mutex_unlock(&logfile->bufLock);
-        if(!(*return_value___errno_location$7 == 0))
+        signed int *return_value___errno_location_7;
+        return_value___errno_location_7=__errno_location();
+        *return_value___errno_location_7=pthread_mutex_unlock(&logfile->bufLock);
+        if(!(*return_value___errno_location_7 == 0))
         {
-          return_value___errno_location$6=__errno_location();
-          log_err(*return_value___errno_location$6, "pthread_mutex_unlock() failed");
+          return_value___errno_location_6=__errno_location();
+          log_err(*return_value___errno_location_6, "pthread_mutex_unlock() failed");
         }
 
       }
@@ -12946,17 +12946,17 @@ static signed int perform_monitor_cmd(struct request *req, struct server_conf *c
   struct base_obj *client;
   struct base_obj *console;
   log_msg(6, "Client <%s@%s:%d> issued monitor command", req->user, req->fqdn, req->port);
-  signed int return_value_send_rsp$1;
-  return_value_send_rsp$1=send_rsp(req, 0, (char *)(void *)0);
-  if(!(return_value_send_rsp$1 >= 0))
+  signed int return_value_send_rsp_1;
+  return_value_send_rsp_1=send_rsp(req, 0, (char *)(void *)0);
+  if(!(return_value_send_rsp_1 >= 0))
     return -1;
 
   else
   {
     client=create_client_obj(conf, req);
-    void *return_value_list_peek$2;
-    return_value_list_peek$2=list_peek(req->consoles);
-    console = (struct base_obj *)return_value_list_peek$2;
+    void *return_value_list_peek_2;
+    return_value_list_peek_2=list_peek(req->consoles);
+    console = (struct base_obj *)return_value_list_peek_2;
     link_objs(console, client);
     check_console_state(console, client);
     return 0;
@@ -12968,9 +12968,9 @@ static signed int perform_monitor_cmd(struct request *req, struct server_conf *c
 static signed int perform_query_cmd(struct request *req)
 {
   log_msg(6, "Client <%s@%s:%d> issued query command", req->user, req->fqdn, req->port);
-  signed int return_value_send_rsp$1;
-  return_value_send_rsp$1=send_rsp(req, 0, (char *)(void *)0);
-  if(!(return_value_send_rsp$1 >= 0))
+  signed int return_value_send_rsp_1;
+  return_value_send_rsp_1=send_rsp(req, 0, (char *)(void *)0);
+  if(!(return_value_send_rsp_1 >= 0))
     return -1;
 
   else
@@ -13000,9 +13000,9 @@ static void perform_quiet_toggle(struct base_obj *client)
     action = "displayed";
   }
   str=create_format_string("%sQuiet-mode %s -- info msgs will be %s%s", (const void *)"\r\n<ConMan> ", op, action, (const void *)".\r\n");
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  write_obj_data(client, (const void *)str, (signed int)return_value_strlen$1, 0);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  write_obj_data(client, (const void *)str, (signed int)return_value_strlen_1, 0);
   free((void *)str);
   goto __CPROVER_DUMP_L3;
 
@@ -13022,11 +13022,11 @@ static void perform_reset(struct base_obj *client)
   tty = client->aux.client.req->tty;
   now=create_short_time_string((signed long int)0);
   i=list_iterator_create(client->readers);
-  void *return_value_list_next$1;
+  void *return_value_list_next_1;
   do
   {
-    return_value_list_next$1=list_next(i);
-    console = (struct base_obj *)return_value_list_next$1;
+    return_value_list_next_1=list_next(i);
+    console = (struct base_obj *)return_value_list_next_1;
     if(console == ((struct base_obj *)NULL))
       break;
 
@@ -13056,13 +13056,13 @@ static void perform_serial_break(struct base_obj *client)
   struct listIterator *i;
   struct base_obj *console;
   i=list_iterator_create(client->readers);
-  void *return_value_list_next$1;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  void *return_value_list_next_1;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   do
   {
-    return_value_list_next$1=list_next(i);
-    console = (struct base_obj *)return_value_list_next$1;
+    return_value_list_next_1=list_next(i);
+    console = (struct base_obj *)return_value_list_next_1;
     if(console == ((struct base_obj *)NULL))
       break;
 
@@ -13077,13 +13077,13 @@ static void perform_serial_break(struct base_obj *client)
     else
       if((signed int)console->type == CONMAN_OBJ_SERIAL)
       {
-        signed int return_value_tcsendbreak$4;
-        return_value_tcsendbreak$4=tcsendbreak(console->fd, 0);
-        if(!(return_value_tcsendbreak$4 >= 0))
+        signed int return_value_tcsendbreak_4;
+        return_value_tcsendbreak_4=tcsendbreak(console->fd, 0);
+        if(!(return_value_tcsendbreak_4 >= 0))
         {
-          return_value___errno_location$2=__errno_location();
-          return_value_strerror$3=strerror(*return_value___errno_location$2);
-          log_msg(4, "Unable to send serial-break to console [%s]: %s", console->name, return_value_strerror$3);
+          return_value___errno_location_2=__errno_location();
+          return_value_strerror_3=strerror(*return_value___errno_location_2);
+          log_msg(4, "Unable to send serial-break to console [%s]: %s", console->name, return_value_strerror_3);
         }
 
       }
@@ -13091,9 +13091,9 @@ static void perform_serial_break(struct base_obj *client)
       else
         if((signed int)console->type == CONMAN_OBJ_TELNET)
         {
-          signed int return_value_send_telnet_cmd$5;
-          return_value_send_telnet_cmd$5=send_telnet_cmd(console, 243, -1);
-          if(!(return_value_send_telnet_cmd$5 >= 0))
+          signed int return_value_send_telnet_cmd_5;
+          return_value_send_telnet_cmd_5=send_telnet_cmd(console, 243, -1);
+          if(!(return_value_send_telnet_cmd_5 >= 0))
             log_msg(4, "Unable to send serial-break to console [%s]", console->name);
 
         }
@@ -13101,9 +13101,9 @@ static void perform_serial_break(struct base_obj *client)
         else
           if((signed int)console->type == CONMAN_OBJ_IPMI)
           {
-            signed int return_value_send_ipmi_break$6;
-            return_value_send_ipmi_break$6=send_ipmi_break(console);
-            if(!(return_value_send_ipmi_break$6 >= 0))
+            signed int return_value_send_ipmi_break_6;
+            return_value_send_ipmi_break_6=send_ipmi_break(console);
+            if(!(return_value_send_ipmi_break_6 >= 0))
               log_msg(4, "Unable to send serial-break to console [%s]", console->name);
 
           }
@@ -13144,13 +13144,13 @@ void (*posix_signal(signed int signum, void (*f)(signed int)))(signed int)
 
   else
     act1.sa_flags = act1.sa_flags | 0x10000000;
-  signed int return_value_sigaction$2;
-  return_value_sigaction$2=sigaction(signum, &act1, &act0);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_sigaction$2 >= 0))
+  signed int return_value_sigaction_2;
+  return_value_sigaction_2=sigaction(signum, &act1, &act0);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_sigaction_2 >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    log_err(*return_value___errno_location$1, "signal(%d) failed", signum);
+    return_value___errno_location_1=__errno_location();
+    log_err(*return_value___errno_location_1, "signal(%d) failed", signum);
   }
 
   return act0.__sigaction_handler.sa_handler;
@@ -13166,48 +13166,48 @@ void process_client(struct client_args *args)
   sd = args->sd;
   conf = args->conf;
   free((void *)args);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    unsigned long int return_value_pthread_self$3;
-    return_value_pthread_self$3=pthread_self();
-    *return_value___errno_location$2=pthread_detach(return_value_pthread_self$3);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    unsigned long int return_value_pthread_self_3;
+    return_value_pthread_self_3=pthread_self();
+    *return_value___errno_location_2=pthread_detach(return_value_pthread_self_3);
+    if(!(*return_value___errno_location_2 == 0))
     {
-      return_value___errno_location$1=__errno_location();
-      log_err(*return_value___errno_location$1, "pthread_detach() failed");
+      return_value___errno_location_1=__errno_location();
+      log_err(*return_value___errno_location_1, "pthread_detach() failed");
     }
 
   }
   while((_Bool)0);
   req=create_req();
-  signed int return_value_resolve_addr$4;
-  return_value_resolve_addr$4=resolve_addr(conf, req, sd);
-  signed int return_value_recv_greeting$5;
-  signed int return_value_recv_req$6;
-  signed int return_value_query_consoles$7;
-  signed int return_value_validate_req$8;
-  signed int return_value_perform_connect_cmd$9;
-  signed int return_value_perform_monitor_cmd$10;
-  signed int return_value_perform_query_cmd$11;
-  if(return_value_resolve_addr$4 >= 0)
+  signed int return_value_resolve_addr_4;
+  return_value_resolve_addr_4=resolve_addr(conf, req, sd);
+  signed int return_value_recv_greeting_5;
+  signed int return_value_recv_req_6;
+  signed int return_value_query_consoles_7;
+  signed int return_value_validate_req_8;
+  signed int return_value_perform_connect_cmd_9;
+  signed int return_value_perform_monitor_cmd_10;
+  signed int return_value_perform_query_cmd_11;
+  if(return_value_resolve_addr_4 >= 0)
   {
-    return_value_recv_greeting$5=recv_greeting(req);
-    if(!(return_value_recv_greeting$5 >= 0))
+    return_value_recv_greeting_5=recv_greeting(req);
+    if(!(return_value_recv_greeting_5 >= 0))
       goto err;
 
-    return_value_recv_req$6=recv_req(req);
-    if(!(return_value_recv_req$6 >= 0))
+    return_value_recv_req_6=recv_req(req);
+    if(!(return_value_recv_req_6 >= 0))
       goto err;
 
-    return_value_query_consoles$7=query_consoles(conf, req);
-    if(!(return_value_query_consoles$7 >= 0))
+    return_value_query_consoles_7=query_consoles(conf, req);
+    if(!(return_value_query_consoles_7 >= 0))
       goto err;
 
-    return_value_validate_req$8=validate_req(req);
-    if(!(return_value_validate_req$8 >= 0))
+    return_value_validate_req_8=validate_req(req);
+    if(!(return_value_validate_req_8 >= 0))
       goto err;
 
     if(!(conf->resetCmd == ((char *)NULL)))
@@ -13217,24 +13217,24 @@ void process_client(struct client_args *args)
     {
       case 1:
       {
-        return_value_perform_connect_cmd$9=perform_connect_cmd(req, conf);
-        if(!(return_value_perform_connect_cmd$9 >= 0))
+        return_value_perform_connect_cmd_9=perform_connect_cmd(req, conf);
+        if(!(return_value_perform_connect_cmd_9 >= 0))
           goto err;
 
         break;
       }
       case 2:
       {
-        return_value_perform_monitor_cmd$10=perform_monitor_cmd(req, conf);
-        if(!(return_value_perform_monitor_cmd$10 >= 0))
+        return_value_perform_monitor_cmd_10=perform_monitor_cmd(req, conf);
+        if(!(return_value_perform_monitor_cmd_10 >= 0))
           goto err;
 
         break;
       }
       case 3:
       {
-        return_value_perform_query_cmd$11=perform_query_cmd(req);
-        if(!(return_value_perform_query_cmd$11 >= 0))
+        return_value_perform_query_cmd_11=perform_query_cmd(req);
+        if(!(return_value_perform_query_cmd_11 >= 0))
           goto err;
 
         break;
@@ -13267,8 +13267,8 @@ signed int process_client_escapes(struct base_obj *client, void *src, signed int
   const unsigned char *last = (unsigned char *)src + (signed long int)len;
   unsigned char *p;
   unsigned char *q;
-  unsigned char *tmp_post$1;
-  unsigned char *tmp_post$2;
+  unsigned char *tmp_post_1;
+  unsigned char *tmp_post_2;
   if(src == NULL || !(len >= 1))
     return 0;
 
@@ -13284,9 +13284,9 @@ signed int process_client_escapes(struct base_obj *client, void *src, signed int
         {
           case 0xFF:
           {
-            tmp_post$1 = q;
+            tmp_post_1 = q;
             q = q + 1l;
-            *tmp_post$1 = *p;
+            *tmp_post_1 = *p;
             break;
           }
           case 66:
@@ -13351,9 +13351,9 @@ signed int process_client_escapes(struct base_obj *client, void *src, signed int
 
         else
         {
-          tmp_post$2 = q;
+          tmp_post_2 = q;
           q = q + 1l;
-          *tmp_post$2 = *p;
+          *tmp_post_2 = *p;
         }
     len = (signed int)(q - (unsigned char *)src);
     return len;
@@ -13465,9 +13465,9 @@ void process_config(struct server_conf *conf)
   conf->fd=open(conf->confFileName, 00);
   if(!(conf->fd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    log_err(*return_value___errno_location$1, "Unable to open \"%s\"", conf->confFileName);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    log_err(*return_value___errno_location_1, "Unable to open \"%s\"", conf->confFileName);
   }
 
   if(conf->throwSignal >= 0)
@@ -13476,9 +13476,9 @@ void process_config(struct server_conf *conf)
     exit(0);
   }
 
-  signed int return_value_get_read_lock$2;
-  return_value_get_read_lock$2=get_read_lock(conf->fd);
-  if(!(return_value_get_read_lock$2 >= 0))
+  signed int return_value_get_read_lock_2;
+  return_value_get_read_lock_2=get_read_lock(conf->fd);
+  if(!(return_value_get_read_lock_2 >= 0))
     log_err(0, "Unable to lock configuration \"%s\"", conf->confFileName);
 
   pid=is_write_lock_blocked(conf->fd);
@@ -13486,40 +13486,40 @@ void process_config(struct server_conf *conf)
     log_err(0, "Configuration \"%s\" in use by pid %d", conf->confFileName, pid);
 
   set_fd_closed_on_exec(conf->fd);
-  signed int return_value_fstat$4;
-  return_value_fstat$4=fstat(conf->fd, &fdStat);
-  if(!(return_value_fstat$4 >= 0))
+  signed int return_value_fstat_4;
+  return_value_fstat_4=fstat(conf->fd, &fdStat);
+  if(!(return_value_fstat_4 >= 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    log_err(*return_value___errno_location$3, "Unable to stat \"%s\"", conf->confFileName);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    log_err(*return_value___errno_location_3, "Unable to stat \"%s\"", conf->confFileName);
   }
 
   len = (signed int)fdStat.st_size;
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc((unsigned long int)(len + 1));
-  buf = (char *)return_value_malloc$5;
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc((unsigned long int)(len + 1));
+  buf = (char *)return_value_malloc_5;
   if(buf == ((char *)NULL))
   {
     log_err(0, "Out of memory");
     (void *)0;
   }
 
-  signed long int return_value_read_n$7;
-  return_value_read_n$7=read_n(conf->fd, (void *)buf, (unsigned long int)len);
-  n = (signed int)return_value_read_n$7;
+  signed long int return_value_read_n_7;
+  return_value_read_n_7=read_n(conf->fd, (void *)buf, (unsigned long int)len);
+  n = (signed int)return_value_read_n_7;
   if(!(n >= 0))
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    log_err(*return_value___errno_location$6, "Unable to read \"%s\"", conf->confFileName);
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    log_err(*return_value___errno_location_6, "Unable to read \"%s\"", conf->confFileName);
   }
 
   buf[(signed long int)len] = (char)0;
   l=lex_create((void *)buf, server_conf_strs);
-  signed int return_value_lex_line$8;
-  signed int return_value_lex_line$9;
-  const char *return_value_lex_text$10;
+  signed int return_value_lex_line_8;
+  signed int return_value_lex_line_9;
+  const char *return_value_lex_text_10;
   do
   {
     tok=lex_next(l);
@@ -13547,15 +13547,15 @@ void process_config(struct server_conf *conf)
         break;
       case -1:
       {
-        return_value_lex_line$8=lex_line(l);
-        log_msg(3, "CONFIG[%s:%d]: unmatched quote", conf->confFileName, return_value_lex_line$8);
+        return_value_lex_line_8=lex_line(l);
+        log_msg(3, "CONFIG[%s:%d]: unmatched quote", conf->confFileName, return_value_lex_line_8);
         break;
       }
       default:
       {
-        return_value_lex_line$9=lex_line(l);
-        return_value_lex_text$10=lex_text(l);
-        log_msg(3, "CONFIG[%s:%d]: unrecognized token '%s'", conf->confFileName, return_value_lex_line$9, return_value_lex_text$10);
+        return_value_lex_line_9=lex_line(l);
+        return_value_lex_text_10=lex_text(l);
+        log_msg(3, "CONFIG[%s:%d]: unrecognized token '%s'", conf->confFileName, return_value_lex_line_9, return_value_lex_text_10);
         while(!(tok == 0) && !(tok == 256))
           tok=lex_next(l);
       }
@@ -13573,18 +13573,18 @@ void process_config(struct server_conf *conf)
 
   if(!(conf->logFileName == ((char *)NULL)))
   {
-    char *return_value_strchr$11;
-    return_value_strchr$11=strchr(conf->logFileName, 37);
-    if(!(return_value_strchr$11 == ((char *)NULL)))
+    char *return_value_strchr_11;
+    return_value_strchr_11=strchr(conf->logFileName, 37);
+    if(!(return_value_strchr_11 == ((char *)NULL)))
       conf->logFmtName=create_string(conf->logFileName);
 
   }
 
   if(!(conf->pidFileName == ((char *)NULL)))
   {
-    signed int return_value_write_pidfile$12;
-    return_value_write_pidfile$12=write_pidfile(conf->pidFileName);
-    if(!(return_value_write_pidfile$12 >= 0))
+    signed int return_value_write_pidfile_12;
+    return_value_write_pidfile_12=write_pidfile(conf->pidFileName);
+    if(!(return_value_write_pidfile_12 >= 0))
     {
       free((void *)conf->pidFileName);
       conf->pidFileName = (char *)(void *)0;
@@ -13634,9 +13634,9 @@ static signed int process_console(struct server_conf *conf, struct console_strs 
 
     if(!((signed int)quote == 39))
     {
-      signed int return_value_substitute_string$1;
-      return_value_substitute_string$1=substitute_string(buf, sizeof(char [1024l]) /*1024ul*/ , p, (char)78, con_p->name);
-      if(!(return_value_substitute_string$1 >= 0))
+      signed int return_value_substitute_string_1;
+      return_value_substitute_string_1=substitute_string(buf, sizeof(char [1024l]) /*1024ul*/ , p, (char)78, con_p->name);
+      if(!(return_value_substitute_string_1 >= 0))
       {
         snprintf(errbuf, (unsigned long int)errbuflen, "console [%s] dev string substitution failed", con_p->name);
         goto err;
@@ -13645,42 +13645,42 @@ static signed int process_console(struct server_conf *conf, struct console_strs 
       p = buf;
     }
 
-    char *return_value_create_string$2;
-    return_value_create_string$2=create_string(p);
-    list_append(args, (void *)return_value_create_string$2);
+    char *return_value_create_string_2;
+    return_value_create_string_2=create_string(p);
+    list_append(args, (void *)return_value_create_string_2);
   }
   while((_Bool)1);
-  void *return_value_list_peek$3;
-  signed int return_value_is_unixsock_dev$17;
-  signed int return_value_is_telnet_dev$16;
-  signed int return_value_is_serial_dev$15;
-  signed int return_value_parse_serial_opts$8;
-  signed int return_value_is_process_dev$14;
-  signed int return_value_is_ipmi_dev$13;
-  signed int return_value_parse_ipmi_opts$12;
-  _Bool tmp_if_expr$20;
-  _Bool tmp_if_expr$22;
-  _Bool tmp_if_expr$21;
-  _Bool tmp_if_expr$18;
-  signed int return_value_parse_logfile_opts$19;
+  void *return_value_list_peek_3;
+  signed int return_value_is_unixsock_dev_17;
+  signed int return_value_is_telnet_dev_16;
+  signed int return_value_is_serial_dev_15;
+  signed int return_value_parse_serial_opts_8;
+  signed int return_value_is_process_dev_14;
+  signed int return_value_is_ipmi_dev_13;
+  signed int return_value_parse_ipmi_opts_12;
+  _Bool tmp_if_expr_20;
+  _Bool tmp_if_expr_22;
+  _Bool tmp_if_expr_21;
+  _Bool tmp_if_expr_18;
+  signed int return_value_parse_logfile_opts_19;
   if(!(rc >= 0))
     snprintf(errbuf, (unsigned long int)errbuflen, "console [%s] dev string parse error", con_p->name);
 
   else
   {
-    return_value_list_peek$3=list_peek(args);
-    arg0 = (char *)return_value_list_peek$3;
+    return_value_list_peek_3=list_peek(args);
+    arg0 = (char *)return_value_list_peek_3;
     if(arg0 == ((char *)NULL))
       snprintf(errbuf, (unsigned long int)errbuflen, "console [%s] dev string is empty", con_p->name);
 
     else
     {
-      return_value_is_unixsock_dev$17=is_unixsock_dev(arg0, conf->cwd, &path);
-      if(!(return_value_is_unixsock_dev$17 == 0))
+      return_value_is_unixsock_dev_17=is_unixsock_dev(arg0, conf->cwd, &path);
+      if(!(return_value_is_unixsock_dev_17 == 0))
       {
-        signed int return_value_list_count$4;
-        return_value_list_count$4=list_count(args);
-        if(!(return_value_list_count$4 == 1))
+        signed int return_value_list_count_4;
+        return_value_list_count_4=list_count(args);
+        if(!(return_value_list_count_4 == 1))
         {
           snprintf(errbuf, (unsigned long int)errbuflen, "console [%s] dev string has too many args", con_p->name);
           goto err;
@@ -13696,12 +13696,12 @@ static signed int process_console(struct server_conf *conf, struct console_strs 
 
       else
       {
-        return_value_is_telnet_dev$16=is_telnet_dev(arg0, &host, &port);
-        if(!(return_value_is_telnet_dev$16 == 0))
+        return_value_is_telnet_dev_16=is_telnet_dev(arg0, &host, &port);
+        if(!(return_value_is_telnet_dev_16 == 0))
         {
-          signed int return_value_list_count$5;
-          return_value_list_count$5=list_count(args);
-          if(!(return_value_list_count$5 == 1))
+          signed int return_value_list_count_5;
+          return_value_list_count_5=list_count(args);
+          if(!(return_value_list_count_5 == 1))
           {
             snprintf(errbuf, (unsigned long int)errbuflen, "console [%s] dev string has too many args", con_p->name);
             goto err;
@@ -13717,20 +13717,20 @@ static signed int process_console(struct server_conf *conf, struct console_strs 
 
         else
         {
-          return_value_is_serial_dev$15=is_serial_dev(arg0, conf->cwd, &path);
-          if(!(return_value_is_serial_dev$15 == 0))
+          return_value_is_serial_dev_15=is_serial_dev(arg0, conf->cwd, &path);
+          if(!(return_value_is_serial_dev_15 == 0))
           {
-            signed int return_value_list_count$6;
-            return_value_list_count$6=list_count(args);
-            if(!(return_value_list_count$6 == 1))
+            signed int return_value_list_count_6;
+            return_value_list_count_6=list_count(args);
+            if(!(return_value_list_count_6 == 1))
             {
               snprintf(errbuf, (unsigned long int)errbuflen, "console [%s] dev string has too many args", con_p->name);
               goto err;
             }
 
-            signed int return_value_access$7;
-            return_value_access$7=access(path, 4 | 2);
-            if(!(return_value_access$7 >= 0))
+            signed int return_value_access_7;
+            return_value_access_7=access(path, 4 | 2);
+            if(!(return_value_access_7 >= 0))
             {
               snprintf(errbuf, (unsigned long int)errbuflen, "console [%s] device \"%s\" is not readable/writable", con_p->name, path);
               goto err;
@@ -13739,8 +13739,8 @@ static signed int process_console(struct server_conf *conf, struct console_strs 
             seropts = conf->globalSerOpts;
             if(!(con_p->sopts == ((char *)NULL)))
             {
-              return_value_parse_serial_opts$8=parse_serial_opts(&seropts, con_p->sopts, errbuf, errbuflen);
-              if(!(return_value_parse_serial_opts$8 >= 0))
+              return_value_parse_serial_opts_8=parse_serial_opts(&seropts, con_p->sopts, errbuf, errbuflen);
+              if(!(return_value_parse_serial_opts_8 >= 0))
                 goto err;
 
             }
@@ -13755,15 +13755,15 @@ static signed int process_console(struct server_conf *conf, struct console_strs 
 
           else
           {
-            return_value_is_process_dev$14=is_process_dev(arg0, conf->cwd, conf->execPath, &path);
-            if(!(return_value_is_process_dev$14 == 0))
+            return_value_is_process_dev_14=is_process_dev(arg0, conf->cwd, conf->execPath, &path);
+            if(!(return_value_is_process_dev_14 == 0))
             {
-              void *return_value_list_pop$9;
-              return_value_list_pop$9=list_pop(args);
-              free(return_value_list_pop$9);
-              void *return_value_list_push$10;
-              return_value_list_push$10=list_push(args, (void *)path);
-              arg0 = (char *)return_value_list_push$10;
+              void *return_value_list_pop_9;
+              return_value_list_pop_9=list_pop(args);
+              free(return_value_list_pop_9);
+              void *return_value_list_push_10;
+              return_value_list_push_10=list_push(args, (void *)path);
+              arg0 = (char *)return_value_list_push_10;
               path = (char *)(void *)0;
               console=create_process_obj(conf, con_p->name, args, errbuf, errbuflen);
               if(console == ((struct base_obj *)NULL))
@@ -13773,12 +13773,12 @@ static signed int process_console(struct server_conf *conf, struct console_strs 
 
             else
             {
-              return_value_is_ipmi_dev$13=is_ipmi_dev(arg0, &host);
-              if(!(return_value_is_ipmi_dev$13 == 0))
+              return_value_is_ipmi_dev_13=is_ipmi_dev(arg0, &host);
+              if(!(return_value_is_ipmi_dev_13 == 0))
               {
-                signed int return_value_list_count$11;
-                return_value_list_count$11=list_count(args);
-                if(!(return_value_list_count$11 == 1))
+                signed int return_value_list_count_11;
+                return_value_list_count_11=list_count(args);
+                if(!(return_value_list_count_11 == 1))
                 {
                   snprintf(errbuf, (unsigned long int)errbuflen, "console [%s] dev string has too many args", con_p->name);
                   goto err;
@@ -13787,8 +13787,8 @@ static signed int process_console(struct server_conf *conf, struct console_strs 
                 ipmiopts = conf->globalIpmiOpts;
                 if(!(con_p->iopts == ((char *)NULL)))
                 {
-                  return_value_parse_ipmi_opts$12=parse_ipmi_opts(&ipmiopts, con_p->iopts, errbuf, errbuflen);
-                  if(!(return_value_parse_ipmi_opts$12 >= 0))
+                  return_value_parse_ipmi_opts_12=parse_ipmi_opts(&ipmiopts, con_p->iopts, errbuf, errbuflen);
+                  if(!(return_value_parse_ipmi_opts_12 >= 0))
                     goto err;
 
                 }
@@ -13811,23 +13811,23 @@ static signed int process_console(struct server_conf *conf, struct console_strs 
         }
       }
       if(!(con_p->log == ((char *)NULL)))
-        tmp_if_expr$20 = (signed int)con_p->log[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_20 = (signed int)con_p->log[(signed long int)0] != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$20 = (_Bool)0;
-      if(tmp_if_expr$20)
-        tmp_if_expr$22 = (_Bool)1;
+        tmp_if_expr_20 = (_Bool)0;
+      if(tmp_if_expr_20)
+        tmp_if_expr_22 = (_Bool)1;
 
       else
       {
         if(con_p->log == ((char *)NULL))
-          tmp_if_expr$21 = conf->globalLogName != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_21 = conf->globalLogName != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$21 = (_Bool)0;
-        tmp_if_expr$22 = tmp_if_expr$21 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_21 = (_Bool)0;
+        tmp_if_expr_22 = tmp_if_expr_21 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$22)
+      if(tmp_if_expr_22)
       {
         if(!(con_p->log == ((char *)NULL)))
           strlcpy(buf, con_p->log, sizeof(char [1024l]) /*1024ul*/ );
@@ -13835,11 +13835,11 @@ static signed int process_console(struct server_conf *conf, struct console_strs 
         else
         {
           if(!((signed int)*conf->globalLogName == 47))
-            tmp_if_expr$18 = conf->logDirName != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_18 = conf->logDirName != ((char *)NULL) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$18 = (_Bool)0;
-          if(tmp_if_expr$18)
+            tmp_if_expr_18 = (_Bool)0;
+          if(tmp_if_expr_18)
           {
             snprintf(buf, sizeof(char [1024l]) /*1024ul*/ , "%s/%s", conf->logDirName, conf->globalLogName);
             buf[(signed long int)(sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)1)] = (char)0;
@@ -13851,8 +13851,8 @@ static signed int process_console(struct server_conf *conf, struct console_strs 
         logopts = conf->globalLogOpts;
         if(!(con_p->lopts == ((char *)NULL)))
         {
-          return_value_parse_logfile_opts$19=parse_logfile_opts(&logopts, con_p->lopts, errbuf, errbuflen);
-          if(!(return_value_parse_logfile_opts$19 >= 0))
+          return_value_parse_logfile_opts_19=parse_logfile_opts(&logopts, con_p->lopts, errbuf, errbuflen);
+          if(!(return_value_parse_logfile_opts_19 >= 0))
             goto err;
 
         }
@@ -13885,9 +13885,9 @@ static signed int process_ipmi_opt(struct ipmi_opt *iopts, const char *str, char
   char c;
   const char *p;
   signed int rv = -1;
-  signed int return_value_is_ipmi_opt_tag$1;
-  return_value_is_ipmi_opt_tag$1=is_ipmi_opt_tag(str);
-  if(return_value_is_ipmi_opt_tag$1 == 0)
+  signed int return_value_is_ipmi_opt_tag_1;
+  return_value_is_ipmi_opt_tag_1=is_ipmi_opt_tag(str);
+  if(return_value_is_ipmi_opt_tag_1 == 0)
   {
     if(errlen >= 1 && !(errbuf == ((char *)NULL)))
       snprintf(errbuf, (unsigned long int)errlen, "invalid ipmiopts string \"%s\"", str);
@@ -13897,9 +13897,9 @@ static signed int process_ipmi_opt(struct ipmi_opt *iopts, const char *str, char
 
   else
   {
-    signed int return_value_toupper$2;
-    return_value_toupper$2=toupper((signed int)str[(signed long int)0]);
-    c = (char)return_value_toupper$2;
+    signed int return_value_toupper_2;
+    return_value_toupper_2=toupper((signed int)str[(signed long int)0]);
+    c = (char)return_value_toupper_2;
     p = str + (signed long int)2;
     switch((signed int)c)
     {
@@ -13944,8 +13944,8 @@ static signed int process_ipmi_opt(struct ipmi_opt *iopts, const char *str, char
 // file server-ipmi.c line 510
 static signed int process_ipmi_opt_cipher(struct ipmi_opt *iopts, const char *str, char *errbuf, signed int errlen)
 {
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   if((signed int)*str == 0)
     iopts->cipherSuite = -1;
 
@@ -13953,19 +13953,19 @@ static signed int process_ipmi_opt_cipher(struct ipmi_opt *iopts, const char *st
   {
     signed long int n;
     char *p;
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 0;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 0;
     n=strtol(str, &p, 0);
     if(!((signed int)*p == 0))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$2=__errno_location();
-      tmp_if_expr$3 = *return_value___errno_location$2 == 34 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_2=__errno_location();
+      tmp_if_expr_3 = *return_value___errno_location_2 == 34 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
     {
       if(errlen >= 1 && !(errbuf == ((char *)NULL)))
         snprintf(errbuf, (unsigned long int)errlen, "invalid IPMI cipher suite \"%s\"", str);
@@ -13973,9 +13973,9 @@ static signed int process_ipmi_opt_cipher(struct ipmi_opt *iopts, const char *st
       return -1;
     }
 
-    signed int return_value_ipmiconsole_cipher_suite_id_is_valid$4;
-    return_value_ipmiconsole_cipher_suite_id_is_valid$4=ipmiconsole_cipher_suite_id_is_valid((signed int)n);
-    if(return_value_ipmiconsole_cipher_suite_id_is_valid$4 == 0)
+    signed int return_value_ipmiconsole_cipher_suite_id_is_valid_4;
+    return_value_ipmiconsole_cipher_suite_id_is_valid_4=ipmiconsole_cipher_suite_id_is_valid((signed int)n);
+    if(return_value_ipmiconsole_cipher_suite_id_is_valid_4 == 0)
     {
       if(errlen >= 1 && !(errbuf == ((char *)NULL)))
         snprintf(errbuf, (unsigned long int)errlen, "invalid IPMI cipher suite %ld", n);
@@ -14010,9 +14010,9 @@ static signed int process_ipmi_opt_k_g(struct ipmi_opt *iopts, const char *str, 
       return -1;
     }
 
-    signed int return_value_ipmiconsole_k_g_is_valid$1;
-    return_value_ipmiconsole_k_g_is_valid$1=ipmiconsole_k_g_is_valid(iopts->kg, (unsigned int)n);
-    if(return_value_ipmiconsole_k_g_is_valid$1 == 0)
+    signed int return_value_ipmiconsole_k_g_is_valid_1;
+    return_value_ipmiconsole_k_g_is_valid_1=ipmiconsole_k_g_is_valid(iopts->kg, (unsigned int)n);
+    if(return_value_ipmiconsole_k_g_is_valid_1 == 0)
     {
       if(errlen >= 1 && !(errbuf == ((char *)NULL)))
         snprintf(errbuf, (unsigned long int)errlen, "invalid IPMI K_g");
@@ -14044,9 +14044,9 @@ static signed int process_ipmi_opt_password(struct ipmi_opt *iopts, const char *
       return -1;
     }
 
-    signed int return_value_ipmiconsole_password_is_valid$1;
-    return_value_ipmiconsole_password_is_valid$1=ipmiconsole_password_is_valid(iopts->password);
-    if(return_value_ipmiconsole_password_is_valid$1 == 0)
+    signed int return_value_ipmiconsole_password_is_valid_1;
+    return_value_ipmiconsole_password_is_valid_1=ipmiconsole_password_is_valid(iopts->password);
+    if(return_value_ipmiconsole_password_is_valid_1 == 0)
     {
       if(errlen >= 1 && !(errbuf == ((char *)NULL)))
         snprintf(errbuf, (unsigned long int)errlen, "invalid IPMI password");
@@ -14062,69 +14062,69 @@ static signed int process_ipmi_opt_password(struct ipmi_opt *iopts, const char *
 // file server-ipmi.c line 460
 static signed int process_ipmi_opt_privilege(struct ipmi_opt *iopts, const char *str, char *errbuf, signed int errlen)
 {
-  signed int return_value_strcasecmp$11;
-  signed int return_value_strcasecmp$8;
-  _Bool tmp_if_expr$10;
-  signed int return_value_strcasecmp$9;
-  signed int return_value_strcasecmp$5;
-  _Bool tmp_if_expr$7;
-  signed int return_value_strcasecmp$6;
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
+  signed int return_value_strcasecmp_11;
+  signed int return_value_strcasecmp_8;
+  _Bool tmp_if_expr_10;
+  signed int return_value_strcasecmp_9;
+  signed int return_value_strcasecmp_5;
+  _Bool tmp_if_expr_7;
+  signed int return_value_strcasecmp_6;
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
   if((signed int)*str == 0)
     iopts->privilegeLevel = -1;
 
   else
   {
-    return_value_strcasecmp$11=strcasecmp(str, "user");
-    if(return_value_strcasecmp$11 == 0)
+    return_value_strcasecmp_11=strcasecmp(str, "user");
+    if(return_value_strcasecmp_11 == 0)
       iopts->privilegeLevel = 0;
 
     else
     {
-      return_value_strcasecmp$8=strcasecmp(str, "op");
-      if(return_value_strcasecmp$8 == 0)
-        tmp_if_expr$10 = (_Bool)1;
+      return_value_strcasecmp_8=strcasecmp(str, "op");
+      if(return_value_strcasecmp_8 == 0)
+        tmp_if_expr_10 = (_Bool)1;
 
       else
       {
-        return_value_strcasecmp$9=strcasecmp(str, "operator");
-        tmp_if_expr$10 = !(return_value_strcasecmp$9 != 0) ? (_Bool)1 : (_Bool)0;
+        return_value_strcasecmp_9=strcasecmp(str, "operator");
+        tmp_if_expr_10 = !(return_value_strcasecmp_9 != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$10)
+      if(tmp_if_expr_10)
         iopts->privilegeLevel = 1;
 
       else
       {
-        return_value_strcasecmp$5=strcasecmp(str, "admin");
-        if(return_value_strcasecmp$5 == 0)
-          tmp_if_expr$7 = (_Bool)1;
+        return_value_strcasecmp_5=strcasecmp(str, "admin");
+        if(return_value_strcasecmp_5 == 0)
+          tmp_if_expr_7 = (_Bool)1;
 
         else
         {
-          return_value_strcasecmp$6=strcasecmp(str, "administrator");
-          tmp_if_expr$7 = !(return_value_strcasecmp$6 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_strcasecmp_6=strcasecmp(str, "administrator");
+          tmp_if_expr_7 = !(return_value_strcasecmp_6 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$7)
+        if(tmp_if_expr_7)
           iopts->privilegeLevel = 2;
 
         else
         {
           signed long int n;
           char *p;
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          *return_value___errno_location$1 = 0;
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          *return_value___errno_location_1 = 0;
           n=strtol(str, &p, 0);
           if(!((signed int)*p == 0))
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_3 = (_Bool)1;
 
           else
           {
-            return_value___errno_location$2=__errno_location();
-            tmp_if_expr$3 = *return_value___errno_location$2 == 34 ? (_Bool)1 : (_Bool)0;
+            return_value___errno_location_2=__errno_location();
+            tmp_if_expr_3 = *return_value___errno_location_2 == 34 ? (_Bool)1 : (_Bool)0;
           }
-          if(tmp_if_expr$3)
+          if(tmp_if_expr_3)
           {
             if(errlen >= 1 && !(errbuf == ((char *)NULL)))
               snprintf(errbuf, (unsigned long int)errlen, "invalid IPMI privilege level \"%s\"", str);
@@ -14132,9 +14132,9 @@ static signed int process_ipmi_opt_privilege(struct ipmi_opt *iopts, const char 
             return -1;
           }
 
-          signed int return_value_ipmiconsole_privilege_level_is_valid$4;
-          return_value_ipmiconsole_privilege_level_is_valid$4=ipmiconsole_privilege_level_is_valid((signed int)n);
-          if(return_value_ipmiconsole_privilege_level_is_valid$4 == 0)
+          signed int return_value_ipmiconsole_privilege_level_is_valid_4;
+          return_value_ipmiconsole_privilege_level_is_valid_4=ipmiconsole_privilege_level_is_valid((signed int)n);
+          if(return_value_ipmiconsole_privilege_level_is_valid_4 == 0)
           {
             if(errlen >= 1 && !(errbuf == ((char *)NULL)))
               snprintf(errbuf, (unsigned long int)errlen, "invalid IPMI privilege level %ld", n);
@@ -14160,9 +14160,9 @@ static signed int process_ipmi_opt_username(struct ipmi_opt *iopts, const char *
   else
   {
     signed int n;
-    unsigned long int return_value_strlcpy$1;
-    return_value_strlcpy$1=strlcpy(iopts->username, str, sizeof(char [17l]) /*17ul*/ );
-    n = (signed int)return_value_strlcpy$1;
+    unsigned long int return_value_strlcpy_1;
+    return_value_strlcpy_1=strlcpy(iopts->username, str, sizeof(char [17l]) /*17ul*/ );
+    n = (signed int)return_value_strlcpy_1;
     if((unsigned long int)n >= sizeof(char [17l]) /*17ul*/ )
     {
       if(errlen >= 1 && !(errbuf == ((char *)NULL)))
@@ -14171,9 +14171,9 @@ static signed int process_ipmi_opt_username(struct ipmi_opt *iopts, const char *
       return -1;
     }
 
-    signed int return_value_ipmiconsole_username_is_valid$2;
-    return_value_ipmiconsole_username_is_valid$2=ipmiconsole_username_is_valid(iopts->username);
-    if(return_value_ipmiconsole_username_is_valid$2 == 0)
+    signed int return_value_ipmiconsole_username_is_valid_2;
+    return_value_ipmiconsole_username_is_valid_2=ipmiconsole_username_is_valid(iopts->username);
+    if(return_value_ipmiconsole_username_is_valid_2 == 0)
     {
       if(errlen >= 1 && !(errbuf == ((char *)NULL)))
         snprintf(errbuf, (unsigned long int)errlen, "invalid IPMI username");
@@ -14189,94 +14189,94 @@ static signed int process_ipmi_opt_username(struct ipmi_opt *iopts, const char *
 // file server-ipmi.c line 551
 static signed int process_ipmi_opt_workaround(struct ipmi_opt *iopts, const char *str, char *errbuf, signed int errlen)
 {
-  signed int return_value_strcasecmp$14;
-  signed int return_value_strcasecmp$13;
-  signed int return_value_strcasecmp$12;
-  signed int return_value_strcasecmp$11;
-  signed int return_value_strcasecmp$10;
-  signed int return_value_strcasecmp$9;
-  signed int return_value_strcasecmp$8;
-  signed int return_value_strcasecmp$7;
-  signed int return_value_strcasecmp$6;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
-  signed int return_value_ipmiconsole_workaround_flags_is_valid$3;
+  signed int return_value_strcasecmp_14;
+  signed int return_value_strcasecmp_13;
+  signed int return_value_strcasecmp_12;
+  signed int return_value_strcasecmp_11;
+  signed int return_value_strcasecmp_10;
+  signed int return_value_strcasecmp_9;
+  signed int return_value_strcasecmp_8;
+  signed int return_value_strcasecmp_7;
+  signed int return_value_strcasecmp_6;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
+  signed int return_value_ipmiconsole_workaround_flags_is_valid_3;
   if((signed int)*str == 0)
     iopts->workaroundFlags = (unsigned int)0;
 
   else
   {
-    return_value_strcasecmp$14=strcasecmp(str, "authcap");
-    if(return_value_strcasecmp$14 == 0)
+    return_value_strcasecmp_14=strcasecmp(str, "authcap");
+    if(return_value_strcasecmp_14 == 0)
       iopts->workaroundFlags = iopts->workaroundFlags | (unsigned int)0x00000001;
 
     else
     {
-      return_value_strcasecmp$13=strcasecmp(str, "intel20");
-      if(return_value_strcasecmp$13 == 0)
+      return_value_strcasecmp_13=strcasecmp(str, "intel20");
+      if(return_value_strcasecmp_13 == 0)
         iopts->workaroundFlags = iopts->workaroundFlags | (unsigned int)0x00000002;
 
       else
       {
-        return_value_strcasecmp$12=strcasecmp(str, "supermicro20");
-        if(return_value_strcasecmp$12 == 0)
+        return_value_strcasecmp_12=strcasecmp(str, "supermicro20");
+        if(return_value_strcasecmp_12 == 0)
           iopts->workaroundFlags = iopts->workaroundFlags | (unsigned int)0x00000004;
 
         else
         {
-          return_value_strcasecmp$11=strcasecmp(str, "sun20");
-          if(return_value_strcasecmp$11 == 0)
+          return_value_strcasecmp_11=strcasecmp(str, "sun20");
+          if(return_value_strcasecmp_11 == 0)
             iopts->workaroundFlags = iopts->workaroundFlags | (unsigned int)0x00000008;
 
           else
           {
-            return_value_strcasecmp$10=strcasecmp(str, "opensesspriv");
-            if(return_value_strcasecmp$10 == 0)
+            return_value_strcasecmp_10=strcasecmp(str, "opensesspriv");
+            if(return_value_strcasecmp_10 == 0)
               iopts->workaroundFlags = iopts->workaroundFlags | (unsigned int)0x00000010;
 
             else
             {
-              return_value_strcasecmp$9=strcasecmp(str, "integritycheckvalue");
-              if(return_value_strcasecmp$9 == 0)
+              return_value_strcasecmp_9=strcasecmp(str, "integritycheckvalue");
+              if(return_value_strcasecmp_9 == 0)
                 iopts->workaroundFlags = iopts->workaroundFlags | (unsigned int)0x00000020;
 
               else
               {
-                return_value_strcasecmp$8=strcasecmp(str, "solpayloadsize");
-                if(return_value_strcasecmp$8 == 0)
+                return_value_strcasecmp_8=strcasecmp(str, "solpayloadsize");
+                if(return_value_strcasecmp_8 == 0)
                   iopts->workaroundFlags = iopts->workaroundFlags | (unsigned int)0x01000000;
 
                 else
                 {
-                  return_value_strcasecmp$7=strcasecmp(str, "solport");
-                  if(return_value_strcasecmp$7 == 0)
+                  return_value_strcasecmp_7=strcasecmp(str, "solport");
+                  if(return_value_strcasecmp_7 == 0)
                     iopts->workaroundFlags = iopts->workaroundFlags | (unsigned int)0x02000000;
 
                   else
                   {
-                    return_value_strcasecmp$6=strcasecmp(str, "solstatus");
-                    if(return_value_strcasecmp$6 == 0)
+                    return_value_strcasecmp_6=strcasecmp(str, "solstatus");
+                    if(return_value_strcasecmp_6 == 0)
                       iopts->workaroundFlags = iopts->workaroundFlags | (unsigned int)0x04000000;
 
                     else
                     {
                       unsigned int u;
                       char *p;
-                      signed int *return_value___errno_location$1;
-                      return_value___errno_location$1=__errno_location();
-                      *return_value___errno_location$1 = 0;
-                      unsigned long int return_value_strtoul$2;
-                      return_value_strtoul$2=strtoul(str, &p, 0);
-                      u = (unsigned int)return_value_strtoul$2;
+                      signed int *return_value___errno_location_1;
+                      return_value___errno_location_1=__errno_location();
+                      *return_value___errno_location_1 = 0;
+                      unsigned long int return_value_strtoul_2;
+                      return_value_strtoul_2=strtoul(str, &p, 0);
+                      u = (unsigned int)return_value_strtoul_2;
                       if(!((signed int)*p == 0))
-                        tmp_if_expr$5 = (_Bool)1;
+                        tmp_if_expr_5 = (_Bool)1;
 
                       else
                       {
-                        return_value___errno_location$4=__errno_location();
-                        tmp_if_expr$5 = *return_value___errno_location$4 == 34 ? (_Bool)1 : (_Bool)0;
+                        return_value___errno_location_4=__errno_location();
+                        tmp_if_expr_5 = *return_value___errno_location_4 == 34 ? (_Bool)1 : (_Bool)0;
                       }
-                      if(tmp_if_expr$5)
+                      if(tmp_if_expr_5)
                       {
                         if(errlen >= 1 && !(errbuf == ((char *)NULL)))
                           snprintf(errbuf, (unsigned long int)errlen, "invalid IPMI workaround flag \"%s\"", str);
@@ -14286,8 +14286,8 @@ static signed int process_ipmi_opt_workaround(struct ipmi_opt *iopts, const char
 
                       else
                       {
-                        return_value_ipmiconsole_workaround_flags_is_valid$3=ipmiconsole_workaround_flags_is_valid(u);
-                        if(return_value_ipmiconsole_workaround_flags_is_valid$3 == 0)
+                        return_value_ipmiconsole_workaround_flags_is_valid_3=ipmiconsole_workaround_flags_is_valid(u);
+                        if(return_value_ipmiconsole_workaround_flags_is_valid_3 == 0)
                         {
                           if(errlen >= 1 && !(errbuf == ((char *)NULL)))
                             snprintf(errbuf, (unsigned long int)errlen, "invalid IPMI workaround flag 0x%X", u);
@@ -14320,8 +14320,8 @@ static signed int process_ipmi_opt_workaround(struct ipmi_opt *iopts, const char
 static signed int process_telnet_cmd(struct base_obj *telnet, signed int cmd, signed int opt)
 {
   char opt_buf[8l];
-  char *tmp_if_expr$2;
-  char *return_value_opt2str$1;
+  char *tmp_if_expr_2;
+  char *return_value_opt2str_1;
   if(!((unsigned int)cmd >= 236u) || (unsigned int)cmd >= 256u)
   {
     log_msg(7, "Received invalid telnet cmd %#.2x from console [%s]", cmd, telnet->name);
@@ -14353,14 +14353,14 @@ static signed int process_telnet_cmd(struct base_obj *telnet, signed int cmd, si
       default:
       {
         if(!((unsigned int)opt >= 40u))
-          tmp_if_expr$2 = telopts[(signed long int)(opt - 0)];
+          tmp_if_expr_2 = telopts[(signed long int)(opt - 0)];
 
         else
         {
-          return_value_opt2str$1=opt2str(opt, opt_buf, (signed int)sizeof(char [8l]) /*8ul*/ );
-          tmp_if_expr$2 = return_value_opt2str$1;
+          return_value_opt2str_1=opt2str(opt, opt_buf, (signed int)sizeof(char [8l]) /*8ul*/ );
+          tmp_if_expr_2 = return_value_opt2str_1;
         }
-        log_msg(6, "Ignoring telnet cmd %s %s from console [%s]", telcmds[(signed long int)(cmd - 236)], tmp_if_expr$2, telnet->name);
+        log_msg(6, "Ignoring telnet cmd %s %s from console [%s]", telcmds[(signed long int)(cmd - 236)], tmp_if_expr_2, telnet->name);
       }
     }
     return 0;
@@ -14374,8 +14374,8 @@ signed int process_telnet_escapes(struct base_obj *telnet, void *src, signed int
   const unsigned char *last = (unsigned char *)src + (signed long int)len;
   unsigned char *p;
   unsigned char *q;
-  unsigned char *tmp_post$1;
-  unsigned char *tmp_post$2;
+  unsigned char *tmp_post_1;
+  unsigned char *tmp_post_2;
   if(src == NULL || !(len >= 1))
     return 0;
 
@@ -14405,9 +14405,9 @@ signed int process_telnet_escapes(struct base_obj *telnet, void *src, signed int
 
         else
         {
-          tmp_post$1 = q;
+          tmp_post_1 = q;
           q = q + 1l;
-          *tmp_post$1 = *p;
+          *tmp_post_1 = *p;
         }
         goto __CPROVER_DUMP_L16;
 
@@ -14417,9 +14417,9 @@ signed int process_telnet_escapes(struct base_obj *telnet, void *src, signed int
         {
           case 255:
           {
-            tmp_post$2 = q;
+            tmp_post_2 = q;
             q = q + 1l;
-            *tmp_post$2 = *p;
+            *tmp_post_2 = *p;
             telnet->aux.telnet.iac = -1;
             break;
           }
@@ -14478,9 +14478,9 @@ static signed int query_consoles(struct server_conf *conf, struct request *req)
 {
   struct list *matches;
   signed int rc;
-  signed int return_value_list_is_empty$1;
-  return_value_list_is_empty$1=list_is_empty(req->consoles);
-  if(!(return_value_list_is_empty$1 == 0))
+  signed int return_value_list_is_empty_1;
+  return_value_list_is_empty_1=list_is_empty(req->consoles);
+  if(!(return_value_list_is_empty_1 == 0))
   {
     if((signed int)req->command == 3)
       goto __CPROVER_DUMP_L1;
@@ -14502,9 +14502,9 @@ static signed int query_consoles(struct server_conf *conf, struct request *req)
     list_destroy(req->consoles);
     req->consoles = matches;
     list_sort(req->consoles, (signed int (*)(void *, void *))compare_objs);
-    signed int return_value_list_count$2;
-    return_value_list_count$2=list_count(req->consoles);
-    if(return_value_list_count$2 == 1)
+    signed int return_value_list_count_2;
+    return_value_list_count_2=list_count(req->consoles);
+    if(return_value_list_count_2 == 1)
       req->enableBroadcast = (unsigned int)0;
 
     return rc;
@@ -14520,9 +14520,9 @@ static signed int query_consoles_via_globbing(struct server_conf *conf, struct r
   struct listIterator *j;
   char *pat;
   struct base_obj *obj;
-  signed int return_value_list_is_empty$1;
-  return_value_list_is_empty$1=list_is_empty(req->consoles);
-  if(!(return_value_list_is_empty$1 == 0))
+  signed int return_value_list_is_empty_1;
+  return_value_list_is_empty_1=list_is_empty(req->consoles);
+  if(!(return_value_list_is_empty_1 == 0))
   {
     p=create_string("*");
     list_append(req->consoles, (void *)p);
@@ -14530,56 +14530,56 @@ static signed int query_consoles_via_globbing(struct server_conf *conf, struct r
 
   i=list_iterator_create(req->consoles);
   j=list_iterator_create(conf->objs);
-  void *return_value_list_next$2;
-  void *return_value_list_next$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  void *return_value_list_find_first$8;
+  void *return_value_list_next_2;
+  void *return_value_list_next_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  void *return_value_list_find_first_8;
   do
   {
-    return_value_list_next$2=list_next(i);
-    pat = (char *)return_value_list_next$2;
+    return_value_list_next_2=list_next(i);
+    pat = (char *)return_value_list_next_2;
     if(pat == ((char *)NULL))
       break;
 
     list_iterator_reset(j);
     do
     {
-      return_value_list_next$3=list_next(j);
-      obj = (struct base_obj *)return_value_list_next$3;
+      return_value_list_next_3=list_next(j);
+      obj = (struct base_obj *)return_value_list_next_3;
       if(obj == ((struct base_obj *)NULL))
         break;
 
       if((signed int)obj->type == CONMAN_OBJ_TELNET)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)obj->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_4 = (signed int)obj->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (signed int)obj->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
-        tmp_if_expr$6 = (_Bool)1;
+        tmp_if_expr_5 = (signed int)obj->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
+        tmp_if_expr_6 = (_Bool)1;
 
       else
-        tmp_if_expr$6 = (signed int)obj->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$6)
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_6 = (signed int)obj->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_6)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = (signed int)obj->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = (signed int)obj->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
       {
-        signed int return_value_fnmatch$9;
-        return_value_fnmatch$9=fnmatch(pat, obj->name, 0);
-        if(return_value_fnmatch$9 == 0)
+        signed int return_value_fnmatch_9;
+        return_value_fnmatch_9=fnmatch(pat, obj->name, 0);
+        if(return_value_fnmatch_9 == 0)
         {
-          return_value_list_find_first$8=list_find_first(matches, (signed int (*)(void *, void *))find_obj, (void *)obj);
-          if(return_value_list_find_first$8 == NULL)
+          return_value_list_find_first_8=list_find_first(matches, (signed int (*)(void *, void *))find_obj, (void *)obj);
+          if(return_value_list_find_first_8 == NULL)
             list_append(matches, (void *)obj);
 
         }
@@ -14604,25 +14604,25 @@ static signed int query_consoles_via_regex(struct server_conf *conf, struct requ
   char buf[32768l];
   signed int rc;
   struct re_pattern_buffer rex;
-  struct anonymous$2 match;
+  struct anonymous_2 match;
   struct base_obj *obj;
-  signed int return_value_list_is_empty$1;
-  return_value_list_is_empty$1=list_is_empty(req->consoles);
-  if(!(return_value_list_is_empty$1 == 0))
+  signed int return_value_list_is_empty_1;
+  return_value_list_is_empty_1=list_is_empty(req->consoles);
+  if(!(return_value_list_is_empty_1 == 0))
   {
     p=create_string(".*");
     list_append(req->consoles, (void *)p);
   }
 
   i=list_iterator_create(req->consoles);
-  void *return_value_list_next$2;
-  return_value_list_next$2=list_next(i);
-  strlcpy(buf, (const char *)return_value_list_next$2, sizeof(char [32768l]) /*32768ul*/ );
-  void *return_value_list_next$3;
+  void *return_value_list_next_2;
+  return_value_list_next_2=list_next(i);
+  strlcpy(buf, (const char *)return_value_list_next_2, sizeof(char [32768l]) /*32768ul*/ );
+  void *return_value_list_next_3;
   do
   {
-    return_value_list_next$3=list_next(i);
-    p = (char *)return_value_list_next$3;
+    return_value_list_next_3=list_next(i);
+    p = (char *)return_value_list_next_3;
     if(p == ((char *)NULL))
       break;
 
@@ -14635,9 +14635,9 @@ static signed int query_consoles_via_regex(struct server_conf *conf, struct requ
   rc=regcomp(&rex, buf, 1 | 1 << 1);
   if(!(rc == 0))
   {
-    unsigned long int return_value_regerror$4;
-    return_value_regerror$4=regerror(rc, &rex, buf, sizeof(char [32768l]) /*32768ul*/ );
-    if(return_value_regerror$4 >= 32769ul)
+    unsigned long int return_value_regerror_4;
+    return_value_regerror_4=regerror(rc, &rex, buf, sizeof(char [32768l]) /*32768ul*/ );
+    if(return_value_regerror_4 >= 32769ul)
       log_msg(4, "Got regerror() buffer overrun");
 
     regfree(&rex);
@@ -14646,49 +14646,49 @@ static signed int query_consoles_via_regex(struct server_conf *conf, struct requ
   }
 
   i=list_iterator_create(conf->objs);
-  void *return_value_list_next$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  unsigned long int return_value_strlen$10;
+  void *return_value_list_next_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  unsigned long int return_value_strlen_10;
   do
   {
-    return_value_list_next$5=list_next(i);
-    obj = (struct base_obj *)return_value_list_next$5;
+    return_value_list_next_5=list_next(i);
+    obj = (struct base_obj *)return_value_list_next_5;
     if(obj == ((struct base_obj *)NULL))
       break;
 
     if((signed int)obj->type == CONMAN_OBJ_TELNET)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (signed int)obj->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_6 = (signed int)obj->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = (signed int)obj->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$7)
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_7 = (signed int)obj->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_7)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
-      tmp_if_expr$8 = (signed int)obj->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$8)
-      tmp_if_expr$9 = (_Bool)1;
+      tmp_if_expr_8 = (signed int)obj->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_8)
+      tmp_if_expr_9 = (_Bool)1;
 
     else
-      tmp_if_expr$9 = (signed int)obj->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$9)
+      tmp_if_expr_9 = (signed int)obj->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_9)
     {
-      signed int return_value_regexec$11;
-      return_value_regexec$11=regexec(&rex, obj->name, (unsigned long int)1, &match, 0);
-      if(return_value_regexec$11 == 0)
+      signed int return_value_regexec_11;
+      return_value_regexec_11=regexec(&rex, obj->name, (unsigned long int)1, &match, 0);
+      if(return_value_regexec_11 == 0)
       {
         if(match.rm_so == 0)
         {
-          return_value_strlen$10=strlen(obj->name);
-          if((unsigned long int)match.rm_eo == return_value_strlen$10)
+          return_value_strlen_10=strlen(obj->name);
+          if((unsigned long int)match.rm_eo == return_value_strlen_10)
             list_append(matches, (void *)obj);
 
         }
@@ -14715,18 +14715,18 @@ signed int read_from_obj(struct base_obj *obj, struct tpoll *tp)
   struct base_obj *reader;
   if(!(obj->gotEOF == 0u))
   {
-    signed int return_value_shutdown_obj$1;
-    return_value_shutdown_obj$1=shutdown_obj(obj);
-    return return_value_shutdown_obj$1;
+    signed int return_value_shutdown_obj_1;
+    return_value_shutdown_obj_1=shutdown_obj(obj);
+    return return_value_shutdown_obj_1;
   }
 
-  signed long int return_value_read$15;
-  signed int *return_value___errno_location$2;
-  _Bool tmp_if_expr$5;
-  signed int *return_value___errno_location$4;
-  signed int *return_value___errno_location$9;
-  signed int *return_value___errno_location$12;
-  void *return_value_list_next$14;
+  signed long int return_value_read_15;
+  signed int *return_value___errno_location_2;
+  _Bool tmp_if_expr_5;
+  signed int *return_value___errno_location_4;
+  signed int *return_value___errno_location_9;
+  signed int *return_value___errno_location_12;
+  void *return_value_list_next_14;
   if((signed int)obj->type == CONMAN_OBJ_TELNET)
   {
     if((signed int)obj->aux.telnet.state == 3)
@@ -14742,37 +14742,37 @@ signed int read_from_obj(struct base_obj *obj, struct tpoll *tp)
 
     again:
       ;
-      return_value_read$15=read(obj->fd, (void *)buf, sizeof(unsigned char [4095l]) /*4095ul*/ );
-      n = (signed int)return_value_read$15;
+      return_value_read_15=read(obj->fd, (void *)buf, sizeof(unsigned char [4095l]) /*4095ul*/ );
+      n = (signed int)return_value_read_15;
       if(n >= 0)
         goto __CPROVER_DUMP_L6;
 
-      return_value___errno_location$2=__errno_location();
+      return_value___errno_location_2=__errno_location();
     }
-    while(*return_value___errno_location$2 == 4);
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    if(*return_value___errno_location$3 == 11)
-      tmp_if_expr$5 = (_Bool)1;
+    while(*return_value___errno_location_2 == 4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    if(*return_value___errno_location_3 == 11)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$4=__errno_location();
-      tmp_if_expr$5 = *return_value___errno_location$4 == 11 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_4=__errno_location();
+      tmp_if_expr_5 = *return_value___errno_location_4 == 11 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
+    if(tmp_if_expr_5)
       return 0;
 
     else
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      char *return_value_strerror$7;
-      return_value_strerror$7=strerror(*return_value___errno_location$6);
-      log_msg(6, "Unable to read from [%s]: %s", obj->name, return_value_strerror$7);
-      signed int return_value_shutdown_obj$8;
-      return_value_shutdown_obj$8=shutdown_obj(obj);
-      return return_value_shutdown_obj$8;
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      char *return_value_strerror_7;
+      return_value_strerror_7=strerror(*return_value___errno_location_6);
+      log_msg(6, "Unable to read from [%s]: %s", obj->name, return_value_strerror_7);
+      signed int return_value_shutdown_obj_8;
+      return_value_shutdown_obj_8=shutdown_obj(obj);
+      return return_value_shutdown_obj_8;
 
     __CPROVER_DUMP_L6:
       ;
@@ -14789,13 +14789,13 @@ signed int read_from_obj(struct base_obj *obj, struct tpoll *tp)
         {
           do
           {
-            signed int *return_value___errno_location$10;
-            return_value___errno_location$10=__errno_location();
-            *return_value___errno_location$10=pthread_mutex_lock(&obj->bufLock);
-            if(!(*return_value___errno_location$10 == 0))
+            signed int *return_value___errno_location_10;
+            return_value___errno_location_10=__errno_location();
+            *return_value___errno_location_10=pthread_mutex_lock(&obj->bufLock);
+            if(!(*return_value___errno_location_10 == 0))
             {
-              return_value___errno_location$9=__errno_location();
-              log_err(*return_value___errno_location$9, "pthread_mutex_lock() failed");
+              return_value___errno_location_9=__errno_location();
+              log_err(*return_value___errno_location_9, "pthread_mutex_lock() failed");
             }
 
           }
@@ -14803,20 +14803,20 @@ signed int read_from_obj(struct base_obj *obj, struct tpoll *tp)
           time(&obj->aux.client.timeLastRead);
           if(obj->aux.client.timeLastRead == -1l)
           {
-            signed int *return_value___errno_location$11;
-            return_value___errno_location$11=__errno_location();
-            log_err(*return_value___errno_location$11, "time() failed");
+            signed int *return_value___errno_location_11;
+            return_value___errno_location_11=__errno_location();
+            log_err(*return_value___errno_location_11, "time() failed");
           }
 
           do
           {
-            signed int *return_value___errno_location$13;
-            return_value___errno_location$13=__errno_location();
-            *return_value___errno_location$13=pthread_mutex_unlock(&obj->bufLock);
-            if(!(*return_value___errno_location$13 == 0))
+            signed int *return_value___errno_location_13;
+            return_value___errno_location_13=__errno_location();
+            *return_value___errno_location_13=pthread_mutex_unlock(&obj->bufLock);
+            if(!(*return_value___errno_location_13 == 0))
             {
-              return_value___errno_location$12=__errno_location();
-              log_err(*return_value___errno_location$12, "pthread_mutex_unlock() failed");
+              return_value___errno_location_12=__errno_location();
+              log_err(*return_value___errno_location_12, "pthread_mutex_unlock() failed");
             }
 
           }
@@ -14833,8 +14833,8 @@ signed int read_from_obj(struct base_obj *obj, struct tpoll *tp)
           i=list_iterator_create(obj->readers);
           do
           {
-            return_value_list_next$14=list_next(i);
-            reader = (struct base_obj *)return_value_list_next$14;
+            return_value_list_next_14=list_next(i);
+            reader = (struct base_obj *)return_value_list_next_14;
             if(reader == ((struct base_obj *)NULL))
               break;
 
@@ -14871,16 +14871,16 @@ signed long int read_line(signed int fd, void *buf, unsigned long int maxlen)
   unsigned char *p;
   n = (signed long int)0;
   p = (unsigned char *)buf;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   while(!((unsigned long int)n >= maxlen + 18446744073709551615ul))
   {
     rc=read(fd, (void *)&c, (unsigned long int)1);
     if(rc == 1l)
     {
       n = n + 1l;
-      tmp_post$1 = p;
+      tmp_post_1 = p;
       p = p + 1l;
-      *tmp_post$1 = c;
+      *tmp_post_1 = c;
       if((signed int)c == 10)
         break;
 
@@ -14898,9 +14898,9 @@ signed long int read_line(signed int fd, void *buf, unsigned long int maxlen)
 
       else
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        if(!(*return_value___errno_location$2 == 4))
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        if(!(*return_value___errno_location_2 == 4))
           return (signed long int)-1;
 
       }
@@ -14922,9 +14922,9 @@ signed long int read_n(signed int fd, void *buf, unsigned long int n)
     nread=read(fd, (void *)p, nleft);
     if(!(nread >= 0l))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 4)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 4)
         continue;
 
       else
@@ -14967,9 +14967,9 @@ static signed int read_pidfile(const char *pidfile)
         if(!(n == 1))
           log_msg(4, "Unable to obtain pid from pidfile \"%s\"", pidfile);
 
-      signed int return_value_fclose$1;
-      return_value_fclose$1=fclose(fp);
-      if(return_value_fclose$1 == -1)
+      signed int return_value_fclose_1;
+      return_value_fclose_1=fclose(fp);
+      if(return_value_fclose_1 == -1)
         log_msg(4, "Unable to close pidfile \"%s\"", pidfile);
 
       return n == 1 && pid > 1 ? pid : 0;
@@ -14984,18 +14984,18 @@ static signed int recv_greeting(struct request *req)
   signed int n;
   char buf[32768l];
   struct lexer_state *l;
-  signed int recv_greeting$$1$$done = 0;
+  signed int recv_greeting__1__done = 0;
   signed int tok;
-  signed long int return_value_read_line$3;
-  return_value_read_line$3=read_line(req->sd, (void *)buf, sizeof(char [32768l]) /*32768ul*/ );
-  n = (signed int)return_value_read_line$3;
+  signed long int return_value_read_line_3;
+  return_value_read_line_3=read_line(req->sd, (void *)buf, sizeof(char [32768l]) /*32768ul*/ );
+  n = (signed int)return_value_read_line_3;
   if(!(n >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(5, "Unable to read greeting from <%s:%d>: %s", req->fqdn, req->port, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(5, "Unable to read greeting from <%s:%d>: %s", req->fqdn, req->port, return_value_strerror_2);
     return -1;
   }
 
@@ -15007,7 +15007,7 @@ static signed int recv_greeting(struct request *req)
     }
 
   l=lex_create((void *)buf, proto_strs);
-  while(recv_greeting$$1$$done == 0)
+  while(recv_greeting__1__done == 0)
   {
     tok=lex_next(l);
     switch(tok)
@@ -15020,7 +15020,7 @@ static signed int recv_greeting(struct request *req)
       case 0:
 
       case 256:
-        recv_greeting$$1$$done = 1;
+        recv_greeting__1__done = 1;
       default:
         ;
     }
@@ -15035,9 +15035,9 @@ static signed int recv_greeting(struct request *req)
 
   else
   {
-    signed int return_value_send_rsp$4;
-    return_value_send_rsp$4=send_rsp(req, 0, (char *)(void *)0);
-    return return_value_send_rsp$4;
+    signed int return_value_send_rsp_4;
+    return_value_send_rsp_4=send_rsp(req, 0, (char *)(void *)0);
+    return return_value_send_rsp_4;
   }
 }
 
@@ -15048,18 +15048,18 @@ static signed int recv_req(struct request *req)
   signed int n;
   char buf[32768l];
   struct lexer_state *l;
-  signed int recv_req$$1$$done = 0;
+  signed int recv_req__1__done = 0;
   signed int tok;
-  signed long int return_value_read_line$3;
-  return_value_read_line$3=read_line(req->sd, (void *)buf, sizeof(char [32768l]) /*32768ul*/ );
-  n = (signed int)return_value_read_line$3;
+  signed long int return_value_read_line_3;
+  return_value_read_line_3=read_line(req->sd, (void *)buf, sizeof(char [32768l]) /*32768ul*/ );
+  n = (signed int)return_value_read_line_3;
   if(!(n >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(5, "Unable to read request from <%s:%d>: %s", req->fqdn, req->port, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(5, "Unable to read request from <%s:%d>: %s", req->fqdn, req->port, return_value_strerror_2);
     return -1;
   }
 
@@ -15071,7 +15071,7 @@ static signed int recv_req(struct request *req)
     }
 
   l=lex_create((void *)buf, proto_strs);
-  while(recv_req$$1$$done == 0)
+  while(recv_req__1__done == 0)
   {
     tok=lex_next(l);
     switch(tok)
@@ -15097,7 +15097,7 @@ static signed int recv_req(struct request *req)
       case 0:
 
       case 256:
-        recv_req$$1$$done = 1;
+        recv_req__1__done = 1;
       default:
         ;
     }
@@ -15110,9 +15110,9 @@ static signed int recv_req(struct request *req)
 // file util-file.c line 111
 signed int release_lock(signed int fd)
 {
-  signed int return_value_get_file_lock$1;
-  return_value_get_file_lock$1=get_file_lock(fd, 6, 2);
-  return return_value_get_file_lock$1;
+  signed int return_value_get_file_lock_1;
+  return_value_get_file_lock_1=get_file_lock(fd, 6, 2);
+  return return_value_get_file_lock_1;
 }
 
 // reopen_logfiles
@@ -15122,11 +15122,11 @@ static void reopen_logfiles(struct server_conf *conf)
   struct listIterator *i;
   struct base_obj *logfile;
   i=list_iterator_create(conf->objs);
-  void *return_value_list_next$1;
+  void *return_value_list_next_1;
   do
   {
-    return_value_list_next$1=list_next(i);
-    logfile = (struct base_obj *)return_value_list_next$1;
+    return_value_list_next_1=list_next(i);
+    logfile = (struct base_obj *)return_value_list_next_1;
     if(logfile == ((struct base_obj *)NULL))
       break;
 
@@ -15213,9 +15213,9 @@ static void reset_console(struct base_obj *console, const char *cmd)
   signed int pid;
   signed int *arg;
   console->gotReset = (unsigned int)0;
-  signed int return_value_format_obj_string$1;
-  return_value_format_obj_string$1=format_obj_string(buf, (signed int)sizeof(char [1024l]) /*1024ul*/ , console, cmd);
-  if(!(return_value_format_obj_string$1 >= 0))
+  signed int return_value_format_obj_string_1;
+  return_value_format_obj_string_1=format_obj_string(buf, (signed int)sizeof(char [1024l]) /*1024ul*/ , console, cmd);
+  if(!(return_value_format_obj_string_1 >= 0))
     log_msg(5, "Unable to reset console [%s]: command too long", console->name);
 
   else
@@ -15223,11 +15223,11 @@ static void reset_console(struct base_obj *console, const char *cmd)
     pid=fork();
     if(!(pid >= 0))
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      log_msg(5, "Unable to reset console [%s]: %s", console->name, return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      log_msg(5, "Unable to reset console [%s]: %s", console->name, return_value_strerror_3);
       goto __CPROVER_DUMP_L6;
     }
 
@@ -15244,9 +15244,9 @@ static void reset_console(struct base_obj *console, const char *cmd)
 
     setpgid(pid, 0);
     log_msg(6, "Reset console [%s] (pid %d)", console->name, pid);
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc(sizeof(signed int) /*4ul*/ );
-    arg = (signed int *)return_value_malloc$4;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc(sizeof(signed int) /*4ul*/ );
+    arg = (signed int *)return_value_malloc_4;
     if(arg == ((signed int *)NULL))
     {
       log_err(0, "Out of memory");
@@ -15254,9 +15254,9 @@ static void reset_console(struct base_obj *console, const char *cmd)
     }
 
     *arg = pid;
-    signed int return_value_tpoll_timeout_relative$5;
-    return_value_tpoll_timeout_relative$5=tpoll_timeout_relative(tp_global, (void (*)(void *))kill_console_reset, (void *)arg, 60 * 1000);
-    if(!(return_value_tpoll_timeout_relative$5 >= 0))
+    signed int return_value_tpoll_timeout_relative_5;
+    return_value_tpoll_timeout_relative_5=tpoll_timeout_relative(tp_global, (void (*)(void *))kill_console_reset, (void *)arg, 60 * 1000);
+    if(!(return_value_tpoll_timeout_relative_5 >= 0))
       log_msg(3, "Unable to create timer for resetting console [%s]", console->name);
 
     goto __CPROVER_DUMP_L6;
@@ -15270,32 +15270,32 @@ __CPROVER_DUMP_L6:
 // file server-ipmi.c line 1029
 static void reset_ipmi_delay(struct base_obj *ipmi)
 {
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_lock(&ipmi->aux.ipmi.mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_lock(&ipmi->aux.ipmi.mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
-      return_value___errno_location$1=__errno_location();
-      log_err(*return_value___errno_location$1, "pthread_mutex_lock() failed");
+      return_value___errno_location_1=__errno_location();
+      log_err(*return_value___errno_location_1, "pthread_mutex_lock() failed");
     }
 
   }
   while((_Bool)0);
   ipmi->aux.ipmi.delay = 60;
   ipmi->aux.ipmi.timer = -1;
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_3;
   do
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    *return_value___errno_location$4=pthread_mutex_unlock(&ipmi->aux.ipmi.mutex);
-    if(!(*return_value___errno_location$4 == 0))
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    *return_value___errno_location_4=pthread_mutex_unlock(&ipmi->aux.ipmi.mutex);
+    if(!(*return_value___errno_location_4 == 0))
     {
-      return_value___errno_location$3=__errno_location();
-      log_err(*return_value___errno_location$3, "pthread_mutex_unlock() failed");
+      return_value___errno_location_3=__errno_location();
+      log_err(*return_value___errno_location_3, "pthread_mutex_unlock() failed");
     }
 
   }
@@ -15333,31 +15333,31 @@ static signed int resolve_addr(struct server_conf *conf, struct request *req, si
   char *p;
   signed int gotHostName = 0;
   req->sd = sd;
-  signed int return_value_getpeername$2;
-  return_value_getpeername$2=getpeername(sd, (struct sockaddr *)&addr, &addrlen);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_getpeername$2 >= 0))
+  signed int return_value_getpeername_2;
+  return_value_getpeername_2=getpeername(sd, (struct sockaddr *)&addr, &addrlen);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_getpeername_2 >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    log_err(*return_value___errno_location$1, "Unable to get address of remote peer");
+    return_value___errno_location_1=__errno_location();
+    log_err(*return_value___errno_location_1, "Unable to get address of remote peer");
   }
 
-  const char *return_value_inet_ntop$4;
-  return_value_inet_ntop$4=inet_ntop(2, (const void *)&addr.sin_addr, buf, (unsigned int)sizeof(char [1024l]) /*1024ul*/ );
-  signed int *return_value___errno_location$3;
-  if(return_value_inet_ntop$4 == ((const char *)NULL))
+  const char *return_value_inet_ntop_4;
+  return_value_inet_ntop_4=inet_ntop(2, (const void *)&addr.sin_addr, buf, (unsigned int)sizeof(char [1024l]) /*1024ul*/ );
+  signed int *return_value___errno_location_3;
+  if(return_value_inet_ntop_4 == ((const char *)NULL))
   {
-    return_value___errno_location$3=__errno_location();
-    log_err(*return_value___errno_location$3, "Unable to convert network address into string");
+    return_value___errno_location_3=__errno_location();
+    log_err(*return_value___errno_location_3, "Unable to convert network address into string");
   }
 
-  unsigned short int return_value_ntohs$5;
-  return_value_ntohs$5=ntohs(addr.sin_port);
-  req->port = (signed int)return_value_ntohs$5;
+  unsigned short int return_value_ntohs_5;
+  return_value_ntohs_5=ntohs(addr.sin_port);
+  req->port = (signed int)return_value_ntohs_5;
   req->ip=create_string(buf);
-  char *return_value_host_addr4_to_name$6;
-  return_value_host_addr4_to_name$6=host_addr4_to_name(&addr.sin_addr, buf, (signed int)sizeof(char [1024l]) /*1024ul*/ );
-  if(!(return_value_host_addr4_to_name$6 == ((char *)NULL)))
+  char *return_value_host_addr4_to_name_6;
+  return_value_host_addr4_to_name_6=host_addr4_to_name(&addr.sin_addr, buf, (signed int)sizeof(char [1024l]) /*1024ul*/ );
+  if(!(return_value_host_addr4_to_name_6 == ((char *)NULL)))
   {
     gotHostName = 1;
     req->fqdn=create_string(buf);
@@ -15373,17 +15373,17 @@ static signed int resolve_addr(struct server_conf *conf, struct request *req, si
     req->fqdn=create_string(buf);
     req->host=create_string(buf);
   }
-  char *tmp_if_expr$7;
+  char *tmp_if_expr_7;
   if(!(conf->enableTCPWrap == 0u))
   {
     if(!(gotHostName == 0))
-      tmp_if_expr$7 = req->fqdn;
+      tmp_if_expr_7 = req->fqdn;
 
     else
-      tmp_if_expr$7 = "unknown";
-    signed int return_value_hosts_ctl$8;
-    return_value_hosts_ctl$8=hosts_ctl("conmand", tmp_if_expr$7, req->ip, "unknown");
-    if(return_value_hosts_ctl$8 == 0)
+      tmp_if_expr_7 = "unknown";
+    signed int return_value_hosts_ctl_8;
+    return_value_hosts_ctl_8=hosts_ctl("conmand", tmp_if_expr_7, req->ip, "unknown");
+    if(return_value_hosts_ctl_8 == 0)
     {
       log_msg(5, "TCP-Wrappers rejected connection from <%s:%d>", req->fqdn, req->port);
       return -1;
@@ -15399,20 +15399,20 @@ static signed int resolve_addr(struct server_conf *conf, struct request *req, si
 static char * sanitize_file_string(char *str)
 {
   char *p;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(str == ((char *)NULL)))
   {
     p = str;
     for( ; !(*p == 0); p = p + 1l)
     {
-      const unsigned short int **return_value___ctype_b_loc$1;
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      if((32768 & (signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*p]) == 0)
-        tmp_if_expr$2 = (_Bool)1;
+      const unsigned short int **return_value___ctype_b_loc_1;
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      if((32768 & (signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*p]) == 0)
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)*p == 47 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
+        tmp_if_expr_2 = (signed int)*p == 47 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
         *p = (char)95;
 
     }
@@ -15444,17 +15444,17 @@ static void schedule_timestamp(struct server_conf *conf)
   t=mktime(&tm);
   if(t == -1l)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    log_err(*return_value___errno_location$1, "Unable to determine time of next logfile timestamp");
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    log_err(*return_value___errno_location_1, "Unable to determine time of next logfile timestamp");
   }
 
   tv.tv_sec = t;
   tv.tv_usec = (signed long int)0;
   conf->tStampNext = t;
-  signed int return_value_tpoll_timeout_absolute$2;
-  return_value_tpoll_timeout_absolute$2=tpoll_timeout_absolute(tp_global, (void (*)(void *))timestamp_logfiles, (void *)conf, &tv);
-  if(!(return_value_tpoll_timeout_absolute$2 >= 0))
+  signed int return_value_tpoll_timeout_absolute_2;
+  return_value_tpoll_timeout_absolute_2=tpoll_timeout_absolute(tp_global, (void (*)(void *))timestamp_logfiles, (void *)conf, &tv);
+  if(!(return_value_tpoll_timeout_absolute_2 >= 0))
     log_err(0, "Unable to create timer for timestamping logfiles");
 
   goto __CPROVER_DUMP_L5;
@@ -15473,16 +15473,16 @@ static signed int search_exec_path(const char *path, const char *src, char *dst,
   char *q;
   struct stat st;
   signed int n;
-  _Bool tmp_if_expr$2;
-  char *tmp_post$3;
+  _Bool tmp_if_expr_2;
+  char *tmp_post_3;
   if(path == ((const char *)NULL))
     return -1;
 
   else
   {
-    unsigned long int return_value_strlcpy$1;
-    return_value_strlcpy$1=strlcpy(path_buf, path, sizeof(char [4096l]) /*4096ul*/ );
-    if(return_value_strlcpy$1 >= sizeof(char [4096l]) /*4096ul*/ )
+    unsigned long int return_value_strlcpy_1;
+    return_value_strlcpy_1=strlcpy(path_buf, path, sizeof(char [4096l]) /*4096ul*/ );
+    if(return_value_strlcpy_1 >= sizeof(char [4096l]) /*4096ul*/ )
       return -1;
 
     else
@@ -15491,41 +15491,41 @@ static signed int search_exec_path(const char *path, const char *src, char *dst,
       do
       {
         if(!(p == ((char *)NULL)))
-          tmp_if_expr$2 = *p != 0 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = *p != 0 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(!tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(!tmp_if_expr_2)
           break;
 
         q=strchr(p, 58);
         if(!(q == ((char *)NULL)))
         {
-          tmp_post$3 = q;
+          tmp_post_3 = q;
           q = q + 1l;
-          *tmp_post$3 = (char)0;
+          *tmp_post_3 = (char)0;
         }
 
         else
           q=strchr(p, 0);
-        signed int return_value_stat$4;
-        return_value_stat$4=stat(p, &st);
-        if(return_value_stat$4 >= 0)
+        signed int return_value_stat_4;
+        return_value_stat_4=stat(p, &st);
+        if(return_value_stat_4 >= 0)
         {
           if((61440u & st.st_mode) == 16384u)
           {
             n=snprintf(file_buf, sizeof(char [4096l]) /*4096ul*/ , "%s/%s", p, src);
             if(!((unsigned long int)n >= sizeof(char [4096l]) /*4096ul*/ ) && n >= 0)
             {
-              signed int return_value_access$5;
-              return_value_access$5=access(file_buf, 1);
-              if(return_value_access$5 >= 0)
+              signed int return_value_access_5;
+              return_value_access_5=access(file_buf, 1);
+              if(return_value_access_5 >= 0)
               {
                 if(dstlen >= 1 && !(dst == ((char *)NULL)))
                 {
-                  unsigned long int return_value_strlcpy$6;
-                  return_value_strlcpy$6=strlcpy(dst, file_buf, (unsigned long int)dstlen);
-                  if(return_value_strlcpy$6 >= (unsigned long int)dstlen)
+                  unsigned long int return_value_strlcpy_6;
+                  return_value_strlcpy_6=strlcpy(dst, file_buf, (unsigned long int)dstlen);
+                  if(return_value_strlcpy_6 >= (unsigned long int)dstlen)
                     return 1;
 
                 }
@@ -15552,16 +15552,16 @@ static signed int search_exec_path(const char *path, const char *src, char *dst,
 signed int send_ipmi_break(struct base_obj *ipmi)
 {
   signed int rc;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_lock(&ipmi->aux.ipmi.mutex);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_lock(&ipmi->aux.ipmi.mutex);
+    if(!(*return_value___errno_location_2 == 0))
     {
-      return_value___errno_location$1=__errno_location();
-      log_err(*return_value___errno_location$1, "pthread_mutex_lock() failed");
+      return_value___errno_location_1=__errno_location();
+      log_err(*return_value___errno_location_1, "pthread_mutex_lock() failed");
     }
 
   }
@@ -15574,16 +15574,16 @@ signed int send_ipmi_break(struct base_obj *ipmi)
 
   else
     rc=ipmiconsole_ctx_generate_break(ipmi->aux.ipmi.ctx);
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_3;
   do
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    *return_value___errno_location$4=pthread_mutex_unlock(&ipmi->aux.ipmi.mutex);
-    if(!(*return_value___errno_location$4 == 0))
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    *return_value___errno_location_4=pthread_mutex_unlock(&ipmi->aux.ipmi.mutex);
+    if(!(*return_value___errno_location_4 == 0))
     {
-      return_value___errno_location$3=__errno_location();
-      log_err(*return_value___errno_location$3, "pthread_mutex_unlock() failed");
+      return_value___errno_location_3=__errno_location();
+      log_err(*return_value___errno_location_3, "pthread_mutex_unlock() failed");
     }
 
   }
@@ -15600,57 +15600,57 @@ static signed int send_rsp(struct request *req, signed int errnum, char *errmsg)
   signed int n;
   struct listIterator *i;
   struct base_obj *console;
-  void *return_value_list_next$3;
+  void *return_value_list_next_3;
   if(errnum == 0)
   {
-    unsigned long int return_value_append_format_string$1;
-    return_value_append_format_string$1=append_format_string(buf, sizeof(char [32768l]) /*32768ul*/ , "%s", proto_strs[(signed long int)(269 < 259 ? 269 : 269 - 259)]);
-    n = (signed int)return_value_append_format_string$1;
-    signed int return_value_list_count$7;
-    return_value_list_count$7=list_count(req->consoles);
-    if(return_value_list_count$7 >= 1)
+    unsigned long int return_value_append_format_string_1;
+    return_value_append_format_string_1=append_format_string(buf, sizeof(char [32768l]) /*32768ul*/ , "%s", proto_strs[(signed long int)(269 < 259 ? 269 : 269 - 259)]);
+    n = (signed int)return_value_append_format_string_1;
+    signed int return_value_list_count_7;
+    return_value_list_count_7=list_count(req->consoles);
+    if(return_value_list_count_7 >= 1)
     {
       if(!(req->enableReset == 0u))
       {
-        unsigned long int return_value_append_format_string$2;
-        return_value_append_format_string$2=append_format_string(buf, sizeof(char [32768l]) /*32768ul*/ , " %s=%s", proto_strs[(signed long int)(270 < 259 ? 270 : 270 - 259)], proto_strs[(signed long int)(274 < 259 ? 274 : 274 - 259)]);
-        n = (signed int)return_value_append_format_string$2;
+        unsigned long int return_value_append_format_string_2;
+        return_value_append_format_string_2=append_format_string(buf, sizeof(char [32768l]) /*32768ul*/ , " %s=%s", proto_strs[(signed long int)(270 < 259 ? 270 : 270 - 259)], proto_strs[(signed long int)(274 < 259 ? 274 : 274 - 259)]);
+        n = (signed int)return_value_append_format_string_2;
       }
 
       i=list_iterator_create(req->consoles);
       do
       {
-        return_value_list_next$3=list_next(i);
-        console = (struct base_obj *)return_value_list_next$3;
+        return_value_list_next_3=list_next(i);
+        console = (struct base_obj *)return_value_list_next_3;
         if(console == ((struct base_obj *)NULL))
           break;
 
-        unsigned long int return_value_strlcpy$4;
-        return_value_strlcpy$4=strlcpy(tmp, console->name, sizeof(char [1024l]) /*1024ul*/ );
-        n = (signed int)return_value_strlcpy$4;
-        char *return_value_lex_encode$5;
-        return_value_lex_encode$5=lex_encode(tmp);
-        unsigned long int return_value_append_format_string$6;
-        return_value_append_format_string$6=append_format_string(buf, sizeof(char [32768l]) /*32768ul*/ , " %s='%s'", proto_strs[(signed long int)(262 < 259 ? 262 : 262 - 259)], return_value_lex_encode$5);
-        n = (signed int)return_value_append_format_string$6;
+        unsigned long int return_value_strlcpy_4;
+        return_value_strlcpy_4=strlcpy(tmp, console->name, sizeof(char [1024l]) /*1024ul*/ );
+        n = (signed int)return_value_strlcpy_4;
+        char *return_value_lex_encode_5;
+        return_value_lex_encode_5=lex_encode(tmp);
+        unsigned long int return_value_append_format_string_6;
+        return_value_append_format_string_6=append_format_string(buf, sizeof(char [32768l]) /*32768ul*/ , " %s='%s'", proto_strs[(signed long int)(262 < 259 ? 262 : 262 - 259)], return_value_lex_encode_5);
+        n = (signed int)return_value_append_format_string_6;
       }
       while((_Bool)1);
       list_iterator_destroy(i);
     }
 
-    unsigned long int return_value_append_format_string$8;
-    return_value_append_format_string$8=append_format_string(buf, sizeof(char [32768l]) /*32768ul*/ , "\n");
-    n = (signed int)return_value_append_format_string$8;
+    unsigned long int return_value_append_format_string_8;
+    return_value_append_format_string_8=append_format_string(buf, sizeof(char [32768l]) /*32768ul*/ , "\n");
+    n = (signed int)return_value_append_format_string_8;
   }
 
   else
   {
-    unsigned long int return_value_strlcpy$9;
-    return_value_strlcpy$9=strlcpy(tmp, errmsg != ((char *)NULL) ? errmsg : "unspecified error", sizeof(char [1024l]) /*1024ul*/ );
-    n = (signed int)return_value_strlcpy$9;
-    char *return_value_lex_encode$10;
-    return_value_lex_encode$10=lex_encode(tmp);
-    n=snprintf(buf, sizeof(char [32768l]) /*32768ul*/ , "%s %s=%d %s='%s'\n", proto_strs[(signed long int)(263 < 259 ? 263 : 263 - 259)], proto_strs[(signed long int)(260 < 259 ? 260 : 260 - 259)], errnum, proto_strs[(signed long int)(267 < 259 ? 267 : 267 - 259)], return_value_lex_encode$10);
+    unsigned long int return_value_strlcpy_9;
+    return_value_strlcpy_9=strlcpy(tmp, errmsg != ((char *)NULL) ? errmsg : "unspecified error", sizeof(char [1024l]) /*1024ul*/ );
+    n = (signed int)return_value_strlcpy_9;
+    char *return_value_lex_encode_10;
+    return_value_lex_encode_10=lex_encode(tmp);
+    n=snprintf(buf, sizeof(char [32768l]) /*32768ul*/ , "%s %s=%d %s='%s'\n", proto_strs[(signed long int)(263 < 259 ? 263 : 263 - 259)], proto_strs[(signed long int)(260 < 259 ? 260 : 260 - 259)], errnum, proto_strs[(signed long int)(267 < 259 ? 267 : 267 - 259)], return_value_lex_encode_10);
     log_msg(5, "Client <%s@%s:%d> request failed: %s", req->user, req->fqdn, req->port, errmsg);
   }
   if((unsigned long int)n >= sizeof(char [32768l]) /*32768ul*/  || !(n >= 0))
@@ -15661,17 +15661,17 @@ static signed int send_rsp(struct request *req, signed int errnum, char *errmsg)
 
   else
   {
-    unsigned long int return_value_strlen$13;
-    return_value_strlen$13=strlen(buf);
-    signed long int return_value_write_n$14;
-    return_value_write_n$14=write_n(req->sd, (void *)buf, return_value_strlen$13);
-    if(!(return_value_write_n$14 >= 0l))
+    unsigned long int return_value_strlen_13;
+    return_value_strlen_13=strlen(buf);
+    signed long int return_value_write_n_14;
+    return_value_write_n_14=write_n(req->sd, (void *)buf, return_value_strlen_13);
+    if(!(return_value_write_n_14 >= 0l))
     {
-      signed int *return_value___errno_location$11;
-      return_value___errno_location$11=__errno_location();
-      char *return_value_strerror$12;
-      return_value_strerror$12=strerror(*return_value___errno_location$11);
-      log_msg(5, "Unable to write to <%s:%d>: %s", req->fqdn, req->port, return_value_strerror$12);
+      signed int *return_value___errno_location_11;
+      return_value___errno_location_11=__errno_location();
+      char *return_value_strerror_12;
+      return_value_strerror_12=strerror(*return_value___errno_location_11);
+      log_msg(5, "Unable to write to <%s:%d>: %s", req->fqdn, req->port, return_value_strerror_12);
       return -1;
     }
 
@@ -15686,23 +15686,23 @@ signed int send_telnet_cmd(struct base_obj *telnet, signed int cmd, signed int o
   unsigned char buf[3l];
   unsigned char *p = buf;
   char opt_buf[8l];
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(telnet->fd >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (signed int)telnet->aux.telnet.state != 3 ? (_Bool)1 : (_Bool)0;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (signed int)telnet->aux.telnet.state != 3 ? (_Bool)1 : (_Bool)0;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
-    tmp_post$2 = p;
+    tmp_post_2 = p;
     p = p + 1l;
-    *tmp_post$2 = (unsigned char)255;
+    *tmp_post_2 = (unsigned char)255;
     if(!((unsigned int)cmd >= 236u) || (unsigned int)cmd >= 256u)
     {
       log_msg(4, "Invalid telnet cmd=%#.2x for console [%s]", cmd, telnet->name);
@@ -15711,19 +15711,19 @@ signed int send_telnet_cmd(struct base_obj *telnet, signed int cmd, signed int o
 
     else
     {
-      tmp_post$3 = p;
+      tmp_post_3 = p;
       p = p + 1l;
-      *tmp_post$3 = (unsigned char)cmd;
+      *tmp_post_3 = (unsigned char)cmd;
       if(cmd == 251 || cmd == 252 || cmd == 253 || cmd == 254)
       {
-        tmp_post$4 = p;
+        tmp_post_4 = p;
         p = p + 1l;
-        *tmp_post$4 = (unsigned char)opt;
+        *tmp_post_4 = (unsigned char)opt;
       }
 
-      signed int return_value_write_obj_data$5;
-      return_value_write_obj_data$5=write_obj_data(telnet, (const void *)buf, (signed int)(p - buf), 0);
-      if(!(return_value_write_obj_data$5 >= 1))
+      signed int return_value_write_obj_data_5;
+      return_value_write_obj_data_5=write_obj_data(telnet, (const void *)buf, (signed int)(p - buf), 0);
+      if(!(return_value_write_obj_data_5 >= 1))
         return -1;
 
       else
@@ -15741,20 +15741,20 @@ void set_fd_blocking(signed int fd)
 {
   signed int fval;
   fval=fcntl(fd, 3, 0);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(!(fval >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    log_err(*return_value___errno_location$1, "fcntl(F_GETFL) failed");
+    return_value___errno_location_1=__errno_location();
+    log_err(*return_value___errno_location_1, "fcntl(F_GETFL) failed");
   }
 
-  signed int return_value_fcntl$3;
-  return_value_fcntl$3=fcntl(fd, 4, fval & ~04000);
-  signed int *return_value___errno_location$2;
-  if(!(return_value_fcntl$3 >= 0))
+  signed int return_value_fcntl_3;
+  return_value_fcntl_3=fcntl(fd, 4, fval & ~04000);
+  signed int *return_value___errno_location_2;
+  if(!(return_value_fcntl_3 >= 0))
   {
-    return_value___errno_location$2=__errno_location();
-    log_err(*return_value___errno_location$2, "fcntl(F_SETFL) failed");
+    return_value___errno_location_2=__errno_location();
+    log_err(*return_value___errno_location_2, "fcntl(F_SETFL) failed");
   }
 
   goto __CPROVER_DUMP_L3;
@@ -15767,13 +15767,13 @@ __CPROVER_DUMP_L3:
 // file util-file.h line 38
 void set_fd_closed_on_exec(signed int fd)
 {
-  signed int return_value_fcntl$2;
-  return_value_fcntl$2=fcntl(fd, 2, 1);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_fcntl$2 >= 0))
+  signed int return_value_fcntl_2;
+  return_value_fcntl_2=fcntl(fd, 2, 1);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_fcntl_2 >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    log_err(*return_value___errno_location$1, "fcntl(F_SETFD) failed");
+    return_value___errno_location_1=__errno_location();
+    log_err(*return_value___errno_location_1, "fcntl(F_SETFD) failed");
   }
 
   goto __CPROVER_DUMP_L2;
@@ -15788,20 +15788,20 @@ void set_fd_nonblocking(signed int fd)
 {
   signed int fval;
   fval=fcntl(fd, 3, 0);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(!(fval >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    log_err(*return_value___errno_location$1, "fcntl(F_GETFL) failed");
+    return_value___errno_location_1=__errno_location();
+    log_err(*return_value___errno_location_1, "fcntl(F_GETFL) failed");
   }
 
-  signed int return_value_fcntl$3;
-  return_value_fcntl$3=fcntl(fd, 4, fval | 04000);
-  signed int *return_value___errno_location$2;
-  if(!(return_value_fcntl$3 >= 0))
+  signed int return_value_fcntl_3;
+  return_value_fcntl_3=fcntl(fd, 4, fval | 04000);
+  signed int *return_value___errno_location_2;
+  if(!(return_value_fcntl_3 >= 0))
   {
-    return_value___errno_location$2=__errno_location();
-    log_err(*return_value___errno_location$2, "fcntl(F_SETFL) failed");
+    return_value___errno_location_2=__errno_location();
+    log_err(*return_value___errno_location_2, "fcntl(F_SETFL) failed");
   }
 
   goto __CPROVER_DUMP_L3;
@@ -15814,22 +15814,22 @@ __CPROVER_DUMP_L3:
 // file server-serial.c line 256
 void set_serial_opts(struct termios *tty, struct base_obj *serial, struct serial_opt *opts)
 {
-  signed int return_value_cfsetispeed$2;
-  return_value_cfsetispeed$2=cfsetispeed(tty, opts->bps);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_cfsetispeed$2 >= 0))
+  signed int return_value_cfsetispeed_2;
+  return_value_cfsetispeed_2=cfsetispeed(tty, opts->bps);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_cfsetispeed_2 >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    log_err(*return_value___errno_location$1, "Unable to set [%s] input baud rate to %d", serial->name, opts->bps);
+    return_value___errno_location_1=__errno_location();
+    log_err(*return_value___errno_location_1, "Unable to set [%s] input baud rate to %d", serial->name, opts->bps);
   }
 
-  signed int return_value_cfsetospeed$4;
-  return_value_cfsetospeed$4=cfsetospeed(tty, opts->bps);
-  signed int *return_value___errno_location$3;
-  if(!(return_value_cfsetospeed$4 >= 0))
+  signed int return_value_cfsetospeed_4;
+  return_value_cfsetospeed_4=cfsetospeed(tty, opts->bps);
+  signed int *return_value___errno_location_3;
+  if(!(return_value_cfsetospeed_4 >= 0))
   {
-    return_value___errno_location$3=__errno_location();
-    log_err(*return_value___errno_location$3, "Unable to set [%s] output baud rate to %d", serial->name, opts->bps);
+    return_value___errno_location_3=__errno_location();
+    log_err(*return_value___errno_location_3, "Unable to set [%s] output baud rate to %d", serial->name, opts->bps);
   }
 
   tty->c_cflag = tty->c_cflag & (unsigned int)~0000060;
@@ -15873,17 +15873,17 @@ __CPROVER_DUMP_L12:
 // file common.h line 202
 void set_tty_mode(struct termios *tty, signed int fd)
 {
-  signed int return_value_isatty$1;
-  return_value_isatty$1=isatty(fd);
-  signed int *return_value___errno_location$2;
-  if(!(return_value_isatty$1 == 0))
+  signed int return_value_isatty_1;
+  return_value_isatty_1=isatty(fd);
+  signed int *return_value___errno_location_2;
+  if(!(return_value_isatty_1 == 0))
   {
-    signed int return_value_tcsetattr$3;
-    return_value_tcsetattr$3=tcsetattr(fd, 2, tty);
-    if(!(return_value_tcsetattr$3 >= 0))
+    signed int return_value_tcsetattr_3;
+    return_value_tcsetattr_3=tcsetattr(fd, 2, tty);
+    if(!(return_value_tcsetattr_3 >= 0))
     {
-      return_value___errno_location$2=__errno_location();
-      log_err(*return_value___errno_location$2, "tcgetattr() failed on fd=%d", fd);
+      return_value___errno_location_2=__errno_location();
+      log_err(*return_value___errno_location_2, "tcgetattr() failed on fd=%d", fd);
     }
 
     goto __CPROVER_DUMP_L2;
@@ -15918,13 +15918,13 @@ static void setup_coredump(struct server_conf *conf)
     coredump = 0;
     coredumpdir[(signed long int)0] = (char)0;
   }
-  signed int return_value_setrlimit$2;
-  return_value_setrlimit$2=setrlimit(4, &limit);
-  if(!(return_value_setrlimit$2 >= 0))
+  signed int return_value_setrlimit_2;
+  return_value_setrlimit_2=setrlimit(4, &limit);
+  if(!(return_value_setrlimit_2 >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    log_err(*return_value___errno_location$1, "Unable to set core dump file limit");
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    log_err(*return_value___errno_location_1, "Unable to set core dump file limit");
   }
 
   goto __CPROVER_DUMP_L6;
@@ -15954,36 +15954,36 @@ static void setup_signals(struct server_conf *conf)
 // file server-obj.c line 758
 signed int shutdown_obj(struct base_obj *obj)
 {
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$5;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_5;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
   if(!(obj->fd >= 0))
     return 0;
 
   else
   {
-    signed int return_value_close$2;
-    return_value_close$2=close(obj->fd);
-    if(!(return_value_close$2 >= 0))
+    signed int return_value_close_2;
+    return_value_close_2=close(obj->fd);
+    if(!(return_value_close_2 >= 0))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      log_err(*return_value___errno_location$1, "Unable to close object [%s]", obj->name);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      log_err(*return_value___errno_location_1, "Unable to close object [%s]", obj->name);
     }
 
     obj->fd = -1;
     do
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4=pthread_mutex_lock(&obj->bufLock);
-      if(!(*return_value___errno_location$4 == 0))
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4=pthread_mutex_lock(&obj->bufLock);
+      if(!(*return_value___errno_location_4 == 0))
       {
-        return_value___errno_location$3=__errno_location();
-        log_err(*return_value___errno_location$3, "pthread_mutex_lock() failed");
+        return_value___errno_location_3=__errno_location();
+        log_err(*return_value___errno_location_3, "pthread_mutex_lock() failed");
       }
 
     }
@@ -15992,13 +15992,13 @@ signed int shutdown_obj(struct base_obj *obj)
     obj->bufInPtr = obj->bufOutPtr;
     do
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      *return_value___errno_location$6=pthread_mutex_unlock(&obj->bufLock);
-      if(!(*return_value___errno_location$6 == 0))
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      *return_value___errno_location_6=pthread_mutex_unlock(&obj->bufLock);
+      if(!(*return_value___errno_location_6 == 0))
       {
-        return_value___errno_location$5=__errno_location();
-        log_err(*return_value___errno_location$5, "pthread_mutex_unlock() failed");
+        return_value___errno_location_5=__errno_location();
+        log_err(*return_value___errno_location_5, "pthread_mutex_unlock() failed");
       }
 
     }
@@ -16016,26 +16016,26 @@ signed int shutdown_obj(struct base_obj *obj)
       else
       {
         if((signed int)obj->type == CONMAN_OBJ_TELNET)
-          tmp_if_expr$7 = (_Bool)1;
+          tmp_if_expr_7 = (_Bool)1;
 
         else
-          tmp_if_expr$7 = (signed int)obj->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$7)
-          tmp_if_expr$8 = (_Bool)1;
+          tmp_if_expr_7 = (signed int)obj->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_7)
+          tmp_if_expr_8 = (_Bool)1;
 
         else
-          tmp_if_expr$8 = (signed int)obj->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$8)
-          tmp_if_expr$9 = (_Bool)1;
+          tmp_if_expr_8 = (signed int)obj->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_8)
+          tmp_if_expr_9 = (_Bool)1;
 
         else
-          tmp_if_expr$9 = (signed int)obj->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$9)
-          tmp_if_expr$10 = (_Bool)1;
+          tmp_if_expr_9 = (signed int)obj->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_9)
+          tmp_if_expr_10 = (_Bool)1;
 
         else
-          tmp_if_expr$10 = (signed int)obj->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$10)
+          tmp_if_expr_10 = (signed int)obj->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_10)
         {
           reopen_obj(obj);
           return 0;
@@ -16097,32 +16097,32 @@ static void signal_daemon(struct server_conf *conf)
     conf->pidFileName = (char *)(void *)0;
   }
 
-  signed int return_value_kill$5;
-  return_value_kill$5=kill(pid, conf->throwSignal);
-  _Bool tmp_if_expr$4;
-  signed int *return_value___errno_location$3;
-  signed int *return_value___errno_location$2;
-  if(!(return_value_kill$5 >= 0))
+  signed int return_value_kill_5;
+  return_value_kill_5=kill(pid, conf->throwSignal);
+  _Bool tmp_if_expr_4;
+  signed int *return_value___errno_location_3;
+  signed int *return_value___errno_location_2;
+  if(!(return_value_kill_5 >= 0))
   {
     if(conf->throwSignal == 0)
     {
-      return_value___errno_location$3=__errno_location();
-      tmp_if_expr$4 = *return_value___errno_location$3 == 1 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_3=__errno_location();
+      tmp_if_expr_4 = *return_value___errno_location_3 == 1 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(!tmp_if_expr$4)
+      tmp_if_expr_4 = (_Bool)0;
+    if(!tmp_if_expr_4)
     {
-      return_value___errno_location$2=__errno_location();
-      if(*return_value___errno_location$2 == 3)
+      return_value___errno_location_2=__errno_location();
+      if(*return_value___errno_location_2 == 3)
         log_err(0, "Configuration \"%s\" does not appear to be active", conf->confFileName);
 
       else
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        log_err(*return_value___errno_location$1, "Configuration \"%s\" (pid %d) cannot be sent signal=%d", conf->confFileName, (signed int)pid, conf->throwSignal);
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        log_err(*return_value___errno_location_1, "Configuration \"%s\" (pid %d) cannot be sent signal=%d", conf->confFileName, (signed int)pid, conf->throwSignal);
       }
     }
 
@@ -16159,12 +16159,12 @@ unsigned long int strlcat(char *dst, const char *src, unsigned long int siz)
   const char *s = src;
   unsigned long int n = siz;
   unsigned long int dlen;
-  unsigned long int tmp_post$1;
+  unsigned long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1ul;
-    if(tmp_post$1 == 0ul)
+    if(tmp_post_1 == 0ul)
       break;
 
     if((signed int)*d == 0)
@@ -16175,12 +16175,12 @@ unsigned long int strlcat(char *dst, const char *src, unsigned long int siz)
   while((_Bool)1);
   dlen = (unsigned long int)(d - dst);
   n = siz - dlen;
-  unsigned long int return_value_strlen$2;
-  char *tmp_post$3;
+  unsigned long int return_value_strlen_2;
+  char *tmp_post_3;
   if(n == 0ul)
   {
-    return_value_strlen$2=strlen(s);
-    return dlen + return_value_strlen$2;
+    return_value_strlen_2=strlen(s);
+    return dlen + return_value_strlen_2;
   }
 
   else
@@ -16188,9 +16188,9 @@ unsigned long int strlcat(char *dst, const char *src, unsigned long int siz)
     for( ; !((signed int)*s == 0); s = s + 1l)
       if(!(n == 1ul))
       {
-        tmp_post$3 = d;
+        tmp_post_3 = d;
         d = d + 1l;
-        *tmp_post$3 = *s;
+        *tmp_post_3 = *s;
         n = n - 1ul;
       }
 
@@ -16206,20 +16206,20 @@ unsigned long int strlcpy(char *dst, const char *src, unsigned long int siz)
   char *d = dst;
   const char *s = src;
   unsigned long int n = siz;
-  char *tmp_post$1;
-  const char *tmp_post$2;
+  char *tmp_post_1;
+  const char *tmp_post_2;
   if(!(n == 0ul))
   {
     n = n - 1ul;
     if(!(n == 0ul))
       do
       {
-        tmp_post$1 = d;
+        tmp_post_1 = d;
         d = d + 1l;
-        tmp_post$2 = s;
+        tmp_post_2 = s;
         s = s + 1l;
-        *tmp_post$1 = *tmp_post$2;
-        if((signed int)*tmp_post$1 == 0)
+        *tmp_post_1 = *tmp_post_2;
+        if((signed int)*tmp_post_1 == 0)
           break;
 
         n = n - 1ul;
@@ -16228,7 +16228,7 @@ unsigned long int strlcpy(char *dst, const char *src, unsigned long int siz)
 
   }
 
-  const char *tmp_post$3;
+  const char *tmp_post_3;
   if(n == 0ul)
   {
     if(!(siz == 0ul))
@@ -16236,9 +16236,9 @@ unsigned long int strlcpy(char *dst, const char *src, unsigned long int siz)
 
     do
     {
-      tmp_post$3 = s;
+      tmp_post_3 = s;
       s = s + 1l;
-      if(*tmp_post$3 == 0)
+      if(*tmp_post_3 == 0)
         break;
 
     }
@@ -16258,35 +16258,35 @@ signed int substitute_string(char *dst, unsigned long int dstlen, const char *sr
   signed int n;
   if(dst == ((char *)NULL) || src == ((const char *)NULL) || c == 0 || !(dstlen >= 1ul))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
   p = src;
   q = dst;
   len = (signed int)dstlen;
-  _Bool tmp_if_expr$5;
-  char *tmp_post$3;
-  const char *tmp_post$4;
+  _Bool tmp_if_expr_5;
+  char *tmp_post_3;
+  const char *tmp_post_4;
   while(!(*p == 0))
   {
     if(!(len >= 1))
       break;
 
     if((signed int)*p == 37)
-      tmp_if_expr$5 = p[(signed long int)1] == c ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = p[(signed long int)1] == c ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
     {
       if(!(sub == ((const char *)NULL)))
       {
-        unsigned long int return_value_strlcpy$2;
-        return_value_strlcpy$2=strlcpy(q, sub, (unsigned long int)len);
-        n = (signed int)return_value_strlcpy$2;
+        unsigned long int return_value_strlcpy_2;
+        return_value_strlcpy_2=strlcpy(q, sub, (unsigned long int)len);
+        n = (signed int)return_value_strlcpy_2;
         q = q + (signed long int)n;
         len = len - n;
       }
@@ -16296,11 +16296,11 @@ signed int substitute_string(char *dst, unsigned long int dstlen, const char *sr
 
     else
     {
-      tmp_post$3 = q;
+      tmp_post_3 = q;
       q = q + 1l;
-      tmp_post$4 = p;
+      tmp_post_4 = p;
       p = p + 1l;
-      *tmp_post$3 = *tmp_post$4;
+      *tmp_post_3 = *tmp_post_4;
       len = len - 1;
     }
   }
@@ -16326,13 +16326,13 @@ static signed int test_file_lock(signed int fd, signed int type)
   lock.l_start = (signed long int)0;
   lock.l_whence = (signed short int)0;
   lock.l_len = (signed long int)0;
-  signed int return_value_fcntl$2;
-  return_value_fcntl$2=fcntl(fd, 5, &lock);
-  signed int *return_value___errno_location$1;
-  if(!(return_value_fcntl$2 >= 0))
+  signed int return_value_fcntl_2;
+  return_value_fcntl_2=fcntl(fd, 5, &lock);
+  signed int *return_value___errno_location_1;
+  if(!(return_value_fcntl_2 >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    log_err(*return_value___errno_location$1, "Unable to test for file lock");
+    return_value___errno_location_1=__errno_location();
+    log_err(*return_value___errno_location_1, "Unable to test for file lock");
   }
 
   if((signed int)lock.l_type == 2)
@@ -16353,11 +16353,11 @@ static void timestamp_logfiles(struct server_conf *conf)
   signed int gotLogs = 0;
   now=create_long_time_string((signed long int)0);
   i=list_iterator_create(conf->objs);
-  void *return_value_list_next$1;
+  void *return_value_list_next_1;
   do
   {
-    return_value_list_next$1=list_next(i);
-    logfile = (struct base_obj *)return_value_list_next$1;
+    return_value_list_next_1=list_next(i);
+    logfile = (struct base_obj *)return_value_list_next_1;
     if(logfile == ((struct base_obj *)NULL))
       break;
 
@@ -16365,9 +16365,9 @@ static void timestamp_logfiles(struct server_conf *conf)
     {
       snprintf(buf, sizeof(char [1024l]) /*1024ul*/ , "%sConsole [%s] log at %s%s", (const void *)"\r\n<ConMan> ", logfile->aux.logfile.console->name, now, (const void *)".\r\n");
       strcpy(&buf[(signed long int)(sizeof(char [1024l]) /*1024ul*/  - (unsigned long int)3)], "\r\n");
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(buf);
-      write_obj_data(logfile, (const void *)buf, (signed int)return_value_strlen$2, 1);
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(buf);
+      write_obj_data(logfile, (const void *)buf, (signed int)return_value_strlen_2, 1);
       gotLogs = 1;
     }
 
@@ -16417,9 +16417,9 @@ signed int tpoll(struct tpoll *tp, signed int ms)
   signed int e;
   if(tp == ((struct tpoll *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
@@ -16429,40 +16429,40 @@ signed int tpoll(struct tpoll *tp, signed int ms)
   e=pthread_mutex_lock(&tp->mutex);
   if(!(e == 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = e;
-    log_err(*return_value___errno_location$2, "Unable to lock tpoll mutex");
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = e;
+    log_err(*return_value___errno_location_2, "Unable to lock tpoll mutex");
   }
 
   _tpoll_get_timeval(&tv_now, 0);
-  signed int tmp_if_expr$3;
-  _Bool tmp_if_expr$7;
-  signed int tmp_if_expr$6;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
-  signed int tmp_if_expr$13;
+  signed int tmp_if_expr_3;
+  _Bool tmp_if_expr_7;
+  signed int tmp_if_expr_6;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
+  signed int tmp_if_expr_13;
   while((_Bool)1)
   {
     if(!(tp->timers_active == ((struct tpoll_timer *)NULL)))
     {
       if(tp->timers_active->tv.tv_sec == tv_now.tv_sec)
-        tmp_if_expr$3 = (signed int)((&tp->timers_active->tv)->tv_usec > (&tv_now)->tv_usec);
+        tmp_if_expr_3 = (signed int)((&tp->timers_active->tv)->tv_usec > (&tv_now)->tv_usec);
 
       else
-        tmp_if_expr$3 = (signed int)((&tp->timers_active->tv)->tv_sec > (&tv_now)->tv_sec);
-      if(tmp_if_expr$3 == 0)
+        tmp_if_expr_3 = (signed int)((&tp->timers_active->tv)->tv_sec > (&tv_now)->tv_sec);
+      if(tmp_if_expr_3 == 0)
       {
         t = tp->timers_active;
         tp->timers_active = t->next;
         e=pthread_mutex_unlock(&tp->mutex);
         if(!(e == 0))
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          *return_value___errno_location$4 = e;
-          log_err(*return_value___errno_location$4, "Unable to unlock tpoll mutex");
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          *return_value___errno_location_4 = e;
+          log_err(*return_value___errno_location_4, "Unable to unlock tpoll mutex");
         }
 
         t->fnc(t->arg);
@@ -16470,10 +16470,10 @@ signed int tpoll(struct tpoll *tp, signed int ms)
         e=pthread_mutex_lock(&tp->mutex);
         if(!(e == 0))
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          *return_value___errno_location$5 = e;
-          log_err(*return_value___errno_location$5, "Unable to lock tpoll mutex");
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          *return_value___errno_location_5 = e;
+          log_err(*return_value___errno_location_5, "Unable to lock tpoll mutex");
         }
 
       }
@@ -16486,11 +16486,11 @@ signed int tpoll(struct tpoll *tp, signed int ms)
     else
     {
       if(!(ms >= 0))
-        tmp_if_expr$7 = !(tp->timers_active != ((struct tpoll_timer *)NULL)) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = !(tp->timers_active != ((struct tpoll_timer *)NULL)) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = (_Bool)0;
+      if(tmp_if_expr_7)
       {
         if(tp->num_fds_used >= 1)
           timeout = -1;
@@ -16512,11 +16512,11 @@ signed int tpoll(struct tpoll *tp, signed int ms)
           else
           {
             if(tp->timers_active->tv.tv_sec == tv_timeout.tv_sec)
-              tmp_if_expr$6 = (signed int)((&tp->timers_active->tv)->tv_usec > (&tv_timeout)->tv_usec);
+              tmp_if_expr_6 = (signed int)((&tp->timers_active->tv)->tv_usec > (&tv_timeout)->tv_usec);
 
             else
-              tmp_if_expr$6 = (signed int)((&tp->timers_active->tv)->tv_sec > (&tv_timeout)->tv_sec);
-            if(tmp_if_expr$6 == 0)
+              tmp_if_expr_6 = (signed int)((&tp->timers_active->tv)->tv_sec > (&tv_timeout)->tv_sec);
+            if(tmp_if_expr_6 == 0)
               ms_diff=_tpoll_diff_timeval(&tp->timers_active->tv, &tv_now);
 
             else
@@ -16530,20 +16530,20 @@ signed int tpoll(struct tpoll *tp, signed int ms)
     e=pthread_mutex_unlock(&tp->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      *return_value___errno_location$8 = e;
-      log_err(*return_value___errno_location$8, "Unable to unlock tpoll mutex");
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      *return_value___errno_location_8 = e;
+      log_err(*return_value___errno_location_8, "Unable to unlock tpoll mutex");
     }
 
     n=poll(tp->fd_array, (unsigned long int)(tp->max_fd + 1), timeout);
     e=pthread_mutex_lock(&tp->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      *return_value___errno_location$9 = e;
-      log_err(*return_value___errno_location$9, "Unable to lock tpoll mutex");
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      *return_value___errno_location_9 = e;
+      log_err(*return_value___errno_location_9, "Unable to lock tpoll mutex");
     }
 
     tp->is_blocked = (_Bool)0;
@@ -16565,34 +16565,34 @@ signed int tpoll(struct tpoll *tp, signed int ms)
         break;
 
       if(ms == 0)
-        tmp_if_expr$12 = (_Bool)1;
+        tmp_if_expr_12 = (_Bool)1;
 
       else
       {
         if(!(ms >= 0))
-          tmp_if_expr$10 = !(tp->num_fds_used != 0) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_10 = !(tp->num_fds_used != 0) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$10 = (_Bool)0;
-        if(tmp_if_expr$10)
-          tmp_if_expr$11 = !(tp->timers_active != ((struct tpoll_timer *)NULL)) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_10 = (_Bool)0;
+        if(tmp_if_expr_10)
+          tmp_if_expr_11 = !(tp->timers_active != ((struct tpoll_timer *)NULL)) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$11 = (_Bool)0;
-        tmp_if_expr$12 = tmp_if_expr$11 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_11 = (_Bool)0;
+        tmp_if_expr_12 = tmp_if_expr_11 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$12)
+      if(tmp_if_expr_12)
         break;
 
       _tpoll_get_timeval(&tv_now, 0);
       if(ms >= 1)
       {
         if(tv_timeout.tv_sec == tv_now.tv_sec)
-          tmp_if_expr$13 = (signed int)((&tv_timeout)->tv_usec > (&tv_now)->tv_usec);
+          tmp_if_expr_13 = (signed int)((&tv_timeout)->tv_usec > (&tv_now)->tv_usec);
 
         else
-          tmp_if_expr$13 = (signed int)((&tv_timeout)->tv_sec > (&tv_now)->tv_sec);
-        if(tmp_if_expr$13 == 0)
+          tmp_if_expr_13 = (signed int)((&tv_timeout)->tv_sec > (&tv_now)->tv_sec);
+        if(tmp_if_expr_13 == 0)
           break;
 
       }
@@ -16602,10 +16602,10 @@ signed int tpoll(struct tpoll *tp, signed int ms)
   e=pthread_mutex_unlock(&tp->mutex);
   if(!(e == 0))
   {
-    signed int *return_value___errno_location$14;
-    return_value___errno_location$14=__errno_location();
-    *return_value___errno_location$14 = e;
-    log_err(*return_value___errno_location$14, "Unable to unlock tpoll mutex");
+    signed int *return_value___errno_location_14;
+    return_value___errno_location_14=__errno_location();
+    *return_value___errno_location_14 = e;
+    log_err(*return_value___errno_location_14, "Unable to unlock tpoll mutex");
   }
 
   return n;
@@ -16620,17 +16620,17 @@ signed int tpoll_clear(struct tpoll *tp, signed int fd, signed short int events)
   signed int e;
   if(tp == ((struct tpoll *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
   if(!(fd >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
     return -1;
   }
 
@@ -16642,10 +16642,10 @@ signed int tpoll_clear(struct tpoll *tp, signed int fd, signed short int events)
     e=pthread_mutex_lock(&tp->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = e;
-      log_err(*return_value___errno_location$3, "Unable to lock tpoll mutex");
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = e;
+      log_err(*return_value___errno_location_3, "Unable to lock tpoll mutex");
     }
 
     if(tp->max_fd >= fd)
@@ -16683,10 +16683,10 @@ signed int tpoll_clear(struct tpoll *tp, signed int fd, signed short int events)
     e=pthread_mutex_unlock(&tp->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = e;
-      log_err(*return_value___errno_location$4, "Unable to unlock tpoll mutex");
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = e;
+      log_err(*return_value___errno_location_4, "Unable to unlock tpoll mutex");
     }
 
     return 0;
@@ -16704,11 +16704,11 @@ struct tpoll * tpoll_create(signed int n)
   if(!(n >= 1))
     n = 256;
 
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct tpoll) /*96ul*/ );
-  tp = (struct tpoll *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  signed int return_value_pipe$3;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct tpoll) /*96ul*/ );
+  tp = (struct tpoll *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  signed int return_value_pipe_3;
   if(!(tp == ((struct tpoll *)NULL)))
   {
     tp->fd_pipe[(signed long int)1] = -1;
@@ -16717,14 +16717,14 @@ struct tpoll * tpoll_create(signed int n)
     tp->is_blocked = (_Bool)0;
     tp->is_signaled = (_Bool)0;
     tp->is_mutex_inited = (_Bool)0;
-    return_value_malloc$2=malloc((unsigned long int)n * sizeof(struct pollfd) /*8ul*/ );
-    tp->fd_array = (struct pollfd *)return_value_malloc$2;
+    return_value_malloc_2=malloc((unsigned long int)n * sizeof(struct pollfd) /*8ul*/ );
+    tp->fd_array = (struct pollfd *)return_value_malloc_2;
     if(tp->fd_array == ((struct pollfd *)NULL))
       goto err;
 
     tp->num_fds_alloc = n;
-    return_value_pipe$3=pipe(tp->fd_pipe);
-    if(!(return_value_pipe$3 >= 0))
+    return_value_pipe_3=pipe(tp->fd_pipe);
+    if(!(return_value_pipe_3 >= 0))
       goto err;
 
     i = 0;
@@ -16734,28 +16734,28 @@ struct tpoll * tpoll_create(signed int n)
       if(!(fval >= 0))
         goto err;
 
-      signed int return_value_fcntl$4;
-      return_value_fcntl$4=fcntl(tp->fd_pipe[(signed long int)i], 4, fval | 04000);
-      if(!(return_value_fcntl$4 >= 0))
+      signed int return_value_fcntl_4;
+      return_value_fcntl_4=fcntl(tp->fd_pipe[(signed long int)i], 4, fval | 04000);
+      if(!(return_value_fcntl_4 >= 0))
         goto err;
 
-      signed int return_value_fcntl$5;
-      return_value_fcntl$5=fcntl(tp->fd_pipe[(signed long int)i], 2, 1);
-      if(!(return_value_fcntl$5 >= 0))
+      signed int return_value_fcntl_5;
+      return_value_fcntl_5=fcntl(tp->fd_pipe[(signed long int)i], 2, 1);
+      if(!(return_value_fcntl_5 >= 0))
         goto err;
 
     }
-    e=pthread_mutex_init(&tp->mutex, (const union anonymous$0 *)(void *)0);
+    e=pthread_mutex_init(&tp->mutex, (const union anonymous_0 *)(void *)0);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      *return_value___errno_location$6 = e;
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      *return_value___errno_location_6 = e;
       goto err;
     }
 
     tp->is_mutex_inited = (_Bool)1;
-    _tpoll_init(tp, (enum anonymous$1)TPOLL_ZERO_ALL);
+    _tpoll_init(tp, (enum anonymous_1)TPOLL_ZERO_ALL);
     return tp;
   }
 
@@ -16783,10 +16783,10 @@ void tpoll_destroy(struct tpoll *tp)
       e=pthread_mutex_lock(&tp->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = e;
-        log_err(*return_value___errno_location$1, "Unable to lock tpoll mutex");
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = e;
+        log_err(*return_value___errno_location_1, "Unable to lock tpoll mutex");
       }
 
     }
@@ -16816,19 +16816,19 @@ void tpoll_destroy(struct tpoll *tp)
       e=pthread_mutex_unlock(&tp->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        *return_value___errno_location$2 = e;
-        log_err(*return_value___errno_location$2, "Unable to unlock tpoll mutex");
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        *return_value___errno_location_2 = e;
+        log_err(*return_value___errno_location_2, "Unable to unlock tpoll mutex");
       }
 
       e=pthread_mutex_destroy(&tp->mutex);
       if(!(e == 0))
       {
-        signed int *return_value___errno_location$3;
-        return_value___errno_location$3=__errno_location();
-        *return_value___errno_location$3 = e;
-        log_err(*return_value___errno_location$3, "Unable to destroy tpoll mutex");
+        signed int *return_value___errno_location_3;
+        return_value___errno_location_3=__errno_location();
+        *return_value___errno_location_3 = e;
+        log_err(*return_value___errno_location_3, "Unable to destroy tpoll mutex");
       }
 
       tp->is_mutex_inited = (_Bool)0;
@@ -16851,27 +16851,27 @@ signed int tpoll_is_set(struct tpoll *tp, signed int fd, signed short int events
   signed int e;
   if(tp == ((struct tpoll *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
   if(!(fd >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
     return -1;
   }
 
   e=pthread_mutex_lock(&tp->mutex);
   if(!(e == 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = e;
-    log_err(*return_value___errno_location$3, "Unable to lock tpoll mutex");
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = e;
+    log_err(*return_value___errno_location_3, "Unable to lock tpoll mutex");
   }
 
   if(!(tp->max_fd >= fd))
@@ -16886,10 +16886,10 @@ signed int tpoll_is_set(struct tpoll *tp, signed int fd, signed short int events
   e=pthread_mutex_unlock(&tp->mutex);
   if(!(e == 0))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    *return_value___errno_location$4 = e;
-    log_err(*return_value___errno_location$4, "Unable to unlock tpoll mutex");
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    *return_value___errno_location_4 = e;
+    log_err(*return_value___errno_location_4, "Unable to unlock tpoll mutex");
   }
 
   return rc;
@@ -16904,22 +16904,22 @@ signed int tpoll_set(struct tpoll *tp, signed int fd, signed short int events)
   signed int e;
   if(tp == ((struct tpoll *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
   if(!(fd >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
     return -1;
   }
 
-  _Bool tmp_if_expr$5;
-  signed int return_value__tpoll_grow$4;
+  _Bool tmp_if_expr_5;
+  signed int return_value__tpoll_grow_4;
   if((signed int)events == 0)
     return 0;
 
@@ -16928,21 +16928,21 @@ signed int tpoll_set(struct tpoll *tp, signed int fd, signed short int events)
     e=pthread_mutex_lock(&tp->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      *return_value___errno_location$3 = e;
-      log_err(*return_value___errno_location$3, "Unable to lock tpoll mutex");
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      *return_value___errno_location_3 = e;
+      log_err(*return_value___errno_location_3, "Unable to lock tpoll mutex");
     }
 
     if(fd >= tp->num_fds_alloc)
     {
-      return_value__tpoll_grow$4=_tpoll_grow(tp, fd + 1);
-      tmp_if_expr$5 = return_value__tpoll_grow$4 < 0 ? (_Bool)1 : (_Bool)0;
+      return_value__tpoll_grow_4=_tpoll_grow(tp, fd + 1);
+      tmp_if_expr_5 = return_value__tpoll_grow_4 < 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
       rc = -1;
 
     else
@@ -16970,10 +16970,10 @@ signed int tpoll_set(struct tpoll *tp, signed int fd, signed short int events)
     e=pthread_mutex_unlock(&tp->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$6;
-      return_value___errno_location$6=__errno_location();
-      *return_value___errno_location$6 = e;
-      log_err(*return_value___errno_location$6, "Unable to unlock tpoll mutex");
+      signed int *return_value___errno_location_6;
+      return_value___errno_location_6=__errno_location();
+      *return_value___errno_location_6 = e;
+      log_err(*return_value___errno_location_6, "Unable to unlock tpoll mutex");
     }
 
     return rc;
@@ -16990,33 +16990,33 @@ signed int tpoll_timeout_absolute(struct tpoll *tp, void (*cb)(void *), void *ar
   signed int e;
   if(tp == ((struct tpoll *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
   if(cb == ((void (*)(void *))NULL))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
     return -1;
   }
 
   if(tvp == ((struct timeval *)NULL))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = 22;
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = 22;
     return -1;
   }
 
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(sizeof(struct tpoll_timer) /*48ul*/ );
-  t = (struct tpoll_timer *)return_value_malloc$4;
-  signed int tmp_post$6;
-  signed int tmp_if_expr$7;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(sizeof(struct tpoll_timer) /*48ul*/ );
+  t = (struct tpoll_timer *)return_value_malloc_4;
+  signed int tmp_post_6;
+  signed int tmp_if_expr_7;
   if(t == ((struct tpoll_timer *)NULL))
     return -1;
 
@@ -17028,15 +17028,15 @@ signed int tpoll_timeout_absolute(struct tpoll *tp, void (*cb)(void *), void *ar
     e=pthread_mutex_lock(&tp->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      *return_value___errno_location$5 = e;
-      log_err(*return_value___errno_location$5, "Unable to lock tpoll mutex");
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      *return_value___errno_location_5 = e;
+      log_err(*return_value___errno_location_5, "Unable to lock tpoll mutex");
     }
 
-    tmp_post$6 = tp->timers_next_id;
+    tmp_post_6 = tp->timers_next_id;
     tp->timers_next_id = tp->timers_next_id + 1;
-    t->id = tmp_post$6;
+    t->id = tmp_post_6;
     rc = t->id;
     if(!(tp->timers_next_id >= 1))
       tp->timers_next_id = 1;
@@ -17045,11 +17045,11 @@ signed int tpoll_timeout_absolute(struct tpoll *tp, void (*cb)(void *), void *ar
     for( ; !(*t_ptr == ((struct tpoll_timer *)NULL)); t_ptr = &(*t_ptr)->next)
     {
       if(tvp->tv_sec == (*t_ptr)->tv.tv_sec)
-        tmp_if_expr$7 = (signed int)(tvp->tv_usec < (&(*t_ptr)->tv)->tv_usec);
+        tmp_if_expr_7 = (signed int)(tvp->tv_usec < (&(*t_ptr)->tv)->tv_usec);
 
       else
-        tmp_if_expr$7 = (signed int)(tvp->tv_sec < (&(*t_ptr)->tv)->tv_sec);
-      if(!(tmp_if_expr$7 == 0))
+        tmp_if_expr_7 = (signed int)(tvp->tv_sec < (&(*t_ptr)->tv)->tv_sec);
+      if(!(tmp_if_expr_7 == 0))
         break;
 
     }
@@ -17061,10 +17061,10 @@ signed int tpoll_timeout_absolute(struct tpoll *tp, void (*cb)(void *), void *ar
     e=pthread_mutex_unlock(&tp->mutex);
     if(!(e == 0))
     {
-      signed int *return_value___errno_location$8;
-      return_value___errno_location$8=__errno_location();
-      *return_value___errno_location$8 = e;
-      log_err(*return_value___errno_location$8, "Unable to unlock tpoll mutex");
+      signed int *return_value___errno_location_8;
+      return_value___errno_location_8=__errno_location();
+      *return_value___errno_location_8 = e;
+      log_err(*return_value___errno_location_8, "Unable to unlock tpoll mutex");
     }
 
     return rc;
@@ -17081,27 +17081,27 @@ signed int tpoll_timeout_cancel(struct tpoll *tp, signed int id)
   signed int e;
   if(tp == ((struct tpoll *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
   if(!(id >= 1))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
     return -1;
   }
 
   e=pthread_mutex_lock(&tp->mutex);
   if(!(e == 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = e;
-    log_err(*return_value___errno_location$3, "Unable to lock tpoll mutex");
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = e;
+    log_err(*return_value___errno_location_3, "Unable to lock tpoll mutex");
   }
 
   t_ptr = &tp->timers_active;
@@ -17125,10 +17125,10 @@ signed int tpoll_timeout_cancel(struct tpoll *tp, signed int id)
   e=pthread_mutex_unlock(&tp->mutex);
   if(!(e == 0))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    *return_value___errno_location$4 = e;
-    log_err(*return_value___errno_location$4, "Unable to unlock tpoll mutex");
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    *return_value___errno_location_4 = e;
+    log_err(*return_value___errno_location_4, "Unable to unlock tpoll mutex");
   }
 
   return rc;
@@ -17140,39 +17140,39 @@ signed int tpoll_timeout_relative(struct tpoll *tp, void (*cb)(void *), void *ar
 {
   struct timeval tv;
   _tpoll_get_timeval(&tv, ms);
-  signed int return_value_tpoll_timeout_absolute$1;
-  return_value_tpoll_timeout_absolute$1=tpoll_timeout_absolute(tp, cb, arg, &tv);
-  return return_value_tpoll_timeout_absolute$1;
+  signed int return_value_tpoll_timeout_absolute_1;
+  return_value_tpoll_timeout_absolute_1=tpoll_timeout_absolute(tp, cb, arg, &tv);
+  return return_value_tpoll_timeout_absolute_1;
 }
 
 // tpoll_zero
 // file tpoll.h line 66
-signed int tpoll_zero(struct tpoll *tp, enum anonymous$1 how)
+signed int tpoll_zero(struct tpoll *tp, enum anonymous_1 how)
 {
   signed int e;
   if(tp == ((struct tpoll *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 22;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 22;
     return -1;
   }
 
   if(!((-4 & (signed int)how) == 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2 = 22;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2 = 22;
     return -1;
   }
 
   e=pthread_mutex_lock(&tp->mutex);
   if(!(e == 0))
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    *return_value___errno_location$3 = e;
-    log_err(*return_value___errno_location$3, "Unable to lock tpoll mutex");
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    *return_value___errno_location_3 = e;
+    log_err(*return_value___errno_location_3, "Unable to lock tpoll mutex");
   }
 
   _tpoll_init(tp, how);
@@ -17180,10 +17180,10 @@ signed int tpoll_zero(struct tpoll *tp, enum anonymous$1 how)
   e=pthread_mutex_unlock(&tp->mutex);
   if(!(e == 0))
   {
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    *return_value___errno_location$4 = e;
-    log_err(*return_value___errno_location$4, "Unable to unlock tpoll mutex");
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    *return_value___errno_location_4 = e;
+    log_err(*return_value___errno_location_4, "Unable to unlock tpoll mutex");
   }
 
   return 0;
@@ -17194,22 +17194,22 @@ signed int tpoll_zero(struct tpoll *tp, enum anonymous$1 how)
 void unlink_obj(struct base_obj *obj)
 {
   struct base_obj *x;
-  void *return_value_list_peek$1;
+  void *return_value_list_peek_1;
   do
   {
-    return_value_list_peek$1=list_peek(obj->writers);
-    x = (struct base_obj *)return_value_list_peek$1;
+    return_value_list_peek_1=list_peek(obj->writers);
+    x = (struct base_obj *)return_value_list_peek_1;
     if(x == ((struct base_obj *)NULL))
       break;
 
     unlink_objs(x, obj);
   }
   while((_Bool)1);
-  void *return_value_list_peek$2;
+  void *return_value_list_peek_2;
   do
   {
-    return_value_list_peek$2=list_peek(obj->readers);
-    x = (struct base_obj *)return_value_list_peek$2;
+    return_value_list_peek_2=list_peek(obj->readers);
+    x = (struct base_obj *)return_value_list_peek_2;
     if(x == ((struct base_obj *)NULL))
       break;
 
@@ -17230,38 +17230,38 @@ void unlink_objs(struct base_obj *src, struct base_obj *dst)
   char *now;
   char *tty;
   char buf[1024l];
-  signed int return_value_list_delete_all$1;
-  return_value_list_delete_all$1=list_delete_all(src->readers, (signed int (*)(void *, void *))find_obj, (void *)dst);
+  signed int return_value_list_delete_all_1;
+  return_value_list_delete_all_1=list_delete_all(src->readers, (signed int (*)(void *, void *))find_obj, (void *)dst);
   n=list_delete_all(dst->writers, (signed int (*)(void *, void *))find_obj, (void *)src);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   if(n >= 1)
   {
     if((signed int)src->type == CONMAN_OBJ_CLIENT)
     {
       if((signed int)dst->type == CONMAN_OBJ_TELNET)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)dst->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_2 = (signed int)dst->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)dst->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = (_Bool)1;
+        tmp_if_expr_3 = (signed int)dst->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = (_Bool)1;
 
       else
-        tmp_if_expr$4 = (signed int)dst->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = (_Bool)1;
+        tmp_if_expr_4 = (signed int)dst->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = (_Bool)1;
 
       else
-        tmp_if_expr$5 = (signed int)dst->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$5)
+        tmp_if_expr_5 = (signed int)dst->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_5)
       {
         now=create_short_time_string((signed long int)0);
         tty = src->aux.client.req->tty;
@@ -17275,39 +17275,39 @@ void unlink_objs(struct base_obj *src, struct base_obj *dst)
 
   }
 
-  _Bool tmp_if_expr$9;
-  signed int return_value_list_is_empty$8;
+  _Bool tmp_if_expr_9;
+  signed int return_value_list_is_empty_8;
   if((signed int)src->type == CONMAN_OBJ_CLIENT)
   {
-    return_value_list_is_empty$8=list_is_empty(src->readers);
-    tmp_if_expr$9 = return_value_list_is_empty$8 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_list_is_empty_8=list_is_empty(src->readers);
+    tmp_if_expr_9 = return_value_list_is_empty_8 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$9 = (_Bool)0;
-  _Bool tmp_if_expr$11;
-  signed int return_value_list_is_empty$10;
-  if(tmp_if_expr$9)
+    tmp_if_expr_9 = (_Bool)0;
+  _Bool tmp_if_expr_11;
+  signed int return_value_list_is_empty_10;
+  if(tmp_if_expr_9)
   {
-    return_value_list_is_empty$10=list_is_empty(src->writers);
-    tmp_if_expr$11 = return_value_list_is_empty$10 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_list_is_empty_10=list_is_empty(src->writers);
+    tmp_if_expr_11 = return_value_list_is_empty_10 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$11 = (_Bool)0;
-  signed int return_value_list_is_empty$7;
-  signed int return_value_list_is_empty$6;
-  if(tmp_if_expr$11)
+    tmp_if_expr_11 = (_Bool)0;
+  signed int return_value_list_is_empty_7;
+  signed int return_value_list_is_empty_6;
+  if(tmp_if_expr_11)
     src->gotEOF = (unsigned int)1;
 
   else
     if((signed int)dst->type == CONMAN_OBJ_CLIENT)
     {
-      return_value_list_is_empty$7=list_is_empty(dst->readers);
-      if(!(return_value_list_is_empty$7 == 0))
+      return_value_list_is_empty_7=list_is_empty(dst->readers);
+      if(!(return_value_list_is_empty_7 == 0))
       {
-        return_value_list_is_empty$6=list_is_empty(dst->writers);
-        if(!(return_value_list_is_empty$6 == 0))
+        return_value_list_is_empty_6=list_is_empty(dst->writers);
+        if(!(return_value_list_is_empty_6 == 0))
           dst->gotEOF = (unsigned int)1;
 
       }
@@ -17324,9 +17324,9 @@ __CPROVER_DUMP_L16:
 // file server-sock.c line 561
 static signed int validate_req(struct request *req)
 {
-  signed int return_value_list_is_empty$1;
-  return_value_list_is_empty$1=list_is_empty(req->consoles);
-  if(!(return_value_list_is_empty$1 == 0))
+  signed int return_value_list_is_empty_1;
+  return_value_list_is_empty_1=list_is_empty(req->consoles);
+  if(!(return_value_list_is_empty_1 == 0))
   {
     send_rsp(req, 5, "Found no matching consoles");
     return -1;
@@ -17334,16 +17334,16 @@ static signed int validate_req(struct request *req)
 
   else
   {
-    signed int return_value_check_too_many_consoles$2;
-    return_value_check_too_many_consoles$2=check_too_many_consoles(req);
-    if(!(return_value_check_too_many_consoles$2 >= 0))
+    signed int return_value_check_too_many_consoles_2;
+    return_value_check_too_many_consoles_2=check_too_many_consoles(req);
+    if(!(return_value_check_too_many_consoles_2 >= 0))
       return -1;
 
     else
     {
-      signed int return_value_check_busy_consoles$3;
-      return_value_check_busy_consoles$3=check_busy_consoles(req);
-      if(!(return_value_check_busy_consoles$3 >= 0))
+      signed int return_value_check_busy_consoles_3;
+      return_value_check_busy_consoles_3=check_busy_consoles(req);
+      if(!(return_value_check_busy_consoles_3 >= 0))
         return -1;
 
       else
@@ -17364,30 +17364,30 @@ signed int write_log_data(struct base_obj *log, const void *src, signed int len)
   signed int n = 0;
   if(log->aux.logfile.gotProcessing == 0u)
   {
-    signed int return_value_write_obj_data$1;
-    return_value_write_obj_data$1=write_obj_data(log, src, len, 0);
-    return return_value_write_obj_data$1;
+    signed int return_value_write_obj_data_1;
+    return_value_write_obj_data_1=write_obj_data(log, src, len, 0);
+    return return_value_write_obj_data_1;
   }
 
   p = (const unsigned char *)src;
   q = buf;
-  signed int return_value_write_time_string$2;
-  _Bool tmp_if_expr$4;
-  signed int return_value_write_time_string$3;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$17;
-  unsigned char *tmp_post$7;
-  unsigned char *tmp_post$8;
-  signed int return_value_write_time_string$9;
-  unsigned char *tmp_post$10;
-  unsigned char *tmp_post$11;
-  unsigned char *tmp_post$12;
-  unsigned char *tmp_post$13;
-  unsigned char *tmp_post$14;
-  unsigned char *tmp_post$15;
-  unsigned char *tmp_post$16;
+  signed int return_value_write_time_string_2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_write_time_string_3;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_17;
+  unsigned char *tmp_post_7;
+  unsigned char *tmp_post_8;
+  signed int return_value_write_time_string_9;
+  unsigned char *tmp_post_10;
+  unsigned char *tmp_post_11;
+  unsigned char *tmp_post_12;
+  unsigned char *tmp_post_13;
+  unsigned char *tmp_post_14;
+  unsigned char *tmp_post_15;
+  unsigned char *tmp_post_16;
   for( ; len >= 1; len = len - 1)
   {
     if((signed int)*p == 13)
@@ -17400,8 +17400,8 @@ signed int write_log_data(struct base_obj *log, const void *src, signed int len)
         {
           if(!(log->aux.logfile.opts.enableTimestamp == 0u))
           {
-            return_value_write_time_string$2=write_time_string((signed long int)0, (char *)q, (unsigned long int)(qLast - q));
-            q = q + (signed long int)return_value_write_time_string$2;
+            return_value_write_time_string_2=write_time_string((signed long int)0, (char *)q, (unsigned long int)(qLast - q));
+            q = q + (signed long int)return_value_write_time_string_2;
           }
 
           log->aux.logfile.lineState = (unsigned int)2;
@@ -17413,26 +17413,26 @@ signed int write_log_data(struct base_obj *log, const void *src, signed int len)
       if((signed int)*p == 10)
       {
         if((signed int)log->aux.logfile.lineState == 0)
-          tmp_if_expr$4 = (_Bool)1;
+          tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr$4 = (signed int)log->aux.logfile.lineState == 3 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$4)
+          tmp_if_expr_4 = (signed int)log->aux.logfile.lineState == 3 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_4)
         {
           if(!(log->aux.logfile.opts.enableTimestamp == 0u))
           {
-            return_value_write_time_string$3=write_time_string((signed long int)0, (char *)q, (unsigned long int)(qLast - q));
-            q = q + (signed long int)return_value_write_time_string$3;
+            return_value_write_time_string_3=write_time_string((signed long int)0, (char *)q, (unsigned long int)(qLast - q));
+            q = q + (signed long int)return_value_write_time_string_3;
           }
 
         }
 
-        tmp_post$5 = q;
+        tmp_post_5 = q;
         q = q + 1l;
-        *tmp_post$5 = (unsigned char)13;
-        tmp_post$6 = q;
+        *tmp_post_5 = (unsigned char)13;
+        tmp_post_6 = q;
         q = q + 1l;
-        *tmp_post$6 = (unsigned char)10;
+        *tmp_post_6 = (unsigned char)10;
         log->aux.logfile.lineState = (unsigned int)3;
       }
 
@@ -17441,33 +17441,33 @@ signed int write_log_data(struct base_obj *log, const void *src, signed int len)
         if((signed int)*p == 0)
         {
           if((signed int)log->aux.logfile.lineState == 2)
-            tmp_if_expr$17 = (_Bool)1;
+            tmp_if_expr_17 = (_Bool)1;
 
           else
-            tmp_if_expr$17 = (signed int)log->aux.logfile.lineState == 3 ? (_Bool)1 : (_Bool)0;
-          tmp_if_expr$18 = tmp_if_expr$17 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_17 = (signed int)log->aux.logfile.lineState == 3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_18 = tmp_if_expr_17 ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$18 = (_Bool)0;
-        if(!tmp_if_expr$18)
+          tmp_if_expr_18 = (_Bool)0;
+        if(!tmp_if_expr_18)
         {
           if((signed int)log->aux.logfile.lineState == 2)
           {
-            tmp_post$7 = q;
+            tmp_post_7 = q;
             q = q + 1l;
-            *tmp_post$7 = (unsigned char)13;
-            tmp_post$8 = q;
+            *tmp_post_7 = (unsigned char)13;
+            tmp_post_8 = q;
             q = q + 1l;
-            *tmp_post$8 = (unsigned char)10;
+            *tmp_post_8 = (unsigned char)10;
           }
 
           if(!((signed int)log->aux.logfile.lineState == 1))
           {
             if(!(log->aux.logfile.opts.enableTimestamp == 0u))
             {
-              return_value_write_time_string$9=write_time_string((signed long int)0, (char *)q, (unsigned long int)(qLast - q));
-              q = q + (signed long int)return_value_write_time_string$9;
+              return_value_write_time_string_9=write_time_string((signed long int)0, (char *)q, (unsigned long int)(qLast - q));
+              q = q + (signed long int)return_value_write_time_string_9;
             }
 
           }
@@ -17478,62 +17478,62 @@ signed int write_log_data(struct base_obj *log, const void *src, signed int len)
             signed int c = (signed int)*p & 0x7F;
             if(!(c >= 0x20))
             {
-              tmp_post$10 = q;
+              tmp_post_10 = q;
               q = q + 1l;
-              *tmp_post$10 = (unsigned char)(((signed int)*p & 0x80) != 0 ? 126 : 94);
-              tmp_post$11 = q;
+              *tmp_post_10 = (unsigned char)(((signed int)*p & 0x80) != 0 ? 126 : 94);
+              tmp_post_11 = q;
               q = q + 1l;
-              *tmp_post$11 = (unsigned char)(c + 64);
+              *tmp_post_11 = (unsigned char)(c + 64);
             }
 
             else
               if(c == 0x7F)
               {
-                tmp_post$12 = q;
+                tmp_post_12 = q;
                 q = q + 1l;
-                *tmp_post$12 = (unsigned char)(((signed int)*p & 0x80) != 0 ? 126 : 94);
-                tmp_post$13 = q;
+                *tmp_post_12 = (unsigned char)(((signed int)*p & 0x80) != 0 ? 126 : 94);
+                tmp_post_13 = q;
                 q = q + 1l;
-                *tmp_post$13 = (unsigned char)63;
+                *tmp_post_13 = (unsigned char)63;
               }
 
               else
               {
                 if(!((0x80 & (signed int)*p) == 0))
                 {
-                  tmp_post$14 = q;
+                  tmp_post_14 = q;
                   q = q + 1l;
-                  *tmp_post$14 = (unsigned char)96;
+                  *tmp_post_14 = (unsigned char)96;
                 }
 
-                tmp_post$15 = q;
+                tmp_post_15 = q;
                 q = q + 1l;
-                *tmp_post$15 = (unsigned char)c;
+                *tmp_post_15 = (unsigned char)c;
               }
           }
 
           else
           {
-            tmp_post$16 = q;
+            tmp_post_16 = q;
             q = q + 1l;
-            *tmp_post$16 = *p;
+            *tmp_post_16 = *p;
           }
         }
 
       }
     if(!(qLast - q >= (signed long int)minbuf))
     {
-      signed int return_value_write_obj_data$19;
-      return_value_write_obj_data$19=write_obj_data(log, (const void *)buf, (signed int)(q - buf), 0);
-      n = n + return_value_write_obj_data$19;
+      signed int return_value_write_obj_data_19;
+      return_value_write_obj_data_19=write_obj_data(log, (const void *)buf, (signed int)(q - buf), 0);
+      n = n + return_value_write_obj_data_19;
       q = buf;
     }
 
     p = p + 1l;
   }
-  signed int return_value_write_obj_data$20;
-  return_value_write_obj_data$20=write_obj_data(log, (const void *)buf, (signed int)(q - buf), 0);
-  n = n + return_value_write_obj_data$20;
+  signed int return_value_write_obj_data_20;
+  return_value_write_obj_data_20=write_obj_data(log, (const void *)buf, (signed int)(q - buf), 0);
+  n = n + return_value_write_obj_data_20;
   return n;
 }
 
@@ -17550,9 +17550,9 @@ signed long int write_n(signed int fd, void *buf, unsigned long int n)
     nwritten=write(fd, (const void *)p, nleft);
     if(!(nwritten >= 0l))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 4)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 4)
         continue;
 
       else
@@ -17618,22 +17618,22 @@ signed int write_obj_data(struct base_obj *obj, const void *src, signed int len,
   signed int avail;
   signed int n;
   signed int m;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
-  signed int *return_value___errno_location$13;
-  signed int *return_value___errno_location$15;
-  signed long int tmp_if_expr$17;
-  _Bool tmp_if_expr$18;
-  signed int *return_value___errno_location$19;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
+  signed int *return_value___errno_location_13;
+  signed int *return_value___errno_location_15;
+  signed long int tmp_if_expr_17;
+  _Bool tmp_if_expr_18;
+  signed int *return_value___errno_location_19;
   if(src == NULL || !(len >= 1))
     return 0;
 
@@ -17641,73 +17641,73 @@ signed int write_obj_data(struct base_obj *obj, const void *src, signed int len,
   {
     if(!(obj->gotEOF == 0u))
     {
-      signed int return_value_shutdown_obj$1;
-      return_value_shutdown_obj$1=shutdown_obj(obj);
-      return return_value_shutdown_obj$1;
+      signed int return_value_shutdown_obj_1;
+      return_value_shutdown_obj_1=shutdown_obj(obj);
+      return return_value_shutdown_obj_1;
     }
 
     if((signed int)obj->type == CONMAN_OBJ_TELNET)
-      tmp_if_expr$2 = (signed int)obj->aux.telnet.state != 3 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)obj->aux.telnet.state != 3 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
       if((signed int)obj->type == CONMAN_OBJ_UNIXSOCK)
-        tmp_if_expr$3 = (signed int)obj->aux.unixsock.state != 1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (signed int)obj->aux.unixsock.state != 1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
-      tmp_if_expr$6 = (_Bool)1;
+    if(tmp_if_expr_4)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
       if((signed int)obj->type == CONMAN_OBJ_PROCESS)
-        tmp_if_expr$5 = (signed int)obj->aux.process.state != 1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (signed int)obj->aux.process.state != 1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_5 = (_Bool)0;
+      tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
-      tmp_if_expr$12 = (_Bool)1;
+    if(tmp_if_expr_6)
+      tmp_if_expr_12 = (_Bool)1;
 
     else
     {
       if((signed int)obj->type == CONMAN_OBJ_TELNET)
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = (signed int)obj->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
-        tmp_if_expr$8 = (_Bool)1;
+        tmp_if_expr_7 = (signed int)obj->type == CONMAN_OBJ_IPMI ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
+        tmp_if_expr_8 = (_Bool)1;
 
       else
-        tmp_if_expr$8 = (signed int)obj->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$8)
-        tmp_if_expr$9 = (_Bool)1;
+        tmp_if_expr_8 = (signed int)obj->type == CONMAN_OBJ_PROCESS ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_8)
+        tmp_if_expr_9 = (_Bool)1;
 
       else
-        tmp_if_expr$9 = (signed int)obj->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$9)
-        tmp_if_expr$10 = (_Bool)1;
+        tmp_if_expr_9 = (signed int)obj->type == CONMAN_OBJ_SERIAL ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_9)
+        tmp_if_expr_10 = (_Bool)1;
 
       else
-        tmp_if_expr$10 = (signed int)obj->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$10)
-        tmp_if_expr$11 = obj->fd < 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_10 = (signed int)obj->type == CONMAN_OBJ_UNIXSOCK ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_10)
+        tmp_if_expr_11 = obj->fd < 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$11 = (_Bool)0;
-      tmp_if_expr$12 = tmp_if_expr$11 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_11 = (_Bool)0;
+      tmp_if_expr_12 = tmp_if_expr_11 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$12)
+    if(tmp_if_expr_12)
       return 0;
 
     else
@@ -17717,13 +17717,13 @@ signed int write_obj_data(struct base_obj *obj, const void *src, signed int len,
 
       do
       {
-        signed int *return_value___errno_location$14;
-        return_value___errno_location$14=__errno_location();
-        *return_value___errno_location$14=pthread_mutex_lock(&obj->bufLock);
-        if(!(*return_value___errno_location$14 == 0))
+        signed int *return_value___errno_location_14;
+        return_value___errno_location_14=__errno_location();
+        *return_value___errno_location_14=pthread_mutex_lock(&obj->bufLock);
+        if(!(*return_value___errno_location_14 == 0))
         {
-          return_value___errno_location$13=__errno_location();
-          log_err(*return_value___errno_location$13, "pthread_mutex_lock() failed");
+          return_value___errno_location_13=__errno_location();
+          log_err(*return_value___errno_location_13, "pthread_mutex_lock() failed");
         }
 
       }
@@ -17738,13 +17738,13 @@ signed int write_obj_data(struct base_obj *obj, const void *src, signed int len,
 
         do
         {
-          signed int *return_value___errno_location$16;
-          return_value___errno_location$16=__errno_location();
-          *return_value___errno_location$16=pthread_mutex_unlock(&obj->bufLock);
-          if(!(*return_value___errno_location$16 == 0))
+          signed int *return_value___errno_location_16;
+          return_value___errno_location_16=__errno_location();
+          *return_value___errno_location_16=pthread_mutex_unlock(&obj->bufLock);
+          if(!(*return_value___errno_location_16 == 0))
           {
-            return_value___errno_location$15=__errno_location();
-            log_err(*return_value___errno_location$15, "pthread_mutex_unlock() failed");
+            return_value___errno_location_15=__errno_location();
+            log_err(*return_value___errno_location_15, "pthread_mutex_unlock() failed");
           }
 
         }
@@ -17768,11 +17768,11 @@ signed int write_obj_data(struct base_obj *obj, const void *src, signed int len,
           else
             avail = (signed int)(((&obj->buf[(signed long int)8192] - obj->bufInPtr) + (obj->bufOutPtr - obj->buf)) - (signed long int)1);
         if((obj->buf + 8192l) - obj->bufInPtr >= (signed long int)len)
-          tmp_if_expr$17 = (signed long int)len;
+          tmp_if_expr_17 = (signed long int)len;
 
         else
-          tmp_if_expr$17 = &obj->buf[(signed long int)8192] - obj->bufInPtr;
-        m = (signed int)tmp_if_expr$17;
+          tmp_if_expr_17 = &obj->buf[(signed long int)8192] - obj->bufInPtr;
+        m = (signed int)tmp_if_expr_17;
         if(m >= 1)
         {
           memcpy((void *)obj->bufInPtr, src, (unsigned long int)m);
@@ -17796,11 +17796,11 @@ signed int write_obj_data(struct base_obj *obj, const void *src, signed int len,
         if(!(avail >= len))
         {
           if(!((signed int)obj->type == CONMAN_OBJ_CLIENT))
-            tmp_if_expr$18 = (_Bool)1;
+            tmp_if_expr_18 = (_Bool)1;
 
           else
-            tmp_if_expr$18 = !(obj->aux.client.gotSuspend != 0u) ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$18)
+            tmp_if_expr_18 = !(obj->aux.client.gotSuspend != 0u) ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_18)
             log_msg(5, "Overwrote %d bytes in buffer for %s", len - avail, obj->name);
 
           obj->bufOutPtr = obj->bufInPtr + (signed long int)1;
@@ -17811,13 +17811,13 @@ signed int write_obj_data(struct base_obj *obj, const void *src, signed int len,
 
         do
         {
-          signed int *return_value___errno_location$20;
-          return_value___errno_location$20=__errno_location();
-          *return_value___errno_location$20=pthread_mutex_unlock(&obj->bufLock);
-          if(!(*return_value___errno_location$20 == 0))
+          signed int *return_value___errno_location_20;
+          return_value___errno_location_20=__errno_location();
+          *return_value___errno_location_20=pthread_mutex_unlock(&obj->bufLock);
+          if(!(*return_value___errno_location_20 == 0))
           {
-            return_value___errno_location$19=__errno_location();
-            log_err(*return_value___errno_location$19, "pthread_mutex_unlock() failed");
+            return_value___errno_location_19=__errno_location();
+            log_err(*return_value___errno_location_19, "pthread_mutex_unlock() failed");
           }
 
         }
@@ -17842,9 +17842,9 @@ static signed int write_pidfile(const char *pidfile)
   unsigned int mask;
   char dirname[4096l];
   struct _IO_FILE *fp;
-  signed int return_value_getpid$9;
-  signed int return_value_fprintf$10;
-  signed int return_value_fclose$8;
+  signed int return_value_getpid_9;
+  signed int return_value_fprintf_10;
+  signed int return_value_fclose_8;
   if(pidfile == ((const char *)NULL))
     return 0;
 
@@ -17860,46 +17860,46 @@ static signed int write_pidfile(const char *pidfile)
       unlink(pidfile);
       mask=umask((unsigned int)0);
       umask(mask | (unsigned int)022);
-      char *return_value_get_dir_name$1;
-      return_value_get_dir_name$1=get_dir_name(pidfile, dirname, sizeof(char [4096l]) /*4096ul*/ );
-      if(!(return_value_get_dir_name$1 == ((char *)NULL)))
+      char *return_value_get_dir_name_1;
+      return_value_get_dir_name_1=get_dir_name(pidfile, dirname, sizeof(char [4096l]) /*4096ul*/ );
+      if(!(return_value_get_dir_name_1 == ((char *)NULL)))
         create_dirs(dirname);
 
       fp=fopen(pidfile, "w");
       umask(mask);
       if(fp == ((struct _IO_FILE *)NULL))
       {
-        signed int *return_value___errno_location$2;
-        return_value___errno_location$2=__errno_location();
-        char *return_value_strerror$3;
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        log_msg(3, "Unable to open pidfile \"%s\": %s", pidfile, return_value_strerror$3);
+        signed int *return_value___errno_location_2;
+        return_value___errno_location_2=__errno_location();
+        char *return_value_strerror_3;
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        log_msg(3, "Unable to open pidfile \"%s\": %s", pidfile, return_value_strerror_3);
       }
 
       else
       {
-        return_value_getpid$9=getpid();
-        return_value_fprintf$10=fprintf(fp, "%d\n", (signed int)return_value_getpid$9);
-        if(return_value_fprintf$10 == -1)
+        return_value_getpid_9=getpid();
+        return_value_fprintf_10=fprintf(fp, "%d\n", (signed int)return_value_getpid_9);
+        if(return_value_fprintf_10 == -1)
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          char *return_value_strerror$5;
-          return_value_strerror$5=strerror(*return_value___errno_location$4);
-          log_msg(3, "Unable to write to pidfile \"%s\": %s", pidfile, return_value_strerror$5);
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          char *return_value_strerror_5;
+          return_value_strerror_5=strerror(*return_value___errno_location_4);
+          log_msg(3, "Unable to write to pidfile \"%s\": %s", pidfile, return_value_strerror_5);
           fclose(fp);
         }
 
         else
         {
-          return_value_fclose$8=fclose(fp);
-          if(return_value_fclose$8 == -1)
+          return_value_fclose_8=fclose(fp);
+          if(return_value_fclose_8 == -1)
           {
-            signed int *return_value___errno_location$6;
-            return_value___errno_location$6=__errno_location();
-            char *return_value_strerror$7;
-            return_value_strerror$7=strerror(*return_value___errno_location$6);
-            log_msg(3, "Unable to close pidfile \"%s\": %s", pidfile, return_value_strerror$7);
+            signed int *return_value___errno_location_6;
+            return_value___errno_location_6=__errno_location();
+            char *return_value_strerror_7;
+            return_value_strerror_7=strerror(*return_value___errno_location_6);
+            log_msg(3, "Unable to close pidfile \"%s\": %s", pidfile, return_value_strerror_7);
           }
 
           else
@@ -17923,9 +17923,9 @@ signed int write_time_string(signed long int t, char *dst, unsigned long int dst
   else
   {
     get_localtime(&t, &tm);
-    unsigned long int return_value_strftime$1;
-    return_value_strftime$1=strftime(dst, dstlen, "%Y-%m-%d %H:%M:%S ", &tm);
-    n = (signed int)return_value_strftime$1;
+    unsigned long int return_value_strftime_1;
+    return_value_strftime_1=strftime(dst, dstlen, "%Y-%m-%d %H:%M:%S ", &tm);
+    n = (signed int)return_value_strftime_1;
     if(n == 0)
       return 0;
 
@@ -17941,66 +17941,66 @@ signed int write_to_obj(struct base_obj *obj)
   signed int avail;
   signed int n;
   signed int isDead = 0;
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   do
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    *return_value___errno_location$2=pthread_mutex_lock(&obj->bufLock);
-    if(!(*return_value___errno_location$2 == 0))
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    *return_value___errno_location_2=pthread_mutex_lock(&obj->bufLock);
+    if(!(*return_value___errno_location_2 == 0))
     {
-      return_value___errno_location$1=__errno_location();
-      log_err(*return_value___errno_location$1, "pthread_mutex_lock() failed");
+      return_value___errno_location_1=__errno_location();
+      log_err(*return_value___errno_location_1, "pthread_mutex_lock() failed");
     }
 
   }
   while((_Bool)0);
-  _Bool tmp_if_expr$8;
+  _Bool tmp_if_expr_8;
   if((signed int)obj->type == CONMAN_OBJ_CLIENT)
-    tmp_if_expr$8 = obj->aux.client.gotSuspend != 0u ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_8 = obj->aux.client.gotSuspend != 0u ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$8 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$8)
+    tmp_if_expr_8 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_8)
     avail = 0;
 
   else
   {
     if((signed int)obj->type == CONMAN_OBJ_TELNET)
-      tmp_if_expr$3 = (signed int)obj->aux.telnet.state != 3 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (signed int)obj->aux.telnet.state != 3 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
       if((signed int)obj->type == CONMAN_OBJ_UNIXSOCK)
-        tmp_if_expr$4 = (signed int)obj->aux.unixsock.state != 1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (signed int)obj->aux.unixsock.state != 1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
+      tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$5)
-      tmp_if_expr$7 = (_Bool)1;
+    if(tmp_if_expr_5)
+      tmp_if_expr_7 = (_Bool)1;
 
     else
     {
       if((signed int)obj->type == CONMAN_OBJ_PROCESS)
-        tmp_if_expr$6 = (signed int)obj->aux.process.state != 1 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (signed int)obj->aux.process.state != 1 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$6 = (_Bool)0;
-      tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_6 = (_Bool)0;
+      tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$7)
+    if(tmp_if_expr_7)
     {
       avail = 0;
       obj->bufOutPtr = obj->buf;
@@ -18014,9 +18014,9 @@ signed int write_to_obj(struct base_obj *obj)
       else
         avail = (signed int)(&obj->buf[(signed long int)8192] - obj->bufOutPtr);
   }
-  signed long int return_value_write$14;
-  signed int *return_value___errno_location$9;
-  signed int *return_value___errno_location$12;
+  signed long int return_value_write_14;
+  signed int *return_value___errno_location_9;
+  signed int *return_value___errno_location_12;
   if(avail >= 1)
   {
     do
@@ -18024,26 +18024,26 @@ signed int write_to_obj(struct base_obj *obj)
 
     again:
       ;
-      return_value_write$14=write(obj->fd, (const void *)obj->bufOutPtr, (unsigned long int)avail);
-      n = (signed int)return_value_write$14;
+      return_value_write_14=write(obj->fd, (const void *)obj->bufOutPtr, (unsigned long int)avail);
+      n = (signed int)return_value_write_14;
       if(n >= 0)
         goto __CPROVER_DUMP_L21;
 
-      return_value___errno_location$9=__errno_location();
+      return_value___errno_location_9=__errno_location();
     }
-    while(*return_value___errno_location$9 == 4);
-    signed int *return_value___errno_location$13;
-    return_value___errno_location$13=__errno_location();
-    if(!(*return_value___errno_location$13 == 11))
+    while(*return_value___errno_location_9 == 4);
+    signed int *return_value___errno_location_13;
+    return_value___errno_location_13=__errno_location();
+    if(!(*return_value___errno_location_13 == 11))
     {
-      return_value___errno_location$12=__errno_location();
-      if(!(*return_value___errno_location$12 == 11))
+      return_value___errno_location_12=__errno_location();
+      if(!(*return_value___errno_location_12 == 11))
       {
-        signed int *return_value___errno_location$10;
-        return_value___errno_location$10=__errno_location();
-        char *return_value_strerror$11;
-        return_value_strerror$11=strerror(*return_value___errno_location$10);
-        log_msg(6, "Unable to write to [%s]: %s", obj->name, return_value_strerror$11);
+        signed int *return_value___errno_location_10;
+        return_value___errno_location_10=__errno_location();
+        char *return_value_strerror_11;
+        return_value_strerror_11=strerror(*return_value___errno_location_10);
+        log_msg(6, "Unable to write to [%s]: %s", obj->name, return_value_strerror_11);
         obj->gotEOF = (unsigned int)1;
         obj->bufOutPtr = obj->buf;
         obj->bufInPtr = obj->bufOutPtr;
@@ -18075,30 +18075,30 @@ __CPROVER_DUMP_L22:
 
   }
 
-  signed int *return_value___errno_location$15;
+  signed int *return_value___errno_location_15;
   do
   {
-    signed int *return_value___errno_location$16;
-    return_value___errno_location$16=__errno_location();
-    *return_value___errno_location$16=pthread_mutex_unlock(&obj->bufLock);
-    if(!(*return_value___errno_location$16 == 0))
+    signed int *return_value___errno_location_16;
+    return_value___errno_location_16=__errno_location();
+    *return_value___errno_location_16=pthread_mutex_unlock(&obj->bufLock);
+    if(!(*return_value___errno_location_16 == 0))
     {
-      return_value___errno_location$15=__errno_location();
-      log_err(*return_value___errno_location$15, "pthread_mutex_unlock() failed");
+      return_value___errno_location_15=__errno_location();
+      log_err(*return_value___errno_location_15, "pthread_mutex_unlock() failed");
     }
 
   }
   while((_Bool)0);
-  signed int tmp_if_expr$18;
-  signed int return_value_shutdown_obj$17;
+  signed int tmp_if_expr_18;
+  signed int return_value_shutdown_obj_17;
   if(!(isDead == 0))
   {
-    return_value_shutdown_obj$17=shutdown_obj(obj);
-    tmp_if_expr$18 = return_value_shutdown_obj$17;
+    return_value_shutdown_obj_17=shutdown_obj(obj);
+    tmp_if_expr_18 = return_value_shutdown_obj_17;
   }
 
   else
-    tmp_if_expr$18 = 0;
-  return tmp_if_expr$18;
+    tmp_if_expr_18 = 0;
+  return tmp_if_expr_18;
 }
 

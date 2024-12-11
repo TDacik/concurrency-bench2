@@ -1,90 +1,90 @@
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[ARR16{S64}$S64$'__fds_bits'|]
+// tag-#anon#ST[ARR16{S64}_S64_'__fds_bits'|]
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 64
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$7;
+struct anonymous_7;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$13;
+struct anonymous_13;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$21;
+struct anonymous_21;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#UN[*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'socks_dst'||*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'socks_dst6'|]
+// tag-#anon#UN[*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'socks_dst'||*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'socks_dst6'|]
 // file ocat.h line 326
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[ARR16{S8}$S8$'ifrn_name'|]
+// tag-#anon#UN[ARR16{S8}_S8_'ifrn_name'|]
 // file /usr/include/net/if.h line 130
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$4;
+union anonymous_4;
 
-// tag-#anon#UN[ARR1{U32}$U32$'icmp6_un_data32'||ARR2{U16}$U16$'icmp6_un_data16'||ARR4{U8}$U8$'icmp6_un_data8'|]
+// tag-#anon#UN[ARR1{U32}_U32_'icmp6_un_data32'||ARR2{U16}_U16_'icmp6_un_data16'||ARR4{U8}_U8_'icmp6_un_data8'|]
 // file /usr/include/netinet/icmp6.h line 43
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$19;
+union anonymous_19;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$0;
+union anonymous_0;
 
 // tag-#anon#UN[SYM#tag-icmp6_hdr#'icmp6'||SYM#tag-nd_neighbor_solicit#'ndp_sol'||SYM#tag-nd_neighbor_advert#'ndp_adv'|]
 // file ocat.h line 478
-union anonymous$3;
+union anonymous_3;
 
 // tag-#anon#UN[SYM#tag-in6_addr#'in6addr'||SYM#tag-in_addr#'inaddr'|]
 // file ocat.h line 465
-union anonymous$2;
+union anonymous_2;
 
 // tag-#anon#UN[SYM#tag-ip6_hdrctl#'ip6_un1'||U8'ip6_un2_vfc'|]
 // file /usr/include/netinet/ip6.h line 26
-union anonymous$6;
+union anonymous_6;
 
-// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}$S8$'ifru_slave'||ARR16{S8}$S8$'ifru_newname'||*{S8}$S8$'ifru_data'|]
+// tag-#anon#UN[SYM#tag-sockaddr#'ifru_addr'||SYM#tag-sockaddr#'ifru_dstaddr'||SYM#tag-sockaddr#'ifru_broadaddr'||SYM#tag-sockaddr#'ifru_netmask'||SYM#tag-sockaddr#'ifru_hwaddr'||S16'ifru_flags'||S32'ifru_ivalue'||S32'ifru_mtu'||SYM#tag-ifmap#'ifru_map'||ARR16{S8}_S8_'ifru_slave'||ARR16{S8}_S8_'ifru_newname'||*{S8}_S8_'ifru_data'|]
 // file /usr/include/net/if.h line 135
-union anonymous$16;
+union anonymous_16;
 
 // tag-IPv4Route
 // file ocat.h line 436
@@ -509,9 +509,9 @@ void ipv4_print(struct IPv4Route *route, void *f);
 // ipv4_traverse
 // file ocatipv4route.c line 120
 void ipv4_traverse(struct IPv4Route *route, void (*func)(struct IPv4Route *, void *), void *p);
-// ipv4_traverse::func$object
+// ipv4_traverse::func_object
 //
-void func$object(struct IPv4Route *, void *);
+void func_object(struct IPv4Route *, void *);
 // ipv6_add_route
 // file ocatipv6route.c line 83
 signed int ipv6_add_route(const struct IPv6Route *route);
@@ -691,22 +691,22 @@ extern signed int pthread_detach(unsigned long int);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$0 *);
+extern signed int pthread_mutex_destroy(union anonymous_0 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$0 *, const union anonymous *);
+extern signed int pthread_mutex_init(union anonymous_0 *, const union anonymous *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$0 *);
+extern signed int pthread_mutex_lock(union anonymous_0 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$0 *);
+extern signed int pthread_mutex_unlock(union anonymous_0 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$7 *, struct anonymous$7 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_7 *, struct anonymous_7 *);
 // rand
 // file /usr/include/stdlib.h line 374
 extern signed int rand(void);
@@ -725,21 +725,21 @@ signed int run_ctrl_handler(signed int fd);
 // run_listeners
 // file ocatroute.c line 697
 signed int run_listeners(struct sockaddr **addr, signed int *sockfd, signed int cnt, signed int (*action_accept)(signed int));
-// run_listeners::action_accept$object
+// run_listeners::action_accept_object
 //
-signed int action_accept$object(signed int);
+signed int action_accept_object(signed int);
 // run_ocat_thread
 // file ocat.h line 586
 signed int run_ocat_thread(const char *name, void * (*thfunc)(void *), void *parm);
-// run_ocat_thread::thfunc$object
+// run_ocat_thread::thfunc_object
 //
-void * thfunc$object(void *);
+void * thfunc_object(void *);
 // search_peer
 // file ocat.h line 610
 struct OcatPeer * search_peer(struct in6_addr *addr);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
-extern signed int select(signed int, struct anonymous$5 *, struct anonymous$5 *, struct anonymous$5 *, struct timeval *);
+extern signed int select(signed int, struct anonymous_5 *, struct anonymous_5 *, struct anonymous_5 *, struct timeval *);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
@@ -796,7 +796,7 @@ void sig_socks_connector(void);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigfillset
 // file /usr/include/signal.h line 218
-extern signed int sigfillset(struct anonymous$7 *);
+extern signed int sigfillset(struct anonymous_7 *);
 // sleep
 // file /usr/include/unistd.h line 444
 extern unsigned int sleep(unsigned int);
@@ -960,7 +960,7 @@ extern signed int waitpid(signed int, signed int *, signed int);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$18
+struct anonymous_18
 {
   // _call_addr
   void *_call_addr;
@@ -970,7 +970,7 @@ struct anonymous$18
   unsigned int _arch;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // si_addr
   void *si_addr;
@@ -978,19 +978,19 @@ struct anonymous$14
   signed short int si_addr_lsb;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // __fds_bits
   signed long int __fds_bits[16l];
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // si_pid
   signed int si_pid;
@@ -998,7 +998,7 @@ struct anonymous$10
   unsigned int si_uid;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // si_pid
   signed int si_pid;
@@ -1020,7 +1020,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // si_pid
   signed int si_pid;
@@ -1030,7 +1030,7 @@ struct anonymous$12
   union sigval si_sigval;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // si_tid
   signed int si_tid;
@@ -1040,7 +1040,7 @@ struct anonymous$11
   union sigval si_sigval;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // si_band
   signed long int si_band;
@@ -1048,27 +1048,27 @@ struct anonymous$17
   signed int si_fd;
 };
 
-union anonymous$19
+union anonymous_19
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$10 _kill;
+  struct anonymous_10 _kill;
   // _timer
-  struct anonymous$11 _timer;
+  struct anonymous_11 _timer;
   // _rt
-  struct anonymous$12 _rt;
+  struct anonymous_12 _rt;
   // _sigchld
-  struct anonymous$13 _sigchld;
+  struct anonymous_13 _sigchld;
   // _sigfault
-  struct anonymous$14 _sigfault;
+  struct anonymous_14 _sigfault;
   // _sigpoll
-  struct anonymous$17 _sigpoll;
+  struct anonymous_17 _sigpoll;
   // _sigsys
-  struct anonymous$18 _sigsys;
+  struct anonymous_18 _sigsys;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // si_signo
   signed int si_signo;
@@ -1077,10 +1077,10 @@ struct anonymous$21
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$19 _sifields;
+  union anonymous_19 _sifields;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // socks_dst
   struct sockaddr_in *socks_dst;
@@ -1088,21 +1088,21 @@ union anonymous$8
   struct sockaddr_in6 *socks_dst6;
 };
 
-union anonymous$9
+union anonymous_9
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$21 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_21 *, void *);
 };
 
-union anonymous$15
+union anonymous_15
 {
   // ifrn_name
   char ifrn_name[16l];
 };
 
-union anonymous$4
+union anonymous_4
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -1112,7 +1112,7 @@ union anonymous$4
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$1
+union anonymous_1
 {
   // icmp6_un_data32
   unsigned int icmp6_un_data32[1l];
@@ -1158,7 +1158,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1177,13 +1177,13 @@ struct icmp6_hdr
   // icmp6_cksum
   unsigned short int icmp6_cksum;
   // icmp6_dataun
-  union anonymous$1 icmp6_dataun;
+  union anonymous_1 icmp6_dataun;
 };
 
 struct in6_addr
 {
   // __in6_u
-  union anonymous$4 __in6_u;
+  union anonymous_4 __in6_u;
 };
 
 struct nd_neighbor_solicit
@@ -1202,7 +1202,7 @@ struct nd_neighbor_advert
   struct in6_addr nd_na_target;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // icmp6
   struct icmp6_hdr icmp6;
@@ -1218,7 +1218,7 @@ struct in_addr
   unsigned int s_addr;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // in6addr
   struct in6_addr in6addr;
@@ -1238,7 +1238,7 @@ struct ip6_hdrctl
   unsigned char ip6_un1_hlim;
 };
 
-union anonymous$6
+union anonymous_6
 {
   // ip6_un1
   struct ip6_hdrctl ip6_un1;
@@ -1270,7 +1270,7 @@ struct ifmap
   unsigned char port;
 };
 
-union anonymous$16
+union anonymous_16
 {
   // ifru_addr
   struct sockaddr ifru_addr;
@@ -1324,8 +1324,8 @@ struct MACTable
 {
   // family
   unsigned short int family;
-  // $anon0
-  union anonymous$2 $anon0;
+  // _anon0
+  union anonymous_2 _anon0;
   // hwaddr
   unsigned char hwaddr[6l];
   // age
@@ -1395,7 +1395,7 @@ struct OcatPeer
   // fraglen
   signed int fraglen;
   // mutex
-  union anonymous$0 mutex;
+  union anonymous_0 mutex;
   // perm
   signed int perm;
   // last_io
@@ -1470,8 +1470,8 @@ struct OcatSetup
   signed long int uptime;
   // frandn
   char *frandn;
-  // $anon0
-  union anonymous$8 $anon0;
+  // _anon0
+  union anonymous_8 _anon0;
   // oc_listen
   struct sockaddr **oc_listen;
   // oc_listen_fd
@@ -1489,7 +1489,7 @@ struct OcatSetup
   // term_req
   signed int term_req;
   // mutex
-  union anonymous$0 mutex;
+  union anonymous_0 mutex;
   // ctrl_listen
   struct sockaddr **ctrl_listen;
   // ctrl_listen_fd
@@ -1721,15 +1721,15 @@ struct hosts_info
 struct ifreq
 {
   // ifr_ifrn
-  union anonymous$15 ifr_ifrn;
+  union anonymous_15 ifr_ifrn;
   // ifr_ifru
-  union anonymous$16 ifr_ifru;
+  union anonymous_16 ifr_ifru;
 };
 
 struct ip6_hdr
 {
   // ip6_ctlun
-  union anonymous$6 ip6_ctlun;
+  union anonymous_6 ip6_ctlun;
   // ip6_src
   struct in6_addr ip6_src;
   // ip6_dst
@@ -1790,8 +1790,8 @@ struct ndp6
   struct ether_header eth;
   // ip6
   struct ip6_hdr ip6;
-  // $anon0
-  union anonymous$3 $anon0;
+  // _anon0
+  union anonymous_3 _anon0;
 } __attribute__ ((__packed__));
 
 struct passwd
@@ -1815,9 +1815,9 @@ struct passwd
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$9 __sigaction_handler;
+  union anonymous_9 __sigaction_handler;
   // sa_mask
-  struct anonymous$7 sa_mask;
+  struct anonymous_7 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -1971,7 +1971,7 @@ static struct hosts_info hosts_ = { .hosts_ts={ .tv_sec=(signed long int)0, .tv_
     .hdom="" };
 // hosts_mutex_
 // file ocathosts.c line 65
-static union anonymous$0 hosts_mutex_ = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 hosts_mutex_ = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // in6addr_any
@@ -1982,7 +1982,7 @@ extern struct in6_addr in6addr_any;
 extern struct in6_addr in6addr_loopback;
 // log_mutex_
 // file ocatlog.c line 34
-static union anonymous$0 log_mutex_ = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 log_mutex_ = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // lpfd_
@@ -1993,7 +1993,7 @@ static signed int lpfd_[2l];
 static signed int mac_cnt_ = 0;
 // mac_mutex_
 // file ocateth.c line 31
-static union anonymous$0 mac_mutex_ = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 mac_mutex_ = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // mac_tbl_
@@ -2035,12 +2035,12 @@ static char *path_hosts_ = (char *)(void *)0;
 static struct OcatPeer *peer_ = (struct OcatPeer *)(void *)0;
 // peer_mutex_
 // file ocatpeer.c line 33
-static union anonymous$0 peer_mutex_ = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 peer_mutex_ = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // route_mutex_
 // file ocatipv4route.c line 34
-static union anonymous$0 route_mutex_ = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 route_mutex_ = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // rroot_
@@ -2071,7 +2071,7 @@ struct OcatSetup setup_ = { .fhd_key={ (unsigned int)0, (unsigned int)0 }, .fhd_
     .create_pid_file=0, .logfn=(char *)(void *)0,
     .logf=(struct _IO_FILE *)(void *)0, .use_syslog=0,
     .daemon=1, .uptime=(signed long int)0, .frandn="/dev/urandom",
-    .$anon0={ .socks_dst=(struct sockaddr_in *)&socks_dst6_ }, .oc_listen=(struct sockaddr **)(void *)0,
+    ._anon0={ .socks_dst=(struct sockaddr_in *)&socks_dst6_ }, .oc_listen=(struct sockaddr **)(void *)0,
     .oc_listen_fd=(signed int *)(void *)0,
     .oc_listen_cnt=0,
     .rand_addr=0, .version={ (char)0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, .sizeof_setup=(signed int)sizeof(struct OcatSetup) /*1136ul*/ ,
@@ -2101,7 +2101,7 @@ extern struct _IO_FILE *stdout;
 static signed int thread_id_ = 0;
 // thread_mutex_
 // file ocatthread.c line 32
-union anonymous$0 thread_mutex_ = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+union anonymous_0 thread_mutex_ = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // tun_dev_
@@ -2115,7 +2115,7 @@ static struct IPv6Route *v6route_ = (struct IPv6Route *)(void *)0;
 static signed int v6route_cnt_ = 0;
 // v6route_mutex_
 // file ocatipv6route.c line 35
-static union anonymous$0 v6route_mutex_ = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_0 v6route_mutex_ = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 
@@ -2125,9 +2125,9 @@ void add_listener(const char *buf)
 {
   struct sockaddr_in6 saddr;
   memset((void *)&saddr, 0, sizeof(struct sockaddr_in6) /*28ul*/ );
-  signed int return_value_strsockaddr$1;
-  return_value_strsockaddr$1=strsockaddr(buf, (struct sockaddr *)&saddr);
-  if(return_value_strsockaddr$1 == -1)
+  signed int return_value_strsockaddr_1;
+  return_value_strsockaddr_1=strsockaddr(buf, (struct sockaddr *)&saddr);
+  if(return_value_strsockaddr_1 == -1)
   {
     log_msg(0, "could not convert address string '%s'", buf);
     exit(1);
@@ -2135,43 +2135,43 @@ void add_listener(const char *buf)
 
   setup_.oc_listen_cnt = setup_.oc_listen_cnt + 1;
   log_msg(7, "reallocating sockaddr list to %d elements", setup_.oc_listen_cnt);
-  void *return_value_realloc$4;
-  return_value_realloc$4=realloc((void *)setup_.oc_listen, sizeof(struct sockaddr *) /*8ul*/  * (unsigned long int)setup_.oc_listen_cnt);
-  setup_.oc_listen = (struct sockaddr **)return_value_realloc$4;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  void *return_value_realloc_4;
+  return_value_realloc_4=realloc((void *)setup_.oc_listen, sizeof(struct sockaddr *) /*8ul*/  * (unsigned long int)setup_.oc_listen_cnt);
+  setup_.oc_listen = (struct sockaddr **)return_value_realloc_4;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   if(setup_.oc_listen == ((struct sockaddr **)NULL))
   {
-    return_value___errno_location$2=__errno_location();
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    log_msg(3, "could not get memory for listener list: \"%s\"", return_value_strerror$3);
+    return_value___errno_location_2=__errno_location();
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    log_msg(3, "could not get memory for listener list: \"%s\"", return_value_strerror_3);
     exit(1);
   }
 
-  void *return_value_realloc$7;
-  return_value_realloc$7=realloc((void *)setup_.oc_listen_fd, sizeof(signed int) /*4ul*/  * (unsigned long int)setup_.oc_listen_cnt);
-  setup_.oc_listen_fd = (signed int *)return_value_realloc$7;
-  signed int *return_value___errno_location$5;
-  char *return_value_strerror$6;
+  void *return_value_realloc_7;
+  return_value_realloc_7=realloc((void *)setup_.oc_listen_fd, sizeof(signed int) /*4ul*/  * (unsigned long int)setup_.oc_listen_cnt);
+  setup_.oc_listen_fd = (signed int *)return_value_realloc_7;
+  signed int *return_value___errno_location_5;
+  char *return_value_strerror_6;
   if(setup_.oc_listen_fd == ((signed int *)NULL))
   {
-    return_value___errno_location$5=__errno_location();
-    return_value_strerror$6=strerror(*return_value___errno_location$5);
-    log_msg(3, "could not get memory for listener fds: \"%s\"", return_value_strerror$6);
+    return_value___errno_location_5=__errno_location();
+    return_value_strerror_6=strerror(*return_value___errno_location_5);
+    log_msg(3, "could not get memory for listener fds: \"%s\"", return_value_strerror_6);
     exit(1);
   }
 
   log_msg(7, "allocating sockaddr mem for \"%s\"", buf);
-  void *return_value_calloc$10;
-  return_value_calloc$10=calloc((unsigned long int)1, sizeof(struct sockaddr_in6) /*28ul*/ );
-  setup_.oc_listen[(signed long int)(setup_.oc_listen_cnt - 1)] = (struct sockaddr *)return_value_calloc$10;
-  signed int *return_value___errno_location$8;
-  char *return_value_strerror$9;
+  void *return_value_calloc_10;
+  return_value_calloc_10=calloc((unsigned long int)1, sizeof(struct sockaddr_in6) /*28ul*/ );
+  setup_.oc_listen[(signed long int)(setup_.oc_listen_cnt - 1)] = (struct sockaddr *)return_value_calloc_10;
+  signed int *return_value___errno_location_8;
+  char *return_value_strerror_9;
   if(setup_.oc_listen[(signed long int)(setup_.oc_listen_cnt + -1)] == ((struct sockaddr *)NULL))
   {
-    return_value___errno_location$8=__errno_location();
-    return_value_strerror$9=strerror(*return_value___errno_location$8);
-    log_msg(3, "could not get memory for listener : \"%s\"", return_value_strerror$9);
+    return_value___errno_location_8=__errno_location();
+    return_value_strerror_9=strerror(*return_value___errno_location_8);
+    log_msg(3, "could not get memory for listener : \"%s\"", return_value_strerror_9);
     exit(1);
   }
 
@@ -2188,24 +2188,24 @@ void background(void)
   log_msg(7, "backgrounding");
   ppid=getpid();
   pid=fork();
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  signed int return_value_getpid$3;
-  signed int return_value_setsid$6;
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
-  signed int return_value_chdir$9;
-  signed int *return_value___errno_location$7;
-  char *return_value_strerror$8;
-  struct _IO_FILE *return_value_freopen$12;
-  signed int *return_value___errno_location$10;
-  char *return_value_strerror$11;
-  struct _IO_FILE *return_value_freopen$15;
-  signed int *return_value___errno_location$13;
-  char *return_value_strerror$14;
-  struct _IO_FILE *return_value_freopen$18;
-  signed int *return_value___errno_location$16;
-  char *return_value_strerror$17;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  signed int return_value_getpid_3;
+  signed int return_value_setsid_6;
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
+  signed int return_value_chdir_9;
+  signed int *return_value___errno_location_7;
+  char *return_value_strerror_8;
+  struct _IO_FILE *return_value_freopen_12;
+  signed int *return_value___errno_location_10;
+  char *return_value_strerror_11;
+  struct _IO_FILE *return_value_freopen_15;
+  signed int *return_value___errno_location_13;
+  char *return_value_strerror_14;
+  struct _IO_FILE *return_value_freopen_18;
+  signed int *return_value___errno_location_16;
+  char *return_value_strerror_17;
   if(!(pid == -1))
   {
     if(pid == 0)
@@ -2216,54 +2216,54 @@ void background(void)
   else
   {
     setup_.daemon = 0;
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(3, "fork failed: %s. Staying in foreground", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(3, "fork failed: %s. Staying in foreground", return_value_strerror_2);
     goto __CPROVER_DUMP_L10;
 
   __CPROVER_DUMP_L2:
     ;
-    return_value_getpid$3=getpid();
-    log_msg(6, "process backgrounded by parent %d, new pid = %d", ppid, return_value_getpid$3);
+    return_value_getpid_3=getpid();
+    log_msg(6, "process backgrounded by parent %d, new pid = %d", ppid, return_value_getpid_3);
     umask((unsigned int)0);
-    return_value_setsid$6=setsid();
-    if(return_value_setsid$6 == -1)
+    return_value_setsid_6=setsid();
+    if(return_value_setsid_6 == -1)
     {
-      return_value___errno_location$4=__errno_location();
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      log_msg(3, "could not set process group ID: \"%s\"", return_value_strerror$5);
+      return_value___errno_location_4=__errno_location();
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      log_msg(3, "could not set process group ID: \"%s\"", return_value_strerror_5);
     }
 
-    return_value_chdir$9=chdir("/");
-    if(return_value_chdir$9 == -1)
+    return_value_chdir_9=chdir("/");
+    if(return_value_chdir_9 == -1)
     {
-      return_value___errno_location$7=__errno_location();
-      return_value_strerror$8=strerror(*return_value___errno_location$7);
-      log_msg(3, "could not change directory to /: \"%s\"", return_value_strerror$8);
+      return_value___errno_location_7=__errno_location();
+      return_value_strerror_8=strerror(*return_value___errno_location_7);
+      log_msg(3, "could not change directory to /: \"%s\"", return_value_strerror_8);
     }
 
-    return_value_freopen$12=freopen("/dev/null", "r", stdin);
-    if(return_value_freopen$12 == ((struct _IO_FILE *)NULL))
+    return_value_freopen_12=freopen("/dev/null", "r", stdin);
+    if(return_value_freopen_12 == ((struct _IO_FILE *)NULL))
     {
-      return_value___errno_location$10=__errno_location();
-      return_value_strerror$11=strerror(*return_value___errno_location$10);
-      log_msg(3, "could not reconnect stdin to /dev/null: \"%s\"", return_value_strerror$11);
+      return_value___errno_location_10=__errno_location();
+      return_value_strerror_11=strerror(*return_value___errno_location_10);
+      log_msg(3, "could not reconnect stdin to /dev/null: \"%s\"", return_value_strerror_11);
     }
 
-    return_value_freopen$15=freopen("/dev/null", "w", stdout);
-    if(return_value_freopen$15 == ((struct _IO_FILE *)NULL))
+    return_value_freopen_15=freopen("/dev/null", "w", stdout);
+    if(return_value_freopen_15 == ((struct _IO_FILE *)NULL))
     {
-      return_value___errno_location$13=__errno_location();
-      return_value_strerror$14=strerror(*return_value___errno_location$13);
-      log_msg(3, "could not reconnect stdout to /dev/null: \"%s\"", return_value_strerror$14);
+      return_value___errno_location_13=__errno_location();
+      return_value_strerror_14=strerror(*return_value___errno_location_13);
+      log_msg(3, "could not reconnect stdout to /dev/null: \"%s\"", return_value_strerror_14);
     }
 
-    return_value_freopen$18=freopen("/dev/null", "w", stderr);
-    if(return_value_freopen$18 == ((struct _IO_FILE *)NULL))
+    return_value_freopen_18=freopen("/dev/null", "w", stderr);
+    if(return_value_freopen_18 == ((struct _IO_FILE *)NULL))
     {
-      return_value___errno_location$16=__errno_location();
-      return_value_strerror$17=strerror(*return_value___errno_location$16);
-      log_msg(3, "could not reconnect stderr to /dev/null: \"%s\"", return_value_strerror$17);
+      return_value___errno_location_16=__errno_location();
+      return_value_strerror_17=strerror(*return_value___errno_location_16);
+      log_msg(3, "could not reconnect stderr to /dev/null: \"%s\"", return_value_strerror_17);
     }
 
     goto __CPROVER_DUMP_L10;
@@ -2283,19 +2283,19 @@ __CPROVER_DUMP_L10:
 signed int check_tor_prefix(struct ip6_hdr *ihd)
 {
   char buf[46l];
-  signed int return_value_has_tor_prefix$2;
-  return_value_has_tor_prefix$2=has_tor_prefix(&ihd->ip6_dst);
-  if(return_value_has_tor_prefix$2 == 0)
+  signed int return_value_has_tor_prefix_2;
+  return_value_has_tor_prefix_2=has_tor_prefix(&ihd->ip6_dst);
+  if(return_value_has_tor_prefix_2 == 0)
   {
-    const char *return_value_inet_ntop$1;
-    return_value_inet_ntop$1=inet_ntop(10, (const void *)&ihd->ip6_dst, buf, (unsigned int)46);
-    log_msg(3, "destination %s unreachable", return_value_inet_ntop$1);
+    const char *return_value_inet_ntop_1;
+    return_value_inet_ntop_1=inet_ntop(10, (const void *)&ihd->ip6_dst, buf, (unsigned int)46);
+    log_msg(3, "destination %s unreachable", return_value_inet_ntop_1);
     return 0;
   }
 
-  signed int return_value_has_tor_prefix$3;
-  return_value_has_tor_prefix$3=has_tor_prefix(&ihd->ip6_src);
-  if(return_value_has_tor_prefix$3 == 0)
+  signed int return_value_has_tor_prefix_3;
+  return_value_has_tor_prefix_3=has_tor_prefix(&ihd->ip6_src);
+  if(return_value_has_tor_prefix_3 == 0)
   {
     log_msg(3, "source address invalid. Remote ocat could not reply");
     return 0;
@@ -2303,9 +2303,9 @@ signed int check_tor_prefix(struct ip6_hdr *ihd)
 
   else
   {
-    unsigned short int return_value_ntohs$4;
-    return_value_ntohs$4=ntohs(ihd->ip6_ctlun.ip6_un1.ip6_un1_plen);
-    return (signed int)return_value_ntohs$4;
+    unsigned short int return_value_ntohs_4;
+    return_value_ntohs_4=ntohs(ihd->ip6_ctlun.ip6_un1.ip6_un1_plen);
+    return (signed int)return_value_ntohs_4;
   }
 }
 
@@ -2366,28 +2366,28 @@ void cleanup_system(void)
   }
   unlock_peers();
   sig_socks_connector();
-  signed int return_value_join_threads$1;
-  return_value_join_threads$1=join_threads();
-  if(return_value_join_threads$1 >= 2)
+  signed int return_value_join_threads_1;
+  return_value_join_threads_1=join_threads();
+  if(return_value_join_threads_1 >= 2)
   {
     log_msg(7, "waiting %ds for detached threads", 10);
     sleep((unsigned int)10);
   }
 
   delete_listeners(setup_.oc_listen, setup_.oc_listen_fd, setup_.oc_listen_cnt);
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   if(!(setup_.create_pid_file == 0))
   {
     if(!(setup_.pid_fd[1l] == -1))
     {
-      signed long int return_value_write$4;
-      return_value_write$4=write(setup_.pid_fd[(signed long int)1], (const void *)&c, (unsigned long int)1);
-      if(return_value_write$4 == -1l)
+      signed long int return_value_write_4;
+      return_value_write_4=write(setup_.pid_fd[(signed long int)1], (const void *)&c, (unsigned long int)1);
+      if(return_value_write_4 == -1l)
       {
-        return_value___errno_location$2=__errno_location();
-        return_value_strerror$3=strerror(*return_value___errno_location$2);
-        log_msg(3, "cout not write to pid fd %d: \"%s\"", setup_.pid_fd[(signed long int)1], return_value_strerror$3);
+        return_value___errno_location_2=__errno_location();
+        return_value_strerror_3=strerror(*return_value___errno_location_2);
+        log_msg(3, "cout not write to pid fd %d: \"%s\"", setup_.pid_fd[(signed long int)1], return_value_strerror_3);
       }
 
     }
@@ -2424,48 +2424,48 @@ signed int create_listener(struct sockaddr *addr, signed int sock_len)
   fd=socket(family, 1, 0);
   if(!(fd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(0, "could not create listener socker: \"%s\"", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(0, "could not create listener socker: \"%s\"", return_value_strerror_2);
     return -1;
   }
 
   so = 1;
-  signed int return_value_setsockopt$5;
-  return_value_setsockopt$5=setsockopt(fd, 1, 2, (const void *)&so, (unsigned int)sizeof(signed int) /*4ul*/ );
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  if(return_value_setsockopt$5 == -1)
+  signed int return_value_setsockopt_5;
+  return_value_setsockopt_5=setsockopt(fd, 1, 2, (const void *)&so, (unsigned int)sizeof(signed int) /*4ul*/ );
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  if(return_value_setsockopt_5 == -1)
   {
-    return_value___errno_location$3=__errno_location();
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    log_msg(4, "could not set socket %d to SO_REUSEADDR: \"%s\"", fd, return_value_strerror$4);
+    return_value___errno_location_3=__errno_location();
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    log_msg(4, "could not set socket %d to SO_REUSEADDR: \"%s\"", fd, return_value_strerror_4);
   }
 
-  signed int return_value_bind$8;
-  return_value_bind$8=bind(fd, addr, (unsigned int)sock_len);
-  if(return_value_bind$8 == -1)
+  signed int return_value_bind_8;
+  return_value_bind_8=bind(fd, addr, (unsigned int)sock_len);
+  if(return_value_bind_8 == -1)
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    char *return_value_strerror$7;
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    log_msg(0, "could not bind listener %d: \"%s\"", fd, return_value_strerror$7);
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    char *return_value_strerror_7;
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    log_msg(0, "could not bind listener %d: \"%s\"", fd, return_value_strerror_7);
     oe_close(fd);
     return -1;
   }
 
-  signed int return_value_listen$11;
-  return_value_listen$11=listen(fd, 32);
-  if(!(return_value_listen$11 >= 0))
+  signed int return_value_listen_11;
+  return_value_listen_11=listen(fd, 32);
+  if(!(return_value_listen_11 >= 0))
   {
-    signed int *return_value___errno_location$9;
-    return_value___errno_location$9=__errno_location();
-    char *return_value_strerror$10;
-    return_value_strerror$10=strerror(*return_value___errno_location$9);
-    log_msg(0, "could not bring listener %d to listening state: \"%s\"", fd, return_value_strerror$10);
+    signed int *return_value___errno_location_9;
+    return_value___errno_location_9=__errno_location();
+    char *return_value_strerror_10;
+    return_value_strerror_10=strerror(*return_value___errno_location_9);
+    log_msg(0, "could not bring listener %d to listening state: \"%s\"", fd, return_value_strerror_10);
     oe_close(fd);
     return -1;
   }
@@ -2482,10 +2482,10 @@ void * ctrl_handler(void *p)
   signed int c;
   struct _IO_FILE *ff;
   struct _IO_FILE *fo;
-  const signed long int addrstr$array_size0 = (signed long int)netdesc_[(signed long int)setup_.net_type].name_size;
+  const signed long int addrstr_array_size0 = (signed long int)netdesc_[(signed long int)setup_.net_type].name_size;
   char buf[65580l];
   char addrstr[46l];
-  char onionstr[addrstr$array_size0];
+  char onionstr[addrstr_array_size0];
   char timestr[32l];
   char *s;
   char *tokbuf;
@@ -2497,31 +2497,31 @@ void * ctrl_handler(void *p)
   struct in6_addr in6;
   signed int pfd[2l];
   detach_thread();
-  signed int return_value_pipe$3;
-  return_value_pipe$3=pipe(pfd);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  if(return_value_pipe$3 == -1)
+  signed int return_value_pipe_3;
+  return_value_pipe_3=pipe(pfd);
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  if(return_value_pipe_3 == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(0, "couldn't create pipe: \"%s\"", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(0, "couldn't create pipe: \"%s\"", return_value_strerror_2);
     exit(1);
   }
 
   fd = (signed int)(signed long int)p;
-  signed int *return_value___errno_location$6;
-  char *return_value_strerror$7;
+  signed int *return_value___errno_location_6;
+  char *return_value_strerror_7;
   if(!(setup_.config_read == 0))
   {
     ff=fdopen(fd, "r+");
     if(ff == ((struct _IO_FILE *)NULL))
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      log_msg(3, "could not open %d for writing: %s", fd, return_value_strerror$5);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      log_msg(3, "could not open %d for writing: %s", fd, return_value_strerror_5);
       oe_close(pfd[(signed long int)0]);
       oe_close(pfd[(signed long int)1]);
       return (void *)0;
@@ -2529,13 +2529,13 @@ void * ctrl_handler(void *p)
 
     log_msg(7, "fd %d fdopen'ed \"r+\"", fd);
     fo = ff;
-    signed int return_value_setvbuf$8;
-    return_value_setvbuf$8=setvbuf(ff, (char *)(void *)0, 2, (unsigned long int)0);
-    if(!(return_value_setvbuf$8 == 0))
+    signed int return_value_setvbuf_8;
+    return_value_setvbuf_8=setvbuf(ff, (char *)(void *)0, 2, (unsigned long int)0);
+    if(!(return_value_setvbuf_8 == 0))
     {
-      return_value___errno_location$6=__errno_location();
-      return_value_strerror$7=strerror(*return_value___errno_location$6);
-      log_msg(3, "could not setup line buffering: %s", return_value_strerror$7);
+      return_value___errno_location_6=__errno_location();
+      return_value_strerror_7=strerror(*return_value___errno_location_6);
+      log_msg(3, "could not setup line buffering: %s", return_value_strerror_7);
     }
 
   }
@@ -2545,11 +2545,11 @@ void * ctrl_handler(void *p)
     ff=fdopen(fd, "r");
     if(ff == ((struct _IO_FILE *)NULL))
     {
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      char *return_value_strerror$10;
-      return_value_strerror$10=strerror(*return_value___errno_location$9);
-      log_msg(3, "could not open %d for reading: %s", fd, return_value_strerror$10);
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      char *return_value_strerror_10;
+      return_value_strerror_10=strerror(*return_value___errno_location_9);
+      log_msg(3, "could not open %d for reading: %s", fd, return_value_strerror_10);
       setup_.config_read = 1;
       oe_close(pfd[(signed long int)0]);
       oe_close(pfd[(signed long int)1]);
@@ -2564,35 +2564,35 @@ void * ctrl_handler(void *p)
   unlock_setup();
   fprintf(fo, "%s\n", (const void *)setup_.version);
   fprintf(fo, "*** ATTENTION! Controller interface not thread-safe yet! Usage could cause deadlocks. ***\n");
-  unsigned long int return_value_strlen$15;
-  unsigned long int return_value_strlen$16;
-  unsigned long int return_value_strlen$17;
-  _Bool tmp_if_expr$49;
-  signed int return_value_strncmp$48;
-  signed int return_value_strcmp$46;
-  _Bool tmp_statement_expression$19;
-  _Bool tmp_if_expr$20;
-  _Bool tmp_if_expr$21;
-  _Bool tmp_if_expr$22;
-  char *tmp_if_expr$24;
-  char *return_value_ipv6tonion$23;
-  signed int return_value_strcmp$45;
-  signed int return_value_strcmp$44;
-  signed int return_value_strcmp$43;
-  signed int return_value_strcmp$42;
-  signed int return_value_strcmp$41;
-  _Bool tmp_if_expr$31;
-  signed int return_value_oniontipv6$30;
-  signed int return_value_strcmp$28;
-  signed int return_value_strcmp$40;
-  signed int return_value_strcmp$39;
-  signed int return_value_strcmp$38;
-  signed int return_value_strcmp$37;
-  signed int return_value_strcmp$36;
-  signed int return_value_strcmp$35;
-  signed int return_value_strcmp$32;
-  _Bool tmp_if_expr$34;
-  signed int return_value_strcmp$33;
+  unsigned long int return_value_strlen_15;
+  unsigned long int return_value_strlen_16;
+  unsigned long int return_value_strlen_17;
+  _Bool tmp_if_expr_49;
+  signed int return_value_strncmp_48;
+  signed int return_value_strcmp_46;
+  _Bool tmp_statement_expression_19;
+  _Bool tmp_if_expr_20;
+  _Bool tmp_if_expr_21;
+  _Bool tmp_if_expr_22;
+  char *tmp_if_expr_24;
+  char *return_value_ipv6tonion_23;
+  signed int return_value_strcmp_45;
+  signed int return_value_strcmp_44;
+  signed int return_value_strcmp_43;
+  signed int return_value_strcmp_42;
+  signed int return_value_strcmp_41;
+  _Bool tmp_if_expr_31;
+  signed int return_value_oniontipv6_30;
+  signed int return_value_strcmp_28;
+  signed int return_value_strcmp_40;
+  signed int return_value_strcmp_39;
+  signed int return_value_strcmp_38;
+  signed int return_value_strcmp_37;
+  signed int return_value_strcmp_36;
+  signed int return_value_strcmp_35;
+  signed int return_value_strcmp_32;
+  _Bool tmp_if_expr_34;
+  signed int return_value_strcmp_33;
   while((_Bool)1)
   {
     if(!(setup_.config_read == 0))
@@ -2616,9 +2616,9 @@ void * ctrl_handler(void *p)
         if(c == 0x1b)
         {
           log_msg(7, "ESC received");
-          signed int return_value_ungetc$11;
-          return_value_ungetc$11=ungetc(c, ff);
-          if(return_value_ungetc$11 == -1)
+          signed int return_value_ungetc_11;
+          return_value_ungetc_11=ungetc(c, ff);
+          if(return_value_ungetc_11 == -1)
           {
             log_msg(7, "received EOF on ungetc");
             break;
@@ -2628,22 +2628,22 @@ void * ctrl_handler(void *p)
 
         else
         {
-          signed int return_value_ungetc$12;
-          return_value_ungetc$12=ungetc(c, ff);
-          if(return_value_ungetc$12 == -1)
+          signed int return_value_ungetc_12;
+          return_value_ungetc_12=ungetc(c, ff);
+          if(return_value_ungetc_12 == -1)
           {
             log_msg(7, "received EOF on ungetc");
             break;
           }
 
         }
-    char *return_value_fgets$14;
-    return_value_fgets$14=fgets(buf, 65580, ff);
-    if(return_value_fgets$14 == ((char *)NULL))
+    char *return_value_fgets_14;
+    return_value_fgets_14=fgets(buf, 65580, ff);
+    if(return_value_fgets_14 == ((char *)NULL))
     {
-      signed int return_value_feof$13;
-      return_value_feof$13=feof(ff);
-      if(return_value_feof$13 == 0)
+      signed int return_value_feof_13;
+      return_value_feof_13=feof(ff);
+      if(return_value_feof_13 == 0)
         log_msg(3, "error reading from %d");
 
       break;
@@ -2652,42 +2652,42 @@ void * ctrl_handler(void *p)
     c = 0;
     do
     {
-      return_value_strlen$15=strlen(buf);
-      if((unsigned long int)c >= return_value_strlen$15)
+      return_value_strlen_15=strlen(buf);
+      if((unsigned long int)c >= return_value_strlen_15)
         break;
 
-      return_value_strlen$16=strlen(buf);
-      return_value_strlen$17=strlen(buf);
-      snprintf(&buf[(signed long int)(return_value_strlen$16 + (unsigned long int)2 + (unsigned long int)(c * 3))], (((unsigned long int)65580 - return_value_strlen$17) - (unsigned long int)2) - (unsigned long int)(c * 3), "%02x ", buf[(signed long int)c]);
+      return_value_strlen_16=strlen(buf);
+      return_value_strlen_17=strlen(buf);
+      snprintf(&buf[(signed long int)(return_value_strlen_16 + (unsigned long int)2 + (unsigned long int)(c * 3))], (((unsigned long int)65580 - return_value_strlen_17) - (unsigned long int)2) - (unsigned long int)(c * 3), "%02x ", buf[(signed long int)c]);
       c = c + 1;
     }
     while((_Bool)1);
-    unsigned long int return_value_strlen$18;
-    return_value_strlen$18=strlen(buf);
-    log_msg(7, "xenc input buf: %s", &buf[(signed long int)(return_value_strlen$18 + (unsigned long int)2)]);
+    unsigned long int return_value_strlen_18;
+    return_value_strlen_18=strlen(buf);
+    log_msg(7, "xenc input buf: %s", &buf[(signed long int)(return_value_strlen_18 + (unsigned long int)2)]);
     rlen=oe_remtr(buf);
     if(!(rlen == 0))
     {
       bufp=strtok_r(buf, " \t\r\n", &tokbuf);
       if(!(bufp == ((char *)NULL)))
       {
-        signed int return_value_strncmp$47;
-        return_value_strncmp$47=strncmp(bufp, "exit", (unsigned long int)4);
-        if(return_value_strncmp$47 == 0)
-          tmp_if_expr$49 = (_Bool)1;
+        signed int return_value_strncmp_47;
+        return_value_strncmp_47=strncmp(bufp, "exit", (unsigned long int)4);
+        if(return_value_strncmp_47 == 0)
+          tmp_if_expr_49 = (_Bool)1;
 
         else
         {
-          return_value_strncmp$48=strncmp(bufp, "quit", (unsigned long int)4);
-          tmp_if_expr$49 = !(return_value_strncmp$48 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_strncmp_48=strncmp(bufp, "quit", (unsigned long int)4);
+          tmp_if_expr_49 = !(return_value_strncmp_48 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$49)
+        if(tmp_if_expr_49)
           break;
 
         else
         {
-          return_value_strcmp$46=strcmp(bufp, "status");
-          if(return_value_strcmp$46 == 0)
+          return_value_strcmp_46=strcmp(bufp, "status");
+          if(return_value_strcmp_46 == 0)
           {
             lock_peers();
             peer=get_first_peer();
@@ -2698,34 +2698,34 @@ void * ctrl_handler(void *p)
                 strftime(timestr, (unsigned long int)32, "%c", tm);
                 struct in6_addr *__a = (struct in6_addr *)&peer->addr;
                 if(__a->__in6_u.__u6_addr32[0l] == 0u)
-                  tmp_if_expr$20 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_20 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$20 = (_Bool)0;
-                if(tmp_if_expr$20)
-                  tmp_if_expr$21 = __a->__in6_u.__u6_addr32[(signed long int)2] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_20 = (_Bool)0;
+                if(tmp_if_expr_20)
+                  tmp_if_expr_21 = __a->__in6_u.__u6_addr32[(signed long int)2] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$21 = (_Bool)0;
-                if(tmp_if_expr$21)
-                  tmp_if_expr$22 = __a->__in6_u.__u6_addr32[(signed long int)3] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_21 = (_Bool)0;
+                if(tmp_if_expr_21)
+                  tmp_if_expr_22 = __a->__in6_u.__u6_addr32[(signed long int)3] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$22 = (_Bool)0;
-                tmp_statement_expression$19 = tmp_if_expr$22;
-                if(tmp_statement_expression$19)
-                  tmp_if_expr$24 = "--unidentified--";
+                  tmp_if_expr_22 = (_Bool)0;
+                tmp_statement_expression_19 = tmp_if_expr_22;
+                if(tmp_statement_expression_19)
+                  tmp_if_expr_24 = "--unidentified--";
 
                 else
                 {
-                  return_value_ipv6tonion$23=ipv6tonion(&peer->addr, onionstr);
-                  tmp_if_expr$24 = return_value_ipv6tonion$23;
+                  return_value_ipv6tonion_23=ipv6tonion(&peer->addr, onionstr);
+                  tmp_if_expr_24 = return_value_ipv6tonion_23;
                 }
-                const char *return_value_inet_ntop$25;
-                return_value_inet_ntop$25=inet_ntop(10, (const void *)&peer->addr, addrstr, (unsigned int)46);
-                signed long int return_value_time$26;
-                return_value_time$26=time((signed long int *)(void *)0);
-                fprintf(fo, "[%s]\n fd = %d\n addr = %s\n dir = \"%s\" (%d)\n idle = %lds\n bytes_in = %ld\n bytes_out = %ld\n setup_delay = %lds\n opening_time = \"%s\"\n conn type = \"%s\" (%d)\n", tmp_if_expr$24, peer->tcpfd, return_value_inet_ntop$25, peer->dir == 0 ? "IN" : "OUT", peer->dir, (signed long int)(return_value_time$26 - peer->time), peer->in, peer->out, (signed long int)peer->sdelay, (const void *)timestr, peer->perm != 0 ? "PERMANENT" : "TEMPORARY", peer->perm);
+                const char *return_value_inet_ntop_25;
+                return_value_inet_ntop_25=inet_ntop(10, (const void *)&peer->addr, addrstr, (unsigned int)46);
+                signed long int return_value_time_26;
+                return_value_time_26=time((signed long int *)(void *)0);
+                fprintf(fo, "[%s]\n fd = %d\n addr = %s\n dir = \"%s\" (%d)\n idle = %lds\n bytes_in = %ld\n bytes_out = %ld\n setup_delay = %lds\n opening_time = \"%s\"\n conn type = \"%s\" (%d)\n", tmp_if_expr_24, peer->tcpfd, return_value_inet_ntop_25, peer->dir == 0 ? "IN" : "OUT", peer->dir, (signed long int)(return_value_time_26 - peer->time), peer->in, peer->out, (signed long int)peer->sdelay, (const void *)timestr, peer->perm != 0 ? "PERMANENT" : "TEMPORARY", peer->perm);
               }
 
             unlock_peers();
@@ -2733,8 +2733,8 @@ void * ctrl_handler(void *p)
 
           else
           {
-            return_value_strcmp$45=strcmp(bufp, "close");
-            if(return_value_strcmp$45 == 0)
+            return_value_strcmp_45=strcmp(bufp, "close");
+            if(return_value_strcmp_45 == 0)
             {
               cfd=atoi(bufp + (signed long int)6);
               lock_peers();
@@ -2759,25 +2759,25 @@ void * ctrl_handler(void *p)
 
             else
             {
-              return_value_strcmp$44=strcmp(bufp, "threads");
-              if(return_value_strcmp$44 == 0)
+              return_value_strcmp_44=strcmp(bufp, "threads");
+              if(return_value_strcmp_44 == 0)
                 print_threads(ff);
 
               else
               {
-                return_value_strcmp$43=strcmp(bufp, "terminate");
-                if(return_value_strcmp$43 == 0)
+                return_value_strcmp_43=strcmp(bufp, "terminate");
+                if(return_value_strcmp_43 == 0)
                 {
                   log_msg(6, "terminate request from control port");
-                  signed int return_value_getpid$27;
-                  return_value_getpid$27=getpid();
-                  kill(return_value_getpid$27, 2);
+                  signed int return_value_getpid_27;
+                  return_value_getpid_27=getpid();
+                  kill(return_value_getpid_27, 2);
                 }
 
                 else
                 {
-                  return_value_strcmp$42=strcmp(bufp, "route");
-                  if(return_value_strcmp$42 == 0)
+                  return_value_strcmp_42=strcmp(bufp, "route");
+                  if(return_value_strcmp_42 == 0)
                   {
                     if(rlen >= 7)
                     {
@@ -2841,23 +2841,23 @@ void * ctrl_handler(void *p)
 
                   else
                   {
-                    return_value_strcmp$41=strcmp(bufp, "connect");
-                    if(return_value_strcmp$41 == 0)
+                    return_value_strcmp_41=strcmp(bufp, "connect");
+                    if(return_value_strcmp_41 == 0)
                     {
                       s=strtok_r((char *)(void *)0, " \t\r\n", &tokbuf);
                       if(!(s == ((char *)NULL)))
                       {
-                        unsigned long int return_value_strlen$29;
-                        return_value_strlen$29=strlen(s);
-                        if(!(return_value_strlen$29 == 16ul))
-                          tmp_if_expr$31 = (_Bool)1;
+                        unsigned long int return_value_strlen_29;
+                        return_value_strlen_29=strlen(s);
+                        if(!(return_value_strlen_29 == 16ul))
+                          tmp_if_expr_31 = (_Bool)1;
 
                         else
                         {
-                          return_value_oniontipv6$30=oniontipv6(s, &in6);
-                          tmp_if_expr$31 = return_value_oniontipv6$30 == -1 ? (_Bool)1 : (_Bool)0;
+                          return_value_oniontipv6_30=oniontipv6(s, &in6);
+                          tmp_if_expr_31 = return_value_oniontipv6_30 == -1 ? (_Bool)1 : (_Bool)0;
                         }
-                        if(tmp_if_expr$31)
+                        if(tmp_if_expr_31)
                           fprintf(ff, "ERR \"%s\" not valid .onion-URL\n", bufp + (signed long int)8);
 
                         else
@@ -2868,8 +2868,8 @@ void * ctrl_handler(void *p)
 
                           else
                           {
-                            return_value_strcmp$28=strcmp(s, "perm");
-                            if(return_value_strcmp$28 == 0)
+                            return_value_strcmp_28=strcmp(s, "perm");
+                            if(return_value_strcmp_28 == 0)
                               socks_queue(in6, 1);
 
                             else
@@ -2884,14 +2884,14 @@ void * ctrl_handler(void *p)
 
                     else
                     {
-                      return_value_strcmp$40=strcmp(bufp, "macs");
-                      if(return_value_strcmp$40 == 0)
+                      return_value_strcmp_40=strcmp(bufp, "macs");
+                      if(return_value_strcmp_40 == 0)
                         print_mac_tbl(ff);
 
                       else
                       {
-                        return_value_strcmp$39=strcmp(bufp, "queue");
-                        if(return_value_strcmp$39 == 0)
+                        return_value_strcmp_39=strcmp(bufp, "queue");
+                        if(return_value_strcmp_39 == 0)
                         {
                           print_socks_queue((struct _IO_FILE *)(signed long int)pfd[(signed long int)1]);
                           do
@@ -2907,40 +2907,40 @@ void * ctrl_handler(void *p)
 
                         else
                         {
-                          return_value_strcmp$38=strcmp(bufp, "setup");
-                          if(return_value_strcmp$38 == 0)
+                          return_value_strcmp_38=strcmp(bufp, "setup");
+                          if(return_value_strcmp_38 == 0)
                             print_setup_struct(ff);
 
                           else
                           {
-                            return_value_strcmp$37=strcmp(bufp, "version");
-                            if(return_value_strcmp$37 == 0)
+                            return_value_strcmp_37=strcmp(bufp, "version");
+                            if(return_value_strcmp_37 == 0)
                               fprintf(ff, "%s\n", (const void *)setup_.version);
 
                             else
                             {
-                              return_value_strcmp$36=strcmp(bufp, "hosts");
-                              if(return_value_strcmp$36 == 0)
+                              return_value_strcmp_36=strcmp(bufp, "hosts");
+                              if(return_value_strcmp_36 == 0)
                                 hosts_list(ff);
 
                               else
                               {
-                                return_value_strcmp$35=strcmp(bufp, "hreload");
-                                if(return_value_strcmp$35 == 0)
+                                return_value_strcmp_35=strcmp(bufp, "hreload");
+                                if(return_value_strcmp_35 == 0)
                                   hosts_check();
 
                                 else
                                 {
-                                  return_value_strcmp$32=strcmp(bufp, "help");
-                                  if(return_value_strcmp$32 == 0)
-                                    tmp_if_expr$34 = (_Bool)1;
+                                  return_value_strcmp_32=strcmp(bufp, "help");
+                                  if(return_value_strcmp_32 == 0)
+                                    tmp_if_expr_34 = (_Bool)1;
 
                                   else
                                   {
-                                    return_value_strcmp$33=strcmp(bufp, "?");
-                                    tmp_if_expr$34 = !(return_value_strcmp$33 != 0) ? (_Bool)1 : (_Bool)0;
+                                    return_value_strcmp_33=strcmp(bufp, "?");
+                                    tmp_if_expr_34 = !(return_value_strcmp_33 != 0) ? (_Bool)1 : (_Bool)0;
                                   }
-                                  if(tmp_if_expr$34)
+                                  if(tmp_if_expr_34)
                                     fprintf(fo, "commands:\nexit | quit .... exit from control interface\nterminate ...... terminate OnionCat\nclose <n> ...... close file descriptor <n> of a peer\nhosts .......... list hosts database\nhreload ........ reload hosts database\nstatus ......... list peer status\nthreads ........ show active threads\nroute .......... show routing table\nroute <dst IP> <netmask> <IPv6 gw>\n   ............. add route to routing table\nconnect <.onion-URL> [\"perm\"]\n   ............. connect to a hidden service. if \"perm\" is set,\n   ............. connection will stay open forever\nmacs ........... show MAC address table\nqueue .......... list pending SOCKS connections\nsetup .......... show internal setup struct\nversion ........ show version\n");
 
                                   else
@@ -2967,15 +2967,15 @@ void * ctrl_handler(void *p)
     fprintf(fo, "Good bye!\n");
 
   log_msg(6 | 0x400, "closing session %d", fd);
-  signed int return_value_fclose$52;
-  return_value_fclose$52=fclose(ff);
-  signed int *return_value___errno_location$50;
-  char *return_value_strerror$51;
-  if(return_value_fclose$52 == -1)
+  signed int return_value_fclose_52;
+  return_value_fclose_52=fclose(ff);
+  signed int *return_value___errno_location_50;
+  char *return_value_strerror_51;
+  if(return_value_fclose_52 == -1)
   {
-    return_value___errno_location$50=__errno_location();
-    return_value_strerror$51=strerror(*return_value___errno_location$50);
-    log_msg(3, "error closing control stream: \"%s\"", return_value_strerror$51);
+    return_value___errno_location_50=__errno_location();
+    return_value_strerror_51=strerror(*return_value___errno_location_50);
+    log_msg(3, "error closing control stream: \"%s\"", return_value_strerror_51);
   }
 
   if(setup_.config_read == 0)
@@ -3007,7 +3007,7 @@ void delete_peer(struct OcatPeer *peer)
 {
   signed int rc;
   struct OcatPeer **p = &peer_;
-  char *return_value_strerror$1;
+  char *return_value_strerror_1;
   for( ; !(*p == ((struct OcatPeer *)NULL)); p = &(*p)->next)
     if(*p == peer)
     {
@@ -3018,8 +3018,8 @@ void delete_peer(struct OcatPeer *peer)
       rc=pthread_mutex_destroy(&peer->mutex);
       if(!(rc == 0))
       {
-        return_value_strerror$1=strerror(rc);
-        log_msg(0, "cannot destroy mutex: \"%s\"", return_value_strerror$1);
+        return_value_strerror_1=strerror(rc);
+        log_msg(0, "cannot destroy mutex: \"%s\"", return_value_strerror_1);
       }
 
       free((void *)peer);
@@ -3054,15 +3054,15 @@ void detach_thread(void)
   }
 
   pthread_mutex_unlock(&thread_mutex_);
-  char *return_value_strerror$1;
+  char *return_value_strerror_1;
   if(th == ((struct OcatThread *)NULL))
     log_msg(0, "thread tries to detach but is not in list");
 
   else
     if(!(rc == 0))
     {
-      return_value_strerror$1=strerror(rc);
-      log_msg(3, "could not detach thread: \"%s\"", return_value_strerror$1);
+      return_value_strerror_1=strerror(rc);
+      log_msg(3, "could not detach thread: \"%s\"", return_value_strerror_1);
     }
 
     else
@@ -3074,7 +3074,7 @@ void detach_thread(void)
 signed int eth_check(char *buf, signed int len)
 {
   struct ndp6 *ndp6 = (struct ndp6 *)(buf + (signed long int)4);
-  signed int return_value_memcmp$1;
+  signed int return_value_memcmp_1;
   if(!((unsigned long int)len >= 18ul))
   {
     log_msg(3, "frame too short, len = %d < 4 + %d", len, sizeof(struct ether_header) /*14ul*/ );
@@ -3087,8 +3087,8 @@ signed int eth_check(char *buf, signed int len)
       if((signed int)ndp6->eth.ether_dhost[1l] == 0x33)
         goto __CPROVER_DUMP_L2;
 
-      return_value_memcmp$1=memcmp((const void *)ndp6->eth.ether_dhost, (const void *)setup_.ocat_hwaddr, (unsigned long int)6);
-      if(return_value_memcmp$1 == 0)
+      return_value_memcmp_1=memcmp((const void *)ndp6->eth.ether_dhost, (const void *)setup_.ocat_hwaddr, (unsigned long int)6);
+      if(return_value_memcmp_1 == 0)
         goto __CPROVER_DUMP_L2;
 
       log_msg(7, "unknown destination MAC");
@@ -3100,13 +3100,13 @@ signed int eth_check(char *buf, signed int len)
 
     __CPROVER_DUMP_L2:
       ;
-      unsigned short int return_value_htons$3;
-      return_value_htons$3=htons((unsigned short int)0x86dd);
-      if(!(ndp6->eth.ether_type == return_value_htons$3))
+      unsigned short int return_value_htons_3;
+      return_value_htons_3=htons((unsigned short int)0x86dd);
+      if(!(ndp6->eth.ether_type == return_value_htons_3))
       {
-        unsigned short int return_value_ntohs$2;
-        return_value_ntohs$2=ntohs(ndp6->eth.ether_type);
-        log_msg(3, "L3 protocol not implemented 0x%04x", return_value_ntohs$2);
+        unsigned short int return_value_ntohs_2;
+        return_value_ntohs_2=ntohs(ndp6->eth.ether_type);
+        log_msg(3, "L3 protocol not implemented 0x%04x", return_value_ntohs_2);
         return -10;
       }
 
@@ -3114,10 +3114,10 @@ signed int eth_check(char *buf, signed int len)
       {
         if((signed int)ndp6->ip6.ip6_ctlun.ip6_un1.ip6_un1_nxt == 58)
         {
-          log_msg(7, "ICMPv6 frame intercepted, icmp6_type = %d", ndp6->$anon0.icmp6.icmp6_type);
-          signed int return_value_eth_ndp$4;
-          return_value_eth_ndp$4=eth_ndp(buf, len, (signed int)ndp6->$anon0.icmp6.icmp6_type);
-          if(!(return_value_eth_ndp$4 == -1))
+          log_msg(7, "ICMPv6 frame intercepted, icmp6_type = %d", ndp6->_anon0.icmp6.icmp6_type);
+          signed int return_value_eth_ndp_4;
+          return_value_eth_ndp_4=eth_ndp(buf, len, (signed int)ndp6->_anon0.icmp6.icmp6_type);
+          if(!(return_value_eth_ndp_4 == -1))
             return -11;
 
         }
@@ -3155,47 +3155,47 @@ signed int eth_ndp(char *buf, signed int len, signed int ndp_type)
 // file ocatlibe.c line 181
 signed int fdaprintf(signed int fd, signed int bsiz, const char *fmt, void **ap)
 {
-  const signed long int fdaprintf$array_size0 = (signed long int)bsiz;
-  char buf[fdaprintf$array_size0];
+  const signed long int fdaprintf_array_size0 = (signed long int)bsiz;
+  char buf[fdaprintf_array_size0];
   signed int s;
   signed int e;
   s=vsnprintf(buf, (unsigned long int)bsiz, fmt, ap);
   if(s >= bsiz)
   {
-    signed int return_value_fdaprintf$1;
-    return_value_fdaprintf$1=fdaprintf(fd, s + 1, fmt, ap);
-    return return_value_fdaprintf$1;
+    signed int return_value_fdaprintf_1;
+    return_value_fdaprintf_1=fdaprintf(fd, s + 1, fmt, ap);
+    return return_value_fdaprintf_1;
   }
 
   else
     if(s == -1)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      e = *return_value___errno_location$2;
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(e);
-      log_msg(4, "vnsprintf failed: \"%s\"", return_value_strerror$3);
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      *return_value___errno_location$4 = e;
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      e = *return_value___errno_location_2;
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(e);
+      log_msg(4, "vnsprintf failed: \"%s\"", return_value_strerror_3);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      *return_value___errno_location_4 = e;
       return -1;
     }
 
-  signed long int return_value_write$8;
-  return_value_write$8=write(fd, (const void *)buf, (unsigned long int)s);
-  s = (signed int)return_value_write$8;
+  signed long int return_value_write_8;
+  return_value_write_8=write(fd, (const void *)buf, (unsigned long int)s);
+  s = (signed int)return_value_write_8;
   if(s == -1)
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    e = *return_value___errno_location$5;
-    char *return_value_strerror$6;
-    return_value_strerror$6=strerror(e);
-    log_msg(4, "write failed: \"%s\"", return_value_strerror$6);
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    *return_value___errno_location$7 = e;
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    e = *return_value___errno_location_5;
+    char *return_value_strerror_6;
+    return_value_strerror_6=strerror(e);
+    log_msg(4, "write failed: \"%s\"", return_value_strerror_6);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    *return_value___errno_location_7 = e;
     return -1;
   }
 
@@ -3206,9 +3206,9 @@ signed int fdaprintf(signed int fd, signed int bsiz, const char *fmt, void **ap)
 // file ocatlibe.c line 216
 signed int fdprintf(signed int fd, const char *fmt, void **ap)
 {
-  signed int return_value_fdaprintf$1;
-  return_value_fdaprintf$1=fdaprintf(fd, 256, fmt, ap);
-  return return_value_fdaprintf$1;
+  signed int return_value_fdaprintf_1;
+  return_value_fdaprintf_1=fdaprintf(fd, 256, fmt, ap);
+  return return_value_fdaprintf_1;
 }
 
 // forward_packet
@@ -3232,16 +3232,16 @@ signed int forward_packet(struct in6_addr *addr, const char *buf, signed int buf
   else
   {
     log_msg(7, "forwarding %d bytes to TCP fd %d", buflen, peer->tcpfd);
-    signed long int return_value_send$3;
-    return_value_send$3=send(peer->tcpfd, (const void *)buf, (unsigned long int)buflen, 64);
-    len = (signed int)return_value_send$3;
+    signed long int return_value_send_3;
+    return_value_send_3=send(peer->tcpfd, (const void *)buf, (unsigned long int)buflen, 64);
+    len = (signed int)return_value_send_3;
     if(len == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      log_msg(3, "could not write %d bytes to peer %d: \"%s\", dropping", buflen, peer->tcpfd, return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      log_msg(3, "could not write %d bytes to peer %d: \"%s\", dropping", buflen, peer->tcpfd, return_value_strerror_2);
     }
 
     else
@@ -3277,16 +3277,16 @@ struct OcatPeer * get_empty_peer(void)
 {
   signed int rc;
   struct OcatPeer *peer;
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct OcatPeer) /*65744ul*/ );
-  peer = (struct OcatPeer *)return_value_calloc$3;
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct OcatPeer) /*65744ul*/ );
+  peer = (struct OcatPeer *)return_value_calloc_3;
   if(peer == ((struct OcatPeer *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(3, "cannot get memory for new peer: \"%s\"", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(3, "cannot get memory for new peer: \"%s\"", return_value_strerror_2);
     return (struct OcatPeer *)(void *)0;
   }
 
@@ -3295,9 +3295,9 @@ struct OcatPeer * get_empty_peer(void)
   rc=pthread_mutex_init(&peer->mutex, (const union anonymous *)(void *)0);
   if(!(rc == 0))
   {
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(rc);
-    log_msg(0, "cannot init new peer mutex: \"%s\"", return_value_strerror$4);
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(rc);
+    log_msg(0, "cannot init new peer mutex: \"%s\"", return_value_strerror_4);
     free((void *)peer);
     return (struct OcatPeer *)(void *)0;
   }
@@ -3357,9 +3357,9 @@ unsigned int get_tunheader(char *buf)
 // file ocat.h line 551
 signed int has_tor_prefix(struct in6_addr *addr)
 {
-  signed int return_value_memcmp$1;
-  return_value_memcmp$1=memcmp((const void *)addr, (const void *)&netdesc_[(signed long int)setup_.net_type].prefix, (unsigned long int)6);
-  return (signed int)(return_value_memcmp$1 == 0);
+  signed int return_value_memcmp_1;
+  return_value_memcmp_1=memcmp((const void *)addr, (const void *)&netdesc_[(signed long int)setup_.net_type].prefix, (unsigned long int)6);
+  return (signed int)(return_value_memcmp_1 == 0);
 }
 
 // hosts_check
@@ -3369,9 +3369,9 @@ signed int hosts_check(void)
   if(path_hosts_ == ((char *)NULL))
     path_hosts_ = "/etc/hosts";
 
-  signed int return_value_hosts_file_modified_r$1;
-  return_value_hosts_file_modified_r$1=hosts_file_modified_r(&hosts_.hosts_ts);
-  if(!(return_value_hosts_file_modified_r$1 == 0))
+  signed int return_value_hosts_file_modified_r_1;
+  return_value_hosts_file_modified_r_1=hosts_file_modified_r(&hosts_.hosts_ts);
+  if(!(return_value_hosts_file_modified_r_1 == 0))
     hosts_.hosts_ent_cnt=hosts_read(&hosts_.hosts_ent);
 
   return 0;
@@ -3383,15 +3383,15 @@ signed int hosts_file_modified_r(struct timespec *ts)
 {
   struct stat st;
   log_msg(7, "checking if file \"%s\" was modified", path_hosts_);
-  signed int return_value_stat$3;
-  return_value_stat$3=stat(path_hosts_, &st);
-  if(return_value_stat$3 == -1)
+  signed int return_value_stat_3;
+  return_value_stat_3=stat(path_hosts_, &st);
+  if(return_value_stat_3 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(7, "stat on \"%s\" failed: \"%s\"", path_hosts_, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(7, "stat on \"%s\" failed: \"%s\"", path_hosts_, return_value_strerror_2);
     return -1;
   }
 
@@ -3424,31 +3424,31 @@ signed int hosts_get_name(struct in6_addr *addr, char *buf, signed int s)
   pthread_mutex_lock(&hosts_mutex_);
   i = hosts_.hosts_ent_cnt - 1;
   h = hosts_.hosts_ent;
-  _Bool tmp_statement_expression$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_statement_expression_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   for( ; i >= 0; h = h + 1l)
   {
     struct in6_addr *__a = (struct in6_addr *)addr;
     struct in6_addr *__b = (struct in6_addr *)&h->addr;
     if(__a->__in6_u.__u6_addr32[0l] == __b->__in6_u.__u6_addr32[0l])
-      tmp_if_expr$2 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    tmp_statement_expression$1 = tmp_if_expr$4;
-    if(tmp_statement_expression$1)
+      tmp_if_expr_4 = (_Bool)0;
+    tmp_statement_expression_1 = tmp_if_expr_4;
+    if(tmp_statement_expression_1)
     {
       strlcpy(buf, h->name, (unsigned long int)s);
       log_msg(7, "name \"%s\" found", buf);
@@ -3484,15 +3484,15 @@ signed int hosts_list(struct _IO_FILE *f)
   h = hosts_.hosts_ent;
   for( ; i >= 0; h = h + 1l)
   {
-    const char *return_value_inet_ntop$3;
-    return_value_inet_ntop$3=inet_ntop(10, (const void *)&h->addr, in6, (unsigned int)sizeof(char [46l]) /*46ul*/ );
-    if(return_value_inet_ntop$3 == ((const char *)NULL))
+    const char *return_value_inet_ntop_3;
+    return_value_inet_ntop_3=inet_ntop(10, (const void *)&h->addr, in6, (unsigned int)sizeof(char [46l]) /*46ul*/ );
+    if(return_value_inet_ntop_3 == ((const char *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      log_msg(3, "inet_ntop() failed: %s", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      log_msg(3, "inet_ntop() failed: %s", return_value_strerror_2);
       goto __CPROVER_DUMP_L3;
     }
 
@@ -3522,11 +3522,11 @@ signed int hosts_read(struct hosts_ent **hent)
   f=fopen(path_hosts_, "r");
   if(f == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(7, "fopen(\"%s\"...) failed: \"%s\"", path_hosts_, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(7, "fopen(\"%s\"...) failed: \"%s\"", path_hosts_, return_value_strerror_2);
     return -1;
   }
 
@@ -3540,14 +3540,14 @@ signed int hosts_read(struct hosts_ent **hent)
   memset((void *)&hints, 0, sizeof(struct addrinfo) /*48ul*/ );
   hints.ai_family = 10;
   hints.ai_flags = 0x0004;
-  char *return_value_fgets$3;
-  unsigned long int return_value_strlen$8;
-  unsigned long int return_value_strlen$9;
-  signed int return_value_strcasecmp$10;
+  char *return_value_fgets_3;
+  unsigned long int return_value_strlen_8;
+  unsigned long int return_value_strlen_9;
+  signed int return_value_strcasecmp_10;
   do
   {
-    return_value_fgets$3=fgets(buf, 1024, f);
-    if(return_value_fgets$3 == ((char *)NULL))
+    return_value_fgets_3=fgets(buf, 1024, f);
+    if(return_value_fgets_3 == ((char *)NULL))
       break;
 
     s=strtok(buf, " \t\r\n");
@@ -3558,9 +3558,9 @@ signed int hosts_read(struct hosts_ent **hent)
         e=getaddrinfo(s, (const char *)(void *)0, &hints, &res);
         if(!(e == 0))
         {
-          const char *return_value_gai_strerror$4;
-          return_value_gai_strerror$4=gai_strerror(e);
-          log_msg(7, "getaddrinfo(\"%s\"...) failed: \"%s\"", s, return_value_gai_strerror$4);
+          const char *return_value_gai_strerror_4;
+          return_value_gai_strerror_4=gai_strerror(e);
+          log_msg(7, "getaddrinfo(\"%s\"...) failed: \"%s\"", s, return_value_gai_strerror_4);
           continue;
         }
 
@@ -3579,28 +3579,28 @@ signed int hosts_read(struct hosts_ent **hent)
             if(s == ((char *)NULL))
               break;
 
-            unsigned long int return_value_strlen$11;
-            return_value_strlen$11=strlen(s);
-            unsigned long int return_value_strlen$12;
-            return_value_strlen$12=strlen(hosts_.hdom);
-            if(!(return_value_strlen$12 >= return_value_strlen$11))
+            unsigned long int return_value_strlen_11;
+            return_value_strlen_11=strlen(s);
+            unsigned long int return_value_strlen_12;
+            return_value_strlen_12=strlen(hosts_.hdom);
+            if(!(return_value_strlen_12 >= return_value_strlen_11))
             {
-              return_value_strlen$8=strlen(s);
-              return_value_strlen$9=strlen(hosts_.hdom);
-              return_value_strcasecmp$10=strcasecmp(s + (signed long int)(return_value_strlen$8 - return_value_strlen$9), hosts_.hdom);
-              if(return_value_strcasecmp$10 == 0)
+              return_value_strlen_8=strlen(s);
+              return_value_strlen_9=strlen(hosts_.hdom);
+              return_value_strcasecmp_10=strcasecmp(s + (signed long int)(return_value_strlen_8 - return_value_strlen_9), hosts_.hdom);
+              if(return_value_strcasecmp_10 == 0)
               {
                 n = n + 1;
-                void *return_value_realloc$7;
-                return_value_realloc$7=realloc((void *)*hent, (unsigned long int)n * sizeof(struct hosts_ent) /*1044ul*/ );
-                *hent = (struct hosts_ent *)return_value_realloc$7;
+                void *return_value_realloc_7;
+                return_value_realloc_7=realloc((void *)*hent, (unsigned long int)n * sizeof(struct hosts_ent) /*1044ul*/ );
+                *hent = (struct hosts_ent *)return_value_realloc_7;
                 if(*hent == ((struct hosts_ent *)NULL))
                 {
-                  signed int *return_value___errno_location$5;
-                  return_value___errno_location$5=__errno_location();
-                  char *return_value_strerror$6;
-                  return_value_strerror$6=strerror(*return_value___errno_location$5);
-                  log_msg(3, "realloc failed: \"%s\"", return_value_strerror$6);
+                  signed int *return_value___errno_location_5;
+                  return_value___errno_location_5=__errno_location();
+                  char *return_value_strerror_6;
+                  return_value_strerror_6=strerror(*return_value___errno_location_5);
+                  log_msg(3, "realloc failed: \"%s\"", return_value_strerror_6);
                   n = n - 1;
                   break;
                 }
@@ -3636,7 +3636,7 @@ const char * inet_ntops(struct sockaddr *saddr, struct sockaddr_str *sas)
 {
   char *src;
   log_msg(7, "convert sockaddr %p to sockaddr_str %p", saddr, sas);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   switch((signed int)saddr->sa_family)
   {
     case 2:
@@ -3653,15 +3653,15 @@ const char * inet_ntops(struct sockaddr *saddr, struct sockaddr_str *sas)
     }
     default:
     {
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 97;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 97;
       return (const char *)(void *)0;
     }
   }
   sas->sstr_family = saddr->sa_family;
-  const char *return_value_inet_ntop$2;
-  return_value_inet_ntop$2=inet_ntop((signed int)saddr->sa_family, (const void *)src, sas->sstr_addr, (unsigned int)sizeof(char [46l]) /*46ul*/ );
-  return return_value_inet_ntop$2;
+  const char *return_value_inet_ntop_2;
+  return_value_inet_ntop_2=inet_ntop((signed int)saddr->sa_family, (const void *)src, sas->sstr_addr, (unsigned int)sizeof(char [46l]) /*46ul*/ );
+  return return_value_inet_ntop_2;
 }
 
 // init_ocat_thread
@@ -3669,16 +3669,16 @@ const char * inet_ntops(struct sockaddr *saddr, struct sockaddr_str *sas)
 const struct OcatThread * init_ocat_thread(const char *name)
 {
   struct OcatThread *th;
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct OcatThread) /*112ul*/ );
-  th = (struct OcatThread *)return_value_calloc$3;
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct OcatThread) /*112ul*/ );
+  th = (struct OcatThread *)return_value_calloc_3;
   if(th == ((struct OcatThread *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(3, "could not get memory for thread struct: \"%s\"", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(3, "could not get memory for thread struct: \"%s\"", return_value_strerror_2);
     return (const struct OcatThread *)(void *)0;
   }
 
@@ -3693,9 +3693,9 @@ void init_ocat_thread_struct(struct OcatThread *th)
 {
   th->handle=pthread_self();
   pthread_mutex_lock(&thread_mutex_);
-  signed int tmp_post$1 = thread_id_;
+  signed int tmp_post_1 = thread_id_;
   thread_id_ = thread_id_ + 1;
-  th->id = tmp_post$1;
+  th->id = tmp_post_1;
   th->next = octh_;
   octh_ = th;
   pthread_mutex_unlock(&thread_mutex_);
@@ -3709,22 +3709,22 @@ void init_setup(void)
   struct timeval tv;
   unsigned int loop_;
   loop_=htonl((unsigned int)0x7f000001);
-  signed int return_value_gettimeofday$3;
-  return_value_gettimeofday$3=gettimeofday(&tv, (struct timezone *)(void *)0);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  if(return_value_gettimeofday$3 == -1)
+  signed int return_value_gettimeofday_3;
+  return_value_gettimeofday_3=gettimeofday(&tv, (struct timezone *)(void *)0);
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  if(return_value_gettimeofday_3 == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(4, "could gettimeofday(): \"%s\"", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(4, "could gettimeofday(): \"%s\"", return_value_strerror_2);
   }
 
   srand((unsigned int)(tv.tv_sec ^ tv.tv_usec));
   setup_.uptime=time((signed long int *)(void *)0);
   memset((void *)&socks_dst6_, 0, sizeof(struct sockaddr_in6) /*28ul*/ );
-  setup_.$anon0.socks_dst->sin_family = (unsigned short int)2;
-  memcpy((void *)&setup_.$anon0.socks_dst->sin_addr, (const void *)&loop_, sizeof(struct in_addr) /*4ul*/ );
+  setup_._anon0.socks_dst->sin_family = (unsigned short int)2;
+  memcpy((void *)&setup_._anon0.socks_dst->sin_addr, (const void *)&loop_, sizeof(struct in_addr) /*4ul*/ );
   memset((void *)&ctrl_listen_, 0, sizeof(struct sockaddr_in) /*16ul*/ );
   memset((void *)&ctrl_listen6_, 0, sizeof(struct sockaddr_in6) /*28ul*/ );
   setup_.fhd_key[(signed long int)1]=htonl((unsigned int)0x86dd);
@@ -3735,9 +3735,9 @@ void init_setup(void)
 // file ocatroute.c line 633
 signed int insert_anon_peer(signed int fd)
 {
-  signed int return_value_insert_peer$1;
-  return_value_insert_peer$1=insert_peer(fd, (const struct SocksQueue *)(void *)0, (signed long int)0);
-  return return_value_insert_peer$1;
+  signed int return_value_insert_peer_1;
+  return_value_insert_peer_1=insert_peer(fd, (const struct SocksQueue *)(void *)0, (signed long int)0);
+  return return_value_insert_peer_1;
 }
 
 // insert_peer
@@ -3749,8 +3749,8 @@ signed int insert_peer(signed int fd, const struct SocksQueue *sq, signed long i
   set_nonblock(fd);
   lock_peers();
   peer=get_empty_peer();
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(peer == ((struct OcatPeer *)NULL))
   {
     unlock_peers();
@@ -3778,13 +3778,13 @@ signed int insert_peer(signed int fd, const struct SocksQueue *sq, signed long i
       peer->dir = 0;
     unlock_peer(peer);
     log_msg(7, "waking up socket_receiver");
-    signed long int return_value_write$3;
-    return_value_write$3=write(lpfd_[(signed long int)1], (const void *)&fd, (unsigned long int)1);
-    if(!(return_value_write$3 == 1l))
+    signed long int return_value_write_3;
+    return_value_write_3=write(lpfd_[(signed long int)1], (const void *)&fd, (unsigned long int)1);
+    if(!(return_value_write_3 == 1l))
     {
-      return_value___errno_location$1=__errno_location();
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      log_msg(0, "couldn't write to socket_receiver pipe: \"%s\"", return_value_strerror$2);
+      return_value___errno_location_1=__errno_location();
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      log_msg(0, "couldn't write to socket_receiver pipe: \"%s\"", return_value_strerror_2);
     }
 
     return 1;
@@ -3799,63 +3799,63 @@ void install_sig(void)
   memset((void *)&sa, 0, sizeof(struct sigaction) /*152ul*/ );
   sa.__sigaction_handler.sa_handler = sig_handler;
   log_msg(7, "installing signal handler");
-  signed int return_value_sigaction$3;
-  return_value_sigaction$3=sigaction(15, &sa, (struct sigaction *)(void *)0);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  if(return_value_sigaction$3 == -1)
+  signed int return_value_sigaction_3;
+  return_value_sigaction_3=sigaction(15, &sa, (struct sigaction *)(void *)0);
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  if(return_value_sigaction_3 == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(3, "could not install SIGINT handler: \"%s\"", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(3, "could not install SIGINT handler: \"%s\"", return_value_strerror_2);
     exit(1);
   }
 
-  signed int return_value_sigaction$6;
-  return_value_sigaction$6=sigaction(2, &sa, (struct sigaction *)(void *)0);
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
-  if(return_value_sigaction$6 == -1)
+  signed int return_value_sigaction_6;
+  return_value_sigaction_6=sigaction(2, &sa, (struct sigaction *)(void *)0);
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
+  if(return_value_sigaction_6 == -1)
   {
-    return_value___errno_location$4=__errno_location();
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    log_msg(3, "could not install SIGINT handler: \"%s\"", return_value_strerror$5);
+    return_value___errno_location_4=__errno_location();
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    log_msg(3, "could not install SIGINT handler: \"%s\"", return_value_strerror_5);
     exit(1);
   }
 
-  signed int return_value_sigaction$9;
-  return_value_sigaction$9=sigaction(1, &sa, (struct sigaction *)(void *)0);
-  signed int *return_value___errno_location$7;
-  char *return_value_strerror$8;
-  if(return_value_sigaction$9 == -1)
+  signed int return_value_sigaction_9;
+  return_value_sigaction_9=sigaction(1, &sa, (struct sigaction *)(void *)0);
+  signed int *return_value___errno_location_7;
+  char *return_value_strerror_8;
+  if(return_value_sigaction_9 == -1)
   {
-    return_value___errno_location$7=__errno_location();
-    return_value_strerror$8=strerror(*return_value___errno_location$7);
-    log_msg(3, "could not install SIGHUP handler: \"%s\"", return_value_strerror$8);
+    return_value___errno_location_7=__errno_location();
+    return_value_strerror_8=strerror(*return_value___errno_location_7);
+    log_msg(3, "could not install SIGHUP handler: \"%s\"", return_value_strerror_8);
     exit(1);
   }
 
-  signed int return_value_sigaction$12;
-  return_value_sigaction$12=sigaction(10, &sa, (struct sigaction *)(void *)0);
-  signed int *return_value___errno_location$10;
-  char *return_value_strerror$11;
-  if(return_value_sigaction$12 == -1)
+  signed int return_value_sigaction_12;
+  return_value_sigaction_12=sigaction(10, &sa, (struct sigaction *)(void *)0);
+  signed int *return_value___errno_location_10;
+  char *return_value_strerror_11;
+  if(return_value_sigaction_12 == -1)
   {
-    return_value___errno_location$10=__errno_location();
-    return_value_strerror$11=strerror(*return_value___errno_location$10);
-    log_msg(3, "could not install SIGUSR1 handler: \"%s\"", return_value_strerror$11);
+    return_value___errno_location_10=__errno_location();
+    return_value_strerror_11=strerror(*return_value___errno_location_10);
+    log_msg(3, "could not install SIGUSR1 handler: \"%s\"", return_value_strerror_11);
     exit(1);
   }
 
-  signed int return_value_sigaction$15;
-  return_value_sigaction$15=sigaction(17, &sa, (struct sigaction *)(void *)0);
-  signed int *return_value___errno_location$13;
-  char *return_value_strerror$14;
-  if(return_value_sigaction$15 == -1)
+  signed int return_value_sigaction_15;
+  return_value_sigaction_15=sigaction(17, &sa, (struct sigaction *)(void *)0);
+  signed int *return_value___errno_location_13;
+  char *return_value_strerror_14;
+  if(return_value_sigaction_15 == -1)
   {
-    return_value___errno_location$13=__errno_location();
-    return_value_strerror$14=strerror(*return_value___errno_location$13);
-    log_msg(3, "could not install SIGCHLD handler: \"%s\"", return_value_strerror$14);
+    return_value___errno_location_13=__errno_location();
+    return_value_strerror_14=strerror(*return_value___errno_location_13);
+    log_msg(3, "could not install SIGCHLD handler: \"%s\"", return_value_strerror_14);
     exit(1);
   }
 
@@ -3867,16 +3867,16 @@ signed int ipv4_add_route(struct IPv4Route *route, struct IPv4Route **root, unsi
 {
   if(*root == ((struct IPv4Route *)NULL))
   {
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct IPv4Route) /*40ul*/ );
-    *root = (struct IPv4Route *)return_value_calloc$3;
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct IPv4Route) /*40ul*/ );
+    *root = (struct IPv4Route *)return_value_calloc_3;
     if(*root == ((struct IPv4Route *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      log_msg(0, "ipv4_add_route: %s", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      log_msg(0, "ipv4_add_route: %s", return_value_strerror_2);
       return -1;
     }
 
@@ -3884,59 +3884,59 @@ signed int ipv4_add_route(struct IPv4Route *route, struct IPv4Route **root, unsi
     (*root)->netmask = cur_nm;
   }
 
-  _Bool tmp_statement_expression$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_statement_expression$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
+  _Bool tmp_statement_expression_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_statement_expression_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
   if(route->netmask == cur_nm)
   {
     struct in6_addr *__a = (struct in6_addr *)&(*root)->gw;
     struct in6_addr *__b = (struct in6_addr *)&in6addr_any;
     if(__a->__in6_u.__u6_addr32[0l] == __b->__in6_u.__u6_addr32[0l])
-      tmp_if_expr$5 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_5 = (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$6 = (_Bool)0;
-    if(tmp_if_expr$6)
-      tmp_if_expr$7 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = (_Bool)0;
+    if(tmp_if_expr_6)
+      tmp_if_expr_7 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    tmp_statement_expression$4 = tmp_if_expr$7;
-    if(tmp_statement_expression$4)
+      tmp_if_expr_7 = (_Bool)0;
+    tmp_statement_expression_4 = tmp_if_expr_7;
+    if(tmp_statement_expression_4)
     {
       memcpy((void *)&(*root)->gw, (const void *)&route->gw, sizeof(struct in6_addr) /*16ul*/ );
       return 0;
     }
 
-    struct in6_addr *ipv4_add_route$$1$$2$$3$$__a = (struct in6_addr *)&(*root)->gw;
-    struct in6_addr *ipv4_add_route$$1$$2$$3$$__b = (struct in6_addr *)&route->gw;
-    if(ipv4_add_route$$1$$2$$3$$__a->__in6_u.__u6_addr32[0l] == ipv4_add_route$$1$$2$$3$$__b->__in6_u.__u6_addr32[0l])
-      tmp_if_expr$9 = ipv4_add_route$$1$$2$$3$$__a->__in6_u.__u6_addr32[(signed long int)1] == ipv4_add_route$$1$$2$$3$$__b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+    struct in6_addr *ipv4_add_route__1__2__3____a = (struct in6_addr *)&(*root)->gw;
+    struct in6_addr *ipv4_add_route__1__2__3____b = (struct in6_addr *)&route->gw;
+    if(ipv4_add_route__1__2__3____a->__in6_u.__u6_addr32[0l] == ipv4_add_route__1__2__3____b->__in6_u.__u6_addr32[0l])
+      tmp_if_expr_9 = ipv4_add_route__1__2__3____a->__in6_u.__u6_addr32[(signed long int)1] == ipv4_add_route__1__2__3____b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$9 = (_Bool)0;
-    if(tmp_if_expr$9)
-      tmp_if_expr$10 = ipv4_add_route$$1$$2$$3$$__a->__in6_u.__u6_addr32[(signed long int)2] == ipv4_add_route$$1$$2$$3$$__b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_9 = (_Bool)0;
+    if(tmp_if_expr_9)
+      tmp_if_expr_10 = ipv4_add_route__1__2__3____a->__in6_u.__u6_addr32[(signed long int)2] == ipv4_add_route__1__2__3____b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$10 = (_Bool)0;
-    if(tmp_if_expr$10)
-      tmp_if_expr$11 = ipv4_add_route$$1$$2$$3$$__a->__in6_u.__u6_addr32[(signed long int)3] == ipv4_add_route$$1$$2$$3$$__b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_10 = (_Bool)0;
+    if(tmp_if_expr_10)
+      tmp_if_expr_11 = ipv4_add_route__1__2__3____a->__in6_u.__u6_addr32[(signed long int)3] == ipv4_add_route__1__2__3____b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$11 = (_Bool)0;
-    tmp_statement_expression$8 = tmp_if_expr$11;
-    if(tmp_statement_expression$8)
+      tmp_if_expr_11 = (_Bool)0;
+    tmp_statement_expression_8 = tmp_if_expr_11;
+    if(tmp_statement_expression_8)
       return 0;
 
     log_msg(3, "route already exists");
@@ -3954,9 +3954,9 @@ signed int ipv4_add_route(struct IPv4Route *route, struct IPv4Route **root, unsi
     {
       cur_nm = cur_nm >> 1;
       cur_nm = cur_nm | 0x80000000;
-      signed int return_value_ipv4_add_route$12;
-      return_value_ipv4_add_route$12=ipv4_add_route(route, &(*root)->next[(signed long int)((route->dest & cur_nm & ~(cur_nm << 1)) != (unsigned int)0)], cur_nm);
-      return return_value_ipv4_add_route$12;
+      signed int return_value_ipv4_add_route_12;
+      return_value_ipv4_add_route_12=ipv4_add_route(route, &(*root)->next[(signed long int)((route->dest & cur_nm & ~(cur_nm << 1)) != (unsigned int)0)], cur_nm);
+      return return_value_ipv4_add_route_12;
     }
 }
 
@@ -3968,24 +3968,24 @@ struct in6_addr * ipv4_lookup_route(unsigned int ip)
   pthread_mutex_lock(&route_mutex_);
   r=ipv4_lookup_route__(ip, rroot_, (unsigned int)0);
   pthread_mutex_unlock(&route_mutex_);
-  struct in6_addr *tmp_if_expr$1;
+  struct in6_addr *tmp_if_expr_1;
   if(!(r == ((struct IPv4Route *)NULL)))
-    tmp_if_expr$1 = &r->gw;
+    tmp_if_expr_1 = &r->gw;
 
   else
-    tmp_if_expr$1 = (struct in6_addr *)(void *)0;
-  return tmp_if_expr$1;
+    tmp_if_expr_1 = (struct in6_addr *)(void *)0;
+  return tmp_if_expr_1;
 }
 
 // ipv4_lookup_route__
 // file ocatipv4route.c line 83
 struct IPv4Route * ipv4_lookup_route__(unsigned int ip, struct IPv4Route *route, unsigned int cur_nm)
 {
-  struct IPv4Route *return_value_ipv4_lookup_route__$1;
-  _Bool tmp_statement_expression$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  struct IPv4Route *return_value_ipv4_lookup_route___1;
+  _Bool tmp_statement_expression_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   if(route == ((struct IPv4Route *)NULL))
   {
     log_msg(7, "NULL route");
@@ -3998,8 +3998,8 @@ struct IPv4Route * ipv4_lookup_route__(unsigned int ip, struct IPv4Route *route,
     cur_nm = cur_nm | 0x80000000;
     if(!(route->next[(signed long int)!((~(cur_nm << 1) & cur_nm & ip) == 0u)] == ((struct IPv4Route *)NULL)))
     {
-      return_value_ipv4_lookup_route__$1=ipv4_lookup_route__(ip, route->next[(signed long int)((ip & cur_nm & ~(cur_nm << 1)) != (unsigned int)0)], cur_nm);
-      return return_value_ipv4_lookup_route__$1;
+      return_value_ipv4_lookup_route___1=ipv4_lookup_route__(ip, route->next[(signed long int)((ip & cur_nm & ~(cur_nm << 1)) != (unsigned int)0)], cur_nm);
+      return return_value_ipv4_lookup_route___1;
     }
 
     else
@@ -4007,22 +4007,22 @@ struct IPv4Route * ipv4_lookup_route__(unsigned int ip, struct IPv4Route *route,
       struct in6_addr *__a = (struct in6_addr *)&route->gw;
       struct in6_addr *__b = (struct in6_addr *)&in6addr_any;
       if(__a->__in6_u.__u6_addr32[0l] == __b->__in6_u.__u6_addr32[0l])
-        tmp_if_expr$3 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
-        tmp_if_expr$5 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
+        tmp_if_expr_5 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$5 = (_Bool)0;
-      tmp_statement_expression$2 = tmp_if_expr$5;
-      if(!tmp_statement_expression$2)
+        tmp_if_expr_5 = (_Bool)0;
+      tmp_statement_expression_2 = tmp_if_expr_5;
+      if(!tmp_statement_expression_2)
         return route;
 
       else
@@ -4037,38 +4037,38 @@ void ipv4_print(struct IPv4Route *route, void *f)
 {
   char addr[46l];
   struct in_addr iaddr;
-  _Bool tmp_statement_expression$1;
+  _Bool tmp_statement_expression_1;
   struct in6_addr *__a = (struct in6_addr *)&route->gw;
   struct in6_addr *__b = (struct in6_addr *)&in6addr_any;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(__a->__in6_u.__u6_addr32[0l] == __b->__in6_u.__u6_addr32[0l])
-    tmp_if_expr$2 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
-    tmp_if_expr$3 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = (_Bool)0;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
+    tmp_if_expr_3 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
-    tmp_if_expr$4 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = (_Bool)0;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
+    tmp_if_expr_4 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  tmp_statement_expression$1 = tmp_if_expr$4;
-  if(!tmp_statement_expression$1)
+    tmp_if_expr_4 = (_Bool)0;
+  tmp_statement_expression_1 = tmp_if_expr_4;
+  if(!tmp_statement_expression_1)
   {
     iaddr.s_addr=htonl(route->dest);
-    char *return_value_inet_ntoa$5;
-    return_value_inet_ntoa$5=inet_ntoa(iaddr);
-    fprintf((struct _IO_FILE *)f, "IN  %s ", return_value_inet_ntoa$5);
+    char *return_value_inet_ntoa_5;
+    return_value_inet_ntoa_5=inet_ntoa(iaddr);
+    fprintf((struct _IO_FILE *)f, "IN  %s ", return_value_inet_ntoa_5);
     iaddr.s_addr=htonl(route->netmask);
-    char *return_value_inet_ntoa$6;
-    return_value_inet_ntoa$6=inet_ntoa(iaddr);
-    fprintf((struct _IO_FILE *)f, "%s ", return_value_inet_ntoa$6);
+    char *return_value_inet_ntoa_6;
+    return_value_inet_ntoa_6=inet_ntoa(iaddr);
+    fprintf((struct _IO_FILE *)f, "%s ", return_value_inet_ntoa_6);
     inet_ntop(10, (const void *)&route->gw, addr, (unsigned int)46);
     fprintf((struct _IO_FILE *)f, "%s %p\n", (const void *)addr, route);
   }
@@ -4095,17 +4095,17 @@ signed int ipv6_add_route(const struct IPv6Route *route)
   signed int r = -1;
   struct IPv6Route *rt;
   pthread_mutex_lock(&v6route_mutex_);
-  void *return_value_realloc$2;
-  return_value_realloc$2=realloc((void *)v6route_, sizeof(struct IPv6Route) /*36ul*/  * (unsigned long int)(v6route_cnt_ + 1));
-  rt = (struct IPv6Route *)return_value_realloc$2;
-  signed int tmp_post$1;
+  void *return_value_realloc_2;
+  return_value_realloc_2=realloc((void *)v6route_, sizeof(struct IPv6Route) /*36ul*/  * (unsigned long int)(v6route_cnt_ + 1));
+  rt = (struct IPv6Route *)return_value_realloc_2;
+  signed int tmp_post_1;
   if(!(rt == ((struct IPv6Route *)NULL)))
   {
     v6route_ = rt;
     r = v6route_cnt_;
-    tmp_post$1 = v6route_cnt_;
+    tmp_post_1 = v6route_cnt_;
     v6route_cnt_ = v6route_cnt_ + 1;
-    memcpy((void *)&v6route_[(signed long int)tmp_post$1], (const void *)route, sizeof(struct IPv6Route) /*36ul*/ );
+    memcpy((void *)&v6route_[(signed long int)tmp_post_1], (const void *)route, sizeof(struct IPv6Route) /*36ul*/ );
   }
 
   pthread_mutex_unlock(&v6route_mutex_);
@@ -4122,10 +4122,10 @@ struct in6_addr * ipv6_lookup_route(struct in6_addr *dest)
   pthread_mutex_lock(&v6route_mutex_);
   n = v6route_cnt_;
   i = 0;
-  _Bool tmp_statement_expression$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_statement_expression_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   for( ; !(i >= n); i = i + 1)
   {
     addr = *dest;
@@ -4133,22 +4133,22 @@ struct in6_addr * ipv6_lookup_route(struct in6_addr *dest)
     struct in6_addr *__a = (struct in6_addr *)&(v6route_ + (signed long int)i)->dest;
     struct in6_addr *__b = (struct in6_addr *)&addr;
     if(__a->__in6_u.__u6_addr32[0l] == __b->__in6_u.__u6_addr32[0l])
-      tmp_if_expr$2 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    tmp_statement_expression$1 = tmp_if_expr$4;
-    if(tmp_statement_expression$1)
+      tmp_if_expr_4 = (_Bool)0;
+    tmp_statement_expression_1 = tmp_if_expr_4;
+    if(tmp_statement_expression_1)
     {
       log_msg(7, "IPv6 route found");
       break;
@@ -4156,49 +4156,49 @@ struct in6_addr * ipv6_lookup_route(struct in6_addr *dest)
 
   }
   pthread_mutex_unlock(&v6route_mutex_);
-  struct in6_addr *tmp_if_expr$5;
+  struct in6_addr *tmp_if_expr_5;
   if(!(i >= n))
-    tmp_if_expr$5 = &(v6route_ + (signed long int)i)->gw;
+    tmp_if_expr_5 = &(v6route_ + (signed long int)i)->gw;
 
   else
-    tmp_if_expr$5 = (struct in6_addr *)(void *)0;
-  return tmp_if_expr$5;
+    tmp_if_expr_5 = (struct in6_addr *)(void *)0;
+  return tmp_if_expr_5;
 }
 
 // ipv6_parse_route
 // file ocat.h line 660
 signed int ipv6_parse_route(const char *rs)
 {
-  signed long int ipv6_parse_route$array_size0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(rs);
-  ipv6_parse_route$array_size0 = (signed long int)(return_value_strlen$1 + (unsigned long int)1);
-  char buf[ipv6_parse_route$array_size0];
+  signed long int ipv6_parse_route_array_size0;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(rs);
+  ipv6_parse_route_array_size0 = (signed long int)(return_value_strlen_1 + (unsigned long int)1);
+  char buf[ipv6_parse_route_array_size0];
   char *s;
   char *b;
   struct IPv6Route route6;
-  _Bool tmp_statement_expression$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
+  _Bool tmp_statement_expression_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
   if(rs == ((const char *)NULL))
     return -5;
 
   else
   {
     log_msg(7, "IPv6 route parser: \"%s\"", rs);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(rs);
-    strlcpy(buf, rs, return_value_strlen$2 + (unsigned long int)1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(rs);
+    strlcpy(buf, rs, return_value_strlen_2 + (unsigned long int)1);
     s=strtok_r(buf, " \t", &b);
     if(s == ((char *)NULL))
       return -4;
 
     else
     {
-      signed int return_value_inet_pton$3;
-      return_value_inet_pton$3=inet_pton(10, s, (void *)&route6.dest);
-      if(!(return_value_inet_pton$3 == 1))
+      signed int return_value_inet_pton_3;
+      return_value_inet_pton_3=inet_pton(10, s, (void *)&route6.dest);
+      if(!(return_value_inet_pton_3 == 1))
         return -4;
 
       else
@@ -4209,15 +4209,15 @@ signed int ipv6_parse_route(const char *rs)
 
         else
         {
-          signed int *return_value___errno_location$4;
-          return_value___errno_location$4=__errno_location();
-          *return_value___errno_location$4 = 0;
-          signed long int return_value_strtol$5;
-          return_value_strtol$5=strtol(s, (char ** restrict )(void *)0, 10);
-          route6.prefixlen = (signed int)return_value_strtol$5;
-          signed int *return_value___errno_location$6;
-          return_value___errno_location$6=__errno_location();
-          if(!(*return_value___errno_location$6 == 0))
+          signed int *return_value___errno_location_4;
+          return_value___errno_location_4=__errno_location();
+          *return_value___errno_location_4 = 0;
+          signed long int return_value_strtol_5;
+          return_value_strtol_5=strtol(s, (char ** restrict )(void *)0, 10);
+          route6.prefixlen = (signed int)return_value_strtol_5;
+          signed int *return_value___errno_location_6;
+          return_value___errno_location_6=__errno_location();
+          if(!(*return_value___errno_location_6 == 0))
             return -4;
 
           else
@@ -4232,16 +4232,16 @@ signed int ipv6_parse_route(const char *rs)
 
               else
               {
-                signed int return_value_inet_pton$7;
-                return_value_inet_pton$7=inet_pton(10, s, (void *)&route6.gw);
-                if(!(return_value_inet_pton$7 == 1))
+                signed int return_value_inet_pton_7;
+                return_value_inet_pton_7=inet_pton(10, s, (void *)&route6.gw);
+                if(!(return_value_inet_pton_7 == 1))
                   return -4;
 
                 else
                 {
-                  signed int return_value_has_tor_prefix$8;
-                  return_value_has_tor_prefix$8=has_tor_prefix(&route6.gw);
-                  if(return_value_has_tor_prefix$8 == 0)
+                  signed int return_value_has_tor_prefix_8;
+                  return_value_has_tor_prefix_8=has_tor_prefix(&route6.gw);
+                  if(return_value_has_tor_prefix_8 == 0)
                     return -6;
 
                   else
@@ -4249,37 +4249,37 @@ signed int ipv6_parse_route(const char *rs)
                     struct in6_addr *__a = (struct in6_addr *)&route6.gw;
                     struct in6_addr *__b = (struct in6_addr *)&setup_.ocat_addr;
                     if(__a->__in6_u.__u6_addr32[0l] == __b->__in6_u.__u6_addr32[0l])
-                      tmp_if_expr$10 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_10 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
                     else
-                      tmp_if_expr$10 = (_Bool)0;
-                    if(tmp_if_expr$10)
-                      tmp_if_expr$11 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_10 = (_Bool)0;
+                    if(tmp_if_expr_10)
+                      tmp_if_expr_11 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
 
                     else
-                      tmp_if_expr$11 = (_Bool)0;
-                    if(tmp_if_expr$11)
-                      tmp_if_expr$12 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
+                      tmp_if_expr_11 = (_Bool)0;
+                    if(tmp_if_expr_11)
+                      tmp_if_expr_12 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
 
                     else
-                      tmp_if_expr$12 = (_Bool)0;
-                    tmp_statement_expression$9 = tmp_if_expr$12;
-                    if(tmp_statement_expression$9)
+                      tmp_if_expr_12 = (_Bool)0;
+                    tmp_statement_expression_9 = tmp_if_expr_12;
+                    if(tmp_statement_expression_9)
                       return -7;
 
                     else
                     {
                       ipv6_reduce(&route6.dest, route6.prefixlen);
-                      struct in6_addr *return_value_ipv6_lookup_route$13;
-                      return_value_ipv6_lookup_route$13=ipv6_lookup_route(&route6.dest);
-                      if(!(return_value_ipv6_lookup_route$13 == ((struct in6_addr *)NULL)))
+                      struct in6_addr *return_value_ipv6_lookup_route_13;
+                      return_value_ipv6_lookup_route_13=ipv6_lookup_route(&route6.dest);
+                      if(!(return_value_ipv6_lookup_route_13 == ((struct in6_addr *)NULL)))
                         return -2;
 
                       else
                       {
-                        signed int return_value_ipv6_add_route$14;
-                        return_value_ipv6_add_route$14=ipv6_add_route(&route6);
-                        return return_value_ipv6_add_route$14;
+                        signed int return_value_ipv6_add_route_14;
+                        return_value_ipv6_add_route_14=ipv6_add_route(&route6);
+                        return return_value_ipv6_add_route_14;
                       }
                     }
                   }
@@ -4355,8 +4355,8 @@ signed int join_threads(void)
   struct OcatThread thb;
   void *ret;
   signed int rc;
-  _Bool tmp_if_expr$1;
-  char *return_value_strerror$2;
+  _Bool tmp_if_expr_1;
+  char *return_value_strerror_2;
   do
   {
     pthread_mutex_lock(&thread_mutex_);
@@ -4365,11 +4365,11 @@ signed int join_threads(void)
     do
     {
       if(!(th == ((struct OcatThread *)NULL)))
-        tmp_if_expr$1 = th->detached != 0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = th->detached != 0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       th = th->next;
@@ -4388,8 +4388,8 @@ signed int join_threads(void)
     rc=pthread_join(thb.handle, &ret);
     if(!(rc == 0))
     {
-      return_value_strerror$2=strerror(rc);
-      log_msg(3, "error joining thread: \"%s\"", return_value_strerror$2);
+      return_value_strerror_2=strerror(rc);
+      log_msg(3, "error joining thread: \"%s\"", return_value_strerror_2);
     }
 
     log_msg(7, "thread successful joined and return %p", ret);
@@ -4403,18 +4403,18 @@ signed int join_threads(void)
 // file ocat.h line 608
 signed int lock_peer(struct OcatPeer *peer)
 {
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&peer->mutex);
-  return return_value_pthread_mutex_lock$1;
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&peer->mutex);
+  return return_value_pthread_mutex_lock_1;
 }
 
 // lock_peers
 // file ocat.h line 606
 signed int lock_peers(void)
 {
-  signed int return_value_pthread_mutex_lock$1;
-  return_value_pthread_mutex_lock$1=pthread_mutex_lock(&peer_mutex_);
-  return return_value_pthread_mutex_lock$1;
+  signed int return_value_pthread_mutex_lock_1;
+  return_value_pthread_mutex_lock_1=pthread_mutex_lock(&peer_mutex_);
+  return return_value_pthread_mutex_lock_1;
 }
 
 // lock_setup
@@ -4455,17 +4455,17 @@ signed int mac_add_entry(const unsigned char *hwaddr, struct in6_addr *in6)
 {
   signed int e = -1;
   pthread_mutex_lock(&mac_mutex_);
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   if(!(mac_cnt_ >= 128))
   {
     log_msg(7, "adding entry to MAC table %d", mac_cnt_);
     memcpy((void *)&mac_tbl_[(signed long int)mac_cnt_].hwaddr, (const void *)hwaddr, (unsigned long int)6);
-    memcpy((void *)&mac_tbl_[(signed long int)mac_cnt_].$anon0.in6addr, (const void *)in6, sizeof(struct in6_addr) /*16ul*/ );
+    memcpy((void *)&mac_tbl_[(signed long int)mac_cnt_]._anon0.in6addr, (const void *)in6, sizeof(struct in6_addr) /*16ul*/ );
     mac_tbl_[(signed long int)mac_cnt_].age=time((signed long int *)(void *)0);
     mac_tbl_[(signed long int)mac_cnt_].family = (unsigned short int)10;
-    tmp_post$1 = mac_cnt_;
+    tmp_post_1 = mac_cnt_;
     mac_cnt_ = mac_cnt_ + 1;
-    e = tmp_post$1;
+    e = tmp_post_1;
   }
 
   pthread_mutex_unlock(&mac_mutex_);
@@ -4480,15 +4480,15 @@ void mac_cleanup(void)
   char hw[20l];
   pthread_mutex_lock(&mac_mutex_);
   i = 0;
-  signed long int return_value_time$2;
+  signed long int return_value_time_2;
   for( ; !(i >= mac_cnt_); i = i + 1)
   {
-    return_value_time$2=time((signed long int *)(void *)0);
-    if(!(120l + mac_tbl_[(signed long int)i].age >= return_value_time$2))
+    return_value_time_2=time((signed long int *)(void *)0);
+    if(!(120l + mac_tbl_[(signed long int)i].age >= return_value_time_2))
     {
-      char *return_value_ether_ntoa_r$1;
-      return_value_ether_ntoa_r$1=ether_ntoa_r((struct ether_addr *)mac_tbl_[(signed long int)i].hwaddr, hw);
-      log_msg(7, "mac table entry %d (%s) timed out", i, return_value_ether_ntoa_r$1);
+      char *return_value_ether_ntoa_r_1;
+      return_value_ether_ntoa_r_1=ether_ntoa_r((struct ether_addr *)mac_tbl_[(signed long int)i].hwaddr, hw);
+      log_msg(7, "mac table entry %d (%s) timed out", i, return_value_ether_ntoa_r_1);
       memmove((void *)&mac_tbl_[(signed long int)i], (const void *)&mac_tbl_[(signed long int)(i + 1)], sizeof(struct MACTable) /*40ul*/  * (unsigned long int)(128 - i));
       mac_cnt_ = mac_cnt_ - 1;
       i = i - 1;
@@ -4505,14 +4505,14 @@ signed int mac_get_ip(const unsigned char *hwaddr, struct in6_addr *in6)
   signed int i;
   pthread_mutex_lock(&mac_mutex_);
   i = mac_cnt_ - 1;
-  signed int return_value_memcmp$1;
+  signed int return_value_memcmp_1;
   for( ; i >= 0; i = i - 1)
   {
-    return_value_memcmp$1=memcmp((const void *)hwaddr, (const void *)&mac_tbl_[(signed long int)i].hwaddr, (unsigned long int)6);
-    if(return_value_memcmp$1 == 0)
+    return_value_memcmp_1=memcmp((const void *)hwaddr, (const void *)&mac_tbl_[(signed long int)i].hwaddr, (unsigned long int)6);
+    if(return_value_memcmp_1 == 0)
     {
       if(!(in6 == ((struct in6_addr *)NULL)))
-        memcpy((void *)in6, (const void *)&mac_tbl_[(signed long int)i].$anon0.in6addr, sizeof(struct in6_addr) /*16ul*/ );
+        memcpy((void *)in6, (const void *)&mac_tbl_[(signed long int)i]._anon0.in6addr, sizeof(struct in6_addr) /*16ul*/ );
 
       mac_tbl_[(signed long int)i].age=time((signed long int *)(void *)0);
       break;
@@ -4530,65 +4530,65 @@ signed int mac_set(struct in6_addr *in6, unsigned char *hwaddr)
   signed int i;
   pthread_mutex_lock(&mac_mutex_);
   i = mac_cnt_ - 1;
-  _Bool tmp_statement_expression$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
+  _Bool tmp_statement_expression_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
   for( ; i >= 0; i = i - 1)
   {
     struct in6_addr *__a = (struct in6_addr *)in6;
-    struct in6_addr *__b = (struct in6_addr *)&mac_tbl_[(signed long int)i].$anon0.in6addr;
+    struct in6_addr *__b = (struct in6_addr *)&mac_tbl_[(signed long int)i]._anon0.in6addr;
     if(__a->__in6_u.__u6_addr32[0l] == __b->__in6_u.__u6_addr32[0l])
-      tmp_if_expr$7 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_7 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$7 = (_Bool)0;
-    if(tmp_if_expr$7)
-      tmp_if_expr$8 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_7 = (_Bool)0;
+    if(tmp_if_expr_7)
+      tmp_if_expr_8 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$8 = (_Bool)0;
-    if(tmp_if_expr$8)
-      tmp_if_expr$9 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_8 = (_Bool)0;
+    if(tmp_if_expr_8)
+      tmp_if_expr_9 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$9 = (_Bool)0;
-    tmp_statement_expression$6 = tmp_if_expr$9;
-    if(tmp_statement_expression$6)
+      tmp_if_expr_9 = (_Bool)0;
+    tmp_statement_expression_6 = tmp_if_expr_9;
+    if(tmp_statement_expression_6)
     {
       if(!(hwaddr == ((unsigned char *)NULL)))
       {
         if(*hwaddr == 0)
-          tmp_if_expr$1 = !(hwaddr[(signed long int)1] != 0) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = !(hwaddr[(signed long int)1] != 0) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
-          tmp_if_expr$2 = !(hwaddr[(signed long int)2] != 0) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
+          tmp_if_expr_2 = !(hwaddr[(signed long int)2] != 0) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = !(hwaddr[(signed long int)3] != 0) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = !(hwaddr[(signed long int)3] != 0) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        if(tmp_if_expr$3)
-          tmp_if_expr$4 = !(hwaddr[(signed long int)4] != 0) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = (_Bool)0;
+        if(tmp_if_expr_3)
+          tmp_if_expr_4 = !(hwaddr[(signed long int)4] != 0) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
-          tmp_if_expr$5 = !(hwaddr[(signed long int)5] != 0) ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
+          tmp_if_expr_5 = !(hwaddr[(signed long int)5] != 0) ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
           memcpy((void *)hwaddr, (const void *)&mac_tbl_[(signed long int)i].hwaddr, (unsigned long int)6);
 
         else
@@ -4619,9 +4619,9 @@ signed int main(signed int argc, char **argv)
   signed int urlconv = 0;
   signed int mode_detect = 0;
   init_setup();
-  char *return_value_strstr$1;
-  return_value_strstr$1=strstr(argv[(signed long int)0], "gcat");
-  if(!(return_value_strstr$1 == ((char *)NULL)))
+  char *return_value_strstr_1;
+  return_value_strstr_1=strstr(argv[(signed long int)0], "gcat");
+  if(!(return_value_strstr_1 == ((char *)NULL)))
   {
     setup_.net_type = 1;
     snprintf(def, (unsigned long int)100, "127.0.0.1:%d", netdesc_[(signed long int)setup_.net_type].listen_port);
@@ -4642,13 +4642,13 @@ signed int main(signed int argc, char **argv)
   c=open(setup_.config_file, 00);
   if(c == -1)
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    setup_.config_failed = *return_value___errno_location$2;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    setup_.config_failed = *return_value___errno_location_2;
     setup_.config_read = 1;
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(setup_.config_failed);
-    log_msg(7, "opening config file \"%s\" failed: \"%s\"", setup_.config_file, return_value_strerror$3);
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(setup_.config_failed);
+    log_msg(7, "opening config file \"%s\" failed: \"%s\"", setup_.config_file, return_value_strerror_3);
   }
 
   else
@@ -4679,9 +4679,9 @@ signed int main(signed int argc, char **argv)
   if(setup_.daemon == 0 && setup_.use_syslog == 0)
     setup_.logf = stderr;
 
-  signed int return_value_open_logfile$4;
-  return_value_open_logfile$4=open_logfile();
-  if(return_value_open_logfile$4 == -1)
+  signed int return_value_open_logfile_4;
+  return_value_open_logfile_4=open_logfile();
+  if(return_value_open_logfile_4 == -1)
   {
     if(setup_.logf == ((struct _IO_FILE *)NULL))
       openlog("onioncat", 0x08 | 0x01, 3 << 3);
@@ -4690,23 +4690,23 @@ signed int main(signed int argc, char **argv)
 
   init_ocat_thread("main");
   detach_thread();
-  char *return_value_strerror$5;
+  char *return_value_strerror_5;
   if(!(setup_.config_failed == 0) && !(setup_.config_failed == 2))
   {
-    return_value_strerror$5=strerror(setup_.config_failed);
-    log_msg(5, "could not open config file %s: %s", setup_.config_file, return_value_strerror$5);
+    return_value_strerror_5=strerror(setup_.config_failed);
+    log_msg(5, "could not open config file %s: %s", setup_.config_file, return_value_strerror_5);
   }
 
-  signed int *return_value___errno_location$6;
-  char *return_value_strerror$7;
+  signed int *return_value___errno_location_6;
+  char *return_value_strerror_7;
   if(urlconv == 2)
   {
     c=inet_pton(10, argv[(signed long int)optind], (void *)&setup_.ocat_addr);
     if(!(c >= 0))
     {
-      return_value___errno_location$6=__errno_location();
-      return_value_strerror$7=strerror(*return_value___errno_location$6);
-      log_msg(3, "inet_pton failed: %s", return_value_strerror$7);
+      return_value___errno_location_6=__errno_location();
+      return_value_strerror_7=strerror(*return_value___errno_location_6);
+      log_msg(3, "inet_pton failed: %s", return_value_strerror_7);
       exit(1);
     }
 
@@ -4717,9 +4717,9 @@ signed int main(signed int argc, char **argv)
         exit(1);
       }
 
-    signed int return_value_has_tor_prefix$8;
-    return_value_has_tor_prefix$8=has_tor_prefix(&setup_.ocat_addr);
-    if(return_value_has_tor_prefix$8 == 0)
+    signed int return_value_has_tor_prefix_8;
+    return_value_has_tor_prefix_8=has_tor_prefix(&setup_.ocat_addr);
+    if(return_value_has_tor_prefix_8 == 0)
     {
       log_msg(3, "address does not have TOR prefix");
       exit(1);
@@ -4730,13 +4730,13 @@ signed int main(signed int argc, char **argv)
     exit(0);
   }
 
-  char *tmp_if_expr$9;
+  char *tmp_if_expr_9;
   if(!(argv[(signed long int)optind] == ((char *)NULL)))
-    tmp_if_expr$9 = argv[(signed long int)optind];
+    tmp_if_expr_9 = argv[(signed long int)optind];
 
   else
-    tmp_if_expr$9 = "(nil)";
-  log_msg(7, "argv[%d] = \"%s\"", optind, tmp_if_expr$9);
+    tmp_if_expr_9 = "(nil)";
+  log_msg(7, "argv[%d] = \"%s\"", optind, tmp_if_expr_9);
   if(setup_.rand_addr == 0)
     strncpy(setup_.onion_url, argv[(signed long int)optind], (unsigned long int)netdesc_[(signed long int)setup_.net_type].name_size);
 
@@ -4746,49 +4746,49 @@ signed int main(signed int argc, char **argv)
   if(!(s == ((char *)NULL)))
     *s = (char)0;
 
-  unsigned long int return_value_strlen$10;
-  return_value_strlen$10=strlen(setup_.onion_url);
-  if(!(return_value_strlen$10 == 16ul))
+  unsigned long int return_value_strlen_10;
+  return_value_strlen_10=strlen(setup_.onion_url);
+  if(!(return_value_strlen_10 == 16ul))
   {
     log_msg(3, "parameter seems not to be valid onion hostname");
     exit(1);
   }
 
-  signed int return_value_oniontipv6$11;
-  return_value_oniontipv6$11=oniontipv6(setup_.onion_url, &setup_.ocat_addr);
-  if(return_value_oniontipv6$11 == -1)
+  signed int return_value_oniontipv6_11;
+  return_value_oniontipv6_11=oniontipv6(setup_.onion_url, &setup_.ocat_addr);
+  if(return_value_oniontipv6_11 == -1)
   {
     log_msg(3, "parameter seems not to be valid onion hostname");
     exit(1);
   }
 
-  unsigned int return_value_ntohl$12;
+  unsigned int return_value_ntohl_12;
   if(!(setup_.ipv4_enable == 0))
   {
-    return_value_ntohl$12=ntohl((unsigned int)setup_.ocat_addr4_mask);
-    oniontipv4(setup_.onion_url, &setup_.ocat_addr4, (signed int)return_value_ntohl$12);
+    return_value_ntohl_12=ntohl((unsigned int)setup_.ocat_addr4_mask);
+    oniontipv4(setup_.onion_url, &setup_.ocat_addr4, (signed int)return_value_ntohl_12);
   }
 
-  const char *return_value_inet_ntop$15;
-  return_value_inet_ntop$15=inet_ntop(10, (const void *)&setup_.ocat_addr, ip6addr, (unsigned int)46);
-  signed int *return_value___errno_location$13;
-  char *return_value_strerror$14;
-  if(return_value_inet_ntop$15 == ((const char *)NULL))
+  const char *return_value_inet_ntop_15;
+  return_value_inet_ntop_15=inet_ntop(10, (const void *)&setup_.ocat_addr, ip6addr, (unsigned int)46);
+  signed int *return_value___errno_location_13;
+  char *return_value_strerror_14;
+  if(return_value_inet_ntop_15 == ((const char *)NULL))
   {
-    return_value___errno_location$13=__errno_location();
-    return_value_strerror$14=strerror(*return_value___errno_location$13);
-    log_msg(3, "cannot convert IP address with inet_ntop: \"%s\"", return_value_strerror$14);
+    return_value___errno_location_13=__errno_location();
+    return_value_strerror_14=strerror(*return_value___errno_location_13);
+    log_msg(3, "cannot convert IP address with inet_ntop: \"%s\"", return_value_strerror_14);
     exit(1);
   }
 
-  char *return_value_inet_ntoa$16;
+  char *return_value_inet_ntoa_16;
   if(urlconv == 1)
   {
     printf("%s\n", (const void *)ip6addr);
     if(!(setup_.ipv4_enable == 0))
     {
-      return_value_inet_ntoa$16=inet_ntoa(setup_.ocat_addr4);
-      printf("%s\n", return_value_inet_ntoa$16);
+      return_value_inet_ntoa_16=inet_ntoa(setup_.ocat_addr4);
+      printf("%s\n", return_value_inet_ntoa_16);
     }
 
     exit(0);
@@ -4796,11 +4796,11 @@ signed int main(signed int argc, char **argv)
 
   log_msg(6, "%s", (const void *)setup_.version);
   memcpy((void *)&setup_.ocat_hwaddr[(signed long int)3], (const void *)&setup_.ocat_addr.__in6_u.__u6_addr8[(signed long int)13], (unsigned long int)3);
-  char *return_value_ether_ntoa_r$17;
+  char *return_value_ether_ntoa_r_17;
   if(!(setup_.use_tap == 0))
   {
-    return_value_ether_ntoa_r$17=ether_ntoa_r((struct ether_addr *)setup_.ocat_hwaddr, hw);
-    log_msg(6, "MAC address %s", return_value_ether_ntoa_r$17);
+    return_value_ether_ntoa_r_17=ether_ntoa_r((struct ether_addr *)setup_.ocat_hwaddr, hw);
+    log_msg(6, "MAC address %s", return_value_ether_ntoa_r_17);
   }
 
   setup_.tunfd[(signed long int)1]=tun_alloc(setup_.tunname, (signed int)sizeof(char [256l]) /*256ul*/ , setup_.ocat_addr);
@@ -4813,18 +4813,18 @@ signed int main(signed int argc, char **argv)
 
   log_msg(6, "IPv6 address %s", (const void *)ip6addr);
   log_msg(6, "TUN/TAP device %s", (const void *)setup_.tunname);
-  char *return_value_inet_ntoa$18;
+  char *return_value_inet_ntoa_18;
   if(!(setup_.ipv4_enable == 0))
   {
-    return_value_inet_ntoa$18=inet_ntoa(setup_.ocat_addr4);
-    log_msg(6, "IP address %s", return_value_inet_ntoa$18);
+    return_value_inet_ntoa_18=inet_ntoa(setup_.ocat_addr4);
+    log_msg(6, "IP address %s", return_value_inet_ntoa_18);
   }
 
-  unsigned int return_value_ntohl$19;
-  return_value_ntohl$19=ntohl(setup_.fhd_key[(signed long int)1]);
-  unsigned int return_value_ntohl$20;
-  return_value_ntohl$20=ntohl(setup_.fhd_key[(signed long int)0]);
-  log_msg(7, "tun frameheader v6 = 0x%08x, v4 = 0x%08x", return_value_ntohl$19, return_value_ntohl$20);
+  unsigned int return_value_ntohl_19;
+  return_value_ntohl_19=ntohl(setup_.fhd_key[(signed long int)1]);
+  unsigned int return_value_ntohl_20;
+  return_value_ntohl_20=ntohl(setup_.fhd_key[(signed long int)0]);
+  log_msg(7, "tun frameheader v6 = 0x%08x, v4 = 0x%08x", return_value_ntohl_19, return_value_ntohl_20);
   if(!(setup_.daemon == 0))
     background();
 
@@ -4843,19 +4843,19 @@ signed int main(signed int argc, char **argv)
   run_ocat_thread("cleaner", socket_cleaner, (void *)0);
   log_msg(7, "getting user info for \"%s\"", setup_.usrname);
   c=getpwnam_r(setup_.usrname, &pwdm, pwdbuf, (unsigned long int)1024, &pwd);
-  char *tmp_if_expr$22;
-  char *return_value_strerror$21;
+  char *tmp_if_expr_22;
+  char *return_value_strerror_21;
   if(pwd == ((struct passwd *)NULL))
   {
     if(!(c == 0))
     {
-      return_value_strerror$21=strerror(c);
-      tmp_if_expr$22 = return_value_strerror$21;
+      return_value_strerror_21=strerror(c);
+      tmp_if_expr_22 = return_value_strerror_21;
     }
 
     else
-      tmp_if_expr$22 = "user not found";
-    log_msg(4, "can't get information for user \"%s\": \"%s\", defaulting to uid %d", setup_.usrname, tmp_if_expr$22, 65534);
+      tmp_if_expr_22 = "user not found";
+    log_msg(4, "can't get information for user \"%s\": \"%s\", defaulting to uid %d", setup_.usrname, tmp_if_expr_22, 65534);
     memset((void *)&pwdm, 0, sizeof(struct passwd) /*48ul*/ );
     pwd = &pwdm;
     pwd->pw_name = "(unknown)";
@@ -4866,34 +4866,34 @@ signed int main(signed int argc, char **argv)
     setup_.create_clog = 0;
   }
 
-  unsigned int return_value_getuid$29;
-  signed int *return_value___errno_location$23;
-  char *return_value_strerror$24;
-  signed int *return_value___errno_location$26;
-  char *return_value_strerror$27;
+  unsigned int return_value_getuid_29;
+  signed int *return_value___errno_location_23;
+  char *return_value_strerror_24;
+  signed int *return_value___errno_location_26;
+  char *return_value_strerror_27;
   if(setup_.runasroot == 0)
   {
-    return_value_getuid$29=getuid();
-    if(return_value_getuid$29 == 0u)
+    return_value_getuid_29=getuid();
+    if(return_value_getuid_29 == 0u)
     {
       log_msg(6, "running as root, changing uid/gid to %s (uid %d/gid %d)", setup_.usrname, pwd->pw_uid, pwd->pw_gid);
-      signed int return_value_setgid$25;
-      return_value_setgid$25=setgid(pwd->pw_gid);
-      if(!(return_value_setgid$25 == 0))
+      signed int return_value_setgid_25;
+      return_value_setgid_25=setgid(pwd->pw_gid);
+      if(!(return_value_setgid_25 == 0))
       {
-        return_value___errno_location$23=__errno_location();
-        return_value_strerror$24=strerror(*return_value___errno_location$23);
-        log_msg(3, "could not change gid: \"%s\"", return_value_strerror$24);
+        return_value___errno_location_23=__errno_location();
+        return_value_strerror_24=strerror(*return_value___errno_location_23);
+        log_msg(3, "could not change gid: \"%s\"", return_value_strerror_24);
         exit(1);
       }
 
-      signed int return_value_setuid$28;
-      return_value_setuid$28=setuid(pwd->pw_uid);
-      if(!(return_value_setuid$28 == 0))
+      signed int return_value_setuid_28;
+      return_value_setuid_28=setuid(pwd->pw_uid);
+      if(!(return_value_setuid_28 == 0))
       {
-        return_value___errno_location$26=__errno_location();
-        return_value_strerror$27=strerror(*return_value___errno_location$26);
-        log_msg(3, "could not change uid: \"%d\"", return_value_strerror$27);
+        return_value___errno_location_26=__errno_location();
+        return_value_strerror_27=strerror(*return_value___errno_location_26);
+        log_msg(3, "could not change uid: \"%d\"", return_value_strerror_27);
         exit(1);
       }
 
@@ -4901,27 +4901,27 @@ signed int main(signed int argc, char **argv)
 
   }
 
-  unsigned int return_value_getuid$30;
-  return_value_getuid$30=getuid();
-  unsigned int return_value_getgid$31;
-  return_value_getgid$31=getgid();
-  log_msg(7, "uid/gid = %d/%d", return_value_getuid$30, return_value_getgid$31);
+  unsigned int return_value_getuid_30;
+  return_value_getuid_30=getuid();
+  unsigned int return_value_getgid_31;
+  return_value_getgid_31=getgid();
+  log_msg(7, "uid/gid = %d/%d", return_value_getuid_30, return_value_getgid_31);
   if(!(setup_.create_clog == 0))
     open_connect_log(pwd->pw_dir);
 
-  signed int return_value_pipe$34;
-  return_value_pipe$34=pipe(setup_.socksfd);
-  signed int *return_value___errno_location$32;
-  char *return_value_strerror$33;
-  if(return_value_pipe$34 == -1)
+  signed int return_value_pipe_34;
+  return_value_pipe_34=pipe(setup_.socksfd);
+  signed int *return_value___errno_location_32;
+  char *return_value_strerror_33;
+  if(return_value_pipe_34 == -1)
   {
-    return_value___errno_location$32=__errno_location();
-    return_value_strerror$33=strerror(*return_value___errno_location$32);
-    log_msg(0, "couldn't create socks connector pipe: \"%s\"", return_value_strerror$33);
+    return_value___errno_location_32=__errno_location();
+    return_value_strerror_33=strerror(*return_value___errno_location_32);
+    log_msg(0, "couldn't create socks connector pipe: \"%s\"", return_value_strerror_33);
     exit(1);
   }
 
-  if(!(setup_.$anon0.socks_dst->sin_family == 0))
+  if(!(setup_._anon0.socks_dst->sin_family == 0))
     run_ocat_thread("connector", socks_connector_sel, (void *)0);
 
   else
@@ -4934,9 +4934,9 @@ signed int main(signed int argc, char **argv)
   packet_forwarder();
   cleanup_system();
   log_msg(6, "Thanks for using OnionCat. Good Bye!");
-  const struct OcatThread *return_value_get_thread$35;
-  return_value_get_thread$35=get_thread();
-  free((void *)(struct OcatThread *)return_value_get_thread$35);
+  const struct OcatThread *return_value_get_thread_35;
+  return_value_get_thread_35=get_thread();
+  free((void *)(struct OcatThread *)return_value_get_thread_35);
   return 0;
 }
 
@@ -4945,24 +4945,24 @@ signed int main(signed int argc, char **argv)
 unsigned short int * malloc_ckbuf(struct in6_addr *src, struct in6_addr *dst, unsigned short int plen, unsigned char proto, const void *payload)
 {
   struct ip6_psh *psh;
-  void *return_value_calloc$3;
-  return_value_calloc$3=calloc((unsigned long int)1, sizeof(struct ip6_psh) /*40ul*/  + (unsigned long int)plen);
-  psh = (struct ip6_psh *)return_value_calloc$3;
+  void *return_value_calloc_3;
+  return_value_calloc_3=calloc((unsigned long int)1, sizeof(struct ip6_psh) /*40ul*/  + (unsigned long int)plen);
+  psh = (struct ip6_psh *)return_value_calloc_3;
   if(psh == ((struct ip6_psh *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(0, "error creating checksum buffer: %s", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(0, "error creating checksum buffer: %s", return_value_strerror_2);
     exit(1);
   }
 
   psh->src = *src;
   psh->dst = *dst;
-  unsigned short int return_value_htons$4;
-  return_value_htons$4=htons(plen);
-  psh->len = (unsigned int)return_value_htons$4;
+  unsigned short int return_value_htons_4;
+  return_value_htons_4=htons(plen);
+  psh->len = (unsigned int)return_value_htons_4;
   psh->nxt = proto;
   memcpy((void *)(psh + (signed long int)1), payload, (unsigned long int)plen);
   return (unsigned short int *)psh;
@@ -4977,44 +4977,44 @@ signed int mk_pid_file(void)
   f=fopen(setup_.pid_file, "w");
   if(f == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(3, "could not create pid_file %s: %s", setup_.pid_file, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(3, "could not create pid_file %s: %s", setup_.pid_file, return_value_strerror_2);
     return -1;
   }
 
-  signed int return_value_getpid$3;
-  return_value_getpid$3=getpid();
-  fprintf(f, "%d\n", (signed int)return_value_getpid$3);
+  signed int return_value_getpid_3;
+  return_value_getpid_3=getpid();
+  fprintf(f, "%d\n", (signed int)return_value_getpid_3);
   fclose(f);
-  signed int return_value_getpid$4;
-  return_value_getpid$4=getpid();
-  log_msg(7, "pid_file %s created, pid = %d", setup_.pid_file, return_value_getpid$4);
-  signed int return_value_pipe$7;
-  return_value_pipe$7=pipe(setup_.pid_fd);
-  if(return_value_pipe$7 == -1)
+  signed int return_value_getpid_4;
+  return_value_getpid_4=getpid();
+  log_msg(7, "pid_file %s created, pid = %d", setup_.pid_file, return_value_getpid_4);
+  signed int return_value_pipe_7;
+  return_value_pipe_7=pipe(setup_.pid_fd);
+  if(return_value_pipe_7 == -1)
   {
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    char *return_value_strerror$6;
-    return_value_strerror$6=strerror(*return_value___errno_location$5);
-    log_msg(4, "could not open pid pipe: \"%s\"", return_value_strerror$6);
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    char *return_value_strerror_6;
+    return_value_strerror_6=strerror(*return_value___errno_location_5);
+    log_msg(4, "could not open pid pipe: \"%s\"", return_value_strerror_6);
     return -1;
   }
 
-  signed int return_value_fork$8;
-  return_value_fork$8=fork();
-  signed long int return_value_read$11;
-  signed int *return_value___errno_location$9;
-  char *return_value_strerror$10;
-  signed int return_value_unlink$14;
-  signed int *return_value___errno_location$12;
-  char *return_value_strerror$13;
-  if(!(return_value_fork$8 == -1))
+  signed int return_value_fork_8;
+  return_value_fork_8=fork();
+  signed long int return_value_read_11;
+  signed int *return_value___errno_location_9;
+  char *return_value_strerror_10;
+  signed int return_value_unlink_14;
+  signed int *return_value___errno_location_12;
+  char *return_value_strerror_13;
+  if(!(return_value_fork_8 == -1))
   {
-    if(return_value_fork$8 == 0)
+    if(return_value_fork_8 == 0)
       goto __CPROVER_DUMP_L4;
 
   }
@@ -5032,21 +5032,21 @@ signed int mk_pid_file(void)
     if(!(setup_.tunfd[0l] == setup_.tunfd[1l]))
       oe_close(setup_.tunfd[(signed long int)1]);
 
-    return_value_read$11=read(setup_.pid_fd[(signed long int)0], (void *)&c, (unsigned long int)1);
-    if(return_value_read$11 == -1l)
+    return_value_read_11=read(setup_.pid_fd[(signed long int)0], (void *)&c, (unsigned long int)1);
+    if(return_value_read_11 == -1l)
     {
-      return_value___errno_location$9=__errno_location();
-      return_value_strerror$10=strerror(*return_value___errno_location$9);
-      log_msg(3, "error reading from pid_fd %d: \"%s\"", setup_.pid_fd[(signed long int)0], return_value_strerror$10);
+      return_value___errno_location_9=__errno_location();
+      return_value_strerror_10=strerror(*return_value___errno_location_9);
+      log_msg(3, "error reading from pid_fd %d: \"%s\"", setup_.pid_fd[(signed long int)0], return_value_strerror_10);
       exit(1);
     }
 
-    return_value_unlink$14=unlink(setup_.pid_file);
-    if(return_value_unlink$14 == -1)
+    return_value_unlink_14=unlink(setup_.pid_file);
+    if(return_value_unlink_14 == -1)
     {
-      return_value___errno_location$12=__errno_location();
-      return_value_strerror$13=strerror(*return_value___errno_location$12);
-      log_msg(4, "error deleting pid ]ile \"%s\": \"%s\"", setup_.pid_file, return_value_strerror$13);
+      return_value___errno_location_12=__errno_location();
+      return_value_strerror_13=strerror(*return_value___errno_location_12);
+      log_msg(4, "error deleting pid ]ile \"%s\": \"%s\"", setup_.pid_file, return_value_strerror_13);
       exit(1);
     }
 
@@ -5062,13 +5062,13 @@ signed int mk_pid_file(void)
 signed int ndp_recadv(char *buf, signed int len)
 {
   struct ndp6 *ndp6 = (struct ndp6 *)(buf + (signed long int)4);
-  signed int return_value_mac_set$2;
-  return_value_mac_set$2=mac_set(&ndp6->ip6.ip6_src, ndp6->eth.ether_shost);
-  signed int return_value_mac_add_entry$1;
-  if(return_value_mac_set$2 == -1)
+  signed int return_value_mac_set_2;
+  return_value_mac_set_2=mac_set(&ndp6->ip6.ip6_src, ndp6->eth.ether_shost);
+  signed int return_value_mac_add_entry_1;
+  if(return_value_mac_set_2 == -1)
   {
-    return_value_mac_add_entry$1=mac_add_entry(ndp6->eth.ether_shost, &ndp6->ip6.ip6_src);
-    if(!(return_value_mac_add_entry$1 == -1))
+    return_value_mac_add_entry_1=mac_add_entry(ndp6->eth.ether_shost, &ndp6->ip6.ip6_src);
+    if(!(return_value_mac_add_entry_1 == -1))
       goto __CPROVER_DUMP_L1;
 
     log_msg(3, "MAC table full");
@@ -5093,36 +5093,36 @@ signed int ndp_soladv(char *buf, signed int rlen)
   unsigned short int *ckb;
   unsigned short int cksum;
   char hw[20l];
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_statement_expression$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  signed int return_value_mac_add_entry$11;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_statement_expression_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  signed int return_value_mac_add_entry_11;
   if(!((1 & (signed int)ndp6->eth.ether_dhost[0l]) == 0))
   {
     if(!((signed int)ndp6->eth.ether_dhost[2l] == 0xff))
     {
-      char *return_value_ether_ntoa_r$1;
-      return_value_ether_ntoa_r$1=ether_ntoa_r((struct ether_addr *)ndp6->eth.ether_dhost, hw);
-      log_msg(7, "ethernet multicast destination %s cannot be solicited node address", return_value_ether_ntoa_r$1);
+      char *return_value_ether_ntoa_r_1;
+      return_value_ether_ntoa_r_1=ether_ntoa_r((struct ether_addr *)ndp6->eth.ether_dhost, hw);
+      log_msg(7, "ethernet multicast destination %s cannot be solicited node address", return_value_ether_ntoa_r_1);
       return -1;
     }
 
     if(!((signed int)*((const unsigned char *)&ndp6->ip6.ip6_dst) == 0xff))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
       if((signed int)*((const unsigned char *)&ndp6->ip6.ip6_dst) == 0xff)
-        tmp_if_expr$2 = ((signed int)((const unsigned char *)&ndp6->ip6.ip6_dst)[(signed long int)1] & 0xf) == 0x2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = ((signed int)((const unsigned char *)&ndp6->ip6.ip6_dst)[(signed long int)1] & 0xf) == 0x2 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      tmp_if_expr$3 = !tmp_if_expr$2 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      tmp_if_expr_3 = !tmp_if_expr_2 ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$3)
+    if(!tmp_if_expr_3)
       goto __CPROVER_DUMP_L6;
 
     log_msg(7, "IPv6 multicast destination not solicited node address");
@@ -5134,12 +5134,12 @@ signed int ndp_soladv(char *buf, signed int rlen)
 
   __CPROVER_DUMP_L6:
     ;
-    unsigned short int return_value_ntohs$4;
-    return_value_ntohs$4=ntohs(ndp6->ip6.ip6_ctlun.ip6_un1.ip6_un1_plen);
-    ckb=malloc_ckbuf(&ndp6->ip6.ip6_src, &ndp6->ip6.ip6_dst, return_value_ntohs$4, (unsigned char)58, (const void *)&ndp6->$anon0.icmp6);
-    unsigned short int return_value_ntohs$5;
-    return_value_ntohs$5=ntohs(ndp6->ip6.ip6_ctlun.ip6_un1.ip6_un1_plen);
-    cksum=checksum(ckb, (signed int)((unsigned long int)return_value_ntohs$5 + sizeof(struct ip6_psh) /*40ul*/ ));
+    unsigned short int return_value_ntohs_4;
+    return_value_ntohs_4=ntohs(ndp6->ip6.ip6_ctlun.ip6_un1.ip6_un1_plen);
+    ckb=malloc_ckbuf(&ndp6->ip6.ip6_src, &ndp6->ip6.ip6_dst, return_value_ntohs_4, (unsigned char)58, (const void *)&ndp6->_anon0.icmp6);
+    unsigned short int return_value_ntohs_5;
+    return_value_ntohs_5=ntohs(ndp6->ip6.ip6_ctlun.ip6_un1.ip6_un1_plen);
+    cksum=checksum(ckb, (signed int)((unsigned long int)return_value_ntohs_5 + sizeof(struct ip6_psh) /*40ul*/ ));
     free_ckbuf(ckb);
     if(!(cksum == 0))
     {
@@ -5151,22 +5151,22 @@ signed int ndp_soladv(char *buf, signed int rlen)
     {
       struct in6_addr *__a = (struct in6_addr *)&ndp6->ip6.ip6_src;
       if(__a->__in6_u.__u6_addr32[0l] == 0u)
-        tmp_if_expr$7 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$7 = (_Bool)0;
-      if(tmp_if_expr$7)
-        tmp_if_expr$8 = __a->__in6_u.__u6_addr32[(signed long int)2] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_7 = (_Bool)0;
+      if(tmp_if_expr_7)
+        tmp_if_expr_8 = __a->__in6_u.__u6_addr32[(signed long int)2] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$8 = (_Bool)0;
-      if(tmp_if_expr$8)
-        tmp_if_expr$9 = __a->__in6_u.__u6_addr32[(signed long int)3] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_8 = (_Bool)0;
+      if(tmp_if_expr_8)
+        tmp_if_expr_9 = __a->__in6_u.__u6_addr32[(signed long int)3] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$9 = (_Bool)0;
-      tmp_statement_expression$6 = tmp_if_expr$9;
-      if(tmp_statement_expression$6)
+        tmp_if_expr_9 = (_Bool)0;
+      tmp_statement_expression_6 = tmp_if_expr_9;
+      if(tmp_statement_expression_6)
       {
         log_msg(7, "duplicate address detection in progress");
         return -1;
@@ -5174,9 +5174,9 @@ signed int ndp_soladv(char *buf, signed int rlen)
 
       else
       {
-        signed int return_value_has_tor_prefix$10;
-        return_value_has_tor_prefix$10=has_tor_prefix(&ndp6->$anon0.ndp_sol.nd_ns_target);
-        if(return_value_has_tor_prefix$10 == 0)
+        signed int return_value_has_tor_prefix_10;
+        return_value_has_tor_prefix_10=has_tor_prefix(&ndp6->_anon0.ndp_sol.nd_ns_target);
+        if(return_value_has_tor_prefix_10 == 0)
         {
           log_msg(7, "solicit target is not TOR IPv6");
           return -1;
@@ -5185,12 +5185,12 @@ signed int ndp_soladv(char *buf, signed int rlen)
         else
         {
           log_msg(7, "generating response");
-          signed int return_value_mac_set$12;
-          return_value_mac_set$12=mac_set(&ndp6->ip6.ip6_src, ndp6->eth.ether_shost);
-          if(return_value_mac_set$12 == -1)
+          signed int return_value_mac_set_12;
+          return_value_mac_set_12=mac_set(&ndp6->ip6.ip6_src, ndp6->eth.ether_shost);
+          if(return_value_mac_set_12 == -1)
           {
-            return_value_mac_add_entry$11=mac_add_entry(ndp6->eth.ether_shost, &ndp6->ip6.ip6_src);
-            if(!(return_value_mac_add_entry$11 == -1))
+            return_value_mac_add_entry_11=mac_add_entry(ndp6->eth.ether_shost, &ndp6->ip6.ip6_src);
+            if(!(return_value_mac_add_entry_11 == -1))
               goto __CPROVER_DUMP_L16;
 
             log_msg(3, "MAC table full");
@@ -5205,24 +5205,24 @@ signed int ndp_soladv(char *buf, signed int rlen)
             memcpy((void *)ndp6->eth.ether_dhost, (const void *)ndp6->eth.ether_shost, (unsigned long int)6);
             memcpy((void *)ndp6->eth.ether_shost, (const void *)setup_.ocat_hwaddr, (unsigned long int)6);
             memcpy((void *)&ndp6->ip6.ip6_dst, (const void *)&ndp6->ip6.ip6_src, sizeof(struct in6_addr) /*16ul*/ );
-            memcpy((void *)&ndp6->ip6.ip6_src, (const void *)&ndp6->$anon0.ndp_sol.nd_ns_target, sizeof(struct in6_addr) /*16ul*/ );
-            ndp6->$anon0.ndp_adv.nd_na_hdr.icmp6_type = (unsigned char)136;
-            ndp6->$anon0.ndp_adv.nd_na_hdr.icmp6_code = (unsigned char)0;
-            ndp6->$anon0.ndp_adv.nd_na_hdr.icmp6_cksum = (unsigned short int)0;
-            ndp6->$anon0.ndp_adv.nd_na_hdr.icmp6_dataun.icmp6_un_data32[(signed long int)0] = (unsigned int)0x00000040;
+            memcpy((void *)&ndp6->ip6.ip6_src, (const void *)&ndp6->_anon0.ndp_sol.nd_ns_target, sizeof(struct in6_addr) /*16ul*/ );
+            ndp6->_anon0.ndp_adv.nd_na_hdr.icmp6_type = (unsigned char)136;
+            ndp6->_anon0.ndp_adv.nd_na_hdr.icmp6_code = (unsigned char)0;
+            ndp6->_anon0.ndp_adv.nd_na_hdr.icmp6_cksum = (unsigned short int)0;
+            ndp6->_anon0.ndp_adv.nd_na_hdr.icmp6_dataun.icmp6_un_data32[(signed long int)0] = (unsigned int)0x00000040;
             ohd->nd_opt_type = (unsigned char)2;
             memcpy((void *)(ohd + (signed long int)1), (const void *)setup_.ocat_hwaddr, (unsigned long int)6);
-            unsigned short int return_value_ntohs$13;
-            return_value_ntohs$13=ntohs(ndp6->ip6.ip6_ctlun.ip6_un1.ip6_un1_plen);
-            ckb=malloc_ckbuf(&ndp6->ip6.ip6_src, &ndp6->ip6.ip6_dst, return_value_ntohs$13, (unsigned char)58, (const void *)&ndp6->$anon0.icmp6);
-            unsigned short int return_value_ntohs$14;
-            return_value_ntohs$14=ntohs(ndp6->ip6.ip6_ctlun.ip6_un1.ip6_un1_plen);
-            ndp6->$anon0.ndp_adv.nd_na_hdr.icmp6_cksum=checksum(ckb, (signed int)((unsigned long int)return_value_ntohs$14 + sizeof(struct ip6_psh) /*40ul*/ ));
+            unsigned short int return_value_ntohs_13;
+            return_value_ntohs_13=ntohs(ndp6->ip6.ip6_ctlun.ip6_un1.ip6_un1_plen);
+            ckb=malloc_ckbuf(&ndp6->ip6.ip6_src, &ndp6->ip6.ip6_dst, return_value_ntohs_13, (unsigned char)58, (const void *)&ndp6->_anon0.icmp6);
+            unsigned short int return_value_ntohs_14;
+            return_value_ntohs_14=ntohs(ndp6->ip6.ip6_ctlun.ip6_un1.ip6_un1_plen);
+            ndp6->_anon0.ndp_adv.nd_na_hdr.icmp6_cksum=checksum(ckb, (signed int)((unsigned long int)return_value_ntohs_14 + sizeof(struct ip6_psh) /*40ul*/ ));
             free_ckbuf(ckb);
             log_msg(7, "writing %d bytes to tunfd %d", rlen, setup_.tunfd[(signed long int)1]);
-            signed long int return_value_write$15;
-            return_value_write$15=write(setup_.tunfd[(signed long int)1], (const void *)buf, (unsigned long int)rlen);
-            if(!(return_value_write$15 >= (signed long int)rlen))
+            signed long int return_value_write_15;
+            return_value_write_15=write(setup_.tunfd[(signed long int)1], (const void *)buf, (unsigned long int)rlen);
+            if(!(return_value_write_15 >= (signed long int)rlen))
               log_msg(3, "short write");
 
             return 0;
@@ -5244,9 +5244,9 @@ signed int ndp_solicit(struct in6_addr *src, struct in6_addr *dst)
   struct in6_addr mcastd = { .__in6_u={ .__u6_addr8={ (unsigned char)0xff, (unsigned char)2, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)0, (unsigned char)1, (unsigned char)0xff, (unsigned char)0, (unsigned char)0, (unsigned char)0 } } };
   memset((void *)buf, 0, sizeof(char [90l]) /*90ul*/ );
   memcpy((void *)((char *)&mcastd + (signed long int)13), (const void *)((char *)dst + (signed long int)13), (unsigned long int)3);
-  unsigned int return_value_htonl$1;
-  return_value_htonl$1=htonl(setup_.fhd_key[(signed long int)1]);
-  set_tunheader(buf, return_value_htonl$1);
+  unsigned int return_value_htonl_1;
+  return_value_htonl_1=htonl(setup_.fhd_key[(signed long int)1]);
+  set_tunheader(buf, return_value_htonl_1);
   ndp6->eth.ether_dhost[(signed long int)0] = (unsigned char)0x33;
   ndp6->eth.ether_dhost[(signed long int)1] = (unsigned char)0x33;
   memcpy((void *)&ndp6->eth.ether_dhost[(signed long int)2], (const void *)((char *)&mcastd + (signed long int)12), (unsigned long int)4);
@@ -5258,22 +5258,22 @@ signed int ndp_solicit(struct in6_addr *src, struct in6_addr *dst)
   ndp6->ip6.ip6_ctlun.ip6_un1.ip6_un1_hlim = (unsigned char)255;
   memcpy((void *)&ndp6->ip6.ip6_src, (const void *)src, sizeof(struct in6_addr) /*16ul*/ );
   memcpy((void *)&ndp6->ip6.ip6_dst, (const void *)&mcastd, sizeof(struct in6_addr) /*16ul*/ );
-  ndp6->$anon0.icmp6.icmp6_type = (unsigned char)135;
-  memcpy((void *)&ndp6->$anon0.ndp_sol.nd_ns_target, (const void *)dst, sizeof(struct in6_addr) /*16ul*/ );
+  ndp6->_anon0.icmp6.icmp6_type = (unsigned char)135;
+  memcpy((void *)&ndp6->_anon0.ndp_sol.nd_ns_target, (const void *)dst, sizeof(struct in6_addr) /*16ul*/ );
   ohd->nd_opt_type = (unsigned char)1;
   ohd->nd_opt_len = (unsigned char)1;
   memcpy((void *)(ohd + (signed long int)1), (const void *)ndp6->eth.ether_shost, (unsigned long int)6);
-  unsigned short int return_value_ntohs$2;
-  return_value_ntohs$2=ntohs(ndp6->ip6.ip6_ctlun.ip6_un1.ip6_un1_plen);
-  ckb=malloc_ckbuf(&ndp6->ip6.ip6_src, &ndp6->ip6.ip6_dst, return_value_ntohs$2, (unsigned char)58, (const void *)&ndp6->$anon0.icmp6);
-  unsigned short int return_value_ntohs$3;
-  return_value_ntohs$3=ntohs(ndp6->ip6.ip6_ctlun.ip6_un1.ip6_un1_plen);
-  ndp6->$anon0.icmp6.icmp6_cksum=checksum(ckb, (signed int)((unsigned long int)return_value_ntohs$3 + sizeof(struct ip6_psh) /*40ul*/ ));
+  unsigned short int return_value_ntohs_2;
+  return_value_ntohs_2=ntohs(ndp6->ip6.ip6_ctlun.ip6_un1.ip6_un1_plen);
+  ckb=malloc_ckbuf(&ndp6->ip6.ip6_src, &ndp6->ip6.ip6_dst, return_value_ntohs_2, (unsigned char)58, (const void *)&ndp6->_anon0.icmp6);
+  unsigned short int return_value_ntohs_3;
+  return_value_ntohs_3=ntohs(ndp6->ip6.ip6_ctlun.ip6_un1.ip6_un1_plen);
+  ndp6->_anon0.icmp6.icmp6_cksum=checksum(ckb, (signed int)((unsigned long int)return_value_ntohs_3 + sizeof(struct ip6_psh) /*40ul*/ ));
   free_ckbuf(ckb);
   log_msg(7, "writing %d bytes ndp solicitation to tunfd %d", sizeof(char [90l]) /*90ul*/ , setup_.tunfd[(signed long int)1]);
-  signed long int return_value_write$4;
-  return_value_write$4=write(setup_.tunfd[(signed long int)1], (const void *)buf, sizeof(char [90l]) /*90ul*/ );
-  if(!((unsigned long int)return_value_write$4 >= sizeof(char [90l]) /*90ul*/ ))
+  signed long int return_value_write_4;
+  return_value_write_4=write(setup_.tunfd[(signed long int)1], (const void *)buf, sizeof(char [90l]) /*90ul*/ );
+  if(!((unsigned long int)return_value_write_4 >= sizeof(char [90l]) /*90ul*/ ))
     log_msg(3, "short write to tun fd %d", setup_.tunfd[(signed long int)1]);
 
   return 0;
@@ -5293,24 +5293,24 @@ void oe_close(signed int fd)
 {
   signed int r;
   log_msg(7, "closing %d", fd);
-  signed int return_value_close$1;
+  signed int return_value_close_1;
   do
   {
-    return_value_close$1=close(fd);
-    if(!(return_value_close$1 == -1))
+    return_value_close_1=close(fd);
+    if(!(return_value_close_1 == -1))
       break;
 
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    r = *return_value___errno_location$2;
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(r);
-    log_msg(2, "close(%d) failed: \"%s\"", fd, return_value_strerror$3);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    r = *return_value___errno_location_2;
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(r);
+    log_msg(2, "close(%d) failed: \"%s\"", fd, return_value_strerror_3);
     if(r == 4)
     {
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(r);
-      log_msg(3, "close(%d) failed: \"%s\". restarting...", fd, return_value_strerror$4);
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(r);
+      log_msg(3, "close(%d) failed: \"%s\". restarting...", fd, return_value_strerror_4);
       continue;
     }
 
@@ -5323,10 +5323,10 @@ void oe_close(signed int fd)
 // file ocatlibe.c line 55
 signed int oe_remtr(char *s)
 {
-  unsigned long int return_value_strlen$2;
-  unsigned long int return_value_strlen$1;
-  unsigned long int return_value_strlen$4;
-  unsigned long int return_value_strlen$3;
+  unsigned long int return_value_strlen_2;
+  unsigned long int return_value_strlen_1;
+  unsigned long int return_value_strlen_4;
+  unsigned long int return_value_strlen_3;
   if(*s == 0)
     return 0;
 
@@ -5334,29 +5334,29 @@ signed int oe_remtr(char *s)
   {
     if(!(*s == 0))
     {
-      return_value_strlen$2=strlen(s);
-      if((signed int)s[-1l + (signed long int)return_value_strlen$2] == 10)
+      return_value_strlen_2=strlen(s);
+      if((signed int)s[-1l + (signed long int)return_value_strlen_2] == 10)
       {
-        return_value_strlen$1=strlen(s);
-        s[(signed long int)(return_value_strlen$1 - (unsigned long int)1)] = (char)0;
+        return_value_strlen_1=strlen(s);
+        s[(signed long int)(return_value_strlen_1 - (unsigned long int)1)] = (char)0;
       }
 
     }
 
     if(!(*s == 0))
     {
-      return_value_strlen$4=strlen(s);
-      if((signed int)s[-1l + (signed long int)return_value_strlen$4] == 13)
+      return_value_strlen_4=strlen(s);
+      if((signed int)s[-1l + (signed long int)return_value_strlen_4] == 13)
       {
-        return_value_strlen$3=strlen(s);
-        s[(signed long int)(return_value_strlen$3 - (unsigned long int)1)] = (char)0;
+        return_value_strlen_3=strlen(s);
+        s[(signed long int)(return_value_strlen_3 - (unsigned long int)1)] = (char)0;
       }
 
     }
 
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(s);
-    return (signed int)return_value_strlen$5;
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(s);
+    return (signed int)return_value_strlen_5;
   }
 }
 
@@ -5367,17 +5367,17 @@ signed int oniontipv4(const char *onion, struct in_addr *ip, signed int prefix_m
   struct in6_addr ip6;
   unsigned int netmask = (unsigned int)prefix_mask;
   unsigned int ip4;
-  signed int return_value_oniontipv6$1;
-  return_value_oniontipv6$1=oniontipv6(onion, &ip6);
-  if(!(return_value_oniontipv6$1 == 0))
+  signed int return_value_oniontipv6_1;
+  return_value_oniontipv6_1=oniontipv6(onion, &ip6);
+  if(!(return_value_oniontipv6_1 == 0))
     return -1;
 
   else
   {
     memcpy((void *)&ip4, (const void *)&ip6.__in6_u.__u6_addr8[(signed long int)12], sizeof(unsigned int) /*4ul*/ );
-    unsigned int return_value_htonl$2;
-    return_value_htonl$2=htonl(~netmask);
-    ip4 = ip4 & return_value_htonl$2;
+    unsigned int return_value_htonl_2;
+    return_value_htonl_2=htonl(~netmask);
+    ip4 = ip4 & return_value_htonl_2;
     ip->s_addr = ip->s_addr | ip4;
     return 0;
   }
@@ -5413,7 +5413,7 @@ signed int oniontipv6(const char *onion, struct in6_addr *ip6)
 signed int open_connect_log(const char *dir)
 {
   char buf[1024l];
-  signed int *return_value___errno_location$3;
+  signed int *return_value___errno_location_3;
   if(!(clog_ == ((struct _IO_FILE *)NULL)))
     return 0;
 
@@ -5430,18 +5430,18 @@ signed int open_connect_log(const char *dir)
       strlcat(buf, "/", (unsigned long int)1024);
       strlcat(buf, setup_.ocat_dir, (unsigned long int)1024);
       log_msg(7, "creating ocat log dir \"%s\"", (const void *)buf);
-      signed int return_value_mkdir$4;
-      return_value_mkdir$4=mkdir(buf, (unsigned int)(0400 | 0200 | 0100 | 0400 >> 3 | 0100 >> 3));
-      if(!(return_value_mkdir$4 == 0))
+      signed int return_value_mkdir_4;
+      return_value_mkdir_4=mkdir(buf, (unsigned int)(0400 | 0200 | 0100 | 0400 >> 3 | 0100 >> 3));
+      if(!(return_value_mkdir_4 == 0))
       {
-        return_value___errno_location$3=__errno_location();
-        if(!(*return_value___errno_location$3 == 17))
+        return_value___errno_location_3=__errno_location();
+        if(!(*return_value___errno_location_3 == 17))
         {
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          char *return_value_strerror$2;
-          return_value_strerror$2=strerror(*return_value___errno_location$1);
-          log_msg(3, "could not create ocat directory \"%s\": \"%s\"", (const void *)buf, return_value_strerror$2);
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          char *return_value_strerror_2;
+          return_value_strerror_2=strerror(*return_value___errno_location_1);
+          log_msg(3, "could not create ocat directory \"%s\": \"%s\"", (const void *)buf, return_value_strerror_2);
           return -1;
         }
 
@@ -5453,11 +5453,11 @@ signed int open_connect_log(const char *dir)
       clog_=fopen(buf, "a");
       if(clog_ == ((struct _IO_FILE *)NULL))
       {
-        signed int *return_value___errno_location$5;
-        return_value___errno_location$5=__errno_location();
-        char *return_value_strerror$6;
-        return_value_strerror$6=strerror(*return_value___errno_location$5);
-        log_msg(3, "could not open connect log \"%s\": \"%s\"", (const void *)buf, return_value_strerror$6);
+        signed int *return_value___errno_location_5;
+        return_value___errno_location_5=__errno_location();
+        char *return_value_strerror_6;
+        return_value_strerror_6=strerror(*return_value___errno_location_5);
+        log_msg(3, "could not open connect log \"%s\": \"%s\"", (const void *)buf, return_value_strerror_6);
         return -1;
       }
 
@@ -5471,8 +5471,8 @@ signed int open_connect_log(const char *dir)
 signed int open_logfile(void)
 {
   struct _IO_FILE *f;
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(!(setup_.logfn == ((char *)NULL)))
   {
     log_msg(7, "opening log file \"%s\"", setup_.logfn);
@@ -5481,24 +5481,24 @@ signed int open_logfile(void)
     {
       setup_.logf = f;
       log_msg(7, "logfile %s opened", setup_.logfn);
-      signed int return_value_setvbuf$3;
-      return_value_setvbuf$3=setvbuf(setup_.logf, (char *)(void *)0, 1, (unsigned long int)0);
-      if(!(return_value_setvbuf$3 == 0))
+      signed int return_value_setvbuf_3;
+      return_value_setvbuf_3=setvbuf(setup_.logf, (char *)(void *)0, 1, (unsigned long int)0);
+      if(!(return_value_setvbuf_3 == 0))
       {
-        return_value___errno_location$1=__errno_location();
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        log_msg(3, "could not setup line buffering: %s", return_value_strerror$2);
+        return_value___errno_location_1=__errno_location();
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        log_msg(3, "could not setup line buffering: %s", return_value_strerror_2);
       }
 
       fflush(setup_.logf);
       return 0;
     }
 
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    log_msg(3, "could not open logfile %s: %s.", setup_.logfn, return_value_strerror$5);
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    log_msg(3, "could not open logfile %s: %s.", setup_.logfn, return_value_strerror_5);
   }
 
   return -1;
@@ -5513,26 +5513,26 @@ void packet_forwarder(void)
   struct in6_addr *dest;
   struct in_addr in;
   struct ether_header *eh = (struct ether_header *)&buf[(signed long int)4];
-  unsigned int return_value_get_tunheader$12;
+  unsigned int return_value_get_tunheader_12;
   do
   {
-    signed int return_value_term_req$1;
-    return_value_term_req$1=term_req();
-    if(!(return_value_term_req$1 == 0))
+    signed int return_value_term_req_1;
+    return_value_term_req_1=term_req();
+    if(!(return_value_term_req_1 == 0))
       break;
 
     log_msg(7, "reading from tunfd[0] = %d", setup_.tunfd[(signed long int)0]);
-    signed long int return_value_read$4;
-    return_value_read$4=read(setup_.tunfd[(signed long int)0], (void *)(buf + (signed long int)0), (unsigned long int)(65580 - 0));
-    rlen = (signed int)return_value_read$4;
+    signed long int return_value_read_4;
+    return_value_read_4=read(setup_.tunfd[(signed long int)0], (void *)(buf + (signed long int)0), (unsigned long int)(65580 - 0));
+    rlen = (signed int)return_value_read_4;
     if(rlen == -1)
     {
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      rlen = *return_value___errno_location$2;
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(rlen);
-      log_msg(7, "read from tun %d returned on error: \"%s\"", setup_.tunfd[(signed long int)0], return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      rlen = *return_value___errno_location_2;
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(rlen);
+      log_msg(7, "read from tun %d returned on error: \"%s\"", setup_.tunfd[(signed long int)0], return_value_strerror_3);
       if(rlen == 4)
       {
         log_msg(7, "signal caught");
@@ -5565,18 +5565,18 @@ void packet_forwarder(void)
     {
       if(!(setup_.use_tap == 0))
       {
-        signed int return_value_eth_check$5;
-        return_value_eth_check$5=eth_check(buf, rlen);
-        if(!(return_value_eth_check$5 == 0))
+        signed int return_value_eth_check_5;
+        return_value_eth_check_5=eth_check(buf, rlen);
+        if(!(return_value_eth_check_5 == 0))
           continue;
 
         rlen = rlen - (signed int)sizeof(struct ether_header) /*14ul*/ ;
         memmove((void *)eh, (const void *)(eh + (signed long int)1), (unsigned long int)(rlen - 4));
       }
 
-      unsigned int return_value_get_tunheader$13;
-      return_value_get_tunheader$13=get_tunheader(buf);
-      if(return_value_get_tunheader$13 == setup_.fhd_key[1l])
+      unsigned int return_value_get_tunheader_13;
+      return_value_get_tunheader_13=get_tunheader(buf);
+      if(return_value_get_tunheader_13 == setup_.fhd_key[1l])
       {
         if(!((unsigned long int)(rlen + -4) >= sizeof(struct ip6_hdr) /*40ul*/ ))
         {
@@ -5584,17 +5584,17 @@ void packet_forwarder(void)
           continue;
         }
 
-        signed int return_value_check_tor_prefix$6;
-        return_value_check_tor_prefix$6=check_tor_prefix((struct ip6_hdr *)&buf[(signed long int)4]);
-        if(return_value_check_tor_prefix$6 == 0)
+        signed int return_value_check_tor_prefix_6;
+        return_value_check_tor_prefix_6=check_tor_prefix((struct ip6_hdr *)&buf[(signed long int)4]);
+        if(return_value_check_tor_prefix_6 == 0)
         {
           log_msg(3, "dropping frame");
           continue;
         }
 
-        struct in6_addr *return_value_get_6dst_ptr$7;
-        return_value_get_6dst_ptr$7=get_6dst_ptr((struct ip6_hdr *)&buf[(signed long int)4]);
-        dest=ipv6_lookup_route(return_value_get_6dst_ptr$7);
+        struct in6_addr *return_value_get_6dst_ptr_7;
+        return_value_get_6dst_ptr_7=get_6dst_ptr((struct ip6_hdr *)&buf[(signed long int)4]);
+        dest=ipv6_lookup_route(return_value_get_6dst_ptr_7);
         if(dest == ((struct in6_addr *)NULL))
           dest=get_6dst_ptr((struct ip6_hdr *)&buf[(signed long int)4]);
 
@@ -5602,8 +5602,8 @@ void packet_forwarder(void)
 
       else
       {
-        return_value_get_tunheader$12=get_tunheader(buf);
-        if(return_value_get_tunheader$12 == setup_.fhd_key[0l])
+        return_value_get_tunheader_12=get_tunheader(buf);
+        if(return_value_get_tunheader_12 == setup_.fhd_key[0l])
         {
           if(!((unsigned long int)(rlen + -4) >= sizeof(struct iphdr) /*20ul*/ ))
           {
@@ -5612,14 +5612,14 @@ void packet_forwarder(void)
           }
 
           in.s_addr=get_saddr((struct iphdr *)&buf[(signed long int)4]);
-          unsigned int return_value_ntohl$9;
-          return_value_ntohl$9=ntohl(in.s_addr);
-          dest=ipv4_lookup_route(return_value_ntohl$9);
+          unsigned int return_value_ntohl_9;
+          return_value_ntohl_9=ntohl(in.s_addr);
+          dest=ipv4_lookup_route(return_value_ntohl_9);
           if(dest == ((struct in6_addr *)NULL))
           {
-            char *return_value_inet_ntoa$8;
-            return_value_inet_ntoa$8=inet_ntoa(in);
-            log_msg(3, "no route to destination %s, dropping frame.", return_value_inet_ntoa$8);
+            char *return_value_inet_ntoa_8;
+            return_value_inet_ntoa_8=inet_ntoa(in);
+            log_msg(3, "no route to destination %s, dropping frame.", return_value_inet_ntoa_8);
             continue;
           }
 
@@ -5627,17 +5627,17 @@ void packet_forwarder(void)
 
         else
         {
-          unsigned int return_value_get_tunheader$10;
-          return_value_get_tunheader$10=get_tunheader(buf);
-          unsigned int return_value_ntohl$11;
-          return_value_ntohl$11=ntohl(return_value_get_tunheader$10);
-          log_msg(3, "protocol 0x%08x not supported. dropping frame.", return_value_ntohl$11);
+          unsigned int return_value_get_tunheader_10;
+          return_value_get_tunheader_10=get_tunheader(buf);
+          unsigned int return_value_ntohl_11;
+          return_value_ntohl_11=ntohl(return_value_get_tunheader_10);
+          log_msg(3, "protocol 0x%08x not supported. dropping frame.", return_value_ntohl_11);
           continue;
         }
       }
-      signed int return_value_forward_packet$14;
-      return_value_forward_packet$14=forward_packet(dest, buf + (signed long int)4, rlen - 4);
-      if(return_value_forward_packet$14 == -1)
+      signed int return_value_forward_packet_14;
+      return_value_forward_packet_14=forward_packet(dest, buf + (signed long int)4, rlen - 4);
+      if(return_value_forward_packet_14 == -1)
       {
         log_msg(7, "adding destination to SOCKS queue");
         socks_queue(*dest, 0);
@@ -5657,11 +5657,11 @@ signed int parse_opt(signed int argc, char **argv)
   log_msg(7, "parse_opt_early()");
   opterr = 1;
   optind = 1;
-  signed int return_value_strcasecmp$1;
-  signed int return_value_strcmp$2;
-  signed int return_value_atoi$3;
-  signed int return_value_strcasecmp$5;
-  signed int return_value_strsockaddr$4;
+  signed int return_value_strcasecmp_1;
+  signed int return_value_strcmp_2;
+  signed int return_value_atoi_3;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_strsockaddr_4;
   do
   {
     c=getopt(argc, argv, "f:IabBCd:hHrRiopl:t:T:s:Uu:4L:P:");
@@ -5720,8 +5720,8 @@ signed int parse_opt(signed int argc, char **argv)
         if(setup_.oc_listen_cnt == -1)
           break;
 
-        return_value_strcasecmp$1=strcasecmp(optarg, "none");
-        if(return_value_strcasecmp$1 == 0)
+        return_value_strcasecmp_1=strcasecmp(optarg, "none");
+        if(return_value_strcasecmp_1 == 0)
           setup_.oc_listen_cnt = -1;
 
         else
@@ -5730,8 +5730,8 @@ signed int parse_opt(signed int argc, char **argv)
       }
       case 76:
       {
-        return_value_strcmp$2=strcmp(optarg, "syslog");
-        if(return_value_strcmp$2 == 0)
+        return_value_strcmp_2=strcmp(optarg, "syslog");
+        if(return_value_strcmp_2 == 0)
           setup_.use_syslog = 1;
 
         else
@@ -5771,20 +5771,20 @@ signed int parse_opt(signed int argc, char **argv)
       }
       case 115:
       {
-        return_value_atoi$3=atoi(optarg);
-        setup_.ocat_dest_port = (unsigned short int)return_value_atoi$3;
+        return_value_atoi_3=atoi(optarg);
+        setup_.ocat_dest_port = (unsigned short int)return_value_atoi_3;
         break;
       }
       case 116:
       {
-        return_value_strcasecmp$5=strcasecmp(optarg, "none");
-        if(return_value_strcasecmp$5 == 0)
-          setup_.$anon0.socks_dst->sin_family = (unsigned short int)0;
+        return_value_strcasecmp_5=strcasecmp(optarg, "none");
+        if(return_value_strcasecmp_5 == 0)
+          setup_._anon0.socks_dst->sin_family = (unsigned short int)0;
 
         else
         {
-          return_value_strsockaddr$4=strsockaddr(optarg, (struct sockaddr *)setup_.$anon0.socks_dst);
-          if(return_value_strsockaddr$4 == -1)
+          return_value_strsockaddr_4=strsockaddr(optarg, (struct sockaddr *)setup_._anon0.socks_dst);
+          if(return_value_strsockaddr_4 == -1)
             exit(1);
 
         }
@@ -5827,8 +5827,8 @@ void parse_opt_early(signed int argc, char **argv_orig)
 {
   signed int c;
   signed int optf = 0;
-  const signed long int optf$array_size0 = (signed long int)(argc + 1);
-  char *argv[optf$array_size0];
+  const signed long int optf_array_size0 = (signed long int)(argc + 1);
+  char *argv[optf_array_size0];
   log_msg(7, "parse_opt_early()");
   memcpy((void *)&argv, (const void *)argv_orig, sizeof(char *) /*8ul*/  * (unsigned long int)(argc + 1));
   opterr = 0;
@@ -5869,37 +5869,37 @@ void parse_opt_early(signed int argc, char **argv_orig)
 // file ocatipv4route.c line 155
 signed int parse_route(const char *rs)
 {
-  signed long int parse_route$array_size0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(rs);
-  parse_route$array_size0 = (signed long int)(return_value_strlen$1 + (unsigned long int)1);
-  char buf[parse_route$array_size0];
+  signed long int parse_route_array_size0;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(rs);
+  parse_route_array_size0 = (signed long int)(return_value_strlen_1 + (unsigned long int)1);
+  char buf[parse_route_array_size0];
   char *s;
   char *b;
   struct IPv4Route route;
   signed int r;
-  _Bool tmp_statement_expression$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
+  _Bool tmp_statement_expression_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
   if(rs == ((const char *)NULL))
     return -5;
 
   else
   {
     log_msg(7, "IPv4 route parser: \"%s\"", rs);
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(rs);
-    strlcpy(buf, rs, return_value_strlen$2 + (unsigned long int)1);
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(rs);
+    strlcpy(buf, rs, return_value_strlen_2 + (unsigned long int)1);
     s=strtok_r(buf, " \t", &b);
     if(s == ((char *)NULL))
       return -4;
 
     else
     {
-      signed int return_value_inet_pton$3;
-      return_value_inet_pton$3=inet_pton(2, s, (void *)&route.dest);
-      if(!(return_value_inet_pton$3 == 1))
+      signed int return_value_inet_pton_3;
+      return_value_inet_pton_3=inet_pton(2, s, (void *)&route.dest);
+      if(!(return_value_inet_pton_3 == 1))
         return -4;
 
       else
@@ -5910,9 +5910,9 @@ signed int parse_route(const char *rs)
 
         else
         {
-          signed int return_value_inet_pton$4;
-          return_value_inet_pton$4=inet_pton(2, s, (void *)&route.netmask);
-          if(!(return_value_inet_pton$4 == 1))
+          signed int return_value_inet_pton_4;
+          return_value_inet_pton_4=inet_pton(2, s, (void *)&route.netmask);
+          if(!(return_value_inet_pton_4 == 1))
             return -4;
 
           else
@@ -5923,16 +5923,16 @@ signed int parse_route(const char *rs)
 
             else
             {
-              signed int return_value_inet_pton$5;
-              return_value_inet_pton$5=inet_pton(10, s, (void *)&route.gw);
-              if(!(return_value_inet_pton$5 == 1))
+              signed int return_value_inet_pton_5;
+              return_value_inet_pton_5=inet_pton(10, s, (void *)&route.gw);
+              if(!(return_value_inet_pton_5 == 1))
                 return -4;
 
               else
               {
-                signed int return_value_has_tor_prefix$6;
-                return_value_has_tor_prefix$6=has_tor_prefix(&route.gw);
-                if(return_value_has_tor_prefix$6 == 0)
+                signed int return_value_has_tor_prefix_6;
+                return_value_has_tor_prefix_6=has_tor_prefix(&route.gw);
+                if(return_value_has_tor_prefix_6 == 0)
                   return -6;
 
                 else
@@ -5940,22 +5940,22 @@ signed int parse_route(const char *rs)
                   struct in6_addr *__a = (struct in6_addr *)&route.gw;
                   struct in6_addr *__b = (struct in6_addr *)&setup_.ocat_addr;
                   if(__a->__in6_u.__u6_addr32[0l] == __b->__in6_u.__u6_addr32[0l])
-                    tmp_if_expr$8 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_8 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$8 = (_Bool)0;
-                  if(tmp_if_expr$8)
-                    tmp_if_expr$9 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_8 = (_Bool)0;
+                  if(tmp_if_expr_8)
+                    tmp_if_expr_9 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$9 = (_Bool)0;
-                  if(tmp_if_expr$9)
-                    tmp_if_expr$10 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
+                    tmp_if_expr_9 = (_Bool)0;
+                  if(tmp_if_expr_9)
+                    tmp_if_expr_10 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
 
                   else
-                    tmp_if_expr$10 = (_Bool)0;
-                  tmp_statement_expression$7 = tmp_if_expr$10;
-                  if(tmp_statement_expression$7)
+                    tmp_if_expr_10 = (_Bool)0;
+                  tmp_statement_expression_7 = tmp_if_expr_10;
+                  if(tmp_statement_expression_7)
                     return -7;
 
                   else
@@ -5991,27 +5991,27 @@ void post_init_setup(void)
   setup_.hosts_lookup = netdesc_[(signed long int)setup_.net_type].hosts_lookup;
   setup_.domain = netdesc_[(signed long int)setup_.net_type].domain;
   hosts_init(netdesc_[(signed long int)setup_.net_type].domain);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen("/etc");
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(netdesc_[(signed long int)setup_.net_type].config_file);
-  l = return_value_strlen$1 + return_value_strlen$2 + (unsigned long int)2;
-  void *return_value_malloc$5;
-  return_value_malloc$5=malloc(l);
-  setup_.config_file = (char *)return_value_malloc$5;
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen("/etc");
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(netdesc_[(signed long int)setup_.net_type].config_file);
+  l = return_value_strlen_1 + return_value_strlen_2 + (unsigned long int)2;
+  void *return_value_malloc_5;
+  return_value_malloc_5=malloc(l);
+  setup_.config_file = (char *)return_value_malloc_5;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
   if(!(setup_.config_file == ((char *)NULL)))
     snprintf(setup_.config_file, l, "%s/%s", (const void *)"/etc", netdesc_[(signed long int)setup_.net_type].config_file);
 
   else
   {
-    return_value___errno_location$3=__errno_location();
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    log_msg(4, "could not get memory for config file string: \"%s\"", return_value_strerror$4);
+    return_value___errno_location_3=__errno_location();
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    log_msg(4, "could not get memory for config file string: \"%s\"", return_value_strerror_4);
   }
-  if(setup_.$anon0.socks_dst->sin_port == 0)
-    setup_.$anon0.socks_dst->sin_port=htons((unsigned short int)netdesc_[(signed long int)setup_.net_type].socks_port);
+  if(setup_._anon0.socks_dst->sin_port == 0)
+    setup_._anon0.socks_dst->sin_port=htons((unsigned short int)netdesc_[(signed long int)setup_.net_type].socks_port);
 
   ctrl_listen_.sin_family = (unsigned short int)2;
   ctrl_listen_.sin_port=htons(setup_.ocat_ctrl_port);
@@ -6035,13 +6035,13 @@ void print_mac_tbl(struct _IO_FILE *f)
   i = 0;
   for( ; !(i >= mac_cnt_); i = i + 1)
   {
-    signed long int return_value_time$1;
-    return_value_time$1=time((signed long int *)(void *)0);
-    char *return_value_ether_ntoa_r$2;
-    return_value_ether_ntoa_r$2=ether_ntoa_r((struct ether_addr *)mac_tbl_[(signed long int)i].hwaddr, buf);
-    fprintf(f, "%3d %3d %s ", i, (signed int)(return_value_time$1 - mac_tbl_[(signed long int)i].age), return_value_ether_ntoa_r$2);
+    signed long int return_value_time_1;
+    return_value_time_1=time((signed long int *)(void *)0);
+    char *return_value_ether_ntoa_r_2;
+    return_value_ether_ntoa_r_2=ether_ntoa_r((struct ether_addr *)mac_tbl_[(signed long int)i].hwaddr, buf);
+    fprintf(f, "%3d %3d %s ", i, (signed int)(return_value_time_1 - mac_tbl_[(signed long int)i].age), return_value_ether_ntoa_r_2);
     fprintf(f, "%s ", (signed int)mac_tbl_[(signed long int)i].family == 10 ? "IN6" : "IN ");
-    inet_ntop((signed int)mac_tbl_[(signed long int)i].family, (const void *)&mac_tbl_[(signed long int)i].$anon0.in6addr, buf, (unsigned int)46);
+    inet_ntop((signed int)mac_tbl_[(signed long int)i].family, (const void *)&mac_tbl_[(signed long int)i]._anon0.in6addr, buf, (unsigned int)46);
     fprintf(f, "%s\n", (const void *)buf);
   }
   pthread_mutex_unlock(&mac_mutex_);
@@ -6076,75 +6076,75 @@ void print_setup_struct(struct _IO_FILE *f)
 
   else
     snprintf(logf, sizeof(char [100l]) /*100ul*/ , "%p", setup_.logf);
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
-  t = (signed int)(return_value_time$1 - setup_.uptime);
-  unsigned int return_value_ntohl$2;
-  return_value_ntohl$2=ntohl(setup_.fhd_key[(signed long int)0]);
-  unsigned int return_value_ntohl$3;
-  return_value_ntohl$3=ntohl(setup_.fhd_key[(signed long int)1]);
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(setup_.version);
-  fprintf(f, "fhd_key[IPV4(%d)]       = 0x%04x\nfhd_key[IPV6(%d)]       = 0x%04x\nfhd_key_len            = %d\nocat_dest_port         = %d\nocat_ctrl_port         = %d\ntunfd[0]               = %d\ntunfd[1]               = %d\ndebug_level            = %d\nusrname                = \"%s\"\nonion_url              = \"%s\"\nocat_addr              = %s\ncreate_clog            = %d\nrunasroot              = %d\ncontroller             = %d\nocat_dir               = \"%s\"\ntun_dev                = \"%s\"\ntunname                = \"%s\"\nipv4_enable            = %d\nocat_addr4             = %s\nocat_addr4_mask        = %s\nconfig_file            = \"%s\"\nconfig_read            = %d\nuse_tap                = %d\nocat_hwaddr            = %s\npid_file               = \"%s\"\nlogfn                  = \"%s\"\nlogf                   = %s\ndaemon                 = %d\nuptime                 = %d days, %d:%02d\nversion[%3d+1/%3d]     = \"%s\"\nsizeof_setup           = %d\nterm_req               = %d\nnet_type               = %d (%s)\nmax_ctrl               = %d\nctrl_active            = %d\npid_fd[2]              = {%d, %d}\nclear_stats            = %d\nctrl_listen_cnt        = %d\nunidirectional         = %d\nhosts_lookup           = %d\ndomain                 = \"%s\"\n----------------------\n", 0, return_value_ntohl$2, 1, return_value_ntohl$3, setup_.fhd_key_len, setup_.ocat_dest_port, setup_.ocat_ctrl_port, setup_.tunfd[(signed long int)0], setup_.tunfd[(signed long int)1], setup_.debug_level, setup_.usrname, (const void *)setup_.onion_url, (const void *)ip6, setup_.create_clog, setup_.runasroot, setup_.controller, setup_.ocat_dir, setup_.tun_dev, (const void *)setup_.tunname, setup_.ipv4_enable, (const void *)ip, (const void *)nm, setup_.config_file, setup_.config_read, setup_.use_tap, (const void *)hw, setup_.pid_file, setup_.logfn != (char *)(void *)0 ? setup_.logfn : "(nil)", (const void *)logf, setup_.daemon, t / (3600 * 24), (t / 3600) % 24, (t / 60) % 60, (signed int)return_value_strlen$4, 256, (const void *)setup_.version, setup_.sizeof_setup, setup_.term_req, setup_.net_type, setup_.net_type == 0 ? "NTYPE_TOR" : (setup_.net_type == 1 ? "NTYPE_I2P" : "unknown"), setup_.max_ctrl, setup_.ctrl_active, setup_.pid_fd[(signed long int)0], setup_.pid_fd[(signed long int)1], setup_.clear_stats, setup_.ctrl_listen_cnt, setup_.unidirectional, setup_.hosts_lookup, setup_.domain);
-  const char *return_value_inet_ntops$8;
-  return_value_inet_ntops$8=inet_ntops((struct sockaddr *)setup_.$anon0.socks_dst, &sas);
-  signed int *return_value___errno_location$6;
-  char *return_value_strerror$7;
-  if(!(return_value_inet_ntops$8 == ((const char *)NULL)))
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
+  t = (signed int)(return_value_time_1 - setup_.uptime);
+  unsigned int return_value_ntohl_2;
+  return_value_ntohl_2=ntohl(setup_.fhd_key[(signed long int)0]);
+  unsigned int return_value_ntohl_3;
+  return_value_ntohl_3=ntohl(setup_.fhd_key[(signed long int)1]);
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(setup_.version);
+  fprintf(f, "fhd_key[IPV4(%d)]       = 0x%04x\nfhd_key[IPV6(%d)]       = 0x%04x\nfhd_key_len            = %d\nocat_dest_port         = %d\nocat_ctrl_port         = %d\ntunfd[0]               = %d\ntunfd[1]               = %d\ndebug_level            = %d\nusrname                = \"%s\"\nonion_url              = \"%s\"\nocat_addr              = %s\ncreate_clog            = %d\nrunasroot              = %d\ncontroller             = %d\nocat_dir               = \"%s\"\ntun_dev                = \"%s\"\ntunname                = \"%s\"\nipv4_enable            = %d\nocat_addr4             = %s\nocat_addr4_mask        = %s\nconfig_file            = \"%s\"\nconfig_read            = %d\nuse_tap                = %d\nocat_hwaddr            = %s\npid_file               = \"%s\"\nlogfn                  = \"%s\"\nlogf                   = %s\ndaemon                 = %d\nuptime                 = %d days, %d:%02d\nversion[%3d+1/%3d]     = \"%s\"\nsizeof_setup           = %d\nterm_req               = %d\nnet_type               = %d (%s)\nmax_ctrl               = %d\nctrl_active            = %d\npid_fd[2]              = {%d, %d}\nclear_stats            = %d\nctrl_listen_cnt        = %d\nunidirectional         = %d\nhosts_lookup           = %d\ndomain                 = \"%s\"\n----------------------\n", 0, return_value_ntohl_2, 1, return_value_ntohl_3, setup_.fhd_key_len, setup_.ocat_dest_port, setup_.ocat_ctrl_port, setup_.tunfd[(signed long int)0], setup_.tunfd[(signed long int)1], setup_.debug_level, setup_.usrname, (const void *)setup_.onion_url, (const void *)ip6, setup_.create_clog, setup_.runasroot, setup_.controller, setup_.ocat_dir, setup_.tun_dev, (const void *)setup_.tunname, setup_.ipv4_enable, (const void *)ip, (const void *)nm, setup_.config_file, setup_.config_read, setup_.use_tap, (const void *)hw, setup_.pid_file, setup_.logfn != (char *)(void *)0 ? setup_.logfn : "(nil)", (const void *)logf, setup_.daemon, t / (3600 * 24), (t / 3600) % 24, (t / 60) % 60, (signed int)return_value_strlen_4, 256, (const void *)setup_.version, setup_.sizeof_setup, setup_.term_req, setup_.net_type, setup_.net_type == 0 ? "NTYPE_TOR" : (setup_.net_type == 1 ? "NTYPE_I2P" : "unknown"), setup_.max_ctrl, setup_.ctrl_active, setup_.pid_fd[(signed long int)0], setup_.pid_fd[(signed long int)1], setup_.clear_stats, setup_.ctrl_listen_cnt, setup_.unidirectional, setup_.hosts_lookup, setup_.domain);
+  const char *return_value_inet_ntops_8;
+  return_value_inet_ntops_8=inet_ntops((struct sockaddr *)setup_._anon0.socks_dst, &sas);
+  signed int *return_value___errno_location_6;
+  char *return_value_strerror_7;
+  if(!(return_value_inet_ntops_8 == ((const char *)NULL)))
   {
     c = (signed int)sas.sstr_family == 10 ? "6" : "";
-    unsigned short int return_value_ntohs$5;
-    return_value_ntohs$5=ntohs(sas.sstr_port);
-    fprintf(f, "socks_dst%s.sin_family   = 0x%04x\nsocks_dst%s.sin_port     = %d\nsocks_dst%s.sin_addr     = %s\n", c, sas.sstr_family, c, return_value_ntohs$5, c, (const void *)sas.sstr_addr);
+    unsigned short int return_value_ntohs_5;
+    return_value_ntohs_5=ntohs(sas.sstr_port);
+    fprintf(f, "socks_dst%s.sin_family   = 0x%04x\nsocks_dst%s.sin_port     = %d\nsocks_dst%s.sin_addr     = %s\n", c, sas.sstr_family, c, return_value_ntohs_5, c, (const void *)sas.sstr_addr);
   }
 
   else
   {
-    return_value___errno_location$6=__errno_location();
-    return_value_strerror$7=strerror(*return_value___errno_location$6);
-    log_msg(4, "could not convert struct sockaddr: \"%s\"", return_value_strerror$7);
+    return_value___errno_location_6=__errno_location();
+    return_value_strerror_7=strerror(*return_value___errno_location_6);
+    log_msg(4, "could not convert struct sockaddr: \"%s\"", return_value_strerror_7);
   }
   i = 0;
-  unsigned short int return_value_ntohs$9;
-  signed int *return_value___errno_location$10;
-  char *return_value_strerror$11;
+  unsigned short int return_value_ntohs_9;
+  signed int *return_value___errno_location_10;
+  char *return_value_strerror_11;
   for( ; !(i >= setup_.oc_listen_cnt); i = i + 1)
   {
-    const char *return_value_inet_ntops$12;
-    return_value_inet_ntops$12=inet_ntops(setup_.oc_listen[(signed long int)i], &sas);
-    if(!(return_value_inet_ntops$12 == ((const char *)NULL)))
+    const char *return_value_inet_ntops_12;
+    return_value_inet_ntops_12=inet_ntops(setup_.oc_listen[(signed long int)i], &sas);
+    if(!(return_value_inet_ntops_12 == ((const char *)NULL)))
     {
-      return_value_ntohs$9=ntohs(sas.sstr_port);
-      fprintf(f, "oc_listen[%d]           = %s:%d\n", i, (const void *)sas.sstr_addr, return_value_ntohs$9);
+      return_value_ntohs_9=ntohs(sas.sstr_port);
+      fprintf(f, "oc_listen[%d]           = %s:%d\n", i, (const void *)sas.sstr_addr, return_value_ntohs_9);
     }
 
     else
     {
-      return_value___errno_location$10=__errno_location();
-      return_value_strerror$11=strerror(*return_value___errno_location$10);
-      log_msg(4, "could not convert struct sockaddr: \"%s\"", return_value_strerror$11);
+      return_value___errno_location_10=__errno_location();
+      return_value_strerror_11=strerror(*return_value___errno_location_10);
+      log_msg(4, "could not convert struct sockaddr: \"%s\"", return_value_strerror_11);
     }
     fprintf(f, "oc_listen_fd[%d]        = %d\n", i, setup_.oc_listen_fd[(signed long int)i]);
   }
   i = 0;
-  unsigned short int return_value_ntohs$13;
-  signed int *return_value___errno_location$14;
-  char *return_value_strerror$15;
+  unsigned short int return_value_ntohs_13;
+  signed int *return_value___errno_location_14;
+  char *return_value_strerror_15;
   for( ; !(i >= setup_.ctrl_listen_cnt); i = i + 1)
   {
-    const char *return_value_inet_ntops$16;
-    return_value_inet_ntops$16=inet_ntops(ctrl_listen_ptr_[(signed long int)i], &sas);
-    if(!(return_value_inet_ntops$16 == ((const char *)NULL)))
+    const char *return_value_inet_ntops_16;
+    return_value_inet_ntops_16=inet_ntops(ctrl_listen_ptr_[(signed long int)i], &sas);
+    if(!(return_value_inet_ntops_16 == ((const char *)NULL)))
     {
-      return_value_ntohs$13=ntohs(sas.sstr_port);
-      fprintf(f, "ctrl_listen_ptr_[%d]    = %s:%d (0x%04x)\n", i, (const void *)sas.sstr_addr, return_value_ntohs$13, sas.sstr_family);
+      return_value_ntohs_13=ntohs(sas.sstr_port);
+      fprintf(f, "ctrl_listen_ptr_[%d]    = %s:%d (0x%04x)\n", i, (const void *)sas.sstr_addr, return_value_ntohs_13, sas.sstr_family);
     }
 
     else
     {
-      return_value___errno_location$14=__errno_location();
-      return_value_strerror$15=strerror(*return_value___errno_location$14);
-      log_msg(4, "could not convert struct sockaddr: \"%s\"", return_value_strerror$15);
+      return_value___errno_location_14=__errno_location();
+      return_value_strerror_15=strerror(*return_value___errno_location_14);
+      log_msg(4, "could not convert struct sockaddr: \"%s\"", return_value_strerror_15);
     }
   }
   inet_ntop(10, (const void *)&setup_.oc_vdns, ip6, (unsigned int)100);
@@ -6179,11 +6179,11 @@ void rand_onion(char *onion)
 {
   signed int i;
   i = 0;
-  signed int return_value_rand$1;
+  signed int return_value_rand_1;
   for( ; !(i >= 16); onion = onion + 1l)
   {
-    return_value_rand$1=rand();
-    *onion = BASE32[(signed long int)(return_value_rand$1 & 0x1f)];
+    return_value_rand_1=rand();
+    *onion = BASE32[(signed long int)(return_value_rand_1 & 0x1f)];
     i = i + 1;
   }
   *onion = (char)0;
@@ -6207,9 +6207,9 @@ signed int run_ctrl_handler(signed int fd)
 
   else
   {
-    signed int return_value_run_ocat_thread$1;
-    return_value_run_ocat_thread$1=run_ocat_thread("ctrl_handler", ctrl_handler, (void *)(signed long int)fd);
-    return (signed int)return_value_run_ocat_thread$1;
+    signed int return_value_run_ocat_thread_1;
+    return_value_run_ocat_thread_1=run_ocat_thread("ctrl_handler", ctrl_handler, (void *)(signed long int)fd);
+    return (signed int)return_value_run_ocat_thread_1;
   }
 }
 
@@ -6219,23 +6219,23 @@ signed int run_listeners(struct sockaddr **addr, signed int *sockfd, signed int 
 {
   signed int fd;
   struct sockaddr_in6 in6;
-  struct anonymous$5 rset;
+  struct anonymous_5 rset;
   signed int maxfd;
   signed int i;
   unsigned int alen;
   char iabuf[46l];
   struct timeval tv;
   i = 0;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   for( ; !(i >= cnt); i = i + 1)
   {
     log_msg(7, "create listener");
     if((signed int)addr[(signed long int)i]->sa_family == 2)
-      tmp_if_expr$1 = sizeof(struct sockaddr_in) /*16ul*/ ;
+      tmp_if_expr_1 = sizeof(struct sockaddr_in) /*16ul*/ ;
 
     else
-      tmp_if_expr$1 = (signed int)((struct sockaddr *)addr[(signed long int)i])->sa_family == 10 ? sizeof(struct sockaddr_in6) /*28ul*/  : (unsigned long int)0;
-    sockfd[(signed long int)i]=create_listener(addr[(signed long int)i], (signed int)tmp_if_expr$1);
+      tmp_if_expr_1 = (signed int)((struct sockaddr *)addr[(signed long int)i])->sa_family == 10 ? sizeof(struct sockaddr_in6) /*28ul*/  : (unsigned long int)0;
+    sockfd[(signed long int)i]=create_listener(addr[(signed long int)i], (signed int)tmp_if_expr_1);
     if(sockfd[(signed long int)i] == -1)
     {
       log_msg(0, "exiting");
@@ -6243,12 +6243,12 @@ signed int run_listeners(struct sockaddr **addr, signed int *sockfd, signed int 
     }
 
   }
-  struct in6_addr *tmp_if_expr$7;
+  struct in6_addr *tmp_if_expr_7;
   do
   {
-    signed int return_value_term_req$2;
-    return_value_term_req$2=term_req();
-    if(!(return_value_term_req$2 == 0))
+    signed int return_value_term_req_2;
+    return_value_term_req_2=term_req();
+    if(!(return_value_term_req_2 == 0))
       break;
 
     log_msg(7, "setting up fd_set");
@@ -6256,7 +6256,7 @@ signed int run_listeners(struct sockaddr **addr, signed int *sockfd, signed int 
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$5) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rset)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_5) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rset)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     maxfd = -1;
@@ -6278,14 +6278,14 @@ signed int run_listeners(struct sockaddr **addr, signed int *sockfd, signed int 
 
     set_select_timeout(&tv);
     log_msg(7, "selecting (maxfd = %d)", maxfd);
-    maxfd=select(maxfd + 1, &rset, (struct anonymous$5 *)(void *)0, (struct anonymous$5 *)(void *)0, &tv);
+    maxfd=select(maxfd + 1, &rset, (struct anonymous_5 *)(void *)0, (struct anonymous_5 *)(void *)0, &tv);
     if(maxfd == -1)
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      log_msg(7, "select returned: \"%s\"", return_value_strerror$4);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      log_msg(7, "select returned: \"%s\"", return_value_strerror_4);
       continue;
     }
 
@@ -6302,23 +6302,23 @@ signed int run_listeners(struct sockaddr **addr, signed int *sockfd, signed int 
         fd=accept(sockfd[(signed long int)i], (struct sockaddr *)&in6, &alen);
         if(!(fd >= 0))
         {
-          signed int *return_value___errno_location$5;
-          return_value___errno_location$5=__errno_location();
-          char *return_value_strerror$6;
-          return_value_strerror$6=strerror(*return_value___errno_location$5);
-          log_msg(3, "error accepting connection on %d: \"%s\"", sockfd[(signed long int)i], return_value_strerror$6);
+          signed int *return_value___errno_location_5;
+          return_value___errno_location_5=__errno_location();
+          char *return_value_strerror_6;
+          return_value_strerror_6=strerror(*return_value___errno_location_5);
+          log_msg(3, "error accepting connection on %d: \"%s\"", sockfd[(signed long int)i], return_value_strerror_6);
           goto __CPROVER_DUMP_L16;
         }
 
         if((signed int)in6.sin6_family == 10)
-          tmp_if_expr$7 = &in6.sin6_addr;
+          tmp_if_expr_7 = &in6.sin6_addr;
 
         else
-          tmp_if_expr$7 = (struct in6_addr *)(void *)&((struct sockaddr_in *)&in6)->sin_addr;
-        inet_ntop((signed int)in6.sin6_family, (const void *)tmp_if_expr$7, iabuf, (unsigned int)46);
-        unsigned short int return_value_ntohs$8;
-        return_value_ntohs$8=ntohs(in6.sin6_port);
-        log_msg(6 | 0x400, "connection %d [%d] accepted on listener %d from %s port %d", fd, i, sockfd[(signed long int)i], (const void *)iabuf, return_value_ntohs$8);
+          tmp_if_expr_7 = (struct in6_addr *)(void *)&((struct sockaddr_in *)&in6)->sin_addr;
+        inet_ntop((signed int)in6.sin6_family, (const void *)tmp_if_expr_7, iabuf, (unsigned int)46);
+        unsigned short int return_value_ntohs_8;
+        return_value_ntohs_8=ntohs(in6.sin6_port);
+        log_msg(6 | 0x400, "connection %d [%d] accepted on listener %d from %s port %d", fd, i, sockfd[(signed long int)i], (const void *)iabuf, return_value_ntohs_8);
         action_accept(fd);
       }
 
@@ -6341,19 +6341,19 @@ signed int run_ocat_thread(const char *name, void * (*thfunc)(void *), void *par
 {
   signed int rc;
   struct OcatThread *th;
-  void *return_value_calloc$4;
-  return_value_calloc$4=calloc((unsigned long int)1, sizeof(struct OcatThread) /*112ul*/ );
-  th = (struct OcatThread *)return_value_calloc$4;
+  void *return_value_calloc_4;
+  return_value_calloc_4=calloc((unsigned long int)1, sizeof(struct OcatThread) /*112ul*/ );
+  th = (struct OcatThread *)return_value_calloc_4;
   if(th == ((struct OcatThread *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    rc = *return_value___errno_location$1;
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    log_msg(0, "could not create thread %s: \"%s\"", name, return_value_strerror$3);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    rc = *return_value___errno_location_1;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    log_msg(0, "could not create thread %s: \"%s\"", name, return_value_strerror_3);
     return rc;
   }
 
@@ -6363,31 +6363,31 @@ signed int run_ocat_thread(const char *name, void * (*thfunc)(void *), void *par
   rc=pthread_attr_init(&th->attr);
   if(!(rc == 0))
   {
-    char *return_value_strerror$5;
-    return_value_strerror$5=strerror(rc);
-    log_msg(3, "could not init pthread attr: \"%s\"", return_value_strerror$5);
+    char *return_value_strerror_5;
+    return_value_strerror_5=strerror(rc);
+    log_msg(3, "could not init pthread attr: \"%s\"", return_value_strerror_5);
     return rc;
   }
 
   unsigned long int ss;
-  signed int return_value_pthread_attr_getstacksize$7;
-  return_value_pthread_attr_getstacksize$7=pthread_attr_getstacksize(&th->attr, &ss);
-  char *return_value_strerror$6;
-  if(!(rc == return_value_pthread_attr_getstacksize$7))
+  signed int return_value_pthread_attr_getstacksize_7;
+  return_value_pthread_attr_getstacksize_7=pthread_attr_getstacksize(&th->attr, &ss);
+  char *return_value_strerror_6;
+  if(!(rc == return_value_pthread_attr_getstacksize_7))
   {
-    return_value_strerror$6=strerror(rc);
-    log_msg(7, "could not get thread stack size attr: \"%s\"", return_value_strerror$6);
+    return_value_strerror_6=strerror(rc);
+    log_msg(7, "could not get thread stack size attr: \"%s\"", return_value_strerror_6);
   }
 
   else
     log_msg(7, "default thread stack size %dk, setting to %dk", ss / (unsigned long int)1024, 262144 / 1024);
-  signed int return_value_pthread_attr_setstacksize$9;
-  return_value_pthread_attr_setstacksize$9=pthread_attr_setstacksize(&th->attr, (unsigned long int)262144);
-  if(!(rc == return_value_pthread_attr_setstacksize$9))
+  signed int return_value_pthread_attr_setstacksize_9;
+  return_value_pthread_attr_setstacksize_9=pthread_attr_setstacksize(&th->attr, (unsigned long int)262144);
+  if(!(rc == return_value_pthread_attr_setstacksize_9))
   {
-    char *return_value_strerror$8;
-    return_value_strerror$8=strerror(rc);
-    log_msg(0, "could not init thread stack size attr - system may be unstable: \"%s\"", return_value_strerror$8);
+    char *return_value_strerror_8;
+    return_value_strerror_8=strerror(rc);
+    log_msg(0, "could not init thread stack size attr - system may be unstable: \"%s\"", return_value_strerror_8);
     return rc;
   }
 
@@ -6395,9 +6395,9 @@ signed int run_ocat_thread(const char *name, void * (*thfunc)(void *), void *par
   rc=pthread_create(&th->handle, &th->attr, thread_run, (void *)th);
   if(!(rc == 0))
   {
-    char *return_value_strerror$10;
-    return_value_strerror$10=strerror(rc);
-    log_msg(0, "could not start thread %s: \"%s\"", name, return_value_strerror$10);
+    char *return_value_strerror_10;
+    return_value_strerror_10=strerror(rc);
+    log_msg(0, "could not start thread %s: \"%s\"", name, return_value_strerror_10);
     free((void *)th);
   }
 
@@ -6409,31 +6409,31 @@ signed int run_ocat_thread(const char *name, void * (*thfunc)(void *), void *par
 struct OcatPeer * search_peer(struct in6_addr *addr)
 {
   struct OcatPeer *peer = peer_;
-  _Bool tmp_statement_expression$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
+  _Bool tmp_statement_expression_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
   for( ; !(peer == ((struct OcatPeer *)NULL)); peer = peer->next)
   {
     struct in6_addr *__a = (struct in6_addr *)addr;
     struct in6_addr *__b = (struct in6_addr *)&peer->addr;
     if(__a->__in6_u.__u6_addr32[0l] == __b->__in6_u.__u6_addr32[0l])
-      tmp_if_expr$2 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    tmp_statement_expression$1 = tmp_if_expr$4;
-    if(tmp_statement_expression$1)
+      tmp_if_expr_4 = (_Bool)0;
+    tmp_statement_expression_1 = tmp_if_expr_4;
+    if(tmp_statement_expression_1)
       return peer;
 
   }
@@ -6453,16 +6453,16 @@ signed int send_keepalive(struct OcatPeer *peer)
   hdr.ip6_ctlun.ip6_un1.ip6_un1_nxt = (unsigned char)59;
   hdr.ip6_ctlun.ip6_un1.ip6_un1_hlim = (unsigned char)1;
   log_msg(7, "sending %d bytes keepalive to fd %d", sizeof(struct ip6_hdr) /*40ul*/ , peer->tcpfd);
-  signed long int return_value_send$3;
-  return_value_send$3=send(peer->tcpfd, (const void *)&hdr, sizeof(struct ip6_hdr) /*40ul*/ , 64);
-  len = (signed int)return_value_send$3;
+  signed long int return_value_send_3;
+  return_value_send_3=send(peer->tcpfd, (const void *)&hdr, sizeof(struct ip6_hdr) /*40ul*/ , 64);
+  len = (signed int)return_value_send_3;
   if(len == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(3, "could not send keepalive: %s", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(3, "could not send keepalive: %s", return_value_strerror_2);
     return -1;
   }
 
@@ -6482,29 +6482,29 @@ signed int send_keepalive(struct OcatPeer *peer)
 void set_nonblock(signed int fd)
 {
   signed long int flags;
-  signed int return_value_fcntl$3;
-  return_value_fcntl$3=fcntl(fd, 3, 0);
-  flags = (signed long int)return_value_fcntl$3;
+  signed int return_value_fcntl_3;
+  return_value_fcntl_3=fcntl(fd, 3, 0);
+  flags = (signed long int)return_value_fcntl_3;
   if(flags == -1l)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(3, "could not get socket flags for %d: \"%s\"", fd, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(3, "could not get socket flags for %d: \"%s\"", fd, return_value_strerror_2);
     flags = (signed long int)0;
   }
 
   log_msg(7, "O_NONBLOCK currently is %x", flags & (signed long int)04000);
-  signed int return_value_fcntl$6;
-  return_value_fcntl$6=fcntl(fd, 4, flags | (signed long int)04000);
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
-  if(return_value_fcntl$6 == -1)
+  signed int return_value_fcntl_6;
+  return_value_fcntl_6=fcntl(fd, 4, flags | (signed long int)04000);
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
+  if(return_value_fcntl_6 == -1)
   {
-    return_value___errno_location$4=__errno_location();
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    log_msg(3, "could not set O_NONBLOCK for %d: \"%s\"", fd, return_value_strerror$5);
+    return_value___errno_location_4=__errno_location();
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    log_msg(3, "could not set O_NONBLOCK for %d: \"%s\"", fd, return_value_strerror_5);
   }
 
 }
@@ -6513,13 +6513,13 @@ void set_nonblock(signed int fd)
 // file ocatroute.c line 239
 signed int set_peer_dest(struct in6_addr *dest, struct in6_addr *addr)
 {
-  signed int return_value_has_tor_prefix$1;
-  return_value_has_tor_prefix$1=has_tor_prefix(addr);
-  _Bool tmp_statement_expression$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  if(return_value_has_tor_prefix$1 == 0)
+  signed int return_value_has_tor_prefix_1;
+  return_value_has_tor_prefix_1=has_tor_prefix(addr);
+  _Bool tmp_statement_expression_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  if(return_value_has_tor_prefix_1 == 0)
   {
     log_msg(7, "remote address does not have OC prefix");
     return -1;
@@ -6530,22 +6530,22 @@ signed int set_peer_dest(struct in6_addr *dest, struct in6_addr *addr)
     struct in6_addr *__a = (struct in6_addr *)addr;
     struct in6_addr *__b = (struct in6_addr *)&setup_.ocat_addr;
     if(__a->__in6_u.__u6_addr32[0l] == __b->__in6_u.__u6_addr32[0l])
-      tmp_if_expr$3 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$4 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_4 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$4 = (_Bool)0;
-    if(tmp_if_expr$4)
-      tmp_if_expr$5 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (_Bool)0;
+    if(tmp_if_expr_4)
+      tmp_if_expr_5 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$5 = (_Bool)0;
-    tmp_statement_expression$2 = tmp_if_expr$5;
-    if(tmp_statement_expression$2)
+      tmp_if_expr_5 = (_Bool)0;
+    tmp_statement_expression_2 = tmp_if_expr_5;
+    if(tmp_statement_expression_2)
     {
       log_msg(7, "source address is local address");
       return -1;
@@ -6563,9 +6563,9 @@ signed int set_peer_dest(struct in6_addr *dest, struct in6_addr *addr)
 // file ocatroute.c line 259
 void set_select_timeout(struct timeval *tv)
 {
-  signed int return_value_rand$1;
-  return_value_rand$1=rand();
-  tv->tv_usec = (signed long int)(return_value_rand$1 % 1000000);
+  signed int return_value_rand_1;
+  return_value_rand_1=rand();
+  tv->tv_usec = (signed long int)(return_value_rand_1 % 1000000);
   tv->tv_sec = (signed long int)10 + (tv->tv_usec & (signed long int)1);
   log_msg(7, "timeout %d.%06d", tv->tv_sec, tv->tv_usec);
 }
@@ -6678,12 +6678,12 @@ void * socket_cleaner(void *ptr)
   struct OcatPeer **p;
   signed int stat_wup = 0;
   signed long int act_time;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   do
   {
-    signed int return_value_term_req$1;
-    return_value_term_req$1=term_req();
-    if(!(return_value_term_req$1 == 0))
+    signed int return_value_term_req_1;
+    return_value_term_req_1=term_req();
+    if(!(return_value_term_req_1 == 0))
       break;
 
     sleep((unsigned int)10);
@@ -6722,11 +6722,11 @@ void * socket_cleaner(void *ptr)
       else
       {
         if(!((*p)->state == 0))
-          tmp_if_expr$2 = act_time - (*p)->time >= (signed long int)180 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = act_time - (*p)->time >= (signed long int)180 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
         {
           peer = *p;
           *p = peer->next;
@@ -6760,45 +6760,45 @@ void * socket_receiver(void *p)
   signed int len;
   char buf[65580l];
   char addr[46l];
-  struct anonymous$5 rset;
+  struct anonymous_5 rset;
   struct OcatPeer *peer;
   struct in6_addr *in6;
   signed int drop = 0;
   struct ether_header *eh = (struct ether_header *)(buf + (signed long int)4);
   struct timeval tv;
-  signed int return_value_pipe$3;
-  return_value_pipe$3=pipe(lpfd_);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  if(!(return_value_pipe$3 >= 0))
+  signed int return_value_pipe_3;
+  return_value_pipe_3=pipe(lpfd_);
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  if(!(return_value_pipe_3 >= 0))
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(0, "could not create pipe for socket_receiver: \"%s\"", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(0, "could not create pipe for socket_receiver: \"%s\"", return_value_strerror_2);
     exit(1);
   }
 
-  _Bool tmp_if_expr$11;
-  unsigned short int return_value_ntohs$10;
-  _Bool tmp_if_expr$14;
-  unsigned short int return_value_ntohs$13;
-  _Bool tmp_statement_expression$20;
-  _Bool tmp_if_expr$21;
-  _Bool tmp_if_expr$22;
-  _Bool tmp_if_expr$23;
-  const char *return_value_inet_ntop$19;
+  _Bool tmp_if_expr_11;
+  unsigned short int return_value_ntohs_10;
+  _Bool tmp_if_expr_14;
+  unsigned short int return_value_ntohs_13;
+  _Bool tmp_statement_expression_20;
+  _Bool tmp_if_expr_21;
+  _Bool tmp_if_expr_22;
+  _Bool tmp_if_expr_23;
+  const char *return_value_inet_ntop_19;
   do
   {
-    signed int return_value_term_req$4;
-    return_value_term_req$4=term_req();
-    if(!(return_value_term_req$4 == 0))
+    signed int return_value_term_req_4;
+    return_value_term_req_4=term_req();
+    if(!(return_value_term_req_4 == 0))
       break;
 
     do
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$5) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rset)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_5) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rset)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     (&rset)->__fds_bits[(signed long int)(lpfd_[(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&rset)->__fds_bits[(signed long int)(lpfd_[(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << lpfd_[(signed long int)0] % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
@@ -6829,14 +6829,14 @@ void * socket_receiver(void *p)
     unlock_peers();
     set_select_timeout(&tv);
     log_msg(7, "selecting (maxfd = %d)", maxfd);
-    maxfd=select(maxfd + 1, &rset, (struct anonymous$5 *)(void *)0, (struct anonymous$5 *)(void *)0, &tv);
+    maxfd=select(maxfd + 1, &rset, (struct anonymous_5 *)(void *)0, (struct anonymous_5 *)(void *)0, &tv);
     if(maxfd == -1)
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      char *return_value_strerror$6;
-      return_value_strerror$6=strerror(*return_value___errno_location$5);
-      log_msg(3, "select encountered error: \"%s\", restarting", return_value_strerror$6);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      char *return_value_strerror_6;
+      return_value_strerror_6=strerror(*return_value___errno_location_5);
+      log_msg(3, "select encountered error: \"%s\", restarting", return_value_strerror_6);
       continue;
     }
 
@@ -6877,16 +6877,16 @@ void * socket_receiver(void *p)
         {
           maxfd = maxfd - 1;
           log_msg(7, "reading from %d", peer->tcpfd);
-          signed long int return_value_read$9;
-          return_value_read$9=read(peer->tcpfd, (void *)(peer->fragbuf + (signed long int)peer->fraglen), (unsigned long int)((65580 - 4) - peer->fraglen));
-          len = (signed int)return_value_read$9;
+          signed long int return_value_read_9;
+          return_value_read_9=read(peer->tcpfd, (void *)(peer->fragbuf + (signed long int)peer->fraglen), (unsigned long int)((65580 - 4) - peer->fraglen));
+          len = (signed int)return_value_read_9;
           if(len == -1)
           {
-            signed int *return_value___errno_location$7;
-            return_value___errno_location$7=__errno_location();
-            char *return_value_strerror$8;
-            return_value_strerror$8=strerror(*return_value___errno_location$7);
-            log_msg(7, "spurious wakup of %d: \"%s\"", peer->tcpfd, return_value_strerror$8);
+            signed int *return_value___errno_location_7;
+            return_value___errno_location_7=__errno_location();
+            char *return_value_strerror_8;
+            return_value_strerror_8=strerror(*return_value___errno_location_7);
+            log_msg(7, "spurious wakup of %d: \"%s\"", peer->tcpfd, return_value_strerror_8);
             unlock_peer(peer);
             continue;
           }
@@ -6919,22 +6919,22 @@ void * socket_receiver(void *p)
               {
                 log_msg(7, "identified IPv6 packet");
                 if(!((unsigned long int)peer->fraglen >= sizeof(struct ip6_hdr) /*40ul*/ ))
-                  tmp_if_expr$11 = (_Bool)1;
+                  tmp_if_expr_11 = (_Bool)1;
 
                 else
                 {
-                  return_value_ntohs$10=ntohs(((struct ip6_hdr *)peer->fragbuf)->ip6_ctlun.ip6_un1.ip6_un1_plen);
-                  tmp_if_expr$11 = (unsigned long int)peer->fraglen < (unsigned long int)return_value_ntohs$10 + sizeof(struct ip6_hdr) /*40ul*/  ? (_Bool)1 : (_Bool)0;
+                  return_value_ntohs_10=ntohs(((struct ip6_hdr *)peer->fragbuf)->ip6_ctlun.ip6_un1.ip6_un1_plen);
+                  tmp_if_expr_11 = (unsigned long int)peer->fraglen < (unsigned long int)return_value_ntohs_10 + sizeof(struct ip6_hdr) /*40ul*/  ? (_Bool)1 : (_Bool)0;
                 }
-                if(tmp_if_expr$11)
+                if(tmp_if_expr_11)
                 {
                   log_msg(7, "keeping %d bytes frag", peer->fraglen);
                   break;
                 }
 
-                unsigned short int return_value_ntohs$12;
-                return_value_ntohs$12=ntohs(((struct ip6_hdr *)peer->fragbuf)->ip6_ctlun.ip6_un1.ip6_un1_plen);
-                len = (signed int)((unsigned long int)return_value_ntohs$12 + sizeof(struct ip6_hdr) /*40ul*/ );
+                unsigned short int return_value_ntohs_12;
+                return_value_ntohs_12=ntohs(((struct ip6_hdr *)peer->fragbuf)->ip6_ctlun.ip6_un1.ip6_un1_plen);
+                len = (signed int)((unsigned long int)return_value_ntohs_12 + sizeof(struct ip6_hdr) /*40ul*/ );
                 *peer->tunhdr = setup_.fhd_key[(signed long int)1];
               }
 
@@ -6950,22 +6950,22 @@ void * socket_receiver(void *p)
 
                   log_msg(7, "identified IPv4 packet");
                   if(!((unsigned long int)peer->fraglen >= sizeof(struct iphdr) /*20ul*/ ))
-                    tmp_if_expr$14 = (_Bool)1;
+                    tmp_if_expr_14 = (_Bool)1;
 
                   else
                   {
-                    return_value_ntohs$13=ntohs(((struct iphdr *)peer->fragbuf)->tot_len);
-                    tmp_if_expr$14 = peer->fraglen < (signed int)return_value_ntohs$13 ? (_Bool)1 : (_Bool)0;
+                    return_value_ntohs_13=ntohs(((struct iphdr *)peer->fragbuf)->tot_len);
+                    tmp_if_expr_14 = peer->fraglen < (signed int)return_value_ntohs_13 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$14)
+                  if(tmp_if_expr_14)
                   {
                     log_msg(7, "keeping %d bytes frag", peer->fraglen);
                     break;
                   }
 
-                  unsigned short int return_value_ntohs$15;
-                  return_value_ntohs$15=ntohs(((struct iphdr *)peer->fragbuf)->tot_len);
-                  len = (signed int)return_value_ntohs$15;
+                  unsigned short int return_value_ntohs_15;
+                  return_value_ntohs_15=ntohs(((struct iphdr *)peer->fragbuf)->tot_len);
+                  len = (signed int)return_value_ntohs_15;
                   *peer->tunhdr = setup_.fhd_key[(signed long int)0];
                 }
 
@@ -6980,28 +6980,28 @@ void * socket_receiver(void *p)
               {
                 struct in6_addr *__a = (struct in6_addr *)&peer->addr;
                 if(__a->__in6_u.__u6_addr32[0l] == 0u)
-                  tmp_if_expr$21 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_21 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$21 = (_Bool)0;
-                if(tmp_if_expr$21)
-                  tmp_if_expr$22 = __a->__in6_u.__u6_addr32[(signed long int)2] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_21 = (_Bool)0;
+                if(tmp_if_expr_21)
+                  tmp_if_expr_22 = __a->__in6_u.__u6_addr32[(signed long int)2] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$22 = (_Bool)0;
-                if(tmp_if_expr$22)
-                  tmp_if_expr$23 = __a->__in6_u.__u6_addr32[(signed long int)3] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_22 = (_Bool)0;
+                if(tmp_if_expr_22)
+                  tmp_if_expr_23 = __a->__in6_u.__u6_addr32[(signed long int)3] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$23 = (_Bool)0;
-                tmp_statement_expression$20 = tmp_if_expr$23;
-                if(tmp_statement_expression$20)
+                  tmp_if_expr_23 = (_Bool)0;
+                tmp_statement_expression_20 = tmp_if_expr_23;
+                if(tmp_statement_expression_20)
                 {
                   if(*peer->tunhdr == setup_.fhd_key[1l])
                   {
-                    signed int return_value_set_peer_dest$16;
-                    return_value_set_peer_dest$16=set_peer_dest(&peer->addr, &((struct ip6_hdr *)peer->fragbuf)->ip6_src);
-                    if(!(return_value_set_peer_dest$16 == 0))
+                    signed int return_value_set_peer_dest_16;
+                    return_value_set_peer_dest_16=set_peer_dest(&peer->addr, &((struct ip6_hdr *)peer->fragbuf)->ip6_src);
+                    if(!(return_value_set_peer_dest_16 == 0))
                       drop = 1;
 
                   }
@@ -7009,9 +7009,9 @@ void * socket_receiver(void *p)
                   else
                     if(*peer->tunhdr == setup_.fhd_key[0l])
                     {
-                      unsigned int return_value_ntohl$18;
-                      return_value_ntohl$18=ntohl(((struct iphdr *)peer->fragbuf)->saddr);
-                      in6=ipv4_lookup_route(return_value_ntohl$18);
+                      unsigned int return_value_ntohl_18;
+                      return_value_ntohl_18=ntohl(((struct iphdr *)peer->fragbuf)->saddr);
+                      in6=ipv4_lookup_route(return_value_ntohl_18);
                       if(in6 == ((struct in6_addr *)NULL))
                       {
                         drop = 1;
@@ -7020,9 +7020,9 @@ void * socket_receiver(void *p)
 
                       else
                       {
-                        signed int return_value_set_peer_dest$17;
-                        return_value_set_peer_dest$17=set_peer_dest(&peer->addr, in6);
-                        if(!(return_value_set_peer_dest$17 == 0))
+                        signed int return_value_set_peer_dest_17;
+                        return_value_set_peer_dest_17=set_peer_dest(&peer->addr, in6);
+                        if(!(return_value_set_peer_dest_17 == 0))
                           drop = 1;
 
                       }
@@ -7030,8 +7030,8 @@ void * socket_receiver(void *p)
 
                   if(drop == 0)
                   {
-                    return_value_inet_ntop$19=inet_ntop(10, (const void *)&peer->addr, addr, (unsigned int)46);
-                    log_msg(6 | 0x400, "incoming connection on %d from %s is now identified", peer->tcpfd, return_value_inet_ntop$19);
+                    return_value_inet_ntop_19=inet_ntop(10, (const void *)&peer->addr, addr, (unsigned int)46);
+                    log_msg(6 | 0x400, "incoming connection on %d from %s is now identified", peer->tcpfd, return_value_inet_ntop_19);
                   }
 
                 }
@@ -7043,9 +7043,9 @@ void * socket_receiver(void *p)
                 if(setup_.use_tap == 0)
                 {
                   log_msg(7, "writing to tun %d framesize %d + %d", setup_.tunfd[(signed long int)1], len, 4 - 0);
-                  signed long int return_value_write$24;
-                  return_value_write$24=write(setup_.tunfd[(signed long int)1], (const void *)((char *)peer->tunhdr + (signed long int)0), (unsigned long int)((len + 4) - 0));
-                  if(!(return_value_write$24 == (signed long int)(4 + len)))
+                  signed long int return_value_write_24;
+                  return_value_write_24=write(setup_.tunfd[(signed long int)1], (const void *)((char *)peer->tunhdr + (signed long int)0), (unsigned long int)((len + 4) - 0));
+                  if(!(return_value_write_24 == (signed long int)(4 + len)))
                     log_msg(3, "could not write %d bytes to tunnel %d", (len + 4) - 0, setup_.tunfd[(signed long int)1]);
 
                 }
@@ -7055,9 +7055,9 @@ void * socket_receiver(void *p)
                   {
                     log_msg(7, "creating ethernet header");
                     memset((void *)eh->ether_dhost, 0, (unsigned long int)6);
-                    signed int return_value_mac_set$26;
-                    return_value_mac_set$26=mac_set(&((struct ip6_hdr *)peer->fragbuf)->ip6_dst, eh->ether_dhost);
-                    if(return_value_mac_set$26 == -1)
+                    signed int return_value_mac_set_26;
+                    return_value_mac_set_26=mac_set(&((struct ip6_hdr *)peer->fragbuf)->ip6_dst, eh->ether_dhost);
+                    if(return_value_mac_set_26 == -1)
                     {
                       log_msg(7, "dest MAC unknown, resolving");
                       ndp_solicit(&((struct ip6_hdr *)peer->fragbuf)->ip6_src, &((struct ip6_hdr *)peer->fragbuf)->ip6_dst);
@@ -7075,9 +7075,9 @@ void * socket_receiver(void *p)
                         if(*peer->tunhdr == setup_.fhd_key[0l])
                           eh->ether_type=htons((unsigned short int)0x0800);
 
-                      signed long int return_value_write$25;
-                      return_value_write$25=write(setup_.tunfd[(signed long int)1], (const void *)(buf + (signed long int)0), ((unsigned long int)(len + 4) + sizeof(struct ether_header) /*14ul*/ ) - (unsigned long int)0);
-                      if(!((unsigned long int)return_value_write$25 == sizeof(struct ether_header) /*14ul*/  + (unsigned long int)(4 + len)))
+                      signed long int return_value_write_25;
+                      return_value_write_25=write(setup_.tunfd[(signed long int)1], (const void *)(buf + (signed long int)0), ((unsigned long int)(len + 4) + sizeof(struct ether_header) /*14ul*/ ) - (unsigned long int)0);
+                      if(!((unsigned long int)return_value_write_25 == sizeof(struct ether_header) /*14ul*/  + (unsigned long int)(4 + len)))
                         log_msg(3, "could not write %d bytes to tunnel %d", ((unsigned long int)(len + 4) + sizeof(struct ether_header) /*14ul*/ ) - (unsigned long int)0, setup_.tunfd[(signed long int)1]);
 
                     }
@@ -7085,9 +7085,9 @@ void * socket_receiver(void *p)
 
                   else
                   {
-                    unsigned short int return_value_ntohs$27;
-                    return_value_ntohs$27=ntohs((unsigned short int)*peer->tunhdr);
-                    log_msg(7, "protocol %x not implemented on TAP device", return_value_ntohs$27);
+                    unsigned short int return_value_ntohs_27;
+                    return_value_ntohs_27=ntohs((unsigned short int)*peer->tunhdr);
+                    log_msg(7, "protocol %x not implemented on TAP device", return_value_ntohs_27);
                   }
               }
 
@@ -7122,9 +7122,9 @@ void * socket_receiver(void *p)
 signed int socks_activate_peer(struct SocksQueue *sq)
 {
   struct OcatPeer *peer;
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
-  insert_peer(sq->fd, sq, return_value_time$1 - sq->connect_time);
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
+  insert_peer(sq->fd, sq, return_value_time_1 - sq->connect_time);
   lock_peers();
   peer=search_peer(&sq->addr);
   if(!(peer == ((struct OcatPeer *)NULL)))
@@ -7146,8 +7146,8 @@ signed int socks_activate_peer(struct SocksQueue *sq)
 // file ocat.h line 646
 void * socks_connector_sel(void *p)
 {
-  struct anonymous$5 rset;
-  struct anonymous$5 wset;
+  struct anonymous_5 rset;
+  struct anonymous_5 wset;
   signed int maxfd = 0;
   signed int len;
   signed int so_err;
@@ -7156,45 +7156,45 @@ void * socks_connector_sel(void *p)
   signed long int t;
   struct timeval tv;
   unsigned int err_len;
-  signed int tmp_if_expr$2;
-  unsigned long int tmp_if_expr$5;
-  signed int return_value_socks_tcp_connect$6;
-  signed int tmp_if_expr$7;
-  signed int tmp_if_expr$8;
-  signed int *return_value___errno_location$11;
-  char *return_value_strerror$12;
-  _Bool tmp_statement_expression$14;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$17;
+  signed int tmp_if_expr_2;
+  unsigned long int tmp_if_expr_5;
+  signed int return_value_socks_tcp_connect_6;
+  signed int tmp_if_expr_7;
+  signed int tmp_if_expr_8;
+  signed int *return_value___errno_location_11;
+  char *return_value_strerror_12;
+  _Bool tmp_statement_expression_14;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_17;
   do
   {
-    signed int return_value_term_req$1;
-    return_value_term_req$1=term_req();
-    if(!(return_value_term_req$1 == 0))
+    signed int return_value_term_req_1;
+    return_value_term_req_1=term_req();
+    if(!(return_value_term_req_1 == 0))
       return (void *)0;
 
     do
     {
       signed int __d0;
       signed int __d1;
-      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$5) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rset)->__fds_bits[(signed long int)0]) : "memory");
+      asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_5) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&rset)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     do
     {
-      signed int socks_connector_sel$$1$$1$$1$$2$$__d0;
-      signed int socks_connector_sel$$1$$1$$1$$2$$__d1;
-      asm("cld; rep; stosq" : "=c"(socks_connector_sel$$1$$1$$1$$2$$__d0), "=D"(socks_connector_sel$$1$$1$$1$$2$$__d1) : "a"(0), "0"(sizeof(struct anonymous$5) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&wset)->__fds_bits[(signed long int)0]) : "memory");
+      signed int socks_connector_sel__1__1__1__2____d0;
+      signed int socks_connector_sel__1__1__1__2____d1;
+      asm("cld; rep; stosq" : "=c"(socks_connector_sel__1__1__1__2____d0), "=D"(socks_connector_sel__1__1__1__2____d1) : "a"(0), "0"(sizeof(struct anonymous_5) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&wset)->__fds_bits[(signed long int)0]) : "memory");
     }
     while((_Bool)0);
     (&rset)->__fds_bits[(signed long int)(setup_.socksfd[(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&rset)->__fds_bits[(signed long int)(setup_.socksfd[(signed long int)0] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << setup_.socksfd[(signed long int)0] % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
     if(!(maxfd >= setup_.socksfd[0l]))
-      tmp_if_expr$2 = setup_.socksfd[(signed long int)0];
+      tmp_if_expr_2 = setup_.socksfd[(signed long int)0];
 
     else
-      tmp_if_expr$2 = maxfd;
-    maxfd = tmp_if_expr$2;
+      tmp_if_expr_2 = maxfd;
+    maxfd = tmp_if_expr_2;
     t=time((signed long int *)(void *)0);
     squeue = socks_queue_;
     for( ; !(squeue == ((struct SocksQueue *)NULL)); squeue = squeue->next)
@@ -7221,27 +7221,27 @@ void * socks_connector_sel(void *p)
           }
 
           log_msg(7, "creating socket for unconnected SOCKS request");
-          squeue->fd=socket((signed int)setup_.$anon0.socks_dst->sin_family == 2 ? 2 : 10, 1, 0);
+          squeue->fd=socket((signed int)setup_._anon0.socks_dst->sin_family == 2 ? 2 : 10, 1, 0);
           if(squeue->fd == -1)
           {
-            signed int *return_value___errno_location$3;
-            return_value___errno_location$3=__errno_location();
-            char *return_value_strerror$4;
-            return_value_strerror$4=strerror(*return_value___errno_location$3);
-            log_msg(3, "cannot create socket for new SOCKS request: \"%s\"", return_value_strerror$4);
+            signed int *return_value___errno_location_3;
+            return_value___errno_location_3=__errno_location();
+            char *return_value_strerror_4;
+            return_value_strerror_4=strerror(*return_value___errno_location_3);
+            log_msg(3, "cannot create socket for new SOCKS request: \"%s\"", return_value_strerror_4);
             break;
           }
 
           set_nonblock(squeue->fd);
           log_msg(7, "queueing fd %d for connect", squeue->fd);
           squeue->connect_time = t;
-          if((signed int)((struct sockaddr *)setup_.$anon0.socks_dst)->sa_family == 2)
-            tmp_if_expr$5 = sizeof(struct sockaddr_in) /*16ul*/ ;
+          if((signed int)((struct sockaddr *)setup_._anon0.socks_dst)->sa_family == 2)
+            tmp_if_expr_5 = sizeof(struct sockaddr_in) /*16ul*/ ;
 
           else
-            tmp_if_expr$5 = (signed int)((struct sockaddr *)setup_.$anon0.socks_dst)->sa_family == 10 ? sizeof(struct sockaddr_in6) /*28ul*/  : (unsigned long int)0;
-          return_value_socks_tcp_connect$6=socks_tcp_connect(squeue->fd, (struct sockaddr *)setup_.$anon0.socks_dst, (signed int)tmp_if_expr$5);
-          if(return_value_socks_tcp_connect$6 == -1)
+            tmp_if_expr_5 = (signed int)((struct sockaddr *)setup_._anon0.socks_dst)->sa_family == 10 ? sizeof(struct sockaddr_in6) /*28ul*/  : (unsigned long int)0;
+          return_value_socks_tcp_connect_6=socks_tcp_connect(squeue->fd, (struct sockaddr *)setup_._anon0.socks_dst, (signed int)tmp_if_expr_5);
+          if(return_value_socks_tcp_connect_6 == -1)
           {
             socks_reschedule(squeue);
             break;
@@ -7250,34 +7250,34 @@ void * socks_connector_sel(void *p)
           squeue->state = 1;
           (&wset)->__fds_bits[(signed long int)(squeue->fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(squeue->fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << squeue->fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
           if(!(maxfd >= squeue->fd))
-            tmp_if_expr$7 = squeue->fd;
+            tmp_if_expr_7 = squeue->fd;
 
           else
-            tmp_if_expr$7 = maxfd;
-          maxfd = tmp_if_expr$7;
+            tmp_if_expr_7 = maxfd;
+          maxfd = tmp_if_expr_7;
           break;
         }
         case 2:
         {
           (&rset)->__fds_bits[(signed long int)(squeue->fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&rset)->__fds_bits[(signed long int)(squeue->fd / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << squeue->fd % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
           if(!(maxfd >= squeue->fd))
-            tmp_if_expr$8 = squeue->fd;
+            tmp_if_expr_8 = squeue->fd;
 
           else
-            tmp_if_expr$8 = maxfd;
-          maxfd = tmp_if_expr$8;
+            tmp_if_expr_8 = maxfd;
+          maxfd = tmp_if_expr_8;
         }
       }
     set_select_timeout(&tv);
     log_msg(7, "selecting (maxfd = %d)", maxfd);
-    maxfd=select(maxfd + 1, &rset, &wset, (struct anonymous$5 *)(void *)0, &tv);
+    maxfd=select(maxfd + 1, &rset, &wset, (struct anonymous_5 *)(void *)0, &tv);
     if(maxfd == -1)
     {
-      signed int *return_value___errno_location$9;
-      return_value___errno_location$9=__errno_location();
-      char *return_value_strerror$10;
-      return_value_strerror$10=strerror(*return_value___errno_location$9);
-      log_msg(0, "select encountered error: \"%s\", restarting", return_value_strerror$10);
+      signed int *return_value___errno_location_9;
+      return_value___errno_location_9=__errno_location();
+      char *return_value_strerror_10;
+      return_value_strerror_10=strerror(*return_value___errno_location_9);
+      log_msg(0, "select encountered error: \"%s\", restarting", return_value_strerror_10);
       continue;
     }
 
@@ -7285,14 +7285,14 @@ void * socks_connector_sel(void *p)
     if(!((rset.__fds_bits[(signed long int)(setup_.socksfd[0l] / 8)] & (signed long int)(1UL << setup_.socksfd[0l] % 8)) == 0l))
     {
       maxfd = maxfd - 1;
-      signed long int return_value_read$13;
-      return_value_read$13=read(setup_.socksfd[(signed long int)0], (void *)&sq, sizeof(struct SocksQueue) /*64ul*/ );
-      len = (signed int)return_value_read$13;
+      signed long int return_value_read_13;
+      return_value_read_13=read(setup_.socksfd[(signed long int)0], (void *)&sq, sizeof(struct SocksQueue) /*64ul*/ );
+      len = (signed int)return_value_read_13;
       if(len == -1)
       {
-        return_value___errno_location$11=__errno_location();
-        return_value_strerror$12=strerror(*return_value___errno_location$11);
-        log_msg(3, "failed to read from SOCKS request pipe, fd = %d: \"%s\"", setup_.socksfd[(signed long int)0], return_value_strerror$12);
+        return_value___errno_location_11=__errno_location();
+        return_value_strerror_12=strerror(*return_value___errno_location_11);
+        log_msg(3, "failed to read from SOCKS request pipe, fd = %d: \"%s\"", setup_.socksfd[(signed long int)0], return_value_strerror_12);
       }
 
       if(!((unsigned long int)len >= sizeof(struct SocksQueue) /*64ul*/ ))
@@ -7311,22 +7311,22 @@ void * socks_connector_sel(void *p)
         {
           struct in6_addr *__a = (struct in6_addr *)&sq.addr;
           if(__a->__in6_u.__u6_addr32[0l] == 0u)
-            tmp_if_expr$15 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_15 = __a->__in6_u.__u6_addr32[(signed long int)1] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$15 = (_Bool)0;
-          if(tmp_if_expr$15)
-            tmp_if_expr$16 = __a->__in6_u.__u6_addr32[(signed long int)2] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_15 = (_Bool)0;
+          if(tmp_if_expr_15)
+            tmp_if_expr_16 = __a->__in6_u.__u6_addr32[(signed long int)2] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$16 = (_Bool)0;
-          if(tmp_if_expr$16)
-            tmp_if_expr$17 = __a->__in6_u.__u6_addr32[(signed long int)3] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_16 = (_Bool)0;
+          if(tmp_if_expr_16)
+            tmp_if_expr_17 = __a->__in6_u.__u6_addr32[(signed long int)3] == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$17 = (_Bool)0;
-          tmp_statement_expression$14 = tmp_if_expr$17;
-          if(tmp_statement_expression$14)
+            tmp_if_expr_17 = (_Bool)0;
+          tmp_statement_expression_14 = tmp_if_expr_17;
+          if(tmp_statement_expression_14)
             log_msg(7, "termination request on SOCKS request queue received");
 
           else
@@ -7349,31 +7349,31 @@ void * socks_connector_sel(void *p)
         {
           log_msg(7, "check socket error");
           err_len = (unsigned int)sizeof(signed int) /*4ul*/ ;
-          signed int return_value_getsockopt$20;
-          return_value_getsockopt$20=getsockopt(squeue->fd, 1, 4, (void *)&so_err, &err_len);
-          if(return_value_getsockopt$20 == -1)
+          signed int return_value_getsockopt_20;
+          return_value_getsockopt_20=getsockopt(squeue->fd, 1, 4, (void *)&so_err, &err_len);
+          if(return_value_getsockopt_20 == -1)
           {
-            signed int *return_value___errno_location$18;
-            return_value___errno_location$18=__errno_location();
-            char *return_value_strerror$19;
-            return_value_strerror$19=strerror(*return_value___errno_location$18);
-            log_msg(3, "getsockopt failed: \"%s\", rescheduling request", return_value_strerror$19);
+            signed int *return_value___errno_location_18;
+            return_value___errno_location_18=__errno_location();
+            char *return_value_strerror_19;
+            return_value_strerror_19=strerror(*return_value___errno_location_18);
+            log_msg(3, "getsockopt failed: \"%s\", rescheduling request", return_value_strerror_19);
             socks_reschedule(squeue);
             goto __CPROVER_DUMP_L42;
           }
 
           if(!(so_err == 0))
           {
-            char *return_value_strerror$21;
-            return_value_strerror$21=strerror(so_err);
-            log_msg(3, "getsockopt returned %d (\"%s\")", so_err, return_value_strerror$21);
+            char *return_value_strerror_21;
+            return_value_strerror_21=strerror(so_err);
+            log_msg(3, "getsockopt returned %d (\"%s\")", so_err, return_value_strerror_21);
             socks_reschedule(squeue);
             goto __CPROVER_DUMP_L42;
           }
 
-          signed int return_value_socks_send_request$22;
-          return_value_socks_send_request$22=socks_send_request(squeue);
-          if(return_value_socks_send_request$22 == -1)
+          signed int return_value_socks_send_request_22;
+          return_value_socks_send_request_22=socks_send_request(squeue);
+          if(return_value_socks_send_request_22 == -1)
           {
             log_msg(3, "SOCKS request failed");
             socks_reschedule(squeue);
@@ -7392,9 +7392,9 @@ void * socks_connector_sel(void *p)
         maxfd = maxfd - 1;
         if(squeue->state == 2)
         {
-          signed int return_value_socks_rec_response$23;
-          return_value_socks_rec_response$23=socks_rec_response(squeue);
-          if(return_value_socks_rec_response$23 == -1)
+          signed int return_value_socks_rec_response_23;
+          return_value_socks_rec_response_23=socks_rec_response(squeue);
+          if(return_value_socks_rec_response_23 == -1)
           {
             socks_reschedule(squeue);
             goto __CPROVER_DUMP_L42;
@@ -7437,16 +7437,16 @@ void socks_enqueue(const struct SocksQueue *sq)
 {
   struct SocksQueue *squeue;
   log_msg(7, "queueing new SOCKS connection request");
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(struct SocksQueue) /*64ul*/ );
-  squeue = (struct SocksQueue *)return_value_malloc$3;
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(struct SocksQueue) /*64ul*/ );
+  squeue = (struct SocksQueue *)return_value_malloc_3;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(squeue == ((struct SocksQueue *)NULL))
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(0, "could not get memory for SocksQueue entry: \"%s\"", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(0, "could not get memory for SocksQueue entry: \"%s\"", return_value_strerror_2);
     exit(1);
   }
 
@@ -7460,32 +7460,32 @@ void socks_enqueue(const struct SocksQueue *sq)
 void socks_output_queue(struct _IO_FILE *f)
 {
   signed int i;
-  const signed long int addrstr$array_size0 = (signed long int)netdesc_[(signed long int)setup_.net_type].name_size;
+  const signed long int addrstr_array_size0 = (signed long int)netdesc_[(signed long int)setup_.net_type].name_size;
   char addrstr[46l];
-  char onstr[addrstr$array_size0];
+  char onstr[addrstr_array_size0];
   char buf[1024l];
   struct SocksQueue *squeue = socks_queue_;
   i = 0;
   for( ; !(squeue == ((struct SocksQueue *)NULL)); i = i + 1)
   {
-    const char *return_value_inet_ntop$3;
-    return_value_inet_ntop$3=inet_ntop(10, (const void *)&squeue->addr, addrstr, (unsigned int)46);
-    if(return_value_inet_ntop$3 == ((const char *)NULL))
+    const char *return_value_inet_ntop_3;
+    return_value_inet_ntop_3=inet_ntop(10, (const void *)&squeue->addr, addrstr, (unsigned int)46);
+    if(return_value_inet_ntop_3 == ((const char *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      log_msg(3, "inet_ntop returned NULL pointer: \"%s\"", return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      log_msg(3, "inet_ntop returned NULL pointer: \"%s\"", return_value_strerror_2);
       strlcpy(addrstr, "ERROR", (unsigned long int)46);
     }
 
-    char *return_value_ipv6tonion$4;
-    return_value_ipv6tonion$4=ipv6tonion(&squeue->addr, onstr);
-    snprintf(buf, (unsigned long int)1024, "%d: %39s, %s%s, state = %d, %s(%d), retry = %d, connect_time = %d, restart_time = %d", i, (const void *)addrstr, return_value_ipv6tonion$4, setup_.domain, squeue->state, squeue->perm != 0 ? "PERMANENT" : "TEMPORARY", squeue->perm, squeue->retry, (signed int)squeue->connect_time, (signed int)squeue->restart_time);
-    unsigned long int return_value_strlen$5;
-    return_value_strlen$5=strlen(buf);
-    write((signed int)(signed long int)f, (const void *)buf, return_value_strlen$5);
+    char *return_value_ipv6tonion_4;
+    return_value_ipv6tonion_4=ipv6tonion(&squeue->addr, onstr);
+    snprintf(buf, (unsigned long int)1024, "%d: %39s, %s%s, state = %d, %s(%d), retry = %d, connect_time = %d, restart_time = %d", i, (const void *)addrstr, return_value_ipv6tonion_4, setup_.domain, squeue->state, squeue->perm != 0 ? "PERMANENT" : "TEMPORARY", squeue->perm, squeue->retry, (signed int)squeue->connect_time, (signed int)squeue->restart_time);
+    unsigned long int return_value_strlen_5;
+    return_value_strlen_5=strlen(buf);
+    write((signed int)(signed long int)f, (const void *)buf, return_value_strlen_5);
     write((signed int)(signed long int)f, (const void *)"\n", (unsigned long int)1);
     squeue = squeue->next;
   }
@@ -7497,7 +7497,7 @@ void socks_output_queue(struct _IO_FILE *f)
 // file ocatsocks.c line 145
 void socks_pipe_request(const struct SocksQueue *sq)
 {
-  struct anonymous$5 wset;
+  struct anonymous_5 wset;
   signed int maxfd;
   signed int len = (signed int)sizeof(const struct SocksQueue) /*64ul*/ ;
   signed int ret;
@@ -7505,44 +7505,44 @@ void socks_pipe_request(const struct SocksQueue *sq)
   {
     signed int __d0;
     signed int __d1;
-    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous$5) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&wset)->__fds_bits[(signed long int)0]) : "memory");
+    asm("cld; rep; stosq" : "=c"(__d0), "=D"(__d1) : "a"(0), "0"(sizeof(struct anonymous_5) /*128ul*/  / sizeof(signed long int) /*8ul*/ ), "1"(&(&wset)->__fds_bits[(signed long int)0]) : "memory");
   }
   while((_Bool)0);
   (&wset)->__fds_bits[(signed long int)(setup_.socksfd[(signed long int)1] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] = (&wset)->__fds_bits[(signed long int)(setup_.socksfd[(signed long int)1] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] | (signed long int)(1UL << setup_.socksfd[(signed long int)1] % (8 * (signed int)sizeof(signed long int) /*8ul*/ ));
   maxfd = setup_.socksfd[(signed long int)1];
   log_msg(7, "selecting until socks request pipe gets ready");
   log_msg(7, "selecting (maxfd = %d)", maxfd);
-  maxfd=select(maxfd + 1, (struct anonymous$5 *)(void *)0, &wset, (struct anonymous$5 *)(void *)0, (struct timeval *)(void *)0);
+  maxfd=select(maxfd + 1, (struct anonymous_5 *)(void *)0, &wset, (struct anonymous_5 *)(void *)0, (struct timeval *)(void *)0);
   if(maxfd == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(0, "select encountered error: \"%s\", restarting", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(0, "select encountered error: \"%s\", restarting", return_value_strerror_2);
     goto __CPROVER_DUMP_L10;
   }
 
   log_msg(7, "select returned %d", maxfd);
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_6;
   if(!(maxfd == 0))
-    tmp_if_expr$6 = ((&wset)->__fds_bits[(signed long int)(setup_.socksfd[(signed long int)1] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & (signed long int)(1UL << setup_.socksfd[(signed long int)1] % (8 * (signed int)sizeof(signed long int) /*8ul*/ ))) != (signed long int)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_6 = ((&wset)->__fds_bits[(signed long int)(setup_.socksfd[(signed long int)1] / (8 * (signed int)sizeof(signed long int) /*8ul*/ ))] & (signed long int)(1UL << setup_.socksfd[(signed long int)1] % (8 * (signed int)sizeof(signed long int) /*8ul*/ ))) != (signed long int)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$6 = (_Bool)0;
-  if(tmp_if_expr$6)
+    tmp_if_expr_6 = (_Bool)0;
+  if(tmp_if_expr_6)
   {
     log_msg(7, "writing %d bytes to fd %d", len, setup_.socksfd[(signed long int)1]);
-    signed long int return_value_write$5;
-    return_value_write$5=write(setup_.socksfd[(signed long int)1], (const void *)sq, (unsigned long int)len);
-    ret = (signed int)return_value_write$5;
+    signed long int return_value_write_5;
+    return_value_write_5=write(setup_.socksfd[(signed long int)1], (const void *)sq, (unsigned long int)len);
+    ret = (signed int)return_value_write_5;
     if(ret == -1)
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      log_msg(4, "error writing to SOCKS request pipe fd %d: \"%s\"", setup_.socksfd[(signed long int)1], return_value_strerror$4);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      log_msg(4, "error writing to SOCKS request pipe fd %d: \"%s\"", setup_.socksfd[(signed long int)1], return_value_strerror_4);
     }
 
     else
@@ -7566,11 +7566,11 @@ void socks_queue(struct in6_addr addr, signed int perm)
 {
   struct SocksQueue *squeue;
   struct SocksQueue sq;
-  _Bool tmp_statement_expression$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  if(!(setup_.$anon0.socks_dst->sin_family == 0))
+  _Bool tmp_statement_expression_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  if(!(setup_._anon0.socks_dst->sin_family == 0))
   {
     squeue = socks_queue_;
     for( ; !(squeue == ((struct SocksQueue *)NULL)); squeue = squeue->next)
@@ -7578,22 +7578,22 @@ void socks_queue(struct in6_addr addr, signed int perm)
       struct in6_addr *__a = (struct in6_addr *)&squeue->addr;
       struct in6_addr *__b = (struct in6_addr *)&addr;
       if(__a->__in6_u.__u6_addr32[0l] == __b->__in6_u.__u6_addr32[0l])
-        tmp_if_expr$2 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = __a->__in6_u.__u6_addr32[(signed long int)1] == __b->__in6_u.__u6_addr32[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$2 = (_Bool)0;
-      if(tmp_if_expr$2)
-        tmp_if_expr$3 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_2 = (_Bool)0;
+      if(tmp_if_expr_2)
+        tmp_if_expr_3 = __a->__in6_u.__u6_addr32[(signed long int)2] == __b->__in6_u.__u6_addr32[(signed long int)2] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      if(tmp_if_expr$3)
-        tmp_if_expr$4 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      if(tmp_if_expr_3)
+        tmp_if_expr_4 = __a->__in6_u.__u6_addr32[(signed long int)3] == __b->__in6_u.__u6_addr32[(signed long int)3] ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      tmp_statement_expression$1 = tmp_if_expr$4;
-      if(tmp_statement_expression$1)
+        tmp_if_expr_4 = (_Bool)0;
+      tmp_statement_expression_1 = tmp_if_expr_4;
+      if(tmp_statement_expression_1)
         break;
 
     }
@@ -7620,16 +7620,16 @@ signed int socks_rec_response(struct SocksQueue *sq)
   struct SocksHdr shdr;
   signed int ret;
   signed int len = (signed int)sizeof(struct SocksHdr) /*8ul*/ ;
-  signed long int return_value_read$3;
-  return_value_read$3=read(sq->fd, (void *)&shdr, (unsigned long int)len);
-  ret = (signed int)return_value_read$3;
+  signed long int return_value_read_3;
+  return_value_read_3=read(sq->fd, (void *)&shdr, (unsigned long int)len);
+  ret = (signed int)return_value_read_3;
   if(ret == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(3, "reading SOCKS response on fd %d failed: \"%s\"", sq->fd, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(3, "reading SOCKS response on fd %d failed: \"%s\"", sq->fd, return_value_strerror_2);
     return -1;
   }
 
@@ -7667,9 +7667,9 @@ void socks_reschedule(struct SocksQueue *squeue)
     squeue->fd = 0;
   }
 
-  signed long int return_value_time$1;
-  return_value_time$1=time((signed long int *)(void *)0);
-  squeue->restart_time = return_value_time$1 + (signed long int)30;
+  signed long int return_value_time_1;
+  return_value_time_1=time((signed long int *)(void *)0);
+  squeue->restart_time = return_value_time_1 + (signed long int)30;
   squeue->state = 0;
 }
 
@@ -7679,21 +7679,21 @@ signed int socks_send_request(const struct SocksQueue *sq)
 {
   signed int len;
   signed int ret = -1;
-  signed long int ret$array_size0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(setup_.usrname);
-  unsigned long int tmp_if_expr$3;
-  unsigned long int return_value_strlen$2;
-  if(!(10ul + return_value_strlen$1 + (unsigned long int)netdesc_[(signed long int)setup_.net_type].name_size >= 46ul))
-    tmp_if_expr$3 = (unsigned long int)46;
+  signed long int ret_array_size0;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(setup_.usrname);
+  unsigned long int tmp_if_expr_3;
+  unsigned long int return_value_strlen_2;
+  if(!(10ul + return_value_strlen_1 + (unsigned long int)netdesc_[(signed long int)setup_.net_type].name_size >= 46ul))
+    tmp_if_expr_3 = (unsigned long int)46;
 
   else
   {
-    return_value_strlen$2=strlen(setup_.usrname);
-    tmp_if_expr$3 = sizeof(struct SocksHdr) /*8ul*/  + (unsigned long int)netdesc_[(signed long int)setup_.net_type].name_size + return_value_strlen$2 + (unsigned long int)2;
+    return_value_strlen_2=strlen(setup_.usrname);
+    tmp_if_expr_3 = sizeof(struct SocksHdr) /*8ul*/  + (unsigned long int)netdesc_[(signed long int)setup_.net_type].name_size + return_value_strlen_2 + (unsigned long int)2;
   }
-  ret$array_size0 = (signed long int)tmp_if_expr$3;
-  char buf[ret$array_size0];
+  ret_array_size0 = (signed long int)tmp_if_expr_3;
+  char buf[ret_array_size0];
   char onion[1025l];
   struct SocksHdr *shdr = (struct SocksHdr *)buf;
   if(!(setup_.hosts_lookup == 0))
@@ -7708,28 +7708,28 @@ signed int socks_send_request(const struct SocksQueue *sq)
     strlcat(onion, setup_.domain, sizeof(char [1025l]) /*1025ul*/ );
   }
 
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(setup_.usrname);
-  unsigned long int tmp_if_expr$6;
-  unsigned long int return_value_strlen$5;
-  if(!(10ul + return_value_strlen$4 + (unsigned long int)netdesc_[(signed long int)setup_.net_type].name_size >= 46ul))
-    tmp_if_expr$6 = (unsigned long int)46;
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(setup_.usrname);
+  unsigned long int tmp_if_expr_6;
+  unsigned long int return_value_strlen_5;
+  if(!(10ul + return_value_strlen_4 + (unsigned long int)netdesc_[(signed long int)setup_.net_type].name_size >= 46ul))
+    tmp_if_expr_6 = (unsigned long int)46;
 
   else
   {
-    return_value_strlen$5=strlen(setup_.usrname);
-    tmp_if_expr$6 = sizeof(struct SocksHdr) /*8ul*/  + (unsigned long int)netdesc_[(signed long int)setup_.net_type].name_size + return_value_strlen$5 + (unsigned long int)2;
+    return_value_strlen_5=strlen(setup_.usrname);
+    tmp_if_expr_6 = sizeof(struct SocksHdr) /*8ul*/  + (unsigned long int)netdesc_[(signed long int)setup_.net_type].name_size + return_value_strlen_5 + (unsigned long int)2;
   }
-  log_msg(7, "SOCKS_BUFLEN = %d, NI_MAXHOST = %d", tmp_if_expr$6, 1025);
-  const char *return_value_inet_ntop$9;
-  return_value_inet_ntop$9=inet_ntop(10, (const void *)&sq->addr, buf, (unsigned int)(unsigned long int)ret$array_size0);
-  if(return_value_inet_ntop$9 == ((const char *)NULL))
+  log_msg(7, "SOCKS_BUFLEN = %d, NI_MAXHOST = %d", tmp_if_expr_6, 1025);
+  const char *return_value_inet_ntop_9;
+  return_value_inet_ntop_9=inet_ntop(10, (const void *)&sq->addr, buf, (unsigned int)(unsigned long int)ret_array_size0);
+  if(return_value_inet_ntop_9 == ((const char *)NULL))
   {
-    signed int *return_value___errno_location$7;
-    return_value___errno_location$7=__errno_location();
-    char *return_value_strerror$8;
-    return_value_strerror$8=strerror(*return_value___errno_location$7);
-    log_msg(4, "inet_ntop failed: \"%s\"", return_value_strerror$8);
+    signed int *return_value___errno_location_7;
+    return_value___errno_location_7=__errno_location();
+    char *return_value_strerror_8;
+    return_value_strerror_8=strerror(*return_value___errno_location_7);
+    log_msg(4, "inet_ntop failed: \"%s\"", return_value_strerror_8);
     buf[(signed long int)0] = (char)0;
   }
 
@@ -7739,29 +7739,29 @@ signed int socks_send_request(const struct SocksQueue *sq)
   shdr->cmd = (char)1;
   shdr->port=htons(setup_.ocat_dest_port);
   shdr->addr.s_addr=htonl((unsigned int)0x00000001);
-  unsigned long int return_value_strlen$10;
-  return_value_strlen$10=strlen(setup_.usrname);
-  memcpy((void *)(buf + (signed long int)sizeof(struct SocksHdr) /*8ul*/ ), (const void *)setup_.usrname, return_value_strlen$10 + (unsigned long int)1);
-  unsigned long int return_value_strlen$11;
-  return_value_strlen$11=strlen(setup_.usrname);
-  unsigned long int return_value_strlen$12;
-  return_value_strlen$12=strlen(onion);
-  memcpy((void *)(buf + (signed long int)sizeof(struct SocksHdr) /*8ul*/  + (signed long int)return_value_strlen$11 + (signed long int)1), (const void *)onion, return_value_strlen$12 + (unsigned long int)1);
-  unsigned long int return_value_strlen$13;
-  return_value_strlen$13=strlen(setup_.usrname);
-  unsigned long int return_value_strlen$14;
-  return_value_strlen$14=strlen(onion);
-  len = (signed int)(sizeof(struct SocksHdr) /*8ul*/  + return_value_strlen$13 + return_value_strlen$14 + (unsigned long int)2);
-  signed long int return_value_write$17;
-  return_value_write$17=write(sq->fd, (const void *)shdr, (unsigned long int)len);
-  ret = (signed int)return_value_write$17;
+  unsigned long int return_value_strlen_10;
+  return_value_strlen_10=strlen(setup_.usrname);
+  memcpy((void *)(buf + (signed long int)sizeof(struct SocksHdr) /*8ul*/ ), (const void *)setup_.usrname, return_value_strlen_10 + (unsigned long int)1);
+  unsigned long int return_value_strlen_11;
+  return_value_strlen_11=strlen(setup_.usrname);
+  unsigned long int return_value_strlen_12;
+  return_value_strlen_12=strlen(onion);
+  memcpy((void *)(buf + (signed long int)sizeof(struct SocksHdr) /*8ul*/  + (signed long int)return_value_strlen_11 + (signed long int)1), (const void *)onion, return_value_strlen_12 + (unsigned long int)1);
+  unsigned long int return_value_strlen_13;
+  return_value_strlen_13=strlen(setup_.usrname);
+  unsigned long int return_value_strlen_14;
+  return_value_strlen_14=strlen(onion);
+  len = (signed int)(sizeof(struct SocksHdr) /*8ul*/  + return_value_strlen_13 + return_value_strlen_14 + (unsigned long int)2);
+  signed long int return_value_write_17;
+  return_value_write_17=write(sq->fd, (const void *)shdr, (unsigned long int)len);
+  ret = (signed int)return_value_write_17;
   if(ret == -1)
   {
-    signed int *return_value___errno_location$15;
-    return_value___errno_location$15=__errno_location();
-    char *return_value_strerror$16;
-    return_value_strerror$16=strerror(*return_value___errno_location$15);
-    log_msg(3, "error writing %d bytes to fd %d: \"%s\"", len, sq->fd, return_value_strerror$16);
+    signed int *return_value___errno_location_15;
+    return_value___errno_location_15=__errno_location();
+    char *return_value_strerror_16;
+    return_value_strerror_16=strerror(*return_value___errno_location_15);
+    log_msg(3, "error writing %d bytes to fd %d: \"%s\"", len, sq->fd, return_value_strerror_16);
     return -1;
   }
 
@@ -7783,29 +7783,29 @@ signed int socks_send_request(const struct SocksQueue *sq)
 signed int socks_tcp_connect(signed int fd, struct sockaddr *addr, signed int len)
 {
   char astr[46l];
-  signed int return_value_connect$7;
-  return_value_connect$7=connect(fd, addr, (unsigned int)len);
-  char *tmp_if_expr$1;
-  if(return_value_connect$7 == -1)
+  signed int return_value_connect_7;
+  return_value_connect_7=connect(fd, addr, (unsigned int)len);
+  char *tmp_if_expr_1;
+  if(return_value_connect_7 == -1)
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    if(!(*return_value___errno_location$6 == 115))
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    if(!(*return_value___errno_location_6 == 115))
     {
-      if((signed int)setup_.$anon0.socks_dst->sin_family == 2)
-        tmp_if_expr$1 = (char *)&setup_.$anon0.socks_dst->sin_addr;
+      if((signed int)setup_._anon0.socks_dst->sin_family == 2)
+        tmp_if_expr_1 = (char *)&setup_._anon0.socks_dst->sin_addr;
 
       else
-        tmp_if_expr$1 = (char *)&setup_.$anon0.socks_dst6->sin6_addr;
-      const char *return_value_inet_ntop$2;
-      return_value_inet_ntop$2=inet_ntop((signed int)setup_.$anon0.socks_dst->sin_family, (const void *)tmp_if_expr$1, astr, (unsigned int)sizeof(char [46l]) /*46ul*/ );
-      unsigned short int return_value_ntohs$3;
-      return_value_ntohs$3=ntohs(setup_.$anon0.socks_dst->sin_port);
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      log_msg(3, "connect() to SOCKS port %s:%d failed: \"%s\". Sleeping for %d seconds.", return_value_inet_ntop$2, return_value_ntohs$3, return_value_strerror$5, 30);
+        tmp_if_expr_1 = (char *)&setup_._anon0.socks_dst6->sin6_addr;
+      const char *return_value_inet_ntop_2;
+      return_value_inet_ntop_2=inet_ntop((signed int)setup_._anon0.socks_dst->sin_family, (const void *)tmp_if_expr_1, astr, (unsigned int)sizeof(char [46l]) /*46ul*/ );
+      unsigned short int return_value_ntohs_3;
+      return_value_ntohs_3=ntohs(setup_._anon0.socks_dst->sin_port);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      log_msg(3, "connect() to SOCKS port %s:%d failed: \"%s\". Sleeping for %d seconds.", return_value_inet_ntop_2, return_value_ntohs_3, return_value_strerror_5, 30);
       return -1;
     }
 
@@ -7841,12 +7841,12 @@ unsigned long int strlcat(char *dst, const char *src, unsigned long int siz)
   const char *s = src;
   unsigned long int n = siz;
   unsigned long int dlen;
-  unsigned long int tmp_post$1;
+  unsigned long int tmp_post_1;
   do
   {
-    tmp_post$1 = n;
+    tmp_post_1 = n;
     n = n - 1ul;
-    if(tmp_post$1 == 0ul)
+    if(tmp_post_1 == 0ul)
       break;
 
     if((signed int)*d == 0)
@@ -7857,12 +7857,12 @@ unsigned long int strlcat(char *dst, const char *src, unsigned long int siz)
   while((_Bool)1);
   dlen = (unsigned long int)(d - dst);
   n = siz - dlen;
-  unsigned long int return_value_strlen$2;
-  char *tmp_post$3;
+  unsigned long int return_value_strlen_2;
+  char *tmp_post_3;
   if(n == 0ul)
   {
-    return_value_strlen$2=strlen(s);
-    return dlen + return_value_strlen$2;
+    return_value_strlen_2=strlen(s);
+    return dlen + return_value_strlen_2;
   }
 
   else
@@ -7870,9 +7870,9 @@ unsigned long int strlcat(char *dst, const char *src, unsigned long int siz)
     for( ; !((signed int)*s == 0); s = s + 1l)
       if(!(n == 1ul))
       {
-        tmp_post$3 = d;
+        tmp_post_3 = d;
         d = d + 1l;
-        *tmp_post$3 = *s;
+        *tmp_post_3 = *s;
         n = n - 1ul;
       }
 
@@ -7888,12 +7888,12 @@ unsigned long int strlcpy(char *dst, const char *src, unsigned long int siz)
   char *d = dst;
   const char *s = src;
   unsigned long int n = siz;
-  unsigned long int return_value_strlen$1;
-  char *tmp_post$2;
+  unsigned long int return_value_strlen_1;
+  char *tmp_post_2;
   if(n == 0ul)
   {
-    return_value_strlen$1=strlen(s);
-    return return_value_strlen$1;
+    return_value_strlen_1=strlen(s);
+    return return_value_strlen_1;
   }
 
   else
@@ -7901,9 +7901,9 @@ unsigned long int strlcpy(char *dst, const char *src, unsigned long int siz)
     for( ; !((signed int)*s == 0); s = s + 1l)
       if(!(n == 1ul))
       {
-        tmp_post$2 = d;
+        tmp_post_2 = d;
         d = d + 1l;
-        *tmp_post$2 = *s;
+        *tmp_post_2 = *s;
         n = n - 1ul;
       }
 
@@ -7926,9 +7926,9 @@ signed int strsockaddr(const char *src, struct sockaddr *addr)
     s = s + 1l;
     ((struct sockaddr_in6 *)addr)->sin6_family = (unsigned short int)10;
     s=strtok(s, "]");
-    signed int return_value_inet_pton$1;
-    return_value_inet_pton$1=inet_pton(10, s, (void *)&((struct sockaddr_in6 *)addr)->sin6_addr);
-    if(return_value_inet_pton$1 == 0)
+    signed int return_value_inet_pton_1;
+    return_value_inet_pton_1=inet_pton(10, s, (void *)&((struct sockaddr_in6 *)addr)->sin6_addr);
+    if(return_value_inet_pton_1 == 0)
     {
       log_msg(1, "\"%s\" contains no valid IPv6 address", s);
       return -1;
@@ -7951,15 +7951,15 @@ signed int strsockaddr(const char *src, struct sockaddr *addr)
     return 10;
   }
 
-  char *return_value_strchr$3;
-  return_value_strchr$3=strchr(buf, 46);
-  if(!(return_value_strchr$3 == ((char *)NULL)))
+  char *return_value_strchr_3;
+  return_value_strchr_3=strchr(buf, 46);
+  if(!(return_value_strchr_3 == ((char *)NULL)))
   {
     ((struct sockaddr_in *)addr)->sin_family = (unsigned short int)2;
     s=strtok(buf, ":");
-    signed int return_value_inet_pton$2;
-    return_value_inet_pton$2=inet_pton(2, s, (void *)&((struct sockaddr_in *)addr)->sin_addr);
-    if(return_value_inet_pton$2 == 0)
+    signed int return_value_inet_pton_2;
+    return_value_inet_pton_2=inet_pton(2, s, (void *)&((struct sockaddr_in *)addr)->sin_addr);
+    if(return_value_inet_pton_2 == 0)
     {
       log_msg(1, "\"%s\" is not a valid IPv4 address", s);
       return -1;
@@ -8009,17 +8009,17 @@ void system_w(const char *s)
   signed int e;
   log_msg(7, "running command \"%s\"", s);
   e=system(s);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(e == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(3, "could not exec \"%s\": \"%s\"", s, return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(3, "could not exec \"%s\": \"%s\"", s, return_value_strerror_2);
   }
 
   /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$20
+union anonymous_20
 {
   // __in
   signed int __in;
@@ -8029,7 +8029,7 @@ union anonymous$20
 
 /* */
   ;
-  log_msg(7, "exit status = %d", (((union anonymous$20){ .__in=e }).__i & 0xff00) >> 8);
+  log_msg(7, "exit status = %d", (((union anonymous_20){ .__in=e }).__i & 0xff00) >> 8);
 }
 
 // term_req
@@ -8049,11 +8049,11 @@ void * thread_run(void *p)
 {
   struct OcatThread **tl;
   void *r;
-  struct anonymous$7 ss;
+  struct anonymous_7 ss;
   signed int ecnt;
   signed int icnt;
   sigfillset(&ss);
-  pthread_sigmask(0, &ss, (struct anonymous$7 *)(void *)0);
+  pthread_sigmask(0, &ss, (struct anonymous_7 *)(void *)0);
   init_ocat_thread_struct((struct OcatThread *)p);
   log_msg(7, "calling thread entry");
   r=((struct OcatThread *)p)->entry(((struct OcatThread *)p)->parm);
@@ -8100,11 +8100,11 @@ signed int tun_alloc(char *dev, signed int dev_s, struct in6_addr addr)
   fd=open(tun_dev_, 02);
   if(!(fd >= 0))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    log_msg(0, "could not open tundev %s: %s", tun_dev_, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    log_msg(0, "could not open tundev %s: %s", tun_dev_, return_value_strerror_2);
     return -1;
   }
 
@@ -8117,15 +8117,15 @@ signed int tun_alloc(char *dev, signed int dev_s, struct in6_addr addr)
   if(!(*dev == 0))
     strncpy(ifr.ifr_ifrn.ifrn_name, dev, (unsigned long int)16);
 
-  signed int return_value_ioctl$5;
-  return_value_ioctl$5=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(84 << 0 + 8) | (unsigned int)(202 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, (void *)&ifr);
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  if(!(return_value_ioctl$5 >= 0))
+  signed int return_value_ioctl_5;
+  return_value_ioctl_5=ioctl(fd, (unsigned long int)(1U << 0 + 8 + 8 + 14 | (unsigned int)(84 << 0 + 8) | (unsigned int)(202 << 0)) | sizeof(signed int) /*4ul*/  << 0 + 8 + 8, (void *)&ifr);
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  if(!(return_value_ioctl_5 >= 0))
   {
-    return_value___errno_location$3=__errno_location();
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    log_msg(0, "could not set TUNSETIFF: %s", return_value_strerror$4);
+    return_value___errno_location_3=__errno_location();
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    log_msg(0, "could not set TUNSETIFF: %s", return_value_strerror_4);
     exit(1);
   }
 
@@ -8138,9 +8138,9 @@ signed int tun_alloc(char *dev, signed int dev_s, struct in6_addr addr)
 
   if(setup_.use_tap == 0 && !(setup_.ipv4_enable == 0))
   {
-    char *return_value_inet_ntoa$6;
-    return_value_inet_ntoa$6=inet_ntoa(netmask);
-    snprintf(buf, sizeof(char [1024l]) /*1024ul*/ , "ifconfig %s %s netmask %s", dev, (const void *)astr4, return_value_inet_ntoa$6);
+    char *return_value_inet_ntoa_6;
+    return_value_inet_ntoa_6=inet_ntoa(netmask);
+    snprintf(buf, sizeof(char [1024l]) /*1024ul*/ , "ifconfig %s %s netmask %s", dev, (const void *)astr4, return_value_inet_ntoa_6);
     system_w(buf);
   }
 
@@ -8157,18 +8157,18 @@ signed int tun_alloc(char *dev, signed int dev_s, struct in6_addr addr)
 // file ocat.h line 609
 signed int unlock_peer(struct OcatPeer *peer)
 {
-  signed int return_value_pthread_mutex_unlock$1;
-  return_value_pthread_mutex_unlock$1=pthread_mutex_unlock(&peer->mutex);
-  return return_value_pthread_mutex_unlock$1;
+  signed int return_value_pthread_mutex_unlock_1;
+  return_value_pthread_mutex_unlock_1=pthread_mutex_unlock(&peer->mutex);
+  return return_value_pthread_mutex_unlock_1;
 }
 
 // unlock_peers
 // file ocat.h line 607
 signed int unlock_peers(void)
 {
-  signed int return_value_pthread_mutex_unlock$1;
-  return_value_pthread_mutex_unlock$1=pthread_mutex_unlock(&peer_mutex_);
-  return return_value_pthread_mutex_unlock$1;
+  signed int return_value_pthread_mutex_unlock_1;
+  return_value_pthread_mutex_unlock_1=pthread_mutex_unlock(&peer_mutex_);
+  return return_value_pthread_mutex_unlock_1;
 }
 
 // unlock_setup
@@ -8182,9 +8182,9 @@ void unlock_setup(void)
 // file ocat.c line 23
 void usage(const char *s)
 {
-  unsigned short int return_value_ntohs$1;
-  return_value_ntohs$1=ntohs(setup_.$anon0.socks_dst->sin_port);
-  fprintf(stderr, "%s\nusage: %s [OPTIONS] <onion_hostname>\n   -a                    create connect log at \"$HOME/%s/%s\" (default = %d)\n   -b                    daemonize (default = %d)\n   -B                    do not daemonize (default = %d)\n   -h                    display usage message\n   -H                    toggle /etc/hosts lookup (default = %d)\n   -C                    disable local controller interface\n   -d <n>                set debug level to n, default = %d\n   -f <config_file>      read config from config_file (default = %s)\n   -i                    convert onion hostname to IPv6 and exit\n   -I                    GarliCat mode, use I2P instead of Tor\n   -l [<ip>:]<port>      set ocat listen address and port, default = 127.0.0.1:%d\n   -L <log_file>         log output to <log_file> (default = stderr)\n   -o <ipv6_addr>        convert IPv6 address to onion url and exit\n   -p                    use TAP device instead of TUN\n   -P [<pid_file>]       create pid file at location of <pid_file> (default = %s)\n   -r                    run as root, i.e. do not change uid/gid\n   -R                    generate a random local onion URL\n   -s <port>             set hidden service virtual port, default = %d\n   -t [<ip>:]<port>      set Tor SOCKS address and port, default = 127.0.0.1:%d\n   -T <tun_device>       path to tun character device, default = \"%s\"\n   -U                    disable unidirectional mode\n   -u <user>             change UID to user, default = \"%s\"\n   -4                    enable IPv4 support (default = %d)\n", (const void *)setup_.version, s, (const void *)".ocat", netdesc_[(signed long int)setup_.net_type].clog_file, setup_.create_clog, setup_.daemon, setup_.daemon ^ 1, setup_.hosts_lookup, setup_.debug_level, setup_.config_file, netdesc_[(signed long int)setup_.net_type].listen_port, setup_.pid_file, setup_.ocat_dest_port, return_value_ntohs$1, (const void *)"/dev/net/tun", (const void *)"tor", setup_.ipv4_enable);
+  unsigned short int return_value_ntohs_1;
+  return_value_ntohs_1=ntohs(setup_._anon0.socks_dst->sin_port);
+  fprintf(stderr, "%s\nusage: %s [OPTIONS] <onion_hostname>\n   -a                    create connect log at \"_HOME/%s/%s\" (default = %d)\n   -b                    daemonize (default = %d)\n   -B                    do not daemonize (default = %d)\n   -h                    display usage message\n   -H                    toggle /etc/hosts lookup (default = %d)\n   -C                    disable local controller interface\n   -d <n>                set debug level to n, default = %d\n   -f <config_file>      read config from config_file (default = %s)\n   -i                    convert onion hostname to IPv6 and exit\n   -I                    GarliCat mode, use I2P instead of Tor\n   -l [<ip>:]<port>      set ocat listen address and port, default = 127.0.0.1:%d\n   -L <log_file>         log output to <log_file> (default = stderr)\n   -o <ipv6_addr>        convert IPv6 address to onion url and exit\n   -p                    use TAP device instead of TUN\n   -P [<pid_file>]       create pid file at location of <pid_file> (default = %s)\n   -r                    run as root, i.e. do not change uid/gid\n   -R                    generate a random local onion URL\n   -s <port>             set hidden service virtual port, default = %d\n   -t [<ip>:]<port>      set Tor SOCKS address and port, default = 127.0.0.1:%d\n   -T <tun_device>       path to tun character device, default = \"%s\"\n   -U                    disable unidirectional mode\n   -u <user>             change UID to user, default = \"%s\"\n   -4                    enable IPv4 support (default = %d)\n", (const void *)setup_.version, s, (const void *)".ocat", netdesc_[(signed long int)setup_.net_type].clog_file, setup_.create_clog, setup_.daemon, setup_.daemon ^ 1, setup_.hosts_lookup, setup_.debug_level, setup_.config_file, netdesc_[(signed long int)setup_.net_type].listen_port, setup_.pid_file, setup_.ocat_dest_port, return_value_ntohs_1, (const void *)"/dev/net/tun", (const void *)"tor", setup_.ipv4_enable);
 }
 
 // vlog_msgf
@@ -8201,17 +8201,17 @@ void vlog_msgf(struct _IO_FILE *out, signed int lf, const char *fmt, void **ap)
   struct OcatThread ths;
   signed int level = lf & 0x07;
   char buf[1024l];
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(setup_.debug_level >= level)
   {
-    signed int return_value_gettimeofday$3;
-    return_value_gettimeofday$3=gettimeofday(&tv, (struct timezone *)(void *)0);
-    if(return_value_gettimeofday$3 == -1)
+    signed int return_value_gettimeofday_3;
+    return_value_gettimeofday_3=gettimeofday(&tv, (struct timezone *)(void *)0);
+    if(return_value_gettimeofday_3 == -1)
     {
-      return_value___errno_location$1=__errno_location();
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fprintf(stderr, "%s:%d: %s\n", (const void *)"ocatlog.c", 106, return_value_strerror$2);
+      return_value___errno_location_1=__errno_location();
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fprintf(stderr, "%s:%d: %s\n", (const void *)"ocatlog.c", 106, return_value_strerror_2);
       exit(1);
     }
 

@@ -1,30 +1,30 @@
-// #anon_enum$LO_INT32=105$LO_FLOAT=102$LO_STRING=115$LO_BLOB=98$LO_INT64=104$LO_TIMETAG=116$LO_DOUBLE=100$LO_SYMBOL=83$LO_CHAR=99$LO_MIDI=109$LO_TRUE=84$LO_FALSE=70$LO_NIL=78$LO_INFINITUM=73
+// #anon_enum_LO_INT32=105_LO_FLOAT=102_LO_STRING=115_LO_BLOB=98_LO_INT64=104_LO_TIMETAG=116_LO_DOUBLE=100_LO_SYMBOL=83_LO_CHAR=99_LO_MIDI=109_LO_TRUE=84_LO_FALSE=70_LO_NIL=78_LO_INFINITUM=73
 // file /usr/include/lo/lo_osc_types.h line 72
-enum anonymous$2 { LO_INT32=105, LO_FLOAT=102, LO_STRING=115, LO_BLOB=98, LO_INT64=104, LO_TIMETAG=116, LO_DOUBLE=100, LO_SYMBOL=83, LO_CHAR=99, LO_MIDI=109, LO_TRUE=84, LO_FALSE=70, LO_NIL=78, LO_INFINITUM=73 };
+enum anonymous_2 { LO_INT32=105, LO_FLOAT=102, LO_STRING=115, LO_BLOB=98, LO_INT64=104, LO_TIMETAG=116, LO_DOUBLE=100, LO_SYMBOL=83, LO_CHAR=99, LO_MIDI=109, LO_TRUE=84, LO_FALSE=70, LO_NIL=78, LO_INFINITUM=73 };
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$5;
+struct anonymous_5;
 
 // tag-#anon#ST[U32'sec'||U32'frac'|]
 // file /usr/include/lo/lo_osc_types.h line 46
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#UN[S32'i'||S32'i32'||S64'h'||S64'i64'||F32'f'||F32'f32'||F64'd'||F64'f64'||S8's'||S8'S'||U8'c'||ARR4{U8}$U8$'m'||SYM#tag-#anon#ST[U32'sec'||U32'frac'|]#'t'|]
+// tag-#anon#UN[S32'i'||S32'i32'||S64'h'||S64'i64'||F32'f'||F32'f32'||F64'd'||F64'f64'||S8's'||S8'S'||U8'c'||ARR4{U8}_U8_'m'||SYM#tag-#anon#ST[U32'sec'||U32'frac'|]#'t'|]
 // file /usr/include/lo/lo_osc_types.h line 115
-union anonymous$3;
+union anonymous_3;
 
-// tag-#anon#UN[S32'value'||SYM#tag-snd_seq_timestamp#'time'||U32'position'||SYM#tag-snd_seq_queue_skew#'skew'||ARR2{U32}$U32$'d32'||ARR8{U8}$U8$'d8'|]
+// tag-#anon#UN[S32'value'||SYM#tag-snd_seq_timestamp#'time'||U32'position'||SYM#tag-snd_seq_queue_skew#'skew'||ARR2{U32}_U32_'d32'||ARR8{U8}_U8_'d8'|]
 // file /usr/include/alsa/seq_event.h line 284
 union anonymous;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$1;
+union anonymous_1;
 
-// tag-#anon#UN[SYM#tag-snd_seq_ev_note#'note'||SYM#tag-snd_seq_ev_ctrl#'control'||SYM#tag-snd_seq_ev_raw8#'raw8'||SYM#tag-snd_seq_ev_raw32#'raw32'||SYM#tag-snd_seq_ev_ext#'ext'||SYM#tag-snd_seq_ev_queue_control#'queue'||SYM#tag-snd_seq_timestamp#'time'||SYM#tag-snd_seq_addr#'addr'||SYM#tag-snd_seq_connect#'connect'||SYM#tag-snd_seq_result#'result'||U128'$pad'|]
+// tag-#anon#UN[SYM#tag-snd_seq_ev_note#'note'||SYM#tag-snd_seq_ev_ctrl#'control'||SYM#tag-snd_seq_ev_raw8#'raw8'||SYM#tag-snd_seq_ev_raw32#'raw32'||SYM#tag-snd_seq_ev_ext#'ext'||SYM#tag-snd_seq_ev_queue_control#'queue'||SYM#tag-snd_seq_timestamp#'time'||SYM#tag-snd_seq_addr#'addr'||SYM#tag-snd_seq_connect#'connect'||SYM#tag-snd_seq_result#'result'||U128'_pad'|]
 // file /usr/include/alsa/seq_event.h line 307
-union anonymous$0;
+union anonymous_0;
 
 // tag-JackOptions
 // file /usr/include/jack/types.h line 90
@@ -309,7 +309,7 @@ const char * lo_address_get_port(void *);
 void * lo_address_new(const char *, const char *);
 // lo_arg_pp
 // file /usr/include/lo/lo_lowlevel.h line 1054
-void lo_arg_pp(enum anonymous$2, void *);
+void lo_arg_pp(enum anonymous_2, void *);
 // lo_message_get_source
 // file /usr/include/lo/lo_lowlevel.h line 297
 void * lo_message_get_source(void *);
@@ -318,7 +318,7 @@ void * lo_message_get_source(void *);
 signed int lo_send_internal(void *, const char *, const signed int, const char *, const char *, ...);
 // lo_server_thread_add_method
 // file /usr/include/lo/lo_serverthread.h line 119
-void * lo_server_thread_add_method(void *, const char *, const char *, signed int (*)(const char *, const char *, union anonymous$3 **, signed int, void *, void *), void *);
+void * lo_server_thread_add_method(void *, const char *, const char *, signed int (*)(const char *, const char *, union anonymous_3 **, signed int, void *, void *), void *);
 // lo_server_thread_get_url
 // file /usr/include/lo/lo_serverthread.h line 159
 char * lo_server_thread_get_url(void *);
@@ -366,31 +366,31 @@ void midi_callback();
 extern struct __dirstream * opendir(const char *);
 // osc_configure_handler
 // file jack-dssi-host.c line 1696
-signed int osc_configure_handler(struct _d3h_instance_t *instance, union anonymous$3 **argv);
+signed int osc_configure_handler(struct _d3h_instance_t *instance, union anonymous_3 **argv);
 // osc_control_handler
 // file jack-dssi-host.c line 1637
-signed int osc_control_handler(struct _d3h_instance_t *instance, union anonymous$3 **argv);
+signed int osc_control_handler(struct _d3h_instance_t *instance, union anonymous_3 **argv);
 // osc_debug_handler
 // file jack-dssi-host.c line 1905
-signed int osc_debug_handler(const char *path, const char *types, union anonymous$3 **argv, signed int argc, void *data, void *user_data);
+signed int osc_debug_handler(const char *path, const char *types, union anonymous_3 **argv, signed int argc, void *data, void *user_data);
 // osc_error
 // file jack-dssi-host.c line 1565
 void osc_error(signed int num, const char *msg, const char *path);
 // osc_exiting_handler
 // file jack-dssi-host.c line 1858
-signed int osc_exiting_handler(struct _d3h_instance_t *instance, union anonymous$3 **argv);
+signed int osc_exiting_handler(struct _d3h_instance_t *instance, union anonymous_3 **argv);
 // osc_message_handler
 // file jack-dssi-host.c line 1921
-signed int osc_message_handler(const char *path, const char *types, union anonymous$3 **argv, signed int argc, void *data, void *user_data);
+signed int osc_message_handler(const char *path, const char *types, union anonymous_3 **argv, signed int argc, void *data, void *user_data);
 // osc_midi_handler
 // file jack-dssi-host.c line 1572
-signed int osc_midi_handler(struct _d3h_instance_t *instance, union anonymous$3 **argv);
+signed int osc_midi_handler(struct _d3h_instance_t *instance, union anonymous_3 **argv);
 // osc_program_handler
 // file jack-dssi-host.c line 1662
-signed int osc_program_handler(struct _d3h_instance_t *instance, union anonymous$3 **argv);
+signed int osc_program_handler(struct _d3h_instance_t *instance, union anonymous_3 **argv);
 // osc_update_handler
 // file jack-dssi-host.c line 1761
-signed int osc_update_handler(struct _d3h_instance_t *instance, union anonymous$3 **argv, void *source);
+signed int osc_update_handler(struct _d3h_instance_t *instance, union anonymous_3 **argv, void *source);
 // perror
 // file /usr/include/stdio.h line 846
 extern void perror(const char *);
@@ -405,13 +405,13 @@ extern signed int printf(const char *, ...);
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$1 *);
+extern signed int pthread_mutex_lock(union anonymous_1 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$1 *);
+extern signed int pthread_mutex_unlock(union anonymous_1 *);
 // pthread_sigmask
 // file /usr/include/x86_64-linux-gnu/bits/sigthread.h line 30
-extern signed int pthread_sigmask(signed int, const struct anonymous$5 *, struct anonymous$5 *);
+extern signed int pthread_sigmask(signed int, const struct anonymous_5 *, struct anonymous_5 *);
 // qsort
 // file /usr/include/stdlib.h line 764
 extern void qsort(void *, unsigned long int, unsigned long int, signed int (*)(const void *, const void *));
@@ -429,10 +429,10 @@ void setControl(struct _d3h_instance_t *instance, signed long int controlIn, str
 extern signed int setsid(void);
 // sigaddset
 // file /usr/include/signal.h line 221
-extern signed int sigaddset(struct anonymous$5 *, signed int);
+extern signed int sigaddset(struct anonymous_5 *, signed int);
 // sigemptyset
 // file /usr/include/signal.h line 215
-extern signed int sigemptyset(struct anonymous$5 *);
+extern signed int sigemptyset(struct anonymous_5 *);
 // signal
 // file /usr/include/signal.h line 102
 extern void (*signal(signed int, void (*)(signed int)))(signed int);
@@ -509,13 +509,13 @@ extern signed long int strtol(const char *, char ** restrict , signed int);
 // file /usr/include/unistd.h line 460
 extern signed int usleep(unsigned int);
 
-struct anonymous$5
+struct anonymous_5
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // sec
   unsigned int sec;
@@ -523,7 +523,7 @@ struct anonymous$4
   unsigned int frac;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // i
   signed int i;
@@ -550,7 +550,7 @@ union anonymous$3
   // m
   unsigned char m[4l];
   // t
-  struct anonymous$4 t;
+  struct anonymous_4 t;
 };
 
 struct snd_seq_real_time
@@ -621,7 +621,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$1
+union anonymous_1
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -711,7 +711,7 @@ struct snd_seq_result
   signed int result;
 };
 
-union anonymous$0
+union anonymous_0
 {
   // note
   struct snd_seq_ev_note note;
@@ -1036,7 +1036,7 @@ struct snd_seq_event
   // dest
   struct snd_seq_addr dest;
   // data
-  union anonymous$0 data;
+  union anonymous_0 data;
 };
 
 struct timespec
@@ -1100,7 +1100,7 @@ struct timezone
 
 // _signals
 // file jack-dssi-host.c line 103
-static struct anonymous$5 _signals;
+static struct anonymous_5 _signals;
 // alsaClient
 // file jack-dssi-host.c line 67
 static struct _snd_seq *alsaClient;
@@ -1166,7 +1166,7 @@ static const char *mb_prefix;
 static struct snd_seq_event midiEventBuffer[1024l];
 // midiEventBufferMutex
 // file jack-dssi-host.c line 115
-static union anonymous$1 midiEventBufferMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
+static union anonymous_1 midiEventBufferMutex = { .__data={ .__lock=0, .__count=(unsigned int)0, .__owner=0, .__nusers=(unsigned int)0,
     .__kind=0, .__spins=(signed short int)0,
     .__elision=(signed short int)0, .__list={ .__prev=((struct __pthread_internal_list *)NULL), .__next=((struct __pthread_internal_list *)NULL) } } };
 // midiEventReadIndex
@@ -1254,9 +1254,9 @@ void add_message(const char *msg)
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr)
 {
-  signed long int return_value_strtol$1;
-  return_value_strtol$1=strtol(__nptr, (char **)(void *)0, 10);
-  return (signed int)return_value_strtol$1;
+  signed long int return_value_strtol_1;
+  return_value_strtol_1=strtol(__nptr, (char **)(void *)0, 10);
+  return (signed int)return_value_strtol_1;
 }
 
 // audio_callback
@@ -1388,11 +1388,11 @@ signed int audio_callback(unsigned int nframes, void *arg)
   inCount = 0;
   for( ; !(inCount >= insTotal); inCount = inCount + 1)
   {
-    float *audio_callback$$1$$4$$1$$buffer;
-    void *return_value_jack_port_get_buffer$1;
-    return_value_jack_port_get_buffer$1=jack_port_get_buffer(inputPorts[(signed long int)inCount], nframes);
-    audio_callback$$1$$4$$1$$buffer = (float *)return_value_jack_port_get_buffer$1;
-    memcpy((void *)pluginInputBuffers[(signed long int)inCount], (const void *)audio_callback$$1$$4$$1$$buffer, (unsigned long int)nframes * sizeof(float) /*4ul*/ );
+    float *audio_callback__1__4__1__buffer;
+    void *return_value_jack_port_get_buffer_1;
+    return_value_jack_port_get_buffer_1=jack_port_get_buffer(inputPorts[(signed long int)inCount], nframes);
+    audio_callback__1__4__1__buffer = (float *)return_value_jack_port_get_buffer_1;
+    memcpy((void *)pluginInputBuffers[(signed long int)inCount], (const void *)audio_callback__1__4__1__buffer, (unsigned long int)nframes * sizeof(float) /*4ul*/ );
   }
   i = 0;
   outCount = 0;
@@ -1430,11 +1430,11 @@ signed int audio_callback(unsigned int nframes, void *arg)
   outCount = 0;
   for( ; !(outCount >= outsTotal); outCount = outCount + 1)
   {
-    float *audio_callback$$1$$6$$1$$buffer;
-    void *return_value_jack_port_get_buffer$2;
-    return_value_jack_port_get_buffer$2=jack_port_get_buffer(outputPorts[(signed long int)outCount], nframes);
-    audio_callback$$1$$6$$1$$buffer = (float *)return_value_jack_port_get_buffer$2;
-    memcpy((void *)audio_callback$$1$$6$$1$$buffer, (const void *)pluginOutputBuffers[(signed long int)outCount], (unsigned long int)nframes * sizeof(float) /*4ul*/ );
+    float *audio_callback__1__6__1__buffer;
+    void *return_value_jack_port_get_buffer_2;
+    return_value_jack_port_get_buffer_2=jack_port_get_buffer(outputPorts[(signed long int)outCount], nframes);
+    audio_callback__1__6__1__buffer = (float *)return_value_jack_port_get_buffer_2;
+    memcpy((void *)audio_callback__1__6__1__buffer, (const void *)pluginOutputBuffers[(signed long int)outCount], (unsigned long int)nframes * sizeof(float) /*4ul*/ );
   }
   return 0;
 }
@@ -1499,37 +1499,37 @@ float get_port_default(const struct _LADSPA_Descriptor *plugin, signed int port)
         {
           if((0x3C0 & hint.HintDescriptor) == 0x80)
           {
-            float return_value_logf$1;
-            return_value_logf$1=logf(lower);
-            float return_value_logf$2;
-            return_value_logf$2=logf(upper);
-            float return_value_expf$3;
-            return_value_expf$3=expf(return_value_logf$1 * 0.75f + return_value_logf$2 * 0.25f);
-            return return_value_expf$3;
+            float return_value_logf_1;
+            return_value_logf_1=logf(lower);
+            float return_value_logf_2;
+            return_value_logf_2=logf(upper);
+            float return_value_expf_3;
+            return_value_expf_3=expf(return_value_logf_1 * 0.75f + return_value_logf_2 * 0.25f);
+            return return_value_expf_3;
           }
 
           else
             if((0x3C0 & hint.HintDescriptor) == 0xC0)
             {
-              float return_value_logf$4;
-              return_value_logf$4=logf(lower);
-              float return_value_logf$5;
-              return_value_logf$5=logf(upper);
-              float return_value_expf$6;
-              return_value_expf$6=expf(return_value_logf$4 * 0.5f + return_value_logf$5 * 0.5f);
-              return return_value_expf$6;
+              float return_value_logf_4;
+              return_value_logf_4=logf(lower);
+              float return_value_logf_5;
+              return_value_logf_5=logf(upper);
+              float return_value_expf_6;
+              return_value_expf_6=expf(return_value_logf_4 * 0.5f + return_value_logf_5 * 0.5f);
+              return return_value_expf_6;
             }
 
             else
               if((0x3C0 & hint.HintDescriptor) == 0x100)
               {
-                float return_value_logf$7;
-                return_value_logf$7=logf(lower);
-                float return_value_logf$8;
-                return_value_logf$8=logf(upper);
-                float return_value_expf$9;
-                return_value_expf$9=expf(return_value_logf$7 * 0.25f + return_value_logf$8 * 0.75f);
-                return return_value_expf$9;
+                float return_value_logf_7;
+                return_value_logf_7=logf(lower);
+                float return_value_logf_8;
+                return_value_logf_8=logf(upper);
+                float return_value_expf_9;
+                return_value_expf_9=expf(return_value_logf_7 * 0.25f + return_value_logf_8 * 0.75f);
+                return return_value_expf_9;
               }
 
           goto __CPROVER_DUMP_L16;
@@ -1588,12 +1588,12 @@ char * load(const char *dllName, void **dll, signed int quiet)
     if(!(handle == NULL))
     {
       *dll = handle;
-      char *return_value___strdup$1;
-      return_value___strdup$1=__strdup(dllName);
-      path = return_value___strdup$1;
-      char *return_value_dirname$2;
-      return_value_dirname$2=dirname(path);
-      return return_value_dirname$2;
+      char *return_value___strdup_1;
+      return_value___strdup_1=__strdup(dllName);
+      path = return_value___strdup_1;
+      char *return_value_dirname_2;
+      return_value_dirname_2=dirname(path);
+      return return_value_dirname_2;
     }
 
     if(quiet == 0)
@@ -1613,19 +1613,19 @@ char * load(const char *dllName, void **dll, signed int quiet)
         home=getenv("HOME");
         if(!(home == ((const char *)NULL)))
         {
-          unsigned long int return_value_strlen$3;
-          return_value_strlen$3=strlen(home);
-          void *return_value_malloc$4;
-          return_value_malloc$4=malloc(return_value_strlen$3 + (unsigned long int)60);
-          defaultDssiPath = (char *)return_value_malloc$4;
+          unsigned long int return_value_strlen_3;
+          return_value_strlen_3=strlen(home);
+          void *return_value_malloc_4;
+          return_value_malloc_4=malloc(return_value_strlen_3 + (unsigned long int)60);
+          defaultDssiPath = (char *)return_value_malloc_4;
           sprintf(defaultDssiPath, "/usr/local/lib/dssi:/usr/lib/dssi:%s/.dssi", home);
         }
 
         else
         {
-          char *return_value___strdup$5;
-          return_value___strdup$5=__strdup("/usr/local/lib/dssi:/usr/lib/dssi");
-          defaultDssiPath = return_value___strdup$5;
+          char *return_value___strdup_5;
+          return_value___strdup_5=__strdup("/usr/local/lib/dssi:/usr/lib/dssi");
+          defaultDssiPath = return_value___strdup_5;
         }
       }
 
@@ -1635,9 +1635,9 @@ char * load(const char *dllName, void **dll, signed int quiet)
 
     }
 
-    char *return_value___strdup$6;
-    return_value___strdup$6=__strdup(dssiPath);
-    path = return_value___strdup$6;
+    char *return_value___strdup_6;
+    return_value___strdup_6=__strdup(dssiPath);
+    path = return_value___strdup_6;
     origPath = path;
     *dll = NULL;
     do
@@ -1660,13 +1660,13 @@ char * load(const char *dllName, void **dll, signed int quiet)
         if(quiet == 0 && !(verbose == 0))
           fprintf(stderr, "%s: Looking for library \"%s\" in %s... ", myName, dllName, element);
 
-        unsigned long int return_value_strlen$7;
-        return_value_strlen$7=strlen(element);
-        unsigned long int return_value_strlen$8;
-        return_value_strlen$8=strlen(dllName);
-        void *return_value_malloc$9;
-        return_value_malloc$9=malloc(return_value_strlen$7 + return_value_strlen$8 + (unsigned long int)2);
-        filePath = (char *)return_value_malloc$9;
+        unsigned long int return_value_strlen_7;
+        return_value_strlen_7=strlen(element);
+        unsigned long int return_value_strlen_8;
+        return_value_strlen_8=strlen(dllName);
+        void *return_value_malloc_9;
+        return_value_malloc_9=malloc(return_value_strlen_7 + return_value_strlen_8 + (unsigned long int)2);
+        filePath = (char *)return_value_malloc_9;
         sprintf(filePath, "%s/%s", element, dllName);
         handle=dlopen(filePath, 0x00002 | 0);
         if(!(handle == NULL))
@@ -1676,9 +1676,9 @@ char * load(const char *dllName, void **dll, signed int quiet)
 
           *dll = handle;
           free((void *)filePath);
-          char *return_value___strdup$10;
-          return_value___strdup$10=__strdup(element);
-          path = return_value___strdup$10;
+          char *return_value___strdup_10;
+          return_value___strdup_10=__strdup(element);
+          path = return_value___strdup_10;
           free((void *)origPath);
           return path;
         }
@@ -1738,12 +1738,12 @@ signed int main(signed int argc, char **argv)
   sigaddset(&_signals, 15);
   sigaddset(&_signals, 10);
   sigaddset(&_signals, 12);
-  pthread_sigmask(0, &_signals, ((struct anonymous$5 *)NULL));
+  pthread_sigmask(0, &_signals, ((struct anonymous_5 *)NULL));
   controlOutsTotal = 0;
   controlInsTotal = controlOutsTotal;
   outsTotal = controlInsTotal;
   insTotal = outsTotal;
-  signed int tmp_statement_expression$6;
+  signed int tmp_statement_expression_6;
   if(argc == 1)
   {
     const char *__xpg_basename;
@@ -1755,31 +1755,31 @@ signed int main(signed int argc, char **argv)
       __xpg_basename = __xpg_basename + 1l;
     if(!(*__xpg_basename == 0))
     {
-      unsigned long int main$$1$$1$$1$$__s1_len;
-      unsigned long int main$$1$$1$$1$$__s2_len;
-      signed int return_value___builtin_strcmp$7;
-      return_value___builtin_strcmp$7=__builtin_strcmp(__xpg_basename, "jack-dssi-host");
-      tmp_statement_expression$6 = return_value___builtin_strcmp$7;
-      if(!(tmp_statement_expression$6 == 0))
+      unsigned long int main__1__1__1____s1_len;
+      unsigned long int main__1__1__1____s2_len;
+      signed int return_value___builtin_strcmp_7;
+      return_value___builtin_strcmp_7=__builtin_strcmp(__xpg_basename, "jack-dssi-host");
+      tmp_statement_expression_6 = return_value___builtin_strcmp_7;
+      if(!(tmp_statement_expression_6 == 0))
       {
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(__xpg_basename);
-        void *return_value_malloc$2;
-        return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)4);
-        dllName = (char *)return_value_malloc$2;
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(__xpg_basename);
+        void *return_value_malloc_2;
+        return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)4);
+        dllName = (char *)return_value_malloc_2;
         sprintf(dllName, "%s.so", __xpg_basename);
-        char *return_value_load$5;
-        return_value_load$5=load(dllName, &pluginObject, 1);
-        if(!(return_value_load$5 == ((char *)NULL)))
+        char *return_value_load_5;
+        return_value_load_5=load(dllName, &pluginObject, 1);
+        if(!(return_value_load_5 == ((char *)NULL)))
         {
           dlclose(pluginObject);
           argc = 2;
-          char *return_value___strdup$3;
-          return_value___strdup$3=__strdup(argv[(signed long int)0]);
-          myName = return_value___strdup$3;
-          void *return_value_malloc$4;
-          return_value_malloc$4=malloc((unsigned long int)2 * sizeof(char *) /*8ul*/ );
-          argv = (char **)return_value_malloc$4;
+          char *return_value___strdup_3;
+          return_value___strdup_3=__strdup(argv[(signed long int)0]);
+          myName = return_value___strdup_3;
+          void *return_value_malloc_4;
+          return_value_malloc_4=malloc((unsigned long int)2 * sizeof(char *) /*8ul*/ );
+          argv = (char **)return_value_malloc_4;
           argv[(signed long int)0] = "jack-dssi-host";
           argv[(signed long int)1] = dllName;
         }
@@ -1790,40 +1790,40 @@ signed int main(signed int argc, char **argv)
 
   }
 
-  char *return_value___strdup$8;
+  char *return_value___strdup_8;
   if(myName == ((const char *)NULL))
   {
-    return_value___strdup$8=__strdup(argv[(signed long int)0]);
-    myName = return_value___strdup$8;
+    return_value___strdup_8=__strdup(argv[(signed long int)0]);
+    myName = return_value___strdup_8;
   }
 
-  signed int tmp_statement_expression$9;
-  signed int tmp_statement_expression$11;
-  signed int tmp_statement_expression$13;
-  signed int tmp_statement_expression$15;
-  signed int tmp_statement_expression$17;
-  signed int tmp_statement_expression$25;
-  signed int tmp_statement_expression$23;
-  signed int tmp_statement_expression$27;
-  signed int tmp_statement_expression$30;
-  signed int tmp_post$35;
-  _Bool tmp_if_expr$38;
-  signed int tmp_statement_expression$36;
-  signed int tmp_post$40;
-  _Bool tmp_if_expr$43;
-  signed int tmp_statement_expression$41;
-  char *tmp_if_expr$44;
-  _Bool tmp_if_expr$54;
-  unsigned long int return_value_strlen$52;
-  signed int return_value_strcasecmp$53;
-  _Bool tmp_if_expr$76;
-  signed int tmp_statement_expression$74;
-  _Bool tmp_if_expr$73;
-  signed int tmp_statement_expression$71;
-  signed int tmp_post$88;
-  signed int tmp_post$89;
-  signed int tmp_post$90;
-  signed int tmp_post$91;
+  signed int tmp_statement_expression_9;
+  signed int tmp_statement_expression_11;
+  signed int tmp_statement_expression_13;
+  signed int tmp_statement_expression_15;
+  signed int tmp_statement_expression_17;
+  signed int tmp_statement_expression_25;
+  signed int tmp_statement_expression_23;
+  signed int tmp_statement_expression_27;
+  signed int tmp_statement_expression_30;
+  signed int tmp_post_35;
+  _Bool tmp_if_expr_38;
+  signed int tmp_statement_expression_36;
+  signed int tmp_post_40;
+  _Bool tmp_if_expr_43;
+  signed int tmp_statement_expression_41;
+  char *tmp_if_expr_44;
+  _Bool tmp_if_expr_54;
+  unsigned long int return_value_strlen_52;
+  signed int return_value_strcasecmp_53;
+  _Bool tmp_if_expr_76;
+  signed int tmp_statement_expression_74;
+  _Bool tmp_if_expr_73;
+  signed int tmp_statement_expression_71;
+  signed int tmp_post_88;
+  signed int tmp_post_89;
+  signed int tmp_post_90;
+  signed int tmp_post_91;
   if(!(argc >= 2))
   {
     fprintf(stderr, "\nUsage: %s [-v] [-a] [-n] [-p <projdir>] [-c <cname>] [-<i>] <libname>[%c<label>] [...]\n", argv[(signed long int)0], 58);
@@ -1833,7 +1833,7 @@ signed int main(signed int argc, char **argv)
     fprintf(stderr, "  <projdir> Project directory to pass to plugin and UI\n");
     fprintf(stderr, "  <cname>   Client name to use for ALSA and JACK\n");
     fprintf(stderr, "  <i>       Number of instances of each plugin to run (max %d total, default 1)\n", 16);
-    fprintf(stderr, "  <libname> DSSI plugin library .so to load (searched for in $DSSI_PATH)\n");
+    fprintf(stderr, "  <libname> DSSI plugin library .so to load (searched for in _DSSI_PATH)\n");
     fprintf(stderr, "  <label>   Label of plugin to load from library\n");
     fprintf(stderr, "  [...]     Optionally more instance counts, plugins and labels\n");
     fprintf(stderr, "\nExample: %s -2 lib1.so -1 lib2.so%cfuzzy\n", argv[(signed long int)0], 58);
@@ -1852,42 +1852,42 @@ signed int main(signed int argc, char **argv)
     i = 1;
     for( ; !(i >= argc); i = i + 1)
     {
-      unsigned long int main$$1$$5$$1$$1$$__s1_len;
-      unsigned long int main$$1$$5$$1$$1$$__s2_len;
-      signed int return_value___builtin_strcmp$10;
-      return_value___builtin_strcmp$10=__builtin_strcmp(argv[(signed long int)i], "-v");
-      tmp_statement_expression$9 = return_value___builtin_strcmp$10;
-      if(tmp_statement_expression$9 == 0)
+      unsigned long int main__1__5__1__1____s1_len;
+      unsigned long int main__1__5__1__1____s2_len;
+      signed int return_value___builtin_strcmp_10;
+      return_value___builtin_strcmp_10=__builtin_strcmp(argv[(signed long int)i], "-v");
+      tmp_statement_expression_9 = return_value___builtin_strcmp_10;
+      if(tmp_statement_expression_9 == 0)
         verbose = 1;
 
       else
       {
-        unsigned long int main$$1$$5$$1$$3$$__s1_len;
-        unsigned long int main$$1$$5$$1$$3$$__s2_len;
-        signed int return_value___builtin_strcmp$12;
-        return_value___builtin_strcmp$12=__builtin_strcmp(argv[(signed long int)i], "-a");
-        tmp_statement_expression$11 = return_value___builtin_strcmp$12;
-        if(tmp_statement_expression$11 == 0)
+        unsigned long int main__1__5__1__3____s1_len;
+        unsigned long int main__1__5__1__3____s2_len;
+        signed int return_value___builtin_strcmp_12;
+        return_value___builtin_strcmp_12=__builtin_strcmp(argv[(signed long int)i], "-a");
+        tmp_statement_expression_11 = return_value___builtin_strcmp_12;
+        if(tmp_statement_expression_11 == 0)
           autoconnect = 0;
 
         else
         {
-          unsigned long int main$$1$$5$$1$$5$$__s1_len;
-          unsigned long int main$$1$$5$$1$$5$$__s2_len;
-          signed int return_value___builtin_strcmp$14;
-          return_value___builtin_strcmp$14=__builtin_strcmp(argv[(signed long int)i], "-n");
-          tmp_statement_expression$13 = return_value___builtin_strcmp$14;
-          if(tmp_statement_expression$13 == 0)
+          unsigned long int main__1__5__1__5____s1_len;
+          unsigned long int main__1__5__1__5____s2_len;
+          signed int return_value___builtin_strcmp_14;
+          return_value___builtin_strcmp_14=__builtin_strcmp(argv[(signed long int)i], "-n");
+          tmp_statement_expression_13 = return_value___builtin_strcmp_14;
+          if(tmp_statement_expression_13 == 0)
             load_guis = 0;
 
           else
           {
-            unsigned long int main$$1$$5$$1$$7$$__s1_len;
-            unsigned long int main$$1$$5$$1$$7$$__s2_len;
-            signed int return_value___builtin_strcmp$16;
-            return_value___builtin_strcmp$16=__builtin_strcmp(argv[(signed long int)i], "-p");
-            tmp_statement_expression$15 = return_value___builtin_strcmp$16;
-            if(tmp_statement_expression$15 == 0)
+            unsigned long int main__1__5__1__7____s1_len;
+            unsigned long int main__1__5__1__7____s2_len;
+            signed int return_value___builtin_strcmp_16;
+            return_value___builtin_strcmp_16=__builtin_strcmp(argv[(signed long int)i], "-p");
+            tmp_statement_expression_15 = return_value___builtin_strcmp_16;
+            if(tmp_statement_expression_15 == 0)
             {
               if(!(i >= argc + -1))
               {
@@ -1904,12 +1904,12 @@ signed int main(signed int argc, char **argv)
 
             else
             {
-              unsigned long int main$$1$$5$$1$$9$$__s1_len;
-              unsigned long int main$$1$$5$$1$$9$$__s2_len;
-              signed int return_value___builtin_strcmp$18;
-              return_value___builtin_strcmp$18=__builtin_strcmp(argv[(signed long int)i], "-c");
-              tmp_statement_expression$17 = return_value___builtin_strcmp$18;
-              if(tmp_statement_expression$17 == 0)
+              unsigned long int main__1__5__1__9____s1_len;
+              unsigned long int main__1__5__1__9____s2_len;
+              signed int return_value___builtin_strcmp_18;
+              return_value___builtin_strcmp_18=__builtin_strcmp(argv[(signed long int)i], "-c");
+              tmp_statement_expression_17 = return_value___builtin_strcmp_18;
+              if(tmp_statement_expression_17 == 0)
               {
                 if(!(i >= argc + -1))
                 {
@@ -1944,44 +1944,44 @@ signed int main(signed int argc, char **argv)
                     reps = 1;
                 }
 
-                char *return_value___builtin_strchr$19;
-                return_value___builtin_strchr$19=__builtin_strchr(argv[(signed long int)i], 58);
-                tmp = return_value___builtin_strchr$19;
+                char *return_value___builtin_strchr_19;
+                return_value___builtin_strchr_19=__builtin_strchr(argv[(signed long int)i], 58);
+                tmp = return_value___builtin_strchr_19;
                 if(!(tmp == ((char *)NULL)))
                 {
-                  void *return_value_calloc$20;
-                  return_value_calloc$20=calloc((unsigned long int)1, (unsigned long int)((tmp - argv[(signed long int)i]) + (signed long int)1));
-                  dllName = (char *)return_value_calloc$20;
+                  void *return_value_calloc_20;
+                  return_value_calloc_20=calloc((unsigned long int)1, (unsigned long int)((tmp - argv[(signed long int)i]) + (signed long int)1));
+                  dllName = (char *)return_value_calloc_20;
                   __builtin_strncpy(dllName, argv[(signed long int)i], (unsigned long int)(tmp - argv[(signed long int)i]));
-                  char *return_value___strdup$21;
-                  return_value___strdup$21=__strdup(tmp + (signed long int)1);
-                  label = return_value___strdup$21;
+                  char *return_value___strdup_21;
+                  return_value___strdup_21=__strdup(tmp + (signed long int)1);
+                  label = return_value___strdup_21;
                 }
 
                 else
                 {
-                  char *return_value___strdup$22;
-                  return_value___strdup$22=__strdup(argv[(signed long int)i]);
-                  dllName = return_value___strdup$22;
+                  char *return_value___strdup_22;
+                  return_value___strdup_22=__strdup(argv[(signed long int)i]);
+                  dllName = return_value___strdup_22;
                   label = (char *)(void *)0;
                 }
                 plugin = plugins;
                 for( ; !(plugin == ((struct _d3h_plugin_t *)NULL)); plugin = plugin->next)
                   if(!(label == ((char *)NULL)))
                   {
-                    unsigned long int main$$1$$5$$1$$15$$1$$1$$1$$__s1_len;
-                    unsigned long int main$$1$$5$$1$$15$$1$$1$$1$$__s2_len;
-                    signed int return_value___builtin_strcmp$26;
-                    return_value___builtin_strcmp$26=__builtin_strcmp(dllName, plugin->dll->name);
-                    tmp_statement_expression$25 = return_value___builtin_strcmp$26;
-                    if(tmp_statement_expression$25 == 0)
+                    unsigned long int main__1__5__1__15__1__1__1____s1_len;
+                    unsigned long int main__1__5__1__15__1__1__1____s2_len;
+                    signed int return_value___builtin_strcmp_26;
+                    return_value___builtin_strcmp_26=__builtin_strcmp(dllName, plugin->dll->name);
+                    tmp_statement_expression_25 = return_value___builtin_strcmp_26;
+                    if(tmp_statement_expression_25 == 0)
                     {
-                      unsigned long int main$$1$$5$$1$$15$$1$$1$$2$$__s1_len;
-                      unsigned long int main$$1$$5$$1$$15$$1$$1$$2$$__s2_len;
-                      signed int return_value___builtin_strcmp$24;
-                      return_value___builtin_strcmp$24=__builtin_strcmp(label, plugin->label);
-                      tmp_statement_expression$23 = return_value___builtin_strcmp$24;
-                      if(tmp_statement_expression$23 == 0)
+                      unsigned long int main__1__5__1__15__1__1__2____s1_len;
+                      unsigned long int main__1__5__1__15__1__1__2____s2_len;
+                      signed int return_value___builtin_strcmp_24;
+                      return_value___builtin_strcmp_24=__builtin_strcmp(label, plugin->label);
+                      tmp_statement_expression_23 = return_value___builtin_strcmp_24;
+                      if(tmp_statement_expression_23 == 0)
                         break;
 
                     }
@@ -1990,12 +1990,12 @@ signed int main(signed int argc, char **argv)
 
                   else
                   {
-                    unsigned long int main$$1$$5$$1$$15$$1$$2$$1$$__s1_len;
-                    unsigned long int main$$1$$5$$1$$15$$1$$2$$1$$__s2_len;
-                    signed int return_value___builtin_strcmp$28;
-                    return_value___builtin_strcmp$28=__builtin_strcmp(dllName, plugin->dll->name);
-                    tmp_statement_expression$27 = return_value___builtin_strcmp$28;
-                    if(tmp_statement_expression$27 == 0)
+                    unsigned long int main__1__5__1__15__1__2__1____s1_len;
+                    unsigned long int main__1__5__1__15__1__2__1____s2_len;
+                    signed int return_value___builtin_strcmp_28;
+                    return_value___builtin_strcmp_28=__builtin_strcmp(dllName, plugin->dll->name);
+                    tmp_statement_expression_27 = return_value___builtin_strcmp_28;
+                    if(tmp_statement_expression_27 == 0)
                     {
                       if(!(plugin->is_first_in_dll == 0))
                         break;
@@ -2011,9 +2011,9 @@ signed int main(signed int argc, char **argv)
 
                 else
                 {
-                  void *return_value_calloc$29;
-                  return_value_calloc$29=calloc((unsigned long int)1, sizeof(struct _d3h_plugin_t) /*72ul*/ );
-                  plugin = (struct _d3h_plugin_t *)return_value_calloc$29;
+                  void *return_value_calloc_29;
+                  return_value_calloc_29=calloc((unsigned long int)1, sizeof(struct _d3h_plugin_t) /*72ul*/ );
+                  plugin = (struct _d3h_plugin_t *)return_value_calloc_29;
                   plugin->number = plugin_count;
                   plugin->label = label;
                   dll = dlls;
@@ -2021,18 +2021,18 @@ signed int main(signed int argc, char **argv)
                   {
                     unsigned long int __s1_len;
                     unsigned long int __s2_len;
-                    signed int return_value___builtin_strcmp$31;
-                    return_value___builtin_strcmp$31=__builtin_strcmp(dllName, dll->name);
-                    tmp_statement_expression$30 = return_value___builtin_strcmp$31;
-                    if(tmp_statement_expression$30 == 0)
+                    signed int return_value___builtin_strcmp_31;
+                    return_value___builtin_strcmp_31=__builtin_strcmp(dllName, dll->name);
+                    tmp_statement_expression_30 = return_value___builtin_strcmp_31;
+                    if(tmp_statement_expression_30 == 0)
                       break;
 
                   }
                   if(dll == ((struct _d3h_dll_t *)NULL))
                   {
-                    void *return_value_calloc$32;
-                    return_value_calloc$32=calloc((unsigned long int)1, sizeof(struct _d3h_dll_t) /*40ul*/ );
-                    dll = (struct _d3h_dll_t *)return_value_calloc$32;
+                    void *return_value_calloc_32;
+                    return_value_calloc_32=calloc((unsigned long int)1, sizeof(struct _d3h_dll_t) /*40ul*/ );
+                    dll = (struct _d3h_dll_t *)return_value_calloc_32;
                     dll->name = dllName;
                     dll->directory=load(dllName, &pluginObject, 0);
                     if(dll->directory == ((char *)NULL) || pluginObject == NULL)
@@ -2041,17 +2041,17 @@ signed int main(signed int argc, char **argv)
                       return 1;
                     }
 
-                    void *return_value_dlsym$33;
-                    return_value_dlsym$33=dlsym(pluginObject, "dssi_descriptor");
-                    dll->descfn = (const struct _DSSI_Descriptor * (*)(unsigned long int))return_value_dlsym$33;
+                    void *return_value_dlsym_33;
+                    return_value_dlsym_33=dlsym(pluginObject, "dssi_descriptor");
+                    dll->descfn = (const struct _DSSI_Descriptor * (*)(unsigned long int))return_value_dlsym_33;
                     if(!(dll->descfn == ((const struct _DSSI_Descriptor * (*)(unsigned long int))NULL)))
                       dll->is_DSSI_dll = 1;
 
                     else
                     {
-                      void *return_value_dlsym$34;
-                      return_value_dlsym$34=dlsym(pluginObject, "ladspa_descriptor");
-                      dll->descfn = (const struct _DSSI_Descriptor * (*)(unsigned long int))return_value_dlsym$34;
+                      void *return_value_dlsym_34;
+                      return_value_dlsym_34=dlsym(pluginObject, "ladspa_descriptor");
+                      dll->descfn = (const struct _DSSI_Descriptor * (*)(unsigned long int))return_value_dlsym_34;
                       if(dll->descfn == ((const struct _DSSI_Descriptor * (*)(unsigned long int))NULL))
                       {
                         fprintf(stderr, "\n%s: Error: \"%s\" is not a DSSI or LADSPA plugin library\n", myName, dllName);
@@ -2069,24 +2069,24 @@ signed int main(signed int argc, char **argv)
                   if(!(dll->is_DSSI_dll == 0))
                   {
                     const struct _DSSI_Descriptor *desc;
-                    tmp_post$35 = j;
+                    tmp_post_35 = j;
                     j = j + 1;
-                    desc=dll->descfn((unsigned long int)tmp_post$35);
+                    desc=dll->descfn((unsigned long int)tmp_post_35);
                     if(!(desc == ((const struct _DSSI_Descriptor *)NULL)))
                     {
                       if(plugin->label == ((char *)NULL))
-                        tmp_if_expr$38 = (_Bool)1;
+                        tmp_if_expr_38 = (_Bool)1;
 
                       else
                       {
-                        unsigned long int main$$1$$5$$1$$17$$3$$1$$1$$__s1_len;
-                        unsigned long int main$$1$$5$$1$$17$$3$$1$$1$$__s2_len;
-                        signed int return_value___builtin_strcmp$37;
-                        return_value___builtin_strcmp$37=__builtin_strcmp(desc->LADSPA_Plugin->Label, plugin->label);
-                        tmp_statement_expression$36 = return_value___builtin_strcmp$37;
-                        tmp_if_expr$38 = !(tmp_statement_expression$36 != 0) ? (_Bool)1 : (_Bool)0;
+                        unsigned long int main__1__5__1__17__3__1__1____s1_len;
+                        unsigned long int main__1__5__1__17__3__1__1____s2_len;
+                        signed int return_value___builtin_strcmp_37;
+                        return_value___builtin_strcmp_37=__builtin_strcmp(desc->LADSPA_Plugin->Label, plugin->label);
+                        tmp_statement_expression_36 = return_value___builtin_strcmp_37;
+                        tmp_if_expr_38 = !(tmp_statement_expression_36 != 0) ? (_Bool)1 : (_Bool)0;
                       }
-                      if(tmp_if_expr$38)
+                      if(tmp_if_expr_38)
                         plugin->descriptor = desc;
 
                     }
@@ -2095,32 +2095,32 @@ signed int main(signed int argc, char **argv)
 
                   else
                   {
-                    struct _LADSPA_Descriptor *main$$1$$5$$1$$17$$4$$desc;
-                    void *return_value_calloc$39;
-                    return_value_calloc$39=calloc((unsigned long int)1, sizeof(struct _DSSI_Descriptor) /*80ul*/ );
-                    plugin->descriptor = (const struct _DSSI_Descriptor *)return_value_calloc$39;
+                    struct _LADSPA_Descriptor *main__1__5__1__17__4__desc;
+                    void *return_value_calloc_39;
+                    return_value_calloc_39=calloc((unsigned long int)1, sizeof(struct _DSSI_Descriptor) /*80ul*/ );
+                    plugin->descriptor = (const struct _DSSI_Descriptor *)return_value_calloc_39;
                     ((struct _DSSI_Descriptor *)plugin->descriptor)->DSSI_API_Version = 1;
-                    tmp_post$40 = j;
+                    tmp_post_40 = j;
                     j = j + 1;
                     const struct _DSSI_Descriptor *return_value;
-                    return_value=dll->descfn((unsigned long int)tmp_post$40);
-                    main$$1$$5$$1$$17$$4$$desc = (struct _LADSPA_Descriptor *)return_value;
-                    if(!(main$$1$$5$$1$$17$$4$$desc == ((struct _LADSPA_Descriptor *)NULL)))
+                    return_value=dll->descfn((unsigned long int)tmp_post_40);
+                    main__1__5__1__17__4__desc = (struct _LADSPA_Descriptor *)return_value;
+                    if(!(main__1__5__1__17__4__desc == ((struct _LADSPA_Descriptor *)NULL)))
                     {
                       if(plugin->label == ((char *)NULL))
-                        tmp_if_expr$43 = (_Bool)1;
+                        tmp_if_expr_43 = (_Bool)1;
 
                       else
                       {
-                        unsigned long int main$$1$$5$$1$$17$$4$$1$$1$$__s1_len;
-                        unsigned long int main$$1$$5$$1$$17$$4$$1$$1$$__s2_len;
-                        signed int return_value___builtin_strcmp$42;
-                        return_value___builtin_strcmp$42=__builtin_strcmp(main$$1$$5$$1$$17$$4$$desc->Label, plugin->label);
-                        tmp_statement_expression$41 = return_value___builtin_strcmp$42;
-                        tmp_if_expr$43 = !(tmp_statement_expression$41 != 0) ? (_Bool)1 : (_Bool)0;
+                        unsigned long int main__1__5__1__17__4__1__1____s1_len;
+                        unsigned long int main__1__5__1__17__4__1__1____s2_len;
+                        signed int return_value___builtin_strcmp_42;
+                        return_value___builtin_strcmp_42=__builtin_strcmp(main__1__5__1__17__4__desc->Label, plugin->label);
+                        tmp_statement_expression_41 = return_value___builtin_strcmp_42;
+                        tmp_if_expr_43 = !(tmp_statement_expression_41 != 0) ? (_Bool)1 : (_Bool)0;
                       }
-                      if(tmp_if_expr$43)
-                        ((struct _DSSI_Descriptor *)plugin->descriptor)->LADSPA_Plugin = main$$1$$5$$1$$17$$4$$desc;
+                      if(tmp_if_expr_43)
+                        ((struct _DSSI_Descriptor *)plugin->descriptor)->LADSPA_Plugin = main__1__5__1__17__4__desc;
 
                     }
 
@@ -2134,11 +2134,11 @@ signed int main(signed int argc, char **argv)
                   if(plugin->descriptor == ((const struct _DSSI_Descriptor *)NULL))
                   {
                     if(!(plugin->label == ((char *)NULL)))
-                      tmp_if_expr$44 = plugin->label;
+                      tmp_if_expr_44 = plugin->label;
 
                     else
-                      tmp_if_expr$44 = "(none)";
-                    fprintf(stderr, "\n%s: Error: Plugin label \"%s\" not found in library \"%s\"\n", myName, tmp_if_expr$44, dllName);
+                      tmp_if_expr_44 = "(none)";
+                    fprintf(stderr, "\n%s: Error: Plugin label \"%s\" not found in library \"%s\"\n", myName, tmp_if_expr_44, dllName);
                     return 1;
                   }
 
@@ -2146,9 +2146,9 @@ signed int main(signed int argc, char **argv)
                   plugin->is_first_in_dll = j;
                   if(plugin->label == ((char *)NULL))
                   {
-                    char *return_value___strdup$45;
-                    return_value___strdup$45=__strdup(plugin->descriptor->LADSPA_Plugin->Label);
-                    plugin->label = return_value___strdup$45;
+                    char *return_value___strdup_45;
+                    return_value___strdup_45=__strdup(plugin->descriptor->LADSPA_Plugin->Label);
+                    plugin->label = return_value___strdup_45;
                   }
 
                   plugin->ins = 0;
@@ -2198,38 +2198,38 @@ signed int main(signed int argc, char **argv)
                     instance->plugin = plugin;
                     instance->channel = instance_count;
                     instance->inactive = 1;
-                    unsigned long int return_value_strlen$46;
-                    return_value_strlen$46=strlen(plugin->dll->name);
-                    unsigned long int return_value_strlen$47;
-                    return_value_strlen$47=strlen(plugin->label);
-                    void *return_value_malloc$48;
-                    return_value_malloc$48=malloc(return_value_strlen$46 + return_value_strlen$47 + (unsigned long int)9);
-                    tmp = (char *)return_value_malloc$48;
+                    unsigned long int return_value_strlen_46;
+                    return_value_strlen_46=strlen(plugin->dll->name);
+                    unsigned long int return_value_strlen_47;
+                    return_value_strlen_47=strlen(plugin->label);
+                    void *return_value_malloc_48;
+                    return_value_malloc_48=malloc(return_value_strlen_46 + return_value_strlen_47 + (unsigned long int)9);
+                    tmp = (char *)return_value_malloc_48;
                     instance->friendly_name = tmp;
                     strcpy(tmp, plugin->dll->name);
-                    unsigned long int return_value_strlen$51;
-                    return_value_strlen$51=strlen(tmp);
-                    if(return_value_strlen$51 >= 4ul)
+                    unsigned long int return_value_strlen_51;
+                    return_value_strlen_51=strlen(tmp);
+                    if(return_value_strlen_51 >= 4ul)
                     {
-                      return_value_strlen$52=strlen(tmp);
-                      return_value_strcasecmp$53=strcasecmp((tmp + (signed long int)return_value_strlen$52) - (signed long int)3, ".so");
-                      tmp_if_expr$54 = !(return_value_strcasecmp$53 != 0) ? (_Bool)1 : (_Bool)0;
+                      return_value_strlen_52=strlen(tmp);
+                      return_value_strcasecmp_53=strcasecmp((tmp + (signed long int)return_value_strlen_52) - (signed long int)3, ".so");
+                      tmp_if_expr_54 = !(return_value_strcasecmp_53 != 0) ? (_Bool)1 : (_Bool)0;
                     }
 
                     else
-                      tmp_if_expr$54 = (_Bool)0;
-                    if(tmp_if_expr$54)
+                      tmp_if_expr_54 = (_Bool)0;
+                    if(tmp_if_expr_54)
                     {
-                      unsigned long int return_value_strlen$49;
-                      return_value_strlen$49=strlen(tmp);
-                      tmp = (tmp + (signed long int)return_value_strlen$49) - (signed long int)3;
+                      unsigned long int return_value_strlen_49;
+                      return_value_strlen_49=strlen(tmp);
+                      tmp = (tmp + (signed long int)return_value_strlen_49) - (signed long int)3;
                     }
 
                     else
                     {
-                      unsigned long int return_value_strlen$50;
-                      return_value_strlen$50=strlen(tmp);
-                      tmp = tmp + (signed long int)return_value_strlen$50;
+                      unsigned long int return_value_strlen_50;
+                      return_value_strlen_50=strlen(tmp);
+                      tmp = tmp + (signed long int)return_value_strlen_50;
                     }
                     sprintf(tmp, "/%s/chan%02d", plugin->label, instance->channel);
                     instance->pluginProgramCount = 0;
@@ -2318,60 +2318,60 @@ signed int main(signed int argc, char **argv)
       {
         if(!((JackNameNotUnique & (signed int)status) == 0))
         {
-          char *return_value_jack_get_client_name$55;
-          return_value_jack_get_client_name$55=jack_get_client_name(jackClient);
-          __builtin_strncpy(clientName, return_value_jack_get_client_name$55, (unsigned long int)clientLen);
+          char *return_value_jack_get_client_name_55;
+          return_value_jack_get_client_name_55=jack_get_client_name(jackClient);
+          __builtin_strncpy(clientName, return_value_jack_get_client_name_55, (unsigned long int)clientLen);
           clientName[(signed long int)clientLen] = (char)0;
         }
 
-        unsigned int return_value_jack_get_sample_rate$56;
-        return_value_jack_get_sample_rate$56=jack_get_sample_rate(jackClient);
-        sample_rate = (float)return_value_jack_get_sample_rate$56;
-        void *return_value_malloc$57;
-        return_value_malloc$57=malloc((unsigned long int)insTotal * sizeof(struct _jack_port *) /*8ul*/ );
-        inputPorts = (struct _jack_port **)return_value_malloc$57;
-        void *return_value_malloc$58;
-        return_value_malloc$58=malloc((unsigned long int)insTotal * sizeof(float *) /*8ul*/ );
-        pluginInputBuffers = (float **)return_value_malloc$58;
-        void *return_value_calloc$59;
-        return_value_calloc$59=calloc((unsigned long int)controlInsTotal, sizeof(float) /*4ul*/ );
-        pluginControlIns = (float *)return_value_calloc$59;
-        void *return_value_malloc$60;
-        return_value_malloc$60=malloc((unsigned long int)controlInsTotal * sizeof(struct _d3h_instance_t *) /*8ul*/ );
-        pluginControlInInstances = (struct _d3h_instance_t **)return_value_malloc$60;
-        void *return_value_malloc$61;
-        return_value_malloc$61=malloc((unsigned long int)controlInsTotal * sizeof(unsigned long int) /*8ul*/ );
-        pluginControlInPortNumbers = (unsigned long int *)return_value_malloc$61;
-        void *return_value_malloc$62;
-        return_value_malloc$62=malloc((unsigned long int)controlInsTotal * sizeof(signed int) /*4ul*/ );
-        pluginPortUpdated = (signed int *)return_value_malloc$62;
-        void *return_value_malloc$63;
-        return_value_malloc$63=malloc((unsigned long int)outsTotal * sizeof(struct _jack_port *) /*8ul*/ );
-        outputPorts = (struct _jack_port **)return_value_malloc$63;
-        void *return_value_malloc$64;
-        return_value_malloc$64=malloc((unsigned long int)outsTotal * sizeof(float *) /*8ul*/ );
-        pluginOutputBuffers = (float **)return_value_malloc$64;
-        void *return_value_calloc$65;
-        return_value_calloc$65=calloc((unsigned long int)controlOutsTotal, sizeof(float) /*4ul*/ );
-        pluginControlOuts = (float *)return_value_calloc$65;
-        void *return_value_malloc$66;
-        return_value_malloc$66=malloc((unsigned long int)instance_count * sizeof(void *) /*8ul*/ );
-        instanceHandles = (void **)return_value_malloc$66;
-        void *return_value_malloc$67;
-        return_value_malloc$67=malloc((unsigned long int)instance_count * sizeof(struct snd_seq_event *) /*8ul*/ );
-        instanceEventBuffers = (struct snd_seq_event **)return_value_malloc$67;
-        void *return_value_malloc$68;
-        return_value_malloc$68=malloc((unsigned long int)instance_count * sizeof(unsigned long int) /*8ul*/ );
-        instanceEventCounts = (unsigned long int *)return_value_malloc$68;
+        unsigned int return_value_jack_get_sample_rate_56;
+        return_value_jack_get_sample_rate_56=jack_get_sample_rate(jackClient);
+        sample_rate = (float)return_value_jack_get_sample_rate_56;
+        void *return_value_malloc_57;
+        return_value_malloc_57=malloc((unsigned long int)insTotal * sizeof(struct _jack_port *) /*8ul*/ );
+        inputPorts = (struct _jack_port **)return_value_malloc_57;
+        void *return_value_malloc_58;
+        return_value_malloc_58=malloc((unsigned long int)insTotal * sizeof(float *) /*8ul*/ );
+        pluginInputBuffers = (float **)return_value_malloc_58;
+        void *return_value_calloc_59;
+        return_value_calloc_59=calloc((unsigned long int)controlInsTotal, sizeof(float) /*4ul*/ );
+        pluginControlIns = (float *)return_value_calloc_59;
+        void *return_value_malloc_60;
+        return_value_malloc_60=malloc((unsigned long int)controlInsTotal * sizeof(struct _d3h_instance_t *) /*8ul*/ );
+        pluginControlInInstances = (struct _d3h_instance_t **)return_value_malloc_60;
+        void *return_value_malloc_61;
+        return_value_malloc_61=malloc((unsigned long int)controlInsTotal * sizeof(unsigned long int) /*8ul*/ );
+        pluginControlInPortNumbers = (unsigned long int *)return_value_malloc_61;
+        void *return_value_malloc_62;
+        return_value_malloc_62=malloc((unsigned long int)controlInsTotal * sizeof(signed int) /*4ul*/ );
+        pluginPortUpdated = (signed int *)return_value_malloc_62;
+        void *return_value_malloc_63;
+        return_value_malloc_63=malloc((unsigned long int)outsTotal * sizeof(struct _jack_port *) /*8ul*/ );
+        outputPorts = (struct _jack_port **)return_value_malloc_63;
+        void *return_value_malloc_64;
+        return_value_malloc_64=malloc((unsigned long int)outsTotal * sizeof(float *) /*8ul*/ );
+        pluginOutputBuffers = (float **)return_value_malloc_64;
+        void *return_value_calloc_65;
+        return_value_calloc_65=calloc((unsigned long int)controlOutsTotal, sizeof(float) /*4ul*/ );
+        pluginControlOuts = (float *)return_value_calloc_65;
+        void *return_value_malloc_66;
+        return_value_malloc_66=malloc((unsigned long int)instance_count * sizeof(void *) /*8ul*/ );
+        instanceHandles = (void **)return_value_malloc_66;
+        void *return_value_malloc_67;
+        return_value_malloc_67=malloc((unsigned long int)instance_count * sizeof(struct snd_seq_event *) /*8ul*/ );
+        instanceEventBuffers = (struct snd_seq_event **)return_value_malloc_67;
+        void *return_value_malloc_68;
+        return_value_malloc_68=malloc((unsigned long int)instance_count * sizeof(unsigned long int) /*8ul*/ );
+        instanceEventCounts = (unsigned long int *)return_value_malloc_68;
         i = 0;
         for( ; !(i >= instance_count); i = i + 1)
         {
-          void *return_value_malloc$69;
-          return_value_malloc$69=malloc((unsigned long int)1024 * sizeof(struct snd_seq_event) /*32ul*/ );
-          instanceEventBuffers[(signed long int)i] = (struct snd_seq_event *)return_value_malloc$69;
-          void *return_value_malloc$70;
-          return_value_malloc$70=malloc(instances[(signed long int)i].plugin->descriptor->LADSPA_Plugin->PortCount * sizeof(signed int) /*4ul*/ );
-          instances[(signed long int)i].pluginPortControlInNumbers = (signed int *)return_value_malloc$70;
+          void *return_value_malloc_69;
+          return_value_malloc_69=malloc((unsigned long int)1024 * sizeof(struct snd_seq_event) /*32ul*/ );
+          instanceEventBuffers[(signed long int)i] = (struct snd_seq_event *)return_value_malloc_69;
+          void *return_value_malloc_70;
+          return_value_malloc_70=malloc(instances[(signed long int)i].plugin->descriptor->LADSPA_Plugin->PortCount * sizeof(signed int) /*4ul*/ );
+          instances[(signed long int)i].pluginPortControlInNumbers = (signed int *)return_value_malloc_70;
         }
         in = 0;
         out = 0;
@@ -2381,34 +2381,34 @@ signed int main(signed int argc, char **argv)
         {
           if(i >= 1)
           {
-            unsigned long int main$$1$$14$$1$$1$$__s1_len;
-            unsigned long int main$$1$$14$$1$$1$$__s2_len;
-            signed int return_value___builtin_strcmp$75;
-            return_value___builtin_strcmp$75=__builtin_strcmp(instances[(signed long int)i].plugin->descriptor->LADSPA_Plugin->Name, instances[(signed long int)(i - 1)].plugin->descriptor->LADSPA_Plugin->Name);
-            tmp_statement_expression$74 = return_value___builtin_strcmp$75;
-            tmp_if_expr$76 = !(tmp_statement_expression$74 != 0) ? (_Bool)1 : (_Bool)0;
+            unsigned long int main__1__14__1__1____s1_len;
+            unsigned long int main__1__14__1__1____s2_len;
+            signed int return_value___builtin_strcmp_75;
+            return_value___builtin_strcmp_75=__builtin_strcmp(instances[(signed long int)i].plugin->descriptor->LADSPA_Plugin->Name, instances[(signed long int)(i - 1)].plugin->descriptor->LADSPA_Plugin->Name);
+            tmp_statement_expression_74 = return_value___builtin_strcmp_75;
+            tmp_if_expr_76 = !(tmp_statement_expression_74 != 0) ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$76 = (_Bool)0;
-          if(tmp_if_expr$76)
+            tmp_if_expr_76 = (_Bool)0;
+          if(tmp_if_expr_76)
             reps = reps + 1;
 
           else
           {
             if(!(i >= instance_count + -1))
             {
-              unsigned long int main$$1$$14$$1$$3$$__s1_len;
-              unsigned long int main$$1$$14$$1$$3$$__s2_len;
-              signed int return_value___builtin_strcmp$72;
-              return_value___builtin_strcmp$72=__builtin_strcmp(instances[(signed long int)i].plugin->descriptor->LADSPA_Plugin->Name, instances[(signed long int)(i + 1)].plugin->descriptor->LADSPA_Plugin->Name);
-              tmp_statement_expression$71 = return_value___builtin_strcmp$72;
-              tmp_if_expr$73 = !(tmp_statement_expression$71 != 0) ? (_Bool)1 : (_Bool)0;
+              unsigned long int main__1__14__1__3____s1_len;
+              unsigned long int main__1__14__1__3____s2_len;
+              signed int return_value___builtin_strcmp_72;
+              return_value___builtin_strcmp_72=__builtin_strcmp(instances[(signed long int)i].plugin->descriptor->LADSPA_Plugin->Name, instances[(signed long int)(i + 1)].plugin->descriptor->LADSPA_Plugin->Name);
+              tmp_statement_expression_71 = return_value___builtin_strcmp_72;
+              tmp_if_expr_73 = !(tmp_statement_expression_71 != 0) ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$73 = (_Bool)0;
-            if(tmp_if_expr$73)
+              tmp_if_expr_73 = (_Bool)0;
+            if(tmp_if_expr_73)
               reps = 1;
 
             else
@@ -2427,59 +2427,59 @@ signed int main(signed int argc, char **argv)
               if(reps >= 1)
               {
                 portName[(signed long int)25] = (char)0;
-                unsigned long int return_value_strlen$77;
-                return_value_strlen$77=strlen(portName);
-                sprintf(portName + (signed long int)return_value_strlen$77, " %d in_%d", reps, j + 1);
+                unsigned long int return_value_strlen_77;
+                return_value_strlen_77=strlen(portName);
+                sprintf(portName + (signed long int)return_value_strlen_77, " %d in_%d", reps, j + 1);
               }
 
               else
               {
                 portName[(signed long int)30] = (char)0;
-                unsigned long int return_value_strlen$78;
-                return_value_strlen$78=strlen(portName);
-                sprintf(portName + (signed long int)return_value_strlen$78, " in_%d", j + 1);
+                unsigned long int return_value_strlen_78;
+                return_value_strlen_78=strlen(portName);
+                sprintf(portName + (signed long int)return_value_strlen_78, " in_%d", j + 1);
               }
             }
             inputPorts[(signed long int)in]=jack_port_register(jackClient, portName, "32 bit float mono audio", (unsigned long int)1, (unsigned long int)0);
-            unsigned int return_value_jack_get_buffer_size$79;
-            return_value_jack_get_buffer_size$79=jack_get_buffer_size(jackClient);
-            void *return_value_calloc$80;
-            return_value_calloc$80=calloc((unsigned long int)return_value_jack_get_buffer_size$79, sizeof(float) /*4ul*/ );
-            pluginInputBuffers[(signed long int)in] = (float *)return_value_calloc$80;
+            unsigned int return_value_jack_get_buffer_size_79;
+            return_value_jack_get_buffer_size_79=jack_get_buffer_size(jackClient);
+            void *return_value_calloc_80;
+            return_value_calloc_80=calloc((unsigned long int)return_value_jack_get_buffer_size_79, sizeof(float) /*4ul*/ );
+            pluginInputBuffers[(signed long int)in] = (float *)return_value_calloc_80;
             in = in + 1;
           }
           j = 0;
           for( ; !(j >= instances[(signed long int)i].plugin->outs); j = j + 1)
           {
-            char main$$1$$14$$1$$7$$1$$portName[40l];
+            char main__1__14__1__7__1__portName[40l];
             if(!(haveClientName == 0))
-              sprintf(main$$1$$14$$1$$7$$1$$portName, "out_%d", out);
+              sprintf(main__1__14__1__7__1__portName, "out_%d", out);
 
             else
             {
-              __builtin_strncpy(main$$1$$14$$1$$7$$1$$portName, instances[(signed long int)i].plugin->descriptor->LADSPA_Plugin->Name, (unsigned long int)30);
+              __builtin_strncpy(main__1__14__1__7__1__portName, instances[(signed long int)i].plugin->descriptor->LADSPA_Plugin->Name, (unsigned long int)30);
               if(reps >= 1)
               {
-                main$$1$$14$$1$$7$$1$$portName[(signed long int)25] = (char)0;
-                unsigned long int return_value_strlen$81;
-                return_value_strlen$81=strlen(main$$1$$14$$1$$7$$1$$portName);
-                sprintf(main$$1$$14$$1$$7$$1$$portName + (signed long int)return_value_strlen$81, " %d out_%d", reps, j + 1);
+                main__1__14__1__7__1__portName[(signed long int)25] = (char)0;
+                unsigned long int return_value_strlen_81;
+                return_value_strlen_81=strlen(main__1__14__1__7__1__portName);
+                sprintf(main__1__14__1__7__1__portName + (signed long int)return_value_strlen_81, " %d out_%d", reps, j + 1);
               }
 
               else
               {
-                main$$1$$14$$1$$7$$1$$portName[(signed long int)30] = (char)0;
-                unsigned long int return_value_strlen$82;
-                return_value_strlen$82=strlen(main$$1$$14$$1$$7$$1$$portName);
-                sprintf(main$$1$$14$$1$$7$$1$$portName + (signed long int)return_value_strlen$82, " out_%d", j + 1);
+                main__1__14__1__7__1__portName[(signed long int)30] = (char)0;
+                unsigned long int return_value_strlen_82;
+                return_value_strlen_82=strlen(main__1__14__1__7__1__portName);
+                sprintf(main__1__14__1__7__1__portName + (signed long int)return_value_strlen_82, " out_%d", j + 1);
               }
             }
-            outputPorts[(signed long int)out]=jack_port_register(jackClient, main$$1$$14$$1$$7$$1$$portName, "32 bit float mono audio", (unsigned long int)2, (unsigned long int)0);
-            unsigned int return_value_jack_get_buffer_size$83;
-            return_value_jack_get_buffer_size$83=jack_get_buffer_size(jackClient);
-            void *return_value_calloc$84;
-            return_value_calloc$84=calloc((unsigned long int)return_value_jack_get_buffer_size$83, sizeof(float) /*4ul*/ );
-            pluginOutputBuffers[(signed long int)out] = (float *)return_value_calloc$84;
+            outputPorts[(signed long int)out]=jack_port_register(jackClient, main__1__14__1__7__1__portName, "32 bit float mono audio", (unsigned long int)2, (unsigned long int)0);
+            unsigned int return_value_jack_get_buffer_size_83;
+            return_value_jack_get_buffer_size_83=jack_get_buffer_size(jackClient);
+            void *return_value_calloc_84;
+            return_value_calloc_84=calloc((unsigned long int)return_value_jack_get_buffer_size_83, sizeof(float) /*4ul*/ );
+            pluginOutputBuffers[(signed long int)out] = (float *)return_value_calloc_84;
             out = out + 1;
           }
         }
@@ -2514,13 +2514,13 @@ signed int main(signed int argc, char **argv)
         serverThread=lo_server_thread_new((const char *)(void *)0, osc_error);
         snprintf((char *)osc_path_tmp, (unsigned long int)31, "/dssi");
         tmp=lo_server_thread_get_url(serverThread);
-        unsigned long int return_value_strlen$85;
-        return_value_strlen$85=strlen(tmp);
-        unsigned long int return_value_strlen$86;
-        return_value_strlen$86=strlen(osc_path_tmp);
-        void *return_value_malloc$87;
-        return_value_malloc$87=malloc(return_value_strlen$85 + return_value_strlen$86);
-        url = (char *)return_value_malloc$87;
+        unsigned long int return_value_strlen_85;
+        return_value_strlen_85=strlen(tmp);
+        unsigned long int return_value_strlen_86;
+        return_value_strlen_86=strlen(osc_path_tmp);
+        void *return_value_malloc_87;
+        return_value_malloc_87=malloc(return_value_strlen_85 + return_value_strlen_86);
+        url = (char *)return_value_malloc_87;
         sprintf(url, "%s%s", tmp, osc_path_tmp + (signed long int)1);
         if(!(verbose == 0))
           printf("%s: registering %s\n", myName, url);
@@ -2547,31 +2547,31 @@ signed int main(signed int argc, char **argv)
           j = 0;
           for( ; !((unsigned long int)j >= plugin->descriptor->LADSPA_Plugin->PortCount); j = j + 1)
           {
-            signed int main$$1$$18$$1$$2$$1$$pod = plugin->descriptor->LADSPA_Plugin->PortDescriptors[(signed long int)j];
+            signed int main__1__18__1__2__1__pod = plugin->descriptor->LADSPA_Plugin->PortDescriptors[(signed long int)j];
             instance->pluginPortControlInNumbers[(signed long int)j] = -1;
-            if(!((0x8 & main$$1$$18$$1$$2$$1$$pod) == 0))
+            if(!((0x8 & main__1__18__1__2__1__pod) == 0))
             {
-              if(!((0x1 & main$$1$$18$$1$$2$$1$$pod) == 0))
+              if(!((0x1 & main__1__18__1__2__1__pod) == 0))
               {
-                tmp_post$88 = in;
+                tmp_post_88 = in;
                 in = in + 1;
-                plugin->descriptor->LADSPA_Plugin->connect_port(instanceHandles[(signed long int)i], (unsigned long int)j, pluginInputBuffers[(signed long int)tmp_post$88]);
+                plugin->descriptor->LADSPA_Plugin->connect_port(instanceHandles[(signed long int)i], (unsigned long int)j, pluginInputBuffers[(signed long int)tmp_post_88]);
               }
 
               else
-                if(!((0x2 & main$$1$$18$$1$$2$$1$$pod) == 0))
+                if(!((0x2 & main__1__18__1__2__1__pod) == 0))
                 {
-                  tmp_post$89 = out;
+                  tmp_post_89 = out;
                   out = out + 1;
-                  plugin->descriptor->LADSPA_Plugin->connect_port(instanceHandles[(signed long int)i], (unsigned long int)j, pluginOutputBuffers[(signed long int)tmp_post$89]);
+                  plugin->descriptor->LADSPA_Plugin->connect_port(instanceHandles[(signed long int)i], (unsigned long int)j, pluginOutputBuffers[(signed long int)tmp_post_89]);
                 }
 
             }
 
             else
-              if(!((0x4 & main$$1$$18$$1$$2$$1$$pod) == 0))
+              if(!((0x4 & main__1__18__1__2__1__pod) == 0))
               {
-                if(!((0x1 & main$$1$$18$$1$$2$$1$$pod) == 0))
+                if(!((0x1 & main__1__18__1__2__1__pod) == 0))
                 {
                   if(!(plugin->descriptor->get_midi_controller_for_port == ((signed int (*)(void *, unsigned long int))NULL)))
                   {
@@ -2587,9 +2587,9 @@ signed int main(signed int argc, char **argv)
                     else
                       if(controller == 32)
                       {
-                        char main$$1$$18$$1$$2$$1$$2$$1$$1$$2$$1$$_m[256l];
-                        snprintf(main$$1$$18$$1$$2$$1$$2$$1$$1$$2$$1$$_m, (unsigned long int)255, "Buggy plugin: wants mapping for bank LSB\n");
-                        add_message(main$$1$$18$$1$$2$$1$$2$$1$$1$$2$$1$$_m);
+                        char main__1__18__1__2__1__2__1__1__2__1___m[256l];
+                        snprintf(main__1__18__1__2__1__2__1__1__2__1___m, (unsigned long int)255, "Buggy plugin: wants mapping for bank LSB\n");
+                        add_message(main__1__18__1__2__1__2__1__1__2__1___m);
                       }
 
                       else
@@ -2602,17 +2602,17 @@ signed int main(signed int argc, char **argv)
                   pluginControlInPortNumbers[(signed long int)controlIn] = (unsigned long int)j;
                   instance->pluginPortControlInNumbers[(signed long int)j] = controlIn;
                   pluginControlIns[(signed long int)controlIn]=get_port_default(plugin->descriptor->LADSPA_Plugin, j);
-                  tmp_post$90 = controlIn;
+                  tmp_post_90 = controlIn;
                   controlIn = controlIn + 1;
-                  plugin->descriptor->LADSPA_Plugin->connect_port(instanceHandles[(signed long int)i], (unsigned long int)j, &pluginControlIns[(signed long int)tmp_post$90]);
+                  plugin->descriptor->LADSPA_Plugin->connect_port(instanceHandles[(signed long int)i], (unsigned long int)j, &pluginControlIns[(signed long int)tmp_post_90]);
                 }
 
                 else
-                  if(!((0x2 & main$$1$$18$$1$$2$$1$$pod) == 0))
+                  if(!((0x2 & main__1__18__1__2__1__pod) == 0))
                   {
-                    tmp_post$91 = controlOut;
+                    tmp_post_91 = controlOut;
                     controlOut = controlOut + 1;
-                    plugin->descriptor->LADSPA_Plugin->connect_port(instanceHandles[(signed long int)i], (unsigned long int)j, &pluginControlOuts[(signed long int)tmp_post$91]);
+                    plugin->descriptor->LADSPA_Plugin->connect_port(instanceHandles[(signed long int)i], (unsigned long int)j, &pluginControlOuts[(signed long int)tmp_post_91]);
                   }
 
               }
@@ -2650,9 +2650,9 @@ signed int main(signed int argc, char **argv)
           }
 
         }
-        signed int return_value_snd_seq_open$92;
-        return_value_snd_seq_open$92=snd_seq_open(&alsaClient, "hw", 1 | 2, 0);
-        if(!(return_value_snd_seq_open$92 >= 0))
+        signed int return_value_snd_seq_open_92;
+        return_value_snd_seq_open_92=snd_seq_open(&alsaClient, "hw", 1 | 2, 0);
+        if(!(return_value_snd_seq_open_92 >= 0))
         {
           fprintf(stderr, "\n%s: Error: Failed to open ALSA sequencer interface\n", myName);
           return 1;
@@ -2671,14 +2671,14 @@ signed int main(signed int argc, char **argv)
           else
           {
             npfd=snd_seq_poll_descriptors_count(alsaClient, (signed short int)0x001);
-            void *return_value___builtin_alloca$93;
-            return_value___builtin_alloca$93=__builtin_alloca((unsigned long int)npfd * sizeof(struct pollfd) /*8ul*/ );
-            pfd = (struct pollfd *)return_value___builtin_alloca$93;
+            void *return_value___builtin_alloca_93;
+            return_value___builtin_alloca_93=__builtin_alloca((unsigned long int)npfd * sizeof(struct pollfd) /*8ul*/ );
+            pfd = (struct pollfd *)return_value___builtin_alloca_93;
             snd_seq_poll_descriptors(alsaClient, pfd, (unsigned int)npfd, (signed short int)0x001);
             mb_init("host: ");
-            signed int return_value_jack_activate$94;
-            return_value_jack_activate$94=jack_activate(jackClient);
-            if(!(return_value_jack_activate$94 == 0))
+            signed int return_value_jack_activate_94;
+            return_value_jack_activate_94=jack_activate(jackClient);
+            if(!(return_value_jack_activate_94 == 0))
             {
               fprintf(stderr, "cannot activate jack client");
               exit(1);
@@ -2686,7 +2686,7 @@ signed int main(signed int argc, char **argv)
 
             if(!(autoconnect == 0))
             {
-              ports=jack_get_ports(jackClient, (const char *)(void *)0, "^32 bit float mono audio$", (unsigned long int)(4 | 1));
+              ports=jack_get_ports(jackClient, (const char *)(void *)0, "^32 bit float mono audio_", (unsigned long int)(4 | 1));
               if(!(ports == ((const char **)NULL)))
               {
                 if(!(*ports == ((const char *)NULL)))
@@ -2695,11 +2695,11 @@ signed int main(signed int argc, char **argv)
                   j = 0;
                   for( ; !(i >= outsTotal); i = i + 1)
                   {
-                    const char *return_value_jack_port_name$95;
-                    return_value_jack_port_name$95=jack_port_name(outputPorts[(signed long int)i]);
-                    signed int return_value_jack_connect$96;
-                    return_value_jack_connect$96=jack_connect(jackClient, return_value_jack_port_name$95, ports[(signed long int)j]);
-                    if(!(return_value_jack_connect$96 == 0))
+                    const char *return_value_jack_port_name_95;
+                    return_value_jack_port_name_95=jack_port_name(outputPorts[(signed long int)i]);
+                    signed int return_value_jack_connect_96;
+                    return_value_jack_connect_96=jack_connect(jackClient, return_value_jack_port_name_95, ports[(signed long int)j]);
+                    if(!(return_value_jack_connect_96 == 0))
                       fprintf(stderr, "cannot connect output port %d\n", i);
 
                     j = j + 1;
@@ -2718,7 +2718,7 @@ signed int main(signed int argc, char **argv)
             signal(15, signalHandler);
             signal(1, signalHandler);
             signal(3, signalHandler);
-            pthread_sigmask(1, &_signals, ((struct anonymous$5 *)NULL));
+            pthread_sigmask(1, &_signals, ((struct anonymous_5 *)NULL));
             if(!(load_guis == 0))
             {
               i = 0;
@@ -2734,15 +2734,15 @@ signed int main(signed int argc, char **argv)
               }
             }
 
-            char main$$1$$25$$_m[256l];
-            snprintf(main$$1$$25$$_m, (unsigned long int)255, "Ready\n");
-            add_message(main$$1$$25$$_m);
+            char main__1__25___m[256l];
+            snprintf(main__1__25___m, (unsigned long int)255, "Ready\n");
+            add_message(main__1__25___m);
             exiting = 0;
             while(exiting == 0)
             {
-              signed int return_value_poll$97;
-              return_value_poll$97=poll(pfd, (unsigned long int)npfd, 100);
-              if(return_value_poll$97 >= 1)
+              signed int return_value_poll_97;
+              return_value_poll_97=poll(pfd, (unsigned long int)npfd, 100);
+              if(return_value_poll_97 >= 1)
                 midi_callback();
 
               i = 0;
@@ -2753,11 +2753,11 @@ signed int main(signed int argc, char **argv)
                 {
                   if(!(instance->pendingProgramChange >= 0))
                   {
-                    signed int main$$1$$26$$2$$1$$1$$bank = (signed int)instance->currentBank;
+                    signed int main__1__26__2__1__1__bank = (signed int)instance->currentBank;
                     signed int program = (signed int)instance->currentProgram;
                     instance->uiNeedsProgramUpdate = 0;
                     if(!(instance->uiTarget == NULL))
-                      lo_send_internal(instance->uiTarget, "jack-dssi-host.c", 1437, instance->ui_osc_program_path, "ii", main$$1$$26$$2$$1$$1$$bank, program, (void *)0xdeadbeefdeadbeefL, (void *)0xf00baa23f00baa23L);
+                      lo_send_internal(instance->uiTarget, "jack-dssi-host.c", 1437, instance->ui_osc_program_path, "ii", main__1__26__2__1__1__bank, program, (void *)0xdeadbeefdeadbeefL, (void *)0xf00baa23f00baa23L);
 
                   }
 
@@ -2806,7 +2806,7 @@ signed int main(signed int argc, char **argv)
             sleep((unsigned int)1);
             sigemptyset(&_signals);
             sigaddset(&_signals, 1);
-            pthread_sigmask(0, &_signals, ((struct anonymous$5 *)NULL));
+            pthread_sigmask(0, &_signals, ((struct anonymous_5 *)NULL));
             kill(0, 1);
             return 0;
           }
@@ -2849,12 +2849,12 @@ void midi_callback()
   struct snd_seq_event *ev = ((struct snd_seq_event *)NULL);
   struct timeval tv;
   pthread_mutex_lock(&midiEventBufferMutex);
-  signed int return_value_snd_seq_event_input_pending$1;
+  signed int return_value_snd_seq_event_input_pending_1;
   do
   {
-    signed int return_value_snd_seq_event_input$2;
-    return_value_snd_seq_event_input$2=snd_seq_event_input(alsaClient, &ev);
-    if(return_value_snd_seq_event_input$2 >= 1)
+    signed int return_value_snd_seq_event_input_2;
+    return_value_snd_seq_event_input_2=snd_seq_event_input(alsaClient, &ev);
+    if(return_value_snd_seq_event_input_2 >= 1)
     {
       if(midiEventReadIndex == 1 + midiEventWriteIndex)
       {
@@ -2880,30 +2880,30 @@ void midi_callback()
 
   __CPROVER_DUMP_L5:
     ;
-    return_value_snd_seq_event_input_pending$1=snd_seq_event_input_pending(alsaClient, 0);
+    return_value_snd_seq_event_input_pending_1=snd_seq_event_input_pending(alsaClient, 0);
   }
-  while(return_value_snd_seq_event_input_pending$1 >= 1);
+  while(return_value_snd_seq_event_input_pending_1 >= 1);
   pthread_mutex_unlock(&midiEventBufferMutex);
 }
 
 // osc_configure_handler
 // file jack-dssi-host.c line 1696
-signed int osc_configure_handler(struct _d3h_instance_t *instance, union anonymous$3 **argv)
+signed int osc_configure_handler(struct _d3h_instance_t *instance, union anonymous_3 **argv)
 {
   const char *key = (const char *)&argv[(signed long int)0]->s;
   const char *value = (const char *)&argv[(signed long int)1]->s;
   char *message;
-  unsigned long int return_value_strlen$3;
-  signed int return_value_strncmp$4;
+  unsigned long int return_value_strlen_3;
+  signed int return_value_strncmp_4;
   if(!(instance->plugin->descriptor->configure == ((char * (*)(void *, const char *, const char *))NULL)))
   {
     signed int n = instance->number;
     signed int m = n;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen("DSSI:");
-    signed int return_value_strncmp$2;
-    return_value_strncmp$2=strncmp(key, "DSSI:", return_value_strlen$1);
-    if(return_value_strncmp$2 == 0)
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen("DSSI:");
+    signed int return_value_strncmp_2;
+    return_value_strncmp_2=strncmp(key, "DSSI:", return_value_strlen_1);
+    if(return_value_strncmp_2 == 0)
     {
       fprintf(stderr, "%s: OSC: UI for plugin '%s' attempted to use reserved configure key \"%s\", ignoring\n", myName, instance->friendly_name, key);
       return 0;
@@ -2911,9 +2911,9 @@ signed int osc_configure_handler(struct _d3h_instance_t *instance, union anonymo
 
     if(instance->plugin->instances >= 2)
     {
-      return_value_strlen$3=strlen("GLOBAL:");
-      return_value_strncmp$4=strncmp(key, "GLOBAL:", return_value_strlen$3);
-      if(return_value_strncmp$4 == 0)
+      return_value_strlen_3=strlen("GLOBAL:");
+      return_value_strncmp_4=strncmp(key, "GLOBAL:", return_value_strlen_3);
+      if(return_value_strncmp_4 == 0)
       {
         for( ; n >= 1; n = n - 1)
           if(!(instances[(signed long int)(n + -1)].plugin == instances[(signed long int)m].plugin))
@@ -2951,17 +2951,17 @@ signed int osc_configure_handler(struct _d3h_instance_t *instance, union anonymo
 
 // osc_control_handler
 // file jack-dssi-host.c line 1637
-signed int osc_control_handler(struct _d3h_instance_t *instance, union anonymous$3 **argv)
+signed int osc_control_handler(struct _d3h_instance_t *instance, union anonymous_3 **argv)
 {
   signed int port = argv[(signed long int)0]->i;
   float value = argv[(signed long int)1]->f;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(port >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = (unsigned long int)port > instance->plugin->descriptor->LADSPA_Plugin->PortCount ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = (unsigned long int)port > instance->plugin->descriptor->LADSPA_Plugin->PortCount ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     fprintf(stderr, "%s: OSC: %s port number (%d) is out of range\n", myName, instance->friendly_name, port);
     return 0;
@@ -2986,7 +2986,7 @@ signed int osc_control_handler(struct _d3h_instance_t *instance, union anonymous
 
 // osc_debug_handler
 // file jack-dssi-host.c line 1905
-signed int osc_debug_handler(const char *path, const char *types, union anonymous$3 **argv, signed int argc, void *data, void *user_data)
+signed int osc_debug_handler(const char *path, const char *types, union anonymous_3 **argv, signed int argc, void *data, void *user_data)
 {
   signed int i;
   printf("%s: got unhandled OSC message:\npath: <%s>\n", myName, path);
@@ -2994,7 +2994,7 @@ signed int osc_debug_handler(const char *path, const char *types, union anonymou
   for( ; !(i >= argc); i = i + 1)
   {
     printf("%s: arg %d '%c' ", myName, i, types[(signed long int)i]);
-    lo_arg_pp((enum anonymous$2)types[(signed long int)i], (void *)argv[(signed long int)i]);
+    lo_arg_pp((enum anonymous_2)types[(signed long int)i], (void *)argv[(signed long int)i]);
     printf("\n");
   }
   printf("%s:\n", myName);
@@ -3010,7 +3010,7 @@ void osc_error(signed int num, const char *msg, const char *path)
 
 // osc_exiting_handler
 // file jack-dssi-host.c line 1858
-signed int osc_exiting_handler(struct _d3h_instance_t *instance, union anonymous$3 **argv)
+signed int osc_exiting_handler(struct _d3h_instance_t *instance, union anonymous_3 **argv)
 {
   signed int i;
   if(!(verbose == 0))
@@ -3045,7 +3045,7 @@ signed int osc_exiting_handler(struct _d3h_instance_t *instance, union anonymous
 
 // osc_message_handler
 // file jack-dssi-host.c line 1921
-signed int osc_message_handler(const char *path, const char *types, union anonymous$3 **argv, signed int argc, void *data, void *user_data)
+signed int osc_message_handler(const char *path, const char *types, union anonymous_3 **argv, signed int argc, void *data, void *user_data)
 {
   signed int i;
   struct _d3h_instance_t *instance = (struct _d3h_instance_t *)(void *)0;
@@ -3054,35 +3054,35 @@ signed int osc_message_handler(const char *path, const char *types, union anonym
   void *message;
   void *source;
   signed int send_to_ui = 0;
-  signed int return_value_strncmp$2;
-  return_value_strncmp$2=strncmp(path, "/dssi/", (unsigned long int)6);
-  signed int return_value_osc_debug_handler$1;
-  signed int return_value_osc_debug_handler$5;
-  _Bool tmp_if_expr$7;
-  signed int return_value_osc_debug_handler$6;
-  signed int tmp_statement_expression$8;
-  _Bool tmp_if_expr$16;
-  signed int tmp_statement_expression$12;
-  signed int tmp_statement_expression$45;
-  _Bool tmp_if_expr$49;
-  signed int tmp_statement_expression$47;
-  signed int tmp_statement_expression$40;
-  _Bool tmp_if_expr$44;
-  signed int tmp_statement_expression$42;
-  signed int tmp_statement_expression$35;
-  _Bool tmp_if_expr$39;
-  signed int tmp_statement_expression$37;
-  signed int tmp_statement_expression$30;
-  _Bool tmp_if_expr$34;
-  signed int tmp_statement_expression$32;
-  signed int tmp_statement_expression$25;
-  _Bool tmp_if_expr$29;
-  signed int tmp_statement_expression$27;
-  signed int tmp_statement_expression$23;
-  if(!(return_value_strncmp$2 == 0))
+  signed int return_value_strncmp_2;
+  return_value_strncmp_2=strncmp(path, "/dssi/", (unsigned long int)6);
+  signed int return_value_osc_debug_handler_1;
+  signed int return_value_osc_debug_handler_5;
+  _Bool tmp_if_expr_7;
+  signed int return_value_osc_debug_handler_6;
+  signed int tmp_statement_expression_8;
+  _Bool tmp_if_expr_16;
+  signed int tmp_statement_expression_12;
+  signed int tmp_statement_expression_45;
+  _Bool tmp_if_expr_49;
+  signed int tmp_statement_expression_47;
+  signed int tmp_statement_expression_40;
+  _Bool tmp_if_expr_44;
+  signed int tmp_statement_expression_42;
+  signed int tmp_statement_expression_35;
+  _Bool tmp_if_expr_39;
+  signed int tmp_statement_expression_37;
+  signed int tmp_statement_expression_30;
+  _Bool tmp_if_expr_34;
+  signed int tmp_statement_expression_32;
+  signed int tmp_statement_expression_25;
+  _Bool tmp_if_expr_29;
+  signed int tmp_statement_expression_27;
+  signed int tmp_statement_expression_23;
+  if(!(return_value_strncmp_2 == 0))
   {
-    return_value_osc_debug_handler$1=osc_debug_handler(path, types, argv, argc, data, user_data);
-    return return_value_osc_debug_handler$1;
+    return_value_osc_debug_handler_1=osc_debug_handler(path, types, argv, argc, data, user_data);
+    return return_value_osc_debug_handler_1;
   }
 
   else
@@ -3090,12 +3090,12 @@ signed int osc_message_handler(const char *path, const char *types, union anonym
     i = 0;
     for( ; !(i >= instance_count); i = i + 1)
     {
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(instances[(signed long int)i].friendly_name);
-      flen = (unsigned int)return_value_strlen$3;
-      signed int return_value_strncmp$4;
-      return_value_strncmp$4=strncmp(path + (signed long int)6, instances[(signed long int)i].friendly_name, (unsigned long int)flen);
-      if(return_value_strncmp$4 == 0)
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(instances[(signed long int)i].friendly_name);
+      flen = (unsigned int)return_value_strlen_3;
+      signed int return_value_strncmp_4;
+      return_value_strncmp_4=strncmp(path + (signed long int)6, instances[(signed long int)i].friendly_name, (unsigned long int)flen);
+      if(return_value_strncmp_4 == 0)
       {
         if((signed int)path[6l + (signed long int)flen] == 47)
         {
@@ -3108,22 +3108,22 @@ signed int osc_message_handler(const char *path, const char *types, union anonym
     }
     if(instance == ((struct _d3h_instance_t *)NULL))
     {
-      return_value_osc_debug_handler$5=osc_debug_handler(path, types, argv, argc, data, user_data);
-      return return_value_osc_debug_handler$5;
+      return_value_osc_debug_handler_5=osc_debug_handler(path, types, argv, argc, data, user_data);
+      return return_value_osc_debug_handler_5;
     }
 
     else
     {
       method = path + (signed long int)6 + (signed long int)flen;
       if(!((signed int)*method == 47))
-        tmp_if_expr$7 = (_Bool)1;
+        tmp_if_expr_7 = (_Bool)1;
 
       else
-        tmp_if_expr$7 = (signed int)method[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$7)
+        tmp_if_expr_7 = (signed int)method[(signed long int)1] == 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_7)
       {
-        return_value_osc_debug_handler$6=osc_debug_handler(path, types, argv, argc, data, user_data);
-        return return_value_osc_debug_handler$6;
+        return_value_osc_debug_handler_6=osc_debug_handler(path, types, argv, argc, data, user_data);
+        return return_value_osc_debug_handler_6;
       }
 
       else
@@ -3135,189 +3135,189 @@ signed int osc_message_handler(const char *path, const char *types, union anonym
         {
           if(!(instance->uiTarget == NULL))
           {
-            unsigned long int osc_message_handler$$1$$3$$1$$__s1_len;
-            unsigned long int osc_message_handler$$1$$3$$1$$__s2_len;
-            const char *return_value_lo_address_get_hostname$9;
-            return_value_lo_address_get_hostname$9=lo_address_get_hostname(source);
-            const char *return_value_lo_address_get_hostname$10;
-            return_value_lo_address_get_hostname$10=lo_address_get_hostname(instance->uiSource);
-            signed int return_value___builtin_strcmp$11;
-            return_value___builtin_strcmp$11=__builtin_strcmp(return_value_lo_address_get_hostname$9, return_value_lo_address_get_hostname$10);
-            tmp_statement_expression$8 = return_value___builtin_strcmp$11;
-            if(!(tmp_statement_expression$8 == 0))
-              tmp_if_expr$16 = (_Bool)1;
+            unsigned long int osc_message_handler__1__3__1____s1_len;
+            unsigned long int osc_message_handler__1__3__1____s2_len;
+            const char *return_value_lo_address_get_hostname_9;
+            return_value_lo_address_get_hostname_9=lo_address_get_hostname(source);
+            const char *return_value_lo_address_get_hostname_10;
+            return_value_lo_address_get_hostname_10=lo_address_get_hostname(instance->uiSource);
+            signed int return_value___builtin_strcmp_11;
+            return_value___builtin_strcmp_11=__builtin_strcmp(return_value_lo_address_get_hostname_9, return_value_lo_address_get_hostname_10);
+            tmp_statement_expression_8 = return_value___builtin_strcmp_11;
+            if(!(tmp_statement_expression_8 == 0))
+              tmp_if_expr_16 = (_Bool)1;
 
             else
             {
-              unsigned long int osc_message_handler$$1$$3$$2$$__s1_len;
-              unsigned long int osc_message_handler$$1$$3$$2$$__s2_len;
-              const char *return_value_lo_address_get_port$13;
-              return_value_lo_address_get_port$13=lo_address_get_port(source);
-              const char *return_value_lo_address_get_port$14;
-              return_value_lo_address_get_port$14=lo_address_get_port(instance->uiSource);
-              signed int return_value___builtin_strcmp$15;
-              return_value___builtin_strcmp$15=__builtin_strcmp(return_value_lo_address_get_port$13, return_value_lo_address_get_port$14);
-              tmp_statement_expression$12 = return_value___builtin_strcmp$15;
-              tmp_if_expr$16 = tmp_statement_expression$12 != 0 ? (_Bool)1 : (_Bool)0;
+              unsigned long int osc_message_handler__1__3__2____s1_len;
+              unsigned long int osc_message_handler__1__3__2____s2_len;
+              const char *return_value_lo_address_get_port_13;
+              return_value_lo_address_get_port_13=lo_address_get_port(source);
+              const char *return_value_lo_address_get_port_14;
+              return_value_lo_address_get_port_14=lo_address_get_port(instance->uiSource);
+              signed int return_value___builtin_strcmp_15;
+              return_value___builtin_strcmp_15=__builtin_strcmp(return_value_lo_address_get_port_13, return_value_lo_address_get_port_14);
+              tmp_statement_expression_12 = return_value___builtin_strcmp_15;
+              tmp_if_expr_16 = tmp_statement_expression_12 != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$16)
+            if(tmp_if_expr_16)
               send_to_ui = 1;
 
           }
 
         }
 
-        unsigned long int osc_message_handler$$1$$4$$__s1_len;
-        unsigned long int osc_message_handler$$1$$4$$__s2_len;
-        signed int return_value___builtin_strcmp$46;
-        return_value___builtin_strcmp$46=__builtin_strcmp(method, "configure");
-        tmp_statement_expression$45 = return_value___builtin_strcmp$46;
-        if(tmp_statement_expression$45 == 0 && argc == 2)
+        unsigned long int osc_message_handler__1__4____s1_len;
+        unsigned long int osc_message_handler__1__4____s2_len;
+        signed int return_value___builtin_strcmp_46;
+        return_value___builtin_strcmp_46=__builtin_strcmp(method, "configure");
+        tmp_statement_expression_45 = return_value___builtin_strcmp_46;
+        if(tmp_statement_expression_45 == 0 && argc == 2)
         {
-          unsigned long int osc_message_handler$$1$$5$$__s1_len;
-          unsigned long int osc_message_handler$$1$$5$$__s2_len;
-          signed int return_value___builtin_strcmp$48;
-          return_value___builtin_strcmp$48=__builtin_strcmp(types, "ss");
-          tmp_statement_expression$47 = return_value___builtin_strcmp$48;
-          tmp_if_expr$49 = !(tmp_statement_expression$47 != 0) ? (_Bool)1 : (_Bool)0;
+          unsigned long int osc_message_handler__1__5____s1_len;
+          unsigned long int osc_message_handler__1__5____s2_len;
+          signed int return_value___builtin_strcmp_48;
+          return_value___builtin_strcmp_48=__builtin_strcmp(types, "ss");
+          tmp_statement_expression_47 = return_value___builtin_strcmp_48;
+          tmp_if_expr_49 = !(tmp_statement_expression_47 != 0) ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$49 = (_Bool)0;
-        if(tmp_if_expr$49)
+          tmp_if_expr_49 = (_Bool)0;
+        if(tmp_if_expr_49)
         {
           if(!(send_to_ui == 0))
             lo_send_internal(instance->uiTarget, "jack-dssi-host.c", 1974, instance->ui_osc_configure_path, "ss", &argv[(signed long int)0]->s, &argv[(signed long int)1]->s, (void *)0xdeadbeefdeadbeefL, (void *)0xf00baa23f00baa23L);
 
-          signed int return_value_osc_configure_handler$17;
-          return_value_osc_configure_handler$17=osc_configure_handler(instance, argv);
-          return return_value_osc_configure_handler$17;
+          signed int return_value_osc_configure_handler_17;
+          return_value_osc_configure_handler_17=osc_configure_handler(instance, argv);
+          return return_value_osc_configure_handler_17;
         }
 
         else
         {
-          unsigned long int osc_message_handler$$1$$7$$__s1_len;
-          unsigned long int osc_message_handler$$1$$7$$__s2_len;
-          signed int return_value___builtin_strcmp$41;
-          return_value___builtin_strcmp$41=__builtin_strcmp(method, "control");
-          tmp_statement_expression$40 = return_value___builtin_strcmp$41;
-          if(tmp_statement_expression$40 == 0 && argc == 2)
+          unsigned long int osc_message_handler__1__7____s1_len;
+          unsigned long int osc_message_handler__1__7____s2_len;
+          signed int return_value___builtin_strcmp_41;
+          return_value___builtin_strcmp_41=__builtin_strcmp(method, "control");
+          tmp_statement_expression_40 = return_value___builtin_strcmp_41;
+          if(tmp_statement_expression_40 == 0 && argc == 2)
           {
-            unsigned long int osc_message_handler$$1$$8$$__s1_len;
-            unsigned long int osc_message_handler$$1$$8$$__s2_len;
-            signed int return_value___builtin_strcmp$43;
-            return_value___builtin_strcmp$43=__builtin_strcmp(types, "if");
-            tmp_statement_expression$42 = return_value___builtin_strcmp$43;
-            tmp_if_expr$44 = !(tmp_statement_expression$42 != 0) ? (_Bool)1 : (_Bool)0;
+            unsigned long int osc_message_handler__1__8____s1_len;
+            unsigned long int osc_message_handler__1__8____s2_len;
+            signed int return_value___builtin_strcmp_43;
+            return_value___builtin_strcmp_43=__builtin_strcmp(types, "if");
+            tmp_statement_expression_42 = return_value___builtin_strcmp_43;
+            tmp_if_expr_44 = !(tmp_statement_expression_42 != 0) ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$44 = (_Bool)0;
-          if(tmp_if_expr$44)
+            tmp_if_expr_44 = (_Bool)0;
+          if(tmp_if_expr_44)
           {
             if(!(send_to_ui == 0))
               lo_send_internal(instance->uiTarget, "jack-dssi-host.c", 1983, instance->ui_osc_control_path, "if", argv[(signed long int)0]->i, argv[(signed long int)1]->f, (void *)0xdeadbeefdeadbeefL, (void *)0xf00baa23f00baa23L);
 
-            signed int return_value_osc_control_handler$18;
-            return_value_osc_control_handler$18=osc_control_handler(instance, argv);
-            return return_value_osc_control_handler$18;
+            signed int return_value_osc_control_handler_18;
+            return_value_osc_control_handler_18=osc_control_handler(instance, argv);
+            return return_value_osc_control_handler_18;
           }
 
           else
           {
             unsigned long int __s1_len;
             unsigned long int __s2_len;
-            signed int return_value___builtin_strcmp$36;
-            return_value___builtin_strcmp$36=__builtin_strcmp(method, "midi");
-            tmp_statement_expression$35 = return_value___builtin_strcmp$36;
-            if(tmp_statement_expression$35 == 0 && argc == 1)
+            signed int return_value___builtin_strcmp_36;
+            return_value___builtin_strcmp_36=__builtin_strcmp(method, "midi");
+            tmp_statement_expression_35 = return_value___builtin_strcmp_36;
+            if(tmp_statement_expression_35 == 0 && argc == 1)
             {
-              unsigned long int osc_message_handler$$1$$11$$__s1_len;
-              unsigned long int osc_message_handler$$1$$11$$__s2_len;
-              signed int return_value___builtin_strcmp$38;
-              return_value___builtin_strcmp$38=__builtin_strcmp(types, "m");
-              tmp_statement_expression$37 = return_value___builtin_strcmp$38;
-              tmp_if_expr$39 = !(tmp_statement_expression$37 != 0) ? (_Bool)1 : (_Bool)0;
+              unsigned long int osc_message_handler__1__11____s1_len;
+              unsigned long int osc_message_handler__1__11____s2_len;
+              signed int return_value___builtin_strcmp_38;
+              return_value___builtin_strcmp_38=__builtin_strcmp(types, "m");
+              tmp_statement_expression_37 = return_value___builtin_strcmp_38;
+              tmp_if_expr_39 = !(tmp_statement_expression_37 != 0) ? (_Bool)1 : (_Bool)0;
             }
 
             else
-              tmp_if_expr$39 = (_Bool)0;
-            if(tmp_if_expr$39)
+              tmp_if_expr_39 = (_Bool)0;
+            if(tmp_if_expr_39)
             {
-              signed int return_value_osc_midi_handler$19;
-              return_value_osc_midi_handler$19=osc_midi_handler(instance, argv);
-              return return_value_osc_midi_handler$19;
+              signed int return_value_osc_midi_handler_19;
+              return_value_osc_midi_handler_19=osc_midi_handler(instance, argv);
+              return return_value_osc_midi_handler_19;
             }
 
             else
             {
-              unsigned long int osc_message_handler$$1$$13$$__s1_len;
-              unsigned long int osc_message_handler$$1$$13$$__s2_len;
-              signed int return_value___builtin_strcmp$31;
-              return_value___builtin_strcmp$31=__builtin_strcmp(method, "program");
-              tmp_statement_expression$30 = return_value___builtin_strcmp$31;
-              if(tmp_statement_expression$30 == 0 && argc == 2)
+              unsigned long int osc_message_handler__1__13____s1_len;
+              unsigned long int osc_message_handler__1__13____s2_len;
+              signed int return_value___builtin_strcmp_31;
+              return_value___builtin_strcmp_31=__builtin_strcmp(method, "program");
+              tmp_statement_expression_30 = return_value___builtin_strcmp_31;
+              if(tmp_statement_expression_30 == 0 && argc == 2)
               {
-                unsigned long int osc_message_handler$$1$$14$$__s1_len;
-                unsigned long int osc_message_handler$$1$$14$$__s2_len;
-                signed int return_value___builtin_strcmp$33;
-                return_value___builtin_strcmp$33=__builtin_strcmp(types, "ii");
-                tmp_statement_expression$32 = return_value___builtin_strcmp$33;
-                tmp_if_expr$34 = !(tmp_statement_expression$32 != 0) ? (_Bool)1 : (_Bool)0;
+                unsigned long int osc_message_handler__1__14____s1_len;
+                unsigned long int osc_message_handler__1__14____s2_len;
+                signed int return_value___builtin_strcmp_33;
+                return_value___builtin_strcmp_33=__builtin_strcmp(types, "ii");
+                tmp_statement_expression_32 = return_value___builtin_strcmp_33;
+                tmp_if_expr_34 = !(tmp_statement_expression_32 != 0) ? (_Bool)1 : (_Bool)0;
               }
 
               else
-                tmp_if_expr$34 = (_Bool)0;
-              if(tmp_if_expr$34)
+                tmp_if_expr_34 = (_Bool)0;
+              if(tmp_if_expr_34)
               {
                 if(!(send_to_ui == 0))
                   lo_send_internal(instance->uiTarget, "jack-dssi-host.c", 1996, instance->ui_osc_program_path, "ii", argv[(signed long int)0]->i, argv[(signed long int)1]->i, (void *)0xdeadbeefdeadbeefL, (void *)0xf00baa23f00baa23L);
 
-                signed int return_value_osc_program_handler$20;
-                return_value_osc_program_handler$20=osc_program_handler(instance, argv);
-                return return_value_osc_program_handler$20;
+                signed int return_value_osc_program_handler_20;
+                return_value_osc_program_handler_20=osc_program_handler(instance, argv);
+                return return_value_osc_program_handler_20;
               }
 
               else
               {
-                unsigned long int osc_message_handler$$1$$16$$__s1_len;
-                unsigned long int osc_message_handler$$1$$16$$__s2_len;
-                signed int return_value___builtin_strcmp$26;
-                return_value___builtin_strcmp$26=__builtin_strcmp(method, "update");
-                tmp_statement_expression$25 = return_value___builtin_strcmp$26;
-                if(tmp_statement_expression$25 == 0 && argc == 1)
+                unsigned long int osc_message_handler__1__16____s1_len;
+                unsigned long int osc_message_handler__1__16____s2_len;
+                signed int return_value___builtin_strcmp_26;
+                return_value___builtin_strcmp_26=__builtin_strcmp(method, "update");
+                tmp_statement_expression_25 = return_value___builtin_strcmp_26;
+                if(tmp_statement_expression_25 == 0 && argc == 1)
                 {
-                  unsigned long int osc_message_handler$$1$$17$$__s1_len;
-                  unsigned long int osc_message_handler$$1$$17$$__s2_len;
-                  signed int return_value___builtin_strcmp$28;
-                  return_value___builtin_strcmp$28=__builtin_strcmp(types, "s");
-                  tmp_statement_expression$27 = return_value___builtin_strcmp$28;
-                  tmp_if_expr$29 = !(tmp_statement_expression$27 != 0) ? (_Bool)1 : (_Bool)0;
+                  unsigned long int osc_message_handler__1__17____s1_len;
+                  unsigned long int osc_message_handler__1__17____s2_len;
+                  signed int return_value___builtin_strcmp_28;
+                  return_value___builtin_strcmp_28=__builtin_strcmp(types, "s");
+                  tmp_statement_expression_27 = return_value___builtin_strcmp_28;
+                  tmp_if_expr_29 = !(tmp_statement_expression_27 != 0) ? (_Bool)1 : (_Bool)0;
                 }
 
                 else
-                  tmp_if_expr$29 = (_Bool)0;
-                if(tmp_if_expr$29)
+                  tmp_if_expr_29 = (_Bool)0;
+                if(tmp_if_expr_29)
                 {
-                  signed int return_value_osc_update_handler$21;
-                  return_value_osc_update_handler$21=osc_update_handler(instance, argv, source);
-                  return return_value_osc_update_handler$21;
+                  signed int return_value_osc_update_handler_21;
+                  return_value_osc_update_handler_21=osc_update_handler(instance, argv, source);
+                  return return_value_osc_update_handler_21;
                 }
 
                 else
                 {
-                  unsigned long int osc_message_handler$$1$$19$$__s1_len;
-                  unsigned long int osc_message_handler$$1$$19$$__s2_len;
-                  signed int return_value___builtin_strcmp$24;
-                  return_value___builtin_strcmp$24=__builtin_strcmp(method, "exiting");
-                  tmp_statement_expression$23 = return_value___builtin_strcmp$24;
-                  if(tmp_statement_expression$23 == 0)
+                  unsigned long int osc_message_handler__1__19____s1_len;
+                  unsigned long int osc_message_handler__1__19____s2_len;
+                  signed int return_value___builtin_strcmp_24;
+                  return_value___builtin_strcmp_24=__builtin_strcmp(method, "exiting");
+                  tmp_statement_expression_23 = return_value___builtin_strcmp_24;
+                  if(tmp_statement_expression_23 == 0)
                   {
                     if(argc == 0)
                     {
-                      signed int return_value_osc_exiting_handler$22;
-                      return_value_osc_exiting_handler$22=osc_exiting_handler(instance, argv);
-                      return return_value_osc_exiting_handler$22;
+                      signed int return_value_osc_exiting_handler_22;
+                      return_value_osc_exiting_handler_22=osc_exiting_handler(instance, argv);
+                      return return_value_osc_exiting_handler_22;
                     }
 
                   }
@@ -3327,9 +3327,9 @@ signed int osc_message_handler(const char *path, const char *types, union anonym
             }
           }
         }
-        signed int return_value_osc_debug_handler$50;
-        return_value_osc_debug_handler$50=osc_debug_handler(path, types, argv, argc, data, user_data);
-        return return_value_osc_debug_handler$50;
+        signed int return_value_osc_debug_handler_50;
+        return_value_osc_debug_handler_50=osc_debug_handler(path, types, argv, argc, data, user_data);
+        return return_value_osc_debug_handler_50;
       }
     }
   }
@@ -3337,7 +3337,7 @@ signed int osc_message_handler(const char *path, const char *types, union anonym
 
 // osc_midi_handler
 // file jack-dssi-host.c line 1572
-signed int osc_midi_handler(struct _d3h_instance_t *instance, union anonymous$3 **argv)
+signed int osc_midi_handler(struct _d3h_instance_t *instance, union anonymous_3 **argv)
 {
   signed long int count;
   static struct snd_seq_event alsaEncodeBuffer[10l];
@@ -3348,9 +3348,9 @@ signed int osc_midi_handler(struct _d3h_instance_t *instance, union anonymous$3 
   static struct snd_midi_event *alsaCoder = (struct snd_midi_event *)(void *)0;
   if(alsaCoder == ((struct snd_midi_event *)NULL))
   {
-    signed int return_value_snd_midi_event_new$1;
-    return_value_snd_midi_event_new$1=snd_midi_event_new((unsigned long int)10, &alsaCoder);
-    if(!(return_value_snd_midi_event_new$1 == 0))
+    signed int return_value_snd_midi_event_new_1;
+    return_value_snd_midi_event_new_1=snd_midi_event_new((unsigned long int)10, &alsaCoder);
+    if(!(return_value_snd_midi_event_new_1 == 0))
     {
       fprintf(stderr, "%s: Failed to initialise ALSA MIDI coder!\n", myName);
       return 0;
@@ -3360,15 +3360,15 @@ signed int osc_midi_handler(struct _d3h_instance_t *instance, union anonymous$3 
 
   snd_midi_event_reset_encode(alsaCoder);
   count=snd_midi_event_encode(alsaCoder, argv[(signed long int)0]->m + (signed long int)1, (signed long int)3, alsaEncodeBuffer);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(count == 0l)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !((snd_seq_event_types[(signed long int)ev->type] & (unsigned int)(1 << 1 | 1 << 2)) != 0u) ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = !((snd_seq_event_types[(signed long int)ev->type] & (unsigned int)(1 << 1 | 1 << 2)) != 0u) ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  if(tmp_if_expr_2)
     return 0;
 
   else
@@ -3390,16 +3390,16 @@ signed int osc_midi_handler(struct _d3h_instance_t *instance, union anonymous$3 
       if((signed int)ev->type == 10)
       {
         if(ev->data.control.param == 0u)
-          tmp_if_expr$3 = (_Bool)1;
+          tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr$3 = ev->data.control.param == (unsigned int)32 ? (_Bool)1 : (_Bool)0;
-        tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_3 = ev->data.control.param == (unsigned int)32 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
       }
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      if(tmp_if_expr$4)
+        tmp_if_expr_4 = (_Bool)0;
+      if(tmp_if_expr_4)
         fprintf(stderr, "%s: Warning: %s UI sent bank select controller (should use /program OSC call), ignoring\n", myName, instance->friendly_name);
 
       else
@@ -3419,7 +3419,7 @@ signed int osc_midi_handler(struct _d3h_instance_t *instance, union anonymous$3 
 
 // osc_program_handler
 // file jack-dssi-host.c line 1662
-signed int osc_program_handler(struct _d3h_instance_t *instance, union anonymous$3 **argv)
+signed int osc_program_handler(struct _d3h_instance_t *instance, union anonymous_3 **argv)
 {
   signed int bank = argv[(signed long int)0]->i;
   signed int program = argv[(signed long int)1]->i;
@@ -3451,13 +3451,13 @@ signed int osc_program_handler(struct _d3h_instance_t *instance, union anonymous
 
 // osc_update_handler
 // file jack-dssi-host.c line 1761
-signed int osc_update_handler(struct _d3h_instance_t *instance, union anonymous$3 **argv, void *source)
+signed int osc_update_handler(struct _d3h_instance_t *instance, union anonymous_3 **argv, void *source)
 {
   const char *url = (char *)&argv[(signed long int)0]->s;
   const char *path;
   unsigned int i;
   char *host;
-  char *osc_update_handler$$1$$port;
+  char *osc_update_handler__1__port;
   const char *chost;
   const char *cport;
   if(!(verbose == 0))
@@ -3467,10 +3467,10 @@ signed int osc_update_handler(struct _d3h_instance_t *instance, union anonymous$
     lo_address_free(instance->uiTarget);
 
   host=lo_url_get_hostname(url);
-  osc_update_handler$$1$$port=lo_url_get_port(url);
-  instance->uiTarget=lo_address_new(host, osc_update_handler$$1$$port);
+  osc_update_handler__1__port=lo_url_get_port(url);
+  instance->uiTarget=lo_address_new(host, osc_update_handler__1__port);
   free((void *)host);
-  free((void *)osc_update_handler$$1$$port);
+  free((void *)osc_update_handler__1__port);
   if(!(instance->uiSource == NULL))
     lo_address_free(instance->uiSource);
 
@@ -3481,61 +3481,61 @@ signed int osc_update_handler(struct _d3h_instance_t *instance, union anonymous$
   if(!(instance->ui_osc_control_path == ((char *)NULL)))
     free((void *)instance->ui_osc_control_path);
 
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(path);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)10);
-  instance->ui_osc_control_path = (char *)return_value_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(path);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)10);
+  instance->ui_osc_control_path = (char *)return_value_malloc_2;
   sprintf(instance->ui_osc_control_path, "%s/control", path);
   if(!(instance->ui_osc_configure_path == ((char *)NULL)))
     free((void *)instance->ui_osc_configure_path);
 
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(path);
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(return_value_strlen$3 + (unsigned long int)12);
-  instance->ui_osc_configure_path = (char *)return_value_malloc$4;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(path);
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(return_value_strlen_3 + (unsigned long int)12);
+  instance->ui_osc_configure_path = (char *)return_value_malloc_4;
   sprintf(instance->ui_osc_configure_path, "%s/configure", path);
   if(!(instance->ui_osc_program_path == ((char *)NULL)))
     free((void *)instance->ui_osc_program_path);
 
-  unsigned long int return_value_strlen$5;
-  return_value_strlen$5=strlen(path);
-  void *return_value_malloc$6;
-  return_value_malloc$6=malloc(return_value_strlen$5 + (unsigned long int)10);
-  instance->ui_osc_program_path = (char *)return_value_malloc$6;
+  unsigned long int return_value_strlen_5;
+  return_value_strlen_5=strlen(path);
+  void *return_value_malloc_6;
+  return_value_malloc_6=malloc(return_value_strlen_5 + (unsigned long int)10);
+  instance->ui_osc_program_path = (char *)return_value_malloc_6;
   sprintf(instance->ui_osc_program_path, "%s/program", path);
   if(!(instance->ui_osc_quit_path == ((char *)NULL)))
     free((void *)instance->ui_osc_quit_path);
 
-  unsigned long int return_value_strlen$7;
-  return_value_strlen$7=strlen(path);
-  void *return_value_malloc$8;
-  return_value_malloc$8=malloc(return_value_strlen$7 + (unsigned long int)10);
-  instance->ui_osc_quit_path = (char *)return_value_malloc$8;
+  unsigned long int return_value_strlen_7;
+  return_value_strlen_7=strlen(path);
+  void *return_value_malloc_8;
+  return_value_malloc_8=malloc(return_value_strlen_7 + (unsigned long int)10);
+  instance->ui_osc_quit_path = (char *)return_value_malloc_8;
   sprintf(instance->ui_osc_quit_path, "%s/quit", path);
   if(!(instance->ui_osc_rate_path == ((char *)NULL)))
     free((void *)instance->ui_osc_rate_path);
 
-  unsigned long int return_value_strlen$9;
-  return_value_strlen$9=strlen(path);
-  void *return_value_malloc$10;
-  return_value_malloc$10=malloc(return_value_strlen$9 + (unsigned long int)13);
-  instance->ui_osc_rate_path = (char *)return_value_malloc$10;
+  unsigned long int return_value_strlen_9;
+  return_value_strlen_9=strlen(path);
+  void *return_value_malloc_10;
+  return_value_malloc_10=malloc(return_value_strlen_9 + (unsigned long int)13);
+  instance->ui_osc_rate_path = (char *)return_value_malloc_10;
   sprintf(instance->ui_osc_rate_path, "%s/sample-rate", path);
   if(!(instance->ui_osc_show_path == ((char *)NULL)))
     free((void *)instance->ui_osc_show_path);
 
-  unsigned long int return_value_strlen$11;
-  return_value_strlen$11=strlen(path);
-  void *return_value_malloc$12;
-  return_value_malloc$12=malloc(return_value_strlen$11 + (unsigned long int)10);
-  instance->ui_osc_show_path = (char *)return_value_malloc$12;
+  unsigned long int return_value_strlen_11;
+  return_value_strlen_11=strlen(path);
+  void *return_value_malloc_12;
+  return_value_malloc_12=malloc(return_value_strlen_11 + (unsigned long int)10);
+  instance->ui_osc_show_path = (char *)return_value_malloc_12;
   sprintf(instance->ui_osc_show_path, "%s/show", path);
   free((void *)(char *)path);
-  signed long int return_value_lrintf$13;
-  return_value_lrintf$13=lrintf(sample_rate);
-  lo_send_internal(instance->uiTarget, "jack-dssi-host.c", 1814, instance->ui_osc_rate_path, "i", return_value_lrintf$13, (void *)0xdeadbeefdeadbeefL, (void *)0xf00baa23f00baa23L);
+  signed long int return_value_lrintf_13;
+  return_value_lrintf_13=lrintf(sample_rate);
+  lo_send_internal(instance->uiTarget, "jack-dssi-host.c", 1814, instance->ui_osc_rate_path, "i", return_value_lrintf_13, (void *)0xdeadbeefdeadbeefL, (void *)0xf00baa23f00baa23L);
   if(!(projectDirectory == ((char *)NULL)))
     lo_send_internal(instance->uiTarget, "jack-dssi-host.c", 1825, instance->ui_osc_configure_path, "ss", (const void *)"DSSI:PROJECT_DIRECTORY", projectDirectory, (void *)0xdeadbeefdeadbeefL, (void *)0xf00baa23f00baa23L);
 
@@ -3599,9 +3599,9 @@ void query_programs(struct _d3h_instance_t *instance)
       if(i >= 1)
       {
         instance->pluginProgramCount = i;
-        void *return_value_malloc$1;
-        return_value_malloc$1=malloc((unsigned long int)i * sizeof(struct _DSSI_Program_Descriptor) /*24ul*/ );
-        instance->pluginPrograms = (struct _DSSI_Program_Descriptor *)return_value_malloc$1;
+        void *return_value_malloc_1;
+        return_value_malloc_1=malloc((unsigned long int)i * sizeof(struct _DSSI_Program_Descriptor) /*24ul*/ );
+        instance->pluginPrograms = (struct _DSSI_Program_Descriptor *)return_value_malloc_1;
         if(i >= 1)
         {
           const struct _DSSI_Program_Descriptor *descriptor;
@@ -3609,9 +3609,9 @@ void query_programs(struct _d3h_instance_t *instance)
           descriptor=instance->plugin->descriptor->get_program(instanceHandles[(signed long int)instance->number], (unsigned long int)i);
           (instance->pluginPrograms + (signed long int)i)->Bank = descriptor->Bank;
           (instance->pluginPrograms + (signed long int)i)->Program = descriptor->Program;
-          char *return_value___strdup$2;
-          return_value___strdup$2=__strdup(descriptor->Name);
-          (instance->pluginPrograms + (signed long int)i)->Name = return_value___strdup$2;
+          char *return_value___strdup_2;
+          return_value___strdup_2=__strdup(descriptor->Name);
+          (instance->pluginPrograms + (signed long int)i)->Name = return_value___strdup_2;
           if(!(verbose == 0))
             printf("%s: %s program %d is MIDI bank %lu program %lu, named '%s'\n", myName, instance->friendly_name, i, (instance->pluginPrograms + (signed long int)i)->Bank, (instance->pluginPrograms + (signed long int)i)->Program, (instance->pluginPrograms + (signed long int)i)->Name);
 
@@ -3662,9 +3662,9 @@ void setControl(struct _d3h_instance_t *instance, signed long int controlIn, str
         value = lb + ((ub - lb) * value) / 127.0f;
   if(!((0x20 & d) == 0))
   {
-    signed long int return_value_lrintf$1;
-    return_value_lrintf$1=lrintf(value);
-    value = (float)return_value_lrintf$1;
+    signed long int return_value_lrintf_1;
+    return_value_lrintf_1=lrintf(value);
+    value = (float)return_value_lrintf_1;
   }
 
   if(!(verbose == 0))
@@ -3691,27 +3691,27 @@ void startGUI(const char *directory, const char *dllName, const char *label, con
 {
   struct dirent *entry;
   char *dllBase;
-  char *return_value___strdup$1;
-  return_value___strdup$1=__strdup(dllName);
-  dllBase = return_value___strdup$1;
+  char *return_value___strdup_1;
+  return_value___strdup_1=__strdup(dllName);
+  dllBase = return_value___strdup_1;
   char *subpath;
   struct __dirstream *subdir;
   char *filename;
   struct stat buf;
   signed int fuzzy;
-  unsigned long int return_value_strlen$5;
-  return_value_strlen$5=strlen(dllBase);
-  unsigned long int return_value_strlen$3;
-  signed int return_value_strcasecmp$4;
-  if(return_value_strlen$5 >= 4ul)
+  unsigned long int return_value_strlen_5;
+  return_value_strlen_5=strlen(dllBase);
+  unsigned long int return_value_strlen_3;
+  signed int return_value_strcasecmp_4;
+  if(return_value_strlen_5 >= 4ul)
   {
-    return_value_strlen$3=strlen(dllBase);
-    return_value_strcasecmp$4=strcasecmp((dllBase + (signed long int)return_value_strlen$3) - (signed long int)3, ".so");
-    if(return_value_strcasecmp$4 == 0)
+    return_value_strlen_3=strlen(dllBase);
+    return_value_strcasecmp_4=strcasecmp((dllBase + (signed long int)return_value_strlen_3) - (signed long int)3, ".so");
+    if(return_value_strcasecmp_4 == 0)
     {
-      unsigned long int return_value_strlen$2;
-      return_value_strlen$2=strlen(dllBase);
-      dllBase[(signed long int)(return_value_strlen$2 - (unsigned long int)3)] = (char)0;
+      unsigned long int return_value_strlen_2;
+      return_value_strlen_2=strlen(dllBase);
+      dllBase[(signed long int)(return_value_strlen_2 - (unsigned long int)3)] = (char)0;
     }
 
   }
@@ -3719,35 +3719,35 @@ void startGUI(const char *directory, const char *dllName, const char *label, con
   if((signed int)*dllBase == 47)
   {
     subpath = dllBase;
-    char *return_value_strrchr$6;
-    return_value_strrchr$6=strrchr(subpath, 47);
-    char *return_value___strdup$7;
-    return_value___strdup$7=__strdup(return_value_strrchr$6 + (signed long int)1);
-    dllBase = return_value___strdup$7;
+    char *return_value_strrchr_6;
+    return_value_strrchr_6=strrchr(subpath, 47);
+    char *return_value___strdup_7;
+    return_value___strdup_7=__strdup(return_value_strrchr_6 + (signed long int)1);
+    dllBase = return_value___strdup_7;
   }
 
   else
   {
-    unsigned long int return_value_strlen$8;
-    return_value_strlen$8=strlen(directory);
-    unsigned long int return_value_strlen$9;
-    return_value_strlen$9=strlen(dllBase);
-    void *return_value_malloc$10;
-    return_value_malloc$10=malloc(return_value_strlen$8 + return_value_strlen$9 + (unsigned long int)2);
-    subpath = (char *)return_value_malloc$10;
+    unsigned long int return_value_strlen_8;
+    return_value_strlen_8=strlen(directory);
+    unsigned long int return_value_strlen_9;
+    return_value_strlen_9=strlen(dllBase);
+    void *return_value_malloc_10;
+    return_value_malloc_10=malloc(return_value_strlen_8 + return_value_strlen_9 + (unsigned long int)2);
+    subpath = (char *)return_value_malloc_10;
     sprintf(subpath, "%s/%s", directory, dllBase);
   }
   fuzzy = 0;
-  _Bool tmp_if_expr$16;
-  unsigned long int return_value_strlen$14;
-  signed int return_value_strncmp$15;
-  _Bool tmp_if_expr$18;
-  unsigned long int return_value_strlen$17;
-  _Bool tmp_if_expr$23;
-  unsigned long int return_value_strlen$21;
-  signed int return_value_strncmp$22;
-  _Bool tmp_if_expr$25;
-  unsigned long int return_value_strlen$24;
+  _Bool tmp_if_expr_16;
+  unsigned long int return_value_strlen_14;
+  signed int return_value_strncmp_15;
+  _Bool tmp_if_expr_18;
+  unsigned long int return_value_strlen_17;
+  _Bool tmp_if_expr_23;
+  unsigned long int return_value_strlen_21;
+  signed int return_value_strncmp_22;
+  _Bool tmp_if_expr_25;
+  unsigned long int return_value_strlen_24;
   for( ; !(fuzzy >= 2); fuzzy = fuzzy + 1)
   {
     subdir=opendir(subpath);
@@ -3769,37 +3769,37 @@ void startGUI(const char *directory, const char *dllName, const char *label, con
 
       if(!((signed int)entry->d_name[0l] == 46))
       {
-        char *return_value___builtin_strchr$11;
-        return_value___builtin_strchr$11=__builtin_strchr(entry->d_name, 95);
-        if(!(return_value___builtin_strchr$11 == ((char *)NULL)))
+        char *return_value___builtin_strchr_11;
+        return_value___builtin_strchr_11=__builtin_strchr(entry->d_name, 95);
+        if(!(return_value___builtin_strchr_11 == ((char *)NULL)))
         {
           if(!(fuzzy == 0))
           {
             if(!(verbose == 0))
               fprintf(stderr, "checking %s against %s\n", (const void *)entry->d_name, dllBase);
 
-            unsigned long int return_value_strlen$12;
-            return_value_strlen$12=strlen(entry->d_name);
-            unsigned long int return_value_strlen$13;
-            return_value_strlen$13=strlen(dllBase);
-            if(return_value_strlen$13 >= return_value_strlen$12)
-              tmp_if_expr$16 = (_Bool)1;
+            unsigned long int return_value_strlen_12;
+            return_value_strlen_12=strlen(entry->d_name);
+            unsigned long int return_value_strlen_13;
+            return_value_strlen_13=strlen(dllBase);
+            if(return_value_strlen_13 >= return_value_strlen_12)
+              tmp_if_expr_16 = (_Bool)1;
 
             else
             {
-              return_value_strlen$14=strlen(dllBase);
-              return_value_strncmp$15=strncmp(entry->d_name, dllBase, return_value_strlen$14);
-              tmp_if_expr$16 = return_value_strncmp$15 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_strlen_14=strlen(dllBase);
+              return_value_strncmp_15=strncmp(entry->d_name, dllBase, return_value_strlen_14);
+              tmp_if_expr_16 = return_value_strncmp_15 != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$16)
-              tmp_if_expr$18 = (_Bool)1;
+            if(tmp_if_expr_16)
+              tmp_if_expr_18 = (_Bool)1;
 
             else
             {
-              return_value_strlen$17=strlen(dllBase);
-              tmp_if_expr$18 = (signed int)entry->d_name[(signed long int)return_value_strlen$17] != 95 ? (_Bool)1 : (_Bool)0;
+              return_value_strlen_17=strlen(dllBase);
+              tmp_if_expr_18 = (signed int)entry->d_name[(signed long int)return_value_strlen_17] != 95 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$18)
+            if(tmp_if_expr_18)
               continue;
 
           }
@@ -3809,42 +3809,42 @@ void startGUI(const char *directory, const char *dllName, const char *label, con
             if(!(verbose == 0))
               fprintf(stderr, "checking %s against %s\n", (const void *)entry->d_name, label);
 
-            unsigned long int return_value_strlen$19;
-            return_value_strlen$19=strlen(entry->d_name);
-            unsigned long int return_value_strlen$20;
-            return_value_strlen$20=strlen(label);
-            if(return_value_strlen$20 >= return_value_strlen$19)
-              tmp_if_expr$23 = (_Bool)1;
+            unsigned long int return_value_strlen_19;
+            return_value_strlen_19=strlen(entry->d_name);
+            unsigned long int return_value_strlen_20;
+            return_value_strlen_20=strlen(label);
+            if(return_value_strlen_20 >= return_value_strlen_19)
+              tmp_if_expr_23 = (_Bool)1;
 
             else
             {
-              return_value_strlen$21=strlen(label);
-              return_value_strncmp$22=strncmp(entry->d_name, label, return_value_strlen$21);
-              tmp_if_expr$23 = return_value_strncmp$22 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_strlen_21=strlen(label);
+              return_value_strncmp_22=strncmp(entry->d_name, label, return_value_strlen_21);
+              tmp_if_expr_23 = return_value_strncmp_22 != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$23)
-              tmp_if_expr$25 = (_Bool)1;
+            if(tmp_if_expr_23)
+              tmp_if_expr_25 = (_Bool)1;
 
             else
             {
-              return_value_strlen$24=strlen(label);
-              tmp_if_expr$25 = (signed int)entry->d_name[(signed long int)return_value_strlen$24] != 95 ? (_Bool)1 : (_Bool)0;
+              return_value_strlen_24=strlen(label);
+              tmp_if_expr_25 = (signed int)entry->d_name[(signed long int)return_value_strlen_24] != 95 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$25)
+            if(tmp_if_expr_25)
               continue;
 
           }
-          unsigned long int return_value_strlen$26;
-          return_value_strlen$26=strlen(subpath);
-          unsigned long int return_value_strlen$27;
-          return_value_strlen$27=strlen(entry->d_name);
-          void *return_value_malloc$28;
-          return_value_malloc$28=malloc(return_value_strlen$26 + return_value_strlen$27 + (unsigned long int)2);
-          filename = (char *)return_value_malloc$28;
+          unsigned long int return_value_strlen_26;
+          return_value_strlen_26=strlen(subpath);
+          unsigned long int return_value_strlen_27;
+          return_value_strlen_27=strlen(entry->d_name);
+          void *return_value_malloc_28;
+          return_value_malloc_28=malloc(return_value_strlen_26 + return_value_strlen_27 + (unsigned long int)2);
+          filename = (char *)return_value_malloc_28;
           sprintf(filename, "%s/%s", subpath, (const void *)entry->d_name);
-          signed int return_value_stat$29;
-          return_value_stat$29=stat(filename, &buf);
-          if(!(return_value_stat$29 == 0))
+          signed int return_value_stat_29;
+          return_value_stat_29=stat(filename, &buf);
+          if(!(return_value_stat_29 == 0))
           {
             perror("stat failed");
             free((void *)filename);
@@ -3857,9 +3857,9 @@ void startGUI(const char *directory, const char *dllName, const char *label, con
               if(!(verbose == 0))
                 fprintf(stderr, "%s: trying to execute GUI at \"%s\"\n", myName, filename);
 
-              signed int return_value_fork$30;
-              return_value_fork$30=fork();
-              if(return_value_fork$30 == 0)
+              signed int return_value_fork_30;
+              return_value_fork_30=fork();
+              if(return_value_fork_30 == 0)
               {
                 execlp(filename, filename, oscUrl, dllName, label, instanceTag, (void *)0);
                 perror("exec failed");
@@ -3895,8 +3895,8 @@ __CPROVER_DUMP_L29:
 // file /usr/include/x86_64-linux-gnu/sys/stat.h line 452
 static inline signed int stat(const char *__path, struct stat *__statbuf)
 {
-  signed int return_value___xstat$1;
-  return_value___xstat$1=__xstat(1, __path, __statbuf);
-  return return_value___xstat$1;
+  signed int return_value___xstat_1;
+  return_value___xstat_1=__xstat(1, __path, __statbuf);
+  return return_value___xstat_1;
 }
 

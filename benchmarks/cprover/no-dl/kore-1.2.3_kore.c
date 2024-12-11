@@ -1,274 +1,274 @@
-// #anon_enum$CONNECTION_OK=0$CONNECTION_BAD=1$CONNECTION_STARTED=2$CONNECTION_MADE=3$CONNECTION_AWAITING_RESPONSE=4$CONNECTION_AUTH_OK=5$CONNECTION_SETENV=6$CONNECTION_SSL_STARTUP=7$CONNECTION_NEEDED=8
+// #anon_enum_CONNECTION_OK=0_CONNECTION_BAD=1_CONNECTION_STARTED=2_CONNECTION_MADE=3_CONNECTION_AWAITING_RESPONSE=4_CONNECTION_AUTH_OK=5_CONNECTION_SETENV=6_CONNECTION_SSL_STARTUP=7_CONNECTION_NEEDED=8
 // file /usr/include/postgresql/libpq-fe.h line 47
-enum anonymous$4 { CONNECTION_OK=0, CONNECTION_BAD=1, CONNECTION_STARTED=2, CONNECTION_MADE=3, CONNECTION_AWAITING_RESPONSE=4, CONNECTION_AUTH_OK=5, CONNECTION_SETENV=6, CONNECTION_SSL_STARTUP=7, CONNECTION_NEEDED=8 };
+enum anonymous_4 { CONNECTION_OK=0, CONNECTION_BAD=1, CONNECTION_STARTED=2, CONNECTION_MADE=3, CONNECTION_AWAITING_RESPONSE=4, CONNECTION_AUTH_OK=5, CONNECTION_SETENV=6, CONNECTION_SSL_STARTUP=7, CONNECTION_NEEDED=8 };
 
-// #anon_enum$PGRES_EMPTY_QUERY=0$PGRES_COMMAND_OK=1$PGRES_TUPLES_OK=2$PGRES_COPY_OUT=3$PGRES_COPY_IN=4$PGRES_BAD_RESPONSE=5$PGRES_NONFATAL_ERROR=6$PGRES_FATAL_ERROR=7$PGRES_COPY_BOTH=8$PGRES_SINGLE_TUPLE=9
+// #anon_enum_PGRES_EMPTY_QUERY=0_PGRES_COMMAND_OK=1_PGRES_TUPLES_OK=2_PGRES_COPY_OUT=3_PGRES_COPY_IN=4_PGRES_BAD_RESPONSE=5_PGRES_NONFATAL_ERROR=6_PGRES_FATAL_ERROR=7_PGRES_COPY_BOTH=8_PGRES_SINGLE_TUPLE=9
 // file /usr/include/postgresql/libpq-fe.h line 78
 enum anonymous { PGRES_EMPTY_QUERY=0, PGRES_COMMAND_OK=1, PGRES_TUPLES_OK=2, PGRES_COPY_OUT=3, PGRES_COPY_IN=4, PGRES_BAD_RESPONSE=5, PGRES_NONFATAL_ERROR=6, PGRES_FATAL_ERROR=7, PGRES_COPY_BOTH=8, PGRES_SINGLE_TUPLE=9 };
 
-// tag-#anon#ST[*{S8}$S8$'name'||S32'value'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'name'||S32'value'||U32'_pad0'|]
 // file src/utils.c line 23
-struct anonymous$63;
+struct anonymous_63;
 
-// tag-#anon#ST[*{SYM#tag-cfile#}$SYM#tag-cfile#$'tqe_next'||*{*{SYM#tag-cfile#}$SYM#tag-cfile#$}$*{SYM#tag-cfile#}$SYM#tag-cfile#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-cfile#}_SYM#tag-cfile#_'tqe_next'||*{*{SYM#tag-cfile#}_SYM#tag-cfile#_}_*{SYM#tag-cfile#}_SYM#tag-cfile#__'tqe_prev'|]
 // file src/cli.c line 78
-struct anonymous$66;
+struct anonymous_66;
 
-// tag-#anon#ST[*{SYM#tag-connection#}$SYM#tag-connection#$'tqe_next'||*{*{SYM#tag-connection#}$SYM#tag-connection#$}$*{SYM#tag-connection#}$SYM#tag-connection#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-connection#}_SYM#tag-connection#_'tqe_next'||*{*{SYM#tag-connection#}_SYM#tag-connection#_}_*{SYM#tag-connection#}_SYM#tag-connection#__'tqe_prev'|]
 // file includes/kore.h line 218
-struct anonymous$39;
+struct anonymous_39;
 
-// tag-#anon#ST[*{SYM#tag-http_arg#}$SYM#tag-http_arg#$'tqe_next'||*{*{SYM#tag-http_arg#}$SYM#tag-http_arg#$}$*{SYM#tag-http_arg#}$SYM#tag-http_arg#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-http_arg#}_SYM#tag-http_arg#_'tqe_next'||*{*{SYM#tag-http_arg#}_SYM#tag-http_arg#_}_*{SYM#tag-http_arg#}_SYM#tag-http_arg#__'tqe_prev'|]
 // file includes/http.h line 65
-struct anonymous$60;
+struct anonymous_60;
 
-// tag-#anon#ST[*{SYM#tag-http_arg#}$SYM#tag-http_arg#$'tqh_first'||*{*{SYM#tag-http_arg#}$SYM#tag-http_arg#$}$*{SYM#tag-http_arg#}$SYM#tag-http_arg#$$'tqh_last'|]
+// tag-#anon#ST[*{SYM#tag-http_arg#}_SYM#tag-http_arg#_'tqh_first'||*{*{SYM#tag-http_arg#}_SYM#tag-http_arg#_}_*{SYM#tag-http_arg#}_SYM#tag-http_arg#__'tqh_last'|]
 // file includes/http.h line 198
-struct anonymous$35;
+struct anonymous_35;
 
-// tag-#anon#ST[*{SYM#tag-http_file#}$SYM#tag-http_file#$'tqe_next'||*{*{SYM#tag-http_file#}$SYM#tag-http_file#$}$*{SYM#tag-http_file#}$SYM#tag-http_file#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-http_file#}_SYM#tag-http_file#_'tqe_next'||*{*{SYM#tag-http_file#}_SYM#tag-http_file#_}_*{SYM#tag-http_file#}_SYM#tag-http_file#__'tqe_prev'|]
 // file includes/http.h line 155
-struct anonymous$61;
+struct anonymous_61;
 
-// tag-#anon#ST[*{SYM#tag-http_file#}$SYM#tag-http_file#$'tqh_first'||*{*{SYM#tag-http_file#}$SYM#tag-http_file#$}$*{SYM#tag-http_file#}$SYM#tag-http_file#$$'tqh_last'|]
+// tag-#anon#ST[*{SYM#tag-http_file#}_SYM#tag-http_file#_'tqh_first'||*{*{SYM#tag-http_file#}_SYM#tag-http_file#_}_*{SYM#tag-http_file#}_SYM#tag-http_file#__'tqh_last'|]
 // file includes/http.h line 199
-struct anonymous$36;
+struct anonymous_36;
 
-// tag-#anon#ST[*{SYM#tag-http_header#}$SYM#tag-http_header#$'tqe_next'||*{*{SYM#tag-http_header#}$SYM#tag-http_header#$}$*{SYM#tag-http_header#}$SYM#tag-http_header#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-http_header#}_SYM#tag-http_header#_'tqe_next'||*{*{SYM#tag-http_header#}_SYM#tag-http_header#_}_*{SYM#tag-http_header#}_SYM#tag-http_header#__'tqe_prev'|]
 // file includes/http.h line 54
-struct anonymous$59;
+struct anonymous_59;
 
-// tag-#anon#ST[*{SYM#tag-http_header#}$SYM#tag-http_header#$'tqh_first'||*{*{SYM#tag-http_header#}$SYM#tag-http_header#$}$*{SYM#tag-http_header#}$SYM#tag-http_header#$$'tqh_last'|]
+// tag-#anon#ST[*{SYM#tag-http_header#}_SYM#tag-http_header#_'tqh_first'||*{*{SYM#tag-http_header#}_SYM#tag-http_header#_}_*{SYM#tag-http_header#}_SYM#tag-http_header#__'tqh_last'|]
 // file includes/http.h line 196
-struct anonymous$34;
+struct anonymous_34;
 
-// tag-#anon#ST[*{SYM#tag-http_request#}$SYM#tag-http_request#$'tqe_next'||*{*{SYM#tag-http_request#}$SYM#tag-http_request#$}$*{SYM#tag-http_request#}$SYM#tag-http_request#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-http_request#}_SYM#tag-http_request#_'tqe_next'||*{*{SYM#tag-http_request#}_SYM#tag-http_request#_}_*{SYM#tag-http_request#}_SYM#tag-http_request#__'tqe_prev'|]
 // file includes/http.h line 200
-struct anonymous$37;
+struct anonymous_37;
 
-// tag-#anon#ST[*{SYM#tag-http_request#}$SYM#tag-http_request#$'tqh_first'||*{*{SYM#tag-http_request#}$SYM#tag-http_request#$}$*{SYM#tag-http_request#}$SYM#tag-http_request#$$'tqh_last'|]
+// tag-#anon#ST[*{SYM#tag-http_request#}_SYM#tag-http_request#_'tqh_first'||*{*{SYM#tag-http_request#}_SYM#tag-http_request#_}_*{SYM#tag-http_request#}_SYM#tag-http_request#__'tqh_last'|]
 // file includes/kore.h line 216
-struct anonymous$38;
+struct anonymous_38;
 
-// tag-#anon#ST[*{SYM#tag-kore_auth#}$SYM#tag-kore_auth#$'tqe_next'||*{*{SYM#tag-kore_auth#}$SYM#tag-kore_auth#$}$*{SYM#tag-kore_auth#}$SYM#tag-kore_auth#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-kore_auth#}_SYM#tag-kore_auth#_'tqe_next'||*{*{SYM#tag-kore_auth#}_SYM#tag-kore_auth#_}_*{SYM#tag-kore_auth#}_SYM#tag-kore_auth#__'tqe_prev'|]
 // file includes/kore.h line 244
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[*{SYM#tag-kore_auth#}$SYM#tag-kore_auth#$'tqh_first'||*{*{SYM#tag-kore_auth#}$SYM#tag-kore_auth#$}$*{SYM#tag-kore_auth#}$SYM#tag-kore_auth#$$'tqh_last'|]
+// tag-#anon#ST[*{SYM#tag-kore_auth#}_SYM#tag-kore_auth#_'tqh_first'||*{*{SYM#tag-kore_auth#}_SYM#tag-kore_auth#_}_*{SYM#tag-kore_auth#}_SYM#tag-kore_auth#__'tqh_last'|]
 // file src/auth.c line 24
-struct anonymous$64;
+struct anonymous_64;
 
-// tag-#anon#ST[*{SYM#tag-kore_domain#}$SYM#tag-kore_domain#$'tqe_next'||*{*{SYM#tag-kore_domain#}$SYM#tag-kore_domain#$}$*{SYM#tag-kore_domain#}$SYM#tag-kore_domain#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-kore_domain#}_SYM#tag-kore_domain#_'tqe_next'||*{*{SYM#tag-kore_domain#}_SYM#tag-kore_domain#_}_*{SYM#tag-kore_domain#}_SYM#tag-kore_domain#__'tqe_prev'|]
 // file includes/kore.h line 295
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[*{SYM#tag-kore_handler_params#}$SYM#tag-kore_handler_params#$'tqe_next'||*{*{SYM#tag-kore_handler_params#}$SYM#tag-kore_handler_params#$}$*{SYM#tag-kore_handler_params#}$SYM#tag-kore_handler_params#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-kore_handler_params#}_SYM#tag-kore_handler_params#_'tqe_next'||*{*{SYM#tag-kore_handler_params#}_SYM#tag-kore_handler_params#_}_*{SYM#tag-kore_handler_params#}_SYM#tag-kore_handler_params#__'tqe_prev'|]
 // file includes/kore.h line 230
-struct anonymous$40;
+struct anonymous_40;
 
-// tag-#anon#ST[*{SYM#tag-kore_handler_params#}$SYM#tag-kore_handler_params#$'tqh_first'||*{*{SYM#tag-kore_handler_params#}$SYM#tag-kore_handler_params#$}$*{SYM#tag-kore_handler_params#}$SYM#tag-kore_handler_params#$$'tqh_last'|]
+// tag-#anon#ST[*{SYM#tag-kore_handler_params#}_SYM#tag-kore_handler_params#_'tqh_first'||*{*{SYM#tag-kore_handler_params#}_SYM#tag-kore_handler_params#_}_*{SYM#tag-kore_handler_params#}_SYM#tag-kore_handler_params#__'tqh_last'|]
 // file includes/kore.h line 274
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[*{SYM#tag-kore_module#}$SYM#tag-kore_module#$'tqe_next'||*{*{SYM#tag-kore_module#}$SYM#tag-kore_module#$}$*{SYM#tag-kore_module#}$SYM#tag-kore_module#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-kore_module#}_SYM#tag-kore_module#_'tqe_next'||*{*{SYM#tag-kore_module#}_SYM#tag-kore_module#_}_*{SYM#tag-kore_module#}_SYM#tag-kore_module#__'tqe_prev'|]
 // file includes/kore.h line 261
-struct anonymous$56;
+struct anonymous_56;
 
-// tag-#anon#ST[*{SYM#tag-kore_module#}$SYM#tag-kore_module#$'tqh_first'||*{*{SYM#tag-kore_module#}$SYM#tag-kore_module#$}$*{SYM#tag-kore_module#}$SYM#tag-kore_module#$$'tqh_last'|]
+// tag-#anon#ST[*{SYM#tag-kore_module#}_SYM#tag-kore_module#_'tqh_first'||*{*{SYM#tag-kore_module#}_SYM#tag-kore_module#_}_*{SYM#tag-kore_module#}_SYM#tag-kore_module#__'tqh_last'|]
 // file src/module.c line 23
-struct anonymous$55;
+struct anonymous_55;
 
-// tag-#anon#ST[*{SYM#tag-kore_module_handle#}$SYM#tag-kore_module_handle#$'tqe_next'||*{*{SYM#tag-kore_module_handle#}$SYM#tag-kore_module_handle#$}$*{SYM#tag-kore_module_handle#}$SYM#tag-kore_module_handle#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-kore_module_handle#}_SYM#tag-kore_module_handle#_'tqe_next'||*{*{SYM#tag-kore_module_handle#}_SYM#tag-kore_module_handle#_}_*{SYM#tag-kore_module_handle#}_SYM#tag-kore_module_handle#__'tqe_prev'|]
 // file includes/kore.h line 275
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[*{SYM#tag-kore_module_handle#}$SYM#tag-kore_module_handle#$'tqh_first'||*{*{SYM#tag-kore_module_handle#}$SYM#tag-kore_module_handle#$}$*{SYM#tag-kore_module_handle#}$SYM#tag-kore_module_handle#$$'tqh_last'|]
+// tag-#anon#ST[*{SYM#tag-kore_module_handle#}_SYM#tag-kore_module_handle#_'tqh_first'||*{*{SYM#tag-kore_module_handle#}_SYM#tag-kore_module_handle#_}_*{SYM#tag-kore_module_handle#}_SYM#tag-kore_module_handle#__'tqh_last'|]
 // file includes/kore.h line 294
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[*{SYM#tag-kore_pgsql#}$SYM#tag-kore_pgsql#$'le_next'||*{*{SYM#tag-kore_pgsql#}$SYM#tag-kore_pgsql#$}$*{SYM#tag-kore_pgsql#}$SYM#tag-kore_pgsql#$$'le_prev'|]
+// tag-#anon#ST[*{SYM#tag-kore_pgsql#}_SYM#tag-kore_pgsql#_'le_next'||*{*{SYM#tag-kore_pgsql#}_SYM#tag-kore_pgsql#_}_*{SYM#tag-kore_pgsql#}_SYM#tag-kore_pgsql#__'le_prev'|]
 // file includes/pgsql.h line 44
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[*{SYM#tag-kore_pgsql#}$SYM#tag-kore_pgsql#$'lh_first'|]
+// tag-#anon#ST[*{SYM#tag-kore_pgsql#}_SYM#tag-kore_pgsql#_'lh_first'|]
 // file includes/http.h line 194
-struct anonymous$33;
+struct anonymous_33;
 
-// tag-#anon#ST[*{SYM#tag-kore_pool_entry#}$SYM#tag-kore_pool_entry#$'le_next'||*{*{SYM#tag-kore_pool_entry#}$SYM#tag-kore_pool_entry#$}$*{SYM#tag-kore_pool_entry#}$SYM#tag-kore_pool_entry#$$'le_prev'|]
+// tag-#anon#ST[*{SYM#tag-kore_pool_entry#}_SYM#tag-kore_pool_entry#_'le_next'||*{*{SYM#tag-kore_pool_entry#}_SYM#tag-kore_pool_entry#_}_*{SYM#tag-kore_pool_entry#}_SYM#tag-kore_pool_entry#__'le_prev'|]
 // file includes/kore.h line 330
-struct anonymous$46;
+struct anonymous_46;
 
-// tag-#anon#ST[*{SYM#tag-kore_pool_entry#}$SYM#tag-kore_pool_entry#$'lh_first'|]
+// tag-#anon#ST[*{SYM#tag-kore_pool_entry#}_SYM#tag-kore_pool_entry#_'lh_first'|]
 // file includes/kore.h line 341
-struct anonymous$44;
+struct anonymous_44;
 
-// tag-#anon#ST[*{SYM#tag-kore_pool_region#}$SYM#tag-kore_pool_region#$'le_next'||*{*{SYM#tag-kore_pool_region#}$SYM#tag-kore_pool_region#$}$*{SYM#tag-kore_pool_region#}$SYM#tag-kore_pool_region#$$'le_prev'|]
+// tag-#anon#ST[*{SYM#tag-kore_pool_region#}_SYM#tag-kore_pool_region#_'le_next'||*{*{SYM#tag-kore_pool_region#}_SYM#tag-kore_pool_region#_}_*{SYM#tag-kore_pool_region#}_SYM#tag-kore_pool_region#__'le_prev'|]
 // file includes/kore.h line 324
-struct anonymous$45;
+struct anonymous_45;
 
-// tag-#anon#ST[*{SYM#tag-kore_pool_region#}$SYM#tag-kore_pool_region#$'lh_first'|]
+// tag-#anon#ST[*{SYM#tag-kore_pool_region#}_SYM#tag-kore_pool_region#_'lh_first'|]
 // file includes/kore.h line 340
-struct anonymous$43;
+struct anonymous_43;
 
-// tag-#anon#ST[*{SYM#tag-kore_task#}$SYM#tag-kore_task#$'le_next'||*{*{SYM#tag-kore_task#}$SYM#tag-kore_task#$}$*{SYM#tag-kore_task#}$SYM#tag-kore_task#$$'le_prev'|]
+// tag-#anon#ST[*{SYM#tag-kore_task#}_SYM#tag-kore_task#_'le_next'||*{*{SYM#tag-kore_task#}_SYM#tag-kore_task#_}_*{SYM#tag-kore_task#}_SYM#tag-kore_task#__'le_prev'|]
 // file includes/tasks.h line 46
-struct anonymous$51;
+struct anonymous_51;
 
-// tag-#anon#ST[*{SYM#tag-kore_task#}$SYM#tag-kore_task#$'lh_first'|]
+// tag-#anon#ST[*{SYM#tag-kore_task#}_SYM#tag-kore_task#_'lh_first'|]
 // file includes/http.h line 193
-struct anonymous$32;
+struct anonymous_32;
 
-// tag-#anon#ST[*{SYM#tag-kore_task#}$SYM#tag-kore_task#$'tqe_next'||*{*{SYM#tag-kore_task#}$SYM#tag-kore_task#$}$*{SYM#tag-kore_task#}$SYM#tag-kore_task#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-kore_task#}_SYM#tag-kore_task#_'tqe_next'||*{*{SYM#tag-kore_task#}_SYM#tag-kore_task#_}_*{SYM#tag-kore_task#}_SYM#tag-kore_task#__'tqe_prev'|]
 // file includes/tasks.h line 45
-struct anonymous$50;
+struct anonymous_50;
 
-// tag-#anon#ST[*{SYM#tag-kore_task#}$SYM#tag-kore_task#$'tqh_first'||*{*{SYM#tag-kore_task#}$SYM#tag-kore_task#$}$*{SYM#tag-kore_task#}$SYM#tag-kore_task#$$'tqh_last'|]
+// tag-#anon#ST[*{SYM#tag-kore_task#}_SYM#tag-kore_task#_'tqh_first'||*{*{SYM#tag-kore_task#}_SYM#tag-kore_task#_}_*{SYM#tag-kore_task#}_SYM#tag-kore_task#__'tqh_last'|]
 // file includes/tasks.h line 54
-struct anonymous$48;
+struct anonymous_48;
 
-// tag-#anon#ST[*{SYM#tag-kore_task_thread#}$SYM#tag-kore_task_thread#$'tqe_next'||*{*{SYM#tag-kore_task_thread#}$SYM#tag-kore_task_thread#$}$*{SYM#tag-kore_task_thread#}$SYM#tag-kore_task_thread#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-kore_task_thread#}_SYM#tag-kore_task_thread#_'tqe_next'||*{*{SYM#tag-kore_task_thread#}_SYM#tag-kore_task_thread#_}_*{SYM#tag-kore_task_thread#}_SYM#tag-kore_task_thread#__'tqe_prev'|]
 // file includes/tasks.h line 56
-struct anonymous$49;
+struct anonymous_49;
 
-// tag-#anon#ST[*{SYM#tag-kore_task_thread#}$SYM#tag-kore_task_thread#$'tqh_first'||*{*{SYM#tag-kore_task_thread#}$SYM#tag-kore_task_thread#$}$*{SYM#tag-kore_task_thread#}$SYM#tag-kore_task_thread#$$'tqh_last'|]
+// tag-#anon#ST[*{SYM#tag-kore_task_thread#}_SYM#tag-kore_task_thread#_'tqh_first'||*{*{SYM#tag-kore_task_thread#}_SYM#tag-kore_task_thread#_}_*{SYM#tag-kore_task_thread#}_SYM#tag-kore_task_thread#__'tqh_last'|]
 // file src/tasks.c line 32
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[*{SYM#tag-kore_timer#}$SYM#tag-kore_timer#$'tqe_next'||*{*{SYM#tag-kore_timer#}$SYM#tag-kore_timer#$}$*{SYM#tag-kore_timer#}$SYM#tag-kore_timer#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-kore_timer#}_SYM#tag-kore_timer#_'tqe_next'||*{*{SYM#tag-kore_timer#}_SYM#tag-kore_timer#_}_*{SYM#tag-kore_timer#}_SYM#tag-kore_timer#__'tqe_prev'|]
 // file includes/kore.h line 358
-struct anonymous$58;
+struct anonymous_58;
 
-// tag-#anon#ST[*{SYM#tag-kore_validator#}$SYM#tag-kore_validator#$'tqe_next'||*{*{SYM#tag-kore_validator#}$SYM#tag-kore_validator#$}$*{SYM#tag-kore_validator#}$SYM#tag-kore_validator#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-kore_validator#}_SYM#tag-kore_validator#_'tqe_next'||*{*{SYM#tag-kore_validator#}_SYM#tag-kore_validator#_}_*{SYM#tag-kore_validator#}_SYM#tag-kore_validator#__'tqe_prev'|]
 // file includes/kore.h line 310
-struct anonymous$42;
+struct anonymous_42;
 
-// tag-#anon#ST[*{SYM#tag-kore_validator#}$SYM#tag-kore_validator#$'tqh_first'||*{*{SYM#tag-kore_validator#}$SYM#tag-kore_validator#$}$*{SYM#tag-kore_validator#}$SYM#tag-kore_validator#$$'tqh_last'|]
+// tag-#anon#ST[*{SYM#tag-kore_validator#}_SYM#tag-kore_validator#_'tqh_first'||*{*{SYM#tag-kore_validator#}_SYM#tag-kore_validator#_}_*{SYM#tag-kore_validator#}_SYM#tag-kore_validator#__'tqh_last'|]
 // file src/validator.c line 19
-struct anonymous$62;
+struct anonymous_62;
 
-// tag-#anon#ST[*{SYM#tag-listener#}$SYM#tag-listener#$'le_next'||*{*{SYM#tag-listener#}$SYM#tag-listener#$}$*{SYM#tag-listener#}$SYM#tag-listener#$$'le_prev'|]
+// tag-#anon#ST[*{SYM#tag-listener#}_SYM#tag-listener#_'le_next'||*{*{SYM#tag-listener#}_SYM#tag-listener#_}_*{SYM#tag-listener#}_SYM#tag-listener#__'le_prev'|]
 // file includes/kore.h line 136
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[*{SYM#tag-netbuf#}$SYM#tag-netbuf#$'tqe_next'||*{*{SYM#tag-netbuf#}$SYM#tag-netbuf#$}$*{SYM#tag-netbuf#}$SYM#tag-netbuf#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-netbuf#}_SYM#tag-netbuf#_'tqe_next'||*{*{SYM#tag-netbuf#}_SYM#tag-netbuf#_}_*{SYM#tag-netbuf#}_SYM#tag-netbuf#__'tqe_prev'|]
 // file includes/kore.h line 115
-struct anonymous$27;
+struct anonymous_27;
 
-// tag-#anon#ST[*{SYM#tag-pgsql_conn#}$SYM#tag-pgsql_conn#$'tqe_next'||*{*{SYM#tag-pgsql_conn#}$SYM#tag-pgsql_conn#$}$*{SYM#tag-pgsql_conn#}$SYM#tag-pgsql_conn#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-pgsql_conn#}_SYM#tag-pgsql_conn#_'tqe_next'||*{*{SYM#tag-pgsql_conn#}_SYM#tag-pgsql_conn#_}_*{SYM#tag-pgsql_conn#}_SYM#tag-pgsql_conn#__'tqe_prev'|]
 // file includes/pgsql.h line 35
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[*{SYM#tag-pgsql_conn#}$SYM#tag-pgsql_conn#$'tqh_first'||*{*{SYM#tag-pgsql_conn#}$SYM#tag-pgsql_conn#$}$*{SYM#tag-pgsql_conn#}$SYM#tag-pgsql_conn#$$'tqh_last'|]
+// tag-#anon#ST[*{SYM#tag-pgsql_conn#}_SYM#tag-pgsql_conn#_'tqh_first'||*{*{SYM#tag-pgsql_conn#}_SYM#tag-pgsql_conn#_}_*{SYM#tag-pgsql_conn#}_SYM#tag-pgsql_conn#__'tqh_last'|]
 // file src/pgsql.c line 58
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[*{SYM#tag-pgsql_job#}$SYM#tag-pgsql_job#$'tqe_next'||*{*{SYM#tag-pgsql_job#}$SYM#tag-pgsql_job#$}$*{SYM#tag-pgsql_job#}$SYM#tag-pgsql_job#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-pgsql_job#}_SYM#tag-pgsql_job#_'tqe_next'||*{*{SYM#tag-pgsql_job#}_SYM#tag-pgsql_job#_}_*{SYM#tag-pgsql_job#}_SYM#tag-pgsql_job#__'tqe_prev'|]
 // file src/pgsql.c line 32
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[*{SYM#tag-pgsql_wait#}$SYM#tag-pgsql_wait#$'tqe_next'||*{*{SYM#tag-pgsql_wait#}$SYM#tag-pgsql_wait#$}$*{SYM#tag-pgsql_wait#}$SYM#tag-pgsql_wait#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-pgsql_wait#}_SYM#tag-pgsql_wait#_'tqe_next'||*{*{SYM#tag-pgsql_wait#}_SYM#tag-pgsql_wait#_}_*{SYM#tag-pgsql_wait#}_SYM#tag-pgsql_wait#__'tqe_prev'|]
 // file src/pgsql.c line 37
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[*{SYM#tag-pgsql_wait#}$SYM#tag-pgsql_wait#$'tqh_first'||*{*{SYM#tag-pgsql_wait#}$SYM#tag-pgsql_wait#$}$*{SYM#tag-pgsql_wait#}$SYM#tag-pgsql_wait#$$'tqh_last'|]
+// tag-#anon#ST[*{SYM#tag-pgsql_wait#}_SYM#tag-pgsql_wait#_'tqh_first'||*{*{SYM#tag-pgsql_wait#}_SYM#tag-pgsql_wait#_}_*{SYM#tag-pgsql_wait#}_SYM#tag-pgsql_wait#__'tqh_last'|]
 // file src/pgsql.c line 59
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[*{SYM#tag-spdy_stream#}$SYM#tag-spdy_stream#$'tqe_next'||*{*{SYM#tag-spdy_stream#}$SYM#tag-spdy_stream#$}$*{SYM#tag-spdy_stream#}$SYM#tag-spdy_stream#$$'tqe_prev'|]
+// tag-#anon#ST[*{SYM#tag-spdy_stream#}_SYM#tag-spdy_stream#_'tqe_next'||*{*{SYM#tag-spdy_stream#}_SYM#tag-spdy_stream#_}_*{SYM#tag-spdy_stream#}_SYM#tag-spdy_stream#__'tqe_prev'|]
 // file includes/spdy.h line 72
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[*{SYM#tag-spdy_stream#}$SYM#tag-spdy_stream#$'tqh_first'||*{*{SYM#tag-spdy_stream#}$SYM#tag-spdy_stream#$}$*{SYM#tag-spdy_stream#}$SYM#tag-spdy_stream#$$'tqh_last'|]
+// tag-#anon#ST[*{SYM#tag-spdy_stream#}_SYM#tag-spdy_stream#_'tqh_first'||*{*{SYM#tag-spdy_stream#}_SYM#tag-spdy_stream#_}_*{SYM#tag-spdy_stream#}_SYM#tag-spdy_stream#__'tqh_last'|]
 // file includes/kore.h line 215
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#ST[*{cS8}$cS8$'name'||*{S32(*{*{S8}$S8$}$*{S8}$S8$$)->S32}$S32(*{*{S8}$S8$}$*{S8}$S8$$)->S32$'configure'|]
+// tag-#anon#ST[*{cS8}_cS8_'name'||*{S32(*{*{S8}_S8_}_*{S8}_S8__)->S32}_S32(*{*{S8}_S8_}_*{S8}_S8__)->S32_'configure'|]
 // file src/config.c line 78
-struct anonymous$23;
+struct anonymous_23;
 
-// tag-#anon#ST[ARR128{U8}$U8$'cert_verify_md'||ARR128{U8}$U8$'finish_md'||S32'finish_md_len'||ARR128{U8}$U8$'peer_finish_md'||S32'peer_finish_md_len'||U64'message_size'||S32'message_type'||U32'$pad0'||*{cSYM#tag-ssl_cipher_st#}$cSYM#tag-ssl_cipher_st#$'new_cipher'||*{SYM#tag-dh_st#}$SYM#tag-dh_st#$'dh'||*{SYM#tag-ec_key_st#}$SYM#tag-ec_key_st#$'ecdh'||S32'next_state'||S32'reuse_message'||S32'cert_req'||S32'ctype_num'||ARR9{S8}$S8$'ctype'||U56'$pad1'||*{SYM#tag-stack_st_X509_NAME#}$SYM#tag-stack_st_X509_NAME#$'ca_names'||S32'use_rsa_tmp'||S32'key_block_length'||*{U8}$U8$'key_block'||*{cSYM#tag-evp_cipher_st#}$cSYM#tag-evp_cipher_st#$'new_sym_enc'||*{cSYM#tag-env_md_st#}$cSYM#tag-env_md_st#$'new_hash'||S32'new_mac_pkey_type'||S32'new_mac_secret_size'||*{cSYM#tag-ssl_comp_st#}$cSYM#tag-ssl_comp_st#$'new_compression'||S32'cert_request'||U32'$pad2'|]
+// tag-#anon#ST[ARR128{U8}_U8_'cert_verify_md'||ARR128{U8}_U8_'finish_md'||S32'finish_md_len'||ARR128{U8}_U8_'peer_finish_md'||S32'peer_finish_md_len'||U64'message_size'||S32'message_type'||U32'_pad0'||*{cSYM#tag-ssl_cipher_st#}_cSYM#tag-ssl_cipher_st#_'new_cipher'||*{SYM#tag-dh_st#}_SYM#tag-dh_st#_'dh'||*{SYM#tag-ec_key_st#}_SYM#tag-ec_key_st#_'ecdh'||S32'next_state'||S32'reuse_message'||S32'cert_req'||S32'ctype_num'||ARR9{S8}_S8_'ctype'||U56'_pad1'||*{SYM#tag-stack_st_X509_NAME#}_SYM#tag-stack_st_X509_NAME#_'ca_names'||S32'use_rsa_tmp'||S32'key_block_length'||*{U8}_U8_'key_block'||*{cSYM#tag-evp_cipher_st#}_cSYM#tag-evp_cipher_st#_'new_sym_enc'||*{cSYM#tag-env_md_st#}_cSYM#tag-env_md_st#_'new_hash'||S32'new_mac_pkey_type'||S32'new_mac_secret_size'||*{cSYM#tag-ssl_comp_st#}_cSYM#tag-ssl_comp_st#_'new_compression'||S32'cert_request'||U32'_pad2'|]
 // file /usr/include/openssl/ssl3.h line 553
-struct anonymous$54;
+struct anonymous_54;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__bits'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__bits'|]
 // file /usr/include/x86_64-linux-gnu/bits/sched.h line 125
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$52;
+struct anonymous_52;
 
-// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]
+// tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 177
-struct anonymous$47;
+struct anonymous_47;
 
 // tag-#anon#ST[S32'rm_so'||S32'rm_eo'|]
 // file /usr/include/regex.h line 452
-struct anonymous$57;
+struct anonymous_57;
 
 // tag-#anon#ST[S32'sess_connect'||S32'sess_connect_renegotiate'||S32'sess_connect_good'||S32'sess_accept'||S32'sess_accept_renegotiate'||S32'sess_accept_good'||S32'sess_miss'||S32'sess_timeout'||S32'sess_cache_full'||S32'sess_hit'||S32'sess_cb_hit'|]
 // file /usr/include/openssl/ssl.h line 964
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[U32'conn_id_length'||U32'cert_type'||U32'cert_length'||U32'csl'||U32'clear'||U32'enc'||ARR32{U8}$U8$'ccl'||U32'cipher_spec_length'||U32'session_id_length'||U32'clen'||U32'rlen'|]
+// tag-#anon#ST[U32'conn_id_length'||U32'cert_type'||U32'cert_length'||U32'csl'||U32'clear'||U32'enc'||ARR32{U8}_U8_'ccl'||U32'cipher_spec_length'||U32'session_id_length'||U32'clen'||U32'rlen'|]
 // file /usr/include/openssl/ssl2.h line 203
-struct anonymous$53;
+struct anonymous_53;
 
 // tag-#anon#ST[U64'length'||U64'start'|]
 // file includes/kore.h line 196
-struct anonymous$30;
+struct anonymous_30;
 
-// tag-#anon#UN[*{S32}$S32$'inherit'||*{SYM#tag-stack_st_ASIdOrRange#}$SYM#tag-stack_st_ASIdOrRange#$'asIdsOrRanges'|]
+// tag-#anon#UN[*{S32}_S32_'inherit'||*{SYM#tag-stack_st_ASIdOrRange#}_SYM#tag-stack_st_ASIdOrRange#_'asIdsOrRanges'|]
 // file /usr/include/openssl/x509v3.h line 783
-union anonymous$65;
+union anonymous_65;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||*{SYM#tag-rsa_st#}$SYM#tag-rsa_st#$'rsa'||*{SYM#tag-dsa_st#}$SYM#tag-dsa_st#$'dsa'||*{SYM#tag-dh_st#}$SYM#tag-dh_st#$'dh'||*{SYM#tag-ec_key_st#}$SYM#tag-ec_key_st#$'ec'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||*{SYM#tag-rsa_st#}_SYM#tag-rsa_st#_'rsa'||*{SYM#tag-dsa_st#}_SYM#tag-dsa_st#_'dsa'||*{SYM#tag-dh_st#}_SYM#tag-dh_st#_'dh'||*{SYM#tag-ec_key_st#}_SYM#tag-ec_key_st#_'ec'|]
 // file /usr/include/openssl/evp.h line 135
-union anonymous$21;
+union anonymous_21;
 
-// tag-#anon#UN[*{S8}$S8$'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'asn1_string'||*{SYM#tag-asn1_object_st#}$SYM#tag-asn1_object_st#$'object'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'integer'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'enumerated'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bit_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'octet_string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'printablestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'t61string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'ia5string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'bmpstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'universalstring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utctime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'generalizedtime'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'visiblestring'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'utf8string'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'set'||*{SYM#tag-asn1_string_st#}$SYM#tag-asn1_string_st#$'sequence'||*{SYM#tag-ASN1_VALUE_st#}$SYM#tag-ASN1_VALUE_st#$'asn1_value'|]
+// tag-#anon#UN[*{S8}_S8_'ptr'||S32'boolean'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'asn1_string'||*{SYM#tag-asn1_object_st#}_SYM#tag-asn1_object_st#_'object'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'integer'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'enumerated'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bit_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'octet_string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'printablestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'t61string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'ia5string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'bmpstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'universalstring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utctime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'generalizedtime'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'visiblestring'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'utf8string'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'set'||*{SYM#tag-asn1_string_st#}_SYM#tag-asn1_string_st#_'sequence'||*{SYM#tag-ASN1_VALUE_st#}_SYM#tag-ASN1_VALUE_st#_'asn1_value'|]
 // file /usr/include/openssl/asn1.h line 526
-union anonymous$20;
+union anonymous_20;
 
-// tag-#anon#UN[*{V(S32|S32|*{V}$V$)->V}$V(S32|S32|*{V}$V$)->V$'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32}$S32(S32|S32|*{SYM#tag-bn_gencb_st#}$SYM#tag-bn_gencb_st#$)->S32$'cb_2'|]
+// tag-#anon#UN[*{V(S32|S32|*{V}_V_)->V}_V(S32|S32|*{V}_V_)->V_'cb_1'||*{S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32}_S32(S32|S32|*{SYM#tag-bn_gencb_st#}_SYM#tag-bn_gencb_st#_)->S32_'cb_2'|]
 // file /usr/include/openssl/bn.h line 351
-union anonymous$41;
+union anonymous_41;
 
-// tag-#anon#UN[ARR16{U8}$U8$'__u6_addr8'||ARR8{U16}$U16$'__u6_addr16'||ARR4{U32}$U32$'__u6_addr32'|]
+// tag-#anon#UN[ARR16{U8}_U8_'__u6_addr8'||ARR8{U16}_U16_'__u6_addr16'||ARR4{U32}_U32_'__u6_addr32'|]
 // file /usr/include/netinet/in.h line 211
-union anonymous$26;
+union anonymous_26;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$9;
+union anonymous_9;
 
-// tag-#anon#UN[ARR8{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[ARR8{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 224
-union anonymous$7;
+union anonymous_7;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}$U8$'__pad1'||U64'__pad2'||U32'__flags'||U32'$pad0'|]#'__data'||ARR56{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__nr_readers'||U32'__readers_wakeup'||U32'__writer_wakeup'||U32'__nr_readers_queued'||U32'__nr_writers_queued'||S32'__writer'||S32'__shared'||S8'__rwelision'||ARR7{U8}_U8_'__pad1'||U64'__pad2'||U32'__flags'||U32'_pad0'|]#'__data'||ARR56{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 174
-union anonymous$8;
+union anonymous_8;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$5;
+union anonymous_5;
 
 // tag-#anon#UN[SYM#tag-sockaddr_in#'ipv4'||SYM#tag-sockaddr_in6#'ipv6'|]
 // file includes/kore.h line 131
-union anonymous$28;
+union anonymous_28;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$19;
+union anonymous_19;
 
-// tag-#anon#UN[r*{SYM#tag-sockaddr#}$SYM#tag-sockaddr#$'__sockaddr__'||r*{SYM#tag-sockaddr_at#}$SYM#tag-sockaddr_at#$'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}$SYM#tag-sockaddr_ax25#$'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}$SYM#tag-sockaddr_dl#$'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}$SYM#tag-sockaddr_eon#$'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}$SYM#tag-sockaddr_in#$'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}$SYM#tag-sockaddr_in6#$'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}$SYM#tag-sockaddr_inarp#$'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}$SYM#tag-sockaddr_ipx#$'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}$SYM#tag-sockaddr_iso#$'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}$SYM#tag-sockaddr_ns#$'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}$SYM#tag-sockaddr_un#$'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}$SYM#tag-sockaddr_x25#$'__sockaddr_x25__'|]$transparent
+// tag-#anon#UN[r*{SYM#tag-sockaddr#}_SYM#tag-sockaddr#_'__sockaddr__'||r*{SYM#tag-sockaddr_at#}_SYM#tag-sockaddr_at#_'__sockaddr_at__'||r*{SYM#tag-sockaddr_ax25#}_SYM#tag-sockaddr_ax25#_'__sockaddr_ax25__'||r*{SYM#tag-sockaddr_dl#}_SYM#tag-sockaddr_dl#_'__sockaddr_dl__'||r*{SYM#tag-sockaddr_eon#}_SYM#tag-sockaddr_eon#_'__sockaddr_eon__'||r*{SYM#tag-sockaddr_in#}_SYM#tag-sockaddr_in#_'__sockaddr_in__'||r*{SYM#tag-sockaddr_in6#}_SYM#tag-sockaddr_in6#_'__sockaddr_in6__'||r*{SYM#tag-sockaddr_inarp#}_SYM#tag-sockaddr_inarp#_'__sockaddr_inarp__'||r*{SYM#tag-sockaddr_ipx#}_SYM#tag-sockaddr_ipx#_'__sockaddr_ipx__'||r*{SYM#tag-sockaddr_iso#}_SYM#tag-sockaddr_iso#_'__sockaddr_iso__'||r*{SYM#tag-sockaddr_ns#}_SYM#tag-sockaddr_ns#_'__sockaddr_ns__'||r*{SYM#tag-sockaddr_un#}_SYM#tag-sockaddr_un#_'__sockaddr_un__'||r*{SYM#tag-sockaddr_x25#}_SYM#tag-sockaddr_x25#_'__sockaddr_x25__'|]_transparent
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 90
-union anonymous$17;
+union anonymous_17;
 
 // tag-ASIdentifierChoice_st
 // file /usr/include/openssl/x509v3.h line 781
@@ -1137,7 +1137,7 @@ extern signed int PQsendQueryParams(struct pg_conn *, const char *, signed int, 
 extern signed int PQsocket(const struct pg_conn *);
 // PQstatus
 // file /usr/include/postgresql/libpq-fe.h line 307
-extern enum anonymous$4 PQstatus(const struct pg_conn *);
+extern enum anonymous_4 PQstatus(const struct pg_conn *);
 // RSA_generate_key_ex
 // file /usr/include/openssl/rsa.h line 331
 signed int RSA_generate_key_ex(struct rsa_st *, signed int, struct bignum_st *, struct bn_gencb_st *);
@@ -1341,13 +1341,13 @@ _Bool __sync_bool_compare_and_swap();
 extern char * __xpg_basename(char *);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous$17, unsigned int *);
+extern signed int accept(signed int, union anonymous_17, unsigned int *);
 // asprintf
 // file /usr/include/stdio.h line 405
 extern signed int asprintf(char ** restrict , const char *, ...);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous$17, unsigned int);
+extern signed int bind(signed int, union anonymous_17, unsigned int);
 // chdir
 // file /usr/include/unistd.h line 497
 extern signed int chdir(const char *);
@@ -1408,9 +1408,9 @@ static void cli_file_writef(signed int fd, const char *fmt, ...);
 // cli_find_files
 // file src/cli.c line 730
 static void cli_find_files(const char *path, void (*cb)(char *, struct dirent *));
-// cli_find_files::cb$object
+// cli_find_files::cb_object
 //
-void cb$object(char *, struct dirent *);
+void cb_object(char *, struct dirent *);
 // cli_generate_certs
 // file src/cli.c line 767
 static void cli_generate_certs(void);
@@ -1435,9 +1435,9 @@ static void cli_run_kore(void *arg);
 // cli_spawn_proc
 // file src/cli.c line 1001
 static void cli_spawn_proc(void (*cb)(void *), void *arg);
-// cli_spawn_proc::cb$object
+// cli_spawn_proc::cb_object
 //
-void cb$object(void *);
+void cb_object(void *);
 // cli_vasprintf
 // file src/cli.c line 1027
 static signed int cli_vasprintf(char **out, const char *fmt, ...);
@@ -1738,9 +1738,9 @@ void http_process(void);
 // http_process_request
 // file src/http.c line 262
 void http_process_request(struct http_request *req, signed int retry_only);
-// http_process_request::1::cb$object
+// http_process_request::1::cb_object
 //
-signed int cb$object(struct http_request *);
+signed int cb_object(struct http_request *);
 // http_request_free
 // file src/http.c line 350
 void http_request_free(struct http_request *req);
@@ -1771,9 +1771,9 @@ static void http_response_spdy(struct http_request *req, struct connection *c, s
 // http_response_stream
 // file src/http.c line 478
 void http_response_stream(struct http_request *req, signed int status, void *base, unsigned long int len, signed int (*cb)(struct netbuf *), void *arg);
-// http_response_stream::cb$object
+// http_response_stream::cb_object
 //
-signed int cb$object(struct netbuf *);
+signed int cb_object(struct netbuf *);
 // http_state_run
 // file src/http.c line 1040
 signed int http_state_run(struct http_state *states, unsigned char elm, struct http_request *req);
@@ -2095,9 +2095,9 @@ void kore_task_channel_write(struct kore_task *t, void *data, unsigned int len);
 // kore_task_create
 // file src/tasks.c line 61
 void kore_task_create(struct kore_task *t, signed int (*entry)(struct kore_task *));
-// kore_task_create::entry$object
+// kore_task_create::entry_object
 //
-signed int entry$object(struct kore_task *);
+signed int entry_object(struct kore_task *);
 // kore_task_destroy
 // file includes/tasks.h line 62
 void kore_task_destroy(struct kore_task *t);
@@ -2137,9 +2137,9 @@ char * kore_time_to_date(signed long int now);
 // kore_timer_add
 // file src/timer.c line 31
 struct kore_timer * kore_timer_add(void (*cb)(void *, unsigned long int, unsigned long int), unsigned long int interval, void *arg, signed int flags);
-// kore_timer_add::cb$object
+// kore_timer_add::cb_object
 //
-void cb$object(void *, unsigned long int, unsigned long int);
+void cb_object(void *, unsigned long int, unsigned long int);
 // kore_timer_init
 // file src/timer.c line 25
 void kore_timer_init(void);
@@ -2221,9 +2221,9 @@ void kore_worker_wait(signed int final);
 // kore_worker_websocket_broadcast
 // file includes/kore.h line 406
 void kore_worker_websocket_broadcast(struct connection *src, void (*cb)(struct connection *, void *), void *args);
-// kore_worker_websocket_broadcast::cb$object
+// kore_worker_websocket_broadcast::cb_object
 //
-void cb$object(struct connection *, void *);
+void cb_object(struct connection *, void *);
 // kore_write_kore_pid
 // file src/kore.c line 371
 static void kore_write_kore_pid(void);
@@ -2278,24 +2278,24 @@ signed int net_read_ssl(struct connection *c, signed int *bytes);
 // net_recv_expand
 // file src/net.c line 165
 void net_recv_expand(struct connection *c, unsigned int len, signed int (*cb)(struct netbuf *));
-// net_recv_expand::cb$object
+// net_recv_expand::cb_object
 //
-signed int cb$object(struct netbuf *);
+signed int cb_object(struct netbuf *);
 // net_recv_flush
 // file includes/kore.h line 534
 signed int net_recv_flush(struct connection *c);
 // net_recv_queue
 // file includes/kore.h line 542
 void net_recv_queue(struct connection *c, unsigned int len, signed int flags, signed int (*cb)(struct netbuf *));
-// net_recv_queue::cb$object
+// net_recv_queue::cb_object
 //
-signed int cb$object(struct netbuf *);
+signed int cb_object(struct netbuf *);
 // net_recv_reset
 // file includes/kore.h line 539
 void net_recv_reset(struct connection *c, unsigned int len, signed int (*cb)(struct netbuf *));
-// net_recv_reset::cb$object
+// net_recv_reset::cb_object
 //
-signed int cb$object(struct netbuf *);
+signed int cb_object(struct netbuf *);
 // net_remove_netbuf
 // file src/net.c line 276
 void net_remove_netbuf(struct netbuf_head *list, struct netbuf *nb);
@@ -2311,9 +2311,9 @@ void net_send_queue(struct connection *c, void *data, unsigned int len, struct s
 // net_send_stream
 // file includes/kore.h line 548
 void net_send_stream(struct connection *c, void *data, unsigned int len, struct spdy_stream *s, signed int (*cb)(struct netbuf *), struct netbuf **out);
-// net_send_stream::cb$object
+// net_send_stream::cb_object
 //
-signed int cb$object(struct netbuf *);
+signed int cb_object(struct netbuf *);
 // net_write
 // file src/net.c line 358
 signed int net_write(struct connection *c, signed int len, signed int *written);
@@ -2382,13 +2382,13 @@ extern signed int prctl(signed int, ...);
 extern signed int printf(const char *, ...);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$10 *, const union anonymous$9 *);
+extern signed int pthread_cond_init(union anonymous_10 *, const union anonymous_9 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$10 *);
+extern signed int pthread_cond_signal(union anonymous_10 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$10 *, union anonymous$5 *);
+extern signed int pthread_cond_wait(union anonymous_10 *, union anonymous_5 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -2397,28 +2397,28 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern void pthread_exit(void *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$5 *, const union anonymous$9 *);
+extern signed int pthread_mutex_init(union anonymous_5 *, const union anonymous_9 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$5 *);
+extern signed int pthread_mutex_lock(union anonymous_5 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$5 *);
+extern signed int pthread_mutex_unlock(union anonymous_5 *);
 // pthread_rwlock_destroy
 // file /usr/include/pthread.h line 895
-extern signed int pthread_rwlock_destroy(union anonymous$8 *);
+extern signed int pthread_rwlock_destroy(union anonymous_8 *);
 // pthread_rwlock_init
 // file /usr/include/pthread.h line 890
-extern signed int pthread_rwlock_init(union anonymous$8 *, const union anonymous$7 *);
+extern signed int pthread_rwlock_init(union anonymous_8 *, const union anonymous_7 *);
 // pthread_rwlock_rdlock
 // file /usr/include/pthread.h line 899
-extern signed int pthread_rwlock_rdlock(union anonymous$8 *);
+extern signed int pthread_rwlock_rdlock(union anonymous_8 *);
 // pthread_rwlock_unlock
 // file /usr/include/pthread.h line 929
-extern signed int pthread_rwlock_unlock(union anonymous$8 *);
+extern signed int pthread_rwlock_unlock(union anonymous_8 *);
 // pthread_rwlock_wrlock
 // file /usr/include/pthread.h line 914
-extern signed int pthread_rwlock_wrlock(union anonymous$8 *);
+extern signed int pthread_rwlock_wrlock(union anonymous_8 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -2436,13 +2436,13 @@ extern signed long int recv(signed int, void *, unsigned long int, signed int);
 extern signed int regcomp(struct re_pattern_buffer *, const char *, signed int);
 // regexec
 // file /usr/include/regex.h line 566
-extern signed int regexec(const struct re_pattern_buffer *, const char *, unsigned long int, struct anonymous$57 *, signed int);
+extern signed int regexec(const struct re_pattern_buffer *, const char *, unsigned long int, struct anonymous_57 *, signed int);
 // rmdir
 // file /usr/include/unistd.h line 835
 extern signed int rmdir(const char *);
 // sched_setaffinity
 // file /usr/include/sched.h line 118
-extern signed int sched_setaffinity(signed int, unsigned long int, const struct anonymous$18 *);
+extern signed int sched_setaffinity(signed int, unsigned long int, const struct anonymous_18 *);
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
@@ -2515,9 +2515,9 @@ static void spdy_enable_write(struct connection *c);
 // spdy_frame_recv
 // file includes/kore.h line 567
 signed int spdy_frame_recv(struct netbuf *nb);
-// spdy_frame_recv::1::cb$object
+// spdy_frame_recv::1::cb_object
 //
-signed int cb$object(struct netbuf *);
+signed int cb_object(struct netbuf *);
 // spdy_frame_send
 // file includes/kore.h line 570
 void spdy_frame_send(struct connection *c, unsigned short int type, unsigned char flags, unsigned int len, struct spdy_stream *s, unsigned int misc);
@@ -2660,7 +2660,7 @@ static void worker_unlock(void);
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);
 
-struct anonymous$63
+struct anonymous_63
 {
   // name
   char *name;
@@ -2668,7 +2668,7 @@ struct anonymous$63
   signed int value;
 };
 
-struct anonymous$66
+struct anonymous_66
 {
   // tqe_next
   struct cfile *tqe_next;
@@ -2676,7 +2676,7 @@ struct anonymous$66
   struct cfile **tqe_prev;
 };
 
-struct anonymous$39
+struct anonymous_39
 {
   // tqe_next
   struct connection *tqe_next;
@@ -2684,7 +2684,7 @@ struct anonymous$39
   struct connection **tqe_prev;
 };
 
-struct anonymous$60
+struct anonymous_60
 {
   // tqe_next
   struct http_arg *tqe_next;
@@ -2692,7 +2692,7 @@ struct anonymous$60
   struct http_arg **tqe_prev;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // tqh_first
   struct http_arg *tqh_first;
@@ -2700,7 +2700,7 @@ struct anonymous$35
   struct http_arg **tqh_last;
 };
 
-struct anonymous$61
+struct anonymous_61
 {
   // tqe_next
   struct http_file *tqe_next;
@@ -2708,7 +2708,7 @@ struct anonymous$61
   struct http_file **tqe_prev;
 };
 
-struct anonymous$36
+struct anonymous_36
 {
   // tqh_first
   struct http_file *tqh_first;
@@ -2716,7 +2716,7 @@ struct anonymous$36
   struct http_file **tqh_last;
 };
 
-struct anonymous$59
+struct anonymous_59
 {
   // tqe_next
   struct http_header *tqe_next;
@@ -2724,7 +2724,7 @@ struct anonymous$59
   struct http_header **tqe_prev;
 };
 
-struct anonymous$34
+struct anonymous_34
 {
   // tqh_first
   struct http_header *tqh_first;
@@ -2732,7 +2732,7 @@ struct anonymous$34
   struct http_header **tqh_last;
 };
 
-struct anonymous$37
+struct anonymous_37
 {
   // tqe_next
   struct http_request *tqe_next;
@@ -2740,7 +2740,7 @@ struct anonymous$37
   struct http_request **tqe_prev;
 };
 
-struct anonymous$38
+struct anonymous_38
 {
   // tqh_first
   struct http_request *tqh_first;
@@ -2748,7 +2748,7 @@ struct anonymous$38
   struct http_request **tqh_last;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // tqe_next
   struct kore_auth *tqe_next;
@@ -2756,7 +2756,7 @@ struct anonymous$13
   struct kore_auth **tqe_prev;
 };
 
-struct anonymous$64
+struct anonymous_64
 {
   // tqh_first
   struct kore_auth *tqh_first;
@@ -2764,7 +2764,7 @@ struct anonymous$64
   struct kore_auth **tqh_last;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // tqe_next
   struct kore_domain *tqe_next;
@@ -2772,7 +2772,7 @@ struct anonymous$12
   struct kore_domain **tqe_prev;
 };
 
-struct anonymous$40
+struct anonymous_40
 {
   // tqe_next
   struct kore_handler_params *tqe_next;
@@ -2780,7 +2780,7 @@ struct anonymous$40
   struct kore_handler_params **tqe_prev;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // tqh_first
   struct kore_handler_params *tqh_first;
@@ -2788,7 +2788,7 @@ struct anonymous$14
   struct kore_handler_params **tqh_last;
 };
 
-struct anonymous$56
+struct anonymous_56
 {
   // tqe_next
   struct kore_module *tqe_next;
@@ -2796,7 +2796,7 @@ struct anonymous$56
   struct kore_module **tqe_prev;
 };
 
-struct anonymous$55
+struct anonymous_55
 {
   // tqh_first
   struct kore_module *tqh_first;
@@ -2804,7 +2804,7 @@ struct anonymous$55
   struct kore_module **tqh_last;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // tqe_next
   struct kore_module_handle *tqe_next;
@@ -2812,7 +2812,7 @@ struct anonymous$15
   struct kore_module_handle **tqe_prev;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // tqh_first
   struct kore_module_handle *tqh_first;
@@ -2820,7 +2820,7 @@ struct anonymous$11
   struct kore_module_handle **tqh_last;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // le_next
   struct kore_pgsql *le_next;
@@ -2828,13 +2828,13 @@ struct anonymous$25
   struct kore_pgsql **le_prev;
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // lh_first
   struct kore_pgsql *lh_first;
 };
 
-struct anonymous$46
+struct anonymous_46
 {
   // le_next
   struct kore_pool_entry *le_next;
@@ -2842,13 +2842,13 @@ struct anonymous$46
   struct kore_pool_entry **le_prev;
 };
 
-struct anonymous$44
+struct anonymous_44
 {
   // lh_first
   struct kore_pool_entry *lh_first;
 };
 
-struct anonymous$45
+struct anonymous_45
 {
   // le_next
   struct kore_pool_region *le_next;
@@ -2856,13 +2856,13 @@ struct anonymous$45
   struct kore_pool_region **le_prev;
 };
 
-struct anonymous$43
+struct anonymous_43
 {
   // lh_first
   struct kore_pool_region *lh_first;
 };
 
-struct anonymous$51
+struct anonymous_51
 {
   // le_next
   struct kore_task *le_next;
@@ -2870,13 +2870,13 @@ struct anonymous$51
   struct kore_task **le_prev;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // lh_first
   struct kore_task *lh_first;
 };
 
-struct anonymous$50
+struct anonymous_50
 {
   // tqe_next
   struct kore_task *tqe_next;
@@ -2884,7 +2884,7 @@ struct anonymous$50
   struct kore_task **tqe_prev;
 };
 
-struct anonymous$48
+struct anonymous_48
 {
   // tqh_first
   struct kore_task *tqh_first;
@@ -2892,7 +2892,7 @@ struct anonymous$48
   struct kore_task **tqh_last;
 };
 
-struct anonymous$49
+struct anonymous_49
 {
   // tqe_next
   struct kore_task_thread *tqe_next;
@@ -2900,7 +2900,7 @@ struct anonymous$49
   struct kore_task_thread **tqe_prev;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // tqh_first
   struct kore_task_thread *tqh_first;
@@ -2908,7 +2908,7 @@ struct anonymous$6
   struct kore_task_thread **tqh_last;
 };
 
-struct anonymous$58
+struct anonymous_58
 {
   // tqe_next
   struct kore_timer *tqe_next;
@@ -2916,7 +2916,7 @@ struct anonymous$58
   struct kore_timer **tqe_prev;
 };
 
-struct anonymous$42
+struct anonymous_42
 {
   // tqe_next
   struct kore_validator *tqe_next;
@@ -2924,7 +2924,7 @@ struct anonymous$42
   struct kore_validator **tqe_prev;
 };
 
-struct anonymous$62
+struct anonymous_62
 {
   // tqh_first
   struct kore_validator *tqh_first;
@@ -2932,7 +2932,7 @@ struct anonymous$62
   struct kore_validator **tqh_last;
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // le_next
   struct listener *le_next;
@@ -2940,7 +2940,7 @@ struct anonymous$29
   struct listener **le_prev;
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // tqe_next
   struct netbuf *tqe_next;
@@ -2948,7 +2948,7 @@ struct anonymous$27
   struct netbuf **tqe_prev;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // tqe_next
   struct pgsql_conn *tqe_next;
@@ -2956,7 +2956,7 @@ struct anonymous$22
   struct pgsql_conn **tqe_prev;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // tqh_first
   struct pgsql_conn *tqh_first;
@@ -2964,7 +2964,7 @@ struct anonymous$2
   struct pgsql_conn **tqh_last;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // tqe_next
   struct pgsql_job *tqe_next;
@@ -2972,7 +2972,7 @@ struct anonymous$0
   struct pgsql_job **tqe_prev;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // tqe_next
   struct pgsql_wait *tqe_next;
@@ -2980,7 +2980,7 @@ struct anonymous$1
   struct pgsql_wait **tqe_prev;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // tqh_first
   struct pgsql_wait *tqh_first;
@@ -2988,7 +2988,7 @@ struct anonymous$3
   struct pgsql_wait **tqh_last;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // tqe_next
   struct spdy_stream *tqe_next;
@@ -2996,7 +2996,7 @@ struct anonymous$24
   struct spdy_stream **tqe_prev;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // tqh_first
   struct spdy_stream *tqh_first;
@@ -3004,7 +3004,7 @@ struct anonymous$31
   struct spdy_stream **tqh_last;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // name
   const char *name;
@@ -3012,7 +3012,7 @@ struct anonymous$23
   signed int (*configure)(char **);
 };
 
-struct anonymous$54
+struct anonymous_54
 {
   // cert_verify_md
   unsigned char cert_verify_md[128l];
@@ -3066,13 +3066,13 @@ struct anonymous$54
   signed int cert_request;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // __bits
   unsigned long int __bits[16l];
 };
 
-struct anonymous$52
+struct anonymous_52
 {
   // __lock
   signed int __lock;
@@ -3092,7 +3092,7 @@ struct anonymous$52
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$47
+struct anonymous_47
 {
   // __lock
   signed int __lock;
@@ -3120,7 +3120,7 @@ struct anonymous$47
   unsigned int __flags;
 };
 
-struct anonymous$57
+struct anonymous_57
 {
   // rm_so
   signed int rm_so;
@@ -3128,7 +3128,7 @@ struct anonymous$57
   signed int rm_eo;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // sess_connect
   signed int sess_connect;
@@ -3154,7 +3154,7 @@ struct anonymous$16
   signed int sess_cb_hit;
 };
 
-struct anonymous$53
+struct anonymous_53
 {
   // conn_id_length
   unsigned int conn_id_length;
@@ -3180,7 +3180,7 @@ struct anonymous$53
   unsigned int rlen;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // length
   unsigned long int length;
@@ -3188,7 +3188,7 @@ struct anonymous$30
   unsigned long int start;
 };
 
-union anonymous$65
+union anonymous_65
 {
   // inherit
   signed int *inherit;
@@ -3196,7 +3196,7 @@ union anonymous$65
   struct stack_st_ASIdOrRange *asIdsOrRanges;
 };
 
-union anonymous$21
+union anonymous_21
 {
   // ptr
   char *ptr;
@@ -3210,7 +3210,7 @@ union anonymous$21
   struct ec_key_st *ec;
 };
 
-union anonymous$20
+union anonymous_20
 {
   // ptr
   char *ptr;
@@ -3256,7 +3256,7 @@ union anonymous$20
   struct ASN1_VALUE_st *asn1_value;
 };
 
-union anonymous$41
+union anonymous_41
 {
   // cb_1
   void (*cb_1)(signed int, signed int, void *);
@@ -3264,7 +3264,7 @@ union anonymous$41
   signed int (*cb_2)(signed int, signed int, struct bn_gencb_st *);
 };
 
-union anonymous$26
+union anonymous_26
 {
   // __u6_addr8
   unsigned char __u6_addr8[16l];
@@ -3274,7 +3274,7 @@ union anonymous$26
   unsigned int __u6_addr32[4l];
 };
 
-union anonymous$9
+union anonymous_9
 {
   // __size
   char __size[4l];
@@ -3282,7 +3282,7 @@ union anonymous$9
   signed int __align;
 };
 
-union anonymous$7
+union anonymous_7
 {
   // __size
   char __size[8l];
@@ -3290,20 +3290,20 @@ union anonymous$7
   signed long int __align;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // __data
-  struct anonymous$52 __data;
+  struct anonymous_52 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-union anonymous$8
+union anonymous_8
 {
   // __data
-  struct anonymous$47 __data;
+  struct anonymous_47 __data;
   // __size
   char __size[56l];
   // __align
@@ -3338,7 +3338,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$5
+union anonymous_5
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -3377,7 +3377,7 @@ struct sockaddr_in
 struct in6_addr
 {
   // __in6_u
-  union anonymous$26 __in6_u;
+  union anonymous_26 __in6_u;
 };
 
 struct sockaddr_in6
@@ -3394,7 +3394,7 @@ struct sockaddr_in6
   unsigned int sin6_scope_id;
 };
 
-union anonymous$28
+union anonymous_28
 {
   // ipv4
   struct sockaddr_in ipv4;
@@ -3402,7 +3402,7 @@ union anonymous$28
   struct sockaddr_in6 ipv6;
 };
 
-union anonymous$19
+union anonymous_19
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -3432,7 +3432,7 @@ union anonymous$19
   struct sockaddr_x25 * restrict __sockaddr_x25__;
 };
 
-union anonymous$17
+union anonymous_17
 {
   // __sockaddr__
   struct sockaddr * restrict __sockaddr__;
@@ -3467,7 +3467,7 @@ struct ASIdentifierChoice_st
   // type
   signed int type;
   // u
-  union anonymous$65 u;
+  union anonymous_65 u;
 };
 
 struct ASIdentifiers_st
@@ -3777,7 +3777,7 @@ struct asn1_type_st
   // type
   signed int type;
   // value
-  union anonymous$20 value;
+  union anonymous_20 value;
 };
 
 struct bignum_st
@@ -3867,7 +3867,7 @@ struct bn_gencb_st
   // arg
   void *arg;
   // cb
-  union anonymous$41 cb;
+  union anonymous_41 cb;
 };
 
 struct bn_mont_ctx_st
@@ -3953,7 +3953,7 @@ struct cfile
   // opath
   char *opath;
   // list
-  struct anonymous$66 list;
+  struct anonymous_66 list;
 };
 
 struct cfile_list
@@ -4083,9 +4083,9 @@ struct connection
   // addrtype
   unsigned char addrtype;
   // addr
-  union anonymous$28 addr;
+  union anonymous_28 addr;
   // idle_timer
-  struct anonymous$30 idle_timer;
+  struct anonymous_30 idle_timer;
   // inflate_started
   unsigned char inflate_started;
   // z_inflate
@@ -4109,13 +4109,13 @@ struct connection
   // client_stream_id
   unsigned int client_stream_id;
   // spdy_streams
-  struct anonymous$31 spdy_streams;
+  struct anonymous_31 spdy_streams;
   // http_requests
-  struct anonymous$38 http_requests;
+  struct anonymous_38 http_requests;
   // list
-  struct anonymous$39 list;
+  struct anonymous_39 list;
   // flush_list
-  struct anonymous$39 flush_list;
+  struct anonymous_39 flush_list;
 };
 
 struct connection_list
@@ -4545,7 +4545,7 @@ struct evp_pkey_st
   // engine
   struct engine_st *engine;
   // pkey
-  union anonymous$21 pkey;
+  union anonymous_21 pkey;
   // save_parameters
   signed int save_parameters;
   // attributes
@@ -4587,7 +4587,7 @@ struct http_arg
   // s_len
   unsigned int s_len;
   // list
-  struct anonymous$60 list;
+  struct anonymous_60 list;
 };
 
 struct http_file
@@ -4601,7 +4601,7 @@ struct http_file
   // len
   unsigned int len;
   // list
-  struct anonymous$61 list;
+  struct anonymous_61 list;
 };
 
 struct http_header
@@ -4611,7 +4611,7 @@ struct http_header
   // value
   char *value;
   // list
-  struct anonymous$59 list;
+  struct anonymous_59 list;
 };
 
 struct http_request
@@ -4651,21 +4651,21 @@ struct http_request
   // hdlr
   struct kore_module_handle *hdlr;
   // tasks
-  struct anonymous$32 tasks;
+  struct anonymous_32 tasks;
   // pgsqls
-  struct anonymous$33 pgsqls;
+  struct anonymous_33 pgsqls;
   // req_headers
-  struct anonymous$34 req_headers;
+  struct anonymous_34 req_headers;
   // resp_headers
-  struct anonymous$34 resp_headers;
+  struct anonymous_34 resp_headers;
   // arguments
-  struct anonymous$35 arguments;
+  struct anonymous_35 arguments;
   // files
-  struct anonymous$36 files;
+  struct anonymous_36 files;
   // list
-  struct anonymous$37 list;
+  struct anonymous_37 list;
   // olist
-  struct anonymous$37 olist;
+  struct anonymous_37 olist;
 };
 
 struct http_state
@@ -4721,7 +4721,7 @@ struct kore_auth
   // validator
   struct kore_validator *validator;
   // list
-  struct anonymous$13 list;
+  struct anonymous_13 list;
 };
 
 struct kore_buf
@@ -4751,9 +4751,9 @@ struct kore_domain
   // ssl_ctx
   struct ssl_ctx_st *ssl_ctx;
   // handlers
-  struct anonymous$11 handlers;
+  struct anonymous_11 handlers;
   // list
-  struct anonymous$12 list;
+  struct anonymous_12 list;
 };
 
 struct kore_domain_h
@@ -4773,7 +4773,7 @@ struct kore_handler_params
   // validator
   struct kore_validator *validator;
   // list
-  struct anonymous$40 list;
+  struct anonymous_40 list;
 };
 
 struct kore_log_packet
@@ -4815,7 +4815,7 @@ struct kore_module
   // mtime
   signed long int mtime;
   // list
-  struct anonymous$56 list;
+  struct anonymous_56 list;
 };
 
 struct re_pattern_buffer
@@ -4869,9 +4869,9 @@ struct kore_module_handle
   // auth
   struct kore_auth *auth;
   // params
-  struct anonymous$14 params;
+  struct anonymous_14 params;
   // list
-  struct anonymous$15 list;
+  struct anonymous_15 list;
 };
 
 struct kore_pgsql
@@ -4885,7 +4885,7 @@ struct kore_pgsql
   // conn
   struct pgsql_conn *conn;
   // rlist
-  struct anonymous$25 rlist;
+  struct anonymous_25 rlist;
 };
 
 struct kore_pool
@@ -4901,9 +4901,9 @@ struct kore_pool
   // name
   char *name;
   // regions
-  struct anonymous$43 regions;
+  struct anonymous_43 regions;
   // freelist
-  struct anonymous$44 freelist;
+  struct anonymous_44 freelist;
 };
 
 struct kore_pool_entry
@@ -4913,7 +4913,7 @@ struct kore_pool_entry
   // region
   struct kore_pool_region *region;
   // list
-  struct anonymous$46 list;
+  struct anonymous_46 list;
 };
 
 struct kore_pool_region
@@ -4921,7 +4921,7 @@ struct kore_pool_region
   // start
   void *start;
   // list
-  struct anonymous$45 list;
+  struct anonymous_45 list;
 };
 
 struct kore_task
@@ -4933,7 +4933,7 @@ struct kore_task
   // result
   signed int result;
   // lock
-  union anonymous$8 lock;
+  union anonymous_8 lock;
   // req
   struct http_request *req;
   // fds
@@ -4943,9 +4943,9 @@ struct kore_task
   // thread
   struct kore_task_thread *thread;
   // list
-  struct anonymous$50 list;
+  struct anonymous_50 list;
   // rlist
-  struct anonymous$51 rlist;
+  struct anonymous_51 rlist;
 };
 
 struct kore_task_thread
@@ -4955,13 +4955,13 @@ struct kore_task_thread
   // tid
   unsigned long int tid;
   // lock
-  union anonymous$5 lock;
+  union anonymous_5 lock;
   // cond
-  union anonymous$10 cond;
+  union anonymous_10 cond;
   // tasks
-  struct anonymous$48 tasks;
+  struct anonymous_48 tasks;
   // list
-  struct anonymous$49 list;
+  struct anonymous_49 list;
 };
 
 struct kore_timer
@@ -4977,7 +4977,7 @@ struct kore_timer
   // cb
   void (*cb)(void *, unsigned long int, unsigned long int);
   // list
-  struct anonymous$58 list;
+  struct anonymous_58 list;
 };
 
 struct kore_validator
@@ -4993,7 +4993,7 @@ struct kore_validator
   // func
   signed int (*func)(struct http_request *, char *);
   // list
-  struct anonymous$42 list;
+  struct anonymous_42 list;
 };
 
 struct kore_worker
@@ -5035,9 +5035,9 @@ struct listener
   // addrtype
   unsigned char addrtype;
   // addr
-  union anonymous$28 addr;
+  union anonymous_28 addr;
   // list
-  struct anonymous$29 list;
+  struct anonymous_29 list;
 };
 
 struct listener_head
@@ -5075,7 +5075,7 @@ struct netbuf
   // cb
   signed int (*cb)(struct netbuf *);
   // list
-  struct anonymous$27 list;
+  struct anonymous_27 list;
 };
 
 struct passwd
@@ -5107,7 +5107,7 @@ struct pgsql_conn
   // job
   struct pgsql_job *job;
   // list
-  struct anonymous$22 list;
+  struct anonymous_22 list;
 };
 
 struct pgsql_job
@@ -5119,7 +5119,7 @@ struct pgsql_job
   // pgsql
   struct kore_pgsql *pgsql;
   // list
-  struct anonymous$0 list;
+  struct anonymous_0 list;
 };
 
 struct pgsql_wait
@@ -5127,7 +5127,7 @@ struct pgsql_wait
   // req
   struct http_request *req;
   // list
-  struct anonymous$1 list;
+  struct anonymous_1 list;
 };
 
 struct pollfd
@@ -5317,7 +5317,7 @@ struct spdy_stream
   // hblock
   struct spdy_header_block *hblock;
   // list
-  struct anonymous$24 list;
+  struct anonymous_24 list;
 };
 
 struct spdy_syn_stream
@@ -5447,7 +5447,7 @@ struct ssl2_state_st
   // write_sequence
   unsigned long int write_sequence;
   // tmp
-  struct anonymous$53 tmp;
+  struct anonymous_53 tmp;
 };
 
 struct ssl3_buffer_st
@@ -5567,7 +5567,7 @@ struct ssl3_state_st
   // server_opaque_prf_input_len
   unsigned long int server_opaque_prf_input_len;
   // tmp
-  struct anonymous$54 tmp;
+  struct anonymous_54 tmp;
   // previous_client_finished
   unsigned char previous_client_finished[64l];
   // previous_client_finished_len
@@ -5655,7 +5655,7 @@ struct ssl_ctx_st
   // get_session_cb
   struct ssl_session_st * (*get_session_cb)(struct ssl_st *, unsigned char *, signed int, signed int *);
   // stats
-  struct anonymous$16 stats;
+  struct anonymous_16 stats;
   // references
   signed int references;
   // app_verify_callback
@@ -6527,7 +6527,7 @@ static signed int accesslog_fd[2l];
 static char *appl = (char *)(void *)0;
 // auth_list
 // file src/auth.c line 24
-struct anonymous$64 auth_list;
+struct anonymous_64 auth_list;
 // b64table
 // file src/utils.c line 42
 static char b64table[65l] = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '+', '/', 0 };
@@ -6562,10 +6562,10 @@ static const char *config_data = "# Placeholder configuration\n\nbind\t\t127.0.0
 char *config_file = (char *)(void *)0;
 // config_names
 // file src/config.c line 81
-static struct anonymous$23 config_names[40l];
+static struct anonymous_23 config_names[40l];
 // config_names
 // file src/config.c line 81
-static struct anonymous$23 config_names[40l] = { { .name="include", .configure=configure_include },
+static struct anonymous_23 config_names[40l] = { { .name="include", .configure=configure_include },
     { .name="bind", .configure=configure_bind },
     { .name="load", .configure=configure_load },
     { .name="static", .configure=configure_handler },
@@ -6691,10 +6691,10 @@ unsigned int http_request_limit = (unsigned int)1000;
 static struct kore_pool http_request_pool;
 // http_requests
 // file src/http.c line 51
-static struct anonymous$38 http_requests;
+static struct anonymous_38 http_requests;
 // http_requests_sleeping
 // file src/http.c line 52
-static struct anonymous$38 http_requests_sleeping;
+static struct anonymous_38 http_requests_sleeping;
 // http_version
 // file src/http.c line 48
 static char http_version[32l];
@@ -6736,10 +6736,10 @@ static struct kore_worker *kore_workers;
 struct listener_head listeners;
 // modules
 // file src/module.c line 23
-static struct anonymous$55 modules;
+static struct anonymous_55 modules;
 // month_names
 // file src/utils.c line 26
-static struct anonymous$63 month_names[13l] = { { .name="Jan", .value=0 }, { .name="Feb", .value=1 }, { .name="Mar", .value=2 }, { .name="Apr", .value=3 }, { .name="May", .value=4 }, { .name="Jun", .value=5 }, { .name="Jul", .value=6 }, { .name="Aug", .value=7 }, { .name="Sep", .value=8 }, { .name="Oct", .value=9 }, { .name="Nov", .value=10 }, { .name="Dec", .value=11 }, { .name=(char *)(void *)0, .value=0 } };
+static struct anonymous_63 month_names[13l] = { { .name="Jan", .value=0 }, { .name="Feb", .value=1 }, { .name="Mar", .value=2 }, { .name="Apr", .value=3 }, { .name="May", .value=4 }, { .name="Jun", .value=5 }, { .name="Jul", .value=6 }, { .name="Aug", .value=7 }, { .name="Sep", .value=8 }, { .name="Oct", .value=9 }, { .name="Nov", .value=10 }, { .name="Dec", .value=11 }, { .name=(char *)(void *)0, .value=0 } };
 // nb_pool
 // file src/net.c line 31
 struct kore_pool nb_pool;
@@ -6757,7 +6757,7 @@ extern signed int optind;
 static unsigned short int pgsql_conn_count;
 // pgsql_conn_free
 // file src/pgsql.c line 58
-static struct anonymous$2 pgsql_conn_free;
+static struct anonymous_2 pgsql_conn_free;
 // pgsql_conn_max
 // file src/pgsql.c line 62
 unsigned short int pgsql_conn_max = (unsigned short int)2;
@@ -6772,7 +6772,7 @@ static struct kore_pool pgsql_job_pool;
 static struct kore_pool pgsql_wait_pool;
 // pgsql_wait_queue
 // file src/pgsql.c line 59
-static struct anonymous$3 pgsql_wait_queue;
+static struct anonymous_3 pgsql_wait_queue;
 // primary_dom
 // file src/domain.c line 24
 struct kore_domain *primary_dom = (struct kore_domain *)(void *)0;
@@ -6814,10 +6814,10 @@ static const char *src_data = "#include <kore/kore.h>\n#include <kore/http.h>\n\
 extern struct _IO_FILE *stderr;
 // task_thread_lock
 // file src/tasks.c line 30
-static union anonymous$5 task_thread_lock;
+static union anonymous_5 task_thread_lock;
 // task_threads
 // file src/tasks.c line 32
-static struct anonymous$6 task_threads;
+static struct anonymous_6 task_threads;
 // threads
 // file src/tasks.c line 29
 static unsigned char threads;
@@ -6829,7 +6829,7 @@ struct dh_st *tls_dhparam = (struct dh_st *)(void *)0;
 signed int tls_version = 0;
 // validators
 // file src/validator.c line 19
-struct anonymous$62 validators;
+struct anonymous_62 validators;
 // worker
 // file src/worker.c line 69
 struct kore_worker *worker = (struct kore_worker *)(void *)0;
@@ -6859,9 +6859,9 @@ unsigned char worker_set_affinity = (unsigned char)1;
 // file /usr/include/x86_64-linux-gnu/bits/byteswap.h line 109
 static inline unsigned long int __bswap_64(unsigned long int __bsx)
 {
-  signed long long int return_value___builtin_bswap64$1;
-  return_value___builtin_bswap64$1=__builtin_bswap64((signed long long int)__bsx);
-  return (unsigned long int)return_value___builtin_bswap64$1;
+  signed long long int return_value___builtin_bswap64_1;
+  return_value___builtin_bswap64_1=__builtin_bswap64((signed long long int)__bsx);
+  return (unsigned long int)return_value___builtin_bswap64_1;
 }
 
 // cli_add_cfile
@@ -6870,9 +6870,9 @@ static void cli_add_cfile(char *name, char *fpath, char *opath, struct stat *st,
 {
   struct cfile *cf;
   cfiles_count = cfiles_count + 1;
-  void *return_value_kore_malloc$1;
-  return_value_kore_malloc$1=kore_malloc(sizeof(struct cfile) /*192ul*/ );
-  cf = (struct cfile *)return_value_kore_malloc$1;
+  void *return_value_kore_malloc_1;
+  return_value_kore_malloc_1=kore_malloc(sizeof(struct cfile) /*192ul*/ );
+  cf = (struct cfile *)return_value_kore_malloc_1;
   cf->st = *st;
   cf->build = build;
   cf->cpp = cpp;
@@ -6904,17 +6904,17 @@ static void cli_build(signed int argc, char **argv)
   char *obj_path;
   char *cpath;
   char *config;
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(argc == 0)
   {
-    char *return_value_getcwd$3;
-    return_value_getcwd$3=getcwd(pwd, sizeof(char [4096l]) /*4096ul*/ );
-    if(return_value_getcwd$3 == ((char *)NULL))
+    char *return_value_getcwd_3;
+    return_value_getcwd_3=getcwd(pwd, sizeof(char [4096l]) /*4096ul*/ );
+    if(return_value_getcwd_3 == ((char *)NULL))
     {
-      return_value___errno_location$1=__errno_location();
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      cli_fatal("could not get cwd: %s", return_value_strerror$2);
+      return_value___errno_location_1=__errno_location();
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      cli_fatal("could not get cwd: %s", return_value_strerror_2);
     }
 
     rootdir = ".";
@@ -6941,33 +6941,33 @@ static void cli_build(signed int argc, char **argv)
   cli_vasprintf(&assets_path, "%s/assets", rootdir);
   cli_vasprintf(&config, "%s/conf/%s.conf", rootdir, appl);
   cli_vasprintf(&assets_header, "%s/src/assets.h", rootdir);
-  signed int return_value_cli_dir_exists$4;
-  return_value_cli_dir_exists$4=cli_dir_exists(src_path);
-  _Bool tmp_if_expr$6;
-  signed int return_value_cli_file_exists$5;
-  if(return_value_cli_dir_exists$4 == 0)
-    tmp_if_expr$6 = (_Bool)1;
+  signed int return_value_cli_dir_exists_4;
+  return_value_cli_dir_exists_4=cli_dir_exists(src_path);
+  _Bool tmp_if_expr_6;
+  signed int return_value_cli_file_exists_5;
+  if(return_value_cli_dir_exists_4 == 0)
+    tmp_if_expr_6 = (_Bool)1;
 
   else
   {
-    return_value_cli_file_exists$5=cli_file_exists(config);
-    tmp_if_expr$6 = !(return_value_cli_file_exists$5 != 0) ? (_Bool)1 : (_Bool)0;
+    return_value_cli_file_exists_5=cli_file_exists(config);
+    tmp_if_expr_6 = !(return_value_cli_file_exists_5 != 0) ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$6)
+  if(tmp_if_expr_6)
     cli_fatal("%s doesn't appear to be a kore app", appl);
 
   free((void *)config);
   cli_vasprintf(&obj_path, "%s/.objs", rootdir);
-  signed int return_value_cli_dir_exists$7;
-  return_value_cli_dir_exists$7=cli_dir_exists(obj_path);
-  if(return_value_cli_dir_exists$7 == 0)
+  signed int return_value_cli_dir_exists_7;
+  return_value_cli_dir_exists_7=cli_dir_exists(obj_path);
+  if(return_value_cli_dir_exists_7 == 0)
     cli_mkdir(obj_path, 0755);
 
   free((void *)obj_path);
   unlink(assets_header);
-  signed int return_value_cli_dir_exists$8;
-  return_value_cli_dir_exists$8=cli_dir_exists(assets_path);
-  if(!(return_value_cli_dir_exists$8 == 0))
+  signed int return_value_cli_dir_exists_8;
+  return_value_cli_dir_exists_8=cli_dir_exists(assets_path);
+  if(!(return_value_cli_dir_exists_8 == 0))
   {
     cli_file_open(assets_header, 0100 | 01000 | 01, &s_fd);
     cli_file_writef(s_fd, "#ifndef __H_KORE_ASSETS_H\n");
@@ -6982,8 +6982,8 @@ static void cli_build(signed int argc, char **argv)
   free((void *)src_path);
   requires_relink = 0;
   cf = (&source_files)->tqh_first;
-  signed int *return_value___errno_location$9;
-  char *return_value_strerror$10;
+  signed int *return_value___errno_location_9;
+  char *return_value_strerror_10;
   for( ; !(cf == ((struct cfile *)NULL)); cf = cf->list.tqe_next)
     if(!(cf->build == 0))
     {
@@ -6992,13 +6992,13 @@ static void cli_build(signed int argc, char **argv)
       times[(signed long int)0].tv_usec = (signed long int)0;
       times[(signed long int)0].tv_sec = cf->st.st_mtim.tv_sec;
       times[(signed long int)1] = times[(signed long int)0];
-      signed int return_value_utimes$11;
-      return_value_utimes$11=utimes(cf->opath, times);
-      if(return_value_utimes$11 == -1)
+      signed int return_value_utimes_11;
+      return_value_utimes_11=utimes(cf->opath, times);
+      if(return_value_utimes_11 == -1)
       {
-        return_value___errno_location$9=__errno_location();
-        return_value_strerror$10=strerror(*return_value___errno_location$9);
-        printf("utime(%s): %s\n", cf->opath, return_value_strerror$10);
+        return_value___errno_location_9=__errno_location();
+        return_value_strerror_10=strerror(*return_value___errno_location_9);
+        printf("utime(%s): %s\n", cf->opath, return_value_strerror_10);
       }
 
       requires_relink = requires_relink + 1;
@@ -7007,9 +7007,9 @@ static void cli_build(signed int argc, char **argv)
   unlink(assets_header);
   free((void *)assets_header);
   cli_vasprintf(&cpath, "%s/cert", rootdir);
-  signed int return_value_cli_dir_exists$12;
-  return_value_cli_dir_exists$12=cli_dir_exists(cpath);
-  if(return_value_cli_dir_exists$12 == 0)
+  signed int return_value_cli_dir_exists_12;
+  return_value_cli_dir_exists_12=cli_dir_exists(cpath);
+  if(return_value_cli_dir_exists_12 == 0)
   {
     cli_mkdir(cpath, 0700);
     cli_generate_certs();
@@ -7047,55 +7047,55 @@ static void cli_build_asset(char *fpath, struct dirent *dp)
     cli_fatal("couldn't find ext in %s", name);
 
   p = name;
-  _Bool tmp_if_expr$2;
-  const unsigned short int **return_value___ctype_b_loc$1;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_2;
+  const unsigned short int **return_value___ctype_b_loc_1;
+  _Bool tmp_if_expr_3;
   for( ; !((signed int)*p == 0); p = p + 1l)
   {
     if((signed int)*p == 46)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
     {
-      return_value___ctype_b_loc$1=__ctype_b_loc();
-      tmp_if_expr$2 = ((signed int)(*return_value___ctype_b_loc$1)[(signed long int)(signed int)*p] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
+      return_value___ctype_b_loc_1=__ctype_b_loc();
+      tmp_if_expr_2 = ((signed int)(*return_value___ctype_b_loc_1)[(signed long int)(signed int)*p] & (signed int)(unsigned short int)8192) != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$2)
-      tmp_if_expr$3 = (_Bool)1;
+    if(tmp_if_expr_2)
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)*p == 45 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)*p == 45 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
       *p = (char)95;
 
   }
-  signed int return_value_stat$6;
-  return_value_stat$6=stat(fpath, &st);
-  signed int *return_value___errno_location$4;
-  char *return_value_strerror$5;
-  if(return_value_stat$6 == -1)
+  signed int return_value_stat_6;
+  return_value_stat_6=stat(fpath, &st);
+  signed int *return_value___errno_location_4;
+  char *return_value_strerror_5;
+  if(return_value_stat_6 == -1)
   {
-    return_value___errno_location$4=__errno_location();
-    return_value_strerror$5=strerror(*return_value___errno_location$4);
-    cli_fatal("stat: %s %s", fpath, return_value_strerror$5);
+    return_value___errno_location_4=__errno_location();
+    return_value_strerror_5=strerror(*return_value___errno_location_4);
+    cli_fatal("stat: %s %s", fpath, return_value_strerror_5);
   }
 
   cli_vasprintf(&opath, "%s/.objs/%s.o", rootdir, name);
   cli_vasprintf(&cpath, "%s/.objs/%s.c", rootdir, name);
-  signed int return_value_cli_file_requires_build$8;
-  return_value_cli_file_requires_build$8=cli_file_requires_build(&st, opath);
-  char *tmp_post$7;
-  signed int *return_value___errno_location$9;
-  char *return_value_strerror$10;
-  char *tmp_post$11;
-  unsigned char *tmp_post$12;
-  signed int *return_value___errno_location$13;
-  char *return_value_strerror$14;
-  if(return_value_cli_file_requires_build$8 == 0)
+  signed int return_value_cli_file_requires_build_8;
+  return_value_cli_file_requires_build_8=cli_file_requires_build(&st, opath);
+  char *tmp_post_7;
+  signed int *return_value___errno_location_9;
+  char *return_value_strerror_10;
+  char *tmp_post_11;
+  unsigned char *tmp_post_12;
+  signed int *return_value___errno_location_13;
+  char *return_value_strerror_14;
+  if(return_value_cli_file_requires_build_8 == 0)
   {
-    tmp_post$7 = ext;
+    tmp_post_7 = ext;
     ext = ext + 1l;
-    *tmp_post$7 = (char)0;
+    *tmp_post_7 = (char)0;
     cli_write_asset(name, ext);
     *ext = (char)95;
     cli_add_cfile(name, cpath, opath, &st, 0, 0);
@@ -7108,16 +7108,16 @@ static void cli_build_asset(char *fpath, struct dirent *dp)
     base=mmap((void *)0, (unsigned long int)st.st_size, 0x1, 0x02, in, (signed long int)0);
     if(base == (void *)-1)
     {
-      return_value___errno_location$9=__errno_location();
-      return_value_strerror$10=strerror(*return_value___errno_location$9);
-      cli_fatal("mmap: %s %s", fpath, return_value_strerror$10);
+      return_value___errno_location_9=__errno_location();
+      return_value_strerror_10=strerror(*return_value___errno_location_9);
+      cli_fatal("mmap: %s %s", fpath, return_value_strerror_10);
     }
 
     cli_file_open(cpath, 0100 | 01000 | 01, &out);
     printf("building asset %s\n", (const void *)dp->d_name);
-    tmp_post$11 = ext;
+    tmp_post_11 = ext;
     ext = ext + 1l;
-    *tmp_post$11 = (char)0;
+    *tmp_post_11 = (char)0;
     cli_file_writef(out, "/* Auto generated */\n");
     cli_file_writef(out, "#include <sys/param.h>\n\n");
     cli_file_writef(out, "u_int8_t asset_%s_%s[] = {\n", name, ext);
@@ -7125,22 +7125,22 @@ static void cli_build_asset(char *fpath, struct dirent *dp)
     off = (signed long int)0;
     for( ; !(off >= st.st_size); off = off + 1l)
     {
-      tmp_post$12 = d;
+      tmp_post_12 = d;
       d = d + 1l;
-      cli_file_writef(out, "0x%02x,", *tmp_post$12);
+      cli_file_writef(out, "0x%02x,", *tmp_post_12);
     }
     cli_file_writef(out, "0x00");
     cli_file_writef(out, "};\n\n");
     cli_file_writef(out, "u_int32_t asset_len_%s_%s = %u;\n", name, ext, (unsigned int)st.st_size);
     cli_file_writef(out, "time_t asset_mtime_%s_%s = %lu;\n", name, ext, st.st_mtim.tv_sec);
     cli_write_asset(name, ext);
-    signed int return_value_munmap$15;
-    return_value_munmap$15=munmap(base, (unsigned long int)st.st_size);
-    if(return_value_munmap$15 == -1)
+    signed int return_value_munmap_15;
+    return_value_munmap_15=munmap(base, (unsigned long int)st.st_size);
+    if(return_value_munmap_15 == -1)
     {
-      return_value___errno_location$13=__errno_location();
-      return_value_strerror$14=strerror(*return_value___errno_location$13);
-      cli_fatal("munmap: %s %s", fpath, return_value_strerror$14);
+      return_value___errno_location_13=__errno_location();
+      return_value_strerror_14=strerror(*return_value___errno_location_13);
+      cli_fatal("munmap: %s %s", fpath, return_value_strerror_14);
     }
 
     cli_file_close(in);
@@ -7158,37 +7158,37 @@ static void cli_clean(signed int argc, char **argv)
 {
   char pwd[4096l];
   char *sofile;
-  signed int return_value_cli_dir_exists$1;
-  return_value_cli_dir_exists$1=cli_dir_exists(".objs");
-  if(!(return_value_cli_dir_exists$1 == 0))
+  signed int return_value_cli_dir_exists_1;
+  return_value_cli_dir_exists_1=cli_dir_exists(".objs");
+  if(!(return_value_cli_dir_exists_1 == 0))
     cli_cleanup_files(".objs");
 
-  char *return_value_getcwd$4;
-  return_value_getcwd$4=getcwd(pwd, sizeof(char [4096l]) /*4096ul*/ );
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
-  if(return_value_getcwd$4 == ((char *)NULL))
+  char *return_value_getcwd_4;
+  return_value_getcwd_4=getcwd(pwd, sizeof(char [4096l]) /*4096ul*/ );
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
+  if(return_value_getcwd_4 == ((char *)NULL))
   {
-    return_value___errno_location$2=__errno_location();
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    cli_fatal("could not get cwd: %s", return_value_strerror$3);
+    return_value___errno_location_2=__errno_location();
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    cli_fatal("could not get cwd: %s", return_value_strerror_3);
   }
 
   appl=__xpg_basename(pwd);
   cli_vasprintf(&sofile, "%s.so", appl);
-  signed int return_value_unlink$8;
-  return_value_unlink$8=unlink(sofile);
-  signed int *return_value___errno_location$7;
-  signed int *return_value___errno_location$5;
-  char *return_value_strerror$6;
-  if(return_value_unlink$8 == -1)
+  signed int return_value_unlink_8;
+  return_value_unlink_8=unlink(sofile);
+  signed int *return_value___errno_location_7;
+  signed int *return_value___errno_location_5;
+  char *return_value_strerror_6;
+  if(return_value_unlink_8 == -1)
   {
-    return_value___errno_location$7=__errno_location();
-    if(!(*return_value___errno_location$7 == 2))
+    return_value___errno_location_7=__errno_location();
+    if(!(*return_value___errno_location_7 == 2))
     {
-      return_value___errno_location$5=__errno_location();
-      return_value_strerror$6=strerror(*return_value___errno_location$5);
-      printf("couldn't unlink %s: %s", sofile, return_value_strerror$6);
+      return_value___errno_location_5=__errno_location();
+      return_value_strerror_6=strerror(*return_value___errno_location_5);
+      printf("couldn't unlink %s: %s", sofile, return_value_strerror_6);
     }
 
   }
@@ -7201,13 +7201,13 @@ static void cli_clean(signed int argc, char **argv)
 static void cli_cleanup_files(const char *spath)
 {
   cli_find_files(spath, cli_file_remove);
-  signed int return_value_rmdir$2;
-  return_value_rmdir$2=rmdir(spath);
-  signed int *return_value___errno_location$1;
-  if(return_value_rmdir$2 == -1)
+  signed int return_value_rmdir_2;
+  return_value_rmdir_2=rmdir(spath);
+  signed int *return_value___errno_location_1;
+  if(return_value_rmdir_2 == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    if(!(*return_value___errno_location$1 == 2))
+    return_value___errno_location_1=__errno_location();
+    if(!(*return_value___errno_location_1 == 2))
       printf("couldn't rmdir %s\n", spath);
 
   }
@@ -7228,95 +7228,95 @@ static void cli_compile_cfile(void *arg)
   cli_vasprintf(&ipath[(signed long int)0], "-I%s/src", rootdir);
   cli_vasprintf(&ipath[(signed long int)1], "-I%s/src/includes", rootdir);
   idx = 0;
-  signed int tmp_post$1 = idx;
+  signed int tmp_post_1 = idx;
   idx = idx + 1;
-  args[(signed long int)tmp_post$1] = compiler;
-  signed int tmp_post$2 = idx;
+  args[(signed long int)tmp_post_1] = compiler;
+  signed int tmp_post_2 = idx;
   idx = idx + 1;
-  args[(signed long int)tmp_post$2] = ipath[(signed long int)0];
-  signed int tmp_post$3 = idx;
+  args[(signed long int)tmp_post_2] = ipath[(signed long int)0];
+  signed int tmp_post_3 = idx;
   idx = idx + 1;
-  args[(signed long int)tmp_post$3] = ipath[(signed long int)1];
-  signed int tmp_post$4 = idx;
+  args[(signed long int)tmp_post_3] = ipath[(signed long int)1];
+  signed int tmp_post_4 = idx;
   idx = idx + 1;
-  cli_vasprintf(&args[(signed long int)tmp_post$4], "-I%s/include", (const void *)"/usr");
+  cli_vasprintf(&args[(signed long int)tmp_post_4], "-I%s/include", (const void *)"/usr");
   cli_vasprintf(&ppath, "-I%s", (const void *)"/usr/include/postgresql");
-  signed int tmp_post$5 = idx;
+  signed int tmp_post_5 = idx;
   idx = idx + 1;
-  args[(signed long int)tmp_post$5] = ppath;
-  signed int tmp_post$6 = idx;
+  args[(signed long int)tmp_post_5] = ppath;
+  signed int tmp_post_6 = idx;
   idx = idx + 1;
-  args[(signed long int)tmp_post$6] = "-Wall";
-  signed int tmp_post$7 = idx;
+  args[(signed long int)tmp_post_6] = "-Wall";
+  signed int tmp_post_7 = idx;
   idx = idx + 1;
-  args[(signed long int)tmp_post$7] = "-Wmissing-declarations";
-  signed int tmp_post$8 = idx;
+  args[(signed long int)tmp_post_7] = "-Wmissing-declarations";
+  signed int tmp_post_8 = idx;
   idx = idx + 1;
-  args[(signed long int)tmp_post$8] = "-Wshadow";
-  signed int tmp_post$9 = idx;
+  args[(signed long int)tmp_post_8] = "-Wshadow";
+  signed int tmp_post_9 = idx;
   idx = idx + 1;
-  args[(signed long int)tmp_post$9] = "-Wpointer-arith";
-  signed int tmp_post$10 = idx;
+  args[(signed long int)tmp_post_9] = "-Wpointer-arith";
+  signed int tmp_post_10 = idx;
   idx = idx + 1;
-  args[(signed long int)tmp_post$10] = "-Wcast-qual";
-  signed int tmp_post$11 = idx;
+  args[(signed long int)tmp_post_10] = "-Wcast-qual";
+  signed int tmp_post_11 = idx;
   idx = idx + 1;
-  args[(signed long int)tmp_post$11] = "-Wsign-compare";
-  signed int tmp_post$12 = idx;
+  args[(signed long int)tmp_post_11] = "-Wsign-compare";
+  signed int tmp_post_12 = idx;
   idx = idx + 1;
-  args[(signed long int)tmp_post$12] = "-fPIC";
-  signed int tmp_post$13 = idx;
+  args[(signed long int)tmp_post_12] = "-fPIC";
+  signed int tmp_post_13 = idx;
   idx = idx + 1;
-  args[(signed long int)tmp_post$13] = "-g";
-  signed int tmp_post$14;
-  signed int tmp_post$15;
-  signed int tmp_post$16;
-  signed int tmp_post$17;
-  signed int tmp_post$18;
-  signed int tmp_post$19;
+  args[(signed long int)tmp_post_13] = "-g";
+  signed int tmp_post_14;
+  signed int tmp_post_15;
+  signed int tmp_post_16;
+  signed int tmp_post_17;
+  signed int tmp_post_18;
+  signed int tmp_post_19;
   if(!(cf->cpp == 0))
   {
-    tmp_post$14 = idx;
+    tmp_post_14 = idx;
     idx = idx + 1;
-    args[(signed long int)tmp_post$14] = "-Woverloaded-virtual";
-    tmp_post$15 = idx;
+    args[(signed long int)tmp_post_14] = "-Woverloaded-virtual";
+    tmp_post_15 = idx;
     idx = idx + 1;
-    args[(signed long int)tmp_post$15] = "-Wold-style-cast";
-    tmp_post$16 = idx;
+    args[(signed long int)tmp_post_15] = "-Wold-style-cast";
+    tmp_post_16 = idx;
     idx = idx + 1;
-    args[(signed long int)tmp_post$16] = "-Wnon-virtual-dtor";
+    args[(signed long int)tmp_post_16] = "-Wnon-virtual-dtor";
     p=getenv("CXXSTD");
     if(!(p == ((char *)NULL)))
     {
       cli_vasprintf(&cppstandard, "-std=%s", p);
-      tmp_post$17 = idx;
+      tmp_post_17 = idx;
       idx = idx + 1;
-      args[(signed long int)tmp_post$17] = cppstandard;
+      args[(signed long int)tmp_post_17] = cppstandard;
     }
 
   }
 
   else
   {
-    tmp_post$18 = idx;
+    tmp_post_18 = idx;
     idx = idx + 1;
-    args[(signed long int)tmp_post$18] = "-Wstrict-prototypes";
-    tmp_post$19 = idx;
+    args[(signed long int)tmp_post_18] = "-Wstrict-prototypes";
+    tmp_post_19 = idx;
     idx = idx + 1;
-    args[(signed long int)tmp_post$19] = "-Wmissing-prototypes";
+    args[(signed long int)tmp_post_19] = "-Wmissing-prototypes";
   }
-  signed int tmp_post$20 = idx;
+  signed int tmp_post_20 = idx;
   idx = idx + 1;
-  args[(signed long int)tmp_post$20] = "-c";
-  signed int tmp_post$21 = idx;
+  args[(signed long int)tmp_post_20] = "-c";
+  signed int tmp_post_21 = idx;
   idx = idx + 1;
-  args[(signed long int)tmp_post$21] = cf->fpath;
-  signed int tmp_post$22 = idx;
+  args[(signed long int)tmp_post_21] = cf->fpath;
+  signed int tmp_post_22 = idx;
   idx = idx + 1;
-  args[(signed long int)tmp_post$22] = "-o";
-  signed int tmp_post$23 = idx;
+  args[(signed long int)tmp_post_22] = "-o";
+  signed int tmp_post_23 = idx;
   idx = idx + 1;
-  args[(signed long int)tmp_post$23] = cf->opath;
+  args[(signed long int)tmp_post_23] = cf->opath;
   args[(signed long int)idx] = (char *)(void *)0;
   execvp(compiler, args);
 }
@@ -7357,9 +7357,9 @@ static void cli_create(signed int argc, char **argv)
 static signed int cli_dir_exists(const char *fpath)
 {
   struct stat st;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(fpath, &st);
-  if(return_value_stat$1 == -1)
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(fpath, &st);
+  if(return_value_stat_1 == -1)
     return 0;
 
   else
@@ -7391,15 +7391,15 @@ static void cli_fatal(const char *fmt, ...)
 // file src/cli.c line 508
 static void cli_file_close(signed int fd)
 {
-  signed int return_value_close$3;
-  return_value_close$3=close(fd);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  if(return_value_close$3 == -1)
+  signed int return_value_close_3;
+  return_value_close_3=close(fd);
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  if(return_value_close_3 == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    printf("warning: close() %s\n", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    printf("warning: close() %s\n", return_value_strerror_2);
   }
 
 }
@@ -7423,9 +7423,9 @@ static void cli_file_create(const char *name, const char *data, unsigned long in
 static signed int cli_file_exists(const char *fpath)
 {
   struct stat st;
-  signed int return_value_stat$1;
-  return_value_stat$1=stat(fpath, &st);
-  if(return_value_stat$1 == -1)
+  signed int return_value_stat_1;
+  return_value_stat_1=stat(fpath, &st);
+  if(return_value_stat_1 == -1)
     return 0;
 
   else
@@ -7441,13 +7441,13 @@ static signed int cli_file_exists(const char *fpath)
 static void cli_file_open(const char *fpath, signed int flags, signed int *fd)
 {
   *fd=open(fpath, flags, 0644);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(*fd == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    cli_fatal("cli_file_open(%s): %s", fpath, return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    cli_fatal("cli_file_open(%s): %s", fpath, return_value_strerror_2);
   }
 
 }
@@ -7456,15 +7456,15 @@ static void cli_file_open(const char *fpath, signed int flags, signed int *fd)
 // file src/cli.c line 723
 static void cli_file_remove(char *fpath, struct dirent *dp)
 {
-  signed int return_value_unlink$3;
-  return_value_unlink$3=unlink(fpath);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  if(return_value_unlink$3 == -1)
+  signed int return_value_unlink_3;
+  return_value_unlink_3=unlink(fpath);
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  if(return_value_unlink_3 == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fprintf(stderr, "couldn't unlink %s: %s", fpath, return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fprintf(stderr, "couldn't unlink %s: %s", fpath, return_value_strerror_2);
   }
 
 }
@@ -7474,20 +7474,20 @@ static void cli_file_remove(char *fpath, struct dirent *dp)
 static signed int cli_file_requires_build(struct stat *fst, const char *opath)
 {
   struct stat ost;
-  signed int return_value_stat$4;
-  return_value_stat$4=stat(opath, &ost);
-  if(return_value_stat$4 == -1)
+  signed int return_value_stat_4;
+  return_value_stat_4=stat(opath, &ost);
+  if(return_value_stat_4 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 2)
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 2)
       return 1;
 
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    cli_fatal("stat(%s): %s", opath, return_value_strerror$3);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    cli_fatal("stat(%s): %s", opath, return_value_strerror_3);
   }
 
   return (signed int)(fst->st_mtim.tv_sec != ost.st_mtim.tv_sec);
@@ -7507,16 +7507,16 @@ static void cli_file_write(signed int fd, const void *buf, unsigned long int len
     r=write(fd, (const void *)(d + (signed long int)written), len - written);
     if(r == -1l)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 4)
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 4)
         continue;
 
-      signed int *return_value___errno_location$2;
-      return_value___errno_location$2=__errno_location();
-      char *return_value_strerror$3;
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      cli_fatal("cli_file_write: %s", return_value_strerror$3);
+      signed int *return_value___errno_location_2;
+      return_value___errno_location_2=__errno_location();
+      char *return_value_strerror_3;
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      cli_fatal("cli_file_write: %s", return_value_strerror_3);
     }
 
     written = written + (unsigned long int)r;
@@ -7548,45 +7548,45 @@ static void cli_find_files(const char *path, void (*cb)(char *, struct dirent *)
   struct dirent *dp;
   char *fpath;
   d=opendir(path);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(d == ((struct __dirstream *)NULL))
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    cli_fatal("cli_find_files: opendir(%s): %s", path, return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    cli_fatal("cli_find_files: opendir(%s): %s", path, return_value_strerror_2);
   }
 
-  _Bool tmp_if_expr$5;
-  signed int return_value_strcmp$4;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strcmp_4;
   do
   {
     dp=readdir(d);
     if(dp == ((struct dirent *)NULL))
       break;
 
-    signed int return_value_strcmp$3;
-    return_value_strcmp$3=strcmp(dp->d_name, ".");
-    if(return_value_strcmp$3 == 0)
-      tmp_if_expr$5 = (_Bool)1;
+    signed int return_value_strcmp_3;
+    return_value_strcmp_3=strcmp(dp->d_name, ".");
+    if(return_value_strcmp_3 == 0)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
-      return_value_strcmp$4=strcmp(dp->d_name, "..");
-      tmp_if_expr$5 = !(return_value_strcmp$4 != 0) ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_4=strcmp(dp->d_name, "..");
+      tmp_if_expr_5 = !(return_value_strcmp_4 != 0) ? (_Bool)1 : (_Bool)0;
     }
-    if(!tmp_if_expr$5)
+    if(!tmp_if_expr_5)
     {
       cli_vasprintf(&fpath, "%s/%s", path, (const void *)dp->d_name);
-      signed int return_value_stat$8;
-      return_value_stat$8=stat(fpath, &st);
-      if(return_value_stat$8 == -1)
+      signed int return_value_stat_8;
+      return_value_stat_8=stat(fpath, &st);
+      if(return_value_stat_8 == -1)
       {
-        signed int *return_value___errno_location$6;
-        return_value___errno_location$6=__errno_location();
-        char *return_value_strerror$7;
-        return_value_strerror$7=strerror(*return_value___errno_location$6);
-        fprintf(stderr, "stat(%s): %s\n", fpath, return_value_strerror$7);
+        signed int *return_value___errno_location_6;
+        return_value___errno_location_6=__errno_location();
+        char *return_value_strerror_7;
+        return_value_strerror_7=strerror(*return_value___errno_location_6);
+        fprintf(stderr, "stat(%s): %s\n", fpath, return_value_strerror_7);
         free((void *)fpath);
         continue;
       }
@@ -7626,254 +7626,254 @@ static void cli_generate_certs(void)
   struct rsa_st *kpair;
   char *fpath;
   char issuer[64l];
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(dh2048_data);
-  cli_file_create("dh2048.pem", dh2048_data, return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(dh2048_data);
+  cli_file_create("dh2048.pem", dh2048_data, return_value_strlen_1);
   x509=X509_new();
-  unsigned long int return_value_ERR_get_error$2;
-  char *return_value_ERR_error_string$3;
+  unsigned long int return_value_ERR_get_error_2;
+  char *return_value_ERR_error_string_3;
   if(x509 == ((struct x509_st *)NULL))
   {
-    return_value_ERR_get_error$2=ERR_get_error();
-    return_value_ERR_error_string$3=ERR_error_string(return_value_ERR_get_error$2, (char *)(void *)0);
-    cli_fatal("X509_new(): %s", return_value_ERR_error_string$3);
+    return_value_ERR_get_error_2=ERR_get_error();
+    return_value_ERR_error_string_3=ERR_error_string(return_value_ERR_get_error_2, (char *)(void *)0);
+    cli_fatal("X509_new(): %s", return_value_ERR_error_string_3);
   }
 
-  signed int return_value_X509_set_version$6;
-  return_value_X509_set_version$6=X509_set_version(x509, (signed long int)2);
-  unsigned long int return_value_ERR_get_error$4;
-  char *return_value_ERR_error_string$5;
-  if(return_value_X509_set_version$6 == 0)
+  signed int return_value_X509_set_version_6;
+  return_value_X509_set_version_6=X509_set_version(x509, (signed long int)2);
+  unsigned long int return_value_ERR_get_error_4;
+  char *return_value_ERR_error_string_5;
+  if(return_value_X509_set_version_6 == 0)
   {
-    return_value_ERR_get_error$4=ERR_get_error();
-    return_value_ERR_error_string$5=ERR_error_string(return_value_ERR_get_error$4, (char *)(void *)0);
-    cli_fatal("X509_set_version(): %s", return_value_ERR_error_string$5);
+    return_value_ERR_get_error_4=ERR_get_error();
+    return_value_ERR_error_string_5=ERR_error_string(return_value_ERR_get_error_4, (char *)(void *)0);
+    cli_fatal("X509_set_version(): %s", return_value_ERR_error_string_5);
   }
 
   pkey=EVP_PKEY_new();
-  unsigned long int return_value_ERR_get_error$7;
-  char *return_value_ERR_error_string$8;
+  unsigned long int return_value_ERR_get_error_7;
+  char *return_value_ERR_error_string_8;
   if(pkey == ((struct evp_pkey_st *)NULL))
   {
-    return_value_ERR_get_error$7=ERR_get_error();
-    return_value_ERR_error_string$8=ERR_error_string(return_value_ERR_get_error$7, (char *)(void *)0);
-    cli_fatal("EVP_PKEY_new(): %s", return_value_ERR_error_string$8);
+    return_value_ERR_get_error_7=ERR_get_error();
+    return_value_ERR_error_string_8=ERR_error_string(return_value_ERR_get_error_7, (char *)(void *)0);
+    cli_fatal("EVP_PKEY_new(): %s", return_value_ERR_error_string_8);
   }
 
   kpair=RSA_new();
-  unsigned long int return_value_ERR_get_error$9;
-  char *return_value_ERR_error_string$10;
+  unsigned long int return_value_ERR_get_error_9;
+  char *return_value_ERR_error_string_10;
   if(kpair == ((struct rsa_st *)NULL))
   {
-    return_value_ERR_get_error$9=ERR_get_error();
-    return_value_ERR_error_string$10=ERR_error_string(return_value_ERR_get_error$9, (char *)(void *)0);
-    cli_fatal("RSA_new(): %s", return_value_ERR_error_string$10);
+    return_value_ERR_get_error_9=ERR_get_error();
+    return_value_ERR_error_string_10=ERR_error_string(return_value_ERR_get_error_9, (char *)(void *)0);
+    cli_fatal("RSA_new(): %s", return_value_ERR_error_string_10);
   }
 
   e=BN_new();
-  unsigned long int return_value_ERR_get_error$11;
-  char *return_value_ERR_error_string$12;
+  unsigned long int return_value_ERR_get_error_11;
+  char *return_value_ERR_error_string_12;
   if(e == ((struct bignum_st *)NULL))
   {
-    return_value_ERR_get_error$11=ERR_get_error();
-    return_value_ERR_error_string$12=ERR_error_string(return_value_ERR_get_error$11, (char *)(void *)0);
-    cli_fatal("BN_new(): %s", return_value_ERR_error_string$12);
+    return_value_ERR_get_error_11=ERR_get_error();
+    return_value_ERR_error_string_12=ERR_error_string(return_value_ERR_get_error_11, (char *)(void *)0);
+    cli_fatal("BN_new(): %s", return_value_ERR_error_string_12);
   }
 
-  signed int return_value_BN_set_word$15;
-  return_value_BN_set_word$15=BN_set_word(e, (unsigned long int)65537);
-  unsigned long int return_value_ERR_get_error$13;
-  char *return_value_ERR_error_string$14;
-  if(return_value_BN_set_word$15 == 0)
+  signed int return_value_BN_set_word_15;
+  return_value_BN_set_word_15=BN_set_word(e, (unsigned long int)65537);
+  unsigned long int return_value_ERR_get_error_13;
+  char *return_value_ERR_error_string_14;
+  if(return_value_BN_set_word_15 == 0)
   {
-    return_value_ERR_get_error$13=ERR_get_error();
-    return_value_ERR_error_string$14=ERR_error_string(return_value_ERR_get_error$13, (char *)(void *)0);
-    cli_fatal("BN_set_word(): %s", return_value_ERR_error_string$14);
+    return_value_ERR_get_error_13=ERR_get_error();
+    return_value_ERR_error_string_14=ERR_error_string(return_value_ERR_get_error_13, (char *)(void *)0);
+    cli_fatal("BN_set_word(): %s", return_value_ERR_error_string_14);
   }
 
-  signed int return_value_RSA_generate_key_ex$18;
-  return_value_RSA_generate_key_ex$18=RSA_generate_key_ex(kpair, 2048, e, (struct bn_gencb_st *)(void *)0);
-  unsigned long int return_value_ERR_get_error$16;
-  char *return_value_ERR_error_string$17;
-  if(return_value_RSA_generate_key_ex$18 == 0)
+  signed int return_value_RSA_generate_key_ex_18;
+  return_value_RSA_generate_key_ex_18=RSA_generate_key_ex(kpair, 2048, e, (struct bn_gencb_st *)(void *)0);
+  unsigned long int return_value_ERR_get_error_16;
+  char *return_value_ERR_error_string_17;
+  if(return_value_RSA_generate_key_ex_18 == 0)
   {
-    return_value_ERR_get_error$16=ERR_get_error();
-    return_value_ERR_error_string$17=ERR_error_string(return_value_ERR_get_error$16, (char *)(void *)0);
-    cli_fatal("RSA_generate_key_ex(): %s", return_value_ERR_error_string$17);
+    return_value_ERR_get_error_16=ERR_get_error();
+    return_value_ERR_error_string_17=ERR_error_string(return_value_ERR_get_error_16, (char *)(void *)0);
+    cli_fatal("RSA_generate_key_ex(): %s", return_value_ERR_error_string_17);
   }
 
   BN_free(e);
-  signed int return_value_EVP_PKEY_assign$21;
-  return_value_EVP_PKEY_assign$21=EVP_PKEY_assign(pkey, 6, (void *)(char *)kpair);
-  unsigned long int return_value_ERR_get_error$19;
-  char *return_value_ERR_error_string$20;
-  if(return_value_EVP_PKEY_assign$21 == 0)
+  signed int return_value_EVP_PKEY_assign_21;
+  return_value_EVP_PKEY_assign_21=EVP_PKEY_assign(pkey, 6, (void *)(char *)kpair);
+  unsigned long int return_value_ERR_get_error_19;
+  char *return_value_ERR_error_string_20;
+  if(return_value_EVP_PKEY_assign_21 == 0)
   {
-    return_value_ERR_get_error$19=ERR_get_error();
-    return_value_ERR_error_string$20=ERR_error_string(return_value_ERR_get_error$19, (char *)(void *)0);
-    cli_fatal("EVP_PKEY_assign_RSA(): %s", return_value_ERR_error_string$20);
+    return_value_ERR_get_error_19=ERR_get_error();
+    return_value_ERR_error_string_20=ERR_error_string(return_value_ERR_get_error_19, (char *)(void *)0);
+    cli_fatal("EVP_PKEY_assign_RSA(): %s", return_value_ERR_error_string_20);
   }
 
   time(&now);
-  struct asn1_string_st *return_value_X509_get_serialNumber$24;
-  return_value_X509_get_serialNumber$24=X509_get_serialNumber(x509);
-  signed int return_value_ASN1_INTEGER_set$25;
-  return_value_ASN1_INTEGER_set$25=ASN1_INTEGER_set(return_value_X509_get_serialNumber$24, now);
-  unsigned long int return_value_ERR_get_error$22;
-  char *return_value_ERR_error_string$23;
-  if(return_value_ASN1_INTEGER_set$25 == 0)
+  struct asn1_string_st *return_value_X509_get_serialNumber_24;
+  return_value_X509_get_serialNumber_24=X509_get_serialNumber(x509);
+  signed int return_value_ASN1_INTEGER_set_25;
+  return_value_ASN1_INTEGER_set_25=ASN1_INTEGER_set(return_value_X509_get_serialNumber_24, now);
+  unsigned long int return_value_ERR_get_error_22;
+  char *return_value_ERR_error_string_23;
+  if(return_value_ASN1_INTEGER_set_25 == 0)
   {
-    return_value_ERR_get_error$22=ERR_get_error();
-    return_value_ERR_error_string$23=ERR_error_string(return_value_ERR_get_error$22, (char *)(void *)0);
-    cli_fatal("ASN1_INTEGER_set(): %s", return_value_ERR_error_string$23);
+    return_value_ERR_get_error_22=ERR_get_error();
+    return_value_ERR_error_string_23=ERR_error_string(return_value_ERR_get_error_22, (char *)(void *)0);
+    cli_fatal("ASN1_INTEGER_set(): %s", return_value_ERR_error_string_23);
   }
 
-  struct asn1_string_st *return_value_X509_gmtime_adj$28;
-  return_value_X509_gmtime_adj$28=X509_gmtime_adj(x509->cert_info->validity->notBefore, (signed long int)0);
-  unsigned long int return_value_ERR_get_error$26;
-  char *return_value_ERR_error_string$27;
-  if(return_value_X509_gmtime_adj$28 == ((struct asn1_string_st *)NULL))
+  struct asn1_string_st *return_value_X509_gmtime_adj_28;
+  return_value_X509_gmtime_adj_28=X509_gmtime_adj(x509->cert_info->validity->notBefore, (signed long int)0);
+  unsigned long int return_value_ERR_get_error_26;
+  char *return_value_ERR_error_string_27;
+  if(return_value_X509_gmtime_adj_28 == ((struct asn1_string_st *)NULL))
   {
-    return_value_ERR_get_error$26=ERR_get_error();
-    return_value_ERR_error_string$27=ERR_error_string(return_value_ERR_get_error$26, (char *)(void *)0);
-    cli_fatal("X509_gmtime_adj(): %s", return_value_ERR_error_string$27);
+    return_value_ERR_get_error_26=ERR_get_error();
+    return_value_ERR_error_string_27=ERR_error_string(return_value_ERR_get_error_26, (char *)(void *)0);
+    cli_fatal("X509_gmtime_adj(): %s", return_value_ERR_error_string_27);
   }
 
-  struct asn1_string_st *return_value_X509_gmtime_adj$31;
-  return_value_X509_gmtime_adj$31=X509_gmtime_adj(x509->cert_info->validity->notAfter, (signed long int)60 * (signed long int)60 * (signed long int)24 * (signed long int)3000);
-  unsigned long int return_value_ERR_get_error$29;
-  char *return_value_ERR_error_string$30;
-  if(return_value_X509_gmtime_adj$31 == ((struct asn1_string_st *)NULL))
+  struct asn1_string_st *return_value_X509_gmtime_adj_31;
+  return_value_X509_gmtime_adj_31=X509_gmtime_adj(x509->cert_info->validity->notAfter, (signed long int)60 * (signed long int)60 * (signed long int)24 * (signed long int)3000);
+  unsigned long int return_value_ERR_get_error_29;
+  char *return_value_ERR_error_string_30;
+  if(return_value_X509_gmtime_adj_31 == ((struct asn1_string_st *)NULL))
   {
-    return_value_ERR_get_error$29=ERR_get_error();
-    return_value_ERR_error_string$30=ERR_error_string(return_value_ERR_get_error$29, (char *)(void *)0);
-    cli_fatal("X509_gmtime_adj(): %s", return_value_ERR_error_string$30);
+    return_value_ERR_get_error_29=ERR_get_error();
+    return_value_ERR_error_string_30=ERR_error_string(return_value_ERR_get_error_29, (char *)(void *)0);
+    cli_fatal("X509_gmtime_adj(): %s", return_value_ERR_error_string_30);
   }
 
-  signed int return_value_X509_set_pubkey$34;
-  return_value_X509_set_pubkey$34=X509_set_pubkey(x509, pkey);
-  unsigned long int return_value_ERR_get_error$32;
-  char *return_value_ERR_error_string$33;
-  if(return_value_X509_set_pubkey$34 == 0)
+  signed int return_value_X509_set_pubkey_34;
+  return_value_X509_set_pubkey_34=X509_set_pubkey(x509, pkey);
+  unsigned long int return_value_ERR_get_error_32;
+  char *return_value_ERR_error_string_33;
+  if(return_value_X509_set_pubkey_34 == 0)
   {
-    return_value_ERR_get_error$32=ERR_get_error();
-    return_value_ERR_error_string$33=ERR_error_string(return_value_ERR_get_error$32, (char *)(void *)0);
-    cli_fatal("X509_set_pubkey(): %s", return_value_ERR_error_string$33);
+    return_value_ERR_get_error_32=ERR_get_error();
+    return_value_ERR_error_string_33=ERR_error_string(return_value_ERR_get_error_32, (char *)(void *)0);
+    cli_fatal("X509_set_pubkey(): %s", return_value_ERR_error_string_33);
   }
 
   name=X509_get_subject_name(x509);
-  unsigned long int return_value_ERR_get_error$35;
-  char *return_value_ERR_error_string$36;
+  unsigned long int return_value_ERR_get_error_35;
+  char *return_value_ERR_error_string_36;
   if(name == ((struct X509_name_st *)NULL))
   {
-    return_value_ERR_get_error$35=ERR_get_error();
-    return_value_ERR_error_string$36=ERR_error_string(return_value_ERR_get_error$35, (char *)(void *)0);
-    cli_fatal("X509_get_subject_name(): %s", return_value_ERR_error_string$36);
+    return_value_ERR_get_error_35=ERR_get_error();
+    return_value_ERR_error_string_36=ERR_error_string(return_value_ERR_get_error_35, (char *)(void *)0);
+    cli_fatal("X509_get_subject_name(): %s", return_value_ERR_error_string_36);
   }
 
   snprintf(issuer, sizeof(char [64l]) /*64ul*/ , "kore autogen: %s", appl);
-  signed int return_value_X509_NAME_add_entry_by_txt$39;
-  return_value_X509_NAME_add_entry_by_txt$39=X509_NAME_add_entry_by_txt(name, "C", 0x1000 | 1, (const unsigned char *)"SE", -1, -1, 0);
-  unsigned long int return_value_ERR_get_error$37;
-  char *return_value_ERR_error_string$38;
-  if(return_value_X509_NAME_add_entry_by_txt$39 == 0)
+  signed int return_value_X509_NAME_add_entry_by_txt_39;
+  return_value_X509_NAME_add_entry_by_txt_39=X509_NAME_add_entry_by_txt(name, "C", 0x1000 | 1, (const unsigned char *)"SE", -1, -1, 0);
+  unsigned long int return_value_ERR_get_error_37;
+  char *return_value_ERR_error_string_38;
+  if(return_value_X509_NAME_add_entry_by_txt_39 == 0)
   {
-    return_value_ERR_get_error$37=ERR_get_error();
-    return_value_ERR_error_string$38=ERR_error_string(return_value_ERR_get_error$37, (char *)(void *)0);
-    cli_fatal("X509_NAME_add_entry_by_txt(): C %s", return_value_ERR_error_string$38);
+    return_value_ERR_get_error_37=ERR_get_error();
+    return_value_ERR_error_string_38=ERR_error_string(return_value_ERR_get_error_37, (char *)(void *)0);
+    cli_fatal("X509_NAME_add_entry_by_txt(): C %s", return_value_ERR_error_string_38);
   }
 
-  signed int return_value_X509_NAME_add_entry_by_txt$42;
-  return_value_X509_NAME_add_entry_by_txt$42=X509_NAME_add_entry_by_txt(name, "O", 0x1000 | 1, (const unsigned char *)issuer, -1, -1, 0);
-  unsigned long int return_value_ERR_get_error$40;
-  char *return_value_ERR_error_string$41;
-  if(return_value_X509_NAME_add_entry_by_txt$42 == 0)
+  signed int return_value_X509_NAME_add_entry_by_txt_42;
+  return_value_X509_NAME_add_entry_by_txt_42=X509_NAME_add_entry_by_txt(name, "O", 0x1000 | 1, (const unsigned char *)issuer, -1, -1, 0);
+  unsigned long int return_value_ERR_get_error_40;
+  char *return_value_ERR_error_string_41;
+  if(return_value_X509_NAME_add_entry_by_txt_42 == 0)
   {
-    return_value_ERR_get_error$40=ERR_get_error();
-    return_value_ERR_error_string$41=ERR_error_string(return_value_ERR_get_error$40, (char *)(void *)0);
-    cli_fatal("X509_NAME_add_entry_by_txt(): O %s", return_value_ERR_error_string$41);
+    return_value_ERR_get_error_40=ERR_get_error();
+    return_value_ERR_error_string_41=ERR_error_string(return_value_ERR_get_error_40, (char *)(void *)0);
+    cli_fatal("X509_NAME_add_entry_by_txt(): O %s", return_value_ERR_error_string_41);
   }
 
-  signed int return_value_X509_NAME_add_entry_by_txt$45;
-  return_value_X509_NAME_add_entry_by_txt$45=X509_NAME_add_entry_by_txt(name, "CN", 0x1000 | 1, (const unsigned char *)"localhost", -1, -1, 0);
-  unsigned long int return_value_ERR_get_error$43;
-  char *return_value_ERR_error_string$44;
-  if(return_value_X509_NAME_add_entry_by_txt$45 == 0)
+  signed int return_value_X509_NAME_add_entry_by_txt_45;
+  return_value_X509_NAME_add_entry_by_txt_45=X509_NAME_add_entry_by_txt(name, "CN", 0x1000 | 1, (const unsigned char *)"localhost", -1, -1, 0);
+  unsigned long int return_value_ERR_get_error_43;
+  char *return_value_ERR_error_string_44;
+  if(return_value_X509_NAME_add_entry_by_txt_45 == 0)
   {
-    return_value_ERR_get_error$43=ERR_get_error();
-    return_value_ERR_error_string$44=ERR_error_string(return_value_ERR_get_error$43, (char *)(void *)0);
-    cli_fatal("X509_NAME_add_entry_by_txt(): CN %s", return_value_ERR_error_string$44);
+    return_value_ERR_get_error_43=ERR_get_error();
+    return_value_ERR_error_string_44=ERR_error_string(return_value_ERR_get_error_43, (char *)(void *)0);
+    cli_fatal("X509_NAME_add_entry_by_txt(): CN %s", return_value_ERR_error_string_44);
   }
 
-  signed int return_value_X509_set_issuer_name$48;
-  return_value_X509_set_issuer_name$48=X509_set_issuer_name(x509, name);
-  unsigned long int return_value_ERR_get_error$46;
-  char *return_value_ERR_error_string$47;
-  if(return_value_X509_set_issuer_name$48 == 0)
+  signed int return_value_X509_set_issuer_name_48;
+  return_value_X509_set_issuer_name_48=X509_set_issuer_name(x509, name);
+  unsigned long int return_value_ERR_get_error_46;
+  char *return_value_ERR_error_string_47;
+  if(return_value_X509_set_issuer_name_48 == 0)
   {
-    return_value_ERR_get_error$46=ERR_get_error();
-    return_value_ERR_error_string$47=ERR_error_string(return_value_ERR_get_error$46, (char *)(void *)0);
-    cli_fatal("X509_set_issuer_name(): %s", return_value_ERR_error_string$47);
+    return_value_ERR_get_error_46=ERR_get_error();
+    return_value_ERR_error_string_47=ERR_error_string(return_value_ERR_get_error_46, (char *)(void *)0);
+    cli_fatal("X509_set_issuer_name(): %s", return_value_ERR_error_string_47);
   }
 
-  const struct env_md_st *return_value_EVP_sha256$51;
-  return_value_EVP_sha256$51=EVP_sha256();
-  signed int return_value_X509_sign$52;
-  return_value_X509_sign$52=X509_sign(x509, pkey, return_value_EVP_sha256$51);
-  unsigned long int return_value_ERR_get_error$49;
-  char *return_value_ERR_error_string$50;
-  if(return_value_X509_sign$52 == 0)
+  const struct env_md_st *return_value_EVP_sha256_51;
+  return_value_EVP_sha256_51=EVP_sha256();
+  signed int return_value_X509_sign_52;
+  return_value_X509_sign_52=X509_sign(x509, pkey, return_value_EVP_sha256_51);
+  unsigned long int return_value_ERR_get_error_49;
+  char *return_value_ERR_error_string_50;
+  if(return_value_X509_sign_52 == 0)
   {
-    return_value_ERR_get_error$49=ERR_get_error();
-    return_value_ERR_error_string$50=ERR_error_string(return_value_ERR_get_error$49, (char *)(void *)0);
-    cli_fatal("X509_sign(): %s", return_value_ERR_error_string$50);
+    return_value_ERR_get_error_49=ERR_get_error();
+    return_value_ERR_error_string_50=ERR_error_string(return_value_ERR_get_error_49, (char *)(void *)0);
+    cli_fatal("X509_sign(): %s", return_value_ERR_error_string_50);
   }
 
   cli_vasprintf(&fpath, "%s/cert/server.key", rootdir);
   fp=fopen(fpath, "w");
-  signed int *return_value___errno_location$53;
-  char *return_value_strerror$54;
+  signed int *return_value___errno_location_53;
+  char *return_value_strerror_54;
   if(fp == ((struct _IO_FILE *)NULL))
   {
-    return_value___errno_location$53=__errno_location();
-    return_value_strerror$54=strerror(*return_value___errno_location$53);
-    cli_fatal("fopen(%s): %s", fpath, return_value_strerror$54);
+    return_value___errno_location_53=__errno_location();
+    return_value_strerror_54=strerror(*return_value___errno_location_53);
+    cli_fatal("fopen(%s): %s", fpath, return_value_strerror_54);
   }
 
   free((void *)fpath);
-  signed int return_value_PEM_write_PrivateKey$57;
-  return_value_PEM_write_PrivateKey$57=PEM_write_PrivateKey(fp, pkey, (const struct evp_cipher_st *)(void *)0, (unsigned char *)(void *)0, 0, (signed int (*)(char *, signed int, signed int, void *))(void *)0, (void *)0);
-  unsigned long int return_value_ERR_get_error$55;
-  char *return_value_ERR_error_string$56;
-  if(return_value_PEM_write_PrivateKey$57 == 0)
+  signed int return_value_PEM_write_PrivateKey_57;
+  return_value_PEM_write_PrivateKey_57=PEM_write_PrivateKey(fp, pkey, (const struct evp_cipher_st *)(void *)0, (unsigned char *)(void *)0, 0, (signed int (*)(char *, signed int, signed int, void *))(void *)0, (void *)0);
+  unsigned long int return_value_ERR_get_error_55;
+  char *return_value_ERR_error_string_56;
+  if(return_value_PEM_write_PrivateKey_57 == 0)
   {
-    return_value_ERR_get_error$55=ERR_get_error();
-    return_value_ERR_error_string$56=ERR_error_string(return_value_ERR_get_error$55, (char *)(void *)0);
-    cli_fatal("PEM_write_PrivateKey(): %s", return_value_ERR_error_string$56);
+    return_value_ERR_get_error_55=ERR_get_error();
+    return_value_ERR_error_string_56=ERR_error_string(return_value_ERR_get_error_55, (char *)(void *)0);
+    cli_fatal("PEM_write_PrivateKey(): %s", return_value_ERR_error_string_56);
   }
 
   fclose(fp);
   cli_vasprintf(&fpath, "%s/cert/server.crt", rootdir);
   fp=fopen(fpath, "w");
-  signed int *return_value___errno_location$58;
-  char *return_value_strerror$59;
+  signed int *return_value___errno_location_58;
+  char *return_value_strerror_59;
   if(fp == ((struct _IO_FILE *)NULL))
   {
-    return_value___errno_location$58=__errno_location();
-    return_value_strerror$59=strerror(*return_value___errno_location$58);
-    cli_fatal("fopen(%s): %s", fpath, return_value_strerror$59);
+    return_value___errno_location_58=__errno_location();
+    return_value_strerror_59=strerror(*return_value___errno_location_58);
+    cli_fatal("fopen(%s): %s", fpath, return_value_strerror_59);
   }
 
   free((void *)fpath);
-  signed int return_value_PEM_write_X509$62;
-  return_value_PEM_write_X509$62=PEM_write_X509(fp, x509);
-  signed int *return_value___errno_location$60;
-  char *return_value_strerror$61;
-  if(return_value_PEM_write_X509$62 == 0)
+  signed int return_value_PEM_write_X509_62;
+  return_value_PEM_write_X509_62=PEM_write_X509(fp, x509);
+  signed int *return_value___errno_location_60;
+  char *return_value_strerror_61;
+  if(return_value_PEM_write_X509_62 == 0)
   {
-    return_value___errno_location$60=__errno_location();
-    return_value_strerror$61=strerror(*return_value___errno_location$60);
-    cli_fatal("PEM_write_X509(%s)", return_value_strerror$61);
+    return_value___errno_location_60=__errno_location();
+    return_value_strerror_61=strerror(*return_value___errno_location_60);
+    cli_fatal("PEM_write_X509(%s)", return_value_strerror_61);
   }
 
   fclose(fp);
@@ -7897,8 +7897,8 @@ static void cli_link_library(void *arg)
   signed int f;
   signed int i;
   signed int has_cpp;
-  const signed long int has_cpp$array_size0 = (signed long int)(cfiles_count + 11 + 10);
-  char *args[has_cpp$array_size0];
+  const signed long int has_cpp_array_size0 = (signed long int)(cfiles_count + 11 + 10);
+  char *args[has_cpp_array_size0];
   char *p;
   char *libname;
   char *flags[10l];
@@ -7911,59 +7911,59 @@ static void cli_link_library(void *arg)
     f = 0;
   cli_vasprintf(&libname, "%s/%s.so", rootdir, appl);
   idx = 0;
-  signed int tmp_post$1 = idx;
+  signed int tmp_post_1 = idx;
   idx = idx + 1;
-  args[(signed long int)tmp_post$1] = compiler;
-  signed int tmp_post$2 = idx;
+  args[(signed long int)tmp_post_1] = compiler;
+  signed int tmp_post_2 = idx;
   idx = idx + 1;
-  args[(signed long int)tmp_post$2] = "-shared";
+  args[(signed long int)tmp_post_2] = "-shared";
   has_cpp = 0;
   cf = (&source_files)->tqh_first;
-  signed int tmp_post$3;
+  signed int tmp_post_3;
   for( ; !(cf == ((struct cfile *)NULL)); cf = cf->list.tqe_next)
   {
     if(!(cf->cpp == 0))
       has_cpp = 1;
 
-    tmp_post$3 = idx;
+    tmp_post_3 = idx;
     idx = idx + 1;
-    args[(signed long int)tmp_post$3] = cf->opath;
+    args[(signed long int)tmp_post_3] = cf->opath;
   }
-  signed int tmp_post$4;
-  signed int tmp_post$5;
+  signed int tmp_post_4;
+  signed int tmp_post_5;
   if(!(has_cpp == 0))
   {
     p=getenv("CXXLIB");
     if(!(p == ((char *)NULL)))
     {
       cli_vasprintf(&cpplib, "-l%s", p);
-      tmp_post$4 = idx;
+      tmp_post_4 = idx;
       idx = idx + 1;
-      args[(signed long int)tmp_post$4] = cpplib;
+      args[(signed long int)tmp_post_4] = cpplib;
     }
 
     else
     {
-      tmp_post$5 = idx;
+      tmp_post_5 = idx;
       idx = idx + 1;
-      args[(signed long int)tmp_post$5] = "-lstdc++";
+      args[(signed long int)tmp_post_5] = "-lstdc++";
     }
   }
 
   i = 0;
-  signed int tmp_post$6;
+  signed int tmp_post_6;
   for( ; !(i >= f); i = i + 1)
   {
-    tmp_post$6 = idx;
+    tmp_post_6 = idx;
     idx = idx + 1;
-    args[(signed long int)tmp_post$6] = flags[(signed long int)i];
+    args[(signed long int)tmp_post_6] = flags[(signed long int)i];
   }
-  signed int tmp_post$7 = idx;
+  signed int tmp_post_7 = idx;
   idx = idx + 1;
-  args[(signed long int)tmp_post$7] = "-o";
-  signed int tmp_post$8 = idx;
+  args[(signed long int)tmp_post_7] = "-o";
+  signed int tmp_post_8 = idx;
   idx = idx + 1;
-  args[(signed long int)tmp_post$8] = libname;
+  args[(signed long int)tmp_post_8] = libname;
   args[(signed long int)idx] = (char *)(void *)0;
   execvp(compiler, args);
 }
@@ -7972,15 +7972,15 @@ static void cli_link_library(void *arg)
 // file src/cli.c line 452
 static void cli_mkdir(const char *fpath, signed int mode)
 {
-  signed int return_value_mkdir$3;
-  return_value_mkdir$3=mkdir(fpath, (unsigned int)mode);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  if(return_value_mkdir$3 == -1)
+  signed int return_value_mkdir_3;
+  return_value_mkdir_3=mkdir(fpath, (unsigned int)mode);
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  if(return_value_mkdir_3 == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    cli_fatal("cli_mkdir(%s): %s", fpath, return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    cli_fatal("cli_mkdir(%s): %s", fpath, return_value_strerror_2);
   }
 
 }
@@ -7994,50 +7994,50 @@ static void cli_register_cfile(char *fpath, struct dirent *dp)
   char *opath;
   signed int cpp;
   ext=strrchr(fpath, 46);
-  _Bool tmp_if_expr$4;
-  signed int return_value_strcmp$1;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$2;
+  _Bool tmp_if_expr_4;
+  signed int return_value_strcmp_1;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_2;
   if(ext == ((char *)NULL))
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value_strcmp$1=strcmp(ext, ".c");
-    if(!(return_value_strcmp$1 == 0))
+    return_value_strcmp_1=strcmp(ext, ".c");
+    if(!(return_value_strcmp_1 == 0))
     {
-      return_value_strcmp$2=strcmp(ext, ".cpp");
-      tmp_if_expr$3 = return_value_strcmp$2 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_strcmp_2=strcmp(ext, ".cpp");
+      tmp_if_expr_3 = return_value_strcmp_2 != 0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = (_Bool)0;
+    tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
   }
-  signed int *return_value___errno_location$6;
-  char *return_value_strerror$7;
-  if(!tmp_if_expr$4)
+  signed int *return_value___errno_location_6;
+  char *return_value_strerror_7;
+  if(!tmp_if_expr_4)
   {
-    signed int return_value_strcmp$5;
-    return_value_strcmp$5=strcmp(ext, ".cpp");
-    if(return_value_strcmp$5 == 0)
+    signed int return_value_strcmp_5;
+    return_value_strcmp_5=strcmp(ext, ".cpp");
+    if(return_value_strcmp_5 == 0)
       cpp = 1;
 
     else
       cpp = 0;
-    signed int return_value_stat$8;
-    return_value_stat$8=stat(fpath, &st);
-    if(return_value_stat$8 == -1)
+    signed int return_value_stat_8;
+    return_value_stat_8=stat(fpath, &st);
+    if(return_value_stat_8 == -1)
     {
-      return_value___errno_location$6=__errno_location();
-      return_value_strerror$7=strerror(*return_value___errno_location$6);
-      cli_fatal("stat(%s): %s", fpath, return_value_strerror$7);
+      return_value___errno_location_6=__errno_location();
+      return_value_strerror_7=strerror(*return_value___errno_location_6);
+      cli_fatal("stat(%s): %s", fpath, return_value_strerror_7);
     }
 
     cli_vasprintf(&opath, "%s/.objs/%s.o", rootdir, (const void *)dp->d_name);
-    signed int return_value_cli_file_requires_build$9;
-    return_value_cli_file_requires_build$9=cli_file_requires_build(&st, opath);
-    if(return_value_cli_file_requires_build$9 == 0)
+    signed int return_value_cli_file_requires_build_9;
+    return_value_cli_file_requires_build_9=cli_file_requires_build(&st, opath);
+    if(return_value_cli_file_requires_build_9 == 0)
       cli_add_cfile(dp->d_name, fpath, opath, &st, 0, cpp);
 
     else
@@ -8051,9 +8051,9 @@ static void cli_register_cfile(char *fpath, struct dirent *dp)
 static void cli_run(signed int argc, char **argv)
 {
   cli_build(argc, argv);
-  signed int return_value_chdir$1;
-  return_value_chdir$1=chdir(rootdir);
-  if(return_value_chdir$1 == -1)
+  signed int return_value_chdir_1;
+  return_value_chdir_1=chdir(rootdir);
+  if(return_value_chdir_1 == -1)
     cli_fatal("couldn't change directory to %s", rootdir);
 
   cli_run_kore((void *)0);
@@ -8080,10 +8080,10 @@ static void cli_spawn_proc(void (*cb)(void *), void *arg)
   signed int pid;
   signed int status;
   pid=fork();
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
   if(!(pid == -1))
   {
     if(pid == 0)
@@ -8093,29 +8093,29 @@ static void cli_spawn_proc(void (*cb)(void *), void *arg)
 
   else
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    cli_fatal("cli_compile_cfile: fork() %s", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    cli_fatal("cli_compile_cfile: fork() %s", return_value_strerror_2);
 
   __CPROVER_DUMP_L2:
     ;
     cb(arg);
-    return_value___errno_location$3=__errno_location();
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    cli_fatal("cli_spawn_proc: %s", return_value_strerror$4);
+    return_value___errno_location_3=__errno_location();
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    cli_fatal("cli_spawn_proc: %s", return_value_strerror_4);
   }
   goto __CPROVER_DUMP_L4;
 
 __CPROVER_DUMP_L4:
   ;
-  signed int return_value_waitpid$5;
-  return_value_waitpid$5=waitpid(pid, &status, 0);
-  if(return_value_waitpid$5 == -1)
+  signed int return_value_waitpid_5;
+  return_value_waitpid_5=waitpid(pid, &status, 0);
+  if(return_value_waitpid_5 == -1)
     cli_fatal("couldn't wait for child %d", pid);
 
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_6;
   /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$67
+union anonymous_67
 {
   // __in
   signed int __in;
@@ -8126,17 +8126,17 @@ union anonymous$67
 /* */
   ;
   if(!((0xff00 & status) >> 8 == 0))
-    tmp_if_expr$6 = (_Bool)1;
+    tmp_if_expr_6 = (_Bool)1;
 
   else
-    tmp_if_expr$6 = (((union anonymous$67){ .__in=status }).__i & 0x7f) != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$7;
-  if(tmp_if_expr$6)
-    tmp_if_expr$7 = (_Bool)1;
+    tmp_if_expr_6 = (((union anonymous_67){ .__in=status }).__i & 0x7f) != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_7;
+  if(tmp_if_expr_6)
+    tmp_if_expr_7 = (_Bool)1;
 
   else
-    tmp_if_expr$7 = (((union anonymous$67){ .__in=status }).__i & 0x80) != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$7)
+    tmp_if_expr_7 = (((union anonymous_67){ .__in=status }).__i & 0x80) != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_7)
     cli_fatal("subprocess trouble, check output");
 
 }
@@ -8174,9 +8174,9 @@ static signed int configure_accept_threshold(char **argv)
 
   else
   {
-    signed long long int return_value_kore_strtonum$1;
-    return_value_kore_strtonum$1=kore_strtonum(argv[(signed long int)1], 0, (signed long long int)1, (signed long long int)((unsigned int)0x7fffffff * 2U + 1U), &err);
-    worker_accept_threshold = (unsigned int)return_value_kore_strtonum$1;
+    signed long long int return_value_kore_strtonum_1;
+    return_value_kore_strtonum_1=kore_strtonum(argv[(signed long int)1], 0, (signed long long int)1, (signed long long int)((unsigned int)0x7fffffff * 2U + 1U), &err);
+    worker_accept_threshold = (unsigned int)return_value_kore_strtonum_1;
     if(!(err == 1))
     {
       printf("bad value for worker_accept_threshold: %s\n", argv[(signed long int)1]);
@@ -8233,9 +8233,9 @@ static signed int configure_authentication(char **argv)
 
     else
     {
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(argv[(signed long int)2], "{");
-      if(!(return_value_strcmp$1 == 0))
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(argv[(signed long int)2], "{");
+      if(!(return_value_strcmp_1 == 0))
       {
         printf("missing { for authentication block\n");
         return 0;
@@ -8243,9 +8243,9 @@ static signed int configure_authentication(char **argv)
 
       else
       {
-        signed int return_value_kore_auth_new$2;
-        return_value_kore_auth_new$2=kore_auth_new(argv[(signed long int)1]);
-        if(return_value_kore_auth_new$2 == 0)
+        signed int return_value_kore_auth_new_2;
+        return_value_kore_auth_new_2=kore_auth_new(argv[(signed long int)1]);
+        if(return_value_kore_auth_new_2 == 0)
           return 0;
 
         else
@@ -8261,8 +8261,8 @@ static signed int configure_authentication(char **argv)
 // file src/config.c line 868
 static signed int configure_authentication_type(char **argv)
 {
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
   if(current_auth == ((struct kore_auth *)NULL))
   {
     printf("authentication_type outside authentication block\n");
@@ -8278,21 +8278,21 @@ static signed int configure_authentication_type(char **argv)
 
     else
     {
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(argv[(signed long int)1], "cookie");
-      if(return_value_strcmp$3 == 0)
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(argv[(signed long int)1], "cookie");
+      if(return_value_strcmp_3 == 0)
         current_auth->type = (unsigned char)1;
 
       else
       {
-        return_value_strcmp$2=strcmp(argv[(signed long int)1], "header");
-        if(return_value_strcmp$2 == 0)
+        return_value_strcmp_2=strcmp(argv[(signed long int)1], "header");
+        if(return_value_strcmp_2 == 0)
           current_auth->type = (unsigned char)2;
 
         else
         {
-          return_value_strcmp$1=strcmp(argv[(signed long int)1], "request");
-          if(return_value_strcmp$1 == 0)
+          return_value_strcmp_1=strcmp(argv[(signed long int)1], "request");
+          if(return_value_strcmp_1 == 0)
             current_auth->type = (unsigned char)3;
 
           else
@@ -8414,20 +8414,20 @@ static signed int configure_authentication_value(char **argv)
 // file src/config.c line 249
 static signed int configure_bind(char **argv)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(argv[1l] == ((char *)NULL))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = argv[(signed long int)2] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = argv[(signed long int)2] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     return 0;
 
   else
   {
-    signed int return_value_kore_server_bind$2;
-    return_value_kore_server_bind$2=kore_server_bind(argv[(signed long int)1], argv[(signed long int)2]);
-    return return_value_kore_server_bind$2;
+    signed int return_value_kore_server_bind_2;
+    return_value_kore_server_bind_2=kore_server_bind(argv[(signed long int)1], argv[(signed long int)2]);
+    return return_value_kore_server_bind_2;
   }
 }
 
@@ -8549,9 +8549,9 @@ static signed int configure_domain(char **argv)
 
     else
     {
-      signed int return_value_strcmp$1;
-      return_value_strcmp$1=strcmp(argv[(signed long int)2], "{");
-      if(!(return_value_strcmp$1 == 0))
+      signed int return_value_strcmp_1;
+      return_value_strcmp_1=strcmp(argv[(signed long int)2], "{");
+      if(!(return_value_strcmp_1 == 0))
       {
         printf("missing { for domain directive\n");
         return 0;
@@ -8559,9 +8559,9 @@ static signed int configure_domain(char **argv)
 
       else
       {
-        signed int return_value_kore_domain_new$2;
-        return_value_kore_domain_new$2=kore_domain_new(argv[(signed long int)1]);
-        if(return_value_kore_domain_new$2 == 0)
+        signed int return_value_kore_domain_new_2;
+        return_value_kore_domain_new_2=kore_domain_new(argv[(signed long int)1]);
+        if(return_value_kore_domain_new_2 == 0)
         {
           printf("could not create new domain %s\n", argv[(signed long int)1]);
           return 0;
@@ -8581,8 +8581,8 @@ static signed int configure_domain(char **argv)
 static signed int configure_handler(char **argv)
 {
   signed int type;
-  _Bool tmp_if_expr$1;
-  signed int return_value_strcmp$2;
+  _Bool tmp_if_expr_1;
+  signed int return_value_strcmp_2;
   if(current_domain == ((struct kore_domain *)NULL))
   {
     printf("missing domain for page handler\n");
@@ -8592,32 +8592,32 @@ static signed int configure_handler(char **argv)
   else
   {
     if(argv[1l] == ((char *)NULL))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = argv[(signed long int)2] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = argv[(signed long int)2] == (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       return 0;
 
     else
     {
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(argv[(signed long int)0], "static");
-      if(return_value_strcmp$3 == 0)
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(argv[(signed long int)0], "static");
+      if(return_value_strcmp_3 == 0)
         type = 1;
 
       else
       {
-        return_value_strcmp$2=strcmp(argv[(signed long int)0], "dynamic");
-        if(return_value_strcmp$2 == 0)
+        return_value_strcmp_2=strcmp(argv[(signed long int)0], "dynamic");
+        if(return_value_strcmp_2 == 0)
           type = 2;
 
         else
           return 0;
       }
-      signed int return_value_kore_module_handler_new$4;
-      return_value_kore_module_handler_new$4=kore_module_handler_new(argv[(signed long int)1], current_domain->domain, argv[(signed long int)2], argv[(signed long int)3], type);
-      if(return_value_kore_module_handler_new$4 == 0)
+      signed int return_value_kore_module_handler_new_4;
+      return_value_kore_module_handler_new_4=kore_module_handler_new(argv[(signed long int)1], current_domain->domain, argv[(signed long int)2], argv[(signed long int)3], type);
+      if(return_value_kore_module_handler_new_4 == 0)
         return 0;
 
       else
@@ -8640,9 +8640,9 @@ static signed int configure_http_body_max(char **argv)
 
     else
     {
-      signed long long int return_value_kore_strtonum$1;
-      return_value_kore_strtonum$1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)1, 0x7fffffffffffffffL, &err);
-      http_body_max = (unsigned long int)return_value_kore_strtonum$1;
+      signed long long int return_value_kore_strtonum_1;
+      return_value_kore_strtonum_1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)1, 0x7fffffffffffffffL, &err);
+      http_body_max = (unsigned long int)return_value_kore_strtonum_1;
       if(!(err == 1))
       {
         printf("bad http_body_max value: %s\n", argv[(signed long int)1]);
@@ -8668,9 +8668,9 @@ static signed int configure_http_header_max(char **argv)
 
     else
     {
-      signed long long int return_value_kore_strtonum$1;
-      return_value_kore_strtonum$1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)1, (signed long long int)65535, &err);
-      http_header_max = (unsigned short int)return_value_kore_strtonum$1;
+      signed long long int return_value_kore_strtonum_1;
+      return_value_kore_strtonum_1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)1, (signed long long int)65535, &err);
+      http_header_max = (unsigned short int)return_value_kore_strtonum_1;
       if(!(err == 1))
       {
         printf("bad http_header_max value: %s\n", argv[(signed long int)1]);
@@ -8696,9 +8696,9 @@ static signed int configure_http_hsts_enable(char **argv)
 
     else
     {
-      signed long long int return_value_kore_strtonum$1;
-      return_value_kore_strtonum$1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)0, 0x7fffffffffffffffL, &err);
-      http_hsts_enable = (unsigned long int)return_value_kore_strtonum$1;
+      signed long long int return_value_kore_strtonum_1;
+      return_value_kore_strtonum_1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)0, 0x7fffffffffffffffL, &err);
+      http_hsts_enable = (unsigned long int)return_value_kore_strtonum_1;
       if(!(err == 1))
       {
         printf("bad http_hsts_enable value: %s\n", argv[(signed long int)1]);
@@ -8724,9 +8724,9 @@ static signed int configure_http_keepalive_time(char **argv)
 
     else
     {
-      signed long long int return_value_kore_strtonum$1;
-      return_value_kore_strtonum$1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)0, (signed long long int)(0x7fff * 2 + 1), &err);
-      http_keepalive_time = (unsigned short int)return_value_kore_strtonum$1;
+      signed long long int return_value_kore_strtonum_1;
+      return_value_kore_strtonum_1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)0, (signed long long int)(0x7fff * 2 + 1), &err);
+      http_keepalive_time = (unsigned short int)return_value_kore_strtonum_1;
       if(!(err == 1))
       {
         printf("bad http_keepalive_time value: %s\n", argv[(signed long int)1]);
@@ -8748,9 +8748,9 @@ static signed int configure_http_request_limit(char **argv)
 
   else
   {
-    signed long long int return_value_kore_strtonum$1;
-    return_value_kore_strtonum$1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)0, (signed long long int)((unsigned int)0x7fffffff * 2U + 1U), &err);
-    http_request_limit = (unsigned int)return_value_kore_strtonum$1;
+    signed long long int return_value_kore_strtonum_1;
+    return_value_kore_strtonum_1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)0, (signed long long int)((unsigned int)0x7fffffff * 2U + 1U), &err);
+    http_request_limit = (unsigned int)return_value_kore_strtonum_1;
     if(!(err == 1))
     {
       printf("bad http_request_limit value: %s\n", argv[(signed long int)1]);
@@ -8803,9 +8803,9 @@ static signed int configure_max_connections(char **argv)
 
   else
   {
-    signed long long int return_value_kore_strtonum$1;
-    return_value_kore_strtonum$1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)1, (signed long long int)((unsigned int)0x7fffffff * 2U + 1U), &err);
-    worker_max_connections = (unsigned int)return_value_kore_strtonum$1;
+    signed long long int return_value_kore_strtonum_1;
+    return_value_kore_strtonum_1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)1, (signed long long int)((unsigned int)0x7fffffff * 2U + 1U), &err);
+    worker_max_connections = (unsigned int)return_value_kore_strtonum_1;
     if(!(err == 1))
     {
       printf("bad value for worker_max_connections: %s\n", argv[(signed long int)1]);
@@ -8822,10 +8822,10 @@ static signed int configure_max_connections(char **argv)
 static signed int configure_params(char **argv)
 {
   struct kore_module_handle *hdlr;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_strcasecmp$3;
-  signed int return_value_strcasecmp$2;
-  signed int return_value_strcasecmp$1;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_strcasecmp_3;
+  signed int return_value_strcasecmp_2;
+  signed int return_value_strcasecmp_1;
   if(current_domain == ((struct kore_domain *)NULL))
   {
     printf("params keyword used in wrong context\n");
@@ -8845,33 +8845,33 @@ static signed int configure_params(char **argv)
 
       else
       {
-        signed int return_value_strcasecmp$5;
-        return_value_strcasecmp$5=strcasecmp(argv[(signed long int)1], "post");
-        if(return_value_strcasecmp$5 == 0)
+        signed int return_value_strcasecmp_5;
+        return_value_strcasecmp_5=strcasecmp(argv[(signed long int)1], "post");
+        if(return_value_strcasecmp_5 == 0)
           current_method = (unsigned char)1;
 
         else
         {
-          return_value_strcasecmp$4=strcasecmp(argv[(signed long int)1], "get");
-          if(return_value_strcasecmp$4 == 0)
+          return_value_strcasecmp_4=strcasecmp(argv[(signed long int)1], "get");
+          if(return_value_strcasecmp_4 == 0)
             current_method = (unsigned char)0;
 
           else
           {
-            return_value_strcasecmp$3=strcasecmp(argv[(signed long int)1], "put");
-            if(return_value_strcasecmp$3 == 0)
+            return_value_strcasecmp_3=strcasecmp(argv[(signed long int)1], "put");
+            if(return_value_strcasecmp_3 == 0)
               current_method = (unsigned char)2;
 
             else
             {
-              return_value_strcasecmp$2=strcasecmp(argv[(signed long int)1], "delete");
-              if(return_value_strcasecmp$2 == 0)
+              return_value_strcasecmp_2=strcasecmp(argv[(signed long int)1], "delete");
+              if(return_value_strcasecmp_2 == 0)
                 current_method = (unsigned char)3;
 
               else
               {
-                return_value_strcasecmp$1=strcasecmp(argv[(signed long int)1], "head");
-                if(return_value_strcasecmp$1 == 0)
+                return_value_strcasecmp_1=strcasecmp(argv[(signed long int)1], "head");
+                if(return_value_strcasecmp_1 == 0)
                   current_method = (unsigned char)4;
 
                 else
@@ -8886,9 +8886,9 @@ static signed int configure_params(char **argv)
         hdlr = (&current_domain->handlers)->tqh_first;
         for( ; !(hdlr == ((struct kore_module_handle *)NULL)); hdlr = hdlr->list.tqe_next)
         {
-          signed int return_value_strcmp$6;
-          return_value_strcmp$6=strcmp(hdlr->path, argv[(signed long int)2]);
-          if(return_value_strcmp$6 == 0)
+          signed int return_value_strcmp_6;
+          return_value_strcmp_6=strcmp(hdlr->path, argv[(signed long int)2]);
+          if(return_value_strcmp_6 == 0)
           {
             current_handler = hdlr;
             return 1;
@@ -8913,9 +8913,9 @@ static signed int configure_pgsql_conn_max(char **argv)
 
   else
   {
-    signed long long int return_value_kore_strtonum$1;
-    return_value_kore_strtonum$1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)0, (signed long long int)(0x7fff * 2 + 1), &err);
-    pgsql_conn_max = (unsigned short int)return_value_kore_strtonum$1;
+    signed long long int return_value_kore_strtonum_1;
+    return_value_kore_strtonum_1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)0, (signed long long int)(0x7fff * 2 + 1), &err);
+    pgsql_conn_max = (unsigned short int)return_value_kore_strtonum_1;
     if(!(err == 1))
     {
       printf("bad value for pgsql_conn_max: %s\n", argv[(signed long int)1]);
@@ -8936,9 +8936,9 @@ static signed int configure_pidfile(char **argv)
 
   else
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(kore_pidfile, "kore.pid");
-    if(!(return_value_strcmp$1 == 0))
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(kore_pidfile, "kore.pid");
+    if(!(return_value_strcmp_1 == 0))
       return 0;
 
     else
@@ -8959,9 +8959,9 @@ static signed int configure_rlimit_nofiles(char **argv)
 
   else
   {
-    signed long long int return_value_kore_strtonum$1;
-    return_value_kore_strtonum$1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)1, (signed long long int)((unsigned int)0x7fffffff * 2U + 1U), &err);
-    worker_rlimit_nofiles = (unsigned int)return_value_kore_strtonum$1;
+    signed long long int return_value_kore_strtonum_1;
+    return_value_kore_strtonum_1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)1, (signed long long int)((unsigned int)0x7fffffff * 2U + 1U), &err);
+    worker_rlimit_nofiles = (unsigned int)return_value_kore_strtonum_1;
     if(!(err == 1))
     {
       printf("bad value for worker_rlimit_nofiles: %s\n", argv[(signed long int)1]);
@@ -9001,9 +9001,9 @@ static signed int configure_set_affinity(char **argv)
 
   else
   {
-    signed long long int return_value_kore_strtonum$1;
-    return_value_kore_strtonum$1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)0, (signed long long int)1, &err);
-    worker_set_affinity = (unsigned char)return_value_kore_strtonum$1;
+    signed long long int return_value_kore_strtonum_1;
+    return_value_kore_strtonum_1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)0, (signed long long int)1, &err);
+    worker_set_affinity = (unsigned char)return_value_kore_strtonum_1;
     if(!(err == 1))
     {
       printf("bad value for worker_set_affinity: %s\n", argv[(signed long int)1]);
@@ -9025,9 +9025,9 @@ static signed int configure_socket_backlog(char **argv)
 
   else
   {
-    signed long long int return_value_kore_strtonum$1;
-    return_value_kore_strtonum$1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)0, (signed long long int)((unsigned int)0x7fffffff * 2U + 1U), &err);
-    kore_socket_backlog = (unsigned int)return_value_kore_strtonum$1;
+    signed long long int return_value_kore_strtonum_1;
+    return_value_kore_strtonum_1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)0, (signed long long int)((unsigned int)0x7fffffff * 2U + 1U), &err);
+    kore_socket_backlog = (unsigned int)return_value_kore_strtonum_1;
     if(!(err == 1))
     {
       printf("bad socket_backlog value: %s\n", argv[(signed long int)1]);
@@ -9049,9 +9049,9 @@ static signed int configure_spdy_idle_time(char **argv)
 
   else
   {
-    signed long long int return_value_kore_strtonum$1;
-    return_value_kore_strtonum$1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)0, (signed long long int)65535, &err);
-    spdy_idle_time = (unsigned long int)return_value_kore_strtonum$1;
+    signed long long int return_value_kore_strtonum_1;
+    return_value_kore_strtonum_1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)0, (signed long long int)65535, &err);
+    spdy_idle_time = (unsigned long int)return_value_kore_strtonum_1;
     if(!(err == 1))
     {
       printf("spdy_idle_time has invalid value: %s\n", argv[(signed long int)1]);
@@ -9075,9 +9075,9 @@ static signed int configure_tls_cipher(char **argv)
 
   else
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(kore_tls_cipher_list, "ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-GCM-SHA384:kEDH+AESGCM:ECDHE-RSA-AES128-SHA256:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA:ECDHE-ECDSA-AES256-SHA:DHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA256:DHE-DSS-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:HIGH:!aNULL:!eNULL:!EXPORT:!DES:!3DES:!MD5:!PSK:!kRSA:!kDSA");
-    if(!(return_value_strcmp$1 == 0))
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(kore_tls_cipher_list, "ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-GCM-SHA384:kEDH+AESGCM:ECDHE-RSA-AES128-SHA256:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA:ECDHE-ECDSA-AES256-SHA:DHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA256:DHE-DSS-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:HIGH:!aNULL:!eNULL:!EXPORT:!DES:!3DES:!MD5:!PSK:!kRSA:!kDSA");
+    if(!(return_value_strcmp_1 == 0))
       return 0;
 
     else
@@ -9115,11 +9115,11 @@ static signed int configure_tls_dhparam(char **argv)
         BIO_free(bio);
         if(tls_dhparam == ((struct dh_st *)NULL))
         {
-          unsigned long int return_value_ERR_get_error$1;
-          return_value_ERR_get_error$1=ERR_get_error();
-          char *return_value_ERR_error_string$2;
-          return_value_ERR_error_string$2=ERR_error_string(return_value_ERR_get_error$1, (char *)(void *)0);
-          printf("PEM_read_bio_DHparams(): %s\n", return_value_ERR_error_string$2);
+          unsigned long int return_value_ERR_get_error_1;
+          return_value_ERR_get_error_1=ERR_get_error();
+          char *return_value_ERR_error_string_2;
+          return_value_ERR_error_string_2=ERR_error_string(return_value_ERR_get_error_1, (char *)(void *)0);
+          printf("PEM_read_bio_DHparams(): %s\n", return_value_ERR_error_string_2);
           return 0;
         }
 
@@ -9132,28 +9132,28 @@ static signed int configure_tls_dhparam(char **argv)
 // file src/config.c line 268
 static signed int configure_tls_version(char **argv)
 {
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
   if(argv[1l] == ((char *)NULL))
     return 0;
 
   else
   {
-    signed int return_value_strcmp$3;
-    return_value_strcmp$3=strcmp(argv[(signed long int)1], "1.2");
-    if(return_value_strcmp$3 == 0)
+    signed int return_value_strcmp_3;
+    return_value_strcmp_3=strcmp(argv[(signed long int)1], "1.2");
+    if(return_value_strcmp_3 == 0)
       tls_version = 0;
 
     else
     {
-      return_value_strcmp$2=strcmp(argv[(signed long int)1], "1.0");
-      if(return_value_strcmp$2 == 0)
+      return_value_strcmp_2=strcmp(argv[(signed long int)1], "1.0");
+      if(return_value_strcmp_2 == 0)
         tls_version = 1;
 
       else
       {
-        return_value_strcmp$1=strcmp(argv[(signed long int)1], "both");
-        if(return_value_strcmp$1 == 0)
+        return_value_strcmp_1=strcmp(argv[(signed long int)1], "both");
+        if(return_value_strcmp_1 == 0)
           tls_version = 2;
 
         else
@@ -9194,9 +9194,9 @@ static signed int configure_validate(char **argv)
 
       else
       {
-        void *return_value_kore_malloc$1;
-        return_value_kore_malloc$1=kore_malloc(sizeof(struct kore_handler_params) /*40ul*/ );
-        p = (struct kore_handler_params *)return_value_kore_malloc$1;
+        void *return_value_kore_malloc_1;
+        return_value_kore_malloc_1=kore_malloc(sizeof(struct kore_handler_params) /*40ul*/ );
+        p = (struct kore_handler_params *)return_value_kore_malloc_1;
         p->validator = val;
         p->method = current_method;
         p->name=kore_strdup(argv[(signed long int)1]);
@@ -9218,21 +9218,21 @@ static signed int configure_validate(char **argv)
 static signed int configure_validator(char **argv)
 {
   unsigned char type;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   if(argv[3l] == ((char *)NULL))
     return 0;
 
   else
   {
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(argv[(signed long int)2], "regex");
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(argv[(signed long int)2], "regex");
+    if(return_value_strcmp_2 == 0)
       type = (unsigned char)1;
 
     else
     {
-      return_value_strcmp$1=strcmp(argv[(signed long int)2], "function");
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(argv[(signed long int)2], "function");
+      if(return_value_strcmp_1 == 0)
         type = (unsigned char)2;
 
       else
@@ -9241,9 +9241,9 @@ static signed int configure_validator(char **argv)
         return 0;
       }
     }
-    signed int return_value_kore_validator_add$3;
-    return_value_kore_validator_add$3=kore_validator_add(argv[(signed long int)1], type, argv[(signed long int)3]);
-    if(return_value_kore_validator_add$3 == 0)
+    signed int return_value_kore_validator_add_3;
+    return_value_kore_validator_add_3=kore_validator_add(argv[(signed long int)1], type, argv[(signed long int)3]);
+    if(return_value_kore_validator_add_3 == 0)
     {
       printf("bad validator specified: %s\n", argv[(signed long int)1]);
       return 0;
@@ -9321,9 +9321,9 @@ static signed int configure_workers(char **argv)
 
     else
     {
-      signed long long int return_value_kore_strtonum$1;
-      return_value_kore_strtonum$1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)1, (signed long long int)255, &err);
-      worker_count = (unsigned char)return_value_kore_strtonum$1;
+      signed long long int return_value_kore_strtonum_1;
+      return_value_kore_strtonum_1=kore_strtonum(argv[(signed long int)1], 10, (signed long long int)1, (signed long long int)255, &err);
+      worker_count = (unsigned char)return_value_kore_strtonum_1;
       if(!(err == 1))
       {
         printf("%s is not a correct worker number\n", argv[(signed long int)1]);
@@ -9351,23 +9351,23 @@ static void domain_load_crl(struct kore_domain *dom)
       store=SSL_CTX_get_cert_store(dom->ssl_ctx);
       if(store == ((struct x509_store_st *)NULL))
       {
-        unsigned long int return_value_ERR_get_error$1;
-        return_value_ERR_get_error$1=ERR_get_error();
-        char *return_value_ERR_error_string$2;
-        return_value_ERR_error_string$2=ERR_error_string(return_value_ERR_get_error$1, (char *)(void *)0);
-        kore_log(3, "SSL_CTX_get_cert_store(): %s", return_value_ERR_error_string$2);
+        unsigned long int return_value_ERR_get_error_1;
+        return_value_ERR_get_error_1=ERR_get_error();
+        char *return_value_ERR_error_string_2;
+        return_value_ERR_error_string_2=ERR_error_string(return_value_ERR_get_error_1, (char *)(void *)0);
+        kore_log(3, "SSL_CTX_get_cert_store(): %s", return_value_ERR_error_string_2);
         goto __CPROVER_DUMP_L5;
       }
 
-      signed int return_value_X509_STORE_load_locations$5;
-      return_value_X509_STORE_load_locations$5=X509_STORE_load_locations(store, dom->crlfile, (const char *)(void *)0);
-      if(return_value_X509_STORE_load_locations$5 == 0)
+      signed int return_value_X509_STORE_load_locations_5;
+      return_value_X509_STORE_load_locations_5=X509_STORE_load_locations(store, dom->crlfile, (const char *)(void *)0);
+      if(return_value_X509_STORE_load_locations_5 == 0)
       {
-        unsigned long int return_value_ERR_get_error$3;
-        return_value_ERR_get_error$3=ERR_get_error();
-        char *return_value_ERR_error_string$4;
-        return_value_ERR_error_string$4=ERR_error_string(return_value_ERR_get_error$3, (char *)(void *)0);
-        kore_log(3, "X509_STORE_load_locations(): %s", return_value_ERR_error_string$4);
+        unsigned long int return_value_ERR_get_error_3;
+        return_value_ERR_get_error_3=ERR_get_error();
+        char *return_value_ERR_error_string_4;
+        return_value_ERR_error_string_4=ERR_error_string(return_value_ERR_get_error_3, (char *)(void *)0);
+        kore_log(3, "X509_STORE_load_locations(): %s", return_value_ERR_error_string_4);
         goto __CPROVER_DUMP_L5;
       }
 
@@ -9458,9 +9458,9 @@ static void file_create_src(void)
 {
   char *name;
   cli_vasprintf(&name, "src/%s.c", appl);
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(src_data);
-  cli_file_create(name, src_data, return_value_strlen$1);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(src_data);
+  cli_file_create(name, src_data, return_value_strlen_1);
   free((void *)name);
 }
 
@@ -9476,25 +9476,25 @@ static void http_argument_add(struct http_request *req, const char *name, void *
     for( ; !(p == ((struct kore_handler_params *)NULL)); p = p->list.tqe_next)
       if(p->method == req->method)
       {
-        signed int return_value_strcmp$4;
-        return_value_strcmp$4=strcmp(p->name, name);
-        if(return_value_strcmp$4 == 0)
+        signed int return_value_strcmp_4;
+        return_value_strcmp_4=strcmp(p->name, name);
+        if(return_value_strcmp_4 == 0)
         {
           if(type == 6)
           {
             http_argument_urldecode((char *)value);
-            unsigned long int return_value_strlen$1;
-            return_value_strlen$1=strlen((const char *)value);
-            len = (unsigned int)return_value_strlen$1;
+            unsigned long int return_value_strlen_1;
+            return_value_strlen_1=strlen((const char *)value);
+            len = (unsigned int)return_value_strlen_1;
           }
 
-          signed int return_value_kore_validator_check$3;
-          return_value_kore_validator_check$3=kore_validator_check(req, p->validator, value);
-          if(!(return_value_kore_validator_check$3 == 0))
+          signed int return_value_kore_validator_check_3;
+          return_value_kore_validator_check_3=kore_validator_check(req, p->validator, value);
+          if(!(return_value_kore_validator_check_3 == 0))
           {
-            void *return_value_kore_malloc$2;
-            return_value_kore_malloc$2=kore_malloc(sizeof(struct http_arg) /*56ul*/ );
-            q = (struct http_arg *)return_value_kore_malloc$2;
+            void *return_value_kore_malloc_2;
+            return_value_kore_malloc_2=kore_malloc(sizeof(struct http_arg) /*56ul*/ );
+            q = (struct http_arg *)return_value_kore_malloc_2;
             q->len = len;
             q->s_value = (char *)(void *)0;
             q->name=kore_strdup(name);
@@ -9533,9 +9533,9 @@ signed int http_argument_get(struct http_request *req, const char *name, void **
   q = (&req->arguments)->tqh_first;
   for( ; !(q == ((struct http_arg *)NULL)); q = q->list.tqe_next)
   {
-    signed int return_value_strcmp$10;
-    return_value_strcmp$10=strcmp(q->name, name);
-    if(return_value_strcmp$10 == 0)
+    signed int return_value_strcmp_10;
+    return_value_strcmp_10=strcmp(q->name, name);
+    if(return_value_strcmp_10 == 0)
       switch(type)
       {
         case 0:
@@ -9569,9 +9569,9 @@ signed int http_argument_get(struct http_request *req, const char *name, void **
               if(q->s_value == ((char *)NULL))
               {
                 q->s_len = q->len + (unsigned int)1;
-                void *return_value_kore_malloc$1;
-                return_value_kore_malloc$1=kore_malloc((unsigned long int)q->s_len);
-                q->s_value = (char *)return_value_kore_malloc$1;
+                void *return_value_kore_malloc_1;
+                return_value_kore_malloc_1=kore_malloc((unsigned long int)q->s_len);
+                q->s_value = (char *)return_value_kore_malloc_1;
                 kore_strlcpy(q->s_value, (const char *)q->value, (unsigned long int)q->s_len);
               }
 
@@ -9609,19 +9609,19 @@ signed int http_argument_get(struct http_request *req, const char *name, void **
               if(q->s_value == ((char *)NULL))
               {
                 q->s_len = q->len + (unsigned int)1;
-                void *return_value_kore_malloc$2;
-                return_value_kore_malloc$2=kore_malloc((unsigned long int)q->s_len);
-                q->s_value = (char *)return_value_kore_malloc$2;
+                void *return_value_kore_malloc_2;
+                return_value_kore_malloc_2=kore_malloc((unsigned long int)q->s_len);
+                q->s_value = (char *)return_value_kore_malloc_2;
                 kore_strlcpy(q->s_value, (const char *)q->value, (unsigned long int)q->s_len);
               }
 
             while((_Bool)0);
             do
             {
-              signed int http_argument_get$$1$$1$$1$$1$$1$$3$$2$$err;
-              signed long int http_argument_get$$1$$1$$1$$1$$1$$3$$2$$nval;
-              http_argument_get$$1$$1$$1$$1$$1$$3$$2$$nval=kore_strtonum(q->s_value, 10, (signed long long int)0, (signed long long int)(0x7fff * 2 + 1), &http_argument_get$$1$$1$$1$$1$$1$$3$$2$$err);
-              if(!(http_argument_get$$1$$1$$1$$1$$1$$3$$2$$err == 1))
+              signed int http_argument_get__1__1__1__1__1__3__2__err;
+              signed long int http_argument_get__1__1__1__1__1__3__2__nval;
+              http_argument_get__1__1__1__1__1__3__2__nval=kore_strtonum(q->s_value, 10, (signed long long int)0, (signed long long int)(0x7fff * 2 + 1), &http_argument_get__1__1__1__1__1__3__2__err);
+              if(!(http_argument_get__1__1__1__1__1__3__2__err == 1))
                 return 0;
 
               do
@@ -9629,7 +9629,7 @@ signed int http_argument_get(struct http_request *req, const char *name, void **
                 if(!(len == ((unsigned int *)NULL)))
                   *len = (unsigned int)sizeof(unsigned short int) /*2ul*/ ;
 
-                *((unsigned short int *)nout) = (unsigned short int)http_argument_get$$1$$1$$1$$1$$1$$3$$2$$nval;
+                *((unsigned short int *)nout) = (unsigned short int)http_argument_get__1__1__1__1__1__3__2__nval;
               }
               while((_Bool)0);
             }
@@ -9649,19 +9649,19 @@ signed int http_argument_get(struct http_request *req, const char *name, void **
               if(q->s_value == ((char *)NULL))
               {
                 q->s_len = q->len + (unsigned int)1;
-                void *return_value_kore_malloc$3;
-                return_value_kore_malloc$3=kore_malloc((unsigned long int)q->s_len);
-                q->s_value = (char *)return_value_kore_malloc$3;
+                void *return_value_kore_malloc_3;
+                return_value_kore_malloc_3=kore_malloc((unsigned long int)q->s_len);
+                q->s_value = (char *)return_value_kore_malloc_3;
                 kore_strlcpy(q->s_value, (const char *)q->value, (unsigned long int)q->s_len);
               }
 
             while((_Bool)0);
             do
             {
-              signed int http_argument_get$$1$$1$$1$$1$$1$$4$$2$$err;
-              signed long int http_argument_get$$1$$1$$1$$1$$1$$4$$2$$nval;
-              http_argument_get$$1$$1$$1$$1$$1$$4$$2$$nval=kore_strtonum(q->s_value, 10, (signed long long int)(-0x7fffffff - 1), (signed long long int)0x7fffffff, &http_argument_get$$1$$1$$1$$1$$1$$4$$2$$err);
-              if(!(http_argument_get$$1$$1$$1$$1$$1$$4$$2$$err == 1))
+              signed int http_argument_get__1__1__1__1__1__4__2__err;
+              signed long int http_argument_get__1__1__1__1__1__4__2__nval;
+              http_argument_get__1__1__1__1__1__4__2__nval=kore_strtonum(q->s_value, 10, (signed long long int)(-0x7fffffff - 1), (signed long long int)0x7fffffff, &http_argument_get__1__1__1__1__1__4__2__err);
+              if(!(http_argument_get__1__1__1__1__1__4__2__err == 1))
                 return 0;
 
               do
@@ -9669,7 +9669,7 @@ signed int http_argument_get(struct http_request *req, const char *name, void **
                 if(!(len == ((unsigned int *)NULL)))
                   *len = (unsigned int)sizeof(signed int) /*4ul*/ ;
 
-                *((signed int *)nout) = (signed int)http_argument_get$$1$$1$$1$$1$$1$$4$$2$$nval;
+                *((signed int *)nout) = (signed int)http_argument_get__1__1__1__1__1__4__2__nval;
               }
               while((_Bool)0);
             }
@@ -9689,19 +9689,19 @@ signed int http_argument_get(struct http_request *req, const char *name, void **
               if(q->s_value == ((char *)NULL))
               {
                 q->s_len = q->len + (unsigned int)1;
-                void *return_value_kore_malloc$4;
-                return_value_kore_malloc$4=kore_malloc((unsigned long int)q->s_len);
-                q->s_value = (char *)return_value_kore_malloc$4;
+                void *return_value_kore_malloc_4;
+                return_value_kore_malloc_4=kore_malloc((unsigned long int)q->s_len);
+                q->s_value = (char *)return_value_kore_malloc_4;
                 kore_strlcpy(q->s_value, (const char *)q->value, (unsigned long int)q->s_len);
               }
 
             while((_Bool)0);
             do
             {
-              signed int http_argument_get$$1$$1$$1$$1$$1$$5$$2$$err;
-              signed long int http_argument_get$$1$$1$$1$$1$$1$$5$$2$$nval;
-              http_argument_get$$1$$1$$1$$1$$1$$5$$2$$nval=kore_strtonum(q->s_value, 10, (signed long long int)0, (signed long long int)((unsigned int)0x7fffffff * 2U + 1U), &http_argument_get$$1$$1$$1$$1$$1$$5$$2$$err);
-              if(!(http_argument_get$$1$$1$$1$$1$$1$$5$$2$$err == 1))
+              signed int http_argument_get__1__1__1__1__1__5__2__err;
+              signed long int http_argument_get__1__1__1__1__1__5__2__nval;
+              http_argument_get__1__1__1__1__1__5__2__nval=kore_strtonum(q->s_value, 10, (signed long long int)0, (signed long long int)((unsigned int)0x7fffffff * 2U + 1U), &http_argument_get__1__1__1__1__1__5__2__err);
+              if(!(http_argument_get__1__1__1__1__1__5__2__err == 1))
                 return 0;
 
               do
@@ -9709,7 +9709,7 @@ signed int http_argument_get(struct http_request *req, const char *name, void **
                 if(!(len == ((unsigned int *)NULL)))
                   *len = (unsigned int)sizeof(unsigned int) /*4ul*/ ;
 
-                *((unsigned int *)nout) = (unsigned int)http_argument_get$$1$$1$$1$$1$$1$$5$$2$$nval;
+                *((unsigned int *)nout) = (unsigned int)http_argument_get__1__1__1__1__1__5__2__nval;
               }
               while((_Bool)0);
             }
@@ -9729,21 +9729,21 @@ signed int http_argument_get(struct http_request *req, const char *name, void **
               if(q->s_value == ((char *)NULL))
               {
                 q->s_len = q->len + (unsigned int)1;
-                void *return_value_kore_malloc$5;
-                return_value_kore_malloc$5=kore_malloc((unsigned long int)q->s_len);
-                q->s_value = (char *)return_value_kore_malloc$5;
+                void *return_value_kore_malloc_5;
+                return_value_kore_malloc_5=kore_malloc((unsigned long int)q->s_len);
+                q->s_value = (char *)return_value_kore_malloc_5;
                 kore_strlcpy(q->s_value, (const char *)q->value, (unsigned long int)q->s_len);
               }
 
             while((_Bool)0);
             do
             {
-              signed int http_argument_get$$1$$1$$1$$1$$1$$6$$2$$err;
-              signed long int http_argument_get$$1$$1$$1$$1$$1$$6$$2$$nval;
-              unsigned long int return_value_kore_strtonum64$6;
-              return_value_kore_strtonum64$6=kore_strtonum64(q->s_value, 1, &http_argument_get$$1$$1$$1$$1$$1$$6$$2$$err);
-              http_argument_get$$1$$1$$1$$1$$1$$6$$2$$nval = (signed long int)return_value_kore_strtonum64$6;
-              if(!(http_argument_get$$1$$1$$1$$1$$1$$6$$2$$err == 1))
+              signed int http_argument_get__1__1__1__1__1__6__2__err;
+              signed long int http_argument_get__1__1__1__1__1__6__2__nval;
+              unsigned long int return_value_kore_strtonum64_6;
+              return_value_kore_strtonum64_6=kore_strtonum64(q->s_value, 1, &http_argument_get__1__1__1__1__1__6__2__err);
+              http_argument_get__1__1__1__1__1__6__2__nval = (signed long int)return_value_kore_strtonum64_6;
+              if(!(http_argument_get__1__1__1__1__1__6__2__err == 1))
                 return 0;
 
               do
@@ -9751,7 +9751,7 @@ signed int http_argument_get(struct http_request *req, const char *name, void **
                 if(!(len == ((unsigned int *)NULL)))
                   *len = (unsigned int)sizeof(signed long int) /*8ul*/ ;
 
-                *((signed long int *)nout) = http_argument_get$$1$$1$$1$$1$$1$$6$$2$$nval;
+                *((signed long int *)nout) = http_argument_get__1__1__1__1__1__6__2__nval;
               }
               while((_Bool)0);
             }
@@ -9771,21 +9771,21 @@ signed int http_argument_get(struct http_request *req, const char *name, void **
               if(q->s_value == ((char *)NULL))
               {
                 q->s_len = q->len + (unsigned int)1;
-                void *return_value_kore_malloc$7;
-                return_value_kore_malloc$7=kore_malloc((unsigned long int)q->s_len);
-                q->s_value = (char *)return_value_kore_malloc$7;
+                void *return_value_kore_malloc_7;
+                return_value_kore_malloc_7=kore_malloc((unsigned long int)q->s_len);
+                q->s_value = (char *)return_value_kore_malloc_7;
                 kore_strlcpy(q->s_value, (const char *)q->value, (unsigned long int)q->s_len);
               }
 
             while((_Bool)0);
             do
             {
-              signed int http_argument_get$$1$$1$$1$$1$$1$$7$$2$$err;
-              unsigned long int http_argument_get$$1$$1$$1$$1$$1$$7$$2$$nval;
-              unsigned long int return_value_kore_strtonum64$8;
-              return_value_kore_strtonum64$8=kore_strtonum64(q->s_value, 0, &http_argument_get$$1$$1$$1$$1$$1$$7$$2$$err);
-              http_argument_get$$1$$1$$1$$1$$1$$7$$2$$nval = (unsigned long int)return_value_kore_strtonum64$8;
-              if(!(http_argument_get$$1$$1$$1$$1$$1$$7$$2$$err == 1))
+              signed int http_argument_get__1__1__1__1__1__7__2__err;
+              unsigned long int http_argument_get__1__1__1__1__1__7__2__nval;
+              unsigned long int return_value_kore_strtonum64_8;
+              return_value_kore_strtonum64_8=kore_strtonum64(q->s_value, 0, &http_argument_get__1__1__1__1__1__7__2__err);
+              http_argument_get__1__1__1__1__1__7__2__nval = (unsigned long int)return_value_kore_strtonum64_8;
+              if(!(http_argument_get__1__1__1__1__1__7__2__err == 1))
                 return 0;
 
               do
@@ -9793,7 +9793,7 @@ signed int http_argument_get(struct http_request *req, const char *name, void **
                 if(!(len == ((unsigned int *)NULL)))
                   *len = (unsigned int)sizeof(unsigned long int) /*8ul*/ ;
 
-                *((unsigned long int *)nout) = http_argument_get$$1$$1$$1$$1$$1$$7$$2$$nval;
+                *((unsigned long int *)nout) = http_argument_get__1__1__1__1__1__7__2__nval;
               }
               while((_Bool)0);
             }
@@ -9808,9 +9808,9 @@ signed int http_argument_get(struct http_request *req, const char *name, void **
             if(q->s_value == ((char *)NULL))
             {
               q->s_len = q->len + (unsigned int)1;
-              void *return_value_kore_malloc$9;
-              return_value_kore_malloc$9=kore_malloc((unsigned long int)q->s_len);
-              q->s_value = (char *)return_value_kore_malloc$9;
+              void *return_value_kore_malloc_9;
+              return_value_kore_malloc_9=kore_malloc((unsigned long int)q->s_len);
+              q->s_value = (char *)return_value_kore_malloc_9;
               kore_strlcpy(q->s_value, (const char *)q->value, (unsigned long int)q->s_len);
             }
 
@@ -9842,13 +9842,13 @@ signed int http_argument_urldecode(char *arg)
   p = arg;
   in = arg;
   len=strlen(arg);
-  char *tmp_post$1;
-  char *tmp_post$2;
-  _Bool tmp_if_expr$7;
-  const unsigned short int **return_value___ctype_b_loc$6;
-  char *tmp_post$3;
-  char *tmp_post$4;
-  char *tmp_post$9;
+  char *tmp_post_1;
+  char *tmp_post_2;
+  _Bool tmp_if_expr_7;
+  const unsigned short int **return_value___ctype_b_loc_6;
+  char *tmp_post_3;
+  char *tmp_post_4;
+  char *tmp_post_9;
   while(!((signed int)*p == 0))
   {
     if(p >= arg + (signed long int)len)
@@ -9859,11 +9859,11 @@ signed int http_argument_urldecode(char *arg)
 
     if(!((signed int)*p == 37))
     {
-      tmp_post$1 = in;
+      tmp_post_1 = in;
       in = in + 1l;
-      tmp_post$2 = p;
+      tmp_post_2 = p;
       p = p + 1l;
-      *tmp_post$1 = *tmp_post$2;
+      *tmp_post_1 = *tmp_post_2;
     }
 
     else
@@ -9871,23 +9871,23 @@ signed int http_argument_urldecode(char *arg)
       if(p + 2l >= arg + (signed long int)len)
         return 0;
 
-      const unsigned short int **return_value___ctype_b_loc$5;
-      return_value___ctype_b_loc$5=__ctype_b_loc();
-      if((4096 & (signed int)(*return_value___ctype_b_loc$5)[(signed long int)(signed int)p[1l]]) == 0)
-        tmp_if_expr$7 = (_Bool)1;
+      const unsigned short int **return_value___ctype_b_loc_5;
+      return_value___ctype_b_loc_5=__ctype_b_loc();
+      if((4096 & (signed int)(*return_value___ctype_b_loc_5)[(signed long int)(signed int)p[1l]]) == 0)
+        tmp_if_expr_7 = (_Bool)1;
 
       else
       {
-        return_value___ctype_b_loc$6=__ctype_b_loc();
-        tmp_if_expr$7 = !(((signed int)(*return_value___ctype_b_loc$6)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)4096) != 0) ? (_Bool)1 : (_Bool)0;
+        return_value___ctype_b_loc_6=__ctype_b_loc();
+        tmp_if_expr_7 = !(((signed int)(*return_value___ctype_b_loc_6)[(signed long int)(signed int)p[(signed long int)2]] & (signed int)(unsigned short int)4096) != 0) ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$7)
+      if(tmp_if_expr_7)
       {
-        tmp_post$3 = in;
+        tmp_post_3 = in;
         in = in + 1l;
-        tmp_post$4 = p;
+        tmp_post_4 = p;
         p = p + 1l;
-        *tmp_post$3 = *tmp_post$4;
+        *tmp_post_3 = *tmp_post_4;
       }
 
       else
@@ -9897,15 +9897,15 @@ signed int http_argument_urldecode(char *arg)
         h[(signed long int)2] = p[(signed long int)1];
         h[(signed long int)3] = p[(signed long int)2];
         h[(signed long int)4] = (char)0;
-        signed long long int return_value_kore_strtonum$8;
-        return_value_kore_strtonum$8=kore_strtonum(h, 16, (signed long long int)0, (signed long long int)255, &err);
-        v = (unsigned char)return_value_kore_strtonum$8;
+        signed long long int return_value_kore_strtonum_8;
+        return_value_kore_strtonum_8=kore_strtonum(h, 16, (signed long long int)0, (signed long long int)255, &err);
+        v = (unsigned char)return_value_kore_strtonum_8;
         if(!(err == 1))
           return err;
 
-        tmp_post$9 = in;
+        tmp_post_9 = in;
         in = in + 1l;
-        *tmp_post$9 = (char)v;
+        *tmp_post_9 = (char)v;
         p = p + (signed long int)3;
       }
     }
@@ -9957,9 +9957,9 @@ char * http_body_text(struct http_request *req)
     data=kore_buf_release(req->http_body, &len);
     req->http_body = (struct kore_buf *)(void *)0;
     len = len + 1u;
-    void *return_value_kore_malloc$1;
-    return_value_kore_malloc$1=kore_malloc((unsigned long int)len);
-    text = (char *)return_value_kore_malloc$1;
+    void *return_value_kore_malloc_1;
+    return_value_kore_malloc_1=kore_malloc((unsigned long int)len);
+    text = (char *)return_value_kore_malloc_1;
     kore_strlcpy(text, (char *)data, (unsigned long int)len);
     kore_mem_free((void *)data);
     return text;
@@ -9995,9 +9995,9 @@ static void http_error_response(struct connection *c, struct spdy_stream *s, sig
 static void http_file_add(struct http_request *req, const char *name, const char *filename, unsigned char *data, unsigned int len)
 {
   struct http_file *f;
-  void *return_value_kore_malloc$1;
-  return_value_kore_malloc$1=kore_malloc(sizeof(struct http_file) /*48ul*/ );
-  f = (struct http_file *)return_value_kore_malloc$1;
+  void *return_value_kore_malloc_1;
+  return_value_kore_malloc_1=kore_malloc(sizeof(struct http_file) /*48ul*/ );
+  f = (struct http_file *)return_value_kore_malloc_1;
   f->len = len;
   f->data = data;
   f->name=kore_strdup(name);
@@ -10019,9 +10019,9 @@ signed int http_file_lookup(struct http_request *req, const char *name, char **f
   struct http_file *f = (&req->files)->tqh_first;
   for( ; !(f == ((struct http_file *)NULL)); f = f->list.tqe_next)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(f->name, name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(f->name, name);
+    if(return_value_strcmp_1 == 0)
     {
       *len = f->len;
       *data = f->data;
@@ -10061,25 +10061,25 @@ signed int http_header_recv(struct netbuf *nb)
   char *p;
   char *headers[25l];
   struct connection *c = (struct connection *)nb->owner;
-  _Bool tmp_if_expr$5;
-  signed int return_value_strncasecmp$4;
-  _Bool tmp_if_expr$6;
-  char *tmp_post$8;
-  signed int return_value_strcasecmp$10;
+  _Bool tmp_if_expr_5;
+  signed int return_value_strncasecmp_4;
+  _Bool tmp_if_expr_6;
+  char *tmp_post_8;
+  signed int return_value_strcasecmp_10;
   if(!(nb->b_len >= 4u))
     return 1;
 
   else
   {
     skip = 4;
-    void *return_value_kore_mem_find$1;
-    return_value_kore_mem_find$1=kore_mem_find((void *)nb->buf, (unsigned long int)nb->s_off, (void *)"\r\n\r\n", (unsigned int)4);
-    end_headers = (unsigned char *)return_value_kore_mem_find$1;
+    void *return_value_kore_mem_find_1;
+    return_value_kore_mem_find_1=kore_mem_find((void *)nb->buf, (unsigned long int)nb->s_off, (void *)"\r\n\r\n", (unsigned int)4);
+    end_headers = (unsigned char *)return_value_kore_mem_find_1;
     if(end_headers == ((unsigned char *)NULL))
     {
-      void *return_value_kore_mem_find$2;
-      return_value_kore_mem_find$2=kore_mem_find((void *)nb->buf, (unsigned long int)nb->s_off, (void *)"\n\n", (unsigned int)2);
-      end_headers = (unsigned char *)return_value_kore_mem_find$2;
+      void *return_value_kore_mem_find_2;
+      return_value_kore_mem_find_2=kore_mem_find((void *)nb->buf, (unsigned long int)nb->s_off, (void *)"\n\n", (unsigned int)2);
+      end_headers = (unsigned char *)return_value_kore_mem_find_2;
       if(end_headers == ((unsigned char *)NULL))
         return 1;
 
@@ -10114,9 +10114,9 @@ signed int http_header_recv(struct netbuf *nb)
         i = 0;
         for( ; !(i >= h); i = i + 1)
         {
-          signed int return_value_strncasecmp$3;
-          return_value_strncasecmp$3=strncasecmp(headers[(signed long int)i], "host", (unsigned long int)4);
-          if(return_value_strncasecmp$3 == 0)
+          signed int return_value_strncasecmp_3;
+          return_value_strncasecmp_3=strncasecmp(headers[(signed long int)i], "host", (unsigned long int)4);
+          if(return_value_strncasecmp_3 == 0)
           {
             v=kore_split_string(headers[(signed long int)i], ":", host, (unsigned long int)3);
             if(!(v == 2))
@@ -10126,19 +10126,19 @@ signed int http_header_recv(struct netbuf *nb)
             }
 
             if(!(host[1l] - host[0l] == 5l))
-              tmp_if_expr$5 = (_Bool)1;
+              tmp_if_expr_5 = (_Bool)1;
 
             else
             {
-              return_value_strncasecmp$4=strncasecmp(host[(signed long int)0], "host", (unsigned long int)4);
-              tmp_if_expr$5 = return_value_strncasecmp$4 != 0 ? (_Bool)1 : (_Bool)0;
+              return_value_strncasecmp_4=strncasecmp(host[(signed long int)0], "host", (unsigned long int)4);
+              tmp_if_expr_5 = return_value_strncasecmp_4 != 0 ? (_Bool)1 : (_Bool)0;
             }
-            if(tmp_if_expr$5)
-              tmp_if_expr$6 = (_Bool)1;
+            if(tmp_if_expr_5)
+              tmp_if_expr_6 = (_Bool)1;
 
             else
-              tmp_if_expr$6 = host[(signed long int)1] == ((char *)NULL) ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$6)
+              tmp_if_expr_6 = host[(signed long int)1] == ((char *)NULL) ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_6)
             {
               http_error_response(c, (struct spdy_stream *)(void *)0, 400);
               return 1;
@@ -10158,9 +10158,9 @@ signed int http_header_recv(struct netbuf *nb)
 
         else
         {
-          signed int return_value_http_request_new$7;
-          return_value_http_request_new$7=http_request_new(c, (struct spdy_stream *)(void *)0, host[(signed long int)1], request[(signed long int)0], request[(signed long int)1], request[(signed long int)2], &req);
-          if(return_value_http_request_new$7 == 0)
+          signed int return_value_http_request_new_7;
+          return_value_http_request_new_7=http_request_new(c, (struct spdy_stream *)(void *)0, host[(signed long int)1], request[(signed long int)0], request[(signed long int)1], request[(signed long int)2], &req);
+          if(return_value_http_request_new_7 == 0)
             return 1;
 
           else
@@ -10172,15 +10172,15 @@ signed int http_header_recv(struct netbuf *nb)
                 p=strchr(headers[(signed long int)i], 58);
                 if(!(p == ((char *)NULL)))
                 {
-                  tmp_post$8 = p;
+                  tmp_post_8 = p;
                   p = p + 1l;
-                  *tmp_post$8 = (char)0;
+                  *tmp_post_8 = (char)0;
                   if((signed int)*p == 32)
                     p = p + 1l;
 
-                  void *return_value_kore_pool_get$9;
-                  return_value_kore_pool_get$9=kore_pool_get(&http_header_pool);
-                  hdr = (struct http_header *)return_value_kore_pool_get$9;
+                  void *return_value_kore_pool_get_9;
+                  return_value_kore_pool_get_9=kore_pool_get(&http_header_pool);
+                  hdr = (struct http_header *)return_value_kore_pool_get_9;
                   hdr->header=kore_strdup(headers[(signed long int)i]);
                   hdr->value=kore_strdup(p);
                   do
@@ -10193,8 +10193,8 @@ signed int http_header_recv(struct netbuf *nb)
                   while((_Bool)0);
                   if(req->agent == ((char *)NULL))
                   {
-                    return_value_strcasecmp$10=strcasecmp(hdr->header, "user-agent");
-                    if(return_value_strcasecmp$10 == 0)
+                    return_value_strcasecmp_10=strcasecmp(hdr->header, "user-agent");
+                    if(return_value_strcasecmp_10 == 0)
                       req->agent=kore_strdup(hdr->value);
 
                   }
@@ -10205,18 +10205,18 @@ signed int http_header_recv(struct netbuf *nb)
 
             if(!((0x20 & (signed int)req->flags) == 0))
             {
-              signed int return_value_http_request_header$11;
-              return_value_http_request_header$11=http_request_header(req, "content-length", &p);
-              if(return_value_http_request_header$11 == 0)
+              signed int return_value_http_request_header_11;
+              return_value_http_request_header_11=http_request_header(req, "content-length", &p);
+              if(return_value_http_request_header_11 == 0)
               {
                 req->flags = req->flags | (unsigned char)0x02;
                 http_error_response(req->owner, (struct spdy_stream *)(void *)0, 411);
                 return 1;
               }
 
-              signed long long int return_value_kore_strtonum$12;
-              return_value_kore_strtonum$12=kore_strtonum(p, 10, (signed long long int)0, 0x7fffffffffffffffL, &v);
-              clen = (unsigned long int)return_value_kore_strtonum$12;
+              signed long long int return_value_kore_strtonum_12;
+              return_value_kore_strtonum_12=kore_strtonum(p, 10, (signed long long int)0, 0x7fffffffffffffffL, &v);
+              clen = (unsigned long int)return_value_kore_strtonum_12;
               if(v == 0)
               {
                 kore_mem_free((void *)p);
@@ -10342,9 +10342,9 @@ signed int http_populate_arguments(struct http_request *req)
     {
       if(!(val[1l] == ((char *)NULL)))
       {
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(val[(signed long int)1]);
-        len = (unsigned int)return_value_strlen$1;
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(val[(signed long int)1]);
+        len = (unsigned int)return_value_strlen_1;
         http_argument_add(req, val[(signed long int)0], (void *)val[(signed long int)1], len, 6);
         count = count + 1;
       }
@@ -10382,22 +10382,22 @@ signed int http_populate_multipart_form(struct http_request *req, signed int *v)
   char *opt[5l];
   char *name;
   *v = 0;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$9;
-  signed int return_value_memcmp$8;
-  const unsigned short int **return_value___ctype_b_loc$13;
-  const unsigned short int **return_value___ctype_b_loc$16;
-  unsigned long int tmp_if_expr$21;
-  unsigned long int return_value_strlen$19;
-  unsigned long int return_value_strlen$20;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_9;
+  signed int return_value_memcmp_8;
+  const unsigned short int **return_value___ctype_b_loc_13;
+  const unsigned short int **return_value___ctype_b_loc_16;
+  unsigned long int tmp_if_expr_21;
+  unsigned long int return_value_strlen_19;
+  unsigned long int return_value_strlen_20;
   if(!((signed int)req->method == 1))
     return 0;
 
   else
   {
-    signed int return_value_http_request_header$1;
-    return_value_http_request_header$1=http_request_header(req, "content-type", &type);
-    if(return_value_http_request_header$1 == 0)
+    signed int return_value_http_request_header_1;
+    return_value_http_request_header_1=http_request_header(req, "content-type", &type);
+    if(return_value_http_request_header_1 == 0)
       return 0;
 
     else
@@ -10411,9 +10411,9 @@ signed int http_populate_multipart_form(struct http_request *req, signed int *v)
 
       else
       {
-        signed int return_value_strcasecmp$2;
-        return_value_strcasecmp$2=strcasecmp(args[(signed long int)0], "multipart/form-data");
-        if(!(return_value_strcasecmp$2 == 0))
+        signed int return_value_strcasecmp_2;
+        return_value_strcasecmp_2=strcasecmp(args[(signed long int)0], "multipart/form-data");
+        if(!(return_value_strcasecmp_2 == 0))
         {
           kore_mem_free((void *)type);
           return 0;
@@ -10431,15 +10431,15 @@ signed int http_populate_multipart_form(struct http_request *req, signed int *v)
           else
           {
             val = val + 1l;
-            unsigned long int return_value_strlen$3;
-            return_value_strlen$3=strlen(val);
-            slen = (unsigned int)return_value_strlen$3;
-            void *return_value_kore_malloc$4;
-            return_value_kore_malloc$4=kore_malloc((unsigned long int)(slen + (unsigned int)3));
-            boundary = (char *)return_value_kore_malloc$4;
-            signed int return_value_kore_snprintf$5;
-            return_value_kore_snprintf$5=kore_snprintf(boundary, (unsigned long int)(slen + (unsigned int)3), &l, "--%s", val);
-            if(return_value_kore_snprintf$5 == 0)
+            unsigned long int return_value_strlen_3;
+            return_value_strlen_3=strlen(val);
+            slen = (unsigned int)return_value_strlen_3;
+            void *return_value_kore_malloc_4;
+            return_value_kore_malloc_4=kore_malloc((unsigned long int)(slen + (unsigned int)3));
+            boundary = (char *)return_value_kore_malloc_4;
+            signed int return_value_kore_snprintf_5;
+            return_value_kore_snprintf_5=kore_snprintf(boundary, (unsigned long int)(slen + (unsigned int)3), &l, "--%s", val);
+            if(return_value_kore_snprintf_5 == 0)
             {
               kore_mem_free((void *)boundary);
               kore_mem_free((void *)type);
@@ -10461,11 +10461,11 @@ signed int http_populate_multipart_form(struct http_request *req, signed int *v)
               {
                 end = (req->multipart_body + (signed long int)blen) - (signed long int)2;
                 if(!(end >= req->multipart_body))
-                  tmp_if_expr$6 = (_Bool)1;
+                  tmp_if_expr_6 = (_Bool)1;
 
                 else
-                  tmp_if_expr$6 = end - (signed long int)2 < req->multipart_body ? (_Bool)1 : (_Bool)0;
-                if(tmp_if_expr$6)
+                  tmp_if_expr_6 = end - (signed long int)2 < req->multipart_body ? (_Bool)1 : (_Bool)0;
+                if(tmp_if_expr_6)
                 {
                   kore_mem_free((void *)boundary);
                   return 0;
@@ -10473,17 +10473,17 @@ signed int http_populate_multipart_form(struct http_request *req, signed int *v)
 
                 else
                 {
-                  signed int return_value_memcmp$7;
-                  return_value_memcmp$7=memcmp((const void *)((end - (signed long int)slen) - (signed long int)2), (const void *)boundary, (unsigned long int)slen);
-                  if(!(return_value_memcmp$7 == 0))
-                    tmp_if_expr$9 = (_Bool)1;
+                  signed int return_value_memcmp_7;
+                  return_value_memcmp_7=memcmp((const void *)((end - (signed long int)slen) - (signed long int)2), (const void *)boundary, (unsigned long int)slen);
+                  if(!(return_value_memcmp_7 == 0))
+                    tmp_if_expr_9 = (_Bool)1;
 
                   else
                   {
-                    return_value_memcmp$8=memcmp((const void *)(end - (signed long int)2), (const void *)"--", (unsigned long int)2);
-                    tmp_if_expr$9 = return_value_memcmp$8 != 0 ? (_Bool)1 : (_Bool)0;
+                    return_value_memcmp_8=memcmp((const void *)(end - (signed long int)2), (const void *)"--", (unsigned long int)2);
+                    tmp_if_expr_9 = return_value_memcmp_8 != 0 ? (_Bool)1 : (_Bool)0;
                   }
-                  if(tmp_if_expr$9)
+                  if(tmp_if_expr_9)
                   {
                     kore_mem_free((void *)boundary);
                     return 0;
@@ -10494,9 +10494,9 @@ signed int http_populate_multipart_form(struct http_request *req, signed int *v)
                     s = req->multipart_body + (signed long int)slen + (signed long int)2;
                     while(!(s >= end))
                     {
-                      void *return_value_kore_mem_find$10;
-                      return_value_kore_mem_find$10=kore_mem_find((void *)s, (unsigned long int)(end - s), (void *)boundary, slen);
-                      e = (unsigned char *)return_value_kore_mem_find$10;
+                      void *return_value_kore_mem_find_10;
+                      return_value_kore_mem_find_10=kore_mem_find((void *)s, (unsigned long int)(end - s), (void *)boundary, slen);
+                      e = (unsigned char *)return_value_kore_mem_find_10;
                       if(e == ((unsigned char *)NULL))
                       {
                         kore_mem_free((void *)boundary);
@@ -10504,9 +10504,9 @@ signed int http_populate_multipart_form(struct http_request *req, signed int *v)
                       }
 
                       *(e - (signed long int)2) = (unsigned char)0;
-                      void *return_value_kore_mem_find$11;
-                      return_value_kore_mem_find$11=kore_mem_find((void *)s, (unsigned long int)((e - (signed long int)2) - s), (void *)"\r\n\r\n", (unsigned int)4);
-                      end_headers = (unsigned char *)return_value_kore_mem_find$11;
+                      void *return_value_kore_mem_find_11;
+                      return_value_kore_mem_find_11=kore_mem_find((void *)s, (unsigned long int)((e - (signed long int)2) - s), (void *)"\r\n\r\n", (unsigned int)4);
+                      end_headers = (unsigned char *)return_value_kore_mem_find_11;
                       if(end_headers == ((unsigned char *)NULL))
                       {
                         kore_mem_free((void *)boundary);
@@ -10522,15 +10522,15 @@ signed int http_populate_multipart_form(struct http_request *req, signed int *v)
                         c=kore_split_string(headers[(signed long int)i], ":", args, (unsigned long int)5);
                         if(c == 2)
                         {
-                          signed int return_value_strcasecmp$12;
-                          return_value_strcasecmp$12=strcasecmp(args[(signed long int)0], "content-disposition");
-                          if(return_value_strcasecmp$12 == 0)
+                          signed int return_value_strcasecmp_12;
+                          return_value_strcasecmp_12=strcasecmp(args[(signed long int)0], "content-disposition");
+                          if(return_value_strcasecmp_12 == 0)
                           {
                             d = args[(signed long int)1];
                             do
                             {
-                              return_value___ctype_b_loc$13=__ctype_b_loc();
-                              if((8192 & (signed int)(*return_value___ctype_b_loc$13)[(signed long int)(signed int)*d]) == 0)
+                              return_value___ctype_b_loc_13=__ctype_b_loc();
+                              if((8192 & (signed int)(*return_value___ctype_b_loc_13)[(signed long int)(signed int)*d]) == 0)
                                 break;
 
                               d = d + 1l;
@@ -10539,16 +10539,16 @@ signed int http_populate_multipart_form(struct http_request *req, signed int *v)
                             c=kore_split_string(d, ";", opt, (unsigned long int)5);
                             if(c >= 2)
                             {
-                              signed int return_value_strcasecmp$14;
-                              return_value_strcasecmp$14=strcasecmp(opt[(signed long int)0], "form-data");
-                              if(return_value_strcasecmp$14 == 0)
+                              signed int return_value_strcasecmp_14;
+                              return_value_strcasecmp_14=strcasecmp(opt[(signed long int)0], "form-data");
+                              if(return_value_strcasecmp_14 == 0)
                               {
                                 val=strchr(opt[(signed long int)1], 61);
                                 if(!(val == ((char *)NULL)))
                                 {
-                                  unsigned long int return_value_strlen$15;
-                                  return_value_strlen$15=strlen(val);
-                                  if(return_value_strlen$15 >= 3ul)
+                                  unsigned long int return_value_strlen_15;
+                                  return_value_strlen_15=strlen(val);
+                                  if(return_value_strlen_15 >= 3ul)
                                   {
                                     val = val + 1l;
                                     kore_strip_chars(val, (char)34, &name);
@@ -10564,32 +10564,32 @@ signed int http_populate_multipart_form(struct http_request *req, signed int *v)
                                       d = opt[(signed long int)2];
                                       do
                                       {
-                                        return_value___ctype_b_loc$16=__ctype_b_loc();
-                                        if((8192 & (signed int)(*return_value___ctype_b_loc$16)[(signed long int)(signed int)*d]) == 0)
+                                        return_value___ctype_b_loc_16=__ctype_b_loc();
+                                        if((8192 & (signed int)(*return_value___ctype_b_loc_16)[(signed long int)(signed int)*d]) == 0)
                                           break;
 
                                         d = d + 1l;
                                       }
                                       while((_Bool)1);
-                                      unsigned long int return_value_strlen$17;
-                                      return_value_strlen$17=strlen("filename=");
-                                      unsigned long int return_value_strlen$18;
-                                      return_value_strlen$18=strlen(d);
-                                      if(!(return_value_strlen$17 >= return_value_strlen$18))
+                                      unsigned long int return_value_strlen_17;
+                                      return_value_strlen_17=strlen("filename=");
+                                      unsigned long int return_value_strlen_18;
+                                      return_value_strlen_18=strlen(d);
+                                      if(!(return_value_strlen_17 >= return_value_strlen_18))
                                       {
-                                        return_value_strlen$19=strlen("filename=");
-                                        tmp_if_expr$21 = return_value_strlen$19;
+                                        return_value_strlen_19=strlen("filename=");
+                                        tmp_if_expr_21 = return_value_strlen_19;
                                       }
 
                                       else
                                       {
-                                        return_value_strlen$20=strlen(d);
-                                        tmp_if_expr$21 = return_value_strlen$20;
+                                        return_value_strlen_20=strlen(d);
+                                        tmp_if_expr_21 = return_value_strlen_20;
                                       }
-                                      len = (unsigned int)tmp_if_expr$21;
-                                      signed int return_value_strncasecmp$23;
-                                      return_value_strncasecmp$23=strncasecmp(d, "filename=", (unsigned long int)len);
-                                      if(return_value_strncasecmp$23 == 0)
+                                      len = (unsigned int)tmp_if_expr_21;
+                                      signed int return_value_strncasecmp_23;
+                                      return_value_strncasecmp_23=strncasecmp(d, "filename=", (unsigned long int)len);
+                                      if(return_value_strncasecmp_23 == 0)
                                       {
                                         val=strchr(d, 61);
                                         if(val == ((char *)NULL))
@@ -10600,9 +10600,9 @@ signed int http_populate_multipart_form(struct http_request *req, signed int *v)
 
                                         val = val + 1l;
                                         kore_strip_chars(val, (char)34, &fname);
-                                        unsigned long int return_value_strlen$22;
-                                        return_value_strlen$22=strlen(fname);
-                                        if(return_value_strlen$22 >= 1ul)
+                                        unsigned long int return_value_strlen_22;
+                                        return_value_strlen_22=strlen(fname);
+                                        if(return_value_strlen_22 >= 1ul)
                                         {
                                           *v = *v + 1;
                                           http_file_add(req, name, fname, data, (unsigned int)((e - (signed long int)2) - data));
@@ -10684,7 +10684,7 @@ void http_process_request(struct http_request *req, signed int retry_only)
   struct kore_module_handle *hdlr;
   signed int r;
   signed int (*cb)(struct http_request *);
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if((0x02 & (signed int)req->flags) == 0)
   {
     if(!(req->hdlr == ((struct kore_module_handle *)NULL)))
@@ -10699,11 +10699,11 @@ void http_process_request(struct http_request *req, signed int retry_only)
     else
     {
       if(!(req->hdlr == hdlr))
-        tmp_if_expr$1 = hdlr->auth != (struct kore_auth *)(void *)0 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = hdlr->auth != (struct kore_auth *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(tmp_if_expr_1)
         r=kore_auth_run(req, hdlr->auth);
 
       else
@@ -10787,9 +10787,9 @@ void http_request_free(struct http_request *req)
   for( ; !(t == ((struct kore_task *)NULL)); t = nt)
   {
     nt = t->rlist.le_next;
-    signed int return_value_kore_task_finished$1;
-    return_value_kore_task_finished$1=kore_task_finished(t);
-    if(return_value_kore_task_finished$1 == 0)
+    signed int return_value_kore_task_finished_1;
+    return_value_kore_task_finished_1=kore_task_finished(t);
+    if(return_value_kore_task_finished_1 == 0)
       pending_tasks = pending_tasks + 1;
 
     else
@@ -10942,16 +10942,16 @@ signed int http_request_header(struct http_request *req, const char *header, cha
     hdr = (&req->req_headers)->tqh_first;
     for( ; !(hdr == ((struct http_header *)NULL)); hdr = hdr->list.tqe_next)
     {
-      signed int return_value_strcasecmp$3;
-      return_value_strcasecmp$3=strcasecmp(hdr->header, header);
-      if(return_value_strcasecmp$3 == 0)
+      signed int return_value_strcasecmp_3;
+      return_value_strcasecmp_3=strcasecmp(hdr->header, header);
+      if(return_value_strcasecmp_3 == 0)
       {
-        unsigned long int return_value_strlen$1;
-        return_value_strlen$1=strlen(hdr->value);
-        r = (signed int)(return_value_strlen$1 + (unsigned long int)1);
-        void *return_value_kore_malloc$2;
-        return_value_kore_malloc$2=kore_malloc((unsigned long int)r);
-        *out = (char *)return_value_kore_malloc$2;
+        unsigned long int return_value_strlen_1;
+        return_value_strlen_1=strlen(hdr->value);
+        r = (signed int)(return_value_strlen_1 + (unsigned long int)1);
+        void *return_value_kore_malloc_2;
+        return_value_kore_malloc_2=kore_malloc((unsigned long int)r);
+        *out = (char *)return_value_kore_malloc_2;
         kore_strlcpy(*out, hdr->value, (unsigned long int)r);
         return 1;
       }
@@ -10973,11 +10973,11 @@ signed int http_request_new(struct connection *c, struct spdy_stream *s, const c
   unsigned long int hostlen;
   unsigned long int pathlen;
   hostlen=strlen(host);
-  signed int return_value_strcasecmp$5;
-  signed int return_value_strcasecmp$4;
-  signed int return_value_strcasecmp$3;
-  signed int return_value_strcasecmp$2;
-  char *tmp_post$10;
+  signed int return_value_strcasecmp_5;
+  signed int return_value_strcasecmp_4;
+  signed int return_value_strcasecmp_3;
+  signed int return_value_strcasecmp_2;
+  char *tmp_post_10;
   if(hostlen >= 253ul)
   {
     http_error_response(c, s, 500);
@@ -10995,9 +10995,9 @@ signed int http_request_new(struct connection *c, struct spdy_stream *s, const c
 
     else
     {
-      signed int return_value_strcasecmp$1;
-      return_value_strcasecmp$1=strcasecmp(version, "http/1.1");
-      if(!(return_value_strcasecmp$1 == 0))
+      signed int return_value_strcasecmp_1;
+      return_value_strcasecmp_1=strcasecmp(version, "http/1.1");
+      if(!(return_value_strcasecmp_1 == 0))
       {
         http_error_response(c, s, 505);
         return 0;
@@ -11005,9 +11005,9 @@ signed int http_request_new(struct connection *c, struct spdy_stream *s, const c
 
       else
       {
-        signed int return_value_strcasecmp$6;
-        return_value_strcasecmp$6=strcasecmp(method, "get");
-        if(return_value_strcasecmp$6 == 0)
+        signed int return_value_strcasecmp_6;
+        return_value_strcasecmp_6=strcasecmp(method, "get");
+        if(return_value_strcasecmp_6 == 0)
         {
           m = 0;
           flags = 0x01;
@@ -11015,8 +11015,8 @@ signed int http_request_new(struct connection *c, struct spdy_stream *s, const c
 
         else
         {
-          return_value_strcasecmp$5=strcasecmp(method, "delete");
-          if(return_value_strcasecmp$5 == 0)
+          return_value_strcasecmp_5=strcasecmp(method, "delete");
+          if(return_value_strcasecmp_5 == 0)
           {
             m = 3;
             flags = 0x01;
@@ -11024,8 +11024,8 @@ signed int http_request_new(struct connection *c, struct spdy_stream *s, const c
 
           else
           {
-            return_value_strcasecmp$4=strcasecmp(method, "post");
-            if(return_value_strcasecmp$4 == 0)
+            return_value_strcasecmp_4=strcasecmp(method, "post");
+            if(return_value_strcasecmp_4 == 0)
             {
               m = 1;
               flags = 0x20;
@@ -11033,8 +11033,8 @@ signed int http_request_new(struct connection *c, struct spdy_stream *s, const c
 
             else
             {
-              return_value_strcasecmp$3=strcasecmp(method, "put");
-              if(return_value_strcasecmp$3 == 0)
+              return_value_strcasecmp_3=strcasecmp(method, "put");
+              if(return_value_strcasecmp_3 == 0)
               {
                 m = 2;
                 flags = 0x20;
@@ -11042,8 +11042,8 @@ signed int http_request_new(struct connection *c, struct spdy_stream *s, const c
 
               else
               {
-                return_value_strcasecmp$2=strcasecmp(method, "head");
-                if(return_value_strcasecmp$2 == 0)
+                return_value_strcasecmp_2=strcasecmp(method, "head");
+                if(return_value_strcasecmp_2 == 0)
                 {
                   m = 4;
                   flags = 0x01;
@@ -11058,9 +11058,9 @@ signed int http_request_new(struct connection *c, struct spdy_stream *s, const c
             }
           }
         }
-        void *return_value_kore_pool_get$7;
-        return_value_kore_pool_get$7=kore_pool_get(&http_request_pool);
-        req = (struct http_request *)return_value_kore_pool_get$7;
+        void *return_value_kore_pool_get_7;
+        return_value_kore_pool_get_7=kore_pool_get(&http_request_pool);
+        req = (struct http_request *)return_value_kore_pool_get_7;
         req->end = (unsigned long int)0;
         req->total = (unsigned long int)0;
         req->start = (unsigned long int)0;
@@ -11080,22 +11080,22 @@ signed int http_request_new(struct connection *c, struct spdy_stream *s, const c
         if(!(p == ((char *)NULL)))
           *p = (char)0;
 
-        void *return_value_kore_pool_get$8;
-        return_value_kore_pool_get$8=kore_pool_get(&http_host_pool);
-        req->host = (char *)return_value_kore_pool_get$8;
+        void *return_value_kore_pool_get_8;
+        return_value_kore_pool_get_8=kore_pool_get(&http_host_pool);
+        req->host = (char *)return_value_kore_pool_get_8;
         memcpy((void *)req->host, (const void *)host, hostlen);
         req->host[(signed long int)hostlen] = (char)0;
-        void *return_value_kore_pool_get$9;
-        return_value_kore_pool_get$9=kore_pool_get(&http_path_pool);
-        req->path = (char *)return_value_kore_pool_get$9;
+        void *return_value_kore_pool_get_9;
+        return_value_kore_pool_get_9=kore_pool_get(&http_path_pool);
+        req->path = (char *)return_value_kore_pool_get_9;
         memcpy((void *)req->path, (const void *)path, pathlen);
         req->path[(signed long int)pathlen] = (char)0;
         req->query_string=strchr(req->path, 63);
         if(!(req->query_string == ((char *)NULL)))
         {
-          tmp_post$10 = req->query_string;
+          tmp_post_10 = req->query_string;
           req->query_string = req->query_string + 1l;
-          *tmp_post$10 = (char)0;
+          *tmp_post_10 = (char)0;
         }
 
         do
@@ -11124,9 +11124,9 @@ signed int http_request_new(struct connection *c, struct spdy_stream *s, const c
         while((_Bool)0);
         if(!(s == ((struct spdy_stream *)NULL)))
         {
-          signed int return_value_http_request_header$11;
-          return_value_http_request_header$11=http_request_header(req, "user-agent", &req->agent);
-          if(return_value_http_request_header$11 == 0)
+          signed int return_value_http_request_header_11;
+          return_value_http_request_header_11=http_request_header(req, "user-agent", &req->agent);
+          if(return_value_http_request_header_11 == 0)
             req->agent=kore_strdup("unknown");
 
         }
@@ -11252,9 +11252,9 @@ void http_response(struct http_request *req, signed int status, void *d, unsigne
 void http_response_header(struct http_request *req, const char *header, const char *value)
 {
   struct http_header *hdr;
-  void *return_value_kore_pool_get$1;
-  return_value_kore_pool_get$1=kore_pool_get(&http_header_pool);
-  hdr = (struct http_header *)return_value_kore_pool_get$1;
+  void *return_value_kore_pool_get_1;
+  return_value_kore_pool_get_1=kore_pool_get(&http_header_pool);
+  hdr = (struct http_header *)return_value_kore_pool_get_1;
   hdr->header=kore_strdup(header);
   hdr->value=kore_strdup(value);
   do
@@ -11275,32 +11275,32 @@ static void http_response_normal(struct http_request *req, struct connection *c,
   char *conn;
   signed int connection_close;
   header_buf->offset = (unsigned long int)0;
-  const char *return_value_http_status_text$1;
-  return_value_http_status_text$1=http_status_text(status);
-  kore_buf_appendf(header_buf, "HTTP/1.1 %d %s\r\n", status, return_value_http_status_text$1);
+  const char *return_value_http_status_text_1;
+  return_value_http_status_text_1=http_status_text(status);
+  kore_buf_appendf(header_buf, "HTTP/1.1 %d %s\r\n", status, return_value_http_status_text_1);
   kore_buf_append(header_buf, (void *)http_version, (unsigned int)http_version_len);
   if(!((0x40 & (signed int)c->flags) == 0))
     connection_close = 1;
 
   else
     connection_close = 0;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcasecmp$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcasecmp_2;
   if(connection_close == 0 && !(req == ((struct http_request *)NULL)))
   {
-    signed int return_value_http_request_header$4;
-    return_value_http_request_header$4=http_request_header(req, "connection", &conn);
-    if(!(return_value_http_request_header$4 == 0))
+    signed int return_value_http_request_header_4;
+    return_value_http_request_header_4=http_request_header(req, "connection", &conn);
+    if(!(return_value_http_request_header_4 == 0))
     {
       if((signed int)*conn == 99)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)*conn == 67 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)*conn == 67 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
       {
-        return_value_strcasecmp$2=strcasecmp(conn, "close");
-        if(return_value_strcasecmp$2 == 0)
+        return_value_strcasecmp_2=strcasecmp(conn, "close");
+        if(return_value_strcasecmp_2 == 0)
           connection_close = 1;
 
       }
@@ -11368,9 +11368,9 @@ static void http_response_spdy(struct http_request *req, struct connection *c, s
   unsigned char *htext;
   struct spdy_header_block *hblock;
   char sbuf[512l];
-  const char *return_value_http_status_text$1;
-  return_value_http_status_text$1=http_status_text(status);
-  snprintf(sbuf, sizeof(char [512l]) /*512ul*/ , "%d %s", status, return_value_http_status_text$1);
+  const char *return_value_http_status_text_1;
+  return_value_http_status_text_1=http_status_text(status);
+  snprintf(sbuf, sizeof(char [512l]) /*512ul*/ , "%d %s", status, return_value_http_status_text_1);
   hblock=spdy_header_block_create(0);
   spdy_header_block_add(hblock, ":status", sbuf);
   spdy_header_block_add(hblock, ":version", "HTTP/1.1");
@@ -11389,9 +11389,9 @@ static void http_response_spdy(struct http_request *req, struct connection *c, s
   }
 
   htext=spdy_header_block_release(c, hblock, &hlen);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
   if(htext == ((unsigned char *)NULL))
     spdy_session_teardown(c, (unsigned char)2);
 
@@ -11414,23 +11414,23 @@ static void http_response_spdy(struct http_request *req, struct connection *c, s
     }
 
     if(!(req == ((struct http_request *)NULL)))
-      tmp_if_expr$2 = (signed int)req->method == 4 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)req->method == 4 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
+      tmp_if_expr_4 = (_Bool)1;
 
     else
     {
       if(len == 0u)
-        tmp_if_expr$3 = !(((signed int)s->flags & 0x40) != 0) ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = !(((signed int)s->flags & 0x40) != 0) ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$3 = (_Bool)0;
-      tmp_if_expr$4 = tmp_if_expr$3 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_3 = (_Bool)0;
+      tmp_if_expr_4 = tmp_if_expr_3 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$4)
+    if(tmp_if_expr_4)
     {
       spdy_frame_send(c, (unsigned short int)99, (unsigned char)0x01, (unsigned int)0, s, (unsigned int)0);
       spdy_stream_close(c, s, 0);
@@ -11734,11 +11734,11 @@ void kore_accesslog(struct http_request *req)
   memset((void *)logpacket.cn, 0, sizeof(char [65l]) /*65ul*/ );
   if(!(req->owner->cert == ((struct x509_st *)NULL)))
   {
-    struct X509_name_st *return_value_X509_get_subject_name$1;
-    return_value_X509_get_subject_name$1=X509_get_subject_name(req->owner->cert);
-    signed int return_value_X509_NAME_get_text_by_NID$2;
-    return_value_X509_NAME_get_text_by_NID$2=X509_NAME_get_text_by_NID(return_value_X509_get_subject_name$1, 13, logpacket.cn, (signed int)sizeof(char [65l]) /*65ul*/ );
-    if(return_value_X509_NAME_get_text_by_NID$2 == -1)
+    struct X509_name_st *return_value_X509_get_subject_name_1;
+    return_value_X509_get_subject_name_1=X509_get_subject_name(req->owner->cert);
+    signed int return_value_X509_NAME_get_text_by_NID_2;
+    return_value_X509_NAME_get_text_by_NID_2=X509_NAME_get_text_by_NID(return_value_X509_get_subject_name_1, 13, logpacket.cn, (signed int)sizeof(char [65l]) /*65ul*/ );
+    if(return_value_X509_NAME_get_text_by_NID_2 == -1)
       kore_log(4, "client cert without a CN?");
 
   }
@@ -11746,11 +11746,11 @@ void kore_accesslog(struct http_request *req)
   len=send(accesslog_fd[(signed long int)1], (const void *)&logpacket, sizeof(struct kore_log_packet) /*2608ul*/ , 0);
   if(len == -1l)
   {
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    kore_log(4, "kore_accesslog(): send(): %s", return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    kore_log(4, "kore_accesslog(): send(): %s", return_value_strerror_4);
   }
 
   else
@@ -11763,15 +11763,15 @@ void kore_accesslog(struct http_request *req)
 // file includes/kore.h line 421
 void kore_accesslog_init(void)
 {
-  signed int return_value_socketpair$3;
-  return_value_socketpair$3=socketpair(1, 1, 0, accesslog_fd);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  if(return_value_socketpair$3 == -1)
+  signed int return_value_socketpair_3;
+  return_value_socketpair_3=socketpair(1, 1, 0, accesslog_fd);
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  if(return_value_socketpair_3 == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fatal("kore_accesslog_init(): socketpair() %s", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fatal("kore_accesslog_init(): socketpair() %s", return_value_strerror_2);
   }
 
 }
@@ -11796,28 +11796,28 @@ signed int kore_accesslog_wait(void)
   pfd[(signed long int)0].events = (signed short int)0x001;
   pfd[(signed long int)0].revents = (signed short int)0;
   nfds=poll(pfd, (unsigned long int)1, 1000);
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(nfds == -1)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = ((signed int)pfd[(signed long int)0].revents & (0x008 | 0x010 | 0x020)) != 0 ? (_Bool)1 : (_Bool)0;
-  signed int *return_value___errno_location$1;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = ((signed int)pfd[(signed long int)0].revents & (0x008 | 0x010 | 0x020)) != 0 ? (_Bool)1 : (_Bool)0;
+  signed int *return_value___errno_location_1;
+  if(tmp_if_expr_4)
   {
     if(nfds == -1)
     {
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 4)
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 4)
         return 1;
 
     }
 
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    kore_log(4, "poll(): %s", return_value_strerror$3);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    kore_log(4, "poll(): %s", return_value_strerror_3);
     return 0;
   }
 
@@ -11829,11 +11829,11 @@ signed int kore_accesslog_wait(void)
     len=recv(accesslog_fd[(signed long int)0], (void *)&logpacket, sizeof(struct kore_log_packet) /*2608ul*/ , 0);
     if(len == -1l)
     {
-      signed int *return_value___errno_location$5;
-      return_value___errno_location$5=__errno_location();
-      char *return_value_strerror$6;
-      return_value_strerror$6=strerror(*return_value___errno_location$5);
-      kore_log(4, "recv(): %s", return_value_strerror$6);
+      signed int *return_value___errno_location_5;
+      return_value___errno_location_5=__errno_location();
+      char *return_value_strerror_6;
+      return_value_strerror_6=strerror(*return_value___errno_location_5);
+      kore_log(4, "recv(): %s", return_value_strerror_6);
       return 0;
     }
 
@@ -11886,9 +11886,9 @@ signed int kore_accesslog_wait(void)
 
         else
           cn = "none";
-        const char *return_value_inet_ntop$7;
-        return_value_inet_ntop$7=inet_ntop((signed int)logpacket.addrtype, (const void *)&logpacket.addr, addr, (unsigned int)sizeof(char [46l]) /*46ul*/ );
-        if(return_value_inet_ntop$7 == ((const char *)NULL))
+        const char *return_value_inet_ntop_7;
+        return_value_inet_ntop_7=inet_ntop((signed int)logpacket.addrtype, (const void *)&logpacket.addr, addr, (unsigned int)sizeof(char [46l]) /*46ul*/ );
+        if(return_value_inet_ntop_7 == ((const char *)NULL))
           kore_strlcpy(addr, "unknown", sizeof(char [46l]) /*46ul*/ );
 
         time(&now);
@@ -11906,11 +11906,11 @@ signed int kore_accesslog_wait(void)
           if(len == -1l)
           {
             free((void *)buf);
-            signed int *return_value___errno_location$8;
-            return_value___errno_location$8=__errno_location();
-            char *return_value_strerror$9;
-            return_value_strerror$9=strerror(*return_value___errno_location$8);
-            kore_log(4, "kore_accesslog_wait(): write(): %s", return_value_strerror$9);
+            signed int *return_value___errno_location_8;
+            return_value___errno_location_8=__errno_location();
+            char *return_value_strerror_9;
+            return_value_strerror_9=strerror(*return_value___errno_location_8);
+            kore_log(4, "kore_accesslog_wait(): write(): %s", return_value_strerror_9);
             return 0;
           }
 
@@ -11945,12 +11945,12 @@ static signed int kore_auth_cookie(struct http_request *req, struct kore_auth *a
   char *c;
   char *cookie;
   char *cookies[10l];
-  signed int return_value_http_request_header$1;
-  return_value_http_request_header$1=http_request_header(req, "cookie", &cookie);
-  const unsigned short int **return_value___ctype_b_loc$2;
-  unsigned long int tmp_if_expr$5;
-  unsigned long int return_value_strlen$4;
-  if(return_value_http_request_header$1 == 0)
+  signed int return_value_http_request_header_1;
+  return_value_http_request_header_1=http_request_header(req, "cookie", &cookie);
+  const unsigned short int **return_value___ctype_b_loc_2;
+  unsigned long int tmp_if_expr_5;
+  unsigned long int return_value_strlen_4;
+  if(return_value_http_request_header_1 == 0)
     return 0;
 
   else
@@ -11963,27 +11963,27 @@ static signed int kore_auth_cookie(struct http_request *req, struct kore_auth *a
       c = cookies[(signed long int)i];
       do
       {
-        return_value___ctype_b_loc$2=__ctype_b_loc();
-        if((8192 & (signed int)(*return_value___ctype_b_loc$2)[(signed long int)(signed int)*c]) == 0)
+        return_value___ctype_b_loc_2=__ctype_b_loc();
+        if((8192 & (signed int)(*return_value___ctype_b_loc_2)[(signed long int)(signed int)*c]) == 0)
           break;
 
         c = c + 1l;
       }
       while((_Bool)1);
-      unsigned long int return_value_strlen$3;
-      return_value_strlen$3=strlen(cookies[(signed long int)i]);
-      if(!(slen >= return_value_strlen$3))
-        tmp_if_expr$5 = slen;
+      unsigned long int return_value_strlen_3;
+      return_value_strlen_3=strlen(cookies[(signed long int)i]);
+      if(!(slen >= return_value_strlen_3))
+        tmp_if_expr_5 = slen;
 
       else
       {
-        return_value_strlen$4=strlen(cookies[(signed long int)i]);
-        tmp_if_expr$5 = return_value_strlen$4;
+        return_value_strlen_4=strlen(cookies[(signed long int)i]);
+        tmp_if_expr_5 = return_value_strlen_4;
       }
-      len = tmp_if_expr$5;
-      signed int return_value_strncmp$6;
-      return_value_strncmp$6=strncmp(c, auth->value, len);
-      if(return_value_strncmp$6 == 0)
+      len = tmp_if_expr_5;
+      signed int return_value_strncmp_6;
+      return_value_strncmp_6=strncmp(c, auth->value, len);
+      if(return_value_strncmp_6 == 0)
         break;
 
     }
@@ -12020,9 +12020,9 @@ static signed int kore_auth_header(struct http_request *req, struct kore_auth *a
 {
   signed int r;
   char *header;
-  signed int return_value_http_request_header$1;
-  return_value_http_request_header$1=http_request_header(req, auth->value, &header);
-  if(return_value_http_request_header$1 == 0)
+  signed int return_value_http_request_header_1;
+  return_value_http_request_header_1=http_request_header(req, auth->value, &header);
+  if(return_value_http_request_header_1 == 0)
     return 0;
 
   else
@@ -12052,9 +12052,9 @@ struct kore_auth * kore_auth_lookup(const char *name)
   struct kore_auth *auth = (&auth_list)->tqh_first;
   for( ; !(auth == ((struct kore_auth *)NULL)); auth = auth->list.tqe_next)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(auth->name, name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(auth->name, name);
+    if(return_value_strcmp_1 == 0)
       return auth;
 
   }
@@ -12072,9 +12072,9 @@ signed int kore_auth_new(const char *name)
 
   else
   {
-    void *return_value_kore_malloc$1;
-    return_value_kore_malloc$1=kore_malloc(sizeof(struct kore_auth) /*56ul*/ );
-    auth = (struct kore_auth *)return_value_kore_malloc$1;
+    void *return_value_kore_malloc_1;
+    return_value_kore_malloc_1=kore_malloc(sizeof(struct kore_auth) /*56ul*/ );
+    auth = (struct kore_auth *)return_value_kore_malloc_1;
     auth->type = (unsigned char)0;
     auth->value = (char *)(void *)0;
     auth->redirect = (char *)(void *)0;
@@ -12096,9 +12096,9 @@ signed int kore_auth_new(const char *name)
 // file src/auth.c line 159
 static signed int kore_auth_request(struct http_request *req, struct kore_auth *auth)
 {
-  signed int return_value_kore_validator_check$1;
-  return_value_kore_validator_check$1=kore_validator_check(req, auth->validator, (void *)req);
-  return return_value_kore_validator_check$1;
+  signed int return_value_kore_validator_check_1;
+  return_value_kore_validator_check_1=kore_validator_check(req, auth->validator, (void *)req);
+  return return_value_kore_validator_check_1;
 }
 
 // kore_auth_run
@@ -12178,9 +12178,9 @@ signed int kore_base64_decode(char *in, unsigned char **out, unsigned int *olen)
   b = (unsigned int)0;
   d = (unsigned char)0;
   c = 0;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(in);
-  len = (unsigned int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(in);
+  len = (unsigned int)return_value_strlen_1;
   res=kore_buf_create(len);
   idx = (unsigned int)0;
   for( ; !(idx >= len); idx = idx + 1u)
@@ -12257,9 +12257,9 @@ signed int kore_base64_encode(unsigned char *data, unsigned int len, char **out)
   {
     padding = (signed int)((unsigned int)3 - len % (unsigned int)3);
     plen = len + (unsigned int)padding;
-    void *return_value_kore_malloc$1;
-    return_value_kore_malloc$1=kore_malloc((unsigned long int)plen);
-    pdata = (unsigned char *)return_value_kore_malloc$1;
+    void *return_value_kore_malloc_1;
+    return_value_kore_malloc_1=kore_malloc((unsigned long int)plen);
+    pdata = (unsigned char *)return_value_kore_malloc_1;
     memcpy((void *)pdata, (const void *)data, (unsigned long int)len);
     memset((void *)(pdata + (signed long int)len), 0, (unsigned long int)padding);
   }
@@ -12274,13 +12274,13 @@ signed int kore_base64_encode(unsigned char *data, unsigned int len, char **out)
   i = 2;
   b = (unsigned int)0;
   idx = (unsigned int)0;
-  signed int tmp_post$2;
+  signed int tmp_post_2;
   for( ; !(idx >= plen); idx = idx + 1u)
   {
     b = b | (unsigned int)((signed int)pdata[(signed long int)idx] << i * 8);
-    tmp_post$2 = i;
+    tmp_post_2 = i;
     i = i - 1;
-    if(tmp_post$2 == 0)
+    if(tmp_post_2 == 0)
     {
       i = 3;
       for( ; i >= 0; i = i - 1)
@@ -12309,9 +12309,9 @@ signed int kore_base64_encode(unsigned char *data, unsigned int len, char **out)
     kore_mem_free((void *)pdata);
 
   pdata=kore_buf_release(res, &plen);
-  void *return_value_kore_malloc$3;
-  return_value_kore_malloc$3=kore_malloc((unsigned long int)(plen + (unsigned int)1));
-  *out = (char *)return_value_kore_malloc$3;
+  void *return_value_kore_malloc_3;
+  return_value_kore_malloc_3=kore_malloc((unsigned long int)(plen + (unsigned int)1));
+  *out = (char *)return_value_kore_malloc_3;
   kore_strlcpy(*out, (char *)pdata, (unsigned long int)(plen + (unsigned int)1));
   kore_mem_free((void *)pdata);
   return 1;
@@ -12324,9 +12324,9 @@ void kore_buf_append(struct kore_buf *buf, void *d, unsigned int len)
   if(buf->offset + (unsigned long int)len >= buf->length)
   {
     buf->length = buf->length + (unsigned long int)(len + (unsigned int)128);
-    void *return_value_kore_realloc$1;
-    return_value_kore_realloc$1=kore_realloc((void *)buf->data, buf->length);
-    buf->data = (unsigned char *)return_value_kore_realloc$1;
+    void *return_value_kore_realloc_1;
+    return_value_kore_realloc_1=kore_realloc((void *)buf->data, buf->length);
+    buf->data = (unsigned char *)return_value_kore_realloc_1;
   }
 
   memcpy((void *)(buf->data + (signed long int)buf->offset), d, (unsigned long int)len);
@@ -12385,12 +12385,12 @@ void kore_buf_appendv(struct kore_buf *buf, const char *fmt, void **args)
 struct kore_buf * kore_buf_create(unsigned int initial)
 {
   struct kore_buf *buf;
-  void *return_value_kore_malloc$1;
-  return_value_kore_malloc$1=kore_malloc(sizeof(struct kore_buf) /*24ul*/ );
-  buf = (struct kore_buf *)return_value_kore_malloc$1;
-  void *return_value_kore_malloc$2;
-  return_value_kore_malloc$2=kore_malloc((unsigned long int)initial);
-  buf->data = (unsigned char *)return_value_kore_malloc$2;
+  void *return_value_kore_malloc_1;
+  return_value_kore_malloc_1=kore_malloc(sizeof(struct kore_buf) /*24ul*/ );
+  buf = (struct kore_buf *)return_value_kore_malloc_1;
+  void *return_value_kore_malloc_2;
+  return_value_kore_malloc_2=kore_malloc((unsigned long int)initial);
+  buf->data = (unsigned char *)return_value_kore_malloc_2;
   buf->length = (unsigned long int)initial;
   buf->offset = (unsigned long int)0;
   return buf;
@@ -12434,18 +12434,18 @@ void kore_buf_replace_string(struct kore_buf *b, char *src, void *dst, unsigned 
     blen = (unsigned int)b->offset;
     nlen = (unsigned long int)blen + len;
     p = (char *)b->data;
-    void *return_value_kore_mem_find$1;
-    return_value_kore_mem_find$1=kore_mem_find((void *)(p + (signed long int)off), b->offset - (unsigned long int)off, (void *)src, (unsigned int)klen);
-    key = (char *)return_value_kore_mem_find$1;
+    void *return_value_kore_mem_find_1;
+    return_value_kore_mem_find_1=kore_mem_find((void *)(p + (signed long int)off), b->offset - (unsigned long int)off, (void *)src, (unsigned int)klen);
+    key = (char *)return_value_kore_mem_find_1;
     if(key == ((char *)NULL))
       break;
 
     end = key + (signed long int)klen;
     off = (unsigned int)(key - p);
     off2 = (unsigned int)((char *)(b->data + (signed long int)b->offset) - end);
-    void *return_value_kore_malloc$2;
-    return_value_kore_malloc$2=kore_malloc(nlen);
-    tmp = (char *)return_value_kore_malloc$2;
+    void *return_value_kore_malloc_2;
+    return_value_kore_malloc_2=kore_malloc(nlen);
+    tmp = (char *)return_value_kore_malloc_2;
     memcpy((void *)tmp, (const void *)p, (unsigned long int)off);
     if(!(dst == NULL))
       memcpy((void *)(tmp + (signed long int)off), dst, len);
@@ -12470,9 +12470,9 @@ void * kore_calloc(unsigned long int memb, unsigned long int len)
   if(!(18446744073709551615UL / memb >= len))
     fatal("kore_calloc: memb * len > SIZE_MAX");
 
-  void *return_value_kore_malloc$1;
-  return_value_kore_malloc$1=kore_malloc(memb * len);
-  return return_value_kore_malloc$1;
+  void *return_value_kore_malloc_1;
+  return_value_kore_malloc_1=kore_malloc(memb * len);
+  return return_value_kore_malloc_1;
 }
 
 // kore_cli_main
@@ -12487,9 +12487,9 @@ signed int kore_cli_main(signed int argc, char **argv)
   i = 0;
   for( ; !(cmds[(signed long int)i].name == ((const char *)NULL)); i = i + 1)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(argv[(signed long int)0], cmds[(signed long int)i].name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(argv[(signed long int)0], cmds[(signed long int)i].name);
+    if(return_value_strcmp_1 == 0)
     {
       argc = argc - 1;
       argv = argv + 1l;
@@ -12559,9 +12559,9 @@ signed int kore_connection_accept(struct listener *l, struct connection **out)
 
   else
   {
-    signed int return_value_kore_connection_nonblock$1;
-    return_value_kore_connection_nonblock$1=kore_connection_nonblock(c->fd);
-    if(return_value_kore_connection_nonblock$1 == 0)
+    signed int return_value_kore_connection_nonblock_1;
+    return_value_kore_connection_nonblock_1=kore_connection_nonblock(c->fd);
+    if(return_value_kore_connection_nonblock_1 == 0)
     {
       close(c->fd);
       kore_pool_put(&connection_pool, (void *)c);
@@ -12621,9 +12621,9 @@ signed int kore_connection_handle(struct connection *c)
   const unsigned char *data;
   char cn[65l];
   kore_connection_stop_idletimer(c);
-  signed int return_value_SSL_get_verify_mode$3;
-  signed long int return_value_SSL_get_verify_result$4;
-  signed int return_value_memcmp$5;
+  signed int return_value_SSL_get_verify_mode_3;
+  signed long int return_value_SSL_get_verify_result_4;
+  signed int return_value_memcmp_5;
   switch((signed int)c->state)
   {
     case 1:
@@ -12649,8 +12649,8 @@ signed int kore_connection_handle(struct connection *c)
         return 0;
       }
 
-      return_value_SSL_get_verify_mode$3=SSL_get_verify_mode(c->ssl);
-      if(!((0x01 & return_value_SSL_get_verify_mode$3) == 0))
+      return_value_SSL_get_verify_mode_3=SSL_get_verify_mode(c->ssl);
+      if(!((0x01 & return_value_SSL_get_verify_mode_3) == 0))
       {
         c->cert=SSL_get_peer_certificate(c->ssl);
         if(c->cert == ((struct x509_st *)NULL))
@@ -12659,11 +12659,11 @@ signed int kore_connection_handle(struct connection *c)
           return 0;
         }
 
-        struct X509_name_st *return_value_X509_get_subject_name$1;
-        return_value_X509_get_subject_name$1=X509_get_subject_name(c->cert);
-        signed int return_value_X509_NAME_get_text_by_NID$2;
-        return_value_X509_NAME_get_text_by_NID$2=X509_NAME_get_text_by_NID(return_value_X509_get_subject_name$1, 13, cn, (signed int)sizeof(char [65l]) /*65ul*/ );
-        if(return_value_X509_NAME_get_text_by_NID$2 == -1)
+        struct X509_name_st *return_value_X509_get_subject_name_1;
+        return_value_X509_get_subject_name_1=X509_get_subject_name(c->cert);
+        signed int return_value_X509_NAME_get_text_by_NID_2;
+        return_value_X509_NAME_get_text_by_NID_2=X509_NAME_get_text_by_NID(return_value_X509_get_subject_name_1, 13, cn, (signed int)sizeof(char [65l]) /*65ul*/ );
+        if(return_value_X509_NAME_get_text_by_NID_2 == -1)
         {
           kore_log(5, "no CN found in client certificate");
           return 0;
@@ -12671,17 +12671,17 @@ signed int kore_connection_handle(struct connection *c)
 
       }
 
-      return_value_SSL_get_verify_result$4=SSL_get_verify_result(c->ssl);
-      r = (signed int)return_value_SSL_get_verify_result$4;
+      return_value_SSL_get_verify_result_4=SSL_get_verify_result(c->ssl);
+      r = (signed int)return_value_SSL_get_verify_result_4;
       if(!(r == 0))
         return 0;
 
       SSL_get0_next_proto_negotiated(c->ssl, &data, &len);
       if(!(data == ((const unsigned char *)NULL)))
       {
-        signed int return_value_memcmp$6;
-        return_value_memcmp$6=memcmp((const void *)data, (const void *)"spdy/3", (unsigned long int)((unsigned int)6 < len ? (unsigned int)6 : len));
-        if(return_value_memcmp$6 == 0)
+        signed int return_value_memcmp_6;
+        return_value_memcmp_6=memcmp((const void *)data, (const void *)"spdy/3", (unsigned long int)((unsigned int)6 < len ? (unsigned int)6 : len));
+        if(return_value_memcmp_6 == 0)
         {
           c->proto = (unsigned char)1;
           c->idle_timer.length = spdy_idle_time;
@@ -12690,8 +12690,8 @@ signed int kore_connection_handle(struct connection *c)
 
         else
         {
-          return_value_memcmp$5=memcmp((const void *)data, (const void *)"http/1.1", (unsigned long int)((unsigned int)8 < len ? (unsigned int)8 : len));
-          if(return_value_memcmp$5 == 0)
+          return_value_memcmp_5=memcmp((const void *)data, (const void *)"http/1.1", (unsigned long int)((unsigned int)8 < len ? (unsigned int)8 : len));
+          if(return_value_memcmp_5 == 0)
           {
             c->proto = (unsigned char)2;
             if(!((signed int)http_keepalive_time == 0))
@@ -12722,18 +12722,18 @@ signed int kore_connection_handle(struct connection *c)
     {
       if(!((0x01 & (signed int)c->flags) == 0))
       {
-        signed int return_value_net_recv_flush$7;
-        return_value_net_recv_flush$7=net_recv_flush(c);
-        if(return_value_net_recv_flush$7 == 0)
+        signed int return_value_net_recv_flush_7;
+        return_value_net_recv_flush_7=net_recv_flush(c);
+        if(return_value_net_recv_flush_7 == 0)
           return 0;
 
       }
 
       if(!((0x02 & (signed int)c->flags) == 0))
       {
-        signed int return_value_net_send_flush$8;
-        return_value_net_send_flush$8=net_send_flush(c);
-        if(return_value_net_send_flush$8 == 0)
+        signed int return_value_net_send_flush_8;
+        return_value_net_send_flush_8=net_send_flush(c);
+        if(return_value_net_send_flush_8 == 0)
           return 0;
 
       }
@@ -12761,9 +12761,9 @@ void kore_connection_init(void)
 struct connection * kore_connection_new(void *owner)
 {
   struct connection *c;
-  void *return_value_kore_pool_get$1;
-  return_value_kore_pool_get$1=kore_pool_get(&connection_pool);
-  c = (struct connection *)return_value_kore_pool_get$1;
+  void *return_value_kore_pool_get_1;
+  return_value_kore_pool_get_1=kore_pool_get(&connection_pool);
+  c = (struct connection *)return_value_kore_pool_get_1;
   c->ssl = (struct ssl_st *)(void *)0;
   c->flags = (unsigned char)0;
   c->rnb = (struct netbuf *)(void *)0;
@@ -12817,17 +12817,17 @@ signed int kore_connection_nonblock(signed int fd)
   else
   {
     flags = flags | 04000;
-    signed int return_value_fcntl$1;
-    return_value_fcntl$1=fcntl(fd, 4, flags);
-    if(return_value_fcntl$1 == -1)
+    signed int return_value_fcntl_1;
+    return_value_fcntl_1=fcntl(fd, 4, flags);
+    if(return_value_fcntl_1 == -1)
       return 0;
 
     else
     {
       flags = 1;
-      signed int return_value_setsockopt$2;
-      return_value_setsockopt$2=setsockopt(fd, 6, 1, (const void *)(char *)&flags, (unsigned int)sizeof(signed int) /*4ul*/ );
-      if(return_value_setsockopt$2 == -1)
+      signed int return_value_setsockopt_2;
+      return_value_setsockopt_2=setsockopt(fd, 6, 1, (const void *)(char *)&flags, (unsigned int)sizeof(signed int) /*4ul*/ );
+      if(return_value_setsockopt_2 == -1)
         kore_log(5, "failed to set TCP_NODELAY on %d", fd);
 
       return 1;
@@ -12970,28 +12970,28 @@ signed long int kore_date_to_time(char *http_date)
   ltm=localtime(&t);
   sdup=kore_strdup(http_date);
   t = (signed long int)0;
-  signed int return_value_kore_split_string$1;
-  return_value_kore_split_string$1=kore_split_string(sdup, " ", args, (unsigned long int)7);
-  signed long long int return_value_kore_strtonum$2;
-  signed long long int return_value_kore_strtonum$4;
-  signed int return_value_kore_split_string$5;
-  signed long long int return_value_kore_strtonum$6;
-  signed long long int return_value_kore_strtonum$7;
-  signed long long int return_value_kore_strtonum$8;
-  signed long int return_value_mktime$9;
-  if(return_value_kore_split_string$1 == 6)
+  signed int return_value_kore_split_string_1;
+  return_value_kore_split_string_1=kore_split_string(sdup, " ", args, (unsigned long int)7);
+  signed long long int return_value_kore_strtonum_2;
+  signed long long int return_value_kore_strtonum_4;
+  signed int return_value_kore_split_string_5;
+  signed long long int return_value_kore_strtonum_6;
+  signed long long int return_value_kore_strtonum_7;
+  signed long long int return_value_kore_strtonum_8;
+  signed long int return_value_mktime_9;
+  if(return_value_kore_split_string_1 == 6)
   {
     memset((void *)&tm, 0, sizeof(struct tm) /*56ul*/ );
-    return_value_kore_strtonum$2=kore_strtonum(args[(signed long int)3], 10, (signed long long int)1900, (signed long long int)2068, &err);
-    tm.tm_year = (signed int)(return_value_kore_strtonum$2 - (signed long int)1900);
+    return_value_kore_strtonum_2=kore_strtonum(args[(signed long int)3], 10, (signed long long int)1900, (signed long long int)2068, &err);
+    tm.tm_year = (signed int)(return_value_kore_strtonum_2 - (signed long int)1900);
     if(!(err == 0))
     {
       i = 0;
       for( ; !(month_names[(signed long int)i].name == ((char *)NULL)); i = i + 1)
       {
-        signed int return_value_strcmp$3;
-        return_value_strcmp$3=strcmp(month_names[(signed long int)i].name, args[(signed long int)2]);
-        if(return_value_strcmp$3 == 0)
+        signed int return_value_strcmp_3;
+        return_value_strcmp_3=strcmp(month_names[(signed long int)i].name, args[(signed long int)2]);
+        if(return_value_strcmp_3 == 0)
         {
           tm.tm_mon = month_names[(signed long int)i].value;
           break;
@@ -13000,28 +13000,28 @@ signed long int kore_date_to_time(char *http_date)
       }
       if(!(month_names[(signed long int)i].name == ((char *)NULL)))
       {
-        return_value_kore_strtonum$4=kore_strtonum(args[(signed long int)1], 10, (signed long long int)1, (signed long long int)31, &err);
-        tm.tm_mday = (signed int)return_value_kore_strtonum$4;
+        return_value_kore_strtonum_4=kore_strtonum(args[(signed long int)1], 10, (signed long long int)1, (signed long long int)31, &err);
+        tm.tm_mday = (signed int)return_value_kore_strtonum_4;
         if(!(err == 0))
         {
-          return_value_kore_split_string$5=kore_split_string(args[(signed long int)4], ":", tbuf, (unsigned long int)5);
-          if(return_value_kore_split_string$5 == 3)
+          return_value_kore_split_string_5=kore_split_string(args[(signed long int)4], ":", tbuf, (unsigned long int)5);
+          if(return_value_kore_split_string_5 == 3)
           {
-            return_value_kore_strtonum$6=kore_strtonum(tbuf[(signed long int)0], 10, (signed long long int)0, (signed long long int)23, &err);
-            tm.tm_hour = (signed int)return_value_kore_strtonum$6;
+            return_value_kore_strtonum_6=kore_strtonum(tbuf[(signed long int)0], 10, (signed long long int)0, (signed long long int)23, &err);
+            tm.tm_hour = (signed int)return_value_kore_strtonum_6;
             if(!(err == 0))
             {
-              return_value_kore_strtonum$7=kore_strtonum(tbuf[(signed long int)1], 10, (signed long long int)0, (signed long long int)59, &err);
-              tm.tm_min = (signed int)return_value_kore_strtonum$7;
+              return_value_kore_strtonum_7=kore_strtonum(tbuf[(signed long int)1], 10, (signed long long int)0, (signed long long int)59, &err);
+              tm.tm_min = (signed int)return_value_kore_strtonum_7;
               if(!(err == 0))
               {
-                return_value_kore_strtonum$8=kore_strtonum(tbuf[(signed long int)2], 10, (signed long long int)0, (signed long long int)60, &err);
-                tm.tm_sec = (signed int)return_value_kore_strtonum$8;
+                return_value_kore_strtonum_8=kore_strtonum(tbuf[(signed long int)2], 10, (signed long long int)0, (signed long long int)60, &err);
+                tm.tm_sec = (signed int)return_value_kore_strtonum_8;
                 if(!(err == 0))
                 {
                   tm.tm_isdst = ltm->tm_isdst;
-                  return_value_mktime$9=mktime(&tm);
-                  t = return_value_mktime$9 + ltm->tm_gmtoff;
+                  return_value_mktime_9=mktime(&tm);
+                  t = return_value_mktime_9 + ltm->tm_gmtoff;
                   if(t == -1l)
                     t = (signed long int)0;
 
@@ -13097,9 +13097,9 @@ struct kore_domain * kore_domain_lookup(const char *domain)
   struct kore_domain *dom = (&domains)->tqh_first;
   for( ; !(dom == ((struct kore_domain *)NULL)); dom = dom->list.tqe_next)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(dom->domain, domain);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(dom->domain, domain);
+    if(return_value_strcmp_1 == 0)
       return dom;
 
   }
@@ -13111,16 +13111,16 @@ struct kore_domain * kore_domain_lookup(const char *domain)
 signed int kore_domain_new(char *domain)
 {
   struct kore_domain *dom;
-  struct kore_domain *return_value_kore_domain_lookup$1;
-  return_value_kore_domain_lookup$1=kore_domain_lookup(domain);
-  if(!(return_value_kore_domain_lookup$1 == ((struct kore_domain *)NULL)))
+  struct kore_domain *return_value_kore_domain_lookup_1;
+  return_value_kore_domain_lookup_1=kore_domain_lookup(domain);
+  if(!(return_value_kore_domain_lookup_1 == ((struct kore_domain *)NULL)))
     return 0;
 
   else
   {
-    void *return_value_kore_malloc$2;
-    return_value_kore_malloc$2=kore_malloc(sizeof(struct kore_domain) /*88ul*/ );
-    dom = (struct kore_domain *)return_value_kore_malloc$2;
+    void *return_value_kore_malloc_2;
+    return_value_kore_malloc_2=kore_malloc(sizeof(struct kore_domain) /*88ul*/ );
+    dom = (struct kore_domain *)return_value_kore_malloc_2;
     dom->accesslog = -1;
     dom->cafile = (char *)(void *)0;
     dom->certkey = (char *)(void *)0;
@@ -13181,40 +13181,40 @@ void kore_domain_sslstart(struct kore_domain *dom)
     }
   }
   dom->ssl_ctx=SSL_CTX_new(method);
-  unsigned long int return_value_ERR_get_error$1;
-  char *return_value_ERR_error_string$2;
+  unsigned long int return_value_ERR_get_error_1;
+  char *return_value_ERR_error_string_2;
   if(dom->ssl_ctx == ((struct ssl_ctx_st *)NULL))
   {
-    return_value_ERR_get_error$1=ERR_get_error();
-    return_value_ERR_error_string$2=ERR_error_string(return_value_ERR_get_error$1, (char *)(void *)0);
-    fatal("kore_domain_sslstart(): SSL_ctx_new(): %s", return_value_ERR_error_string$2);
+    return_value_ERR_get_error_1=ERR_get_error();
+    return_value_ERR_error_string_2=ERR_error_string(return_value_ERR_get_error_1, (char *)(void *)0);
+    fatal("kore_domain_sslstart(): SSL_ctx_new(): %s", return_value_ERR_error_string_2);
   }
 
-  signed int return_value_SSL_CTX_use_certificate_chain_file$5;
-  return_value_SSL_CTX_use_certificate_chain_file$5=SSL_CTX_use_certificate_chain_file(dom->ssl_ctx, dom->certfile);
-  if(return_value_SSL_CTX_use_certificate_chain_file$5 == 0)
+  signed int return_value_SSL_CTX_use_certificate_chain_file_5;
+  return_value_SSL_CTX_use_certificate_chain_file_5=SSL_CTX_use_certificate_chain_file(dom->ssl_ctx, dom->certfile);
+  if(return_value_SSL_CTX_use_certificate_chain_file_5 == 0)
   {
-    unsigned long int return_value_ERR_get_error$3;
-    return_value_ERR_get_error$3=ERR_get_error();
-    char *return_value_ERR_error_string$4;
-    return_value_ERR_error_string$4=ERR_error_string(return_value_ERR_get_error$3, (char *)(void *)0);
-    fatal("SSL_CTX_use_certificate_chain_file(%s): %s", dom->certfile, return_value_ERR_error_string$4);
+    unsigned long int return_value_ERR_get_error_3;
+    return_value_ERR_get_error_3=ERR_get_error();
+    char *return_value_ERR_error_string_4;
+    return_value_ERR_error_string_4=ERR_error_string(return_value_ERR_get_error_3, (char *)(void *)0);
+    fatal("SSL_CTX_use_certificate_chain_file(%s): %s", dom->certfile, return_value_ERR_error_string_4);
   }
 
-  signed int return_value_SSL_CTX_use_PrivateKey_file$8;
-  return_value_SSL_CTX_use_PrivateKey_file$8=SSL_CTX_use_PrivateKey_file(dom->ssl_ctx, dom->certkey, 1);
-  if(return_value_SSL_CTX_use_PrivateKey_file$8 == 0)
+  signed int return_value_SSL_CTX_use_PrivateKey_file_8;
+  return_value_SSL_CTX_use_PrivateKey_file_8=SSL_CTX_use_PrivateKey_file(dom->ssl_ctx, dom->certkey, 1);
+  if(return_value_SSL_CTX_use_PrivateKey_file_8 == 0)
   {
-    unsigned long int return_value_ERR_get_error$6;
-    return_value_ERR_get_error$6=ERR_get_error();
-    char *return_value_ERR_error_string$7;
-    return_value_ERR_error_string$7=ERR_error_string(return_value_ERR_get_error$6, (char *)(void *)0);
-    fatal("SSL_CTX_use_PrivateKey_file(%s): %s", dom->certkey, return_value_ERR_error_string$7);
+    unsigned long int return_value_ERR_get_error_6;
+    return_value_ERR_get_error_6=ERR_get_error();
+    char *return_value_ERR_error_string_7;
+    return_value_ERR_error_string_7=ERR_error_string(return_value_ERR_get_error_6, (char *)(void *)0);
+    fatal("SSL_CTX_use_PrivateKey_file(%s): %s", dom->certkey, return_value_ERR_error_string_7);
   }
 
-  signed int return_value_SSL_CTX_check_private_key$9;
-  return_value_SSL_CTX_check_private_key$9=SSL_CTX_check_private_key(dom->ssl_ctx);
-  if(return_value_SSL_CTX_check_private_key$9 == 0)
+  signed int return_value_SSL_CTX_check_private_key_9;
+  return_value_SSL_CTX_check_private_key_9=SSL_CTX_check_private_key(dom->ssl_ctx);
+  if(return_value_SSL_CTX_check_private_key_9 == 0)
     fatal("Public/Private key for %s do not match", dom->domain);
 
   if(tls_dhparam == ((struct dh_st *)NULL))
@@ -13230,18 +13230,18 @@ void kore_domain_sslstart(struct kore_domain *dom)
   }
 
   SSL_CTX_ctrl(dom->ssl_ctx, 32, 0x00020000L, (void *)0);
-  unsigned long int return_value_ERR_get_error$12;
-  char *return_value_ERR_error_string$13;
+  unsigned long int return_value_ERR_get_error_12;
+  char *return_value_ERR_error_string_13;
   if(!(dom->cafile == ((char *)NULL)))
   {
     certs=SSL_load_client_CA_file(dom->cafile);
     if(certs == ((struct stack_st_X509_NAME *)NULL))
     {
-      unsigned long int return_value_ERR_get_error$10;
-      return_value_ERR_get_error$10=ERR_get_error();
-      char *return_value_ERR_error_string$11;
-      return_value_ERR_error_string$11=ERR_error_string(return_value_ERR_get_error$10, (char *)(void *)0);
-      fatal("SSL_load_client_CA_file(%s): %s", dom->cafile, return_value_ERR_error_string$11);
+      unsigned long int return_value_ERR_get_error_10;
+      return_value_ERR_get_error_10=ERR_get_error();
+      char *return_value_ERR_error_string_11;
+      return_value_ERR_error_string_11=ERR_error_string(return_value_ERR_get_error_10, (char *)(void *)0);
+      fatal("SSL_load_client_CA_file(%s): %s", dom->cafile, return_value_ERR_error_string_11);
     }
 
     SSL_CTX_load_verify_locations(dom->ssl_ctx, dom->cafile, (const char *)(void *)0);
@@ -13251,17 +13251,17 @@ void kore_domain_sslstart(struct kore_domain *dom)
     store=SSL_CTX_get_cert_store(dom->ssl_ctx);
     if(store == ((struct x509_store_st *)NULL))
     {
-      return_value_ERR_get_error$12=ERR_get_error();
-      return_value_ERR_error_string$13=ERR_error_string(return_value_ERR_get_error$12, (char *)(void *)0);
-      fatal("SSL_CTX_get_cert_store(): %s", return_value_ERR_error_string$13);
+      return_value_ERR_get_error_12=ERR_get_error();
+      return_value_ERR_error_string_13=ERR_error_string(return_value_ERR_get_error_12, (char *)(void *)0);
+      fatal("SSL_CTX_get_cert_store(): %s", return_value_ERR_error_string_13);
     }
 
     X509_STORE_set_verify_cb(store, domain_x509_verify);
   }
 
-  unsigned long int return_value_strlen$14;
-  return_value_strlen$14=strlen("kore_ssl_sessionid");
-  SSL_CTX_set_session_id_context(dom->ssl_ctx, (unsigned char *)"kore_ssl_sessionid", (unsigned int)return_value_strlen$14);
+  unsigned long int return_value_strlen_14;
+  return_value_strlen_14=strlen("kore_ssl_sessionid");
+  SSL_CTX_set_session_id_context(dom->ssl_ctx, (unsigned char *)"kore_ssl_sessionid", (unsigned int)return_value_strlen_14);
   dom->ssl_ctx->freelist_max_len = (unsigned int)0;
   SSL_CTX_ctrl(dom->ssl_ctx, 33, 0x00000001L, (void *)0);
   if(tls_version == 2)
@@ -13332,11 +13332,11 @@ void * kore_malloc(unsigned long int len)
 
   mlen = sizeof(unsigned int) /*4ul*/  + len + sizeof(struct meminfo) /*2ul*/ ;
   ptr=malloc(mlen);
-  signed int *return_value___errno_location$1;
+  signed int *return_value___errno_location_1;
   if(ptr == NULL)
   {
-    return_value___errno_location$1=__errno_location();
-    fatal("kore_malloc(%d): %d", len, *return_value___errno_location$1);
+    return_value___errno_location_1=__errno_location();
+    fatal("kore_malloc(%d): %d", len, *return_value___errno_location_1);
   }
 
   plen = (unsigned int *)ptr;
@@ -13360,9 +13360,9 @@ void * kore_mem_find(void *src, unsigned long int slen, void *needle, unsigned i
       if(!(end - p >= (signed long int)len))
         return (void *)0;
 
-      signed int return_value_memcmp$1;
-      return_value_memcmp$1=memcmp((const void *)p, needle, (unsigned long int)len);
-      if(return_value_memcmp$1 == 0)
+      signed int return_value_memcmp_1;
+      return_value_memcmp_1=memcmp((const void *)p, needle, (unsigned long int)len);
+      if(return_value_memcmp_1 == 0)
         return (void *)p;
 
     }
@@ -13427,18 +13427,18 @@ struct kore_module_handle * kore_module_handler_find(const char *domain, const c
     for( ; !(hdlr == ((struct kore_module_handle *)NULL)); hdlr = hdlr->list.tqe_next)
       if(hdlr->type == 1)
       {
-        signed int return_value_strcmp$1;
-        return_value_strcmp$1=strcmp(hdlr->path, path);
-        if(return_value_strcmp$1 == 0)
+        signed int return_value_strcmp_1;
+        return_value_strcmp_1=strcmp(hdlr->path, path);
+        if(return_value_strcmp_1 == 0)
           return hdlr;
 
       }
 
       else
       {
-        signed int return_value_regexec$2;
-        return_value_regexec$2=regexec(&hdlr->rctx, path, (unsigned long int)0, (struct anonymous$57 *)(void *)0, 0);
-        if(return_value_regexec$2 == 0)
+        signed int return_value_regexec_2;
+        return_value_regexec_2=regexec(&hdlr->rctx, path, (unsigned long int)0, (struct anonymous_57 *)(void *)0, 0);
+        if(return_value_regexec_2 == 0)
           return hdlr;
 
       }
@@ -13476,9 +13476,9 @@ signed int kore_module_handler_new(const char *path, const char *domain, const c
 
       else
         ap = (struct kore_auth *)(void *)0;
-      void *return_value_kore_malloc$1;
-      return_value_kore_malloc$1=kore_malloc(sizeof(struct kore_module_handle) /*144ul*/ );
-      hdlr = (struct kore_module_handle *)return_value_kore_malloc$1;
+      void *return_value_kore_malloc_1;
+      return_value_kore_malloc_1=kore_malloc(sizeof(struct kore_module_handle) /*144ul*/ );
+      hdlr = (struct kore_module_handle *)return_value_kore_malloc_1;
       hdlr->auth = ap;
       hdlr->dom = dom;
       hdlr->errors = 0;
@@ -13494,9 +13494,9 @@ signed int kore_module_handler_new(const char *path, const char *domain, const c
       hdlr->func=kore_strdup(func);
       if(hdlr->type == 2)
       {
-        signed int return_value_regcomp$2;
-        return_value_regcomp$2=regcomp(&hdlr->rctx, hdlr->path, 1 | ((1 << 1) << 1) << 1);
-        if(!(return_value_regcomp$2 == 0))
+        signed int return_value_regcomp_2;
+        return_value_regcomp_2=regcomp(&hdlr->rctx, hdlr->path, 1 | ((1 << 1) << 1) << 1);
+        if(!(return_value_regcomp_2 == 0))
         {
           kore_mem_free((void *)hdlr->func);
           kore_mem_free((void *)hdlr->path);
@@ -13543,38 +13543,38 @@ void kore_module_load(const char *path, const char *onload)
 {
   struct stat st;
   struct kore_module *module;
-  signed int return_value_stat$3;
-  return_value_stat$3=stat(path, &st);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  if(return_value_stat$3 == -1)
+  signed int return_value_stat_3;
+  return_value_stat_3=stat(path, &st);
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  if(return_value_stat_3 == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fatal("stat(%s): %s", path, return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fatal("stat(%s): %s", path, return_value_strerror_2);
   }
 
-  void *return_value_kore_malloc$4;
-  return_value_kore_malloc$4=kore_malloc(sizeof(struct kore_module) /*56ul*/ );
-  module = (struct kore_module *)return_value_kore_malloc$4;
+  void *return_value_kore_malloc_4;
+  return_value_kore_malloc_4=kore_malloc(sizeof(struct kore_module) /*56ul*/ );
+  module = (struct kore_module *)return_value_kore_malloc_4;
   module->path=kore_strdup(path);
   module->mtime = st.st_mtim.tv_sec;
   module->onload = (char *)(void *)0;
   module->ocb = (signed int (*)(signed int))(void *)0;
   module->handle=dlopen(module->path, 0x00002 | 0x00100);
-  char *return_value_dlerror$5;
+  char *return_value_dlerror_5;
   if(module->handle == NULL)
   {
-    return_value_dlerror$5=dlerror();
-    fatal("%s: %s", path, return_value_dlerror$5);
+    return_value_dlerror_5=dlerror();
+    fatal("%s: %s", path, return_value_dlerror_5);
   }
 
   if(!(onload == ((const char *)NULL)))
   {
     module->onload=kore_strdup(onload);
-    void *return_value_dlsym$6;
-    return_value_dlsym$6=dlsym(module->handle, onload);
-    module->ocb = (signed int (*)(signed int))return_value_dlsym$6;
+    void *return_value_dlsym_6;
+    return_value_dlsym_6=dlsym(module->handle, onload);
+    module->ocb = (signed int (*)(signed int))return_value_dlsym_6;
     if(module->ocb == ((signed int (*)(signed int))NULL))
       fatal("%s: onload '%s' not present", path, onload);
 
@@ -13620,19 +13620,19 @@ void kore_module_reload(signed int cbs)
   struct kore_domain *dom;
   struct kore_module_handle *hdlr;
   struct kore_module *module = (&modules)->tqh_first;
-  char *return_value_dlerror$4;
-  char *return_value_dlerror$6;
+  char *return_value_dlerror_4;
+  char *return_value_dlerror_6;
   for( ; !(module == ((struct kore_module *)NULL)); module = module->list.tqe_next)
   {
-    signed int return_value_stat$3;
-    return_value_stat$3=stat(module->path, &st);
-    if(return_value_stat$3 == -1)
+    signed int return_value_stat_3;
+    return_value_stat_3=stat(module->path, &st);
+    if(return_value_stat_3 == -1)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      kore_log(5, "stat(%s): %s, skipping reload", module->path, return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      kore_log(5, "stat(%s): %s, skipping reload", module->path, return_value_strerror_2);
       goto __CPROVER_DUMP_L11;
     }
 
@@ -13652,26 +13652,26 @@ void kore_module_reload(signed int cbs)
       }
 
       module->mtime = st.st_mtim.tv_sec;
-      signed int return_value_dlclose$5;
-      return_value_dlclose$5=dlclose(module->handle);
-      if(!(return_value_dlclose$5 == 0))
+      signed int return_value_dlclose_5;
+      return_value_dlclose_5=dlclose(module->handle);
+      if(!(return_value_dlclose_5 == 0))
       {
-        return_value_dlerror$4=dlerror();
-        fatal("cannot close existing module: %s", return_value_dlerror$4);
+        return_value_dlerror_4=dlerror();
+        fatal("cannot close existing module: %s", return_value_dlerror_4);
       }
 
       module->handle=dlopen(module->path, 0x00002 | 0x00100);
       if(module->handle == NULL)
       {
-        return_value_dlerror$6=dlerror();
-        fatal("kore_module_reload(): %s", return_value_dlerror$6);
+        return_value_dlerror_6=dlerror();
+        fatal("kore_module_reload(): %s", return_value_dlerror_6);
       }
 
       if(!(module->onload == ((char *)NULL)))
       {
-        void *return_value_dlsym$7;
-        return_value_dlsym$7=dlsym(module->handle, module->onload);
-        module->ocb = (signed int (*)(signed int))return_value_dlsym$7;
+        void *return_value_dlsym_7;
+        return_value_dlsym_7=dlsym(module->handle, module->onload);
+        module->ocb = (signed int (*)(signed int))return_value_dlsym_7;
         if(module->ocb == ((signed int (*)(signed int))NULL))
           fatal("%s: onload '%s' not present", module->path, module->onload);
 
@@ -13708,9 +13708,9 @@ void kore_module_reload(signed int cbs)
 void kore_parse_config(void)
 {
   kore_parse_config_file(config_file);
-  signed int return_value_kore_module_loaded$1;
-  return_value_kore_module_loaded$1=kore_module_loaded();
-  if(return_value_kore_module_loaded$1 == 0)
+  signed int return_value_kore_module_loaded_1;
+  return_value_kore_module_loaded_1=kore_module_loaded();
+  if(return_value_kore_module_loaded_1 == 0)
     fatal("no site module was loaded");
 
   if(listeners.lh_first == ((struct listener *)NULL))
@@ -13719,9 +13719,9 @@ void kore_parse_config(void)
   if(chroot_path == ((char *)NULL) && !(skip_chroot == 1))
     fatal("missing a chroot path");
 
-  unsigned int return_value_getuid$2;
-  return_value_getuid$2=getuid();
-  if(!(return_value_getuid$2 == 0u))
+  unsigned int return_value_getuid_2;
+  return_value_getuid_2=getuid();
+  if(!(return_value_getuid_2 == 0u))
   {
     if(skip_chroot == 0)
       fatal("cannot chroot, use -n to skip it");
@@ -13731,9 +13731,9 @@ void kore_parse_config(void)
   if(runas_user == ((char *)NULL) && !(skip_runas == 1))
     fatal("missing runas user");
 
-  unsigned int return_value_getuid$3;
-  return_value_getuid$3=getuid();
-  if(!(return_value_getuid$3 == 0u))
+  unsigned int return_value_getuid_3;
+  return_value_getuid_3=getuid();
+  if(!(return_value_getuid_3 == 0u))
   {
     if(skip_runas == 0)
       fatal("cannot drop privileges, use -p to skip it");
@@ -13758,34 +13758,34 @@ static void kore_parse_config_file(char *fpath)
     fatal("configuration given cannot be opened: %s", fpath);
 
   lineno = 1;
-  char *return_value_fgets$1;
-  const unsigned short int **return_value___ctype_b_loc$3;
-  _Bool tmp_if_expr$4;
+  char *return_value_fgets_1;
+  const unsigned short int **return_value___ctype_b_loc_3;
+  _Bool tmp_if_expr_4;
   do
   {
-    return_value_fgets$1=fgets(buf, (signed int)sizeof(char [8192l]) /*8192ul*/ , fp);
-    if(return_value_fgets$1 == ((char *)NULL))
+    return_value_fgets_1=fgets(buf, (signed int)sizeof(char [8192l]) /*8192ul*/ , fp);
+    if(return_value_fgets_1 == ((char *)NULL))
       break;
 
     p = buf;
-    unsigned long int return_value_strcspn$2;
-    return_value_strcspn$2=strcspn(buf, "\n");
-    buf[(signed long int)return_value_strcspn$2] = (char)0;
+    unsigned long int return_value_strcspn_2;
+    return_value_strcspn_2=strcspn(buf, "\n");
+    buf[(signed long int)return_value_strcspn_2] = (char)0;
     do
     {
-      return_value___ctype_b_loc$3=__ctype_b_loc();
-      if((8192 & (signed int)(*return_value___ctype_b_loc$3)[(signed long int)(signed int)*p]) == 0)
+      return_value___ctype_b_loc_3=__ctype_b_loc();
+      if((8192 & (signed int)(*return_value___ctype_b_loc_3)[(signed long int)(signed int)*p]) == 0)
         break;
 
       p = p + 1l;
     }
     while((_Bool)1);
     if((signed int)*p == 35)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)p[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)p[(signed long int)0] == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
       lineno = lineno + 1;
 
     else
@@ -13795,9 +13795,9 @@ static void kore_parse_config_file(char *fpath)
         if((signed int)*t == 9)
           *t = (char)32;
 
-      signed int return_value_strcmp$5;
-      return_value_strcmp$5=strcmp(p, "}");
-      if(return_value_strcmp$5 == 0)
+      signed int return_value_strcmp_5;
+      return_value_strcmp_5=strcmp(p, "}");
+      if(return_value_strcmp_5 == 0)
       {
         if(current_handler == ((struct kore_module_handle *)NULL))
           goto __CPROVER_DUMP_L11;
@@ -13811,9 +13811,9 @@ static void kore_parse_config_file(char *fpath)
 
       __CPROVER_DUMP_L11:
         ;
-        signed int return_value_strcmp$6;
-        return_value_strcmp$6=strcmp(p, "}");
-        if(return_value_strcmp$6 == 0)
+        signed int return_value_strcmp_6;
+        return_value_strcmp_6=strcmp(p, "}");
+        if(return_value_strcmp_6 == 0)
         {
           if(current_auth == ((struct kore_auth *)NULL))
             goto __CPROVER_DUMP_L13;
@@ -13830,18 +13830,18 @@ static void kore_parse_config_file(char *fpath)
 
         __CPROVER_DUMP_L13:
           ;
-          signed int return_value_strcmp$7;
-          return_value_strcmp$7=strcmp(p, "}");
-          if(return_value_strcmp$7 == 0)
+          signed int return_value_strcmp_7;
+          return_value_strcmp_7=strcmp(p, "}");
+          if(return_value_strcmp_7 == 0)
           {
             if(!(current_domain == ((struct kore_domain *)NULL)))
               domain_sslstart();
 
           }
 
-          signed int return_value_strcmp$8;
-          return_value_strcmp$8=strcmp(p, "}");
-          if(return_value_strcmp$8 == 0)
+          signed int return_value_strcmp_8;
+          return_value_strcmp_8=strcmp(p, "}");
+          if(return_value_strcmp_8 == 0)
             lineno = lineno + 1;
 
           else
@@ -13850,9 +13850,9 @@ static void kore_parse_config_file(char *fpath)
             i = 0;
             for( ; !(config_names[(signed long int)i].name == ((const char *)NULL)); i = i + 1)
             {
-              signed int return_value_strcmp$9;
-              return_value_strcmp$9=strcmp(config_names[(signed long int)i].name, argv[(signed long int)0]);
-              if(return_value_strcmp$9 == 0)
+              signed int return_value_strcmp_9;
+              return_value_strcmp_9=strcmp(config_names[(signed long int)i].name, argv[(signed long int)0]);
+              if(return_value_strcmp_9 == 0)
               {
                 signed int return_value;
                 return_value=config_names[(signed long int)i].configure(argv);
@@ -13946,18 +13946,18 @@ void kore_pgsql_continue(struct http_request *req, struct kore_pgsql *pgsql)
 // file src/pgsql.c line 238
 signed int kore_pgsql_getlength(struct kore_pgsql *pgsql, signed int row, signed int col)
 {
-  signed int return_value_PQgetlength$1;
-  return_value_PQgetlength$1=PQgetlength(pgsql->result, row, col);
-  return return_value_PQgetlength$1;
+  signed int return_value_PQgetlength_1;
+  return_value_PQgetlength_1=PQgetlength(pgsql->result, row, col);
+  return return_value_PQgetlength_1;
 }
 
 // kore_pgsql_getvalue
 // file src/pgsql.c line 244
 char * kore_pgsql_getvalue(struct kore_pgsql *pgsql, signed int row, signed int col)
 {
-  char *return_value_PQgetvalue$1;
-  return_value_PQgetvalue$1=PQgetvalue(pgsql->result, row, col);
-  return return_value_PQgetvalue$1;
+  char *return_value_PQgetvalue_1;
+  return_value_PQgetvalue_1=PQgetvalue(pgsql->result, row, col);
+  return return_value_PQgetvalue_1;
 }
 
 // kore_pgsql_handle
@@ -13974,14 +13974,14 @@ void kore_pgsql_handle(void *c, signed int err)
   {
     req = conn->job->req;
     pgsql = conn->job->pgsql;
-    signed int return_value_PQconsumeInput$2;
-    return_value_PQconsumeInput$2=PQconsumeInput(conn->db);
-    if(return_value_PQconsumeInput$2 == 0)
+    signed int return_value_PQconsumeInput_2;
+    return_value_PQconsumeInput_2=PQconsumeInput(conn->db);
+    if(return_value_PQconsumeInput_2 == 0)
     {
       pgsql->state = (unsigned char)4;
-      char *return_value_PQerrorMessage$1;
-      return_value_PQerrorMessage$1=PQerrorMessage(conn->db);
-      pgsql->error=kore_strdup(return_value_PQerrorMessage$1);
+      char *return_value_PQerrorMessage_1;
+      return_value_PQerrorMessage_1=PQerrorMessage(conn->db);
+      pgsql->error=kore_strdup(return_value_PQerrorMessage_1);
     }
 
     else
@@ -14019,38 +14019,38 @@ void kore_pgsql_init(void)
 // file src/pgsql.c line 225
 void kore_pgsql_logerror(struct kore_pgsql *pgsql)
 {
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!(pgsql->error == ((char *)NULL)))
-    tmp_if_expr$1 = pgsql->error;
+    tmp_if_expr_1 = pgsql->error;
 
   else
-    tmp_if_expr$1 = "unknown";
-  kore_log(5, "pgsql error: %s", tmp_if_expr$1);
+    tmp_if_expr_1 = "unknown";
+  kore_log(5, "pgsql error: %s", tmp_if_expr_1);
 }
 
 // kore_pgsql_ntuples
 // file src/pgsql.c line 232
 signed int kore_pgsql_ntuples(struct kore_pgsql *pgsql)
 {
-  signed int return_value_PQntuples$1;
-  return_value_PQntuples$1=PQntuples(pgsql->result);
-  return return_value_PQntuples$1;
+  signed int return_value_PQntuples_1;
+  return_value_PQntuples_1=PQntuples(pgsql->result);
+  return return_value_PQntuples_1;
 }
 
 // kore_pgsql_query
 // file src/pgsql.c line 78
 signed int kore_pgsql_query(struct kore_pgsql *pgsql, struct http_request *req, const char *query)
 {
-  signed int return_value_pgsql_prepare$1;
-  return_value_pgsql_prepare$1=pgsql_prepare(pgsql, req, query);
-  if(return_value_pgsql_prepare$1 == 0)
+  signed int return_value_pgsql_prepare_1;
+  return_value_pgsql_prepare_1=pgsql_prepare(pgsql, req, query);
+  if(return_value_pgsql_prepare_1 == 0)
     return 0;
 
   else
   {
-    signed int return_value_PQsendQuery$2;
-    return_value_PQsendQuery$2=PQsendQuery(pgsql->conn->db, query);
-    if(return_value_PQsendQuery$2 == 0)
+    signed int return_value_PQsendQuery_2;
+    return_value_PQsendQuery_2=PQsendQuery(pgsql->conn->db, query);
+    if(return_value_PQsendQuery_2 == 0)
     {
       pgsql_conn_cleanup(pgsql->conn);
       return 0;
@@ -14073,9 +14073,9 @@ signed int kore_pgsql_query_params(struct kore_pgsql *pgsql, struct http_request
   char **values;
   signed int *lengths;
   signed int *formats;
-  signed int return_value_pgsql_prepare$1;
-  return_value_pgsql_prepare$1=pgsql_prepare(pgsql, req, query);
-  if(return_value_pgsql_prepare$1 == 0)
+  signed int return_value_pgsql_prepare_1;
+  return_value_pgsql_prepare_1=pgsql_prepare(pgsql, req, query);
+  if(return_value_pgsql_prepare_1 == 0)
     return 0;
 
   else
@@ -14083,24 +14083,24 @@ signed int kore_pgsql_query_params(struct kore_pgsql *pgsql, struct http_request
     if((signed int)count >= 1)
     {
       va_start(args, count);
-      void *return_value_kore_calloc$2;
-      return_value_kore_calloc$2=kore_calloc((unsigned long int)count, sizeof(signed int) /*4ul*/ );
-      lengths = (signed int *)return_value_kore_calloc$2;
-      void *return_value_kore_calloc$3;
-      return_value_kore_calloc$3=kore_calloc((unsigned long int)count, sizeof(signed int) /*4ul*/ );
-      formats = (signed int *)return_value_kore_calloc$3;
-      void *return_value_kore_calloc$4;
-      return_value_kore_calloc$4=kore_calloc((unsigned long int)count, sizeof(char *) /*8ul*/ );
-      values = (char **)return_value_kore_calloc$4;
+      void *return_value_kore_calloc_2;
+      return_value_kore_calloc_2=kore_calloc((unsigned long int)count, sizeof(signed int) /*4ul*/ );
+      lengths = (signed int *)return_value_kore_calloc_2;
+      void *return_value_kore_calloc_3;
+      return_value_kore_calloc_3=kore_calloc((unsigned long int)count, sizeof(signed int) /*4ul*/ );
+      formats = (signed int *)return_value_kore_calloc_3;
+      void *return_value_kore_calloc_4;
+      return_value_kore_calloc_4=kore_calloc((unsigned long int)count, sizeof(char *) /*8ul*/ );
+      values = (char **)return_value_kore_calloc_4;
       i = (unsigned char)0;
       for( ; !((signed int)i >= (signed int)count); i = i + 1)
       {
-        void *return_value_gcc_builtin_va_arg$5;
-        return_value_gcc_builtin_va_arg$5=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg$5));
-        values[(signed long int)i] = (char *)return_value_gcc_builtin_va_arg$5;
-        unsigned int return_value_gcc_builtin_va_arg$6;
-        return_value_gcc_builtin_va_arg$6=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg$6));
-        lengths[(signed long int)i] = (signed int)return_value_gcc_builtin_va_arg$6;
+        void *return_value_gcc_builtin_va_arg_5;
+        return_value_gcc_builtin_va_arg_5=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg_5));
+        values[(signed long int)i] = (char *)return_value_gcc_builtin_va_arg_5;
+        unsigned int return_value_gcc_builtin_va_arg_6;
+        return_value_gcc_builtin_va_arg_6=va_arg(args, __typeof__(return_value_gcc_builtin_va_arg_6));
+        lengths[(signed long int)i] = (signed int)return_value_gcc_builtin_va_arg_6;
         formats[(signed long int)i]=va_arg(args, __typeof__(formats[(signed long int)i]));
       }
     }
@@ -14111,9 +14111,9 @@ signed int kore_pgsql_query_params(struct kore_pgsql *pgsql, struct http_request
       formats = (signed int *)(void *)0;
       values = (char **)(void *)0;
     }
-    signed int return_value_PQsendQueryParams$7;
-    return_value_PQsendQueryParams$7=PQsendQueryParams(pgsql->conn->db, query, (signed int)count, (const unsigned int *)(void *)0, (const char * const *)values, lengths, formats, result);
-    if(return_value_PQsendQueryParams$7 == 0)
+    signed int return_value_PQsendQueryParams_7;
+    return_value_PQsendQueryParams_7=PQsendQueryParams(pgsql->conn->db, query, (signed int)count, (const unsigned int *)(void *)0, (const char * const *)values, lengths, formats, result);
+    if(return_value_PQsendQueryParams_7 == 0)
     {
       kore_mem_free((void *)values);
       kore_mem_free((void *)lengths);
@@ -14170,17 +14170,17 @@ __CPROVER_DUMP_L7:
 void kore_platform_disable_accept(void)
 {
   struct listener *l = (&listeners)->lh_first;
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   for( ; !(l == ((struct listener *)NULL)); l = l->list.le_next)
   {
-    signed int return_value_epoll_ctl$3;
-    return_value_epoll_ctl$3=epoll_ctl(efd, 2, l->fd, (struct epoll_event *)(void *)0);
-    if(return_value_epoll_ctl$3 == -1)
+    signed int return_value_epoll_ctl_3;
+    return_value_epoll_ctl_3=epoll_ctl(efd, 2, l->fd, (struct epoll_event *)(void *)0);
+    if(return_value_epoll_ctl_3 == -1)
     {
-      return_value___errno_location$1=__errno_location();
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fatal("kore_platform_disable_accept: %s", return_value_strerror$2);
+      return_value___errno_location_1=__errno_location();
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fatal("kore_platform_disable_accept: %s", return_value_strerror_2);
     }
 
   }
@@ -14190,15 +14190,15 @@ void kore_platform_disable_accept(void)
 // file includes/kore.h line 412
 void kore_platform_disable_read(signed int fd)
 {
-  signed int return_value_epoll_ctl$3;
-  return_value_epoll_ctl$3=epoll_ctl(efd, 2, fd, (struct epoll_event *)(void *)0);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  if(return_value_epoll_ctl$3 == -1)
+  signed int return_value_epoll_ctl_3;
+  return_value_epoll_ctl_3=epoll_ctl(efd, 2, fd, (struct epoll_event *)(void *)0);
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  if(return_value_epoll_ctl_3 == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fatal("kore_platform_disable_read: %s", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fatal("kore_platform_disable_read: %s", return_value_strerror_2);
   }
 
 }
@@ -14224,19 +14224,19 @@ void kore_platform_event_all(signed int fd, void *c)
 void kore_platform_event_init(void)
 {
   efd=epoll_create(10000);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(efd == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fatal("epoll_create(): %s", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fatal("epoll_create(): %s", return_value_strerror_2);
   }
 
   event_count = worker_max_connections + (unsigned int)nlisteners;
-  void *return_value_kore_calloc$3;
-  return_value_kore_calloc$3=kore_calloc((unsigned long int)event_count, sizeof(struct epoll_event) /*12ul*/ );
-  events = (struct epoll_event *)return_value_kore_calloc$3;
+  void *return_value_kore_calloc_3;
+  return_value_kore_calloc_3=kore_calloc((unsigned long int)event_count, sizeof(struct epoll_event) /*12ul*/ );
+  events = (struct epoll_event *)return_value_kore_calloc_3;
 }
 
 // kore_platform_event_schedule
@@ -14246,34 +14246,34 @@ void kore_platform_event_schedule(signed int fd, signed int type, signed int fla
   struct epoll_event evt;
   evt.events = (unsigned int)type;
   evt.data.ptr = udata;
-  signed int return_value_epoll_ctl$7;
-  return_value_epoll_ctl$7=epoll_ctl(efd, 1, fd, &evt);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  if(return_value_epoll_ctl$7 == -1)
+  signed int return_value_epoll_ctl_7;
+  return_value_epoll_ctl_7=epoll_ctl(efd, 1, fd, &evt);
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  if(return_value_epoll_ctl_7 == -1)
   {
-    signed int *return_value___errno_location$6;
-    return_value___errno_location$6=__errno_location();
-    if(*return_value___errno_location$6 == 17)
+    signed int *return_value___errno_location_6;
+    return_value___errno_location_6=__errno_location();
+    if(*return_value___errno_location_6 == 17)
     {
-      signed int return_value_epoll_ctl$3;
-      return_value_epoll_ctl$3=epoll_ctl(efd, 3, fd, &evt);
-      if(return_value_epoll_ctl$3 == -1)
+      signed int return_value_epoll_ctl_3;
+      return_value_epoll_ctl_3=epoll_ctl(efd, 3, fd, &evt);
+      if(return_value_epoll_ctl_3 == -1)
       {
-        return_value___errno_location$1=__errno_location();
-        return_value_strerror$2=strerror(*return_value___errno_location$1);
-        fatal("epoll_ctl() MOD: %s", return_value_strerror$2);
+        return_value___errno_location_1=__errno_location();
+        return_value_strerror_2=strerror(*return_value___errno_location_1);
+        fatal("epoll_ctl() MOD: %s", return_value_strerror_2);
       }
 
     }
 
     else
     {
-      signed int *return_value___errno_location$4;
-      return_value___errno_location$4=__errno_location();
-      char *return_value_strerror$5;
-      return_value_strerror$5=strerror(*return_value___errno_location$4);
-      fatal("epoll_ctl() ADD: %s", return_value_strerror$5);
+      signed int *return_value___errno_location_4;
+      return_value___errno_location_4=__errno_location();
+      char *return_value_strerror_5;
+      return_value_strerror_5=strerror(*return_value___errno_location_4);
+      fatal("epoll_ctl() ADD: %s", return_value_strerror_5);
     }
   }
 
@@ -14292,22 +14292,22 @@ signed int kore_platform_event_wait(unsigned long int timer)
   n=epoll_wait(efd, events, (signed int)event_count, (signed int)timer);
   if(n == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    if(*return_value___errno_location$1 == 4)
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    if(*return_value___errno_location_1 == 4)
       return 0;
 
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    char *return_value_strerror$3;
-    return_value_strerror$3=strerror(*return_value___errno_location$2);
-    fatal("epoll_wait(): %s", return_value_strerror$3);
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    char *return_value_strerror_3;
+    return_value_strerror_3=strerror(*return_value___errno_location_2);
+    fatal("epoll_wait(): %s", return_value_strerror_3);
   }
 
   r = (unsigned int)0;
   i = 0;
-  _Bool tmp_if_expr$4;
-  signed int return_value_kore_connection_handle$6;
+  _Bool tmp_if_expr_4;
+  signed int return_value_kore_connection_handle_6;
   for( ; !(i >= n); i = i + 1)
   {
     if((events + (signed long int)i)->data.ptr == NULL)
@@ -14315,11 +14315,11 @@ signed int kore_platform_event_wait(unsigned long int timer)
 
     type = *((unsigned char *)(events + (signed long int)i)->data.ptr);
     if(!((8u & (events + (signed long int)i)->events) == 0u))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = ((events + (signed long int)i)->events & (unsigned int)16) != 0u ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = ((events + (signed long int)i)->events & (unsigned int)16) != 0u ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
       switch((signed int)type)
       {
         case 1:
@@ -14352,9 +14352,9 @@ signed int kore_platform_event_wait(unsigned long int timer)
             if(r >= worker_accept_threshold && !(worker_accept_threshold == 0u))
               break;
 
-            signed int return_value_kore_connection_accept$5;
-            return_value_kore_connection_accept$5=kore_connection_accept(l, &c);
-            if(return_value_kore_connection_accept$5 == 0)
+            signed int return_value_kore_connection_accept_5;
+            return_value_kore_connection_accept_5=kore_connection_accept(l, &c);
+            if(return_value_kore_connection_accept_5 == 0)
             {
               r = (unsigned int)1;
               break;
@@ -14385,8 +14385,8 @@ signed int kore_platform_event_wait(unsigned long int timer)
 
           }
 
-          return_value_kore_connection_handle$6=kore_connection_handle(c);
-          if(return_value_kore_connection_handle$6 == 0)
+          return_value_kore_connection_handle_6=kore_connection_handle(c);
+          if(return_value_kore_connection_handle_6 == 0)
             kore_connection_disconnect(c);
 
           break;
@@ -14425,8 +14425,8 @@ void kore_platform_init(void)
 // file includes/kore.h line 411
 void kore_platform_proctitle(char *title)
 {
-  signed int return_value_prctl$1;
-  return_value_prctl$1=prctl(15, title);
+  signed int return_value_prctl_1;
+  return_value_prctl_1=prctl(15, title);
 }
 
 // kore_platform_schedule_read
@@ -14440,18 +14440,18 @@ void kore_platform_schedule_read(signed int fd, void *data)
 // file includes/kore.h line 419
 void kore_platform_worker_setcpu(struct kore_worker *kw)
 {
-  struct anonymous$18 cpuset;
+  struct anonymous_18 cpuset;
   do
-    __builtin_memset((void *)&cpuset, 0, sizeof(struct anonymous$18) /*128ul*/ );
+    __builtin_memset((void *)&cpuset, 0, sizeof(struct anonymous_18) /*128ul*/ );
   while((_Bool)0);
   unsigned long int __cpu = (unsigned long int)kw->cpu;
-  if(!(__cpu / 8ul >= sizeof(struct anonymous$18) /*128ul*/ ))
+  if(!(__cpu / 8ul >= sizeof(struct anonymous_18) /*128ul*/ ))
     ((unsigned long int *)(&cpuset)->__bits)[(signed long int)(__cpu / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ))] = ((unsigned long int *)(&cpuset)->__bits)[(signed long int)(__cpu / ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ ))] | (unsigned long int)1 << __cpu % ((unsigned long int)8 * sizeof(unsigned long int) /*8ul*/ );
 
   else
     (unsigned long int)0;
-  signed int return_value_sched_setaffinity$1;
-  return_value_sched_setaffinity$1=sched_setaffinity(0, sizeof(struct anonymous$18) /*128ul*/ , &cpuset);
+  signed int return_value_sched_setaffinity_1;
+  return_value_sched_setaffinity_1=sched_setaffinity(0, sizeof(struct anonymous_18) /*128ul*/ , &cpuset);
 }
 
 // kore_pool_get
@@ -14533,7 +14533,7 @@ void * kore_realloc(void *ptr, unsigned long int len)
   if(len == 0ul)
     fatal("kore_realloc(): zero size");
 
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(ptr == NULL)
     nptr=kore_malloc(len);
 
@@ -14545,11 +14545,11 @@ void * kore_realloc(void *ptr, unsigned long int len)
 
     nptr=kore_malloc(len);
     if(!(len >= (unsigned long int)*((unsigned int *)((unsigned char *)ptr + -4l))))
-      tmp_if_expr$1 = len;
+      tmp_if_expr_1 = len;
 
     else
-      tmp_if_expr$1 = (unsigned long int)*((unsigned int *)((unsigned char *)ptr - (signed long int)sizeof(unsigned int) /*4ul*/ ));
-    memcpy(nptr, ptr, tmp_if_expr$1);
+      tmp_if_expr_1 = (unsigned long int)*((unsigned int *)((unsigned char *)ptr - (signed long int)sizeof(unsigned int) /*4ul*/ ));
+    memcpy(nptr, ptr, tmp_if_expr_1);
     kore_mem_free(ptr);
   }
   return nptr;
@@ -14564,16 +14564,16 @@ signed int kore_server_bind(const char *ip, const char *port)
   signed int r;
   struct addrinfo *results;
   r=getaddrinfo(ip, port, (struct addrinfo *)(void *)0, &results);
-  const char *return_value_gai_strerror$1;
+  const char *return_value_gai_strerror_1;
   if(!(r == 0))
   {
-    return_value_gai_strerror$1=gai_strerror(r);
-    fatal("getaddrinfo(%s): %s", ip, return_value_gai_strerror$1);
+    return_value_gai_strerror_1=gai_strerror(r);
+    fatal("getaddrinfo(%s): %s", ip, return_value_gai_strerror_1);
   }
 
-  void *return_value_kore_malloc$2;
-  return_value_kore_malloc$2=kore_malloc(sizeof(struct listener) /*56ul*/ );
-  l = (struct listener *)return_value_kore_malloc$2;
+  void *return_value_kore_malloc_2;
+  return_value_kore_malloc_2=kore_malloc(sizeof(struct listener) /*56ul*/ );
+  l = (struct listener *)return_value_kore_malloc_2;
   l->type = (unsigned char)1;
   l->addrtype = (unsigned char)results->ai_family;
   if(!((signed int)l->addrtype == 2))
@@ -14588,71 +14588,71 @@ signed int kore_server_bind(const char *ip, const char *port)
   {
     kore_mem_free((void *)l);
     freeaddrinfo(results);
-    signed int *return_value___errno_location$3;
-    return_value___errno_location$3=__errno_location();
-    char *return_value_strerror$4;
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    printf("failed to create socket: %s\n", return_value_strerror$4);
+    signed int *return_value___errno_location_3;
+    return_value___errno_location_3=__errno_location();
+    char *return_value_strerror_4;
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    printf("failed to create socket: %s\n", return_value_strerror_4);
     return 0;
   }
 
-  signed int return_value_kore_connection_nonblock$7;
-  return_value_kore_connection_nonblock$7=kore_connection_nonblock(l->fd);
-  if(return_value_kore_connection_nonblock$7 == 0)
+  signed int return_value_kore_connection_nonblock_7;
+  return_value_kore_connection_nonblock_7=kore_connection_nonblock(l->fd);
+  if(return_value_kore_connection_nonblock_7 == 0)
   {
     kore_mem_free((void *)l);
     freeaddrinfo(results);
-    signed int *return_value___errno_location$5;
-    return_value___errno_location$5=__errno_location();
-    char *return_value_strerror$6;
-    return_value_strerror$6=strerror(*return_value___errno_location$5);
-    printf("failed to make socket non blocking: %s\n", return_value_strerror$6);
+    signed int *return_value___errno_location_5;
+    return_value___errno_location_5=__errno_location();
+    char *return_value_strerror_6;
+    return_value_strerror_6=strerror(*return_value___errno_location_5);
+    printf("failed to make socket non blocking: %s\n", return_value_strerror_6);
     return 0;
   }
 
   on = 1;
-  signed int return_value_setsockopt$10;
-  return_value_setsockopt$10=setsockopt(l->fd, 1, 2, (const void *)(const char *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
-  if(return_value_setsockopt$10 == -1)
+  signed int return_value_setsockopt_10;
+  return_value_setsockopt_10=setsockopt(l->fd, 1, 2, (const void *)(const char *)&on, (unsigned int)sizeof(signed int) /*4ul*/ );
+  if(return_value_setsockopt_10 == -1)
   {
     close(l->fd);
     kore_mem_free((void *)l);
     freeaddrinfo(results);
-    signed int *return_value___errno_location$8;
-    return_value___errno_location$8=__errno_location();
-    char *return_value_strerror$9;
-    return_value_strerror$9=strerror(*return_value___errno_location$8);
-    printf("failed to set SO_REUSEADDR: %s\n", return_value_strerror$9);
+    signed int *return_value___errno_location_8;
+    return_value___errno_location_8=__errno_location();
+    char *return_value_strerror_9;
+    return_value_strerror_9=strerror(*return_value___errno_location_8);
+    printf("failed to set SO_REUSEADDR: %s\n", return_value_strerror_9);
     return 0;
   }
 
-  signed int return_value_bind$13;
-  return_value_bind$13=bind(l->fd, results->ai_addr, results->ai_addrlen);
-  if(return_value_bind$13 == -1)
+  signed int return_value_bind_13;
+  return_value_bind_13=bind(l->fd, results->ai_addr, results->ai_addrlen);
+  if(return_value_bind_13 == -1)
   {
     close(l->fd);
     kore_mem_free((void *)l);
     freeaddrinfo(results);
-    signed int *return_value___errno_location$11;
-    return_value___errno_location$11=__errno_location();
-    char *return_value_strerror$12;
-    return_value_strerror$12=strerror(*return_value___errno_location$11);
-    printf("failed to bind to %s port %s: %s\n", ip, port, return_value_strerror$12);
+    signed int *return_value___errno_location_11;
+    return_value___errno_location_11=__errno_location();
+    char *return_value_strerror_12;
+    return_value_strerror_12=strerror(*return_value___errno_location_11);
+    printf("failed to bind to %s port %s: %s\n", ip, port, return_value_strerror_12);
     return 0;
   }
 
   freeaddrinfo(results);
-  signed int return_value_listen$16;
-  return_value_listen$16=listen(l->fd, (signed int)kore_socket_backlog);
-  if(return_value_listen$16 == -1)
+  signed int return_value_listen_16;
+  return_value_listen_16=listen(l->fd, (signed int)kore_socket_backlog);
+  if(return_value_listen_16 == -1)
   {
     close(l->fd);
     kore_mem_free((void *)l);
-    signed int *return_value___errno_location$14;
-    return_value___errno_location$14=__errno_location();
-    char *return_value_strerror$15;
-    return_value_strerror$15=strerror(*return_value___errno_location$14);
-    printf("failed to listen on socket: %s\n", return_value_strerror$15);
+    signed int *return_value___errno_location_14;
+    return_value___errno_location_14=__errno_location();
+    char *return_value_strerror_15;
+    return_value_strerror_15=strerror(*return_value___errno_location_14);
+    printf("failed to listen on socket: %s\n", return_value_strerror_15);
     return 0;
   }
 
@@ -14686,17 +14686,17 @@ static void kore_server_sslstart(void)
 static void kore_server_start(void)
 {
   signed int quit;
-  signed int return_value_daemon$3;
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int return_value_daemon_3;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(foreground == 0)
   {
-    return_value_daemon$3=daemon(1, 1);
-    if(return_value_daemon$3 == -1)
+    return_value_daemon_3=daemon(1, 1);
+    if(return_value_daemon_3 == -1)
     {
-      return_value___errno_location$1=__errno_location();
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fatal("cannot daemon(): %s", return_value_strerror$2);
+      return_value___errno_location_1=__errno_location();
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fatal("cannot daemon(): %s", return_value_strerror_2);
     }
 
   }
@@ -14737,9 +14737,9 @@ static void kore_server_start(void)
       sig_recv = 0;
     }
 
-    signed int return_value_kore_accesslog_wait$4;
-    return_value_kore_accesslog_wait$4=kore_accesslog_wait();
-    if(return_value_kore_accesslog_wait$4 == 0)
+    signed int return_value_kore_accesslog_wait_4;
+    return_value_kore_accesslog_wait_4=kore_accesslog_wait();
+    if(return_value_kore_accesslog_wait_4 == 0)
       break;
 
     kore_worker_wait(0);
@@ -14784,18 +14784,18 @@ signed int kore_split_string(char *input, char *delim, char **out, unsigned long
   char **ap;
   count = 0;
   ap = out;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   do
   {
     if(!(ap >= out + -1l + (signed long int)ele))
     {
       *ap=strsep(&input, delim);
-      tmp_if_expr$1 = *ap != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = *ap != (char *)(void *)0 ? (_Bool)1 : (_Bool)0;
     }
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(!tmp_if_expr_1)
       break;
 
     if(!((signed int)*(*ap) == 0))
@@ -14816,12 +14816,12 @@ char * kore_strdup(const char *str)
 {
   unsigned long int len;
   char *nstr;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(str);
-  len = return_value_strlen$1 + (unsigned long int)1;
-  void *return_value_kore_malloc$2;
-  return_value_kore_malloc$2=kore_malloc(len);
-  nstr = (char *)return_value_kore_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(str);
+  len = return_value_strlen_1 + (unsigned long int)1;
+  void *return_value_kore_malloc_2;
+  return_value_kore_malloc_2=kore_malloc(len);
+  nstr = (char *)return_value_kore_malloc_2;
   kore_strlcpy(nstr, str, len);
   return nstr;
 }
@@ -14833,21 +14833,21 @@ void kore_strip_chars(char *in, char strip, char **out)
   unsigned int len;
   char *s;
   char *p;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(in);
-  len = (unsigned int)return_value_strlen$1;
-  void *return_value_kore_malloc$2;
-  return_value_kore_malloc$2=kore_malloc((unsigned long int)(len + (unsigned int)1));
-  *out = (char *)return_value_kore_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(in);
+  len = (unsigned int)return_value_strlen_1;
+  void *return_value_kore_malloc_2;
+  return_value_kore_malloc_2=kore_malloc((unsigned long int)(len + (unsigned int)1));
+  *out = (char *)return_value_kore_malloc_2;
   p = *out;
   s = in;
-  char *tmp_post$3;
+  char *tmp_post_3;
   for( ; !(s >= in + (signed long int)len); s = s + 1l)
     if(!(*s == strip))
     {
-      tmp_post$3 = p;
+      tmp_post_3 = p;
       p = p + 1l;
-      *tmp_post$3 = *s;
+      *tmp_post_3 = *s;
     }
 
   *p = (char)0;
@@ -14884,7 +14884,7 @@ signed long long int kore_strtonum(const char *str, signed int base, signed long
 {
   signed long long int l;
   char *ep;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(!(max >= min))
   {
     *err = 0;
@@ -14893,18 +14893,18 @@ signed long long int kore_strtonum(const char *str, signed int base, signed long
 
   else
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = 0;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = 0;
     l=strtoll(str, &ep, base);
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(str == ep || !(*return_value___errno_location$2 == 0))
-      tmp_if_expr$3 = (_Bool)1;
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(str == ep || !(*return_value___errno_location_2 == 0))
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (signed int)*ep != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (signed int)*ep != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       *err = 0;
       return (signed long long int)0;
@@ -14943,19 +14943,19 @@ unsigned long int kore_strtonum64(const char *str, signed int sign, signed int *
   l = (unsigned long int)0;
   check = 1;
   ll=strtoll(str, &ep, 10);
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  _Bool tmp_if_expr$3;
-  signed int *return_value___errno_location$2;
-  if(*return_value___errno_location$1 == 22)
-    tmp_if_expr$3 = (_Bool)1;
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  _Bool tmp_if_expr_3;
+  signed int *return_value___errno_location_2;
+  if(*return_value___errno_location_1 == 22)
+    tmp_if_expr_3 = (_Bool)1;
 
   else
   {
-    return_value___errno_location$2=__errno_location();
-    tmp_if_expr$3 = *return_value___errno_location$2 == 34 ? (_Bool)1 : (_Bool)0;
+    return_value___errno_location_2=__errno_location();
+    tmp_if_expr_3 = *return_value___errno_location_2 == 34 ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$3)
+  if(tmp_if_expr_3)
   {
     if(ll == 0x7fffffffffffffffLL || ll == -9223372036854775808ll)
     {
@@ -14970,22 +14970,22 @@ unsigned long int kore_strtonum64(const char *str, signed int sign, signed int *
 
   }
 
-  _Bool tmp_if_expr$6;
-  signed int *return_value___errno_location$5;
+  _Bool tmp_if_expr_6;
+  signed int *return_value___errno_location_5;
   if(sign == 0)
   {
     l=strtoull(str, &ep, 10);
-    signed int *return_value___errno_location$4;
-    return_value___errno_location$4=__errno_location();
-    if(*return_value___errno_location$4 == 22)
-      tmp_if_expr$6 = (_Bool)1;
+    signed int *return_value___errno_location_4;
+    return_value___errno_location_4=__errno_location();
+    if(*return_value___errno_location_4 == 22)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
     {
-      return_value___errno_location$5=__errno_location();
-      tmp_if_expr$6 = *return_value___errno_location$5 == 34 ? (_Bool)1 : (_Bool)0;
+      return_value___errno_location_5=__errno_location();
+      tmp_if_expr_6 = *return_value___errno_location_5 == 34 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$6)
+    if(tmp_if_expr_6)
     {
       if(l == 1UL)
       {
@@ -15003,13 +15003,13 @@ unsigned long int kore_strtonum64(const char *str, signed int sign, signed int *
 
   }
 
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_7;
   if(str == ep)
-    tmp_if_expr$7 = (_Bool)1;
+    tmp_if_expr_7 = (_Bool)1;
 
   else
-    tmp_if_expr$7 = (signed int)*ep != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$7)
+    tmp_if_expr_7 = (signed int)*ep != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_7)
   {
     *err = 0;
     return (unsigned long int)0;
@@ -15049,9 +15049,9 @@ unsigned int kore_task_channel_read(struct kore_task *t, void *out, unsigned int
   unsigned int bytes;
   do
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    if(return_value_pthread_self$1 == t->thread->tid)
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    if(return_value_pthread_self_1 == t->thread->tid)
       fd = t->fds[(signed long int)1];
 
     else
@@ -15075,9 +15075,9 @@ void kore_task_channel_write(struct kore_task *t, void *data, unsigned int len)
   signed int fd;
   do
   {
-    unsigned long int return_value_pthread_self$1;
-    return_value_pthread_self$1=pthread_self();
-    if(return_value_pthread_self$1 == t->thread->tid)
+    unsigned long int return_value_pthread_self_1;
+    return_value_pthread_self_1=pthread_self();
+    if(return_value_pthread_self_1 == t->thread->tid)
       fd = t->fds[(signed long int)1];
 
     else
@@ -15096,16 +15096,16 @@ void kore_task_create(struct kore_task *t, signed int (*entry)(struct kore_task 
   t->entry = entry;
   t->type = (unsigned char)4;
   t->state = 1;
-  pthread_rwlock_init(&t->lock, (const union anonymous$7 *)(void *)0);
-  signed int return_value_socketpair$3;
-  return_value_socketpair$3=socketpair(1, 1, 0, t->fds);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
-  if(return_value_socketpair$3 == -1)
+  pthread_rwlock_init(&t->lock, (const union anonymous_7 *)(void *)0);
+  signed int return_value_socketpair_3;
+  return_value_socketpair_3=socketpair(1, 1, 0, t->fds);
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
+  if(return_value_socketpair_3 == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fatal("kore_task_create: socketpair() %s", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fatal("kore_task_create: socketpair() %s", return_value_strerror_2);
   }
 
 }
@@ -15162,9 +15162,9 @@ void kore_task_finish(struct kore_task *t)
 // file includes/tasks.h line 63
 signed int kore_task_finished(struct kore_task *t)
 {
-  signed int return_value_kore_task_state$1;
-  return_value_kore_task_state$1=kore_task_state(t);
-  return (signed int)(return_value_kore_task_state$1 == 3);
+  signed int return_value_kore_task_state_1;
+  return_value_kore_task_state_1=kore_task_state(t);
+  return (signed int)(return_value_kore_task_state_1 == 3);
 }
 
 // kore_task_handle
@@ -15201,7 +15201,7 @@ void kore_task_init(void)
     (&task_threads)->tqh_last = &(&task_threads)->tqh_first;
   }
   while((_Bool)0);
-  r=pthread_mutex_init(&task_thread_lock, (const union anonymous$9 *)(void *)0);
+  r=pthread_mutex_init(&task_thread_lock, (const union anonymous_9 *)(void *)0);
   if(!(r == 0))
     fatal("kore_task_init: pthread_mutex_init: %d", r);
 
@@ -15279,9 +15279,9 @@ signed int kore_task_state(struct kore_task *t)
 unsigned long int kore_time_ms(void)
 {
   struct timeval tv;
-  signed int return_value_gettimeofday$1;
-  return_value_gettimeofday$1=gettimeofday(&tv, (struct timezone *)(void *)0);
-  if(return_value_gettimeofday$1 == -1)
+  signed int return_value_gettimeofday_1;
+  return_value_gettimeofday_1=gettimeofday(&tv, (struct timezone *)(void *)0);
+  if(return_value_gettimeofday_1 == -1)
     return (unsigned long int)0;
 
   else
@@ -15299,9 +15299,9 @@ char * kore_time_to_date(signed long int now)
   {
     last = now;
     tm=gmtime(&now);
-    unsigned long int return_value_strftime$1;
-    return_value_strftime$1=strftime(tbuf, sizeof(char [32l]) /*32ul*/ , "%a, %d %b %Y %T GMT", tm);
-    if(return_value_strftime$1 == 0ul)
+    unsigned long int return_value_strftime_1;
+    return_value_strftime_1=strftime(tbuf, sizeof(char [32l]) /*32ul*/ , "%a, %d %b %Y %T GMT", tm);
+    if(return_value_strftime_1 == 0ul)
       return (char *)(void *)0;
 
   }
@@ -15315,16 +15315,16 @@ struct kore_timer * kore_timer_add(void (*cb)(void *, unsigned long int, unsigne
 {
   struct kore_timer *timer;
   struct kore_timer *t;
-  void *return_value_kore_malloc$1;
-  return_value_kore_malloc$1=kore_malloc(sizeof(struct kore_timer) /*56ul*/ );
-  timer = (struct kore_timer *)return_value_kore_malloc$1;
+  void *return_value_kore_malloc_1;
+  return_value_kore_malloc_1=kore_malloc(sizeof(struct kore_timer) /*56ul*/ );
+  timer = (struct kore_timer *)return_value_kore_malloc_1;
   timer->cb = cb;
   timer->arg = arg;
   timer->flags = flags;
   timer->interval = interval;
-  unsigned long int return_value_kore_time_ms$2;
-  return_value_kore_time_ms$2=kore_time_ms();
-  timer->nextrun = return_value_kore_time_ms$2 + timer->interval;
+  unsigned long int return_value_kore_time_ms_2;
+  return_value_kore_time_ms_2=kore_time_ms();
+  timer->nextrun = return_value_kore_time_ms_2 + timer->interval;
   t = (&kore_timers)->tqh_first;
   for( ; !(t == ((struct kore_timer *)NULL)); t = t->list.tqe_next)
     if(!(timer->nextrun >= t->nextrun))
@@ -15455,9 +15455,9 @@ void kore_tls_info_callback(const struct ssl_st *ssl, signed int flags, signed i
   struct connection *c;
   if(!((0x10 & flags) == 0))
   {
-    void *return_value_SSL_get_ex_data$1;
-    return_value_SSL_get_ex_data$1=SSL_get_ex_data(ssl, 0);
-    c = (struct connection *)return_value_SSL_get_ex_data$1;
+    void *return_value_SSL_get_ex_data_1;
+    return_value_SSL_get_ex_data_1=SSL_get_ex_data(ssl, 0);
+    c = (struct connection *)return_value_SSL_get_ex_data_1;
     if(c == ((struct connection *)NULL))
       fatal("no SSL_get_app_data");
 
@@ -15471,9 +15471,9 @@ void kore_tls_info_callback(const struct ssl_st *ssl, signed int flags, signed i
 signed int kore_tls_npn_cb(struct ssl_st *ssl, const unsigned char **data, unsigned int *len, void *arg)
 {
   *data = (const unsigned char *)"\bspdy/3.1\bhttp/1.1";
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen("\bspdy/3.1\bhttp/1.1");
-  *len = (unsigned int)return_value_strlen$1;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen("\bspdy/3.1\bhttp/1.1");
+  *len = (unsigned int)return_value_strlen_1;
   return 0;
 }
 
@@ -15513,18 +15513,18 @@ signed int kore_tls_sni_cb(struct ssl_st *ssl, signed int *ad, void *arg)
 signed int kore_validator_add(const char *name, unsigned char type, const char *arg)
 {
   struct kore_validator *val;
-  void *return_value_kore_malloc$1;
-  return_value_kore_malloc$1=kore_malloc(sizeof(struct kore_validator) /*112ul*/ );
-  val = (struct kore_validator *)return_value_kore_malloc$1;
+  void *return_value_kore_malloc_1;
+  return_value_kore_malloc_1=kore_malloc(sizeof(struct kore_validator) /*112ul*/ );
+  val = (struct kore_validator *)return_value_kore_malloc_1;
   val->type = type;
-  signed int return_value_regcomp$2;
-  void *return_value_kore_module_getsym$3;
+  signed int return_value_regcomp_2;
+  void *return_value_kore_module_getsym_3;
   switch((signed int)val->type)
   {
     case 1:
     {
-      return_value_regcomp$2=regcomp(&val->rctx, arg, 1 | ((1 << 1) << 1) << 1);
-      if(!(return_value_regcomp$2 == 0))
+      return_value_regcomp_2=regcomp(&val->rctx, arg, 1 | ((1 << 1) << 1) << 1);
+      if(!(return_value_regcomp_2 == 0))
       {
         kore_mem_free((void *)val);
         kore_log(5, "validator %s has bad regex %s", name, arg);
@@ -15535,8 +15535,8 @@ signed int kore_validator_add(const char *name, unsigned char type, const char *
     }
     case 2:
     {
-      return_value_kore_module_getsym$3=kore_module_getsym(arg);
-      val->func = (signed int (*)(struct http_request *, char *))return_value_kore_module_getsym$3;
+      return_value_kore_module_getsym_3=kore_module_getsym(arg);
+      val->func = (signed int (*)(struct http_request *, char *))return_value_kore_module_getsym_3;
       if(val->func == ((signed int (*)(struct http_request *, char *))NULL))
       {
         kore_mem_free((void *)val);
@@ -15570,13 +15570,13 @@ signed int kore_validator_add(const char *name, unsigned char type, const char *
 signed int kore_validator_check(struct http_request *req, struct kore_validator *val, void *data)
 {
   signed int r;
-  signed int return_value_regexec$1;
+  signed int return_value_regexec_1;
   switch((signed int)val->type)
   {
     case 1:
     {
-      return_value_regexec$1=regexec(&val->rctx, (const char *)data, (unsigned long int)0, (struct anonymous$57 *)(void *)0, 0);
-      if(return_value_regexec$1 == 0)
+      return_value_regexec_1=regexec(&val->rctx, (const char *)data, (unsigned long int)0, (struct anonymous_57 *)(void *)0, 0);
+      if(return_value_regexec_1 == 0)
         r = 1;
 
       else
@@ -15613,9 +15613,9 @@ struct kore_validator * kore_validator_lookup(const char *name)
   struct kore_validator *val = (&validators)->tqh_first;
   for( ; !(val == ((struct kore_validator *)NULL)); val = val->list.tqe_next)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(val->name, name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(val->name, name);
+    if(return_value_strcmp_1 == 0)
       return val;
 
   }
@@ -15630,9 +15630,9 @@ void kore_validator_reload(void)
   for( ; !(val == ((struct kore_validator *)NULL)); val = val->list.tqe_next)
     if((signed int)val->type == 2)
     {
-      void *return_value_kore_module_getsym$1;
-      return_value_kore_module_getsym$1=kore_module_getsym(val->arg);
-      val->func = (signed int (*)(struct http_request *, char *))return_value_kore_module_getsym$1;
+      void *return_value_kore_module_getsym_1;
+      return_value_kore_module_getsym_1=kore_module_getsym(val->arg);
+      val->func = (signed int (*)(struct http_request *, char *))return_value_kore_module_getsym_1;
       if(val->func == ((signed int (*)(struct http_request *, char *))NULL))
         fatal("no function for validator %s found", val->name);
 
@@ -15647,13 +15647,13 @@ signed int kore_validator_run(struct http_request *req, const char *name, char *
   struct kore_validator *val = (&validators)->tqh_first;
   for( ; !(val == ((struct kore_validator *)NULL)); val = val->list.tqe_next)
   {
-    signed int return_value_strcmp$1;
-    return_value_strcmp$1=strcmp(val->name, name);
-    if(return_value_strcmp$1 == 0)
+    signed int return_value_strcmp_1;
+    return_value_strcmp_1=strcmp(val->name, name);
+    if(return_value_strcmp_1 == 0)
     {
-      signed int return_value_kore_validator_check$2;
-      return_value_kore_validator_check$2=kore_validator_check(req, val, (void *)data);
-      return return_value_kore_validator_check$2;
+      signed int return_value_kore_validator_check_2;
+      return_value_kore_validator_check_2=kore_validator_check(req, val, (void *)data);
+      return return_value_kore_validator_check_2;
     }
 
   }
@@ -15682,18 +15682,18 @@ void kore_websocket_handshake(struct http_request *req, struct kore_wscbs *wscbs
   struct kore_buf *buf;
   char *key;
   char *base64;
-  char *kore_websocket_handshake$$1$$version;
+  char *kore_websocket_handshake__1__version;
   unsigned char digest[20l];
-  signed int return_value_http_request_header$1;
-  return_value_http_request_header$1=http_request_header(req, "sec-websocket-key", &key);
-  if(return_value_http_request_header$1 == 0)
+  signed int return_value_http_request_header_1;
+  return_value_http_request_header_1=http_request_header(req, "sec-websocket-key", &key);
+  if(return_value_http_request_header_1 == 0)
     http_response(req, 400, (void *)0, (unsigned int)0);
 
   else
   {
-    signed int return_value_http_request_header$2;
-    return_value_http_request_header$2=http_request_header(req, "sec-websocket-version", &kore_websocket_handshake$$1$$version);
-    if(return_value_http_request_header$2 == 0)
+    signed int return_value_http_request_header_2;
+    return_value_http_request_header_2=http_request_header(req, "sec-websocket-version", &kore_websocket_handshake__1__version);
+    if(return_value_http_request_header_2 == 0)
     {
       kore_mem_free((void *)key);
       http_response_header(req, "sec-websocket-version", "13");
@@ -15702,19 +15702,19 @@ void kore_websocket_handshake(struct http_request *req, struct kore_wscbs *wscbs
 
     else
     {
-      signed int return_value_strcmp$3;
-      return_value_strcmp$3=strcmp(kore_websocket_handshake$$1$$version, "13");
-      if(!(return_value_strcmp$3 == 0))
+      signed int return_value_strcmp_3;
+      return_value_strcmp_3=strcmp(kore_websocket_handshake__1__version, "13");
+      if(!(return_value_strcmp_3 == 0))
       {
         kore_mem_free((void *)key);
-        kore_mem_free((void *)kore_websocket_handshake$$1$$version);
+        kore_mem_free((void *)kore_websocket_handshake__1__version);
         http_response_header(req, "sec-websocket-version", "13");
         http_response(req, 400, (void *)0, (unsigned int)0);
       }
 
       else
       {
-        kore_mem_free((void *)kore_websocket_handshake$$1$$version);
+        kore_mem_free((void *)kore_websocket_handshake__1__version);
         buf=kore_buf_create((unsigned int)128);
         kore_buf_appendf(buf, "%s%s", key, (const void *)"258EAFA5-E914-47DA-95CA-C5AB0DC85B11");
         kore_mem_free((void *)key);
@@ -15722,9 +15722,9 @@ void kore_websocket_handshake(struct http_request *req, struct kore_wscbs *wscbs
         SHA1_Update(&sctx, (const void *)buf->data, buf->offset);
         SHA1_Final(digest, &sctx);
         kore_buf_free(buf);
-        signed int return_value_kore_base64_encode$4;
-        return_value_kore_base64_encode$4=kore_base64_encode(digest, (unsigned int)sizeof(unsigned char [20l]) /*20ul*/ , &base64);
-        if(return_value_kore_base64_encode$4 == 0)
+        signed int return_value_kore_base64_encode_4;
+        return_value_kore_base64_encode_4=kore_base64_encode(digest, (unsigned int)sizeof(unsigned char [20l]) /*20ul*/ , &base64);
+        if(return_value_kore_base64_encode_4 == 0)
           http_response(req, 500, (void *)0, (unsigned int)0);
 
         else
@@ -15820,9 +15820,9 @@ static inline signed int kore_worker_acceptlock_obtain(void)
       else
       {
         r = 0;
-        signed int return_value_worker_trylock$1;
-        return_value_worker_trylock$1=worker_trylock();
-        if(!(return_value_worker_trylock$1 == 0))
+        signed int return_value_worker_trylock_1;
+        return_value_worker_trylock_1=worker_trylock();
+        if(!(return_value_worker_trylock_1 == 0))
         {
           r = 1;
           worker->has_lock = (unsigned char)1;
@@ -15904,8 +15904,8 @@ void kore_worker_dispatch_signal(signed int sig)
   for( ; !((signed int)id >= (signed int)worker_count); id = id + 1)
   {
     kw = (struct kore_worker *)((unsigned char *)kore_workers + (signed long int)(sizeof(struct kore_worker) /*24ul*/  * (unsigned long int)id));
-    signed int return_value_kill$1;
-    return_value_kill$1=kill(kw->pid, sig);
+    signed int return_value_kill_1;
+    return_value_kill_1=kill(kw->pid, sig);
   }
 }
 
@@ -15932,50 +15932,50 @@ void kore_worker_entry(struct kore_worker *kw)
     pw=getpwnam(runas_user);
     if(pw == ((struct passwd *)NULL))
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      char *return_value_strerror$2;
-      return_value_strerror$2=strerror(*return_value___errno_location$1);
-      fatal("cannot getpwnam(\"%s\") runas user: %s", runas_user, return_value_strerror$2);
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      char *return_value_strerror_2;
+      return_value_strerror_2=strerror(*return_value___errno_location_1);
+      fatal("cannot getpwnam(\"%s\") runas user: %s", runas_user, return_value_strerror_2);
     }
 
   }
 
-  signed int *return_value___errno_location$6;
-  char *return_value_strerror$7;
+  signed int *return_value___errno_location_6;
+  char *return_value_strerror_7;
   if(skip_chroot == 0)
   {
-    signed int return_value_chroot$5;
-    return_value_chroot$5=chroot(chroot_path);
-    if(return_value_chroot$5 == -1)
+    signed int return_value_chroot_5;
+    return_value_chroot_5=chroot(chroot_path);
+    if(return_value_chroot_5 == -1)
     {
-      signed int *return_value___errno_location$3;
-      return_value___errno_location$3=__errno_location();
-      char *return_value_strerror$4;
-      return_value_strerror$4=strerror(*return_value___errno_location$3);
-      fatal("cannot chroot(\"%s\"): %s", chroot_path, return_value_strerror$4);
+      signed int *return_value___errno_location_3;
+      return_value___errno_location_3=__errno_location();
+      char *return_value_strerror_4;
+      return_value_strerror_4=strerror(*return_value___errno_location_3);
+      fatal("cannot chroot(\"%s\"): %s", chroot_path, return_value_strerror_4);
     }
 
-    signed int return_value_chdir$8;
-    return_value_chdir$8=chdir("/");
-    if(return_value_chdir$8 == -1)
+    signed int return_value_chdir_8;
+    return_value_chdir_8=chdir("/");
+    if(return_value_chdir_8 == -1)
     {
-      return_value___errno_location$6=__errno_location();
-      return_value_strerror$7=strerror(*return_value___errno_location$6);
-      fatal("cannot chdir(\"/\"): %s", return_value_strerror$7);
+      return_value___errno_location_6=__errno_location();
+      return_value_strerror_7=strerror(*return_value___errno_location_6);
+      fatal("cannot chdir(\"/\"): %s", return_value_strerror_7);
     }
 
   }
 
-  signed int return_value_getrlimit$12;
-  return_value_getrlimit$12=getrlimit((enum __rlimit_resource)RLIMIT_NOFILE, &rl);
-  if(return_value_getrlimit$12 == -1)
+  signed int return_value_getrlimit_12;
+  return_value_getrlimit_12=getrlimit((enum __rlimit_resource)RLIMIT_NOFILE, &rl);
+  if(return_value_getrlimit_12 == -1)
   {
-    signed int *return_value___errno_location$9;
-    return_value___errno_location$9=__errno_location();
-    char *return_value_strerror$10;
-    return_value_strerror$10=strerror(*return_value___errno_location$9);
-    kore_log(4, "getrlimit(RLIMIT_NOFILE): %s", return_value_strerror$10);
+    signed int *return_value___errno_location_9;
+    return_value___errno_location_9=__errno_location();
+    char *return_value_strerror_10;
+    return_value_strerror_10=strerror(*return_value___errno_location_9);
+    kore_log(4, "getrlimit(RLIMIT_NOFILE): %s", return_value_strerror_10);
   }
 
   else
@@ -15983,51 +15983,51 @@ void kore_worker_entry(struct kore_worker *kw)
     fd = (unsigned long int)0;
     for( ; !(fd >= rl.rlim_cur); fd = fd + 1ul)
     {
-      signed int return_value_fcntl$11;
-      return_value_fcntl$11=fcntl((signed int)fd, 1, (void *)0);
-      if(!(return_value_fcntl$11 == -1))
+      signed int return_value_fcntl_11;
+      return_value_fcntl_11=fcntl((signed int)fd, 1, (void *)0);
+      if(!(return_value_fcntl_11 == -1))
         worker_rlimit_nofiles = worker_rlimit_nofiles + 1u;
 
     }
   }
   rl.rlim_cur = (unsigned long int)worker_rlimit_nofiles;
   rl.rlim_max = (unsigned long int)worker_rlimit_nofiles;
-  signed int return_value_setrlimit$15;
-  return_value_setrlimit$15=setrlimit((enum __rlimit_resource)RLIMIT_NOFILE, &rl);
-  if(return_value_setrlimit$15 == -1)
+  signed int return_value_setrlimit_15;
+  return_value_setrlimit_15=setrlimit((enum __rlimit_resource)RLIMIT_NOFILE, &rl);
+  if(return_value_setrlimit_15 == -1)
   {
-    signed int *return_value___errno_location$13;
-    return_value___errno_location$13=__errno_location();
-    char *return_value_strerror$14;
-    return_value_strerror$14=strerror(*return_value___errno_location$13);
-    kore_log(3, "setrlimit(RLIMIT_NOFILE, %d): %s", worker_rlimit_nofiles, return_value_strerror$14);
+    signed int *return_value___errno_location_13;
+    return_value___errno_location_13=__errno_location();
+    char *return_value_strerror_14;
+    return_value_strerror_14=strerror(*return_value___errno_location_13);
+    kore_log(3, "setrlimit(RLIMIT_NOFILE, %d): %s", worker_rlimit_nofiles, return_value_strerror_14);
   }
 
-  _Bool tmp_if_expr$18;
-  signed int return_value_setresgid$17;
-  _Bool tmp_if_expr$20;
-  signed int return_value_setresuid$19;
+  _Bool tmp_if_expr_18;
+  signed int return_value_setresgid_17;
+  _Bool tmp_if_expr_20;
+  signed int return_value_setresuid_19;
   if(skip_runas == 0)
   {
-    signed int return_value_setgroups$16;
-    return_value_setgroups$16=setgroups((unsigned long int)1, &pw->pw_gid);
-    if(!(return_value_setgroups$16 == 0))
-      tmp_if_expr$18 = (_Bool)1;
+    signed int return_value_setgroups_16;
+    return_value_setgroups_16=setgroups((unsigned long int)1, &pw->pw_gid);
+    if(!(return_value_setgroups_16 == 0))
+      tmp_if_expr_18 = (_Bool)1;
 
     else
     {
-      return_value_setresgid$17=setresgid(pw->pw_gid, pw->pw_gid, pw->pw_gid);
-      tmp_if_expr$18 = return_value_setresgid$17 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_setresgid_17=setresgid(pw->pw_gid, pw->pw_gid, pw->pw_gid);
+      tmp_if_expr_18 = return_value_setresgid_17 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$18)
-      tmp_if_expr$20 = (_Bool)1;
+    if(tmp_if_expr_18)
+      tmp_if_expr_20 = (_Bool)1;
 
     else
     {
-      return_value_setresuid$19=setresuid(pw->pw_uid, pw->pw_uid, pw->pw_uid);
-      tmp_if_expr$20 = return_value_setresuid$19 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_setresuid_19=setresuid(pw->pw_uid, pw->pw_uid, pw->pw_uid);
+      tmp_if_expr_20 = return_value_setresuid_19 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$20)
+    if(tmp_if_expr_20)
       fatal("cannot drop privileges");
 
   }
@@ -16092,9 +16092,9 @@ void kore_worker_entry(struct kore_worker *kw)
     netwait=kore_timer_run(now);
     if(!(next_lock >= now))
     {
-      signed int return_value_kore_worker_acceptlock_obtain$21;
-      return_value_kore_worker_acceptlock_obtain$21=kore_worker_acceptlock_obtain();
-      if(!(return_value_kore_worker_acceptlock_obtain$21 == 0))
+      signed int return_value_kore_worker_acceptlock_obtain_21;
+      return_value_kore_worker_acceptlock_obtain_21=kore_worker_acceptlock_obtain();
+      if(!(return_value_kore_worker_acceptlock_obtain_21 == 0))
       {
         if(had_lock == 0)
         {
@@ -16218,25 +16218,25 @@ void kore_worker_init(void)
 
   len = sizeof(struct wlock) /*8ul*/  + sizeof(struct kore_worker) /*24ul*/  * (unsigned long int)worker_count;
   shm_accept_key=shmget((signed int)0, len, 01000 | 02000 | 0700);
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(shm_accept_key == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fatal("kore_worker_init(): shmget() %s", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fatal("kore_worker_init(): shmget() %s", return_value_strerror_2);
   }
 
-  void *return_value_shmat$5;
-  return_value_shmat$5=shmat(shm_accept_key, (void *)0, 0);
-  accept_lock = (struct wlock *)return_value_shmat$5;
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
+  void *return_value_shmat_5;
+  return_value_shmat_5=shmat(shm_accept_key, (void *)0, 0);
+  accept_lock = (struct wlock *)return_value_shmat_5;
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
   if(accept_lock == (struct wlock *)-1)
   {
-    return_value___errno_location$3=__errno_location();
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fatal("kore_worker_init(): shmat() %s", return_value_strerror$4);
+    return_value___errno_location_3=__errno_location();
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fatal("kore_worker_init(): shmat() %s", return_value_strerror_4);
   }
 
   accept_lock->lock = 0;
@@ -16245,12 +16245,12 @@ void kore_worker_init(void)
   memset((void *)kore_workers, 0, sizeof(struct kore_worker) /*24ul*/  * (unsigned long int)worker_count);
   cpu = (unsigned short int)0;
   i = (unsigned short int)0;
-  unsigned short int tmp_post$6;
+  unsigned short int tmp_post_6;
   for( ; !((signed int)i >= (signed int)worker_count); i = i + 1)
   {
-    tmp_post$6 = cpu;
+    tmp_post_6 = cpu;
     cpu = cpu + 1;
-    kore_worker_spawn(i, tmp_post$6);
+    kore_worker_spawn(i, tmp_post_6);
     if(cpu == cpu_count)
       cpu = (unsigned short int)0;
 
@@ -16283,15 +16283,15 @@ void kore_worker_shutdown(void)
 
   }
   while((_Bool)1);
-  signed int return_value_shmctl$3;
-  return_value_shmctl$3=shmctl(shm_accept_key, 0, (struct shmid_ds *)(void *)0);
-  if(return_value_shmctl$3 == -1)
+  signed int return_value_shmctl_3;
+  return_value_shmctl_3=shmctl(shm_accept_key, 0, (struct shmid_ds *)(void *)0);
+  if(return_value_shmctl_3 == -1)
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    kore_log(5, "failed to deleted shm segment: %s", return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    kore_log(5, "failed to deleted shm segment: %s", return_value_strerror_2);
   }
 
 }
@@ -16306,13 +16306,13 @@ void kore_worker_spawn(unsigned short int id, unsigned short int cpu)
   kw->has_lock = (unsigned char)0;
   kw->active_hdlr = (struct kore_module_handle *)(void *)0;
   kw->pid=fork();
-  signed int *return_value___errno_location$1;
-  char *return_value_strerror$2;
+  signed int *return_value___errno_location_1;
+  char *return_value_strerror_2;
   if(kw->pid == -1)
   {
-    return_value___errno_location$1=__errno_location();
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    fatal("could not spawn worker child: %s", return_value_strerror$2);
+    return_value___errno_location_1=__errno_location();
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    fatal("could not spawn worker child: %s", return_value_strerror_2);
   }
 
   if(kw->pid == 0)
@@ -16336,9 +16336,9 @@ void kore_worker_wait(signed int final)
 
   else
     pid=waitpid(-1, &status, 1);
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  char *tmp_if_expr$1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  char *tmp_if_expr_1;
   if(!(pid == -1))
   {
     if(!(pid == 0))
@@ -16357,7 +16357,7 @@ void kore_worker_wait(signed int final)
           }
 
           /* tag-#anon#lUN[lS32'__in'||S32'__i'|] */
-union anonymous$67
+union anonymous_67
 {
   // __in
   signed int __in;
@@ -16368,23 +16368,23 @@ union anonymous$67
 /* */
           ;
           if(!((0xff00 & status) >> 8 == 0))
-            tmp_if_expr$2 = (_Bool)1;
+            tmp_if_expr_2 = (_Bool)1;
 
           else
-            tmp_if_expr$2 = (((union anonymous$67){ .__in=status }).__i & 0x7f) != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$2)
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_2 = (((union anonymous_67){ .__in=status }).__i & 0x7f) != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_2)
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = (((union anonymous$67){ .__in=status }).__i & 0x80) != 0 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = (((union anonymous_67){ .__in=status }).__i & 0x80) != 0 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_3)
           {
             if(!(kw->active_hdlr == ((struct kore_module_handle *)NULL)))
-              tmp_if_expr$1 = kw->active_hdlr->func;
+              tmp_if_expr_1 = kw->active_hdlr->func;
 
             else
-              tmp_if_expr$1 = "none";
-            kore_log(5, "worker %d (pid: %d) (hdlr: %s) gone", kw->id, kw->pid, tmp_if_expr$1);
+              tmp_if_expr_1 = "none";
+            kore_log(5, "worker %d (pid: %d) (hdlr: %s) gone", kw->id, kw->pid, tmp_if_expr_1);
             if(kw->pid == accept_lock->current)
               worker_unlock();
 
@@ -16433,11 +16433,11 @@ static void kore_write_kore_pid(void)
   fp=fopen(kore_pidfile, "w+");
   if(fp == ((struct _IO_FILE *)NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    char *return_value_strerror$2;
-    return_value_strerror$2=strerror(*return_value___errno_location$1);
-    printf("warning: couldn't write pid to %s (%s)\n", kore_pidfile, return_value_strerror$2);
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    char *return_value_strerror_2;
+    return_value_strerror_2=strerror(*return_value___errno_location_1);
+    printf("warning: couldn't write pid to %s (%s)\n", kore_pidfile, return_value_strerror_2);
   }
 
   else
@@ -16511,9 +16511,9 @@ signed int main(signed int argc, char **argv)
     if(!(flags == 0))
       fatal("You cannot specify kore flags and a command");
 
-    signed int return_value_kore_cli_main$1;
-    return_value_kore_cli_main$1=kore_cli_main(argc, argv);
-    return return_value_kore_cli_main$1;
+    signed int return_value_kore_cli_main_1;
+    return_value_kore_cli_main_1=kore_cli_main(argc, argv);
+    return return_value_kore_cli_main_1;
   }
 
   kore_pid=getpid();
@@ -16566,14 +16566,14 @@ void net_init(void)
 signed int net_read(struct connection *c, signed int *bytes)
 {
   signed int r;
-  signed long int return_value_read$1;
-  return_value_read$1=read(c->fd, (void *)(c->rnb->buf + (signed long int)c->rnb->s_off), (unsigned long int)(c->rnb->b_len - c->rnb->s_off));
-  r = (signed int)return_value_read$1;
+  signed long int return_value_read_1;
+  return_value_read_1=read(c->fd, (void *)(c->rnb->buf + (signed long int)c->rnb->s_off), (unsigned long int)(c->rnb->b_len - c->rnb->s_off));
+  r = (signed int)return_value_read_1;
   if(!(r >= 1))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(*return_value___errno_location$2 == 4 || *return_value___errno_location$2 == 11)
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(*return_value___errno_location_2 == 4 || *return_value___errno_location_2 == 11)
     {
       c->flags = c->flags & (unsigned char)~0x01;
       return 1;
@@ -16591,9 +16591,9 @@ signed int net_read(struct connection *c, signed int *bytes)
 unsigned short int net_read16(unsigned char *b)
 {
   unsigned short int r = *((unsigned short int *)b);
-  unsigned short int return_value_ntohs$1;
-  return_value_ntohs$1=ntohs(r);
-  return return_value_ntohs$1;
+  unsigned short int return_value_ntohs_1;
+  return_value_ntohs_1=ntohs(r);
+  return return_value_ntohs_1;
 }
 
 // net_read32
@@ -16601,9 +16601,9 @@ unsigned short int net_read16(unsigned char *b)
 unsigned int net_read32(unsigned char *b)
 {
   unsigned int r = *((unsigned int *)b);
-  unsigned int return_value_ntohl$1;
-  return_value_ntohl$1=ntohl(r);
-  return return_value_ntohl$1;
+  unsigned int return_value_ntohl_1;
+  return_value_ntohl_1=ntohl(r);
+  return return_value_ntohl_1;
 }
 
 // net_read64
@@ -16611,9 +16611,9 @@ unsigned int net_read32(unsigned char *b)
 unsigned long int net_read64(unsigned char *b)
 {
   unsigned long int r = *((unsigned long int *)b);
-  unsigned long int return_value___bswap_64$1;
-  return_value___bswap_64$1=__bswap_64(r);
-  return return_value___bswap_64$1;
+  unsigned long int return_value___bswap_64_1;
+  return_value___bswap_64_1=__bswap_64(r);
+  return return_value___bswap_64_1;
 }
 
 // net_read_ssl
@@ -16655,9 +16655,9 @@ void net_recv_expand(struct connection *c, unsigned int len, signed int (*cb)(st
   c->rnb->cb = cb;
   c->rnb->b_len = c->rnb->b_len + len;
   c->rnb->m_len = c->rnb->b_len;
-  void *return_value_kore_realloc$1;
-  return_value_kore_realloc$1=kore_realloc((void *)c->rnb->buf, (unsigned long int)c->rnb->b_len);
-  c->rnb->buf = (unsigned char *)return_value_kore_realloc$1;
+  void *return_value_kore_realloc_1;
+  return_value_kore_realloc_1=kore_realloc((void *)c->rnb->buf, (unsigned long int)c->rnb->b_len);
+  c->rnb->buf = (unsigned char *)return_value_kore_realloc_1;
 }
 
 // net_recv_flush
@@ -16668,7 +16668,7 @@ signed int net_recv_flush(struct connection *c)
   if(c->rnb == ((struct netbuf *)NULL))
     fatal("net_recv_flush(): c->rnb == NULL");
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!((0x01 & (signed int)c->flags) == 0))
   {
     signed int return_value;
@@ -16680,11 +16680,11 @@ signed int net_recv_flush(struct connection *c)
     {
       c->rnb->s_off = c->rnb->s_off + (unsigned int)(unsigned long int)r;
       if(c->rnb->s_off == c->rnb->b_len)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = ((signed int)c->rnb->flags & 0x01) != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = ((signed int)c->rnb->flags & 0x01) != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         r=c->rnb->cb(c->rnb);
         if(!(r == 1))
@@ -16706,9 +16706,9 @@ void net_recv_queue(struct connection *c, unsigned int len, signed int flags, si
   if(!(c->rnb == ((struct netbuf *)NULL)))
     fatal("net_recv_queue(): called incorrectly for %p", c);
 
-  void *return_value_kore_pool_get$1;
-  return_value_kore_pool_get$1=kore_pool_get(&nb_pool);
-  c->rnb = (struct netbuf *)return_value_kore_pool_get$1;
+  void *return_value_kore_pool_get_1;
+  return_value_kore_pool_get_1=kore_pool_get(&nb_pool);
+  c->rnb = (struct netbuf *)return_value_kore_pool_get_1;
   c->rnb->cb = cb;
   c->rnb->owner = (void *)c;
   c->rnb->s_off = (unsigned int)0;
@@ -16718,9 +16718,9 @@ void net_recv_queue(struct connection *c, unsigned int len, signed int flags, si
   c->rnb->stream = (struct spdy_stream *)(void *)0;
   c->rnb->flags = (unsigned char)flags;
   c->rnb->type = (unsigned char)0;
-  void *return_value_kore_malloc$2;
-  return_value_kore_malloc$2=kore_malloc((unsigned long int)c->rnb->b_len);
-  c->rnb->buf = (unsigned char *)return_value_kore_malloc$2;
+  void *return_value_kore_malloc_2;
+  return_value_kore_malloc_2=kore_malloc((unsigned long int)c->rnb->b_len);
+  c->rnb->buf = (unsigned char *)return_value_kore_malloc_2;
 }
 
 // net_recv_reset
@@ -16742,9 +16742,9 @@ void net_recv_reset(struct connection *c, unsigned int len, signed int (*cb)(str
 
   kore_mem_free((void *)c->rnb->buf);
   c->rnb->m_len = len;
-  void *return_value_kore_malloc$1;
-  return_value_kore_malloc$1=kore_malloc((unsigned long int)c->rnb->m_len);
-  c->rnb->buf = (unsigned char *)return_value_kore_malloc$1;
+  void *return_value_kore_malloc_1;
+  return_value_kore_malloc_1=kore_malloc((unsigned long int)c->rnb->m_len);
+  c->rnb->buf = (unsigned char *)return_value_kore_malloc_1;
 
 __CPROVER_DUMP_L3:
   ;
@@ -16792,16 +16792,16 @@ signed int net_send(struct connection *c)
   unsigned int len;
   unsigned int smin;
   c->snb = (&c->send_queue)->tqh_first;
-  unsigned int tmp_if_expr$2;
+  unsigned int tmp_if_expr_2;
   if(!(c->snb->b_len == 0u))
   {
     if(!(c->snb->stream == ((struct spdy_stream *)NULL)))
     {
       if(!((0x20 & (signed int)c->snb->stream->flags) == 0))
       {
-        signed int return_value_spdy_dataframe_begin$1;
-        return_value_spdy_dataframe_begin$1=spdy_dataframe_begin(c);
-        if(return_value_spdy_dataframe_begin$1 == 0)
+        signed int return_value_spdy_dataframe_begin_1;
+        return_value_spdy_dataframe_begin_1=spdy_dataframe_begin(c);
+        if(return_value_spdy_dataframe_begin_1 == 0)
         {
           c->snb = (struct netbuf *)(void *)0;
           return 1;
@@ -16818,11 +16818,11 @@ signed int net_send(struct connection *c)
       if(c->snb->stream->frame_size >= 1u)
       {
         if(!(smin >= c->snb->stream->frame_size))
-          tmp_if_expr$2 = smin;
+          tmp_if_expr_2 = smin;
 
         else
-          tmp_if_expr$2 = c->snb->stream->frame_size;
-        smin = tmp_if_expr$2;
+          tmp_if_expr_2 = c->snb->stream->frame_size;
+        smin = tmp_if_expr_2;
       }
 
     }
@@ -16843,13 +16843,13 @@ signed int net_send(struct connection *c)
 
   }
 
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_3;
   if(c->snb->s_off == c->snb->b_len)
-    tmp_if_expr$3 = (_Bool)1;
+    tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr$3 = ((signed int)c->snb->flags & 0x02) != 0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = ((signed int)c->snb->flags & 0x02) != 0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_3)
   {
     net_remove_netbuf(&c->send_queue, c->snb);
     c->snb = (struct netbuf *)(void *)0;
@@ -16867,9 +16867,9 @@ signed int net_send_flush(struct connection *c)
     if((0x02 & (signed int)c->flags) == 0)
       break;
 
-    signed int return_value_net_send$1;
-    return_value_net_send$1=net_send(c);
-    if(return_value_net_send$1 == 0)
+    signed int return_value_net_send_1;
+    return_value_net_send_1=net_send(c);
+    if(return_value_net_send_1 == 0)
       return 0;
 
   }
@@ -16931,9 +16931,9 @@ void net_send_queue(struct connection *c, void *data, unsigned int len, struct s
 
   __CPROVER_DUMP_L2:
     ;
-    void *return_value_kore_pool_get$1;
-    return_value_kore_pool_get$1=kore_pool_get(&nb_pool);
-    nb = (struct netbuf *)return_value_kore_pool_get$1;
+    void *return_value_kore_pool_get_1;
+    return_value_kore_pool_get_1=kore_pool_get(&nb_pool);
+    nb = (struct netbuf *)return_value_kore_pool_get_1;
     nb->flags = (unsigned char)0;
     nb->cb = (signed int (*)(struct netbuf *))(void *)0;
     nb->owner = (void *)c;
@@ -16946,9 +16946,9 @@ void net_send_queue(struct connection *c, void *data, unsigned int len, struct s
 
     else
       nb->m_len = nb->b_len;
-    void *return_value_kore_malloc$2;
-    return_value_kore_malloc$2=kore_malloc((unsigned long int)nb->m_len);
-    nb->buf = (unsigned char *)return_value_kore_malloc$2;
+    void *return_value_kore_malloc_2;
+    return_value_kore_malloc_2=kore_malloc((unsigned long int)nb->m_len);
+    nb->buf = (unsigned char *)return_value_kore_malloc_2;
     if(len >= 1u)
       memcpy((void *)nb->buf, (const void *)d, (unsigned long int)nb->b_len);
 
@@ -16982,9 +16982,9 @@ __CPROVER_DUMP_L9:
 void net_send_stream(struct connection *c, void *data, unsigned int len, struct spdy_stream *s, signed int (*cb)(struct netbuf *), struct netbuf **out)
 {
   struct netbuf *nb;
-  void *return_value_kore_pool_get$1;
-  return_value_kore_pool_get$1=kore_pool_get(&nb_pool);
-  nb = (struct netbuf *)return_value_kore_pool_get$1;
+  void *return_value_kore_pool_get_1;
+  return_value_kore_pool_get_1=kore_pool_get(&nb_pool);
+  nb = (struct netbuf *)return_value_kore_pool_get_1;
   nb->cb = cb;
   nb->owner = (void *)c;
   nb->s_off = (unsigned int)0;
@@ -17012,14 +17012,14 @@ void net_send_stream(struct connection *c, void *data, unsigned int len, struct 
 signed int net_write(struct connection *c, signed int len, signed int *written)
 {
   signed int r;
-  signed long int return_value_write$1;
-  return_value_write$1=write(c->fd, (const void *)(c->snb->buf + (signed long int)c->snb->s_off), (unsigned long int)len);
-  r = (signed int)return_value_write$1;
+  signed long int return_value_write_1;
+  return_value_write_1=write(c->fd, (const void *)(c->snb->buf + (signed long int)c->snb->s_off), (unsigned long int)len);
+  r = (signed int)return_value_write_1;
   if(!(r >= 0))
   {
-    signed int *return_value___errno_location$2;
-    return_value___errno_location$2=__errno_location();
-    if(*return_value___errno_location$2 == 4 || *return_value___errno_location$2 == 11)
+    signed int *return_value___errno_location_2;
+    return_value___errno_location_2=__errno_location();
+    if(*return_value___errno_location_2 == 4 || *return_value___errno_location_2 == 11)
     {
       c->flags = c->flags & (unsigned char)~0x02;
       return 1;
@@ -17114,9 +17114,9 @@ static void pgsql_conn_cleanup(struct pgsql_conn *conn)
     http_request_wakeup(req);
     pgsql->conn = (struct pgsql_conn *)(void *)0;
     pgsql->state = (unsigned char)4;
-    char *return_value_PQerrorMessage$1;
-    return_value_PQerrorMessage$1=PQerrorMessage(conn->db);
-    pgsql->error=kore_strdup(return_value_PQerrorMessage$1);
+    char *return_value_PQerrorMessage_1;
+    return_value_PQerrorMessage_1=PQerrorMessage(conn->db);
+    pgsql->error=kore_strdup(return_value_PQerrorMessage_1);
     kore_mem_free((void *)conn->job->query);
     kore_pool_put(&pgsql_job_pool, (void *)conn->job);
     conn->job = (struct pgsql_job *)(void *)0;
@@ -17138,27 +17138,27 @@ static signed int pgsql_conn_create(struct kore_pgsql *pgsql)
     fatal("pgsql_conn_create: no connection string");
 
   pgsql_conn_count = pgsql_conn_count + 1;
-  void *return_value_kore_malloc$1;
-  return_value_kore_malloc$1=kore_malloc(sizeof(struct pgsql_conn) /*40ul*/ );
-  conn = (struct pgsql_conn *)return_value_kore_malloc$1;
+  void *return_value_kore_malloc_1;
+  return_value_kore_malloc_1=kore_malloc(sizeof(struct pgsql_conn) /*40ul*/ );
+  conn = (struct pgsql_conn *)return_value_kore_malloc_1;
   memset((void *)conn, 0, sizeof(struct pgsql_conn) /*40ul*/ );
   conn->db=PQconnectdb(pgsql_conn_string);
-  _Bool tmp_if_expr$4;
-  enum anonymous$4 return_value_PQstatus$3;
+  _Bool tmp_if_expr_4;
+  enum anonymous_4 return_value_PQstatus_3;
   if(conn->db == ((struct pg_conn *)NULL))
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
   {
-    return_value_PQstatus$3=PQstatus(conn->db);
-    tmp_if_expr$4 = (signed int)return_value_PQstatus$3 != CONNECTION_OK ? (_Bool)1 : (_Bool)0;
+    return_value_PQstatus_3=PQstatus(conn->db);
+    tmp_if_expr_4 = (signed int)return_value_PQstatus_3 != CONNECTION_OK ? (_Bool)1 : (_Bool)0;
   }
-  if(tmp_if_expr$4)
+  if(tmp_if_expr_4)
   {
     pgsql->state = (unsigned char)4;
-    char *return_value_PQerrorMessage$2;
-    return_value_PQerrorMessage$2=PQerrorMessage(conn->db);
-    pgsql->error=kore_strdup(return_value_PQerrorMessage$2);
+    char *return_value_PQerrorMessage_2;
+    return_value_PQerrorMessage_2=PQerrorMessage(conn->db);
+    pgsql->error=kore_strdup(return_value_PQerrorMessage_2);
     pgsql_conn_cleanup(conn);
     return 0;
   }
@@ -17182,15 +17182,15 @@ static signed int pgsql_conn_create(struct kore_pgsql *pgsql)
 static void pgsql_conn_release(struct kore_pgsql *pgsql)
 {
   signed int fd;
-  struct pg_result *return_value_PQgetResult$1;
+  struct pg_result *return_value_PQgetResult_1;
   if(!(pgsql->conn == ((struct pgsql_conn *)NULL)))
   {
     kore_mem_free((void *)pgsql->conn->job->query);
     kore_pool_put(&pgsql_job_pool, (void *)pgsql->conn->job);
     do
     {
-      return_value_PQgetResult$1=PQgetResult(pgsql->conn->db);
-      if(return_value_PQgetResult$1 == ((struct pg_result *)NULL))
+      return_value_PQgetResult_1=PQgetResult(pgsql->conn->db);
+      if(return_value_PQgetResult_1 == ((struct pg_result *)NULL))
         break;
 
     }
@@ -17231,9 +17231,9 @@ static signed int pgsql_prepare(struct kore_pgsql *pgsql, struct http_request *r
       return 0;
     }
 
-    signed int return_value_pgsql_conn_create$1;
-    return_value_pgsql_conn_create$1=pgsql_conn_create(pgsql);
-    if(return_value_pgsql_conn_create$1 == 0)
+    signed int return_value_pgsql_conn_create_1;
+    return_value_pgsql_conn_create_1=pgsql_conn_create(pgsql);
+    if(return_value_pgsql_conn_create_1 == 0)
       return 0;
 
   }
@@ -17255,9 +17255,9 @@ static signed int pgsql_prepare(struct kore_pgsql *pgsql, struct http_request *r
   }
   while((_Bool)0);
   pgsql->conn = conn;
-  void *return_value_kore_pool_get$2;
-  return_value_kore_pool_get$2=kore_pool_get(&pgsql_job_pool);
-  conn->job = (struct pgsql_job *)return_value_kore_pool_get$2;
+  void *return_value_kore_pool_get_2;
+  return_value_kore_pool_get_2=kore_pool_get(&pgsql_job_pool);
+  conn->job = (struct pgsql_job *)return_value_kore_pool_get_2;
   conn->job->query=kore_strdup(query);
   conn->job->pgsql = pgsql;
   conn->job->req = req;
@@ -17280,9 +17280,9 @@ static void pgsql_queue_add(struct http_request *req)
 {
   struct pgsql_wait *pgw;
   http_request_sleep(req);
-  void *return_value_kore_pool_get$1;
-  return_value_kore_pool_get$1=kore_pool_get(&pgsql_wait_pool);
-  pgw = (struct pgsql_wait *)return_value_kore_pool_get$1;
+  void *return_value_kore_pool_get_1;
+  return_value_kore_pool_get_1=kore_pool_get(&pgsql_wait_pool);
+  pgw = (struct pgsql_wait *)return_value_kore_pool_get_1;
   pgw->req = req;
   pgw->req->flags = pgw->req->flags | (unsigned char)0x10;
   do
@@ -17335,9 +17335,9 @@ static void pgsql_read_result(struct kore_pgsql *pgsql, signed int async)
 {
   if(!(async == 0))
   {
-    signed int return_value_PQisBusy$1;
-    return_value_PQisBusy$1=PQisBusy(pgsql->conn->db);
-    if(!(return_value_PQisBusy$1 == 0))
+    signed int return_value_PQisBusy_1;
+    return_value_PQisBusy_1=PQisBusy(pgsql->conn->db);
+    if(!(return_value_PQisBusy_1 == 0))
     {
       pgsql->state = (unsigned char)2;
       goto __CPROVER_DUMP_L9;
@@ -17346,15 +17346,15 @@ static void pgsql_read_result(struct kore_pgsql *pgsql, signed int async)
   }
 
   pgsql->result=PQgetResult(pgsql->conn->db);
-  char *return_value_PQresultErrorMessage$3;
+  char *return_value_PQresultErrorMessage_3;
   if(pgsql->result == ((struct pg_result *)NULL))
     pgsql->state = (unsigned char)5;
 
   else
   {
-    enum anonymous return_value_PQresultStatus$2;
-    return_value_PQresultStatus$2=PQresultStatus(pgsql->result);
-    switch((signed int)return_value_PQresultStatus$2)
+    enum anonymous return_value_PQresultStatus_2;
+    return_value_PQresultStatus_2=PQresultStatus(pgsql->result);
+    switch((signed int)return_value_PQresultStatus_2)
     {
       case PGRES_COPY_OUT:
 
@@ -17383,8 +17383,8 @@ static void pgsql_read_result(struct kore_pgsql *pgsql, signed int async)
       case PGRES_FATAL_ERROR:
       {
         pgsql->state = (unsigned char)4;
-        return_value_PQresultErrorMessage$3=PQresultErrorMessage(pgsql->result);
-        pgsql->error=kore_strdup(return_value_PQresultErrorMessage$3);
+        return_value_PQresultErrorMessage_3=PQresultErrorMessage(pgsql->result);
+        pgsql->error=kore_strdup(return_value_PQresultErrorMessage_3);
       }
       default:
 
@@ -17418,9 +17418,9 @@ static void pool_region_create(struct kore_pool *pool, unsigned int elms)
   unsigned char *p;
   struct kore_pool_region *reg;
   struct kore_pool_entry *entry;
-  void *return_value_kore_malloc$1;
-  return_value_kore_malloc$1=kore_malloc(sizeof(struct kore_pool_region) /*24ul*/ );
-  reg = (struct kore_pool_region *)return_value_kore_malloc$1;
+  void *return_value_kore_malloc_1;
+  return_value_kore_malloc_1=kore_malloc(sizeof(struct kore_pool_region) /*24ul*/ );
+  reg = (struct kore_pool_region *)return_value_kore_malloc_1;
   do
   {
     reg->list.le_next = (&pool->regions)->lh_first;
@@ -17533,9 +17533,9 @@ static signed int spdy_ctrl_frame_settings(struct netbuf *nb)
   unsigned int diff;
   struct connection *c = (struct connection *)nb->owner;
   ecount=net_read32(nb->buf + (signed long int)8);
-  unsigned int return_value_net_read32$1;
-  return_value_net_read32$1=net_read32(nb->buf + (signed long int)4);
-  length = return_value_net_read32$1 & (unsigned int)0xffffff;
+  unsigned int return_value_net_read32_1;
+  return_value_net_read32_1=net_read32(nb->buf + (signed long int)4);
+  length = return_value_net_read32_1 & (unsigned int)0xffffff;
   if(!((signed int)ecount >= 0) || !((signed int)length >= 0))
   {
     spdy_session_teardown(c, (unsigned char)1);
@@ -17555,9 +17555,9 @@ static signed int spdy_ctrl_frame_settings(struct netbuf *nb)
       i = (unsigned int)0;
       for( ; !(i >= ecount); i = i + 1u)
       {
-        unsigned int return_value_net_read32$2;
-        return_value_net_read32$2=net_read32(buf);
-        id = return_value_net_read32$2 & (unsigned int)0xffffff;
+        unsigned int return_value_net_read32_2;
+        return_value_net_read32_2=net_read32(buf);
+        id = return_value_net_read32_2 & (unsigned int)0xffffff;
         val=net_read32(buf + (signed long int)4);
         if(!((signed int)val >= 0))
           buf = buf + (signed long int)8;
@@ -17592,24 +17592,24 @@ static signed int spdy_ctrl_frame_syn_stream(struct netbuf *nb)
   char *host;
   char *method;
   char *path;
-  char *spdy_ctrl_frame_syn_stream$$1$$version;
+  char *spdy_ctrl_frame_syn_stream__1__version;
   struct connection *c = (struct connection *)nb->owner;
-  unsigned short int return_value_net_read16$1;
-  return_value_net_read16$1=net_read16(nb->buf);
-  ctrl.version = (unsigned short int)((signed int)return_value_net_read16$1 & 0x7fff);
+  unsigned short int return_value_net_read16_1;
+  return_value_net_read16_1=net_read16(nb->buf);
+  ctrl.version = (unsigned short int)((signed int)return_value_net_read16_1 & 0x7fff);
   ctrl.type=net_read16(nb->buf + (signed long int)2);
   ctrl.flags = *((unsigned char *)(nb->buf + (signed long int)4));
-  unsigned int return_value_net_read32$2;
-  return_value_net_read32$2=net_read32(nb->buf + (signed long int)4);
-  ctrl.length = return_value_net_read32$2 & (unsigned int)0xffffff;
+  unsigned int return_value_net_read32_2;
+  return_value_net_read32_2=net_read32(nb->buf + (signed long int)4);
+  ctrl.length = return_value_net_read32_2 & (unsigned int)0xffffff;
   syn.stream_id=net_read32(nb->buf + (signed long int)8);
   syn.assoc_stream_id=net_read32(nb->buf + (signed long int)12);
-  unsigned short int return_value_net_read16$3;
-  return_value_net_read16$3=net_read16(nb->buf + (signed long int)16);
-  syn.prio = (unsigned char)((signed int)return_value_net_read16$3 & 0xe000);
-  unsigned short int return_value_net_read16$4;
-  return_value_net_read16$4=net_read16(nb->buf + (signed long int)16);
-  syn.slot = (unsigned char)((signed int)return_value_net_read16$4 & 0x7);
+  unsigned short int return_value_net_read16_3;
+  return_value_net_read16_3=net_read16(nb->buf + (signed long int)16);
+  syn.prio = (unsigned char)((signed int)return_value_net_read16_3 & 0xe000);
+  unsigned short int return_value_net_read16_4;
+  return_value_net_read16_4=net_read16(nb->buf + (signed long int)16);
+  syn.slot = (unsigned char)((signed int)return_value_net_read16_4 & 0x7);
   if(c->spdy_send_wsize >= 1u)
   {
     if(!((0x04 & (signed int)c->flags) == 0))
@@ -17648,9 +17648,9 @@ static signed int spdy_ctrl_frame_syn_stream(struct netbuf *nb)
 
         else
         {
-          void *return_value_kore_malloc$5;
-          return_value_kore_malloc$5=kore_malloc(sizeof(struct spdy_stream) /*80ul*/ );
-          s = (struct spdy_stream *)return_value_kore_malloc$5;
+          void *return_value_kore_malloc_5;
+          return_value_kore_malloc_5=kore_malloc(sizeof(struct spdy_stream) /*80ul*/ );
+          s = (struct spdy_stream *)return_value_kore_malloc_5;
           s->send_size = (unsigned long int)0;
           s->frame_size = (unsigned int)0;
           s->httpreq = (struct http_request *)(void *)0;
@@ -17662,9 +17662,9 @@ static signed int spdy_ctrl_frame_syn_stream(struct netbuf *nb)
           s->stream_id = syn.stream_id;
           s->hblock=spdy_header_block_create(1);
           src = nb->buf + (signed long int)8 + (signed long int)10;
-          signed int return_value_spdy_zlib_inflate$6;
-          return_value_spdy_zlib_inflate$6=spdy_zlib_inflate(c, src, (unsigned long int)(ctrl.length - (unsigned int)10), &s->hblock->header_block, &s->hblock->header_block_len);
-          if(return_value_spdy_zlib_inflate$6 == 0)
+          signed int return_value_spdy_zlib_inflate_6;
+          return_value_spdy_zlib_inflate_6=spdy_zlib_inflate(c, src, (unsigned long int)(ctrl.length - (unsigned int)10), &s->hblock->header_block, &s->hblock->header_block_len);
+          if(return_value_spdy_zlib_inflate_6 == 0)
           {
             kore_mem_free((void *)s->hblock->header_block);
             kore_mem_free((void *)s->hblock);
@@ -17690,10 +17690,10 @@ static signed int spdy_ctrl_frame_syn_stream(struct netbuf *nb)
               path = (char *)(void *)0;
               host = (char *)(void *)0;
               method = (char *)(void *)0;
-              spdy_ctrl_frame_syn_stream$$1$$version = (char *)(void *)0;
-              signed int return_value_spdy_stream_get_header$7;
-              return_value_spdy_stream_get_header$7=spdy_stream_get_header(s->hblock, ":path", &path);
-              if(return_value_spdy_stream_get_header$7 == 0)
+              spdy_ctrl_frame_syn_stream__1__version = (char *)(void *)0;
+              signed int return_value_spdy_stream_get_header_7;
+              return_value_spdy_stream_get_header_7=spdy_stream_get_header(s->hblock, ":path", &path);
+              if(return_value_spdy_stream_get_header_7 == 0)
               {
                 kore_mem_free((void *)s->hblock->header_block);
                 kore_mem_free((void *)s->hblock);
@@ -17707,8 +17707,8 @@ static signed int spdy_ctrl_frame_syn_stream(struct netbuf *nb)
                 if(!(method == ((char *)NULL)))
                   kore_mem_free((void *)method);
 
-                if(!(spdy_ctrl_frame_syn_stream$$1$$version == ((char *)NULL)))
-                  kore_mem_free((void *)spdy_ctrl_frame_syn_stream$$1$$version);
+                if(!(spdy_ctrl_frame_syn_stream__1__version == ((char *)NULL)))
+                  kore_mem_free((void *)spdy_ctrl_frame_syn_stream__1__version);
 
                 spdy_session_teardown(c, (unsigned char)1);
                 return 1;
@@ -17716,9 +17716,9 @@ static signed int spdy_ctrl_frame_syn_stream(struct netbuf *nb)
 
               else
               {
-                signed int return_value_spdy_stream_get_header$8;
-                return_value_spdy_stream_get_header$8=spdy_stream_get_header(s->hblock, ":method", &method);
-                if(return_value_spdy_stream_get_header$8 == 0)
+                signed int return_value_spdy_stream_get_header_8;
+                return_value_spdy_stream_get_header_8=spdy_stream_get_header(s->hblock, ":method", &method);
+                if(return_value_spdy_stream_get_header_8 == 0)
                 {
                   kore_mem_free((void *)s->hblock->header_block);
                   kore_mem_free((void *)s->hblock);
@@ -17732,8 +17732,8 @@ static signed int spdy_ctrl_frame_syn_stream(struct netbuf *nb)
                   if(!(method == ((char *)NULL)))
                     kore_mem_free((void *)method);
 
-                  if(!(spdy_ctrl_frame_syn_stream$$1$$version == ((char *)NULL)))
-                    kore_mem_free((void *)spdy_ctrl_frame_syn_stream$$1$$version);
+                  if(!(spdy_ctrl_frame_syn_stream__1__version == ((char *)NULL)))
+                    kore_mem_free((void *)spdy_ctrl_frame_syn_stream__1__version);
 
                   spdy_session_teardown(c, (unsigned char)1);
                   return 1;
@@ -17741,9 +17741,9 @@ static signed int spdy_ctrl_frame_syn_stream(struct netbuf *nb)
 
                 else
                 {
-                  signed int return_value_spdy_stream_get_header$9;
-                  return_value_spdy_stream_get_header$9=spdy_stream_get_header(s->hblock, ":host", &host);
-                  if(return_value_spdy_stream_get_header$9 == 0)
+                  signed int return_value_spdy_stream_get_header_9;
+                  return_value_spdy_stream_get_header_9=spdy_stream_get_header(s->hblock, ":host", &host);
+                  if(return_value_spdy_stream_get_header_9 == 0)
                   {
                     kore_mem_free((void *)s->hblock->header_block);
                     kore_mem_free((void *)s->hblock);
@@ -17757,8 +17757,8 @@ static signed int spdy_ctrl_frame_syn_stream(struct netbuf *nb)
                     if(!(method == ((char *)NULL)))
                       kore_mem_free((void *)method);
 
-                    if(!(spdy_ctrl_frame_syn_stream$$1$$version == ((char *)NULL)))
-                      kore_mem_free((void *)spdy_ctrl_frame_syn_stream$$1$$version);
+                    if(!(spdy_ctrl_frame_syn_stream__1__version == ((char *)NULL)))
+                      kore_mem_free((void *)spdy_ctrl_frame_syn_stream__1__version);
 
                     spdy_session_teardown(c, (unsigned char)1);
                     return 1;
@@ -17766,9 +17766,9 @@ static signed int spdy_ctrl_frame_syn_stream(struct netbuf *nb)
 
                   else
                   {
-                    signed int return_value_spdy_stream_get_header$10;
-                    return_value_spdy_stream_get_header$10=spdy_stream_get_header(s->hblock, ":version", &spdy_ctrl_frame_syn_stream$$1$$version);
-                    if(return_value_spdy_stream_get_header$10 == 0)
+                    signed int return_value_spdy_stream_get_header_10;
+                    return_value_spdy_stream_get_header_10=spdy_stream_get_header(s->hblock, ":version", &spdy_ctrl_frame_syn_stream__1__version);
+                    if(return_value_spdy_stream_get_header_10 == 0)
                     {
                       kore_mem_free((void *)s->hblock->header_block);
                       kore_mem_free((void *)s->hblock);
@@ -17782,8 +17782,8 @@ static signed int spdy_ctrl_frame_syn_stream(struct netbuf *nb)
                       if(!(method == ((char *)NULL)))
                         kore_mem_free((void *)method);
 
-                      if(!(spdy_ctrl_frame_syn_stream$$1$$version == ((char *)NULL)))
-                        kore_mem_free((void *)spdy_ctrl_frame_syn_stream$$1$$version);
+                      if(!(spdy_ctrl_frame_syn_stream__1__version == ((char *)NULL)))
+                        kore_mem_free((void *)spdy_ctrl_frame_syn_stream__1__version);
 
                       spdy_session_teardown(c, (unsigned char)1);
                       return 1;
@@ -17800,11 +17800,11 @@ static signed int spdy_ctrl_frame_syn_stream(struct netbuf *nb)
                         (&c->spdy_streams)->tqh_last = &s->list.tqe_next;
                       }
                       while((_Bool)0);
-                      http_request_new(c, s, host, method, path, spdy_ctrl_frame_syn_stream$$1$$version, (struct http_request **)&s->httpreq);
+                      http_request_new(c, s, host, method, path, spdy_ctrl_frame_syn_stream__1__version, (struct http_request **)&s->httpreq);
                       kore_mem_free((void *)path);
                       kore_mem_free((void *)method);
                       kore_mem_free((void *)host);
-                      kore_mem_free((void *)spdy_ctrl_frame_syn_stream$$1$$version);
+                      kore_mem_free((void *)spdy_ctrl_frame_syn_stream__1__version);
                       net_recv_reset(c, (unsigned int)8, spdy_frame_recv);
                       return 1;
                     }
@@ -17883,15 +17883,15 @@ static signed int spdy_data_frame_recv(struct netbuf *nb)
   struct spdy_data_frame data;
   char *content;
   struct connection *c = (struct connection *)nb->owner;
-  unsigned int return_value_net_read32$1;
-  return_value_net_read32$1=net_read32(nb->buf);
-  data.stream_id = return_value_net_read32$1 & (unsigned int)~(1 << 31);
+  unsigned int return_value_net_read32_1;
+  return_value_net_read32_1=net_read32(nb->buf);
+  data.stream_id = return_value_net_read32_1 & (unsigned int)~(1 << 31);
   data.flags = *((unsigned char *)(nb->buf + (signed long int)4));
-  unsigned int return_value_net_read32$2;
-  return_value_net_read32$2=net_read32(nb->buf + (signed long int)4);
-  data.length = return_value_net_read32$2 & (unsigned int)0xffffff;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$6;
+  unsigned int return_value_net_read32_2;
+  return_value_net_read32_2=net_read32(nb->buf + (signed long int)4);
+  data.length = return_value_net_read32_2 & (unsigned int)0xffffff;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_6;
   if(!((signed int)data.length >= 0))
     return 0;
 
@@ -17905,25 +17905,25 @@ static signed int spdy_data_frame_recv(struct netbuf *nb)
     {
       req = (struct http_request *)s->httpreq;
       if(req == ((struct http_request *)NULL))
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = !(((signed int)req->flags & 0x20) != 0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = !(((signed int)req->flags & 0x20) != 0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
         return 0;
 
       else
       {
         if(req->http_body == ((struct kore_buf *)NULL))
         {
-          signed int return_value_spdy_stream_get_header$4;
-          return_value_spdy_stream_get_header$4=spdy_stream_get_header(s->hblock, "content-length", &content);
-          if(return_value_spdy_stream_get_header$4 == 0)
+          signed int return_value_spdy_stream_get_header_4;
+          return_value_spdy_stream_get_header_4=spdy_stream_get_header(s->hblock, "content-length", &content);
+          if(return_value_spdy_stream_get_header_4 == 0)
             return 0;
 
-          signed long long int return_value_kore_strtonum$5;
-          return_value_kore_strtonum$5=kore_strtonum(content, 10, (signed long long int)0, 0x7fffffffffffffffLL, &err);
-          s->post_size = (unsigned long int)return_value_kore_strtonum$5;
+          signed long long int return_value_kore_strtonum_5;
+          return_value_kore_strtonum_5=kore_strtonum(content, 10, (signed long long int)0, 0x7fffffffffffffffLL, &err);
+          s->post_size = (unsigned long int)return_value_kore_strtonum_5;
           if(err == 0)
           {
             kore_mem_free((void *)content);
@@ -17955,11 +17955,11 @@ static signed int spdy_data_frame_recv(struct netbuf *nb)
         {
           kore_buf_append(req->http_body, (void *)(nb->buf + (signed long int)8), data.length);
           if(!((0x01 & (signed int)data.flags) == 0))
-            tmp_if_expr$6 = (_Bool)1;
+            tmp_if_expr_6 = (_Bool)1;
 
           else
-            tmp_if_expr$6 = req->http_body->offset == s->post_size ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$6)
+            tmp_if_expr_6 = req->http_body->offset == s->post_size ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_6)
           {
             if(!(req->http_body->offset == s->post_size))
               return 0;
@@ -17989,23 +17989,23 @@ static signed int spdy_data_frame_recv(struct netbuf *nb)
 signed int spdy_dataframe_begin(struct connection *c)
 {
   struct spdy_stream *s = c->snb->stream;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(s->frame_size == 0u))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = s->send_size == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = s->send_size == (unsigned long int)0 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
     fatal("spdy_dataframe_begin(): s:%u fz:%d - sz:%d", s->stream_id, s->frame_size, s->send_size);
 
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!((signed int)s->send_wsize >= 1))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = (signed int)c->spdy_send_wsize <= 0 ? (_Bool)1 : (_Bool)0;
-  unsigned long int tmp_if_expr$3;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (signed int)c->spdy_send_wsize <= 0 ? (_Bool)1 : (_Bool)0;
+  unsigned long int tmp_if_expr_3;
+  if(tmp_if_expr_2)
   {
     spdy_block_write(c);
     return 0;
@@ -18014,11 +18014,11 @@ signed int spdy_dataframe_begin(struct connection *c)
   else
   {
     if(s->send_size >= 8193ul)
-      tmp_if_expr$3 = (unsigned long int)8192;
+      tmp_if_expr_3 = (unsigned long int)8192;
 
     else
-      tmp_if_expr$3 = s->send_size;
-    s->frame_size = (unsigned int)tmp_if_expr$3;
+      tmp_if_expr_3 = s->send_size;
+    s->frame_size = (unsigned int)tmp_if_expr_3;
     s->flags = s->flags & (unsigned char)~0x20;
     spdy_frame_send(c, (unsigned short int)99, (unsigned char)0, s->frame_size, s, (unsigned int)0);
     return 1;
@@ -18043,18 +18043,18 @@ signed int spdy_frame_recv(struct netbuf *nb)
   signed int (*cb)(struct netbuf *);
   signed int r;
   struct connection *c = (struct connection *)nb->owner;
-  unsigned int return_value_net_read32$5;
-  return_value_net_read32$5=net_read32(nb->buf);
-  if(!((2147483648u & return_value_net_read32$5) == 0u))
+  unsigned int return_value_net_read32_5;
+  return_value_net_read32_5=net_read32(nb->buf);
+  if(!((2147483648u & return_value_net_read32_5) == 0u))
   {
-    unsigned short int return_value_net_read16$1;
-    return_value_net_read16$1=net_read16(nb->buf);
-    ctrl.version = (unsigned short int)((signed int)return_value_net_read16$1 & 0x7fff);
+    unsigned short int return_value_net_read16_1;
+    return_value_net_read16_1=net_read16(nb->buf);
+    ctrl.version = (unsigned short int)((signed int)return_value_net_read16_1 & 0x7fff);
     ctrl.type=net_read16(nb->buf + (signed long int)2);
     ctrl.flags = *((unsigned char *)(nb->buf + (signed long int)4));
-    unsigned int return_value_net_read32$2;
-    return_value_net_read32$2=net_read32(nb->buf + (signed long int)4);
-    ctrl.length = return_value_net_read32$2 & (unsigned int)0xffffff;
+    unsigned int return_value_net_read32_2;
+    return_value_net_read32_2=net_read32(nb->buf + (signed long int)4);
+    ctrl.length = return_value_net_read32_2 & (unsigned int)0xffffff;
     if(!((signed int)ctrl.length >= 0))
     {
       spdy_session_teardown(c, (unsigned char)1);
@@ -18110,9 +18110,9 @@ signed int spdy_frame_recv(struct netbuf *nb)
 
   else
   {
-    unsigned int return_value_net_read32$3;
-    return_value_net_read32$3=net_read32(nb->buf);
-    data.stream_id = return_value_net_read32$3 & (unsigned int)~(1 << 31);
+    unsigned int return_value_net_read32_3;
+    return_value_net_read32_3=net_read32(nb->buf);
+    data.stream_id = return_value_net_read32_3 & (unsigned int)~(1 << 31);
     s=spdy_stream_lookup(c, data.stream_id);
     if(s == ((struct spdy_stream *)NULL))
     {
@@ -18130,9 +18130,9 @@ signed int spdy_frame_recv(struct netbuf *nb)
       else
       {
         data.flags = *((unsigned char *)(nb->buf + (signed long int)4));
-        unsigned int return_value_net_read32$4;
-        return_value_net_read32$4=net_read32(nb->buf + (signed long int)4);
-        data.length = return_value_net_read32$4 & (unsigned int)0xffffff;
+        unsigned int return_value_net_read32_4;
+        return_value_net_read32_4=net_read32(nb->buf + (signed long int)4);
+        data.length = return_value_net_read32_4 & (unsigned int)0xffffff;
         if(!((signed int)data.length >= 0))
           r = 0;
 
@@ -18167,7 +18167,7 @@ void spdy_frame_send(struct connection *c, unsigned short int type, unsigned cha
 
   length = (unsigned int)0;
   memset((void *)nb, 0, sizeof(unsigned char [16l]) /*16ul*/ );
-  unsigned int tmp_if_expr$1;
+  unsigned int tmp_if_expr_1;
   switch((signed int)type)
   {
     case 6:
@@ -18211,11 +18211,11 @@ void spdy_frame_send(struct connection *c, unsigned short int type, unsigned cha
       net_write32(&nb[(signed long int)4], len);
       nb[(signed long int)4] = flags;
       if(!(s == ((struct spdy_stream *)NULL)))
-        tmp_if_expr$1 = s->stream_id;
+        tmp_if_expr_1 = s->stream_id;
 
       else
-        tmp_if_expr$1 = (unsigned int)0;
-      net_write32(&nb[(signed long int)8], tmp_if_expr$1);
+        tmp_if_expr_1 = (unsigned int)0;
+      net_write32(&nb[(signed long int)8], tmp_if_expr_1);
       net_write32(&nb[(signed long int)12], misc);
       length = (unsigned int)16;
       break;
@@ -18244,19 +18244,19 @@ void spdy_header_block_add(struct spdy_header_block *hblock, char *name, char *v
   unsigned int nlen;
   unsigned int vlen;
   unsigned int tlen;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  nlen = (unsigned int)return_value_strlen$1;
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(value);
-  vlen = (unsigned int)return_value_strlen$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  nlen = (unsigned int)return_value_strlen_1;
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(value);
+  vlen = (unsigned int)return_value_strlen_2;
   tlen = nlen + (unsigned int)4 + vlen + (unsigned int)4;
   if(!(hblock->header_block_len >= hblock->header_offset + tlen))
   {
     hblock->header_block_len = hblock->header_block_len + nlen + vlen + (unsigned int)128;
-    void *return_value_kore_realloc$3;
-    return_value_kore_realloc$3=kore_realloc((void *)hblock->header_block, (unsigned long int)hblock->header_block_len);
-    hblock->header_block = (unsigned char *)return_value_kore_realloc$3;
+    void *return_value_kore_realloc_3;
+    return_value_kore_realloc_3=kore_realloc((void *)hblock->header_block, (unsigned long int)hblock->header_block_len);
+    hblock->header_block = (unsigned char *)return_value_kore_realloc_3;
   }
 
   p = hblock->header_block + (signed long int)hblock->header_offset;
@@ -18275,14 +18275,14 @@ void spdy_header_block_add(struct spdy_header_block *hblock, char *name, char *v
 struct spdy_header_block * spdy_header_block_create(signed int delayed_alloc)
 {
   struct spdy_header_block *hblock;
-  void *return_value_kore_malloc$1;
-  return_value_kore_malloc$1=kore_malloc(sizeof(struct spdy_header_block) /*24ul*/ );
-  hblock = (struct spdy_header_block *)return_value_kore_malloc$1;
+  void *return_value_kore_malloc_1;
+  return_value_kore_malloc_1=kore_malloc(sizeof(struct spdy_header_block) /*24ul*/ );
+  hblock = (struct spdy_header_block *)return_value_kore_malloc_1;
   if(delayed_alloc == 0)
   {
-    void *return_value_kore_malloc$2;
-    return_value_kore_malloc$2=kore_malloc((unsigned long int)128);
-    hblock->header_block = (unsigned char *)return_value_kore_malloc$2;
+    void *return_value_kore_malloc_2;
+    return_value_kore_malloc_2=kore_malloc((unsigned long int)128);
+    hblock->header_block = (unsigned char *)return_value_kore_malloc_2;
     hblock->header_block_len = (unsigned int)128;
     hblock->header_offset = (unsigned int)4;
   }
@@ -18303,9 +18303,9 @@ unsigned char * spdy_header_block_release(struct connection *c, struct spdy_head
 {
   unsigned char *deflated;
   net_write32(hblock->header_block, hblock->header_pairs);
-  signed int return_value_spdy_zlib_deflate$1;
-  return_value_spdy_zlib_deflate$1=spdy_zlib_deflate(c, hblock->header_block, (unsigned long int)hblock->header_offset, &deflated, len);
-  if(return_value_spdy_zlib_deflate$1 == 0)
+  signed int return_value_spdy_zlib_deflate_1;
+  return_value_spdy_zlib_deflate_1=spdy_zlib_deflate(c, hblock->header_block, (unsigned long int)hblock->header_offset, &deflated, len);
+  if(return_value_spdy_zlib_deflate_1 == 0)
   {
     kore_mem_free((void *)hblock->header_block);
     kore_mem_free((void *)hblock);
@@ -18414,14 +18414,14 @@ signed int spdy_stream_get_header(struct spdy_header_block *s, const char *heade
         return 0;
 
       cmp = (char *)(p + (signed long int)4);
-      signed int return_value_strncasecmp$2;
-      return_value_strncasecmp$2=strncasecmp(cmp, header, (unsigned long int)nlen);
-      if(return_value_strncasecmp$2 == 0)
+      signed int return_value_strncasecmp_2;
+      return_value_strncasecmp_2=strncasecmp(cmp, header, (unsigned long int)nlen);
+      if(return_value_strncasecmp_2 == 0)
       {
         cmp = (char *)(p + (signed long int)nlen + (signed long int)8);
-        void *return_value_kore_malloc$1;
-        return_value_kore_malloc$1=kore_malloc((unsigned long int)(vlen + (unsigned int)1));
-        *out = (char *)return_value_kore_malloc$1;
+        void *return_value_kore_malloc_1;
+        return_value_kore_malloc_1=kore_malloc((unsigned long int)(vlen + (unsigned int)1));
+        *out = (char *)return_value_kore_malloc_1;
         kore_strlcpy(*out, cmp, (unsigned long int)(vlen + (unsigned int)1));
         return 1;
       }
@@ -18459,7 +18459,7 @@ void spdy_update_wsize(struct connection *c, struct spdy_stream *s, unsigned int
 
   }
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(s->send_size == 0ul)
   {
     if(!((0x40 & (signed int)s->flags) == 0))
@@ -18483,11 +18483,11 @@ void spdy_update_wsize(struct connection *c, struct spdy_stream *s, unsigned int
   __CPROVER_DUMP_L3:
     ;
     if(!((signed int)s->send_wsize >= 1))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)c->spdy_send_wsize <= 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)c->spdy_send_wsize <= 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
       spdy_block_write(c);
 
   }
@@ -18547,9 +18547,9 @@ static signed int spdy_zlib_deflate(struct connection *c, unsigned char *src, un
       ;
       have = (unsigned long int)((unsigned int)16348 - c->z_deflate.avail_out);
       *olen = *olen + (unsigned int)have;
-      void *return_value_kore_realloc$1;
-      return_value_kore_realloc$1=kore_realloc((void *)*dst, (unsigned long int)*olen);
-      *dst = (unsigned char *)return_value_kore_realloc$1;
+      void *return_value_kore_realloc_1;
+      return_value_kore_realloc_1=kore_realloc((void *)*dst, (unsigned long int)*olen);
+      *dst = (unsigned char *)return_value_kore_realloc_1;
       memcpy((void *)(*dst + (signed long int)((unsigned long int)*olen - have)), (const void *)deflate_buffer, have);
       if(c->z_deflate.avail_in == 0u)
       {
@@ -18589,7 +18589,7 @@ static signed int spdy_zlib_inflate(struct connection *c, unsigned char *src, un
   ret = -1;
   c->z_inflate.avail_in = (unsigned int)len;
   c->z_inflate.next_in = src;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   while(ret == -1)
   {
     c->z_inflate.avail_out = (unsigned int)16348;
@@ -18628,16 +18628,16 @@ static signed int spdy_zlib_inflate(struct connection *c, unsigned char *src, un
       ;
       have = (unsigned long int)((unsigned int)16348 - c->z_inflate.avail_out);
       *olen = *olen + (unsigned int)have;
-      void *return_value_kore_realloc$1;
-      return_value_kore_realloc$1=kore_realloc((void *)*dst, (unsigned long int)*olen);
-      *dst = (unsigned char *)return_value_kore_realloc$1;
+      void *return_value_kore_realloc_1;
+      return_value_kore_realloc_1=kore_realloc((void *)*dst, (unsigned long int)*olen);
+      *dst = (unsigned char *)return_value_kore_realloc_1;
       memcpy((void *)(*dst + (signed long int)((unsigned long int)*olen - have)), (const void *)inflate_buffer, have);
       if(!(c->z_inflate.avail_in == 0u))
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = c->z_inflate.avail_out == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = c->z_inflate.avail_out == (unsigned int)0 ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_2)
       {
 
       __CPROVER_DUMP_L10:
@@ -18659,25 +18659,25 @@ static void task_channel_read(signed int fd, void *out, unsigned int len)
   unsigned int offset;
   d = (unsigned char *)out;
   offset = (unsigned int)0;
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   while(!(offset == len))
   {
     r=read(fd, (void *)(d + (signed long int)offset), (unsigned long int)(len - offset));
     if(r == -1l)
     {
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 4)
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 4)
         continue;
 
     }
 
     if(r == -1l)
     {
-      return_value___errno_location$2=__errno_location();
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      fatal("task_channel_read: %s", return_value_strerror$3);
+      return_value___errno_location_2=__errno_location();
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      fatal("task_channel_read: %s", return_value_strerror_3);
     }
 
     if(r == 0l)
@@ -18696,25 +18696,25 @@ static void task_channel_write(signed int fd, void *data, unsigned int len)
   unsigned int offset;
   d = (unsigned char *)data;
   offset = (unsigned int)0;
-  signed int *return_value___errno_location$1;
-  signed int *return_value___errno_location$2;
-  char *return_value_strerror$3;
+  signed int *return_value___errno_location_1;
+  signed int *return_value___errno_location_2;
+  char *return_value_strerror_3;
   while(!(offset == len))
   {
     r=write(fd, (const void *)(d + (signed long int)offset), (unsigned long int)(len - offset));
     if(r == -1l)
     {
-      return_value___errno_location$1=__errno_location();
-      if(*return_value___errno_location$1 == 4)
+      return_value___errno_location_1=__errno_location();
+      if(*return_value___errno_location_1 == 4)
         continue;
 
     }
 
     if(r == -1l)
     {
-      return_value___errno_location$2=__errno_location();
-      return_value_strerror$3=strerror(*return_value___errno_location$2);
-      fatal("task_channel_write: %s", return_value_strerror$3);
+      return_value___errno_location_2=__errno_location();
+      return_value_strerror_3=strerror(*return_value___errno_location_2);
+      fatal("task_channel_write: %s", return_value_strerror_3);
     }
 
     offset = offset + (unsigned int)r;
@@ -18790,29 +18790,29 @@ static void * task_thread(void *arg)
 static void task_thread_spawn(struct kore_task_thread **out)
 {
   struct kore_task_thread *tt;
-  void *return_value_kore_malloc$1;
-  return_value_kore_malloc$1=kore_malloc(sizeof(struct kore_task_thread) /*136ul*/ );
-  tt = (struct kore_task_thread *)return_value_kore_malloc$1;
-  unsigned char tmp_post$2 = threads;
+  void *return_value_kore_malloc_1;
+  return_value_kore_malloc_1=kore_malloc(sizeof(struct kore_task_thread) /*136ul*/ );
+  tt = (struct kore_task_thread *)return_value_kore_malloc_1;
+  unsigned char tmp_post_2 = threads;
   threads = threads + 1;
-  tt->idx = tmp_post$2;
+  tt->idx = tmp_post_2;
   do
   {
     (&tt->tasks)->tqh_first = (struct kore_task *)(void *)0;
     (&tt->tasks)->tqh_last = &(&tt->tasks)->tqh_first;
   }
   while((_Bool)0);
-  pthread_cond_init(&tt->cond, (const union anonymous$9 *)(void *)0);
-  pthread_mutex_init(&tt->lock, (const union anonymous$9 *)(void *)0);
-  signed int return_value_pthread_create$5;
-  return_value_pthread_create$5=pthread_create(&tt->tid, (const union pthread_attr_t *)(void *)0, task_thread, (void *)tt);
-  signed int *return_value___errno_location$3;
-  char *return_value_strerror$4;
-  if(!(return_value_pthread_create$5 == 0))
+  pthread_cond_init(&tt->cond, (const union anonymous_9 *)(void *)0);
+  pthread_mutex_init(&tt->lock, (const union anonymous_9 *)(void *)0);
+  signed int return_value_pthread_create_5;
+  return_value_pthread_create_5=pthread_create(&tt->tid, (const union pthread_attr_t *)(void *)0, task_thread, (void *)tt);
+  signed int *return_value___errno_location_3;
+  char *return_value_strerror_4;
+  if(!(return_value_pthread_create_5 == 0))
   {
-    return_value___errno_location$3=__errno_location();
-    return_value_strerror$4=strerror(*return_value___errno_location$3);
-    fatal("pthread_create: %s", return_value_strerror$4);
+    return_value___errno_location_3=__errno_location();
+    return_value_strerror_4=strerror(*return_value___errno_location_3);
+    fatal("pthread_create: %s", return_value_strerror_4);
   }
 
   *out = tt;
@@ -18873,15 +18873,15 @@ static signed int websocket_recv_frame(struct netbuf *nb)
   wscbs = (struct kore_wscbs *)c->wscbs;
   op = (unsigned char)((signed int)nb->buf[(signed long int)0] & 0x0f);
   len = (unsigned long int)((signed int)nb->buf[(signed long int)1] & ~(1 << 7));
-  unsigned short int return_value_net_read16$1;
+  unsigned short int return_value_net_read16_1;
   switch(len)
   {
     case (unsigned long int)126:
     {
       moff = (unsigned char)4;
       extra = (unsigned char)sizeof(unsigned short int) /*2ul*/ ;
-      return_value_net_read16$1=net_read16(&nb->buf[(signed long int)2]);
-      len = (unsigned long int)return_value_net_read16$1;
+      return_value_net_read16_1=net_read16(&nb->buf[(signed long int)2]);
+      len = (unsigned long int)return_value_net_read16_1;
       break;
     }
     case (unsigned long int)127:
@@ -18966,25 +18966,25 @@ static signed int websocket_recv_opcode(struct netbuf *nb)
   unsigned char op;
   unsigned char len;
   struct connection *c = (struct connection *)nb->owner;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if((128 & (signed int)nb->buf[1l]) == 0)
     return 0;
 
   else
   {
     if(!((64 & (signed int)*nb->buf) == 0))
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = ((signed int)nb->buf[(signed long int)0] & 1 << 7 - 2) != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$1)
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_1 = ((signed int)nb->buf[(signed long int)0] & 1 << 7 - 2) != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_1)
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = ((signed int)nb->buf[(signed long int)0] & 1 << 7 - 2) != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = ((signed int)nb->buf[(signed long int)0] & 1 << 7 - 2) != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return 0;
 
     else
@@ -19006,11 +19006,11 @@ static signed int websocket_recv_opcode(struct netbuf *nb)
         case 0x10:
         {
           if((signed int)len >= 126)
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = !(((signed int)nb->buf[(signed long int)0] & 1 << 7) != 0) ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = !(((signed int)nb->buf[(signed long int)0] & 1 << 7) != 0) ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_3)
             return 0;
 
           break;
@@ -19048,13 +19048,13 @@ static void websocket_send_single(struct connection *c, void *args)
 // file src/worker.c line 500
 static signed int worker_trylock(void)
 {
-  _Bool return_value___sync_bool_compare_and_swap$1;
+  _Bool return_value___sync_bool_compare_and_swap_1;
   __CPROVER_atomic_begin();
-  return_value___sync_bool_compare_and_swap$1 = *(&accept_lock->lock) == 0;
+  return_value___sync_bool_compare_and_swap_1 = *(&accept_lock->lock) == 0;
   *(&accept_lock->lock) = *(&accept_lock->lock) == 0 ? 1 : *(&accept_lock->lock);
   FENCE(WRfence);
   __CPROVER_atomic_end();
-  if(return_value___sync_bool_compare_and_swap$1 == (_Bool)0)
+  if(return_value___sync_bool_compare_and_swap_1 == (_Bool)0)
     return 0;
 
   else
@@ -19069,13 +19069,13 @@ static signed int worker_trylock(void)
 static void worker_unlock(void)
 {
   accept_lock->current = 0;
-  _Bool return_value___sync_bool_compare_and_swap$1;
+  _Bool return_value___sync_bool_compare_and_swap_1;
   __CPROVER_atomic_begin();
-  return_value___sync_bool_compare_and_swap$1 = *(&accept_lock->lock) == 1;
+  return_value___sync_bool_compare_and_swap_1 = *(&accept_lock->lock) == 1;
   *(&accept_lock->lock) = *(&accept_lock->lock) == 1 ? 0 : *(&accept_lock->lock);
   FENCE(WRfence);
   __CPROVER_atomic_end();
-  if(return_value___sync_bool_compare_and_swap$1 == (_Bool)0)
+  if(return_value___sync_bool_compare_and_swap_1 == (_Bool)0)
     kore_log(5, "worker_unlock(): wasnt locked");
 
 }

@@ -1,66 +1,66 @@
-// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visual'||U64'visualid'||S32'screen'||S32'depth'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'colormap_size'||S32'bits_per_rgb'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visual'||U64'visualid'||S32'screen'||S32'depth'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'colormap_size'||S32'bits_per_rgb'|]
 // file /usr/include/X11/Xutil.h line 287
-struct anonymous$41;
+struct anonymous_41;
 
-// tag-#anon#ST[*{SYM#tag-_IO_FILE#}$SYM#tag-_IO_FILE#$'file'||*{V}$V$'data'||S64'position'||S64'size'|]
+// tag-#anon#ST[*{SYM#tag-_IO_FILE#}_SYM#tag-_IO_FILE#_'file'||*{V}_V_'data'||S64'position'||S64'size'|]
 // file ../internal.h line 153
-struct anonymous$59;
+struct anonymous_59;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]
 // file /usr/include/X11/Xlib.h line 257
-struct anonymous$36;
+struct anonymous_36;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private1'||S32'fd'||S32'private2'||S32'proto_major_version'||S32'proto_minor_version'||*{S8}$S8$'vendor'||U64'private3'||U64'private4'||U64'private5'||S32'private6'||U32'$pad0'||*{U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64}$U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64$'resource_alloc'||S32'byte_order'||S32'bitmap_unit'||S32'bitmap_pad'||S32'bitmap_bit_order'||S32'nformats'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]#$'pixmap_format'||S32'private8'||S32'release'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private9'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private10'||S32'qlen'||U32'$pad2'||U64'last_request_read'||U64'request'||*{S8}$S8$'private11'||*{S8}$S8$'private12'||*{S8}$S8$'private13'||*{S8}$S8$'private14'||U32'max_request_size'||U32'$pad3'||*{SYM#tag-_XrmHashBucketRec#}$SYM#tag-_XrmHashBucketRec#$'db'||*{S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32}$S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32$'private15'||*{S8}$S8$'display_name'||S32'default_screen'||S32'nscreens'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#$'screens'||U64'motion_buffer'||U64'private16'||S32'min_keycode'||S32'max_keycode'||*{S8}$S8$'private17'||*{S8}$S8$'private18'||S32'private19'||U32'$pad4'||*{S8}$S8$'xdefaults'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private1'||S32'fd'||S32'private2'||S32'proto_major_version'||S32'proto_minor_version'||*{S8}_S8_'vendor'||U64'private3'||U64'private4'||U64'private5'||S32'private6'||U32'_pad0'||*{U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64}_U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64_'resource_alloc'||S32'byte_order'||S32'bitmap_unit'||S32'bitmap_pad'||S32'bitmap_bit_order'||S32'nformats'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]#_'pixmap_format'||S32'private8'||S32'release'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private9'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private10'||S32'qlen'||U32'_pad2'||U64'last_request_read'||U64'request'||*{S8}_S8_'private11'||*{S8}_S8_'private12'||*{S8}_S8_'private13'||*{S8}_S8_'private14'||U32'max_request_size'||U32'_pad3'||*{SYM#tag-_XrmHashBucketRec#}_SYM#tag-_XrmHashBucketRec#_'db'||*{S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32}_S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32_'private15'||*{S8}_S8_'display_name'||S32'default_screen'||S32'nscreens'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#_'screens'||U64'motion_buffer'||U64'private16'||S32'min_keycode'||S32'max_keycode'||*{S8}_S8_'private17'||*{S8}_S8_'private18'||S32'private19'||U32'_pad4'||*{S8}_S8_'xdefaults'|]
 // file /usr/include/X11/Xlib.h line 493
-struct anonymous$55;
+struct anonymous_55;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]
 // file /usr/include/X11/Xlib.h line 280
-struct anonymous$39;
+struct anonymous_39;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]
 // file /usr/include/X11/Xlib.h line 227
-struct anonymous$35;
+struct anonymous_35;
 
-// tag-#anon#ST[S32'MousePosX'||S32'MousePosY'||S32'WheelPos'||ARR8{S8}$S8$'MouseButton'||ARR326{S8}$S8$'Key'||U16'$pad0'||S32'LastChar'||S32'StickyKeys'||S32'StickyMouseButtons'||S32'KeyRepeat'||S32'MouseMoved'||S32'CursorPosX'||S32'CursorPosY'|]
+// tag-#anon#ST[S32'MousePosX'||S32'MousePosY'||S32'WheelPos'||ARR8{S8}_S8_'MouseButton'||ARR326{S8}_S8_'Key'||U16'_pad0'||S32'LastChar'||S32'StickyKeys'||S32'StickyMouseButtons'||S32'KeyRepeat'||S32'MouseMoved'||S32'CursorPosX'||S32'CursorPosY'|]
 // file ./platform.h line 352
-struct anonymous$50;
+struct anonymous_50;
 
-// tag-#anon#ST[S32'NextID'||U32'$pad0'||SYM#tag-_GLFWthread_struct#'First'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]#'CriticalSection'|]
+// tag-#anon#ST[S32'NextID'||U32'_pad0'||SYM#tag-_GLFWthread_struct#'First'||SYM#tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]#'CriticalSection'|]
 // file ./platform.h line 458
-struct anonymous$64;
+struct anonymous_64;
 
-// tag-#anon#ST[S32'Present'||S32'fd'||S32'NumAxes'||S32'NumButtons'||*{F32}$F32$'Axis'||*{U8}$U8$'Button'|]
+// tag-#anon#ST[S32'Present'||S32'fd'||S32'NumAxes'||S32'NumButtons'||*{F32}_F32_'Axis'||*{U8}_U8_'Button'|]
 // file ./platform.h line 481
-struct anonymous$65;
+struct anonymous_65;
 
-// tag-#anon#ST[S32'Width'||S32'Height'||S32'Format'||S32'BytesPerPixel'||*{U8}$U8$'Data'|]
+// tag-#anon#ST[S32'Width'||S32'Height'||S32'Format'||S32'BytesPerPixel'||*{U8}_U8_'Data'|]
 // file ./../../include/GL/glfw.h line 396
-struct anonymous$40;
+struct anonymous_40;
 
 // tag-#anon#ST[S32'Width'||S32'Height'||S32'RedBits'||S32'BlueBits'||S32'GreenBits'|]
 // file ./../../include/GL/glfw.h line 390
-struct anonymous$58;
+struct anonymous_58;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$43;
+struct anonymous_43;
 
 // tag-#anon#ST[S32'available'||S32'eventBase'||S32'errorBase'|]
 // file ./platform.h line 402
-struct anonymous$52;
+struct anonymous_52;
 
 // tag-#anon#ST[S32'changed'||S32'timeout'||S32'interval'||S32'blanking'||S32'exposure'|]
 // file ./platform.h line 323
-struct anonymous$45;
+struct anonymous_45;
 
-// tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]
+// tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]
 // file /usr/include/X11/Xlib.h line 243
-struct anonymous$34;
+struct anonymous_34;
 
-// tag-#anon#ST[S32'function'||U32'$pad0'||U64'plane_mask'||U64'foreground'||U64'background'||S32'line_width'||S32'line_style'||S32'cap_style'||S32'join_style'||S32'fill_style'||S32'fill_rule'||S32'arc_mode'||U32'$pad1'||U64'tile'||U64'stipple'||S32'ts_x_origin'||S32'ts_y_origin'||U64'font'||S32'subwindow_mode'||S32'graphics_exposures'||S32'clip_x_origin'||S32'clip_y_origin'||U64'clip_mask'||S32'dash_offset'||S8'dashes'||U24'$pad2'|]
+// tag-#anon#ST[S32'function'||U32'_pad0'||U64'plane_mask'||U64'foreground'||U64'background'||S32'line_width'||S32'line_style'||S32'cap_style'||S32'join_style'||S32'fill_style'||S32'fill_rule'||S32'arc_mode'||U32'_pad1'||U64'tile'||U64'stipple'||S32'ts_x_origin'||S32'ts_y_origin'||U64'font'||S32'subwindow_mode'||S32'graphics_exposures'||S32'clip_x_origin'||S32'clip_y_origin'||U64'clip_mask'||S32'dash_offset'||S8'dashes'||U24'_pad2'|]
 // file /usr/include/X11/Xlib.h line 181
-struct anonymous$47;
+struct anonymous_47;
 
 // tag-#anon#ST[S32'idlen'||S32'cmaptype'||S32'imagetype'||S32'cmapfirstidx'||S32'cmaplen'||S32'cmapentrysize'||S32'xorigin'||S32'yorigin'||S32'width'||S32'height'||S32'bitsperpixel'||S32'imageinfo'||S32'_alphabits'||S32'_origin'|]
 // file ../tga.c line 53
@@ -68,203 +68,203 @@ struct anonymous;
 
 // tag-#anon#ST[S32'mode'||S32'refreshRate'||S32'windowNoResize'||S32'glMajor'||S32'glMinor'||S32'glForward'||S32'glDebug'||S32'glProfile'|]
 // file ../internal.h line 101
-struct anonymous$33;
+struct anonymous_33;
 
-// tag-#anon#ST[S32'modeChanged'||U16'oldSizeID'||U16'$pad0'||S32'oldWidth'||S32'oldHeight'||U16'oldRotation'||U16'$pad1'|]
+// tag-#anon#ST[S32'modeChanged'||U16'oldSizeID'||U16'_pad0'||S32'oldWidth'||S32'oldHeight'||U16'oldRotation'||U16'_pad1'|]
 // file ./platform.h line 332
-struct anonymous$46;
+struct anonymous_46;
 
-// tag-#anon#ST[S32'redBits'||S32'greenBits'||S32'blueBits'||S32'alphaBits'||S32'depthBits'||S32'stencilBits'||S32'accumRedBits'||S32'accumGreenBits'||S32'accumBlueBits'||S32'accumAlphaBits'||S32'auxBuffers'||S32'stereo'||S32'samples'||U32'$pad0'||S64'platformID'|]
+// tag-#anon#ST[S32'redBits'||S32'greenBits'||S32'blueBits'||S32'alphaBits'||S32'depthBits'||S32'stencilBits'||S32'accumRedBits'||S32'accumGreenBits'||S32'accumBlueBits'||S32'accumAlphaBits'||S32'auxBuffers'||S32'stereo'||S32'samples'||U32'_pad0'||S64'platformID'|]
 // file ../internal.h line 120
-struct anonymous$56;
+struct anonymous_56;
 
 // tag-#anon#ST[S32'refreshRate'||S32'accumRedBits'||S32'accumGreenBits'||S32'accumBlueBits'||S32'accumAlphaBits'||S32'auxBuffers'||S32'stereo'||S32'windowNoResize'||S32'samples'||S32'glMajor'||S32'glMinor'||S32'glForward'||S32'glDebug'||S32'glProfile'|]
 // file ../internal.h line 69
-struct anonymous$54;
+struct anonymous_54;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'resourceid'||U64'serial'||U8'error_code'||U8'request_code'||U8'minor_code'||U40'$pad1'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'resourceid'||U64'serial'||U8'error_code'||U8'request_code'||U8'minor_code'||U40'_pad1'|]
 // file /usr/include/X11/Xlib.h line 924
-struct anonymous$63;
+struct anonymous_63;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||S32'extension'||S32'evtype'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||S32'extension'||S32'evtype'|]
 // file /usr/include/X11/Xlib.h line 948
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||S32'extension'||S32'evtype'||U32'cookie'||U32'$pad2'||*{V}$V$'data'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||S32'extension'||S32'evtype'||U32'cookie'||U32'_pad2'||*{V}_V_'data'|]
 // file /usr/include/X11/Xlib.h line 958
-struct anonymous$32;
+struct anonymous_32;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'drawable'||S32'major_code'||S32'minor_code'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'drawable'||S32'major_code'||S32'minor_code'|]
 // file /usr/include/X11/Xlib.h line 686
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'drawable'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||S32'major_code'||S32'minor_code'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'drawable'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||S32'major_code'||S32'minor_code'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 673
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'|]
 // file /usr/include/X11/Xlib.h line 718
-struct anonymous$11;
+struct anonymous_11;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'from_configure'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'from_configure'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 727
-struct anonymous$12;
+struct anonymous_12;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'override_redirect'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'override_redirect'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 737
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'place'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'place'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 816
-struct anonymous$20;
+struct anonymous_20;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'x'||S32'y'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'x'||S32'y'|]
 // file /usr/include/X11/Xlib.h line 782
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'$pad2'||U64'above'||S32'override_redirect'||U32'$pad3'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'_pad2'||U64'above'||S32'override_redirect'||U32'_pad3'|]
 // file /usr/include/X11/Xlib.h line 768
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||U64'parent'||S32'x'||S32'y'||S32'override_redirect'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||U64'parent'||S32'x'||S32'y'||S32'override_redirect'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 756
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'owner'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'owner'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
 // file /usr/include/X11/Xlib.h line 857
-struct anonymous$24;
+struct anonymous_24;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'|]
 // file /usr/include/X11/Xlib.h line 747
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'||S32'place'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'||S32'place'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 826
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||S32'override_redirect'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||S32'override_redirect'|]
 // file /usr/include/X11/Xlib.h line 705
-struct anonymous$10;
+struct anonymous_10;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'$pad2'||U64'above'||S32'detail'||U32'$pad3'||U64'value_mask'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'_pad2'||U64'above'||S32'detail'||U32'_pad3'||U64'value_mask'|]
 // file /usr/include/X11/Xlib.h line 801
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
 // file /usr/include/X11/Xlib.h line 870
-struct anonymous$25;
+struct anonymous_25;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'|]
 // file /usr/include/X11/Xlib.h line 934
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||ARR32{S8}$S8$'key_vector'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||ARR32{S8}_S8_'key_vector'|]
 // file /usr/include/X11/Xlib.h line 653
-struct anonymous$30;
+struct anonymous_30;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'mode'||S32'detail'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'mode'||S32'detail'|]
 // file /usr/include/X11/Xlib.h line 634
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'request'||S32'first_keycode'||S32'count'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'request'||S32'first_keycode'||S32'count'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 912
-struct anonymous$29;
+struct anonymous_29;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'state'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'state'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 696
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'width'||S32'height'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'width'||S32'height'|]
 // file /usr/include/X11/Xlib.h line 792
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 662
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'atom'||U64'time'||S32'state'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'atom'||U64'time'||S32'state'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 836
-struct anonymous$22;
+struct anonymous_22;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'colormap'||S32'new'||S32'state'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'colormap'||S32'new'||S32'state'|]
 // file /usr/include/X11/Xlib.h line 882
-struct anonymous$26;
+struct anonymous_26;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'message_type'||S32'format'||U32'$pad2'||SYM#tag-#anon#UN[ARR20{S8}$S8$'b'||ARR10{S16}$S16$'s'||ARR5{S64}$S64$'l'|]#'data'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'message_type'||S32'format'||U32'_pad2'||SYM#tag-#anon#UN[ARR20{S8}_S8_'b'||ARR10{S16}_S16_'s'||ARR5{S64}_S64_'l'|]#'data'|]
 // file /usr/include/X11/Xlib.h line 897
-struct anonymous$28;
+struct anonymous_28;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||S32'mode'||S32'detail'||S32'same_screen'||S32'focus'||U32'state'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||S32'mode'||S32'detail'||S32'same_screen'||S32'focus'||U32'state'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 610
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||S8'is_hint'||U24'$pad2'||S32'same_screen'||U32'$pad3'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||S8'is_hint'||U24'_pad2'||S32'same_screen'||U32'_pad3'|]
 // file /usr/include/X11/Xlib.h line 593
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'button'||S32'same_screen'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'button'||S32'same_screen'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 575
-struct anonymous$2;
+struct anonymous_2;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'keycode'||S32'same_screen'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'keycode'||S32'same_screen'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 557
-struct anonymous$49;
+struct anonymous_49;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'selection'||U64'time'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'selection'||U64'time'|]
 // file /usr/include/X11/Xlib.h line 847
-struct anonymous$23;
+struct anonymous_23;
 
 // tag-#anon#ST[S32'versionMajor'||S32'versionMinor'||S32'eventBase'||S32'errorBase'|]
 // file ./platform.h line 396
-struct anonymous$51;
+struct anonymous_51;
 
 // tag-#anon#ST[S32'width'||S32'height'||S32'mwidth'||S32'mheight'|]
 // file /usr/include/X11/extensions/Xrandr.h line 44
-struct anonymous$57;
+struct anonymous_57;
 
 // tag-#anon#ST[S32'x'||S32'y'|]
 // file /usr/include/X11/Xutil.h line 88
-struct anonymous$37;
+struct anonymous_37;
 
 // tag-#anon#ST[S64'flags'||S32'input'||S32'initial_state'||U64'icon_pixmap'||U64'icon_window'||S32'icon_x'||S32'icon_y'||U64'icon_mask'||U64'window_group'|]
 // file /usr/include/X11/Xutil.h line 119
-struct anonymous$60;
+struct anonymous_60;
 
-// tag-#anon#ST[S64'flags'||S32'x'||S32'y'||S32'width'||S32'height'||S32'min_width'||S32'min_height'||S32'max_width'||S32'max_height'||S32'width_inc'||S32'height_inc'||SYM#tag-#anon#ST[S32'x'||S32'y'|]#'min_aspect'||SYM#tag-#anon#ST[S32'x'||S32'y'|]#'max_aspect'||S32'base_width'||S32'base_height'||S32'win_gravity'||U32'$pad0'|]
+// tag-#anon#ST[S64'flags'||S32'x'||S32'y'||S32'width'||S32'height'||S32'min_width'||S32'min_height'||S32'max_width'||S32'max_height'||S32'width_inc'||S32'height_inc'||SYM#tag-#anon#ST[S32'x'||S32'y'|]#'min_aspect'||SYM#tag-#anon#ST[S32'x'||S32'y'|]#'max_aspect'||S32'base_width'||S32'base_height'||S32'win_gravity'||U32'_pad0'|]
 // file /usr/include/X11/Xutil.h line 81
-struct anonymous$38;
+struct anonymous_38;
 
-// tag-#anon#ST[SYM#tag-#anon#ST[S32'refreshRate'||S32'accumRedBits'||S32'accumGreenBits'||S32'accumBlueBits'||S32'accumAlphaBits'||S32'auxBuffers'||S32'stereo'||S32'windowNoResize'||S32'samples'||S32'glMajor'||S32'glMinor'||S32'glForward'||S32'glDebug'||S32'glProfile'|]#'hints'||SYM#tag-#anon#ST[S32'Width'||S32'Height'||S32'RedBits'||S32'BlueBits'||S32'GreenBits'|]#'desktopMode'||U32'$pad0'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||SYM#tag-#anon#ST[S32'versionMajor'||S32'versionMinor'||S32'eventBase'||S32'errorBase'|]#'GLX'||SYM#tag-#anon#ST[S32'available'||S32'eventBase'||S32'errorBase'|]#'XF86VidMode'||SYM#tag-#anon#ST[S32'available'||S32'eventBase'||S32'errorBase'|]#'XRandR'||SYM#tag-#anon#ST[U8'monotonic'||U56'$pad0'||F64'resolution'||S64'base'|]#'Timer'|]
+// tag-#anon#ST[SYM#tag-#anon#ST[S32'refreshRate'||S32'accumRedBits'||S32'accumGreenBits'||S32'accumBlueBits'||S32'accumAlphaBits'||S32'auxBuffers'||S32'stereo'||S32'windowNoResize'||S32'samples'||S32'glMajor'||S32'glMinor'||S32'glForward'||S32'glDebug'||S32'glProfile'|]#'hints'||SYM#tag-#anon#ST[S32'Width'||S32'Height'||S32'RedBits'||S32'BlueBits'||S32'GreenBits'|]#'desktopMode'||U32'_pad0'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||SYM#tag-#anon#ST[S32'versionMajor'||S32'versionMinor'||S32'eventBase'||S32'errorBase'|]#'GLX'||SYM#tag-#anon#ST[S32'available'||S32'eventBase'||S32'errorBase'|]#'XF86VidMode'||SYM#tag-#anon#ST[S32'available'||S32'eventBase'||S32'errorBase'|]#'XRandR'||SYM#tag-#anon#ST[U8'monotonic'||U56'_pad0'||F64'resolution'||S64'base'|]#'Timer'|]
 // file ./platform.h line 382
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[U64'background_pixmap'||U64'background_pixel'||U64'border_pixmap'||U64'border_pixel'||S32'bit_gravity'||S32'win_gravity'||S32'backing_store'||U32'$pad0'||U64'backing_planes'||U64'backing_pixel'||S32'save_under'||U32'$pad1'||S64'event_mask'||S64'do_not_propagate_mask'||S32'override_redirect'||U32'$pad2'||U64'colormap'||U64'cursor'|]
+// tag-#anon#ST[U64'background_pixmap'||U64'background_pixel'||U64'border_pixmap'||U64'border_pixel'||S32'bit_gravity'||S32'win_gravity'||S32'backing_store'||U32'_pad0'||U64'backing_planes'||U64'backing_pixel'||S32'save_under'||U32'_pad1'||S64'event_mask'||S64'do_not_propagate_mask'||S32'override_redirect'||U32'_pad2'||U64'colormap'||U64'cursor'|]
 // file /usr/include/X11/Xlib.h line 290
-struct anonymous$48;
+struct anonymous_48;
 
 // tag-#anon#ST[U64'pixel'||U16'red'||U16'green'||U16'blue'||S8'flags'||S8'pad'|]
 // file /usr/include/X11/Xlib.h line 410
-struct anonymous$42;
+struct anonymous_42;
 
-// tag-#anon#ST[U8'monotonic'||U56'$pad0'||F64'resolution'||S64'base'|]
+// tag-#anon#ST[U8'monotonic'||U56'_pad0'||F64'resolution'||S64'base'|]
 // file ./platform.h line 415
-struct anonymous$53;
+struct anonymous_53;
 
-// tag-#anon#UN[ARR20{S8}$S8$'b'||ARR10{S16}$S16$'s'||ARR5{S64}$S64$'l'|]
+// tag-#anon#UN[ARR20{S8}_S8_'b'||ARR10{S16}_S16_'s'||ARR5{S64}_S64_'l'|]
 // file /usr/include/X11/Xlib.h line 905
-union anonymous$27;
+union anonymous_27;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$62;
+union anonymous_62;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$44;
+union anonymous_44;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$61;
+union anonymous_61;
 
 // tag-Joystick
 // file joysticks.c line 37
@@ -384,25 +384,25 @@ static signed int HalveImage(unsigned char *src, signed int *width, signed int *
 static signed int Max(signed int a, signed int b);
 // ReadTGAHeader
 // file ../tga.c line 96
-static signed int ReadTGAHeader(struct anonymous$59 *s, struct anonymous *h);
+static signed int ReadTGAHeader(struct anonymous_59 *s, struct anonymous *h);
 // ReadTGA_RLE
 // file ../tga.c line 152
-static void ReadTGA_RLE(unsigned char *buf, signed int size, signed int bpp, struct anonymous$59 *s);
+static void ReadTGA_RLE(unsigned char *buf, signed int size, signed int bpp, struct anonymous_59 *s);
 // RescaleImage
 // file ../image.c line 214
-static signed int RescaleImage(struct anonymous$40 *image);
+static signed int RescaleImage(struct anonymous_40 *image);
 // UpsampleImage
 // file ../image.c line 75
 static void UpsampleImage(unsigned char *src, unsigned char *dst, signed int w1, signed int h1, signed int w2, signed int h2, signed int bpp);
 // XAllocSizeHints
 // file /usr/include/X11/Xutil.h line 374
-extern struct anonymous$38 * XAllocSizeHints(void);
+extern struct anonymous_38 * XAllocSizeHints(void);
 // XAllocWMHints
 // file /usr/include/X11/Xutil.h line 382
-extern struct anonymous$60 * XAllocWMHints(void);
+extern struct anonymous_60 * XAllocWMHints(void);
 // XChangeWindowAttributes
 // file /usr/include/X11/Xlib.h line 2085
-extern signed int XChangeWindowAttributes(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous$48 *);
+extern signed int XChangeWindowAttributes(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous_48 *);
 // XCloseDisplay
 // file /usr/include/X11/Xlib.h line 2160
 extern signed int XCloseDisplay(struct _XDisplay *);
@@ -411,19 +411,19 @@ extern signed int XCloseDisplay(struct _XDisplay *);
 extern void XConvertCase(unsigned long int, unsigned long int *, unsigned long int *);
 // XCreateColormap
 // file /usr/include/X11/Xlib.h line 1552
-extern unsigned long int XCreateColormap(struct _XDisplay *, unsigned long int, struct anonymous$35 *, signed int);
+extern unsigned long int XCreateColormap(struct _XDisplay *, unsigned long int, struct anonymous_35 *, signed int);
 // XCreateGC
 // file /usr/include/X11/Xlib.h line 1584
-extern struct _XGC * XCreateGC(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous$47 *);
+extern struct _XGC * XCreateGC(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous_47 *);
 // XCreatePixmap
 // file /usr/include/X11/Xlib.h line 1597
 extern unsigned long int XCreatePixmap(struct _XDisplay *, unsigned long int, unsigned int, unsigned int, unsigned int);
 // XCreatePixmapCursor
 // file /usr/include/X11/Xlib.h line 1558
-extern unsigned long int XCreatePixmapCursor(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous$42 *, struct anonymous$42 *, unsigned int, unsigned int);
+extern unsigned long int XCreatePixmapCursor(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous_42 *, struct anonymous_42 *, unsigned int, unsigned int);
 // XCreateWindow
 // file /usr/include/X11/Xlib.h line 1636
-extern unsigned long int XCreateWindow(struct _XDisplay *, unsigned long int, signed int, signed int, unsigned int, unsigned int, unsigned int, signed int, unsigned int, struct anonymous$35 *, unsigned long int, struct anonymous$48 *);
+extern unsigned long int XCreateWindow(struct _XDisplay *, unsigned long int, signed int, signed int, unsigned int, unsigned int, unsigned int, signed int, unsigned int, struct anonymous_35 *, unsigned long int, struct anonymous_48 *);
 // XDefineCursor
 // file /usr/include/X11/Xlib.h line 2231
 extern signed int XDefineCursor(struct _XDisplay *, unsigned long int, unsigned long int);
@@ -459,7 +459,7 @@ extern signed int XFreePixmap(struct _XDisplay *, unsigned long int);
 extern signed int XGetScreenSaver(struct _XDisplay *, signed int *, signed int *, signed int *, signed int *);
 // XGetVisualInfo
 // file /usr/include/X11/Xutil.h line 471
-extern struct anonymous$41 * XGetVisualInfo(struct _XDisplay *, signed long int, struct anonymous$41 *, signed int *);
+extern struct anonymous_41 * XGetVisualInfo(struct _XDisplay *, signed long int, struct anonymous_41 *, signed int *);
 // XGetWindowProperty
 // file /usr/include/X11/Xlib.h line 2676
 extern signed int XGetWindowProperty(struct _XDisplay *, unsigned long int, unsigned long int, signed long int, signed long int, signed int, unsigned long int, unsigned long int *, signed int *, unsigned long int *, unsigned long int *, unsigned char **);
@@ -480,7 +480,7 @@ extern unsigned long int XInternAtom(struct _XDisplay *, const char *, signed in
 extern unsigned long int XKeycodeToKeysym(struct _XDisplay *, unsigned char, signed int);
 // XLookupString
 // file /usr/include/X11/Xutil.h line 534
-extern signed int XLookupString(struct anonymous$49 *, char *, signed int, unsigned long int *, struct _XComposeStatus *);
+extern signed int XLookupString(struct anonymous_49 *, char *, signed int, unsigned long int *, struct _XComposeStatus *);
 // XMapWindow
 // file /usr/include/X11/Xlib.h line 2806
 extern signed int XMapWindow(struct _XDisplay *, unsigned long int);
@@ -519,7 +519,7 @@ signed short int XRRConfigCurrentRate(struct _XRRScreenConfiguration *);
 signed short int * XRRConfigRates(struct _XRRScreenConfiguration *, signed int, signed int *);
 // XRRConfigSizes
 // file /usr/include/X11/extensions/Xrandr.h line 200
-struct anonymous$57 * XRRConfigSizes(struct _XRRScreenConfiguration *, signed int *);
+struct anonymous_57 * XRRConfigSizes(struct _XRRScreenConfiguration *, signed int *);
 // XRRFreeScreenConfigInfo
 // file /usr/include/X11/extensions/Xrandr.h line 170
 void XRRFreeScreenConfigInfo(struct _XRRScreenConfiguration *);
@@ -552,7 +552,7 @@ extern signed int XResizeWindow(struct _XDisplay *, unsigned long int, unsigned 
 extern signed int XSendEvent(struct _XDisplay *, unsigned long int, signed int, signed long int, union _XEvent *);
 // XSetErrorHandler
 // file /usr/include/X11/Xlib.h line 1848
-extern signed int (*XSetErrorHandler(signed int (*)(struct _XDisplay *, struct anonymous$63 *)))(struct _XDisplay *, struct anonymous$63 *);
+extern signed int (*XSetErrorHandler(signed int (*)(struct _XDisplay *, struct anonymous_63 *)))(struct _XDisplay *, struct anonymous_63 *);
 // XSetIconName
 // file /usr/include/X11/Xlib.h line 3245
 extern signed int XSetIconName(struct _XDisplay *, unsigned long int, const char *);
@@ -564,10 +564,10 @@ extern signed int XSetInputFocus(struct _XDisplay *, unsigned long int, signed i
 extern signed int XSetScreenSaver(struct _XDisplay *, signed int, signed int, signed int, signed int);
 // XSetWMHints
 // file /usr/include/X11/Xutil.h line 641
-extern signed int XSetWMHints(struct _XDisplay *, unsigned long int, struct anonymous$60 *);
+extern signed int XSetWMHints(struct _XDisplay *, unsigned long int, struct anonymous_60 *);
 // XSetWMNormalHints
 // file /usr/include/X11/Xutil.h line 659
-extern void XSetWMNormalHints(struct _XDisplay *, unsigned long int, struct anonymous$38 *);
+extern void XSetWMNormalHints(struct _XDisplay *, unsigned long int, struct anonymous_38 *);
 // XSetWMProtocols
 // file /usr/include/X11/Xlib.h line 1888
 extern signed int XSetWMProtocols(struct _XDisplay *, unsigned long int, unsigned long int *, signed int);
@@ -594,7 +594,7 @@ extern signed int XWarpPointer(struct _XDisplay *, unsigned long int, unsigned l
 void _glfwAppendThread(struct _GLFWthread_struct *t);
 // _glfwChooseFBConfig
 // file ../window.c line 259
-const struct anonymous$56 * _glfwChooseFBConfig(const struct anonymous$56 *desired, const struct anonymous$56 *alternatives, unsigned int count);
+const struct anonymous_56 * _glfwChooseFBConfig(const struct anonymous_56 *desired, const struct anonymous_56 *alternatives, unsigned int count);
 // _glfwClearInput
 // file ../window.c line 98
 void _glfwClearInput(void);
@@ -603,7 +603,7 @@ void _glfwClearInput(void);
 void _glfwClearWindowHints(void);
 // _glfwCloseStream
 // file ../internal.h line 255
-void _glfwCloseStream(struct anonymous$59 *stream);
+void _glfwCloseStream(struct anonymous_59 *stream);
 // _glfwGetClosestVideoMode
 // file x11_fullscreen.c line 70
 signed int _glfwGetClosestVideoMode(signed int screen, signed int *width, signed int *height, signed int *rate);
@@ -634,15 +634,15 @@ signed long int _glfwKeySym2Unicode(unsigned long int keysym);
 // _glfwNewThread
 // file x11_thread.c line 45
 void * _glfwNewThread(void *arg);
-// _glfwNewThread::1::threadfun$object
+// _glfwNewThread::1::threadfun_object
 //
-void threadfun$object(void *);
+void threadfun_object(void *);
 // _glfwOpenBufferStream
 // file ../internal.h line 251
-signed int _glfwOpenBufferStream(struct anonymous$59 *stream, void *data, signed long int size);
+signed int _glfwOpenBufferStream(struct anonymous_59 *stream, void *data, signed long int size);
 // _glfwOpenFileStream
 // file ../internal.h line 250
-signed int _glfwOpenFileStream(struct anonymous$59 *stream, const char *name, const char *mode);
+signed int _glfwOpenFileStream(struct anonymous_59 *stream, const char *name, const char *mode);
 // _glfwParseGLVersion
 // file ../glext.c line 54
 void _glfwParseGLVersion(signed int *major, signed int *minor, signed int *rev);
@@ -661,9 +661,9 @@ void * _glfwPlatformCreateMutex(void);
 // _glfwPlatformCreateThread
 // file ../internal.h line 187
 signed int _glfwPlatformCreateThread(void (*fun)(void *), void *arg);
-// _glfwPlatformCreateThread::fun$object
+// _glfwPlatformCreateThread::fun_object
 //
-void fun$object(void *);
+void fun_object(void *);
 // _glfwPlatformDestroyCond
 // file ../internal.h line 196
 void _glfwPlatformDestroyCond(void *cond);
@@ -684,7 +684,7 @@ void _glfwPlatformEnableSystemKeys(void);
 signed int _glfwPlatformExtensionSupported(const char *extension);
 // _glfwPlatformGetDesktopMode
 // file x11_fullscreen.c line 508
-void _glfwPlatformGetDesktopMode(struct anonymous$58 *mode);
+void _glfwPlatformGetDesktopMode(struct anonymous_58 *mode);
 // _glfwPlatformGetJoystickButtons
 // file ../internal.h line 184
 signed int _glfwPlatformGetJoystickButtons(signed int joy, unsigned char *buttons, signed int numbuttons);
@@ -700,9 +700,9 @@ signed int _glfwPlatformGetNumberOfProcessors(void);
 // _glfwPlatformGetProcAddress
 // file ../internal.h line 179
 void * _glfwPlatformGetProcAddress(const char *procname);
-// _glfwPlatformGetProcAddress::$tmp::return_value_glXGetProcAddress$1$object
+// _glfwPlatformGetProcAddress::_tmp::return_value_glXGetProcAddress_1_object
 //
-void return_value_glXGetProcAddress$1$object(void);
+void return_value_glXGetProcAddress_1_object(void);
 // _glfwPlatformGetThreadID
 // file ../internal.h line 190
 signed int _glfwPlatformGetThreadID(void);
@@ -711,7 +711,7 @@ signed int _glfwPlatformGetThreadID(void);
 double _glfwPlatformGetTime(void);
 // _glfwPlatformGetVideoModes
 // file ../internal.h line 174
-signed int _glfwPlatformGetVideoModes(struct anonymous$58 *list, signed int maxcount);
+signed int _glfwPlatformGetVideoModes(struct anonymous_58 *list, signed int maxcount);
 // _glfwPlatformHideMouseCursor
 // file ../internal.h line 220
 void _glfwPlatformHideMouseCursor(void);
@@ -726,7 +726,7 @@ signed int _glfwPlatformInit(void);
 void _glfwPlatformLockMutex(void *mutex);
 // _glfwPlatformOpenWindow
 // file ../internal.h line 208
-signed int _glfwPlatformOpenWindow(signed int width, signed int height, const struct anonymous$33 *wndconfig, const struct anonymous$56 *fbconfig);
+signed int _glfwPlatformOpenWindow(signed int width, signed int height, const struct anonymous_33 *wndconfig, const struct anonymous_56 *fbconfig);
 // _glfwPlatformPollEvents
 // file ../internal.h line 218
 void _glfwPlatformPollEvents(void);
@@ -783,10 +783,10 @@ void _glfwPlatformWaitEvents(void);
 signed int _glfwPlatformWaitThread(signed int ID, signed int waitmode);
 // _glfwReadStream
 // file ../stream.c line 72
-signed long int _glfwReadStream(struct anonymous$59 *stream, void *data, signed long int size);
+signed long int _glfwReadStream(struct anonymous_59 *stream, void *data, signed long int size);
 // _glfwReadTGA
 // file ../internal.h line 258
-signed int _glfwReadTGA(struct anonymous$59 *s, struct anonymous$40 *img, signed int flags);
+signed int _glfwReadTGA(struct anonymous_59 *s, struct anonymous_40 *img, signed int flags);
 // _glfwRefreshContextParams
 // file ../glext.c line 136
 void _glfwRefreshContextParams(void);
@@ -798,7 +798,7 @@ void _glfwRemoveThread(struct _GLFWthread_struct *t);
 void _glfwRestoreVideoMode(void);
 // _glfwSeekStream
 // file ../stream.c line 127
-signed int _glfwSeekStream(struct anonymous$59 *stream, signed long int offset, signed int whence);
+signed int _glfwSeekStream(struct anonymous_59 *stream, signed long int offset, signed int whence);
 // _glfwSetVideoMode
 // file x11_fullscreen.c line 286
 void _glfwSetVideoMode(signed int screen, signed int *width, signed int *height, signed int *rate);
@@ -810,7 +810,7 @@ void _glfwSetVideoModeMODE(signed int screen, signed int mode, signed int rate);
 signed int _glfwStringInExtensionString(const char *string, const unsigned char *extensions);
 // _glfwTellStream
 // file ../stream.c line 107
-signed long int _glfwTellStream(struct anonymous$59 *stream);
+signed long int _glfwTellStream(struct anonymous_59 *stream);
 // _glfwTerminateJoysticks
 // file ./platform.h line 523
 void _glfwTerminateJoysticks(void);
@@ -834,7 +834,7 @@ extern signed int clock_gettime(signed int, struct timespec *);
 extern signed int close(signed int);
 // createContext
 // file x11_window.c line 586
-static signed int createContext(const struct anonymous$33 *wndconfig, unsigned long int fbconfigID);
+static signed int createContext(const struct anonymous_33 *wndconfig, unsigned long int fbconfigID);
 // createLegacyContext
 // file x11_window.c line 557
 static struct __GLXcontextRec * createLegacyContext(struct __GLXFBConfigRec *fbconfig);
@@ -843,7 +843,7 @@ static struct __GLXcontextRec * createLegacyContext(struct __GLXFBConfigRec *fbc
 static unsigned long int createNULLCursor(struct _XDisplay *display, unsigned long int root);
 // createWindow
 // file x11_window.c line 851
-static unsigned char createWindow(signed int width, signed int height, const struct anonymous$33 *wndconfig);
+static unsigned char createWindow(signed int width, signed int height, const struct anonymous_33 *wndconfig);
 // disableAutoPollEvents
 // file ../enable.c line 227
 static void disableAutoPollEvents(void);
@@ -891,7 +891,7 @@ static void enableSystemKeys(void);
 static void enterFullscreenMode(void);
 // errorHandler
 // file x11_window.c line 70
-static signed int errorHandler(struct _XDisplay *display, struct anonymous$63 *event);
+static signed int errorHandler(struct _XDisplay *display, struct anonymous_63 *event);
 // exit
 // file /usr/include/stdlib.h line 543
 extern void exit(signed int);
@@ -921,7 +921,7 @@ extern signed long int ftell(struct _IO_FILE *);
 static signed int getFBConfigAttrib(struct __GLXFBConfigRec *fbconfig, signed int attrib);
 // getFBConfigs
 // file x11_window.c line 438
-static struct anonymous$56 * getFBConfigs(unsigned int *found);
+static struct anonymous_56 * getFBConfigs(unsigned int *found);
 // getRawTime
 // file x11_time.c line 40
 static unsigned long int getRawTime(void);
@@ -987,7 +987,7 @@ extern void glXDestroyContext(struct _XDisplay *, struct __GLXcontextRec *);
 extern const char * glXGetClientString(struct _XDisplay *, signed int);
 // glXGetConfig
 // file /usr/include/GL/glx.h line 214
-extern signed int glXGetConfig(struct _XDisplay *, struct anonymous$41 *, signed int, signed int *);
+extern signed int glXGetConfig(struct _XDisplay *, struct anonymous_41 *, signed int, signed int *);
 // glXGetFBConfigAttrib
 // file /usr/include/GL/glx.h line 245
 extern signed int glXGetFBConfigAttrib(struct _XDisplay *, struct __GLXFBConfigRec *, signed int, signed int *);
@@ -999,7 +999,7 @@ extern struct __GLXFBConfigRec ** glXGetFBConfigs(struct _XDisplay *, signed int
 extern void (*glXGetProcAddress(const unsigned char *))(void);
 // glXGetVisualFromFBConfig
 // file /usr/include/GL/glx.h line 251
-extern struct anonymous$41 * glXGetVisualFromFBConfig(struct _XDisplay *, struct __GLXFBConfigRec *);
+extern struct anonymous_41 * glXGetVisualFromFBConfig(struct _XDisplay *, struct __GLXFBConfigRec *);
 // glXMakeCurrent
 // file /usr/include/GL/glx.h line 195
 extern signed int glXMakeCurrent(struct _XDisplay *, unsigned long int, struct __GLXcontextRec *);
@@ -1030,9 +1030,9 @@ void * glfwCreateMutex(void);
 // glfwCreateThread
 // file ../thread.c line 105
 signed int glfwCreateThread(void (*fun)(void *), void *arg);
-// glfwCreateThread::fun$object
+// glfwCreateThread::fun_object
 //
-void fun$object(void *);
+void fun_object(void *);
 // glfwDestroyCond
 // file ../thread.c line 264
 void glfwDestroyCond(void *cond);
@@ -1053,10 +1053,10 @@ void glfwEnable(signed int token);
 signed int glfwExtensionSupported(const char *extension);
 // glfwFreeImage
 // file ../image.c line 419
-void glfwFreeImage(struct anonymous$40 *img);
+void glfwFreeImage(struct anonymous_40 *img);
 // glfwGetDesktopMode
 // file ../fullscreen.c line 85
-void glfwGetDesktopMode(struct anonymous$58 *mode);
+void glfwGetDesktopMode(struct anonymous_58 *mode);
 // glfwGetGLVersion
 // file ../glext.c line 263
 void glfwGetGLVersion(signed int *major, signed int *minor, signed int *rev);
@@ -1098,7 +1098,7 @@ double glfwGetTime(void);
 void glfwGetVersion(signed int *major, signed int *minor, signed int *rev);
 // glfwGetVideoModes
 // file ../fullscreen.c line 42
-signed int glfwGetVideoModes(struct anonymous$58 *list, signed int maxcount);
+signed int glfwGetVideoModes(struct anonymous_58 *list, signed int maxcount);
 // glfwGetWindowParam
 // file ../include/GL/glfw.h line 445
 signed int glfwGetWindowParam(signed int param);
@@ -1119,7 +1119,7 @@ signed int glfwLoadMemoryTexture2D(const void *data, signed long int size, signe
 signed int glfwLoadTexture2D(const char *name, signed int flags);
 // glfwLoadTextureImage2D
 // file ../image.c line 522
-signed int glfwLoadTextureImage2D(struct anonymous$40 *img, signed int flags);
+signed int glfwLoadTextureImage2D(struct anonymous_40 *img, signed int flags);
 // glfwLockMutex
 // file ../thread.c line 216
 void glfwLockMutex(void *mutex);
@@ -1134,76 +1134,76 @@ void glfwOpenWindowHint(signed int target, signed int hint);
 void glfwPollEvents(void);
 // glfwReadImage
 // file ../image.c line 276
-signed int glfwReadImage(const char *name, struct anonymous$40 *img, signed int flags);
+signed int glfwReadImage(const char *name, struct anonymous_40 *img, signed int flags);
 // glfwReadMemoryImage
 // file ../image.c line 348
-signed int glfwReadMemoryImage(const void *data, signed long int size, struct anonymous$40 *img, signed int flags);
+signed int glfwReadMemoryImage(const void *data, signed long int size, struct anonymous_40 *img, signed int flags);
 // glfwRestoreWindow
 // file ../window.c line 791
 void glfwRestoreWindow(void);
 // glfwSetCharCallback
 // file ../input.c line 197
 void glfwSetCharCallback(void (*cbfun)(signed int, signed int));
-// glfwSetCharCallback::cbfun$object
+// glfwSetCharCallback::cbfun_object
 //
-void cbfun$object(signed int, signed int);
+void cbfun_object(signed int, signed int);
 // glfwSetKeyCallback
 // file ../input.c line 181
 void glfwSetKeyCallback(void (*cbfun)(signed int, signed int));
-// glfwSetKeyCallback::cbfun$object
+// glfwSetKeyCallback::cbfun_object
 //
-void cbfun$object(signed int, signed int);
+void cbfun_object(signed int, signed int);
 // glfwSetMouseButtonCallback
 // file ../input.c line 213
 void glfwSetMouseButtonCallback(void (*cbfun)(signed int, signed int));
-// glfwSetMouseButtonCallback::cbfun$object
+// glfwSetMouseButtonCallback::cbfun_object
 //
-void cbfun$object(signed int, signed int);
+void cbfun_object(signed int, signed int);
 // glfwSetMousePos
 // file ../input.c line 117
 void glfwSetMousePos(signed int xpos, signed int ypos);
 // glfwSetMousePosCallback
 // file ../input.c line 229
 void glfwSetMousePosCallback(void (*cbfun)(signed int, signed int));
-// glfwSetMousePosCallback::cbfun$object
+// glfwSetMousePosCallback::cbfun_object
 //
-void cbfun$object(signed int, signed int);
+void cbfun_object(signed int, signed int);
 // glfwSetMouseWheel
 // file ../input.c line 165
 void glfwSetMouseWheel(signed int pos);
 // glfwSetMouseWheelCallback
 // file ../input.c line 252
 void glfwSetMouseWheelCallback(void (*cbfun)(signed int));
-// glfwSetMouseWheelCallback::cbfun$object
+// glfwSetMouseWheelCallback::cbfun_object
 //
-void cbfun$object(signed int);
+void cbfun_object(signed int);
 // glfwSetTime
 // file ../time.c line 58
 void glfwSetTime(double time);
 // glfwSetWindowCloseCallback
 // file ../window.c line 947
 void glfwSetWindowCloseCallback(signed int (*cbfun)(void));
-// glfwSetWindowCloseCallback::cbfun$object
+// glfwSetWindowCloseCallback::cbfun_object
 //
-signed int cbfun$object(void);
+signed int cbfun_object(void);
 // glfwSetWindowPos
 // file ../window.c line 758
 void glfwSetWindowPos(signed int x, signed int y);
 // glfwSetWindowRefreshCallback
 // file ../window.c line 963
 void glfwSetWindowRefreshCallback(void (*cbfun)(void));
-// glfwSetWindowRefreshCallback::cbfun$object
+// glfwSetWindowRefreshCallback::cbfun_object
 //
-void cbfun$object(void);
+void cbfun_object(void);
 // glfwSetWindowSize
 // file ../window.c line 732
 void glfwSetWindowSize(signed int width, signed int height);
 // glfwSetWindowSizeCallback
 // file ../include/GL/glfw.h line 446
 void glfwSetWindowSizeCallback(void (*cbfun)(signed int, signed int));
-// glfwSetWindowSizeCallback::cbfun$object
+// glfwSetWindowSizeCallback::cbfun_object
 //
-void cbfun$object(signed int, signed int);
+void cbfun_object(signed int, signed int);
 // glfwSetWindowTitle
 // file ../window.c line 694
 void glfwSetWindowTitle(const char *title);
@@ -1281,22 +1281,22 @@ extern signed int printf(const char *, ...);
 static unsigned char processSingleEvent(void);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$44 *);
+extern signed int pthread_cond_broadcast(union anonymous_44 *);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$44 *);
+extern signed int pthread_cond_destroy(union anonymous_44 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$44 *, const union anonymous$62 *);
+extern signed int pthread_cond_init(union anonymous_44 *, const union anonymous_62 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$44 *);
+extern signed int pthread_cond_signal(union anonymous_44 *);
 // pthread_cond_timedwait
 // file /usr/include/pthread.h line 1002
-extern signed int pthread_cond_timedwait(union anonymous$44 *, union anonymous$61 *, struct timespec *);
+extern signed int pthread_cond_timedwait(union anonymous_44 *, union anonymous_61 *, struct timespec *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$44 *, union anonymous$61 *);
+extern signed int pthread_cond_wait(union anonymous_44 *, union anonymous_61 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1308,16 +1308,16 @@ extern signed int pthread_join(unsigned long int, void **);
 extern signed int pthread_kill(unsigned long int, signed int);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$61 *);
+extern signed int pthread_mutex_destroy(union anonymous_61 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$61 *, const union anonymous$62 *);
+extern signed int pthread_mutex_init(union anonymous_61 *, const union anonymous_62 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$61 *);
+extern signed int pthread_mutex_lock(union anonymous_61 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$61 *);
+extern signed int pthread_mutex_unlock(union anonymous_61 *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -1359,7 +1359,7 @@ static void terminateDisplay(void);
 static void terminateThreads(void);
 // translateChar
 // file x11_window.c line 372
-static signed int translateChar(struct anonymous$49 *event);
+static signed int translateChar(struct anonymous_49 *event);
 // translateKey
 // file x11_window.c line 243
 static signed int translateKey(signed int keycode);
@@ -1367,10 +1367,10 @@ static signed int translateKey(signed int keycode);
 // file joysticks.c line 50
 static void window_size_callback(signed int width, signed int height);
 
-struct anonymous$41
+struct anonymous_41
 {
   // visual
-  struct anonymous$35 *visual;
+  struct anonymous_35 *visual;
   // visualid
   unsigned long int visualid;
   // screen
@@ -1391,7 +1391,7 @@ struct anonymous$41
   signed int bits_per_rgb;
 };
 
-struct anonymous$59
+struct anonymous_59
 {
   // file
   struct _IO_FILE *file;
@@ -1403,7 +1403,7 @@ struct anonymous$59
   signed long int size;
 };
 
-struct anonymous$36
+struct anonymous_36
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1422,11 +1422,11 @@ struct anonymous$36
   // ndepths
   signed int ndepths;
   // depths
-  struct anonymous$34 *depths;
+  struct anonymous_34 *depths;
   // root_depth
   signed int root_depth;
   // root_visual
-  struct anonymous$35 *root_visual;
+  struct anonymous_35 *root_visual;
   // default_gc
   struct _XGC *default_gc;
   // cmap
@@ -1447,7 +1447,7 @@ struct anonymous$36
   signed long int root_input_mask;
 };
 
-struct anonymous$55
+struct anonymous_55
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1484,7 +1484,7 @@ struct anonymous$55
   // nformats
   signed int nformats;
   // pixmap_format
-  struct anonymous$39 *pixmap_format;
+  struct anonymous_39 *pixmap_format;
   // private8
   signed int private8;
   // release
@@ -1520,7 +1520,7 @@ struct anonymous$55
   // nscreens
   signed int nscreens;
   // screens
-  struct anonymous$36 *screens;
+  struct anonymous_36 *screens;
   // motion_buffer
   unsigned long int motion_buffer;
   // private16
@@ -1539,7 +1539,7 @@ struct anonymous$55
   char *xdefaults;
 };
 
-struct anonymous$39
+struct anonymous_39
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1551,7 +1551,7 @@ struct anonymous$39
   signed int scanline_pad;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1571,7 +1571,7 @@ struct anonymous$35
   signed int map_entries;
 };
 
-struct anonymous$50
+struct anonymous_50
 {
   // MousePosX
   signed int MousePosX;
@@ -1641,7 +1641,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$61
+union anonymous_61
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1651,17 +1651,17 @@ union anonymous$61
   signed long int __align;
 };
 
-struct anonymous$64
+struct anonymous_64
 {
   // NextID
   signed int NextID;
   // First
   struct _GLFWthread_struct First;
   // CriticalSection
-  union anonymous$61 CriticalSection;
+  union anonymous_61 CriticalSection;
 };
 
-struct anonymous$65
+struct anonymous_65
 {
   // Present
   signed int Present;
@@ -1677,7 +1677,7 @@ struct anonymous$65
   unsigned char *Button;
 };
 
-struct anonymous$40
+struct anonymous_40
 {
   // Width
   signed int Width;
@@ -1691,7 +1691,7 @@ struct anonymous$40
   unsigned char *Data;
 };
 
-struct anonymous$58
+struct anonymous_58
 {
   // Width
   signed int Width;
@@ -1705,7 +1705,7 @@ struct anonymous$58
   signed int GreenBits;
 };
 
-struct anonymous$43
+struct anonymous_43
 {
   // __lock
   signed int __lock;
@@ -1725,7 +1725,7 @@ struct anonymous$43
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$52
+struct anonymous_52
 {
   // available
   signed int available;
@@ -1735,7 +1735,7 @@ struct anonymous$52
   signed int errorBase;
 };
 
-struct anonymous$45
+struct anonymous_45
 {
   // changed
   signed int changed;
@@ -1749,17 +1749,17 @@ struct anonymous$45
   signed int exposure;
 };
 
-struct anonymous$34
+struct anonymous_34
 {
   // depth
   signed int depth;
   // nvisuals
   signed int nvisuals;
   // visuals
-  struct anonymous$35 *visuals;
+  struct anonymous_35 *visuals;
 };
 
-struct anonymous$47
+struct anonymous_47
 {
   // function
   signed int function;
@@ -1841,7 +1841,7 @@ struct anonymous
   signed int _origin;
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // mode
   signed int mode;
@@ -1861,7 +1861,7 @@ struct anonymous$33
   signed int glProfile;
 };
 
-struct anonymous$46
+struct anonymous_46
 {
   // modeChanged
   signed int modeChanged;
@@ -1875,7 +1875,7 @@ struct anonymous$46
   unsigned short int oldRotation;
 };
 
-struct anonymous$56
+struct anonymous_56
 {
   // redBits
   signed int redBits;
@@ -1907,7 +1907,7 @@ struct anonymous$56
   signed long int platformID;
 };
 
-struct anonymous$54
+struct anonymous_54
 {
   // refreshRate
   signed int refreshRate;
@@ -1939,7 +1939,7 @@ struct anonymous$54
   signed int glProfile;
 };
 
-struct anonymous$63
+struct anonymous_63
 {
   // type
   signed int type;
@@ -1957,7 +1957,7 @@ struct anonymous$63
   unsigned char minor_code;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // type
   signed int type;
@@ -1973,7 +1973,7 @@ struct anonymous$31
   signed int evtype;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // type
   signed int type;
@@ -1993,7 +1993,7 @@ struct anonymous$32
   void *data;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // type
   signed int type;
@@ -2011,7 +2011,7 @@ struct anonymous$8
   signed int minor_code;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // type
   signed int type;
@@ -2039,7 +2039,7 @@ struct anonymous$7
   signed int minor_code;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // type
   signed int type;
@@ -2055,7 +2055,7 @@ struct anonymous$11
   unsigned long int window;
 };
 
-struct anonymous$12
+struct anonymous_12
 {
   // type
   signed int type;
@@ -2073,7 +2073,7 @@ struct anonymous$12
   signed int from_configure;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // type
   signed int type;
@@ -2091,7 +2091,7 @@ struct anonymous$13
   signed int override_redirect;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // type
   signed int type;
@@ -2109,7 +2109,7 @@ struct anonymous$20
   signed int place;
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // type
   signed int type;
@@ -2129,7 +2129,7 @@ struct anonymous$17
   signed int y;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // type
   signed int type;
@@ -2159,7 +2159,7 @@ struct anonymous$16
   signed int override_redirect;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // type
   signed int type;
@@ -2183,7 +2183,7 @@ struct anonymous$15
   signed int override_redirect;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // type
   signed int type;
@@ -2207,7 +2207,7 @@ struct anonymous$24
   unsigned long int time;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // type
   signed int type;
@@ -2223,7 +2223,7 @@ struct anonymous$14
   unsigned long int window;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // type
   signed int type;
@@ -2241,7 +2241,7 @@ struct anonymous$21
   signed int place;
 };
 
-struct anonymous$10
+struct anonymous_10
 {
   // type
   signed int type;
@@ -2269,7 +2269,7 @@ struct anonymous$10
   signed int override_redirect;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // type
   signed int type;
@@ -2301,7 +2301,7 @@ struct anonymous$19
   unsigned long int value_mask;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // type
   signed int type;
@@ -2323,7 +2323,7 @@ struct anonymous$25
   unsigned long int time;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // type
   signed int type;
@@ -2337,7 +2337,7 @@ struct anonymous$1
   unsigned long int window;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // type
   signed int type;
@@ -2353,7 +2353,7 @@ struct anonymous$30
   char key_vector[32l];
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // type
   signed int type;
@@ -2371,7 +2371,7 @@ struct anonymous$5
   signed int detail;
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // type
   signed int type;
@@ -2391,7 +2391,7 @@ struct anonymous$29
   signed int count;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // type
   signed int type;
@@ -2407,7 +2407,7 @@ struct anonymous$9
   signed int state;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // type
   signed int type;
@@ -2425,7 +2425,7 @@ struct anonymous$18
   signed int height;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // type
   signed int type;
@@ -2449,7 +2449,7 @@ struct anonymous$6
   signed int count;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // type
   signed int type;
@@ -2469,7 +2469,7 @@ struct anonymous$22
   signed int state;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // type
   signed int type;
@@ -2489,7 +2489,7 @@ struct anonymous$26
   signed int state;
 };
 
-union anonymous$27
+union anonymous_27
 {
   // b
   char b[20l];
@@ -2499,7 +2499,7 @@ union anonymous$27
   signed long int l[5l];
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // type
   signed int type;
@@ -2516,10 +2516,10 @@ struct anonymous$28
   // format
   signed int format;
   // data
-  union anonymous$27 data;
+  union anonymous_27 data;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // type
   signed int type;
@@ -2557,7 +2557,7 @@ struct anonymous$4
   unsigned int state;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // type
   signed int type;
@@ -2591,7 +2591,7 @@ struct anonymous$3
   signed int same_screen;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // type
   signed int type;
@@ -2625,7 +2625,7 @@ struct anonymous$2
   signed int same_screen;
 };
 
-struct anonymous$49
+struct anonymous_49
 {
   // type
   signed int type;
@@ -2659,7 +2659,7 @@ struct anonymous$49
   signed int same_screen;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // type
   signed int type;
@@ -2677,7 +2677,7 @@ struct anonymous$23
   unsigned long int time;
 };
 
-struct anonymous$51
+struct anonymous_51
 {
   // versionMajor
   signed int versionMajor;
@@ -2689,7 +2689,7 @@ struct anonymous$51
   signed int errorBase;
 };
 
-struct anonymous$57
+struct anonymous_57
 {
   // width
   signed int width;
@@ -2701,7 +2701,7 @@ struct anonymous$57
   signed int mheight;
 };
 
-struct anonymous$37
+struct anonymous_37
 {
   // x
   signed int x;
@@ -2709,7 +2709,7 @@ struct anonymous$37
   signed int y;
 };
 
-struct anonymous$60
+struct anonymous_60
 {
   // flags
   signed long int flags;
@@ -2731,7 +2731,7 @@ struct anonymous$60
   unsigned long int window_group;
 };
 
-struct anonymous$38
+struct anonymous_38
 {
   // flags
   signed long int flags;
@@ -2756,9 +2756,9 @@ struct anonymous$38
   // height_inc
   signed int height_inc;
   // min_aspect
-  struct anonymous$37 min_aspect;
+  struct anonymous_37 min_aspect;
   // max_aspect
-  struct anonymous$37 max_aspect;
+  struct anonymous_37 max_aspect;
   // base_width
   signed int base_width;
   // base_height
@@ -2767,7 +2767,7 @@ struct anonymous$38
   signed int win_gravity;
 };
 
-struct anonymous$53
+struct anonymous_53
 {
   // monotonic
   unsigned char monotonic;
@@ -2777,25 +2777,25 @@ struct anonymous$53
   signed long long int base;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // hints
-  struct anonymous$54 hints;
+  struct anonymous_54 hints;
   // desktopMode
-  struct anonymous$58 desktopMode;
+  struct anonymous_58 desktopMode;
   // display
   struct _XDisplay *display;
   // GLX
-  struct anonymous$51 GLX;
+  struct anonymous_51 GLX;
   // XF86VidMode
-  struct anonymous$52 XF86VidMode;
+  struct anonymous_52 XF86VidMode;
   // XRandR
-  struct anonymous$52 XRandR;
+  struct anonymous_52 XRandR;
   // Timer
-  struct anonymous$53 Timer;
+  struct anonymous_53 Timer;
 };
 
-struct anonymous$48
+struct anonymous_48
 {
   // background_pixmap
   unsigned long int background_pixmap;
@@ -2829,7 +2829,7 @@ struct anonymous$48
   unsigned long int cursor;
 };
 
-struct anonymous$42
+struct anonymous_42
 {
   // pixel
   unsigned long int pixel;
@@ -2845,7 +2845,7 @@ struct anonymous$42
   char pad;
 };
 
-union anonymous$62
+union anonymous_62
 {
   // __size
   char __size[4l];
@@ -2853,10 +2853,10 @@ union anonymous$62
   signed int __align;
 };
 
-union anonymous$44
+union anonymous_44
 {
   // __data
-  struct anonymous$43 __data;
+  struct anonymous_43 __data;
   // __size
   char __size[48l];
   // __align
@@ -2972,7 +2972,7 @@ struct _GLFWwin_struct
   // screen
   signed int screen;
   // visual
-  struct anonymous$41 *visual;
+  struct anonymous_41 *visual;
   // fbconfigID
   unsigned long int fbconfigID;
   // context
@@ -3002,7 +3002,7 @@ struct _GLFWwin_struct
   // CreateContextWithConfigSGIX
   struct __GLXcontextRec * (*CreateContextWithConfigSGIX)(struct _XDisplay *, struct __GLXFBConfigRec *, signed int, struct __GLXcontextRec *, signed int);
   // GetVisualFromFBConfigSGIX
-  struct anonymous$41 * (*GetVisualFromFBConfigSGIX)(struct _XDisplay *, struct __GLXFBConfigRec *);
+  struct anonymous_41 * (*GetVisualFromFBConfigSGIX)(struct _XDisplay *, struct __GLXFBConfigRec *);
   // CreateContextAttribsARB
   struct __GLXcontextRec * (*CreateContextAttribsARB)(struct _XDisplay *, struct __GLXFBConfigRec *, struct __GLXcontextRec *, signed int, const signed int *);
   // has_GLX_SGIX_fbconfig
@@ -3030,9 +3030,9 @@ struct _GLFWwin_struct
   // pointerHidden
   unsigned char pointerHidden;
   // Saver
-  struct anonymous$45 Saver;
+  struct anonymous_45 Saver;
   // FS
-  struct anonymous$46 FS;
+  struct anonymous_46 FS;
 };
 
 struct _IO_FILE
@@ -3120,71 +3120,71 @@ union _XEvent
   // type
   signed int type;
   // xany
-  struct anonymous$1 xany;
+  struct anonymous_1 xany;
   // xkey
-  struct anonymous$49 xkey;
+  struct anonymous_49 xkey;
   // xbutton
-  struct anonymous$2 xbutton;
+  struct anonymous_2 xbutton;
   // xmotion
-  struct anonymous$3 xmotion;
+  struct anonymous_3 xmotion;
   // xcrossing
-  struct anonymous$4 xcrossing;
+  struct anonymous_4 xcrossing;
   // xfocus
-  struct anonymous$5 xfocus;
+  struct anonymous_5 xfocus;
   // xexpose
-  struct anonymous$6 xexpose;
+  struct anonymous_6 xexpose;
   // xgraphicsexpose
-  struct anonymous$7 xgraphicsexpose;
+  struct anonymous_7 xgraphicsexpose;
   // xnoexpose
-  struct anonymous$8 xnoexpose;
+  struct anonymous_8 xnoexpose;
   // xvisibility
-  struct anonymous$9 xvisibility;
+  struct anonymous_9 xvisibility;
   // xcreatewindow
-  struct anonymous$10 xcreatewindow;
+  struct anonymous_10 xcreatewindow;
   // xdestroywindow
-  struct anonymous$11 xdestroywindow;
+  struct anonymous_11 xdestroywindow;
   // xunmap
-  struct anonymous$12 xunmap;
+  struct anonymous_12 xunmap;
   // xmap
-  struct anonymous$13 xmap;
+  struct anonymous_13 xmap;
   // xmaprequest
-  struct anonymous$14 xmaprequest;
+  struct anonymous_14 xmaprequest;
   // xreparent
-  struct anonymous$15 xreparent;
+  struct anonymous_15 xreparent;
   // xconfigure
-  struct anonymous$16 xconfigure;
+  struct anonymous_16 xconfigure;
   // xgravity
-  struct anonymous$17 xgravity;
+  struct anonymous_17 xgravity;
   // xresizerequest
-  struct anonymous$18 xresizerequest;
+  struct anonymous_18 xresizerequest;
   // xconfigurerequest
-  struct anonymous$19 xconfigurerequest;
+  struct anonymous_19 xconfigurerequest;
   // xcirculate
-  struct anonymous$20 xcirculate;
+  struct anonymous_20 xcirculate;
   // xcirculaterequest
-  struct anonymous$21 xcirculaterequest;
+  struct anonymous_21 xcirculaterequest;
   // xproperty
-  struct anonymous$22 xproperty;
+  struct anonymous_22 xproperty;
   // xselectionclear
-  struct anonymous$23 xselectionclear;
+  struct anonymous_23 xselectionclear;
   // xselectionrequest
-  struct anonymous$24 xselectionrequest;
+  struct anonymous_24 xselectionrequest;
   // xselection
-  struct anonymous$25 xselection;
+  struct anonymous_25 xselection;
   // xcolormap
-  struct anonymous$26 xcolormap;
+  struct anonymous_26 xcolormap;
   // xclient
-  struct anonymous$28 xclient;
+  struct anonymous_28 xclient;
   // xmapping
-  struct anonymous$29 xmapping;
+  struct anonymous_29 xmapping;
   // xerror
-  struct anonymous$63 xerror;
+  struct anonymous_63 xerror;
   // xkeymap
-  struct anonymous$30 xkeymap;
+  struct anonymous_30 xkeymap;
   // xgeneric
-  struct anonymous$31 xgeneric;
+  struct anonymous_31 xgeneric;
   // xcookie
-  struct anonymous$32 xcookie;
+  struct anonymous_32 xcookie;
   // pad
   signed long int pad[24l];
 };
@@ -3270,16 +3270,16 @@ static unsigned long int _glfwErrorCode = (unsigned long int)0;
 signed int _glfwInitialized = 0;
 // _glfwInput
 // file ./platform.h line 376
-struct anonymous$50 _glfwInput;
+struct anonymous_50 _glfwInput;
 // _glfwJoy
 // file ./platform.h line 488
-struct anonymous$65 _glfwJoy[16l];
+struct anonymous_65 _glfwJoy[16l];
 // _glfwLibrary
 // file ./platform.h line 426
-struct anonymous$0 _glfwLibrary;
+struct anonymous_0 _glfwLibrary;
 // _glfwThrd
 // file ./platform.h line 475
-struct anonymous$64 _glfwThrd;
+struct anonymous_64 _glfwThrd;
 // _glfwWin
 // file ./platform.h line 346
 struct _GLFWwin_struct _glfwWin;
@@ -4103,11 +4103,11 @@ static signed int HalveImage(unsigned char *src, signed int *width, signed int *
   signed int idx1;
   signed int idx2;
   unsigned char *dst;
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$2;
-  _Bool tmp_if_expr$5;
-  unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_2;
+  _Bool tmp_if_expr_5;
+  unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
   if(!(*width >= 2))
   {
     if(*height >= 2)
@@ -4122,24 +4122,24 @@ static signed int HalveImage(unsigned char *src, signed int *width, signed int *
   __CPROVER_DUMP_L1:
     ;
     if(*width >= 2)
-      tmp_if_expr$1 = *width / 2;
+      tmp_if_expr_1 = *width / 2;
 
     else
-      tmp_if_expr$1 = 1;
-    halfwidth = tmp_if_expr$1;
+      tmp_if_expr_1 = 1;
+    halfwidth = tmp_if_expr_1;
     if(*height >= 2)
-      tmp_if_expr$2 = *height / 2;
+      tmp_if_expr_2 = *height / 2;
 
     else
-      tmp_if_expr$2 = 1;
-    halfheight = tmp_if_expr$2;
+      tmp_if_expr_2 = 1;
+    halfheight = tmp_if_expr_2;
     dst = src;
     if(*width == 1)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = *height == 1 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = *height == 1 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
     {
       m = 0;
       for( ; !(m >= halfheight + halfwidth + -1); m = m + 1)
@@ -4147,9 +4147,9 @@ static signed int HalveImage(unsigned char *src, signed int *width, signed int *
         k = 0;
         for( ; !(k >= components); k = k + 1)
         {
-          tmp_post$3 = dst;
+          tmp_post_3 = dst;
           dst = dst + 1l;
-          *tmp_post$3 = (unsigned char)((signed int)*src + (signed int)src[(signed long int)components] + 1 >> 1);
+          *tmp_post_3 = (unsigned char)((signed int)*src + (signed int)src[(signed long int)components] + 1 >> 1);
           src = src + 1l;
         }
         src = src + (signed long int)components;
@@ -4169,9 +4169,9 @@ static signed int HalveImage(unsigned char *src, signed int *width, signed int *
           k = 0;
           for( ; !(k >= components); k = k + 1)
           {
-            tmp_post$4 = dst;
+            tmp_post_4 = dst;
             dst = dst + 1l;
-            *tmp_post$4 = (unsigned char)((signed int)*src + (signed int)src[(signed long int)components] + (signed int)src[(signed long int)idx1] + (signed int)src[(signed long int)idx2] + 2 >> 2);
+            *tmp_post_4 = (unsigned char)((signed int)*src + (signed int)src[(signed long int)components] + (signed int)src[(signed long int)idx1] + (signed int)src[(signed long int)idx2] + 2 >> 2);
             src = src + 1l;
           }
           src = src + (signed long int)components;
@@ -4194,13 +4194,13 @@ static signed int Max(signed int a, signed int b)
 
 // ReadTGAHeader
 // file ../tga.c line 96
-static signed int ReadTGAHeader(struct anonymous$59 *s, struct anonymous *h)
+static signed int ReadTGAHeader(struct anonymous_59 *s, struct anonymous *h)
 {
   unsigned char buf[18l];
   signed int pos;
-  signed long int return_value__glfwTellStream$1;
-  return_value__glfwTellStream$1=_glfwTellStream(s);
-  pos = (signed int)return_value__glfwTellStream$1;
+  signed long int return_value__glfwTellStream_1;
+  return_value__glfwTellStream_1=_glfwTellStream(s);
+  pos = (signed int)return_value__glfwTellStream_1;
   _glfwReadStream(s, (void *)buf, (signed long int)18);
   h->idlen = (signed int)buf[(signed long int)0];
   h->cmaptype = (signed int)buf[(signed long int)1];
@@ -4216,61 +4216,61 @@ static signed int ReadTGAHeader(struct anonymous$59 *s, struct anonymous *h)
   h->imageinfo = (signed int)buf[(signed long int)17];
   h->_alphabits = (signed int)(h->imageinfo & 0x0f) >> 0;
   h->_origin = (signed int)(h->imageinfo & 0x30) >> 4;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(h->cmaptype == 0)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = h->cmaptype == 1 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = h->cmaptype == 1 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_2)
   {
     if(h->imagetype >= 1)
-      tmp_if_expr$3 = h->imagetype <= 3 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_3 = h->imagetype <= 3 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$3 = (_Bool)0;
-    if(tmp_if_expr$3)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)0;
+    if(tmp_if_expr_3)
+      tmp_if_expr_5 = (_Bool)1;
 
     else
     {
       if(h->imagetype >= 9)
-        tmp_if_expr$4 = h->imagetype <= 11 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = h->imagetype <= 11 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$4 = (_Bool)0;
-      tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_4 = (_Bool)0;
+      tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
     }
-    tmp_if_expr$6 = tmp_if_expr$5 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_6 = tmp_if_expr_5 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$6 = (_Bool)0;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  if(tmp_if_expr$6)
+    tmp_if_expr_6 = (_Bool)0;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  if(tmp_if_expr_6)
   {
     if(h->bitsperpixel == 8)
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = h->bitsperpixel == 24 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$7)
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_7 = h->bitsperpixel == 24 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_7)
+      tmp_if_expr_8 = (_Bool)1;
 
     else
-      tmp_if_expr$8 = h->bitsperpixel == 32 ? (_Bool)1 : (_Bool)0;
-    tmp_if_expr$9 = tmp_if_expr$8 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_8 = h->bitsperpixel == 32 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_9 = tmp_if_expr_8 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$9 = (_Bool)0;
-  if(tmp_if_expr$9)
+    tmp_if_expr_9 = (_Bool)0;
+  if(tmp_if_expr_9)
   {
     _glfwSeekStream(s, (signed long int)h->idlen, 1);
     return 1;
@@ -4285,7 +4285,7 @@ static signed int ReadTGAHeader(struct anonymous$59 *s, struct anonymous *h)
 
 // ReadTGA_RLE
 // file ../tga.c line 152
-static void ReadTGA_RLE(unsigned char *buf, signed int size, signed int bpp, struct anonymous$59 *s)
+static void ReadTGA_RLE(unsigned char *buf, signed int size, signed int bpp, struct anonymous_59 *s)
 {
   signed int repcount;
   signed int bytes;
@@ -4293,7 +4293,7 @@ static void ReadTGA_RLE(unsigned char *buf, signed int size, signed int bpp, str
   signed int n;
   unsigned char pixel[4l];
   char c;
-  unsigned char *tmp_post$1;
+  unsigned char *tmp_post_1;
   if(!(bpp >= 5))
     for( ; size >= 1; size = size - bytes)
     {
@@ -4312,9 +4312,9 @@ static void ReadTGA_RLE(unsigned char *buf, signed int size, signed int bpp, str
           k = 0;
           for( ; !(k >= bpp); k = k + 1)
           {
-            tmp_post$1 = buf;
+            tmp_post_1 = buf;
             buf = buf + 1l;
-            *tmp_post$1 = pixel[(signed long int)k];
+            *tmp_post_1 = pixel[(signed long int)k];
           }
         }
       }
@@ -4330,7 +4330,7 @@ static void ReadTGA_RLE(unsigned char *buf, signed int size, signed int bpp, str
 
 // RescaleImage
 // file ../image.c line 214
-static signed int RescaleImage(struct anonymous$40 *image)
+static signed int RescaleImage(struct anonymous_40 *image)
 {
   signed int width;
   signed int height;
@@ -4353,18 +4353,18 @@ static signed int RescaleImage(struct anonymous$40 *image)
   if(!(height >= image->Height))
     height = height << 1;
 
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(width == image->Width))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = height != image->Height ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = height != image->Height ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
     newsize = width * height * image->BytesPerPixel;
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)newsize);
-    data = (unsigned char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)newsize);
+    data = (unsigned char *)return_value_malloc_1;
     if(data == ((unsigned char *)NULL))
     {
       free((void *)image->Data);
@@ -4407,11 +4407,11 @@ static void UpsampleImage(unsigned char *src, unsigned char *dst, signed int w1,
   dy = 0.0f;
   y = 0;
   n = 0;
-  unsigned char *tmp_post$1;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
+  unsigned char *tmp_post_1;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
   for( ; !(n >= h2); n = n + 1)
   {
     dx = 0.0f;
@@ -4426,28 +4426,28 @@ static void UpsampleImage(unsigned char *src, unsigned char *dst, signed int w1,
       k = 0;
       for( ; !(k >= bpp); k = k + 1)
       {
-        tmp_post$1 = src1;
+        tmp_post_1 = src1;
         src1 = src1 + 1l;
-        col1 = (float)*tmp_post$1;
-        tmp_post$2 = src2;
+        col1 = (float)*tmp_post_1;
+        tmp_post_2 = src2;
         src2 = src2 + 1l;
-        col2 = (float)*tmp_post$2;
+        col2 = (float)*tmp_post_2;
         col = col1 + (col2 - col1) * dx;
-        tmp_post$3 = src3;
+        tmp_post_3 = src3;
         src3 = src3 + 1l;
-        col1 = (float)*tmp_post$3;
-        tmp_post$4 = src4;
+        col1 = (float)*tmp_post_3;
+        tmp_post_4 = src4;
         src4 = src4 + 1l;
-        col2 = (float)*tmp_post$4;
+        col2 = (float)*tmp_post_4;
         col2 = col1 + (col2 - col1) * dx;
         col = col + (col2 - col) * dy;
         col8 = (signed int)((double)col + 0.5);
         if(col8 >= 256)
           col8 = 255;
 
-        tmp_post$5 = dst;
+        tmp_post_5 = dst;
         dst = dst + 1l;
-        *tmp_post$5 = (unsigned char)col8;
+        *tmp_post_5 = (unsigned char)col8;
       }
       dx = dx + xstep;
       if(dx >= 1.0f)
@@ -4494,7 +4494,7 @@ void _glfwAppendThread(struct _GLFWthread_struct *t)
 
 // _glfwChooseFBConfig
 // file ../window.c line 259
-const struct anonymous$56 * _glfwChooseFBConfig(const struct anonymous$56 *desired, const struct anonymous$56 *alternatives, unsigned int count)
+const struct anonymous_56 * _glfwChooseFBConfig(const struct anonymous_56 *desired, const struct anonymous_56 *alternatives, unsigned int count)
 {
   unsigned int i;
   unsigned int missing;
@@ -4503,8 +4503,8 @@ const struct anonymous$56 * _glfwChooseFBConfig(const struct anonymous$56 *desir
   unsigned int leastColorDiff = (unsigned int)0x7fffffff * 2U + 1U;
   unsigned int extraDiff;
   unsigned int leastExtraDiff = (unsigned int)0x7fffffff * 2U + 1U;
-  const struct anonymous$56 *current;
-  const struct anonymous$56 *closest = (const struct anonymous$56 *)(void *)0;
+  const struct anonymous_56 *current;
+  const struct anonymous_56 *closest = (const struct anonymous_56 *)(void *)0;
   i = (unsigned int)0;
   for( ; !(i >= count); i = i + 1u)
   {
@@ -4635,18 +4635,18 @@ void _glfwClearInput(void)
 // file ../internal.h line 230
 void _glfwClearWindowHints(void)
 {
-  memset((void *)&_glfwLibrary.hints, 0, sizeof(struct anonymous$54) /*56ul*/ );
+  memset((void *)&_glfwLibrary.hints, 0, sizeof(struct anonymous_54) /*56ul*/ );
   _glfwLibrary.hints.glMajor = 1;
 }
 
 // _glfwCloseStream
 // file ../internal.h line 255
-void _glfwCloseStream(struct anonymous$59 *stream)
+void _glfwCloseStream(struct anonymous_59 *stream)
 {
   if(!(stream->file == ((struct _IO_FILE *)NULL)))
     fclose(stream->file);
 
-  memset((void *)stream, 0, sizeof(struct anonymous$59) /*32ul*/ );
+  memset((void *)stream, 0, sizeof(struct anonymous_59) /*32ul*/ );
 }
 
 // _glfwGetClosestVideoMode
@@ -4662,10 +4662,10 @@ signed int _glfwGetClosestVideoMode(signed int screen, signed int *width, signed
   signed int bestrate;
   signed short int *ratelist;
   struct _XRRScreenConfiguration *sc;
-  struct anonymous$57 *sizelist;
+  struct anonymous_57 *sizelist;
   if(!(_glfwLibrary.XRandR.available == 0))
   {
-    sc=XRRGetScreenInfo(_glfwLibrary.display, (&((struct anonymous$55 *)_glfwLibrary.display)->screens[(signed long int)screen])->root);
+    sc=XRRGetScreenInfo(_glfwLibrary.display, (&((struct anonymous_55 *)_glfwLibrary.display)->screens[(signed long int)screen])->root);
     sizelist=XRRConfigSizes(sc, &sizecount);
     bestsize = -1;
     bestmatch = 0x7fffffff;
@@ -4719,8 +4719,8 @@ signed int _glfwGetClosestVideoMode(signed int screen, signed int *width, signed
 
   __CPROVER_DUMP_L8:
     ;
-    *width = (&((struct anonymous$55 *)_glfwLibrary.display)->screens[(signed long int)screen])->width;
-    *height = (&((struct anonymous$55 *)_glfwLibrary.display)->screens[(signed long int)screen])->height;
+    *width = (&((struct anonymous_55 *)_glfwLibrary.display)->screens[(signed long int)screen])->width;
+    *height = (&((struct anonymous_55 *)_glfwLibrary.display)->screens[(signed long int)screen])->height;
     return 0;
   }
 }
@@ -4789,17 +4789,17 @@ void _glfwInitJoysticks(void)
           _glfwJoy[(signed long int)joy_count].NumAxes = (signed int)ret_data;
           ioctl(fd, (unsigned long int)(2U << 0 + 8 + 8 + 14 | (unsigned int)(106 << 0 + 8) | (unsigned int)(0x12 << 0)) | sizeof(char) /*1ul*/  << 0 + 8 + 8, &ret_data);
           _glfwJoy[(signed long int)joy_count].NumButtons = (signed int)ret_data;
-          void *return_value_malloc$1;
-          return_value_malloc$1=malloc(sizeof(float) /*4ul*/  * (unsigned long int)_glfwJoy[(signed long int)joy_count].NumAxes);
-          _glfwJoy[(signed long int)joy_count].Axis = (float *)return_value_malloc$1;
+          void *return_value_malloc_1;
+          return_value_malloc_1=malloc(sizeof(float) /*4ul*/  * (unsigned long int)_glfwJoy[(signed long int)joy_count].NumAxes);
+          _glfwJoy[(signed long int)joy_count].Axis = (float *)return_value_malloc_1;
           if(_glfwJoy[(signed long int)joy_count].Axis == ((float *)NULL))
             close(fd);
 
           else
           {
-            void *return_value_malloc$2;
-            return_value_malloc$2=malloc(sizeof(char) /*1ul*/  * (unsigned long int)_glfwJoy[(signed long int)joy_count].NumButtons);
-            _glfwJoy[(signed long int)joy_count].Button = (unsigned char *)return_value_malloc$2;
+            void *return_value_malloc_2;
+            return_value_malloc_2=malloc(sizeof(char) /*1ul*/  * (unsigned long int)_glfwJoy[(signed long int)joy_count].NumButtons);
+            _glfwJoy[(signed long int)joy_count].Button = (unsigned char *)return_value_malloc_2;
             if(_glfwJoy[(signed long int)joy_count].Button == ((unsigned char *)NULL))
             {
               free((void *)_glfwJoy[(signed long int)joy_count].Axis);
@@ -4833,9 +4833,9 @@ void _glfwInitJoysticks(void)
 void _glfwInitTimer(void)
 {
   struct timespec ts;
-  signed int return_value_clock_gettime$1;
-  return_value_clock_gettime$1=clock_gettime(1, &ts);
-  if(return_value_clock_gettime$1 == 0)
+  signed int return_value_clock_gettime_1;
+  return_value_clock_gettime_1=clock_gettime(1, &ts);
+  if(return_value_clock_gettime_1 == 0)
   {
     _glfwLibrary.Timer.monotonic = (unsigned char)1;
     _glfwLibrary.Timer.resolution = 1e-9;
@@ -4843,9 +4843,9 @@ void _glfwInitTimer(void)
 
   else
     _glfwLibrary.Timer.resolution = 1e-6;
-  unsigned long int return_value_getRawTime$2;
-  return_value_getRawTime$2=getRawTime();
-  _glfwLibrary.Timer.base = (signed long long int)return_value_getRawTime$2;
+  unsigned long int return_value_getRawTime_2;
+  return_value_getRawTime_2=getRawTime();
+  _glfwLibrary.Timer.base = (signed long long int)return_value_getRawTime_2;
 }
 
 // _glfwInputChar
@@ -5010,9 +5010,9 @@ void * _glfwNewThread(void *arg)
 
 // _glfwOpenBufferStream
 // file ../internal.h line 251
-signed int _glfwOpenBufferStream(struct anonymous$59 *stream, void *data, signed long int size)
+signed int _glfwOpenBufferStream(struct anonymous_59 *stream, void *data, signed long int size)
 {
-  memset((void *)stream, 0, sizeof(struct anonymous$59) /*32ul*/ );
+  memset((void *)stream, 0, sizeof(struct anonymous_59) /*32ul*/ );
   stream->data = data;
   stream->size = size;
   return 1;
@@ -5020,9 +5020,9 @@ signed int _glfwOpenBufferStream(struct anonymous$59 *stream, void *data, signed
 
 // _glfwOpenFileStream
 // file ../internal.h line 250
-signed int _glfwOpenFileStream(struct anonymous$59 *stream, const char *name, const char *mode)
+signed int _glfwOpenFileStream(struct anonymous_59 *stream, const char *name, const char *mode)
 {
-  memset((void *)stream, 0, sizeof(struct anonymous$59) /*32ul*/ );
+  memset((void *)stream, 0, sizeof(struct anonymous_59) /*32ul*/ );
   stream->file=fopen(name, mode);
   if(stream->file == ((struct _IO_FILE *)NULL))
     return 0;
@@ -5041,9 +5041,9 @@ void _glfwParseGLVersion(signed int *major, signed int *minor, signed int *rev)
   const unsigned char *version;
   const unsigned char *ptr;
   version=glGetString((unsigned int)0x1F02);
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
   if(!(version == ((const unsigned char *)NULL)))
   {
     ptr = version;
@@ -5051,11 +5051,11 @@ void _glfwParseGLVersion(signed int *major, signed int *minor, signed int *rev)
     do
     {
       if((signed int)*ptr >= 48)
-        tmp_if_expr$1 = (signed int)*ptr <= 57 ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = (signed int)*ptr <= 57 ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       _major = (unsigned int)10 * _major + (unsigned int)((signed int)*ptr - 48);
@@ -5069,11 +5069,11 @@ void _glfwParseGLVersion(signed int *major, signed int *minor, signed int *rev)
       do
       {
         if((signed int)*ptr >= 48)
-          tmp_if_expr$2 = (signed int)*ptr <= 57 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (signed int)*ptr <= 57 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(!tmp_if_expr$2)
+          tmp_if_expr_2 = (_Bool)0;
+        if(!tmp_if_expr_2)
           break;
 
         _minor = (unsigned int)10 * _minor + (unsigned int)((signed int)*ptr - 48);
@@ -5087,11 +5087,11 @@ void _glfwParseGLVersion(signed int *major, signed int *minor, signed int *rev)
         do
         {
           if((signed int)*ptr >= 48)
-            tmp_if_expr$3 = (signed int)*ptr <= 57 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_3 = (signed int)*ptr <= 57 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$3 = (_Bool)0;
-          if(!tmp_if_expr$3)
+            tmp_if_expr_3 = (_Bool)0;
+          if(!tmp_if_expr_3)
             break;
 
           _rev = (unsigned int)10 * _rev + (unsigned int)((signed int)*ptr - 48);
@@ -5113,7 +5113,7 @@ void _glfwParseGLVersion(signed int *major, signed int *minor, signed int *rev)
 // file ../internal.h line 199
 void _glfwPlatformBroadcastCond(void *cond)
 {
-  pthread_cond_broadcast((union anonymous$44 *)cond);
+  pthread_cond_broadcast((union anonymous_44 *)cond);
 }
 
 // _glfwPlatformCloseWindow
@@ -5130,10 +5130,10 @@ void _glfwPlatformCloseWindow(void)
     _glfwWin.context = (struct __GLXcontextRec *)(void *)0;
   }
 
-  if(!(_glfwWin.visual == ((struct anonymous$41 *)NULL)))
+  if(!(_glfwWin.visual == ((struct anonymous_41 *)NULL)))
   {
     XFree((void *)_glfwWin.visual);
-    _glfwWin.visual = (struct anonymous$41 *)(void *)0;
+    _glfwWin.visual = (struct anonymous_41 *)(void *)0;
   }
 
   if(!(_glfwWin.window == 0ul))
@@ -5162,16 +5162,16 @@ void _glfwPlatformCloseWindow(void)
 // file ../internal.h line 195
 void * _glfwPlatformCreateCond(void)
 {
-  union anonymous$44 *cond;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(union anonymous$44) /*48ul*/ );
-  cond = (union anonymous$44 *)return_value_malloc$1;
-  if(cond == ((union anonymous$44 *)NULL))
+  union anonymous_44 *cond;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(union anonymous_44) /*48ul*/ );
+  cond = (union anonymous_44 *)return_value_malloc_1;
+  if(cond == ((union anonymous_44 *)NULL))
     return (void *)0;
 
   else
   {
-    pthread_cond_init(cond, (const union anonymous$62 *)(void *)0);
+    pthread_cond_init(cond, (const union anonymous_62 *)(void *)0);
     return (void *)cond;
   }
 }
@@ -5180,16 +5180,16 @@ void * _glfwPlatformCreateCond(void)
 // file ../internal.h line 191
 void * _glfwPlatformCreateMutex(void)
 {
-  union anonymous$61 *mutex;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(union anonymous$61) /*40ul*/ );
-  mutex = (union anonymous$61 *)return_value_malloc$1;
-  if(mutex == ((union anonymous$61 *)NULL))
+  union anonymous_61 *mutex;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(union anonymous_61) /*40ul*/ );
+  mutex = (union anonymous_61 *)return_value_malloc_1;
+  if(mutex == ((union anonymous_61 *)NULL))
     return (void *)0;
 
   else
   {
-    pthread_mutex_init(mutex, (const union anonymous$62 *)(void *)0);
+    pthread_mutex_init(mutex, (const union anonymous_62 *)(void *)0);
     return (void *)mutex;
   }
 }
@@ -5202,10 +5202,10 @@ signed int _glfwPlatformCreateThread(void (*fun)(void *), void *arg)
   struct _GLFWthread_struct *t;
   signed int result;
   pthread_mutex_lock(&_glfwThrd.CriticalSection);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _GLFWthread_struct) /*40ul*/ );
-  t = (struct _GLFWthread_struct *)return_value_malloc$1;
-  signed int tmp_post$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _GLFWthread_struct) /*40ul*/ );
+  t = (struct _GLFWthread_struct *)return_value_malloc_1;
+  signed int tmp_post_2;
   if(t == ((struct _GLFWthread_struct *)NULL))
   {
     pthread_mutex_unlock(&_glfwThrd.CriticalSection);
@@ -5214,9 +5214,9 @@ signed int _glfwPlatformCreateThread(void (*fun)(void *), void *arg)
 
   else
   {
-    tmp_post$2 = _glfwThrd.NextID;
+    tmp_post_2 = _glfwThrd.NextID;
     _glfwThrd.NextID = _glfwThrd.NextID + 1;
-    ID = tmp_post$2;
+    ID = tmp_post_2;
     t->Function = fun;
     t->ID = ID;
     result=pthread_create(&t->PosixID, (const union pthread_attr_t *)(void *)0, _glfwNewThread, (void *)arg);
@@ -5240,7 +5240,7 @@ signed int _glfwPlatformCreateThread(void (*fun)(void *), void *arg)
 // file ../internal.h line 196
 void _glfwPlatformDestroyCond(void *cond)
 {
-  pthread_cond_destroy((union anonymous$44 *)cond);
+  pthread_cond_destroy((union anonymous_44 *)cond);
   free((void *)cond);
 }
 
@@ -5248,7 +5248,7 @@ void _glfwPlatformDestroyCond(void *cond)
 // file ../internal.h line 192
 void _glfwPlatformDestroyMutex(void *mutex)
 {
-  pthread_mutex_destroy((union anonymous$61 *)mutex);
+  pthread_mutex_destroy((union anonymous_61 *)mutex);
   free((void *)mutex);
 }
 
@@ -5274,9 +5274,9 @@ void _glfwPlatformDestroyThread(signed int ID)
 // file ../internal.h line 171
 void _glfwPlatformDisableSystemKeys(void)
 {
-  signed int return_value_XGrabKeyboard$1;
-  return_value_XGrabKeyboard$1=XGrabKeyboard(_glfwLibrary.display, _glfwWin.window, 1, 1, 1, (unsigned long int)0L);
-  if(return_value_XGrabKeyboard$1 == 0)
+  signed int return_value_XGrabKeyboard_1;
+  return_value_XGrabKeyboard_1=XGrabKeyboard(_glfwLibrary.display, _glfwWin.window, 1, 1, 1, (unsigned long int)0L);
+  if(return_value_XGrabKeyboard_1 == 0)
     _glfwWin.keyboardGrabbed = (unsigned char)1;
 
 }
@@ -5298,14 +5298,14 @@ void _glfwPlatformEnableSystemKeys(void)
 signed int _glfwPlatformExtensionSupported(const char *extension)
 {
   const unsigned char *extensions;
-  const char *return_value_glXQueryExtensionsString$1;
-  return_value_glXQueryExtensionsString$1=glXQueryExtensionsString(_glfwLibrary.display, _glfwWin.screen);
-  extensions = (const unsigned char *)return_value_glXQueryExtensionsString$1;
+  const char *return_value_glXQueryExtensionsString_1;
+  return_value_glXQueryExtensionsString_1=glXQueryExtensionsString(_glfwLibrary.display, _glfwWin.screen);
+  extensions = (const unsigned char *)return_value_glXQueryExtensionsString_1;
   if(!(extensions == ((const unsigned char *)NULL)))
   {
-    signed int return_value__glfwStringInExtensionString$2;
-    return_value__glfwStringInExtensionString$2=_glfwStringInExtensionString(extension, extensions);
-    if(!(return_value__glfwStringInExtensionString$2 == 0))
+    signed int return_value__glfwStringInExtensionString_2;
+    return_value__glfwStringInExtensionString_2=_glfwStringInExtensionString(extension, extensions);
+    if(!(return_value__glfwStringInExtensionString_2 == 0))
       return 1;
 
   }
@@ -5315,14 +5315,14 @@ signed int _glfwPlatformExtensionSupported(const char *extension)
 
 // _glfwPlatformGetDesktopMode
 // file x11_fullscreen.c line 508
-void _glfwPlatformGetDesktopMode(struct anonymous$58 *mode)
+void _glfwPlatformGetDesktopMode(struct anonymous_58 *mode)
 {
   struct _XDisplay *dpy;
   signed int bpp;
   signed int screen;
   dpy = _glfwLibrary.display;
-  screen = ((struct anonymous$55 *)dpy)->default_screen;
-  bpp = (&((struct anonymous$55 *)dpy)->screens[(signed long int)screen])->root_depth;
+  screen = ((struct anonymous_55 *)dpy)->default_screen;
+  bpp = (&((struct anonymous_55 *)dpy)->screens[(signed long int)screen])->root_depth;
   BPP2RGB(bpp, &mode->RedBits, &mode->GreenBits, &mode->BlueBits);
   if(!(_glfwLibrary.XRandR.available == 0))
   {
@@ -5338,8 +5338,8 @@ void _glfwPlatformGetDesktopMode(struct anonymous$58 *mode)
 
   __CPROVER_DUMP_L1:
     ;
-    mode->Width = (&((struct anonymous$55 *)dpy)->screens[(signed long int)screen])->width;
-    mode->Height = (&((struct anonymous$55 *)dpy)->screens[(signed long int)screen])->height;
+    mode->Width = (&((struct anonymous_55 *)dpy)->screens[(signed long int)screen])->width;
+    mode->Height = (&((struct anonymous_55 *)dpy)->screens[(signed long int)screen])->height;
   }
 }
 
@@ -5411,9 +5411,9 @@ signed int _glfwPlatformGetJoystickPos(signed int joy, float *pos, signed int nu
 signed int _glfwPlatformGetNumberOfProcessors(void)
 {
   signed int n;
-  signed long int return_value_sysconf$1;
-  return_value_sysconf$1=sysconf(84);
-  n = (signed int)return_value_sysconf$1;
+  signed long int return_value_sysconf_1;
+  return_value_sysconf_1=sysconf(84);
+  n = (signed int)return_value_sysconf_1;
   return n;
 }
 
@@ -5421,9 +5421,9 @@ signed int _glfwPlatformGetNumberOfProcessors(void)
 // file ../internal.h line 179
 void * _glfwPlatformGetProcAddress(const char *procname)
 {
-  void (*return_value_glXGetProcAddress$1)(void);
-  return_value_glXGetProcAddress$1=glXGetProcAddress((const unsigned char *)procname);
-  return (void *)return_value_glXGetProcAddress$1;
+  void (*return_value_glXGetProcAddress_1)(void);
+  return_value_glXGetProcAddress_1=glXGetProcAddress((const unsigned char *)procname);
+  return (void *)return_value_glXGetProcAddress_1;
 }
 
 // _glfwPlatformGetThreadID
@@ -5451,14 +5451,14 @@ signed int _glfwPlatformGetThreadID(void)
 // file ../internal.h line 203
 double _glfwPlatformGetTime(void)
 {
-  unsigned long int return_value_getRawTime$1;
-  return_value_getRawTime$1=getRawTime();
-  return (double)(return_value_getRawTime$1 - (unsigned long int)_glfwLibrary.Timer.base) * _glfwLibrary.Timer.resolution;
+  unsigned long int return_value_getRawTime_1;
+  return_value_getRawTime_1=getRawTime();
+  return (double)(return_value_getRawTime_1 - (unsigned long int)_glfwLibrary.Timer.base) * _glfwLibrary.Timer.resolution;
 }
 
 // _glfwPlatformGetVideoModes
 // file ../internal.h line 174
-signed int _glfwPlatformGetVideoModes(struct anonymous$58 *list, signed int maxcount)
+signed int _glfwPlatformGetVideoModes(struct anonymous_58 *list, signed int maxcount)
 {
   signed int count;
   signed int k;
@@ -5471,24 +5471,24 @@ signed int _glfwPlatformGetVideoModes(struct anonymous$58 *list, signed int maxc
   signed int depth;
   signed int screen;
   struct _XDisplay *dpy;
-  struct anonymous$41 *vislist;
-  struct anonymous$41 dummy;
+  struct anonymous_41 *vislist;
+  struct anonymous_41 dummy;
   signed int viscount;
   signed int rgbcount;
   signed int rescount;
   signed int *rgbarray;
   struct _glfwResolution *resarray;
   dpy = _glfwLibrary.display;
-  screen = ((struct anonymous$55 *)dpy)->default_screen;
+  screen = ((struct anonymous_55 *)dpy)->default_screen;
   vislist=XGetVisualInfo(dpy, (signed long int)0, &dummy, &viscount);
-  if(vislist == ((struct anonymous$41 *)NULL))
+  if(vislist == ((struct anonymous_41 *)NULL))
     return 0;
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)viscount);
-    rgbarray = (signed int *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(signed int) /*4ul*/  * (unsigned long int)viscount);
+    rgbarray = (signed int *)return_value_malloc_1;
     rgbcount = 0;
     k = 0;
     for( ; !(k >= viscount); k = k + 1)
@@ -5519,13 +5519,13 @@ signed int _glfwPlatformGetVideoModes(struct anonymous$58 *list, signed int maxc
     if(!(_glfwLibrary.XRandR.available == 0))
     {
       struct _XRRScreenConfiguration *sc;
-      struct anonymous$57 *sizelist;
+      struct anonymous_57 *sizelist;
       signed int sizecount;
-      sc=XRRGetScreenInfo(dpy, (&((struct anonymous$55 *)dpy)->screens[(signed long int)screen])->root);
+      sc=XRRGetScreenInfo(dpy, (&((struct anonymous_55 *)dpy)->screens[(signed long int)screen])->root);
       sizelist=XRRConfigSizes(sc, &sizecount);
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc(sizeof(struct _glfwResolution) /*8ul*/  * (unsigned long int)sizecount);
-      resarray = (struct _glfwResolution *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc(sizeof(struct _glfwResolution) /*8ul*/  * (unsigned long int)sizecount);
+      resarray = (struct _glfwResolution *)return_value_malloc_2;
       k = 0;
       for( ; !(k >= sizecount); k = k + 1)
       {
@@ -5539,11 +5539,11 @@ signed int _glfwPlatformGetVideoModes(struct anonymous$58 *list, signed int maxc
     if(resarray == ((struct _glfwResolution *)NULL))
     {
       rescount = 1;
-      void *return_value_malloc$3;
-      return_value_malloc$3=malloc(sizeof(struct _glfwResolution) /*8ul*/  * (unsigned long int)rescount);
-      resarray = (struct _glfwResolution *)return_value_malloc$3;
-      (resarray + (signed long int)0)->width = (&((struct anonymous$55 *)dpy)->screens[(signed long int)screen])->width;
-      (resarray + (signed long int)0)->height = (&((struct anonymous$55 *)dpy)->screens[(signed long int)screen])->height;
+      void *return_value_malloc_3;
+      return_value_malloc_3=malloc(sizeof(struct _glfwResolution) /*8ul*/  * (unsigned long int)rescount);
+      resarray = (struct _glfwResolution *)return_value_malloc_3;
+      (resarray + (signed long int)0)->width = (&((struct anonymous_55 *)dpy)->screens[(signed long int)screen])->width;
+      (resarray + (signed long int)0)->height = (&((struct anonymous_55 *)dpy)->screens[(signed long int)screen])->height;
     }
 
     count = 0;
@@ -5580,9 +5580,9 @@ void _glfwPlatformHideMouseCursor(void)
 
   if(_glfwWin.pointerGrabbed == 0)
   {
-    signed int return_value_XGrabPointer$1;
-    return_value_XGrabPointer$1=XGrabPointer(_glfwLibrary.display, _glfwWin.window, 1, (unsigned int)(1L << 2 | 1L << 3 | 1L << 6), 1, 1, _glfwWin.window, (unsigned long int)0L, (unsigned long int)0L);
-    if(return_value_XGrabPointer$1 == 0)
+    signed int return_value_XGrabPointer_1;
+    return_value_XGrabPointer_1=XGrabPointer(_glfwLibrary.display, _glfwWin.window, 1, (unsigned int)(1L << 2 | 1L << 3 | 1L << 6), 1, 1, _glfwWin.window, (unsigned long int)0L, (unsigned long int)0L);
+    if(return_value_XGrabPointer_1 == 0)
       _glfwWin.pointerGrabbed = (unsigned char)1;
 
   }
@@ -5603,9 +5603,9 @@ void _glfwPlatformIconifyWindow(void)
 // file ../internal.h line 166
 signed int _glfwPlatformInit(void)
 {
-  signed int return_value_initDisplay$1;
-  return_value_initDisplay$1=initDisplay();
-  if(return_value_initDisplay$1 == 0)
+  signed int return_value_initDisplay_1;
+  return_value_initDisplay_1=initDisplay();
+  if(return_value_initDisplay_1 == 0)
     return 0;
 
   else
@@ -5624,31 +5624,31 @@ signed int _glfwPlatformInit(void)
 // file ../internal.h line 193
 void _glfwPlatformLockMutex(void *mutex)
 {
-  pthread_mutex_lock((union anonymous$61 *)mutex);
+  pthread_mutex_lock((union anonymous_61 *)mutex);
 }
 
 // _glfwPlatformOpenWindow
 // file ../internal.h line 208
-signed int _glfwPlatformOpenWindow(signed int width, signed int height, const struct anonymous$33 *wndconfig, const struct anonymous$56 *fbconfig)
+signed int _glfwPlatformOpenWindow(signed int width, signed int height, const struct anonymous_33 *wndconfig, const struct anonymous_56 *fbconfig)
 {
-  struct anonymous$56 closest;
+  struct anonymous_56 closest;
   _glfwWin.refreshRate = wndconfig->refreshRate;
   _glfwWin.windowNoResize = wndconfig->windowNoResize;
-  _glfwWin.screen = ((struct anonymous$55 *)_glfwLibrary.display)->default_screen;
-  _glfwWin.root = (&((struct anonymous$55 *)_glfwLibrary.display)->screens[(signed long int)_glfwWin.screen])->root;
+  _glfwWin.screen = ((struct anonymous_55 *)_glfwLibrary.display)->default_screen;
+  _glfwWin.root = (&((struct anonymous_55 *)_glfwLibrary.display)->screens[(signed long int)_glfwWin.screen])->root;
   _glfwWin.cursor=createNULLCursor(_glfwLibrary.display, _glfwWin.root);
   initGLXExtensions();
   unsigned int fbcount;
-  struct anonymous$56 *fbconfigs;
-  const struct anonymous$56 *result;
+  struct anonymous_56 *fbconfigs;
+  const struct anonymous_56 *result;
   fbconfigs=getFBConfigs(&fbcount);
-  if(fbconfigs == ((struct anonymous$56 *)NULL))
+  if(fbconfigs == ((struct anonymous_56 *)NULL))
     return 0;
 
   else
   {
     result=_glfwChooseFBConfig(fbconfig, fbconfigs, fbcount);
-    if(result == ((const struct anonymous$56 *)NULL))
+    if(result == ((const struct anonymous_56 *)NULL))
     {
       free((void *)fbconfigs);
       return 0;
@@ -5658,16 +5658,16 @@ signed int _glfwPlatformOpenWindow(signed int width, signed int height, const st
     {
       closest = *result;
       free((void *)fbconfigs);
-      signed int return_value_createContext$1;
-      return_value_createContext$1=createContext(wndconfig, (unsigned long int)closest.platformID);
-      if(return_value_createContext$1 == 0)
+      signed int return_value_createContext_1;
+      return_value_createContext_1=createContext(wndconfig, (unsigned long int)closest.platformID);
+      if(return_value_createContext_1 == 0)
         return 0;
 
       else
       {
-        unsigned char return_value_createWindow$2;
-        return_value_createWindow$2=createWindow(width, height, wndconfig);
-        if(return_value_createWindow$2 == 0)
+        unsigned char return_value_createWindow_2;
+        return_value_createWindow_2=createWindow(width, height, wndconfig);
+        if(return_value_createWindow_2 == 0)
           return 0;
 
         else
@@ -5705,16 +5705,16 @@ void _glfwPlatformPollEvents(void)
 {
   unsigned char closeRequested = (unsigned char)0;
   _glfwInput.MouseMoved = 0;
-  signed int return_value_XPending$1;
+  signed int return_value_XPending_1;
   do
   {
-    return_value_XPending$1=XPending(_glfwLibrary.display);
-    if(return_value_XPending$1 == 0)
+    return_value_XPending_1=XPending(_glfwLibrary.display);
+    if(return_value_XPending_1 == 0)
       break;
 
-    unsigned char return_value_processSingleEvent$2;
-    return_value_processSingleEvent$2=processSingleEvent();
-    if(!(return_value_processSingleEvent$2 == 0))
+    unsigned char return_value_processSingleEvent_2;
+    return_value_processSingleEvent_2=processSingleEvent();
+    if(!(return_value_processSingleEvent_2 == 0))
       closeRequested = (unsigned char)1;
 
   }
@@ -5768,9 +5768,9 @@ void _glfwPlatformRefreshWindowParams(void)
   _glfwWin.accumBlueBits=getFBConfigAttrib(*fbconfig, 16);
   _glfwWin.accumAlphaBits=getFBConfigAttrib(*fbconfig, 17);
   _glfwWin.auxBuffers=getFBConfigAttrib(*fbconfig, 7);
-  signed int return_value_getFBConfigAttrib$1;
-  return_value_getFBConfigAttrib$1=getFBConfigAttrib(*fbconfig, 6);
-  _glfwWin.stereo = return_value_getFBConfigAttrib$1 != 0 ? 1 : 0;
+  signed int return_value_getFBConfigAttrib_1;
+  return_value_getFBConfigAttrib_1=getFBConfigAttrib(*fbconfig, 6);
+  _glfwWin.stereo = return_value_getFBConfigAttrib_1 != 0 ? 1 : 0;
   if(!(_glfwWin.has_GLX_ARB_multisample == 0))
     _glfwWin.samples=getFBConfigAttrib(*fbconfig, 0x186a1);
 
@@ -5780,9 +5780,9 @@ void _glfwPlatformRefreshWindowParams(void)
   if(!(_glfwLibrary.XRandR.available == 0))
   {
     sc=XRRGetScreenInfo(_glfwLibrary.display, _glfwWin.root);
-    signed short int return_value_XRRConfigCurrentRate$2;
-    return_value_XRRConfigCurrentRate$2=XRRConfigCurrentRate(sc);
-    _glfwWin.refreshRate = (signed int)return_value_XRRConfigCurrentRate$2;
+    signed short int return_value_XRRConfigCurrentRate_2;
+    return_value_XRRConfigCurrentRate_2=XRRConfigCurrentRate(sc);
+    _glfwWin.refreshRate = (signed int)return_value_XRRConfigCurrentRate_2;
     XRRFreeScreenConfigInfo(sc);
   }
 
@@ -5811,9 +5811,9 @@ void _glfwPlatformSetMouseCursorPos(signed int x, signed int y)
 // file ../internal.h line 204
 void _glfwPlatformSetTime(double time)
 {
-  unsigned long int return_value_getRawTime$1;
-  return_value_getRawTime$1=getRawTime();
-  _glfwLibrary.Timer.base = (signed long long int)(return_value_getRawTime$1 - (unsigned long int)(time / _glfwLibrary.Timer.resolution));
+  unsigned long int return_value_getRawTime_1;
+  return_value_getRawTime_1=getRawTime();
+  _glfwLibrary.Timer.base = (signed long long int)(return_value_getRawTime_1 - (unsigned long int)(time / _glfwLibrary.Timer.resolution));
 }
 
 // _glfwPlatformSetWindowPos
@@ -5836,7 +5836,7 @@ void _glfwPlatformSetWindowSize(signed int width, signed int height)
 
   if(!(_glfwWin.windowNoResize == 0))
   {
-    struct anonymous$38 *hints;
+    struct anonymous_38 *hints;
     hints=XAllocSizeHints();
     hints->flags = hints->flags | 1L << 4 | 1L << 5;
     hints->max_width = width;
@@ -5891,7 +5891,7 @@ void _glfwPlatformShowMouseCursor(void)
 // file ../internal.h line 198
 void _glfwPlatformSignalCond(void *cond)
 {
-  pthread_cond_signal((union anonymous$44 *)cond);
+  pthread_cond_signal((union anonymous_44 *)cond);
 }
 
 // _glfwPlatformSleep
@@ -5905,8 +5905,8 @@ void _glfwPlatformSleep(double time)
   {
     struct timeval currenttime;
     struct timespec wait;
-    union anonymous$61 mutex;
-    union anonymous$44 cond;
+    union anonymous_61 mutex;
+    union anonymous_44 cond;
     signed long int dt_sec;
     signed long int dt_usec;
     gettimeofday(&currenttime, (struct timezone *)(void *)0);
@@ -5920,8 +5920,8 @@ void _glfwPlatformSleep(double time)
     }
 
     wait.tv_sec = currenttime.tv_sec + dt_sec;
-    pthread_mutex_init(&mutex, (const union anonymous$62 *)(void *)0);
-    pthread_cond_init(&cond, (const union anonymous$62 *)(void *)0);
+    pthread_mutex_init(&mutex, (const union anonymous_62 *)(void *)0);
+    pthread_cond_init(&cond, (const union anonymous_62 *)(void *)0);
     pthread_mutex_lock(&mutex);
     pthread_cond_timedwait(&cond, &mutex, &wait);
     pthread_mutex_unlock(&mutex);
@@ -5962,9 +5962,9 @@ void _glfwPlatformSwapInterval(signed int interval)
 // file ../internal.h line 167
 signed int _glfwPlatformTerminate(void)
 {
-  unsigned long int return_value_pthread_self$1;
-  return_value_pthread_self$1=pthread_self();
-  if(!(return_value_pthread_self$1 == _glfwThrd.First.PosixID))
+  unsigned long int return_value_pthread_self_1;
+  return_value_pthread_self_1=pthread_self();
+  if(!(return_value_pthread_self_1 == _glfwThrd.First.PosixID))
     return 0;
 
   else
@@ -5981,7 +5981,7 @@ signed int _glfwPlatformTerminate(void)
 // file ../internal.h line 194
 void _glfwPlatformUnlockMutex(void *mutex)
 {
-  pthread_mutex_unlock((union anonymous$61 *)mutex);
+  pthread_mutex_unlock((union anonymous_61 *)mutex);
 }
 
 // _glfwPlatformWaitCond
@@ -5993,7 +5993,7 @@ void _glfwPlatformWaitCond(void *cond, void *mutex, double timeout)
   signed long int dt_sec;
   signed long int dt_usec;
   if(timeout >= 100000.0)
-    pthread_cond_wait((union anonymous$44 *)cond, (union anonymous$61 *)mutex);
+    pthread_cond_wait((union anonymous_44 *)cond, (union anonymous_61 *)mutex);
 
   else
   {
@@ -6008,7 +6008,7 @@ void _glfwPlatformWaitCond(void *cond, void *mutex, double timeout)
     }
 
     wait.tv_sec = currenttime.tv_sec + dt_sec;
-    pthread_cond_timedwait((union anonymous$44 *)cond, (union anonymous$61 *)mutex, &wait);
+    pthread_cond_timedwait((union anonymous_44 *)cond, (union anonymous_61 *)mutex, &wait);
   }
 }
 
@@ -6054,13 +6054,13 @@ signed int _glfwPlatformWaitThread(signed int ID, signed int waitmode)
 
 // _glfwReadStream
 // file ../stream.c line 72
-signed long int _glfwReadStream(struct anonymous$59 *stream, void *data, signed long int size)
+signed long int _glfwReadStream(struct anonymous_59 *stream, void *data, signed long int size)
 {
   if(!(stream->file == ((struct _IO_FILE *)NULL)))
   {
-    unsigned long int return_value_fread$1;
-    return_value_fread$1=fread(data, (unsigned long int)1, (unsigned long int)size, stream->file);
-    return (signed long int)return_value_fread$1;
+    unsigned long int return_value_fread_1;
+    return_value_fread_1=fread(data, (unsigned long int)1, (unsigned long int)size, stream->file);
+    return (signed long int)return_value_fread_1;
   }
 
   if(!(stream->data == NULL))
@@ -6082,7 +6082,7 @@ signed long int _glfwReadStream(struct anonymous$59 *stream, void *data, signed 
 
 // _glfwReadTGA
 // file ../internal.h line 258
-signed int _glfwReadTGA(struct anonymous$59 *s, struct anonymous$40 *img, signed int flags)
+signed int _glfwReadTGA(struct anonymous_59 *s, struct anonymous_40 *img, signed int flags)
 {
   struct anonymous h;
   unsigned char *cmap;
@@ -6100,13 +6100,13 @@ signed int _glfwReadTGA(struct anonymous$59 *s, struct anonymous$40 *img, signed
   signed int n;
   signed int swapx;
   signed int swapy;
-  signed int return_value_ReadTGAHeader$1;
-  return_value_ReadTGAHeader$1=ReadTGAHeader(s, &h);
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
-  unsigned char *tmp_post$7;
-  if(return_value_ReadTGAHeader$1 == 0)
+  signed int return_value_ReadTGAHeader_1;
+  return_value_ReadTGAHeader_1=ReadTGAHeader(s, &h);
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
+  unsigned char *tmp_post_7;
+  if(return_value_ReadTGAHeader_1 == 0)
     return 0;
 
   else
@@ -6117,9 +6117,9 @@ signed int _glfwReadTGA(struct anonymous$59 *s, struct anonymous$40 *img, signed
       if(h.cmaplen == 0 || h.cmaplen >= 257 || !(h.cmapentrysize == 24) && !(h.cmapentrysize == 32))
         return 0;
 
-      void *return_value_malloc$2;
-      return_value_malloc$2=malloc((unsigned long int)cmapsize);
-      cmap = (unsigned char *)return_value_malloc$2;
+      void *return_value_malloc_2;
+      return_value_malloc_2=malloc((unsigned long int)cmapsize);
+      cmap = (unsigned char *)return_value_malloc_2;
       if(cmap == ((unsigned char *)NULL))
         return 0;
 
@@ -6136,9 +6136,9 @@ signed int _glfwReadTGA(struct anonymous$59 *s, struct anonymous$40 *img, signed
     else
       bpp2 = bpp;
     pixsize2 = h.width * h.height * bpp2;
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc((unsigned long int)pixsize2);
-    pix = (unsigned char *)return_value_malloc$3;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc((unsigned long int)pixsize2);
+    pix = (unsigned char *)return_value_malloc_3;
     if(pix == ((unsigned char *)NULL))
     {
       if(!(cmap == ((unsigned char *)NULL)))
@@ -6204,12 +6204,12 @@ signed int _glfwReadTGA(struct anonymous$59 *s, struct anonymous$40 *img, signed
             for( ; !(k >= bpp); k = k + 1)
             {
               tmp = *src;
-              tmp_post$4 = src;
+              tmp_post_4 = src;
               src = src + 1l;
-              *tmp_post$4 = *dst;
-              tmp_post$5 = dst;
+              *tmp_post_4 = *dst;
+              tmp_post_5 = dst;
               dst = dst + 1l;
-              *tmp_post$5 = tmp;
+              *tmp_post_5 = tmp;
             }
           }
           dst = dst - (signed long int)(2 * h.width * bpp);
@@ -6230,12 +6230,12 @@ signed int _glfwReadTGA(struct anonymous$59 *s, struct anonymous$40 *img, signed
             for( ; !(k >= bpp); k = k + 1)
             {
               tmp = *src;
-              tmp_post$6 = src;
+              tmp_post_6 = src;
               src = src + 1l;
-              *tmp_post$6 = *dst;
-              tmp_post$7 = dst;
+              *tmp_post_6 = *dst;
+              tmp_post_7 = dst;
               dst = dst + 1l;
-              *tmp_post$7 = tmp;
+              *tmp_post_7 = tmp;
             }
             dst = dst - (signed long int)(2 * bpp);
           }
@@ -6358,14 +6358,14 @@ void _glfwRestoreVideoMode(void)
 
 // _glfwSeekStream
 // file ../stream.c line 127
-signed int _glfwSeekStream(struct anonymous$59 *stream, signed long int offset, signed int whence)
+signed int _glfwSeekStream(struct anonymous_59 *stream, signed long int offset, signed int whence)
 {
   signed long int position;
   if(!(stream->file == ((struct _IO_FILE *)NULL)))
   {
-    signed int return_value_fseek$1;
-    return_value_fseek$1=fseek(stream->file, offset, whence);
-    if(!(return_value_fseek$1 == 0))
+    signed int return_value_fseek_1;
+    return_value_fseek_1=fseek(stream->file, offset, whence);
+    if(!(return_value_fseek_1 == 0))
       return 0;
 
     return 1;
@@ -6418,13 +6418,13 @@ void _glfwSetVideoModeMODE(signed int screen, signed int mode, signed int rate)
   unsigned long int root;
   if(!(_glfwLibrary.XRandR.available == 0))
   {
-    root = (&((struct anonymous$55 *)_glfwLibrary.display)->screens[(signed long int)screen])->root;
+    root = (&((struct anonymous_55 *)_glfwLibrary.display)->screens[(signed long int)screen])->root;
     sc=XRRGetScreenInfo(_glfwLibrary.display, root);
     if(_glfwWin.FS.modeChanged == 0)
     {
       _glfwWin.FS.oldSizeID=XRRConfigCurrentConfiguration(sc, &_glfwWin.FS.oldRotation);
-      _glfwWin.FS.oldWidth = (&((struct anonymous$55 *)_glfwLibrary.display)->screens[(signed long int)screen])->width;
-      _glfwWin.FS.oldHeight = (&((struct anonymous$55 *)_glfwLibrary.display)->screens[(signed long int)screen])->height;
+      _glfwWin.FS.oldWidth = (&((struct anonymous_55 *)_glfwLibrary.display)->screens[(signed long int)screen])->width;
+      _glfwWin.FS.oldHeight = (&((struct anonymous_55 *)_glfwLibrary.display)->screens[(signed long int)screen])->height;
       _glfwWin.FS.modeChanged = 1;
     }
 
@@ -6446,32 +6446,32 @@ signed int _glfwStringInExtensionString(const char *string, const unsigned char 
   unsigned char *where;
   unsigned char *terminator;
   start = extensions;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
   while((_Bool)1)
   {
-    char *return_value_strstr$1;
-    return_value_strstr$1=strstr((const char *)start, string);
-    where = (unsigned char *)return_value_strstr$1;
+    char *return_value_strstr_1;
+    return_value_strstr_1=strstr((const char *)start, string);
+    where = (unsigned char *)return_value_strstr_1;
     if(where == ((unsigned char *)NULL))
       return 0;
 
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(string);
-    terminator = where + (signed long int)return_value_strlen$2;
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(string);
+    terminator = where + (signed long int)return_value_strlen_2;
     if(where == start)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)*(where - (signed long int)1) == 32 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (signed int)*(where - (signed long int)1) == 32 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
       if((signed int)*terminator == 32)
-        tmp_if_expr$3 = (_Bool)1;
+        tmp_if_expr_3 = (_Bool)1;
 
       else
-        tmp_if_expr$3 = (signed int)*terminator == 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$3)
+        tmp_if_expr_3 = (signed int)*terminator == 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_3)
         break;
 
     }
@@ -6483,13 +6483,13 @@ signed int _glfwStringInExtensionString(const char *string, const unsigned char 
 
 // _glfwTellStream
 // file ../stream.c line 107
-signed long int _glfwTellStream(struct anonymous$59 *stream)
+signed long int _glfwTellStream(struct anonymous_59 *stream)
 {
   if(!(stream->file == ((struct _IO_FILE *)NULL)))
   {
-    signed long int return_value_ftell$1;
-    return_value_ftell$1=ftell(stream->file);
-    return return_value_ftell$1;
+    signed long int return_value_ftell_1;
+    return_value_ftell_1=ftell(stream->file);
+    return return_value_ftell_1;
   }
 
   if(!(stream->data == NULL))
@@ -6530,9 +6530,9 @@ static unsigned char checkForEWMH(void)
 
   else
   {
-    unsigned long int return_value_getWindowProperty$1;
-    return_value_getWindowProperty$1=getWindowProperty(_glfwWin.root, supportingWmCheck, (unsigned long int)33, (unsigned char **)&windowFromRoot);
-    if(!(return_value_getWindowProperty$1 == 1ul))
+    unsigned long int return_value_getWindowProperty_1;
+    return_value_getWindowProperty_1=getWindowProperty(_glfwWin.root, supportingWmCheck, (unsigned long int)33, (unsigned char **)&windowFromRoot);
+    if(!(return_value_getWindowProperty_1 == 1ul))
     {
       XFree((void *)windowFromRoot);
       return (unsigned char)0;
@@ -6540,9 +6540,9 @@ static unsigned char checkForEWMH(void)
 
     else
     {
-      unsigned long int return_value_getWindowProperty$2;
-      return_value_getWindowProperty$2=getWindowProperty(*windowFromRoot, supportingWmCheck, (unsigned long int)33, (unsigned char **)&windowFromChild);
-      if(!(return_value_getWindowProperty$2 == 1ul))
+      unsigned long int return_value_getWindowProperty_2;
+      return_value_getWindowProperty_2=getWindowProperty(*windowFromRoot, supportingWmCheck, (unsigned long int)33, (unsigned char **)&windowFromChild);
+      if(!(return_value_getWindowProperty_2 == 1ul))
       {
         XFree((void *)windowFromRoot);
         XFree((void *)windowFromChild);
@@ -6577,7 +6577,7 @@ static unsigned char checkForEWMH(void)
 
 // createContext
 // file x11_window.c line 586
-static signed int createContext(const struct anonymous$33 *wndconfig, unsigned long int fbconfigID)
+static signed int createContext(const struct anonymous_33 *wndconfig, unsigned long int fbconfigID)
 {
   signed int attribs[40l];
   signed int flags;
@@ -6585,35 +6585,35 @@ static signed int createContext(const struct anonymous$33 *wndconfig, unsigned l
   signed int index;
   struct __GLXFBConfigRec **fbconfig;
   index = 0;
-  signed int tmp_post$1 = index;
+  signed int tmp_post_1 = index;
   index = index + 1;
-  attribs[(signed long int)tmp_post$1] = 0x8013;
-  signed int tmp_post$2 = index;
+  attribs[(signed long int)tmp_post_1] = 0x8013;
+  signed int tmp_post_2 = index;
   index = index + 1;
-  attribs[(signed long int)tmp_post$2] = (signed int)fbconfigID;
-  signed int tmp_post$3 = index;
+  attribs[(signed long int)tmp_post_2] = (signed int)fbconfigID;
+  signed int tmp_post_3 = index;
   index = index + 1;
-  attribs[(signed long int)tmp_post$3] = (signed int)0L;
-  signed int tmp_post$4 = index;
+  attribs[(signed long int)tmp_post_3] = (signed int)0L;
+  signed int tmp_post_4 = index;
   index = index + 1;
-  attribs[(signed long int)tmp_post$4] = (signed int)0L;
+  attribs[(signed long int)tmp_post_4] = (signed int)0L;
   if(!(_glfwWin.has_GLX_SGIX_fbconfig == 0))
     fbconfig=_glfwWin.ChooseFBConfigSGIX(_glfwLibrary.display, _glfwWin.screen, attribs, &dummy);
 
   else
     fbconfig=glXChooseFBConfig(_glfwLibrary.display, _glfwWin.screen, attribs, &dummy);
-  _Bool tmp_if_expr$9;
-  signed int tmp_post$5;
-  signed int tmp_post$6;
-  signed int tmp_post$7;
-  signed int tmp_post$8;
-  _Bool tmp_if_expr$12;
-  signed int tmp_post$10;
-  signed int tmp_post$11;
-  signed int tmp_post$13;
-  signed int tmp_post$14;
-  signed int tmp_post$15;
-  signed int tmp_post$16;
+  _Bool tmp_if_expr_9;
+  signed int tmp_post_5;
+  signed int tmp_post_6;
+  signed int tmp_post_7;
+  signed int tmp_post_8;
+  _Bool tmp_if_expr_12;
+  signed int tmp_post_10;
+  signed int tmp_post_11;
+  signed int tmp_post_13;
+  signed int tmp_post_14;
+  signed int tmp_post_15;
+  signed int tmp_post_16;
   if(fbconfig == ((struct __GLXFBConfigRec **)NULL))
   {
     fprintf(stderr, "Unable to retrieve the selected GLXFBConfig\n");
@@ -6627,7 +6627,7 @@ static signed int createContext(const struct anonymous$33 *wndconfig, unsigned l
 
     else
       _glfwWin.visual=glXGetVisualFromFBConfig(_glfwLibrary.display, *fbconfig);
-    if(_glfwWin.visual == ((struct anonymous$41 *)NULL))
+    if(_glfwWin.visual == ((struct anonymous_41 *)NULL))
     {
       XFree((void *)fbconfig);
       fprintf(stderr, "Unable to retrieve visual for GLXFBconfig\n");
@@ -6640,32 +6640,32 @@ static signed int createContext(const struct anonymous$33 *wndconfig, unsigned l
       {
         index = 0;
         if(!(wndconfig->glMajor == 1))
-          tmp_if_expr$9 = (_Bool)1;
+          tmp_if_expr_9 = (_Bool)1;
 
         else
-          tmp_if_expr$9 = wndconfig->glMinor != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$9)
+          tmp_if_expr_9 = wndconfig->glMinor != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_9)
         {
-          tmp_post$5 = index;
+          tmp_post_5 = index;
           index = index + 1;
-          attribs[(signed long int)tmp_post$5] = 0x2091;
-          tmp_post$6 = index;
+          attribs[(signed long int)tmp_post_5] = 0x2091;
+          tmp_post_6 = index;
           index = index + 1;
-          attribs[(signed long int)tmp_post$6] = wndconfig->glMajor;
-          tmp_post$7 = index;
+          attribs[(signed long int)tmp_post_6] = wndconfig->glMajor;
+          tmp_post_7 = index;
           index = index + 1;
-          attribs[(signed long int)tmp_post$7] = 0x2092;
-          tmp_post$8 = index;
+          attribs[(signed long int)tmp_post_7] = 0x2092;
+          tmp_post_8 = index;
           index = index + 1;
-          attribs[(signed long int)tmp_post$8] = wndconfig->glMinor;
+          attribs[(signed long int)tmp_post_8] = wndconfig->glMinor;
         }
 
         if(!(wndconfig->glForward == 0))
-          tmp_if_expr$12 = (_Bool)1;
+          tmp_if_expr_12 = (_Bool)1;
 
         else
-          tmp_if_expr$12 = wndconfig->glDebug != 0 ? (_Bool)1 : (_Bool)0;
-        if(tmp_if_expr$12)
+          tmp_if_expr_12 = wndconfig->glDebug != 0 ? (_Bool)1 : (_Bool)0;
+        if(tmp_if_expr_12)
         {
           flags = 0;
           if(!(wndconfig->glForward == 0))
@@ -6674,12 +6674,12 @@ static signed int createContext(const struct anonymous$33 *wndconfig, unsigned l
           if(!(wndconfig->glDebug == 0))
             flags = flags | 0x00000001;
 
-          tmp_post$10 = index;
+          tmp_post_10 = index;
           index = index + 1;
-          attribs[(signed long int)tmp_post$10] = 0x2094;
-          tmp_post$11 = index;
+          attribs[(signed long int)tmp_post_10] = 0x2094;
+          tmp_post_11 = index;
           index = index + 1;
-          attribs[(signed long int)tmp_post$11] = flags;
+          attribs[(signed long int)tmp_post_11] = flags;
         }
 
         if(!(wndconfig->glProfile == 0))
@@ -6695,23 +6695,23 @@ static signed int createContext(const struct anonymous$33 *wndconfig, unsigned l
 
           else
             flags = 0x00000002;
-          tmp_post$13 = index;
+          tmp_post_13 = index;
           index = index + 1;
-          attribs[(signed long int)tmp_post$13] = 0x9126;
-          tmp_post$14 = index;
+          attribs[(signed long int)tmp_post_13] = 0x9126;
+          tmp_post_14 = index;
           index = index + 1;
-          attribs[(signed long int)tmp_post$14] = flags;
+          attribs[(signed long int)tmp_post_14] = flags;
         }
 
-        tmp_post$15 = index;
+        tmp_post_15 = index;
         index = index + 1;
-        attribs[(signed long int)tmp_post$15] = (signed int)0L;
-        tmp_post$16 = index;
+        attribs[(signed long int)tmp_post_15] = (signed int)0L;
+        tmp_post_16 = index;
         index = index + 1;
-        attribs[(signed long int)tmp_post$16] = (signed int)0L;
+        attribs[(signed long int)tmp_post_16] = (signed int)0L;
         XSetErrorHandler(errorHandler);
         _glfwWin.context=_glfwWin.CreateContextAttribsARB(_glfwLibrary.display, *fbconfig, (struct __GLXcontextRec *)(void *)0, 1, attribs);
-        XSetErrorHandler((signed int (*)(struct _XDisplay *, struct anonymous$63 *))(void *)0);
+        XSetErrorHandler((signed int (*)(struct _XDisplay *, struct anonymous_63 *))(void *)0);
         if(_glfwWin.context == ((struct __GLXcontextRec *)NULL))
         {
           if(_glfwErrorCode == (unsigned long int)(13 + _glfwLibrary.GLX.errorBase))
@@ -6761,9 +6761,9 @@ static struct __GLXcontextRec * createLegacyContext(struct __GLXFBConfigRec *fbc
 
   else
   {
-    struct __GLXcontextRec *return_value_glXCreateNewContext$1;
-    return_value_glXCreateNewContext$1=glXCreateNewContext(_glfwLibrary.display, fbconfig, 0x8014, (struct __GLXcontextRec *)(void *)0, 1);
-    return return_value_glXCreateNewContext$1;
+    struct __GLXcontextRec *return_value_glXCreateNewContext_1;
+    return_value_glXCreateNewContext_1=glXCreateNewContext(_glfwLibrary.display, fbconfig, 0x8014, (struct __GLXcontextRec *)(void *)0, 1);
+    return return_value_glXCreateNewContext_1;
   }
 }
 
@@ -6772,9 +6772,9 @@ static struct __GLXcontextRec * createLegacyContext(struct __GLXFBConfigRec *fbc
 static unsigned long int createNULLCursor(struct _XDisplay *display, unsigned long int root)
 {
   unsigned long int cursormask;
-  struct anonymous$47 xgc;
+  struct anonymous_47 xgc;
   struct _XGC *gc;
-  struct anonymous$42 col;
+  struct anonymous_42 col;
   unsigned long int cursor;
   cursormask=XCreatePixmap(display, root, (unsigned int)1, (unsigned int)1, (unsigned int)1);
   xgc.function = 0x0;
@@ -6791,11 +6791,11 @@ static unsigned long int createNULLCursor(struct _XDisplay *display, unsigned lo
 
 // createWindow
 // file x11_window.c line 851
-static unsigned char createWindow(signed int width, signed int height, const struct anonymous$33 *wndconfig)
+static unsigned char createWindow(signed int width, signed int height, const struct anonymous_33 *wndconfig)
 {
   union _XEvent event;
   unsigned long int wamask;
-  struct anonymous$48 wa;
+  struct anonymous_48 wa;
   _glfwWin.colormap=XCreateColormap(_glfwLibrary.display, _glfwWin.root, _glfwWin.visual->visual, 0);
   wamask = (unsigned long int)(1L << 3 | 1L << 13 | 1L << 11);
   wa.colormap = _glfwWin.colormap;
@@ -6803,13 +6803,13 @@ static unsigned char createWindow(signed int width, signed int height, const str
   wa.event_mask = 1L << 17 | 1L << 0 | 1L << 1 | 1L << 6 | 1L << 2 | 1L << 3 | 1L << 15 | 1L << 21 | 1L << 16;
   if(wndconfig->mode == 0x00010001)
   {
-    wa.background_pixel = (&((struct anonymous$55 *)_glfwLibrary.display)->screens[(signed long int)_glfwWin.screen])->black_pixel;
+    wa.background_pixel = (&((struct anonymous_55 *)_glfwLibrary.display)->screens[(signed long int)_glfwWin.screen])->black_pixel;
     wamask = wamask | (unsigned long int)(1L << 1);
   }
 
   _glfwWin.window=XCreateWindow(_glfwLibrary.display, _glfwWin.root, 0, 0, (unsigned int)_glfwWin.width, (unsigned int)_glfwWin.height, (unsigned int)0, _glfwWin.visual->depth, (unsigned int)1, _glfwWin.visual->visual, wamask, &wa);
-  signed int tmp_post$1;
-  signed int tmp_post$2;
+  signed int tmp_post_1;
+  signed int tmp_post_2;
   if(_glfwWin.window == 0ul)
   {
     _glfwPlatformCloseWindow();
@@ -6821,7 +6821,7 @@ static unsigned char createWindow(signed int width, signed int height, const str
     _glfwWin.hasEWMH=checkForEWMH();
     if(_glfwWin.hasEWMH == 0 && !(_glfwWin.fullscreen == 0))
     {
-      struct anonymous$48 attributes;
+      struct anonymous_48 attributes;
       attributes.override_redirect = 1;
       XChangeWindowAttributes(_glfwLibrary.display, _glfwWin.window, (unsigned long int)(1L << 9), &attributes);
       _glfwWin.overrideRedirect = (unsigned char)1;
@@ -6832,24 +6832,24 @@ static unsigned char createWindow(signed int width, signed int height, const str
     unsigned long int protocols[2l];
     if(!(_glfwWin.wmDeleteWindow == 0ul))
     {
-      tmp_post$1 = count;
+      tmp_post_1 = count;
       count = count + 1;
-      protocols[(signed long int)tmp_post$1] = _glfwWin.wmDeleteWindow;
+      protocols[(signed long int)tmp_post_1] = _glfwWin.wmDeleteWindow;
     }
 
     if(!(_glfwWin.wmPing == 0ul))
     {
-      tmp_post$2 = count;
+      tmp_post_2 = count;
       count = count + 1;
-      protocols[(signed long int)tmp_post$2] = _glfwWin.wmPing;
+      protocols[(signed long int)tmp_post_2] = _glfwWin.wmPing;
     }
 
     if(count >= 1)
       XSetWMProtocols(_glfwLibrary.display, _glfwWin.window, protocols, count);
 
-    struct anonymous$60 *hints;
+    struct anonymous_60 *hints;
     hints=XAllocWMHints();
-    if(hints == ((struct anonymous$60 *)NULL))
+    if(hints == ((struct anonymous_60 *)NULL))
     {
       _glfwPlatformCloseWindow();
       return (unsigned char)0;
@@ -6861,9 +6861,9 @@ static unsigned char createWindow(signed int width, signed int height, const str
       hints->initial_state = 1;
       XSetWMHints(_glfwLibrary.display, _glfwWin.window, hints);
       XFree((void *)hints);
-      struct anonymous$38 *createWindow$$1$$5$$hints;
-      createWindow$$1$$5$$hints=XAllocSizeHints();
-      if(createWindow$$1$$5$$hints == ((struct anonymous$38 *)NULL))
+      struct anonymous_38 *createWindow__1__5__hints;
+      createWindow__1__5__hints=XAllocSizeHints();
+      if(createWindow__1__5__hints == ((struct anonymous_38 *)NULL))
       {
         _glfwPlatformCloseWindow();
         return (unsigned char)0;
@@ -6871,22 +6871,22 @@ static unsigned char createWindow(signed int width, signed int height, const str
 
       else
       {
-        createWindow$$1$$5$$hints->flags = (signed long int)0;
+        createWindow__1__5__hints->flags = (signed long int)0;
         if(!(wndconfig->windowNoResize == 0))
         {
           if(_glfwWin.fullscreen == 0)
           {
-            createWindow$$1$$5$$hints->flags = createWindow$$1$$5$$hints->flags | 1L << 4 | 1L << 5;
-            createWindow$$1$$5$$hints->max_width = _glfwWin.width;
-            createWindow$$1$$5$$hints->min_width = createWindow$$1$$5$$hints->max_width;
-            createWindow$$1$$5$$hints->max_height = _glfwWin.height;
-            createWindow$$1$$5$$hints->min_height = createWindow$$1$$5$$hints->max_height;
+            createWindow__1__5__hints->flags = createWindow__1__5__hints->flags | 1L << 4 | 1L << 5;
+            createWindow__1__5__hints->max_width = _glfwWin.width;
+            createWindow__1__5__hints->min_width = createWindow__1__5__hints->max_width;
+            createWindow__1__5__hints->max_height = _glfwWin.height;
+            createWindow__1__5__hints->min_height = createWindow__1__5__hints->max_height;
           }
 
         }
 
-        XSetWMNormalHints(_glfwLibrary.display, _glfwWin.window, createWindow$$1$$5$$hints);
-        XFree((void *)createWindow$$1$$5$$hints);
+        XSetWMNormalHints(_glfwLibrary.display, _glfwWin.window, createWindow__1__5__hints);
+        XFree((void *)createWindow__1__5__hints);
         _glfwPlatformSetWindowTitle("GLFW Window");
         XMapWindow(_glfwLibrary.display, _glfwWin.window);
         XPeekIfEvent(_glfwLibrary.display, &event, isMapNotify, (char *)_glfwWin.window);
@@ -7115,17 +7115,17 @@ static void enterFullscreenMode(void)
       XSendEvent(_glfwLibrary.display, _glfwWin.root, 0, 1L << 19 | 1L << 20, &event);
     }
 
-    union _XEvent enterFullscreenMode$$1$$2$$event;
-    memset((void *)&enterFullscreenMode$$1$$2$$event, 0, sizeof(union _XEvent) /*192ul*/ );
-    enterFullscreenMode$$1$$2$$event.type = 33;
-    enterFullscreenMode$$1$$2$$event.xclient.window = _glfwWin.window;
-    enterFullscreenMode$$1$$2$$event.xclient.format = 32;
-    enterFullscreenMode$$1$$2$$event.xclient.message_type = _glfwWin.wmState;
-    enterFullscreenMode$$1$$2$$event.xclient.data.l[(signed long int)0] = (signed long int)1;
-    enterFullscreenMode$$1$$2$$event.xclient.data.l[(signed long int)1] = (signed long int)_glfwWin.wmStateFullscreen;
-    enterFullscreenMode$$1$$2$$event.xclient.data.l[(signed long int)2] = (signed long int)0;
-    enterFullscreenMode$$1$$2$$event.xclient.data.l[(signed long int)3] = (signed long int)1;
-    XSendEvent(_glfwLibrary.display, _glfwWin.root, 0, 1L << 19 | 1L << 20, &enterFullscreenMode$$1$$2$$event);
+    union _XEvent enterFullscreenMode__1__2__event;
+    memset((void *)&enterFullscreenMode__1__2__event, 0, sizeof(union _XEvent) /*192ul*/ );
+    enterFullscreenMode__1__2__event.type = 33;
+    enterFullscreenMode__1__2__event.xclient.window = _glfwWin.window;
+    enterFullscreenMode__1__2__event.xclient.format = 32;
+    enterFullscreenMode__1__2__event.xclient.message_type = _glfwWin.wmState;
+    enterFullscreenMode__1__2__event.xclient.data.l[(signed long int)0] = (signed long int)1;
+    enterFullscreenMode__1__2__event.xclient.data.l[(signed long int)1] = (signed long int)_glfwWin.wmStateFullscreen;
+    enterFullscreenMode__1__2__event.xclient.data.l[(signed long int)2] = (signed long int)0;
+    enterFullscreenMode__1__2__event.xclient.data.l[(signed long int)3] = (signed long int)1;
+    XSendEvent(_glfwLibrary.display, _glfwWin.root, 0, 1L << 19 | 1L << 20, &enterFullscreenMode__1__2__event);
   }
 
   else
@@ -7146,7 +7146,7 @@ static void enterFullscreenMode(void)
 
 // errorHandler
 // file x11_window.c line 70
-static signed int errorHandler(struct _XDisplay *display, struct anonymous$63 *event)
+static signed int errorHandler(struct _XDisplay *display, struct anonymous_63 *event)
 {
   _glfwErrorCode = (unsigned long int)event->error_code;
   return 0;
@@ -7167,23 +7167,23 @@ static signed int getFBConfigAttrib(struct __GLXFBConfigRec *fbconfig, signed in
 
 // getFBConfigs
 // file x11_window.c line 438
-static struct anonymous$56 * getFBConfigs(unsigned int *found)
+static struct anonymous_56 * getFBConfigs(unsigned int *found)
 {
   struct __GLXFBConfigRec **fbconfigs;
-  struct anonymous$56 *result;
+  struct anonymous_56 *result;
   signed int i;
   signed int count = 0;
   unsigned char trustWindowBit = (unsigned char)1;
   *found = (unsigned int)0;
-  _Bool tmp_if_expr$6;
-  signed int return_value_getFBConfigAttrib$5;
+  _Bool tmp_if_expr_6;
+  signed int return_value_getFBConfigAttrib_5;
   if(_glfwLibrary.GLX.versionMajor == 1 && !(_glfwLibrary.GLX.versionMinor >= 3))
   {
     if(!(_glfwWin.has_GLX_SGIX_fbconfig == 0))
       goto __CPROVER_DUMP_L1;
 
     fprintf(stderr, "GLXFBConfigs are not supported by the X server\n");
-    return (struct anonymous$56 *)(void *)0;
+    return (struct anonymous_56 *)(void *)0;
   }
 
   else
@@ -7191,11 +7191,11 @@ static struct anonymous$56 * getFBConfigs(unsigned int *found)
 
   __CPROVER_DUMP_L1:
     ;
-    const char *return_value_glXGetClientString$1;
-    return_value_glXGetClientString$1=glXGetClientString(_glfwLibrary.display, 1);
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(return_value_glXGetClientString$1, "Chromium");
-    if(return_value_strcmp$2 == 0)
+    const char *return_value_glXGetClientString_1;
+    return_value_glXGetClientString_1=glXGetClientString(_glfwLibrary.display, 1);
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(return_value_glXGetClientString_1, "Chromium");
+    if(return_value_strcmp_2 == 0)
       trustWindowBit = (unsigned char)0;
 
     if(!(_glfwWin.has_GLX_SGIX_fbconfig == 0))
@@ -7204,7 +7204,7 @@ static struct anonymous$56 * getFBConfigs(unsigned int *found)
       if(count == 0)
       {
         fprintf(stderr, "No GLXFBConfigs returned\n");
-        return (struct anonymous$56 *)(void *)0;
+        return (struct anonymous_56 *)(void *)0;
       }
 
     }
@@ -7215,17 +7215,17 @@ static struct anonymous$56 * getFBConfigs(unsigned int *found)
       if(count == 0)
       {
         fprintf(stderr, "No GLXFBConfigs returned\n");
-        return (struct anonymous$56 *)(void *)0;
+        return (struct anonymous_56 *)(void *)0;
       }
 
     }
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(sizeof(struct anonymous$56) /*64ul*/  * (unsigned long int)count);
-    result = (struct anonymous$56 *)return_value_malloc$3;
-    if(result == ((struct anonymous$56 *)NULL))
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(sizeof(struct anonymous_56) /*64ul*/  * (unsigned long int)count);
+    result = (struct anonymous_56 *)return_value_malloc_3;
+    if(result == ((struct anonymous_56 *)NULL))
     {
       fprintf(stderr, "Out of memory\n");
-      return (struct anonymous$56 *)(void *)0;
+      return (struct anonymous_56 *)(void *)0;
     }
 
     else
@@ -7233,25 +7233,25 @@ static struct anonymous$56 * getFBConfigs(unsigned int *found)
       i = 0;
       for( ; !(i >= count); i = i + 1)
       {
-        signed int return_value_getFBConfigAttrib$4;
-        return_value_getFBConfigAttrib$4=getFBConfigAttrib(fbconfigs[(signed long int)i], 5);
-        if(return_value_getFBConfigAttrib$4 == 0)
-          tmp_if_expr$6 = (_Bool)1;
+        signed int return_value_getFBConfigAttrib_4;
+        return_value_getFBConfigAttrib_4=getFBConfigAttrib(fbconfigs[(signed long int)i], 5);
+        if(return_value_getFBConfigAttrib_4 == 0)
+          tmp_if_expr_6 = (_Bool)1;
 
         else
         {
-          return_value_getFBConfigAttrib$5=getFBConfigAttrib(fbconfigs[(signed long int)i], 0x800B);
-          tmp_if_expr$6 = !(return_value_getFBConfigAttrib$5 != 0) ? (_Bool)1 : (_Bool)0;
+          return_value_getFBConfigAttrib_5=getFBConfigAttrib(fbconfigs[(signed long int)i], 0x800B);
+          tmp_if_expr_6 = !(return_value_getFBConfigAttrib_5 != 0) ? (_Bool)1 : (_Bool)0;
         }
-        if(!tmp_if_expr$6)
+        if(!tmp_if_expr_6)
         {
-          signed int return_value_getFBConfigAttrib$7;
-          return_value_getFBConfigAttrib$7=getFBConfigAttrib(fbconfigs[(signed long int)i], 0x8011);
-          if(!((0x00000001 & return_value_getFBConfigAttrib$7) == 0))
+          signed int return_value_getFBConfigAttrib_7;
+          return_value_getFBConfigAttrib_7=getFBConfigAttrib(fbconfigs[(signed long int)i], 0x8011);
+          if(!((0x00000001 & return_value_getFBConfigAttrib_7) == 0))
           {
-            signed int return_value_getFBConfigAttrib$8;
-            return_value_getFBConfigAttrib$8=getFBConfigAttrib(fbconfigs[(signed long int)i], 0x8010);
-            if((0x00000001 & return_value_getFBConfigAttrib$8) == 0)
+            signed int return_value_getFBConfigAttrib_8;
+            return_value_getFBConfigAttrib_8=getFBConfigAttrib(fbconfigs[(signed long int)i], 0x8010);
+            if((0x00000001 & return_value_getFBConfigAttrib_8) == 0)
             {
               if(trustWindowBit == 0)
                 goto __CPROVER_DUMP_L11;
@@ -7280,9 +7280,9 @@ static struct anonymous$56 * getFBConfigs(unsigned int *found)
 
               else
                 (result + (signed long int)*found)->samples = 0;
-              signed int return_value_getFBConfigAttrib$9;
-              return_value_getFBConfigAttrib$9=getFBConfigAttrib(fbconfigs[(signed long int)i], 0x8013);
-              (result + (signed long int)*found)->platformID = (signed long int)return_value_getFBConfigAttrib$9;
+              signed int return_value_getFBConfigAttrib_9;
+              return_value_getFBConfigAttrib_9=getFBConfigAttrib(fbconfigs[(signed long int)i], 0x8013);
+              (result + (signed long int)*found)->platformID = (signed long int)return_value_getFBConfigAttrib_9;
               *found = *found + 1u;
             }
           }
@@ -7380,9 +7380,9 @@ void * glfwCreateCond(void)
 
   else
   {
-    void *return_value__glfwPlatformCreateCond$1;
-    return_value__glfwPlatformCreateCond$1=_glfwPlatformCreateCond();
-    return return_value__glfwPlatformCreateCond$1;
+    void *return_value__glfwPlatformCreateCond_1;
+    return_value__glfwPlatformCreateCond_1=_glfwPlatformCreateCond();
+    return return_value__glfwPlatformCreateCond_1;
   }
 }
 
@@ -7395,9 +7395,9 @@ void * glfwCreateMutex(void)
 
   else
   {
-    void *return_value__glfwPlatformCreateMutex$1;
-    return_value__glfwPlatformCreateMutex$1=_glfwPlatformCreateMutex();
-    return return_value__glfwPlatformCreateMutex$1;
+    void *return_value__glfwPlatformCreateMutex_1;
+    return_value__glfwPlatformCreateMutex_1=_glfwPlatformCreateMutex();
+    return return_value__glfwPlatformCreateMutex_1;
   }
 }
 
@@ -7410,9 +7410,9 @@ signed int glfwCreateThread(void (*fun)(void *), void *arg)
 
   else
   {
-    signed int return_value__glfwPlatformCreateThread$1;
-    return_value__glfwPlatformCreateThread$1=_glfwPlatformCreateThread(fun, arg);
-    return return_value__glfwPlatformCreateThread$1;
+    signed int return_value__glfwPlatformCreateThread_1;
+    return_value__glfwPlatformCreateThread_1=_glfwPlatformCreateThread(fun, arg);
+    return return_value__glfwPlatformCreateThread_1;
   }
 }
 
@@ -7529,21 +7529,21 @@ signed int glfwExtensionSupported(const char *extension)
 {
   const unsigned char *extensions;
   unsigned char *where;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(_glfwWin.opened == 0 || _glfwInitialized == 0)
     return 0;
 
   else
   {
-    char *return_value_strchr$1;
-    return_value_strchr$1=strchr(extension, 32);
-    where = (unsigned char *)return_value_strchr$1;
+    char *return_value_strchr_1;
+    return_value_strchr_1=strchr(extension, 32);
+    where = (unsigned char *)return_value_strchr_1;
     if(!(where == ((unsigned char *)NULL)))
-      tmp_if_expr$2 = (_Bool)1;
+      tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr$2 = (signed int)*extension == 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (signed int)*extension == 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_2)
       return 0;
 
     else
@@ -7553,9 +7553,9 @@ signed int glfwExtensionSupported(const char *extension)
         extensions=glGetString((unsigned int)0x1F03);
         if(!(extensions == ((const unsigned char *)NULL)))
         {
-          signed int return_value__glfwStringInExtensionString$3;
-          return_value__glfwStringInExtensionString$3=_glfwStringInExtensionString(extension, extensions);
-          if(!(return_value__glfwStringInExtensionString$3 == 0))
+          signed int return_value__glfwStringInExtensionString_3;
+          return_value__glfwStringInExtensionString_3=_glfwStringInExtensionString(extension, extensions);
+          if(!(return_value__glfwStringInExtensionString_3 == 0))
             return 1;
 
         }
@@ -7572,18 +7572,18 @@ signed int glfwExtensionSupported(const char *extension)
         {
           const unsigned char *return_value;
           return_value=_glfwWin.GetStringi((unsigned int)0x1F03, (unsigned int)i);
-          signed int return_value_strcmp$4;
-          return_value_strcmp$4=strcmp((const char *)return_value, extension);
-          if(return_value_strcmp$4 == 0)
+          signed int return_value_strcmp_4;
+          return_value_strcmp_4=strcmp((const char *)return_value, extension);
+          if(return_value_strcmp_4 == 0)
             return 1;
 
           i = i + 1;
         }
 
       }
-      signed int return_value__glfwPlatformExtensionSupported$5;
-      return_value__glfwPlatformExtensionSupported$5=_glfwPlatformExtensionSupported(extension);
-      if(!(return_value__glfwPlatformExtensionSupported$5 == 0))
+      signed int return_value__glfwPlatformExtensionSupported_5;
+      return_value__glfwPlatformExtensionSupported_5=_glfwPlatformExtensionSupported(extension);
+      if(!(return_value__glfwPlatformExtensionSupported_5 == 0))
         return 1;
 
       else
@@ -7594,7 +7594,7 @@ signed int glfwExtensionSupported(const char *extension)
 
 // glfwFreeImage
 // file ../image.c line 419
-void glfwFreeImage(struct anonymous$40 *img)
+void glfwFreeImage(struct anonymous_40 *img)
 {
   if(!(_glfwInitialized == 0))
   {
@@ -7614,9 +7614,9 @@ void glfwFreeImage(struct anonymous$40 *img)
 
 // glfwGetDesktopMode
 // file ../fullscreen.c line 85
-void glfwGetDesktopMode(struct anonymous$58 *mode)
+void glfwGetDesktopMode(struct anonymous_58 *mode)
 {
-  if(!(mode == ((struct anonymous$58 *)NULL)) && !(_glfwInitialized == 0))
+  if(!(mode == ((struct anonymous_58 *)NULL)) && !(_glfwInitialized == 0))
     *mode = _glfwLibrary.desktopMode;
 
 }
@@ -7653,9 +7653,9 @@ signed int glfwGetJoystickButtons(signed int joy, unsigned char *buttons, signed
     i = 0;
     for( ; !(i >= numbuttons); i = i + 1)
       buttons[(signed long int)i] = (unsigned char)0;
-    signed int return_value__glfwPlatformGetJoystickButtons$1;
-    return_value__glfwPlatformGetJoystickButtons$1=_glfwPlatformGetJoystickButtons(joy, buttons, numbuttons);
-    return return_value__glfwPlatformGetJoystickButtons$1;
+    signed int return_value__glfwPlatformGetJoystickButtons_1;
+    return_value__glfwPlatformGetJoystickButtons_1=_glfwPlatformGetJoystickButtons(joy, buttons, numbuttons);
+    return return_value__glfwPlatformGetJoystickButtons_1;
   }
 }
 
@@ -7668,9 +7668,9 @@ signed int glfwGetJoystickParam(signed int joy, signed int param)
 
   else
   {
-    signed int return_value__glfwPlatformGetJoystickParam$1;
-    return_value__glfwPlatformGetJoystickParam$1=_glfwPlatformGetJoystickParam(joy, param);
-    return return_value__glfwPlatformGetJoystickParam$1;
+    signed int return_value__glfwPlatformGetJoystickParam_1;
+    return_value__glfwPlatformGetJoystickParam_1=_glfwPlatformGetJoystickParam(joy, param);
+    return return_value__glfwPlatformGetJoystickParam_1;
   }
 }
 
@@ -7687,9 +7687,9 @@ signed int glfwGetJoystickPos(signed int joy, float *pos, signed int numaxes)
     i = 0;
     for( ; !(i >= numaxes); i = i + 1)
       pos[(signed long int)i] = 0.0f;
-    signed int return_value__glfwPlatformGetJoystickPos$1;
-    return_value__glfwPlatformGetJoystickPos$1=_glfwPlatformGetJoystickPos(joy, pos, numaxes);
-    return return_value__glfwPlatformGetJoystickPos$1;
+    signed int return_value__glfwPlatformGetJoystickPos_1;
+    return_value__glfwPlatformGetJoystickPos_1=_glfwPlatformGetJoystickPos(joy, pos, numaxes);
+    return return_value__glfwPlatformGetJoystickPos_1;
   }
 }
 
@@ -7773,9 +7773,9 @@ signed int glfwGetNumberOfProcessors(void)
 
   else
   {
-    signed int return_value__glfwPlatformGetNumberOfProcessors$1;
-    return_value__glfwPlatformGetNumberOfProcessors$1=_glfwPlatformGetNumberOfProcessors();
-    return return_value__glfwPlatformGetNumberOfProcessors$1;
+    signed int return_value__glfwPlatformGetNumberOfProcessors_1;
+    return_value__glfwPlatformGetNumberOfProcessors_1=_glfwPlatformGetNumberOfProcessors();
+    return return_value__glfwPlatformGetNumberOfProcessors_1;
   }
 }
 
@@ -7788,9 +7788,9 @@ void * glfwGetProcAddress(const char *procname)
 
   else
   {
-    void *return_value__glfwPlatformGetProcAddress$1;
-    return_value__glfwPlatformGetProcAddress$1=_glfwPlatformGetProcAddress(procname);
-    return return_value__glfwPlatformGetProcAddress$1;
+    void *return_value__glfwPlatformGetProcAddress_1;
+    return_value__glfwPlatformGetProcAddress_1=_glfwPlatformGetProcAddress(procname);
+    return return_value__glfwPlatformGetProcAddress_1;
   }
 }
 
@@ -7803,9 +7803,9 @@ signed int glfwGetThreadID(void)
 
   else
   {
-    signed int return_value__glfwPlatformGetThreadID$1;
-    return_value__glfwPlatformGetThreadID$1=_glfwPlatformGetThreadID();
-    return return_value__glfwPlatformGetThreadID$1;
+    signed int return_value__glfwPlatformGetThreadID_1;
+    return_value__glfwPlatformGetThreadID_1=_glfwPlatformGetThreadID();
+    return return_value__glfwPlatformGetThreadID_1;
   }
 }
 
@@ -7818,9 +7818,9 @@ double glfwGetTime(void)
 
   else
   {
-    double return_value__glfwPlatformGetTime$1;
-    return_value__glfwPlatformGetTime$1=_glfwPlatformGetTime();
-    return return_value__glfwPlatformGetTime$1;
+    double return_value__glfwPlatformGetTime_1;
+    return_value__glfwPlatformGetTime_1=_glfwPlatformGetTime();
+    return return_value__glfwPlatformGetTime_1;
   }
 }
 
@@ -7841,7 +7841,7 @@ void glfwGetVersion(signed int *major, signed int *minor, signed int *rev)
 
 // glfwGetVideoModes
 // file ../fullscreen.c line 42
-signed int glfwGetVideoModes(struct anonymous$58 *list, signed int maxcount)
+signed int glfwGetVideoModes(struct anonymous_58 *list, signed int maxcount)
 {
   signed int count;
   signed int i;
@@ -7850,8 +7850,8 @@ signed int glfwGetVideoModes(struct anonymous$58 *list, signed int maxcount)
   signed int res2;
   signed int depth1;
   signed int depth2;
-  struct anonymous$58 vm;
-  if(list == ((struct anonymous$58 *)NULL) || _glfwInitialized == 0 || !(maxcount >= 1))
+  struct anonymous_58 vm;
+  if(list == ((struct anonymous_58 *)NULL) || _glfwInitialized == 0 || !(maxcount >= 1))
     return 0;
 
   else
@@ -7988,14 +7988,14 @@ signed int glfwInit(void)
 
   else
   {
-    memset((void *)&_glfwLibrary, 0, sizeof(struct anonymous$0) /*152ul*/ );
+    memset((void *)&_glfwLibrary, 0, sizeof(struct anonymous_0) /*152ul*/ );
     memset((void *)&_glfwWin, 0, sizeof(struct _GLFWwin_struct) /*432ul*/ );
     _glfwWin.opened = 0;
     _glfwWin.sysKeysDisabled = 0;
     _glfwClearWindowHints();
-    signed int return_value__glfwPlatformInit$1;
-    return_value__glfwPlatformInit$1=_glfwPlatformInit();
-    if(return_value__glfwPlatformInit$1 == 0)
+    signed int return_value__glfwPlatformInit_1;
+    return_value__glfwPlatformInit_1=_glfwPlatformInit();
+    if(return_value__glfwPlatformInit_1 == 0)
       return 0;
 
     else
@@ -8010,7 +8010,7 @@ signed int glfwInit(void)
 // file ../image.c line 484
 signed int glfwLoadMemoryTexture2D(const void *data, signed long int size, signed int flags)
 {
-  struct anonymous$40 img;
+  struct anonymous_40 img;
   if(_glfwWin.opened == 0 || _glfwInitialized == 0)
     return 0;
 
@@ -8019,16 +8019,16 @@ signed int glfwLoadMemoryTexture2D(const void *data, signed long int size, signe
     if(_glfwWin.has_GL_ARB_texture_non_power_of_two == 0)
       flags = flags & ~0x00000001;
 
-    signed int return_value_glfwReadMemoryImage$1;
-    return_value_glfwReadMemoryImage$1=glfwReadMemoryImage(data, size, &img, flags);
-    if(return_value_glfwReadMemoryImage$1 == 0)
+    signed int return_value_glfwReadMemoryImage_1;
+    return_value_glfwReadMemoryImage_1=glfwReadMemoryImage(data, size, &img, flags);
+    if(return_value_glfwReadMemoryImage_1 == 0)
       return 0;
 
     else
     {
-      signed int return_value_glfwLoadTextureImage2D$2;
-      return_value_glfwLoadTextureImage2D$2=glfwLoadTextureImage2D(&img, flags);
-      if(return_value_glfwLoadTextureImage2D$2 == 0)
+      signed int return_value_glfwLoadTextureImage2D_2;
+      return_value_glfwLoadTextureImage2D_2=glfwLoadTextureImage2D(&img, flags);
+      if(return_value_glfwLoadTextureImage2D_2 == 0)
         return 0;
 
       else
@@ -8044,7 +8044,7 @@ signed int glfwLoadMemoryTexture2D(const void *data, signed long int size, signe
 // file ../image.c line 446
 signed int glfwLoadTexture2D(const char *name, signed int flags)
 {
-  struct anonymous$40 img;
+  struct anonymous_40 img;
   if(_glfwWin.opened == 0 || _glfwInitialized == 0)
     return 0;
 
@@ -8053,16 +8053,16 @@ signed int glfwLoadTexture2D(const char *name, signed int flags)
     if(_glfwWin.has_GL_ARB_texture_non_power_of_two == 0)
       flags = flags & ~0x00000001;
 
-    signed int return_value_glfwReadImage$1;
-    return_value_glfwReadImage$1=glfwReadImage(name, &img, flags);
-    if(return_value_glfwReadImage$1 == 0)
+    signed int return_value_glfwReadImage_1;
+    return_value_glfwReadImage_1=glfwReadImage(name, &img, flags);
+    if(return_value_glfwReadImage_1 == 0)
       return 0;
 
     else
     {
-      signed int return_value_glfwLoadTextureImage2D$2;
-      return_value_glfwLoadTextureImage2D$2=glfwLoadTextureImage2D(&img, flags);
-      if(return_value_glfwLoadTextureImage2D$2 == 0)
+      signed int return_value_glfwLoadTextureImage2D_2;
+      return_value_glfwLoadTextureImage2D_2=glfwLoadTextureImage2D(&img, flags);
+      if(return_value_glfwLoadTextureImage2D_2 == 0)
         return 0;
 
       else
@@ -8076,7 +8076,7 @@ signed int glfwLoadTexture2D(const char *name, signed int flags)
 
 // glfwLoadTextureImage2D
 // file ../image.c line 522
-signed int glfwLoadTextureImage2D(struct anonymous$40 *img, signed int flags)
+signed int glfwLoadTextureImage2D(struct anonymous_40 *img, signed int flags)
 {
   signed int UnpackAlignment;
   signed int GenMipMap;
@@ -8087,10 +8087,10 @@ signed int glfwLoadTextureImage2D(struct anonymous$40 *img, signed int flags)
   signed int n;
   unsigned char *data;
   unsigned char *dataptr;
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
-  unsigned char *tmp_post$5;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
+  unsigned char *tmp_post_5;
   if(_glfwWin.opened == 0 || _glfwInitialized == 0)
     return 0;
 
@@ -8102,9 +8102,9 @@ signed int glfwLoadTextureImage2D(struct anonymous$40 *img, signed int flags)
       {
         img->BytesPerPixel = 4;
         newsize = img->Width * img->Height * img->BytesPerPixel;
-        void *return_value_malloc$1;
-        return_value_malloc$1=malloc((unsigned long int)newsize);
-        data = (unsigned char *)return_value_malloc$1;
+        void *return_value_malloc_1;
+        return_value_malloc_1=malloc((unsigned long int)newsize);
+        data = (unsigned char *)return_value_malloc_1;
         if(data == ((unsigned char *)NULL))
         {
           free((void *)img->Data);
@@ -8115,18 +8115,18 @@ signed int glfwLoadTextureImage2D(struct anonymous$40 *img, signed int flags)
         n = 0;
         for( ; !(n >= img->Height * img->Width); n = n + 1)
         {
-          tmp_post$2 = dataptr;
+          tmp_post_2 = dataptr;
           dataptr = dataptr + 1l;
-          *tmp_post$2 = (unsigned char)255;
-          tmp_post$3 = dataptr;
+          *tmp_post_2 = (unsigned char)255;
+          tmp_post_3 = dataptr;
           dataptr = dataptr + 1l;
-          *tmp_post$3 = (unsigned char)255;
-          tmp_post$4 = dataptr;
+          *tmp_post_3 = (unsigned char)255;
+          tmp_post_4 = dataptr;
           dataptr = dataptr + 1l;
-          *tmp_post$4 = (unsigned char)255;
-          tmp_post$5 = dataptr;
+          *tmp_post_4 = (unsigned char)255;
+          tmp_post_5 = dataptr;
           dataptr = dataptr + 1l;
-          *tmp_post$5 = img->Data[(signed long int)n];
+          *tmp_post_5 = img->Data[(signed long int)n];
         }
         free((void *)img->Data);
         img->Data = data;
@@ -8154,9 +8154,9 @@ signed int glfwLoadTextureImage2D(struct anonymous$40 *img, signed int flags)
       glTexImage2D((unsigned int)0x0DE1, level, format, img->Width, img->Height, 0, (unsigned int)format, (unsigned int)0x1401, (void *)img->Data);
       if(AutoGen == 0 && !((0x00000004 & flags) == 0))
       {
-        signed int return_value_HalveImage$6;
-        return_value_HalveImage$6=HalveImage(img->Data, &img->Width, &img->Height, img->BytesPerPixel);
-        level = return_value_HalveImage$6 != 0 ? level + 1 : 0;
+        signed int return_value_HalveImage_6;
+        return_value_HalveImage_6=HalveImage(img->Data, &img->Width, &img->Height, img->BytesPerPixel);
+        level = return_value_HalveImage_6 != 0 ? level + 1 : 0;
       }
 
     }
@@ -8182,12 +8182,12 @@ void glfwLockMutex(void *mutex)
 // file ../include/GL/glfw.h line 434
 signed int glfwOpenWindow(signed int width, signed int height, signed int redbits, signed int greenbits, signed int bluebits, signed int alphabits, signed int depthbits, signed int stencilbits, signed int mode)
 {
-  struct anonymous$56 fbconfig;
-  struct anonymous$33 wndconfig;
-  _Bool tmp_if_expr$3;
-  signed int return_value_glfwExtensionSupported$2;
-  _Bool tmp_if_expr$5;
-  signed int return_value_glfwExtensionSupported$4;
+  struct anonymous_56 fbconfig;
+  struct anonymous_33 wndconfig;
+  _Bool tmp_if_expr_3;
+  signed int return_value_glfwExtensionSupported_2;
+  _Bool tmp_if_expr_5;
+  signed int return_value_glfwExtensionSupported_4;
   if(_glfwInitialized == 0 || !(_glfwWin.opened == 0))
     return 0;
 
@@ -8270,9 +8270,9 @@ signed int glfwOpenWindow(signed int width, signed int height, signed int redbit
           _glfwWin.width = width;
           _glfwWin.height = height;
           _glfwWin.fullscreen = mode == 0x00010002 ? 1 : 0;
-          signed int return_value__glfwPlatformOpenWindow$1;
-          return_value__glfwPlatformOpenWindow$1=_glfwPlatformOpenWindow(width, height, &wndconfig, &fbconfig);
-          if(return_value__glfwPlatformOpenWindow$1 == 0)
+          signed int return_value__glfwPlatformOpenWindow_1;
+          return_value__glfwPlatformOpenWindow_1=_glfwPlatformOpenWindow(width, height, &wndconfig, &fbconfig);
+          if(return_value__glfwPlatformOpenWindow_1 == 0)
           {
             glfwCloseWindow();
             return 0;
@@ -8292,28 +8292,28 @@ signed int glfwOpenWindow(signed int width, signed int height, signed int redbit
             else
             {
               if(_glfwWin.glMajor >= 2)
-                tmp_if_expr$3 = (_Bool)1;
+                tmp_if_expr_3 = (_Bool)1;
 
               else
               {
-                return_value_glfwExtensionSupported$2=glfwExtensionSupported("GL_ARB_texture_non_power_of_two");
-                tmp_if_expr$3 = return_value_glfwExtensionSupported$2 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_glfwExtensionSupported_2=glfwExtensionSupported("GL_ARB_texture_non_power_of_two");
+                tmp_if_expr_3 = return_value_glfwExtensionSupported_2 != 0 ? (_Bool)1 : (_Bool)0;
               }
-              _glfwWin.has_GL_ARB_texture_non_power_of_two = (signed int)tmp_if_expr$3;
+              _glfwWin.has_GL_ARB_texture_non_power_of_two = (signed int)tmp_if_expr_3;
               if(_glfwWin.glMajor >= 2 || _glfwWin.glMinor >= 4)
-                tmp_if_expr$5 = (_Bool)1;
+                tmp_if_expr_5 = (_Bool)1;
 
               else
               {
-                return_value_glfwExtensionSupported$4=glfwExtensionSupported("GL_SGIS_generate_mipmap");
-                tmp_if_expr$5 = return_value_glfwExtensionSupported$4 != 0 ? (_Bool)1 : (_Bool)0;
+                return_value_glfwExtensionSupported_4=glfwExtensionSupported("GL_SGIS_generate_mipmap");
+                tmp_if_expr_5 = return_value_glfwExtensionSupported_4 != 0 ? (_Bool)1 : (_Bool)0;
               }
-              _glfwWin.has_GL_SGIS_generate_mipmap = (signed int)tmp_if_expr$5;
+              _glfwWin.has_GL_SGIS_generate_mipmap = (signed int)tmp_if_expr_5;
               if(_glfwWin.glMajor >= 3)
               {
-                void *return_value_glfwGetProcAddress$6;
-                return_value_glfwGetProcAddress$6=glfwGetProcAddress("glGetStringi");
-                _glfwWin.GetStringi = (const unsigned char * (*)(unsigned int, unsigned int))return_value_glfwGetProcAddress$6;
+                void *return_value_glfwGetProcAddress_6;
+                return_value_glfwGetProcAddress_6=glfwGetProcAddress("glGetStringi");
+                _glfwWin.GetStringi = (const unsigned char * (*)(unsigned int, unsigned int))return_value_glfwGetProcAddress_6;
                 if(_glfwWin.GetStringi == ((const unsigned char * (*)(unsigned int, unsigned int))NULL))
                 {
                   glfwCloseWindow();
@@ -8424,9 +8424,9 @@ void glfwPollEvents(void)
 
 // glfwReadImage
 // file ../image.c line 276
-signed int glfwReadImage(const char *name, struct anonymous$40 *img, signed int flags)
+signed int glfwReadImage(const char *name, struct anonymous_40 *img, signed int flags)
 {
-  struct anonymous$59 stream;
+  struct anonymous_59 stream;
   if(_glfwInitialized == 0)
     return 0;
 
@@ -8436,16 +8436,16 @@ signed int glfwReadImage(const char *name, struct anonymous$40 *img, signed int 
     img->Height = 0;
     img->BytesPerPixel = 0;
     img->Data = (unsigned char *)(void *)0;
-    signed int return_value__glfwOpenFileStream$1;
-    return_value__glfwOpenFileStream$1=_glfwOpenFileStream(&stream, name, "rb");
-    if(return_value__glfwOpenFileStream$1 == 0)
+    signed int return_value__glfwOpenFileStream_1;
+    return_value__glfwOpenFileStream_1=_glfwOpenFileStream(&stream, name, "rb");
+    if(return_value__glfwOpenFileStream_1 == 0)
       return 0;
 
     else
     {
-      signed int return_value__glfwReadTGA$2;
-      return_value__glfwReadTGA$2=_glfwReadTGA(&stream, img, flags);
-      if(return_value__glfwReadTGA$2 == 0)
+      signed int return_value__glfwReadTGA_2;
+      return_value__glfwReadTGA_2=_glfwReadTGA(&stream, img, flags);
+      if(return_value__glfwReadTGA_2 == 0)
       {
         _glfwCloseStream(&stream);
         return 0;
@@ -8456,9 +8456,9 @@ signed int glfwReadImage(const char *name, struct anonymous$40 *img, signed int 
         _glfwCloseStream(&stream);
         if((0x00000001 & flags) == 0)
         {
-          signed int return_value_RescaleImage$3;
-          return_value_RescaleImage$3=RescaleImage(img);
-          if(return_value_RescaleImage$3 == 0)
+          signed int return_value_RescaleImage_3;
+          return_value_RescaleImage_3=RescaleImage(img);
+          if(return_value_RescaleImage_3 == 0)
             return 0;
 
         }
@@ -8490,9 +8490,9 @@ signed int glfwReadImage(const char *name, struct anonymous$40 *img, signed int 
 
 // glfwReadMemoryImage
 // file ../image.c line 348
-signed int glfwReadMemoryImage(const void *data, signed long int size, struct anonymous$40 *img, signed int flags)
+signed int glfwReadMemoryImage(const void *data, signed long int size, struct anonymous_40 *img, signed int flags)
 {
-  struct anonymous$59 stream;
+  struct anonymous_59 stream;
   if(_glfwInitialized == 0)
     return 0;
 
@@ -8502,16 +8502,16 @@ signed int glfwReadMemoryImage(const void *data, signed long int size, struct an
     img->Height = 0;
     img->BytesPerPixel = 0;
     img->Data = (unsigned char *)(void *)0;
-    signed int return_value__glfwOpenBufferStream$1;
-    return_value__glfwOpenBufferStream$1=_glfwOpenBufferStream(&stream, (void *)data, size);
-    if(return_value__glfwOpenBufferStream$1 == 0)
+    signed int return_value__glfwOpenBufferStream_1;
+    return_value__glfwOpenBufferStream_1=_glfwOpenBufferStream(&stream, (void *)data, size);
+    if(return_value__glfwOpenBufferStream_1 == 0)
       return 0;
 
     else
     {
-      signed int return_value__glfwReadTGA$2;
-      return_value__glfwReadTGA$2=_glfwReadTGA(&stream, img, flags);
-      if(return_value__glfwReadTGA$2 == 0)
+      signed int return_value__glfwReadTGA_2;
+      return_value__glfwReadTGA_2=_glfwReadTGA(&stream, img, flags);
+      if(return_value__glfwReadTGA_2 == 0)
       {
         _glfwCloseStream(&stream);
         return 0;
@@ -8522,9 +8522,9 @@ signed int glfwReadMemoryImage(const void *data, signed long int size, struct an
         _glfwCloseStream(&stream);
         if((0x00000001 & flags) == 0)
         {
-          signed int return_value_RescaleImage$3;
-          return_value_RescaleImage$3=RescaleImage(img);
-          if(return_value_RescaleImage$3 == 0)
+          signed int return_value_RescaleImage_3;
+          return_value_RescaleImage_3=RescaleImage(img);
+          if(return_value_RescaleImage_3 == 0)
             return 0;
 
         }
@@ -8771,9 +8771,9 @@ void glfwTerminate(void)
 {
   if(!(_glfwInitialized == 0))
   {
-    signed int return_value__glfwPlatformTerminate$1;
-    return_value__glfwPlatformTerminate$1=_glfwPlatformTerminate();
-    if(!(return_value__glfwPlatformTerminate$1 == 0))
+    signed int return_value__glfwPlatformTerminate_1;
+    return_value__glfwPlatformTerminate_1=_glfwPlatformTerminate();
+    if(!(return_value__glfwPlatformTerminate_1 == 0))
       _glfwInitialized = 0;
 
   }
@@ -8820,9 +8820,9 @@ signed int glfwWaitThread(signed int ID, signed int waitmode)
 
     else
     {
-      signed int return_value__glfwPlatformWaitThread$1;
-      return_value__glfwPlatformWaitThread$1=_glfwPlatformWaitThread(ID, waitmode);
-      return return_value__glfwPlatformWaitThread$1;
+      signed int return_value__glfwPlatformWaitThread_1;
+      return_value__glfwPlatformWaitThread_1=_glfwPlatformWaitThread(ID, waitmode);
+      return return_value__glfwPlatformWaitThread_1;
     }
 }
 
@@ -8848,9 +8848,9 @@ static signed int initDisplay(void)
   {
     _glfwLibrary.XF86VidMode.available = 0;
     _glfwLibrary.XRandR.available=XRRQueryExtension(_glfwLibrary.display, &_glfwLibrary.XRandR.eventBase, &_glfwLibrary.XRandR.errorBase);
-    signed int return_value_glXQueryExtension$1;
-    return_value_glXQueryExtension$1=glXQueryExtension(_glfwLibrary.display, &_glfwLibrary.GLX.errorBase, &_glfwLibrary.GLX.eventBase);
-    if(return_value_glXQueryExtension$1 == 0)
+    signed int return_value_glXQueryExtension_1;
+    return_value_glXQueryExtension_1=glXQueryExtension(_glfwLibrary.display, &_glfwLibrary.GLX.errorBase, &_glfwLibrary.GLX.eventBase);
+    if(return_value_glXQueryExtension_1 == 0)
     {
       fprintf(stderr, "GLX not supported\n");
       return 0;
@@ -8858,9 +8858,9 @@ static signed int initDisplay(void)
 
     else
     {
-      signed int return_value_glXQueryVersion$2;
-      return_value_glXQueryVersion$2=glXQueryVersion(_glfwLibrary.display, &_glfwLibrary.GLX.versionMajor, &_glfwLibrary.GLX.versionMinor);
-      if(return_value_glXQueryVersion$2 == 0)
+      signed int return_value_glXQueryVersion_2;
+      return_value_glXQueryVersion_2=glXQueryVersion(_glfwLibrary.display, &_glfwLibrary.GLX.versionMajor, &_glfwLibrary.GLX.versionMinor);
+      if(return_value_glXQueryVersion_2 == 0)
       {
         fprintf(stderr, "Unable to query GLX version\n");
         return 0;
@@ -8882,7 +8882,7 @@ static void initGLXExtensions(void)
   _glfwWin.GetFBConfigAttribSGIX = (signed int (*)(struct _XDisplay *, struct __GLXFBConfigRec *, signed int, signed int *))(void *)0;
   _glfwWin.ChooseFBConfigSGIX = (struct __GLXFBConfigRec ** (*)(struct _XDisplay *, signed int, signed int *, signed int *))(void *)0;
   _glfwWin.CreateContextWithConfigSGIX = (struct __GLXcontextRec * (*)(struct _XDisplay *, struct __GLXFBConfigRec *, signed int, struct __GLXcontextRec *, signed int))(void *)0;
-  _glfwWin.GetVisualFromFBConfigSGIX = (struct anonymous$41 * (*)(struct _XDisplay *, struct __GLXFBConfigRec *))(void *)0;
+  _glfwWin.GetVisualFromFBConfigSGIX = (struct anonymous_41 * (*)(struct _XDisplay *, struct __GLXFBConfigRec *))(void *)0;
   _glfwWin.CreateContextAttribsARB = (struct __GLXcontextRec * (*)(struct _XDisplay *, struct __GLXFBConfigRec *, struct __GLXcontextRec *, signed int, const signed int *))(void *)0;
   _glfwWin.has_GLX_SGIX_fbconfig = (unsigned char)0;
   _glfwWin.has_GLX_EXT_swap_control = (unsigned char)0;
@@ -8891,83 +8891,83 @@ static void initGLXExtensions(void)
   _glfwWin.has_GLX_ARB_multisample = (unsigned char)0;
   _glfwWin.has_GLX_ARB_create_context = (unsigned char)0;
   _glfwWin.has_GLX_ARB_create_context_profile = (unsigned char)0;
-  signed int return_value__glfwPlatformExtensionSupported$2;
-  return_value__glfwPlatformExtensionSupported$2=_glfwPlatformExtensionSupported("GLX_EXT_swap_control");
-  if(!(return_value__glfwPlatformExtensionSupported$2 == 0))
+  signed int return_value__glfwPlatformExtensionSupported_2;
+  return_value__glfwPlatformExtensionSupported_2=_glfwPlatformExtensionSupported("GLX_EXT_swap_control");
+  if(!(return_value__glfwPlatformExtensionSupported_2 == 0))
   {
-    void *return_value__glfwPlatformGetProcAddress$1;
-    return_value__glfwPlatformGetProcAddress$1=_glfwPlatformGetProcAddress("glXSwapIntervalEXT");
-    _glfwWin.SwapIntervalEXT = (void (*)(struct _XDisplay *, unsigned long int, signed int))return_value__glfwPlatformGetProcAddress$1;
+    void *return_value__glfwPlatformGetProcAddress_1;
+    return_value__glfwPlatformGetProcAddress_1=_glfwPlatformGetProcAddress("glXSwapIntervalEXT");
+    _glfwWin.SwapIntervalEXT = (void (*)(struct _XDisplay *, unsigned long int, signed int))return_value__glfwPlatformGetProcAddress_1;
     if(!(_glfwWin.SwapIntervalEXT == ((void (*)(struct _XDisplay *, unsigned long int, signed int))NULL)))
       _glfwWin.has_GLX_EXT_swap_control = (unsigned char)1;
 
   }
 
-  signed int return_value__glfwPlatformExtensionSupported$4;
-  return_value__glfwPlatformExtensionSupported$4=_glfwPlatformExtensionSupported("GLX_MESA_swap_control");
-  if(!(return_value__glfwPlatformExtensionSupported$4 == 0))
+  signed int return_value__glfwPlatformExtensionSupported_4;
+  return_value__glfwPlatformExtensionSupported_4=_glfwPlatformExtensionSupported("GLX_MESA_swap_control");
+  if(!(return_value__glfwPlatformExtensionSupported_4 == 0))
   {
-    void *return_value__glfwPlatformGetProcAddress$3;
-    return_value__glfwPlatformGetProcAddress$3=_glfwPlatformGetProcAddress("glXSwapIntervalMESA");
-    _glfwWin.SwapIntervalMESA = (signed int (*)(unsigned int))return_value__glfwPlatformGetProcAddress$3;
+    void *return_value__glfwPlatformGetProcAddress_3;
+    return_value__glfwPlatformGetProcAddress_3=_glfwPlatformGetProcAddress("glXSwapIntervalMESA");
+    _glfwWin.SwapIntervalMESA = (signed int (*)(unsigned int))return_value__glfwPlatformGetProcAddress_3;
     if(!(_glfwWin.SwapIntervalMESA == ((signed int (*)(unsigned int))NULL)))
       _glfwWin.has_GLX_MESA_swap_control = (unsigned char)1;
 
   }
 
-  signed int return_value__glfwPlatformExtensionSupported$6;
-  return_value__glfwPlatformExtensionSupported$6=_glfwPlatformExtensionSupported("GLX_SGI_swap_control");
-  if(!(return_value__glfwPlatformExtensionSupported$6 == 0))
+  signed int return_value__glfwPlatformExtensionSupported_6;
+  return_value__glfwPlatformExtensionSupported_6=_glfwPlatformExtensionSupported("GLX_SGI_swap_control");
+  if(!(return_value__glfwPlatformExtensionSupported_6 == 0))
   {
-    void *return_value__glfwPlatformGetProcAddress$5;
-    return_value__glfwPlatformGetProcAddress$5=_glfwPlatformGetProcAddress("glXSwapIntervalSGI");
-    _glfwWin.SwapIntervalSGI = (signed int (*)(signed int))return_value__glfwPlatformGetProcAddress$5;
+    void *return_value__glfwPlatformGetProcAddress_5;
+    return_value__glfwPlatformGetProcAddress_5=_glfwPlatformGetProcAddress("glXSwapIntervalSGI");
+    _glfwWin.SwapIntervalSGI = (signed int (*)(signed int))return_value__glfwPlatformGetProcAddress_5;
     if(!(_glfwWin.SwapIntervalSGI == ((signed int (*)(signed int))NULL)))
       _glfwWin.has_GLX_SGI_swap_control = (unsigned char)1;
 
   }
 
-  signed int return_value__glfwPlatformExtensionSupported$11;
-  return_value__glfwPlatformExtensionSupported$11=_glfwPlatformExtensionSupported("GLX_SGIX_fbconfig");
-  if(!(return_value__glfwPlatformExtensionSupported$11 == 0))
+  signed int return_value__glfwPlatformExtensionSupported_11;
+  return_value__glfwPlatformExtensionSupported_11=_glfwPlatformExtensionSupported("GLX_SGIX_fbconfig");
+  if(!(return_value__glfwPlatformExtensionSupported_11 == 0))
   {
-    void *return_value__glfwPlatformGetProcAddress$7;
-    return_value__glfwPlatformGetProcAddress$7=_glfwPlatformGetProcAddress("glXGetFBConfigAttribSGIX");
-    _glfwWin.GetFBConfigAttribSGIX = (signed int (*)(struct _XDisplay *, struct __GLXFBConfigRec *, signed int, signed int *))return_value__glfwPlatformGetProcAddress$7;
-    void *return_value__glfwPlatformGetProcAddress$8;
-    return_value__glfwPlatformGetProcAddress$8=_glfwPlatformGetProcAddress("glXChooseFBConfigSGIX");
-    _glfwWin.ChooseFBConfigSGIX = (struct __GLXFBConfigRec ** (*)(struct _XDisplay *, signed int, signed int *, signed int *))return_value__glfwPlatformGetProcAddress$8;
-    void *return_value__glfwPlatformGetProcAddress$9;
-    return_value__glfwPlatformGetProcAddress$9=_glfwPlatformGetProcAddress("glXCreateContextWithConfigSGIX");
-    _glfwWin.CreateContextWithConfigSGIX = (struct __GLXcontextRec * (*)(struct _XDisplay *, struct __GLXFBConfigRec *, signed int, struct __GLXcontextRec *, signed int))return_value__glfwPlatformGetProcAddress$9;
-    void *return_value__glfwPlatformGetProcAddress$10;
-    return_value__glfwPlatformGetProcAddress$10=_glfwPlatformGetProcAddress("glXGetVisualFromFBConfigSGIX");
-    _glfwWin.GetVisualFromFBConfigSGIX = (struct anonymous$41 * (*)(struct _XDisplay *, struct __GLXFBConfigRec *))return_value__glfwPlatformGetProcAddress$10;
-    if(!(_glfwWin.ChooseFBConfigSGIX == ((struct __GLXFBConfigRec ** (*)(struct _XDisplay *, signed int, signed int *, signed int *))NULL)) && !(_glfwWin.GetVisualFromFBConfigSGIX == ((struct anonymous$41 * (*)(struct _XDisplay *, struct __GLXFBConfigRec *))NULL)) && !(_glfwWin.CreateContextWithConfigSGIX == ((struct __GLXcontextRec * (*)(struct _XDisplay *, struct __GLXFBConfigRec *, signed int, struct __GLXcontextRec *, signed int))NULL)) && !(_glfwWin.GetFBConfigAttribSGIX == ((signed int (*)(struct _XDisplay *, struct __GLXFBConfigRec *, signed int, signed int *))NULL)))
+    void *return_value__glfwPlatformGetProcAddress_7;
+    return_value__glfwPlatformGetProcAddress_7=_glfwPlatformGetProcAddress("glXGetFBConfigAttribSGIX");
+    _glfwWin.GetFBConfigAttribSGIX = (signed int (*)(struct _XDisplay *, struct __GLXFBConfigRec *, signed int, signed int *))return_value__glfwPlatformGetProcAddress_7;
+    void *return_value__glfwPlatformGetProcAddress_8;
+    return_value__glfwPlatformGetProcAddress_8=_glfwPlatformGetProcAddress("glXChooseFBConfigSGIX");
+    _glfwWin.ChooseFBConfigSGIX = (struct __GLXFBConfigRec ** (*)(struct _XDisplay *, signed int, signed int *, signed int *))return_value__glfwPlatformGetProcAddress_8;
+    void *return_value__glfwPlatformGetProcAddress_9;
+    return_value__glfwPlatformGetProcAddress_9=_glfwPlatformGetProcAddress("glXCreateContextWithConfigSGIX");
+    _glfwWin.CreateContextWithConfigSGIX = (struct __GLXcontextRec * (*)(struct _XDisplay *, struct __GLXFBConfigRec *, signed int, struct __GLXcontextRec *, signed int))return_value__glfwPlatformGetProcAddress_9;
+    void *return_value__glfwPlatformGetProcAddress_10;
+    return_value__glfwPlatformGetProcAddress_10=_glfwPlatformGetProcAddress("glXGetVisualFromFBConfigSGIX");
+    _glfwWin.GetVisualFromFBConfigSGIX = (struct anonymous_41 * (*)(struct _XDisplay *, struct __GLXFBConfigRec *))return_value__glfwPlatformGetProcAddress_10;
+    if(!(_glfwWin.ChooseFBConfigSGIX == ((struct __GLXFBConfigRec ** (*)(struct _XDisplay *, signed int, signed int *, signed int *))NULL)) && !(_glfwWin.GetVisualFromFBConfigSGIX == ((struct anonymous_41 * (*)(struct _XDisplay *, struct __GLXFBConfigRec *))NULL)) && !(_glfwWin.CreateContextWithConfigSGIX == ((struct __GLXcontextRec * (*)(struct _XDisplay *, struct __GLXFBConfigRec *, signed int, struct __GLXcontextRec *, signed int))NULL)) && !(_glfwWin.GetFBConfigAttribSGIX == ((signed int (*)(struct _XDisplay *, struct __GLXFBConfigRec *, signed int, signed int *))NULL)))
       _glfwWin.has_GLX_SGIX_fbconfig = (unsigned char)1;
 
   }
 
-  signed int return_value__glfwPlatformExtensionSupported$12;
-  return_value__glfwPlatformExtensionSupported$12=_glfwPlatformExtensionSupported("GLX_ARB_multisample");
-  if(!(return_value__glfwPlatformExtensionSupported$12 == 0))
+  signed int return_value__glfwPlatformExtensionSupported_12;
+  return_value__glfwPlatformExtensionSupported_12=_glfwPlatformExtensionSupported("GLX_ARB_multisample");
+  if(!(return_value__glfwPlatformExtensionSupported_12 == 0))
     _glfwWin.has_GLX_ARB_multisample = (unsigned char)1;
 
-  signed int return_value__glfwPlatformExtensionSupported$14;
-  return_value__glfwPlatformExtensionSupported$14=_glfwPlatformExtensionSupported("GLX_ARB_create_context");
-  if(!(return_value__glfwPlatformExtensionSupported$14 == 0))
+  signed int return_value__glfwPlatformExtensionSupported_14;
+  return_value__glfwPlatformExtensionSupported_14=_glfwPlatformExtensionSupported("GLX_ARB_create_context");
+  if(!(return_value__glfwPlatformExtensionSupported_14 == 0))
   {
-    void *return_value__glfwPlatformGetProcAddress$13;
-    return_value__glfwPlatformGetProcAddress$13=_glfwPlatformGetProcAddress("glXCreateContextAttribsARB");
-    _glfwWin.CreateContextAttribsARB = (struct __GLXcontextRec * (*)(struct _XDisplay *, struct __GLXFBConfigRec *, struct __GLXcontextRec *, signed int, const signed int *))return_value__glfwPlatformGetProcAddress$13;
+    void *return_value__glfwPlatformGetProcAddress_13;
+    return_value__glfwPlatformGetProcAddress_13=_glfwPlatformGetProcAddress("glXCreateContextAttribsARB");
+    _glfwWin.CreateContextAttribsARB = (struct __GLXcontextRec * (*)(struct _XDisplay *, struct __GLXFBConfigRec *, struct __GLXcontextRec *, signed int, const signed int *))return_value__glfwPlatformGetProcAddress_13;
     if(!(_glfwWin.CreateContextAttribsARB == ((struct __GLXcontextRec * (*)(struct _XDisplay *, struct __GLXFBConfigRec *, struct __GLXcontextRec *, signed int, const signed int *))NULL)))
       _glfwWin.has_GLX_ARB_create_context = (unsigned char)1;
 
   }
 
-  signed int return_value__glfwPlatformExtensionSupported$15;
-  return_value__glfwPlatformExtensionSupported$15=_glfwPlatformExtensionSupported("GLX_ARB_create_context_profile");
-  if(!(return_value__glfwPlatformExtensionSupported$15 == 0))
+  signed int return_value__glfwPlatformExtensionSupported_15;
+  return_value__glfwPlatformExtensionSupported_15=_glfwPlatformExtensionSupported("GLX_ARB_create_context_profile");
+  if(!(return_value__glfwPlatformExtensionSupported_15 == 0))
     _glfwWin.has_GLX_ARB_create_context_profile = (unsigned char)1;
 
 }
@@ -8983,11 +8983,11 @@ static void initLibraries(void)
 // file x11_init.c line 43
 static void initThreads(void)
 {
-  pthread_mutex_init(&_glfwThrd.CriticalSection, (const union anonymous$62 *)(void *)0);
+  pthread_mutex_init(&_glfwThrd.CriticalSection, (const union anonymous_62 *)(void *)0);
   _glfwThrd.NextID = 0;
-  signed int tmp_post$1 = _glfwThrd.NextID;
+  signed int tmp_post_1 = _glfwThrd.NextID;
   _glfwThrd.NextID = _glfwThrd.NextID + 1;
-  _glfwThrd.First.ID = tmp_post$1;
+  _glfwThrd.First.ID = tmp_post_1;
   _glfwThrd.First.Function = (void (*)(void *))(void *)0;
   _glfwThrd.First.Previous = (struct _GLFWthread_struct *)(void *)0;
   _glfwThrd.First.Next = (struct _GLFWthread_struct *)(void *)0;
@@ -8998,13 +8998,13 @@ static void initThreads(void)
 // file x11_window.c line 81
 static signed int isMapNotify(struct _XDisplay *d, union _XEvent *e, char *arg)
 {
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(e->type == 19)
-    tmp_if_expr$1 = e->xmap.window == (unsigned long int)arg ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_1 = e->xmap.window == (unsigned long int)arg ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$1 = (_Bool)0;
-  return (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (_Bool)0;
+  return (signed int)tmp_if_expr_1;
 }
 
 // leaveFullscreenMode
@@ -9043,17 +9043,17 @@ static void leaveFullscreenMode(void)
 signed int main(void)
 {
   memset((void *)joysticks, 0, sizeof(struct Joystick [16l]) /*512ul*/ );
-  signed int return_value_glfwInit$1;
-  return_value_glfwInit$1=glfwInit();
-  if(return_value_glfwInit$1 == 0)
+  signed int return_value_glfwInit_1;
+  return_value_glfwInit_1=glfwInit();
+  if(return_value_glfwInit_1 == 0)
   {
     fprintf(stderr, "Failed to initialize GLFW\n");
     exit(1);
   }
 
-  signed int return_value_glfwOpenWindow$2;
-  return_value_glfwOpenWindow$2=glfwOpenWindow(640, 480, 8, 8, 8, 0, 0, 0, 0x00010001);
-  if(return_value_glfwOpenWindow$2 == 0)
+  signed int return_value_glfwOpenWindow_2;
+  return_value_glfwOpenWindow_2=glfwOpenWindow(640, 480, 8, 8, 8, 0, 0, 0, 0x00010001);
+  if(return_value_glfwOpenWindow_2 == 0)
   {
     glfwTerminate();
     fprintf(stderr, "Failed to open GLFW window\n");
@@ -9062,11 +9062,11 @@ signed int main(void)
 
   glfwSetWindowSizeCallback(window_size_callback);
   glfwSwapInterval(1);
-  signed int return_value_glfwGetWindowParam$3;
+  signed int return_value_glfwGetWindowParam_3;
   do
   {
-    return_value_glfwGetWindowParam$3=glfwGetWindowParam(0x00020001);
-    if(return_value_glfwGetWindowParam$3 == 0)
+    return_value_glfwGetWindowParam_3=glfwGetWindowParam(0x00020001);
+    if(return_value_glfwGetWindowParam_3 == 0)
       break;
 
     glClear((unsigned int)0x00004000);
@@ -9085,13 +9085,13 @@ static void pollJoystickEvents(void)
 {
   struct js_event e;
   signed int i = 0;
-  signed long int return_value_read$1;
+  signed long int return_value_read_1;
   for( ; !(i >= 16); i = i + 1)
     if(!(_glfwJoy[(signed long int)i].Present == 0))
       do
       {
-        return_value_read$1=read(_glfwJoy[(signed long int)i].fd, (void *)&e, sizeof(struct js_event) /*8ul*/ );
-        if(!(return_value_read$1 >= 1l))
+        return_value_read_1=read(_glfwJoy[(signed long int)i].fd, (void *)&e, sizeof(struct js_event) /*8ul*/ );
+        if(!(return_value_read_1 >= 1l))
           break;
 
         e.type = e.type & (unsigned char)~0x80;
@@ -9119,28 +9119,28 @@ static unsigned char processSingleEvent(void)
 {
   union _XEvent event;
   XNextEvent(_glfwLibrary.display, &event);
-  signed int return_value_translateKey$1;
-  signed int return_value_XEventsQueued$3;
-  signed int return_value_translateKey$4;
+  signed int return_value_translateKey_1;
+  signed int return_value_XEventsQueued_3;
+  signed int return_value_translateKey_4;
   switch(event.type)
   {
     case 2:
     {
-      return_value_translateKey$1=translateKey((signed int)event.xkey.keycode);
-      _glfwInputKey(return_value_translateKey$1, 1);
+      return_value_translateKey_1=translateKey((signed int)event.xkey.keycode);
+      _glfwInputKey(return_value_translateKey_1, 1);
       if(!(_glfwWin.charCallback == ((void (*)(signed int, signed int))NULL)))
       {
-        signed int return_value_translateChar$2;
-        return_value_translateChar$2=translateChar(&event.xkey);
-        _glfwInputChar(return_value_translateChar$2, 1);
+        signed int return_value_translateChar_2;
+        return_value_translateChar_2=translateChar(&event.xkey);
+        _glfwInputChar(return_value_translateChar_2, 1);
       }
 
       break;
     }
     case 3:
     {
-      return_value_XEventsQueued$3=XEventsQueued(_glfwLibrary.display, 1);
-      if(!(return_value_XEventsQueued$3 == 0))
+      return_value_XEventsQueued_3=XEventsQueued(_glfwLibrary.display, 1);
+      if(!(return_value_XEventsQueued_3 == 0))
       {
         union _XEvent nextEvent;
         XPeekEvent(_glfwLibrary.display, &nextEvent);
@@ -9153,13 +9153,13 @@ static unsigned char processSingleEvent(void)
 
       }
 
-      return_value_translateKey$4=translateKey((signed int)event.xkey.keycode);
-      _glfwInputKey(return_value_translateKey$4, 0);
+      return_value_translateKey_4=translateKey((signed int)event.xkey.keycode);
+      _glfwInputKey(return_value_translateKey_4, 0);
       if(!(_glfwWin.charCallback == ((void (*)(signed int, signed int))NULL)))
       {
-        signed int return_value_translateChar$5;
-        return_value_translateChar$5=translateChar(&event.xkey);
-        _glfwInputChar(return_value_translateChar$5, 0);
+        signed int return_value_translateChar_5;
+        return_value_translateChar_5=translateChar(&event.xkey);
+        _glfwInputChar(return_value_translateChar_5, 0);
       }
 
       break;
@@ -9324,9 +9324,9 @@ static void refresh_joysticks(void)
   for( ; !((unsigned long int)i >= 16ul); i = i + 1)
   {
     struct Joystick *j = joysticks + (signed long int)i;
-    signed int return_value_glfwGetJoystickParam$3;
-    return_value_glfwGetJoystickParam$3=glfwGetJoystickParam(0 + i, 0x00050001);
-    if(!(return_value_glfwGetJoystickParam$3 == 0))
+    signed int return_value_glfwGetJoystickParam_3;
+    return_value_glfwGetJoystickParam_3=glfwGetJoystickParam(0 + i, 0x00050001);
+    if(!(return_value_glfwGetJoystickParam_3 == 0))
     {
       signed int axis_count;
       signed int button_count;
@@ -9334,9 +9334,9 @@ static void refresh_joysticks(void)
       if(!(axis_count == j->axis_count))
       {
         j->axis_count = axis_count;
-        void *return_value_realloc$1;
-        return_value_realloc$1=realloc((void *)j->axes, (unsigned long int)j->axis_count * sizeof(float) /*4ul*/ );
-        j->axes = (float *)return_value_realloc$1;
+        void *return_value_realloc_1;
+        return_value_realloc_1=realloc((void *)j->axes, (unsigned long int)j->axis_count * sizeof(float) /*4ul*/ );
+        j->axes = (float *)return_value_realloc_1;
       }
 
       glfwGetJoystickPos(0 + i, j->axes, j->axis_count);
@@ -9344,9 +9344,9 @@ static void refresh_joysticks(void)
       if(!(button_count == j->button_count))
       {
         j->button_count = button_count;
-        void *return_value_realloc$2;
-        return_value_realloc$2=realloc((void *)j->buttons, (unsigned long int)j->button_count);
-        j->buttons = (unsigned char *)return_value_realloc$2;
+        void *return_value_realloc_2;
+        return_value_realloc_2=realloc((void *)j->buttons, (unsigned long int)j->button_count);
+        j->buttons = (unsigned char *)return_value_realloc_2;
       }
 
       glfwGetJoystickButtons(0 + i, j->buttons, j->button_count);
@@ -9404,13 +9404,13 @@ static void terminateThreads(void)
 
 // translateChar
 // file x11_window.c line 372
-static signed int translateChar(struct anonymous$49 *event)
+static signed int translateChar(struct anonymous_49 *event)
 {
   unsigned long int keysym;
   XLookupString(event, (char *)(void *)0, 0, &keysym, (struct _XComposeStatus *)(void *)0);
-  signed long int return_value__glfwKeySym2Unicode$1;
-  return_value__glfwKeySym2Unicode$1=_glfwKeySym2Unicode(keysym);
-  return (signed int)return_value__glfwKeySym2Unicode$1;
+  signed long int return_value__glfwKeySym2Unicode_1;
+  return_value__glfwKeySym2Unicode_1=_glfwKeySym2Unicode(keysym);
+  return (signed int)return_value__glfwKeySym2Unicode_1;
 }
 
 // translateKey

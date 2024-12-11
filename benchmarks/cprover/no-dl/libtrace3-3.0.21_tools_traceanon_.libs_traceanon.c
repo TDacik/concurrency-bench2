@@ -1,106 +1,106 @@
-// #anon_enum$EMPTY=0$FULL=1
+// #anon_enum_EMPTY=0_FULL=1
 // file ior-thread.c line 69
-enum anonymous$0 { EMPTY=0, FULL=1 };
+enum anonymous_0 { EMPTY=0, FULL=1 };
 
-// #anon_enum$LZMA_CHECK_NONE=0$LZMA_CHECK_CRC32=1$LZMA_CHECK_CRC64=4$LZMA_CHECK_SHA256=10
+// #anon_enum_LZMA_CHECK_NONE=0_LZMA_CHECK_CRC32=1_LZMA_CHECK_CRC64=4_LZMA_CHECK_SHA256=10
 // file /usr/include/lzma/check.h line 27
-enum anonymous$12 { LZMA_CHECK_NONE=0, LZMA_CHECK_CRC32=1, LZMA_CHECK_CRC64=4, LZMA_CHECK_SHA256=10 };
+enum anonymous_12 { LZMA_CHECK_NONE=0, LZMA_CHECK_CRC32=1, LZMA_CHECK_CRC64=4, LZMA_CHECK_SHA256=10 };
 
-// #anon_enum$LZMA_OK=0$LZMA_STREAM_END=1$LZMA_NO_CHECK=2$LZMA_UNSUPPORTED_CHECK=3$LZMA_GET_CHECK=4$LZMA_MEM_ERROR=5$LZMA_MEMLIMIT_ERROR=6$LZMA_FORMAT_ERROR=7$LZMA_OPTIONS_ERROR=8$LZMA_DATA_ERROR=9$LZMA_BUF_ERROR=10$LZMA_PROG_ERROR=11
+// #anon_enum_LZMA_OK=0_LZMA_STREAM_END=1_LZMA_NO_CHECK=2_LZMA_UNSUPPORTED_CHECK=3_LZMA_GET_CHECK=4_LZMA_MEM_ERROR=5_LZMA_MEMLIMIT_ERROR=6_LZMA_FORMAT_ERROR=7_LZMA_OPTIONS_ERROR=8_LZMA_DATA_ERROR=9_LZMA_BUF_ERROR=10_LZMA_PROG_ERROR=11
 // file /usr/include/lzma/base.h line 57
-enum anonymous$10 { LZMA_OK=0, LZMA_STREAM_END=1, LZMA_NO_CHECK=2, LZMA_UNSUPPORTED_CHECK=3, LZMA_GET_CHECK=4, LZMA_MEM_ERROR=5, LZMA_MEMLIMIT_ERROR=6, LZMA_FORMAT_ERROR=7, LZMA_OPTIONS_ERROR=8, LZMA_DATA_ERROR=9, LZMA_BUF_ERROR=10, LZMA_PROG_ERROR=11 };
+enum anonymous_10 { LZMA_OK=0, LZMA_STREAM_END=1, LZMA_NO_CHECK=2, LZMA_UNSUPPORTED_CHECK=3, LZMA_GET_CHECK=4, LZMA_MEM_ERROR=5, LZMA_MEMLIMIT_ERROR=6, LZMA_FORMAT_ERROR=7, LZMA_OPTIONS_ERROR=8, LZMA_DATA_ERROR=9, LZMA_BUF_ERROR=10, LZMA_PROG_ERROR=11 };
 
-// #anon_enum$LZMA_RESERVED_ENUM=0
+// #anon_enum_LZMA_RESERVED_ENUM=0
 // file /usr/include/lzma/base.h line 44
-enum anonymous$8 { LZMA_RESERVED_ENUM=0 };
+enum anonymous_8 { LZMA_RESERVED_ENUM=0 };
 
-// #anon_enum$LZMA_RUN=0$LZMA_SYNC_FLUSH=1$LZMA_FULL_FLUSH=2$LZMA_FINISH=3
+// #anon_enum_LZMA_RUN=0_LZMA_SYNC_FLUSH=1_LZMA_FULL_FLUSH=2_LZMA_FINISH=3
 // file /usr/include/lzma/base.h line 250
-enum anonymous$11 { LZMA_RUN=0, LZMA_SYNC_FLUSH=1, LZMA_FULL_FLUSH=2, LZMA_FINISH=3 };
+enum anonymous_11 { LZMA_RUN=0, LZMA_SYNC_FLUSH=1, LZMA_FULL_FLUSH=2, LZMA_FINISH=3 };
 
-// #anon_enum$TRACE_CTRL_PACKET=112$TRACE_CTRL_EXTERNAL=101
+// #anon_enum_TRACE_CTRL_PACKET=112_TRACE_CTRL_EXTERNAL=101
 // file ../../lib/libtrace.h line 234
-enum anonymous$17 { TRACE_CTRL_PACKET=112, TRACE_CTRL_EXTERNAL=101 };
+enum anonymous_17 { TRACE_CTRL_PACKET=112, TRACE_CTRL_EXTERNAL=101 };
 
-// #anon_enum$TRACE_DIR_OUTGOING=0$TRACE_DIR_INCOMING=1$TRACE_DIR_OTHER=2$TRACE_DIR_UNKNOWN=-1
+// #anon_enum_TRACE_DIR_OUTGOING=0_TRACE_DIR_INCOMING=1_TRACE_DIR_OTHER=2_TRACE_DIR_UNKNOWN=-1
 // file libtrace.h line 519
-enum anonymous$20 { TRACE_DIR_OUTGOING=0, TRACE_DIR_INCOMING=1, TRACE_DIR_OTHER=2, TRACE_DIR_UNKNOWN=-1 };
+enum anonymous_20 { TRACE_DIR_OUTGOING=0, TRACE_DIR_INCOMING=1, TRACE_DIR_OTHER=2, TRACE_DIR_UNKNOWN=-1 };
 
-// #anon_enum$TRACE_DLT_ERROR=-1$TRACE_DLT_NULL=0$TRACE_DLT_EN10MB=1$TRACE_DLT_PPP=9$TRACE_DLT_ATM_RFC1483=11$TRACE_DLT_RAW=12$TRACE_DLT_OPENBSD_LOOP=108$TRACE_DLT_PPP_SERIAL=50$TRACE_DLT_LINKTYPE_RAW=101$TRACE_DLT_C_HDLC=104$TRACE_DLT_IEEE802_11=105$TRACE_DLT_LINUX_SLL=113$TRACE_DLT_PFLOG=117$TRACE_DLT_IEEE802_11_RADIO=127
+// #anon_enum_TRACE_DLT_ERROR=-1_TRACE_DLT_NULL=0_TRACE_DLT_EN10MB=1_TRACE_DLT_PPP=9_TRACE_DLT_ATM_RFC1483=11_TRACE_DLT_RAW=12_TRACE_DLT_OPENBSD_LOOP=108_TRACE_DLT_PPP_SERIAL=50_TRACE_DLT_LINKTYPE_RAW=101_TRACE_DLT_C_HDLC=104_TRACE_DLT_IEEE802_11=105_TRACE_DLT_LINUX_SLL=113_TRACE_DLT_PFLOG=117_TRACE_DLT_IEEE802_11_RADIO=127
 // file libtrace.h line 278
-enum anonymous$24 { TRACE_DLT_ERROR=-1, TRACE_DLT_NULL=0, TRACE_DLT_EN10MB=1, TRACE_DLT_PPP=9, TRACE_DLT_ATM_RFC1483=11, TRACE_DLT_RAW=12, TRACE_DLT_OPENBSD_LOOP=108, TRACE_DLT_PPP_SERIAL=50, TRACE_DLT_LINKTYPE_RAW=101, TRACE_DLT_C_HDLC=104, TRACE_DLT_IEEE802_11=105, TRACE_DLT_LINUX_SLL=113, TRACE_DLT_PFLOG=117, TRACE_DLT_IEEE802_11_RADIO=127 };
+enum anonymous_24 { TRACE_DLT_ERROR=-1, TRACE_DLT_NULL=0, TRACE_DLT_EN10MB=1, TRACE_DLT_PPP=9, TRACE_DLT_ATM_RFC1483=11, TRACE_DLT_RAW=12, TRACE_DLT_OPENBSD_LOOP=108, TRACE_DLT_PPP_SERIAL=50, TRACE_DLT_LINKTYPE_RAW=101, TRACE_DLT_C_HDLC=104, TRACE_DLT_IEEE802_11=105, TRACE_DLT_LINUX_SLL=113, TRACE_DLT_PFLOG=117, TRACE_DLT_IEEE802_11_RADIO=127 };
 
-// #anon_enum$TRACE_EVENT_IOWAIT=0$TRACE_EVENT_SLEEP=1$TRACE_EVENT_PACKET=2$TRACE_EVENT_TERMINATE=3
+// #anon_enum_TRACE_EVENT_IOWAIT=0_TRACE_EVENT_SLEEP=1_TRACE_EVENT_PACKET=2_TRACE_EVENT_TERMINATE=3
 // file libtrace.h line 1442
-enum anonymous$16 { TRACE_EVENT_IOWAIT=0, TRACE_EVENT_SLEEP=1, TRACE_EVENT_PACKET=2, TRACE_EVENT_TERMINATE=3 };
+enum anonymous_16 { TRACE_EVENT_IOWAIT=0, TRACE_EVENT_SLEEP=1, TRACE_EVENT_PACKET=2, TRACE_EVENT_TERMINATE=3 };
 
-// #anon_enum$TRACE_OPTION_COMPRESSTYPE_NONE=0$TRACE_OPTION_COMPRESSTYPE_ZLIB=1$TRACE_OPTION_COMPRESSTYPE_BZ2=2$TRACE_OPTION_COMPRESSTYPE_LZO=3$TRACE_OPTION_COMPRESSTYPE_LZMA=4$TRACE_OPTION_COMPRESSTYPE_LAST=5
+// #anon_enum_TRACE_OPTION_COMPRESSTYPE_NONE=0_TRACE_OPTION_COMPRESSTYPE_ZLIB=1_TRACE_OPTION_COMPRESSTYPE_BZ2=2_TRACE_OPTION_COMPRESSTYPE_LZO=3_TRACE_OPTION_COMPRESSTYPE_LZMA=4_TRACE_OPTION_COMPRESSTYPE_LAST=5
 // file ../../lib/libtrace.h line 1236
-enum anonymous$22 { TRACE_OPTION_COMPRESSTYPE_NONE=0, TRACE_OPTION_COMPRESSTYPE_ZLIB=1, TRACE_OPTION_COMPRESSTYPE_BZ2=2, TRACE_OPTION_COMPRESSTYPE_LZO=3, TRACE_OPTION_COMPRESSTYPE_LZMA=4, TRACE_OPTION_COMPRESSTYPE_LAST=5 };
+enum anonymous_22 { TRACE_OPTION_COMPRESSTYPE_NONE=0, TRACE_OPTION_COMPRESSTYPE_ZLIB=1, TRACE_OPTION_COMPRESSTYPE_BZ2=2, TRACE_OPTION_COMPRESSTYPE_LZO=3, TRACE_OPTION_COMPRESSTYPE_LZMA=4, TRACE_OPTION_COMPRESSTYPE_LAST=5 };
 
-// #anon_enum$TRACE_OPTION_OUTPUT_FILEFLAGS=0$TRACE_OPTION_OUTPUT_COMPRESS=1$TRACE_OPTION_OUTPUT_COMPRESSTYPE=2
+// #anon_enum_TRACE_OPTION_OUTPUT_FILEFLAGS=0_TRACE_OPTION_OUTPUT_COMPRESS=1_TRACE_OPTION_OUTPUT_COMPRESSTYPE=2
 // file ../../lib/libtrace.h line 1246
-enum anonymous$14 { TRACE_OPTION_OUTPUT_FILEFLAGS=0, TRACE_OPTION_OUTPUT_COMPRESS=1, TRACE_OPTION_OUTPUT_COMPRESSTYPE=2 };
+enum anonymous_14 { TRACE_OPTION_OUTPUT_FILEFLAGS=0, TRACE_OPTION_OUTPUT_COMPRESS=1, TRACE_OPTION_OUTPUT_COMPRESSTYPE=2 };
 
-// #anon_enum$TRACE_OPTION_SNAPLEN=0$TRACE_OPTION_PROMISC=1$TRACE_OPTION_FILTER=2$TRACE_OPTION_META_FREQ=3$TRACE_OPTION_EVENT_REALTIME=4
+// #anon_enum_TRACE_OPTION_SNAPLEN=0_TRACE_OPTION_PROMISC=1_TRACE_OPTION_FILTER=2_TRACE_OPTION_META_FREQ=3_TRACE_OPTION_EVENT_REALTIME=4
 // file libtrace.h line 1204
-enum anonymous$13 { TRACE_OPTION_SNAPLEN=0, TRACE_OPTION_PROMISC=1, TRACE_OPTION_FILTER=2, TRACE_OPTION_META_FREQ=3, TRACE_OPTION_EVENT_REALTIME=4 };
+enum anonymous_13 { TRACE_OPTION_SNAPLEN=0, TRACE_OPTION_PROMISC=1, TRACE_OPTION_FILTER=2, TRACE_OPTION_META_FREQ=3, TRACE_OPTION_EVENT_REALTIME=4 };
 
-// #anon_enum$TRACE_RT_HELLO=1$TRACE_RT_START=2$TRACE_RT_ACK=3$TRACE_RT_STATUS=4$TRACE_RT_DUCK=5$TRACE_RT_END_DATA=6$TRACE_RT_CLOSE=7$TRACE_RT_DENY_CONN=8$TRACE_RT_PAUSE=9$TRACE_RT_PAUSE_ACK=10$TRACE_RT_OPTION=11$TRACE_RT_KEYCHANGE=12$TRACE_RT_DUCK_2_4=13$TRACE_RT_DUCK_2_5=14$TRACE_RT_LOSTCONN=15$TRACE_RT_SERVERSTART=16$TRACE_RT_CLIENTDROP=17$TRACE_RT_METADATA=18$TRACE_RT_DATA_SIMPLE=1000$TRACE_RT_DATA_ERF=1001$TRACE_RT_DATA_WAG=1004$TRACE_RT_DATA_LEGACY_ATM=1006$TRACE_RT_DATA_LEGACY_POS=1007$TRACE_RT_DATA_LEGACY_ETH=1008$TRACE_RT_DATA_LINUX_NATIVE=1009$TRACE_RT_DATA_TSH=1012$TRACE_RT_DATA_ATMHDR=1013$TRACE_RT_DATA_LEGACY_NZIX=1014$TRACE_RT_DATA_LINUX_RING=1015$TRACE_RT_DATA_DPDK=1017$TRACE_RT_DATA_DLT=2000$TRACE_RT_DLT_NULL=2000$TRACE_RT_DLT_EN10MB=2001$TRACE_RT_DLT_IEEE802_11=2105$TRACE_RT_DLT_LINUX_SLL=2113$TRACE_RT_DLT_PFLOG=2117$TRACE_RT_DLT_ATM_RFC1483=2011$TRACE_RT_DATA_DLT_END=2999$TRACE_RT_DATA_BPF=3000$TRACE_RT_BPF_NULL=3000$TRACE_RT_BPF_EN10MB=3001$TRACE_RT_BPF_IEEE802_11=3105$TRACE_RT_BPF_PFLOG=3117$TRACE_RT_BPF_ATM_RFC1483=3011$TRACE_RT_DATA_BPF_END=3999$TRACE_RT_LAST=4000
+// #anon_enum_TRACE_RT_HELLO=1_TRACE_RT_START=2_TRACE_RT_ACK=3_TRACE_RT_STATUS=4_TRACE_RT_DUCK=5_TRACE_RT_END_DATA=6_TRACE_RT_CLOSE=7_TRACE_RT_DENY_CONN=8_TRACE_RT_PAUSE=9_TRACE_RT_PAUSE_ACK=10_TRACE_RT_OPTION=11_TRACE_RT_KEYCHANGE=12_TRACE_RT_DUCK_2_4=13_TRACE_RT_DUCK_2_5=14_TRACE_RT_LOSTCONN=15_TRACE_RT_SERVERSTART=16_TRACE_RT_CLIENTDROP=17_TRACE_RT_METADATA=18_TRACE_RT_DATA_SIMPLE=1000_TRACE_RT_DATA_ERF=1001_TRACE_RT_DATA_WAG=1004_TRACE_RT_DATA_LEGACY_ATM=1006_TRACE_RT_DATA_LEGACY_POS=1007_TRACE_RT_DATA_LEGACY_ETH=1008_TRACE_RT_DATA_LINUX_NATIVE=1009_TRACE_RT_DATA_TSH=1012_TRACE_RT_DATA_ATMHDR=1013_TRACE_RT_DATA_LEGACY_NZIX=1014_TRACE_RT_DATA_LINUX_RING=1015_TRACE_RT_DATA_DPDK=1017_TRACE_RT_DATA_DLT=2000_TRACE_RT_DLT_NULL=2000_TRACE_RT_DLT_EN10MB=2001_TRACE_RT_DLT_IEEE802_11=2105_TRACE_RT_DLT_LINUX_SLL=2113_TRACE_RT_DLT_PFLOG=2117_TRACE_RT_DLT_ATM_RFC1483=2011_TRACE_RT_DATA_DLT_END=2999_TRACE_RT_DATA_BPF=3000_TRACE_RT_BPF_NULL=3000_TRACE_RT_BPF_EN10MB=3001_TRACE_RT_BPF_IEEE802_11=3105_TRACE_RT_BPF_PFLOG=3117_TRACE_RT_BPF_ATM_RFC1483=3011_TRACE_RT_DATA_BPF_END=3999_TRACE_RT_LAST=4000
 // file ../../lib/libtrace.h line 362
-enum anonymous$21 { TRACE_RT_HELLO=1, TRACE_RT_START=2, TRACE_RT_ACK=3, TRACE_RT_STATUS=4, TRACE_RT_DUCK=5, TRACE_RT_END_DATA=6, TRACE_RT_CLOSE=7, TRACE_RT_DENY_CONN=8, TRACE_RT_PAUSE=9, TRACE_RT_PAUSE_ACK=10, TRACE_RT_OPTION=11, TRACE_RT_KEYCHANGE=12, TRACE_RT_DUCK_2_4=13, TRACE_RT_DUCK_2_5=14, TRACE_RT_LOSTCONN=15, TRACE_RT_SERVERSTART=16, TRACE_RT_CLIENTDROP=17, TRACE_RT_METADATA=18, TRACE_RT_DATA_SIMPLE=1000, TRACE_RT_DATA_ERF=1001, TRACE_RT_DATA_WAG=1004, TRACE_RT_DATA_LEGACY_ATM=1006, TRACE_RT_DATA_LEGACY_POS=1007, TRACE_RT_DATA_LEGACY_ETH=1008, TRACE_RT_DATA_LINUX_NATIVE=1009, TRACE_RT_DATA_TSH=1012, TRACE_RT_DATA_ATMHDR=1013, TRACE_RT_DATA_LEGACY_NZIX=1014, TRACE_RT_DATA_LINUX_RING=1015, TRACE_RT_DATA_DPDK=1017, TRACE_RT_DATA_DLT=2000, TRACE_RT_DLT_NULL=2000, TRACE_RT_DLT_EN10MB=2001, TRACE_RT_DLT_IEEE802_11=2105, TRACE_RT_DLT_LINUX_SLL=2113, TRACE_RT_DLT_PFLOG=2117, TRACE_RT_DLT_ATM_RFC1483=2011, TRACE_RT_DATA_DLT_END=2999, TRACE_RT_DATA_BPF=3000, TRACE_RT_BPF_NULL=3000, TRACE_RT_BPF_EN10MB=3001, TRACE_RT_BPF_IEEE802_11=3105, TRACE_RT_BPF_PFLOG=3117, TRACE_RT_BPF_ATM_RFC1483=3011, TRACE_RT_DATA_BPF_END=3999, TRACE_RT_LAST=4000 };
+enum anonymous_21 { TRACE_RT_HELLO=1, TRACE_RT_START=2, TRACE_RT_ACK=3, TRACE_RT_STATUS=4, TRACE_RT_DUCK=5, TRACE_RT_END_DATA=6, TRACE_RT_CLOSE=7, TRACE_RT_DENY_CONN=8, TRACE_RT_PAUSE=9, TRACE_RT_PAUSE_ACK=10, TRACE_RT_OPTION=11, TRACE_RT_KEYCHANGE=12, TRACE_RT_DUCK_2_4=13, TRACE_RT_DUCK_2_5=14, TRACE_RT_LOSTCONN=15, TRACE_RT_SERVERSTART=16, TRACE_RT_CLIENTDROP=17, TRACE_RT_METADATA=18, TRACE_RT_DATA_SIMPLE=1000, TRACE_RT_DATA_ERF=1001, TRACE_RT_DATA_WAG=1004, TRACE_RT_DATA_LEGACY_ATM=1006, TRACE_RT_DATA_LEGACY_POS=1007, TRACE_RT_DATA_LEGACY_ETH=1008, TRACE_RT_DATA_LINUX_NATIVE=1009, TRACE_RT_DATA_TSH=1012, TRACE_RT_DATA_ATMHDR=1013, TRACE_RT_DATA_LEGACY_NZIX=1014, TRACE_RT_DATA_LINUX_RING=1015, TRACE_RT_DATA_DPDK=1017, TRACE_RT_DATA_DLT=2000, TRACE_RT_DLT_NULL=2000, TRACE_RT_DLT_EN10MB=2001, TRACE_RT_DLT_IEEE802_11=2105, TRACE_RT_DLT_LINUX_SLL=2113, TRACE_RT_DLT_PFLOG=2117, TRACE_RT_DLT_ATM_RFC1483=2011, TRACE_RT_DATA_DLT_END=2999, TRACE_RT_DATA_BPF=3000, TRACE_RT_BPF_NULL=3000, TRACE_RT_BPF_EN10MB=3001, TRACE_RT_BPF_IEEE802_11=3105, TRACE_RT_BPF_PFLOG=3117, TRACE_RT_BPF_ATM_RFC1483=3011, TRACE_RT_DATA_BPF_END=3999, TRACE_RT_LAST=4000 };
 
-// #anon_enum$TRACE_TYPE_UNKNOWN=-1$TRACE_TYPE_HDLC_POS=1$TRACE_TYPE_ETH=2$TRACE_TYPE_ATM=3$TRACE_TYPE_80211=4$TRACE_TYPE_NONE=5$TRACE_TYPE_LINUX_SLL=6$TRACE_TYPE_PFLOG=7$TRACE_TYPE_POS=9$TRACE_TYPE_80211_PRISM=12$TRACE_TYPE_AAL5=13$TRACE_TYPE_DUCK=14$TRACE_TYPE_80211_RADIO=15$TRACE_TYPE_LLCSNAP=16$TRACE_TYPE_PPP=17$TRACE_TYPE_METADATA=18$TRACE_TYPE_NONDATA=19$TRACE_TYPE_OPENBSD_LOOP=20
+// #anon_enum_TRACE_TYPE_UNKNOWN=-1_TRACE_TYPE_HDLC_POS=1_TRACE_TYPE_ETH=2_TRACE_TYPE_ATM=3_TRACE_TYPE_80211=4_TRACE_TYPE_NONE=5_TRACE_TYPE_LINUX_SLL=6_TRACE_TYPE_PFLOG=7_TRACE_TYPE_POS=9_TRACE_TYPE_80211_PRISM=12_TRACE_TYPE_AAL5=13_TRACE_TYPE_DUCK=14_TRACE_TYPE_80211_RADIO=15_TRACE_TYPE_LLCSNAP=16_TRACE_TYPE_PPP=17_TRACE_TYPE_METADATA=18_TRACE_TYPE_NONDATA=19_TRACE_TYPE_OPENBSD_LOOP=20
 // file ../../lib/libtrace.h line 312
-enum anonymous$18 { TRACE_TYPE_UNKNOWN=-1, TRACE_TYPE_HDLC_POS=1, TRACE_TYPE_ETH=2, TRACE_TYPE_ATM=3, TRACE_TYPE_80211=4, TRACE_TYPE_NONE=5, TRACE_TYPE_LINUX_SLL=6, TRACE_TYPE_PFLOG=7, TRACE_TYPE_POS=9, TRACE_TYPE_80211_PRISM=12, TRACE_TYPE_AAL5=13, TRACE_TYPE_DUCK=14, TRACE_TYPE_80211_RADIO=15, TRACE_TYPE_LLCSNAP=16, TRACE_TYPE_PPP=17, TRACE_TYPE_METADATA=18, TRACE_TYPE_NONDATA=19, TRACE_TYPE_OPENBSD_LOOP=20 };
+enum anonymous_18 { TRACE_TYPE_UNKNOWN=-1, TRACE_TYPE_HDLC_POS=1, TRACE_TYPE_ETH=2, TRACE_TYPE_ATM=3, TRACE_TYPE_80211=4, TRACE_TYPE_NONE=5, TRACE_TYPE_LINUX_SLL=6, TRACE_TYPE_PFLOG=7, TRACE_TYPE_POS=9, TRACE_TYPE_80211_PRISM=12, TRACE_TYPE_AAL5=13, TRACE_TYPE_DUCK=14, TRACE_TYPE_80211_RADIO=15, TRACE_TYPE_LLCSNAP=16, TRACE_TYPE_PPP=17, TRACE_TYPE_METADATA=18, TRACE_TYPE_NONDATA=19, TRACE_TYPE_OPENBSD_LOOP=20 };
 
-// tag-#anon#ST[*{*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$}$*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$$'alloc'||*{V(*{V}$V$|*{V}$V$)->V}$V(*{V}$V$|*{V}$V$)->V$'free'||*{V}$V$'opaque'|]
+// tag-#anon#ST[*{*{V}_V_(*{V}_V_|U64|U64)->*{V}_V_}_*{V}_V_(*{V}_V_|U64|U64)->*{V}_V__'alloc'||*{V(*{V}_V_|*{V}_V_)->V}_V(*{V}_V_|*{V}_V_)->V_'free'||*{V}_V_'opaque'|]
 // file /usr/include/lzma/base.h line 349
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[*{S8}$S8$'next_in'||U32'avail_in'||U32'total_in_lo32'||U32'total_in_hi32'||U32'$pad0'||*{S8}$S8$'next_out'||U32'avail_out'||U32'total_out_lo32'||U32'total_out_hi32'||U32'$pad1'||*{V}$V$'state'||*{*{V}$V$(*{V}$V$|S32|S32)->*{V}$V$}$*{V}$V$(*{V}$V$|S32|S32)->*{V}$V$$'bzalloc'||*{V(*{V}$V$|*{V}$V$)->V}$V(*{V}$V$|*{V}$V$)->V$'bzfree'||*{V}$V$'opaque'|]
+// tag-#anon#ST[*{S8}_S8_'next_in'||U32'avail_in'||U32'total_in_lo32'||U32'total_in_hi32'||U32'_pad0'||*{S8}_S8_'next_out'||U32'avail_out'||U32'total_out_lo32'||U32'total_out_hi32'||U32'_pad1'||*{V}_V_'state'||*{*{V}_V_(*{V}_V_|S32|S32)->*{V}_V_}_*{V}_V_(*{V}_V_|S32|S32)->*{V}_V__'bzalloc'||*{V(*{V}_V_|*{V}_V_)->V}_V(*{V}_V_|*{V}_V_)->V_'bzfree'||*{V}_V_'opaque'|]
 // file /usr/include/bzlib.h line 49
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[*{cS8}$cS8$'name'||*{S64(*{SYM#tag-io_t#}$SYM#tag-io_t#$|*{V}$V$|S64)->S64}$S64(*{SYM#tag-io_t#}$SYM#tag-io_t#$|*{V}$V$|S64)->S64$'read'||*{S64(*{SYM#tag-io_t#}$SYM#tag-io_t#$|*{V}$V$|S64)->S64}$S64(*{SYM#tag-io_t#}$SYM#tag-io_t#$|*{V}$V$|S64)->S64$'peek'||*{S64(*{SYM#tag-io_t#}$SYM#tag-io_t#$)->S64}$S64(*{SYM#tag-io_t#}$SYM#tag-io_t#$)->S64$'tell'||*{S64(*{SYM#tag-io_t#}$SYM#tag-io_t#$|S64|S32)->S64}$S64(*{SYM#tag-io_t#}$SYM#tag-io_t#$|S64|S32)->S64$'seek'||*{V(*{SYM#tag-io_t#}$SYM#tag-io_t#$)->V}$V(*{SYM#tag-io_t#}$SYM#tag-io_t#$)->V$'close'|]
+// tag-#anon#ST[*{cS8}_cS8_'name'||*{S64(*{SYM#tag-io_t#}_SYM#tag-io_t#_|*{V}_V_|S64)->S64}_S64(*{SYM#tag-io_t#}_SYM#tag-io_t#_|*{V}_V_|S64)->S64_'read'||*{S64(*{SYM#tag-io_t#}_SYM#tag-io_t#_|*{V}_V_|S64)->S64}_S64(*{SYM#tag-io_t#}_SYM#tag-io_t#_|*{V}_V_|S64)->S64_'peek'||*{S64(*{SYM#tag-io_t#}_SYM#tag-io_t#_)->S64}_S64(*{SYM#tag-io_t#}_SYM#tag-io_t#_)->S64_'tell'||*{S64(*{SYM#tag-io_t#}_SYM#tag-io_t#_|S64|S32)->S64}_S64(*{SYM#tag-io_t#}_SYM#tag-io_t#_|S64|S32)->S64_'seek'||*{V(*{SYM#tag-io_t#}_SYM#tag-io_t#_)->V}_V(*{SYM#tag-io_t#}_SYM#tag-io_t#_)->V_'close'|]
 // file ../libwandio/wandio.h line 82
-struct anonymous$19;
+struct anonymous_19;
 
-// tag-#anon#ST[*{cS8}$cS8$'name'||*{S64(*{SYM#tag-iow_t#}$SYM#tag-iow_t#$|*{cS8}$cS8$|S64)->S64}$S64(*{SYM#tag-iow_t#}$SYM#tag-iow_t#$|*{cS8}$cS8$|S64)->S64$'write'||*{V(*{SYM#tag-iow_t#}$SYM#tag-iow_t#$)->V}$V(*{SYM#tag-iow_t#}$SYM#tag-iow_t#$)->V$'close'|]
+// tag-#anon#ST[*{cS8}_cS8_'name'||*{S64(*{SYM#tag-iow_t#}_SYM#tag-iow_t#_|*{cS8}_cS8_|S64)->S64}_S64(*{SYM#tag-iow_t#}_SYM#tag-iow_t#_|*{cS8}_cS8_|S64)->S64_'write'||*{V(*{SYM#tag-iow_t#}_SYM#tag-iow_t#_)->V}_V(*{SYM#tag-iow_t#}_SYM#tag-iow_t#_)->V_'close'|]
 // file wandio.h line 134
 struct anonymous;
 
-// tag-#anon#ST[*{cU8}$cU8$'next_in'||U64'avail_in'||U64'total_in'||*{U8}$U8$'next_out'||U64'avail_out'||U64'total_out'||*{SYM#tag-#anon#ST[*{*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$}$*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$$'alloc'||*{V(*{V}$V$|*{V}$V$)->V}$V(*{V}$V$|*{V}$V$)->V$'free'||*{V}$V$'opaque'|]#}$SYM#tag-#anon#ST[*{*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$}$*{V}$V$(*{V}$V$|U64|U64)->*{V}$V$$'alloc'||*{V(*{V}$V$|*{V}$V$)->V}$V(*{V}$V$|*{V}$V$)->V$'free'||*{V}$V$'opaque'|]#$'allocator'||*{SYM#tag-lzma_internal_s#}$SYM#tag-lzma_internal_s#$'internal'||*{V}$V$'reserved_ptr1'||*{V}$V$'reserved_ptr2'||*{V}$V$'reserved_ptr3'||*{V}$V$'reserved_ptr4'||U64'reserved_int1'||U64'reserved_int2'||U64'reserved_int3'||U64'reserved_int4'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum1'||EN#anon_enum$LZMA_RESERVED_ENUM=0#{U32}$U32$'reserved_enum2'|]
+// tag-#anon#ST[*{cU8}_cU8_'next_in'||U64'avail_in'||U64'total_in'||*{U8}_U8_'next_out'||U64'avail_out'||U64'total_out'||*{SYM#tag-#anon#ST[*{*{V}_V_(*{V}_V_|U64|U64)->*{V}_V_}_*{V}_V_(*{V}_V_|U64|U64)->*{V}_V__'alloc'||*{V(*{V}_V_|*{V}_V_)->V}_V(*{V}_V_|*{V}_V_)->V_'free'||*{V}_V_'opaque'|]#}_SYM#tag-#anon#ST[*{*{V}_V_(*{V}_V_|U64|U64)->*{V}_V_}_*{V}_V_(*{V}_V_|U64|U64)->*{V}_V__'alloc'||*{V(*{V}_V_|*{V}_V_)->V}_V(*{V}_V_|*{V}_V_)->V_'free'||*{V}_V_'opaque'|]#_'allocator'||*{SYM#tag-lzma_internal_s#}_SYM#tag-lzma_internal_s#_'internal'||*{V}_V_'reserved_ptr1'||*{V}_V_'reserved_ptr2'||*{V}_V_'reserved_ptr3'||*{V}_V_'reserved_ptr4'||U64'reserved_int1'||U64'reserved_int2'||U64'reserved_int3'||U64'reserved_int4'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum1'||EN#anon_enum_LZMA_RESERVED_ENUM=0#{U32}_U32_'reserved_enum2'|]
 // file /usr/include/lzma/base.h line 461
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$1;
+struct anonymous_1;
 
 // tag-#anon#ST[U16'id'||U16'sequence'|]
 // file ../../lib/libtrace.h line 669
-struct anonymous$5;
+struct anonymous_5;
 
 // tag-#anon#ST[U16'unused'||U16'mtu'|]
 // file ../../lib/libtrace.h line 675
-struct anonymous$6;
+struct anonymous_6;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$15;
+union anonymous_15;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$2;
+union anonymous_2;
 
 // tag-#anon#UN[SYM#tag-#anon#ST[U16'id'||U16'sequence'|]#'echo'||U32'gateway'||SYM#tag-#anon#ST[U16'unused'||U16'mtu'|]#'frag'|]
 // file ../../lib/libtrace.h line 667
-union anonymous$23;
+union anonymous_23;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$3;
+union anonymous_3;
 
 // tag-Direction_e
 // file rijndael.h line 90
@@ -268,9 +268,9 @@ union pthread_attr_t;
 
 // tag-state_t
 // file ior-thread.c line 72
-struct state_t$0;
+struct state_t_0;
 
-// tag-state_t$link1
+// tag-state_t_link1
 // file iow-thread.c line 72
 struct state_t;
 
@@ -322,22 +322,22 @@ struct zlibw_t;
 
 // BZ2_bzCompress
 // file /usr/include/bzlib.h line 107
-extern signed int BZ2_bzCompress(struct anonymous$4 *, signed int);
+extern signed int BZ2_bzCompress(struct anonymous_4 *, signed int);
 // BZ2_bzCompressEnd
 // file /usr/include/bzlib.h line 112
-extern signed int BZ2_bzCompressEnd(struct anonymous$4 *);
+extern signed int BZ2_bzCompressEnd(struct anonymous_4 *);
 // BZ2_bzCompressInit
 // file /usr/include/bzlib.h line 100
-extern signed int BZ2_bzCompressInit(struct anonymous$4 *, signed int, signed int, signed int);
+extern signed int BZ2_bzCompressInit(struct anonymous_4 *, signed int, signed int, signed int);
 // BZ2_bzDecompress
 // file /usr/include/bzlib.h line 122
-extern signed int BZ2_bzDecompress(struct anonymous$4 *);
+extern signed int BZ2_bzDecompress(struct anonymous_4 *);
 // BZ2_bzDecompressEnd
 // file /usr/include/bzlib.h line 126
-extern signed int BZ2_bzDecompressEnd(struct anonymous$4 *);
+extern signed int BZ2_bzDecompressEnd(struct anonymous_4 *);
 // BZ2_bzDecompressInit
 // file /usr/include/bzlib.h line 116
-extern signed int BZ2_bzDecompressInit(struct anonymous$4 *, signed int, signed int);
+extern signed int BZ2_bzDecompressInit(struct anonymous_4 *, signed int, signed int);
 // __assert_fail
 // file /usr/include/assert.h line 69
 extern void __assert_fail(const char *, const char *, unsigned int, const char *);
@@ -511,10 +511,10 @@ void keySched(unsigned char (*key)[4l]);
 void legacy_constructor(void);
 // libtrace_to_pcap_dlt
 // file libtrace_int.h line 785
-enum anonymous$24 libtrace_to_pcap_dlt(enum anonymous$18);
+enum anonymous_24 libtrace_to_pcap_dlt(enum anonymous_18);
 // libtrace_to_pcap_linktype
 // file libtrace_int.h line 777
-enum anonymous$24 libtrace_to_pcap_linktype(enum anonymous$18);
+enum anonymous_24 libtrace_to_pcap_linktype(enum anonymous_18);
 // linuxnative_constructor
 // file libtrace_int.h line 944
 void linuxnative_constructor(void);
@@ -526,19 +526,19 @@ static unsigned int lookup_cache(unsigned int orig_addr);
 extern signed long int lseek(signed int, signed long int, signed int);
 // lzma_auto_decoder
 // file /usr/include/lzma/container.h line 361
-extern enum anonymous$10 lzma_auto_decoder(struct anonymous$9 *, unsigned long int, unsigned int);
+extern enum anonymous_10 lzma_auto_decoder(struct anonymous_9 *, unsigned long int, unsigned int);
 // lzma_close
 // file ior-lzma.c line 149
 static void lzma_close(struct io_t *io);
 // lzma_code
 // file /usr/include/lzma/base.h line 537
-extern enum anonymous$10 lzma_code(struct anonymous$9 *, enum anonymous$11);
+extern enum anonymous_10 lzma_code(struct anonymous_9 *, enum anonymous_11);
 // lzma_easy_encoder
 // file /usr/include/lzma/container.h line 133
-extern enum anonymous$10 lzma_easy_encoder(struct anonymous$9 *, unsigned int, enum anonymous$12);
+extern enum anonymous_10 lzma_easy_encoder(struct anonymous_9 *, unsigned int, enum anonymous_12);
 // lzma_end
 // file /usr/include/lzma/base.h line 554
-extern void lzma_end(struct anonymous$9 *);
+extern void lzma_end(struct anonymous_9 *);
 // lzma_open
 // file wandio.h line 197
 struct io_t * lzma_open(struct io_t *parent);
@@ -604,7 +604,7 @@ void pcap_freecode(struct bpf_program *);
 char * pcap_geterr(struct pcap *);
 // pcap_linktype_to_rt
 // file libtrace_int.h line 769
-enum anonymous$21 pcap_linktype_to_rt(enum anonymous$24);
+enum anonymous_21 pcap_linktype_to_rt(enum anonymous_24);
 // pcap_open_dead
 // file /usr/include/pcap/pcap.h line 350
 struct pcap * pcap_open_dead(signed int, signed int);
@@ -649,16 +649,16 @@ static unsigned int prefix_substitute(unsigned int ip);
 extern signed int printf(const char *, ...);
 // pthread_cond_destroy
 // file /usr/include/pthread.h line 975
-extern signed int pthread_cond_destroy(union anonymous$2 *);
+extern signed int pthread_cond_destroy(union anonymous_2 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$2 *, const union anonymous$15 *);
+extern signed int pthread_cond_init(union anonymous_2 *, const union anonymous_15 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$2 *);
+extern signed int pthread_cond_signal(union anonymous_2 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$2 *, union anonymous$3 *);
+extern signed int pthread_cond_wait(union anonymous_2 *, union anonymous_3 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -667,16 +667,16 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_destroy
 // file /usr/include/pthread.h line 756
-extern signed int pthread_mutex_destroy(union anonymous$3 *);
+extern signed int pthread_mutex_destroy(union anonymous_3 *);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$3 *, const union anonymous$15 *);
+extern signed int pthread_mutex_init(union anonymous_3 *, const union anonymous_15 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$3 *);
+extern signed int pthread_mutex_lock(union anonymous_3 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$3 *);
+extern signed int pthread_mutex_unlock(union anonymous_3 *);
 // r_decrypt
 // file rijndael.c line 1596
 void r_decrypt(const unsigned char *a, unsigned char *b);
@@ -796,19 +796,19 @@ static signed long int thread_wwrite(struct iow_t *state, const char *buffer, si
 signed int trace_apply_filter(struct libtrace_filter_t *filter, const struct libtrace_packet_t *packet);
 // trace_bpf_compile
 // file trace.c line 1204
-static signed int trace_bpf_compile(struct libtrace_filter_t *filter, const struct libtrace_packet_t *packet, void *linkptr, enum anonymous$18 linktype);
+static signed int trace_bpf_compile(struct libtrace_filter_t *filter, const struct libtrace_packet_t *packet, void *linkptr, enum anonymous_18 linktype);
 // trace_clear_cache
 // file trace.c line 1838
 void trace_clear_cache(struct libtrace_packet_t *packet);
 // trace_config
 // file trace.c line 498
-signed int trace_config(struct libtrace_t *libtrace, enum anonymous$13 option, void *value);
+signed int trace_config(struct libtrace_t *libtrace, enum anonymous_13 option, void *value);
 // trace_config_output
 // file ../../lib/libtrace.h line 1265
-signed int trace_config_output(struct libtrace_out_t *libtrace, enum anonymous$14 option, void *value);
+signed int trace_config_output(struct libtrace_out_t *libtrace, enum anonymous_14 option, void *value);
 // trace_construct_packet
 // file trace.c line 1749
-void trace_construct_packet(struct libtrace_packet_t *packet, enum anonymous$18 linktype, const void *data, unsigned short int len);
+void trace_construct_packet(struct libtrace_packet_t *packet, enum anonymous_18 linktype, const void *data, unsigned short int len);
 // trace_copy_packet
 // file trace.c line 645
 struct libtrace_packet_t * trace_copy_packet(const struct libtrace_packet_t *packet);
@@ -862,7 +862,7 @@ unsigned long int trace_get_accepted_packets(struct libtrace_t *trace);
 unsigned long int trace_get_capture_length(const struct libtrace_packet_t *packet);
 // trace_get_direction
 // file trace.c line 1372
-enum anonymous$20 trace_get_direction(const struct libtrace_packet_t *packet);
+enum anonymous_20 trace_get_direction(const struct libtrace_packet_t *packet);
 // trace_get_dropped_packets
 // file trace.c line 1823
 unsigned long int trace_get_dropped_packets(struct libtrace_t *trace);
@@ -895,10 +895,10 @@ struct libtrace_ip * trace_get_ip(struct libtrace_packet_t *);
 void * trace_get_link(const struct libtrace_packet_t *packet);
 // trace_get_link_type
 // file trace.c line 1080
-enum anonymous$18 trace_get_link_type(const struct libtrace_packet_t *packet);
+enum anonymous_18 trace_get_link_type(const struct libtrace_packet_t *packet);
 // trace_get_packet_buffer
 // file trace.c line 832
-void * trace_get_packet_buffer(const struct libtrace_packet_t *packet, enum anonymous$18 *linktype, unsigned int *remaining);
+void * trace_get_packet_buffer(const struct libtrace_packet_t *packet, enum anonymous_18 *linktype, unsigned int *remaining);
 // trace_get_received_packets
 // file trace.c line 1804
 unsigned long int trace_get_received_packets(struct libtrace_t *trace);
@@ -958,7 +958,7 @@ void trace_perror(struct libtrace_t *trace, const char *msg, ...);
 void trace_perror_output(struct libtrace_out_t *trace, const char *msg, ...);
 // trace_prepare_packet
 // file trace.c line 777
-signed int trace_prepare_packet(struct libtrace_t *trace, struct libtrace_packet_t *packet, void *buffer, enum anonymous$21 rt_type, unsigned int flags);
+signed int trace_prepare_packet(struct libtrace_t *trace, struct libtrace_packet_t *packet, void *buffer, enum anonymous_21 rt_type, unsigned int flags);
 // trace_read_packet
 // file ../../lib/libtrace.h line 1437
 signed int trace_read_packet(struct libtrace_t *libtrace, struct libtrace_packet_t *packet);
@@ -976,7 +976,7 @@ signed int trace_seek_timeval(struct libtrace_t *trace, struct timeval tv);
 unsigned long int trace_set_capture_length(struct libtrace_packet_t *packet, unsigned long int size);
 // trace_set_direction
 // file trace.c line 1354
-enum anonymous$20 trace_set_direction(struct libtrace_packet_t *packet, enum anonymous$20 direction);
+enum anonymous_20 trace_set_direction(struct libtrace_packet_t *packet, enum anonymous_20 direction);
 // trace_set_err
 // file libtrace_int.h line 221
 void trace_set_err(struct libtrace_t *, signed int, const char *, ...);
@@ -1071,7 +1071,7 @@ struct iow_t * zlib_wopen(struct iow_t *child, signed int compress_level);
 // file iow-zlib.c line 98
 static signed long int zlib_wwrite(struct iow_t *iow, const char *buffer, signed long int len);
 
-struct anonymous$7
+struct anonymous_7
 {
   // alloc
   void * (*alloc)(void *, unsigned long int, unsigned long int);
@@ -1081,7 +1081,7 @@ struct anonymous$7
   void *opaque;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // next_in
   char *next_in;
@@ -1109,7 +1109,7 @@ struct anonymous$4
   void *opaque;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // name
   const char *name;
@@ -1135,7 +1135,7 @@ struct anonymous
   void (*close)(struct iow_t *);
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // next_in
   const unsigned char *next_in;
@@ -1150,7 +1150,7 @@ struct anonymous$9
   // total_out
   unsigned long int total_out;
   // allocator
-  struct anonymous$7 *allocator;
+  struct anonymous_7 *allocator;
   // internal
   struct lzma_internal_s *internal;
   // reserved_ptr1
@@ -1170,12 +1170,12 @@ struct anonymous$9
   // reserved_int4
   unsigned long int reserved_int4;
   // reserved_enum1
-  enum anonymous$8 reserved_enum1;
+  enum anonymous_8 reserved_enum1;
   // reserved_enum2
-  enum anonymous$8 reserved_enum2;
+  enum anonymous_8 reserved_enum2;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // __lock
   signed int __lock;
@@ -1195,7 +1195,7 @@ struct anonymous$1
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // id
   unsigned short int id;
@@ -1203,7 +1203,7 @@ struct anonymous$5
   unsigned short int sequence;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // unused
   unsigned short int unused;
@@ -1211,7 +1211,7 @@ struct anonymous$6
   unsigned short int mtu;
 };
 
-union anonymous$15
+union anonymous_15
 {
   // __size
   char __size[4l];
@@ -1219,24 +1219,24 @@ union anonymous$15
   signed int __align;
 };
 
-union anonymous$2
+union anonymous_2
 {
   // __data
-  struct anonymous$1 __data;
+  struct anonymous_1 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-union anonymous$23
+union anonymous_23
 {
   // echo
-  struct anonymous$5 echo;
+  struct anonymous_5 echo;
   // gateway
   unsigned int gateway;
   // frag
-  struct anonymous$6 frag;
+  struct anonymous_6 frag;
 };
 
 struct __pthread_internal_list
@@ -1267,7 +1267,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$3
+union anonymous_3
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -1376,13 +1376,13 @@ struct buffer_t
   // len
   signed int len;
   // state
-  enum anonymous$0 state;
+  enum anonymous_0 state;
 };
 
 struct bz_t
 {
   // strm
-  struct anonymous$4 strm;
+  struct anonymous_4 strm;
   // inbuff
   char inbuff[1048576l];
   // outoffset
@@ -1396,7 +1396,7 @@ struct bz_t
 struct bzw_t
 {
   // strm
-  struct anonymous$4 strm;
+  struct anonymous_4 strm;
   // outbuff
   char outbuff[1048576l];
   // inoffset
@@ -1422,7 +1422,7 @@ struct internal_state
 struct io_t
 {
   // source
-  struct anonymous$19 *source;
+  struct anonymous_19 *source;
   // data
   void *data;
 };
@@ -1460,7 +1460,7 @@ struct libtrace_event_status_t
 struct libtrace_eventobj_t
 {
   // type
-  enum anonymous$16 type;
+  enum anonymous_16 type;
   // fd
   signed int fd;
   // seconds
@@ -1496,7 +1496,7 @@ struct libtrace_format_t
   // init_input
   signed int (*init_input)(struct libtrace_t *);
   // config_input
-  signed int (*config_input)(struct libtrace_t *, enum anonymous$13, void *);
+  signed int (*config_input)(struct libtrace_t *, enum anonymous_13, void *);
   // start_input
   signed int (*start_input)(struct libtrace_t *);
   // pause_input
@@ -1504,7 +1504,7 @@ struct libtrace_format_t
   // init_output
   signed int (*init_output)(struct libtrace_out_t *);
   // config_output
-  signed int (*config_output)(struct libtrace_out_t *, enum anonymous$14, void *);
+  signed int (*config_output)(struct libtrace_out_t *, enum anonymous_14, void *);
   // start_output
   signed int (*start_output)(struct libtrace_out_t *);
   // fin_input
@@ -1514,17 +1514,17 @@ struct libtrace_format_t
   // read_packet
   signed int (*read_packet)(struct libtrace_t *, struct libtrace_packet_t *);
   // prepare_packet
-  signed int (*prepare_packet)(struct libtrace_t *, struct libtrace_packet_t *, void *, enum anonymous$21, unsigned int);
+  signed int (*prepare_packet)(struct libtrace_t *, struct libtrace_packet_t *, void *, enum anonymous_21, unsigned int);
   // fin_packet
   void (*fin_packet)(struct libtrace_packet_t *);
   // write_packet
   signed int (*write_packet)(struct libtrace_out_t *, struct libtrace_packet_t *);
   // get_link_type
-  enum anonymous$18 (*get_link_type)(const struct libtrace_packet_t *);
+  enum anonymous_18 (*get_link_type)(const struct libtrace_packet_t *);
   // get_direction
-  enum anonymous$20 (*get_direction)(const struct libtrace_packet_t *);
+  enum anonymous_20 (*get_direction)(const struct libtrace_packet_t *);
   // set_direction
-  enum anonymous$20 (*set_direction)(struct libtrace_packet_t *, enum anonymous$20);
+  enum anonymous_20 (*set_direction)(struct libtrace_packet_t *, enum anonymous_20);
   // get_erf_timestamp
   unsigned long int (*get_erf_timestamp)(const struct libtrace_packet_t *);
   // get_timeval
@@ -1574,7 +1574,7 @@ struct libtrace_icmp
   // checksum
   unsigned short int checksum;
   // un
-  union anonymous$23 un;
+  union anonymous_23 un;
 } __attribute__ ((__packed__));
 
 struct libtrace_ip
@@ -1636,9 +1636,9 @@ struct libtrace_packet_t
   // buffer
   void *buffer;
   // type
-  enum anonymous$21 type;
+  enum anonymous_21 type;
   // buf_control
-  enum anonymous$17 buf_control;
+  enum anonymous_17 buf_control;
   // capture_length
   signed int capture_length;
   // wire_length
@@ -1648,7 +1648,7 @@ struct libtrace_packet_t
   // l2_header
   void *l2_header;
   // link_type
-  enum anonymous$18 link_type;
+  enum anonymous_18 link_type;
   // l2_remaining
   unsigned int l2_remaining;
   // l3_header
@@ -1760,7 +1760,7 @@ struct lzma_t
   // inbuff
   unsigned char inbuff[1048576l];
   // strm
-  struct anonymous$9 strm;
+  struct anonymous_9 strm;
   // parent
   struct io_t *parent;
   // outoffset
@@ -1772,7 +1772,7 @@ struct lzma_t
 struct lzmaw_t
 {
   // strm
-  struct anonymous$9 strm;
+  struct anonymous_9 strm;
   // outbuff
   unsigned char outbuff[1048576l];
   // child
@@ -1815,7 +1815,7 @@ union pthread_attr_t
   signed long int __align;
 };
 
-struct state_t$0
+struct state_t_0
 {
   // buffer
   struct buffer_t *buffer;
@@ -1826,11 +1826,11 @@ struct state_t$0
   // producer
   unsigned long int producer;
   // space_avail
-  union anonymous$2 space_avail;
+  union anonymous_2 space_avail;
   // data_ready
-  union anonymous$2 data_ready;
+  union anonymous_2 data_ready;
   // mutex
-  union anonymous$3 mutex;
+  union anonymous_3 mutex;
   // io
   struct io_t *io;
   // closing
@@ -1848,11 +1848,11 @@ struct state_t
   // iow
   struct iow_t *iow;
   // data_ready
-  union anonymous$2 data_ready;
+  union anonymous_2 data_ready;
   // space_avail
-  union anonymous$2 space_avail;
+  union anonymous_2 space_avail;
   // mutex
-  union anonymous$3 mutex;
+  union anonymous_3 mutex;
   // out_buffer
   signed int out_buffer;
   // closing
@@ -5074,10 +5074,10 @@ static unsigned char U4[256l][4l] = { { (unsigned char)0x00, (unsigned char)0x00
     { (unsigned char)0x46, (unsigned char)0x97, (unsigned char)0xa3, (unsigned char)0x8d } };
 // bz_source
 // file ior-bzip.c line 152
-struct anonymous$19 bz_source;
+struct anonymous_19 bz_source;
 // bz_source
 // file ior-bzip.c line 152
-struct anonymous$19 bz_source = { .name="bzip", .read=bz_read, .peek=(signed long int (*)(struct io_t *, void *, signed long int))(void *)0, .tell=(signed long int (*)(struct io_t *))(void *)0,
+struct anonymous_19 bz_source = { .name="bzip", .read=bz_read, .peek=(signed long int (*)(struct io_t *, void *, signed long int))(void *)0, .tell=(signed long int (*)(struct io_t *))(void *)0,
     .seek=(signed long int (*)(struct io_t *, signed long int, signed int))(void *)0,
     .close=bz_close };
 // bz_wsource
@@ -5119,10 +5119,10 @@ signed int keep_stats = 0;
 signed int libtrace_halt = 0;
 // lzma_source
 // file ior-lzma.c line 157
-struct anonymous$19 lzma_source;
+struct anonymous_19 lzma_source;
 // lzma_source
 // file ior-lzma.c line 157
-struct anonymous$19 lzma_source = { .name="lzma", .read=lzma_read, .peek=(signed long int (*)(struct io_t *, void *, signed long int))(void *)0, .tell=(signed long int (*)(struct io_t *))(void *)0,
+struct anonymous_19 lzma_source = { .name="lzma", .read=lzma_read, .peek=(signed long int (*)(struct io_t *, void *, signed long int))(void *)0, .tell=(signed long int (*)(struct io_t *))(void *)0,
     .seek=(signed long int (*)(struct io_t *, signed long int, signed int))(void *)0,
     .close=lzma_close };
 // lzma_wsource
@@ -5172,10 +5172,10 @@ extern char *optarg;
 extern signed int optind;
 // peek_source
 // file ior-peek.c line 314
-struct anonymous$19 peek_source;
+struct anonymous_19 peek_source;
 // peek_source
 // file ior-peek.c line 314
-struct anonymous$19 peek_source = { .name="peek", .read=peek_read, .peek=peek_peek, .tell=peek_tell,
+struct anonymous_19 peek_source = { .name="peek", .read=peek_read, .peek=peek_peek, .tell=peek_tell,
     .seek=peek_seek, .close=peek_close };
 // prefix
 // file ipenc.c line 33
@@ -5191,10 +5191,10 @@ unsigned long int read_waits = (unsigned long int)0;
 extern struct _IO_FILE *stderr;
 // stdio_source
 // file ior-stdio.c line 102
-struct anonymous$19 stdio_source;
+struct anonymous_19 stdio_source;
 // stdio_source
 // file ior-stdio.c line 102
-struct anonymous$19 stdio_source = { .name="stdio", .read=stdio_read, .peek=(signed long int (*)(struct io_t *, void *, signed long int))(void *)0, .tell=stdio_tell,
+struct anonymous_19 stdio_source = { .name="stdio", .read=stdio_read, .peek=(signed long int (*)(struct io_t *, void *, signed long int))(void *)0, .tell=stdio_tell,
     .seek=stdio_seek, .close=stdio_close };
 // stdio_wsource
 // file iow-stdio.c line 233
@@ -5204,10 +5204,10 @@ struct anonymous stdio_wsource;
 struct anonymous stdio_wsource = { .name="stdiow", .write=stdio_wwrite, .close=stdio_wclose };
 // thread_source
 // file ior-thread.c line 279
-struct anonymous$19 thread_source;
+struct anonymous_19 thread_source;
 // thread_source
 // file ior-thread.c line 279
-struct anonymous$19 thread_source = { .name="thread", .read=thread_read, .peek=(signed long int (*)(struct io_t *, void *, signed long int))(void *)0, .tell=(signed long int (*)(struct io_t *))(void *)0,
+struct anonymous_19 thread_source = { .name="thread", .read=thread_read, .peek=(signed long int (*)(struct io_t *, void *, signed long int))(void *)0, .tell=(signed long int (*)(struct io_t *))(void *)0,
     .seek=(signed long int (*)(struct io_t *, signed long int, signed int))(void *)0,
     .close=thread_close };
 // thread_wsource
@@ -5227,10 +5227,10 @@ unsigned int use_threads = (unsigned int)-1;
 unsigned long int write_waits = (unsigned long int)0;
 // zlib_source
 // file ior-zlib.c line 164
-struct anonymous$19 zlib_source;
+struct anonymous_19 zlib_source;
 // zlib_source
 // file ior-zlib.c line 164
-struct anonymous$19 zlib_source = { .name="zlib", .read=zlib_read, .peek=(signed long int (*)(struct io_t *, void *, signed long int))(void *)0, .tell=(signed long int (*)(struct io_t *))(void *)0,
+struct anonymous_19 zlib_source = { .name="zlib", .read=zlib_read, .peek=(signed long int (*)(struct io_t *, void *, signed long int))(void *)0, .tell=(signed long int (*)(struct io_t *))(void *)0,
     .seek=(signed long int (*)(struct io_t *, signed long int, signed int))(void *)0,
     .close=zlib_close };
 // zlib_wsource
@@ -5532,9 +5532,9 @@ struct io_t * bz_open(struct io_t *parent)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct io_t) /*16ul*/ );
-    io = (struct io_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct io_t) /*16ul*/ );
+    io = (struct io_t *)return_value_malloc_1;
     io->source = &bz_source;
     io->data=malloc(sizeof(struct bz_t) /*1048680ul*/ );
     ((struct bz_t *)io->data)->parent = parent;
@@ -5562,9 +5562,9 @@ static signed long int bz_read(struct io_t *io, void *buffer, signed long int le
   {
     if((signed int)((struct bz_t *)io->data)->err == ERR_ERROR)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 5;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 5;
       return (signed long int)-1;
     }
 
@@ -5578,9 +5578,9 @@ static signed long int bz_read(struct io_t *io, void *buffer, signed long int le
       while(!(((struct bz_t *)io->data)->strm.avail_in >= 1u))
       {
         signed int bytes_read;
-        signed long int return_value_wandio_read$2;
-        return_value_wandio_read$2=wandio_read(((struct bz_t *)io->data)->parent, (void *)((struct bz_t *)io->data)->inbuff, (signed long int)sizeof(char [1048576l]) /*1048576ul*/ );
-        bytes_read = (signed int)return_value_wandio_read$2;
+        signed long int return_value_wandio_read_2;
+        return_value_wandio_read_2=wandio_read(((struct bz_t *)io->data)->parent, (void *)((struct bz_t *)io->data)->inbuff, (signed long int)sizeof(char [1048576l]) /*1048576ul*/ );
+        bytes_read = (signed int)return_value_wandio_read_2;
         if(bytes_read == 0)
           return len - (signed long int)((struct bz_t *)io->data)->strm.avail_out;
 
@@ -5612,9 +5612,9 @@ static signed long int bz_read(struct io_t *io, void *buffer, signed long int le
         }
         default:
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          *return_value___errno_location$3 = 5;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          *return_value___errno_location_3 = 5;
           ((struct bz_t *)io->data)->err = (enum err_t)ERR_ERROR;
         }
       }
@@ -5627,11 +5627,11 @@ static signed long int bz_read(struct io_t *io, void *buffer, signed long int le
 // file iow-bzip.c line 138
 static void bz_wclose(struct iow_t *iow)
 {
-  signed int return_value_BZ2_bzCompress$1;
+  signed int return_value_BZ2_bzCompress_1;
   do
   {
-    return_value_BZ2_bzCompress$1=BZ2_bzCompress(&((struct bzw_t *)iow->data)->strm, 2);
-    if(!(return_value_BZ2_bzCompress$1 == 0))
+    return_value_BZ2_bzCompress_1=BZ2_bzCompress(&((struct bzw_t *)iow->data)->strm, 2);
+    if(!(return_value_BZ2_bzCompress_1 == 0))
       break;
 
     wandio_wwrite(((struct bzw_t *)iow->data)->child, (const void *)((struct bzw_t *)iow->data)->outbuff, (signed long int)(sizeof(char [1048576l]) /*1048576ul*/  - (unsigned long int)((struct bzw_t *)iow->data)->strm.avail_out));
@@ -5656,9 +5656,9 @@ struct iow_t * bz_wopen(struct iow_t *child, signed int compress_level)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct iow_t) /*16ul*/ );
-    iow = (struct iow_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct iow_t) /*16ul*/ );
+    iow = (struct iow_t *)return_value_malloc_1;
     iow->source = &bz_wsource;
     iow->data=malloc(sizeof(struct bzw_t) /*1048680ul*/ );
     ((struct bzw_t *)iow->data)->child = child;
@@ -5698,9 +5698,9 @@ static signed long int bz_wwrite(struct iow_t *iow, const char *buffer, signed l
         while(!(((struct bzw_t *)iow->data)->strm.avail_out >= 1u))
         {
           signed int bytes_written;
-          signed long int return_value_wandio_wwrite$1;
-          return_value_wandio_wwrite$1=wandio_wwrite(((struct bzw_t *)iow->data)->child, (const void *)((struct bzw_t *)iow->data)->outbuff, (signed long int)sizeof(char [1048576l]) /*1048576ul*/ );
-          bytes_written = (signed int)return_value_wandio_wwrite$1;
+          signed long int return_value_wandio_wwrite_1;
+          return_value_wandio_wwrite_1=wandio_wwrite(((struct bzw_t *)iow->data)->child, (const void *)((struct bzw_t *)iow->data)->outbuff, (signed long int)sizeof(char [1048576l]) /*1048576ul*/ );
+          bytes_written = (signed int)return_value_wandio_wwrite_1;
           if(!(bytes_written >= 1))
           {
             ((struct bzw_t *)iow->data)->err = (enum err_t)ERR_ERROR;
@@ -5790,9 +5790,9 @@ unsigned int cpp_anonymize(const unsigned int orig_addr)
 
   memcpy((void *)rin_input, (const void *)m_pad, (unsigned long int)16);
   first4bytes_pad = ((unsigned int)m_pad[(signed long int)0] << 24) + ((unsigned int)m_pad[(signed long int)1] << 16) + ((unsigned int)m_pad[(signed long int)2] << 8) + (unsigned int)m_pad[(signed long int)3];
-  unsigned int return_value_lookup_cache$1;
-  return_value_lookup_cache$1=lookup_cache(orig_addr);
-  result = return_value_lookup_cache$1 << 32 - 20;
+  unsigned int return_value_lookup_cache_1;
+  return_value_lookup_cache_1=lookup_cache(orig_addr);
+  result = return_value_lookup_cache_1 << 32 - 20;
   pos = 20;
   for( ; !(pos >= 32); pos = pos + 1)
   {
@@ -5820,9 +5820,9 @@ unsigned int cpp_anonymize(const unsigned int orig_addr)
 static struct io_t * create_io_reader(const char *filename, signed int autodetect)
 {
   struct io_t *io;
-  struct io_t *return_value_stdio_open$1;
-  return_value_stdio_open$1=stdio_open(filename);
-  io=peek_open(return_value_stdio_open$1);
+  struct io_t *return_value_stdio_open_1;
+  return_value_stdio_open_1=stdio_open(filename);
+  io=peek_open(return_value_stdio_open_1);
   unsigned char buffer[1024l];
   signed int len;
   if(io == ((struct io_t *)NULL))
@@ -5830,9 +5830,9 @@ static struct io_t * create_io_reader(const char *filename, signed int autodetec
 
   else
   {
-    signed long int return_value_wandio_peek$2;
-    return_value_wandio_peek$2=wandio_peek(io, (void *)buffer, (signed long int)sizeof(unsigned char [1024l]) /*1024ul*/ );
-    len = (signed int)return_value_wandio_peek$2;
+    signed long int return_value_wandio_peek_2;
+    return_value_wandio_peek_2=wandio_peek(io, (void *)buffer, (signed long int)sizeof(unsigned char [1024l]) /*1024ul*/ );
+    len = (signed int)return_value_wandio_peek_2;
     if(!(autodetect == 0))
     {
       if(len >= 3)
@@ -5904,9 +5904,9 @@ static struct io_t * create_io_reader(const char *filename, signed int autodetec
     if(!(use_threads == 0u))
       io=thread_open(io);
 
-    struct io_t *return_value_peek_open$3;
-    return_value_peek_open$3=peek_open(io);
-    return return_value_peek_open$3;
+    struct io_t *return_value_peek_open_3;
+    return_value_peek_open_3=peek_open(io);
+    return return_value_peek_open_3;
   }
 }
 
@@ -5925,47 +5925,47 @@ static inline unsigned int decrypt_b_from_T(unsigned char ind1, unsigned char in
 // file wandio.c line 75
 static void do_option(const char *option)
 {
-  signed int return_value_strcmp$7;
-  signed int return_value_strcmp$6;
-  signed int return_value_strcmp$5;
-  signed int return_value_strncmp$4;
-  signed int return_value_atoi$1;
-  signed int return_value_strncmp$3;
-  signed int return_value_atoi$2;
+  signed int return_value_strcmp_7;
+  signed int return_value_strcmp_6;
+  signed int return_value_strcmp_5;
+  signed int return_value_strncmp_4;
+  signed int return_value_atoi_1;
+  signed int return_value_strncmp_3;
+  signed int return_value_atoi_2;
   if(!((signed int)*option == 0))
   {
-    return_value_strcmp$7=strcmp(option, "stats");
-    if(return_value_strcmp$7 == 0)
+    return_value_strcmp_7=strcmp(option, "stats");
+    if(return_value_strcmp_7 == 0)
       keep_stats = 1;
 
     else
     {
-      return_value_strcmp$6=strcmp(option, "nothreads");
-      if(return_value_strcmp$6 == 0)
+      return_value_strcmp_6=strcmp(option, "nothreads");
+      if(return_value_strcmp_6 == 0)
         use_threads = (unsigned int)0;
 
       else
       {
-        return_value_strcmp$5=strcmp(option, "noautodetect");
-        if(return_value_strcmp$5 == 0)
+        return_value_strcmp_5=strcmp(option, "noautodetect");
+        if(return_value_strcmp_5 == 0)
           use_autodetect = 0;
 
         else
         {
-          return_value_strncmp$4=strncmp(option, "threads=", (unsigned long int)8);
-          if(return_value_strncmp$4 == 0)
+          return_value_strncmp_4=strncmp(option, "threads=", (unsigned long int)8);
+          if(return_value_strncmp_4 == 0)
           {
-            return_value_atoi$1=atoi(option + (signed long int)8);
-            use_threads = (unsigned int)return_value_atoi$1;
+            return_value_atoi_1=atoi(option + (signed long int)8);
+            use_threads = (unsigned int)return_value_atoi_1;
           }
 
           else
           {
-            return_value_strncmp$3=strncmp(option, "buffers=", (unsigned long int)8);
-            if(return_value_strncmp$3 == 0)
+            return_value_strncmp_3=strncmp(option, "buffers=", (unsigned long int)8);
+            if(return_value_strncmp_3 == 0)
             {
-              return_value_atoi$2=atoi(option + (signed long int)8);
-              max_buffers = (unsigned int)return_value_atoi$2;
+              return_value_atoi_2=atoi(option + (signed long int)8);
+              max_buffers = (unsigned int)return_value_atoi_2;
             }
 
             else
@@ -6013,21 +6013,21 @@ void enc_init(enum enc_type_t type, char *key)
 // file ipenc.h line 12
 unsigned int enc_ip(unsigned int orig_addr)
 {
-  unsigned int return_value_prefix_substitute$1;
-  unsigned int return_value_cpp_anonymize$2;
+  unsigned int return_value_prefix_substitute_1;
+  unsigned int return_value_cpp_anonymize_2;
   switch((signed int)enc_type)
   {
     case ENC_NONE:
       return orig_addr;
     case ENC_PREFIX_SUBSTITUTION:
     {
-      return_value_prefix_substitute$1=prefix_substitute(orig_addr);
-      return return_value_prefix_substitute$1;
+      return_value_prefix_substitute_1=prefix_substitute(orig_addr);
+      return return_value_prefix_substitute_1;
     }
     case ENC_CRYPTOPAN:
     {
-      return_value_cpp_anonymize$2=cpp_anonymize(orig_addr);
-      return return_value_cpp_anonymize$2;
+      return_value_cpp_anonymize_2=cpp_anonymize(orig_addr);
+      return return_value_cpp_anonymize_2;
     }
     default:
     {
@@ -6063,11 +6063,11 @@ static void encrypt_ips(struct libtrace_ip *ip, _Bool enc_source, _Bool enc_dest
   {
     unsigned int old_ip = ip->ip_src.s_addr;
     unsigned int new_ip;
-    unsigned int return_value_htonl$1;
-    return_value_htonl$1=htonl(ip->ip_src.s_addr);
-    unsigned int return_value_enc_ip$2;
-    return_value_enc_ip$2=enc_ip(return_value_htonl$1);
-    new_ip=htonl(return_value_enc_ip$2);
+    unsigned int return_value_htonl_1;
+    return_value_htonl_1=htonl(ip->ip_src.s_addr);
+    unsigned int return_value_enc_ip_2;
+    return_value_enc_ip_2=enc_ip(return_value_htonl_1);
+    new_ip=htonl(return_value_enc_ip_2);
     update_in_cksum32(&ip->ip_sum, old_ip, new_ip);
     if(!(tcp == ((struct libtrace_tcp *)NULL)))
       update_in_cksum32(&tcp->check, old_ip, new_ip);
@@ -6080,38 +6080,38 @@ static void encrypt_ips(struct libtrace_ip *ip, _Bool enc_source, _Bool enc_dest
 
   if(!(enc_dest == (_Bool)0))
   {
-    unsigned int encrypt_ips$$1$$2$$old_ip = ip->ip_dst.s_addr;
-    unsigned int encrypt_ips$$1$$2$$new_ip;
-    unsigned int return_value_htonl$3;
-    return_value_htonl$3=htonl(ip->ip_dst.s_addr);
-    unsigned int return_value_enc_ip$4;
-    return_value_enc_ip$4=enc_ip(return_value_htonl$3);
-    encrypt_ips$$1$$2$$new_ip=htonl(return_value_enc_ip$4);
-    update_in_cksum32(&ip->ip_sum, encrypt_ips$$1$$2$$old_ip, encrypt_ips$$1$$2$$new_ip);
+    unsigned int encrypt_ips__1__2__old_ip = ip->ip_dst.s_addr;
+    unsigned int encrypt_ips__1__2__new_ip;
+    unsigned int return_value_htonl_3;
+    return_value_htonl_3=htonl(ip->ip_dst.s_addr);
+    unsigned int return_value_enc_ip_4;
+    return_value_enc_ip_4=enc_ip(return_value_htonl_3);
+    encrypt_ips__1__2__new_ip=htonl(return_value_enc_ip_4);
+    update_in_cksum32(&ip->ip_sum, encrypt_ips__1__2__old_ip, encrypt_ips__1__2__new_ip);
     if(!(tcp == ((struct libtrace_tcp *)NULL)))
-      update_in_cksum32(&tcp->check, encrypt_ips$$1$$2$$old_ip, encrypt_ips$$1$$2$$new_ip);
+      update_in_cksum32(&tcp->check, encrypt_ips__1__2__old_ip, encrypt_ips__1__2__new_ip);
 
     if(!(udp == ((struct libtrace_udp *)NULL)))
-      update_in_cksum32(&udp->check, encrypt_ips$$1$$2$$old_ip, encrypt_ips$$1$$2$$new_ip);
+      update_in_cksum32(&udp->check, encrypt_ips__1__2__old_ip, encrypt_ips__1__2__new_ip);
 
-    ip->ip_dst.s_addr = encrypt_ips$$1$$2$$new_ip;
+    ip->ip_dst.s_addr = encrypt_ips__1__2__new_ip;
   }
 
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
   if(!(icmp == ((struct libtrace_icmp *)NULL)))
   {
     if((signed int)icmp->type == 3)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = (signed int)icmp->type == 5 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_5 = (signed int)icmp->type == 5 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (signed int)icmp->type == 11 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$6)
+      tmp_if_expr_6 = (signed int)icmp->type == 11 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_6)
     {
       char *ptr = (char *)icmp;
       encrypt_ips((struct libtrace_ip *)(ptr + (signed long int)sizeof(struct libtrace_icmp) /*8ul*/ ), enc_dest, enc_source);
@@ -6231,16 +6231,16 @@ void keySched(unsigned char (*key)[4l])
     }
 
   }
-  signed int tmp_post$1;
+  signed int tmp_post_1;
   while((signed int)m_uRounds >= r)
   {
     tempKey[(signed long int)0][(signed long int)0] = tempKey[(signed long int)0][(signed long int)0] ^ S[(signed long int)tempKey[(signed long int)(uKeyColumns - 1)][(signed long int)1]];
     tempKey[(signed long int)0][(signed long int)1] = tempKey[(signed long int)0][(signed long int)1] ^ S[(signed long int)tempKey[(signed long int)(uKeyColumns - 1)][(signed long int)2]];
     tempKey[(signed long int)0][(signed long int)2] = tempKey[(signed long int)0][(signed long int)2] ^ S[(signed long int)tempKey[(signed long int)(uKeyColumns - 1)][(signed long int)3]];
     tempKey[(signed long int)0][(signed long int)3] = tempKey[(signed long int)0][(signed long int)3] ^ S[(signed long int)tempKey[(signed long int)(uKeyColumns - 1)][(signed long int)0]];
-    tmp_post$1 = rconpointer;
+    tmp_post_1 = rconpointer;
     rconpointer = rconpointer + 1;
-    tempKey[(signed long int)0][(signed long int)0] = tempKey[(signed long int)0][(signed long int)0] ^ (unsigned char)rcon[(signed long int)tmp_post$1];
+    tempKey[(signed long int)0][(signed long int)0] = tempKey[(signed long int)0][(signed long int)0] ^ (unsigned char)rcon[(signed long int)tmp_post_1];
     if(!(uKeyColumns == 8))
     {
       j = 1;
@@ -6310,17 +6310,17 @@ struct io_t * lzma_open(struct io_t *parent)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct io_t) /*16ul*/ );
-    io = (struct io_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct io_t) /*16ul*/ );
+    io = (struct io_t *)return_value_malloc_1;
     io->source = &lzma_source;
     io->data=malloc(sizeof(struct lzma_t) /*1048728ul*/ );
     ((struct lzma_t *)io->data)->parent = parent;
-    memset((void *)&((struct lzma_t *)io->data)->strm, 0, sizeof(struct anonymous$9) /*136ul*/ );
+    memset((void *)&((struct lzma_t *)io->data)->strm, 0, sizeof(struct anonymous_9) /*136ul*/ );
     ((struct lzma_t *)io->data)->err = (enum err_t)ERR_OK;
-    enum anonymous$10 return_value_lzma_auto_decoder$2;
-    return_value_lzma_auto_decoder$2=lzma_auto_decoder(&((struct lzma_t *)io->data)->strm, 18446744073709551615UL, (unsigned int)0);
-    if(!((signed int)return_value_lzma_auto_decoder$2 == LZMA_OK))
+    enum anonymous_10 return_value_lzma_auto_decoder_2;
+    return_value_lzma_auto_decoder_2=lzma_auto_decoder(&((struct lzma_t *)io->data)->strm, 18446744073709551615UL, (unsigned int)0);
+    if(!((signed int)return_value_lzma_auto_decoder_2 == LZMA_OK))
     {
       free(io->data);
       free((void *)io);
@@ -6344,9 +6344,9 @@ static signed long int lzma_read(struct io_t *io, void *buffer, signed long int 
   {
     if((signed int)((struct lzma_t *)io->data)->err == ERR_ERROR)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 5;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 5;
       return (signed long int)-1;
     }
 
@@ -6360,9 +6360,9 @@ static signed long int lzma_read(struct io_t *io, void *buffer, signed long int 
       while(!(((struct lzma_t *)io->data)->strm.avail_in >= 1ul))
       {
         signed int bytes_read;
-        signed long int return_value_wandio_read$2;
-        return_value_wandio_read$2=wandio_read(((struct lzma_t *)io->data)->parent, (void *)(char *)((struct lzma_t *)io->data)->inbuff, (signed long int)sizeof(unsigned char [1048576l]) /*1048576ul*/ );
-        bytes_read = (signed int)return_value_wandio_read$2;
+        signed long int return_value_wandio_read_2;
+        return_value_wandio_read_2=wandio_read(((struct lzma_t *)io->data)->parent, (void *)(char *)((struct lzma_t *)io->data)->inbuff, (signed long int)sizeof(unsigned char [1048576l]) /*1048576ul*/ );
+        bytes_read = (signed int)return_value_wandio_read_2;
         if(bytes_read == 0)
         {
           if(((struct lzma_t *)io->data)->strm.avail_out == (unsigned long int)(unsigned int)len)
@@ -6386,8 +6386,8 @@ static signed long int lzma_read(struct io_t *io, void *buffer, signed long int 
         ((struct lzma_t *)io->data)->strm.next_in = ((struct lzma_t *)io->data)->inbuff;
         ((struct lzma_t *)io->data)->strm.avail_in = (unsigned long int)bytes_read;
       }
-      enum anonymous$10 err;
-      err=lzma_code(&((struct lzma_t *)io->data)->strm, (enum anonymous$11)LZMA_RUN);
+      enum anonymous_10 err;
+      err=lzma_code(&((struct lzma_t *)io->data)->strm, (enum anonymous_11)LZMA_RUN);
       switch((signed int)err)
       {
         case LZMA_OK:
@@ -6402,9 +6402,9 @@ static signed long int lzma_read(struct io_t *io, void *buffer, signed long int 
         }
         default:
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          *return_value___errno_location$3 = 5;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          *return_value___errno_location_3 = 5;
           ((struct lzma_t *)io->data)->err = (enum err_t)ERR_ERROR;
         }
       }
@@ -6417,10 +6417,10 @@ static signed long int lzma_read(struct io_t *io, void *buffer, signed long int 
 // file iow-lzma.c line 137
 static void lzma_wclose(struct iow_t *iow)
 {
-  enum anonymous$10 res;
+  enum anonymous_10 res;
   for( ; (_Bool)1; ((struct lzmaw_t *)iow->data)->strm.avail_out = sizeof(unsigned char [1048576l]) /*1048576ul*/ )
   {
-    res=lzma_code(&((struct lzmaw_t *)iow->data)->strm, (enum anonymous$11)LZMA_FINISH);
+    res=lzma_code(&((struct lzmaw_t *)iow->data)->strm, (enum anonymous_11)LZMA_FINISH);
     if((signed int)res == LZMA_STREAM_END)
       break;
 
@@ -6450,19 +6450,19 @@ struct iow_t * lzma_wopen(struct iow_t *child, signed int compress_level)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct iow_t) /*16ul*/ );
-    iow = (struct iow_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct iow_t) /*16ul*/ );
+    iow = (struct iow_t *)return_value_malloc_1;
     iow->source = &lzma_wsource;
     iow->data=malloc(sizeof(struct lzmaw_t) /*1048728ul*/ );
     ((struct lzmaw_t *)iow->data)->child = child;
-    memset((void *)&((struct lzmaw_t *)iow->data)->strm, 0, sizeof(struct anonymous$9) /*136ul*/ );
+    memset((void *)&((struct lzmaw_t *)iow->data)->strm, 0, sizeof(struct anonymous_9) /*136ul*/ );
     ((struct lzmaw_t *)iow->data)->strm.next_out = ((struct lzmaw_t *)iow->data)->outbuff;
     ((struct lzmaw_t *)iow->data)->strm.avail_out = sizeof(unsigned char [1048576l]) /*1048576ul*/ ;
     ((struct lzmaw_t *)iow->data)->err = (enum err_t)ERR_OK;
-    enum anonymous$10 return_value_lzma_easy_encoder$2;
-    return_value_lzma_easy_encoder$2=lzma_easy_encoder(&((struct lzmaw_t *)iow->data)->strm, (unsigned int)compress_level, (enum anonymous$12)LZMA_CHECK_CRC64);
-    if(!((signed int)return_value_lzma_easy_encoder$2 == LZMA_OK))
+    enum anonymous_10 return_value_lzma_easy_encoder_2;
+    return_value_lzma_easy_encoder_2=lzma_easy_encoder(&((struct lzmaw_t *)iow->data)->strm, (unsigned int)compress_level, (enum anonymous_12)LZMA_CHECK_CRC64);
+    if(!((signed int)return_value_lzma_easy_encoder_2 == LZMA_OK))
     {
       free(iow->data);
       free((void *)iow);
@@ -6497,9 +6497,9 @@ static signed long int lzma_wwrite(struct iow_t *iow, const char *buffer, signed
         while(!(((struct lzmaw_t *)iow->data)->strm.avail_out >= 1ul))
         {
           signed int bytes_written;
-          signed long int return_value_wandio_wwrite$1;
-          return_value_wandio_wwrite$1=wandio_wwrite(((struct lzmaw_t *)iow->data)->child, (const void *)((struct lzmaw_t *)iow->data)->outbuff, (signed long int)sizeof(unsigned char [1048576l]) /*1048576ul*/ );
-          bytes_written = (signed int)return_value_wandio_wwrite$1;
+          signed long int return_value_wandio_wwrite_1;
+          return_value_wandio_wwrite_1=wandio_wwrite(((struct lzmaw_t *)iow->data)->child, (const void *)((struct lzmaw_t *)iow->data)->outbuff, (signed long int)sizeof(unsigned char [1048576l]) /*1048576ul*/ );
+          bytes_written = (signed int)return_value_wandio_wwrite_1;
           if(!(bytes_written >= 1))
           {
             ((struct lzmaw_t *)iow->data)->err = (enum err_t)ERR_ERROR;
@@ -6512,8 +6512,8 @@ static signed long int lzma_wwrite(struct iow_t *iow, const char *buffer, signed
           ((struct lzmaw_t *)iow->data)->strm.next_out = ((struct lzmaw_t *)iow->data)->outbuff;
           ((struct lzmaw_t *)iow->data)->strm.avail_out = sizeof(unsigned char [1048576l]) /*1048576ul*/ ;
         }
-        enum anonymous$10 err;
-        err=lzma_code(&((struct lzmaw_t *)iow->data)->strm, (enum anonymous$11)LZMA_RUN);
+        enum anonymous_10 err;
+        err=lzma_code(&((struct lzmaw_t *)iow->data)->strm, (enum anonymous_11)LZMA_RUN);
         if((signed int)err == LZMA_OK)
         {
           ((struct lzmaw_t *)iow->data)->err = (enum err_t)ERR_OK;
@@ -6533,7 +6533,7 @@ static signed long int lzma_wwrite(struct iow_t *iow, const char *buffer, signed
 // file traceanon.c line 111
 signed int main(signed int argc, char **argv)
 {
-  enum enc_type_t main$$1$$enc_type = (enum enc_type_t)ENC_NONE;
+  enum enc_type_t main__1__enc_type = (enum enc_type_t)ENC_NONE;
   char *key = (char *)(void *)0;
   struct libtrace_t *trace = ((struct libtrace_t *)NULL);
   struct libtrace_packet_t *packet;
@@ -6544,13 +6544,13 @@ signed int main(signed int argc, char **argv)
   char *output = ((char *)NULL);
   signed int level = -1;
   char *compress_type_str = (char *)(void *)0;
-  enum anonymous$22 compress_type = (enum anonymous$22)TRACE_OPTION_COMPRESSTYPE_NONE;
+  enum anonymous_22 compress_type = (enum anonymous_22)TRACE_OPTION_COMPRESSTYPE_NONE;
   if(!(argc >= 2))
     usage(argv[(signed long int)0]);
 
   struct _IO_FILE *infile;
-  void *return_value_malloc$1;
-  unsigned long int return_value_fread$3;
+  void *return_value_malloc_1;
+  unsigned long int return_value_fread_3;
   while((_Bool)1)
   {
     signed int option_index;
@@ -6600,7 +6600,7 @@ signed int main(signed int argc, char **argv)
         }
 
         key=strdup(optarg);
-        main$$1$$enc_type = (enum enc_type_t)ENC_CRYPTOPAN;
+        main__1__enc_type = (enum enc_type_t)ENC_CRYPTOPAN;
         break;
       }
       case 102:
@@ -6618,20 +6618,20 @@ signed int main(signed int argc, char **argv)
           return 1;
         }
 
-        return_value_malloc$1=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)32);
-        key = (char *)return_value_malloc$1;
-        return_value_fread$3=fread((void *)key, (unsigned long int)1, (unsigned long int)32, infile);
-        if(!(return_value_fread$3 == 32ul))
+        return_value_malloc_1=malloc(sizeof(char *) /*8ul*/  * (unsigned long int)32);
+        key = (char *)return_value_malloc_1;
+        return_value_fread_3=fread((void *)key, (unsigned long int)1, (unsigned long int)32, infile);
+        if(!(return_value_fread_3 == 32ul))
         {
-          signed int return_value_ferror$2;
-          return_value_ferror$2=ferror(infile);
-          if(!(return_value_ferror$2 == 0))
+          signed int return_value_ferror_2;
+          return_value_ferror_2=ferror(infile);
+          if(!(return_value_ferror_2 == 0))
             perror("Failed while reading cryptopan keyfile");
 
         }
 
         fclose(infile);
-        main$$1$$enc_type = (enum enc_type_t)ENC_CRYPTOPAN;
+        main__1__enc_type = (enum enc_type_t)ENC_CRYPTOPAN;
         break;
       }
       case 112:
@@ -6643,7 +6643,7 @@ signed int main(signed int argc, char **argv)
         }
 
         key=strdup(optarg);
-        main$$1$$enc_type = (enum enc_type_t)ENC_PREFIX_SUBSTITUTION;
+        main__1__enc_type = (enum enc_type_t)ENC_PREFIX_SUBSTITUTION;
         break;
       }
       case 72:
@@ -6659,60 +6659,60 @@ signed int main(signed int argc, char **argv)
       }
     }
   }
-  signed int return_value_strncmp$8;
-  _Bool tmp_if_expr$10;
-  signed int return_value_strncmp$9;
-  signed int return_value_strncmp$7;
-  signed int return_value_strncmp$6;
-  signed int return_value_strncmp$5;
-  signed int return_value_strncmp$4;
+  signed int return_value_strncmp_8;
+  _Bool tmp_if_expr_10;
+  signed int return_value_strncmp_9;
+  signed int return_value_strncmp_7;
+  signed int return_value_strncmp_6;
+  signed int return_value_strncmp_5;
+  signed int return_value_strncmp_4;
   if(compress_type_str == ((char *)NULL) && level >= 0)
   {
     fprintf(stderr, "Compression level set, but no compression type was defined, setting to gzip\n");
-    compress_type = (enum anonymous$22)TRACE_OPTION_COMPRESSTYPE_ZLIB;
+    compress_type = (enum anonymous_22)TRACE_OPTION_COMPRESSTYPE_ZLIB;
   }
 
   else
     if(compress_type_str == ((char *)NULL))
-      compress_type = (enum anonymous$22)TRACE_OPTION_COMPRESSTYPE_NONE;
+      compress_type = (enum anonymous_22)TRACE_OPTION_COMPRESSTYPE_NONE;
 
     else
     {
-      return_value_strncmp$8=strncmp(compress_type_str, "gz", (unsigned long int)2);
-      if(return_value_strncmp$8 == 0)
-        tmp_if_expr$10 = (_Bool)1;
+      return_value_strncmp_8=strncmp(compress_type_str, "gz", (unsigned long int)2);
+      if(return_value_strncmp_8 == 0)
+        tmp_if_expr_10 = (_Bool)1;
 
       else
       {
-        return_value_strncmp$9=strncmp(compress_type_str, "zlib", (unsigned long int)4);
-        tmp_if_expr$10 = return_value_strncmp$9 == 0 ? (_Bool)1 : (_Bool)0;
+        return_value_strncmp_9=strncmp(compress_type_str, "zlib", (unsigned long int)4);
+        tmp_if_expr_10 = return_value_strncmp_9 == 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$10)
-        compress_type = (enum anonymous$22)TRACE_OPTION_COMPRESSTYPE_ZLIB;
+      if(tmp_if_expr_10)
+        compress_type = (enum anonymous_22)TRACE_OPTION_COMPRESSTYPE_ZLIB;
 
       else
       {
-        return_value_strncmp$7=strncmp(compress_type_str, "bz", (unsigned long int)2);
-        if(return_value_strncmp$7 == 0)
-          compress_type = (enum anonymous$22)TRACE_OPTION_COMPRESSTYPE_BZ2;
+        return_value_strncmp_7=strncmp(compress_type_str, "bz", (unsigned long int)2);
+        if(return_value_strncmp_7 == 0)
+          compress_type = (enum anonymous_22)TRACE_OPTION_COMPRESSTYPE_BZ2;
 
         else
         {
-          return_value_strncmp$6=strncmp(compress_type_str, "lzo", (unsigned long int)3);
-          if(return_value_strncmp$6 == 0)
-            compress_type = (enum anonymous$22)TRACE_OPTION_COMPRESSTYPE_LZO;
+          return_value_strncmp_6=strncmp(compress_type_str, "lzo", (unsigned long int)3);
+          if(return_value_strncmp_6 == 0)
+            compress_type = (enum anonymous_22)TRACE_OPTION_COMPRESSTYPE_LZO;
 
           else
           {
-            return_value_strncmp$5=strncmp(compress_type_str, "xz", (unsigned long int)2);
-            if(return_value_strncmp$5 == 0)
-              compress_type = (enum anonymous$22)TRACE_OPTION_COMPRESSTYPE_LZMA;
+            return_value_strncmp_5=strncmp(compress_type_str, "xz", (unsigned long int)2);
+            if(return_value_strncmp_5 == 0)
+              compress_type = (enum anonymous_22)TRACE_OPTION_COMPRESSTYPE_LZMA;
 
             else
             {
-              return_value_strncmp$4=strncmp(compress_type_str, "no", (unsigned long int)2);
-              if(return_value_strncmp$4 == 0)
-                compress_type = (enum anonymous$22)TRACE_OPTION_COMPRESSTYPE_NONE;
+              return_value_strncmp_4=strncmp(compress_type_str, "no", (unsigned long int)2);
+              if(return_value_strncmp_4 == 0)
+                compress_type = (enum anonymous_22)TRACE_OPTION_COMPRESSTYPE_NONE;
 
               else
               {
@@ -6724,12 +6724,12 @@ signed int main(signed int argc, char **argv)
         }
       }
     }
-  enc_init(main$$1$$enc_type, key);
+  enc_init(main__1__enc_type, key);
   trace=trace_create(argv[(signed long int)optind]);
-  _Bool return_value_trace_is_err$11;
-  return_value_trace_is_err$11=trace_is_err(trace);
-  signed int return_value_trace_config_output$13;
-  if(!(return_value_trace_is_err$11 == (_Bool)0))
+  _Bool return_value_trace_is_err_11;
+  return_value_trace_is_err_11=trace_is_err(trace);
+  signed int return_value_trace_config_output_13;
+  if(!(return_value_trace_is_err_11 == (_Bool)0))
   {
     trace_perror(trace, "trace_create");
     trace_destroy(trace);
@@ -6746,9 +6746,9 @@ signed int main(signed int argc, char **argv)
 
     else
       writer=trace_create_output(argv[(signed long int)(optind + 1)]);
-    _Bool return_value_trace_is_err_output$12;
-    return_value_trace_is_err_output$12=trace_is_err_output(writer);
-    if(!(return_value_trace_is_err_output$12 == (_Bool)0))
+    _Bool return_value_trace_is_err_output_12;
+    return_value_trace_is_err_output_12=trace_is_err_output(writer);
+    if(!(return_value_trace_is_err_output_12 == (_Bool)0))
     {
       trace_perror_output(writer, "trace_create_output");
       trace_destroy_output(writer);
@@ -6766,8 +6766,8 @@ signed int main(signed int argc, char **argv)
 
       if(level >= 0)
       {
-        return_value_trace_config_output$13=trace_config_output(writer, (enum anonymous$14)TRACE_OPTION_OUTPUT_COMPRESS, (void *)&level);
-        if(!(return_value_trace_config_output$13 == -1))
+        return_value_trace_config_output_13=trace_config_output(writer, (enum anonymous_14)TRACE_OPTION_OUTPUT_COMPRESS, (void *)&level);
+        if(!(return_value_trace_config_output_13 == -1))
           goto __CPROVER_DUMP_L35;
 
         trace_perror_output(writer, "Configuring compression level");
@@ -6781,9 +6781,9 @@ signed int main(signed int argc, char **argv)
 
       __CPROVER_DUMP_L35:
         ;
-        signed int return_value_trace_config_output$14;
-        return_value_trace_config_output$14=trace_config_output(writer, (enum anonymous$14)TRACE_OPTION_OUTPUT_COMPRESSTYPE, (void *)&compress_type);
-        if(return_value_trace_config_output$14 == -1)
+        signed int return_value_trace_config_output_14;
+        return_value_trace_config_output_14=trace_config_output(writer, (enum anonymous_14)TRACE_OPTION_OUTPUT_COMPRESSTYPE, (void *)&compress_type);
+        if(return_value_trace_config_output_14 == -1)
         {
           trace_perror_output(writer, "Configuring compression type");
           trace_destroy_output(writer);
@@ -6793,9 +6793,9 @@ signed int main(signed int argc, char **argv)
 
         else
         {
-          signed int return_value_trace_start$15;
-          return_value_trace_start$15=trace_start(trace);
-          if(return_value_trace_start$15 == -1)
+          signed int return_value_trace_start_15;
+          return_value_trace_start_15=trace_start(trace);
+          if(return_value_trace_start_15 == -1)
           {
             trace_perror(trace, "trace_start");
             trace_destroy_output(writer);
@@ -6805,9 +6805,9 @@ signed int main(signed int argc, char **argv)
 
           else
           {
-            signed int return_value_trace_start_output$16;
-            return_value_trace_start_output$16=trace_start_output(writer);
-            if(return_value_trace_start_output$16 == -1)
+            signed int return_value_trace_start_output_16;
+            return_value_trace_start_output_16=trace_start_output(writer);
+            if(return_value_trace_start_output_16 == -1)
             {
               trace_perror_output(writer, "trace_start_output");
               trace_destroy_output(writer);
@@ -6848,9 +6848,9 @@ signed int main(signed int argc, char **argv)
                 if(!(tcp == ((struct libtrace_tcp *)NULL)) && (!(enc_dest == (_Bool)0) || !(enc_source == (_Bool)0)))
                   tcp->check = (unsigned short int)0;
 
-                signed int return_value_trace_write_packet$17;
-                return_value_trace_write_packet$17=trace_write_packet(writer, packet);
-                if(return_value_trace_write_packet$17 == -1)
+                signed int return_value_trace_write_packet_17;
+                return_value_trace_write_packet_17=trace_write_packet(writer, packet);
+                if(return_value_trace_write_packet_17 == -1)
                 {
                   trace_perror_output(writer, "writer");
                   break;
@@ -7056,9 +7056,9 @@ void panon_init_cache(void)
 {
   if(enc_cache == ((unsigned int *)NULL))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)(1 << 20) * sizeof(unsigned int) /*4ul*/ );
-    enc_cache = (unsigned int *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)(1 << 20) * sizeof(unsigned int) /*4ul*/ );
+    enc_cache = (unsigned int *)return_value_malloc_1;
   }
 
   memset((void *)enc_cache, 0, (unsigned long int)(1 << 20) * sizeof(unsigned int) /*4ul*/ );
@@ -7086,8 +7086,8 @@ static void parse_env(void)
   char option[1024l];
   const char *ip;
   char *op;
-  _Bool tmp_if_expr$1;
-  char *tmp_post$2;
+  _Bool tmp_if_expr_1;
+  char *tmp_post_2;
   if(!(str == ((const char *)NULL)))
   {
     ip = str;
@@ -7095,11 +7095,11 @@ static void parse_env(void)
     do
     {
       if(!((signed int)*ip == 0))
-        tmp_if_expr$1 = op < option + (signed long int)sizeof(char [1024l]) /*1024ul*/  ? (_Bool)1 : (_Bool)0;
+        tmp_if_expr_1 = op < option + (signed long int)sizeof(char [1024l]) /*1024ul*/  ? (_Bool)1 : (_Bool)0;
 
       else
-        tmp_if_expr$1 = (_Bool)0;
-      if(!tmp_if_expr$1)
+        tmp_if_expr_1 = (_Bool)0;
+      if(!tmp_if_expr_1)
         break;
 
       if((signed int)*ip == 44)
@@ -7111,9 +7111,9 @@ static void parse_env(void)
 
       else
       {
-        tmp_post$2 = op;
+        tmp_post_2 = op;
         op = op + 1l;
-        *tmp_post$2 = *ip;
+        *tmp_post_2 = *ip;
       }
       ip = ip + 1l;
     }
@@ -7146,9 +7146,9 @@ struct io_t * peek_open(struct io_t *child)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct io_t) /*16ul*/ );
-    io = (struct io_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct io_t) /*16ul*/ );
+    io = (struct io_t *)return_value_malloc_1;
     io->data=malloc(sizeof(struct peek_t) /*32ul*/ );
     io->source = &peek_source;
     ((struct peek_t *)io->data)->child = child;
@@ -7169,9 +7169,9 @@ static signed long int peek_peek(struct io_t *io, void *buffer, signed long int 
   {
     signed long int read_amount = len - (((struct peek_t *)io->data)->length - ((struct peek_t *)io->data)->offset);
     read_amount = read_amount + ((signed long int)(1024 * 1024) - (((struct peek_t *)io->data)->length + read_amount) % (signed long int)(1024 * 1024));
-    void *return_value_alignedrealloc$1;
-    return_value_alignedrealloc$1=alignedrealloc((void *)((struct peek_t *)io->data)->buffer, (unsigned long int)((struct peek_t *)io->data)->length, (unsigned long int)(((struct peek_t *)io->data)->length + read_amount), &res);
-    ((struct peek_t *)io->data)->buffer = (char *)return_value_alignedrealloc$1;
+    void *return_value_alignedrealloc_1;
+    return_value_alignedrealloc_1=alignedrealloc((void *)((struct peek_t *)io->data)->buffer, (unsigned long int)((struct peek_t *)io->data)->length, (unsigned long int)(((struct peek_t *)io->data)->length + read_amount), &res);
+    ((struct peek_t *)io->data)->buffer = (char *)return_value_alignedrealloc_1;
     if(((struct peek_t *)io->data)->buffer == ((char *)NULL))
       return (signed long int)res;
 
@@ -7182,13 +7182,13 @@ static signed long int peek_peek(struct io_t *io, void *buffer, signed long int 
     ((struct peek_t *)io->data)->length = ((struct peek_t *)io->data)->length + read_amount;
   }
 
-  signed long int tmp_if_expr$2;
+  signed long int tmp_if_expr_2;
   if(!(len >= ((struct peek_t *)io->data)->length + -((struct peek_t *)io->data)->offset))
-    tmp_if_expr$2 = len;
+    tmp_if_expr_2 = len;
 
   else
-    tmp_if_expr$2 = ((struct peek_t *)io->data)->length - ((struct peek_t *)io->data)->offset;
-  ret = tmp_if_expr$2;
+    tmp_if_expr_2 = ((struct peek_t *)io->data)->length - ((struct peek_t *)io->data)->offset;
+  ret = tmp_if_expr_2;
   memcpy(buffer, (const void *)(((struct peek_t *)io->data)->buffer + ((struct peek_t *)io->data)->offset), (unsigned long int)ret);
   return ret;
 }
@@ -7198,15 +7198,15 @@ static signed long int peek_peek(struct io_t *io, void *buffer, signed long int 
 static signed long int peek_read(struct io_t *io, void *buffer, signed long int len)
 {
   signed long int ret = (signed long int)0;
-  signed long int tmp_if_expr$1;
+  signed long int tmp_if_expr_1;
   if(!(((struct peek_t *)io->data)->buffer == ((char *)NULL)))
   {
     if(!(len >= ((struct peek_t *)io->data)->length + -((struct peek_t *)io->data)->offset))
-      tmp_if_expr$1 = len;
+      tmp_if_expr_1 = len;
 
     else
-      tmp_if_expr$1 = ((struct peek_t *)io->data)->length - ((struct peek_t *)io->data)->offset;
-    ret = tmp_if_expr$1;
+      tmp_if_expr_1 = ((struct peek_t *)io->data)->length - ((struct peek_t *)io->data)->offset;
+    ret = tmp_if_expr_1;
     memcpy(buffer, (const void *)(((struct peek_t *)io->data)->buffer + ((struct peek_t *)io->data)->offset), (unsigned long int)ret);
     buffer = buffer + ret;
     ((struct peek_t *)io->data)->offset = ((struct peek_t *)io->data)->offset + ret;
@@ -7271,18 +7271,18 @@ static signed long int peek_read(struct io_t *io, void *buffer, signed long int 
 // file ior-peek.c line 297
 static signed long int peek_seek(struct io_t *io, signed long int offset, signed int whence)
 {
-  signed long int return_value_wandio_seek$1;
-  return_value_wandio_seek$1=wandio_seek(((struct peek_t *)io->data)->child, offset, whence);
-  return return_value_wandio_seek$1;
+  signed long int return_value_wandio_seek_1;
+  return_value_wandio_seek_1=wandio_seek(((struct peek_t *)io->data)->child, offset, whence);
+  return return_value_wandio_seek_1;
 }
 
 // peek_tell
 // file ior-peek.c line 290
 static signed long int peek_tell(struct io_t *io)
 {
-  signed long int return_value_wandio_tell$1;
-  return_value_wandio_tell$1=wandio_tell(((struct peek_t *)io->data)->child);
-  return return_value_wandio_tell$1;
+  signed long int return_value_wandio_tell_1;
+  return_value_wandio_tell_1=wandio_tell(((struct peek_t *)io->data)->child);
+  return return_value_wandio_tell_1;
 }
 
 // pp_anonymize
@@ -7480,13 +7480,13 @@ static signed long int refill_buffer(struct io_t *io, signed long int len)
   /* assertion ((struct peek_t *)((io)->data))->length - ((struct peek_t *)((io)->data))->offset == 0 */
   assert(((struct peek_t *)io->data)->length - ((struct peek_t *)io->data)->offset == (signed long int)0);
   bytes_read = len < (signed long int)(1024 * 1024) ? (signed long int)(1024 * 1024) : len;
-  signed long int tmp_if_expr$1;
+  signed long int tmp_if_expr_1;
   if(!(bytes_read >= ((struct peek_t *)io->data)->length))
-    tmp_if_expr$1 = ((struct peek_t *)io->data)->length;
+    tmp_if_expr_1 = ((struct peek_t *)io->data)->length;
 
   else
-    tmp_if_expr$1 = bytes_read;
-  bytes_read = tmp_if_expr$1;
+    tmp_if_expr_1 = bytes_read;
+  bytes_read = tmp_if_expr_1;
   bytes_read = bytes_read + ((signed long int)4096 - bytes_read % (signed long int)4096);
   if(!(((struct peek_t *)io->data)->length >= bytes_read))
   {
@@ -7619,7 +7619,7 @@ static signed int safe_open(const char *filename, signed int flags)
   if(fd == -1)
     fd=open(filename, flags | 01 | 0100 | 01000, 0666);
 
-  signed int return_value_fchown$3;
+  signed int return_value_fchown_3;
   if(fd == -1)
     return fd;
 
@@ -7628,23 +7628,23 @@ static signed int safe_open(const char *filename, signed int flags)
     sudoenv=getenv("SUDO_UID");
     if(!(sudoenv == ((char *)NULL)))
     {
-      signed long int return_value_strtol$1;
-      return_value_strtol$1=strtol(sudoenv, (char ** restrict )(void *)0, 10);
-      userid = (unsigned int)return_value_strtol$1;
+      signed long int return_value_strtol_1;
+      return_value_strtol_1=strtol(sudoenv, (char ** restrict )(void *)0, 10);
+      userid = (unsigned int)return_value_strtol_1;
     }
 
     sudoenv=getenv("SUDO_GID");
     if(!(sudoenv == ((char *)NULL)))
     {
-      signed long int return_value_strtol$2;
-      return_value_strtol$2=strtol(sudoenv, (char ** restrict )(void *)0, 10);
-      groupid = (unsigned int)return_value_strtol$2;
+      signed long int return_value_strtol_2;
+      return_value_strtol_2=strtol(sudoenv, (char ** restrict )(void *)0, 10);
+      groupid = (unsigned int)return_value_strtol_2;
     }
 
     if(!(userid == 0u))
     {
-      return_value_fchown$3=fchown(fd, userid, groupid);
-      if(!(return_value_fchown$3 == -1))
+      return_value_fchown_3=fchown(fd, userid, groupid);
+      if(!(return_value_fchown_3 == -1))
         goto __CPROVER_DUMP_L5;
 
       perror("fchown");
@@ -7675,13 +7675,13 @@ static void stdio_close(struct io_t *io)
 struct io_t * stdio_open(const char *filename)
 {
   struct io_t *io;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct io_t) /*16ul*/ );
-  io = (struct io_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct io_t) /*16ul*/ );
+  io = (struct io_t *)return_value_malloc_1;
   io->data=malloc(sizeof(struct stdio_t) /*4ul*/ );
-  signed int return_value_strcmp$2;
-  return_value_strcmp$2=strcmp(filename, "-");
-  if(return_value_strcmp$2 == 0)
+  signed int return_value_strcmp_2;
+  return_value_strcmp_2=strcmp(filename, "-");
+  if(return_value_strcmp_2 == 0)
     ((struct stdio_t *)io->data)->fd = 0;
 
   else
@@ -7701,27 +7701,27 @@ struct io_t * stdio_open(const char *filename)
 // file ior-stdio.c line 80
 static signed long int stdio_read(struct io_t *io, void *buffer, signed long int len)
 {
-  signed long int return_value_read$1;
-  return_value_read$1=read(((struct stdio_t *)io->data)->fd, buffer, (unsigned long int)len);
-  return return_value_read$1;
+  signed long int return_value_read_1;
+  return_value_read_1=read(((struct stdio_t *)io->data)->fd, buffer, (unsigned long int)len);
+  return return_value_read_1;
 }
 
 // stdio_seek
 // file ior-stdio.c line 90
 static signed long int stdio_seek(struct io_t *io, signed long int offset, signed int whence)
 {
-  signed long int return_value_lseek$1;
-  return_value_lseek$1=lseek(((struct stdio_t *)io->data)->fd, offset, whence);
-  return return_value_lseek$1;
+  signed long int return_value_lseek_1;
+  return_value_lseek_1=lseek(((struct stdio_t *)io->data)->fd, offset, whence);
+  return return_value_lseek_1;
 }
 
 // stdio_tell
 // file ior-stdio.c line 85
 static signed long int stdio_tell(struct io_t *io)
 {
-  signed long int return_value_lseek$1;
-  return_value_lseek$1=lseek(((struct stdio_t *)io->data)->fd, (signed long int)0, 1);
-  return return_value_lseek$1;
+  signed long int return_value_lseek_1;
+  return_value_lseek_1=lseek(((struct stdio_t *)io->data)->fd, (signed long int)0, 1);
+  return return_value_lseek_1;
 }
 
 // stdio_wclose
@@ -7729,9 +7729,9 @@ static signed long int stdio_tell(struct io_t *io)
 static void stdio_wclose(struct iow_t *iow)
 {
   signed long int err;
-  signed int return_value_fcntl$1;
-  return_value_fcntl$1=fcntl(((struct stdiow_t *)iow->data)->fd, 3);
-  err = (signed long int)return_value_fcntl$1;
+  signed int return_value_fcntl_1;
+  return_value_fcntl_1=fcntl(((struct stdiow_t *)iow->data)->fd, 3);
+  err = (signed long int)return_value_fcntl_1;
   if(!((16384l & err) == 0l) && !(err == -1l))
     fcntl(((struct stdiow_t *)iow->data)->fd, 4, err & (signed long int)~040000);
 
@@ -7747,14 +7747,14 @@ static void stdio_wclose(struct iow_t *iow)
 struct iow_t * stdio_wopen(const char *filename, signed int flags)
 {
   struct iow_t *iow;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct iow_t) /*16ul*/ );
-  iow = (struct iow_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct iow_t) /*16ul*/ );
+  iow = (struct iow_t *)return_value_malloc_1;
   iow->source = &stdio_wsource;
   iow->data=malloc(sizeof(struct stdiow_t) /*4104ul*/ );
-  signed int return_value_strcmp$2;
-  return_value_strcmp$2=strcmp(filename, "-");
-  if(return_value_strcmp$2 == 0)
+  signed int return_value_strcmp_2;
+  return_value_strcmp_2=strcmp(filename, "-");
+  if(return_value_strcmp_2 == 0)
     ((struct stdiow_t *)iow->data)->fd = 1;
 
   else
@@ -7779,8 +7779,8 @@ static signed long int stdio_wwrite(struct iow_t *iow, const char *buffer, signe
   signed int towrite = (signed int)len;
   /* assertion towrite >= 0 */
   assert(towrite >= 0);
-  signed int tmp_if_expr$1;
-  signed int tmp_if_expr$3;
+  signed int tmp_if_expr_1;
+  signed int tmp_if_expr_3;
   while(((struct stdiow_t *)iow->data)->offset + towrite >= 4096)
   {
     signed int err;
@@ -7794,11 +7794,11 @@ static signed long int stdio_wwrite(struct iow_t *iow, const char *buffer, signe
     {
       iov[(signed long int)count].iov_base = (void *)((struct stdiow_t *)iow->data)->buffer;
       if(!(((struct stdiow_t *)iow->data)->offset >= amount))
-        tmp_if_expr$1 = ((struct stdiow_t *)iow->data)->offset;
+        tmp_if_expr_1 = ((struct stdiow_t *)iow->data)->offset;
 
       else
-        tmp_if_expr$1 = amount;
-      iov[(signed long int)count].iov_len = (unsigned long int)tmp_if_expr$1;
+        tmp_if_expr_1 = amount;
+      iov[(signed long int)count].iov_len = (unsigned long int)tmp_if_expr_1;
       amount = amount - (signed int)iov[(signed long int)count].iov_len;
       count = count + 1;
     }
@@ -7813,18 +7813,18 @@ static signed long int stdio_wwrite(struct iow_t *iow, const char *buffer, signe
 
     /* assertion amount == 0 */
     assert(amount == 0);
-    signed long int return_value_writev$2;
-    return_value_writev$2=writev(((struct stdiow_t *)iow->data)->fd, iov, count);
-    err = (signed int)return_value_writev$2;
+    signed long int return_value_writev_2;
+    return_value_writev_2=writev(((struct stdiow_t *)iow->data)->fd, iov, count);
+    err = (signed int)return_value_writev_2;
     if(err == -1)
       return (signed long int)-1;
 
     if(!(((struct stdiow_t *)iow->data)->offset >= err))
-      tmp_if_expr$3 = ((struct stdiow_t *)iow->data)->offset;
+      tmp_if_expr_3 = ((struct stdiow_t *)iow->data)->offset;
 
     else
-      tmp_if_expr$3 = err;
-    amount = tmp_if_expr$3;
+      tmp_if_expr_3 = err;
+    amount = tmp_if_expr_3;
     memmove((void *)((struct stdiow_t *)iow->data)->buffer, (const void *)(((struct stdiow_t *)iow->data)->buffer + (signed long int)amount), (unsigned long int)(((struct stdiow_t *)iow->data)->offset - amount));
     ((struct stdiow_t *)iow->data)->offset = ((struct stdiow_t *)iow->data)->offset - amount;
     err = err - amount;
@@ -7855,9 +7855,9 @@ static unsigned long int strlcpy(char *dest, const char *src, unsigned long int 
   unsigned long int ret = (unsigned long int)0;
   for( ; !(src[(signed long int)ret] == 0) && !(ret >= size); ret = ret + 1ul)
     dest[(signed long int)ret] = src[(signed long int)ret];
-  unsigned long int tmp_post$1 = ret;
+  unsigned long int tmp_post_1 = ret;
   ret = ret + 1ul;
-  dest[(signed long int)tmp_post$1] = (char)0;
+  dest[(signed long int)tmp_post_1] = (char)0;
   return ret;
 }
 
@@ -7865,16 +7865,16 @@ static unsigned long int strlcpy(char *dest, const char *src, unsigned long int 
 // file ior-thread.c line 260
 static void thread_close(struct io_t *io)
 {
-  pthread_mutex_lock(&((struct state_t$0 *)io->data)->mutex);
-  ((struct state_t$0 *)io->data)->closing = (_Bool)1;
-  pthread_cond_signal(&((struct state_t$0 *)io->data)->space_avail);
-  pthread_mutex_unlock(&((struct state_t$0 *)io->data)->mutex);
-  pthread_join(((struct state_t$0 *)io->data)->producer, (void **)(void *)0);
-  pthread_mutex_destroy(&((struct state_t$0 *)io->data)->mutex);
-  pthread_cond_destroy(&((struct state_t$0 *)io->data)->space_avail);
-  pthread_cond_destroy(&((struct state_t$0 *)io->data)->data_ready);
-  free((void *)((struct state_t$0 *)io->data)->buffer);
-  free((void *)(struct state_t$0 *)io->data);
+  pthread_mutex_lock(&((struct state_t_0 *)io->data)->mutex);
+  ((struct state_t_0 *)io->data)->closing = (_Bool)1;
+  pthread_cond_signal(&((struct state_t_0 *)io->data)->space_avail);
+  pthread_mutex_unlock(&((struct state_t_0 *)io->data)->mutex);
+  pthread_join(((struct state_t_0 *)io->data)->producer, (void **)(void *)0);
+  pthread_mutex_destroy(&((struct state_t_0 *)io->data)->mutex);
+  pthread_cond_destroy(&((struct state_t_0 *)io->data)->space_avail);
+  pthread_cond_destroy(&((struct state_t_0 *)io->data)->data_ready);
+  free((void *)((struct state_t_0 *)io->data)->buffer);
+  free((void *)(struct state_t_0 *)io->data);
   free((void *)io);
 }
 
@@ -7886,14 +7886,14 @@ static void * thread_consumer(void *userdata)
   _Bool running = (_Bool)1;
   struct iow_t *state = (struct iow_t *)userdata;
   char namebuf[17l];
-  signed int return_value_prctl$2;
-  return_value_prctl$2=prctl(16, (const void *)namebuf, 0, 0, 0);
-  if(return_value_prctl$2 == 0)
+  signed int return_value_prctl_2;
+  return_value_prctl_2=prctl(16, (const void *)namebuf, 0, 0, 0);
+  if(return_value_prctl_2 == 0)
   {
     namebuf[(signed long int)16] = (char)0;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(namebuf);
-    if(return_value_strlen$1 >= 10ul)
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(namebuf);
+    if(return_value_strlen_1 >= 10ul)
       strcpy(namebuf + (signed long int)10, "[iow]");
 
     else
@@ -7922,7 +7922,7 @@ __CPROVER_DUMP_L4:
     pthread_mutex_lock(&((struct state_t *)state->data)->mutex);
     running = ((struct state_t *)state->data)->buffer[(signed long int)buffer].len > 0;
     ((struct state_t *)state->data)->buffer[(signed long int)buffer].len = 0;
-    ((struct state_t *)state->data)->buffer[(signed long int)buffer].state = (enum anonymous$0)EMPTY;
+    ((struct state_t *)state->data)->buffer[(signed long int)buffer].state = (enum anonymous_0)EMPTY;
     pthread_cond_signal(&((struct state_t *)state->data)->space_avail);
     buffer = (buffer + 1) % 5;
     if(running == (_Bool)0)
@@ -7944,23 +7944,23 @@ struct io_t * thread_open(struct io_t *parent)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct io_t) /*16ul*/ );
-    state = (struct io_t *)return_value_malloc$1;
-    state->data=calloc((unsigned long int)1, sizeof(struct state_t$0) /*184ul*/ );
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct io_t) /*16ul*/ );
+    state = (struct io_t *)return_value_malloc_1;
+    state->data=calloc((unsigned long int)1, sizeof(struct state_t_0) /*184ul*/ );
     state->source = &thread_source;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc(sizeof(struct buffer_t) /*1048584ul*/  * (unsigned long int)max_buffers);
-    ((struct state_t$0 *)state->data)->buffer = (struct buffer_t *)return_value_malloc$2;
-    memset((void *)((struct state_t$0 *)state->data)->buffer, 0, sizeof(struct buffer_t) /*1048584ul*/  * (unsigned long int)max_buffers);
-    ((struct state_t$0 *)state->data)->in_buffer = 0;
-    ((struct state_t$0 *)state->data)->offset = (signed long int)0;
-    pthread_mutex_init(&((struct state_t$0 *)state->data)->mutex, (const union anonymous$15 *)(void *)0);
-    pthread_cond_init(&((struct state_t$0 *)state->data)->data_ready, (const union anonymous$15 *)(void *)0);
-    pthread_cond_init(&((struct state_t$0 *)state->data)->space_avail, (const union anonymous$15 *)(void *)0);
-    ((struct state_t$0 *)state->data)->io = parent;
-    ((struct state_t$0 *)state->data)->closing = (_Bool)0;
-    pthread_create(&((struct state_t$0 *)state->data)->producer, (const union pthread_attr_t *)(void *)0, thread_producer, (void *)state);
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc(sizeof(struct buffer_t) /*1048584ul*/  * (unsigned long int)max_buffers);
+    ((struct state_t_0 *)state->data)->buffer = (struct buffer_t *)return_value_malloc_2;
+    memset((void *)((struct state_t_0 *)state->data)->buffer, 0, sizeof(struct buffer_t) /*1048584ul*/  * (unsigned long int)max_buffers);
+    ((struct state_t_0 *)state->data)->in_buffer = 0;
+    ((struct state_t_0 *)state->data)->offset = (signed long int)0;
+    pthread_mutex_init(&((struct state_t_0 *)state->data)->mutex, (const union anonymous_15 *)(void *)0);
+    pthread_cond_init(&((struct state_t_0 *)state->data)->data_ready, (const union anonymous_15 *)(void *)0);
+    pthread_cond_init(&((struct state_t_0 *)state->data)->space_avail, (const union anonymous_15 *)(void *)0);
+    ((struct state_t_0 *)state->data)->io = parent;
+    ((struct state_t_0 *)state->data)->closing = (_Bool)0;
+    pthread_create(&((struct state_t_0 *)state->data)->producer, (const union pthread_attr_t *)(void *)0, thread_producer, (void *)state);
     return state;
   }
 }
@@ -7973,14 +7973,14 @@ static void * thread_producer(void *userdata)
   signed int buffer = 0;
   _Bool running = (_Bool)1;
   char namebuf[17l];
-  signed int return_value_prctl$2;
-  return_value_prctl$2=prctl(16, (const void *)namebuf, 0, 0, 0);
-  if(return_value_prctl$2 == 0)
+  signed int return_value_prctl_2;
+  return_value_prctl_2=prctl(16, (const void *)namebuf, 0, 0, 0);
+  if(return_value_prctl_2 == 0)
   {
     namebuf[(signed long int)16] = (char)0;
-    unsigned long int return_value_strlen$1;
-    return_value_strlen$1=strlen(namebuf);
-    if(return_value_strlen$1 >= 10ul)
+    unsigned long int return_value_strlen_1;
+    return_value_strlen_1=strlen(namebuf);
+    if(return_value_strlen_1 >= 10ul)
       strcpy(namebuf + (signed long int)10, "[ior]");
 
     else
@@ -7988,41 +7988,41 @@ static void * thread_producer(void *userdata)
     prctl(15, (const void *)namebuf, 0, 0, 0);
   }
 
-  pthread_mutex_lock(&((struct state_t$0 *)state->data)->mutex);
+  pthread_mutex_lock(&((struct state_t_0 *)state->data)->mutex);
 
 __CPROVER_DUMP_L4:
   ;
   while((_Bool)1)
   {
-    if((signed int)(((struct state_t$0 *)state->data)->buffer + (signed long int)buffer)->state == FULL)
+    if((signed int)(((struct state_t_0 *)state->data)->buffer + (signed long int)buffer)->state == FULL)
     {
-      if(((struct state_t$0 *)state->data)->closing == (_Bool)0)
+      if(((struct state_t_0 *)state->data)->closing == (_Bool)0)
       {
-        pthread_cond_wait(&((struct state_t$0 *)state->data)->space_avail, &((struct state_t$0 *)state->data)->mutex);
+        pthread_cond_wait(&((struct state_t_0 *)state->data)->space_avail, &((struct state_t_0 *)state->data)->mutex);
         goto __CPROVER_DUMP_L4;
       }
 
     }
 
-    if(((struct state_t$0 *)state->data)->closing != (_Bool)0)
+    if(((struct state_t_0 *)state->data)->closing != (_Bool)0)
       break;
 
-    pthread_mutex_unlock(&((struct state_t$0 *)state->data)->mutex);
-    signed long int return_value_wandio_read$3;
-    return_value_wandio_read$3=wandio_read(((struct state_t$0 *)state->data)->io, (void *)(((struct state_t$0 *)state->data)->buffer + (signed long int)buffer)->buffer, (signed long int)sizeof(char [1048576l]) /*1048576ul*/ );
-    (((struct state_t$0 *)state->data)->buffer + (signed long int)buffer)->len = (signed int)return_value_wandio_read$3;
-    pthread_mutex_lock(&((struct state_t$0 *)state->data)->mutex);
-    (((struct state_t$0 *)state->data)->buffer + (signed long int)buffer)->state = (enum anonymous$0)FULL;
-    running = (((struct state_t$0 *)state->data)->buffer + (signed long int)buffer)->len > 0;
-    pthread_cond_signal(&((struct state_t$0 *)state->data)->data_ready);
+    pthread_mutex_unlock(&((struct state_t_0 *)state->data)->mutex);
+    signed long int return_value_wandio_read_3;
+    return_value_wandio_read_3=wandio_read(((struct state_t_0 *)state->data)->io, (void *)(((struct state_t_0 *)state->data)->buffer + (signed long int)buffer)->buffer, (signed long int)sizeof(char [1048576l]) /*1048576ul*/ );
+    (((struct state_t_0 *)state->data)->buffer + (signed long int)buffer)->len = (signed int)return_value_wandio_read_3;
+    pthread_mutex_lock(&((struct state_t_0 *)state->data)->mutex);
+    (((struct state_t_0 *)state->data)->buffer + (signed long int)buffer)->state = (enum anonymous_0)FULL;
+    running = (((struct state_t_0 *)state->data)->buffer + (signed long int)buffer)->len > 0;
+    pthread_cond_signal(&((struct state_t_0 *)state->data)->data_ready);
     buffer = (signed int)((unsigned int)(buffer + 1) % max_buffers);
     if(running == (_Bool)0)
       break;
 
   }
-  wandio_destroy(((struct state_t$0 *)state->data)->io);
-  pthread_cond_signal(&((struct state_t$0 *)state->data)->data_ready);
-  pthread_mutex_unlock(&((struct state_t$0 *)state->data)->mutex);
+  wandio_destroy(((struct state_t_0 *)state->data)->io);
+  pthread_cond_signal(&((struct state_t_0 *)state->data)->data_ready);
+  pthread_mutex_unlock(&((struct state_t_0 *)state->data)->mutex);
   return (void *)0;
 }
 
@@ -8033,52 +8033,52 @@ static signed long int thread_read(struct io_t *state, void *buffer, signed long
   signed int slice;
   signed int copied = 0;
   signed int newbuffer;
-  signed long int tmp_if_expr$2;
-  for( ; len >= 1l; ((struct state_t$0 *)state->data)->in_buffer = newbuffer)
+  signed long int tmp_if_expr_2;
+  for( ; len >= 1l; ((struct state_t_0 *)state->data)->in_buffer = newbuffer)
   {
-    pthread_mutex_lock(&((struct state_t$0 *)state->data)->mutex);
-    while((signed int)(((struct state_t$0 *)state->data)->buffer + (signed long int)((struct state_t$0 *)state->data)->in_buffer)->state == EMPTY)
+    pthread_mutex_lock(&((struct state_t_0 *)state->data)->mutex);
+    while((signed int)(((struct state_t_0 *)state->data)->buffer + (signed long int)((struct state_t_0 *)state->data)->in_buffer)->state == EMPTY)
     {
       read_waits = read_waits + 1ul;
-      pthread_cond_wait(&((struct state_t$0 *)state->data)->data_ready, &((struct state_t$0 *)state->data)->mutex);
+      pthread_cond_wait(&((struct state_t_0 *)state->data)->data_ready, &((struct state_t_0 *)state->data)->mutex);
     }
-    if(!((((struct state_t$0 *)state->data)->buffer + (signed long int)((struct state_t$0 *)state->data)->in_buffer)->len >= 1))
+    if(!((((struct state_t_0 *)state->data)->buffer + (signed long int)((struct state_t_0 *)state->data)->in_buffer)->len >= 1))
     {
       if(!(copied >= 1))
       {
-        signed int *return_value___errno_location$1;
-        return_value___errno_location$1=__errno_location();
-        *return_value___errno_location$1 = 5;
-        copied = (((struct state_t$0 *)state->data)->buffer + (signed long int)((struct state_t$0 *)state->data)->in_buffer)->len;
+        signed int *return_value___errno_location_1;
+        return_value___errno_location_1=__errno_location();
+        *return_value___errno_location_1 = 5;
+        copied = (((struct state_t_0 *)state->data)->buffer + (signed long int)((struct state_t_0 *)state->data)->in_buffer)->len;
       }
 
-      pthread_mutex_unlock(&((struct state_t$0 *)state->data)->mutex);
+      pthread_mutex_unlock(&((struct state_t_0 *)state->data)->mutex);
       return (signed long int)copied;
     }
 
-    if(!((signed long int)(((struct state_t$0 *)state->data)->buffer + (signed long int)((struct state_t$0 *)state->data)->in_buffer)->len + -((struct state_t$0 *)state->data)->offset >= len))
-      tmp_if_expr$2 = (signed long int)(((struct state_t$0 *)state->data)->buffer + (signed long int)((struct state_t$0 *)state->data)->in_buffer)->len - ((struct state_t$0 *)state->data)->offset;
+    if(!((signed long int)(((struct state_t_0 *)state->data)->buffer + (signed long int)((struct state_t_0 *)state->data)->in_buffer)->len + -((struct state_t_0 *)state->data)->offset >= len))
+      tmp_if_expr_2 = (signed long int)(((struct state_t_0 *)state->data)->buffer + (signed long int)((struct state_t_0 *)state->data)->in_buffer)->len - ((struct state_t_0 *)state->data)->offset;
 
     else
-      tmp_if_expr$2 = len;
-    slice = (signed int)tmp_if_expr$2;
-    pthread_mutex_unlock(&((struct state_t$0 *)state->data)->mutex);
-    memcpy(buffer, (const void *)((((struct state_t$0 *)state->data)->buffer + (signed long int)((struct state_t$0 *)state->data)->in_buffer)->buffer + ((struct state_t$0 *)state->data)->offset), (unsigned long int)slice);
+      tmp_if_expr_2 = len;
+    slice = (signed int)tmp_if_expr_2;
+    pthread_mutex_unlock(&((struct state_t_0 *)state->data)->mutex);
+    memcpy(buffer, (const void *)((((struct state_t_0 *)state->data)->buffer + (signed long int)((struct state_t_0 *)state->data)->in_buffer)->buffer + ((struct state_t_0 *)state->data)->offset), (unsigned long int)slice);
     buffer = buffer + (signed long int)slice;
     len = len - (signed long int)slice;
     copied = copied + slice;
-    pthread_mutex_lock(&((struct state_t$0 *)state->data)->mutex);
-    ((struct state_t$0 *)state->data)->offset = ((struct state_t$0 *)state->data)->offset + (signed long int)slice;
-    newbuffer = ((struct state_t$0 *)state->data)->in_buffer;
-    if(((struct state_t$0 *)state->data)->offset >= (signed long int)(((struct state_t$0 *)state->data)->buffer + (signed long int)((struct state_t$0 *)state->data)->in_buffer)->len)
+    pthread_mutex_lock(&((struct state_t_0 *)state->data)->mutex);
+    ((struct state_t_0 *)state->data)->offset = ((struct state_t_0 *)state->data)->offset + (signed long int)slice;
+    newbuffer = ((struct state_t_0 *)state->data)->in_buffer;
+    if(((struct state_t_0 *)state->data)->offset >= (signed long int)(((struct state_t_0 *)state->data)->buffer + (signed long int)((struct state_t_0 *)state->data)->in_buffer)->len)
     {
-      (((struct state_t$0 *)state->data)->buffer + (signed long int)((struct state_t$0 *)state->data)->in_buffer)->state = (enum anonymous$0)EMPTY;
-      pthread_cond_signal(&((struct state_t$0 *)state->data)->space_avail);
+      (((struct state_t_0 *)state->data)->buffer + (signed long int)((struct state_t_0 *)state->data)->in_buffer)->state = (enum anonymous_0)EMPTY;
+      pthread_cond_signal(&((struct state_t_0 *)state->data)->space_avail);
       newbuffer = (signed int)((unsigned int)(newbuffer + 1) % max_buffers);
-      ((struct state_t$0 *)state->data)->offset = (signed long int)0;
+      ((struct state_t_0 *)state->data)->offset = (signed long int)0;
     }
 
-    pthread_mutex_unlock(&((struct state_t$0 *)state->data)->mutex);
+    pthread_mutex_unlock(&((struct state_t_0 *)state->data)->mutex);
   }
   return (signed long int)copied;
 }
@@ -8109,16 +8109,16 @@ struct iow_t * thread_wopen(struct iow_t *child)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct iow_t) /*16ul*/ );
-    state = (struct iow_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct iow_t) /*16ul*/ );
+    state = (struct iow_t *)return_value_malloc_1;
     state->data=calloc((unsigned long int)1, sizeof(struct state_t) /*5243088ul*/ );
     state->source = &thread_wsource;
     ((struct state_t *)state->data)->out_buffer = 0;
     ((struct state_t *)state->data)->offset = (signed long int)0;
-    pthread_mutex_init(&((struct state_t *)state->data)->mutex, (const union anonymous$15 *)(void *)0);
-    pthread_cond_init(&((struct state_t *)state->data)->data_ready, (const union anonymous$15 *)(void *)0);
-    pthread_cond_init(&((struct state_t *)state->data)->space_avail, (const union anonymous$15 *)(void *)0);
+    pthread_mutex_init(&((struct state_t *)state->data)->mutex, (const union anonymous_15 *)(void *)0);
+    pthread_cond_init(&((struct state_t *)state->data)->data_ready, (const union anonymous_15 *)(void *)0);
+    pthread_cond_init(&((struct state_t *)state->data)->space_avail, (const union anonymous_15 *)(void *)0);
     ((struct state_t *)state->data)->iow = child;
     ((struct state_t *)state->data)->closing = (_Bool)0;
     pthread_create(&((struct state_t *)state->data)->consumer, (const union pthread_attr_t *)(void *)0, thread_consumer, (void *)state);
@@ -8134,7 +8134,7 @@ static signed long int thread_wwrite(struct iow_t *state, const char *buffer, si
   signed int copied = 0;
   signed int newbuffer;
   pthread_mutex_lock(&((struct state_t *)state->data)->mutex);
-  signed long int tmp_if_expr$1;
+  signed long int tmp_if_expr_1;
   for( ; len >= 1l; ((struct state_t *)state->data)->out_buffer = newbuffer)
   {
     while((signed int)((struct state_t *)state->data)->buffer[(signed long int)((struct state_t *)state->data)->out_buffer].state == FULL)
@@ -8143,11 +8143,11 @@ static signed long int thread_wwrite(struct iow_t *state, const char *buffer, si
       pthread_cond_wait(&((struct state_t *)state->data)->space_avail, &((struct state_t *)state->data)->mutex);
     }
     if(!((signed long int)sizeof(char [1048576l]) /*1048576l*/  + -((struct state_t *)state->data)->offset >= len))
-      tmp_if_expr$1 = (signed long int)sizeof(char [1048576l]) /*1048576ul*/  - ((struct state_t *)state->data)->offset;
+      tmp_if_expr_1 = (signed long int)sizeof(char [1048576l]) /*1048576ul*/  - ((struct state_t *)state->data)->offset;
 
     else
-      tmp_if_expr$1 = len;
-    slice = (signed int)tmp_if_expr$1;
+      tmp_if_expr_1 = len;
+    slice = (signed int)tmp_if_expr_1;
     pthread_mutex_unlock(&((struct state_t *)state->data)->mutex);
     memcpy((void *)(((struct state_t *)state->data)->buffer[(signed long int)((struct state_t *)state->data)->out_buffer].buffer + ((struct state_t *)state->data)->offset), (const void *)buffer, (unsigned long int)slice);
     pthread_mutex_lock(&((struct state_t *)state->data)->mutex);
@@ -8159,7 +8159,7 @@ static signed long int thread_wwrite(struct iow_t *state, const char *buffer, si
     newbuffer = ((struct state_t *)state->data)->out_buffer;
     if(((struct state_t *)state->data)->offset >= (signed long int)sizeof(char [1048576l]) /*1048576l*/ )
     {
-      ((struct state_t *)state->data)->buffer[(signed long int)((struct state_t *)state->data)->out_buffer].state = (enum anonymous$0)FULL;
+      ((struct state_t *)state->data)->buffer[(signed long int)((struct state_t *)state->data)->out_buffer].state = (enum anonymous_0)FULL;
       pthread_cond_signal(&((struct state_t *)state->data)->data_ready);
       ((struct state_t *)state->data)->offset = (signed long int)0;
       newbuffer = (newbuffer + 1) % 5;
@@ -8178,34 +8178,34 @@ signed int trace_apply_filter(struct libtrace_filter_t *filter, const struct lib
   unsigned int clen = (unsigned int)0;
   _Bool free_packet_needed = (_Bool)0;
   signed int ret;
-  enum anonymous$18 linktype;
+  enum anonymous_18 linktype;
   struct libtrace_packet_t *packet_copy = (struct libtrace_packet_t *)packet;
   /* assertion filter */
   assert(filter != ((struct libtrace_filter_t *)NULL));
   /* assertion packet */
   assert(packet != ((const struct libtrace_packet_t *)NULL));
   linktype=trace_get_link_type(packet);
-  enum anonymous$24 return_value_libtrace_to_pcap_dlt$1;
+  enum anonymous_24 return_value_libtrace_to_pcap_dlt_1;
   if((signed int)linktype == TRACE_TYPE_NONDATA)
     return 1;
 
   else
   {
-    enum anonymous$24 return_value_libtrace_to_pcap_dlt$3;
-    return_value_libtrace_to_pcap_dlt$3=libtrace_to_pcap_dlt(linktype);
-    if((signed int)return_value_libtrace_to_pcap_dlt$3 == TRACE_DLT_ERROR)
+    enum anonymous_24 return_value_libtrace_to_pcap_dlt_3;
+    return_value_libtrace_to_pcap_dlt_3=libtrace_to_pcap_dlt(linktype);
+    if((signed int)return_value_libtrace_to_pcap_dlt_3 == TRACE_DLT_ERROR)
     {
       packet_copy=trace_copy_packet(packet);
       free_packet_needed = (_Bool)1;
       do
       {
-        return_value_libtrace_to_pcap_dlt$1=libtrace_to_pcap_dlt(linktype);
-        if(!((signed int)return_value_libtrace_to_pcap_dlt$1 == TRACE_DLT_ERROR))
+        return_value_libtrace_to_pcap_dlt_1=libtrace_to_pcap_dlt(linktype);
+        if(!((signed int)return_value_libtrace_to_pcap_dlt_1 == TRACE_DLT_ERROR))
           break;
 
-        _Bool return_value_demote_packet$2;
-        return_value_demote_packet$2=demote_packet(packet_copy);
-        if(return_value_demote_packet$2 == (_Bool)0)
+        _Bool return_value_demote_packet_2;
+        return_value_demote_packet_2=demote_packet(packet_copy);
+        if(return_value_demote_packet_2 == (_Bool)0)
         {
           trace_set_err(packet->trace, -4, "pcap does not support this format");
           if(!(free_packet_needed == (_Bool)0))
@@ -8219,7 +8219,7 @@ signed int trace_apply_filter(struct libtrace_filter_t *filter, const struct lib
       while((_Bool)1);
     }
 
-    linkptr=trace_get_packet_buffer(packet_copy, (enum anonymous$18 *)(void *)0, &clen);
+    linkptr=trace_get_packet_buffer(packet_copy, (enum anonymous_18 *)(void *)0, &clen);
     if(linkptr == NULL)
     {
       if(!(free_packet_needed == (_Bool)0))
@@ -8230,9 +8230,9 @@ signed int trace_apply_filter(struct libtrace_filter_t *filter, const struct lib
 
     else
     {
-      signed int return_value_trace_bpf_compile$4;
-      return_value_trace_bpf_compile$4=trace_bpf_compile(filter, packet_copy, linkptr, linktype);
-      if(return_value_trace_bpf_compile$4 == -1)
+      signed int return_value_trace_bpf_compile_4;
+      return_value_trace_bpf_compile_4=trace_bpf_compile(filter, packet_copy, linkptr, linktype);
+      if(return_value_trace_bpf_compile_4 == -1)
       {
         if(!(free_packet_needed == (_Bool)0))
           trace_destroy_packet(packet_copy);
@@ -8244,9 +8244,9 @@ signed int trace_apply_filter(struct libtrace_filter_t *filter, const struct lib
       {
         /* assertion filter->flag */
         assert(filter->flag != 0);
-        unsigned int return_value_bpf_filter$5;
-        return_value_bpf_filter$5=bpf_filter(filter->filter.bf_insns, (unsigned char *)linkptr, (unsigned int)clen, (unsigned int)clen);
-        ret = (signed int)return_value_bpf_filter$5;
+        unsigned int return_value_bpf_filter_5;
+        return_value_bpf_filter_5=bpf_filter(filter->filter.bf_insns, (unsigned char *)linkptr, (unsigned int)clen, (unsigned int)clen);
+        ret = (signed int)return_value_bpf_filter_5;
         if(!(free_packet_needed == (_Bool)0))
           trace_destroy_packet(packet_copy);
 
@@ -8258,7 +8258,7 @@ signed int trace_apply_filter(struct libtrace_filter_t *filter, const struct lib
 
 // trace_bpf_compile
 // file trace.c line 1204
-static signed int trace_bpf_compile(struct libtrace_filter_t *filter, const struct libtrace_packet_t *packet, void *linkptr, enum anonymous$18 linktype)
+static signed int trace_bpf_compile(struct libtrace_filter_t *filter, const struct libtrace_packet_t *packet, void *linkptr, enum anonymous_18 linktype)
 {
   /* assertion filter */
   assert(filter != ((struct libtrace_filter_t *)NULL));
@@ -8281,28 +8281,28 @@ static signed int trace_bpf_compile(struct libtrace_filter_t *filter, const stru
           return -1;
         }
 
-        enum anonymous$24 return_value_libtrace_to_pcap_dlt$1;
-        return_value_libtrace_to_pcap_dlt$1=libtrace_to_pcap_dlt(linktype);
-        if((signed int)return_value_libtrace_to_pcap_dlt$1 == TRACE_DLT_ERROR)
+        enum anonymous_24 return_value_libtrace_to_pcap_dlt_1;
+        return_value_libtrace_to_pcap_dlt_1=libtrace_to_pcap_dlt(linktype);
+        if((signed int)return_value_libtrace_to_pcap_dlt_1 == TRACE_DLT_ERROR)
         {
           trace_set_err(packet->trace, -9, "Unknown pcap equivalent linktype");
           return -1;
         }
 
-        enum anonymous$24 return_value_libtrace_to_pcap_dlt$2;
-        return_value_libtrace_to_pcap_dlt$2=libtrace_to_pcap_dlt(linktype);
-        struct pcap *return_value_pcap_open_dead$3;
-        return_value_pcap_open_dead$3=pcap_open_dead((signed int)return_value_libtrace_to_pcap_dlt$2, (signed int)1500U);
-        pcap = (struct pcap *)return_value_pcap_open_dead$3;
+        enum anonymous_24 return_value_libtrace_to_pcap_dlt_2;
+        return_value_libtrace_to_pcap_dlt_2=libtrace_to_pcap_dlt(linktype);
+        struct pcap *return_value_pcap_open_dead_3;
+        return_value_pcap_open_dead_3=pcap_open_dead((signed int)return_value_libtrace_to_pcap_dlt_2, (signed int)1500U);
+        pcap = (struct pcap *)return_value_pcap_open_dead_3;
         /* assertion pcap */
         assert(pcap != ((struct pcap *)NULL));
-        signed int return_value_pcap_compile$5;
-        return_value_pcap_compile$5=pcap_compile(pcap, &filter->filter, filter->filterstring, 1, (unsigned int)0);
-        if(!(return_value_pcap_compile$5 == 0))
+        signed int return_value_pcap_compile_5;
+        return_value_pcap_compile_5=pcap_compile(pcap, &filter->filter, filter->filterstring, 1, (unsigned int)0);
+        if(!(return_value_pcap_compile_5 == 0))
         {
-          char *return_value_pcap_geterr$4;
-          return_value_pcap_geterr$4=pcap_geterr(pcap);
-          trace_set_err(packet->trace, -9, "Unable to compile the filter \"%s\": %s", filter->filterstring, return_value_pcap_geterr$4);
+          char *return_value_pcap_geterr_4;
+          return_value_pcap_geterr_4=pcap_geterr(pcap);
+          trace_set_err(packet->trace, -9, "Unable to compile the filter \"%s\": %s", filter->filterstring, return_value_pcap_geterr_4);
           pcap_close(pcap);
           return -1;
         }
@@ -8324,7 +8324,7 @@ void trace_clear_cache(struct libtrace_packet_t *packet)
   packet->l2_header = (void *)0;
   packet->l3_header = (void *)0;
   packet->l4_header = (void *)0;
-  packet->link_type = (enum anonymous$18)0;
+  packet->link_type = (enum anonymous_18)0;
   packet->l3_ethertype = (unsigned short int)0;
   packet->transport_proto = (unsigned char)0;
   packet->capture_length = -1;
@@ -8337,23 +8337,23 @@ void trace_clear_cache(struct libtrace_packet_t *packet)
 
 // trace_config
 // file trace.c line 498
-signed int trace_config(struct libtrace_t *libtrace, enum anonymous$13 option, void *value)
+signed int trace_config(struct libtrace_t *libtrace, enum anonymous_13 option, void *value)
 {
   signed int ret;
-  _Bool return_value_trace_is_err$1;
-  return_value_trace_is_err$1=trace_is_err(libtrace);
-  _Bool return_value_trace_is_err$2;
-  _Bool tmp_if_expr$3;
-  _Bool return_value_trace_is_err$4;
-  _Bool return_value_trace_is_err$5;
-  _Bool return_value_trace_is_err$6;
-  _Bool return_value_trace_is_err$7;
-  _Bool return_value_trace_is_err$8;
-  if(!(return_value_trace_is_err$1 == (_Bool)0))
+  _Bool return_value_trace_is_err_1;
+  return_value_trace_is_err_1=trace_is_err(libtrace);
+  _Bool return_value_trace_is_err_2;
+  _Bool tmp_if_expr_3;
+  _Bool return_value_trace_is_err_4;
+  _Bool return_value_trace_is_err_5;
+  _Bool return_value_trace_is_err_6;
+  _Bool return_value_trace_is_err_7;
+  _Bool return_value_trace_is_err_8;
+  if(!(return_value_trace_is_err_1 == (_Bool)0))
     return -1;
 
   else
-    if(!(libtrace->format->config_input == ((signed int (*)(struct libtrace_t *, enum anonymous$13, void *))NULL)))
+    if(!(libtrace->format->config_input == ((signed int (*)(struct libtrace_t *, enum anonymous_13, void *))NULL)))
     {
       ret=libtrace->format->config_input(libtrace, option, value);
       return 0;
@@ -8364,16 +8364,16 @@ signed int trace_config(struct libtrace_t *libtrace, enum anonymous$13 option, v
       {
         case TRACE_OPTION_SNAPLEN:
         {
-          return_value_trace_is_err$2=trace_is_err(libtrace);
-          if(!(return_value_trace_is_err$2 == (_Bool)0))
+          return_value_trace_is_err_2=trace_is_err(libtrace);
+          if(!(return_value_trace_is_err_2 == (_Bool)0))
             trace_get_err(libtrace);
 
           if(!(*((signed int *)value) >= 0))
-            tmp_if_expr$3 = (_Bool)1;
+            tmp_if_expr_3 = (_Bool)1;
 
           else
-            tmp_if_expr$3 = *((signed int *)value) > 65536 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$3)
+            tmp_if_expr_3 = *((signed int *)value) > 65536 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_3)
             trace_set_err(libtrace, -8, "Invalid snap length");
 
           libtrace->snaplen = (unsigned long int)*((signed int *)value);
@@ -8381,8 +8381,8 @@ signed int trace_config(struct libtrace_t *libtrace, enum anonymous$13 option, v
         }
         case TRACE_OPTION_FILTER:
         {
-          return_value_trace_is_err$4=trace_is_err(libtrace);
-          if(!(return_value_trace_is_err$4 == (_Bool)0))
+          return_value_trace_is_err_4=trace_is_err(libtrace);
+          if(!(return_value_trace_is_err_4 == (_Bool)0))
             trace_get_err(libtrace);
 
           libtrace->filter = (struct libtrace_filter_t *)value;
@@ -8390,32 +8390,32 @@ signed int trace_config(struct libtrace_t *libtrace, enum anonymous$13 option, v
         }
         case TRACE_OPTION_PROMISC:
         {
-          return_value_trace_is_err$5=trace_is_err(libtrace);
-          if(return_value_trace_is_err$5 == (_Bool)0)
+          return_value_trace_is_err_5=trace_is_err(libtrace);
+          if(return_value_trace_is_err_5 == (_Bool)0)
             trace_set_err(libtrace, -6, "Promisc mode is not supported by this format module");
 
           return -1;
         }
         case TRACE_OPTION_META_FREQ:
         {
-          return_value_trace_is_err$6=trace_is_err(libtrace);
-          if(return_value_trace_is_err$6 == (_Bool)0)
+          return_value_trace_is_err_6=trace_is_err(libtrace);
+          if(return_value_trace_is_err_6 == (_Bool)0)
             trace_set_err(libtrace, -6, "This format does not support meta-data gathering");
 
           return -1;
         }
         case TRACE_OPTION_EVENT_REALTIME:
         {
-          return_value_trace_is_err$7=trace_is_err(libtrace);
-          if(return_value_trace_is_err$7 == (_Bool)0)
+          return_value_trace_is_err_7=trace_is_err(libtrace);
+          if(return_value_trace_is_err_7 == (_Bool)0)
             trace_set_err(libtrace, -6, "This format does not support realtime events");
 
           return -1;
         }
         default:
         {
-          return_value_trace_is_err$8=trace_is_err(libtrace);
-          if(return_value_trace_is_err$8 == (_Bool)0)
+          return_value_trace_is_err_8=trace_is_err(libtrace);
+          if(return_value_trace_is_err_8 == (_Bool)0)
             trace_set_err(libtrace, -3, "Unknown option %i", option);
 
           return -1;
@@ -8425,9 +8425,9 @@ signed int trace_config(struct libtrace_t *libtrace, enum anonymous$13 option, v
 
 // trace_config_output
 // file ../../lib/libtrace.h line 1265
-signed int trace_config_output(struct libtrace_out_t *libtrace, enum anonymous$14 option, void *value)
+signed int trace_config_output(struct libtrace_out_t *libtrace, enum anonymous_14 option, void *value)
 {
-  if(!(libtrace->format->config_output == ((signed int (*)(struct libtrace_out_t *, enum anonymous$14, void *))NULL)))
+  if(!(libtrace->format->config_output == ((signed int (*)(struct libtrace_out_t *, enum anonymous_14, void *))NULL)))
   {
     signed int return_value;
     return_value=libtrace->format->config_output(libtrace, option, value);
@@ -8439,7 +8439,7 @@ signed int trace_config_output(struct libtrace_out_t *libtrace, enum anonymous$1
 
 // trace_construct_packet
 // file trace.c line 1749
-void trace_construct_packet(struct libtrace_packet_t *packet, enum anonymous$18 linktype, const void *data, unsigned short int len)
+void trace_construct_packet(struct libtrace_packet_t *packet, enum anonymous_18 linktype, const void *data, unsigned short int len)
 {
   unsigned long int size;
   struct libtrace_pcapfile_pkt_hdr_t hdr;
@@ -8460,14 +8460,14 @@ void trace_construct_packet(struct libtrace_packet_t *packet, enum anonymous$18 
 
   else
     packet->buffer=malloc(size);
-  packet->buf_control = (enum anonymous$17)TRACE_CTRL_PACKET;
+  packet->buf_control = (enum anonymous_17)TRACE_CTRL_PACKET;
   packet->header = packet->buffer;
   packet->payload = (void *)((char *)packet->buffer + (signed long int)sizeof(struct libtrace_pcapfile_pkt_hdr_t) /*16ul*/ );
   memcpy(packet->header, (const void *)&hdr, sizeof(struct libtrace_pcapfile_pkt_hdr_t) /*16ul*/ );
   memcpy(packet->payload, data, (unsigned long int)len);
-  enum anonymous$24 return_value_libtrace_to_pcap_linktype$1;
-  return_value_libtrace_to_pcap_linktype$1=libtrace_to_pcap_linktype(linktype);
-  packet->type=pcap_linktype_to_rt(return_value_libtrace_to_pcap_linktype$1);
+  enum anonymous_24 return_value_libtrace_to_pcap_linktype_1;
+  return_value_libtrace_to_pcap_linktype_1=libtrace_to_pcap_linktype(linktype);
+  packet->type=pcap_linktype_to_rt(return_value_libtrace_to_pcap_linktype_1);
   trace_clear_cache(packet);
 }
 
@@ -8476,9 +8476,9 @@ void trace_construct_packet(struct libtrace_packet_t *packet, enum anonymous$18 
 struct libtrace_packet_t * trace_copy_packet(const struct libtrace_packet_t *packet)
 {
   struct libtrace_packet_t *dest;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct libtrace_packet_t) /*104ul*/ );
-  dest = (struct libtrace_packet_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct libtrace_packet_t) /*104ul*/ );
+  dest = (struct libtrace_packet_t *)return_value_malloc_1;
   if(dest == ((struct libtrace_packet_t *)NULL))
   {
     printf("Out of memory constructing packet\n");
@@ -8494,18 +8494,18 @@ struct libtrace_packet_t * trace_copy_packet(const struct libtrace_packet_t *pac
   }
 
   dest->header = dest->buffer;
-  unsigned long int return_value_trace_get_framing_length$2;
-  return_value_trace_get_framing_length$2=trace_get_framing_length(packet);
-  dest->payload = (void *)((char *)dest->buffer + (signed long int)return_value_trace_get_framing_length$2);
+  unsigned long int return_value_trace_get_framing_length_2;
+  return_value_trace_get_framing_length_2=trace_get_framing_length(packet);
+  dest->payload = (void *)((char *)dest->buffer + (signed long int)return_value_trace_get_framing_length_2);
   dest->type = packet->type;
-  dest->buf_control = (enum anonymous$17)TRACE_CTRL_PACKET;
+  dest->buf_control = (enum anonymous_17)TRACE_CTRL_PACKET;
   trace_clear_cache(dest);
-  unsigned long int return_value_trace_get_framing_length$3;
-  return_value_trace_get_framing_length$3=trace_get_framing_length(packet);
-  memcpy(dest->header, packet->header, return_value_trace_get_framing_length$3);
-  unsigned long int return_value_trace_get_capture_length$4;
-  return_value_trace_get_capture_length$4=trace_get_capture_length(packet);
-  memcpy(dest->payload, packet->payload, return_value_trace_get_capture_length$4);
+  unsigned long int return_value_trace_get_framing_length_3;
+  return_value_trace_get_framing_length_3=trace_get_framing_length(packet);
+  memcpy(dest->header, packet->header, return_value_trace_get_framing_length_3);
+  unsigned long int return_value_trace_get_capture_length_4;
+  return_value_trace_get_capture_length_4=trace_get_capture_length(packet);
+  memcpy(dest->payload, packet->payload, return_value_trace_get_capture_length_4);
   return dest;
 }
 
@@ -8514,16 +8514,16 @@ struct libtrace_packet_t * trace_copy_packet(const struct libtrace_packet_t *pac
 struct libtrace_t * trace_create(const char *uri)
 {
   struct libtrace_t *libtrace;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct libtrace_t) /*360ul*/ );
-  libtrace = (struct libtrace_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct libtrace_t) /*360ul*/ );
+  libtrace = (struct libtrace_t *)return_value_malloc_1;
   char *scan = ((char *)NULL);
   const char *uridata = ((const char *)NULL);
   trace_init();
   /* assertion uri && "Passing NULL to trace_create makes me a very sad program" */
   assert(uri != ((const char *)NULL) && (_Bool)"Passing NULL to trace_create makes me a very sad program");
-  unsigned long int return_value_strlen$2;
-  signed int return_value_strncasecmp$3;
+  unsigned long int return_value_strlen_2;
+  signed int return_value_strncasecmp_3;
   if(libtrace == ((struct libtrace_t *)NULL))
     return (struct libtrace_t *)(void *)0;
 
@@ -8560,15 +8560,15 @@ struct libtrace_t * trace_create(const char *uri)
       struct libtrace_format_t *tmp = formats_list;
       for( ; !(tmp == ((struct libtrace_format_t *)NULL)); tmp = tmp->next)
       {
-        unsigned long int return_value_strlen$4;
-        return_value_strlen$4=strlen(scan);
-        unsigned long int return_value_strlen$5;
-        return_value_strlen$5=strlen(tmp->name);
-        if(return_value_strlen$4 == return_value_strlen$5)
+        unsigned long int return_value_strlen_4;
+        return_value_strlen_4=strlen(scan);
+        unsigned long int return_value_strlen_5;
+        return_value_strlen_5=strlen(tmp->name);
+        if(return_value_strlen_4 == return_value_strlen_5)
         {
-          return_value_strlen$2=strlen(scan);
-          return_value_strncasecmp$3=strncasecmp(scan, tmp->name, return_value_strlen$2);
-          if(return_value_strncasecmp$3 == 0)
+          return_value_strlen_2=strlen(scan);
+          return_value_strncasecmp_3=strncasecmp(scan, tmp->name, return_value_strlen_2);
+          if(return_value_strncasecmp_3 == 0)
           {
             libtrace->format = tmp;
             break;
@@ -8615,13 +8615,13 @@ struct libtrace_t * trace_create(const char *uri)
 struct libtrace_t * trace_create_dead(const char *uri)
 {
   struct libtrace_t *libtrace;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct libtrace_t) /*360ul*/ );
-  libtrace = (struct libtrace_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct libtrace_t) /*360ul*/ );
+  libtrace = (struct libtrace_t *)return_value_malloc_1;
   char *scan;
-  void *return_value_calloc$2;
-  return_value_calloc$2=calloc(sizeof(char) /*1ul*/ , (unsigned long int)16U);
-  scan = (char *)return_value_calloc$2;
+  void *return_value_calloc_2;
+  return_value_calloc_2=calloc(sizeof(char) /*1ul*/ , (unsigned long int)16U);
+  scan = (char *)return_value_calloc_2;
   char *uridata;
   struct libtrace_format_t *tmp;
   trace_init();
@@ -8629,9 +8629,9 @@ struct libtrace_t * trace_create_dead(const char *uri)
   uridata=strchr(uri, 58);
   if(uridata == ((char *)NULL))
   {
-    unsigned long int return_value_strlen$3;
-    return_value_strlen$3=strlen(uri);
-    xstrncpy(scan, uri, return_value_strlen$3);
+    unsigned long int return_value_strlen_3;
+    return_value_strlen_3=strlen(uri);
+    xstrncpy(scan, uri, return_value_strlen_3);
   }
 
   else
@@ -8649,19 +8649,19 @@ struct libtrace_t * trace_create_dead(const char *uri)
   libtrace->io = (struct io_t *)(void *)0;
   libtrace->filtered_packets = (unsigned long int)0;
   tmp = formats_list;
-  unsigned long int return_value_strlen$4;
-  signed int return_value_strncasecmp$5;
+  unsigned long int return_value_strlen_4;
+  signed int return_value_strncasecmp_5;
   for( ; !(tmp == ((struct libtrace_format_t *)NULL)); tmp = tmp->next)
   {
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(scan);
-    unsigned long int return_value_strlen$7;
-    return_value_strlen$7=strlen(tmp->name);
-    if(return_value_strlen$6 == return_value_strlen$7)
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(scan);
+    unsigned long int return_value_strlen_7;
+    return_value_strlen_7=strlen(tmp->name);
+    if(return_value_strlen_6 == return_value_strlen_7)
     {
-      return_value_strlen$4=strlen(scan);
-      return_value_strncasecmp$5=strncasecmp(scan, tmp->name, return_value_strlen$4);
-      if(return_value_strncasecmp$5 == 0)
+      return_value_strlen_4=strlen(scan);
+      return_value_strncasecmp_5=strncasecmp(scan, tmp->name, return_value_strlen_4);
+      if(return_value_strncasecmp_5 == 0)
       {
         libtrace->format = tmp;
         break;
@@ -8683,9 +8683,9 @@ struct libtrace_t * trace_create_dead(const char *uri)
 struct libtrace_filter_t * trace_create_filter(const char *filterstring)
 {
   struct libtrace_filter_t *filter;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct libtrace_filter_t) /*40ul*/ );
-  filter = (struct libtrace_filter_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct libtrace_filter_t) /*40ul*/ );
+  filter = (struct libtrace_filter_t *)return_value_malloc_1;
   filter->filterstring=strdup(filterstring);
   filter->jitfilter = (struct bpf_jit_t *)(void *)0;
   filter->flag = 0;
@@ -8697,12 +8697,12 @@ struct libtrace_filter_t * trace_create_filter(const char *filterstring)
 struct libtrace_filter_t * trace_create_filter_from_bytecode(void *bf_insns, unsigned int bf_len)
 {
   struct libtrace_filter_t *filter;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct libtrace_filter_t) /*40ul*/ );
-  filter = (struct libtrace_filter_t *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(struct bpf_insn) /*8ul*/  * (unsigned long int)bf_len);
-  filter->filter.bf_insns = (struct bpf_insn *)return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct libtrace_filter_t) /*40ul*/ );
+  filter = (struct libtrace_filter_t *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(struct bpf_insn) /*8ul*/  * (unsigned long int)bf_len);
+  filter->filter.bf_insns = (struct bpf_insn *)return_value_malloc_2;
   memcpy((void *)filter->filter.bf_insns, bf_insns, (unsigned long int)bf_len * sizeof(struct bpf_insn) /*8ul*/ );
   filter->filter.bf_len = bf_len;
   filter->filterstring = (char *)(void *)0;
@@ -8716,9 +8716,9 @@ struct libtrace_filter_t * trace_create_filter_from_bytecode(void *bf_insns, uns
 struct libtrace_out_t * trace_create_output(const char *uri)
 {
   struct libtrace_out_t *libtrace;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct libtrace_out_t) /*288ul*/ );
-  libtrace = (struct libtrace_out_t *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct libtrace_out_t) /*288ul*/ );
+  libtrace = (struct libtrace_out_t *)return_value_malloc_1;
   char *scan = ((char *)NULL);
   const char *uridata = ((const char *)NULL);
   struct libtrace_format_t *tmp;
@@ -8728,8 +8728,8 @@ struct libtrace_out_t * trace_create_output(const char *uri)
   libtrace->format = (struct libtrace_format_t *)(void *)0;
   libtrace->uridata = (char *)(void *)0;
   uridata=trace_parse_uri(uri, &scan);
-  unsigned long int return_value_strlen$2;
-  signed int return_value_strncasecmp$3;
+  unsigned long int return_value_strlen_2;
+  signed int return_value_strncasecmp_3;
   if(uridata == ((const char *)NULL))
   {
     trace_set_err_out(libtrace, -1, "Bad uri format (%s)", uri);
@@ -8741,15 +8741,15 @@ struct libtrace_out_t * trace_create_output(const char *uri)
     tmp = formats_list;
     for( ; !(tmp == ((struct libtrace_format_t *)NULL)); tmp = tmp->next)
     {
-      unsigned long int return_value_strlen$4;
-      return_value_strlen$4=strlen(scan);
-      unsigned long int return_value_strlen$5;
-      return_value_strlen$5=strlen(tmp->name);
-      if(return_value_strlen$4 == return_value_strlen$5)
+      unsigned long int return_value_strlen_4;
+      return_value_strlen_4=strlen(scan);
+      unsigned long int return_value_strlen_5;
+      return_value_strlen_5=strlen(tmp->name);
+      if(return_value_strlen_4 == return_value_strlen_5)
       {
-        return_value_strlen$2=strlen(scan);
-        return_value_strncasecmp$3=strncasecmp(scan, tmp->name, return_value_strlen$2);
-        if(return_value_strncasecmp$3 == 0)
+        return_value_strlen_2=strlen(scan);
+        return_value_strncasecmp_3=strncasecmp(scan, tmp->name, return_value_strlen_2);
+        if(return_value_strncasecmp_3 == 0)
         {
           libtrace->format = tmp;
           break;
@@ -8795,10 +8795,10 @@ struct libtrace_out_t * trace_create_output(const char *uri)
 struct libtrace_packet_t * trace_create_packet(void)
 {
   struct libtrace_packet_t *packet;
-  void *return_value_calloc$1;
-  return_value_calloc$1=calloc((unsigned long int)1, sizeof(struct libtrace_packet_t) /*104ul*/ );
-  packet = (struct libtrace_packet_t *)return_value_calloc$1;
-  packet->buf_control = (enum anonymous$17)TRACE_CTRL_PACKET;
+  void *return_value_calloc_1;
+  return_value_calloc_1=calloc((unsigned long int)1, sizeof(struct libtrace_packet_t) /*104ul*/ );
+  packet = (struct libtrace_packet_t *)return_value_calloc_1;
+  packet->buf_control = (enum anonymous_17)TRACE_CTRL_PACKET;
   trace_clear_cache(packet);
   return packet;
 }
@@ -8885,7 +8885,7 @@ void trace_destroy_packet(struct libtrace_packet_t *packet)
 
   }
 
-  packet->buf_control = (enum anonymous$17)0;
+  packet->buf_control = (enum anonymous_17)0;
   free((void *)packet);
 }
 
@@ -8925,7 +8925,7 @@ char * trace_ether_ntoa(const unsigned char *addr, char *buf)
 // file trace.c line 1103
 struct libtrace_eventobj_t trace_event(struct libtrace_t *trace, struct libtrace_packet_t *packet)
 {
-  struct libtrace_eventobj_t event = { .type=(enum anonymous$16)TRACE_EVENT_IOWAIT, .fd=0,
+  struct libtrace_eventobj_t event = { .type=(enum anonymous_16)TRACE_EVENT_IOWAIT, .fd=0,
     .seconds=0.0, .size=0 };
   if(trace == ((struct libtrace_t *)NULL))
     fprintf(stderr, "You called trace_event() with a NULL trace object!\n");
@@ -8970,18 +8970,18 @@ unsigned long int trace_get_capture_length(const struct libtrace_packet_t *packe
 
 // trace_get_direction
 // file trace.c line 1372
-enum anonymous$20 trace_get_direction(const struct libtrace_packet_t *packet)
+enum anonymous_20 trace_get_direction(const struct libtrace_packet_t *packet)
 {
   /* assertion packet */
   assert(packet != ((const struct libtrace_packet_t *)NULL));
-  if(!(packet->trace->format->get_direction == ((enum anonymous$20 (*)(const struct libtrace_packet_t *))NULL)))
+  if(!(packet->trace->format->get_direction == ((enum anonymous_20 (*)(const struct libtrace_packet_t *))NULL)))
   {
-    enum anonymous$20 return_value;
+    enum anonymous_20 return_value;
     return_value=packet->trace->format->get_direction(packet);
     return return_value;
   }
 
-  return (enum anonymous$20)~0U;
+  return (enum anonymous_20)~0U;
 }
 
 // trace_get_dropped_packets
@@ -9107,12 +9107,12 @@ void * trace_get_link(const struct libtrace_packet_t *packet)
 
 // trace_get_link_type
 // file trace.c line 1080
-enum anonymous$18 trace_get_link_type(const struct libtrace_packet_t *packet)
+enum anonymous_18 trace_get_link_type(const struct libtrace_packet_t *packet)
 {
   if((signed int)packet->link_type == 0)
   {
-    if(packet->trace->format->get_link_type == ((enum anonymous$18 (*)(const struct libtrace_packet_t *))NULL))
-      return (enum anonymous$18)TRACE_TYPE_UNKNOWN;
+    if(packet->trace->format->get_link_type == ((enum anonymous_18 (*)(const struct libtrace_packet_t *))NULL))
+      return (enum anonymous_18)TRACE_TYPE_UNKNOWN;
 
     ((struct libtrace_packet_t *)packet)->link_type=packet->trace->format->get_link_type(packet);
   }
@@ -9122,23 +9122,23 @@ enum anonymous$18 trace_get_link_type(const struct libtrace_packet_t *packet)
 
 // trace_get_packet_buffer
 // file trace.c line 832
-void * trace_get_packet_buffer(const struct libtrace_packet_t *packet, enum anonymous$18 *linktype, unsigned int *remaining)
+void * trace_get_packet_buffer(const struct libtrace_packet_t *packet, enum anonymous_18 *linktype, unsigned int *remaining)
 {
   signed int cap_len;
   signed int wire_len;
   /* assertion packet != ((void *)0) */
   assert(packet != (const struct libtrace_packet_t *)(void *)0);
-  if(!(linktype == ((enum anonymous$18 *)NULL)))
+  if(!(linktype == ((enum anonymous_18 *)NULL)))
     *linktype=trace_get_link_type(packet);
 
   if(!(remaining == ((unsigned int *)NULL)))
   {
-    unsigned long int return_value_trace_get_capture_length$1;
-    return_value_trace_get_capture_length$1=trace_get_capture_length(packet);
-    cap_len = (signed int)return_value_trace_get_capture_length$1;
-    unsigned long int return_value_trace_get_wire_length$2;
-    return_value_trace_get_wire_length$2=trace_get_wire_length(packet);
-    wire_len = (signed int)return_value_trace_get_wire_length$2;
+    unsigned long int return_value_trace_get_capture_length_1;
+    return_value_trace_get_capture_length_1=trace_get_capture_length(packet);
+    cap_len = (signed int)return_value_trace_get_capture_length_1;
+    unsigned long int return_value_trace_get_wire_length_2;
+    return_value_trace_get_wire_length_2=trace_get_wire_length(packet);
+    wire_len = (signed int)return_value_trace_get_wire_length_2;
     /* assertion cap_len >= 0 */
     assert(cap_len >= 0);
     if(!(wire_len >= 0))
@@ -9182,9 +9182,9 @@ double trace_get_seconds(const struct libtrace_packet_t *packet)
   else
     if(!(packet->trace->format->get_erf_timestamp == ((unsigned long int (*)(const struct libtrace_packet_t *))NULL)))
     {
-      unsigned long int trace_get_seconds$$1$$2$$ts = (unsigned long int)0;
-      trace_get_seconds$$1$$2$$ts=packet->trace->format->get_erf_timestamp(packet);
-      seconds = (double)(trace_get_seconds$$1$$2$$ts >> 32) + ((double)(trace_get_seconds$$1$$2$$ts & (unsigned long int)((unsigned int)0x7fffffff * 2U + 1U)) * 1.0) / (double)((unsigned int)0x7fffffff * 2U + 1U);
+      unsigned long int trace_get_seconds__1__2__ts = (unsigned long int)0;
+      trace_get_seconds__1__2__ts=packet->trace->format->get_erf_timestamp(packet);
+      seconds = (double)(trace_get_seconds__1__2__ts >> 32) + ((double)(trace_get_seconds__1__2__ts & (unsigned long int)((unsigned int)0x7fffffff * 2U + 1U)) * 1.0) / (double)((unsigned int)0x7fffffff * 2U + 1U);
     }
 
     else
@@ -9398,10 +9398,10 @@ struct timeval trace_get_timeval(const struct libtrace_packet_t *packet)
     else
       if(!(packet->trace->format->get_timespec == ((struct timespec (*)(const struct libtrace_packet_t *))NULL)))
       {
-        struct timespec trace_get_timeval$$1$$3$$ts;
-        trace_get_timeval$$1$$3$$ts=packet->trace->format->get_timespec(packet);
-        tv.tv_sec = trace_get_timeval$$1$$3$$ts.tv_sec;
-        tv.tv_usec = trace_get_timeval$$1$$3$$ts.tv_nsec / (signed long int)1000;
+        struct timespec trace_get_timeval__1__3__ts;
+        trace_get_timeval__1__3__ts=packet->trace->format->get_timespec(packet);
+        tv.tv_sec = trace_get_timeval__1__3__ts.tv_sec;
+        tv.tv_usec = trace_get_timeval__1__3__ts.tv_nsec / (signed long int)1000;
       }
 
       else
@@ -9572,15 +9572,15 @@ void trace_perror_output(struct libtrace_out_t *trace, const char *msg, ...)
   void **va = (void **)&msg;
   vsnprintf(buf, sizeof(char [256l]) /*256ul*/ , msg, va);
   va = ((void **)NULL);
-  char *tmp_if_expr$1;
+  char *tmp_if_expr_1;
   if(!(trace->err.err_num == 0))
   {
     if(!(trace->uridata == ((char *)NULL)))
-      tmp_if_expr$1 = trace->uridata;
+      tmp_if_expr_1 = trace->uridata;
 
     else
-      tmp_if_expr$1 = "no uri";
-    fprintf(stderr, "%s(%s): %s\n", (const void *)buf, tmp_if_expr$1, (const void *)trace->err.problem);
+      tmp_if_expr_1 = "no uri";
+    fprintf(stderr, "%s(%s): %s\n", (const void *)buf, tmp_if_expr_1, (const void *)trace->err.problem);
   }
 
   else
@@ -9591,24 +9591,24 @@ void trace_perror_output(struct libtrace_out_t *trace, const char *msg, ...)
 
 // trace_prepare_packet
 // file trace.c line 777
-signed int trace_prepare_packet(struct libtrace_t *trace, struct libtrace_packet_t *packet, void *buffer, enum anonymous$21 rt_type, unsigned int flags)
+signed int trace_prepare_packet(struct libtrace_t *trace, struct libtrace_packet_t *packet, void *buffer, enum anonymous_21 rt_type, unsigned int flags)
 {
   /* assertion packet */
   assert(packet != ((struct libtrace_packet_t *)NULL));
   /* assertion trace */
   assert(trace != ((struct libtrace_t *)NULL));
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(buffer == NULL)
     return -1;
 
   else
   {
     if((signed int)packet->buf_control == TRACE_CTRL_PACKET)
-      tmp_if_expr$1 = (_Bool)1;
+      tmp_if_expr_1 = (_Bool)1;
 
     else
-      tmp_if_expr$1 = (signed int)packet->buf_control == TRACE_CTRL_EXTERNAL ? (_Bool)1 : (_Bool)0;
-    if(!tmp_if_expr$1)
+      tmp_if_expr_1 = (signed int)packet->buf_control == TRACE_CTRL_EXTERNAL ? (_Bool)1 : (_Bool)0;
+    if(!tmp_if_expr_1)
     {
       trace_set_err(trace, -8, "Packet passed to trace_read_packet() is invalid\n");
       return -1;
@@ -9618,7 +9618,7 @@ signed int trace_prepare_packet(struct libtrace_t *trace, struct libtrace_packet
     {
       packet->trace = trace;
       trace_clear_cache(packet);
-      if(!(trace->format->prepare_packet == ((signed int (*)(struct libtrace_t *, struct libtrace_packet_t *, void *, enum anonymous$21, unsigned int))NULL)))
+      if(!(trace->format->prepare_packet == ((signed int (*)(struct libtrace_t *, struct libtrace_packet_t *, void *, enum anonymous_21, unsigned int))NULL)))
       {
         signed int return_value;
         return_value=trace->format->prepare_packet(trace, packet, buffer, rt_type, flags);
@@ -9637,10 +9637,10 @@ signed int trace_read_packet(struct libtrace_t *libtrace, struct libtrace_packet
 {
   /* assertion libtrace && "You called trace_read_packet() with a NULL libtrace parameter!\n" */
   assert(libtrace != ((struct libtrace_t *)NULL) && (_Bool)"You called trace_read_packet() with a NULL libtrace parameter!\n");
-  _Bool return_value_trace_is_err$1;
-  return_value_trace_is_err$1=trace_is_err(libtrace);
-  _Bool tmp_if_expr$2;
-  if(!(return_value_trace_is_err$1 == (_Bool)0))
+  _Bool return_value_trace_is_err_1;
+  return_value_trace_is_err_1=trace_is_err(libtrace);
+  _Bool tmp_if_expr_2;
+  if(!(return_value_trace_is_err_1 == (_Bool)0))
     return -1;
 
   else
@@ -9653,11 +9653,11 @@ signed int trace_read_packet(struct libtrace_t *libtrace, struct libtrace_packet
     else
     {
       if((signed int)packet->buf_control == TRACE_CTRL_PACKET)
-        tmp_if_expr$2 = (_Bool)1;
+        tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr$2 = (signed int)packet->buf_control == TRACE_CTRL_EXTERNAL ? (_Bool)1 : (_Bool)0;
-      if(!tmp_if_expr$2)
+        tmp_if_expr_2 = (signed int)packet->buf_control == TRACE_CTRL_EXTERNAL ? (_Bool)1 : (_Bool)0;
+      if(!tmp_if_expr_2)
       {
         trace_set_err(libtrace, -8, "Packet passed to trace_read_packet() is invalid\n");
         return -1;
@@ -9838,18 +9838,18 @@ unsigned long int trace_set_capture_length(struct libtrace_packet_t *packet, uns
 
 // trace_set_direction
 // file trace.c line 1354
-enum anonymous$20 trace_set_direction(struct libtrace_packet_t *packet, enum anonymous$20 direction)
+enum anonymous_20 trace_set_direction(struct libtrace_packet_t *packet, enum anonymous_20 direction)
 {
   /* assertion packet */
   assert(packet != ((struct libtrace_packet_t *)NULL));
-  if(!(packet->trace->format->set_direction == ((enum anonymous$20 (*)(struct libtrace_packet_t *, enum anonymous$20))NULL)))
+  if(!(packet->trace->format->set_direction == ((enum anonymous_20 (*)(struct libtrace_packet_t *, enum anonymous_20))NULL)))
   {
-    enum anonymous$20 return_value;
+    enum anonymous_20 return_value;
     return_value=packet->trace->format->set_direction(packet, direction);
     return return_value;
   }
 
-  return (enum anonymous$20)~0U;
+  return (enum anonymous_20)~0U;
 }
 
 // trace_start
@@ -9858,9 +9858,9 @@ signed int trace_start(struct libtrace_t *libtrace)
 {
   /* assertion libtrace */
   assert(libtrace != ((struct libtrace_t *)NULL));
-  _Bool return_value_trace_is_err$1;
-  return_value_trace_is_err$1=trace_is_err(libtrace);
-  if(!(return_value_trace_is_err$1 == (_Bool)0))
+  _Bool return_value_trace_is_err_1;
+  return_value_trace_is_err_1=trace_is_err(libtrace);
+  if(!(return_value_trace_is_err_1 == (_Bool)0))
     return -1;
 
   else
@@ -9931,13 +9931,13 @@ signed int trace_write_packet(struct libtrace_out_t *libtrace, struct libtrace_p
 static void update_in_cksum(unsigned short int *csum, unsigned short int old, unsigned short int new)
 {
   unsigned int sum;
-  unsigned short int return_value_htons$1;
-  return_value_htons$1=htons(*csum);
-  unsigned short int return_value_htons$2;
-  return_value_htons$2=htons(old);
-  unsigned short int return_value_htons$3;
-  return_value_htons$3=htons(new);
-  sum = (unsigned int)((~((signed int)return_value_htons$1) & 0xFFFF) + (~((signed int)return_value_htons$2) & 0xFFFF) + (signed int)return_value_htons$3);
+  unsigned short int return_value_htons_1;
+  return_value_htons_1=htons(*csum);
+  unsigned short int return_value_htons_2;
+  return_value_htons_2=htons(old);
+  unsigned short int return_value_htons_3;
+  return_value_htons_3=htons(new);
+  sum = (unsigned int)((~((signed int)return_value_htons_1) & 0xFFFF) + (~((signed int)return_value_htons_2) & 0xFFFF) + (signed int)return_value_htons_3);
   sum = (sum & (unsigned int)0xFFFF) + (sum >> 16);
   *csum=htons((unsigned short int)~(sum + (sum >> 16)));
 }
@@ -9963,9 +9963,9 @@ static void usage(char *argv0)
 struct io_t * wandio_create(const char *filename)
 {
   parse_env();
-  struct io_t *return_value_create_io_reader$1;
-  return_value_create_io_reader$1=create_io_reader(filename, use_autodetect);
-  return return_value_create_io_reader$1;
+  struct io_t *return_value_create_io_reader_1;
+  return_value_create_io_reader_1=create_io_reader(filename, use_autodetect);
+  return return_value_create_io_reader_1;
 }
 
 // wandio_create_uncompressed
@@ -9973,9 +9973,9 @@ struct io_t * wandio_create(const char *filename)
 struct io_t * wandio_create_uncompressed(const char *filename)
 {
   parse_env();
-  struct io_t *return_value_create_io_reader$1;
-  return_value_create_io_reader$1=create_io_reader(filename, 0);
-  return return_value_create_io_reader$1;
+  struct io_t *return_value_create_io_reader_1;
+  return_value_create_io_reader_1=create_io_reader(filename, 0);
+  return return_value_create_io_reader_1;
 }
 
 // wandio_destroy
@@ -9997,16 +9997,16 @@ void wandio_destroy(struct io_t *io)
 struct wandio_compression_type * wandio_lookup_compression_type(const char *name)
 {
   struct wandio_compression_type *wct = compression_type;
-  signed int return_value_strcmp$1;
+  signed int return_value_strcmp_1;
   do
   {
-    return_value_strcmp$1=strcmp(wct->name, "NONE");
-    if(return_value_strcmp$1 == 0)
+    return_value_strcmp_1=strcmp(wct->name, "NONE");
+    if(return_value_strcmp_1 == 0)
       break;
 
-    signed int return_value_strcmp$2;
-    return_value_strcmp$2=strcmp(wct->name, name);
-    if(return_value_strcmp$2 == 0)
+    signed int return_value_strcmp_2;
+    return_value_strcmp_2=strcmp(wct->name, name);
+    if(return_value_strcmp_2 == 0)
       return wct;
 
     wct = wct + 1l;
@@ -10041,9 +10041,9 @@ signed long int wandio_seek(struct io_t *io, signed long int offset, signed int 
 {
   if(io->source->seek == ((signed long int (*)(struct io_t *, signed long int, signed int))NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = -38;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = -38;
     return (signed long int)-1;
   }
 
@@ -10058,9 +10058,9 @@ signed long int wandio_tell(struct io_t *io)
 {
   if(io->source->tell == ((signed long int (*)(struct io_t *))NULL))
   {
-    signed int *return_value___errno_location$1;
-    return_value___errno_location$1=__errno_location();
-    *return_value___errno_location$1 = -38;
+    signed int *return_value___errno_location_1;
+    return_value___errno_location_1=__errno_location();
+    *return_value___errno_location_1 = -38;
     return (signed long int)-1;
   }
 
@@ -10080,7 +10080,7 @@ struct iow_t * wandio_wcreate(const char *filename, signed int compress_type, si
   /* assertion compress_type != WANDIO_COMPRESS_MASK */
   assert(compress_type != 7);
   iow=stdio_wopen(filename, flags);
-  struct iow_t *return_value_thread_wopen$1;
+  struct iow_t *return_value_thread_wopen_1;
   if(iow == ((struct iow_t *)NULL))
     return (struct iow_t *)(void *)0;
 
@@ -10099,8 +10099,8 @@ struct iow_t * wandio_wcreate(const char *filename, signed int compress_type, si
 
     if(!(use_threads == 0u))
     {
-      return_value_thread_wopen$1=thread_wopen(iow);
-      return return_value_thread_wopen$1;
+      return_value_thread_wopen_1=thread_wopen(iow);
+      return return_value_thread_wopen_1;
     }
 
     else
@@ -10140,9 +10140,9 @@ static void xstrncpy(char *dest, const char *src, unsigned long int n)
 static char * xstrndup(const char *src, unsigned long int n)
 {
   char *ret;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(n + (unsigned long int)1);
-  ret = (char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(n + (unsigned long int)1);
+  ret = (char *)return_value_malloc_1;
   if(ret == ((char *)NULL))
   {
     fprintf(stderr, "Out of memory");
@@ -10173,9 +10173,9 @@ struct io_t * zlib_open(struct io_t *parent)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct io_t) /*16ul*/ );
-    io = (struct io_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct io_t) /*16ul*/ );
+    io = (struct io_t *)return_value_malloc_1;
     io->source = &zlib_source;
     io->data=malloc(sizeof(struct zlib_t) /*1048704ul*/ );
     ((struct zlib_t *)io->data)->parent = parent;
@@ -10203,9 +10203,9 @@ static signed long int zlib_read(struct io_t *io, void *buffer, signed long int 
   {
     if((signed int)((struct zlib_t *)io->data)->err == ERR_ERROR)
     {
-      signed int *return_value___errno_location$1;
-      return_value___errno_location$1=__errno_location();
-      *return_value___errno_location$1 = 5;
+      signed int *return_value___errno_location_1;
+      return_value___errno_location_1=__errno_location();
+      *return_value___errno_location_1 = 5;
       return (signed long int)-1;
     }
 
@@ -10219,9 +10219,9 @@ static signed long int zlib_read(struct io_t *io, void *buffer, signed long int 
       while(!(((struct zlib_t *)io->data)->strm.avail_in >= 1u))
       {
         signed int bytes_read;
-        signed long int return_value_wandio_read$2;
-        return_value_wandio_read$2=wandio_read(((struct zlib_t *)io->data)->parent, (void *)(char *)((struct zlib_t *)io->data)->inbuff, (signed long int)sizeof(unsigned char [1048576l]) /*1048576ul*/ );
-        bytes_read = (signed int)return_value_wandio_read$2;
+        signed long int return_value_wandio_read_2;
+        return_value_wandio_read_2=wandio_read(((struct zlib_t *)io->data)->parent, (void *)(char *)((struct zlib_t *)io->data)->inbuff, (signed long int)sizeof(unsigned char [1048576l]) /*1048576ul*/ );
+        bytes_read = (signed int)return_value_wandio_read_2;
         if(bytes_read == 0)
         {
           if(((struct zlib_t *)io->data)->strm.avail_out == (unsigned int)len)
@@ -10263,9 +10263,9 @@ static signed long int zlib_read(struct io_t *io, void *buffer, signed long int 
         }
         default:
         {
-          signed int *return_value___errno_location$3;
-          return_value___errno_location$3=__errno_location();
-          *return_value___errno_location$3 = 5;
+          signed int *return_value___errno_location_3;
+          return_value___errno_location_3=__errno_location();
+          *return_value___errno_location_3 = 5;
           ((struct zlib_t *)io->data)->err = (enum err_t)ERR_ERROR;
         }
       }
@@ -10311,9 +10311,9 @@ struct iow_t * zlib_wopen(struct iow_t *child, signed int compress_level)
 
   else
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc(sizeof(struct iow_t) /*16ul*/ );
-    iow = (struct iow_t *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc(sizeof(struct iow_t) /*16ul*/ );
+    iow = (struct iow_t *)return_value_malloc_1;
     iow->source = &zlib_wsource;
     iow->data=malloc(sizeof(struct zlibw_t) /*1048704ul*/ );
     ((struct zlibw_t *)iow->data)->child = child;
@@ -10353,9 +10353,9 @@ static signed long int zlib_wwrite(struct iow_t *iow, const char *buffer, signed
         while(!(((struct zlibw_t *)iow->data)->strm.avail_out >= 1u))
         {
           signed int bytes_written;
-          signed long int return_value_wandio_wwrite$1;
-          return_value_wandio_wwrite$1=wandio_wwrite(((struct zlibw_t *)iow->data)->child, (const void *)(char *)((struct zlibw_t *)iow->data)->outbuff, (signed long int)sizeof(unsigned char [1048576l]) /*1048576ul*/ );
-          bytes_written = (signed int)return_value_wandio_wwrite$1;
+          signed long int return_value_wandio_wwrite_1;
+          return_value_wandio_wwrite_1=wandio_wwrite(((struct zlibw_t *)iow->data)->child, (const void *)(char *)((struct zlibw_t *)iow->data)->outbuff, (signed long int)sizeof(unsigned char [1048576l]) /*1048576ul*/ );
+          bytes_written = (signed int)return_value_wandio_wwrite_1;
           if(!(bytes_written >= 1))
           {
             ((struct zlibw_t *)iow->data)->err = (enum err_t)ERR_ERROR;

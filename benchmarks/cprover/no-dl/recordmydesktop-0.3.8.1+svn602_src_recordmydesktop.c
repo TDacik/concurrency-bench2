@@ -1,594 +1,594 @@
-// #anon_enum$OC_CS_UNSPECIFIED=0$OC_CS_ITU_REC_470M=1$OC_CS_ITU_REC_470BG=2$OC_CS_NSPACES=3
+// #anon_enum_OC_CS_UNSPECIFIED=0_OC_CS_ITU_REC_470M=1_OC_CS_ITU_REC_470BG=2_OC_CS_NSPACES=3
 // file /usr/include/theora/theora.h line 164
-enum anonymous$143 { OC_CS_UNSPECIFIED=0, OC_CS_ITU_REC_470M=1, OC_CS_ITU_REC_470BG=2, OC_CS_NSPACES=3 };
+enum anonymous_143 { OC_CS_UNSPECIFIED=0, OC_CS_ITU_REC_470M=1, OC_CS_ITU_REC_470BG=2, OC_CS_NSPACES=3 };
 
-// #anon_enum$OC_PF_420=0$OC_PF_RSVD=1$OC_PF_422=2$OC_PF_444=3
+// #anon_enum_OC_PF_420=0_OC_PF_RSVD=1_OC_PF_422=2_OC_PF_444=3
 // file /usr/include/theora/theora.h line 178
-enum anonymous$144 { OC_PF_420=0, OC_PF_RSVD=1, OC_PF_422=2, OC_PF_444=3 };
+enum anonymous_144 { OC_PF_420=0, OC_PF_RSVD=1, OC_PF_422=2, OC_PF_444=3 };
 
-// tag-#anon#ST[*{S8}$S8$'buf'||vU64'write_ptr'||vU64'read_ptr'||U64'size'||U64'size_mask'||S32'mlocked'||U32'$pad0'|]
+// tag-#anon#ST[*{S8}_S8_'buf'||vU64'write_ptr'||vU64'read_ptr'||U64'size'||U64'size_mask'||S32'mlocked'||U32'_pad0'|]
 // file /usr/include/jack/ringbuffer.h line 51
-struct anonymous$85;
+struct anonymous_85;
 
-// tag-#anon#ST[*{S8}$S8$'defaultCCCs'||*{S8}$S8$'clientCmaps'||*{S8}$S8$'perVisualIntensityMaps'|]
+// tag-#anon#ST[*{S8}_S8_'defaultCCCs'||*{S8}_S8_'clientCmaps'||*{S8}_S8_'perVisualIntensityMaps'|]
 // file /usr/include/X11/Xlibint.h line 171
-struct anonymous$122;
+struct anonymous_122;
 
-// tag-#anon#ST[*{SYM#tag-#anon#ST[U32'width'||U32'height'||U32'frame_width'||U32'frame_height'||U32'offset_x'||U32'offset_y'||U32'fps_numerator'||U32'fps_denominator'||U32'aspect_numerator'||U32'aspect_denominator'||EN#anon_enum$OC_CS_UNSPECIFIED=0$OC_CS_ITU_REC_470M=1$OC_CS_ITU_REC_470BG=2$OC_CS_NSPACES=3#{U32}$U32$'colorspace'||S32'target_bitrate'||S32'quality'||S32'quick_p'||U8'version_major'||U8'version_minor'||U8'version_subminor'||U40'$pad0'||*{V}$V$'codec_setup'||S32'dropframes_p'||S32'keyframe_auto_p'||U32'keyframe_frequency'||U32'keyframe_frequency_force'||U32'keyframe_data_target_bitrate'||S32'keyframe_auto_threshold'||U32'keyframe_mindistance'||S32'noise_sensitivity'||S32'sharpness'||EN#anon_enum$OC_PF_420=0$OC_PF_RSVD=1$OC_PF_422=2$OC_PF_444=3#{U32}$U32$'pixelformat'|]#}$SYM#tag-#anon#ST[U32'width'||U32'height'||U32'frame_width'||U32'frame_height'||U32'offset_x'||U32'offset_y'||U32'fps_numerator'||U32'fps_denominator'||U32'aspect_numerator'||U32'aspect_denominator'||EN#anon_enum$OC_CS_UNSPECIFIED=0$OC_CS_ITU_REC_470M=1$OC_CS_ITU_REC_470BG=2$OC_CS_NSPACES=3#{U32}$U32$'colorspace'||S32'target_bitrate'||S32'quality'||S32'quick_p'||U8'version_major'||U8'version_minor'||U8'version_subminor'||U40'$pad0'||*{V}$V$'codec_setup'||S32'dropframes_p'||S32'keyframe_auto_p'||U32'keyframe_frequency'||U32'keyframe_frequency_force'||U32'keyframe_data_target_bitrate'||S32'keyframe_auto_threshold'||U32'keyframe_mindistance'||S32'noise_sensitivity'||S32'sharpness'||EN#anon_enum$OC_PF_420=0$OC_PF_RSVD=1$OC_PF_422=2$OC_PF_444=3#{U32}$U32$'pixelformat'|]#$'i'||S64'granulepos'||*{V}$V$'internal_encode'||*{V}$V$'internal_decode'|]
+// tag-#anon#ST[*{SYM#tag-#anon#ST[U32'width'||U32'height'||U32'frame_width'||U32'frame_height'||U32'offset_x'||U32'offset_y'||U32'fps_numerator'||U32'fps_denominator'||U32'aspect_numerator'||U32'aspect_denominator'||EN#anon_enum_OC_CS_UNSPECIFIED=0_OC_CS_ITU_REC_470M=1_OC_CS_ITU_REC_470BG=2_OC_CS_NSPACES=3#{U32}_U32_'colorspace'||S32'target_bitrate'||S32'quality'||S32'quick_p'||U8'version_major'||U8'version_minor'||U8'version_subminor'||U40'_pad0'||*{V}_V_'codec_setup'||S32'dropframes_p'||S32'keyframe_auto_p'||U32'keyframe_frequency'||U32'keyframe_frequency_force'||U32'keyframe_data_target_bitrate'||S32'keyframe_auto_threshold'||U32'keyframe_mindistance'||S32'noise_sensitivity'||S32'sharpness'||EN#anon_enum_OC_PF_420=0_OC_PF_RSVD=1_OC_PF_422=2_OC_PF_444=3#{U32}_U32_'pixelformat'|]#}_SYM#tag-#anon#ST[U32'width'||U32'height'||U32'frame_width'||U32'frame_height'||U32'offset_x'||U32'offset_y'||U32'fps_numerator'||U32'fps_denominator'||U32'aspect_numerator'||U32'aspect_denominator'||EN#anon_enum_OC_CS_UNSPECIFIED=0_OC_CS_ITU_REC_470M=1_OC_CS_ITU_REC_470BG=2_OC_CS_NSPACES=3#{U32}_U32_'colorspace'||S32'target_bitrate'||S32'quality'||S32'quick_p'||U8'version_major'||U8'version_minor'||U8'version_subminor'||U40'_pad0'||*{V}_V_'codec_setup'||S32'dropframes_p'||S32'keyframe_auto_p'||U32'keyframe_frequency'||U32'keyframe_frequency_force'||U32'keyframe_data_target_bitrate'||S32'keyframe_auto_threshold'||U32'keyframe_mindistance'||S32'noise_sensitivity'||S32'sharpness'||EN#anon_enum_OC_PF_420=0_OC_PF_RSVD=1_OC_PF_422=2_OC_PF_444=3#{U32}_U32_'pixelformat'|]#_'i'||S64'granulepos'||*{V}_V_'internal_encode'||*{V}_V_'internal_decode'|]
 // file /usr/include/theora/theora.h line 247
-struct anonymous$13;
+struct anonymous_13;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]
 // file /usr/include/X11/Xlib.h line 257
-struct anonymous$93;
+struct anonymous_93;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private1'||S32'fd'||S32'private2'||S32'proto_major_version'||S32'proto_minor_version'||*{S8}$S8$'vendor'||U64'private3'||U64'private4'||U64'private5'||S32'private6'||U32'$pad0'||*{U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64}$U64(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->U64$'resource_alloc'||S32'byte_order'||S32'bitmap_unit'||S32'bitmap_pad'||S32'bitmap_bit_order'||S32'nformats'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]#$'pixmap_format'||S32'private8'||S32'release'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private9'||*{SYM#tag-_XPrivate#}$SYM#tag-_XPrivate#$'private10'||S32'qlen'||U32'$pad2'||U64'last_request_read'||U64'request'||*{S8}$S8$'private11'||*{S8}$S8$'private12'||*{S8}$S8$'private13'||*{S8}$S8$'private14'||U32'max_request_size'||U32'$pad3'||*{SYM#tag-_XrmHashBucketRec#}$SYM#tag-_XrmHashBucketRec#$'db'||*{S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32}$S32(*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$)->S32$'private15'||*{S8}$S8$'display_name'||S32'default_screen'||S32'nscreens'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#$'screens'||U64'motion_buffer'||U64'private16'||S32'min_keycode'||S32'max_keycode'||*{S8}$S8$'private17'||*{S8}$S8$'private18'||S32'private19'||U32'$pad4'||*{S8}$S8$'xdefaults'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private1'||S32'fd'||S32'private2'||S32'proto_major_version'||S32'proto_minor_version'||*{S8}_S8_'vendor'||U64'private3'||U64'private4'||U64'private5'||S32'private6'||U32'_pad0'||*{U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64}_U64(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->U64_'resource_alloc'||S32'byte_order'||S32'bitmap_unit'||S32'bitmap_pad'||S32'bitmap_bit_order'||S32'nformats'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]#_'pixmap_format'||S32'private8'||S32'release'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private9'||*{SYM#tag-_XPrivate#}_SYM#tag-_XPrivate#_'private10'||S32'qlen'||U32'_pad2'||U64'last_request_read'||U64'request'||*{S8}_S8_'private11'||*{S8}_S8_'private12'||*{S8}_S8_'private13'||*{S8}_S8_'private14'||U32'max_request_size'||U32'_pad3'||*{SYM#tag-_XrmHashBucketRec#}_SYM#tag-_XrmHashBucketRec#_'db'||*{S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32}_S32(*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_)->S32_'private15'||*{S8}_S8_'display_name'||S32'default_screen'||S32'nscreens'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#_'screens'||U64'motion_buffer'||U64'private16'||S32'min_keycode'||S32'max_keycode'||*{S8}_S8_'private17'||*{S8}_S8_'private18'||S32'private19'||U32'_pad4'||*{S8}_S8_'xdefaults'|]
 // file /usr/include/X11/Xlib.h line 493
-struct anonymous$146;
+struct anonymous_146;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'$pad0'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||S32'depth'||S32'bits_per_pixel'||S32'scanline_pad'||U32'_pad0'|]
 // file /usr/include/X11/Xlib.h line 280
-struct anonymous$90;
+struct anonymous_90;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'fid'||U32'direction'||U32'min_char_or_byte2'||U32'max_char_or_byte2'||U32'min_byte1'||U32'max_byte1'||S32'all_chars_exist'||U32'default_char'||S32'n_properties'||*{SYM#tag-#anon#ST[U64'name'||U64'card32'|]#}$SYM#tag-#anon#ST[U64'name'||U64'card32'|]#$'properties'||SYM#tag-#anon#ST[S16'lbearing'||S16'rbearing'||S16'width'||S16'ascent'||S16'descent'||U16'attributes'|]#'min_bounds'||SYM#tag-#anon#ST[S16'lbearing'||S16'rbearing'||S16'width'||S16'ascent'||S16'descent'||U16'attributes'|]#'max_bounds'||*{SYM#tag-#anon#ST[S16'lbearing'||S16'rbearing'||S16'width'||S16'ascent'||S16'descent'||U16'attributes'|]#}$SYM#tag-#anon#ST[S16'lbearing'||S16'rbearing'||S16'width'||S16'ascent'||S16'descent'||U16'attributes'|]#$'per_char'||S32'ascent'||S32'descent'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'fid'||U32'direction'||U32'min_char_or_byte2'||U32'max_char_or_byte2'||U32'min_byte1'||U32'max_byte1'||S32'all_chars_exist'||U32'default_char'||S32'n_properties'||*{SYM#tag-#anon#ST[U64'name'||U64'card32'|]#}_SYM#tag-#anon#ST[U64'name'||U64'card32'|]#_'properties'||SYM#tag-#anon#ST[S16'lbearing'||S16'rbearing'||S16'width'||S16'ascent'||S16'descent'||U16'attributes'|]#'min_bounds'||SYM#tag-#anon#ST[S16'lbearing'||S16'rbearing'||S16'width'||S16'ascent'||S16'descent'||U16'attributes'|]#'max_bounds'||*{SYM#tag-#anon#ST[S16'lbearing'||S16'rbearing'||S16'width'||S16'ascent'||S16'descent'||U16'attributes'|]#}_SYM#tag-#anon#ST[S16'lbearing'||S16'rbearing'||S16'width'||S16'ascent'||S16'descent'||U16'attributes'|]#_'per_char'||S32'ascent'||S32'descent'|]
 // file /usr/include/X11/Xlib.h line 1035
-struct anonymous$92;
+struct anonymous_92;
 
-// tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]
+// tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]
 // file /usr/include/X11/Xlib.h line 227
-struct anonymous$21;
+struct anonymous_21;
 
-// tag-#anon#ST[*{U8}$U8$'body_data'||S64'body_storage'||S64'body_fill'||S64'body_returned'||*{S32}$S32$'lacing_vals'||*{S64}$S64$'granule_vals'||S64'lacing_storage'||S64'lacing_fill'||S64'lacing_packet'||S64'lacing_returned'||ARR282{U8}$U8$'header'||U16'$pad0'||S32'header_fill'||S32'e_o_s'||S32'b_o_s'||S64'serialno'||S64'pageno'||S64'packetno'||S64'granulepos'|]
+// tag-#anon#ST[*{U8}_U8_'body_data'||S64'body_storage'||S64'body_fill'||S64'body_returned'||*{S32}_S32_'lacing_vals'||*{S64}_S64_'granule_vals'||S64'lacing_storage'||S64'lacing_fill'||S64'lacing_packet'||S64'lacing_returned'||ARR282{U8}_U8_'header'||U16'_pad0'||S32'header_fill'||S32'e_o_s'||S32'b_o_s'||S64'serialno'||S64'pageno'||S64'packetno'||S64'granulepos'|]
 // file /usr/include/ogg/ogg.h line 53
-struct anonymous$14;
+struct anonymous_14;
 
-// tag-#anon#ST[*{U8}$U8$'header'||S64'header_len'||*{U8}$U8$'body'||S64'body_len'|]
+// tag-#anon#ST[*{U8}_U8_'header'||S64'header_len'||*{U8}_U8_'body'||S64'body_len'|]
 // file /usr/include/ogg/ogg.h line 43
-struct anonymous$15;
+struct anonymous_15;
 
-// tag-#anon#ST[*{U8}$U8$'packet'||S64'bytes'||S64'b_o_s'||S64'e_o_s'||S64'granulepos'||S64'packetno'|]
+// tag-#anon#ST[*{U8}_U8_'packet'||S64'bytes'||S64'b_o_s'||S64'e_o_s'||S64'granulepos'||S64'packetno'|]
 // file /usr/include/ogg/ogg.h line 90
-struct anonymous$126;
+struct anonymous_126;
 
-// tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]
+// tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 121
-struct anonymous$9;
+struct anonymous_9;
 
-// tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]
+// tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 107
-struct anonymous$7;
+struct anonymous_7;
 
-// tag-#anon#ST[ARR16{U64}$U64$'__val'|]
+// tag-#anon#ST[ARR16{U64}_U64_'__val'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigset.h line 27
-struct anonymous$2;
+struct anonymous_2;
 
 // tag-#anon#ST[S16'lbearing'||S16'rbearing'||S16'width'||S16'ascent'||S16'descent'||U16'attributes'|]
 // file /usr/include/X11/Xlib.h line 1017
-struct anonymous$130;
+struct anonymous_130;
 
 // tag-#anon#ST[S16'x'||S16'y'||U16'width'||U16'height'|]
 // file /usr/include/X11/Xlib.h line 430
-struct anonymous$17;
+struct anonymous_17;
 
-// tag-#anon#ST[S16'x'||S16'y'||U16'width'||U16'height'||U16'xhot'||U16'yhot'||U32'$pad0'||U64'cursor_serial'||*{U64}$U64$'pixels'||U64'atom'||*{cS8}$cS8$'name'|]
+// tag-#anon#ST[S16'x'||S16'y'||U16'width'||U16'height'||U16'xhot'||U16'yhot'||U32'_pad0'||U64'cursor_serial'||*{U64}_U64_'pixels'||U64'atom'||*{cS8}_cS8_'name'|]
 // file /usr/include/X11/extensions/Xfixes.h line 86
-struct anonymous$31;
+struct anonymous_31;
 
-// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
+// tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 141
-struct anonymous$131;
+struct anonymous_131;
 
-// tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]
+// tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]
 // file /usr/include/X11/Xlib.h line 243
-struct anonymous$142;
+struct anonymous_142;
 
 // tag-#anon#ST[S32'extension'||S32'major_opcode'||S32'first_event'||S32'first_error'|]
 // file /usr/include/X11/Xlib.h line 160
-struct anonymous$91;
+struct anonymous_91;
 
-// tag-#anon#ST[S32'function'||U32'$pad0'||U64'plane_mask'||U64'foreground'||U64'background'||S32'line_width'||S32'line_style'||S32'cap_style'||S32'join_style'||S32'fill_style'||S32'fill_rule'||S32'arc_mode'||U32'$pad1'||U64'tile'||U64'stipple'||S32'ts_x_origin'||S32'ts_y_origin'||U64'font'||S32'subwindow_mode'||S32'graphics_exposures'||S32'clip_x_origin'||S32'clip_y_origin'||U64'clip_mask'||S32'dash_offset'||S8'dashes'||U24'$pad2'|]
+// tag-#anon#ST[S32'function'||U32'_pad0'||U64'plane_mask'||U64'foreground'||U64'background'||S32'line_width'||S32'line_style'||S32'cap_style'||S32'join_style'||S32'fill_style'||S32'fill_rule'||S32'arc_mode'||U32'_pad1'||U64'tile'||U64'stipple'||S32'ts_x_origin'||S32'ts_y_origin'||U64'font'||S32'subwindow_mode'||S32'graphics_exposures'||S32'clip_x_origin'||S32'clip_y_origin'||U64'clip_mask'||S32'dash_offset'||S8'dashes'||U24'_pad2'|]
 // file /usr/include/X11/Xlib.h line 181
-struct anonymous$16;
+struct anonymous_16;
 
-// tag-#anon#ST[S32'max_keypermod'||U32'$pad0'||*{U8}$U8$'modifiermap'|]
+// tag-#anon#ST[S32'max_keypermod'||U32'_pad0'||*{U8}_U8_'modifiermap'|]
 // file /usr/include/X11/Xlib.h line 475
-struct anonymous$95;
+struct anonymous_95;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 74
-struct anonymous$3;
+struct anonymous_3;
 
-// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]
+// tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 97
-struct anonymous$6;
+struct anonymous_6;
 
 // tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 89
-struct anonymous$5;
+struct anonymous_5;
 
-// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
+// tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 62
-struct anonymous$11;
+struct anonymous_11;
 
 // tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 81
-struct anonymous$4;
+struct anonymous_4;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'resourceid'||U64'serial'||U8'error_code'||U8'request_code'||U8'minor_code'||U40'$pad1'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'resourceid'||U64'serial'||U8'error_code'||U8'request_code'||U8'minor_code'||U40'_pad1'|]
 // file /usr/include/X11/Xlib.h line 924
-struct anonymous$118;
+struct anonymous_118;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||S32'extension'||S32'evtype'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||S32'extension'||S32'evtype'|]
 // file /usr/include/X11/Xlib.h line 948
-struct anonymous$124;
+struct anonymous_124;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||S32'extension'||S32'evtype'||U32'cookie'||U32'$pad2'||*{V}$V$'data'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||S32'extension'||S32'evtype'||U32'cookie'||U32'_pad2'||*{V}_V_'data'|]
 // file /usr/include/X11/Xlib.h line 958
-struct anonymous$125;
+struct anonymous_125;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'drawable'||S32'major_code'||S32'minor_code'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'drawable'||S32'major_code'||S32'minor_code'|]
 // file /usr/include/X11/Xlib.h line 686
-struct anonymous$99;
+struct anonymous_99;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'drawable'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||S32'major_code'||S32'minor_code'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'drawable'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||S32'major_code'||S32'minor_code'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 673
-struct anonymous$98;
+struct anonymous_98;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'drawable'||U64'damage'||S32'level'||S32'more'||U64'timestamp'||SYM#tag-#anon#ST[S16'x'||S16'y'||U16'width'||U16'height'|]#'area'||SYM#tag-#anon#ST[S16'x'||S16'y'||U16'width'||U16'height'|]#'geometry'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'drawable'||U64'damage'||S32'level'||S32'more'||U64'timestamp'||SYM#tag-#anon#ST[S16'x'||S16'y'||U16'width'||U16'height'|]#'area'||SYM#tag-#anon#ST[S16'x'||S16'y'||U16'width'||U16'height'|]#'geometry'|]
 // file /usr/include/X11/extensions/Xdamage.h line 34
-struct anonymous$1;
+struct anonymous_1;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'|]
 // file /usr/include/X11/Xlib.h line 718
-struct anonymous$102;
+struct anonymous_102;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'from_configure'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'from_configure'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 727
-struct anonymous$103;
+struct anonymous_103;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'override_redirect'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'override_redirect'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 737
-struct anonymous$104;
+struct anonymous_104;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'place'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'place'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 816
-struct anonymous$111;
+struct anonymous_111;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'x'||S32'y'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'x'||S32'y'|]
 // file /usr/include/X11/Xlib.h line 782
-struct anonymous$108;
+struct anonymous_108;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'$pad2'||U64'above'||S32'override_redirect'||U32'$pad3'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'_pad2'||U64'above'||S32'override_redirect'||U32'_pad3'|]
 // file /usr/include/X11/Xlib.h line 768
-struct anonymous$107;
+struct anonymous_107;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'event'||U64'window'||U64'parent'||S32'x'||S32'y'||S32'override_redirect'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'event'||U64'window'||U64'parent'||S32'x'||S32'y'||S32'override_redirect'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 756
-struct anonymous$106;
+struct anonymous_106;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'owner'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'owner'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
 // file /usr/include/X11/Xlib.h line 857
-struct anonymous$115;
+struct anonymous_115;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'|]
 // file /usr/include/X11/Xlib.h line 747
-struct anonymous$105;
+struct anonymous_105;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'||S32'place'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'||S32'place'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 826
-struct anonymous$112;
+struct anonymous_112;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||S32'override_redirect'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||S32'override_redirect'|]
 // file /usr/include/X11/Xlib.h line 705
-struct anonymous$101;
+struct anonymous_101;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'$pad2'||U64'above'||S32'detail'||U32'$pad3'||U64'value_mask'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'parent'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||U32'_pad2'||U64'above'||S32'detail'||U32'_pad3'||U64'value_mask'|]
 // file /usr/include/X11/Xlib.h line 801
-struct anonymous$110;
+struct anonymous_110;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'requestor'||U64'selection'||U64'target'||U64'property'||U64'time'|]
 // file /usr/include/X11/Xlib.h line 870
-struct anonymous$116;
+struct anonymous_116;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'|]
 // file /usr/include/X11/Xlib.h line 934
-struct anonymous$94;
+struct anonymous_94;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||ARR32{S8}$S8$'key_vector'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||ARR32{S8}_S8_'key_vector'|]
 // file /usr/include/X11/Xlib.h line 653
-struct anonymous$123;
+struct anonymous_123;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'mode'||S32'detail'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'mode'||S32'detail'|]
 // file /usr/include/X11/Xlib.h line 634
-struct anonymous$96;
+struct anonymous_96;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'request'||S32'first_keycode'||S32'count'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'request'||S32'first_keycode'||S32'count'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 912
-struct anonymous$120;
+struct anonymous_120;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'state'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'state'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 696
-struct anonymous$100;
+struct anonymous_100;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'width'||S32'height'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'width'||S32'height'|]
 // file /usr/include/X11/Xlib.h line 792
-struct anonymous$109;
+struct anonymous_109;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||S32'x'||S32'y'||S32'width'||S32'height'||S32'count'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 662
-struct anonymous$97;
+struct anonymous_97;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'atom'||U64'time'||S32'state'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'atom'||U64'time'||S32'state'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 836
-struct anonymous$113;
+struct anonymous_113;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'colormap'||S32'new'||S32'state'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'colormap'||S32'new'||S32'state'|]
 // file /usr/include/X11/Xlib.h line 882
-struct anonymous$117;
+struct anonymous_117;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'message_type'||S32'format'||U32'$pad2'||SYM#tag-#anon#UN[ARR20{S8}$S8$'b'||ARR10{S16}$S16$'s'||ARR5{S64}$S64$'l'|]#'data'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'message_type'||S32'format'||U32'_pad2'||SYM#tag-#anon#UN[ARR20{S8}_S8_'b'||ARR10{S16}_S16_'s'||ARR5{S64}_S64_'l'|]#'data'|]
 // file /usr/include/X11/Xlib.h line 897
-struct anonymous$119;
+struct anonymous_119;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||S32'mode'||S32'detail'||S32'same_screen'||S32'focus'||U32'state'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||S32'mode'||S32'detail'||S32'same_screen'||S32'focus'||U32'state'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 610
-struct anonymous$89;
+struct anonymous_89;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||S8'is_hint'||U24'$pad2'||S32'same_screen'||U32'$pad3'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||S8'is_hint'||U24'_pad2'||S32'same_screen'||U32'_pad3'|]
 // file /usr/include/X11/Xlib.h line 593
-struct anonymous$88;
+struct anonymous_88;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'button'||S32'same_screen'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'button'||S32'same_screen'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 575
-struct anonymous$87;
+struct anonymous_87;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'keycode'||S32'same_screen'||U32'$pad2'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'root'||U64'subwindow'||U64'time'||S32'x'||S32'y'||S32'x_root'||S32'y_root'||U32'state'||U32'keycode'||S32'same_screen'||U32'_pad2'|]
 // file /usr/include/X11/Xlib.h line 557
-struct anonymous$0;
+struct anonymous_0;
 
-// tag-#anon#ST[S32'type'||U32'$pad0'||U64'serial'||S32'send_event'||U32'$pad1'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'window'||U64'selection'||U64'time'|]
+// tag-#anon#ST[S32'type'||U32'_pad0'||U64'serial'||S32'send_event'||U32'_pad1'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'window'||U64'selection'||U64'time'|]
 // file /usr/include/X11/Xlib.h line 847
-struct anonymous$114;
+struct anonymous_114;
 
-// tag-#anon#ST[S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||S32'depth'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visual'||U64'root'||S32'class'||S32'bit_gravity'||S32'win_gravity'||S32'backing_store'||U64'backing_planes'||U64'backing_pixel'||S32'save_under'||U32'$pad0'||U64'colormap'||S32'map_installed'||S32'map_state'||S64'all_event_masks'||S64'your_event_mask'||S64'do_not_propagate_mask'||S32'override_redirect'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||*{SYM#tag-_XDisplay#}$SYM#tag-_XDisplay#$'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'$pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#}$SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'visuals'|]#$'depths'||S32'root_depth'||U32'$pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}$SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}$SYM#tag-_XExtData#$'ext_data'||U64'visualid'||S32'class'||U32'$pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#$'root_visual'||*{SYM#tag-_XGC#}$SYM#tag-_XGC#$'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#$'screen'|]
+// tag-#anon#ST[S32'x'||S32'y'||S32'width'||S32'height'||S32'border_width'||S32'depth'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visual'||U64'root'||S32'class'||S32'bit_gravity'||S32'win_gravity'||S32'backing_store'||U64'backing_planes'||U64'backing_pixel'||S32'save_under'||U32'_pad0'||U64'colormap'||S32'map_installed'||S32'map_state'||S64'all_event_masks'||S64'your_event_mask'||S64'do_not_propagate_mask'||S32'override_redirect'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||*{SYM#tag-_XDisplay#}_SYM#tag-_XDisplay#_'display'||U64'root'||S32'width'||S32'height'||S32'mwidth'||S32'mheight'||S32'ndepths'||U32'_pad0'||*{SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#}_SYM#tag-#anon#ST[S32'depth'||S32'nvisuals'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'visuals'|]#_'depths'||S32'root_depth'||U32'_pad1'||*{SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#}_SYM#tag-#anon#ST[*{SYM#tag-_XExtData#}_SYM#tag-_XExtData#_'ext_data'||U64'visualid'||S32'class'||U32'_pad0'||U64'red_mask'||U64'green_mask'||U64'blue_mask'||S32'bits_per_rgb'||S32'map_entries'|]#_'root_visual'||*{SYM#tag-_XGC#}_SYM#tag-_XGC#_'default_gc'||U64'cmap'||U64'white_pixel'||U64'black_pixel'||S32'max_maps'||S32'min_maps'||S32'backing_store'||S32'save_unders'||S64'root_input_mask'|]#_'screen'|]
 // file /usr/include/X11/Xlib.h line 308
 struct anonymous;
 
-// tag-#anon#ST[S32'y_width'||S32'y_height'||S32'y_stride'||S32'uv_width'||S32'uv_height'||S32'uv_stride'||*{U8}$U8$'y'||*{U8}$U8$'u'||*{U8}$U8$'v'|]
+// tag-#anon#ST[S32'y_width'||S32'y_height'||S32'y_stride'||S32'uv_width'||S32'uv_height'||S32'uv_stride'||*{U8}_U8_'y'||*{U8}_U8_'u'||*{U8}_U8_'v'|]
 // file /usr/include/theora/theora.h line 147
-struct anonymous$45;
+struct anonymous_45;
 
-// tag-#anon#ST[S64'endbyte'||S32'endbit'||U32'$pad0'||*{U8}$U8$'buffer'||*{U8}$U8$'ptr'||S64'storage'|]
+// tag-#anon#ST[S64'endbyte'||S32'endbit'||U32'_pad0'||*{U8}_U8_'buffer'||*{U8}_U8_'ptr'||S64'storage'|]
 // file /usr/include/ogg/ogg.h line 32
-struct anonymous$145;
+struct anonymous_145;
 
-// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]
+// tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 114
-struct anonymous$8;
+struct anonymous_8;
 
-// tag-#anon#ST[U16'version_major'||U16'version_minor'||U32'$pad0'||S64'ptime_n'||S64'ptime_d'||S64'btime_n'||S64'btime_d'||ARR20{U8}$U8$'UTC'||U32'$pad1'|]
+// tag-#anon#ST[U16'version_major'||U16'version_minor'||U32'_pad0'||S64'ptime_n'||S64'ptime_d'||S64'btime_n'||S64'btime_d'||ARR20{U8}_U8_'UTC'||U32'_pad1'|]
 // file skeleton.h line 25
-struct anonymous$140;
+struct anonymous_140;
 
 // tag-#anon#ST[U32'pad00'||U32'drawable'||U16'minorEvent'||U8'majorEvent'||U8'bpad'|]
 // file /usr/include/X11/Xproto.h line 1045
-struct anonymous$64;
+struct anonymous_64;
 
 // tag-#anon#ST[U32'pad00'||U32'drawable'||U16'x'||U16'y'||U16'width'||U16'height'||U16'minorEvent'||U16'count'||U8'majorEvent'||U8'pad1'||U8'pad2'||U8'pad3'|]
 // file /usr/include/X11/Xproto.h line 1036
-struct anonymous$63;
+struct anonymous_63;
 
 // tag-#anon#ST[U32'pad00'||U32'event'||U32'window'|]
 // file /usr/include/X11/Xproto.h line 1074
-struct anonymous$67;
+struct anonymous_67;
 
 // tag-#anon#ST[U32'pad00'||U32'event'||U32'window'||S16'x'||S16'y'||U32'pad1'||U32'pad2'||U32'pad3'||U32'pad4'|]
 // file /usr/include/X11/Xproto.h line 1117
-struct anonymous$74;
+struct anonymous_74;
 
 // tag-#anon#ST[U32'pad00'||U32'event'||U32'window'||U32'aboveSibling'||S16'x'||S16'y'||U16'width'||U16'height'||U16'borderWidth'||U8'override'||U8'bpad'|]
 // file /usr/include/X11/Xproto.h line 1101
-struct anonymous$72;
+struct anonymous_72;
 
 // tag-#anon#ST[U32'pad00'||U32'event'||U32'window'||U32'parent'||S16'x'||S16'y'||U8'override'||U8'pad1'||U8'pad2'||U8'pad3'|]
 // file /usr/include/X11/Xproto.h line 1094
-struct anonymous$71;
+struct anonymous_71;
 
 // tag-#anon#ST[U32'pad00'||U32'event'||U32'window'||U32'parent'||U8'place'||U8'pad1'||U8'pad2'||U8'pad3'|]
 // file /usr/include/X11/Xproto.h line 1128
-struct anonymous$76;
+struct anonymous_76;
 
 // tag-#anon#ST[U32'pad00'||U32'event'||U32'window'||U8'fromConfigure'||U8'pad1'||U8'pad2'||U8'pad3'|]
 // file /usr/include/X11/Xproto.h line 1078
-struct anonymous$68;
+struct anonymous_68;
 
 // tag-#anon#ST[U32'pad00'||U32'event'||U32'window'||U8'override'||U8'pad1'||U8'pad2'||U8'pad3'|]
 // file /usr/include/X11/Xproto.h line 1084
-struct anonymous$69;
+struct anonymous_69;
 
 // tag-#anon#ST[U32'pad00'||U32'parent'||U32'window'|]
 // file /usr/include/X11/Xproto.h line 1090
-struct anonymous$70;
+struct anonymous_70;
 
 // tag-#anon#ST[U32'pad00'||U32'parent'||U32'window'||S16'x'||S16'y'||U16'width'||U16'height'||U16'borderWidth'||U8'override'||U8'bpad'|]
 // file /usr/include/X11/Xproto.h line 1058
-struct anonymous$66;
+struct anonymous_66;
 
 // tag-#anon#ST[U32'pad00'||U32'parent'||U32'window'||U32'sibling'||S16'x'||S16'y'||U16'width'||U16'height'||U16'borderWidth'||U16'valueMask'||U32'pad1'|]
 // file /usr/include/X11/Xproto.h line 1109
-struct anonymous$73;
+struct anonymous_73;
 
 // tag-#anon#ST[U32'pad00'||U32'time'||U32'owner'||U32'requestor'||U32'selection'||U32'target'||U32'property'|]
 // file /usr/include/X11/Xproto.h line 1151
-struct anonymous$79;
+struct anonymous_79;
 
 // tag-#anon#ST[U32'pad00'||U32'time'||U32'requestor'||U32'selection'||U32'target'||U32'property'|]
 // file /usr/include/X11/Xproto.h line 1157
-struct anonymous$80;
+struct anonymous_80;
 
 // tag-#anon#ST[U32'pad00'||U32'time'||U32'root'||U32'event'||U32'child'||S16'rootX'||S16'rootY'||S16'eventX'||S16'eventY'||U16'state'||U8'mode'||U8'flags'|]
 // file /usr/include/X11/Xproto.h line 1012
-struct anonymous$60;
+struct anonymous_60;
 
 // tag-#anon#ST[U32'pad00'||U32'time'||U32'root'||U32'event'||U32'child'||S16'rootX'||S16'rootY'||S16'eventX'||S16'eventY'||U16'state'||U8'sameScreen'||U8'pad1'|]
 // file /usr/include/X11/Xproto.h line 1003
-struct anonymous$59;
+struct anonymous_59;
 
 // tag-#anon#ST[U32'pad00'||U32'time'||U32'window'||U32'atom'|]
 // file /usr/include/X11/Xproto.h line 1145
-struct anonymous$78;
+struct anonymous_78;
 
-// tag-#anon#ST[U32'pad00'||U32'window'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'type'||S32'longs0'||S32'longs1'||S32'longs2'||S32'longs3'||S32'longs4'|]#'l'||SYM#tag-#anon#ST[U32'type'||S16'shorts0'||S16'shorts1'||S16'shorts2'||S16'shorts3'||S16'shorts4'||S16'shorts5'||S16'shorts6'||S16'shorts7'||S16'shorts8'||S16'shorts9'|]#'s'||SYM#tag-#anon#ST[U32'type'||ARR20{S8}$S8$'bytes'|]#'b'|]#'u'|]
+// tag-#anon#ST[U32'pad00'||U32'window'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'type'||S32'longs0'||S32'longs1'||S32'longs2'||S32'longs3'||S32'longs4'|]#'l'||SYM#tag-#anon#ST[U32'type'||S16'shorts0'||S16'shorts1'||S16'shorts2'||S16'shorts3'||S16'shorts4'||S16'shorts5'||S16'shorts6'||S16'shorts7'||S16'shorts8'||S16'shorts9'|]#'s'||SYM#tag-#anon#ST[U32'type'||ARR20{S8}_S8_'bytes'|]#'b'|]#'u'|]
 // file /usr/include/X11/Xproto.h line 1182
-struct anonymous$84;
+struct anonymous_84;
 
 // tag-#anon#ST[U32'pad00'||U32'window'||U16'width'||U16'height'|]
 // file /usr/include/X11/Xproto.h line 1123
-struct anonymous$75;
+struct anonymous_75;
 
 // tag-#anon#ST[U32'pad00'||U32'window'||U16'x'||U16'y'||U16'width'||U16'height'||U16'count'||U16'pad2'|]
 // file /usr/include/X11/Xproto.h line 1029
-struct anonymous$62;
+struct anonymous_62;
 
 // tag-#anon#ST[U32'pad00'||U32'window'||U32'atom'||U32'time'||U8'state'||U8'pad1'||U16'pad2'|]
 // file /usr/include/X11/Xproto.h line 1136
-struct anonymous$77;
+struct anonymous_77;
 
 // tag-#anon#ST[U32'pad00'||U32'window'||U32'colormap'||U8'new'||U8'state'||U8'pad1'||U8'pad2'|]
 // file /usr/include/X11/Xproto.h line 1163
-struct anonymous$81;
+struct anonymous_81;
 
 // tag-#anon#ST[U32'pad00'||U32'window'||U8'mode'||U8'pad1'||U8'pad2'||U8'pad3'|]
 // file /usr/include/X11/Xproto.h line 1023
-struct anonymous$61;
+struct anonymous_61;
 
 // tag-#anon#ST[U32'pad00'||U32'window'||U8'state'||U8'pad1'||U8'pad2'||U8'pad3'|]
 // file /usr/include/X11/Xproto.h line 1052
-struct anonymous$65;
+struct anonymous_65;
 
 // tag-#anon#ST[U32'pad00'||U8'request'||U8'firstKeyCode'||U8'count'||U8'pad1'|]
 // file /usr/include/X11/Xproto.h line 1175
-struct anonymous$82;
+struct anonymous_82;
 
-// tag-#anon#ST[U32'serial_no'||U32'nr_header_packet'||S64'granule_rate_n'||S64'granule_rate_d'||S64'start_granule'||U32'preroll'||U8'granule_shift'||U24'$pad0'||*{S8}$S8$'message_header_fields'||U32'current_header_size'||U32'$pad1'|]
+// tag-#anon#ST[U32'serial_no'||U32'nr_header_packet'||S64'granule_rate_n'||S64'granule_rate_d'||S64'start_granule'||U32'preroll'||U8'granule_shift'||U24'_pad0'||*{S8}_S8_'message_header_fields'||U32'current_header_size'||U32'_pad1'|]
 // file skeleton.h line 39
-struct anonymous$139;
+struct anonymous_139;
 
-// tag-#anon#ST[U32'type'||ARR20{S8}$S8$'bytes'|]
+// tag-#anon#ST[U32'type'||ARR20{S8}_S8_'bytes'|]
 // file /usr/include/X11/Xproto.h line 1207
-struct anonymous$137;
+struct anonymous_137;
 
 // tag-#anon#ST[U32'type'||S16'shorts0'||S16'shorts1'||S16'shorts2'||S16'shorts3'||S16'shorts4'||S16'shorts5'||S16'shorts6'||S16'shorts7'||S16'shorts8'||S16'shorts9'|]
 // file /usr/include/X11/Xproto.h line 1194
-struct anonymous$136;
+struct anonymous_136;
 
 // tag-#anon#ST[U32'type'||S32'longs0'||S32'longs1'||S32'longs2'||S32'longs3'||S32'longs4'|]
 // file /usr/include/X11/Xproto.h line 1186
-struct anonymous$135;
+struct anonymous_135;
 
-// tag-#anon#ST[U32'width'||U32'height'||U32'frame_width'||U32'frame_height'||U32'offset_x'||U32'offset_y'||U32'fps_numerator'||U32'fps_denominator'||U32'aspect_numerator'||U32'aspect_denominator'||EN#anon_enum$OC_CS_UNSPECIFIED=0$OC_CS_ITU_REC_470M=1$OC_CS_ITU_REC_470BG=2$OC_CS_NSPACES=3#{U32}$U32$'colorspace'||S32'target_bitrate'||S32'quality'||S32'quick_p'||U8'version_major'||U8'version_minor'||U8'version_subminor'||U40'$pad0'||*{V}$V$'codec_setup'||S32'dropframes_p'||S32'keyframe_auto_p'||U32'keyframe_frequency'||U32'keyframe_frequency_force'||U32'keyframe_data_target_bitrate'||S32'keyframe_auto_threshold'||U32'keyframe_mindistance'||S32'noise_sensitivity'||S32'sharpness'||EN#anon_enum$OC_PF_420=0$OC_PF_RSVD=1$OC_PF_422=2$OC_PF_444=3#{U32}$U32$'pixelformat'|]
+// tag-#anon#ST[U32'width'||U32'height'||U32'frame_width'||U32'frame_height'||U32'offset_x'||U32'offset_y'||U32'fps_numerator'||U32'fps_denominator'||U32'aspect_numerator'||U32'aspect_denominator'||EN#anon_enum_OC_CS_UNSPECIFIED=0_OC_CS_ITU_REC_470M=1_OC_CS_ITU_REC_470BG=2_OC_CS_NSPACES=3#{U32}_U32_'colorspace'||S32'target_bitrate'||S32'quality'||S32'quick_p'||U8'version_major'||U8'version_minor'||U8'version_subminor'||U40'_pad0'||*{V}_V_'codec_setup'||S32'dropframes_p'||S32'keyframe_auto_p'||U32'keyframe_frequency'||U32'keyframe_frequency_force'||U32'keyframe_data_target_bitrate'||S32'keyframe_auto_threshold'||U32'keyframe_mindistance'||S32'noise_sensitivity'||S32'sharpness'||EN#anon_enum_OC_PF_420=0_OC_PF_RSVD=1_OC_PF_422=2_OC_PF_444=3#{U32}_U32_'pixelformat'|]
 // file /usr/include/theora/theora.h line 206
-struct anonymous$127;
+struct anonymous_127;
 
-// tag-#anon#ST[U64'background_pixmap'||U64'background_pixel'||U64'border_pixmap'||U64'border_pixel'||S32'bit_gravity'||S32'win_gravity'||S32'backing_store'||U32'$pad0'||U64'backing_planes'||U64'backing_pixel'||S32'save_under'||U32'$pad1'||S64'event_mask'||S64'do_not_propagate_mask'||S32'override_redirect'||U32'$pad2'||U64'colormap'||U64'cursor'|]
+// tag-#anon#ST[U64'background_pixmap'||U64'background_pixel'||U64'border_pixmap'||U64'border_pixel'||S32'bit_gravity'||S32'win_gravity'||S32'backing_store'||U32'_pad0'||U64'backing_planes'||U64'backing_pixel'||S32'save_under'||U32'_pad1'||S64'event_mask'||S64'do_not_propagate_mask'||S32'override_redirect'||U32'_pad2'||U64'colormap'||U64'cursor'|]
 // file /usr/include/X11/Xlib.h line 290
-struct anonymous$19;
+struct anonymous_19;
 
 // tag-#anon#ST[U64'name'||U64'card32'|]
 // file /usr/include/X11/Xlib.h line 1030
-struct anonymous$129;
+struct anonymous_129;
 
 // tag-#anon#ST[U64'pixel'||U16'red'||U16'green'||U16'blue'||S8'flags'||S8'pad'|]
 // file /usr/include/X11/Xlib.h line 410
-struct anonymous$18;
+struct anonymous_18;
 
-// tag-#anon#ST[U64'shmseg'||S32'shmid'||U32'$pad0'||*{S8}$S8$'shmaddr'||S32'readOnly'||U32'$pad1'|]
+// tag-#anon#ST[U64'shmseg'||S32'shmid'||U32'_pad0'||*{S8}_S8_'shmaddr'||S32'readOnly'||U32'_pad1'|]
 // file /usr/include/X11/extensions/XShm.h line 50
-struct anonymous$34;
+struct anonymous_34;
 
 // tag-#anon#ST[U8'reqType'||U8'format'||U16'length'||U32'drawable'||S16'x'||S16'y'||U16'width'||U16'height'||U32'planeMask'|]
 // file /usr/include/X11/Xproto.h line 1739
-struct anonymous$133;
+struct anonymous_133;
 
 // tag-#anon#ST[U8'type'||U8'data1'||U16'sequenceNumber'||U32'length'||U32'data00'||U32'data01'||U32'data02'||U32'data03'||U32'data04'||U32'data05'|]
 // file /usr/include/X11/Xproto.h line 425
-struct anonymous$20;
+struct anonymous_20;
 
 // tag-#anon#ST[U8'type'||U8'depth'||U16'sequenceNumber'||U32'length'||U32'root'||S16'x'||S16'y'||U16'width'||U16'height'||U16'borderWidth'||U16'pad1'||U32'pad2'||U32'pad3'|]
 // file /usr/include/X11/Xproto.h line 466
-struct anonymous$22;
+struct anonymous_22;
 
 // tag-#anon#ST[U8'type'||U8'depth'||U16'sequenceNumber'||U32'length'||U32'visual'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]
 // file /usr/include/X11/Xproto.h line 713
-struct anonymous$132;
+struct anonymous_132;
 
 // tag-#anon#ST[U8'type'||U8'detail'||U16'sequenceNumber'|]
 // file /usr/include/X11/Xproto.h line 998
-struct anonymous$58;
+struct anonymous_58;
 
 // tag-#anon#ST[U8'type'||U8'drawDirection'||U16'sequenceNumber'||U32'length'||S16'fontAscent'||S16'fontDescent'||S16'overallAscent'||S16'overallDescent'||S32'overallWidth'||S32'overallLeft'||S32'overallRight'||U32'pad'|]
 // file /usr/include/X11/Xproto.h line 654
-struct anonymous$36;
+struct anonymous_36;
 
 // tag-#anon#ST[U8'type'||U8'enabled'||U16'sequenceNumber'||U32'length'||U16'nHosts'||U16'pad1'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]
 // file /usr/include/X11/Xproto.h line 954
-struct anonymous$56;
+struct anonymous_56;
 
 // tag-#anon#ST[U8'type'||U8'errorCode'||U16'sequenceNumber'||U32'resourceID'||U16'minorCode'||U8'majorCode'||U8'pad1'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]
 // file /usr/include/X11/Xproto.h line 976
-struct anonymous$121;
+struct anonymous_121;
 
 // tag-#anon#ST[U8'type'||U8'format'||U16'sequenceNumber'||U32'length'||U32'propertyType'||U32'bytesAfter'||U32'nItems'||U32'pad1'||U32'pad2'||U32'pad3'|]
 // file /usr/include/X11/Xproto.h line 520
-struct anonymous$26;
+struct anonymous_26;
 
 // tag-#anon#ST[U8'type'||U8'keySymsPerKeyCode'||U16'sequenceNumber'||U32'length'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]
 // file /usr/include/X11/Xproto.h line 887
-struct anonymous$52;
+struct anonymous_52;
 
 // tag-#anon#ST[U8'type'||U8'nElts'||U16'sequenceNumber'||U32'length'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]
 // file /usr/include/X11/Xproto.h line 874
-struct anonymous$53;
+struct anonymous_53;
 
 // tag-#anon#ST[U8'type'||U8'nExtensions'||U16'sequenceNumber'||U32'length'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]
 // file /usr/include/X11/Xproto.h line 845
-struct anonymous$49;
+struct anonymous_49;
 
 // tag-#anon#ST[U8'type'||U8'numKeyPerModifier'||U16'sequenceNumber'||U32'length'||U32'pad1'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'|]
 // file /usr/include/X11/Xproto.h line 900
-struct anonymous$51;
+struct anonymous_51;
 
 // tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'accelNumerator'||U16'accelDenominator'||U16'threshold'||U16'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'|]
 // file /usr/include/X11/Xproto.h line 925
-struct anonymous$54;
+struct anonymous_54;
 
 // tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'exactRed'||U16'exactGreen'||U16'exactBlue'||U16'screenRed'||U16'screenGreen'||U16'screenBlue'||U32'pad3'||U32'pad4'||U32'pad5'|]
 // file /usr/include/X11/Xproto.h line 804
-struct anonymous$46;
+struct anonymous_46;
 
 // tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'nColormaps'||U16'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]
 // file /usr/include/X11/Xproto.h line 726
-struct anonymous$39;
+struct anonymous_39;
 
 // tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'nColors'||U16'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]
 // file /usr/include/X11/Xproto.h line 790
-struct anonymous$44;
+struct anonymous_44;
 
 // tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'nFonts'||U16'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]
 // file /usr/include/X11/Xproto.h line 665
-struct anonymous$37;
+struct anonymous_37;
 
 // tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'nPaths'||U16'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]
 // file /usr/include/X11/Xproto.h line 699
-struct anonymous$38;
+struct anonymous_38;
 
 // tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'nPixels'||U16'nMasks'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]
 // file /usr/include/X11/Xproto.h line 765
-struct anonymous$42;
+struct anonymous_42;
 
 // tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'nPixels'||U16'pad2'||U32'redMask'||U32'greenMask'||U32'blueMask'||U32'pad3'||U32'pad4'|]
 // file /usr/include/X11/Xproto.h line 778
-struct anonymous$43;
+struct anonymous_43;
 
 // tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'nProperties'||U16'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]
 // file /usr/include/X11/Xproto.h line 533
-struct anonymous$27;
+struct anonymous_27;
 
 // tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'nameLength'||U16'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]
 // file /usr/include/X11/Xproto.h line 506
-struct anonymous$25;
+struct anonymous_25;
 
 // tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'red'||U16'green'||U16'blue'||U16'pad2'||U32'pixel'||U32'pad3'||U32'pad4'||U32'pad5'|]
 // file /usr/include/X11/Xproto.h line 740
-struct anonymous$40;
+struct anonymous_40;
 
 // tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'timeout'||U16'interval'||U8'preferBlanking'||U8'allowExposures'||U16'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'|]
 // file /usr/include/X11/Xproto.h line 939
-struct anonymous$55;
+struct anonymous_55;
 
 // tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'width'||U16'height'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]
 // file /usr/include/X11/Xproto.h line 816
-struct anonymous$47;
+struct anonymous_47;
 
 // tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U32'atom'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'|]
 // file /usr/include/X11/Xproto.h line 493
-struct anonymous$24;
+struct anonymous_24;
 
 // tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U32'nEvents'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'|]
 // file /usr/include/X11/Xproto.h line 587
-struct anonymous$32;
+struct anonymous_32;
 
 // tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U32'owner'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'|]
 // file /usr/include/X11/Xproto.h line 547
-struct anonymous$28;
+struct anonymous_28;
 
 // tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U32'pixel'||U16'exactRed'||U16'exactGreen'||U16'exactBlue'||U16'screenRed'||U16'screenGreen'||U16'screenBlue'||U32'pad2'||U32'pad3'|]
 // file /usr/include/X11/Xproto.h line 753
-struct anonymous$41;
+struct anonymous_41;
 
 // tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U32'root'||U32'parent'||U16'nChildren'||U16'pad2'||U32'pad3'||U32'pad4'||U32'pad5'|]
 // file /usr/include/X11/Xproto.h line 480
-struct anonymous$23;
+struct anonymous_23;
 
 // tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U8'present'||U8'major_opcode'||U8'first_event'||U8'first_error'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]
 // file /usr/include/X11/Xproto.h line 829
-struct anonymous$48;
+struct anonymous_48;
 
 // tag-#anon#ST[U8'type'||U8'revertTo'||U16'sequenceNumber'||U32'length'||U32'focus'||U32'pad1'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'|]
 // file /usr/include/X11/Xproto.h line 613
-struct anonymous$35;
+struct anonymous_35;
 
 // tag-#anon#ST[U8'type'||U8'sameScreen'||U16'sequenceNumber'||U32'length'||U32'child'||S16'dstX'||S16'dstY'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'|]
 // file /usr/include/X11/Xproto.h line 600
-struct anonymous$33;
+struct anonymous_33;
 
 // tag-#anon#ST[U8'type'||U8'sameScreen'||U16'sequenceNumber'||U32'length'||U32'root'||U32'child'||S16'rootX'||S16'rootY'||S16'winX'||S16'winY'||U16'mask'||U16'pad1'||U32'pad'|]
 // file /usr/include/X11/Xproto.h line 575
-struct anonymous$30;
+struct anonymous_30;
 
 // tag-#anon#ST[U8'type'||U8'status'||U16'sequenceNumber'||U32'length'||U32'pad1'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'|]
 // file /usr/include/X11/Xproto.h line 560
-struct anonymous$29;
+struct anonymous_29;
 
 // tag-#anon#ST[U8'type'||U8'success'||U16'sequenceNumber'||U32'length'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]
 // file /usr/include/X11/Xproto.h line 859
-struct anonymous$50;
+struct anonymous_50;
 
-// tag-#anon#UN[*{V(S32)->V}$V(S32)->V$'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V}$V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}$SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'$pad0'||SYM#tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#$|*{V}$V$)->V$'sa_sigaction'|]
+// tag-#anon#UN[*{V(S32)->V}_V(S32)->V_'sa_handler'||*{V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V}_V(S32|*{SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#}_SYM#tag-#anon#ST[S32'si_signo'||S32'si_errno'||S32'si_code'||U32'_pad0'||SYM#tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]#'_sifields'|]#_|*{V}_V_)->V_'sa_sigaction'|]
 // file /usr/include/x86_64-linux-gnu/bits/sigaction.h line 28
-union anonymous$12;
+union anonymous_12;
 
-// tag-#anon#UN[ARR20{S8}$S8$'b'||ARR10{S16}$S16$'s'||ARR5{S64}$S64$'l'|]
+// tag-#anon#UN[ARR20{S8}_S8_'b'||ARR10{S16}_S16_'s'||ARR5{S64}_S64_'l'|]
 // file /usr/include/X11/Xlib.h line 905
-union anonymous$128;
+union anonymous_128;
 
-// tag-#anon#UN[ARR28{S32}$S32$'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'$pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}$V$'si_addr'||S16'si_addr_lsb'||U48'$pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'$pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}$V$'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
+// tag-#anon#UN[ARR28{S32}_S32_'_pad'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'|]#'_kill'||SYM#tag-#anon#ST[S32'si_tid'||S32'si_overrun'||SYM#tag-sigval#'si_sigval'|]#'_timer'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||SYM#tag-sigval#'si_sigval'|]#'_rt'||SYM#tag-#anon#ST[S32'si_pid'||U32'si_uid'||S32'si_status'||U32'_pad0'||S64'si_utime'||S64'si_stime'|]#'_sigchld'||SYM#tag-#anon#ST[*{V}_V_'si_addr'||S16'si_addr_lsb'||U48'_pad0'|]#'_sigfault'||SYM#tag-#anon#ST[S64'si_band'||S32'si_fd'||U32'_pad0'|]#'_sigpoll'||SYM#tag-#anon#ST[*{V}_V_'_call_addr'||S32'_syscall'||U32'_arch'|]#'_sigsys'|]
 // file /usr/include/x86_64-linux-gnu/bits/siginfo.h line 69
-union anonymous$10;
+union anonymous_10;
 
-// tag-#anon#UN[ARR4{S8}$S8$'__size'||S32'__align'|]
+// tag-#anon#UN[ARR4{S8}_S8_'__size'||S32'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 130
-union anonymous$141;
+union anonymous_141;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}$V$'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[S32'__lock'||U32'__futex'||U64'__total_seq'||U64'__wakeup_seq'||U64'__woken_seq'||*{V}_V_'__mutex'||U32'__nwaiters'||U32'__broadcast_seq'|]#'__data'||ARR48{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 139
-union anonymous$83;
+union anonymous_83;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U32'type'||S32'longs0'||S32'longs1'||S32'longs2'||S32'longs3'||S32'longs4'|]#'l'||SYM#tag-#anon#ST[U32'type'||S16'shorts0'||S16'shorts1'||S16'shorts2'||S16'shorts3'||S16'shorts4'||S16'shorts5'||S16'shorts6'||S16'shorts7'||S16'shorts8'||S16'shorts9'|]#'s'||SYM#tag-#anon#ST[U32'type'||ARR20{S8}$S8$'bytes'|]#'b'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U32'type'||S32'longs0'||S32'longs1'||S32'longs2'||S32'longs3'||S32'longs4'|]#'l'||SYM#tag-#anon#ST[U32'type'||S16'shorts0'||S16'shorts1'||S16'shorts2'||S16'shorts3'||S16'shorts4'||S16'shorts5'||S16'shorts6'||S16'shorts7'||S16'shorts8'||S16'shorts9'|]#'s'||SYM#tag-#anon#ST[U32'type'||ARR20{S8}_S8_'bytes'|]#'b'|]
 // file /usr/include/X11/Xproto.h line 1185
-union anonymous$138;
+union anonymous_138;
 
 // tag-#anon#UN[SYM#tag-#anon#ST[U8'type'||U8'data1'||U16'sequenceNumber'||U32'length'||U32'data00'||U32'data01'||U32'data02'||U32'data03'||U32'data04'||U32'data05'|]#'generic'||SYM#tag-#anon#ST[U8'type'||U8'depth'||U16'sequenceNumber'||U32'length'||U32'root'||S16'x'||S16'y'||U16'width'||U16'height'||U16'borderWidth'||U16'pad1'||U32'pad2'||U32'pad3'|]#'geom'||SYM#tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U32'root'||U32'parent'||U16'nChildren'||U16'pad2'||U32'pad3'||U32'pad4'||U32'pad5'|]#'tree'||SYM#tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U32'atom'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'|]#'atom'||SYM#tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'nameLength'||U16'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]#'atomName'||SYM#tag-#anon#ST[U8'type'||U8'format'||U16'sequenceNumber'||U32'length'||U32'propertyType'||U32'bytesAfter'||U32'nItems'||U32'pad1'||U32'pad2'||U32'pad3'|]#'property'||SYM#tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'nProperties'||U16'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]#'listProperties'||SYM#tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U32'owner'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'|]#'selection'||SYM#tag-#anon#ST[U8'type'||U8'status'||U16'sequenceNumber'||U32'length'||U32'pad1'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'|]#'grabPointer'||SYM#tag-#anon#ST[U8'type'||U8'status'||U16'sequenceNumber'||U32'length'||U32'pad1'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'|]#'grabKeyboard'||SYM#tag-#anon#ST[U8'type'||U8'sameScreen'||U16'sequenceNumber'||U32'length'||U32'root'||U32'child'||S16'rootX'||S16'rootY'||S16'winX'||S16'winY'||U16'mask'||U16'pad1'||U32'pad'|]#'pointer'||SYM#tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U32'nEvents'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'|]#'motionEvents'||SYM#tag-#anon#ST[U8'type'||U8'sameScreen'||U16'sequenceNumber'||U32'length'||U32'child'||S16'dstX'||S16'dstY'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'|]#'coords'||SYM#tag-#anon#ST[U8'type'||U8'revertTo'||U16'sequenceNumber'||U32'length'||U32'focus'||U32'pad1'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'|]#'inputFocus'||SYM#tag-#anon#ST[U8'type'||U8'drawDirection'||U16'sequenceNumber'||U32'length'||S16'fontAscent'||S16'fontDescent'||S16'overallAscent'||S16'overallDescent'||S32'overallWidth'||S32'overallLeft'||S32'overallRight'||U32'pad'|]#'textExtents'||SYM#tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'nFonts'||U16'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]#'fonts'||SYM#tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'nPaths'||U16'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]#'fontPath'||SYM#tag-#anon#ST[U8'type'||U8'depth'||U16'sequenceNumber'||U32'length'||U32'visual'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]#'image'||SYM#tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'nColormaps'||U16'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]#'colormaps'||SYM#tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'red'||U16'green'||U16'blue'||U16'pad2'||U32'pixel'||U32'pad3'||U32'pad4'||U32'pad5'|]#'allocColor'||SYM#tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U32'pixel'||U16'exactRed'||U16'exactGreen'||U16'exactBlue'||U16'screenRed'||U16'screenGreen'||U16'screenBlue'||U32'pad2'||U32'pad3'|]#'allocNamedColor'||SYM#tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'nPixels'||U16'nMasks'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]#'colorCells'||SYM#tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'nPixels'||U16'pad2'||U32'redMask'||U32'greenMask'||U32'blueMask'||U32'pad3'||U32'pad4'|]#'colorPlanes'||SYM#tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'nColors'||U16'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]#'colors'||SYM#tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'exactRed'||U16'exactGreen'||U16'exactBlue'||U16'screenRed'||U16'screenGreen'||U16'screenBlue'||U32'pad3'||U32'pad4'||U32'pad5'|]#'lookupColor'||SYM#tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'width'||U16'height'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]#'bestSize'||SYM#tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U8'present'||U8'major_opcode'||U8'first_event'||U8'first_error'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]#'extension'||SYM#tag-#anon#ST[U8'type'||U8'nExtensions'||U16'sequenceNumber'||U32'length'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]#'extensions'||SYM#tag-#anon#ST[U8'type'||U8'success'||U16'sequenceNumber'||U32'length'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]#'setModifierMapping'||SYM#tag-#anon#ST[U8'type'||U8'numKeyPerModifier'||U16'sequenceNumber'||U32'length'||U32'pad1'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'|]#'getModifierMapping'||SYM#tag-#anon#ST[U8'type'||U8'success'||U16'sequenceNumber'||U32'length'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]#'setPointerMapping'||SYM#tag-#anon#ST[U8'type'||U8'keySymsPerKeyCode'||U16'sequenceNumber'||U32'length'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]#'getKeyboardMapping'||SYM#tag-#anon#ST[U8'type'||U8'nElts'||U16'sequenceNumber'||U32'length'||U32'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]#'getPointerMapping'||SYM#tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'accelNumerator'||U16'accelDenominator'||U16'threshold'||U16'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'|]#'pointerControl'||SYM#tag-#anon#ST[U8'type'||U8'pad1'||U16'sequenceNumber'||U32'length'||U16'timeout'||U16'interval'||U8'preferBlanking'||U8'allowExposures'||U16'pad2'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'|]#'screenSaver'||SYM#tag-#anon#ST[U8'type'||U8'enabled'||U16'sequenceNumber'||U32'length'||U16'nHosts'||U16'pad1'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]#'hosts'||SYM#tag-#anon#ST[U8'type'||U8'errorCode'||U16'sequenceNumber'||U32'resourceID'||U16'minorCode'||U8'majorCode'||U8'pad1'||U32'pad3'||U32'pad4'||U32'pad5'||U32'pad6'||U32'pad7'|]#'error'||SYM#tag-_xEvent#'event'|]
 // file /usr/include/X11/Xproto.h line 1264
-union anonymous$134;
+union anonymous_134;
 
-// tag-#anon#UN[SYM#tag-#anon#ST[U8'type'||U8'detail'||U16'sequenceNumber'|]#'u'||SYM#tag-#anon#ST[U32'pad00'||U32'time'||U32'root'||U32'event'||U32'child'||S16'rootX'||S16'rootY'||S16'eventX'||S16'eventY'||U16'state'||U8'sameScreen'||U8'pad1'|]#'keyButtonPointer'||SYM#tag-#anon#ST[U32'pad00'||U32'time'||U32'root'||U32'event'||U32'child'||S16'rootX'||S16'rootY'||S16'eventX'||S16'eventY'||U16'state'||U8'mode'||U8'flags'|]#'enterLeave'||SYM#tag-#anon#ST[U32'pad00'||U32'window'||U8'mode'||U8'pad1'||U8'pad2'||U8'pad3'|]#'focus'||SYM#tag-#anon#ST[U32'pad00'||U32'window'||U16'x'||U16'y'||U16'width'||U16'height'||U16'count'||U16'pad2'|]#'expose'||SYM#tag-#anon#ST[U32'pad00'||U32'drawable'||U16'x'||U16'y'||U16'width'||U16'height'||U16'minorEvent'||U16'count'||U8'majorEvent'||U8'pad1'||U8'pad2'||U8'pad3'|]#'graphicsExposure'||SYM#tag-#anon#ST[U32'pad00'||U32'drawable'||U16'minorEvent'||U8'majorEvent'||U8'bpad'|]#'noExposure'||SYM#tag-#anon#ST[U32'pad00'||U32'window'||U8'state'||U8'pad1'||U8'pad2'||U8'pad3'|]#'visibility'||SYM#tag-#anon#ST[U32'pad00'||U32'parent'||U32'window'||S16'x'||S16'y'||U16'width'||U16'height'||U16'borderWidth'||U8'override'||U8'bpad'|]#'createNotify'||SYM#tag-#anon#ST[U32'pad00'||U32'event'||U32'window'|]#'destroyNotify'||SYM#tag-#anon#ST[U32'pad00'||U32'event'||U32'window'||U8'fromConfigure'||U8'pad1'||U8'pad2'||U8'pad3'|]#'unmapNotify'||SYM#tag-#anon#ST[U32'pad00'||U32'event'||U32'window'||U8'override'||U8'pad1'||U8'pad2'||U8'pad3'|]#'mapNotify'||SYM#tag-#anon#ST[U32'pad00'||U32'parent'||U32'window'|]#'mapRequest'||SYM#tag-#anon#ST[U32'pad00'||U32'event'||U32'window'||U32'parent'||S16'x'||S16'y'||U8'override'||U8'pad1'||U8'pad2'||U8'pad3'|]#'reparent'||SYM#tag-#anon#ST[U32'pad00'||U32'event'||U32'window'||U32'aboveSibling'||S16'x'||S16'y'||U16'width'||U16'height'||U16'borderWidth'||U8'override'||U8'bpad'|]#'configureNotify'||SYM#tag-#anon#ST[U32'pad00'||U32'parent'||U32'window'||U32'sibling'||S16'x'||S16'y'||U16'width'||U16'height'||U16'borderWidth'||U16'valueMask'||U32'pad1'|]#'configureRequest'||SYM#tag-#anon#ST[U32'pad00'||U32'event'||U32'window'||S16'x'||S16'y'||U32'pad1'||U32'pad2'||U32'pad3'||U32'pad4'|]#'gravity'||SYM#tag-#anon#ST[U32'pad00'||U32'window'||U16'width'||U16'height'|]#'resizeRequest'||SYM#tag-#anon#ST[U32'pad00'||U32'event'||U32'window'||U32'parent'||U8'place'||U8'pad1'||U8'pad2'||U8'pad3'|]#'circulate'||SYM#tag-#anon#ST[U32'pad00'||U32'window'||U32'atom'||U32'time'||U8'state'||U8'pad1'||U16'pad2'|]#'property'||SYM#tag-#anon#ST[U32'pad00'||U32'time'||U32'window'||U32'atom'|]#'selectionClear'||SYM#tag-#anon#ST[U32'pad00'||U32'time'||U32'owner'||U32'requestor'||U32'selection'||U32'target'||U32'property'|]#'selectionRequest'||SYM#tag-#anon#ST[U32'pad00'||U32'time'||U32'requestor'||U32'selection'||U32'target'||U32'property'|]#'selectionNotify'||SYM#tag-#anon#ST[U32'pad00'||U32'window'||U32'colormap'||U8'new'||U8'state'||U8'pad1'||U8'pad2'|]#'colormap'||SYM#tag-#anon#ST[U32'pad00'||U8'request'||U8'firstKeyCode'||U8'count'||U8'pad1'|]#'mappingNotify'||SYM#tag-#anon#ST[U32'pad00'||U32'window'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'type'||S32'longs0'||S32'longs1'||S32'longs2'||S32'longs3'||S32'longs4'|]#'l'||SYM#tag-#anon#ST[U32'type'||S16'shorts0'||S16'shorts1'||S16'shorts2'||S16'shorts3'||S16'shorts4'||S16'shorts5'||S16'shorts6'||S16'shorts7'||S16'shorts8'||S16'shorts9'|]#'s'||SYM#tag-#anon#ST[U32'type'||ARR20{S8}$S8$'bytes'|]#'b'|]#'u'|]#'clientMessage'|]
+// tag-#anon#UN[SYM#tag-#anon#ST[U8'type'||U8'detail'||U16'sequenceNumber'|]#'u'||SYM#tag-#anon#ST[U32'pad00'||U32'time'||U32'root'||U32'event'||U32'child'||S16'rootX'||S16'rootY'||S16'eventX'||S16'eventY'||U16'state'||U8'sameScreen'||U8'pad1'|]#'keyButtonPointer'||SYM#tag-#anon#ST[U32'pad00'||U32'time'||U32'root'||U32'event'||U32'child'||S16'rootX'||S16'rootY'||S16'eventX'||S16'eventY'||U16'state'||U8'mode'||U8'flags'|]#'enterLeave'||SYM#tag-#anon#ST[U32'pad00'||U32'window'||U8'mode'||U8'pad1'||U8'pad2'||U8'pad3'|]#'focus'||SYM#tag-#anon#ST[U32'pad00'||U32'window'||U16'x'||U16'y'||U16'width'||U16'height'||U16'count'||U16'pad2'|]#'expose'||SYM#tag-#anon#ST[U32'pad00'||U32'drawable'||U16'x'||U16'y'||U16'width'||U16'height'||U16'minorEvent'||U16'count'||U8'majorEvent'||U8'pad1'||U8'pad2'||U8'pad3'|]#'graphicsExposure'||SYM#tag-#anon#ST[U32'pad00'||U32'drawable'||U16'minorEvent'||U8'majorEvent'||U8'bpad'|]#'noExposure'||SYM#tag-#anon#ST[U32'pad00'||U32'window'||U8'state'||U8'pad1'||U8'pad2'||U8'pad3'|]#'visibility'||SYM#tag-#anon#ST[U32'pad00'||U32'parent'||U32'window'||S16'x'||S16'y'||U16'width'||U16'height'||U16'borderWidth'||U8'override'||U8'bpad'|]#'createNotify'||SYM#tag-#anon#ST[U32'pad00'||U32'event'||U32'window'|]#'destroyNotify'||SYM#tag-#anon#ST[U32'pad00'||U32'event'||U32'window'||U8'fromConfigure'||U8'pad1'||U8'pad2'||U8'pad3'|]#'unmapNotify'||SYM#tag-#anon#ST[U32'pad00'||U32'event'||U32'window'||U8'override'||U8'pad1'||U8'pad2'||U8'pad3'|]#'mapNotify'||SYM#tag-#anon#ST[U32'pad00'||U32'parent'||U32'window'|]#'mapRequest'||SYM#tag-#anon#ST[U32'pad00'||U32'event'||U32'window'||U32'parent'||S16'x'||S16'y'||U8'override'||U8'pad1'||U8'pad2'||U8'pad3'|]#'reparent'||SYM#tag-#anon#ST[U32'pad00'||U32'event'||U32'window'||U32'aboveSibling'||S16'x'||S16'y'||U16'width'||U16'height'||U16'borderWidth'||U8'override'||U8'bpad'|]#'configureNotify'||SYM#tag-#anon#ST[U32'pad00'||U32'parent'||U32'window'||U32'sibling'||S16'x'||S16'y'||U16'width'||U16'height'||U16'borderWidth'||U16'valueMask'||U32'pad1'|]#'configureRequest'||SYM#tag-#anon#ST[U32'pad00'||U32'event'||U32'window'||S16'x'||S16'y'||U32'pad1'||U32'pad2'||U32'pad3'||U32'pad4'|]#'gravity'||SYM#tag-#anon#ST[U32'pad00'||U32'window'||U16'width'||U16'height'|]#'resizeRequest'||SYM#tag-#anon#ST[U32'pad00'||U32'event'||U32'window'||U32'parent'||U8'place'||U8'pad1'||U8'pad2'||U8'pad3'|]#'circulate'||SYM#tag-#anon#ST[U32'pad00'||U32'window'||U32'atom'||U32'time'||U8'state'||U8'pad1'||U16'pad2'|]#'property'||SYM#tag-#anon#ST[U32'pad00'||U32'time'||U32'window'||U32'atom'|]#'selectionClear'||SYM#tag-#anon#ST[U32'pad00'||U32'time'||U32'owner'||U32'requestor'||U32'selection'||U32'target'||U32'property'|]#'selectionRequest'||SYM#tag-#anon#ST[U32'pad00'||U32'time'||U32'requestor'||U32'selection'||U32'target'||U32'property'|]#'selectionNotify'||SYM#tag-#anon#ST[U32'pad00'||U32'window'||U32'colormap'||U8'new'||U8'state'||U8'pad1'||U8'pad2'|]#'colormap'||SYM#tag-#anon#ST[U32'pad00'||U8'request'||U8'firstKeyCode'||U8'count'||U8'pad1'|]#'mappingNotify'||SYM#tag-#anon#ST[U32'pad00'||U32'window'||SYM#tag-#anon#UN[SYM#tag-#anon#ST[U32'type'||S32'longs0'||S32'longs1'||S32'longs2'||S32'longs3'||S32'longs4'|]#'l'||SYM#tag-#anon#ST[U32'type'||S16'shorts0'||S16'shorts1'||S16'shorts2'||S16'shorts3'||S16'shorts4'||S16'shorts5'||S16'shorts6'||S16'shorts7'||S16'shorts8'||S16'shorts9'|]#'s'||SYM#tag-#anon#ST[U32'type'||ARR20{S8}_S8_'bytes'|]#'b'|]#'u'|]#'clientMessage'|]
 // file /usr/include/X11/Xproto.h line 997
-union anonymous$57;
+union anonymous_57;
 
-// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}$S8$'__size'||S64'__align'|]
+// tag-#anon#UN[SYM#tag-__pthread_mutex_s#'__data'||ARR40{S8}_S8_'__size'||S64'__align'|]
 // file /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h line 90
-union anonymous$86;
+union anonymous_86;
 
 // tag-_BRWindow
 // file rmd_types.h line 105
@@ -860,25 +860,25 @@ struct vorbis_info;
 
 // XAllocNamedColor
 // file /usr/include/X11/Xlib.h line 1988
-extern signed int XAllocNamedColor(struct _XDisplay *, unsigned long int, const char *, struct anonymous$18 *, struct anonymous$18 *);
+extern signed int XAllocNamedColor(struct _XDisplay *, unsigned long int, const char *, struct anonymous_18 *, struct anonymous_18 *);
 // XBlackPixel
 // file /usr/include/X11/Xlib.h line 1789
 extern unsigned long int XBlackPixel(struct _XDisplay *, signed int);
 // XChangeGC
 // file /usr/include/X11/Xlib.h line 2038
-extern signed int XChangeGC(struct _XDisplay *, struct _XGC *, unsigned long int, struct anonymous$16 *);
+extern signed int XChangeGC(struct _XDisplay *, struct _XGC *, unsigned long int, struct anonymous_16 *);
 // XCloseDisplay
 // file /usr/include/X11/Xlib.h line 2160
 extern signed int XCloseDisplay(struct _XDisplay *);
 // XCreateGC
 // file /usr/include/X11/Xlib.h line 1584
-extern struct _XGC * XCreateGC(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous$16 *);
+extern struct _XGC * XCreateGC(struct _XDisplay *, unsigned long int, unsigned long int, struct anonymous_16 *);
 // XCreateImage
 // file /usr/include/X11/Xlib.h line 1441
-extern struct _XImage * XCreateImage(struct _XDisplay *, struct anonymous$21 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
+extern struct _XImage * XCreateImage(struct _XDisplay *, struct anonymous_21 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
 // XCreateWindow
 // file /usr/include/X11/Xlib.h line 1636
-extern unsigned long int XCreateWindow(struct _XDisplay *, unsigned long int, signed int, signed int, unsigned int, unsigned int, unsigned int, signed int, unsigned int, struct anonymous$21 *, unsigned long int, struct anonymous$19 *);
+extern unsigned long int XCreateWindow(struct _XDisplay *, unsigned long int, signed int, signed int, unsigned int, unsigned int, unsigned int, signed int, unsigned int, struct anonymous_21 *, unsigned long int, struct anonymous_19 *);
 // XDamageCreate
 // file /usr/include/X11/extensions/Xdamage.h line 59
 unsigned long int XDamageCreate(struct _XDisplay *, unsigned long int, signed int);
@@ -893,7 +893,7 @@ extern signed int XDestroyWindow(struct _XDisplay *, unsigned long int);
 extern signed int XFillRectangle(struct _XDisplay *, unsigned long int, struct _XGC *, signed int, signed int, unsigned int, unsigned int);
 // XFixesGetCursorImage
 // file /usr/include/X11/extensions/Xfixes.h line 145
-struct anonymous$31 * XFixesGetCursorImage(struct _XDisplay *);
+struct anonymous_31 * XFixesGetCursorImage(struct _XDisplay *);
 // XFixesQueryExtension
 // file /usr/include/X11/extensions/Xfixes.h line 117
 signed int XFixesQueryExtension(struct _XDisplay *, signed int *, signed int *);
@@ -905,13 +905,13 @@ extern signed int XFree(void *);
 extern signed int XFreeGC(struct _XDisplay *, struct _XGC *);
 // XFreeModifiermap
 // file /usr/include/X11/Xlib.h line 2566
-extern signed int XFreeModifiermap(struct anonymous$95 *);
+extern signed int XFreeModifiermap(struct anonymous_95 *);
 // XGetErrorText
 // file /usr/include/X11/Xlib.h line 2600
 extern signed int XGetErrorText(struct _XDisplay *, signed int, char *, signed int);
 // XGetModifierMapping
 // file /usr/include/X11/Xlib.h line 1423
-extern struct anonymous$95 * XGetModifierMapping(struct _XDisplay *);
+extern struct anonymous_95 * XGetModifierMapping(struct _XDisplay *);
 // XGetSelectionOwner
 // file /usr/include/X11/Xlib.h line 1632
 extern unsigned long int XGetSelectionOwner(struct _XDisplay *, unsigned long int);
@@ -965,22 +965,22 @@ extern signed int XQueryTree(struct _XDisplay *, unsigned long int, unsigned lon
 extern signed int XSelectInput(struct _XDisplay *, unsigned long int, signed long int);
 // XSetErrorHandler
 // file /usr/include/X11/Xlib.h line 1848
-extern signed int (*XSetErrorHandler(signed int (*)(struct _XDisplay *, struct anonymous$118 *)))(struct _XDisplay *, struct anonymous$118 *);
+extern signed int (*XSetErrorHandler(signed int (*)(struct _XDisplay *, struct anonymous_118 *)))(struct _XDisplay *, struct anonymous_118 *);
 // XShapeCombineRectangles
 // file /usr/include/X11/extensions/shape.h line 73
-extern void XShapeCombineRectangles(struct _XDisplay *, unsigned long int, signed int, signed int, signed int, struct anonymous$17 *, signed int, signed int, signed int);
+extern void XShapeCombineRectangles(struct _XDisplay *, unsigned long int, signed int, signed int, signed int, struct anonymous_17 *, signed int, signed int, signed int);
 // XShapeQueryExtension
 // file /usr/include/X11/extensions/shape.h line 51
 extern signed int XShapeQueryExtension(struct _XDisplay *, signed int *, signed int *);
 // XShmAttach
 // file /usr/include/X11/extensions/XShm.h line 78
-signed int XShmAttach(struct _XDisplay *, struct anonymous$34 *);
+signed int XShmAttach(struct _XDisplay *, struct anonymous_34 *);
 // XShmCreateImage
 // file /usr/include/X11/extensions/XShm.h line 111
-struct _XImage * XShmCreateImage(struct _XDisplay *, struct anonymous$21 *, unsigned int, signed int, char *, struct anonymous$34 *, unsigned int, unsigned int);
+struct _XImage * XShmCreateImage(struct _XDisplay *, struct anonymous_21 *, unsigned int, signed int, char *, struct anonymous_34 *, unsigned int, unsigned int);
 // XShmDetach
 // file /usr/include/X11/extensions/XShm.h line 83
-signed int XShmDetach(struct _XDisplay *, struct anonymous$34 *);
+signed int XShmDetach(struct _XDisplay *, struct anonymous_34 *);
 // XShmGetImage
 // file /usr/include/X11/extensions/XShm.h line 102
 signed int XShmGetImage(struct _XDisplay *, unsigned long int, struct _XImage *, signed int, signed int, unsigned long int);
@@ -1001,7 +1001,7 @@ extern void * _XGetRequest(struct _XDisplay *, unsigned char, unsigned long int)
 extern void _XReadPad(struct _XDisplay *, char *, signed long int);
 // _XReply
 // file /usr/include/X11/Xlibint.h line 926
-extern signed int _XReply(struct _XDisplay *, union anonymous$134 *, signed int, signed int);
+extern signed int _XReply(struct _XDisplay *, union anonymous_134 *, signed int, signed int);
 // __errno_location
 // file /usr/include/x86_64-linux-gnu/bits/errno.h line 50
 extern signed int * __errno_location(void);
@@ -1016,16 +1016,16 @@ static unsigned int _le_32(unsigned int i);
 static signed long int _le_64(signed long int l);
 // add_eos_packet_to_stream
 // file skeleton.h line 65
-extern signed int add_eos_packet_to_stream(struct anonymous$14 *os);
+extern signed int add_eos_packet_to_stream(struct anonymous_14 *os);
 // add_fisbone_to_stream
 // file skeleton.h line 64
-extern signed int add_fisbone_to_stream(struct anonymous$14 *os, struct anonymous$139 *fp);
+extern signed int add_fisbone_to_stream(struct anonymous_14 *os, struct anonymous_139 *fp);
 // add_fishead_to_stream
 // file skeleton.h line 63
-extern signed int add_fishead_to_stream(struct anonymous$14 *os, struct anonymous$140 *fp);
+extern signed int add_fishead_to_stream(struct anonymous_14 *os, struct anonymous_140 *fp);
 // add_message_header_field
 // file skeleton.h line 54
-extern signed int add_message_header_field(struct anonymous$139 *fp, char *header_key, char *header_value);
+extern signed int add_message_header_field(struct anonymous_139 *fp, char *header_key, char *header_value);
 // atof
 // file /usr/include/stdlib.h line 144
 extern double atof(const char *);
@@ -1046,31 +1046,31 @@ extern signed int fclose(struct _IO_FILE *);
 extern signed int fflush(struct _IO_FILE *);
 // fisbone_clear
 // file skeleton.c line 238
-extern signed int fisbone_clear(struct anonymous$139 *fp);
+extern signed int fisbone_clear(struct anonymous_139 *fp);
 // fisbone_from_data
 // file skeleton.c line 206
-static signed int fisbone_from_data(const unsigned char *data, signed int len, struct anonymous$139 *fp);
+static signed int fisbone_from_data(const unsigned char *data, signed int len, struct anonymous_139 *fp);
 // fisbone_from_ogg
 // file skeleton.c line 229
-extern signed int fisbone_from_ogg(struct anonymous$126 *op, struct anonymous$139 *fp);
+extern signed int fisbone_from_ogg(struct anonymous_126 *op, struct anonymous_139 *fp);
 // fisbone_from_ogg_page
 // file skeleton.c line 234
-extern signed int fisbone_from_ogg_page(const struct anonymous$15 *og, struct anonymous$139 *fp);
+extern signed int fisbone_from_ogg_page(const struct anonymous_15 *og, struct anonymous_139 *fp);
 // fishead_from_data
 // file skeleton.c line 178
-static signed int fishead_from_data(const unsigned char *data, signed int len, struct anonymous$140 *fp);
+static signed int fishead_from_data(const unsigned char *data, signed int len, struct anonymous_140 *fp);
 // fishead_from_ogg
 // file skeleton.c line 196
-extern signed int fishead_from_ogg(struct anonymous$126 *op, struct anonymous$140 *fp);
+extern signed int fishead_from_ogg(struct anonymous_126 *op, struct anonymous_140 *fp);
 // fishead_from_ogg_page
 // file skeleton.c line 201
-extern signed int fishead_from_ogg_page(const struct anonymous$15 *og, struct anonymous$140 *fp);
+extern signed int fishead_from_ogg_page(const struct anonymous_15 *og, struct anonymous_140 *fp);
 // floorf
 // file /usr/include/x86_64-linux-gnu/bits/mathcalls.h line 184
 extern float floorf(float);
 // flush_ogg_stream_to_file
 // file skeleton.c line 282
-extern signed int flush_ogg_stream_to_file(struct anonymous$14 *os, struct _IO_FILE *out);
+extern signed int flush_ogg_stream_to_file(struct anonymous_14 *os, struct _IO_FILE *out);
 // fopen
 // file /usr/include/stdio.h line 272
 extern struct _IO_FILE * fopen(const char *, const char *);
@@ -1145,25 +1145,25 @@ const char * jack_port_name(const struct _jack_port *);
 struct _jack_port * jack_port_register(struct _jack_client *, const char *, const char *, unsigned long int, unsigned long int);
 // jack_ringbuffer_create
 // file /usr/include/jack/ringbuffer.h line 72
-struct anonymous$85 * jack_ringbuffer_create(unsigned long int);
+struct anonymous_85 * jack_ringbuffer_create(unsigned long int);
 // jack_ringbuffer_free
 // file /usr/include/jack/ringbuffer.h line 80
-void jack_ringbuffer_free(struct anonymous$85 *);
+void jack_ringbuffer_free(struct anonymous_85 *);
 // jack_ringbuffer_read
 // file /usr/include/jack/ringbuffer.h line 137
-unsigned long int jack_ringbuffer_read(struct anonymous$85 *, char *, unsigned long int);
+unsigned long int jack_ringbuffer_read(struct anonymous_85 *, char *, unsigned long int);
 // jack_ringbuffer_read_space
 // file /usr/include/jack/ringbuffer.h line 176
-unsigned long int jack_ringbuffer_read_space(const struct anonymous$85 *);
+unsigned long int jack_ringbuffer_read_space(const struct anonymous_85 *);
 // jack_ringbuffer_write
 // file /usr/include/jack/ringbuffer.h line 205
-unsigned long int jack_ringbuffer_write(struct anonymous$85 *, const char *, unsigned long int);
+unsigned long int jack_ringbuffer_write(struct anonymous_85 *, const char *, unsigned long int);
 // jack_set_process_callback
 // file /usr/include/jack/jack.h line 342
 signed int jack_set_process_callback(struct _jack_client *, signed int (*)(unsigned int, void *), void *);
 // m_add_fishead_packet
 // file rmd_init_encoder.c line 43
-static void m_add_fishead_packet(struct anonymous$14 *m_ogg_state);
+static void m_add_fishead_packet(struct anonymous_14 *m_ogg_state);
 // malloc
 // file /usr/include/stdlib.h line 466
 extern void * malloc(unsigned long int);
@@ -1181,37 +1181,37 @@ extern void * memset(void *, signed int, unsigned long int);
 extern signed int mkdir(const char *, unsigned int);
 // ogg_from_fisbone
 // file skeleton.c line 144
-extern signed int ogg_from_fisbone(struct anonymous$139 *fp, struct anonymous$126 *op);
+extern signed int ogg_from_fisbone(struct anonymous_139 *fp, struct anonymous_126 *op);
 // ogg_from_fishead
 // file skeleton.c line 114
-extern signed int ogg_from_fishead(struct anonymous$140 *fp, struct anonymous$126 *op);
+extern signed int ogg_from_fishead(struct anonymous_140 *fp, struct anonymous_126 *op);
 // ogg_page_cp
 // file rmd_flush_to_ogg.c line 47
-static void ogg_page_cp(struct anonymous$15 *new, struct anonymous$15 *old);
+static void ogg_page_cp(struct anonymous_15 *new, struct anonymous_15 *old);
 // ogg_page_cp_free
 // file rmd_flush_to_ogg.c line 67
-static void ogg_page_cp_free(struct anonymous$15 *pg);
+static void ogg_page_cp_free(struct anonymous_15 *pg);
 // ogg_page_eos
 // file /usr/include/ogg/ogg.h line 197
-extern signed int ogg_page_eos(const struct anonymous$15 *);
+extern signed int ogg_page_eos(const struct anonymous_15 *);
 // ogg_page_granulepos
 // file /usr/include/ogg/ogg.h line 198
-extern signed long int ogg_page_granulepos(const struct anonymous$15 *);
+extern signed long int ogg_page_granulepos(const struct anonymous_15 *);
 // ogg_stream_clear
 // file /usr/include/ogg/ogg.h line 185
-extern signed int ogg_stream_clear(struct anonymous$14 *);
+extern signed int ogg_stream_clear(struct anonymous_14 *);
 // ogg_stream_flush
 // file /usr/include/ogg/ogg.h line 163
-extern signed int ogg_stream_flush(struct anonymous$14 *, struct anonymous$15 *);
+extern signed int ogg_stream_flush(struct anonymous_14 *, struct anonymous_15 *);
 // ogg_stream_init
 // file /usr/include/ogg/ogg.h line 184
-extern signed int ogg_stream_init(struct anonymous$14 *, signed int);
+extern signed int ogg_stream_init(struct anonymous_14 *, signed int);
 // ogg_stream_packetin
 // file /usr/include/ogg/ogg.h line 158
-extern signed int ogg_stream_packetin(struct anonymous$14 *, struct anonymous$126 *);
+extern signed int ogg_stream_packetin(struct anonymous_14 *, struct anonymous_126 *);
 // ogg_stream_pageout
 // file /usr/include/ogg/ogg.h line 161
-extern signed int ogg_stream_pageout(struct anonymous$14 *, struct anonymous$15 *);
+extern signed int ogg_stream_pageout(struct anonymous_14 *, struct anonymous_15 *);
 // perror
 // file /usr/include/stdio.h line 846
 extern void perror(const char *);
@@ -1244,16 +1244,16 @@ void poptSetOtherOptionHelp(struct poptContext_s *, const char *);
 extern double pow(double, double);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous$83 *);
+extern signed int pthread_cond_broadcast(union anonymous_83 *);
 // pthread_cond_init
 // file /usr/include/pthread.h line 970
-extern signed int pthread_cond_init(union anonymous$83 *, const union anonymous$141 *);
+extern signed int pthread_cond_init(union anonymous_83 *, const union anonymous_141 *);
 // pthread_cond_signal
 // file /usr/include/pthread.h line 979
-extern signed int pthread_cond_signal(union anonymous$83 *);
+extern signed int pthread_cond_signal(union anonymous_83 *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous$83 *, union anonymous$86 *);
+extern signed int pthread_cond_wait(union anonymous_83 *, union anonymous_86 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -1265,13 +1265,13 @@ extern void pthread_exit(void *);
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous$86 *, const union anonymous$141 *);
+extern signed int pthread_mutex_init(union anonymous_86 *, const union anonymous_141 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous$86 *);
+extern signed int pthread_mutex_lock(union anonymous_86 *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous$86 *);
+extern signed int pthread_mutex_unlock(union anonymous_86 *);
 // raise
 // file /usr/include/signal.h line 139
 extern signed int raise(signed int);
@@ -1313,7 +1313,7 @@ void rmdCleanUp(void);
 void rmdClearList(struct _RectArea **root);
 // rmdCollideRects
 // file rmd_rectinsert.c line 59
-static signed int rmdCollideRects(struct anonymous$17 *xrect1, struct anonymous$17 *xrect2, struct anonymous$17 *xrect_return, signed int *nrects);
+static signed int rmdCollideRects(struct anonymous_17 *xrect1, struct anonymous_17 *xrect2, struct anonymous_17 *xrect_return, signed int *nrects);
 // rmdDrawFrame
 // file rmd_frame.c line 41
 void rmdDrawFrame(struct _XDisplay *dpy, signed int screen, unsigned long int win, signed int width, signed int height);
@@ -1328,13 +1328,13 @@ void * rmdEncodeImageBuffer(struct _ProgData *pdata);
 void * rmdEncodeSoundBuffer(struct _ProgData *pdata);
 // rmdErrorHandler
 // file rmd_error.h line 46
-signed int rmdErrorHandler(struct _XDisplay *dpy, struct anonymous$118 *e);
+signed int rmdErrorHandler(struct _XDisplay *dpy, struct anonymous_118 *e);
 // rmdEventLoop
 // file rmd_poll_events.h line 46
 void rmdEventLoop(struct _ProgData *pdata);
 // rmdFirstFrame
 // file rmd_get_frame.c line 199
-static signed int rmdFirstFrame(struct _ProgData *pdata, struct _XImage **image, struct anonymous$34 *shminfo, char **pxl_data);
+static signed int rmdFirstFrame(struct _ProgData *pdata, struct _XImage **image, struct anonymous_34 *shminfo, char **pxl_data);
 // rmdFixBufferSize
 // file rmd_initialize_data.c line 45
 static void rmdFixBufferSize(unsigned long int *buffsize);
@@ -1355,7 +1355,7 @@ void * rmdGetFrame(struct _ProgData *pdata);
 signed int rmdGetZPixmap(struct _XDisplay *dpy, unsigned long int root, char *data, signed int x, signed int y, signed int width, signed int height);
 // rmdGetZPixmapSHM
 // file rmd_getzpixmap.c line 72
-signed int rmdGetZPixmapSHM(struct _XDisplay *dpy, unsigned long int root, struct anonymous$34 *shminfo, signed int shm_opcode, char *data, signed int x, signed int y, signed int width, signed int height);
+signed int rmdGetZPixmapSHM(struct _XDisplay *dpy, unsigned long int root, struct anonymous_34 *shminfo, signed int shm_opcode, char *data, signed int x, signed int y, signed int width, signed int height);
 // rmdIncrementalNaming
 // file rmd_init_encoder.c line 56
 static signed int rmdIncrementalNaming(char **name);
@@ -1421,7 +1421,7 @@ signed int rmdReadSpecsFile(struct _ProgData *pdata);
 static signed int rmdReadZF(void *buffer, unsigned long int size, unsigned long int nmemb, struct _IO_FILE *ucfp, struct gzFile_s **ifp);
 // rmdRectInsert
 // file rmd_rectinsert.h line 46
-signed int rmdRectInsert(struct _RectArea **root, struct anonymous$17 *xrect);
+signed int rmdRectInsert(struct _RectArea **root, struct anonymous_17 *xrect);
 // rmdRegisterCallbacks
 // file rmd_register_callbacks.c line 60
 void rmdRegisterCallbacks(struct _ProgData *pdata);
@@ -1478,7 +1478,7 @@ void rmdThreads(struct _ProgData *pdata);
 void * rmdTimer(struct _ProgData *pdata);
 // rmdUpdateImage
 // file rmd_update_image.h line 58
-void rmdUpdateImage(struct _XDisplay *dpy, struct anonymous$45 *yuv, struct _DisplaySpecs *specs, struct _RectArea **root, struct _BRWindow *brwin, struct _EncData *enc, char *datatemp, signed int noshmem, struct anonymous$34 *shminfo, signed int shm_opcode, signed int no_quick_subsample);
+void rmdUpdateImage(struct _XDisplay *dpy, struct anonymous_45 *yuv, struct _DisplaySpecs *specs, struct _RectArea **root, struct _BRWindow *brwin, struct _EncData *enc, char *datatemp, signed int noshmem, struct anonymous_34 *shminfo, signed int shm_opcode, signed int no_quick_subsample);
 // rmdValidateArguments
 // file rmd_parseargs.c line 435
 static signed int rmdValidateArguments(const struct _ProgArgs *args);
@@ -1508,7 +1508,7 @@ extern signed int shmget(signed int, unsigned long int, signed int);
 extern signed int sigaction(signed int, struct sigaction *, struct sigaction *);
 // sigfillset
 // file /usr/include/signal.h line 218
-extern signed int sigfillset(struct anonymous$2 *);
+extern signed int sigfillset(struct anonymous_2 *);
 // sleep
 // file /usr/include/unistd.h line 444
 extern unsigned int sleep(unsigned int);
@@ -1607,34 +1607,34 @@ extern void theora_comment_add_tag(struct theora_comment *, char *, char *);
 extern void theora_comment_init(struct theora_comment *);
 // theora_encode_YUVin
 // file /usr/include/theora/theora.h line 462
-extern signed int theora_encode_YUVin(struct anonymous$13 *, struct anonymous$45 *);
+extern signed int theora_encode_YUVin(struct anonymous_13 *, struct anonymous_45 *);
 // theora_encode_comment
 // file /usr/include/theora/theora.h line 502
-extern signed int theora_encode_comment(struct theora_comment *, struct anonymous$126 *);
+extern signed int theora_encode_comment(struct theora_comment *, struct anonymous_126 *);
 // theora_encode_header
 // file /usr/include/theora/theora.h line 489
-extern signed int theora_encode_header(struct anonymous$13 *, struct anonymous$126 *);
+extern signed int theora_encode_header(struct anonymous_13 *, struct anonymous_126 *);
 // theora_encode_init
 // file /usr/include/theora/theora.h line 450
-extern signed int theora_encode_init(struct anonymous$13 *, struct anonymous$127 *);
+extern signed int theora_encode_init(struct anonymous_13 *, struct anonymous_127 *);
 // theora_encode_packetout
 // file /usr/include/theora/theora.h line 476
-extern signed int theora_encode_packetout(struct anonymous$13 *, signed int, struct anonymous$126 *);
+extern signed int theora_encode_packetout(struct anonymous_13 *, signed int, struct anonymous_126 *);
 // theora_encode_tables
 // file /usr/include/theora/theora.h line 514
-extern signed int theora_encode_tables(struct anonymous$13 *, struct anonymous$126 *);
+extern signed int theora_encode_tables(struct anonymous_13 *, struct anonymous_126 *);
 // theora_granule_shift
 // file /usr/include/theora/theora.h line 642
-signed int theora_granule_shift(struct anonymous$127 *);
+signed int theora_granule_shift(struct anonymous_127 *);
 // theora_granule_time
 // file /usr/include/theora/theora.h line 677
-extern double theora_granule_time(struct anonymous$13 *, signed long int);
+extern double theora_granule_time(struct anonymous_13 *, signed long int);
 // theora_info_clear
 // file /usr/include/theora/theora.h line 692
-extern void theora_info_clear(struct anonymous$127 *);
+extern void theora_info_clear(struct anonymous_127 *);
 // theora_info_init
 // file /usr/include/theora/theora.h line 685
-extern void theora_info_init(struct anonymous$127 *);
+extern void theora_info_init(struct anonymous_127 *);
 // time
 // file /usr/include/time.h line 192
 extern signed long int time(signed long int *);
@@ -1643,7 +1643,7 @@ extern signed long int time(signed long int *);
 extern signed int usleep(unsigned int);
 // vorbis_analysis
 // file /usr/include/vorbis/codec.h line 196
-extern signed int vorbis_analysis(struct vorbis_block *, struct anonymous$126 *);
+extern signed int vorbis_analysis(struct vorbis_block *, struct anonymous_126 *);
 // vorbis_analysis_blockout
 // file /usr/include/vorbis/codec.h line 195
 extern signed int vorbis_analysis_blockout(struct vorbis_dsp_state *, struct vorbis_block *);
@@ -1652,7 +1652,7 @@ extern signed int vorbis_analysis_blockout(struct vorbis_dsp_state *, struct vor
 extern float ** vorbis_analysis_buffer(struct vorbis_dsp_state *, signed int);
 // vorbis_analysis_headerout
 // file /usr/include/vorbis/codec.h line 188
-extern signed int vorbis_analysis_headerout(struct vorbis_dsp_state *, struct vorbis_comment *, struct anonymous$126 *, struct anonymous$126 *, struct anonymous$126 *);
+extern signed int vorbis_analysis_headerout(struct vorbis_dsp_state *, struct vorbis_comment *, struct anonymous_126 *, struct anonymous_126 *, struct anonymous_126 *);
 // vorbis_analysis_init
 // file /usr/include/vorbis/codec.h line 186
 extern signed int vorbis_analysis_init(struct vorbis_dsp_state *, struct vorbis_info *);
@@ -1664,7 +1664,7 @@ extern signed int vorbis_analysis_wrote(struct vorbis_dsp_state *, signed int);
 extern signed int vorbis_bitrate_addblock(struct vorbis_block *);
 // vorbis_bitrate_flushpacket
 // file /usr/include/vorbis/codec.h line 199
-extern signed int vorbis_bitrate_flushpacket(struct vorbis_dsp_state *, struct anonymous$126 *);
+extern signed int vorbis_bitrate_flushpacket(struct vorbis_dsp_state *, struct anonymous_126 *);
 // vorbis_block_init
 // file /usr/include/vorbis/codec.h line 176
 extern signed int vorbis_block_init(struct vorbis_dsp_state *, struct vorbis_block *);
@@ -1682,9 +1682,9 @@ extern double vorbis_granule_time(struct vorbis_dsp_state *, signed long int);
 extern void vorbis_info_init(struct vorbis_info *);
 // write_ogg_page_to_file
 // file skeleton.c line 81
-extern signed int write_ogg_page_to_file(struct anonymous$15 *og, struct _IO_FILE *out);
+extern signed int write_ogg_page_to_file(struct anonymous_15 *og, struct _IO_FILE *out);
 
-struct anonymous$85
+struct anonymous_85
 {
   // buf
   char *buf;
@@ -1700,7 +1700,7 @@ struct anonymous$85
   signed int mlocked;
 };
 
-struct anonymous$122
+struct anonymous_122
 {
   // defaultCCCs
   char *defaultCCCs;
@@ -1710,10 +1710,10 @@ struct anonymous$122
   char *perVisualIntensityMaps;
 };
 
-struct anonymous$13
+struct anonymous_13
 {
   // i
-  struct anonymous$127 *i;
+  struct anonymous_127 *i;
   // granulepos
   signed long int granulepos;
   // internal_encode
@@ -1722,7 +1722,7 @@ struct anonymous$13
   void *internal_decode;
 };
 
-struct anonymous$93
+struct anonymous_93
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1741,11 +1741,11 @@ struct anonymous$93
   // ndepths
   signed int ndepths;
   // depths
-  struct anonymous$142 *depths;
+  struct anonymous_142 *depths;
   // root_depth
   signed int root_depth;
   // root_visual
-  struct anonymous$21 *root_visual;
+  struct anonymous_21 *root_visual;
   // default_gc
   struct _XGC *default_gc;
   // cmap
@@ -1766,7 +1766,7 @@ struct anonymous$93
   signed long int root_input_mask;
 };
 
-struct anonymous$146
+struct anonymous_146
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1803,7 +1803,7 @@ struct anonymous$146
   // nformats
   signed int nformats;
   // pixmap_format
-  struct anonymous$90 *pixmap_format;
+  struct anonymous_90 *pixmap_format;
   // private8
   signed int private8;
   // release
@@ -1839,7 +1839,7 @@ struct anonymous$146
   // nscreens
   signed int nscreens;
   // screens
-  struct anonymous$93 *screens;
+  struct anonymous_93 *screens;
   // motion_buffer
   unsigned long int motion_buffer;
   // private16
@@ -1858,7 +1858,7 @@ struct anonymous$146
   char *xdefaults;
 };
 
-struct anonymous$90
+struct anonymous_90
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1870,7 +1870,7 @@ struct anonymous$90
   signed int scanline_pad;
 };
 
-struct anonymous$130
+struct anonymous_130
 {
   // lbearing
   signed short int lbearing;
@@ -1886,7 +1886,7 @@ struct anonymous$130
   unsigned short int attributes;
 };
 
-struct anonymous$92
+struct anonymous_92
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1909,20 +1909,20 @@ struct anonymous$92
   // n_properties
   signed int n_properties;
   // properties
-  struct anonymous$129 *properties;
+  struct anonymous_129 *properties;
   // min_bounds
-  struct anonymous$130 min_bounds;
+  struct anonymous_130 min_bounds;
   // max_bounds
-  struct anonymous$130 max_bounds;
+  struct anonymous_130 max_bounds;
   // per_char
-  struct anonymous$130 *per_char;
+  struct anonymous_130 *per_char;
   // ascent
   signed int ascent;
   // descent
   signed int descent;
 };
 
-struct anonymous$21
+struct anonymous_21
 {
   // ext_data
   struct _XExtData *ext_data;
@@ -1942,7 +1942,7 @@ struct anonymous$21
   signed int map_entries;
 };
 
-struct anonymous$14
+struct anonymous_14
 {
   // body_data
   unsigned char *body_data;
@@ -1982,7 +1982,7 @@ struct anonymous$14
   signed long int granulepos;
 };
 
-struct anonymous$15
+struct anonymous_15
 {
   // header
   unsigned char *header;
@@ -1994,7 +1994,7 @@ struct anonymous$15
   signed long int body_len;
 };
 
-struct anonymous$126
+struct anonymous_126
 {
   // packet
   unsigned char *packet;
@@ -2010,7 +2010,7 @@ struct anonymous$126
   signed long int packetno;
 };
 
-struct anonymous$9
+struct anonymous_9
 {
   // _call_addr
   void *_call_addr;
@@ -2020,7 +2020,7 @@ struct anonymous$9
   unsigned int _arch;
 };
 
-struct anonymous$7
+struct anonymous_7
 {
   // si_addr
   void *si_addr;
@@ -2028,13 +2028,13 @@ struct anonymous$7
   signed short int si_addr_lsb;
 };
 
-struct anonymous$2
+struct anonymous_2
 {
   // __val
   unsigned long int __val[16l];
 };
 
-struct anonymous$17
+struct anonymous_17
 {
   // x
   signed short int x;
@@ -2046,7 +2046,7 @@ struct anonymous$17
   unsigned short int height;
 };
 
-struct anonymous$31
+struct anonymous_31
 {
   // x
   signed short int x;
@@ -2070,7 +2070,7 @@ struct anonymous$31
   const char *name;
 };
 
-struct anonymous$131
+struct anonymous_131
 {
   // __lock
   signed int __lock;
@@ -2090,17 +2090,17 @@ struct anonymous$131
   unsigned int __broadcast_seq;
 };
 
-struct anonymous$142
+struct anonymous_142
 {
   // depth
   signed int depth;
   // nvisuals
   signed int nvisuals;
   // visuals
-  struct anonymous$21 *visuals;
+  struct anonymous_21 *visuals;
 };
 
-struct anonymous$91
+struct anonymous_91
 {
   // extension
   signed int extension;
@@ -2112,7 +2112,7 @@ struct anonymous$91
   signed int first_error;
 };
 
-struct anonymous$16
+struct anonymous_16
 {
   // function
   signed int function;
@@ -2162,7 +2162,7 @@ struct anonymous$16
   char dashes;
 };
 
-struct anonymous$95
+struct anonymous_95
 {
   // max_keypermod
   signed int max_keypermod;
@@ -2170,7 +2170,7 @@ struct anonymous$95
   unsigned char *modifiermap;
 };
 
-struct anonymous$3
+struct anonymous_3
 {
   // si_pid
   signed int si_pid;
@@ -2178,7 +2178,7 @@ struct anonymous$3
   unsigned int si_uid;
 };
 
-struct anonymous$6
+struct anonymous_6
 {
   // si_pid
   signed int si_pid;
@@ -2200,7 +2200,7 @@ union sigval
   void *sival_ptr;
 };
 
-struct anonymous$5
+struct anonymous_5
 {
   // si_pid
   signed int si_pid;
@@ -2210,7 +2210,7 @@ struct anonymous$5
   union sigval si_sigval;
 };
 
-struct anonymous$4
+struct anonymous_4
 {
   // si_tid
   signed int si_tid;
@@ -2220,7 +2220,7 @@ struct anonymous$4
   union sigval si_sigval;
 };
 
-struct anonymous$8
+struct anonymous_8
 {
   // si_band
   signed long int si_band;
@@ -2228,27 +2228,27 @@ struct anonymous$8
   signed int si_fd;
 };
 
-union anonymous$10
+union anonymous_10
 {
   // _pad
   signed int _pad[28l];
   // _kill
-  struct anonymous$3 _kill;
+  struct anonymous_3 _kill;
   // _timer
-  struct anonymous$4 _timer;
+  struct anonymous_4 _timer;
   // _rt
-  struct anonymous$5 _rt;
+  struct anonymous_5 _rt;
   // _sigchld
-  struct anonymous$6 _sigchld;
+  struct anonymous_6 _sigchld;
   // _sigfault
-  struct anonymous$7 _sigfault;
+  struct anonymous_7 _sigfault;
   // _sigpoll
-  struct anonymous$8 _sigpoll;
+  struct anonymous_8 _sigpoll;
   // _sigsys
-  struct anonymous$9 _sigsys;
+  struct anonymous_9 _sigsys;
 };
 
-struct anonymous$11
+struct anonymous_11
 {
   // si_signo
   signed int si_signo;
@@ -2257,10 +2257,10 @@ struct anonymous$11
   // si_code
   signed int si_code;
   // _sifields
-  union anonymous$10 _sifields;
+  union anonymous_10 _sifields;
 };
 
-struct anonymous$118
+struct anonymous_118
 {
   // type
   signed int type;
@@ -2278,7 +2278,7 @@ struct anonymous$118
   unsigned char minor_code;
 };
 
-struct anonymous$124
+struct anonymous_124
 {
   // type
   signed int type;
@@ -2294,7 +2294,7 @@ struct anonymous$124
   signed int evtype;
 };
 
-struct anonymous$125
+struct anonymous_125
 {
   // type
   signed int type;
@@ -2314,7 +2314,7 @@ struct anonymous$125
   void *data;
 };
 
-struct anonymous$99
+struct anonymous_99
 {
   // type
   signed int type;
@@ -2332,7 +2332,7 @@ struct anonymous$99
   signed int minor_code;
 };
 
-struct anonymous$98
+struct anonymous_98
 {
   // type
   signed int type;
@@ -2360,7 +2360,7 @@ struct anonymous$98
   signed int minor_code;
 };
 
-struct anonymous$1
+struct anonymous_1
 {
   // type
   signed int type;
@@ -2381,12 +2381,12 @@ struct anonymous$1
   // timestamp
   unsigned long int timestamp;
   // area
-  struct anonymous$17 area;
+  struct anonymous_17 area;
   // geometry
-  struct anonymous$17 geometry;
+  struct anonymous_17 geometry;
 };
 
-struct anonymous$102
+struct anonymous_102
 {
   // type
   signed int type;
@@ -2402,7 +2402,7 @@ struct anonymous$102
   unsigned long int window;
 };
 
-struct anonymous$103
+struct anonymous_103
 {
   // type
   signed int type;
@@ -2420,7 +2420,7 @@ struct anonymous$103
   signed int from_configure;
 };
 
-struct anonymous$104
+struct anonymous_104
 {
   // type
   signed int type;
@@ -2438,7 +2438,7 @@ struct anonymous$104
   signed int override_redirect;
 };
 
-struct anonymous$111
+struct anonymous_111
 {
   // type
   signed int type;
@@ -2456,7 +2456,7 @@ struct anonymous$111
   signed int place;
 };
 
-struct anonymous$108
+struct anonymous_108
 {
   // type
   signed int type;
@@ -2476,7 +2476,7 @@ struct anonymous$108
   signed int y;
 };
 
-struct anonymous$107
+struct anonymous_107
 {
   // type
   signed int type;
@@ -2506,7 +2506,7 @@ struct anonymous$107
   signed int override_redirect;
 };
 
-struct anonymous$106
+struct anonymous_106
 {
   // type
   signed int type;
@@ -2530,7 +2530,7 @@ struct anonymous$106
   signed int override_redirect;
 };
 
-struct anonymous$115
+struct anonymous_115
 {
   // type
   signed int type;
@@ -2554,7 +2554,7 @@ struct anonymous$115
   unsigned long int time;
 };
 
-struct anonymous$105
+struct anonymous_105
 {
   // type
   signed int type;
@@ -2570,7 +2570,7 @@ struct anonymous$105
   unsigned long int window;
 };
 
-struct anonymous$112
+struct anonymous_112
 {
   // type
   signed int type;
@@ -2588,7 +2588,7 @@ struct anonymous$112
   signed int place;
 };
 
-struct anonymous$101
+struct anonymous_101
 {
   // type
   signed int type;
@@ -2616,7 +2616,7 @@ struct anonymous$101
   signed int override_redirect;
 };
 
-struct anonymous$110
+struct anonymous_110
 {
   // type
   signed int type;
@@ -2648,7 +2648,7 @@ struct anonymous$110
   unsigned long int value_mask;
 };
 
-struct anonymous$116
+struct anonymous_116
 {
   // type
   signed int type;
@@ -2670,7 +2670,7 @@ struct anonymous$116
   unsigned long int time;
 };
 
-struct anonymous$94
+struct anonymous_94
 {
   // type
   signed int type;
@@ -2684,7 +2684,7 @@ struct anonymous$94
   unsigned long int window;
 };
 
-struct anonymous$123
+struct anonymous_123
 {
   // type
   signed int type;
@@ -2700,7 +2700,7 @@ struct anonymous$123
   char key_vector[32l];
 };
 
-struct anonymous$96
+struct anonymous_96
 {
   // type
   signed int type;
@@ -2718,7 +2718,7 @@ struct anonymous$96
   signed int detail;
 };
 
-struct anonymous$120
+struct anonymous_120
 {
   // type
   signed int type;
@@ -2738,7 +2738,7 @@ struct anonymous$120
   signed int count;
 };
 
-struct anonymous$100
+struct anonymous_100
 {
   // type
   signed int type;
@@ -2754,7 +2754,7 @@ struct anonymous$100
   signed int state;
 };
 
-struct anonymous$109
+struct anonymous_109
 {
   // type
   signed int type;
@@ -2772,7 +2772,7 @@ struct anonymous$109
   signed int height;
 };
 
-struct anonymous$97
+struct anonymous_97
 {
   // type
   signed int type;
@@ -2796,7 +2796,7 @@ struct anonymous$97
   signed int count;
 };
 
-struct anonymous$113
+struct anonymous_113
 {
   // type
   signed int type;
@@ -2816,7 +2816,7 @@ struct anonymous$113
   signed int state;
 };
 
-struct anonymous$117
+struct anonymous_117
 {
   // type
   signed int type;
@@ -2836,7 +2836,7 @@ struct anonymous$117
   signed int state;
 };
 
-union anonymous$128
+union anonymous_128
 {
   // b
   char b[20l];
@@ -2846,7 +2846,7 @@ union anonymous$128
   signed long int l[5l];
 };
 
-struct anonymous$119
+struct anonymous_119
 {
   // type
   signed int type;
@@ -2863,10 +2863,10 @@ struct anonymous$119
   // format
   signed int format;
   // data
-  union anonymous$128 data;
+  union anonymous_128 data;
 };
 
-struct anonymous$89
+struct anonymous_89
 {
   // type
   signed int type;
@@ -2904,7 +2904,7 @@ struct anonymous$89
   unsigned int state;
 };
 
-struct anonymous$88
+struct anonymous_88
 {
   // type
   signed int type;
@@ -2938,7 +2938,7 @@ struct anonymous$88
   signed int same_screen;
 };
 
-struct anonymous$87
+struct anonymous_87
 {
   // type
   signed int type;
@@ -2972,7 +2972,7 @@ struct anonymous$87
   signed int same_screen;
 };
 
-struct anonymous$0
+struct anonymous_0
 {
   // type
   signed int type;
@@ -3006,7 +3006,7 @@ struct anonymous$0
   signed int same_screen;
 };
 
-struct anonymous$114
+struct anonymous_114
 {
   // type
   signed int type;
@@ -3039,7 +3039,7 @@ struct anonymous
   // depth
   signed int depth;
   // visual
-  struct anonymous$21 *visual;
+  struct anonymous_21 *visual;
   // root
   unsigned long int root;
   // class
@@ -3071,10 +3071,10 @@ struct anonymous
   // override_redirect
   signed int override_redirect;
   // screen
-  struct anonymous$93 *screen;
+  struct anonymous_93 *screen;
 };
 
-struct anonymous$45
+struct anonymous_45
 {
   // y_width
   signed int y_width;
@@ -3096,7 +3096,7 @@ struct anonymous$45
   unsigned char *v;
 };
 
-struct anonymous$145
+struct anonymous_145
 {
   // endbyte
   signed long int endbyte;
@@ -3110,7 +3110,7 @@ struct anonymous$145
   signed long int storage;
 };
 
-struct anonymous$140
+struct anonymous_140
 {
   // version_major
   unsigned short int version_major;
@@ -3128,7 +3128,7 @@ struct anonymous$140
   unsigned char UTC[20l];
 };
 
-struct anonymous$64
+struct anonymous_64
 {
   // pad00
   unsigned int pad00;
@@ -3142,7 +3142,7 @@ struct anonymous$64
   unsigned char bpad;
 };
 
-struct anonymous$63
+struct anonymous_63
 {
   // pad00
   unsigned int pad00;
@@ -3170,7 +3170,7 @@ struct anonymous$63
   unsigned char pad3;
 };
 
-struct anonymous$67
+struct anonymous_67
 {
   // pad00
   unsigned int pad00;
@@ -3180,7 +3180,7 @@ struct anonymous$67
   unsigned int window;
 };
 
-struct anonymous$74
+struct anonymous_74
 {
   // pad00
   unsigned int pad00;
@@ -3202,7 +3202,7 @@ struct anonymous$74
   unsigned int pad4;
 };
 
-struct anonymous$72
+struct anonymous_72
 {
   // pad00
   unsigned int pad00;
@@ -3228,7 +3228,7 @@ struct anonymous$72
   unsigned char bpad;
 };
 
-struct anonymous$71
+struct anonymous_71
 {
   // pad00
   unsigned int pad00;
@@ -3252,7 +3252,7 @@ struct anonymous$71
   unsigned char pad3;
 };
 
-struct anonymous$76
+struct anonymous_76
 {
   // pad00
   unsigned int pad00;
@@ -3272,7 +3272,7 @@ struct anonymous$76
   unsigned char pad3;
 };
 
-struct anonymous$68
+struct anonymous_68
 {
   // pad00
   unsigned int pad00;
@@ -3290,7 +3290,7 @@ struct anonymous$68
   unsigned char pad3;
 };
 
-struct anonymous$69
+struct anonymous_69
 {
   // pad00
   unsigned int pad00;
@@ -3308,7 +3308,7 @@ struct anonymous$69
   unsigned char pad3;
 };
 
-struct anonymous$70
+struct anonymous_70
 {
   // pad00
   unsigned int pad00;
@@ -3318,7 +3318,7 @@ struct anonymous$70
   unsigned int window;
 };
 
-struct anonymous$66
+struct anonymous_66
 {
   // pad00
   unsigned int pad00;
@@ -3342,7 +3342,7 @@ struct anonymous$66
   unsigned char bpad;
 };
 
-struct anonymous$73
+struct anonymous_73
 {
   // pad00
   unsigned int pad00;
@@ -3368,7 +3368,7 @@ struct anonymous$73
   unsigned int pad1;
 };
 
-struct anonymous$79
+struct anonymous_79
 {
   // pad00
   unsigned int pad00;
@@ -3386,7 +3386,7 @@ struct anonymous$79
   unsigned int property;
 };
 
-struct anonymous$80
+struct anonymous_80
 {
   // pad00
   unsigned int pad00;
@@ -3402,7 +3402,7 @@ struct anonymous$80
   unsigned int property;
 };
 
-struct anonymous$60
+struct anonymous_60
 {
   // pad00
   unsigned int pad00;
@@ -3430,7 +3430,7 @@ struct anonymous$60
   unsigned char flags;
 };
 
-struct anonymous$59
+struct anonymous_59
 {
   // pad00
   unsigned int pad00;
@@ -3458,7 +3458,7 @@ struct anonymous$59
   unsigned char pad1;
 };
 
-struct anonymous$78
+struct anonymous_78
 {
   // pad00
   unsigned int pad00;
@@ -3470,7 +3470,7 @@ struct anonymous$78
   unsigned int atom;
 };
 
-struct anonymous$135
+struct anonymous_135
 {
   // type
   unsigned int type;
@@ -3486,7 +3486,7 @@ struct anonymous$135
   signed int longs4;
 };
 
-struct anonymous$136
+struct anonymous_136
 {
   // type
   unsigned int type;
@@ -3512,7 +3512,7 @@ struct anonymous$136
   signed short int shorts9;
 };
 
-struct anonymous$137
+struct anonymous_137
 {
   // type
   unsigned int type;
@@ -3520,27 +3520,27 @@ struct anonymous$137
   signed char bytes[20l];
 };
 
-union anonymous$138
+union anonymous_138
 {
   // l
-  struct anonymous$135 l;
+  struct anonymous_135 l;
   // s
-  struct anonymous$136 s;
+  struct anonymous_136 s;
   // b
-  struct anonymous$137 b;
+  struct anonymous_137 b;
 };
 
-struct anonymous$84
+struct anonymous_84
 {
   // pad00
   unsigned int pad00;
   // window
   unsigned int window;
   // u
-  union anonymous$138 u;
+  union anonymous_138 u;
 };
 
-struct anonymous$75
+struct anonymous_75
 {
   // pad00
   unsigned int pad00;
@@ -3552,7 +3552,7 @@ struct anonymous$75
   unsigned short int height;
 };
 
-struct anonymous$62
+struct anonymous_62
 {
   // pad00
   unsigned int pad00;
@@ -3572,7 +3572,7 @@ struct anonymous$62
   unsigned short int pad2;
 };
 
-struct anonymous$77
+struct anonymous_77
 {
   // pad00
   unsigned int pad00;
@@ -3590,7 +3590,7 @@ struct anonymous$77
   unsigned short int pad2;
 };
 
-struct anonymous$81
+struct anonymous_81
 {
   // pad00
   unsigned int pad00;
@@ -3608,7 +3608,7 @@ struct anonymous$81
   unsigned char pad2;
 };
 
-struct anonymous$61
+struct anonymous_61
 {
   // pad00
   unsigned int pad00;
@@ -3624,7 +3624,7 @@ struct anonymous$61
   unsigned char pad3;
 };
 
-struct anonymous$65
+struct anonymous_65
 {
   // pad00
   unsigned int pad00;
@@ -3640,7 +3640,7 @@ struct anonymous$65
   unsigned char pad3;
 };
 
-struct anonymous$82
+struct anonymous_82
 {
   // pad00
   unsigned int pad00;
@@ -3654,7 +3654,7 @@ struct anonymous$82
   unsigned char pad1;
 };
 
-struct anonymous$139
+struct anonymous_139
 {
   // serial_no
   unsigned int serial_no;
@@ -3676,7 +3676,7 @@ struct anonymous$139
   unsigned int current_header_size;
 };
 
-struct anonymous$127
+struct anonymous_127
 {
   // width
   unsigned int width;
@@ -3699,7 +3699,7 @@ struct anonymous$127
   // aspect_denominator
   unsigned int aspect_denominator;
   // colorspace
-  enum anonymous$143 colorspace;
+  enum anonymous_143 colorspace;
   // target_bitrate
   signed int target_bitrate;
   // quality
@@ -3733,10 +3733,10 @@ struct anonymous$127
   // sharpness
   signed int sharpness;
   // pixelformat
-  enum anonymous$144 pixelformat;
+  enum anonymous_144 pixelformat;
 };
 
-struct anonymous$19
+struct anonymous_19
 {
   // background_pixmap
   unsigned long int background_pixmap;
@@ -3770,7 +3770,7 @@ struct anonymous$19
   unsigned long int cursor;
 };
 
-struct anonymous$129
+struct anonymous_129
 {
   // name
   unsigned long int name;
@@ -3778,7 +3778,7 @@ struct anonymous$129
   unsigned long int card32;
 };
 
-struct anonymous$18
+struct anonymous_18
 {
   // pixel
   unsigned long int pixel;
@@ -3794,7 +3794,7 @@ struct anonymous$18
   char pad;
 };
 
-struct anonymous$34
+struct anonymous_34
 {
   // shmseg
   unsigned long int shmseg;
@@ -3806,7 +3806,7 @@ struct anonymous$34
   signed int readOnly;
 };
 
-struct anonymous$133
+struct anonymous_133
 {
   // reqType
   unsigned char reqType;
@@ -3828,7 +3828,7 @@ struct anonymous$133
   unsigned int planeMask;
 };
 
-struct anonymous$20
+struct anonymous_20
 {
   // type
   unsigned char type;
@@ -3852,7 +3852,7 @@ struct anonymous$20
   unsigned int data05;
 };
 
-struct anonymous$22
+struct anonymous_22
 {
   // type
   unsigned char type;
@@ -3882,7 +3882,7 @@ struct anonymous$22
   unsigned int pad3;
 };
 
-struct anonymous$132
+struct anonymous_132
 {
   // type
   unsigned char type;
@@ -3906,7 +3906,7 @@ struct anonymous$132
   unsigned int pad7;
 };
 
-struct anonymous$58
+struct anonymous_58
 {
   // type
   unsigned char type;
@@ -3916,7 +3916,7 @@ struct anonymous$58
   unsigned short int sequenceNumber;
 };
 
-struct anonymous$36
+struct anonymous_36
 {
   // type
   unsigned char type;
@@ -3944,7 +3944,7 @@ struct anonymous$36
   unsigned int pad;
 };
 
-struct anonymous$56
+struct anonymous_56
 {
   // type
   unsigned char type;
@@ -3970,7 +3970,7 @@ struct anonymous$56
   unsigned int pad7;
 };
 
-struct anonymous$121
+struct anonymous_121
 {
   // type
   unsigned char type;
@@ -3998,7 +3998,7 @@ struct anonymous$121
   unsigned int pad7;
 };
 
-struct anonymous$26
+struct anonymous_26
 {
   // type
   unsigned char type;
@@ -4022,7 +4022,7 @@ struct anonymous$26
   unsigned int pad3;
 };
 
-struct anonymous$52
+struct anonymous_52
 {
   // type
   unsigned char type;
@@ -4046,7 +4046,7 @@ struct anonymous$52
   unsigned int pad7;
 };
 
-struct anonymous$53
+struct anonymous_53
 {
   // type
   unsigned char type;
@@ -4070,7 +4070,7 @@ struct anonymous$53
   unsigned int pad7;
 };
 
-struct anonymous$49
+struct anonymous_49
 {
   // type
   unsigned char type;
@@ -4094,7 +4094,7 @@ struct anonymous$49
   unsigned int pad7;
 };
 
-struct anonymous$51
+struct anonymous_51
 {
   // type
   unsigned char type;
@@ -4118,7 +4118,7 @@ struct anonymous$51
   unsigned int pad6;
 };
 
-struct anonymous$54
+struct anonymous_54
 {
   // type
   unsigned char type;
@@ -4146,7 +4146,7 @@ struct anonymous$54
   unsigned int pad6;
 };
 
-struct anonymous$46
+struct anonymous_46
 {
   // type
   unsigned char type;
@@ -4176,7 +4176,7 @@ struct anonymous$46
   unsigned int pad5;
 };
 
-struct anonymous$39
+struct anonymous_39
 {
   // type
   unsigned char type;
@@ -4202,7 +4202,7 @@ struct anonymous$39
   unsigned int pad7;
 };
 
-struct anonymous$44
+struct anonymous_44
 {
   // type
   unsigned char type;
@@ -4228,7 +4228,7 @@ struct anonymous$44
   unsigned int pad7;
 };
 
-struct anonymous$37
+struct anonymous_37
 {
   // type
   unsigned char type;
@@ -4254,7 +4254,7 @@ struct anonymous$37
   unsigned int pad7;
 };
 
-struct anonymous$38
+struct anonymous_38
 {
   // type
   unsigned char type;
@@ -4280,7 +4280,7 @@ struct anonymous$38
   unsigned int pad7;
 };
 
-struct anonymous$42
+struct anonymous_42
 {
   // type
   unsigned char type;
@@ -4306,7 +4306,7 @@ struct anonymous$42
   unsigned int pad7;
 };
 
-struct anonymous$43
+struct anonymous_43
 {
   // type
   unsigned char type;
@@ -4332,7 +4332,7 @@ struct anonymous$43
   unsigned int pad4;
 };
 
-struct anonymous$27
+struct anonymous_27
 {
   // type
   unsigned char type;
@@ -4358,7 +4358,7 @@ struct anonymous$27
   unsigned int pad7;
 };
 
-struct anonymous$25
+struct anonymous_25
 {
   // type
   unsigned char type;
@@ -4384,7 +4384,7 @@ struct anonymous$25
   unsigned int pad7;
 };
 
-struct anonymous$40
+struct anonymous_40
 {
   // type
   unsigned char type;
@@ -4412,7 +4412,7 @@ struct anonymous$40
   unsigned int pad5;
 };
 
-struct anonymous$55
+struct anonymous_55
 {
   // type
   unsigned char type;
@@ -4442,7 +4442,7 @@ struct anonymous$55
   unsigned int pad6;
 };
 
-struct anonymous$47
+struct anonymous_47
 {
   // type
   unsigned char type;
@@ -4468,7 +4468,7 @@ struct anonymous$47
   unsigned int pad7;
 };
 
-struct anonymous$24
+struct anonymous_24
 {
   // type
   unsigned char type;
@@ -4492,7 +4492,7 @@ struct anonymous$24
   unsigned int pad6;
 };
 
-struct anonymous$32
+struct anonymous_32
 {
   // type
   unsigned char type;
@@ -4516,7 +4516,7 @@ struct anonymous$32
   unsigned int pad6;
 };
 
-struct anonymous$28
+struct anonymous_28
 {
   // type
   unsigned char type;
@@ -4540,7 +4540,7 @@ struct anonymous$28
   unsigned int pad6;
 };
 
-struct anonymous$41
+struct anonymous_41
 {
   // type
   unsigned char type;
@@ -4570,7 +4570,7 @@ struct anonymous$41
   unsigned int pad3;
 };
 
-struct anonymous$23
+struct anonymous_23
 {
   // type
   unsigned char type;
@@ -4596,7 +4596,7 @@ struct anonymous$23
   unsigned int pad5;
 };
 
-struct anonymous$48
+struct anonymous_48
 {
   // type
   unsigned char type;
@@ -4626,7 +4626,7 @@ struct anonymous$48
   unsigned int pad7;
 };
 
-struct anonymous$35
+struct anonymous_35
 {
   // type
   unsigned char type;
@@ -4650,7 +4650,7 @@ struct anonymous$35
   unsigned int pad5;
 };
 
-struct anonymous$33
+struct anonymous_33
 {
   // type
   unsigned char type;
@@ -4676,7 +4676,7 @@ struct anonymous$33
   unsigned int pad5;
 };
 
-struct anonymous$30
+struct anonymous_30
 {
   // type
   unsigned char type;
@@ -4706,7 +4706,7 @@ struct anonymous$30
   unsigned int pad;
 };
 
-struct anonymous$29
+struct anonymous_29
 {
   // type
   unsigned char type;
@@ -4730,7 +4730,7 @@ struct anonymous$29
   unsigned int pad6;
 };
 
-struct anonymous$50
+struct anonymous_50
 {
   // type
   unsigned char type;
@@ -4754,15 +4754,15 @@ struct anonymous$50
   unsigned int pad7;
 };
 
-union anonymous$12
+union anonymous_12
 {
   // sa_handler
   void (*sa_handler)(signed int);
   // sa_sigaction
-  void (*sa_sigaction)(signed int, struct anonymous$11 *, void *);
+  void (*sa_sigaction)(signed int, struct anonymous_11 *, void *);
 };
 
-union anonymous$141
+union anonymous_141
 {
   // __size
   char __size[4l];
@@ -4770,154 +4770,154 @@ union anonymous$141
   signed int __align;
 };
 
-union anonymous$83
+union anonymous_83
 {
   // __data
-  struct anonymous$131 __data;
+  struct anonymous_131 __data;
   // __size
   char __size[48l];
   // __align
   signed long long int __align;
 };
 
-union anonymous$57
+union anonymous_57
 {
   // u
-  struct anonymous$58 u;
+  struct anonymous_58 u;
   // keyButtonPointer
-  struct anonymous$59 keyButtonPointer;
+  struct anonymous_59 keyButtonPointer;
   // enterLeave
-  struct anonymous$60 enterLeave;
+  struct anonymous_60 enterLeave;
   // focus
-  struct anonymous$61 focus;
+  struct anonymous_61 focus;
   // expose
-  struct anonymous$62 expose;
+  struct anonymous_62 expose;
   // graphicsExposure
-  struct anonymous$63 graphicsExposure;
+  struct anonymous_63 graphicsExposure;
   // noExposure
-  struct anonymous$64 noExposure;
+  struct anonymous_64 noExposure;
   // visibility
-  struct anonymous$65 visibility;
+  struct anonymous_65 visibility;
   // createNotify
-  struct anonymous$66 createNotify;
+  struct anonymous_66 createNotify;
   // destroyNotify
-  struct anonymous$67 destroyNotify;
+  struct anonymous_67 destroyNotify;
   // unmapNotify
-  struct anonymous$68 unmapNotify;
+  struct anonymous_68 unmapNotify;
   // mapNotify
-  struct anonymous$69 mapNotify;
+  struct anonymous_69 mapNotify;
   // mapRequest
-  struct anonymous$70 mapRequest;
+  struct anonymous_70 mapRequest;
   // reparent
-  struct anonymous$71 reparent;
+  struct anonymous_71 reparent;
   // configureNotify
-  struct anonymous$72 configureNotify;
+  struct anonymous_72 configureNotify;
   // configureRequest
-  struct anonymous$73 configureRequest;
+  struct anonymous_73 configureRequest;
   // gravity
-  struct anonymous$74 gravity;
+  struct anonymous_74 gravity;
   // resizeRequest
-  struct anonymous$75 resizeRequest;
+  struct anonymous_75 resizeRequest;
   // circulate
-  struct anonymous$76 circulate;
+  struct anonymous_76 circulate;
   // property
-  struct anonymous$77 property;
+  struct anonymous_77 property;
   // selectionClear
-  struct anonymous$78 selectionClear;
+  struct anonymous_78 selectionClear;
   // selectionRequest
-  struct anonymous$79 selectionRequest;
+  struct anonymous_79 selectionRequest;
   // selectionNotify
-  struct anonymous$80 selectionNotify;
+  struct anonymous_80 selectionNotify;
   // colormap
-  struct anonymous$81 colormap;
+  struct anonymous_81 colormap;
   // mappingNotify
-  struct anonymous$82 mappingNotify;
+  struct anonymous_82 mappingNotify;
   // clientMessage
-  struct anonymous$84 clientMessage;
+  struct anonymous_84 clientMessage;
 };
 
 struct _xEvent
 {
   // u
-  union anonymous$57 u;
+  union anonymous_57 u;
 };
 
-union anonymous$134
+union anonymous_134
 {
   // generic
-  struct anonymous$20 generic;
+  struct anonymous_20 generic;
   // geom
-  struct anonymous$22 geom;
+  struct anonymous_22 geom;
   // tree
-  struct anonymous$23 tree;
+  struct anonymous_23 tree;
   // atom
-  struct anonymous$24 atom;
+  struct anonymous_24 atom;
   // atomName
-  struct anonymous$25 atomName;
+  struct anonymous_25 atomName;
   // property
-  struct anonymous$26 property;
+  struct anonymous_26 property;
   // listProperties
-  struct anonymous$27 listProperties;
+  struct anonymous_27 listProperties;
   // selection
-  struct anonymous$28 selection;
+  struct anonymous_28 selection;
   // grabPointer
-  struct anonymous$29 grabPointer;
+  struct anonymous_29 grabPointer;
   // grabKeyboard
-  struct anonymous$29 grabKeyboard;
+  struct anonymous_29 grabKeyboard;
   // pointer
-  struct anonymous$30 pointer;
+  struct anonymous_30 pointer;
   // motionEvents
-  struct anonymous$32 motionEvents;
+  struct anonymous_32 motionEvents;
   // coords
-  struct anonymous$33 coords;
+  struct anonymous_33 coords;
   // inputFocus
-  struct anonymous$35 inputFocus;
+  struct anonymous_35 inputFocus;
   // textExtents
-  struct anonymous$36 textExtents;
+  struct anonymous_36 textExtents;
   // fonts
-  struct anonymous$37 fonts;
+  struct anonymous_37 fonts;
   // fontPath
-  struct anonymous$38 fontPath;
+  struct anonymous_38 fontPath;
   // image
-  struct anonymous$132 image;
+  struct anonymous_132 image;
   // colormaps
-  struct anonymous$39 colormaps;
+  struct anonymous_39 colormaps;
   // allocColor
-  struct anonymous$40 allocColor;
+  struct anonymous_40 allocColor;
   // allocNamedColor
-  struct anonymous$41 allocNamedColor;
+  struct anonymous_41 allocNamedColor;
   // colorCells
-  struct anonymous$42 colorCells;
+  struct anonymous_42 colorCells;
   // colorPlanes
-  struct anonymous$43 colorPlanes;
+  struct anonymous_43 colorPlanes;
   // colors
-  struct anonymous$44 colors;
+  struct anonymous_44 colors;
   // lookupColor
-  struct anonymous$46 lookupColor;
+  struct anonymous_46 lookupColor;
   // bestSize
-  struct anonymous$47 bestSize;
+  struct anonymous_47 bestSize;
   // extension
-  struct anonymous$48 extension;
+  struct anonymous_48 extension;
   // extensions
-  struct anonymous$49 extensions;
+  struct anonymous_49 extensions;
   // setModifierMapping
-  struct anonymous$50 setModifierMapping;
+  struct anonymous_50 setModifierMapping;
   // getModifierMapping
-  struct anonymous$51 getModifierMapping;
+  struct anonymous_51 getModifierMapping;
   // setPointerMapping
-  struct anonymous$50 setPointerMapping;
+  struct anonymous_50 setPointerMapping;
   // getKeyboardMapping
-  struct anonymous$52 getKeyboardMapping;
+  struct anonymous_52 getKeyboardMapping;
   // getPointerMapping
-  struct anonymous$53 getPointerMapping;
+  struct anonymous_53 getPointerMapping;
   // pointerControl
-  struct anonymous$54 pointerControl;
+  struct anonymous_54 pointerControl;
   // screenSaver
-  struct anonymous$55 screenSaver;
+  struct anonymous_55 screenSaver;
   // hosts
-  struct anonymous$56 hosts;
+  struct anonymous_56 hosts;
   // error
-  struct anonymous$121 error;
+  struct anonymous_121 error;
   // event
   struct _xEvent event;
 };
@@ -4950,7 +4950,7 @@ struct __pthread_mutex_s
   struct __pthread_internal_list __list;
 };
 
-union anonymous$86
+union anonymous_86
 {
   // __data
   struct __pthread_mutex_s __data;
@@ -4963,9 +4963,9 @@ union anonymous$86
 struct _BRWindow
 {
   // rect
-  struct anonymous$17 rect;
+  struct anonymous_17 rect;
   // rrect
-  struct anonymous$17 rrect;
+  struct anonymous_17 rrect;
   // nbytes
   signed int nbytes;
   // windowid
@@ -5021,7 +5021,7 @@ struct _DisplaySpecs
   // root
   unsigned long int root;
   // visual
-  struct anonymous$21 *visual;
+  struct anonymous_21 *visual;
   // gc
   struct _XGC *gc;
   // depth
@@ -5121,7 +5121,7 @@ struct vorbis_block
   // pcm
   float **pcm;
   // opb
-  struct anonymous$145 opb;
+  struct anonymous_145 opb;
   // lW
   signed long int lW;
   // W
@@ -5165,23 +5165,23 @@ struct vorbis_block
 struct _EncData
 {
   // m_ogg_ts
-  struct anonymous$14 m_ogg_ts;
+  struct anonymous_14 m_ogg_ts;
   // m_ogg_vs
-  struct anonymous$14 m_ogg_vs;
+  struct anonymous_14 m_ogg_vs;
   // m_ogg_pg
-  struct anonymous$15 m_ogg_pg;
+  struct anonymous_15 m_ogg_pg;
   // m_ogg_pckt1
-  struct anonymous$126 m_ogg_pckt1;
+  struct anonymous_126 m_ogg_pckt1;
   // m_ogg_pckt2
-  struct anonymous$126 m_ogg_pckt2;
+  struct anonymous_126 m_ogg_pckt2;
   // m_th_st
-  struct anonymous$13 m_th_st;
+  struct anonymous_13 m_th_st;
   // m_th_inf
-  struct anonymous$127 m_th_inf;
+  struct anonymous_127 m_th_inf;
   // m_th_cmmnt
   struct theora_comment m_th_cmmnt;
   // yuv
-  struct anonymous$45 yuv;
+  struct anonymous_45 yuv;
   // m_vo_inf
   struct vorbis_info m_vo_inf;
   // m_vo_cmmnt
@@ -5317,11 +5317,11 @@ struct _JackData
   // portbuf
   float **portbuf;
   // snd_buff_ready_mutex
-  union anonymous$86 *snd_buff_ready_mutex;
+  union anonymous_86 *snd_buff_ready_mutex;
   // sound_data_read
-  union anonymous$83 *sound_data_read;
+  union anonymous_83 *sound_data_read;
   // sound_buffer
-  struct anonymous$85 *sound_buffer;
+  struct anonymous_85 *sound_buffer;
   // capture_started
   signed int capture_started;
 };
@@ -5431,31 +5431,31 @@ struct _ProgData
   // dpy
   struct _XDisplay *dpy;
   // sound_buffer_mutex
-  union anonymous$86 sound_buffer_mutex;
+  union anonymous_86 sound_buffer_mutex;
   // snd_buff_ready_mutex
-  union anonymous$86 snd_buff_ready_mutex;
+  union anonymous_86 snd_buff_ready_mutex;
   // img_buff_ready_mutex
-  union anonymous$86 img_buff_ready_mutex;
+  union anonymous_86 img_buff_ready_mutex;
   // theora_lib_mutex
-  union anonymous$86 theora_lib_mutex;
+  union anonymous_86 theora_lib_mutex;
   // vorbis_lib_mutex
-  union anonymous$86 vorbis_lib_mutex;
+  union anonymous_86 vorbis_lib_mutex;
   // libogg_mutex
-  union anonymous$86 libogg_mutex;
+  union anonymous_86 libogg_mutex;
   // yuv_mutex
-  union anonymous$86 yuv_mutex;
+  union anonymous_86 yuv_mutex;
   // time_cond
-  union anonymous$83 time_cond;
+  union anonymous_83 time_cond;
   // pause_cond
-  union anonymous$83 pause_cond;
+  union anonymous_83 pause_cond;
   // sound_data_read
-  union anonymous$83 sound_data_read;
+  union anonymous_83 sound_data_read;
   // image_buffer_ready
-  union anonymous$83 image_buffer_ready;
+  union anonymous_83 image_buffer_ready;
   // theora_lib_clean
-  union anonymous$83 theora_lib_clean;
+  union anonymous_83 theora_lib_clean;
   // vorbis_lib_clean
-  union anonymous$83 vorbis_lib_clean;
+  union anonymous_83 vorbis_lib_clean;
   // dummy_pointer
   unsigned char *dummy_pointer;
   // npxl
@@ -5507,9 +5507,9 @@ struct _ProgData
   // encoder_busy
   signed int encoder_busy;
   // pause_mutex
-  union anonymous$86 pause_mutex;
+  union anonymous_86 pause_mutex;
   // time_mutex
-  union anonymous$86 time_mutex;
+  union anonymous_86 time_mutex;
   // sound_handle
   struct _snd_pcm *sound_handle;
   // periodsize
@@ -5519,7 +5519,7 @@ struct _ProgData
 struct _RectArea
 {
   // rect
-  struct anonymous$17 rect;
+  struct anonymous_17 rect;
   // prev
   struct _RectArea *prev;
   // next
@@ -5653,7 +5653,7 @@ struct _XDisplay
   // nformats
   signed int nformats;
   // pixmap_format
-  struct anonymous$90 *pixmap_format;
+  struct anonymous_90 *pixmap_format;
   // vnumber
   signed int vnumber;
   // release
@@ -5689,7 +5689,7 @@ struct _XDisplay
   // nscreens
   signed int nscreens;
   // screens
-  struct anonymous$93 *screens;
+  struct anonymous_93 *screens;
   // motion_buffer
   unsigned long int motion_buffer;
   // flags
@@ -5701,7 +5701,7 @@ struct _XDisplay
   // keysyms
   unsigned long int *keysyms;
   // modifiermap
-  struct anonymous$95 *modifiermap;
+  struct anonymous_95 *modifiermap;
   // keysyms_per_keycode
   signed int keysyms_per_keycode;
   // xdefaults
@@ -5743,9 +5743,9 @@ struct _XDisplay
   // context_db
   struct _XContextDB *context_db;
   // error_vec
-  signed int (**error_vec)(struct _XDisplay *, struct anonymous$118 *, struct anonymous$121 *);
+  signed int (**error_vec)(struct _XDisplay *, struct anonymous_118 *, struct anonymous_121 *);
   // cms
-  struct anonymous$122 cms;
+  struct anonymous_122 cms;
   // im_filters
   struct _XIMFilter *im_filters;
   // qfree
@@ -5779,9 +5779,9 @@ struct _XDisplay
   // next_cookie
   unsigned int next_cookie;
   // generic_event_vec
-  signed int (*generic_event_vec[128l])(struct _XDisplay *, struct anonymous$125 *, struct _xEvent *);
+  signed int (*generic_event_vec[128l])(struct _XDisplay *, struct anonymous_125 *, struct _xEvent *);
   // generic_event_copy_vec
-  signed int (*generic_event_copy_vec[128l])(struct _XDisplay *, struct anonymous$125 *, struct anonymous$125 *);
+  signed int (*generic_event_copy_vec[128l])(struct _XDisplay *, struct anonymous_125 *, struct anonymous_125 *);
   // cookiejar
   void *cookiejar;
 };
@@ -5791,71 +5791,71 @@ union _XEvent
   // type
   signed int type;
   // xany
-  struct anonymous$94 xany;
+  struct anonymous_94 xany;
   // xkey
-  struct anonymous$0 xkey;
+  struct anonymous_0 xkey;
   // xbutton
-  struct anonymous$87 xbutton;
+  struct anonymous_87 xbutton;
   // xmotion
-  struct anonymous$88 xmotion;
+  struct anonymous_88 xmotion;
   // xcrossing
-  struct anonymous$89 xcrossing;
+  struct anonymous_89 xcrossing;
   // xfocus
-  struct anonymous$96 xfocus;
+  struct anonymous_96 xfocus;
   // xexpose
-  struct anonymous$97 xexpose;
+  struct anonymous_97 xexpose;
   // xgraphicsexpose
-  struct anonymous$98 xgraphicsexpose;
+  struct anonymous_98 xgraphicsexpose;
   // xnoexpose
-  struct anonymous$99 xnoexpose;
+  struct anonymous_99 xnoexpose;
   // xvisibility
-  struct anonymous$100 xvisibility;
+  struct anonymous_100 xvisibility;
   // xcreatewindow
-  struct anonymous$101 xcreatewindow;
+  struct anonymous_101 xcreatewindow;
   // xdestroywindow
-  struct anonymous$102 xdestroywindow;
+  struct anonymous_102 xdestroywindow;
   // xunmap
-  struct anonymous$103 xunmap;
+  struct anonymous_103 xunmap;
   // xmap
-  struct anonymous$104 xmap;
+  struct anonymous_104 xmap;
   // xmaprequest
-  struct anonymous$105 xmaprequest;
+  struct anonymous_105 xmaprequest;
   // xreparent
-  struct anonymous$106 xreparent;
+  struct anonymous_106 xreparent;
   // xconfigure
-  struct anonymous$107 xconfigure;
+  struct anonymous_107 xconfigure;
   // xgravity
-  struct anonymous$108 xgravity;
+  struct anonymous_108 xgravity;
   // xresizerequest
-  struct anonymous$109 xresizerequest;
+  struct anonymous_109 xresizerequest;
   // xconfigurerequest
-  struct anonymous$110 xconfigurerequest;
+  struct anonymous_110 xconfigurerequest;
   // xcirculate
-  struct anonymous$111 xcirculate;
+  struct anonymous_111 xcirculate;
   // xcirculaterequest
-  struct anonymous$112 xcirculaterequest;
+  struct anonymous_112 xcirculaterequest;
   // xproperty
-  struct anonymous$113 xproperty;
+  struct anonymous_113 xproperty;
   // xselectionclear
-  struct anonymous$114 xselectionclear;
+  struct anonymous_114 xselectionclear;
   // xselectionrequest
-  struct anonymous$115 xselectionrequest;
+  struct anonymous_115 xselectionrequest;
   // xselection
-  struct anonymous$116 xselection;
+  struct anonymous_116 xselection;
   // xcolormap
-  struct anonymous$117 xcolormap;
+  struct anonymous_117 xcolormap;
   // xclient
-  struct anonymous$119 xclient;
+  struct anonymous_119 xclient;
   // xmapping
-  struct anonymous$120 xmapping;
+  struct anonymous_120 xmapping;
   // xerror
-  struct anonymous$118 xerror;
+  struct anonymous_118 xerror;
   // xkeymap
-  struct anonymous$123 xkeymap;
+  struct anonymous_123 xkeymap;
   // xgeneric
-  struct anonymous$124 xgeneric;
+  struct anonymous_124 xgeneric;
   // xcookie
-  struct anonymous$125 xcookie;
+  struct anonymous_125 xcookie;
   // pad
   signed long int pad[24l];
 };
@@ -5877,31 +5877,31 @@ struct _XExten
   // next
   struct _XExten *next;
   // codes
-  struct anonymous$91 codes;
+  struct anonymous_91 codes;
   // create_GC
-  signed int (*create_GC)(struct _XDisplay *, struct _XGC *, struct anonymous$91 *);
+  signed int (*create_GC)(struct _XDisplay *, struct _XGC *, struct anonymous_91 *);
   // copy_GC
-  signed int (*copy_GC)(struct _XDisplay *, struct _XGC *, struct anonymous$91 *);
+  signed int (*copy_GC)(struct _XDisplay *, struct _XGC *, struct anonymous_91 *);
   // flush_GC
-  signed int (*flush_GC)(struct _XDisplay *, struct _XGC *, struct anonymous$91 *);
+  signed int (*flush_GC)(struct _XDisplay *, struct _XGC *, struct anonymous_91 *);
   // free_GC
-  signed int (*free_GC)(struct _XDisplay *, struct _XGC *, struct anonymous$91 *);
+  signed int (*free_GC)(struct _XDisplay *, struct _XGC *, struct anonymous_91 *);
   // create_Font
-  signed int (*create_Font)(struct _XDisplay *, struct anonymous$92 *, struct anonymous$91 *);
+  signed int (*create_Font)(struct _XDisplay *, struct anonymous_92 *, struct anonymous_91 *);
   // free_Font
-  signed int (*free_Font)(struct _XDisplay *, struct anonymous$92 *, struct anonymous$91 *);
+  signed int (*free_Font)(struct _XDisplay *, struct anonymous_92 *, struct anonymous_91 *);
   // close_display
-  signed int (*close_display)(struct _XDisplay *, struct anonymous$91 *);
+  signed int (*close_display)(struct _XDisplay *, struct anonymous_91 *);
   // error
-  signed int (*error)(struct _XDisplay *, struct anonymous$121 *, struct anonymous$91 *, signed int *);
+  signed int (*error)(struct _XDisplay *, struct anonymous_121 *, struct anonymous_91 *, signed int *);
   // error_string
-  char * (*error_string)(struct _XDisplay *, signed int, struct anonymous$91 *, char *, signed int);
+  char * (*error_string)(struct _XDisplay *, signed int, struct anonymous_91 *, char *, signed int);
   // name
   char *name;
   // error_values
-  void (*error_values)(struct _XDisplay *, struct anonymous$118 *, void *);
+  void (*error_values)(struct _XDisplay *, struct anonymous_118 *, void *);
   // before_flush
-  void (*before_flush)(struct _XDisplay *, struct anonymous$91 *, const char *, signed long int);
+  void (*before_flush)(struct _XDisplay *, struct anonymous_91 *, const char *, signed long int);
   // next_flush
   struct _XExten *next_flush;
 };
@@ -5911,7 +5911,7 @@ struct _XFreeFuncs
   // atoms
   void (*atoms)(struct _XDisplay *);
   // modifiermap
-  signed int (*modifiermap)(struct anonymous$95 *);
+  signed int (*modifiermap)(struct anonymous_95 *);
   // key_bindings
   void (*key_bindings)(struct _XDisplay *);
   // context_db
@@ -5941,13 +5941,13 @@ struct _XGC
   // dirty
   unsigned long int dirty;
   // values
-  struct anonymous$16 values;
+  struct anonymous_16 values;
 };
 
 struct funcs
 {
   // create_image
-  struct _XImage * (*create_image)(struct _XDisplay *, struct anonymous$21 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
+  struct _XImage * (*create_image)(struct _XDisplay *, struct anonymous_21 *, unsigned int, signed int, signed int, char *, unsigned int, unsigned int, signed int, signed int);
   // destroy_image
   signed int (*destroy_image)(struct _XImage *);
   // get_pixel
@@ -6003,7 +6003,7 @@ struct _XInternalAsync
   // next
   struct _XInternalAsync *next;
   // handler
-  signed int (*handler)(struct _XDisplay *, union anonymous$134 *, char *, signed int, char *);
+  signed int (*handler)(struct _XDisplay *, union anonymous_134 *, char *, signed int, char *);
   // data
   char *data;
 };
@@ -6123,9 +6123,9 @@ struct shmid_ds
 struct sigaction
 {
   // __sigaction_handler
-  union anonymous$12 __sigaction_handler;
+  union anonymous_12 __sigaction_handler;
   // sa_mask
-  struct anonymous$2 sa_mask;
+  struct anonymous_2 sa_mask;
   // sa_flags
   signed int sa_flags;
   // sa_restorer
@@ -6254,10 +6254,10 @@ static signed long int _le_64(signed long int l)
 
 // add_eos_packet_to_stream
 // file skeleton.h line 65
-extern signed int add_eos_packet_to_stream(struct anonymous$14 *os)
+extern signed int add_eos_packet_to_stream(struct anonymous_14 *os)
 {
-  struct anonymous$126 op;
-  memset((void *)&op, 0, sizeof(struct anonymous$126) /*48ul*/ );
+  struct anonymous_126 op;
+  memset((void *)&op, 0, sizeof(struct anonymous_126) /*48ul*/ );
   op.e_o_s = (signed long int)1;
   ogg_stream_packetin(os, &op);
   return 0;
@@ -6265,9 +6265,9 @@ extern signed int add_eos_packet_to_stream(struct anonymous$14 *os)
 
 // add_fisbone_to_stream
 // file skeleton.h line 64
-extern signed int add_fisbone_to_stream(struct anonymous$14 *os, struct anonymous$139 *fp)
+extern signed int add_fisbone_to_stream(struct anonymous_14 *os, struct anonymous_139 *fp)
 {
-  struct anonymous$126 op;
+  struct anonymous_126 op;
   signed int ret;
   ret=ogg_from_fisbone(fp, &op);
   if(!(ret >= 0))
@@ -6283,9 +6283,9 @@ extern signed int add_fisbone_to_stream(struct anonymous$14 *os, struct anonymou
 
 // add_fishead_to_stream
 // file skeleton.h line 63
-extern signed int add_fishead_to_stream(struct anonymous$14 *os, struct anonymous$140 *fp)
+extern signed int add_fishead_to_stream(struct anonymous_14 *os, struct anonymous_140 *fp)
 {
-  struct anonymous$126 op;
+  struct anonymous_126 op;
   signed int ret;
   ret=ogg_from_fishead(fp, &op);
   if(!(ret >= 0))
@@ -6301,27 +6301,27 @@ extern signed int add_fishead_to_stream(struct anonymous$14 *os, struct anonymou
 
 // add_message_header_field
 // file skeleton.h line 54
-extern signed int add_message_header_field(struct anonymous$139 *fp, char *header_key, char *header_value)
+extern signed int add_message_header_field(struct anonymous_139 *fp, char *header_key, char *header_value)
 {
   signed int this_message_size;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(header_key);
-  unsigned long int return_value_strlen$2;
-  return_value_strlen$2=strlen(header_value);
-  this_message_size = (signed int)(return_value_strlen$1 + return_value_strlen$2 + (unsigned long int)4);
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(header_key);
+  unsigned long int return_value_strlen_2;
+  return_value_strlen_2=strlen(header_value);
+  this_message_size = (signed int)(return_value_strlen_1 + return_value_strlen_2 + (unsigned long int)4);
   if(fp->message_header_fields == ((char *)NULL))
   {
-    void *return_value_calloc$3;
-    return_value_calloc$3=calloc((unsigned long int)(this_message_size + 1), sizeof(char) /*1ul*/ );
-    fp->message_header_fields = (char *)return_value_calloc$3;
+    void *return_value_calloc_3;
+    return_value_calloc_3=calloc((unsigned long int)(this_message_size + 1), sizeof(char) /*1ul*/ );
+    fp->message_header_fields = (char *)return_value_calloc_3;
   }
 
   else
   {
     signed int new_size = (signed int)((unsigned long int)(fp->current_header_size + (unsigned int)this_message_size + (unsigned int)1) * sizeof(char) /*1ul*/ );
-    void *return_value_realloc$4;
-    return_value_realloc$4=realloc((void *)fp->message_header_fields, (unsigned long int)new_size);
-    fp->message_header_fields = (char *)return_value_realloc$4;
+    void *return_value_realloc_4;
+    return_value_realloc_4=realloc((void *)fp->message_header_fields, (unsigned long int)new_size);
+    fp->message_header_fields = (char *)return_value_realloc_4;
   }
   snprintf(fp->message_header_fields + (signed long int)fp->current_header_size, (unsigned long int)(this_message_size + 1), "%s: %s\r\n", header_key, header_value);
   fp->current_header_size = fp->current_header_size + (unsigned int)this_message_size;
@@ -6330,9 +6330,9 @@ extern signed int add_message_header_field(struct anonymous$139 *fp, char *heade
 
 // fisbone_clear
 // file skeleton.c line 238
-extern signed int fisbone_clear(struct anonymous$139 *fp)
+extern signed int fisbone_clear(struct anonymous_139 *fp)
 {
-  if(fp == ((struct anonymous$139 *)NULL))
+  if(fp == ((struct anonymous_139 *)NULL))
     return -1;
 
   else
@@ -6344,16 +6344,16 @@ extern signed int fisbone_clear(struct anonymous$139 *fp)
 
 // fisbone_from_data
 // file skeleton.c line 206
-static signed int fisbone_from_data(const unsigned char *data, signed int len, struct anonymous$139 *fp)
+static signed int fisbone_from_data(const unsigned char *data, signed int len, struct anonymous_139 *fp)
 {
-  if(fp == ((struct anonymous$139 *)NULL))
+  if(fp == ((struct anonymous_139 *)NULL))
     return -1;
 
   else
   {
-    signed int return_value_memcmp$1;
-    return_value_memcmp$1=memcmp((const void *)data, (const void *)"fisbone\0", (unsigned long int)8);
-    if(!(return_value_memcmp$1 == 0))
+    signed int return_value_memcmp_1;
+    return_value_memcmp_1=memcmp((const void *)data, (const void *)"fisbone\0", (unsigned long int)8);
+    if(!(return_value_memcmp_1 == 0))
       return -1;
 
     else
@@ -6366,9 +6366,9 @@ static signed int fisbone_from_data(const unsigned char *data, signed int len, s
       fp->preroll=_le_32(*((unsigned int *)(data + (signed long int)44)));
       fp->granule_shift = data[(signed long int)48];
       fp->current_header_size = (unsigned int)(len - 52);
-      void *return_value_calloc$2;
-      return_value_calloc$2=calloc((unsigned long int)(fp->current_header_size + (unsigned int)1), sizeof(char) /*1ul*/ );
-      fp->message_header_fields = (char *)return_value_calloc$2;
+      void *return_value_calloc_2;
+      return_value_calloc_2=calloc((unsigned long int)(fp->current_header_size + (unsigned int)1), sizeof(char) /*1ul*/ );
+      fp->message_header_fields = (char *)return_value_calloc_2;
       if(fp->message_header_fields == ((char *)NULL))
         return -1;
 
@@ -6383,34 +6383,34 @@ static signed int fisbone_from_data(const unsigned char *data, signed int len, s
 
 // fisbone_from_ogg
 // file skeleton.c line 229
-extern signed int fisbone_from_ogg(struct anonymous$126 *op, struct anonymous$139 *fp)
+extern signed int fisbone_from_ogg(struct anonymous_126 *op, struct anonymous_139 *fp)
 {
-  signed int return_value_fisbone_from_data$1;
-  return_value_fisbone_from_data$1=fisbone_from_data(op->packet, (signed int)op->bytes, fp);
-  return return_value_fisbone_from_data$1;
+  signed int return_value_fisbone_from_data_1;
+  return_value_fisbone_from_data_1=fisbone_from_data(op->packet, (signed int)op->bytes, fp);
+  return return_value_fisbone_from_data_1;
 }
 
 // fisbone_from_ogg_page
 // file skeleton.c line 234
-extern signed int fisbone_from_ogg_page(const struct anonymous$15 *og, struct anonymous$139 *fp)
+extern signed int fisbone_from_ogg_page(const struct anonymous_15 *og, struct anonymous_139 *fp)
 {
-  signed int return_value_fisbone_from_data$1;
-  return_value_fisbone_from_data$1=fisbone_from_data(og->body, (signed int)og->body_len, fp);
-  return return_value_fisbone_from_data$1;
+  signed int return_value_fisbone_from_data_1;
+  return_value_fisbone_from_data_1=fisbone_from_data(og->body, (signed int)og->body_len, fp);
+  return return_value_fisbone_from_data_1;
 }
 
 // fishead_from_data
 // file skeleton.c line 178
-static signed int fishead_from_data(const unsigned char *data, signed int len, struct anonymous$140 *fp)
+static signed int fishead_from_data(const unsigned char *data, signed int len, struct anonymous_140 *fp)
 {
   if(data == ((const unsigned char *)NULL))
     return -1;
 
   else
   {
-    signed int return_value_memcmp$1;
-    return_value_memcmp$1=memcmp((const void *)data, (const void *)"fishead\0", (unsigned long int)8);
-    if(!(return_value_memcmp$1 == 0))
+    signed int return_value_memcmp_1;
+    return_value_memcmp_1=memcmp((const void *)data, (const void *)"fishead\0", (unsigned long int)8);
+    if(!(return_value_memcmp_1 == 0))
       return -1;
 
     else
@@ -6429,27 +6429,27 @@ static signed int fishead_from_data(const unsigned char *data, signed int len, s
 
 // fishead_from_ogg
 // file skeleton.c line 196
-extern signed int fishead_from_ogg(struct anonymous$126 *op, struct anonymous$140 *fp)
+extern signed int fishead_from_ogg(struct anonymous_126 *op, struct anonymous_140 *fp)
 {
-  signed int return_value_fishead_from_data$1;
-  return_value_fishead_from_data$1=fishead_from_data(op->packet, (signed int)op->bytes, fp);
-  return return_value_fishead_from_data$1;
+  signed int return_value_fishead_from_data_1;
+  return_value_fishead_from_data_1=fishead_from_data(op->packet, (signed int)op->bytes, fp);
+  return return_value_fishead_from_data_1;
 }
 
 // fishead_from_ogg_page
 // file skeleton.c line 201
-extern signed int fishead_from_ogg_page(const struct anonymous$15 *og, struct anonymous$140 *fp)
+extern signed int fishead_from_ogg_page(const struct anonymous_15 *og, struct anonymous_140 *fp)
 {
-  signed int return_value_fishead_from_data$1;
-  return_value_fishead_from_data$1=fishead_from_data(og->body, (signed int)og->body_len, fp);
-  return return_value_fishead_from_data$1;
+  signed int return_value_fishead_from_data_1;
+  return_value_fishead_from_data_1=fishead_from_data(og->body, (signed int)og->body_len, fp);
+  return return_value_fishead_from_data_1;
 }
 
 // flush_ogg_stream_to_file
 // file skeleton.c line 282
-extern signed int flush_ogg_stream_to_file(struct anonymous$14 *os, struct _IO_FILE *out)
+extern signed int flush_ogg_stream_to_file(struct anonymous_14 *os, struct _IO_FILE *out)
 {
-  struct anonymous$15 og;
+  struct anonymous_15 og;
   signed int result;
   do
   {
@@ -6471,9 +6471,9 @@ extern signed int flush_ogg_stream_to_file(struct anonymous$14 *os, struct _IO_F
 
 // m_add_fishead_packet
 // file rmd_init_encoder.c line 43
-static void m_add_fishead_packet(struct anonymous$14 *m_ogg_state)
+static void m_add_fishead_packet(struct anonymous_14 *m_ogg_state)
 {
-  struct anonymous$140 skel_fp;
+  struct anonymous_140 skel_fp;
   skel_fp.btime_n = (signed long int)0;
   skel_fp.ptime_n = skel_fp.btime_n;
   skel_fp.btime_d = (signed long int)1000;
@@ -6488,21 +6488,21 @@ signed int main(signed int argc, char **argv)
   struct _ProgData pdata;
   signed int exit_status = 0;
   rmdSetupDefaultArgs(&pdata.args);
-  signed int return_value_rmdParseArgs$1;
-  return_value_rmdParseArgs$1=rmdParseArgs(argc, argv, &pdata.args);
-  if(return_value_rmdParseArgs$1 == 0)
+  signed int return_value_rmdParseArgs_1;
+  return_value_rmdParseArgs_1=rmdParseArgs(argc, argv, &pdata.args);
+  if(return_value_rmdParseArgs_1 == 0)
     exit(1);
 
   if(!(pdata.args.rescue_path == ((const char *)NULL)))
   {
-    signed int return_value_rmdRescue$2;
-    return_value_rmdRescue$2=rmdRescue(pdata.args.rescue_path);
-    exit(return_value_rmdRescue$2);
+    signed int return_value_rmdRescue_2;
+    return_value_rmdRescue_2=rmdRescue(pdata.args.rescue_path);
+    exit(return_value_rmdRescue_2);
   }
 
-  signed int return_value_XInitThreads$3;
-  return_value_XInitThreads$3=XInitThreads();
-  if(return_value_XInitThreads$3 == 0)
+  signed int return_value_XInitThreads_3;
+  return_value_XInitThreads_3=XInitThreads();
+  if(return_value_XInitThreads_3 == 0)
   {
     fprintf(stderr, "Couldn't initialize thread support!\n");
     exit(7);
@@ -6519,11 +6519,11 @@ signed int main(signed int argc, char **argv)
     fprintf(stderr, "No display specified for connection!\n");
     exit(8);
   }
-  signed int return_value_rmdWMIsCompositing$5;
-  _Bool tmp_if_expr$8;
-  signed int return_value_rmdRegisterShortcut$7;
-  _Bool tmp_if_expr$10;
-  signed int return_value_rmdRegisterShortcut$9;
+  signed int return_value_rmdWMIsCompositing_5;
+  _Bool tmp_if_expr_8;
+  signed int return_value_rmdRegisterShortcut_7;
+  _Bool tmp_if_expr_10;
+  signed int return_value_rmdRegisterShortcut_9;
   if(pdata.dpy == ((struct _XDisplay *)NULL))
   {
     fprintf(stderr, "Cannot connect to X server %s\n", pdata.args.display);
@@ -6537,28 +6537,28 @@ signed int main(signed int argc, char **argv)
     struct _JackData jdata;
     jdata.pdata = &pdata;
     pdata.jdata = &jdata;
-    pdata.specs.screen = ((struct anonymous$146 *)pdata.dpy)->default_screen;
-    pdata.specs.width = (unsigned int)(&((struct anonymous$146 *)pdata.dpy)->screens[(signed long int)pdata.specs.screen])->width;
-    pdata.specs.height = (unsigned int)(&((struct anonymous$146 *)pdata.dpy)->screens[(signed long int)pdata.specs.screen])->height;
-    pdata.specs.root = (&((struct anonymous$146 *)pdata.dpy)->screens[(signed long int)pdata.specs.screen])->root;
-    pdata.specs.visual = (&((struct anonymous$146 *)pdata.dpy)->screens[(signed long int)pdata.specs.screen])->root_visual;
-    pdata.specs.gc = (&((struct anonymous$146 *)pdata.dpy)->screens[(signed long int)pdata.specs.screen])->default_gc;
-    pdata.specs.depth = (&((struct anonymous$146 *)pdata.dpy)->screens[(signed long int)pdata.specs.screen])->root_depth;
+    pdata.specs.screen = ((struct anonymous_146 *)pdata.dpy)->default_screen;
+    pdata.specs.width = (unsigned int)(&((struct anonymous_146 *)pdata.dpy)->screens[(signed long int)pdata.specs.screen])->width;
+    pdata.specs.height = (unsigned int)(&((struct anonymous_146 *)pdata.dpy)->screens[(signed long int)pdata.specs.screen])->height;
+    pdata.specs.root = (&((struct anonymous_146 *)pdata.dpy)->screens[(signed long int)pdata.specs.screen])->root;
+    pdata.specs.visual = (&((struct anonymous_146 *)pdata.dpy)->screens[(signed long int)pdata.specs.screen])->root_visual;
+    pdata.specs.gc = (&((struct anonymous_146 *)pdata.dpy)->screens[(signed long int)pdata.specs.screen])->default_gc;
+    pdata.specs.depth = (&((struct anonymous_146 *)pdata.dpy)->screens[(signed long int)pdata.specs.screen])->root_depth;
     if(!(pdata.specs.depth == 16) && !(pdata.specs.depth == 24) && !(pdata.specs.depth == 32))
     {
       fprintf(stderr, "Only 32bpp,24bpp and 16bpp color depth modes are currently supported.\n");
       exit(10);
     }
 
-    signed int return_value_rmdSetBRWindow$4;
-    return_value_rmdSetBRWindow$4=rmdSetBRWindow(pdata.dpy, &pdata.brwin, &pdata.specs, &pdata.args);
-    if(return_value_rmdSetBRWindow$4 == 0)
+    signed int return_value_rmdSetBRWindow_4;
+    return_value_rmdSetBRWindow_4=rmdSetBRWindow(pdata.dpy, &pdata.brwin, &pdata.specs, &pdata.args);
+    if(return_value_rmdSetBRWindow_4 == 0)
       exit(11);
 
     if(pdata.args.nowmcheck == 0)
     {
-      return_value_rmdWMIsCompositing$5=rmdWMIsCompositing(pdata.dpy, pdata.specs.screen);
-      if(!(return_value_rmdWMIsCompositing$5 == 0))
+      return_value_rmdWMIsCompositing_5=rmdWMIsCompositing(pdata.dpy, pdata.specs.screen);
+      if(!(return_value_rmdWMIsCompositing_5 == 0))
       {
         fprintf(stderr, "\nDetected compositing window manager.\nReverting to full screen capture at every frame.\nTo disable this check run with --no-wm-check\n(though that is not advised, since it will probably produce faulty results).\n\n");
         pdata.args.full_shots = 1;
@@ -6571,25 +6571,25 @@ signed int main(signed int argc, char **argv)
     exit_status=rmdInitializeData(&pdata, &enc_data, &cache_data);
     if(exit_status == 0)
     {
-      signed int return_value_strcmp$6;
-      return_value_strcmp$6=strcmp(pdata.args.pause_shortcut, pdata.args.stop_shortcut);
-      if(return_value_strcmp$6 == 0)
-        tmp_if_expr$8 = (_Bool)1;
+      signed int return_value_strcmp_6;
+      return_value_strcmp_6=strcmp(pdata.args.pause_shortcut, pdata.args.stop_shortcut);
+      if(return_value_strcmp_6 == 0)
+        tmp_if_expr_8 = (_Bool)1;
 
       else
       {
-        return_value_rmdRegisterShortcut$7=rmdRegisterShortcut(pdata.dpy, pdata.specs.root, pdata.args.pause_shortcut, &pdata.pause_key);
-        tmp_if_expr$8 = return_value_rmdRegisterShortcut$7 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_rmdRegisterShortcut_7=rmdRegisterShortcut(pdata.dpy, pdata.specs.root, pdata.args.pause_shortcut, &pdata.pause_key);
+        tmp_if_expr_8 = return_value_rmdRegisterShortcut_7 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$8)
-        tmp_if_expr$10 = (_Bool)1;
+      if(tmp_if_expr_8)
+        tmp_if_expr_10 = (_Bool)1;
 
       else
       {
-        return_value_rmdRegisterShortcut$9=rmdRegisterShortcut(pdata.dpy, pdata.specs.root, pdata.args.stop_shortcut, &pdata.stop_key);
-        tmp_if_expr$10 = return_value_rmdRegisterShortcut$9 != 0 ? (_Bool)1 : (_Bool)0;
+        return_value_rmdRegisterShortcut_9=rmdRegisterShortcut(pdata.dpy, pdata.specs.root, pdata.args.stop_shortcut, &pdata.stop_key);
+        tmp_if_expr_10 = return_value_rmdRegisterShortcut_9 != 0 ? (_Bool)1 : (_Bool)0;
       }
-      if(tmp_if_expr$10)
+      if(tmp_if_expr_10)
       {
         fprintf(stderr, "Invalid shortcut, or shortcuts are the same!\n\nUsing defaults.\n");
         rmdRegisterShortcut(pdata.dpy, pdata.specs.root, "Control+Mod1+p", &pdata.pause_key);
@@ -6605,9 +6605,9 @@ signed int main(signed int argc, char **argv)
           rmdEncodeCache(&pdata);
 
         fprintf(stderr, "Cleanning up cache...\n");
-        signed int return_value_rmdPurgeCache$11;
-        return_value_rmdPurgeCache$11=rmdPurgeCache(pdata.cache_data, (signed int)!(pdata.args.nosound != 0));
-        if(!(return_value_rmdPurgeCache$11 == 0))
+        signed int return_value_rmdPurgeCache_11;
+        return_value_rmdPurgeCache_11=rmdPurgeCache(pdata.cache_data, (signed int)!(pdata.args.nosound != 0));
+        if(!(return_value_rmdPurgeCache_11 == 0))
           fprintf(stderr, "Some error occured while cleaning up cache!\n");
 
         fprintf(stderr, "Done!!!\n");
@@ -6615,9 +6615,9 @@ signed int main(signed int argc, char **argv)
 
       if(!(pdata.args.encOnTheFly == 0) && !(pdata.aborted == 0))
       {
-        signed int return_value_remove$12;
-        return_value_remove$12=remove(pdata.args.filename);
-        if(!(return_value_remove$12 == 0))
+        signed int return_value_remove_12;
+        return_value_remove_12=remove(pdata.args.filename);
+        if(!(return_value_remove_12 == 0))
         {
           perror("Error while removing file:\n");
           return 1;
@@ -6641,19 +6641,19 @@ signed int main(signed int argc, char **argv)
 
 // ogg_from_fisbone
 // file skeleton.c line 144
-extern signed int ogg_from_fisbone(struct anonymous$139 *fp, struct anonymous$126 *op)
+extern signed int ogg_from_fisbone(struct anonymous_139 *fp, struct anonymous_126 *op)
 {
   signed int packet_size;
-  if(op == ((struct anonymous$126 *)NULL) || fp == ((struct anonymous$139 *)NULL))
+  if(op == ((struct anonymous_126 *)NULL) || fp == ((struct anonymous_139 *)NULL))
     return -1;
 
   else
   {
     packet_size = (signed int)((unsigned int)52 + fp->current_header_size);
-    memset((void *)op, 0, sizeof(struct anonymous$126) /*48ul*/ );
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)packet_size, sizeof(unsigned char) /*1ul*/ );
-    op->packet = (unsigned char *)return_value_calloc$1;
+    memset((void *)op, 0, sizeof(struct anonymous_126) /*48ul*/ );
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)packet_size, sizeof(unsigned char) /*1ul*/ );
+    op->packet = (unsigned char *)return_value_calloc_1;
     if(op->packet == ((unsigned char *)NULL))
       return -1;
 
@@ -6682,17 +6682,17 @@ extern signed int ogg_from_fisbone(struct anonymous$139 *fp, struct anonymous$12
 
 // ogg_from_fishead
 // file skeleton.c line 114
-extern signed int ogg_from_fishead(struct anonymous$140 *fp, struct anonymous$126 *op)
+extern signed int ogg_from_fishead(struct anonymous_140 *fp, struct anonymous_126 *op)
 {
-  if(op == ((struct anonymous$126 *)NULL) || fp == ((struct anonymous$140 *)NULL))
+  if(op == ((struct anonymous_126 *)NULL) || fp == ((struct anonymous_140 *)NULL))
     return -1;
 
   else
   {
-    memset((void *)op, 0, sizeof(struct anonymous$126) /*48ul*/ );
-    void *return_value_calloc$1;
-    return_value_calloc$1=calloc((unsigned long int)64, sizeof(unsigned char) /*1ul*/ );
-    op->packet = (unsigned char *)return_value_calloc$1;
+    memset((void *)op, 0, sizeof(struct anonymous_126) /*48ul*/ );
+    void *return_value_calloc_1;
+    return_value_calloc_1=calloc((unsigned long int)64, sizeof(unsigned char) /*1ul*/ );
+    op->packet = (unsigned char *)return_value_calloc_1;
     if(op->packet == ((unsigned char *)NULL))
       return -1;
 
@@ -6716,50 +6716,50 @@ extern signed int ogg_from_fishead(struct anonymous$140 *fp, struct anonymous$12
 
 // ogg_page_cp
 // file rmd_flush_to_ogg.c line 47
-static void ogg_page_cp(struct anonymous$15 *new, struct anonymous$15 *old)
+static void ogg_page_cp(struct anonymous_15 *new, struct anonymous_15 *old)
 {
   signed int i = 0;
   unsigned char *newp;
   unsigned char *oldp;
   new->header_len = old->header_len;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)new->header_len);
-  new->header = (unsigned char *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)new->header_len);
+  new->header = (unsigned char *)return_value_malloc_1;
   new->body_len = old->body_len;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)new->body_len);
-  new->body = (unsigned char *)return_value_malloc$2;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)new->body_len);
+  new->body = (unsigned char *)return_value_malloc_2;
   newp = new->header;
   oldp = old->header;
   i = 0;
-  unsigned char *tmp_post$3;
-  unsigned char *tmp_post$4;
+  unsigned char *tmp_post_3;
+  unsigned char *tmp_post_4;
   for( ; !((signed long int)i >= new->header_len); i = i + 1)
   {
-    tmp_post$3 = newp;
+    tmp_post_3 = newp;
     newp = newp + 1l;
-    tmp_post$4 = oldp;
+    tmp_post_4 = oldp;
     oldp = oldp + 1l;
-    *tmp_post$3 = *tmp_post$4;
+    *tmp_post_3 = *tmp_post_4;
   }
   newp = new->body;
   oldp = old->body;
   i = 0;
-  unsigned char *tmp_post$5;
-  unsigned char *tmp_post$6;
+  unsigned char *tmp_post_5;
+  unsigned char *tmp_post_6;
   for( ; !((signed long int)i >= new->body_len); i = i + 1)
   {
-    tmp_post$5 = newp;
+    tmp_post_5 = newp;
     newp = newp + 1l;
-    tmp_post$6 = oldp;
+    tmp_post_6 = oldp;
     oldp = oldp + 1l;
-    *tmp_post$5 = *tmp_post$6;
+    *tmp_post_5 = *tmp_post_6;
   }
 }
 
 // ogg_page_cp_free
 // file rmd_flush_to_ogg.c line 67
-static void ogg_page_cp_free(struct anonymous$15 *pg)
+static void ogg_page_cp_free(struct anonymous_15 *pg)
 {
   pg->body_len = (signed long int)0;
   pg->header_len = pg->body_len;
@@ -6848,15 +6848,15 @@ void * rmdCacheImageBuffer(struct _ProgData *pdata)
   signed int frameno = 0;
   signed int nbytes = 0;
   signed int nth_cache = 1;
-  const signed long int vnum$array_size0 = (signed long int)(blocknum_x * blocknum_y);
-  const signed long int y_short_blocks$array_size0 = (signed long int)(blocknum_x * blocknum_y);
-  const signed long int u_short_blocks$array_size0 = (signed long int)(blocknum_x * blocknum_y);
+  const signed long int vnum_array_size0 = (signed long int)(blocknum_x * blocknum_y);
+  const signed long int y_short_blocks_array_size0 = (signed long int)(blocknum_x * blocknum_y);
+  const signed long int u_short_blocks_array_size0 = (signed long int)(blocknum_x * blocknum_y);
   unsigned int ynum;
   unsigned int unum;
   unsigned int vnum;
-  unsigned int y_short_blocks[vnum$array_size0];
-  unsigned int u_short_blocks[y_short_blocks$array_size0];
-  unsigned int v_short_blocks[u_short_blocks$array_size0];
+  unsigned int y_short_blocks[vnum_array_size0];
+  unsigned int u_short_blocks[y_short_blocks_array_size0];
+  unsigned int v_short_blocks[u_short_blocks_array_size0];
   unsigned long long int total_bytes = (unsigned long long int)0;
   unsigned long long int total_received_bytes = (unsigned long long int)0;
   if(pdata->args.zerocompression == 0)
@@ -6874,15 +6874,15 @@ void * rmdCacheImageBuffer(struct _ProgData *pdata)
       exit(13);
 
   }
-  signed int return_value_gzwrite$2;
-  signed int return_value_gzwrite$3;
-  signed int return_value_gzwrite$4;
-  unsigned long int return_value_fwrite$6;
-  unsigned long int return_value_fwrite$7;
-  unsigned long int return_value_fwrite$8;
-  signed int return_value_rmdFlushBlock$9;
-  signed int return_value_rmdFlushBlock$10;
-  signed int return_value_rmdFlushBlock$11;
+  signed int return_value_gzwrite_2;
+  signed int return_value_gzwrite_3;
+  signed int return_value_gzwrite_4;
+  unsigned long int return_value_fwrite_6;
+  unsigned long int return_value_fwrite_7;
+  unsigned long int return_value_fwrite_8;
+  signed int return_value_rmdFlushBlock_9;
+  signed int return_value_rmdFlushBlock_10;
+  signed int return_value_rmdFlushBlock_11;
   while(!(pdata->running == 0))
   {
     signed int j;
@@ -6964,50 +6964,50 @@ void * rmdCacheImageBuffer(struct _ProgData *pdata)
     fheader.Vnum = vnum;
     if(pdata->args.zerocompression == 0)
     {
-      signed int return_value_gzwrite$1;
-      return_value_gzwrite$1=gzwrite((struct gzFile_s *)fp, (void *)&fheader, (unsigned int)sizeof(struct _FrameHeader) /*24ul*/ );
-      nbytes = nbytes + return_value_gzwrite$1;
+      signed int return_value_gzwrite_1;
+      return_value_gzwrite_1=gzwrite((struct gzFile_s *)fp, (void *)&fheader, (unsigned int)sizeof(struct _FrameHeader) /*24ul*/ );
+      nbytes = nbytes + return_value_gzwrite_1;
       if(!(ynum == 0u))
       {
-        return_value_gzwrite$2=gzwrite((struct gzFile_s *)fp, (void *)y_short_blocks, ynum * (unsigned int)index_entry_size);
-        nbytes = nbytes + return_value_gzwrite$2;
+        return_value_gzwrite_2=gzwrite((struct gzFile_s *)fp, (void *)y_short_blocks, ynum * (unsigned int)index_entry_size);
+        nbytes = nbytes + return_value_gzwrite_2;
       }
 
       if(!(unum == 0u))
       {
-        return_value_gzwrite$3=gzwrite((struct gzFile_s *)fp, (void *)u_short_blocks, unum * (unsigned int)index_entry_size);
-        nbytes = nbytes + return_value_gzwrite$3;
+        return_value_gzwrite_3=gzwrite((struct gzFile_s *)fp, (void *)u_short_blocks, unum * (unsigned int)index_entry_size);
+        nbytes = nbytes + return_value_gzwrite_3;
       }
 
       if(!(vnum == 0u))
       {
-        return_value_gzwrite$4=gzwrite((struct gzFile_s *)fp, (void *)v_short_blocks, vnum * (unsigned int)index_entry_size);
-        nbytes = nbytes + return_value_gzwrite$4;
+        return_value_gzwrite_4=gzwrite((struct gzFile_s *)fp, (void *)v_short_blocks, vnum * (unsigned int)index_entry_size);
+        nbytes = nbytes + return_value_gzwrite_4;
       }
 
     }
 
     else
     {
-      unsigned long int return_value_fwrite$5;
-      return_value_fwrite$5=fwrite((void *)&fheader, sizeof(struct _FrameHeader) /*24ul*/ , (unsigned long int)1, ucfp);
-      nbytes = nbytes + (signed int)(sizeof(struct _FrameHeader) /*24ul*/  * return_value_fwrite$5);
+      unsigned long int return_value_fwrite_5;
+      return_value_fwrite_5=fwrite((void *)&fheader, sizeof(struct _FrameHeader) /*24ul*/ , (unsigned long int)1, ucfp);
+      nbytes = nbytes + (signed int)(sizeof(struct _FrameHeader) /*24ul*/  * return_value_fwrite_5);
       if(!(ynum == 0u))
       {
-        return_value_fwrite$6=fwrite((const void *)y_short_blocks, (unsigned long int)index_entry_size, (unsigned long int)ynum, ucfp);
-        nbytes = nbytes + (signed int)((unsigned long int)index_entry_size * return_value_fwrite$6);
+        return_value_fwrite_6=fwrite((const void *)y_short_blocks, (unsigned long int)index_entry_size, (unsigned long int)ynum, ucfp);
+        nbytes = nbytes + (signed int)((unsigned long int)index_entry_size * return_value_fwrite_6);
       }
 
       if(!(unum == 0u))
       {
-        return_value_fwrite$7=fwrite((const void *)u_short_blocks, (unsigned long int)index_entry_size, (unsigned long int)unum, ucfp);
-        nbytes = nbytes + (signed int)((unsigned long int)index_entry_size * return_value_fwrite$7);
+        return_value_fwrite_7=fwrite((const void *)u_short_blocks, (unsigned long int)index_entry_size, (unsigned long int)unum, ucfp);
+        nbytes = nbytes + (signed int)((unsigned long int)index_entry_size * return_value_fwrite_7);
       }
 
       if(!(vnum == 0u))
       {
-        return_value_fwrite$8=fwrite((const void *)v_short_blocks, (unsigned long int)index_entry_size, (unsigned long int)vnum, ucfp);
-        nbytes = nbytes + (signed int)((unsigned long int)index_entry_size * return_value_fwrite$8);
+        return_value_fwrite_8=fwrite((const void *)v_short_blocks, (unsigned long int)index_entry_size, (unsigned long int)vnum, ucfp);
+        nbytes = nbytes + (signed int)((unsigned long int)index_entry_size * return_value_fwrite_8);
       }
 
     }
@@ -7016,8 +7016,8 @@ void * rmdCacheImageBuffer(struct _ProgData *pdata)
       j = 0;
       for( ; !((unsigned int)j >= ynum); j = j + 1)
       {
-        return_value_rmdFlushBlock$9=rmdFlushBlock(pdata->enc_data->yuv.y, (signed int)y_short_blocks[(signed long int)j], pdata->enc_data->yuv.y_width, pdata->enc_data->yuv.y_height, 0x0010, fp, ucfp, 0);
-        nbytes = nbytes + return_value_rmdFlushBlock$9;
+        return_value_rmdFlushBlock_9=rmdFlushBlock(pdata->enc_data->yuv.y, (signed int)y_short_blocks[(signed long int)j], pdata->enc_data->yuv.y_width, pdata->enc_data->yuv.y_height, 0x0010, fp, ucfp, 0);
+        nbytes = nbytes + return_value_rmdFlushBlock_9;
       }
     }
 
@@ -7026,8 +7026,8 @@ void * rmdCacheImageBuffer(struct _ProgData *pdata)
       j = 0;
       for( ; !((unsigned int)j >= unum); j = j + 1)
       {
-        return_value_rmdFlushBlock$10=rmdFlushBlock(pdata->enc_data->yuv.u, (signed int)u_short_blocks[(signed long int)j], pdata->enc_data->yuv.uv_width, pdata->enc_data->yuv.uv_height, 0x0008, fp, ucfp, 0);
-        nbytes = nbytes + return_value_rmdFlushBlock$10;
+        return_value_rmdFlushBlock_10=rmdFlushBlock(pdata->enc_data->yuv.u, (signed int)u_short_blocks[(signed long int)j], pdata->enc_data->yuv.uv_width, pdata->enc_data->yuv.uv_height, 0x0008, fp, ucfp, 0);
+        nbytes = nbytes + return_value_rmdFlushBlock_10;
       }
     }
 
@@ -7036,21 +7036,21 @@ void * rmdCacheImageBuffer(struct _ProgData *pdata)
       j = 0;
       for( ; !((unsigned int)j >= vnum); j = j + 1)
       {
-        return_value_rmdFlushBlock$11=rmdFlushBlock(pdata->enc_data->yuv.v, (signed int)v_short_blocks[(signed long int)j], pdata->enc_data->yuv.uv_width, pdata->enc_data->yuv.uv_height, 0x0008, fp, ucfp, 0);
-        nbytes = nbytes + return_value_rmdFlushBlock$11;
+        return_value_rmdFlushBlock_11=rmdFlushBlock(pdata->enc_data->yuv.v, (signed int)v_short_blocks[(signed long int)j], pdata->enc_data->yuv.uv_width, pdata->enc_data->yuv.uv_height, 0x0008, fp, ucfp, 0);
+        nbytes = nbytes + return_value_rmdFlushBlock_11;
       }
     }
 
     pthread_mutex_unlock(&pdata->yuv_mutex);
-    signed int return_value_rmdFlushBlock$12;
-    return_value_rmdFlushBlock$12=rmdFlushBlock((unsigned char *)(void *)0, 0, 0, 0, 0, fp, ucfp, 1);
-    nbytes = nbytes + return_value_rmdFlushBlock$12;
+    signed int return_value_rmdFlushBlock_12;
+    return_value_rmdFlushBlock_12=rmdFlushBlock((unsigned char *)(void *)0, 0, 0, 0, 0, fp, ucfp, 1);
+    nbytes = nbytes + return_value_rmdFlushBlock_12;
     pdata->avd = pdata->avd + (signed int)pdata->frametime;
     if(nbytes >= 524288001)
     {
-      signed int return_value_rmdSwapCacheFilesWrite$13;
-      return_value_rmdSwapCacheFilesWrite$13=rmdSwapCacheFilesWrite(pdata->cache_data->imgdata, nth_cache, &fp, &ucfp);
-      if(!(return_value_rmdSwapCacheFilesWrite$13 == 0))
+      signed int return_value_rmdSwapCacheFilesWrite_13;
+      return_value_rmdSwapCacheFilesWrite_13=rmdSwapCacheFilesWrite(pdata->cache_data->imgdata, nth_cache, &fp, &ucfp);
+      if(!(return_value_rmdSwapCacheFilesWrite_13 == 0))
       {
         fprintf(stderr, "New cache file could not be created.\nEnding recording...\n");
         fflush(stderr);
@@ -7086,9 +7086,9 @@ void * rmdCacheImageBuffer(struct _ProgData *pdata)
     fflush(ucfp);
     fclose(ucfp);
   }
-  signed int *return_value___errno_location$14;
-  return_value___errno_location$14=__errno_location();
-  pthread_exit((void *)&(*return_value___errno_location$14));
+  signed int *return_value___errno_location_14;
+  return_value___errno_location_14=__errno_location();
+  pthread_exit((void *)&(*return_value___errno_location_14));
 }
 
 // rmdCacheSoundBuffer
@@ -7099,7 +7099,7 @@ void * rmdCacheSoundBuffer(struct _ProgData *pdata)
   if(!(pdata->args.use_jack == 0))
     jackbuf=malloc((unsigned long int)((unsigned int)pdata->sound_framesize * pdata->jdata->buffersize));
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   while(!(pdata->running == 0))
   {
     struct _SndBuffer *buff = (struct _SndBuffer *)(void *)0;
@@ -7122,11 +7122,11 @@ void * rmdCacheSoundBuffer(struct _ProgData *pdata)
       }
 
       if(pdata->sound_buffer == ((struct _SndBuffer *)NULL))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = !(pdata->running != 0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = !(pdata->running != 0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         break;
 
       pthread_mutex_lock(&pdata->sound_buffer_mutex);
@@ -7161,9 +7161,9 @@ void * rmdCacheSoundBuffer(struct _ProgData *pdata)
     pdata->avd = pdata->avd - (signed int)pdata->periodtime;
   }
   fclose(pdata->cache_data->afp);
-  signed int *return_value___errno_location$2;
-  return_value___errno_location$2=__errno_location();
-  pthread_exit((void *)&(*return_value___errno_location$2));
+  signed int *return_value___errno_location_2;
+  return_value___errno_location_2=__errno_location();
+  pthread_exit((void *)&(*return_value___errno_location_2));
 }
 
 // rmdCaptureSound
@@ -7199,44 +7199,44 @@ void * rmdCaptureSound(struct _ProgData *pdata)
         {
           fprintf(stderr, "Couldn't reopen sound device.Exiting\n");
           pdata->running = 0;
-          signed int *return_value___errno_location$1;
-          return_value___errno_location$1=__errno_location();
-          *return_value___errno_location$1 = 3;
-          signed int *return_value___errno_location$2;
-          return_value___errno_location$2=__errno_location();
-          pthread_exit((void *)&(*return_value___errno_location$2));
+          signed int *return_value___errno_location_1;
+          return_value___errno_location_1=__errno_location();
+          *return_value___errno_location_1 = 3;
+          signed int *return_value___errno_location_2;
+          return_value___errno_location_2=__errno_location();
+          pthread_exit((void *)&(*return_value___errno_location_2));
         }
 
       }
     }
 
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(sizeof(struct _SndBuffer) /*16ul*/ );
-    newbuf = (struct _SndBuffer *)return_value_malloc$3;
-    void *return_value_malloc$4;
-    return_value_malloc$4=malloc((unsigned long int)(frames * pdata->sound_framesize));
-    newbuf->data = (signed char *)return_value_malloc$4;
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(sizeof(struct _SndBuffer) /*16ul*/ );
+    newbuf = (struct _SndBuffer *)return_value_malloc_3;
+    void *return_value_malloc_4;
+    return_value_malloc_4=malloc((unsigned long int)(frames * pdata->sound_framesize));
+    newbuf->data = (signed char *)return_value_malloc_4;
     newbuf->next = (struct _SndBuffer *)(void *)0;
     while(!(sret >= frames))
     {
       signed int temp_sret;
-      signed long int return_value_snd_pcm_readi$5;
-      return_value_snd_pcm_readi$5=snd_pcm_readi(pdata->sound_handle, (void *)(newbuf->data + (signed long int)(pdata->sound_framesize * sret)), (unsigned long int)(frames - sret));
-      temp_sret = (signed int)return_value_snd_pcm_readi$5;
+      signed long int return_value_snd_pcm_readi_5;
+      return_value_snd_pcm_readi_5=snd_pcm_readi(pdata->sound_handle, (void *)(newbuf->data + (signed long int)(pdata->sound_framesize * sret)), (unsigned long int)(frames - sret));
+      temp_sret = (signed int)return_value_snd_pcm_readi_5;
       if(temp_sret == -32)
       {
-        const char *return_value_snd_strerror$6;
-        return_value_snd_strerror$6=snd_strerror(temp_sret);
-        fprintf(stderr, "%s: Overrun occurred.\n", return_value_snd_strerror$6);
+        const char *return_value_snd_strerror_6;
+        return_value_snd_strerror_6=snd_strerror(temp_sret);
+        fprintf(stderr, "%s: Overrun occurred.\n", return_value_snd_strerror_6);
         snd_pcm_prepare(pdata->sound_handle);
       }
 
       else
         if(!(temp_sret >= 0))
         {
-          const char *return_value_snd_strerror$7;
-          return_value_snd_strerror$7=snd_strerror(temp_sret);
-          fprintf(stderr, "An error occured while reading sound data:\n %s\n", return_value_snd_strerror$7);
+          const char *return_value_snd_strerror_7;
+          return_value_snd_strerror_7=snd_strerror(temp_sret);
+          fprintf(stderr, "An error occured while reading sound data:\n %s\n", return_value_snd_strerror_7);
           snd_pcm_prepare(pdata->sound_handle);
         }
 
@@ -7260,9 +7260,9 @@ void * rmdCaptureSound(struct _ProgData *pdata)
     pthread_mutex_unlock(&pdata->snd_buff_ready_mutex);
   }
   snd_pcm_close(pdata->sound_handle);
-  signed int *return_value___errno_location$8;
-  return_value___errno_location$8=__errno_location();
-  pthread_exit((void *)&(*return_value___errno_location$8));
+  signed int *return_value___errno_location_8;
+  return_value___errno_location_8=__errno_location();
+  pthread_exit((void *)&(*return_value___errno_location_8));
 }
 
 // rmdCleanUp
@@ -7294,69 +7294,69 @@ void rmdClearList(struct _RectArea **root)
 
 // rmdCollideRects
 // file rmd_rectinsert.c line 59
-static signed int rmdCollideRects(struct anonymous$17 *xrect1, struct anonymous$17 *xrect2, struct anonymous$17 *xrect_return, signed int *nrects)
+static signed int rmdCollideRects(struct anonymous_17 *xrect1, struct anonymous_17 *xrect2, struct anonymous_17 *xrect_return, signed int *nrects)
 {
-  _Bool tmp_if_expr$43;
+  _Bool tmp_if_expr_43;
   if((signed int)xrect1->x >= (signed int)xrect2->x)
-    tmp_if_expr$43 = (signed int)xrect1->x + (signed int)xrect1->width <= (signed int)xrect2->x + (signed int)xrect2->width ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_43 = (signed int)xrect1->x + (signed int)xrect1->width <= (signed int)xrect2->x + (signed int)xrect2->width ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$43 = (_Bool)0;
-  _Bool tmp_if_expr$44;
-  if(tmp_if_expr$43)
-    tmp_if_expr$44 = (signed int)xrect1->y >= (signed int)xrect2->y ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_43 = (_Bool)0;
+  _Bool tmp_if_expr_44;
+  if(tmp_if_expr_43)
+    tmp_if_expr_44 = (signed int)xrect1->y >= (signed int)xrect2->y ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$44 = (_Bool)0;
-  _Bool tmp_if_expr$45;
-  if(tmp_if_expr$44)
-    tmp_if_expr$45 = (signed int)xrect1->y + (signed int)xrect1->height <= (signed int)xrect2->y + (signed int)xrect2->height ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_44 = (_Bool)0;
+  _Bool tmp_if_expr_45;
+  if(tmp_if_expr_44)
+    tmp_if_expr_45 = (signed int)xrect1->y + (signed int)xrect1->height <= (signed int)xrect2->y + (signed int)xrect2->height ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$45 = (_Bool)0;
-  _Bool tmp_if_expr$40;
-  _Bool tmp_if_expr$41;
-  _Bool tmp_if_expr$42;
-  _Bool tmp_if_expr$37;
-  _Bool tmp_if_expr$38;
-  _Bool tmp_if_expr$39;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$12;
-  _Bool tmp_if_expr$13;
-  _Bool tmp_if_expr$14;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$18;
-  _Bool tmp_if_expr$19;
-  _Bool tmp_if_expr$20;
-  _Bool tmp_if_expr$21;
-  _Bool tmp_if_expr$22;
-  _Bool tmp_if_expr$23;
-  _Bool tmp_if_expr$24;
-  _Bool tmp_if_expr$29;
-  _Bool tmp_if_expr$30;
-  _Bool tmp_if_expr$27;
-  _Bool tmp_if_expr$28;
-  _Bool tmp_if_expr$25;
-  _Bool tmp_if_expr$26;
-  _Bool tmp_if_expr$33;
-  _Bool tmp_if_expr$32;
-  _Bool tmp_if_expr$31;
-  _Bool tmp_if_expr$36;
-  _Bool tmp_if_expr$35;
-  _Bool tmp_if_expr$34;
-  if(tmp_if_expr$45)
+    tmp_if_expr_45 = (_Bool)0;
+  _Bool tmp_if_expr_40;
+  _Bool tmp_if_expr_41;
+  _Bool tmp_if_expr_42;
+  _Bool tmp_if_expr_37;
+  _Bool tmp_if_expr_38;
+  _Bool tmp_if_expr_39;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_12;
+  _Bool tmp_if_expr_13;
+  _Bool tmp_if_expr_14;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_18;
+  _Bool tmp_if_expr_19;
+  _Bool tmp_if_expr_20;
+  _Bool tmp_if_expr_21;
+  _Bool tmp_if_expr_22;
+  _Bool tmp_if_expr_23;
+  _Bool tmp_if_expr_24;
+  _Bool tmp_if_expr_29;
+  _Bool tmp_if_expr_30;
+  _Bool tmp_if_expr_27;
+  _Bool tmp_if_expr_28;
+  _Bool tmp_if_expr_25;
+  _Bool tmp_if_expr_26;
+  _Bool tmp_if_expr_33;
+  _Bool tmp_if_expr_32;
+  _Bool tmp_if_expr_31;
+  _Bool tmp_if_expr_36;
+  _Bool tmp_if_expr_35;
+  _Bool tmp_if_expr_34;
+  if(tmp_if_expr_45)
   {
     *nrects = 0;
     return 1;
@@ -7365,21 +7365,21 @@ static signed int rmdCollideRects(struct anonymous$17 *xrect1, struct anonymous$
   else
   {
     if((signed int)xrect2->x >= (signed int)xrect1->x)
-      tmp_if_expr$40 = (signed int)xrect2->x + (signed int)xrect2->width <= (signed int)xrect1->x + (signed int)xrect1->width ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_40 = (signed int)xrect2->x + (signed int)xrect2->width <= (signed int)xrect1->x + (signed int)xrect1->width ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$40 = (_Bool)0;
-    if(tmp_if_expr$40)
-      tmp_if_expr$41 = (signed int)xrect2->y >= (signed int)xrect1->y ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_40 = (_Bool)0;
+    if(tmp_if_expr_40)
+      tmp_if_expr_41 = (signed int)xrect2->y >= (signed int)xrect1->y ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$41 = (_Bool)0;
-    if(tmp_if_expr$41)
-      tmp_if_expr$42 = (signed int)xrect2->y + (signed int)xrect2->height <= (signed int)xrect1->y + (signed int)xrect1->height ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_41 = (_Bool)0;
+    if(tmp_if_expr_41)
+      tmp_if_expr_42 = (signed int)xrect2->y + (signed int)xrect2->height <= (signed int)xrect1->y + (signed int)xrect1->height ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$42 = (_Bool)0;
-    if(tmp_if_expr$42)
+      tmp_if_expr_42 = (_Bool)0;
+    if(tmp_if_expr_42)
     {
       *nrects = 0;
       return 2;
@@ -7388,21 +7388,21 @@ static signed int rmdCollideRects(struct anonymous$17 *xrect1, struct anonymous$
     else
     {
       if(!((signed int)xrect1->x + (signed int)xrect1->width >= (signed int)xrect2->x))
-        tmp_if_expr$37 = (_Bool)1;
+        tmp_if_expr_37 = (_Bool)1;
 
       else
-        tmp_if_expr$37 = (signed int)xrect2->x + (signed int)xrect2->width < (signed int)xrect1->x ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$37)
-        tmp_if_expr$38 = (_Bool)1;
+        tmp_if_expr_37 = (signed int)xrect2->x + (signed int)xrect2->width < (signed int)xrect1->x ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_37)
+        tmp_if_expr_38 = (_Bool)1;
 
       else
-        tmp_if_expr$38 = (signed int)xrect1->y + (signed int)xrect1->height < (signed int)xrect2->y ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$38)
-        tmp_if_expr$39 = (_Bool)1;
+        tmp_if_expr_38 = (signed int)xrect1->y + (signed int)xrect1->height < (signed int)xrect2->y ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_38)
+        tmp_if_expr_39 = (_Bool)1;
 
       else
-        tmp_if_expr$39 = (signed int)xrect2->y + (signed int)xrect2->height < (signed int)xrect1->y ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$39)
+        tmp_if_expr_39 = (signed int)xrect2->y + (signed int)xrect2->height < (signed int)xrect1->y ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_39)
       {
         *nrects = 0;
         return 0;
@@ -7418,148 +7418,148 @@ static signed int rmdCollideRects(struct anonymous$17 *xrect1, struct anonymous$
         signed int tot1;
         signed int tot2;
         if(x1[0l] >= x2[0l])
-          tmp_if_expr$1 = x1[(signed long int)0] <= x2[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = x1[(signed long int)0] <= x2[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
-          tmp_if_expr$2 = y1[(signed long int)0] >= y2[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
+          tmp_if_expr_2 = y1[(signed long int)0] >= y2[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$2 = (_Bool)0;
-        if(tmp_if_expr$2)
-          tmp_if_expr$3 = y1[(signed long int)0] <= y2[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_2 = (_Bool)0;
+        if(tmp_if_expr_2)
+          tmp_if_expr_3 = y1[(signed long int)0] <= y2[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$3 = (_Bool)0;
-        enclosed[(signed long int)0][(signed long int)0] = tmp_if_expr$3 ? 1 : 0;
+          tmp_if_expr_3 = (_Bool)0;
+        enclosed[(signed long int)0][(signed long int)0] = tmp_if_expr_3 ? 1 : 0;
         if(x1[1l] >= x2[0l])
-          tmp_if_expr$4 = x1[(signed long int)1] <= x2[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = x1[(signed long int)1] <= x2[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$4 = (_Bool)0;
-        if(tmp_if_expr$4)
-          tmp_if_expr$5 = y1[(signed long int)0] >= y2[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_4 = (_Bool)0;
+        if(tmp_if_expr_4)
+          tmp_if_expr_5 = y1[(signed long int)0] >= y2[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$5 = (_Bool)0;
-        if(tmp_if_expr$5)
-          tmp_if_expr$6 = y1[(signed long int)0] <= y2[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_5 = (_Bool)0;
+        if(tmp_if_expr_5)
+          tmp_if_expr_6 = y1[(signed long int)0] <= y2[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        enclosed[(signed long int)0][(signed long int)1] = tmp_if_expr$6 ? 1 : 0;
+          tmp_if_expr_6 = (_Bool)0;
+        enclosed[(signed long int)0][(signed long int)1] = tmp_if_expr_6 ? 1 : 0;
         if(x1[0l] >= x2[0l])
-          tmp_if_expr$7 = x1[(signed long int)0] <= x2[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = x1[(signed long int)0] <= x2[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$7 = (_Bool)0;
-        if(tmp_if_expr$7)
-          tmp_if_expr$8 = y1[(signed long int)1] >= y2[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_7 = (_Bool)0;
+        if(tmp_if_expr_7)
+          tmp_if_expr_8 = y1[(signed long int)1] >= y2[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$8 = (_Bool)0;
-        if(tmp_if_expr$8)
-          tmp_if_expr$9 = y1[(signed long int)1] <= y2[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_8 = (_Bool)0;
+        if(tmp_if_expr_8)
+          tmp_if_expr_9 = y1[(signed long int)1] <= y2[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        enclosed[(signed long int)0][(signed long int)2] = tmp_if_expr$9 ? 1 : 0;
+          tmp_if_expr_9 = (_Bool)0;
+        enclosed[(signed long int)0][(signed long int)2] = tmp_if_expr_9 ? 1 : 0;
         if(x1[1l] >= x2[0l])
-          tmp_if_expr$10 = x1[(signed long int)1] <= x2[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_10 = x1[(signed long int)1] <= x2[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$10 = (_Bool)0;
-        if(tmp_if_expr$10)
-          tmp_if_expr$11 = y1[(signed long int)1] >= y2[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_10 = (_Bool)0;
+        if(tmp_if_expr_10)
+          tmp_if_expr_11 = y1[(signed long int)1] >= y2[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$11 = (_Bool)0;
-        if(tmp_if_expr$11)
-          tmp_if_expr$12 = y1[(signed long int)1] <= y2[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_11 = (_Bool)0;
+        if(tmp_if_expr_11)
+          tmp_if_expr_12 = y1[(signed long int)1] <= y2[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$12 = (_Bool)0;
-        enclosed[(signed long int)0][(signed long int)3] = tmp_if_expr$12 ? 1 : 0;
+          tmp_if_expr_12 = (_Bool)0;
+        enclosed[(signed long int)0][(signed long int)3] = tmp_if_expr_12 ? 1 : 0;
         if(x2[0l] >= x1[0l])
-          tmp_if_expr$13 = x2[(signed long int)0] <= x1[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_13 = x2[(signed long int)0] <= x1[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$13 = (_Bool)0;
-        if(tmp_if_expr$13)
-          tmp_if_expr$14 = y2[(signed long int)0] >= y1[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_13 = (_Bool)0;
+        if(tmp_if_expr_13)
+          tmp_if_expr_14 = y2[(signed long int)0] >= y1[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$14 = (_Bool)0;
-        if(tmp_if_expr$14)
-          tmp_if_expr$15 = y2[(signed long int)0] <= y1[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_14 = (_Bool)0;
+        if(tmp_if_expr_14)
+          tmp_if_expr_15 = y2[(signed long int)0] <= y1[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$15 = (_Bool)0;
-        enclosed[(signed long int)1][(signed long int)0] = tmp_if_expr$15 ? 1 : 0;
+          tmp_if_expr_15 = (_Bool)0;
+        enclosed[(signed long int)1][(signed long int)0] = tmp_if_expr_15 ? 1 : 0;
         if(x2[1l] >= x1[0l])
-          tmp_if_expr$16 = x2[(signed long int)1] <= x1[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_16 = x2[(signed long int)1] <= x1[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$16 = (_Bool)0;
-        if(tmp_if_expr$16)
-          tmp_if_expr$17 = y2[(signed long int)0] >= y1[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_16 = (_Bool)0;
+        if(tmp_if_expr_16)
+          tmp_if_expr_17 = y2[(signed long int)0] >= y1[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$17 = (_Bool)0;
-        if(tmp_if_expr$17)
-          tmp_if_expr$18 = y2[(signed long int)0] <= y1[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_17 = (_Bool)0;
+        if(tmp_if_expr_17)
+          tmp_if_expr_18 = y2[(signed long int)0] <= y1[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$18 = (_Bool)0;
-        enclosed[(signed long int)1][(signed long int)1] = tmp_if_expr$18 ? 1 : 0;
+          tmp_if_expr_18 = (_Bool)0;
+        enclosed[(signed long int)1][(signed long int)1] = tmp_if_expr_18 ? 1 : 0;
         if(x2[0l] >= x1[0l])
-          tmp_if_expr$19 = x2[(signed long int)0] <= x1[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_19 = x2[(signed long int)0] <= x1[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$19 = (_Bool)0;
-        if(tmp_if_expr$19)
-          tmp_if_expr$20 = y2[(signed long int)1] >= y1[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_19 = (_Bool)0;
+        if(tmp_if_expr_19)
+          tmp_if_expr_20 = y2[(signed long int)1] >= y1[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$20 = (_Bool)0;
-        if(tmp_if_expr$20)
-          tmp_if_expr$21 = y2[(signed long int)1] <= y1[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_20 = (_Bool)0;
+        if(tmp_if_expr_20)
+          tmp_if_expr_21 = y2[(signed long int)1] <= y1[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$21 = (_Bool)0;
-        enclosed[(signed long int)1][(signed long int)2] = tmp_if_expr$21 ? 1 : 0;
+          tmp_if_expr_21 = (_Bool)0;
+        enclosed[(signed long int)1][(signed long int)2] = tmp_if_expr_21 ? 1 : 0;
         if(x2[1l] >= x1[0l])
-          tmp_if_expr$22 = x2[(signed long int)1] <= x1[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_22 = x2[(signed long int)1] <= x1[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$22 = (_Bool)0;
-        if(tmp_if_expr$22)
-          tmp_if_expr$23 = y2[(signed long int)1] >= y1[(signed long int)0] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_22 = (_Bool)0;
+        if(tmp_if_expr_22)
+          tmp_if_expr_23 = y2[(signed long int)1] >= y1[(signed long int)0] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$23 = (_Bool)0;
-        if(tmp_if_expr$23)
-          tmp_if_expr$24 = y2[(signed long int)1] <= y1[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_23 = (_Bool)0;
+        if(tmp_if_expr_23)
+          tmp_if_expr_24 = y2[(signed long int)1] <= y1[(signed long int)1] ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$24 = (_Bool)0;
-        enclosed[(signed long int)1][(signed long int)3] = tmp_if_expr$24 ? 1 : 0;
+          tmp_if_expr_24 = (_Bool)0;
+        enclosed[(signed long int)1][(signed long int)3] = tmp_if_expr_24 ? 1 : 0;
         tot1 = enclosed[(signed long int)0][(signed long int)0] + enclosed[(signed long int)0][(signed long int)1] + enclosed[(signed long int)0][(signed long int)2] + enclosed[(signed long int)0][(signed long int)3];
         tot2 = enclosed[(signed long int)1][(signed long int)0] + enclosed[(signed long int)1][(signed long int)1] + enclosed[(signed long int)1][(signed long int)2] + enclosed[(signed long int)1][(signed long int)3];
         if(tot1 == 2 && tot2 == 2)
         {
           if(!(enclosed[1l][0l] == 0))
-            tmp_if_expr$29 = enclosed[(signed long int)1][(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_29 = enclosed[(signed long int)1][(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$29 = (_Bool)0;
-          if(tmp_if_expr$29)
-            tmp_if_expr$30 = xrect1->width == xrect2->width ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_29 = (_Bool)0;
+          if(tmp_if_expr_29)
+            tmp_if_expr_30 = xrect1->width == xrect2->width ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$30 = (_Bool)0;
-          if(tmp_if_expr$30)
+            tmp_if_expr_30 = (_Bool)0;
+          if(tmp_if_expr_30)
           {
             *nrects = 1;
             (xrect_return + (signed long int)0)->x = xrect1->x;
@@ -7572,16 +7572,16 @@ static signed int rmdCollideRects(struct anonymous$17 *xrect1, struct anonymous$
           else
           {
             if(!(enclosed[1l][0l] == 0))
-              tmp_if_expr$27 = enclosed[(signed long int)1][(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_27 = enclosed[(signed long int)1][(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$27 = (_Bool)0;
-            if(tmp_if_expr$27)
-              tmp_if_expr$28 = xrect1->height == xrect2->height ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_27 = (_Bool)0;
+            if(tmp_if_expr_27)
+              tmp_if_expr_28 = xrect1->height == xrect2->height ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$28 = (_Bool)0;
-            if(tmp_if_expr$28)
+              tmp_if_expr_28 = (_Bool)0;
+            if(tmp_if_expr_28)
             {
               *nrects = 1;
               (xrect_return + (signed long int)0)->x = xrect1->x;
@@ -7594,16 +7594,16 @@ static signed int rmdCollideRects(struct anonymous$17 *xrect1, struct anonymous$
             else
             {
               if(!(enclosed[1l][3l] == 0))
-                tmp_if_expr$25 = enclosed[(signed long int)1][(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_25 = enclosed[(signed long int)1][(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$25 = (_Bool)0;
-              if(tmp_if_expr$25)
-                tmp_if_expr$26 = xrect1->height == xrect2->height ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_25 = (_Bool)0;
+              if(tmp_if_expr_25)
+                tmp_if_expr_26 = xrect1->height == xrect2->height ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$26 = (_Bool)0;
-              if(tmp_if_expr$26)
+                tmp_if_expr_26 = (_Bool)0;
+              if(tmp_if_expr_26)
               {
                 *nrects = 1;
                 (xrect_return + (signed long int)0)->x = xrect2->x;
@@ -7644,11 +7644,11 @@ static signed int rmdCollideRects(struct anonymous$17 *xrect1, struct anonymous$
           (xrect_return + (signed long int)0)->height = xrect2->height;
           *nrects = 1;
           if(!(enclosed[1l][0l] == 0))
-            tmp_if_expr$33 = enclosed[(signed long int)1][(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_33 = enclosed[(signed long int)1][(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$33 = (_Bool)0;
-          if(tmp_if_expr$33)
+            tmp_if_expr_33 = (_Bool)0;
+          if(tmp_if_expr_33)
           {
             (xrect_return + (signed long int)0)->y = (signed short int)y1[(signed long int)1];
             (xrect_return + (signed long int)0)->height = (xrect_return + (signed long int)0)->height - (unsigned short int)(y1[(signed long int)1] - y2[(signed long int)0]);
@@ -7657,11 +7657,11 @@ static signed int rmdCollideRects(struct anonymous$17 *xrect1, struct anonymous$
           else
           {
             if(!(enclosed[1l][0l] == 0))
-              tmp_if_expr$32 = enclosed[(signed long int)1][(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_32 = enclosed[(signed long int)1][(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$32 = (_Bool)0;
-            if(tmp_if_expr$32)
+              tmp_if_expr_32 = (_Bool)0;
+            if(tmp_if_expr_32)
             {
               (xrect_return + (signed long int)0)->x = (signed short int)x1[(signed long int)1];
               (xrect_return + (signed long int)0)->width = (xrect_return + (signed long int)0)->width - (unsigned short int)(x1[(signed long int)1] - x2[(signed long int)0]);
@@ -7670,11 +7670,11 @@ static signed int rmdCollideRects(struct anonymous$17 *xrect1, struct anonymous$
             else
             {
               if(!(enclosed[1l][3l] == 0))
-                tmp_if_expr$31 = enclosed[(signed long int)1][(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_31 = enclosed[(signed long int)1][(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$31 = (_Bool)0;
-              if(tmp_if_expr$31)
+                tmp_if_expr_31 = (_Bool)0;
+              if(tmp_if_expr_31)
                 (xrect_return + (signed long int)0)->width = (xrect_return + (signed long int)0)->width - (unsigned short int)(x2[(signed long int)1] - x1[(signed long int)0]);
 
               else
@@ -7703,11 +7703,11 @@ static signed int rmdCollideRects(struct anonymous$17 *xrect1, struct anonymous$
             (xrect_return + (signed long int)0)->height = xrect1->height;
             *nrects = 1;
             if(!(enclosed[0l][0l] == 0))
-              tmp_if_expr$36 = enclosed[(signed long int)0][(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_36 = enclosed[(signed long int)0][(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$36 = (_Bool)0;
-            if(tmp_if_expr$36)
+              tmp_if_expr_36 = (_Bool)0;
+            if(tmp_if_expr_36)
             {
               (xrect_return + (signed long int)0)->y = (signed short int)y2[(signed long int)1];
               (xrect_return + (signed long int)0)->height = (xrect_return + (signed long int)0)->height - (unsigned short int)(y2[(signed long int)1] - y1[(signed long int)0]);
@@ -7716,11 +7716,11 @@ static signed int rmdCollideRects(struct anonymous$17 *xrect1, struct anonymous$
             else
             {
               if(!(enclosed[0l][0l] == 0))
-                tmp_if_expr$35 = enclosed[(signed long int)0][(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_35 = enclosed[(signed long int)0][(signed long int)2] != 0 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$35 = (_Bool)0;
-              if(tmp_if_expr$35)
+                tmp_if_expr_35 = (_Bool)0;
+              if(tmp_if_expr_35)
               {
                 (xrect_return + (signed long int)0)->x = (signed short int)x2[(signed long int)1];
                 (xrect_return + (signed long int)0)->width = (xrect_return + (signed long int)0)->width - (unsigned short int)(x2[(signed long int)1] - x1[(signed long int)0]);
@@ -7729,11 +7729,11 @@ static signed int rmdCollideRects(struct anonymous$17 *xrect1, struct anonymous$
               else
               {
                 if(!(enclosed[0l][3l] == 0))
-                  tmp_if_expr$34 = enclosed[(signed long int)0][(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_34 = enclosed[(signed long int)0][(signed long int)1] != 0 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$34 = (_Bool)0;
-                if(tmp_if_expr$34)
+                  tmp_if_expr_34 = (_Bool)0;
+                if(tmp_if_expr_34)
                   (xrect_return + (signed long int)0)->width = (xrect_return + (signed long int)0)->width - (unsigned short int)(x1[(signed long int)1] - x2[(signed long int)0]);
 
                 else
@@ -7845,14 +7845,14 @@ static signed int rmdCollideRects(struct anonymous$17 *xrect1, struct anonymous$
 void rmdDrawFrame(struct _XDisplay *dpy, signed int screen, unsigned long int win, signed int width, signed int height)
 {
   struct _XGC *gc;
-  struct anonymous$16 gcv;
-  struct anonymous$18 white;
-  struct anonymous$18 white_e;
-  struct anonymous$18 black;
-  struct anonymous$18 black_e;
+  struct anonymous_16 gcv;
+  struct anonymous_18 white;
+  struct anonymous_18 white_e;
+  struct anonymous_18 black;
+  struct anonymous_18 black_e;
   unsigned long int gcmask = (unsigned long int)(1L << 2);
-  XAllocNamedColor(dpy, (&((struct anonymous$146 *)dpy)->screens[(signed long int)screen])->cmap, "white", &white, &white_e);
-  XAllocNamedColor(dpy, (&((struct anonymous$146 *)dpy)->screens[(signed long int)screen])->cmap, "black", &black, &black_e);
+  XAllocNamedColor(dpy, (&((struct anonymous_146 *)dpy)->screens[(signed long int)screen])->cmap, "white", &white, &white_e);
+  XAllocNamedColor(dpy, (&((struct anonymous_146 *)dpy)->screens[(signed long int)screen])->cmap, "black", &black, &black_e);
   gcv.foreground = black.pixel;
   gc=XCreateGC(dpy, win, gcmask, &gcv);
   XFillRectangle(dpy, win, gc, 1, 1, (unsigned int)(width + (6 - 1) * 2), (unsigned int)(height + (6 - 1) * 2));
@@ -7905,9 +7905,9 @@ void * rmdEncodeImageBuffer(struct _ProgData *pdata)
     }
 
     pthread_mutex_lock(&pdata->yuv_mutex);
-    signed int return_value_theora_encode_YUVin$2;
-    return_value_theora_encode_YUVin$2=theora_encode_YUVin(&pdata->enc_data->m_th_st, &pdata->enc_data->yuv);
-    if(!(return_value_theora_encode_YUVin$2 == 0))
+    signed int return_value_theora_encode_YUVin_2;
+    return_value_theora_encode_YUVin_2=theora_encode_YUVin(&pdata->enc_data->m_th_st, &pdata->enc_data->yuv);
+    if(!(return_value_theora_encode_YUVin_2 == 0))
     {
       fprintf(stderr, "Encoder not ready!\n");
       pthread_mutex_unlock(&pdata->yuv_mutex);
@@ -7916,9 +7916,9 @@ void * rmdEncodeImageBuffer(struct _ProgData *pdata)
     else
     {
       pthread_mutex_unlock(&pdata->yuv_mutex);
-      signed int return_value_theora_encode_packetout$1;
-      return_value_theora_encode_packetout$1=theora_encode_packetout(&pdata->enc_data->m_th_st, 0, &pdata->enc_data->m_ogg_pckt1);
-      if(return_value_theora_encode_packetout$1 == 1)
+      signed int return_value_theora_encode_packetout_1;
+      return_value_theora_encode_packetout_1=theora_encode_packetout(&pdata->enc_data->m_th_st, 0, &pdata->enc_data->m_ogg_pckt1);
+      if(return_value_theora_encode_packetout_1 == 1)
       {
         pthread_mutex_lock(&pdata->libogg_mutex);
         ogg_stream_packetin(&pdata->enc_data->m_ogg_ts, &pdata->enc_data->m_ogg_pckt1);
@@ -7933,9 +7933,9 @@ void * rmdEncodeImageBuffer(struct _ProgData *pdata)
   pthread_mutex_lock(&pdata->theora_lib_mutex);
   pthread_cond_signal(&pdata->theora_lib_clean);
   pthread_mutex_unlock(&pdata->theora_lib_mutex);
-  signed int *return_value___errno_location$3;
-  return_value___errno_location$3=__errno_location();
-  pthread_exit((void *)&(*return_value___errno_location$3));
+  signed int *return_value___errno_location_3;
+  return_value___errno_location_3=__errno_location();
+  pthread_exit((void *)&(*return_value___errno_location_3));
 }
 
 // rmdEncodeSoundBuffer
@@ -7948,9 +7948,9 @@ void * rmdEncodeSoundBuffer(struct _ProgData *pdata)
     jackbuf=malloc((unsigned long int)((unsigned int)pdata->sound_framesize * pdata->jdata->buffersize));
 
   pdata->v_encoding_clean = 0;
-  _Bool tmp_if_expr$1;
-  signed int return_value_vorbis_analysis_blockout$2;
-  signed int return_value_vorbis_bitrate_flushpacket$3;
+  _Bool tmp_if_expr_1;
+  signed int return_value_vorbis_analysis_blockout_2;
+  signed int return_value_vorbis_bitrate_flushpacket_3;
   while(!(pdata->running == 0))
   {
     float **vorbis_buffer;
@@ -7977,11 +7977,11 @@ void * rmdEncodeSoundBuffer(struct _ProgData *pdata)
       }
 
       if(pdata->sound_buffer == ((struct _SndBuffer *)NULL))
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = !(pdata->running != 0) ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = !(pdata->running != 0) ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
         break;
 
       pthread_mutex_lock(&pdata->sound_buffer_mutex);
@@ -8041,16 +8041,16 @@ void * rmdEncodeSoundBuffer(struct _ProgData *pdata)
     pthread_mutex_lock(&pdata->libogg_mutex);
     do
     {
-      return_value_vorbis_analysis_blockout$2=vorbis_analysis_blockout(&pdata->enc_data->m_vo_dsp, &pdata->enc_data->m_vo_block);
-      if(!(return_value_vorbis_analysis_blockout$2 == 1))
+      return_value_vorbis_analysis_blockout_2=vorbis_analysis_blockout(&pdata->enc_data->m_vo_dsp, &pdata->enc_data->m_vo_block);
+      if(!(return_value_vorbis_analysis_blockout_2 == 1))
         break;
 
-      vorbis_analysis(&pdata->enc_data->m_vo_block, (struct anonymous$126 *)(void *)0);
+      vorbis_analysis(&pdata->enc_data->m_vo_block, (struct anonymous_126 *)(void *)0);
       vorbis_bitrate_addblock(&pdata->enc_data->m_vo_block);
       do
       {
-        return_value_vorbis_bitrate_flushpacket$3=vorbis_bitrate_flushpacket(&pdata->enc_data->m_vo_dsp, &pdata->enc_data->m_ogg_pckt2);
-        if(return_value_vorbis_bitrate_flushpacket$3 == 0)
+        return_value_vorbis_bitrate_flushpacket_3=vorbis_bitrate_flushpacket(&pdata->enc_data->m_vo_dsp, &pdata->enc_data->m_ogg_pckt2);
+        if(return_value_vorbis_bitrate_flushpacket_3 == 0)
           break;
 
         ogg_stream_packetin(&pdata->enc_data->m_ogg_vs, &pdata->enc_data->m_ogg_pckt2);
@@ -8065,27 +8065,27 @@ void * rmdEncodeSoundBuffer(struct _ProgData *pdata)
   pthread_mutex_lock(&pdata->vorbis_lib_mutex);
   pthread_cond_signal(&pdata->vorbis_lib_clean);
   pthread_mutex_unlock(&pdata->vorbis_lib_mutex);
-  signed int *return_value___errno_location$4;
-  return_value___errno_location$4=__errno_location();
-  pthread_exit((void *)&(*return_value___errno_location$4));
+  signed int *return_value___errno_location_4;
+  return_value___errno_location_4=__errno_location();
+  pthread_exit((void *)&(*return_value___errno_location_4));
 }
 
 // rmdErrorHandler
 // file rmd_error.h line 46
-signed int rmdErrorHandler(struct _XDisplay *dpy, struct anonymous$118 *e)
+signed int rmdErrorHandler(struct _XDisplay *dpy, struct anonymous_118 *e)
 {
   char error_desc[1024l];
   XGetErrorText(dpy, (signed int)e->error_code, error_desc, (signed int)sizeof(char [1024l]) /*1024ul*/ );
   fprintf(stderr, "X Error: %s\n", (const void *)error_desc);
   fflush(stderr);
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if((signed int)e->error_code == 3)
-    tmp_if_expr$2 = (signed int)e->request_code == 3 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_2 = (signed int)e->request_code == 3 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$2 = (_Bool)0;
-  _Bool tmp_if_expr$1;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = (_Bool)0;
+  _Bool tmp_if_expr_1;
+  if(tmp_if_expr_2)
   {
     fprintf(stderr, "BadWindow on XGetWindowAttributes.\nIgnoring...\n");
     fflush(stderr);
@@ -8095,11 +8095,11 @@ signed int rmdErrorHandler(struct _XDisplay *dpy, struct anonymous$118 *e)
   else
   {
     if((signed int)e->error_code == 10)
-      tmp_if_expr$1 = (signed int)e->request_code == 33 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_1 = (signed int)e->request_code == 33 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$1 = (_Bool)0;
-    if(tmp_if_expr$1)
+      tmp_if_expr_1 = (_Bool)0;
+    if(tmp_if_expr_1)
     {
       fprintf(stderr, "Bad Access on XGrabKey.\nShortcut already assigned.\n");
       fflush(stderr);
@@ -8117,40 +8117,40 @@ void rmdEventLoop(struct _ProgData *pdata)
 {
   signed int inserts = 0;
   union _XEvent event;
-  signed int return_value_XPending$1;
-  signed int return_value_XGetWindowAttributes$2;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$16;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$3;
-  signed int tmp_if_expr$5;
-  signed int tmp_if_expr$4;
-  _Bool tmp_if_expr$6;
-  signed int tmp_if_expr$8;
-  signed int tmp_if_expr$7;
-  signed int tmp_if_expr$11;
-  signed int tmp_if_expr$10;
-  signed int tmp_if_expr$9;
-  signed int tmp_if_expr$14;
-  signed int tmp_if_expr$13;
-  signed int tmp_if_expr$12;
+  signed int return_value_XPending_1;
+  signed int return_value_XGetWindowAttributes_2;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_16;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_3;
+  signed int tmp_if_expr_5;
+  signed int tmp_if_expr_4;
+  _Bool tmp_if_expr_6;
+  signed int tmp_if_expr_8;
+  signed int tmp_if_expr_7;
+  signed int tmp_if_expr_11;
+  signed int tmp_if_expr_10;
+  signed int tmp_if_expr_9;
+  signed int tmp_if_expr_14;
+  signed int tmp_if_expr_13;
+  signed int tmp_if_expr_12;
   do
   {
-    return_value_XPending$1=XPending(pdata->dpy);
-    if(return_value_XPending$1 == 0)
+    return_value_XPending_1=XPending(pdata->dpy);
+    if(return_value_XPending_1 == 0)
       break;
 
     XNextEvent(pdata->dpy, &event);
     if(event.type == 2)
     {
-      struct anonymous$0 *rmdEventLoop$$1$$1$$1$$e = (struct anonymous$0 *)&event;
-      if(rmdEventLoop$$1$$1$$1$$e->keycode == (unsigned int)pdata->pause_key.key)
+      struct anonymous_0 *rmdEventLoop__1__1__1__e = (struct anonymous_0 *)&event;
+      if(rmdEventLoop__1__1__1__e->keycode == (unsigned int)pdata->pause_key.key)
       {
         signed int i = 0;
         signed int found = 0;
         i = 0;
         for( ; !(i >= pdata->pause_key.modnum); i = i + 1)
-          if(pdata->pause_key.mask[(signed long int)i] == rmdEventLoop$$1$$1$$1$$e->state)
+          if(pdata->pause_key.mask[(signed long int)i] == rmdEventLoop__1__1__1__e->state)
           {
             found = 1;
             break;
@@ -8164,19 +8164,19 @@ void rmdEventLoop(struct _ProgData *pdata)
 
       }
 
-      if(rmdEventLoop$$1$$1$$1$$e->keycode == (unsigned int)pdata->stop_key.key)
+      if(rmdEventLoop__1__1__1__e->keycode == (unsigned int)pdata->stop_key.key)
       {
-        signed int rmdEventLoop$$1$$1$$1$$2$$i = 0;
-        signed int rmdEventLoop$$1$$1$$1$$2$$found = 0;
-        rmdEventLoop$$1$$1$$1$$2$$i = 0;
-        for( ; !(rmdEventLoop$$1$$1$$1$$2$$i >= pdata->stop_key.modnum); rmdEventLoop$$1$$1$$1$$2$$i = rmdEventLoop$$1$$1$$1$$2$$i + 1)
-          if(pdata->stop_key.mask[(signed long int)rmdEventLoop$$1$$1$$1$$2$$i] == rmdEventLoop$$1$$1$$1$$e->state)
+        signed int rmdEventLoop__1__1__1__2__i = 0;
+        signed int rmdEventLoop__1__1__1__2__found = 0;
+        rmdEventLoop__1__1__1__2__i = 0;
+        for( ; !(rmdEventLoop__1__1__1__2__i >= pdata->stop_key.modnum); rmdEventLoop__1__1__1__2__i = rmdEventLoop__1__1__1__2__i + 1)
+          if(pdata->stop_key.mask[(signed long int)rmdEventLoop__1__1__1__2__i] == rmdEventLoop__1__1__1__e->state)
           {
-            rmdEventLoop$$1$$1$$1$$2$$found = 1;
+            rmdEventLoop__1__1__1__2__found = 1;
             break;
           }
 
-        if(!(rmdEventLoop$$1$$1$$1$$2$$found == 0))
+        if(!(rmdEventLoop__1__1__1__2__found == 0))
         {
           raise(2);
           continue;
@@ -8204,10 +8204,10 @@ void rmdEventLoop(struct _ProgData *pdata)
           if(event.type == 19)
           {
             struct anonymous attribs;
-            if(((struct anonymous$104 *)&event)->override_redirect == 0)
+            if(((struct anonymous_104 *)&event)->override_redirect == 0)
             {
-              return_value_XGetWindowAttributes$2=XGetWindowAttributes(pdata->dpy, event.xcreatewindow.window, &attribs);
-              if(!(return_value_XGetWindowAttributes$2 == 0))
+              return_value_XGetWindowAttributes_2=XGetWindowAttributes(pdata->dpy, event.xcreatewindow.window, &attribs);
+              if(!(return_value_XGetWindowAttributes_2 == 0))
               {
                 if(attribs.override_redirect == 0)
                 {
@@ -8225,24 +8225,24 @@ void rmdEventLoop(struct _ProgData *pdata)
           else
             if(event.type == pdata->damage_event)
             {
-              struct anonymous$1 *e = (struct anonymous$1 *)&event;
-              struct anonymous$17 xrect;
+              struct anonymous_1 *e = (struct anonymous_1 *)&event;
+              struct anonymous_17 xrect;
               if((signed int)pdata->brwin.rrect.x >= (signed int)e->area.x)
-                tmp_if_expr$15 = (signed int)e->area.y <= (signed int)(&pdata->brwin)->rrect.y ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_15 = (signed int)e->area.y <= (signed int)(&pdata->brwin)->rrect.y ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$15 = (_Bool)0;
-              if(tmp_if_expr$15)
-                tmp_if_expr$16 = (signed int)e->area.width >= (signed int)(&pdata->brwin)->rrect.width ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_15 = (_Bool)0;
+              if(tmp_if_expr_15)
+                tmp_if_expr_16 = (signed int)e->area.width >= (signed int)(&pdata->brwin)->rrect.width ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$16 = (_Bool)0;
-              if(tmp_if_expr$16)
-                tmp_if_expr$17 = (signed int)e->area.height < (signed int)(&pdata->brwin)->rrect.height ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_16 = (_Bool)0;
+              if(tmp_if_expr_16)
+                tmp_if_expr_17 = (signed int)e->area.height < (signed int)(&pdata->brwin)->rrect.height ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$17 = (_Bool)0;
-              if(tmp_if_expr$17)
+                tmp_if_expr_17 = (_Bool)0;
+              if(tmp_if_expr_17)
               {
                 (&xrect)->x = (&pdata->brwin)->rrect.x;
                 (&xrect)->y = (&pdata->brwin)->rrect.y;
@@ -8253,81 +8253,81 @@ void rmdEventLoop(struct _ProgData *pdata)
               else
               {
                 if((signed int)e->area.x + (signed int)e->area.width >= (signed int)pdata->brwin.rrect.x)
-                  tmp_if_expr$3 = (signed int)e->area.x <= (signed int)(&pdata->brwin)->rrect.x + (signed int)(&pdata->brwin)->rrect.width ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_3 = (signed int)e->area.x <= (signed int)(&pdata->brwin)->rrect.x + (signed int)(&pdata->brwin)->rrect.width ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$3 = (_Bool)0;
-                if(tmp_if_expr$3)
+                  tmp_if_expr_3 = (_Bool)0;
+                if(tmp_if_expr_3)
                 {
                   if((signed int)pdata->brwin.rrect.x >= (signed int)e->area.x)
-                    tmp_if_expr$4 = (signed int)(&pdata->brwin)->rrect.x;
+                    tmp_if_expr_4 = (signed int)(&pdata->brwin)->rrect.x;
 
                   else
-                    tmp_if_expr$4 = (signed int)e->area.x;
-                  tmp_if_expr$5 = tmp_if_expr$4;
+                    tmp_if_expr_4 = (signed int)e->area.x;
+                  tmp_if_expr_5 = tmp_if_expr_4;
                 }
 
                 else
-                  tmp_if_expr$5 = -1;
-                (&xrect)->x = (signed short int)tmp_if_expr$5;
+                  tmp_if_expr_5 = -1;
+                (&xrect)->x = (signed short int)tmp_if_expr_5;
                 if((signed int)e->area.y + (signed int)e->area.height >= (signed int)pdata->brwin.rrect.y)
-                  tmp_if_expr$6 = (signed int)e->area.y <= (signed int)(&pdata->brwin)->rrect.y + (signed int)(&pdata->brwin)->rrect.height ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_6 = (signed int)e->area.y <= (signed int)(&pdata->brwin)->rrect.y + (signed int)(&pdata->brwin)->rrect.height ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$6 = (_Bool)0;
-                if(tmp_if_expr$6)
+                  tmp_if_expr_6 = (_Bool)0;
+                if(tmp_if_expr_6)
                 {
                   if((signed int)pdata->brwin.rrect.y >= (signed int)e->area.y)
-                    tmp_if_expr$7 = (signed int)(&pdata->brwin)->rrect.y;
+                    tmp_if_expr_7 = (signed int)(&pdata->brwin)->rrect.y;
 
                   else
-                    tmp_if_expr$7 = (signed int)e->area.y;
-                  tmp_if_expr$8 = tmp_if_expr$7;
+                    tmp_if_expr_7 = (signed int)e->area.y;
+                  tmp_if_expr_8 = tmp_if_expr_7;
                 }
 
                 else
-                  tmp_if_expr$8 = -1;
-                (&xrect)->y = (signed short int)tmp_if_expr$8;
+                  tmp_if_expr_8 = -1;
+                (&xrect)->y = (signed short int)tmp_if_expr_8;
                 if((signed int)pdata->brwin.rrect.x >= (signed int)e->area.x)
-                  tmp_if_expr$11 = (signed int)e->area.width - ((signed int)(&pdata->brwin)->rrect.x - (signed int)e->area.x);
+                  tmp_if_expr_11 = (signed int)e->area.width - ((signed int)(&pdata->brwin)->rrect.x - (signed int)e->area.x);
 
                 else
                 {
                   if((signed int)pdata->brwin.rrect.x + (signed int)pdata->brwin.rrect.width >= (signed int)e->area.x)
                   {
                     if(!((signed int)pdata->brwin.rrect.x + (signed int)pdata->brwin.rrect.width + -((signed int)e->area.x) >= (signed int)e->area.width))
-                      tmp_if_expr$9 = ((signed int)(&pdata->brwin)->rrect.width - (signed int)e->area.x) + (signed int)(&pdata->brwin)->rrect.x;
+                      tmp_if_expr_9 = ((signed int)(&pdata->brwin)->rrect.width - (signed int)e->area.x) + (signed int)(&pdata->brwin)->rrect.x;
 
                     else
-                      tmp_if_expr$9 = (signed int)e->area.width;
-                    tmp_if_expr$10 = tmp_if_expr$9;
+                      tmp_if_expr_9 = (signed int)e->area.width;
+                    tmp_if_expr_10 = tmp_if_expr_9;
                   }
 
                   else
-                    tmp_if_expr$10 = 0;
-                  tmp_if_expr$11 = tmp_if_expr$10;
+                    tmp_if_expr_10 = 0;
+                  tmp_if_expr_11 = tmp_if_expr_10;
                 }
-                (&xrect)->width = (unsigned short int)tmp_if_expr$11;
+                (&xrect)->width = (unsigned short int)tmp_if_expr_11;
                 if((signed int)pdata->brwin.rrect.y >= (signed int)e->area.y)
-                  tmp_if_expr$14 = (signed int)e->area.height - ((signed int)(&pdata->brwin)->rrect.y - (signed int)e->area.y);
+                  tmp_if_expr_14 = (signed int)e->area.height - ((signed int)(&pdata->brwin)->rrect.y - (signed int)e->area.y);
 
                 else
                 {
                   if((signed int)pdata->brwin.rrect.y + (signed int)pdata->brwin.rrect.height >= (signed int)e->area.y)
                   {
                     if(!((signed int)pdata->brwin.rrect.y + (signed int)pdata->brwin.rrect.height + -((signed int)e->area.y) >= (signed int)e->area.height))
-                      tmp_if_expr$12 = ((signed int)(&pdata->brwin)->rrect.height - (signed int)e->area.y) + (signed int)(&pdata->brwin)->rrect.y;
+                      tmp_if_expr_12 = ((signed int)(&pdata->brwin)->rrect.height - (signed int)e->area.y) + (signed int)(&pdata->brwin)->rrect.y;
 
                     else
-                      tmp_if_expr$12 = (signed int)e->area.height;
-                    tmp_if_expr$13 = tmp_if_expr$12;
+                      tmp_if_expr_12 = (signed int)e->area.height;
+                    tmp_if_expr_13 = tmp_if_expr_12;
                   }
 
                   else
-                    tmp_if_expr$13 = 0;
-                  tmp_if_expr$14 = tmp_if_expr$13;
+                    tmp_if_expr_13 = 0;
+                  tmp_if_expr_14 = tmp_if_expr_13;
                 }
-                (&xrect)->height = (unsigned short int)tmp_if_expr$14;
+                (&xrect)->height = (unsigned short int)tmp_if_expr_14;
                 if(!((signed int)pdata->brwin.rrect.width >= (signed int)xrect.width))
                   (&xrect)->width = (&pdata->brwin)->rrect.width;
 
@@ -8337,9 +8337,9 @@ void rmdEventLoop(struct _ProgData *pdata)
               }
               if((signed int)xrect.x >= 0 && (signed int)xrect.y >= 0 && (signed int)xrect.height >= 1 && (signed int)xrect.width >= 1)
               {
-                signed int return_value_rmdRectInsert$18;
-                return_value_rmdRectInsert$18=rmdRectInsert(&pdata->rect_root, &xrect);
-                inserts = inserts + return_value_rmdRectInsert$18;
+                signed int return_value_rmdRectInsert_18;
+                return_value_rmdRectInsert_18=rmdRectInsert(&pdata->rect_root, &xrect);
+                inserts = inserts + return_value_rmdRectInsert_18;
               }
 
             }
@@ -8352,13 +8352,13 @@ void rmdEventLoop(struct _ProgData *pdata)
 
 // rmdFirstFrame
 // file rmd_get_frame.c line 199
-static signed int rmdFirstFrame(struct _ProgData *pdata, struct _XImage **image, struct anonymous$34 *shminfo, char **pxl_data)
+static signed int rmdFirstFrame(struct _ProgData *pdata, struct _XImage **image, struct anonymous_34 *shminfo, char **pxl_data)
 {
   if(!(pdata->args.noshared == 0))
   {
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)pdata->brwin.nbytes);
-    *pxl_data = (char *)return_value_malloc$1;
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)pdata->brwin.nbytes);
+    *pxl_data = (char *)return_value_malloc_1;
     *image=XCreateImage(pdata->dpy, pdata->specs.visual, (unsigned int)pdata->specs.depth, 2, 0, *pxl_data, (unsigned int)pdata->brwin.rrect.width, (unsigned int)pdata->brwin.rrect.height, 8, 0);
     XInitImage(*image);
     rmdGetZPixmap(pdata->dpy, pdata->specs.root, (*image)->data, (signed int)pdata->brwin.rrect.x, (signed int)pdata->brwin.rrect.y, (signed int)pdata->brwin.rrect.width, (signed int)pdata->brwin.rrect.height);
@@ -8374,14 +8374,14 @@ static signed int rmdFirstFrame(struct _ProgData *pdata, struct _XImage **image,
       return 12;
     }
 
-    void *return_value_shmat$2;
-    return_value_shmat$2=shmat(shminfo->shmid, (void *)0, 0);
-    (*image)->data = (char *)return_value_shmat$2;
+    void *return_value_shmat_2;
+    return_value_shmat_2=shmat(shminfo->shmid, (void *)0, 0);
+    (*image)->data = (char *)return_value_shmat_2;
     shminfo->shmaddr = (*image)->data;
     shminfo->readOnly = 0;
-    signed int return_value_XShmAttach$3;
-    return_value_XShmAttach$3=XShmAttach(pdata->dpy, shminfo);
-    if(return_value_XShmAttach$3 == 0)
+    signed int return_value_XShmAttach_3;
+    return_value_XShmAttach_3=XShmAttach(pdata->dpy, shminfo);
+    if(return_value_XShmAttach_3 == 0)
     {
       fprintf(stderr, "Failed to attach shared memory to proccess.\n");
       return 12;
@@ -8389,41 +8389,41 @@ static signed int rmdFirstFrame(struct _ProgData *pdata, struct _XImage **image,
 
     XShmGetImage(pdata->dpy, pdata->specs.root, *image, (signed int)pdata->brwin.rrect.x, (signed int)pdata->brwin.rrect.y, (unsigned long int)~0L);
   }
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$11;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$10;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_11;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_10;
   if(pdata->specs.depth == 24)
-    tmp_if_expr$4 = (_Bool)1;
+    tmp_if_expr_4 = (_Bool)1;
 
   else
-    tmp_if_expr$4 = pdata->specs.depth == 32 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$4)
+    tmp_if_expr_4 = pdata->specs.depth == 32 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_4)
   {
-    signed int rmdFirstFrame$$1$$3$$1$$1$$1$$k;
-    signed int rmdFirstFrame$$1$$3$$1$$1$$1$$i;
-    unsigned int rmdFirstFrame$$1$$3$$1$$1$$1$$t_val;
-    unsigned char *rmdFirstFrame$$1$$3$$1$$1$$1$$yuv_y = (&pdata->enc_data->yuv)->y + (signed long int)pdata->enc_data->x_offset + (signed long int)(pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->y_width);
-    unsigned char *rmdFirstFrame$$1$$3$$1$$1$$1$$_yr = Yr;
-    unsigned char *rmdFirstFrame$$1$$3$$1$$1$$1$$_yg = Yg;
-    unsigned char *rmdFirstFrame$$1$$3$$1$$1$$1$$_yb = Yb;
-    unsigned int *rmdFirstFrame$$1$$3$$1$$1$$1$$datapi = (unsigned int *)(unsigned char *)(*image)->data;
-    rmdFirstFrame$$1$$3$$1$$1$$1$$k = 0;
-    for( ; !(rmdFirstFrame$$1$$3$$1$$1$$1$$k >= (signed int)pdata->brwin.rrect.height); rmdFirstFrame$$1$$3$$1$$1$$1$$k = rmdFirstFrame$$1$$3$$1$$1$$1$$k + 1)
+    signed int rmdFirstFrame__1__3__1__1__1__k;
+    signed int rmdFirstFrame__1__3__1__1__1__i;
+    unsigned int rmdFirstFrame__1__3__1__1__1__t_val;
+    unsigned char *rmdFirstFrame__1__3__1__1__1__yuv_y = (&pdata->enc_data->yuv)->y + (signed long int)pdata->enc_data->x_offset + (signed long int)(pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->y_width);
+    unsigned char *rmdFirstFrame__1__3__1__1__1___yr = Yr;
+    unsigned char *rmdFirstFrame__1__3__1__1__1___yg = Yg;
+    unsigned char *rmdFirstFrame__1__3__1__1__1___yb = Yb;
+    unsigned int *rmdFirstFrame__1__3__1__1__1__datapi = (unsigned int *)(unsigned char *)(*image)->data;
+    rmdFirstFrame__1__3__1__1__1__k = 0;
+    for( ; !(rmdFirstFrame__1__3__1__1__1__k >= (signed int)pdata->brwin.rrect.height); rmdFirstFrame__1__3__1__1__1__k = rmdFirstFrame__1__3__1__1__1__k + 1)
     {
-      rmdFirstFrame$$1$$3$$1$$1$$1$$i = 0;
-      for( ; !(rmdFirstFrame$$1$$3$$1$$1$$1$$i >= (signed int)pdata->brwin.rrect.width); rmdFirstFrame$$1$$3$$1$$1$$1$$i = rmdFirstFrame$$1$$3$$1$$1$$1$$i + 1)
+      rmdFirstFrame__1__3__1__1__1__i = 0;
+      for( ; !(rmdFirstFrame__1__3__1__1__1__i >= (signed int)pdata->brwin.rrect.width); rmdFirstFrame__1__3__1__1__1__i = rmdFirstFrame__1__3__1__1__1__i + 1)
       {
-        rmdFirstFrame$$1$$3$$1$$1$$1$$t_val = *rmdFirstFrame$$1$$3$$1$$1$$1$$datapi;
-        *rmdFirstFrame$$1$$3$$1$$1$$1$$yuv_y = (unsigned char)((signed int)rmdFirstFrame$$1$$3$$1$$1$$1$$_yr[(signed long int)((rmdFirstFrame$$1$$3$$1$$1$$1$$t_val & (unsigned int)0x00ff0000) >> 16)] + (signed int)rmdFirstFrame$$1$$3$$1$$1$$1$$_yg[(signed long int)((rmdFirstFrame$$1$$3$$1$$1$$1$$t_val & (unsigned int)0x0000ff00) >> 8)] + (signed int)rmdFirstFrame$$1$$3$$1$$1$$1$$_yb[(signed long int)(rmdFirstFrame$$1$$3$$1$$1$$1$$t_val & (unsigned int)0x000000ff)]);
-        rmdFirstFrame$$1$$3$$1$$1$$1$$datapi = rmdFirstFrame$$1$$3$$1$$1$$1$$datapi + 1l;
-        rmdFirstFrame$$1$$3$$1$$1$$1$$yuv_y = rmdFirstFrame$$1$$3$$1$$1$$1$$yuv_y + 1l;
+        rmdFirstFrame__1__3__1__1__1__t_val = *rmdFirstFrame__1__3__1__1__1__datapi;
+        *rmdFirstFrame__1__3__1__1__1__yuv_y = (unsigned char)((signed int)rmdFirstFrame__1__3__1__1__1___yr[(signed long int)((rmdFirstFrame__1__3__1__1__1__t_val & (unsigned int)0x00ff0000) >> 16)] + (signed int)rmdFirstFrame__1__3__1__1__1___yg[(signed long int)((rmdFirstFrame__1__3__1__1__1__t_val & (unsigned int)0x0000ff00) >> 8)] + (signed int)rmdFirstFrame__1__3__1__1__1___yb[(signed long int)(rmdFirstFrame__1__3__1__1__1__t_val & (unsigned int)0x000000ff)]);
+        rmdFirstFrame__1__3__1__1__1__datapi = rmdFirstFrame__1__3__1__1__1__datapi + 1l;
+        rmdFirstFrame__1__3__1__1__1__yuv_y = rmdFirstFrame__1__3__1__1__1__yuv_y + 1l;
       }
-      rmdFirstFrame$$1$$3$$1$$1$$1$$yuv_y = rmdFirstFrame$$1$$3$$1$$1$$1$$yuv_y + (signed long int)((&pdata->enc_data->yuv)->y_width - (signed int)pdata->brwin.rrect.width);
+      rmdFirstFrame__1__3__1__1__1__yuv_y = rmdFirstFrame__1__3__1__1__1__yuv_y + (signed long int)((&pdata->enc_data->yuv)->y_width - (signed int)pdata->brwin.rrect.width);
     }
     signed int k;
     signed int i;
@@ -8482,77 +8482,77 @@ static signed int rmdFirstFrame(struct _ProgData *pdata, struct _XImage **image,
   else
     if(pdata->specs.depth == 16)
     {
-      signed int rmdFirstFrame$$1$$3$$1$$2$$1$$k;
-      signed int rmdFirstFrame$$1$$3$$1$$2$$1$$i;
-      unsigned short int rmdFirstFrame$$1$$3$$1$$2$$1$$t_val;
+      signed int rmdFirstFrame__1__3__1__2__1__k;
+      signed int rmdFirstFrame__1__3__1__2__1__i;
+      unsigned short int rmdFirstFrame__1__3__1__2__1__t_val;
       unsigned char *yuv_y = (&pdata->enc_data->yuv)->y + (signed long int)pdata->enc_data->x_offset + (signed long int)(pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->y_width);
       unsigned char *_yr = Yr;
       unsigned char *_yg = Yg;
       unsigned char *_yb = Yb;
-      unsigned short int *rmdFirstFrame$$1$$3$$1$$2$$1$$datapi = (unsigned short int *)(unsigned char *)(*image)->data;
-      rmdFirstFrame$$1$$3$$1$$2$$1$$k = 0;
-      for( ; !(rmdFirstFrame$$1$$3$$1$$2$$1$$k >= (signed int)pdata->brwin.rrect.height); rmdFirstFrame$$1$$3$$1$$2$$1$$k = rmdFirstFrame$$1$$3$$1$$2$$1$$k + 1)
+      unsigned short int *rmdFirstFrame__1__3__1__2__1__datapi = (unsigned short int *)(unsigned char *)(*image)->data;
+      rmdFirstFrame__1__3__1__2__1__k = 0;
+      for( ; !(rmdFirstFrame__1__3__1__2__1__k >= (signed int)pdata->brwin.rrect.height); rmdFirstFrame__1__3__1__2__1__k = rmdFirstFrame__1__3__1__2__1__k + 1)
       {
-        rmdFirstFrame$$1$$3$$1$$2$$1$$i = 0;
-        for( ; !(rmdFirstFrame$$1$$3$$1$$2$$1$$i >= (signed int)pdata->brwin.rrect.width); rmdFirstFrame$$1$$3$$1$$2$$1$$i = rmdFirstFrame$$1$$3$$1$$2$$1$$i + 1)
+        rmdFirstFrame__1__3__1__2__1__i = 0;
+        for( ; !(rmdFirstFrame__1__3__1__2__1__i >= (signed int)pdata->brwin.rrect.width); rmdFirstFrame__1__3__1__2__1__i = rmdFirstFrame__1__3__1__2__1__i + 1)
         {
-          rmdFirstFrame$$1$$3$$1$$2$$1$$t_val = *rmdFirstFrame$$1$$3$$1$$2$$1$$datapi;
-          *yuv_y = (unsigned char)((signed int)_yr[(signed long int)((((signed int)rmdFirstFrame$$1$$3$$1$$2$$1$$t_val & 0xf800) >> 11) * 8)] + (signed int)_yg[(signed long int)((((signed int)rmdFirstFrame$$1$$3$$1$$2$$1$$t_val & 0x7e0) >> 5) * 4)] + (signed int)_yb[(signed long int)(((signed int)rmdFirstFrame$$1$$3$$1$$2$$1$$t_val & 0x1f) * 8)]);
-          rmdFirstFrame$$1$$3$$1$$2$$1$$datapi = rmdFirstFrame$$1$$3$$1$$2$$1$$datapi + 1l;
+          rmdFirstFrame__1__3__1__2__1__t_val = *rmdFirstFrame__1__3__1__2__1__datapi;
+          *yuv_y = (unsigned char)((signed int)_yr[(signed long int)((((signed int)rmdFirstFrame__1__3__1__2__1__t_val & 0xf800) >> 11) * 8)] + (signed int)_yg[(signed long int)((((signed int)rmdFirstFrame__1__3__1__2__1__t_val & 0x7e0) >> 5) * 4)] + (signed int)_yb[(signed long int)(((signed int)rmdFirstFrame__1__3__1__2__1__t_val & 0x1f) * 8)]);
+          rmdFirstFrame__1__3__1__2__1__datapi = rmdFirstFrame__1__3__1__2__1__datapi + 1l;
           yuv_y = yuv_y + 1l;
         }
         yuv_y = yuv_y + (signed long int)((&pdata->enc_data->yuv)->y_width - (signed int)pdata->brwin.rrect.width);
       }
-      signed int rmdFirstFrame$$1$$3$$1$$2$$2$$k;
-      signed int rmdFirstFrame$$1$$3$$1$$2$$2$$i;
-      unsigned short int rmdFirstFrame$$1$$3$$1$$2$$2$$t_val;
-      unsigned char *rmdFirstFrame$$1$$3$$1$$2$$2$$yuv_u = (&pdata->enc_data->yuv)->u + (signed long int)(pdata->enc_data->x_offset / 2) + (signed long int)((pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->uv_width) / 2);
-      unsigned char *rmdFirstFrame$$1$$3$$1$$2$$2$$yuv_v = (&pdata->enc_data->yuv)->v + (signed long int)(pdata->enc_data->x_offset / 2) + (signed long int)((pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->uv_width) / 2);
-      unsigned char *rmdFirstFrame$$1$$3$$1$$2$$2$$_ur = Ur;
-      unsigned char *rmdFirstFrame$$1$$3$$1$$2$$2$$_ug = Ug;
-      unsigned char *rmdFirstFrame$$1$$3$$1$$2$$2$$_ubvr = UbVr;
-      unsigned char *rmdFirstFrame$$1$$3$$1$$2$$2$$_vg = Vg;
-      unsigned char *rmdFirstFrame$$1$$3$$1$$2$$2$$_vb = Vb;
-      unsigned short int *rmdFirstFrame$$1$$3$$1$$2$$2$$datapi = (unsigned short int *)(unsigned char *)(*image)->data;
-      unsigned short int *rmdFirstFrame$$1$$3$$1$$2$$2$$datapi_next = (unsigned short int *)(void *)0;
+      signed int rmdFirstFrame__1__3__1__2__2__k;
+      signed int rmdFirstFrame__1__3__1__2__2__i;
+      unsigned short int rmdFirstFrame__1__3__1__2__2__t_val;
+      unsigned char *rmdFirstFrame__1__3__1__2__2__yuv_u = (&pdata->enc_data->yuv)->u + (signed long int)(pdata->enc_data->x_offset / 2) + (signed long int)((pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->uv_width) / 2);
+      unsigned char *rmdFirstFrame__1__3__1__2__2__yuv_v = (&pdata->enc_data->yuv)->v + (signed long int)(pdata->enc_data->x_offset / 2) + (signed long int)((pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->uv_width) / 2);
+      unsigned char *rmdFirstFrame__1__3__1__2__2___ur = Ur;
+      unsigned char *rmdFirstFrame__1__3__1__2__2___ug = Ug;
+      unsigned char *rmdFirstFrame__1__3__1__2__2___ubvr = UbVr;
+      unsigned char *rmdFirstFrame__1__3__1__2__2___vg = Vg;
+      unsigned char *rmdFirstFrame__1__3__1__2__2___vb = Vb;
+      unsigned short int *rmdFirstFrame__1__3__1__2__2__datapi = (unsigned short int *)(unsigned char *)(*image)->data;
+      unsigned short int *rmdFirstFrame__1__3__1__2__2__datapi_next = (unsigned short int *)(void *)0;
       if(pdata->args.no_quick_subsample == 1)
-        rmdFirstFrame$$1$$3$$1$$2$$2$$datapi_next = rmdFirstFrame$$1$$3$$1$$2$$2$$datapi + (signed long int)pdata->brwin.rrect.width;
+        rmdFirstFrame__1__3__1__2__2__datapi_next = rmdFirstFrame__1__3__1__2__2__datapi + (signed long int)pdata->brwin.rrect.width;
 
-      rmdFirstFrame$$1$$3$$1$$2$$2$$k = 0;
-      for( ; !(rmdFirstFrame$$1$$3$$1$$2$$2$$k >= (signed int)pdata->brwin.rrect.height); rmdFirstFrame$$1$$3$$1$$2$$2$$k = rmdFirstFrame$$1$$3$$1$$2$$2$$k + 2)
+      rmdFirstFrame__1__3__1__2__2__k = 0;
+      for( ; !(rmdFirstFrame__1__3__1__2__2__k >= (signed int)pdata->brwin.rrect.height); rmdFirstFrame__1__3__1__2__2__k = rmdFirstFrame__1__3__1__2__2__k + 2)
       {
-        rmdFirstFrame$$1$$3$$1$$2$$2$$i = 0;
-        for( ; !(rmdFirstFrame$$1$$3$$1$$2$$2$$i >= (signed int)pdata->brwin.rrect.width); rmdFirstFrame$$1$$3$$1$$2$$2$$i = rmdFirstFrame$$1$$3$$1$$2$$2$$i + 2)
+        rmdFirstFrame__1__3__1__2__2__i = 0;
+        for( ; !(rmdFirstFrame__1__3__1__2__2__i >= (signed int)pdata->brwin.rrect.width); rmdFirstFrame__1__3__1__2__2__i = rmdFirstFrame__1__3__1__2__2__i + 2)
         {
           if(pdata->args.no_quick_subsample == 1)
           {
-            unsigned short int rmdFirstFrame$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t1;
-            unsigned short int rmdFirstFrame$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t2;
-            unsigned short int rmdFirstFrame$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t3;
-            unsigned short int rmdFirstFrame$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t4;
-            rmdFirstFrame$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t1 = *rmdFirstFrame$$1$$3$$1$$2$$2$$datapi;
-            rmdFirstFrame$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t2 = rmdFirstFrame$$1$$3$$1$$2$$2$$datapi[(signed long int)1];
-            rmdFirstFrame$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t3 = *rmdFirstFrame$$1$$3$$1$$2$$2$$datapi_next;
-            rmdFirstFrame$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t4 = rmdFirstFrame$$1$$3$$1$$2$$2$$datapi_next[(signed long int)1];
-            rmdFirstFrame$$1$$3$$1$$2$$2$$t_val = (unsigned short int)(((((signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t1 & 0xf800) + ((signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t2 & 0xf800) + ((signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t3 & 0xf800) + ((signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t4 & 0xf800)) / 4 & 0xf800) + ((((signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t1 & 0x7e0) + ((signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t2 & 0x7e0) + ((signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t3 & 0x7e0) + ((signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t4 & 0x7e0)) / 4 & 0x7e0) + ((((signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t1 & 0x1f) + ((signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t2 & 0x1f) + ((signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t3 & 0x1f) + ((signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t4 & 0x1f)) / 4 & 0x1f));
+            unsigned short int rmdFirstFrame__1__3__1__2__2__2__1__1__1__1__1__t1;
+            unsigned short int rmdFirstFrame__1__3__1__2__2__2__1__1__1__1__1__t2;
+            unsigned short int rmdFirstFrame__1__3__1__2__2__2__1__1__1__1__1__t3;
+            unsigned short int rmdFirstFrame__1__3__1__2__2__2__1__1__1__1__1__t4;
+            rmdFirstFrame__1__3__1__2__2__2__1__1__1__1__1__t1 = *rmdFirstFrame__1__3__1__2__2__datapi;
+            rmdFirstFrame__1__3__1__2__2__2__1__1__1__1__1__t2 = rmdFirstFrame__1__3__1__2__2__datapi[(signed long int)1];
+            rmdFirstFrame__1__3__1__2__2__2__1__1__1__1__1__t3 = *rmdFirstFrame__1__3__1__2__2__datapi_next;
+            rmdFirstFrame__1__3__1__2__2__2__1__1__1__1__1__t4 = rmdFirstFrame__1__3__1__2__2__datapi_next[(signed long int)1];
+            rmdFirstFrame__1__3__1__2__2__t_val = (unsigned short int)(((((signed int)rmdFirstFrame__1__3__1__2__2__2__1__1__1__1__1__t1 & 0xf800) + ((signed int)rmdFirstFrame__1__3__1__2__2__2__1__1__1__1__1__t2 & 0xf800) + ((signed int)rmdFirstFrame__1__3__1__2__2__2__1__1__1__1__1__t3 & 0xf800) + ((signed int)rmdFirstFrame__1__3__1__2__2__2__1__1__1__1__1__t4 & 0xf800)) / 4 & 0xf800) + ((((signed int)rmdFirstFrame__1__3__1__2__2__2__1__1__1__1__1__t1 & 0x7e0) + ((signed int)rmdFirstFrame__1__3__1__2__2__2__1__1__1__1__1__t2 & 0x7e0) + ((signed int)rmdFirstFrame__1__3__1__2__2__2__1__1__1__1__1__t3 & 0x7e0) + ((signed int)rmdFirstFrame__1__3__1__2__2__2__1__1__1__1__1__t4 & 0x7e0)) / 4 & 0x7e0) + ((((signed int)rmdFirstFrame__1__3__1__2__2__2__1__1__1__1__1__t1 & 0x1f) + ((signed int)rmdFirstFrame__1__3__1__2__2__2__1__1__1__1__1__t2 & 0x1f) + ((signed int)rmdFirstFrame__1__3__1__2__2__2__1__1__1__1__1__t3 & 0x1f) + ((signed int)rmdFirstFrame__1__3__1__2__2__2__1__1__1__1__1__t4 & 0x1f)) / 4 & 0x1f));
           }
 
           else
-            rmdFirstFrame$$1$$3$$1$$2$$2$$t_val = *rmdFirstFrame$$1$$3$$1$$2$$2$$datapi;
-          *rmdFirstFrame$$1$$3$$1$$2$$2$$yuv_u = (unsigned char)((signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$_ur[(signed long int)((((signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$t_val & 0xf800) >> 11) * 8)] + (signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$_ug[(signed long int)((((signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$t_val & 0x7e0) >> 5) * 4)] + (signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$_ubvr[(signed long int)(((signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$t_val & 0x1f) * 8)]);
-          *rmdFirstFrame$$1$$3$$1$$2$$2$$yuv_v = (unsigned char)((signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$_ubvr[(signed long int)((((signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$t_val & 0xf800) >> 11) * 8)] + (signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$_vg[(signed long int)((((signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$t_val & 0x7e0) >> 5) * 4)] + (signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$_vb[(signed long int)(((signed int)rmdFirstFrame$$1$$3$$1$$2$$2$$t_val & 0x1f) * 8)]);
-          rmdFirstFrame$$1$$3$$1$$2$$2$$datapi = rmdFirstFrame$$1$$3$$1$$2$$2$$datapi + (signed long int)2;
+            rmdFirstFrame__1__3__1__2__2__t_val = *rmdFirstFrame__1__3__1__2__2__datapi;
+          *rmdFirstFrame__1__3__1__2__2__yuv_u = (unsigned char)((signed int)rmdFirstFrame__1__3__1__2__2___ur[(signed long int)((((signed int)rmdFirstFrame__1__3__1__2__2__t_val & 0xf800) >> 11) * 8)] + (signed int)rmdFirstFrame__1__3__1__2__2___ug[(signed long int)((((signed int)rmdFirstFrame__1__3__1__2__2__t_val & 0x7e0) >> 5) * 4)] + (signed int)rmdFirstFrame__1__3__1__2__2___ubvr[(signed long int)(((signed int)rmdFirstFrame__1__3__1__2__2__t_val & 0x1f) * 8)]);
+          *rmdFirstFrame__1__3__1__2__2__yuv_v = (unsigned char)((signed int)rmdFirstFrame__1__3__1__2__2___ubvr[(signed long int)((((signed int)rmdFirstFrame__1__3__1__2__2__t_val & 0xf800) >> 11) * 8)] + (signed int)rmdFirstFrame__1__3__1__2__2___vg[(signed long int)((((signed int)rmdFirstFrame__1__3__1__2__2__t_val & 0x7e0) >> 5) * 4)] + (signed int)rmdFirstFrame__1__3__1__2__2___vb[(signed long int)(((signed int)rmdFirstFrame__1__3__1__2__2__t_val & 0x1f) * 8)]);
+          rmdFirstFrame__1__3__1__2__2__datapi = rmdFirstFrame__1__3__1__2__2__datapi + (signed long int)2;
           if(pdata->args.no_quick_subsample == 1)
-            rmdFirstFrame$$1$$3$$1$$2$$2$$datapi_next = rmdFirstFrame$$1$$3$$1$$2$$2$$datapi_next + (signed long int)2;
+            rmdFirstFrame__1__3__1__2__2__datapi_next = rmdFirstFrame__1__3__1__2__2__datapi_next + (signed long int)2;
 
-          rmdFirstFrame$$1$$3$$1$$2$$2$$yuv_u = rmdFirstFrame$$1$$3$$1$$2$$2$$yuv_u + 1l;
-          rmdFirstFrame$$1$$3$$1$$2$$2$$yuv_v = rmdFirstFrame$$1$$3$$1$$2$$2$$yuv_v + 1l;
+          rmdFirstFrame__1__3__1__2__2__yuv_u = rmdFirstFrame__1__3__1__2__2__yuv_u + 1l;
+          rmdFirstFrame__1__3__1__2__2__yuv_v = rmdFirstFrame__1__3__1__2__2__yuv_v + 1l;
         }
-        rmdFirstFrame$$1$$3$$1$$2$$2$$yuv_u = rmdFirstFrame$$1$$3$$1$$2$$2$$yuv_u + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)pdata->brwin.rrect.width) / 2);
-        rmdFirstFrame$$1$$3$$1$$2$$2$$yuv_v = rmdFirstFrame$$1$$3$$1$$2$$2$$yuv_v + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)pdata->brwin.rrect.width) / 2);
-        rmdFirstFrame$$1$$3$$1$$2$$2$$datapi = rmdFirstFrame$$1$$3$$1$$2$$2$$datapi + (signed long int)pdata->brwin.rrect.width;
+        rmdFirstFrame__1__3__1__2__2__yuv_u = rmdFirstFrame__1__3__1__2__2__yuv_u + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)pdata->brwin.rrect.width) / 2);
+        rmdFirstFrame__1__3__1__2__2__yuv_v = rmdFirstFrame__1__3__1__2__2__yuv_v + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)pdata->brwin.rrect.width) / 2);
+        rmdFirstFrame__1__3__1__2__2__datapi = rmdFirstFrame__1__3__1__2__2__datapi + (signed long int)pdata->brwin.rrect.width;
         if(pdata->args.no_quick_subsample == 1)
-          rmdFirstFrame$$1$$3$$1$$2$$2$$datapi_next = rmdFirstFrame$$1$$3$$1$$2$$2$$datapi_next + (signed long int)pdata->brwin.rrect.width;
+          rmdFirstFrame__1__3__1__2__2__datapi_next = rmdFirstFrame__1__3__1__2__2__datapi_next + (signed long int)pdata->brwin.rrect.width;
 
       }
     }
@@ -8581,11 +8581,11 @@ static signed int rmdFlushBlock(unsigned char *buf, signed int blockno, signed i
   signed int block_i = !(blockwidth != 0) ? 0 : blockno / (width / blockwidth);
   signed int block_k = !(blockwidth != 0) ? 0 : blockno % (width / blockwidth);
   unsigned char *buf_reg = &buf[(signed long int)((block_i * width + block_k) * blockwidth)];
-  double return_value_pow$1;
-  return_value_pow$1=pow((double)blockwidth, (double)2);
+  double return_value_pow_1;
+  return_value_pow_1=pow((double)blockwidth, (double)2);
   static unsigned char out_buffer[4096l];
   static unsigned int out_buffer_bytes = (unsigned int)0;
-  if((double)out_buffer_bytes + return_value_pow$1 >= 4096.000000 || !(flush == 0) && !(out_buffer_bytes == 0u))
+  if((double)out_buffer_bytes + return_value_pow_1 >= 4096.000000 || !(flush == 0) && !(out_buffer_bytes == 0u))
   {
     if(ucfp == ((struct _IO_FILE *)NULL))
       gzwrite((struct gzFile_s *)fp, (void *)out_buffer, out_buffer_bytes);
@@ -8596,8 +8596,8 @@ static signed int rmdFlushBlock(unsigned char *buf, signed int blockno, signed i
     out_buffer_bytes = (unsigned int)0;
   }
 
-  unsigned char *tmp_post$2;
-  unsigned char *tmp_post$3;
+  unsigned char *tmp_post_2;
+  unsigned char *tmp_post_3;
   if(flush == 0)
   {
     unsigned char *out_buf_reg = &out_buffer[(signed long int)out_buffer_bytes];
@@ -8607,11 +8607,11 @@ static signed int rmdFlushBlock(unsigned char *buf, signed int blockno, signed i
       i = 0;
       for( ; !(i >= blockwidth); i = i + 1)
       {
-        tmp_post$2 = out_buf_reg;
+        tmp_post_2 = out_buf_reg;
         out_buf_reg = out_buf_reg + 1l;
-        tmp_post$3 = buf_reg;
+        tmp_post_3 = buf_reg;
         buf_reg = buf_reg + 1l;
-        *tmp_post$2 = *tmp_post$3;
+        *tmp_post_2 = *tmp_post_3;
       }
       out_buffer_bytes = out_buffer_bytes + (unsigned int)blockwidth;
       buf_reg = buf_reg + (signed long int)(width - blockwidth);
@@ -8629,28 +8629,28 @@ void * rmdFlushToOgg(struct _ProgData *pdata)
   signed int audioflag = 0;
   double video_bytesout = (double)0;
   double audio_bytesout = (double)0;
-  struct anonymous$15 videopage;
-  struct anonymous$15 videopage_copy;
-  struct anonymous$15 audiopage;
-  struct anonymous$15 audiopage_copy;
+  struct anonymous_15 videopage;
+  struct anonymous_15 videopage_copy;
+  struct anonymous_15 audiopage;
+  struct anonymous_15 audiopage_copy;
   double audiotime = (double)0;
   double videotime = (double)0;
   signed int working = 1;
   signed int th_st_fin = 0;
   signed int v_st_fin = pdata->args.nosound;
-  double tmp_if_expr$3;
-  signed long int return_value_ogg_page_granulepos$1;
-  double return_value_theora_granule_time$2;
-  double tmp_if_expr$6;
-  signed long int return_value_ogg_page_granulepos$4;
-  double return_value_vorbis_granule_time$5;
-  double tmp_if_expr$9;
-  signed long int return_value_ogg_page_granulepos$7;
-  double return_value_theora_granule_time$8;
-  double tmp_if_expr$12;
-  signed long int return_value_ogg_page_granulepos$10;
-  double return_value_vorbis_granule_time$11;
-  _Bool tmp_if_expr$13;
+  double tmp_if_expr_3;
+  signed long int return_value_ogg_page_granulepos_1;
+  double return_value_theora_granule_time_2;
+  double tmp_if_expr_6;
+  signed long int return_value_ogg_page_granulepos_4;
+  double return_value_vorbis_granule_time_5;
+  double tmp_if_expr_9;
+  signed long int return_value_ogg_page_granulepos_7;
+  double return_value_theora_granule_time_8;
+  double tmp_if_expr_12;
+  signed long int return_value_ogg_page_granulepos_10;
+  double return_value_vorbis_granule_time_11;
+  _Bool tmp_if_expr_13;
   while(!(working == 0))
   {
     signed int audio_or_video = 0;
@@ -8662,14 +8662,14 @@ void * rmdFlushToOgg(struct _ProgData *pdata)
         videoflag=ogg_stream_pageout(&pdata->enc_data->m_ogg_ts, &videopage);
         if(!(videoflag == 0))
         {
-          return_value_ogg_page_granulepos$1=ogg_page_granulepos(&videopage);
-          return_value_theora_granule_time$2=theora_granule_time(&pdata->enc_data->m_th_st, return_value_ogg_page_granulepos$1);
-          tmp_if_expr$3 = return_value_theora_granule_time$2;
+          return_value_ogg_page_granulepos_1=ogg_page_granulepos(&videopage);
+          return_value_theora_granule_time_2=theora_granule_time(&pdata->enc_data->m_th_st, return_value_ogg_page_granulepos_1);
+          tmp_if_expr_3 = return_value_theora_granule_time_2;
         }
 
         else
-          tmp_if_expr$3 = (double)-1;
-        videotime = tmp_if_expr$3;
+          tmp_if_expr_3 = (double)-1;
+        videotime = tmp_if_expr_3;
         if(!(videoflag == 0))
           ogg_page_cp(&videopage_copy, &videopage);
 
@@ -8682,14 +8682,14 @@ void * rmdFlushToOgg(struct _ProgData *pdata)
           audioflag=ogg_stream_pageout(&pdata->enc_data->m_ogg_vs, &audiopage);
           if(!(audioflag == 0))
           {
-            return_value_ogg_page_granulepos$4=ogg_page_granulepos(&audiopage);
-            return_value_vorbis_granule_time$5=vorbis_granule_time(&pdata->enc_data->m_vo_dsp, return_value_ogg_page_granulepos$4);
-            tmp_if_expr$6 = return_value_vorbis_granule_time$5;
+            return_value_ogg_page_granulepos_4=ogg_page_granulepos(&audiopage);
+            return_value_vorbis_granule_time_5=vorbis_granule_time(&pdata->enc_data->m_vo_dsp, return_value_ogg_page_granulepos_4);
+            tmp_if_expr_6 = return_value_vorbis_granule_time_5;
           }
 
           else
-            tmp_if_expr$6 = (double)-1;
-          audiotime = tmp_if_expr$6;
+            tmp_if_expr_6 = (double)-1;
+          audiotime = tmp_if_expr_6;
           if(!(audioflag == 0))
             ogg_page_cp(&audiopage_copy, &audiopage);
 
@@ -8708,14 +8708,14 @@ void * rmdFlushToOgg(struct _ProgData *pdata)
         videoflag=ogg_stream_flush(&pdata->enc_data->m_ogg_ts, &videopage);
         if(!(videoflag == 0))
         {
-          return_value_ogg_page_granulepos$7=ogg_page_granulepos(&videopage);
-          return_value_theora_granule_time$8=theora_granule_time(&pdata->enc_data->m_th_st, return_value_ogg_page_granulepos$7);
-          tmp_if_expr$9 = return_value_theora_granule_time$8;
+          return_value_ogg_page_granulepos_7=ogg_page_granulepos(&videopage);
+          return_value_theora_granule_time_8=theora_granule_time(&pdata->enc_data->m_th_st, return_value_ogg_page_granulepos_7);
+          tmp_if_expr_9 = return_value_theora_granule_time_8;
         }
 
         else
-          tmp_if_expr$9 = (double)-1;
-        videotime = tmp_if_expr$9;
+          tmp_if_expr_9 = (double)-1;
+        videotime = tmp_if_expr_9;
         if(!(videoflag == 0))
           ogg_page_cp(&videopage_copy, &videopage);
 
@@ -8744,14 +8744,14 @@ void * rmdFlushToOgg(struct _ProgData *pdata)
             audioflag=ogg_stream_flush(&pdata->enc_data->m_ogg_vs, &audiopage);
             if(!(audioflag == 0))
             {
-              return_value_ogg_page_granulepos$10=ogg_page_granulepos(&audiopage);
-              return_value_vorbis_granule_time$11=vorbis_granule_time(&pdata->enc_data->m_vo_dsp, return_value_ogg_page_granulepos$10);
-              tmp_if_expr$12 = return_value_vorbis_granule_time$11;
+              return_value_ogg_page_granulepos_10=ogg_page_granulepos(&audiopage);
+              return_value_vorbis_granule_time_11=vorbis_granule_time(&pdata->enc_data->m_vo_dsp, return_value_ogg_page_granulepos_10);
+              tmp_if_expr_12 = return_value_vorbis_granule_time_11;
             }
 
             else
-              tmp_if_expr$12 = (double)-1;
-            audiotime = tmp_if_expr$12;
+              tmp_if_expr_12 = (double)-1;
+            audiotime = tmp_if_expr_12;
             if(!(audioflag == 0))
               ogg_page_cp(&audiopage_copy, &audiopage);
 
@@ -8782,11 +8782,11 @@ void * rmdFlushToOgg(struct _ProgData *pdata)
       audioflag = 0;
 
     if(audioflag == 0 && v_st_fin == 0)
-      tmp_if_expr$13 = !(pdata->args.nosound != 0) ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_13 = !(pdata->args.nosound != 0) ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$13 = (_Bool)0;
-    if(th_st_fin == 0 && videoflag == 0 || tmp_if_expr$13)
+      tmp_if_expr_13 = (_Bool)0;
+    if(th_st_fin == 0 && videoflag == 0 || tmp_if_expr_13)
       usleep((unsigned int)10000);
 
     else
@@ -8806,19 +8806,19 @@ void * rmdFlushToOgg(struct _ProgData *pdata)
             audio_or_video = 1;
       if(audio_or_video == 1)
       {
-        unsigned long int return_value_fwrite$14;
-        return_value_fwrite$14=fwrite((const void *)videopage_copy.header, (unsigned long int)1, (unsigned long int)videopage_copy.header_len, pdata->enc_data->fp);
-        video_bytesout = video_bytesout + (double)return_value_fwrite$14;
-        unsigned long int return_value_fwrite$15;
-        return_value_fwrite$15=fwrite((const void *)videopage_copy.body, (unsigned long int)1, (unsigned long int)videopage_copy.body_len, pdata->enc_data->fp);
-        video_bytesout = video_bytesout + (double)return_value_fwrite$15;
+        unsigned long int return_value_fwrite_14;
+        return_value_fwrite_14=fwrite((const void *)videopage_copy.header, (unsigned long int)1, (unsigned long int)videopage_copy.header_len, pdata->enc_data->fp);
+        video_bytesout = video_bytesout + (double)return_value_fwrite_14;
+        unsigned long int return_value_fwrite_15;
+        return_value_fwrite_15=fwrite((const void *)videopage_copy.body, (unsigned long int)1, (unsigned long int)videopage_copy.body_len, pdata->enc_data->fp);
+        video_bytesout = video_bytesout + (double)return_value_fwrite_15;
         videoflag = 0;
         if(pdata->running == 0)
         {
           pthread_mutex_lock(&pdata->libogg_mutex);
-          signed int return_value_ogg_page_eos$16;
-          return_value_ogg_page_eos$16=ogg_page_eos(&videopage_copy);
-          if(!(return_value_ogg_page_eos$16 == 0))
+          signed int return_value_ogg_page_eos_16;
+          return_value_ogg_page_eos_16=ogg_page_eos(&videopage_copy);
+          if(!(return_value_ogg_page_eos_16 == 0))
             th_st_fin = 1;
 
           pthread_mutex_unlock(&pdata->libogg_mutex);
@@ -8829,19 +8829,19 @@ void * rmdFlushToOgg(struct _ProgData *pdata)
 
       else
       {
-        unsigned long int return_value_fwrite$17;
-        return_value_fwrite$17=fwrite((const void *)audiopage_copy.header, (unsigned long int)1, (unsigned long int)audiopage_copy.header_len, pdata->enc_data->fp);
-        audio_bytesout = audio_bytesout + (double)return_value_fwrite$17;
-        unsigned long int return_value_fwrite$18;
-        return_value_fwrite$18=fwrite((const void *)audiopage_copy.body, (unsigned long int)1, (unsigned long int)audiopage_copy.body_len, pdata->enc_data->fp);
-        audio_bytesout = audio_bytesout + (double)return_value_fwrite$18;
+        unsigned long int return_value_fwrite_17;
+        return_value_fwrite_17=fwrite((const void *)audiopage_copy.header, (unsigned long int)1, (unsigned long int)audiopage_copy.header_len, pdata->enc_data->fp);
+        audio_bytesout = audio_bytesout + (double)return_value_fwrite_17;
+        unsigned long int return_value_fwrite_18;
+        return_value_fwrite_18=fwrite((const void *)audiopage_copy.body, (unsigned long int)1, (unsigned long int)audiopage_copy.body_len, pdata->enc_data->fp);
+        audio_bytesout = audio_bytesout + (double)return_value_fwrite_18;
         audioflag = 0;
         if(pdata->running == 0)
         {
           pthread_mutex_lock(&pdata->libogg_mutex);
-          signed int return_value_ogg_page_eos$19;
-          return_value_ogg_page_eos$19=ogg_page_eos(&audiopage_copy);
-          if(!(return_value_ogg_page_eos$19 == 0))
+          signed int return_value_ogg_page_eos_19;
+          return_value_ogg_page_eos_19=ogg_page_eos(&audiopage_copy);
+          if(!(return_value_ogg_page_eos_19 == 0))
             v_st_fin = 1;
 
           pthread_mutex_unlock(&pdata->libogg_mutex);
@@ -8862,28 +8862,28 @@ void * rmdFlushToOgg(struct _ProgData *pdata)
     fclose(pdata->enc_data->fp);
 
   fprintf(stderr, "\r   \nDone.\nWritten %.0f bytes\n(%.0f of which were video data and %.0f audio data)\n\n", video_bytesout + audio_bytesout, video_bytesout, audio_bytesout);
-  signed int *return_value___errno_location$20;
-  return_value___errno_location$20=__errno_location();
-  pthread_exit((void *)&(*return_value___errno_location$20));
+  signed int *return_value___errno_location_20;
+  return_value___errno_location_20=__errno_location();
+  pthread_exit((void *)&(*return_value___errno_location_20));
 }
 
 // rmdFrameInit
 // file rmd_frame.c line 94
 unsigned long int rmdFrameInit(struct _XDisplay *dpy, signed int screen, unsigned long int root, signed int x, signed int y, signed int width, signed int height)
 {
-  struct anonymous$19 attribs;
-  struct anonymous$18 white;
-  struct anonymous$18 white_e;
+  struct anonymous_19 attribs;
+  struct anonymous_18 white;
+  struct anonymous_18 white_e;
   unsigned long int win;
   unsigned long int valuemask = (unsigned long int)(1L << 0 | 1L << 1 | 1L << 10 | 1L << 9 | 1L << 13);
-  XAllocNamedColor(dpy, (&((struct anonymous$146 *)dpy)->screens[(signed long int)screen])->cmap, "white", &white, &white_e);
+  XAllocNamedColor(dpy, (&((struct anonymous_146 *)dpy)->screens[(signed long int)screen])->cmap, "white", &white, &white_e);
   attribs.background_pixmap = (unsigned long int)0L;
   attribs.background_pixel = white.pixel;
   attribs.save_under = 1;
   attribs.override_redirect = 1;
-  attribs.colormap = (&((struct anonymous$146 *)dpy)->screens[(signed long int)screen])->cmap;
-  win=XCreateWindow(dpy, root, x - 6, y - 6, (unsigned int)(width + 6 * 2), (unsigned int)(height + 6 * 2), (unsigned int)0, (signed int)0L, (unsigned int)1, ((struct anonymous$21 *)NULL), valuemask, &attribs);
-  struct anonymous$17 rect;
+  attribs.colormap = (&((struct anonymous_146 *)dpy)->screens[(signed long int)screen])->cmap;
+  win=XCreateWindow(dpy, root, x - 6, y - 6, (unsigned int)(width + 6 * 2), (unsigned int)(height + 6 * 2), (unsigned int)0, (signed int)0L, (unsigned int)1, ((struct anonymous_21 *)NULL), valuemask, &attribs);
+  struct anonymous_17 rect;
   rect.y = (signed short int)6;
   rect.x = rect.y;
   rect.width = (unsigned short int)width;
@@ -8898,21 +8898,21 @@ unsigned long int rmdFrameInit(struct _XDisplay *dpy, signed int screen, unsigne
 // file rmd_get_frame.c line 357
 void * rmdGetFrame(struct _ProgData *pdata)
 {
-  signed int rmdGetFrame$$1$$i = 0;
+  signed int rmdGetFrame__1__i = 0;
   signed int blocknum_x = pdata->enc_data->yuv.y_width / 0x0010;
   signed int blocknum_y = pdata->enc_data->yuv.y_height / 0x0010;
   unsigned int msk_ret;
-  struct anonymous$17 mouse_pos_abs;
-  struct anonymous$17 mouse_pos_rel;
-  struct anonymous$17 mouse_pos_temp;
+  struct anonymous_17 mouse_pos_abs;
+  struct anonymous_17 mouse_pos_rel;
+  struct anonymous_17 mouse_pos_temp;
   struct _BRWindow temp_brwin;
   unsigned long int root_ret;
   unsigned long int child_ret;
-  struct anonymous$31 *xcim = (struct anonymous$31 *)(void *)0;
+  struct anonymous_31 *xcim = (struct anonymous_31 *)(void *)0;
   struct _XImage *image = (struct _XImage *)(void *)0;
   struct _XImage *image_back = (struct _XImage *)(void *)0;
-  struct anonymous$34 shminfo;
-  struct anonymous$34 shminfo_back;
+  struct anonymous_34 shminfo;
+  struct anonymous_34 shminfo_back;
   signed int init_img1 = 0;
   signed int init_img2 = 0;
   signed int img_sel;
@@ -8921,16 +8921,16 @@ void * rmdGetFrame(struct _ProgData *pdata)
   char *pxl_data_back = (char *)(void *)0;
   d_buff = pdata->args.full_shots;
   img_sel = d_buff;
-  signed int return_value_rmdFirstFrame$2;
-  return_value_rmdFirstFrame$2=rmdFirstFrame(pdata, &image, &shminfo, &pxl_data);
-  init_img1 = (signed int)(return_value_rmdFirstFrame$2 != 0);
+  signed int return_value_rmdFirstFrame_2;
+  return_value_rmdFirstFrame_2=rmdFirstFrame(pdata, &image, &shminfo, &pxl_data);
+  init_img1 = (signed int)(return_value_rmdFirstFrame_2 != 0);
   if(!(init_img1 == 0))
   {
     if(!(pdata->args.encOnTheFly == 0))
     {
-      signed int return_value_remove$1;
-      return_value_remove$1=remove(pdata->args.filename);
-      if(!(return_value_remove$1 == 0))
+      signed int return_value_remove_1;
+      return_value_remove_1=remove(pdata->args.filename);
+      if(!(return_value_remove_1 == 0))
         perror("Error while removing file:\n");
 
       else
@@ -8944,16 +8944,16 @@ void * rmdGetFrame(struct _ProgData *pdata)
 
   if(!(d_buff == 0))
   {
-    signed int return_value_rmdFirstFrame$4;
-    return_value_rmdFirstFrame$4=rmdFirstFrame(pdata, &image_back, &shminfo_back, &pxl_data_back);
-    init_img2 = (signed int)(return_value_rmdFirstFrame$4 != 0);
+    signed int return_value_rmdFirstFrame_4;
+    return_value_rmdFirstFrame_4=rmdFirstFrame(pdata, &image_back, &shminfo_back, &pxl_data_back);
+    init_img2 = (signed int)(return_value_rmdFirstFrame_4 != 0);
     if(!(init_img2 == 0))
     {
       if(!(pdata->args.encOnTheFly == 0))
       {
-        signed int return_value_remove$3;
-        return_value_remove$3=remove(pdata->args.filename);
-        if(!(return_value_remove$3 == 0))
+        signed int return_value_remove_3;
+        return_value_remove_3=remove(pdata->args.filename);
+        if(!(return_value_remove_3 == 0))
           perror("Error while removing file:\n");
 
         else
@@ -8982,59 +8982,59 @@ void * rmdGetFrame(struct _ProgData *pdata)
   mouse_pos_temp.height = (unsigned short int)pdata->dummy_p_size;
   mouse_pos_abs.height = mouse_pos_temp.height;
   rmdInitEventsPolling(pdata);
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$20;
-  _Bool tmp_if_expr$21;
-  _Bool tmp_if_expr$6;
-  signed int tmp_if_expr$8;
-  signed int tmp_if_expr$7;
-  _Bool tmp_if_expr$9;
-  signed int tmp_if_expr$11;
-  signed int tmp_if_expr$10;
-  signed int tmp_if_expr$14;
-  signed int tmp_if_expr$13;
-  signed int tmp_if_expr$12;
-  signed int tmp_if_expr$17;
-  signed int tmp_if_expr$16;
-  signed int tmp_if_expr$15;
-  unsigned char *tmp_if_expr$18;
-  _Bool tmp_if_expr$19;
-  signed int tmp_if_expr$22;
-  signed int tmp_if_expr$23;
-  unsigned char *tmp_if_expr$24;
-  unsigned char *tmp_if_expr$26;
-  unsigned char *tmp_if_expr$25;
-  _Bool tmp_if_expr$27;
-  _Bool tmp_if_expr$34;
-  _Bool tmp_if_expr$28;
-  _Bool tmp_if_expr$29;
-  _Bool tmp_if_expr$30;
-  _Bool tmp_if_expr$31;
-  _Bool tmp_if_expr$32;
-  _Bool tmp_if_expr$33;
-  _Bool tmp_if_expr$49;
-  _Bool tmp_if_expr$35;
-  signed int tmp_if_expr$37;
-  signed int tmp_if_expr$36;
-  _Bool tmp_if_expr$38;
-  signed int tmp_if_expr$40;
-  signed int tmp_if_expr$39;
-  signed int tmp_if_expr$43;
-  signed int tmp_if_expr$42;
-  signed int tmp_if_expr$41;
-  signed int tmp_if_expr$46;
-  signed int tmp_if_expr$45;
-  signed int tmp_if_expr$44;
-  unsigned char *tmp_if_expr$47;
-  _Bool tmp_if_expr$48;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_20;
+  _Bool tmp_if_expr_21;
+  _Bool tmp_if_expr_6;
+  signed int tmp_if_expr_8;
+  signed int tmp_if_expr_7;
+  _Bool tmp_if_expr_9;
+  signed int tmp_if_expr_11;
+  signed int tmp_if_expr_10;
+  signed int tmp_if_expr_14;
+  signed int tmp_if_expr_13;
+  signed int tmp_if_expr_12;
+  signed int tmp_if_expr_17;
+  signed int tmp_if_expr_16;
+  signed int tmp_if_expr_15;
+  unsigned char *tmp_if_expr_18;
+  _Bool tmp_if_expr_19;
+  signed int tmp_if_expr_22;
+  signed int tmp_if_expr_23;
+  unsigned char *tmp_if_expr_24;
+  unsigned char *tmp_if_expr_26;
+  unsigned char *tmp_if_expr_25;
+  _Bool tmp_if_expr_27;
+  _Bool tmp_if_expr_34;
+  _Bool tmp_if_expr_28;
+  _Bool tmp_if_expr_29;
+  _Bool tmp_if_expr_30;
+  _Bool tmp_if_expr_31;
+  _Bool tmp_if_expr_32;
+  _Bool tmp_if_expr_33;
+  _Bool tmp_if_expr_49;
+  _Bool tmp_if_expr_35;
+  signed int tmp_if_expr_37;
+  signed int tmp_if_expr_36;
+  _Bool tmp_if_expr_38;
+  signed int tmp_if_expr_40;
+  signed int tmp_if_expr_39;
+  signed int tmp_if_expr_43;
+  signed int tmp_if_expr_42;
+  signed int tmp_if_expr_41;
+  signed int tmp_if_expr_46;
+  signed int tmp_if_expr_45;
+  signed int tmp_if_expr_44;
+  unsigned char *tmp_if_expr_47;
+  _Bool tmp_if_expr_48;
   while(!(pdata->running == 0))
   {
     if(pdata->avd >= 1)
-      tmp_if_expr$5 = (_Bool)1;
+      tmp_if_expr_5 = (_Bool)1;
 
     else
-      tmp_if_expr$5 = pdata->args.nosound != 0 ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$5)
+      tmp_if_expr_5 = pdata->args.nosound != 0 ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_5)
     {
       pthread_mutex_lock(&pdata->time_mutex);
       pthread_cond_wait(&pdata->time_cond, &pdata->time_mutex);
@@ -9057,16 +9057,16 @@ void * rmdGetFrame(struct _ProgData *pdata)
       pdata->capture_busy = (signed int)!(0 != 0);
       rmdBRWinCpy(&temp_brwin, &pdata->brwin);
       if(!(pdata->args.xfixes_cursor == 0))
-        tmp_if_expr$20 = (_Bool)1;
+        tmp_if_expr_20 = (_Bool)1;
 
       else
-        tmp_if_expr$20 = pdata->args.have_dummy_cursor != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$20)
-        tmp_if_expr$21 = (_Bool)1;
+        tmp_if_expr_20 = pdata->args.have_dummy_cursor != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_20)
+        tmp_if_expr_21 = (_Bool)1;
 
       else
-        tmp_if_expr$21 = pdata->args.follow_mouse != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$21)
+        tmp_if_expr_21 = pdata->args.follow_mouse != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_21)
       {
         if(pdata->args.full_shots == 0)
         {
@@ -9099,81 +9099,81 @@ void * rmdGetFrame(struct _ProgData *pdata)
         else
           XQueryPointer(pdata->dpy, pdata->specs.root, &root_ret, &child_ret, (signed int *)&mouse_pos_abs.x, (signed int *)&mouse_pos_abs.y, (signed int *)&mouse_pos_rel.x, (signed int *)&mouse_pos_rel.y, &msk_ret);
         if((signed int)mouse_pos_abs.x + (signed int)mouse_pos_abs.width >= (signed int)temp_brwin.rrect.x)
-          tmp_if_expr$6 = (signed int)mouse_pos_abs.x <= (signed int)(&temp_brwin)->rrect.x + (signed int)(&temp_brwin)->rrect.width ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_6 = (signed int)mouse_pos_abs.x <= (signed int)(&temp_brwin)->rrect.x + (signed int)(&temp_brwin)->rrect.width ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$6 = (_Bool)0;
-        if(tmp_if_expr$6)
+          tmp_if_expr_6 = (_Bool)0;
+        if(tmp_if_expr_6)
         {
           if((signed int)temp_brwin.rrect.x >= (signed int)mouse_pos_abs.x)
-            tmp_if_expr$7 = (signed int)(&temp_brwin)->rrect.x;
+            tmp_if_expr_7 = (signed int)(&temp_brwin)->rrect.x;
 
           else
-            tmp_if_expr$7 = (signed int)mouse_pos_abs.x;
-          tmp_if_expr$8 = tmp_if_expr$7;
+            tmp_if_expr_7 = (signed int)mouse_pos_abs.x;
+          tmp_if_expr_8 = tmp_if_expr_7;
         }
 
         else
-          tmp_if_expr$8 = -1;
-        (&mouse_pos_temp)->x = (signed short int)tmp_if_expr$8;
+          tmp_if_expr_8 = -1;
+        (&mouse_pos_temp)->x = (signed short int)tmp_if_expr_8;
         if((signed int)mouse_pos_abs.y + (signed int)mouse_pos_abs.height >= (signed int)temp_brwin.rrect.y)
-          tmp_if_expr$9 = (signed int)mouse_pos_abs.y <= (signed int)(&temp_brwin)->rrect.y + (signed int)(&temp_brwin)->rrect.height ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_9 = (signed int)mouse_pos_abs.y <= (signed int)(&temp_brwin)->rrect.y + (signed int)(&temp_brwin)->rrect.height ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$9 = (_Bool)0;
-        if(tmp_if_expr$9)
+          tmp_if_expr_9 = (_Bool)0;
+        if(tmp_if_expr_9)
         {
           if((signed int)temp_brwin.rrect.y >= (signed int)mouse_pos_abs.y)
-            tmp_if_expr$10 = (signed int)(&temp_brwin)->rrect.y;
+            tmp_if_expr_10 = (signed int)(&temp_brwin)->rrect.y;
 
           else
-            tmp_if_expr$10 = (signed int)mouse_pos_abs.y;
-          tmp_if_expr$11 = tmp_if_expr$10;
+            tmp_if_expr_10 = (signed int)mouse_pos_abs.y;
+          tmp_if_expr_11 = tmp_if_expr_10;
         }
 
         else
-          tmp_if_expr$11 = -1;
-        (&mouse_pos_temp)->y = (signed short int)tmp_if_expr$11;
+          tmp_if_expr_11 = -1;
+        (&mouse_pos_temp)->y = (signed short int)tmp_if_expr_11;
         if((signed int)temp_brwin.rrect.x >= (signed int)mouse_pos_abs.x)
-          tmp_if_expr$14 = (signed int)mouse_pos_abs.width - ((signed int)(&temp_brwin)->rrect.x - (signed int)mouse_pos_abs.x);
+          tmp_if_expr_14 = (signed int)mouse_pos_abs.width - ((signed int)(&temp_brwin)->rrect.x - (signed int)mouse_pos_abs.x);
 
         else
         {
           if((signed int)temp_brwin.rrect.x + (signed int)temp_brwin.rrect.width >= (signed int)mouse_pos_abs.x)
           {
             if(!((signed int)temp_brwin.rrect.x + (signed int)temp_brwin.rrect.width + -((signed int)mouse_pos_abs.x) >= (signed int)mouse_pos_abs.width))
-              tmp_if_expr$12 = ((signed int)(&temp_brwin)->rrect.width - (signed int)mouse_pos_abs.x) + (signed int)(&temp_brwin)->rrect.x;
+              tmp_if_expr_12 = ((signed int)(&temp_brwin)->rrect.width - (signed int)mouse_pos_abs.x) + (signed int)(&temp_brwin)->rrect.x;
 
             else
-              tmp_if_expr$12 = (signed int)mouse_pos_abs.width;
-            tmp_if_expr$13 = tmp_if_expr$12;
+              tmp_if_expr_12 = (signed int)mouse_pos_abs.width;
+            tmp_if_expr_13 = tmp_if_expr_12;
           }
 
           else
-            tmp_if_expr$13 = 0;
-          tmp_if_expr$14 = tmp_if_expr$13;
+            tmp_if_expr_13 = 0;
+          tmp_if_expr_14 = tmp_if_expr_13;
         }
-        (&mouse_pos_temp)->width = (unsigned short int)tmp_if_expr$14;
+        (&mouse_pos_temp)->width = (unsigned short int)tmp_if_expr_14;
         if((signed int)temp_brwin.rrect.y >= (signed int)mouse_pos_abs.y)
-          tmp_if_expr$17 = (signed int)mouse_pos_abs.height - ((signed int)(&temp_brwin)->rrect.y - (signed int)mouse_pos_abs.y);
+          tmp_if_expr_17 = (signed int)mouse_pos_abs.height - ((signed int)(&temp_brwin)->rrect.y - (signed int)mouse_pos_abs.y);
 
         else
         {
           if((signed int)temp_brwin.rrect.y + (signed int)temp_brwin.rrect.height >= (signed int)mouse_pos_abs.y)
           {
             if(!((signed int)temp_brwin.rrect.y + (signed int)temp_brwin.rrect.height + -((signed int)mouse_pos_abs.y) >= (signed int)mouse_pos_abs.height))
-              tmp_if_expr$15 = ((signed int)(&temp_brwin)->rrect.height - (signed int)mouse_pos_abs.y) + (signed int)(&temp_brwin)->rrect.y;
+              tmp_if_expr_15 = ((signed int)(&temp_brwin)->rrect.height - (signed int)mouse_pos_abs.y) + (signed int)(&temp_brwin)->rrect.y;
 
             else
-              tmp_if_expr$15 = (signed int)mouse_pos_abs.height;
-            tmp_if_expr$16 = tmp_if_expr$15;
+              tmp_if_expr_15 = (signed int)mouse_pos_abs.height;
+            tmp_if_expr_16 = tmp_if_expr_15;
           }
 
           else
-            tmp_if_expr$16 = 0;
-          tmp_if_expr$17 = tmp_if_expr$16;
+            tmp_if_expr_16 = 0;
+          tmp_if_expr_17 = tmp_if_expr_16;
         }
-        (&mouse_pos_temp)->height = (unsigned short int)tmp_if_expr$17;
+        (&mouse_pos_temp)->height = (unsigned short int)tmp_if_expr_17;
         if(!((signed int)temp_brwin.rrect.width >= (signed int)mouse_pos_temp.width))
           (&mouse_pos_temp)->width = (&temp_brwin)->rrect.width;
 
@@ -9190,49 +9190,49 @@ void * rmdGetFrame(struct _ProgData *pdata)
             {
               unsigned char *back_buff;
               if(!(img_sel == 0))
-                tmp_if_expr$18 = (unsigned char *)image->data;
+                tmp_if_expr_18 = (unsigned char *)image->data;
 
               else
-                tmp_if_expr$18 = (unsigned char *)image_back->data;
-              back_buff = tmp_if_expr$18;
+                tmp_if_expr_18 = (unsigned char *)image_back->data;
+              back_buff = tmp_if_expr_18;
               if(pdata->specs.depth == 24)
-                tmp_if_expr$19 = (_Bool)1;
+                tmp_if_expr_19 = (_Bool)1;
 
               else
-                tmp_if_expr$19 = pdata->specs.depth == 32 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$19)
+                tmp_if_expr_19 = pdata->specs.depth == 32 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_19)
               {
-                signed int rmdGetFrame$$1$$4$$2$$5$$2$$1$$1$$1$$k;
-                signed int rmdGetFrame$$1$$4$$2$$5$$2$$1$$1$$1$$i;
-                unsigned int *rmdGetFrame$$1$$4$$2$$5$$2$$1$$1$$1$$datapi = (unsigned int *)back_buff + (signed long int)((((signed int)mouse_pos_temp.y - (signed int)temp_brwin.rrect.y) + pdata->enc_data->y_offset) * (signed int)temp_brwin.rrect.width) + (signed long int)(((signed int)mouse_pos_temp.x - (signed int)temp_brwin.rrect.x) + pdata->enc_data->x_offset);
-                rmdGetFrame$$1$$4$$2$$5$$2$$1$$1$$1$$k = 0;
-                for( ; !(rmdGetFrame$$1$$4$$2$$5$$2$$1$$1$$1$$k >= (signed int)mouse_pos_temp.height); rmdGetFrame$$1$$4$$2$$5$$2$$1$$1$$1$$k = rmdGetFrame$$1$$4$$2$$5$$2$$1$$1$$1$$k + 1)
+                signed int rmdGetFrame__1__4__2__5__2__1__1__1__k;
+                signed int rmdGetFrame__1__4__2__5__2__1__1__1__i;
+                unsigned int *rmdGetFrame__1__4__2__5__2__1__1__1__datapi = (unsigned int *)back_buff + (signed long int)((((signed int)mouse_pos_temp.y - (signed int)temp_brwin.rrect.y) + pdata->enc_data->y_offset) * (signed int)temp_brwin.rrect.width) + (signed long int)(((signed int)mouse_pos_temp.x - (signed int)temp_brwin.rrect.x) + pdata->enc_data->x_offset);
+                rmdGetFrame__1__4__2__5__2__1__1__1__k = 0;
+                for( ; !(rmdGetFrame__1__4__2__5__2__1__1__1__k >= (signed int)mouse_pos_temp.height); rmdGetFrame__1__4__2__5__2__1__1__1__k = rmdGetFrame__1__4__2__5__2__1__1__1__k + 1)
                 {
-                  rmdGetFrame$$1$$4$$2$$5$$2$$1$$1$$1$$i = 0;
-                  for( ; !(rmdGetFrame$$1$$4$$2$$5$$2$$1$$1$$1$$i >= (signed int)mouse_pos_temp.width); rmdGetFrame$$1$$4$$2$$5$$2$$1$$1$$1$$i = rmdGetFrame$$1$$4$$2$$5$$2$$1$$1$$1$$i + 1)
+                  rmdGetFrame__1__4__2__5__2__1__1__1__i = 0;
+                  for( ; !(rmdGetFrame__1__4__2__5__2__1__1__1__i >= (signed int)mouse_pos_temp.width); rmdGetFrame__1__4__2__5__2__1__1__1__i = rmdGetFrame__1__4__2__5__2__1__1__1__i + 1)
                   {
-                    *rmdGetFrame$$1$$4$$2$$5$$2$$1$$1$$1$$datapi = *rmdGetFrame$$1$$4$$2$$5$$2$$1$$1$$1$$datapi + (unsigned int)1;
-                    rmdGetFrame$$1$$4$$2$$5$$2$$1$$1$$1$$datapi = rmdGetFrame$$1$$4$$2$$5$$2$$1$$1$$1$$datapi + 1l;
+                    *rmdGetFrame__1__4__2__5__2__1__1__1__datapi = *rmdGetFrame__1__4__2__5__2__1__1__1__datapi + (unsigned int)1;
+                    rmdGetFrame__1__4__2__5__2__1__1__1__datapi = rmdGetFrame__1__4__2__5__2__1__1__1__datapi + 1l;
                   }
-                  rmdGetFrame$$1$$4$$2$$5$$2$$1$$1$$1$$datapi = rmdGetFrame$$1$$4$$2$$5$$2$$1$$1$$1$$datapi + (signed long int)((signed int)temp_brwin.rrect.width - (signed int)mouse_pos_temp.width);
+                  rmdGetFrame__1__4__2__5__2__1__1__1__datapi = rmdGetFrame__1__4__2__5__2__1__1__1__datapi + (signed long int)((signed int)temp_brwin.rrect.width - (signed int)mouse_pos_temp.width);
                 }
               }
 
               else
               {
-                signed int rmdGetFrame$$1$$4$$2$$5$$2$$1$$2$$1$$k;
-                signed int rmdGetFrame$$1$$4$$2$$5$$2$$1$$2$$1$$i;
-                unsigned short int *rmdGetFrame$$1$$4$$2$$5$$2$$1$$2$$1$$datapi = (unsigned short int *)back_buff + (signed long int)((((signed int)mouse_pos_temp.y - (signed int)temp_brwin.rrect.y) + pdata->enc_data->y_offset) * (signed int)temp_brwin.rrect.width) + (signed long int)(((signed int)mouse_pos_temp.x - (signed int)temp_brwin.rrect.x) + pdata->enc_data->x_offset);
-                rmdGetFrame$$1$$4$$2$$5$$2$$1$$2$$1$$k = 0;
-                for( ; !(rmdGetFrame$$1$$4$$2$$5$$2$$1$$2$$1$$k >= (signed int)mouse_pos_temp.height); rmdGetFrame$$1$$4$$2$$5$$2$$1$$2$$1$$k = rmdGetFrame$$1$$4$$2$$5$$2$$1$$2$$1$$k + 1)
+                signed int rmdGetFrame__1__4__2__5__2__1__2__1__k;
+                signed int rmdGetFrame__1__4__2__5__2__1__2__1__i;
+                unsigned short int *rmdGetFrame__1__4__2__5__2__1__2__1__datapi = (unsigned short int *)back_buff + (signed long int)((((signed int)mouse_pos_temp.y - (signed int)temp_brwin.rrect.y) + pdata->enc_data->y_offset) * (signed int)temp_brwin.rrect.width) + (signed long int)(((signed int)mouse_pos_temp.x - (signed int)temp_brwin.rrect.x) + pdata->enc_data->x_offset);
+                rmdGetFrame__1__4__2__5__2__1__2__1__k = 0;
+                for( ; !(rmdGetFrame__1__4__2__5__2__1__2__1__k >= (signed int)mouse_pos_temp.height); rmdGetFrame__1__4__2__5__2__1__2__1__k = rmdGetFrame__1__4__2__5__2__1__2__1__k + 1)
                 {
-                  rmdGetFrame$$1$$4$$2$$5$$2$$1$$2$$1$$i = 0;
-                  for( ; !(rmdGetFrame$$1$$4$$2$$5$$2$$1$$2$$1$$i >= (signed int)mouse_pos_temp.width); rmdGetFrame$$1$$4$$2$$5$$2$$1$$2$$1$$i = rmdGetFrame$$1$$4$$2$$5$$2$$1$$2$$1$$i + 1)
+                  rmdGetFrame__1__4__2__5__2__1__2__1__i = 0;
+                  for( ; !(rmdGetFrame__1__4__2__5__2__1__2__1__i >= (signed int)mouse_pos_temp.width); rmdGetFrame__1__4__2__5__2__1__2__1__i = rmdGetFrame__1__4__2__5__2__1__2__1__i + 1)
                   {
-                    *rmdGetFrame$$1$$4$$2$$5$$2$$1$$2$$1$$datapi = *rmdGetFrame$$1$$4$$2$$5$$2$$1$$2$$1$$datapi + (unsigned short int)1;
-                    rmdGetFrame$$1$$4$$2$$5$$2$$1$$2$$1$$datapi = rmdGetFrame$$1$$4$$2$$5$$2$$1$$2$$1$$datapi + 1l;
+                    *rmdGetFrame__1__4__2__5__2__1__2__1__datapi = *rmdGetFrame__1__4__2__5__2__1__2__1__datapi + (unsigned short int)1;
+                    rmdGetFrame__1__4__2__5__2__1__2__1__datapi = rmdGetFrame__1__4__2__5__2__1__2__1__datapi + 1l;
                   }
-                  rmdGetFrame$$1$$4$$2$$5$$2$$1$$2$$1$$datapi = rmdGetFrame$$1$$4$$2$$5$$2$$1$$2$$1$$datapi + (signed long int)((signed int)temp_brwin.rrect.width - (signed int)mouse_pos_temp.width);
+                  rmdGetFrame__1__4__2__5__2__1__2__1__datapi = rmdGetFrame__1__4__2__5__2__1__2__1__datapi + (signed long int)((signed int)temp_brwin.rrect.width - (signed int)mouse_pos_temp.width);
                 }
               }
             }
@@ -9244,16 +9244,16 @@ void * rmdGetFrame(struct _ProgData *pdata)
       if(!(pdata->args.follow_mouse == 0))
       {
         if(!(pdata->args.xfixes_cursor == 0))
-          tmp_if_expr$22 = (signed int)xcim->xhot;
+          tmp_if_expr_22 = (signed int)xcim->xhot;
 
         else
-          tmp_if_expr$22 = 0;
+          tmp_if_expr_22 = 0;
         if(!(pdata->args.xfixes_cursor == 0))
-          tmp_if_expr$23 = (signed int)xcim->yhot;
+          tmp_if_expr_23 = (signed int)xcim->yhot;
 
         else
-          tmp_if_expr$23 = 0;
-        rmdMoveCaptureArea(&pdata->brwin, (signed int)mouse_pos_abs.x + tmp_if_expr$22, (signed int)mouse_pos_abs.y + tmp_if_expr$23, (signed int)pdata->specs.width, (signed int)pdata->specs.height);
+          tmp_if_expr_23 = 0;
+        rmdMoveCaptureArea(&pdata->brwin, (signed int)mouse_pos_abs.x + tmp_if_expr_22, (signed int)mouse_pos_abs.y + tmp_if_expr_23, (signed int)pdata->specs.width, (signed int)pdata->specs.height);
         if(pdata->args.noframe == 0)
           rmdMoveFrame(pdata->dpy, pdata->shaped_w, (signed int)temp_brwin.rrect.x, (signed int)temp_brwin.rrect.y);
 
@@ -9269,27 +9269,27 @@ void * rmdGetFrame(struct _ProgData *pdata)
 
       else
       {
-        unsigned char *rmdGetFrame$$1$$4$$5$$front_buff;
+        unsigned char *rmdGetFrame__1__4__5__front_buff;
         if(img_sel == 0)
-          tmp_if_expr$24 = (unsigned char *)image->data;
+          tmp_if_expr_24 = (unsigned char *)image->data;
 
         else
-          tmp_if_expr$24 = (unsigned char *)image_back->data;
-        rmdGetFrame$$1$$4$$5$$front_buff = tmp_if_expr$24;
-        unsigned char *rmdGetFrame$$1$$4$$5$$back_buff;
+          tmp_if_expr_24 = (unsigned char *)image_back->data;
+        rmdGetFrame__1__4__5__front_buff = tmp_if_expr_24;
+        unsigned char *rmdGetFrame__1__4__5__back_buff;
         if(d_buff == 0)
-          tmp_if_expr$26 = (unsigned char *)(void *)0;
+          tmp_if_expr_26 = (unsigned char *)(void *)0;
 
         else
         {
           if(!(img_sel == 0))
-            tmp_if_expr$25 = (unsigned char *)image->data;
+            tmp_if_expr_25 = (unsigned char *)image->data;
 
           else
-            tmp_if_expr$25 = (unsigned char *)image_back->data;
-          tmp_if_expr$26 = tmp_if_expr$25;
+            tmp_if_expr_25 = (unsigned char *)image_back->data;
+          tmp_if_expr_26 = tmp_if_expr_25;
         }
-        rmdGetFrame$$1$$4$$5$$back_buff = tmp_if_expr$26;
+        rmdGetFrame__1__4__5__back_buff = tmp_if_expr_26;
         if(pdata->args.noshared == 0)
           XShmGetImage(pdata->dpy, pdata->specs.root, !(img_sel != 0) ? image : image_back, (signed int)temp_brwin.rrect.x, (signed int)temp_brwin.rrect.y, (unsigned long int)~0L);
 
@@ -9297,93 +9297,93 @@ void * rmdGetFrame(struct _ProgData *pdata)
           rmdGetZPixmap(pdata->dpy, pdata->specs.root, image->data, (signed int)temp_brwin.rrect.x, (signed int)temp_brwin.rrect.y, (signed int)temp_brwin.rrect.width, (signed int)temp_brwin.rrect.height);
 
         pthread_mutex_lock(&pdata->yuv_mutex);
-        rmdGetFrame$$1$$i = 0;
-        for( ; !(rmdGetFrame$$1$$i >= blocknum_x * blocknum_y); rmdGetFrame$$1$$i = rmdGetFrame$$1$$i + 1)
+        rmdGetFrame__1__i = 0;
+        for( ; !(rmdGetFrame__1__i >= blocknum_x * blocknum_y); rmdGetFrame__1__i = rmdGetFrame__1__i + 1)
         {
-          vblocks[(signed long int)rmdGetFrame$$1$$i] = (unsigned int)0;
-          ublocks[(signed long int)rmdGetFrame$$1$$i] = vblocks[(signed long int)rmdGetFrame$$1$$i];
-          yblocks[(signed long int)rmdGetFrame$$1$$i] = ublocks[(signed long int)rmdGetFrame$$1$$i];
+          vblocks[(signed long int)rmdGetFrame__1__i] = (unsigned int)0;
+          ublocks[(signed long int)rmdGetFrame__1__i] = vblocks[(signed long int)rmdGetFrame__1__i];
+          yblocks[(signed long int)rmdGetFrame__1__i] = ublocks[(signed long int)rmdGetFrame__1__i];
         }
-        if(rmdGetFrame$$1$$4$$5$$back_buff == ((unsigned char *)NULL))
+        if(rmdGetFrame__1__4__5__back_buff == ((unsigned char *)NULL))
         {
           if(pdata->specs.depth == 24)
-            tmp_if_expr$27 = (_Bool)1;
+            tmp_if_expr_27 = (_Bool)1;
 
           else
-            tmp_if_expr$27 = pdata->specs.depth == 32 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$27)
+            tmp_if_expr_27 = pdata->specs.depth == 32 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_27)
           {
-            signed int rmdGetFrame$$1$$4$$5$$4$$1$$1$$1$$k;
-            signed int rmdGetFrame$$1$$4$$5$$4$$1$$1$$1$$i;
+            signed int rmdGetFrame__1__4__5__4__1__1__1__k;
+            signed int rmdGetFrame__1__4__5__4__1__1__1__i;
             unsigned int t_val;
             unsigned char *yuv_y = (&pdata->enc_data->yuv)->y + (signed long int)pdata->enc_data->x_offset + (signed long int)(pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->y_width);
             unsigned char *_yr = Yr;
             unsigned char *_yg = Yg;
             unsigned char *_yb = Yb;
-            unsigned int *rmdGetFrame$$1$$4$$5$$4$$1$$1$$1$$datapi = (unsigned int *)rmdGetFrame$$1$$4$$5$$front_buff;
-            rmdGetFrame$$1$$4$$5$$4$$1$$1$$1$$k = 0;
-            for( ; !(rmdGetFrame$$1$$4$$5$$4$$1$$1$$1$$k >= (signed int)temp_brwin.rrect.height); rmdGetFrame$$1$$4$$5$$4$$1$$1$$1$$k = rmdGetFrame$$1$$4$$5$$4$$1$$1$$1$$k + 1)
+            unsigned int *rmdGetFrame__1__4__5__4__1__1__1__datapi = (unsigned int *)rmdGetFrame__1__4__5__front_buff;
+            rmdGetFrame__1__4__5__4__1__1__1__k = 0;
+            for( ; !(rmdGetFrame__1__4__5__4__1__1__1__k >= (signed int)temp_brwin.rrect.height); rmdGetFrame__1__4__5__4__1__1__1__k = rmdGetFrame__1__4__5__4__1__1__1__k + 1)
             {
-              rmdGetFrame$$1$$4$$5$$4$$1$$1$$1$$i = 0;
-              for( ; !(rmdGetFrame$$1$$4$$5$$4$$1$$1$$1$$i >= (signed int)temp_brwin.rrect.width); rmdGetFrame$$1$$4$$5$$4$$1$$1$$1$$i = rmdGetFrame$$1$$4$$5$$4$$1$$1$$1$$i + 1)
+              rmdGetFrame__1__4__5__4__1__1__1__i = 0;
+              for( ; !(rmdGetFrame__1__4__5__4__1__1__1__i >= (signed int)temp_brwin.rrect.width); rmdGetFrame__1__4__5__4__1__1__1__i = rmdGetFrame__1__4__5__4__1__1__1__i + 1)
               {
-                t_val = *rmdGetFrame$$1$$4$$5$$4$$1$$1$$1$$datapi;
+                t_val = *rmdGetFrame__1__4__5__4__1__1__1__datapi;
                 *yuv_y = (unsigned char)((signed int)_yr[(signed long int)((t_val & (unsigned int)0x00ff0000) >> 16)] + (signed int)_yg[(signed long int)((t_val & (unsigned int)0x0000ff00) >> 8)] + (signed int)_yb[(signed long int)(t_val & (unsigned int)0x000000ff)]);
-                rmdGetFrame$$1$$4$$5$$4$$1$$1$$1$$datapi = rmdGetFrame$$1$$4$$5$$4$$1$$1$$1$$datapi + 1l;
+                rmdGetFrame__1__4__5__4__1__1__1__datapi = rmdGetFrame__1__4__5__4__1__1__1__datapi + 1l;
                 yuv_y = yuv_y + 1l;
               }
               yuv_y = yuv_y + (signed long int)((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width);
             }
-            signed int rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$k;
-            signed int rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$i;
-            unsigned int rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$t_val;
+            signed int rmdGetFrame__1__4__5__4__1__1__2__k;
+            signed int rmdGetFrame__1__4__5__4__1__1__2__i;
+            unsigned int rmdGetFrame__1__4__5__4__1__1__2__t_val;
             unsigned char *yuv_u = (&pdata->enc_data->yuv)->u + (signed long int)(pdata->enc_data->x_offset / 2) + (signed long int)((pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->uv_width) / 2);
             unsigned char *yuv_v = (&pdata->enc_data->yuv)->v + (signed long int)(pdata->enc_data->x_offset / 2) + (signed long int)((pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->uv_width) / 2);
-            unsigned char *rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$_ur = Ur;
-            unsigned char *rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$_ug = Ug;
-            unsigned char *rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$_ubvr = UbVr;
-            unsigned char *rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$_vg = Vg;
-            unsigned char *rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$_vb = Vb;
-            unsigned int *rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$datapi = (unsigned int *)rmdGetFrame$$1$$4$$5$$front_buff;
-            unsigned int *rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$datapi_next = (unsigned int *)(void *)0;
+            unsigned char *rmdGetFrame__1__4__5__4__1__1__2___ur = Ur;
+            unsigned char *rmdGetFrame__1__4__5__4__1__1__2___ug = Ug;
+            unsigned char *rmdGetFrame__1__4__5__4__1__1__2___ubvr = UbVr;
+            unsigned char *rmdGetFrame__1__4__5__4__1__1__2___vg = Vg;
+            unsigned char *rmdGetFrame__1__4__5__4__1__1__2___vb = Vb;
+            unsigned int *rmdGetFrame__1__4__5__4__1__1__2__datapi = (unsigned int *)rmdGetFrame__1__4__5__front_buff;
+            unsigned int *rmdGetFrame__1__4__5__4__1__1__2__datapi_next = (unsigned int *)(void *)0;
             if(pdata->args.no_quick_subsample == 1)
-              rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$datapi_next = rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$datapi + (signed long int)temp_brwin.rrect.width;
+              rmdGetFrame__1__4__5__4__1__1__2__datapi_next = rmdGetFrame__1__4__5__4__1__1__2__datapi + (signed long int)temp_brwin.rrect.width;
 
-            rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$k = 0;
-            for( ; !(rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$k >= (signed int)temp_brwin.rrect.height); rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$k = rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$k + 2)
+            rmdGetFrame__1__4__5__4__1__1__2__k = 0;
+            for( ; !(rmdGetFrame__1__4__5__4__1__1__2__k >= (signed int)temp_brwin.rrect.height); rmdGetFrame__1__4__5__4__1__1__2__k = rmdGetFrame__1__4__5__4__1__1__2__k + 2)
             {
-              rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$i = 0;
-              for( ; !(rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$i >= (signed int)temp_brwin.rrect.width); rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$i = rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$i + 2)
+              rmdGetFrame__1__4__5__4__1__1__2__i = 0;
+              for( ; !(rmdGetFrame__1__4__5__4__1__1__2__i >= (signed int)temp_brwin.rrect.width); rmdGetFrame__1__4__5__4__1__1__2__i = rmdGetFrame__1__4__5__4__1__1__2__i + 2)
               {
                 if(pdata->args.no_quick_subsample == 1)
                 {
-                  unsigned int rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$2$$1$$1$$1$$1$$1$$t1;
-                  unsigned int rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$2$$1$$1$$1$$1$$1$$t2;
-                  unsigned int rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$2$$1$$1$$1$$1$$1$$t3;
-                  unsigned int rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$2$$1$$1$$1$$1$$1$$t4;
-                  rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$2$$1$$1$$1$$1$$1$$t1 = *rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$datapi;
-                  rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$2$$1$$1$$1$$1$$1$$t2 = rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$datapi[(signed long int)1];
-                  rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$2$$1$$1$$1$$1$$1$$t3 = *rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$datapi_next;
-                  rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$2$$1$$1$$1$$1$$1$$t4 = rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$datapi_next[(signed long int)1];
-                  rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$t_val = (((rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$2$$1$$1$$1$$1$$1$$t1 & (unsigned int)0x00ff0000) + (rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$2$$1$$1$$1$$1$$1$$t2 & (unsigned int)0x00ff0000) + (rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$2$$1$$1$$1$$1$$1$$t3 & (unsigned int)0x00ff0000) + (rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$2$$1$$1$$1$$1$$1$$t4 & (unsigned int)0x00ff0000)) / (unsigned int)4 & (unsigned int)0x00ff0000) + (((rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$2$$1$$1$$1$$1$$1$$t1 & (unsigned int)0x0000ff00) + (rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$2$$1$$1$$1$$1$$1$$t2 & (unsigned int)0x0000ff00) + (rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$2$$1$$1$$1$$1$$1$$t3 & (unsigned int)0x0000ff00) + (rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$2$$1$$1$$1$$1$$1$$t4 & (unsigned int)0x0000ff00)) / (unsigned int)4 & (unsigned int)0x0000ff00) + (((rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$2$$1$$1$$1$$1$$1$$t1 & (unsigned int)0x000000ff) + (rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$2$$1$$1$$1$$1$$1$$t2 & (unsigned int)0x000000ff) + (rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$2$$1$$1$$1$$1$$1$$t3 & (unsigned int)0x000000ff) + (rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$2$$1$$1$$1$$1$$1$$t4 & (unsigned int)0x000000ff)) / (unsigned int)4 & (unsigned int)0x000000ff);
+                  unsigned int rmdGetFrame__1__4__5__4__1__1__2__2__1__1__1__1__1__t1;
+                  unsigned int rmdGetFrame__1__4__5__4__1__1__2__2__1__1__1__1__1__t2;
+                  unsigned int rmdGetFrame__1__4__5__4__1__1__2__2__1__1__1__1__1__t3;
+                  unsigned int rmdGetFrame__1__4__5__4__1__1__2__2__1__1__1__1__1__t4;
+                  rmdGetFrame__1__4__5__4__1__1__2__2__1__1__1__1__1__t1 = *rmdGetFrame__1__4__5__4__1__1__2__datapi;
+                  rmdGetFrame__1__4__5__4__1__1__2__2__1__1__1__1__1__t2 = rmdGetFrame__1__4__5__4__1__1__2__datapi[(signed long int)1];
+                  rmdGetFrame__1__4__5__4__1__1__2__2__1__1__1__1__1__t3 = *rmdGetFrame__1__4__5__4__1__1__2__datapi_next;
+                  rmdGetFrame__1__4__5__4__1__1__2__2__1__1__1__1__1__t4 = rmdGetFrame__1__4__5__4__1__1__2__datapi_next[(signed long int)1];
+                  rmdGetFrame__1__4__5__4__1__1__2__t_val = (((rmdGetFrame__1__4__5__4__1__1__2__2__1__1__1__1__1__t1 & (unsigned int)0x00ff0000) + (rmdGetFrame__1__4__5__4__1__1__2__2__1__1__1__1__1__t2 & (unsigned int)0x00ff0000) + (rmdGetFrame__1__4__5__4__1__1__2__2__1__1__1__1__1__t3 & (unsigned int)0x00ff0000) + (rmdGetFrame__1__4__5__4__1__1__2__2__1__1__1__1__1__t4 & (unsigned int)0x00ff0000)) / (unsigned int)4 & (unsigned int)0x00ff0000) + (((rmdGetFrame__1__4__5__4__1__1__2__2__1__1__1__1__1__t1 & (unsigned int)0x0000ff00) + (rmdGetFrame__1__4__5__4__1__1__2__2__1__1__1__1__1__t2 & (unsigned int)0x0000ff00) + (rmdGetFrame__1__4__5__4__1__1__2__2__1__1__1__1__1__t3 & (unsigned int)0x0000ff00) + (rmdGetFrame__1__4__5__4__1__1__2__2__1__1__1__1__1__t4 & (unsigned int)0x0000ff00)) / (unsigned int)4 & (unsigned int)0x0000ff00) + (((rmdGetFrame__1__4__5__4__1__1__2__2__1__1__1__1__1__t1 & (unsigned int)0x000000ff) + (rmdGetFrame__1__4__5__4__1__1__2__2__1__1__1__1__1__t2 & (unsigned int)0x000000ff) + (rmdGetFrame__1__4__5__4__1__1__2__2__1__1__1__1__1__t3 & (unsigned int)0x000000ff) + (rmdGetFrame__1__4__5__4__1__1__2__2__1__1__1__1__1__t4 & (unsigned int)0x000000ff)) / (unsigned int)4 & (unsigned int)0x000000ff);
                 }
 
                 else
-                  rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$t_val = *rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$datapi;
-                *yuv_u = (unsigned char)((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$_ur[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$t_val & (unsigned int)0x00ff0000) >> 16)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$_ug[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$t_val & (unsigned int)0x0000ff00) >> 8)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$_ubvr[(signed long int)(rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$t_val & (unsigned int)0x000000ff)]);
-                *yuv_v = (unsigned char)((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$_ubvr[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$t_val & (unsigned int)0x00ff0000) >> 16)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$_vg[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$t_val & (unsigned int)0x0000ff00) >> 8)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$_vb[(signed long int)(rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$t_val & (unsigned int)0x000000ff)]);
-                rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$datapi = rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$datapi + (signed long int)2;
+                  rmdGetFrame__1__4__5__4__1__1__2__t_val = *rmdGetFrame__1__4__5__4__1__1__2__datapi;
+                *yuv_u = (unsigned char)((signed int)rmdGetFrame__1__4__5__4__1__1__2___ur[(signed long int)((rmdGetFrame__1__4__5__4__1__1__2__t_val & (unsigned int)0x00ff0000) >> 16)] + (signed int)rmdGetFrame__1__4__5__4__1__1__2___ug[(signed long int)((rmdGetFrame__1__4__5__4__1__1__2__t_val & (unsigned int)0x0000ff00) >> 8)] + (signed int)rmdGetFrame__1__4__5__4__1__1__2___ubvr[(signed long int)(rmdGetFrame__1__4__5__4__1__1__2__t_val & (unsigned int)0x000000ff)]);
+                *yuv_v = (unsigned char)((signed int)rmdGetFrame__1__4__5__4__1__1__2___ubvr[(signed long int)((rmdGetFrame__1__4__5__4__1__1__2__t_val & (unsigned int)0x00ff0000) >> 16)] + (signed int)rmdGetFrame__1__4__5__4__1__1__2___vg[(signed long int)((rmdGetFrame__1__4__5__4__1__1__2__t_val & (unsigned int)0x0000ff00) >> 8)] + (signed int)rmdGetFrame__1__4__5__4__1__1__2___vb[(signed long int)(rmdGetFrame__1__4__5__4__1__1__2__t_val & (unsigned int)0x000000ff)]);
+                rmdGetFrame__1__4__5__4__1__1__2__datapi = rmdGetFrame__1__4__5__4__1__1__2__datapi + (signed long int)2;
                 if(pdata->args.no_quick_subsample == 1)
-                  rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$datapi_next = rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$datapi_next + (signed long int)2;
+                  rmdGetFrame__1__4__5__4__1__1__2__datapi_next = rmdGetFrame__1__4__5__4__1__1__2__datapi_next + (signed long int)2;
 
                 yuv_u = yuv_u + 1l;
                 yuv_v = yuv_v + 1l;
               }
               yuv_u = yuv_u + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
               yuv_v = yuv_v + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
-              rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$datapi = rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$datapi + (signed long int)temp_brwin.rrect.width;
+              rmdGetFrame__1__4__5__4__1__1__2__datapi = rmdGetFrame__1__4__5__4__1__1__2__datapi + (signed long int)temp_brwin.rrect.width;
               if(pdata->args.no_quick_subsample == 1)
-                rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$datapi_next = rmdGetFrame$$1$$4$$5$$4$$1$$1$$2$$datapi_next + (signed long int)temp_brwin.rrect.width;
+                rmdGetFrame__1__4__5__4__1__1__2__datapi_next = rmdGetFrame__1__4__5__4__1__1__2__datapi_next + (signed long int)temp_brwin.rrect.width;
 
             }
           }
@@ -9391,77 +9391,77 @@ void * rmdGetFrame(struct _ProgData *pdata)
           else
             if(pdata->specs.depth == 16)
             {
-              signed int rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$k;
-              signed int rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$i;
-              unsigned short int rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$t_val;
-              unsigned char *rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$yuv_y = (&pdata->enc_data->yuv)->y + (signed long int)pdata->enc_data->x_offset + (signed long int)(pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->y_width);
-              unsigned char *rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$_yr = Yr;
-              unsigned char *rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$_yg = Yg;
-              unsigned char *rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$_yb = Yb;
-              unsigned short int *rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$datapi = (unsigned short int *)rmdGetFrame$$1$$4$$5$$front_buff;
-              rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$k = 0;
-              for( ; !(rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$k >= (signed int)temp_brwin.rrect.height); rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$k = rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$k + 1)
+              signed int rmdGetFrame__1__4__5__4__1__2__1__k;
+              signed int rmdGetFrame__1__4__5__4__1__2__1__i;
+              unsigned short int rmdGetFrame__1__4__5__4__1__2__1__t_val;
+              unsigned char *rmdGetFrame__1__4__5__4__1__2__1__yuv_y = (&pdata->enc_data->yuv)->y + (signed long int)pdata->enc_data->x_offset + (signed long int)(pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->y_width);
+              unsigned char *rmdGetFrame__1__4__5__4__1__2__1___yr = Yr;
+              unsigned char *rmdGetFrame__1__4__5__4__1__2__1___yg = Yg;
+              unsigned char *rmdGetFrame__1__4__5__4__1__2__1___yb = Yb;
+              unsigned short int *rmdGetFrame__1__4__5__4__1__2__1__datapi = (unsigned short int *)rmdGetFrame__1__4__5__front_buff;
+              rmdGetFrame__1__4__5__4__1__2__1__k = 0;
+              for( ; !(rmdGetFrame__1__4__5__4__1__2__1__k >= (signed int)temp_brwin.rrect.height); rmdGetFrame__1__4__5__4__1__2__1__k = rmdGetFrame__1__4__5__4__1__2__1__k + 1)
               {
-                rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$i = 0;
-                for( ; !(rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$i >= (signed int)temp_brwin.rrect.width); rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$i = rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$i + 1)
+                rmdGetFrame__1__4__5__4__1__2__1__i = 0;
+                for( ; !(rmdGetFrame__1__4__5__4__1__2__1__i >= (signed int)temp_brwin.rrect.width); rmdGetFrame__1__4__5__4__1__2__1__i = rmdGetFrame__1__4__5__4__1__2__1__i + 1)
                 {
-                  rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$t_val = *rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$datapi;
-                  *rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$yuv_y = (unsigned char)((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$_yr[(signed long int)((((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$t_val & 0xf800) >> 11) * 8)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$_yg[(signed long int)((((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$t_val & 0x7e0) >> 5) * 4)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$_yb[(signed long int)(((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$t_val & 0x1f) * 8)]);
-                  rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$datapi = rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$datapi + 1l;
-                  rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$yuv_y = rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$yuv_y + 1l;
+                  rmdGetFrame__1__4__5__4__1__2__1__t_val = *rmdGetFrame__1__4__5__4__1__2__1__datapi;
+                  *rmdGetFrame__1__4__5__4__1__2__1__yuv_y = (unsigned char)((signed int)rmdGetFrame__1__4__5__4__1__2__1___yr[(signed long int)((((signed int)rmdGetFrame__1__4__5__4__1__2__1__t_val & 0xf800) >> 11) * 8)] + (signed int)rmdGetFrame__1__4__5__4__1__2__1___yg[(signed long int)((((signed int)rmdGetFrame__1__4__5__4__1__2__1__t_val & 0x7e0) >> 5) * 4)] + (signed int)rmdGetFrame__1__4__5__4__1__2__1___yb[(signed long int)(((signed int)rmdGetFrame__1__4__5__4__1__2__1__t_val & 0x1f) * 8)]);
+                  rmdGetFrame__1__4__5__4__1__2__1__datapi = rmdGetFrame__1__4__5__4__1__2__1__datapi + 1l;
+                  rmdGetFrame__1__4__5__4__1__2__1__yuv_y = rmdGetFrame__1__4__5__4__1__2__1__yuv_y + 1l;
                 }
-                rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$yuv_y = rmdGetFrame$$1$$4$$5$$4$$1$$2$$1$$yuv_y + (signed long int)((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width);
+                rmdGetFrame__1__4__5__4__1__2__1__yuv_y = rmdGetFrame__1__4__5__4__1__2__1__yuv_y + (signed long int)((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width);
               }
-              signed int rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$k;
-              signed int rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$i;
-              unsigned short int rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$t_val;
-              unsigned char *rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$yuv_u = (&pdata->enc_data->yuv)->u + (signed long int)(pdata->enc_data->x_offset / 2) + (signed long int)((pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->uv_width) / 2);
-              unsigned char *rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$yuv_v = (&pdata->enc_data->yuv)->v + (signed long int)(pdata->enc_data->x_offset / 2) + (signed long int)((pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->uv_width) / 2);
-              unsigned char *rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$_ur = Ur;
-              unsigned char *rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$_ug = Ug;
-              unsigned char *rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$_ubvr = UbVr;
-              unsigned char *rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$_vg = Vg;
-              unsigned char *rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$_vb = Vb;
-              unsigned short int *rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$datapi = (unsigned short int *)rmdGetFrame$$1$$4$$5$$front_buff;
-              unsigned short int *rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$datapi_next = (unsigned short int *)(void *)0;
+              signed int rmdGetFrame__1__4__5__4__1__2__2__k;
+              signed int rmdGetFrame__1__4__5__4__1__2__2__i;
+              unsigned short int rmdGetFrame__1__4__5__4__1__2__2__t_val;
+              unsigned char *rmdGetFrame__1__4__5__4__1__2__2__yuv_u = (&pdata->enc_data->yuv)->u + (signed long int)(pdata->enc_data->x_offset / 2) + (signed long int)((pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->uv_width) / 2);
+              unsigned char *rmdGetFrame__1__4__5__4__1__2__2__yuv_v = (&pdata->enc_data->yuv)->v + (signed long int)(pdata->enc_data->x_offset / 2) + (signed long int)((pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->uv_width) / 2);
+              unsigned char *rmdGetFrame__1__4__5__4__1__2__2___ur = Ur;
+              unsigned char *rmdGetFrame__1__4__5__4__1__2__2___ug = Ug;
+              unsigned char *rmdGetFrame__1__4__5__4__1__2__2___ubvr = UbVr;
+              unsigned char *rmdGetFrame__1__4__5__4__1__2__2___vg = Vg;
+              unsigned char *rmdGetFrame__1__4__5__4__1__2__2___vb = Vb;
+              unsigned short int *rmdGetFrame__1__4__5__4__1__2__2__datapi = (unsigned short int *)rmdGetFrame__1__4__5__front_buff;
+              unsigned short int *rmdGetFrame__1__4__5__4__1__2__2__datapi_next = (unsigned short int *)(void *)0;
               if(pdata->args.no_quick_subsample == 1)
-                rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$datapi_next = rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$datapi + (signed long int)temp_brwin.rrect.width;
+                rmdGetFrame__1__4__5__4__1__2__2__datapi_next = rmdGetFrame__1__4__5__4__1__2__2__datapi + (signed long int)temp_brwin.rrect.width;
 
-              rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$k = 0;
-              for( ; !(rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$k >= (signed int)temp_brwin.rrect.height); rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$k = rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$k + 2)
+              rmdGetFrame__1__4__5__4__1__2__2__k = 0;
+              for( ; !(rmdGetFrame__1__4__5__4__1__2__2__k >= (signed int)temp_brwin.rrect.height); rmdGetFrame__1__4__5__4__1__2__2__k = rmdGetFrame__1__4__5__4__1__2__2__k + 2)
               {
-                rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$i = 0;
-                for( ; !(rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$i >= (signed int)temp_brwin.rrect.width); rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$i = rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$i + 2)
+                rmdGetFrame__1__4__5__4__1__2__2__i = 0;
+                for( ; !(rmdGetFrame__1__4__5__4__1__2__2__i >= (signed int)temp_brwin.rrect.width); rmdGetFrame__1__4__5__4__1__2__2__i = rmdGetFrame__1__4__5__4__1__2__2__i + 2)
                 {
                   if(pdata->args.no_quick_subsample == 1)
                   {
-                    unsigned short int rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t1;
-                    unsigned short int rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t2;
-                    unsigned short int rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t3;
-                    unsigned short int rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t4;
-                    rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t1 = *rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$datapi;
-                    rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t2 = rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$datapi[(signed long int)1];
-                    rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t3 = *rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$datapi_next;
-                    rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t4 = rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$datapi_next[(signed long int)1];
-                    rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$t_val = (unsigned short int)(((((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t1 & 0xf800) + ((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t2 & 0xf800) + ((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t3 & 0xf800) + ((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t4 & 0xf800)) / 4 & 0xf800) + ((((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t1 & 0x7e0) + ((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t2 & 0x7e0) + ((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t3 & 0x7e0) + ((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t4 & 0x7e0)) / 4 & 0x7e0) + ((((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t1 & 0x1f) + ((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t2 & 0x1f) + ((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t3 & 0x1f) + ((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t4 & 0x1f)) / 4 & 0x1f));
+                    unsigned short int rmdGetFrame__1__4__5__4__1__2__2__2__1__1__1__1__1__t1;
+                    unsigned short int rmdGetFrame__1__4__5__4__1__2__2__2__1__1__1__1__1__t2;
+                    unsigned short int rmdGetFrame__1__4__5__4__1__2__2__2__1__1__1__1__1__t3;
+                    unsigned short int rmdGetFrame__1__4__5__4__1__2__2__2__1__1__1__1__1__t4;
+                    rmdGetFrame__1__4__5__4__1__2__2__2__1__1__1__1__1__t1 = *rmdGetFrame__1__4__5__4__1__2__2__datapi;
+                    rmdGetFrame__1__4__5__4__1__2__2__2__1__1__1__1__1__t2 = rmdGetFrame__1__4__5__4__1__2__2__datapi[(signed long int)1];
+                    rmdGetFrame__1__4__5__4__1__2__2__2__1__1__1__1__1__t3 = *rmdGetFrame__1__4__5__4__1__2__2__datapi_next;
+                    rmdGetFrame__1__4__5__4__1__2__2__2__1__1__1__1__1__t4 = rmdGetFrame__1__4__5__4__1__2__2__datapi_next[(signed long int)1];
+                    rmdGetFrame__1__4__5__4__1__2__2__t_val = (unsigned short int)(((((signed int)rmdGetFrame__1__4__5__4__1__2__2__2__1__1__1__1__1__t1 & 0xf800) + ((signed int)rmdGetFrame__1__4__5__4__1__2__2__2__1__1__1__1__1__t2 & 0xf800) + ((signed int)rmdGetFrame__1__4__5__4__1__2__2__2__1__1__1__1__1__t3 & 0xf800) + ((signed int)rmdGetFrame__1__4__5__4__1__2__2__2__1__1__1__1__1__t4 & 0xf800)) / 4 & 0xf800) + ((((signed int)rmdGetFrame__1__4__5__4__1__2__2__2__1__1__1__1__1__t1 & 0x7e0) + ((signed int)rmdGetFrame__1__4__5__4__1__2__2__2__1__1__1__1__1__t2 & 0x7e0) + ((signed int)rmdGetFrame__1__4__5__4__1__2__2__2__1__1__1__1__1__t3 & 0x7e0) + ((signed int)rmdGetFrame__1__4__5__4__1__2__2__2__1__1__1__1__1__t4 & 0x7e0)) / 4 & 0x7e0) + ((((signed int)rmdGetFrame__1__4__5__4__1__2__2__2__1__1__1__1__1__t1 & 0x1f) + ((signed int)rmdGetFrame__1__4__5__4__1__2__2__2__1__1__1__1__1__t2 & 0x1f) + ((signed int)rmdGetFrame__1__4__5__4__1__2__2__2__1__1__1__1__1__t3 & 0x1f) + ((signed int)rmdGetFrame__1__4__5__4__1__2__2__2__1__1__1__1__1__t4 & 0x1f)) / 4 & 0x1f));
                   }
 
                   else
-                    rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$t_val = *rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$datapi;
-                  *rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$yuv_u = (unsigned char)((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$_ur[(signed long int)((((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$t_val & 0xf800) >> 11) * 8)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$_ug[(signed long int)((((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$t_val & 0x7e0) >> 5) * 4)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$_ubvr[(signed long int)(((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$t_val & 0x1f) * 8)]);
-                  *rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$yuv_v = (unsigned char)((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$_ubvr[(signed long int)((((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$t_val & 0xf800) >> 11) * 8)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$_vg[(signed long int)((((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$t_val & 0x7e0) >> 5) * 4)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$_vb[(signed long int)(((signed int)rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$t_val & 0x1f) * 8)]);
-                  rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$datapi = rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$datapi + (signed long int)2;
+                    rmdGetFrame__1__4__5__4__1__2__2__t_val = *rmdGetFrame__1__4__5__4__1__2__2__datapi;
+                  *rmdGetFrame__1__4__5__4__1__2__2__yuv_u = (unsigned char)((signed int)rmdGetFrame__1__4__5__4__1__2__2___ur[(signed long int)((((signed int)rmdGetFrame__1__4__5__4__1__2__2__t_val & 0xf800) >> 11) * 8)] + (signed int)rmdGetFrame__1__4__5__4__1__2__2___ug[(signed long int)((((signed int)rmdGetFrame__1__4__5__4__1__2__2__t_val & 0x7e0) >> 5) * 4)] + (signed int)rmdGetFrame__1__4__5__4__1__2__2___ubvr[(signed long int)(((signed int)rmdGetFrame__1__4__5__4__1__2__2__t_val & 0x1f) * 8)]);
+                  *rmdGetFrame__1__4__5__4__1__2__2__yuv_v = (unsigned char)((signed int)rmdGetFrame__1__4__5__4__1__2__2___ubvr[(signed long int)((((signed int)rmdGetFrame__1__4__5__4__1__2__2__t_val & 0xf800) >> 11) * 8)] + (signed int)rmdGetFrame__1__4__5__4__1__2__2___vg[(signed long int)((((signed int)rmdGetFrame__1__4__5__4__1__2__2__t_val & 0x7e0) >> 5) * 4)] + (signed int)rmdGetFrame__1__4__5__4__1__2__2___vb[(signed long int)(((signed int)rmdGetFrame__1__4__5__4__1__2__2__t_val & 0x1f) * 8)]);
+                  rmdGetFrame__1__4__5__4__1__2__2__datapi = rmdGetFrame__1__4__5__4__1__2__2__datapi + (signed long int)2;
                   if(pdata->args.no_quick_subsample == 1)
-                    rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$datapi_next = rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$datapi_next + (signed long int)2;
+                    rmdGetFrame__1__4__5__4__1__2__2__datapi_next = rmdGetFrame__1__4__5__4__1__2__2__datapi_next + (signed long int)2;
 
-                  rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$yuv_u = rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$yuv_u + 1l;
-                  rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$yuv_v = rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$yuv_v + 1l;
+                  rmdGetFrame__1__4__5__4__1__2__2__yuv_u = rmdGetFrame__1__4__5__4__1__2__2__yuv_u + 1l;
+                  rmdGetFrame__1__4__5__4__1__2__2__yuv_v = rmdGetFrame__1__4__5__4__1__2__2__yuv_v + 1l;
                 }
-                rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$yuv_u = rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$yuv_u + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
-                rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$yuv_v = rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$yuv_v + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
-                rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$datapi = rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$datapi + (signed long int)temp_brwin.rrect.width;
+                rmdGetFrame__1__4__5__4__1__2__2__yuv_u = rmdGetFrame__1__4__5__4__1__2__2__yuv_u + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
+                rmdGetFrame__1__4__5__4__1__2__2__yuv_v = rmdGetFrame__1__4__5__4__1__2__2__yuv_v + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
+                rmdGetFrame__1__4__5__4__1__2__2__datapi = rmdGetFrame__1__4__5__4__1__2__2__datapi + (signed long int)temp_brwin.rrect.width;
                 if(pdata->args.no_quick_subsample == 1)
-                  rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$datapi_next = rmdGetFrame$$1$$4$$5$$4$$1$$2$$2$$datapi_next + (signed long int)temp_brwin.rrect.width;
+                  rmdGetFrame__1__4__5__4__1__2__2__datapi_next = rmdGetFrame__1__4__5__4__1__2__2__datapi_next + (signed long int)temp_brwin.rrect.width;
 
               }
             }
@@ -9471,121 +9471,121 @@ void * rmdGetFrame(struct _ProgData *pdata)
         else
         {
           if(pdata->specs.depth == 24)
-            tmp_if_expr$34 = (_Bool)1;
+            tmp_if_expr_34 = (_Bool)1;
 
           else
-            tmp_if_expr$34 = pdata->specs.depth == 32 ? (_Bool)1 : (_Bool)0;
-          if(tmp_if_expr$34)
+            tmp_if_expr_34 = pdata->specs.depth == 32 ? (_Bool)1 : (_Bool)0;
+          if(tmp_if_expr_34)
           {
-            signed int rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$k;
-            signed int rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$i;
-            unsigned int rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$t_val;
-            unsigned char *rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$yuv_y = (&pdata->enc_data->yuv)->y + (signed long int)pdata->enc_data->x_offset + (signed long int)(pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->y_width);
-            unsigned char *rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$_yr = Yr;
-            unsigned char *rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$_yg = Yg;
-            unsigned char *rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$_yb = Yb;
-            unsigned int *rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$datapi = (unsigned int *)rmdGetFrame$$1$$4$$5$$front_buff;
-            unsigned int *rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$datapi_back = (unsigned int *)rmdGetFrame$$1$$4$$5$$back_buff;
-            rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$k = 0;
-            for( ; !(rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$k >= (signed int)temp_brwin.rrect.height); rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$k = rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$k + 1)
+            signed int rmdGetFrame__1__4__5__4__2__1__1__k;
+            signed int rmdGetFrame__1__4__5__4__2__1__1__i;
+            unsigned int rmdGetFrame__1__4__5__4__2__1__1__t_val;
+            unsigned char *rmdGetFrame__1__4__5__4__2__1__1__yuv_y = (&pdata->enc_data->yuv)->y + (signed long int)pdata->enc_data->x_offset + (signed long int)(pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->y_width);
+            unsigned char *rmdGetFrame__1__4__5__4__2__1__1___yr = Yr;
+            unsigned char *rmdGetFrame__1__4__5__4__2__1__1___yg = Yg;
+            unsigned char *rmdGetFrame__1__4__5__4__2__1__1___yb = Yb;
+            unsigned int *rmdGetFrame__1__4__5__4__2__1__1__datapi = (unsigned int *)rmdGetFrame__1__4__5__front_buff;
+            unsigned int *rmdGetFrame__1__4__5__4__2__1__1__datapi_back = (unsigned int *)rmdGetFrame__1__4__5__back_buff;
+            rmdGetFrame__1__4__5__4__2__1__1__k = 0;
+            for( ; !(rmdGetFrame__1__4__5__4__2__1__1__k >= (signed int)temp_brwin.rrect.height); rmdGetFrame__1__4__5__4__2__1__1__k = rmdGetFrame__1__4__5__4__2__1__1__k + 1)
             {
-              rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$i = 0;
-              for( ; !(rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$i >= (signed int)temp_brwin.rrect.width); rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$i = rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$i + 1)
+              rmdGetFrame__1__4__5__4__2__1__1__i = 0;
+              for( ; !(rmdGetFrame__1__4__5__4__2__1__1__i >= (signed int)temp_brwin.rrect.width); rmdGetFrame__1__4__5__4__2__1__1__i = rmdGetFrame__1__4__5__4__2__1__1__i + 1)
               {
-                if(!(*rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$datapi == *rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$datapi_back))
+                if(!(*rmdGetFrame__1__4__5__4__2__1__1__datapi == *rmdGetFrame__1__4__5__4__2__1__1__datapi_back))
                 {
-                  rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$t_val = *rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$datapi;
-                  *rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$yuv_y = (unsigned char)((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$_yr[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$t_val & (unsigned int)0x00ff0000) >> 16)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$_yg[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$t_val & (unsigned int)0x0000ff00) >> 8)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$_yb[(signed long int)(rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$t_val & (unsigned int)0x000000ff)]);
-                  yblocks[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$k / 0x0010) * ((signed int)temp_brwin.rrect.width / 0x0010) + rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$i / 0x0010)] = (unsigned int)1;
+                  rmdGetFrame__1__4__5__4__2__1__1__t_val = *rmdGetFrame__1__4__5__4__2__1__1__datapi;
+                  *rmdGetFrame__1__4__5__4__2__1__1__yuv_y = (unsigned char)((signed int)rmdGetFrame__1__4__5__4__2__1__1___yr[(signed long int)((rmdGetFrame__1__4__5__4__2__1__1__t_val & (unsigned int)0x00ff0000) >> 16)] + (signed int)rmdGetFrame__1__4__5__4__2__1__1___yg[(signed long int)((rmdGetFrame__1__4__5__4__2__1__1__t_val & (unsigned int)0x0000ff00) >> 8)] + (signed int)rmdGetFrame__1__4__5__4__2__1__1___yb[(signed long int)(rmdGetFrame__1__4__5__4__2__1__1__t_val & (unsigned int)0x000000ff)]);
+                  yblocks[(signed long int)((rmdGetFrame__1__4__5__4__2__1__1__k / 0x0010) * ((signed int)temp_brwin.rrect.width / 0x0010) + rmdGetFrame__1__4__5__4__2__1__1__i / 0x0010)] = (unsigned int)1;
                 }
 
-                rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$datapi = rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$datapi + 1l;
-                rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$datapi_back = rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$datapi_back + 1l;
-                rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$yuv_y = rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$yuv_y + 1l;
+                rmdGetFrame__1__4__5__4__2__1__1__datapi = rmdGetFrame__1__4__5__4__2__1__1__datapi + 1l;
+                rmdGetFrame__1__4__5__4__2__1__1__datapi_back = rmdGetFrame__1__4__5__4__2__1__1__datapi_back + 1l;
+                rmdGetFrame__1__4__5__4__2__1__1__yuv_y = rmdGetFrame__1__4__5__4__2__1__1__yuv_y + 1l;
               }
-              rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$yuv_y = rmdGetFrame$$1$$4$$5$$4$$2$$1$$1$$yuv_y + (signed long int)((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width);
+              rmdGetFrame__1__4__5__4__2__1__1__yuv_y = rmdGetFrame__1__4__5__4__2__1__1__yuv_y + (signed long int)((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width);
             }
-            signed int rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$k;
-            signed int rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$i;
-            unsigned int rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$t_val;
-            unsigned char *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_u = (&pdata->enc_data->yuv)->u + (signed long int)(pdata->enc_data->x_offset / 2) + (signed long int)((pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->uv_width) / 2);
-            unsigned char *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_v = (&pdata->enc_data->yuv)->v + (signed long int)(pdata->enc_data->x_offset / 2) + (signed long int)((pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->uv_width) / 2);
-            unsigned char *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$_ur = Ur;
-            unsigned char *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$_ug = Ug;
-            unsigned char *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$_ubvr = UbVr;
-            unsigned char *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$_vg = Vg;
-            unsigned char *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$_vb = Vb;
-            unsigned int *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi = (unsigned int *)rmdGetFrame$$1$$4$$5$$front_buff;
-            unsigned int *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_next = (unsigned int *)(void *)0;
-            unsigned int *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back = (unsigned int *)rmdGetFrame$$1$$4$$5$$back_buff;
-            unsigned int *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back_next = (unsigned int *)(void *)0;
+            signed int rmdGetFrame__1__4__5__4__2__1__2__k;
+            signed int rmdGetFrame__1__4__5__4__2__1__2__i;
+            unsigned int rmdGetFrame__1__4__5__4__2__1__2__t_val;
+            unsigned char *rmdGetFrame__1__4__5__4__2__1__2__yuv_u = (&pdata->enc_data->yuv)->u + (signed long int)(pdata->enc_data->x_offset / 2) + (signed long int)((pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->uv_width) / 2);
+            unsigned char *rmdGetFrame__1__4__5__4__2__1__2__yuv_v = (&pdata->enc_data->yuv)->v + (signed long int)(pdata->enc_data->x_offset / 2) + (signed long int)((pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->uv_width) / 2);
+            unsigned char *rmdGetFrame__1__4__5__4__2__1__2___ur = Ur;
+            unsigned char *rmdGetFrame__1__4__5__4__2__1__2___ug = Ug;
+            unsigned char *rmdGetFrame__1__4__5__4__2__1__2___ubvr = UbVr;
+            unsigned char *rmdGetFrame__1__4__5__4__2__1__2___vg = Vg;
+            unsigned char *rmdGetFrame__1__4__5__4__2__1__2___vb = Vb;
+            unsigned int *rmdGetFrame__1__4__5__4__2__1__2__datapi = (unsigned int *)rmdGetFrame__1__4__5__front_buff;
+            unsigned int *rmdGetFrame__1__4__5__4__2__1__2__datapi_next = (unsigned int *)(void *)0;
+            unsigned int *rmdGetFrame__1__4__5__4__2__1__2__datapi_back = (unsigned int *)rmdGetFrame__1__4__5__back_buff;
+            unsigned int *rmdGetFrame__1__4__5__4__2__1__2__datapi_back_next = (unsigned int *)(void *)0;
             if(pdata->args.no_quick_subsample == 1)
             {
-              rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_next = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi + (signed long int)temp_brwin.rrect.width;
-              rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back_next = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back + (signed long int)temp_brwin.rrect.width;
-              rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$k = 0;
-              for( ; !(rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$k >= (signed int)temp_brwin.rrect.height); rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$k = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$k + 2)
+              rmdGetFrame__1__4__5__4__2__1__2__datapi_next = rmdGetFrame__1__4__5__4__2__1__2__datapi + (signed long int)temp_brwin.rrect.width;
+              rmdGetFrame__1__4__5__4__2__1__2__datapi_back_next = rmdGetFrame__1__4__5__4__2__1__2__datapi_back + (signed long int)temp_brwin.rrect.width;
+              rmdGetFrame__1__4__5__4__2__1__2__k = 0;
+              for( ; !(rmdGetFrame__1__4__5__4__2__1__2__k >= (signed int)temp_brwin.rrect.height); rmdGetFrame__1__4__5__4__2__1__2__k = rmdGetFrame__1__4__5__4__2__1__2__k + 2)
               {
-                rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$i = 0;
-                for( ; !(rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$i >= (signed int)temp_brwin.rrect.width); rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$i = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$i + 2)
+                rmdGetFrame__1__4__5__4__2__1__2__i = 0;
+                for( ; !(rmdGetFrame__1__4__5__4__2__1__2__i >= (signed int)temp_brwin.rrect.width); rmdGetFrame__1__4__5__4__2__1__2__i = rmdGetFrame__1__4__5__4__2__1__2__i + 2)
                 {
-                  if(!(*rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi == *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back))
-                    tmp_if_expr$28 = (_Bool)1;
+                  if(!(*rmdGetFrame__1__4__5__4__2__1__2__datapi == *rmdGetFrame__1__4__5__4__2__1__2__datapi_back))
+                    tmp_if_expr_28 = (_Bool)1;
 
                   else
-                    tmp_if_expr$28 = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi[(signed long int)1] != rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back[(signed long int)1] ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$28)
-                    tmp_if_expr$29 = (_Bool)1;
+                    tmp_if_expr_28 = rmdGetFrame__1__4__5__4__2__1__2__datapi[(signed long int)1] != rmdGetFrame__1__4__5__4__2__1__2__datapi_back[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_28)
+                    tmp_if_expr_29 = (_Bool)1;
 
                   else
-                    tmp_if_expr$29 = *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_next != *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back_next ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$29)
-                    tmp_if_expr$30 = (_Bool)1;
+                    tmp_if_expr_29 = *rmdGetFrame__1__4__5__4__2__1__2__datapi_next != *rmdGetFrame__1__4__5__4__2__1__2__datapi_back_next ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_29)
+                    tmp_if_expr_30 = (_Bool)1;
 
                   else
-                    tmp_if_expr$30 = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_next[(signed long int)1] != rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back_next[(signed long int)1] ? (_Bool)1 : (_Bool)0;
-                  if(tmp_if_expr$30)
+                    tmp_if_expr_30 = rmdGetFrame__1__4__5__4__2__1__2__datapi_next[(signed long int)1] != rmdGetFrame__1__4__5__4__2__1__2__datapi_back_next[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+                  if(tmp_if_expr_30)
                   {
                     if(pdata->args.no_quick_subsample == 1)
                     {
-                      unsigned int rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$t1;
-                      unsigned int rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$t2;
-                      unsigned int rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$t3;
-                      unsigned int rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$t4;
-                      rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$t1 = *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi;
-                      rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$t2 = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi[(signed long int)1];
-                      rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$t3 = *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_next;
-                      rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$t4 = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_next[(signed long int)1];
-                      rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$t_val = (((rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$t1 & (unsigned int)0x00ff0000) + (rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$t2 & (unsigned int)0x00ff0000) + (rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$t3 & (unsigned int)0x00ff0000) + (rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$t4 & (unsigned int)0x00ff0000)) / (unsigned int)4 & (unsigned int)0x00ff0000) + (((rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$t1 & (unsigned int)0x0000ff00) + (rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$t2 & (unsigned int)0x0000ff00) + (rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$t3 & (unsigned int)0x0000ff00) + (rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$t4 & (unsigned int)0x0000ff00)) / (unsigned int)4 & (unsigned int)0x0000ff00) + (((rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$t1 & (unsigned int)0x000000ff) + (rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$t2 & (unsigned int)0x000000ff) + (rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$t3 & (unsigned int)0x000000ff) + (rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$1$$1$$1$$1$$1$$1$$1$$1$$t4 & (unsigned int)0x000000ff)) / (unsigned int)4 & (unsigned int)0x000000ff);
+                      unsigned int rmdGetFrame__1__4__5__4__2__1__2__1__1__1__1__1__1__1__1__t1;
+                      unsigned int rmdGetFrame__1__4__5__4__2__1__2__1__1__1__1__1__1__1__1__t2;
+                      unsigned int rmdGetFrame__1__4__5__4__2__1__2__1__1__1__1__1__1__1__1__t3;
+                      unsigned int rmdGetFrame__1__4__5__4__2__1__2__1__1__1__1__1__1__1__1__t4;
+                      rmdGetFrame__1__4__5__4__2__1__2__1__1__1__1__1__1__1__1__t1 = *rmdGetFrame__1__4__5__4__2__1__2__datapi;
+                      rmdGetFrame__1__4__5__4__2__1__2__1__1__1__1__1__1__1__1__t2 = rmdGetFrame__1__4__5__4__2__1__2__datapi[(signed long int)1];
+                      rmdGetFrame__1__4__5__4__2__1__2__1__1__1__1__1__1__1__1__t3 = *rmdGetFrame__1__4__5__4__2__1__2__datapi_next;
+                      rmdGetFrame__1__4__5__4__2__1__2__1__1__1__1__1__1__1__1__t4 = rmdGetFrame__1__4__5__4__2__1__2__datapi_next[(signed long int)1];
+                      rmdGetFrame__1__4__5__4__2__1__2__t_val = (((rmdGetFrame__1__4__5__4__2__1__2__1__1__1__1__1__1__1__1__t1 & (unsigned int)0x00ff0000) + (rmdGetFrame__1__4__5__4__2__1__2__1__1__1__1__1__1__1__1__t2 & (unsigned int)0x00ff0000) + (rmdGetFrame__1__4__5__4__2__1__2__1__1__1__1__1__1__1__1__t3 & (unsigned int)0x00ff0000) + (rmdGetFrame__1__4__5__4__2__1__2__1__1__1__1__1__1__1__1__t4 & (unsigned int)0x00ff0000)) / (unsigned int)4 & (unsigned int)0x00ff0000) + (((rmdGetFrame__1__4__5__4__2__1__2__1__1__1__1__1__1__1__1__t1 & (unsigned int)0x0000ff00) + (rmdGetFrame__1__4__5__4__2__1__2__1__1__1__1__1__1__1__1__t2 & (unsigned int)0x0000ff00) + (rmdGetFrame__1__4__5__4__2__1__2__1__1__1__1__1__1__1__1__t3 & (unsigned int)0x0000ff00) + (rmdGetFrame__1__4__5__4__2__1__2__1__1__1__1__1__1__1__1__t4 & (unsigned int)0x0000ff00)) / (unsigned int)4 & (unsigned int)0x0000ff00) + (((rmdGetFrame__1__4__5__4__2__1__2__1__1__1__1__1__1__1__1__t1 & (unsigned int)0x000000ff) + (rmdGetFrame__1__4__5__4__2__1__2__1__1__1__1__1__1__1__1__t2 & (unsigned int)0x000000ff) + (rmdGetFrame__1__4__5__4__2__1__2__1__1__1__1__1__1__1__1__t3 & (unsigned int)0x000000ff) + (rmdGetFrame__1__4__5__4__2__1__2__1__1__1__1__1__1__1__1__t4 & (unsigned int)0x000000ff)) / (unsigned int)4 & (unsigned int)0x000000ff);
                     }
 
                     else
-                      rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$t_val = *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi;
-                    *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_u = (unsigned char)((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$_ur[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$t_val & (unsigned int)0x00ff0000) >> 16)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$_ug[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$t_val & (unsigned int)0x0000ff00) >> 8)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$_ubvr[(signed long int)(rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$t_val & (unsigned int)0x000000ff)]);
-                    *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_v = (unsigned char)((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$_ubvr[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$t_val & (unsigned int)0x00ff0000) >> 16)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$_vg[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$t_val & (unsigned int)0x0000ff00) >> 8)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$_vb[(signed long int)(rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$t_val & (unsigned int)0x000000ff)]);
-                    ublocks[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$k / 0x0010) * ((signed int)temp_brwin.rrect.width / 0x0010) + rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$i / 0x0010)] = (unsigned int)1;
-                    vblocks[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$k / 0x0010) * ((signed int)temp_brwin.rrect.width / 0x0010) + rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$i / 0x0010)] = (unsigned int)1;
+                      rmdGetFrame__1__4__5__4__2__1__2__t_val = *rmdGetFrame__1__4__5__4__2__1__2__datapi;
+                    *rmdGetFrame__1__4__5__4__2__1__2__yuv_u = (unsigned char)((signed int)rmdGetFrame__1__4__5__4__2__1__2___ur[(signed long int)((rmdGetFrame__1__4__5__4__2__1__2__t_val & (unsigned int)0x00ff0000) >> 16)] + (signed int)rmdGetFrame__1__4__5__4__2__1__2___ug[(signed long int)((rmdGetFrame__1__4__5__4__2__1__2__t_val & (unsigned int)0x0000ff00) >> 8)] + (signed int)rmdGetFrame__1__4__5__4__2__1__2___ubvr[(signed long int)(rmdGetFrame__1__4__5__4__2__1__2__t_val & (unsigned int)0x000000ff)]);
+                    *rmdGetFrame__1__4__5__4__2__1__2__yuv_v = (unsigned char)((signed int)rmdGetFrame__1__4__5__4__2__1__2___ubvr[(signed long int)((rmdGetFrame__1__4__5__4__2__1__2__t_val & (unsigned int)0x00ff0000) >> 16)] + (signed int)rmdGetFrame__1__4__5__4__2__1__2___vg[(signed long int)((rmdGetFrame__1__4__5__4__2__1__2__t_val & (unsigned int)0x0000ff00) >> 8)] + (signed int)rmdGetFrame__1__4__5__4__2__1__2___vb[(signed long int)(rmdGetFrame__1__4__5__4__2__1__2__t_val & (unsigned int)0x000000ff)]);
+                    ublocks[(signed long int)((rmdGetFrame__1__4__5__4__2__1__2__k / 0x0010) * ((signed int)temp_brwin.rrect.width / 0x0010) + rmdGetFrame__1__4__5__4__2__1__2__i / 0x0010)] = (unsigned int)1;
+                    vblocks[(signed long int)((rmdGetFrame__1__4__5__4__2__1__2__k / 0x0010) * ((signed int)temp_brwin.rrect.width / 0x0010) + rmdGetFrame__1__4__5__4__2__1__2__i / 0x0010)] = (unsigned int)1;
                   }
 
-                  rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi + (signed long int)2;
-                  rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back + (signed long int)2;
+                  rmdGetFrame__1__4__5__4__2__1__2__datapi = rmdGetFrame__1__4__5__4__2__1__2__datapi + (signed long int)2;
+                  rmdGetFrame__1__4__5__4__2__1__2__datapi_back = rmdGetFrame__1__4__5__4__2__1__2__datapi_back + (signed long int)2;
                   if(pdata->args.no_quick_subsample == 1)
                   {
-                    rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_next = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_next + (signed long int)2;
-                    rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back_next = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back_next + (signed long int)2;
+                    rmdGetFrame__1__4__5__4__2__1__2__datapi_next = rmdGetFrame__1__4__5__4__2__1__2__datapi_next + (signed long int)2;
+                    rmdGetFrame__1__4__5__4__2__1__2__datapi_back_next = rmdGetFrame__1__4__5__4__2__1__2__datapi_back_next + (signed long int)2;
                   }
 
-                  rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_u = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_u + 1l;
-                  rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_v = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_v + 1l;
+                  rmdGetFrame__1__4__5__4__2__1__2__yuv_u = rmdGetFrame__1__4__5__4__2__1__2__yuv_u + 1l;
+                  rmdGetFrame__1__4__5__4__2__1__2__yuv_v = rmdGetFrame__1__4__5__4__2__1__2__yuv_v + 1l;
                 }
-                rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_u = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_u + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
-                rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_v = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_v + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
-                rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi + (signed long int)temp_brwin.rrect.width;
-                rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back + (signed long int)temp_brwin.rrect.width;
+                rmdGetFrame__1__4__5__4__2__1__2__yuv_u = rmdGetFrame__1__4__5__4__2__1__2__yuv_u + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
+                rmdGetFrame__1__4__5__4__2__1__2__yuv_v = rmdGetFrame__1__4__5__4__2__1__2__yuv_v + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
+                rmdGetFrame__1__4__5__4__2__1__2__datapi = rmdGetFrame__1__4__5__4__2__1__2__datapi + (signed long int)temp_brwin.rrect.width;
+                rmdGetFrame__1__4__5__4__2__1__2__datapi_back = rmdGetFrame__1__4__5__4__2__1__2__datapi_back + (signed long int)temp_brwin.rrect.width;
                 if(pdata->args.no_quick_subsample == 1)
                 {
-                  rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_next = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_next + (signed long int)temp_brwin.rrect.width;
-                  rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back_next = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back_next + (signed long int)temp_brwin.rrect.width;
+                  rmdGetFrame__1__4__5__4__2__1__2__datapi_next = rmdGetFrame__1__4__5__4__2__1__2__datapi_next + (signed long int)temp_brwin.rrect.width;
+                  rmdGetFrame__1__4__5__4__2__1__2__datapi_back_next = rmdGetFrame__1__4__5__4__2__1__2__datapi_back_next + (signed long int)temp_brwin.rrect.width;
                 }
 
               }
@@ -9593,54 +9593,54 @@ void * rmdGetFrame(struct _ProgData *pdata)
 
             else
             {
-              rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$k = 0;
-              for( ; !(rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$k >= (signed int)temp_brwin.rrect.height); rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$k = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$k + 2)
+              rmdGetFrame__1__4__5__4__2__1__2__k = 0;
+              for( ; !(rmdGetFrame__1__4__5__4__2__1__2__k >= (signed int)temp_brwin.rrect.height); rmdGetFrame__1__4__5__4__2__1__2__k = rmdGetFrame__1__4__5__4__2__1__2__k + 2)
               {
-                rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$i = 0;
-                for( ; !(rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$i >= (signed int)temp_brwin.rrect.width); rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$i = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$i + 2)
+                rmdGetFrame__1__4__5__4__2__1__2__i = 0;
+                for( ; !(rmdGetFrame__1__4__5__4__2__1__2__i >= (signed int)temp_brwin.rrect.width); rmdGetFrame__1__4__5__4__2__1__2__i = rmdGetFrame__1__4__5__4__2__1__2__i + 2)
                 {
-                  if(!(*rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi == *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back))
+                  if(!(*rmdGetFrame__1__4__5__4__2__1__2__datapi == *rmdGetFrame__1__4__5__4__2__1__2__datapi_back))
                   {
                     if(pdata->args.no_quick_subsample == 1)
                     {
-                      unsigned int rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t1;
-                      unsigned int rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t2;
-                      unsigned int rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t3;
-                      unsigned int rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t4;
-                      rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t1 = *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi;
-                      rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t2 = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi[(signed long int)1];
-                      rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t3 = *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_next;
-                      rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t4 = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_next[(signed long int)1];
-                      rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$t_val = (((rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t1 & (unsigned int)0x00ff0000) + (rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t2 & (unsigned int)0x00ff0000) + (rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t3 & (unsigned int)0x00ff0000) + (rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t4 & (unsigned int)0x00ff0000)) / (unsigned int)4 & (unsigned int)0x00ff0000) + (((rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t1 & (unsigned int)0x0000ff00) + (rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t2 & (unsigned int)0x0000ff00) + (rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t3 & (unsigned int)0x0000ff00) + (rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t4 & (unsigned int)0x0000ff00)) / (unsigned int)4 & (unsigned int)0x0000ff00) + (((rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t1 & (unsigned int)0x000000ff) + (rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t2 & (unsigned int)0x000000ff) + (rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t3 & (unsigned int)0x000000ff) + (rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t4 & (unsigned int)0x000000ff)) / (unsigned int)4 & (unsigned int)0x000000ff);
+                      unsigned int rmdGetFrame__1__4__5__4__2__1__2__2__1__1__1__1__1__1__1__t1;
+                      unsigned int rmdGetFrame__1__4__5__4__2__1__2__2__1__1__1__1__1__1__1__t2;
+                      unsigned int rmdGetFrame__1__4__5__4__2__1__2__2__1__1__1__1__1__1__1__t3;
+                      unsigned int rmdGetFrame__1__4__5__4__2__1__2__2__1__1__1__1__1__1__1__t4;
+                      rmdGetFrame__1__4__5__4__2__1__2__2__1__1__1__1__1__1__1__t1 = *rmdGetFrame__1__4__5__4__2__1__2__datapi;
+                      rmdGetFrame__1__4__5__4__2__1__2__2__1__1__1__1__1__1__1__t2 = rmdGetFrame__1__4__5__4__2__1__2__datapi[(signed long int)1];
+                      rmdGetFrame__1__4__5__4__2__1__2__2__1__1__1__1__1__1__1__t3 = *rmdGetFrame__1__4__5__4__2__1__2__datapi_next;
+                      rmdGetFrame__1__4__5__4__2__1__2__2__1__1__1__1__1__1__1__t4 = rmdGetFrame__1__4__5__4__2__1__2__datapi_next[(signed long int)1];
+                      rmdGetFrame__1__4__5__4__2__1__2__t_val = (((rmdGetFrame__1__4__5__4__2__1__2__2__1__1__1__1__1__1__1__t1 & (unsigned int)0x00ff0000) + (rmdGetFrame__1__4__5__4__2__1__2__2__1__1__1__1__1__1__1__t2 & (unsigned int)0x00ff0000) + (rmdGetFrame__1__4__5__4__2__1__2__2__1__1__1__1__1__1__1__t3 & (unsigned int)0x00ff0000) + (rmdGetFrame__1__4__5__4__2__1__2__2__1__1__1__1__1__1__1__t4 & (unsigned int)0x00ff0000)) / (unsigned int)4 & (unsigned int)0x00ff0000) + (((rmdGetFrame__1__4__5__4__2__1__2__2__1__1__1__1__1__1__1__t1 & (unsigned int)0x0000ff00) + (rmdGetFrame__1__4__5__4__2__1__2__2__1__1__1__1__1__1__1__t2 & (unsigned int)0x0000ff00) + (rmdGetFrame__1__4__5__4__2__1__2__2__1__1__1__1__1__1__1__t3 & (unsigned int)0x0000ff00) + (rmdGetFrame__1__4__5__4__2__1__2__2__1__1__1__1__1__1__1__t4 & (unsigned int)0x0000ff00)) / (unsigned int)4 & (unsigned int)0x0000ff00) + (((rmdGetFrame__1__4__5__4__2__1__2__2__1__1__1__1__1__1__1__t1 & (unsigned int)0x000000ff) + (rmdGetFrame__1__4__5__4__2__1__2__2__1__1__1__1__1__1__1__t2 & (unsigned int)0x000000ff) + (rmdGetFrame__1__4__5__4__2__1__2__2__1__1__1__1__1__1__1__t3 & (unsigned int)0x000000ff) + (rmdGetFrame__1__4__5__4__2__1__2__2__1__1__1__1__1__1__1__t4 & (unsigned int)0x000000ff)) / (unsigned int)4 & (unsigned int)0x000000ff);
                     }
 
                     else
-                      rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$t_val = *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi;
-                    *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_u = (unsigned char)((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$_ur[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$t_val & (unsigned int)0x00ff0000) >> 16)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$_ug[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$t_val & (unsigned int)0x0000ff00) >> 8)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$_ubvr[(signed long int)(rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$t_val & (unsigned int)0x000000ff)]);
-                    *rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_v = (unsigned char)((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$_ubvr[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$t_val & (unsigned int)0x00ff0000) >> 16)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$_vg[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$t_val & (unsigned int)0x0000ff00) >> 8)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$_vb[(signed long int)(rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$t_val & (unsigned int)0x000000ff)]);
-                    ublocks[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$k / 0x0010) * ((signed int)temp_brwin.rrect.width / 0x0010) + rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$i / 0x0010)] = (unsigned int)1;
-                    vblocks[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$k / 0x0010) * ((signed int)temp_brwin.rrect.width / 0x0010) + rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$i / 0x0010)] = (unsigned int)1;
+                      rmdGetFrame__1__4__5__4__2__1__2__t_val = *rmdGetFrame__1__4__5__4__2__1__2__datapi;
+                    *rmdGetFrame__1__4__5__4__2__1__2__yuv_u = (unsigned char)((signed int)rmdGetFrame__1__4__5__4__2__1__2___ur[(signed long int)((rmdGetFrame__1__4__5__4__2__1__2__t_val & (unsigned int)0x00ff0000) >> 16)] + (signed int)rmdGetFrame__1__4__5__4__2__1__2___ug[(signed long int)((rmdGetFrame__1__4__5__4__2__1__2__t_val & (unsigned int)0x0000ff00) >> 8)] + (signed int)rmdGetFrame__1__4__5__4__2__1__2___ubvr[(signed long int)(rmdGetFrame__1__4__5__4__2__1__2__t_val & (unsigned int)0x000000ff)]);
+                    *rmdGetFrame__1__4__5__4__2__1__2__yuv_v = (unsigned char)((signed int)rmdGetFrame__1__4__5__4__2__1__2___ubvr[(signed long int)((rmdGetFrame__1__4__5__4__2__1__2__t_val & (unsigned int)0x00ff0000) >> 16)] + (signed int)rmdGetFrame__1__4__5__4__2__1__2___vg[(signed long int)((rmdGetFrame__1__4__5__4__2__1__2__t_val & (unsigned int)0x0000ff00) >> 8)] + (signed int)rmdGetFrame__1__4__5__4__2__1__2___vb[(signed long int)(rmdGetFrame__1__4__5__4__2__1__2__t_val & (unsigned int)0x000000ff)]);
+                    ublocks[(signed long int)((rmdGetFrame__1__4__5__4__2__1__2__k / 0x0010) * ((signed int)temp_brwin.rrect.width / 0x0010) + rmdGetFrame__1__4__5__4__2__1__2__i / 0x0010)] = (unsigned int)1;
+                    vblocks[(signed long int)((rmdGetFrame__1__4__5__4__2__1__2__k / 0x0010) * ((signed int)temp_brwin.rrect.width / 0x0010) + rmdGetFrame__1__4__5__4__2__1__2__i / 0x0010)] = (unsigned int)1;
                   }
 
-                  rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi + (signed long int)2;
-                  rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back + (signed long int)2;
+                  rmdGetFrame__1__4__5__4__2__1__2__datapi = rmdGetFrame__1__4__5__4__2__1__2__datapi + (signed long int)2;
+                  rmdGetFrame__1__4__5__4__2__1__2__datapi_back = rmdGetFrame__1__4__5__4__2__1__2__datapi_back + (signed long int)2;
                   if(pdata->args.no_quick_subsample == 1)
                   {
-                    rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_next = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_next + (signed long int)2;
-                    rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back_next = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back_next + (signed long int)2;
+                    rmdGetFrame__1__4__5__4__2__1__2__datapi_next = rmdGetFrame__1__4__5__4__2__1__2__datapi_next + (signed long int)2;
+                    rmdGetFrame__1__4__5__4__2__1__2__datapi_back_next = rmdGetFrame__1__4__5__4__2__1__2__datapi_back_next + (signed long int)2;
                   }
 
-                  rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_u = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_u + 1l;
-                  rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_v = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_v + 1l;
+                  rmdGetFrame__1__4__5__4__2__1__2__yuv_u = rmdGetFrame__1__4__5__4__2__1__2__yuv_u + 1l;
+                  rmdGetFrame__1__4__5__4__2__1__2__yuv_v = rmdGetFrame__1__4__5__4__2__1__2__yuv_v + 1l;
                 }
-                rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_u = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_u + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
-                rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_v = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$yuv_v + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
-                rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi + (signed long int)temp_brwin.rrect.width;
-                rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back + (signed long int)temp_brwin.rrect.width;
+                rmdGetFrame__1__4__5__4__2__1__2__yuv_u = rmdGetFrame__1__4__5__4__2__1__2__yuv_u + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
+                rmdGetFrame__1__4__5__4__2__1__2__yuv_v = rmdGetFrame__1__4__5__4__2__1__2__yuv_v + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
+                rmdGetFrame__1__4__5__4__2__1__2__datapi = rmdGetFrame__1__4__5__4__2__1__2__datapi + (signed long int)temp_brwin.rrect.width;
+                rmdGetFrame__1__4__5__4__2__1__2__datapi_back = rmdGetFrame__1__4__5__4__2__1__2__datapi_back + (signed long int)temp_brwin.rrect.width;
                 if(pdata->args.no_quick_subsample == 1)
                 {
-                  rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_next = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_next + (signed long int)temp_brwin.rrect.width;
-                  rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back_next = rmdGetFrame$$1$$4$$5$$4$$2$$1$$2$$datapi_back_next + (signed long int)temp_brwin.rrect.width;
+                  rmdGetFrame__1__4__5__4__2__1__2__datapi_next = rmdGetFrame__1__4__5__4__2__1__2__datapi_next + (signed long int)temp_brwin.rrect.width;
+                  rmdGetFrame__1__4__5__4__2__1__2__datapi_back_next = rmdGetFrame__1__4__5__4__2__1__2__datapi_back_next + (signed long int)temp_brwin.rrect.width;
                 }
 
               }
@@ -9650,74 +9650,74 @@ void * rmdGetFrame(struct _ProgData *pdata)
           else
             if(pdata->specs.depth == 16)
             {
-              signed int rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$k;
-              signed int rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$i;
-              unsigned short int rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$t_val;
-              unsigned char *rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$yuv_y = (&pdata->enc_data->yuv)->y + (signed long int)pdata->enc_data->x_offset + (signed long int)(pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->y_width);
-              unsigned char *rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$_yr = Yr;
-              unsigned char *rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$_yg = Yg;
-              unsigned char *rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$_yb = Yb;
-              unsigned short int *rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$datapi = (unsigned short int *)rmdGetFrame$$1$$4$$5$$front_buff;
-              unsigned short int *rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$datapi_back = (unsigned short int *)rmdGetFrame$$1$$4$$5$$back_buff;
-              rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$k = 0;
-              for( ; !(rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$k >= (signed int)temp_brwin.rrect.height); rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$k = rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$k + 1)
+              signed int rmdGetFrame__1__4__5__4__2__2__1__k;
+              signed int rmdGetFrame__1__4__5__4__2__2__1__i;
+              unsigned short int rmdGetFrame__1__4__5__4__2__2__1__t_val;
+              unsigned char *rmdGetFrame__1__4__5__4__2__2__1__yuv_y = (&pdata->enc_data->yuv)->y + (signed long int)pdata->enc_data->x_offset + (signed long int)(pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->y_width);
+              unsigned char *rmdGetFrame__1__4__5__4__2__2__1___yr = Yr;
+              unsigned char *rmdGetFrame__1__4__5__4__2__2__1___yg = Yg;
+              unsigned char *rmdGetFrame__1__4__5__4__2__2__1___yb = Yb;
+              unsigned short int *rmdGetFrame__1__4__5__4__2__2__1__datapi = (unsigned short int *)rmdGetFrame__1__4__5__front_buff;
+              unsigned short int *rmdGetFrame__1__4__5__4__2__2__1__datapi_back = (unsigned short int *)rmdGetFrame__1__4__5__back_buff;
+              rmdGetFrame__1__4__5__4__2__2__1__k = 0;
+              for( ; !(rmdGetFrame__1__4__5__4__2__2__1__k >= (signed int)temp_brwin.rrect.height); rmdGetFrame__1__4__5__4__2__2__1__k = rmdGetFrame__1__4__5__4__2__2__1__k + 1)
               {
-                rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$i = 0;
-                for( ; !(rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$i >= (signed int)temp_brwin.rrect.width); rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$i = rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$i + 1)
+                rmdGetFrame__1__4__5__4__2__2__1__i = 0;
+                for( ; !(rmdGetFrame__1__4__5__4__2__2__1__i >= (signed int)temp_brwin.rrect.width); rmdGetFrame__1__4__5__4__2__2__1__i = rmdGetFrame__1__4__5__4__2__2__1__i + 1)
                 {
-                  if(!(*rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$datapi == *rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$datapi_back))
+                  if(!(*rmdGetFrame__1__4__5__4__2__2__1__datapi == *rmdGetFrame__1__4__5__4__2__2__1__datapi_back))
                   {
-                    rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$t_val = *rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$datapi;
-                    *rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$yuv_y = (unsigned char)((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$_yr[(signed long int)((((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$t_val & 0xf800) >> 11) * 8)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$_yg[(signed long int)((((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$t_val & 0x7e0) >> 5) * 4)] + (signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$_yb[(signed long int)(((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$t_val & 0x1f) * 8)]);
-                    yblocks[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$k / 0x0010) * ((signed int)temp_brwin.rrect.width / 0x0010) + rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$i / 0x0010)] = (unsigned int)1;
+                    rmdGetFrame__1__4__5__4__2__2__1__t_val = *rmdGetFrame__1__4__5__4__2__2__1__datapi;
+                    *rmdGetFrame__1__4__5__4__2__2__1__yuv_y = (unsigned char)((signed int)rmdGetFrame__1__4__5__4__2__2__1___yr[(signed long int)((((signed int)rmdGetFrame__1__4__5__4__2__2__1__t_val & 0xf800) >> 11) * 8)] + (signed int)rmdGetFrame__1__4__5__4__2__2__1___yg[(signed long int)((((signed int)rmdGetFrame__1__4__5__4__2__2__1__t_val & 0x7e0) >> 5) * 4)] + (signed int)rmdGetFrame__1__4__5__4__2__2__1___yb[(signed long int)(((signed int)rmdGetFrame__1__4__5__4__2__2__1__t_val & 0x1f) * 8)]);
+                    yblocks[(signed long int)((rmdGetFrame__1__4__5__4__2__2__1__k / 0x0010) * ((signed int)temp_brwin.rrect.width / 0x0010) + rmdGetFrame__1__4__5__4__2__2__1__i / 0x0010)] = (unsigned int)1;
                   }
 
-                  rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$datapi = rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$datapi + 1l;
-                  rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$datapi_back = rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$datapi_back + 1l;
-                  rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$yuv_y = rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$yuv_y + 1l;
+                  rmdGetFrame__1__4__5__4__2__2__1__datapi = rmdGetFrame__1__4__5__4__2__2__1__datapi + 1l;
+                  rmdGetFrame__1__4__5__4__2__2__1__datapi_back = rmdGetFrame__1__4__5__4__2__2__1__datapi_back + 1l;
+                  rmdGetFrame__1__4__5__4__2__2__1__yuv_y = rmdGetFrame__1__4__5__4__2__2__1__yuv_y + 1l;
                 }
-                rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$yuv_y = rmdGetFrame$$1$$4$$5$$4$$2$$2$$1$$yuv_y + (signed long int)((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width);
+                rmdGetFrame__1__4__5__4__2__2__1__yuv_y = rmdGetFrame__1__4__5__4__2__2__1__yuv_y + (signed long int)((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width);
               }
-              signed int rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$k;
-              signed int rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$i;
-              unsigned short int rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$t_val;
-              unsigned char *rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_u = (&pdata->enc_data->yuv)->u + (signed long int)(pdata->enc_data->x_offset / 2) + (signed long int)((pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->uv_width) / 2);
-              unsigned char *rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_v = (&pdata->enc_data->yuv)->v + (signed long int)(pdata->enc_data->x_offset / 2) + (signed long int)((pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->uv_width) / 2);
+              signed int rmdGetFrame__1__4__5__4__2__2__2__k;
+              signed int rmdGetFrame__1__4__5__4__2__2__2__i;
+              unsigned short int rmdGetFrame__1__4__5__4__2__2__2__t_val;
+              unsigned char *rmdGetFrame__1__4__5__4__2__2__2__yuv_u = (&pdata->enc_data->yuv)->u + (signed long int)(pdata->enc_data->x_offset / 2) + (signed long int)((pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->uv_width) / 2);
+              unsigned char *rmdGetFrame__1__4__5__4__2__2__2__yuv_v = (&pdata->enc_data->yuv)->v + (signed long int)(pdata->enc_data->x_offset / 2) + (signed long int)((pdata->enc_data->y_offset * (&pdata->enc_data->yuv)->uv_width) / 2);
               unsigned char *_ur = Ur;
               unsigned char *_ug = Ug;
               unsigned char *_ubvr = UbVr;
               unsigned char *_vg = Vg;
               unsigned char *_vb = Vb;
-              unsigned short int *datapi = (unsigned short int *)rmdGetFrame$$1$$4$$5$$front_buff;
+              unsigned short int *datapi = (unsigned short int *)rmdGetFrame__1__4__5__front_buff;
               unsigned short int *datapi_next = (unsigned short int *)(void *)0;
-              unsigned short int *datapi_back = (unsigned short int *)rmdGetFrame$$1$$4$$5$$back_buff;
+              unsigned short int *datapi_back = (unsigned short int *)rmdGetFrame__1__4__5__back_buff;
               unsigned short int *datapi_back_next = (unsigned short int *)(void *)0;
               if(pdata->args.no_quick_subsample == 1)
               {
                 datapi_next = datapi + (signed long int)temp_brwin.rrect.width;
                 datapi_back_next = datapi_back + (signed long int)temp_brwin.rrect.width;
-                rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$k = 0;
-                for( ; !(rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$k >= (signed int)temp_brwin.rrect.height); rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$k = rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$k + 2)
+                rmdGetFrame__1__4__5__4__2__2__2__k = 0;
+                for( ; !(rmdGetFrame__1__4__5__4__2__2__2__k >= (signed int)temp_brwin.rrect.height); rmdGetFrame__1__4__5__4__2__2__2__k = rmdGetFrame__1__4__5__4__2__2__2__k + 2)
                 {
-                  rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$i = 0;
-                  for( ; !(rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$i >= (signed int)temp_brwin.rrect.width); rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$i = rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$i + 2)
+                  rmdGetFrame__1__4__5__4__2__2__2__i = 0;
+                  for( ; !(rmdGetFrame__1__4__5__4__2__2__2__i >= (signed int)temp_brwin.rrect.width); rmdGetFrame__1__4__5__4__2__2__2__i = rmdGetFrame__1__4__5__4__2__2__2__i + 2)
                   {
                     if(!(*datapi == *datapi_back))
-                      tmp_if_expr$31 = (_Bool)1;
+                      tmp_if_expr_31 = (_Bool)1;
 
                     else
-                      tmp_if_expr$31 = datapi[(signed long int)1] != datapi_back[(signed long int)1] ? (_Bool)1 : (_Bool)0;
-                    if(tmp_if_expr$31)
-                      tmp_if_expr$32 = (_Bool)1;
+                      tmp_if_expr_31 = datapi[(signed long int)1] != datapi_back[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+                    if(tmp_if_expr_31)
+                      tmp_if_expr_32 = (_Bool)1;
 
                     else
-                      tmp_if_expr$32 = *datapi_next != *datapi_back_next ? (_Bool)1 : (_Bool)0;
-                    if(tmp_if_expr$32)
-                      tmp_if_expr$33 = (_Bool)1;
+                      tmp_if_expr_32 = *datapi_next != *datapi_back_next ? (_Bool)1 : (_Bool)0;
+                    if(tmp_if_expr_32)
+                      tmp_if_expr_33 = (_Bool)1;
 
                     else
-                      tmp_if_expr$33 = datapi_next[(signed long int)1] != datapi_back_next[(signed long int)1] ? (_Bool)1 : (_Bool)0;
-                    if(tmp_if_expr$33)
+                      tmp_if_expr_33 = datapi_next[(signed long int)1] != datapi_back_next[(signed long int)1] ? (_Bool)1 : (_Bool)0;
+                    if(tmp_if_expr_33)
                     {
                       if(pdata->args.no_quick_subsample == 1)
                       {
@@ -9729,15 +9729,15 @@ void * rmdGetFrame(struct _ProgData *pdata)
                         t2 = datapi[(signed long int)1];
                         t3 = *datapi_next;
                         t4 = datapi_next[(signed long int)1];
-                        rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$t_val = (unsigned short int)(((((signed int)t1 & 0xf800) + ((signed int)t2 & 0xf800) + ((signed int)t3 & 0xf800) + ((signed int)t4 & 0xf800)) / 4 & 0xf800) + ((((signed int)t1 & 0x7e0) + ((signed int)t2 & 0x7e0) + ((signed int)t3 & 0x7e0) + ((signed int)t4 & 0x7e0)) / 4 & 0x7e0) + ((((signed int)t1 & 0x1f) + ((signed int)t2 & 0x1f) + ((signed int)t3 & 0x1f) + ((signed int)t4 & 0x1f)) / 4 & 0x1f));
+                        rmdGetFrame__1__4__5__4__2__2__2__t_val = (unsigned short int)(((((signed int)t1 & 0xf800) + ((signed int)t2 & 0xf800) + ((signed int)t3 & 0xf800) + ((signed int)t4 & 0xf800)) / 4 & 0xf800) + ((((signed int)t1 & 0x7e0) + ((signed int)t2 & 0x7e0) + ((signed int)t3 & 0x7e0) + ((signed int)t4 & 0x7e0)) / 4 & 0x7e0) + ((((signed int)t1 & 0x1f) + ((signed int)t2 & 0x1f) + ((signed int)t3 & 0x1f) + ((signed int)t4 & 0x1f)) / 4 & 0x1f));
                       }
 
                       else
-                        rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$t_val = *datapi;
-                      *rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_u = (unsigned char)((signed int)_ur[(signed long int)((((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$t_val & 0xf800) >> 11) * 8)] + (signed int)_ug[(signed long int)((((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$t_val & 0x7e0) >> 5) * 4)] + (signed int)_ubvr[(signed long int)(((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$t_val & 0x1f) * 8)]);
-                      *rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_v = (unsigned char)((signed int)_ubvr[(signed long int)((((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$t_val & 0xf800) >> 11) * 8)] + (signed int)_vg[(signed long int)((((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$t_val & 0x7e0) >> 5) * 4)] + (signed int)_vb[(signed long int)(((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$t_val & 0x1f) * 8)]);
-                      ublocks[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$k / 0x0010) * ((signed int)temp_brwin.rrect.width / 0x0010) + rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$i / 0x0010)] = (unsigned int)1;
-                      vblocks[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$k / 0x0010) * ((signed int)temp_brwin.rrect.width / 0x0010) + rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$i / 0x0010)] = (unsigned int)1;
+                        rmdGetFrame__1__4__5__4__2__2__2__t_val = *datapi;
+                      *rmdGetFrame__1__4__5__4__2__2__2__yuv_u = (unsigned char)((signed int)_ur[(signed long int)((((signed int)rmdGetFrame__1__4__5__4__2__2__2__t_val & 0xf800) >> 11) * 8)] + (signed int)_ug[(signed long int)((((signed int)rmdGetFrame__1__4__5__4__2__2__2__t_val & 0x7e0) >> 5) * 4)] + (signed int)_ubvr[(signed long int)(((signed int)rmdGetFrame__1__4__5__4__2__2__2__t_val & 0x1f) * 8)]);
+                      *rmdGetFrame__1__4__5__4__2__2__2__yuv_v = (unsigned char)((signed int)_ubvr[(signed long int)((((signed int)rmdGetFrame__1__4__5__4__2__2__2__t_val & 0xf800) >> 11) * 8)] + (signed int)_vg[(signed long int)((((signed int)rmdGetFrame__1__4__5__4__2__2__2__t_val & 0x7e0) >> 5) * 4)] + (signed int)_vb[(signed long int)(((signed int)rmdGetFrame__1__4__5__4__2__2__2__t_val & 0x1f) * 8)]);
+                      ublocks[(signed long int)((rmdGetFrame__1__4__5__4__2__2__2__k / 0x0010) * ((signed int)temp_brwin.rrect.width / 0x0010) + rmdGetFrame__1__4__5__4__2__2__2__i / 0x0010)] = (unsigned int)1;
+                      vblocks[(signed long int)((rmdGetFrame__1__4__5__4__2__2__2__k / 0x0010) * ((signed int)temp_brwin.rrect.width / 0x0010) + rmdGetFrame__1__4__5__4__2__2__2__i / 0x0010)] = (unsigned int)1;
                     }
 
                     datapi = datapi + (signed long int)2;
@@ -9748,11 +9748,11 @@ void * rmdGetFrame(struct _ProgData *pdata)
                       datapi_back_next = datapi_back_next + (signed long int)2;
                     }
 
-                    rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_u = rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_u + 1l;
-                    rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_v = rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_v + 1l;
+                    rmdGetFrame__1__4__5__4__2__2__2__yuv_u = rmdGetFrame__1__4__5__4__2__2__2__yuv_u + 1l;
+                    rmdGetFrame__1__4__5__4__2__2__2__yuv_v = rmdGetFrame__1__4__5__4__2__2__2__yuv_v + 1l;
                   }
-                  rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_u = rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_u + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
-                  rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_v = rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_v + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
+                  rmdGetFrame__1__4__5__4__2__2__2__yuv_u = rmdGetFrame__1__4__5__4__2__2__2__yuv_u + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
+                  rmdGetFrame__1__4__5__4__2__2__2__yuv_v = rmdGetFrame__1__4__5__4__2__2__2__yuv_v + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
                   datapi = datapi + (signed long int)temp_brwin.rrect.width;
                   datapi_back = datapi_back + (signed long int)temp_brwin.rrect.width;
                   if(pdata->args.no_quick_subsample == 1)
@@ -9766,33 +9766,33 @@ void * rmdGetFrame(struct _ProgData *pdata)
 
               else
               {
-                rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$k = 0;
-                for( ; !(rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$k >= (signed int)temp_brwin.rrect.height); rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$k = rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$k + 2)
+                rmdGetFrame__1__4__5__4__2__2__2__k = 0;
+                for( ; !(rmdGetFrame__1__4__5__4__2__2__2__k >= (signed int)temp_brwin.rrect.height); rmdGetFrame__1__4__5__4__2__2__2__k = rmdGetFrame__1__4__5__4__2__2__2__k + 2)
                 {
-                  rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$i = 0;
-                  for( ; !(rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$i >= (signed int)temp_brwin.rrect.width); rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$i = rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$i + 2)
+                  rmdGetFrame__1__4__5__4__2__2__2__i = 0;
+                  for( ; !(rmdGetFrame__1__4__5__4__2__2__2__i >= (signed int)temp_brwin.rrect.width); rmdGetFrame__1__4__5__4__2__2__2__i = rmdGetFrame__1__4__5__4__2__2__2__i + 2)
                   {
                     if(!(*datapi == *datapi_back))
                     {
                       if(pdata->args.no_quick_subsample == 1)
                       {
-                        unsigned short int rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t1;
-                        unsigned short int rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t2;
-                        unsigned short int rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t3;
-                        unsigned short int rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t4;
-                        rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t1 = *datapi;
-                        rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t2 = datapi[(signed long int)1];
-                        rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t3 = *datapi_next;
-                        rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t4 = datapi_next[(signed long int)1];
-                        rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$t_val = (unsigned short int)(((((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t1 & 0xf800) + ((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t2 & 0xf800) + ((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t3 & 0xf800) + ((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t4 & 0xf800)) / 4 & 0xf800) + ((((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t1 & 0x7e0) + ((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t2 & 0x7e0) + ((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t3 & 0x7e0) + ((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t4 & 0x7e0)) / 4 & 0x7e0) + ((((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t1 & 0x1f) + ((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t2 & 0x1f) + ((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t3 & 0x1f) + ((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$2$$1$$1$$1$$1$$1$$1$$1$$t4 & 0x1f)) / 4 & 0x1f));
+                        unsigned short int rmdGetFrame__1__4__5__4__2__2__2__2__1__1__1__1__1__1__1__t1;
+                        unsigned short int rmdGetFrame__1__4__5__4__2__2__2__2__1__1__1__1__1__1__1__t2;
+                        unsigned short int rmdGetFrame__1__4__5__4__2__2__2__2__1__1__1__1__1__1__1__t3;
+                        unsigned short int rmdGetFrame__1__4__5__4__2__2__2__2__1__1__1__1__1__1__1__t4;
+                        rmdGetFrame__1__4__5__4__2__2__2__2__1__1__1__1__1__1__1__t1 = *datapi;
+                        rmdGetFrame__1__4__5__4__2__2__2__2__1__1__1__1__1__1__1__t2 = datapi[(signed long int)1];
+                        rmdGetFrame__1__4__5__4__2__2__2__2__1__1__1__1__1__1__1__t3 = *datapi_next;
+                        rmdGetFrame__1__4__5__4__2__2__2__2__1__1__1__1__1__1__1__t4 = datapi_next[(signed long int)1];
+                        rmdGetFrame__1__4__5__4__2__2__2__t_val = (unsigned short int)(((((signed int)rmdGetFrame__1__4__5__4__2__2__2__2__1__1__1__1__1__1__1__t1 & 0xf800) + ((signed int)rmdGetFrame__1__4__5__4__2__2__2__2__1__1__1__1__1__1__1__t2 & 0xf800) + ((signed int)rmdGetFrame__1__4__5__4__2__2__2__2__1__1__1__1__1__1__1__t3 & 0xf800) + ((signed int)rmdGetFrame__1__4__5__4__2__2__2__2__1__1__1__1__1__1__1__t4 & 0xf800)) / 4 & 0xf800) + ((((signed int)rmdGetFrame__1__4__5__4__2__2__2__2__1__1__1__1__1__1__1__t1 & 0x7e0) + ((signed int)rmdGetFrame__1__4__5__4__2__2__2__2__1__1__1__1__1__1__1__t2 & 0x7e0) + ((signed int)rmdGetFrame__1__4__5__4__2__2__2__2__1__1__1__1__1__1__1__t3 & 0x7e0) + ((signed int)rmdGetFrame__1__4__5__4__2__2__2__2__1__1__1__1__1__1__1__t4 & 0x7e0)) / 4 & 0x7e0) + ((((signed int)rmdGetFrame__1__4__5__4__2__2__2__2__1__1__1__1__1__1__1__t1 & 0x1f) + ((signed int)rmdGetFrame__1__4__5__4__2__2__2__2__1__1__1__1__1__1__1__t2 & 0x1f) + ((signed int)rmdGetFrame__1__4__5__4__2__2__2__2__1__1__1__1__1__1__1__t3 & 0x1f) + ((signed int)rmdGetFrame__1__4__5__4__2__2__2__2__1__1__1__1__1__1__1__t4 & 0x1f)) / 4 & 0x1f));
                       }
 
                       else
-                        rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$t_val = *datapi;
-                      *rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_u = (unsigned char)((signed int)_ur[(signed long int)((((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$t_val & 0xf800) >> 11) * 8)] + (signed int)_ug[(signed long int)((((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$t_val & 0x7e0) >> 5) * 4)] + (signed int)_ubvr[(signed long int)(((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$t_val & 0x1f) * 8)]);
-                      *rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_v = (unsigned char)((signed int)_ubvr[(signed long int)((((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$t_val & 0xf800) >> 11) * 8)] + (signed int)_vg[(signed long int)((((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$t_val & 0x7e0) >> 5) * 4)] + (signed int)_vb[(signed long int)(((signed int)rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$t_val & 0x1f) * 8)]);
-                      ublocks[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$k / 0x0010) * ((signed int)temp_brwin.rrect.width / 0x0010) + rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$i / 0x0010)] = (unsigned int)1;
-                      vblocks[(signed long int)((rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$k / 0x0010) * ((signed int)temp_brwin.rrect.width / 0x0010) + rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$i / 0x0010)] = (unsigned int)1;
+                        rmdGetFrame__1__4__5__4__2__2__2__t_val = *datapi;
+                      *rmdGetFrame__1__4__5__4__2__2__2__yuv_u = (unsigned char)((signed int)_ur[(signed long int)((((signed int)rmdGetFrame__1__4__5__4__2__2__2__t_val & 0xf800) >> 11) * 8)] + (signed int)_ug[(signed long int)((((signed int)rmdGetFrame__1__4__5__4__2__2__2__t_val & 0x7e0) >> 5) * 4)] + (signed int)_ubvr[(signed long int)(((signed int)rmdGetFrame__1__4__5__4__2__2__2__t_val & 0x1f) * 8)]);
+                      *rmdGetFrame__1__4__5__4__2__2__2__yuv_v = (unsigned char)((signed int)_ubvr[(signed long int)((((signed int)rmdGetFrame__1__4__5__4__2__2__2__t_val & 0xf800) >> 11) * 8)] + (signed int)_vg[(signed long int)((((signed int)rmdGetFrame__1__4__5__4__2__2__2__t_val & 0x7e0) >> 5) * 4)] + (signed int)_vb[(signed long int)(((signed int)rmdGetFrame__1__4__5__4__2__2__2__t_val & 0x1f) * 8)]);
+                      ublocks[(signed long int)((rmdGetFrame__1__4__5__4__2__2__2__k / 0x0010) * ((signed int)temp_brwin.rrect.width / 0x0010) + rmdGetFrame__1__4__5__4__2__2__2__i / 0x0010)] = (unsigned int)1;
+                      vblocks[(signed long int)((rmdGetFrame__1__4__5__4__2__2__2__k / 0x0010) * ((signed int)temp_brwin.rrect.width / 0x0010) + rmdGetFrame__1__4__5__4__2__2__2__i / 0x0010)] = (unsigned int)1;
                     }
 
                     datapi = datapi + (signed long int)2;
@@ -9803,11 +9803,11 @@ void * rmdGetFrame(struct _ProgData *pdata)
                       datapi_back_next = datapi_back_next + (signed long int)2;
                     }
 
-                    rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_u = rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_u + 1l;
-                    rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_v = rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_v + 1l;
+                    rmdGetFrame__1__4__5__4__2__2__2__yuv_u = rmdGetFrame__1__4__5__4__2__2__2__yuv_u + 1l;
+                    rmdGetFrame__1__4__5__4__2__2__2__yuv_v = rmdGetFrame__1__4__5__4__2__2__2__yuv_v + 1l;
                   }
-                  rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_u = rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_u + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
-                  rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_v = rmdGetFrame$$1$$4$$5$$4$$2$$2$$2$$yuv_v + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
+                  rmdGetFrame__1__4__5__4__2__2__2__yuv_u = rmdGetFrame__1__4__5__4__2__2__2__yuv_u + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
+                  rmdGetFrame__1__4__5__4__2__2__2__yuv_v = rmdGetFrame__1__4__5__4__2__2__2__yuv_v + (signed long int)(((&pdata->enc_data->yuv)->y_width - (signed int)temp_brwin.rrect.width) / 2);
                   datapi = datapi + (signed long int)temp_brwin.rrect.width;
                   datapi_back = datapi_back + (signed long int)temp_brwin.rrect.width;
                   if(pdata->args.no_quick_subsample == 1)
@@ -9824,90 +9824,90 @@ void * rmdGetFrame(struct _ProgData *pdata)
         pthread_mutex_unlock(&pdata->yuv_mutex);
       }
       if(!(pdata->args.xfixes_cursor == 0))
-        tmp_if_expr$49 = (_Bool)1;
+        tmp_if_expr_49 = (_Bool)1;
 
       else
-        tmp_if_expr$49 = pdata->args.have_dummy_cursor != 0 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$49)
+        tmp_if_expr_49 = pdata->args.have_dummy_cursor != 0 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_49)
       {
         signed int mouse_xoffset;
         signed int mouse_yoffset;
         if((signed int)mouse_pos_abs.x + (signed int)mouse_pos_abs.width >= (signed int)temp_brwin.rrect.x)
-          tmp_if_expr$35 = (signed int)mouse_pos_abs.x <= (signed int)(&temp_brwin)->rrect.x + (signed int)(&temp_brwin)->rrect.width ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_35 = (signed int)mouse_pos_abs.x <= (signed int)(&temp_brwin)->rrect.x + (signed int)(&temp_brwin)->rrect.width ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$35 = (_Bool)0;
-        if(tmp_if_expr$35)
+          tmp_if_expr_35 = (_Bool)0;
+        if(tmp_if_expr_35)
         {
           if((signed int)temp_brwin.rrect.x >= (signed int)mouse_pos_abs.x)
-            tmp_if_expr$36 = (signed int)(&temp_brwin)->rrect.x;
+            tmp_if_expr_36 = (signed int)(&temp_brwin)->rrect.x;
 
           else
-            tmp_if_expr$36 = (signed int)mouse_pos_abs.x;
-          tmp_if_expr$37 = tmp_if_expr$36;
+            tmp_if_expr_36 = (signed int)mouse_pos_abs.x;
+          tmp_if_expr_37 = tmp_if_expr_36;
         }
 
         else
-          tmp_if_expr$37 = -1;
-        (&mouse_pos_temp)->x = (signed short int)tmp_if_expr$37;
+          tmp_if_expr_37 = -1;
+        (&mouse_pos_temp)->x = (signed short int)tmp_if_expr_37;
         if((signed int)mouse_pos_abs.y + (signed int)mouse_pos_abs.height >= (signed int)temp_brwin.rrect.y)
-          tmp_if_expr$38 = (signed int)mouse_pos_abs.y <= (signed int)(&temp_brwin)->rrect.y + (signed int)(&temp_brwin)->rrect.height ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_38 = (signed int)mouse_pos_abs.y <= (signed int)(&temp_brwin)->rrect.y + (signed int)(&temp_brwin)->rrect.height ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$38 = (_Bool)0;
-        if(tmp_if_expr$38)
+          tmp_if_expr_38 = (_Bool)0;
+        if(tmp_if_expr_38)
         {
           if((signed int)temp_brwin.rrect.y >= (signed int)mouse_pos_abs.y)
-            tmp_if_expr$39 = (signed int)(&temp_brwin)->rrect.y;
+            tmp_if_expr_39 = (signed int)(&temp_brwin)->rrect.y;
 
           else
-            tmp_if_expr$39 = (signed int)mouse_pos_abs.y;
-          tmp_if_expr$40 = tmp_if_expr$39;
+            tmp_if_expr_39 = (signed int)mouse_pos_abs.y;
+          tmp_if_expr_40 = tmp_if_expr_39;
         }
 
         else
-          tmp_if_expr$40 = -1;
-        (&mouse_pos_temp)->y = (signed short int)tmp_if_expr$40;
+          tmp_if_expr_40 = -1;
+        (&mouse_pos_temp)->y = (signed short int)tmp_if_expr_40;
         if((signed int)temp_brwin.rrect.x >= (signed int)mouse_pos_abs.x)
-          tmp_if_expr$43 = (signed int)mouse_pos_abs.width - ((signed int)(&temp_brwin)->rrect.x - (signed int)mouse_pos_abs.x);
+          tmp_if_expr_43 = (signed int)mouse_pos_abs.width - ((signed int)(&temp_brwin)->rrect.x - (signed int)mouse_pos_abs.x);
 
         else
         {
           if((signed int)temp_brwin.rrect.x + (signed int)temp_brwin.rrect.width >= (signed int)mouse_pos_abs.x)
           {
             if(!((signed int)temp_brwin.rrect.x + (signed int)temp_brwin.rrect.width + -((signed int)mouse_pos_abs.x) >= (signed int)mouse_pos_abs.width))
-              tmp_if_expr$41 = ((signed int)(&temp_brwin)->rrect.width - (signed int)mouse_pos_abs.x) + (signed int)(&temp_brwin)->rrect.x;
+              tmp_if_expr_41 = ((signed int)(&temp_brwin)->rrect.width - (signed int)mouse_pos_abs.x) + (signed int)(&temp_brwin)->rrect.x;
 
             else
-              tmp_if_expr$41 = (signed int)mouse_pos_abs.width;
-            tmp_if_expr$42 = tmp_if_expr$41;
+              tmp_if_expr_41 = (signed int)mouse_pos_abs.width;
+            tmp_if_expr_42 = tmp_if_expr_41;
           }
 
           else
-            tmp_if_expr$42 = 0;
-          tmp_if_expr$43 = tmp_if_expr$42;
+            tmp_if_expr_42 = 0;
+          tmp_if_expr_43 = tmp_if_expr_42;
         }
-        (&mouse_pos_temp)->width = (unsigned short int)tmp_if_expr$43;
+        (&mouse_pos_temp)->width = (unsigned short int)tmp_if_expr_43;
         if((signed int)temp_brwin.rrect.y >= (signed int)mouse_pos_abs.y)
-          tmp_if_expr$46 = (signed int)mouse_pos_abs.height - ((signed int)(&temp_brwin)->rrect.y - (signed int)mouse_pos_abs.y);
+          tmp_if_expr_46 = (signed int)mouse_pos_abs.height - ((signed int)(&temp_brwin)->rrect.y - (signed int)mouse_pos_abs.y);
 
         else
         {
           if((signed int)temp_brwin.rrect.y + (signed int)temp_brwin.rrect.height >= (signed int)mouse_pos_abs.y)
           {
             if(!((signed int)temp_brwin.rrect.y + (signed int)temp_brwin.rrect.height + -((signed int)mouse_pos_abs.y) >= (signed int)mouse_pos_abs.height))
-              tmp_if_expr$44 = ((signed int)(&temp_brwin)->rrect.height - (signed int)mouse_pos_abs.y) + (signed int)(&temp_brwin)->rrect.y;
+              tmp_if_expr_44 = ((signed int)(&temp_brwin)->rrect.height - (signed int)mouse_pos_abs.y) + (signed int)(&temp_brwin)->rrect.y;
 
             else
-              tmp_if_expr$44 = (signed int)mouse_pos_abs.height;
-            tmp_if_expr$45 = tmp_if_expr$44;
+              tmp_if_expr_44 = (signed int)mouse_pos_abs.height;
+            tmp_if_expr_45 = tmp_if_expr_44;
           }
 
           else
-            tmp_if_expr$45 = 0;
-          tmp_if_expr$46 = tmp_if_expr$45;
+            tmp_if_expr_45 = 0;
+          tmp_if_expr_46 = tmp_if_expr_45;
         }
-        (&mouse_pos_temp)->height = (unsigned short int)tmp_if_expr$46;
+        (&mouse_pos_temp)->height = (unsigned short int)tmp_if_expr_46;
         if(!((signed int)temp_brwin.rrect.width >= (signed int)mouse_pos_temp.width))
           (&mouse_pos_temp)->width = (&temp_brwin)->rrect.width;
 
@@ -9959,26 +9959,26 @@ void * rmdGetFrame(struct _ProgData *pdata)
 
           else
           {
-            signed int rmdGetFrame$$1$$4$$6$$2$$2$$1$$i;
-            signed int rmdGetFrame$$1$$4$$6$$2$$2$$1$$k;
-            signed int rmdGetFrame$$1$$4$$6$$2$$2$$1$$j = 0;
-            signed int rmdGetFrame$$1$$4$$6$$2$$2$$1$$x_2 = (((signed int)mouse_pos_temp.x - (signed int)temp_brwin.rrect.x) + pdata->enc_data->x_offset) / 2;
-            signed int rmdGetFrame$$1$$4$$6$$2$$2$$1$$y_2 = (((signed int)mouse_pos_temp.y - (signed int)temp_brwin.rrect.y) + pdata->enc_data->y_offset) / 2;
+            signed int rmdGetFrame__1__4__6__2__2__1__i;
+            signed int rmdGetFrame__1__4__6__2__2__1__k;
+            signed int rmdGetFrame__1__4__6__2__2__1__j = 0;
+            signed int rmdGetFrame__1__4__6__2__2__1__x_2 = (((signed int)mouse_pos_temp.x - (signed int)temp_brwin.rrect.x) + pdata->enc_data->x_offset) / 2;
+            signed int rmdGetFrame__1__4__6__2__2__1__y_2 = (((signed int)mouse_pos_temp.y - (signed int)temp_brwin.rrect.y) + pdata->enc_data->y_offset) / 2;
             signed int y_width_2 = (&pdata->enc_data->yuv)->y_width / 2;
-            rmdGetFrame$$1$$4$$6$$2$$2$$1$$k = mouse_yoffset;
-            for( ; !(rmdGetFrame$$1$$4$$6$$2$$2$$1$$k >= mouse_yoffset + (signed int)mouse_pos_temp.height); rmdGetFrame$$1$$4$$6$$2$$2$$1$$k = rmdGetFrame$$1$$4$$6$$2$$2$$1$$k + 1)
+            rmdGetFrame__1__4__6__2__2__1__k = mouse_yoffset;
+            for( ; !(rmdGetFrame__1__4__6__2__2__1__k >= mouse_yoffset + (signed int)mouse_pos_temp.height); rmdGetFrame__1__4__6__2__2__1__k = rmdGetFrame__1__4__6__2__2__1__k + 1)
             {
-              rmdGetFrame$$1$$4$$6$$2$$2$$1$$i = mouse_xoffset;
-              for( ; !(rmdGetFrame$$1$$4$$6$$2$$2$$1$$i >= mouse_xoffset + (signed int)mouse_pos_temp.width); rmdGetFrame$$1$$4$$6$$2$$2$$1$$i = rmdGetFrame$$1$$4$$6$$2$$2$$1$$i + 1)
+              rmdGetFrame__1__4__6__2__2__1__i = mouse_xoffset;
+              for( ; !(rmdGetFrame__1__4__6__2__2__1__i >= mouse_xoffset + (signed int)mouse_pos_temp.width); rmdGetFrame__1__4__6__2__2__1__i = rmdGetFrame__1__4__6__2__2__1__i + 1)
               {
-                rmdGetFrame$$1$$4$$6$$2$$2$$1$$j = rmdGetFrame$$1$$4$$6$$2$$2$$1$$k * 16 + rmdGetFrame$$1$$4$$6$$2$$2$$1$$i;
-                if(!(pdata->dummy_pointer[(signed long int)(4 * rmdGetFrame$$1$$4$$6$$2$$2$$1$$j)] == pdata->npxl))
+                rmdGetFrame__1__4__6__2__2__1__j = rmdGetFrame__1__4__6__2__2__1__k * 16 + rmdGetFrame__1__4__6__2__2__1__i;
+                if(!(pdata->dummy_pointer[(signed long int)(4 * rmdGetFrame__1__4__6__2__2__1__j)] == pdata->npxl))
                 {
-                  (&pdata->enc_data->yuv)->y[(signed long int)(((signed int)mouse_pos_temp.x - (signed int)temp_brwin.rrect.x) + pdata->enc_data->x_offset + (rmdGetFrame$$1$$4$$6$$2$$2$$1$$i - mouse_xoffset) + ((rmdGetFrame$$1$$4$$6$$2$$2$$1$$k - mouse_yoffset) + ((signed int)mouse_pos_temp.y - (signed int)temp_brwin.rrect.y) + pdata->enc_data->y_offset) * (&pdata->enc_data->yuv)->y_width)] = (unsigned char)((signed int)Yr[(signed long int)pdata->dummy_pointer[(signed long int)(rmdGetFrame$$1$$4$$6$$2$$2$$1$$j * 4 + 2)]] + (signed int)Yg[(signed long int)pdata->dummy_pointer[(signed long int)(rmdGetFrame$$1$$4$$6$$2$$2$$1$$j * 4 + 1)]] + (signed int)Yb[(signed long int)pdata->dummy_pointer[(signed long int)(rmdGetFrame$$1$$4$$6$$2$$2$$1$$j * 4 + 0)]]);
-                  if(!(rmdGetFrame$$1$$4$$6$$2$$2$$1$$i % 2 == 0) && !(rmdGetFrame$$1$$4$$6$$2$$2$$1$$k % 2 == 0))
+                  (&pdata->enc_data->yuv)->y[(signed long int)(((signed int)mouse_pos_temp.x - (signed int)temp_brwin.rrect.x) + pdata->enc_data->x_offset + (rmdGetFrame__1__4__6__2__2__1__i - mouse_xoffset) + ((rmdGetFrame__1__4__6__2__2__1__k - mouse_yoffset) + ((signed int)mouse_pos_temp.y - (signed int)temp_brwin.rrect.y) + pdata->enc_data->y_offset) * (&pdata->enc_data->yuv)->y_width)] = (unsigned char)((signed int)Yr[(signed long int)pdata->dummy_pointer[(signed long int)(rmdGetFrame__1__4__6__2__2__1__j * 4 + 2)]] + (signed int)Yg[(signed long int)pdata->dummy_pointer[(signed long int)(rmdGetFrame__1__4__6__2__2__1__j * 4 + 1)]] + (signed int)Yb[(signed long int)pdata->dummy_pointer[(signed long int)(rmdGetFrame__1__4__6__2__2__1__j * 4 + 0)]]);
+                  if(!(rmdGetFrame__1__4__6__2__2__1__i % 2 == 0) && !(rmdGetFrame__1__4__6__2__2__1__k % 2 == 0))
                   {
-                    (&pdata->enc_data->yuv)->u[(signed long int)(rmdGetFrame$$1$$4$$6$$2$$2$$1$$x_2 + (rmdGetFrame$$1$$4$$6$$2$$2$$1$$i - mouse_xoffset) / 2 + ((rmdGetFrame$$1$$4$$6$$2$$2$$1$$k - mouse_yoffset) / 2 + rmdGetFrame$$1$$4$$6$$2$$2$$1$$y_2) * y_width_2)] = (unsigned char)((signed int)Ur[(signed long int)pdata->dummy_pointer[(signed long int)((rmdGetFrame$$1$$4$$6$$2$$2$$1$$k * (signed int)mouse_pos_temp.width + rmdGetFrame$$1$$4$$6$$2$$2$$1$$i) * 4 + 2)]] + (signed int)Ug[(signed long int)pdata->dummy_pointer[(signed long int)((rmdGetFrame$$1$$4$$6$$2$$2$$1$$k * (signed int)mouse_pos_temp.width + rmdGetFrame$$1$$4$$6$$2$$2$$1$$i) * 4 + 1)]] + (signed int)UbVr[(signed long int)pdata->dummy_pointer[(signed long int)((rmdGetFrame$$1$$4$$6$$2$$2$$1$$k * (signed int)mouse_pos_temp.width + rmdGetFrame$$1$$4$$6$$2$$2$$1$$i) * 4 + 0)]]);
-                    (&pdata->enc_data->yuv)->v[(signed long int)(rmdGetFrame$$1$$4$$6$$2$$2$$1$$x_2 + (rmdGetFrame$$1$$4$$6$$2$$2$$1$$i - mouse_xoffset) / 2 + ((rmdGetFrame$$1$$4$$6$$2$$2$$1$$k - mouse_yoffset) / 2 + rmdGetFrame$$1$$4$$6$$2$$2$$1$$y_2) * y_width_2)] = (unsigned char)((signed int)UbVr[(signed long int)pdata->dummy_pointer[(signed long int)((rmdGetFrame$$1$$4$$6$$2$$2$$1$$k * (signed int)mouse_pos_temp.width + rmdGetFrame$$1$$4$$6$$2$$2$$1$$i) * 4 + 2)]] + (signed int)Vg[(signed long int)pdata->dummy_pointer[(signed long int)((rmdGetFrame$$1$$4$$6$$2$$2$$1$$k * (signed int)mouse_pos_temp.width + rmdGetFrame$$1$$4$$6$$2$$2$$1$$i) * 4 + 1)]] + (signed int)Vb[(signed long int)pdata->dummy_pointer[(signed long int)((rmdGetFrame$$1$$4$$6$$2$$2$$1$$k * (signed int)mouse_pos_temp.width + rmdGetFrame$$1$$4$$6$$2$$2$$1$$i) * 4 + 0)]]);
+                    (&pdata->enc_data->yuv)->u[(signed long int)(rmdGetFrame__1__4__6__2__2__1__x_2 + (rmdGetFrame__1__4__6__2__2__1__i - mouse_xoffset) / 2 + ((rmdGetFrame__1__4__6__2__2__1__k - mouse_yoffset) / 2 + rmdGetFrame__1__4__6__2__2__1__y_2) * y_width_2)] = (unsigned char)((signed int)Ur[(signed long int)pdata->dummy_pointer[(signed long int)((rmdGetFrame__1__4__6__2__2__1__k * (signed int)mouse_pos_temp.width + rmdGetFrame__1__4__6__2__2__1__i) * 4 + 2)]] + (signed int)Ug[(signed long int)pdata->dummy_pointer[(signed long int)((rmdGetFrame__1__4__6__2__2__1__k * (signed int)mouse_pos_temp.width + rmdGetFrame__1__4__6__2__2__1__i) * 4 + 1)]] + (signed int)UbVr[(signed long int)pdata->dummy_pointer[(signed long int)((rmdGetFrame__1__4__6__2__2__1__k * (signed int)mouse_pos_temp.width + rmdGetFrame__1__4__6__2__2__1__i) * 4 + 0)]]);
+                    (&pdata->enc_data->yuv)->v[(signed long int)(rmdGetFrame__1__4__6__2__2__1__x_2 + (rmdGetFrame__1__4__6__2__2__1__i - mouse_xoffset) / 2 + ((rmdGetFrame__1__4__6__2__2__1__k - mouse_yoffset) / 2 + rmdGetFrame__1__4__6__2__2__1__y_2) * y_width_2)] = (unsigned char)((signed int)UbVr[(signed long int)pdata->dummy_pointer[(signed long int)((rmdGetFrame__1__4__6__2__2__1__k * (signed int)mouse_pos_temp.width + rmdGetFrame__1__4__6__2__2__1__i) * 4 + 2)]] + (signed int)Vg[(signed long int)pdata->dummy_pointer[(signed long int)((rmdGetFrame__1__4__6__2__2__1__k * (signed int)mouse_pos_temp.width + rmdGetFrame__1__4__6__2__2__1__i) * 4 + 1)]] + (signed int)Vb[(signed long int)pdata->dummy_pointer[(signed long int)((rmdGetFrame__1__4__6__2__2__1__k * (signed int)mouse_pos_temp.width + rmdGetFrame__1__4__6__2__2__1__i) * 4 + 0)]]);
                   }
 
                 }
@@ -9990,49 +9990,49 @@ void * rmdGetFrame(struct _ProgData *pdata)
           {
             unsigned char *front_buff;
             if(img_sel == 0)
-              tmp_if_expr$47 = (unsigned char *)image->data;
+              tmp_if_expr_47 = (unsigned char *)image->data;
 
             else
-              tmp_if_expr$47 = (unsigned char *)image_back->data;
-            front_buff = tmp_if_expr$47;
+              tmp_if_expr_47 = (unsigned char *)image_back->data;
+            front_buff = tmp_if_expr_47;
             if(pdata->specs.depth == 24)
-              tmp_if_expr$48 = (_Bool)1;
+              tmp_if_expr_48 = (_Bool)1;
 
             else
-              tmp_if_expr$48 = pdata->specs.depth == 32 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$48)
+              tmp_if_expr_48 = pdata->specs.depth == 32 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_48)
             {
-              signed int rmdGetFrame$$1$$4$$6$$2$$3$$1$$1$$1$$k;
-              signed int rmdGetFrame$$1$$4$$6$$2$$3$$1$$1$$1$$i;
-              unsigned int *rmdGetFrame$$1$$4$$6$$2$$3$$1$$1$$1$$datapi = (unsigned int *)front_buff + (signed long int)((((signed int)mouse_pos_temp.y - (signed int)temp_brwin.rrect.y) + pdata->enc_data->y_offset) * (signed int)temp_brwin.rrect.width) + (signed long int)(((signed int)mouse_pos_temp.x - (signed int)temp_brwin.rrect.x) + pdata->enc_data->x_offset);
-              rmdGetFrame$$1$$4$$6$$2$$3$$1$$1$$1$$k = 0;
-              for( ; !(rmdGetFrame$$1$$4$$6$$2$$3$$1$$1$$1$$k >= (signed int)mouse_pos_temp.height); rmdGetFrame$$1$$4$$6$$2$$3$$1$$1$$1$$k = rmdGetFrame$$1$$4$$6$$2$$3$$1$$1$$1$$k + 1)
+              signed int rmdGetFrame__1__4__6__2__3__1__1__1__k;
+              signed int rmdGetFrame__1__4__6__2__3__1__1__1__i;
+              unsigned int *rmdGetFrame__1__4__6__2__3__1__1__1__datapi = (unsigned int *)front_buff + (signed long int)((((signed int)mouse_pos_temp.y - (signed int)temp_brwin.rrect.y) + pdata->enc_data->y_offset) * (signed int)temp_brwin.rrect.width) + (signed long int)(((signed int)mouse_pos_temp.x - (signed int)temp_brwin.rrect.x) + pdata->enc_data->x_offset);
+              rmdGetFrame__1__4__6__2__3__1__1__1__k = 0;
+              for( ; !(rmdGetFrame__1__4__6__2__3__1__1__1__k >= (signed int)mouse_pos_temp.height); rmdGetFrame__1__4__6__2__3__1__1__1__k = rmdGetFrame__1__4__6__2__3__1__1__1__k + 1)
               {
-                rmdGetFrame$$1$$4$$6$$2$$3$$1$$1$$1$$i = 0;
-                for( ; !(rmdGetFrame$$1$$4$$6$$2$$3$$1$$1$$1$$i >= (signed int)mouse_pos_temp.width); rmdGetFrame$$1$$4$$6$$2$$3$$1$$1$$1$$i = rmdGetFrame$$1$$4$$6$$2$$3$$1$$1$$1$$i + 1)
+                rmdGetFrame__1__4__6__2__3__1__1__1__i = 0;
+                for( ; !(rmdGetFrame__1__4__6__2__3__1__1__1__i >= (signed int)mouse_pos_temp.width); rmdGetFrame__1__4__6__2__3__1__1__1__i = rmdGetFrame__1__4__6__2__3__1__1__1__i + 1)
                 {
-                  *rmdGetFrame$$1$$4$$6$$2$$3$$1$$1$$1$$datapi = *rmdGetFrame$$1$$4$$6$$2$$3$$1$$1$$1$$datapi + (unsigned int)1;
-                  rmdGetFrame$$1$$4$$6$$2$$3$$1$$1$$1$$datapi = rmdGetFrame$$1$$4$$6$$2$$3$$1$$1$$1$$datapi + 1l;
+                  *rmdGetFrame__1__4__6__2__3__1__1__1__datapi = *rmdGetFrame__1__4__6__2__3__1__1__1__datapi + (unsigned int)1;
+                  rmdGetFrame__1__4__6__2__3__1__1__1__datapi = rmdGetFrame__1__4__6__2__3__1__1__1__datapi + 1l;
                 }
-                rmdGetFrame$$1$$4$$6$$2$$3$$1$$1$$1$$datapi = rmdGetFrame$$1$$4$$6$$2$$3$$1$$1$$1$$datapi + (signed long int)((signed int)temp_brwin.rrect.width - (signed int)mouse_pos_temp.width);
+                rmdGetFrame__1__4__6__2__3__1__1__1__datapi = rmdGetFrame__1__4__6__2__3__1__1__1__datapi + (signed long int)((signed int)temp_brwin.rrect.width - (signed int)mouse_pos_temp.width);
               }
             }
 
             else
             {
-              signed int rmdGetFrame$$1$$4$$6$$2$$3$$1$$2$$1$$k;
-              signed int rmdGetFrame$$1$$4$$6$$2$$3$$1$$2$$1$$i;
-              unsigned short int *rmdGetFrame$$1$$4$$6$$2$$3$$1$$2$$1$$datapi = (unsigned short int *)front_buff + (signed long int)((((signed int)mouse_pos_temp.y - (signed int)temp_brwin.rrect.y) + pdata->enc_data->y_offset) * (signed int)temp_brwin.rrect.width) + (signed long int)(((signed int)mouse_pos_temp.x - (signed int)temp_brwin.rrect.x) + pdata->enc_data->x_offset);
-              rmdGetFrame$$1$$4$$6$$2$$3$$1$$2$$1$$k = 0;
-              for( ; !(rmdGetFrame$$1$$4$$6$$2$$3$$1$$2$$1$$k >= (signed int)mouse_pos_temp.height); rmdGetFrame$$1$$4$$6$$2$$3$$1$$2$$1$$k = rmdGetFrame$$1$$4$$6$$2$$3$$1$$2$$1$$k + 1)
+              signed int rmdGetFrame__1__4__6__2__3__1__2__1__k;
+              signed int rmdGetFrame__1__4__6__2__3__1__2__1__i;
+              unsigned short int *rmdGetFrame__1__4__6__2__3__1__2__1__datapi = (unsigned short int *)front_buff + (signed long int)((((signed int)mouse_pos_temp.y - (signed int)temp_brwin.rrect.y) + pdata->enc_data->y_offset) * (signed int)temp_brwin.rrect.width) + (signed long int)(((signed int)mouse_pos_temp.x - (signed int)temp_brwin.rrect.x) + pdata->enc_data->x_offset);
+              rmdGetFrame__1__4__6__2__3__1__2__1__k = 0;
+              for( ; !(rmdGetFrame__1__4__6__2__3__1__2__1__k >= (signed int)mouse_pos_temp.height); rmdGetFrame__1__4__6__2__3__1__2__1__k = rmdGetFrame__1__4__6__2__3__1__2__1__k + 1)
               {
-                rmdGetFrame$$1$$4$$6$$2$$3$$1$$2$$1$$i = 0;
-                for( ; !(rmdGetFrame$$1$$4$$6$$2$$3$$1$$2$$1$$i >= (signed int)mouse_pos_temp.width); rmdGetFrame$$1$$4$$6$$2$$3$$1$$2$$1$$i = rmdGetFrame$$1$$4$$6$$2$$3$$1$$2$$1$$i + 1)
+                rmdGetFrame__1__4__6__2__3__1__2__1__i = 0;
+                for( ; !(rmdGetFrame__1__4__6__2__3__1__2__1__i >= (signed int)mouse_pos_temp.width); rmdGetFrame__1__4__6__2__3__1__2__1__i = rmdGetFrame__1__4__6__2__3__1__2__1__i + 1)
                 {
-                  *rmdGetFrame$$1$$4$$6$$2$$3$$1$$2$$1$$datapi = *rmdGetFrame$$1$$4$$6$$2$$3$$1$$2$$1$$datapi + (unsigned short int)1;
-                  rmdGetFrame$$1$$4$$6$$2$$3$$1$$2$$1$$datapi = rmdGetFrame$$1$$4$$6$$2$$3$$1$$2$$1$$datapi + 1l;
+                  *rmdGetFrame__1__4__6__2__3__1__2__1__datapi = *rmdGetFrame__1__4__6__2__3__1__2__1__datapi + (unsigned short int)1;
+                  rmdGetFrame__1__4__6__2__3__1__2__1__datapi = rmdGetFrame__1__4__6__2__3__1__2__1__datapi + 1l;
                 }
-                rmdGetFrame$$1$$4$$6$$2$$3$$1$$2$$1$$datapi = rmdGetFrame$$1$$4$$6$$2$$3$$1$$2$$1$$datapi + (signed long int)((signed int)temp_brwin.rrect.width - (signed int)mouse_pos_temp.width);
+                rmdGetFrame__1__4__6__2__3__1__2__1__datapi = rmdGetFrame__1__4__6__2__3__1__2__1__datapi + (signed long int)((signed int)temp_brwin.rrect.width - (signed int)mouse_pos_temp.width);
               }
             }
           }
@@ -10042,7 +10042,7 @@ void * rmdGetFrame(struct _ProgData *pdata)
         if(!(pdata->args.xfixes_cursor == 0))
         {
           XFree((void *)xcim);
-          xcim = (struct anonymous$31 *)(void *)0;
+          xcim = (struct anonymous_31 *)(void *)0;
         }
 
       }
@@ -10079,24 +10079,24 @@ void * rmdGetFrame(struct _ProgData *pdata)
 
   }
 
-  signed int *return_value___errno_location$50;
-  return_value___errno_location$50=__errno_location();
-  pthread_exit((void *)&(*return_value___errno_location$50));
+  signed int *return_value___errno_location_50;
+  return_value___errno_location_50=__errno_location();
+  pthread_exit((void *)&(*return_value___errno_location_50));
 }
 
 // rmdGetZPixmap
 // file rmd_getzpixmap.h line 55
 signed int rmdGetZPixmap(struct _XDisplay *dpy, unsigned long int root, char *data, signed int x, signed int y, signed int width, signed int height)
 {
-  struct anonymous$132 reply;
-  struct anonymous$133 *request;
+  struct anonymous_132 reply;
+  struct anonymous_133 *request;
   signed long int nbytes;
   if(!(dpy->lock_fns == ((struct _XLockPtrs *)NULL)))
     dpy->lock_fns->lock_display(dpy);
 
-  void *return_value__XGetRequest$1;
-  return_value__XGetRequest$1=_XGetRequest(dpy, (unsigned char)73, (unsigned long int)20);
-  request = (struct anonymous$133 *)return_value__XGetRequest$1;
+  void *return_value__XGetRequest_1;
+  return_value__XGetRequest_1=_XGetRequest(dpy, (unsigned char)73, (unsigned long int)20);
+  request = (struct anonymous_133 *)return_value__XGetRequest_1;
   request->drawable = (unsigned int)root;
   request->x = (signed short int)x;
   request->y = (signed short int)y;
@@ -10104,9 +10104,9 @@ signed int rmdGetZPixmap(struct _XDisplay *dpy, unsigned long int root, char *da
   request->height = (unsigned short int)height;
   request->planeMask = (unsigned int)(unsigned long int)~0L;
   request->format = (unsigned char)2;
-  signed int return_value__XReply$2;
-  return_value__XReply$2=_XReply(dpy, (union anonymous$134 *)&reply, 0, 0);
-  if(reply.length == 0u || return_value__XReply$2 == 0)
+  signed int return_value__XReply_2;
+  return_value__XReply_2=_XReply(dpy, (union anonymous_134 *)&reply, 0, 0);
+  if(reply.length == 0u || return_value__XReply_2 == 0)
   {
     if(!(dpy->lock_fns == ((struct _XLockPtrs *)NULL)))
       dpy->lock_fns->unlock_display(dpy);
@@ -10133,7 +10133,7 @@ signed int rmdGetZPixmap(struct _XDisplay *dpy, unsigned long int root, char *da
 
 // rmdGetZPixmapSHM
 // file rmd_getzpixmap.c line 72
-signed int rmdGetZPixmapSHM(struct _XDisplay *dpy, unsigned long int root, struct anonymous$34 *shminfo, signed int shm_opcode, char *data, signed int x, signed int y, signed int width, signed int height)
+signed int rmdGetZPixmapSHM(struct _XDisplay *dpy, unsigned long int root, struct anonymous_34 *shminfo, signed int shm_opcode, char *data, signed int x, signed int y, signed int width, signed int height)
 {
   struct _ShmGetImageReply reply;
   struct _ShmGetImage *request = (struct _ShmGetImage *)(void *)0;
@@ -10141,9 +10141,9 @@ signed int rmdGetZPixmapSHM(struct _XDisplay *dpy, unsigned long int root, struc
   if(!(dpy->lock_fns == ((struct _XLockPtrs *)NULL)))
     dpy->lock_fns->lock_display(dpy);
 
-  void *return_value__XGetRequest$1;
-  return_value__XGetRequest$1=_XGetRequest(dpy, (unsigned char)4, (unsigned long int)32);
-  request = (struct _ShmGetImage *)return_value__XGetRequest$1;
+  void *return_value__XGetRequest_1;
+  return_value__XGetRequest_1=_XGetRequest(dpy, (unsigned char)4, (unsigned long int)32);
+  request = (struct _ShmGetImage *)return_value__XGetRequest_1;
   request->reqType = (unsigned char)shm_opcode;
   request->shmReqType = (unsigned char)4;
   request->shmseg = (unsigned int)shminfo->shmseg;
@@ -10155,9 +10155,9 @@ signed int rmdGetZPixmapSHM(struct _XDisplay *dpy, unsigned long int root, struc
   request->planeMask = (unsigned int)(unsigned long int)~0L;
   request->format = (unsigned char)2;
   request->offset = (unsigned int)(data - shminfo->shmaddr);
-  signed int return_value__XReply$2;
-  return_value__XReply$2=_XReply(dpy, (union anonymous$134 *)&reply, 0, 0);
-  if(reply.length == 0u || return_value__XReply$2 == 0)
+  signed int return_value__XReply_2;
+  return_value__XReply_2=_XReply(dpy, (union anonymous_134 *)&reply, 0, 0);
+  if(reply.length == 0u || return_value__XReply_2 == 0)
   {
     if(!(dpy->lock_fns == ((struct _XLockPtrs *)NULL)))
       dpy->lock_fns->unlock_display(dpy);
@@ -10190,27 +10190,27 @@ static signed int rmdIncrementalNaming(char **name)
   char *base_name__;
   signed int i = 0;
   signed int fname_length;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(*name);
-  fname_length = (signed int)(return_value_strlen$1 - (unsigned long int)4);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(fname_length + 1));
-  base_name__ = (char *)return_value_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(*name);
+  fname_length = (signed int)(return_value_strlen_1 - (unsigned long int)4);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(fname_length + 1));
+  base_name__ = (char *)return_value_malloc_2;
   strncpy(base_name__, *name, (unsigned long int)fname_length);
   base_name__[(signed long int)fname_length] = (char)0;
-  signed int return_value_stat$3;
+  signed int return_value_stat_3;
   do
   {
-    return_value_stat$3=stat(*name, &buff);
-    if(!(return_value_stat$3 == 0))
+    return_value_stat_3=stat(*name, &buff);
+    if(!(return_value_stat_3 == 0))
       break;
 
     char *tname;
-    unsigned long int return_value_strlen$4;
-    return_value_strlen$4=strlen(*name);
-    void *return_value_malloc$5;
-    return_value_malloc$5=malloc(return_value_strlen$4 + (unsigned long int)10);
-    tname = (char *)return_value_malloc$5;
+    unsigned long int return_value_strlen_4;
+    return_value_strlen_4=strlen(*name);
+    void *return_value_malloc_5;
+    return_value_malloc_5=malloc(return_value_strlen_4 + (unsigned long int)10);
+    tname = (char *)return_value_malloc_5;
     char numbuf[8l];
     strcpy(tname, base_name__);
     strcat(tname, "-");
@@ -10219,11 +10219,11 @@ static signed int rmdIncrementalNaming(char **name)
     strcat(tname, numbuf);
     strcat(tname, ".ogv");
     free((void *)*name);
-    unsigned long int return_value_strlen$6;
-    return_value_strlen$6=strlen(tname);
-    void *return_value_malloc$7;
-    return_value_malloc$7=malloc(return_value_strlen$6 + (unsigned long int)1);
-    *name = (char *)return_value_malloc$7;
+    unsigned long int return_value_strlen_6;
+    return_value_strlen_6=strlen(tname);
+    void *return_value_malloc_7;
+    return_value_malloc_7=malloc(return_value_strlen_6 + (unsigned long int)1);
+    *name = (char *)return_value_malloc_7;
     strcpy(*name, tname);
     free((void *)tname);
   }
@@ -10247,15 +10247,15 @@ void rmdInitCacheData(struct _ProgData *pdata, struct _EncData *enc_data_t, stru
   offset_x = (width - (signed int)pdata->brwin.rrect.width) / 2 & ~1;
   offset_y = (height - (signed int)pdata->brwin.rrect.height) / 2 & ~1;
   pdata->enc_data = enc_data_t;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)(height * width));
-  enc_data_t->yuv.y = (unsigned char *)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)((height * width) / 4));
-  enc_data_t->yuv.u = (unsigned char *)return_value_malloc$2;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)((height * width) / 4));
-  enc_data_t->yuv.v = (unsigned char *)return_value_malloc$3;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)(height * width));
+  enc_data_t->yuv.y = (unsigned char *)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)((height * width) / 4));
+  enc_data_t->yuv.u = (unsigned char *)return_value_malloc_2;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)((height * width) / 4));
+  enc_data_t->yuv.v = (unsigned char *)return_value_malloc_3;
   enc_data_t->yuv.y_width = width;
   enc_data_t->yuv.y_height = height;
   enc_data_t->yuv.y_stride = width;
@@ -10268,42 +10268,42 @@ void rmdInitCacheData(struct _ProgData *pdata, struct _EncData *enc_data_t, stru
   cache_data_t->workdir = pdata->args.workdir;
   pid=getpid();
   snprintf(pidbuf, (unsigned long int)8, "%d", pid);
-  unsigned long int return_value_strlen$4;
-  return_value_strlen$4=strlen(cache_data_t->workdir);
-  unsigned long int return_value_strlen$5;
-  return_value_strlen$5=strlen(pidbuf);
-  void *return_value_malloc$6;
-  return_value_malloc$6=malloc(return_value_strlen$4 + (unsigned long int)12 + return_value_strlen$5 + (unsigned long int)3);
-  cache_data_t->projname = (char *)return_value_malloc$6;
+  unsigned long int return_value_strlen_4;
+  return_value_strlen_4=strlen(cache_data_t->workdir);
+  unsigned long int return_value_strlen_5;
+  return_value_strlen_5=strlen(pidbuf);
+  void *return_value_malloc_6;
+  return_value_malloc_6=malloc(return_value_strlen_4 + (unsigned long int)12 + return_value_strlen_5 + (unsigned long int)3);
+  cache_data_t->projname = (char *)return_value_malloc_6;
   strcpy(cache_data_t->projname, cache_data_t->workdir);
   strcat(cache_data_t->projname, "/");
   strcat(cache_data_t->projname, "rMD-session-");
   strcat(cache_data_t->projname, pidbuf);
   strcat(cache_data_t->projname, "/");
-  unsigned long int return_value_strlen$7;
-  return_value_strlen$7=strlen(cache_data_t->projname);
-  void *return_value_malloc$8;
-  return_value_malloc$8=malloc(return_value_strlen$7 + (unsigned long int)11);
-  cache_data_t->imgdata = (char *)return_value_malloc$8;
+  unsigned long int return_value_strlen_7;
+  return_value_strlen_7=strlen(cache_data_t->projname);
+  void *return_value_malloc_8;
+  return_value_malloc_8=malloc(return_value_strlen_7 + (unsigned long int)11);
+  cache_data_t->imgdata = (char *)return_value_malloc_8;
   strcpy(cache_data_t->imgdata, cache_data_t->projname);
   strcat(cache_data_t->imgdata, "img.out");
-  unsigned long int return_value_strlen$9;
-  return_value_strlen$9=strlen(cache_data_t->projname);
-  void *return_value_malloc$10;
-  return_value_malloc$10=malloc(return_value_strlen$9 + (unsigned long int)10);
-  cache_data_t->audiodata = (char *)return_value_malloc$10;
+  unsigned long int return_value_strlen_9;
+  return_value_strlen_9=strlen(cache_data_t->projname);
+  void *return_value_malloc_10;
+  return_value_malloc_10=malloc(return_value_strlen_9 + (unsigned long int)10);
+  cache_data_t->audiodata = (char *)return_value_malloc_10;
   strcpy(cache_data_t->audiodata, cache_data_t->projname);
   strcat(cache_data_t->audiodata, "audio.pcm");
-  unsigned long int return_value_strlen$11;
-  return_value_strlen$11=strlen(cache_data_t->projname);
-  void *return_value_malloc$12;
-  return_value_malloc$12=malloc(return_value_strlen$11 + (unsigned long int)10);
-  cache_data_t->specsfile = (char *)return_value_malloc$12;
+  unsigned long int return_value_strlen_11;
+  return_value_strlen_11=strlen(cache_data_t->projname);
+  void *return_value_malloc_12;
+  return_value_malloc_12=malloc(return_value_strlen_11 + (unsigned long int)10);
+  cache_data_t->specsfile = (char *)return_value_malloc_12;
   strcpy(cache_data_t->specsfile, cache_data_t->projname);
   strcat(cache_data_t->specsfile, "specs.txt");
-  signed int return_value_mkdir$13;
-  return_value_mkdir$13=mkdir(cache_data_t->projname, (unsigned int)0777);
-  if(!(return_value_mkdir$13 == 0))
+  signed int return_value_mkdir_13;
+  return_value_mkdir_13=mkdir(cache_data_t->projname, (unsigned int)0777);
+  if(!(return_value_mkdir_13 == 0))
   {
     fprintf(stderr, "Could not create temporary directory %s !!!\n", cache_data_t->projname);
     exit(13);
@@ -10311,9 +10311,9 @@ void rmdInitCacheData(struct _ProgData *pdata, struct _EncData *enc_data_t, stru
 
   if(pdata->args.zerocompression == 0)
   {
-    struct gzFile_s *return_value_gzopen$14;
-    return_value_gzopen$14=gzopen(cache_data_t->imgdata, "wb0f");
-    cache_data_t->ifp = (struct gzFile_s **)return_value_gzopen$14;
+    struct gzFile_s *return_value_gzopen_14;
+    return_value_gzopen_14=gzopen(cache_data_t->imgdata, "wb0f");
+    cache_data_t->ifp = (struct gzFile_s **)return_value_gzopen_14;
     if(cache_data_t->ifp == ((struct gzFile_s **)NULL))
     {
       fprintf(stderr, "Could not create temporary file %s !!!\n", cache_data_t->imgdata);
@@ -10343,9 +10343,9 @@ void rmdInitCacheData(struct _ProgData *pdata, struct _EncData *enc_data_t, stru
 
   }
 
-  signed int return_value_rmdWriteSpecsFile$15;
-  return_value_rmdWriteSpecsFile$15=rmdWriteSpecsFile(pdata);
-  if(!(return_value_rmdWriteSpecsFile$15 == 0))
+  signed int return_value_rmdWriteSpecsFile_15;
+  return_value_rmdWriteSpecsFile_15=rmdWriteSpecsFile(pdata);
+  if(!(return_value_rmdWriteSpecsFile_15 == 0))
   {
     fprintf(stderr, "Could not write specsfile %s !!!\n", cache_data_t->specsfile);
     exit(13);
@@ -10361,68 +10361,68 @@ void rmdInitEncoder(struct _ProgData *pdata, struct _EncData *enc_data_t, signed
   signed int y1;
   signed int y2;
   signed int fname_length;
-  struct anonymous$14 m_ogg_skel;
-  struct anonymous$15 skel_og_pg;
-  struct anonymous$139 skel_fbv;
-  struct anonymous$139 skel_fba;
+  struct anonymous_14 m_ogg_skel;
+  struct anonymous_15 skel_og_pg;
+  struct anonymous_139 skel_fbv;
+  struct anonymous_139 skel_fba;
   pdata->enc_data = enc_data_t;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(pdata->args.filename);
-  fname_length = (signed int)return_value_strlen$1;
-  _Bool tmp_if_expr$3;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(pdata->args.filename);
+  fname_length = (signed int)return_value_strlen_1;
+  _Bool tmp_if_expr_3;
   if(fname_length >= 5)
-    tmp_if_expr$3 = (signed int)pdata->args.filename[(signed long int)(fname_length - 4)] == 46 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_3 = (signed int)pdata->args.filename[(signed long int)(fname_length - 4)] == 46 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$3 = (_Bool)0;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$4;
-  if(tmp_if_expr$3)
+    tmp_if_expr_3 = (_Bool)0;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_4;
+  if(tmp_if_expr_3)
   {
     if((signed int)pdata->args.filename[(signed long int)(fname_length + -3)] == 111)
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (signed int)pdata->args.filename[(signed long int)(fname_length - 3)] == 79 ? (_Bool)1 : (_Bool)0;
-    tmp_if_expr$5 = tmp_if_expr$4 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_4 = (signed int)pdata->args.filename[(signed long int)(fname_length - 3)] == 79 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_5 = tmp_if_expr_4 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$5 = (_Bool)0;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
-  if(tmp_if_expr$5)
+    tmp_if_expr_5 = (_Bool)0;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
+  if(tmp_if_expr_5)
   {
     if((signed int)pdata->args.filename[(signed long int)(fname_length + -2)] == 103)
-      tmp_if_expr$6 = (_Bool)1;
+      tmp_if_expr_6 = (_Bool)1;
 
     else
-      tmp_if_expr$6 = (signed int)pdata->args.filename[(signed long int)(fname_length - 2)] == 71 ? (_Bool)1 : (_Bool)0;
-    tmp_if_expr$7 = tmp_if_expr$6 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_6 = (signed int)pdata->args.filename[(signed long int)(fname_length - 2)] == 71 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_7 = tmp_if_expr_6 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$7 = (_Bool)0;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$8;
-  if(tmp_if_expr$7)
+    tmp_if_expr_7 = (_Bool)0;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_8;
+  if(tmp_if_expr_7)
   {
     if((signed int)pdata->args.filename[(signed long int)(fname_length + -1)] == 118)
-      tmp_if_expr$8 = (_Bool)1;
+      tmp_if_expr_8 = (_Bool)1;
 
     else
-      tmp_if_expr$8 = (signed int)pdata->args.filename[(signed long int)(fname_length - 1)] == 86 ? (_Bool)1 : (_Bool)0;
-    tmp_if_expr$9 = tmp_if_expr$8 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_8 = (signed int)pdata->args.filename[(signed long int)(fname_length - 1)] == 86 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_9 = tmp_if_expr_8 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$9 = (_Bool)0;
-  if(!tmp_if_expr$9)
+    tmp_if_expr_9 = (_Bool)0;
+  if(!tmp_if_expr_9)
   {
     char *new_name;
-    void *return_value_malloc$2;
-    return_value_malloc$2=malloc((unsigned long int)(fname_length + 5));
-    new_name = (char *)return_value_malloc$2;
+    void *return_value_malloc_2;
+    return_value_malloc_2=malloc((unsigned long int)(fname_length + 5));
+    new_name = (char *)return_value_malloc_2;
     strcpy(new_name, pdata->args.filename);
     strcat(new_name, ".ogv");
     free((void *)pdata->args.filename);
@@ -10442,25 +10442,25 @@ void rmdInitEncoder(struct _ProgData *pdata, struct _EncData *enc_data_t, signed
     exit(13);
   }
 
-  signed long int return_value_time$10;
-  return_value_time$10=time((signed long int *)(void *)0);
-  srand((unsigned int)return_value_time$10);
-  signed int return_value_rand$11;
-  return_value_rand$11=rand();
-  y0 = return_value_rand$11 + 1;
-  signed int return_value_rand$12;
-  return_value_rand$12=rand();
-  y1 = return_value_rand$12 + 1;
-  signed int return_value_rand$13;
-  return_value_rand$13=rand();
-  y2 = return_value_rand$13 + 1;
+  signed long int return_value_time_10;
+  return_value_time_10=time((signed long int *)(void *)0);
+  srand((unsigned int)return_value_time_10);
+  signed int return_value_rand_11;
+  return_value_rand_11=rand();
+  y0 = return_value_rand_11 + 1;
+  signed int return_value_rand_12;
+  return_value_rand_12=rand();
+  y1 = return_value_rand_12 + 1;
+  signed int return_value_rand_13;
+  return_value_rand_13=rand();
+  y2 = return_value_rand_13 + 1;
   y2 = y2 + (signed int)(y1 == y2);
   y0 = y0 == y1 || y0 == y2 ? y1 + y2 : y0;
   ogg_stream_init(&m_ogg_skel, y0);
   m_add_fishead_packet(&m_ogg_skel);
-  signed int return_value_ogg_stream_pageout$14;
-  return_value_ogg_stream_pageout$14=ogg_stream_pageout(&m_ogg_skel, &skel_og_pg);
-  if(!(return_value_ogg_stream_pageout$14 == 1))
+  signed int return_value_ogg_stream_pageout_14;
+  return_value_ogg_stream_pageout_14=ogg_stream_pageout(&m_ogg_skel, &skel_og_pg);
+  if(!(return_value_ogg_stream_pageout_14 == 1))
   {
     fprintf(stderr, "Internal Ogg library error.\n");
     exit(2);
@@ -10483,8 +10483,8 @@ void rmdInitEncoder(struct _ProgData *pdata, struct _EncData *enc_data_t, signed
   enc_data_t->m_th_inf.fps_denominator = (unsigned int)100;
   enc_data_t->m_th_inf.aspect_numerator = (unsigned int)1;
   enc_data_t->m_th_inf.aspect_denominator = (unsigned int)1;
-  enc_data_t->m_th_inf.colorspace = (enum anonymous$143)OC_CS_UNSPECIFIED;
-  enc_data_t->m_th_inf.pixelformat = (enum anonymous$144)OC_PF_420;
+  enc_data_t->m_th_inf.colorspace = (enum anonymous_143)OC_CS_UNSPECIFIED;
+  enc_data_t->m_th_inf.pixelformat = (enum anonymous_144)OC_PF_420;
   enc_data_t->m_th_inf.target_bitrate = pdata->args.v_bitrate;
   enc_data_t->m_th_inf.quality = pdata->args.v_quality;
   enc_data_t->m_th_inf.dropframes_p = 0;
@@ -10516,9 +10516,9 @@ void rmdInitEncoder(struct _ProgData *pdata, struct _EncData *enc_data_t, signed
 
   theora_encode_header(&enc_data_t->m_th_st, &enc_data_t->m_ogg_pckt1);
   ogg_stream_packetin(&enc_data_t->m_ogg_ts, &enc_data_t->m_ogg_pckt1);
-  signed int return_value_ogg_stream_pageout$15;
-  return_value_ogg_stream_pageout$15=ogg_stream_pageout(&enc_data_t->m_ogg_ts, &enc_data_t->m_ogg_pg);
-  if(!(return_value_ogg_stream_pageout$15 == 1))
+  signed int return_value_ogg_stream_pageout_15;
+  return_value_ogg_stream_pageout_15=ogg_stream_pageout(&enc_data_t->m_ogg_ts, &enc_data_t->m_ogg_pg);
+  if(!(return_value_ogg_stream_pageout_15 == 1))
   {
     fprintf(stderr, "Internal Ogg library error.\n");
     exit(2);
@@ -10534,14 +10534,14 @@ void rmdInitEncoder(struct _ProgData *pdata, struct _EncData *enc_data_t, signed
   ogg_stream_packetin(&enc_data_t->m_ogg_ts, &enc_data_t->m_ogg_pckt1);
   if(pdata->args.nosound == 0)
   {
-    struct anonymous$126 header;
-    struct anonymous$126 header_comm;
-    struct anonymous$126 header_code;
+    struct anonymous_126 header;
+    struct anonymous_126 header_comm;
+    struct anonymous_126 header_code;
     vorbis_analysis_headerout(&enc_data_t->m_vo_dsp, &enc_data_t->m_vo_cmmnt, &header, &header_comm, &header_code);
     ogg_stream_packetin(&enc_data_t->m_ogg_vs, &header);
-    signed int return_value_ogg_stream_pageout$16;
-    return_value_ogg_stream_pageout$16=ogg_stream_pageout(&enc_data_t->m_ogg_vs, &enc_data_t->m_ogg_pg);
-    if(!(return_value_ogg_stream_pageout$16 == 1))
+    signed int return_value_ogg_stream_pageout_16;
+    return_value_ogg_stream_pageout_16=ogg_stream_pageout(&enc_data_t->m_ogg_vs, &enc_data_t->m_ogg_pg);
+    if(!(return_value_ogg_stream_pageout_16 == 1))
     {
       fprintf(stderr, "Internal Ogg library error.\n");
       exit(2);
@@ -10553,21 +10553,21 @@ void rmdInitEncoder(struct _ProgData *pdata, struct _EncData *enc_data_t, signed
     ogg_stream_packetin(&enc_data_t->m_ogg_vs, &header_code);
   }
 
-  memset((void *)&skel_fbv, 0, sizeof(struct anonymous$139) /*56ul*/ );
+  memset((void *)&skel_fbv, 0, sizeof(struct anonymous_139) /*56ul*/ );
   skel_fbv.serial_no = (unsigned int)enc_data_t->m_ogg_ts.serialno;
   skel_fbv.nr_header_packet = (unsigned int)3;
   skel_fbv.granule_rate_n = (signed long int)enc_data_t->m_th_inf.fps_numerator;
   skel_fbv.granule_rate_d = (signed long int)enc_data_t->m_th_inf.fps_denominator;
   skel_fbv.start_granule = (signed long int)0;
   skel_fbv.preroll = (unsigned int)0;
-  signed int return_value_theora_granule_shift$17;
-  return_value_theora_granule_shift$17=theora_granule_shift(&enc_data_t->m_th_inf);
-  skel_fbv.granule_shift = (unsigned char)return_value_theora_granule_shift$17;
+  signed int return_value_theora_granule_shift_17;
+  return_value_theora_granule_shift_17=theora_granule_shift(&enc_data_t->m_th_inf);
+  skel_fbv.granule_shift = (unsigned char)return_value_theora_granule_shift_17;
   add_message_header_field(&skel_fbv, "Content-Type", "video/theora");
   add_fisbone_to_stream(&m_ogg_skel, &skel_fbv);
   if(pdata->args.nosound == 0)
   {
-    memset((void *)&skel_fba, 0, sizeof(struct anonymous$139) /*56ul*/ );
+    memset((void *)&skel_fba, 0, sizeof(struct anonymous_139) /*56ul*/ );
     skel_fba.serial_no = (unsigned int)enc_data_t->m_ogg_vs.serialno;
     skel_fba.nr_header_packet = (unsigned int)3;
     skel_fba.granule_rate_n = (signed long int)pdata->args.frequency;
@@ -10581,15 +10581,15 @@ void rmdInitEncoder(struct _ProgData *pdata, struct _EncData *enc_data_t, signed
 
   while((_Bool)1)
   {
-    signed int rmdInitEncoder$$1$$9$$result;
-    rmdInitEncoder$$1$$9$$result=ogg_stream_flush(&m_ogg_skel, &skel_og_pg);
-    if(!(rmdInitEncoder$$1$$9$$result >= 0))
+    signed int rmdInitEncoder__1__9__result;
+    rmdInitEncoder__1__9__result=ogg_stream_flush(&m_ogg_skel, &skel_og_pg);
+    if(!(rmdInitEncoder__1__9__result >= 0))
     {
       fprintf(stderr, "Internal Ogg library error.\n");
       exit(2);
     }
 
-    if(rmdInitEncoder$$1$$9$$result == 0)
+    if(rmdInitEncoder__1__9__result == 0)
       break;
 
     fwrite((const void *)skel_og_pg.header, (unsigned long int)1, (unsigned long int)skel_og_pg.header_len, enc_data_t->fp);
@@ -10614,15 +10614,15 @@ void rmdInitEncoder(struct _ProgData *pdata, struct _EncData *enc_data_t, signed
   if(pdata->args.nosound == 0)
     while((_Bool)1)
     {
-      signed int rmdInitEncoder$$1$$11$$1$$result;
-      rmdInitEncoder$$1$$11$$1$$result=ogg_stream_flush(&enc_data_t->m_ogg_vs, &enc_data_t->m_ogg_pg);
-      if(!(rmdInitEncoder$$1$$11$$1$$result >= 0))
+      signed int rmdInitEncoder__1__11__1__result;
+      rmdInitEncoder__1__11__1__result=ogg_stream_flush(&enc_data_t->m_ogg_vs, &enc_data_t->m_ogg_pg);
+      if(!(rmdInitEncoder__1__11__1__result >= 0))
       {
         fprintf(stderr, "Internal Ogg library error.\n");
         exit(2);
       }
 
-      if(rmdInitEncoder$$1$$11$$1$$result == 0)
+      if(rmdInitEncoder__1__11__1__result == 0)
         break;
 
       fwrite((const void *)enc_data_t->m_ogg_pg.header, (unsigned long int)1, (unsigned long int)enc_data_t->m_ogg_pg.header_len, enc_data_t->fp);
@@ -10630,9 +10630,9 @@ void rmdInitEncoder(struct _ProgData *pdata, struct _EncData *enc_data_t, signed
     }
 
   add_eos_packet_to_stream(&m_ogg_skel);
-  signed int return_value_ogg_stream_flush$18;
-  return_value_ogg_stream_flush$18=ogg_stream_flush(&m_ogg_skel, &skel_og_pg);
-  if(!(return_value_ogg_stream_flush$18 >= 0))
+  signed int return_value_ogg_stream_flush_18;
+  return_value_ogg_stream_flush_18=ogg_stream_flush(&m_ogg_skel, &skel_og_pg);
+  if(!(return_value_ogg_stream_flush_18 >= 0))
   {
     fprintf(stderr, "Internal Ogg library error.\n");
     exit(2);
@@ -10642,15 +10642,15 @@ void rmdInitEncoder(struct _ProgData *pdata, struct _EncData *enc_data_t, signed
   fwrite((const void *)skel_og_pg.body, (unsigned long int)1, (unsigned long int)skel_og_pg.body_len, enc_data_t->fp);
   if(buffer_ready == 0)
   {
-    void *return_value_malloc$19;
-    return_value_malloc$19=malloc((unsigned long int)(enc_data_t->m_th_inf.height * enc_data_t->m_th_inf.width));
-    enc_data_t->yuv.y = (unsigned char *)return_value_malloc$19;
-    void *return_value_malloc$20;
-    return_value_malloc$20=malloc((unsigned long int)((enc_data_t->m_th_inf.height * enc_data_t->m_th_inf.width) / (unsigned int)4));
-    enc_data_t->yuv.u = (unsigned char *)return_value_malloc$20;
-    void *return_value_malloc$21;
-    return_value_malloc$21=malloc((unsigned long int)((enc_data_t->m_th_inf.height * enc_data_t->m_th_inf.width) / (unsigned int)4));
-    enc_data_t->yuv.v = (unsigned char *)return_value_malloc$21;
+    void *return_value_malloc_19;
+    return_value_malloc_19=malloc((unsigned long int)(enc_data_t->m_th_inf.height * enc_data_t->m_th_inf.width));
+    enc_data_t->yuv.y = (unsigned char *)return_value_malloc_19;
+    void *return_value_malloc_20;
+    return_value_malloc_20=malloc((unsigned long int)((enc_data_t->m_th_inf.height * enc_data_t->m_th_inf.width) / (unsigned int)4));
+    enc_data_t->yuv.u = (unsigned char *)return_value_malloc_20;
+    void *return_value_malloc_21;
+    return_value_malloc_21=malloc((unsigned long int)((enc_data_t->m_th_inf.height * enc_data_t->m_th_inf.width) / (unsigned int)4));
+    enc_data_t->yuv.v = (unsigned char *)return_value_malloc_21;
     enc_data_t->yuv.y_width = (signed int)enc_data_t->m_th_inf.width;
     enc_data_t->yuv.y_height = (signed int)enc_data_t->m_th_inf.height;
     enc_data_t->yuv.y_stride = (signed int)enc_data_t->m_th_inf.width;
@@ -10681,9 +10681,9 @@ void rmdInitEventsPolling(struct _ProgData *pdata)
     for( ; !(i >= nchildren); i = i + 1u)
     {
       struct anonymous attribs;
-      signed int return_value_XGetWindowAttributes$1;
-      return_value_XGetWindowAttributes$1=XGetWindowAttributes(pdata->dpy, children[(signed long int)i], &attribs);
-      if(!(return_value_XGetWindowAttributes$1 == 0))
+      signed int return_value_XGetWindowAttributes_1;
+      return_value_XGetWindowAttributes_1=XGetWindowAttributes(pdata->dpy, children[(signed long int)i], &attribs);
+      if(!(return_value_XGetWindowAttributes_1 == 0))
       {
         if(attribs.override_redirect == 0)
         {
@@ -10717,21 +10717,21 @@ signed int rmdInitializeData(struct _ProgData *pdata, struct _EncData *enc_data,
   else
     pdata->dummy_p_size = 0;
   pdata->rect_root = (struct _RectArea *)(void *)0;
-  pthread_mutex_init(&pdata->sound_buffer_mutex, (const union anonymous$141 *)(void *)0);
-  pthread_mutex_init(&pdata->snd_buff_ready_mutex, (const union anonymous$141 *)(void *)0);
-  pthread_mutex_init(&pdata->img_buff_ready_mutex, (const union anonymous$141 *)(void *)0);
-  pthread_mutex_init(&pdata->theora_lib_mutex, (const union anonymous$141 *)(void *)0);
-  pthread_mutex_init(&pdata->vorbis_lib_mutex, (const union anonymous$141 *)(void *)0);
-  pthread_mutex_init(&pdata->libogg_mutex, (const union anonymous$141 *)(void *)0);
-  pthread_mutex_init(&pdata->yuv_mutex, (const union anonymous$141 *)(void *)0);
-  pthread_mutex_init(&pdata->pause_mutex, (const union anonymous$141 *)(void *)0);
-  pthread_mutex_init(&pdata->time_mutex, (const union anonymous$141 *)(void *)0);
-  pthread_cond_init(&pdata->time_cond, (const union anonymous$141 *)(void *)0);
-  pthread_cond_init(&pdata->pause_cond, (const union anonymous$141 *)(void *)0);
-  pthread_cond_init(&pdata->image_buffer_ready, (const union anonymous$141 *)(void *)0);
-  pthread_cond_init(&pdata->sound_data_read, (const union anonymous$141 *)(void *)0);
-  pthread_cond_init(&pdata->theora_lib_clean, (const union anonymous$141 *)(void *)0);
-  pthread_cond_init(&pdata->vorbis_lib_clean, (const union anonymous$141 *)(void *)0);
+  pthread_mutex_init(&pdata->sound_buffer_mutex, (const union anonymous_141 *)(void *)0);
+  pthread_mutex_init(&pdata->snd_buff_ready_mutex, (const union anonymous_141 *)(void *)0);
+  pthread_mutex_init(&pdata->img_buff_ready_mutex, (const union anonymous_141 *)(void *)0);
+  pthread_mutex_init(&pdata->theora_lib_mutex, (const union anonymous_141 *)(void *)0);
+  pthread_mutex_init(&pdata->vorbis_lib_mutex, (const union anonymous_141 *)(void *)0);
+  pthread_mutex_init(&pdata->libogg_mutex, (const union anonymous_141 *)(void *)0);
+  pthread_mutex_init(&pdata->yuv_mutex, (const union anonymous_141 *)(void *)0);
+  pthread_mutex_init(&pdata->pause_mutex, (const union anonymous_141 *)(void *)0);
+  pthread_mutex_init(&pdata->time_mutex, (const union anonymous_141 *)(void *)0);
+  pthread_cond_init(&pdata->time_cond, (const union anonymous_141 *)(void *)0);
+  pthread_cond_init(&pdata->pause_cond, (const union anonymous_141 *)(void *)0);
+  pthread_cond_init(&pdata->image_buffer_ready, (const union anonymous_141 *)(void *)0);
+  pthread_cond_init(&pdata->sound_data_read, (const union anonymous_141 *)(void *)0);
+  pthread_cond_init(&pdata->theora_lib_clean, (const union anonymous_141 *)(void *)0);
+  pthread_cond_init(&pdata->vorbis_lib_clean, (const union anonymous_141 *)(void *)0);
   pdata->v_encoding_clean = 1;
   pdata->th_encoding_clean = pdata->v_encoding_clean;
   pdata->avd = 0;
@@ -10750,9 +10750,9 @@ signed int rmdInitializeData(struct _ProgData *pdata, struct _EncData *enc_data,
     {
       rmdFixBufferSize(&pdata->args.buffsize);
       pdata->sound_handle=rmdOpenDev(pdata->args.device, &pdata->args.channels, &pdata->args.frequency, &pdata->args.buffsize, &pdata->periodsize, &pdata->periodtime, &pdata->hard_pause);
-      signed int return_value_snd_pcm_format_width$1;
-      return_value_snd_pcm_format_width$1=snd_pcm_format_width((enum _snd_pcm_format)SND_PCM_FORMAT_S16_LE);
-      pdata->sound_framesize = (signed int)((unsigned int)(return_value_snd_pcm_format_width$1 / 8) * pdata->args.channels);
+      signed int return_value_snd_pcm_format_width_1;
+      return_value_snd_pcm_format_width_1=snd_pcm_format_width((enum _snd_pcm_format)SND_PCM_FORMAT_S16_LE);
+      pdata->sound_framesize = (signed int)((unsigned int)(return_value_snd_pcm_format_width_1 / 8) * pdata->args.channels);
       if(pdata->sound_handle == ((struct _snd_pcm *)NULL))
       {
         fprintf(stderr, "Error while opening/configuring soundcard %s\nTry running with the --no-sound or specify a correct device.\n", pdata->args.device);
@@ -10797,15 +10797,15 @@ signed int rmdInitializeData(struct _ProgData *pdata, struct _EncData *enc_data,
     pdata->enc_data->yuv.u[(signed long int)i] = (unsigned char)127;
     pdata->enc_data->yuv.v[(signed long int)i] = pdata->enc_data->yuv.u[(signed long int)i];
   }
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)(pdata->enc_data->yuv.y_width / 0x0010) * (unsigned long int)(pdata->enc_data->yuv.y_height / 0x0010));
-  yblocks = (unsigned int *)return_value_malloc$2;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)(pdata->enc_data->yuv.y_width / 0x0010) * (unsigned long int)(pdata->enc_data->yuv.y_height / 0x0010));
-  ublocks = (unsigned int *)return_value_malloc$3;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)(pdata->enc_data->yuv.y_width / 0x0010) * (unsigned long int)(pdata->enc_data->yuv.y_height / 0x0010));
-  vblocks = (unsigned int *)return_value_malloc$4;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)(pdata->enc_data->yuv.y_width / 0x0010) * (unsigned long int)(pdata->enc_data->yuv.y_height / 0x0010));
+  yblocks = (unsigned int *)return_value_malloc_2;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)(pdata->enc_data->yuv.y_width / 0x0010) * (unsigned long int)(pdata->enc_data->yuv.y_height / 0x0010));
+  ublocks = (unsigned int *)return_value_malloc_3;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)(pdata->enc_data->yuv.y_width / 0x0010) * (unsigned long int)(pdata->enc_data->yuv.y_height / 0x0010));
+  vblocks = (unsigned int *)return_value_malloc_4;
   pdata->frametime = (unsigned int)((float)1000000 / pdata->args.fps);
   return 0;
 }
@@ -10816,20 +10816,20 @@ static signed int rmdJackCapture(unsigned int nframes, void *jdata_t)
 {
   signed int i = 0;
   struct _JackData *jdata = (struct _JackData *)jdata_t;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(jdata->pdata->running == 0)
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = jdata->pdata->paused != 0 ? (_Bool)1 : (_Bool)0;
-  _Bool tmp_if_expr$2;
-  if(tmp_if_expr$1)
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_1 = jdata->pdata->paused != 0 ? (_Bool)1 : (_Bool)0;
+  _Bool tmp_if_expr_2;
+  if(tmp_if_expr_1)
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = !(jdata->capture_started != 0) ? (_Bool)1 : (_Bool)0;
-  void *return_value_jack_port_get_buffer$3;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = !(jdata->capture_started != 0) ? (_Bool)1 : (_Bool)0;
+  void *return_value_jack_port_get_buffer_3;
+  if(tmp_if_expr_2)
     return 0;
 
   else
@@ -10837,8 +10837,8 @@ static signed int rmdJackCapture(unsigned int nframes, void *jdata_t)
     i = 0;
     for( ; !((unsigned int)i >= jdata->nports); i = i + 1)
     {
-      return_value_jack_port_get_buffer$3=jack_port_get_buffer(jdata->ports[(signed long int)i], nframes);
-      jdata->portbuf[(signed long int)i] = (float *)return_value_jack_port_get_buffer$3;
+      return_value_jack_port_get_buffer_3=jack_port_get_buffer(jdata->ports[(signed long int)i], nframes);
+      jdata->portbuf[(signed long int)i] = (float *)return_value_jack_port_get_buffer_3;
     }
     i = 0;
     if(!((unsigned int)i >= jdata->nports))
@@ -10879,7 +10879,7 @@ static void rmdLoadBlock(unsigned char *dest, unsigned char *source, signed int 
 // file rmd_load_cache.h line 39
 void * rmdLoadCache(struct _ProgData *pdata)
 {
-  struct anonymous$45 *yuv = &pdata->enc_data->yuv;
+  struct anonymous_45 *yuv = &pdata->enc_data->yuv;
   struct gzFile_s **ifp = (struct gzFile_s **)(void *)0;
   struct _IO_FILE *ucfp = (struct _IO_FILE *)(void *)0;
   struct _IO_FILE *afp = pdata->cache_data->afp;
@@ -10896,33 +10896,33 @@ void * rmdLoadCache(struct _ProgData *pdata)
   signed int blockszy = 0x0100;
   signed int blockszuv = 0x0040;
   signed char *sound_data;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(pdata->periodsize * (unsigned long int)pdata->sound_framesize);
-  sound_data = (signed char *)return_value_malloc$1;
-  const signed long int sound_data$array_size0 = (signed long int)((yuv->y_width * yuv->y_height) / 0x0100);
-  const signed long int YBlocks$array_size0 = (signed long int)((yuv->uv_width * yuv->uv_height) / 0x0040);
-  const signed long int UBlocks$array_size0 = (signed long int)((yuv->uv_width * yuv->uv_height) / 0x0040);
-  unsigned int YBlocks[sound_data$array_size0];
-  unsigned int UBlocks[YBlocks$array_size0];
-  unsigned int VBlocks[UBlocks$array_size0];
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(pdata->periodsize * (unsigned long int)pdata->sound_framesize);
+  sound_data = (signed char *)return_value_malloc_1;
+  const signed long int sound_data_array_size0 = (signed long int)((yuv->y_width * yuv->y_height) / 0x0100);
+  const signed long int YBlocks_array_size0 = (signed long int)((yuv->uv_width * yuv->uv_height) / 0x0040);
+  const signed long int UBlocks_array_size0 = (signed long int)((yuv->uv_width * yuv->uv_height) / 0x0040);
+  unsigned int YBlocks[sound_data_array_size0];
+  unsigned int UBlocks[YBlocks_array_size0];
+  unsigned int VBlocks[UBlocks_array_size0];
   frame.header = &fheader;
   frame.YBlocks = YBlocks;
   frame.UBlocks = UBlocks;
   frame.VBlocks = VBlocks;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc((unsigned long int)(yuv->y_width * yuv->y_height));
-  frame.YData = (unsigned char *)return_value_malloc$2;
-  void *return_value_malloc$3;
-  return_value_malloc$3=malloc((unsigned long int)(yuv->uv_width * yuv->uv_height));
-  frame.UData = (unsigned char *)return_value_malloc$3;
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc((unsigned long int)(yuv->uv_width * yuv->uv_height));
-  frame.VData = (unsigned char *)return_value_malloc$4;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc((unsigned long int)(yuv->y_width * yuv->y_height));
+  frame.YData = (unsigned char *)return_value_malloc_2;
+  void *return_value_malloc_3;
+  return_value_malloc_3=malloc((unsigned long int)(yuv->uv_width * yuv->uv_height));
+  frame.UData = (unsigned char *)return_value_malloc_3;
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc((unsigned long int)(yuv->uv_width * yuv->uv_height));
+  frame.VData = (unsigned char *)return_value_malloc_4;
   if(pdata->args.zerocompression == 0)
   {
-    struct gzFile_s *return_value_gzopen$5;
-    return_value_gzopen$5=gzopen(pdata->cache_data->imgdata, "rb");
-    ifp = (struct gzFile_s **)return_value_gzopen$5;
+    struct gzFile_s *return_value_gzopen_5;
+    return_value_gzopen_5=gzopen(pdata->cache_data->imgdata, "rb");
+    ifp = (struct gzFile_s **)return_value_gzopen_5;
     if(ifp == ((struct gzFile_s **)NULL))
     {
       thread_exit = -1;
@@ -10953,24 +10953,24 @@ void * rmdLoadCache(struct _ProgData *pdata)
   }
 
   pdata->avd = 0;
-  _Bool tmp_if_expr$17;
-  _Bool tmp_if_expr$12;
-  signed int return_value_gzread$11;
-  _Bool tmp_if_expr$15;
-  _Bool tmp_if_expr$14;
-  unsigned long int return_value_fread$13;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$9;
-  signed int return_value_rmdReadFrame$8;
+  _Bool tmp_if_expr_17;
+  _Bool tmp_if_expr_12;
+  signed int return_value_gzread_11;
+  _Bool tmp_if_expr_15;
+  _Bool tmp_if_expr_14;
+  unsigned long int return_value_fread_13;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_9;
+  signed int return_value_rmdReadFrame_8;
   while(!(pdata->running == 0))
   {
     if(!(pdata->avd >= 1))
-      tmp_if_expr$17 = (_Bool)1;
+      tmp_if_expr_17 = (_Bool)1;
 
     else
-      tmp_if_expr$17 = pdata->args.nosound != 0 ? (_Bool)1 : (_Bool)0;
-    if(!(audio_end == 0) || tmp_if_expr$17)
+      tmp_if_expr_17 = pdata->args.nosound != 0 ? (_Bool)1 : (_Bool)0;
+    if(!(audio_end == 0) || tmp_if_expr_17)
     {
       if(missing_frames >= 1)
       {
@@ -10983,28 +10983,28 @@ void * rmdLoadCache(struct _ProgData *pdata)
       {
         if(pdata->args.zerocompression == 0)
         {
-          return_value_gzread$11=gzread((struct gzFile_s *)ifp, (void *)frame.header, (unsigned int)sizeof(struct _FrameHeader) /*24ul*/ );
-          tmp_if_expr$12 = (unsigned long int)return_value_gzread$11 == sizeof(struct _FrameHeader) /*24ul*/  ? (_Bool)1 : (_Bool)0;
+          return_value_gzread_11=gzread((struct gzFile_s *)ifp, (void *)frame.header, (unsigned int)sizeof(struct _FrameHeader) /*24ul*/ );
+          tmp_if_expr_12 = (unsigned long int)return_value_gzread_11 == sizeof(struct _FrameHeader) /*24ul*/  ? (_Bool)1 : (_Bool)0;
         }
 
         else
-          tmp_if_expr$12 = (_Bool)0;
-        if(tmp_if_expr$12)
-          tmp_if_expr$15 = (_Bool)1;
+          tmp_if_expr_12 = (_Bool)0;
+        if(tmp_if_expr_12)
+          tmp_if_expr_15 = (_Bool)1;
 
         else
         {
           if(!(pdata->args.zerocompression == 0))
           {
-            return_value_fread$13=fread((void *)frame.header, sizeof(struct _FrameHeader) /*24ul*/ , (unsigned long int)1, ucfp);
-            tmp_if_expr$14 = return_value_fread$13 == (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
+            return_value_fread_13=fread((void *)frame.header, sizeof(struct _FrameHeader) /*24ul*/ , (unsigned long int)1, ucfp);
+            tmp_if_expr_14 = return_value_fread_13 == (unsigned long int)1 ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$14 = (_Bool)0;
-          tmp_if_expr$15 = tmp_if_expr$14 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_14 = (_Bool)0;
+          tmp_if_expr_15 = tmp_if_expr_14 ? (_Bool)1 : (_Bool)0;
         }
-        if(tmp_if_expr$15)
+        if(tmp_if_expr_15)
         {
           missing_frames = missing_frames + (signed int)(frame.header->current_total - ((unsigned int)extra_frames + frame.header->frameno));
           if(!(pdata->frames_total == 0u))
@@ -11014,24 +11014,24 @@ void * rmdLoadCache(struct _ProgData *pdata)
             fprintf(stdout, "\r[%d frames rendered] ", frame.header->frameno + (unsigned int)extra_frames);
           fflush(stdout);
           if((unsigned int)blocknum_x * (unsigned int)blocknum_y >= frame.header->Ynum)
-            tmp_if_expr$6 = frame.header->Unum <= (unsigned int)(blocknum_x * blocknum_y) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = frame.header->Unum <= (unsigned int)(blocknum_x * blocknum_y) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$6 = (_Bool)0;
-          if(tmp_if_expr$6)
-            tmp_if_expr$7 = frame.header->Vnum <= (unsigned int)(blocknum_x * blocknum_y) ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_6 = (_Bool)0;
+          if(tmp_if_expr_6)
+            tmp_if_expr_7 = frame.header->Vnum <= (unsigned int)(blocknum_x * blocknum_y) ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$7 = (_Bool)0;
-          if(tmp_if_expr$7)
+            tmp_if_expr_7 = (_Bool)0;
+          if(tmp_if_expr_7)
           {
-            return_value_rmdReadFrame$8=rmdReadFrame(&frame, pdata->args.zerocompression != 0 ? ucfp : (struct _IO_FILE *)(void *)0, pdata->args.zerocompression != 0 ? (struct gzFile_s **)(void *)0 : ifp);
-            tmp_if_expr$9 = !(return_value_rmdReadFrame$8 != 0) ? (_Bool)1 : (_Bool)0;
+            return_value_rmdReadFrame_8=rmdReadFrame(&frame, pdata->args.zerocompression != 0 ? ucfp : (struct _IO_FILE *)(void *)0, pdata->args.zerocompression != 0 ? (struct gzFile_s **)(void *)0 : ifp);
+            tmp_if_expr_9 = !(return_value_rmdReadFrame_8 != 0) ? (_Bool)1 : (_Bool)0;
           }
 
           else
-            tmp_if_expr$9 = (_Bool)0;
-          if(tmp_if_expr$9)
+            tmp_if_expr_9 = (_Bool)0;
+          if(tmp_if_expr_9)
           {
             if(!(frame.header->Ynum == 0u))
             {
@@ -11066,9 +11066,9 @@ void * rmdLoadCache(struct _ProgData *pdata)
 
         else
         {
-          signed int return_value_rmdSwapCacheFilesRead$10;
-          return_value_rmdSwapCacheFilesRead$10=rmdSwapCacheFilesRead(pdata->cache_data->imgdata, nth_cache, &ifp, &ucfp);
-          if(!(return_value_rmdSwapCacheFilesRead$10 == 0))
+          signed int return_value_rmdSwapCacheFilesRead_10;
+          return_value_rmdSwapCacheFilesRead_10=rmdSwapCacheFilesRead(pdata->cache_data->imgdata, nth_cache, &ifp, &ucfp);
+          if(!(return_value_rmdSwapCacheFilesRead_10 == 0))
             raise(2);
 
           else
@@ -11085,9 +11085,9 @@ void * rmdLoadCache(struct _ProgData *pdata)
       if(audio_end == 0)
       {
         signed int nbytes;
-        unsigned long int return_value_fread$16;
-        return_value_fread$16=fread((void *)sound_data, (unsigned long int)1, pdata->periodsize * (unsigned long int)pdata->sound_framesize, afp);
-        nbytes = (signed int)return_value_fread$16;
+        unsigned long int return_value_fread_16;
+        return_value_fread_16=fread((void *)sound_data, (unsigned long int)1, pdata->periodsize * (unsigned long int)pdata->sound_framesize, afp);
+        nbytes = (signed int)return_value_fread_16;
         if(!(nbytes >= 1))
           audio_end = 1;
 
@@ -11145,10 +11145,10 @@ unsigned char * rmdMakeDummyPointer(struct _XDisplay *display, struct _DisplaySp
     { (char)o, (char)o, (char)o, (char)o, (char)o, (char)w, (char)b, (char)b, (char)w, (char)o, (char)o, (char)o, (char)o, (char)o, (char)o, (char)o },
     { (char)o, (char)o, (char)o, (char)o, (char)o, (char)o, (char)w, (char)w, (char)o, (char)o, (char)o, (char)o, (char)o, (char)o, (char)o, (char)o } } };
   unsigned char *ret;
-  const signed long int ret$array_size0 = (signed long int)(size * 4);
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc((unsigned long int)size * (unsigned long int)ret$array_size0);
-  ret = (unsigned char *)return_value_malloc$1;
+  const signed long int ret_array_size0 = (signed long int)(size * 4);
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc((unsigned long int)size * (unsigned long int)ret_array_size0);
+  ret = (unsigned char *)return_value_malloc_1;
   unsigned char wp[4l] = { (unsigned char)((wpixel ^ (unsigned long int)0xff000000) >> 24),
     (unsigned char)((wpixel ^ (unsigned long int)0x00ff0000) >> 16),
     (unsigned char)((wpixel ^ (unsigned long int)0x0000ff00) >> 8),
@@ -11157,79 +11157,79 @@ unsigned char * rmdMakeDummyPointer(struct _XDisplay *display, struct _DisplaySp
     (unsigned char)((bpixel ^ (unsigned long int)0x00ff0000) >> 16),
     (unsigned char)((bpixel ^ (unsigned long int)0x0000ff00) >> 8),
     (unsigned char)(bpixel ^ (unsigned long int)0x000000ff) };
-  signed int tmp_if_expr$2;
+  signed int tmp_if_expr_2;
   if(!((signed int)wp[0l] + -1 == (signed int)bp[0l]))
-    tmp_if_expr$2 = (signed int)wp[(signed long int)0] - 100;
+    tmp_if_expr_2 = (signed int)wp[(signed long int)0] - 100;
 
   else
-    tmp_if_expr$2 = (signed int)wp[(signed long int)0] - 102;
-  *npxl = (unsigned char)tmp_if_expr$2;
+    tmp_if_expr_2 = (signed int)wp[(signed long int)0] - 102;
+  *npxl = (unsigned char)tmp_if_expr_2;
   i = 0;
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$3;
-  signed int tmp_if_expr$6;
-  signed int tmp_if_expr$5;
-  signed int tmp_if_expr$8;
-  signed int tmp_if_expr$7;
-  signed int tmp_if_expr$10;
-  signed int tmp_if_expr$9;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_3;
+  signed int tmp_if_expr_6;
+  signed int tmp_if_expr_5;
+  signed int tmp_if_expr_8;
+  signed int tmp_if_expr_7;
+  signed int tmp_if_expr_10;
+  signed int tmp_if_expr_9;
   for( ; !(i >= size); i = i + 1)
   {
     k = 0;
     for( ; !(k >= size); k = k + 1)
     {
       if((signed int)pmask[(signed long int)type][(signed long int)i][(signed long int)k] == 119)
-        tmp_if_expr$4 = (signed int)wp[(signed long int)0];
+        tmp_if_expr_4 = (signed int)wp[(signed long int)0];
 
       else
       {
         if((signed int)pmask[(signed long int)type][(signed long int)i][(signed long int)k] == 98)
-          tmp_if_expr$3 = (signed int)bp[(signed long int)0];
+          tmp_if_expr_3 = (signed int)bp[(signed long int)0];
 
         else
-          tmp_if_expr$3 = (signed int)*npxl;
-        tmp_if_expr$4 = tmp_if_expr$3;
+          tmp_if_expr_3 = (signed int)*npxl;
+        tmp_if_expr_4 = tmp_if_expr_3;
       }
-      ret[(signed long int)((i * size + k) * 4 + 3)] = (unsigned char)tmp_if_expr$4;
+      ret[(signed long int)((i * size + k) * 4 + 3)] = (unsigned char)tmp_if_expr_4;
       if((signed int)pmask[(signed long int)type][(signed long int)i][(signed long int)k] == 119)
-        tmp_if_expr$6 = (signed int)wp[(signed long int)1];
+        tmp_if_expr_6 = (signed int)wp[(signed long int)1];
 
       else
       {
         if((signed int)pmask[(signed long int)type][(signed long int)i][(signed long int)k] == 98)
-          tmp_if_expr$5 = (signed int)bp[(signed long int)1];
+          tmp_if_expr_5 = (signed int)bp[(signed long int)1];
 
         else
-          tmp_if_expr$5 = (signed int)*npxl;
-        tmp_if_expr$6 = tmp_if_expr$5;
+          tmp_if_expr_5 = (signed int)*npxl;
+        tmp_if_expr_6 = tmp_if_expr_5;
       }
-      ret[(signed long int)((i * size + k) * 4 + 2)] = (unsigned char)tmp_if_expr$6;
+      ret[(signed long int)((i * size + k) * 4 + 2)] = (unsigned char)tmp_if_expr_6;
       if((signed int)pmask[(signed long int)type][(signed long int)i][(signed long int)k] == 119)
-        tmp_if_expr$8 = (signed int)wp[(signed long int)2];
+        tmp_if_expr_8 = (signed int)wp[(signed long int)2];
 
       else
       {
         if((signed int)pmask[(signed long int)type][(signed long int)i][(signed long int)k] == 98)
-          tmp_if_expr$7 = (signed int)bp[(signed long int)2];
+          tmp_if_expr_7 = (signed int)bp[(signed long int)2];
 
         else
-          tmp_if_expr$7 = (signed int)*npxl;
-        tmp_if_expr$8 = tmp_if_expr$7;
+          tmp_if_expr_7 = (signed int)*npxl;
+        tmp_if_expr_8 = tmp_if_expr_7;
       }
-      ret[(signed long int)((i * size + k) * 4 + 1)] = (unsigned char)tmp_if_expr$8;
+      ret[(signed long int)((i * size + k) * 4 + 1)] = (unsigned char)tmp_if_expr_8;
       if((signed int)pmask[(signed long int)type][(signed long int)i][(signed long int)k] == 119)
-        tmp_if_expr$10 = (signed int)wp[(signed long int)3];
+        tmp_if_expr_10 = (signed int)wp[(signed long int)3];
 
       else
       {
         if((signed int)pmask[(signed long int)type][(signed long int)i][(signed long int)k] == 98)
-          tmp_if_expr$9 = (signed int)bp[(signed long int)3];
+          tmp_if_expr_9 = (signed int)bp[(signed long int)3];
 
         else
-          tmp_if_expr$9 = (signed int)*npxl;
-        tmp_if_expr$10 = tmp_if_expr$9;
+          tmp_if_expr_9 = (signed int)*npxl;
+        tmp_if_expr_10 = tmp_if_expr_9;
       }
-      ret[(signed long int)((i * size + k) * 4 + 0)] = (unsigned char)tmp_if_expr$10;
+      ret[(signed long int)((i * size + k) * 4 + 0)] = (unsigned char)tmp_if_expr_10;
     }
   }
   return ret;
@@ -11270,30 +11270,30 @@ void rmdMakeMatrices(void)
   i = 0;
   for( ; !(i >= 256); i = i + 1)
   {
-    double return_value_rmdRoundf$1;
-    return_value_rmdRoundf$1=rmdRoundf((double)(Yoffset + yr * (float)i));
-    Yr[(signed long int)i] = (unsigned char)return_value_rmdRoundf$1;
-    double return_value_rmdRoundf$2;
-    return_value_rmdRoundf$2=rmdRoundf((double)(yg * (float)i));
-    Yg[(signed long int)i] = (unsigned char)return_value_rmdRoundf$2;
-    double return_value_rmdRoundf$3;
-    return_value_rmdRoundf$3=rmdRoundf((double)(yb * (float)i));
-    Yb[(signed long int)i] = (unsigned char)return_value_rmdRoundf$3;
-    double return_value_rmdRoundf$4;
-    return_value_rmdRoundf$4=rmdRoundf((double)(Coffset + ur * (float)i));
-    Ur[(signed long int)i] = (unsigned char)return_value_rmdRoundf$4;
-    double return_value_rmdRoundf$5;
-    return_value_rmdRoundf$5=rmdRoundf((double)(ug * (float)i));
-    Ug[(signed long int)i] = (unsigned char)return_value_rmdRoundf$5;
-    double return_value_rmdRoundf$6;
-    return_value_rmdRoundf$6=rmdRoundf((double)(ub * (float)i));
-    UbVr[(signed long int)i] = (unsigned char)return_value_rmdRoundf$6;
-    double return_value_rmdRoundf$7;
-    return_value_rmdRoundf$7=rmdRoundf((double)(vg * (float)i));
-    Vg[(signed long int)i] = (unsigned char)return_value_rmdRoundf$7;
-    double return_value_rmdRoundf$8;
-    return_value_rmdRoundf$8=rmdRoundf((double)(Coffset + vb * (float)i));
-    Vb[(signed long int)i] = (unsigned char)return_value_rmdRoundf$8;
+    double return_value_rmdRoundf_1;
+    return_value_rmdRoundf_1=rmdRoundf((double)(Yoffset + yr * (float)i));
+    Yr[(signed long int)i] = (unsigned char)return_value_rmdRoundf_1;
+    double return_value_rmdRoundf_2;
+    return_value_rmdRoundf_2=rmdRoundf((double)(yg * (float)i));
+    Yg[(signed long int)i] = (unsigned char)return_value_rmdRoundf_2;
+    double return_value_rmdRoundf_3;
+    return_value_rmdRoundf_3=rmdRoundf((double)(yb * (float)i));
+    Yb[(signed long int)i] = (unsigned char)return_value_rmdRoundf_3;
+    double return_value_rmdRoundf_4;
+    return_value_rmdRoundf_4=rmdRoundf((double)(Coffset + ur * (float)i));
+    Ur[(signed long int)i] = (unsigned char)return_value_rmdRoundf_4;
+    double return_value_rmdRoundf_5;
+    return_value_rmdRoundf_5=rmdRoundf((double)(ug * (float)i));
+    Ug[(signed long int)i] = (unsigned char)return_value_rmdRoundf_5;
+    double return_value_rmdRoundf_6;
+    return_value_rmdRoundf_6=rmdRoundf((double)(ub * (float)i));
+    UbVr[(signed long int)i] = (unsigned char)return_value_rmdRoundf_6;
+    double return_value_rmdRoundf_7;
+    return_value_rmdRoundf_7=rmdRoundf((double)(vg * (float)i));
+    Vg[(signed long int)i] = (unsigned char)return_value_rmdRoundf_7;
+    double return_value_rmdRoundf_8;
+    return_value_rmdRoundf_8=rmdRoundf((double)(Coffset + vb * (float)i));
+    Vb[(signed long int)i] = (unsigned char)return_value_rmdRoundf_8;
   }
 }
 
@@ -11305,38 +11305,38 @@ static void rmdMoveCaptureArea(struct _BRWindow *brwin, signed int cursor_x, sig
   signed int t_y = 0;
   t_x = cursor_x - (signed int)brwin->rrect.width / 2;
   t_x = (t_x >> 1) << 1;
-  signed int tmp_if_expr$2;
-  signed int tmp_if_expr$1;
+  signed int tmp_if_expr_2;
+  signed int tmp_if_expr_1;
   if(!(t_x >= 0))
-    tmp_if_expr$2 = 0;
+    tmp_if_expr_2 = 0;
 
   else
   {
     if(!(width >= t_x + (signed int)brwin->rrect.width))
-      tmp_if_expr$1 = width - (signed int)brwin->rrect.width;
+      tmp_if_expr_1 = width - (signed int)brwin->rrect.width;
 
     else
-      tmp_if_expr$1 = t_x;
-    tmp_if_expr$2 = tmp_if_expr$1;
+      tmp_if_expr_1 = t_x;
+    tmp_if_expr_2 = tmp_if_expr_1;
   }
-  brwin->rrect.x = (signed short int)tmp_if_expr$2;
+  brwin->rrect.x = (signed short int)tmp_if_expr_2;
   t_y = cursor_y - (signed int)brwin->rrect.height / 2;
   t_y = (t_y >> 1) << 1;
-  signed int tmp_if_expr$4;
-  signed int tmp_if_expr$3;
+  signed int tmp_if_expr_4;
+  signed int tmp_if_expr_3;
   if(!(t_y >= 0))
-    tmp_if_expr$4 = 0;
+    tmp_if_expr_4 = 0;
 
   else
   {
     if(!(height >= t_y + (signed int)brwin->rrect.height))
-      tmp_if_expr$3 = height - (signed int)brwin->rrect.height;
+      tmp_if_expr_3 = height - (signed int)brwin->rrect.height;
 
     else
-      tmp_if_expr$3 = t_y;
-    tmp_if_expr$4 = tmp_if_expr$3;
+      tmp_if_expr_3 = t_y;
+    tmp_if_expr_4 = tmp_if_expr_3;
   }
-  brwin->rrect.y = (signed short int)tmp_if_expr$4;
+  brwin->rrect.y = (signed short int)tmp_if_expr_4;
 }
 
 // rmdMoveFrame
@@ -11356,19 +11356,19 @@ struct _snd_pcm * rmdOpenDev(const char *pcm_dev, unsigned int *channels, unsign
   unsigned int exactrate = *frequency;
   do
   {
-    unsigned long int return_value_snd_pcm_hw_params_sizeof$1;
-    return_value_snd_pcm_hw_params_sizeof$1=snd_pcm_hw_params_sizeof();
-    void *return_value___builtin_alloca$2;
-    return_value___builtin_alloca$2=__builtin_alloca(return_value_snd_pcm_hw_params_sizeof$1);
-    *(&hwparams) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca$2;
-    unsigned long int return_value_snd_pcm_hw_params_sizeof$3;
-    return_value_snd_pcm_hw_params_sizeof$3=snd_pcm_hw_params_sizeof();
-    memset((void *)*(&hwparams), 0, return_value_snd_pcm_hw_params_sizeof$3);
+    unsigned long int return_value_snd_pcm_hw_params_sizeof_1;
+    return_value_snd_pcm_hw_params_sizeof_1=snd_pcm_hw_params_sizeof();
+    void *return_value___builtin_alloca_2;
+    return_value___builtin_alloca_2=__builtin_alloca(return_value_snd_pcm_hw_params_sizeof_1);
+    *(&hwparams) = (struct _snd_pcm_hw_params *)return_value___builtin_alloca_2;
+    unsigned long int return_value_snd_pcm_hw_params_sizeof_3;
+    return_value_snd_pcm_hw_params_sizeof_3=snd_pcm_hw_params_sizeof();
+    memset((void *)*(&hwparams), 0, return_value_snd_pcm_hw_params_sizeof_3);
   }
   while((_Bool)0);
-  signed int return_value_snd_pcm_open$4;
-  return_value_snd_pcm_open$4=snd_pcm_open(&mhandle, pcm_dev, (enum _snd_pcm_stream)SND_PCM_STREAM_CAPTURE, 0x00000002);
-  if(!(return_value_snd_pcm_open$4 >= 0))
+  signed int return_value_snd_pcm_open_4;
+  return_value_snd_pcm_open_4=snd_pcm_open(&mhandle, pcm_dev, (enum _snd_pcm_stream)SND_PCM_STREAM_CAPTURE, 0x00000002);
+  if(!(return_value_snd_pcm_open_4 >= 0))
   {
     fprintf(stderr, "Couldn't open PCM device %s\n", pcm_dev);
     return (struct _snd_pcm *)(void *)0;
@@ -11376,10 +11376,10 @@ struct _snd_pcm * rmdOpenDev(const char *pcm_dev, unsigned int *channels, unsign
 
   else
     fprintf(stderr, "Opened PCM device %s\n", pcm_dev);
-  signed int return_value_snd_pcm_hw_params_any$5;
-  return_value_snd_pcm_hw_params_any$5=snd_pcm_hw_params_any(mhandle, hwparams);
-  signed int return_value_snd_pcm_hw_params_can_pause$13;
-  if(!(return_value_snd_pcm_hw_params_any$5 >= 0))
+  signed int return_value_snd_pcm_hw_params_any_5;
+  return_value_snd_pcm_hw_params_any_5=snd_pcm_hw_params_any(mhandle, hwparams);
+  signed int return_value_snd_pcm_hw_params_can_pause_13;
+  if(!(return_value_snd_pcm_hw_params_any_5 >= 0))
   {
     fprintf(stderr, "Couldn't configure PCM device.\n");
     return (struct _snd_pcm *)(void *)0;
@@ -11387,9 +11387,9 @@ struct _snd_pcm * rmdOpenDev(const char *pcm_dev, unsigned int *channels, unsign
 
   else
   {
-    signed int return_value_snd_pcm_hw_params_set_access$6;
-    return_value_snd_pcm_hw_params_set_access$6=snd_pcm_hw_params_set_access(mhandle, hwparams, (enum _snd_pcm_access)SND_PCM_ACCESS_RW_INTERLEAVED);
-    if(!(return_value_snd_pcm_hw_params_set_access$6 >= 0))
+    signed int return_value_snd_pcm_hw_params_set_access_6;
+    return_value_snd_pcm_hw_params_set_access_6=snd_pcm_hw_params_set_access(mhandle, hwparams, (enum _snd_pcm_access)SND_PCM_ACCESS_RW_INTERLEAVED);
+    if(!(return_value_snd_pcm_hw_params_set_access_6 >= 0))
     {
       fprintf(stderr, "Couldn't set access.\n");
       return (struct _snd_pcm *)(void *)0;
@@ -11397,9 +11397,9 @@ struct _snd_pcm * rmdOpenDev(const char *pcm_dev, unsigned int *channels, unsign
 
     else
     {
-      signed int return_value_snd_pcm_hw_params_set_format$7;
-      return_value_snd_pcm_hw_params_set_format$7=snd_pcm_hw_params_set_format(mhandle, hwparams, (enum _snd_pcm_format)SND_PCM_FORMAT_S16_LE);
-      if(!(return_value_snd_pcm_hw_params_set_format$7 >= 0))
+      signed int return_value_snd_pcm_hw_params_set_format_7;
+      return_value_snd_pcm_hw_params_set_format_7=snd_pcm_hw_params_set_format(mhandle, hwparams, (enum _snd_pcm_format)SND_PCM_FORMAT_S16_LE);
+      if(!(return_value_snd_pcm_hw_params_set_format_7 >= 0))
       {
         fprintf(stderr, "Couldn't set format.\n");
         return (struct _snd_pcm *)(void *)0;
@@ -11407,9 +11407,9 @@ struct _snd_pcm * rmdOpenDev(const char *pcm_dev, unsigned int *channels, unsign
 
       else
       {
-        signed int return_value_snd_pcm_hw_params_set_rate_near$8;
-        return_value_snd_pcm_hw_params_set_rate_near$8=snd_pcm_hw_params_set_rate_near(mhandle, hwparams, &exactrate, ((signed int *)NULL));
-        if(!(return_value_snd_pcm_hw_params_set_rate_near$8 >= 0))
+        signed int return_value_snd_pcm_hw_params_set_rate_near_8;
+        return_value_snd_pcm_hw_params_set_rate_near_8=snd_pcm_hw_params_set_rate_near(mhandle, hwparams, &exactrate, ((signed int *)NULL));
+        if(!(return_value_snd_pcm_hw_params_set_rate_near_8 >= 0))
         {
           fprintf(stderr, "Couldn't set frequency.\n");
           return (struct _snd_pcm *)(void *)0;
@@ -11423,9 +11423,9 @@ struct _snd_pcm * rmdOpenDev(const char *pcm_dev, unsigned int *channels, unsign
             *frequency = exactrate;
           }
 
-          signed int return_value_snd_pcm_hw_params_set_channels_near$9;
-          return_value_snd_pcm_hw_params_set_channels_near$9=snd_pcm_hw_params_set_channels_near(mhandle, hwparams, channels);
-          if(!(return_value_snd_pcm_hw_params_set_channels_near$9 >= 0))
+          signed int return_value_snd_pcm_hw_params_set_channels_near_9;
+          return_value_snd_pcm_hw_params_set_channels_near_9=snd_pcm_hw_params_set_channels_near(mhandle, hwparams, channels);
+          if(!(return_value_snd_pcm_hw_params_set_channels_near_9 >= 0))
           {
             fprintf(stderr, "Couldn't set channels number.\n");
             return (struct _snd_pcm *)(void *)0;
@@ -11440,9 +11440,9 @@ struct _snd_pcm * rmdOpenDev(const char *pcm_dev, unsigned int *channels, unsign
 
             else
             {
-              signed int return_value_snd_pcm_hw_params_set_periods_near$10;
-              return_value_snd_pcm_hw_params_set_periods_near$10=snd_pcm_hw_params_set_periods_near(mhandle, hwparams, &periods, ((signed int *)NULL));
-              if(!(return_value_snd_pcm_hw_params_set_periods_near$10 >= 0))
+              signed int return_value_snd_pcm_hw_params_set_periods_near_10;
+              return_value_snd_pcm_hw_params_set_periods_near_10=snd_pcm_hw_params_set_periods_near(mhandle, hwparams, &periods, ((signed int *)NULL));
+              if(!(return_value_snd_pcm_hw_params_set_periods_near_10 >= 0))
               {
                 fprintf(stderr, "Couldn't set periods.\n");
                 return (struct _snd_pcm *)(void *)0;
@@ -11450,9 +11450,9 @@ struct _snd_pcm * rmdOpenDev(const char *pcm_dev, unsigned int *channels, unsign
 
               else
               {
-                signed int return_value_snd_pcm_hw_params_set_buffer_size_near$11;
-                return_value_snd_pcm_hw_params_set_buffer_size_near$11=snd_pcm_hw_params_set_buffer_size_near(mhandle, hwparams, buffsize);
-                if(!(return_value_snd_pcm_hw_params_set_buffer_size_near$11 >= 0))
+                signed int return_value_snd_pcm_hw_params_set_buffer_size_near_11;
+                return_value_snd_pcm_hw_params_set_buffer_size_near_11=snd_pcm_hw_params_set_buffer_size_near(mhandle, hwparams, buffsize);
+                if(!(return_value_snd_pcm_hw_params_set_buffer_size_near_11 >= 0))
                 {
                   fprintf(stderr, "Couldn't set buffer size.\n");
                   return (struct _snd_pcm *)(void *)0;
@@ -11460,9 +11460,9 @@ struct _snd_pcm * rmdOpenDev(const char *pcm_dev, unsigned int *channels, unsign
 
                 else
                 {
-                  signed int return_value_snd_pcm_hw_params$12;
-                  return_value_snd_pcm_hw_params$12=snd_pcm_hw_params(mhandle, hwparams);
-                  if(!(return_value_snd_pcm_hw_params$12 >= 0))
+                  signed int return_value_snd_pcm_hw_params_12;
+                  return_value_snd_pcm_hw_params_12=snd_pcm_hw_params(mhandle, hwparams);
+                  if(!(return_value_snd_pcm_hw_params_12 >= 0))
                   {
                     fprintf(stderr, "Couldn't set hardware parameters.\n");
                     return (struct _snd_pcm *)(void *)0;
@@ -11472,8 +11472,8 @@ struct _snd_pcm * rmdOpenDev(const char *pcm_dev, unsigned int *channels, unsign
                   {
                     if(!(hard_pause == ((signed int *)NULL)))
                     {
-                      return_value_snd_pcm_hw_params_can_pause$13=snd_pcm_hw_params_can_pause(hwparams);
-                      if(return_value_snd_pcm_hw_params_can_pause$13 == 0)
+                      return_value_snd_pcm_hw_params_can_pause_13=snd_pcm_hw_params_can_pause(hwparams);
+                      if(return_value_snd_pcm_hw_params_can_pause_13 == 0)
                         *hard_pause = 1;
 
                     }
@@ -11626,7 +11626,7 @@ signed int rmdParseArgs(signed int argc, char **argv, struct _ProgArgs *arg_retu
     .descrip="Image data are cached with light compression.", .argDescrip=(const char *)(void *)0 },
     { .longName="workdir", .shortName=(char)0, .argInfo=1U,
     .arg=(void *)&arg_return->workdir, .val=0,
-    .descrip="Location where a temporary directory will be created to hold project files(default $HOME).", .argDescrip="DIR" },
+    .descrip="Location where a temporary directory will be created to hold project files(default _HOME).", .argDescrip="DIR" },
     { .longName="delay", .shortName=(char)0, .argInfo=1U,
     .arg=(void *)&arg_return->delay, .val=1,
     .descrip="Number of secs(default),minutes or hours before capture starts(number can be float)", .argDescrip="n[H|h|M|m]" },
@@ -11659,10 +11659,10 @@ signed int rmdParseArgs(signed int argc, char **argv, struct _ProgArgs *arg_retu
     .descrip=(const char *)(void *)0, .argDescrip=(const char *)(void *)0 } };
   popt_context=poptGetContext((const char *)(void *)0, argc, (const char **)argv, rmd_args, (unsigned int)0);
   poptSetOtherOptionHelp(popt_context, "[OPTIONS]^filename");
-  unsigned long int return_value_strlen$2;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$3;
-  signed int return_value_strcmp$5;
+  unsigned long int return_value_strlen_2;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_3;
+  signed int return_value_strcmp_5;
   do
   {
     arg_id=poptGetNextOpt(popt_context);
@@ -11676,24 +11676,24 @@ signed int rmdParseArgs(signed int argc, char **argv, struct _ProgArgs *arg_retu
       case 1:
       {
         float num;
-        double return_value_atof$1;
-        return_value_atof$1=atof(arg);
-        num = (float)return_value_atof$1;
+        double return_value_atof_1;
+        return_value_atof_1=atof(arg);
+        num = (float)return_value_atof_1;
         if(num > 0.000000f)
         {
           signed int k = 0;
           do
           {
-            return_value_strlen$2=strlen(arg);
-            if((unsigned long int)k >= return_value_strlen$2)
+            return_value_strlen_2=strlen(arg);
+            if((unsigned long int)k >= return_value_strlen_2)
               break;
 
             if((signed int)arg[(signed long int)k] == 77)
-              tmp_if_expr$4 = (_Bool)1;
+              tmp_if_expr_4 = (_Bool)1;
 
             else
-              tmp_if_expr$4 = (signed int)arg[(signed long int)k] == 109 ? (_Bool)1 : (_Bool)0;
-            if(tmp_if_expr$4)
+              tmp_if_expr_4 = (signed int)arg[(signed long int)k] == 109 ? (_Bool)1 : (_Bool)0;
+            if(tmp_if_expr_4)
             {
               num = num * (float)60.0;
               break;
@@ -11702,11 +11702,11 @@ signed int rmdParseArgs(signed int argc, char **argv, struct _ProgArgs *arg_retu
             else
             {
               if((signed int)arg[(signed long int)k] == 72)
-                tmp_if_expr$3 = (_Bool)1;
+                tmp_if_expr_3 = (_Bool)1;
 
               else
-                tmp_if_expr$3 = (signed int)arg[(signed long int)k] == 104 ? (_Bool)1 : (_Bool)0;
-              if(tmp_if_expr$3)
+                tmp_if_expr_3 = (signed int)arg[(signed long int)k] == 104 ? (_Bool)1 : (_Bool)0;
+              if(tmp_if_expr_3)
               {
                 num = num * (float)3600.0;
                 break;
@@ -11728,15 +11728,15 @@ signed int rmdParseArgs(signed int argc, char **argv, struct _ProgArgs *arg_retu
       }
       case 2:
       {
-        signed int return_value_strcmp$6;
-        return_value_strcmp$6=strcmp(arg, "white");
-        if(return_value_strcmp$6 == 0)
+        signed int return_value_strcmp_6;
+        return_value_strcmp_6=strcmp(arg, "white");
+        if(return_value_strcmp_6 == 0)
           arg_return->cursor_color = 0;
 
         else
         {
-          return_value_strcmp$5=strcmp(arg, "black");
-          if(return_value_strcmp$5 == 0)
+          return_value_strcmp_5=strcmp(arg, "black");
+          if(return_value_strcmp_5 == 0)
             arg_return->cursor_color = 1;
 
           else
@@ -11755,11 +11755,11 @@ signed int rmdParseArgs(signed int argc, char **argv, struct _ProgArgs *arg_retu
         while(!(arg == ((char *)NULL)))
         {
           arg_return->jack_nports = arg_return->jack_nports + 1u;
-          unsigned long int return_value_strlen$7;
-          return_value_strlen$7=strlen(arg);
-          void *return_value_malloc$8;
-          return_value_malloc$8=malloc(return_value_strlen$7 + (unsigned long int)1);
-          arg_return->jack_port_names[(signed long int)(arg_return->jack_nports - (unsigned int)1)] = (char *)return_value_malloc$8;
+          unsigned long int return_value_strlen_7;
+          return_value_strlen_7=strlen(arg);
+          void *return_value_malloc_8;
+          return_value_malloc_8=malloc(return_value_strlen_7 + (unsigned long int)1);
+          arg_return->jack_port_names[(signed long int)(arg_return->jack_nports - (unsigned int)1)] = (char *)return_value_malloc_8;
           strcpy(arg_return->jack_port_names[(signed long int)(arg_return->jack_nports - (unsigned int)1)], arg);
           arg=poptGetOptArg(popt_context);
         }
@@ -11775,7 +11775,7 @@ signed int rmdParseArgs(signed int argc, char **argv, struct _ProgArgs *arg_retu
     }
   }
   while((_Bool)1);
-  const char *return_value_poptGetArg$9;
+  const char *return_value_poptGetArg_9;
   if(arg_id == -1)
   {
     if(!(no_cursor == 0))
@@ -11792,8 +11792,8 @@ signed int rmdParseArgs(signed int argc, char **argv, struct _ProgArgs *arg_retu
 
     if(arg_return->filename == ((char *)NULL))
     {
-      return_value_poptGetArg$9=poptGetArg(popt_context);
-      arg_return->filename=strdup(return_value_poptGetArg$9);
+      return_value_poptGetArg_9=poptGetArg(popt_context);
+      arg_return->filename=strdup(return_value_poptGetArg_9);
     }
 
   }
@@ -11826,17 +11826,17 @@ signed int rmdParseArgs(signed int argc, char **argv, struct _ProgArgs *arg_retu
 
 __CPROVER_DUMP_L33:
   ;
-  _Bool tmp_if_expr$11;
-  signed int return_value_rmdValidateArguments$10;
+  _Bool tmp_if_expr_11;
+  signed int return_value_rmdValidateArguments_10;
   if(!(success == 0))
   {
-    return_value_rmdValidateArguments$10=rmdValidateArguments(arg_return);
-    tmp_if_expr$11 = return_value_rmdValidateArguments$10 != 0 ? (_Bool)1 : (_Bool)0;
+    return_value_rmdValidateArguments_10=rmdValidateArguments(arg_return);
+    tmp_if_expr_11 = return_value_rmdValidateArguments_10 != 0 ? (_Bool)1 : (_Bool)0;
   }
 
   else
-    tmp_if_expr$11 = (_Bool)0;
-  success = (signed int)tmp_if_expr$11;
+    tmp_if_expr_11 = (_Bool)0;
+  success = (signed int)tmp_if_expr_11;
   poptFreeContext(popt_context);
   return success;
 }
@@ -11845,17 +11845,17 @@ __CPROVER_DUMP_L33:
 // file rmd_parseargs.c line 487
 static void rmdPrintAndExit(struct poptContext_s *con, enum poptCallbackReason reason, struct poptOption *opt, const char *arg, const void *data)
 {
-  signed int return_value_strcmp$3;
-  return_value_strcmp$3=strcmp(opt->longName, "version");
-  signed int return_value_strcmp$2;
-  signed int return_value_strcmp$1;
-  if(return_value_strcmp$3 == 0)
+  signed int return_value_strcmp_3;
+  return_value_strcmp_3=strcmp(opt->longName, "version");
+  signed int return_value_strcmp_2;
+  signed int return_value_strcmp_1;
+  if(return_value_strcmp_3 == 0)
     fprintf(stderr, "recordMyDesktop v%s\n\n", (const void *)"0.3.8.1");
 
   else
   {
-    return_value_strcmp$2=strcmp(opt->longName, "help");
-    if(return_value_strcmp$2 == 0)
+    return_value_strcmp_2=strcmp(opt->longName, "help");
+    if(return_value_strcmp_2 == 0)
     {
       poptPrintHelp(con, stdout, 0);
       fprintf(stdout, "\n\tIf no other options are specified, filename can be given without the -o switch.\n\n\n");
@@ -11863,8 +11863,8 @@ static void rmdPrintAndExit(struct poptContext_s *con, enum poptCallbackReason r
 
     else
     {
-      return_value_strcmp$1=strcmp(opt->longName, "print-config");
-      if(return_value_strcmp$1 == 0)
+      return_value_strcmp_1=strcmp(opt->longName, "print-config");
+      if(return_value_strcmp_1 == 0)
         fprintf(stdout, "\nrecordMyDesktop was compiled with the following options:\n\nJack:\t\t\tEnabled\nDefault Audio Backend:\tALSA\n\n\n");
 
     }
@@ -11878,24 +11878,24 @@ signed int rmdPurgeCache(struct _CacheData *cache_data_t, signed int sound)
 {
   struct stat buff;
   char *fname;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(cache_data_t->imgdata);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)10);
-  fname = (char *)return_value_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(cache_data_t->imgdata);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)10);
+  fname = (char *)return_value_malloc_2;
   strcpy(fname, cache_data_t->imgdata);
   signed int exit_value = 0;
   signed int nth_cache = 1;
-  signed int return_value_stat$3;
+  signed int return_value_stat_3;
   do
   {
-    return_value_stat$3=stat(fname, &buff);
-    if(!(return_value_stat$3 == 0))
+    return_value_stat_3=stat(fname, &buff);
+    if(!(return_value_stat_3 == 0))
       break;
 
-    signed int return_value_remove$4;
-    return_value_remove$4=remove(fname);
-    if(!(return_value_remove$4 == 0))
+    signed int return_value_remove_4;
+    return_value_remove_4=remove(fname);
+    if(!(return_value_remove_4 == 0))
     {
       fprintf(stderr, "Couldn't remove temporary file %s", cache_data_t->imgdata);
       exit_value = 1;
@@ -11908,9 +11908,9 @@ signed int rmdPurgeCache(struct _CacheData *cache_data_t, signed int sound)
   free((void *)fname);
   if(!(sound == 0))
   {
-    signed int return_value_remove$5;
-    return_value_remove$5=remove(cache_data_t->audiodata);
-    if(!(return_value_remove$5 == 0))
+    signed int return_value_remove_5;
+    return_value_remove_5=remove(cache_data_t->audiodata);
+    if(!(return_value_remove_5 == 0))
     {
       fprintf(stderr, "Couldn't remove temporary file %s", cache_data_t->audiodata);
       exit_value = 1;
@@ -11918,17 +11918,17 @@ signed int rmdPurgeCache(struct _CacheData *cache_data_t, signed int sound)
 
   }
 
-  signed int return_value_remove$6;
-  return_value_remove$6=remove(cache_data_t->specsfile);
-  if(!(return_value_remove$6 == 0))
+  signed int return_value_remove_6;
+  return_value_remove_6=remove(cache_data_t->specsfile);
+  if(!(return_value_remove_6 == 0))
   {
     fprintf(stderr, "Couldn't remove temporary file %s", cache_data_t->specsfile);
     exit_value = 1;
   }
 
-  signed int return_value_remove$7;
-  return_value_remove$7=remove(cache_data_t->projname);
-  if(!(return_value_remove$7 == 0))
+  signed int return_value_remove_7;
+  return_value_remove_7=remove(cache_data_t->projname);
+  if(!(return_value_remove_7 == 0))
   {
     fprintf(stderr, "Couldn't remove temporary directory %s", cache_data_t->projname);
     exit_value = 1;
@@ -11947,11 +11947,11 @@ void rmdQueryExtensions(struct _XDisplay *dpy, struct _ProgArgs *args, signed in
   signed int shm_error_base;
   signed int shape_event_base;
   signed int shape_error_base;
-  signed int return_value_XDamageQueryExtension$1;
+  signed int return_value_XDamageQueryExtension_1;
   if(args->full_shots == 0)
   {
-    return_value_XDamageQueryExtension$1=XDamageQueryExtension(dpy, damage_event, damage_error);
-    if(return_value_XDamageQueryExtension$1 == 0)
+    return_value_XDamageQueryExtension_1=XDamageQueryExtension(dpy, damage_event, damage_error);
+    if(return_value_XDamageQueryExtension_1 == 0)
     {
       fprintf(stderr, "XDamage extension not found!!!\nTry again using the --full-shots option, though\nenabling XDamage is highly recommended,\nfor performance reasons.\n");
       exit(4);
@@ -11959,11 +11959,11 @@ void rmdQueryExtensions(struct _XDisplay *dpy, struct _ProgArgs *args, signed in
 
   }
 
-  signed int return_value_XQueryExtension$2;
+  signed int return_value_XQueryExtension_2;
   if(args->noshared == 0)
   {
-    return_value_XQueryExtension$2=XQueryExtension(dpy, "MIT-SHM", shm_opcode, &shm_event_base, &shm_error_base);
-    if(return_value_XQueryExtension$2 == 0)
+    return_value_XQueryExtension_2=XQueryExtension(dpy, "MIT-SHM", shm_opcode, &shm_event_base, &shm_error_base);
+    if(return_value_XQueryExtension_2 == 0)
     {
       args->noshared = 1;
       fprintf(stderr, "Shared Memory extension not present!\nTry again using the --no-shared option\n");
@@ -11972,11 +11972,11 @@ void rmdQueryExtensions(struct _XDisplay *dpy, struct _ProgArgs *args, signed in
 
   }
 
-  signed int return_value_XFixesQueryExtension$3;
+  signed int return_value_XFixesQueryExtension_3;
   if(!(args->xfixes_cursor == 0))
   {
-    return_value_XFixesQueryExtension$3=XFixesQueryExtension(dpy, &xf_event_basep, &xf_error_basep);
-    if(return_value_XFixesQueryExtension$3 == 0)
+    return_value_XFixesQueryExtension_3=XFixesQueryExtension(dpy, &xf_event_basep, &xf_error_basep);
+    if(return_value_XFixesQueryExtension_3 == 0)
     {
       args->xfixes_cursor = 0;
       fprintf(stderr, "Xfixes extension not present!\nPlease run with the -dummy-cursor or --no-cursor option.\n");
@@ -11985,11 +11985,11 @@ void rmdQueryExtensions(struct _XDisplay *dpy, struct _ProgArgs *args, signed in
 
   }
 
-  signed int return_value_XShapeQueryExtension$4;
+  signed int return_value_XShapeQueryExtension_4;
   if(args->noframe == 0)
   {
-    return_value_XShapeQueryExtension$4=XShapeQueryExtension(dpy, &shape_event_base, &shape_error_base);
-    if(return_value_XShapeQueryExtension$4 == 0)
+    return_value_XShapeQueryExtension_4=XShapeQueryExtension(dpy, &shape_event_base, &shape_error_base);
+    if(return_value_XShapeQueryExtension_4 == 0)
     {
       fprintf(stderr, "XShape Not Found!!!\nFrame won't be available.\n");
       args->noframe = 1;
@@ -12006,54 +12006,54 @@ static signed int rmdReadFrame(struct _CachedFrame *frame, struct _IO_FILE *ucfp
   signed int index_entry_size = (signed int)sizeof(unsigned int) /*4ul*/ ;
   if(frame->header->Ynum >= 1u)
   {
-    signed int return_value_rmdReadZF$1;
-    return_value_rmdReadZF$1=rmdReadZF((void *)frame->YBlocks, (unsigned long int)index_entry_size, (unsigned long int)frame->header->Ynum, ucfp, ifp);
-    if(!((unsigned int)return_value_rmdReadZF$1 == frame->header->Ynum * (unsigned int)index_entry_size))
+    signed int return_value_rmdReadZF_1;
+    return_value_rmdReadZF_1=rmdReadZF((void *)frame->YBlocks, (unsigned long int)index_entry_size, (unsigned long int)frame->header->Ynum, ucfp, ifp);
+    if(!((unsigned int)return_value_rmdReadZF_1 == frame->header->Ynum * (unsigned int)index_entry_size))
       return -1;
 
   }
 
   if(frame->header->Unum >= 1u)
   {
-    signed int return_value_rmdReadZF$2;
-    return_value_rmdReadZF$2=rmdReadZF((void *)frame->UBlocks, (unsigned long int)index_entry_size, (unsigned long int)frame->header->Unum, ucfp, ifp);
-    if(!((unsigned int)return_value_rmdReadZF$2 == frame->header->Unum * (unsigned int)index_entry_size))
+    signed int return_value_rmdReadZF_2;
+    return_value_rmdReadZF_2=rmdReadZF((void *)frame->UBlocks, (unsigned long int)index_entry_size, (unsigned long int)frame->header->Unum, ucfp, ifp);
+    if(!((unsigned int)return_value_rmdReadZF_2 == frame->header->Unum * (unsigned int)index_entry_size))
       return -1;
 
   }
 
   if(frame->header->Vnum >= 1u)
   {
-    signed int return_value_rmdReadZF$3;
-    return_value_rmdReadZF$3=rmdReadZF((void *)frame->VBlocks, (unsigned long int)index_entry_size, (unsigned long int)frame->header->Vnum, ucfp, ifp);
-    if(!((unsigned int)return_value_rmdReadZF$3 == frame->header->Vnum * (unsigned int)index_entry_size))
+    signed int return_value_rmdReadZF_3;
+    return_value_rmdReadZF_3=rmdReadZF((void *)frame->VBlocks, (unsigned long int)index_entry_size, (unsigned long int)frame->header->Vnum, ucfp, ifp);
+    if(!((unsigned int)return_value_rmdReadZF_3 == frame->header->Vnum * (unsigned int)index_entry_size))
       return -1;
 
   }
 
   if(frame->header->Ynum >= 1u)
   {
-    signed int return_value_rmdReadZF$4;
-    return_value_rmdReadZF$4=rmdReadZF((void *)frame->YData, (unsigned long int)0x0100, (unsigned long int)frame->header->Ynum, ucfp, ifp);
-    if(!((unsigned int)return_value_rmdReadZF$4 == 256u * frame->header->Ynum))
+    signed int return_value_rmdReadZF_4;
+    return_value_rmdReadZF_4=rmdReadZF((void *)frame->YData, (unsigned long int)0x0100, (unsigned long int)frame->header->Ynum, ucfp, ifp);
+    if(!((unsigned int)return_value_rmdReadZF_4 == 256u * frame->header->Ynum))
       return -2;
 
   }
 
   if(frame->header->Unum >= 1u)
   {
-    signed int return_value_rmdReadZF$5;
-    return_value_rmdReadZF$5=rmdReadZF((void *)frame->UData, (unsigned long int)0x0040, (unsigned long int)frame->header->Unum, ucfp, ifp);
-    if(!((unsigned int)return_value_rmdReadZF$5 == 64u * frame->header->Unum))
+    signed int return_value_rmdReadZF_5;
+    return_value_rmdReadZF_5=rmdReadZF((void *)frame->UData, (unsigned long int)0x0040, (unsigned long int)frame->header->Unum, ucfp, ifp);
+    if(!((unsigned int)return_value_rmdReadZF_5 == 64u * frame->header->Unum))
       return -2;
 
   }
 
   if(frame->header->Vnum >= 1u)
   {
-    signed int return_value_rmdReadZF$6;
-    return_value_rmdReadZF$6=rmdReadZF((void *)frame->VData, (unsigned long int)0x0040, (unsigned long int)frame->header->Vnum, ucfp, ifp);
-    if(!((unsigned int)return_value_rmdReadZF$6 == 64u * frame->header->Vnum))
+    signed int return_value_rmdReadZF_6;
+    return_value_rmdReadZF_6=rmdReadZF((void *)frame->VData, (unsigned long int)0x0040, (unsigned long int)frame->header->Vnum, ucfp, ifp);
+    if(!((unsigned int)return_value_rmdReadZF_6 == 64u * frame->header->Vnum))
       return -2;
 
   }
@@ -12074,132 +12074,132 @@ signed int rmdReadSpecsFile(struct _ProgData *pdata)
   {
     char Cached_Version[256l];
     free((void *)pdata->args.filename);
-    void *return_value_malloc$1;
-    return_value_malloc$1=malloc((unsigned long int)512);
-    pdata->args.filename = (char *)return_value_malloc$1;
-    signed int return_value_fscanf$2;
-    return_value_fscanf$2=fscanf(fp, "recordMyDesktop = %s\n", (const void *)Cached_Version);
-    if(!(return_value_fscanf$2 == 1))
+    void *return_value_malloc_1;
+    return_value_malloc_1=malloc((unsigned long int)512);
+    pdata->args.filename = (char *)return_value_malloc_1;
+    signed int return_value_fscanf_2;
+    return_value_fscanf_2=fscanf(fp, "recordMyDesktop = %s\n", (const void *)Cached_Version);
+    if(!(return_value_fscanf_2 == 1))
     {
       fprintf(stderr, "Error reading VERSION attribute!!!\n");
       return 1;
     }
 
-    signed int return_value_fscanf$3;
-    return_value_fscanf$3=fscanf(fp, "Width = %hu\n", &pdata->brwin.rrect.width);
-    if(!(return_value_fscanf$3 == 1))
+    signed int return_value_fscanf_3;
+    return_value_fscanf_3=fscanf(fp, "Width = %hu\n", &pdata->brwin.rrect.width);
+    if(!(return_value_fscanf_3 == 1))
     {
       fprintf(stderr, "Error reading Width attribute!!!\n");
       return 1;
     }
 
-    signed int return_value_fscanf$4;
-    return_value_fscanf$4=fscanf(fp, "Height = %hu\n", &pdata->brwin.rrect.height);
-    if(!(return_value_fscanf$4 == 1))
+    signed int return_value_fscanf_4;
+    return_value_fscanf_4=fscanf(fp, "Height = %hu\n", &pdata->brwin.rrect.height);
+    if(!(return_value_fscanf_4 == 1))
     {
       fprintf(stderr, "Error reading Height attribute!!!\n");
       return 1;
     }
 
-    signed int return_value_fscanf$5;
-    return_value_fscanf$5=fscanf(fp, "Filename = %s\n", pdata->args.filename);
-    if(!(return_value_fscanf$5 == 1))
+    signed int return_value_fscanf_5;
+    return_value_fscanf_5=fscanf(fp, "Filename = %s\n", pdata->args.filename);
+    if(!(return_value_fscanf_5 == 1))
     {
       fprintf(stderr, "Error reading Filename attribute!!!\n");
       return 1;
     }
 
-    signed int return_value_fscanf$6;
-    return_value_fscanf$6=fscanf(fp, "FPS = %f\n", &pdata->args.fps);
-    if(!(return_value_fscanf$6 == 1))
+    signed int return_value_fscanf_6;
+    return_value_fscanf_6=fscanf(fp, "FPS = %f\n", &pdata->args.fps);
+    if(!(return_value_fscanf_6 == 1))
     {
       fprintf(stderr, "Error reading FPS attribute!!!\n");
       return 1;
     }
 
-    signed int return_value_fscanf$7;
-    return_value_fscanf$7=fscanf(fp, "NoSound = %d\n", &pdata->args.nosound);
-    if(!(return_value_fscanf$7 == 1))
+    signed int return_value_fscanf_7;
+    return_value_fscanf_7=fscanf(fp, "NoSound = %d\n", &pdata->args.nosound);
+    if(!(return_value_fscanf_7 == 1))
     {
       fprintf(stderr, "Error reading NoSound attribute!!!\n");
       return 1;
     }
 
-    signed int return_value_fscanf$8;
-    return_value_fscanf$8=fscanf(fp, "Frequency = %d\n", &pdata->args.frequency);
-    if(!(return_value_fscanf$8 == 1))
+    signed int return_value_fscanf_8;
+    return_value_fscanf_8=fscanf(fp, "Frequency = %d\n", &pdata->args.frequency);
+    if(!(return_value_fscanf_8 == 1))
     {
       fprintf(stderr, "Error reading Frequency attribute!!!\n");
       return 1;
     }
 
-    signed int return_value_fscanf$9;
-    return_value_fscanf$9=fscanf(fp, "Channels = %d\n", &pdata->args.channels);
-    if(!(return_value_fscanf$9 == 1))
+    signed int return_value_fscanf_9;
+    return_value_fscanf_9=fscanf(fp, "Channels = %d\n", &pdata->args.channels);
+    if(!(return_value_fscanf_9 == 1))
     {
       fprintf(stderr, "Error reading Channels attribute!!!\n");
       return 1;
     }
 
-    signed int return_value_fscanf$10;
-    return_value_fscanf$10=fscanf(fp, "BufferSize = %lu\n", (unsigned long int *)&pdata->args.buffsize);
-    if(!(return_value_fscanf$10 == 1))
+    signed int return_value_fscanf_10;
+    return_value_fscanf_10=fscanf(fp, "BufferSize = %lu\n", (unsigned long int *)&pdata->args.buffsize);
+    if(!(return_value_fscanf_10 == 1))
     {
       fprintf(stderr, "Error reading BufferSize attribute!!!\n");
       return 1;
     }
 
-    signed int return_value_fscanf$11;
-    return_value_fscanf$11=fscanf(fp, "SoundFrameSize = %d\n", &pdata->sound_framesize);
-    if(!(return_value_fscanf$11 == 1))
+    signed int return_value_fscanf_11;
+    return_value_fscanf_11=fscanf(fp, "SoundFrameSize = %d\n", &pdata->sound_framesize);
+    if(!(return_value_fscanf_11 == 1))
     {
       fprintf(stderr, "Error reading SoundFrameSize attribute!!!\n");
       return 1;
     }
 
-    signed int return_value_fscanf$12;
-    return_value_fscanf$12=fscanf(fp, "PeriodSize = %lu\n", (unsigned long int *)&pdata->periodsize);
-    if(!(return_value_fscanf$12 == 1))
+    signed int return_value_fscanf_12;
+    return_value_fscanf_12=fscanf(fp, "PeriodSize = %lu\n", (unsigned long int *)&pdata->periodsize);
+    if(!(return_value_fscanf_12 == 1))
     {
       fprintf(stderr, "Error reading PeriodSize attribute!!!\n");
       return 1;
     }
 
-    signed int return_value_fscanf$13;
-    return_value_fscanf$13=fscanf(fp, "UsedJack = %u\n", &pdata->args.use_jack);
-    if(!(return_value_fscanf$13 == 1))
+    signed int return_value_fscanf_13;
+    return_value_fscanf_13=fscanf(fp, "UsedJack = %u\n", &pdata->args.use_jack);
+    if(!(return_value_fscanf_13 == 1))
     {
       fprintf(stderr, "Error reading UsedJack attribute!!!\n");
       return 1;
     }
 
-    signed int return_value_fscanf$14;
-    return_value_fscanf$14=fscanf(fp, "v_bitrate = %d\n", &pdata->args.v_bitrate);
-    if(!(return_value_fscanf$14 == 1))
+    signed int return_value_fscanf_14;
+    return_value_fscanf_14=fscanf(fp, "v_bitrate = %d\n", &pdata->args.v_bitrate);
+    if(!(return_value_fscanf_14 == 1))
     {
       fprintf(stderr, "Error reading v_bitrate attribute!!!\n");
       return 1;
     }
 
-    signed int return_value_fscanf$15;
-    return_value_fscanf$15=fscanf(fp, "v_quality = %d\n", &pdata->args.v_quality);
-    if(!(return_value_fscanf$15 == 1))
+    signed int return_value_fscanf_15;
+    return_value_fscanf_15=fscanf(fp, "v_quality = %d\n", &pdata->args.v_quality);
+    if(!(return_value_fscanf_15 == 1))
     {
       fprintf(stderr, "Error reading v_quality attribute!!!\n");
       return 1;
     }
 
-    signed int return_value_fscanf$16;
-    return_value_fscanf$16=fscanf(fp, "s_quality = %d\n", &pdata->args.s_quality);
-    if(!(return_value_fscanf$16 == 1))
+    signed int return_value_fscanf_16;
+    return_value_fscanf_16=fscanf(fp, "s_quality = %d\n", &pdata->args.s_quality);
+    if(!(return_value_fscanf_16 == 1))
     {
       fprintf(stderr, "Error reading s_quality attribute!!!\n");
       return 1;
     }
 
-    signed int return_value_fscanf$17;
-    return_value_fscanf$17=fscanf(fp, "ZeroCompression = %d\n", &pdata->args.zerocompression);
-    if(!(return_value_fscanf$17 == 1))
+    signed int return_value_fscanf_17;
+    return_value_fscanf_17=fscanf(fp, "ZeroCompression = %d\n", &pdata->args.zerocompression);
+    if(!(return_value_fscanf_17 == 1))
     {
       fprintf(stderr, "Error reading ZeroCompression attribute!!!\n");
       return 1;
@@ -12214,35 +12214,35 @@ signed int rmdReadSpecsFile(struct _ProgData *pdata)
 // file rmd_load_cache.c line 85
 static signed int rmdReadZF(void *buffer, unsigned long int size, unsigned long int nmemb, struct _IO_FILE *ucfp, struct gzFile_s **ifp)
 {
-  signed int return_value_gzread$2;
+  signed int return_value_gzread_2;
   if(ifp == ((struct gzFile_s **)NULL) && ucfp == ((struct _IO_FILE *)NULL) || !(ifp == ((struct gzFile_s **)NULL)) && !(ucfp == ((struct _IO_FILE *)NULL)))
     return -1;
 
   else
     if(!(ucfp == ((struct _IO_FILE *)NULL)))
     {
-      unsigned long int return_value_fread$1;
-      return_value_fread$1=fread(buffer, size, nmemb, ucfp);
-      return (signed int)(size * return_value_fread$1);
+      unsigned long int return_value_fread_1;
+      return_value_fread_1=fread(buffer, size, nmemb, ucfp);
+      return (signed int)(size * return_value_fread_1);
     }
 
     else
     {
-      return_value_gzread$2=gzread((struct gzFile_s *)ifp, buffer, (unsigned int)(size * nmemb));
-      return return_value_gzread$2;
+      return_value_gzread_2=gzread((struct gzFile_s *)ifp, buffer, (unsigned int)(size * nmemb));
+      return return_value_gzread_2;
     }
 }
 
 // rmdRectInsert
 // file rmd_rectinsert.h line 46
-signed int rmdRectInsert(struct _RectArea **root, struct anonymous$17 *xrect)
+signed int rmdRectInsert(struct _RectArea **root, struct anonymous_17 *xrect)
 {
   signed int total_insertions = 0;
   struct _RectArea *temp = (struct _RectArea *)(void *)0;
   struct _RectArea *newnode;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _RectArea) /*24ul*/ );
-  newnode = (struct _RectArea *)return_value_malloc$1;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _RectArea) /*24ul*/ );
+  newnode = (struct _RectArea *)return_value_malloc_1;
   xrect->width = xrect->width + (unsigned short int)((signed int)xrect->width % 2 | (signed int)xrect->x % 2);
   xrect->height = xrect->height + (unsigned short int)((signed int)xrect->height % 2 | (signed int)xrect->y % 2);
   xrect->width = xrect->width + (unsigned short int)((signed int)xrect->width % 2);
@@ -12255,16 +12255,16 @@ signed int rmdRectInsert(struct _RectArea **root, struct anonymous$17 *xrect)
   newnode->rect.height = xrect->height;
   newnode->next = (struct _RectArea *)(void *)0;
   newnode->prev = newnode->next;
-  signed int return_value_rmdRectInsert$2;
-  signed int return_value_rmdRectInsert$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$9;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$7;
-  _Bool tmp_if_expr$6;
-  signed int return_value_rmdRectInsert$11;
-  signed int return_value_rmdRectInsert$12;
-  signed int return_value_rmdRectInsert$13;
+  signed int return_value_rmdRectInsert_2;
+  signed int return_value_rmdRectInsert_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_9;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_7;
+  _Bool tmp_if_expr_6;
+  signed int return_value_rmdRectInsert_11;
+  signed int return_value_rmdRectInsert_12;
+  signed int return_value_rmdRectInsert_13;
   if(*root == ((struct _RectArea *)NULL))
   {
     *root = newnode;
@@ -12273,7 +12273,7 @@ signed int rmdRectInsert(struct _RectArea **root, struct anonymous$17 *xrect)
 
   else
   {
-    struct anonymous$17 xrect_return[2l];
+    struct anonymous_17 xrect_return[2l];
     signed int nrects = 0;
     signed int insert_ok = 1;
     signed int i = 0;
@@ -12329,8 +12329,8 @@ signed int rmdRectInsert(struct _RectArea **root, struct anonymous$17 *xrect)
               {
                 if((signed int)xrect->height >= 1)
                 {
-                  return_value_rmdRectInsert$2=rmdRectInsert(&temp1, xrect);
-                  total_insertions = total_insertions + return_value_rmdRectInsert$2;
+                  return_value_rmdRectInsert_2=rmdRectInsert(&temp1, xrect);
+                  total_insertions = total_insertions + return_value_rmdRectInsert_2;
                 }
 
               }
@@ -12356,8 +12356,8 @@ signed int rmdRectInsert(struct _RectArea **root, struct anonymous$17 *xrect)
               {
                 if((signed int)xrect->height >= 1)
                 {
-                  return_value_rmdRectInsert$3=rmdRectInsert(root, xrect);
-                  total_insertions = total_insertions + return_value_rmdRectInsert$3;
+                  return_value_rmdRectInsert_3=rmdRectInsert(root, xrect);
+                  total_insertions = total_insertions + return_value_rmdRectInsert_3;
                 }
 
               }
@@ -12367,11 +12367,11 @@ signed int rmdRectInsert(struct _RectArea **root, struct anonymous$17 *xrect)
             else
             {
               if((signed int)xrect->width >= 1)
-                tmp_if_expr$4 = (signed int)xrect->height > 0 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_4 = (signed int)xrect->height > 0 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$4 = (_Bool)0;
-              if(tmp_if_expr$4)
+                tmp_if_expr_4 = (_Bool)0;
+              if(tmp_if_expr_4)
               {
                 *root = newnode;
                 total_insertions = total_insertions + 1;
@@ -12395,11 +12395,11 @@ signed int rmdRectInsert(struct _RectArea **root, struct anonymous$17 *xrect)
         __CPROVER_DUMP_L19:
           ;
           if((signed int)xrect_return[0l].width >= 1)
-            tmp_if_expr$9 = (signed int)xrect_return[(signed long int)0].height > 0 ? (_Bool)1 : (_Bool)0;
+            tmp_if_expr_9 = (signed int)xrect_return[(signed long int)0].height > 0 ? (_Bool)1 : (_Bool)0;
 
           else
-            tmp_if_expr$9 = (_Bool)0;
-          if(tmp_if_expr$9)
+            tmp_if_expr_9 = (_Bool)0;
+          if(tmp_if_expr_9)
           {
             temp->rect.x = xrect_return[(signed long int)0].x;
             temp->rect.y = xrect_return[(signed long int)0].y;
@@ -12419,11 +12419,11 @@ signed int rmdRectInsert(struct _RectArea **root, struct anonymous$17 *xrect)
           else
           {
             if(temp->prev == ((struct _RectArea *)NULL))
-              tmp_if_expr$8 = temp->next != (struct _RectArea *)(void *)0 ? (_Bool)1 : (_Bool)0;
+              tmp_if_expr_8 = temp->next != (struct _RectArea *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
             else
-              tmp_if_expr$8 = (_Bool)0;
-            if(tmp_if_expr$8)
+              tmp_if_expr_8 = (_Bool)0;
+            if(tmp_if_expr_8)
             {
               *root = (*root)->next;
               (*root)->prev = (struct _RectArea *)(void *)0;
@@ -12432,11 +12432,11 @@ signed int rmdRectInsert(struct _RectArea **root, struct anonymous$17 *xrect)
             else
             {
               if(temp->next == ((struct _RectArea *)NULL))
-                tmp_if_expr$7 = temp->prev != (struct _RectArea *)(void *)0 ? (_Bool)1 : (_Bool)0;
+                tmp_if_expr_7 = temp->prev != (struct _RectArea *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
               else
-                tmp_if_expr$7 = (_Bool)0;
-              if(tmp_if_expr$7)
+                tmp_if_expr_7 = (_Bool)0;
+              if(tmp_if_expr_7)
               {
                 temp->prev->next = newnode;
                 newnode->prev = temp->prev;
@@ -12445,11 +12445,11 @@ signed int rmdRectInsert(struct _RectArea **root, struct anonymous$17 *xrect)
               else
               {
                 if(temp->next == ((struct _RectArea *)NULL))
-                  tmp_if_expr$6 = temp->prev == (struct _RectArea *)(void *)0 ? (_Bool)1 : (_Bool)0;
+                  tmp_if_expr_6 = temp->prev == (struct _RectArea *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
                 else
-                  tmp_if_expr$6 = (_Bool)0;
-                if(tmp_if_expr$6)
+                  tmp_if_expr_6 = (_Bool)0;
+                if(tmp_if_expr_6)
                   *root = newnode;
 
                 else
@@ -12457,9 +12457,9 @@ signed int rmdRectInsert(struct _RectArea **root, struct anonymous$17 *xrect)
                   total_insertions = total_insertions - 1;
                   temp->next->prev = temp->prev;
                   temp->prev->next = temp->next;
-                  signed int return_value_rmdRectInsert$5;
-                  return_value_rmdRectInsert$5=rmdRectInsert(&temp->next, xrect);
-                  total_insertions = total_insertions + return_value_rmdRectInsert$5;
+                  signed int return_value_rmdRectInsert_5;
+                  return_value_rmdRectInsert_5=rmdRectInsert(&temp->next, xrect);
+                  total_insertions = total_insertions + return_value_rmdRectInsert_5;
                 }
               }
             }
@@ -12481,9 +12481,9 @@ signed int rmdRectInsert(struct _RectArea **root, struct anonymous$17 *xrect)
             if(nrects >= 2)
             {
               struct _RectArea *newnode1;
-              void *return_value_malloc$10;
-              return_value_malloc$10=malloc(sizeof(struct _RectArea) /*24ul*/ );
-              newnode1 = (struct _RectArea *)return_value_malloc$10;
+              void *return_value_malloc_10;
+              return_value_malloc_10=malloc(sizeof(struct _RectArea) /*24ul*/ );
+              newnode1 = (struct _RectArea *)return_value_malloc_10;
               newnode1->rect.x = xrect_return[(signed long int)1].x;
               newnode1->rect.y = xrect_return[(signed long int)1].y;
               newnode1->rect.width = xrect_return[(signed long int)1].width;
@@ -12503,8 +12503,8 @@ signed int rmdRectInsert(struct _RectArea **root, struct anonymous$17 *xrect)
               {
                 if((signed int)xrect_return[(signed long int)i].height >= 1)
                 {
-                  return_value_rmdRectInsert$11=rmdRectInsert(&temp->next, &xrect_return[(signed long int)i]);
-                  total_insertions = total_insertions + return_value_rmdRectInsert$11;
+                  return_value_rmdRectInsert_11=rmdRectInsert(&temp->next, &xrect_return[(signed long int)i]);
+                  total_insertions = total_insertions + return_value_rmdRectInsert_11;
                 }
 
               }
@@ -12536,8 +12536,8 @@ signed int rmdRectInsert(struct _RectArea **root, struct anonymous$17 *xrect)
               {
                 if((signed int)xrect_return[0l].height >= 1)
                 {
-                  return_value_rmdRectInsert$12=rmdRectInsert(root, &xrect_return[(signed long int)0]);
-                  total_insertions = total_insertions + return_value_rmdRectInsert$12;
+                  return_value_rmdRectInsert_12=rmdRectInsert(root, &xrect_return[(signed long int)0]);
+                  total_insertions = total_insertions + return_value_rmdRectInsert_12;
                 }
 
               }
@@ -12560,7 +12560,7 @@ signed int rmdRectInsert(struct _RectArea **root, struct anonymous$17 *xrect)
             else
             {
               total_insertions = total_insertions - 1;
-              struct _RectArea *rmdRectInsert$$1$$2$$1$$1$$2$$9$$temp1 = temp->next;
+              struct _RectArea *rmdRectInsert__1__2__1__1__2__9__temp1 = temp->next;
               temp->prev->next = temp->next;
               temp->next->prev = temp->prev;
               free((void *)temp);
@@ -12568,8 +12568,8 @@ signed int rmdRectInsert(struct _RectArea **root, struct anonymous$17 *xrect)
               {
                 if((signed int)xrect_return[0l].height >= 1)
                 {
-                  return_value_rmdRectInsert$13=rmdRectInsert(&rmdRectInsert$$1$$2$$1$$1$$2$$9$$temp1, &xrect_return[(signed long int)0]);
-                  total_insertions = total_insertions + return_value_rmdRectInsert$13;
+                  return_value_rmdRectInsert_13=rmdRectInsert(&rmdRectInsert__1__2__1__1__2__9__temp1, &xrect_return[(signed long int)0]);
+                  total_insertions = total_insertions + return_value_rmdRectInsert_13;
                 }
 
               }
@@ -12634,43 +12634,43 @@ signed int rmdRegisterShortcut(struct _XDisplay *dpy, unsigned long int root, co
   unsigned int modifier_mask = (unsigned int)0;
   unsigned int numlock_mask = (unsigned int)0;
   char *keystr = (char *)(void *)0;
-  struct anonymous$95 *modmap;
-  char *return_value_strstr$1;
-  return_value_strstr$1=strstr(shortcut, "Shift");
-  if(!(return_value_strstr$1 == ((char *)NULL)))
+  struct anonymous_95 *modmap;
+  char *return_value_strstr_1;
+  return_value_strstr_1=strstr(shortcut, "Shift");
+  if(!(return_value_strstr_1 == ((char *)NULL)))
     modifier_mask = modifier_mask | (unsigned int)(1 << 0);
 
-  char *return_value_strstr$2;
-  return_value_strstr$2=strstr(shortcut, "Control");
-  if(!(return_value_strstr$2 == ((char *)NULL)))
+  char *return_value_strstr_2;
+  return_value_strstr_2=strstr(shortcut, "Control");
+  if(!(return_value_strstr_2 == ((char *)NULL)))
     modifier_mask = modifier_mask | (unsigned int)(1 << 2);
 
-  char *return_value_strstr$3;
-  return_value_strstr$3=strstr(shortcut, "Mod1");
-  if(!(return_value_strstr$3 == ((char *)NULL)))
+  char *return_value_strstr_3;
+  return_value_strstr_3=strstr(shortcut, "Mod1");
+  if(!(return_value_strstr_3 == ((char *)NULL)))
     modifier_mask = modifier_mask | (unsigned int)(1 << 3);
 
-  char *return_value_strstr$4;
-  return_value_strstr$4=strstr(shortcut, "Mod2");
-  if(!(return_value_strstr$4 == ((char *)NULL)))
+  char *return_value_strstr_4;
+  return_value_strstr_4=strstr(shortcut, "Mod2");
+  if(!(return_value_strstr_4 == ((char *)NULL)))
     modifier_mask = modifier_mask | (unsigned int)(1 << 4);
 
-  char *return_value_strstr$5;
-  return_value_strstr$5=strstr(shortcut, "Mod3");
-  if(!(return_value_strstr$5 == ((char *)NULL)))
+  char *return_value_strstr_5;
+  return_value_strstr_5=strstr(shortcut, "Mod3");
+  if(!(return_value_strstr_5 == ((char *)NULL)))
     modifier_mask = modifier_mask | (unsigned int)(1 << 5);
 
-  char *return_value_strstr$6;
-  return_value_strstr$6=strstr(shortcut, "Mod4");
-  if(!(return_value_strstr$6 == ((char *)NULL)))
+  char *return_value_strstr_6;
+  return_value_strstr_6=strstr(shortcut, "Mod4");
+  if(!(return_value_strstr_6 == ((char *)NULL)))
     modifier_mask = modifier_mask | (unsigned int)(1 << 6);
 
-  char *return_value_strstr$7;
-  return_value_strstr$7=strstr(shortcut, "Mod5");
-  if(!(return_value_strstr$7 == ((char *)NULL)))
+  char *return_value_strstr_7;
+  return_value_strstr_7=strstr(shortcut, "Mod5");
+  if(!(return_value_strstr_7 == ((char *)NULL)))
     modifier_mask = modifier_mask | (unsigned int)(1 << 7);
 
-  unsigned char return_value_XKeysymToKeycode$8;
+  unsigned char return_value_XKeysymToKeycode_8;
   if(modifier_mask == 0u)
     return 1;
 
@@ -12686,8 +12686,8 @@ signed int rmdRegisterShortcut(struct _XDisplay *dpy, unsigned long int root, co
 
       else
       {
-        return_value_XKeysymToKeycode$8=XKeysymToKeycode(dpy, key);
-        keycode = (signed int)return_value_XKeysymToKeycode$8;
+        return_value_XKeysymToKeycode_8=XKeysymToKeycode(dpy, key);
+        keycode = (signed int)return_value_XKeysymToKeycode_8;
       }
     }
 
@@ -12700,9 +12700,9 @@ signed int rmdRegisterShortcut(struct _XDisplay *dpy, unsigned long int root, co
       j = 0;
       for( ; !(j >= modmap->max_keypermod); j = j + 1)
       {
-        unsigned char return_value_XKeysymToKeycode$9;
-        return_value_XKeysymToKeycode$9=XKeysymToKeycode(dpy, (unsigned long int)0xff7f);
-        if(modmap->modifiermap[(signed long int)(modmap->max_keypermod * i + j)] == return_value_XKeysymToKeycode$9)
+        unsigned char return_value_XKeysymToKeycode_9;
+        return_value_XKeysymToKeycode_9=XKeysymToKeycode(dpy, (unsigned long int)0xff7f);
+        if(modmap->modifiermap[(signed long int)(modmap->max_keypermod * i + j)] == return_value_XKeysymToKeycode_9)
           numlock_mask = (unsigned int)(1 << i);
 
       }
@@ -12745,37 +12745,37 @@ signed int rmdRescue(const char *path)
   rmdSetupDefaultArgs(&pdata.args);
   pdata.enc_data = &enc_data;
   pdata.cache_data = &cache_data;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(path);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)2);
-  cache_data.projname = (char *)return_value_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(path);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)2);
+  cache_data.projname = (char *)return_value_malloc_2;
   strcpy(cache_data.projname, path);
   strcat(cache_data.projname, "/");
-  unsigned long int return_value_strlen$3;
-  return_value_strlen$3=strlen(cache_data.projname);
-  void *return_value_malloc$4;
-  return_value_malloc$4=malloc(return_value_strlen$3 + (unsigned long int)11);
-  cache_data.imgdata = (char *)return_value_malloc$4;
+  unsigned long int return_value_strlen_3;
+  return_value_strlen_3=strlen(cache_data.projname);
+  void *return_value_malloc_4;
+  return_value_malloc_4=malloc(return_value_strlen_3 + (unsigned long int)11);
+  cache_data.imgdata = (char *)return_value_malloc_4;
   strcpy(cache_data.imgdata, cache_data.projname);
   strcat(cache_data.imgdata, "img.out");
-  unsigned long int return_value_strlen$5;
-  return_value_strlen$5=strlen(cache_data.projname);
-  void *return_value_malloc$6;
-  return_value_malloc$6=malloc(return_value_strlen$5 + (unsigned long int)10);
-  cache_data.audiodata = (char *)return_value_malloc$6;
+  unsigned long int return_value_strlen_5;
+  return_value_strlen_5=strlen(cache_data.projname);
+  void *return_value_malloc_6;
+  return_value_malloc_6=malloc(return_value_strlen_5 + (unsigned long int)10);
+  cache_data.audiodata = (char *)return_value_malloc_6;
   strcpy(cache_data.audiodata, cache_data.projname);
   strcat(cache_data.audiodata, "audio.pcm");
-  unsigned long int return_value_strlen$7;
-  return_value_strlen$7=strlen(cache_data.projname);
-  void *return_value_malloc$8;
-  return_value_malloc$8=malloc(return_value_strlen$7 + (unsigned long int)10);
-  cache_data.specsfile = (char *)return_value_malloc$8;
+  unsigned long int return_value_strlen_7;
+  return_value_strlen_7=strlen(cache_data.projname);
+  void *return_value_malloc_8;
+  return_value_malloc_8=malloc(return_value_strlen_7 + (unsigned long int)10);
+  cache_data.specsfile = (char *)return_value_malloc_8;
   strcpy(cache_data.specsfile, cache_data.projname);
   strcat(cache_data.specsfile, "specs.txt");
-  signed int return_value_rmdReadSpecsFile$9;
-  return_value_rmdReadSpecsFile$9=rmdReadSpecsFile(&pdata);
-  if(!(return_value_rmdReadSpecsFile$9 == 0))
+  signed int return_value_rmdReadSpecsFile_9;
+  return_value_rmdReadSpecsFile_9=rmdReadSpecsFile(&pdata);
+  if(!(return_value_rmdReadSpecsFile_9 == 0))
     return 1;
 
   else
@@ -12784,15 +12784,15 @@ signed int rmdRescue(const char *path)
     height = (unsigned short int)(((signed int)pdata.brwin.rrect.height + 15 >> 4) << 4);
     offset_x = ((signed int)width - (signed int)pdata.brwin.rrect.width) / 2 & ~1;
     offset_y = ((signed int)height - (signed int)pdata.brwin.rrect.height) / 2 & ~1;
-    void *return_value_malloc$10;
-    return_value_malloc$10=malloc((unsigned long int)((signed int)height * (signed int)width));
-    enc_data.yuv.y = (unsigned char *)return_value_malloc$10;
-    void *return_value_malloc$11;
-    return_value_malloc$11=malloc((unsigned long int)(((signed int)height * (signed int)width) / 4));
-    enc_data.yuv.u = (unsigned char *)return_value_malloc$11;
-    void *return_value_malloc$12;
-    return_value_malloc$12=malloc((unsigned long int)(((signed int)height * (signed int)width) / 4));
-    enc_data.yuv.v = (unsigned char *)return_value_malloc$12;
+    void *return_value_malloc_10;
+    return_value_malloc_10=malloc((unsigned long int)((signed int)height * (signed int)width));
+    enc_data.yuv.y = (unsigned char *)return_value_malloc_10;
+    void *return_value_malloc_11;
+    return_value_malloc_11=malloc((unsigned long int)(((signed int)height * (signed int)width) / 4));
+    enc_data.yuv.u = (unsigned char *)return_value_malloc_11;
+    void *return_value_malloc_12;
+    return_value_malloc_12=malloc((unsigned long int)(((signed int)height * (signed int)width) / 4));
+    enc_data.yuv.v = (unsigned char *)return_value_malloc_12;
     enc_data.yuv.y_width = (signed int)width;
     enc_data.yuv.y_height = (signed int)height;
     enc_data.yuv.y_stride = (signed int)width;
@@ -12810,21 +12810,21 @@ signed int rmdRescue(const char *path)
       enc_data.yuv.u[(signed long int)i] = (unsigned char)127;
       enc_data.yuv.v[(signed long int)i] = enc_data.yuv.u[(signed long int)i];
     }
-    void *return_value_malloc$13;
-    return_value_malloc$13=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)(enc_data.yuv.y_width / 0x0010) * (unsigned long int)(enc_data.yuv.y_height / 0x0010));
-    yblocks = (unsigned int *)return_value_malloc$13;
-    void *return_value_malloc$14;
-    return_value_malloc$14=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)(enc_data.yuv.y_width / 0x0010) * (unsigned long int)(enc_data.yuv.y_height / 0x0010));
-    ublocks = (unsigned int *)return_value_malloc$14;
-    void *return_value_malloc$15;
-    return_value_malloc$15=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)(enc_data.yuv.y_width / 0x0010) * (unsigned long int)(enc_data.yuv.y_height / 0x0010));
-    vblocks = (unsigned int *)return_value_malloc$15;
+    void *return_value_malloc_13;
+    return_value_malloc_13=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)(enc_data.yuv.y_width / 0x0010) * (unsigned long int)(enc_data.yuv.y_height / 0x0010));
+    yblocks = (unsigned int *)return_value_malloc_13;
+    void *return_value_malloc_14;
+    return_value_malloc_14=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)(enc_data.yuv.y_width / 0x0010) * (unsigned long int)(enc_data.yuv.y_height / 0x0010));
+    ublocks = (unsigned int *)return_value_malloc_14;
+    void *return_value_malloc_15;
+    return_value_malloc_15=malloc(sizeof(unsigned int) /*4ul*/  * (unsigned long int)(enc_data.yuv.y_width / 0x0010) * (unsigned long int)(enc_data.yuv.y_height / 0x0010));
+    vblocks = (unsigned int *)return_value_malloc_15;
     pdata.frametime = (unsigned int)((float)1000000 / pdata.args.fps);
-    pthread_mutex_init(&pdata.theora_lib_mutex, (const union anonymous$141 *)(void *)0);
-    pthread_mutex_init(&pdata.vorbis_lib_mutex, (const union anonymous$141 *)(void *)0);
-    pthread_mutex_init(&pdata.libogg_mutex, (const union anonymous$141 *)(void *)0);
-    pthread_cond_init(&pdata.theora_lib_clean, (const union anonymous$141 *)(void *)0);
-    pthread_cond_init(&pdata.vorbis_lib_clean, (const union anonymous$141 *)(void *)0);
+    pthread_mutex_init(&pdata.theora_lib_mutex, (const union anonymous_141 *)(void *)0);
+    pthread_mutex_init(&pdata.vorbis_lib_mutex, (const union anonymous_141 *)(void *)0);
+    pthread_mutex_init(&pdata.libogg_mutex, (const union anonymous_141 *)(void *)0);
+    pthread_cond_init(&pdata.theora_lib_clean, (const union anonymous_141 *)(void *)0);
+    pthread_cond_init(&pdata.vorbis_lib_clean, (const union anonymous_141 *)(void *)0);
     pdata.v_encoding_clean = 1;
     pdata.th_encoding_clean = pdata.v_encoding_clean;
     pdata.avd = 0;
@@ -12845,34 +12845,34 @@ signed int rmdRescue(const char *path)
 // file rmd_math.c line 31
 double rmdRoundf(double val)
 {
-  float tmp_if_expr$3;
-  float return_value_ceilf$1;
-  float return_value_floorf$2;
+  float tmp_if_expr_3;
+  float return_value_ceilf_1;
+  float return_value_floorf_2;
   if(val < 0.0)
   {
-    return_value_ceilf$1=ceilf((float)(val - 0.5));
-    tmp_if_expr$3 = return_value_ceilf$1;
+    return_value_ceilf_1=ceilf((float)(val - 0.5));
+    tmp_if_expr_3 = return_value_ceilf_1;
   }
 
   else
   {
-    return_value_floorf$2=floorf((float)(val + 0.5));
-    tmp_if_expr$3 = return_value_floorf$2;
+    return_value_floorf_2=floorf((float)(val + 0.5));
+    tmp_if_expr_3 = return_value_floorf_2;
   }
-  return (double)tmp_if_expr$3;
+  return (double)tmp_if_expr_3;
 }
 
 // rmdSetBRWindow
 // file rmd_setbrwindow.h line 47
 signed int rmdSetBRWindow(struct _XDisplay *dpy, struct _BRWindow *brwin, struct _DisplaySpecs *specs, struct _ProgArgs *args)
 {
-  unsigned int tmp_if_expr$1;
-  unsigned int tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  signed int tmp_if_expr$5;
-  signed int tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
+  unsigned int tmp_if_expr_1;
+  unsigned int tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  signed int tmp_if_expr_5;
+  signed int tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
   if(args->windowid == 0ul)
   {
     brwin->windowid = specs->root;
@@ -12883,23 +12883,23 @@ signed int rmdSetBRWindow(struct _XDisplay *dpy, struct _BRWindow *brwin, struct
     brwin->rrect.x = (signed short int)args->x;
     brwin->rrect.y = (signed short int)args->y;
     if(!(args->width == 0))
-      tmp_if_expr$1 = (unsigned int)args->width;
+      tmp_if_expr_1 = (unsigned int)args->width;
 
     else
-      tmp_if_expr$1 = specs->width - (unsigned int)brwin->rrect.x;
-    brwin->rrect.width = (unsigned short int)tmp_if_expr$1;
+      tmp_if_expr_1 = specs->width - (unsigned int)brwin->rrect.x;
+    brwin->rrect.width = (unsigned short int)tmp_if_expr_1;
     if(!(args->height == 0))
-      tmp_if_expr$2 = (unsigned int)args->height;
+      tmp_if_expr_2 = (unsigned int)args->height;
 
     else
-      tmp_if_expr$2 = specs->height - (unsigned int)brwin->rrect.y;
-    brwin->rrect.height = (unsigned short int)tmp_if_expr$2;
+      tmp_if_expr_2 = specs->height - (unsigned int)brwin->rrect.y;
+    brwin->rrect.height = (unsigned short int)tmp_if_expr_2;
     if(!(specs->width >= (unsigned int)(signed int)brwin->rrect.x + (unsigned int)(signed int)brwin->rrect.width))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
-      tmp_if_expr$3 = (unsigned int)((signed int)brwin->rrect.y + (signed int)brwin->rrect.height) > specs->height ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$3)
+      tmp_if_expr_3 = (unsigned int)((signed int)brwin->rrect.y + (signed int)brwin->rrect.height) > specs->height ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_3)
     {
       fprintf(stderr, "Window size specification out of bounds!(current resolution:%dx%d)\n", specs->width, specs->height);
       return 0;
@@ -12926,11 +12926,11 @@ signed int rmdSetBRWindow(struct _XDisplay *dpy, struct _BRWindow *brwin, struct
     brwin->rect.width = (unsigned short int)attribs.width;
     brwin->rect.height = (unsigned short int)attribs.height;
     if(!(specs->width >= (unsigned int)(signed int)brwin->rect.x + (unsigned int)(signed int)brwin->rect.width))
-      tmp_if_expr$4 = (_Bool)1;
+      tmp_if_expr_4 = (_Bool)1;
 
     else
-      tmp_if_expr$4 = (unsigned int)((signed int)brwin->rect.y + (signed int)brwin->rect.height) > specs->height ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$4)
+      tmp_if_expr_4 = (unsigned int)((signed int)brwin->rect.y + (signed int)brwin->rect.height) > specs->height ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_4)
     {
       fprintf(stderr, "Window must be on visible screen area!\n");
       return 0;
@@ -12939,23 +12939,23 @@ signed int rmdSetBRWindow(struct _XDisplay *dpy, struct _BRWindow *brwin, struct
     brwin->rrect.x = (signed short int)((signed int)brwin->rect.x + args->x);
     brwin->rrect.y = (signed short int)((signed int)brwin->rect.y + args->y);
     if(!(args->width == 0))
-      tmp_if_expr$5 = args->width;
+      tmp_if_expr_5 = args->width;
 
     else
-      tmp_if_expr$5 = (signed int)brwin->rect.width - args->x;
-    brwin->rrect.width = (unsigned short int)tmp_if_expr$5;
+      tmp_if_expr_5 = (signed int)brwin->rect.width - args->x;
+    brwin->rrect.width = (unsigned short int)tmp_if_expr_5;
     if(!(args->height == 0))
-      tmp_if_expr$6 = args->height;
+      tmp_if_expr_6 = args->height;
 
     else
-      tmp_if_expr$6 = (signed int)brwin->rect.height - args->y;
-    brwin->rrect.height = (unsigned short int)tmp_if_expr$6;
+      tmp_if_expr_6 = (signed int)brwin->rect.height - args->y;
+    brwin->rrect.height = (unsigned short int)tmp_if_expr_6;
     if(!((signed int)brwin->rect.width >= args->x + (signed int)brwin->rrect.width))
-      tmp_if_expr$7 = (_Bool)1;
+      tmp_if_expr_7 = (_Bool)1;
 
     else
-      tmp_if_expr$7 = args->y + (signed int)brwin->rrect.height > (signed int)brwin->rect.height ? (_Bool)1 : (_Bool)0;
-    if(tmp_if_expr$7)
+      tmp_if_expr_7 = args->y + (signed int)brwin->rrect.height > (signed int)brwin->rect.height ? (_Bool)1 : (_Bool)0;
+    if(tmp_if_expr_7)
     {
       fprintf(stderr, "Specified Area is larger than window!\n");
       return 0;
@@ -13026,46 +13026,46 @@ void rmdSetupDefaultArgs(struct _ProgArgs *args)
   args->v_bitrate = 0;
   args->v_quality = 63;
   args->s_quality = 10;
-  char *return_value_getenv$5;
-  return_value_getenv$5=getenv("DISPLAY");
-  if(!(return_value_getenv$5 == ((char *)NULL)))
+  char *return_value_getenv_5;
+  return_value_getenv_5=getenv("DISPLAY");
+  if(!(return_value_getenv_5 == ((char *)NULL)))
   {
-    char *return_value_getenv$1;
-    return_value_getenv$1=getenv("DISPLAY");
-    unsigned long int return_value_strlen$2;
-    return_value_strlen$2=strlen(return_value_getenv$1);
-    void *return_value_malloc$3;
-    return_value_malloc$3=malloc(return_value_strlen$2 + (unsigned long int)1);
-    args->display = (char *)return_value_malloc$3;
-    char *return_value_getenv$4;
-    return_value_getenv$4=getenv("DISPLAY");
-    strcpy(args->display, return_value_getenv$4);
+    char *return_value_getenv_1;
+    return_value_getenv_1=getenv("DISPLAY");
+    unsigned long int return_value_strlen_2;
+    return_value_strlen_2=strlen(return_value_getenv_1);
+    void *return_value_malloc_3;
+    return_value_malloc_3=malloc(return_value_strlen_2 + (unsigned long int)1);
+    args->display = (char *)return_value_malloc_3;
+    char *return_value_getenv_4;
+    return_value_getenv_4=getenv("DISPLAY");
+    strcpy(args->display, return_value_getenv_4);
   }
 
   else
     args->display = (char *)(void *)0;
   memset((void *)args->jack_port_names, 0, sizeof(char *[100l]) /*800ul*/ );
-  unsigned long int return_value_strlen$6;
-  return_value_strlen$6=strlen("hw:0,0");
-  void *return_value_malloc$7;
-  return_value_malloc$7=malloc(return_value_strlen$6 + (unsigned long int)1);
-  args->device = (char *)return_value_malloc$7;
+  unsigned long int return_value_strlen_6;
+  return_value_strlen_6=strlen("hw:0,0");
+  void *return_value_malloc_7;
+  return_value_malloc_7=malloc(return_value_strlen_6 + (unsigned long int)1);
+  args->device = (char *)return_value_malloc_7;
   strcpy(args->device, "hw:0,0");
-  void *return_value_malloc$8;
-  return_value_malloc$8=malloc((unsigned long int)5);
-  args->workdir = (char *)return_value_malloc$8;
+  void *return_value_malloc_8;
+  return_value_malloc_8=malloc((unsigned long int)5);
+  args->workdir = (char *)return_value_malloc_8;
   strcpy(args->workdir, "/tmp");
-  void *return_value_malloc$9;
-  return_value_malloc$9=malloc((unsigned long int)15);
-  args->pause_shortcut = (char *)return_value_malloc$9;
+  void *return_value_malloc_9;
+  return_value_malloc_9=malloc((unsigned long int)15);
+  args->pause_shortcut = (char *)return_value_malloc_9;
   strcpy(args->pause_shortcut, "Control+Mod1+p");
-  void *return_value_malloc$10;
-  return_value_malloc$10=malloc((unsigned long int)15);
-  args->stop_shortcut = (char *)return_value_malloc$10;
+  void *return_value_malloc_10;
+  return_value_malloc_10=malloc((unsigned long int)15);
+  args->stop_shortcut = (char *)return_value_malloc_10;
   strcpy(args->stop_shortcut, "Control+Mod1+s");
-  void *return_value_malloc$11;
-  return_value_malloc$11=malloc((unsigned long int)8);
-  args->filename = (char *)return_value_malloc$11;
+  void *return_value_malloc_11;
+  return_value_malloc_11=malloc((unsigned long int)8);
+  args->filename = (char *)return_value_malloc_11;
   strcpy(args->filename, "out.ogv");
 }
 
@@ -13074,12 +13074,12 @@ void rmdSetupDefaultArgs(struct _ProgArgs *args)
 static signed int rmdSetupPorts(struct _JackData *jdata)
 {
   signed int i = 0;
-  void *return_value_malloc$1;
-  return_value_malloc$1=malloc(sizeof(struct _jack_port *) /*8ul*/  * (unsigned long int)jdata->nports);
-  jdata->ports = (struct _jack_port **)return_value_malloc$1;
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(sizeof(float *) /*8ul*/  * (unsigned long int)jdata->nports);
-  jdata->portbuf = (float **)return_value_malloc$2;
+  void *return_value_malloc_1;
+  return_value_malloc_1=malloc(sizeof(struct _jack_port *) /*8ul*/  * (unsigned long int)jdata->nports);
+  jdata->ports = (struct _jack_port **)return_value_malloc_1;
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(sizeof(float *) /*8ul*/  * (unsigned long int)jdata->nports);
+  jdata->portbuf = (float **)return_value_malloc_2;
   memset((void *)jdata->portbuf, 0, sizeof(float *) /*8ul*/  * (unsigned long int)jdata->nports);
   i = 0;
   for( ; !((unsigned int)i >= jdata->nports); i = i + 1)
@@ -13096,15 +13096,15 @@ static signed int rmdSetupPorts(struct _JackData *jdata)
       return 1;
     }
 
-    const char *return_value_jack_port_name$4;
-    return_value_jack_port_name$4=jack_port_name(jdata->ports[(signed long int)i]);
-    signed int return_value_jack_connect$5;
-    return_value_jack_connect$5=jack_connect(jdata->client, jdata->port_names[(signed long int)i], return_value_jack_port_name$4);
-    if(!(return_value_jack_connect$5 == 0))
+    const char *return_value_jack_port_name_4;
+    return_value_jack_port_name_4=jack_port_name(jdata->ports[(signed long int)i]);
+    signed int return_value_jack_connect_5;
+    return_value_jack_connect_5=jack_connect(jdata->client, jdata->port_names[(signed long int)i], return_value_jack_port_name_4);
+    if(!(return_value_jack_connect_5 == 0))
     {
-      const char *return_value_jack_port_name$3;
-      return_value_jack_port_name$3=jack_port_name(jdata->ports[(signed long int)i]);
-      fprintf(stderr, "Cannot connect input port %s to %s\n", return_value_jack_port_name$3, jdata->port_names[(signed long int)i]);
+      const char *return_value_jack_port_name_3;
+      return_value_jack_port_name_3=jack_port_name(jdata->ports[(signed long int)i]);
+      fprintf(stderr, "Cannot connect input port %s to %s\n", return_value_jack_port_name_3, jdata->port_names[(signed long int)i]);
       return 1;
     }
 
@@ -13122,7 +13122,7 @@ static void rmdSizePack2_8_16(signed short int *start, unsigned short int *size,
   *size = *size + (unsigned short int)((signed int)*size % 2);
   *start = *start - (signed short int)((signed int)*start % 2);
   octoffset = (signed int)*size % 8;
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(octoffset == 2)
     *size = *size - (unsigned short int)2;
 
@@ -13150,11 +13150,11 @@ static void rmdSizePack2_8_16(signed short int *start, unsigned short int *size,
       if(octoffset == 4)
       {
         if((signed int)limit >= 2 + (signed int)*start + (signed int)*size)
-          tmp_if_expr$1 = (signed int)*start >= 2 ? (_Bool)1 : (_Bool)0;
+          tmp_if_expr_1 = (signed int)*start >= 2 ? (_Bool)1 : (_Bool)0;
 
         else
-          tmp_if_expr$1 = (_Bool)0;
-        if(tmp_if_expr$1)
+          tmp_if_expr_1 = (_Bool)0;
+        if(tmp_if_expr_1)
         {
           *start = *start - (signed short int)2;
           *size = *size + (unsigned short int)4;
@@ -13179,15 +13179,15 @@ static void rmdSizePack2_8_16(signed short int *start, unsigned short int *size,
       }
 
   hexoffset = (signed int)*size % 16;
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(hexoffset == 0))
   {
     if((signed int)limit >= 4 + (signed int)*start + (signed int)*size)
-      tmp_if_expr$2 = (signed int)*start >= 4 ? (_Bool)1 : (_Bool)0;
+      tmp_if_expr_2 = (signed int)*start >= 4 ? (_Bool)1 : (_Bool)0;
 
     else
-      tmp_if_expr$2 = (_Bool)0;
-    if(tmp_if_expr$2)
+      tmp_if_expr_2 = (_Bool)0;
+    if(tmp_if_expr_2)
     {
       *start = *start - (signed short int)4;
       *size = *size + (unsigned short int)8;
@@ -13240,9 +13240,9 @@ signed int rmdStartJackClient(struct _JackData *jdata)
     jdata->sound_buffer=(jack_ringbuffer_create)((unsigned long int)(signed int)((double)ring_buffer_size + 0.5));
     jack_set_process_callback(jdata->client, rmdJackCapture, (void *)jdata);
     jack_on_shutdown(jdata->client, rmdJackShutdown, (void *)jdata);
-    signed int return_value_jack_activate$1;
-    return_value_jack_activate$1=jack_activate(jdata->client);
-    if(!(return_value_jack_activate$1 == 0))
+    signed int return_value_jack_activate_1;
+    return_value_jack_activate_1=jack_activate(jdata->client);
+    if(!(return_value_jack_activate_1 == 0))
     {
       fprintf(stderr, "cannot activate client!\n");
       return 16;
@@ -13250,9 +13250,9 @@ signed int rmdStartJackClient(struct _JackData *jdata)
 
     else
     {
-      signed int return_value_rmdSetupPorts$2;
-      return_value_rmdSetupPorts$2=rmdSetupPorts(jdata);
-      if(!(return_value_rmdSetupPorts$2 == 0))
+      signed int return_value_rmdSetupPorts_2;
+      return_value_rmdSetupPorts_2=rmdSetupPorts(jdata);
+      if(!(return_value_rmdSetupPorts_2 == 0))
       {
         jack_client_close(jdata->client);
         return 17;
@@ -13270,9 +13270,9 @@ signed int rmdStopJackClient(struct _JackData *jdata)
 {
   signed int ret = 0;
   (jack_ringbuffer_free)(jdata->sound_buffer);
-  signed int return_value_jack_client_close$1;
-  return_value_jack_client_close$1=jack_client_close(jdata->client);
-  if(!(return_value_jack_client_close$1 == 0))
+  signed int return_value_jack_client_close_1;
+  return_value_jack_client_close_1=jack_client_close(jdata->client);
+  if(!(return_value_jack_client_close_1 == 0))
   {
     fprintf(stderr, "Cannot close Jack client!\n");
     ret = 1;
@@ -13286,11 +13286,11 @@ signed int rmdStopJackClient(struct _JackData *jdata)
 signed int rmdSwapCacheFilesRead(char *name, signed int n, struct gzFile_s ***fp, struct _IO_FILE **ucfp)
 {
   char *newname;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)10);
-  newname = (char *)return_value_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)10);
+  newname = (char *)return_value_malloc_2;
   rmdCacheFileN(name, &newname, n);
   if(*fp == ((struct gzFile_s **)NULL))
   {
@@ -13301,18 +13301,18 @@ signed int rmdSwapCacheFilesRead(char *name, signed int n, struct gzFile_s ***fp
   else
   {
     gzclose((struct gzFile_s *)*fp);
-    struct gzFile_s *return_value_gzopen$3;
-    return_value_gzopen$3=gzopen(newname, "rb");
-    *fp = (struct gzFile_s **)return_value_gzopen$3;
+    struct gzFile_s *return_value_gzopen_3;
+    return_value_gzopen_3=gzopen(newname, "rb");
+    *fp = (struct gzFile_s **)return_value_gzopen_3;
   }
   free((void *)newname);
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(*fp == ((struct gzFile_s **)NULL))
-    tmp_if_expr$4 = *ucfp == (struct _IO_FILE *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = *ucfp == (struct _IO_FILE *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  return (signed int)tmp_if_expr$4;
+    tmp_if_expr_4 = (_Bool)0;
+  return (signed int)tmp_if_expr_4;
 }
 
 // rmdSwapCacheFilesWrite
@@ -13320,11 +13320,11 @@ signed int rmdSwapCacheFilesRead(char *name, signed int n, struct gzFile_s ***fp
 signed int rmdSwapCacheFilesWrite(char *name, signed int n, struct gzFile_s ***fp, struct _IO_FILE **ucfp)
 {
   char *newname;
-  unsigned long int return_value_strlen$1;
-  return_value_strlen$1=strlen(name);
-  void *return_value_malloc$2;
-  return_value_malloc$2=malloc(return_value_strlen$1 + (unsigned long int)10);
-  newname = (char *)return_value_malloc$2;
+  unsigned long int return_value_strlen_1;
+  return_value_strlen_1=strlen(name);
+  void *return_value_malloc_2;
+  return_value_malloc_2=malloc(return_value_strlen_1 + (unsigned long int)10);
+  newname = (char *)return_value_malloc_2;
   rmdCacheFileN(name, &newname, n);
   if(*fp == ((struct gzFile_s **)NULL))
   {
@@ -13337,34 +13337,34 @@ signed int rmdSwapCacheFilesWrite(char *name, signed int n, struct gzFile_s ***f
   {
     gzflush((struct gzFile_s *)*fp, 4);
     gzclose((struct gzFile_s *)*fp);
-    struct gzFile_s *return_value_gzopen$3;
-    return_value_gzopen$3=gzopen(newname, "wb0f");
-    *fp = (struct gzFile_s **)return_value_gzopen$3;
+    struct gzFile_s *return_value_gzopen_3;
+    return_value_gzopen_3=gzopen(newname, "wb0f");
+    *fp = (struct gzFile_s **)return_value_gzopen_3;
   }
   free((void *)newname);
-  _Bool tmp_if_expr$4;
+  _Bool tmp_if_expr_4;
   if(*fp == ((struct gzFile_s **)NULL))
-    tmp_if_expr$4 = *ucfp == (struct _IO_FILE *)(void *)0 ? (_Bool)1 : (_Bool)0;
+    tmp_if_expr_4 = *ucfp == (struct _IO_FILE *)(void *)0 ? (_Bool)1 : (_Bool)0;
 
   else
-    tmp_if_expr$4 = (_Bool)0;
-  return (signed int)tmp_if_expr$4;
+    tmp_if_expr_4 = (_Bool)0;
+  return (signed int)tmp_if_expr_4;
 }
 
 // rmdSyncEncodeImageBuffer
 // file rmd_encode_image_buffer.c line 80
 void rmdSyncEncodeImageBuffer(struct _ProgData *pdata)
 {
-  signed int return_value_theora_encode_YUVin$2;
-  return_value_theora_encode_YUVin$2=theora_encode_YUVin(&pdata->enc_data->m_th_st, &pdata->enc_data->yuv);
-  if(!(return_value_theora_encode_YUVin$2 == 0))
+  signed int return_value_theora_encode_YUVin_2;
+  return_value_theora_encode_YUVin_2=theora_encode_YUVin(&pdata->enc_data->m_th_st, &pdata->enc_data->yuv);
+  if(!(return_value_theora_encode_YUVin_2 == 0))
     fprintf(stderr, "Encoder not ready!\n");
 
   else
   {
-    signed int return_value_theora_encode_packetout$1;
-    return_value_theora_encode_packetout$1=theora_encode_packetout(&pdata->enc_data->m_th_st, (signed int)!(pdata->running != 0), &pdata->enc_data->m_ogg_pckt1);
-    if(return_value_theora_encode_packetout$1 == 1)
+    signed int return_value_theora_encode_packetout_1;
+    return_value_theora_encode_packetout_1=theora_encode_packetout(&pdata->enc_data->m_th_st, (signed int)!(pdata->running != 0), &pdata->enc_data->m_ogg_pckt1);
+    if(return_value_theora_encode_packetout_1 == 1)
     {
       pthread_mutex_lock(&pdata->libogg_mutex);
       ogg_stream_packetin(&pdata->enc_data->m_ogg_ts, &pdata->enc_data->m_ogg_pckt1);
@@ -13387,13 +13387,13 @@ void rmdSyncEncodeSoundBuffer(struct _ProgData *pdata, signed char *buff)
   signed int i;
   signed int j;
   signed int sampread;
-  unsigned long int tmp_if_expr$1;
+  unsigned long int tmp_if_expr_1;
   if(!(buff == ((signed char *)NULL)))
-    tmp_if_expr$1 = pdata->periodsize;
+    tmp_if_expr_1 = pdata->periodsize;
 
   else
-    tmp_if_expr$1 = (unsigned long int)0;
-  sampread = (signed int)tmp_if_expr$1;
+    tmp_if_expr_1 = (unsigned long int)0;
+  sampread = (signed int)tmp_if_expr_1;
   vorbis_buffer=vorbis_analysis_buffer(&pdata->enc_data->m_vo_dsp, sampread);
   if(pdata->args.use_jack == 0)
   {
@@ -13424,20 +13424,20 @@ void rmdSyncEncodeSoundBuffer(struct _ProgData *pdata, signed char *buff)
   }
   vorbis_analysis_wrote(&pdata->enc_data->m_vo_dsp, sampread);
   pthread_mutex_lock(&pdata->libogg_mutex);
-  signed int return_value_vorbis_analysis_blockout$2;
-  signed int return_value_vorbis_bitrate_flushpacket$3;
+  signed int return_value_vorbis_analysis_blockout_2;
+  signed int return_value_vorbis_bitrate_flushpacket_3;
   do
   {
-    return_value_vorbis_analysis_blockout$2=vorbis_analysis_blockout(&pdata->enc_data->m_vo_dsp, &pdata->enc_data->m_vo_block);
-    if(!(return_value_vorbis_analysis_blockout$2 == 1))
+    return_value_vorbis_analysis_blockout_2=vorbis_analysis_blockout(&pdata->enc_data->m_vo_dsp, &pdata->enc_data->m_vo_block);
+    if(!(return_value_vorbis_analysis_blockout_2 == 1))
       break;
 
-    vorbis_analysis(&pdata->enc_data->m_vo_block, (struct anonymous$126 *)(void *)0);
+    vorbis_analysis(&pdata->enc_data->m_vo_block, (struct anonymous_126 *)(void *)0);
     vorbis_bitrate_addblock(&pdata->enc_data->m_vo_block);
     do
     {
-      return_value_vorbis_bitrate_flushpacket$3=vorbis_bitrate_flushpacket(&pdata->enc_data->m_vo_dsp, &pdata->enc_data->m_ogg_pckt2);
-      if(return_value_vorbis_bitrate_flushpacket$3 == 0)
+      return_value_vorbis_bitrate_flushpacket_3=vorbis_bitrate_flushpacket(&pdata->enc_data->m_vo_dsp, &pdata->enc_data->m_ogg_pckt2);
+      if(return_value_vorbis_bitrate_flushpacket_3 == 0)
         break;
 
       ogg_stream_packetin(&pdata->enc_data->m_ogg_vs, &pdata->enc_data->m_ogg_pckt2);
@@ -13604,26 +13604,26 @@ void * rmdTimer(struct _ProgData *pdata)
 
     usleep((unsigned int)usecs_tw);
   }
-  signed int *return_value___errno_location$1;
-  return_value___errno_location$1=__errno_location();
-  pthread_exit((void *)&(*return_value___errno_location$1));
+  signed int *return_value___errno_location_1;
+  return_value___errno_location_1=__errno_location();
+  pthread_exit((void *)&(*return_value___errno_location_1));
 }
 
 // rmdUpdateImage
 // file rmd_update_image.h line 58
-void rmdUpdateImage(struct _XDisplay *dpy, struct anonymous$45 *yuv, struct _DisplaySpecs *specs, struct _RectArea **root, struct _BRWindow *brwin, struct _EncData *enc, char *datatemp, signed int noshmem, struct anonymous$34 *shminfo, signed int shm_opcode, signed int no_quick_subsample)
+void rmdUpdateImage(struct _XDisplay *dpy, struct anonymous_45 *yuv, struct _DisplaySpecs *specs, struct _RectArea **root, struct _BRWindow *brwin, struct _EncData *enc, char *datatemp, signed int noshmem, struct anonymous_34 *shminfo, signed int shm_opcode, signed int no_quick_subsample)
 {
   struct _RectArea *temp;
   unsigned char *dtap = (unsigned char *)datatemp;
   temp = *root;
-  _Bool tmp_if_expr$1;
-  _Bool tmp_if_expr$8;
-  _Bool tmp_if_expr$2;
-  _Bool tmp_if_expr$3;
-  _Bool tmp_if_expr$4;
-  _Bool tmp_if_expr$5;
-  _Bool tmp_if_expr$6;
-  _Bool tmp_if_expr$7;
+  _Bool tmp_if_expr_1;
+  _Bool tmp_if_expr_8;
+  _Bool tmp_if_expr_2;
+  _Bool tmp_if_expr_3;
+  _Bool tmp_if_expr_4;
+  _Bool tmp_if_expr_5;
+  _Bool tmp_if_expr_6;
+  _Bool tmp_if_expr_7;
   if(!(temp == ((struct _RectArea *)NULL)))
     while((_Bool)1)
     {
@@ -13633,11 +13633,11 @@ void rmdUpdateImage(struct _XDisplay *dpy, struct anonymous$45 *yuv, struct _Dis
       else
         rmdGetZPixmapSHM(dpy, specs->root, shminfo, shm_opcode, datatemp, (signed int)temp->rect.x, (signed int)temp->rect.y, (signed int)temp->rect.width, (signed int)temp->rect.height);
       if(specs->depth == 24)
-        tmp_if_expr$1 = (_Bool)1;
+        tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr$1 = specs->depth == 32 ? (_Bool)1 : (_Bool)0;
-      if(tmp_if_expr$1)
+        tmp_if_expr_1 = specs->depth == 32 ? (_Bool)1 : (_Bool)0;
+      if(tmp_if_expr_1)
       {
         signed int k;
         signed int i;
@@ -13660,9 +13660,9 @@ void rmdUpdateImage(struct _XDisplay *dpy, struct anonymous$45 *yuv, struct _Dis
           }
           yuv_y = yuv_y + (signed long int)(yuv->y_width - (signed int)temp->rect.width);
         }
-        signed int rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$k;
-        signed int rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$i;
-        unsigned int rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$t_val;
+        signed int rmdUpdateImage__1__1__1__3__1__1__2__k;
+        signed int rmdUpdateImage__1__1__1__3__1__1__2__i;
+        unsigned int rmdUpdateImage__1__1__1__3__1__1__2__t_val;
         unsigned char *yuv_u = yuv->u + (signed long int)((((signed int)temp->rect.x - (signed int)brwin->rrect.x) + enc->x_offset) / 2) + (signed long int)(((((signed int)temp->rect.y - (signed int)brwin->rrect.y) + enc->y_offset) * yuv->uv_width) / 2);
         unsigned char *yuv_v = yuv->v + (signed long int)((((signed int)temp->rect.x - (signed int)brwin->rrect.x) + enc->x_offset) / 2) + (signed long int)(((((signed int)temp->rect.y - (signed int)brwin->rrect.y) + enc->y_offset) * yuv->uv_width) / 2);
         unsigned char *_ur = Ur;
@@ -13670,16 +13670,16 @@ void rmdUpdateImage(struct _XDisplay *dpy, struct anonymous$45 *yuv, struct _Dis
         unsigned char *_ubvr = UbVr;
         unsigned char *_vg = Vg;
         unsigned char *_vb = Vb;
-        unsigned int *rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$datapi = (unsigned int *)dtap;
+        unsigned int *rmdUpdateImage__1__1__1__3__1__1__2__datapi = (unsigned int *)dtap;
         unsigned int *datapi_next = (unsigned int *)(void *)0;
         if(no_quick_subsample == 1)
-          datapi_next = rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$datapi + (signed long int)temp->rect.width;
+          datapi_next = rmdUpdateImage__1__1__1__3__1__1__2__datapi + (signed long int)temp->rect.width;
 
-        rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$k = 0;
-        for( ; !(rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$k >= (signed int)temp->rect.height); rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$k = rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$k + 2)
+        rmdUpdateImage__1__1__1__3__1__1__2__k = 0;
+        for( ; !(rmdUpdateImage__1__1__1__3__1__1__2__k >= (signed int)temp->rect.height); rmdUpdateImage__1__1__1__3__1__1__2__k = rmdUpdateImage__1__1__1__3__1__1__2__k + 2)
         {
-          rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$i = 0;
-          for( ; !(rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$i >= (signed int)temp->rect.width); rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$i = rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$i + 2)
+          rmdUpdateImage__1__1__1__3__1__1__2__i = 0;
+          for( ; !(rmdUpdateImage__1__1__1__3__1__1__2__i >= (signed int)temp->rect.width); rmdUpdateImage__1__1__1__3__1__1__2__i = rmdUpdateImage__1__1__1__3__1__1__2__i + 2)
           {
             if(no_quick_subsample == 1)
             {
@@ -13687,18 +13687,18 @@ void rmdUpdateImage(struct _XDisplay *dpy, struct anonymous$45 *yuv, struct _Dis
               unsigned int t2;
               unsigned int t3;
               unsigned int t4;
-              t1 = *rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$datapi;
-              t2 = rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$datapi[(signed long int)1];
+              t1 = *rmdUpdateImage__1__1__1__3__1__1__2__datapi;
+              t2 = rmdUpdateImage__1__1__1__3__1__1__2__datapi[(signed long int)1];
               t3 = *datapi_next;
               t4 = datapi_next[(signed long int)1];
-              rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$t_val = (((t1 & (unsigned int)0x00ff0000) + (t2 & (unsigned int)0x00ff0000) + (t3 & (unsigned int)0x00ff0000) + (t4 & (unsigned int)0x00ff0000)) / (unsigned int)4 & (unsigned int)0x00ff0000) + (((t1 & (unsigned int)0x0000ff00) + (t2 & (unsigned int)0x0000ff00) + (t3 & (unsigned int)0x0000ff00) + (t4 & (unsigned int)0x0000ff00)) / (unsigned int)4 & (unsigned int)0x0000ff00) + (((t1 & (unsigned int)0x000000ff) + (t2 & (unsigned int)0x000000ff) + (t3 & (unsigned int)0x000000ff) + (t4 & (unsigned int)0x000000ff)) / (unsigned int)4 & (unsigned int)0x000000ff);
+              rmdUpdateImage__1__1__1__3__1__1__2__t_val = (((t1 & (unsigned int)0x00ff0000) + (t2 & (unsigned int)0x00ff0000) + (t3 & (unsigned int)0x00ff0000) + (t4 & (unsigned int)0x00ff0000)) / (unsigned int)4 & (unsigned int)0x00ff0000) + (((t1 & (unsigned int)0x0000ff00) + (t2 & (unsigned int)0x0000ff00) + (t3 & (unsigned int)0x0000ff00) + (t4 & (unsigned int)0x0000ff00)) / (unsigned int)4 & (unsigned int)0x0000ff00) + (((t1 & (unsigned int)0x000000ff) + (t2 & (unsigned int)0x000000ff) + (t3 & (unsigned int)0x000000ff) + (t4 & (unsigned int)0x000000ff)) / (unsigned int)4 & (unsigned int)0x000000ff);
             }
 
             else
-              rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$t_val = *rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$datapi;
-            *yuv_u = (unsigned char)((signed int)_ur[(signed long int)((rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$t_val & (unsigned int)0x00ff0000) >> 16)] + (signed int)_ug[(signed long int)((rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$t_val & (unsigned int)0x0000ff00) >> 8)] + (signed int)_ubvr[(signed long int)(rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$t_val & (unsigned int)0x000000ff)]);
-            *yuv_v = (unsigned char)((signed int)_ubvr[(signed long int)((rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$t_val & (unsigned int)0x00ff0000) >> 16)] + (signed int)_vg[(signed long int)((rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$t_val & (unsigned int)0x0000ff00) >> 8)] + (signed int)_vb[(signed long int)(rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$t_val & (unsigned int)0x000000ff)]);
-            rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$datapi = rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$datapi + (signed long int)2;
+              rmdUpdateImage__1__1__1__3__1__1__2__t_val = *rmdUpdateImage__1__1__1__3__1__1__2__datapi;
+            *yuv_u = (unsigned char)((signed int)_ur[(signed long int)((rmdUpdateImage__1__1__1__3__1__1__2__t_val & (unsigned int)0x00ff0000) >> 16)] + (signed int)_ug[(signed long int)((rmdUpdateImage__1__1__1__3__1__1__2__t_val & (unsigned int)0x0000ff00) >> 8)] + (signed int)_ubvr[(signed long int)(rmdUpdateImage__1__1__1__3__1__1__2__t_val & (unsigned int)0x000000ff)]);
+            *yuv_v = (unsigned char)((signed int)_ubvr[(signed long int)((rmdUpdateImage__1__1__1__3__1__1__2__t_val & (unsigned int)0x00ff0000) >> 16)] + (signed int)_vg[(signed long int)((rmdUpdateImage__1__1__1__3__1__1__2__t_val & (unsigned int)0x0000ff00) >> 8)] + (signed int)_vb[(signed long int)(rmdUpdateImage__1__1__1__3__1__1__2__t_val & (unsigned int)0x000000ff)]);
+            rmdUpdateImage__1__1__1__3__1__1__2__datapi = rmdUpdateImage__1__1__1__3__1__1__2__datapi + (signed long int)2;
             if(no_quick_subsample == 1)
               datapi_next = datapi_next + (signed long int)2;
 
@@ -13707,7 +13707,7 @@ void rmdUpdateImage(struct _XDisplay *dpy, struct anonymous$45 *yuv, struct _Dis
           }
           yuv_u = yuv_u + (signed long int)((yuv->y_width - (signed int)temp->rect.width) / 2);
           yuv_v = yuv_v + (signed long int)((yuv->y_width - (signed int)temp->rect.width) / 2);
-          rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$datapi = rmdUpdateImage$$1$$1$$1$$3$$1$$1$$2$$datapi + (signed long int)temp->rect.width;
+          rmdUpdateImage__1__1__1__3__1__1__2__datapi = rmdUpdateImage__1__1__1__3__1__1__2__datapi + (signed long int)temp->rect.width;
           if(no_quick_subsample == 1)
             datapi_next = datapi_next + (signed long int)temp->rect.width;
 
@@ -13717,77 +13717,77 @@ void rmdUpdateImage(struct _XDisplay *dpy, struct anonymous$45 *yuv, struct _Dis
       else
         if(specs->depth == 16)
         {
-          signed int rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$k;
-          signed int rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$i;
-          unsigned short int rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$t_val;
-          unsigned char *rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$yuv_y = yuv->y + (signed long int)(((signed int)temp->rect.x - (signed int)brwin->rrect.x) + enc->x_offset) + (signed long int)((((signed int)temp->rect.y - (signed int)brwin->rrect.y) + enc->y_offset) * yuv->y_width);
-          unsigned char *rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$_yr = Yr;
-          unsigned char *rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$_yg = Yg;
-          unsigned char *rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$_yb = Yb;
-          unsigned short int *rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$datapi = (unsigned short int *)dtap;
-          rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$k = 0;
-          for( ; !(rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$k >= (signed int)temp->rect.height); rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$k = rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$k + 1)
+          signed int rmdUpdateImage__1__1__1__3__1__2__1__k;
+          signed int rmdUpdateImage__1__1__1__3__1__2__1__i;
+          unsigned short int rmdUpdateImage__1__1__1__3__1__2__1__t_val;
+          unsigned char *rmdUpdateImage__1__1__1__3__1__2__1__yuv_y = yuv->y + (signed long int)(((signed int)temp->rect.x - (signed int)brwin->rrect.x) + enc->x_offset) + (signed long int)((((signed int)temp->rect.y - (signed int)brwin->rrect.y) + enc->y_offset) * yuv->y_width);
+          unsigned char *rmdUpdateImage__1__1__1__3__1__2__1___yr = Yr;
+          unsigned char *rmdUpdateImage__1__1__1__3__1__2__1___yg = Yg;
+          unsigned char *rmdUpdateImage__1__1__1__3__1__2__1___yb = Yb;
+          unsigned short int *rmdUpdateImage__1__1__1__3__1__2__1__datapi = (unsigned short int *)dtap;
+          rmdUpdateImage__1__1__1__3__1__2__1__k = 0;
+          for( ; !(rmdUpdateImage__1__1__1__3__1__2__1__k >= (signed int)temp->rect.height); rmdUpdateImage__1__1__1__3__1__2__1__k = rmdUpdateImage__1__1__1__3__1__2__1__k + 1)
           {
-            rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$i = 0;
-            for( ; !(rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$i >= (signed int)temp->rect.width); rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$i = rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$i + 1)
+            rmdUpdateImage__1__1__1__3__1__2__1__i = 0;
+            for( ; !(rmdUpdateImage__1__1__1__3__1__2__1__i >= (signed int)temp->rect.width); rmdUpdateImage__1__1__1__3__1__2__1__i = rmdUpdateImage__1__1__1__3__1__2__1__i + 1)
             {
-              rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$t_val = *rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$datapi;
-              *rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$yuv_y = (unsigned char)((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$_yr[(signed long int)((((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$t_val & 0xf800) >> 11) * 8)] + (signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$_yg[(signed long int)((((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$t_val & 0x7e0) >> 5) * 4)] + (signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$_yb[(signed long int)(((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$t_val & 0x1f) * 8)]);
-              rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$datapi = rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$datapi + 1l;
-              rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$yuv_y = rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$yuv_y + 1l;
+              rmdUpdateImage__1__1__1__3__1__2__1__t_val = *rmdUpdateImage__1__1__1__3__1__2__1__datapi;
+              *rmdUpdateImage__1__1__1__3__1__2__1__yuv_y = (unsigned char)((signed int)rmdUpdateImage__1__1__1__3__1__2__1___yr[(signed long int)((((signed int)rmdUpdateImage__1__1__1__3__1__2__1__t_val & 0xf800) >> 11) * 8)] + (signed int)rmdUpdateImage__1__1__1__3__1__2__1___yg[(signed long int)((((signed int)rmdUpdateImage__1__1__1__3__1__2__1__t_val & 0x7e0) >> 5) * 4)] + (signed int)rmdUpdateImage__1__1__1__3__1__2__1___yb[(signed long int)(((signed int)rmdUpdateImage__1__1__1__3__1__2__1__t_val & 0x1f) * 8)]);
+              rmdUpdateImage__1__1__1__3__1__2__1__datapi = rmdUpdateImage__1__1__1__3__1__2__1__datapi + 1l;
+              rmdUpdateImage__1__1__1__3__1__2__1__yuv_y = rmdUpdateImage__1__1__1__3__1__2__1__yuv_y + 1l;
             }
-            rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$yuv_y = rmdUpdateImage$$1$$1$$1$$3$$1$$2$$1$$yuv_y + (signed long int)(yuv->y_width - (signed int)temp->rect.width);
+            rmdUpdateImage__1__1__1__3__1__2__1__yuv_y = rmdUpdateImage__1__1__1__3__1__2__1__yuv_y + (signed long int)(yuv->y_width - (signed int)temp->rect.width);
           }
-          signed int rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$k;
-          signed int rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$i;
-          unsigned short int rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$t_val;
-          unsigned char *rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$yuv_u = yuv->u + (signed long int)((((signed int)temp->rect.x - (signed int)brwin->rrect.x) + enc->x_offset) / 2) + (signed long int)(((((signed int)temp->rect.y - (signed int)brwin->rrect.y) + enc->y_offset) * yuv->uv_width) / 2);
-          unsigned char *rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$yuv_v = yuv->v + (signed long int)((((signed int)temp->rect.x - (signed int)brwin->rrect.x) + enc->x_offset) / 2) + (signed long int)(((((signed int)temp->rect.y - (signed int)brwin->rrect.y) + enc->y_offset) * yuv->uv_width) / 2);
-          unsigned char *rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$_ur = Ur;
-          unsigned char *rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$_ug = Ug;
-          unsigned char *rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$_ubvr = UbVr;
-          unsigned char *rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$_vg = Vg;
-          unsigned char *rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$_vb = Vb;
-          unsigned short int *rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$datapi = (unsigned short int *)dtap;
-          unsigned short int *rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$datapi_next = (unsigned short int *)(void *)0;
+          signed int rmdUpdateImage__1__1__1__3__1__2__2__k;
+          signed int rmdUpdateImage__1__1__1__3__1__2__2__i;
+          unsigned short int rmdUpdateImage__1__1__1__3__1__2__2__t_val;
+          unsigned char *rmdUpdateImage__1__1__1__3__1__2__2__yuv_u = yuv->u + (signed long int)((((signed int)temp->rect.x - (signed int)brwin->rrect.x) + enc->x_offset) / 2) + (signed long int)(((((signed int)temp->rect.y - (signed int)brwin->rrect.y) + enc->y_offset) * yuv->uv_width) / 2);
+          unsigned char *rmdUpdateImage__1__1__1__3__1__2__2__yuv_v = yuv->v + (signed long int)((((signed int)temp->rect.x - (signed int)brwin->rrect.x) + enc->x_offset) / 2) + (signed long int)(((((signed int)temp->rect.y - (signed int)brwin->rrect.y) + enc->y_offset) * yuv->uv_width) / 2);
+          unsigned char *rmdUpdateImage__1__1__1__3__1__2__2___ur = Ur;
+          unsigned char *rmdUpdateImage__1__1__1__3__1__2__2___ug = Ug;
+          unsigned char *rmdUpdateImage__1__1__1__3__1__2__2___ubvr = UbVr;
+          unsigned char *rmdUpdateImage__1__1__1__3__1__2__2___vg = Vg;
+          unsigned char *rmdUpdateImage__1__1__1__3__1__2__2___vb = Vb;
+          unsigned short int *rmdUpdateImage__1__1__1__3__1__2__2__datapi = (unsigned short int *)dtap;
+          unsigned short int *rmdUpdateImage__1__1__1__3__1__2__2__datapi_next = (unsigned short int *)(void *)0;
           if(no_quick_subsample == 1)
-            rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$datapi_next = rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$datapi + (signed long int)temp->rect.width;
+            rmdUpdateImage__1__1__1__3__1__2__2__datapi_next = rmdUpdateImage__1__1__1__3__1__2__2__datapi + (signed long int)temp->rect.width;
 
-          rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$k = 0;
-          for( ; !(rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$k >= (signed int)temp->rect.height); rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$k = rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$k + 2)
+          rmdUpdateImage__1__1__1__3__1__2__2__k = 0;
+          for( ; !(rmdUpdateImage__1__1__1__3__1__2__2__k >= (signed int)temp->rect.height); rmdUpdateImage__1__1__1__3__1__2__2__k = rmdUpdateImage__1__1__1__3__1__2__2__k + 2)
           {
-            rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$i = 0;
-            for( ; !(rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$i >= (signed int)temp->rect.width); rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$i = rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$i + 2)
+            rmdUpdateImage__1__1__1__3__1__2__2__i = 0;
+            for( ; !(rmdUpdateImage__1__1__1__3__1__2__2__i >= (signed int)temp->rect.width); rmdUpdateImage__1__1__1__3__1__2__2__i = rmdUpdateImage__1__1__1__3__1__2__2__i + 2)
             {
               if(no_quick_subsample == 1)
               {
-                unsigned short int rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t1;
-                unsigned short int rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t2;
-                unsigned short int rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t3;
-                unsigned short int rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t4;
-                rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t1 = *rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$datapi;
-                rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t2 = rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$datapi[(signed long int)1];
-                rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t3 = *rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$datapi_next;
-                rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t4 = rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$datapi_next[(signed long int)1];
-                rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$t_val = (unsigned short int)(((((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t1 & 0xf800) + ((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t2 & 0xf800) + ((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t3 & 0xf800) + ((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t4 & 0xf800)) / 4 & 0xf800) + ((((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t1 & 0x7e0) + ((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t2 & 0x7e0) + ((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t3 & 0x7e0) + ((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t4 & 0x7e0)) / 4 & 0x7e0) + ((((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t1 & 0x1f) + ((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t2 & 0x1f) + ((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t3 & 0x1f) + ((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$2$$1$$1$$1$$1$$1$$t4 & 0x1f)) / 4 & 0x1f));
+                unsigned short int rmdUpdateImage__1__1__1__3__1__2__2__2__1__1__1__1__1__t1;
+                unsigned short int rmdUpdateImage__1__1__1__3__1__2__2__2__1__1__1__1__1__t2;
+                unsigned short int rmdUpdateImage__1__1__1__3__1__2__2__2__1__1__1__1__1__t3;
+                unsigned short int rmdUpdateImage__1__1__1__3__1__2__2__2__1__1__1__1__1__t4;
+                rmdUpdateImage__1__1__1__3__1__2__2__2__1__1__1__1__1__t1 = *rmdUpdateImage__1__1__1__3__1__2__2__datapi;
+                rmdUpdateImage__1__1__1__3__1__2__2__2__1__1__1__1__1__t2 = rmdUpdateImage__1__1__1__3__1__2__2__datapi[(signed long int)1];
+                rmdUpdateImage__1__1__1__3__1__2__2__2__1__1__1__1__1__t3 = *rmdUpdateImage__1__1__1__3__1__2__2__datapi_next;
+                rmdUpdateImage__1__1__1__3__1__2__2__2__1__1__1__1__1__t4 = rmdUpdateImage__1__1__1__3__1__2__2__datapi_next[(signed long int)1];
+                rmdUpdateImage__1__1__1__3__1__2__2__t_val = (unsigned short int)(((((signed int)rmdUpdateImage__1__1__1__3__1__2__2__2__1__1__1__1__1__t1 & 0xf800) + ((signed int)rmdUpdateImage__1__1__1__3__1__2__2__2__1__1__1__1__1__t2 & 0xf800) + ((signed int)rmdUpdateImage__1__1__1__3__1__2__2__2__1__1__1__1__1__t3 & 0xf800) + ((signed int)rmdUpdateImage__1__1__1__3__1__2__2__2__1__1__1__1__1__t4 & 0xf800)) / 4 & 0xf800) + ((((signed int)rmdUpdateImage__1__1__1__3__1__2__2__2__1__1__1__1__1__t1 & 0x7e0) + ((signed int)rmdUpdateImage__1__1__1__3__1__2__2__2__1__1__1__1__1__t2 & 0x7e0) + ((signed int)rmdUpdateImage__1__1__1__3__1__2__2__2__1__1__1__1__1__t3 & 0x7e0) + ((signed int)rmdUpdateImage__1__1__1__3__1__2__2__2__1__1__1__1__1__t4 & 0x7e0)) / 4 & 0x7e0) + ((((signed int)rmdUpdateImage__1__1__1__3__1__2__2__2__1__1__1__1__1__t1 & 0x1f) + ((signed int)rmdUpdateImage__1__1__1__3__1__2__2__2__1__1__1__1__1__t2 & 0x1f) + ((signed int)rmdUpdateImage__1__1__1__3__1__2__2__2__1__1__1__1__1__t3 & 0x1f) + ((signed int)rmdUpdateImage__1__1__1__3__1__2__2__2__1__1__1__1__1__t4 & 0x1f)) / 4 & 0x1f));
               }
 
               else
-                rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$t_val = *rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$datapi;
-              *rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$yuv_u = (unsigned char)((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$_ur[(signed long int)((((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$t_val & 0xf800) >> 11) * 8)] + (signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$_ug[(signed long int)((((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$t_val & 0x7e0) >> 5) * 4)] + (signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$_ubvr[(signed long int)(((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$t_val & 0x1f) * 8)]);
-              *rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$yuv_v = (unsigned char)((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$_ubvr[(signed long int)((((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$t_val & 0xf800) >> 11) * 8)] + (signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$_vg[(signed long int)((((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$t_val & 0x7e0) >> 5) * 4)] + (signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$_vb[(signed long int)(((signed int)rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$t_val & 0x1f) * 8)]);
-              rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$datapi = rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$datapi + (signed long int)2;
+                rmdUpdateImage__1__1__1__3__1__2__2__t_val = *rmdUpdateImage__1__1__1__3__1__2__2__datapi;
+              *rmdUpdateImage__1__1__1__3__1__2__2__yuv_u = (unsigned char)((signed int)rmdUpdateImage__1__1__1__3__1__2__2___ur[(signed long int)((((signed int)rmdUpdateImage__1__1__1__3__1__2__2__t_val & 0xf800) >> 11) * 8)] + (signed int)rmdUpdateImage__1__1__1__3__1__2__2___ug[(signed long int)((((signed int)rmdUpdateImage__1__1__1__3__1__2__2__t_val & 0x7e0) >> 5) * 4)] + (signed int)rmdUpdateImage__1__1__1__3__1__2__2___ubvr[(signed long int)(((signed int)rmdUpdateImage__1__1__1__3__1__2__2__t_val & 0x1f) * 8)]);
+              *rmdUpdateImage__1__1__1__3__1__2__2__yuv_v = (unsigned char)((signed int)rmdUpdateImage__1__1__1__3__1__2__2___ubvr[(signed long int)((((signed int)rmdUpdateImage__1__1__1__3__1__2__2__t_val & 0xf800) >> 11) * 8)] + (signed int)rmdUpdateImage__1__1__1__3__1__2__2___vg[(signed long int)((((signed int)rmdUpdateImage__1__1__1__3__1__2__2__t_val & 0x7e0) >> 5) * 4)] + (signed int)rmdUpdateImage__1__1__1__3__1__2__2___vb[(signed long int)(((signed int)rmdUpdateImage__1__1__1__3__1__2__2__t_val & 0x1f) * 8)]);
+              rmdUpdateImage__1__1__1__3__1__2__2__datapi = rmdUpdateImage__1__1__1__3__1__2__2__datapi + (signed long int)2;
               if(no_quick_subsample == 1)
-                rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$datapi_next = rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$datapi_next + (signed long int)2;
+                rmdUpdateImage__1__1__1__3__1__2__2__datapi_next = rmdUpdateImage__1__1__1__3__1__2__2__datapi_next + (signed long int)2;
 
-              rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$yuv_u = rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$yuv_u + 1l;
-              rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$yuv_v = rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$yuv_v + 1l;
+              rmdUpdateImage__1__1__1__3__1__2__2__yuv_u = rmdUpdateImage__1__1__1__3__1__2__2__yuv_u + 1l;
+              rmdUpdateImage__1__1__1__3__1__2__2__yuv_v = rmdUpdateImage__1__1__1__3__1__2__2__yuv_v + 1l;
             }
-            rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$yuv_u = rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$yuv_u + (signed long int)((yuv->y_width - (signed int)temp->rect.width) / 2);
-            rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$yuv_v = rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$yuv_v + (signed long int)((yuv->y_width - (signed int)temp->rect.width) / 2);
-            rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$datapi = rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$datapi + (signed long int)temp->rect.width;
+            rmdUpdateImage__1__1__1__3__1__2__2__yuv_u = rmdUpdateImage__1__1__1__3__1__2__2__yuv_u + (signed long int)((yuv->y_width - (signed int)temp->rect.width) / 2);
+            rmdUpdateImage__1__1__1__3__1__2__2__yuv_v = rmdUpdateImage__1__1__1__3__1__2__2__yuv_v + (signed long int)((yuv->y_width - (signed int)temp->rect.width) / 2);
+            rmdUpdateImage__1__1__1__3__1__2__2__datapi = rmdUpdateImage__1__1__1__3__1__2__2__datapi + (signed long int)temp->rect.width;
             if(no_quick_subsample == 1)
-              rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$datapi_next = rmdUpdateImage$$1$$1$$1$$3$$1$$2$$2$$datapi_next + (signed long int)temp->rect.width;
+              rmdUpdateImage__1__1__1__3__1__2__2__datapi_next = rmdUpdateImage__1__1__1__3__1__2__2__datapi_next + (signed long int)temp->rect.width;
 
           }
         }
@@ -13835,25 +13835,25 @@ static signed int rmdValidateArguments(const struct _ProgArgs *args)
     success = 0;
   }
 
-  _Bool tmp_if_expr$1;
+  _Bool tmp_if_expr_1;
   if(!(args->v_quality >= 0))
-    tmp_if_expr$1 = (_Bool)1;
+    tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr$1 = args->v_quality > 63 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$1)
+    tmp_if_expr_1 = args->v_quality > 63 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_1)
   {
     fprintf(stdout, "--v_quality must be within the inclusive range [0-63].\n");
     success = 0;
   }
 
-  _Bool tmp_if_expr$2;
+  _Bool tmp_if_expr_2;
   if(!(args->v_bitrate >= 0))
-    tmp_if_expr$2 = (_Bool)1;
+    tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr$2 = args->v_quality > 2000000 ? (_Bool)1 : (_Bool)0;
-  if(tmp_if_expr$2)
+    tmp_if_expr_2 = args->v_quality > 2000000 ? (_Bool)1 : (_Bool)0;
+  if(tmp_if_expr_2)
   {
     fprintf(stdout, "--v_bitrate must be within the inclusive range [0-2000000].\n");
     success = 0;
@@ -13902,24 +13902,24 @@ char * rmdWMCheck(struct _XDisplay *dpy, unsigned long int root)
   utf8_string=XInternAtom(dpy, "UTF8_STRING", 0);
   nwm_atom=XInternAtom(dpy, "_NET_SUPPORTING_WM_CHECK", 1);
   wm_name_atom=XInternAtom(dpy, "_NET_WM_NAME", 1);
-  _Bool tmp_if_expr$3;
-  signed int return_value_XGetWindowProperty$2;
+  _Bool tmp_if_expr_3;
+  signed int return_value_XGetWindowProperty_2;
   if(!(nwm_atom == 0ul) && !(wm_name_atom == 0ul))
   {
-    signed int return_value_XGetWindowProperty$1;
-    return_value_XGetWindowProperty$1=XGetWindowProperty(dpy, root, nwm_atom, (signed long int)0, (signed long int)100, 0, (unsigned long int)33, &rt, &fmt, &nitems, &nbytes, (unsigned char **)(void *)&wm_child);
-    if(!(return_value_XGetWindowProperty$1 == 0))
+    signed int return_value_XGetWindowProperty_1;
+    return_value_XGetWindowProperty_1=XGetWindowProperty(dpy, root, nwm_atom, (signed long int)0, (signed long int)100, 0, (unsigned long int)33, &rt, &fmt, &nitems, &nbytes, (unsigned char **)(void *)&wm_child);
+    if(!(return_value_XGetWindowProperty_1 == 0))
       fprintf(stderr, "Error while trying to get a window to identify the window manager.\n");
 
     if(wm_child == ((unsigned long int *)NULL))
-      tmp_if_expr$3 = (_Bool)1;
+      tmp_if_expr_3 = (_Bool)1;
 
     else
     {
-      return_value_XGetWindowProperty$2=XGetWindowProperty(dpy, *wm_child, wm_name_atom, (signed long int)0, (signed long int)100, 0, utf8_string, &rt, &fmt, &nitems, &nbytes, (unsigned char **)(void *)&wm_name_str);
-      tmp_if_expr$3 = return_value_XGetWindowProperty$2 != 0 ? (_Bool)1 : (_Bool)0;
+      return_value_XGetWindowProperty_2=XGetWindowProperty(dpy, *wm_child, wm_name_atom, (signed long int)0, (signed long int)100, 0, utf8_string, &rt, &fmt, &nitems, &nbytes, (unsigned char **)(void *)&wm_name_str);
+      tmp_if_expr_3 = return_value_XGetWindowProperty_2 != 0 ? (_Bool)1 : (_Bool)0;
     }
-    if(tmp_if_expr$3)
+    if(tmp_if_expr_3)
       fprintf(stderr, "Warning!!!\nYour window manager appears to be non-compliant!\n");
 
   }
@@ -13936,7 +13936,7 @@ signed int rmdWMIsCompositing(struct _XDisplay *dpy, signed int screen)
   unsigned long int atom;
   char buf[32l];
   char *window_manager;
-  window_manager=rmdWMCheck(dpy, (&((struct anonymous$146 *)dpy)->screens[(signed long int)screen])->root);
+  window_manager=rmdWMCheck(dpy, (&((struct anonymous_146 *)dpy)->screens[(signed long int)screen])->root);
   if(window_manager == ((char *)NULL))
     return 0;
 
@@ -13988,17 +13988,17 @@ signed int rmdWriteSpecsFile(struct _ProgData *pdata)
 
 // write_ogg_page_to_file
 // file skeleton.c line 81
-extern signed int write_ogg_page_to_file(struct anonymous$15 *og, struct _IO_FILE *out)
+extern signed int write_ogg_page_to_file(struct anonymous_15 *og, struct _IO_FILE *out)
 {
   signed int written;
-  unsigned long int return_value_fwrite$1;
-  return_value_fwrite$1=fwrite((const void *)og->header, (unsigned long int)1, (unsigned long int)og->header_len, out);
-  written = (signed int)return_value_fwrite$1;
-  unsigned long int return_value_fwrite$2;
+  unsigned long int return_value_fwrite_1;
+  return_value_fwrite_1=fwrite((const void *)og->header, (unsigned long int)1, (unsigned long int)og->header_len, out);
+  written = (signed int)return_value_fwrite_1;
+  unsigned long int return_value_fwrite_2;
   if(written >= 1)
   {
-    return_value_fwrite$2=fwrite((const void *)og->body, (unsigned long int)1, (unsigned long int)og->body_len, out);
-    written = written + (signed int)return_value_fwrite$2;
+    return_value_fwrite_2=fwrite((const void *)og->body, (unsigned long int)1, (unsigned long int)og->body_len, out);
+    written = written + (signed int)return_value_fwrite_2;
   }
 
   return written;
